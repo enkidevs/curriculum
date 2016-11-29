@@ -1,0 +1,1 @@
+Application architecture for user interfaces. Designed at Facebook along with React.
