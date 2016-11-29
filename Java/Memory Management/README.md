@@ -1,1 +1,1 @@
-undefined
+Want to improve the performance of your applications?  Understanding Garbage Collections is a must for you then!
