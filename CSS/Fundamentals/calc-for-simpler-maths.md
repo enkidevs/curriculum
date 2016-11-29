@@ -23,7 +23,7 @@ links:
 ---
 ## Content
 
-For styling a 7-column grid you may use something like : 
+For styling a 7-column grid you may use something like :
 ```
 .column-1-7 {
    width: 14.2857%;
@@ -60,11 +60,14 @@ You can also mix units!
 ---
 ## Revision
 
-What value for *w_dimension* and *h_dimension* respectively does the following CSS code generate using the *calc()* function? ???
+Which of the following `calc()` syntaxes is the correct one?
 ```css
 .generate {
-   w_dimension: calc(30% - 21px);
-   h_dimension: calc(100% / 3 * 4);
+   width: calc(30% - 21px);
+   height: calc(100% / 3 * 4);
 }
 ```
-*
+???
+*both
+*width
+*height
