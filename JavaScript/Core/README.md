@@ -1,0 +1,1 @@
+The fundamental backbone of knowledge. For life. Well, for Javascript. 
