@@ -1,0 +1,1 @@
+The event-based bi-directional communication layer for realtime web applications.
