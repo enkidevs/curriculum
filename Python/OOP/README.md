@@ -1,0 +1,1 @@
+Objects, Classes, Inheritance. The basics of object-oriented programming applied to Python.
