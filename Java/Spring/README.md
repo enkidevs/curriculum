@@ -1,0 +1,1 @@
+Spring is the most popular framework for Java EE useful for both standard Java applications, but also for web applications. It is truly lightweight and makes development easier, providing a POJO-based programming model.
