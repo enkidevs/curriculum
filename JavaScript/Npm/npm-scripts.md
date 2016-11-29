@@ -25,7 +25,7 @@ Inside the `package.json` file you can specify a `scripts` section which defines
 
 Whenever you enter `$ npm run <command>` the script with the `<command>` name will be run.
 
-Scripts can e useful to avoid having to globally install node packages. Let's say you're using **Mocha**, rather than doing
+Scripts can be useful to avoid having to globally install node packages. Let's say you're using **Mocha**, rather than doing
 ```bash
 $ npm install -g mocha
 ```
