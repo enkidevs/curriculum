@@ -1,0 +1,1 @@
+The sixth edition of Ecmascript. Get up to speed with the new syntax for writing complex applications, including classes, modules, arrow functions and more. 
