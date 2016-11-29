@@ -1,5 +1,5 @@
-# Using the double tilde `~~` 
-author: pawel
+# Using the double tilde ~~
+author: adamMontgomerie
 
 levels:
 
@@ -9,66 +9,62 @@ levels:
 
   - medium
 
-type: normal
+type: fillTheGap
 
-category: hack
-
-tags:
-
-  - double-tilde
+category: tip
 
 ---
 ## Content
 
-The double tilde `~~` is a quick way to truncate a value to an integer. For example:
-
-```javascript
-console.log( ~~12.34 ); // 12
-console.log( ~~"56.78" ); // 56
-console.log( ~~-2.6 ); // -2
-```
-It never returns `NaN`. If the check fails, it simply returns `0`.
-
-```
-console.log( ~~"Sunny" ); // 0
-console.log( ~~[] ); // 0
-console.log( ~~null ); // 0
-```
+Your goal is to determine what the console will print out for each given value of `x`.
 
 ---
-## Practice
+## Game Content
 
-What does the following JS code snippet output?
-
-```javascript
-console.log(~~15); // ???
-console.log(~~"7.08"); // ???
-console.log(~~"-1.92"); // ???
-console.log(~~{}); // ???
 ```
-* 15
-* 7
-* -1
-* 0
-* -15
-* 1.5
-* 7.1
-* 8
-* -2
-* 1
-* NaN
-
+var x = 3.5;
+console.log(~~x); //prints ???
+```
+*`3`
+*`3.5`
+*`-3`
 ---
-## Revision
-
-The following code will output 
-```javascript
-console.log( ~~12.34 ); // ???
-console.log( ~~"56.78" ); // ???
-console.log( ~~"Sunny" ); // ???
 ```
-*12
-*56
-*0
-*NaN
-*”56”
+var x = -7.394;
+console.log(~~x); //prints ???
+```
+*`-7`
+*`7`
+*`-7.394`
+---
+```
+var x = true;
+console.log(~~x); //prints ???
+```
+*`1`
+*`true`
+*`NaN`
+---
+```
+var x = "Enki";
+console.log(~~x); //prints ???
+```
+*`0`
+*`Enki`
+*`NaN`
+---
+```
+var x = "";
+console.log(~~x); //prints ???
+```
+*`0`
+*` `
+*`1`
+---
+```
+var x = false;
+console.log(~~x); //prints ???
+```
+*`0`
+*`NaN`
+*`1`
