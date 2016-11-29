@@ -1,0 +1,1 @@
+For all your compression and decompression needs. Provides bindings to Gzip/Gunzip, Deflate/Inflate and DeflateRaw/InflateRaw classes.
