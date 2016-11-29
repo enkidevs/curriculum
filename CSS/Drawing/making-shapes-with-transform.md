@@ -33,7 +33,7 @@ Applying the `transform` property on a regular square can create a diamond, for 
   transform: rotate(45deg);
 }
 ```
-The default rotation point is the center of the element. `transform-origin` can change that: it can take 2 (for 2D shapes) or 3 (for 3D shapes) values, as the `x` and `y` coordinates of the new rotation point.
+The default rotation point is the center of the element. `transform-origin` can change that: it can take 2 (for 2D shapes) or 3 (for 3D shapes) values, as the `x` and `y` coordinates of the new rotation pointaweawe.
 
 The center of a 2D shape is:
 ```
