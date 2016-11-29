@@ -32,7 +32,7 @@ div {
   border: 3px solid red;
   border-radius: 15px 10px;
 }
-``` 
+```
 Using one value will determine the horizontal and vertical radii equally.
 
 To style the `border-radius` for each individual border, use `border-top-right-radius`, `border-top-left-radius` etc.
@@ -48,12 +48,16 @@ To obtain a circle, use `border-radius: 50%`.
 ---
 ## Revision
 
-What does the following CSS code do? ???
+Consider the snippet:
 ```css
 #element {
    border-radius: 22px 15px;
-} 
+}
 ```
-* Defines the horizontal and vertical radii of a quarter elipse (rounded corner) as 22px and 15px respectively. 
-* Defines the horizontal and vertical radii of a quarter elipse (rounded corner) as 15px and 22px respectively.
-* Defines a border 22px long and 15px thick.
+The first number in the two-values syntax of the `border-radius` will shape
+
+???
+*top-left and bottom-right corners
+*top-left and bottom-left corners
+*top-right and bottom-left corners
+*top-right and bottom-right corners
