@@ -1,0 +1,1 @@
+Streams are an important and versatile tool, built to improve the efficiency of the internals of Node.js.
