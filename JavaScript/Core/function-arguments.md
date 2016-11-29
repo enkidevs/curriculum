@@ -1,0 +1,66 @@
+# Function Arguments
+author: alexjmackey
+
+levels:
+
+  - beginner
+
+type: normal
+
+inAlgoPool: false
+
+category: must-know
+
+---
+## Content
+
+When we pass variables to functions in JavaScript they are *passed by value* which means that if we manipulate the argument value inside the function, changes will not be reflected outside the function.
+ 
+However, when working with objects, changes to objects *are* reflected on the object itself.
+
+For example:
+```
+function changeVal(x){
+    x=1000;
+}
+
+var x = 5;
+changeVal(x);
+console.log(x);//still 5
+
+function changeObj(input){
+    input.name="Apple";
+}
+
+var obj = {name:"Enki"};
+changeObj(obj);
+console.log(obj.name);//Apple
+```
+
+---
+## Practice
+
+In JavaScript, variables are ???.
+
+*passed by value
+*passed by reference
+*passed by their object
+
+---
+## Revision
+
+What will the following snippet output?
+```
+function changeProp(obj){
+  obj.name = "John";
+}
+
+var per = { name : "Alex"};
+changeProp(per);
+console.log(per.name);
+// ???
+```
+*John
+*Alex
+*undefined
+*null
