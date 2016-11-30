@@ -42,7 +42,7 @@ The commit cherry-picked in the example was applied on ???.
 ---
 ## Revision
 
-To apply a *single* commit (from another branch) on the current branch, you use
+In order to apply a *single* commit (from another branch) on the current branch, you use
 ```
 $ git ??? a456bd7
 ```
