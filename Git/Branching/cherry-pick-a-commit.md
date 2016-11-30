@@ -13,7 +13,7 @@ type: normal
 
 category: feature
 
-parent: gibberish
+parent: managing-branches
 
 links:
 
