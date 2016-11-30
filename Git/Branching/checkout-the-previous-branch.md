@@ -1,6 +1,5 @@
 # Checkout the previous branch
 author: rosielowther
-aa
 
 levels:
 
@@ -22,7 +21,7 @@ links:
 ---
 ## Content
 
-There is a shorthand to checkout the previous branch:
+There is a shorthand sd to checkout the previous branch:
 ```
 $ git checkout -
 ```
