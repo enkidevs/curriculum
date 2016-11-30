@@ -36,15 +36,16 @@ This is most useful when you are unable to merge the two branches. For example, 
 ## Practice
 
 The commit cherry-picked in the example was applied on ???.
+ ???
+
 *master
-*other branch
 
 ---
 ## Revision
 
 In order to apply a *single* commit (from another branch) on the current branch, you use
 ```
-$ git a456bd7
+$ git ??? a456bd7
 ```
 *`cherry-pick`
 *`pick`
