@@ -40,8 +40,8 @@ This is most useful when you are unable to merge the two branches. For example, 
 The commit cherry-picked in the example was applied on ???. ???
 
 *master
-
----
+*second
+--
 ## Revision
 
 In order to apply a *single* commit (from another branch) on the current branch, you use
