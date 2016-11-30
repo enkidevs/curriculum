@@ -35,8 +35,7 @@ This is most useful when you are unable to merge the two branches. For example, 
 ---
 ## Practice
 
-The commit cherry-picked in the example was applied on ???.
- ???
+The commit cherry-picked in the example was applied on ???. ???
 
 *master
 
