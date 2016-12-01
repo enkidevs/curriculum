@@ -36,7 +36,9 @@ This is most useful when you are unable to merge the two branches. For example, 
 
 ---
 ## Practice
-
+```
+Another> 2 (ix) if long line code as to test the hook I'm just woring on. Don't mind this I'm just bored"
+```
 The commit cherry-picked in the example was applied on ???. ???
 
 *master
