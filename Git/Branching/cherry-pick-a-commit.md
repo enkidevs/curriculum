@@ -41,7 +41,7 @@ The commit cherry-picked in the example was applied on ???. ???
 
 *master
 *second
---
+---
 ## Revision
 
 In order to apply a *single* commit (from another branch) on the current branch, you use
@@ -51,7 +51,7 @@ $ git ??? a456bd7
 *`cherry-pick`
 *`pick`
 *`merge
-
+---
 ## Footnotes
 
 [1:ala bala]
