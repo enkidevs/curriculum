@@ -15,7 +15,6 @@ links:
     [andrewhfarmer.com](http://andrewhfarmer.com/what-is-react/){website}
 
 ---
-
 ## Content
 
 **React** is a *JavaScript* library[1] (not a framework[2]) created and maintained by **Facebook**, used for creating user interfaces.
