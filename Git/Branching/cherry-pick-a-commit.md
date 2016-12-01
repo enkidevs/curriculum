@@ -58,4 +58,7 @@ $ git ??? a456bd7
 Hello there.
 
 [2:two]
-Second footnote
+Second footnot
+```
+This is a really long code line which should not pass the editor checker for code width. Hopefully.
+```
