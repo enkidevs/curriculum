@@ -23,7 +23,7 @@ links:
 ---
 ## Content
 
-Cherry-picking is the[1]  method to apply a single, specific commit from another branch.iA  
+Cherry-pickin[1]g is the[2]  method to apply a single, specific commit from another branch.iA  
 
 For example:
 ```
@@ -56,3 +56,6 @@ $ git ??? a456bd7
 
 [1:ala bala]
 Hello there.
+
+[2:two]
+Second footnote
