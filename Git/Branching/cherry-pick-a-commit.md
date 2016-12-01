@@ -54,4 +54,5 @@ $ git ??? a456bd7
 
 ## Footnotes
 
-[1:ala bala] Hello there.`
+[1:ala bala]
+Hello there.
