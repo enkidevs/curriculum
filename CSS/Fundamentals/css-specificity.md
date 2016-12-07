@@ -38,7 +38,7 @@ p.cities {
 }
 ```
 The final font `color` of `<p>` elements will be `red`, even though `.cities` class
- declaration is below `p.cities`. 
+ declaration is below `p.cities`.
 
 This has to do with CSS specificity calculations. A general specificity is expressed by `(a, b, c, d)`.
 
@@ -86,16 +86,18 @@ However, because the selector with two classes has a higher specificity, `AB` wi
 
 If the HTML looked like this:
 ```html
-<p class="acl bcl" 
+<p class="acl bcl"
   style="color: orange">AB</p>
 <p class="acl">A</p>
 ```
 The text will be neither *green* nor *red*, but **orange**, as the inline style will have priority.
 
+![paragraphs](%253Csvg%2520viewBox%253D%25220%25200%2520300%2520800%2522%2520height%253D%2522auto%2522%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%253E%253Ctext%2520y%253D%252250%2522%2520fill%253D%2522red%2522%2520font-family%253D%2522'Roboto'%252C%2520sans-serif%2522%2520font-size%253D%252240%2522%253Eaclass%2520%252B%2520bclass%253C%252Ftext%253E%253Ctext%2520y%253D%2522110%2522%2520fill%253D%2522%252300f%2522%2520font-family%253D%2522'Roboto'%252C%2520sans-serif%2522%2520font-size%253D%252240%2522%253Eaclass%253C%252Ftext%253E%253Ctext%2520y%253D%2522170%2522%2520fill%253D%2522%25230f0%2522%2520font-family%253D%2522'Roboto'%252C%2520sans-serif%2522%2520font-size%253D%252240%2522%253Ebclass%253C%252Ftext%253E%253Ctext%2520y%253D%2522230%2522%2520fill%253D%2522orange%2522%2520font-family%253D%2522'Roboto'%252C%2520sans-serif%2522%2520font-size%253D%252240%2522%253Eaclass%2520%252B%2520bclass%2520%252B%2520inline%253C%252Ftext%253E%253C%252Fsvg%253E)
+
 ---
 ## Practice
 
-What is the specificity of the following CSS code snippet? 
+What is the specificity of the following CSS code snippet?
 ```css
 p#myParagraph .acl div.bcl {}
 ```
@@ -109,7 +111,7 @@ p#myParagraph .acl div.bcl {}
 ---
 ## Revision
 
-What is the specificity of the following CSS code snippet? 
+What is the specificity of the following CSS code snippet?
 ```css
 #nav.selected a{}
 ```
