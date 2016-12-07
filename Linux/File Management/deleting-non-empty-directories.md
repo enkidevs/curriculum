@@ -28,7 +28,7 @@ tags:
 
 Upon receiving the error:
 ```bash
-Failed to remove 'folder': 
+Failed to remove 'folder':
   Directory not empty
 ```
 
@@ -69,10 +69,8 @@ You can use letters `-f`, `-r`, `-v`:
 
 Complete the command to remove `old_folder` and print the name of each deleted file:
 ```
-$ ??? ??? ???
-         ~/old_folder
+$ ??? ??? ~/old_folder
 ```
-*`sudo`
 *`rm`
 *`-rv`
 *`-r`
@@ -84,10 +82,9 @@ $ ??? ??? ???
 
 Recursively force remove `old_folder` :
 ```
-$ ??? ??? ???
+$ ??? ???
          ~/old_folder
 ```
-*`sudo`
 *`rm`
 *`-rf`
 *`-rv`
