@@ -74,15 +74,15 @@ $ umask
 0077
 ```
 
-To apply this on all the users of the system you should add this in `/etc/profile` file or `~/.bashrc` file.
+To apply this for all the users of the system you should add this in `/etc/profile` file or their specific `~/.bashrc` file.
 
 ---
 ## Practice
 
-What default permission would a *new file* have if the `umask` is `334` (which translates into `-wx-wxr--`)?
+What default permission would a *new file* have if the `umask` is `314` (which translates to `-wx--xr--`)?
 
 ???
-*r--r---w-
+*r--rw--w-
 *r--r--r--
 *-wx-wx-w-
 *--x--x-wx
