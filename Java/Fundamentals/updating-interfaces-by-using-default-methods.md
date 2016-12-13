@@ -72,7 +72,7 @@ public interface Move{
 ---
 ## Revision
 
-Which type of method decalred in an interface requires some kind of implementation inside the said interface?
+Which type of method declared in an interface requires some kind of implementation inside the said interface?
 
 ???
 *Only default ones.
