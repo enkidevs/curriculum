@@ -63,16 +63,16 @@ public interface Move{
   }
 }
 ```
-*`default` 
-*`void` 
-*`private` 
-*`static` 
+*`default`
+*`void`
+*`private`
+*`static`
 *`public`
 
 ---
 ## Revision
 
-Which type of method of an interface requires some kind of implementation?
+Which type of method declared in an interface requires some kind of implementation inside the said interface?
 
 ???
 *Only default ones.
