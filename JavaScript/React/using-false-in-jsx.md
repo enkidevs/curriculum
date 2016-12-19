@@ -21,7 +21,7 @@ links:
 ---
 ## Content
 
-The usage of the `false` keyword in **JSX** and impicitly **React** is worth mentioning because of its volatile behaviour.
+The usage of the `false` keyword in **JSX** and implicitly **React** is worth mentioning because of its volatile behaviour.
 
 First of all, `false` is widely used to specify that a **React** element has no child:
 ```
@@ -35,7 +35,7 @@ ReactDOM.render(<div id={false} />, myNode);
 ```
 This will be rendered as `id="false"`.
 
-This will also happen when `false` will be set as value for an `input` : 
+This will also happen when `false` will be set as value for an `input` :
 ```
 ReactDOM.render(<input value={false} />,
  myNode);
