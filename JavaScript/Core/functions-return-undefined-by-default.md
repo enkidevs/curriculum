@@ -59,7 +59,7 @@ function foo(num) {
 }
 foo(1); // = ???
 foo(2); // = ???
-console.log(foo(3) === foo(1)); // = ???
+foo(3) === foo(1); // = ???
 ```
 *undefined
 *Enki
