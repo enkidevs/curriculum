@@ -61,7 +61,8 @@ NaN === NaN
 What will each of these output?
 ```javascript
 console.log(Number("enki")); // ???
-console.log(0/0 === Number("five")); // ???
+console.log(0/0 ===
+   Number("five")); // ???
 ```
 *NaN
 *false
