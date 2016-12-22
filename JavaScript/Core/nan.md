@@ -61,11 +61,11 @@ NaN === NaN
 What will each of these output?
 ```javascript
 console.log(Number("enki")); // ???
-console.log(0/0); // ???
-console.log("enki".toString()); // ???
+console.log(0/0 === Number("five")); // ???
 ```
 *NaN
-*NaN
-*Nan
+*false
 *enki
+*True
+*true
 *0
