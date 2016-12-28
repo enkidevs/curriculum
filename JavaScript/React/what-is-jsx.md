@@ -63,6 +63,7 @@ When rendered, this element will display `"Hey there"` as a `h2`.
 ## Practice
 
 What will the following **JSX** expression *transpiled* to?
+
 ```
 const el = <p><3 JSX</p>
 
@@ -71,6 +72,7 @@ const el = <p><3 JSX</p>
 const el = React.createElement(???,
  ???, ???)
 ```
+
 * `'p'`
 * `null`
 * `'<3 JSX'`
@@ -83,7 +85,6 @@ const el = React.createElement(???,
 ## Revision
 
 **JSX** expressions, after compilation, are transformed into
-
 ???.
 
 * `JavaScript` objects
