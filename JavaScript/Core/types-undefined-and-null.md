@@ -35,12 +35,12 @@ null is used to represent a deliberate absence of a value:
 var myNullValue=null;
 ```
 
-Confusingly, if you compare null and undefined you will find they are equal when using the standard equals comparison:
+Confusingly, if you compare null and undefined you will find they are equal when using the standard equals comparison (this will convert types):
 
 ```
 null  == undefined //true
 ```
-But when using strict comparison they are not equal:
+But when using strict comparison (this does not change types) they are not equal:
 
 ```
 null === undefined //false

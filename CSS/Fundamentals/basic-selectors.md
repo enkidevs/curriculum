@@ -19,7 +19,7 @@ links:
 ---
 ## Content
 
-Before discussing *specificity*, we should explain what a **selector** is. As stated in the first insight, selectors are a way of targeting particular HTML elements styling. 
+Before discussing *specificity*, we should explain what a **selector** is. As stated in the first insight, selectors are a way of targeting particular HTML elements styling.
 
 *Selectors* range from the simplest:
 ```css
@@ -52,7 +52,7 @@ And the HTML:
 
 ### Class Selectors
 
-Class selectors are more specific than *type selectors* because they select a smaller group of elements rather than all of one type. In the style sheet, they are always invoked with a period before the name of the class: 
+Class selectors are more specific than *type selectors* because they select a smaller group of elements rather than all of one type. In the style sheet, they are always invoked with a period before the name of the class:
 ```css
 .my-div{}
 .main-content{}
@@ -79,7 +79,7 @@ ID selectors have the most priority out the three, as they target one unique ele
 And the HTML:
 ```html
 <div id="myElement"></div>
-<h2 id="title"></div>
+<h2 id="title"></h2>
 ```
 
 ---

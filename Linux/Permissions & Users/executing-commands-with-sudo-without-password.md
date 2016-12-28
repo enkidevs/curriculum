@@ -3,8 +3,6 @@ author: tuwi.dc
 
 levels:
 
-  - basic
-
   - advanced
 
   - medium
@@ -30,13 +28,13 @@ To `sudo` without password, you can:
 - set the `sudoers` group to execute commands without being prompted
 - set it up only for our user
 
-Call `visudo` to start editing the 
+Call `visudo` to start editing the
 `/etc/sudoers` file and set to enable the feature for the group.
 ```
 %sudo ALL=NOPASSWD: ALL
 ```
 
-Alternatively, to enable it only for yourself: 
+Alternatively, to enable it only for yourself:
 ```
 YourUserName ALL=(ALL) NOPASSWD: ALL
 ```

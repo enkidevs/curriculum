@@ -21,13 +21,13 @@ One of the benefits of piping is that you can use it over networks and it does w
 You can copy files over the network in an instant. This archives the files into a `tar` file, compresses it (`tar.gz`) and then copies it to the server:
 
 ```
-$ tar cfz - folder | 
+$ tar cfz - folder |
   ssh user@enki 'tar xfz destdir'
 ```
 Flags:
 - `-c` creates a new archive
-- `-z` compresses the archive 
-- `-f` takes the files to be archived as argument
+- `-z` compresses the archive
+- `-f` specifies the filename used to tar into (`-` uses the standard output stream)
 - `-x` extracts the content
 
 You can use `-C` flag to specify a location in which the file to be extracted:
@@ -39,7 +39,7 @@ $ tar xfzC arch /folder1/folder2
 
 You can also create an image of your local data with:
 ```
-$ dd if=/folder/data | 
+$ dd if=/folder/data |
   ssh user@enki 'dd of=data.iso'
 ```
 Flags:
@@ -49,25 +49,9 @@ Flags:
 Note that half of the command is executed locally, while the other half is executed remotely.
 
 ---
-## Practice
-
-What would the sequential action flow for copying compressed files to a server be?
-```
-1. ???
-2. ???
-3. ???
-4. ???
-```
-You would also want to delete the archive on your machine. This is why piping the result might be better.
-*`archive and compress the file`
-*`log in to the server`
-*`copy it to the server`
-*`extract the archive`
-
----
 ## Revision
 
-Can you pipe data through an SSH connection? 
+Can you pipe data through an SSH connection?
 
 ???
 *Yes

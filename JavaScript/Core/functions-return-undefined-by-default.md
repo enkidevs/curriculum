@@ -22,13 +22,13 @@ notes: ''
 ---
 ## Content
 
-JavaScript is a **dynamic** programming language which means that it is not necessary to define the return type of a function. 
+JavaScript is a **dynamic** programming language which means that it is not necessary to define the return type of a function.
 
 If the function `return` statement is empty (or missing) the default value is `undefined`.
 
 For example:
 
-```c++
+```javascript
 function doSomething(num) {
   if (num === 1) {
     return;
@@ -38,9 +38,9 @@ function doSomething(num) {
   }
 }
 
-doSomething(1) // undefined 
+doSomething(1) // undefined
 doSomething(2) // 'Enki'
-doSomething(3) // undefined 
+doSomething(3) // undefined
 
 ```
 
@@ -59,10 +59,11 @@ function foo(num) {
 }
 foo(1); // = ???
 foo(2); // = ???
-foo(3); // = ???
+foo(3) === foo(1); // = ???
 ```
 *undefined
 *Enki
-*undefined
+*true
 *null
 *false
+*NaN

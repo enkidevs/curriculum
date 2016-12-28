@@ -38,7 +38,7 @@ The required values are the sizes of offset-x and offset-y of the shadow. You ca
 For example:
 ```css
 div {
-  box-shadow: 5px 5px 3px red;
+  box-shadow: 5px 5px 3px lightblue;
 }
 ```
 This `div` element will have shadow offset by 5px and a `blur-radius` of 3px.
@@ -46,7 +46,7 @@ This `div` element will have shadow offset by 5px and a `blur-radius` of 3px.
 Use the keyword `inset` to make the shadow appear inside the frame instead of as a drop shadow (which is default).
 ```css
 div.inset {
-  box-shadow: inset 5px 5px red;
+  box-shadow: inset 5px 5px lightblue;
 }
 ```
 You can see below the difference. The second square has `inset` shadowing:
@@ -59,9 +59,9 @@ You can see below the difference. The second square has `inset` shadowing:
 The first two parameters in the following code snippet are the ??? of the shadow.
 
 ```
-div { 
-  box-shadow: 4px 4px 2px red; 
-} 
+div {
+  box-shadow: 4px 4px 2px red;
+}
 ```
 
 *offset

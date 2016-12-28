@@ -28,8 +28,8 @@ var x = 5;
 changeVal(x);
 console.log(x);//still 5
 
-function changeObj(input){
-    input.name="Apple";
+function changeObj(x){
+    x.name="Apple";
 }
 
 var obj = {name:"Enki"};

@@ -1,5 +1,4 @@
-# Props in getInitialState Is an        
-Anti-Pattern
+# Props in getInitialState is an Anti-Pattern
 author: tommarshall
 
 levels:

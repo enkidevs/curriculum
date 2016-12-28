@@ -1,6 +1,4 @@
-# Conditional command execution
-
-(`&&` operator)
+# Conditional command execution (`&&` operator)
 author: nene
 
 levels:

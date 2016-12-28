@@ -21,11 +21,11 @@ E.g:
 ```java
 int myAge = 15;
 int hisAge = 15;
- 
+
 Integer myAgeInt = new Integer(15);
 Integer hisAgeInt = new Integer(15);
- 
-boolean primComp = myAgeInt == hisAgeInt;
+
+boolean primComp = myAge == hisAge;
 boolean wrapComp =
  myAgeInt.equals(hisAgeInt);
 ```
@@ -49,7 +49,7 @@ bool compare2 = a.equals(b);
 ```
 ???
 
-*`compare1` 
+*`compare1`
 *`compare2`
 
 ---
@@ -59,5 +59,5 @@ What are considered more efficient?
 
 ???
 
-*`primitive types` 
+*`primitive types`
 *`wrapper classes`

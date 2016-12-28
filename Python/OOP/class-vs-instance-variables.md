@@ -1,6 +1,4 @@
-# **Class** vs. **Instance** 
-
-variables
+# **Class** vs. **Instance** variables
 author: catalin
 
 levels:

@@ -36,7 +36,7 @@ var x=1; //number
 x="blah"; //reassign to string
 ```
 
-**typeOf**
+**typeof**
 
 You can check the type of value by using the typeof operator e.g.
 ```

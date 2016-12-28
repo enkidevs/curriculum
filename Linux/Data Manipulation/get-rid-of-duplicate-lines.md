@@ -35,9 +35,9 @@ Here is a one liner tip for you:
 $ awk '!(count[$0]++)' file_to_filter
 
 ```
-This is using `awk` to count the duplicate lines and print them - `{print}` is the default instruction.
+This is using `awk` to print the first occurrence of every line, no matter how many times the same line would appear afterwards - `{print}` is the default instruction.
 
-When a line is read (`$0` references the current line), it adds to an array that keeps track of the number of occurrences. 
+When a line is read (`$0` references the current line), it adds to an array that keeps track of the number of occurrences.
 
 The first time a line is met, awk prints it because `!0` is the equivalent of `true`. If the line was met before, `!count[line]` will only output `false`, therefore it won't be printed again.
 

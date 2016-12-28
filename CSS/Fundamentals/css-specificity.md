@@ -38,7 +38,7 @@ p.cities {
 }
 ```
 The final font `color` of `<p>` elements will be `red`, even though `.cities` class
- declaration is below `p.cities`. 
+ declaration is below `p.cities`.
 
 This has to do with CSS specificity calculations. A general specificity is expressed by `(a, b, c, d)`.
 
@@ -86,7 +86,7 @@ However, because the selector with two classes has a higher specificity, `AB` wi
 
 If the HTML looked like this:
 ```html
-<p class="acl bcl" 
+<p class="acl bcl"
   style="color: orange">AB</p>
 <p class="acl">A</p>
 ```
@@ -95,7 +95,7 @@ The text will be neither *green* nor *red*, but **orange**, as the inline style 
 ---
 ## Practice
 
-What is the specificity of the following CSS code snippet? 
+What is the specificity of the following CSS code snippet?
 ```css
 p#myParagraph .acl div.bcl {}
 ```
@@ -109,7 +109,7 @@ p#myParagraph .acl div.bcl {}
 ---
 ## Revision
 
-What is the specificity of the following CSS code snippet? 
+What is the specificity of the following CSS code snippet?
 ```css
 #nav.selected a{}
 ```

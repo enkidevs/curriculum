@@ -13,7 +13,7 @@ category: must-know
 
 links:
 
-  - '[jsbin.com){website}]([jsbin.com](https://jsbin.com){website}){website}'
+  - '[jsbin.com](https://jsbin.com){website}'
 
 ---
 ## Content
