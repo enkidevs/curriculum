@@ -71,25 +71,25 @@ const el = <p><3 JSX</p>
 const el = React.createElement(???,
  ???, ???)
 ```
-*`'p'`
-*`null`
-*`'<3 JSX'`
-*`<p>`
-*`jsx`
-*`'<p><3 JSX</p>'`
-*`'</p>'`
+* `'p'`
+* `null`
+* `'<3 JSX'`
+* `<p>`
+* `jsx`
+* `'<p><3 JSX</p>'`
+* `'</p>'`
 
 ---
-## Revise
+## Revision
 
 **JSX** expressions, after compilation, are transformed into
 
 ???.
 
-*`JavaScript` objects
-*`HTML` elements
-*`JSX` entities
-*`XML` elements
+* `JavaScript` objects
+* `HTML` elements
+* `JSX` entities
+* `XML` elements
 
 ---
 ## Footnotes
