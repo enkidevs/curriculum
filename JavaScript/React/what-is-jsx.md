@@ -59,6 +59,7 @@ When rendered, this element will display `"Hey there"` as a `h2`.
 
 **React** doesn't require **JSX** usage, but its usage is highly encouraged as well as `Babel` compiling.
 
+
 ---
 ## Practice
 
