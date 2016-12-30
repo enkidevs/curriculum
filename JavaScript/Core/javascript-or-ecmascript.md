@@ -19,11 +19,11 @@ links:
 ---
 ## Content
 
-JavaScript was submitted in 1996 but later standardised as **EcmaScript-262**. 
-
-At the time of writing the current version of EcmaScript is **EcmaScript 2016** which is also sometimes referred to as **EcmaScript 6** or just **ES6**.
+The language that would become JavaScript was created in by **Brendan Eich**  in 1995 and then standardised by an organisation called ECMA as **EcmaScript-262**. 
 
 JavaScript is considered a **dialect** (or implementation) of EcmaScript but there are other popular dialects in use such as Adobe’s ActionScript.
+
+At the time of writing the current version of EcmaScript is **EcmaScript 2016** which is also sometimes referred to as **EcmaScript 6** or just **ES6**.
 
 **EcmaScript and Web Pages**
  
