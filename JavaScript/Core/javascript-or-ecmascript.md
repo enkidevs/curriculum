@@ -19,7 +19,7 @@ links:
 ---
 ## Content
 
-The language that would become JavaScript was created in by **Brendan Eich**  in 1995 and then standardised by an organisation called ECMA as **EcmaScript-262**. 
+The language that would become JavaScript was created by **Brendan Eich** in 1995 and then standardised by an organisation called ECMA as **EcmaScript-262**. 
 
 JavaScript is considered a **dialect** (or implementation) of EcmaScript but there are other popular dialects in use such as Adobe’s ActionScript.
 
