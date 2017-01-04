@@ -30,12 +30,16 @@ In addition to the previously stated reasons developers are eager to adopt this 
 - **React** is good for *Search Engine Optimisation* when employing server-side rendering
 - once you learn **React** you can easily switch to **React Native** to build applications
 
-**React Native** is a different `JS` open source library released by *Facebook* that follows the same design patterns as **React**. It's used to create applications for specific operating systems such as `Android`, `iOS` or `UWP`[2], but let's you recycle a big percent of code between them.
+**React Native** is a different `JS` open source library released by *Facebook*  that follows the same design patterns as **React**.
+
+ It's used to create applications for specific operating systems such as `Android`, `iOS` or `UWP`[2], but let's you recycle a big percent of code between them.
 
 ---
 ## Revision
 
-**React**'s performance is a result of its ??? .
+Which one of the following helps the most at **React**'s performance?
+
+???
 
 * **Virtual DOM** diff algorithm
 * JSX
