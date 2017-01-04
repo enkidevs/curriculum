@@ -7,6 +7,8 @@ levels:
 
 type: normal
 
+inAlgoPool: false
+
 category: must-know
 
 links:
@@ -40,7 +42,7 @@ Being built with performance in mind, **React** has become the first choice for 
 ---
 ## Practice
 
-**React** manages to keep the *DOM* in sync with the data model by ???.
+**React** manages to keep the *DOM* in sync with the data model by ??? .
 
 * rendering necessary changes with the help of the **Virtual DOM**
 * re-rendering the entire **DOM** on every change in data
@@ -50,7 +52,7 @@ Being built with performance in mind, **React** has become the first choice for 
 ---
 ## Revision
 
-**React** is a JavaScript ???.
+**React** is a JavaScript ??? .
 
 * library
 * framework

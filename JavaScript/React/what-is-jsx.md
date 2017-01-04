@@ -7,6 +7,8 @@ levels:
 
 type: normal
 
+inAlgoPool: false
+
 category: must-know
 
 links:
@@ -86,7 +88,7 @@ const el = React.createElement(???,
 ## Revision
 
 **JSX** expressions, after compilation, are transformed into
-???.
+??? .
 
 * `JavaScript` objects
 * `HTML` elements

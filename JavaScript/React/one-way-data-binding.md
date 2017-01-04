@@ -7,12 +7,17 @@ levels:
 
 type: normal
 
+inAlgoPool: false
+
 category: must-know
 
 links:
 
   - >-
     [stackoverflow.com](http://stackoverflow.com/questions/34519889/can-anyone-explain-the-difference-between-reacts-one-way-data-binding-and-angula){website}
+
+  - >-
+    [facebook.github.io](https://facebook.github.io/react/docs/two-way-binding-helpers.html){website}
 
 
 ---
