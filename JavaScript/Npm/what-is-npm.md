@@ -12,7 +12,7 @@ category: must-know
 
 links:
 
-  >-
+  - >-
     [docs.npmjs.com](https://docs.npmjs.com/getting-started/what-is-npm){website}
 
 ---
