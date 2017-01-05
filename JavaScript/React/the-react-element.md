@@ -73,9 +73,10 @@ const element = <h2>Enki<h2>;
 ---
 ## Revision
 
+
 **React** elements are
 
-???
+??? .
 
 * immutable
 * mutable
