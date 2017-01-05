@@ -27,10 +27,10 @@ The syntax to specify dependencies inside *package.json* is:
 ```javascript
 "dependencies" : {
   "name": "package-name",
- // version should always be declared as x.x.x
+//version should be declared as x.x.x
     "version": "1.2.5"
   }
-// or the shorthand notation
+//or the shorthand notation
 {
   "package-name": "1.2.5"
 }
@@ -49,7 +49,8 @@ The default generated file for a project called *example* would look like this:
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test 
+        specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
