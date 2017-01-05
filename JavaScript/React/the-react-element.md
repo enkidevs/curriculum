@@ -34,7 +34,7 @@ const element = <p>Enki was here</p>;
 
 `Element`s are plain objects and can cheaply be created and rendered into the **DOM**.
 
-The way `element`s are rendered is with help from the **React DOM**[1], under the `root`[1] node.
+The way `element`s are rendered is with help from the **React DOM**[1], under the `root`[2] node.
 
 Suppose in your **HTML** you have the `div`:
 ```
