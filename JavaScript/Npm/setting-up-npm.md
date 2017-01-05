@@ -37,7 +37,6 @@ var express = require('express');
 var app = express();
 ```
 ---
----
 ## Revision
 
 Install a package locally:
