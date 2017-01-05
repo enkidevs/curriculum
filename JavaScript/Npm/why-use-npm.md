@@ -8,15 +8,15 @@ type: normal
 
 inAlgoPool: false
 
-catergory: must-know
+category: must-know
 
 links:
 
  - >-
   [andrewhfarmer.com](http://andrewhfarmer.com/javascript-frontend-package-managers/){website}
 
- ---
- ## Content
+---
+## Content
 
 There are several options when it comes to JavaScript package managers.
 
@@ -28,8 +28,11 @@ Another option is **duo**. It uses `require()` statements inside the JavaScript 
 
 Out of these three, **npm** sticks out as being the *"package manager for JavaScript"*. Right now, there is no reason not to use npm.
 
- ---
- ## Revision
+---
+## Practice
+
+---
+## Revision
 
 An alternative package manager to npm is
 
