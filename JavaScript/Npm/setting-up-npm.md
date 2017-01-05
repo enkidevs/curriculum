@@ -1,0 +1,52 @@
+# Setting up npm
+author: mihaiberq
+
+levels:
+  - beginner
+
+type: normal
+
+inAlgoPool: false
+
+category: must-know
+
+
+---
+## Content
+
+Now that you have chosen to use **npm**, the next step is to install it: *npm* is included in the *Node.js*.
+
+As npm gets updated more often than node, you might want to get it to its latest version:
+```bash
+$ npm install npm@latest -g
+```
+
+This is syntax you are going to use when installing individual packages:
+```bash
+$ npm install packageName@version -g/-l
+```
+The `-g/-l` flag pair stands for *global* and *local*, respectively. When you install a package globally, every project that relies on it would use the same *version* of the package, which may cause problems with dependencies.
+
+The safest way to install packages is in the project folder, or locally. To check if the installation was successful, look for the *node_modules* directory which contains all the packages:
+```bash
+$ npm install express
+```
+If the version of the package is not specified, npm will install its latest version by default. Once the package is inside the *node_modules* directory, you can require it in your project:
+```javascript
+var express = require('express');
+var app = express();
+```
+---
+---
+## Revision
+
+Install a package locally:
+```bash
+$ ??? ??? ??? ???
+```
+* `npm`
+* `install`
+* `package`
+* `-l`
+* `-g`
+* `node`
