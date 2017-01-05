@@ -49,8 +49,8 @@ The default generated file for a project called *example* would look like this:
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test 
-        specified\" && exit 1"
+    "test": "echo \"Error: no test " +
+        "specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -87,6 +87,7 @@ Both will install the specified version of *express* and add them to the *packag
 
 ---
 ## Practice
+
 ```bash
 $ ??? ??? ???
 ```
