@@ -23,11 +23,14 @@ $ npm install npm@latest -g
 
 This is syntax you are going to use when installing individual packages:
 ```bash
-$ npm install packageName@version -g/-l
+$ npm install package-name@version (-g)
+# or
+$ npm i package-name@version (-g)
 ```
-The `-g/-l` flag pair stands for *global* and *local*, respectively. When you install a package globally, every project that relies on it would use the same *version* of the package, which may cause problems with dependencies.
 
-The safest way to install packages is in the project folder, or locally. To check if the installation was successful, look for the *node_modules* directory which contains all the packages:
+When you install a package globally, by appending the `-g` flag to the command , every project that relies on it would use the same *version* of the package, which may cause problems with dependencies.
+
+The safest way to install packages is in the project folder, or locally. For example, to check if the installation was successful, look for the *express* folder inside the *node_modules* directory:
 ```bash
 $ npm install express
 ```

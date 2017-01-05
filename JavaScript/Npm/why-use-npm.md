@@ -29,8 +29,6 @@ Another option is **duo**. It uses `require()` statements inside the JavaScript 
 Out of these three, **npm** sticks out as being the *"package manager for JavaScript"*. Right now, there is no reason not to use npm.
 
 ---
-
----
 ## Revision
 
 An alternative package manager to npm is
