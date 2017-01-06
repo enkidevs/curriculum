@@ -21,7 +21,7 @@ links:
 The best way to manage locally installed packages is through the **package.json** file. Here are some key points of why you should use one:
  - it serves as a documentation for the packages your project is using
  - it allows you to choose a specific package version that you might want to use in your project
- - running `npm install` in the same folder in which the *package.json* is located will install every dependency specified
+ - running `npm install` in the same folder in which the *package.json* is located will download every dependency specified
 
 The syntax to specify dependencies inside *package.json* is:
 ```javascript
@@ -76,9 +76,11 @@ Will create the default *package.json* file.
 ---
 ## Revision
 
-The `npm install` ??? flag adds a new dependency to *package.json*.
+The *package.json* file serves as
 
-* --save
-* --save-dev
-* -g
-* -l
+???
+
+* all of the above
+* a list of dependencies
+* a list of scripts to be run
+* a short description of your project
