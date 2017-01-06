@@ -37,6 +37,13 @@ $ npm install jest --save-dev
 ```
 Both will install the specified versions of *express* and *jest* and also add them to the *package.json* file.
 
+You can list all the existing dependencies of your project with:
+```
+$ npm list
+~/project
+|__ express@4.14.0
+|__ jest@18.0.0
+```
 This is the true power of *npm*. What would have required a lot of individual downloading and importing, is now solvable by adding a new line in the *package.json* file.
 
 ---
