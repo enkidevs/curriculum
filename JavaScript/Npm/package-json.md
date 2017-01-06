@@ -57,33 +57,7 @@ The default generated file for a project called *example* would look like this:
   "license": "ISC"
 }
 ```
-There are two types of packages you can include in your project:
- - **dependencies**: used in production
- - **devDependencies**: used in development and testing
-
-In a project that uses the latest minor *express 3* release in production and *express 4.14.0* in development, *package.json* should have these attributes:
-```
-{
-  "name": "example",
-  "version": "1.0.0",
-  "dependencies": {
-    "express": "^3.0.0",
-  },
-  "devDependencies": {
-    "express": "4.14.0"
-  }
-}
-```
-Notice the `^` before `3.0.0` that specifies the latest minor release, or the equivalent of `3.x`.
-
-Another way to specify each dependency is using the command line:
-```bash
-#dependencies
-$ npm install express@^3.0.0 --save
-#devDependencies
-$ npm install express --save-dev
-```
-Both will install the specified version of *express* and add them to the *package.json* file.
+This file is what makes some code a *package*.
 
 ---
 ## Practice
