@@ -1,0 +1,49 @@
+# yield
+author: alexjmackey
+
+levels:
+
+  - medium
+
+  - advanced
+
+type: normal
+
+category: must-know
+
+links:
+
+---
+## Content
+
+We can actually make our number example even more succinct by using the **yield*** expression:
+```
+function* genShort(){ 
+	yield* [1,2,3,4,5] 
+}
+```
+
+When we use yield* it iterates over values supplied in the expression.
+
+We could use this for example to split work between two generators:
+
+```
+function* gen1() {
+  yield 1;
+  yield* gen2();
+  yield 5;
+}
+function* gen2() {
+  yield 2;
+  yield 3;
+  yield 4;
+}
+var it = gen1();
+it.next(); // Object {value: 1, done: false}
+it.next(); // Object {value: 2, done: false}
+it.next(); // Object {value: 3, done: false}
+it.next(); // Object {value: 4, done: false}
+it.next(); // Object {value: 5, done: false}
+```
+
+---
