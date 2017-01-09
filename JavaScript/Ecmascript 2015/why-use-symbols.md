@@ -13,12 +13,10 @@ category: must-know
 
 links:
 
-  - '[ponyfoo](https://ponyfoo.com/articles/es6-symbols-in-depth)'
-
 ---
 ## Content
 
-As symbols are always unique they are great for library authors to defining values without fear of overwriting anything existing:
+As symbols are always unique they are great for library authors to defining values without fear of overwriting anything existing e.g.
 
 ```
 var companyKey = Symbol();
@@ -37,7 +35,7 @@ This is better than just defining a const string as there would be nothing to st
 ```
 const highDiscountLevel ="high";
 
-//uh oh 2 const representing same thing
+//uh oh 2 const's representing same thing
 const anotherDiscountLevel="high"
 ```
 

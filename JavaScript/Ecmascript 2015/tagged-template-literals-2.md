@@ -16,40 +16,47 @@ links:
 ---
 ## Content
 
-Below is our Tagged Template Literal:
+In the previous insight we defined a function called myFunc with the following signature:
 
 ```
-function myFunc(strings, subValue){
-... 
+function myFunc(literals, replacement){
+...
 }
-
-myFunc `Hello ${company} hows it going?`
 ```
 
-myFunc will receive the following values:
+When myFunc is called with a template literal the literals parameter will receive the following object:
 
 ```
-["Hello ", " hows it going?", raw: Array[2]] //strings
-enki //subValue
+["Hello ", " hows it going?", raw: Array[2]]
 ```
-The strings input parameter is an object containing an array of the literal values and also a raw property that contains an array of the raw versions of the strings.
 
-Note  if your literal has multiple replacement values they are mapped to subsequent function arguments e.g.
+This object contains an array of the literal values and also a raw property that contains an array of the raw versions of the strings:
+
+If your literal has multiple replacement values they will be mapped to subsequent function arguments:
+
 ```
 function myFunc(strings, subValue1, subValue2){
 ...
 }
 ```
-You could use the **rest** operator rather than define each value argument:
+
+Probably a better approach is to use the **rest** operator to map values to an array rather than define each argument:
+
 ```
 function myFunc(strings, …values){
 ...
 }
 ```
-Tagged Template Literals also allow us to replace values entirely:
+
+With access to literals and replacement values you can use Tagged Template Literals to perform additional processing logic on a string and even replace the string entirely - for example:
+
 ```
 function myFunc(strings, subValue){
 return "Goodbye " + subValue 
-} // "Goodbye Enki"
+} 
+
+myFunc `Hello ${company} hows it going?`
+// "Goodbye Enki"
 ```
+
 ---

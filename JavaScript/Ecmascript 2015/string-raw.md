@@ -16,30 +16,29 @@ links:
 ---
 ## Content
 
-String.Raw is an inbuilt tag function of template literals that allows you to interpret a template literal string as unprocessed text. If you are familiar with C# it’s a bit like prefixing a string with @.
+String.Raw is used to work with template strings and is best explained with an example:
 
-It is best explained with an example:
+In JavaScript **\n** is used to indicate a new line. 
 
-In JavaScript \n means new line so if we had the following template literal:
+Consider if we had the following template literal:
 ```
 `Line1\nLine2$!`;
 ```
-This would be interpreted as:
+When output this would be interpreted as:
 
 ```
 "Line1
 Line2"
 ```
 
-Sometimes it is desirable not to interpret the string and use it in its raw format.
-String.Raw allows you to process the string in its raw format:
+However sometimes it is desirable to work with a string template in its raw format - **String.Raw** allows you to do this:
 
 ```
 String.raw `Line1\nLine2`;
 "Line1\nLine2"
 ```
 
-Expressions are still processed when using String.raw:
+Note that expressions are still processed when using String.raw:
 
 ```
 var company="Enki";

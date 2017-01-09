@@ -18,14 +18,17 @@ links:
 ---
 ## Content
 
-ES6 introducesa new feature called template literals that make it easier to work with strings by replacing values and defining strings on multiple lines:
+ES6 introduces a new feature called template literals that make it easier to work with strings by replacing values and defining strings on multiple lines e.g.:
 
 ```
-var company = 'Enki';
-console.log(`Hello ${company} hows it going?`); //Hello Enki hows it going?
+var company = "Enki";
+console.log(
+`Hello ${company} hows it going?`
+); 
+//Hello Enki hows it going?
 ```
 
-Tagged template literals allow you to process the string and replacement values. 
+Tagged template literals allow you to process string and replacement values on a template literal. 
 
 They are created when a function call is specified before the literal itself e.g.
 
@@ -33,20 +36,26 @@ They are created when a function call is specified before the literal itself e.g
 myFunc `Hello ${company} hows it going?`
 ```
 
-But what input parameters does myFunc receive?
+But what arguments will myFunc receive?
 
-myFunc will receive 2 sets of parameters, literals and replacement values.
+myFunc will receive 2 sets of parameters, **literals** and **replacement** values.
 
-We can see this in action by redefining myFunc and logging the input:
+We can see this in action by redefining myFunc:
 
 ```
-function myFunc(strings, subValue){
-console.log(strings);  
-console.log(subValue) 
+function myFunc(literals, replacement){
+ console.log(literals);  
+ console.log(replacement) 
 }
-myFunc 'Hello ', ' ', ‘hows’, ‘it’,’going’)
-// ["Hello ", " hows it going?", raw: Array[2]]
+```
+
+Which will result in the following output:
+
+```
+//literals:
+//["Hello ", " hows it going?", raw: Array[2]]
+//replacement:
 // enki
 ```
-The tag function receives two types of inputs – literals such as Hello, hows, it and going and substitutions – in this case just company.
+
 ---
