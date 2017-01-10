@@ -18,20 +18,23 @@ links:
 
 Promises advantages really become apparent when you start working with more complex flows and multiple promises.
 
-We can chain promises together using the then function:
+We can chain promises together using the **then** function:
 
 ```
-var p = new Promise(function(resolve, reject) { 
-   setTimeout(function(){ resolve("enki")}, 2000);
-}).then(function(result){
-console.log("then 1");
- })
-.then(function(result){
-console.log("then 2");
+var p = 
+new Promise(function(resolve, reject){ 
+ setTimeout(function(){resolve("enki")}, 2000);
 })
 .then(function(result){
-console.log("finished");
- }); 
+ console.log("then 1");
+})
+.then(function(result){
+ console.log("then 2");
+})
+.then(function(result){
+ console.log("finished");
+}); 
+
 //then 1
 //then 2
 //finished

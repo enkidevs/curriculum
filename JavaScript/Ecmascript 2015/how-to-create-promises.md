@@ -25,8 +25,9 @@ These two arguments are mapped to special promise resolve and reject functions.
 The below code creates a new promise. 
 
 ```
-var p = new Promise(function(resolve, reject) { 
-   console.log(“I run immediately”); 
+var p = 
+new Promise(function(resolve, reject){ 
+ console.log("I run immediately"); 
 }).
 ```
 
@@ -38,21 +39,29 @@ Next is used with a promise object and allows you to define how you want to hand
 
 Let's pretend we want to call an external service to get a value and on successful completion log the returned value to the console.
  
-Note Instead of actually calling an external service we will use the setTimeout method to delay the return 2 seconds simulating making a remote call.
+Instead of actually calling an external service we will use the **setTimeout** method to delay the return 2 seconds simulating making a remote call.
 
 ```
-var p = new Promise(function(resolve, reject) { 
-   console.log("run immediately"); 
-   setTimeout(function(){ resolve("enki")}, 2000);
-}).then(function(result){console.log(result)}); 
+var p = 
+new Promise(function(resolve, reject) { 
+ console.log("run immediately"); 
+ setTimeout(function(){ resolve("enki")}, 2000);
+})
+.then(function(result){
+ console.log(result)
+}); 
 //logs run immediately
 //logs enki after 2 secs
 ```
 
-We declared a new promise supplying a function with two arguments resolve and reject. Next we used setTimeout to asynchronously call the resolve function after two seconds passing the value enki. When resolve was called after two seconds we then logged this value to the console.
+We declared a new promise supplying a function with two arguments resolve and reject. 
+
+Next we used setTimeout to asynchronously call the resolve function after two seconds passing the value enki. 
+
+When resolve was called after two seconds we then logged this value to the console.
 
 It is important to note that you cannot cancel a promise once it's being processed and you cant check on its current state either.
 
-Next let's look at how to indicate something went wrong in the promise.
+Next let's look at how to indicate something went wrong..
 
 ---
