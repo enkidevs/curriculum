@@ -13,26 +13,26 @@ category: must-know
 
 links:
 
-  - '[link to learn more](https://enki.com)'
-
 ---
 ## Content
 
 A module always exists in one file but within this file we can declare multiple functions.
-Let’s add a second function called triple.
+
+Let's expand upon our example and add a second function called triple.
  
-We will again use the **export** keyword to let JavaScript know we want to use this:
+We will again use the **export** keyword to let JavaScript know we want to expose this:
 
 ```
 export function triple(x) {
-    return x * 3;
+ return x * 3;
 } 
 ```
 
-Now if we just want to use specific functions from a module we can do the following:
+If we just want to just use specific functions from a module we can do so with the following syntax:
 
 ```
-import { triple as mathFuncs } from ‘double’;
+import { triple as mathFuncs } 
+from 'double';
 mathFuncs.triple(2); //6
 mathFuncs.double(2); //error not imported
 ```
@@ -40,10 +40,12 @@ mathFuncs.double(2); //error not imported
 As we have seen we can alias the module imported which is especially useful if it has a really long name:
 
 ```
-import {p as shortName} from 'moduleWithSomeReallyLongNames';
+import {p as shortName} from 
+'modWithReallyLongNames';
 ```
 
-There are numerous other ways we can export functions so the following is also valid:
+There are numerous other ways we can export functions:
+
 ```
 export { dbl, triple };
 export { dbl as double};
@@ -56,11 +58,11 @@ export default person { ··· }
 import person from 'person';
 ```
 
-Modules like variables are hoisted but imports and exports must exist at the top level of a module and cannot be conditional so the below is is invalid:
+Note that modules like variables are hoisted but imports and exports must exist at the top level of a module and cannot be conditional so the below is is invalid:
 
 ```
 if (condition) {
-    import 'double'; //error
+ import 'double'; //error
 }
 ```
 

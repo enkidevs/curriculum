@@ -16,21 +16,21 @@ links:
 ---
 ## Content
 
-The Extends keyword allows you to inherit from another class. Super keyword allows us to access functionality on the parent.
+The **extends** keyword allows you to inherit from another class and the **super** keyword allows us to access functionality on the parent.
 
-The below example creates a new class called Engineer that inherits from Person and calls Person's constructor. It also has a method called greet that will call the parent’s sayHello method:
+The below example creates a new class called Engineer that inherits from Person calling Person's constructor with the super keyword. Our Engineer class also has a method called greet that will call the parent classes sayHello method:
 
 ```
 var e= new Engineer("alex", 35);
 class Engineer extends Person {
-  constructor(name, age){
-   super(name)
-   this.age = age;
+ constructor(name, age){
+  super(name)
+  this.age = age;
  }
- greet: function(){
-super.sayHello();
 
-}
+ greet: function(){
+  super.sayHello();
+ }
 }
 ```
 
@@ -41,17 +41,18 @@ The static keyword creates a method on the class type itself and is often used f
 ```
 class UtilityMethods {
   static log(){
- 	console.log("hello");
+ 	console.log("hello enki");
   }
 };
 
 UtilityMethods.log();
 ```
 
-If you instantiate the class, you cannot call static methods on the instantiated class:
+Note if you instantiate a class with static methods then you cannot call static methods on the instantiated class:
 
 ```
 var a = new UtilityMethods()
-a.log();
+a.log(); //error
 ```
+
 ---

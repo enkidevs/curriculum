@@ -25,27 +25,30 @@ A sequence can be anything but for simplicity let's imagine we have an array of 
 [1,2,3,4,5];
 ```
 
-Whilst we could easily write a loop to iterate through these numbers let's write an iterator to do this.
+Whilst we could easily write a loop to iterate through these numbers let's write a function to return an iterator to do this.
 
 ```
 function getIterator(){
-    var numbers = [1,2,3,4,5];
-    var nextIndex = 0;    
-    return {
-       next: function(){
-		var valueToReturn = numbers[nextIndex];
-		nextIndex++;
-		return {
-			value: valueToReturn
-		}
-       }
-    };
+ var num = [1,2,3,4,5];
+ var nextIndex = 0;    
+ 
+ return {
+  next: function(){
+   var x = num[nextIndex];
+   nextIndex++;
+   return {
+    value: x
+   }
+  }
+ };
 }
 ```
 
 What's going on here?
 
-We have defined two variables – our sequence of numbers (numbers) and another (nextIndex) to keep track of our current position. We then return an object with a next method that will retrieve a value at the current position, increment the position and return an object with our value in the value property.
+We have defined two variables - our sequence of numbers (num) and another (nextIndex) to keep track of our current position. 
+
+We then return an object with a next method that will retrieve a value at the current position, increment the position and return an object with our value in the value property.
 
 We can use this iterator as follows:
 

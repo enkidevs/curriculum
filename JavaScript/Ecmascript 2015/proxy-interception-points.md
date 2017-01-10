@@ -37,10 +37,10 @@ Here is an example of intercepting delete calls:
 
 ```
 var handler = {
-deleteProperty (target, key) {
-    console.log("ignoring delete");
-    return true
-  }
+ deleteProperty (target, key) {
+  console.log("ignoring delete");
+  return true
+ }
 }
 
 var obj = { x: 'y' }
@@ -48,4 +48,5 @@ var proxy = new Proxy(obj, handler)
 delete proxy.x; //ignoring delete
 console.log(obj.x); //y
 ```
+
 ---

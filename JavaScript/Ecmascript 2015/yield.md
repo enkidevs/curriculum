@@ -16,16 +16,16 @@ links:
 ---
 ## Content
 
-We can actually make our number example even more succinct by using the **yield*** expression:
+We can actually make our number example even more succinct by using **yield***:
 ```
 function* genShort(){ 
 	yield* [1,2,3,4,5] 
 }
 ```
 
-When we use yield* it iterates over values supplied in the expression.
+When we use yield* it iterates over values supplied tp the expression (in this case the array).
 
-We could use this for example to split work between two generators:
+yield* could also be used to split work between two generators:
 
 ```
 function* gen1() {
