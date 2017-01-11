@@ -22,7 +22,8 @@ Let's try this with our previous example:
 
 ```
 var p = 
-new Promise(function(resolve, reject){  
+new Promise(
+ function(resolve, reject){ 
  setTimeout(() => reject("enki"), 
  2000);
 })
@@ -37,7 +38,8 @@ Uh oh - note how the **then** method was not called and how we now have an uncau
 But don't worry as we can use the **catch** handler to define logic to be called when errors occur:
 
 ```
-var p = new Promise(function(resolve, reject) {  
+var p = new Promise(
+   function(resolve, reject) {  
    setTimeout(() => reject("enki"), 
    2000);
 })

@@ -25,8 +25,8 @@ First we will create a handler to perform this logic:
 ```
 var loggerHandler = {
  get (target, key) {
-  console.info(key + " was accessed");
-  return target[key];
+ console.info(key + " was accessed");
+ return target[key];
  }
 }
 ```

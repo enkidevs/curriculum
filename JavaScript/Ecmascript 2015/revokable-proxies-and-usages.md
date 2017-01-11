@@ -25,7 +25,7 @@ First we use **Proxy.revocable** to obtain a revokable proxy:
 ```
 var rev = Proxy.revocable({}, {
   get: function(target, name) {
-    console.log('accessed ' + target);
+  console.log('accessed ' + target);
   }
 });
 

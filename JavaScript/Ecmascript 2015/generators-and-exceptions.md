@@ -30,7 +30,9 @@ function* getGenerator(){
   yield;
  }
  catch(err){
- console.log("something bad: " + err);
+ console.log(
+ "something bad: " + err
+ );
  }
  }
 }

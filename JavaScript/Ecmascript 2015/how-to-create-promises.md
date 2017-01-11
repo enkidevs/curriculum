@@ -45,8 +45,8 @@ Instead of actually calling an external service we will use the **setTimeout** m
 var p = 
 new Promise(function(resolve, reject) {
  console.log("run immediately");
- setTimeout(function(){ resolve("enki")},
- 2000);
+ setTimeout(function(){
+   resolve("enki")}, 2000);
 })
 .then(function(result){
  console.log(result)
