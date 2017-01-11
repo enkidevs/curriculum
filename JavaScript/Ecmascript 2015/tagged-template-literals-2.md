@@ -27,7 +27,9 @@ function myFunc(literals, replacement){
 When myFunc is called with a template literal the literals parameter will receive the following object:
 
 ```
-["Hello ", " hows it going?", raw: Array[2]]
+["Hello ", 
+" hows it going?", 
+raw: Array[2]]
 ```
 
 This object contains an array of the literal values and also a raw property that contains an array of the raw versions of the strings:
@@ -35,7 +37,10 @@ This object contains an array of the literal values and also a raw property that
 If your literal has multiple replacement values they will be mapped to subsequent function arguments:
 
 ```
-function myFunc(strings, subValue1, subValue2){
+function myFunc(
+  strings, 
+  subValue1, 
+  subValue2){
 ...
 }
 ```
@@ -52,7 +57,7 @@ With access to literals and replacement values you can use Tagged Template Liter
 
 ```
 function myFunc(strings, subValue){
-return "Goodbye " + subValue 
+ return "Goodbye " + subValue 
 } 
 
 myFunc `Hello ${company} hows it going?`

@@ -26,7 +26,7 @@ First we will create a handler to perform this logic:
 var loggerHandler = {
  get (target, key) {
   console.info(key + " was accessed");
-  return target[key]
+  return target[key];
  }
 }
 ```
@@ -34,7 +34,7 @@ var loggerHandler = {
 Next we'll create an object to use with this:
 
 ```
-var obj = { someProp: "enki"}
+var obj = { someProp: "enki"};
 ```
 
 Then we will wrap our object with a Proxy and pass in the logger handler:

@@ -30,14 +30,19 @@ var alphabet = ["a","b","c","d","e"];
 ..And we want to copy the first two characters at position 2 we could utilize **Array.copyWithin** as follows:
 
 ```
-alphabet.copyWithin(2,0,2)
+alphabet.copyWithin(2,0,2);
 \\ ["a","b","a","b","e"]
 ```
 
 **Array.copyWithin** has 3 different method overloads:
 
 ```
-copyWithin(target position, (optional) start, (optional) end)
+copyWithin(
+target,
+position,
+start (optional),
+end (optional)
+)
 ```
 
 So we could shorten the above to:
@@ -48,9 +53,9 @@ alphabet.copyWithin(2)
 ```
 
 You can also use negative position parameters so we could use **Array.copyWithin** to copy to the last two characters:
+
 ```
 alphabet.copyWithin(-2)
 //["a","b","c","a","b"]
-
 
 ---

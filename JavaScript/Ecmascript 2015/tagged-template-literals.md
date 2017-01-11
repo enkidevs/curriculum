@@ -45,7 +45,7 @@ We can see this in action by redefining myFunc:
 ```
 function myFunc(literals, replacement){
  console.log(literals);  
- console.log(replacement) 
+ console.log(replacement);
 }
 ```
 
@@ -53,7 +53,9 @@ Which will result in the following output:
 
 ```
 //literals:
-//["Hello ", " hows it going?", raw: Array[2]]
+//["Hello ", 
+" hows it going?", 
+raw: Array[2]]
 //replacement:
 // enki
 ```

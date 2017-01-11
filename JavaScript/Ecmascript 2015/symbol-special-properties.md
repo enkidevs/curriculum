@@ -42,8 +42,8 @@ Object.keys(obj);
 
 Symbols are not returned from a call to **getOwnPropertyNames**:
 ```
-Object.getOwnPropertyNames(obj)
-["company"]
+Object.getOwnPropertyNames(obj);
+//["company"]
 ```
 
 **JSON.stringify** ignores symbols:
@@ -54,6 +54,6 @@ JSON.stringify(obj);
 
 Note you can retrieve symbols with **getOwnPropertySymbols**
 ```
-Object.getOwnPropertySymbols(obj)
+Object.getOwnPropertySymbols(obj);
 ```
 ---

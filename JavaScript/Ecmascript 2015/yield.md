@@ -18,8 +18,8 @@ links:
 
 We can actually make our number example even more succinct by using **yield***:
 ```
-function* genShort(){ 
-	yield* [1,2,3,4,5] 
+function* genShort(){
+	yield* [1,2,3,4,5];
 }
 ```
 
@@ -39,11 +39,11 @@ function* gen2() {
   yield 4;
 }
 var it = gen1();
-it.next(); // Object {value: 1, done: false}
-it.next(); // Object {value: 2, done: false}
-it.next(); // Object {value: 3, done: false}
-it.next(); // Object {value: 4, done: false}
-it.next(); // Object {value: 5, done: false}
+it.next();//Object {value: 1, done: false}
+it.next();//Object {value: 2, done: false}
+it.next();//Object {value: 3, done: false}
+it.next();//Object {value: 4, done: false}
+it.next();//Object {value: 5, done: false}
 ```
 
 ---

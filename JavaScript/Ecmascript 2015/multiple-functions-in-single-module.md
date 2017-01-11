@@ -40,7 +40,7 @@ mathFuncs.double(2); //error not imported
 As we have seen we can alias the module imported which is especially useful if it has a really long name:
 
 ```
-import {p as shortName} from 
+import {p as shortName} from
 'modWithReallyLongNames';
 ```
 

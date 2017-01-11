@@ -37,7 +37,9 @@ Then we can deny access to the proxy by calling the revoke method:
 
 ```
 p.revoke();
-p.a; // VM181:1 Uncaught TypeError: p.revoke is not a function(…)
+p.a; 
+// VM181:1 Uncaught TypeError:
+// p.revoke is not a function(…)
 ```
 
 **Potential Usages**

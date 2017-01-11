@@ -51,7 +51,7 @@ UtilityMethods.log();
 Note if you instantiate a class with static methods then you cannot call static methods on the instantiated class:
 
 ```
-var a = new UtilityMethods()
+var a = new UtilityMethods();
 a.log(); //error
 ```
 

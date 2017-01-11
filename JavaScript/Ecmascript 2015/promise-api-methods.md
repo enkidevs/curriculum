@@ -48,7 +48,9 @@ Promise.race([p1, p2, p3])
 Creates immediately rejected or resolved promises which could be useful for testing scenarios for example:
 
 ```
-var p1 = Promise.reject(new Error("fail"));
+var p1 = Promise.reject(
+ new Error("fail")
+);
 var p2 = Promise.resolve();
 ```
 ---

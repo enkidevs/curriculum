@@ -22,8 +22,9 @@ We can chain promises together using the **then** function:
 
 ```
 var p = 
-new Promise(function(resolve, reject){ 
- setTimeout(function(){resolve("enki")}, 2000);
+new Promise(function(resolve, reject){
+  setTimeout(function(){resolve("enki")},
+  2000);
 })
 .then(function(result){
  console.log("then 1");

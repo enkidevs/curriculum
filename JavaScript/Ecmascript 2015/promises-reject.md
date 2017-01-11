@@ -23,10 +23,11 @@ Let's try this with our previous example:
 ```
 var p = 
 new Promise(function(resolve, reject){  
- setTimeout(() => reject("enki"), 2000);
+ setTimeout(() => reject("enki"), 
+ 2000);
 })
 .then(function(result){
- console.log("success")
+ console.log("success");
 }); 
 //Exception - Uncaught (in promise) enki
 ```
@@ -37,10 +38,11 @@ But don't worry as we can use the **catch** handler to define logic to be called
 
 ```
 var p = new Promise(function(resolve, reject) {  
-   setTimeout(() => reject("enki"), 2000);
+   setTimeout(() => reject("enki"), 
+   2000);
 })
 .then(function(result){
- console.log("then called")
+ console.log("then called");
 })
 .catch(function(result){
  console.log("error " + result)});
@@ -54,7 +56,7 @@ Both are optional so you can pass in a null value if you just want to specify so
 ```
 .then(null, 
 function(result){
- console.log(result)
+ console.log(result);
 }); //enki
 ```
 

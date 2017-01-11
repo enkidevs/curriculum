@@ -25,8 +25,8 @@ Let`s try using the iterator we defined previously in a for..of loop:
 ```
 var it = getIterator()
 for(var i of it){
- console.log(i); 
- //TypeError: it[Symbol.iterator] 
+ console.log(i);
+ //TypeError: it[Symbol.iterator]
  //is not a function
 }
 ```
@@ -68,7 +68,7 @@ Our iterator will now function as expected.
 We could even use it with the spread operator:
 
 ```
-console.log([...it]) //[1,2,3,4,5]
+console.log([...it]); //[1,2,3,4,5]
 ```
 
 ---

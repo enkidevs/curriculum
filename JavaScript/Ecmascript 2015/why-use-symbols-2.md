@@ -32,7 +32,8 @@ it.next().value; //bill
 JavaScript contains a number of these "well known symbols" that couldn't be accessed prior to ES6 such as **Symbol.iterator** and **Symbol.match**. Note you won’t find any well-known symbols in the symbol registry either:
 
 ```
-Symbol.keyFor(Symbol.iterator); //undefined
+Symbol.keyFor(Symbol.iterator);
+//undefined
 ```
 
 Symbols can also implement a kind of limited (they are still accessible via other means) privacy – let's discuss this next.
