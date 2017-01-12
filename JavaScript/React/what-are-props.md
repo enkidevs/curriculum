@@ -25,12 +25,12 @@ links:
 
 As discussed before, `component`s can take input just like a functions via `props`.
 
-`props` is a plain `JS` object, its proprieties representing the arguments of a `component`.
+`props` is a plain `JS` object accessible via `this.props`, its proprieties representing the arguments of a `component`.
 
 An important aspect of `props` object is that it is **immutable**. That means `props` can't and shouldn't be changed within a `component`, but only from its *parent*(s).
 
 Consider the component:
-```
+```jsx
 class Greeting extends React.Component {
   render() {
     return <h1>Enki greets
@@ -40,7 +40,7 @@ class Greeting extends React.Component {
 ```
 
 If we want to `render` it, the `element` must specify the value of `name` prop:
-```
+```jsx
 const element = <Greeting
   name="John" />;
 ```
@@ -48,14 +48,14 @@ const element = <Greeting
 Now, when `render`ed, `element` will display "Enki greets John".
 
 You can also define **default props** in the following manner:
-```
+```jsx
 Greeting.defaultProps = {
   name: "User",
 }
 ```
 
 This will let us create a `Greeting` element without specifying the `name`:
-```
+```jsx
 const element = <Greeting />;
 ```
 
