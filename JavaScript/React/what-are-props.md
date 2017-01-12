@@ -33,14 +33,16 @@ Consider the component:
 ```
 class Greeting extends React.Component {
   render() {
-    return <h1>Enki greets {this.props.name}</h1>;
+    return <h1>Enki greets
+      {this.props.name}</h1>;
   }
 }
 ```
 
 If we want to `render` it, the `element` must specify the value of `name` prop:
 ```
-const element = <Greeting name="John" />;
+const element = <Greeting
+  name="John" />;
 ```
 
 Now, when `render`ed, `element` will display "Enki greets John".
