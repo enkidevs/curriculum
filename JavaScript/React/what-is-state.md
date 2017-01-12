@@ -67,7 +67,7 @@ class Hello extends React.Component {
 }
 ```  
 
-The snippet above will update the `state` 1 second after construction. Specifically, `this.state.text` is changed to `World`.
+The snippet above will update the `state` one second after construction. Specifically, `this.state.text` is changed to `World`.
 
 `render`ing our component now, we'll first see `"Hello"` which will change to `"World"` after one second.
 
@@ -80,8 +80,8 @@ How do you change the value of `this.state.a` ?
 ???
 ```
 
-* `this.state.a = 'A'`
 * `this.setState({a: 'A'})`
+* `this.state.a = 'A'`
 * `this.setState({state: {a: 'A'}})`
 * `constructor(state) {super({a: 'A'})}`
 
