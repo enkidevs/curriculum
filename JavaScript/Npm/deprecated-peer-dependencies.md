@@ -47,6 +47,7 @@ And you could `require('PackageB')` without problem.
 
 ---
 ## Practice
+
 In which version of npm were *peerDependencies* available?
 
 ???
