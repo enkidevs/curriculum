@@ -31,7 +31,8 @@ An important aspect of `props` object is that it is **immutable**. That means `p
 
 Consider the component:
 ```
-class Greeting extends React.Component {
+class Greeting extends
+React.Component {
   render() {
     return <h1>Enki greets
       {this.props.name}</h1>;
@@ -41,7 +42,8 @@ class Greeting extends React.Component {
 
 If we want to `render` it, the `element` must specify the value of `name` prop:
 ```
-const element = <Greeting name="John" />;
+const element = 
+<Greeting name="John" />;
 ```
 
 Now, when `render`ed, `element` will display "Enki greets John".
@@ -67,7 +69,8 @@ Complete the missing gaps so that the `render`ed output is "Enki":
 ```jsx
 class Enki extends React.Component {
   render() {
-    return <p>{this.props.myValue}</p>;
+    return
+    <p>{this.props.myValue}</p>;
   }
 }
 
@@ -100,13 +103,15 @@ ReactDOM.render(
 Complete the missing gaps so that the `render`ed output under `root` is "Enki":
 
 ```jsx
-class Enki extends React.Component {
+class Enki extends 
+React.Component {
   render() {
     return <p>{this.???.???}</p>;
   }
 }
 
-const element = <??? myValue="Hello there" />;
+const element = <???
+  myValue="Hello there" />;
 
 ReactDOM.render(
   element
