@@ -57,7 +57,7 @@ class Click extends React.Component {
 ```
 
 Instead of using `bind` you can use the **property initializer syntax**[2] of `ES2016` or an **arrow function**[3] in the callback:
-```
+```jsx
 // ...
 return (
   <button onClick={(e) =>
