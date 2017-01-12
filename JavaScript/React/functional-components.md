@@ -42,7 +42,7 @@ function Enki(props) {
 
 The two components defined above are completely equivalent from **React**'s point of view.
 
-**Functional components** are preferred for **UI** because they enforce the best practice of having *dumb presentational components**, but also require less typing (e.g. no `this` keyword).
+**Functional components** are preferred for **UI** because they enforce the best practice of having *dumb presentational components*, but also require less typing (e.g. no `this` keyword).
 
 ---
 ## Practice
@@ -71,6 +71,9 @@ Second:
 * `render`
 * `state`
 * `func`
+* `props.test`
+* `test`
+* `this.props.test`
 
 ---
 ## Revision
