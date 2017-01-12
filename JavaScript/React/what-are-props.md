@@ -107,7 +107,8 @@ class Enki extends React.Component {
   }
 }
 
-const element = <??? myValue="Hello there" />;
+const element = <???
+  myValue="Hello there" />;
 
 ReactDOM.render(
   element
