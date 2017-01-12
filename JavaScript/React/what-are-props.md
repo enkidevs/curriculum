@@ -23,11 +23,11 @@ links:
 ---
 ## Content
 
-As discussed before, `component`s can take input just like a functions via `props`.
+As discussed before, `component`s can take input just like a functions can, via `props`.
 
-`props` is a plain `JS` object accessible via `this.props`, its proprieties representing the arguments of a `component`.
+`props` is a plain `JS` object accessible via `this.props`, its properties representing the arguments of a `component`.
 
-An important aspect of `props` object is that it is **immutable**. That means `props` can't and shouldn't be changed within a `component`, but only from its *parent*(s).
+An important aspect of the `props` object is that it is **immutable**. That means `props` can't and shouldn't be changed within a `component`, but only from its *parent*(s).
 
 Consider the component:
 ```jsx
