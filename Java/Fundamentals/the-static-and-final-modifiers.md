@@ -23,7 +23,7 @@ The same happens for a static method. It can be accessed independently of any cl
 For example:
 ```
 public class Car{
-  private int piecesSold = 0;
+  private static int piecesSold = 0;
   public Car(){
     piecesSold = piecesSold + 1:
   }
@@ -57,7 +57,7 @@ The last two calls are acceptable because `static` methods are class specific.
 
 The `final` modifiers limits the initializations number to *1*. A final variable cannot be reassigned to refer another object.
 
-However, the data inside the object can be changed (also called its *state*). 
+However, the data inside the object can be changed (also called its *state*).
 
 For example:
 ```
