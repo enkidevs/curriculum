@@ -6,6 +6,8 @@ levels:
 
 type: normal
 
+inAlgoPool: false
+
 category: feature
 
 ---
@@ -64,7 +66,7 @@ What is the main difference between how npm2 and npm3 handles dependencies?
 
 ???
 
-* _node\_modules_ structure depends on the declaration order
+* `node_modules` structure depends on the declaration order
 * dependencies are always updated to their latest version
 * dependencies can be locked to at specific version
 

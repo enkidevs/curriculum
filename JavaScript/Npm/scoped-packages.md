@@ -2,21 +2,15 @@
 author: catalin
 
 levels:
-
-  - basic
-
-  - advanced
-
-  - medium
+  - beginner
 
 type: normal
+
+inAlgoPool: false
 
 category: feature
 
 links:
-
-  - '[docs.npmjs.com](https://docs.npmjs.com/misc/scope){website}'
-
   - >-
     [docs.npmjs.com](https://docs.npmjs.com/getting-started/scoped-packages){website}
 
@@ -40,10 +34,9 @@ $ npm intall @myscope/mypackagename
   "@myscope/mypackagename: "~1.3.3"
 }
 ```
-
 To initialise a scoped package, the scope must be specified in the package name:
 ```json
-{ 
+{
   "name": "@myscope/myprojectname"
 }
 ```
@@ -51,13 +44,19 @@ To initialise a scoped package, the scope must be specified in the package name:
 ```bash
 $ npm init -scope=myscope
 ```
-Note that scoped packages are by default private so to publish a public one you must specify it:
-```bash
-$ npm publish --access=public
-```
 To use a scoped package you need to `require` it using the scoped name:
 ```js
 var scopedPackage =
   require('@myscope/somePackage');
 
 ```
+
+---
+## Revision
+
+A scoped package's name is preceded by ???.
+
+* @scope/
+* scope/
+* @/
+* nothing

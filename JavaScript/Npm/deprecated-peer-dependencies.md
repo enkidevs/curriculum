@@ -6,6 +6,8 @@ levels:
 
 type: normal
 
+inAlgoPool: false
+
 category: feature
 
 ---
@@ -25,7 +27,7 @@ npm 2 used to handle the problem quite intuitively. If PackageA depended on Pack
  |- PackageA
     |- PackageB
 ```
-Straight forward, but not quite what you might had been looking for. You could had `require('PackageA')`, but not `require('PackageB')`, even though both were installed. The additional *package.json* **peerDependencies** property was introduced to solve this.
+Straight forward, but not quite what you might had been looking for. You could `require('PackageA')`, but not `require('PackageB')`, even though both were installed. The additional *package.json* **peerDependencies** property was introduced to solve this.
 
 If *PackageA* had the following *package.json* file, which would tell npm to bundle PackageA and PackageB installations (much like node has to be installed for npm to work):
 ```javascript

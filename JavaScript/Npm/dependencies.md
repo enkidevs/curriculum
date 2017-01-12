@@ -6,6 +6,8 @@ levels:
 
 type: normal
 
+inAlgoPool: false
+
 category: must-know
 
 ---
