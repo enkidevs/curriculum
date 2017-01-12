@@ -60,7 +60,8 @@ Instead of using `bind` you can use the **property initializer syntax**[2] of `E
 ```
 // ...
 return (
-  <button onClick={(e) => this.myListener(e)}>
+  <button onClick={(e) =>
+      this.myListener(e)}>
     Click
   </button>
 );
