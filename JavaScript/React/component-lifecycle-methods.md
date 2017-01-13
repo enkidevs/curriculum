@@ -25,6 +25,7 @@ We can split them into three broader categories by the *type of event* it'll tri
 ### 1. Mounting
 
 - `constructor(props)` - first method called in the lifecycle, **before mounting**. Is most commonly used to set the initial `state` and to `bind` methods. If used, it must include `super(props)` as first call:
+
 ```jsx
 constructor(props) {
   super(props);
@@ -65,7 +66,7 @@ What of the following methods is called **after** rendering, but not after the f
 * `componentWillUpdate`
 * `componentWillMount`
 * `componentWillUnmount`
-* `constructor` 
+* `constructor`
 
 ---
 ## Revision
