@@ -19,34 +19,29 @@ links:
 ---
 ## Content
 
-In ES6 array's have new keys, values and entries properties that returns an iterator.
+In ES6 the array type is expanded with additional properties: keys, values and entries. 
 
-We'll be covering iterators in future insights but for now you can think of an iterator as a collection you loop through that will also maintain its position.
+These new properties return an **iterator**.
 
-Keys and values will return an iterator that respectively returns key or the value of array and entries provides key/value pairs. 
+Iterators are a more advanced concept that we cover in  EcmaScript 2015 intermediate and advanced levels. 
 
-Lets look at an example using keys and entries (note values is not implemented in the latest version of Chrome at the time of writing):
+For now you can think of an iterator as a special collection that you can move through that will maintain its position.
+
+The below code uses the **entries** property to get an iterator and log arr's keys and values:
 
 ```
-var arr = ["a", "b"];
+var arr = ["a", "b", "c"];
 
-var iKeys = arr.keys();
 var iEntries = arr.entries();
 
-iKeys.next(); 
-//{value: 0, done: false}
-
 iEntries.next(); 
-//{value: [0, a], done:false}
-
-iKeys.next(); 
-//{value: 1, done: false}
+//{value: [0, "a"], done:false}
 
 iEntries.next();
-//{value: [1, b], done:false}
+//{value: [1, "b"], done:false}
 
-iKeys.next();
-//{value: undefined, done: true}
+iEntries.next();
+//{value: [2, "c"], done:false}
 
 iEntries.next();
 //{value: undefined, done: true}
