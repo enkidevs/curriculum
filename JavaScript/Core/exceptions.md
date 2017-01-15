@@ -53,14 +53,14 @@ The below code shows how to do this:
 
 ```
 function dangerousFunction(){
- if(!fileExists){
+ if(!fileExists()){
   throw "file does not exist";
  }
  ...
 }
 ```
 
-Exceptions are objects so you can even create your own exception types to hold useful data:
+You can create your own exception types which you may do to represent specific situations or hold useful data:
 
 ```
 function BadException(message) {

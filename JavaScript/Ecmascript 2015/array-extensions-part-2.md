@@ -19,15 +19,19 @@ links:
 ---
 ## Content
 
-In ES6 the array type is expanded with additional properties: keys, values and entries. 
+In ES6 the array type is expanded with 3 additional properties: 
 
-These new properties return an **iterator**.
+* keys
+* values 
+* entries
+
+These properties return a special type of object called an  **iterator**.
 
 Iterators are a more advanced concept that we cover in  EcmaScript 2015 intermediate and advanced levels. 
 
 For now you can think of an iterator as a special collection that you can move through that will maintain its position.
 
-The below code uses the **entries** property to get an iterator and log arr's keys and values:
+The below code uses arrays **entries** property to get an iterator and then log arr's keys and values:
 
 ```
 var arr = ["a", "b", "c"];
