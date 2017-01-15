@@ -26,11 +26,11 @@ Set `animation-play-state: paused;` and `animation-delay` to different negative 
 ```css
 .animated {
   animation: move 3s linear
-             infinite 
+             infinite
              alternate;
   /* for debugging only: */
-  animation-play-state: paused; 
-  /* to show expected state at 2s: */ 
+  animation-play-state: paused;
+  /* to show expected state at 2s: */
   animation-delay: -2s;  
 }
 ```
@@ -43,17 +43,17 @@ The example above shows the animation paused at the 2 second point of the animat
 Pause the animation at second 4:
 ```css
 .debugAnimation{
-  animation: animate 6s 
-              linear infinite;
+  animation: animate 6s
+             linear infinite;
   ???: ???;
   ???: ???;
 ```
-*`animation-play-state` 
-*`paused` 
-*`animation-delay` 
-*`-4` 
-*`4` 
-*`stop` 
+*`animation-play-state`
+*`paused`
+*`animation-delay`
+*`-4`
+*`4`
+*`stop`
 *`animation-time`
 
 ---
@@ -62,9 +62,9 @@ Pause the animation at second 4:
 Which of the following lines of code is the line using an animation delay to help with debugging:
 
 ```css
-animation-play-state:wait;
-animation-play-state:freeze;
-animation-play-state:paused;
+animation-play-state: wait;
+animation-play-state: freeze;
+animation-play-state: paused;
 ```
 ???
 

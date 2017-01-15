@@ -27,27 +27,27 @@ links:
 ---
 ## Content
 
-It's possible to achieve this by using the `animation-delay` property; it delays the execution of an animation by a specified amount of time. 
+It's possible to achieve this by using the `animation-delay` property; it delays the execution of an animation by a specified amount of time.
 
-In this example there are two animations. 
+In this example there are two animations.
 
 If the first one takes 1 second to complete, a chain can be created by using the aforementioned property on the second animation :
 
 ```
 @keyframes first {
-	from { left: 0; }	
+	from { left: 0; }
 	to { left: 100px; }
 }
 @keyframes second {
-	from { left: 0; }	
+	from { left: 0; }
 	to { left: 200px; }
 }
-#first, #second { position: relative;}
+#first, #second { position: relative; }
 #first {
-  animation: first 1s linear both; 
+  animation: first 1s linear both;
 }
-#second{
-  animation:second 3s linear both;
+#second {
+  animation: second 3s linear both;
   animation-delay: 1s;
 }
 ```
@@ -66,7 +66,7 @@ What property is used to chain animations?
 ---
 ## Revision
 
-Which CSS property can be used to chain animations together? 
+Which CSS property can be used to chain animations together?
 
 ???
 
