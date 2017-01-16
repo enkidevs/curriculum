@@ -7,7 +7,7 @@ levels:
 
 type: normal
 
-inAlgoPool: false
+forAlgo: false
 
 category: must-know
 

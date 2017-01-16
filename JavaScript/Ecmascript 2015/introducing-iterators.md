@@ -9,6 +9,8 @@ levels:
 
 type: normal
 
+forAlgo: false
+
 category: must-know
 
 links:
