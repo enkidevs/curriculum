@@ -66,7 +66,7 @@ With consistency in mind, *form elements* in **React** work a little different:
 ```
 ```jsx
 // React
-<textarea value="Text goes here" />
+<textarea value='Text goes here' />
 ```
 
 - for `<select />`, instead of using `selected` attribute on an `<option />` to specify the default selection, you can specify the `<option />`'s `value` in the root `<select />`:
