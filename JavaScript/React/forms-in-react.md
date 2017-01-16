@@ -56,6 +56,8 @@ handle(e) {
 With consistency in mind, *form elements* in **React** work a little different:
 
 - for `<textarea />` the text is specified with `value` attribute instead of having it as a child:
+
+
 ```html
 <!-- standard HTML -->
 <textarea>
@@ -68,6 +70,8 @@ With consistency in mind, *form elements* in **React** work a little different:
 ```
 
 - for `<select />`, instead of using `selected` attribute on an `<option />` to specify the default selection, you can specify the `<option />`'s `value` in the root `<select />`:
+
+
 ```html
 <!-- standard HTML -->
 <select>
