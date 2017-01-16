@@ -18,7 +18,7 @@ links:
 
 A **promise** is an object that represents a value that may or may not be obtained in the future and can be passed around like any other object.
 
-You may have come across promises in JavaScript before either in the language itself, libraries such as jQuery (which some would argue are not really promises) and languages such as q or rsvp.
+You may have come across promises in JavaScript before either in the language itself, libraries such as jQuery (which some would argue are not really promises) and libraries such as q or rsvp.
 
 Some of these libraries conform (and add their own additional functionality as well) to a specification called **Promise/A+**. ES6 bases its promise implementation on this specification.
 

@@ -32,7 +32,7 @@ We can create a class in JavaScript with the following syntax:
 class Person {
 }
 
-var p =new Person();
+var p = new Person();
 ```
 
 The following approach (called a class expression) is also valid:

@@ -39,6 +39,7 @@ var sym = Symbol("Enki");
 ```
 
 The typeof method of course returns symbol:
+
 ```
 typeof Symbol(); //"symbol"
 ```

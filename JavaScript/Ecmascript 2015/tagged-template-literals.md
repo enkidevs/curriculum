@@ -40,7 +40,7 @@ But what arguments will myFunc receive?
 
 myFunc will receive 2 sets of parameters, **literals** and **replacement** values.
 
-We can see this in action by redefining myFunc:
+We can see this in action by defining myFunc:
 
 ```
 function myFunc(literals, replacement){

@@ -36,6 +36,8 @@ sym1 === sym2; //true
 
 The Symbol registry is even maintained across **realms** such as iframes and service workers.
 
+**Symbol.keyFor**
+
 You can use the **Symbol.keyFor** method to pass in a symbol and return the description associated with the symbol when it was first created:
 
 ```

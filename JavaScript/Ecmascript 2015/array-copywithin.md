@@ -20,8 +20,6 @@ links:
  
 When you use Array.copyWithin changes occur on the array itself so you don’t need to assign the result to another variable.
 
-This is best explained with an example.
-
 Let's say we have the following variable:
 ```
 var alphabet = ["a","b","c","d","e"];
@@ -57,6 +55,6 @@ You can also use negative position parameters so we could use **Array.copyWithin
 ```
 alphabet.copyWithin(-2)
 //["a","b","c","a","b"]
-'''
+```
 
 ---

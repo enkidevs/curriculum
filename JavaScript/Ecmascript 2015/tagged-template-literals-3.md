@@ -27,12 +27,4 @@ myFunc `Hello ${company} hows it going?`
 // "Goodbye Enki"
 ```
 
-Probably a better approach is to use the **rest** operator to map values to an array rather than define each argument:
-
-```
-function myFunc(strings, …values){
-...
-}
-```
-
 ---

@@ -30,8 +30,8 @@ With ES6 property names can now even be expressions themselves:
 var myPropName = "blah";
 
 var o = {
- [prop]: "a",
- ["this" + "is" + "prop"]: "b",
+ [myPropName]: "a",
+ ["thisis" + "prop"]: "b",
  ["a" + 1+2]: "c"
 };
 ```

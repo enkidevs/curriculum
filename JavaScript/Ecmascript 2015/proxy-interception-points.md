@@ -88,6 +88,6 @@ Some potential usages:
 * Stop people setting certain values 
 * Validation & logging
 * Extending constructors
-* As a shim/fallback for older browsers
+* As a shim/fallback for older browsers in the future
 
 ---

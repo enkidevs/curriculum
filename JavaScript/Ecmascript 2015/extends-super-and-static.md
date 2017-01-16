@@ -18,7 +18,9 @@ links:
 
 The **extends** keyword allows you to inherit from another class and the **super** keyword allows us to access functionality on the parent.
 
-The below example creates a new class called Engineer that inherits from Person calling Person's constructor with the super keyword. Our Engineer class also has a method called greet that will call the parent classes sayHello method:
+The below example creates a new class called Engineer that inherits from Person calling Person's constructor with the super keyword. 
+
+Our Engineer class also has a method called greet that will call the parent classes sayHello method:
 
 ```
 var e= new Engineer("alex", 35);

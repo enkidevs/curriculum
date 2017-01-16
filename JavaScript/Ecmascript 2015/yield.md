@@ -23,7 +23,7 @@ function* genShort(){
 }
 ```
 
-When we use yield* it iterates over values supplied tp the expression (in this case the array).
+When we use yield* it iterates over values supplied to the expression (in this case the array).
 
 yield* could also be used to split work between two generators:
 

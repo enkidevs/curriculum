@@ -28,7 +28,9 @@ The positioning of this is not important so it can be next to the function keywo
 
 Generator functions are very special as they maintain their execution context between method calls.
 
-We can tell our generator function when we want to return a value and exit by using the **yield** keyword. When the generator is next called, it will return to the next statement just after the **yield** statement.
+We can tell our generator function when we want to return a value and exit by using the **yield** keyword. 
+
+When the generator is next called, it will return to the next statement just after the **yield** statement.
 
 The below example shows one way to implement our 1-5 iterator as a generator:
 
