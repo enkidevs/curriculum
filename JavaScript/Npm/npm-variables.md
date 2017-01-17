@@ -20,11 +20,11 @@ Another feature of npm is allowing the user to set values which would be seen as
   "port": "8080"
 },
 "scripts": {
-  "build:js": "browserify
+  "build:js":`browserify
  $npm_package_config_js_dev/main.js
-  > $npm_package_config_js_prod/main.js",
-  "watch:js": "watch 'npm run build:js'
-        $npm_package_config_js_dev"
+ > $npm_package_config_js_prod/main.js`,
+  "watch:js":`watch 'npm run build:js'
+        $npm_package_config_js_dev`
 }
 ```
 The downside of it is that the reference can get quite verbose, as you have to add the `$npm_package_config_` prefix for every such variable. On the bright side, making changes to the location of the files is easier now, as you would only have to change a single line.
@@ -38,8 +38,8 @@ This would add an entry in the *~/.npmrc* file (`packageName:js_dev=js/backend/`
 
 It is a good idea to used predefined values to be able to run everything straight away. Take *port* for example. In a *server.js* file you could retrieve it by:
 ```javascript
-http.createServer(...)
-    .listen(process.env.npm_package_config_port);
+http.createServer(...).listen(
+  process.env.npm_package_config_port);
 ```
 The same principle as above applies if users want to change the default port:
 ```bash
