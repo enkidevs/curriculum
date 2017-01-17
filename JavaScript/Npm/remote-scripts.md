@@ -30,7 +30,9 @@ $ npm run backend dev
 This would work if the *Makefile* has *dev* specified as a target:
 ```text
 dev:
-	cd .. && NODE_ENV=development ENV=development PORT=3000 node server.js
+	cd .. && NODE_ENV=development
+    ENV=development PORT=3000
+    node server.js
 ```
 ---
 ## Revision
