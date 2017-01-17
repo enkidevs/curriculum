@@ -32,7 +32,8 @@ firstScript
 Why is this great? Say you are using CSS preprocessors like *LESS* or *SASS* and you have to compile them into *CSS* files. All you have to do is specify `less` as a *devDependency* and include this script:
 ```javascript
 "scripts": {
-  "build-less": "lessc app/less/main.less prod/css/main.css"
+  "build-less": `"lessc app/less/main.less
+      prod/css/main.css"`
 }
 ```
 Running:
