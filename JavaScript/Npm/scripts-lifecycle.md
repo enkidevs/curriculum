@@ -1,4 +1,4 @@
-# Scripts lifecycle
+# Hook scripts
 author: mihaiberq
 
 levels:
@@ -14,7 +14,7 @@ category: must-know
 
 Scripts are an essential feature of *npm*. They simplify the process of building and running your application. In the last insight, you've seen how to write and invoke scripts using the command line.
 
-There are, however, some predefined events, called *lifecycles*, which don't require being run by hand. Whenever you run `npm install` and one of such event has an action declared, *npm* will invoke those actions by itself. Some of the other events are *preinstall*, *postinstall*, *pretest*,*start*, *test*, *stop* etc.
+There are, however, some predefined events, called *lifecycles* or *hooks*, which don't require being run by hand. Whenever you run `npm install` and one of such event has an action declared, *npm* will invoke those actions by itself. Some of the other event hooks are *preinstall*, *postinstall*, *pretest*,*start*, *test*, *stop* etc.
 
 You can do some really cool stuff with them, both for production and for development. One example is using *gulp* or other package to watch the changes done to JavaScript files and restart the local server.
 
