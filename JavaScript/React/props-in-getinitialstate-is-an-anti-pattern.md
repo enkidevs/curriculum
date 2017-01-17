@@ -15,8 +15,7 @@ category: tip
 
 links:
 
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/tips/props-in-getInitialState-as-anti-pattern.html){website}
+  - '[facebook.github.io](https://facebook.github.io/react/tips/props-in-getInitialState-as-anti-pattern.html){website}'
 
 ---
 ## Content
@@ -27,12 +26,15 @@ An example of a duplication of source of truth:
 ```JavaScript
 var Duplication = React.createClass({
   getInitialState: function() {
-    return {nameWithQualifier: 'Country ' +
-        this.props.country};
+    return {
+      nameWithQualifier: 'Country ' +
+        this.props.country
+    };
   }
   render: function() {
     return <div>
-       {this.state.nameWithQualifier}</div>;
+      {this.state.nameWithQualifier}
+    </div>;
   }
 });
 ```
@@ -43,14 +45,16 @@ Computing values on-the-fly ensures that values don't get out of sync later and 
 ```JavaScript
 var OnTheFly = React.createClass({
   render: function() {
-    return <div>{'Country: ' + 
-                 this.props.country}</div>;
+    return <div>{
+      'Country: ' + this.props.country
+    }</div>;
   }
 });
 
-ReactDOM.render(<OnTheFly country=
-                "England"/>,
-            document.getElementByID('foo'));
+ReactDOM.render(
+  <OnTheFly country="England" />,
+  document.getElementByID('foo')
+);
 
 
 ```
