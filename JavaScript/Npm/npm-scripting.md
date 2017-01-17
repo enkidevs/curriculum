@@ -44,15 +44,15 @@ Will produce the *.css* file.
 Another cool thing about scripting is that you can combine multiple sub-scripts into a single one like so:
 ```javascript
 "scripts": {
-  "build-less": "lessc app/less/main.less prod/css/main.css",
-  "build-js": "coffee --output prod/js/ --compile app/js/main.js",
-  "build": "npm run build-less & npm run build-js"
+  "build-less": `"lessc app/less/main.less
+      prod/css/main.css"`,
+  "build-js": `"coffee --output prod/js/
+      --compile app/js/main.js"`,
+  "build": `"npm run build-less &
+      npm run build-js"`
 }
 ```
 This will speed up the process as two subshells will be invoked to resolve each build command (asynchronously) because of the `&` token.
----
-## Practice
-
 
 ---
 ## Revision
