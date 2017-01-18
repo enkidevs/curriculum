@@ -18,6 +18,8 @@ links:
 ---
 ## Content
 
+Module patterns are a common practice when developing Node applications in a modular way. Module patterns allow code to be written in a pro-modular way, protecting the context of some modules whilst exposing the necessary modules and variables by attaching them to the global object.
+
 There are a number of different Node module patterns, the simplest being the example shown in the previous insight, requiring a module with just a simple `console.log()` statement included.
 
 To export an anonymous function, use `module.exports` like follows:

@@ -18,8 +18,9 @@ links:
 ---
 ## Content
 
-Insight content goes here
+Developing Node applications in a modular way is a very good practice to keep. It comes with a wide range of advantages such as increased maintainability, prevents the buildup of monolithic files and splits code into units which can be tested thoroughly and effectively.
 
+Module patterns are a common practice when it comes to writing pro-modular code, module patterns allow code to be written in a pro-modular way, protecting the context of some modules whilst exposing the necessary modules and variables by attaching them to the global object. 
 ---
 ## Practice
 
