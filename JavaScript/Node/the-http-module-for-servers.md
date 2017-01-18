@@ -13,8 +13,6 @@ category: best practice
 
 links:
 
-  - '[link to learn more](https://enki.com)'
-
 ---
 ## Content
 
@@ -35,13 +33,15 @@ function requestHandler(request, response) {
 
 To create the server a new HTTP server object needs to be created with a port number passed to it for it to listen on. First create the server:
 ```
-var server = http.createServer(requestHandler);
+var server = http.createServer
+                  (requestHandler);
 ```
 Then assign a port to the server object:
 ```
 server.listen(PORT, function() {
 
-  console.log(‘Server listening here: http://localhost:%s’, PORT);
+  console.log(‘Server listening here:
+              http://localhost:%s’, PORT);
 
 });
 ```
