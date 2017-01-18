@@ -51,13 +51,13 @@ Keep in mind, however, that the environmental variables in Windows are invoked u
 ---
 ## Practice
 
-The prefix used to invoke preconfigured values is:
+The prefix needed to invoke preconfigured values is:
 
 ???
-* $npm_package_config_
-* npm_package_config_
-* npm_package_config
-* $npm_config
+* `$npm_package_config_`
+* `npm_package_config_`
+* `npm_package_config`
+* `$npm_config`
 
 ---
 ## Revision
