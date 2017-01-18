@@ -23,7 +23,8 @@ If the event is called *error* however, the error is thrown into the event loop,
 ```
 test.on(‘uncaughtException’, function(err) {
 
-  console.error(‘uncaught exception: ‘, err.stack || err);
+  console.error(‘uncaught exception: ‘,
+                    err.stack || err);
 
 
   closeApp(function(err) {

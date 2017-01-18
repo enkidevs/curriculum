@@ -20,7 +20,8 @@ links:
 Node is asynchronous, however as no I/O is involved in emitting events, the delivery of events is treated synchronously. Therefore:
 
 ```
-var EventEmitter = require(‘events’).EventEmitter;
+var EventEmitter = require(‘events’)
+                        .EventEmitter;
 var emitter = new EventEmitter();
 
 emitter.on(‘hi’, function() {

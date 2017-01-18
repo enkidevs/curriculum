@@ -31,10 +31,10 @@ In this example, the `system.file` object is an event emitter, a module can list
 Events can also produce relevant data, for example if you wanted to know who edited a file in the system:
 ```
 system.file.on(‘edit’, function
-                        (fileID, initials) {
+                      (fileID, initials) {
 
   console.log(‘File number %d was edited
-                  by %s’, fileID, initials);
+                by %s’, fileID, initials);
 
 });
 ```
