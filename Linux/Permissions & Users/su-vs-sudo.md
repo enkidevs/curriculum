@@ -35,7 +35,7 @@ The syntax of every `sudo` line is:
 user machine=(effective_user) command
 
 ```
-You can give an user *root privileges* (`sudo` access)  by following the syntax above. This is what each field means:
+You can give a user *root privileges* (`sudo` access)  by following the syntax above. This is what each field means:
 - `user` is the username of the new `sudo` user
 - `machine` is the host name in which `sudo` is valid
 - `effective_user` stands for the effective users that are allowed to execute the commands
@@ -47,10 +47,10 @@ You can give an user *root privileges* (`sudo` access)  by following the syntax 
 What is a `sudoer`?
 
 ???
-*An user that can run one or more commands with elevated privileges.
+*A user that can run one or more commands with elevated privileges.
 *The equivalent of root.
-*An user that can *always* run *all* the commands with elevated privileges.
-*The machine on which an user can run commands with elevated privileges.
+*A user that can *always* run *all* the commands with elevated privileges.
+*The machine on which a user can run commands with elevated privileges.
 
 ---
 ## Revision
