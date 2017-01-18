@@ -24,7 +24,7 @@ $node
 If the `>`  symbol appears after the `node` command has been run then the installation of Node was successful.
 
 ---
-## Practice
+
 
 
 ---

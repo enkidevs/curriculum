@@ -35,7 +35,7 @@ Node.js with Enki!
 
 
 ---
-## Practice
+
 
 ---
 ## Revision
