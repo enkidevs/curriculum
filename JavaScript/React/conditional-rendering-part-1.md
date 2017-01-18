@@ -55,10 +55,10 @@ class Message extends React.component {
       <Rainy /> : <Sunny/>;
 
     return (
-        <div>
-          {message}
-          <p> Anyways, enjoy your day </p>;
-        </div>
+      <div>
+        {message}
+        <p> Anyways, enjoy your day </p>;
+      </div>
     );
   }
 }
