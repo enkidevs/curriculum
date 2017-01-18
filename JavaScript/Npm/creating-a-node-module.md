@@ -1,0 +1,61 @@
+# Creating a node module
+author: mihaiberq
+
+levels:
+
+  - beginner
+
+type: normal
+
+category: how to
+
+
+---
+## Content
+
+After you set up the *package.json* file, it's time to start coding. A npm module is a regular JavaScript file, that must follow the *CommonJS* module spec.
+
+In other words, a module has by default an object called **module**, that has a read-only `id` property that is used to identify the module and an `exports` object, which contains all the methods/constants to be exported. Here's an example:
+```javascript
+// math.js
+module.exports.pow = function(a,b){
+  var res = 1;
+  for(var i=0;i<b;++i){
+    res *= a;
+  }
+  return res;
+}
+```
+Whenever you import the module in another file using the `require` function, it returns the exported set of functions and constants:
+```javascript
+// app.js
+var math = require('./math');
+console.log(math.pow(3,4));
+```
+Using node to run `app.js` yields:
+```bash
+$ node app.js
+81
+```
+
+
+---
+## Practice
+
+In order for the JavaScript file to be a module, it must have
+
+???
+* a non-empty `exports` object
+* at least one function
+* constants
+* at least one non-void function
+---
+## Revision
+
+Usually, a module id is
+
+???
+
+* the name of the main JavaScript file
+* the name of the first function
+* defined in the *package.json*
