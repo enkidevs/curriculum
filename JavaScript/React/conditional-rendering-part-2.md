@@ -21,7 +21,7 @@ links:
 Using **React** with **JSX** gives you more power and convenience when writing code by letting you *embed JS* expressions in **curly braces** (`{expression}`).
 
 For example, another approach for **conditional rendering** is using *in-line*
-`if` with help from the **AND** (`&&`) logical operator.
+`if` with help from the **AND** (`&&`)/ **OR** (`||`) logical operator.
 
 Consider the following component:
 ```jsx
