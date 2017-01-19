@@ -20,8 +20,10 @@ Piping allows for data to be read from a source, and passed onto a destination w
 
 ```
 var fs = require(‘fs’);
-var rstream = fs.createReadStream(‘file1.txt’);
-var wstream = fs.createWriteStream(‘file2.txt’);
+var rstream = fs.createReadStream
+                          (‘file1.txt’);
+var wstream = fs.createWriteStream
+                          (‘file2.txt’);
 
 rstream.pipe(wstream);
 ```

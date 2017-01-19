@@ -23,7 +23,8 @@ The most efficient way of reading data from a stream is to add a *listener* to t
 ```
 // require file system
 var fs = require(‘fs’);
-var rstream = fs.createReadStream(‘file.txt’);
+var rstream = fs.createReadStream
+                        (‘file.txt’);
 var data = ‘’;
 
 rstream.on(‘data’, function(avail) {

@@ -19,8 +19,10 @@ links:
 The `write()`  method is used to write data to a writable stream. Take the following example:
  ```
  var fs = require(‘fs’);
- var rstream = fs.createReadStream(‘file.txt’);
- var wstream = fs.createWriteStream(‘output.txt’);
+ var rstream = fs.createReadStream
+                          (‘file.txt’);
+ var wstream = fs.createWriteStream
+                          (‘output.txt’);
 
  rstream.on(‘data’, function(data) {
 
