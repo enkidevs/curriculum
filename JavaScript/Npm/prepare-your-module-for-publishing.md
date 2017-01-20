@@ -1,0 +1,54 @@
+# Prepare your module for publishing
+author: mihaiberq
+
+levels:
+
+  - beginner
+
+type: normal
+
+category: how to
+
+---
+## Content
+
+If you decide to publish your module, a good *README.md* file is necessary. It does not only help you keep track of the capabilities of the module, but also it helps others understand how to use your module.
+
+Even though there isn't one particular way or another of writing the *README* file, there are some fields that have proved their efficiency:
+```md
+## Introduction
+ The introduction should consist of one or
+ two paragraphs summarizing the
+ purpose of the project.
+
+## Installation
+ This should contain dependencies that are
+ required for the module to work and how
+ to set up the module.
+
+## Usage
+ You should specify here the main methods of
+ the module and maybe add some example
+ outputs for sanity check.
+
+## Tests
+ In case you have some tests written,
+ provide the code that runs them.
+```
+When you consider your module ready for publishing, run:
+```bash
+$ npm publish
+```
+Scoped packages are private by default, but you have to pay a subscription to keep them private. It is free, however, to publish *public packages*. In case your module is scoped and you want it to be public, run:
+```
+$ npm publish --access=public
+```
+You should now be able to find your package on npm website.
+
+---
+## Revision
+
+Scoped packages are ??? by default.
+
+* private
+* public
