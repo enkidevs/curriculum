@@ -9,6 +9,8 @@ levels:
 
 type: normal
 
+inAlgoPool: false
+
 category: must-know
 
 links:
@@ -36,10 +38,10 @@ p.a; //a accessed
 Then we can deny access to the proxy by calling the revoke method:
 
 ```
-p.revoke();
+rev.revoke();
 p.a; 
-// VM181:1 Uncaught TypeError:
-// p.revoke is not a function(…)
+// Uncaught TypeError: Cannot perform 'get'
+// on a proxy that has been revoked
 ```
 
 **Potential Usages**

@@ -40,15 +40,15 @@ var greeting = `Hello ${name}`;
 We can also use template literals to spread our declaration across multiple lines:
 
 ```
-var name = "Enki";
+var name = "User";
 var greeting = `Hello ${name}
-Enki
-Enki`;
+Line1
+Line2`;
 
 /*
-"Hello Enki
-Enki
-Enki"
+"Hello User
+Line1
+Line2"
 */
 ```
 

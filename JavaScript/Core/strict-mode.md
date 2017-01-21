@@ -39,7 +39,7 @@ To enable strict mode, simply add the following string literal:
 "use strict";
 ```
 
-Warning! This will apply strict mode to code in the current scope. So you probably don’t want to do this outside code you own as it may impact some older code and party scripts.
+Warning! This will apply strict mode to code in the current scope. So you probably don’t want to do this outside code you own as it may impact some older code and third party scripts.
 
 ---
 ## Practice
