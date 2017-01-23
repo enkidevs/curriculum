@@ -26,6 +26,8 @@ The oldest one, **npm**, started off as the package manager for *node*. However,
 
 Another option is **duo**. It uses `require()` statements inside the JavaScript files to look and download packages. The disadvantage of using *duo* is requiring the same package in multiple places: you would have to update multiple statements to change the package version.
 
+The latest package manager released is **Yarn**. One of the main differences between Yarn and npm is that the former installs dependencies deterministically (the *node_modules* directory will have the same structure across all machines), which makes the installation process faster.
+
 Out of these three, **npm** sticks out as being the *"package manager for JavaScript"*. Right now, there is no reason not to use npm.
 
 ---
