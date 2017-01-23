@@ -43,7 +43,7 @@ Scoped packages are private by default, but you have to pay a subscription to ke
 ```
 $ npm publish --access=public
 ```
-You should now be able to find your package on npm website.
+You should now be able to find your package in the npm registry.
 
 ---
 ## Revision
