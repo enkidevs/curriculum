@@ -31,9 +31,9 @@ background-color: rgb(255,255,255);
 /* color name */
 background-color: white;
 ```
-All the `divs` above will be white, as the values are equivalent: `ff` is the *hexadecimal* representation of `255` and `white` is self-explanatory. 
+All the `divs` above will be white, as the values are equivalent: `ff` is the *hexadecimal* representation of `255` and `white` is self-explanatory.
 
-Keeping this in mind, it should be easier to understand how *hex* values work: there are **6** characters slots to fill (which can take values from `0` to `f`). Each **two** characters represent the intensity of `red`, `green`, `blue`, in this order. 
+Keeping this in mind, it should be easier to understand how *hex* values work: there are **6** characters slots to fill (which can take values from `0` to `f`). Each **two** characters represent the intensity of `red`, `green`, `blue`, in this order.
 
 Here is the representation of some basic colors:
 ```css
@@ -61,7 +61,7 @@ p {
   font-size: 16px;
 }
 ```
-On the other hand, there are the relative values: *percentages* and *ems*, that scale depending on the container's properties. 
+On the other hand, there are the relative values: *percentages* and *ems*, that scale depending on the container's properties.
 
 **Percentages** are represented using `%` notation, and depends on the container's size:
 ```css
@@ -70,11 +70,11 @@ On the other hand, there are the relative values: *percentages* and *ems*, that 
  height: 100px;
 }
 ```
-The rectangle above will have `100px height` on every device, but its width will depend on the container's width. If the parent's width is `500px`, the rectangle would become a square. 
+The rectangle above will have `100px height` on every device, but its width will depend on the container's width. If the parent's width is `500px`, the rectangle would become a square.
 
 They are extremely useful when working with multiple screen types.
 
-**Em** is a bit trickier. Its length is calculated based on an element's font size:
+**Em** is a bit trickier. `1em` is equal to the element's **font size**:
 ```css
 div{
   font-size: 16px;
