@@ -23,7 +23,7 @@ links:
 
 These are some common built-in list methods.
 
-To extend one list with the contents of another list:: 
+To extend one list with the contents of another list::
 ```python
 list_a.extend(list_b)
 ```
@@ -34,7 +34,7 @@ list_a.reverse()
 Remove a *specific item*:
 ```python
 list_a.remove(item)
-# will remove only the first 
+# will remove only the first
 # occurrence of the `item`
 ```
 Remove and return an element at a given *index* (if no `index` is specified, it will remove and return the last item in the *list*:
@@ -66,12 +66,12 @@ list_a.count(item)
 Complete the code snippet to return a new sorted list of `ex_list`:
 
 ```python
-ex_list.??? (???=None,\ 
+ex_list.??? (???=None,\
     reverse=False)
 ```
-*`sort` 
-*`key` 
-*`order` 
-*`priority` 
-*`change` 
+*`sorted` 
+*`key`
+*`order`
+*`priority`
+*`change`
 *`remove`

@@ -16,7 +16,7 @@ category: tip
 ---
 ## Content
 
-As of version 1.7, `git` can checkout selected subdirectories, just like `svn`. 
+As of version 1.7, `git` can checkout selected subdirectories, just like `svn`.
 
 Set up:
 
@@ -49,11 +49,11 @@ Sparse checkout allows the user to choose what files to look at. It does the opp
 ---
 ## Practice
 
-Enable *sparse checkout* then choose to checkout onlt the `newFeature/` subdirectory:
+Enable *sparse checkout* then choose to checkout only the `newFeature/` subdirectory:
 ```
-$ git ??? 
+$ git ???
       ???.??? true
-$ echo ??? >> 
+$ echo ??? >>
        .git/info/sparse-checkout
 ```
 *`config`
@@ -65,9 +65,9 @@ $ echo ??? >>
 ---
 ## Revision
 
-Using sparse checkout is similar to using 
+Directories not specified in the `sparse-checkout` file are
 
-??? .
-*.gitignore
-*pull request
-*branches
+???.
+* ignored
+* the only ones pulled
+* immutable

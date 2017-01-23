@@ -28,18 +28,18 @@ Instead of:
 ```
 var items = [12, 548 ,'a' , 2];
 items.length; // returns 4
-delete items[3]; // return true 
-items.length; // returns 4 
-// items = [12, 548, "a", undefined × 1]
+delete items[3]; // return true
+items.length; // returns 4
+// items = [12, 548, 'a', undefined × 1]
 ```
 
-Use:
+Use `splice(startPos, length)`:
 ```
-var items = [12, 548 ,'a' , 2]; 
-items.length; // returns 4 
-items.splice(3,1); 
+var items = [12, 548 ,'a' , 2];
+items.length; // returns 4
+items.splice(3,1);
 items.length; // returns 3
-// items = [12, 548, "a"]
+// items = [12, 548, 'a']
 ```
 
 The delete method should *only* be used to delete an object property.
@@ -54,19 +54,19 @@ delete ar[2]; // ar = ???
 // splice(startingPos,deleteCount)
 ar.splice(2,2); // ar = ???
 ```
-*[1,2,undefined,’5’]
-*[1,2]
-*[1,3,’5’]
-*[1,’5’]
-*[1,2,3,’5’]
+* [1,2,undefined,’5’]
+* [1,2]
+* [1,3,’5’]
+* [1,’5’]
+* [1,2,3,’5’]
 
 ---
 ## Revision
 
 Let `var x = [1,4,6,8]` .
 
-After calling `splice(1,1)`  on x , it will contain ??? . 
+After calling `splice(1,1)`  on x , it will contain ??? .
 
-*[1,6,8]
-*[4,6,8]
-*[1,undefined,6,8]
+* [1,6,8]
+* [4,6,8]
+* [1,undefined,6,8]

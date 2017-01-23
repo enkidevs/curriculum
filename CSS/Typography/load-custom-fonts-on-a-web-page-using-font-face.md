@@ -31,25 +31,24 @@ Custom fonts are hosted server-side and downloaded then displayed using CSS.
 
 Example:
 
-```
+```css
 @font-face {
-  font-family: 'MyCustomFont';
-      /* IE9 Compat Modes */
-  src: url('webfont.eot'), 
-      /* Firefox, Chrome, Opera, Edge*/
+font-family: 'MyCustomFont';
+src: /* Firefox, Chrome, Opera, Edge*/
   url('webfont.woff2') format('woff2'),
-      /* Fallback */
   url('webfont.woff') format('woff'),
-      /* Supported by all browsers
-         but Opera Mini */
+    /* Supported by all browsers
+       but Opera Mini */
   url('webfont.ttf')  format('truetype');
 }
 ```
 Style elements using:
-
+```css
+a {
+ font-family: 'MyCustomFont', sans-serif;
+}
 ```
-a {font-family: 'MyCustomFont',
- Fallback, sans-serif;}```
+In case the custom font import failed, *sans-serif* will be used as the fallback font.
 
 ---
 ## Practice
@@ -57,23 +56,25 @@ a {font-family: 'MyCustomFont',
 Which of the following font format is supported by most browsers?
 
 ???
-*`truetype` 
-*`woff` 
-*`woff2` 
-*`eot`
+* `truetype`
+* `woff`
+* `woff2`
+* `eot`
 
 ---
 ## Revision
 
-When using custom fonts with `@font-face`, what is the missing keyword in the following CSS code? 
+Consider the following snippet:
 ```css
 p {
-   font-family: 'enkiFont', 
-     ???, sans-serif;
-} 
+   font-family: 'enkiFont',
+       sans-serif;
+}
 ```
-* Fallback
-* Type
-* Next-font
-* Inline
-* Absolute
+When using custom fonts with `@font-face`, `sans-serif` is considered to be the
+
+???.
+* fallback font
+* italic font
+* next font
+* inline font
