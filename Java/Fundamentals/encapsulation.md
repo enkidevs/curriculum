@@ -19,9 +19,9 @@ links:
 ---
 ## Content
 
-The third *Object-Oriented Programming* principle is **encapsulation**. It refers to the process of wrapping the data and the methods using that data together.
+The third *Object-Oriented Programming* principle is **encapsulation**. It refers to the process of wrapping the data and the methods using that data together. Encapsulation means keeping the *variables* in a class private, and having methods in that particular class for accessing them.
 
-In other words, encapsulation means keeping the *variables* in a class private, and having methods in that particular class for accessing them.
+In other words, the enclosed object is given the rights to choose for itself what format of data it accepts and how it processes it. This way, the role of the object becomes clear to other objects and class interdependence is reduced.
 
 The generic name for methods returning the value of private fields is **getters**, while for the one changing their value is **setters**.
 
@@ -30,8 +30,8 @@ We can make changes to the `Car` class to achieve encapsulation:
 public class Car{
   private String model;
   private int noDoors;
-  
-  public Class(...){
+
+  public Car(...){
    ...
   }
 
@@ -41,7 +41,7 @@ public class Car{
   public int getNoDoors(){
      return noDoors;
   }
-  
+
   public void setModel(String newModel){
     model = newModel;
   }
