@@ -1,4 +1,4 @@
-# Spread attributes
+# **JSX** Spread attributes
 author: catalin
 
 levels:
