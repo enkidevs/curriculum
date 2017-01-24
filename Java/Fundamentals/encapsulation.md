@@ -30,8 +30,8 @@ We can make changes to the `Car` class to achieve encapsulation:
 public class Car{
   private String model;
   private int noDoors;
-  
-  public Class(...){
+
+  public Car(...){
    ...
   }
 
@@ -41,7 +41,7 @@ public class Car{
   public int getNoDoors(){
      return noDoors;
   }
-  
+
   public void setModel(String newModel){
     model = newModel;
   }
