@@ -75,10 +75,10 @@ r = range(0, 15, 2)
 What will the output of the following code snippet be? ???
 
 ```
-for i in range(0, 12, 4)
+for i in range(0, 12, 4):
     print(i - 1)
 ```
 
-*`-1 3 7 11` 
-*`0 4 8 12` 
-*`4 8 12`
+*`-1 3 7` 
+*`0 4 8` 
+*`-1 3 7 11`
