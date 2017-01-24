@@ -3,11 +3,17 @@ author: catalin
 
 levels:
 
+  - beginner
+
+  - basic
+
   - advanced
 
   - medium
 
 type: normal
+
+inAlgoPool: false
 
 category: how to
 
@@ -47,7 +53,7 @@ function createChainableChecker(validate) {
   }
   let chainedChecker = checkType.bind(null,
     false);
-  chainedChecker.isRequired = 
+  chainedChecker.isRequired =
     checkType.bind(null, true);
   return chainedChecker;
 }
@@ -63,7 +69,7 @@ text = lengthChecker.isRequired,
 
 [1:code]
 ```jsx
-function textLengthChecker(props, propName, 
+function textLengthChecker(props, propName,
   componentName) {
   if(props[propName]){
     let text = props[propName];
