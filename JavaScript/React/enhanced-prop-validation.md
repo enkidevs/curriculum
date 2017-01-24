@@ -1,15 +1,17 @@
-# Enhanced Prop Validation 
+# Enhanced Prop Validation
 author: catalin
 
 levels:
 
-  - basic
+  - beginner
 
-  - advanced
+  - basic
 
   - medium
 
 type: normal
+
+inAlgoPool: false
 
 category: best practice
 
