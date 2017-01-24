@@ -3,19 +3,17 @@ author: catalin
 
 levels:
 
-  - basic
+  - beginner
 
-  - advanced
+  - basic
 
   - medium
 
 type: normal
 
+inAlgoPool: false
+
 category: must-know
-
-tags:
-
-  - ''
 
 links:
 
@@ -25,7 +23,7 @@ links:
 ---
 ## Content
 
-**React** provides a way of defining *default* values for props. This allows the safety usage of props even though they are not specified by the parent component. 
+**React** provides a way of defining *default* values for props. This allows the safety usage of props even though they are not specified by the parent component.
 
 The value assignment is done inside `getDefaultProps()` method on the component:
 
@@ -40,7 +38,7 @@ var EnkiComponent = React.createClass({
 });
 ```
 
-Here, the default value for the `enki` prop is "default". 
+Here, the default value for the `enki` prop is "default".
 
 As a consequence, `this.props.enki` will have a value even if it's not specified by the parent component.
 
@@ -60,12 +58,12 @@ var Comp = React.createClass({
 });  
 ```
 
-*`getDefaultProps`
-*`value`
-*`"xyz"`
-*`defaultProps`
-*`xyz`
-*`default`
+* `getDefaultProps`
+* `value`
+* `"xyz"`
+* `defaultProps`
+* `xyz`
+* `default`
 
 ---
 ## Revision
@@ -83,9 +81,9 @@ var Comp = React.createClass({
 });  
 ```
 
-*`getDefaultProps`
-*`value`
-*`"xyz"`
-*`defaultProps`
-*`xyz`
-*`default`
+* `getDefaultProps`
+* `value`
+* `"xyz"`
+* `defaultProps`
+* `xyz`
+* `default`
