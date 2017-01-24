@@ -3,13 +3,15 @@ author: catalin
 
 levels:
 
-  - basic
+  - beginner
 
-  - advanced
+  - basic
 
   - medium
 
 type: normal
+
+inAlgoPool: false
 
 category: must-know
 
@@ -23,11 +25,11 @@ links:
 ---
 ## Content
 
-You can check if the some specified props are passed to the **React** component though `propTypes`. 
+You can check if the some specified props are passed to the **React** component though `propTypes`.
 
 This is done by chaining any type of prop validation with `isRequired`. This way, a *warning* will be shown if the prop wasn't provided.
 
-Validate for a **required** function: 
+Validate for a **required** function:
 ```
 propTypes: {
  myFunc: React.PropTypes.func.isRequired,
