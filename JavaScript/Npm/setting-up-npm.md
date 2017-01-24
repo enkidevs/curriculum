@@ -16,12 +16,12 @@ category: must-know
 
 Now that you have chosen to use **npm**, the next step is to install it: *npm* is included in the *Node.js*.
 
-As npm gets updated more often than node, you might want to get it to its latest version:
+As npm gets updated more often than node, you can update it to its most recent version like follows:
 ```bash
 $ npm install npm@latest -g
 ```
 
-This is syntax you are going to use when installing individual packages:
+This syntax will be used when installing individual packages:
 ```bash
 $ npm install package-name@version (-g)
 # or

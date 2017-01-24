@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-Almost always is better to use the newest version of a package as it fixes or improves its functionalities. However, it is important to communicate what kind of changes happened in the latest release as they may break the code depending on the package.
+It's almost always better to use the newest version of a package as it fixes or improves its functionalities. However, it is important to communicate what kind of changes happened in the latest release as they may break the code depending on the package.
 
 For publishers, there are some guidelines when it comes to versioning:
  - the first version should be *1.0.0*, though it's not a necessity
@@ -29,7 +29,7 @@ For publishers, there are some guidelines when it comes to versioning:
 Because the publisher versioning is somehow regulated, you can specify which updates to the packages you would want to receive:
   - the latest patch: *1.0* or *1.0.x* or *~1.0.0*
   - the latest minor release: *1* or *1.x* or *^1.0.0*
-  - the latest major release: *\** or *x*
+  - the latest major release: *\* or *x*
 
 ---
 ## Practice

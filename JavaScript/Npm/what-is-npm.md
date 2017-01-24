@@ -24,7 +24,7 @@ The principle behind packages is a simple, yet effective one: solving problems a
 
 However, as the developers' expertise level may differ, some applications will be prone to errors others won't struggle with. These bits of working, reusable code are grouped into packages (or modules), to which others have free access.
 
-A *package* is a directory containing the actual code, that can be split into multiple files. **package.json** is one of the important files in the directory that you might had heard of before. Metadata about this package and dependencies on other packages are specified in this file. Yes, packages can rely on other packages as well.
+A *package* is a directory containing the actual code, that can be split into multiple files. **package.json** is one of the important files in the directory that you might have heard of before. Metadata about this package and dependencies on other packages are specified in this file. Yes, packages can rely on other packages as well.
 
 A large application can be built on tens or hundreds of these small packages. Think of them as building blocks that you can put together to obtain something nice. For example, *enki* relies on approximately 175 packages or modules.
 
@@ -44,7 +44,7 @@ The aim of a package is to
 ---
 ## Revision
 
-*Npm* stands for
+`npm` stands for
 
 ???
 
