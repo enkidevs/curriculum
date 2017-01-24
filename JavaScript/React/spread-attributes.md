@@ -14,10 +14,8 @@ category: how to
 links:
 
   - >-
-    [facebook.github.io](https://facebook.github.io/react/docs/composition-vs-inheritance.html){website}
+    [gist.github.com](https://gist.github.com/sebmarkbage/07bbe37bc42b6d4aef81){website}
 
-  - >-
-    [learn.co](https://learn.co/lessons/react-this-props-children){website}
 
 ---
 ## Content
