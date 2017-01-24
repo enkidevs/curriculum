@@ -46,7 +46,7 @@ long estimatedTime
 ---
 ## Revision
 
-Which method is preciser than `currentTimeMillis()` when calculating absolute timing?
+Which method is more precise than `currentTimeMillis()` when calculating absolute timing?
 
 ???
 *nanoTime()
