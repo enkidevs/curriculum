@@ -3,11 +3,17 @@ author: catalin
 
 levels:
 
+  - beginner
+
+  - basic
+
   - advanced
 
   - medium
 
 type: normal
+
+inAlgoPool: false
 
 category: feature
 
@@ -37,7 +43,7 @@ Suppose we want to check if the `text` prop is a `string` and has fewer than 200
 
 First things first, we need a function to check this:
 ```jsx
-function lengthCheck(props, propName, 
+function lengthCheck(props, propName,
   componentName) {
   if(props[propName]){
     let text = props[propName];
