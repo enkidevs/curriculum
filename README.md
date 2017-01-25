@@ -24,7 +24,7 @@
 
 ## To create an insight
 
-All insights should follow the [Insight Guidelines](https://paper.dropbox.com/doc/Insight-Guidelines-Clu1qkcjwriRTlNINwNMx).
+All insights should follow the [Insight Guidelines](https://github.com/enkidevs/guidelines).
 
 **Locally:**
 
