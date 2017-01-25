@@ -1,4 +1,4 @@
-# Custom validations for props
+# Custom validator functions for `props`
 author: catalin
 
 levels:
@@ -7,9 +7,9 @@ levels:
 
   - basic
 
-  - advanced
-
   - medium
+
+  - advanced
 
 type: normal
 
@@ -20,9 +20,6 @@ category: feature
 parent: prop-validation
 
 links:
-
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/docs/reusable-components.html#prop-validation){website}
 
   - >-
     [rjzaworski.com](http://rjzaworski.com/2015/01/putting-react-custom-proptypes-to-work){website}
@@ -59,9 +56,9 @@ function lengthCheck(props, propName,
 
 Now the function can be used inside `propTypes`:
 ```jsx
-propTypes: {
+MyComponent.propTypes = {
   text: lengthCheck,
-}
+};
 ```
 
 Note that an `Error` should be returned instead of being `throw`n or using `console.warn` in order to make the validator function work inside `oneOfType`.
@@ -103,5 +100,5 @@ function (???, ???, ???) {
 ---
 ## Footnotes
 
-[1:tip]
+[1:Arguments]
 `location` can also be used as the last argument.

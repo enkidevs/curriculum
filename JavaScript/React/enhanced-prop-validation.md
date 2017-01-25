@@ -1,4 +1,4 @@
-# Enhanced Prop Validation
+# Enhanced `props` Validation
 author: catalin
 
 levels:
@@ -9,11 +9,13 @@ levels:
 
   - medium
 
+  - advanced
+
 type: normal
 
 inAlgoPool: false
 
-category: best practice
+category: how to
 
 parent: prop-validation
 
@@ -62,15 +64,16 @@ myObjOf: React.PropTypes.objectOf(
 ---
 ## Practice
 
-Validate if your prop is an instance of the `Enki` class:
+Validate if `myProp` is an instance of the `Enki` class:
 ```jsx
-MyClass = React.createClass({
-  propTypes: {
-    myProp = React.???
-             .???(???),
-  },
-// other code
-});
+function Test(props) {
+  return <p>Testing props..</p>;
+}
+
+Test.propTypes = {
+  myProp = React.???
+              .???(???),
+};
 ```
 * `PropTypes`
 * `instanceOf`
@@ -84,15 +87,16 @@ MyClass = React.createClass({
 ---
 ## Revision
 
-Validate if your prop is an instance of the `Enki` class:
+Validate if `myProp` is an instance of the `Enki` class:
 ```jsx
-MyClass = React.createClass({
-  propTypes: {
-    myProp = React.???
-             .???(???),
-  },
-// other code
-});
+function Test(props) {
+  return <p>Testing props..</p>;
+}
+
+Test.propTypes = {
+  myProp = React.???
+              .???(???),
+};
 ```
 * `PropTypes`
 * `instanceOf`

@@ -9,38 +9,39 @@ levels:
 
   - medium
 
+  - advanced
+
 type: normal
 
 inAlgoPool: false
 
-category: must-know
+category: how to
 
 links:
 
   - >-
-    [facebook.github.io](https://facebook.github.io/react/docs/reusable-components.html#default-prop-values){website}
+    [facebook.github.io](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#default-prop-values){website}
 
 ---
 ## Content
 
 **React** provides a way of defining *default* values for props. This allows the safety usage of props even though they are not specified by the parent component.
 
-The value assignment is done inside `getDefaultProps()` method on the component:
+The value assignment is done via the `defaultProps` special property you component:
 
 ```jsx
-var EnkiComponent = React.createClass({
-   getDefaultProps: function() {
-      return {
-        enki: 'default'
-      };
-    }
-  //component
-});
+function MyComponent(props) {
+  return <p>{props.text}</p>;
+}
+
+MyComponent.defaultProps = {
+  text: 'Cats > Dogs',
+};
 ```
 
-Here, the default value for the `enki` prop is "default".
+Here, the default value for the `text` prop is "Cats > Dogs".
 
-As a consequence, `this.props.enki` will have a value even if it's not specified by the parent component.
+As a consequence, `this.props.text` will have a value even if it's not specified by the parent component.
 
 ---
 ## Practice
@@ -48,22 +49,20 @@ As a consequence, `this.props.enki` will have a value even if it's not specified
 Fill the missing that such that the default values for the `value` prop is `"xyz"`:
 
 ```jsx
-var Comp = React.createClass({
-   ???: function() {
-     return {
-       ???: ???
-     };
-   }
- //component
-});  
+function Comp(props) {
+  return <h2>{props.value}</h2>;
+}
+
+Comp.??? = {
+  ???: ???,
+};
 ```
 
-* `getDefaultProps`
 * `value`
-* `"xyz"`
+* `'xyz'`
 * `defaultProps`
-* `xyz`
 * `default`
+* `getDefaultProps`
 
 ---
 ## Revision
@@ -71,19 +70,17 @@ var Comp = React.createClass({
 Fill the missing that such that the default values for the `value` prop is `"xyz"`:
 
 ```jsx
-var Comp = React.createClass({
-   ???: function() {
-     return {
-       ???: ???
-     };
-   }
- //component
-});  
+function Comp(props) {
+  return <h2>{props.value}</h2>;
+}
+
+Comp.??? = {
+  ???: ???,
+};
 ```
 
-* `getDefaultProps`
 * `value`
-* `"xyz"`
+* `'xyz'`
 * `defaultProps`
-* `xyz`
 * `default`
+* `getDefaultProps`
