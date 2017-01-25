@@ -9,7 +9,7 @@ type: normal
 
 inAlgoPool: false
 
-category: must-know
+category: how to
 
 links:
 
