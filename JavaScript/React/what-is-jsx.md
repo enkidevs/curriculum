@@ -28,7 +28,7 @@ links:
 What this means is that **JSX** is a way of writing your **HTML** inside `JS` code.
 
 
-Technically, a **JSX** expression will be evaluated to `ReactElement`s, being a short-hand notation for `React.createElement()`. Think of `ReactElement`s as the **UI** building blocks of **React**. We will get back on that later.
+Technically, a **JSX** expression will be evaluated to `ReactElement`s, being a short-hand notation for `React.createElement()`. Think of `ReactElement`s as the **UI** building blocks of **React**. We will get back to that later.
 
 **JSX** expressions are transformed (actually *transpiled*[1]) into standard `JS` objects.
 

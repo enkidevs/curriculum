@@ -35,12 +35,12 @@ In addition to the previously stated reasons developers are eager to adopt this 
 
 **React Native** is a different `JS` open source library released by *Facebook*  that follows the same design patterns as **React**.
 
- It's used to create applications for specific operating systems such as `Android`, `iOS` or `UWP`[2], but let's you recycle a big percent of code between them.
+ It's used to create applications for specific operating systems such as `Android`, `iOS` or `UWP`[2], but it lets you share a big percent of code between them.
 
 ---
 ## Revision
 
-Which one of the following helps the most at **React**'s performance?
+Which one of the following improves **React**'s performance the most?
 
 ???
 

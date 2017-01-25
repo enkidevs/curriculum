@@ -1,4 +1,4 @@
-# What I need to use **React**?
+# **React** dependencies?
 author: catalin
 
 levels:
@@ -29,7 +29,7 @@ $ yarn add react react-dom
 $ npm install --save react react-dom
 ```
 
-You can also use a **CDN** (Content Delivery Network). For both the development and production builds (*minified*) check the link appended at the end of the insight.
+You can also use a **CDN** (Content Delivery Network). For both the development and production builds (*minified*) check the link appended to the insight.
 
 However, the former option is advised because it gives you access to a vast ecosystem of *third-party libraries* that can be easily installed and integrated.
 
@@ -46,7 +46,7 @@ npm i -g create-react-app
 create-react-app myAppName
 ```
 
-This will automatically create a *static application* with no backend logic or databases. However, this will set-up the development environment will all modern aspects discussed above.
+This will automatically create a *static application* with no backend logic or databases. However, this will set-up the development environment including all the modern tools specified above.
 
 To run your `create-react-app` app just:
 ```

@@ -31,7 +31,7 @@ In bi-directional data flow the `model` is dynamically bound to the `view` such 
 
 In **one-way data binding** the `model` is the *single source of truth*.
 
-Instead of changing the `model` directly when a **UI field** changes, the `model` is notified by the intended change and will update the *state* itself. Afterwards, the `view` is updated regarding the change.
+Instead of changing the `model` directly when a **UI field** changes, the `model` is notified by the intended change and will update the *state* itself. Afterwards, the `view` is updated to match the change.
 
 This technique is often seen as *cleaner* and it's preferred because it gives better control over the **data flow**.
 
