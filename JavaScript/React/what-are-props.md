@@ -59,7 +59,7 @@ This will let us create a `Greeting` element without specifying the `name`:
 const element = <Greeting />;
 ```
 
-If we `render` it now, we will see "Enki greets User";
+If we `render` it now (using `ReactDOM.render`), we will see "Enki greets User";
 
 ---
 ## Practice
@@ -98,7 +98,7 @@ ReactDOM.render(
 ---
 ## Revision
 
-Complete the missing gaps so that the `render`ed output under `root` is "Enki":
+Complete the missing gaps so that the `render`ed element under `root` reads "Enki":
 
 ```jsx
 class Enki extends React.Component {

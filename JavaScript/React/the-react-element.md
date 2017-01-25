@@ -23,9 +23,9 @@ links:
 
 An `element` in **React** is the most basic building blocks for describing your application's `UI`.
 
-Note that `element`s are **immutable** and their children or attributes can't be updated after rending. This implies that `element`s describe the `UI` at a specific point in time.
+Note that `element`s are **immutable** and their children or attributes can't be updated after rending. This implies that `element`s describe the `UI` at a specific point in time - like a *snapshot*.
 
-In **React** you'll mostly work with a more flexible concept - `component`s. However, these are *made of* `element`s and so it's helpful to understand how things work *fundamentally*.
+In **React** you'll mostly work with a more flexible concept - `component`s. However, these are *made of* `element`s and so it's helpful to understand the *fundamentals* of how things work.
 
 To define an element you can simply:
 ```

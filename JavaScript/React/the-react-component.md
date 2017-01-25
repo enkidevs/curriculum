@@ -21,7 +21,7 @@ links:
 ---
 ## Content
 
-In **React** a `component` represents the fundamental *classes* you can work with to build re-usable and independent `UI` blocks.
+In **React** a `component` represents a fundamental *class* you can work with to build re-usable and independent `UI` blocks.
 
 These `component`s behave like simple functions that can take as input arguments called `props` and will return what should be *rendered*.
 
@@ -44,7 +44,7 @@ An `element` can represent your `component` as well:
 ```
 const element = <Enki />;
 ```
-Giving you the means `render` it:
+Giving you the means to `render` it:
 ```
 ReactDOM.render(
   element,
