@@ -20,7 +20,7 @@ links:
 
 As discussed before, **lifecycle methods** can be used to target a specific point in the *life* of a `component`.
 
-We can split them into three broader categories by the *type of event* it'll trigger them:
+We can split them into three broader categories by the *type of event* that will trigger them:
 
 ### 1. Mounting
 
@@ -47,7 +47,7 @@ constructor(props) {
 
 - `shouldComponentUpdate(nxtProps, nxtState)` - method called **before** receiving new `props` or `state`. By default it returns `true` meaning `render` is triggered by any change. Modifying this method allows you to only re-`render` in intended scenarios.
 
-- `componentWillUpdate(nextProps, nextState)` - invoked if `shouldComponentUpdate` doesn't return `false`, **before** `render`. Note you can't use `this.setState()` here.
+- `componentWillUpdate(nextProps, nextState)` - invoked if `shouldComponentUpdate` returns `true`, **before** `render`. Note you can't use `this.setState()` here.
 
 - `componentDidUpdate(prevProps, prevState)` - invoked **after** `render`, but not after the initial one. This method is useful for manipulating the `DOM` when updated
 

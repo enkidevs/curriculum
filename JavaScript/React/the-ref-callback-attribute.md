@@ -26,7 +26,7 @@ The `ref` is a special *attribute* in **React** that is attachable to any `compo
 
 However, using a `ref` you can access components and invoke elements' methods directly.
 
-When attributed to a **HTML** `element`, the `ref` callback will take the underlying **DOM** element as input:
+When attributed to an **HTML** `element`, the `ref` callback will take the underlying **DOM** element as input:
 ```jsx
 render() {
   return (
@@ -85,7 +85,7 @@ render() {
 ---
 ## Revision
 
-How would you access the referenced `<input />` element from within `someMethod()` in the example above?
+How would you access the referenced `<input />` element from within `someMethod()` in the example below?
 ```jsx
 render() {
   return (

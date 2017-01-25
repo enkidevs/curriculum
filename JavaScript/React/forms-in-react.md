@@ -53,7 +53,7 @@ handle(e) {
 }
 ```
 
-With consistency in mind, *form elements* in **React** work a little different:
+With consistency in mind, *form elements* in **React** work a little differently:
 
 - for `<textarea />` the text is specified with `value` attribute instead of having it as a child:
 
@@ -105,7 +105,8 @@ class Control extends React.Component {
   	return (
      <input type="text"
         ???={this.state.in}
-      	???={(???) => this.???(e)} />
+      	???={(???) =>
+          this.???(e)} />
     );
   }
 };

@@ -30,7 +30,7 @@ Suppose you want `log` a message when a component **will** be mounted (before be
 ```jsx
 class Spawn extends React.Component {
   componentWillMount() {
-    console.log('I will spawned');
+    console.log('I will spawn');
   }
   render() {
     return <p>I'm basic</p>;
@@ -50,7 +50,7 @@ If you also want to mark the **un-mounting**, you can use the `componentWillUnmo
 // ...
 ```
 
-By convention, methods starting with `will` are ran **before** an event happens while those starting with `did` are ran **after**.
+By convention, methods starting with `will` are run **before** an event happens while those starting with `did` are run **after**.
 
 Making use of **lifecycle methods** grants you improved control over the `component`, letting you perform optimisations, free up resources, integrate third-party libraries or even handle `props` and `state` better.
 
