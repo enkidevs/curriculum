@@ -1,4 +1,4 @@
-# **React** dependencies?
+# **React** dependencies
 author: catalin
 
 levels:
