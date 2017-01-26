@@ -23,7 +23,7 @@ links:
 ---
 ## Content
 
-As discussed before, `component`s can take input just like a functions can, via `props`.
+As discussed before, `component`s can take input just like a function can, via `props`.
 
 `props` is a plain `JS` object accessible via `this.props`, its properties representing the arguments of a `component`.
 

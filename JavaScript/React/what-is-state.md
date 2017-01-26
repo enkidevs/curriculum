@@ -31,8 +31,8 @@ You can think of *state* as a **private** data set only accessible from within t
 Consider the component:
 ```jsx
 class Hello extends React.Component {
-  let show = this.state.show
   render() {
+    const show = this.state.show;
     return <p>{this.state.text}</p>;
   }
 }
