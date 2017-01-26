@@ -35,11 +35,11 @@ function MyComponent(props) {
 }
 
 MyComponent.defaultProps = {
-  text: 'Cats > Dogs',
+  text: 'Bonjour le monde!',
 };
 ```
 
-Here, the default value for the `text` prop is "Cats > Dogs".
+Here, the default value for the `text` prop is "Bonjour le monde!".
 
 As a consequence, `this.props.text` will have a value even if it's not specified by the parent component.
 
