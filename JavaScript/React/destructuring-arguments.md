@@ -53,7 +53,10 @@ function Display({text, ...props}) {
 ---
 ## Practice
 
-Complete the following component such that it makes sense:
+Complete the following functional component such that:
+  - `text` prop is displayed within a `<h1>`
+  - all other `props` properties are used as **DOM** attributes for the `<h1>` element
+
 ```jsx
 function Enki({text, ???}) {
   return <h1 {...props}>???</h1>;
@@ -71,7 +74,10 @@ function Enki({text, ???}) {
 ---
 ## Revision
 
-Complete the following code snippet such that the `Enki` component won't raise any errors:
+Complete the following functional component such that:
+  - `text` prop is displayed within a `<h1>`
+  - all other `props` properties are used as **DOM** attributes for the `<h1>` element
+  
 ```jsx
 function Enki({text, ???}) {
   return <h1 {...props}>???</h1>;

@@ -76,7 +76,7 @@ ReactDOM.render(
 );
 ```
 
-The `React.Children` class provides a plethora of methods useful for iterating and managing `children`.
+The `React.Children` class provides a bunch of methods useful for iterating and managing `children`.
 
 ---
 ## Practice
