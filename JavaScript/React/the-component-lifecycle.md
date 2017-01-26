@@ -36,7 +36,6 @@ class Spawn extends React.Component {
     return <p>I'm basic</p>;
   }
 }
-
 ```
 
 As this `component` can be dynamically **mounted** multiple times in an application, whenever this happens we'll see the `log` in console.
