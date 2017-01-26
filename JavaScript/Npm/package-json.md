@@ -10,6 +10,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: setting-up-npm
+
 links:
 
   - >-
@@ -19,7 +21,7 @@ links:
 ## Content
 
 The best way to manage locally installed packages is through the **package.json** file. Here are some key points of why you should use one:
- - it serves as a documentation for the packages your project is using
+ - it serves as documentation for the packages your project is using
  - it allows you to choose a specific package version that you might want to use in your project
  - running `npm install` in the same folder in which the *package.json* is located will download every dependency specified
 
@@ -39,7 +41,7 @@ To create the *package.json* file, run:
 ```bash
 $ npm init -y
 ```
-The `-y` flag will speed the process up for you in case you don't want to be bothered with things like specifying scripts, description or licensing.
+Using the -y flag speeds up the process by omitting certain options including specifying various scripts, a description or a license.
 
 The default generated file for a project called *example* would look like this:
 ```

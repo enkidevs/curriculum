@@ -10,11 +10,13 @@ inAlgoPool: false
 
 category: must-know
 
+parent: why-use-npm
+
 
 ---
 ## Content
 
-Now that you have chosen to use **npm**, the next step is to install it: *npm* is included in the *Node.js*.
+Now that you have chosen to use **npm**, the next step is to install it: *npm* is included with *Node.js*.
 
 As npm gets updated more often than node, you can update it to its most recent version like follows:
 ```bash
@@ -30,7 +32,7 @@ $ npm i package-name@version (-g)
 
 When you install a package globally, by appending the `-g` flag to the command , every project that relies on it would use the same *version* of the package, which may cause problems with dependencies.
 
-The safest way to install packages is in the project folder, or locally. For example, to check if the installation was successful, look for the *express* folder inside the *node_modules* directory:
+The safest way to install packages is in the project folder, or locally. For example, to check whether the installation was successful, look for the *express* folder inside the *node_modules* directory:
 ```bash
 $ npm install express
 ```
@@ -42,13 +44,13 @@ var app = express();
 ---
 ## Revision
 
-Install a package locally:
+Install the *react* package locally:
 ```bash
 $ ??? ??? ??? ???
 ```
 * `npm`
 * `install`
-* `package`
+* `react`
 * `-l`
 * `-g`
 * `node`
