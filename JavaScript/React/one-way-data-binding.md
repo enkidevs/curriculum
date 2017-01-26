@@ -27,7 +27,7 @@ links:
 
 Along two-way data binding, these approaches describe the way your application keeps the `view` in sync with the data `model`.
 
-In bi-directional data flow the `model` is dynamically bound to the `view` such that one can change the other and vice-versa.
+In two-way data binding the `model` is dynamically bound to the `view` such that one can change the other and vice-versa.
 
 In **one-way data binding** the `model` is the *single source of truth*.
 

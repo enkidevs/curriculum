@@ -22,19 +22,19 @@ links:
 **React** is a *JavaScript* library[1] (not a framework[2]) created and maintained by **Facebook**, used for creating user interfaces.
 
 
-The big and frequent problem that **React** solves is keeping the DOM[3] in sync with the data model.
+The big and frequent problem that **React** solves is keeping the `DOM`[3] in sync with the data model.
 
 
-It does that by rendering to the **Virtual DOM** every time a change is made in the data model. The **Virtual DOM** is then compared to the real one, changing only what's necessary and thus minimising execution time.
+It does that by generating a `DOM`-like custom object whenever a change is made in the data model. This complex data type is then compared with the real `DOM`, updating the latter only when and with what is necessary and thus minimising execution time.
 
 
 Many developers have adopted this library because of these key features:
  - **one-way data flow**: only the model can change the app's state, making it the "single source of truth"
  - **JSX**: JavaScript syntactic sugar used to quote **HTML** elements, allowing their usage in JS code
- - **virtual DOM**: you can think of this as an in-memory data structure cache used to efficiently update the real DOM
+ - **virtual DOM**: the `DOM`-like in-memory data structure cache used to efficiently update the real `DOM`
 
 
-**React** is an open-source project that was released in 2013 and already became the 5th most starred project on **GitHub**. Due to the large number of contributors, this library is being improved at an accelerated pace.
+**React** is an open-source project that was released in 2013 and already became the 5th most starred project on **GitHub**. Due to the large number of contributors, this library is improving at an accelerated pace.
 
 
 Being built with performance in mind, **React** has become the first choice for both beginners and experts of Front-End Web Development.

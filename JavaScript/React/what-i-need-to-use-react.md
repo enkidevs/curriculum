@@ -38,7 +38,7 @@ Although not required, adopting a modern **build pipeline** is highly recommende
 - a **bundler**[1] such as `webpack` or `browserify` to boost load time by modularising your code
 - a **compiler** such as `Babel`
 
-`Babel` compiler will take care of the *transpiling* as well, allowing you to write you application with `ES6` and `JSX` syntax. For this, you need to install `babel-preset-react` and `babel-preset-es2015` and enable them in your `.babelrc` config file.
+`Babel` compiler will allow you to write your application with `ES6` and `JSX` syntax. For this, you need to install `babel-preset-react` and `babel-preset-es2015` and enable them in your `.babelrc` config file.
 
 To create a **Single page application** you can use the officially supported package called `create-react-app`:
 ```

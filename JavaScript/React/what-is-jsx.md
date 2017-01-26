@@ -30,7 +30,7 @@ What this means is that **JSX** is a way of writing your **HTML** inside `JS` co
 
 Technically, a **JSX** expression will be evaluated to `ReactElement`s, being a short-hand notation for `React.createElement()`. Think of `ReactElement`s as the **UI** building blocks of **React**. We will get back to that later.
 
-**JSX** expressions are transformed (actually *transpiled*[1]) into standard `JS` objects.
+**JSX** expressions are transformed (compiled) into standard `JS` objects.
 
 For example, the following **JSX** code:
 ```jsx
@@ -60,17 +60,15 @@ When rendered, this element will display `"Hey there"` as a `h2`.
 
 
 **React** doesn't require **JSX** usage, but its usage is highly encouraged as well as `Babel` compiling.
-
-
 ---
 ## Practice
 
-What will the following **JSX** expression *transpiled* to?
+What will the following **JSX** expression compile to?
 
 ```
 const el = <p><3 JSX</p>
 
-// transpiled to:
+// compiled to:
 
 const el = React.createElement(???,
  ???, ???)
@@ -94,10 +92,3 @@ const el = React.createElement(???,
 * `HTML` elements
 * `JSX` entities
 * `XML` elements
-
----
-## Footnotes
-
-[1:transpiling]
-
-Transpilers are the programs (compilers) that can translate one programming language to another.
