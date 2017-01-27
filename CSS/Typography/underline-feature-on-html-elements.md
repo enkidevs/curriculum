@@ -60,11 +60,11 @@ a {
 
 What does the following CSS code do?
 ```css
-p {
+a {
    text-decoration: none;
 }
 ```
  ???
-* Removes the natural underline feature on all &lt;p&gt; elements.
-* Reverts and changes made to the text in all &lt;p&gt; elements, such as different colors.
-* Adds the natural underline feature to all &lt;p&gt; elements.
+* Removes the natural underline feature on all &lt;a&gt; elements.
+* Reverts and changes made to the text in all &lt;a&gt; elements, such as different colors.
+* Adds the natural underline feature to all &lt;a&gt; elements.
