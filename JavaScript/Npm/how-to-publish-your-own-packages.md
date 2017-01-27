@@ -1,4 +1,4 @@
-# How to publish your own packages
+# How to Publish Your Own Packages
 author: mihaiberq
 
 levels:
@@ -12,9 +12,9 @@ category: how to
 ---
 ## Content
 
-You've been using *npm* for some time and you found out that your favorite framework doesn't do something you really need. The beauty of npm is that everyone can publish their own packages. So you decide to give something back and extend the framework's capabilities.
+You've been using *npm* for some time and you have found out that your favorite framework doesn't do something you really need. The beauty of npm is that everyone can publish their own packages. So you decide to give something back and extend the framework's capabilities.
 
-All you need to publish your package is a GitHub account, a npm account, which you can both create for free, and an installation of node. To avoid reintroducing your details every time you initialize a new *package.json*, you can save your email and name inside the `~/.npmrc` file (a lot like you would do with `git config`):
+All you need to publish your package is an installation of node and accounts at GitHub and npm, both of which can be created for free. To avoid entering your details every time you initialize a new *package.json*, you can save your email and name inside the `~/.npmrc` file (a lot like you would do with `git config`):
 ```bash
 $ npm set init.author.name "Mihai Bercu"
 $ npm set init.author.email "mihai@enki.com"
@@ -36,6 +36,6 @@ In order to publish your package to the npm repository, you need
 
 ???.
 
-* a npm account
+* an npm account
 * an initial package version of `1.0.0`
 * a `README.md` file

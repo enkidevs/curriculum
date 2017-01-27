@@ -1,4 +1,4 @@
-# Prepare your module for publishing
+# Preparing Your Module For Publishing
 author: mihaiberq
 
 levels:
@@ -14,7 +14,7 @@ category: how to
 
 If you decide to publish your module, a good *README.md* file is necessary. It does not only help you keep track of the capabilities of the module, but also it helps others understand how to use your module.
 
-Even though there isn't one particular way or another of writing the *README* file, there are some fields that have proved their efficiency:
+There are many ways to write the README file but it's worth considering the following sections:
 ```md
 ## Introduction
  The introduction should consist of one or
@@ -32,7 +32,7 @@ Even though there isn't one particular way or another of writing the *README* fi
  outputs for sanity check.
 
 ## Tests
- In case you have some tests written,
+ If you have included tests,
  provide the code that runs them.
 ```
 When you consider your module ready for publishing, run:

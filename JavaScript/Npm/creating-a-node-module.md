@@ -1,4 +1,4 @@
-# Creating a node module
+# Creating a Node Module
 author: mihaiberq
 
 levels:
@@ -13,9 +13,9 @@ category: how to
 ---
 ## Content
 
-After you set up the *package.json* file, it's time to start coding. A npm module is a regular JavaScript file, that must follow the *CommonJS* module spec.
+After you have set up the *package.json* file, it's time to start coding. A npm module is a regular JavaScript file that must follow the *CommonJS* module spec.
 
-In other words, a module has by default an object called **module**, that has a read-only `id` property that is used to identify the module and an `exports` object, which contains all the methods/constants to be exported. Here's an example:
+A module contains an object called **module**, that has a read-only `id` property used to identify the module and an `exports` object, containing all the methods/constants to be exported. Here's an example:
 ```javascript
 // math.js
 module.exports.pow = function(a,b){
