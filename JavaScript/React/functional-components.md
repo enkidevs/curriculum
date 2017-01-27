@@ -3,7 +3,13 @@ author: catalin
 
 levels:
 
- - beginner
+  - beginner
+
+  - basic
+
+  - medium
+
+  - advanced
 
 type: normal
 
