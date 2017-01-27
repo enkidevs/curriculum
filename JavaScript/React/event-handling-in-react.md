@@ -17,6 +17,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: forms-in-react
+
 links:
 
   - '[facebook.github.io](https://facebook.github.io/react/docs/handling-events.html)'

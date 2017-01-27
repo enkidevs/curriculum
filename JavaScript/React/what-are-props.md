@@ -17,6 +17,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: the-react-component
+
 links:
 
 

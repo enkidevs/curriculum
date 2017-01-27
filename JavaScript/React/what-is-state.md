@@ -17,6 +17,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: what-are-props
+
 links:
 
 
