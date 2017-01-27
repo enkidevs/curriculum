@@ -6,8 +6,6 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: feature
 
 parent: deprecated-peer-dependencies
