@@ -17,6 +17,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: functional-components
+
 links:
 
   - '[facebook.github.io](https://facebook.github.io/react/docs/state-and-lifecycle.html#adding-lifecycle-methods-to-a-class)'

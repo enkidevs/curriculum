@@ -17,6 +17,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: conditional-rendering-part-2
+
 links:
 
   - '[facebook.github.io](https://facebook.github.io/react/docs/refs-and-the-dom.html)'

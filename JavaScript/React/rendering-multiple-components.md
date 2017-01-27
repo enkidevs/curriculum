@@ -17,6 +17,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: component-lifecycle-methods
+
 links:
 
   - '[facebook.github.io](https://facebook.github.io/react/docs/lists-and-keys.html)'

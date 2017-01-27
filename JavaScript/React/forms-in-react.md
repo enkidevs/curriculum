@@ -17,6 +17,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: rendering-multiple-components
+
 links:
 
   - '[facebook.github.io](https://facebook.github.io/react/docs/forms.html)'

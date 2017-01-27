@@ -17,6 +17,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: the-component-lifecycle
+
 links:
 
   - '[facebook.github.io](https://facebook.github.io/react/docs/react-component.html#the-component-lifecycle)'
