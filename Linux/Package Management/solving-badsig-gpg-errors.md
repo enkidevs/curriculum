@@ -54,7 +54,7 @@ The installation operation should now succeed.
 ---
 ## Revision
 
-`BADSIG BGB` errors usually occur because 
+`BADSIG GPG` errors usually occur because 
 
 ???.
 *the signatures are incorrect
