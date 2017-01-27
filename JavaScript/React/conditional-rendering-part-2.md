@@ -13,8 +13,6 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: how to
 
 parent: conditional-rendering-part-1
