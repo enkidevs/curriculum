@@ -5,6 +5,12 @@ levels:
 
   - beginner
 
+  - basic
+
+  - medium
+
+  - advanced
+
 type: normal
 
 inAlgoPool: false
@@ -77,7 +83,7 @@ function Enki({text, ???}) {
 Complete the following functional component such that:
   - `text` prop is displayed within a `<h1>`
   - all other `props` properties are used as **DOM** attributes for the `<h1>` element
-  
+
 ```jsx
 function Enki({text, ???}) {
   return <h1 {...props}>???</h1>;
