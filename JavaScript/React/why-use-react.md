@@ -7,8 +7,6 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
 parent: one-way-data-binding
