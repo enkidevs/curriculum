@@ -11,6 +11,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: what-is-react
+
 links:
 
   - >-
