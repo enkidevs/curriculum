@@ -17,7 +17,7 @@ inAlgoPool: false
 
 category: how to
 
-parent: prop-validation
+parent: default-values-for-props
 
 ---
 ## Content

@@ -17,7 +17,7 @@ inAlgoPool: false
 
 category: feature
 
-parent: prop-validation
+parent: enhanced-prop-validation
 
 links:
 
