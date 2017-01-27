@@ -17,8 +17,7 @@ category: how to
 
 links:
 
-  - >-
-    [gist.github.com](https://gist.github.com/sebmarkbage/07bbe37bc42b6d4aef81){website}
+  - '[gist.github.com](https://gist.github.com/sebmarkbage/07bbe37bc42b6d4aef81){website}'
 
 
 ---
