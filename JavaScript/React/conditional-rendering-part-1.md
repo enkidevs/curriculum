@@ -17,6 +17,8 @@ inAlgoPool: false
 
 category: how to
 
+parent: event-handling-in-react
+
 links:
 
   - '[facebook.github.io](https://facebook.github.io/react/docs/conditional-rendering.html)'

@@ -17,6 +17,8 @@ inAlgoPool: false
 
 category: feature
 
+parent: custom-proptype-s-to-be-required
+
 links:
 
 - >-
