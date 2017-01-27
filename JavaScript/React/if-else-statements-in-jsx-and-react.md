@@ -11,6 +11,8 @@ type: normal
 
 category: how to
 
+parent: custom-proptype-s-to-be-required
+
 links:
 
   - >-
@@ -19,13 +21,13 @@ links:
 ---
 ## Content
 
-**JSX** is a JavaScript extension intended to be a syntactic sugar for function calls and object construction. 
+**JSX** is a JavaScript extension intended to be a syntactic sugar for function calls and object construction.
 
 Due to this, `if-else` statements won't work inside **JSX** as they would translate as the following:
 ```jsx
 <div id={if (condition){'msg'}}> Hello</div>
 // will translate into:
-React.createElement("div", 
+React.createElement("div",
 {id: if (condition) { 'msg' }}, "Hello");
 ```
 Instead, ternary expressions can be used:
