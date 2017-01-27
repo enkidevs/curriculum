@@ -10,6 +10,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: semantic-versioning
+
 ---
 ## Content
 
@@ -17,16 +19,16 @@ So far, we've used the terms *package* and *module* somehow interchangeably. How
 
 In short, a **package** is a file or directory that contains a *package.json*. It is something that, by reading its *package.json* file, can be characterized by a *name*, a *version*, a *tag*, or a *git repository url*.
 
-Even though the package is not published to the public registry (you will see how to do that in a future workout), it provides the same benefits, such as avoiding code repetition.
+Even if a package is not published to the public registry (you will be shown how to do that in a future workout), it can provide the same benefits, such as avoiding code repetition.
 
-A **module**, on the other hand, is anything that you can load in a project using `require()`. To some extent, packages can be modules, but there is no requirement of the kind.
+A **module**, on the other hand, is anything that you can load in a project using `require()`. To some extent, packages can be modules, but this is not required.
 
-There are some packages, e.g. command line interface ones, that contain an executable, but don't provide the *main* field which makes them importable by *Node.js*.
+There are some packages, such as command line interface ones, that contain an executable but don't provide the *main* field which makes them importable by *Node.js*.
 
 ### *package.json* and *node_modules*
 The above definitions explain the nomenclature chosen for the two npm resources: *package.json* and *node_modules*.
 
-The *package.json* defines the package, while the *node_modules* is the place where *Node.js* will look for imports specified with `require()`.
+The *package.json* file defines the package, while the *node_modules* is the place where *Node.js* will look for imports specified with `require()`.
 
 You could have a module *node_modules/myModule.js*, for which:
 ```

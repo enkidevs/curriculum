@@ -14,19 +14,21 @@ links:
   - >-
     [docs.npmjs.com](https://docs.npmjs.com/getting-started/scoped-packages){website}
 
+parent: packages-vs-modules
+
 ---
 ## Content
 
-Since `npm` started supporting scoping, multiple packages can have the same name while they are under a different **scope** (that acts like a namespace).
+Since *npm* started supporting scoping, multiple packages can have the same name while they are under a different **scope** (that acts like a namespace).
 
-The naming convention for scopes is the same as with package names: **url-safe characters**, ** no leading dots or underscores**. Scopes are prefixed by `@`-symbol, followed by a `/` and will precede the package name:
-```bash
+The naming convention for scopes is the same as with package names: **url-safe characters**, **no leading dots or underscores**. Scopes are prefixed by the `@` symbol, followed by a `/` and the whole construct precedes the package name:
+```javascript
 @myscope/mypackagename
 ```
 
-This syntax must be used when trying to `install` a package or specify a package in `package.json`:
+This syntax must be used when trying to `install` a package or specify a package in *package.json*:
 ```bash
-$ npm intall @myscope/mypackagename
+$ npm install @myscope/mypackagename
 ```
 ```json
 //package.json

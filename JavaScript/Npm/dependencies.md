@@ -10,6 +10,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: scoped-packages
+
 ---
 ## Content
 
@@ -51,7 +53,7 @@ This is the true power of *npm*. What would have required a lot of individual do
 ---
 ## Practice
 
-Packages the application is dependent on are specified in
+Packages that the application is dependent on are specified in
 
 ???
 
