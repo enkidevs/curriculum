@@ -1,4 +1,4 @@
-# Environmental variables
+# Environmental Variables
 author: mihaiberq
 
 levels:
@@ -12,7 +12,7 @@ category: feature
 ---
 ## Content
 
-Another feature of npm is allowing the user to set values which would be seen as *environmental variables* in *scripts*. All general available values should be declared inside the *config* object:
+Another feature of npm is allowing the user to set values which would be seen as *environmental variables* in *scripts*. All re-used values should be declared inside the *config* object:
 ```javascript
 "config": {
   "js_dev": "backend/js/",
@@ -27,7 +27,7 @@ Another feature of npm is allowing the user to set values which would be seen as
         $npm_package_config_js_dev`
 }
 ```
-The downside of it is that the reference can get quite verbose, as you have to add the `$npm_package_config_` prefix for every such variable. On the bright side, making changes to the location of the files is easier now, as you would only have to change a single line.
+The downside of it is that the reference can get quite verbose, as you have to add the `$npm_package_config_` prefix for every such variable. On the bright side, making changes to the location of the files is easier now as you would only have to change a single line.
 
 You can locally override an existing config by running:
 ```bash
@@ -36,7 +36,7 @@ $ npm config set
 ```
 This would add an entry in the *~/.npmrc* file (`packageName:js_dev=js/backend/`), which is read at run time and changes the path on the local machine.
 
-It is a good idea to used predefined values to be able to run everything straight away. Take *port* for example. In a *server.js* file you could retrieve it by:
+It is a good idea to include default values as it ensures the scripts can be run without modification. Take *port* for example, in a *server.js* file you could retrieve it by:
 ```javascript
 http.createServer(...).listen(
   process.env.npm_package_config_port);
