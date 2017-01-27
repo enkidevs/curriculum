@@ -55,7 +55,7 @@ $ ls -l new-file
 #for a new dir
 $ mkdir new-dir
 $ ls -l new-dir
-drwrxr-xr-x 2 user group 4096 ./
+drwxr-xr-x 2 user group 4096 ./
 
 ```
 To change the umask of current session to `077`, run:
