@@ -9,21 +9,30 @@ type: normal
 
 category: how to
 
+parent: prepare-your-module-for-publishing
 
 ---
 ## Content
 
-The easiest way to ensure that changes and additions made to your module don't break any existing features or functions is to thoroughly **test** it. Some people even think that writing tests and building your module around them is the safest choice in providing the best possible code[1].
+The easiest way to ensure that changes and additions made to your module don't break any existing features or functions is to thoroughly **test** it.
 
-Running the tests with npm works just like running any other script:
+Some people even think that writing tests and building your module around them is the safest choice in providing the best possible code[1].
+
+In your `package.json` you can specify what **script** should be run when `test`ing.
 ```javascript
 {
   "scripts": {
-    "test": "node test/mytest.js"
+    "test": "jest test/mytest.js"
   }
 }
 ```
-One of the most straight forward way to test your code is linting. A linter has nothing to do with **how** your code works, but **if** your code has some errors - think of syntax errors or missing parenthesis. It also checks for consistency in terms of spacing, tabbing and quote using.
+This will provide a shortcut for you, invokable by running:
+```bash
+$ npm test
+# instead of
+$ npm run test
+```
+One of the most straightforward way to test your code is linting. A linter has nothing to do with **how** your code works, but **if** your code has some errors or it abides by best practices - think of syntax errors or missing parenthesis. It also checks for consistency in terms of spacing, tabbing and quote using.
 
 A JavaScript linter is JSLint:
 ```bash
@@ -33,7 +42,8 @@ To lint your entire project, add this to the *test* event:
 ```javascript
 {
   "scripts": {
-    "test": "jslint '**/*.js' && node test/mytest.js"
+    "test": `jslint '**/*.js'
+        && node test/mytest.js`
   }
 }
 ```

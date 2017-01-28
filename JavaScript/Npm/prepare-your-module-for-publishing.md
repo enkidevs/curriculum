@@ -9,6 +9,8 @@ type: normal
 
 category: how to
 
+parent: creating-a-node-module
+
 ---
 ## Content
 
