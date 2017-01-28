@@ -9,6 +9,7 @@ type: normal
 
 category: how to
 
+parent: npm-scripting
 
 ---
 ## Content

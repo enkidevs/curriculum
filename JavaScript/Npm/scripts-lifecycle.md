@@ -9,6 +9,8 @@ type: normal
 
 category: must-know
 
+parent: npm-variables
+
 ---
 ## Content
 
