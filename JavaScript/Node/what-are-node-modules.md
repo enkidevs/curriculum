@@ -11,12 +11,14 @@ type: normal
 
 category: must-know
 
-links:
+parent: npm-nodes-package-manager
 
+links:
+- '[Node Modules](http://book.mixu.net/node/ch8.html)'
 ---
 ## Content
 
-A module encapsulates an amount of code into one single code unit. Node has a module system implemented which allows for other open-source JavaScript files to be included and used in your application. A substantial amount of Node’s core functionality was implemented using JavaScript modules.
+A module encapsulates an amount of code into one single code unit. Node has a module system implemented which allows for other JavaScript files to be included and used in your application. A substantial amount of Node’s core functionality was implemented using JavaScript modules.
 
 Node incorporates 3 different module types, modules can either be core modules, local modules or third party modules. An example of a core Node module is the `http` module.
 

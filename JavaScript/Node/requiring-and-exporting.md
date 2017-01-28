@@ -11,7 +11,10 @@ type: normal
 
 category: must-know
 
+parent: what-are-node-modules
+
 links:
+- '[Node Modules](https://www.bennadel.com/blog/2169-where-does-node-js-and-require-look-for-modules.htm)'
 
 ---
 ## Content
@@ -24,15 +27,15 @@ var module = require(‘./example.js’);
 
 `exports` or `module.exports` by default are included in all JavaScript files in a Node application as a special object. `exports` is an object exposed as module, whereas `module` is a variable representing the current module. Therefore what you assign to either `exports` or `module.exports` is exposed as a module.
 
-Take *module.js*:
+Take *sampleModule.js*:
 ```
 module.exports = “Required and exported!”;
 ```
 Note: `exports`  could have been used instead of `module.exports` to the same effect.
 
-Importing *module.js* into a new JavaScript file *main.js*:
+Importing *sampleModule.js* into a new JavaScript file *main.js*:
 ```
-var test = require(‘./module.js’);
+var test = require(‘./sampleModule.js’);
 console.log(test);
 ```
 Running *main.js* from a REPL terminal returns the following:

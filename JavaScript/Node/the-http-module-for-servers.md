@@ -11,7 +11,10 @@ type: normal
 
 category: best practice
 
+parent: requiring-and-exporting
+
 links:
+- '[The HTTP Module](https://davidwalsh.name/nodejs-http-request)'
 
 ---
 ## Content
@@ -38,10 +41,10 @@ var server = http.createServer
 ```
 Then assign a port to the server object:
 ```
-server.listen(PORT, function() {
+server.listen(8000, function() {
 
   console.log(‘Server listening here:
-              http://localhost:%s’, PORT);
+              http://localhost:%s’, 8000);
 
 });
 ```

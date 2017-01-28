@@ -9,9 +9,12 @@ levels:
 
 type: normal
 
-category: best practice
+category: must know
+
+parent: the-http-module-for-servers
 
 links:
+- '[Local Modules](http://www.tutorialsteacher.com/nodejs/nodejs-local-modules)'
 
 ---
 ## Content
@@ -43,7 +46,7 @@ newsModule.good('We're working on Node!');
 ```
 To run the module:
 ```
-C:\> node main.js
+$ node main.js
 ```
 Which gives the following output:
 ```
