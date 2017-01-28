@@ -11,7 +11,7 @@ category: must-know
 
 links:
 
-  - '[Node Docs](https://nodejs.org/en/)'
+- '[Node Docs](https://nodejs.org/en/)'
 
 ---
 ## Content
