@@ -28,7 +28,7 @@ It can be used to build a variety of applications including single and multi-pag
 ---
 ## Practice
 
-Is JavaScript synchronous or asynchronous?
+Is Node synchronous or asynchronous?
 ???
 
 * asynchronous

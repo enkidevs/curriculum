@@ -9,7 +9,10 @@ type: normal
 
 category: must-know
 
+parent: the-repl-terminal
+
 links:
+- '[Node's Terminal](http://nodeguide.com/beginner.html#the-interactive-node.js-shell)'
 
 ---
 ## Content
@@ -22,20 +25,16 @@ console.log(‘Node.js with Enki!’);
 ```
 To run any JavaScript program using Node use the following generic command:
 
-```
+```bash
 $ node filename.js
 ```
 
 In this case, to run the *main.js* file the following command would be used:
 
-```
+```bash
 $ node main.js
 Node.js with Enki!
 ```
-
-
----
-
 
 ---
 ## Revision

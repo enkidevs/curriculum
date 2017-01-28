@@ -9,7 +9,10 @@ type: normal
 
 category: must-know
 
+parent: installing-node-js
+
 links:
+- '[Node's REPL](http://www.tutorialsteacher.com/nodejs/nodejs-console-repl)'
 
 
 ---
@@ -21,6 +24,8 @@ REPL stands Read Eval Print Loop. It represents an environment similar to a Wind
 *Eval* evaluates this data structure.
 *Print* prints the result of the evaluation.
 *Loop* loops the above commands until the user exits the REPL terminal.
+
+A key benefit of using Node's REPL terminal is that it helps iron out any irregularities found in an application, meaning that there are no side effects when the code is ran in the application.
 
 To start REPL:
 ```

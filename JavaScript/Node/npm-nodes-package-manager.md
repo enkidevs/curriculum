@@ -9,12 +9,15 @@ type: normal
 
 category: must-know
 
+parent: executing-programs-with-node
+
 links:
+- '[NPM](https://www.npmjs.com/)'
 
 ---
 ## Content
 
-NPM, Nodes Package Manager, is the package manager for JavaScript’s Node.js environment. It allows packages of code from developers across the world to be found, shared and implemented into your own systems.
+NPM, Nodes Package Manager, is the package manager for JavaScript’s Node.js environment. It allows packages of code, modules, from developers across the world to be found, shared and implemented into your own systems.
 
 The NPM registry is home to over 350,000 packages of code open for use to anyone who requires it and is used by over 4 million developers every month.
 
