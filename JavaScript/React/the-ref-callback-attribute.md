@@ -44,7 +44,7 @@ In the `ref` callback function above, `in` (input) will be:
 
 - `null` when `<input />` is **unmounted**
 
-The referenced element is now accesible via `this.myInput`:
+The referenced element is now accessible via `this.myInput`:
 ```jsx
 someMethod() {
   // call raw DOM API method focus()
