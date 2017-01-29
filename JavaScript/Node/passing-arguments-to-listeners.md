@@ -11,7 +11,10 @@ type: normal
 
 category: must-know
 
+parent: synchronous-event-delivery
+
 links:
+- '[Passing arguments](https://nodejs.org/api/events.html#events_passing_arguments_and_this_to_listeners)'
 
 ---
 ## Content
@@ -19,8 +22,7 @@ links:
 The `eventEmitter.emit()` method allows for a set of arguments to be passed to the listener functions. The `this` keyword, when passed, is set to reference the `EventEmitter` to which the listener is attached.
 
 ```
-"use strict"
-const EventEmitter = require('events');
+var EventEmitter = require('events');
 class MyEmitter extends EventEmitter {}
 const emitter = new MyEmitter();
 

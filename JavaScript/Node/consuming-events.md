@@ -11,12 +11,16 @@ type: normal
 
 category: must-know
 
+parent: module-patterns
+
 links:
+- '[Node Events](https://nodesource.com/blog/understanding-the-nodejs-event-loop/)'
 
 ---
 ## Content
+Node applications are event driven applications, an event occurs upon a change of state in an application, for example, a button being clicked, or data being inputted.
 
-Node events are consumed when an in-application event occurs, modules subscribe to events by listening to the event on a given object. For example, in a file system, an event could be that a file has been edited. For example:
+Node events are consumed when an in-application event occurs, modules subscribe to events by listening to the event on a given object. For example, in a file system, an event could be that a file has been edited:
 
 ```
 var system = require(‘.filesytem.js’);
@@ -54,13 +58,18 @@ system.file.removeListener(‘edit’, onEdit);
 ---
 ## Practice
 
-What's always the first parameter of a Node event callback function?
+Complete the code snippet to add a callback to the object in case of an 'edit' event:
 ???
 
-* Event name
-* Function definition
-* System call number
-
+```
+system.file.???(‘???’, function
+                      (fileID, initials) {
+```
+* `on`
+* `edit`
+* `event`
+* `event=edit`
+* `callback`
 ---
 ## Revision
 

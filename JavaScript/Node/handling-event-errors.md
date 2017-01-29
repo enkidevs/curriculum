@@ -11,14 +11,17 @@ type: normal
 
 category: must-know
 
+parent: passing-arguments-to-listeners
+
 links:
+- '[Node Errors](https://nodejs.org/api/errors.html)'
 
 ---
 ## Content
 
 All events are treated equally as all event types are defined by an arbitrary string, when an event emitter emits an event with no attached listeners the event is ignored.
 
-If the event is called *error* however, the error is thrown into the event loop, then generating an uncaught exception. To stop this from breaking the application, uncaught exceptions can be caught by listening to the `uncaughtException` which the global event emitter object emits:
+If the event is called *error* however, the error is thrown into the event loop, then generating an uncaught exception. To stop this from breaking the application, uncaught exceptions can be caught by listening to the `uncaughtException` which the global event emitter object emits. Take `test` as a sample event emitter:
 
 ```
 test.on(‘uncaughtException’, function(err) {
@@ -41,7 +44,7 @@ test.on(‘uncaughtException’, function(err) {
 ---
 ## Practice
 
-Which of the following is emitted by the global event emitter object?
+What event type is emitted by the global event emitter object?
 ???
 
 * `uncaughtException`
