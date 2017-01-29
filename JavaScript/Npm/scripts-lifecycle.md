@@ -4,7 +4,10 @@ author: mihaiberq
 levels:
 
   - beginner
-
+  - basic
+  - medium
+  - advanced
+  
 type: normal
 
 category: must-know
