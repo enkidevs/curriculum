@@ -11,12 +11,13 @@ type: normal
 
 category: feature
 
+parent: check-data-about-a-package
+
 links:
 
   - >-
     [nodejs.org](https://nodejs.org/en/blog/npm/managing-node-js-dependencies-with-shrinkwrap/){website}
 
-parent: check-data-about-a-package
 
 ---
 ## Content

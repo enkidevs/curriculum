@@ -11,8 +11,6 @@ type: normal
 
 category: feature
 
-parent: npm-scripts
-
 links:
 
   - >-

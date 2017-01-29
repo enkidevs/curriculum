@@ -13,11 +13,11 @@ type: normal
 
 category: feature
 
+parent: check-data-about-a-package
+
 links:
 
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/link){website}'
-
-parent: check-data-about-a-package
 
 ---
 ## Content

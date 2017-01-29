@@ -11,12 +11,13 @@ type: normal
 
 category: best practice
 
+parent: check-data-about-a-package
+
 links:
 
   - >-
     [strongloop.com](https://strongloop.com/strongblog/3-neat-tricks-with-npm-run/){website}
 
-parent: check-data-about-a-package
 
 ---
 ## Content
