@@ -1,8 +1,11 @@
 # Scoped packages
-author: catalin
+author: mihaiberq
 
 levels:
   - beginner
+  - basic
+  - medium
+  - advanced
 
 type: normal
 
@@ -11,6 +14,8 @@ category: feature
 links:
   - >-
     [docs.npmjs.com](https://docs.npmjs.com/getting-started/scoped-packages){website}
+
+parent: packages-vs-modules
 
 ---
 ## Content
