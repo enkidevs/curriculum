@@ -3,8 +3,6 @@ author: catalin
 
 levels:
 
-  - basic
-
   - advanced
 
   - medium
@@ -18,10 +16,12 @@ links:
   - >-
     [nodejs.org](https://nodejs.org/en/blog/npm/managing-node-js-dependencies-with-shrinkwrap/){website}
 
+parent: check-data-about-a-package
+
 ---
 ## Content
 
-`npm` has great support for semanting versioning because it uses wildcards and expressions for versions of dependencies listed in the `package.json` file: 
+`npm` has great support for semanting versioning because it uses wildcards and expressions for versions of dependencies listed in the `package.json` file:
 ```json
 {  //other props
    "dependencies": {

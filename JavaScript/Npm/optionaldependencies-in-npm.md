@@ -18,10 +18,12 @@ links:
   - >-
     [docs.npmjs.com](https://docs.npmjs.com/files/package.json#optionaldependencies){website}
 
+parent: check-data-about-a-package
+
 ---
 ## Content
 
-`optionalDependencies` object in `package.json` file can be used to specify dependencies that are not **necessarily needed**. 
+`optionalDependencies` object in `package.json` file can be used to specify dependencies that are not **necessarily needed**.
 
 If `npm` can't find or fails to install the dependency, the installation of your whole module will continue.
 
@@ -39,7 +41,7 @@ Keep in mind that is still the user's responsibility to handle the lack of the d
 ```javascript
 try {
   var enki = require('enki');
-  var enkiVer = 
+  var enkiVer =
     require('enki/package.json').version;
 } catch (error) {
   enki = null;

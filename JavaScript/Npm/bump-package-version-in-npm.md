@@ -17,6 +17,8 @@ links:
 
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/version){website}'
 
+parent: check-data-about-a-package
+
 ---
 ## Content
 
