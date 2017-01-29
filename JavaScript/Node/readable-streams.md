@@ -11,12 +11,15 @@ type: normal
 
 category: must-know
 
+parent: what-are-streams
+
 links:
+- '[Readable Streams](https://nodejs.org/api/stream.html)'
 
 ---
 ## Content
 
-A readable stream reads data from a source, a source could be a file on a system, another stream, an array or buffer in memory or a variety of other options. Streams are `EventEmitters`, therefore they emit a number of events whilst running.
+A readable stream reads data from a source. A source could be a file on a system, another stream, an array or buffer in memory or a variety of other options. Streams are `EventEmitters`, therefore they emit a number of events whilst running.
 
 The most efficient way of reading data from a stream is to add a *listener* to the *data* event and attach a callback. When data is available to be read, the (readable) stream will emit a data event causing the callback to run, for example:
 
@@ -33,7 +36,7 @@ rstream.on(‘data’, function(avail) {
 
 });
 ```
-Calling `fs.createReadStream` creates a static readable stream, this stream then beings to flow once a callback has been attached.
+Calling `fs.createReadStream` creates a readable stream, this stream then beings to flow once a callback has been attached.
 
 A callback also needs to be added for when the stream has reached the end of the data:
 ```
@@ -53,7 +56,7 @@ rstream.setEncoding(‘utf8’);
 ---
 ## Practice
 
-Which Node module must be required prior to a readable stream being created?
+Which of the following Node modules needs to be required prior to a readable stream being created?
 ???
 
 * File system

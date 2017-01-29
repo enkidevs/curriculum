@@ -11,7 +11,10 @@ type: normal
 
 category: must-know
 
+parent: piping-readable-streams
+
 links:
+- '[Chaining](http://www.naeemrana.com/node-js/node-js-streams-pipe-and-chaining/)'
 
 ---
 ## Content
@@ -26,7 +29,7 @@ fs.createReadStream(‘file.txt.gz’)
   .pipe(fs.createWriteStream(‘final.txt’));
 ```
 
-Here, a readable stream is created, this is piped into the second stream, `zlib.createGunzip()` to unzip the content passed to it. The final pipe chains the unzipped content to the writable stream which writes the data to the specified file.
+Here, a readable stream is created which is piped into a second stream, `zlib.createGunzip()`, to unzip the content passed to it. The final pipe chains the unzipped content to the writable stream which writes the data to the specified file.
 
 ---
 ## Practice
@@ -42,9 +45,9 @@ What's the maximum number of pipes allowed when chaining?
 ---
 ## Revision
 
-Which function is used to create the second pipe when chaining data?
+Which function is used to chain streams together?
 ???
 
 * `pipe()`
 * `new-pipe()`
-* `pipe2()`
+* `chain()`

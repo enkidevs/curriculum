@@ -11,7 +11,10 @@ type: normal
 
 category: must-know
 
+parent: readable-streams
+
 links:
+- '[Piping streams](https://www.sandersdenardi.com/readable-writable-transform-streams-node/)'
 
 ---
 ## Content
@@ -20,15 +23,15 @@ Piping allows for data to be read from a source, and passed onto a destination w
 
 ```
 var fs = require(‘fs’);
-var rstream = fs.createReadStream
+var rStream = fs.createReadStream
                           (‘file1.txt’);
-var wstream = fs.createWriteStream
-                          (‘file2.txt’);
+var wStream = fs.createWriteStream
+                         (‘file2.txt’);
 
-rstream.pipe(wstream);
+rstream.pipe(wStream);
 ```
 
-The `pipe()` function is used in the above example to write the content of file1, which was read into `rstream` into file2 using `wstream` . `pipe()` manages the data flow meaning there’s no need to worry about fast or slow data, also, because `pipe()` returns the destination stream it can be used chain multiple streams together.
+The `pipe()` function is used in the above example to write the content of file1 (which was read into `rstream`) into file2 using `wstream`. `pipe()` manages the data flow meaning there’s no need to worry about fast or slow data. Also, because `pipe()` returns the destination stream it can be used chain multiple streams together.
 
 ---
 
