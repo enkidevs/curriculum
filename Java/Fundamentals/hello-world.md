@@ -36,13 +36,13 @@ public class HelloWorld{
 
 All the code does is print `Hello World!` to the console. As it is hard to represent the whole environment on a phone, we will assume that text after `//` is the console output, unless stated otherwise.
 
-For any Java code to work, a `class` has to enclose it. In our case, the class is called `HelloWorld`. **Keep in mind** that Java requires the file containing the class `HelloWorld` *to be called* `HelloWorld.java`.
+For any Java code to work, a `class` has to enclose it. In our case, the class[2] is called `HelloWorld`. **Keep in mind** that Java requires the file containing the class `HelloWorld` *to be called* `HelloWorld.java`.
 
 Next, a `main` function is required to run the code. The name of this function is more or less a convention from the days of `C`. In this function, we invoke the built-in class `System` (one of the 4300 classes that exists in Java 8) and call its internal function `println()` with the text we want to print. In our case, `Hello world!`.
 
 The code must then be *compiled into bytecode* and passed to the *Java Virtual Machine* (JVM), which will take care of printing the message.
 
-Don't worry if you didn't understand all of this, as we will discuss each term in more detail later.
+*Don't worry* if you didn't understand all of this, as we will discuss each term in more detail in **future workouts**.
 
 ---
 ## Practice
