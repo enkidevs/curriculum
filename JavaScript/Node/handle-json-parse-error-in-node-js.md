@@ -11,6 +11,8 @@ type: normal
 
 category: caveats
 
+parent: writable-streams
+
 links:
 
   - >-
@@ -22,9 +24,9 @@ links:
 ---
 ## Content
 
-Handling a `JSON.parse` error is one of the few situations when you'd use a `try/catch` in Node. 
+Handling a `JSON.parse` error is one of the few situations when you'd use a `try/catch` in Node.
 
-This is because **synchronous operational errors** are very rare in Node and only occur due to bad user input. `JSON.parse` is a synchronous function and you have to deliver the error synchronously. 
+This is because **synchronous operational errors** are very rare in Node and only occur due to bad user input. `JSON.parse` is a synchronous function and you have to deliver the error synchronously.
 
 For example:
 ```

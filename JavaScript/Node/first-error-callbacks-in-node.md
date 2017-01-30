@@ -11,6 +11,8 @@ type: normal
 
 category: how to
 
+parent: writable-streams
+
 links:
 
   - >-
@@ -27,7 +29,7 @@ Rule *one* rule of defining `"error-first"` callback:
 function(err, data)
 ```
 The first argument of the callback is an error object. If the response is successful  
-`err` will be equal to `null`. Otherwise it will take the type of error. 
+`err` will be equal to `null`. Otherwise it will take the type of error.
 
 Implementing a `"error-first"` callback:
 ```javascript
@@ -36,7 +38,7 @@ fs.readFile('/text.txt',
   console.log(data);
 });
 
-``` 
+```
 
 Make a simple error check:
 ```javascript
@@ -53,7 +55,7 @@ Make a particular error check:
 
 What are the arguments of a `error-first` callback function?
 ```javascript
-function(???, ??) { } 
+function(???, ??) { }
 ```
 *`err`
 *`data`

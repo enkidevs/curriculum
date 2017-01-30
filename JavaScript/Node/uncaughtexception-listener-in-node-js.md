@@ -13,6 +13,8 @@ type: normal
 
 category: must-know
 
+parent: writable-streams
+
 links:
 
   - >-
@@ -40,7 +42,7 @@ Note that `uncaughtException` is a crude  mechanism for exception handling and i
 
 Complete the code snippet so `uncaughtException`s are handled:
 ```javascript
-process.???('???', 
+process.???('???',
   function(err) {
      console.log('exception: ' + err);
   }

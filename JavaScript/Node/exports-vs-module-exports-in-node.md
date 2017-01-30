@@ -11,6 +11,8 @@ type: normal
 
 category: must-know
 
+parent: writable-streams
+
 links:
 
   - >-
@@ -35,7 +37,7 @@ However, `exports` is just a helper for `module.exports`. The latter is ultimate
 
 ```javascript
 module.exports = 'Oops!';
-exports.say = function() { 
+exports.say = function() {
   console.log('Hello from Enki!'); }
 ```
 

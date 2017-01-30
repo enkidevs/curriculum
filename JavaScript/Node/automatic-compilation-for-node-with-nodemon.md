@@ -1,4 +1,4 @@
-# Automatic compilation for Node with **Nodemon** 
+# Automatic compilation for Node with **Nodemon**
 author: catalin
 
 levels:
@@ -10,6 +10,8 @@ levels:
 type: normal
 
 category: hack
+
+parent: writable-streams
 
 links:
 
@@ -37,7 +39,7 @@ If you have a `package.json` file for your app, you can omit the main script ent
 
 In order to enable debugging just use the `--debug` flag.
 
-**Nodemon** also supports **CoffeeScript**: 
+**Nodemon** also supports **CoffeeScript**:
 ```bash
 nodemon myapp.coffee
 
@@ -48,14 +50,14 @@ For the command line interface options just type `nodemon --help`.
 ---
 ## Practice
 
-Which flag must be used to enable debugging? 
+Which flag must be used to enable debugging?
 
 ???
 
-*`--debug` 
-*`debug` 
-*`-debug` 
-*`debugging` 
+*`--debug`
+*`debug`
+*`-debug`
+*`debugging`
 *`--debugger`
 
 ---
@@ -65,8 +67,8 @@ Which flag must be used to enable debugging?
 
 ???
 
-*`--debug` 
-*`debug` 
-*`-debug` 
-*`debugging` 
+*`--debug`
+*`debug`
+*`-debug`
+*`debugging`
 *`--debugger`
