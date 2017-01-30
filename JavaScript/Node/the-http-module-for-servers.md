@@ -6,6 +6,10 @@ levels:
   - beginner
 
   - basic
+  
+  - medium
+
+  - advanced
 
 type: normal
 
