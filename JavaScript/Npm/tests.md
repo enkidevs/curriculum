@@ -17,11 +17,11 @@ parent: prepare-your-module-for-publishing
 ---
 ## Content
 
-The easiest way to ensure that changes and additions made to your module don't break any existing features or functions is to thoroughly **test** it.
+The easiest way to ensure that changes or additions to your module don't break any existing features is to thoroughly **test** them.
 
-Some people even think that writing tests and building your module around them is the safest choice in providing the best possible code[1].
+Some people even think that writing tests and building your module around them is the safest way of providing the best possible code[1].
 
-In your `package.json` you can specify what **script** should be run when `test`ing.
+In your `package.json` you can specify which **script** should be run when `test`ing.
 ```javascript
 {
   "scripts": {
@@ -35,7 +35,7 @@ $ npm test
 # instead of
 $ npm run test
 ```
-One of the most straightforward way to test your code is linting. A linter has nothing to do with **how** your code works, but **if** your code has some errors or it abides by best practices - think of syntax errors or missing parenthesis. It also checks for consistency in terms of spacing, tabbing and quote using.
+One of the most straightforward ways to test your code is *linting*. A linter checks for errors in your code syntax and helps ensure you follow coding best-practices. Some examples include missing parenthesis, semi-colons, unnecessary keywords or the use of quotes.
 
 A JavaScript linter is JSLint:
 ```bash
@@ -50,7 +50,7 @@ To lint your entire project, add this to the *test* event:
   }
 }
 ```
-The options are limitless when it comes to what to test and which tools to use. However, for any package maintainer, as well as package users, tests increase the chance that the module provides the functionalities it is supposed to provide.
+The options are limitless when it comes to what to test and which tools to use. However, for any package maintainer, as well as package users, tests provides assurance that the module provides the functionality it is supposed.
 
 ---
 ## Revision

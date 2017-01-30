@@ -32,15 +32,15 @@ There are many ways to write the README file but it's worth considering the foll
  to set up the module.
 
 ## Usage
- You should specify here the main methods of
- the module and maybe add some example
- outputs for sanity check.
+ You should specify the main methods of
+ the module here and maybe add some example
+ outputs for sanity checking.
 
 ## Tests
  If you have included tests,
  provide the code that runs them.
 ```
-When you consider your module ready for publishing, run:
+When you consider your module ready, run the following to publish it:
 ```bash
 $ npm publish
 ```
