@@ -19,7 +19,7 @@ links:
 ---
 ## Content
 
-Being a truly flexible library, you can create applications from scratch with **React**, but also gradually including it to you code base without having to re-write anything.
+Being a truly flexible library, you can create applications from scratch with **React**, but also gradually including it to your code base without having to re-write anything.
 
 To install **React** you can use a *package manager* such as `Yarn` or `npm`:
 ```
