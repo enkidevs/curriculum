@@ -32,7 +32,7 @@ These methods correspond to exact points in the **component's lifecycle**.
 
 Such a **lifecycle hook** is the `constructor(props)` which is commonly used to set the initial `state` of your component, but not only.
 
-Suppose you want `log` a message when a component **will** be mounted (before being `render`ed). For this, you can use the `componentWillMount` method:
+Suppose you want `log` a message when a component **will** be mounted[1] (before being `render`ed). For this, you can use the `componentWillMount` method:
 ```jsx
 class Spawn extends React.Component {
   componentWillMount() {
@@ -84,3 +84,12 @@ Is `React.Component`'s `constructor(props)` method considered a **lifecycle hook
 * no
 * only when setting `state`
 * if only accompanied by other **lifecycle methods**
+
+---
+## Footnotes
+
+[1:mounting]
+
+**Mounting** refers to the initial insertion of a **React** `component` into the **DOM**.
+Similarly, **unmouting** happens when the `component` is removed from the **DOM**.
+
