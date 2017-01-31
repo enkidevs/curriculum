@@ -1,4 +1,4 @@
-# The **React** component
+# What are `props`?
 author: catalin
 
 levels:
