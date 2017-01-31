@@ -71,7 +71,7 @@ This is bad practice as it cannot be overridden by an external CSS file and may 
 Complete the HTML snippet to import an external CSS file:
 ```
 <head>
-  <??? ???="stylesheet" 
+  <??? ???="stylesheet"
            ???="index.css">
 </head>
 ```
