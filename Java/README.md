@@ -4,4 +4,4 @@ deviconsClass: devicons-java
 
 color: E2282E
 
-description: undefined
+description: Classes, objects and coffee — the foundation on which Java was built.
