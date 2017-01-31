@@ -46,7 +46,7 @@ class Hello extends React.Component {
 
 This won't render however, because `this.state` is `null` at the moment.
 
-To set the **initial state**, giving `text` a value, you can make use of the `constructor` lifecycle method which is called when the component is created:
+To set the **initial state**, by giving `text` a value, you can make use of the `constructor` lifecycle method which is called when the component is created:
 ```jsx
 class Hello extends React.Component {
   constructor(props) {
@@ -61,7 +61,7 @@ class Hello extends React.Component {
 
 If we `render` the element now, we will see "Hello" inside a `<p>`.
 
-`state` value should only be changed through the `this.setState()` method which behaves asynchronously.
+The `state` value should only be changed through the `this.setState()` method which behaves asynchronously.
 Note that `state` shouldn't be changed until the component was successfully mounted.
 
 ```jsx
@@ -74,7 +74,7 @@ class Hello extends React.Component {
     }, 1000);
   }
 }
-```  
+```
 
 The snippet above will update the `state` one second after construction. Specifically, `this.state.text` is changed to `World`.
 
