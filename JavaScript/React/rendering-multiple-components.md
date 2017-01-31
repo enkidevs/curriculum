@@ -47,7 +47,7 @@ function MyList(props) {
   </div>);
 }
 ```
-Passing an array called `input` as a `prop`, this component will return a `<div>` with a `<p>` for every element in the array:
+When passing an array called `input` as a `prop`, this component will return a `<div>` with a `<p>` for every element in the array:
 ```jsx
 ReactDOM.render(
   <MyList input={[7, 13, 42]} />,
