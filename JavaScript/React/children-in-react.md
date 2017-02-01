@@ -29,11 +29,11 @@ links:
 ---
 ## Content
 
-**React** provides an *opaque* data structure backed by `React.Children` class called `this.props.children`.
+**React** provides an *opaque* data structure backed by a `React.Children` class called `this.props.children`.
 
 This special `prop` is passed to a `component` automatically.
 
-You can use it to to access the `children` of any parent component from within it.
+It can be used to access the `children` of any parent component from within it.
 
 ```jsx
 <Wrapper>

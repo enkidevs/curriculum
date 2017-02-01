@@ -26,8 +26,7 @@ links:
 
 Using **React** with **JSX** gives you more power and convenience when writing code by letting you *embed JS* expressions in **curly braces** (`{expression}`).
 
-For example, another approach for **conditional rendering** is using *in-line*
-`if` with help from the **AND** (`&&`)/ **OR** (`||`) logical operator.
+For example, another approach for **conditional rendering** is using *in-line* `if` with help from the **AND** (`&&`)/ **OR** (`||`) logical operator.
 
 Consider the following component:
 ```jsx
@@ -44,11 +43,11 @@ function Welcome(props) {
 }
 ```
 
-Regardless of `isRaining` prop's value, the `<h2>Welcome</h2>` is shown. If you pass `isRaining` as `true` then the `<h3>` element is displayed as well.
+Regardless of the `isRaining` prop's value, the `<h2>Welcome</h2>` is shown. If you pass `isRaining` as `true` then the `<h3>` element will be displayed as well.
 
 The reason this approach works is because in `JS` the `true && exp` expression will evaluate to `exp`, while `false && exp` will evaluate to `false`.
 
-Sometime you might want to **prevent** a component from rendering. This is also simply achievable by `return`ing `null` instead of the normal output:
+Sometimes you might want to **prevent** a component from rendering. This is also simply achievable by `return`ing `null` instead of the normal output:
 ```jsx
 function Maybe(props) {
   if (props.not) {
@@ -58,7 +57,7 @@ function Maybe(props) {
 }
 ```
 
-Keep in mind that when returning `null` during `render` won't affect the call on **lifecycle methods** such as `componentWillUpdate`.
+Keep in mind that when returning `null` during `render`, this won't affect the call on **lifecycle methods** such as `componentWillUpdate`.
 
 ---
 ## Practice
