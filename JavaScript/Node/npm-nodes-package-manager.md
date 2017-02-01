@@ -12,7 +12,8 @@ category: must-know
 parent: executing-programs-with-node
 
 links:
-- '[NPM](https://www.npmjs.com/)'
+
+- '[npmjs.com](https://www.npmjs.com/)'
 
 ---
 ## Content

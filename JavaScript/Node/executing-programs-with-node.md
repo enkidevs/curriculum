@@ -12,7 +12,7 @@ category: must-know
 parent: the-repl-terminal
 
 links:
-- '[Node's Terminal](http://nodeguide.com/beginner.html#the-interactive-node.js-shell)'
+- '[nodeguide.com](http://nodeguide.com/beginner.html#the-interactive-node.js-shell)'
 
 ---
 ## Content

@@ -12,7 +12,7 @@ category: must-know
 parent: installing-node-js
 
 links:
-- '[Node's REPL](http://www.tutorialsteacher.com/nodejs/nodejs-console-repl)'
+- '[tutorialsteacher.com](http://www.tutorialsteacher.com/nodejs/nodejs-console-repl)'
 
 
 ---

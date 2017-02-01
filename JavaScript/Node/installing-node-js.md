@@ -12,7 +12,7 @@ category: must-know
 parent: what-is-nodejs
 
 links:
-- '[Download NodeJS](https://nodejs.org/en/)'
+- '[nodejs.org](https://nodejs.org/en/)'
 
 ---
 ## Content
