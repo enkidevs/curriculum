@@ -36,7 +36,7 @@ All the `divs` above will be white, as the values are equivalent: `ff` is the *h
 Keeping this in mind, it should be easier to understand how *hex* values work: there are **6** characters slots to fill (which can take values from `0` to `f`). Each **two** characters represent the intensity of `red`, `green`, `blue`, in this order.
 
 Here is the representation of some basic colors:
-```css
+```javascript
 /* black */
 #000000   rgb(0,0,0)   black
 
@@ -49,6 +49,7 @@ Here is the representation of some basic colors:
 /* blue */
 #0000ff   rgb(0,0,255)   blue
 ```
+
 You can obtain all kinds of colors and shades from mixing the values together, and there are a lot of tools online to help you with that.
 
 ### Lengths

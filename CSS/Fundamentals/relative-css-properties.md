@@ -14,18 +14,16 @@ category: must-know
 ---
 ## Content
 
-On the other hand, there are the relative values: *percentages* and *ems*, that scale depending on the container's properties.
+Alongside absolute values, CSS allows the use of relative ones: *percentages*, *ems*, and *vw* and *vh*, which scale with container's properties.
 
-**Percentages** are represented using `%` notation, and depends on the container's size:
+**Percentages** are represented using `%` notation. A percentage depends on the size of the container or parent element:
 ```css
 #rect{
  width: 20%;
  height: 100px;
 }
 ```
-The rectangle above will have `100px height` on every device, but its width will depend on the container's width. If the parent's width is `500px`, the rectangle would become a square.
-
-They are extremely useful when working with multiple screen types.
+The rectangle above will have `100px height` on every device, but its width will depend on the container's width. If the parent's width is `500px`, the rectangle would become a square (20% of 500px is 100px).
 
 **Em** is a bit trickier. `1em` is equal to the element's **font size**:
 ```css
@@ -34,10 +32,41 @@ div{
   height: 10em;
 }
 ```
-This will effectively make the `div`s `160px in height`. If the `div` wouldn't have had the `font-size` specified, `em` would relate to the closest parent with the property.
+In this case, `1em` equals `16px`. Hence, the `div` above is *160px* in height.
 
-They are useful for setting properties like `font-size` for inner paragraphs, `letter-spacing` or `margin` and `padding`.
+Consider another example:
+```html
+<head>
+  <style>
+  .container{
+    font-size: 20px;
+  }
+  #elem{
+    width: 10em;
+    height: 15em;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div id="elem">
+    </div>
+  </div>
+</body>
+```
+As there is no `font-size` specified for the `elem` class, *em* looks for the closest ancestor with that property. For *#elem*, `1em` represents `20px`. Therefore, it would be *200px in width and 300px in height*.
 
+If no ancestor has a *font size* defined, the browser would use its default value, which is often *16px*.
+
+The last relative values are **vw(viewport-width)** and **vh(viewport-height)**. The viewport represents the browser windows size (windows object). If the window is `2000x1000` and:
+```css
+p {
+  font-size: 2vh;
+}
+```
+Every *p*'s font-size would be *2/100 * 1000 = 20px*. As the browser window gets resized, the font-size would change accordingly. `vmin` and `vmax` are also available: they represent the smallest value between *1vh* and *1vw*, and the largest, respectively.
+
+Relative values are a great way of making pages responsive.
 
 ---
 ## Practice
@@ -50,7 +79,7 @@ For the following CSS code:
   height: 300px;
 }
 ```
-And the HTML:
+And HTML:
 ```html
 <div class="container">
   <div></div>
@@ -67,9 +96,10 @@ Which of the following values is not equivalent to a `width` of `200px` for the 
 ---
 ## Revision
 
-What does the fox says?
-???
+In CSS, `width: 10%` is equal to
 
-* right answer
-* wrong answer
-* wrong answer 2
+???
+* 10% of parent's width
+* 100px
+* 10% of parent's font-size
+* 10% of body's width

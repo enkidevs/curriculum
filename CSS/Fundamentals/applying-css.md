@@ -28,10 +28,10 @@ Within the `<head>` element of the HTML document, add a new `<link>` element poi
   <link rel="stylesheet" href="main.css">
 </head>
 ```
-The `href` attribute contain the path to the `.css` file, much like it would work for the `a` element. The above snippet refers to a style sheet located in the same directory as the HTML document. To link a CSS file inside a subdirectory:
+The `href` attribute contains the path to the `.css` file, much like it would work for the `a` element. The above snippet refers to a style sheet located in the same directory as the HTML document. To link a CSS file inside a subdirectory:
 ```html
 <link rel="stylesheet"
-   href="subdir/main.css" >
+   href="subdir/main.css"/>
 ```
 
 ---
@@ -41,7 +41,7 @@ Complete the HTML snippet to import an external CSS file:
 ```
 <head>
   <??? ???="stylesheet"
-           ???="index.css">
+           ???="index.css" />
 </head>
 ```
 

@@ -39,12 +39,12 @@ As you can see, it abides by the same declaration rules as they would normally a
 
 ### Inline CSS
 
-Every HTML can accept a `style` attribute. Because the styling is specific to the element, *no selector* is needed. Therefore, the code would be the one *inside* the curly brackets in a `.css` file:
+Every HTML element can accept a `style` attribute. As the styling is specific to the element, *no selector* is needed. Therefore, the code would be the one *inside* the curly brackets in a `.css` file:
 ```html
 <div style="background: green;
       font-size:30px;"></div>
 ```
-However, this is bad practice as it cannot be overridden (inline CSS has the highest priority when rendering) by an external CSS file and may cause unexpected problems.
+However, this is bad practice as it cannot be overridden by an external CSS file and may cause unexpected problems. This is because inline CSS has the highest priority when rendering.
 
 *Note:* Even though there are multiple ways in which you can style an HTML page, the recommended one is using external files, as it splits the resources into *structure* and *style*.
 
