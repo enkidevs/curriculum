@@ -41,7 +41,7 @@ id > class > type
 // or
 id - class - type
 ```
-Consider the following selector that aims to style a header, nested inside a div of class *my-class*, which is another div's child:
+Consider the following selector that aims to style a heading, nested inside a div of class *my-class*, which is another div's child:
 ```css
 div div.my-class h2{}
 ```
@@ -53,7 +53,7 @@ However, this should not be seen as a base 10 representation. By adding a class 
 ```text
 0 - 2 - 3
 ```
-Say we decide to give the header the id of *title*:
+Say we decide to give the heading the id of *title*:
 ```css
 div div.my-class #title{}
 ```
@@ -66,7 +66,7 @@ div div.my-class h2{
   font-size: 40px;
 }
 ```
-If cascading alone was the way to go, the header *font-size* would be 40. Taking specificity into account:
+If cascading alone was the way to go, the heading *font-size* would be 40. Taking specificity into account:
 ```text
 1 - 1 - 2
 vs
