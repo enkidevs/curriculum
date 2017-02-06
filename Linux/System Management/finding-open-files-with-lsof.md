@@ -3,17 +3,35 @@ author: jfarmer
 
 levels:
 
+  - beginner
+
   - basic
 
   - advanced
 
   - medium
 
-  - beginner
-
 type: normal
 
 category: must-know
+
+tags:
+
+  - files
+
+  - open
+
+  - ls
+
+  - lsof
+
+notes: 'to review parent'
+
+parent: list-currently-logged-in-users
+
+links:
+
+  - '[inux.die.net](https://linux.die.net/man/8/lsof){website}'
 
 ---
 ## Content
@@ -49,13 +67,14 @@ $ sudo lsof /var/log/syslog
 ---
 ## Practice
 
-??? 
+???
 
 flag is required to find files used by a specific process.
-*-p
-*-f
-*-r
-*-pr
+
+* -p
+* -f
+* -r
+* -pr
 
 ---
 ## Revision
@@ -64,11 +83,11 @@ You can find *all* the processes that are using a file by issuing:
 ```
 $ ??? ??? ???
 ```
-*`sudo`
-*`lsof`
-*`filename`
-*`proc`
-*`ls -apl`
+* `sudo`
+* `lsof`
+* `filename`
+* `proc`
+* `ls -apl`
 
 ---
 ## Footnotes
