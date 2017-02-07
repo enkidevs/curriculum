@@ -21,7 +21,7 @@ var func =
 x => {x++; return x * 2; }
 ```
 
-If you want to return an object then be sure to ensure the return is wrapped in brackets so the interpreter knows how to process the code:
+If you want to return an object then be sure to ensure the return object in curly brackets is also wrapped in brackets so the interpreter knows how to process the code e.g.:
 
 ```
  var obj = () =>
