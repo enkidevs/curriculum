@@ -20,7 +20,7 @@ links:
 ---
 ## Content
 
-In our example above we haven’t implemented all of the iterator protocol or agreement.
+In our previous example above we have not implemented all of the iterator protocol or agreement.
  
 There is an issue with our current implementation - what happens when have iterated through all the values?
 

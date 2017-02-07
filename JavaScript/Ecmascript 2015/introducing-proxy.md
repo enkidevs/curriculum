@@ -26,9 +26,9 @@ First we will create a handler to perform this logic:
 
 ```
 var loggerHandler = {
- get (target, key) {
- console.info(key + " was accessed");
- return target[key];
+ get: function(obj, prop) {
+ console.info(prop + " was accessed");
+ return obj[prop];
  }
 }
 ```
@@ -36,18 +36,18 @@ var loggerHandler = {
 Next we'll create an object to use with this:
 
 ```
-var obj = { someProp: "enki"};
+var x = { someProp: "enki"};
 ```
 
 Then we will wrap our object with a Proxy and pass in the logger handler:
 
 ```
-var p = new Proxy(obj, loggerHandler);
+var p = new Proxy(x, loggerHandler);
 ```
 
 If we access property on obj itself it will work as per normal:
 ```
-obj.someProp; //enki
+x.someProp; //enki
 ```
 
 ..so we need to be sure to access the obj via the proxy wrapper:
@@ -65,7 +65,7 @@ set: function(obj, prop, value) {
    return;
   }
  }
-}
+}}
 ```
 
 ---
