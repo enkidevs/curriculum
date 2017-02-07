@@ -33,7 +33,7 @@ Visually, the code above will be rendered in the same way as:
 <p>An important paragraph inside the div.
                             </p>
 ```
-This is when CSS comes into play, by giving `<div>`s and `<span>`s ids and classes, their contents appearance can be altered.
+This is the moment when you can include CSS: by giving `<div>`s and `<span>`s ids and classes, their content appearance can be altered.
 
 ---
 ## Revision

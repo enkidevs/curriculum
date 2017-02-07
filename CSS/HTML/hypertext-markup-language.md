@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-Also known as **HTML**, it is the standard markup language used to create websites.  HTML describes the structure of a webpage semantically, using **tags**. A HTML tag syntax is the name of the HTML element, enclosed by the *less than* and *greater than* signs.
+Also known as **HTML**, it is the standard markup language used to create websites.  HTML[1] describes the structure of a web page semantically, using **tags**. A HTML tag syntax is the name of the HTML element, enclosed by the *less than* and *greater than* signs.
 
 To denote the end of an element, a closing tag is used. It has an extra forward slash before the name of the element:
 ```html
@@ -48,7 +48,7 @@ To give them meaning, however, they must be enclosed in a `<body>` element, whic
       external link</a>.</p>
 </body>
 ```
-The part of the HTML that is not *displayed* by the browser, but helps it decide *how* to display the content inside the body is called **header**. It usually contains information such as the title of the webpage displayed in the browser's tab or the page's characters encoding[1]:
+The part of the HTML that is not *displayed* by the browser, but helps it decide *how* to display the content inside the body is called **header**. It usually contains information such as the title of the web page displayed in the browser's tab or the page's characters encoding[2]:
 ```html
 <html>
 <head>
@@ -61,7 +61,7 @@ The part of the HTML that is not *displayed* by the browser, but helps it decide
 </html>
 ```
 
-There is a link to the first ever *online* web page after the workout.
+You can find a link to the first ever *online* web page after the workout.
 
 ---
 ## Practice
@@ -86,7 +86,13 @@ The two main components of a HTML document are ???.
 
 ---
 ## Footnotes
-[1:Encoding]
+
+[1:HTML]
+
+You can start writing HTML by creating a new file with the `.html` extension. To see how the code looks, drag and drop the file in your browser.
+
+
+[2:Encoding]
 
 A way to map a sequence of bytes to a displayable character. The most used encoding is *UTF-8*, also known as *Unicode*. It covers most of the characters and symbols in the world.
 

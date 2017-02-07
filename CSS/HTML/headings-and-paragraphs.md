@@ -14,7 +14,7 @@ category: must-know
 ---
 ## Content
 
-The simplest of webpages must have at least a title and a description. Usually, these fields are semantically delimited by the `<h>` and `<p>` tags.
+Even the simplest of web pages must contain at least one block of text. Usually, these fields are semantically delimited by the `<h>` and `<p>` tags.
 ```html
 <head>
   ...
