@@ -1,8 +1,9 @@
-# kruskals-algorithm
+# Kruskal's Algorithm
 author: mihaiberq
 
 levels:
-	- medium
+
+  - medium
 
 type: normal
 

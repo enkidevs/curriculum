@@ -1,8 +1,9 @@
-# removing-data-from-a-heap-with-the-downheap-operation
+# Removing Data From a Heap With The `downheap` Operation
 author: jfarmer
 
 levels:
-	- basic
+
+  - basic
 
 type: normal
 

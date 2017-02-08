@@ -1,8 +1,9 @@
-# parsing-reverse-polish-notation
+# Parsing Reverse Polish Notation
 author: mihaiberq
 
 levels:
-	- basic
+
+  - basic
 
 type: normal
 

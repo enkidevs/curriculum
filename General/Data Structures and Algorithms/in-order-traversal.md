@@ -1,8 +1,9 @@
-# in-order-traversal
+# In-order Traversal
 author: mihaiberq
 
 levels:
-	- basic
+
+  - basic
 
 type: normal
 

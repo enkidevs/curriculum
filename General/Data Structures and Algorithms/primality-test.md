@@ -1,8 +1,9 @@
-# primality-test
+# Primality test
 author: mihaiberq
 
 levels:
-	- basic
+
+  - basic
 
 type: normal
 

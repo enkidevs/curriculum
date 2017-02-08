@@ -1,8 +1,9 @@
-# inserting-data-into-a-binary-search-tree
+# Inserting Data Into a Binary Search Tree
 author: jfarmer
 
 levels:
-	- basic
+
+  - basic
 
 type: normal
 

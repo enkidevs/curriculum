@@ -1,8 +1,9 @@
-# approximation-methods
+# Approximation methods
 author: mihaiberq
 
 levels:
-	- basic
+
+  - basic
 
 type: normal
 

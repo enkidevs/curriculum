@@ -1,8 +1,9 @@
-# the-queue-data-structure
+# The Queue Data Structure
 author: mihaiberq
 
 levels:
-	- beginner
+
+  - beginner
 
 type: normal
 

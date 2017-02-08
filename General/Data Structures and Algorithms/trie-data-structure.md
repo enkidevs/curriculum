@@ -1,8 +1,9 @@
-# trie-data-structure
+# Trie Data Structure
 author: mihaiberq
 
 levels:
-	- basic
+
+  - basic
 
 type: normal
 

@@ -1,9 +1,11 @@
-# graph-representations-cheat-sheet
+# Graph Representations Cheat Sheet
 author: mihaiberq
 
 levels:
-	- beginner
-	- basic
+
+  - beginner
+
+  - basic
 
 type: normal
 

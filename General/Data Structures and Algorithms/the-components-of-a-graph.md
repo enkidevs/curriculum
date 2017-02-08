@@ -1,8 +1,9 @@
-# the-components-of-a-graph
+# The Components of a Graph
 author: mihaiberq
 
 levels:
-	- beginner
+
+  - beginner
 
 type: normal
 

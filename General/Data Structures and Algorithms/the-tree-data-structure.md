@@ -1,8 +1,9 @@
-# the-tree-data-structure
+# The Tree Data Structure
 author: mihaiberq
 
 levels:
-	- basic
+
+  - basic
 
 type: normal
 

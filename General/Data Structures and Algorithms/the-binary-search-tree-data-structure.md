@@ -1,8 +1,9 @@
-# the-binary-search-tree-data-structure
+# The Binary Search Tree Data Structure
 author: jfarmer
 
 levels:
-	- basic
+
+  - basic
 
 type: normal
 

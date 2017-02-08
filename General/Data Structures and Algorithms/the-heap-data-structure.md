@@ -1,8 +1,9 @@
-# the-heap-data-structure
+# The Heap Data Structure
 author: jfarmer
 
 levels:
-	- basic
+
+  - basic
 
 type: normal
 

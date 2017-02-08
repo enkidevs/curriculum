@@ -1,8 +1,9 @@
-# the-array-data-structure
+# The Array Data Structure
 author: mihaiberq
 
 levels:
-	- beginner
+
+  - beginner
 
 type: normal
 

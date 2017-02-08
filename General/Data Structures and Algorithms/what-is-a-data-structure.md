@@ -1,8 +1,9 @@
-# what-is-a-data-structure
+# What Is a Data Structure?
 author: mihaiberq
 
 levels:
-	- beginner
+
+  - beginner
 
 type: normal
 

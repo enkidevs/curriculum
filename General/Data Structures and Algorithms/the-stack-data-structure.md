@@ -1,8 +1,9 @@
-# the-stack-data-structure
+# The Stack Data Structure
 author: mihaiberq
 
 levels:
-	- beginner
+
+  - beginner
 
 type: normal
 

@@ -1,9 +1,11 @@
-# bellman-ford-algorithm
+# Bellman-Ford Algorithm
 author: mihaiberq
 
 levels:
-	- beginner
-	- basic
+
+  - beginner
+
+  - basic
 
 type: normal
 

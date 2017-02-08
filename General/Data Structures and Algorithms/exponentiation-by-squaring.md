@@ -1,8 +1,9 @@
-# exponentiation-by-squaring
+# Exponentiation By Squaring
 author: mihaiberq
 
 levels:
-	- basic
+
+  - basic
 
 type: normal
 

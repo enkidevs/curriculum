@@ -1,8 +1,9 @@
-# the-graph-data-structure
+# The Graph Data Structure
 author: mihaiberq
 
 levels:
-	- basic
+
+  - basic
 
 type: normal
 

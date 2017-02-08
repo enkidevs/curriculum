@@ -1,8 +1,9 @@
-# pre-order-traversal
+# Pre-order Traversal
 author: mihaiberq
 
 levels:
-	- basic
+
+  - basic
 
 type: normal
 

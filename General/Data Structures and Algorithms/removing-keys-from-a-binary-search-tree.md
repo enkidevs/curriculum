@@ -1,4 +1,4 @@
-# removing-keys-from-a-binary-search-tree
+# Removing Keys From a Binary Search Tree
 author: jfarmer
 
 levels:

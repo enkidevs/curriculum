@@ -1,8 +1,9 @@
-# reverse-polish-notation
+# Reverse Polish Notation
 author: mihaiberq
 
 levels:
-	- basic
+
+  - basic
 
 type: normal
 

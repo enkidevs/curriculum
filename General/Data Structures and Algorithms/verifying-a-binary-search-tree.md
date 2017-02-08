@@ -1,8 +1,9 @@
-# verifying-a-binary-search-tree
+# Verifying A Binary Search Tree
 author: jfarmer
 
 levels:
-	- basic
+
+  - basic
 
 type: normal
 

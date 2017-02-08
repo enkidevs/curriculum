@@ -1,8 +1,9 @@
-# post-order-traversal
+# Post-order Traversal
 author: mihaiberq
 
 levels:
-	- basic
+
+  - basic
 
 type: normal
 

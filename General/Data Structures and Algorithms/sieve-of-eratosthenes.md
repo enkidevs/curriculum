@@ -1,8 +1,9 @@
-# sieve-of-eratosthenes
+# Sieve of Eratosthenes
 author: mihaiberq
 
 levels:
-	- basic
+
+  - basic
 
 type: normal
 

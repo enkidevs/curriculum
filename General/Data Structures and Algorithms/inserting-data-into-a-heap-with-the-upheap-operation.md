@@ -1,4 +1,4 @@
-# inserting-data-into-a-heap-with-the-upheap-operation
+# Inserting Data Into a Heap With The `upheap` Operation
 author: jfarmer
 
 levels:

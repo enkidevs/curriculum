@@ -1,8 +1,9 @@
-# tree-traversals
+# Tree Traversals
 author: mihaiberq
 
 levels:
-	- basic
+
+  - basic
 
 type: normal
 

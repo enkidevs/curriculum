@@ -1,9 +1,11 @@
-# big-o-cheat-sheet-for-date-structure-operations
+# Big-O Cheat Sheet for *Date Structure Operations*
 author: mihaiberq
 
 levels:
-	- beginner
-	- basic
+
+  - beginner
+
+  - basic
 
 type: normal
 

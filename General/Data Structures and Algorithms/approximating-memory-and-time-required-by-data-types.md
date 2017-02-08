@@ -1,8 +1,9 @@
-# approximating-memory-and-time-required-by-data-types
+# Approximating Memory and Time required by Data Types
 author: mihaiberq
 
 levels:
-	- basic
+
+  - basic
 
 type: normal
 

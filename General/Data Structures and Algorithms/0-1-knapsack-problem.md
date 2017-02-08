@@ -1,8 +1,9 @@
-# 0-1-knapsack-problem
+# (0-1) Knapsack Problem
 author: mihaiberq
 
 levels:
-	- basic
+
+  - basic
 
 type: normal
 

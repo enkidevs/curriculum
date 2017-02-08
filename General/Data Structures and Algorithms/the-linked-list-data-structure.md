@@ -1,8 +1,9 @@
-# the-linked-list-data-structure
+# The Linked List Data Structure
 author: mihaiberq
 
 levels:
-	- beginner
+
+  - beginner
 
 type: normal
 

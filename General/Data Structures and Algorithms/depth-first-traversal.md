@@ -1,8 +1,9 @@
-# depth-first-traversal
+# Depth-first Traversal
 author: mihaiberq
 
 levels:
-	- basic
+
+  - basic
 
 type: normal
 

@@ -1,8 +1,9 @@
-# balanced-vs-unbalanced-binary-trees
+# Balanced vs. Unbalanced Binary Trees
 author: jfarmer
 
 levels:
-	- basic
+
+  - basic
 
 type: normal
 

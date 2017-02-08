@@ -1,8 +1,9 @@
-# levenshtein-distance
+# Levenshtein Distance
 author: mihaiberq
 
 levels:
-	- basic
+
+  - basic
 
 type: normal
 

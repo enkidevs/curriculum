@@ -1,8 +1,9 @@
-# dijkstras-algorithm
+# Dijkstra's Algorithm
 author: mihaiberq
 
 levels:
-	- medium
+
+  - medium
 
 type: normal
 

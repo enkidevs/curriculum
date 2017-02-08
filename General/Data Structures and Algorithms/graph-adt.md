@@ -1,8 +1,9 @@
-# graph-adt
+# Graph ADT
 author: mihaiberq
 
 levels:
-	- basic
+
+  - basic
 
 type: normal
 
