@@ -2,9 +2,9 @@
 author: mihaiberq
 
 levels:
- - basic
+	- basic
 
-type: undefined
+type: normal
 
 category: must-know
 
@@ -38,6 +38,7 @@ function prime(n)
   return true
 ```
 
+
 ---
 ## Practice
 
@@ -48,6 +49,7 @@ What is the largest number we should divide *n* by to make sure we took into acc
 *n/2
 *n
 *log n
+
 ---
 ## Revision
 

@@ -2,9 +2,9 @@
 author: mihaiberq
 
 levels:
- - beginner
+	- beginner
 
-type: undefined
+type: normal
 
 category: must-know
 
@@ -29,6 +29,7 @@ Conversely, it is time consuming to find a name in the unalphabetized list, but 
 We might describe the respective *pattern* of information in these two lists as a "sorted list" and an "unsorted list".
 
 Later on, you will be able to distinguish what data structure each example represents and how to use it efficiently.
+
 
 ---
 ## Revision

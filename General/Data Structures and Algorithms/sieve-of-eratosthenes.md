@@ -2,9 +2,9 @@
 author: mihaiberq
 
 levels:
- - basic
+	- basic
 
-type: undefined
+type: normal
 
 category: must-know
 
@@ -49,6 +49,7 @@ This is how the algorithm works:
 The unmarked values left are all the prime numbers smaller than *n*.
 
 
+
 ---
 ## Practice
 
@@ -61,6 +62,7 @@ If this is too easy, try to find the *time upper bound* by yourself.
 *O(n×n)
 *O(log n)
 *O(n×log n)
+
 ---
 ## Revision
 

@@ -2,9 +2,9 @@
 author: mihaiberq
 
 levels:
- - basic
+	- basic
 
-type: undefined
+type: normal
 
 category: must-know
 
@@ -34,6 +34,7 @@ Because you would have to move n elements, when **n could mean an 100-digit numb
 Because you would have to change the references to a relative small number of nodes *in a LinkedList*[2], insertion's *upper-bound* is `O(1)`.
 
 
+
 ---
 ## Practice
 
@@ -44,6 +45,7 @@ In an array, how many operations are required for the worst-case scenario deleti
 *1
 *log n
 *n×n
+
 ---
 ## Revision
 
@@ -53,6 +55,7 @@ Insertion in a linked list is *constant* relative to
 *the list's size
 *the number of a node's neighbors
 *the list's implementation
+
 ---
 ## Footnotes
 

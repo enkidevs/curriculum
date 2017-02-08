@@ -2,11 +2,11 @@
 author: jfarmer
 
 levels:
- - basic
+	- basic
 
-type: undefined
+type: normal
 
-category: undefined
+category: must-know
 
 ---
 ## Content
@@ -36,6 +36,7 @@ There is one key property that makes searching a BSTs efficient:
 To search a BST, then, we ask "Is the key I'm searching for greater than or less than the current key?"  If it is less then we know the key we're searching for is in the left sub-tree and if it is greater then we know the key we're searching for is in the right sub-tree.  Thus, at each stage, we effectively cut the search space in half.
 
 This structure also makes for efficient `min` and `max` operations.  To find the minimum key in a BST we keep taking the left branch and to find the maximum key in a BST we keep taking the right branch.
+
 ---
 ## Practice
 
@@ -53,6 +54,7 @@ Which key prevents the following tree from being a *BST*?
 *20
 *9
 *15
+
 ---
 ## Revision
 

@@ -2,9 +2,9 @@
 author: jfarmer
 
 levels:
- - basic
+	- basic
 
-type: undefined
+type: normal
 
 category: must-know
 
@@ -49,6 +49,7 @@ The final result is a BST that looks like this, with `4` highlighted with bracke
 ## Order Dependence
 
 You might have noticed that the shape of the BST depends on the order in which the data is inserted.  For example, if the data were all inserted from largest to smallest, we would wind up with what is essentially a sorted linked list.
+
 ---
 ## Practice
 
@@ -66,6 +67,7 @@ How many checks are required to find the right place to insert `9` in the follow
 *`3`
 *`1`
 *`5`
+
 ---
 ## Revision
 

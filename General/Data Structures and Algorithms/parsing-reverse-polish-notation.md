@@ -2,9 +2,9 @@
 author: mihaiberq
 
 levels:
- - basic
+	- basic
 
-type: undefined
+type: normal
 
 category: how to
 
@@ -38,6 +38,7 @@ Stack = []
 // no more input, stack has 1 value
 // return 21
 ```
+
 ---
 ## Practice
 
@@ -49,6 +50,7 @@ What values would be left in the stack after the evaluation of `10 5 * 2 + 3 3`?
 *[55]
 *[58]
 *[23,3]
+
 ---
 ## Revision
 

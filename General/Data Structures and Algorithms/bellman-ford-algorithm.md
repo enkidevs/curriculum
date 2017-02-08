@@ -2,10 +2,10 @@
 author: mihaiberq
 
 levels:
- - beginner
- - basic
+	- beginner
+	- basic
 
-type: undefined
+type: normal
 
 category: must-know
 
@@ -57,6 +57,7 @@ function BellmanFord(vertices,
 ```
 
 The algorithm runs in *O(V×E)* time, where *V* and *E* are numbers of vertices and edges, respectively.
+
 
 ---
 ## Footnotes

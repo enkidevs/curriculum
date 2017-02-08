@@ -2,9 +2,9 @@
 author: mihaiberq
 
 levels:
- - basic
+	- basic
 
-type: undefined
+type: normal
 
 category: must-know
 
@@ -61,6 +61,7 @@ Take *(2,3)* for example: *2* is the distance between **tra** and **fa**. The va
 The *Levensthein distance* between the two strings, *trace* and *face*, is located in the bottom-right corner : **2** .
 
 
+
 ---
 ## Practice
 
@@ -71,6 +72,7 @@ What is the distance between strings `string` and `int`?
 *5
 *3
 *2
+
 ---
 ## Revision
 

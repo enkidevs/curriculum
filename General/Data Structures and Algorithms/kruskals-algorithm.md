@@ -2,9 +2,9 @@
 author: mihaiberq
 
 levels:
- - medium
+	- medium
 
-type: undefined
+type: normal
 
 category: must-know
 
@@ -40,8 +40,10 @@ Kruskal(SortedEdges[])
 
 *Kruskal's algorithm* can be shown to run in *O(E×log E)* time, which is equivalent to *O(E×logV)*, where *E* and *V* are the number of edges and the number of vertices, respectively. 
 
+
 ---
 ## Practice
+
 
 
 
@@ -54,6 +56,7 @@ Kruskal's algorithm is used for finding
 *the minimum spanning tree in a connected weighted graph
 *distances between the nodes in an weighted graph
 *the number of negative cycles in an weighted graph
+
 ---
 ## Footnotes
 

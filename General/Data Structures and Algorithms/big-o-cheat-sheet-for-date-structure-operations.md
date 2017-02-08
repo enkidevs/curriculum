@@ -2,10 +2,10 @@
 author: mihaiberq
 
 levels:
- - beginner
- - basic
+	- beginner
+	- basic
 
-type: undefined
+type: normal
 
 category: hack
 
@@ -35,6 +35,7 @@ ___
 **BSTree[3]**-O(*log/n*)-O(*log/n*)-O(*log/n*)-O(*log/n*)-|-------------------------------------------------------------|--O(n)--
 
 ---
+
 ---
 ## Footnotes
 

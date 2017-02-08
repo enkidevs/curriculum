@@ -2,9 +2,9 @@
 author: mihaiberq
 
 levels:
- - basic
+	- basic
 
-type: undefined
+type: normal
 
 category: must-know
 
@@ -41,6 +41,7 @@ postorder(node)
   postorder(node.right)
   doSomething(node)
 ```
+
 ---
 ## Practice
 
@@ -57,6 +58,7 @@ D     F    E
 *A,B,D,F,C,E
 *D,B,F,A,C,E
 *A,B,C,D,E,F
+
 ---
 ## Revision
 

@@ -2,9 +2,9 @@
 author: mihaiberq
 
 levels:
- - beginner
+	- beginner
 
-type: undefined
+type: normal
 
 category: must-know
 
@@ -30,6 +30,7 @@ And three other methods:
 - `top()` : *Returns* the top element.
 - `isEmpty()` : *Returns* `true` if there are no elements in the stack, `false` otherwise.
 - `size()` : *Returns* the number of elements in the stack.
+
 ---
 ## Practice
 
@@ -40,6 +41,7 @@ What is the working principle behind a stack?
 *First-in, first-out
 *First-in, last-out
 *Last-in, last-out
+
 ---
 ## Revision
 

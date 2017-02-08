@@ -2,9 +2,9 @@
 author: jfarmer
 
 levels:
- - basic
+	- basic
 
-type: undefined
+type: normal
 
 category: how to
 
@@ -52,6 +52,7 @@ We should pass in the smallest-possible value for `minKey` and the largest-possi
 
 For example, if we're implementing the BST in C and storing integers then we might pass in the `INT_MIN` and `INT_MAX` constants as initial values.  If we're implementing the BST in JavaScript and storing numerical values then we might pass in `-Infinity` and `Infinity` as initial values.
 
+
 ---
 ## Practice
 
@@ -67,6 +68,7 @@ Is the following a *binary search tree*?
 ???
 *No
 *Yes
+
 ---
 ## Revision
 

@@ -2,9 +2,9 @@
 author: mihaiberq
 
 levels:
- - basic
+	- basic
 
-type: undefined
+type: normal
 
 category: must-know
 
@@ -37,6 +37,7 @@ Looking up data in a *trie* is fast: the worst case takes *O(m)*, where *m* is t
 The drawback is that *tries* can take up more space than their counterparts and it is hard to prevent adding long, meaningless sequence of characters to the trie.
 
 They are also called *prefix trees* because a *pre-order traversal* would visit the nodes in *lexicographical order*.
+
 ---
 ## Revision
 

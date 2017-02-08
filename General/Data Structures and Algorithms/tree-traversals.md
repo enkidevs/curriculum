@@ -2,9 +2,9 @@
 author: mihaiberq
 
 levels:
- - basic
+	- basic
 
-type: undefined
+type: normal
 
 category: must-know
 
@@ -28,6 +28,7 @@ Because a tree is self-referential[1], a common way of performing these searches
 
 In the following insights we will assume that a left node has priority over the right ones.
 
+
 ---
 ## Practice
 
@@ -44,6 +45,7 @@ In what order will the nodes be visited during a breadth-first traversal?
 *`A,C,B,G,F,E,H,D,I`
 *`B,F,H,D,I,C,G,E,A`
 *`A,B,C,D,E,F,G,H,I`
+
 ---
 ## Revision
 
@@ -53,6 +55,7 @@ Which type of tree traversal visits the children before the nodes on the same le
 *Depth-first
 *Breadth-first
 *Children-first
+
 ---
 ## Footnotes
 

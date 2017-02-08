@@ -2,9 +2,9 @@
 author: mihaiberq
 
 levels:
- - beginner
+	- beginner
 
-type: undefined
+type: normal
 
 category: must-know
 
@@ -35,6 +35,7 @@ A good example to see the differences is the implementation of the *Josephus pro
 In contrast to the list, deletion in *dynamic arrays* implies shifting the other elements to maintain the internal structure. Yet, finding the *n*th person is easier, by referencing their position directly.
 
 
+
 ---
 ## Practice
 
@@ -46,6 +47,7 @@ What should a DoublyLinkedList node keep track of?
 *The previous node and the next node.
 *Its element and the next node.
 *Its element, the previous node and the head of the list.
+
 ---
 ## Revision
 
@@ -57,6 +59,7 @@ Which of the following concepts is *list-specific*?
 *Element
 *Index
 *Node
+
 ---
 ## Footnotes
 

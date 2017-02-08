@@ -2,9 +2,9 @@
 author: mihaiberq
 
 levels:
- - basic
+	- basic
 
-type: undefined
+type: normal
 
 category: how to
 
@@ -51,6 +51,7 @@ expBySqr(b,x)
 
 It is worth noting that after each squaring, the new value would almost double the number of digits of the previous one.
 
+
 ---
 ## Practice
 
@@ -63,6 +64,7 @@ For small exponent values, squaring might need more operations than straight-for
 *3+2
 *2+3
 *3+1
+
 ---
 ## Revision
 
@@ -73,6 +75,7 @@ For an exponent of `350`, what's the upper-bound of the number of operations req
 *O(log 350)
 *O(350)
 *O(log log 350)
+
 ---
 ## Footnotes
 

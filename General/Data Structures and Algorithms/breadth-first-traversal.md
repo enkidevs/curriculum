@@ -2,9 +2,9 @@
 author: mihaiberq
 
 levels:
- - basic
+	- basic
 
-type: undefined
+type: normal
 
 category: must-know
 
@@ -29,6 +29,7 @@ A, B, F, G, C, E, H, D
 ```
 A full traversal of the tree takes *O(n) time*  and *O(n) space*[1], where n is the number of nodes.
 
+
 ---
 ## Revision
 
@@ -45,6 +46,7 @@ Which node will be prioritized after *B* in a breadth-first traversal?
 *D
 *A
 *C
+
 ---
 ## Footnotes
 

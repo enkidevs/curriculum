@@ -2,9 +2,9 @@
 author: mihaiberq
 
 levels:
- - beginner
+	- beginner
 
-type: undefined
+type: normal
 
 category: must-know
 
@@ -56,6 +56,7 @@ The same principle applies for appending a value to a cell:
 ```
 myArray[0] = x;
 ```
+
 ---
 ## Revision
 

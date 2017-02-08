@@ -3,7 +3,7 @@ author: jfarmer
 
 levels:
 
-type: undefined
+type: normal
 
 category: how to
 
@@ -63,6 +63,7 @@ However, `120` is still greater than `100`, so we must swap those two keys as we
 
 The tree is now a heap again!
 
+
 ---
 ## Practice
 
@@ -80,6 +81,7 @@ Where will the next node be inserted in the heap?
 *`A`
 *`B`
 *`D`
+
 ---
 ## Revision
 

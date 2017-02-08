@@ -2,9 +2,9 @@
 author: mihaiberq
 
 levels:
- - basic
+	- basic
 
-type: undefined
+type: normal
 
 category: must-know
 
@@ -56,6 +56,7 @@ The result will be in the down-right corner: *16* is the maximum value that can 
 
 For some `w` values,the current item's weight, `wi`, might be bigger so you would want to check for, let's say, `m[-7,0]`.
 
+
 ---
 ## Practice
 
@@ -67,6 +68,7 @@ Which items would be picked in the above example?
 *2,3,5
 *1
 *2,4,5,7
+
 ---
 ## Revision
 
@@ -76,6 +78,7 @@ Which items would be picked in the above example?
 *greedy
 *recursive
 *complex
+
 ---
 ## Footnotes
 

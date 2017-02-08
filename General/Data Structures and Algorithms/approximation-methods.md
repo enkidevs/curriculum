@@ -2,9 +2,9 @@
 author: mihaiberq
 
 levels:
- - basic
+	- basic
 
-type: undefined
+type: normal
 
 category: must-know
 
@@ -27,6 +27,7 @@ The other notations are quite similar to *Big-O*:
 
 - `Little-o` is the function F that satisfies `F(n)<c*f(n)`, for every `n>=n'`. In other words, `F(n) is o(f(n))` if `F(n) is O(f(n))` **and not** `Θ(f(n))`.
 
+
 ---
 ## Practice
 
@@ -41,6 +42,7 @@ F(n) is not Θ(f(n))
 *Big-O
 *Big-Theta
 *Big-Omega
+
 ---
 ## Revision
 
@@ -51,6 +53,7 @@ If a function is both Big-O and Big-Omega, it is called
 *Little-O
 *Middle bound
 *Big-O
+
 ---
 ## Footnotes
 

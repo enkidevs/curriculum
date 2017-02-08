@@ -2,9 +2,9 @@
 author: mihaiberq
 
 levels:
- - medium
+	- medium
 
-type: undefined
+type: normal
 
 category: must-know
 
@@ -57,6 +57,7 @@ function Dijkstra(Graph, source)
 
 If the implementation *does not* prioritize which node to visit next (or is used to traverse all the nodes),  the algorithm runs in *O(V×V)* time (where V is the number of nodes).
 
+
 ---
 ## Practice
 
@@ -74,6 +75,7 @@ What distances are available after first iteration of the algorithm, if the star
 *EB=7/EC=3
 *EA=inf/ED=inf
 *EF=inf/EA=6
+
 ---
 ## Revision
 
@@ -83,6 +85,7 @@ What does Dijkstra's algorithm achieve?
 *The shortest path between nodes in an weighted graph.
 *The number of connected components in a graph.
 *The negative cycles in an weighted graph.
+
 ---
 ## Footnotes
 

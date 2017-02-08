@@ -2,10 +2,10 @@
 author: mihaiberq
 
 levels:
- - beginner
- - basic
+	- beginner
+	- basic
 
-type: undefined
+type: normal
 
 category: hack
 
@@ -39,6 +39,7 @@ ___
 **Query**[5]----------*O(E)*------*O(V)*--------*O(1)*-------*O(E)*--
 
 ---
+
 ---
 ## Footnotes
 

@@ -2,9 +2,9 @@
 author: jfarmer
 
 levels:
- - basic
+	- basic
 
-type: undefined
+type: normal
 
 category: how to
 
@@ -58,6 +58,7 @@ Since `6` is less than both `19` and `36`, we would swap `6` with `36`, the larg
 
 In this specific case we are done, but in general we might have to perform multiple such swaps until `6` was in the correct position.
 
+
 ---
 ## Practice
 
@@ -74,6 +75,7 @@ Which node should we move into the root position after removing the old one?
 *`3`
 *`15`
 *`16`
+
 ---
 ## Revision
 

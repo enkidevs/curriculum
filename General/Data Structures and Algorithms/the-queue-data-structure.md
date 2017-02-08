@@ -2,9 +2,9 @@
 author: mihaiberq
 
 levels:
- - beginner
+	- beginner
 
-type: undefined
+type: normal
 
 category: must-know
 
@@ -27,6 +27,7 @@ Accessor methods:
 - `first()` : *Returns* the element at the front of the queue.
 
 
+
 ---
 ## Practice
 
@@ -46,6 +47,7 @@ Q.enqueue(1)    ???
 *`1`
 *`false`
 *`0`
+
 ---
 ## Revision
 

@@ -2,9 +2,9 @@
 author: jfarmer
 
 levels:
- - basic
+	- basic
 
-type: undefined
+type: normal
 
 category: must-know
 
@@ -31,6 +31,7 @@ Finding the maximum element is easy — it's the root node — but storing the i
 
 If we were to store the same information in a sorted list we could have constant time `find-max` and constant-time removal, but only `O(n)`-time insertion.
 
+
 ---
 ## Practice
 
@@ -41,6 +42,7 @@ What is the average insertion time in a *heap*?
 *O(n)
 *O(log log n)
 *O(sqrt(n))
+
 ---
 ## Revision
 

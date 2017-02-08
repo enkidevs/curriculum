@@ -2,9 +2,9 @@
 author: mihaiberq
 
 levels:
- - basic
+	- basic
 
-type: undefined
+type: normal
 
 category: must-know
 
@@ -29,6 +29,7 @@ Any *representation* of a graph data type should provide these methods:
 - `removeEdge(e)` : *Removes* edge e from the graph. 
 
 
+
 ---
 ## Practice
 
@@ -39,6 +40,7 @@ You can represent a graph as an adjacency matrix, without the need for an additi
 *A different value than the default one for the (u,v) cell of the matrix, for the  undirected edge (u,v) in the list.
 *The default value in the (u,v) cell, for the edge (u,v) in the list.
 *A different value in both (u,v) and (v,u) cells in the matrix for the directed edge (u,v) in the list.
+
 ---
 ## Revision
 

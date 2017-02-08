@@ -2,9 +2,9 @@
 author: mihaiberq
 
 levels:
- - basic
+	- basic
 
-type: undefined
+type: normal
 
 category: must-know
 
@@ -35,6 +35,7 @@ Height 0  Height 0   Height 1
 These concepts are applicable to **any type** of tree.
 
 *Note*: When we are talking about the *height*, we take a leaf as the reference point. Additionally, when we talk about *depth*, we take the root as the point of reference.
+
 ---
 ## Practice
 
@@ -54,6 +55,7 @@ D ???
 *`D1/H0`
 *`D1/H1`
 *`D2/H0`
+
 ---
 ## Revision
 

@@ -2,9 +2,9 @@
 author: mihaiberq
 
 levels:
- - basic
+	- basic
 
-type: undefined
+type: normal
 
 category: how to
 
@@ -29,6 +29,7 @@ An advantage of RPN is that it doesn't need parentheses required by the *infix n
 5 4 + 3 ×
 ```
 
+
 ---
 ## Practice
 
@@ -39,6 +40,7 @@ What is the reverse polish notation equivalent of `(2+10)/4+3`?
 *2 10 + 4 3 + /
 *4 + 3 / 2 + 10
 *2 10 4 3 + / +
+
 ---
 ## Revision
 

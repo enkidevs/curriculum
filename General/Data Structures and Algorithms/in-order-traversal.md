@@ -2,9 +2,9 @@
 author: mihaiberq
 
 levels:
- - basic
+	- basic
 
-type: undefined
+type: normal
 
 category: must-know
 
@@ -41,6 +41,7 @@ inorder(node)
   doSomething(node)
   inorder(node.right)
 ```
+
 ---
 ## Practice
 
@@ -57,6 +58,7 @@ Chose the sequence that simulates a post-order traversal of the tree:
 *F,B,E,C,A
 *A,B,F,C,E
 *B,F,A,C,E
+
 ---
 ## Revision
 

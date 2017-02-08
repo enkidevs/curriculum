@@ -2,9 +2,9 @@
 author: jfarmer
 
 levels:
- - basic
+	- basic
 
-type: undefined
+type: normal
 
 category: must-know
 
@@ -18,6 +18,7 @@ This distance constraint ensures that is takes approximately the same amount of 
 This is a problem for binary search trees (BSTs) because an ordered linked list is a BST and searching it is linear.  Thus, a BST has log-time searching *on average*, but a linear-time worst case.
 
 Solving this problem and guaranteeing that the tree remains more-or-less balanced is one of the main motivations behind more complex BST-like data structures, e.g., AVL trees, red-black trees, and others.
+
 ---
 ## Revision
 

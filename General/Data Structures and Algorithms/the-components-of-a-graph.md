@@ -2,9 +2,9 @@
 author: mihaiberq
 
 levels:
- - beginner
+	- beginner
 
-type: undefined
+type: normal
 
 category: must-know
 
@@ -30,6 +30,7 @@ A **forest** is a graph without cycles. If the graph is connected as well, it is
 
 Note: The notion of **tree** here is not related to the one of the *Tree Data Type* since it *does not need* to have a root.
 
+
 ---
 ## Practice
 
@@ -38,6 +39,7 @@ Can a graph be a tree if it has more than one connected component?
 ???
 *No
 *Yes
+
 ---
 ## Revision
 

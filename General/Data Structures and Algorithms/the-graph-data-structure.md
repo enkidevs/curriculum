@@ -2,9 +2,9 @@
 author: mihaiberq
 
 levels:
- - basic
+	- basic
 
-type: undefined
+type: normal
 
 category: must-know
 
@@ -29,6 +29,7 @@ A **self-loop** is an edge for which the 2 nodes coincide.
 We call **simple graph** one that does *not contain self-loops or multiple edges*.
  
 
+
 ---
 ## Practice
 
@@ -38,6 +39,7 @@ A graph that represents flight routes between cities should be
 
 *directed
 *undirected
+
 ---
 ## Revision
 

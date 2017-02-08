@@ -2,9 +2,9 @@
 author: mihaiberq
 
 levels:
- - basic
+	- basic
 
-type: undefined
+type: normal
 
 category: must-know
 
@@ -50,6 +50,7 @@ And its *query methods* should be:
 - `isExternal(n)` : *Returns* true if n doesn't have children.
 - `isRoot(n)` : *Returns* true if n is the root of the tree.
 
+
 ---
 ## Practice
 
@@ -60,6 +61,7 @@ Which of the following is true?
 *A tree is an undirected graph.
 *A graph is a subtype of a tree.
 *A tree can have more than one node.
+
 ---
 ## Revision
 

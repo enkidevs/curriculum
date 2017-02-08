@@ -2,9 +2,9 @@
 author: mihaiberq
 
 levels:
- - basic
+	- basic
 
-type: undefined
+type: normal
 
 category: must-know
 
@@ -34,6 +34,7 @@ A, B, C, D, E, F, G, H
 A full traversal of the tree takes  *O(n)* time and *O(n)* space[1], where *n* is the number of nodes. We can say the traversal is a *linear* function.
 
 
+
 ---
 ## Revision
 
@@ -50,6 +51,7 @@ Which node will be prioritized after *B* in a depth-first traversal?
 *E
 *A
 *C
+
 ---
 ## Footnotes
 

@@ -3,7 +3,7 @@ author: jfarmer
 
 levels:
 
-type: undefined
+type: normal
 
 category: how to
 
@@ -34,6 +34,7 @@ Thus, we can handle the two-children case as follows:
 
 We can also delete nodes by working with the *minimum* key in the right sub-tree rather than the *maximum* key in the left sub-tree.
 
+
 ---
 ## Practice
 
@@ -52,6 +53,7 @@ Which node in the left sub-tree would replace *10* in case it is removed?
 *`5`
 *`13`
 *`20`
+
 ---
 ## Revision
 
