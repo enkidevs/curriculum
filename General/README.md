@@ -2,6 +2,6 @@ language: General
 
 deviconsClass: devicons-c
 
-color: 
+color: 9A57C1
 
 description: undefined
