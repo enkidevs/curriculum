@@ -8,6 +8,8 @@ type: normal
 
 category: must-know
 
+parent: what-is-npm
+
 links:
 
  - >-

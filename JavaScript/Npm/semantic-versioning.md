@@ -6,6 +6,8 @@ levels:
 
 type: normal
 
+parent: package-json
+
 category: must-know
 
 ---

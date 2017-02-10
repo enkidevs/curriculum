@@ -12,6 +12,8 @@ type: normal
 
 category: how to
 
+parent: remote-scripts
+
 ---
 ## Content
 

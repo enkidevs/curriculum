@@ -11,6 +11,8 @@ type: normal
 
 category: feature
 
+parent: packages-vs-modules
+
 links:
   - >-
     [docs.npmjs.com](https://docs.npmjs.com/getting-started/scoped-packages){website}
