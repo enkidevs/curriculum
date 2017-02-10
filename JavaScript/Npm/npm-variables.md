@@ -11,9 +11,6 @@ levels:
 type: normal
 
 category: feature
-
-parent: available-binaries-for-scripting
-
 ---
 ## Content
 
