@@ -15,8 +15,6 @@ links:
   - >-
     [docs.npmjs.com](https://docs.npmjs.com/getting-started/scoped-packages){website}
 
-parent: packages-vs-modules
-
 ---
 ## Content
 

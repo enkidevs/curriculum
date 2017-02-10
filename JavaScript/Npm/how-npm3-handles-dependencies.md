@@ -6,12 +6,10 @@ levels:
   - basic
   - medium
   - advanced
-  
+
 type: normal
 
 category: feature
-
-parent: deprecated-peer-dependencies
 
 ---
 ## Content
