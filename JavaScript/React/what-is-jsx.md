@@ -22,7 +22,7 @@ links:
 ---
 ## Content
 
-**JSX** is syntactic sugar that brings an `XML`-like syntax to **JavaScript**.
+**JSX** is syntactic sugar that brings an `XML`-like syntax to **JavaScript**. 
 
 
 What this means is that **JSX** is a way of writing your **HTML** inside `JS` code.
