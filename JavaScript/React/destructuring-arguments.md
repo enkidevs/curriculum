@@ -26,7 +26,7 @@ links:
 ---
 ## Content
 
-The **destructuring assignment** syntax, introduced in `ES6`, is used to extract data from either *arrays* or *objects* in distinct variables.
+The **destructuring assignment** syntax, introduced in `ES6`, is used to extract data from either *arrays* or *objects* in distinct variables. 
 
 Basic assignment:
 ```jsx
