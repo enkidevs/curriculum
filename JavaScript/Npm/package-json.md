@@ -8,8 +8,6 @@ type: normal
 
 category: must-know
 
-parent: setting-up-npm
-
 links:
 
   - >-

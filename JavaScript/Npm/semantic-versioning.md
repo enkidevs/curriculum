@@ -8,9 +8,6 @@ type: normal
 
 category: must-know
 
-parent: package-json
-
-
 ---
 ## Content
 
