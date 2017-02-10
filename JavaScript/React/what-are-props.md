@@ -29,7 +29,7 @@ links:
 ---
 ## Content
 
-As discussed before, `component`s can take input just like a function can, via `props`.
+As discussed before, `component`s can take input in a similar way to a function, via `props`.
 
 `props` is a plain `JS` object accessible via `this.props`, its properties representing the arguments of a `component`.
 
@@ -60,7 +60,7 @@ Greeting.defaultProps = {
 }
 ```
 
-This will let us create a `Greeting` element without specifying the `name`:
+This allows us to create a `Greeting` element without specifying the `name`:
 ```jsx
 const element = <Greeting />;
 ```
