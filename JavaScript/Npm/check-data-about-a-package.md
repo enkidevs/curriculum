@@ -12,6 +12,8 @@ type: normal
 
 category: feature
 
+parent: how-to-publish-your-own-packages
+
 links:
 
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/view)'

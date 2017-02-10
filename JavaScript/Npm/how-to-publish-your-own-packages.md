@@ -12,6 +12,7 @@ type: normal
 
 category: how to
 
+parent: tests
 
 ---
 ## Content

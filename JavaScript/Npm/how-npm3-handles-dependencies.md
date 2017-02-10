@@ -11,6 +11,8 @@ type: normal
 
 category: feature
 
+parent: deprecated-peer-dependencies
+
 ---
 ## Content
 

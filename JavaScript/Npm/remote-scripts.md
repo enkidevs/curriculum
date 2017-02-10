@@ -12,6 +12,8 @@ type: normal
 
 category: feature
 
+parent: scripts-lifecycle
+
 ---
 ## Content
 
