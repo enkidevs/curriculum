@@ -1,4 +1,4 @@
-# NPM, Nodes Package Manager
+# NPM, Node's Package Manager
 author: tommarshall
 
 levels:
@@ -18,20 +18,20 @@ links:
 ---
 ## Content
 
-NPM, Nodes Package Manager, is the package manager for JavaScript’s Node.js environment. It allows packages of code, modules, from developers across the world to be found, shared and implemented into your own systems.
+NPM is the package manager for JavaScript’s Node.js environment. It allows packages of code, modules, from developers across the world to be found, shared and implemented into your own systems.
 
-The NPM registry is home to over 350,000 packages of code open for use to anyone who requires it and is used by over 4 million developers every month.
+The NPM registry is home to over 350,000 packages of code open for use to anyone who requires them and is used by over 4 million developers every month.
 
-NPM comes installed with Node.js however is updated more often than Node, therefore to check you’re using the latest NPM version run the following command from your terminal:
+NPM comes installed with Node.js, however it is updated more often than Node. To check you’re using the latest NPM version run the following command from your terminal:
 
-```
-npm install npm@latest -g
+``` bash
+$ npm install npm@latest -g
 ```
 
 To download and install a package from NPM:
 
-```
-npm install <package>
+```bash
+$ npm install <package>
 ```
 
 ---

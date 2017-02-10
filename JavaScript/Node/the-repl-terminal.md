@@ -18,34 +18,23 @@ links:
 ---
 ## Content
 
-REPL stands Read Eval Print Loop. It represents an environment similar to a Windows console or Linux shell, where commands can be entered and the system would respond with the appropriate output.
+REPL stands for Read Eval Print Loop. It represents an environment similar to a Windows console or Linux shell, where commands can be entered and the system would respond with the appropriate output.
 
-*Read* takes an input and parses this into a JavaScript data-structure before storing it into memory.
-*Eval* evaluates this data structure.
+*Read* takes an input and parses this into a JavaScript-recognizable expression before storing it into memory.
+*Eval* evaluates this expression.
 *Print* prints the result of the evaluation.
 *Loop* loops the above commands until the user exits the REPL terminal.
 
 A key benefit of using Node's REPL terminal is that it helps iron out any irregularities found in an application, meaning that there are no side effects when the code is ran in the application.
 
-To start REPL:
-```
+The REPL terminal can be used for simple expressions as follows:
+```bash
 $ node
-```  
-
-You will then see the REPL command prompt where Node.js commands can be entered:
-```
-$ node
->
-```
-
-The REPL terminal can be used for simple expressions like follows:
-
-```
 > 4 + 2 * 9 - 6
 20
 ```
 
-Variables can also be used in the terminal, if the *var* keyword is used then the value is stored but not printed, whereas if the *var* keyword isn’t used the value is both stored and printed.
+Variables can also be used in the terminal, if the `var` keyword is used then the value is stored but not printed, whereas if the *var* keyword isn’t used the value is both stored and printed.
 
 ```
 > x = 5
