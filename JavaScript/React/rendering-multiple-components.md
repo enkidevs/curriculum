@@ -24,7 +24,7 @@ links:
 ---
 ## Content
 
-**React** allows the creation of `DOM` element collections by harnessing the power of pure `JS`.
+**React** allows the creation of `DOM` element collections by harnessing the power of pure `JS`. 
 
 For example, you can dynamically generate a collection of `<p>` items by transforming an `array` with the `map()` function:
 ```jsx
