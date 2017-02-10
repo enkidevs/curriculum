@@ -9,54 +9,39 @@ levels:
 
   - medium
 
-type: fillTheGap
+type: normal
 
-category: tip
+category: feature
+
+tags:
+
+  - infinity
+
+links:
+
+  - '[www.2ality.com](http://www.2ality.com/2012/02/nan-infinity.html)'
 
 ---
 ## Content
 
-Your goal is to determine what the console will print out for each given value of `x`
+Dividing a number by zero typically return  or :
+
+With one edge-case:
+
+
+Attempting to increase the value of  simply results in :
+
+Attempting to cancel out  by subtracting it from itself results in  (not a number):
+
 
 ---
-## Game Content
+## Revision
 
-```
-var x = 10/0;
-console.log(x); //prints ???
-```
-*`Infinity`
-*`0`
-*`NaN`
----
-```
-var x = Infinity - Infinity;
-console.log(x); //prints ???
-```
-*`NaN`
-*`0`
-*`Infinity`
----
-```
-var x = -10/0;
-console.log(x); //prints ???
-```
-*`-Infinity`
-*`Infinity`
-*`0`
----
-```
-var x = Infinity * 10;
-console.log(x); //prints ???
-```
-*`Infinity`
-*`NaN`
-*`-Infinity`
----
-```
-var x = 10/-0;
-console.log(x); //prints ???
-```
-*`-Infinity`
-*`Infinity`
-*`NaN`
+Complete the code snippet:
+
+* -Infinity
+* Infinity
+* NaN
+* 0
+* undefined
+* null

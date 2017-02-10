@@ -28,96 +28,105 @@ links:
 ---
 ## Content
 
-When two or more CSS declarations apply to the same HTML element, a choice must be made about which styles to apply. For example:
+Specificity is one of the most difficult topics to grasp. If you understand how properties can be overridden, writing CSS gets twice as easy.
+
+In the previous workout, we discussed about three basic types of selectors:
+ - type (`div`, `p`)
+ - class (`.container`, `.title`)
+ - id (`#contact`)
+
+In order to better visualize which one has priority over the other, we can turn the list into a horizontal one:
+```text
+id > class > type
+// or
+id - class - type
+```
+Consider the following selector that aims to style a heading, nested inside a div of class *my-class*, which is another div's child:
 ```css
-p.cities {
-  color: red;
+div div.my-class h2{}
+```
+There are three *type* selectors (*div, div and h2*) and one *class* selector (*.my-class*). We can use the previous syntax to represent the **specificity** of the selector:
+```text
+0 - 1 - 3
+```
+However, this should not be seen as a base 10 representation. By adding a class to the h2, `h2.title`, its specificity becomes:
+```text
+0 - 2 - 3
+```
+Say we decide to give the heading the id of *title*:
+```css
+div div.my-class #title{}
+```
+We aim to target the title of the page with both selectors. Imagine the following scenario:
+```css
+div div.my-class #title{
+  font-size: 30px;
 }
-.cities {
-  color: blue;
+div div.my-class h2{
+  font-size: 40px;
 }
 ```
-The final font `color` of `<p>` elements will be `red`, even though `.cities` class
- declaration is below `p.cities`.
-
-This has to do with CSS specificity calculations. A general specificity is expressed by `(a, b, c, d)`.
-
-For each element or pseudo element in the selector, `d += 1`:
+If cascading alone was the way to go, the heading *font-size* would be 40. Taking specificity into account:
+```text
+1 - 1 - 2
+vs
+0 - 1 - 3
 ```
-p {} /* (0,0,0,1) */
-```
+The font size is be *30* in the end.
 
-For each class, pseudo class or attribute in the selector, `c += 1`:
-```
-.cities{} /* (0,0,1,0) */
-```
-
-For each id in the selector, `b += 1`:
-```
-#myParagraph{} /* (0,1,0,0) */
-```
-
-An _inline_ style has a specificity of `a=1`:
-```HTML
-<p style="color: red">Test</p>
-```
-
-The instruction with the *largest* specificity will have priority. To determine the largest one, concatenate *(a,b,c,d)* to obtain a 4-digit number — *(0,1,0,2)* will translate to *102* specificity — and compare it to the others.
-
-For the following HTML code:
+As discussed earlier, inline CSS has the highest inherited specificity:
 ```html
-<p class="acl bcl">AB</p>
-<p class="acl">A</p>
+<div>
+  <div class="my-class">
+    <h2 id="title"
+      style="font-size:20px;">
+      Title
+    </h2>
+  </div>
+</div>
 ```
-And the CSS:
+We would have add a new column to the previous notation in order to represent inline CSS specificity:
+```text
+1 - 0 - 0 - 0
 ```
-p.acl.bcl{  /* (0,0,2,1) */
-  color: red;
-}
-p.acl{    /* (0,0,1,1) */
-  color: blue;
-}
-p.bcl{    /* (0,0,1,1) */
-  color: green;
-```
-In the above example, `p.acl` and `p.bcl` will have the same specificity. In the case of `p.acl.bcl` *not being there*, the cascading rule would apply, making `AB` *green*.
+This means that however specific a selector may be, it can never overweight an inline styling.
 
-However, because the selector with two classes has a higher specificity, `AB` will be *red*.
-
-If the HTML looked like this:
-```html
-<p class="acl bcl"
-  style="color: orange">AB</p>
-<p class="acl">A</p>
-```
-The text will be neither *green* nor *red*, but **orange**, as the inline style will have priority.
-
+There are three other factors that influence the specificity of a selector. However, we won't go into details right now. All you have to know is that:
+ - attribute selectors increment the middle value: `a[href="www.example.com"]` (targets hyperlinks that have the href equals to *www.example.com*) has `0-1-1` specificity.
+ - pseudo-classes increment the middle value as well: `li:nth-of-type(2n)` (targets list items with an even index) has `0-1-1` specificity.
+ - the `!important` keyword added to the end of a CSS declaration:
+  ```css
+  #title{
+    font-size: 60px !important;
+  }
+  ```
+  Has `1-0-1-0-0` specificity.
 ---
 ## Practice
 
 What is the specificity of the following CSS code snippet?
 ```css
-p#myParagraph .acl div.bcl {}
+p#myParagraph .class1 div.class2 {}
 ```
 
 ???
-*(0,1,2,2)
-*(0,1,2,1)
-*(1,1,1,2)
-*(1,0,0,4)
+*0-1-2-2
+*0-1-2-1
+*1-1-1-2
+*1-0-0-4
 
 ---
 ## Revision
 
 What is the specificity of the following CSS code snippet?
 ```css
-#nav.selected a{}
+#div.selected a{}
 ```
 
 ???
-* (0, 1, 1, 1)
-* (0, 0, 2, 1)
-* (1, 1, 2, 1)
-* (0, 2, 1, 0)
-* (1, 1, 1, 0)
-* (1, 2, 1, 2)
+* 0-1-1-1
+* 0-0-2-1
+* 1-1-2-1
+* 0-2-1-0
+* 1-1-1-0
+* 1-2-1-2

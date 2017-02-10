@@ -79,12 +79,13 @@ The safer alternative to `apt-get purge` that also removes PPA’s is
 ---
 ## Revision
 
-To delete a *PPA* and the *other packages installed through it*, you could run:
+To delete a package installed from a *PPA*, you could run:
 ```
 $ ??? ??? ???
 ```
 *`apt-get`
 *`purge`
+*`package_name`
 *`PPA_name`
-*`remove`
+*`delete`
 *`ppa-purge`
