@@ -16,8 +16,6 @@ links:
 
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/view)'
 
-parent: how-to-publish-your-own-packages
-
 ---
 ## Content
 

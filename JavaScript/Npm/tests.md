@@ -12,7 +12,6 @@ type: normal
 
 category: how to
 
-parent: prepare-your-module-for-publishing
 
 ---
 ## Content
