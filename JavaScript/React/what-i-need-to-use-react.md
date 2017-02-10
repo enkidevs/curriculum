@@ -19,7 +19,7 @@ links:
 ---
 ## Content
 
-Being a truly flexible library, you can create applications from scratch with **React**, but also gradually including it to your code base without having to re-write anything.
+Being a truly flexible library, you can create applications from scratch with **React**. However, you can gradually include it to your code base without having to re-write anything.
 
 To install **React** you can use a *package manager* such as `Yarn` or `npm`:
 ```
@@ -31,14 +31,14 @@ $ npm install --save react react-dom
 
 You can also use a **CDN** (Content Delivery Network). For both the development and production builds (*minified*) check the link appended to the insight.
 
-However, the former option is advised because it gives you access to a vast ecosystem of *third-party libraries* that can be easily installed and integrated.
+The former option is advised because it gives you access to a vast ecosystem of *third-party libraries* that can be easily installed and integrated.
 
-Although not required, adopting a modern **build pipeline** is highly recommended as to boost productivity and efficiency. Apart from the *package manager*, this includes:
+Although not required, adopting a modern **build pipeline** is highly recommended to boost productivity and efficiency. Apart from the *package manager*, this includes:
 
-- a **bundler**[1] such as `webpack` or `browserify` to boost load time by modularising your code
+- a **bundler**[1] such as `webpack` or `browserify` to improve load time by modularising your code
 - a **compiler** such as `Babel`[2]
 
-`Babel` compiler will allow you to write your application with `ES6`[3] and `JSX` syntax. For this, you need to install `babel-preset-react` and `babel-preset-es2015` and enable them in your `.babelrc` config file.
+Using a `Babel` compiler will allow you to write your application with both `ES6`[3] and `JSX` syntax. For this, you need to install `babel-preset-react` and `babel-preset-es2015` and enable them in your `.babelrc` config file.
 
 To create a **Single page application** you can use the officially supported package called `create-react-app`:
 ```
