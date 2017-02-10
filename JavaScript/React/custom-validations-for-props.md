@@ -26,7 +26,7 @@ links:
 ## Content
 
 **React** allows  you to define and use custom *validator functions* for your props. These can be used inside `propTypes`.
-
+ 
 The standard arguments[1] for a validator function are
 ```
 function(props, propName, componentName) {
