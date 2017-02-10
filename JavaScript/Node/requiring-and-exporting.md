@@ -23,13 +23,13 @@ links:
 ---
 ## Content
 
-To load, cache and use a module you must `require` it into your Node application, the keyword `require` is used for loading modules, its return value is normally assigned to a variable, for example:
+To load, cache and use a module you must `require` it into your **Node** application. The keyword `require` is used for loading modules and its return value is normally assigned to a variable, for example:
 
 ```
 var module = require(‘./example.js’);
 ```
 
-`exports` or `module.exports` by default are included in all JavaScript files in a Node application as a special object. `exports` is an object exposed as module, whereas `module` is a variable representing the current module. Therefore what you assign to either `exports` or `module.exports` is exposed as a module.
+`exports` or `module.exports` by default are included by default in all JavaScript files in a Node application as a special object. `exports` is an object exposed as a module, whereas `module` is a variable representing the current module. Therefore what you assign to either `exports` or `module.exports` will eventually be exposed by the module.
 
 Take *sampleModule.js*:
 ```
@@ -61,7 +61,7 @@ Which of the following is included in all JavaScript files by default?
 ---
 ## Revision
 
-Complete the code snippet to load `module.js`:
+Complete the code snippet to import `module.js`:
 ```
 var mod = ???('./module.js');
 ```

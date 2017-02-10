@@ -28,13 +28,10 @@ Node incorporates 3 different module types, modules can either be core modules, 
 
 Using modules when building Node applications give a number of advantages:
 
-- inclusion of external libraries
-- increased organization of code parts
-- reducing the amount of code per file
+- easy and straightforward inclusion of external libraries
+- increased modularity
+- reduced amount of code per file
 - easier to read and maintain code
-
-
----
 
 ---
 ## Revision
