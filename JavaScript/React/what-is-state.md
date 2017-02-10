@@ -30,7 +30,7 @@ links:
 ---
 ## Content
 
-Just like `props`, **React** components' `state` can change their behaviour or how they render.
+Just like `props`, **React** components' `state` can change their behaviour or how they render. 
 
 You can think of *state* as a **private** data set only accessible from within the `component` via `this.state`.
 
