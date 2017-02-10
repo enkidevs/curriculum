@@ -13,6 +13,8 @@ type: normal
 
 category: how to
 
+parent: custom-proptype-s-to-be-required
+
 links:
 
   - >-

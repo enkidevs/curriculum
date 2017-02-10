@@ -13,6 +13,8 @@ type: normal
 
 category: best practice
 
+parent: custom-proptype-s-to-be-required
+
 links:
 
   - >-

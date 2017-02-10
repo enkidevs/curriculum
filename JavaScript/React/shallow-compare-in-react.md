@@ -14,8 +14,10 @@ type: normal
 category: feature
 
 notes: |-
-  probably best in the same workout with : 
+  probably best in the same workout with :
   https://insights.enki.com/#/contrib/56aa0290bd6a4609006eaee3
+
+parent: custom-proptype-s-to-be-required
 
 links:
 
@@ -37,7 +39,7 @@ var shallowCompare = require(
 
 Use shallow compare:
 ```javascript
-export class SampleComponent extends 
+export class SampleComponent extends
                         React.Component {
 shouldComponentUpdate(nextProps,nextState){
   return shallowCompare(this,
@@ -47,7 +49,7 @@ render() {
   return <div className={
     this.props.className}>foo</div>;
   }
-} 
+}
 ```
 
 A shallow equality check is performed on the current `props` and `nextProps`, but also on `state` and `nextState` objects, returning `true` if the comparison fails (component should update) and `false` otherwise.
@@ -55,10 +57,10 @@ A shallow equality check is performed on the current `props` and `nextProps`, bu
 ---
 ## Practice
 
-A ??? can be achieved with the helper function `shallowCompare` when used on a React component render function that is ???. 
+A ??? can be achieved with the helper function `shallowCompare` when used on a React component render function that is ???.
 
 * performance boost
-* pure 
+* pure
 * successful check
 * clean
 * raw
@@ -67,7 +69,7 @@ A ??? can be achieved with the helper function `shallowCompare` when used on a R
 ---
 ## Revision
 
-Import `shallowCompare` into your React code: 
+Import `shallowCompare` into your React code:
 
 ```javascript
 var shallowCompare = require('???');
