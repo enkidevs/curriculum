@@ -13,9 +13,12 @@ type: normal
 
 category: must-know
 
+parent: check-data-about-a-package
+
 links:
 
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/version){website}'
+
 
 ---
 ## Content
