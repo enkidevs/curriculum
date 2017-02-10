@@ -13,6 +13,8 @@ type: normal
 
 category: tip
 
+parent: custom-proptype-s-to-be-required
+
 tags:
 
   - ''
@@ -25,7 +27,7 @@ links:
 ---
 ## Content
 
-Generally, a components children, `this.props.children`, would be an array of components. 
+Generally, a components children, `this.props.children`, would be an array of components.
 
 When there is a single child, `this.props.children` will be the the single child component itself *without the array wrapper*, hence saving the allocation of an array.
 

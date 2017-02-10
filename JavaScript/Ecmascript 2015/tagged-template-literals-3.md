@@ -25,6 +25,7 @@ function myFunc(strings, sub){
  return "Goodbye " + sub; 
 } 
 
+var company="Enki";
 myFunc `Hello ${company} hows it going?`
 // "Goodbye Enki"
 ```

@@ -13,6 +13,8 @@ type: normal
 
 category: feature
 
+parent: custom-proptype-s-to-be-required
+
 links:
 
   - >-
@@ -38,16 +40,16 @@ children = [this.props.rightChildren,
 ```
 This can be done like:
 ```javascript
-var createFragment= require( 
-    'react-addons-create-fragment`);
+var createFragment= require(
+    'react-addons-create-fragment');
 
 children = createFragment({
   right: this.props.rightChildren,
-  left:this.props.leftChildren
+  left:this.props.leftChildren,
 });
 ```
 
-The `left`and `right` keys are used as keys for the entire set of children, and the rendering order is determined by the order of object's keys. 
+The `left`and `right` keys are used as keys for the entire set of children, and the rendering order is determined by the order of object's keys.
 
 The return value of `createFragment`  is an opaque object and `React.Children` helpers should be used in order to access it.
 
@@ -56,7 +58,7 @@ In the future, `createFragment` may be replaced by a different **API** which sho
 ---
 ## Practice
 
-Complete the `createFragment` add-on below which can give keys to sets of children: 
+Complete the `createFragment` add-on below which can give keys to sets of children:
 
 ```javascript
 Array<ReactNode ???(

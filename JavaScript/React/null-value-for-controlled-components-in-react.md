@@ -11,6 +11,8 @@ type: normal
 
 category: best practice
 
+parent: custom-proptype-s-to-be-required
+
 ---
 ## Content
 
@@ -25,12 +27,12 @@ This is a controlled `<input>`:
 ReactDOM.render(<input value="hi" />, node)
 ```
 
-This will make it uncontrolled: 
+This will make it uncontrolled:
 ```javascript
 ReactDOM.render(<input value={null} />,node)
 ```
 
-An *uncontrolled* component will give the user the ability to change its content without consent. 
+An *uncontrolled* component will give the user the ability to change its content without consent.
 
 Taking all of this into consideration, setting the `value` of `<input>` to `null` is best to be avoided.
 
@@ -40,7 +42,7 @@ Taking all of this into consideration, setting the `value` of `<input>` to `null
 Is this a controlled or uncontrolled <input>? ???
 
 ```javascript
-ReactDOM.render(<input value="Enki!" />, 
+ReactDOM.render(<input value="Enki!" />,
                 node)
 ```
 * Controlled
@@ -51,7 +53,7 @@ ReactDOM.render(<input value="Enki!" />,
 
 Make the following `<input>` form element uncontrolled:
 ```javascript
-ReactDOM.render(<input 
+ReactDOM.render(<input
   value={???} />, node);
 ```
 

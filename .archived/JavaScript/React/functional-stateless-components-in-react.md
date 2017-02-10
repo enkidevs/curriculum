@@ -30,7 +30,7 @@ Any **React** component that has no state and returns the same markup given the 
 In React 0.14 stateless components can be written as **functions**. 
 
 In the new syntax `props` is taken as an argument and the element you want to render is returned. The pattern is:
-```
+```jsx
 const Text = (props) => 
     <p>{props.children}</p>;
 ```
