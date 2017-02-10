@@ -35,10 +35,10 @@ Later on, you will be able to distinguish what data structure each example repre
 ---
 ## Revision
 
-What is a *data structure*?
+What is a data structure?
 
 ???
-*A pattern for organizing information.
-*A pattern for sorting information.
-*A pattern for inserting information.
-*An array of information.
+* A pattern for organizing information.
+* A pattern for sorting information.
+* A pattern for inserting information.
+* An array of information.
