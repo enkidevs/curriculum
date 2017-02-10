@@ -24,7 +24,7 @@ links:
 ---
 ## Content
 
-The `ref` is a special *attribute* in **React** that is attachable to any `component` or **DOM** `element`.
+The `ref` is a special *attribute* in **React** that is attachable to any `component` or **DOM** `element`. 
 
 **Refs** should be *callback functions* that will be automatically called when the targeted component is mounted or unmounted.
 
