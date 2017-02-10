@@ -18,7 +18,8 @@ category: must-know
 parent: listening-to-events-just-once
 
 links:
-- '[Synchronous Event Delivery](https://blog.yld.io/2015/12/15/using-an-event-emitter/#.WI4ybbaLQy4)'
+
+  - '[Synchronous Event Delivery](https://blog.yld.io/2015/12/15/using-an-event-emitter/#.WI4ybbaLQy4)'
 
 
 ---
@@ -58,12 +59,12 @@ post hi
 Remember that when emitting events, listeners will be called before `emitter.emit` returns.
 
 ---
-
----
 ## Revision
 
-When emitting events, ??? will be called before `emitter.emit` returns.
+How is the delivery of events treated in Node?
 
-* listeners
-* callbacks
-* event functions
+???
+
+* synchronously
+* asynchronously
+* random

@@ -44,11 +44,11 @@ test.once(‘uncaughtException’,
 This doesn’t solve the issue entirely as if two `uncaughtException`s do occur the second will trigger an instant process shutdown, interrupting and overriding the `closedown` method current in progress. To avoid this, log each uncaught exception:
 
 ```
-test.once(‘uncaughtException’, function(err) {
+test.once(‘uncaughtException’,
+            function(err) {
 
   console.error(‘uncaught exception: ‘,
-                          err.stack || err);
-
+              err.stack || err);
 });
 ```
 
@@ -67,7 +67,10 @@ Which method is used to add a one-time listener function to an event emitter?
 
 Complete the code snippet to define the callback function to catch an event just once:
 ```
-test.???('uncaughtException', function(err) {
+test.???('uncaughtException',
+    function(err) {
+      // handler
+    }
 ```
 
 * `once`
