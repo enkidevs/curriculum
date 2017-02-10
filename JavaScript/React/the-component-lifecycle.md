@@ -26,7 +26,7 @@ links:
 ---
 ## Content
 
-**Lifecycle methods** are special methods that can be overridden by a **React** `component` to run code at a particular point in time.
+**Lifecycle methods** are special methods that can be overridden by a **React** `component` to run code at a particular point in time. 
 
 These methods correspond to exact points in the **component's lifecycle**.
 
@@ -92,4 +92,3 @@ Is `React.Component`'s `constructor(props)` method considered a **lifecycle hook
 
 **Mounting** refers to the initial insertion of a **React** `component` into the **DOM**.
 Similarly, **unmouting** happens when the `component` is removed from the **DOM**.
-
