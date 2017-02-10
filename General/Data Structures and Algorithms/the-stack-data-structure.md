@@ -20,14 +20,14 @@ The items are inserted and removed according to the *last-in, first-out* (LIFO) 
 
 Imagine how you fill a steam cooker. You can add a tray of food on the top of the existing ones, but not in the middle, and only remove the last tray added.
 
-In a *stack*, you are able to insert, or **push** items whenever you want, but you could only retrieve, or **pop** the *top*. 
+In a *stack*, you are able to insert, or **push** items whenever you want, but you could only retrieve, or **pop** the top element.
 
 ### Stack ADT
-There are two specific methods:
+Independent of any language, a stack data structure should provide the following update methods:
 - `push(e)` : *Adds* element *e* to the top of the stack.
-- `pop()` : *Removes* and *returns* the top element from the stack.
+- `pop()` : If the stack is not empty, it *removes* and *returns* the top element.
 
-And three other methods:
+And three other helper methods:
 - `top()` : *Returns* the top element.
 - `isEmpty()` : *Returns* `true` if there are no elements in the stack, `false` otherwise.
 - `size()` : *Returns* the number of elements in the stack.
@@ -38,18 +38,19 @@ And three other methods:
 What is the working principle behind a stack?
 
 ???
-*Last-in, first-out
-*First-in, first-out
-*First-in, last-out
-*Last-in, last-out
+* Last-in, first-out
+* First-in, first-out
+* First-in, last-out
+* Last-in, last-out
 
 ---
 ## Revision
 
 Which of the following methods is stack-specific?
-
-???
-*push(e)
-*dequeue()
-*size()
-*first()
+```java
+Stack.???
+```
+* `push(e)`
+* `dequeue()`
+* `size()`
+* `first()`
