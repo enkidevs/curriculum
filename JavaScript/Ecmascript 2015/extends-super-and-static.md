@@ -25,7 +25,6 @@ The below example creates a new class called Engineer that inherits from Person 
 Our Engineer class also has a method called greet that will call the parent classes sayHello method:
 
 ```
-var e= new Engineer("alex", 35);
 class Engineer extends Person {
  constructor(name, age){
   super(name)
@@ -36,6 +35,8 @@ class Engineer extends Person {
   super.sayHello();
  }
 }
+
+var e= new Engineer("alex", 35);
 ```
 
 **Static**

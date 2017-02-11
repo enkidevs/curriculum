@@ -20,7 +20,7 @@ links:
 
 Whilst it has always been possible to simulate classical inheritance in JavaScript it comes with a number of gotcha's and caveats. 
 
-ES6 introduces classes and classical inheritance to JavaScript. 
+ES6 introduces classes and inheritance to JavaScript. It is important to note that these changes dont change JavaScripts prototype model just make it easier to work with.
 
 It is worth noting that some developers feel that the new class related features are not a good idea as they go against JavaScripts prototypical inheritance model.
 
