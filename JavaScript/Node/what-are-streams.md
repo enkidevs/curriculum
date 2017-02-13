@@ -13,8 +13,6 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
 parent: handling-event-errors
