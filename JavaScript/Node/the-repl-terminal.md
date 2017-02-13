@@ -7,9 +7,9 @@ levels:
 
 type: normal
 
-category: must-know
+inAlgoPool: false
 
-parent: installing-node-js
+category: must-know
 
 links:
 - '[tutorialsteacher.com](http://www.tutorialsteacher.com/nodejs/nodejs-console-repl)'

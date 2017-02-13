@@ -7,9 +7,9 @@ levels:
 
 type: normal
 
-category: must-know
+inAlgoPool: false
 
-parent: the-repl-terminal
+category: must-know
 
 links:
 - '[nodeguide.com](http://nodeguide.com/beginner.html#the-interactive-node.js-shell)'

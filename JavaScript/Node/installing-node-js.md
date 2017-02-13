@@ -7,9 +7,9 @@ levels:
 
 type: normal
 
-category: must-know
+inAlgoPool: false
 
-parent: what-is-nodejs
+category: must-know
 
 links:
 - '[nodejs.org](https://nodejs.org/en/)'

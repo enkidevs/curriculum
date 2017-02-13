@@ -7,9 +7,9 @@ levels:
 
 type: normal
 
-category: must-know
+inAlgoPool: false
 
-parent: executing-programs-with-node
+category: must-know
 
 links:
 
