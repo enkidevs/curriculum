@@ -18,10 +18,12 @@ inAlgoPool: false
 category: must-know
 
 links:
-- '[Node Events](https://nodesource.com/blog/understanding-the-nodejs-event-loop/)'
+
+  - '[Node Events](https://nodesource.com/blog/understanding-the-nodejs-event-loop/)'
 
 ---
 ## Content
+
 Node applications are event driven applications, an event occurs upon a change of state in an application, for example, a button being clicked, or data being inputted.
 
 Node events are consumed when an in-application event occurs, modules subscribe to events by listening to the event on a given object. For example, in a file system, an event could be that a file has been edited:
