@@ -27,9 +27,9 @@ links:
 ---
 ## Content
 
-In **React** a `component` represents a fundamental *class* you can work with to build re-usable and independent `UI` blocks. 
+In **React** a `component` represents a fundamental *class* you can work with to build re-usable and independent `UI` blocks.
 
-These `component`s behave like simple functions that can take as input arguments called `props` and will return what should be *rendered*.
+These `component`s behave like simple functions, they can take input arguments called `props` and will return what should be *rendered*.
 
 The *rendered* output needs to be specified inside a function called `render()`.
 

@@ -25,9 +25,9 @@ links:
 ## Content
 
 
-While standard *HTML behaviour* of `<input />`, `<textarea />` or `<select />` elements work in **React**, having `JS` functions handling updates and submission is highly advised. 
+While standard *HTML behaviour* of `<input />`, `<textarea />` or `<select />` elements work in **React**, having `JS` functions handling updates and submission is highly advised.
 
-**HTML form** elements keep an **internal state** in sync with user's *input*. Coupling this with components' `state` can result in a **controlled component**.
+**HTML form** elements keep an **internal state** in sync with the user's *input*. Coupling this with components' `state` can result in a **controlled component**.
 
 A controlled component means having the component's `state` as **single source of truth**.
 
@@ -47,9 +47,9 @@ render() {
 }
 ```
 
-The displayed `value` of the element will always be `this.state.in`. The `onChange` attribute is function - `handle()` that will be called on every user input.
+The displayed `value` of the element will always be `this.state.in`. The `onChange` attribute is a function - `handle()` that will be called on every user input.
 
-To keep the displayed value in sync with user input you can make use of the `setState()` method:
+To keep the displayed value in sync with the user input the `setState()` method is used:
 
 ```jsx
 handle(e) {

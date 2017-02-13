@@ -22,13 +22,13 @@ links:
 ---
 ## Content
 
-**JSX** is syntactic sugar that brings an `XML`-like syntax to **JavaScript**. 
+**JSX** is syntactic sugar that brings an `XML`-like syntax to **JavaScript**.
 
 
-What this means is that **JSX** is a way of writing your **HTML** inside `JS` code.
+This means that **JSX** is a way of writing your **HTML** inside `JS` code.
 
 
-Technically, a **JSX** expression will be evaluated to `ReactElement`s, being a short-hand notation for `React.createElement()`. Think of `ReactElement`s as the **UI** building blocks of **React**. We will get back to that later.
+A **JSX** expression is evaluated to a **React** `element`, which is short-hand for calling `React.createElement()` Think of `ReactElement`s as the **UI** building blocks of **React**. We will come back to this later.
 
 **JSX** expressions are transformed (compiled) into standard `JS` objects.
 
@@ -42,7 +42,7 @@ const el = React.createElement('h2',
  null, 'Enki!');
 ```
 
-As a consequence, you can embed `JS` expressions within **JSX** by wrapping them with `{ }` curly brackets:
+From here, you can embed `JS` expressions within **JSX** by wrapping them with `{ }` curly brackets:
 ```
 const x = "Hey there!";
 
@@ -85,7 +85,7 @@ const el = React.createElement(???,
 ---
 ## Revision
 
-**JSX** expressions, after compilation, are transformed into
+**JSX** expressions after compilation are transformed into
 ??? .
 
 * `JavaScript` objects

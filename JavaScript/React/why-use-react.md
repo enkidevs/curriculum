@@ -23,7 +23,7 @@ links:
 ## Content
 
 **React** is considered a great choice for building the **UI** of web applications - be it simple *SPAs*[1] or
-large projects with numerous authors due to the **self-containing** nature of its *components*. 
+large projects with numerous authors due to the **self-containing** nature of its *components*.
 
 In addition to the previously stated reasons developers are eager to adopt this library, **React** comes with many more interesting features such as:
 
@@ -31,11 +31,11 @@ In addition to the previously stated reasons developers are eager to adopt this 
 - **React**'s syntax is simple. Unlike other popular `JS` frameworks with specific syntax, **React** makes use of pure `JS`
 - easier debugging with **out-of-the-box tools** such as `React Chrome Extension`
 - **React** is good for *Search Engine Optimisation* when employing server-side rendering
-- once you learn **React** you can easily switch to **React Native** to build applications
+- knowing **React** allows you to easily switch to **React Native** to build applications
 
 **React Native** is a different `JS` open source library released by *Facebook*  that follows the same design patterns as **React**.
 
- It's used to create applications for specific operating systems such as `Android`, `iOS` or `UWP`[2], but it lets you share a big percent of code between them.
+ It's used to create applications for specific operating systems such as `Android`, `iOS` or `UWP`[2], but it lets you share a large percentage of code between them.
 
 ---
 ## Revision
