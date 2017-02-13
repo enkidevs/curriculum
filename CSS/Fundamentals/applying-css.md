@@ -16,7 +16,7 @@ category: must-know
 
 We talked about CSS and what it can do, but we didn't mention how to actually make the browser use it alongside the HTML file.
 
-There are 3 ways of doing so. The following order goes from the least specific to the most specific.
+There are 3 ways of doing so. In terms of specificity, the external CSS file is the weakest.
 
 ### External CSS file
 
@@ -28,42 +28,11 @@ Within the `<head>` element of the HTML document, add a new `<link>` element poi
   <link rel="stylesheet" href="main.css">
 </head>
 ```
-Just as `<a>` elements, for the link to work properly, `href` must be the path to the `.css` file. The above snippet refers to a style sheet located in the same directory as the HTML document. To link a CSS file inside a subdirectory:
+The `href` attribute contains the path to the `.css` file, much like it would work for the `a` element. The above snippet refers to a style sheet located in the same directory as the HTML document. To link a CSS file inside a subdirectory:
 ```html
 <link rel="stylesheet"
-   href="subdir/main.css" >
+   href="subdir/main.css"/>
 ```
-
-### Internal CSS
-
-Another method that makes use of the `<head>` tag inside the HTML document is nesting the CSS code inside `<style>` tags:
-```html
-<head>
-  <style>
-    p{
-      color: red;
-    }
-    #my-div{
-      background: purple;
-    }
-   </style>
-<head>
-<body>
- <p></p>
- <div id="my-div"></div>
-</body>
-```
-
-### Inline CSS
-
-The third way of doing it is writing CSS code straight inside HTML tags, using the `style` attribute:
-```html
-<div style="background: green;
-      font-size:30px;"></div>
-```
-This is bad practice as it cannot be overridden by an external CSS file and may cause unexpected problems.
-
-*Note:* Even though there are multiple ways in which you can style an HTML page, the recommended one is using external files, as it splits the resources into *structure* and *styling*.
 
 ---
 ## Practice
@@ -71,8 +40,8 @@ This is bad practice as it cannot be overridden by an external CSS file and may 
 Complete the HTML snippet to import an external CSS file:
 ```
 <head>
-  <??? ???="stylesheet" 
-           ???="index.css">
+  <??? ???="stylesheet"
+           ???="index.css" />
 </head>
 ```
 
