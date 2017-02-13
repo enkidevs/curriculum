@@ -13,9 +13,9 @@ levels:
 
 type: normal
 
-category: must-know
+inAlgoPool: false
 
-parent: synchronous-event-delivery
+category: must-know
 
 links:
 - '[Passing arguments](https://nodejs.org/api/events.html#events_passing_arguments_and_this_to_listeners)'

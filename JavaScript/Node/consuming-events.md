@@ -13,9 +13,9 @@ levels:
 
 type: normal
 
-category: must-know
+inAlgoPool: false
 
-parent: module-patterns
+category: must-know
 
 links:
 - '[Node Events](https://nodesource.com/blog/understanding-the-nodejs-event-loop/)'

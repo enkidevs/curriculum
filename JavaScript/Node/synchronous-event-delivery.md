@@ -13,9 +13,9 @@ levels:
 
 type: normal
 
-category: must-know
+inAlgoPool: false
 
-parent: listening-to-events-just-once
+category: must-know
 
 links:
 

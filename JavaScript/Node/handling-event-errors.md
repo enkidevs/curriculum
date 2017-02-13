@@ -13,9 +13,9 @@ levels:
 
 type: normal
 
-category: must-know
+inAlgoPool: false
 
-parent: passing-arguments-to-listeners
+category: must-know
 
 links:
 - '[Node Errors](https://nodejs.org/api/errors.html)'
