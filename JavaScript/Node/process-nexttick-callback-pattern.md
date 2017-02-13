@@ -36,7 +36,7 @@ Here, the execution of `compute()` will be reserved for the next tick of the eve
 ```javascript
 function asyncFn(data, callback) {
     process.nextTick(function() {
-        //callback value logic 
+        //callback value logic
   });
 }
 ```
@@ -46,7 +46,7 @@ It is also used before emitting an event to provide correct functionality.
 ---
 ## Practice
 
-Complete the code snippet below which allows the execution of a CPU intensive task to be interleaved with other events: 
+Complete the code snippet below which allows the execution of a CPU intensive task to be interleaved with other events:
 
 ```javascript
 function compute() {

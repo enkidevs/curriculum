@@ -40,7 +40,7 @@ This object is not necessarily global, but is local to each module.
 Get command line arguments:
 ```javascript
 console.log(process.argv);
-``` 
+```
 Here `process` is a global object, `process.argv` will generate an array containing the command line arguments starting from index `2` (third element in the array) as the first two represent the path to **Node** application and the path to the current file.
 
 Get the user environment:
@@ -56,7 +56,7 @@ console.log(process.platform);
 ---
 ## Practice
 
-Get the path of the code being executed: 
+Get the path of the code being executed:
 
 ```javascript
 console.log(???);

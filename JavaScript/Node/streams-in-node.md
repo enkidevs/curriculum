@@ -21,7 +21,7 @@ links:
 ---
 ## Content
 
-**Streams** can be used in **Node** in order to make **I/O** operations more efficient, by processing data sequentially. 
+**Streams** can be used in **Node** in order to make **I/O** operations more efficient, by processing data sequentially.
 
 **Streams** are `EventEmitters` with special methods , unix pipes that let you read from a source and `pipe` to another.
 

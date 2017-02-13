@@ -32,7 +32,7 @@ var child = require('child_process');
 
 The `exec(command,callback)` can be used to to run **UNIX** commands:
 ```javascript
-child.exec('ls',function 
+child.exec('ls',function
 (err,stdout,stderr){
     if (err) { err.code);}
     console.log(stdout);
@@ -42,13 +42,13 @@ This method does not provide any mean of communicating with the parent and gives
 ```javascript
 var spawn = require('child_process').spawn;
 // Create a child process
-var child = spawn('tail', 
+var child = spawn('tail',
     ['-f', '/var/log/system.log']);
 // "tail" command is run in the argument
-``` 
+```
 Listeners to `stdout` and `stderr` streams can be added:
 ```javascript
-child.stdout.on('data', 
+child.stdout.on('data',
     function (data) {
         console.log(data);});
 ```
@@ -59,7 +59,7 @@ child.stdout.on('data',
 Complete the JS code snippet to create a child process:
 
 ```javascript
-var spawn = 
+var spawn =
   require('???').???;
 ```
 
