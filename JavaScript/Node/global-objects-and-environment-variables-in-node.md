@@ -11,8 +11,6 @@ type: normal
 
 category: must-know
 
-parent: writable-streams
-
 links:
 
   - '[nodejs.org](https://nodejs.org/docs/latest/api/globals.html){website}'

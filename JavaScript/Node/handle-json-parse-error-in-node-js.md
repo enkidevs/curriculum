@@ -11,8 +11,6 @@ type: normal
 
 category: caveats
 
-parent: writable-streams
-
 links:
 
   - >-

@@ -13,8 +13,6 @@ category: best practice
 
 notes: I'm trying to make a Node workout based on security tips. This is one of them.
 
-parent: writable-streams
-
 links:
 
   - >-

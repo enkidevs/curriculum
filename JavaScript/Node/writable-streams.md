@@ -13,9 +13,9 @@ levels:
 
 type: normal
 
-category: must-know
+inAlgoPool: false
 
-parent: chaining-readable-streams
+category: must-know
 
 links:
 - '[Writable Streams](https://gist.github.com/joyrexus/10026630)'

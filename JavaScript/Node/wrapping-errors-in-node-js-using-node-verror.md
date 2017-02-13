@@ -13,8 +13,6 @@ type: normal
 
 category: feature
 
-parent: writable-streams
-
 links:
 
   - '[github.com](https://github.com/davepacheco/node-verror){website}'

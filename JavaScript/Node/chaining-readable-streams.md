@@ -13,9 +13,9 @@ levels:
 
 type: normal
 
-category: must-know
+inAlgoPool: false
 
-parent: piping-readable-streams
+category: must-know
 
 links:
 

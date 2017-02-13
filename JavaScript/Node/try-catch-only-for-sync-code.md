@@ -13,8 +13,6 @@ type: normal
 
 category: best practice
 
-parent: writable-streams
-
 links:
 
   - '[nodejs.org](https://nodejs.org/api/errors.html){website}'

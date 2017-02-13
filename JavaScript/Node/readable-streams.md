@@ -13,9 +13,9 @@ levels:
 
 type: normal
 
-category: must-know
+inAlgoPool: false
 
-parent: what-are-streams
+category: must-know
 
 links:
 - '[Readable Streams](https://nodejs.org/api/stream.html)'

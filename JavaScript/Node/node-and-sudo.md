@@ -11,8 +11,6 @@ type: normal
 
 category: caveats
 
-parent: writable-streams
-
 notes: >-
   This insights is also based on security - should be on a security workout I
   guess.

@@ -13,8 +13,6 @@ type: normal
 
 category: must-know
 
-parent: writable-streams
-
 links:
 
   - >-

@@ -11,8 +11,6 @@ type: normal
 
 category: how to
 
-parent: writable-streams
-
 links:
 
   - '[nodejs.org](https://nodejs.org/api/os.html){website}'

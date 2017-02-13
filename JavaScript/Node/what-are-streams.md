@@ -13,9 +13,9 @@ levels:
 
 type: normal
 
-category: must-know
+inAlgoPool: false
 
-parent: handling-event-errors
+category: must-know
 
 links:
 - '[Node Streams](https://maxogden.com/node-streams.html)'

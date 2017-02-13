@@ -11,8 +11,6 @@ category: how to
 
 notes: This can used as the first insight on Express subtopic
 
-parent: writable-streams
-
 links:
 
   - '[expressjs.com](http://expressjs.com/en/starter/installing.html){website}'

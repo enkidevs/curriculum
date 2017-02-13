@@ -13,8 +13,6 @@ notes: >-
   can be the parent with the already live insight custom repl server
   @568a9c152ac3f405000e4c58
 
-parent: writable-streams
-
 links:
 
   - '[nodejs.org](https://nodejs.org/api/repl.html){website}'

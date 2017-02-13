@@ -11,8 +11,6 @@ type: normal
 
 category: hack
 
-parent: writable-streams
-
 links:
 
   - '[github.com](https://github.com/remy/nodemon){website}'

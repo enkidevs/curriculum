@@ -13,9 +13,9 @@ levels:
 
 type: normal
 
-category: must-know
+inAlgoPool: false
 
-parent: readable-streams
+category: must-know
 
 links:
 - '[Piping streams](https://www.sandersdenardi.com/readable-writable-transform-streams-node/)'

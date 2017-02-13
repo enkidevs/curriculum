@@ -13,8 +13,6 @@ type: normal
 
 category: how to
 
-parent: repl-in-node-js
-
 links:
 
   - '[nodejs.org](https://nodejs.org/api/repl.html){website}'
@@ -39,7 +37,7 @@ var net = require("net"),
     repl = require("repl");
 
 net.createServer(function (socket) {
-  var replServer = repl.start("remote> ", 
+  var replServer = repl.start("remote> ",
 socket);  
 }).listen(5001);
 ```
@@ -50,7 +48,7 @@ replServer.on('exit', function () {
   process.exit();
 });
 ```
-Custom commands can also be defined: 
+Custom commands can also be defined:
 ```javascript
 replServer.defineCommand(keyword, cmd)
 ```

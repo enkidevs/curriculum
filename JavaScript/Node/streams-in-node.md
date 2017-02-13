@@ -11,8 +11,6 @@ type: normal
 
 category: how to
 
-parent: writable-streams
-
 links:
 
   - '[github.com](https://github.com/substack/stream-handbook){website}'
