@@ -24,11 +24,11 @@ links:
 ---
 ## Content
 
-The `ref` is a special *attribute* in **React** that is attachable to any `component` or **DOM** `element`. 
+The `ref` is a special *attribute* in **React** that is attachable to any `component` or **DOM** `element`.
 
 **Refs** should be *callback functions* that will be automatically called when the targeted component is mounted or unmounted.
 
-**Refs** are usually used to access components from outside the normal data flow in **React**. Normally, children components can only be modified through their `props`.
+They are usually used to access components from outside the normal data flow in **React**. Normally, children components can only be modified through their `props`.
 
 However, using a `ref` you can access components and invoke elements' methods directly.
 
@@ -58,9 +58,9 @@ someMethod() {
 }
 ```
 
-Note that `ref` attribute **can't** be used on functional components because they don't have instances. However, it can be used inside component's `render()` method.
+Note that `ref` attribute **can't** be used on functional components because they don't have instances. However, it can be used inside a component's `render()` method.
 
-Using `ref`s imply an *imperative* approach to a problem, while **React** was designed to be *declarative*. Therefore, to enforce **React**'s data flow it's recommended not to overuse `ref`s.
+Using `ref`s implies an *imperative* approach to a problem, while **React** was designed to be *declarative*. Therefore, to enforce **React**'s data flow it's recommended not to overuse `ref`s.
 
 However, there might be scenarios when they are necessary.
 

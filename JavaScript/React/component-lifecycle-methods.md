@@ -24,13 +24,13 @@ links:
 ---
 ## Content
 
-As discussed before, **lifecycle methods** can be used to target a specific point in the *life* of a `component`. 
+As discussed before, **lifecycle methods** can be used to target a specific point in the *life* of a `component`.
 
 We can split them into three broader categories by the *type of event* that will trigger them:
 
 ### 1. Mounting
 
-- `constructor(props)` - first method called in the lifecycle, **before mounting**. Is most commonly used to set the initial `state` and to `bind` methods. If used, it must include `super(props)` as first call:
+- `constructor(props)` - the first method called in the lifecycle, **before mounting**. It's most commonly used to set the initial `state` and to `bind` methods. If used, it must include `super(props)` as first call:
 
 ```jsx
 constructor(props) {
@@ -42,24 +42,24 @@ constructor(props) {
 
 ```
 
-- `componentWillMount()` - invoked **just before** `render`. Modifying the `state` here won't trigger a **re-render**.
+- `componentWillMount()` - is invoked **just before** `render`. Modifying the `state` here won't trigger a **re-render**.
 
-- `componentDidMount()` - invoked **after** `render`. Useful for initialisations that require `DOM` nodes.
+- `componentDidMount()` - is invoked **after** `render`. Useful for initialisations that require `DOM` nodes.
 
 
 ### 2. Updating
 
-- `componentWillReceiveProps(nextProps)` - only called after `render`ing, **before** receiving new `props`. Because **React** may call this method although `props` stay the same its recommended to manually implement a check to see if there's a difference.
+- `componentWillReceiveProps(nextProps)` - is only called after `render`ing, but **before** receiving new `props`. Because **React** may call this method although `props` stay the same its recommended to manually implement a check to see if there's a difference.
 
-- `shouldComponentUpdate(nxtProps, nxtState)` - method called **before** receiving new `props` or `state`. By default it returns `true` meaning `render` is triggered by any change. Modifying this method allows you to only re-`render` in intended scenarios.
+- `shouldComponentUpdate(nxtProps, nxtState)` - the method is called **before** receiving new `props` or `state`. By default it returns `true` meaning `render` is triggered by any change. Modifying this method allows you to only re-`render` in intended scenarios.
 
-- `componentWillUpdate(nextProps, nextState)` - invoked if `shouldComponentUpdate` returns `true`, **before** `render`. Note you can't use `this.setState()` here.
+- `componentWillUpdate(nextProps, nextState)` - is invoked if `shouldComponentUpdate` returns `true`, **before** `render`. Note you can't use `this.setState()` here.
 
-- `componentDidUpdate(prevProps, prevState)` - invoked **after** `render`, but not after the initial one. This method is useful for manipulating the `DOM` when updated
+- `componentDidUpdate(prevProps, prevState)` - is invoked **after** `render`, but not after the initial one. This method is useful for manipulating the `DOM` when updated
 
 ### 3. Unmounting
 
-- `componentWillUnmount()` - invoked immediately **before** a `component` is unmounted and destroyed. Useful for resource cleanup.
+- `componentWillUnmount()` - is invoked immediately **before** a `component` is unmounted and destroyed. Useful for resource cleanup.
 ---
 ## Practice
 
