@@ -28,8 +28,8 @@ All events are treated equally as all event types are defined by an arbitrary st
 If the event is called *error* however, the error is thrown into the event loop, then generating an uncaught exception. To stop this from breaking the application, uncaught exceptions can be caught by listening to the `uncaughtException` which the global event emitter object emits. Take `test` as a sample event emitter:
 
 ```
-test.on(‘uncaughtException’, function(err) {
-
+test.on(‘uncaughtException’, function(err)
+{
   console.error(‘uncaught exception: ‘,
                     err.stack || err);
 
