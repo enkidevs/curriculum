@@ -17,6 +17,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: handling-event-errors
+
 links:
 - '[Node Streams](https://maxogden.com/node-streams.html)'
 

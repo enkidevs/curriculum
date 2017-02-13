@@ -17,6 +17,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: requiring-and-exporting
+
 links:
 - '[The HTTP Module](https://davidwalsh.name/nodejs-http-request)'
 

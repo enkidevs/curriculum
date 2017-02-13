@@ -11,6 +11,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: executing-programs-with-node
+
 links:
 
 - '[npmjs.com](https://www.npmjs.com/)'

@@ -17,6 +17,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: piping-readable-streams
+
 links:
 
   - '[Chaining](http://www.naeemrana.com/node-js/node-js-streams-pipe-and-chaining/)'

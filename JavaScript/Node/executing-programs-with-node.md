@@ -11,6 +11,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: the-repl-terminal
+
 links:
 - '[nodeguide.com](http://nodeguide.com/beginner.html#the-interactive-node.js-shell)'
 

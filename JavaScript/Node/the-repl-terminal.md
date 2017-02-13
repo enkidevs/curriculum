@@ -11,6 +11,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: installing-node-js
+
 links:
 - '[tutorialsteacher.com](http://www.tutorialsteacher.com/nodejs/nodejs-console-repl)'
 

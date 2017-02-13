@@ -17,6 +17,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: passing-arguments-to-listeners
+
 links:
 - '[Node Errors](https://nodejs.org/api/errors.html)'
 

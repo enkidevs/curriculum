@@ -17,6 +17,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: module-patterns
+
 links:
 
   - '[Node Events](https://nodesource.com/blog/understanding-the-nodejs-event-loop/)'
