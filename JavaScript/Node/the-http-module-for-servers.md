@@ -15,7 +15,7 @@ type: normal
 
 inAlgoPool: false
 
-category: best practice
+category: must-know
 
 links:
 - '[The HTTP Module](https://davidwalsh.name/nodejs-http-request)'
