@@ -13,9 +13,9 @@ levels:
 
 type: normal
 
-category: must-know
+inAlgoPool: false
 
-parent: npm-nodes-package-manager
+category: must-know
 
 links:
 - '[Node Modules](http://book.mixu.net/node/ch8.html)'

@@ -13,9 +13,9 @@ levels:
 
 type: normal
 
-category: must know
+inAlgoPool: false
 
-parent: the-http-module-for-servers
+category: must know
 
 links:
 - '[Local Modules](http://www.tutorialsteacher.com/nodejs/nodejs-local-modules)'

@@ -13,9 +13,9 @@ levels:
 
 type: normal
 
-category: best practice
+inAlgoPool: false
 
-parent: requiring-and-exporting
+category: best practice
 
 links:
 - '[The HTTP Module](https://davidwalsh.name/nodejs-http-request)'

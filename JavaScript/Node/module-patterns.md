@@ -13,9 +13,9 @@ levels:
 
 type: normal
 
-category: must-know
+inAlgoPool: false
 
-parent: local-modules
+category: must-know
 
 links:
 
