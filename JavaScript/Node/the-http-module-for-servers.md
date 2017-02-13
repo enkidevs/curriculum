@@ -15,7 +15,7 @@ type: normal
 
 inAlgoPool: false
 
-category: best practice
+category: must-know
 
 parent: requiring-and-exporting
 
