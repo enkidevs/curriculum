@@ -17,6 +17,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: readable-streams
+
 links:
 - '[Piping streams](https://www.sandersdenardi.com/readable-writable-transform-streams-node/)'
 

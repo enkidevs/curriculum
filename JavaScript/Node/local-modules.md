@@ -17,6 +17,8 @@ inAlgoPool: false
 
 category: must know
 
+parent: the-http-module-for-servers
+
 links:
 - '[Local Modules](http://www.tutorialsteacher.com/nodejs/nodejs-local-modules)'
 

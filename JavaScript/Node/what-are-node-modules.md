@@ -17,8 +17,11 @@ inAlgoPool: false
 
 category: must-know
 
+parent: npm-nodes-package-manager
+
 links:
 - '[Node Modules](http://book.mixu.net/node/ch8.html)'
+
 ---
 ## Content
 

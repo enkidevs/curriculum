@@ -17,6 +17,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: synchronous-event-delivery
+
 links:
 - '[Passing arguments](https://nodejs.org/api/events.html#events_passing_arguments_and_this_to_listeners)'
 

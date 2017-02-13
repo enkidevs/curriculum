@@ -17,6 +17,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: listening-to-events-just-once
+
 links:
 
   - '[Synchronous Event Delivery](https://blog.yld.io/2015/12/15/using-an-event-emitter/#.WI4ybbaLQy4)'

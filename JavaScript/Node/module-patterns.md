@@ -17,6 +17,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: local-modules
+
 links:
 
   - '[Node Module Patterns](https://darrenderidder.github.io/talks/ModulePatterns/#/5)'

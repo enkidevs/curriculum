@@ -17,6 +17,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: what-are-streams
+
 links:
 - '[Readable Streams](https://nodejs.org/api/stream.html)'
 

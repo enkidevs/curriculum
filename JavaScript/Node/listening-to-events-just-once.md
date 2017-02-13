@@ -17,6 +17,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: consuming-events
+
 links:
 - '[Listening to events once](https://blog.yld.io/2015/12/15/using-an-event-emitter/#.WI4gL7aLQy4)'
 

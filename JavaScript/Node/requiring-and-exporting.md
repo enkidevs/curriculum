@@ -17,6 +17,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: what-are-node-modules
+
 links:
 - '[Node Modules](https://www.bennadel.com/blog/2169-where-does-node-js-and-require-look-for-modules.htm)'
 
