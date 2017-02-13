@@ -17,7 +17,7 @@ inAlgoPool: false
 
 category: must-know
 
-parent: writable-streams
+parent: chaining-readable-streams
 
 links:
 - '[Writable Streams](https://gist.github.com/joyrexus/10026630)'
