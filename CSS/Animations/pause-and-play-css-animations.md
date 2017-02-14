@@ -21,7 +21,7 @@ links:
 ---
 ## Content
 
-You can _pause_ and _play_ CSS animation by changing its `animation-play-state` property. 
+You can _pause_ and _play_ CSS animation by changing its `animation-play-state` property.
 
 Setting it to _paused_ stops your animation in place, until you change `animation-play-state` to running, for example on hover.
 ```css
@@ -37,16 +37,16 @@ Setting it to _paused_ stops your animation in place, until you change `animatio
 ---
 ## Practice
 
-How do you start back an animation?
+How do you restart an animation?
 ```
 .animation:hover{
-  ???: 
+  ???:
         ???;
 ```
-*`animation-play-state` 
-*`running` 
-*`play` 
-*`start` 
+*`animation-play-state`
+*`running`
+*`play`
+*`start`
 *`animation-state`
 
 ---
