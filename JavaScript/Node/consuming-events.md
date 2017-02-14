@@ -65,7 +65,6 @@ system.file.removeListener(‘edit’, onEdit);
 ## Practice
 
 Complete the code snippet to add a callback to the object in case of an 'edit' event:
-???
 
 ```
 system.file.???(‘???’, function
