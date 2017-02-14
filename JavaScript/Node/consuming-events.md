@@ -66,8 +66,8 @@ system.file.removeListener(‘edit’, onEdit);
 
 Complete the code snippet to add a callback to the object in case of an 'edit' event:
 
-```
-system.file.???(‘???’, function
+```javascript
+system.file.???('???', function
                       (fileID, initials) {
 ```
 * `on`
