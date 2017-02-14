@@ -1,7 +1,7 @@
-language: 
+language:
 
 deviconsClass: devicons-docker
 
-color: 1a9cc5
+color: 57ACC1
 
 description: undefined
