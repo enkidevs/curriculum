@@ -18,7 +18,7 @@ Even the simplest of web pages must contain at least one block of text. Usually,
 ```html
 <head>
   ...
-<head>
+</head>
 <body>
   <h1>Page title </h1>
   <h3>Subtitle </h3>
