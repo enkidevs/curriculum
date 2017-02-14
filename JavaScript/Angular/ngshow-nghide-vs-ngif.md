@@ -4,7 +4,6 @@ author: achatt89
 levels:
 
   - beginner
-
   - basic
 
 type: normal
