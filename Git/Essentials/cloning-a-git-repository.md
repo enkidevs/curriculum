@@ -19,7 +19,7 @@ links:
 ---
 ## Content
 
-The second way though which you can get your hand on a **Git** repository is by *cloning* it.
+The second way though which you can get your hand on a **Git** repository is by *cloning* it. test
 
 The term **cloning** entails how the whole **Git** flow works. Instead of providing a working copy, the `git clone` command makes a full copy of the *repository*, including all project history.
 
@@ -69,6 +69,6 @@ Does running `git clone` with a repository's url require having an existing work
 
 ???
 
-*No
-*Yes
-*Only if you don't provide a new new directory name
+* No
+* Yes
+* Only if you don't provide a new new directory name
