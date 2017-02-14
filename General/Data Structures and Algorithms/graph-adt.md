@@ -3,7 +3,7 @@ author: mihaiberq
 
 levels:
 
-  - basic
+  - beginner
 
 type: normal
 
@@ -27,7 +27,7 @@ Any *representation* of a graph data type should provide these methods:
 - `addVertex(v)` : *Adds* vertex v to the graph.
 - `addEdge(v,u,x)` : *Adds* an edge with value x between v and u.
 - `removeVertex(v)` : *Removes* vertex v and all incident edges from the graph.
-- `removeEdge(e)` : *Removes* edge e from the graph. 
+- `removeEdge(e)` : *Removes* edge e from the graph.
 
 
 

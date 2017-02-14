@@ -5,7 +5,6 @@ levels:
 
   - beginner
 
-  - basic
 
 type: normal
 
