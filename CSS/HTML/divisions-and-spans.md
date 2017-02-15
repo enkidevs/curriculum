@@ -14,7 +14,7 @@ category: must-know
 ---
 ## Content
 
-Divisions, or `<div>`s and `<span>`s are elements used for styling. They do not have any semantic value as they are generic containers. 
+Divisions, or `<div>`s and `<span>`s are elements used for styling. They do not have any semantic value as they are generic containers.
 
 When working with CSS, they will be probably the most targeted HTML elements. `<div>` is used to style elements that already have a meaning (think `<p>`, `<img>` or `<h2>`), whereas `<span>` is used to style parts of those elements (such as some important words in a paragraph).
 
@@ -33,4 +33,13 @@ Visually, the code above will be rendered in the same way as:
 <p>An important paragraph inside the div.
                             </p>
 ```
-This is when CSS comes into play, by giving `<div>`s and `<span>`s ids and classes, their contents appearance can be altered.
+This is the moment when you can include CSS: by giving `<div>`s and `<span>`s ids and classes, their content appearance can be altered.
+
+---
+## Revision
+
+span`s are seen as ??? elements.
+
+* stylistic
+* structural
+* not

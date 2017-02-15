@@ -56,7 +56,7 @@ var myString = 'this will ???
        be a multi line string';
 ```
 
-*`\`
+*`\n`
 *`+`
 *`"`
 *`\\`

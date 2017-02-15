@@ -29,7 +29,7 @@ Import and use express in your Node.js app:
 var express = require('express');
 var app = express();
 ```
-An express application makes use of **callback** functions with `request` and `response` as parameters. 
+An express application makes use of **callback** functions with `request` and `response` as parameters.
 
 Using the `get` method, routing can be easily achieved:
 
@@ -46,7 +46,7 @@ app.get('/', function(request,response){
 
 Complete the following snippet using routing with express:
 ```
-app.???('/', 
+app.???('/',
    function(???,response){
   // code
 });

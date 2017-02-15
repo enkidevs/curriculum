@@ -23,7 +23,7 @@ Basic operating system related utility functions are available through **Node**'
 Firstly, the module must be imported:
 ```javascript
 var os = require("os")
-``` 
+```
 
 Get operating system name:
 ```javascript
@@ -58,11 +58,11 @@ Get the total system memory in bytes:
 
 ```
 var os = require(“os”);
-console.log(os.???()); 
+console.log(os.???());
 ```
-*`totalmem` 
-*`memory` 
-*`bytesmemory` 
+*`totalmem`
+*`memory`
+*`bytesmemory`
 *`memorytotal`
 
 ---

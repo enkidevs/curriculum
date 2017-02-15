@@ -21,7 +21,7 @@ links:
 ---
 ## Content
 
-The File System (FS) module provides file I/O. You can use `fs.writeFile` to **asynchronously write data to a file**. The data can be a string or a buffer. 
+The File System (FS) module provides file I/O. You can use `fs.writeFile` to **asynchronously write data to a file**. The data can be a string or a buffer.
 
 The syntax is:
 ```
@@ -33,8 +33,8 @@ The `options` parameter can be a string representing the `encoding` (eg: `utf8`)
 
 For example:
 ```
-fs.writeFile('msg.txt', 
-'Hello enki', 
+fs.writeFile('msg.txt',
+'Hello enki',
 function (err) {
   if (err) throw err;
   console.log('it\'s ok');

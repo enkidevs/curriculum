@@ -27,7 +27,7 @@ var component = <Component name="enki"
   content= "cool content" />;
 
 ```
-`name` and `value` can be bundled inside an object. 
+`name` and `value` can be bundled inside an object.
 ```jsx
 var props = {
   name: "enki",
@@ -45,7 +45,7 @@ Note the usage of the spread operator when passing the props: `{...props}`.
 
 Props can also be overwritten:
 ```jsx
-var enki = <Component {...props} 
+var enki = <Component {...props}
   content="other value" />
 ```
 

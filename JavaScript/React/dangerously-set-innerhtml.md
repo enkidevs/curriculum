@@ -13,6 +13,8 @@ type: normal
 
 category: must-know
 
+parent: custom-proptype-s-to-be-required
+
 links:
 
   - >-
@@ -21,18 +23,18 @@ links:
 ---
 ## Content
 
-React gives you the ability to insert *raw* HTML. 
+React gives you the ability to insert *raw* HTML.
 
 Take into  consideration that this practice is definitely to be avoided because it makes your code vulnerable to *cross-site scripting* (XSS).
 
  React named the prop which is used to pass this data as `dangerouslySetInnerHTML`. A key is used to specify the text with `__html`:
 ```
-dangerouslySetInnerHTML: 
+dangerouslySetInnerHTML:
 { __html: '<p>My HTML text </p>' }
 ```
 The recommended way of using `dangerouslySetInnerHTML` when needed is by creating an object containing only the key `__html` and your *sanitized* data as the value.
 ```
-function createMarkup() 
+function createMarkup()
 { return {__html: '<p>My HTML text </p>'};};
 ```
 

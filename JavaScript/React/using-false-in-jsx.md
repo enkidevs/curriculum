@@ -11,7 +11,7 @@ type: normal
 
 category: best practice
 
-parent: session-handling-in-express
+parent: custom-proptype-s-to-be-required
 
 links:
 

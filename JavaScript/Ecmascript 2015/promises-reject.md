@@ -26,7 +26,7 @@ Let's try this with our previous example:
 var p = 
 new Promise(
  function(resolve, reject){ 
- setTimeout(() => reject("enki"), 
+ setTimeout(function(){reject("enki")}, 
  2000);
 })
 .then(function(result){
@@ -42,7 +42,7 @@ But don't worry as we can use the **catch** handler to define logic to be called
 ```
 var p = new Promise(
    function(resolve, reject) {  
-   setTimeout(() => reject("enki"), 
+   setTimeout(function(){reject("enki")}, 
    2000);
 })
 .then(function(result){
