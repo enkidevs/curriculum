@@ -38,8 +38,8 @@ Note: The notion of **tree** here is not related to the one of the *Tree Data Ty
 Can a graph be a tree if it has more than one connected component?
 
 ???
-*No
-*Yes
+* No
+* Yes
 
 ---
 ## Revision
@@ -47,7 +47,7 @@ Can a graph be a tree if it has more than one connected component?
 A subgraph of a graph is *spanning* if it contains
 
 ???.
-*all the nodes in the graph
-*all the edges in the graph
-*all the connected components of the graph
-*only the directed edges
+* all the nodes in the graph
+* all the edges in the graph
+* all the connected components of the graph
+* only the directed edges

@@ -12,12 +12,11 @@ category: must-know
 ---
 ## Content
 
-The **tree** is the abstract data type that can store elements *hierarchically* (non-linearly). Every element other than the *root* has a **parent** element and zero or more **children** elements. The **root** can only have children.
+A **tree** is the abstract data type that can store elements *hierarchically* (non-linearly). Every element other than the *root* has a **parent** element and zero or more **children** elements. The **root** can only have children.
 
 For example, a data structure that implements the *Tree* ADT is LinkedList, whose nodes have at most one child.
 
-
-One of the most intuitive multilayered data structure is the *family tree*: a common ancestor, that has one or more children, that have zero, one or more children of their own, etc. up to the last off-springs.
+One of the most intuitive multilayered data structure representation is the *family tree*: a common ancestor, that has one or more children, that have zero, one or more children of their own etc. up to their last off-springs.
 
 The nodes in a family tree have a value and a list of references to their children. The group formed by these nodes is called a **linked tree**.
 
