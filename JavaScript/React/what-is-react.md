@@ -39,26 +39,26 @@ Being built with performance in mind, **React** has become the first choice for 
 ---
 ## Practice
 
-**React** manages to keep the *DOM* in sync with the data model by
+__React__ manages to keep the _DOM_ in sync with the data model by
 
 ??? .
 
-* rendering necessary changes with the help of the **Virtual DOM**
-* re-rendering the entire **DOM** on every change in data
-* using functions to update the **DOM**
-* using **JSX**
+* rendering necessary changes with the help of the __Virtual DOM__
+* re-rendering the entire __DOM__ on every change in data
+* using functions to update the __DOM__
+* using __JSX__
 
 ---
 ## Revision
 
-**React** is a JavaScript
+__React__ is a JavaScript
 
  ??? .
 
 * library
 * framework
 * application
-* implementation of **HTML**
+* implementation of __HTML__
 
 ---
 ## Footnotes
