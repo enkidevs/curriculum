@@ -17,7 +17,7 @@ links:
 ---
 ## Content
 
-**React** is a *JavaScript* library[1] (not a framework[2]) created and maintained by **Facebook**. It's used for creating user interfaces.
+**React** is a *JavaScript* library[1] (not a framework[2]) created and maintained by **Facebook**. It's used for creating user interfaces. 
 
 
 The big and frequent problem that **React** solves is keeping the `DOM`[3] in sync with the data model.
