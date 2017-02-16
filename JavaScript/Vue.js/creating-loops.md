@@ -27,7 +27,9 @@ HTML
 <div id="app">
   <h1>Things I like:</h1>
   <ul>
-    <li v-for="thing in things">{{ thing.name }}<li>
+    <li v-for="thing in things">
+      {{ thing.name }}
+    <li>
   </ul>
 </div>
 ```
