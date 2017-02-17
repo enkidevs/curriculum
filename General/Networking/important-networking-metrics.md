@@ -1,0 +1,65 @@
+# Important networking metrics
+author: SebaRaba
+
+levels:
+
+  - beginner
+
+  - basic
+
+type: normal
+
+category: must-know
+
+links:
+
+  - 'http://www-users.cselabs.umn.edu/classes/Spring-2016/csci5221/Papers/Fundamentals_of_Internet_Measurement_A_Tutorial.pdf'
+
+---
+## Content
+
+**Metrics** are used to verify desired behaviours of processes in a *quantitative* and *qualitative* manner.
+
+
+This is also the case in *computer networks* where metrics can help us identify underlying problems, enhance connections or even decide for the most suitable Internet plans.
+
+The effective performance of a network is defined by the combination of different metrics which may vary because each network is unique in its nature and design. [1]
+
+However, there are some standard and relevant measures applicable to any network:
+ - `bandwidth` - maximum rate that information can be transferred
+ - `throughput` - actual rate that information is transferred
+ - `latency` - the delay of decoding information
+ - `jitter` - variation in packet delay at the receiver
+ - `error rate` - number of corrupted bits
+
+Another important metric is `packet loss` - measuring what percentage of packets is lost while transferring, but **TCP** was designed to automatically resolve problems regarding this.
+
+In streaming media and online game applications - which use **UDP**, packet loss can affect the user experience.
+
+-**
+
+`FOOTNOTES`
+
+[1:measuring performance]
+It's not mandatory to measure performance. Instead it can also be modelled and simulated.
+
+One such example is using state transition diagrams to model queuing performance using **Network Simulator**.
+
+
+---
+## Practice
+
+Metrics are used to verify desired behaviours in a ??? and  ??? manner.
+
+* quantitative
+* qualitative
+* effective
+
+---
+## Revision
+
+??? define maximum rate that information can be transferred.
+
+* `bandwidth`
+* `jitter`
+* `error rate`
