@@ -1,4 +1,4 @@
-language: undefined
+language: rb
 
 deviconsClass: devicons-ruby
 
