@@ -31,7 +31,7 @@ There are many more reasons you should learn Java. The only downside is, as with
 ---
 ## Practice
 
-**Java** is a ??? typed language.
+Java is a ??? typed language.
 
 * static
 * dynamic
@@ -39,7 +39,7 @@ There are many more reasons you should learn Java. The only downside is, as with
 ---
 ## Revision
 
-Does **Java** require a lot of changes and configuration of its memory manager or garbage collector?
+Does Java require a lot of changes and configuration of its memory manager or garbage collector?
 
 ???
 
