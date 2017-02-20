@@ -58,14 +58,13 @@ $ find . -type f -name "*.mp3"
 ---
 ## Practice
 
-Search in the home directory for files that contain `happy` in their title:
+Search in the home directory for files that contain happy in their title:
 ```
-$ ??? ??? ??? 
+$ ??? ??? -type 
         ??? ??? ???
 ```
 *`find`
 *`~/`
-*`-type`
 *`f`
 *`-name`
 *`"*happy*"`
