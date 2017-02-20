@@ -14,7 +14,7 @@ category: must-know
 ---
 ## Content
 
-A little history for you. Java was first released in 1995. Since then, there have been other 9 major versions, Java 8 being the latest one.
+A little history for you. Java was first released in 1995. Since then, there have been 9 other major versions, Java 8 being the latest one.
 
 Even though there have been continuous improvements before *Java 5* as well, this version introduced a lot of new features and bug fixes that pushed Java to the top of the most used programming languages.
 

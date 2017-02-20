@@ -45,7 +45,7 @@ links:
 ---
 ## Content
 
-There is a clear distinction between a **method call** and a **method object**.
+In Python, functions are seen as *objects* - and there is a clear distinction between a **method call** and a **method object**.
 
 Considering the following class and its instantiation:
 ```python
@@ -55,15 +55,14 @@ class Enki:
 
 enki = Enki()
 
-
 ```
-
 **Calling** a method is straightforward:
 ```python
 enki.f() # this will return 'Python'
 print(enki.f()) # prints 'Python'
 ```
-It is not mandatory to call a method right away. It is possible to store a **method object** and use it later:
+
+However, you are allowed to store the method body in another variable, without having to call the method right away:
 ```python
 ef = enki.f # note the lack of parenthesis
 ef() # returns 'Python'
@@ -84,10 +83,10 @@ class Test:
 x = test.???
 ```
 
-*`test` 
-*`p` 
-*`p()` 
-*`Test` 
-*`new` 
-*`def` 
+*`test`
+*`p`
+*`p()`
+*`Test`
+*`new`
+*`def`
 *`get`
