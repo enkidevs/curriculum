@@ -57,10 +57,9 @@ Comp.??? = {
   ???: ???,
 };
 ```
-
+* `defaultProps`
 * `value`
 * `'xyz'`
-* `defaultProps`
 * `default`
 * `getDefaultProps`
 
@@ -79,8 +78,8 @@ Comp.??? = {
 };
 ```
 
+* `defaultProps`
 * `value`
 * `'xyz'`
-* `defaultProps`
 * `default`
 * `getDefaultProps`

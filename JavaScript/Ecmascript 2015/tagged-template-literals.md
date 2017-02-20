@@ -26,11 +26,11 @@ ES6 introduces a new feature called template literals that make it easier to wor
 var company = "Enki";
 console.log(
 `Hello ${company} hows it going?`
-); 
+);
 //Hello Enki hows it going?
 ```
 
-Tagged template literals allow you to process string and replacement values on a template literal. 
+Tagged template literals allow you to process string and replacement values on a template literal.
 
 They are created when a function call is specified before the literal itself e.g.
 
@@ -55,11 +55,11 @@ Which will result in the following output:
 
 ```
 //literals:
-//["Hello ", 
-" hows it going?", 
+["Hello ",
+" hows it going?",
 raw: Array[2]]
 //replacement:
-// enki
+enki
 ```
 
 ---

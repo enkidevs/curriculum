@@ -17,7 +17,7 @@ links:
 ---
 ## Content
 
-**React** is a *JavaScript* library[1] (not a framework[2]) created and maintained by **Facebook**. It's used for creating user interfaces. 
+**React** is a *JavaScript* library[1] (not a framework[2]) created and maintained by **Facebook**. It's used for creating user interfaces.
 
 
 The big and frequent problem that **React** solves is keeping the `DOM`[3] in sync with the data model.
@@ -39,9 +39,9 @@ Being built with performance in mind, **React** has become the first choice for 
 ---
 ## Practice
 
-React manages to keep the _DOM_ in sync with the data model by
+React manages to keep the DOM in sync with the data model by
 
-???.
+???
 
 * rendering necessary changes with the help of the Virtual DOM
 * re-rendering the entire DOM on every change in data
@@ -53,7 +53,7 @@ React manages to keep the _DOM_ in sync with the data model by
 
 React is a JavaScript
 
- ??? .
+ ???
 
 * library
 * framework

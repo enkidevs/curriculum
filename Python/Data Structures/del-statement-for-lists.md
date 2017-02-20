@@ -17,7 +17,7 @@ links:
 ---
 ## Content
 
-Python's `del` statement has multiple usages when used on `lists`. 
+Python's `del` statement has multiple usages when used on `lists`.
 It differs from the `pop()` method because when using `del`, the element won't be returned when removing it.
 
 Delete the *element* at a given *index*:
@@ -34,28 +34,33 @@ Delete a *slice* of the *list*:
 >>> del a[0:2]
 >>> a
 [ 3, 4 ]
-
 ```
-Delete entire *list*:
+Note that even though three elements are specified (*0,1,2*), the last one is not deleted. Consider this example, in which nothing happens:
+```python
+>>> a = [ 1, 2, 3, 4 ]
+>>> del a[0:0]
+>>> a
+[ 1, 2, 3, 4 ]
+```
+To delete the entire *list*:
 ```python
 >>> del a[:]
 >>> a
 []
 ```
-
 ---
 ## Practice
 
 What’s the output of the following code snippet:
 
 ```
->>> e = [7, 8, 9, 11, 15, 19] 
+>>> e = [7, 8, 9, 11, 15, 19]
 >>> del e[2:4]
 >>> e
 ???
 ```
-*`[7, 8, 15, 19]` 
-*`[7, 8, 19]` 
-*`[]` 
-*`[7, 11, 15, 19]` 
+*`[7, 8, 15, 19]`
+*`[7, 8, 19]`
+*`[]`
+*`[7, 11, 15, 19]`
 *`[7, 15, 19]`
