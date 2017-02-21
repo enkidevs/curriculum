@@ -33,7 +33,7 @@ $rootScope.$on('$routeChangeSuccess',
    });
 })
 ```
-This assigns the `$rootScope.controller` object with the current name of the controller, which later can be retrieved in the view to use it as seemed fit.
+This assigns the `$rootScope.controller` object with the current name of the controller, which later can be retrieved in the view to use it as seemed fit. 
 
 **Example**:
 ```html
