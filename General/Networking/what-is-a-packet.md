@@ -70,5 +70,5 @@ This mechanism makes use of the underlying structure of the Internet for free.
 
 * header
 * protocols
-* ip address
+* packets
 * payload
