@@ -47,7 +47,7 @@ links:
 
 In Python, functions are seen as *objects* - and there is a clear distinction between a **method call** and a **method object**.
 
-Considering the following class and its instantiation:
+Considering the following class and its instantiation: 
 ```python
 class Enki:
     def f(self):

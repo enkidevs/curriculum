@@ -27,7 +27,7 @@ links:
 
 **React** provides a way of defining *default* values for props. This allows the safety usage of props even though they are not specified by the parent component.
 
-The value assignment is done via the `defaultProps` special property of your component:
+The value assignment is done via the `defaultProps` special property of your component: 
 
 ```jsx
 function MyComponent(props) {

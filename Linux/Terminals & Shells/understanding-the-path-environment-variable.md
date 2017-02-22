@@ -20,7 +20,7 @@ Understanding the `PATH` environment variable and how to manipulate it is one of
 
 ### What Does The `PATH` Variable Contain?
 
-The `PATH` variable itself contains a `:`-delimited list of directories.
+The `PATH` variable itself contains a `:`-delimited list of directories. 
 
 See for yourself:
 

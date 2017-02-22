@@ -26,7 +26,7 @@ One of the reasons to learn Java is because the basic concepts are relatively *e
 
 Java is also *static typed*. That means the code cannot be built before solving the errors, which saves time in the long run. Even though the stricter environment doesn't necessarily mean a better one, it allows beginners to stick to less overwhelming rules.
 
-There are many more reasons you should learn Java. The only downside is, as with all other skills, that *it might take some time*.
+There are many more reasons you should learn Java. The only downside is, as with all other skills, that *it might take some time*. 
 
 ---
 ## Practice
