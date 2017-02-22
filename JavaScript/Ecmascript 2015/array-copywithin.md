@@ -24,7 +24,7 @@ When you use Array.copyWithin changes occur on the array itself so you don’t n
 
 Let's say we have the following variable:
 ```javascript
-var alphabet = ["a","b","c","d","e"];
+var alphabet = ["a","b","c","d","e"]; 
 ```
 
 ..And we want to copy the first two characters at position 2 we could utilize **Array.copyWithin** as follows:

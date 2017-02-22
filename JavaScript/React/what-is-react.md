@@ -20,7 +20,7 @@ links:
 **React** is a *JavaScript* library[1] (not a framework[2]) created and maintained by **Facebook**. It's used for creating user interfaces.
 
 
-The big and frequent problem that **React** solves is keeping the `DOM`[3] in sync with the data model.
+The big and frequent problem that **React** solves is keeping the `DOM`[3] in sync with the data model. 
 
 It does that by generating a `DOM`-like custom object whenever a change is made in the data model. This complex data type is then compared with the real `DOM`, updating the latter only when necessary, thus minimising execution time.
 

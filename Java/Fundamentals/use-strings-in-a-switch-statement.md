@@ -27,7 +27,7 @@ links:
 
 In Java 7+, it is possible to use a string as a selector in a `switch` statement.
 
-For example:
+For example: 
 ```
 String colorString;
 switch(color) {
