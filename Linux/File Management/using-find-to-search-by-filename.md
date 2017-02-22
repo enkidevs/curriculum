@@ -58,9 +58,9 @@ $ find . -type f -name "*.mp3"
 ---
 ## Practice
 
-Search in the home directory for files that contain happy in their title:
+Search in the home directory for files that contain happy in their title: 
 ```
-$ ??? ??? -type 
+$ ??? ??? -type
         ??? ??? ???
 ```
 *`find`
@@ -74,7 +74,7 @@ $ ??? ??? -type
 ---
 ## Revision
 
-To look for directories with `find` you need 
+To look for directories with `find` you need
 
 ??? flag.
 
