@@ -65,7 +65,7 @@ Complete the code snippet to add a callback to the object in case of an 'edit' e
 ```javascript
 system.file.???(
   '???',
-  function (fileID, initials) {}
+  function(fileID, initials) {}
 )
 ```
 * `on`
