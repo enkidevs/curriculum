@@ -59,8 +59,6 @@ By convention, methods starting with `will` are run **before** an event happens 
 
 Making use of **lifecycle methods** grants you improved control over the `component`, letting you perform optimisations, free up resources, integrate third-party libraries or even handle `props` and `state` better.
 
-
-
 ---
 ## Practice
 
