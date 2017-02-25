@@ -28,19 +28,19 @@ The **floating-point** numbers are objects of class **Float**. The Complex, BigD
 
 When operating between **Integer** objects, you get an **Integer** as result.
 
-```
+```ruby
 16 / 5
 #=> 3
 ```
 
 But when operating with at least a **Float**, the result will be a **Float**.
-```
+```ruby
 16 / 5.0
 #=> 3.2
 ```
 To convert a number to Float you can add a dot like the before example or call `to_f` method[1]. The same is for integers with `to_i`, it will truncate the decimal part.
 
-```
+```ruby
 16 / 5.to_f
 #=> 3.2
 ```
@@ -48,7 +48,7 @@ To convert a number to Float you can add a dot like the before example or call `
 ---
 ## Practice
 
-Which will the result of the next operation?
+Which will be the result of the next operation?
 
 `37 / 2.9.to_i`
 
