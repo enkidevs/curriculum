@@ -13,13 +13,13 @@ links:
 
   - '[ruby-lang home page](https://www.ruby-lang.org/)'
   - '[ruby in wikipedia](https://en.wikipedia.org/wiki/Ruby_(programming_language))'
-  - '[ruby in github](https://github.com/ruby/ruby)'
+  - '[ruby on github](https://github.com/ruby/ruby)'
 ---
 ## Content
 
 **Ruby** is a dynamic, reflective, open source and object-oriented programming language.
 
-It was created by Yukihiro “Matz” Matsumoto and inspired in other languages like Perl, Smalltalk, Eiffel, Ada, and Lisp to form a new balanced language.
+It was created by Yukihiro “Matz” Matsumoto and inspired by other languages like Perl, Smalltalk, Eiffel, Ada, and Lisp to form a new balanced language.
 
 It was designed for programmer productivity and fun. 
 
@@ -27,6 +27,9 @@ In Ruby, **everything is an object**, even numbers and strings.
 
 ```ruby
 3.times { puts 'Hello World!' }
+#=> Hello World!
+#=> Hello World!
+#=> Hello World!
 ```
 
 It has **duck typing**, that means variables have no data type and can hold any object.
@@ -50,7 +53,7 @@ Which is one of most notable features in Ruby?
 ---
 ## Revision
 
-Which paradigm does majorly Ruby belong to?
+Which programming paradigm does majorly Ruby belong to?
 
 ???
 
