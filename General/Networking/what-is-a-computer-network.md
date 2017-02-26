@@ -43,6 +43,6 @@ The most common network communication known is **Internet**. Internet is a world
 
 ???  is used to give name to the `IP` address.
 
-* **DNS**
-* **Host**
-* **Network node**
+* DNS
+* Host
+* Network node

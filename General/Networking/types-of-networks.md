@@ -37,19 +37,18 @@ Based on the **size** we can distinguish the following types of networks:
 
 `WAN` as the term implies, it is capable of spanning a large physical distance. The **Internet** is the largest `WAN`, spanning the Earth. A network devices called **router** connects more `LANs` to a `WAN`. In `IP` networking the **router** maintains both, a `LAN` address and a `WAN` address. `WANs` tend to use technology like `ATM` for connectivity over a long distance.
 
--**
+---
+##FOOTNOTES
 
-`FOOTNOTES`
+[1:Ethernet] is a physical and data link layer technology for `LANs`.
 
-[1] `Ethernet` is a physical and data link layer technology for `LANs`.
-
-[2] `Token Ring` maintains all the data frames that *continuously circulate* through the network.
+[2:Token Ring] maintains all the data frames that *continuously circulate* through the network.
 The *frames* are shared by all devices connected to the network as follows:
 - a **frame(packet)** arrives at he next device in the ring sequence
 - the device **checks** whether the frame has a *message addressed to it*, if so it removes it
 - the device holding the **frame** decides whether it wants to send a *message*, if so it inserts message data into the token frame and issues it back to the `LAN`.
 
-[3] `ATM` is a high-speed networking standard designed to support both *voice* and *data* communications. `ATM` is normally utilised by **Internet** service providers on their private long-distance networks.
+[3:ATM] is a high-speed networking standard designed to support both *voice* and *data* communications. `ATM` is normally utilised by **Internet** service providers on their private long-distance networks.
 
 ---
 ## Practice

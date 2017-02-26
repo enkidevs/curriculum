@@ -42,9 +42,8 @@ However, other rules, and therefore other **protocols** are need. For example, t
 
 In the same way, computer networks will use multiple **protocols** that are hierarchically organised on different layers[3].
 
--**
-
-`FOOTNOTES`
+---
+##FOOTNOTES
 
 [1:further information]
 Technologies that allow the *linking* between computers in a **network** include:

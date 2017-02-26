@@ -37,13 +37,12 @@ Over the Internet, where *IP* is the standard, packets' **header** needs to have
  - flags
  - other technical data
 
-Another thing that defines functionality of packets is the protocol. While **ethernet** networks imply usage of *ethernet frames*, networks using **IP** require *IP packets*.
+Another thing that defines functionality of packets is the **protocol**. While **ethernet** based networks imply usage of *ethernet frames*, the ones using **IP** require *IP packets*.
 
-In the latter type of netowrks, packets are sent over the Internet through *nodes*[2] (devices and routers) positioned between the *source* and *destination*.
+In the latter type of networks, packets are sent over the Internet through *nodes*[2] (devices and routers) positioned between the *source* and *destination*.
 
--**
-
-`FOOTNOTES`
+---
+##FOOTNOTES
 
 [1:packets]
 Other terms equivalent to **packets** are datagrams, segements, blocks, cells and even frames, depending on the protocol used for data transmission.

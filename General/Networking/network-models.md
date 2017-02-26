@@ -53,17 +53,17 @@ The four **layers** taking part of the `Internet` model architecture are:
 ---
 ## Practice
 
-??? have been in networking in order to reduce complexity.
-
-* **layers**
-* **protocols**
-* **tasks**
-
----
-## Revision
-
 ??? layer is responsible for *sending* and *receiving* actual data in the `Internet` model.
 
 * `Link`
 * `Internet`
 * `Transport`
+
+---
+## Revision
+
+??? have been implemented in networking in order to reduce complexity.
+
+* layers
+* protocols
+* tasks
