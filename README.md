@@ -26,7 +26,7 @@
 2. In Terminal, type `yo enki:subtopic` 
 3. Follow the instructions in Terminal to create your subtopic.
 
-** NOTE: Before create a subtopic for a non-existing topic in master branch, you need to create the topic and merge it first, if you don't do it, automated checks will throw a related error **
+**NOTE: Before create a subtopic for a non-existing topic in master branch, you need to create the topic and merge it first, if you don't do it, automated checks will throw a related error**
 
 ## To create an insight
 
@@ -50,7 +50,7 @@ All insights should follow the [Insight Guidelines](https://github.com/enkidevs/
 5. Create your insight based on the insight template.
 6. Create your pull request on a new branch when you’ve finished.
 
-** NOTE: Before create an insight for a non-existing subtopic in master branch, you need to create the subtopic and merge it first, if you don't do it, automated checks will throw a related error **
+**NOTE: Before create an insight for a non-existing subtopic in master branch, you need to create the subtopic and merge it first, if you don't do it, automated checks will throw a related error**
 
 ## To edit an insight
 1. Open the file you’d like to edit (either locally or on GitHub).
