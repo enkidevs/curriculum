@@ -42,7 +42,7 @@ Another thing that defines functionality of packets is the **protocol**. While *
 In the latter type of networks, packets are sent over the Internet through *nodes*[2] (devices and routers) positioned between the *source* and *destination*.
 
 ---
-##FOOTNOTES
+## Footnotes
 
 [1:packets]
 Other terms equivalent to **packets** are datagrams, segements, blocks, cells and even frames, depending on the protocol used for data transmission.
