@@ -37,7 +37,7 @@ However sometimes it is desirable to work with a string template in its raw form
 
 ```
 String.raw `Line1\nLine2`;
-\\"Line1\nLine2"
+// "Line1\nLine2"
 ```
 
 If we were replacing values, expressions are still processed when using String.raw:
@@ -45,6 +45,6 @@ If we were replacing values, expressions are still processed when using String.r
 ```
 var company="Enki";
 String.raw `Line1\n${company}Line2`;
-\\"Line1\nEnkiLine2"
+// "Line1\nEnkiLine2"
 ```
 ---
