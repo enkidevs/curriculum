@@ -62,16 +62,16 @@ Gives output:
 What’s the output of the following code snippet:
 
 ```
-for x in range(0, 10): 
+for x in [0, 1, 2, 3, 4, 5]: 
     if (x % 2 == 0): 
         print(x) 
 ```
 ???
 
-*`0 2 4 6 8` 
-*`0 2 4 6 8 10` 
-*`0 1 2 3 4 5 … 10` 
-*`1 3 5 7 9`
+*`0 2 4` 
+*`0 1 2 3 4 5` 
+*`2 4` 
+*`1 3 5`
 
 ---
 ## Revision
