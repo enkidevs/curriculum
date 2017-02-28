@@ -46,8 +46,11 @@ s.pop(); // 5
 %exp
 Among the given answers, `Stack` is the only one which supports both `.push()`  and `.pop()` methods.
 
+
 `.push()` - inserts a element in at the back of the stack
+
 `.pop()` - returns the last element in the stack
+
 %
 ---
 ```
@@ -59,7 +62,9 @@ Among the given answers, `Stack` is the only one which supports both `.push()`  
 %exp
 `System` is a final class of `java.lang` package while `.out` is a static variable of this class.
 
+
 Calling `System.out`'s `print` method will output the given argument in the console.
+
 %
 ---
 ```
@@ -73,7 +78,10 @@ a.getAbsolutPath(); // /home/path/file.txt
 %exp
 Class `java.io.File`  has implemented methods `.canWrite()` and method `.getAbsolutePath()`.
 
+
 `.canWrite()` - returns `true` or `false` if the application can write to that file
+
+
 `.getAbsolutePath()` - returns the absolute path of denoted file
 %
 ---
@@ -88,6 +96,7 @@ x + ???.floor(y) // 15.0
 %exp
 Class `math` supports `.floor()` method.
 
+
 `.floor()` method returns an approximate value to the nearest bigger `int` number.
 %
 ---
@@ -101,6 +110,7 @@ boolean b = m.matches();
 * Regex a = new Regex.compile("x.*");
 %exp
 Class `Pattern` has the `.matcher()` method implemented.
+
 
 It checks whether the string given as parameter matches the given regular expression.
 %
