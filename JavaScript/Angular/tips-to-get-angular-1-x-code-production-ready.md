@@ -19,7 +19,7 @@ There are few things that can be done to get the angular application production 
 ### Strict *Dependency Injection* Mode:
 
 Using strict DI mode in the production app will throw errors when a function to be injected is not _annotated properly_.
-This mode is useful and is intended to make sure that code will work when minified. 
+This mode is useful and is intended to make sure that code will work when minified.
 
 It is recommended to automate the explicit annotation via `ng-annotate` when deploying to production along with strict DI mode.
 
