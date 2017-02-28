@@ -35,7 +35,7 @@ Based on the **size** we can distinguish the following types of networks:
 
 -**
 
-`WAN` as the term implies, it is capable of spanning a large physical distance. The **Internet** is the largest `WAN`, spanning the Earth. A network devices called **router** connects more `LANs` to a `WAN`. In `IP` networking the **router** maintains both, a `LAN` address and a `WAN` address. `WANs` tend to use technology like `ATM` for connectivity over a long distance.
+`WAN` as the term implies, it is capable of spanning a large physical distance. The **Internet** is the largest `WAN`, spanning the Earth. A network devices called **router** connects more `LANs` to a `WAN`. In `IP` networking the **router** maintains both, a `LAN` address and a `WAN` address. `WANs` tend to use technology like `ATM`[3] for connectivity over a long distance.
 
 ---
 ## Footnotes
