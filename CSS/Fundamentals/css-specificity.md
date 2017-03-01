@@ -71,8 +71,9 @@ If cascading alone was the way to go, the heading *font-size* would be 40. Takin
 1 - 1 - 2
 vs
 0 - 1 - 3
+(112 > 013)
 ```
-The font size is be *30* in the end.
+The font size is *30*.
 
 As discussed earlier, inline CSS has the highest inherited specificity:
 ```html
@@ -85,11 +86,11 @@ As discussed earlier, inline CSS has the highest inherited specificity:
   </div>
 </div>
 ```
-We would have add a new column to the previous notation in order to represent inline CSS specificity:
+We would have to add a new column to the previous notation in order to represent inline CSS specificity:
 ```text
 1 - 0 - 0 - 0
 ```
-This means that however specific a selector may be, it can never overweight an inline styling.
+This means that however specific a selector may be, it can never outweigh an inline styling.
 
 There are three other factors that influence the specificity of a selector. However, we won't go into details right now. All you have to know is that:
  - attribute selectors increment the middle value: `a[href="www.example.com"]` (targets hyperlinks that have the href equals to *www.example.com*) has `0-1-1` specificity.
