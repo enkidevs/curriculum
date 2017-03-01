@@ -14,12 +14,11 @@ category: must-know
 
 In the last insight, we briefly introduced the `Big-O` notation. Besides it, there are some other approximations used: `Little-o`, `Big-Theta(Θ)` and `Big-Omega(Ω)`.
 
-Before any of that, let's get back to the Big-O notation for a moment. We defined it as an upper bound function, in order to compute resources used in the worst-case scenario of a data type or algorithm.
+Before any of that, let's get back to the Big-O notation for a moment. We defined it as an upper bound function, in order to compute resources needed for the worst-case scenario of a data type or algorithm.
 
+*Formally*, a function `F` is the *Big-O* of a function `f` if there is a constant `c` and a starting index `n'` for which `F(n) <= c*f(n)`, and `n>=n'`[1]. *Informally*, `f(n)` is the upper bound of `F(n)` after a certain index, `n'`.
 
-*Formally*, a function `F` is the *Big-O* of a function `f`[1] if there is a constant `c` and a starting index `n'` for which `F(n) <= c*f(n)`, and `n>=n'`. *Informally*, `f(n)` is the upper bound of `F(n)` after a certain index, `n'`.
-
-It is easy to find a function whose graph *grows faster* than another's, but that is not the point. In order for *Big-O* to be relevant, it must represent *the slowest-growing function, but faster than the one we are looking to bound*. 
+It is easy to find a function whose graph *grows faster* than another's, but that is not the point. In order for *Big-O* to be relevant, it must represent *the slowest-growing function, but faster than the one we are looking to bound*.
 
 The other notations are quite similar to *Big-O*:
 - `Big-Omega`, or `Big-Ω`, represents the **lower bound** of a function. Using the same notations as before, we can say that *F(n) is Ω(f(n))*, or that `F(n)>=c*f(n)`, for any `n>=n'`.
@@ -35,14 +34,14 @@ The other notations are quite similar to *Big-O*:
 Which bound is defined as:
 ```text
 F(n) is O(f(n))
-and 
+and
 F(n) is not Θ(f(n))
 ```
 ???
-*Little-o
-*Big-O
-*Big-Theta
-*Big-Omega
+* Little-o
+* Big-O
+* Big-Theta
+* Big-Omega
 
 ---
 ## Revision
@@ -50,16 +49,28 @@ F(n) is not Θ(f(n))
 If a function is both Big-O and Big-Omega, it is called
 
 ???
-*Big-Theta
-*Little-O
-*Middle bound
-*Big-O
+* Big-Theta
+* Little-O
+* Middle bound
+* Big-O
 
 ---
 ## Footnotes
 
 [1:Big O]
-*F(n)* is *O( f(n) )*
+Consider this inequality:
+```text
+nˆ3 >= 3nˆ2 + 10n,
+true for any n >= 5
+```
+In this case:
+```
+F(n) = 3nˆ2+10
+f(n) = nˆ3
+c = 1
+n' = 5
+```
+
 [2:Big Theta]
 Here, the following axiom is used:
 ```
