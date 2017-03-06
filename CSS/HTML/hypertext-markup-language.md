@@ -48,7 +48,7 @@ To give them meaning, however, they must be enclosed in a `<body>` element, whic
       external link</a>.</p>
 </body>
 ```
-The part of the HTML that is not *displayed* by the browser, but helps it decide *how* to display the content inside the body is called **header**. It usually contains information such as the title of the web page displayed in the browser's tab or the page's characters encoding[2]:
+The part of the HTML that is not *displayed* by the browser, but helps it decide *how* to display the content inside the body is called **head**. It usually contains information such as the title of the web page displayed in the browser's tab or the page's characters encoding[2]:
 ```html
 <html>
 <head>
