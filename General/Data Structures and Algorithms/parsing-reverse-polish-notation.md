@@ -46,19 +46,19 @@ Stack = []
 What values would be left in the stack after the evaluation of `10 5 * 2 + 3 3`?
 
 ???
-*[52,3,3]
-*[55,3]
-*[55]
-*[58]
-*[23,3]
+* [52,3,3]
+* [55,3]
+* [55]
+* [58]
+* [23,3]
 
 ---
 ## Revision
 
-What are the contents of the stack after evaluating a *valid* postfix expression?
+What are the contents of the stack after evaluating a `valid` postfix expression?
 
 ???
-*A single value.
-*Two values.
-*A single operator.
-*The stack is empty.
+* A single value.
+* Two values.
+* A single operator.
+* The stack is empty.
