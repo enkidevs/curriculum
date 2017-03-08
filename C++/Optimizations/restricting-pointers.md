@@ -33,15 +33,23 @@ enormous speed and space improvements as much of the loop body can be computed
 in a single instruction.
 
 ```
-void move(vector3* restrict velocity, vector3* restrict position,
-  vector3* restrict acceleration, float time_step, size_t count) {
+void move(vector3* restrict velocity,
+  vector3* restrict position,
+  vector3* restrict acceleration,
+  float time_step, size_t count) {
   for (size_t i = 0; i < count; i++) {
-    velocity[i].x += acceleration[i].x * time_step;
-    velocity[i].y += acceleration[i].y * time_step;
-    velocity[i].z += acceleration[i].z * time_step;
-    position[i].x += velocity[i].x * time_step;
-    position[i].y += velocity[i].y * time_step;
-    position[i].z += velocity[i].z * time_step;
+    velocity[i].x += acceleration[i].x
+      * time_step;
+    velocity[i].y += acceleration[i].y
+      * time_step;
+    velocity[i].z += acceleration[i].z
+      * time_step;
+    position[i].x += velocity[i].x
+      * time_step;
+    position[i].y += velocity[i].y
+      * time_step;
+    position[i].z += velocity[i].z
+      * time_step;
   }
 }
 ```
