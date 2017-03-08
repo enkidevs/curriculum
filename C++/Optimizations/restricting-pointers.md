@@ -74,6 +74,6 @@ What does the `restrict` keyword imply?
 ---
 ## Footnotes
 
-[1]: Compiler differences
+[1:Compiler differences]
 The keyword is defined differently for each compiler and may be alternatively
 written `restrict` (GCC), `__restrict` (Visual C++) or `__restrict__` (Clang).
