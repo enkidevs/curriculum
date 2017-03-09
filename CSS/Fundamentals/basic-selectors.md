@@ -35,6 +35,8 @@ To the most complex:
 div p.main:first-line span.my-span {}
 ```
 
+These selectors behave as patterns used to target specific **HTML elements**. Styling attributes (e.g. `color: white`) added within selectors will then be applied to the **HTML elements**.
+
 ### Type Selectors
 
 They are the most generic selectors, which target elements by their type: to select all `<div>` elements in the HTML document, `div` selector is needed:
@@ -52,6 +54,17 @@ And the HTML:
 ```
 The type selector doesn't require HTML elements to have any attributes, unlike the next two.
 
+Consider the following stylesheet:
+```css
+p { font-size: 20px; }
+```
+When applied to a HTML page such as:
+```html
+<body>
+  <p>Hello, Enki</p>
+</body>
+```
+Will set the `font-size` of all `<p>` elements to `20px`. Therefore, the `Hello, World` paragraph will also have a size of `20px`.
 ---
 ## Revision
 
