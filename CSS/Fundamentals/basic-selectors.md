@@ -64,7 +64,7 @@ When applied to an HTML page such as:
   <p>Hello, Enki</p>
 </body>
 ```
-Will set the `font-size` of all `<p>` elements to `20px`. Therefore, the `Hello, World` paragraph will also have a size of `20px`.
+Will set the `font-size` of all `<p>` elements to `20px`. Therefore, the `Hello, Enki` paragraph will also have a size of `20px`.
 ---
 ## Revision
 
