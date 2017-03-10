@@ -58,7 +58,7 @@ Consider the following stylesheet:
 ```css
 p { font-size: 20px; }
 ```
-When applied to a HTML page such as:
+When applied to an HTML page such as:
 ```html
 <body>
   <p>Hello, Enki</p>
