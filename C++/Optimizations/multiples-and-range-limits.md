@@ -25,7 +25,7 @@ Most vector instruction words are a multiple of 4 and so, to utilize this
 feature, any loops must run to a range limit that is also a multiple a 4. The
 example below shows how you can achieve this:
 
-```
+```c
 for (int i = 0; i < (n & ~3); i++) {
   // Loop body that can be vectorized
 }

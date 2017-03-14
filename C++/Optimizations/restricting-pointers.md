@@ -32,7 +32,7 @@ parallelized *vector* instructions for inner-loop operations. This provides an
 enormous speed and space improvements as much of the loop body can be computed
 in a single instruction.
 
-```
+```c
 void move(vector3* restrict velocity,
   vector3* restrict position,
   vector3* restrict acceleration,

@@ -9,7 +9,7 @@ levels:
 
 type: normal
 
-category: feature
+category: how to
 
 links:
 
