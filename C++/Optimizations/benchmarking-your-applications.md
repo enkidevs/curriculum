@@ -30,7 +30,7 @@ shown below where `count.js` is run using `node`.
 
 ```sh
 &> time node count.js
-node count.js  0.05s user 0.01s system 93% cpu 0.073 total
+0.05s user 0.01s system 93% cpu 0.073 total
 ```
 
 The `time` utility is available on OSX, Linux and most UNIX operating systems.
