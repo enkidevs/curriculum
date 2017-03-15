@@ -3,8 +3,6 @@ author: luke
 
 levels:
 
-  - basic
-
   - medium
 
 type: normal
