@@ -19,8 +19,8 @@ In contrast to linear traversal of one-dimensional data structures, there are di
 - Breadth-first traversal
 
 The name of a traversal comes from the order in which it visits the nodes:
-- The one that visits nodes downwards first, through _"generations"_. (Depth-first)
-- The one that visits nodes across first, on the _same level_. (Breadth-first)
+- The one that visits nodes downwards first, through *"generations"*. (Depth-first)
+- The one that visits nodes across first, on the *same level*. (Breadth-first)
 
 Having multiple ways to traverse a tree is useful when you need to deal with sorted trees, like *Binary Search Tree*, for which a particular depth-first traversal visits the nodes in ascending order.
 
@@ -29,33 +29,15 @@ Because a tree is self-referential[1], a common way of performing these searches
 
 In the following insights we will assume that a left node has priority over the right ones.
 
-
----
-## Practice
-
-In what order will the nodes be visited during a breadth-first traversal?
-```
-          A
-       /  |  \
-      C   G   E
-      |  /  / | \
-      B  F  H D  I
-???
-```
-*`A,C,G,E,B,F,H,D,I`
-*`A,C,B,G,F,E,H,D,I`
-*`B,F,H,D,I,C,G,E,A`
-*`A,B,C,D,E,F,G,H,I`
-
 ---
 ## Revision
 
 Which type of tree traversal visits the children before the nodes on the same level?
 
 ???
-*Depth-first
-*Breadth-first
-*Children-first
+* Depth-first
+* Breadth-first
+* Children-first
 
 ---
 ## Footnotes

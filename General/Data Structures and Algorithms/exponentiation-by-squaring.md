@@ -16,7 +16,7 @@ The concept of **exponentiation by squaring** refers to a method to fast compute
 
 The most basic way to exponentiate is multiplying the number by itself:
 ```
-3^20 = 3×3×… (20 times)…×3 
+3^20 = 3×3× … ×3 (20 times)
 ```
 This will have to do `O(n)` (i.e. *O(20)* ) operations to calculate the result.
 
@@ -26,14 +26,14 @@ Instead of multiplying the number itself, *exponentiation by squaring* works by 
      = {[3×(3^4)]^2}^2
      = ({3×[(3^2)^2]}^2)^2
 # 4 operations to decompose
-# 5 multiplications 
+# 5 multiplications
 #    and squarings to compute
 ```
 This algorithm[1] uses `O(log n)` squarings **and** at most `O(log n)` multiplications. Together they would take at most `2×O(log n)`, which is faster than `O(n)` multiplications.
 
 The implementation using a *recursive algorithm* is as follows:
 ```
-expBySqr(b,x) 
+expBySqr(b,x)
   if x < 0 then
     return expBySqr(1/b, -x)
   else if x = 0 then
@@ -43,11 +43,11 @@ expBySqr(b,x)
   else if x % 2 = 0 then
     return expBySqr(b×b, x/2)
   else if x % 2 = 1 then
-    return b * expBySqr(b×b, (x-1)/2) 
+    return b × expBySqr(b×b, (x-1)/2)
 
 // where b is the base
 // and x is the exponent
-``` 
+```
 
 
 It is worth noting that after each squaring, the new value would almost double the number of digits of the previous one.
@@ -56,11 +56,11 @@ It is worth noting that after each squaring, the new value would almost double t
 ---
 ## Practice
 
-For small exponent values, squaring might need more operations than straight-forward approach. 
+For small exponent values, squaring might need more operations than straight-forward approach.
 
-`5^5` would require 4 multiplications, whereas, following the squaring algorithm, the same computation would require a total of 
+`5^5` would require 4 multiplications, whereas, following the squaring algorithm, the same computation would require a total of
 
-??? operations (decompose+multiply).
+??? operations(decompose+multiply).
 *3+3
 *3+2
 *2+3

@@ -19,8 +19,8 @@ The simplicity of the algorithm comes from the fact that no *primality testing*,
 A prime number is the number that has exactly two distinct natural divisors: *1* and *itself*. Every prime number (other than *2*) will therefore be *odd*.
 
 Sieve of Eratosthenes algorithm goes as follows:
-- create a list of numbers from 2 to a maximum number *n*.
-- starting with 2, *mark as **not prime** * every multiple of 2 ( 4,6,8 ... 2k<=n); **do not mark** 2 .
+- create a list of *n-1* consecutive numbers beginning with 2.
+- starting with 2, mark as **not prime** every multiple of 2 ( 4,6,8 ... 2k<=n); **do not mark** 2 .
 - find the next *unmarked* number and repeat the marking procedure .
 - the algorithm ends when the current value reaches the largest number (n).
 
@@ -38,6 +38,9 @@ This is how the algorithm works:
 // mark multiples of 3
 2 3 5 7 11 13
 
+//try 4, but it's marked
+2 3 5 7 11 13
+
 // 5 is unmarked
 // mark multiples of 5
 2 3 5 7 11 13
@@ -45,12 +48,10 @@ This is how the algorithm works:
 // 7, 11, 13 unmarked
 // mark multiples of 7,11,13
 2 3 5 7 11 13
-
 ```
 The unmarked values left are all the prime numbers smaller than *n*.
 
-
-
+You can reduce the memory used to store the values by using a boolean array of *length n* - "marking" a number becomes changing the boolean value at that specific index to *true*.
 ---
 ## Practice
 
@@ -58,11 +59,10 @@ What is the space required by the algorithm?
 
 ???
 
-If this is too easy, try to find the *time upper bound* by yourself.
-*O(n)
-*O(n×n)
-*O(log n)
-*O(n×log n)
+* O(n)
+* O(n×n)
+* O(log n)
+* O(n×log n)
 
 ---
 ## Revision
@@ -70,7 +70,7 @@ If this is too easy, try to find the *time upper bound* by yourself.
 You would use the sieve of Eratosthenes for
 
 ???.
-*finding prime numbers between 1 and n
-*testing if a number is prime
-*test if a tree has a binary search tree's properties
-*finding the prime divisors of a number
+* finding prime numbers between 2 and n
+* testing if a number is prime
+* test if a tree has a binary search tree's properties
+* finding the prime divisors of a number
