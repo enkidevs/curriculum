@@ -1,4 +1,4 @@
-# Javascript: Hard Mode II
+# JavaScript: Hard Mode II
 author: jordanfish
 
 levels:
