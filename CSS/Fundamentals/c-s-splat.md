@@ -16,9 +16,7 @@ category: tip
 ---
 ## Content
 
-Someone has written some terrible CSS. Probably that guy Jordan with the terrible haircut. 
-
-Can you spot his mistakes?
+Someone has written some terrible CSS. Can you spot his mistakes?
 
 ---
 ## Game Content
