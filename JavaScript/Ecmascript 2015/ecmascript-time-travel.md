@@ -130,6 +130,6 @@ var y  = timeObject.year;
 // ES6 equivalent:
 var ??? = timeObject
 ```
-* `{y:year} `
 * `{year:y} `
+* `{y:year} `
 * `{y.year}`
