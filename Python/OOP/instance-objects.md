@@ -11,8 +11,6 @@ type: normal
 
 category: must-know
 
-parent: class-objects
-
 notes: Multiple issues. Needs to be rewritten.
 
 links:
