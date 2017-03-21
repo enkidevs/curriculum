@@ -2,6 +2,7 @@
 author: jfarmer
 
 levels:
+ - basic
 
 type: normal
 

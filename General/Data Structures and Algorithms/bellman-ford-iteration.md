@@ -39,7 +39,14 @@ One iteration done, **three** left to do. The process is the same, so we'll jump
 ---
 ## Practice
 
+Bellman-Ford algorithm uses
 
+??? approach.
+
+* `no specific`
+* `greedy`
+* `dynamic`
+* `binary search`
 
 ---
 ## Revision
