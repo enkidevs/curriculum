@@ -41,7 +41,7 @@ This is a HTTP request with:
 - `User-Agent` Mozilla/5.0 (X11; Linux x86_64) together with Accept and Accept-Language specify details about your web browser, what type of things your browser can accept and the language it accepts;
 - `Refering page` specifies which documents refer you to the page;
 - `Cookies` every time a server sends a response to your browser it has the opportunity to send a `cookie` as well, they are small bits of information which contain data your browser stores;
-- `Connection control` keep-alive.
+- `Connection control` keep-alive. 
 
 ---
 ## Practice
