@@ -303,9 +303,6 @@ The latter will also transform all letters of the text to uppercase, but will al
 //  font: 2em "Open Sans";
   color: #7F8C8D;
 }
-<<<<<<< HEAD
-=======
 %exp
 When specifying multiple values for a CSS property such as `font` you must separate them by a whitespace and not a comma (`,`).
 %
->>>>>>> master
