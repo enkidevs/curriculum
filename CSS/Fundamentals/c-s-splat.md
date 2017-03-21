@@ -72,7 +72,7 @@ When using the `+` and `-` operators within the `calc` function keep in mind the
 }
 %exp
 There is no `<` operator in CSS, but `>`.
-In our case, all `div` elements with a parent with class `insight-container` will be selected.
+In our case, all `div` elements with a parent of class `insight-container` will be selected.
 %
 ​---
 .workout-end-container {
@@ -96,7 +96,7 @@ There is no such thing as `text-font`.
 //  padding-top: 3vh;
 }
 %exp
-Here we have another typo again. Padding is correctly spelt with double `d`.
+Here we have another typo. Padding is correctly spelt with double `d`.
 %
 ​---
 .top-bar {
@@ -127,7 +127,7 @@ The right syntax to specify the stack order of an element is `z-index: x`.
   text-align: center;
 }
 %exp
-Upper doesn’t mean anything in CSS. However, `uppercase` can be used to transform all characters as intended.
+`upper` doesn’t mean anything in CSS. However, `uppercase` can be used to transform all characters as intended.
 %
 ​---
 .insight .link-type-icon {
@@ -142,7 +142,7 @@ Upper doesn’t mean anything in CSS. However, `uppercase` can be used to transf
   display: inline-block;
 }
 %exp
-"Width" in `min-width` is misspelled here.
+"width" in `min-widht` is misspelled here.
 %
 ​---
 .navigationbar .back {
@@ -258,7 +258,7 @@ Overflow can be `hidden` but not `stack`.
   padding-left: 20px;
 }
 %exp
-CSS doesn't provide any `min-margin` property, but `margin` one.
+CSS doesn't provide any `min-margin` property, but a `margin` one.
 %
 ​---
 .tabBar .tabBar-element {
@@ -274,7 +274,7 @@ CSS doesn't provide any `min-margin` property, but `margin` one.
 //  font-size: 12px;
 }
 %exp
-The `font-size` property won't accept `12ms` as a correct value because it doesn't represent a seize.
+The `font-size` property won't accept `12ms` as a correct value because it doesn't represent a size.
 Instead, `12px` wouldn't raise any errors.
 %
 ​---
