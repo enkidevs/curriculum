@@ -41,11 +41,11 @@ complex
 %
 bool
 %exp
-`bool` is an immutable type as well.  
+`bool` is an immutable type.  
 %
 str
 %exp
-`str` is immutable too in Python, making them fairly trivial to use in multi-threaded environments and not only.
+`str` is immutable in Python, making them fairly trivial to use in multi-threaded environments and not only.
 %
 tuple
 %exp
@@ -53,11 +53,11 @@ A `tuple` is a sequence of immutable objects in python. So the `tuple` itself is
 %
 bytes
 %exp
-`bytes` objects are immutable sequences of single bytes. Since many major binary protocols are based on the ASCII text encoding, `bytes` objects offer several methods that are only valid when working with ASCII compatible data and are closely related to `string` objects in a variety of other ways.
+`bytes` objects are immutable sequences of single bytes. Since many major binary protocols are based on the ASCII text encoding, `bytes` objects offer several methods that are only valid when working with ASCII compatible data and are closely related to string objects.
 %
 frozenset
 %exp
-`frozenset` is a immutable implementation of the set. The `frozenset` type is immutable and **hashable**; it can therefore be used as a `dictionary` key or as an element of another `set`.
+`frozenset` is a immutable implementation of the `set`. The `frozenset` type is immutable and **hashable**; it can therefore be used as a `dictionary` key or as an element of another `set`.
 %
 bytecode
 %exp
@@ -95,7 +95,7 @@ However, the `dict` remains a **mutable** type.
 %
 deque
 %exp
-The `deque` type is a generalisation of the Stack of Queue, supporting appending and retrieving from both sides.
+The `deque` type is a generalisation of the Stack or Queue, supporting appending and retrieving from both sides.
 
 The `deque` type is mutable.
 %
