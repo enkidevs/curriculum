@@ -30,6 +30,9 @@ sub, sup {
   position: relative;
   vertical-align: baseline;
 }
+%exp
+Here we face a typo. `height` is misspelled.
+%
 ​---
 .list .opt:nth-child(m-1) {
 //.list .opt:nth-child(n-1) {
@@ -38,6 +41,11 @@ sub, sup {
   padding: 1em;
   transform: translate(0, -50%);
 }
+%exp
+The `.nth-child` pseudo-selector can take as argument either a number, a keyword (`even`, `odd`), or a formula.
+
+However, when stating a formula, the unknown variable must be `n`.
+%
 ​---
 .insight .link-name {
   position: absolute;
@@ -50,6 +58,9 @@ sub, sup {
   white-space: nowrap;
   color: #FFF;
 }
+%exp
+When using the `+` and `-` operators within the `calc` function keep in mind they must be padded by whitespaces.
+%
 ​---
 .insight-container < div {
 //  .insight-container > div {
@@ -59,6 +70,10 @@ sub, sup {
   left: 0;
   right: 0;
 }
+%exp
+There is no `<` operator in CSS, but `>`.
+In our case, all `div` elements with a parent of class `insight-container` will be selected.
+%
 ​---
 .workout-end-container {
   letter-spacing: -4px;
@@ -67,6 +82,11 @@ sub, sup {
 //  font-family: "Roboto Mono";
   color: #FF6F31;
 }
+%exp
+To specify the font in CSS, one must use the `font-family` property.
+
+There is no such thing as `text-font`.
+%
 ​---
 .workout-feedback-container {
   color: #FF6F31;
@@ -75,6 +95,9 @@ sub, sup {
   pading-top: 3vh;
 //  padding-top: 3vh;
 }
+%exp
+Here we have another typo. Padding is correctly spelt with double `d`.
+%
 ​---
 .top-bar {
   position: fixed;
@@ -89,6 +112,9 @@ sub, sup {
   background: #212121;
   pointer-events: all;
 }
+%exp
+The right syntax to specify the stack order of an element is `z-index: x`.
+%
 ​---​
 .navigationbar .location {
   font-family: "Roboto";
@@ -100,6 +126,9 @@ sub, sup {
   color: #ECF0F1;
   text-align: center;
 }
+%exp
+`upper` doesn’t mean anything in CSS. However, `uppercase` can be used to transform all characters as intended.
+%
 ​---
 .insight .link-type-icon {
   color: #FFF;
@@ -112,6 +141,9 @@ sub, sup {
   padding-left: 0px;
   display: inline-block;
 }
+%exp
+"width" in `min-widht` is misspelled here.
+%
 ​---
 .navigationbar .back {
   padding: 30px 50px 10px 15px;
@@ -123,6 +155,9 @@ sub, sup {
   color: #ECF0F1;
   background: transparent;
 }
+%exp
+There is no `length` property in CSS. `width` should be used instead.
+%
 ​---
 .autoscroll-container {
   overflow: hidden;
@@ -132,6 +167,9 @@ sub, sup {
 //  height: 100%;
   user-select: none;
 }
+%exp
+There is a missing semicolon (`;`) near the `height` property. This will rise an error.
+%
 ​---
 .drop {
   color: #34495C;
@@ -144,6 +182,9 @@ sub, sup {
   position: absolute;
   transform: translate(-50%, -50%);
 }
+%exp
+The correct name of the value for setting the current color is `currentColor`;
+%
 ---
 .field .input-field {
   color: #FFF;
@@ -155,6 +196,10 @@ sub, sup {
   border-bottom: 1px solid #34495C;
   border-radius: 0;
 }
+%exp
+Using the `background` property with just one value argument will act as a a shorthand for `background-color`.
+Hence, simply specifying a size instead of a color will raise an error.
+%
 ​---
 .insight-controls {
   line-height: 21px;
@@ -168,6 +213,9 @@ sub, sup {
   top: calc(-100% + 66px);
   left: 0;
 }
+%exp
+CSS uses `:` for assigning values and not `=`.
+%
 ​---
 .password-field .eye {
   position: absolute;
@@ -181,6 +229,9 @@ sub, sup {
   opacity: 0;
   transition: opacity 0.2s ease-in-out;
 }
+%exp
+The correct syntax for aligning text horizontally in CSS is `text-align` and not `align`.
+%
 ​---
 .share .share-view {
   background: #7F8C8D;
@@ -193,6 +244,9 @@ sub, sup {
 // overflow: hidden;
   z-index: 10;
 }
+%exp
+Overflow can be `hidden` but not `stack`.
+%
 ​---
 .share .share-view > h1 {
   text-transform: uppercase;
@@ -203,6 +257,9 @@ sub, sup {
 //  margin: 10px;
   padding-left: 20px;
 }
+%exp
+CSS doesn't provide any `min-margin` property, but a `margin` one.
+%
 ​---
 .tabBar .tabBar-element {
   width: 25%;
@@ -216,6 +273,10 @@ sub, sup {
   font-size: 12ms;
 //  font-size: 12px;
 }
+%exp
+The `font-size` property won't accept `12ms` as a correct value because it doesn't represent a size.
+Instead, `12px` wouldn't raise any errors.
+%
 ​---
 .segmented-control .label {
   width: 33%;
@@ -229,6 +290,11 @@ sub, sup {
   transition: all 0.2s ease-out;
   font-size: 12px;
 }
+%exp
+The `font-variant` can't take `uppercase` as value, but `small-caps`.
+
+The latter will also transform all letters of the text to uppercase, but will also decrease the their font size.
+%
 ---​
 .tabBar .tabBar-icon {
   display: block;
@@ -237,3 +303,9 @@ sub, sup {
 //  font: 2em "Open Sans";
   color: #7F8C8D;
 }
+<<<<<<< HEAD
+=======
+%exp
+When specifying multiple values for a CSS property such as `font` you must separate them by a whitespace and not a comma (`,`).
+%
+>>>>>>> master
