@@ -62,7 +62,6 @@ Among the given answers, `Stack` is the only one which supports both `.push()`  
 %exp
 `System` is a final class of `java.lang` package while `.out` is a static variable of this class.
 
-
 Calling `System.out`'s `print` method will output the given argument in the console.
 
 %
@@ -77,7 +76,6 @@ a.getAbsolutPath(); // /home/path/file.txt
 * String a = new String("file.txt");
 %exp
 Class `java.io.File`  has implemented methods `.canWrite()` and method `.getAbsolutePath()`.
-
 
 `.canWrite()` - returns `true` or `false` if the application can write to that file
 
