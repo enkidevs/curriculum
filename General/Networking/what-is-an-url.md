@@ -36,6 +36,14 @@ protocol      host       path  query
 
 The last part is used to specify the query of data that does not fit conveniently into a hierarchical path structure (e.g. filtering, searching).
 
+##Request URI
+`Request-URI = "*" | absoluteURI | abs_path | authority`
+
+It is a Uniform Resource Identifier, helps identifying the **resource** upon which to apply the request.
+- `*` is used when the *request* doesn't apply to a certain **resource**.  
+- `absoluteURI` is used when the *request* has been addressed to a **proxy**.
+- the most common `URI` is the one used to identify resource on a origin **server**.
+
 ---
 ## Practice
 
