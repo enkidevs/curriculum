@@ -21,7 +21,7 @@ links:
 ---
 ## Content
 
-Do you know how `this` works in Javascript? What is `this` in each context? Assume the code is run in a browser (not in a Worker).
+Do you know how `this` works in JavaScript? What is `this` in each context? Assume the code is run in a browser (not in a Worker).
 
 ---
 ## Game Content

@@ -1,4 +1,4 @@
-# Javascript: Hard Mode II
+# JavaScript: Hard Mode II
 author: jordanfish
 
 levels:
@@ -18,7 +18,13 @@ notes: Kangax quiz
 ---
 ## Content
 
+Are you up for a challenge?
 
+Test you JavaScript knowledge with some questions taken from `Kangax`'s quiz.
+
+Keep in mind some of these questions are not practical so don't worry if you get some wrong.
+
+Note that you need to assume **ECMAScript** 3rd edition. In addition, all `Error` answers describe a runtime error.
 
 ---
 ## Game Content

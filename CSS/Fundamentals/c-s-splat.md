@@ -16,7 +16,7 @@ category: tip
 ---
 ## Content
 
-Someone has written some terrible CSS. Probably that guy Jordan with the terrible haircut.
+Someone has written some terrible CSS.
 
 Can you spot his mistakes?
 
@@ -303,6 +303,9 @@ The latter will also transform all letters of the text to uppercase, but will al
 //  font: 2em "Open Sans";
   color: #7F8C8D;
 }
+<<<<<<< HEAD
+=======
 %exp
 When specifying multiple values for a CSS property such as `font` you must separate them by a whitespace and not a comma (`,`).
 %
+>>>>>>> master
