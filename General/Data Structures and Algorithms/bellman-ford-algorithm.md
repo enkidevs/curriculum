@@ -12,11 +12,11 @@ category: must-know
 ---
 ## Content
 
-**Bellman-Ford algorithm** computes the shortest paths from a single source vertex to all the other vertices in a *weighted graph*. The difference between *Dijkstra's* and *Bellman-Ford* is that the later, even if it is slower, works for graphs whose edges have *negative weights*.
+**Bellman-Ford algorithm** computes the shortest paths from a single source vertex to all the other vertices in a *weighted graph*. The difference between *Dijkstra's* and *Bellman-Ford* is that the later, even if it is slower, works for graphs with *negative weighted* edges.
 
-If a graph contains a *negative cycle* (the weight of the edges sum to a negative value) reachable from the source, there wouldn't be a *cheapest path* since it would get cheaper with every *walk*[1] around that cycle - and the algorithm should throw an error.
+If the graph contains a *negative cycle* (the weight of the edges sum to a negative value) reachable from the source, every *walk*[1] around that cycle would decrease its cost - if this is the case, the algorithm should throw an error.
 
-Like *Dijkstra's*, this algorithm is based on the principle of *relaxation*[2]. In *Bellman-Ford*, instead of visiting each node using a *closest-first approach*, *|V-1|* iterations are done, where *|V|* is the number of vertices (for a graph with 5 vertices, the maximum number of iterations would be 4).
+Like *Dijkstra's*, this algorithm is based on the principle of *relaxation*[2]. For *Bellman-Ford*, instead of visiting each node using a *closest-first approach*, *|V-1|* iterations are done, where *|V|* is the number of vertices(e.g. for a graph with 5 vertices, the maximum number of iterations would be 4).
 
 Because the implementation differs from one graph representation to another, the following way of applying the algorithm may not always work[3].
 
@@ -26,7 +26,7 @@ The algorithm follows a pattern:
 - While *iterating |V-1|* times:
   - If the node is *not reachable*, move on for now
   - Else, update the node's distance to the origin if the new one is smaller than the old one
-  - Move on to the next node, until all of them are visited(and keep doing that until there are no other changes to any of the lists)
+  - Move on to the next node, until all of them are visited
 - You can terminate the algorithm earlier if the distances stop changing.
 
 The *pseudocode* looks like this:
@@ -51,12 +51,12 @@ function BellmanFord(vertices,
   foreach edge (v, u) in edges:
     newD←distance[v] + weight(v,u)
     if newD < distance[u]:
-      print 'Graph has a negative
-              cycle'
+      print `Graph has a negative
+              cycle`
   return distance[], predecessor[]
 ```
 
-The algorithm runs in *O(|V|×|E|)* time, where *|V|* and *|E|* are numbers of vertices and edges, respectively.
+The algorithm runs in *O(|V|×|E|)* time, where *|V|* and *|E|* are numbers of vertices and edges, respectively. Swipe left for an iteration of the algorithm.
 
 ---
 ## Revision
