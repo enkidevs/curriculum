@@ -36,7 +36,7 @@ protocol      host       path  query
 
 The last part is used to specify the query of data that does not fit conveniently into a hierarchical path structure (e.g. filtering, searching).
 
-##Request URI
+## Request URI
 `Request-URI = "*" | absoluteURI | abs_path | authority`
 
 It is a Uniform Resource Identifier, helps identifying the **resource** upon which to apply the request.
