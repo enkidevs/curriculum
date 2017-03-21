@@ -23,7 +23,9 @@ Whenever a client fetches a file from a **web server** it is using `HTTP` protoc
 **Request-Line**
 `Request-Line = Method SP Request-URI SP HTTP-Version CRLF`
 
-The request line begiens with a `method`, followed by the request `URI` and the `protocol` version and ends in `CRLF`. All it's parts are separated using SP characters.
+The request line begiens with a `method`, followed by the request `URI` and the `protocol` version and ends in `CRLF`. All it's parts are separated using SP characters, each request must end in <CR><LF>(carriage return and line feed).
+
+Some bad `HTTP/1.0` implementations were generating extra `CRLF` after a `POST` request. Thus `HTTP/1.1` must skip request containing extra `CRLF`.
 
 `GET /dumprequest HTTP/1.1
 Host: rve.org.uk
@@ -41,24 +43,24 @@ This is a HTTP request with:
 - `User-Agent` Mozilla/5.0 (X11; Linux x86_64) together with Accept and Accept-Language specify details about your web browser, what type of things your browser can accept and the language it accepts;
 - `Refering page` specifies which documents refer you to the page;
 - `Cookies` every time a server sends a response to your browser it has the opportunity to send a `cookie` as well, they are small bits of information which contain data your browser stores;
-- `Connection control` keep-alive. 
+- `Connection control` keep-alive.
+
 
 ---
 ## Practice
 
-What does the fox says?
-???
+Bad implementations of `HTTP/1.0` were producing extra ???
+?
 
-* right answer
-* wrong answer
-* wrong answer 2
+* CRLF
+* Requests
+* Cookies
 
 ---
 ## Revision
 
-What does the fox says?
-???
+??? contain information that is already stored by your browser.
 
-* right answer
-* wrong answer
-* wrong answer 2
+* Cookies
+* User-Agent
+* Accept
