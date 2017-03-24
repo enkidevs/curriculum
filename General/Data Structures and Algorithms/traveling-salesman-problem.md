@@ -1,4 +1,4 @@
-# Traveling salesman problem
+# Traveling Salesman Problem
 author: mihaiberq
 
 levels:

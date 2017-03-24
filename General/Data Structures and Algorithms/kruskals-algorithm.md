@@ -12,7 +12,7 @@ category: must-know
 ---
 ## Content
 
-**Kruskal's algorithm** is an algorithm that finds a *minimum spanning tree*[1] in a *connected weighted graph*[2].
+**Kruskal's algorithm** is an algorithm that finds a *minimum spanning tree*[1] in a *weighted graph*[2].
 
 In other words, it finds a *subset of edges* forming a tree that includes *every vertex*, and for which the total weight of the edges is *minimum*.
 
@@ -39,7 +39,7 @@ Kruskal(SortedEdges[])
 
 ```
 
-*Kruskal's algorithm* can be shown to run in *O(E×log E)* time, which is equivalent to *O(E×logV)*, where *E* and *V* are the number of edges and the number of vertices, respectively.
+*Kruskal's algorithm* can be shown to run in *O(|E|×|log E|)* time, which is equivalent to *O(|E|×|logV|)*, where *E* and *V* are the number of edges and the number of vertices, respectively.
 
 Swipe to the next insight to see an iteration of the algorithm.
 
@@ -49,9 +49,9 @@ Swipe to the next insight to see an iteration of the algorithm.
 Kruskal's algorithm is used for finding
 
 ???.
-* the minimum spanning tree in a connected weighted graph
-* distances between the nodes in an weighted graph
-* the number of negative cycles in an weighted graph
+* the minimum spanning tree in a weighted graph
+* distances between the nodes in a weighted graph
+* the number of negative cycles in a weighted graph
 
 ---
 ## Footnotes
@@ -59,7 +59,5 @@ Kruskal's algorithm is used for finding
 [1:Minimum spanning tree]
 Is a connected subgraph H of a graph G which contains all of G's *vertices* and obtains the connectivity by selecting the edges of *minimum weight*.
 
-[2:Connected weighted graph]
-A graph that has numerical values assigned to edges and in which, for every two vertices *u* and *v*, there is path between them(connected).
-
-For Kruskal's algorithm, only an edge-weighted graph is needed.
+[2:Weighted graph]
+A graph that has numerical values assigned to edges
