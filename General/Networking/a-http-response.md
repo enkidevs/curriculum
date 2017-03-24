@@ -18,54 +18,40 @@ links:
 ---
 ## Content
 
-After recieving and interpreting a request, the **server** sends a response to the **client**.
-This responses have the following format:
+A successful response would have the following format:
 
-`Response = Status-Line;
-          *(( general-header ;
-          | response-header ;
-          | entity-header ) CRLF) ;
-          CRLF
-          [ message-body ] ;`
+`HTTP/1.1 200 OK
+Content-type: text/html
+Content-length: 24204
+[blank line]
+[and then 24,204 bytes of HTML code]`
 
+As we already know a `HTTP` response has 3 parts:
 
-`Status-Line = HTTP-Version SP Status-Code SP Reason-Phrase CRLF`
+- The **status line** which states which protocol is the server speaking, followed by a numeric *status code* and a short *message* in the end. In our case: `HTTP/1.1 200 OK`
+we use here, `HTTP` protocol, have a 200 *status code*(200 - 299 status codes are successful) and the message *OK*.
+- The **header line** which let the server send more info in the response. For example if authentication is *required* the server uses the header to state the type of authentication required. The most common header is: `Content-type:`, it is present in this example as well, `text/html` states that the server is able to process *text* and *html* files only. *Headers* must be terminated with a blank line, which must be present even if there are no *headers* included.
+-  `Content-length` is usually specified as well, it states the length, in bytes, of the body. However, this *header* line is unreliable because *dynamically generated*[1] pages rarely include this *header*.
+- The *message-body* contains arbitrary data and it follows the blank line after *headers*. In the case of a typical web *request*, this is the `HTML` document to be displayed. In the event of a *unsuccessful request* the message body contains a *server* generated error message.
+# Footnotes
 
-The first line of the *response* is the **status line**.It contains the *protocol* version followed by the numeric **status codes**, no CRLF is allowed until the end of the sequence.
-- the **status code** is the 3 digit result code.
-- the **response headers** allows information that can't be added in **status codes** to be sent in the response.
-
-## Response headers
-The response headers are fairly limited:
-
-- **Accept-Ranges** describes what content range types the server supports;
-- **Age** header contains information about the amount of time between a nrew request from the client and the time the server send the response;
-- **ETag** represents an identifier for a specific version of resource;
-- **Location** is used in redirect, or when a new resource has been created;
-- **Proxy-Authenticate** contains a authentication request made to the proxy;
-- **Retry-After** when a resource is unavailable, this header specifies, either using a slot of time(nb: 120 s) or using a specific date( 23 March 2017 14 00 GMT) after which to try accessing that resource again;
-- **Server** header represents a name for the server;
-- **Vary** tells downstream proxies[1] how to use future request headers in order to use the cached resource instead of requesting a fresh one;
-- **WWW-Authenticate** indicates the authentication scheme to be used.
-
-## Footnotes
-[1: downstream proxies] - is about the proxies that come in the response's way to the client.
-
+[1: dynamically generated]
+ A dynamic web page is a web page that displays different content each time it's viewed.
 
 ---
 ## Practice
 
-??? describes the content range types.
+The massage body contains a ??? generated massage error in the event of an unsuccessful request.
 
-* Accept-Ranges
-* Age
-* Retry-After
+* Server
+* Client
+* Automatically
 
 ---
 ## Revision
 
-??? is the 3 digit result code.
+??? has a 3 digit format.
 
 * Status-Code
-* ETag
+* Status-Line
 * Response-header
