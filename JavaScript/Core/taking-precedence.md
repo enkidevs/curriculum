@@ -3,6 +3,8 @@ author: jordanfish
 
 levels:
 
+  - beginner
+
   - basic
 
   - advanced
@@ -16,7 +18,7 @@ category: tip
 ---
 ## Content
 
-Precedence decides the order in which operators are evaluated. 
+Precedence decides the order in which operators are evaluated.
 
 Higher precedence means earlier evaluation.
 
@@ -102,7 +104,7 @@ false && true || true
 ```
 * true
 * false
-* 1 
+* 1
 ​---
 ```
 true || true && false
@@ -112,14 +114,14 @@ true || true && false
 * Error
 ​---
 ```
-0 * 1 ? 2 : 3 
+0 * 1 ? 2 : 3
 ```
 * 3
 * 2
 * 0
 ​---
 ```
-var a = 1; a += 3 * 2 ; a 
+var a = 1; a += 3 * 2 ; a
 ```
 * 7
 * 4

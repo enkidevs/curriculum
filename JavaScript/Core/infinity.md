@@ -3,9 +3,9 @@ author: adamMontgomerie
 
 levels:
 
-  - basic
+  - beginner
 
-  - advanced
+  - basic
 
   - medium
 
