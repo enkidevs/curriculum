@@ -33,15 +33,17 @@ There's a big chance you have already encountered them in the following form[3]:
 25.255.0.1
 ```
 
-The actual format of an IP address is:
+With that being the shorhand notations.The actual format of an IP address is:
 ```
 xxx.xxx.xxx.xxx
 ```
 where `xxx` represents a number between `0` and `255`[4].
 
-In reality, things get little bit more complicated, IP addresses behaving in two different ways:
+In reality, things are a little bit more complicated, with the IP spliting into two categories :
  - **static** - hardcoded and constant
  - **dynamic** - frequently changing, being assigned by another device
+
+# Fun fact
 
 Keep in mind that IP addresses are the implementation of the `TCP/IP`[5] protocol stack.
 Alternatives such as `AppleTalk` exist, but `TCP/IP` proved superior and became the standard.
@@ -53,12 +55,12 @@ Alternatives such as `AppleTalk` exist, but `TCP/IP` proved superior and became 
 Garner, Inc. estimates that there will be almost **21 billion** devices connected to the internet by year `2020`.
 
 [2:Notation]
-`IP` is the acronym for **Internet Protocol**
+`IP` is the acronym for **Internet Protocol**.
 
 [3:Clarification]
-This form is specific to the fourth version of *Internet Protocol*, called `IPv4`, accounting for `93%` of internet traffic.
+This form is specific to the fourth version of *Internet Protocol*, called `IPv4`, accounting for `93%` of internet protocole.
 
-In addition, the sixth version of *Internet Protocol* is also in use, called `IPv6`
+In addition to IPv4, the sixth version of the Internet Protocol, called IPv6, is also in use.
 
 The syntax of the latter is:
 ```
@@ -78,10 +80,10 @@ Its name comes from the most famous protocols in use:
 ---
 ## Practice
 
-`IP` can behave either as ??? or as ??? .
+`IP` can behave either as static or as ??? .
 
-* `static`
 * `dynamic`
+* `static`
 * `constant`
 
 ---
@@ -89,6 +91,6 @@ Its name comes from the most famous protocols in use:
 
 `IP`'s job is to help ??? devices connected to a network.
 
-* `distinguish`
+* `identify`
 * `use`
 * `prepare`
