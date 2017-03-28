@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-In *computer networking*, a **port**[1] is an essential component of the *Internet Protocol*. They are numbers that identify individual services on a networked computer.
+In *computer networking*, the **port**[1] is an essential component of the *Internet Protocol*. It is passed as a numerical value that identifies individual services on a networked computer.
 
 A *web server* and a *mail server* can be hosted by the same machine, but they need to be assigned **different** port numbers.
 
