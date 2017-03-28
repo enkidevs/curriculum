@@ -24,7 +24,7 @@ Chances are that while reading this you are connected to *the Internet*, a globa
 
 Now, to make *communication* possible, you need a way to distinguish yourself among the  astonishing number of devices around you.
 
-Here, the *IP[2] address* comes in handy, by uniquely identifying devices in a **network**. This is similar to the way real-life *postal addresses* identify our houses.
+Here, the *IP[2] address* comes in handy by uniquely identifying devices in a **network**. This is similar to the way real-life *postal addresses* identify our houses.
 
 There's a big chance you have already encountered them in the following form[3]:
 
