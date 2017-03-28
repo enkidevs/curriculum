@@ -39,6 +39,8 @@ Attempting to cancel out  by subtracting it from itself results in  (not a numbe
 
 Complete the code snippet:
 
+???
+
 * -Infinity
 * Infinity
 * NaN
