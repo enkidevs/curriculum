@@ -31,7 +31,7 @@ links:
 
 Some of the most exiting features of `ES6` are **generators** and **promises**.
 
-Can you fill in the gaps from the following code snippets such that they make sense?
+Can you fill in the gaps in the following code snippets such that they make sense?
 
 ---
 ## Game Content
