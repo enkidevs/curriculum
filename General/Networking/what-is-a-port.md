@@ -22,9 +22,9 @@ In *computer networking*, the **port**[1] is an essential component of the *Inte
 
 A *web server* and a *mail server* can be hosted by the same machine, but they need to be assigned **different** port numbers.
 
-While the **IP address** identifies a single machine, the combination of **IP address** and **port** identifies a specific service running on that machine.
+While the **IP address** identifies a single machine, the combination of **IP address** and the **port** identifies a specific service running on that machine.
 
-If you think of an IP address like a mailing address then the port is like the apartment or office number.
+If you think of the IP address as the equivalent of a postcode, then the port number represents the house number
 A building located at *249 Oak St.* might have a café at *249 Oak **#1***, a bookshop at *249 Oak **#2***, and a so on.
 
 The syntax used to specify ports is `ip:port`. If our machine is located at `13.0.0.0`, we can have a *mail server* running at:
@@ -40,8 +40,7 @@ To represent ports, a `16 bit` number is used, ranging from `0` to `65535`, yet 
  - `FTP` with port `21`
 
 When you visit an address like `www.enki.com` you can clearly see there is no associated port displayed.
-This happens because the port for the `HTTP` protocol is defined as a default and doesn't need to be explicitly stated.
----
+This happens because the HTTP protocol used to get the page targets the port 80 of the server by default.
 ## Footnotes
 
 [1:ports]
@@ -62,9 +61,8 @@ http://127.0.0.1:9000
 
 ---
 ## Practice
-
-Where is `HTTP`'s port reserved
-??? ?
+What is HTTP's default port?
+???
 
 * `80`
 * `21`
