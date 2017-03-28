@@ -3,7 +3,6 @@ author: jordanfish
 
 levels:
 
-  - basic
 
   - advanced
 
@@ -86,7 +85,7 @@ let x, { x: y = 1 } = { x }; y;
 * Error
 ---
 ```
-typeof (new (class F extends 
+typeof (new (class F extends
   (String, Array) { })).substring
 ```
 * "undefined"
