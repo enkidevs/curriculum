@@ -3,9 +3,9 @@ author: rosielowther
 
 levels:
 
-  - basic
+  - beginner 
 
-  - advanced
+  - basic
 
   - medium
 
@@ -43,7 +43,7 @@ console.log(window.location.pathname);
 ```
 * `/`
 * `#contact`
-*`enki.com`
+* `enki.com`
 ---
 ```
 // https://enki.com/#contact
@@ -51,7 +51,7 @@ console.log(window.location.hash);
 ```
 * `#contact`
 * `/`
-*`enki.com`
+* `enki.com`
 ---
 ```
 // For https://enki.com/#contact

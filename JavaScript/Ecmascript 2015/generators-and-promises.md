@@ -29,7 +29,9 @@ links:
 ---
 ## Content
 
+Some of the most exiting features of `ES6` are **generators** and **promises**.
 
+Can you fill in the gaps in the following code snippets such that they make sense?
 
 ---
 ## Game Content
@@ -61,7 +63,7 @@ genObj.next();
 genObj.next('E');
 
 // what does the console.log ???
-  
+
 ```
 * 1. E
 * 1. n
@@ -108,11 +110,11 @@ let pet1 = Promise.resolve("Dog");
 let pet2 = "Grumpy Cat";
 let pet3 = new Promise((resolve, reject) => {
   setTimeout(resolve, 100, "Fish");
-}); 
+});
 
 Promise.???(
 [pet1, pet2, pet3])
-  .then(function(values) { 
+  .then(function(values) {
     console.log(values);
 });
 

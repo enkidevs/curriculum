@@ -3,7 +3,6 @@ author: jordanfish
 
 levels:
 
-  - basic
 
   - advanced
 
@@ -30,7 +29,7 @@ Note that you need to assume **ECMAScript** 3rd edition. In addition, all `Error
 ## Game Content
 
 ```
-typeof (function* f() { 
+typeof (function* f() {
   yield f })().next().next()
 ```
 * `Error`
@@ -39,7 +38,7 @@ typeof (function* f() {
 * `"object"`
 ---
 ```
-typeof (new class f() 
+typeof (new class f()
   { [f]() { }, f: { } })[`${f}`]
 ```
 * `Error`
@@ -65,7 +64,7 @@ typeof `${{Object}}`.prototype
 ---
 ```
 let arr = [ ];
-for (let { x = 2, y } of 
+for (let { x = 2, y } of
   [{ x: 1 }, 2, { y }]) {
     arr.push(x, y);
 }

@@ -3,9 +3,9 @@ author: adamMontgomerie
 
 levels:
 
-  - basic
+  - beginner
 
-  - advanced
+  - basic
 
   - medium
 
@@ -38,6 +38,8 @@ Attempting to cancel out  by subtracting it from itself results in  (not a numbe
 ## Revision
 
 Complete the code snippet:
+
+???
 
 * -Infinity
 * Infinity

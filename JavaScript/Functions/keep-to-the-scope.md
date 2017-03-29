@@ -3,9 +3,9 @@ author: rosielowther
 
 levels:
 
-  - basic
+  - beginner
 
-  - advanced
+  - basic
 
   - medium
 
@@ -26,7 +26,7 @@ function func() {
   if (true) {
     var a = 'hello';
   }
-  console.log(a); 
+  console.log(a);
 }
 ```
 * `'hello'`
@@ -39,7 +39,7 @@ function func() {
   if (true) {
     let a = 'hello';
   }
-  console.log(a); 
+  console.log(a);
 }
 ```
 * `Reference Error`
@@ -54,7 +54,7 @@ function func() {
   if (true) {
     let a = 'goodbye';
   }
-  console.log(a); 
+  console.log(a);
 }
 ```
 * `'hello'`
