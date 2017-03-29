@@ -30,6 +30,7 @@ else
 end
 ```
 
+
 Example usage:
 
 ```ruby
