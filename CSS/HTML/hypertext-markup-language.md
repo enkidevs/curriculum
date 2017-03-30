@@ -61,7 +61,7 @@ The part of the HTML that is not *displayed* by the browser, but helps it decide
 </html>
 ```
 
-You can find a link to the first ever *online* web page after the workout.
+You can bookmark this insight and see appended to it (in the **Curriculum** section) a link to the *first online web page*.
 
 ---
 ## Practice
