@@ -1,4 +1,4 @@
-# netstat.md
+# Network Statistics
 author: SebaRaba
 
 levels:
@@ -13,23 +13,21 @@ category: must-know
 
 links:
 
-  - '[link to learn more](https://enki.com)'
+  - '[more details here](http://www.c-jump.com/CIS24/Slides/Networking/html_utils/netstat.html)'
 
 ---
 ## Content
 
-Short from *Network Statistics*, the `netstat` command is a simple and really powerful tool that provides useful information regarding network configuration and activity.
+Short from *Network Statistics*, the `netstat` command is a simple and powerful tool that provides useful information about network configuration and activity.
 
-`netstat` is a collection of different utilities, running on different **flags**, yet running it with no flags will display **active internet connections**[1].
+`netstat` is a collection of different utilities, running on different **flags**. When ran with no *flags*, `netstat` will display **active internet connections**.
 
-You can limit what active/passive sockets you see with:
+You can limit what active/passive sockets[1] you see with:
  - `-t` for TCP socket connections
  - `-u` for UDP
- - `-w` for RAW  
- - `-x` for Unix connections
+ - `-w` for RAW[2]
 
-
-To get the **kernel interface table**[2], the `-r` flag is needed:
+To get the **kernel interface table**[3], the `-r` flag is needed:
 ```bash
 $ netstat -r
 
@@ -45,29 +43,31 @@ The `netstat` command has proven useful in a variety of situations, being availa
 
 **FOOTNOTES**
 
-[1:active internet connection]
-In the active internet connections displayed are without servers.
+[1:socket]
+Socket is a bound to a port number which helps `TPC` layer to identify which are the clients that data needs to be sent to. 
 
-[2:kernel interface table]
-On **Linux** the same table can be achieved using `route` command.
+[2:RAW sockets]
+A raw socket is an internet socket that enables direct sending and reciving of internet protocol requests without any protocol-specific transport layer formatting.
 
+[3:kernel interface table]
+On **Linux** the same information can be retrieved form the table using `route` command.
 
 ---
 ## Practice
 
-What other command can be used on Linux to get the same kernel interfaces table
+Which flag is needed to display kernel interface table
 ??? ?
 
-* `route`
-* `traceroute`
-* `nslookup`
+* `-r`
+* `-x`
+* `-i`
 
 ---
 ## Revision
 
-What flag do we need to use to get all Unix connections
+Flag for all TCP connections used with $ netstat 
 ??? ?
 
-* `-x`
+* `-t`
 * `-i`
 * `-u`
