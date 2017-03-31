@@ -12,8 +12,7 @@ type: normal
 category: must-know
 
 links:
-
-  - '[learn more](https://shapeshed.com/unix-traceroute/)'
+- '[learn more](https://shapeshed.com/unix-traceroute/)'
 
 ---
 ## Content
