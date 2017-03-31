@@ -79,6 +79,6 @@ p {
    box-shadow: 5px 2px 4px blue;
 }
 ```
-* A blue shadow offset 5px by 2px with a blur radius of 4px.
-* A blue shadow offset 2px by 4px with a blue radius of 5px.
-* A blue shadow offset 2px by 5px with a blur radius of 4px.
+* A blue shadow with offset-x = 5px, offset-y = 2px and a blur radius of 4px.
+* A blue shadow with offset-y = 2px, offset-y = 4px and a blue radius of 5px.
+* A blue shadow with offset-x = 2px, offset-y = 5px and a blur radius of 4px.
