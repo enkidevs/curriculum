@@ -88,8 +88,10 @@ $ ??? ???
 ---
 ## Revision
 
-`sed` stands for ???
+To replace all the occurrences of a word, you would most likely use the
 
-*stream editor.
-*string editor.
-*special education.
+???
+*`g` flag
+*`all` flag
+*`l` flag
+*`0` flag
