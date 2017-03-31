@@ -13,12 +13,14 @@ category: must-know
 
 links:
 
-  - '[link to learn more](https://enki.com)'
+  - '[learn more](http://www.tutorialspoint.com/unix_commands/ifconfig.htm)'
 
 ---
 ## Content
 
 The `ifconfig` command is available on **Linux** and **OS X**. It enables users to configure and view information about network interfaces via command line interface.
+
+The **network interface** is an interconnection point between the a private or public network. 
 
 The equivalent for `ifconfig` command on **Windows** is `ipconfig`, but works in a slightly different way[1].
 
@@ -29,13 +31,16 @@ $ ifconfig
 ```
 To see both, active and inactive connections the `-a` flag can be used.
 
-Specifying an interface name as an argument will limit the output to that specific interface:
+Specifying an interface name as an argument will limit the output to that specific interface.
+Interfaces vary from distribution to distribution, for example: lo is used on Linux machine whilst on Mac ones lo0 is used. 
+
+An example of `$ ifconfig lo`:
 
 ```
 $ ifconfig lo
 lo Link encap:Local Loopback  
    inet addr:127.0.0.1  
-          Mask:255.0.0.0
+   Mask:255.0.0.0
 ...
 
 
@@ -48,12 +53,6 @@ $ ifconfig eth0 down
 
 ```
 
-To assign a IP address to a specific interface:
-
-```
-$ ifconfig eth0 145.33.43.223
-```
-
 **FOOTNOTES**
 
 [1:ipconfig]
@@ -62,11 +61,13 @@ For example, to display detailed, full configuration information, on Windows, th
 C:\> IPCONFIG /all
 ```
 [2:activate/deactivate]
-Instead of using the `up/down` flags, specialised equivalent commands are available:
+Instead of using the `up/down` flags, specialised equivalent commands are available(The same command is used on all distributions):
+
 ```
-$ ifup eth0
-$ ifdown eth0
+$ ifconfig eth0 up
+$ ifconfig eth0 down
 ```
+
 ---
 ## Practice
 
@@ -76,11 +77,12 @@ What is the corespondent for ifconfig in Windows
 * `ipconfig`
 * `tracepath`
 * `netstat`
+* `ipconfig`
 
 ---
 ## Revision
 
-In order to view both, active and inactive connections, we need to use the flag
+Which flag is used to show active and innactive connections 
 ??? ?
 
 * `a`
