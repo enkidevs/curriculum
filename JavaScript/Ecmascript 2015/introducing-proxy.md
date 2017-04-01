@@ -52,7 +52,7 @@ x.someProp; //enki
 
 ..so we need to be sure to access the obj via the proxy wrapper:
 ```
-p.someProp //some prop was accessed
+p.someProp //someProp was accessed
 ```
 
 Proxies can also be used to intercept set calls. Maybe for example we want to validate a value passed in without changing the underlying code:

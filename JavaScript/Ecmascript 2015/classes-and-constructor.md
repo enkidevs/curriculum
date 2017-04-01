@@ -37,12 +37,6 @@ class Person {
 var p = new Person();
 ```
 
-The following approach (called a class expression) is also valid:
-
-```
-var p = class Person{};
-```
-
 **Constructor**
 
 Often you will want the user to supply initialisation arguments to the class – we can do this by introducing a **constructor**. 
