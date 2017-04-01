@@ -38,7 +38,7 @@ console.log(lastVal);
 
 Values can be added to the array with the *push* method which returns the new length of the array:
 ```
-myArray.push(4); //4
+myArray.push(555); //4
 myArray.push(5,6,7); //7
 ```
 Or the last item can be returned and removed using *pop*:

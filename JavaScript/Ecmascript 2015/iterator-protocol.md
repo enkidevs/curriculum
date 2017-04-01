@@ -30,7 +30,7 @@ You can think of the iterator contract as having the following structure:
 
 ```
 Iterator {
-    next() : {value, done);
+    next() : {value, done};
 }
 ```
 

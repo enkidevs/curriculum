@@ -34,7 +34,7 @@ If we just want to just use specific functions from a module we can do so with t
 
 ```
 import { triple as mathFuncs } 
-from 'double';
+from 'mathFuncs';
 mathFuncs.triple(2); //6
 mathFuncs.double(2); //error not imported
 ```

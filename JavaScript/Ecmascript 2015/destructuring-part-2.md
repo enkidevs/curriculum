@@ -16,18 +16,6 @@ category: must-know
 
 Destructuring can also be used to work with objects.
 
-**Copying objects**
-
-The below example uses destructuring to  create a new object (obj) that is a copy of the source object (o):
-
-```
-var source = 
-{company: "Enki", topic: "js"};
-
-var obj= {} = source;
-//obj={company: "Enki", topic: "js"}
-```
-
 **Specifying where to assign variables **
 
 Sometimes when using destructuring you will want to specify where values should be assigned - this can be done as follows:
