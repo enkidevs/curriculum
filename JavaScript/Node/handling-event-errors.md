@@ -67,6 +67,7 @@ What happens when the event emitter emits an event with no attached listeners?
 
 ---
 ## Footnotes
+
 [1:Event emitter]
 
 Many objects in Node can **emit** events.
