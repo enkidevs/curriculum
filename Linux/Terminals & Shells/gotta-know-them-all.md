@@ -24,19 +24,22 @@ Can you guess which commands fits best the description or scenario given?
 ## Game Content
 
 ```
-Which command can update a user's 
+Which command can update a user's
 authentication token?
 ```
 *passwd
 *password
 *auth-token
 *ps
+%exp
+`passwd` is the utility used for updating authentication tokens. The task is achieved through calls to the Linux-PAM.
+%
 ---
 ```
 Which utlity is an interface
-used for securely gaining access 
-to a remote computer and is used by 
-network admins to control servers 
+used for securely gaining access
+to a remote computer and is used by
+network admins to control servers
 remotely?
 ```
 *ssh
@@ -53,9 +56,9 @@ kernel-resident network interfaces?
 ---
 ```
 What do you use to search files
-for a given string or pattern? 
+for a given string or pattern?
 You can also replace strings
-with it. 
+with it.
 ```
 *grep
 *gawk
@@ -82,8 +85,8 @@ special mode flags.
 ---
 ```
 What should be used to change
-the system's date and time? 
-This one also proves useful when 
+the system's date and time?
+This one also proves useful when
 working with script files to output
 such information.
 ```
@@ -102,7 +105,7 @@ mounted file systems?
 ---
 ```
 What can be used to search the
-directory tree for files 
+directory tree for files
 meeting given condition?
 ```
 *find
