@@ -90,7 +90,7 @@ What default permission would a *new file* have if the `umask` is `314` (which t
 ---
 ## Revision
 
-What `umask` value makes the new files only accessible by the user that created them?
+What `umask` value makes the new files only accessible to the user who created them?
 
 ???
 *077
