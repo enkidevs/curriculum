@@ -75,12 +75,11 @@ a.getAbsolutPath(); // /home/path/file.txt
 * Document a = new Document("file");
 * String a = new String("file.txt");
 %exp
-Class `java.io.File`  has implemented methods `.canWrite()` and method `.getAbsolutePath()`.
+The `java.io.File` class provides both the `.canWrite()` and `.getAbsolutePath()` methods.
 
 `.canWrite()` - returns `true` or `false` if the application can write to that file
 
-
-`.getAbsolutePath()` - returns the absolute path of denoted file
+`.getAbsolutePath()` - returns the absolute path of the denoted file
 %
 ---
 ```
