@@ -14,7 +14,7 @@ category: must-know
 ---
 ## Content
 
-*for in* loops allows you to iterate through an objects keys. E.g. the keys below are firstName and lastName:
+*for in* loops allow you to iterate through an objects keys. E.g. the keys below are firstName and lastName:
 
 ```
 var obj = {
