@@ -12,7 +12,7 @@ category: must-know
 ---
 ## Content
 
-**Pre-order traversal** is a type of *depth-first traversal* in which the *root* of the tree is placed to the left of the left child. It only makes sense for **binary trees**.
+**Pre-order traversal** is a type of *depth-first traversal* in which the visiting order is: root, left child, right child. It only makes sense for **binary trees**.
 
 It works like this:
 - *Modify/Display* the data of the current node (starting with the root).

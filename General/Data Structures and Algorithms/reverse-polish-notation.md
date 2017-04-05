@@ -12,14 +12,16 @@ category: how to
 ---
 ## Content
 
-**Reverse polish notation**, or *postfix notation*, is a mathematical notation in which the *operators* follow their *operands* (+, ×, etc.). 
+**Reverse polish notation**, or *postfix notation*, is a mathematical notation in which the *operators* follow their *operands* (+, × etc. can be found on the right side of their operands).
 ```
 // Infix notation
 (2+5)×3
 // Polish notation - PN
-× + 2 5 3
+(2+5) -> + 2 5
+(2+5)×3 -> × + 2 5 3
 // Reverse polish notation - RPN
-2 5 + 3 ×
+(2+5) -> 2 5 +
+(2+5)×3 -> 2 5 + 3 ×
 ```
 An advantage of RPN is that it doesn't need parentheses required by the *infix notation*:
 ```
@@ -29,7 +31,6 @@ An advantage of RPN is that it doesn't need parentheses required by the *infix n
 // (5+4)×3
 5 4 + 3 ×
 ```
-
 
 ---
 ## Practice

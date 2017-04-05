@@ -12,11 +12,30 @@ category: must-know
 ---
 ## Content
 
-**Binary search** is an efficient algorithm for finding data in *ordered* arrays or lists. Ordering is important because it allows us to split the search space in half for each comparison: if the item in the middle of the current data structure is bigger, look to its left only, otherwise look to its right.
+**Binary search** is an efficient algorithm for finding data in *ordered* arrays or lists. Ordering is important because it allows us to split the search space in half after each comparison operation. The principle is simple:
+ - look for the element in the middle of the current data structure
+ - if the middle is bigger, repeat step 1 for the elements to the left
+ - if the middle is smaller, repeat step 1 for the elements to the right
+ - stop when the element is found or there are no items left to check
 
 Say you have a database containing 200,000 users, sorted by their username. To retrieve the user object with the username `zephyr123`, you could iterate through approximately 200,000 users to find it. Or you could use *binary search*, and end up with around 18 computations.
 
-By now you should be familiar with Binary Search Tree and the fact that it implements the same approach for searching(hence the name). In a BST, searching takes `O(log n)` time. Does it make sense for a *general* binary search algorithm to also finish in `O(log n)` time?
+Linear searching has linear complexity: `O(n)`. However, we don't check every element when using binary search. In the worst-case scenario, the last division of the elements yields a single item to be checked. In other words, we divided the number of items in 2 **m** times:
+```text
+n / (2*2*...*2) = 1
+multiplying the 2's we obtain
+n / 2ˆm = 1
+multiplying both sides of
+ the equation by 2ˆm
+n = 2ˆm
+```
+If we were to apply the logarithmic function for the last equality above, we are left with:
+```text
+log n = log 2ˆm
+which is equivalent to
+log n = m * log 2 = m * 1 = m
+```
+We proved that the maximum number of operations is logarithmic relative to the total number of items. Does it make sense for us to say that the algorithm takes `O(log n)` time?
 
 Yes, it does! If you were to divide 200,000 in half 17 times, you'd end up with an astonishing total of **1.5** items you would still have to compare. In other words:
 ```
@@ -40,9 +59,9 @@ Which results in the searching process ending after 3 steps.
 ---
 ## Revision
 
-In the worst-case scenario, the binary search algorithm takes
+The Big-O of the binary search algorithm is:
 
-???.
+???
 
 * O(log n)
 * O(n)

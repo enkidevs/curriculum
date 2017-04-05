@@ -28,7 +28,7 @@ More formally, a **linked tree T** is a set of **nodes** having a **parent-child
 - If *T is non-empty*, it must have a node, called *root*, without a parent.
 - Every *node* other than the root has an unique parent *w*; those nodes are the children of *w*.
 
-A tree is **ordered** if there is a *linear* relation among the *nodes on each level*. The components of a book are organized this way:
+A tree is **ordered** if there is a *linear* relation among the *nodes on each level*. The way a book is structured exemplifies this:
 - The actual document, the book, is the *root*.
 - The next level is occupied by each part of the book (tPreface, Part A, Part B).
 - The following level contains the *chapters* in each part (1,2,3).
@@ -68,7 +68,7 @@ Which of the following is true?
 ---
 ## Revision
 
-Which of the following is true?
+Which of the following statements does apply to Tree data structures?
 
 ???
 * The root node has no parents.

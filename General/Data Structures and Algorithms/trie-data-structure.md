@@ -1,4 +1,4 @@
-# Trie Data Structure
+# The Trie Data Structure
 author: mihaiberq
 
 levels:
@@ -22,19 +22,19 @@ The best example that uses the trie data structure is the autocomplete function 
 
 A node that has a *value associated* represents a word with a higher or lower chance to be picked by the autocomplete function.
 
-Looking up data in a *trie* is fast: the worst case takes *O(m)*, where *m* is the length of the string, and you don't have to worry about two different words ending up in the same space(*collision*).
+Looking up data in a *trie* is fast: the worst case takes *O(m)*, where *m* is the length of the string, and you don't have to worry about two different words ending up in the same location(*collision*).
 
-The drawback is that *tries* can take up more space than their counterparts(because they contain each step towards the final step) and it is hard to prevent adding long, meaningless sequences of characters to the trie.
+The drawback is that *tries* can take up a lot of space because they save each intermediate step. It is also hard to prevent adding long, meaningless sequences of characters to the trie.
 
 They are also called *prefix trees* because a *pre-order traversal* would visit the nodes in *lexicographical order*.
 
 ---
 ## Revision
 
-In a trie, what happens to the words as you move away from the root?
+How long does searching for a word take?
 
 ???
-* Their length increases.
-* Their length decreases.
-* They are more likely to be picked.
-* They are less likely to be picked.
+* O(word's length)
+* O(trie's size)
+* O(word's length * trie's size)
+* O(log n)

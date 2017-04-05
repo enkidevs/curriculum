@@ -27,7 +27,7 @@ Which yields the sequence:
 A, B, C, D, E, F, G, H
 ```
 
-A full traversal of the tree takes  *O(n)* time and *O(n)* space[1], where *n* is the number of nodes. We can say the traversal is a *linear* function.
+A full traversal of the tree takes  *O(n)* time and *O(n)* space, where *n* is the number of nodes. We can say the traversal is a *linear* function.
 
 ---
 ## Revision
@@ -41,13 +41,7 @@ Which node will be prioritized after *B* in a depth-first traversal?
    D     E
 ```
 ???
-*D
-*E
-*A
-*C
-
----
-## Footnotes
-
-[1:Big-O]
-O(n) refers to the upper bound of the function.
+* D
+* E
+* A
+* C

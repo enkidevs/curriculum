@@ -55,9 +55,9 @@ Is the following a *binary search tree*?
 ```
           15
         /    \
-       10     20
-      /      /  \
-     3      18 - 28
+       10    18
+      /     /  \
+     3     20  28
 ```
 
 ???

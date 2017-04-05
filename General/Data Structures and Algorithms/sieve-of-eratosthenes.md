@@ -12,7 +12,7 @@ category: must-know
 ---
 ## Content
 
-**Sieve of Eratosthenes** is a simple algorithm for finding all the prime numbers smaller than a given value.
+**Sieve of Eratosthenes** is a simple algorithm for finding all the prime numbers smaller than a given value. The algorithm dates way back, to *200BC*.
 
 The simplicity of the algorithm comes from the fact that no *primality testing*, which will be discussed in a further insight, will be necessary.
 
@@ -20,9 +20,9 @@ A prime number is the number that has exactly two distinct natural divisors: *1*
 
 Sieve of Eratosthenes algorithm goes as follows:
 - create a list of *n-1* consecutive numbers beginning with 2.
-- starting with 2, mark as **not prime** every multiple of 2 ( 4,6,8 ... 2k<=n); **do not mark** 2 .
-- find the next *unmarked* number and repeat the marking procedure .
-- the algorithm ends when the current value reaches the largest number (n).
+- starting with 2, mark as **not prime** every multiple of 2 ( 4,6,8 ... 2k<=n); **do not mark** 2.
+- find the next *unmarked* number and mark its multiples (3, then 5 etc.).
+- repeat step 3 until the current value reaches the largest number (n).
 
 This is how the algorithm works:
 ```
@@ -51,11 +51,11 @@ This is how the algorithm works:
 ```
 The unmarked values left are all the prime numbers smaller than *n*.
 
-You can reduce the memory used to store the values by using a boolean array of *length n* - "marking" a number becomes changing the boolean value at that specific index to *true*.
+When implementing the algorithm, you can reduce the memory used to store the values by using a boolean array of *length n* - "marking" a number becomes changing the boolean value at that specific index to *true*.
 ---
 ## Practice
 
-What is the space required by the algorithm?
+What is the algorithm's size complexity when it is used with an array?
 
 ???
 
