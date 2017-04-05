@@ -29,6 +29,12 @@ Accessor methods:
 - `isEmpty()` : *Returns* true if there are no elements in the queue.
 - `first()` : *Returns* the element at the front of the queue.
 
+This is how you would work with queues in different programming languages:
+  - `Java`: There is no Queue class in Java, just an interface. That means, given the name of the functions to be implemented(`add`, `peek`, `remove`), you have to write those methods yourself.
+  - `JavaScript`: There is no special Queue prototype in JavaScript. The Array prototype, however, supports the `push` and `shift` methods that emulate the behavior of a queue.
+  - `Python`: You can instantiate queues using the `queue` module in python3, or the `Queue` module in python2. The insertion method is called `put`, while the removal one is `get`.
+  - `C++`: Queues in C++ are part of the `std::queue` library. In this case, elements can be inserted by using `push` and removed by using `pop`.
+
 ---
 ## Practice
 
@@ -52,12 +58,11 @@ Q.dequeue()     ???
 ---
 ## Revision
 
-Which of the following methods is queue-specific?
-```
-Queue.???
-```
-* `first()`
-* `push()`
-* `pop()`
-* `last()`
-* `size()`
+The working principle behind a queue is
+
+???
+
+* FIFO
+* LIFO
+* SASS
+* OOP

@@ -62,22 +62,20 @@ myArray[0] = x;
 ---
 ## Practice
 
-In most languages, to retrieve the first element of an array, you would write:
-```
-???
-```
-* `myArray[0]`
-* `myArray.get(0)`
-* `myArray.0`
-* `myArray(0)`
+To access an element in an array, you would use:
 
+???
+* indexes
+* promises
+* values
+* data structures
 ---
 ## Revision
 
-Choose the valid way to access an array's element:
+An array that has its size declared up-front it's called 
 
-`???`
-*`myArray[1]`
-*`myArray.get(1)`
-*`myArray.1`
-*`myArray{1}`
+???
+* static
+* dynamic
+* indexed
+* associative
