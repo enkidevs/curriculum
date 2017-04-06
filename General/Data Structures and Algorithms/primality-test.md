@@ -24,7 +24,7 @@ Some improvements can be made to the algorithm: there is no point in verifying n
 ```
 In other words, if **n** doesn't have any divisor smaller than √n, there isn't any *natural divisor* greater than √n.
 
-To further reduce the time needed for *multiple, successive* primality tests, *the sieve of Eratosthenes* can be generated and used. If a number is divisible by any *multiple of 2*, we know for sure it is also divisible by *2*, making some of the computations redundant.
+To further reduce the time needed for *multiple, successive* primality tests, *the sieve of Eratosthenes* can be generated and used (Remember there's no primality testing needed for generating the sieve). If a number is divisible by any *multiple of 2*, we know for sure it is also divisible by *2*, making some of the computations redundant.
 
 The pseudocode looks like this:
 ```

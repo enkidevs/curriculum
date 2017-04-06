@@ -16,21 +16,22 @@ category: must-know
 
 If the graph contains a *negative cycle* (the weight of the edges sum to a negative value) reachable from the source, every *walk*[1] around that cycle would decrease its cost - if this is the case, the algorithm should throw an error.
 
-Like *Dijkstra's*, this algorithm is based on the principle of *relaxation*[2]. For *Bellman-Ford*, instead of visiting each node using a *closest-first approach*, *|V-1|* iterations are done, where *|V|* is the number of vertices(e.g. for a graph with 5 vertices, the maximum number of iterations would be 4).
+Like *Dijkstra's*, this algorithm is based on the principle of *relaxation*[2]. For *Bellman-Ford*, instead of visiting each node using a *closest-first greedy approach*, `|V-1|` iterations are done, where `|V|` is the number of vertices(e.g. for a graph with 5 vertices, the maximum number of iterations would be 4).
 
 Because the implementation differs from one graph representation to another, the following way of applying the algorithm may not always work[3].
 
 The algorithm follows a pattern:
 - Instantiate two data structures, one for the *distances* between the nodes and one for the *predecessors* of the given nodes.
-- Set the distance to *0* for the *initial node* and *infinity* for the rest. Initialize *predecessors* as *null*.
-- While *iterating |V-1|* times:
-  - If the node is *not reachable*, move on for now
-  - Else, update the node's distance to the origin if the new one is smaller than the old one
+- Set the distance to `0` for the *initial node* and `infinity` for the rest. Initialize *predecessors* as `null`.
+- `While` iterating |V-1| times:
+  - `If` the node is *not reachable*, move on for now
+  - `Else`, update the node's distance to the origin if the new one is smaller than the old one
   - Move on to the next node, until all of them are visited
+  - Increment the while counter and start again
 - You can terminate the algorithm earlier if the distances stop changing.
 
 The *pseudocode* looks like this:
-```javascript
+```text
 function BellmanFord(vertices,
                      edges,source)
   distance[],predecessor[]
@@ -56,7 +57,7 @@ function BellmanFord(vertices,
   return distance[], predecessor[]
 ```
 
-The algorithm runs in *O(|V|×|E|)* time, where *|V|* and *|E|* are numbers of vertices and edges, respectively. Swipe left for an iteration of the algorithm.
+The algorithm runs in `O(|V|×|E|)` time, where `|V|` and `|E|` are numbers of vertices and edges, respectively. Swipe left for an iteration of the algorithm.
 
 ---
 ## Revision
@@ -84,4 +85,4 @@ Assigning an initial approximate value to the distance (i.e. infinity), then rep
 [3:Assumption]
 We will assume that the *directed graph* is represented using a *nodes list* and a map with *(edge, weight)* pairs, for which a directed *edge from u to v* is represented as *(u,v)*.
 
-The map would, therefore, contain pairs like **((u,v),weight))**.
+The map would, therefore, contain pairs like `((u,v),weight))`.

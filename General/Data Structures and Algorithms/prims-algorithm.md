@@ -22,13 +22,11 @@ Prim(AdjMatrix)
 
 
 ```
-
-
-The difference between Kruskal's and Prim's is that the former starts building the minimum spanning tree using the cheapest edges first, while the latter starts with a node and looks for the cheapest edge incident to that node.
+The difference between Kruskal's and Prim's is that the former starts building the minimum spanning tree using the cheapest edges first, while the latter starts off by picking a random node and then finds the cheapest edge incident to it.
 
 In terms of time complexity, for dense graphs[1], the algorithm can get as fast as *linear time*. Increasing the number of edges for each node means there is a smaller chance for the algorithm to reach a dead end and backtrack.
 
-However, the time upper-bound depends on how the graph is represented. For example, the difference between a matrix representation and an adjacency list and a sorted array of edges(by weight) is shown below:
+The time upper-bound also depends on how the graph is represented[2]. For example, the difference between a matrix representation and an adjacency list and a sorted array of edges(by weight) is shown below:
 ```text
 matrix: O(|V|×|V|)
 adjacency list + sorted array:
@@ -53,3 +51,6 @@ Prim's algorithm can be applied for
 A dense graph is a graph in which the number of edges is close to a complete graph's number of edges. A complete graph is a graph for which there is an `edge between any two nodes`.
 
 The maximal number of edges of a directed graph is `|V|×|V-1|`, while for an undirected one it is `(|V|×|V-1|)/2`.
+
+[2: Graph Representation]
+If you remember the first Data Structure and Algorithm insight, we said that different data structures are optimized for different types of operations.

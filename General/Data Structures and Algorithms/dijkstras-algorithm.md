@@ -73,8 +73,8 @@ What does Dijkstra's algorithm achieve?
 ## Footnotes
 
 [1:Weighted graph]
-A graph in which every edge has numerical values assigned to it.
-```
+A graph in which every edge has numerical values (weight or cost) assigned to it.
+```text
          A   -   B
       3/     2    
        D       

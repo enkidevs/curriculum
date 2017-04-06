@@ -1,4 +1,4 @@
-# Binary search
+# Prim's Algorithm Iteration
 author: mihaiberq
 
 levels:

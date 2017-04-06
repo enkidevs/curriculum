@@ -17,7 +17,7 @@ Postfix notation is used in *stack-based* languages and *pipeline-based* systems
 For calculators, an advantage of using this notation comes from the fact that fewer operations are required to analyse an expression, since there is no need to take parentheses into consideration.
 
 The algorithm to calculate a RPN expression is as follows:
-- While there is input left (starting from the left-most side):
+- Starting with the left-most token, while there is input left:
   - Read the next token.
   - If the token is a value, push it onto the stack.
   - If the token is an operator, pop *n* values (required by the operator) from the stack, evaluate the expression then push the result back. Return an *error* if there aren't sufficient items in stack
