@@ -39,7 +39,7 @@ To get the **kernel interface table**[1], the `-r` flag is needed:
 $ netstat -r
 
 ```
-Running `netstat` with the `-i` flag will output the **network interfaces** currently installed in your system.
+Running `netstat` with the `-i` (Unix only) flag will output the **network interfaces** currently installed in your system.
 ```bash
 $ netstat -i
 ```
