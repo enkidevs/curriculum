@@ -22,7 +22,7 @@ links:
 ---
 ## Content
 
-We have witnessed an exponential growth of **computer networks** since introduction, more and more people using them every day.
+We have witnessed an exponential growth of **computer networks** since their introduction, more and more people using them every day.
 
 It stands to reason that their complexity increased as well in favour of automated, faster, more reliable and secure communication.
 
