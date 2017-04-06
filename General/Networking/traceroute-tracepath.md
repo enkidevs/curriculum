@@ -12,7 +12,8 @@ type: normal
 category: must-know
 
 links:
-- '[learn more](https://shapeshed.com/unix-traceroute/)'
+
+  - '[learn more](https://shapeshed.com/unix-traceroute/)'
 
 ---
 ## Content
@@ -56,7 +57,7 @@ Each line in the output follows the format:
 hop_number host_name IP_address pkrtt_times
 ```
 
-- **hop_number** in computer networking a hop means one portion of the path from the source to the destination. hop_number refers to the number of intermediate devices through which data must be sent through. 
+- **hop_number** in computer networking a hop means one portion of the path from the source to the destination. hop_number refers to the number of intermediate devices through which data must be sent through.
 - **host_name** this field contains the result of a reverse DNS lookup(determining the domain name associated with an IP address).
 - **IP_address** this field contains the IP address for this network hop.
 - **packet_trace_rout_trip_times**(pkrtt_times) the remainder of the line gives the round-trip times for a packet to the host and back again.
@@ -77,7 +78,7 @@ Which of the following is not displayed in the `traceroute/tracepath` output
 ---
 ## Revision
 
-The networking tool used to check connectivity between two IP hosts. 
+The networking tool used to check connectivity between two IP hosts.
 
 * ping
 * admin
