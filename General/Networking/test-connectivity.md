@@ -1,4 +1,4 @@
-# Testing internet connectivity
+# Testing Internet Connectivity
 author: SebaRaba
 
 levels:
@@ -13,11 +13,13 @@ levels:
 
 type: normal
 
-category: must-know
+category: how-to
 
 links:
 
   - https://shapeshed.com/unix-traceroute/
+
+  - http://www.thegeekstuff.com/2009/11/ping-tutorial-13-effective-ping-command-examples/
 
 ---
 ## Content

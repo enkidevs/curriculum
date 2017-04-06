@@ -13,7 +13,7 @@ levels:
 
 type: normal
 
-category: must-know
+category: how-to
 
 links:
 

@@ -1,4 +1,4 @@
-# Network interfaces
+# Network Interfaces
 author: SebaRaba
 
 levels:
@@ -13,11 +13,11 @@ levels:
 
 type: normal
 
-category: must-know
+category: how-to
 
 links:
 
-  - http://www.tutorialspoint.com/unix_commands/ifconfig.htm
+  - http://www.computerhope.com/unix/uifconfi.htm
 
 ---
 ## Content

@@ -1,4 +1,4 @@
-# Tools to interact with networks.
+# Tools to interact with Networks
 author: SebaRaba
 
 levels:
@@ -17,7 +17,7 @@ category: must-know
 
 links:
 
-  - https://www.lantronix.com/resources/networking-tutorials/
+  - http://www.tecmint.com/linux-network-configuration-and-troubleshooting-commands/
 
 ---
 ## Content

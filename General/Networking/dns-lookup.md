@@ -1,4 +1,4 @@
-# DNS lookup
+# DNS Lookup
 author: SebaRaba
 
 levels:
@@ -9,7 +9,7 @@ levels:
 
 type: normal
 
-category: must-know
+category: how-to
 
 links:
 
@@ -17,10 +17,12 @@ links:
 
   - https://help.dyn.com/how-to-use-binds-dig-tool/#installdigwindows
 
+  - http://computer.howstuffworks.com/dns.htm
+
 ---
 ## Content
 
-The **DNS** (Dynamic Name System) is used to map common domain names such as: `www.enki.com` to unknown IP addresses that frequently change.
+The **DNS** (Domain Name System) is used to map common domain names such as: `www.enki.com` to unknown IP addresses that frequently change.
 
 Traditionally, the **DNS lookup** was done with the help of `nslookup` command. At some point, this was deprecated on Unix systems in favour of the `dig` command. However, *BIND* company, which maintains and distributes `nslookup`, resurrected it.
 
