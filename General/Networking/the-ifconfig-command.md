@@ -1,4 +1,4 @@
-# The ifconfig command
+# Network interfaces
 author: SebaRaba
 
 levels:
@@ -81,7 +81,7 @@ $ ifconfig eth0 down
 
 What is the corespondent for `ifconfig` in **Windows**?
 
-??? 
+???
 
 * `ipconfig`
 * `tracepath`
