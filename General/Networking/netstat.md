@@ -40,19 +40,6 @@ $ netstat -i
 The `netstat` command has proven useful in a variety of situations, being available in most operating systems including **Windows**, **Linux** and **OS X**.
 
 ---
-
-**FOOTNOTES**
-
-[1:socket]
-Socket is a bound to a port number which helps `TPC` layer to identify which are the clients that data needs to be sent to.
-
-[2:RAW sockets]
-A raw socket is an internet socket that enables direct sending and reciving of internet protocol requests without any protocol-specific transport layer formatting.
-
-[3:kernel interface table]
-On **Linux** the same information can be retrieved form the table using `route` command.
-
----
 ## Practice
 
 Which flag is needed to display kernel interface table
@@ -71,3 +58,15 @@ Flag for all TCP connections used with $ netstat
 * `-t`
 * `-i`
 * `-u`
+
+---
+## Footnotes
+
+[1:socket]
+Socket is a bound to a port number which helps `TPC` layer to identify which are the clients that data needs to be sent to.
+
+[2:RAW sockets]
+A raw socket is an internet socket that enables direct sending and reciving of internet protocol requests without any protocol-specific transport layer formatting.
+
+[3:kernel interface table]
+On **Linux** the same information can be retrieved form the table using `route` command.

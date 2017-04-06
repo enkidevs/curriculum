@@ -53,13 +53,6 @@ The first part of `$ dig`'s output displays some information about itself and wh
 The question and answer sections which represent the **request** we sent and the **response** the server sent back.
 The final section of the default output contains statistics about the query[2].
 
-
-## Footnotes
-[1:DDoS attack]
-A distributed denial of service attack occurs when multiple systems flood the bandwidth or resources of a server.
-
-[2:query]
-Represents a request sent to the server.
 ---
 ## Practice
 
@@ -78,3 +71,11 @@ How would you find the IP address behind the yahoo.com DNS ??? ?
 * $ nslookup yahoo.com
 * $ nslookup yahoo
 * $ nslookup 52.85.178.44
+
+---
+## Footnotes
+[1:DDoS attack]
+A distributed denial of service attack occurs when multiple systems flood the bandwidth or resources of a server.
+
+[2:query]
+Represents a request sent to the server.

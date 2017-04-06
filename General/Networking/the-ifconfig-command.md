@@ -53,21 +53,6 @@ $ ifconfig eth0 down
 
 ```
 
-**FOOTNOTES**
-
-[1:ipconfig]
-For example, to display detailed, full configuration information, on Windows, the command is:
-```
-C:\> IPCONFIG /all
-```
-[2:activate/deactivate]
-Instead of using the `up/down` flags, specialised equivalent commands are available(The same command is used on all distributions):
-
-```
-$ ifconfig eth0 up
-$ ifconfig eth0 down
-```
-
 ---
 ## Practice
 
@@ -88,3 +73,20 @@ Which flag is used to show active and innactive connections
 * `a`
 * `up`
 * `all`
+
+---
+## Footnotes
+
+[1:ipconfig]
+For example, to display detailed, full configuration information, on Windows, the command is:
+```
+C:\> IPCONFIG /all
+```
+
+[2:activate/deactivate]
+Instead of using the `up/down` flags, specialised equivalent commands are available(The same command is used on all distributions):
+
+```
+$ ifconfig eth0 up
+$ ifconfig eth0 down
+```
