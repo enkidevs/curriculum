@@ -13,14 +13,14 @@ category: must-know
 
 links:
 
-  - '[learn more](http://www.tutorialspoint.com/unix_commands/ifconfig.htm)'
+  - http://www.tutorialspoint.com/unix_commands/ifconfig.htm
 
 ---
 ## Content
 
 The `ifconfig` command is available on **Linux** and **OS X**. It enables users to configure and view information about network interfaces via command line interface.
 
-The **network interface** is an interconnection point between the a private or public network. 
+The **network interface** is an interconnection point between the a private or public network.
 
 The equivalent for `ifconfig` command on **Windows** is `ipconfig`, but works in a slightly different way[1].
 
@@ -32,7 +32,7 @@ $ ifconfig
 To see both, active and inactive connections the `-a` flag can be used.
 
 Specifying an interface name as an argument will limit the output to that specific interface.
-Interfaces vary from distribution to distribution, for example: lo is used on Linux machine whilst on Mac ones lo0 is used. 
+Interfaces vary from distribution to distribution, for example: lo is used on Linux machine whilst on Mac ones lo0 is used.
 
 An example of `$ ifconfig lo`:
 
@@ -82,7 +82,7 @@ What is the corespondent for ifconfig in Windows
 ---
 ## Revision
 
-Which flag is used to show active and innactive connections 
+Which flag is used to show active and innactive connections
 ??? ?
 
 * `a`

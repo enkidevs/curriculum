@@ -13,7 +13,7 @@ category: must-know
 
 links:
 
-  - '[learn more](https://shapeshed.com/unix-traceroute/)'
+  - https://shapeshed.com/unix-traceroute/
 
 ---
 ## Content

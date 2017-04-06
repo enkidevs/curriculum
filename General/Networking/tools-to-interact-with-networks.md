@@ -13,7 +13,7 @@ category: must-know
 
 links:
 
-  - '[learn more](https://www.lantronix.com/resources/networking-tutorials/)';
+  - https://www.lantronix.com/resources/networking-tutorials/;
 
 ---
 ## Content

@@ -13,7 +13,7 @@ category: must-know
 
 links:
 
-  - '[learn more](https://blog.thesysadmins.co.uk/nslookup-common-usage-examples.html)'
+  - https://blog.thesysadmins.co.uk/nslookup-common-usage-examples.html
 
 ---
 ## Content
@@ -23,7 +23,7 @@ The **DNS** (Dynamic IP Address/Dynamic Name System) is used to map common domai
 
 The `$ nslookup`(on Windows) and `$ dig`(on Linux and Mac OS X) commands are used to lookup both specific **IP addresses** and **DNS servers** to see if there are problems related to the system used.
 
-Common **DNS** problems: 
+Common **DNS** problems:
 - High TTL(Time To Live) determines the high number of hops that the packet is allowed to travel before being discarded by the router;
 - DNS services outages, caused either by a hardware/network failure or due to a DDoS attack[1];
 - Forgetting to properly renew, or losing control of, domain names.
@@ -56,10 +56,10 @@ The final section of the default output contains statistics about the query[2].
 
 ## Footnotes
 [1:DDoS attack]
-A distributed denial of service attack occurs when multiple systems flood the bandwidth or resources of a server. 
+A distributed denial of service attack occurs when multiple systems flood the bandwidth or resources of a server.
 
 [2:query]
-Represents a request sent to the server. 
+Represents a request sent to the server.
 ---
 ## Practice
 

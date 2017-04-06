@@ -13,7 +13,7 @@ category: must-know
 
 links:
 
-  - '[more details here](http://www.c-jump.com/CIS24/Slides/Networking/html_utils/netstat.html)'
+  - http://www.c-jump.com/CIS24/Slides/Networking/html_utils/netstat.html
 
 ---
 ## Content
@@ -44,7 +44,7 @@ The `netstat` command has proven useful in a variety of situations, being availa
 **FOOTNOTES**
 
 [1:socket]
-Socket is a bound to a port number which helps `TPC` layer to identify which are the clients that data needs to be sent to. 
+Socket is a bound to a port number which helps `TPC` layer to identify which are the clients that data needs to be sent to.
 
 [2:RAW sockets]
 A raw socket is an internet socket that enables direct sending and reciving of internet protocol requests without any protocol-specific transport layer formatting.
@@ -65,7 +65,7 @@ Which flag is needed to display kernel interface table
 ---
 ## Revision
 
-Flag for all TCP connections used with $ netstat 
+Flag for all TCP connections used with $ netstat
 ??? ?
 
 * `-t`
