@@ -42,22 +42,30 @@ The `netstat` command has proven useful in a variety of situations, being availa
 ---
 ## Practice
 
-Which flag is needed to display kernel interface table
-??? ?
+Which flag can you use to display the **kernel interface table**?
+```bash
+$ netstat ???
+```
 
 * `-r`
 * `-x`
 * `-i`
+* `-u`
+* `-t`
 
 ---
 ## Revision
 
-Flag for all TCP connections used with $ netstat
-??? ?
+What flag would you use to filter the output of the following snippet, showing only `TCP` connections:
+```bash
+$ netstat ???
+```
 
 * `-t`
 * `-i`
 * `-u`
+* `-r`
+* `-tcp`
 
 ---
 ## Footnotes

@@ -56,7 +56,8 @@ The final section of the default output contains statistics about the query[2].
 ---
 ## Practice
 
-`nslookup` enables users to see specific ??? and ??? ?
+`nslookup` command enables users to see specific
+??? and ???.
 
 * IP address
 * DNS servers
@@ -66,11 +67,14 @@ The final section of the default output contains statistics about the query[2].
 ---
 ## Revision
 
-How would you find the IP address behind the yahoo.com DNS ??? ?
+How would you find the IP address behind the yahoo.com DNS?
+```bash
+$ ???
+```
 
-* $ nslookup yahoo.com
-* $ nslookup yahoo
-* $ nslookup 52.85.178.44
+* `nslookup yahoo.com`
+* `nslookup yahoo`
+* `nslookup 52.85.178.44`
 
 ---
 ## Footnotes

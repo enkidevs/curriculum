@@ -7,53 +7,63 @@ levels:
 
   - basic
 
+  - medium
+
+  - advanced
+
 type: normal
 
 category: must-know
 
 links:
 
-  - https://www.lantronix.com/resources/networking-tutorials/;
+  - https://www.lantronix.com/resources/networking-tutorials/
 
 ---
 ## Content
 
-Computer networks, by nature, became quite complicated complex and might seem intimidating by many users.
+We have witnessed an exponential growth of **computer networks** since introduction, more and more people using them every day.
 
-However, most operating systems, such as:
-**Linux**, **OSX**, **Windows** and even **Chrome OS** provide a variety of utilities and tools to make any interaction with computer networks easier.
+It stands to reason that their complexity increased as well in favour of automated, faster, more reliable and secure communication.
 
-Be it for entirely informational reasons or even for troubleshooting, it's important to know the tools of the trade in order to fully understand computer networks.
+Therefore, interacting with **networks** can intimidate numerous users.
+
+Luckily, most operating systems, counting **Linux**, **OSX**, **Windows** and even **Chrome OS** provide a variety of utilities to make these interactions easier.
+
+These will prove extremely useful when having to troubleshoot, optimise or get various information about **networks**.
+
+In addition, getting to know how the *tools of the trade* work will give you a better insight of how **networks** work in the end and vice-versa.
+
+Be it for entirely informational purposes or for troubleshooting, it's important to know the tools of the trade to fully understand computer networks.
 
 The most known and used utilities include:
 
-- `ping` - echoes packets to a destination
+- `ping` - tests the availability of remote hosts by echoing a packet to the destination
 - `traceroute` - provides information about the path of a packet towards a destination
-- `ipconfig/ifconfig` - configures network interface
+- `ipconfig/ifconfig` - configures network interfaces
 - `nslookup` - looks up IP addresses linked to a domain
-- `netstat` - provides statistics about a networks
-- `route` - is a **command** used to view and manipulate the IP routing table in both Unix-like and Microsoft Windows operating systems.
-
-
----
-## Practice
-
-What command do we use to configure network interface
-
-??? ?
-
-* ipconfig
-* nslookup
-* netstat
-* route
+- `netstat` - provides statistics about networks
+- `route` - shows and manipulates the **IP Routing Table**[1]
 
 ---
 ## Revision
 
-Which command echoes packates to a destination
-??? ?
+Which of the following tools can be used to echo a packet to remote host?
 
-* ping
-* route
-* ipconfig/ifconfig
-* netstat
+```bash
+$ ??? google.com
+```
+
+* `ping`
+* `ipconfig`
+* `nslookup`
+* `netstat`
+* `route`
+
+---
+## Footnotes
+
+[1:IP Routing Table]
+A routing table is a set of rules, often viewed in table format, that is used to determine where data packets traveling over an Internet Protocol (`IP`) network will be directed.
+
+All IP-enabled devices, including routers and switches, use routing tables.
