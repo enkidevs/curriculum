@@ -7,6 +7,10 @@ levels:
 
   - basic
 
+  - medium
+
+  - advanced
+
 type: normal
 
 category: must-know
@@ -18,23 +22,42 @@ links:
 ---
 ## Content
 
-The `ifconfig` command is available on **Linux** and **OS X**. It enables users to configure and view information about network interfaces via command line interface.
+The `ifconfig` command is available on **Linux** and **OS X**. It enables users to configure and view information about network interfaces via the command line.
 
-The **network interface** is an interconnection point between the a private or public network.
+The **network interface** is an interconnection point between a computer and a private/public network.
+
+Keep in mind that interfaces don't have to be in physical form (e.g. ethernet interface), but can also be a simulating piece of software.
+
+Such an example is the **loopback** (`lo0`) interface specified by IP protocol:
+```
+127.0.0.1 // IPv4
+::1 //IPv6
+```
 
 The equivalent for `ifconfig` command on **Windows** is `ipconfig`, but works in a slightly different way[1].
 
-To view all active network interfaces with their details, the command must be run without any flag:
-```
-$ ifconfig
+To view all (active and innactive) network interfaces with their details the `-a` flag must be used:
+```bash
+$ ifconfig -a
+lo0: ... (loopback)
+en0: ... (physical net. conn.)
+en1: ... (physical net. conn.)
+fw0: ... (IP over Firewall)
 
 ```
-To see both, active and inactive connections the `-a` flag can be used.
+
+Keep in mind that in **OSX** the `-a` flag is implied, while on **Linux** running it with no flags will only show *active* connections.
+
+To show only *inactive* connections:
+```bash
+$ ifconfig -u
+```
 
 Specifying an interface name as an argument will limit the output to that specific interface.
+
 Interfaces vary from distribution to distribution, for example: lo is used on Linux machine whilst on Mac ones lo0 is used.
 
-An example of `$ ifconfig lo`:
+An example output for the *loopback* on **Linux** is:
 
 ```
 $ ifconfig lo
@@ -56,8 +79,9 @@ $ ifconfig eth0 down
 ---
 ## Practice
 
-What is the corespondent for ifconfig in Windows
-??? ?
+What is the corespondent for `ifconfig` in **Windows**?
+
+??? 
 
 * `ipconfig`
 * `tracepath`
@@ -67,12 +91,17 @@ What is the corespondent for ifconfig in Windows
 ---
 ## Revision
 
-Which flag is used to show active and innactive connections
-??? ?
+Which flag is used to show active and inactive connections while running the following command ?
+```
+$ ifconfig ???
+```
 
-* `a`
-* `up`
-* `all`
+* `-a`
+* `-up`
+* `-all`
+* `-ai`
+* `-i`
+* `-u`
 
 ---
 ## Footnotes
