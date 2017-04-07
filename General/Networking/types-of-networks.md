@@ -67,8 +67,6 @@ Chances are you have already connected to a network via a **Ethernet cable**.
 
 This token passing is a channel access method providing fair access for all stations, and eliminating the collisions of contention-based access methods.
 
-[3:ATM] is a high-speed networking standard designed to support both *voice* and *data* communications. `ATM` is normally utilised by **Internet** service providers on their private long-distance networks.
-
 ---
 ## Practice
 

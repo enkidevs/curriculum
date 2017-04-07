@@ -18,52 +18,69 @@ links:
 ---
 ## Content
 
-In order to ease the *complexity* of networking engineering, the whole networking concept has been divided into multiple **layers**.
+In order to ease the *complexity* of networking engineering, the **networking communication** concept was divided into multiple **layers**.
 
-In *layered* architecture of Network Model, one whole network *process* is divided into small different **tasks**. Each small *task* is assigned to a particular layer which works dedicated to *process* the task only. Every **layer** does **only** specific work.
+In *layered* architecture of **Network Model**, one whole network *process* is divided into small different **tasks**.
 
--**
+Each small *task* is assigned to a particular layer which works dedicated to process that task only. Conclusively, every **layer** does only specific work.
 
-`OSI(Open System Interconnect) Model`
 
-It is an open standard for all **communications**. This model has *seven layers*:
+### OSI(Open System Interconnect) Model
 
-- `Application Layer` this layer is responsible for providing an *interface* for the application user.
-- `Presentation Layer` this layer defines how native data in format of the *remote* host should be represented in the native format of the *host*.
-- `Session Layer` this layer maintains sessions between *remote hosts*.
-- `Transport Layer` this layer is responsible for *end-to-end delivery* of the data.
-- `Network Layer` this layer is responsible with address *assigning* and uniquely addressing *hosts* in a network.
-- `Data Link Layer` this layer is responsible with *reading* and *writing* data from and on to the *band*.  
-- `Physical Layer` this layer defines the *hardware*.
+`OSI` is an open standard for all network **communications**. This model defines a paradigm to implement protocols in *seven layers*.
 
--**
+- `Application` Layer: provides an *interface* needed by applications to communicate within a network
+- `Presentation` Layer : checks the data to ensure that it's compatible with the communications resources
+- `Session` Layer : handles authentication and authorisation functions
+- `Transport` Layer : ensures the complete delivery of the data
+- `Network` Layer : handles packet **routing** via logical addressing and switching functions
+- `Data Link` Layer : transfers data between adjacent network nodes
+- `Physical` Layer: supports the electrical or mechanical interface to the **physical** medium
 
-`Internet Model`
+During data transmission, each *layer* adds a **header** to the data that *directs and identifies* the packet (process called encapsulation). The encapsulated packet is sent to the next layer that, in turn, adds its header and so on.
 
-**Internet** uses `TCP/IP` protocol suite. This model contains a *four layered* architecture. `OSI` model is the *general communication* model, but **internet** uses `Internet` model for all it's communications.
+The combined encapsulated packet is then transmitted and received.
 
-The four **layers** taking part of the `Internet` model architecture are:
+The receiving computer reverses the process, de-encapsulating the data at each *layer* with the **header** information directing what needs to be done. Finally, when the process is finished, the data can be used by applications.
 
-- `Application` layer is the layer that defines the **protocol** which enables users to interact with the network.
-- `Transport` layer, it ensures that the *delivered data* is in-order, it is responsible for the *end-to-end* communication as well.
-- `Internet` layer, it defines the (`IP`) Internet protocol.
-- `Link` layer, it provides the ability of *sending* and *receiving* data.
+### `TCP/IP` Internet Model
 
+The `TCP/IP` stack, pre-dating the model discussed above, is a layered protocol and is based on standard protocols around which the Internet has developed.
+
+The four **layers** taking part of the *Internet` model* architecture are:
+
+- `Application` Layer : defines the **protocol** which enables applications to interact with lower layers
+- `Transport` Layer: ensures that the *delivered data* is in-order
+- `Internet` Layer: responsible for addressing, packaging, and routing functions
+- `Network Interface` Layer: provides the means for the system to deliver data to the other devices on a directly attached network
+
+
+**TCP/IP** is the older of the two approaches to data communications and is well established throughout the world.
+
+ The **OSI model**, however, is a proven concept that is used in all other data communications protocols. It will continue to be used as a guideline for all other communications applications.
 
 ---
 ## Practice
 
-??? layer is responsible for *sending* and *receiving* actual data in the `Internet` model.
+Which of the following layers of the **Internet model** is responsible for addressing data transmitted?
 
-* `Link`
-* `Internet`
-* `Transport`
+???
+
+* Internet
+* Transport
+* Application
+* Network Interface
 
 ---
 ## Revision
 
-??? have been implemented in networking in order to reduce complexity.
+Which of the following layers of the **OSI model** handles the routing of data?
 
-* layers
-* protocols
-* tasks
+???
+
+* Network
+* Transport
+* Application
+* Internet
+* Session
+* Presentation
