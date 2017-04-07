@@ -13,41 +13,43 @@ category: must-know
 
 links:
 
-  - '[link to learn more](https://enki.com)'
+  - '[Status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)'
 
 ---
 ## Content
 
-**Status codes** are 3-digit integers. Part of the server response in **HTTP** protocol that indicates the type of the response.
+**Status codes** are 3-digit integers, part of the server's response in the HTTP protocol.
 
-With the help of **URLs** and HTTP **verbs** a client can make requests to the server, the former being served with a response containing a **status code** and a message *payload*.
+By using URLs and HTTP verbs (more on these in a future workout), a client can make requests to the server, which sends back a response containing the *status* of the request and a message *payload*.
 
-The **status code** is used to differentiate responses into different classes and tell the client how to interpret the message. These classes are:
+The *status code* indicates whether the request has been successfully processed or not. The codes are grouped into *five* classes:
 
- -  **Informational messages** - with the format `1xx`. These messages were introduced in `HTTP/1.1` are indicate that the response have been received and the process should continue
-
-
-- **Success messages** - with the format `2xx`. These ones tell the client that the request was acknowledged and successfully processed.
-- **Redirection messages** - with the format `3xx`. These messages imply that further action must be taken to complete the request. Usually, they indicate that a different **URL** must be access to fetch a resource
-- **Client-error messages** - with the format `4xx`. They are used to tell that the client has made a wrong request. The most famous one is `404` **Not Found** status code that tells the resource is invalid
-- **Server-error messages** - with the format `5xx`, showing that the server failed to process the request. Most famous such message is `500` **Internal Server Error**
+ - **Informational messages** (`1xx`): This class was introduced in `HTTP/1.1` and indicates that everything is OK so far and that the client can continue with the request.
+- **Success messages** (`2xx`): These ones tell the client that the request was acknowledged and successfully processed.
+- **Redirection messages** (`3xx`): These messages imply that further action must be taken to complete the request. Usually, they indicate that a different URL must be used to access the resource.
+- **Client-error messages** (`4xx`): They are used to inform the client there was a problem with their request. The problem could be an invalid URL, a missing field or wrongly formatted data.
+- **Server-error messages** (`5xx`): They show that the server failed to process the request.
 
 ---
 ## Practice
 
-What is the format for the success message
-??? ?
+What first digit in the status code does imply a successfully processed request?
 
-* `2xx`
-* `1xx`
-* `5xx`
+???
 
+* `2`
+* `1`
+* `5`
+* `3`
+* `4`
 ---
 ## Revision
 
-What does a client need in order to make a request to the server.
-??? and ??? ?
+If the client gets a `5xx` status code, it means that
 
-* URLs
-* HTTP verbs
-* status code
+???
+
+* the server failed to process the request
+* the request was processed successfully
+* the requested resource can be found at another address
+* everything is OK so far
