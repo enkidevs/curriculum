@@ -5,6 +5,8 @@ levels:
 
   - beginner
 
+  - basic
+
 type: normal
 
 category: must-know
@@ -27,7 +29,7 @@ Network computer devices which originate, route and terminate the data within a 
 
 Usually, nodes include **hosts** such as *PCs*, *servers*, *phones*, but *network hardware*[1] as well. Two such devices are said to be *networked* when one of them is able to *exchange information* with the other.
 
-Keep in mind that nodes can be connected by cable, most commonly the **Ethernet cable**, or wirelessly via radio waves.     
+Keep in mind that nodes can be connected by cable, most commonly the **Ethernet cable**, wirelessly via radio waves or even with the help satellites.     
 
 The largest and most known computer network is the **Internet** (or World Wide Web). This world-wide system of interconnected smaller networks enables millions of devices to communicate with each other.
 
