@@ -55,7 +55,7 @@ $ ifconfig -u
 
 Specifying an interface name as an argument will limit the output to that specific interface.
 
-Interfaces vary from distribution to distribution, for example: lo is used on Linux machine whilst on Mac ones lo0 is used.
+Interfaces vary from distribution to distribution, for example: `lo` is used on Linux machines while on Mac `lo0` is used.
 
 An example output for the *loopback* on **Linux** is:
 
