@@ -34,9 +34,16 @@ You can limit what type of connections you see by **protocol** with:
  - `-t` (`--tcp`) for TCP connections
  - `-u` (`--udp`) for UDP connections
 
-To get the **kernel interface table**[1], the `-r` flag is needed:
+To get the **kernel routing table**[1], the `-r` flag is needed:
 ```bash
 $ netstat -r
+Routing tables
+
+Internet:
+Destination        Gateway ...
+default            192.168.62.254 ...
+127                localhost ...
+...
 
 ```
 Running `netstat` with the `-i` (Unix only) flag will output the **network interfaces** currently installed in your system.
@@ -85,5 +92,6 @@ $ netstat ???
 ---
 ## Footnotes
 
-[1:kernel interface table]
+[1:kernel routing table]
+This is the same as the **IP routing table** mentioned in the previous insight.
 On **Linux** the same information can be retrieved form the table using `route` command.
