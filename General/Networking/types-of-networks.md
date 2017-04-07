@@ -18,11 +18,11 @@ links:
 ---
 ## Content
 
-There exists several types of **computer networks** currently in use, *characterised* by their **purpose** as well as their **size**.
+There are several types of **computer networks** currently in use, *characterized* by their **purpose** as well as their **size**.
 
 The **size** of a network is inferred from the *geographic area* they occupy and the *number of devices* that are connected to it.
 
-For historical reasons, the networking industry refers to nearly every type of design as some kind of area network.
+For historical reasons, the networking industry refers to nearly every type of design as some kind of network area.
 
 Based on these aspects, computer networks have been classified as:
 - `PAN` : personal area network
@@ -35,15 +35,15 @@ Based on these aspects, computer networks have been classified as:
 
 `LAN` network connects a *small number* of devices, being typically used in networked office buildings, schools or homes.
 
-Due to operating in a *limited space* `LANs` are usually owned, controlled and managed by a single person or organisation. They also tend to use certain connectivity technologies, primarily `Ethernet`[1] and `Token Ring`[2].
+Due to operating in a *limited space* `LAN`s are usually owned, controlled and managed by a single person or organization. They also tend to use certain connectivity technologies, primarily `Ethernet`[1] and `Token Ring`[2].
 
-This type of networks is usually characterised by **high-speed** communication and low implementation costs.
+This type of networks is usually characterized by **high-speed** communication and low implementation costs.
 
 ### WAN
 
 `WAN`, as the term implies, it is capable of spanning a large physical distance such as a town, a region, a country or the entire world. The **Internet** is the largest `WAN`, spanning the Earth.
 
-A network device called **router** connects more `LANs` to a `WAN`, resulting in a **high speed** connection as well, but with higher costs.
+A network device called **router** connects more `LAN`s to a `WAN`, resulting in a **high speed** connection as well, but with higher costs.
 
 
 ### WLAN
@@ -58,19 +58,21 @@ A `WLAN` is a type of `LAN` that uses wireless technology (nearly always Wi-Fi) 
 [1:Ethernet]
 **Ethernet** is a family of computer networking technologies commonly used in `LAN`s, `MAN`s and `WAN`s.
 
-It defines wiring and signalling standards for the physical layer of other `TCP/IP` stack which will be discussed later.
+It defines wiring and signaling standards for the physical layer of other `TCP/IP` stack which will be discussed later.
 
-Chances are you have already connected to a network via a **Ethernet cable**.
+Chances are you have already connected to a network via an **Ethernet cable**.
 
 [2:Token Ring]
 **Token ring** is a communications *protocol* for `LAN`s. It uses a special `3`-byte frame called a **token** that travels around a logical "ring" of workstations or servers.
 
-This token passing is a channel access method providing fair access for all stations, and eliminating the collisions of contention-based access methods.
+This token passing is a channel access method providing fair access for all stations, and eliminating the collisions of access methods.
 
 ---
 ## Practice
 
 Which of the following network types describes a local area network that uses **wireless** technologies to connect its devices ?
+
+???
 
 * `WLAN`
 * `LAN`

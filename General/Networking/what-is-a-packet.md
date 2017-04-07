@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-Think of **packets**[1] as the basic unit of communication in computer networks.
+Think of **packets**[1] as the simplest unit of communication in computer networks.
 
 Whatever the nature of the communication over a computer network might be, data must be sent and received.
 
@@ -47,7 +47,7 @@ In the latter type of networks, packets are sent over the Internet through *node
 [1:packets]
 Other terms equivalent to **packets** are datagrams, segments, blocks, cells and even frames, depending on the protocol used for data transmission.
 
-[2:how nodes work]
+[2:how do nodes work?]
 Contrary to *traditional lines* of communication such as telephone lines where there must be a continuous physical link between the source and destination, modern networks work on a different concept.
 
 Packets are routed from *source* to *destination*, going through **nodes**. At each node calculations are made deciding the most efficient route of reaching the destination.
@@ -73,7 +73,7 @@ Data transmission over the Internet works in the following way:
 ---
 ## Revision
 
-**IP packets** are usually made out of:
+IP packets are usually made out of
  - header
  - ???
 

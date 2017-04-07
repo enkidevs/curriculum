@@ -31,7 +31,7 @@ Each small *task* is assigned to a particular layer which works dedicated to pro
 
 - `Application` Layer: provides an *interface* needed by applications to communicate within a network
 - `Presentation` Layer : checks the data to ensure that it's compatible with the communications resources
-- `Session` Layer : handles authentication and authorisation functions
+- `Session` Layer : handles authentication and authorization functions
 - `Transport` Layer : ensures the complete delivery of the data
 - `Network` Layer : handles packet **routing** via logical addressing and switching functions
 - `Data Link` Layer : transfers data between adjacent network nodes
@@ -41,7 +41,7 @@ During data transmission, each *layer* adds a **header** to the data that *direc
 
 The combined encapsulated packet is then transmitted and received.
 
-The receiving computer reverses the process, de-encapsulating the data at each *layer* with the **header** information directing what needs to be done. Finally, when the process is finished, the data can be used by applications.
+The receiving computer reverses the process, extracting the data at each *layer* with the **header** information directing what needs to be done. Finally, when the process is finished, the data can be used by applications.
 
 ### `TCP/IP` Internet Model
 

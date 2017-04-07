@@ -20,38 +20,38 @@ links:
 
 **Networks** are used to enable two or more devices to talk with each other - to *communicate*.
 
-Now, exactly as in real life, when you want two parties to communicate properly you need to follow some rules. Among computer networks, different sets of rules are called **protocols**.
+Now, exactly as in real life, when you want two parties to communicate effectively you need to follow some rules. Among computer networks, different sets of rules are called **protocols**.
 
-You have more than sure encountered and used some of the following **protocols**:
+So far, you must have encountered and used some of the following **protocols**:
 - `IP` - used to uniquely identify computers (*hosts*)
 - `FTP`[1] - standard protocol for file transfer between two hosts
 - `HTTP` - key protocol for data transfer across the *Internet*
 - `SMTP` - used for mail transfer
 
-Some of the **protocols** used are hidden within the implementation of you devices while others are easily spotted by simply accessing a webpage:
+Some of the **protocols** used are hidden within the implementation of you devices while others are easily spotted by simply accessing a web page:
 ```
-https://enki.com
 // here the HTTPS protocol is used
+https://enki.com
 ```
 
-In human communication we can think about the *English language* as a **protocol**. It defines some rules that make sure the parties understand each other.
+In human communication we can think of the *English language* as a **protocol**. It defines some rules that make sure the parties understand each other.
 
 However, other rules, and therefore other **protocols** are need. For example, two persons shouldn't speak at the same time because information might get lost.
 
-In the same way, computer networks will use multiple **protocols** that are hierarchically organised on different layers[2].
+In the same way, computer networks will use multiple **protocols** that are hierarchically organized on different layers[2].
 
 ---
 ## Footnotes
 
-[1:trivia]
+[1:Fun fact]
 `FTP` was firstly published by Abhay Bhushan in **1971**, making it **45** years old.
 
 [2:Network Layers]
-According to the **OSI model** (used for computer systems communication standardisation) there are 7 layers of *networking protocols*.
+According to the **OSI model** (used for computer systems communication standardization) there are 7 layers of *networking protocols*.
 
 These layers range from a low-level **Physical Layer** to a high-level **Application Layer**.
 
-Any protocol can be pinpointed to a specific layer. For example, the `HTTP` protocol is situated on the **Session Layer** that manages continuos exchange of information.
+Any protocol can be pinpointed to a specific layer. For example, the `HTTP` protocol is situated on the **Session Layer** that manages continuous exchange of information.
 
 ---
 ## Practice
