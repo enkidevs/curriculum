@@ -34,9 +34,7 @@ These will prove extremely useful when having to troubleshoot, optimise or get v
 
 In addition, getting to know how the *tools of the trade* work will give you a better insight of how **networks** work in the end and vice-versa.
 
-Be it for entirely informational purposes or for troubleshooting, it's important to know the tools of the trade to fully understand computer networks.
-
-The most known and used utilities include:
+Some of the most known and used netowrking utilities include:
 
 - `ping` - tests the availability of remote hosts by echoing a packet to the destination
 - `traceroute` - provides information about the path of a packet towards a destination
