@@ -28,15 +28,15 @@ The **network interface** is an interconnection point between a computer and a p
 
 Keep in mind that interfaces don't have to be in physical form (e.g. ethernet interface), but can also be a simulating piece of software.
 
-Such an example is the **loopback** (`lo0`) interface specified by IP protocol:
+Such an example is the **loopback** (`lo0`) interface specified by the IP protocol:
 ```
 127.0.0.1 // IPv4
 ::1 //IPv6
 ```
 
-The equivalent for `ifconfig` command on **Windows** is `ipconfig`, but works in a slightly different way[1].
+On **Windows**, the closest equivalent of `ifconfig` command is `ipconfig`, which works in a slightly different way[1].
 
-To view all (active and innactive) network interfaces with their details the `-a` flag must be used:
+To view all (active and inactive) network interfaces with their details the `-a` flag must be used:
 ```bash
 $ ifconfig -a
 lo0: ... (loopback)
@@ -46,7 +46,7 @@ fw0: ... (IP over Firewall)
 
 ```
 
-Keep in mind that in **OSX** the `-a` flag is implied, while on **Linux** running it with no flags will only show *active* connections.
+Keep in mind that in **OS X** the `-a` flag is implied, while on **Linux** running it with no flags will only show *active* connections.
 
 To show only *inactive* connections:
 ```bash
@@ -55,7 +55,7 @@ $ ifconfig -u
 
 Specifying an interface name as an argument will limit the output to that specific interface.
 
-Interfaces vary from distribution to distribution, for example: `lo` is used on Linux machines while on Mac `lo0` is used.
+Interfaces vary from distribution to distribution, for example: `lo` is used on Linux machines, while `lo0` is available on Mac.
 
 An example output for the *loopback* on **Linux** is:
 
@@ -69,7 +69,6 @@ lo Link encap:Local Loopback
 
 ```
 You can also activate[2] or deactivate an interface with the `up` flag or `down` respectively:
-
 ```
 $ ifconfig eth0 up
 $ ifconfig eth0 down
@@ -79,14 +78,14 @@ $ ifconfig eth0 down
 ---
 ## Practice
 
-What is the corespondent for `ifconfig` in **Windows**?
+What is the equivalent of `ifconfig` on **Windows**?
 
 ???
 
 * `ipconfig`
 * `tracepath`
 * `netstat`
-* `ipconfig`
+* `ifconfig`
 
 ---
 ## Revision
@@ -113,9 +112,9 @@ C:\> IPCONFIG /all
 ```
 
 [2:activate/deactivate]
-Instead of using the `up/down` flags, specialised equivalent commands are available(The same command is used on all distributions):
+Instead of using the `up/down` flags, specialized equivalent commands are available(the same command is used on all distributions):
 
 ```
-$ ifconfig eth0 up
-$ ifconfig eth0 down
+$ ifup eth0
+$ ifdown eth0
 ```

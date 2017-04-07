@@ -22,19 +22,19 @@ links:
 ---
 ## Content
 
-We have witnessed an exponential growth of **computer networks** since their introduction, more and more people using them every day.
+We have witnessed an exponential growth of **computer networks** since their introduction, with more and more people joining them every day.
 
-It stands to reason that their complexity increased as well in favour of automated, faster, more reliable and secure communication.
+It stands to reason that their complexity increased to provide faster, more reliable and more secure communication.
 
 Due to this complexity, interacting with **networks** can intimidate numerous users.
 
-Luckily, most operating systems, counting **Linux**, **OSX**, **Windows** and even **Chrome OS** provide a variety of utilities to make these interactions easier.
+Luckily, most operating systems, counting **Linux**, **OS X**, **Windows** and even **Chrome OS** provide a variety of utilities to make these interactions easier.
 
-These will prove extremely useful when having to troubleshoot, optimise or get various information about **networks**.
+These will prove extremely useful when having to troubleshoot, optimize or get various information about **networks**.
 
-In addition, getting to know how the *tools of the trade* work will give you a better insight of how **networks** work in the end and vice-versa.
+In addition, getting to know how the *tools of the trade* work will give you a better insight on how **networks** work.
 
-Some of the most known and used netowrking utilities include:
+Some of the most known and used networking utilities include:
 
 - `ping` - tests the availability of remote hosts by echoing a packet to the destination
 - `traceroute` - provides information about the path of a packet towards a destination

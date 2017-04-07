@@ -26,7 +26,7 @@ links:
 
 Possibly the most simple way to test the **connectivity** between your machine and a remote host is via the `ping` utility.
 
-This tool will send (echo) an **ICMP packet**[1] (or more) to the specified destination and will print simple statistics (e.g. latency) about the connection as soon as it gets a response.
+This tool will send (echo) one or more **ICMP packets**[1] to the specified destination and will print simple statistics (e.g. latency) about the connection as soon as it gets a response.
 ```bash
 $ ping enki.com
 PING enki.com (54.192.197.152): ...
@@ -44,7 +44,7 @@ The way `traceroute` / `tracepath` works is:
  - at each Internet router (node), a reply is sent back to the **source** with the response time
  - this is repeated until the packet reaches its **destination**
 
-Basically, the two utilities do the same thing, the only  difference being the fact that `traceroute` manipulates **raw** packages, bypassing security mechanisms.
+Basically, the two utilities achieve the same thing, the only difference being that `traceroute` manipulates **raw** packages, bypassing security mechanisms.
 
 Running `traceroute`:
 ```bash
@@ -70,8 +70,8 @@ Varying from distribution to distribution, the output of `traceroute` usually co
 
 Note that `traceroute` might send multiple probes(packets) for each hop, displaying the RTT for each one of them.
 
-This command is available in both **Linux** and **OSX**, yet `tracepath` is only available in the former.
-Keep in mind that there is also a Windows alternative of this command, called `tracert`, behaving the same way.
+This command is available on both **Linux** and **OS X**. `tracepath` is only available in the former.
+Keep in mind that there is also a Windows alternative of this command, called `tracert`, behaving in the same way.
 
 ---
 ## Revision
@@ -90,4 +90,4 @@ Which of the following commands will check connectivity between you and a remote
 
 [1:ICMP]
 **The Internet Control Message Protocol** (`ICMP`) is the mechanism used to give feedback about network problems that are preventing packet delivery.
-ICMP packets are specialised packets used for informational and debugging purposes.
+ICMP packets are specialized packets used for informational and debugging purposes.
