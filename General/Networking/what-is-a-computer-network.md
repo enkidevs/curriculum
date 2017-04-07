@@ -5,8 +5,6 @@ levels:
 
   - beginner
 
-  - basic
-
 type: normal
 
 category: must-know
@@ -18,31 +16,43 @@ links:
 ---
 ## Content
 
-**Computer Networking's** main purpose is to enabe severel devices communicate with each other, being able to share resources.
+**Computer Networking's** main purpose is to enable several devices to communicate with each other by sharing and exchanging resources between them.
 
 There is a well known classification of the *computer networks* based on the geographical area they cover:
-- `LAN` a local area network, typically interconnects hosts that are up to a few of killometers apart.
-- `MAN` a metropolitan area network, typically interconnects hosts that are up to a few hundred killometers apart.
-- `WAN` a wide area network, typically interconnects hosts that are anywhere on the Earth.
+- `LAN` a local area network, typically interconnects hosts that are up to a few of kilometres apart
+- `MAN` a metropolitan area network, typically interconnects hosts that are up to a few hundred kilometres apart
+- `WAN` a wide area network, typically interconnects hosts that are anywhere on the Earth
 
-Network computer devices which originate,route and terminate the data are called **network nodes**. Usually nodes include **hosts** such as *PCs*, *servers*, *phone* as well as *network hardware*. Two such devices are said to be *networked* when one of this devices is able to **exchange information** with the other device.      
+Network computer devices which originate, route and terminate the data within a network are called **network nodes**.
 
-The most common network communication known is **Internet**. Internet is a world-wide system of interconnected computer networks. Any *computer* in internet is identified by an unique `IP`. IP address is a *unique* set of numbers which identifies a computer's *location*. A special *computer* **DNS(Domain Name Server)** is used to give name to the `IP` address such that users can locate computers by a name.  
+Usually, nodes include **hosts** such as *PCs*, *servers*, *phones*, but *network hardware*[1] as well. Two such devices are said to be *networked* when one of them is able to *exchange information* with the other.
 
----
-## Practice
+Keep in mind that nodes can be connected by cable, most commonly the **Ethernet cable**, or wirelessly via radio waves.     
 
-??? is a metropolitan area network.
-
-* `MAN`
-* `WAN`
-* `LAN`
+The largest and most known computer network is the **Internet** (or World Wide Web). This world-wide system of interconnected smaller networks enables millions of devices to communicate with each other.
 
 ---
 ## Revision
 
-???  is used to give name to the `IP` address.
+Within a **computer network**, how are devices that originate, route and terminate data called?
 
-* DNS
-* Host
-* Network node
+???
+
+* nodes
+* hardware
+* software
+* routers
+* switches
+* modems
+* gateways
+
+---
+## Footnotes
+
+[1:network hardware]
+These are physical devices which are required for communication and interaction between devices on a computer network. Specifically, they mediate data in a computer network.
+
+Such examples are:
+- routers
+- modems
+- switches
