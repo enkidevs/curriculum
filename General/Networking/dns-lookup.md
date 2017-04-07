@@ -54,11 +54,11 @@ You can see what `IP` addresses are mapped to the queried domain. `Non-authorita
 $ dig google.com
 ...
 ;; QUESTION SECTION:
-;enki.com.			IN	A
+;enki.com. IN A
 
 ;; ANSWER SECTION:
-enki.com.		59	IN	A	54.192.197.88
-enki.com.		59	IN	A	54.192.197.152
+enki.com. 59 IN A 54.192.197.88
+enki.com. 59 IN A 54.192.197.152
 ...
 ```
 
