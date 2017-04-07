@@ -20,16 +20,21 @@ links:
 
 **Computer Networking's** main purpose is to enable several devices to communicate with each other by sharing and exchanging resources between them.
 
-There is a well known classification of the *computer networks* based on the geographical area they cover:
-- `LAN` a local area network, typically interconnects hosts that are up to a few of kilometres apart
-- `MAN` a metropolitan area network, typically interconnects hosts that are up to a few hundred kilometres apart
-- `WAN` a wide area network, typically interconnects hosts that are anywhere on the Earth
-
 Network computer devices which originate, route and terminate the data within a network are called **network nodes**.
 
 Usually, nodes include **hosts** such as *PCs*, *servers*, *phones*, but *network hardware*[1] as well. Two such devices are said to be *networked* when one of them is able to *exchange information* with the other.
 
-Keep in mind that nodes can be connected by cable, most commonly the **Ethernet cable**, wirelessly via radio waves or even with the help satellites.     
+Keep in mind that nodes can be **linked** with help of:
+- cables, most commonly the **Ethernet cable**
+- telephone lines
+- radio waves, enabling a **wireless** connection
+- satellites
+- infrared light beams    
+
+Even though nowadays we take for granted that all devices can connect to a network, this wasn't always this case.
+While modern devices have network devices integrated into their circuit boards, older ones counting PCs or XBox game console need a *peripheral* network device such as *USB adapters* or *Network Interface Cards* (NIC).
+
+At the same time some devices can't connect to the networks at all.
 
 The largest and most known computer network is the **Internet** (or World Wide Web). This world-wide system of interconnected smaller networks enables millions of devices to communicate with each other.
 
