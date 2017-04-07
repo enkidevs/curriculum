@@ -26,7 +26,7 @@ We have witnessed an exponential growth of **computer networks** since their int
 
 It stands to reason that their complexity increased as well in favour of automated, faster, more reliable and secure communication.
 
-Therefore, interacting with **networks** can intimidate numerous users.
+Due to this complexity, interacting with **networks** can intimidate numerous users.
 
 Luckily, most operating systems, counting **Linux**, **OSX**, **Windows** and even **Chrome OS** provide a variety of utilities to make these interactions easier.
 
