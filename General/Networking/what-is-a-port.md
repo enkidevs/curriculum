@@ -40,24 +40,7 @@ To represent ports, a `16 bit` number is used, ranging from `0` to `65535`, yet 
  - `FTP` with port `21`
 
 When you visit an address like `www.enki.com` you can clearly see there is no associated port displayed.
-This happens because the HTTP protocol used to get the page targets the port 80 of the server by default.
-## Footnotes
-
-[1:ports]
-The term **port** has also other uses in computer science:
- - physical docking points usually between devices and sockets (eg. USB port)
- - action of moving a program from one operation system environment to another
-
-[2:Address]
-For example sake, the protocol of the address was omitted. A full address in a computer network is made up by:
- - the **protocol**
- - the **IP address**
- - the **port**
-
-For example:
-```
-http://127.0.0.1:9000
-```
+This happens because the HTTP protocol (used to get the page) runs by default on port `80` which your browser doesn't need to display.
 
 ---
 ## Practice
@@ -75,3 +58,11 @@ A port is an essential component of the ??? .
 * `IP`
 * `Connected devices`
 * `Internet`
+
+---
+## Footnotes
+
+[1:ports]
+The term **port** has also other uses in computer science:
+ - physical docking points usually between devices and sockets (eg. USB port)
+ - action of moving a program from one operation system environment to another
