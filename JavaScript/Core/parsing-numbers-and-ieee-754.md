@@ -28,10 +28,12 @@ If you want to convert string input to a number type you can use the *parseInt* 
 - Value to be converted
 - Radix or base of the number system to use
 
-*parseFloat* accepts just one argument
+The Radix or base defaults to 10 on later browsers but it is probably still best to specify as this is not the case on older browsers.
+
+*parseFloat* accepts just one argument:
 - Value to be converted
 
-The base defaults to 10 on later browsers but it is best to specify as this is not the case on older browsers:
+The below example shows how to use *parseInt* and *parseFloat*:
 
 ```
 parseInt("10", 10);//base 10, 10
