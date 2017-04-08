@@ -13,54 +13,52 @@ category: must-know
 
 links:
 
-  - 'https://www.lifewire.com/what-is-ipv6-817972'
+  - http://www.webopedia.com/TERM/I/IP_address.html
 
 ---
 ## Content
 
-An **IP** address is an unique identifier *assigned* to a computer when connected to a network.
+An **IP address** is an *unique* identifier assigned to a computer or other similar device when connected to a network.
 
-Chances are that while reading this you are connected to *the Internet*, a global, huge **computer network** that makes possible the communication between billions of devices[1].
+Chances are that while reading this you are connected to *the Internet*, the global, huge **computer network** that makes possible the communication between billions of devices[1].
 
-Now, to make *communication* possible, you need a way to distinguish yourself among the  astonishing number of devices around you.
+Now, to make *communication* possible, you need a way to distinguish yourself among the astonishing number of devices around you.
 
-Here, the *IP[2] address* comes in handy by uniquely identifying devices in a **network**. This is similar to the way real-life *postal addresses* identify our houses.
+Here, the *IP[2]* comes in handy by uniquely mapping **addresses** to every devices within a **network**. This is similar to the way real-life *postal addresses* identify residences or other buildings throughout the world.
 
 There's a big chance you have already encountered them in the following form[3]:
 
 ```
-//exmaple IP adress
+//example IP address
 25.255.0.1
 ```
 
-With that being the shorhand notations.The actual format of an IP address is:
+With that being the shorthand notations.The actual format of an IP address (in `IPv4`) is:
 ```
 xxx.xxx.xxx.xxx
 ```
-where `xxx` represents a number between `0` and `255`[4].
+where `xxx` represents `8` bits. In decimal, these `8` bits convert to a number between `0` and `255`[4].
 
-In reality, things are a little bit more complicated, with the IP spliting into two categories :
+In reality, things are a little bit more complicated, with the IP splitting into two categories :
  - **static** - hardcoded and constant
- - **dynamic** - frequently changing, being assigned by another device
+ - **dynamic** - frequently changing, being assigned by other networking device
 
-# Fun fact
-
-Keep in mind that IP addresses are the implementation of the `TCP/IP`[5] protocol stack.
-Alternatives such as `AppleTalk` exist, but `TCP/IP` proved superior and became the standard.
+**IP addresses** became such a popular concept and are taken for granted nowadays by being part of the implementation of  `TCP/IP`[5] protocol stack, around which the Internet was built.
+Alternatives to the **TCP/IP stack**, such as `AppleTalk` exist, but the former proved superior and became the standard.
 
 ---
 ## Footnotes
 
-[1:trivia]
+[1:Trivia]
 Garner, Inc. estimates that there will be almost **21 billion** devices connected to the internet by year `2020`.
 
-[2:Notation]
+[2:IP acronym]
 `IP` is the acronym for **Internet Protocol**.
 
 [3:Clarification]
-This form is specific to the fourth version of *Internet Protocol*, called `IPv4`, accounting for `93%` of internet protocole.
+This form is specific to the fourth version of *Internet Protocol*, called `IPv4`.
 
-In addition to IPv4, the sixth version of the Internet Protocol, called IPv6, is also in use.
+In addition to `IPv4`, the sixth version of the Internet Protocol (`IPv6`), is also in use since 1998.
 
 The syntax of the latter is:
 ```
@@ -68,29 +66,43 @@ xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx
 ```
 where `xxxx` stands for a hexadecimal number.
 
-[4:Possibilities]
-The `IPv4` format allows the existence of `2^32` different IP addresses.
+Even though `IPv6` solves numerous problems encountered in `IPv4`, its overall usage is around `10%`, `IPv4` accounting for the rest.
+
+[4:IP Range]
+The `IPv4` format, using `32` bits, allows the existence of `2^32` (4 294 967 296) different IP addresses.
 
 [5:Further information]
 `TCP/IP` represents the most common stack of protocols used by computer networks.
 
-Its name comes from the most famous protocols in use:
- - `TCP`, short for **Transmission Control Protocol**
+Its name comes from the most famous protocols in use within the stack:
+ - `TCP` short for **Transmission Control Protocol**
  - `IP` short for **Internet Protocol**
 ---
 ## Practice
 
-`IP` can behave either as static or as ??? .
+How many bits of memory does an `IPv4` address occupy?
 
-* `dynamic`
-* `static`
-* `constant`
+???
+
+* 32
+* 8
+* 255
+* 16
+* 4
+* 36
 
 ---
 ## Revision
 
-`IP`'s job is to help ??? devices connected to a network.
+What version of `IP` has implemented addresses in the following format?
+```
+x.x.x.x
+where x = 8 bits
+```
 
-* `identify`
-* `use`
-* `prepare`
+???
+
+* `IPv4`
+* `IPv6`
+* `IPv1`
+* `IPv3`
