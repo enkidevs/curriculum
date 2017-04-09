@@ -13,32 +13,46 @@ category: must-know
 
 links:
 
-  - 'https://www.bleepingcomputer.com/tutorials/tcp-and-udp-ports-explained/'
+  - https://www.bleepingcomputer.com/tutorials/tcp-and-udp-ports-explained/
+
+  - http://www.diffen.com/difference/TCP_vs_UDP
 
 ---
 ## Content
 
-"Both `TCP` and `UDP` are protocols that deal with sending bits of data(packets) over a network.
+Both `TCP` and `UDP` are protocols that deal with sending bits of data(packets) over a network.
 
-Because both are built on top of the **IP** (Internet Protocol), packets will be sent to an IP address. What differentiates `TCP` and `UDP` is the way the transfer of data is handled.
+Used together with **IP** which deals with the "where", these protocol define "how" the data is sent.
 
-`TCP` (Transmission Control Protocol) is the most widely used protocol over the Internet mostly because of its reliability. Its purpose is to ensure that all **packets** are received uncorrupted files. Using this *method*, the computer which is **sending** data would connect directly to the computer **receiving** data. 
+- `TCP` is **connection oriented** – once a connection is established, data can be sent *to* and *from* both parties.
+- `UDP` is a simpler, connectionless Internet protocol. Multiple messages are sent as packets in chunks using `UDP`.
 
-After both computers are aware that the transfer transfer is over, the *connection* is dropped. `TCP` connection tends to be *faster* and more *reliable* then its UDP counter part, the trade-off being the load it puts on the computer for monitoring the connection.
+#### TCP
 
-`UDP` (User Datagram Protocol) achieves the same result: sharing *data* between two devices over a *network*. However, the method in which the transfer happens is different and less reliable. `UDP` bundles everything into a single *packet*, which it then releases into the **network**, with no way of telling whether the packet *reached its destination*.
+Transmission Control Protocol is the most widely used protocol over the Internet mostly due to its *reliability*.
+Its purpose is to ensure that all **packets** are received as uncorrupted files.
 
-Its advantage over `TCP` is the *low overhead*[1] caused. `UDP` is very popular in the case of services that don't have to respond immediately.
+To communicate, a `TCP` connection between two devices must be established. This connection enables sending data in **ordered** chunks (packets). If some packets are lost along the way, the device **receiving** data can ask for them again.
+After both computers are aware that the transfer is over (there are no packets missing), the connection is *dropped*.
 
-# Footnotes
+As a consequence, `TCP` transfers are **slower**, but error correction is ensured.
 
-[1:overhead] 
-Overhead in Computer science means any form of excess or indirect computation, time, memory, bandwidth or other resources required to complete a specific task. 
+Common protocols that work on top of `TCP` are: **HTTP**, **HTTPS**, **FTM**, **SMTP** and **Telnet**. We will get back to these in the following insights.
 
+#### UDP
+
+User Datagram Protocol, on the other hand, was designed for **fast data transmission**.
+
+When `datagrams` (packets) are released into the **network** there is no way of telling wether they reach the destination. Data can arrive out of order, duplicated or not arrive at all.
+
+The simplicity of `UDP` reduces overhead[1] from the protocol and can be adequate for some applications such as real-time media streams or broadcasts.
+
+Protocols such as **DHCP** and **VOIP** work on top of `UDP`.
 ---
 ## Practice
 
-The protocol in which the two machines connect directly is
+Which of the following protocols ensures error-correction of **packets**?
+
 ???
 
 * `TCP`
@@ -48,8 +62,16 @@ The protocol in which the two machines connect directly is
 ---
 ## Revision
 
-??? is the protocol which bundles all of the data in one big packet.
+Which of the following protocols prioritises **speed** over **reliability** ?
+
+???
 
 * `UDP`
 * `TCP`
 * `IP`
+
+---
+### Footnotes
+
+[1:overhead]
+Overhead, in Computer Science, means any form of excess or indirect computation, time, memory, bandwidth or other resources required to complete a specific task.
