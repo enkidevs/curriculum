@@ -55,10 +55,10 @@ The *Levensthein distance* between the two strings, *trace* and *face*, is locat
 What is the distance between strings `string` and `int`?
 
 ???
-*4
-*5
-*3
-*2
+* 4
+* 5
+* 3
+* 2
 
 ---
 ## Revision
@@ -66,7 +66,7 @@ What is the distance between strings `string` and `int`?
 How many removals are needed to get from the string `test` to `east`?
 
 ???
-*0
-*1
-*2
-*3
+* 0
+* 1
+* 2
+* 3

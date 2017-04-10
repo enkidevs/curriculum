@@ -27,7 +27,7 @@ In order to balance the above tree, the `10-15-13` subtree has to be "rotated":
 
 This is a problem for binary search trees (BSTs) because an ordered linked list is a BST and searching it is linear.  Thus, a BST has log-time searching *on average*, but a linear-time worst case.
 
-Solving this problem and guaranteeing that the tree remains more-or-less balanced is one of the main motivations behind more complex BST-like data structures, e.g., AVL trees[1], red-black trees, and others.
+Solving this problem and guaranteeing that the tree remains more-or-less balanced is one of the main motivations behind more complex BST-like data structures, e.g., AVL trees[1], red-black trees[2], and others.
 
 ---
 ## Revision
@@ -35,10 +35,10 @@ Solving this problem and guaranteeing that the tree remains more-or-less balance
 Which of the following data structures is a type of *maximally-unbalanced* binary tree?
 
 ???
-*Ordered linked list
-*Ordered array
-*Weighted graph
-*Max-heap
+* Ordered linked list
+* Ordered array
+* Weighted graph
+* Max-heap
 
 ---
 ## Footnotes

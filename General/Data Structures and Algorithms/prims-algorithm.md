@@ -14,12 +14,25 @@ category: must-know
 
 As an alternative to Kruskal's algorithm, Prim's algorithm yields the same result: the **minimum spanning tree** of that graph. It is a greedy algorithm which works for **connected, weighted undirected graphs**.
 
-The algorithm starts off by picking a random node of the graph and initializing a tree with it. Next, it looks for the minimum-weight edge out of all that are incident to nodes in the tree and adds the adjacent node to the tree. It then repeats the process until the tree becomes a spanning one.
+The algorithm starts off by picking a random node of the graph and initializing a list with it. Next, it looks for the minimum-weight edge out of all that are incident to nodes in the visited list and adds the edge node to the tree, marking the new node as visited. It then repeats the process until the there are no unvisited nodes left.
 
 This is the pseudocode:
 ```text
 Prim(AdjMatrix)
+// initial random node
+  inTree←[0]
+  toVisit←[1, ... , n-1]
+  spanningTree←[]
 
+  while toVisit.length > 0
+    foreach (i, j) in AdjMatrix
+      if inTree.has(i) and
+      !inTree.has(j) and
+      isMinimumAvailable(edge(i,j)
+        inTree←inTree + j
+        toVisit←toVisit - j
+        spanningTree←spanningTree
+                    + edge(i,j)
 
 ```
 The difference between Kruskal's and Prim's is that the former starts building the minimum spanning tree using the cheapest edges first, while the latter starts off by picking a random node and then finds the cheapest edge incident to it.

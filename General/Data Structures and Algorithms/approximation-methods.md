@@ -63,7 +63,7 @@ If a function is both Big-O and Big-Omega, it is called
 ## Footnotes
 
 [1:Big O]
-Consider this inequality:
+Consider this equation:
 ```text
 nˆ3 >= 3nˆ2 + 10n,
 true for any n >= 5

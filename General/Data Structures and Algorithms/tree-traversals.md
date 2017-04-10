@@ -45,7 +45,7 @@ And it outputs:
 ```
 A, B, F, G, C, E, H, D
 ```
-A full traversal of the tree takes *O(n) time*  and *O(n) space*[2], where n is the number of nodes.
+A full traversal of the tree takes *O(n) time* and *O(n) space*[2], where n is the number of nodes.
 
 ---
 ## Practice

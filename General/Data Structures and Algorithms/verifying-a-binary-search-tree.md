@@ -61,16 +61,16 @@ Is the following a *binary search tree*?
 ```
 
 ???
-*No
-*Yes
+* No
+* Yes
 
 ---
 ## Revision
 
-Which of the following is a complete definition of a node in a binary search tree?
+A node in a binary search tree has to be
 
 ???
-*A node has to be larger than any node in its left subtree and smaller than any node in the right one.
-*A node has to be larger than its left child and smaller than its right one.
-*A node has to be larger than the root and smaller than the right-most leaf.
-*A node has to be larger than any node in its right subtree and smaller than any node in the left one.
+* larger than any node in its left subtree and smaller than any node in the right one.
+* larger than its left child and smaller than its right one.
+* larger than the root and smaller than the right-most leaf.
+* than any node in its right subtree and smaller than any node in the left one.
