@@ -72,7 +72,6 @@ We can talk about **round-trip time** only in:
 
 ???
 
-
 * round-trip time
 * ready-timed tunnel
 * round-time trip
