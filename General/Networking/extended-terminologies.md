@@ -57,22 +57,16 @@ A gateway is a device that routes traffic between networks. For example, your ho
 **MAC address**
 
 Also known as *physical address**, this is a unique identifier designed to differentiate devices on a network.
----
-## Practice
-
-A specialized server
-???
-
-* `Proxy`
-* `Firewall`
-* `VPN`
 
 ---
 ## Revision
 
-A device using a service is called
+Which of the following terms refer to the **physical**, **hardcoded** address of a device on a network?
+
 ???
 
-* `Client`
-* `Server`
-* `DNS`
+* `MAC`
+* `IP`
+* `VPN`
+* `Gateway`
+* `Proxy`
