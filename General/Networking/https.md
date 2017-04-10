@@ -28,11 +28,11 @@ https://enki.com/
 
 `HTTPS` is the same as previously discussed **HTTP**, but enhanced with an *encryption layer* over `SSL`[1], which aims to provide privacy and data integrity between the participants.
 
-The communication between a *client* (take your web browser) and a *server* (`enki.com`) is still done via the well-known and understood **HTTP**, yet all messages are:
+The communication between a *client* (take your web browser for example) and a *server* (`enki.com`) is still done via the well-known and understood **HTTP**, yet all messages are:
 - **encrypted** before being sent
-- **decrypted** when they arrive at either the client or server
+- **decrypted** when they arrive at either the client or the server
 
-Prior to the actual communication, a `SSL` connection (handshake) must be established between the two parties, following the phases:
+Prior to the actual communication, an `SSL` connection (handshake) must be established between the two parties, following the steps:
 - `hello`: both *client* and *server* will decide on which *cipher suite*[2] and what version of `SSL` they will use for encryption
 - `certificate exchange`: to prove its identity, the *server* must provide a **certificate**[3] that the client must trust before the communication can begin
 - `key exchange`: both parties decide on a symmetric key used for both encryption and decryption
@@ -74,7 +74,7 @@ What protocol is used by **HTTPS**, but not **HTTP** ?
 ## Footnotes
 
 [1:SSL]
-The **Transport Layer Security** (TLS) and **Secure Sockets Layer** (SSL), both frequently referred to as `SSL`, are cryptographic protocols that provide communications security over a computer network.
+The **Transport Layer Security** (TLS) and **Secure Sockets Layer** (SSL), both frequently referred to as `SSL`, are cryptographic protocols that provide communication security over a computer network.
 
 This layer of security has two main purposes:
 - verifying that you are talking directly to the server that you think you are talking to
