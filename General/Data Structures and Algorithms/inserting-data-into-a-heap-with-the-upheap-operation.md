@@ -74,5 +74,5 @@ During upheap operation, the child swaps places with its parent if its value
 ---
 ## Footnotes
 
-[1: Complete heap]
+[1:Complete heap]
 Complete means that every level of the underlying binary tree structure is filled, except possibly the last level.
