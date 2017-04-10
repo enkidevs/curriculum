@@ -27,12 +27,12 @@ Having these two data structures, the algorithm comes down to extracting the *ch
 The algorithm terminates when the forest becomes a spanning tree of the graph.
 
 The *pseudocode* looks like this:
-```
+```text
 Kruskal(SortedEdges[])
   Vertices[] // map of edge's weights
     // between two nodes
 
-  foreach (u,v) in SortedEdges
+  foreach edge (u,v) in SortedEdges
     if !sameConnectedComponent(u,v)
       Vertices[u,v]←weight(u,v)
 
@@ -64,4 +64,6 @@ A **spanning tree** is a connected subgraph of the initial graph G, which contai
 A graph that has numerical values assigned to edges.
 
 [3: Hint]
-If they are part of the same component, it means those nodes will already appear in the final spanning tree. As the algorithm is using a greedy approach (sorted list of edges), we also know for sure the old edge connecting the second node to the rest of the connected component is cheaper than the new one.
+If they are part of the same component, it means those nodes will already appear in the final spanning tree.
+
+As the algorithm is using a greedy approach (sorted list of edges), we also know for sure the old edge connecting the second node to the rest of the connected component is cheaper than the new one.
