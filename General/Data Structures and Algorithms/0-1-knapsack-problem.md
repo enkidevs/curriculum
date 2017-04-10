@@ -30,7 +30,7 @@ If, in the case of Fibonacci, an array/list would be enough to store the values,
 
 Values in every cell are calculated using the formula[2]:
 ```text
-m[w, 0] = 0
+m[w][ 0] = 0
 if wi + m[w][i-1] > W
   m[w][i] = m[w][i-1]
 if wi + m[w][i-1] <= W
@@ -72,8 +72,10 @@ m[w][i] = ???
 ---
 ## Footnotes
 
-[1:Dynamic programming]
-Test
+[1: Dynamic programming]
+The dynamic approach works by breaking a bigger problem into smaller ones, storing their result somewhere (*memoization*), and building a solution chain that would use previous results to solve the current problem.
 
-[2:Variables]
-Test
+One such example could be calculating the Fibonacci sequence using an array: initially, you store the first two values, `0` and `1` and then, as you compute a new value based on the previous two, you place it into the array as well.
+
+[2: Variables]
+Where `i`, `wi` and `v` are the current item's index, weight and value, `w` is the current partial weight, and `W` is the maximum allowed weight.
