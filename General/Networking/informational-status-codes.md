@@ -18,29 +18,29 @@ links:
 ---
 ## Content
 
-**Informational status codes** are represented by a three digit code that begins with *1*. It's format is `1XX`.
+**Informational status codes** are three digit codes that begin with `1`.
 
-The **status codes class** indicates a *provisional* response and was introduced in `HTTP/1.1`. That is why servers **shouldn't** send `1xx` responses to clients using `HTTP/1.0`.
-
+The **status codes class** indicates a *provisional* response and was introduced in `HTTP/1.1`. Even though major browsers stopped using `HTTP/1.0`, there are still tools or web crawling bots that are trying to avoid the overhead required by the `HTTP/1.1` protocol. You should therefore handle those requests as well, in case you are looking to set up a new server.
 
 Informational responses have the following content:
-- Status-Line: first mandatory line in a response message;
-- optional headers;
-- an empty line at the end;
+- Status-Line: `HTTP/1.1 100 Continue`
+- optional headers
+- empty line
 
-Eventhough it is not **mandatory**, clients should be prepared to *accept multiple* `1xx`status responses before an actual response is given.
+There is no fixed number of how many `1xx` responses the server should return, so clients should be prepared to accept zero, one or more.
 
-The two informational status codes are:
-- `100` **Continue**  - tells the client that a part of the request have been received and it should continue sending it
-
-- `101` **Switching Protocols** - the server informs the client that it switches to another protocol by an `Upgrade:` header
+The three informational status codes are:
+- `100` **Continue**  - in case of the initial request being required to be split into multiple smaller-sized ones, the server informs the client it can continue sending the remainder of the request
+- `101` **Switching Protocols** - the server informs the client that it will switch to the required protocol such that the message exchange can continue
+- `102` **Processing** - interim response saying the request will take awhile (more than a couple of seconds) to complete
 
 
 ---
 ## Practice
 
-Sience when has `1xx` format been introduced
-??? ?
+The `1XX` format has been introduced in
+
+???
 
 * `HTTP/1.1`
 * `HTTP/1.0`
@@ -49,9 +49,10 @@ Sience when has `1xx` format been introduced
 ---
 ## Revision
 
-What does `100` response mean to the client
-??? ?
+What is the status text of a `100` response?
 
-* **Continue**
-* **Switching Protocols**
-* **STOP**
+???
+
+* Continue
+* Switching Protocols
+* Processing
