@@ -56,7 +56,7 @@ A gateway is a device that routes traffic between networks. For example, your ho
 
 **MAC address**
 
-Also known as *physical address**, this is a unique identifier designed to differentiate devices on a network.
+Also known as *physical address*, this is a unique identifier designed to differentiate devices on a network.
 
 ---
 ## Revision
