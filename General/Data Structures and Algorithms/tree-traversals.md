@@ -81,7 +81,6 @@ Which type of tree traversal visits the children before the nodes on the same le
 Every node references its children and, maybe, its parent, thus allowing movement through the tree wherever the starting point is chosen.
 
 [2:Big-O for space]
-Just as the time function can be bounded, the memory used by a data type or algorithm can be quantified. For example, different graph representations have different space requirements:
- - The matrix requires `O(|V*V|)` space
- - The edge list and node list combination requires `O(|E+V|)` space
-Where |V|, |E| are the number of vertices and edges, respectively.
+Just as the time function can be bounded, the memory used by a data type or algorithm can be quantified. For example, different graph representations have different space requirements: the matrix requires `O(|V*V|)` space, while the edge list and node list combination requires `O(|E+V|)` space.
+
+*|V|*, *|E|* are the number of vertices and edges, respectively.
