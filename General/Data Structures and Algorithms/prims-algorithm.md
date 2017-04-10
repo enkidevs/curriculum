@@ -20,9 +20,9 @@ This is the pseudocode:
 ```text
 Prim(AdjMatrix)
 // initial random node
-  inTree{}
-  toVisit←{1, ... , n-1}
-  spanningTree{}
+  inTree[]
+  toVisit←[1, ... , n-1]
+  spanningTree[]
 
   while toVisit.length > 0
     foreach (i, j) in AdjMatrix

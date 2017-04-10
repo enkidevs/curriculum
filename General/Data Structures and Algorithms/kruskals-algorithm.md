@@ -28,13 +28,13 @@ The algorithm terminates when the forest becomes a spanning tree of the graph.
 
 The *pseudocode* looks like this:
 ```text
-Kruskal(SortedEdges{})
-  Vertices{} // map of edge's weights
+Kruskal(SortedEdges[])
+  Vertices[] // map of edge's weights
     // between two nodes
 
   foreach edge (u,v) in SortedEdges
     if !sameConnectedComponent(u,v)
-      Vertices{u,v}←weight(u,v)
+      Vertices[u,v]←weight(u,v)
 
   return Vertices
 ```

@@ -24,11 +24,11 @@ Consider the following input example:
 
 The *knapsack problem* is interesting because, like Traveling Salesman Problem, there is no known algorithm that would *solve it fast* in all cases.
 
-The *0-1* constraint, however, makes the problem solvable by using a dynamic approach[1] that takes close to *O(nW) time* (where *n* is the number of items and *W* is the max weight).
+The *0-1* constraint, however, makes the problem solvable by using a dynamic approach that takes close to *O(nW) time* (where *n* is the number of items and *W* is the max weight).
 
 If, in the case of Fibonacci, an array/list would be enough to store the values, this problem requires a matrix containing the item indexes and **all** partial sums smaller than the maximum weight.
 
-Values in every cell are calculated using the formula[2]:
+Values in every cell are calculated using the formula:
 ```text
 m[w][0] = 0
 if wi + m[w][i-1] > W
@@ -68,14 +68,3 @@ Knapsack problem requires a ??? approach to be solved.
 * greedy
 * recursive
 * complex
-
----
-## Footnotes
-
-[1:Dynamic programming]
-Dynamic approach is a way of solving problems by breaking them into smaller ones, storing their result somewhere (*memoization*), and building a solution chain that would use previous results for the current task.
-
-Think of Fibonacci sequence calculated linearly, for which you have to *store* the last two values to get the next one.
-
-[2: Variables]
-Where `i`, `wi` and `v` are the current item's index, weight and value, `w` is the current partial weight, and `W` is the maximum allowed weight.
