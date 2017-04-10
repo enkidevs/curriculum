@@ -31,11 +31,11 @@ If, in the case of Fibonacci, an array/list would be enough to store the values,
 Values in every cell are calculated using the formula[2]:
 ```text
 m[w, 0] = 0
-if wi + m[w, i-1] > W
-  m[w, i] = m[w, i-1]
-if wi + m[w, i-1] <= W
-  m[w, i] =
-      max(m[w, i-1], m[w-wi, i-1] + vi)
+if wi + m[w][i-1] > W
+  m[w][i] = m[w][i-1]
+if wi + m[w][i-1] <= W
+  m[w][i] =
+      max(m[w][i-1], m[w-wi][i-1] + vi)
 ```
 We are using the matrix to save partial sums(thus splitting the problem into smaller ones) for weights of increment one:
  - If adding the item with index `i` exceeds the weight limit, copy the previous value from the same line.
