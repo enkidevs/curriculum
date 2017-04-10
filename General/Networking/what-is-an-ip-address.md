@@ -26,31 +26,30 @@ Now, to make *communication* possible, you need a way to distinguish yourself am
 
 Here, the *IP[2]* comes in handy by uniquely mapping **addresses** to every devices within a **network**. This is similar to the way real-life *postal addresses* identify residences or other buildings throughout the world.
 
-There's a big chance you have already encountered them in the following form[3]:
-
+There's a big chance you have already encountered them as[3]:
 ```
 //example IP address
 25.255.0.1
 ```
 
-With that being the shorthand notations.The actual format of an IP address (in `IPv4`) is:
+With that being the shorthand notation. The actual format of an IP address (in `IPv4`) is:
 ```
 xxx.xxx.xxx.xxx
 ```
-where `xxx` represents `8` bits. In decimal, these `8` bits convert to a number between `0` and `255`[4].
+Where `xxx` is the decimal representation of eight `0-1` (binary) bits. These eight bits can take values between `0000 0000` (**0** in decimal) and `1111 1111` (**255** in decimal)[4].
 
-In reality, things are a little bit more complicated, with the IP splitting into two categories :
- - **static** - hardcoded and constant
+In reality, things are a little bit more complicated, with the IPs splitting into two categories:
+ - **static** - hard-coded and constant
  - **dynamic** - frequently changing, being assigned by other networking device
 
-**IP addresses** became such a popular concept and are taken for granted nowadays by being part of the implementation of  `TCP/IP`[5] protocol stack, around which the Internet was built.
-Alternatives to the **TCP/IP stack**, such as `AppleTalk` exist, but the former proved superior and became the standard.
+**IP addresses** became a popular concept and nowadays are taken for granted by being part of the `TCP/IP`[5] protocol stack, around which the Internet was built.
+Alternatives to the **TCP/IP stack**, such as `AppleTalk`, exist, but the former proved superior and became the standard.
 
 ---
 ## Footnotes
 
 [1:Trivia]
-Garner, Inc. estimates that there will be almost **21 billion** devices connected to the internet by year `2020`.
+Garner, Inc. estimates that there will be almost **21 billion** devices connected to the Internet by year `2020`.
 
 [2:IP acronym]
 `IP` is the acronym for **Internet Protocol**.

@@ -18,11 +18,11 @@ links:
 ---
 ## Content
 
-In *computer networking*, the **port**[1] is an essential component of the *Internet Protocol*. It is passed as a numerical value that identifies individual services on a networked computer.
+In *computer networking*, a **port**[1] is an essential component of the *Internet Protocol*. It is passed as a numerical value that identifies individual services on a networked computer.
 
 A *web server* and a *mail server* can be hosted by the same machine, but they need to be assigned **different** port numbers.
 
-While the **IP address** identifies a single machine, the combination of **IP address** and the **port** identifies a specific service running on that machine.
+While the **IP address** identifies a single machine, the combination of **IP address** and **port number** identifies a specific service running on that machine.
 
 If you think of the IP address as the equivalent of a postcode, then the port number represents the house number
 A building located at *249 Oak St.* might have a café at *249 Oak **#1***, a bookshop at *249 Oak **#2***, and a so on.
@@ -39,8 +39,8 @@ To represent ports, a `16 bit` number is used, ranging from `0` to `65535`, yet 
  - `HTTP` with port `80`
  - `FTP` with port `21`
 
-When you visit an address like `www.enki.com` you can clearly see there is no associated port displayed.
-This happens because the HTTP protocol (used to get the page) runs by default on port `80` which your browser doesn't need to display.
+When you visit an address such as `www.enki.com`, you won't be required to also specify its port number.
+This happens because the HTTP protocol, used to get the page, runs by default on port `80`.
 
 ---
 ## Practice

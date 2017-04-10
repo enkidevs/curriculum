@@ -25,7 +25,6 @@ links:
 This layer enables actual applications that need to communicate through a network (e.g. web browsers, games, chats etc.) to send and receive data to and from servers or hosts on that network.
 
 Specifically, the application layer **protocol** defines:
-
 - message *type*
 - message *syntax*
 - *semantics* of message fields
@@ -35,20 +34,19 @@ The **Application Layer** provides numerous services via **protocols** built on 
 
 **SMTP**
 
-Simple Mail Transfer Protocol is a protocol running on top of `TCP/IP`, supporting electronic mail on the internet.
-`SMTP` provides the ability to send and receive email messages over the Internet.
+Simple Mail Transfer Protocol is a protocol running on top of `TCP/IP`, providing support for sending and receiving email messages over the Internet.
 
-It was created and is maintained by the Internet Engineering Task Force (**IETF**). The default port used by `SMTP` is `25` for un-encrypted connections and `465` otherwise.
+It was created and is maintained by the Internet Engineering Task Force (**IETF**). The default port used by `SMTP` is `25` for unencrypted connections, or `465` otherwise.
 
 **TELNET**
 
-Terminal Network[1], built as well on top of `TCP/IP` is a protocol that grants access to remote machines(hosts).
+Terminal Network[1], built as well on top of `TCP/IP` is a protocol that grants access to remote machines (hosts).
 
 Running on port `23`, `telnet` lets you log in and control a machine remotely based on the set-up permissions.
 
 **FTP**
 
-File Transfer Protocol is the standard  *mechanism* provided by `TCP/IP` for *copying* a file from one host to another.
+File Transfer Protocol is the standard *mechanism* provided by `TCP/IP` for *copying* a file from one host to another.
 
 Being often secured with other protocols, `FTP` is most commonly used to download or upload files to and from a server using the Internet. By default, `FTP` uses port `21`.
 
