@@ -75,7 +75,7 @@ Abstract Data Type, or ADT, means the data type cannot be implemented (i.e. repr
 A linear data structure means that its items are lying on the same level and are not hierarchically structured.
 
 [3:Node]
-A node is a data type that contains an element and references to nodes next to it. In other words, from a node instance you can obtain its value and one or more neighbours.
+A node is a data type that contains an element and references to nodes next to it. In other words, from a node instance you can obtain its value and one or more neighbors.
 
 [4:Josephus problem]
 Also known as *Josephus permutation*, it is a *count-out* game. The game starts with *m* people standing in a circle. Each turn consists of choosing a person to start the counting from and, in the same predefined direction, count up to *n*.

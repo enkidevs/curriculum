@@ -55,10 +55,10 @@ Where will the next node be inserted in the heap?
   A     B      
 ???
 ```
-*`C`
-*`A`
-*`B`
-*`D`
+* `C`
+* `A`
+* `B`
+* `D`
 
 ---
 ## Revision
