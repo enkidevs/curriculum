@@ -13,55 +13,94 @@ category: must-know
 
 links:
 
-  - 'https://www.tutorialspoint.com/data_communication_computer_network/application_layer_introduction.htm'
+  - https://www.tutorialspoint.com/data_communication_computer_network/application_layer_introduction.htm
+
+  - https://kb.ctera.com/article/how-to-open-a-telnet-session-on-windows-7-or-windows-8-os-16.html
 
 ---
 ## Content
 
-**Application Layer** is the top most layer of the `OSI` model. It plays an *important role* in the *interaction* between users and user applications. Basically this layet's task is the actual request a web browser(online gamese, etc.) send to the server. 
+**Application Layer** is the top most layer of the `OSI` model. It plays an *important role* in the *interaction* between users and user applications.
 
-Specifically, an application layer **protocol** defines:
+This layer enables actual applications that need to communicate through a network (e.g. web browsers, games, chats etc.) to send and receive data to and from servers or hosts on that network.
 
-- The type of the message
-- The syntax of the various message types
-- The semantics of the fields
-- Communication rules  
+Specifically, the application layer **protocol** defines:
 
-Common **protocols**:
+- message *type*
+- message *syntax*
+- *semantics* of message fields
+- communication rules  
 
-**SMTP(Simple Mail Transfer Protocol)** is the protocol running on top of `TCP/IP`, it supports electronic mail on the internet. In the client/server model:
-- **SMTP** is split into two parts, a *client* side and a *server* side. 
-- Both of them run on every email server.
+The **Application Layer** provides numerous services via **protocols** built on top of lower-level layers:
 
-**TELNET(Terminal Network)** is a *client-server application* that enables users to log onto *remote machine* and lets the user access any application program on a remote computer.[1]
+**SMTP**
 
-**FTP(File Transfer Protocol)** is the standard *mechanism* provided by `TCP/IP` for *copying* a file from one host to another. It is built on a **client-server** architecture and separates *control* and *data* connections between the two devices.
+Simple Mail Transfer Protocol is a protocol running on top of `TCP/IP`, supporting electronic mail on the internet.
+`SMTP` provides the ability to send and receive email messages over the Internet.
 
-**MIME(Multipurpose Internet Mail Extention)** is an extension of **SMTP** enabling transfer of *multimedia messages*.
+It was created and is maintained by the Internet Engineering Task Force (**IETF**). The default port used by `SMTP` is `25` for un-encrypted connections and `465` otherwise.
 
-**Http/Https(Hyper text transfer protocol/secure)**, is an aplication level protocol for the distribution and transfer of hypermedia information system. This is the foundation for data communication for the World Wide Web sience 1990. `Https` is the secure version of
+**TELNET**
 
-# Footnotes
+Terminal Network[1], built as well on top of `TCP/IP` is a protocol that grants access to remote machines(hosts).
 
-[1:fun fact on FTP]
-You can watch Star Wars Episode IV in your terminal via telnet protocol.
+Running on port `23`, `telnet` lets you log in and control a machine remotely based on the set-up permissions.
+
+**FTP**
+
+File Transfer Protocol is the standard  *mechanism* provided by `TCP/IP` for *copying* a file from one host to another.
+
+Being often secured with other protocols, `FTP` is most commonly used to download or upload files to and from a server using the Internet. By default, `FTP` uses port `21`.
+
+**MIME**
+
+Multipurpose Internet Mail Extension is an extension of `SMTP` enabling transfer of *multimedia messages*. This enables the support for videos, images, songs and much more when sending and receiving emails.
+
+**HTTP/HTTPS**
+
+Hyper text transfer protocol (secure) is the protocol used for transferring files (text, graphic images, sound, video, and other multimedia files) on the World Wide Web.
+
+`HTTP`, for example, is the protocol responsible for loading all websites when browsing the Internet.
+
+**VOIP**
+
+Voice over `IP` is a protocol that makes use of `UDP` protocol and can be defined as a technologies used for delivery of **voice communications** and multimedia sessions over a network.
 
 ---
 ## Practice
 
-The protocol enabling transfer of multimedia messages is 
+Which of the following protocols is an extension of **SMTP** ?
+
 ???
 
 * MIME
-* SMTP
+* HTTP
 * POP
+* STMP
+* EMTP
+* TELNET
 
 ---
 ## Revision
 
-The protocol that allows logging into remote machines is
+Which of the following protocols was specifically designed for file transfer over a network?
+
 ???
 
+* FTP
+* HTTP
+* SMTP
+* HTTPS
 * TELNET
 * POP
 * MIME
+
+---
+## Footnotes
+
+[1:Telnet]
+Telnet works as a shell command both on **Windows** (if enabled from settings) and **Unix** machines.
+You can watch Star Wars Episode IV - made in ASCII art - from your terminal via `telnet`:
+```
+telnet towel.blinkenlights.nl
+```
