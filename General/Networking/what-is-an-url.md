@@ -49,13 +49,17 @@ Would make sense to return the users whose name is *John*.
 ---
 ## Practice
 
-Which protocol is more often used nowadays due being more secure?
+What character(s) is/are used to specify the beginning of the `query string` in a **URL** ?
 
 ???
 
-* `https`
-* `http`
+* `?`
+* `&`
 * `wwww`
+* `:`
+* `^`
+* `//`
+* `://`
 
 ---
 ## Revision
