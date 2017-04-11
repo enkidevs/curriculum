@@ -30,7 +30,7 @@ Communication process is based on a **request/response** flow:
 
 One fundamental characteristic that made **HTTP** a powerful protocol is that both parties are aware of each other during the current request only and will forget about each other afterwards. This is the reason why HTTP is considered to be *stateless*.
 
-The currently most used version is `HTTP/1.1`. However, the newest version of HTTP is `HTTP/2`[1], which, at the beginning of `2017`, had an adoption rate of over `12%` (when talking about the top 100 million websites).
+The currently most used version is `HTTP/1.1`. However, the newest version of HTTP is `HTTP/2`[1], which, at the beginning of `2017`, had a support rate of over `13%`[2].
 
 ---
 ## Footnotes
@@ -40,6 +40,9 @@ HTTP/2 characteristics:
  - is binary, instead of textual
  - can use a single connection for multiple requests
  - uses header compression to reduce overhead
+
+[2: Statistics]
+https://w3techs.com/technologies/details/ce-http2/all/all
 
 ---
 ## Practice
