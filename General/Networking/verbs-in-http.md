@@ -42,25 +42,28 @@ Similar to the `POST` request, the payload of a `PUT` request carries data neces
 [3:specialized POST]
 `PUT` and `DELETE` can be substituted by specialized `POST` requests with different payload content. i.e.: instead of updating only some fields of an old resource, overwrite it with the new updated resource.
 [4:HEAD]
-The `HEAD` verb can sometimes be used to check if the targeted resource has changed as the header contains data such as timestamps.
+The `HEAD` verb can sometimes be used to check if the targeted resource has changed over time and if there's any need of requesting it again. 
+This is possible as the header of a request contain timestamps.
 [5:Options]
 For example, in case of the server not being able to understand a `PUT` request, sending a `OPTIONS` request first will help us prevent receiving a `400 Bad Request` error.
 
 ---
 ## Practice
 
-What's another name for `HTTP Methods`, keywords that include actions like `GET` or `PUT`?
+Which of the following **HTTP verbs** should be used only for debugging purposes?
 
 ???
 
-* HTTP verbs
-* URLs
-* requests
+* `TRACE`
+* `OPTIONS`
+* `GET`
+* `DELETE`
+* `PUT`
 
 ---
 ## Revision
 
-Which HTTP verb should update an existing resource on the server?
+Which HTTP verb should be used, by definition, to update an existing resource on the server?
 
 ???
 
