@@ -31,7 +31,7 @@ Other redirect codes you should take into account when using an external server:
 ---
 ## Practice
 
-Which redirection status code does indicate that the resource hasn't been modified?
+Which redirection status code indicates that the resource requested hasn't been modified and a cached version can be used instead?
 
 ???
 
@@ -42,9 +42,10 @@ Which redirection status code does indicate that the resource hasn't been modifi
 ---
 ## Revision
 
-The only two methods for which a browser should redirect the user after receiving a `301` Moved Permanently are _GET_ and
+The only two methods for which a browser should redirect the user after receiving a `301` __Moved Permanently__ are _GET_ and
 
 ???
+
 * HEAD
 * POST
 * DELETE
