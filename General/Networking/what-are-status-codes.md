@@ -25,15 +25,19 @@ By using URLs and HTTP verbs (more on these in a future workout), a client can m
 The *status code* indicates whether the request has been successfully processed or not. The codes are grouped into *five* classes:
 
  - **Informational messages** (`1xx`): This class was introduced in `HTTP/1.1` and indicates that everything is OK so far and that the client can continue with the request.
+ 
 - **Success messages** (`2xx`): These ones tell the client that the request was acknowledged and successfully processed.
+
 - **Redirection messages** (`3xx`): These messages imply that further action must be taken to complete the request. Usually, they indicate that a different URL must be used to access the resource.
+
 - **Client-error messages** (`4xx`): They are used to inform the client there was a problem with their request. The problem could be an invalid URL, a missing field or wrongly formatted data.
+
 - **Server-error messages** (`5xx`): They show that the server failed to process the request.
 
 ---
 ## Practice
 
-What first digit in the status code does imply a successfully processed request?
+What first digit in the status code does imply a **successfully processed request**?
 
 ???
 
@@ -42,6 +46,7 @@ What first digit in the status code does imply a successfully processed request?
 * `5`
 * `3`
 * `4`
+
 ---
 ## Revision
 
