@@ -32,7 +32,7 @@ This distinction is relevant between **ISPs** [1] usually advertise their `bandw
 
 These metrics are computed over a **single unit of time**, being expressed in bits per seconds (`bps`).
 
- Modern networks are much faster and therefore have their speeds measured in million of bits per second - megabits per second (`Mbps`) or in billion of bits per second - gigabits per second (`Gbps`)
+ Modern networks are much faster and therefore have their speed measured in million of bits per second, megabits per second (`Mbps`) or in billion of bits per second, gigabits per second (`Gbps`).
 
 ---
 ## Practice
