@@ -28,7 +28,7 @@ Data returned depends of the method used for the request:
 
 Not all `2xx` codes, however, mean that the request has been completed. For example, the `202` **Accepted** message states that the request has been queued for processing or is still processing. Even though not mandatory, the response should contain an indication of when the user can expect the request to be completed.
 
-Other successful status codes are:
+Other status codes indicating the **success** of a request are:
 - `204` **No Content**: successful, but no message body in the response
 - `205` **Reset Content**: tells the user agent[1] to refresh the page from which the request originated
 - `206` **Partial Content**: indicates the response is only partial
@@ -56,7 +56,9 @@ A `200` response to a `GET` request contains
 ---
 ## Revision
 
-What is the format of successful status codes?
+What is the format of status codes indicating the **success** of a request?
+
+???
 
 * `2xx`
 * `1xx`
