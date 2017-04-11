@@ -11,43 +11,29 @@ type: normal
 
 category: must-know
 
-links:
-
-  - 'https://www.tutorialspoint.com/http/http_status_codes.htm'
-
 ---
 ## Content
 
-The redirection status codes are used to tell that the client must take additional actions in order to fulfil the request.
+**Redirection status codes** notify the user agent that additional steps are required to complete the request. They always start with `3`.
 
-If the method in the request is either `GET` or `HEAD`, the action required **may** be carried by the client, but with no interaction with the user.
+For example, `300` **Multiple Choices** status code will return a list of available links the user agent (browser) can navigate to. Due to how previous versions were regulated, some servers might respond with a maximum of 5 links.
 
-The format for the redirection status codes is `3xx`.
+`301` **Moved Permanently** response specifies a new permanent *URL* for the requested resource. This new *URL* can be found as the `Location` field in the response.
 
+If the method of the request is either `GET` or `HEAD`, the redirection **may** be carried out by the user agent, without any user interaction. An automatic redirection shouldn't happen otherwise.
 
-For example the, `300` **Multiple Choices** status code will present in the response a list with links that the user can select from and go to that location. There is a limitation to this type of message as it can hold a maximum of 5 links.
--**
+Sometimes, it comes in handy to use the cached version of a resource instead of requesting it again (one reason might be to reduce bandwidth usage). The `304` **Not Modified** response indicates just that: the resource hasn't been modified since last requested and the client can use its current version.
 
-The `301` **Moved Permanently** specifies a new permanent *URI* for the requested resource.
-
-This new *URI* is specified in the `Location` field of the response .
-
-An automatic re-direction shouldn't happen if if the request method is one other than `GET` or `HEAD`.
-
--**
-
-The `304` **Not Modified** indicates that the resource hasn't been modified and the client can use its cached version.
-
-Other useful redirect status codes include:
-- `302` **Found** returning a temporary new URI
-- `303` **See Other** telling that the page can be found under a different URI
-- `306` **Unused**  indicating the resource was used in a previous version, and is now reserved
+Other redirect codes you should take into account when using an external server:
+- `302` **Found** contains a temporary new URL for the resource
+- `303` **See Other** in short, it is the `HTTP/1.1` version of the `302` response.
 
 ---
 ## Practice
 
-Which redirection status code indicates that the resorce hasn't been modified
-??? ?
+Which redirection status code does indicate that the resource hasn't been modified?
+
+???
 
 * `304`
 * `303`
@@ -56,9 +42,10 @@ Which redirection status code indicates that the resorce hasn't been modified
 ---
 ## Revision
 
-What is the format for redirection status codes
-??? ?
+The only two methods for which a browser should redirect the user after receiving a `301` Moved Permanently are _GET_ and
 
-* `3xx`
-* `2xx`
-* `4xx`
+???
+* HEAD
+* POST
+* DELETE
+* GET

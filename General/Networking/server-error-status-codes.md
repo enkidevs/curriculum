@@ -11,33 +11,28 @@ type: normal
 
 category: must-know
 
-links:
-
-  - 'https://www.tutorialspoint.com/http/http_status_codes.htm'
-
 ---
 ## Content
 
-When processing *HTTP requests*, errors can happen not only on the client side, but also on the server side. In such case, if possible, **server-error status codes** are used in responses.
+When processing *HTTP requests*, problems can occur not only on the client side, but also on the server side. In such cases, if possible, **server-error status codes** are returned.
 
-The format specific to this class of codes have the `5xx` format. Same as in client-error status codes, except from `HEAD` responses, an entity explaining the error *should* be included.
+You can recognize server errors by their first digit, `5`. An explanation of what caused the error should be included in the response message. This is not the case, however, for `HEAD` requests as they have no payload.
 
-When encountering an unexpected condition preventing the server from fulfilling the request, a `500` **Internal Server Error** is used.
--**
+When encountering an unexpected condition preventing the server from fulfilling the request, a `500` **Internal Server Error** status code is sent back.
 
-When a server is requested with a method not yet supported (for example using `CONNECT` verb in a request sent to a `HTTP/1.0` server) the `501` **Not Implemented** status code should be used.
-
+When a request containing a method not yet supported by the server is received (for example, using the `PUT` verb in a request sent to a server that expects a specialized `POST` request), the `501` **Not Implemented** status code should be used.
 
 Other server-error status codes are:
-- `502` **Bad Gateway** - when the server acts as a proxy/gateway and an invalid response is received from the upstream server
+- `502` **Bad Gateway** - returned when the server acts as a proxy/gateway and an invalid response is received from the upstream server
 - `503` **Service Unavailable** - server is unable to handle the request due to overloading
 - `504` **Gateway Timeout** - the proxy/gateway server didn't receive a timely response
 
 ---
 ## Practice
 
-What status code is used for unexpected condition
-??? ?
+In case of an unexpected factor preventing the server from completing the request, it will return
+
+???
 
 * `500` **Internal Server Error**
 * `502` **Bad Gateway**
@@ -46,8 +41,9 @@ What status code is used for unexpected condition
 ---
 ## Revision
 
-What status code is used for method not yet supported
-??? ?
+What status code should the server return if it doesn't understand the request's method?
+
+???
 
 * `501` **Not Implemented**
 * `503` **Service Unavailable**
