@@ -41,10 +41,10 @@ In case of an unexpected factor preventing the server from completing the reques
 ---
 ## Revision
 
-What status code should the server return if it doesn't understand the request's method?
+What status code should the server return if it is unable to process the request due to overloading?
 
 ???
 
-* `501` **Not Implemented**
 * `503` **Service Unavailable**
+* `501` **Not Implemented**
 * `504` **Gateway Timeout**
