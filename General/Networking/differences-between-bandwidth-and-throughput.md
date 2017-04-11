@@ -52,6 +52,8 @@ Which of the following metric refers to the **maximum theoretically** speed data
 
 Which of the following metric refers to the **actual** speed data can move over a network segment?
 
+???
+
 * `throughput`
 * `jitter`
 * `latency`
