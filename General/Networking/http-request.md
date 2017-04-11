@@ -1,4 +1,4 @@
-# HTTP request
+# The HTTP request
 author: SebaRaba
 
 levels:
@@ -13,44 +13,86 @@ category: must-know
 
 links:
 
-  - 'https://www.tutorialspoint.com/http/http_requests.htm'
+  - 'https://www.tutorialspoint.com/http/http_requests.html'
 
 ---
 ## Content
 
-Whenever a client fetches a file from a **web server** it is using `HTTP` protocol. `HTTP` is a *request*/*response* protocol, which means, first you computer sends a *request* which is followed by a *response* from the **server**.
+Whenever a web browser fetches a file from a **web server**, it is using the `HTTP` protocol. `HTTP` is a *request/response* protocol: your machine sends a request to the server, which, in turn returns a response.
 
-**Request-Line**
+The usual request structure is:
+```text
+Request-Line
+(general-header or
+  request-header or
+  entity-header) CRLF
+CRLF
+Message-Body
+```
+The `Request-Line` is composed of:
+```text
+Method Request-URI HTTP-Version CRLF
+```
 
-`Request-Line = Method SP Request-URI SP HTTP-Version CRLF`
+### Request line
 
-The request line begiens with a *method*, followed by the request `URI` and the *protocol* version and ends in `CRLF`. All it's parts are separated using SP characters, each request must end in <CR><LF>(carriage return and line feed).
+The request line contains the **HTTP method** (verb), followed by the **resource URL** and the **protocol version**. Every component must be separated by a *space character* and the line should end in *CRLF* (new line).
 
-Some bad `HTTP/1.0` implementations were generating extra `CRLF` after a `POST` request. Thus `HTTP/1.1` must skip request containing extra `CRLF`. Usually a request contain the following headers:
+The *HTTP methods* can be either one of: `GET`, `POST`, `DELETE`, `HEAD` etc. Only one method per request is allowed. More on these in a future workout.
 
-- `Request URI` /dumprequest, it specifies *documents* which should be retrieved;
-- `Request Method` GET, the request Method is usually either `GET` or `POST`;
-- `User-Agent` Mozilla/5.0 (X11; Linux x86_64) together with *Accept* and *Accept-Language* specify details about your web browser, what type of things your browser can accept and the language it accepts;
-- `Refering page` specifies which documents refer you to the page;
-- `Cookies` every time a server sends a response to your browser it has the opportunity to send a *cookie* as well, they are small bits of information which contain data your browser stores;
-- `Connection control` keep-alive.
+The *resource URL* is the path on the server which the request is supposed to target. If a user clicks on the `Contact` page on your website, the browser would be likely to make a request to fetch the `/contact` page on the server.
 
+Keep in mind that this is *not necessarily an absolute URL*[1]: in this case, the address of the server (e.g. `www.myAwsomeWebsite.com`) has to be specified in the `Host` field of the header.
+
+The *HTTP version* is self explanatory: it announces the protocol understood by the client and that should also be adopted by the server.
+
+### Request header
+
+There are multiple fields that can go into the header of a request. Some of them are:
+- **User-Agent**: specifies details about your web browser and your OS
+- **Accept**: states what resource format will be accepted (`text/plain` for documents, `text/html` for web pages, `audio/*` for any type of audio file etc.)
+- **Accept-Language**: specifies the type of language the website should be in, in case there are multiple available options
+- **Referer**(sic!): specifies what page the request originated from
+- **Content-Type**: tells the server what type of files can be added to the response
+
+---
+## Footnotes
+
+[1: Relative vs Absolute URL]
+The absolute URL is:
+```text
+http://www.myAwsomeWebsite.com/contact
+```
+While the relative one (which requires the `Host` field) is:
+```
+/contact
+```
 
 ---
 ## Practice
 
-Bad implementations of `HTTP/1.0` were producing extra ???
-?
+The usual syntax of a request line is:
+```
+??? ??? ??? ???
+```
 
+* Method
+* URL
+* HTTP version
 * CRLF
-* Requests
-* Cookies
+* CTRLF
+* Host
+
 
 ---
 ## Revision
 
-??? contain information that is already stored by your browser.
+The request header that delivers information about your browser and operating system is
 
-* Cookies
+???
+
 * User-Agent
 * Accept
+* Cookies
+* Browser
+* User

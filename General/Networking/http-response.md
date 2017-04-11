@@ -1,4 +1,4 @@
-# HTTP response
+# A HTTP response
 author: SebaRaba
 
 levels:
@@ -18,35 +18,43 @@ links:
 ---
 ## Content
 
-After recieving and interpreting a request, the **server** sends a response to the **client**.
-This responses have the following format:
+After receiving and interpreting a request, the **server** sends back a response to the **client**. The usual response syntax is:
+```text
+Status-Line
+(general-header or
+  request-header or
+  entity-header) CRLF
+CRLF
+Message-Body
+```
 
-`Response = Status-Line;
-          *(( general-header ;
-          | response-header ;
-          | entity-header ) CRLF) ;
-          CRLF
-          [ message-body ] ;`
+The `Status-Line` contains:
+```text
+HTTP-Version Status-Code Code-Description CRLF
+```
 
+### Status line
 
-`Status-Line = HTTP-Version SP Status-Code SP Reason-Phrase CRLF`
+The first line in every response is the status line. It is made up of the **HTTP version** both the server and the client agreed on,
+the **status code** of the request and the **code description**. Every component must be separated by a *space character* and the line should end in *CRLF* (new line).
 
-The first line of the *response* is the **status line**.It contains the *protocol* version followed by the numeric **status codes**, no CRLF is allowed until the end of the sequence.
-- the **status code** is the 3 digit result code.
-- the **response headers** allows information that can't be added in **status codes** to be sent in the response.
+There are five types of *status codes* that can be returned: *Informational*, *Success*, *Redirection*, *Client Error* and *Server Error*. More on these in a later workout.
 
-## Response headers
-The response headers are fairly limited:
+The *code description* is there to explain what exactly the status code means.
 
-- **Accept-Ranges** describes what content range types the server supports;
-- **Age** header contains information about the amount of time between a nrew request from the client and the time the server send the response;
-- **ETag** represents an identifier for a specific version of resource;
-- **Location** is used in redirect, or when a new resource has been created;
-- **Proxy-Authenticate** contains a authentication request made to the proxy;
-- **Retry-After** when a resource is unavailable, this header specifies, either using a slot of time(nb: 120 s) or using a specific date( 23 March 2017 14 00 GMT) after which to try accessing that resource again;
-- **Server** header represents a name for the server;
-- **Vary** tells downstream proxies[1] how to use future request headers in order to use the cached resource instead of requesting a fresh one;
-- **WWW-Authenticate** indicates the authentication scheme to be used.
+### Response headers
+
+----------
+
+The response headers are fairly limited compared to request headers:
+- **Age** field contains information about the amount of time between a new request from the client and the time the server send the response
+- **ETag** represents an identifier for a specific version of resource
+- **Location** is used in redirect, or when a new resource has been created
+- **Proxy-Authenticate** contains a authentication request made to the proxy
+- **Retry-After** when a resource is unavailable, this header specifies, either using a slot of time(nb: 120 s) or using a specific date( 23 March 2017 14 00 GMT) after which to try accessing that resource again
+- **Server** header represents a name for the server
+- **Vary** tells downstream proxies[1] how to use future request headers in order to use the cached resource instead of requesting a fresh one
+- **WWW-Authenticate** indicates the authentication scheme to be used
 
 ## Footnotes
 
