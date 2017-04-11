@@ -42,6 +42,8 @@ However, in streaming media and online game applications - which use **UDP**, pa
 
 Measuring which of the following has no sense on **TCP** connections?
 
+???
+
 * `packet loss`
 * `jitter`
 * `latency`
