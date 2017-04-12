@@ -16,6 +16,8 @@ category: must-know
 
 If the graph contains a *negative cycle* (the weight of the edges sum to a negative value) reachable from the source, every *walk*[1] around that cycle would decrease its cost - if this is the case, the algorithm should throw an error.
 
+Why is this important? Because *Dijkstra's*, when run in such a situation, will never terminate as it will keep decreasing the path length by spinning around the negative cycle.
+
 Like *Dijkstra's*, this algorithm is based on the principle of *relaxation*[2]. For *Bellman-Ford*, instead of visiting each node using a *closest-first greedy approach*, `|V-1|` iterations are done, where `|V|` is the number of vertices(e.g. for a graph with 5 vertices, the maximum number of iterations would be 4).
 
 Because the implementation differs from one graph representation to another, the following way of applying the algorithm may not always work[3].
@@ -64,7 +66,7 @@ The algorithm runs in `O(|V|×|E|)` time, where `|V|` and `|E|` are numbers of v
 
 The main difference between Bellman-Ford and Dijkstra's algorithms is that
 
-???.
+???
 
 * Bellman-Ford works for graphs with negative-weighted edges
 * Bellman-Ford is faster

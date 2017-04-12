@@ -53,7 +53,7 @@ Bellman-Ford algorithm uses
 ---
 ## Revision
 
-In the worst case, Bellman-Ford algorithm requires
+In the worst case, the Bellman-Ford algorithm requires
 
 ???
 

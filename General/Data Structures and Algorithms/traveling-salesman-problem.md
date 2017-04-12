@@ -14,7 +14,11 @@ category: must-know
 
 We will now take a brake from plain algorithms to discuss the *Traveling Salesman Problem*, also known as *TSP*. Mainly a mathematical problem, it is worth mentioning here because of its applicability.
 
-The input to the problem represents a graph depicting a number of *m* cities and the connections between them. The problem describes a salesman who **must** visit *n* cities, and, in the end, return to the starting point. The order in which the cities are visited is not important - yet, finding a solution with the lowest possible distance and cost is. In other words, the problem can be seen as an optimization one.
+The problem describes a salesperson who must visit a number of cities and return to the same city they started at, without the salesperson visiting a city more than once.
+
+Defined mathematically, the problem is this: given a graph of *m* nodes representing cities and the connections between them, find an optimal route such that *n* cities can be visited at most once whilst starting and finishing at the same node.
+
+The order in which the cities are visited is not important - yet, finding a solution with the lowest possible distance and cost is. In other words, the problem can be seen as an optimization one.
 
 As stated above, the input is represented by a graph:
 

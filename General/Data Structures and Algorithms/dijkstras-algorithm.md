@@ -14,7 +14,7 @@ category: must-know
 
 **Dijkstra's algorithm** is an algorithm for finding the shortest paths between nodes in a *weighted graph*[1].
 
-*Shortest path* refers to the lowest-weight path, and not necessarily to the path with the least *number of edges*.
+*Shortest path* refers to the lowest-weight path, and not necessarily to the path with the lowest *number of edges*.
 
 Usual implementations of this algorithm compute and store the minimum cost from the initial node to *all* other nodes.
 
@@ -22,9 +22,9 @@ Usual implementations of this algorithm compute and store the minimum cost from 
 
 The algorithm works like this:
 - Assign an *initial node*.
-- For every node, assign a *reference distance* to the initial node[2].
+- For every node, assign `infinity` as the *reference distance* to the initial node[2].
 - Keep track of the unmarked nodes with a *tracking data structure* and mark the *initial node* as current.
-- For the current node, consider all of its unvisited neighbors and calculate their *relative distance*. Compare the new distance with the old one (this is where having infinity as the initial value comes in handy): if the new value is smaller, *update* the distance, otherwise keep the old value.
+- For the current node, consider all of its unvisited neighbors and calculate their *relative distance*. Compare the new distance with the old one (using `infinity` as the initial, reference value): if the new value is smaller, *update* the distance, otherwise keep the old value.
 - Mark the current node as *visited*, to avoid an infinite loop.
 - If the destination node has been checked[3] or if the smallest distance between the two is infinity[4], stop the algorithm.
 - Else, select the unvisited neighbor of the current node with the *smallest tentative distance*, set it as *current node*, and go back to **4th** step.
@@ -62,7 +62,7 @@ Swipe to the next insight to see a step by step iteration of the algorithm.
 ---
 ## Revision
 
-What does Dijkstra's algorithm achieve?
+What does Dijkstra's algorithm compute?
 
 ???
 * The shortest path between nodes in an weighted graph.
@@ -85,7 +85,7 @@ A graph in which every edge has numerical values (weight or cost) assigned to it
 ```
 
 [2:Reference distance]
-To be able to track the actual distance from the initial node to other nodes, a reference value must be used. Because we are trying to find the lowest cost path, the bigger the number we choose, the safer it would be to perform the condition check.
+To be able to track the actual distance from the initial node to other nodes, a reference value must be used. As we are trying to find the lowest cost path, the larger the number we choose, the safer it is when performing the condition check.
 
 The safest way to do it is to assign *distance 0* to the initial node and *distance infinity* to all the others.
 
@@ -93,4 +93,4 @@ The safest way to do it is to assign *distance 0* to the initial node and *dista
 In case the destination node is known.
 
 [4:Full traversal]
-In case the algorithm computes a full traversal, an infinity value tells that the particular node is not reachable.
+In case the algorithm computes a full traversal, value of `infinity` tells that the particular node is not reachable.
