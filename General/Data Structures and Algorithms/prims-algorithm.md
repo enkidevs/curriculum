@@ -12,9 +12,9 @@ category: must-know
 ---
 ## Content
 
-As an alternative to Kruskal's algorithm, Prim's algorithm yields the same result: the **minimum spanning tree** of that graph. It is a greedy algorithm which works for **connected, weighted undirected graphs**.
+As an alternative to Kruskal's algorithm, Prim's algorithm yields the same result: the **minimum spanning tree** of that graph. It is a greedy algorithm which works for **connected, weighted, undirected graphs**.
 
-The algorithm starts off by picking a random node of the graph and initializing a list with it. Next, it looks for the minimum-weight edge out of all that are incident to nodes in the visited list and adds the edge node to the tree, marking the new node as visited. It then repeats the process until the there are no unvisited nodes left.
+A random starting node is selected and an empty list initialized that will contain the distance from the start node to all other nodes. Next, the algorithm looks for the minimum-weight edge out of all that are incident to nodes in the visited list and adds the edge node to the tree, marking the new node as visited. It then repeats the process until the there are no unvisited nodes left.
 
 This is the pseudocode:
 ```text
@@ -37,7 +37,7 @@ Prim(AdjMatrix)
 ```
 The difference between Kruskal's and Prim's is that the former starts building the minimum spanning tree using the cheapest edges first, while the latter starts off by picking a random node and then finds the cheapest edge incident to it.
 
-In terms of time complexity, for dense graphs[1], the algorithm can get as fast as *linear time*. Increasing the number of edges for each node means there is a smaller chance for the algorithm to reach a dead end and backtrack.
+In terms of time complexity, for dense graphs[1], the algorithm can get as fast as *linear time*. Increasing the number of edges for each node means there is a smaller chance for the algorithm to reach a dead end and backtrack. In case of more-common, sparse graphs, **Kruskal's algorithm** should be preferred as it is faster.
 
 The time upper-bound also depends on how the graph is represented[2]. For example, the difference between a matrix representation and an adjacency list and a sorted array of edges(by weight) is shown below:
 ```text
