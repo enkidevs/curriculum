@@ -29,10 +29,12 @@ Instead of multiplying the number itself, *exponentiation by squaring* works by 
 # 5 multiplications
 #    and squarings to compute
 ```
-This algorithm[1] uses `O(log n)` squarings **and** at most `O(log n)` multiplications. Together they would take at most `2×O(log n)`, which is faster than `O(n)` multiplications.
+This algorithm uses `O(log n)` squarings[1] **and** at most `O(log n)` multiplications. Together they would take at most `2×O(log n)`, which is faster than `O(n)` multiplications.
 
 The implementation using a *recursive algorithm* is as follows:
 ```
+// where b is the base
+// and x is the exponent
 expBySqr(b,x)
   if x < 0 then
     return expBySqr(1/b, -x)
@@ -44,9 +46,6 @@ expBySqr(b,x)
     return expBySqr(b×b, x/2)
   else if x % 2 = 1 then
     return b × expBySqr(b×b, (x-1)/2)
-
-// where b is the base
-// and x is the exponent
 ```
 
 

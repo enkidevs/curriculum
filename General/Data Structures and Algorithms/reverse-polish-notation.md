@@ -12,7 +12,7 @@ category: how to
 ---
 ## Content
 
-**Reverse polish notation**, or *postfix notation*, is a mathematical notation in which the *operators* follow their *operands* (+, × etc. can be found on the right side of their operands).
+**Reverse polish notation**, or *postfix notation*, is a mathematical notation in which the *operators* follow their *operands* (+, × etc. can be found on the right-hand side of their operands).
 ```
 // Infix notation
 (2+5)×3

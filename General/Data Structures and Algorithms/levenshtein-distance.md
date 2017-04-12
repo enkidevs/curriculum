@@ -14,14 +14,14 @@ category: must-know
 
 The **Levenshtein distance**, or *edit distance*, is the amount by which two strings differ.
 
-In other words, the distance represents the single character changes. Consider measuring the distance between `trace` and `face`:
+In other words, the distance represents the single character changes. There are three possible actions that can be applied on a character: **deletion**, **addition** or **modification**. Consider measuring the distance between `trace` and `face`:
 ```
 trace → race
 race → face
 ```
 This example requires a character deletion and a character substitution, therefore the *Levenshtein distance* is **2**.
 
-For two strings `s1` and `s2`, the algorithm starts off by comparing the substrings of length `i=0` and `j=0` of s1 and s2, respectively. The actual formula for calculating the distance is:
+For two strings `s1` and `s2`, the algorithm begins by comparing the substrings of length `i=0` and `j=0` of `s1` and `s2`, respectively. The actual formula for calculating the distance is:
 ```
 // if either of the strings
 // is empty
