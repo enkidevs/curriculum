@@ -5,15 +5,13 @@ levels:
 
   - beginner
 
-  - basic
-
 type: normal
 
 category: must-know
 
 links:
 
-  - 'https://www.tutorialspoint.com/computer_fundamentals/computer_networking.htm'
+  - 'http://www.explainingcomputers.com/networking.html'
 
 ---
 ## Content

@@ -1,11 +1,9 @@
 # What is protocol?
-author: SebaRaba
+author: catalin
 
 levels:
 
   - beginner
-
-  - basic
 
 type: normal
 
@@ -14,6 +12,8 @@ category: must-know
 links:
 
   - 'https://www.tutorialspoint.com/internet_technologies/internet_protocols.htm'
+
+  - 'http://www.comptechdoc.org/independent/networking/guide/netcategories.html'
 
 ---
 ## Content
@@ -44,7 +44,7 @@ In the same way, computer networks will use multiple **protocols** that are hier
 ## Footnotes
 
 [1:Fun fact]
-`FTP` was firstly published by Abhay Bhushan in **1971**, making it **45** years old (so it won't age badly!).
+`FTP` was firstly published by Abhay Bhushan in **1971**, making it over **45** years old.
 
 [2:Network Layers]
 According to the **OSI model** (used for computer systems communication standardization) there are 7 layers of *networking protocols*.

@@ -1,11 +1,9 @@
 # What is a packet?
-author: SebaRaba
+author: catalin
 
 levels:
 
   - beginner
-
-  - basic
 
 type: normal
 
@@ -14,6 +12,8 @@ category: must-know
 links:
 
   - 'http://www.dummies.com/programming/networking/cisco/cisco-networking-packets/'
+
+  - 'http://whatismyipaddress.com/tcp-ip'
 
 ---
 ## Content

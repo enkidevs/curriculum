@@ -5,8 +5,6 @@ levels:
 
   - beginner
 
-  - basic
-
 type: normal
 
 category: must-know
@@ -14,6 +12,8 @@ category: must-know
 links:
 
   - 'http://study.com/academy/lesson/types-of-networks-lan-wan-wlan-man-san-pan-epn-vpn.html'
+
+  - 'http://www.bbc.co.uk/education/guides/z36nb9q/revision'
 
 ---
 ## Content

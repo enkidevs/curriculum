@@ -5,8 +5,6 @@ levels:
 
   - beginner
 
-  - basic
-
 type: normal
 
 category: must-know
@@ -14,6 +12,8 @@ category: must-know
 links:
 
   - 'http://what-when-how.com/data-communications-and-networking/network-models-data-communications-and-networking/'
+
+  - 'http://www.webopedia.com/quick_ref/OSI_Layers.asp'
 
 ---
 ## Content
