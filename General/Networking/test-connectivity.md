@@ -24,7 +24,7 @@ links:
 ---
 ## Content
 
-Possibly the most simple way to test the **connectivity** between your machine and a remote host is via the `ping` utility.
+Possibly the simplest way to test the **connectivity** between your machine and a remote host is via the `ping` utility.
 
 This tool will send (echo) one or more **ICMP packets**[1] to the specified destination and will print simple statistics (e.g. latency) about the connection as soon as it gets a response.
 ```bash
@@ -49,10 +49,6 @@ Basically, the two utilities achieve the same thing, the only difference being t
 Running `traceroute`:
 ```bash
 $ traceroute enki.com
-```
-
-An example output:
-```
 traceroute  to enki.com (52.85.178.249),
    30 hops max, 60 byte packets
  1  192.168.0.1 2.65 ms  3.31 ms  3.82 ms
@@ -70,8 +66,8 @@ Varying from distribution to distribution, the output of `traceroute` usually co
 
 Note that `traceroute` might send multiple probes(packets) for each hop, displaying the RTT for each one of them.
 
-This command is available on both **Linux** and **OS X**. `tracepath` is only available in the former.
-Keep in mind that there is also a Windows alternative of this command, called `tracert`, behaving in the same way.
+While `traceroute` is available on both **Linux** and **OSX**, `tracepath` is only available on the former.
+There is also a Windows alternative of this command, called `tracert`, behaving in the same way.
 
 ---
 ## Revision

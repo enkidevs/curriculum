@@ -22,11 +22,13 @@ links:
 ---
 ## Content
 
-The **DNS** (Domain Name System) is used to map common domain names such as: `www.enki.com` to unknown IP addresses that frequently change.
+**DNS** (Domain Name System) is used to map common domain names such as: `www.enki.com` to IP addresses.
 
-Traditionally, the **DNS lookup** was done with the help of `nslookup` command. At some point, this was deprecated on Unix systems in favour of the `dig` command. However, *BIND* company, which maintains and distributes `nslookup`, resurrected it.
+This is most often desired as human-readable domain names are much more memorable than **IP addresses** - be them static or dynamic.
 
-The `dig` tool can also be installed on **Windows**. After bookmarking this insight you can find appended to it (under the "Curriculum" section) detailed installation instructions for this.
+Traditionally, the **DNS lookup** was done with the help of `nslookup` command. At some point, this was deprecated on Unix systems in favour of the `dig` command. However, *BIND*, the company maintains and distributes `nslookup`, resurrected it.
+
+The `dig` tool can also be installed on **Windows**. By bookmarking this insight you will find detailed installation instructions in the "Curriculum" section.
 
 You can use `dig`, short for *Domain Information Groper*, to:
 - perform **DNS** lookups

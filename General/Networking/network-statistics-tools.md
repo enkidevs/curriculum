@@ -49,6 +49,11 @@ default            192.168.62.254 ...
 Running `netstat` with the `-i` (Unix only) flag will output the **network interfaces** currently installed in your system.
 ```bash
 $ netstat -i
+Name  Mtu     Network    Address
+lo0   16384   <Link#1>   ...
+lo0   16384   127        localhost ...
+lo0   16384   localhost  ::1 ...
+...
 ```
 
 Per-protocol statistics are also available with `-s` flag:
@@ -64,7 +69,7 @@ The `netstat` is available on most operating systems including **Windows**, **Li
 ---
 ## Practice
 
-Which flag can you use to display the **kernel interface table**?
+Which flag can you use to display the **kernel routing table**?
 ```bash
 $ netstat ???
 ```
@@ -93,5 +98,5 @@ $ netstat ???
 ## Footnotes
 
 [1:kernel routing table]
-This is the same as the **IP routing table** mentioned in the previous insight.
+This is the same as the **IP routing table**, mentioned in the previous insight.
 On **Linux** the same information can be retrieved form the table using `route` command.

@@ -22,13 +22,12 @@ links:
 ---
 ## Content
 
-We have witnessed an exponential growth of **computer networks** since their introduction, with more and more people joining them every day.
+We have witnessed an exponential growth in the size of **computer networks** since their introduction, with more and more people joining them every day.
 
 It stands to reason that their complexity increased to provide faster, more reliable and more secure communication.
 
-Due to this complexity, interacting with **networks** can intimidate numerous users.
-
-Luckily, most operating systems, counting **Linux**, **OS X**, **Windows** and even **Chrome OS** provide a variety of utilities to make these interactions easier.
+Due to this complexity, interacting with **networks** can be intimidating to numerous users.
+Luckily, most operating systems, counting **Linux**, **OSX**, **Windows** and even **Chrome OS**, provide a variety of utilities to make these interactions easier.
 
 These will prove extremely useful when having to troubleshoot, optimize or get various information about **networks**.
 
