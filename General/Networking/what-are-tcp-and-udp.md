@@ -20,7 +20,7 @@ links:
 ---
 ## Content
 
-Both `TCP` and `UDP` are protocols that deal with sending bits of data (packets) over a network.
+Both `TCP` and `UDP` are protocols that deal with sending chunks of data (packets) over a network.
 
 Used together with **IP** (which deals with the "where"), these protocols define "how" the data is sent.
 
@@ -38,7 +38,7 @@ After both computers are aware that the transfer is over (there are no packets m
 
 As a consequence, `TCP` transfers are **slower**, but error correction is ensured.
 
-Common protocols that work on top of `TCP` are: **HTTP**, **HTTPS**, **FTM**, **SMTP** and **Telnet**. We will get back to these in the following insights.
+Common protocols that work on top of `TCP` are: **HTTP**, **HTTPS**[1], **FTM**, **SMTP** and **Telnet**. We will get back to these in the following insights.
 
 #### UDP
 
@@ -46,7 +46,7 @@ User Datagram Protocol, on the other hand, was designed for **fast data transmis
 
 When `datagrams` (packets) are released into the **network** there is no way of telling whether they reach their destination. Data can arrive out of order, duplicated or none at all.
 
-The simplicity of `UDP` reduces the overhead[1] of other protocols and can be adequate for some applications such as real-time media streams or broadcasts.
+The simplicity of `UDP` reduces the overhead[2] of other protocols and can be adequate for some applications such as real-time media streams or broadcasts.
 
 Protocols such as **DHCP** and **VOIP** work on top of `UDP`.
 ---
@@ -74,5 +74,10 @@ Which of the following protocols prioritizes **speed** over **reliability** ?
 ---
 ### Footnotes
 
-[1:overhead]
+[1:protocol naming convention]
+Protocol acronyms that end with an `s` usually refer to the **secure** (encrypted, authenticated, etc.) version of some protocol.
+
+For example, `HTTPS` refers to the secure extension of `HTTP`.
+
+[2:overhead]
 Overhead, in Computer Science, means any form of excess or indirect computation, time, memory, bandwidth or other resources required to complete a specific task.

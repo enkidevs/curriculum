@@ -20,9 +20,9 @@ links:
 ---
 ## Content
 
-**Application Layer** is the top most layer of the `OSI` model. It plays an *important role* in the *interaction* between users and user applications.
+**Application Layer** is the highest layer of the `OSI` model. It plays an *important role* in the *interaction* between users and user applications.
 
-This layer enables actual applications that need to communicate through a network (e.g. web browsers, games, chats etc.) to send and receive data to and from servers or hosts on that network.
+This layer enables applications that need to communicate through a network (e.g. web browsers, games, chats etc.) to send and receive data to and from servers or hosts on that network.
 
 Specifically, the application layer **protocol** defines:
 - message *type*
@@ -40,7 +40,7 @@ It was created and is maintained by the Internet Engineering Task Force (**IETF*
 
 **TELNET**
 
-Terminal Network[1], built as well on top of `TCP/IP` is a protocol that grants access to remote machines (hosts).
+Teletype Over Network Protocol[1], built as well on top of `TCP/IP` is a protocol that grants access to remote machines (hosts).
 
 Running on port `23`, `telnet` lets you log in and control a machine remotely based on the set-up permissions.
 
@@ -97,6 +97,8 @@ Which of the following protocols was specifically designed for file transfer ove
 ## Footnotes
 
 [1:Telnet]
+Teletype is actually the name of old electromechanical typewriters, ancestors of the nowadays terminal.
+
 Telnet works as a shell command both on **Windows** (if enabled from settings) and **Unix** machines.
 You can watch Star Wars Episode IV - made in ASCII art - from your terminal via `telnet`:
 ```

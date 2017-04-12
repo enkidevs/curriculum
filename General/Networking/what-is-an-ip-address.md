@@ -22,9 +22,9 @@ An **IP address** is an *unique* identifier assigned to a computer or other simi
 
 Chances are that while reading this you are connected to *the Internet*, the global, huge **computer network** that makes possible the communication between billions of devices[1].
 
-Now, to make *communication* possible, you need a way to distinguish yourself among the astonishing number of devices around you.
+To make such *communication* possible, you need a way to distinguish yourself among the astonishing number of devices around you.
 
-Here, the *IP[2]* comes in handy by uniquely mapping **addresses** to every devices within a **network**. This is similar to the way real-life *postal addresses* identify residences or other buildings throughout the world.
+Here, the *IP*[2] comes in handy by uniquely mapping **addresses** to every devices within a **network**. This is similar to the way real-life *postal addresses* identify residences or other buildings throughout the world.
 
 There's a big chance you have already encountered them as[3]:
 ```

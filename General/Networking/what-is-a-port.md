@@ -65,4 +65,4 @@ A port is an essential component of the ??? .
 [1:ports]
 The term **port** has also other uses in computer science:
  - physical docking points usually between devices and sockets (eg. USB port)
- - action of moving a program from one operation system environment to another
+ - action of moving a program from one operating system environment to another

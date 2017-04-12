@@ -27,8 +27,8 @@ It's better to understand technologies and common terms used by convention befor
 A firewall is a network security system that monitors *incoming and outgoing* network traffic and decides whether to *allow or block* specific traffic based on a defined set of security rules.
 
 This system can be a software program, a piece of hardware of a combination of both. A firewall is usually used for:
-- blocking access to **private networks** (intranet)
-- screening out malicious data that try to reach your computer over the Internet
+- blocking access to **private networks** (intranets)
+- screening malicious data that try to reach your computer over the Internet
 
 
 #### Proxy
@@ -42,13 +42,13 @@ A proxy will make the requests you want instead and will return the response bac
 
 #### VPN
 
-Short for *Virtual Private Network*, `VPN`s extend a private network across a public network, such as the Internet.
+*Virtual Private Networks* extend a private network across a public network, such as the Internet.
 
 Nowadays, they serve as a security and anonymity mechanism when browsing public networks.
 
 #### ISP
 
-Short for *Internet Service Provided*, the ISP is usually the company that provides you access to the Internet.
+Short for *Internet Service Provided*, the ISP is usually the company that provides you access to the Internet. ISPs either own or lease the cables used for the physical connection between your machine and other network segments on the Internet.
 
 #### Gateway
 
@@ -56,7 +56,7 @@ A gateway is a device that routes traffic between networks. For example, your ho
 
 #### MAC address
 
-Also known as *physical address*, this is a unique identifier designed to differentiate devices on a network.
+Also known as *physical address*, this is a unique identifier designed to differentiate devices on a network. However, you can change (spoof) the **MAC address** of a device to preserve anonymity.
 
 ---
 ## Revision
