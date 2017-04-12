@@ -36,11 +36,11 @@ Method Request-URI HTTP-Version CRLF
 
 ### Request line
 
-The request line contains the **HTTP method** (verb), followed by the **resource URL** and the **protocol version**. Every component must be separated by a *space character* and the line should end in *CRLF* (new line).
+The request line contains the **HTTP method** (verb), followed by the **resource URL** and the **protocol version**. Every component must be separated by a *space character* and the line should end in *CRLF* (Carriage Return + Line Feed) characters, generating a new line.
 
 The *HTTP methods* can be either one of: `GET`, `POST`, `DELETE`, `HEAD` etc. Only one method per request is allowed. More on these in a future workout.
 
-The *resource URL* is the path on the server which the request is supposed to target. If a user clicks on the `Contact` page on your website, the browser would be likely to make a request to fetch the `/contact` page on the server.
+The *resource URI* is the path on the server which the request is supposed to target. If a user clicks on the `Contact` page on your website, the browser would be likely to make a request to fetch the `/contact` page on the server.
 
 Keep in mind that this is *not necessarily an absolute URL*[1]: in this case, the address of the server (e.g. `www.myAwsomeWebsite.com`) has to be specified in the `Host` field of the header.
 
@@ -77,7 +77,7 @@ The usual syntax of a request line is:
 ```
 
 * Method
-* URL
+* URI
 * HTTP version
 * CRLF
 * CTRLF
@@ -87,7 +87,7 @@ The usual syntax of a request line is:
 ---
 ## Revision
 
-The request header that delivers information about your browser and operating system is
+The request header field that delivers information about your browser and operating system is
 
 ???
 

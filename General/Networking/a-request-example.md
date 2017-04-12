@@ -41,9 +41,9 @@ Content-Length: 62
 
 This is a line-by-line analysis of the request header:
 1. The request line states that this is a `POST` request, which targets the relative path `/api/auth/login` on the server. The request makes use of the the `HTTP/1.1` standard.
-2. The `Host` contains the server's address: `www.enkipro.com`.
+2. The `Host` contains the server's address: `enkipro.com`.
 3. The `Connection` field ensures that the connection won't be closed after the first request/response exchange (which speeds up the process by not having to reconnect for each new request).
-4. On the next line you can find the page where the request originated from.
+4. On the next line, `Referer` indicates the page where the request originated from.
 5. Details about the browser and the OS can be found under `User-Agent` field. We logged in from Chrome[1].
 6. The `Accept` field specifies that any type of file will be accepted as a response (`*/*`).
 7. `Accept-Encoding` states what types of encodings can be processed by the client.
@@ -51,9 +51,9 @@ This is a line-by-line analysis of the request header:
 9. `Content-Type` field tells the server the payload content's type and how to decode it.
 10. Our last field in this example, `Content-length` represents the length, in octets (bytes), of the message payload. A character requires one octet (1 octet = 1 byte = 8 bits) to be represented, making the value the actual length of the message.
 
-The payload contains the data in the login input fields, formated as a *JSON* file. By reading the header, the server will be able to also understand the payload and return an appropriate response.
+The payload contains the data specified by the **client**. In this case, the login input fields, formatted as a *JSON* file were added. By reading the header, the server will be able to also understand the payload and return an appropriate response.
 
-If you are using Chrome, you can see all the requests and responses your browser makes in the Developer Console (*CTRL/CMD + Shift + i*), Network tab.
+Most modern bowsers like **Microsoft Edge** (*F12*), **Mozilla Firefox**(*CTRL/CMD + Shift + J*) or **Chrome** (*CTRL/CMD + Shift + i*) provide a Developer Console accompanied by a *Network* tab where you can take a detailed look on all requests and responses made by your browser.
 
 ---
 ## Footnotes
@@ -72,7 +72,7 @@ In case `q` isn't present, the option has a default value of `q=1`, equivalent t
 
 The type of files that the server should return are specified in the
 
-??? header.
+??? header field.
 
 * Accept
 * User-Agent
@@ -82,9 +82,9 @@ The type of files that the server should return are specified in the
 ---
 ## Revision
 
-Details about the browser are contained inside the
+Within a **HTTP request**, details about the browser are contained inside the
 
-??? header.
+??? header field.
 
 * User-Agent
 * Accept

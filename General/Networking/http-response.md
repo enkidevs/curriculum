@@ -53,14 +53,14 @@ The response headers are fairly limited compared to request headers:
 - **Retry-After**: when a resource is unavailable, this header specifies, either by using a number of seconds (e.g. *15s*) or a specific date (*23 March 2017 14 00 GMT*), the time interval after which to resend the request
 - **Server**: this represents server's type
 - **WWW-Authenticate**: indicates the authentication scheme to be used
-- **Access-Control-Allow-Origin**: this state what domains can access a resource in a cross-site manner (`*` means *any* domain)
+- **Access-Control-Allow-Origin**: this state what domains can access a resource in a cross-site[1] manner (`*` means *any* domain)
 
 ---
 ## Practice
 
 A resource's specific cached version identifier can be found in the
 
-??? header.
+??? header field.
 
 * ETag
 * Age
@@ -78,3 +78,9 @@ The first line in an HTTP response is usually called
 * Request Line
 * Response Line
 * Response Header
+
+---
+## Footnotes
+A resource makes a cross-origin HTTP request when it requests a resource from a different domain, or port than the one which the first resource itself serves.
+
+The **Access-Control-Allow-Origin** mechanism indicates which domains are allowed to be requested from.
