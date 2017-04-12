@@ -9,6 +9,10 @@ type: normal
 
 category: must-know
 
+links:
+    - >-
+        [What is a data structure?](http://www.bbc.co.uk/education/guides/z4tf9j6/revision/1){website}
+
 ---
 ## Content
 

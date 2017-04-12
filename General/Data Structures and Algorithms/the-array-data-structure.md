@@ -9,6 +9,10 @@ type: normal
 
 category: must-know
 
+links:
+    - >-
+        [What is an array?](http://www.bbc.co.uk/education/guides/z4tf9j6/revision/2){website}
+
 ---
 ## Content
 
@@ -72,7 +76,7 @@ To access an element in an array, you would use:
 ---
 ## Revision
 
-An array that has its size declared up-front it's called 
+An array that has its size declared up-front it's called
 
 ???
 * static
