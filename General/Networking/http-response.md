@@ -30,7 +30,8 @@ Message-Body
 
 The `Status-Line` contains:
 ```text
-HTTP-Version Status-Code Code-Description CRLF
+HTTP-Version Status-Code Code-Description
+CRLF
 ```
 
 ### Status line
@@ -59,7 +60,7 @@ The response headers are fairly limited compared to request headers:
 
 A resource's specific cached version identifier can be found in the
 
-??? header
+??? header.
 
 * ETag
 * Age
@@ -70,6 +71,8 @@ A resource's specific cached version identifier can be found in the
 ## Revision
 
 The first line in an HTTP response is usually called
+
+???
 
 * Status Line
 * Request Line

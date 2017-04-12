@@ -72,7 +72,7 @@ In case `q` isn't present, the option has a default value of `q=1`, equivalent t
 
 The type of files that the server should return are specified in the
 
-??? header
+??? header.
 
 * Accept
 * User-Agent
@@ -84,7 +84,7 @@ The type of files that the server should return are specified in the
 
 Details about the browser are contained inside the
 
-??? header
+??? header.
 
 * User-Agent
 * Accept
