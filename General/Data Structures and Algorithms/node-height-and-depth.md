@@ -3,7 +3,7 @@ author: mihaiberq
 
 levels:
 
-  - basic
+  - beginner
 
 type: normal
 

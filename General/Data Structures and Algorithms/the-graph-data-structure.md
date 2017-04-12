@@ -9,6 +9,10 @@ type: normal
 
 category: must-know
 
+links:
+    - >-
+         [Graph theory](https://en.wikipedia.org/wiki/Graph_theory){website}
+
 ---
 ## Content
 

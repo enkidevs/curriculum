@@ -1,4 +1,4 @@
-# Graph Representations and ADT
+# Graph Representation and ADT
 author: mihaiberq
 
 levels:
@@ -9,6 +9,9 @@ type: normal
 
 category: must-know
 
+links:
+    - >-
+         [Graph representation](http://www.geeksforgeeks.org/graph-and-its-representations/){website}
 ---
 ## Content
 

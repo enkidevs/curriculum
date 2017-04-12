@@ -9,6 +9,10 @@ type: normal
 
 category: must-know
 
+links:
+    - >-
+         [Tree data structure](http://www.cs.cmu.edu/~clo/www/CMU/DataStructures/Lessons/lesson4_1.htm){website}
+
 ---
 ## Content
 
