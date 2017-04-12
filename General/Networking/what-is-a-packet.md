@@ -38,7 +38,7 @@ Over the Internet, where *IP* (Internet Protocol) is the standard, packets' **he
 
 Another thing that defines the functionality of packets is the **protocol**. While **ethernet** based networks imply usage of *ethernet frames*, the ones using **IP** require *IP packets*.
 
-In the latter type of networks, packets are sent over the Internet through *nodes*[3] (devices and routers) positioned between the *source* and *destination*.
+In the latter type of networks, packets are sent over the Internet through *nodes*[2] (devices and routers) positioned between the *source* and *destination*.
 
 ---
 ## Footnotes
