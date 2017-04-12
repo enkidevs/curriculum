@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-Both `bandwidth`  and `throughput` are metrics used to describe the performance of data transfer over a network segment /link  (from a point `A` to a point `B`).
+Both `bandwidth`  and `throughput` are metrics used to describe the performance of data transfer over a network segment (a link from a point `A` to a point `B`).
 
 However, there is a big difference between the two:
  - `bandwidth` refers to the **maximum** theoretic amount of data (number of packets) that can be sent on the channel, regardless of practical considerations
@@ -26,18 +26,18 @@ However, there is a big difference between the two:
 
 This distinction can be visualised better with the following example:
 
-A *highway* has the capacity of moving 300 cars at the same time - this is `bandwidth`. Most of the time, however, due to congestion or jams the actual number of cars that it can move is around 200 - this is `throughput`.
+A *highway* has the capacity of moving 300 cars at the same time - this is `bandwidth`. Most of the time, however, due to congestion or jams, the actual number of cars that it can move is around 200 - this is `throughput`.
 
-This distinction is relevant between **ISPs** [1] usually advertise their `bandwidth` which is often higher than the `throughput` you will receive.
+This distinction is relevant as **ISPs** [1] usually advertise their `bandwidth` which is often higher than the `throughput` you will receive.
 
 These metrics are computed over a **single unit of time**, being expressed in bits per seconds (`bps`).
 
- Modern networks are much faster and therefore have their speed measured in million of bits per second, megabits per second (`Mbps`) or in billion of bits per second, gigabits per second (`Gbps`).
+ Modern networks are much faster and therefore have their speed measured in millions of bits per second, megabits per second (`Mbps`) or in billions of bits per second, gigabits per second (`Gbps`).
 
 ---
 ## Practice
 
-Which of the following metric refers to the **maximum theoretically** speed data can move over a network link?
+Which of the following metric refers to the **maximum theoretical** speed data can move over a network link?
 
 ???
 

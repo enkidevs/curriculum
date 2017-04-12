@@ -1,4 +1,4 @@
-# How packet loss happen?
+# How does packet loss happen?
 author: SebaRaba
 
 levels:
@@ -18,9 +18,9 @@ links:
 ---
 ## Content
 
-**Packet loss** is a phenomenon happening when packets sent across a computer network fail to reach the intended destination.
+**Packet loss** is a phenomenon that happens when packets sent across a computer network fail to reach their intended destination.
 
-They can either be lost on their way or, more often, intentionally dropped. The latter happens because packets sent through a *router* or a *network segment* arrive at a greater rate than the router is able to process. As a consequence, there is no other option than to *drop* them.
+They can be lost on their way or, more often, intentionally dropped. The latter happens because packets sent through a *router* or a *network segment* arrive at a greater rate than the router is able to process. As a consequence, there is no other option than to *drop* them.
 
 **Packet loss** is also used as a relevant metric for the performance of a network, measured as the percentage of packets *lost* with respect to packets *sent*.
 

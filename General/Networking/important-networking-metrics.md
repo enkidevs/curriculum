@@ -27,7 +27,7 @@ The effective performance of a network is defined by the combination of differen
 However, there are some standard and relevant measurements applicable to any network:
  - `bandwidth` - maximum rate at which information can be transferred
  - `throughput` - actual rate at which information is transferred
- - `latency` - the delay when decoding information
+ - `latency` - delay between sending a request and receiving a response
  - `jitter` - time difference in packet inter-arrival time (we'll get back to this in the following insights)
  - `error rate` - number of corrupted bits
 
@@ -68,4 +68,4 @@ Which of the following metrics define maximum rate that information can be trans
 [1:Measuring performance]
 It's not mandatory to measure performance. Instead it can also be modelled and simulated.
 
-One such example is using state transition diagrams to model queuing performance using **Network Simulator**.
+One such example is using state transition diagrams to model queuing performance using **network simulator**.

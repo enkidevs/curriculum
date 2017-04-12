@@ -22,9 +22,9 @@ links:
 
 Keeping in mind that while **latency** is the time it takes to move a packet from point A to point B, **jitter** is the *change* in that time.
 
-Jitter, referred to as **Packet Delay Variation**[1] is an undesirable effect caused by inherent tendencies[2] of **TCP/IP** networks. It is measured in milliseconds.
+Jitter, referred to as **Packet Delay Variation**[1], is an undesirable effect caused by inherent tendencies[2] of **TCP/IP** networks. It is measured in milliseconds.
 
-Imagine a simple network between two computers, **A** and **B**. When **A** sends a packet to **B** in let's say `20ms` and **B** sends a response to **A** in `20ms`, then the flow of data is continuous and neither of the computers experience **jitter**.
+Imagine a simple network between two computers, **A** and **B**. **A** sends a packet to **B** in `20ms` and **B** sends a response to **A** in `20ms`, then the flow of data is continuous and neither of the computers experience **jitter**.
 
 However, this is an ideal case.
 

@@ -50,7 +50,7 @@ A general output would be:
 You can see that the average time is around `55 -56` ms.
 
 In the majority of cases the **ping rate** is equivalent to the **effective latency** between a device and a server, but factors such as throttling and congestion[4] might affect the results.
-The terms are synonymous enough and many games and applications report the **latency** as **ping rate**.
+The terms are roughly synonymous and many games and applications report the **latency** as **ping rate**.
 
 ---
 ## Practice
@@ -68,14 +68,14 @@ We can talk about **round-trip time** only in:
 ---
 ## Revision
 
-**RTT** stands for:
+In the context of computer networks, **RTT** stands for:
 
 ???
 
 * round-trip time
-* ready-timed tunnel
-* round-time trip
-* ready-trip time
+* routed-through-tunnel
+* real-time trip
+* ready trip time
 
 ---
 ## Footnotes
