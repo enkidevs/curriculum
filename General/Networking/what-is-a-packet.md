@@ -32,14 +32,13 @@ The structure of a **packet** also depends on what protocol is used for transmis
 Over the Internet, where *IP* (Internet Protocol) is the standard, packets' **header** needs to have:
  - source IP address
  - destination IP address
- - *sequence number* of packets
- - type of service
+ - type of service (used for optimisations)
  - flags
  - other technical data
 
 Another thing that defines the functionality of packets is the **protocol**. While **ethernet** based networks imply usage of *ethernet frames*, the ones using **IP** require *IP packets*.
 
-In the latter type of networks, packets are sent over the Internet through *nodes*[2] (devices and routers) positioned between the *source* and *destination*.
+In the latter type of networks, packets are sent over the Internet through *nodes*[3] (devices and routers) positioned between the *source* and *destination*.
 
 ---
 ## Footnotes
@@ -48,7 +47,7 @@ In the latter type of networks, packets are sent over the Internet through *node
 Other terms equivalent to **packets** are datagrams, segments, blocks, cells and even frames, depending on the protocol used for data transmission.
 
 [2:how do nodes work?]
-Contrary to *traditional lines* of communication such as telephone lines where there must be a continuous physical link between the source and destination, modern networks work on a different concept.
+Contrary to *traditional lines* of communication, such as telephone lines, where there must be a continuous physical link between the source and destination, modern networks work on a different concept.
 
 Packets are routed from *source* to *destination*, going through **nodes**. At each node calculations are made deciding the most efficient route of reaching the destination.
 

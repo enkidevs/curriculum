@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-**Networks** are used to enable two or more devices to talk with each other - to *communicate*.
+**Networks** are used to enable two or more devices to *communicate*.
 
 Now, exactly as in real life, when you want two parties to communicate effectively you need to follow some rules. Among computer networks, different sets of rules are called **protocols**.
 
@@ -44,7 +44,7 @@ In the same way, computer networks will use multiple **protocols** that are hier
 ## Footnotes
 
 [1:Fun fact]
-`FTP` was firstly published by Abhay Bhushan in **1971**, making it **45** years old.
+`FTP` was firstly published by Abhay Bhushan in **1971**, making it **45** years old (so it won't age badly!).
 
 [2:Network Layers]
 According to the **OSI model** (used for computer systems communication standardization) there are 7 layers of *networking protocols*.

@@ -18,9 +18,9 @@ links:
 ---
 ## Content
 
-**Computer Networking**'s main purpose is to enable several devices to communicate with each other by sharing and exchanging resources between them.
+**Computer Networking**'s main purpose is to enable several devices to communicate with each other to share and exchange resources.
 
-Network computer devices which originate, route or terminate the data within a network are called **network nodes**.
+Network computer devices that send, route or receive data within a network are called **network nodes**.
 
 Usually, nodes include **hosts** such as *PCs*, *servers*, *phones*, but also *network hardware*[1]. Two such devices are said to be *networked* when one of them is able to *exchange information* with the other.
 
@@ -41,7 +41,7 @@ The largest and most known computer network is the **Internet** (or World Wide W
 ---
 ## Revision
 
-Within a computer network, how are devices that originate, route or terminate data called?
+Within a computer network, how are devices that send, route or receive data called?
 
 ???
 

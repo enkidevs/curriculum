@@ -25,11 +25,11 @@ The **size** of a network is inferred from the *geographic area* they occupy and
 For historical reasons, the networking industry refers to nearly every type of design as some kind of network area.
 
 Based on these aspects, computer networks have been classified as:
-- `PAN` : personal area network
-- `LAN` : local area network
-- `WLAN` : wireless local area network
-- `MAN` : metropolitan area network
-- `WAN` : wide area network
+- `PAN`: personal area network
+- `LAN`: local area network
+- `WLAN`: wireless local area network
+- `MAN`: metropolitan area network
+- `WAN`: wide area network
 
 ### LAN
 
@@ -49,7 +49,7 @@ A network device called **router** connects more `LAN`s to a `WAN`, resulting in
 ### WLAN
 
 The term `WAN` is usually confused with `WLAN`.
-A `WLAN` is a type of `LAN` that uses wireless technology (nearly always Wi-Fi) to connect some or all computers and devices to the router, and in turn to one another and the Internet.
+A `WLAN` is a type of `LAN` that uses wireless technology (nearly always Wi-Fi) to connect some or all computers and devices to the router, and in turn a network (e.g. Internet).
 
 
 ---
@@ -65,7 +65,7 @@ Chances are you have already connected to a network via an **Ethernet cable**.
 [2:Token Ring]
 **Token ring** is a communications *protocol* for `LAN`s. It uses a special `3`-byte frame called a **token** that travels around a logical "ring" of workstations or servers.
 
-This token passing is a channel access method providing fair access for all stations, and eliminating the collisions of access methods.
+This token passing is a channel access method providing fair access for all stations, and eliminating the collisions present in other access methods.
 
 ---
 ## Practice
