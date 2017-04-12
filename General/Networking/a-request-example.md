@@ -24,7 +24,7 @@ The following is an example of a `POST` request, a consequence of pressing the *
 POST /api/auth/login HTTP/1.1
 Host: enkipro.com
 Connection: keep-alive
-Referer: http://enkipro.com/
+Referer: https://enkipro.com/
 User-Agent: Mozilla/5.0 (X11; Linux x86_64)
   AppleWebKit/537.36 (KHTML, like Gecko)
   Chrome/57.0.2987.133 Safari/537.36
@@ -70,17 +70,23 @@ In case `q` isn't present, the option has a default value of `q=1`, equivalent t
 ---
 ## Practice
 
-??? indicates the type of files accepted by the browser.
+The type of files that the server should return are specified in the
+
+??? header
 
 * Accept
-* GET
+* User-Agent
 * Accept-Encoding
+* Content-Type
 
 ---
 ## Revision
 
-??? identifies the browser.
+Details about the browser are contained inside the
+
+??? header
 
 * User-Agent
-* If-Modified-Since
-* keep-alive
+* Accept
+* Referer
+* Connection

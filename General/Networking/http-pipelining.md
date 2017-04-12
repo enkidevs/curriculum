@@ -11,41 +11,37 @@ type: normal
 
 category: must-know
 
-links:
-
-  - '[link to learn more](https://enki.com)'
-
 ---
 ## Content
 
-`HTTP pipelining` is a process in which multiple *requests* are sent on a single TCP, without waiting for *response*.
-The **server** MUST send back *responses* in the same order the *requests* were sent. Clients who assume `persistent` connection
-and `pipelining` need to be prepared to retry their **connection** immediately after the first pipeline **fails**.
+**HTTP pipelining** is a technique in which multiple *requests* are sent on a single TCP connection, without waiting for the corresponding *responses*.
 
-The reasoning behind `pipelining` is that, when used, it improves dramatically the loading times of `HTML` web pages. Unfortunately the
-*speedup* isn't so efficient from the **broadband connections** as the `HTTP/1.1` limitation still applies: the server must send *responses* back in the same order the client has sent his *requests*. *Clients* must be prepared to resend the requests if the **server** closes the connection without responding to all sent *requests*.
+The server must respond in the same order the requests were received. Clients who assume persistent connection and pipelining need to be prepared to **reconnect** in case the pipelining process fails.
 
-Non **idempotent**[1] requests, like those using `POST`, should not be pipelined.
+Pipelining dramatically improves the loading time of HTML web pages. Unfortunately, the current `HTTP/1.1` standard isn't the most efficient as it doesn't allow asynchronous operations and requests have to be fulfilled in the order they arrived. However, things should run much smoother after `HTTP/2` will gain enough traction.
 
-`HTTP pipelining` requires both the *client* and the *server* to support it. `HTTP/1.1` conforming servers are required to support `pipelining`.
+Requests that modify the data on the server, such as `POST` or `PUT`, *should not be pipelined* as they could give birth to concurrency problems if the same resource is acted upon.
 
-# Footnotes
+HTTP pipelining requires both the *client* and the *server* to support it. Any server that supports `HTTP/1.1` should also support **pipelining** by default.
 
-[1: idempotent] is the property of a operation,that it can be applied multiple times to different starting values without changing the result beyond the initial application.
 ---
 ## Practice
 
-??? shouldn't be pipelined.
+??? requests shouldn't be pipelined.
 
-* Non idempotent
-* GET
-* Responses
+* `POST`
+* `GET`
+* `HEAD`
+* `OPTIONS`
 
 ---
 ## Revision
 
-Pipelining improves dramatically ??? loading times.
+HTTP pipelining means exchanging multiple messages on the same
 
-* HTML pages
-* Server
-* Responses
+???
+
+* TCP connection
+* HTTP connection
+* local network
+* wireless connection

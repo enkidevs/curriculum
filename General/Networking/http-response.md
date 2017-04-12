@@ -1,4 +1,4 @@
-# A HTTP response
+# The HTTP response
 author: SebaRaba
 
 levels:
@@ -44,38 +44,34 @@ The *code description* is there to explain what exactly the status code means.
 
 ### Response headers
 
-----------
-
 The response headers are fairly limited compared to request headers:
-- **Age** field contains information about the amount of time between a new request from the client and the time the server send the response
-- **ETag** represents an identifier for a specific version of resource
-- **Location** is used in redirect, or when a new resource has been created
-- **Proxy-Authenticate** contains a authentication request made to the proxy
-- **Retry-After** when a resource is unavailable, this header specifies, either using a slot of time(nb: 120 s) or using a specific date( 23 March 2017 14 00 GMT) after which to try accessing that resource again
-- **Server** header represents a name for the server
-- **Vary** tells downstream proxies[1] how to use future request headers in order to use the cached resource instead of requesting a fresh one
-- **WWW-Authenticate** indicates the authentication scheme to be used
-
-## Footnotes
-
-[1: downstream proxies]
-Is about the proxies that come in the response's way to the client.
-
+- **Age**: it indicates an estimation, in seconds, of the age of a cached resource being requested since it was last synchronized from the origin web server
+- **ETag**: it represents an identifier for a specific version of a resource, which prevents useless cache updates in case the resource hasn't changed
+- **Cache-Control**: a general header (available for both requests and responses, but with some differences), that states if the response can be cached, how it should be cached and for how long the cached version is considered *fresh*
+- **Location**: this field is used for redirection purposes, or if a new resource has been created and its path is returned
+- **Retry-After**: when a resource is unavailable, this header specifies, either by using a number of seconds (e.g. *15s*) or a specific date (*23 March 2017 14 00 GMT*), the time interval after which to resend the request
+- **Server**: this represents server's type
+- **WWW-Authenticate**: indicates the authentication scheme to be used
+- **Access-Control-Allow-Origin**: this state what domains can access a resource in a cross-site manner (`*` means *any* domain)
 
 ---
 ## Practice
 
-??? describes the content range types.
+A resource's specific cached version identifier can be found in the
 
-* Accept-Ranges
+??? header
+
+* ETag
 * Age
-* Retry-After
+* Location
+* Cache-Control
 
 ---
 ## Revision
 
-??? is the 3 digit result code.
+The first line in an HTTP response is usually called
 
-* Status-Code
-* ETag
-* Response-header
+* Status Line
+* Request Line
+* Response Line
+* Response Header
