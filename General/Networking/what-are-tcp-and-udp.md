@@ -47,6 +47,18 @@ When `datagrams` (packets) are released into the **network** there is no way of 
 The simplicity of `UDP` reduces the overhead[2] of other protocols and can be adequate for some applications such as real-time media streams or broadcasts.
 
 Protocols such as **DHCP** and **VOIP** work on top of `UDP`.
+
+---
+### Footnotes
+
+[1:protocol naming convention]
+Protocol acronyms that end with an `s` usually refer to the **secure** (encrypted, authenticated, etc.) version of some protocol.
+
+For example, `HTTPS` refers to the secure extension of `HTTP`.
+
+[2:overhead]
+Overhead, in Computer Science, means any form of excess or indirect computation, time, memory, bandwidth or other resources required to complete a specific task.
+
 ---
 ## Practice
 
@@ -68,14 +80,3 @@ Which of the following protocols prioritizes **speed** over **reliability** ?
 * `UDP`
 * `TCP`
 * `IP`
-
----
-### Footnotes
-
-[1:protocol naming convention]
-Protocol acronyms that end with an `s` usually refer to the **secure** (encrypted, authenticated, etc.) version of some protocol.
-
-For example, `HTTPS` refers to the secure extension of `HTTP`.
-
-[2:overhead]
-Overhead, in Computer Science, means any form of excess or indirect computation, time, memory, bandwidth or other resources required to complete a specific task.

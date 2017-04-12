@@ -41,6 +41,14 @@ When you visit an address such as `www.enki.com`, you won't be required to also 
 This happens because the HTTP protocol, used to get the page, runs by default on port `80`.
 
 ---
+## Footnotes
+
+[1:ports]
+The term **port** has also other uses in computer science:
+ - physical docking points usually between devices and sockets (eg. USB port)
+ - action of moving a program from one operating system environment to another
+
+---
 ## Practice
 What is HTTP's default port?
 ???
@@ -56,11 +64,3 @@ A port is an essential component of the ??? .
 * `IP`
 * `Connected devices`
 * `Internet`
-
----
-## Footnotes
-
-[1:ports]
-The term **port** has also other uses in computer science:
- - physical docking points usually between devices and sockets (eg. USB port)
- - action of moving a program from one operating system environment to another
