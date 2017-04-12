@@ -5,8 +5,6 @@ levels:
 
   - beginner
 
-  - basic
-
 type: normal
 
 category: must-know
@@ -14,6 +12,8 @@ category: must-know
 links:
 
   - 'http://blog.ocens.com/?p=140'
+
+  - 'https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols'
 
 ---
 ## Content

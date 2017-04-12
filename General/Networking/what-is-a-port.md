@@ -1,11 +1,9 @@
 # What is a port?
-author: SebaRaba
+author: catalin
 
 levels:
 
   - beginner
-
-  - basic
 
 type: normal
 

@@ -1,11 +1,9 @@
 # What is an IP address?
-author: SebaRaba
+author: catalin
 
 levels:
 
   - beginner
-
-  - basic
 
 type: normal
 
@@ -13,7 +11,7 @@ category: must-know
 
 links:
 
-  - http://www.webopedia.com/TERM/I/IP_address.html
+  - http://www.computerhope.com/jargon/i/ip.htm
 
 ---
 ## Content
