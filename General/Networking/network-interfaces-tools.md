@@ -19,6 +19,10 @@ links:
 
   - http://www.computerhope.com/unix/uifconfi.htm
 
+  - https://en.wikipedia.org/wiki/Network_interface
+
+
+
 ---
 ## Content
 

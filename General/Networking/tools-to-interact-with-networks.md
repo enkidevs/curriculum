@@ -19,6 +19,8 @@ links:
 
   - http://www.tecmint.com/linux-network-configuration-and-troubleshooting-commands/
 
+  - http://slackbook.org/html/basic-network-commands.html
+
 ---
 ## Content
 
