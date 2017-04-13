@@ -7,13 +7,18 @@ levels:
 
   - basic
 
+  - medium
+
+  - advanced
+
 type: normal
 
 category: must-know
 
 links:
 
-  - '[link to learn more](https://enki.com)'
+  - 'https://www.tutorialspoint.com/http/'
+  - 'https://techterms.com/definition/http'
 
 ---
 ## Content

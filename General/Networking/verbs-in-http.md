@@ -7,6 +7,10 @@ levels:
 
   - basic
 
+  - medium
+
+  - advanced
+
 type: normal
 
 category: must-know
@@ -14,6 +18,8 @@ category: must-know
 links:
 
   - 'http://www.restapitutorial.com/lessons/httpmethods.html'
+
+  - 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods'
 
 ---
 ## Content

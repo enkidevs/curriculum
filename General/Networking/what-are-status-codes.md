@@ -7,13 +7,18 @@ levels:
 
   - basic
 
+  - medium
+
+  - advanced
+
 type: normal
 
 category: must-know
 
 links:
 
-  - '[link to learn more](https://enki.com)'
+  - 'https://www.tutorialspoint.com/http/http_status_codes.htm'
+  - 'https://msdn.microsoft.com/en-us/library/windows/desktop/aa383887'
 
 ---
 ## Content

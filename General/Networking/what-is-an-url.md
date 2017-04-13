@@ -7,6 +7,10 @@ levels:
 
   - basic
 
+  - medium
+
+  - advanced
+
 type: normal
 
 category: must-know
@@ -14,6 +18,7 @@ category: must-know
 links:
 
   - 'https://docs.oracle.com/javase/tutorial/networking/urls/definition.html'
+  - 'http://www.computerhope.com/jargon/u/url.htm'
 
 ---
 ## Content
