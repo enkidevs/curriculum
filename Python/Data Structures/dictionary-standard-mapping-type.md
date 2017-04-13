@@ -17,50 +17,59 @@ links:
 ---
 ## Content
 
-The **dictionary** (dict) is Python's main mapping type. It maps **hashable** values to arbitrary objects. Dicts are like hashes in Ruby and Perl, and hash tables in C.
+The **dictionary** (dict) is Python's main mapping type. It maps **hashable** values to arbitrary objects. Dictionaries are like hashes in Ruby and Perl, and hash tables in C.
 
 You can create a *dictionary* using the `{key: value}` syntax, using the `dict` constructor or even with the help of the `zip` method that returns *tuples* :
 ```python
 d1 ={'first':1, 'second':2}
 d2 = dict(first=1, second=2)
 d3 = dict(zip(['first','second'], [1,2]))
-d4 = dict({'second':2, 'first':1})
+d4 = dict({'first':1, 'second':2})
 ```
-Get and use an iterator over the keys of a `dictionary`: 
+You can use the `iter` function to get an iterator over the keys in the `dictionary`:
 ```python
 it = iter(d1)
 type(it)
-<class 'dict_keyiterator' at
-0x000000005801A420>
+# type should output:
+<class 'dict_keyiterator'>
+
 for k in it: print(k)
 ...
+# for output the output:
 first
 second
 
 ```
-Update a dict with another dict:
+You could also concatenate two dictionaries using `update`:
 ```python
 
-prefs = {"fruit": "apple", "car": "Ford"}
-prefs
-{'car': 'Ford', 'fruit': 'apple'}
+prefs = {"fruit": "apple", "car": "Tesla"}
 prefs2 = {"fruit": "orange"}
 prefs.update(prefs2)
-prefs
-{'car': 'Ford', 'fruit': 'orange'}
+print(prefs)
+# output:
+{'car': 'Tesla', 'fruit': 'orange'}
 ```
+Be careful when using `update`, as a dictionary cannot have multiple entries with the same key.
 
-You can create a **new** dictionary with the same keys as the original (`seq`)  one:
+You can create a **new** dictionary using the elements in a sequence (`seq` below) as keys:
 ```python
 seq = ('one', 'two')
-dict = dict.fromkeys(seq)
-# dict is {'one': None, 'two': None }
-dict = dict.fromkeys(seq,10)
-# dict is  {'one: 10, 'two': 10 }
+newDict = dict.fromkeys(seq)
+# newDict is {'one': None, 'two': None }
+newDict = dict.fromkeys(seq,10)
+# newDict is  {'one: 10, 'two': 10 }
 
 ```
 
 ---
 ## Revision
 
-aaa
+Which of the following is __not__ a valid syntax for creating a Python dictionary?
+```
+???
+```
+* `['first':1, 'second':2]`
+* `dict(first=1, second=2)`
+* `dict({'first':1, 'second':2})`
+* `dict.fromkeys(('first', 'second'))`
