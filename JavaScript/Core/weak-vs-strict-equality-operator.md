@@ -5,20 +5,13 @@ levels:
 
   - basic
 
-  - advanced
-
-  - medium
-
 type: normal
 
 category: must-know
 
-notes: ''
-
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators){website}
+  - "[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators){website}"
 
 ---
 ## Content
@@ -27,7 +20,7 @@ JavaScript supports two forms of equality.
 
 *Weak Typing*
 
-The operator `==` coerces types before comparing the terms: 
+The operator `==` coerces (converts) types before comparing the terms:
 
 ```
 ""  ==  "0"    // false
@@ -51,31 +44,33 @@ false === "0"   // false
 ---
 ## Practice
 
-What is the output of the following code? 
+What is the output of the following code?
 
 ```javascript
-"" == "0"
-"" === "0"
-" \t\r\n" == 0
+console.log("" == "0")
+console.log("" === "0")
+console.log(" \t\r\n" == 0)
+// ???
 ```
-???
-* False, False, True
-* False, True, False
-* True, False, True
-* True, False, False
-* True, True, True
-* False, True, True
+
+* `false false true`
+* `false true false`
+* `true false true`
+* `true false false`
+* `true true true`
+* `false true true`
 
 ---
 ## Revision
 
 What will the following code output?
+
 ```javascript
-console.log(0 == ""); 
-console.log("\n" == 0); 
+console.log(0 == "");
+console.log("\n" == 0);
 // ???
 ```
-*true true
-*true false
-*false true
-*false false
+* `true true`
+* `true false`
+* `false true`
+* `false false`
