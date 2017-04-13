@@ -26,46 +26,52 @@ links:
 
 **Metrics** are used to verify desired behaviours of processes in a *quantitative* and *qualitative* manner.
 
-
 This is also the case in *computer networks* where metrics can help us identify underlying problems, enhance connections or even decide for the most suitable Internet plans.
 
-The effective performance of a network is defined by the combination of different metrics which may vary because each network is unique in its nature and design. [1]
+The effective performance of a network is defined by the combination of different metrics which may vary because each network is unique in its nature and design.[1]
 
-However, there are some standard and relevant measures applicable to any network:
- - `bandwidth` - maximum rate that information can be transferred
- - `throughput` - actual rate that information is transferred
- - `latency` - the delay of decoding information
- - `jitter` - variation in packet delay at the receiver
+However, there are some standard and relevant measurements applicable to any network:
+ - `bandwidth` - maximum rate at which information can be transferred
+ - `throughput` - actual rate at which information is transferred
+ - `latency` - delay between sending a request and receiving a response
+ - `jitter` - time difference in packet inter-arrival time (we'll get back to this in the following insights)
  - `error rate` - number of corrupted bits
 
-Another important metric is `packet loss` - measuring what percentage of packets is lost while transferring, but **TCP** was designed to automatically resolve problems regarding this.
+Another important metric is `packet loss`, measuring what percentage of packets is lost while transferring data over a network.
 
-In streaming media and online game applications - which use **UDP**, packet loss can affect the user experience.
+This is not always applicable as **TCP** was designed to solve this exact problem, guaranteeing `0` packet loss.
 
--**
-
-`FOOTNOTES`
-
-[1:measuring performance]
-It's not mandatory to measure performance. Instead it can also be modelled and simulated.
-
-One such example is using state transition diagrams to model queuing performance using **Network Simulator**.
-
+However, in streaming media and online game applications - which use **UDP**, packet loss can affect the user experience.
 
 ---
 ## Practice
 
-Metrics are used to verify desired behaviours in a ??? and  ??? manner.
+Measuring which of the following has no sense on **TCP** connections?
 
-* quantitative
-* qualitative
-* effective
+???
+
+* `packet loss`
+* `jitter`
+* `latency`
+* `bandwidth`
 
 ---
 ## Revision
 
-??? define maximum rate that information can be transferred.
+Which of the following metrics define maximum rate that information can be transferred?
+
+???
 
 * `bandwidth`
 * `jitter`
 * `error rate`
+* `latency`
+* `throughput`
+
+---
+## Footnotes
+
+[1:Measuring performance]
+It's not mandatory to measure performance. Instead it can also be modelled and simulated.
+
+One such example is using state transition diagrams to model queuing performance using **network simulator**.

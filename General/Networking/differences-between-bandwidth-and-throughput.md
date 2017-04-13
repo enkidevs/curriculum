@@ -23,40 +23,43 @@ links:
 ---
 ## Content
 
-Both `bandwidth`  and `throughput` are metrics used to describe the ability of to transfer data over the network by a device.
+Both `bandwidth`  and `throughput` are metrics used to describe the performance of data transfer over a network segment (a link from a point `A` to a point `B`).
 
 However, there is a big difference between the two:
- - `bandwidth`  refers to the **maximum** possible speed at which a device *can* transfer data
- - `throughput` refers to the **actual** speed at which a device transfers data
+ - `bandwidth` refers to the **maximum** theoretic amount of data (number of packets) that can be sent on the channel, regardless of practical considerations
+ - `throughput` refers to the **actual** amount of data that travels through the segment successfully
 
-This distinction is relevant between **ISPs** [1] usually advertise their bandwidth which is often higher than the throughput you will receive.
+This distinction can be visualised better with the following example:
 
-These metrics are measured and usually expressed in bits per seconds (`bps`).
+A *highway* has the capacity of moving 300 cars at the same time - this is `bandwidth`. Most of the time, however, due to congestion or jams, the actual number of cars that it can move is around 200 - this is `throughput`.
 
- Modern networks are much faster and therefore have their speeds measured in million of bits per second - megabits per second (`Mbps`) or in billion of bits per second - gigabits per second (`Gbps`)
+This distinction is relevant as **ISPs** [1] usually advertise their `bandwidth` which is often higher than the `throughput` you will receive.
 
- -**
+These metrics are computed over a **single unit of time**, being expressed in bits per seconds (`bps`).
 
- `FOOTNOTES`
-
- [1] ISP = internet service provider;
+ Modern networks are much faster and therefore have their speed measured in millions of bits per second, megabits per second (`Mbps`) or in billions of bits per second, gigabits per second (`Gbps`).
 
 ---
 ## Practice
 
-What metric refers to the maximum possible speed at which a device transfers data
-??? ?
+Which of the following metric refers to the **maximum theoretical** speed data can move over a network link?
+
+???
+
 
 * `bandwidth`
 * `throughput`
 * `jitter`
+* `lag`
 
 ---
 ## Revision
 
-What metric refers to the possible speed a device can reach while transfering data
-??? ?
+Which of the following metric refers to the **actual** speed data can move over a network segment?
+
+???
 
 * `throughput`
 * `jitter`
 * `latency`
+* `bandwidth`
