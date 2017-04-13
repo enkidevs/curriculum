@@ -29,7 +29,7 @@ Then, a way of sorting edges' weights is needed. A mapping of *(edge, weight)* p
 
 Because the algorithm chooses the lowest-weight edge first, it is considered a *greedy algorithm*.
 
-Having these two data structures, the algorithm comes down to extracting the *cheapest* edge from the graph and adding it to the forest, combining two trees, if and only if it *does not* create a cycle[1].
+Having these two data structures, the algorithm comes down to extracting the *cheapest* edge from the graph and adding it to the forest, combining two trees, if and only if it *does not* create a cycle[4].
 
 The algorithm terminates when the forest becomes a spanning tree of the graph.
 
@@ -50,16 +50,6 @@ The function `sameConnectedComponent(v1, v2)` checks whether or not there alread
 *Kruskal's algorithm* can be shown to run in *O(|E|×|log E|)* time, which is equivalent to *O(|E|×|logV|)*, where *E* and *V* are the number of edges and the number of vertices, respectively.
 
 Swipe to the next insight to see an iteration of the algorithm.
-
----
-## Footnotes
-
-[1: Trees and cycles]
-By definition, for a graph to be considered a tree it must:
-1. be acyclic
-2. be connected
-
-If the chosen edge creates a cycle, the data structure won't be a tree anymore.
 
 ---
 ## Revision
@@ -84,3 +74,10 @@ A graph that has numerical values assigned to edges.
 If they are part of the same component, it means those nodes will already appear in the final spanning tree.
 
 As the algorithm is using a greedy approach (sorted list of edges), we also know for sure the old edge connecting the second node to the rest of the connected component is cheaper than the new one.
+
+[4: Trees and cycles]
+By definition, for a graph to be considered a tree it must:
+1. be acyclic
+2. be connected
+
+If the chosen edge creates a cycle, the data structure won't be a tree anymore.
