@@ -3,11 +3,18 @@ author: mihaiberq
 
 levels:
 
+  - beginner
   - basic
+  - medium
+  - advanced
 
 type: normal
 
 category: must-know
+
+links:
+    - >-
+        [Tree traversals](https://en.wikipedia.org/wiki/Tree_traversal){website}
 
 ---
 ## Content
