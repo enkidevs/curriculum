@@ -3,11 +3,18 @@ author: mihaiberq
 
 levels:
 
+  - beginner
   - basic
+  - medium
+  - advanced
 
 type: normal
 
 category: must-know
+
+links:
+    - >-
+        [Working with tries](https://medium.com/algorithms/trie-prefix-tree-algorithm-ee7ab3fe3413){website}
 
 ---
 ## Content
