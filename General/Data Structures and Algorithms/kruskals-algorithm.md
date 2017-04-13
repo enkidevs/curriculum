@@ -45,7 +45,7 @@ Kruskal(SortedEdges[])
 
   return Vertices
 ```
-The function `sameConnectedComponent(v1, v2)` checks whether or not there already is a path between the two nodes. Why do we have to check that?[3]
+The function `sameConnectedComponent(v1, v2)` checks whether or not there already is a path between the two nodes. Why do we have to check that?[4]
 
 *Kruskal's algorithm* can be shown to run in *O(|E|×|log E|)* time, which is equivalent to *O(|E|×|logV|)*, where *E* and *V* are the number of edges and the number of vertices, respectively.
 
@@ -78,3 +78,6 @@ By definition, for a graph to be considered a tree it must:
   - be connected
 
 If the chosen edge creates a cycle, the data structure won't be a tree anymore.
+
+[4: Hint]
+If they are part of the same component, it means those nodes will already appear in the final spanning tree.
