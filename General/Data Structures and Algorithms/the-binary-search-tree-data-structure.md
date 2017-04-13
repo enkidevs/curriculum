@@ -3,11 +3,18 @@ author: jfarmer
 
 levels:
 
+  - beginner
   - basic
+  - medium
+  - advanced
 
 type: normal
 
 category: must-know
+
+links:
+    - >-
+        [Binary Search Trees](http://algs4.cs.princeton.edu/32bst/){website}
 
 ---
 ## Content

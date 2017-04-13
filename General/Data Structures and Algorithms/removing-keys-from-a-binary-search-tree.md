@@ -2,7 +2,11 @@
 author: jfarmer
 
 levels:
- - basic
+
+  - beginner
+  - basic
+  - medium
+  - advanced
 
 type: normal
 
