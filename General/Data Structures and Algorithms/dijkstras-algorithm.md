@@ -3,12 +3,18 @@ author: mihaiberq
 
 levels:
 
+  - beginner
+  - basic
   - medium
+  - advanced
 
 type: normal
 
 category: must-know
 
+links:
+    - >-
+        [Step-by-step, interactive Dijkstra's algorithm application](https://www-m9.ma.tum.de/graph-algorithms/spp-dijkstra/index_en.html){website}
 ---
 ## Content
 
