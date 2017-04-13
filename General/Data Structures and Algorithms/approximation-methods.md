@@ -3,11 +3,19 @@ author: mihaiberq
 
 levels:
 
+  - beginner
   - basic
+  - medium
+  - advanced
 
 type: normal
 
 category: must-know
+
+links:
+
+    - >-
+      [Big O vs Big Theta](http://stackoverflow.com/questions/471199/what-is-the-difference-between-%CE%98n-and-on){website}
 
 ---
 ## Content

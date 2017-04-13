@@ -3,11 +3,20 @@ author: mihaiberq
 
 levels:
 
+  - beginner
   - basic
+  - medium
+  - advanced
 
 type: normal
 
 category: must-know
+
+links:
+    - >-
+      [What is an algorithm?](http://www.bbc.co.uk/education/guides/z22wwmn/revision){website}
+    - >-
+      [The Big-O notation](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/){website}
 
 ---
 ## Content

@@ -3,12 +3,18 @@ author: mihaiberq
 
 levels:
 
+  - beginner
   - basic
+  - medium
+  - advanced
 
 type: normal
 
 category: must-know
 
+links:
+  - >-
+      [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes){website}
 ---
 ## Content
 
