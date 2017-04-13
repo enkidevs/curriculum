@@ -29,7 +29,7 @@ Then, a way of sorting edges' weights is needed. A mapping of *(edge, weight)* p
 
 Because the algorithm chooses the lowest-weight edge first, it is considered a *greedy algorithm*.
 
-Having these two data structures, the algorithm comes down to extracting the *cheapest* edge from the graph and adding it to the forest, combining two trees, if and only if it *does not* create a cycle[4].
+Having these two data structures, the algorithm comes down to extracting the *cheapest* edge from the graph and adding it to the forest, combining two trees, if and only if it *does not* create a cycle[3].
 
 The algorithm terminates when the forest becomes a spanning tree of the graph.
 
@@ -70,14 +70,11 @@ A **spanning tree** is a connected subgraph of the initial graph G, which contai
 [2:Weighted graph]
 A graph that has numerical values assigned to edges.
 
-[3: Hint]
-If they are part of the same component, it means those nodes will already appear in the final spanning tree.
-
 As the algorithm is using a greedy approach (sorted list of edges), we also know for sure the old edge connecting the second node to the rest of the connected component is cheaper than the new one.
 
-[4: Trees and cycles]
+[3: Trees and cycles]
 By definition, for a graph to be considered a tree it must:
   - be acyclic
   - be connected
-  
+
 If the chosen edge creates a cycle, the data structure won't be a tree anymore.
