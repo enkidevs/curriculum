@@ -23,41 +23,57 @@ links:
 ---
 ## Content
 
-Usually *communication on web* is done via **request/response** pairs. To specialise our **requests** we need a way of specifying what we query.
+**URLs** (Uniform Resource Locators) are sequences of characters used to identify resources on the Internet. They are specified in the header of the request.
 
-Here, **URL's** (Uniform Resource Locators) come in handy. An **URL** is a form of *URI*[1], being the standardised naming convention for requesting documents over Internet.
-
-A URL can be broke down into several key segments:
+An URL can be broken down into several key components:
 ```
 http://www.enki.com:80/path/res?q=x
 |___| |_______________||______||___|
 protocol      host       path  query
 ```
 
-- the *protocol*, which is usually `http`, yet `https` is now used more frequently as it is more secure;
-- the *host* address, containing **subdomain** (`www`), **domain** (`enki.com`) with its **suffix** (`.com`) and eventually the **port** (`:80`) which is usually hidden in modern browsers;
-- the resource *path*, which represents the *local path* to the resource on the server
-- additionally, a **query string** beginning with `?`, that can contain different `field=value&` pairs.
+- the **protocol**, usually `http` or `https`. This part states how the data pointed at by the whole URL should be processed
+- the **host** address contains a *subdomain* (`www`), a *domain* (`enki.com`) and a *port* number (`80`), usually hidden in modern browsers
+- the resource **path** represents the resource's location on the server
+- a **query string**, beginning with `?`, that contains different `field=value&` pairs[1] (more on this in a later insight)
 
-The last part is used to specify the query of data that does not fit conveniently into a hierarchical path structure (e.g. filtering, searching).
+A **URL** is not specific to the `HTTP` protocol, but is a generic and standardised way of locating resources on a network.
 
+In fact, a **URL** is subtype of **URI** (Uniform Resource Identifier), but accompanied by a "access mechanism" or "network locator" (`http://`).
+While all **URL**s are **URI**s, not all **URI**s are **URL**s. 
+
+---
+## Footnotes
+
+[1: Query string]
+This is usually used for additional operations that should be done server-side: filtering, searching etc. :
+```
+www.myapp.com/users?name=John
+```
+Would make sense to return the users whose name is *John*.
 ---
 ## Practice
 
-Which protocol is more often used nowadays due to security reasones
-??? ?
+What character(s) is/are used to specify the beginning of the `query string` in a **URL** ?
 
-* `https`
-* `http`
+???
+
+* `?`
+* `&`
 * `wwww`
+* `:`
+* `^`
+* `//`
+* `://`
 
 ---
 ## Revision
 
-What are the main four segments, ???, host, ??? and
-??? ?
+The substring of an URL containing a subdomain, a domain and a port number is called
 
-* `protocol`
+???
+
+* `host`
 * `path`
 * `query`
 * `body`

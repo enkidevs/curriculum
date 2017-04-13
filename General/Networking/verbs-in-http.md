@@ -24,50 +24,56 @@ links:
 ---
 ## Content
 
-While the **URLs** indicate the location to which a *request* is sent in the HTTP protocol, the action that should be performed at that specific location is specified by **HTTP verbs**.
+While *URLs* indicate the location to which an HTTP request is sent, the action to be performed by the server is specified by the **HTTP verbs**.
 
-To differentiate actions, HTTP protocol comes with a set of formalised request *verbs*:
+To differentiate actions, HTTP protocol comes with a set of formalized request *verbs*:
 
-- `GET`: *fetches* a specific resource indicated by the **URL**
-- `POST`: *creates* a new resource at the specified **URL**
+- `GET`: *fetches* a specific resource indicated by the *URL*.
+- `POST`: *creates* a new resource at the specified *URL*[1].
+- `PUT`: *updates* an existing resource indicated by the *URL*[2].
+- `DELETE`: *removes* a resource pointed by the *URL*[3].
+- `HEAD`: similar to `GET`, but transfers only the header and the status of the page[4].
+- `OPTIONS`: asks the server to return the available communication methods, without initiating any other actions[5].
+- `TRACE`: used for diagnostic purposes, it returns the hops between the client and the server.
 
-Usually the payload of the POST request
-contains or indicates the data of the new resource.
+As HTTP is an application layer protocol, your actions on different web sites will talk to the server in this way. Navigating to your friend's profile page is equivalent to a `GET` action, sharing a song is done via a `POST` request, editing a comment represents a `PUT` request, while deleting an old, embarrassing photo sends a `DELETE` request.
 
-- `PUT`: *updates* an existing resource indicated by the **URL**
+---
+## Footnotes
 
+[1:POST]
+Usually the payload of the POST request contains or indicates the data of the new resource.
+[2:PUT]
 Similar to the `POST` request, the payload of a `PUT` request carries data necessary for the update.
-
-- `DELETE`: *removes* a resource pointed by the **URL**
-
-Keep in mind that `PUT` and `DELETE` are sometimes considered specialised `POST`s and can be packaged by some frameworks as `POST` request differentiated inside the payload.
-
-- `HEAD`: similar to `GET`, but transfers only the header and the status of the page[1]`
-- `CONNECT`: *establishes* a tunnel to the server identified by the **URL**
-- ` OPTIONS`: *describes* the options for the communication for the targeted resource
-- `TRACE`: used for diagnostic purposes, retrieving hops between the client and the server
-
-`FOOTNOTES`
-
-[1:HEAD]
-The `HEAD` verb can sometimes be used to check if the targeted resource has changed because the header contains data such as timestamps.
+[3:specialized POST]
+`PUT` and `DELETE` can be substituted by specialized `POST` requests with different payload content. i.e.: instead of updating only some fields of an old resource, overwrite it with the new updated resource.
+[4:HEAD]
+The `HEAD` verb can sometimes be used to check if the targeted resource has changed over time and if there's any need of requesting it again. 
+This is possible as the header of a request contain timestamps.
+[5:Options]
+For example, in case of the server not being able to understand a `PUT` request, sending a `OPTIONS` request first will help us prevent receiving a `400 Bad Request` error.
 
 ---
 ## Practice
 
-What does specify the action that should be performed in a web communication
-??? ?
+Which of the following **HTTP verbs** should be used only for debugging purposes?
 
-* HTTP verbs
-* URL
-* request
+???
+
+* `TRACE`
+* `OPTIONS`
+* `GET`
+* `DELETE`
+* `PUT`
 
 ---
 ## Revision
 
-Which verb is used to update an existing resource
-??? ?
+Which HTTP verb should be used, by definition, to update an existing resource on the server?
+
+???
 
 * `PUT`
-* `CONNECT`
+* `HEAD`
 * `UPDATE`
+* `GET`

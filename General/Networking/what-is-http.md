@@ -19,50 +19,56 @@ links:
 
   - 'https://www.tutorialspoint.com/http/'
   - 'https://techterms.com/definition/http'
+  - 'https://http2.github.io/'
 
 ---
 ## Content
 
-Standing for **Hypertext Transfer Protocol**, *HTTP* is a stateless application-layer protocol that facilitates the communication between clients and hosts.
+Standing for **Hypertext Transfer Protocol**, *HTTP* is an application-layer protocol that enables communication between two entities in a network.
 
-**HTTP** is considered the foundation of the modern web, being based on the **TCP/IP** communication protocol. Even though other ports can be used as well, the default *reserved* port for **HTTP** is `80`.
+**HTTP** is considered the foundation of the modern web and it works on top of *TCP/IP* communication protocol. Even though other ports can be used as well, the reserved **HTTP** port is `80`.
 
-Communication between hosts and clients  is done with a **request/response** pair in the following manner:
-- the *client* initiates and sends a HTTP **request** message to the *host*
-- after the **request** is made, the *client* will disconnect from the *host* (server) and will wait for a **response**
-- the  *host* processes the **request**
-- the *host* re-establishes the connection with the *client* to send back the appropriate **response**
+Communication process is based on a **request/response** flow:
+- the *client* initiates the communication by sending an HTTP **request** message to the *host*, over an already existing TCP connection
+- after the **request** has been made, the *client* waits for a **response**
+- the *host* processes the **request**
+- the *host* sends back the appropriate **response**
 
-One fundamental characteristic that made **HTTP** a powerful protocol is that two parties are aware of each other only during the current request and will forget about each other afterwards, making **HTTP** stateless.
+One fundamental characteristic that made **HTTP** a powerful protocol is that both parties are aware of each other during the current request only and will forget about each other afterwards. This is the reason why HTTP is considered to be *stateless*.
 
-The current version of HTTP is `HTTP/1.1`, adding few features[1] to `HTTP/1.0`.
+The currently most used version is `HTTP/1.1`. However, the newest version of HTTP is `HTTP/2`[1], which, at the beginning of `2017`, had a support rate of over `13%`[2].
 
 ---
+## Footnotes
 
-**FOOTNOTES**
+[1: HTTP/2]
+HTTP/2 characteristics:
+ - is binary, instead of textual
+ - can use a single connection for multiple requests
+ - uses header compression to reduce overhead
 
-[1:features]
-New features in `HTTP/1.1` include:
-- persistent connections
-- chunked transfer-coding
-- fine-grained caching headers
+[2: Statistics]
+https://w3techs.com/technologies/details/ce-http2/all/all
 
 ---
 ## Practice
 
-How do we call the property when two different parties know about each other only by the time communication is done
-??? ?
+The client and the host are aware of each other during the time they're connected only, therefore HTTP is considered to be
 
-* statelessness
-* consistency
-* privacy
+???
+
+* stateless
+* consistent
+* private
 
 ---
 ## Revision
 
-What is the *default* reserved port for HTTP
-??? ?
+What is the *default* reserved port for HTTP?
+
+???
 
 * `80`
-* `80:80`
-* `81`
+* `8000`
+* `443`
+* `500`
