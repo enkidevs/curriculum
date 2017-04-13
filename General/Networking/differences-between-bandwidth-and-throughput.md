@@ -7,6 +7,10 @@ levels:
 
   - basic
 
+  - medium
+
+  - advanced
+
 type: normal
 
 category: must-know
@@ -14,6 +18,7 @@ category: must-know
 links:
 
   - 'http://www-users.cselabs.umn.edu/classes/Spring-2016/csci5221/Papers/Fundamentals_of_Internet_Measurement_A_Tutorial.pdf'
+  - 'http://www.cisconet.com/traffic-analysis/traffic-analysis-general/239-internet-speed-issue-throughput-vs-bandwidth.html'
 
 ---
 ## Content

@@ -7,13 +7,18 @@ levels:
 
   - basic
 
+  - medium
+
+  - advanced
+
 type: normal
 
 category: must-know
 
 links:
 
-  - 'http://www-users.cselabs.umn.edu/classes/Spring-2016/csci5221/Papers/Fundamentals_of_Internet_Measurement_A_Tutorial.pdf'
+  - 'http://whatis.techtarget.com/definition/latency'
+  - 'https://technet.microsoft.com/en-us/library/cc732509'
 
 ---
 ## Content

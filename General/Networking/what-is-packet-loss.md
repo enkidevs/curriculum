@@ -7,13 +7,18 @@ levels:
 
   - basic
 
+  - medium
+
+  - advanced
+
 type: normal
 
 category: must-know
 
 links:
 
-  - 'http://www-users.cselabs.umn.edu/classes/Spring-2016/csci5221/Papers/Fundamentals_of_Internet_Measurement_A_Tutorial.pdf'
+  - 'https://en.wikipedia.org/wiki/Packet_loss'
+  - 'https://esj.com/articles/2012/12/13/understanding-packet-loss.aspx'
 
 ---
 ## Content

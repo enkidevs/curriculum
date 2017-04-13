@@ -7,13 +7,17 @@ levels:
 
   - basic
 
+  - medium
+
+  - advanced
+
 type: normal
 
 category: must-know
 
 links:
 
-  - 'http://www-users.cselabs.umn.edu/classes/Spring-2016/csci5221/Papers/Fundamentals_of_Internet_Measurement_A_Tutorial.pdf'
+  - 'http://www.cisco.com/c/en/us/support/docs/voice/voice-quality/18902-jitter-packet-voice.html'
 
 ---
 ## Content
