@@ -77,7 +77,7 @@ As the algorithm is using a greedy approach (sorted list of edges), we also know
 
 [4: Trees and cycles]
 By definition, for a graph to be considered a tree it must:
-1. be acyclic
-2. be connected
-
+  - be acyclic
+  - be connected
+  
 If the chosen edge creates a cycle, the data structure won't be a tree anymore.
