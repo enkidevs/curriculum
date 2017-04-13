@@ -19,8 +19,7 @@ links:
 
   - 'https://www.techopedia.com/definition/8319/metric-networking'
   - 'http://www.informit.com/articles/article.aspx?p=26129&seqNum=7'
-  - 'http://www-users.cselabs.umn.edu/classes/Spring-2016/csci5221/Papers/Fundamentals_of_Internet_Measurement_A_Tutorial.pdf'
-
+  
 ---
 ## Content
 
