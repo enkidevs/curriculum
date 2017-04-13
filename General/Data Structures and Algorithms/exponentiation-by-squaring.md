@@ -3,11 +3,18 @@ author: mihaiberq
 
 levels:
 
+  - beginner
   - basic
+  - medium
+  - advanced
 
 type: normal
 
 category: how to
+
+links:
+    - >-
+        [Exponentiation by squaring](https://en.wikipedia.org/wiki/Exponentiation_by_squaring){website}
 
 ---
 ## Content

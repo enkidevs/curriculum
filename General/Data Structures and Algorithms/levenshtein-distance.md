@@ -3,11 +3,18 @@ author: mihaiberq
 
 levels:
 
+  - beginner
   - basic
+  - medium
+  - advanced
 
 type: normal
 
 category: must-know
+
+links:
+    - >-
+        [Optimizing Levensthein distance computation](http://stackoverflow.com/questions/3183149/most-efficient-way-to-calculate-levenshtein-distance){website}
 
 ---
 ## Content

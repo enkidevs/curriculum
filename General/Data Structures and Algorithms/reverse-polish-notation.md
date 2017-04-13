@@ -3,12 +3,18 @@ author: mihaiberq
 
 levels:
 
+  - beginner
   - basic
+  - medium
+  - advanced
 
 type: normal
 
 category: how to
 
+links:
+    - >-
+        [Prefix, Infix and Postfix notations](http://www.cs.man.ac.uk/~pjj/cs2121/fix.html){website}
 ---
 ## Content
 
