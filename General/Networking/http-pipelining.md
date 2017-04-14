@@ -7,9 +7,19 @@ levels:
 
   - basic
 
+  - medium
+
+  - advanced
+
 type: normal
 
 category: must-know
+
+links:
+
+  - 'https://en.wikipedia.org/wiki/HTTP_pipelining'
+
+  - 'https://brianbondy.com/blog/119/what-you-should-know-about-http-pipelining'
 
 ---
 ## Content
