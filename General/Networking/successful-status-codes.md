@@ -3,17 +3,17 @@ author: SebaRaba
 
 levels:
 
-  - beginner
+- beginner
 
-  - basic
+- basic
+
+- medium
+
+- advanced
 
 type: normal
 
 category: must-know
-
-links:
-
-  - 'https://www.tutorialspoint.com/http/http_status_codes.htm'
 
 ---
 ## Content

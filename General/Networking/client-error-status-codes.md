@@ -7,13 +7,23 @@ levels:
 
   - basic
 
+  - medium
+
+  - advanced
+
 type: normal
 
 category: must-know
 
 links:
 
+  - 'https://www.lifewire.com/http-error-and-status-codes-explained-817986'
+
+  - 'https://www.digitalocean.com/community/tutorials/how-to-troubleshoot-common-http-error-codes'
+
   - 'https://www.tutorialspoint.com/http/http_status_codes.htm'
+
+  - 'https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html'
 
 ---
 ## Content

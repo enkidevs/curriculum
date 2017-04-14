@@ -3,9 +3,13 @@ author: SebaRaba
 
 levels:
 
-  - beginner
+- beginner
 
-  - basic
+- basic
+
+- medium
+
+- advanced
 
 type: normal
 

@@ -3,17 +3,17 @@ author: SebaRaba
 
 levels:
 
-  - beginner
+- beginner
 
-  - basic
+- basic
+
+- medium
+
+- advanced
 
 type: normal
 
 category: must-know
-
-links:
-
-  - 'http://www.restapitutorial.com/httpstatuscodes.html'
 
 ---
 ## Content
