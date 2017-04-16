@@ -73,8 +73,9 @@ A graph that has numerical values assigned to edges.
 As the algorithm is using a greedy approach (sorted list of edges), we also know for sure the old edge connecting the second node to the rest of the connected component is cheaper than the new one.
 
 [3: Trees and cycles]
+A cycle is defined as a closed sequence of vertices (path): the start node and the end node are the same.
 By definition, for a graph to be considered a tree it must:
-  - be acyclic
+  - be acyclic (have no cycles)
   - be connected
 
 If the chosen edge creates a cycle, the data structure won't be a tree anymore.
