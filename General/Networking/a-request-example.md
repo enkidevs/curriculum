@@ -49,21 +49,21 @@ This is a line-by-line analysis of the request header:
 3. The `Connection` field ensures that the connection won't be closed after the first request/response exchange (which speeds up the process by not having to reconnect for each new request).
 4. On the next line, `Referer` indicates the page where the request originated from.
 5. Details about the browser and the OS can be found under `User-Agent` field. We logged in from Chrome[1].
-6. The `Accept` field specifies that any type of file will be accepted as a response (`*/*`).
+6. The `Accept` field specifies that any type of file will be accepted as a response (`*/*` - media type or MIME type).
 7. `Accept-Encoding` states what types of encodings can be processed by the client.
 8. Like the two other `Accept` fields, `Accept-Language` specifies that `en-GB, en-US` are preferred over the more general `en`[2].
 9. `Content-Type` field tells the server the payload content's type and how to decode it.
-10. Our last field in this example, `Content-length` represents the length, in octets (bytes), of the message payload. A character requires one octet (1 octet = 1 byte = 8 bits) to be represented, making the value the actual length of the message.
+10. Our last field in this example, `Content-length` represents the length, in octets (1 octet = 1 byte = 8 bits), of the message payload. A character requires one octet to be represented, making the value the actual length of the message.
 
 The payload contains the data specified by the **client**. In this case, the login input fields, formatted as a *JSON* file were added. By reading the header, the server will be able to also understand the payload and return an appropriate response.
 
-Most modern bowsers like **Microsoft Edge** (*F12*), **Mozilla Firefox**(*CTRL/CMD + Shift + J*) or **Chrome** (*CTRL/CMD + Shift + i*) provide a Developer Console accompanied by a *Network* tab where you can take a detailed look on all requests and responses made by your browser.
+Most modern browsers like **Microsoft Edge** (*F12*), **Mozilla Firefox**(*CTRL/CMD + Shift + J*) or **Chrome** (*CTRL/CMD + Shift + i*) provide a Developer Console accompanied by a *Network* tab where you can take a detailed look on all requests and responses made by your browser.
 
 ---
 ## Footnotes
 
 [1: User-Agent]
-It might seem strange why the first browser in the `User-Agent` field list is `Mozilla` and not `Chrome`. If you bookmark this insight, you should receive a link to an article explaining the reason why.
+It might seem strange that the first browser in the `User-Agent` field list is `Mozilla` and not `Chrome`. If you bookmark this insight, you will receive a link to an article explaining the reason why.
 
 [2: Relative quality factor]
 If this is the first time you encounter the `q=0.8` notation, you should keep in mind that it is used to declare preference (it can take values between *0* and *1*). In this case, we prefer the more specific `en-GB, en-US` (British or American) English variants, rather than a more general English (`en`).
@@ -74,7 +74,7 @@ In case `q` isn't present, the option has a default value of `q=1`, equivalent t
 ---
 ## Practice
 
-The type of files that the server should return are specified in the
+The filetypes that the server should return are specified in the
 
 ??? header field.
 

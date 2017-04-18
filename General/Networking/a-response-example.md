@@ -24,7 +24,7 @@ links:
 ---
 ## Content
 
-Following the previous log in request, this is the server's response (assuming the dummy password is correct):
+Assuming that the dummy password is correct, the server's response to the previous login request looks like this:
 ```text
 HTTP/1.1 200 OK
 Access-Control-Allow-Origin: *
@@ -43,7 +43,7 @@ Connection: keep-alive
 As you probably noticed, the request was successful, its **header** containing:
 1. On the status line you can find the protocol version, `HTTP/1.1`, the status code, `200`, and the code description, `OK`.
 2. The `*` in the `Access-Control-Allow-Origin` states that the request could be sent from any domain and the server would still respond.
-3. The `Content-Encoding` header contains one of the accepted encodings specified by the request (`gzip`).
+3. The `Content-Encoding` header contains one of the accepted encodings, specified by the request (`gzip`).
 4. Next, `Content-Type` specifies how the payload of the request is formatted. In this case, it has `JSON` format, with `utf-8` character encoding.
 5. The `Date` field contains the moment in time when the response was generated.
 6. `ETag` field contains the identifier for the cached object. In our case, a successful log in should return the user object.
