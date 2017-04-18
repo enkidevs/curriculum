@@ -20,7 +20,7 @@ category: must-know
 
 **Informational status codes** are three digit codes that begin with `1`.
 
-The **status codes class** indicates a *provisional* response and was introduced in `HTTP/1.1`. Even though major browsers stopped using `HTTP/1.0`, there are still tools or web crawling bots that are trying to21 avoid the overhead required by the `HTTP/1.1` protocol. You should therefore handle those requests as well, in case you are looking to set up a new server.
+The **status codes class** indicates a *provisional* response and was introduced in `HTTP/1.1`. Even though major browsers stopped using `HTTP/1.0`, there are still tools or web crawling bots that are trying to avoid the overhead required by the `HTTP/1.1` protocol. You should therefore handle those requests as well, in case you are looking to set up a new server.
 
 Informational responses have the following content:
 - Status-Line: `HTTP/1.1 100 Continue`
