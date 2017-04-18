@@ -73,4 +73,4 @@ Which of the following metrics define maximum rate that information can be trans
 [1:Measuring performance]
 It's not mandatory to measure performance. Instead it can also be modelled and simulated.
 
-One such example is using state transition diagrams to model queuing performance using **network simulator**.
+One such example is using state transition diagrams to model queuing performance using a **network simulator**.
