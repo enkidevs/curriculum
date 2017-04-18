@@ -30,7 +30,7 @@ links:
 
 This is most often desired as human-readable domain names are much more memorable than **IP addresses** - be them static or dynamic.
 
-Traditionally, the **DNS lookup** was done with the help of `nslookup` command. At some point, this was deprecated on Unix systems in favour of the `dig` command. However, *BIND*, the company maintains and distributes `nslookup`, resurrected it.
+Traditionally, the **DNS lookup** was done with the help of `nslookup` command. At some point, this was deprecated on Unix systems in favour of the `dig` command. However, *BIND*, the company that maintains and distributes `nslookup`, resurrected it.
 
 The `dig` tool can also be installed on **Windows**. By bookmarking this insight you will find detailed installation instructions in the "Curriculum" section.
 
