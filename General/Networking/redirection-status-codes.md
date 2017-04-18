@@ -18,7 +18,7 @@ category: must-know
 ---
 ## Content
 
-**Redirection status codes** notify the user agent that additional steps are required to complete the request. They always start with `3`.
+**Redirection status codes** notify the client that additional steps are required to complete the request. They always start with `3`.
 
 For example, `300` **Multiple Choices** status code will return a list of available links the user agent (browser) can navigate to. Due to how previous versions were regulated, some servers might respond with a maximum of 5 links.
 

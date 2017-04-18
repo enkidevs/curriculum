@@ -28,15 +28,15 @@ links:
 ---
 ## Content
 
-**Client error status codes** mean there had been an error in the request, made by the client.
+**Client error status codes** mean there has been an error in the request, made by the client.
 
 This can happen by either requesting an invalid resource (that does not exist at the specified *URL*) or by making a bad request.
 
-The server should always include an explanation of the error, unless the request contained the `HEAD` method. This is the case because, if you recall, `HEAD` messages contain only the header and no payload to send the data in.
+The server should always include an explanation of the error, unless the request contained the `HEAD` method. This is the case because `HEAD` messages contain only the header and no payload to send the data in.
 
 Because they have to deal with the user's inaccuracy, there are a lot of specific `4xx` status codes to help the user - over *25* non platform specific ones[1], ranging from `400` to `499`. They include, among others, the `418` **I'm a teapot** response.
 
-Probably, the most famous client error code is `404` **Not Found**, stating that nothing is located at the requested *URL*. There is also the option of returning a `401` **Gone** status code, in case a resource is not available anymore, but the server is aware of its previous existence.
+Probably, the most famous client error code is `404` **Not Found**, stating that nothing is located at the requested *URL*. There is also the option of returning a `410` **Gone** status code, in case a resource is not available anymore, but the server is aware of its previous existence.
 
 Other such codes are:
 - `400` **Bad Request** - the server can't understand the format of the request
