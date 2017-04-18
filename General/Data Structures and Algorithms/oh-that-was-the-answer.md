@@ -3,8 +3,8 @@ author: mihaiberq
 
 levels:
 
-  - beginner
   - basic
+  - medium
 
 type: tetris
 
