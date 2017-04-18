@@ -20,28 +20,28 @@ links:
 
 `HTTPS`, short for *HyperText Transport Protocol Secure*, is a protocol for **secure communication** over a computer network.
 
-Chances are you already visited websites enforcing this protocol:
+Chances are you've already visited websites enforcing this protocol:
 ```
 https://enki.com/
 // URL starts with protocol name
 ```
 
-`HTTPS` is the same as previously discussed **HTTP**, but enhanced with an *encryption layer* over `SSL`[1], which aims to provide privacy and data integrity between the participants.
+`HTTPS` is the same as previously discussed **HTTP**, but enhanced with an *encryption layer* using `SSL`[1], which aims to provide privacy and data integrity between the participants.
 
-The communication between a *client* (take your web browser for example) and a *server* (`enki.com`) is still done via the well-known and understood **HTTP**, yet all messages are:
+The communication between a *client* (take your web browser, for example) and a *server* (`enki.com`) is still done via the well-known and understood **HTTP**, yet all messages are:
 - **encrypted** before being sent
 - **decrypted** when they arrive at either the client or the server
 
-Prior to the actual communication, an `SSL` connection (handshake) must be established between the two parties, following the steps:
+Prior to the actual communication, an `SSL` connection (known as a handshake) must be established between the two parties, following these steps:
 - `hello`: both *client* and *server* will decide on which *cipher suite*[2] and what version of `SSL` they will use for encryption
 - `certificate exchange`: to prove its identity, the *server* must provide a **certificate**[3] that the client must trust before the communication can begin
 - `key exchange`: both parties decide on a symmetric key used for both encryption and decryption
 
 The strategy above provides protection against various malicious practices such as **man-in-the-middle attacks**[4]. Even if someone intercepts your messages, all the data will be intelligible due to the encryption algorithm.
 
-Note that instead of port `80`, HTTPS uses, unless specified otherwise, port `443`.
+Note that instead of port `80`, HTTPS uses port `443`.
 
-Although `HTTPS` was initially used for sensitive online transactions or emails, it became the standard nowadays, most web-servers providing this protocol by default.
+Although `HTTPS` was initially used for sensitive online transactions or emails, it has become standard and most web-servers provide the protocol by default.
 
 ---
 ## Practice
@@ -91,4 +91,4 @@ When verifying a **certificate**, the client will check if either it:
 - is trusted by one of the Certificate Authorities (`CA`s)
 
 [4:man-in-the-middle]
-A **man-in-the-middle attack** is a type of cyberattack where a malicious actor inserts him/herself into a conversation between two parties, impersonates both parties and gains access to information that the two parties were trying to send to each other.
+A **man-in-the-middle attack** is a type of cyberattack where a malicious actor inserts themself into a conversation between two parties, impersonates both parties and gains access to information that the two parties were trying to send to each other.

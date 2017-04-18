@@ -26,7 +26,7 @@ links:
 
 Standing for **Hypertext Transfer Protocol**, *HTTP* is an application-layer protocol that enables communication between two entities in a network.
 
-**HTTP** is considered the foundation of the modern web and it works on top of *TCP/IP* communication protocol. Even though other ports can be used as well, the reserved **HTTP** port is `80`.
+**HTTP** is considered the foundation of the modern web and it works on top of *TCP/IP* communication protocol. While other ports may be used, the reserved **HTTP** port is `80`.
 
 Communication process is based on a **request/response** flow:
 - the *client* initiates the communication by sending an HTTP **request** message to the *host*, over an already existing TCP connection
