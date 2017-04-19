@@ -52,7 +52,7 @@ end
 
 We should pass in the smallest-possible value for `minKey` and the largest-possible value `maxKey` initially.  What those values are depends on the type of information being stored in the BST and the specific language in which the BST is being implemented.
 
-For example, if we're implementing the BST in C and storing integers then we might pass in the `INT_MIN` and `INT_MAX` constants as initial values.  If we're implementing the BST in JavaScript and storing numerical values then we might pass in `-Infinity` and `Infinity` as initial values.
+Note: If we were to implement the BST in C and store integers, then we might pass in the `INT_MIN` and `INT_MAX` constants as initial values. If we were to implement it in JavaScript and store numerical values, then we might pass in `-Infinity` and `Infinity` as initial values.
 
 
 ---

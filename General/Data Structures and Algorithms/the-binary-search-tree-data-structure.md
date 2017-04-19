@@ -29,13 +29,13 @@ Here is a picture of a binary search tree containing numbers:
 
 We use numbers as an example here, but a BST works with any information that has a natural order to it, e.g., strings with alphabetical order.
 
-There is one key property that makes searching a BSTs efficient:
+There is one key property that makes searching BSTs efficient:
 
 - For a every key, the children to the left have smaller keys and the children to the right have larger keys
 
-To search a BST, then, we ask "Is the key I'm searching for greater than or less than the current key?"  If it is less then we know the key we're searching for is in the left sub-tree and if it is greater then we know the key we're searching for is in the right sub-tree.  Thus, at each stage, we effectively cut the search space in half.
+Therefore, to search a BST we ask "Is the key I'm searching for greater than or less than the current key?". If it is less, then we know the key we're searching for is in the left sub-tree and if it is greater, then we know the key we're searching for is in the right sub-tree.  Thus, at each stage, we effectively cut the search space in half.
 
-This structure also makes for efficient `min` and `max` operations.  To find the minimum key in a BST we keep taking the left branch and to find the maximum key in a BST we keep taking the right branch.
+This structure also makes for efficient `min` and `max` operations; to find the minimum key in a BST we follow the left branch and to find the maximum key in a BST we follow the right branch.
 
 ---
 ## Practice
