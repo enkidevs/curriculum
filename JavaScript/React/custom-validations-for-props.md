@@ -1,22 +1,23 @@
-# Custom validations for props
+# Custom validator functions for `props`
 author: catalin
 
 levels:
 
-  - advanced
+  - beginner
+
+  - basic
 
   - medium
+
+  - advanced
 
 type: normal
 
 category: feature
 
-parent: prop-validation
+parent: enhanced-prop-validation
 
 links:
-
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/docs/reusable-components.html#prop-validation){website}
 
   - >-
     [rjzaworski.com](http://rjzaworski.com/2015/01/putting-react-custom-proptypes-to-work){website}
@@ -25,7 +26,7 @@ links:
 ## Content
 
 **React** allows  you to define and use custom *validator functions* for your props. These can be used inside `propTypes`.
-
+ 
 The standard arguments[1] for a validator function are
 ```
 function(props, propName, componentName) {
@@ -37,7 +38,7 @@ Suppose we want to check if the `text` prop is a `string` and has fewer than 200
 
 First things first, we need a function to check this:
 ```jsx
-function lengthCheck(props, propName, 
+function lengthCheck(props, propName,
   componentName) {
   if(props[propName]){
     let text = props[propName];
@@ -53,9 +54,9 @@ function lengthCheck(props, propName,
 
 Now the function can be used inside `propTypes`:
 ```jsx
-propTypes: {
+MyComponent.propTypes = {
   text: lengthCheck,
-}
+};
 ```
 
 Note that an `Error` should be returned instead of being `throw`n or using `console.warn` in order to make the validator function work inside `oneOfType`.
@@ -97,5 +98,5 @@ function (???, ???, ???) {
 ---
 ## Footnotes
 
-[1:tip]
+[1:Arguments]
 `location` can also be used as the last argument.

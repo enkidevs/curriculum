@@ -37,7 +37,7 @@ This includes some things you might not expect such as:
 
 This is often used as a shortcut for conditional logic such as testing if an object is null.
 
-For example as *null* or *undefined* objects have an inherit value of *false* we can use this with an if statement to perform different logic:
+For example as *null* or *undefined* objects have an inherent value of *false* we can use this with an if statement to perform different logic:
 
 ```
 if (myObj){

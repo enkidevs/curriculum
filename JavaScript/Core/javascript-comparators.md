@@ -1,11 +1,11 @@
-# Javascript comparators
+# JavaScript Comparators
 author: rosielowther
 
 levels:
 
   - basic
 
-  - advanced
+  - beginner
 
   - medium
 
@@ -16,7 +16,7 @@ category: must-know
 ---
 ## Content
 
-Do you know how javascript comparisons work?
+Do you know how JavaScript comparisons work?
 
 ---
 ## Game Content

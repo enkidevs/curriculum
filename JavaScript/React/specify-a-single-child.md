@@ -13,7 +13,7 @@ type: normal
 
 category: how to
 
-parent: prop-validation
+parent: custom-proptype-s-to-be-required
 
 links:
 
@@ -54,7 +54,7 @@ propTypes: {
 ---
 ## Practice
 
-What validator must be used to make sure there is exactly one child passed to `children`? 
+What validator must be used to make sure there is exactly one child passed to `children`?
 
 ```jsx
 children: React.PropTypes.???.???,
@@ -71,7 +71,7 @@ children: React.PropTypes.???.???,
 ---
 ## Revision
 
-What validator must be used to make sure there is exactly one child passed to `children`? 
+What validator must be used to make sure there is exactly one child passed to `children`?
 
 ```jsx
 children: React.PropTypes.???.???,

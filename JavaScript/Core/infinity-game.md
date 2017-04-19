@@ -5,7 +5,7 @@ levels:
 
   - basic
 
-  - advanced
+  - beginner
 
   - medium
 

@@ -1,9 +1,8 @@
-# Javascript: Hard Mode II
+# JavaScript: Hard Mode II
 author: jordanfish
 
 levels:
 
-  - basic
 
   - advanced
 
@@ -18,13 +17,19 @@ notes: Kangax quiz
 ---
 ## Content
 
+Are you up for a challenge?
 
+Test you JavaScript knowledge with some questions taken from `Kangax`'s quiz.
+
+Keep in mind some of these questions are not practical so don't worry if you get some wrong.
+
+Note that you need to assume **ECMAScript** 3rd edition. In addition, all `Error` answers describe a runtime error.
 
 ---
 ## Game Content
 
 ```
-typeof (function* f() { 
+typeof (function* f() {
   yield f })().next().next()
 ```
 * `Error`
@@ -33,7 +38,7 @@ typeof (function* f() {
 * `"object"`
 ---
 ```
-typeof (new class f() 
+typeof (new class f()
   { [f]() { }, f: { } })[`${f}`]
 ```
 * `Error`
@@ -59,7 +64,7 @@ typeof `${{Object}}`.prototype
 ---
 ```
 let arr = [ ];
-for (let { x = 2, y } of 
+for (let { x = 2, y } of
   [{ x: 1 }, 2, { y }]) {
     arr.push(x, y);
 }

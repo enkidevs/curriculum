@@ -1,4 +1,4 @@
-# Think you know Javascript?
+# Think you know JavaScript?
 author: jordanfish
 
 levels:
@@ -18,7 +18,7 @@ notes: ''
 ---
 ## Content
 
-Are you prepared for Dmitry Baranovskiy's famous "So, you think you know Javascript?" 
+Are you prepared for Dmitry Baranovskiy's famous "So, you think you know JavaScript?" 
 
 It's a quick test for real understanding of JavaScript core beyond closures and scopes.
 

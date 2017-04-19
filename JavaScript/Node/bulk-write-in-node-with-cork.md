@@ -25,10 +25,10 @@ Using the `cork()`  and `uncork()` API calls, one can specify a range where bulk
 ```
 writable.cork()
 ```
-Using the `cork()` method, the end user modifies the behaviour of writeable streams to buffering. Consequently, streams should accept new writes as long as it does not exceed the `highWaterMark` option passed to `Writable()`. 
+Using the `cork()` method, the end user modifies the behaviour of writeable streams to buffering. Consequently, streams should accept new writes as long as it does not exceed the `highWaterMark` option passed to `Writable()`.
 ```
 writable.uncork()
-``` 
+```
 `uncork()` resets the behaviour and attempts to bulk-write all buffered writes to the underlying resource.
 
 Flushing of buffered data can be also achieved by calling the `.end()` method.

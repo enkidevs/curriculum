@@ -3,8 +3,6 @@ author: gregbenner
 
 levels:
 
-  - basic
-
   - advanced
 
   - medium
@@ -16,13 +14,14 @@ category: must-know
 ---
 ## Content
 
-
+Freshen up you knowledge on `iterators`, `for of` loops and the `spread operator` with this exercise.
+The goal is to fill in the gaps with either the output of the snippet or the missing bit that won't throw any errors.
 
 ---
 ## Game Content
 
 ```
-// How can we make a 
+// How can we make a
 // noise with this iterator?
 
 function* onomatopoeia() {
@@ -44,11 +43,11 @@ noise.???();
 // Given:
 
 var greeting = "hi";
-let iterator = 
+let iterator =
   greeting[Symbol.iterator]();
 
-iterator.next(); // returns ???
-
+iterator.next();
+// returns ???
 
 ```
 * { value: "h", done: false }
@@ -57,12 +56,13 @@ iterator.next(); // returns ???
 
 ---
 
-``` 
-let arr = ['dragon', 'wizard', 
+```
+let arr = ['dragon', 'wizard',
   'monkey'];
 
 for (let i of arr) {
-   console.log(i); // logs ???
+   console.log(i);
+   // logs ???
 }
 
 ```

@@ -13,6 +13,8 @@ type: normal
 
 category: tip
 
+parent: custom-proptype-s-to-be-required
+
 links:
 
   - '[facebook.github.io](https://facebook.github.io/react/tips/props-in-getInitialState-as-anti-pattern.html){website}'
@@ -20,7 +22,7 @@ links:
 ---
 ## Content
 
-Passing down props from the parent to generate state in `getInitialState` can lead to duplication of *source of truth*, where the real data is located. 
+Passing down props from the parent to generate state in `getInitialState` can lead to duplication of *source of truth*, where the real data is located.
 
 An example of a duplication of source of truth:
 ```JavaScript
@@ -38,7 +40,7 @@ var Duplication = React.createClass({
   }
 });
 ```
-This is bad due to `getInitialState` being invoked when the component is first created, therefore the example allows a value to get out of sync. 
+This is bad due to `getInitialState` being invoked when the component is first created, therefore the example allows a value to get out of sync.
 
 Computing values on-the-fly ensures that values don't get out of sync later and cause maintenance issues.
 

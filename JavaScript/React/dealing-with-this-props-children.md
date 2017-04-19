@@ -11,6 +11,8 @@ type: normal
 
 category: feature
 
+parent: custom-proptype-s-to-be-required
+
 links:
 
   - >-
@@ -44,7 +46,7 @@ object React.Children.only(object children);
 ```
 Manipulate collections of `children` by converting them into arrays:
 ```javascript
-array React.Children.toArray(object 
+array React.Children.toArray(object
   children);
 ```
 

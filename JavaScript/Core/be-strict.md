@@ -19,7 +19,7 @@ links:
 ---
 ## Content
 
-Do you know what is allowed and not allowed in `strict mode` in JS? Can you spot the lines that would produce errors?
+Do you know what is allowed and not allowed in `strict mode` in JavaScript? Can you spot the lines that would produce errors?
 
 ---
 ## Game Content

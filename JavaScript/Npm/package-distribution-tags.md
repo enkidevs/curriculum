@@ -13,14 +13,18 @@ type: normal
 
 category: how to
 
+parent: check-data-about-a-package
+
 links:
 
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/dist-tag){website}'
 
+
+
 ---
 ## Content
 
-Distribution tags are used to provide an alias instead of version number for packages. 
+Distribution tags are used to provide an alias instead of version number for packages.
 
 They are more human readable and allow the user to clearly differentiate between for example streams of development (e.g. `beta`, `latest`, `next`, `stable`).
 
@@ -54,14 +58,14 @@ It's advised not to use tags that begin with numbers or the letter `v`  as they 
 Complete the code snippet to add a tag to your package:
 
 ```
-$ npm dist-tag ??? 
-    <pkg>@<version> [<???>] 
+$ npm dist-tag ???
+    <pkg>@<version> [<???>]
 ```
-*`add` 
-*`tag` 
-*`new` 
-*`version-tag` 
-*`0.0.1` 
+*`add`
+*`tag`
+*`new`
+*`version-tag`
+*`0.0.1`
 *`publish`
 
 ---

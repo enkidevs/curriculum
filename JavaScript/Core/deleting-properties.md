@@ -5,10 +5,6 @@ levels:
 
   - basic
 
-  - advanced
-
-  - medium
-
 type: normal
 
 category: how to
@@ -17,13 +13,12 @@ notes: Hope it's not too basics?
 
 links:
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/208105/how-to-remove-a-property-from-a-javascript-object){website}
+  - "[stackoverflow.com](http://stackoverflow.com/questions/208105/how-to-remove-a-property-from-a-javascript-object){website}"
 
 ---
 ## Content
 
-Setting the property to `null` or `undefined` only removes the value associated with given property. It does not remove the key. 
+Setting the property to `null` or `undefined` only removes the value associated with given property. It does not remove the key.
 
 ```
 var obj = { one: 1 }
@@ -48,10 +43,13 @@ console.log(obj); // { }
 
 ```
 
+Using the `delete` operator returns `true` for all cases except when the property is an own non-configurable property, in which case, `false` is returned in non-strict mode.
+
 ---
 ## Practice
 
 Complete the code snippet:
+
 ```javascript
 var test = {
   prop1: 1,
@@ -62,6 +60,7 @@ test.prop1 = ???;
 //remove prop2
 ??? ;
 ```
+
 *undefined
 *delete test.prop2
 *null
@@ -70,7 +69,8 @@ test.prop1 = ???;
 ---
 ## Revision
 
-Show the output:
+What is the output of the following code snippet?
+
 ```javascript
 var obj = { one: 1 }
 obj.one = undefined;

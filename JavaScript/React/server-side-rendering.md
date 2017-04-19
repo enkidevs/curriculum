@@ -1,4 +1,4 @@
-# Server-side rendering 
+# Server-side rendering
 author: catalin
 
 levels:
@@ -15,6 +15,8 @@ notes: >-
   This insight can fit under Node, Express and React as well as it deals with
   them bundled up.
 
+parent: custom-proptype-s-to-be-required
+
 links:
 
   - >-
@@ -29,19 +31,19 @@ The server renders the React app to a string and generate the first view of the 
 ```javascript
 var React = require('react');
 ReactApp = React.createFactory(require
-              ('../components/ReactApp')); 
-module.exports = function(app) { 
-  app.get('/', function(req, res){ 
-  var reactHtml = 
-    React.renderToString(ReactApp({})); 
+              ('../components/ReactApp'));
+module.exports = function(app) {
+  app.get('/', function(req, res){
+  var reactHtml =
+    React.renderToString(ReactApp({}));
   res.render('index.ejs',
      {reactOutput: reactHtml});
-  }); 
+  });
 };
 ```
 Inside `index.ejs`:
 ```html
-<div id="react-main-mount"> 
+<div id="react-main-mount">
   <%- reactOutput %> </div>
 <!-- bootstrap the app -->
 <script src="/main.js"></script>
@@ -51,9 +53,9 @@ On the **client** side (`main.js`):
 ```javascript
 var React = require('react');
 var ReactApp = require
-    ('./components/ReactApp'); 
+    ('./components/ReactApp');
 var mountNode = document.getElementById(
-    "react-main-mount"); 
+    "react-main-mount");
 React.render(new ReactApp({}), mountNode);
 ```
 

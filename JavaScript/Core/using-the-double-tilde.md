@@ -5,7 +5,7 @@ levels:
 
   - basic
 
-  - advanced
+  - beginner
 
   - medium
 
@@ -46,6 +46,7 @@ console.log(~~"7.08"); // ???
 console.log(~~"-1.92"); // ???
 console.log(~~{}); // ???
 ```
+
 * 15
 * 7
 * -1
@@ -61,12 +62,14 @@ console.log(~~{}); // ???
 ---
 ## Revision
 
-The following code will output
-```javascript
+The following code will output:
+
+```js
 console.log( ~~12.34 ); // ???
 console.log( ~~"56.78" ); // ???
 console.log( ~~"Sunny" ); // ???
 ```
+
 *12
 *56
 *0

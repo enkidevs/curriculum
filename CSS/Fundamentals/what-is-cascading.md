@@ -1,4 +1,4 @@
-# What is cascading?
+# What Is Cascading?
 author: mihaiberq
 
 levels:
@@ -36,7 +36,7 @@ p {
   color: green;
 }
 ```
-CSS doesn't always behave like this. There is a property of selectors, called **specificity**, which breaks the rule. We will talk about specificity in the rest of this workout.
+CSS doesn't always behave like this, however. There is a property of selectors, called **specificity**, which breaks the rule. We will talk about specificity in the course of next workout.
 
 ---
 ## Practice

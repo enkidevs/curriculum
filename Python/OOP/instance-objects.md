@@ -11,8 +11,6 @@ type: normal
 
 category: must-know
 
-parent: class-objects
-
 notes: Multiple issues. Needs to be rewritten.
 
 links:
@@ -53,13 +51,27 @@ So if `Enki.x` is a function object, then `enki.x` (`enki` being an instance of`
 ---
 ## Practice
 
-Which of the following is the method?
+Consider the following class:
+```python
+class Enki:
+  def printEnki(self):
+    print('Hello, Enki');
+```
 
-???
-*enki.x
-*Enki.x
-*enki.a
-*Enki.a
+Complete the following snippet such that an **instance object** of the **class** above is created, but also the corresponding method of `Enki.printEnki` function object is called:
+```
+enki = ???;
+???.???;
+```
+
+* `Enki()`
+* `enki`
+* `printEnki()`
+* `Enki`
+* `printEnki`
+* `printenki`
+* `pass`
+* `class`
 
 ---
 ## Revision

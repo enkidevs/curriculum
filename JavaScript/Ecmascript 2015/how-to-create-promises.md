@@ -35,9 +35,9 @@ new Promise(function(resolve, reject){
 
 Note how the functions body was run immediately.
 
-**Next**
+**then**
 
-Next is used with a promise object and allows you to define how you want to handle the result of a promise.
+then is used with a promise object and allows you to define how you want to handle the result of a promise.
 
 Let's pretend we want to call an external service to get a value and on successful completion log the returned value to the console.
  

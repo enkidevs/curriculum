@@ -7,7 +7,6 @@ levels:
 
 type: normal
 
-inAlgoPool: false
 
 category: must-know
 
@@ -22,19 +21,19 @@ links:
 ---
 ## Content
 
-In order to be able to use **Git**, it first must be available on your machine. You can install **Git** in various ways, depending on your Operating System. 
+In order to be able to use **Git**, it first must be available on your machine. You can install **Git** in various ways, depending on your Operating System.
 
 **Git** is available for downloading together with installing instructions from the official **Git** website for *Linux* , *Windows* or *Mac OSX*.
 
 
 ### Mac OS X
 
- 
+
 You can install **Git** by:
 - running `git` from the terminal will prompt you to the installation if your OS version is at least `10.9`
 
 
-### Linux 
+### Linux
 
 Depending on your Linux distribution and package management tool you can install **Git**:
 - using `yum` on Fedora/Red Hat:

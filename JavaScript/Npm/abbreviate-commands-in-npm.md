@@ -11,6 +11,10 @@ type: normal
 
 category: feature
 
+parent: check-data-about-a-package
+
+
+
 ---
 ## Content
 
@@ -23,7 +27,7 @@ npm i myPackage
 # same as npm install myPackage
 npm r myPackage / npm rm myPackage
 # same as npm uninstall myPackage
-npm ln 
+npm ln
 # same as npm link
 npm ls
 # same as npm list

@@ -17,6 +17,9 @@ links:
 
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/adduser){website}'
 
+
+parent: check-data-about-a-package
+
 ---
 ## Content
 
@@ -39,7 +42,7 @@ npm adduser --registry=http://myreg.com
 
 The `always-auth` is by default set to `false`, but if specified, all requests to the given registry should include authorization information as an authorization header:
 ```bash
-npm adduser --registry=http:myreg.com 
+npm adduser --registry=http:myreg.com
     --always-auth
 ```
 Note that `npm login` is an alias for `npm adduser` and works in exactly the same way.

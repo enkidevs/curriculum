@@ -27,7 +27,7 @@ links:
 
 In Java 7+, it is possible to use a string as a selector in a `switch` statement.
 
-For example:
+For example: 
 ```
 String colorString;
 switch(color) {
@@ -38,9 +38,9 @@ switch(color) {
   default: colorString = "a color";
     break;
 }
-System.out.println("It's %s", colorString); 
+System.out.println("It's %s", colorString);
 ```
-This is enables us to write more concise code than using `if/else` statements.
+This promotes a more concise code, rather than using `if/else` statements.
 
 The string comparisons are case sensitive.
 
