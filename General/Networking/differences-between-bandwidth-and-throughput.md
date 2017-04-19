@@ -23,7 +23,7 @@ links:
 ---
 ## Content
 
-Both `bandwidth`  and `throughput` are metrics used to describe the performance of data transfer over a network segment (a link from a point `A` to a point `B`).
+Both `bandwidth`  and `throughput` are metrics used to describe the performance of data transfer over a network segment (a link from a point `A` to a point `B`). 
 
 However, there is a big difference between the two:
  - `bandwidth` refers to the **maximum** theoretic amount of data (number of packets) that can be sent on the channel, regardless of practical considerations
