@@ -4,13 +4,14 @@ author: mihaiberq
 levels:
 
   - basic
-  
+
   - medium
 
 type: tetris
 
 category: must-know
 
+parent: primality-test
 ---
 ## Content
 

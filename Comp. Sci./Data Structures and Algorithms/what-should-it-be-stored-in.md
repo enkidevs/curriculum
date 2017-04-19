@@ -10,6 +10,7 @@ type: fillTheGap
 
 category: must-know
 
+parent: the-queue-data-structure
 ---
 ## Content
 
