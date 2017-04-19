@@ -29,7 +29,7 @@ Integers are considered accurate only up to 15 digits.
 ```javascript
 var a = 999999999999999; //15 digits
 // a = 999999999999999
-var b = 9999999999999999; //16 digits 
+var b = 9999999999999999; //16 digits
 // b = 10000000000000000
 ```
 The maximum number of decimals is 17, but floating point arithmetic is not always 100% accurate:
@@ -49,11 +49,13 @@ var x = (0.2 * 10 + 0.1 * 10) / 10;
 ---
 ## Practice
 
-What are the following variable values? 
+What are the following variable values?
 
 ```javascript
-var x = 0.6 - 0.2; ???
-var y = (0.2 * 10 + 0.3 * 10) / 10; ???
+var x = 0.6 - 0.2;
+???
+var y = (0.2 * 10 + 0.3 * 10) / 10;
+???
 ```
 
 * x: 0.39999999999999997
@@ -67,8 +69,10 @@ var y = (0.2 * 10 + 0.3 * 10) / 10; ???
 ## Revision
 
 ```javascript
-var x = 9999999999999999; //16 digits
-console.log(x); // will print ???
+//16 digits
+var x = 9999999999999999;
+console.log(x);
+//x: ???
 ```  
 *10000000000000000 // 17 digits
 *9999999999999999 //16 digits
