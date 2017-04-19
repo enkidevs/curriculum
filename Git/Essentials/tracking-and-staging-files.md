@@ -46,10 +46,10 @@ $ git add enki.txt
 In case you need to add more than a single file, naming them one by one isn't going to work out. Here are your options for adding multiple files:
 ```bash
 # stages everything
-$ git add -A|--all
+$ git add [-A|--all]
 $ git add .
 # stages everything but new files
-$ git add -u|--update
+$ git add [-u|--update]
 ```
 Running `git status` again, we can see that the file is now **staged** and ready to be part of a **commit**:
 ```
