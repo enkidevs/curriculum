@@ -50,10 +50,9 @@ function isBST(root, minKey, maxKey)
 end
 ```
 
-We should pass in the smallest-possible value for `minKey` and the largest-possible value `maxKey` initially.  What those values are depends on the type of information being stored in the BST and the specific language in which the BST is being implemented.
+We should pass in the smallest-possible value for `minKey` and the largest-possible value `maxKey` initially.
 
-Note: If we were to implement the BST in C and store integers, then we might pass in the `INT_MIN` and `INT_MAX` constants as initial values. If we were to implement it in JavaScript and store numerical values, then we might pass in `-Infinity` and `Infinity` as initial values.
-
+**Note:** What those values are depends on the type of information being stored in the BST and the specific language in which the BST is being implemented. If we were to implement the BST in C and store integers, then we might pass in the `INT_MIN` and `INT_MAX` constants as initial values. If we were to implement it in JavaScript and store numerical values, then we might pass in `-Infinity` and `Infinity` as initial values.
 
 ---
 ## Practice

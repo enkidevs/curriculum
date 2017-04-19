@@ -26,8 +26,8 @@ Consider the following BST:
 Let's say we wanted to insert the key `4`.  To do so, the procedure would work as follows:
 
 1. `4` is less than `8` so move on to the left child.
-2. `4` is greater than `3`, so look at the right child.
-3. `4` is less than `6`, so look at the left child.
+2. `4` is greater than `3`, so move on to the right child.
+3. `4` is less than `6`, so move on to the left child.
 4. This node is empty, so insert `4` as the left child of `6`.
 
 The final result is a BST that looks like this:
@@ -36,7 +36,14 @@ The final result is a BST that looks like this:
 
 ## Order Dependence
 
-You may have noticed that the shape of the BST depends on the order in which the data is inserted. For example, if the data were all inserted in ascending (or descending order), we would wind up with what is essentially a sorted linked list (worst-case scenario).
+You may have noticed that the shape of the BST depends on the order in which the data is inserted. For example, if the data were all inserted in ascending (or descending order), we would wind up with what essentially resembles a sorted linked list[1].
+
+---
+## Footnotes
+
+[1: Worst-case scenario]
+This refers to the case in which the tree's *height* (the distance between the root and the furthest away leaf from the root) is equal to the number of nodes in the tree. In this case, the operations that normally take `O(log n)` end up taking `O(n)`.   
+
 
 ---
 ## Practice
