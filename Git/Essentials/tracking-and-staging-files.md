@@ -43,11 +43,14 @@ You can see that the `enki.txt` file is **untracked**. In order for **Git** to m
 ```
 $ git add enki.txt
 ```
-You can also add all the files in the current directory with the same command:
+In case you need to add more than a single file, naming them one by one isn't going to work out. Here are your options for adding multiple files:
+```bash
+# stages everything
+$ git add -A|--all
+$ git add .
+# stages everything but new files
+$ git add -u|--update
 ```
-$ git add *
-```
-
 Running `git status` again, we can see that the file is now **staged** and ready to be part of a **commit**:
 ```
 $ git status
@@ -66,8 +69,7 @@ $ git ??? ???
 ```
 
 *`add`
-*`*`
-*`--all`
+*`.`
 *`stage`
 *`commit`
 *`status`
@@ -80,7 +82,7 @@ What git command can be used to check what files are untracked, modified or stag
 
 ```
 $ git ???
-``` 
+```
 *`status`
 *`checkout`
 *`stats`
