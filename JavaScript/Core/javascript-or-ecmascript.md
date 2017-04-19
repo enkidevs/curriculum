@@ -33,7 +33,7 @@ EcmaScript has no methods for manipulating or working with web pages.
 
 When people use the word JavaScript they are usually referring to EcmaScript and extensions such as the **DOM** (Document Object Model) that defines methods for manipulating web pages and the **BOM** (Browser Object Model) that provide functionality for working with the browser.
 
-In conclusion JavaScript are not exactly the same, but the development of the JavaScript language is driven by the new standards introduced in revised versions of EcmaScript.
+In conclusion, JavaScript and EcmaScript are not exactly the same, but the development of the JavaScript language is driven by the new standards introduced in revised versions of EcmaScript.
 
 ---
 ## Revision
