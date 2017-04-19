@@ -26,7 +26,7 @@ links:
 
 Short for *Network Statistics*, the `netstat` command is a simple, yet powerful tool that provides useful information about your network configuration and activity.
 
-`netstat` is a collection of different utilities, invoked by different **flags**.
+`netstat` is a collection of different utilities, invoked by different **flags**. 
 
 When ran with no *flags*, `netstat` will display **active internet connections**, just as running it with the `-a` flag.
 

@@ -24,7 +24,7 @@ links:
 ---
 ## Content
 
-Possibly the simplest way to test the **connectivity** between your machine and a remote host is via the `ping` utility.
+Possibly the simplest way to test the **connectivity** between your machine and a remote host is via the `ping` utility. 
 
 This tool will send (echo) one or more **ICMP packets**[1] to the specified destination and will print simple statistics (e.g. latency) about the connection as soon as it gets a response.
 ```bash
