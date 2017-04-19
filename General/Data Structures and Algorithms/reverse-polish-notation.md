@@ -15,6 +15,8 @@ category: how to
 links:
     - >-
         [Prefix, Infix and Postfix notations](http://www.cs.man.ac.uk/~pjj/cs2121/fix.html){website}
+
+parent: trie-data-structure
 ---
 ## Content
 

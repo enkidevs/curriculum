@@ -13,6 +13,7 @@ links:
     - >-
          [Graph theory](https://en.wikipedia.org/wiki/Graph_theory){website}
 
+parent: the-queue-data-structure
 ---
 ## Content
 

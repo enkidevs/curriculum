@@ -18,6 +18,8 @@ links:
     - >-
       [The Big-O notation](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/){website}
 
+parent: node-height-and-depth
+
 ---
 ## Content
 

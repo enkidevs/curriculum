@@ -13,6 +13,7 @@ type: normal
 
 category: must-know
 
+parent: removing-data-from-a-heap-with-the-downheap-operation
 ---
 ## Content
 

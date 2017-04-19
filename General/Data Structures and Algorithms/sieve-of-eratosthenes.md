@@ -15,6 +15,8 @@ category: must-know
 links:
   - >-
       [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes){website}
+
+parent: binary-search
 ---
 ## Content
 

@@ -12,9 +12,11 @@ type: normal
 
 category: must-know
 
-links: 
+links:
     - >-
         [Step-by-step, interactive Bellman-Ford algorithm application](https://www-m9.ma.tum.de/graph-algorithms/spp-bellman-ford/index_en.html){website}
+
+parent: dijkstras-iteration
 
 ---
 ## Content

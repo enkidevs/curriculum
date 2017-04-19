@@ -11,6 +11,8 @@ type: normal
 
 category: must-know
 
+parent: bellman-ford-algorithm
+
 ---
 ## Content
 

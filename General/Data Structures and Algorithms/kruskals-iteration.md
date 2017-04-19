@@ -12,6 +12,7 @@ type: normal
 
 category: must-know
 
+parent: kruskals-algorithm
 ---
 ## Content
 
