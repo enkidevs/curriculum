@@ -1,4 +1,4 @@
-  # Bellman-Ford Algorithm Iteration
+# Bellman-Ford Algorithm Iteration
 author: mihaiberq
 
 levels:
