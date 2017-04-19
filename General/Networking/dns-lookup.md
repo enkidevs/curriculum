@@ -1,5 +1,5 @@
 # DNS Lookup
-author: SebaRaba
+author: catalin
 
 levels:
 
@@ -22,6 +22,8 @@ links:
   - https://help.dyn.com/how-to-use-binds-dig-tool/#installdigwindows
 
   - http://computer.howstuffworks.com/dns.htm
+
+parent: network-statistics-tools
 
 ---
 ## Content

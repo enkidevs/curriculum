@@ -1,5 +1,5 @@
 # Differences between bandwidth and throughput
-author: SebaRaba
+author: catalin
 
 levels:
 
@@ -20,10 +20,12 @@ links:
   - 'http://www-users.cselabs.umn.edu/classes/Spring-2016/csci5221/Papers/Fundamentals_of_Internet_Measurement_A_Tutorial.pdf'
   - 'http://www.cisconet.com/traffic-analysis/traffic-analysis-general/239-internet-speed-issue-throughput-vs-bandwidth.html'
 
+parent: what-is-jitter
+
 ---
 ## Content
 
-Both `bandwidth`  and `throughput` are metrics used to describe the performance of data transfer over a network segment (a link from a point `A` to a point `B`). 
+Both `bandwidth`  and `throughput` are metrics used to describe the performance of data transfer over a network segment (a link from a point `A` to a point `B`).
 
 However, there is a big difference between the two:
  - `bandwidth` refers to the **maximum** theoretic amount of data (number of packets) that can be sent on the channel, regardless of practical considerations

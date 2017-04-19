@@ -15,6 +15,8 @@ links:
 
   - 'http://www.webopedia.com/quick_ref/OSI_Layers.asp'
 
+parent: types-of-networks
+
 ---
 ## Content
 

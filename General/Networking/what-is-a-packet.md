@@ -15,6 +15,8 @@ links:
 
   - 'http://whatismyipaddress.com/tcp-ip'
 
+parent: what-is-a-computer-network
+
 ---
 ## Content
 

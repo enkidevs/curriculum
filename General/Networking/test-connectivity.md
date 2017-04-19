@@ -1,5 +1,5 @@
 # Testing Internet Connectivity
-author: SebaRaba
+author: catalin
 
 levels:
 
@@ -19,7 +19,9 @@ links:
 
   - https://shapeshed.com/unix-traceroute/
 
-  - http://www.thegeekstuff.com/2009/11/ping-tutorial-13-effective-ping-command-examples/
+  - http://www.thegeekstuff.com/2009/11/ping-tutorial-13-effective-ping-command-examples
+
+parent: network-interfaces-tools
 
 ---
 ## Content

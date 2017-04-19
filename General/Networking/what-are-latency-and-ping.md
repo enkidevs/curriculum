@@ -1,5 +1,5 @@
 # What are latency and ping?
-author: SebaRaba
+author: catalin
 
 levels:
 
@@ -18,8 +18,12 @@ category: must-know
 links:
 
   - 'http://whatis.techtarget.com/definition/latency'
+
   - 'https://www.websitepulse.com/blog/what-is-ping-test'
+
   - 'https://en.wikipedia.org/wiki/Ping_'
+
+parent: important-networking-metrics
 
 ---
 ## Content

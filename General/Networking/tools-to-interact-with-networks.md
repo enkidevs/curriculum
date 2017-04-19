@@ -1,5 +1,5 @@
 # Tools to interact with Networks
-author: SebaRaba
+author: catalin
 
 levels:
 
@@ -21,12 +21,14 @@ links:
 
   - http://slackbook.org/html/basic-network-commands.html
 
+parent: differences-between-bandwidth-and-throughput
+
 ---
 ## Content
 
 We have witnessed an exponential growth in the size of **computer networks** since their introduction, with more and more people joining them every day.
 
-It stands to reason that their complexity increased to provide faster, more reliable and more secure communication. 
+It stands to reason that their complexity increased to provide faster, more reliable and more secure communication.
 
 Due to this complexity, interacting with **networks** can be intimidating to numerous users.
 Luckily, most operating systems, counting **Linux**, **OSX**, **Windows** and even **Chrome OS**, provide a variety of utilities to make these interactions easier.

@@ -19,6 +19,8 @@ links:
 
   - 'https://www.tutorialspoint.com/http/http_requests.html'
 
+parent: https
+
 ---
 ## Content
 

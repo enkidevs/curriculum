@@ -15,6 +15,8 @@ links:
 
   - 'http://www.comptechdoc.org/independent/networking/guide/netcategories.html'
 
+parent: what-is-a-packet
+
 ---
 ## Content
 

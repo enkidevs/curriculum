@@ -1,5 +1,5 @@
 # Network Statistics
-author: SebaRaba
+author: catalin
 
 levels:
 
@@ -20,6 +20,8 @@ links:
   - http://www.c-jump.com/CIS24/Slides/Networking/html_utils/netstat.html
 
   - https://www.ibm.com/support/knowledgecenter/en/SSMN28_4.1.1/com.ibm.rm.doc_4.1.1/frp_r_pdg_netstat_command.html
+
+parent: tools-to-interact-with-networks
 
 ---
 ## Content

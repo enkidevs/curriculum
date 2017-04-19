@@ -1,5 +1,5 @@
 # How does packet loss happen?
-author: SebaRaba
+author: catalin
 
 levels:
 
@@ -18,7 +18,10 @@ category: must-know
 links:
 
   - 'https://en.wikipedia.org/wiki/Packet_loss'
+
   - 'https://esj.com/articles/2012/12/13/understanding-packet-loss.aspx'
+
+parent: what-are-latency-and-ping
 
 ---
 ## Content

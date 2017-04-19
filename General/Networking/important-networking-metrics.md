@@ -1,5 +1,5 @@
 # Important networking metrics
-author: SebaRaba
+author: catalin
 
 levels:
 
@@ -18,8 +18,11 @@ category: must-know
 links:
 
   - 'https://www.techopedia.com/definition/8319/metric-networking'
-  - 'http://www.informit.com/articles/article.aspx?p=26129&seqNum=7'
   
+  - 'http://www.informit.com/articles/article.aspx?p=26129&seqNum=7'
+
+parent: extended-terminologies
+
 ---
 ## Content
 

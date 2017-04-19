@@ -21,6 +21,8 @@ links:
 
   - 'https://brianbondy.com/blog/119/what-you-should-know-about-http-pipelining'
 
+parent: a-response-example
+
 ---
 ## Content
 

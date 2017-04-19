@@ -15,6 +15,8 @@ type: normal
 
 category: must-know
 
+parent: http-pipelining
+
 ---
 ## Content
 

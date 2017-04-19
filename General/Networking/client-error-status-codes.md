@@ -1,5 +1,5 @@
 # Client error status codes
-author: SebaRaba
+author: catalin
 
 levels:
 
@@ -24,6 +24,9 @@ links:
   - 'https://www.tutorialspoint.com/http/http_status_codes.htm'
 
   - 'https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html'
+
+
+parent: redirection-status-codes
 
 ---
 ## Content
