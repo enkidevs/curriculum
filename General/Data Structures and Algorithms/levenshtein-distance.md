@@ -16,6 +16,7 @@ links:
     - >-
         [Optimizing Levensthein distance computation](http://stackoverflow.com/questions/3183149/most-efficient-way-to-calculate-levenshtein-distance){website}
 
+parent: exponentiation-by-squaring
 ---
 ## Content
 

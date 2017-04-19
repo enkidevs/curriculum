@@ -12,6 +12,8 @@ type: normal
 
 category: how to
 
+parent: the-heap-data-structure
+
 ---
 ## Content
 

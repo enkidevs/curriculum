@@ -12,6 +12,7 @@ type: normal
 
 category: how to
 
+parent: inserting-data-into-a-heap-with-the-upheap-operation
 ---
 ## Content
 

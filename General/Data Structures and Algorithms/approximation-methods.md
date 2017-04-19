@@ -17,6 +17,8 @@ links:
     - >-
       [Big O vs Big Theta](http://stackoverflow.com/questions/471199/what-is-the-difference-between-%CE%98n-and-on){website}
 
+parent: approximating-memory-and-time-required-by-data-types
+
 ---
 ## Content
 

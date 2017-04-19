@@ -13,6 +13,7 @@ links:
     - >-
         [Stacks and Queues](https://en.wikibooks.org/wiki/Data_Structures/Stacks_and_Queues){website}
 
+parent: the-linked-list-data-structure
 ---
 ## Content
 

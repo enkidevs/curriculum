@@ -16,6 +16,8 @@ links:
     - >-
         [Binary Search](http://quiz.geeksforgeeks.org/binary-search/){website}
 
+parent: approximation-methods
+
 ---
 ## Content
 

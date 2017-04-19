@@ -12,6 +12,8 @@ type: normal
 
 category: must-know
 
+parent: dijkstras-algorithm
+
 ---
 ## Content
 

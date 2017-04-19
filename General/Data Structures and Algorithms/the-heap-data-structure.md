@@ -16,6 +16,7 @@ links:
     - >-
         [The heap data structure](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Binary%20Heaps/heaps.html){website}}
 
+parent: balanced-vs-unbalanced-binary-trees
 ---
 ## Content
 

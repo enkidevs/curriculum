@@ -9,6 +9,7 @@ type: normal
 
 category: must-know
 
+parent: the-graph-data-structure
 ---
 ## Content
 

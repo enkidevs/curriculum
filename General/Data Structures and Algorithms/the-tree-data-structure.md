@@ -13,6 +13,7 @@ links:
     - >-
          [Tree data structure](http://www.cs.cmu.edu/~clo/www/CMU/DataStructures/Lessons/lesson4_1.htm){website}
 
+parent: graph-adt
 ---
 ## Content
 

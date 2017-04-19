@@ -16,6 +16,7 @@ links:
     - >-
         [Binary Search Trees](http://algs4.cs.princeton.edu/32bst/){website}
 
+parent: post-order-traversal
 ---
 ## Content
 
