@@ -22,10 +22,10 @@ parent: approximation-methods
 ## Content
 
 **Binary search** is an efficient algorithm for finding data in *ordered* arrays or lists. Ordering is important because it allows us to split the search space in half after each comparison operation. The principle is simple:
- - look for the element in the middle of the current data structure
- - if the middle is bigger, repeat step 1 for the elements to the left
- - if the middle is smaller, repeat step 1 for the elements to the right
- - stop when the element is found or there are no items left to check
+ - Look for the element in the middle of the current data structure
+ - If the middle is bigger, repeat step 1 for the elements to the left
+ - If the middle is smaller, repeat step 1 for the elements to the right
+ - Stop when the element is found or there are no items left to check
 
 Say you have a database containing 200,000 users, sorted by their username. To retrieve the user object with the username `zephyr123`, you could iterate through approximately 200,000 users to find it. Or you could use *binary search*, and end up with around 18 computations.
 

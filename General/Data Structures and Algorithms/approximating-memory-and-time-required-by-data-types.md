@@ -27,7 +27,7 @@ In the *Array* insight, we talked about how *inserting* an element requires all 
 
 In contrast, inserting an element into a *LinkedList* requires changes to the nodes next to the new one only.
 
-The question comes to mind: "What data structure works best if the *main* operation I will perform is *insertion*?
+The question comes to mind: "What data structure works best if the *main* operation I will perform is *insertion*?"
 
 Intuitively, the answer would be *LinkedList*, which is also the correct one.
 
