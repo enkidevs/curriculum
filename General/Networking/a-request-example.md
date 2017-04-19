@@ -18,7 +18,10 @@ category: must-know
 links:
 
   - 'https://www.quora.com/What-does-an-HTTP-request-looks-like'
+
   - 'http://webaim.org/blog/user-agent-string-history/'
+
+parent: http-request
 
 ---
 ## Content

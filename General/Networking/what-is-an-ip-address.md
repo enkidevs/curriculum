@@ -13,6 +13,8 @@ links:
 
   - http://www.computerhope.com/jargon/i/ip.htm
 
+parent: network-models
+
 ---
 ## Content
 

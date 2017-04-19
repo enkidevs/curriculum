@@ -20,6 +20,8 @@ links:
   - 'https://www.w3.org/Protocols/rfc2616/rfc2616-sec6.html#sec6.2'
 
   - 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Status'
+
+parent: a-request-example
 ---
 ## Content
 

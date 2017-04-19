@@ -18,8 +18,12 @@ category: must-know
 links:
 
   - 'https://www.tutorialspoint.com/http/http_status_codes.htm'
+
   - 'https://msdn.microsoft.com/en-us/library/windows/desktop/aa383887'
+
   - 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Status'
+
+parent: what-is-an-url
 
 ---
 ## Content

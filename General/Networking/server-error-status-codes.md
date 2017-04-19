@@ -15,6 +15,8 @@ type: normal
 
 category: must-know
 
+parent: client-error-status-codes
+
 ---
 ## Content
 

@@ -15,6 +15,8 @@ links:
 
   - https://kb.ctera.com/article/how-to-open-a-telnet-session-on-windows-7-or-windows-8-os-16.html
 
+parent: what-are-tcp-and-udp
+
 ---
 ## Content
 

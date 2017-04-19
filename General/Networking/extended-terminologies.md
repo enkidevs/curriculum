@@ -15,6 +15,8 @@ links:
 
   - 'https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols'
 
+parent: application-layer
+
 ---
 ## Content
 

@@ -1,5 +1,5 @@
 # What is jitter?
-author: SebaRaba
+author: catalin
 
 levels:
 
@@ -18,6 +18,8 @@ category: must-know
 links:
 
   - 'http://www.cisco.com/c/en/us/support/docs/voice/voice-quality/18902-jitter-packet-voice.html'
+
+parent: what-is-packet-loss
 
 ---
 ## Content

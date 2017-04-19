@@ -13,6 +13,8 @@ links:
 
   - 'https://www.tutorialspoint.com/computer_fundamentals/computer_ports.htm'
 
+parent: what-is-an-ip-address
+
 ---
 ## Content
 

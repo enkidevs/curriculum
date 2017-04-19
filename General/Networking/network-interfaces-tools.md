@@ -1,5 +1,5 @@
 # Network Interfaces
-author: SebaRaba
+author: catalin
 
 levels:
 
@@ -21,7 +21,7 @@ links:
 
   - https://en.wikipedia.org/wiki/Network_interface
 
-
+parent: dns-lookup
 
 ---
 ## Content

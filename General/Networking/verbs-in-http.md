@@ -21,6 +21,8 @@ links:
 
   - 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods'
 
+parent: what-are-status-codes
+
 ---
 ## Content
 

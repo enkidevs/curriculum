@@ -15,6 +15,8 @@ type: normal
 
 category: must-know
 
+parent: successful-status-codes
+
 ---
 ## Content
 

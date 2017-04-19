@@ -18,7 +18,10 @@ category: must-know
 links:
 
   - 'https://docs.oracle.com/javase/tutorial/networking/urls/definition.html'
+
   - 'http://www.computerhope.com/jargon/u/url.htm'
+
+parent: what-is-http
 
 ---
 ## Content
@@ -40,7 +43,7 @@ protocol      host       path  query
 A **URL** is not specific to the `HTTP` protocol, but is a generic and standardised way of locating resources on a network.
 
 In fact, a **URL** is subtype of **URI** (Uniform Resource Identifier), but accompanied by a "access mechanism" or "network locator" (`http://`).
-While all **URL**s are **URI**s, not all **URI**s are **URL**s. 
+While all **URL**s are **URI**s, not all **URI**s are **URL**s.
 
 ---
 ## Footnotes
