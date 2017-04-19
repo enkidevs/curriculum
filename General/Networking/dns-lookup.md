@@ -13,7 +13,7 @@ levels:
 
 type: normal
 
-category: how-to
+category: how to
 
 links:
 
@@ -26,7 +26,7 @@ links:
 ---
 ## Content
 
-**DNS** (Domain Name System) is used to map common domain names such as: `www.enki.com` to IP addresses. 
+**DNS** (Domain Name System) is used to map common domain names such as: `www.enki.com` to IP addresses.
 
 This is most often desired as human-readable domain names are much more memorable than **IP addresses** - be them static or dynamic.
 

@@ -13,7 +13,7 @@ levels:
 
 type: normal
 
-category: how-to
+category: how to
 
 links:
 
@@ -28,7 +28,7 @@ links:
 
 The `ifconfig` command is available on **Linux** and **OS X**. It enables users to configure and view information about network interfaces via the command line.
 
-The **network interface** is an interconnection point between a computer and a private/public network. 
+The **network interface** is an interconnection point between a computer and a private/public network.
 
 Keep in mind that interfaces don't have to be in physical form (e.g. ethernet interface), but can also be a simulating piece of software.
 
