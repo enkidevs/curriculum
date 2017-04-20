@@ -18,8 +18,7 @@ links:
 
 A **data structure** is a particular pattern for organizing information in order to make interacting with that information in the ways we want less expensive.
 
-
-If this is unclear, let's fall back to an example: *clothes in an wardrobe*. Usually, there are two types of people:
+If this is unclear, let's fall back to an example: *clothes in a wardrobe*. Usually, there are two types of people:
 -  Those who fold their clothes and **take their time** arranging them into the wardrobe, making it much **easier to pick** one of those.
 -  Those who **throw their clothes** into a pile and **deal with finding** a specific piece of clothing when they need it.
 
