@@ -101,7 +101,9 @@ The recursion goes as deep as possible, then computes the latest added operation
 %
 ---
 ```
-Store the first n numbers in the Fibonacci sequence.
+Store the first n numbers in the Fibonacci
+
+sequence.
 ```
 
 * Array
