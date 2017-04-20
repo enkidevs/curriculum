@@ -23,7 +23,7 @@ Are the following functions' upper bound (Big-Oh) true?
 false:true
 
 ```true
-10^15 * n	=	O(n)
+10^15 * n = O(n)
 %exp
 `10^15` is a constant. There is `10^15 + 1` which is greater than that and can act as the constant after which `O(n)` is also greater.
 %
