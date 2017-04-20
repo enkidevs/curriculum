@@ -67,7 +67,7 @@ n^2 = O(n log n)
 %exp
 `n^2` is greater than `n log n`, so the Big-O cannot be its upper bound.
 %
-n^2 =	O(n)
+n^2 = O(n)
 %exp
 `n^2 > c*n` for any constant `c`.
 %
