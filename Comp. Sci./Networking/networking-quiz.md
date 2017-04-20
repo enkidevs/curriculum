@@ -20,7 +20,8 @@ Brush up on the fundamentals of computer networking with this quick quiz.
 ## Game Content
 
 ```
-How are devices within a computer network that send, route or receive data called?
+How are devices within a computer network
+that send, route or receive data called?
 ```
 * Nodes
 * Gateways
@@ -30,12 +31,13 @@ The term used for devices making use of a network is `node`.
 
 A `gateway` is a specialized node used to join two dissimilar networks.
 
-A `modem` is a type of hardware device that converts between analog and digital data in real time for two-way network communication. 
+A `modem` is a type of hardware device that converts between analog and digital data in real time for two-way network communication.
 %
 
 ---
 ```
-The first step of data transmission is breaking down the data into
+The first step of data transmission is
+breaking down the data into
 ???
 ```
 * packets
@@ -50,7 +52,8 @@ Data transmission consists of:
 
 ---
 ```
-A packet is made out of header and ???
+A packet is made out of header and
+???
 ```
 * payload
 * body
@@ -76,7 +79,8 @@ A network protocol defines rules and conventions for communication between netwo
 
 ---
 ```
-Which of the following protocols is used to uniquely identify nodes on a network?
+Which of the following protocols is used
+to uniquely identify nodes on a network?
 ```
 * IP
 * FTP
@@ -90,7 +94,8 @@ The **Internet Protocol** (`IP`) enables interconnectivity in a network by uniqu
 
 ---
 ```
-Which of the following stands for wireless local area network?
+Which of the following stands for wireless
+local area network?
 ```
 * WLAN
 * WAN
@@ -130,7 +135,8 @@ The `OSI` (Open System Interconnect) model is a conceptual framework that breaks
 %
 ---
 ```
-Which of the following OSI model layers handles authentication and authorization?
+Which of the following OSI model layers
+handles authentication and authorization?
 ```
 * Session
 * Transport
@@ -141,7 +147,8 @@ While the `Session` layer handles authentication and authorization, `Transport` 
 
 ---
 ```
-The topmost layer of the TCP/IP Internet model is called:
+The topmost layer of the TCP/IP Internet
+model is called:
 ???
 ```
 * Application
