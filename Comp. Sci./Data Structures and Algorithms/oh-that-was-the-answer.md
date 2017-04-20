@@ -63,7 +63,7 @@ The linear function `n` is greater than the constant `6`.
 
 
 ```false
-n^2 =	O(n	log	n)
+n^2 = O(n log n)
 %exp
 `n^2` is greater than `n log n`, so the Big-O cannot be its upper bound.
 %
