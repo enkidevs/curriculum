@@ -21,6 +21,7 @@ Brush up on the fundamentals of computer networking with this quick quiz.
 
 ```
 How are devices within a computer network
+
 that send, route or receive data called?
 ```
 * Nodes
@@ -37,6 +38,7 @@ A `modem` is a type of hardware device that converts between analog and digital 
 ---
 ```
 The first step of data transmission is
+
 breaking down the data into
 ???
 ```
@@ -53,6 +55,7 @@ Data transmission consists of:
 ---
 ```
 A packet is made out of header and
+
 ???
 ```
 * payload
@@ -67,7 +70,7 @@ A `packet` is made out of:
 
 ---
 ```
-Protocols can be taught of as
+Protocols can be taught of as:
 ???
 ```
 * communication rules
@@ -80,6 +83,7 @@ A network protocol defines rules and conventions for communication between netwo
 ---
 ```
 Which of the following protocols is used
+
 to uniquely identify nodes on a network?
 ```
 * IP
@@ -95,6 +99,7 @@ The **Internet Protocol** (`IP`) enables interconnectivity in a network by uniqu
 ---
 ```
 Which of the following stands for wireless
+
 local area network?
 ```
 * WLAN
@@ -136,6 +141,7 @@ The `OSI` (Open System Interconnect) model is a conceptual framework that breaks
 ---
 ```
 Which of the following OSI model layers
+
 handles authentication and authorization?
 ```
 * Session
@@ -148,6 +154,7 @@ While the `Session` layer handles authentication and authorization, `Transport` 
 ---
 ```
 The topmost layer of the TCP/IP Internet
+
 model is called:
 ???
 ```
