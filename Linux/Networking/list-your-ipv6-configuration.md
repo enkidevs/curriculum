@@ -34,11 +34,28 @@ $ ifconfig eth0 |grep "inet6"
 ```
 
 ---
+## Practice
+
+List **IPv6** configuration via `ifconfig`:
+```
+$ ??? <interface> |
+    ??? ???
+```
+
+* `ifconfig`
+* `grep`
+* `"inet6"`
+* `ip`
+* `ip-config`
+* `ipv6`
+* `"ipv6"`
+
+---
 ## Revision
 
 Check the IPv6 configuration of an interface using `ip` command:
 ```
-$ ip  ??? ??? 
+$ ip  ??? ???
      show ??? ???
 ```
 *`-6`
