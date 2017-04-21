@@ -49,8 +49,9 @@ After that we issue this command on our IRC client:
 
 The usual syntax to use a SSH tunnel is:
 ```
-$ ??? ???
-    ??? ???
+$ ??? ??? \
+    ??? \
+    ???
 ```
 * `ssh`
 * `-L`
@@ -64,8 +65,9 @@ $ ??? ???
 
 Complete the following code snippet such that a connection to a specific server is made through `ssh`:
 ```
-$ ??? ??? yourport:host:hostport \
-    username@ssh_server
+$ ??? ??? \
+  yourport:host:hostport \
+  username@ssh_server
 ```
 * `ssh`
 * `-L`
