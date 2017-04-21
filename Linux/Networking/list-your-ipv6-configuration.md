@@ -38,7 +38,8 @@ $ ifconfig eth0 |grep "inet6"
 
 List **IPv6** configuration via `ifconfig`:
 ```
-$ ??? <interface> | ??? ???
+$ ??? <interface> |
+    ??? ???
 ```
 
 * `ifconfig`
