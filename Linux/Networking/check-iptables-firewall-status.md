@@ -61,7 +61,6 @@ Chain OUTPUT
 There is a single INPUT rule active that would drop all packets coming from `192.64.174.69`.
 
 ---
-
 ## Practice
 
 Which of the following flags, when used together with `iptables` command will disable **DNS resolution**:
