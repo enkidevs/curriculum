@@ -24,51 +24,87 @@ Can you guess which commands fits best the description or scenario given?
 ## Game Content
 
 ```
-Which command can update a user's 
+Which command can update a user's
 authentication token?
 ```
-*passwd
-*password
-*auth-token
-*ps
+
+* passwd
+* password
+* auth-token
+* ps
+
+%exp
+`passwd`  is the utility used for updating
+authentication tokens. The password entered
+by the user is run through a key derivation
+function such that a hashed version of the
+new password created and saved.
+%
 ---
+
 ```
 Which utlity is an interface
-used for securely gaining access 
-to a remote computer and is used by 
-network admins to control servers 
+used for securely gaining access
+to a remote computer and is used by
+network admins to control servers
 remotely?
 ```
-*ssh
-*putty
-*netstat
+
+* ssh
+* putty
+* netstat
+
+%exp
+`SSH`, also known as Secure Socket Shell, is a Linux utility which encrypts the
+data communication between two hosts on an insecure network.
+%
+
 ---
 ```
 Which command is used to configure
 kernel-resident network interfaces?
 ```
-*ifconfig
-*ipconfig
-*tracepath
+* ifconfig
+* ipconfig
+* tracepath
+
+%exp
+`ifconfig` stands for interface configuration. It allows users to see and change
+local network configurations.
+%
+
 ---
 ```
 What do you use to search files
-for a given string or pattern? 
+for a given string or pattern?
 You can also replace strings
-with it. 
+with it.
 ```
-*grep
-*gawk
-*cat
+* grep
+* gawk
+* cat
+
+%exp
+By default,  grep prints lines matching a regular expression. This utility
+requires specific parameters, first the string tobe searched and the file
+to search in afterwards.
+%
+
 ---
 ```
 What to use in order to copy
 files, directories and even
 make links to files?
 ```
-*cp
-*copy
-*cpio
+* cp
+* copy
+* cpio
+
+%exp
+`cp` provides users with the capability to copy files and directories. It has
+the following syntax: `cp file_name new_file_name`.
+%
+
 ---
 ```
 This command is used to change
@@ -76,43 +112,75 @@ permissions on one or several files.
 In addition, it can also alter
 special mode flags.
 ```
-*chmod
-*perm
-*acc
+* chmod
+* perm
+* acc
+
+%exp
+`chmod`  stands for "change mode", and it is used to define the way a file can
+be accessed. The file permission could either be Read, Write or Execute for each
+on of Owner, Group or Others.
+%
+
 ---
 ```
 What should be used to change
-the system's date and time? 
-This one also proves useful when 
+the system's date and time?
+This one also proves useful when
 working with script files to output
 such information.
 ```
-*date
-*datetime
-*tzdata
+* date
+* datetime
+* tzdata
+
+%exp
+`date` command is used to change the system's date and time. It has a readable
+format by default. There is the possibilty to change the format as well using
+`date -FORMAT`.
+%
+
 ---
 ```
 What command will show you the
 free space you have on the
 mounted file systems?
 ```
-*df
-*declare
-*disk
+* df
+* declare
+* disk
+
+%exp
+In linux we `df` command provides the user with the available space on the mounted
+system file, if no arguments are given. If no file name is given, the space available
+on all currently mounted file system is shown.
+%
+
 ---
 ```
 What can be used to search the
-directory tree for files 
+directory tree for files
 meeting given condition?
 ```
-*find
-*ls
-*cd
+* find
+* ls
+* cd
+
+%exp
+`find` command searches for files meeting a given condition.
+%
+
 ---
 ```
 What command can shutdown,
 reboot or halt you machine?
 ```
-*shutdown
-*sd
-*boot
+* shutdown
+* sd
+* boot
+
+%exp
+The `shutdown` command brings system down in a secure way. It notifies all users that
+the system is going to be shut down and no other logins will be possible. It is possible
+to shut down the system immediately or after a certain delay. 
+%
