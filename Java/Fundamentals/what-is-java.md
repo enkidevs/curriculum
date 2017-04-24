@@ -20,7 +20,7 @@ One of the particularities of the language that makes it so widely used is that 
 
 Java classes are compiled to `bytecode`, which any Java Virtual Machine (*JVM*) can understand.
 
-The most recent major Java release is *Java SE 9*, or simply `Java 9`.
+The most recent major Java release is *Java SE 8*, or simply `Java 8`.
 
 In short, Java is trying to be an object-oriented, secure, portable, threaded and dynamic language. We will discuss all these terms in future insights.
 
@@ -33,9 +33,9 @@ What's the latest version of **Java**?
 
 ???
 
-* Java 9
-* Java 10
 * Java 8
+* Java 10
+* Java 9
 * Java 6
 * Java 7
 * Java 5
