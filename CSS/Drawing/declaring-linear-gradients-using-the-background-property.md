@@ -72,4 +72,4 @@ span.gradient {
 * Transitions the gradient from red to white, starting from right to left.
 * Transitions the gradient from red to white, starting from left to right.
 * Transitions the gradient from white to red, starting from right to left.
-* Transitions the gradient from red to white, starting from left to right.
+* Transitions the gradient from white to red, starting from left to right.
