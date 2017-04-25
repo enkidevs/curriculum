@@ -19,9 +19,9 @@ links:
 ---
 ## Content
 
-After installation, you might want to customise different variables/information in your **Git** environment. 
+After installation, you might want to customize different variables/information in your **Git** environment.
 
-For example, you can change your *username* and *email* address so that work you perform in **Git** shows your identity. 
+For example, you can change your *username* and *email* address so that work you perform in **Git** shows your identity.
 
 To help you, **Git** provides the `git config` tool, making it easier to change configuration variables that affect how Git works or looks.
 
@@ -59,7 +59,7 @@ On *Windows* machines, the path to the executable must be included.
 ---
 ## Practice
 
-Complete the command to change your username for **all** projects:
+Complete the command to change your username for all projects:
 ```
 $ git ??? ??? \
   user.??? "My Name"
@@ -78,7 +78,7 @@ $ git ??? ??? \
 ---
 ## Revision
 
-What **Git** command is used to change various configuration options?
+What Git command is used to change various configuration options?
 
 ???
 
