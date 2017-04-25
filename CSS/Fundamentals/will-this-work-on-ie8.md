@@ -31,7 +31,7 @@ position:fixed;
 %
 display: inline-block;
 %exp
-This property generates inline elements that can have width and height. It has been introduced to IE since version 8.
+This property generates inline elements that can have width and height. It was introduced in IE8.
 %
 display:table;
 %exp
