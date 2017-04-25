@@ -167,9 +167,9 @@ meeting given condition?
 * cd
 
 %exp
-`find` command searches for files meeting a given condition.
 When invoked, `ls` lists all files int the current working directory.
-`cd` command is used to change the current working directory. 
+`cd` command is used to change the current working directory.
+`find` command searches for files meeting a given condition.
 %
 
 ---
