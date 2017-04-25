@@ -53,7 +53,7 @@ What *type* of VCS **only** makes use of a local database to keep changes of fil
 ---
 ## Revision
 
-What does **CVS** stand for?
+What does **CVCS** stand for?
 
 ???
  
@@ -66,11 +66,11 @@ What does **CVS** stand for?
 ## Footnotes
 
 [1:applicability]
-Keep in mind that **Version Control** software is not limited to text files and implicitly source code, but also to different kind of files such as images, making it useful to other than software developers.
+Keep in mind that **Version Control** software is not limited to text files and implicitly source code, but also to different kind of files such as images, making it useful not only for software developers.
 [2:DVCS]
 DVCS was developed as a response to a vulnerability implied by both local or centralized version control systems.
 
- Both previous types have a common point of failure - a local database can get corrupted or a centralized server can go down. In these cases work will be lost except for various local portions.
+Both previous types have a common point of failure - a local database can get corrupted or a centralized server can go down. In these cases work will be lost except for various local portions.
 
 [3:repository]
 The project files and history in DVCSs is the code **repository**.

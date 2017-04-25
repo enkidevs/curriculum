@@ -27,7 +27,7 @@ These include:
 ```CSS
 // turning a number into a percentage
 percentage(0.74) => 74%
-percentage(100px / 80px) => 120%
+percentage(100px / 80px) => 125%
 
 // returning a numbers absolute value
 abs(12px) => 12px
