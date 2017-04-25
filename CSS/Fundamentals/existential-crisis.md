@@ -26,124 +26,224 @@ Categorize the falling properties based on whether or not they are existing, leg
 it doesn't exist:it's real
 ```true
 background-attachment
-```
-```true
+%exp
+This property specifies how to move the background relative to the viewport.
+%
+
 background-repeat
-```
-```true
+%exp
+This property specifies how(and if) the background will repeat.
+%
+
 border-collapse
-```
-```true
+%exp
+This property is for use on  table elements. You can set the borders of the cells to
+be either separate or collapsed. Each cell will have it’s own border(if separate) or
+they could share borders with the cells around them(if collapsed).
+%
+
 border-spacing
-```
-```true
+%exp
+The border-spacing value is also used along the outside edge of the table, where the
+distance between the table's border and the cells in the first/last column or row is
+the sum of the relevant (horizontal or vertical) border-spacing and the relevant
+(top, right, bottom, or left) padding on the table.
+%
+
 bottom
-```
-```true
+%exp
+The bottom property in CSS goes hand in hand with positioning. By default, elements are
+static positioned in which the top property has no effect whatsoever. But when the positioning
+of an element is relative, absolute, or fixed, the bottom value plays a big role.
+%
+
 caption-side
-```
-```true
+%exp
+It allows you to define where HTML’s caption  element will be positioned.
+%
+
 clip
-```
-```true
+%exp
+clips is used on background and it lets you control how far a background image or
+colour extends beyond element’s padding.
+%
+
 counter-increment
-```
-```true
+%exp
+The counter-increment property increments one or more counter values.
+%
+
 cursor
-```
-```true
+%exp
+The cursor property in CSS controls what the mouse cursor will look like when it
+is located over the element in which this property is set.
+%
+
 direction
-```
-```true
+%exp
+This property stets the direction of content flow within a `block-level` element.
+%
+
 empty-cells
-```
-```true
+%exp
+Selects empty table cells for the purpose of specifying whether or not to display
+borders and backgrounds on them.
+%
+
 font-family
-```
-```true
+%exp
+The `font-family` property defines the font that is applied to the selected element.
+%
+
 letter-spacing
-```
-```true
+%exp
+The `letter-spacing` CSS property specifies spacing behavior between text characters.
+%
+
 list-style-image
-```
-```true
+%exp
+Determines weather the list maker is set with an image.
+%
+
 margin
-```
-```true
+%exp
+Defines the outermost portion of the box model, creating space around an element, outside
+the borders.
+%
+
 max-width
-```
-```true
+%exp
+This allows you to set the max with of the element.
+%
+
 orphans
-```
-```true
+%exp
+Controls the minimum lines of a paragraph allowed to be left on the old page.
+%
+
 outline-style
-```
-```true
+%exp
+Draws a line outside the element. It is similar to border except it can’t be set to cover less
+then all sides of the element. And it won’t affect the position of the element.
+%
+
 overflow
-```
-```true
+%exp
+The `overflow` property controls what happens to content that breaks outside of its bounds.
+%
+
 page-break-after
-```
-```true
+%exp
+The `page-break-after` property adds a page-break after the element to which it is applied.
+%
+
 position
-```
-```true
+%exp
+Allows the user to set an element's position.
+%
+
 table-layout
-```
-```true
+%exp
+Sets element layout to be displayed as a table.
+%
+
 text-decoration
-```
-```true
+%exp
+The text-decoration property adds an underline, overline, line-through, or a combination of lines to selected text.
+%
+
 text-transform
-```
-```true
+%exp
+The text-transform property in CSS controls text case and capitalization.
+%
+
 unicode-bidi
-```
-```true
+%exp
+The unicode-bidi property handles the rendering of bi-directional text in HTML and similar markup-based languages.
+%
+
 vertical-align
-```
-```true
+%exp
+The `vertical-align` property specifies the vertical alignment of a inline or table-cell box.
+%
+
 visibility
-```
-```true
+%exp
+It is used to hide the rows or columns of a table or to hide a element without changing the layout.
+%
+
 white-space
-```
-```true
+%exp
+Defines a white space.
+%
+
 widows
-```
-```true
+%exp
+The `widows` property specifies exectly how many lines of a paragraph can fall on a new page.
+%
+
 z-index
+%exp
+The z-index property in CSS controls the vertical stacking order of elements that overlap.
+As in, which one appears as if it is physically closer to you.
+%
+
 ```
+
 ```false
 font-face
-```
-```false
+%exp
+There is a property called `@font-face`, but here we miss a @ to have that.
+This is not a property in CSS.
+%
+
 outline-colour
-```
-```false
+%exp
+Here we face a typo. The right spelling for this to be a property would be `outline-color`.
+%
+
 mid
-```
-```false
+%exp
+There is no property in CSS such is mid.
+%
+
 clear-all
-```
-```false
+%exp
+The property that can be found in CSS is `cler`, clear-all is not a CSS property.
+%
+
 content-border
-```
-```false
+%exp
+CSS has no property called `content-border`.
+%
+
 background-align
-```
-```false
+%exp
+The CSS property is `background-position` not `background-align`.
+%
+
 spacing
-```
-```false
+%exp
+There is a property called `border-spacing`, but `spacing` doesn't mean anything in CSS.
+%
+
 list-style-color
-```
-```false
+%exp
+There is no `list-style-color` property defined in CSS.
+%
+
 outline-weight
-```
-```false
+%exp
+`outline-width` is a real property in CSS, but `outline-weight` wouldn't work.
+%
+
 page-break-outside
-```
-```false
+%exp
+This is not a CSS property, something similar to it exists though. It is `page-break-inside`.
+%
+
 text-transformation
+%exp
+This is not a CSS property.
+%
 ```
