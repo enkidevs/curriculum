@@ -38,7 +38,7 @@ authentication token?
 authentication tokens. The password entered
 by the user is run through a key derivation
 function such that a hashed version of the
-new password created and saved.
+new password is created and saved.
 %
 ---
 
@@ -85,9 +85,9 @@ with it.
 * cat
 
 %exp
-By default,  grep prints lines matching a regular expression. This utility
-requires specific parameters, first the string tobe searched and the file
-to search in afterwards.
+By default, `grep` prints line containing words matching a regular expression.
+Parsing a file requires two parameters: the string(or regex)  to be searched
+and the file path.
 %
 
 ---
@@ -117,9 +117,9 @@ special mode flags.
 * acc
 
 %exp
-`chmod`  stands for "change mode", and it is used to define the way a file can
-be accessed. The file permission could either be Read, Write or Execute for each
-on of Owner, Group or Others.
+`chmod`  stands for "change mode" and it defines the way in which a file can
+be accessed. It can restrict or allow actions such as reading, writing or execution
+of a file or directory, for the owner, the owner's group or others.
 %
 
 ---
@@ -151,9 +151,9 @@ mounted file systems?
 * disk
 
 %exp
-In linux we `df` command provides the user with the available space on the mounted
+On linux, `df` command shows the available space on the mounted
 system file, if no arguments are given. If no file name is given, the space available
-on all currently mounted file system is shown.
+on all currently mounted `file system` is shown.
 %
 
 ---
@@ -168,6 +168,8 @@ meeting given condition?
 
 %exp
 `find` command searches for files meeting a given condition.
+When invoked, `ls` lists all files int the current working directory.
+`cd` command is used to change the current working directory. 
 %
 
 ---
@@ -182,5 +184,5 @@ reboot or halt you machine?
 %exp
 The `shutdown` command brings system down in a secure way. It notifies all users that
 the system is going to be shut down and no other logins will be possible. It is possible
-to shut down the system immediately or after a certain delay. 
+to shut down the system immediately or after a certain delay.
 %
