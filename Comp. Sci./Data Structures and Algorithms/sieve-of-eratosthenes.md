@@ -63,7 +63,7 @@ When implementing the algorithm, you can reduce the memory used to store the val
 ---
 ## Practice
 
-What is the algorithm's size complexity when it is used with an array?
+What is the algorithm's memory complexity when it is used with an array?
 
 ???
 
