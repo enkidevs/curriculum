@@ -32,14 +32,13 @@ This property specifies how to move the background relative to the viewport.
 
 background-repeat
 %exp
-This property specifies how(and if) the background will repeat.
+This property specifies how (and if) the background will repeat.
 %
 
 border-collapse
 %exp
-This property is for use on  table elements. You can set the borders of the cells to
-be either separate or collapsed. Each cell will have it’s own border(if separate) or
-they could share borders with the cells around them(if collapsed).
+This property is to be use on  table elements. You can set the borders of the cells to
+be either separated or collapsed.
 %
 
 border-spacing
@@ -64,8 +63,8 @@ It allows you to define where HTML’s caption  element will be positioned.
 
 clip
 %exp
-clips is used on background and it lets you control how far a background image or
-colour extends beyond element’s padding.
+clip is used on background and it allows you control how far a background image or
+colour extends beyond the element’s padding.
 %
 
 counter-increment
@@ -76,7 +75,7 @@ The counter-increment property increments one or more counter values.
 cursor
 %exp
 The cursor property in CSS controls what the mouse cursor will look like when it
-is located over the element in which this property is set.
+is located over the element for which this property is set.
 %
 
 direction
@@ -97,12 +96,12 @@ The `font-family` property defines the font that is applied to the selected elem
 
 letter-spacing
 %exp
-The `letter-spacing` CSS property specifies spacing behavior between text characters.
+The `letter-spacing` CSS property specifies the spacing between text characters.
 %
 
 list-style-image
 %exp
-Determines weather the list maker is set with an image.
+It allows images to be imported and used as list items' markers.
 %
 
 margin
@@ -113,28 +112,28 @@ the borders.
 
 max-width
 %exp
-This allows you to set the max with of the element.
+This allows you to set the max width to which an element can grow.
 %
 
 orphans
 %exp
-Controls the minimum lines of a paragraph allowed to be left on the old page.
+When printing a page, `orpahns` property controls the minimum number of lines of a paragraph allowed to be left on the old page, while the rest of the text is printed on a new page.
 %
 
 outline-style
 %exp
 Draws a line outside the element. It is similar to border except it can’t be set to cover less
-then all sides of the element. And it won’t affect the position of the element.
+then all sides of the element. It won’t affect the position of the element.
 %
 
 overflow
 %exp
-The `overflow` property controls what happens to content that breaks outside of its bounds.
+The `overflow` property controls what happens to the content that breaks outside of its bounds.
 %
 
 page-break-after
 %exp
-The `page-break-after` property adds a page-break after the element to which it is applied.
+When printing a page, the `page-break-after` property adds a page-break after the element to which it is applied.
 %
 
 position
@@ -144,48 +143,47 @@ Allows the user to set an element's position.
 
 table-layout
 %exp
-Sets element layout to be displayed as a table.
+The property displays the element's layout as a table.
 %
 
 text-decoration
 %exp
-The text-decoration property adds an underline, overline, line-through, or a combination of lines to selected text.
+The `text-decoration` property adds an underline, overline, line-through, or a combination of lines to the selected text.
 %
 
 text-transform
 %exp
-The text-transform property in CSS controls text case and capitalization.
+The `text-transform` property in CSS controls text case and capitalization.
 %
 
 unicode-bidi
 %exp
-The unicode-bidi property handles the rendering of bi-directional text in HTML and similar markup-based languages.
+The `unicode-bidi` property handles the rendering of bi-directional text in HTML and similar markup-based languages.
 %
 
 vertical-align
 %exp
-The `vertical-align` property specifies the vertical alignment of a inline or table-cell box.
+The `vertical-align` property specifies the vertical alignment of an inline or table-cell box.
 %
 
 visibility
 %exp
-It is used to hide the rows or columns of a table or to hide a element without changing the layout.
+It is used to hide the rows or columns of a table or to hide a element without changing its layout.
 %
 
 white-space
 %exp
-Defines a white space.
+Specifies how what space inside an element is handled.
 %
 
 widows
 %exp
-The `widows` property specifies exectly how many lines of a paragraph can fall on a new page.
+In the paged media, in the event of a paragraph splitting on two pages, the `widows` property controls the number of lines to be printed on the next page.
 %
 
 z-index
 %exp
-The z-index property in CSS controls the vertical stacking order of elements that overlap.
-As in, which one appears as if it is physically closer to you.
+The z-index property in CSS controls the vertical stacking order of elements that overlap,as in which one should appear closer to the user.
 %
 
 ```
@@ -193,8 +191,7 @@ As in, which one appears as if it is physically closer to you.
 ```false
 font-face
 %exp
-There is a property called `@font-face`, but here we miss a @ to have that.
-This is not a property in CSS.
+There is a property called `@font-face`, but here the @ is missing so it is not a CSS property.
 %
 
 outline-colour
@@ -203,13 +200,12 @@ Here we face a typo. The right spelling for this to be a property would be `outl
 %
 
 mid
-%exp
-There is no property in CSS such is mid.
+`mid` is not a CSS property.
 %
 
 clear-all
 %exp
-The property that can be found in CSS is `cler`, clear-all is not a CSS property.
+The closest property is `clear`, but there is no property `clear-all`.
 %
 
 content-border
@@ -219,7 +215,7 @@ CSS has no property called `content-border`.
 
 background-align
 %exp
-The CSS property is `background-position` not `background-align`.
+The CSS property is `background-position`, not `background-align`.
 %
 
 spacing
@@ -234,12 +230,12 @@ There is no `list-style-color` property defined in CSS.
 
 outline-weight
 %exp
-`outline-width` is a real property in CSS, but `outline-weight` wouldn't work.
+`outline-width` is a property in CSS, but `outline-weight` wouldn't work.
 %
 
 page-break-outside
 %exp
-This is not a CSS property, something similar to it exists though. It is `page-break-inside`.
+This is not a CSS property, something similar to it exists though: `page-break-inside`.
 %
 
 text-transformation
