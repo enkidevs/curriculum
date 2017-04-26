@@ -23,7 +23,7 @@ parent: node-height-and-depth
 ---
 ## Content
 
-One of the main reasons of having multiple data structures is specialization. In the case of an *Array*, *inserting* an element requires all the elements to the right of the new one to be moved (**shifted**) one position.
+One of the main reasons of having multiple data structures is specialization. In the case of an *Array*, inserting an element requires all the elements to the right of the new one to be moved (**shifted**) one position.
 
 In contrast, inserting an element into a *LinkedList* requires changes to the nodes next to the new one only.
 
