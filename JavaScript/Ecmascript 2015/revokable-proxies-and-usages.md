@@ -44,6 +44,8 @@ p.a;
 // on a proxy that has been revoked
 ```
 
+Revokable proxies could for example be used if an error was to occur more than once during a properites access to deny access entirely.
+
 **Potential Usages**
 
 Proxies have a number of potential usages and we will probably see library and framework authors coming up with some exciting usages.

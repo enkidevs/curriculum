@@ -37,7 +37,7 @@ This is better than just defining a const string as there would be nothing to st
 ```
 const highDiscountLevel ="high";
 
-//uh oh 2 const's 
+//uh oh 2 consts 
 //representing same thing
 const anotherDiscountLevel="high";
 ```

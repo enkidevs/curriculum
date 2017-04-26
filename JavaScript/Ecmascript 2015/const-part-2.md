@@ -23,6 +23,8 @@ x = 5;
 console.log(y); //still 1
 ```
 
+Additionally note that modifying a property of an object referenced by a constant will not throw an error and the property will be changed.
+
 **const and objects**
 
 Objects can also be declared as constants.
