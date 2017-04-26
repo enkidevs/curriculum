@@ -78,7 +78,7 @@ $ git ??? ??? \
 ---
 ## Revision
 
-What Git command is used to change various configuration options?
+What `Git` command is used to change various configuration options?
 
 ???
 

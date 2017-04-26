@@ -30,7 +30,20 @@ For the whole repository:
 ```
 $ git reset --patch
 ```
-You then decide what you want to do with each *hunk* by selecting one of the options.
+You then decide what you want to do with each *hunk* (couple of lines of changed code) by selecting one of the options:
+```
+diff --git a/README b/README
+index 8b73642..3a0923c 100644
+@@ -12,13 +12,14
+-Project description
++Process description
+
+-This is the project description.
++This is the process description.
++Here are some pictures.
+Unstage this hunk[y,n,q,a,d,/,K,j,J,g,e,?]?
+```
+The hunk above contained the first 2 line changes in the *README* file. You will be presented with a new *hunk* until you have gone through all the changes.
 
 ---
 ## Practice
