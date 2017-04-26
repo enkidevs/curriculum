@@ -41,5 +41,3 @@ Symbol.keyFor(Symbol.iterator);
 ```
 
 Symbols can also implement a kind of limited (they are still accessible via other means) privacy – let's discuss this next.
-
----
