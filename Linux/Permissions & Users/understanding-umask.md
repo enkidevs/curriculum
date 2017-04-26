@@ -71,7 +71,7 @@ $ umask u=rwx,g=,o=
 # = enables specified,disables the others
 
 $ umask
-0077
+0700
 ```
 
 To apply this for all the users of the system you should add this in `/etc/profile` file or their specific `~/.bashrc` file.
