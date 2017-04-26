@@ -12,13 +12,14 @@ category: must-know
 ---
 ## Content
 
-Find the right Git-erminology that names the followings.
+Think you know the right git terminology used for the following concepts?
 
 ---
 ## Game Content
 
 ```
-Each team member has a copy containing the full history of the project.
+Each team member has a copy containing the
+full history of the project.
 ```
 * Distributed Version Control
 * Centralized Version Control
@@ -28,7 +29,9 @@ Centralized Version Control refers to a single, complete copy of the repository 
 %
 ---
 ```
-A single server keeps all the versions of the files, but users can checkout only the latest version.
+A single server keeps all the versions of
+the files, but users can checkout only
+the latest version.
 ```
 * Centralized Version Control
 * Distributed Version Control
@@ -38,25 +41,27 @@ Users of Distributed Version Control can access the whole history of the project
 %
 ---
 ```
-The most widely used Distributed Version Control System.
+The most widely used Distributed Version
+Control System.
 ```
-* Git
+* git
 * SVN
 * GitHub
 
 %exp
-Google Trends places Git as the VCS with the most searches, accounting for 70% look-ups for the top 5 most-searched VCSs.
+Google Trends places git as the VCS with the most searches, accounting for 70% look-ups for the top 5 most-searched VCSs.
 %
 ---
 ```
-The Git folder containing the changes history.
+The git folder containing the changes
+history.
 ```
 * Repository
 * Main
 * Src
 
 %exp
-The official name for a folder containing the Git-specific files is `repository`.
+The official name for a folder containing the git-specific files is `repository`.
 %
 ---
 ```
@@ -78,29 +83,29 @@ A tracked file, ready to be committed.
 * Checkout file
 
 %exp
-In order for a file to be `committed`, it has to be watched by Git (`tracked`) and the changes to the file to be acknowledged (`staged`).
+In order for a file to be `committed`, it has to be watched by git (`tracked`) and the changes to the file to be acknowledged (`staged`).
 %
 ---
 ```
-A file that Git knows it is there.
+A file that git knows it is there.
 ```
 * Tracked file
 * Committed file
 * Staged file
 
 %exp
-A file for which Git calculates content differences is called a `tracked` file.
+A file for which git calculates content differences is called a `tracked` file.
 %
 ---
 ```
-A file Git doesn't know anything about.
+A file git doesn't know anything about.
 ```
 * Untracked file
 * Tracked file
 * Committed file
 
 %exp
-A new file in the local repository which is yet to be watched by Git is called an `untracked` file.
+A new file in the local repository which is yet to be watched by git is called an `untracked` file.
 %
 ---
 ```
@@ -122,5 +127,5 @@ A copy of the repository as a whole.
 * Commit
 
 %exp
-The action of downloading the code from a Git repository is called `cloning`.
+The action of downloading the code from a git repository is called `cloning`.
 %
