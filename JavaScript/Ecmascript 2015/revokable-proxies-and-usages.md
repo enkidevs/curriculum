@@ -44,6 +44,8 @@ p.a;
 // on a proxy that has been revoked
 ```
 
+One use of a revokable proxy would be to deny access if via a property access an error occurred a set number of times.
+
 **Potential Usages**
 
 Proxies have a number of potential usages and we will probably see library and framework authors coming up with some exciting usages.
@@ -56,5 +58,3 @@ Some potential usages:
 * Validation & logging
 * Extending constructors
 * As a shim/fallback for older browsers
-
----

@@ -51,7 +51,7 @@ Which one of the following is **not** a primitive type:
 
 ???
 
-*symbol
-*Array
-*Date
 *RegExp
+*Symbol
+*String
+*Number
