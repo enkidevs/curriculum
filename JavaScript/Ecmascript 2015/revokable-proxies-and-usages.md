@@ -44,7 +44,7 @@ p.a;
 // on a proxy that has been revoked
 ```
 
-Revokable proxies could for example be used if an error was to occur more than once during a properites access to deny access entirely.
+One use of a revokable proxy would be to deny access if via a property access an error occurred a set number of times.
 
 **Potential Usages**
 
