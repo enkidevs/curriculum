@@ -23,7 +23,7 @@ If the path starts and ends with the same vertex, having more than one edge, it 
 
 A *path* is **simple** if it contains each edge and vertex at most *once*. If a *simple path* ends with the vertex it started, it becomes a **simple cycle**. This is the case for both directed and undirected graphs.
 
-Given any two connected vertices, *v* and *u*, we could say that *u* **reaches** *v* and *v* is **reachable** from *v*.
+Given an edge between two vertices *u* and *v*, we could say that *u* **reaches** *v* and *v* is **reachable** from *u*. In case of an undirected edge, the converse is also true: *v* **reaches** *u* and *u* is **reachable** from *v*.
 
 A graph is **connected** if between every vertex in the graph, there is a *path*. The graph above was connected, while the one below isn't (you cannot get from *A* to *B*, for example):
 
