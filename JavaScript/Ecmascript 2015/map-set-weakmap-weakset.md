@@ -16,8 +16,7 @@ category: tip
 ---
 ## Content
 
-
-
+How confident are you about using JavaScript ES6 data structures?
 ---
 ## Game Content
 
