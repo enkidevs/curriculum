@@ -28,7 +28,8 @@ Do you know what is allowed and not allowed in `strict mode` in JS? Can you spot
 //"use strict";
 let x = 42;
 %exp
-The right syntax for strict mode in js is `use strict` not `useStrict`.
+The right syntax for strict mode
+in js is `use strict` not `useStrict`.
 %
 ---
 function foo() {
@@ -38,7 +39,10 @@ function foo() {
 }
 foo();
 %exp
-In strict mode `eval` creates a variable only for the code being evaluated. `eval` doesn't have the same meaning in strict mode as it does normally.
+In strict mode `eval` creates a variable
+only for the code being evaluated. `eval`
+doesn't have the same meaning in strict
+mode as it does normally.
 %
 ---
 (function foo() {
@@ -47,7 +51,9 @@ In strict mode `eval` creates a variable only for the code being evaluated. `eva
 // arguments not allowed in strict
 })();
 %exp
-`Arguments` can't be bound or assigned in language syntax. All attempts to do so will result in syntax errors.
+`Arguments` can't be bound or assigned in
+language syntax. All attempts to do so
+will result in syntax errors.
 %
 ---
 (function foo() {
@@ -57,7 +63,8 @@ In strict mode `eval` creates a variable only for the code being evaluated. `eva
    console.log(let);
 })();
 %exp
-`let` is a keyword in javascript. It can’t be used to name a variable.
+`let` is a keyword in javascript. It can’t
+be used to name a variable.
 %
 ---
 "use strict";
@@ -83,7 +90,9 @@ var foo = Object.defineProperties({}, {
 foo.bar = 24;
 // can't assign read-only property
 %exp
-Bar is set as a `non writable`. This means we can not change it’s value anywhere else in the program.
+Bar is set as a `non writable`. This means
+we can not change it’s value anywhere else
+in the program.
 %
 ---
 "use strict";
@@ -92,7 +101,12 @@ with ({f: 24}) {
   alert(f);
 }
 %exp
-`with` rises some problems here because any name inside the block might map either to a property of the object passed to it, or to a variable in surrounding (or even global) scope. At runtime: it's impossible to know which beforehand.
+`with` rises some problems here because
+any name inside the block might map
+either to a property of the object passed
+to it, or to a variable in surrounding
+(or even global) scope. At runtime: it's
+impossible to know which beforehand.
 %
 ---
 "use strict";
@@ -104,6 +118,8 @@ function F(x) {
 var f = F(24);
 // var f = new F(24);
 %exp
-We need to instantiate the function F in order to assign it’s resulting value to a variable.
+We need to instantiate the function F in
+order to assign it’s resulting value to a
+variable.
 %
 ---

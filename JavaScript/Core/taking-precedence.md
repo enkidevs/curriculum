@@ -16,7 +16,7 @@ category: tip
 ---
 ## Content
 
-Precedence decides the order in which operators are evaluated. 
+Precedence decides the order in which operators are evaluated.
 
 Higher precedence means earlier evaluation.
 
@@ -31,6 +31,9 @@ How well do you know how Javascript handles precedence?
 * "334"
 * "1234"
 * "37"
+%exp
+
+%
 ---
 ```
 2 - 2 - 2
@@ -38,6 +41,9 @@ How well do you know how Javascript handles precedence?
 * -2
 * 2
 * 0
+%exp
+
+%
 ​---
 ```
 2 * 3 + 4
@@ -45,13 +51,19 @@ How well do you know how Javascript handles precedence?
 * 10
 * 14
 * 18
-​---
+%exp
+
+%
 ```
+​---
 {5:1}[2+3]
 ```
 * SyntaxError
 * undefined
 * 1
+%exp
+
+%
 ​---
 ```
 var a = 1
@@ -60,6 +72,9 @@ a++
 * 1
 * 2
 * undefined
+%exp
+
+%
 ​---
 ```
 ({5:1})[2+3]
@@ -67,6 +82,9 @@ a++
 * 1
 * SyntaxError
 * undefined
+%exp
+
+%
 ​---
 ```
 var a = 1
@@ -77,6 +95,9 @@ b
 * 1
 * 2
 * undefined
+%exp
+
+%
 ​---
 ```
 var a = 1
@@ -87,8 +108,11 @@ a
 * 2
 * 1
 * 0
----​
+%exp
+
+%
 ```
+---​
 var a = 1
 var b = 1
 a++-++b
@@ -96,13 +120,19 @@ a++-++b
 * -1
 * 1
 * 0
+%exp
+
+%
 ​---
 ```
 false && true || true
 ```
 * true
 * false
-* 1 
+* 1
+%exp
+
+%
 ​---
 ```
 true || true && false
@@ -110,22 +140,31 @@ true || true && false
 * true
 * false
 * Error
+%exp
+
+%
 ​---
 ```
-0 * 1 ? 2 : 3 
+0 * 1 ? 2 : 3
 ```
 * 3
 * 2
 * 0
+%exp
+
+%
 ​---
 ```
-var a = 1; a += 3 * 2 ; a 
+var a = 1; a += 3 * 2 ; a
 ```
 * 7
 * 4
 * 5
-​---
+%exp
+
+%
 ```
+​---
 var a = -1;
 a += 1 && a *= 2
 ```
@@ -133,7 +172,10 @@ a += 1 && a *= 2
 * ReferrenceError
 * -3
 * 0
-​---
+​%exp
+
+%
+---
 ```
 var a = -1;
 a += 1 && (a *= 2)
@@ -141,10 +183,17 @@ a += 1 && (a *= 2)
 * -3
 * 0
 * ReferrenceError
-​---
+​%exp
+
+%
+---
 ```
 0 == 1 >= 2
 ```
 * true
 * false
 * 0
+%exp
+
+%
+---
