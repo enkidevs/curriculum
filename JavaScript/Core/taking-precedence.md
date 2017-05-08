@@ -16,11 +16,14 @@ category: tip
 ---
 ## Content
 
-Precedence decides the order in which operators are evaluated.
+Precedence decides the order in
+which operators are evaluated.
 
-Higher precedence means earlier evaluation.
+Higher precedence means earlier
+evaluation.
 
-How well do you know how Javascript handles precedence?
+How well do you know how Javascript
+handles precedence?
 
 ---
 ## Game Content
