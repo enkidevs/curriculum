@@ -16,7 +16,7 @@ category: tip
 ---
 ## Content
 
-Is this the problem?
+How confident are you about using JavaScript ES6 data structures?
 
 ---
 ## Game Content
@@ -47,9 +47,9 @@ for (let ???) {
   console.log(`${key}: ${value}`)
 }
 ```
-* [key, value] of map
-* i=0; i > map.length; i++;
-* i=1; i == true; i++;
+* `[key, value] of map`
+* `i=0; i > map.length; i++;`
+* `i=1; i == true; i++;``
 
 %exp
 The syntax means that the pair `[key,value]`
@@ -68,7 +68,7 @@ map.set(1, 2);
 ```
 
 * TypeError: Invalid value ...
-* nothing it's perfectly valid
+* Nothing, it's perfectly valid!
 * ReferenceError: map is not ...
 
 %exp
@@ -85,7 +85,7 @@ set.add(new Date());
 
 ```
 
-* nothing, this is right
+* Nothing, this is right!
 * TypeError: Invalid value ...
 * ReferenceError: Date is not ...
 
@@ -103,7 +103,7 @@ set.add(Symbol());
 ```
 
 * TypeError: invalid value...
-* Nothing it's perfect
+* Nothing, this is right!
 * ReferenceError: Symbol is not..
 
 %exp
