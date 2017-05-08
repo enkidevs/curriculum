@@ -50,7 +50,9 @@ for (let ???) {
 * i=0; i > map.length; i++;
 * i=1; i == true; i++;
 %exp
-The syntax means that the pair `[key,value]` represent one tuple from the map on each iteration.
+The syntax means that the pair `[key,value]`
+represent one tuple from the map on each
+iteration.
 %
 ---
 
@@ -84,7 +86,8 @@ set.add(new Date());
 * TypeError: Invalid value ...
 * ReferenceError: Date is not ...
 %exp
-This syntax is correct and can be used at anytime.
+This syntax is correct and can be used
+at anytime.
 %
 ---
 ```
@@ -99,5 +102,6 @@ set.add(Symbol());
 * Nothing it's perfect
 * ReferenceError: Symbol is not..
 %exp
-Weaksets, are collections of objects only, but not any arbitrary value of any type.
+Weaksets, are collections of objects only,
+but not any arbitrary value of any type.
 %
