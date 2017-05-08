@@ -16,9 +16,11 @@ category: tip
 ---
 ## Content
 
-The falling blocks will belong to the `ES5` or `ES6` iteration of Ecmascript.
+The falling blocks will belong to the
+`ES5` or `ES6` iteration of Ecmascript.
 
-Categorize them into the correct version of Ecmascript before they reach the ground.
+Categorize them into the correct version
+of Ecmascript before they reach the ground.
 
 ---
 ## Game Content

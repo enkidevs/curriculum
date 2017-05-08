@@ -18,7 +18,10 @@ category: tip
 
 Hello, traveler.
 
-You will attempt to accurately fill the gaps in the code snippets to recreate ES5 compatible code using the new features of ES6.
+You will attempt to accurately
+fill the gaps in the code snippets
+to recreate ES5 compatible code using
+the new features of ES6.
 
 Best of luck. We will be watching you.
 

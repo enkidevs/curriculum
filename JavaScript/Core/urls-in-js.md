@@ -16,7 +16,8 @@ category: tip
 ---
 ## Content
 
-Do you know how to access and alter the URL of a page?
+Do you know how to access and
+alter the URL of a page?
 
 ---
 ## Game Content

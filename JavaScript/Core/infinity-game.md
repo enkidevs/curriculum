@@ -16,7 +16,8 @@ category: tip
 ---
 ## Content
 
-Your goal is to determine what the console will print out for each given value of `x`
+Your goal is to determine what the console
+will print out for each given value of `x`.
 
 ---
 ## Game Content
