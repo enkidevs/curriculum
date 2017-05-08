@@ -57,7 +57,7 @@ In strict mode `eval` creates a variable only for the code being evaluated. `eva
    console.log(let);
 })();
 %exp
-`let` is a keyword in javascript. It can’t be used to name a variable. 
+`let` is a keyword in javascript. It can’t be used to name a variable.
 %
 ---
 "use strict";
@@ -92,7 +92,7 @@ with ({f: 24}) {
   alert(f);
 }
 %exp
-Bar is set as a `non writable`. This means we can not change it’s value anywhere else in the program.
+`with` rises some problems here because any name inside the block might map either to a property of the object passed to it, or to a variable in surrounding (or even global) scope. At runtime: it's impossible to know which beforehand.
 %
 ---
 "use strict";
