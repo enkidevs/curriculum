@@ -52,7 +52,9 @@ The term **port** has also other uses in computer science:
 
 ---
 ## Practice
+
 What is HTTP's default port?
+
 ???
 
 * `80`
@@ -64,5 +66,5 @@ What is HTTP's default port?
 A port is an essential component of the ??? .
 
 * `IP`
-* `Connected devices`
+* `networked devices`
 * `Internet`

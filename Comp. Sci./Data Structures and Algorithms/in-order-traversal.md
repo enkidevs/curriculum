@@ -50,7 +50,7 @@ inorder(node)
 ---
 ## Practice
 
-Chose the sequence that simulates a post-order traversal of the tree:
+Chose the sequence that simulates an in-order traversal of the tree:
 ```
       A
     /   \
@@ -62,12 +62,12 @@ Chose the sequence that simulates a post-order traversal of the tree:
 *B,F,A,C,E
 *F,B,E,C,A
 *A,B,F,C,E
-*B,F,A,C,E
+*B,F,A,E,C
 
 ---
 ## Revision
 
-Chose the sequence that simulates a post-order traversal of the tree:
+Chose the sequence that simulates an in-order traversal of the tree:
 ```
       A
     /   \
@@ -79,4 +79,4 @@ Chose the sequence that simulates a post-order traversal of the tree:
 *B,F,A,C,E
 *F,B,E,C,A
 *A,B,F,C,E
-*B,F,A,C,E
+*B,F,A,E,C
