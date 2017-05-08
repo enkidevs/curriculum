@@ -34,7 +34,9 @@ function func() {
 * `a`
 * `undefined`
 %exp
-Var is scoped to the nearest function block, which means here var a is still ‘hello’.
+Var is scoped to the nearest function
+block, which means here var a is still
+`hello`.
 %
 ---
 
@@ -51,7 +53,9 @@ function func() {
 * `'hello'`
 
 %exp
-Let is scoped to the nearest enclosing block, which means a is out of scope when printed.
+Let is scoped to the nearest enclosing
+block, which means a is out of scope
+when printed.
 %
 ---
 
@@ -68,7 +72,10 @@ function func() {
 * `'goodbye'`
 * `undefined`
 %exp
-Again, because let is scoped to the nearest enclosing block this means the value assigned to a before the if is the value a will hold.
+Again, because let is scoped to the
+nearest enclosing block this means the
+value assigned to a before the if is the
+value a will hold.
 %
 ---
 
@@ -85,7 +92,9 @@ function func() {
 * `'hello'`
 * `undefined`
 %exp
-Printing a when the if condition passes means the value we assign to a in the if body will be printed.
+Printing a when the if condition passes
+means the value we assign to a in the
+if body will be printed.
 %
 ---
 
@@ -101,7 +110,10 @@ function func() {
 * `'goodbye'`
 * `Reference Error`
 %exp
-Even though var’s scope is extended to the nearest enclosing function, the if condition is not passed so a is not defined when we print it.
+Even though var’s scope is extended to
+the nearest enclosing function, the if
+condition is not passed so a is not
+defined when we print it.
 %
 ---
 
@@ -115,6 +127,6 @@ console.log(a);
 * `'goodbye'`
 * `'hello'`
 %exp
-Printing outside the function's body will result in a `Reference Error`.
+Printing outside the function's
+body will result in a `Reference Error`.
 %
----

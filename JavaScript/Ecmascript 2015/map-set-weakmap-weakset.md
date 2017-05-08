@@ -106,4 +106,3 @@ Weaksets, are collections of objects
 only, but not any arbitrary value of
 any type.
 %
----

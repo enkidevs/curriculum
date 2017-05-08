@@ -125,4 +125,3 @@ We need to instantiate the function F in
 order to assign it’s resulting value to a
 variable.
 %
----

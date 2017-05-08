@@ -30,7 +30,8 @@ console.log(window.location.protocol);
 * `www.google.co.uk`
 * `/`
 %exp
-The `window.location.protocol` property returns the web protocol of the page.
+The `window.location.protocol` property
+returns the web protocol of the page.
 %
 ---
 ```
@@ -41,7 +42,9 @@ console.log(window.location.host);
 * `https:`
 * `/`
 %exp
-`window.location.host` property returns the name of the internet  host(of the current page).
+`window.location.host` property returns
+the name of the internet host
+(of the current page).
 %
 ---
 ```
@@ -52,7 +55,8 @@ console.log(window.location.pathname);
 * `#contact`
 * `enki.com`
 %exp
-This property returns the pathname of the current page.
+This property returns the pathname of
+the current page.
 %
 ---
 ```
@@ -63,8 +67,12 @@ console.log(window.location.hash);
 * `/`
 * `enki.com`
 %exp
-The property returns the anchor part of the URL, including the hash(#) sign. The anchor part of a `URL` is a internal page reference, it usually appears
-at the end of the `URL` and it referes to a section within a web page.
+The property returns the anchor part of
+the URL, including the hash(#) sign.
+The anchor part of a `URL` is a internal
+page reference, it usually appears at the
+end of the `URL` and it referes to a
+section within a web page.
 %
 ---
 ```
@@ -77,6 +85,8 @@ console.log(window.location);
 * `https://enki.com/#contact/hi`
 * `https://enki.com/greet/hi`
 %exp
-This property returns the whole `URL` it is applied to. It is usually used in JavaScript to redirect the browser to that location it is returning.
+This property returns the whole `URL`
+it is applied to. It is usually used in
+JavaScript to redirect the browser to that
+location it is returning.
 %
----
