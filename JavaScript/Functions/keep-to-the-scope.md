@@ -16,7 +16,8 @@ category: must-know
 ---
 ## Content
 
-Do you know how scoping works in Javascript?
+Do you know how scoping works in
+Javascript?
 
 ---
 ## Game Content
