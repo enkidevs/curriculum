@@ -16,7 +16,10 @@ category: feature
 ---
 ## Content
 
-Will the falling bits of `HTML`, `Javascript` and `CSS` work on world-famous, popular web browser Internet Explorer 8?
+Will the falling bits of `HTML`,
+`Javascript` and `CSS` work on
+world-famous, popular web browser
+Internet Explorer 8?
 
 Let's find out.
 
