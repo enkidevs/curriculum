@@ -33,6 +33,7 @@ acceptable key formats;
 * functions, objects and dates
 * and nothing else
 * null, NaN, and objects
+
 %exp
 All four can be used as keys in ES6 maps.
 %
@@ -49,6 +50,7 @@ for (let ???) {
 * [key, value] of map
 * i=0; i > map.length; i++;
 * i=1; i == true; i++;
+
 %exp
 The syntax means that the pair `[key,value]`
 represent one tuple from the map on each
@@ -68,6 +70,7 @@ map.set(1, 2);
 * TypeError: Invalid value ...
 * nothing it's perfectly valid
 * ReferenceError: map is not ...
+
 %exp
 Integers can’t be used as weak keys.
 %
@@ -85,6 +88,7 @@ set.add(new Date());
 * nothing, this is right
 * TypeError: Invalid value ...
 * ReferenceError: Date is not ...
+
 %exp
 This syntax is correct and can be used
 at anytime.
@@ -101,6 +105,7 @@ set.add(Symbol());
 * TypeError: invalid value...
 * Nothing it's perfect
 * ReferenceError: Symbol is not..
+
 %exp
 Weaksets, are collections of objects only,
 but not any arbitrary value of any type.
