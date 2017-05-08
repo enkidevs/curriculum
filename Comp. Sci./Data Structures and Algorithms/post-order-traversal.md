@@ -16,7 +16,7 @@ parent: in-order-traversal
 ---
 ## Content
 
-**Pre-order traversal** is a type of *depth-first traversal* in which the root of the tree is visited after the right child. It only makes sense for *binary trees*.
+**Post-order traversal** is a type of *depth-first traversal* in which the root of the tree is visited after the right child. It only makes sense for *binary trees*.
 
 Its implementation looks like this:
 - Traverse the *left subtree* recursively.
