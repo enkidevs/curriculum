@@ -43,10 +43,7 @@ What are **Typed Arrays** made of ?
 
 ???
 
-???
-
-*`buffer`
-*`view`
-*`array`
-*`iterator`
-*`stream`
+*`buffers and views`
+*`views and streams`
+*`arrays and buffers`
+*`iterators and arrays`
