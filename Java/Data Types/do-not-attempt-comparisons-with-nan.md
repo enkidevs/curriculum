@@ -26,10 +26,10 @@ Since NaN is unordered and numerical comparison operators (`<`, `==`, etc.) retu
 Example of attempting a direct comparison with NaN:
 ```
 double x = 0.0;
-double ans = Math.tan(1/x); 
+double ans = Math.tan(1/x);
 // Here ans becomes NaN
 
-if (ans == Double.NaN) { 
+if (ans == Double.NaN) {
    System.out.println("ans is NaN");
    // Doesn't print
    // Comparison is always false
@@ -38,9 +38,9 @@ if (ans == Double.NaN) {
 Instead, the `Double.isNaN()` method should be used in this case:
 ```
 double x = 0.0;
-double ans = Math.tan(1/x); 
+double ans = Math.tan(1/x);
 
-if (Double.isNaN(ans)) { 
+if (Double.isNaN(ans)) {
    System.out.println("ans is NaN");
    // Prints 'ans is NaN'
 }
@@ -55,11 +55,11 @@ double x = 13.0/0;
 ???.???(???);
 ```
 
-*`Double` 
-*`isNaN` 
-*`x` 
-*`==` 
-*`Integer` 
+*`Double`
+*`isNaN`
+*`x`
+*`==`
+*`Integer`
 *`Math`
 
 ---
@@ -67,11 +67,11 @@ double x = 13.0/0;
 
 What value will `x` have here?
 ```
-double x = Math.tan(1/x);
+double x = Math.tan(1/0.0);
 ```
 ???
-*`NaN` 
-*`0` 
-*`pi` 
-*`Math.PI` 
+*`NaN`
+*`0`
+*`pi`
+*`Math.PI`
 *`3.14`

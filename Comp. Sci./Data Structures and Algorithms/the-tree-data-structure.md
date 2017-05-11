@@ -68,7 +68,7 @@ Which of the following is true?
 * A tree is a subtype of graph without cycles.
 * A tree is an undirected graph.
 * A graph is a subtype of a tree.
-* A tree can have more than one node.
+* A tree can have more than one root node.
 
 ---
 ## Revision
