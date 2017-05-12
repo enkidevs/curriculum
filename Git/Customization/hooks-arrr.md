@@ -9,6 +9,8 @@ type: fillTheGap
 
 category: feature
 
+parent: useful-commit-hooks
+
 ---
 ## Content
 
@@ -31,14 +33,15 @@ formatted.
 
 ---
 ```
-Check for appropriate documentation on new methods.
+Check if the new code is properly
+documented.
 ```
 * pre-commit
 * post-commit
 * pre-staging
 
 %exp
-The check should be done before registering the *commit message*, because without proper documentation, it is not a valid commit. The `pre-commit` is the right answer here.
+The check should be done before registering the *commit message*, because the you wouldn't want to create the commit without proper documentation. The `pre-commit` is the right answer here.
 %
 
 ---
@@ -94,7 +97,8 @@ If the `git checkout newFeature` command is successful, you could rebuild the pr
 
 ---
 ```
-Rejecting commits from entering the remote repository, after the client push.
+Rejecting commits from entering the remote
+repository, after the client push.
 ```
 * pre-receive
 * post-receive

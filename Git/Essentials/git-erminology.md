@@ -9,6 +9,8 @@ type: fillTheGap
 
 category: must-know
 
+parent: what-is-git
+
 ---
 ## Content
 
@@ -49,7 +51,7 @@ Control System.
 * GitHub
 
 %exp
-Google Trends places git as the VCS with the most searches, accounting for 70% look-ups for the top 5 most-searched VCSs.
+Google Trends places `git` as the VCS with the most searches, accounting for 70% look-ups for the top 5 most-searched VCSs.
 %
 ---
 ```
