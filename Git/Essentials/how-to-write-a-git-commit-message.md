@@ -64,5 +64,5 @@ $ ??? ???
 ```
 *`git`
 *`commit`
-*-m`
+*`-m`
 *`"typo fixed"`
