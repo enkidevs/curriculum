@@ -51,7 +51,7 @@ The simplicity of `UDP` reduces the overhead[2] of other protocols and can be ad
 Protocols such as **DHCP** and **VOIP** work on top of `UDP`.
 
 ---
-### Footnotes
+## Footnotes
 
 [1:protocol naming convention]
 Protocol acronyms that end with an `s` usually refer to the **secure** (encrypted, authenticated, etc.) version of some protocol.

@@ -50,7 +50,7 @@ Nowadays, they serve as a security and anonymity mechanism when browsing public 
 
 #### ISP
 
-Short for *Internet Service Provided*, the ISP is usually the company that provides you access to the Internet. ISPs either own or lease the cables used for the physical connection between your machine and other network segments on the Internet.
+Short for *Internet Service Provider*, the ISP is usually the company that provides you access to the Internet. ISPs either own or lease the cables used for the physical connection between your machine and other network segments on the Internet.
 
 #### Gateway
 
