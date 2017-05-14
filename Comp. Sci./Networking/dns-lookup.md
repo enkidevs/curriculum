@@ -59,7 +59,7 @@ Address: 54.192.197.88
 You can see what `IP` addresses are mapped to the queried domain. `Non-authoritative` answers mean that those answers don't come from the domain we queried for (`enki.com`), but from another sources such as your ISP.
 
 ```bash
-$ dig google.com
+$ dig enki.com
 ...
 ;; QUESTION SECTION:
 ;enki.com. IN A
