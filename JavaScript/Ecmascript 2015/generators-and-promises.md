@@ -29,7 +29,9 @@ links:
 ---
 ## Content
 
-Evaluate each snippet and choose the right output.
+Some of the most exiting features of ES6 are generators and promises.
+
+Can you fill in the gaps in the following code snippets such that they make sense?
 
 ---
 ## Game Content
