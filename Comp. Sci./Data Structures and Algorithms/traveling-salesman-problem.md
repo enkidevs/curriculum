@@ -20,7 +20,7 @@ parent: bellman-ford-iteration
 ---
 ## Content
 
-We will now take a brake from plain algorithms to discuss the *Traveling Salesman Problem*, also known as *TSP*. Mainly a mathematical problem, it is worth mentioning here because of its applicability.
+We will now take a break from plain algorithms to discuss the *Traveling Salesman Problem*, also known as *TSP*. Mainly a mathematical problem, it is worth mentioning here because of its applicability.
 
 The problem describes a salesperson who must visit a number of cities and return to the same city they started at, without the salesperson visiting a city more than once.
 
