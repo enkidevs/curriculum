@@ -24,20 +24,20 @@ The concept of **exponentiation by squaring** refers to a method to fast compute
 
 The most basic way to exponentiate is multiplying the number by itself:
 ```
-3^20 = 3×3× … ×3 (20 times)
+3^20 = 3*3* … *3 (20 times)
 ```
 This will have to do `O(n)` (i.e. *O(20)* ) operations to calculate the result.
 
 Instead of multiplying the number itself, *exponentiation by squaring* works by halving the power each time:
 ```
 3^20 = (3^10)^2 = [(3^5)^2]^2
-     = {[3×(3^4)]^2}^2
-     = ({3×[(3^2)^2]}^2)^2
+     = {[3*(3^4)]^2}^2
+     = ({3*[(3^2)^2]}^2)^2
 # 4 operations to decompose
 # 5 multiplications
 #    and squarings to compute
 ```
-This algorithm uses `O(log n)` squarings[1] **and** at most `O(log n)` multiplications. Together they would take at most `2×O(log n)`, which is faster than `O(n)` multiplications.
+This algorithm uses `O(log n)` squarings[1] **and** at most `O(log n)` multiplications. Together they would take at most `2*O(log n)`, which is still faster than `O(n)` multiplications.
 
 The implementation using a *recursive algorithm* is as follows:
 ```
@@ -51,9 +51,9 @@ expBySqr(b,x)
   else if x = 1 then
     return b
   else if x % 2 = 0 then
-    return expBySqr(b×b, x/2)
+    return expBySqr(b*b, x/2)
   else if x % 2 = 1 then
-    return b × expBySqr(b×b, (x-1)/2)
+    return b * expBySqr(b*b, (x-1)/2)
 ```
 
 
@@ -79,7 +79,7 @@ For small exponent values, squaring might need more operations than straight-for
 For an exponent of `350`, what's the upper-bound of the number of operations required to compute the result using the exponentation by squaring method?
 
 ???
-*2×O(log 350)
+*2*O(log 350)
 *O(log 350)
 *O(350)
 *O(log log 350)

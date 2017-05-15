@@ -58,7 +58,7 @@ There are multiple fields that can go into the header of a request. Some of them
 - **User-Agent**: specifies details about your web browser and your OS
 - **Accept**: states what resource format will be accepted (`text/plain` for documents, `text/html` for web pages, `audio/*` for any type of audio file etc.)
 - **Accept-Language**: specifies the type of language the website should be in, in case there are multiple available options
-- **Referrer**: specifies what page the request originated from (sometimes it appears with incorrect spelling: `Referer`)
+- **Referer**(sic!): specifies what page the request originated from (the misspelled word is part of the official terminology).
 - **Content-Type**: tells the server what type of files can be added to the response
 
 ---
