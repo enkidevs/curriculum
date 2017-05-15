@@ -1,4 +1,4 @@
-# Generators and Promises
+# Generators and Promises.
 author: gregbenner
 
 levels:
