@@ -1,4 +1,4 @@
-# Generators and Promises
+git  # Generators and Promises
 author: gregbenner
 
 levels:
@@ -29,7 +29,7 @@ links:
 ---
 ## Content
 
-
+Evaluate each snippet and choose the right output.
 
 ---
 ## Game Content
