@@ -16,13 +16,13 @@ category: must-know
 
 There are two ways to destroy an event in AngularJS application scope.
 
-The first one is an AngularJS event, `$destroy`, and the second one is a jqLite / jQuery event `$destroy`. 
+The first one is the **AngularJS** event, `$destroy`, while the second one is the **jqLite** / **jQuery** event `$destroy`. 
 
-The difference being, that the the AngularJS __$destroy__ removes the current scope (and all of its children) from the parent scope. The AngularJS `$destroy` can be used by AngularJS scopes where they are accessible, such as in controllers or link functions.
+The difference between them is that the the former `$destroy` in **AngularJS** removes the current *scope* (and all of its children) from the *parent scope*. It can be used wherever scopes are accessible, such as in controllers or link functions.
 
-Consider the two below happening in a directive’s postLink function. 
+Consider the two scenarios below, happening in a `directive`’s postLink function. 
 
-The AngularJS event:
+The **AngularJS** event:
 
 ```
 scope.$on(‘$destroy’, function () {
@@ -44,7 +44,7 @@ element.on(‘$destroy’, function () {
 
 ```
 
-The jqLite / jQuery event is called whenever a node is removed, which may just happen without scope teardown.
+The **jqLite / jQuery** event is called whenever a node is removed, which may just happen without **scope teardown**.
 
 ---
 ## Revision
