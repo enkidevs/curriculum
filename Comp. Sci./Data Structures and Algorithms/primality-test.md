@@ -28,21 +28,26 @@ Some improvements can be made to the algorithm: there is no point in verifying n
 ```
 In other words, if **n** doesn't have any divisor smaller than √n, there isn't any *natural divisor* greater than √n.
 
-To further reduce the time needed for *multiple, successive* primality tests, *the sieve of Eratosthenes* can be generated and used (Remember there's no primality testing needed for generating the sieve). If a number is divisible by any *multiple of 2*, we know for sure it is also divisible by *2*, making some of the computations redundant.
+To further reduce the time needed for *multiple, successive* primality tests, *the sieve of Eratosthenes* can be generated and used (remember there's no primality testing needed for generating the sieve). If a number is divisible by any *multiple of 2*, we know for sure it is also divisible by *2*, making some of the computations redundant.
 
 The pseudocode looks like this:
 ```
 function prime(n)
   if n <= 1
     return false
+  int i = 2
   while(i×i <= n)
     if sieve[i]
+//if i is prime, check if it divides n
       if n%i == 0
+//if it does, then n is not prime
         return false
+//if i is not prime or it doesn't divide n
+//check the next value
     i++
   return true
 ```
-
+The size of the generated `sieve` depends on the requirements of the problem. Usually, you'd want it to contain all the numbers up to `√m`, where **m** is the maximum value in the set of numbers to be tested.
 
 ---
 ## Practice
