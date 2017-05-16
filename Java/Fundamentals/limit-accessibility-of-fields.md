@@ -21,7 +21,7 @@ links:
 
 An incorrect assumption is that declaring a field or variable as `final` makes the object referenced _immutable_. 
 
-Declaring variables with a `final` type *prevents* changes the memory address to which the variable points to , but not changes to the *object itself*.
+Declaring variables with a `final` type *prevents* changes to the memory address to which the variable points to, but not changes to the *object itself*.
 
 Consider this:
 ```
@@ -91,7 +91,7 @@ public class Company {
 ## Revision
 
 If a want an object to be immutable outside of its class, you should declare it ???.
-*final
 *private
+*final
 *public
 *static
