@@ -28,14 +28,14 @@ https://enki.com/
 // URL starts with protocol name
 ```
 
-`HTTPS` is the same as previously discussed **HTTP**, but enhanced with an *encryption layer* using `TSL`[1], which aims to provide privacy and data integrity between the participants.
+`HTTPS` is the same as previously discussed **HTTP**, but enhanced with an *encryption layer* using `TLS`[1], which aims to provide privacy and data integrity between the participants.
 
 The communication between a *client* (take your web browser, for example) and a *server* (`enki.com`) is still done via the well-known and understood **HTTP**, yet all messages are:
 - **encrypted** before being sent
 - **decrypted** when they arrive at either the client or the server
 
-Prior to the actual communication, a `TSL` connection (known as a handshake) must be established between the two parties, following these steps:
-- `hello`: both *client* and *server* will decide on which *cipher suite*[2] and what version of `TSL` they will use for encryption
+Prior to the actual communication, a `TLS` connection (known as a handshake) must be established between the two parties, following these steps:
+- `hello`: both *client* and *server* will decide on which *cipher suite*[2] and what version of `TLS` they will use for encryption
 - `certificate exchange`: to prove its identity, the *server* must provide a **certificate**[3] that the client must trust before the communication can begin
 - `key exchange`: both parties decide on a symmetric key used for both encryption and decryption
 
@@ -56,7 +56,7 @@ What type of key is used for encryption and decryption over **HTTPS** ?
 * asymmetric
 * private
 * secure
-* TSL
+* TLS
 * certificate
 
 ---
@@ -66,7 +66,7 @@ What protocol is used by **HTTPS**, but not **HTTP** ?
 
 ???
 
-* `TSL`
+* `TLS`
 * `SMTP`
 * `IMAP`
 * `TCP`
@@ -75,7 +75,7 @@ What protocol is used by **HTTPS**, but not **HTTP** ?
 ---
 ## Footnotes
 
-[1:TSL/SSL]
+[1:TLS/SSL]
 The **Transport Layer Security** (TLS), and its out-of-date predecessor **Secure Sockets Layer** (SSL), are cryptographic protocols that provide communication security over a computer network.
 
 This layer of security has two main purposes:
