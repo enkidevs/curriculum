@@ -16,7 +16,7 @@ category: must-know
 
 We can write our first Python program, and print Hello World to the console!
 
-To do this, in our Python interpreter, we can use Python's print method as follows:
+To do this, in our Python interpreter (REPL), we can use Python's print method as follows:
 
 ```python
 >>> print('Hello World!')
@@ -34,9 +34,9 @@ This produces the following output:
 Complete the code snippet:
 
 ```
-??? (‘Python with Enki!’)
+???('Python with Enki!')
 ```
-*`print` 
-*`write` 
-*`sys.out` 
+*`print`
+*`write`
+*`sys.out`
 *`writeln`
