@@ -68,7 +68,7 @@ Where will the next node be inserted in the heap?
 ---
 ## Revision
 
-During upheap operation, the child swaps places with its parent if its value
+In a `max-heap`, during upheap operation, the child swaps places with its parent if its value
 
 ???.
 * is larger than the parent's
