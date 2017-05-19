@@ -38,12 +38,12 @@ touch ~/script
 
 pip install --user ansible
 %exp
-`pip` is an installer program for Python. Installing modules and packages using it wouldn't require `sudo` permissions.
+It's a package manager for programs written in Python. Installing modules and packages using it wouldn't require `sudo` permissions.
 %
 
 ifconfig en0
 %exp
-`ifconfig` is a command used for network interface configurations. It doesn't require `sudo`.
+`ifconfig` is a command used for displaying network interface configurations. It doesn't require `sudo`.
 %
 
 whoami
@@ -81,12 +81,12 @@ Alternatively referred to as a computer name or sitename, a hostname is the name
 ```true
 passwd someguy
 %exp
-This command enables the logged on user to change others users passwords. Only the root user can do it.
+This command enables the logged on user to change others users passwords. Only sudoers can do it.
 %
 
 touch /usr/bin/script
 %exp
-The command creats a new file named script in the /usr/bin directory. In order to be able to do this you must be logged in as root user.
+The command creats a new file named script in the /usr/bin directory. In order to be able to do this you must be logged in as sudoer.
 %
 
 service cron restart
