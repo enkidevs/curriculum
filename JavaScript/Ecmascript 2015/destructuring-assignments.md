@@ -36,8 +36,7 @@ console.log(a, b);
 * `undefined, undefined`
 * `{a: 1}, {b: 2}`
 %exp
-First we assign 1 to a and 2 to b.
-After that we print a and b to the console.
+We assign `1` to `a` and `2` to `b`.
 %
 ---
 
@@ -52,8 +51,8 @@ console.log(x, y);
 * `[10, 15], -7`
 * `[10, 15, -7], [10, 15, -7]`
 %exp
-x takes the first value in axes array
-and y the second. Then we print x and y.
+`x` takes the first value in axes array
+and `y` the second.
 %
 ---
 
@@ -70,9 +69,8 @@ console.log(x, z);
 * `10, [15, -7]`
 * `10, 15`
 %exp
-Here we assign the first value to x and
-the third to z. After this we print x
-and z to the console.
+Here we assign the first value to `x` and
+the third to `z`.
 %
 ---
 
@@ -92,9 +90,8 @@ console.log(lat, lon);
 * `ReferenceError`
 * `undefined, undefined`
 %exp
-We define lat and lon as representing
-latitude and longitude values. After
-that we print them tot the console.
+We define `lat` and `lon` as
+latitude and longitude values.
 %
 ---
 
@@ -112,8 +109,9 @@ console.log(x, z);
 * `10, 15`
 %exp
 The syntax would work like this:
-`[x, z, ...rest]`. This way rest will
-take all remaining values in the array.
+`[x, z, ...rest]`. This would mean
+that the `rest` variable would be assigned
+the ramaining values, except the first two.
 %
 ---
 
@@ -131,7 +129,7 @@ console.log(rest);
 * `'de'`
 %exp
 Here `rest` is assigned the last
-two values remaining in the array.
+two values in the array.
 And they will be printed.
 %
 
