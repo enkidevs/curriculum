@@ -29,7 +29,7 @@ Whatever the nature of the communication over a computer network might be, data 
  - `packets` are transmitted following the rules of the *protocol* used
  -  when `packets` reach their destination, they are *reassembled* into the original data
 
-The structure of a **packet** also depends on what protocol is used for transmission, yet they usually can be broken down to a **header** and a **payload** (the actual data sent).
+A packet is composed of a **header** and a **payload** (the actual data sent). The content of the header depends on the protocol used for transmission.
 
 Over the Internet, where *IP* (Internet Protocol) is the standard, packets' **header** needs to have:
  - source IP address
@@ -37,8 +37,6 @@ Over the Internet, where *IP* (Internet Protocol) is the standard, packets' **he
  - type of service (used for optimisations)
  - flags
  - other technical data
-
-Moreover **protocol** defines a set of rules that describe how **packets** are transmitted over a **network**.
 
 In the latter type of networks, packets are sent over the Internet through *nodes*[2] (devices and routers) positioned between the *source* and *destination*.
 
