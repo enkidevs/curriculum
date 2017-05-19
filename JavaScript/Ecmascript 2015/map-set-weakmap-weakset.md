@@ -52,9 +52,7 @@ for (let ???) {
 * `i=1; i == true; i++;``
 
 %exp
-The syntax means that the pair `[key,value]`
-represent one tuple from the map on each
-iteration.
+The pair `[key,value]` represents one tuple from the map that the `for` loop is iterating over.
 %
 ---
 
@@ -107,7 +105,6 @@ set.add(Symbol());
 * ReferenceError: Symbol is not..
 
 %exp
-Weaksets, are collections of objects only,
-but not any arbitrary value of any type.
+`WeakSet` objects are collections of objects. In contrast to `Sets`, `WeakSets` are collections of objects only. `Symbol()` is a primitive type so this is what causes the `TypeError`.
 %
 ---
