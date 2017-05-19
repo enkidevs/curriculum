@@ -106,8 +106,7 @@ Destructing assignments have been standardized in ES6. Basically they make it po
 Promise
 %exp
 Promise objects are used for asynchronous
-computations. Ecmascript supports this
-type of object since ES6.
+computations. It was specified in ES6.
 %
 
 Proxy
