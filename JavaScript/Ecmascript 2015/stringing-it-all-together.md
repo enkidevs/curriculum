@@ -32,7 +32,7 @@ console.log(`Hello ???!`);
 * `"+firstName+" "+surname+"`
 * `#firstName + #surname`
 %exp
-There are two ways of printing a variable's value. The first one is to wrap the variable in a string or, the one we use here is to call directly the value of the variable using `${variable}` syntax.
+There are two ways of printing a variable's value. The first one is to wrap the variable in a string. The second one, the one used in this example, is called `expression interpolation`.
 %
 
 ---
@@ -47,7 +47,7 @@ alert(comment);
 * `Template.ignore`
 * `$.`
 %exp
-The raw string will include any escape characters and backslashes that are present in the string.
+The raw string will include any escaped characters and backslashes that are present in the string.
 %
 ---
 
@@ -81,7 +81,7 @@ for (let c ??? 'enki') {
 * `in`
 * `=`
 %exp
-The `for ... of` statement creates a loop iterating over iterable objects. It creates a custom iteration hook with statements to be executed on each distinct property of the object.
+The `for ... of` statement creates a loop iterating over iterable objects. It creates a custom iteration hook with statements to be executed on each step.
 %
 ---
 ```
