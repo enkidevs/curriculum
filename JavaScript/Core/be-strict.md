@@ -32,7 +32,7 @@ errors?
 let x = 42;
 %exp
 The right syntax for strict mode
-in js is `use strict` not `useStrict`.
+in `JavaScript` is `use strict` not `useStrict`.
 %
 ---
 function foo() {
@@ -42,9 +42,7 @@ function foo() {
 }
 foo();
 %exp
-In strict mode `eval` creates a variable
-only for the code being evaluated. `eval`
-doesn't have the same meaning in strict
+`Eval` doesn't have the same meaning in strict
 mode as it does normally.
 %
 ---
@@ -54,7 +52,7 @@ mode as it does normally.
 // arguments not allowed in strict
 })();
 %exp
-`Arguments` can't be bound or assigned in
+`arguments` can't be bound or assigned in
 language syntax. All attempts to do so
 will result in syntax errors.
 %
@@ -77,8 +75,8 @@ function foo() {
 // y not declared
 }
 foo();
-%expy
-wasn't declared so y*4 can’t be evaluated.
+%exp
+`y` wasn't declared, so `y*4` can’t be evaluated.
 %
 ---
 "use strict";
@@ -93,8 +91,8 @@ var foo = Object.defineProperties({}, {
 foo.bar = 24;
 // can't assign read-only property
 %exp
-Bar is set as a `non writable`. This means
-we can not change it’s value anywhere else
+Bar is a `read-only` property. This means
+we can not change its value anywhere else
 in the program.
 %
 ---
@@ -105,9 +103,9 @@ with ({f: 24}) {
 }
 %exp
 `with` rises some problems here because
-any name inside the block might map
+any variable name inside the block could map
 either to a property of the object passed
-to it, or to a variable in surrounding
+as an argument, or to a variable in surrounding
 (or even global) scope. At runtime: it's
 impossible to know which beforehand.
 %
@@ -121,7 +119,5 @@ function F(x) {
 var f = F(24);
 // var f = new F(24);
 %exp
-We need to instantiate the function F in
-order to assign it’s resulting value to a
-variable.
+`F` will contain an object, with a property named `x`.
 %
