@@ -45,7 +45,7 @@ console.log(x); //prints ???
 * `Infinity`
 %exp
 Infinity could be any number, so we can’t
-define the result of infinity - infinity
+represent the result of `Infinity - Infinity`
 as a fixed value.
 %
 ---
@@ -59,7 +59,7 @@ console.log(x); //prints ???
 %exp
 There is also an option for a number to
 be infinitely small, which is represented
-by -infinity.
+by `-Infinity`.
 %
 ---
 ```
@@ -70,7 +70,7 @@ console.log(x); //prints ???
 * `NaN`
 * `-Infinity`
 %exp
-Any fixed number multiplied by infinity
+Any fixed number multiplied by `Infinity`
 gives us infinity.
 %
 ---
@@ -83,5 +83,5 @@ console.log(x); //prints ???
 * `NaN`
 %exp
 Dividing a positive number by a negative 0
-results in a negative infinity.
+results in a negative `Infinity`.
 %
