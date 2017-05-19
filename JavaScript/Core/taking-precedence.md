@@ -187,7 +187,7 @@ a += 1 && (a *= 2)
 * 0
 * ReferrenceError
 ​%exp
-`a += (1 && (a *=2))`.The `&&` operator returns the left expressions if it can be evaluated to `flase`, otherwise it returns the expression on the right hand side.
+`a += (1 && (a *=2))`.The `&&` operator returns the left expressions if it can be evaluated to `false`, otherwise it returns the expression on the right hand side.
 %
 ---
 ```
