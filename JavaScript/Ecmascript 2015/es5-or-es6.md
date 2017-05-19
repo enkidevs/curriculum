@@ -31,32 +31,30 @@ ES5:ES6
 class
 %exp
 Classes are, in fact, "special functions”
-and they are formed of two main parts:
+and they are composed of two main parts:
 class declaration and class expression.
 They were introduced with ES6.
 %
 
 extends
 %exp
-The JS pattern of simulating class-like
-inheritance has been formalized as now it
+The JavaScript pattern of simulating class-like
+inheritance has been formalized and now it
 is offering a convenient declarative form
-for class pattern. It can be used in ES
-since version 6.
+for class pattern. It was introduced with ES6.
 %
 
 {[v]:1}
 %exp
 This syntax enables users to assign values
-to variables declared. It has been
-introduced to ES since version 6.
+to already declared variables. It has been
+introduced to ES6.
 %
 
 `Hello ${name}`
 %exp
 Template strings provide syntactic sugar
-for constructing strings. The first version
-of ES to support this was ES6.
+for constructing strings. It was first specified in ES6.
 %
 
 var [a,b] = [1,2]
@@ -64,28 +62,27 @@ var [a,b] = [1,2]
 Destructing allows users to extract data
 from objects or arrays intro distinct
 variables. ES6 was the first version
-to have it implemented.
+to have it standardized.
 %
 
 const
 %exp
 If a variable is defined as const it will
 always hold the same value as it has been
-initially assigned. It has been introduced
-since version 6.
+initially assigned. `const` was first standardized in ES6.
 %
 
 let
 %exp
-`let` defines a block scope variable. ES6
+`let` defines a block scoped variable. ES6
 is the first version of Ecmascript to have
 it implemented.
 %
 
 function f(x, y=12)
 %exp
-A feature that has been introduced since
-ES6 is assigning a default value to
+A feature that exists since
+ES6. It is assigning a default value to
 a parameter.
 %
 
@@ -98,15 +95,12 @@ ES introduced arrow functions since ES6.
 
 function* ()
 %exp
-Another feature introduced in ES6 are
-anonymous function, that means functions
-without a name.
+Generator functions in ES6, are functions that can be exited and later re-entered.
 %
 
 {v}
 %exp
-In ES6 objects are created using `{v}`
-syntax.
+Destructing assignments have been standardized in ES6. Basically they make it possible to unpack properties from objects.
 %
 
 Promise
@@ -119,16 +113,14 @@ type of object since ES6.
 Proxy
 %exp
 A type of object introduced in ES6.
-It enables us to trap or intercept all of
-the operations on a target object and
-modify how this target operates.
+This object enables the user to define custom behaviour for fundamental operations.
 %
 
 for (x of object)
 %exp
 Iterator objects enable custom iteration
-like Java Iterable. It can be used in
-Ecmascript since version 6.
+like Java Iterable.  It has been
+introduced in ES6.
 %
 
 Object.assign
@@ -136,15 +128,14 @@ Object.assign
 The Object.assign() method is used to copy
 the values of properties from one or more
 source objects to a target object. It is
-supported since version 6.
+supported since ES6.
 %
 
 Object.observe
 %exp
 The Object.observe() method is used for
 asynchronously observing the changes
-to an object. Ecmascript supports
-this method since version 6.
+to an object. It is standardized since ES6.
 %
 
 Object.freeze
@@ -153,8 +144,7 @@ Prevents new properties from being added
 to the object; prevents existing
 properties from being removed; and
 prevents existing properties from being
-changed. ES supports this method
-since version 5.
+changed.  It has been introduced to ES6.
 %
 
 ```
@@ -163,7 +153,7 @@ since version 5.
 
 undefined
 %exp
-In ES5 variables which have never been
+In `JavaScript`, variables which have never been
 assigned a value are `undefined`
 variables.
 %
@@ -171,62 +161,60 @@ variables.
 Array
 %exp
 The JavaScript `Array` object is used
-in the construction of arrays. Ecmascript
-supports this object since version 5.
+in the construction of arrays. It was standardized before ES6.
 %
 
 Number
 %exp
-In ES5 the `number` object represents a
+The `number` object represents a
 set of all possible integer values
 including the special “Not-a-Number”
 (NaN) values, positive infinity and
-negative infinity.
+negative infinity. It was standardized before ES6.
 %
 
 var
 %exp
-ES5 has implemented `var`, which enables
-users to declare a variable of any type.
+`JavaScript` has implemented `var`, which enables
+users to declare a variable of any type. It was introduced before ES6.
 %
 
 null
 %exp
 The first version to support `null` is
-ES5.
+ES1.
 %
 
 if (key in object)
 %exp
 The in operator matches all object keys,
 including those in the object's prototype
-chain. The first Ecmascript version to
-support this feature is ES5.
+chain. It was standardized before ES6.
 %
 
 Math.PI
 %exp
-This is a new library which comes in hand
+This is library which comes in hand
 when more complex calculations are needed.
-It is supported since ES5.
+It is supported since ES1.1.
 %
 
 void
 %exp
 A void function is a function that has no
-return values. It is supported since ES5.
+return values. It was standardized before ES6.
 %
 
 typeof
 %exp
 Returns the type of the checked object.
-Ecmascript supports it since ES5.
+It was introduced before ES6.
 %
 
 instanceof
 %exp
 Returns the instance of the checked
-object. ES5 was the first version to
+object. ES3 was the first version to
 support it.
 %
 
