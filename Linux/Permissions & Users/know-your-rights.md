@@ -50,7 +50,7 @@ Here we know that the owner, group and others have permission to read write and 
 * 0223
 * 0665
 %exp
-The owner and group can write and execute. The others can execute only.
+The owner and group can write and execute. Others can execute only.
 %
 
 ---
@@ -83,7 +83,7 @@ The owner can write, the group can read and others can execute.
 * r–s––xr–x
 * r––––xr–x
 %exp
-Here, the owner can read, the group can read, but due to the `s` there they have the same privileges as the owner of the file and the others can execute the file.
+Owner can read, the group can read. However, due to the `s` there they have the same privileges as the owner of the file. Others can execute the file.
 %
 
 ---
@@ -94,7 +94,7 @@ rws––x––x = ???
 * 4511
 * 2633
 %exp
-Owner can write and read, group and others can execute.
+The owner can write and read, group and others can execute.
 %
 
 ---
