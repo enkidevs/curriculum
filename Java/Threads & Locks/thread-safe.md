@@ -34,7 +34,7 @@ thread safe:not safe
 ```false
 Vector
 %exp
-The vector class implements a growable array of objects, which is thread safe in `Java`.
+The `Vector` class implements a growable array of objects, which is thread safe in Java.
 %
 
 ConcurrentLinkedQueue<E>
@@ -55,12 +55,12 @@ multiple threads.
 
 Semaphore
 %exp
-Conceptually, a semaphore maintains a set of premises. It is implemented in a thread safe manner in `Java`.
+`Semaphores` are used in java to restrict the number of threads that can access some physical or logical resources.
 %
 
 Stack
 %exp
-Stack class represents a last in first out(LIFO) implementation of the vector class, as the Vector class is safe to run on multiple threads the same is Stack.
+Stack class represents a last in, first out(LIFO) implementation of the vector class. As the Vector class is safe, to run on multiple threads the same is Stack.
 %
 
 Dictionary
@@ -85,7 +85,7 @@ AtomicBoolean represents a boolean value that may be updated automatically. It i
 
 CopyOnWriteArrayList<E>
 %exp
-It is a thread-safe interface in which all mutative operations are implemented by creating a new copy of the underlying arraylist. It is thread safe.
+It is a thread-safe interface in which all mutative operations are implemented by creating a new copy of the underlying `ArrayList`. It is thread safe.
 %
 ```
 
@@ -126,12 +126,12 @@ Doubly-linked list implementation of the List and Deque interfaces. Implements a
 
 FileOutputStream
 %exp
-File output stream is used to write date to a File or FileDescriptor. The output stream could mutate so it is not thread safe.
+`FileOutputStream` is used to write data to a File or FileDescriptor. The output stream could mutate so it is not thread safe.
 %
 
 Calendar
 %exp
-The Calendar class is an abstract class that provides methods for converting between a specific instant in time and a set of calendar fields such as YEAR, MONTH, DAY_OF_MONTH, HOUR. for manipulating the calendar fields as well such as getting the date of the next week. None of the instance methods are synchronized so it is not thread safe.
+The `Calendar` class is an abstract class that provides methods for converting between a specific instant in time and a set of calendar fields. None of the instance methods are synchronized so it is not thread safe.
 %
 
 Integer
