@@ -96,7 +96,7 @@ Cron is responsible for all scheduled commands or scripts. It wakes up every min
 
 adduser mrrobot
 %exp
-Only the root user may add a user or a group to the system.
+Only sudoers may add a user or a group to the system.
 %
 
 cd /root
@@ -131,12 +131,12 @@ This command enables users to change their system's ethernet MAC address. Only t
 
 rm -rf /usr/local/bin/*
 %exp
-In order to remove everything from /usr/local/bin directory you need to be logged in as the root user.
+In order to remove everything from /usr/local/bin directory you need to have sudo access.
 %
 
 rm -rf /usr/bin/*
 %exp
-In order to remove everything from /usr/bin directory you need to be logged in as the root user.
+In order to remove everything from /usr/bin directory you need to have sudo access.
 %
 
 ```
