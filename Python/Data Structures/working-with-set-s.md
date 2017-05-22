@@ -1,6 +1,7 @@
 # Sets.
 author: SebaRaba
 
+
 levels:
 
   - beginner
@@ -45,7 +46,6 @@ my_set = set([1,2,3,4,5])
 - `update()` -> adds more elements at a time to the **set**;
 
 Suppose we have the set created above:
-
 ```
 my_set.add(9)
 print(my_set)
@@ -71,7 +71,6 @@ print(my_set)
 
 # Output: {2,3,4,9,10,7,11,12}
 ```
-
 ---
 ## Practice
 
@@ -81,6 +80,7 @@ What are the two used for updating sets?
 * `update()` and `add()`
 * `update()` and `insert()`
 * `insert()` and `add()`
+
 
 ---
 ## Revision
