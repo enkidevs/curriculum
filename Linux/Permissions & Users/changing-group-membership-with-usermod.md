@@ -16,7 +16,7 @@ category: must-know
 ---
 ## Content
 
-We can use the `usermod` command to add a user from a specific group.  It works like so:
+We can use the `usermod` command to add a user to a specific group.  It works like so:
 
 ```console
 $ sudo usermod -a -G new-group jesse
