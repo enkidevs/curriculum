@@ -16,6 +16,8 @@ category: must-know
 links:
 
   - '[Functional Programming in Python: built-in functions](https://docs.python.org/3/howto/functional.html#built-in-functions)'
+  - '[map, filter, and reduce](http://www.bogotobogo.com/python/python_fncs_map_filter_reduce.php)'
+  - '[Lambda, filter, reduce and map](http://www.python-course.eu/lambda.php)'
 
 ---
 ## Content
