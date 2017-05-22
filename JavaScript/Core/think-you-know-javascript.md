@@ -14,7 +14,7 @@ type: fillTheGap
 category: tip
 
 notes: ''
- 
+
 ---
 ## Content
 
@@ -80,7 +80,7 @@ b(1, 2, 3);
 * 2
 * 3
 %exp
-The function accepts 3 arguments, which can be reached through the function-scoped `arguments` object, as well as invoked by their name. The third argument, `a`, can be found at `index 2` in the arguments array. Therefore, the answer is `10`.
+The function accepts 3 arguments, which can be accessed through the function-scoped `arguments` object, as well as invoked by their name. The third argument, `a`, can be found at `index 2` in the arguments array. Therefore, the answer is `10`.
 %
 
 ---
@@ -94,5 +94,5 @@ a.call(null);
 * `null`
 * `undefined`
 %exp
-The `this` keyword always refers to the owner of the function. In this case, we define the function `a` in a page, which is contained inside the JavaScript's global object, `window`. For reference, if you were to console log `this` inside a button's `click` function, the button will be logged.
+The `this` keyword always refers to the owner of the function. In this case, we define the function `a` in a page, which is contained inside the JavaScript's global object, `window`. For reference, if you were to console log `this` inside a button's `click` function, the button would be logged.
 %
