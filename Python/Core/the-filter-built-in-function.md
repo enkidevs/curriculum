@@ -15,7 +15,9 @@ category: must-know
 
 links:
 
-  - '[link to learn more](https://enki.com)'
+  - '[map, filter, and reduce](http://www.bogotobogo.com/python/python_fncs_map_filter_reduce.php)'
+  - '[Lambda, filter, reduce and map](http://www.python-course.eu/lambda.php)'
+  - '[9 Python Filter Function and List Comprehension Examples](http://www.thegeekstuff.com/2014/05/python-filter-and-list)'
 
 ---
 ## Content
