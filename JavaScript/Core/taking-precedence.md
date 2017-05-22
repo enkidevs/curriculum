@@ -54,8 +54,8 @@ Nothing uncommon here: the computation is done from left to right.
 %exp
 `*` has higher priority than `+`. `2*3` is computed first, then the addition is done.
 %
-```
 ​---
+```
 {5:1}[2+3]
 ```
 * SyntaxError
