@@ -73,7 +73,7 @@ a++
 * 2
 * undefined
 %exp
-There are two ways to increment a number: `a++` and `++a`. The first one, returns the value hold by `a` first and the increments its value. The second one, increments the value first and returns the value after.
+There are two ways to increment a number: `a++` and `++a`. The first one, returns the value hold by `a` first and the increments its value. The second one, increments the value first and returns the new value.
 %
 ​---
 ```
@@ -83,7 +83,9 @@ There are two ways to increment a number: `a++` and `++a`. The first one, return
 * SyntaxError
 * undefined
 %exp
-This means: find out the value mapped with key 5 (from [2+3]). ({5 : 1}) means that we map value `1` with key `5`.
+`({5 : 1})` will denote an object in which key `5` has the value `1`. 
+
+Therefore, `[2+3]` will get the value of the entry at key `5` - which is `1`.
 %
 ​---
 ```
@@ -96,7 +98,7 @@ b
 * 2
 * undefined
 %exp
-`(a++)+b` means increment `a`'s value by 1 and add `b`'s value afterwards. In this situation, `b` remains unchanged.
+`(a++)+b` means increment `a`'s value by `1` and add `b`'s value afterwards. In this situation, `b` remains unchanged.
 %
 ​---
 ```
@@ -141,7 +143,7 @@ true || true && false
 * false
 * Error
 %exp
-The operator won't even past the  `true` in the clause here, since the first operand is `true` we know the result will be `true`.
+A "short-circuit" evaluation rule is found here. As the logical expression is of the form `true || (anything)`, it will directly return `true`, without the need of the second evaluation.
 %
 ​---
 ```
@@ -173,7 +175,8 @@ a += 1 && a *= 2
 * -3
 * 0
 ​%exp
-`a += (1 && a) *=2`.The `&&` operator has higher priority then assignment(`=`) operator. It returns the left expressions if it can be evaluated to `false`, otherwise it returns the expression on the right hand side.
+As the `&&` operator has higher priority than assignment (`=`), the expression can be converted to: `a += (1 && a) *=2`.
+Following this, the second assignment will have an **invalid** left-hand operand.
 %
 ---
 ```
@@ -184,8 +187,8 @@ a += 1 && (a *= 2)
 * 0
 * ReferrenceError
 ​%exp
-Because of the parantheses here, we first increment check the lefthand side of the `&&` expression to see if it is flase. `1` is evaluated to `true` in python so the result is: `a += (a*=2)` => `a = -1 + (2 * (-1))` => `a=3`.
-
+Paranthesis will be evaluated first, `a` getting the new value of `-2`. Next, the logical `&&` operator will return `-2` for `1 && -2`.
+Last, but not least, `-2` is added to the initial value of `a`, resulting in `-3`.
 %
 ---
 ```
@@ -195,6 +198,6 @@ Because of the parantheses here, we first increment check the lefthand side of t
 * false
 * 0
 %exp
-`0 == (1 >= 2)`
+The expression can be converted to `0 == (1 >= 2)` as `>=` has higher priority than `==`.
 %
 ---
