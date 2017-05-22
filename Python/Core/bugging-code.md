@@ -37,7 +37,7 @@ finally:
     print(4)
 
 %exp
-Here else misses colon(:) sign.
+Here `else` is missing the colon(:) sign.
 %
 ---
 de square(x):
@@ -48,7 +48,7 @@ a = 5
 print(square(a))
 
 %exp
-The word used to define functions is `def` not `de`.
+The keyword used to define functions is `def`, not `de`.
 %
 ---
 class A:
@@ -61,7 +61,7 @@ a.printPi
 //a.printPi()
 
 %exp
-In order to call a function, apart from the name of the function we need to use "()".
+In order to call a function, apart from the name of the function we need to use `()`.
 %
 ---
 for i in [1,2,3]:
@@ -73,7 +73,7 @@ for k in {"x"= 1, "y"= 2}:
     print(k)
 
 %exp
-Here we need to replace "=" sign with ":".
+The correct syntax requres `:` instead of  `=`.
 %
 ---
 class Enki:
@@ -86,7 +86,7 @@ class Enki:
 		return 3
 
 %exp
-There is a typo here, it is `return`, not `retrun`.
+There is a typo here: it is `return`, not `retrun`.
 %
 ---
 def gcd(x, y):
@@ -97,7 +97,7 @@ def gcd(x, y):
 print(gcd(20,30))
 
 %exp
-To check whether if two things are not equal we use `!=` not `!==`.
+To check whether if two things are not equal we use `!=`, not `!==`.
 %
 ---
 def gcd(a, b):
@@ -109,8 +109,8 @@ def gcd(a, b):
 print(gcd(45,90))
 
 %exp
-In order to get the greatest common divisor using `gcd` fucntion we define, the condition asked in the `if` statement must be
-`(b==a)` not `(b==0)`
+In order to get the greatest common divisor using `gcd` function we define, the condition checked by `if`  statement must be
+`(b==a)` not `(b==0)`.
 %
 ---
 def exp(x, n):
@@ -124,7 +124,7 @@ def exp(x, n):
 print(exp(2,3))
 
 %exp
-In python we can use a collapse `else` and `if`, which written as `elif`.
+The correct syntax for `else if` in Python is `elif`.
 %
 ---
 from math import PI
@@ -136,6 +136,6 @@ def circleArea(radius):
 print(circleArea(4))
 
 %exp
-`pi` value is spelled in capital letters here, but the correct syntax is with lower case letters.
+`pi` value is spelled with capital letters, instead of lower case, but the correct syntax is with lower case letters.
 %
 ---
