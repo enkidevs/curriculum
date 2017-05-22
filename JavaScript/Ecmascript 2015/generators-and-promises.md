@@ -94,7 +94,9 @@ timeout(1000).???((lastTime) => {
 * next
 * success
 %exp
-When working with promises, the `then()` function is used to manipulate values returned by async operations, chaining promises together. When the first promise in the chain gets resolved(in this case, `timeout`'s promise gets resolved after 1000ms), every other promise in the chain is resolved, logging `It's been: 1000ms`(or a value very close to it) to the console.
+When working with promises, the `then()` function is used to manipulate values returned by async operations, chaining promises together.
+
+When the first promise in the chain gets resolved (in this case, `timeout`'s promise gets resolved after 1000ms), `then()` is invoked, logging `It's been: 1000ms`(or a value very close to it) to the console.
 %
 
 ---
@@ -136,7 +138,7 @@ Promise.???(
 * multi
 * then
 %exp
-The `all()` function returns a single promise that resolves when all other promises in the argument have resolved, or rejects with the first rejected promise's error.
+The `all()` function returns a single promise that resolves when all promises passed as an array in the arguments have resolved, or rejects with the first rejected promise's error.
 %
 
 ---
