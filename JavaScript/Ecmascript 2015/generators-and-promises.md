@@ -1,4 +1,4 @@
-# Generators and Promises
+# Generators and Promises.
 author: gregbenner
 
 levels:
@@ -20,7 +20,7 @@ tags:
   - async
 
   - functional programming
-
+ 
 links:
 
   - >-
@@ -29,7 +29,7 @@ links:
 ---
 ## Content
 
-Some of the most exiting features of `ES6` are **generators** and **promises**.
+Some of the most exiting features of ES6 are generators and promises.
 
 Can you fill in the gaps in the following code snippets such that they make sense?
 
@@ -51,6 +51,10 @@ console.log(genObj.next());
 * 'E' , done
 * 'E' , next
 * 'n' , done
+%exp
+Generators are functions with multiple `yield` expressions, which are like "pause" buttons. When the `next()` function is called, the generator goes to the next unvisited yield. The object returned has the `value` field, which contains the yielded object, and a `done` field, which states whether there are any yields left inside the generator.
+%
+
 ---
 
 ```
@@ -68,11 +72,12 @@ genObj.next('E');
 * 1. E
 * 1. n
 * 1. k
+%exp
+The first `next()` pauses the generator in the middle of a `console.log()`. The second one sends `E` to the waiting expression, which ends up logging `1. E`.
+%
 
-```
 ---
 ```
-
 function timeout(delay) {
   return new Promise((resolve, reject) => {
     setTimeout(resolve, delay, Date.now());
@@ -88,6 +93,10 @@ timeout(1000).???((lastTime) => {
 * then
 * next
 * success
+%exp
+When working with promises, the `then()` function is used to manipulate values returned by async operations, chaining promises together. When the first promise in the chain gets resolved(in this case, `timeout`'s promise gets resolved after 1000ms), every other promise in the chain is resolved, logging `It's been: 1000ms`(or a value very close to it) to the console.
+%
+
 ---
 
 ```
@@ -103,6 +112,10 @@ newPet.???((err)=> {
 * catch
 * error
 * fail
+%exp
+Unlike `then()`, `catch()` is used to handle rejected promises. In this case, the error message is logged.
+%
+
 ---
 
 ```
@@ -122,3 +135,8 @@ Promise.???(
 * all
 * multi
 * then
+%exp
+The `all()` function returns a single promise that resolves when all other promises in the argument have resolved, or rejects with the first rejected promise's error.
+%
+
+---
