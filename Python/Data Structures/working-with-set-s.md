@@ -1,9 +1,9 @@
-# Working with `set`s
+# Sets
 author: catalin
 
 levels:
 
-  - advanced
+  - beginner
 
 type: normal
 
@@ -20,52 +20,36 @@ links:
 ---
 ## Content
 
-Python's `sets` work like mathematical sets. Unlike `tuples` or `lists`, a `set` can't contain **duplicate** items. Its items are **unordered**.
+Python's `sets` work like mathematical sets. Unlike `tuples` or `lists`, a `set` contains **unique**, **unordered** items.
 
-Create a set with the `set` keyword; pass an `iterable` as argument:
+One way of creating a set is by calling the `set` constructor function and passing an `iterable` as argument:
 ```python
->>> enki = "Enki"
->>> s = set(enki)
->>> s
-{'i', 'n', 'k', 'E'}
+enki = "Enki"
+s = set(enki)
+print(s)
+# {'i', 'n', 'k', 'E'}
 ```
 
-Create a set with `{ } ` constructor :
+Another way is by using the default `{ } ` constructor :
 ```python
 >>> s = {'E', 'n', 'k', 'i'}
 >>> s
 {'k', 'E', 'i', 'n'}
 ```
 
-`Sets` support union, intersection, difference, symmetric difference and membership test operations:
+`Sets` support union, intersection, difference, symmetric difference and membership test operations, of which we'll talk in a later workout.
 
-```python
->>> s1 = set([1,2])
->>> s2 = set([2,3])
->>> s1 | s2     #union
-{1, 2, 3}
->>> s1 & s2     #intersection
-{2}
->>> s1 - s2     #difference
-{1}
->>> s1 ^ s2     #symmetric difference
-{1, 3}
->>> 1 in s1     #membership test
-True
->>> 4 in s1     #membership test
-False
-```
-Since sets remove duplicates, they can be used to find the unique items in an iterable.
+One useful application of them is to extract unique items from another iterable data structure.
 
 ---
 ## Practice
 
 Which character(s) is used when finding the symmetric difference between two sets? ???
 
-*`^` 
-*`s` 
-*`s+` 
-*`s-` 
+*`^`
+*`s`
+*`s+`
+*`s-`
 *`s^`
 
 ---
