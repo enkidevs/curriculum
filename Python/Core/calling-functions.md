@@ -19,11 +19,11 @@ To call a function in Python you simply write the functions name followed by som
 For example:
 
 ```python
-// To define
+# To define
 def new_func():
     print ('Function time!')
 
-// To call
+# To call
 new_func()
 
 ```
