@@ -71,10 +71,10 @@ For any undirected graph represented as a matrix, you can be sure that the cells
 ---
 ## Revision
 
-Which of the following statements is describing a adjacency list?
+Which of the following statements is describing an adjacency list?
 
 ???
 
-* A list of incident edges for each node.
-* A list of all edges.
+* A list describing the set of neighbours for each node.
+* An unordered list of all edges.
 * A matrix of size N*N, where N is the number of nodes.
