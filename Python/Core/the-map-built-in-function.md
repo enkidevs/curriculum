@@ -47,14 +47,14 @@ newscores = list(map(lambda x: x+2, scores))
 
 Notice we use the `list` built-in function here, which takes any iterable argument and returns a list of items in the same order. Since we pass `map` to `list`, and `map` already returns a list, `list` creates a copy of this list and returns that. Notice also our use of a *lambda function* which takes any number and adds 2 to it.
 
-Finally, it's good to know that you can pass more than one iterable `input_list` to `map` at once, and&mdash;if your function can take as many arguments at once as there are `input_list`s&mdash;the function is applied to the items from all inputs in parallel. If one input is shorter than the other, it is assumed to be extended to the same length with `None` items. Alternatively, if the function is `None`, then the identity function is assumed.
+Finally, it's good to know that we can pass more than one iterable `input_list` to `map` at once, and&mdash;if the function can take as many arguments at once as there are `input_list`s&mdash;the function is applied to the items from all inputs in parallel. If one input is shorter than the other, it is assumed to be extended to the same length with `None` items. Alternatively, if the function is `None`, then the identity function is assumed.
 
 *Remember, in functional programming, functions can take functions. So, instead of a list of data, `map` may take a list of functions, and output a list of new functions. This gives a sense of how versatile and useful the `map` function can be.*
 
 ---
 ## Practice
 
-Let's say I have a list, called `promises`. I want to `make_good` on all my promises, where `make_good` is a previously-defined function that takes a string. Fill in the blanks in the code below to apply `make_good` to all elements in `promises`.  
+Let's say we have a list, called `promises`. We want to `make_good` on all our promises, where `make_good` is a previously-defined function that takes a string. Fill in the blanks in the code below to apply `make_good` to all elements in `promises`.  
 
 ```python
 promises = ['learn css', 'learn js',
@@ -73,7 +73,7 @@ promises = ???(???, ???)
 ---
 ## Revision
 
-I'm using the map function on two lists of integers at the same time. What's the output from the following code snippet?
+We are using the map function on two lists of integers at the same time. What is the output from the following code snippet?
 
 ```python
 scores = [1, 0, 4, 5]
@@ -94,4 +94,4 @@ print newscores
 ## Footnotes
 
 [1:input_list]
-*As long as your `input_list` argument given to `map` is of type `iterable`, `map` should work. To check this you can use duck typing or type checking of Abstract Base Classes (ABCs)*
+*As long as our `input_list` argument given to `map` is of type `iterable`, `map` should work. To check this you can use duck typing or type checking of Abstract Base Classes (ABCs)*
