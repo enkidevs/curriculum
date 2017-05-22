@@ -20,7 +20,7 @@ tags:
   - async
 
   - functional programming
- 
+
 links:
 
   - >-
@@ -52,7 +52,7 @@ console.log(genObj.next());
 * 'E' , next
 * 'n' , done
 %exp
-Generators are functions with multiple `yield` expressions, which are like "pause" buttons. When the `next()` function is called, the generator goes to the next unvisited yield. The object returned has the `value` field, which contains the yielded object, and a `done` field, which states whether there are any yields left inside the generator.
+Generators are functions with multiple `yield` expressions, which act like "pause" buttons. When the `next()` function is called, the generator goes to the next unvisited yield. The object returned by the generator has the `value` field, which contains the yielded object, and a `done` field, which states whether there are any yields left.
 %
 
 ---
