@@ -23,7 +23,7 @@ while condition:
     doSomething()
 ```
 
-Whilst the condition evaluates to *true*, the code inside the loop is executed, as soon as the condition evaluates to *false* the loop is exited and the code immediately following the loop is executed. 
+Whilst the condition evaluates to *true*, the code inside the loop is executed, as soon as the condition evaluates to *false* the loop is exited and the code immediately following the loop is executed.
 
 For example:
 
@@ -48,7 +48,7 @@ Gives the following output:
 
 What’s the output of the following code snippet:
 
-```
+```python
 x = 0
 while (x < 5):
      x = x + 1
@@ -56,7 +56,7 @@ while (x < 5):
 ```
 ???
 
-*`1 2 3 4 5` 
-*`0 1 2 3 4` 
-*`1 2 3 4` 
+*`1 2 3 4 5`
+*`0 1 2 3 4`
+*`1 2 3 4`
 *`0 1 2 3 4 5`

@@ -14,9 +14,9 @@ category: must-know
 ---
 ## Content
 
-Unlike other programming languages such as C, Python allows the use of `else` statements with loops. 
+Unlike other programming languages such as C, Python allows the use of `else` statements with loops.
 
-They are implemented so once a `for` or `while` loops condition evaluates to false, the `else` is executed. 
+They are implemented so once a `for` or `while` loops condition evaluates to false, the `else` is executed.
 
 For example, an `else` statement integrated into a `while` loop:
 ```python
@@ -59,9 +59,9 @@ Value too big!
 
 An `else` statement is used in loops when the loops ??? is evaluated to ???.
 
-*condition
-*false
-*null
-*true
-*statement
-*parameter
+* condition
+* false
+* null
+* true
+* statement
+* parameter
