@@ -48,7 +48,7 @@ The input is: Hello Word.
 2.Lets try to use the `eval` function:
 
 ```
-colours = eval(input("Favourite colours:"))
+colours=eval(input("Favourite colours:"))
 print(colours, type(colours))
 ```
 The output will be as follows:
