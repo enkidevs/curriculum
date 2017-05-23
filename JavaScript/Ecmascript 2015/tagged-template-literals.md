@@ -20,19 +20,19 @@ links:
 ---
 ## Content
 
-ES6 introduces a new feature called template literals that make it easier to work with strings by replacing values and defining strings on multiple lines e.g.:
+ES6 introduces a new feature called template literals that make it easier to work with strings by replacing values and defining strings on multiple lines: 
 
 ```
 var company = "Enki";
 console.log(
 `Hello ${company} hows it going?`
-); 
+);
 //Hello Enki hows it going?
 ```
 
-Tagged template literals allow you to process string and replacement values on a template literal. 
+Tagged template literals allow you to process string and replacement values within a template literal.
 
-They are created when a function call is specified before the literal itself e.g.
+They are created when you specify a function to be called before the literal itself e.g.
 
 ```
 myFunc `Hello ${company} hows it going?`
@@ -42,24 +42,22 @@ But what arguments will myFunc receive?
 
 myFunc will receive 2 sets of parameters, **literals** and **replacement** values.
 
-We can see this in action by defining myFunc:
+We can see this in action by defining myFunc as the following:
 
 ```
-function myFunc(literals, replacement){
- console.log(literals);  
- console.log(replacement);
+function myFunc(literals, ...replacement){
+ console.log('literals: ' + literals);  
+ console.log('replacement: ' + replacement);
 }
 ```
 
-Which will result in the following output:
+This will result in the following console output:
 
 ```
-//literals:
-//["Hello ", 
-" hows it going?", 
-raw: Array[2]]
-//replacement:
-// enki
+literals: Hello , hows it going?
+replacement: Enki
 ```
+
+We could use this functionality to perform additional processing on literals and replacement values e.g. maybe translating them.
 
 ---

@@ -20,7 +20,7 @@ Understanding the `PATH` environment variable and how to manipulate it is one of
 
 ### What Does The `PATH` Variable Contain?
 
-The `PATH` variable itself contains a `:`-delimited list of directories.
+The `PATH` variable itself contains a `:`-delimited list of directories. 
 
 See for yourself:
 
@@ -56,9 +56,9 @@ If the `PATH` variable looks like this:
 $ echo $PATH
 /usr/bin:/bin:/local/binaries
 ```
-In what order the shell will visit the folders in `PATH` to find a valid executable for `somecommand`?
+In what order will the shell visit the folders in `PATH` to find a valid executable for `somecommand`?
 
-??? 
+???
 
 ???
 
@@ -72,9 +72,9 @@ In what order the shell will visit the folders in `PATH` to find a valid executa
 ---
 ## Revision
 
-The `command not found` error is thrown if the executable couldn’t be found 
+The `command not found` error is thrown if the executable couldn’t be found
 
-??? 
+???
 *in the list of folders contained in the PATH variable.
 *anywhere on the system.
 *in the local folder.

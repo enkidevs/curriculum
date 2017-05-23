@@ -1,4 +1,4 @@
-# Avoid command injection 
+# Avoid command injection
 author: catalin
 
 levels:

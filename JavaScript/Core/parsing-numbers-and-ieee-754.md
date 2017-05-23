@@ -24,21 +24,26 @@ links:
 
 If you want to convert string input to a number type you can use the *parseInt* and *parseFloat* methods.
 
-These accept 2 arguments:
+*parseInt* accepts 2 arguments:
 - Value to be converted
 - Radix or base of the number system to use
 
-The base defaults to 10 on later browsers but it is best to specify as this is not the case on older browsers:
+The Radix or base defaults to 10 on later browsers but it is probably still best to specify as this is not the case on older browsers.
+
+*parseFloat* accepts just one argument:
+- Value to be converted
+
+The below example shows how to use *parseInt* and *parseFloat*:
 
 ```
 parseInt("10", 10);//base 10, 10
-parseInt(“011”, 2);//binary, 3
-parseFloat(“0.1”, 10);//base 10, 0.1
+parseInt("011", 2);//binary, 3
+parseFloat("0.1");// 0.1
 ```
 
-If we try to parse a value that cannot be converted, then JavaScript will return NaN (not a number):
+If we try to parse a value that cannot be converted, then JavaScript will return a special value called NaN (not a number):
 ```
-parseInt(“abc”,10);//NaN
+parseInt("abc",10);//NaN
 ```
 
 **IEEE-754**

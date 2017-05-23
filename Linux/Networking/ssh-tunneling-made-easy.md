@@ -28,10 +28,10 @@ You can also use an SSH tunnel between your computer and your Unix/BSD/Linux ser
 
 For example, to connect to a specific server and port through `ssh`, run:
 ```
-$ ssh -L yourport:host:hostport \ 
+$ ssh -L yourport:host:hostport \
      username@ssh_server
 ```
-The port is then made available and we can connect to it as `127.0.0.1:yourport` thus tunneling the traffic to `server:port` 
+The port is then made available and we can connect to it as `127.0.0.1:yourport` thus tunneling the traffic to `server:port`
 
 Bonus example to connect to an external IRC server:
 ```
@@ -45,16 +45,35 @@ After that we issue this command on our IRC client:
 ```
 
 ---
+## Practice
+
+The usual syntax to use a SSH tunnel is:
+```
+$ ??? ??? \
+    ??? \
+    ???
+```
+* `ssh`
+* `-L`
+* `port:host:hostport`
+* `username@ssh_server`
+* `-t`
+* `port:host`
+
+---
 ## Revision
 
-The usual syntax to use an SSH tunnel is:
+Complete the following code snippet such that a connection to a specific server is made through `ssh`:
 ```
-$ ??? ??? 
-    ??? ???
+$ ??? ??? \
+  yourport:host:hostport \
+  username@ssh_server
 ```
-*`ssh`
-*`-L`
-*`port:host:hostport`
-*`username@ssh_server`
-*`-t`
-*`port:host`
+* `ssh`
+* `-L`
+* `-T`
+* `ssh-tunnel`
+* `tunnel`
+* `--tunnel`
+* `-t`
+* `-l`

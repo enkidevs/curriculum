@@ -34,7 +34,7 @@ If we just want to just use specific functions from a module we can do so with t
 
 ```
 import { triple as mathFuncs } 
-from 'double';
+from 'mathFuncs';
 mathFuncs.triple(2); //6
 mathFuncs.double(2); //error not imported
 ```
@@ -57,10 +57,15 @@ We can also declare a single default function or class to be exported by using t
 
 ```
 export default person { ··· }
+```
+
+When we want to use this in another file we would use the following:
+
+```
 import person from 'person';
 ```
 
-Note that modules like variables are hoisted but imports and exports must exist at the top level of a module and cannot be conditional so the below is is invalid:
+Note that modules like variables are hoisted but imports and exports must exist at the top level of a module and cannot be conditional so the below is invalid:
 
 ```
 if (condition) {

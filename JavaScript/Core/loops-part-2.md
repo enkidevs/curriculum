@@ -14,7 +14,7 @@ category: must-know
 ---
 ## Content
 
-*for in* loops allows you to iterate through an objects keys. E.g. the keys below are firstName and lastName:
+*for in* loops allow you to iterate through an objects keys. E.g. the keys below are firstName and lastName:
 
 ```
 var obj = {
@@ -38,15 +38,29 @@ for (var i in obj) {
 ```
 var iterable = [10, 20, 30];
 for (var i of iterable) {
-   console.log(i);
+   console.log(i); //10 20 30
 }
 ```
 
 **Why use for of?**
 
-*for of* loops will only iterate over an objects values **not** inherited properties like the *for in* loop will. 
+*for of* loops will only iterate over an objects values  and **not** inherited properties like the *for in* loop will. 
 
-If you want to check just properties declared on the object itself use the  *object.hasOwnProperty*.
+For example note how the for in loop below returns newFunc that was added to array's prototype:
+
+```
+Array.prototype.newFunc = function() {};
+var iterable = [10, 20, 30];
+
+for (var i in iterable) {
+   console.log(i); //0 1 2 newFunc
+}
+
+for (var i of iterable) {
+   console.log(i); //10 20 30
+}
+
+```
 
 **break and continue**
 
@@ -54,13 +68,19 @@ The break statement exits out of a loop and continue will go to the next iterati
 
 ```
 do {
-   i++;
+  i++;
+  if(i===2){
+    //skip over 2nd iteration
+    continue;
+  }
+  if(i===5){
+    //exit loop
+    break;
+  }
 
-   if(i===5){
-      break;
-   }  
+  console.log(i);    
 } while (i<10);
-//0 1 2 3 4
+//1 3 4
 
 ```
 

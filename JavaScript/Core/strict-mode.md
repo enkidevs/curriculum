@@ -26,14 +26,14 @@ EcmaScript **version 5** introduced a feature called **strict mode** that makes 
 
 Strict mode takes a number of probable mistakes that would either work, or fail silently and turn them into errors.
 
-Arguably one of the most important issues strict mode will catch is that it will throw errors if you forget to use the ```var``` statement when declaring variables thus preventing global variables being accidentally  created.
+Arguably one of the most important issues strict mode will catch is that it will throw errors if you forget to use the `var` statement when declaring variables, thus preventing global variables being accidentally created.
 
 All the rules are pretty sensible so it is highly recommended to enable *strict mode*.
 
 
 **Enabling strict mode**
 
-Strict mode is an opt in feature to avoid breaking existing code. 
+Strict mode is an opt in feature to avoid breaking existing code.
 To enable strict mode, simply add the following string literal:
 ```
 "use strict";
@@ -47,7 +47,7 @@ Warning! This will apply strict mode to code in the current scope. So you probab
 How do you enable **strict mode** in EcmaScript 5?
 
 ```
-"??? ???"
+"??? ???";
 ```
 *`use`
 *`strict`
@@ -65,7 +65,7 @@ How do you enable **strict mode** in EcmaScript 5?
 How do you enable **strict mode** in EcmaScript 5?
 
 ```
-"??? ???"
+"??? ???";
 ```
 *`use`
 *`strict`

@@ -64,10 +64,14 @@ $ ??? ??? ???
 ---
 ## Revision
 
-Which command breaks down text at a specified *width*?
+Use the `fold` command to line-break the content of `enki.txt` every 20 characters:
+```
+??? ??? enki.txt
 
-???
-*fold
-*cat
-*nl
-*break
+```
+* `fold`
+* `-w20`
+* `20`
+* `-w=20`
+* `--width`
+* `enki.txt`

@@ -1,4 +1,4 @@
-# Environmental variables and flags for `npm`
+# Flags for `npm`
 author: catalin
 
 levels:
@@ -11,10 +11,13 @@ type: normal
 
 category: best practice
 
+parent: check-data-about-a-package
+
 links:
 
   - >-
     [strongloop.com](https://strongloop.com/strongblog/3-neat-tricks-with-npm-run/){website}
+
 
 ---
 ## Content
@@ -36,7 +39,7 @@ Suppose your application relies on the `env NODE_PATH ./` trick, but also on oth
 ```json
 {
   "scripts": {
-    "start": "env NODE_PATH=./ node 
+    "start": "env NODE_PATH=./ node
         --harmony_proxies index.js"
   }
 }
@@ -49,7 +52,7 @@ Complete the start script to support `--harmony` flag in `package.json`:
 ```json
 {
   "scripts": {
-    "???": "env NODE_PATH=./ ??? 
+    "???": "env NODE_PATH=./ ???
         --harmony index.js"
   }
 }

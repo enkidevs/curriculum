@@ -2,6 +2,6 @@ language: java
 
 deviconsClass: devicons-java
 
-color: E2282E
+color: C15757
 
 description: Classes, objects and coffee — the foundation on which Java was built.

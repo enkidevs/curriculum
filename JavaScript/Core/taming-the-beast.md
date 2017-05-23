@@ -5,7 +5,7 @@ levels:
 
   - basic
 
-  - advanced
+  - beginner
 
   - medium
 
@@ -51,7 +51,7 @@ alert(x == false);
 ```
 * false
 * true
-* 
+*
 ---
 ```
 var enki;
@@ -99,8 +99,8 @@ alert(x === false);
 * `undefined`
 ---
 ```
-var a = function b(){ 
-  return 'Hi World'; 
+var a = function b(){
+  return 'Hi World';
 };
 typeof(b());
 ```

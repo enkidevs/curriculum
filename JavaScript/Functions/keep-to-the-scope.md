@@ -3,9 +3,9 @@ author: rosielowther
 
 levels:
 
-  - basic
+  - beginner
 
-  - advanced
+  - basic
 
   - medium
 

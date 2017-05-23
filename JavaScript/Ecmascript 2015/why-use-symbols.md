@@ -37,11 +37,9 @@ This is better than just defining a const string as there would be nothing to st
 ```
 const highDiscountLevel ="high";
 
-//uh oh 2 const's 
+//uh oh 2 consts 
 //representing same thing
 const anotherDiscountLevel="high";
 ```
 
 Probably Symbols most important purpose is to introduce non-breaking changes to JavaScript let's talk about this next.
-
----

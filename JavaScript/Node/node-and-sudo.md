@@ -1,4 +1,4 @@
-# Node and `sudo` 
+# Node and `sudo`
 author: catalin
 
 levels:

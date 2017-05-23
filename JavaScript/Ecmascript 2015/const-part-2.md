@@ -23,6 +23,8 @@ x = 5;
 console.log(y); //still 1
 ```
 
+Additionally note that modifying a property of an object referenced by a constant will not throw an error and the property will be changed.
+
 **const and objects**
 
 Objects can also be declared as constants.
@@ -43,10 +45,11 @@ It is important to note however that the values of the object can be modified so
 p.first = "bob"; //valid
 ```
 
-If you don’t want anyone to be able modify the object at all be sure to use *Object.freeze* function.
+If you don’t want anyone to be able modify the object at all be sure to use Object.freeze[1] function.
 
 ---
 ## Footnotes
 
+[1:Object.freeze]
 For more information on *Object.freeze* see (MDN)
 [https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze]

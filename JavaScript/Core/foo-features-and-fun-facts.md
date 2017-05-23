@@ -7,7 +7,6 @@ levels:
 
   - advanced
 
-  - medium
 
 type: fillTheGap
 
@@ -18,7 +17,7 @@ notes: 3 more questions? curr up to 11
 ---
 ## Content
 
-
+Do you know what is the **output** of the following code snippets?
 
 ---
 ## Game Content
@@ -80,7 +79,7 @@ console.log(typeof bar());
 "1" - - "1";
 ```
 * 2
-* 0 
+* 0
 * 11
 ---
 ```

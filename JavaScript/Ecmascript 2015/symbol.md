@@ -54,6 +54,6 @@ var sym2 = Symbol("Enki");
 sym1 === sym2; //false
 ```
 
-This probably is not what you would expect but remember Symbol are always unique.
+This probably is not what you would expect but remember Symbols are always unique.
  
 If you want to be able to access the same symbol using a key, we can use the Symbol registry which we will discuss next.

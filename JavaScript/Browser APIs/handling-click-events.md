@@ -29,19 +29,19 @@ Keep in mind that click events will also trigger some mouse events.
 
 Click events supported in JavaScript:
 - `click` : `mousedown` and `mouseup` events are also triggered before
-- `contextmenu` : it's preceded by `mousedown` and succeded by `mouseup` 
-- `dbclick` : triggers two complete `click`s before the double.
+- `contextmenu` : it's preceded by `mousedown` and succeded by `mouseup`
+- `dblclick` : triggers two complete `click`s before the double.
 
-The order is consistent across all browsers except **IE<9** which skips second `click` on `dbclick`.
+The order is consistent across all browsers except **IE<9** which skips second `click` on `dblclick`.
 
 Add a listener to these events:
 ```javascript
-myVar.addEventListener('click', 
-myClickFunction, false);
-myVar.addEventListener('dbclick', 
-myDoubleClickFunction, false);
+myVar.addEventListener('click',
+myClickFunction);
+myVar.addEventListener('dblclick',
+myDoubleClickFunction);
 ```
-To handle both single clicks and double clicks **simultaneously** a timer (around `100 ms`) should be implemented. If after a click, another one is registered within this timer, the double click function should be called. Otherwise, the single click one should be.
+To handle both single clicks and double clicks **simultaneously** a timer (around `100 ms`) should be implemented. If after a click another one is registered within the time frame, the double click function is called. Otherwise, the single click function is called.
 
 ---
 ## Practice
@@ -49,11 +49,10 @@ To handle both single clicks and double clicks **simultaneously** a timer (aroun
 Add a listener to a `double click` event:
 
 ```javascript
-myVar.???('???', myDoubleClickFunction, 
-              false);
+myVar.???('???', myDoubleClickFunction);
 ```
 * `addEventListener`
-* `dbclick`
+* `dblclick`
 * `addListener`
 * `eventListener`
 * `double-click`
@@ -66,12 +65,12 @@ myVar.???('???', myDoubleClickFunction,
 Add a listener to a `click` event:
 ```javascript
 myVar.???(???,
-  myCLickFunction, false);
+  myCLickFunction);
 ```
 
 *`addEventListener`
 *`click`
-*`dbclick`
-*'addClickListener`
+*`dblclick`
+*`addClickListener`
 *`false`
 *`contextmenu`

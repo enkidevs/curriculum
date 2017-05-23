@@ -18,9 +18,9 @@ category: must-know
 
 One of the particularities of the language that makes it so widely used is that compiled Java code runs on any machine that supports java, without recompilation. This principle is called *"write once, run anywhere"* (WORA).
 
-Java classes are compiled to `bytecode`, which is understandable to any Java Virtual Machine (*JVM*).
+Java classes are compiled to `bytecode`, which any Java Virtual Machine (*JVM*) can understand.
 
-The most recent major Java release is *Java SE 8*, or simply `Java 8`, which is also the only one supported outside enterprises.
+The most recent major Java release is *Java SE 8*, or simply `Java 8`.
 
 In short, Java is trying to be an object-oriented, secure, portable, threaded and dynamic language. We will discuss all these terms in future insights.
 

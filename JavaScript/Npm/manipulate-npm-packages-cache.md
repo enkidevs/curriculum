@@ -13,6 +13,8 @@ type: normal
 
 category: feature
 
+parent: check-data-about-a-package
+
 links:
 
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/cache){website}'
@@ -27,24 +29,24 @@ This proves useful as a drop-in **faster** replacement for build scripts that ru
 
 The `npm cache add` command adds a package to the local cache. The primary intention of this command is to be used internally by `npm`, but it also provides a way of explicitly adding data to the local installation cache.
 ```bash
-npm cache add myFolder
-npm cache add myTarballUrl
-npm cache add myPackage@myVersion
+$ npm cache add myFolder
+$ npm cache add myTarballUrl
+$ npm cache add myPackage@myVersion
 ```
 
 To show data in the cache, `ls ` can be used:
 ```bash
-npm cache ls [myPath]
+$ npm cache ls [myPath]
 ```
 
 To clear data from the cache:
 ```bash
-npm cache clean [myPath]
+$ npm cache clean [myPath]
 ```
 
 If no argument is provided, the entire cache will be deleted.
 
 `npm` stores data in the directory specified in:
 ```bash
-npm config get cache
+$ npm config get cache
 ```

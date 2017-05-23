@@ -5,57 +5,82 @@ levels:
 
   - basic
 
-  - advanced
-
-  - medium
-
 type: normal
 
 category: caveats
 
-tags:
-
-  - ''
-
 links:
 
-  - >-
-    [www.standardista.com](http://www.standardista.com/javascript/15-common-javascript-gotchas){website}
+  - "[www.standardista.com](http://www.standardista.com/javascript/15-common-javascript-gotchas){website}"
 
 ---
 ## Content
 
-The `==` operator does not care for types. Therefore the following alert will show:
+The `==` operator does not care for types. Therefore, the following `if` condition will pass:
 
-```
+```js
 var test = 5;
-if(test == '5'){ 
-  alert("Hello World?");  
+if (test == '5'){
+  console.log('Ay caramba');  
 }
+// Ay caramba
 ```
-
-However, JavaScript is using strict comparision (similar to `===`) in `switch` statements:
+Instead, the `===` operator won't do any type conversion and the `if` condition will be evaluated to `false`:
+```js
+if (test === '5') {
+  console.log('Ay caramba');
+} else {
+  console.log('Expected');
+}
+// Expected
 ```
+Keep in mind that **JavaScript** uses **strict comparison** for `switch` statements:
+```js
 var test = 5;
-switch(test){
+switch (test) {
   case '5':
-  alert("Hello World?"); 
+    console.log('Ay caramba');
 }
 ```
 
-This alert will not show since the data types do not match.
+Therefore, the code snippet above won't `log` anything.
+
+---
+## Practice
+
+Complete the following code snippet such that `A` is logged to the `console`:
+```js
+var x = 1;
+switch (???) {
+  ??? ???:
+    console.log('A');
+}
+// A
+```
+
+* `x`
+* `case`
+* `1`
+* `'1'`
+* `default`
+* `'5'`
+* 5
+* `one`
+* `A`
+* `'A'`
 
 ---
 ## Revision
 
-The following code snippet would output ??? .
+What will the following snippet output?
 ```javascript
 var x = 10;
 switch(x){
   case '10':
      console.log("Hi!");
 }
+// ???
 ```
-*nothing
-*Hi!
-*an error
+* `nothing`
+* `'Hi!'`
+* `an error`

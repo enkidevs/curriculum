@@ -11,6 +11,8 @@ type: normal
 
 category: must-know
 
+parent: custom-proptype-s-to-be-required
+
 links:
 
   - >-
@@ -31,7 +33,7 @@ var divStyle = {
   msTransition: 'all'
 };
 ```
-All style keys are *camelCase*d to provide consistency, yet vendor prefixes should begin with capital letters ( `ms` is the only exception).
+All style keys are *camelCased* to provide consistency, yet vendor prefixes should begin with capital letters ( `ms` is the only exception).
 
 Apply the style:
 ```javascript

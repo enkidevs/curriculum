@@ -39,13 +39,13 @@ $ cat ~/.ssh/id_rsa.pub
 ```
 All is left to do is to copy your key to the server:
 ```
-$ cat ~/.ssh/id_rsa.pub | 
-    ssh user@hostname 'cat >> 
+$ cat ~/.ssh/id_rsa.pub |
+    ssh user@hostname 'cat >>
        ~/.ssh/authorized_keys &&
        chmod 700 ~/.ssh/ &&
        chmod 600 ~/.ssh/authorized_keys'
 ```
-The command will make you connect to the server, paste your key into the *authorized_keys* file on the server and ensure that you are the only one who can access the file by setting up permissions. 
+The command will make you connect to the server, paste your key into the *authorized_keys* file on the server and ensure that you are the only one who can access the file by setting up permissions.
 
 The permission part is necessary, otherwise the server won't recognize your key when trying to connect.
 
@@ -59,9 +59,28 @@ $ ssh-copy-id user@hostname
 ```
 
 ---
+## Practice
+
+Complete the following code snippet such that, by running it, a SSH `rsa` key pair is generated:
+```
+$ ??? -t ???
+```
+
+* `ssh-keygen`
+* `rsa`
+* `ssh`
+* `keygen`
+* `sshKeygen`
+* `generatre`
+* `ssh-rsa`
+* `public`
+* `private`
+* `--pair`
+
+---
 ## Revision
 
-The file on the server in which to add your ssh key to set up password-less log in is 
+The file on the server in which to add your ssh key to set up password-less log in is
 
 ???.
 *~/.ssh/authorized_keys

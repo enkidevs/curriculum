@@ -14,13 +14,19 @@
 2. Find the relevant topic and subtopic folder.
 3. Create files or edit existing files and make pull requests on a new branch directly on the GitHub content repo.
 
+## To create a topic
+1. Navigate to the root folder of the content repo.
+2. In Terminal, type `yo enki:topic`  
+3. Follow the instructions in Terminal to create your topic.
 
-## To edit an insight
-1. Open the file you’d like to edit (either locally or on GitHub).
-2. Edit and make relevant changes
-3. Make a pull request on a new branch with your changes.
-4. A reviewer will review your PR and approve merge when ready.
 
+## To create a subtopic
+1. Navigate to the Topic folder that your Subtopic belongs to.
+  1. For example, if you are creating ‘React’ navigate to ‘Javascript’.
+2. In Terminal, type `yo enki:subtopic` 
+3. Follow the instructions in Terminal to create your subtopic.
+
+**NOTE: Before create a subtopic for a non-existing topic in master branch, you need to create the topic and merge it first, if you don't do it, automated checks will throw a related error**
 
 ## To create an insight
 
@@ -44,6 +50,13 @@ All insights should follow the [Insight Guidelines](https://github.com/enkidevs/
 5. Create your insight based on the insight template.
 6. Create your pull request on a new branch when you’ve finished.
 
+**NOTE: Before create an insight for a non-existing subtopic in master branch, you need to create the subtopic and merge it first, if you don't do it, automated checks will throw a related error**
+
+## To edit an insight
+1. Open the file you’d like to edit (either locally or on GitHub).
+2. Edit and make relevant changes
+3. Make a pull request on a new branch with your changes.
+4. A reviewer will review your PR and approve merge when ready.
 
 ## To create a game
 
@@ -67,10 +80,16 @@ All insights should follow the [Insight Guidelines](https://github.com/enkidevs/
 
 
 ## Previewing changes or new content
+
+**Locally:**
+
+1. Install the preview markdown tool `nk-md` from https://github.com/enkidevs/nk-md
+
+**On GitHub/web:**
+
 1. When you’ve submit your insight or changed an insight, a bot will comment on your PR with links to preview your changes or newly created insight.
 2. You can test the visual of the insight, the revision questions, game, or any other element of the insight from these links.
 3. In addition, automated checks will validate the format of your insight below the comments.
-
 
 ## Reviewing content
 1. To review content changes or new content, view the open pull requests on the content repo.
@@ -88,16 +107,3 @@ All insights should follow the [Insight Guidelines](https://github.com/enkidevs/
 
 4. Paste the code displayed into your insight to insert your image.
 5. Preview the insight after submitting your pull request to check the image addition worked.
-
-
-## To create a topic
-1. Navigate to the root folder of the content repo.
-2. In Terminal, type `yo enki:topic`  
-3. Follow the instructions in Terminal to create your topic.
-
-
-## To create a subtopic
-1. Navigate to the Topic folder that your Subtopic belongs to.
-  1. For example, if you are creating ‘React’ navigate to ‘Javascript’.
-2. In Terminal, type `yo enki:subtopic` 
-3. Follow the instructions in Terminal to create your subtopic.

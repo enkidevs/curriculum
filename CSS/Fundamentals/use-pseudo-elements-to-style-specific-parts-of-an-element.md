@@ -23,17 +23,17 @@ links:
 ---
 ## Content
 
-Pseudo-elements are preceded by two colons `::`. 
+Pseudo-elements are preceded by two colons `::`.
 
 The syntax is as follows:
 ```css
 selector::pseudo-element {
   property: value;
 }
-``` 
+```
 An example of a pseudo-element is `::before`. This will create and style a pseudo-element placed before the real element.
 
-The full list of pseudo-elements is:
+Some of the pseudo-elements are:
 - `::before`: comes before the element's content.
 - `::after`: comes after the element's content.
 - `::first-letter`: targets the first letter of a paragraph.
@@ -45,19 +45,19 @@ It is worth noting that some browsers don't support `::before` and `::after` pse
 ---
 ## Practice
 
-Which of the following is NOT a pseudo-element? 
+Which of the following is NOT a pseudo-element?
 
 ???
 
-*`::first-paragraph` 
-*`::first-line` 
-*`::first-letter` 
+*`::first-paragraph`
+*`::first-line`
+*`::first-letter`
 *`::before`
 
 ---
 ## Revision
 
-What are all pseudo-elements preceded by? 
+What are all pseudo-elements preceded by?
 ???
 * `::`
 * `;;`

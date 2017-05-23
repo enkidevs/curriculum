@@ -14,6 +14,8 @@ type: normal
 
 category: tip
 
+parent: custom-proptype-s-to-be-required
+
 links:
 
   - >-
@@ -44,7 +46,7 @@ var testingComponent = React.createClass({
   },
   componentWillReceiveProps(nextProps) {
     this.setState({
-         modified: nextProps.currentProp 
+         modified: nextProps.currentProp
          + "changed"
     });
   },

@@ -45,7 +45,7 @@ print(a.next()) # AttributeError
 ---
 ## Practice
 
-What would be the output of the following code snippet?
+In Python 3, what would the output of the following code snippet be?
 ```
 def gen():
   yield 1
@@ -61,7 +61,7 @@ print(a.next())
 ---
 ## Revision
 
-In Python 3 what can be used to iterate over a generator?
+In Python 3, what can be used to iterate over a generator?
 
 ???
 

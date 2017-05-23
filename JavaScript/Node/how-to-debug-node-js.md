@@ -34,7 +34,7 @@ node debug app.js
 ```
 **Browser interface**
 
-More sophisticated debugging can be done using **Node Inspector**, which allows debugging via an interface inside of a browser. 
+More sophisticated debugging can be done using **Node Inspector**, which allows debugging via an interface inside of a browser.
 Run by:
 ```bash
 npm install -g node-inspector
@@ -42,7 +42,7 @@ node-debug app.js
 ```
 **REPL**
 
-**Iron Node** also has sophisticated debugging for Linux, Windows and OS X. 
+**Iron Node** also has sophisticated debugging for Linux, Windows and OS X.
 
 ```bash
 npm install iron-node -g;

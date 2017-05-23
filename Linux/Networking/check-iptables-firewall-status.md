@@ -40,7 +40,7 @@ where `-L` list rules, `-v` displays detailed information. We speed up the listi
 
 If we see something like this:
 ```
-Chain INPUT 
+Chain INPUT
 (policy ACCEPT 0 packets, 0 bytes)
  pkts bytes target     
   10   15   DROP
@@ -48,17 +48,31 @@ Chain INPUT
   all --   *      *     192.64.174.69
   destination
     0.0.0.0/0
-Chain FORWARD 
+Chain FORWARD
 (policy ACCEPT 0 packets, 0 bytes)
  pkts bytes target     
  prot opt in     out     source destination
-Chain OUTPUT 
+Chain OUTPUT
 (policy ACCEPT 0 packets, 0 bytes)
  pkts bytes target     
  prot opt in     out     source destination
 ```
 
 There is a single INPUT rule active that would drop all packets coming from `192.64.174.69`.
+
+---
+## Practice
+
+Which of the following flags, when used together with `iptables` command will disable **DNS resolution**:
+
+```
+$ sudo iptables ???
+```
+
+* `-n`
+* `-d`
+* `-L`
+* `-D`
 
 ---
 ## Revision

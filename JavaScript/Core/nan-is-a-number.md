@@ -16,10 +16,10 @@ category: caveats
 ---
 ## Content
 
-When using the `typeof()` function on `NaN`, an interesting result is observed:
+When using the `typeof` operator with `NaN`, an interesting result is observed:
 
 ```
-var x = typeof(NaN);
+var x = typeof NaN;
 console.log(x);
 // 'number'
 ```
@@ -48,7 +48,7 @@ Infinity === NaN // false
 
 The following code snippet outputs ???
 ```
-console.log(typeof(NaN));
+console.log(typeof NaN);
 ```
 *number
 *NaN

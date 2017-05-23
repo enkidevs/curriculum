@@ -45,7 +45,7 @@ $ convert [in-opts] in-file [out-opts]
 
 For example:
 ```
-$ convert Dog.png -resize x250 -rotate 90 
+$ convert Dog.png -resize x250 -rotate 90
   -quality 90% -charcoal 5 newDog.jpg
 ```
 
@@ -54,15 +54,20 @@ The above will resize the *height*[2] to 250, *rotate* the picture 90 degrees to
 ---
 ## Revision
 
-Image manipulation can be done using 
+Use the `convert` command to resize the height of `enki.png` to `200` and rename it `newEnki.jpg`:
 
-??? .
+```
+$ ??? enki.png ???
+  ??? newEnki.jpg
+```
 
-*convert
-*rec
-*awk
-*change
-*grep
+* `convert`
+* `-resize`
+* `x200`
+* `--resize`
+* `200px`
+* `200`
+* `-toJPG`
 
 ---
 ## Footnotes
