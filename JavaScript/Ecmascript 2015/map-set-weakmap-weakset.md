@@ -25,8 +25,9 @@ How confident are you about using JavaScript ES6 data structures?
 // With ES6 maps, we set simple
 // key/value pairs:
 
-Strings, ??? are
-acceptable key formats;
+Strings,
+???
+are acceptable key formats;
 
 ```
 
@@ -37,6 +38,7 @@ acceptable key formats;
 %exp
 All four can be used as keys in ES6 maps.
 %
+
 ---
 
 ```
@@ -54,6 +56,7 @@ for (let ???) {
 %exp
 The pair `[key,value]` represents one tuple from the map that the `for` loop is iterating over.
 %
+
 ---
 
 ```
@@ -72,6 +75,7 @@ map.set(1, 2);
 %exp
 Integers can’t be used as weak keys.
 %
+
 ---
 
 ```
@@ -88,9 +92,9 @@ set.add(new Date());
 * ReferenceError: Date is not ...
 
 %exp
-This syntax is correct and can be used
-at anytime.
+This syntax is correct.
 %
+
 ---
 ```
 // With `WeakSets`:
@@ -105,6 +109,7 @@ set.add(Symbol());
 * ReferenceError: Symbol is not..
 
 %exp
-`WeakSet` objects are collections of objects. In contrast to `Sets`, `WeakSets` are collections of objects only. `Symbol()` is a primitive type so this is what causes the `TypeError`.
+`WeakSet` objects are collections of objects. In contrast to `Sets`, `WeakSets` are collections of objects only.
+
+`Symbol()` is a primitive type so this is what causes the `TypeError`.
 %
----
