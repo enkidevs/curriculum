@@ -18,10 +18,7 @@ category: tip
 
 Hello, traveler.
 
-You will attempt to accurately
-fill the gaps in the code snippets
-to recreate ES5 compatible code using
-the new features of ES6.
+You will attempt to accurately fill the gaps in the code snippets to recreate ES5 compatible code using the new features of ES6.
 
 Best of luck. We will be watching you.
 
@@ -42,8 +39,8 @@ var half = (x) ??? {
 * `->`
 * `==>`
 %exp
-Arrow function expression has a shorter
-syntax than the regular expression form.
+Arrow function expression has a shorter syntax than the regular expression form.
+
 The `arrow function` does not bind "its" own `this` or `arguments`.
 %
 
@@ -77,9 +74,7 @@ class LogView ??? View {
 * `inherit`
 * `generalize`
 %exp
-The `extends` keyword is used in class
-declarations or class expressions to
-create a child class of another class.
+The `extends` keyword is used in class declarations or class expressions to create a child class of another class.
 %
 
 ---
@@ -119,10 +114,7 @@ var ??? = timeArray;
 * `(year, month, day)`
 * `{year, month, day}`
 %exp
-The `destructuring assignment` syntax
-is a `JavaScript` expression that makes
-it possible to extract data from arrays
-or objects into distinct variables.
+The `destructuring assignment` syntax is a `JavaScript` expression that makes it possible to extract data from arrays or objects into distinct variables.
 %
 
 ---
@@ -134,8 +126,9 @@ let [a,b,c] == [1, 2, 3];
 * `1`
 * `3`
 %exp
-For each `a,b,c,` we assign them the first, second and third value in the array,
-respectively. This happens because the `array destructuring assignment` was used.
+For each `a,b,c,` we assign them the first, second and third value in the array, respectively.
+
+This happens because the `array destructuring assignment` was used.
 %
 
 ---
@@ -163,7 +156,7 @@ var ??? = timeObject;
 * `[y,m,d]`
 * `(y,m,d)`
 %exp
-`Object destructuring assignment` could be user here to assign variables `y,m,d` velues `timeObject.y`,`timeObject.m` and `timeObject.d` respectively.
+`Object destructuring assignment` could be user here to assign variables `y,m,d` values `timeObject.y`,`timeObject.m` and `timeObject.d` respectively.
 %
 
 ---
