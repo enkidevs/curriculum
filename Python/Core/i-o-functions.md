@@ -72,7 +72,6 @@ How old are you? 21
 
 ---
 ## Footnotes
-
 [1: prompt string]
 A message that will be printed in console when the program asks for input.
 
@@ -80,11 +79,11 @@ A message that will be printed in console when the program asks for input.
 "Enter".
 
 [3: eval()]
-`eval()` function interprets a string as `Python` code. There is a reason why this function would be better to be avoided, is because an user could run code on the computer this way. If you are using `eval(input())` and imported `OS` some user could type in `os.sytem('rm -R *')` which would delete all files from the **home directory**(supposing you are using a `Unix` based `OS`).
+`eval()` function interprets a string as `Python` code. However, this function could cause problems when the `string`s are interpreted. If you are using `eval(input())` and imported `OS` some user could type in `os.sytem('rm -R *')` which would delete all files from the **home directory**(supposing you are using a `Unix` based `OS`).
 ---
 ## Practice
 
-Which function is used to interpret strings in unicode?
+Which function is used to evaluate input `string`s?
 ???
 
 * `eval()`
