@@ -35,11 +35,9 @@ else
     print(3)
 finally:
     print(4)
-
 %exp
 Here `else` is missing the colon(:) sign.
 %
-
 ---
 de square(x):
 //def square(x):
@@ -47,11 +45,9 @@ de square(x):
 
 a = 5
 print(square(a))
-
 %exp
 The keyword used to define functions is `def`, not `de`.
 %
-
 ---
 class A:
     def printPi(self):
@@ -61,11 +57,9 @@ class A:
 a = A()
 a.printPi
 //a.printPi()
-
 %exp
 In order to call a function, apart from the name of the function we need to use `()`.
 %
-
 ---
 for i in [1,2,3]:
 	print(i)
@@ -74,11 +68,9 @@ for c in "enki":
 for k in {"x"= 1, "y"= 2}:
 //for k in{"x": 1, "y": 2}:
     print(k)
-
 %exp
 The correct syntax requres `:` instead of  `=`.
 %
-
 ---
 class Enki:
 	def one(self):
@@ -88,11 +80,9 @@ class Enki:
 		return 2
 	def three(self):
 		return 3
-
 %exp
 There is a typo here: it is `return`, not `retrun`.
 %
-
 ---
 def gcd(x, y):
     while y !== 0:
@@ -100,7 +90,6 @@ def gcd(x, y):
         (x, y) = (y, x % y)
     return x;
 print(gcd(20,30))
-
 %exp
 To check whether if two things are not equal we use `!=`, not `!==`.
 %
@@ -116,7 +105,6 @@ print(gcd(45,90))
 %exp
 In order to get the greatest common divisor using `gcd` function we define, the condition checked by `if`  statement must be `(b==a)` not `(b==0)`.
 %
-
 ---
 def exp(x, n):
     if n == 0:
@@ -127,11 +115,9 @@ def exp(x, n):
     else:
         return x * exp(x, n-1)
 print(exp(2,3))
-
 %exp
 The correct syntax for `else if` in Python is `elif`.
 %
-
 ---
 from math import PI
 // from math import pi
@@ -140,7 +126,6 @@ def circleArea(radius):
 	area = pi * radius * 2
 	return area
 print(circleArea(4))
-
 %exp
 `pi` value is spelled with capital letters, instead of lower case, but the correct syntax is with lower case letters.
 %
