@@ -40,6 +40,7 @@ Note that you need to assume **ECMAScript** 3rd edition. In addition, all `Error
 * [2, undefined, 1]
 * [2, 1, 2]
 * [2, undefined, 2]
+
 ---
 ```
 (function() {
