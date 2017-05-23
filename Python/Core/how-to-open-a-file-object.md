@@ -21,7 +21,7 @@ links:
 In order to be able to **write/read** to/from a file in **Python**, an `open()` build-in function must be used. This function creates a `file` object, which would be utilised to call other support **methods** associated with it.
 
 ```
-file object = open(file_name,[access_mode],[buffering])
+obj=open(f_name,[access_mode],[buffering])
 ```
 Parameter details:
 
@@ -76,6 +76,7 @@ What happens when the **buffering** value is set to `0`?
 ## Revision
 
 Where is the **file pointer** when the file is opened in `r+` mode?
+???
 
 * at the begining of the file
 * at the end of the file
