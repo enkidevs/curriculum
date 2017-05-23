@@ -48,7 +48,7 @@ Here is a list of **attributes** related to the `file object`:
 # Open file.txt and print the file name
 
 obj = open("doc.txt","wr")
-print("The file name is: ", obj.mode)
+print("The file name is: ", obj.name)
 ```
 ```
 
