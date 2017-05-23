@@ -129,5 +129,3 @@ Anyone accessing this file has all privileges available.
 %exp
 The owner can write and execute, whilst the group can execute and others can write.
 %
-
----
