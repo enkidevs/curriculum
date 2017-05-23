@@ -45,13 +45,14 @@ Here is a list of **attributes** related to the `file object`:
 - `file.name`: returns the name of the **file**.
 
 ```
-# Open file.txt and print the file name
+# Open file.txt and print file name
 
 obj = open("doc.txt","wr")
 print("The file name is: ", obj.name)
 ```
-```
 
+
+```
 # The output will look like this:
 
 The file name is: doc.txt
