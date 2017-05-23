@@ -101,7 +101,6 @@ def gcd(a, b):
     else:
         return gcd(b, a % b)
 print(gcd(45,90))
-
 %exp
 In order to get the greatest common divisor using `gcd` function we define, the condition checked by `if`  statement must be `(b==a)` not `(b==0)`.
 %
