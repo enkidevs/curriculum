@@ -38,6 +38,7 @@ console.log(a, b);
 %exp
 We assign `1` to `a` and `2` to `b`.
 %
+
 ---
 ```
 let axes = [10, 15, -7];
@@ -52,6 +53,7 @@ console.log(x, y);
 %exp
 `x` takes the first value in `axes` array and `y` the second.
 %
+
 ---
 ```
 function axes() {
@@ -68,6 +70,7 @@ console.log(x, z);
 %exp
 Here we assign the first value to `x` and the third to `z`.
 %
+
 ---
 ```
 const coords = {
@@ -87,6 +90,7 @@ console.log(lat, lon);
 %exp
 We define `lat` and `lon` variables with the values of `latitude` and `longitude`.
 %
+
 ---
 ```
 function axes() {
@@ -105,6 +109,7 @@ The syntax would work like this: `[x, z, ...rest]`.
 
 This would mean that the `rest` variable would be assigned the remaining values of the returned array (except the first two).
 %
+
 ---
 ```
 function abcde() {
