@@ -16,8 +16,7 @@ category: must-know
 ---
 ## Content
 
-Do you know how scoping works in
-Javascript?
+Do you know how scoping works in Javascript?
 
 ---
 ## Game Content
@@ -34,10 +33,9 @@ function func() {
 * `a`
 * `undefined`
 %exp
-Var is scoped to the nearest function
-block, which means `a` is still
-`hello`.
+Var is scoped to the nearest function block, which means `a` is still `hello`.
 %
+
 ---
 
 ```
@@ -53,10 +51,9 @@ function func() {
 * `'hello'`
 
 %exp
-Let is scoped to the nearest enclosing
-block, which means a is out of scope
-when printed.
+`let` is scoped to the nearest enclosing block, which means a is out of scope when printed.
 %
+
 ---
 
 ```
@@ -72,11 +69,9 @@ function func() {
 * `'goodbye'`
 * `undefined`
 %exp
-`let` is scoped to the
-nearest enclosing block. So the
-value assigned to `a` before the if is the
-value that will be printed.
+`let` is scoped to the nearest enclosing block. So the value assigned to `a` before the if is the value that will be printed.
 %
+
 ---
 
 ```
@@ -108,11 +103,9 @@ function func() {
 * `'goodbye'`
 * `Reference Error`
 %exp
-Even though var’s scope is extended to
-the nearest enclosing function, the `if`
-condition is not passed so `a` is not
-defined when we print it.
+Even though `var`’s scope is extended to the nearest enclosing function, the `if` condition is not passed so `a` is not defined when we print it.
 %
+
 ---
 
 ```
