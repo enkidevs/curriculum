@@ -35,8 +35,11 @@ console.log(a, b);
 * `1, 2`
 * `undefined, undefined`
 * `{a: 1}, {b: 2}`
----
+%exp
+We assign `1` to `a` and `2` to `b`.
+%
 
+---
 ```
 let axes = [10, 15, -7];
 let [x, y] = axes;
@@ -47,8 +50,11 @@ console.log(x, y);
 * `10, [15, -7]`
 * `[10, 15], -7`
 * `[10, 15, -7], [10, 15, -7]`
----
+%exp
+`x` takes the first value in `axes` array and `y` the second.
+%
 
+---
 ```
 function axes() {
   return [10, 15, -7];
@@ -61,8 +67,11 @@ console.log(x, z);
 * `SyntaxError`
 * `10, [15, -7]`
 * `10, 15`
----
+%exp
+Here we assign the first value to `x` and the third to `z`.
+%
 
+---
 ```
 const coords = {
   latitude: 43.617,
@@ -78,8 +87,11 @@ console.log(lat, lon);
 * `43.617, 13.517`
 * `ReferenceError`
 * `undefined, undefined`
----
+%exp
+We define `lat` and `lon` variables with the values of `latitude` and `longitude`.
+%
 
+---
 ```
 function axes() {
   return [10, 15, -7];
@@ -92,9 +104,13 @@ console.log(x, z);
 * `10, -7`
 * `10, [15, -7]`
 * `10, 15`
+%exp
+The syntax would work like this: `[x, z, ...rest]`.
+
+This would mean that the `rest` variable would be assigned the remaining values of the returned array (except the first two).
+%
 
 ---
-
 ```
 function abcde() {
   return ['a','b','c','d','e'];
@@ -107,3 +123,7 @@ console.log(rest);
 * `SyntaxError`
 * `['a','b','c','d','e']`
 * `'de'`
+%exp
+Here `rest` is assigned the last two values in the array.
+Finally, they will be printed.
+%

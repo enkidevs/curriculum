@@ -32,6 +32,10 @@ function func() {
 * `'hello'`
 * `a`
 * `undefined`
+%exp
+Var is scoped to the nearest function block, which means `a` is still `hello`.
+%
+
 ---
 
 ```
@@ -46,6 +50,10 @@ function func() {
 * `undefined`
 * `'hello'`
 
+%exp
+`let` is scoped to the nearest enclosing block, which means a is out of scope when printed.
+%
+
 ---
 
 ```
@@ -60,6 +68,10 @@ function func() {
 * `'hello'`
 * `'goodbye'`
 * `undefined`
+%exp
+`let` is scoped to the nearest enclosing block. So the value assigned to `a` before the if is the value that will be printed.
+%
+
 ---
 
 ```
@@ -74,6 +86,9 @@ function func() {
 * `'goodbye'`
 * `'hello'`
 * `undefined`
+%exp
+`let` is scoped to the first enclosing block, so the initial value of `a` is overwritten.
+%
 ---
 
 ```
@@ -87,6 +102,10 @@ function func() {
 * `undefined`
 * `'goodbye'`
 * `Reference Error`
+%exp
+Even though `var`’s scope is extended to the nearest enclosing function, the `if` condition is not passed so `a` is not defined when we print it.
+%
+
 ---
 
 ```
@@ -98,3 +117,6 @@ console.log(a);
 * `Reference Error`
 * `'goodbye'`
 * `'hello'`
+%exp
+`a` is scoped to the body of the `func` function.
+%
