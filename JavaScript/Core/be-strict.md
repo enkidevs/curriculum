@@ -19,10 +19,9 @@ links:
 ---
 ## Content
 
-Do you know what is allowed and not
-allowed in `strict mode` in JS? Can
-you spot the lines that would produce
-errors?
+Do you know what is allowed and not allowed in `strict mode` in JS?
+
+Can you spot the lines that would produce errors?
 
 ---
 ## Game Content
@@ -31,8 +30,7 @@ errors?
 //"use strict";
 let x = 42;
 %exp
-The right syntax for strict mode
-in `JavaScript` is `use strict` not `useStrict`.
+The right syntax for strict mode in **JavaScript** is `use strict` not `useStrict`.
 %
 ---
 function foo() {
@@ -42,8 +40,7 @@ function foo() {
 }
 foo();
 %exp
-`Eval` doesn't have the same meaning in strict
-mode as it does normally.
+`eval` doesn't have the same meaning in strict mode as it does normally.
 %
 ---
 (function foo() {
@@ -52,9 +49,9 @@ mode as it does normally.
 // arguments not allowed in strict
 })();
 %exp
-`arguments` can't be bound or assigned in
-language syntax. All attempts to do so
-will result in syntax errors.
+`arguments` can't be bound or assigned in language syntax.
+
+All attempts to do so will result in syntax errors.
 %
 ---
 (function foo() {
@@ -64,8 +61,7 @@ will result in syntax errors.
    console.log(let);
 })();
 %exp
-`let` is a keyword in javascript. It can’t
-be used to name a variable.
+`let` is a keyword in **JavaScript**. It can’t be used to name a variable.
 %
 ---
 "use strict";
@@ -91,9 +87,9 @@ var foo = Object.defineProperties({}, {
 foo.bar = 24;
 // can't assign read-only property
 %exp
-Bar is a `read-only` property. This means
-we can not change its value anywhere else
-in the program.
+`bar` is a **read-only** property.
+
+This means we can not change its value anywhere else in the program.
 %
 ---
 "use strict";
@@ -102,12 +98,8 @@ with ({f: 24}) {
   alert(f);
 }
 %exp
-`with` rises some problems here because
-any variable name inside the block could map
-either to a property of the object passed
-as an argument, or to a variable in surrounding
-(or even global) scope. At runtime: it's
-impossible to know which beforehand.
+`with` rises some problems here because any variable name inside the block could map either to a property of the object passed as an argument, or to a variable in surrounding (or even global) scope.
+At runtime: it's impossible to know which beforehand.
 %
 ---
 "use strict";
