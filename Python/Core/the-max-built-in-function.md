@@ -100,6 +100,8 @@ list3 = [1, 2, 'abc', 'xyz', 3, 4, 'zzz']
 print(max(list3))
 ```
 
+???
+
 * TypeError
 * 'xyz'
 * 'zzz'
