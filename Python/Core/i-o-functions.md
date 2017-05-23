@@ -20,10 +20,10 @@ links:
 
 There are numerous functions for manipulating `I/O` operations in `Python`.
 
-The simplest way to produce **output** is using the `print` statement, where you can pass **zero** or **more** expressions separated by commas. The function will convert the expression, that was passed, into a `string` and writes the result to standard **output** as follows:
+The simplest way to produce **output**, in `Python v3.x`, is using the `print()` function where you can pass keyword **arguments**. **Arguments** are meant to replace most of the old **syntax** used in the older `print` statement. The **function** converts the expression that was passed into a `string` and writes the result to standard **output** as follows:
 
 ```
-print "This is a print statement in Python."
+print("This is a print statement in Python.")
 ```
 This will produce the following result on your screen:
 
@@ -31,65 +31,75 @@ This will produce the following result on your screen:
 This is a print statement in Python.
 ```
 
-As far as reading **keyboard input** is regarded, **Python** provides two build-in functions: `input()` and `raw_input()`. There will be a whole insight focused on the differences between this two **functions**. However the behaviour of these functions are similar up to a certain point. They both read a line from standard **input** and returns it as a `string`.
+As far as **keyboard input** is regarded, **Python v3.x** provides a build-in function called `input()`. This function has an optional **parameter**, which is a prompt `string`[1].  If the `input()` function is called, the program will stop and wait until the user has ended his input typing in the **return key**[2].
+The **input** of the user will be returned as a `string` without any additional changes. If this **raw input** has to be transformed into another **data type** needed by the **program**, than there are two ways to do this: using a `casting` function(which would **cast** the input into the needed `data type`) or the `eval`[3] function(which would interpret `strings` as `Python` code and evaluate it).
 
+1.When a `string` is typed in:
 ```
 str = input("Please enter your input: ");
 print "The input is: ", str
 ```
-If "Hello World" is typed in, its output is like this:
+If "Hello World" is typed in, the output will look like this:
 
 ```
 Please enter your input: Hello World.
 The input is: Hello Word.
 ```
-
-In order to be able to **write/read** to/from a file in **Python** an `open()` build-in function must be used. This function creates a `file` object, which would be utilised to call other support methods associated with it.
+2.Lets try to use the `eval` function:
 
 ```
-file object = open(file_name,[access_mode],[buffering])
+colours = eval(input("Favourite colours:"))
+print(colours, type(colours))
 ```
-Parameter details:
+The output will be as follows:
 
-- file_name: string value that contains the name of the file.
-- access_mode: it determines the mode in which the file has to be opened: `read`, `write`, `append`.
-- buffering: if the value is 0, no buffering takes place. If the value is 1, **line buffering**[1] is performed while accessing the file. If the buffering value is greater then 1, then buffering action is performed with the indicated buffer size.
+```
+Favourite colours: ["Green","Blue","Red"]
+["Green","Blue","Red"] <class `list`>
+```
+3.Using a `casting` function:
 
-Here it is a list of the different modes of opening a file:
+```
+age = int(input("How old are you?"))
+print(age, type(age))
+```
+The output will look like this:
 
-- `a` : Opens the file for appending. With the file pointer being at the end of the file.
-- `r` : Opens the file for reading. With the file pointer being at the beginning of the file.
-- `w` : Opens the file for writing. Overwrites the file if it exists. If the file doesn't exist it will create a new file.
-- `a+`: Opens the file for both, reading and appending. The file pointer is at the end of the file.
-- `r+`: Opens the file for both, reading and writing. The file pointer is place at the beginning of the file.
-- `w+`: Opens the file for writing and reading as well. Overwrites the existing file. If it doesn't exist, creates a new file.
-- `ab/rb/wb`: Opens the file for appending/reading/writing in binary format.
+```
+How old are you? 21
+21 <class `int`>
+```
 
 ---
 ## Footnotes
 
-[1: line buffering]
-Characters written to a **line buffered stream** are transmitted to the file in blocks when a newline character is encountered.
+[1: prompt string]
+A message that will be printed in console when the program asks for input.
 
+[2: return key]
+"Enter".
+
+[3: eval()]
+`eval()` function interprets a string as `Python` code. There is a reason why this function would be better to be avoided, is because an user could run code on the computer this way. If you are using `eval(input())` and imported `OS` some user could type in `os.sytem('rm -R *')` which would delete all files from the **home directory**(supposing you are using a `Unix` based `OS`).
 ---
 ## Practice
 
-`file object = open("result.txt",[rb])` ?
+Which function is used to interpret strings in unicode?
 ???
 
-* Opens the file result.txt and reads from it in binary.
-* Opens the file result.txt and reads from it.
-* Opens the file result.txt and reads and writes to it.
-* Opens the file result.txt and reads and writes in binary.
+* `eval()`
+* `int()`
+* `binary()`
+
 ---
 ## Revision
 
 
-What is the keyword used to print to console in Python?
+What is the function used to print to console in Python?
 ???
 
+* `print()`
 * `print`
 * `System.out.println()`
 * `cout`
-* `print()`
 * `fout()`
