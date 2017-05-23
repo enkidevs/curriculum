@@ -169,7 +169,6 @@ var ??? = timeObject
 * `{year:y} `
 * `{y:year} `
 * `{y.year}`
-* `{y.year}`
 %exp
 By using **destructuring assignment**, y is assigned the value of `timeObject`'s property `year`.
 %
