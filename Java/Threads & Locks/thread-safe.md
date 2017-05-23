@@ -111,12 +111,12 @@ Resizable-array implementation of the List interface. Implements all optional li
 
 HashSet
 %exp
-This class implements the Set interface, backed by a hash table. It is not thread safe in `Java`.
+This class implements the `Set` interface, backed by a hash table. It is not thread safe in **Java**.
 %
 
 DateFormat
 %exp
-DateFormat is a abstract class used for time/date formatting subclasses. It is not implemented in a thread safe way.
+`DateFormat` is a abstract class used for time/date formatting subclasses. It is not implemented in a thread safe way.
 %
 
 LinkedList
@@ -136,17 +136,17 @@ The `Calendar` class is an abstract class that provides methods for converting b
 
 Integer
 %exp
-Integers are not thread safe in `Java`.
+`Integer`s are not thread safe in `Java`.
 %
 
 Long
 %exp
-Long data types is not thread safe.
+`Long` data types are not thread safe.
 %
 
 Boolean
 %exp
-Boolean is not thread safe in `Java`.
+`Boolean` is not thread safe in `Java`.
 %
 
 ```
