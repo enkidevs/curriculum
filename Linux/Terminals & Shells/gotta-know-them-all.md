@@ -34,16 +34,12 @@ authentication token?
 * ps
 
 %exp
-`passwd`  is the utility used for updating
-authentication tokens. The password entered
-by the user is run through a key derivation
-function such that a hashed version of the
-new password is created and saved.
+`passwd`  is the utility used for updating authentication tokens. The password entered by the user is run through a key derivation function such that a hashed version of the new password is created and saved.
 %
 ---
 
 ```
-Which utlity is an interface
+Which utility is an interface
 used for securely gaining access
 to a remote computer and is used by
 network admins to control servers
@@ -55,8 +51,7 @@ remotely?
 * netstat
 
 %exp
-`SSH`, also known as Secure Socket Shell, is a Linux utility which encrypts the
-data communication between two hosts on an insecure network.
+`SSH`, also known as Secure Socket Shell, is a Linux utility which encrypts the data communication between two hosts on an insecure network.
 %
 
 ---
@@ -69,8 +64,7 @@ kernel-resident network interfaces?
 * tracepath
 
 %exp
-`ifconfig` stands for interface configuration. It allows users to see and change
-local network configurations.
+`ifconfig` stands for interface configuration. It allows users to see and change local network configurations.
 %
 
 ---
@@ -85,9 +79,7 @@ with it.
 * cat
 
 %exp
-By default, `grep` prints line containing words matching a regular expression.
-Parsing a file requires two parameters: the string(or regex)  to be searched
-and the file path.
+By default, `grep` prints line containing words matching a regular expression. Parsing a file requires two parameters: the string(or regex) to be searched and the file path.
 %
 
 ---
@@ -101,8 +93,7 @@ make links to files?
 * cpio
 
 %exp
-`cp` provides users with the capability to copy files and directories. It has
-the following syntax: `cp file_name new_file_name`.
+`cp` provides users with the capability to copy files and directories. It has the following syntax: `cp file_name new_file_name`.
 %
 
 ---
@@ -117,9 +108,7 @@ special mode flags.
 * acc
 
 %exp
-`chmod`  stands for "change mode" and it defines the way in which a file can
-be accessed. It can restrict or allow actions such as reading, writing or execution
-of a file or directory, for the owner, the owner's group or others.
+`chmod`  stands for "change mode" and it defines the way in which a file can be accessed. It can restrict or allow actions such as reading, writing or execution of a file or directory, for the owner, the owner's group or others.
 %
 
 ---
@@ -135,9 +124,7 @@ such information.
 * tzdata
 
 %exp
-`date` command is used to change the system's date and time. It has a readable
-format by default. There is the possibilty to change the format as well using
-`date -FORMAT`.
+`date` command is used to change the system's date and time. It has a readable format by default. There is the possibilty to change the format as well using `date -FORMAT`.
 %
 
 ---
@@ -151,9 +138,7 @@ mounted file systems?
 * disk
 
 %exp
-On linux, `df` command shows the available space on the mounted
-system file, if no arguments are given. If no file name is given, the space available
-on all currently mounted `file system` is shown.
+On linux, `df` command shows the available space on the mounted system file, if no arguments are given. If no file name is given, the space available on all currently mounted `file system` is shown.
 %
 
 ---
@@ -168,7 +153,9 @@ meeting given condition?
 
 %exp
 When invoked, `ls` lists all files int the current working directory.
+
 `cd` command is used to change the current working directory.
+
 `find` command searches for files meeting a given condition.
 %
 
@@ -182,7 +169,5 @@ reboot or halt you machine?
 * boot
 
 %exp
-The `shutdown` command brings system down in a secure way. It notifies all users that
-the system is going to be shut down and no other logins will be possible. It is possible
-to shut down the system immediately or after a certain delay.
+The `shutdown` command brings system down in a secure way. It notifies all users that the system is going to be shut down and no other logins will be possible. It is possible to shut down the system immediately or after a certain delay.
 %
