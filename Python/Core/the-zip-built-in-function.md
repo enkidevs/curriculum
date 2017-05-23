@@ -118,7 +118,11 @@ print(result2)
 We have two lists, one of dates and one of values for some hypothetical clothes orders. Try to fill in the gaps in the following code to make the two lists into one list of tuples containing pairs of the nth element in each input list.
 
 ```python
-dates = ['9/16', '12/16', '2/17', '3/17', '4/17']
+dates = ['9/16',
+        '12/16',
+        '2/17',
+        '3/17', 
+        '4/17']
 values = [200, 150, 122, 90, 220]
 
 ???(???, ???)
