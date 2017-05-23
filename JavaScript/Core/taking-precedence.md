@@ -34,6 +34,7 @@ How well do you know how JavaScript handles precedence?
 %exp
 The expression is read from left to right: integer addition is done first (`3`), then string concatenation (`33`) and then another string concatenation, resulting in `334`.
 %
+
 ---
 ```
 2 - 2 - 2
@@ -44,6 +45,7 @@ The expression is read from left to right: integer addition is done first (`3`),
 %exp
 Nothing uncommon here: the computation is done from **left to right**.
 %
+
 ---
 ```
 2 * 3 + 4
@@ -52,10 +54,11 @@ Nothing uncommon here: the computation is done from **left to right**.
 * 14
 * 18
 %exp
-The multiplication operation (`*`) has higher priority than addition (`+`). 
+The multiplication operation (`*`) has higher priority than addition (`+`).
 
 `2 * 3` is computed first, then the addition results in `10`.
 %
+
 ---
 ```
 {5:1}[2+3]
@@ -64,8 +67,9 @@ The multiplication operation (`*`) has higher priority than addition (`+`).
 * undefined
 * 1
 %exp
-There is a syntax error in this code snippet. `[2+3]` will be evaluated first, followed by the block `{...}` before it, where using `:` is illegal. 
+There's a syntax error in this code snippet. `[2+3]` will be evaluated first, followed by the block `{...}` before it, where using `:` is illegal.
 %
+
 ---
 ```
 var a = 1
@@ -77,6 +81,7 @@ a++
 %exp
 There are two ways to increment a number: `a++` and `++a`. The first one, returns the value hold by `a` first and the increments its value. The second one, increments the value first and returns the new value.
 %
+
 ---
 ```
 ({5:1})[2+3]
@@ -85,10 +90,11 @@ There are two ways to increment a number: `a++` and `++a`. The first one, return
 * SyntaxError
 * undefined
 %exp
-`({5 : 1})` will be evaluated first because of the parentheses, denoting an object in which key `5` has the value `1`. 
+`({5 : 1})` will be evaluated first because of the parentheses, denoting an object in which key `5` has the value `1`.
 
 Therefore, `[2+3]` will get the value of the entry at key `5` - which is `1`.
 %
+
 ---
 ```
 var a = 1
@@ -102,6 +108,7 @@ b
 %exp
 `(a++)+b` means increment `a`'s value by `1` and add afterwards to what is returned `b`'s value. In this situation, `b` remains unchanged.
 %
+
 ---
 ```
 var a = 1
@@ -115,8 +122,10 @@ a
 %exp
 `(a++)+b` first, the value of `a` is incremented and b is added, but this result isn't held by any of the variables. In the end `a`'s value is `2`.  
 %
-```
+
+
 ---
+```
 var a = 1
 var b = 1
 a++-++b
@@ -129,6 +138,7 @@ a++-++b
 
 The result of the subtraction is: `1 - 2 = -1`.
 %
+
 ---
 ```
 false && true || true
@@ -139,6 +149,7 @@ false && true || true
 %exp
 `(false && true) || true` => `false || true` => `true`
 %
+
 ---
 ```
 true || true && false
@@ -149,6 +160,7 @@ true || true && false
 %exp
 A "short-circuit" evaluation rule is found here. As the logical expression is of the form `true || (anything)`, it will directly return `true`, without the need of the second evaluation.
 %
+
 ---
 ```
 0 * 1 ? 2 : 3
@@ -161,6 +173,7 @@ The above syntax, called ternary operator, is equivalent to an `if-else` clause:
 
 JavaScript evaluates `0` to `false`, hence the result is `3`.
 %
+
 ---
 ```
 var a = 1; a += 3 * 2 ; a
@@ -171,6 +184,7 @@ var a = 1; a += 3 * 2 ; a
 %exp
 The `a += 3 * 2` expression is converted to `a = 1 + (3 * 2)` => `a = 7`.
 %
+
 ---
 ```
 var a = -1;
@@ -183,6 +197,7 @@ a += 1 && a *= 2
 As the **AND** (`&&`) operator has higher priority than assignment (`=`), the expression can be converted to: `a += (1 && a) *=2`.
 Following this, the second assignment will have an **invalid** left-hand operand.
 %
+
 ---
 ```
 var a = -1;
@@ -195,6 +210,7 @@ a += 1 && (a *= 2)
 Parentheses will be evaluated first, `a` getting the new value of `-2`. Next, the logical `&&` operator will return `-2` for `1 && -2`.
 Last, but not least, `-2` is added to the initial value of `a`, resulting in `-3`.
 %
+
 ---
 ```
 0 == 1 >= 2
