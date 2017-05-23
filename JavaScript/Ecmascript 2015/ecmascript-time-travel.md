@@ -58,7 +58,7 @@ myList.filter(???)
 * `x => return x > 2`
 * `x => {x > 2}`
 %exp
-ES6 **arrow functon** is the shorter way of expressing a function.
+ES6 **arrow function** is the shorter way of expressing a function.
 %
 
 ---
@@ -98,7 +98,7 @@ function NicePerson() {
 * `->`
 * `-->`
 %exp
-ES6 **arrow functon** is the shorter way of expressing a function.
+ES6 **arrow function** is the shorter way of expressing a function.
 %
 
 ---
