@@ -23,12 +23,12 @@ There are numerous functions for manipulating `I/O` operations in `Python`.
 The simplest way to produce **output**, in `Python v3.x`, is using the `print()` function where you can pass keyword **arguments**. **Arguments** are meant to replace most of the old **syntax** used in the older `print` statement. The **function** converts the expression that was passed into a `string` and writes the result to standard **output** as follows:
 
 ```
-print("This is a print statement in Python.")
+print("This is a print statement.")
 ```
 This will produce the following result on your screen:
 
 ```
-This is a print statement in Python.
+This is a print statement.
 ```
 
 As far as **keyboard input** is regarded, **Python v3.x** provides a build-in function called `input()`. This function has an optional **parameter**, which is a prompt `string`[1].  If the `input()` function is called, the program will stop and wait until the user has ended his input typing in the **return key**[2].
