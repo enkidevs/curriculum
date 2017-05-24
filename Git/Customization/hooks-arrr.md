@@ -14,7 +14,7 @@ parent: useful-commit-hooks
 ---
 ## Content
 
-Can you guess the action for which a certain hook should fire?
+Can you guess the action for which a certain hook should fired?
 
 ---
 ## Game Content
