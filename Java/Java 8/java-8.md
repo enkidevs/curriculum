@@ -35,11 +35,11 @@ Introduced in **Java 6** `NavigableSet` enables 'Set' data structures to make us
 %
 SortedSet
 %exp
-It's a `Set` that provides a **total ordering** on its elements.
+It's a `Set` that provides a **total ordering** on its elements. It was implemented in **Java 2**.
 %
 ThreadLocalRandom
 %exp
-It's a random number generator isolated to the current thread. Integrated in **Java 7**.
+It's a random number generator isolated to the current thread integrated in **Java 7**.
 %
 Iterable
 %exp
@@ -47,27 +47,27 @@ Implementing this **interface** allows an object to be the target of the `for-ea
 %
 ThreadLocal
 %exp
-This class provides thread local variables. **Java 7** was the first version to have it implemented.
+This class provides thread local variables. **Java 2** was the first version to have it implemented.
 %
 AutoCloseable
 %exp
-As the name implies it defines an object that may hold resources until it is closed. It is implemented since **Java 7**.
+It defines an object that may hold resources until it is closed. It is implemented since **Java 7**.
 %
 BufferedReader
 %exp
-Buffering the reads allows large volumes to be read from **disk** and copied to much faster **RAM** to increase performance over different network communications or disk reads done with each read command otherwise. It was first introduced with **Java 7**.
+Buffering the reads allows large volumes to be read from **disk memory** and copied to much faster **RAM** to increase performance over different network communications. It was introduced with **Java 7**.
 %
 HttpURLConnection
 %exp
-It defines an **URLConnection** object  with support for **HTTP** specific features. *Java 7** introduced it.
+It defines an **URLConnection** object  with support for **HTTP** specific features. It was introduced in **Java 1**
 %
 AtomicBoolean
 %exp
-It represents a **boolean** value which can be updated **atomically**. **Java 7** wast the first version of **Java** to have it implemented.
+It represents a **boolean** value which can be updated **atomically** introduced in **Java 5**.
 %
 ConcurrentHashMap
 %exp
-It's a **hash table** supporting full concurrency of retrievals and adjustable expected concurrency for updates. It was first introduced to **Java 6**.
+It's a **hash table** supporting full concurrency of retrievals and **adjustable** expected concurrency for updates. It was first introduced to **Java 5**.
 %
 ArrayList
 %exp
@@ -91,7 +91,7 @@ A **thread-safe** variant of **ArrayList** in which all mutative operations (add
 ```true
 StampedLock
 %exp
-A capability-based lock with three modes for controlling read/write access. It was introduced with **Java 8**.
+A **capability-based** lock with three modes for controlling **read/write** access. It was introduced with **Java 8**.
 %
 DoubleAdder
 %exp
@@ -99,15 +99,15 @@ Introduced in **Java 8**, it represents one or more variables that together main
 %
 LongAccumulator
 %exp
-It represents one or more variables that together maintain a running long value updated using a supplied function. It was introduced with **Java 8**.
+It represents one or more **variables** that together maintain a running **long value** updated using a supplied function. It was introduced with **Java 8**.
 %
 CompletionException
 %exp
-Exception thrown when an error, or another exception is encountered. **Java 8** introduced this class.
+**Exception** thrown when an error or another exception is encountered. **Java 8** introduced this class.
 %
 URLPermission
 %exp
-Introduced in **Java 8**, it represents permission to access a resource or set of resources defined by a given **URL**.
+Introduced in **Java 8**, it represents permission to access a **resource** or **set of resources** defined by a given **URL**.
 %
 OptionalDouble
 %exp
@@ -115,19 +115,19 @@ First implemented in **Java 8**, when used it defines an object that might hold 
 %
 StringJoiner
 %exp
-It's used to construct sequence of characters separated by a delimiter. It was first implemented in **Java 8**.
+It's used to construct sequence of **characters** separated by a **delimiter**. It was first implemented in **Java 8**.
 %
 SplittableRandom
 %exp
-`SplittableRandom' is a random number generator which can be used for isolated parallel computations that may generate subtasks. It was implemented in **Java 8**.
+`SplittableRandom' is a random number generator which can be used for isolated **parallel computations** that may generate **subtasks**. It was implemented in **Java 8**.
 %
 LongSummaryStatistics
 %exp
-It is a state object for collecting statistics such as count, max, min, sum and average.
+It is a state object for collecting statistics such as **count**, **max**, **min**, **sum** and **average**. Introduced with **Java 8**.
 %
 Spliterator
 %exp
-This is a new special kind of **Iterator** that can traverse a **Collection**. It was introduced with **Java 7**.
+This is a new special kind of **Iterator** that can traverse a **Collection**. It was introduced with **Java 8**.
 %
 PrimitiveIterator
 %exp
@@ -135,7 +135,7 @@ This class represents a base type for primitive specializations of **Iterator**.
 %
 UncheckedIOException
 %exp
-This class is used to wrap **IOExceptions** with an **unchecked exception**. **Java 8** first implemented it.
+This class is used to wrap **IOExceptions** with an **unchecked exception**. **Java 8** introduced it.
 %
 
 ```
