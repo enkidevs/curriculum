@@ -27,7 +27,7 @@ not java 8: java 8
 ```false
 NavigableMap
 %exp
-In **Java** `NavigableMap` is a *interface* which enables 'Map' data structures to make use of methods that return the closest matches for given search targets. It was introduced in *Java 6*.
+In **Java**, `NavigableMap` is an *interface* which enables 'Map' data structures to make use of methods that return the closest matches for given search targets. It was introduced in *Java 6*.
 %
 NavigableSet
 %exp
@@ -39,11 +39,11 @@ It's a `Set` that provides a **total ordering** on its elements. It was implemen
 %
 ThreadLocalRandom
 %exp
-It's a random number generator isolated to the current thread integrated in **Java 7**.
+It's a random number generator isolated to the current thread; integrated in **Java 7**.
 %
 Iterable
 %exp
-Implementing this **interface** allows an object to be the target of the `for-each loop` statement. It was first introduced in **Java 7**.
+Implementing this **interface** allows an object to be used with `for-each loop` statement. It was first introduced in **Java 7**.
 %
 ThreadLocal
 %exp
@@ -51,11 +51,13 @@ This class provides thread local variables. **Java 2** was the first version to 
 %
 AutoCloseable
 %exp
-It defines an object that may hold resources until it is closed. It is implemented since **Java 7**.
+It defines an object that may hold resources until it is closed. It was implemented since **Java 7**.
 %
 BufferedReader
 %exp
-Buffering the reads allows large volumes to be read from **disk memory** and copied to much faster **RAM** to increase performance over different network communications. It was introduced with **Java 7**.
+This class enables buffered reads from the disk, which will make use of the **RAM** memory to improve performance.
+
+It was introduced with **Java 7**.
 %
 HttpURLConnection
 %exp
@@ -63,7 +65,9 @@ It defines an **URLConnection** object  with support for **HTTP** specific featu
 %
 AtomicBoolean
 %exp
-It represents a **boolean** value which can be updated **atomically** introduced in **Java 5**.
+This is the thread-safe version of the `Boolean` data type.
+
+It was introduced in **Java 5**.
 %
 ConcurrentHashMap
 %exp
@@ -75,11 +79,13 @@ This is a resizable array implementation of the **List** interface. It was intro
 %
 AtomicInteger
 %exp
-It represents an **int** value that can be updated **atomically**. It was introduced with **Java 5**.
+This is the thread-safe variant of the `Integer` class.
+
+It was introduced with **Java 5**.
 %
 Integer
 %exp
-The **Integer** class wraps a value of the primitive **type int** in an object. It exists sience **Java 1**.
+The **Integer** class wraps a value of the primitive **type int** in an object. It exists since **Java 1**.
 %
 CopyOnWriteArrayList
 %exp
@@ -95,7 +101,7 @@ A **capability-based** lock with three modes for controlling **read/write** acce
 %
 DoubleAdder
 %exp
-Introduced in **Java 8**, it represents one or more variables that together maintain an initially zero double sum.
+Introduced in **Java 8**; it represents one or more variables that together maintain an initially zero double sum.
 %
 LongAccumulator
 %exp
@@ -111,11 +117,11 @@ Introduced in **Java 8**, it represents permission to access a **resource** or *
 %
 OptionalDouble
 %exp
-First implemented in **Java 8**, when used it defines an object that might hold a **double** value or might not.
+First implemented in **Java 8**; when used it defines an object that might hold a **double** value or might not.
 %
 StringJoiner
 %exp
-It's used to construct sequence of **characters** separated by a **delimiter**. It was first implemented in **Java 8**.
+It's used to construct a sequence of **characters** separated by a **delimiter**. It was first implemented in **Java 8**.
 %
 SplittableRandom
 %exp
@@ -123,7 +129,7 @@ SplittableRandom
 %
 LongSummaryStatistics
 %exp
-It is a state object for collecting statistics such as **count**, **max**, **min**, **sum** and **average**. Introduced with **Java 8**.
+It's a state object for collecting statistics such as **count**, **max**, **min**, **sum** and **average**. Introduced with **Java 8**.
 %
 Spliterator
 %exp
