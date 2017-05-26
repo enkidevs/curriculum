@@ -69,11 +69,11 @@ bytes
 %
 dict
 %exp
-`dict` is a built-in mapping type in **Python**. It is acronym for **dictionary**.
+`dict` is a built-in mapping type in **Python**. It's acronym for **dictionary**.
 %
 set
 %exp
-`set` is a built-in muttable set type.
+`set` is a built-in mutable set type.
 %
 ```
 
@@ -84,7 +84,7 @@ An enumeration is a set of symbolic names bound to unique, constant values. It's
 %
 struct
 %exp
-`struct` performs conversions between **Python** values and **C** structs represented as **Python strings**. You need to `import struct` in order to work with it in **Python**.
+`struct` performs conversions between **Python** values and **C** structs represented as **Python strings**. You need to `import struct` to work with it in **Python**.
 %
 codecs
 %exp
@@ -96,7 +96,7 @@ This module allows programmers to make **weak references** to objects. `import w
 %
 array
 %exp
-`array`s are sequence types and behave very much like **lists**, except that the **type** of objects stored in them is **constrained**(only chars, ints and floats can be stored in arrays). In order to use arrays in **Python** you need to `import array`.
+`array`s are sequence types and behave very much like **lists**, except that the **type** of objects stored in them is **constrained** (only chars, ints and floats can be stored in arrays). In order to use arrays in **Python** you need to `import array`.
 %
 datetime
 %exp
