@@ -39,7 +39,7 @@ And three other helper methods:
 - `isEmpty()` : *Returns* `true` if there are no elements in the stack, `false` otherwise.
 - `size()` : *Returns* the number of elements in the stack.
 
-This is how you be able to use stacks in different programming languages:
+These are the available stack implementations in different programming languages:
   - `Java`: You can instantiate a Stack object through the `Stack` class. The insertion method is called `push`, while the removal one is `pop`.
   - `JavaScript`: There is no special Stack prototype in JavaScript. The Array prototype, however, supports the `push` and `pop` methods that replicate the behavior of a stack.
   - `Python`: There isn't any python `Stack` module. A `list`, however, can be used as a stack through the `append` and `pop` methods.
