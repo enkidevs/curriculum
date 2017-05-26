@@ -97,15 +97,14 @@ In this situation as the **function** is executed with no explicit value of `thi
 * Error
 %exp
 Let's try and put it in a more understandable order:
-```
-new(class{class () {} })
-```
+`new(class{class () {} })`
+
 What happens here is we instantiate a `new` class(called "class") with a method "class" in it, using `ES6` standardised concise method definition as well.
-```
-new class{
-  class () {};
-}
-```
+
+`new class{`
+`  class () {};`
+`}`
+
 Now, the result of `typeof` on a default class is a simple `object`.
 %
 ---
