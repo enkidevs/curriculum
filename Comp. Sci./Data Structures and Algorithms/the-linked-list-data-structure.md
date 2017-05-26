@@ -19,7 +19,7 @@ parent: the-array-data-structure
 
 A **list**, or a **sequence**, is an *abstract*[1] data type that represents a linear chain of values, where the same value can appear more than once. The *list* has a first element, **head**, and a last element, **tail**.
 
-Because a list is *linear*[2], each element other than the head and the tail have an unique *predecessor* and an unique *successor*.
+Because a list is *linear*[2], each element other than the head and the tail have a unique *predecessor* and a unique *successor*.
 
 
 ### LinkedList
