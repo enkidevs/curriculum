@@ -57,7 +57,7 @@ The tricky part at this questions is that if there is a **parameter** with the s
 * [undefined, undefined]
 * Error
 %exp
-**Arrow functions** have lexical `this`, it **inherits** value from the context they are **defined** in. In this case both `this` calls are made within the context of `{x: outer}`. The fact that `.bind({x: 'inner'})` is applied on the first function doesn't change its **value**.
+Arrow functions have lexical `this`, it **inherits** value from the context they are **defined** in. In this case both `this` calls are made within the context of `{x: outer}`. The fact that `.bind({x: 'inner'})` is applied on the first function doesn't change its **value**.
 %
 ---
 ```
@@ -100,11 +100,11 @@ Let's try and put it in a more understandable order:
 `new(class{class () {} })`
 
 What happens here is we instantiate a `new` class(called "class") with a method "class" in it, using `ES6` standardised concise method definition as well.
-
-`new class{`
-`  class () {};`
-`}`
-
+```
+new class{
+  class () {};
+}
+```
 Now, the result of `typeof` on a default class is a simple `object`.
 %
 ---
@@ -133,5 +133,5 @@ Now, we know that `Array`s don't have `.substring` method, so the result is `und
 * 1
 * Error
 %exp
-Spread operator enables us to iterate over any **iterable object** and spread its elements into an **array**. So here `'...'` represents a **String**(which is iterable in **JavaScript**), this means it results in an array like this: `['.','.','.']`. The second **spred operator** does the exact same thing so the length will be `3`.
+Spread operator enables us to iterate over any **iterable object** and spread its elements into an **array**. So here `'...'` represents a **String**(which is iterable in **JavaScript**), this means it results in an array like this: `['.','.','.']`. The second **spread operator** does the exact same thing so the length will be `3`.
 %
