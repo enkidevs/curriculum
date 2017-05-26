@@ -65,7 +65,7 @@ typeof `${{Object}}`.prototype
 * `"function"`
 * `Error`
 %exp
-**Template strings** are a feature of **JavaScript** making it able to render values of variables directly in the **string**. However the correct **syntax** for **template strings** is `${Object}` and not `${{Object}}`. Here **ES6**'s short notation for **object literals** which states that `{Object}` means `{Object : Object}`, so basically an **object** with one **property** called Object and the **value** assigned to it Object. In the end we use `prototype` property on the string '[Object Object]', this results in `undefined`.
+Template strings are a feature of **JavaScript** making it able to render values of variables directly in the **string**. However the correct **syntax** for **template strings** is `${Object}` and not `${{Object}}`. Here **ES6**'s short notation for **object literals** which states that `{Object}` means `{Object : Object}`, so basically an **object** with one **property** called Object and the **value** assigned to it Object. In the end we use `prototype` property on the string '[Object Object]', this results in `undefined`.
 %
 ---
 ```
@@ -76,7 +76,7 @@ typeof `${{Object}}`.prototype
 * `3`
 * `[1,2,3]`
 %exp
-**Rest parameters** can only appear on the last position. Here `...x` is used first, this results in `Error`.
+Rest parameters can only appear on the last position. Here `...x` is used first, this results in `Error`.
 %
 ---
 ```
