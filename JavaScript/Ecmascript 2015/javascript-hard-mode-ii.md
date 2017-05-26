@@ -37,10 +37,14 @@ typeof (function* f() {
 * `"generator"`
 * `"object"`
 %exp
-One interesting feature **ES6** introduced is **generator** functions. The special thing about a **generator** is that it can be **paused** and **resumed** as many times as the programmer wants to. **Generator** objects have `next()` method, that **resumes** the function and lets it run until the next `yield`. `next()` method returns an **iterator protocol** format value: `{value: <return value>, done: boolean}`. So on the first `next()` we get:
+One interesting feature **ES6** introduced is **generator** functions. The special thing about a **generator** is that it can be **paused** and **resumed** as many times as the programmer wants to. **Generator** objects have `next()` method, that **resumes** the function and lets it run until the next `yield`.
+
+`next()` method returns an **iterator protocol** format value: `{value: <return value>, done: boolean}`. So on the first `next()` we get:
+
 ```
 g.next(); // {value: f, done: false}
 ```
+
 The mistake here is that only **generator** objects have `next()` method implemented. If we try to call `next()` as a chain, the second one will be applied to the **return value** of the first `next()` and not on the **generator** object.
 That is why `Error` is the right answer.
 %
@@ -54,7 +58,7 @@ typeof (new class f()
 * `"undefined"`
 * `"object"`
 %exp
-The above example results in **SyntaxError** because `class name f()` is not syntacticaly corect in JavaScript.
+The above example results in **SyntaxError** because `class name f()` is not syntactically correct in JavaScript.
 %
 ---
 ```
@@ -65,7 +69,11 @@ typeof `${{Object}}`.prototype
 * `"function"`
 * `Error`
 %exp
-Template strings are a feature of **JavaScript** making it able to render values of variables directly in the **string**. However the correct **syntax** for **template strings** is `${Object}` and not `${{Object}}`. Here **ES6**'s short notation for **object literals** which states that `{Object}` means `{Object : Object}`, so basically an **object** with one **property** called Object and the **value** assigned to it Object. In the end we use `prototype` property on the string '[Object Object]', this results in `undefined`.
+Template strings are a feature of **JavaScript** making it able to render values of variables directly in the **string**. However the correct **syntax** for **template strings** is `${Object}` and not `${{Object}}`.
+
+Here **ES6**'s short notation for **object literals** which states that `{Object}` means `{Object : Object}`, so basically an **object** with one **property** called Object and the **value** assigned to it Object.
+
+ In the end we use `prototype` property on the string '[Object Object]', this results in `undefined`.
 %
 ---
 ```
@@ -107,5 +115,7 @@ The variable `y` is in **scope**, but since it's never initialized it stays in *
 * `"undefined"`
 * `"object"`
 %exp
-Here we encounter a **SyntaxError** as the arrow function `=>` can have either **concise body**(`var func x => x * x;`) or  the usual **block body**(`var func = (x,y) => {return x + y;};`). The definition here doesn't respect either of the.
+Here we encounter a **SyntaxError** as the arrow function `=>` can have either **concise body**(`var func x => x * x;`) or  the usual **block body**(`var func = (x,y) => {return x + y;};`).
+
+The definition here doesn't respect either of the.
 %
