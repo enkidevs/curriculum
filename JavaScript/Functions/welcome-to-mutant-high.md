@@ -36,7 +36,7 @@ However, assigning it a new value (e.g. `arr.length = 0`) will mutate (truncate)
 
 Array.from(arr)
 %exp
-The `Array.from()`` method creates a new `Array` instance from an array-like or iterable object.
+The `Array.from()` method creates a new `Array` instance from an array-like or iterable object.
 %
 arr.concat([0])
 %exp
@@ -104,7 +104,7 @@ Object.create(obj)
 %
 Object.is(obj, {})
 %exp
-The `Object.is()`` method determines whether two values are the same value.
+The `Object.is()` method determines whether two values are the same value.
 
 This is a **pure** function.
 %
@@ -186,7 +186,7 @@ This is an **impure** function.
 
 arr.splice(1)
 %exp
-The `splice()`` method changes the contents of an array by removing existing elements and/or adding new elements.
+The `splice()` method changes the contents of an array by removing existing elements and/or adding new elements.
 %
 arr.unshift()
 %exp
@@ -204,7 +204,7 @@ Because `obj` is the **target** object, its content will be mutated.
 %
 Object.freeze(obj)
 %exp
-The `Object.freeze()`` method freezes an object: that is, prevents new properties from being added to it.
+The `Object.freeze()` method freezes an object: that is, prevents new properties from being added to it.
 
 However, this method is **impure**.
 %
