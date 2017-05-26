@@ -20,12 +20,12 @@ tags:
 ---
 ## Content
 
-A value `v` is called *truthy* if it converts to `true` when used in an `if` clause. 
+A value `v` is called *truthy* if it converts to `true` when used in an `if` clause.
 
-This mean that 
+This mean that
 ```
 if (v) { console.log('yes'); }
-``` 
+```
 will print `yes` if and only if `v` is truthy.
 
 ---
@@ -34,64 +34,111 @@ will print `yes` if and only if `v` is truthy.
 Falsy:Truthy
 ```true
 true
-```
-```true
+%exp
+True will always be evaluated as true by the if condition so the result is yes.
+%
+
 new Date()
-```
-```true
+%exp
+new Date() returns the date the PC is currently set to. This will evaluate to true and the right answer is yes.
+%
+
 Infinity
-```
-```true
+%exp
+The way EcmaScript's logic OR casts arguments to booleans is by using `toBoolean` function. It evaluates to false `-0`, `+0` and `NaN`, otherwise the result is true. This means infinity is evaluated to true.
+%
+
 {}
-```
-```true
+%exp
+if({}) returns true even if the object is true. The result is yes.
+%
+
 []
-```
-```true
+%exp
+Empty arrays are evaluated to true in JavaScript. The expression will print yes.
+%
+
 3
-```
-```true
+%exp
+As we stated before, any number that is not `-0`, `+0` or `NaN` will evaluate to true in JavaScript.
+%
+
 -1
-```
-```true
+%exp
+As we stated before, any number that is not `-0`, `+0` or `NaN` will evaluate to true in JavaScript.
+%
+
 new Number(0)
-```
-```true
+%exp
+`new Number(0)` will return an object. We've seen before that an object, being it empty or not, is evaluated to true.
+%
+
 7
-```
-```true
+%exp
+As we stated before, any number that is not `-0`, `+0` or `NaN` will evaluate to true in JavaScript.
+%
+
 [1][0]
-```
-```true
+%exp
+Any array in JavaScript, being it empty or not, will always be true.
+%
+
 {a: false}
+%exp
+Any object will be evaluated to truthy.
+%
+
 ```
+
 ```false
 false
-```
-```false
+%exp
+False is false no matter what.
+%
+
 0
-```
-```false
+%exp
+Positive 0 will always be evaluated to falls in JavaScript.
+%
+
 ''
-```
-```false
+%exp
+An empty string is always false in JavaScript.
+%
+
 ""
-```
-```false
+%exp
+An empty string is always false in JavaScript.
+%
+
 null
-```
-```false
+%exp
+`null` evaluates to false in JavaScript.
+%
+
 NaN
-```
-```false
+%exp
+`NaN` is evaluated to false.
+%
+
 undefined
-```
-```false
+%exp
+`undefined`'s boolean value is false.
+%
+
 {}.someKey
-```
-```false
+%exp
+If we search for some key in an empty object undefined will be returned, therefore the result is false.
+%
+
 [].length
-```
-```false
+%exp
+The length of an empty array will be undefined, so the expression will evaluate to false.
+%
+
 [1][1]
+%exp
+This expression is undefined in JavaScript, so it will evaluate to false.
+%
+
 ```
