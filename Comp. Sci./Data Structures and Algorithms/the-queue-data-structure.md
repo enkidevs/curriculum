@@ -30,7 +30,7 @@ Accessor methods:
 - `isEmpty()` : *Returns* true if there are no elements in the queue.
 - `first()` : *Returns* the element at the front of the queue.
 
-This is how you would work with queues in different programming languages:
+These are your queue options in different programming languages:
   - `Java`: There is no Queue class in Java. However, the LinkedList class methods allows you to use the list as a queue.
   - `JavaScript`: There is no special Queue prototype in JavaScript. The Array prototype, however, supports the `push` and `shift` methods that emulate the behavior of a queue.
   - `Python`: You can instantiate queues using the `queue` module in python3, or the `Queue` module in python2. The insertion method is called `put`, while the removal one is `get`.
