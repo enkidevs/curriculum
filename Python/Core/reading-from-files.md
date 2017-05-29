@@ -50,7 +50,9 @@ file = open('test.txt', 'r')
 print(file.readlines())
 
 #Oputput:
-['Hello!', 'My name is Steve.', 'Where is my food?']
+['Hello!',
+ 'My name is Steve.',
+ 'Where is my food?']
 ```
 
 **Remember**, we used all operations available on the same **file** just to be easier to exemplify. In reality if we use one of the **operations** on a file, then we cannot read from it again. If we use the `read()` **operation** on a file, than the `readlines()` **operation** applied to the same file will return an **empty string**.
