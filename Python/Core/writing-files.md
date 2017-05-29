@@ -24,6 +24,7 @@ path = /usr/steve/new_file.txt
 text = open(path, 'wr')
 ```
 Next we want to put some data into this **file**. For this we will use `write()` operation, which takes a single **parameter** that must be a **string**. It takes that **string** and writes it to the file. If we want to add a **new line** to the file, the **newline character**('\n') must be provided as a **parameter**.
+
 ```
 in = 'This is one line\n
       This is the second one.'
@@ -34,6 +35,12 @@ print(text.read())
 #Output
 This is one line
 This is the second one.
+```
+
+After all **operations** are done we need to remember that all **files** must be **closed**. `.close()` operation finished the connection between the **file** on disk and the file **variable**.
+
+```
+text.close()
 ```
 ## Footnotes
 
