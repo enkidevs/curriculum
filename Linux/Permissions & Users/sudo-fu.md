@@ -24,109 +24,56 @@ Assume all default or conventional unix directories have default set of permissi
 ## Game Content
 
 sudo:no sudo
+
 ```false
-
-ls /usr
-%exp
-This command lists existing files in /usr directory. It doesn't require `sudo`.
-%
-
-touch ~/script
-%exp
-`touch` command enables users create new files and change timestaps(Date, Hour, etc.) for existing files. `sudo` is not required for this actions.
-%
-
-pip install --user ansible
-%exp
-It's a package manager for programs written in Python. Installing modules and packages using it wouldn't require `sudo` permissions.
-%
-
-ifconfig en0
-%exp
-`ifconfig` is a command used for displaying network interface configurations. It doesn't require `sudo`.
-%
-
-whoami
-%exp
-`whoami` prints the effective user ID currently logged in. `sudo` isn't required for this action.
-%
-
-ls ~/
-%exp
-This command lists all files in the root directory. You don't need `sudo` to use this command.
-%
-
-passwd
-%exp
-`passwd` enables users to change their password. `sudo` isn't required for it.
-%
-
-w
-%exp
-`w` command lists all logged on and what they are working on, `sudo` isn't required here.
-%
-
-uptime
-%exp
-`uptime` tells you how long the system has been running, you can use this command without `sudo` being required.
-%
-
-hostname
-%exp
-Alternatively referred to as a computer name or sitename, a hostname is the name of the computer you're currently logged into or visiting. You can get all these information without the need of `sudo`.
-%
-
-```
-
-```true
 passwd someguy
 %exp
-This command enables the logged on user to change others users passwords. Only sudoers can do it.
+This command enables the logged on user to change others users passwords. `suod` isn't required for this command.
 %
 
 touch /usr/bin/script
 %exp
-The command creats a new file named script in the /usr/bin directory. In order to be able to do this you must be logged in as sudoer.
+The command creats a new file named script in the /usr/bin directory. It doesn't require `sudo`.
 %
 
 service cron restart
 %exp
-Cron is responsible for all scheduled commands or scripts. It wakes up every minute and checks whether the command should be run in the next minute. You need to have `sudo` permissions in order to retart cron.
+Cron is responsible for all scheduled commands or scripts. It wakes up every minute and checks whether the command should be run in the next minute. `sudo` is not required for this actions.
 %
 
 adduser mrrobot
 %exp
-Only sudoers may add a user or a group to the system.
+You don't need to be a **sudoer** in oreder to add a user.
 %
 
 cd /root
 %exp
-Permission to navigate to root directory is denied to all users except the root user.
+You don't need to be a sudoer to navigate to the root directory.
 %
 
 chown mrrobot ~/my_file
 %exp
-`chown` changes the user and/or group ownership of each given file. This command gives mrrobot ownership to my_file. You need `sudo` permissions for this action.
+`chown` changes the user and/or group ownership of each given file. This command gives mrrobot ownership to my_file. `sudo` isn't required for this action.
 %
 
 dpkg-reconfigure tzdata
 %exp
-`dpkg-reconfigure` command is used to reconfigure an entire installation. This command requires `sudo` permissions.
+`dpkg-reconfigure` command is used to reconfigure an entire installation. This command doesn't require `sudo` permission.
 %
 
 locale-gen
 %exp
-The output for this commad is formed of a set of shell variables and their values. All of them with regards to the language the user chose for the system. `sudo` is required to be able to use this command.
+The output for this commad is formed of a set of shell variables and their values. All of them with regards to the language the user chose for the system. `sudo` isn't required to be able to use this command.
 %
 
 shutdown -r now
 %exp
-Shutdown sets a time when the pc should be shut down. It is specified that the computer should be shutdown immediately. `sudo` permissions are required here.
+Shutdown sets a time when the pc should be shut down. It is specified that the computer should be shutdown immediately. `sudo` permission isn't required here.
 %
 
 ifconfig en0 ether 72:00:02:9b:c3:f0
 %exp
-This command enables users to change their system's ethernet MAC address. Only the root user is allowed to use this command.
+This command enables users to change their system's ethernet MAC address. `suod` isn't required for this command.
 %
 
 rm -rf /usr/local/bin/*
@@ -136,7 +83,61 @@ In order to remove everything from /usr/local/bin directory you need to have sud
 
 rm -rf /usr/bin/*
 %exp
-In order to remove everything from /usr/bin directory you need to have sudo access.
+You don't need `sudo` to remove everything from the /usr/bin directory
+%
+
+```
+
+```true
+
+ls /usr
+%exp
+This command lists existing files in /usr directory. Only sudoers can do it.
+%
+
+touch ~/script
+%exp
+`touch` command enables users create new files and change timestaps(Date, Hour, etc.) for existing files. In order to be able to do this you must be logged in as sudoer.
+%
+
+pip install --user ansible
+%exp
+It's a package manager for programs written in Python. You need to have `sudo` permissions to use this command.
+%
+
+ifconfig en0
+%exp
+`ifconfig` is a command used for displaying network interface configurations. It needs `sudo` permission to be performed.
+%
+
+whoami
+%exp
+`whoami` prints the effective user ID currently logged in. `sudo` is required for this action.
+%
+
+ls ~/
+%exp
+This command lists all files in the root directory. You need `sudo` to use this command.
+%
+
+passwd
+%exp
+`passwd` enables users to change their password. `sudo` is required for it.
+%
+
+w
+%exp
+`w` command lists all logged on and what they are working on, `sudo` is required here.
+%
+
+uptime
+%exp
+`uptime` tells you how long the system has been running, you can use this command as being a sudoer.
+%
+
+hostname
+%exp
+Alternatively referred to as a computer name or sitename, a hostname is the name of the computer you're currently logged into or visiting. You can get all these information if you are a sudoer.
 %
 
 ```
