@@ -37,7 +37,7 @@ The **input** of the user will be returned as a `string` without any additional 
 1.When a `string` is typed in:
 ```
 str = input("Please enter your input: ");
-print "The input is: ", str
+print("The input is: ", str)
 ```
 If "Hello World" is typed in, the output will look like this:
 
