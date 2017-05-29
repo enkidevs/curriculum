@@ -24,7 +24,7 @@ Assume all default or conventional unix directories have default set of permissi
 ## Game Content
 
 sudo:no sudo
-```false
+```true
 
 ls /usr
 %exp
@@ -78,7 +78,7 @@ Alternatively referred to as a computer name or sitename, a hostname is the name
 
 ```
 
-```true
+```false
 passwd someguy
 %exp
 This command enables the logged on user to change others users passwords. Only sudoers can do it.
