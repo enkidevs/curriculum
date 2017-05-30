@@ -98,7 +98,7 @@ False is false no matter what.
 
 0
 %exp
-Positive 0 will always be evaluated to falls in JavaScript.
+Positive 0 will always be evaluated to false in JavaScript.
 %
 
 ''
