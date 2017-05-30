@@ -36,12 +36,12 @@ Exporting an anonymous function:
 // module.js
 module.exports = function() {
 
-  console.log(‘Anonymous!’);
+  console.log('Anonymous!');
 
 }
 
 // main.js
-var func = require(‘./module.js’);
+var func = require('./module.js');
 func();
 ```
 
@@ -50,12 +50,12 @@ Named functions can be exported in a similar way, however notice differences whe
 // module.js
 exports.foo = function() {
 
-  console.log(‘Named!’);
+  console.log('Named!');
 
 }
 
 // main.js
-var foo = require(./module.js’).foo;
+var foo = require('./module.js').foo;
 foo();
 ```
 
@@ -77,12 +77,12 @@ Complete the code snippet to export the named function:
 // module.js
 exports.foo = function() {
 
-  console.log(‘Named!’);
+  console.log('Named!');
 
 }
 
 // main.js
-var foo = require(./module.js’???;
+var foo = require('./module.js'???;
 foo();
 ```
 

@@ -1,4 +1,4 @@
-# What is protocol?
+# What is a protocol?
 author: catalin
 
 levels:
@@ -20,27 +20,27 @@ parent: what-is-a-packet
 ---
 ## Content
 
-**Networks** are used to enable two or more devices to *communicate*.
+**Networks** enable two or more devices to *communicate*.
 
-Now, exactly as in real life, when you want two parties to communicate effectively you need to follow some rules. Among computer networks, different sets of rules are called **protocols**.
+As in real life, for two parties to communicate efficiently, the need to follow some rules. With regard to computer networks, these sets of rules are called **protocols**.
 
-So far, you must have encountered and used some of the following **protocols**:
+So far, you must have encountered some of the following **protocols**:
 - `IP` - used to uniquely identify computers (*hosts*)
 - `FTP`[1] - standard protocol for file transfer between two hosts
-- `HTTP` - key protocol for data transfer across the *Internet*
+- `HTTP` - key protocol for data transfer across the *World Wide Web*
 - `SMTP` - used for mail transfer
 
-Some of the **protocols** used are hidden within the implementation of you devices while others are easily spotted by simply accessing a web page:
-```
-// here the HTTPS protocol is used
+Some of the **protocols** used are hidden from the user, while others can be spotted by accessing a web page:
+```text
+// the HTTPS protocol is used
 https://enki.com
 ```
 
-In human communication we can think of the *English language* as a **protocol**. It defines some rules that make sure the parties understand each other.
+In human communication, we can think of *English* as a **protocol**. It defines rules for the parties to follow, and hence "speak the same language".
 
-However, other rules, and therefore other **protocols** are need. For example, two persons shouldn't speak at the same time because information might get lost.
+However, a single protocol might not be enough. For example, an additional rule that states "two persons shouldn't speak at the same time" should be included.
 
-In the same way, computer networks will use multiple **protocols** that are hierarchically organized on different layers[2].
+In the same way, communication over networks requires multiple **protocols**, organized hierarchically[2].
 
 ---
 ## Footnotes
@@ -70,8 +70,7 @@ Which of the following protocols is used solely for file transfer?
 ---
 ## Revision
 
-Protocols are ??? for a good communication between two devices within computer networks.
-
+Protocols are ??? that ensure efficient communication between two devices, over a network.
 * rules
 * privileges
 * properties

@@ -38,7 +38,7 @@ Pre-order traversal[2] will output the Polish notation, or prefix notation, of t
 
 The following binary expression tree evaluates to:
 ```
-     /
+     ÷
    /   \
   +     -
  / \    |

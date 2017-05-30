@@ -38,7 +38,8 @@ int[] myArray = {1,2,3};
 //c++
 int myArray[] = {1,2,3};
 //python
-myArray = [1,3,'enki']
+from array import array
+myAr = array('i', [1,2,3,4])
 //javascript
 var myArray = [1,2,'enki'];
 ```
@@ -48,8 +49,6 @@ Or empty arrays of size 3:
 int[] myArray = new int[3];
 //c++
 int myArray[3];
-//python
-myArray = [];
 //javascript
 var myArray = [];
 
@@ -59,7 +58,7 @@ The advantage of an array is that you have immediate access to its elements. All
 //works for most languages
 x = myArray[0];
 ```
-Swap the order to append a value to the cell:
+Swap the order to assign a value to the cell:
 ```
 myArray[0] = x;
 ```
