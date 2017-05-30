@@ -51,22 +51,22 @@ numsY is numsX
 
 The `is` operator is used to match ??? instead of variables.
 
-*instances
-*objects
-*lists
+* instances
+* objects
+* lists
 
 ---
 ## Revision
 
 What does the following code snippet return:
 
-```
+```python
 numsX = [2, 4, 6]
 numsY = [2, 4, 6]
 
 numsX is numsY
 ```
 ???
-*False
-*True
-*Error
+* False
+* True
+* Error
