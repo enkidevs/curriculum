@@ -27,18 +27,18 @@ In case of server failure, corruption or other unfortunate events, any clone can
 
 The syntax used to clone a repository is:
 ```
-$ git clone [URL]
+$ git clone [url]
 ```
 
-You can clone any open-source project or even private ones as long as you have the right credentials. For example, you can clone the `reduck` library from its specific URL:
+You can clone any open-source project or even private ones as long as you have the right credentials. For example, you can clone the `reduck` library from its specific url:
 ```
-$ git clone
+$ git clone 
     https://github.com/enkidevs/reduck
 ```
 
-Running this command will:
+Running this command will: 
  - create a directory named "reduck"
- - initialize a `.git` directory inside
+ - initialise a `.git` directory inside
  - pull all repository data in the `.git` directory
  -  check out a working copy of the latest version of the project
 
@@ -48,7 +48,7 @@ $ git clone https://github.com/enki/repo \
                             myAwesomeClone
 ```
 
-Apart from through the `https` protocol used above, `git` also supports transfer through **SSH** and local protocols.
+Apart from through the `https://` protocol used above, **Git** also supports transfer through **SSH** and local protocols.
 
 ---
 ## Practice
@@ -58,14 +58,14 @@ What's the last step **Git** automatically does after running `git clone`?
 ???
 
 * checks out a working copy of the latest version of the project
-* initializes the `.git` directory
+* initialises the `.git` directory
 * pulls repository data in the `.git` directory
 * create a new folder directory
 
 ---
 ## Revision
 
-Does running `git clone` with a repository's URL require having an existing working copy on you machine?
+Does running `git clone` with a repository's url require having an existing working copy on you machine?
 
 ???
 

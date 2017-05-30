@@ -60,13 +60,15 @@ What are the missing values required to transform a diamond into a square?
 
 ```css
 #transform {
-   transform: ???(???);
+   transform: rotate(???);
+   transform-origin: ???;
 }
 ```
-* `rotate`
 * `-45deg`
-* `translate`
+* `center center`
 * `45%`
 * `-45%`
 * `90deg`
 * `center`
+* `center left`
+* `center right`

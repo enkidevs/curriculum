@@ -27,10 +27,6 @@ Learn the Linux permissions as octal-letters pairs!
 * r–––w––––
 * r––r–––––
 * rw–r–––––
-%exp
-The permissions here are defined as follows: the owner can read and group can write.
-%
-
 ---
 ```
 0777 = ???
@@ -38,21 +34,13 @@ The permissions here are defined as follows: the owner can read and group can wr
 * rwxrwxrwx
 * rw–rw–rw–
 * –––––––––
-%exp
-Here we know that the owner, group and others have permission to read write and execute.
-%
-
 ---
 ```
 –wx–wx––x = ???
 ```
-* 0331
-* 0223
-* 0665
-%exp
-The owner and group can write and execute. Others can execute only.
-%
-
+*0331
+*0223
+*0665
 ---
 ```
 1473 = ???
@@ -60,10 +48,6 @@ The owner and group can write and execute. Others can execute only.
 * r––rwx–wxt
 * invalid
 * ––xrwx–xT
-%exp
-The owner can read, group can read, write and execute and others can write and execute. The last t states that only the owner can delete this file.
-%
-
 ---
 ```
 –w–r–x––– = ???
@@ -71,10 +55,6 @@ The owner can read, group can read, write and execute and others can write and e
 * 0250
 * 2500
 * 0341
-%exp
-The owner can write, the group can read and others can execute.
-%
-
 ---
 ```
 2415 = ???
@@ -82,10 +62,6 @@ The owner can write, the group can read and others can execute.
 * r––––sr–x
 * r–s––xr–x
 * r––––xr–x
-%exp
-Owner can read, the group can read. However, due to the `s` there they have the same privileges as the owner of the file. Others can execute the file.
-%
-
 ---
 ```
 rws––x––x = ???
@@ -93,10 +69,6 @@ rws––x––x = ???
 * 4711
 * 4511
 * 2633
-%exp
-The owner can write and read, group and others can execute.
-%
-
 ---
 ```
 r–xr–xr–x
@@ -104,10 +76,6 @@ r–xr–xr–x
 * 0555
 * 2444
 * 0444
-%exp
-This file can be read and executed by anyone.
-%
-
 ---
 ```
 7777 = ???
@@ -115,10 +83,6 @@ This file can be read and executed by anyone.
 * rwsrwsrwt
 * rwxrwxrwx
 * rwxrwsrwt
-%exp
-Anyone accessing this file has all privileges available.
-%
-
 ---
 ```
 0312 = ???
@@ -126,6 +90,3 @@ Anyone accessing this file has all privileges available.
 * –wx––x–w–
 * r–x–w––w–
 * r––––x–w–
-%exp
-The owner can write and execute, whilst the group can execute and others can write.
-%

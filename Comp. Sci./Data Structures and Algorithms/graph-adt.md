@@ -36,7 +36,7 @@ It must be said that there are 4 common ways of representing it:
  (E, B, C),
  (F, B)]
 ```
-- **Adjacency map**: maintains a map of incident edges for each vertex. For a vertex v, its map  *(key,value)* pair is equivalent to (*adjacentVertex(u)* , *edgeBetween(v,u)*). The only difference between the list and the map is the container (data structure) used to store them.
+- **Adjacency map**: maintains a map of incident edges for each vertex. For a vertex v, its map  *(key,value)* pair is equivalent to (*adjacentVertex(u)* , *edgeBetween(v,u)*). The only difference between the list and the map is the container(data structure) used to store them.
 - **Adjacency (incidence) matrix**: maintains an _n*n_ matrix, for a graph with *n* vertices. Each cell represents an edge between *(v,u)*; if there is no edge, the value of the cell is null(or 0).
 
 
@@ -58,7 +58,7 @@ Any *implementation* of a graph data type should provide these methods:
 ---
 ## Practice
 
-For any undirected graph represented as a matrix, you can be sure that the cells having the same value are (where _n_ is the number of vertices):
+For any undirected graph represented as a matrix, you can be sure that the cells having the same value are(where _n_ is the number of vertices):
 
 ???
 *`g[u][v]` and `g[v][u]`
@@ -71,10 +71,11 @@ For any undirected graph represented as a matrix, you can be sure that the cells
 ---
 ## Revision
 
-Which of the following statements is describing an adjacency list?
+Which of the following methods might not make sense to appear in a graph ADT?
 
 ???
-
-* A list describing the set of neighbours for each node.
-* An unordered list of all edges.
-* A matrix of size N*N, where N is the number of nodes.
+* pop(G)
+* adjacent(u,v)
+* child(u,v)
+* root(u)
+* addEdge(v,u)

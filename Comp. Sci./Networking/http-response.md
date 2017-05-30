@@ -88,7 +88,6 @@ The first line in an HTTP response is usually called
 
 ---
 ## Footnotes
-
 [1:Cross-site requests]
 A resource makes a cross-origin HTTP request when it requests a resource from a different domain, or port than the one which the first resource itself serves. You might find this process abbreviated as CORS (cross-origin resource sharing).
 

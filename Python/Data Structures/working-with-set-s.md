@@ -1,4 +1,4 @@
-# `Set`s
+# Sets
 author: catalin
 
 levels:

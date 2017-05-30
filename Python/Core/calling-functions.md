@@ -57,7 +57,7 @@ In the example, variable `x` will take the value of `num`, therefore the output 
 
 Complete the code snippet to define and call the function with the correct parameter:
 
-```python
+```
 ??? cube(x):
     res = x * x * x
     print (res)
