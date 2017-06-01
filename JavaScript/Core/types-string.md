@@ -28,7 +28,7 @@ var longerText = "abc" +
 		"ghi";
 ```
 
-You can also use the backslash character to continue text to multiple lines (make sure nothing is after the backslash):
+You can also use the backslash character to continue writing text on multiple lines (make sure nothing is after the backslash). Note there will not be a new line after the text when written this way:
 
 ```
 var longerText = "abc \
