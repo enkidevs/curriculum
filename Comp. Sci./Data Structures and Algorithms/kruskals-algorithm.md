@@ -48,7 +48,7 @@ Kruskal(SortedEdges[])
 ```
 The function `sameConnectedComponent(v1, v2)` checks whether or not there already is a path between the two nodes. Why do we have to check that?[4]
 
-*Kruskal's algorithm* can be shown to run in *O(|E|×|log E|)* time, which is equivalent to *O(|E|×|logV|)*, where *E* and *V* are the number of edges and the number of vertices, respectively.
+*Kruskal's algorithm* can be shown to run in *O(|E|×|log E|)* time, which is equivalent to *O(|E|×|logV|)*[5], where *E* and *V* are the number of edges and the number of vertices, respectively.
 
 Swipe to the next insight to see an iteration of the algorithm.
 
@@ -83,3 +83,15 @@ If the chosen edge creates a cycle, the data structure won't be a tree anymore.
 
 [4: Hint]
 If they are part of the same component, it means those nodes will already appear in the final spanning tree.
+
+[5: Number of edges]
+The maximum number of unique edges a graph (complete) can have is `|E|=|V|*|V|=|V|^2`. We would then be able to substitute **E** for **V**:
+```
+O(|E|*|log E|) = O(|E|*|log V^2|)
+```
+We can then use the following logarithmic property:
+```
+// log a^x = x * log a
+O(|E|*|log E|) = O(|E|*2*|log V|)
+               = O(|E|*|log V|)
+```
