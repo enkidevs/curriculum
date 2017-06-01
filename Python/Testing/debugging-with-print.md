@@ -1,4 +1,4 @@
-# Debugging with `print()`
+# Debugging with print()
 author: SebaRaba
 
 levels:
