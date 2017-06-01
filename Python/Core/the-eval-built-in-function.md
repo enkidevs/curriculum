@@ -76,14 +76,16 @@ In the first example the result is a long list of available functions since all 
 
 ```python
 from math import *
-print(eval('squareRoot(9)', {'squareRoot': sqrt, 'pow': pow}))
+print(eval('squareRoot(9)',
+{'squareRoot': sqrt, 'pow': pow}))
 # Result: 3
 ```
 
 Finally, it is important to be aware of __the security risks associated with `eval`__. If you pass user input to an `eval` and not restricted the functions available to the expression, it is possible that the user could compromise system security or integrity. For example, if the `os` module is available for use, the user could delete arbitrary files from the system by using the `rm -rf` unix command, which can be used from the `os` module. We should be careful whenever we are passing user input to be evaluated, even if indirectly, because of the risk of code injection. Always ensure user input fed into `eval` commands are properly tokenized. It is generally not recommended to pass user input into `eval` at all. We can restrict the use of the `__builtins__` by putting them in the dictionary, but associated with a `None`, like so:
 
 ```python
-eval(expression_here, {'__builtins__': None})
+eval(expression_here,
+{'__builtins__': None})
 ```
 
 For more information on the security risks associated with using `eval` see the 'Eval really is dangerous' link in the Learn More section.  
