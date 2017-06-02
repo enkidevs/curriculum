@@ -35,8 +35,7 @@ If we just want to just use specific functions from a module we can do so with t
 ```
 import { triple as mathFuncs } 
 from 'mathFuncs';
-mathFuncs.triple(2); //6
-mathFuncs.double(2); //error not imported
+mathFuncs(2); //6
 ```
 
 As we have seen we can alias the module imported which is especially useful if it has a really long name:

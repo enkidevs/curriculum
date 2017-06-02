@@ -44,11 +44,11 @@ func(…test); //x=1, y=2, z=3
 The spread operator can even be applied multiple times so if we had a function with 6 arguments we can use the spread operator twice if we wanted to reuse the input variables:
 
 ```
-function test(x, y, z, a, b, c){
+function someFunc(x, y, z, a, b, c){
 …
 }
 
-test(…test, …test);
+someFunc(…test, …test);
 ```
 
 This saves some tedious and potentially error prone assignment code.
