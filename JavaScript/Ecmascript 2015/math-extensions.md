@@ -40,10 +40,9 @@ Math.cbrt(81); //4.326748710922225
 
 **Math.sign**
 
-Math.sign is an integer that represents whether a number is positive (1) or negative (0):
+Math.sign returns a value that represents whether a number is positive (1), negative (-1), positve zero (0), negative zero (-0) and NaN:
 
 ```
 Math.sign(1); //1
-Math.sign(-1); //0
-Math.sign(1/0); //1
+Math.sign(-1); //-1
 ```

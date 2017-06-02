@@ -39,7 +39,6 @@ alphabet.copyWithin(2,0,2);
 ```javascript
 copyWithin(
 target,
-position,
 start (optional),
 end (optional)
 )

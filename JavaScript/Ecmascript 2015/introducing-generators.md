@@ -50,6 +50,7 @@ gen.next(); //{value: 2, done: false}
 gen.next(); //{value: 3, done: false}
 gen.next(); //{value: 4, done: false}
 gen.next(); //{value: 5, done: false}
+gen.next(); //{value: undefined, done: true}
 ```
 
 ---

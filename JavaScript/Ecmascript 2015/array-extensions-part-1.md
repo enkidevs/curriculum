@@ -23,7 +23,7 @@ Arrays benefit from a number of extensions in ES6 let's look at these now.
 
 **includes**
 
-*includes* returns a boolan indicating with an array contains a specific value:
+*includes* returns a boolean indicating with an array contains a specific value:
 
 ```
 var people = ["john", "bob"];
@@ -63,5 +63,5 @@ Populates an array with a supplied value and optional start & end position and i
 
 ```
 [1,1,1].fill(5); //[5,5,5]
-[1,1,1,1,1].fill(5,1,3); //[1,5,5,1,1];
+[1,1,1,1,1].fill(5,1,3); //[1,5,5,1,1] 
 ```

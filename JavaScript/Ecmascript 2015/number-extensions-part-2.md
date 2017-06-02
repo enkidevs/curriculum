@@ -25,7 +25,7 @@ Number.EPSILON;
 
 **Number.isSafeInteger**
 
-To be considered a safe integer numbers must be able to be represented in a format called *IEEE-754* and cannot be the result of rounding any other IEEE-754 number. There are some numbers that fall outside of what can be represented using IEE-754:
+To be considered a safe integer numbers must be able to be represented in a format called *IEEE-754* and cannot be the result of rounding any other IEEE-754 number. There are some numbers that fall outside of what can be represented using IEEE-754:
 
 ```
 Number.isSafeInteger(3); //true
@@ -43,6 +43,3 @@ Number.MAX_SAFE_INTEGER; //9007199254740991
 ```
 
 ---
-## Footnotes
-
-Checkout [w3cub] (http://docs.w3cub.com/javascript/global_objects/number/epsilon/) for an example of using Number.EPSILON to test equality.
