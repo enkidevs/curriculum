@@ -7,7 +7,7 @@ levels:
 
   - basic
 
-type: normalpython
+type: normal
 
 category: must-know
 
@@ -59,7 +59,7 @@ The **input** of the user will be returned as a `string` without any additional 
 colours=eval(input("Favourite colours:"))
 print(colours, type(colours))
 ```
-The output will be as follows:
+The `stdout` will be as follows:
 
 ```
 Favourite colours: ["Green","Blue","Red"]
