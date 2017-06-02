@@ -11,19 +11,27 @@ category: must-know
 
 links:
 
-  - '[link to learn more](https://www.tutorialspoint.com/python/python_files_io.htm)'
+  - '[more operations here](https://www.tutorialspoint.com/python/python_files_io.htm)'
 
 ---
 ## Content
 
-In **Python** there is a method called `tell()`, which returns the current position in the **file**. This **position** is represented by the number of **bytes** after the beginning of the file.
+**Python** provides more methods to ease `I/O` interactions and **file handling**. Among these we can count:
+- `tell()` which returns the current postion;
+- `seek()` which lets you navigate through the file;
+- `rename()` which enables users to rename files;
+- `remove()` which enables users to remove files;
 
-`seek(offset, from_what)` enables the **users** to move the page pointer along the **file**. This operation requires two parameters, `offset` which defines how many **byte** you will move the pointer and `from_what` which defines where you start moving from. If `from_what` is omitted, it is set by **default** to `0`. Otherwise there are 3 other important **values**:
 
-- `0`: which means at the beginning;
+In **Python** the `tell()` funciton returns the current position in the **file**. This **position** is represented by the number of **bytes** after the beginning of the file.
+
+`seek(offset, from_what)` enables the **users** to move the page pointer along the **file**. This operation requires two parameters, `offset` which defines how many **byte** you will move the pointer and `from_what` which defines where you start moving from. Otherwise there are 3 other important **values**:
+
+- `0`(default): which means at the beginning;
 - `1`: which means at the current position;
 - `2`: which means at the end of the file.
 
+For a better understanding we will exemplify `tell()` and `seek()` operations with the following **snippet**:
 
 ```
 text = open("file.txt","r+")
@@ -37,19 +45,24 @@ position = text.seek(0);
 print("Position after seek: ", position);
 
 text.close()
-#Output
 
-The current position: 7
-Position after seek: 0
+#Output:
+#The current position: 7
+#Position after seek: 0
 ```
-There is a module in **Python** called `os`, which helps with file processing operations.There are two function we will talk about: `rename(current_file_name, new_file_name)` and `remove(file_name)`.
+Apart from other uses, `os` module helps with **file processing operations**. Two of this operations are
+`rename(current_file_name, new_file_name)` and `remove(file_name)`.
+
+As `os` is a **module**, we need to **import** it to be able to use the operations it provides:
 
 ```
-#As os is a module we need to import it
 import os
 
 os.rename("file.txt","new_file.txt");
 os.remove("new_file.txt");
+
+#file.txt was renamed into new_file.txt
+#new_file.txt was then removed from disk
 ```
 ---
 ## Practice
