@@ -11,41 +11,43 @@ category: must-know
 
 links:
 
-  - '[link to learn more](https://www.digitalocean.com/community/tutorials/how-to-handle-plain-text-files-in-python-3)'
+  - '[more about writing to files](https://www.digitalocean.com/community/tutorials/how-to-handle-plain-text-files-in-python-3)'
 
 ---
 ## Content
 
-First, the **step** we need to remember is how `open()` works. If the file we apply `open()` to already exists, setting **mode** to `w` than the **file** will be overwritten. If the file doesn't **exist** though, a new file with the specified name will be **created**.
+**Remember** how `open()` works:
+- if we open an already existing file with mode `w` it will be overwritten.
+- if the file doesn't exist, it will be created.
 
-Now, we will define a **path** and create a new **file** there. The **file** will be opened in `wr` mode to be able to **print** the content later.
+Let's start by creating a **file** at the given **path**. Note that we use mode `wr` to open the file as later we'll need to **print** some lines of it:
+
 ```
 path = /usr/steve/new_file.txt
 text = open(path, 'wr')
 ```
-Next we want to put some data into this **file**. For this we will use `write()` operation, which takes a single **parameter** that must be a **string**. It takes that **string** and writes it to the file. If we want to add a **new line** to the file, the **newline character**('\n') must be provided as a **parameter**.
+
+
+Writing to the **file** can easily be done via the `write()` function. A single **string** may be passed as as **argument**, which will be written to the **file**. Multiple lines can be represented by `\n` characters within the string:
 
 ```
 in = 'This is one line\n
       This is the second one.'
 text.write(in)
-text.seek(0)[1]
+text.seek(0)
 print(text.read())
 
-#Output
-This is one line
-This is the second one.
+#Output:
+#This is one line
+#This is the second one.
 ```
+We used `seek()` function within this example. This function moves the **page pointer** to the specified position. In our case, we moved it to the beginning of the **file** to be able to **read** from it after.
 
-After all **operations** are done we need to remember that all **files** must be **closed**. `.close()` operation finished the connection between the **file** on disk and the file **variable**.
+Remember all **files** must be **closed** to preserve **resources** after finishing working with them. To do this, simply `close()` the file object:
 
 ```
 text.close()
 ```
-## Footnotes
-
-[1:.seek()]
-This operation moves the **page pointer** to the specified position. In our case, we moved it to the beginning of the **file** to be able to **read** from it after.
 ---
 ## Practice
 
