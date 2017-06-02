@@ -13,23 +13,27 @@ category: must-know
 
 links:
 
-  - '[link to learn more](https://www.tutorialspoint.com/python3/python_files_io.htm)'
+  - '[more about open() function](https://www.tutorialspoint.com/python3/python_files_io.htm)'
 
 ---
 ## Content
 
-In order to be able to **write/read** to/from a file in **Python**, an `open()` build-in function must be used. This function creates a `file` object, which would be utilised to call other support **methods** associated with it.
+**Reading** from and **writing** to files in **Pyton 3** cand easily be done using the `open()` funciton. This will create a `file` object, which would be utilised to call other support **methods** associated with it.
+
+Consider the following syntax:
 
 ```
-obj=open(f_name,[access_mode],[buffering])
+obj=open(f_name,[access_mode],
+                  [buffering])
 ```
+
 Parameter details:
 
 - `file_name`: string value that contains the name of the file.
 - `access_mode`: it determines the mode in which the file has to be opened: `read`, `write`, `append`.
-- `buffering`: if the value is 0, no buffering takes place. If the value is 1, **line buffering**[1] is performed while accessing the file. If the buffering value is greater then one, then buffering action is performed with the indicated buffer size.
+- `buffering`: there are 2 important values `0`(means no buffering) or `1`(means line buffering[1] is performed). If the value is grater than `1` then that will be considered the buffer's size.
 
-Here it is a list of the different **modes** of opening a **file**:
+The supported modes for opening a file are:
 
 - `a` : Opens the file for `appending`. With the **file pointer** being at the end of the file.
 - `r` : Opens the file for `reading`. With the **file pointer** being at the beginning of the file.
@@ -39,24 +43,27 @@ Here it is a list of the different **modes** of opening a **file**:
 - `w+`: Opens the file for writing and reading as well. Overwrites the existing file. If it doesn't exist, creates a new file.
 - `ab/rb/wb`: Opens the file for `appending`/`reading`/`writing` in **binary format**.
 
-Here is a list of **attributes** related to the `file object`:
+Note that every `file` *object* has the following attributes:
+
 - `file.closed`: returns `true` if the **file** is closed and `false` otherwise.
 - `file.mode`: returns which **mode** the file was opened in.
 - `file.name`: returns the name of the **file**.
+
+Keeping these in mind consider the following scenarios:
 
 ```
 # Open file.txt and print file name
 
 obj = open("doc.txt","wr")
 print("The file name is: ", obj.name)
+
+#Output: The file name is: doc.txt
+
+print("The file mode is: ", obj.mode)
+
+#Output: The file mode is: wr
 ```
 
-
-```
-# The output will look like this:
-
-The file name is: doc.txt
-```
 ---
 ## Footnotes
 
