@@ -43,6 +43,3 @@ Number.MAX_SAFE_INTEGER; //9007199254740991
 ```
 
 ---
-## Footnotes
-
-Checkout [w3cub] (http://docs.w3cub.com/javascript/global_objects/number/epsilon/) for an example of using Number.EPSILON to test equality.
