@@ -11,27 +11,32 @@ category: must-know
 
 links:
 
-  - '[link to learn more](http://www.pythonforbeginners.com/files/reading-and-writing-files-in-python)'
+  - '[more about reading from files](http://www.pythonforbeginners.com/files/reading-and-writing-files-in-python)'
 
 ---
 ## Content
 
-There are three **operations** available in **Pythong** for reading files.
-Supposing we have a file named `test.txt` with the following text inside:
+There are three **operations** available in **Pythong** for reading files:
+- `read()`
+- `readline()`
+- `readlines()`
+
+Suppose we have a file named `test.txt` with the following text inside:
 ```
 Hello!
 My name is Steve.
 Where is my food?
 ```
-Using `read()` operation:
+We can read the entire file with `read()`:
+
 ```
 file = open('test.txt', 'r')
 print(file.read())
 
 #Oputput:
-Hello!
-My name is Steve.
-Where is my food?
+#Hello!
+#My name is Steve.
+#Where is my food?
 ```
 Using `readline()` operation, the code **returns** the whole next line, including the **end of line character**(`\n`). Because of this, if the **operation** is applied again on the same **file**, the line that was just **read** will be skiped.
 
@@ -39,23 +44,24 @@ Using `readline()` operation, the code **returns** the whole next line, includin
 file = open('test.txt', 'r')
 print(file.readline())
 
-#Oputput:
-Hello!
+#Oputput: Hello!
+
+print(file.redline())
+
+#Output: My name is Steve.
 
 ```
-The last **operation** provided is `readlines()`. It reads all lines from a file and **returns** a list, where each position is a **new line**.
+Last but not least, `readlines()` reads all files from a file and returns them as a **list**:
 
 ```
 file = open('test.txt', 'r')
 print(file.readlines())
 
-#Oputput:
-['Hello!',
- 'My name is Steve.',
- 'Where is my food?']
+#Oputput: ['Hello!', 'My name is Steve.'
+#                 , 'Where is my food?']
 ```
 
-**Remember**, we used all operations available on the same **file** just to be easier to exemplify. In reality if we use one of the **operations** on a file, then we cannot read from it again. If we use the `read()` **operation** on a file, than the `readlines()` **operation** applied to the same file will return an **empty string**.
+**Remember**, we used all operations available on the same **file** just to be easier to exemplify. In reality if we use one of the **operations** on a file, then we cannot read from it again. If we use the `read()` **operation** on a file, than the `readlines()` **operation** applied to the same file will return an **empty string**. There is a function called `seek()` that helps you read twice the same file. We will discuss more about that in the following insights.
 
 ---
 ## Practice
