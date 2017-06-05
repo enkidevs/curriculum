@@ -51,18 +51,20 @@ If "Hello World" is typed in, the `stdout` will look like this:
 Please enter your input: Hello World.
 The input is: Hello Word.
 ```
-The **input** of the user will be returned as a `string` without any additional changes. If this **raw input** has to be transformed into another **data type** needed by the **program**, than there are two ways to do this: using a `casting` function(which would **cast** the input into the needed `data type`) or the `eval`[4] function(which would interpret `strings` as `Python` code and evaluate it).
+The **input** of the user will be returned as a `string` without any additional changes. If this **raw input** has to be transformed into another **data type** needed by the **program**, then there are two ways to do this:
+- `casting` function (which would **cast** the input into the needed `data type`);
+- `eval`[4] function (which would interpret `strings` as `Python` code and evaluate it).
 
-2.Lets try to use the `eval` function, we would like to know the user's favorite colours and save them in a list:
+2.Lets try to use the `eval` function, we would like to know the user's favorite colors and save them in a list:
 
 ```
-colours=eval(input("Favourite colours:"))
-print(colours, type(colours))
+colors=eval(input("Favourite colors:"))
+print(colors, type(colors))
 ```
 The `stdout` will be as follows:
 
 ```
-Favourite colours: ["Green","Blue","Red"]
+Favourite colors: ["Green","Blue","Red"]
 ["Green","Blue","Red"] <class `list`>
 ```
 3.Using a `casting` function, considering that we would like to know how old our user is and compare it as an **int** with other values:
@@ -90,12 +92,13 @@ Standard streams are preconnected communication channels between a computer prog
 A message that will be printed in console when the program asks for input.
 
 [4: eval()]
-`eval()` function interprets a string as `Python` code. However, this function could cause problems when the `string`s are interpreted. If you are using `eval(input())` and imported `OS` some user could type in `os.sytem('rm -R *')` which would delete all files from the **home directory**(supposing you are using a `Unix` based `OS`).
+ Bad things can happen if you decide to use `eval(input())` in your program, as you can't ensure that users will be responsible. For example one cloud enter `os.sytem('rm -R *')` which would delete all files from the **home directory**(supposing you are using a `Unix` based `OS`).
 
 ---
 ## Practice
 
 Which function can be used to interpret and evaluate input in Python 3?
+
 ???
 
 * `eval()`
@@ -106,11 +109,10 @@ Which function can be used to interpret and evaluate input in Python 3?
 ## Revision
 
 
-What is the function used to create `stdout` in Python?
+What is the function used to print to `stdout` in Python?
 ???
 
 * `print()`
-* `print`
 * `System.out.println()`
 * `cout`
 * `fout()`
