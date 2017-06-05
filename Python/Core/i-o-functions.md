@@ -53,7 +53,7 @@ The input is: Hello Word.
 ```
 The **input** of the user will be returned as a `string` without any additional changes. If this **raw input** has to be transformed into another **data type** needed by the **program**, then there are two ways to do this:
 - `casting` function (which would **cast** the input into the needed `data type`);
-- `eval`[4] function (which would interpret `strings` as `Python` code and evaluate it).
+- `eval`[3] function (which would interpret `strings` as `Python` code and evaluate it).
 
 2.Lets try to use the `eval` function, we would like to know the user's favorite colors and save them in a list:
 
@@ -83,17 +83,14 @@ How old are you? 21
 ---
 ## Footnotes
 
-[1: print()]
+[1: print]
 In Python 2 we had the `print` statement, later in Python 3 that statement was replaced by the functon `print()`.
 
 [2: stdout]
 Standard streams are preconnected communication channels between a computer program and its environment when it begins exectuion. There are 3 main connections standard input(stdin), standard output(stdout) and standard error(stderr).
 
-[3: prompt string]
-A message that will be printed in console when the program asks for input.
-
-[4: eval()]
- Bad things can happen if you decide to use `eval(input())` in your program, as you can't ensure that users will be responsible. For example one cloud enter `os.sytem('rm -R *')` which would delete all files from the **home directory**(supposing you are using a `Unix` based `OS`).
+[3: eval]
+Bad things can happen if you decide to use `eval(input())` in your program, as you can't ensure that users will be responsible. For example one cloud enter `os.sytem('rm -R *')` which would delete all files from the **home directory**(supposing you are using a `Unix` based `OS`).
 
 ---
 ## Practice
