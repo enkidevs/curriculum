@@ -31,7 +31,7 @@ Parameter details:
 
 - `file_name`: string value that contains the name of the file.
 - `access_mode`: it determines the mode in which the file has to be opened: `read`, `write`, `append`.
-- `buffering`: there are 2 important values `0`(means no buffering) or `1`(means line buffering [1] is performed). If the value is grater than `1` then that will be considered the buffer's size.
+- `buffering`: there are two important values `0`(means no buffering) or `1`(means line buffering [1] is performed). If the value is grater than `1` then that will be considered the buffer's size.
 
 The supported modes for opening a file are:
 
@@ -64,6 +64,12 @@ print("The file mode is: ", obj.mode)
 #Output: The file mode is: wr
 ```
 ---
+## Footnotes
+
+[1:line buffering]
+Characters written to a **line buffered stream** are transmitted to the **file** in blocks when a **new line** character is encountered.
+
+---
 ## Practice
 
 What happens when the **buffering** value is set to `0`?
@@ -82,8 +88,3 @@ Where is the **file pointer** when the file is opened in `r+` mode?
 * at the begining of the file
 * at the end of the file
 * in the middle of the file
----
-## Footnotes
-
-[1:line buffering]
-Characters written to a **line buffered stream** are transmitted to the **file** in blocks when a **new line** character is encountered.
