@@ -63,6 +63,11 @@ print("The file mode is: ", obj.mode)
 
 #Output: The file mode is: wr
 ```
+---
+## Footnotes
+
+[1:line buffering]
+Characters written to a **line buffered stream** are transmitted to the **file** in blocks when a **new line** character is encountered.
 
 ---
 ## Practice
