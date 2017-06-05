@@ -23,9 +23,9 @@ links:
 - `remove()` which enables users to remove files;
 
 
-In **Python** the `tell()` funciton returns the current position in the **file**. This **position** is represented by the number of **bytes** after the beginning of the file.
+In **Python**, the `tell()` funciton returns the current position in the **file**. This **position** is represented by the number of **bytes** after the beginning of the file.
 
-`seek(offset, from_what)` enables the **users** to move the page pointer along the **file**. This operation requires two parameters, `offset` which defines how many **byte** you will move the pointer and `from_what` which defines where you start moving from. Otherwise there are 3 other important **values**:
+`seek(offset, from_what)` enables the **users** to move the page pointer along the **file**. This operation requires two parameters, `offset` which defines how many **bytes** you will move the pointer and `from_what` (optional) which defines where you start moving from. There are 3 other important **values** for `from_what` parameter:
 
 - `0`(default): which means at the beginning;
 - `1`: which means at the current position;
@@ -77,7 +77,7 @@ Value `0` set to `from_what` parameter of `seek()` function, moves the pointer t
 ---
 ## Revision
 
-What function tells where the pointer is now?
+Which function returns the current position in a file?
 ???
 
 * `tell()`
