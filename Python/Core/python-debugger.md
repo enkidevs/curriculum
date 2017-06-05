@@ -52,7 +52,7 @@ $ python -m pdb test.py
 
 In the **output**:
 - the first line contains the current **module name** with a **directory path** and the printed line that follows (`1` in our case).
-- the second line shows the current **line** of **source code** that is **executed** (if there are any comments on the first lines of the file, they will be skiped by the debugger).
+- the second line shows the current **line** of **source code** that is **executed** (if there are any comments on the first lines of the file, they will be skipped by the debugger).
 
 As the **debugger** is an interactive tool, it provides three commands for navigating the **source code**:
 - `list`
@@ -77,7 +77,7 @@ Considering the **source code** exemplified above, lets see how `list()` command
 (Pdb)
 ```
 
-The current line is indicated by the `->` character. This command is provided with two **optional arguments**, they must be two `int` values wich define the range of lines the user wants to list (eg: `list 5, 11`). Without providing arguments, the `list` command provides 11 lines arround the **currnt line**.
+The current line is indicated by the `->` character. This command is provided with two **optional arguments**, they must be two `int` values which define the range of lines the user wants to list (eg: `list 5, 11`). Without providing arguments, the `list` command provides 11 lines around the **current line**.
 
 The `step` command will **iterate** through the loops showing exactly what the **loop** is doing.
 **Note** that in the following example we will consider being at line `11` when we call the first step:
