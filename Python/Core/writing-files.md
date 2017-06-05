@@ -1,4 +1,4 @@
-# Writing-files
+# Writing to files
 author: SebaRaba
 
 levels:
@@ -17,10 +17,10 @@ links:
 ## Content
 
 **Remember** how `open()` works:
-- if we open an already existing file with mode `w` it will be overwritten.
+- if we open an already existing file in mode `w`, it will be overwritten.
 - if the file doesn't exist, it will be created.
 
-Let's start by creating a **file** at the given **path**. Note that we use mode `wr` to open the file as later we'll need to **print** some lines of it:
+Let's start by creating a **file** at the given **path**. Note that we use mode `wr` to open the file as later we'll need to **read** some lines of it:
 
 ```
 path = /usr/steve/new_file.txt
@@ -28,7 +28,7 @@ text = open(path, 'wr')
 ```
 
 
-Writing to the **file** can easily be done via the `write()` function. A single **string** may be passed as as **argument**, which will be written to the **file**. Multiple lines can be represented by `\n` characters within the string:
+Writing to the **file** can easily be done via the `write()` function. A single **string** may be passed as as **argument**, which will be written to the **file**. You can **split** the **string** into multiple lines by adding `\n` character where necessary.
 
 ```
 in = 'This is one line\n
@@ -43,7 +43,7 @@ print(text.read())
 ```
 We used `seek()` function within this example. This function moves the **page pointer** to the specified position. In our case, we moved it to the beginning of the **file** to be able to **read** from it after.
 
-Remember all **files** must be **closed** to preserve **resources** after finishing working with them. To do this, simply `close()` the file object:
+Remember that all **files** must be **closed** to preserve **resources** after finishing working with them. To do this, simply `close()` the file object:
 
 ```
 text.close()
