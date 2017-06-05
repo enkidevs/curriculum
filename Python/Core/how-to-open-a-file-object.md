@@ -65,12 +65,6 @@ print("The file mode is: ", obj.mode)
 ```
 
 ---
-## Footnotes
-
-[1:line buffering]
-Characters written to a **line buffered stream** are transmitted to the **file** in blocks when a **new line** character is encountered.
-
----
 ## Practice
 
 What happens when the **buffering** value is set to `0`?
