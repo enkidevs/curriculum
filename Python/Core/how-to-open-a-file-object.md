@@ -82,3 +82,8 @@ Where is the **file pointer** when the file is opened in `r+` mode?
 * at the begining of the file
 * at the end of the file
 * in the middle of the file
+---
+## Footnotes
+
+[1:line buffering]
+Characters written to a **line buffered stream** are transmitted to the **file** in blocks when a **new line** character is encountered.
