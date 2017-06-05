@@ -82,6 +82,7 @@ How old are you? 21
 
 ---
 ## Footnotes
+
 [1: print()]
 In Python 2 we had the `print` statement, later in Python 3 that statement was replaced by the functon `print()`.
 

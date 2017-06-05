@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-**Reading** from and **writing** to files in **Pyton 3** cand easily be done using the `open()` funciton. This will create a `file` object, which would be utilised to call other support **methods** associated with it.
+**Reading** from and **writing** to files in **Pyton 3** can easily be done using the `open()` funciton. This will create a `file` object, which would be utilised to call other support **methods** associated with it.
 
 Consider the following syntax:
 
@@ -38,8 +38,8 @@ The supported modes for opening a file are:
 - `a` : Opens the file for `appending`. With the **file pointer** being at the end of the file.
 - `r` : Opens the file for `reading`. With the **file pointer** being at the beginning of the file.
 - `w` : Opens the file for `writing`. Overwrites the file if it exists. If the file doesn't exist it will create a new file.
-- `a+`: Opens the file for both, `reading` and `appending`. The **file pointer** is at the end of the file.
-- `r+`: Opens the file for both, `reading` and `writing`. The **file pointer** is place at the beginning of the file.
+- `a+`: Opens the file for both `reading` and `appending`. The **file pointer** is at the end of the file.
+- `r+`: Opens the file for both `reading` and `writing`. The **file pointer** is place at the beginning of the file.
 - `w+`: Opens the file for writing and reading as well. Overwrites the existing file. If it doesn't exist, creates a new file.
 - `ab/rb/wb`: Opens the file for `appending`/`reading`/`writing` in **binary format**.
 
@@ -49,7 +49,7 @@ Note that every `file` *object* has the following attributes:
 - `file.mode`: returns which **mode** the file was opened in.
 - `file.name`: returns the name of the **file**.
 
-Keeping these in mind consider the following scenarios:
+Keeping these in mind, consider the following scenarios:
 
 ```
 # Open file.txt and print file name
