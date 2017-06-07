@@ -41,7 +41,7 @@ The standard workflow of **unit testing** is:
 - `import unittest`;
 - **define** a class derived from `unittest.TestCase`;
 - **define** test methods, their name **must** start with the keyword `test_`;
-- finally you need to place `unittest.main()` in your new class to be able to run the **tests**.
+- place `unittest.main()` in your new class to be able to run the **tests**.
 
 Each **test method** requires the use of the following methods:
 - `assertEqual()` to check for an **expected result**;
