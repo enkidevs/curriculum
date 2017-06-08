@@ -31,13 +31,13 @@ The algorithm to calculate a RPN expression is as follows:
 `2 5 + 3 ×` would be evaluated as:
 ```
 Stack = []
-2 - operator: push(2); Stack = [2]
-5 - operator: push(5); Stack = [2,5]
-+ - operand: push(pop() 'operand' pop())
+2 - operand: push(2); Stack = [2]
+5 - operand: push(5); Stack = [2,5]
++ - operator: push(pop() 'operator' pop())
     which translates to push(5+2)
     Stack = [7]
-3 - operator: push(3); Stack = [7,3]
-× - operand: push(pop() 'operand' pop())
+3 - operand: push(3); Stack = [7,3]
+× - operator: push(pop() 'operator' pop())
     push(3×7); Stack = [21]
 
 // no more input, stack has 1 value

@@ -30,11 +30,12 @@ Together, these imply that we will perform O(log n) swaps when inserting a new k
 ---
 ## Revision
 
-For insertion to take O(log n) time, the underlying structure used to implement a heap is a complete
+For insertion to take O(log n) time, the underlying structure used to implement a heap is a
 
 ???.
 
+* complete binary tree
 * binary tree
-* graph
+* complete graph
 * stack
 * tree
