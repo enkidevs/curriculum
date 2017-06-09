@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-**Pytest** is a **no-boilerplate** alternative to **Python**’s standard **unittest** module. Despite being a fully-featured and extensible test **tool**, it boasts of a simple **syntax**. Creating a **test suite** is as easy as writing a **module** with a couple of **functions**.
+**Pytest** is **testing framework** used in **Python**. Despite being a fully-featured and extensible test **tool**, it boasts of a simple **syntax**. Creating a **test suite** is as easy as writing a **module** with a couple of **functions**.
 
 A new feature **pytests** come with, is their `assert` function. In contrast with **unittests** where you need to memorise all possible types of `asserts` (`assertTrue`, `assertEqual`, etc.), **pytest**'s assert will intelligently report **intermediat values** of the assert expression.
 
