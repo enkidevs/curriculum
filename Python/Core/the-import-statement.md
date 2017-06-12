@@ -63,7 +63,7 @@ What happens when you import the same module in the same file multiple times?
 ---
 ## Revision
 
-Waht is a search path?
+What is a search path?
 ???
 
 * A list of directories.
