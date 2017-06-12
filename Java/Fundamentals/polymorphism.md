@@ -14,7 +14,7 @@ category: must-know
 ---
 ## Content
 
-**Polymorphism** is a principle in object-oriented programming that refers to the ability of *child classes* to define their own behavior, while also sharing some functionalities with the *parent class*. 
+**Polymorphism** is a principle in object-oriented programming that refers to the ability of *child classes* to define their own behavior, while also sharing some functionalities with the *parent class*.
 
 In other words, it is the ability of an object to take different forms.
 
@@ -81,7 +81,8 @@ JVM calls the appropiate method for each of the variables, and not the generic t
 What is the output of the following snippet?
 ```
 FamilyCar fCar = new FamilyCar(
-   "newFamilyCar","31G3G", "beige", 4, 5);
+   "newFamilyCar","31G3G",
+   "beige", 4, 5);
 fCar.start();
 // ???
 ```

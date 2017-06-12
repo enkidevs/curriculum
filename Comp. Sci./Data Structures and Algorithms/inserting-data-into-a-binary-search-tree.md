@@ -30,7 +30,7 @@ Let's say we wanted to insert the key `4`.  To do so, the procedure would work a
 1. `4` is less than `8` so move on to the left child.
 2. `4` is greater than `3`, so move on to the right child.
 3. `4` is less than `6`, so move on to the left child.
-4. This node is empty, so insert `4` as the left child of `6`.
+4. Another check is necessary to verify if the node is empty, which it is: insert `4` as the left child of `6`.
 
 The final result is a BST that looks like this:
 

@@ -17,7 +17,8 @@ category: must-know
 
 links:
 
-  - 'https://www.tutorialspoint.com/http/http_requests.html'
+  - >-
+      [A request example](http://rve.org.uk/dumprequest){website}
 
 parent: https
 
