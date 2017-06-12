@@ -32,7 +32,7 @@ Consider the following example of a module definition:
 ```
 # The naming convention for modules is:
 # the name of the file with the .py suffix
-# Defining module my_adder.py that adds 2 numbers:
+# Defining module my_adder.py:
 
 def add(a,b)
     sum = a+b
