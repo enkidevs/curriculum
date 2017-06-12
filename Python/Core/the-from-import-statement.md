@@ -11,7 +11,7 @@ category: must-know
 
 links:
 
-  - '[link to learn more](https://www.tutorialspoint.com/python3/python_modules.htm)'
+  - '[more about from...import](https://www.tutorialspoint.com/python3/python_modules.htm)'
 
 ---
 ## Content
