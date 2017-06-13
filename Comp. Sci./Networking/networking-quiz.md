@@ -20,7 +20,7 @@ Brush up on the fundamentals of computer networking with this quick quiz.
 ## Game Content
 
 ```
-How are devices within a computer network
+What are devices within a computer network
 
 that send, route or receive data called?
 ```
@@ -70,7 +70,7 @@ A `packet` is made out of:
 
 ---
 ```
-Protocols can be taught of as:
+Protocols can be thought of as:
 ???
 ```
 * communication rules
@@ -153,7 +153,7 @@ While the `Session` layer handles authentication and authorization, `Transport` 
 
 ---
 ```
-The topmost layer of the TCP/IP Internet
+The topmost layer of the TCP/IP
 
 model is called:
 ???
