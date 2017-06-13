@@ -11,7 +11,7 @@ category: how to
 
 links:
 
-  - [AngularJS Official Documentation](https://docs.angularjs.org/)
+  - "[AngularJS Official Documentation](https://docs.angularjs.org/)"
 
 ---
 ## Content
