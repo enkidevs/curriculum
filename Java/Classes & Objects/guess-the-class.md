@@ -25,8 +25,8 @@ Reckon you know most of Java's renowned classes? Fill the gaps as quick as possi
 
 ```
 ???
-x.equals('abc') // true
-x.equalsIgnoreCase('ABC') //true
+x.equals('abc'); // true
+x.equalsIgnoreCase('ABC'); //true
 ```
 * String x = "abc";
 * ArrayList<Character> x = "abc";
@@ -85,7 +85,7 @@ The `java.io.File` class provides both the `.canWrite()` and `.getAbsolutePath()
 ```
 double x = 5;
 double y = 10.2;
-x + ???.floor(y) // 15.0
+System.out.print(x + ???.floor(y)); // 15.0
 ```
 * Math
 * Double
