@@ -79,8 +79,8 @@ For small exponent values, squaring might need more operations than straight-for
 For an exponent of `350`, what's the upper-bound of the number of operations required to compute the result using the exponentation by squaring method?
 
 ???
-*2*O(log 350)
 *O(log 350)
+*O(350^2)
 *O(350)
 *O(log log 350)
 
