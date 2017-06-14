@@ -43,7 +43,9 @@ One difference we can highlight at this stage is that **elements** in a **list**
 Consider the following dictionary:
 
 ```
-dict = {'Name': 'Seba', 'Age': 21, 'Year': 'Second'}
+dict = {'Name': 'Seba',
+        'Age': 21,
+        'Year': 'Second'}
 ```
 
 Elements stored in **dictionaries** are accessed using their **key** value:
