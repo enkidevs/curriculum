@@ -53,7 +53,7 @@ console.log(obj.x); //y
 
 **Revokable Proxy**
 
-There is a special type of proxy called a **revokable proxy**. 
+There is a special type of proxy called a **revokable proxy**.
 
 This allows you to later deny access to the proxy by calling the revoke method.
 
@@ -74,9 +74,9 @@ Then we can deny access to the proxy by calling the revoke method:
 
 ```
 p.revoke();
-p.a; 
+p.a;
 // VM181:1 Uncaught TypeError:
-// p.revoke is not a function(…)
+// p.revoke is not a function(...)
 ```
 
 **Potential Usages**
@@ -85,9 +85,9 @@ Proxies have a number of potential usages and we will probably see library and f
 
 Some potential usages:
 
-* Block access to values 
+* Block access to values
 * Return different values
-* Stop people setting certain values 
+* Stop people setting certain values
 * Validation & logging
 * Extending constructors
 * As a shim/fallback for older browsers in the future

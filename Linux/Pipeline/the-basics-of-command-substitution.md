@@ -80,20 +80,20 @@ Use substitution to pass the content of the file to `curl`:
 ```
 $ ??? ???(???)
 ```
-*`curl`
-*`$`
-*`cat websites.txt`
-*`''`
-*`<`
-*`websites.txt`
+* `curl`
+* `$`
+* `cat websites.txt`
+* `''`
+* `<`
+* `websites.txt`
 
 ---
 ## Revision
 
-If you want to use the output of a program as a command line argument, you would have to use 
+If you want to use the output of a program as a command line argument, you would have to use
 
 ???.
-*$(…) or `…` 
-*>
-*|
-*>>
+* $(...) or `...`
+* >
+* |
+* >>
