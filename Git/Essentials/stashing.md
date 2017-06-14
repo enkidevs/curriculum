@@ -20,13 +20,13 @@ links:
 
 Another highly useful feature of **Git** allows you to _set aside_ current work; usually in order to switch branches without losing uncommitted changes.
 
-Stashing is the action of saving all your dirty files (modified **tracked** files and **staged** changes) in a special *stack* of commits. Any of the commits in **the stash**  can be later popped, restoring the state of the working tree.
+Stashing is the action of saving all your dirty files (modified **tracked** files and **staged** changes) in a special *stack*[1] of commits. Any of the commits in **the stash**  can be later popped, restoring the state of the working tree.
 
-The key to this feature is the **Git** command `git stash`. 
+The key to this feature is the **Git** command `git stash`.
 
 If you have some modified files, you can check on them with `git status`:
 ```bash
-$ git status 
+$ git status
 # ...
 # Changes to be committed:
 #    modified: enki.txt
@@ -55,7 +55,7 @@ $ git stash list
 # stash@{1}: WIP on master: 21d80a5 ...
 ```
 
-To apply the latest stashed changes[1]:
+To apply the latest stashed changes[2]:
 ```
 $ git stash apply
 ```
@@ -84,13 +84,13 @@ Complete the code snippet below so it removes the most recent set of changes in 
 $ git stash ??? ???@???
 ```
 
-*`drop`
-*`stash`
-*`{0}`
-*`{1}`
-*`list`
-*`pop`
-*`status`
+* `drop`
+* `stash`
+* `{0}`
+* `{1}`
+* `list`
+* `pop`
+* `status`
 
 ---
 ## Revision
@@ -100,20 +100,25 @@ Complete the command below such as the most recent set of changes in the stash a
 $ ??? ??? ???
 ```
 
-*`git`
-*`stash`
-*`apply`
-*`pop`
-*`git-stash`
-*`push`
-*`@{1}`
-*`list`
+* `git`
+* `stash`
+* `apply`
+* `pop`
+* `git-stash`
+* `push`
+* `@{1}`
+* `list`
 
 ---
 ## Footnotes
 
-[1:apply]
+[1:stack]
+A **stack** is an abstract data type on top of which `git`'s stash is built.
+The name **stack** comes from the analogy to a set of physical items (e.g. plates) stacked on top of each other. You can only add an element to the *top* of the stack or remove the *topmost* element of the stack. This principle is called **LIFO** - last in, first out.
 
+Commits in the **stash** are counted from index `0`; more recent commits, with a higher index, sit *above* older ones  .
+
+[2:apply]
 **Git** will update (modifying) the files uncommitted or unstaged when the stash was saved. Keep in mind that the staged files are not re-staged. To do that you must use the `--index` flag:
 ```
 $ git stash --index
