@@ -1,4 +1,4 @@
-# Consuming events
+...# Consuming events
 author: tommarshall
 
 levels:
@@ -32,7 +32,7 @@ Node events are consumed when an in-application event occurs, modules subscribe 
 var system = require('.filesytem.js');
 system.file.on('edit', function() {
 
-  // do something…
+  // do something...
 
 });
 ```
@@ -52,7 +52,7 @@ system.file.on('edit', function
 To unsubscribe to events, use the `.removeListener`  method and specify the event type and the event listener function.
 ```javascript
 function onEdit(fileID, initials) {
-  // on edit, do something…
+  // on edit, do something...
 }
 
 system.file.removeListener('edit', onEdit);

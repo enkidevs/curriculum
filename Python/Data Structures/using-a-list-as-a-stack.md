@@ -25,12 +25,12 @@ Even though `python` does not provide a special `stack` data type, `list`s can e
 
 ```python
 >>> stack = [1,2,3]
->>> stack.append(4) 
+>>> stack.append(4)
 # adds 4 at the end
 >>> stack.append(5)
 >>> stack
 [1,2,3,4,5]
->>> stack.pop() 
+>>> stack.pop()
 # removes and return last element
 5
 >>> stack.pop()
@@ -52,8 +52,8 @@ stack.append(15)
 stack.pop()
 ```
 
-??? 
-*`15`
-*`14` 
-*`10` 
-*There’s no output…
+???
+* `15`
+* `14` 
+* `10` 
+* There’s no output...

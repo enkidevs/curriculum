@@ -29,8 +29,8 @@ function myFunc(literals, replacement){
 When myFunc is called with a template literal the literals parameter will receive the following object:
 
 ```
-["Hello ", 
-" hows it going?", 
+["Hello ",
+" hows it going?",
 raw: Array[2]]
 ```
 
@@ -40,8 +40,8 @@ If your literal has multiple replacement values they will be mapped to subsequen
 
 ```
 function myFunc(
-  strings, 
-  subValue1, 
+  strings,
+  subValue1,
   subValue2){
 ...
 }
@@ -50,7 +50,7 @@ function myFunc(
 Probably a better approach is to use the **rest** operator to map values to an array rather than define each argument:
 
 ```
-function myFunc(strings, …values){
+function myFunc(strings, ...values){
 ...
 }
 ```

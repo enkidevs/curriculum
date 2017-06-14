@@ -38,17 +38,17 @@ func(test[0],test[1],test[2]);
 However we can use the spread operator to assign (or spread out) these values to the x, y and z parameters without explicitly defining where they should be assigned:
 
 ```
-func(…test); //x=1, y=2, z=3
+func(...test); //x=1, y=2, z=3
 ```
 
 The spread operator can even be applied multiple times so if we had a function with 6 arguments we can use the spread operator twice if we wanted to reuse the input variables:
 
 ```
 function someFunc(x, y, z, a, b, c){
-…
+...
 }
 
-someFunc(…test, …test);
+someFunc(...test, ...test);
 ```
 
 This saves some tedious and potentially error prone assignment code.

@@ -1,4 +1,4 @@
-# Exponentiation By Squaring
+...# Exponentiation By Squaring
 author: mihaiberq
 
 levels:
@@ -24,7 +24,7 @@ The concept of **exponentiation by squaring** refers to a method to fast compute
 
 The most basic way to exponentiate is multiplying the number by itself:
 ```
-3^20 = 3*3* … *3 (20 times)
+3^20 = 3*3* ... *3 (20 times)
 ```
 This will have to do `O(n)` (i.e. *O(20)* ) operations to calculate the result.
 

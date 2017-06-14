@@ -23,7 +23,7 @@ With `:empty` you can select an element based on there being no children in it, 
 
 The `:blank` pseudo-class, however, will select an element as long as it has no text and no other child elements, regardless of white space. So it could contain white space, line breaks, etc., and it would still qualify.
 
-Example: 
+Example:
 
 HTML:
 ```
@@ -53,14 +53,14 @@ Which pseudo-class would select the following element?
 <p> </p>
 ```
 ???
-*`:blank` 
-*`:empty` 
-*`neither…`
+* `:blank`
+* `:empty`
+* `neither...`
 
 ---
 ## Revision
 
-Which lines of HTML code would a *:blank* pseudo class apply to? 
+Which lines of HTML code would a *:blank* pseudo class apply to?
 ```html
 1 <p>Pseudo classes!</p>
 2 <p></p>
