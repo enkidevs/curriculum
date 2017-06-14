@@ -1,4 +1,4 @@
-...# Consuming events
+# Consuming events
 author: tommarshall
 
 levels:
