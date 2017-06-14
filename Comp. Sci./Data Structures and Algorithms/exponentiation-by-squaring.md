@@ -1,4 +1,4 @@
-...# Exponentiation By Squaring
+# Exponentiation By Squaring
 author: mihaiberq
 
 levels:
