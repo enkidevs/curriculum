@@ -36,7 +36,7 @@ print(sum(numbers, 10))
 # result is 20.0
 ```
 
-*n/b Notice how the result of our `sum` is of type `float` as opposed to `int` since Python automatically converts `float` and `int` addition results to `float`s in order to avoid loss of precision. This is not specific to `sum` but happens whenever we do arithmetic operations on mixed number types.*
+*N.B. Notice how the result of our `sum` is of type `float` as opposed to `int` since Python automatically converts `float` and `int` addition results to `float`s in order to avoid loss of precision. This is not specific to `sum` but happens whenever we do arithmetic operations on mixed number types.*
 
 ---
 ## Practice
