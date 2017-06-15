@@ -1,4 +1,4 @@
-# Review of Sets.
+# Sets.
 author: SebaRaba
 
 levels:
