@@ -99,9 +99,11 @@ print(sorted(list, key=getNum))
 #  (bob, 55), (sam, 60)]
 ```
 
-*n/b The `__repr__` override is only there so that the `print` function outputs a reader-friendly result, as opposed to memory addresses of objects.*
+*N.B. The `__repr__` override is only there so that the `print` function outputs a reader-friendly result, as opposed to memory addresses of objects.*
 
-*Finally, there are some caveats it's good to be familiar with.* Some comparison mechanisms have changed in the jump from Python 2 to Python 3[2]. Before Python 3, the sort function called during comparison is the built-in `__cmp__`. After Python 3, the documentation recommends that you pretend `__cmp__` does not exist, and the `__cmp__` special method is not supported. This means if you try to use `sorted` on a list of custom class objects where you have overridden the `__cmp__` function and rely on this for your sort, you might encounter `TypeError`s. However, for most cases, including the examples above, there is no difference in version 2 or 3. The details are beyond the scope of this lesson, but see the Learn More section for extra material.
+*Finally, there are some caveats it's good to be familiar with.* Some comparison mechanisms have changed in the jump from Python 2 to Python 3[2]. Before Python 3, the sort function called during comparison is the built-in `__cmp__`. After Python 3, the documentation recommends that you pretend `__cmp__` does not exist, and the `__cmp__` special method is not supported.
+
+This means if you try to use `sorted` on a list of custom class objects where you have overridden the `__cmp__` function and rely on this for your sort, you might encounter `TypeError`s. However, for most cases, including the examples above, there is no difference in version 2 or 3. The details are beyond the scope of this lesson, but see the Learn More section for extra material.
 
 ---
 ## Practice
@@ -156,4 +158,6 @@ print(sorted([0, 2, 3, 1,
 *Technically, the sort algorithm in Python since version 2.3 has been Timsort, named after creator Tim Peters. It is derived from a hybrid approach of merge sort and insertion sort. Timsort finds subsequences of the data that are already sorted and uses the information found there to sort the rest of the list more effectively. For more information, see the Wikipedia page in the Learn More section titled 'Timsort'.*
 
 [2:Python 3]
-*On December 3, 2008, Python moved from version 2 to version 3, which caused a lot of debate and discussion. This was because the aim of the update was to rectify certain fundamental design flaws in the original language; many of the changes made it impossible to maintain compatibility with version 2. From their documentation (PEP 3000): "A general goal is to reduce feature duplication by removing old ways of doing things". Today, Python 3 is widely recommended and used, and still very similar for most cases, except in some niche scenarios. See PEP 3000 in the Learn More section for further information.*
+*On December 3, 2008, Python moved from version 2 to version 3, which caused a lot of debate and discussion. This was because the aim of the update was to rectify certain fundamental design flaws in the original language; many of the changes made it impossible to maintain compatibility with version 2. From their documentation (PEP 3000): "A general goal is to reduce feature duplication by removing old ways of doing things".
+
+Today, Python 3 is widely recommended and used, and still very similar for most cases, except in some niche scenarios. See PEP 3000 in the Learn More section for further information.*
