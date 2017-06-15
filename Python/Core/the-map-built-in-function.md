@@ -31,7 +31,7 @@ map(function_here, input_list,
   optional_another_input_list, ...)
 ```
 
-`map` allows us to avoid imperative programming style which often results in more easily legible code. For example, let's say we have a list of point scores in a game, and we want to add 2 to every score. In the imperative programming style, we would do something like this:
+`map` allows us to avoid imperative programming[2] style which often results in more easily legible code. For example, let's say we have a list of point scores in a game, and we want to add 2 to every score. In the imperative programming style, we would do something like this:
 
 ```python
 scores = [1, 0, 4, 5]
@@ -82,7 +82,7 @@ scores = [1, 0, 4, 5]
 scores2 = [1, 1, 1, 1]
 newscores = map(
   lambda x, y : x+y, scores, scores2)
-print newscores
+print(newscores)
 ```
 
 ???
@@ -96,4 +96,9 @@ print newscores
 ## Footnotes
 
 [1:input_list]
-*As long as our `input_list` argument given to `map` is of type `iterable`, `map` should work. To check this you can use duck typing or type checking of Abstract Base Classes (ABCs)*
+As long as our `input_list` argument given to `map` is of type `iterable`, `map` should work. To check this you can use duck typing or type checking of Abstract Base Classes (ABCs)
+
+[2:Imperative Programming]
+Imperative programming, as opposed to declarative programming (of which functional programming is a subtype) is the programming paradigm where statements are used to change a program's state. Imperative style requires certain mechanisms such as direct data modification (mutability) and looping statements. These mechanisms sometimes detrimentally effect readability and efficiency.
+
+An easy rule of thumb is that imperative programming specifies **how** (what steps are taken during execution) a program should operate. This is in contrast to declarative languages which focus on **what** is to be computed instead.
