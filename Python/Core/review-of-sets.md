@@ -16,78 +16,97 @@ links:
 ---
 ## Content
 
-In **Python**, **Sets** have four main characteristics:
-- they are an **unordered collection** of elements;
-- every elements is **unique** (no duplicates);
-- and every element must be **immutable**;
-- they can store elements of different **types**.
+**Sets** can be used to carry out **mathematical** set operations like:
+- **union**;
+- **intersection**;
+- **difference**;
+- **symmetric difference**.
 
-Even though elements stored in **sets** must be **immutable** the set itself is **mutable**.
+Consider the following two sets:
 
-There are two ways to create a **set**:
-- by placing all items inside `{}`, separated by commas;
-- or by using the **built in function** `set()`.
+```
+A = {1,2,3,4,5}
+B = {3,5,4,8,9}
+```
 
-There is no constraint regarding which **method** to use, but you have to know that an **empty set** can't be created using the following **syntax**: `my_set = {}`. It is because, **empty curly braces** create an **empty dictionary in Python**.
+The **Union** of these results in a set containing all **elements** from both **sets**. There are two ways to calculate the **union** of two sets:
+- using `|` operator;
+- using `union()` method;
 
 Consider the following example:
-
 ```
-my_set = {1,2,3,4,5}
+print(A | B, '\n')
+print(A.union(B), '\n')
+print(B.union(A))
 
-# OR
 
-my_set = set([1,2,3,4,5])
-```
-
-**Sets** updating is done using two **methods**:
-- `add()` -> adds one single element to the **set**;
-- `update()` -> adds more elements at a time to the **set**;
-
-Suppose we have the set created above:
-
-```
-my_set.add(9)
-print(my_set)
-
-# Output: {1,2,3,4,5,9}
-
-my_set.update([2,3,10,7],{11,12})
-print(my_set)
-
-# Output: {1,2,3,4,5,9,10,7,11,12}
+# Output:
+# {1,2,3,4,5,8,9}
+# {1,2,3,4,5,8,9}
+# {1,2,3,4,5,8,9}
 ```
 
-As you can see, if we try to add **duplicate values** to the **set**, it wouldn't consider them.
+We define **Intersection** of two sets, as a resulting **set** that contains only **elements** that are **in both sets**. **Intersection** is performed using:
+- the `&` operator;
+- the `intersection()` method;
 
-**Sets** have two methods for removing items as well:
-- `discard()` -> which removes an element if it exists and does nothing if it doesn't.
-- `remove()` -> which does the same thing if the element exists, but would raise an error if it doesn't exist.
-
+Consider the following example:
 ```
-my_set.remove(1)
-my_set.discard(5)
-print(my_set)
+print(A & B, '\n')
+print(A.intersection(B), '\n')
+print(B.intersection(A))
 
-# Output: {2,3,4,9,10,7,11,12}
+# Output:
+# {3,4,5}
+# {3,4,5}
+# {3,4,5}
+```
+
+**Difference** of `A` and `B` (`A - B`), is the set of elements that are only in `A` and not in `B`. **Difference** is performed using:
+- `-` operator;
+- `difference()` method;
+
+Consider the following example:
+```
+print(A - B, '\n')
+print(B.difference(A))
+
+# Output:
+# {1,2}
+# {8,9}
+```
+
+**Symmetric difference** of `A` and `B` means all **elements** that are in `A` and `B` but not in **common**.
+**Symmetric difference** is performed using:
+- `^` operator;
+- `symmetric_difference()` method;
+
+Consider the following example:
+```
+print(A ^ B, '\n')
+print(B.symmetric_difference(A))
+
+# Output:
+# {1,2,8,9}
+# {1,2,8,9}
 ```
 
 ---
 ## Practice
 
-What are the two used for updating sets?
+Is there any difference between `A & B` and `B & A`?
 ???
 
-* `update()` and `add()`
-* `update()` and `insert()`
-* `insert()` and `add()`
+* No.
+* Yes.
+* Depends on the case.
 
 ---
 ## Revision
 
-What happens when you use `remove()` on an element that doesn't exist in the set?
+Which operation is performed using `^` operator ?
 ???
 
-* An error will be thrown.
-* Nothing.
-* The element will be removed.
+* `symmetric difference`
+* `difference`
+* `union`
