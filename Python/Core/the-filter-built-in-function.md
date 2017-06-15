@@ -73,7 +73,7 @@ def isCorporateAndOnline(customer):
     and customer[2]
   return False
 
-print filter(???, ???)
+print(filter(???, ???))
 ```
 
 * `isCorporateAndOnline`
@@ -90,7 +90,7 @@ What is the printed result of the following code execution?
 numbers = [-3, -2, -1, 0, 1, 2, 3]
 def mystery_function(element):
   return element < 0
-print filter(mystery_function, numbers)
+print(filter(mystery_function, numbers))
 ```
 
 ???
