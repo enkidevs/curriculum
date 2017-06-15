@@ -28,7 +28,9 @@ Together with the other built-in functions `map`[1] and `reduce`, `filter` allow
 filter(function, iterable)
 ```
 
-`filter` always returns a list, *unless the iterable object passed in is a string or a tuple*; in this case, the return type reflects the input type. If we don't provide a function to `filter`, such as by putting `None` in the place of the function, `filter` assumes the identity function. It is important to remember that `filter` evaluates a boolean value, so it interprets the results of the identity function as such. Therefore&mdash;*since Python evaluates `0`, `None` and the empty string as `False`*&mdash;a `filter` with `None` as its function will not return these objects if they occur in the iterable object.
+`filter` always returns a list, *unless the iterable object passed in is a string or a tuple*; in this case, the return type reflects the input type. If we don't provide a function to `filter`, such as by putting `None` in the place of the function, `filter` assumes the identity function.
+
+It is important to remember that `filter` evaluates a boolean value, so it interprets the results of the identity function as such. Therefore&mdash;*since Python evaluates `0`, `None` and the empty string as `False`*&mdash;a `filter` with `None` as its function will not return these objects if they occur in the iterable object.
 
 For example, consider the following code fragment:
 
@@ -41,7 +43,9 @@ def lessThanTwo(element):
 filter(lessThanTwo, prices)
 ```
 
-Perhaps we are trying to refine the result of some search on a price-comparison site. In the code above, we define a list of `float`s, our prices, and define a function called `lessThanTwo`, which returns the boolean result of comparing the input element to the number two. Finally, we apply `filter` on the two and receive back only those prices less than two, since these elements were the only ones to return `True` when passed to the `lessThanTwo` function. The result is:
+Perhaps we are trying to refine the result of some search on a price-comparison site. In the code above, we define a list of `float`s, our prices, and define a function called `lessThanTwo`, which returns the boolean result of comparing the input element to the number two.
+
+Finally, we apply `filter` on the two and receive back only those prices less than two, since these elements were the only ones to return `True` when passed to the `lessThanTwo` function. The result is:
 
 ```python
 (1.29, 1.99, 1.8)
@@ -84,9 +88,9 @@ What is the printed result of the following code execution?
 
 ```python
 numbers = [-3, -2, -1, 0, 1, 2, 3]
-def less_than_zero(element):
+def mystery_function(element):
   return element < 0
-print filter(less_than_zero, numbers)
+print filter(mystery_function, numbers)
 ```
 
 ???
