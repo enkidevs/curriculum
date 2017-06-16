@@ -11,7 +11,7 @@ category: must-know
 
 links:
 
-  - '[link to learn more](https://enki.com)'
+  - '[more about recursive generators](https://stackoverflow.com/questions/35015181/python-recursive-generator)'
 
 ---
 ## Content
