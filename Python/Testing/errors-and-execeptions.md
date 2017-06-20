@@ -63,7 +63,7 @@ The **message body** displays:
 ---
 ## Practice
 
-What type of error is present here:
+Based on its description, what's the error the parser is mostly likely to throw?
 ```
 def sum()
   1 + `10`
