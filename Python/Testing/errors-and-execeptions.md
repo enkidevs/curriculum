@@ -11,14 +11,14 @@ category: must-know
 
 links:
 
-  - '[link to learn more](http://www.python-course.eu/python3_exception_handling.php)'
+  - '[more about errors and exceptions](http://www.python-course.eu/python3_exception_handling.php)'
 
 ---
 ## Content
 
 We can distinguish at least two types of **errors** in **Python**: **syntax errors** and **exceptions**.
 
-**Syntax errors**, also known as **parse errors**, are the most common problem beginner programmers encounter while learning **Python**. The parser displays a little **arrow** pointing to the at the earliest point in the line where the **error** was detected.
+To highlight them, we have **syntax errors**, also known as **parse errors**. They are the most common problem beginner programmers encounter while learning **Python**. The parser displays a little **arrow** pointing to the first character where the **error** was detected.
 
 ```
 def func():
@@ -28,14 +28,21 @@ return value
 #Parser message:
 
 File "test", line 2
-  eggs = 12
+  value = 12
      ^
 IndentationError: expected
          an indented block
 ```
-Indentation in **Python** is very important. We want the **variable** to be assigned and **returned** in the function **body**. The **error** occurs because the assignment and the `return` statement must be **indeted** in order to take part of the `func()`'s body.
 
-However, if the **code** is **syntactically** correct, we can still encounter **errors** when executing the program. **Errors** detected while **executing** the program are called **exceptions**. They aren't always **fatal** errors, sometimes we can **handle** them.
+Indentation in Python is very important. We want the **variable** to be assigned and returned in the **function body**. As the **error** states, we need to properly indent the code:
+
+```
+def func():
+    value = 5
+    return value
+```
+
+However, if the code is **syntactically correct**, we can still encounter errors when executing the program. Errors detected while executing the program are called **exceptions**. There are types of exceptions which cause the program to stop executing and types of exceptions which can be handled.
 
 ```
 number = 10 + (10/0)
@@ -44,10 +51,14 @@ number = 10 + (10/0)
 
 Traceback (most recent call last):
 File "test", line 1
-ZeroDivisionError: devision by 0
+ZeroDevisionError: devision by 0
 ```
 
-The **exception** message provides information about the **type** of the exception occurred and what caused it. In the first part of the **message** body displays, in a **stack traceback** form, the context where the **exception** happened. In the second part of the **message** body we find a `string` representing the **built-in exception** type(`ZeroDivisionError`), followed by some more explanations.
+The **exception message** provides information about the **type** of the exception occurred and what caused it.
+
+The **message body** displays:
+- the context where in our code the exception was encountered;
+- detailed information about the exception we encountered in traceback form.
 
 ---
 ## Practice
@@ -68,7 +79,7 @@ def sum()
 ---
 ## Revision
 
-What are compile time errors called?
+Which of the following is an alternative name for compile time errors??
 ???
 
 * `exceptions`
