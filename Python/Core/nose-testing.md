@@ -79,6 +79,6 @@ The right syntax for running nose tests with verbose flag is: `___ name_of_the_f
 ???
 
 * `nosetests -v`
+* `python -v`
 * `nosetest -v`
 * `nosetests -vb`
-* `python -v`
