@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-**Reading** from and **writing** to files in **Pyton 3** can easily be done using the `open()` funciton. This will create a `file` object, which would be utilised to call other support **methods** associated with it.
+**Reading** from and **writing** to files in **Python 3** can easily be done using the `open()` function. This will create a `file` object, which would be utilised to call other support **methods** associated with it.
 
 Consider the following syntax:
 
@@ -72,7 +72,7 @@ Characters written to a **line buffered stream** are transmitted to the **file**
 ---
 ## Practice
 
-What happens when the **buffering** value is set to `0`?
+When opening a file with buffering value set to `0`?
 ???
 
 * there is no buffering done
@@ -82,9 +82,9 @@ What happens when the **buffering** value is set to `0`?
 ---
 ## Revision
 
-Where is the **file pointer** when the file is opened in `r+` mode?
+When opening a file with `r+` mode, the file pointer will be placed?
 ???
 
-* at the begining of the file
+* at the beginning of the file
 * at the end of the file
 * in the middle of the file
