@@ -36,7 +36,7 @@ class Calculator:
 ```
 If we would run a basic **unittest** on this class, it'll take it `10` seconds + the actual testing time to finish the test.
 
-Lets define a **unittest** using a mock example:
+Let's define a **unittest** using a mock example:
 
 ```
 from unittest import TestCase
