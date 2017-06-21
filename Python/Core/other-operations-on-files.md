@@ -25,7 +25,7 @@ links:
 
 In **Python**, the `tell()` funciton returns the current position in the **file**. This **position** is represented by the number of **bytes** after the beginning of the file.
 
-`seek(offset, from_what)` enables the **users** to move the page pointer along the **file**. This operation requires two parameters, `offset` which defines how many **bytes** you will move the pointer and `from_what` (optional) which defines where you start moving from. There are 3 other important **values** for `from_what` parameter:
+`seek(offset, from_what)` enables the **users** to move the page pointer along the **file**. This operation requires two parameters, `offset` which defines how many **bytes** you will move the pointer and `from_what`, which is optional and states where you want to start moving from. There are 3 other important **values** for `from_what` parameter:
 
 - `0`(default): which means at the beginning;
 - `1`: which means at the current position;
@@ -50,6 +50,7 @@ text.close()
 #The current position: 7
 #Position after seek: 0
 ```
+
 Apart from other uses, `os` module helps with **file processing operations**. Two of this operations are
 `rename(current_file_name, new_file_name)` and `remove(file_name)`.
 
