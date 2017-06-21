@@ -84,7 +84,7 @@ How old are you? 21
 ## Footnotes
 
 [1: print]
-In Python 2 we had the `print` statement, later in Python 3 that statement was replaced by the functon `print()`.
+In Python 2 we had the `print` statement: `print 'Hello'`, later in Python 3 that statement was replaced by the functon `print()`: `pint("Hello")`.
 
 [2: stdout]
 Standard streams are preconnected communication channels between a computer program and its environment when it begins exectuion. There are 3 main connections standard input(stdin), standard output(stdout) and standard error(stderr).
