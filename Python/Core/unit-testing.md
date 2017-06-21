@@ -16,9 +16,11 @@ links:
 ---
 ## Content
 
+**"Testing"**, in general programming terms, is the practice of writing code (separate from your actual application code), that invokes parts of your application's code in order to **test** that its behaviour works as expected.
+
 You can see a **unit** as the smallest testable part of a **program**. **Unit testing** ensures that all **units** work as expected.
 
-Considering the following example:
+Consider the following example:
 
 ```
 # simple_test.py
@@ -27,30 +29,31 @@ import unittest
 
 class SimplisticTest(unittest.TestCase):
 
-    def setUp(self):
-        pass
+  def test_True(self):
+      self.assertTrue(True)
 
-    def test_True(self):
-        self.assertTrue(True)
+  def test_Upper(self):
+      self.assertEqual(`foo`.upper,
+                              'FOO')
 
 if __name__ == '__main__':
     unittest.main()
 ```
 
-The standard workflow of **unit testing** is:
+The standard way of writing an unit test is:
 - `import unittest`;
-- **define** a class derived from `unittest.TestCase`;
-- **define** test methods, their name **must** start with the keyword `test_`;
-- place `unittest.main()` in your new class to be able to run the **tests**.
+- define a class derived from `unittest.TestCase`;
+- afterwards define test methods, their name **must start** with the keyword `test_`;
+- and finally place `unittest.main()` in your new class to be able to run the **tests**.
 
-Each **test method** requires the use of the following methods:
-- `assertEqual()` to check for an **expected result**;
-- `assertTrue()` or `assertFalse()` to verify a **condition**;
-- `assertRises()` to verify that a specific **exception** is raised.
+Each **test case** might make use of the following methods:
+- `assertEqual()` to check for an expected result;
+- `assertTrue()` or `assertFalse()` to verify a condition;
+- `assertRises()` to verify that a specific exception is raised.
 
-Furthermore we have two **methods**: `setUp()` and `tearDown()`, which eanble users to define **instructions** that will be executed **before** each **test method** and **after** respectively.
+Furthermore, we have two additional **methods**: `setUp()` and `tearDown()`, which enable us to define **instructions** that will be executed **before** (`setUp()`) and **after** (`tearDown()`) each **test method**.
 
-Suppose we want to **run the test**, we need to write the following **command** in the command line:
+In order to **run a test**, we need to type in the following command:
 
 ```
 python -m unittest simple_test.py
@@ -64,7 +67,7 @@ Ran 1 tests in 0.000s
 
 OK
 ```
-The full stop displayed above the dashes('-') indicates how many test have **passed**. Below the dashes we can see the **number of tests** and the **time they took to run**. On the last line we will find a message:
+The full stop displayed above the dashes ('-') indicates how many test have **passed**. Below the dashes we can see the **number of tests** and the **time they took to run**. On the last line we will find a message:
 - `OK` test passes;
 - `FAIL` the test fails and rises `AssertionError`;
 - `ERROR` the test fails and doesn't rise `AssertionError`.
@@ -84,19 +87,19 @@ OK
 ---
 ## Practice
 
-`setUp()` method defines instructions that need to be done?
+`setUp()` method defines instructions/code that needs to be run.
 ???
 
-* before the test method.
-* after the test method.
-* this is not a method.
+* before each test method
+* after each test method
+* this is not a method
 
 ---
 ## Revision
 
-`assertTrue` and `assertFalse` methods ar used to check whether?
+`assertTrue` and `assertFalse` methods are used to check whether.
 ???
 
-* A condition is met.
-* An expected result is met.
-* A specific exception rises.
+* a condition is met
+* an expected result is met
+* a specific exception is raised
