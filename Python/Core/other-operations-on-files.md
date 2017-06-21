@@ -77,7 +77,7 @@ Value `0` set to `from_what` parameter of `seek()` function, moves the pointer t
 ---
 ## Revision
 
-Which function returns the current position in a file?
+Which method returns the current position of the file pointer?
 ???
 
 * `tell()`
