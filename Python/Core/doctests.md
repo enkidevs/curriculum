@@ -1,4 +1,4 @@
-# Doctests
+# Doctest
 author: SebaRaba
 
 levels:
@@ -18,9 +18,9 @@ links:
 ---
 ## Content
 
-**Doctests** enable users to test their code by running examples **embedded** in the documentation[1] and verifying that they produce the **expected output**.
+**Doctest** enable users to test their code by running examples **embedded** in the program comments and verifying that they produce the **expected output**.
 
-We begin by defining the next module:
+We begin by importing the next module:
 
 ```
 # doctest_mock.py
@@ -29,16 +29,7 @@ import doctest
 def multiply(a, b):
     return a * b
 ```
-To make use of **doctest** we need to call this module in a **Python** interactive shell and run it with some values:
-
-```
->>> from doctest_mock import multiply
->>> multiply(3,3)
-9
->>> multiply('a',3)
-'aaa'
-```
-Then we **copy** the session of the interactive shell into the docstring[2] of our **function**. To start the **module doctest** we have to call the **method** `testmod()`, but only if the module is called **standalone**[3].
+Consider the following **doctest** example:
 
 ```
 # doctest_mock.py
@@ -62,13 +53,20 @@ if __name__ == '__main__':
     doctest.testmod()
 
 ```
-Normal text that **documentations** usually contain isn't affected by **doctest**. It looks for lines beginning with the **interpreter** prompt (`>>>`) to find the beginning of a **test case**. The case is ended by a **blank line** or the next **interpreter** prompt.
+
+To make use of **doctest**, we need:
+- to call this module in a **Python** interactive shell and run it with some values;
+- afterwards we copy the session of the interactive shell into the docstring[1] of our **function**.
+- finally, to start the **module doctest** we have to call the **method** `testmod()`, but only if the module is called **standalone**[2].
+
+**Note** that normal text documentations usually contain isn't affected by **doctest**. It looks for lines beginning with the interpreter prompt (`>>>`) to find the beginning of a **test case**. The case is ended by a blank line or the next interpreter prompt.
 
 Running **doctests** without any flag wouldn't generate any output, but if the `-v` flag is passed, a **detailed log** will be printed:
 
 ```
 $ python doctest_mock.py -v
 ```
+
 The output:
 ```
 Trying:
@@ -93,14 +91,11 @@ Test passed.
 ---
 ## Footnotes
 
-[1: documentation]
-Means program comments.
-
-[2: docstring]
+[1: docstring]
 An object's docstring is defined by including a string constant (documentation) as the first
 statement in the object's definition.
 
-[3: standalone]
+[2: standalone]
 It's not part of any other module.
 
 ---
@@ -119,6 +114,6 @@ What is the output of the doctest if no flag is passed?
 How does doctest find a new test case in the documentation?
 ???
 
-* It looks for lines that begin with interpreter prompt (`>>>`).
-* It looks for any strings in the documentation.
-* It knows that tests begin after a empty line.
+* It searches for lines that begin with interpreter prompt (`>>>`).
+* It searches for any strings in the documentation.
+* It knows that tests begin after an empty line.
