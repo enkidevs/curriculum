@@ -49,7 +49,8 @@ s = 'test'
 s[0] = 'r'
 # Traceback (most recent call last):
 #   File "<stdin>", line 1, in <module>
-# TypeError: 'str' object does not support item assignment
+# TypeError: 'str' object does not
+# support item assignment
 ```
 As the string is *immutable*, you aren't allowed to change their internal value. You could instead do this:
 ```python
