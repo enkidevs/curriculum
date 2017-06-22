@@ -16,45 +16,82 @@ links:
 ---
 ## Content
 
+Imagine you only need to use one function from a **module**. There is no need to `import` it entirely as you can `import` only an **item** from it.
+
 To refer to **items** from a **module** within your program's **namespace**[1], we use the `from...import` statement.
 In this construction, you can specify which **definitions** to reference directly.
 
-Let's `import` the `add` method from `my_adder` module we defined before:
+Consider the following module:
 
 ```
-from my_adder import add
+# my_funcitons.py
 
-print(add(3,4))
-
-# Stdout: 7
+def hello(what):
+    text = "Hello, " + what
+    print(text)
+def cube(x):
+    return(x**3)
+def quad(x)
+    print(x**4)
 ```
 
-Using the `from...import` construction allows you to **reference** the defined elements of a **module** within our program’s **namespace**, letting us avoid dot notation (`my_adder.add(3,4)`) and avoid importing the whole module when it's not necessary.
+If we chose to use the default `import` statement presented before=:
 
-**Note** there is one more construction ("wildcard imports") available: `from...import *` which means, from **module_name** import every **item**. However, **wildcard imports** should be avoided, as they make it unclear which **names** are present in the **namespace**, confusing both **readers** and many **automated tools**.
+```
+import my_funcitons
+
+a = my_funcitons.cube(3)
+print(a)
+my_funcitons.hello("Seba")
+
+# Output:
+# 27
+# Hello Seba
+```
+
+If we chose to use the `from ... import` statement:
+
+```
+from my_funcitons import cube
+
+cube(3)
+
+# Output: 7
+```
+
+**Note** there is one more construction ("wildcard imports") available: `from...import *`. This means, from **module_name** import every **item**. However, **wildcard imports** should be avoided, as they make it unclear which **names** are present in the **namespace**, confusing both readers and many automated tools.
+
+To end with, using `from ... import` statement deos not save memory. It exacutes and caches the entire module just like regular `import` statement. So there is no correct pattern of destinguishing between these two, it depends on the developer's prefferences.
 
 ---
-# Footnotes
+## Footnotes
 
 [1: namespace]
-As you already know, in **Python* everything (literals, lists, dictionaries, functions, classes, etc.)  is an **object**. All these objects are referred to using a name. **Namespace** maps all **objects** to their **name**.
+As you already know, in Python everything (literals, lists, dictionaries, functions, classes, etc.)  is an **object**. All these objects are referred to using a name. **Namespace** maps all **objects** to their **name**.
 
 ---
 ## Practice
 
-Does the `from...import` construction import the whole module?
+Would this code snippet run without errors?
+```
+import my_funcitons
+
+x = cube(5)
+print(x*2)
+```
 ???
 
-* No.
-* Yes.
-* Not specified.
+* No, because the function is missused
+* Yes, because we imported the `my_funcitons` module
+* It will run but throw exceptions
+
 
 ---
 ## Revision
 
-What is the syntax for importing all items from a module?
+Does the `from...import` construction import the whole module?
 ???
 
-* `from...import *`
-* `from...import all`
-* `import everything from ...`
+* Yes
+* No
+* Not specified
