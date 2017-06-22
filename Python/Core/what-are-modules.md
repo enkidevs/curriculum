@@ -16,22 +16,22 @@ links:
 ---
 ## Content
 
-When you quit the **Python** interpreter and open it again, the **functions** and **variables** you defined before are lost. Therefore, if you want to write a more **complex program**, you are better off using a **text editor** to prepare the **input** for the **interpreter**. This is known as creating a **script**.
+When you quit the **Python** interpreter and open it again, the **functions** and **variables** you defined before are lost. Therefore, if you want to write a more complex program, you are better off using a **text editor** to prepare the **input** for the interpreter. This is known as creating a **script**.
 
-As you **program**'s size gets longer you might want to split it in several **files**. You may also want to use a **handy function** that you’ve written in several **programs** without copying its **definition** into each program.
+As you **program**'s size gets longer you might want to split into in several **files** - a process called modularization[1]. You may want to use a **handy function** that you’ve written in several **programs** without copying its **definition** into each program.
 
-To support all these, **Python** implemented **modules**. Simply, a **module** is a **file** consisting of **Python** code. A **module** can contain runnable code and can define:
-- funcitons;
-- classes;
-- variables.
+To support all these, **Python** provides **modules**. A **module** is a **file** consisting of **Python** code. A **module** can contain runnable code and can define:
+- funcitons
+- classes
+- variables
 
-Each **module** will have the name of the **file** it was written in with the `.py` suffix.
+A **module** is a Python object with arbitrarily named attributes that you can bind and reference.
 
-Consider the following example of a module definition:
+Consider the python file `my_adder.py`. Plainly, this **module**'s name is `my_adder`.
 
 ```
-# The naming convention for modules is:
-# the name of the file with the .py suffix
+# To be able to run a python module
+# it must have the .py extension
 # Defining module my_adder.py:
 
 def add(a,b)
@@ -41,19 +41,25 @@ def add(a,b)
 ```
 
 ---
+## Footnotes
+
+[1:modular programming]
+Modular programming is a software design technique that emphasizes separating the functionality of a program into independent, interchangeable modules, such that each contains everything necessary to execute only one aspect of the desired functionality.
+
+---
 ## Practice
 
-What is the suffix Python modules end in?
+What do we call like a python program that was written using a text editor instead of the python interpreter ?
 ???
 
-* `.py`
-* `.css`
-* `.python`
+* a script
+* a class
+* a function
 
 ---
 ## Revision
 
-Can modules define functions?
+Is it right to say modules are objects in python?
 ???
 
 * Yes
