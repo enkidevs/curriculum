@@ -39,7 +39,7 @@ Prior to the actual communication, a `TLS` connection (known as a handshake) mus
 - `certificate exchange`: to prove its identity, the *server* must provide a **certificate**[3] that the client must trust before the communication can begin
 - `key exchange`: both parties decide on a symmetric key used for both encryption and decryption
 
-The strategy above provides protection against various malicious practices such as **man-in-the-middle attacks**[4]. Even if someone intercepts your messages, all the data will be intelligible due to the encryption algorithm.
+The strategy above provides protection against various malicious practices such as **man-in-the-middle attacks**[4]. Even if someone intercepts your messages, all the data will be illegible due to the encryption algorithm.
 
 Note that instead of port `80`, HTTPS uses port `443`.
 
