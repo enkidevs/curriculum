@@ -22,9 +22,11 @@ www.python.org/downloads
 After installing Python, fire up a new terminal (Unix/MacOS) or a PowerShell (Windows) in order to run the Python REPL shell:
 ```bash
 $ python3
-Python 3.5.2 (default, Nov 17 2016, 17:05:23)
-[GCC 5.4.0 20160609] on linux
-Type "help", "copyright", "credits" or "license" for more information.
+# Python 3.5.2
+# (default, Nov 17 2016, 17:05:23)
+# [GCC 5.4.0 20160609] on linux
+# Type "help", "copyright", "credits" or
+#  "license" for more information.
 >>> quit()
 $
 ```
