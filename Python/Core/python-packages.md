@@ -18,43 +18,44 @@ links:
 ---
 ## Content
 
-A **package** is a hierarchical file directory structure that defines a single **Python** application environment. **Packages** consist of **modules** and **subpackages**.
+A **package**[1] is a hierarchical file directory structure that defines a single **Python** application environment. **Packages** consist of **modules** and **subpackages**.
 
-Each **package** is a **directory** that **must** contain a special file called: `_init_.py`. This **file** can be empty and it indicates that the directory it contains is a **Python package**.
-
-Consider a file **available_rooms.py** in the **Hotel** directory:
+Consider a file `available_rooms.py` in the **Hotel** directory:
 
 ```
-def available()
+# available_rooms.py
+
+def available(rooms)
     print(rooms, ", are available.")
 ```
-Then the file **total_rooms.py** in the same directory:
+Then the file `total_rooms.py` in the same directory:
 
 ```
-def all_rooms()
+# total_rooms.py
+
+def all_rooms(total)
     print("We have: ", total, "rooms.")
 ```
 
-To be able to `import` the **package** and use both **methods** defined in the two files we need to add the explicit imports to `_init_.py`:
+Now that we have these files defined in out **Hotel package** we can use them in our script by importing this package:
 
 ```
-from available_rooms import available
-from total_rooms import all_rooms
-```
-After adding these to the `_int_.py` file, you have all the defined classes available when you `import` the Hotel package:
+# rooms_update.py
 
-```
 import Hotel
 
-Hotel.available()
-Hotel.all_rooms()
-```
-Creating the following output:
+Hotel.available(10)
+Hotel.all_rooms(25)
 
-```
+# Output:
 # 10 rooms are available
 # We have: 25 rooms.
 ```
+---
+## Footnotes
+
+[1:Python packages]
+Speaking about Python versions that are older  than **Python 3.3**. Each **package** is a **directory** that **must** contain a special file called: `_init_.py`. This **file** indicates that the directory it contains is a **Python package**. The `__init__.py` file is usually empty, but can be used to **export** selected portions of the package under more convenient name.
 
 ---
 ## Practice
