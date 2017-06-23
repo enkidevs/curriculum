@@ -61,16 +61,15 @@ Which keyword is used to call constructor functions?
 
 Using the `enki` function create an `Enki` object:
 ```javascript
-function enki(x) {
+function Enki(x) {
   this.value = x;
 }
 
-??? = ??? ???("3.14");
+enkiPi = ??? ???("3.14");
 ```
 
-*`Enki`
 *`new`
-*`enki`
+*`Enki`
 *`x`
 *`value`
 *`var`
