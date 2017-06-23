@@ -1,4 +1,4 @@
-# I/O functions.
+# I/O functions
 author: SebaRaba
 
 levels:
@@ -18,12 +18,12 @@ links:
 ---
 ## Content
 
-`I/O`(input/output) stands for the communication between a data **processing system** such as a computer, or any device, and the **outside** world, possibly a human or another **processing system**.
+`I/O`(input/output) stands for the communication between a data **processing system** such as a computer, or any device, and the **outside** world.
 
 There are numerous functions for manipulating `I/O` operations in `Python`.
 
 
-The most **basic printing** function in **Python** is `print()`[1]. The arguments passed to it will be converted to **strings** and outputed to the `stdout`[2].
+The most **basic output** function in **Python** is `print()`[1]. The arguments passed to it will be converted to **strings** and they will be outputed to the `stdout`[2].
 
 The syntax simply is:
 
@@ -36,7 +36,7 @@ This will produce the following result on your screen:
 This is a print statement.
 ```
 
-For managing user input **Python 3** provides a built-in function called `input()`. When using this **function** the program is **paused** and **waits** until the user finishes his input. There is an **optional** parameter available as well. Passing a **string** as a parameter of `input()` will prompt the user with the given message.
+For managing user input, **Python 3** provides a built-in function called `input()`. When using this **function** the program is **paused** and **waits** until the user finishes his input. There is an **optional** parameter available as well. Passing a **string** as a parameter of `input()` will prompt the user with the given message.
 
 Consider the following scenario:
 
@@ -107,10 +107,13 @@ Which function can be used to interpret and evaluate input in Python 3?
 ## Revision
 
 
-What is the function used to print to `stdout` in Python?
+Suppose we want to add `10` to somebody's age:
+```
+your_age = ???(input("How old are you?"))
+???(your_age + 10)
+```
 ???
 
-* `print()`
-* `System.out.println()`
-* `cout`
-* `fout()`
+* `int()` and `print()`
+* `eval()` and `print()`
+* `int()` and `eval()`
