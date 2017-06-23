@@ -60,19 +60,32 @@ Speaking about Python versions that are older  than **Python 3.3**. Each **packa
 ---
 ## Practice
 
-What is the difference between a normal directory and a package in Python?
+Choose the correct answer:
+```
+??? Hotel
+
+def foo(x):
+    capacity = ???.all_rooms(x)
+    return capacity
+```
 ???
 
-* packages have `_init_.py` file.
-* there is no difference.
-* directories don't contain modules.
+* `import` and `Hotel`
+* `from Hotel import all_rooms` and `Hotel`
+* `import` and the second gap doesn't need to be filled
 
 ---
 ## Revision
 
-What goes in the `_init_.py` files in order to use all modules defined in a directory?
+Choose the correct answer:
+```
+form Hotel import ???
+
+def foo(x):
+    ???.available_rooms(x)
+```
 ???
 
-* explicit `import`s of each module.
-* define modules in this file as well.
-* packages can't be imported.
+* `available_rooms` and nothing else
+* `available_rooms` and `Hotel`
+* `total_rooms` and nothing else
