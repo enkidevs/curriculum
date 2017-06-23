@@ -100,30 +100,31 @@ Bad things can happen if you decide to use `eval(input())` in your program, as y
 ---
 ## Practice
 
-Suppose we want to print a list containing the first three favorite fruits of some user:
+Suppose we want to print a list containing the first three favorite fruits of some user. Fill the gaps accordingly:
 ```
-fruits = ???(input('favorite fruits:'))
-first_three = ???[0:3]
-???(first_three)
+fruits = __(input('favorite fruits:'))
+first_three = __[0:3]
+__(first_three)
 ```
-
 ???
 
 * `eval()`, `fruits` and `print()`
 * `int()`, `fruits` and `print()`
-* `input()`, `fruits` and `cast()`
+* `input()`, `fruits` and `read()`
+* `in()`, `fruits` and `read()`
 
 ---
 ## Revision
 
 
-Suppose we want to add `10` to somebody's age:
+Suppose we want to add `10` to somebody's age. Fill the gaps accordingly:
 ```
-your_age = ???(input('How old are you?'))
-???(your_age + 10)
+your_age = __(input('How old are you?'))
+__(your_age + 10)
 ```
+
 ???
 
 * `int()` and `print()`
 * `eval()` and `print()`
-* `int()` and `eval()`
+* `cast()` and `print()`
