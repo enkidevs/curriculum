@@ -57,7 +57,7 @@ print(dict.items())
 
 # Output: dict_items([(1, 1),
 # (2, 4), (3, 9), (4, 16), (5, 25)])
-```
+``` 
 
 - `keys()` : returns a list of all dictionary `key`s
 
