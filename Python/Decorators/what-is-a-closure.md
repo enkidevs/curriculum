@@ -1,4 +1,4 @@
-# What is a closure?
+# What Is a Closure?
 author: mihaiberq
 
 levels:
