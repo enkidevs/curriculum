@@ -7,26 +7,24 @@ levels:
 
 type: normal
 
-category: must-know
+category: how-to
 
 links:
 
-  - '[more about writing to files](https://www.digitalocean.com/community/tutorials/how-to-handle-plain-text-files-in-python-3)'
+  - '[More about writing to files](https://www.digitalocean.com/community/tutorials/how-to-handle-plain-text-files-in-python-3)'
 
 ---
 ## Content
 
 **Remember** how `open()` works:
-- if we open an already existing file in mode `w`, it will be overwritten.
-- if the file doesn't exist, it will be created.
+- if we open an already existing file in mode `w` (writing), it will be overwritten
+- if the file doesn't exist, it will be created
 
-Let's start by creating a **file** at the given **path**. Note that we use mode `wr` to open the file as later we'll need to **read** some lines of it:
-
+Let's start by creating a **file** at the given **path**. Note that we use mode `w+` to open the file as later we'll need to **read** some lines of it:
 ```
-path = /usr/steve/new_file.txt
-text = open(path, 'wr')
+path = '/usr/seba/new_file.txt'
+text = open(path, 'w+')
 ```
-
 
 Writing to the **file** can easily be done via the `write()` function. A single **string** may be passed as as **argument**, which will be written to the **file**. You can **split** the **string** into multiple lines by adding `\n` character where necessary.
 
@@ -37,11 +35,11 @@ text.write(in)
 text.seek(0)
 print(text.read())
 
-#Output:
-#This is one line
-#This is the second one.
+# Output:
+# This is one line
+# This is the second one.
 ```
-We used `seek()` function within this example. This function moves the **page pointer** to the specified position. In our case, we moved it to the beginning of the **file** to be able to **read** from it after.
+We used `seek()` function within this example. This function moves the **file pointer** to the specified position. In our case, we moved it to the **beginning** (position 0) of the file to be able to **read** from it after.
 
 Remember that all **files** must be **closed** to preserve **resources** after finishing working with them. To do this, simply `close()` the file object:
 
@@ -51,19 +49,43 @@ text.close()
 ---
 ## Practice
 
-What happens if we `open()` an existing file in `w/wr` modes and write to it?
+What will the output look like?
+```
+file = open('name.txt', 'w+')
+
+file.write("John")
+file.write("Chris")
+
+print(file.readline())
+
+file.close()
+```
 ???
 
-* It overwrites the file.
-* It appends the new text to the existing one.
-* Nothing, you can't write to existing files.
+* Nothing will be generated.
+* JohnChris
+* Chris
+* John
 
 ---
 ## Revision
 
-How many parameters does the `write()` operation require?
+Suppose we want to read the content of a file and copy it into another. Fill the gaps:
+```
+file = open('name.txt', '__')
+file.write("John")
+file.write("Chris")
+file.seek(__)
+
+new_file = open("new.txt", "w+")
+new_file.__(file.read())
+
+file.close()
+new_file.close()
+```
 ???
 
-* `1`
-* `2`
-* `4`
+* w+, 0 and write()
+* r, 1 and write()
+* w+, 1 and seek()
+* w+, 1 and write()
