@@ -1,4 +1,4 @@
-# Dictionaries from lists.
+# Convert lists to dictionaries
 author: SebaRaba
 
 levels:
@@ -7,68 +7,84 @@ levels:
 
 type: normal
 
-category: must-know
+category: how-to
 
 links:
 
-  - '[more about creating dictionaries](https://developmentality.wordpress.com/2012/03/30/three-ways-of-creating-dictionaries-in-python/)'
+  - '[More about creating dictionaries](https://developmentality.wordpress.com/2012/03/30/three-ways-of-creating-dictionaries-in-python/)'
 
 ---
 ## Content
 
-If there are two **lists** that satisfy certain conditions, they can be turned into a single **dictionary** in **Python**.
+Usauly, two lists can be converted into a **dictionary**.
 
 Let's consider two lists:
-- one containing some names;
-- the other one containing each ones occupation.
+- one containing some names
+- the other one containing each ones occupation
 
 ```
-names = ["Ovi","Maria","Sorin"]
-jobs = ["Programmer","Doctor","Teacher"]
+names = ['Ovi', 'Maria', 'Sorin']
+jobs = ['Chef', 'Doctor', 'Judge']
 ```
 
-Now we need make use of `zip()` method to combine the two **lists**. What this method does is combining the two **lists** together as a zipper.
+Now, there is a method called `zip()` which comes in hand when we need to combine two lists. This method will generate a list of `tuple`s where the `i`-th tuple contains the `i`-th element from each of the given lists. In order to `print` the list it creates we need to use the `list()` method as well:
 
 ```
 names_jobs = zip(name, jobs)
-print(names_jobs)
+print(list(names_jobs))
 
 # Output:
-# [('Ovi', 'Programmer'),
-   ('Maria', 'Doctor'),
-   ('Sorin', 'Teacher')]
+# [('Ovi', 'Chef'),
+#  ('Maria', 'Doctor'),
+#  ('Sorin', 'Judge')]
 ```
 
-The **variable** `names_jobs` contains now the "dictionary" in the 2-tuple list form. This form can be easily transformed into a propper **dictionary** with the **method** `dict()`.
+Our `names_jobs` variable contains the above-outputted list of `tuple`s. Now, we can easily **convert it to a dictionary object** via the built-in `dict()` method:
 
 ```
 names_jobs_dict = dict(names_jobs)
 print(names_jobs_dict)
 
 # Output:
-# {'Ovi': 'Programmer'
+# {'Ovi': 'Chef'
 #  'Maria': 'Doctor'
-#  'Sorin': 'Teacher'}
+#  'Sorin': 'Judge'}
+# Voila!!
 ```
 
-**Note** if one of the **lists** has more elements than the other, the `zip()` **method** wouldn't use the superfluous **elements**.
+**Note** if one of the lists has more elements than the other, the `zip()` method won't use the superfluous **elements**.
+
+```
+names = ['Ovi', 'Maria', 'Sorin', 'Seb']
+jobs = ['Chef', 'Doctor', 'Judge']
+
+names_jobs = zip(names,jobs)
+print(dict(list(names_jobs)))
+
+# Output:
+# {'Ovi': 'Chef', 'Maria': 'Doctor',
+# 'Sorin': 'Judge'}
+```
 
 ---
 ## Practice
 
+Suppose we have the following lists. We want to know the temperature in UK. Fill the gaps accordingly:
 ```
-countries = ["USA","UK","SP"]
-temperatures = ["28","29","30","15","40"]
+countries = ['USA','UK','SP']
+temp = ['28','29','30']
 
-new = zip(countries,temperatures)
+new = __(__(countries,temp))
+new.__('USA')
+new.__('SP')
+
 print(new)
 ```
-What will the output look like?
 ???
 
-* `[('USA','28'),('UK','28'),('SP','30')]`
-* `[('USA','28'),('UK','28'),('SP','40')]`
-* `{'USA':'28', 'UK':'29', 'SP':'30'}`
+* dict(), zip(), pop(), pop()
+* zip(), dict(), pop(), pop()
+* zip(), dict(), popitem(), pop()
 
 ---
 ## Revision
