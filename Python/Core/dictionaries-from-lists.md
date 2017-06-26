@@ -61,7 +61,7 @@ jobs = ['Chef', 'Doctor', 'Judge']
 names_jobs = zip(names,jobs)
 print(dict(list(names_jobs)))
 
-# Output:
+# Output: 
 # {'Ovi': 'Chef', 'Maria': 'Doctor',
 # 'Sorin': 'Judge'}
 ```
