@@ -10,6 +10,8 @@ type: normal
 category: must-know
 
 links:
+  - >-
+    [What are decorators?](https://www.thecodeship.com/patterns/guide-to-python-function-decorators/){website}
 
 ---
 ## Content
@@ -46,9 +48,8 @@ def h2_decorate(string_function):
 ```
 There you have it! Your decorator returns a new function that wouldn't care about the underlying structure of the string, it would just wrap everything up:
 ```python
-hello_wrapper = h2_decorate(hello_heading)
-goodbye_wrapper =
-      h2_decorate(goodbye_heading)
+hello_wrapper = h2_decorate(say_hello)
+goodbye_wrapper = h2_decorate(say_goodbye)
 print(hello_wrapper("John"))
 print(goodbye_wrapper("Sam"))
 # <h2>Hello, John!</h2>
@@ -56,4 +57,4 @@ print(goodbye_wrapper("Sam"))
 ```
 We've mentioned *the concept of closures* in the introduction. Try and figure out where one is created in the `h2_decorate` function definiton snippet.
 
-If you couldn't figure it out, consider that `h2_decorate`'s references to the `hello_heading` and `goodbye_heading` are still in scope when you call the wrapper functions (`hello_wrapper` and `goodbye_wrapper`, respectively): the time capsule worked.
+If you couldn't figure it out, consider that `h2_decorate`'s references to the `say_hello` and `say_goodbye` are still in scope when you call the wrapper functions (`hello_wrapper` and `goodbye_wrapper`, respectively): the time capsule worked.
