@@ -16,7 +16,7 @@ category: tip
 
 Python has two tools for building functions, `def` and `lambda`.
 
-Python's `lambda` tool is used for building function objects in situations where a simple one-off function is required. 
+Python's `lambda` tool is used for building function objects in situations where a simple one-off function is required.
 
 Lambda, when used in the correct situations, makes code writing easier and makes the written code cleaner and easier to read.
 
@@ -38,17 +38,17 @@ Note: Lambda should only be used when a function is a one-off function, and won'
 
 Complete the bottom code snippet to define the following function but with lambda:
 
-```
-def square(x): 
-    return x * x 
+```python
+def square(x):
+    return x * x
 ```
 With lambda:
+```python
+square = ??? ???: x * x
 ```
-square = ??? ???: x * x 
-```
-*`lambda` 
-*`x` 
-*`def` 
-*`new` 
-*`instance` 
+*`lambda`
+*`x`
+*`def`
+*`new`
+*`instance`
 *`function`

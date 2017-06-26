@@ -49,17 +49,17 @@ There are also special characters that can be used by preceding the character wi
 ---
 ## Practice
 
-What special character is used to write **multi line** strings?
+What special character is used to add a `new line` to strings?
 
 ```javascript
-var myString = 'this will ??? 
-       be a multi line string';
+var myString = 'this will ???
+       be displayed on two lines';
 ```
 
 *`\n`
 *`+`
 *`"`
-*`\\`
+*`\`
 *`\r`
 *`\t`
 
