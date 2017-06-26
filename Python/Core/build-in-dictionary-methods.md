@@ -1,4 +1,4 @@
-# Python dictionary methods.
+# Dictionary methods
 author: SebaRaba
 
 levels:
@@ -7,58 +7,139 @@ levels:
 
 type: normal
 
-category: must-know
+category: feature
 
 links:
 
-  - '[more information here](https://www.programiz.com/python-programming/dictionary)'
+  - '[Dictionary methods](https://www.programiz.com/python-programming/dictionary)'
 
 ---
 ## Content
 
-There are several **methods** available for manipulating **dictionaries** in **Python**:
-- `clear()`: removes all items from the **dictionary**;
-- `copy()` : returns a shallow **copy** of the **dictionary**;
-- `get(key,[d])`: returns the value of **key**, if it doesn't exist, it returns `d`;
-- `items()`: lists all **dictionary** items (key, value);
-- `keys()` : lists all **keys** present in the **dictionary**;
-- `pop(key,[d])` : remove the item with **key** and return its value, or `d` if the key doesn't exist;
-- `popitem()` : returns an arbitrary **item** from the dictionary and `KeyError` if the **dictionary** is empty;
-- `values()` : lists all the values present in the **dictionary**.
-- `fromkeys(seq[, v])`: return a new **dictionary** with keys from `seq` and value equal to `v`;
-
-
-Let's use some of the above methods:
+Consider the following dicitonary:
 
 ```
-marks={}.fromkeys(['Math','English'], 0)
-
-print(marks)
-# Output: {'English': 0, 'Math': 0}
-
-marks.pop('Math', [none])
-print(marks)
-
-# Output: ['English': 0]
+dict = {1:1, 2:4, 3:9, 4:16, 5:25}
 ```
 
+Python provides a plethora of **methods** intended for dictionaries manipulation:
+
+- `clear()`: removes all items from the **dictionary**
+
+```
+dict.clear()
+print(dict)
+
+# Output: {}
+```
+
+- `copy()` : returns a **shallow copy**[1] of the **dictionary**
+
+```
+new = dict.copy()
+print(new)
+
+# Output: {1:1, 2:4, 3:9, 4:16, 5:25}
+```
+
+- `get(key,[default])`: the value mapped to the given key; if there's no item with that key, it'll return the optional argument `default`
+
+```
+print(dict.get(3))
+
+# Output: 9
+```
+
+- `items()`: returns a list composed of all dictionary entries expressed as tuples of the form `(key,value)`
+
+```
+print(dict.items())
+
+# Output: dict_items([(1, 1),
+# (2, 4), (3, 9), (4, 16), (5, 25)])
+```
+
+- `keys()` : returns a list of all dictionary `key`s
+
+```
+print(dict.keys())
+
+# Output: dict_keys([1, 2, 3, 4, 5])
+```
+
+- `pop(key,[d])` : returns the item with the given `key`. If no item is found, the optional `default` argument will be returned
+
+```
+print(dict.pop(4))
+print(dict)
+
+# Output:
+# 16
+# {1: 1, 2: 4, 3: 9, 5: 25}
+```
+
+- `popitem()` : returns an arbitrary **item** from the dictionary and `KeyError` if the **dictionary** is empty
+
+```
+print(dict.popitem())
+print(dict)
+
+# Output:
+# (5,25)
+# {1: 1, 2: 4, 3: 9, 4: 16}
+```
+
+- `values()` : lists all the values present in the **dictionary**
+
+```
+print(dict.values())
+
+# Output: dict_values([1, 4, 9, 16, 25])
+```
+
+- `fromkeys(seq[, v])`: return a new **dictionary** with keys from `seq` and value equal to `v`
+
+```
+dict = {}.fromkeys([1,2,3], 0)
+print(dict)
+
+# Output: {1: 0, 2: 0, 3: 0}
+```
+
+---
+## Footnotes
+
+[1:shallow copy]
+If we have two objects: `A` and `B`. We say `B` is a shallow copy of `A` if they point to the same location in memory.
 
 ---
 ## Practice
 
-What does `get(key,[d])` return if there is no such key in the dictionary?
+Suppose we want to create a dictionary having the following keys starting from `1` up to `5` and value `0` assigned to all items. Fill the gaps accordingly:
+```
+new = __.__([1, 2, 3, 4, 5], __)
+```
 ???
 
-* `d`, which is the default value (`none`);
-* it doesn't return anything;
-* it throws an `error`.
+* {}, fromkeys(), 0
+* dict, fromkeys(), 0
+* {}, fromkeys(), 1
 
 ---
 ## Revision
 
-What happens if we use `popitem()` on an empty dictionary?
+Consider the following scenario:
+```
+my_dict = {1:1, 2:4, 3:9, 4:16, 5:25}
+
+new_dict = my_dict.copy()
+new_dict.popitem()
+
+print(my_dict)
+```
+What will the output look like?
 ???
 
-* `KeyError` will be thrown;
-* nothing would happen.
-* it wasn't specified.
+* {1:1, 2:4, 3:9, 4:16, 5:25}
+* {1:1, 2:4, 3:9, 4:16}
+* {2:4, 3:9, 4:16, 5:25}
