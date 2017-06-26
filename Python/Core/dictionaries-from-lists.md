@@ -92,6 +92,6 @@ print(new)
 The `zip()` method returns?
 ???
 
-* 2-tuple list
+* tuple list
 * a new dictionary
 * it was never specified
