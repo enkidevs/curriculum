@@ -7,23 +7,23 @@ levels:
 
 type: normal
 
-category: must-know
+category: feature
 
 links:
 
-  - '[more operations here](https://www.tutorialspoint.com/python/python_files_io.htm)'
+  - '[More operations here](https://www.tutorialspoint.com/python/python_files_io.htm)'
 
 ---
 ## Content
 
 **Python** provides more methods to ease `I/O` interactions and **file handling**. Among these we can count:
-- `tell()` which returns the current postion;
-- `seek()` which lets you navigate through the file;
-- `rename()` which enables users to rename files;
-- `remove()` which enables users to remove files;
+- `tell()` which returns the current position in the file
+- `seek(offset, from_what)` which moves the **file pointer** to a
+- `rename(old_name, new_name)` which enables users to rename files
+- `remove(path)` which enables users to remove files
 
 
-In **Python**, the `tell()` funciton returns the current position in the **file**. This **position** is represented by the number of **bytes** after the beginning of the file.
+In **Python**, the `tell()` function returns the current position in the **file**. This **position** is represented by the number of **bytes** after the beginning of the file.
 
 `seek(offset, from_what)` enables the **users** to move the page pointer along the **file**. This operation requires two parameters, `offset` which defines how many **bytes** you will move the pointer and `from_what`, which is optional and states where you want to start moving from. There are 3 other important **values** for `from_what` parameter:
 
@@ -31,24 +31,27 @@ In **Python**, the `tell()` funciton returns the current position in the **file*
 - `1`: which means at the current position;
 - `2`: which means at the end of the file.
 
-For a better understanding we will exemplify `tell()` and `seek()` operations with the following **snippet**:
-
+Let's see how `tell()` and `seek()` work in practice[1]:
 ```
-text = open("file.txt","r+")
-input = text.read(7);
-print("Input is: ", input)
+file = open('file.txt','r+')
+text = file.read(7);
 
-position = text.tell();
-print("The current position: ", position);
+print('Input is: ', text)
+print('Current pos: ', file.tell());
 
-position = text.seek(0);
-print("Position after seek: ", position);
+file.seek(0);
 
-text.close()
+print('After seek:'', file.tell());
+print(file.read())
 
-#Output:
-#The current position: 7
-#Position after seek: 0
+file.close()
+
+# Output:
+# This is
+# Current pos: 7
+# After seek: 0
+# This is my file
+# It has two lines of text
 ```
 
 Apart from other uses, `os` module helps with **file processing operations**. Two of this operations are
@@ -59,21 +62,38 @@ As `os` is a **module**, we need to **import** it to be able to use the operatio
 ```
 import os
 
-os.rename("file.txt","new_file.txt");
-os.remove("new_file.txt");
-
-#file.txt was renamed into new_file.txt
-#new_file.txt was then removed from disk
+os.rename('file.txt','new_file.txt');
+os.remove('new_file.txt');
 ```
+
+---
+## Footnotes
+
+[1: file.txt]
+```
+# file.txt
+This is my file
+It has two lines of text
+```
+
 ---
 ## Practice
 
-Value `0` set to `from_what` parameter of `seek()` function, moves the pointer to?
+Fill the gaps:
+```
+file = open('file.txt','__')
+print(__.readline())
+print(file.tell())
+
+file.__(0)
+
+print(file.read())
+```
 ???
 
-* The `beginning` of the file.
-* The `end` of the file.
-* The `current` positon in the file.
+* r, file, seek()
+* w, text, seek()
+* r, file, tell()
 
 ---
 ## Revision
