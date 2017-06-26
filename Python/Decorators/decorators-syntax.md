@@ -33,8 +33,8 @@ def h2_decorate(string_function):
 def say_hello(name):
   return "Hello, {0}!".format(name)
 
-print(say_hello("John"))
-# <h2>Hello, John!<h2>
+print(say_hello("Mike"))
+# <h2>Hello, Mike!<h2>
 ```
 As you can see, the function is decorated, without the need of an explicit `h2_decorate` binding. This shorthand notation is also useful in case of multiple decorators being used (`div_decorate` wraps a string in `div` tags):
 ```python
@@ -42,17 +42,17 @@ As you can see, the function is decorated, without the need of an explicit `h2_d
 def say_hello(name):
   return "Hello, {0}!".format(name)
 long_wrap = div_decorate(h2_decorate(say_hello))
-print(long_wrap("John"))
+print(long_wrap("Mike"))
 # @ notation
 @div_decorate
 @h2_decorate
 def say_hello(name):
   return "Hello, {0}!".format(name)
-print(say_hello("John"))
+print(say_hello("Mike"))
 ```
 Both notations are equivalent to:
 ```HTML
-<div><h2>Hello, John!</h2></div>
+<div><h2>Hello, Mike!</h2></div>
 ```
 ### Passing arguments
 
@@ -71,6 +71,6 @@ def tags_wrapper(tag):
 @tags_wrapper("h2")
 def say_hello(name):
   return "Hello, {0}!".format(name)
-print(say_hello("John"))
-# <div><h2>Hello, John!</h2><div>
+print(say_hello("Mike"))
+# <div><h2>Hello, Mike!</h2><div>
 ```

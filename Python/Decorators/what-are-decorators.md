@@ -25,7 +25,7 @@ def say_hello(name):
 ```
 A function provided by an API you don't necessarily have access to - the string you need, but not formatted like this. What you are looking for is format it as a heading, for example:
 ```HTML
-<h2>Hello, John!</h2>
+<h2>Hello, Mike!</h2>
 ```
 You could always implement a hardcoded function that would pass the parameter the above function:
 ```python
@@ -50,9 +50,9 @@ There you have it! Your decorator returns a new function that wouldn't care abou
 ```python
 hello_wrapper = h2_decorate(say_hello)
 goodbye_wrapper = h2_decorate(say_goodbye)
-print(hello_wrapper("John"))
+print(hello_wrapper("Mike"))
 print(goodbye_wrapper("Sam"))
-# <h2>Hello, John!</h2>
+# <h2>Hello, Mike!</h2>
 # <h2>Hello, Sam!</h2>
 ```
 We've mentioned *the concept of closures* in the introduction. Try and figure out where one is created in the `h2_decorate` function definiton snippet.
