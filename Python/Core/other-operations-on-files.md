@@ -31,8 +31,10 @@ In **Python**, the `tell()` function returns the current position in the **file*
 - `1`: which means at the current position;
 - `2`: which means at the end of the file.
 
-Let's see how `tell()` and `seek()` work in practice[1]:
+Let's see how `tell()` and `seek()` work in practice. Consider file.txt[1]:
 ```
+# file.txt
+
 file = open('file.txt','r+')
 text = file.read(7);
 

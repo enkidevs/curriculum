@@ -62,7 +62,7 @@ file.close()
 ```
 ???
 
-* Nothing will be generated.
+* Nothing will be generated
 * JohnChris
 * Chris
 * John
