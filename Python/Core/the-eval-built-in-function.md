@@ -81,7 +81,11 @@ print(eval('squareRoot(9)',
 # Result: 3
 ```
 
-Finally, it is important to be aware of __the security risks associated with `eval`__. If you pass user input to an `eval` and have not restricted the functions available to the expression, it is possible that the user could compromise system security or integrity. For example, if the `os` module is available for use, the user could delete arbitrary files from the system by using the `rm -rf` unix command, which can be used from the `os` module and evaluated via `eval`. We should be careful whenever we are passing user input to be evaluated, even if indirectly, because of the risk of code injection. Always ensure user input fed into `eval` commands are properly tokenized. It is generally not recommended to pass user input into `eval` at all. We can restrict the use of the `__builtins__` by putting them in the dictionary, but associated with a `None`, like so:
+Finally, it is important to be aware of __the security risks associated with `eval`__. If you pass user input to an `eval` and have not restricted the functions available to the expression, it is possible that the user could compromise system security or integrity.
+
+For example, if the `os` module is available for use, the user could delete arbitrary files from the system by using the `rm -rf` unix command, which can be used from the `os` module and evaluated via `eval`. We should be careful whenever we are passing user input to be evaluated, even if indirectly, because of the risk of code injection. Always ensure user input fed into `eval` commands are properly tokenized. It is generally not recommended to pass user input into `eval` at all.
+
+We can restrict the use of the `__builtins__` by putting them in the dictionary, but associated with a `None`, like so:
 
 ```python
 eval(expression_here,
