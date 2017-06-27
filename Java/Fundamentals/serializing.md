@@ -33,19 +33,19 @@ public class carSerialization {
     myCar.topSpeed = 320;
 
       try {
-        //open an output file
-         FileOutputStream fileOut =
-          new FileOutputStream("/myCar.ser");
-        //make this file suitable to write
-        //an object to
-         ObjectOutputStream out =
-          new ObjectOutputStream(fileOut);
-        //write the object to the file
-         out.writeObject(myCar);
-         out.close();
-         fileOut.close();
+       //open an output file
+       FileOutputStream fileOut =
+        new FileOutputStream("/myCar.ser");
+       //make this file suitable to write
+       //an object to
+       ObjectOutputStream out =
+        new ObjectOutputStream(fileOut);
+       //write the object to the file
+       out.writeObject(myCar);
+       out.close();
+       fileOut.close();
       }catch(IOException ex) {
-         ex.printStackTrace();
+       ex.printStackTrace();
       }
    }
 }
