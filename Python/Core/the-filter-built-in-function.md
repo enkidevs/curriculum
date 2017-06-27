@@ -58,7 +58,7 @@ Finally, consider that we can use `filter` on any object and function we define,
 ---
 ## Practice
 
-Let's practice filtering through lists of more complex objects, such as tuples. `filter` lets us use a function to check multiple conditions in one sweep of the list. Fill in the blanks in the following code snippet to only print the names of customers where their associated boolean variable is both `True` and their email includes the substring `'corporate.com'`.
+Let's practice filtering through lists of more complex objects, such as tuples. `filter` lets us use a function to check multiple conditions in one sweep of the list. What is the result of the following code snippet's execution?
 
 ```python
 customers =
@@ -67,19 +67,22 @@ customers =
   ('Sam', 'sam@corporate.com', True),
   ('Jess', 'jess@corporate.com', False)]
 
-def isCorporateAndOnline(customer):
+def special_function(customer):
   if len(customer[1]) > 0:
     return 'corporate.com' in customer[1]
     and customer[2]
   return False
 
-print(filter(???, ???))
+print(filter(special_function, customers))
+
+???
 ```
 
-* `isCorporateAndOnline`
-* `customers`
-* `customer[2]`
-* `customer`
+* The 3-tuples of customers where the associated boolean is `True` and the email includes the substring `'corporate.com'`.
+* The names of customers where their associated boolean is `True` and the email includes the substring `'corporate.com'`.
+* The 3-tuples of customers whose names are longer than zero characters.
+* The 3-tuples of customers where their associated boolean is `True` or the email includes the substring `'corporate.com'`.
+* The 3-tuples of customers where their associated boolean is not `True` and the email does not include the substring `'corporate.com'`.
 
 ---
 ## Revision
