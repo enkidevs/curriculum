@@ -46,11 +46,11 @@ ourList = [5, 4, 3, 2, 1]
 newList = ???(???(???))
 ```
 
-* list
-* reversed
-* ourList
-* newList
-* seq
+* `list`
+* `reversed`
+* `ourList`
+* `newList`
+* `seq`
 * `__reversed__`
 
 ---
@@ -71,11 +71,11 @@ c = Classroom()
 print(list(reversed(c)))
 ```
 
-* reversed
-* self
-* pupils
-* Classroom
-* bob
+* `reversed`
+* `self`
+* `pupils`
+* `Classroom`
+* `bob`
 * `__len__()`
 
 ---
