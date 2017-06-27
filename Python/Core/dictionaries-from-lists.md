@@ -30,7 +30,7 @@ jobs = ['Chef', 'Doctor', 'Judge']
 Now, there is a method called `zip()` which comes in hand when we need to combine two lists. This method will generate a list of `tuple`s where the `i`-th tuple contains the `i`-th element from each of the given lists. In order to `print` the list it creates we need to use the `list()` method as well:
 
 ```
-names_jobs = zip(name, jobs)
+names_jobs = zip(names, jobs)
 print(list(names_jobs))
 
 # Output:
@@ -61,7 +61,7 @@ jobs = ['Chef', 'Doctor', 'Judge']
 names_jobs = zip(names,jobs)
 print(dict(list(names_jobs)))
 
-# Output: 
+# Output:
 # {'Ovi': 'Chef', 'Maria': 'Doctor',
 # 'Sorin': 'Judge'}
 ```
@@ -89,9 +89,16 @@ print(new)
 ---
 ## Revision
 
-The `zip()` method returns?
+Suppose we want to find out the temperature in UK using some of the dictionary built-in methods we learned. Fill the gaps accordingly:
+```
+countries = ['USA','UK','SP']
+temp = ['28','29','30']
+
+new = __(zip(countries,__))
+print(new.__('UK'))
+```
 ???
 
-* tuple list
-* a new dictionary
-* it was never specified
+* dict, temp, get()
+* list, temp, get()
+* dict, temp, getitem()
