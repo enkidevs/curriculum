@@ -64,23 +64,27 @@ Using the key argument, however, we can use `max` in more interesting and useful
 ```python
 num1 = [1200, 110000, 90, 9012]
 num2 = [12, 12, 12, 30, 30, 90]
-print max(num1, num2, key=len)
+print(max(num1, num2, key=len))
 # result = [12, 12, 12, 30, 30, 90]
 ```
 
 ---
 ## Practice
 
-Let's say we have some queues of customers. We want to find the shortest queue. We need to consider size (number of groups of people in the queue), but also take into account the total number of people in the queue. i.e. we believe that a queue of 5 one-person groups will take much longer to serve than a queue of 1 five-person group.
+Let's say we have some queues of customers being served pizza. We want to know which queue will be the fastest.
+
+Queues are lists of groups of 1 or more people to be served.
+
+We need to consider size (number of groups of people in the queue), but also take into account the total number of people in the queue. (I.E. we believe that a queue of 5 one-person groups, [1, 1, 1, 1, 1], will take much longer to serve than a queue of a 1 five-person group, [5].)
 
 Try to fill in the blanks to find the shortest queue by finding the maximum key, where the key is the sum of all people queueing divided by the length of the queue.
 
 ```python
 queue1 = [3, 4, 6, 2, 4, 3]
 queue2 = [3, 2, 6, 9, 4, 2]
-print ???(queue1,
+print(???(queue1,
           queue2,
-          key=lambda x: ???/???)
+          key=lambda x: ???/???))
 ```
 
 * max
