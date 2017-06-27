@@ -109,6 +109,7 @@ def foo():
   def bar():
     print(myname)
 ```
+???
 * C
 * A
 * B

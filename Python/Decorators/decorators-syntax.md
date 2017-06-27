@@ -18,7 +18,8 @@ def say_hello(name):
   return "Hello, {0}!".format(name)
 def h2_decorate(string_function):
   def func_wrapper(name):
-    return "<h2>{0}</h2>".format(string_function(name))
+    return "<h2>{0}</h2>"
+      .format(string_function(name))
   return func_wrapper
 hello_wrapper = h2_decorate(say_hello)
 ```
@@ -26,7 +27,8 @@ We can shorten the code and get rid of the variable assignment by introducing th
 ```python
 def h2_decorate(string_function):
   def func_wrapper(name):
-    return "<h2>{0}</h2>".format(string_function(name))
+    return "<h2>{0}</h2>"
+      .format(string_function(name))
   return func_wrapper
 
 @h2_decorate
@@ -87,7 +89,6 @@ Could a function that executes another function a number of times be considered 
 * Yes
 * No
 * Maybe
-
 
 
 ---
