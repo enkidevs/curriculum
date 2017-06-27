@@ -7,54 +7,56 @@ levels:
 
 type: normal
 
-category: must know
+category: must-know
 
 ---
 ## Content
 
-There's a distinction to be made regarding *functions* and *methods*. In Python, every *subroutine* is a function. **Methods** are those functions that are part of an object.
+There's a distinction to be made regarding *functions* and *methods*. In Python, every *subroutine* is a called a function. **Methods**, on the other hand, are those functions that are part of an object.
 
 What's special about these methods is the fact that to define them, they are passed a `self` parameter as the first argument. As stated above, they are part of an object (which includes classes):
 ```python
-def decorate(func):
+def get_fahrenheit(func):
   def wrapper(self):
-    return
+    return "{0} F"
+      .format(func(self) * 1.8 + 32)
   return wrapper
 
-class Coordinate(object):
-  def __init__(self, x, y):
-    self.x = x
-    self.y = y
+class Temperature(object):
+  def __init__(self, celsius):
+    self.degrees = celsius
 
-  @decorate
-  def get_absolute(self):
-    return
+  @get_fahrenheit
+  def get_temp(self):
+    return self.degrees
 
-coor = Coordinate(10, 12.5)
-print(coor.get_absolute())
-#
+temp = Temperature(15)
+print(temp.get_temp())
+# 59.0 F
 ```
 Notice the `self` argument passed to `wrapper` function. But this syntax has a flaw: if we are looking to use the **same decorator** for a function that takes *more than 1 argument*, how are we going to handle that? If to the above snippet we are going to add:
 ```python
-def decorate(func):
+def get_fahrenheit(func):
   def wrapper(self, arg1):
-    return
+    return "{0} F"
+      .format(func(self) * 1.8 + 32)
   return wrapper
 ```
-Whenever we will call `get_absolute`, a *TypeError* will be thrown.
+Whenever we will call `get_temp`, a *TypeError* will be thrown.
 
 We can extend this syntax and use the generic `*args`[1] and `**kwargs`[2] arguments to ensure that we handle any number of arguments required:
 ```python
-def decorate(func):
+def get_fahrenheit(func):
   def wrapper(*args, **kwargs):
-    return func(*args, **kwargs)
+    return "{0} F"
+      .format(func(*args, **kwargs)*1.8+32)
   return wrapper
 ```
 
 ---
 ## Footnotes
 
-[1: *args]
+[1: &#42;args]
 The asterisk symbol (`*`) allows you to pass multiple arguments at once through a list or tuple:
 ```python
 def func(x, y, z):
@@ -69,10 +71,10 @@ Outputs:
 1 2 3
 1 2 3
 ```
-**Args** is just a naming convention for *arguments*.
+**args** is short for *arguments*.
 
-[2: **kwargs]
-The double asterisk symbol (`**`) allows you to pass multiple arguments at once through a dictionary:
+[2: &#42;&#42;kwargs]
+The double asterisk symbol (`**`) allows you to pass multiple named arguments at once through a dictionary:
 ```python
 def func(x, y, z):
   print(x,y,z)
@@ -83,7 +85,7 @@ Outputs:
 ```
 1 2 3
 ```
-**kwargs** is a naming convention for *keyword arguments*.
+**kwargs** is short for *keyword arguments*.
 
 N.B. while this outputs:
 ```python
@@ -94,5 +96,30 @@ func(**mydict)
 A dictionary like this will raise an error:
 ```python
 mydict = {"a":1, "b":2,"c":3}
-# TypeError: unexpected keyword arg 'c'
+# TypeError: unexpected keyword argument c
 ```
+
+---
+## Practice
+
+What is the operator used to unpack a dictionary?
+
+???
+
+* `**dict`
+* `*dict`
+* `__dict`
+* `dict.unpack()`
+
+
+---
+## Revision
+
+A method is a function that
+
+???
+
+* is part of an object
+* has exactly one argument
+* is nothing special, both having the same meaning
+* is decorated

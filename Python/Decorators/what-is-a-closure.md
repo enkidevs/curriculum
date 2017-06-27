@@ -74,4 +74,42 @@ As long as the function reference exists, the variables inside the function will
 ## Footnotes
 
 [1: Closure]
-A closure is somehow similar to a *time capsule*. You put together a bunch of stuff relevant for a moment in time (code block), store it and open it whenever you feel like reminiscing those times (using that particular block/function).
+A closure is somewhat similar to a *time capsule*. You put together a bunch of stuff relevant for a moment in time (code block), store it and open it whenever you feel like reminiscing those times (using that particular block/function).
+
+---
+## Practice
+
+Alongside the function definition, a closure contains the function's
+
+???
+
+* scoped variables
+* class members
+* time capsule
+
+---
+## Revision
+
+In which of the following snippets there's no closure present?
+```python
+# A
+def foo():
+  myname = "John"
+  def bar():
+    print(myname)
+  return bar
+# B
+def foo(name):
+  def bar():
+    print(name)
+  return bar
+# C
+myname = "John"
+def foo():
+  def bar():
+    print(myname)
+```
+* C
+* A
+* B
+* neither

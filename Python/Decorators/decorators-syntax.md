@@ -41,7 +41,8 @@ As you can see, the function is decorated, without the need of an explicit `h2_d
 # variable assignment
 def say_hello(name):
   return "Hello, {0}!".format(name)
-long_wrap = div_decorate(h2_decorate(say_hello))
+long_wrap =
+  div_decorate(h2_decorate(say_hello))
 print(long_wrap("Mike"))
 # @ notation
 @div_decorate
@@ -63,7 +64,8 @@ However, this syntax requires an additional enclosing function, as the **decorat
 def tags_wrapper(tag):
   def func_decorator(string_function):
     def name_wrapper(name):
-      return "<{0}>{1}</{0}>".format(tag, string_function(name))
+      return "<{0}>{1}</{0}>"
+        .format(tag, string_function(name))
     return name_wrapper
   return func_decorator
 
@@ -74,3 +76,28 @@ def say_hello(name):
 print(say_hello("Mike"))
 # <div><h2>Hello, Mike!</h2><div>
 ```
+
+---
+## Practice
+
+Could a function that executes another function a number of times be considered a decorator?
+
+???
+
+* Yes
+* No
+* Maybe
+
+
+
+---
+## Revision
+
+The maximum number of decorators a function can have is
+
+???
+
+* as many as needed
+* 1
+* 2
+* 63
