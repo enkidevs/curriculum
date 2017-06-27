@@ -1,4 +1,4 @@
-# `time` object 
+# `date` and `time` in `datetime`
 author: catalin
 
 levels:
@@ -15,70 +15,131 @@ category: feature
 
 parent: datetime-module
 
-notes: >+
-  The insight says:
-
-
-  "every argument of the constructor is optional"
-
-
-  So it is preferable to show how to call the constructor, while omitting some
-  of the arguments, i.e. by using keywords arguments, either here, or by linking
-  this insight to another one that explains keyword arguments. The latter
-  approach is preferable, since then that "keyword arguments" insight can then
-  be linked to, from other insights as well, which need such a link to explain
-  them well).
-
-
-  May be preferable to show at least another one or two examples of methods of
-  the time object - if the insight length permits. Otherwise make another
-  insight about this with a somewhat different but related title.
-
-
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/datetime.html#time-objects){website}
+  - "[docs.python.org](https://docs.python.org/3.5/library/datetime.html#time-objects){website}"
+
+  - "[pymotw.com](https://pymotw.com/2/datetime/){website}"
 
 ---
 ## Content
 
-The `time` object represents the time portion of the `datetime` object with microsecond precision. It represents a specific time of the day, independent of any particular one.
+In the `datetime` module the `time` class is used to represent time values, while the `date` class provides support for calendar date values.
 
-The `time` object can be adjusted via the `tzinfo` (also provided by `datetime` module) object, which specifies the time-zone information.
+The `time` object has attributes for **hours**, **minutes**, **seconds** and **microseconds**, but it can also hold **time-zone** information through the custom `.tzinfo` (also exposed by `datetime` module) attribute.
 
-Basic constructor syntax :
-```python
-#time(hour,minute,second,microsecond,tzinfo)
+Its constructor is of the form:
+```py
+time(hour, minute, second,
+              microsecond, tzinfo)
+```
+
+While all arguments are optional, keep in mind their default value is `0`, so just calling `datetime.time()` will actually create a time object with the earliest possible time representation:
+```py
 from datetime import time
-t = time(5, 0, 55, 222222)
-print(t)
-# 05:00:55.222222
+my_min = time()
 
-``` 
+# this is equivalent to constant:
+# datetime.time.min
 
-Note that every argument of the constructor is *optional*, and `tzinfo` is by default set to `None`.
+time.min == my_min # True
 
-Allowed arg values: hrs 0-23, mins 0-59, secs 0-59, msecs 0-999999.
+```
 
-Earliest representable time:
-```python
-time.min == time(0, 0, 0, 0)
-``` 
-Latest representable time:
-```python
-time.max == time(23,59,59,999999)
-``` 
+On the other hand, the latest representable time is of the form:
+```py
+my_max = time(23,59,59,999999)
 
-The ` time` class has other methods, both basic and advanced, for other needs., such as `time.replace` or ` time.dst`.
+# this is equivalent to
+# datetime.time.max
 
+time.max == my_max # True
+```
+
+The `date` constructor has all its arguments (**year**, **month**, **day**) mandatory. Keep in mind that if they are not in their respective ranges (e.g. `1 <= month <= 12`) an *error* will be thrown.
+```py
+from datetime import date
+my_date = date(2017, 6, 26)
+print(my_date) # 2017-6-26
+```
+
+You can also easily get the current date via the `.today()` method:
+```py
+current = date.today()
+print(current) # 2017-06-27
+```
+
+Another way of creating a `date` is from a **timestamp value** (and even from a **proleptic Georgian ordinal value**[1]):
+```py
+d = date.fromtimestamp(1256953732)
+print(d) # 2009-10-31
+ord = d.toordinal()
+print(ord) # 733711
+ord_date = date.fromordinal(ord)
+print(ord_date) # 2009-10-31
+```
+
+Both classes support the `.replace()` method which returns new objects replacing the specified value (in the order they are defined in the constructor).
+```py
+
+my_time = time(0,2,20)
+print(my_time) # 00:02:20
+print(my_time.replace(0,3)) # 00:03:20
+
+my_date = date.today()
+print(my_date) # 2017-06-27
+print(my_date.replace(1986)) # 1986-06-27
+```
 ---
 ## Practice
 
-By which object, which specifies time-zone information, can the time object be adjusted with? ???
+Complete the following code snippet with the missing gaps such that, by running it, the output will match given comments:
+```py
+from ??? import date, time
 
-*`tzinfo` 
-*`timezone` 
-*`time-zone` 
-*`tz-info`
+t = time()
+print(t == time.???) # True
+print(t.???(23,59,59,999999)
+                      == time.???) # True
+
+d = ???(1991, 12, 25)
+print(d.???) # 12
+print(d.???) # 727191
+
+```
+
+* `datetime`
+* `min`
+* `replace`
+* `max`
+* `date`
+* `month`
+* `toordinal()`
+* `day`
+* `max_time`
+* `min_time`
+* `totimestamp()`
+* `today()`
+
+---
+## Revision
+
+Which of the following lines of code can be used to initialize a `date` object of `datetime` module with the **current date**?
+
+```py
+from datetime import date
+current = ???
+```
+
+* `date.today()`
+* `date()`
+* `current()`
+* `date.current()`
+* `date.now()`
+
+---
+## Footnotes
+
+[1:proleptic Georgian calendar]
+The proleptic Gregorian calendar is produced by extending the Gregorian calendar backward with negative values to dates preceding its official introduction in **1582**.
