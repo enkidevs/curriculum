@@ -11,47 +11,45 @@ category: must-know
 
 links:
 
-  - '[more about yield and next](https://jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/)'
+  - '[More about yield and next](https://jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/)'
 
 ---
 ## Content
 
 As we already know, **Generators** are a way of creating iterable items in **Python**. The behaviour of a **generator** is mainly defined by the `yield()` and `next()` methods.
 
-What happens is the `next()` method can be called on the **generator** we created. Each time the **python interpreter** encounters such a `next()` it will return to the **generator**'s body and execute each expression until it encounters the next `yield()`.
+When the **python interpreter** finds the `next()` function called on a generator, it jumps to the generator's body and executes every expression until it encounters the next `yield()`.
 
-What `yield()` does is, it **evaluates** and **returns** the value of the exception that follows it. **Python** does two interesting actions at this stage:
-- it keeps track of the position of the next `yield()`;
-- and it stores the state of the **local variables** until the next call.
+The `yield()` **evaluates** and **returns** the value of the expression that follows. **Python** does two interesting actions at this stage:
+- it keeps track of the position of the next `yield()`
+- it stores the state of the **local variables** until the next call
 
-**Note**, when the **generator**'s `yield()`s have all been evaluated, if another `next()` is encountered the **function** will return the following error:
-
+**N.B** if all `yield()`s were evaluated and we encounter an extra call of the `next()` method, the following exception will be returned:
 ```
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 StopIteration
 ```
 
-Let's create a **generator** and see how it behaves:
-
+Consider the following generator:
 ```
-def yrange(n):
+def range_gen(n):
     i = 0
     while i < n:
         yield i
         i += 1
 ```
-This **function** generates all natural numbers up to `n`. Let's use the `next()` method now:
 
+This **function** generates all natural numbers up to `n`. Let's use the `next()` method now:
 ```
->>> gen = yrange(3)
->>> gen.next()
+>>> gen = range_gen(3)
+>>> print(next(gen))
 0
->>> gen.next()
+>>> print(next(gen))
 1
->>> gen.next()
+>>> print(next(gen))
 2
->>> gen.next()
+>>> print(next(gen))
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 StopIteration
@@ -60,16 +58,17 @@ StopIteration
 ---
 ## Practice
 
+What is the output of the following snippet?
 ```
 def countdown(num):
     while num > 0:
         yield num
         num -= 1
 
->>> countdown(10)
->>> countdown.next()
+>>> gen = countdown(5)
+>>> print(next(gen))
+
 ```
-What will the output be?
 ???
 
 * `5`
@@ -79,9 +78,19 @@ What will the output be?
 ---
 ## Revision
 
-What happens when another `next()` is encountered, after all `yield()`s were evaluated?
+Consider the following snippet:
+```
+def double(L):
+  for x in __:
+    __ x*2
+
+my_gen = double([1, 2, 3, 4, 5])
+
+print(__(my_gen))
+```
+Suppose we want to print the doubled value for the first 2 numbers in the list. Fill the gaps accordingly.
 ???
 
-* An error is thrown.
-* The code stops working.
-* Nothing, it just continues the execution skiping to the next expression.
+* L, yield(), next()
+* L, next(), yield()
+* T, yield(), yield()
