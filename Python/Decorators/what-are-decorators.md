@@ -85,11 +85,13 @@ def say_hello(name):
   return "Hello, {0}!".format(name)
 # A
 def hello_heading(name):
-  return "<h2>{0}</h2>".format(say_hello(name))
+  return "<h2>{0}</h2>"
+    .format(say_hello(name))
 # B
 def hello_heading(func):
   def func_wrapper(name):
-    return "<h2>{0}</h2>".format(func(name))
+    return "<h2>{0}</h2>"
+      .format(func(name))
   return func_wrapper
 ```
 ???
