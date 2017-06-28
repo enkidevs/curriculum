@@ -60,8 +60,8 @@ time.max == my_max # True
 The `date` constructor has all its arguments (**year**, **month**, **day**) mandatory. Keep in mind that if they are not in their respective ranges (e.g. `1 <= month <= 12`) an *error* will be thrown.
 ```py
 from datetime import date
-my_date = date(2017, 6, 26)
-print(my_date) # 2017-6-26
+a_date = date(2017, 6, 26)
+print(a_date) # 2017-6-26
 ```
 
 You can also easily get the current date via the `.today()` method:
