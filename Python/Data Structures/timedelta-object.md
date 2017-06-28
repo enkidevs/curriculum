@@ -1,4 +1,4 @@
-# `timedelta` object
+# Date arithmetics with `timedelta`
 author: catalin
 
 levels:
@@ -13,11 +13,7 @@ inAlgoPool: false
 
 category: feature
 
-parent: datetime-module
-
-notes: >
-  Insight has multiple errors, such as variables not defined before use, names
-  used before imported, etc. Needs to be rewritten with more care.
+parent: datetime-object
 
 links:
 
@@ -27,52 +23,91 @@ links:
 ---
 ## Content
 
-The `timedelta` object provided by the `datetime` module represents a duration equal to the difference between two **dates** or **times**.
+Another useful class provided by `datetime` is called `timedelta`. With this object you can calculate past or future dates along with differences between times.
 
-Instantiate a `timedelta`  object:
-```python
-import datetime as dt
-# timedelta(days=0, seconds=0, 
-# microseconds=0,# milliseconds=0,  
-# minutes=0, hours=0, weeks=0)
-# all args are OPTIONAL and default to 0
-d = dt.timedelta(days=1, hours=3)
-# the difference is one day and three hours
+This object will store an **difference** in time, a delta. Although internally the values are stored only in *days*, *seconds* and *microseconds*, its constructor can accept any argument related to time:
+```py
+from datetime import timedelta
+from datetime import timedelta
 
-``` 
+day = timedelta(days=1)
+week = timedelta(weeks=1)
+minute = timedelta(minutes=1)
 
-Substract the difference from a `datetime`:
-``` python
-import datetime as dt
-
-today = dt.datetime.today()
-d = dt.timedelta(days=1)
-yesterday = today - d;
-print(yesterday)
-# 2016-02-15 15:05:14.095240
-
-``` 
-More operations are supported such as *multplication* and *division*.
-
-With the introduction of **Python 3.2**, floor division and true division are supported between `timedelta` objects or by `floats`. This applies as well to `timedelta.total_seconds()` method that will return the number of seconds contained in the difference.
-```python
-#older version equivalent
- td / timedelta(seconds=1)
+print(day) # 1 day, 0:00:00
+print(week) # 7 days, 0:00:00
+print(minute) # 0:01:00
 ```
+
+You can use standard arithmetic operators to calculate new dates as follows:
+```py
+from datetime import datetime
+
+today = datetime.today()
+print(today) # 2017-06-28 13:12:35.145494
+
+delta = timedelta(days=1)
+yesterday = today - delta
+print(yesterday)
+# 2017-06-27 13:12:35.145494
+
+day_after_tomorrow = today + delta * 2
+print(day_after_tomorrow)
+# 2017-06-30 13:12:35.145494
+
+```
+---
+## Practice
+
+Complete the following code snippet such that variable `x` will hold a date exactly 2 weeks from today:
+```py
+from datetime import datetime, timedelta
+
+today = ???.today()
+
+delta = ???(???=???)
+
+x = today ??? delta ???
+
+```
+
+* `datetime`
+* `timedelta`
+* `days`
+* `7`
+* `+`
+* `* 2`
+* `weeks`
+* `/ 2`
+* `14`
+* `months`
+* `%`
+* `date`
+* `time`
+* `delta`
 
 ---
+
 ## Revision
 
-Instantiate a `timedelta` object:
+Calculate the value of `yesterday`:
+```py
+from datetime import datetime, timedelta
 
-```
-import ??? as dt
-d = dt.???(days=1, hours=3)
+delta = timedelta(???=???)
+today = datetime.today()
+
+yesterday = ??? - ???
 ```
 
-*`datetime` 
-*`timedelta` 
-*`dt` 
-*`time` 
-*`date` 
-*`today`
+* `hours`
+* `24`
+* `today`
+* `delta`
+* `timedelta`
+* `days`
+* `2`
+* `delta % 2`
+* `date`
+* `time`
+* `today / 2`
