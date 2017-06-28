@@ -1,13 +1,9 @@
-# Get the most of `int`s
+# Converting `int`s to binary data
 author: catalin
 
 levels:
 
-  - basic
-
-  - advanced
-
-  - medium
+  - beginner
 
 type: normal
 
@@ -30,60 +26,120 @@ links:
 ---
 ## Content
 
-The basic `int` type has a few more additional methods:
+The **built-in** `int` types provides several methods for data representation in binary.
 
-Find the necessary number of **bits** to represent the `int` in binary (no sign and no leading zeros):
+For example, you can get the bits required to store a specific number with `bit_length()`
 ```python
 >>> n = 1024
 >>> n.bit_length()
 11
 ```
-1024 in binary is 10000000000, i.e. requires 11 bits to represent in binary.
 
-Get an array of bytes representing your `int`. Here, **endianness** aka byteorder (whether *big* or *little*) and **signed** or **unsigned** representation (`True` for **two's complement**) are taken into consideration:
-```python
-# to_byes(length, byteorder, *, \
-#  signed= False)
->>> n.to_bytes(2, byteorder='big')
-b'\x04\x00'
->>> n.to_bytes(10, byteorder='little', \
-signed=True)
-b'\x00\x04\x00\x00\x00\x00\x00\x00\x00\x00'
+In addition, we can distinguish the following couple of methods:
+- `.to_bytes(length, byteorder, *, signed=False)`[1] which return an array of **bytes** representing the integer value called on
+- `.from_bytes(bytes, byteorder, *, signed=False)` which does the opposite - converts an array of bytes to an integer value
 
+In both syntaxes defined above `byteorder` stands for the **byte order** or **endianness**[2], accepting the values `"big"` or `"little"`.
+
+The `signed` argument (`False` by default) determines whether **two’s complement** is used to represent the integer. Keep in mind that having `signed` equal to `False` and calling `.to_bytes()` on a *negative* number will result in a `OverflowError`.
+
+Here's the former function in action:
+```py
+# converting 2048 with big endian
+>>> (2048).to_bytes(2, byteorder='big')
+b'\x08\x00'
+
+# converting 2048 in one byte (8 bit)
+>>> (1024).to_bytes(1, byteorder='big')
+OverflowError: int too big to convert
+# 10000000000 occupies more than 1 byte
+
+# converting -777 with little endian
+>>> (-25).to_bytes(-(-(-25).bit_length() // 8),
+      byteorder="little", signed=True)
+b'\xe7'
 ```
-The reverse process can be achieved with the classmethod `int.from_bytes`:
-```python
-int.from_bytes(b'\x04\x00', byteorder='big')
-1024
+
+Similarly, the `.from_bytes()` method works in reverse:
+```py
+# converting to 2048, big endian
+>>> int.from_bytes(b'\x08\x00', byteorder="big")
+2048
+
+# converting back to -777, little endian
+>>> int.from_bytes(b'\xe7\xff\xff\xff\xff',
+      byteorder="little", signed=True)
+-25
+
+# converting a byte-like object
+>>> int.from_bytes([0, 2, 4], byteorder='big')
+516
 ```
 
 ---
 ## Practice
 
-Complete the code snippet to change the variable `e` into bytes:
+Starting from number `25`, the following snippet will convert it to its binary array representation and then back to `25`.
 
-```python 
-e = 4096
-e.???(2, byteorder='big') 
-# b'\x10\x00'
-
+Note that you can round up a floating point number using the following expression:
+```
+rounded_up = -(-numerator // denominator)
 ```
 
-*`to_bytes` 
-*`tobytes` 
-*`toBytes` 
-*`to-bytes`
+Complete the missing gaps such that running this snippet on the interpreter will output `25`:
+```py
+>>> ???.???.(???.???(
+      -(-(25).??? // 8), ???="big"),
+        byteorder="big")
+```
+
+* `int`
+* `from_bytes`
+* `(25)`
+* `to_bytes`
+* `bit_length()`
+* `byteorder`
+* `25`
+* `"little"`
+* `signed`
+* `True`
+* `false`
+* `length`
+* `bytes`
 
 ---
 ## Revision
 
-Complete the code snippet to get the number of bits required to represent `e`
+Complete the following snippet with missing `int` methods used for byte conversion:
+```py
+>>> (16).???(1, ???='big')
+b'\x10'
 
-```python
-e = 4096
-e.???() 
-# 13
+>>> ???.???([0, 4], byteorder="little")
+1024
+
 ```
-*`bit_length` 
-*`length` 
-*`num_bits`
+
+* `to_bytes`
+* `byteorder`
+* `int`
+* `from_bytes`
+* `fromBytes`
+* `from_byte`
+* `from_byte_array`
+* `1024`
+* `toBytes`
+* `to_byte`
+* `to_byte_array`
+* `orderbyte`
+
+---
+## Footnotes
+
+[1:length]
+When specified, the integer value will be represented in `length` bytes. If these aren't enough, an `OverflowError` will be thrown.
+
+[2:endianness]
+**Big-endian** and **little-endian** are terms that describe the order in which a sequence of bytes are stored in computer memory.
+
+In **big endian**, you store the *most* significant `byte` in the **smallest** address, while in **little endian** you store the *least* significant one.
