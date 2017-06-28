@@ -26,13 +26,14 @@ links:
 ---
 ## Content
 
-The **built-in** `int` types provides several methods for data representation in binary.
+The **built-in** `int` types provides several methods for data manipulation at a binary level. Conventionally, for integer values representation, **bytes** (group of 8 bits) are used.
 
 For example, you can get the bits required to store a specific number with `bit_length()`
 ```python
 >>> n = 1024
 >>> n.bit_length()
 11
+# 1024 is 10000000000 in binary
 ```
 
 In addition, we can distinguish the following couple of methods:
