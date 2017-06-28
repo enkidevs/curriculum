@@ -26,13 +26,14 @@ links:
 ---
 ## Content
 
-The **built-in** `int` types provides several methods for data representation in binary.
+The **built-in** `int` types provides several methods for data manipulation at a binary level. Conventionally, for integer values representation, **bytes** (group of 8 bits) are used.
 
 For example, you can get the bits required to store a specific number with `bit_length()`
 ```python
 >>> n = 1024
 >>> n.bit_length()
 11
+# 1024 is 10000000000 in binary
 ```
 
 In addition, we can distinguish the following couple of methods:
@@ -55,15 +56,16 @@ OverflowError: int too big to convert
 # 10000000000 occupies more than 1 byte
 
 # converting -777 with little endian
->>> (-25).to_bytes(-(-(-25).bit_length() // 8),
-      byteorder="little", signed=True)
+>>> (-25).to_bytes(-(-(-25).bit_length()
+    // 8), byteorder="little", signed=True)
 b'\xe7'
 ```
 
 Similarly, the `.from_bytes()` method works in reverse:
 ```py
 # converting to 2048, big endian
->>> int.from_bytes(b'\x08\x00', byteorder="big")
+>>> int.from_bytes(b'\x08\x00',
+      byteorder="big")
 2048
 
 # converting back to -777, little endian
@@ -72,7 +74,8 @@ Similarly, the `.from_bytes()` method works in reverse:
 -25
 
 # converting a byte-like object
->>> int.from_bytes([0, 2, 4], byteorder='big')
+>>> int.from_bytes([0, 2, 4],
+      byteorder='big')
 516
 ```
 
@@ -81,10 +84,12 @@ Similarly, the `.from_bytes()` method works in reverse:
 
 Starting from number `25`, the following snippet will convert it to its binary array representation and then back to `25`.
 
-Note that you can round up a floating point number using the following expression:
+Note that you can round up a floating point numbers using the following expression:
 ```
 rounded_up = -(-numerator // denominator)
 ```
+
+This is useful when we need to get the number of bytes (aka length) needed for representing the integer. Keep in mind that a byte has 8 bits.
 
 Complete the missing gaps such that running this snippet on the interpreter will output `25`:
 ```py
