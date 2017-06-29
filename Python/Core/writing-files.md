@@ -7,7 +7,7 @@ levels:
 
 type: normal
 
-category: how-to
+category: how to
 
 links:
 
@@ -20,7 +20,7 @@ links:
 - if we open an already existing file in mode `w` (writing), it will be overwritten
 - if the file doesn't exist, it will be created
 
-Let's start by creating a **file** at the given **path**. Note that we use mode `w+` to open the file as later we'll need to **read** some lines of it:
+Let's start by creating a **file** at the given **path**. Note that we use mode `w+` to open the file as later we'll need to **read** some lines from it:
 ```
 path = '/usr/seba/new_file.txt'
 text = open(path, 'w+')
@@ -39,6 +39,7 @@ print(text.read())
 # This is one line
 # This is the second one.
 ```
+
 We used `seek()` function within this example. This function moves the **file pointer** to the specified position. In our case, we moved it to the **beginning** (position 0) of the file to be able to **read** from it after.
 
 Remember that all **files** must be **closed** to preserve **resources** after finishing working with them. To do this, simply `close()` the file object:
@@ -72,20 +73,23 @@ file.close()
 
 Suppose we want to read the content of a file and copy it into another. Fill the gaps:
 ```
-file = open('name.txt', '__')
+file = open('name.txt', '???')
 file.write("John")
 file.write("Chris")
-file.seek(__)
+file.seek(???)
 
 new_file = open("new.txt", "w+")
-new_file.__(file.read())
+new_file.???(file.read())
 
 file.close()
 new_file.close()
 ```
-???
 
-* w+, 0 and write()
-* r, 1 and write()
-* w+, 1 and seek()
-* w+, 1 and write()
+* `w+`
+* `0`
+* `write`
+* `read`
+* `seek`
+* `a`
+* `r`
+* `1`

@@ -34,10 +34,10 @@ This will produce the following result on your screen:
 This is a print statement.
 ```
 
-For managing user input, **Python 3** provides a built-in function called `input()`. When using this **function** the program is **paused** and **waits** until the user finishes his input. There is an **optional** parameter available as well. Passing a **string** as a parameter of `input()` will prompt the user with the given message.
+For managing user input, **Python 3** provides a built-in function called `input()`. When using this **function** the program is **paused** and **waits** until the user finishes his input. You can also pass an **optional** string parameter to this function which will prompt the user with the given message.
 
 Consider the following scenario:
-```
+```py
 # user input will be assigned to `str`
 str = input('Please enter your input:');
 # program will wait here for user input
@@ -47,36 +47,39 @@ str = input('Please enter your input:');
 # print the user input
 print("The input is: ", str);
 ```
-Following the `stdout` will look like:
-```
->>> Please enter your input: Hello
->>> The input is:  Hello
+
+Following, the `stdout` will look like:
+```txt
+Please enter your input: Hello
+The input is:  Hello
 ```
 
 The **input** of the user will be returned as a `string` without any additional changes. If this **raw input** has to be transformed into another **data type** needed by the **program**, then there are two ways to do this:
-- `casting` function (which would **cast** the input into the needed `data type`)
-- `eval`[3] function (which would interpret `strings` as `Python` code and evaluate it)
+- `casting` function (which would **cast** the input into the needed *data type*)
+- `eval`[3] function (which would interpret `string`s as Python *code* and evaluate it)
 
-We would like to know the user's favorite colors and save them in a list, for this `eval()` function can be used:
-```
-colors=eval(input('Favorite colors:''))
+Consider we want to know the user's favorite colors and save them in a list, for this `eval()` function can be used:
+```py
+colors = eval(input('Favorite colors: '))
 print(colors, type(colors))
 ```
+
 The `stdout` will be as follows:
-```
->>> Favorite colors: ["Green","Blue"]
->>> ['Green','Blue'] <class `list`>
+```txt
+Favorite colors: ["Green","Blue"]
+['Green','Blue'] <class `list`>
 ```
 
 In the following example, we will use a **casting function** to find out the age of the user by converting the inputted string to an int:
-```
+```py
 age = int(input('How old are you?'))
 print(age, type(age))
 ```
 The `stdout` will look like this:
-```
->>> How old are you? 21
->>> 21 <class `int`>
+
+```txt
+How old are you? 21
+21 <class `int`>
 ```
 
 ---
@@ -102,16 +105,21 @@ Bad things can happen if you decide to use `eval(input())` in your program, as y
 
 Suppose we want to print a list containing the first three favorite fruits of some user. Fill the gaps accordingly:
 ```
-fruits = __(input('favorite fruits:'))
-first_three = __[0:3]
-__(first_three)
+fruits = ???(input('favorite fruits:'))
+first_three = ???[0:3]
+???(first_three)
 ```
-???
 
-* `eval()`, `fruits` and `print()`
-* `int()`, `fruits` and `print()`
-* `input()`, `fruits` and `read()`
-* `in()`, `fruits` and `read()`
+* `eval`
+* `fruits`
+* `print`
+* `in()`
+* `read`
+* `fruits()`
+* `read()`
+* `e()`
+* `eval()`
+* `print()`
 
 ---
 ## Revision
@@ -119,12 +127,18 @@ __(first_three)
 
 Suppose we want to add `10` to somebody's age. Fill the gaps accordingly:
 ```
-your_age = __(input('How old are you?'))
-__(your_age + 10)
+your_age = ???(input('How old are you?'))
+???(your_age + 10)
 ```
 
-???
-
-* `int()` and `print()`
-* `eval()` and `print()`
-* `cast()` and `print()`
+* `int`
+* `print`
+* `int()`
+* `print()`
+* `eval`
+* `cast`
+* `in`
+* `eval()`
+* `cast()`
+* `in()`
+* `string()`

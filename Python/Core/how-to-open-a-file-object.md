@@ -9,7 +9,7 @@ levels:
 
 type: normal
 
-category: how-to
+category: how to
 
 links:
 
@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-**Reading** from and **writing** to files in **Python 3** can easily be done using the `open()` function. This will create a `file` object, which will be used to call other support **methods** associated with it.
+**Reading** from and **writing** to files in **Python 3** can easily be done using the `open()` function. This will create a `file` object, which can be used to call other support **methods** associated with it.
 
 Consider the following syntax:
 
@@ -73,30 +73,32 @@ Imagine file pointer as a computer cursor that states on which line you are in t
 ---
 ## Practice
 
-Suppose we want to open a file and write something to it. Fill the gaps accordingly:
+Suppose we want to append something to a file and print its content. Fill the gaps accordingly:
+```py
+file = open('practice.py', '???')
+file.write('Append this')
+file.???(0)
+print(file.???())
 ```
-file = open('practice.py', '__')
-file.__('this is my new file')
-```
-???
 
-* w and write()
-* a and read()
-* r and write()
+* `a+`
+* `seek`
+* `read`
+* `a`
+* `write`
+* `append`
+* `w`
 
 ---
 ## Revision
 
-Suppose we want to append something to a file and print its content. Fill the gaps accordingly:
+Suppose we want to open a file and write something to it. Fill the gaps accordingly:
+```py
+file = open('practice.txt', '???')
+file.???('this is my new file')
 ```
-file = open('practice.py', '__')
-file.write('Append this')
-file.__(0)
-print(file.__())
-```
-???
 
-* a+, seek() and read()
-* w, write() and seek()
-* a, seek() and read()
-* w, write() and read()
+* `w`
+* `write`
+* `r`
+* `read`

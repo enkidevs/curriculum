@@ -18,22 +18,21 @@ links:
 
 **Python** provides more methods to ease `I/O` interactions and **file handling**. Among these we can count:
 - `tell()` which returns the current position in the file
-- `seek(offset, from_what)` which moves the **file pointer** to a
+- `seek(offset, from_what)` which moves the **file pointer** within the file
 - `rename(old_name, new_name)` which enables users to rename files
 - `remove(path)` which enables users to remove files
 
 
 In **Python**, the `tell()` function returns the current position in the **file**. This **position** is represented by the number of **bytes** after the beginning of the file.
 
-`seek(offset, from_what)` enables the **users** to move the page pointer along the **file**. This operation requires two parameters, `offset` which defines how many **bytes** you will move the pointer and `from_what`, which is optional and states where you want to start moving from. There are 3 other important **values** for `from_what` parameter:
+`seek(offset, from_what)` enables the **users** to move the page pointer along the **file**. This operation requires two parameters, `offset` which defines how many **bytes** you will move the pointer and `from_what`, which is optional and states where you want to start moving from. There are 3 important **values** for `from_what` parameter:
 
 - `0`(default): which means at the beginning;
 - `1`: which means at the current position;
 - `2`: which means at the end of the file.
 
-Let's see how `tell()` and `seek()` work in practice. Consider file.txt[1]:
-```
-# file.txt
+Let's see how `tell()` and `seek()` work in practice, considering a dummy `file.txt`[1]:
+```py
 
 file = open('file.txt','r+')
 text = file.read(7);
@@ -43,7 +42,7 @@ print('Current pos: ', file.tell());
 
 file.seek(0);
 
-print('After seek:'', file.tell());
+print('After seek:', file.tell());
 print(file.read())
 
 file.close()
@@ -61,7 +60,7 @@ Apart from other uses, `os` module helps with **file processing operations**. Tw
 
 As `os` is a **module**, we need to **import** it to be able to use the operations it provides:
 
-```
+```py
 import os
 
 os.rename('file.txt','new_file.txt');
@@ -83,24 +82,32 @@ It has two lines of text
 
 Fill the gaps:
 ```
-file = open('file.txt','__')
-print(__.readline())
+file = open('file.txt','???')
+print(???.readline())
 print(file.tell())
 
-file.__(0)
+file.???(0)
 
 print(file.read())
 ```
 ???
 
-* r, file, seek()
-* w, text, seek()
-* r, file, tell()
+
+* `r`
+* `file`
+* `seek`
+* `tell`
+* `write`
+* `read`
+* `w`
+* `rename`
+* `remove`
 
 ---
 ## Revision
 
-Which method returns the current position of the file pointer?
+Which method returns the current position of the file pointer within a **file object**?
+
 ???
 
 * `tell()`

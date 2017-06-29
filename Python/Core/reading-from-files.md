@@ -7,7 +7,7 @@ levels:
 
 type: normal
 
-category: how-to
+category: how to
 
 links:
 
@@ -22,21 +22,22 @@ After opening a **file object**, we have three **operations** available in **Pyt
 - `readlines()`
 
 Suppose we have a file named `test.txt` with the following text inside:
-```
+```txt
 Hello!
 My name is Steve.
 Where is my food?
 ```
 We can read the entire file with `read()`:
 
-```
+```py
 file = open('test.txt', 'r')
 print(file.read())
 
-# Oputput:
-#Hello!
-#My name is Steve.
-#Where is my food?
+# Output:
+
+# Hello!
+# My name is Steve.
+# Where is my food?
 ```
 
 Instead of **reading** the whole **file** at once, you could read it one line at a time with the help of `readline()` file object method. A line is defined as all characters until the **end of line character** (`\n`):
@@ -69,30 +70,37 @@ However, there's a workaround to this - the `seek()` function which allows you t
 ## Practice
 
 Suppose we have a file containing 5 lines. How do we read the first 2 of them?
-```
-file = __('my_file.txt', 'r')
+```py
+file = ???('my_file.txt', 'r')
 
-print(file.__())
-print(file.readline())
+print(file.???())
+print(???.readline())
 ```
-???
 
-* open(), readline() and readline()
-* open(), readline() and readlines()
-* read(), readline() and readline()
-* write() and readlines(2)
+* `open`
+* `readline`
+* `file`
+* `readlines`
+* `read`
+* `my_file.txt`
+* `write`
+* `seek`
 
 ---
 ## Revision
 
 Suppose we want to read all lines from a file and return them as a string. Fill the gaps accordingly:
 ```
-file = open('test.txt', '__')
+file = open('test.txt', '???')
 
-print(file.__())
+print(file.???())
 ```
-???
 
-* r and readlines()
-* r+ and read()
-* w+ and readline()
+* `r`
+* `readlines`
+* `w`
+* `a`
+* `readline`
+* `read`
+* `open`
+* `write`
