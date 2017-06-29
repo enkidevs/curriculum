@@ -9,9 +9,13 @@ type: normal
 
 category: feature
 
+notes: 'abc'
+
 links:
 
   - "[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#additional-methods-on-float)"
+
+  - "[test](test){test}"
 
 ---
 ## Content
@@ -59,4 +63,16 @@ The reverse can be achieved with the `fromhex()` class method:
 
 >>> float.fromhex('0x1.8000000000000p+0')
 1.5
+```
+---
+## Practice
+
+---
+## Revision
+
+How would you convert `2.71` to its **hexadecimal** representation?
+
+```py
+>>> ???.???(???)
+
 ```
