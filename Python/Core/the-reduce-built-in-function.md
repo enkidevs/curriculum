@@ -90,11 +90,11 @@ print(???(???, ???))
 * `reduce`
 * `totalUsableSpace`
 * `collection`
-* drive1
-* collection
-* Storage.size
-* map
-* totalStorage
+* `drive1`
+* `collection`
+* `Storage.size`
+* `map`
+* `totalStorage`
 
 ---
 ## Revision
@@ -107,10 +107,10 @@ print(reduce(lambda x, y: x / y, numbers))
 ```
 ???
 
-* (((100 / 2) / 2) / 5) = 5.0
-* (((100 / 2) / 2) / 5) = 5
-* (100 / 2 / 2 / 5) = 5.0
-* (100 / 2) / (100 / 2) / (100 / 5) = 0.05
+* `(((100 / 2) / 2) / 5) = 5.0`
+* `(((100 / 2) / 2) / 5) = 5`
+* `(100 / 2 / 2 / 5) = 5.0`
+* `(100 / 2) / (100 / 2) / (100 / 5) = 0.05`
 
 ---
 ## Footnotes
