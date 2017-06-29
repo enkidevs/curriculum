@@ -9,6 +9,8 @@ type: normal
 
 category: feature
 
+notes: 'abc'
+
 links:
 
   - "[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#additional-methods-on-float)"
