@@ -9,6 +9,11 @@ type: normal
 
 category: must-know
 
+links:
+
+    - >-
+        [Memory management in Python](http://deeplearning.net/software/theano/tutorial/python-memory-management.html){website}
+
 ---
 ## Content
 

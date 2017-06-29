@@ -64,4 +64,4 @@ new_a = 1
 print(mem_loc(new_a))
 # 0x55a7b5df7080
 ```
-// TODO: copy vs deepcopy
+In other words, `1` exists in memory as the **integer object 1**, at the address `0x55a7b5df7080`.
