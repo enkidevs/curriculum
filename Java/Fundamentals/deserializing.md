@@ -11,7 +11,7 @@ category: how to
 
 links:
 
-  - '[link to learn more](https://enki.com)'
+  - '[More on Serialization](https://www.tutorialspoint.com/java/java_serialization.htm)'
 
 ---
 ## Content
@@ -23,18 +23,18 @@ import java.io.*;
 public class carDeserialization {
   public static void main(String [] args) {
     //create an empty object
-    Car myCar = null;
+    Car bmw = null;
     try {
       //open an output file
        FileInputStream fileIn =
-        new FileInputStream("/myCar.ser");
+        new FileInputStream("/bmw.ser");
       //make this file suitable to read
       //as an input stream
        ObjectInputStream in =
         new ObjectInputStream(fileIn);
       //deserialize the file and
-      //fill `myCar` with information
-       myCar = (Car) in.readObject();
+      //fill `bmw` with information
+       bmw = (Car) in.readObject();
        in.close();
        fileIn.close();
     }catch(IOException exi) {
@@ -44,18 +44,17 @@ public class carDeserialization {
        System.out.println("Car class
                            not found");
        exc.printStackTrace();
-       return;
     }
   }
 }
 ```
 
-Now we have `myCar` object storing all the information from the `car.ser`
-So `myCar.model` is `"BMW 840Ci"` and `myCar.topSpeed` is 320.
+Now we have `bmw` object storing all the information from the `bmw.ser`
+So `bmw.model` is `"BMW 840Ci"` and `bmw.topSpeed` is 320.
 
 It is especially important to use `try` and `catch` blocks when deserializing an object as we
-- Might fail upon loading `myCar.ser` file
-- JVM[1] might not find byte code for the `Car` class
+- Might fail upon loading `bmw.ser` file
+- JVM might not find byte code for the `Car` class
 
 **NOTE:**
 - `in.readObject()` was casted to `Car`
@@ -82,6 +81,7 @@ class Car implements Serializable {
 }
 ```
 Suppose we receive a `.ser` file which stores information about some `Car` object. What will be the result value of `engine` field in our deserialized object?
+
 ???
 
 * It will be `null`
@@ -105,9 +105,3 @@ What is the correct order of deserializing a file?
 * create an empty object
 * open a suitable to read as an input stream file
 * deserialize the file (i.e. fill our empty object with information)
-
----
-## Footnotes
-
-[1:JVM]
-Java Virtual Machine

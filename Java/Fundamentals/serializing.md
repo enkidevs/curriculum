@@ -11,7 +11,7 @@ category: how to
 
 links:
 
-  - '[link to learn more](https://enki.com)'
+  - '[More on Serialization](https://www.tutorialspoint.com/java/java_serialization.htm)'
 
 ---
 ## Content
@@ -20,50 +20,55 @@ links:
 
 In order for the object to be serializable two conditions must be held:
 - It has to implement `java.io.Serializable` interface
-- Fields of an objects must be serialazable, otherwise they must be marked as `transient`
+- Fields of an objects must be serializable, otherwise they must be marked as `transient`[1]
 
-For example, lets say we want to store a copy of car object on a local machine:
+For example, let's say we want to store a copy of `Car` object on a local machine:
 ```
 import java.io.*;
 public class carSerialization {
   public static void main(String [] args) {
-    Car myCar = new Car();
-    myCar.model = "BMW 840Ci";
-    myCar.engine = "4.0L M60 V8";
-    myCar.topSpeed = 320;
+    Car bmw = new Car();
+    bmw.model = "BMW 840Ci";
+    bmw.engine = "4.0L M60 V8";
+    bmw.topSpeed = 320;
 
-      try {
-       //open an output file
-       FileOutputStream fileOut =
-        new FileOutputStream("/myCar.ser");
-       //make this file suitable to write
-       //an object to
-       ObjectOutputStream out =
-        new ObjectOutputStream(fileOut);
-       //write the object to the file
-       out.writeObject(myCar);
-       out.close();
-       fileOut.close();
-      }catch(IOException ex) {
-       ex.printStackTrace();
-      }
-   }
+    try {
+      //open an output file
+      FileOutputStream fileOut =
+       new FileOutputStream("/bmw.ser");
+      //make this file suitable to write
+      //an object to
+      ObjectOutputStream out =
+       new ObjectOutputStream(fileOut);
+      //write the object to the file
+      out.writeObject(bmw);
+      out.close();
+      fileOut.close();
+    }catch(IOException ex) {
+      ex.printStackTrace();
+    }
+  }
 }
 ```
 
-It is important to use `try` and `catch` blocks as in this case we might get a fault upon loading the `myCar.ser` file.
+It is important to use `try` and `catch` blocks as in this case we might get a fault upon loading the `bmw.ser` file.
 
 **Advanced Section:**
-- In order to use serialization with generics both of the generic types should be serializable:
+In order to use serialization with generics both of the generic types should be serializable:
 
-`class Pair<L extends Serializable, R extends Serializable> implements Serializable`
+```
+class Pair<L extends Serializable,
+           R extends Serializable>
+           implements Serializable
+```
+
 ---
 ## Practice
 
 Consider the following:
 
 ```
-class Engine {             
+class Engine { //not serializable    
     private int numberOfCilinders;
     private int volumeInLitres;
     private String model;
@@ -77,10 +82,13 @@ class Car implements Serializable {
     ...
 }
 ```
+
 Is class `Car` serializable and if not why?
+
 ???
 
 What could be done to Car in order to avoid the above problem?
+
 ???
 
 * No, Car has a non serializable field
@@ -95,12 +103,15 @@ What could be done to Car in order to avoid the above problem?
 ## Revision
 
 What interface should a class implement in order to be serializable?
+
 ???
 
 How should a non serializable field be marked in order for the class to be serializable?
+
 ???
 
 What is the conventional extension of a file that the information about the class is stored in?
+
 ???
 
 * serializable
@@ -109,3 +120,9 @@ What is the conventional extension of a file that the information about the clas
 * clonable
 * `.txt`
 * `public`
+
+---
+## Footnotes
+
+[1:`transient`]
+We mark fields with `transient` if this field will not be serialized and the information about this field will not be transferred. The motivation for this may be that this particular piece of information is redundant for the receiver or is too risky to transfer (i.e. passwords or other private data).
