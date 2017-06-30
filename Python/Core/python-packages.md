@@ -13,7 +13,7 @@ category: must-know
 
 links:
 
-  - '[more about packages](https://code.tutsplus.com/tutorials/how-to-use-python-packages--cms-26000)'
+  - '[More about packages](https://code.tutsplus.com/tutorials/how-to-use-python-packages--cms-26000)'
 
 ---
 ## Content
@@ -84,8 +84,8 @@ form Hotel import ???
 def foo(x):
     ???.available_rooms(x)
 ```
-???
 
-* `available_rooms` and nothing else
-* `available_rooms` and `Hotel`
-* `total_rooms` and nothing else
+* available_rooms
+* nothing else
+* Hotel
+* total_rooms
