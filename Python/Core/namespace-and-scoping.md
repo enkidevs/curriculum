@@ -1,4 +1,4 @@
-# Namespace and scoping.
+# Namespace and scoping
 author: SebaRaba
 
 levels:
@@ -13,7 +13,7 @@ category: must-know
 
 links:
 
-  - '[more on namespace](https://www.programiz.com/python-programming/namespace)'
+  - '[More on namespace](https://www.programiz.com/python-programming/namespace)'
 
 ---
 ## Content
@@ -25,9 +25,6 @@ namespace={'name_a':object1, ...}
 ```
 
 The key (i.e. name_a) or **identifier** is simply a name given to its mapped **object** (i.e. object1). Keep in mind that in Python everything is an **object** so this mapping will apply to any **item**.
-
-Hence, the underlying **objects** of your program can/will be accessed through their **name**.
-
 
 Let's consider the following assignment: `a = 2`:
 - the **name** here is `a`;
@@ -74,7 +71,7 @@ print(r) # print() is built-in
 ```
 The following output will be generated:
 
-```
+```txt
 A local variable
 An enclosed variable
 A global variable
