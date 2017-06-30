@@ -56,5 +56,25 @@ print(n)
 print(m)
 # [1, []]
 ```
-It's worth nothing the overhead time it takes to make a deep copy:
-// TODO
+It's worth noting the overhead time it takes to make a deepcopy:
+```python
+import copy
+import timeit
+k = []
+for i in range(1, 11):
+  k.append(list(range(1,i)))
+l = list(range(45)) # numbers in k
+print('l copy:', timeit.timeit(lambda: l.copy()))
+print('k copy:', timeit.timeit(lambda: k.copy()))
+
+print('l deepcopy:', timeit.timeit(lambda: copy.deepcopy(l)))
+print('k deepcopy:', timeit.timeit(lambda: copy.deepcopy(k)))
+```
+They all ran for the default `1000000` number of times:
+```bash
+l copy: 0.3196120499924291
+k copy: 0.22795158099324908
+l deepcopy: 41.75681215700751
+k deepcopy: 61.87346560800506
+```
+You can see how, even for a linear list, the required time for **deepcopy** grows exponentially.
