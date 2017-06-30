@@ -55,7 +55,6 @@ What is the best practice for serialVersionUID declaration?
 ???
 
 serialVersionUID should be `static` and `final` but what about the other components?
-
 What is the access type of serialVersionUID?
 
 ???
