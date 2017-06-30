@@ -11,7 +11,7 @@ category: must-know
 
 links:
 
-  - '[more about import](https://www.digitalocean.com/community/tutorials/how-to-import-modules-in-python-3)'
+  - '[More about import](https://www.digitalocean.com/community/tutorials/how-to-import-modules-in-python-3)'
 
 ---
 ## Content
@@ -58,7 +58,7 @@ def add(a,b)
 ---
 ## Practice
 
-Wha is missing from the following module?
+What is missing from the following code snippet such that it will run without any errors?
 ```
 import math
 

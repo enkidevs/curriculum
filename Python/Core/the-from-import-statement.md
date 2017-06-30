@@ -1,4 +1,4 @@
-# The from...import statement.
+# The from...import statement
 author: SebaRaba
 
 levels:
@@ -11,7 +11,7 @@ category: must-know
 
 links:
 
-  - '[more about from...import](https://www.tutorialspoint.com/python3/python_modules.htm)'
+  - '[More about from...import](https://www.tutorialspoint.com/python3/python_modules.htm)'
 
 ---
 ## Content
@@ -35,12 +35,12 @@ def quad(x)
     print(x**4)
 ```
 
-If we chose to use the default `import` statement presented before=:
+If we chose to use the default `import` statement presented before:
 
 ```
 import my_funcitons
 
-a = my_funcitons.cube(3)
+a = cube(3)
 print(a)
 my_funcitons.hello("Seba")
 
@@ -52,11 +52,14 @@ my_funcitons.hello("Seba")
 If we chose to use the `from ... import` statement:
 
 ```
-from my_funcitons import cube
+from my_funcitons import cube, hello
 
 cube(3)
+hello(Seba)
 
-# Output: 7
+# Output:
+# 7
+# Hello Seba
 ```
 
 **Note** there is one more construction ("wildcard imports") available: `from...import *`. This means, from **module_name** import every **item**. However, **wildcard imports** should be avoided, as they make it unclear which **names** are present in the **namespace**, confusing both readers and many automated tools.
@@ -81,7 +84,7 @@ print(x*2)
 ```
 ???
 
-* No, because the function is missused
+* No, because the function is misused
 * Yes, because we imported the `my_funcitons` module
 * It will run but throw exceptions
 
