@@ -1,0 +1,72 @@
+# Semaphores
+author: nickdaminov
+
+levels:
+
+  - medium
+
+type: normal
+
+category: pattern
+
+links:
+
+  - '[link to learn more](https://enki.com)'
+
+---
+## Content
+
+Semaphores are very similar to locks, the only difference is that they allow multiple threads/processes to enter the *critical section*[1]
+ 
+```
+public class Semaphore {
+  private int threadsEntered = 0;
+  private int limit = 0;
+
+  public Semaphore(int limit){
+    this.limit = limit;
+  }
+
+  public synchronized void take()
+              throws InterruptedException{
+    while(this.threadsEntered == limit)
+      wait();
+    this.threadsEntered++;
+    this.notify();
+  }
+
+  public synchronized void release()
+              throws InterruptedException{
+    while(this.threadsEntered == 0)
+      wait(); //this can only by a bug
+              //or a non atomic operation
+    this.threadsEntered--;
+    this.notify();
+  }
+}
+```
+---
+## Practice
+
+What does the fox says?
+???
+
+* right answer
+* wrong answer
+* wrong answer 2
+
+---
+## Revision
+
+What does the fox says?
+???
+
+* right answer
+* wrong answer
+* wrong answer 2
+
+---
+## Footnotes
+
+[1:Critical Section]
+Section of a code which can only be accessed by a certain number of threads/processes (usually no more than one).   
