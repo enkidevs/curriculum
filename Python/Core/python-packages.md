@@ -70,9 +70,10 @@ def foo(x):
 ```
 ???
 
-* `import` and `Hotel`
-* `from Hotel import all_rooms` and `Hotel`
-* `import` and the second gap doesn't need to be filled
+* import
+* Hotel
+* from Hotel import all_rooms
+* second gap doesn't need to be filled
 
 ---
 ## Revision
