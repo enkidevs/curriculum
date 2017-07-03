@@ -64,11 +64,15 @@ k = []
 for i in range(1, 11):
   k.append(list(range(1,i)))
 l = list(range(45)) # numbers in k
-print('l copy:', timeit.timeit(lambda: l.copy()))
-print('k copy:', timeit.timeit(lambda: k.copy()))
+print('l copy:',
+  timeit.timeit(lambda: l.copy()))
+print('k copy:',
+  timeit.timeit(lambda: k.copy()))
 
-print('l deepcopy:', timeit.timeit(lambda: copy.deepcopy(l)))
-print('k deepcopy:', timeit.timeit(lambda: copy.deepcopy(k)))
+print('l deepcopy:',
+  timeit.timeit(lambda: copy.deepcopy(l)))
+print('k deepcopy:',
+  timeit.timeit(lambda: copy.deepcopy(k)))
 ```
 They all ran for the default `1000000` number of times:
 ```bash
@@ -78,3 +82,32 @@ l deepcopy: 41.75681215700751
 k deepcopy: 61.87346560800506
 ```
 You can see how, even for a linear list, the required time for **deepcopy** grows exponentially.
+
+---
+## Practice
+
+What should be the output of the following snippet?
+```python
+import copy
+a = [1, []]
+b = copy.deepcopy(a)
+b[1].append(3)
+print(a)
+???
+```
+* `[1, []]`
+* `[1, 3]`
+* `[1, [3]]`
+* `[1, [], 3]`
+
+---
+## Revision
+
+A `deepcopy` means
+
+???
+
+* making a new copy in memory of every layer of the data structure
+* making a copy in memory of the first layer of the data structure
+* making a copy of the data structure's reference
+* allocating some memory to a data structure

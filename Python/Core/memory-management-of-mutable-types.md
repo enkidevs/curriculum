@@ -65,3 +65,35 @@ print(mem_loc(new_a))
 # 0x55a7b5df7080
 ```
 In other words, `1` exists in memory as the **integer object 1**, at the address `0x55a7b5df7080`.
+
+---
+## Practice
+
+As stated in the insight, dictionaries are also mutable. What would the output be of the following function?
+```python
+a = {'key': 'value'}
+b = a
+b['key'] = 'mutable'
+print(a)
+???
+```
+* `{'key': 'mutable'}`
+* `{'key': 'value'}`
+* `{'key': 'value', 'key': 'mutable'}`
+* `{}`
+
+---
+## Revision
+
+What will the `print` statement output for the snippet below?
+```python
+a = []
+b = a
+b.append(5)
+print(a)
+???
+```
+* `[5]`
+* `5`
+* `[]`
+* `a`

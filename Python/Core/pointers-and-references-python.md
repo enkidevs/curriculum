@@ -19,7 +19,7 @@ links:
 
 When it comes to variables, one special characteristic of Python stands out: **every data type is an object**. Every *int*, every *string*, every *function*, every user-defined *class* is an object. Consider this example:
 ```python
-def mem_location(var):
+def mem_loc(var):
   print(hex(id(a)))
 a = 1
 b = 1
@@ -45,3 +45,38 @@ print(b)
 print(mem_loc(b))
 # 0x55a7b5df70c0
 ```
+
+---
+## Practice
+
+Consider the following snippet. What's the memory location of `c+1`?
+```python
+def mem_location(var):
+  print(hex(id(a)))
+c = 10
+print(mem_location(c))
+# 0x55a7b928f0a0
+c = c + 1
+print(mem_location(c))
+# ???
+```
+
+* The address is not in this list.
+* `0x55a7b928f0a0 + 0x1`
+* `0x55a7b928f0a0 + 0x11`
+* `0x55a7b928f0a0`
+
+---
+## Revision
+
+Which of the following statements is true regarding the snippet below?
+```python
+a = 3
+b = 3
+```
+???
+
+* `a` and `b` represent the same object.
+* `a` and `b` have the same value, but different memory location.
+* `a` and `b` are different objects.
+* None is true.
