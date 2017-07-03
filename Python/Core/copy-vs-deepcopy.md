@@ -28,7 +28,7 @@ m = [1]
 n = m.copy()
 n.append(2)
 print(m)
-# [1]
+# [1 ]
 print(n)
 # [1, 2]
 ```
@@ -39,9 +39,9 @@ n = m.copy()
 n.append(2)
 n[1].append(3) # access the list inside
 print(n)
-# [1, [3], 2]
+# [1, [3 ], 2]
 print(m)
-# [1, [3]]
+# [1, [3 ]]
 ```
 An all levels copy is called a **deep copy**. We can use the `deepcopy()` method inside the `copy` module to do that:
 ```python
@@ -52,7 +52,7 @@ n = copy.deepcopy(m)
 n.append(2)
 n[1].append(3) # access the list inside
 print(n)
-# [1, [3], 2]
+# [1, [3 ], 2]
 print(m)
 # [1, []]
 ```

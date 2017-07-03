@@ -38,20 +38,20 @@ In the second snippet, `l` references a list, while `k` references another. Appe
 ```python
 m.append(1)
 print(m)
-# m == [1]
+# m == [1 ]
 n.append(2)
 print(n)
 # n == [1, 2]
 l.append(1)
 print(l)
-# l == [1]
+# l == [1 ]
 k.append(2)
 print(k)
-# k == [2]
+# k == [2 ]
 ```
 `m` and `n` are two names given to the same thing: internally, modifying one of them means modifying both. That's not the case for `l` and `k`.
 
-What if we decide to check the memory addresses of `m[0]` (== 1) and `l[0]` (== 1). Remember that their hexadecimal addresses differ by *0x40*:
+What if we decide to check the memory addresses of `m[0 ]` (== 1) and `l[0 ]` (== 1). Remember that their hexadecimal addresses differ by *0x40*:
 ```python
 print(mem_loc(m[0]))
 # 0x55a7b5df7080
