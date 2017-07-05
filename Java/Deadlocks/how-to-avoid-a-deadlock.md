@@ -16,6 +16,14 @@ links:
 ---
 ## Content
 
+There 4 necessary and sufficient conditions for a **deadlock** to occur:
+
+ - Mutual Exclusion: only one process at a time can use the resource.
+ - Hold and Wait: process that is holding a resource can acquire further resources.
+ - No Preemption: resources are only freed after a process has finished executing.
+ - Circular Wait: there are at least two processes each waiting for each others resources.
+
+
 The four main strategies on how to tackle *deadlocks* are:
 
 - "Ostrich Algorithm" i.e. do nothing and hope that deadlocks never occur and if they happen kill processes one by one or reboot the system.
@@ -25,6 +33,16 @@ The four main strategies on how to tackle *deadlocks* are:
 
 ---
 ## Practice
+
+What condition is not necessary for a deadlock to occur?
+
+???
+
+* none of the options listed
+* only one process at a time can use the resource
+* process that is holding a resource can acquire further resources
+* resources are only freed after a process has finished executing
+* at least two processes each waiting for each others resources
 
 ---
 ## Revision

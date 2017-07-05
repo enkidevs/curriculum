@@ -45,8 +45,8 @@ What does `.sleep` method do?
 
 ???
 
-* It waits until a thread finished executing
 * It pauses execution of a thread for a certain time
+* It waits until a thread finished executing
 * It pauses all the threads in a queue
 * It frees all the resources that the current thread is holding
 
@@ -57,7 +57,7 @@ What method stops execution for a specified time and continues running afterward
 
 ???
 
-* .join()
 * .sleep()
+* .join()
 * .wait()
 * .combine()
