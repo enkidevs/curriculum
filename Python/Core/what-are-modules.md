@@ -11,34 +11,36 @@ category: must-know
 
 links:
 
-  - '[more about modules](https://docs.python.org/3/tutorial/modules.html)'
+  - '[More on modules](https://docs.python.org/3/tutorial/modules.html)'
 
 ---
 ## Content
 
-When you quit the **Python** interpreter and open it again, the **functions** and **variables** you defined before are lost. Therefore, if you want to write a more complex program, you are better off using a **text editor** to prepare the **input** for the interpreter. This is known as creating a **script**.
+When you quit the Python interpreter and open it again, the *functions* and *variables* you defined before are lost.
 
-As you **program**'s size gets longer you might want to split into in several **files** - a process called modularization[1]. You may want to use a **handy function** that you’ve written in several **programs** without copying its **definition** into each program.
+ If you want to write a more *complex program*, you are better off using a *text editor* to prepare the **input** for the interpreter. This is known as creating a **script**.
 
-To support all these, **Python** provides **modules**. A **module** is a **file** consisting of **Python** code. A **module** can contain runnable code and can define:
-- funcitons
+As you program's *size* gets longer you might want to split it in several **files**. You may also want to use a *handy function* that you’ve written in several **programs** without copying its **definition** into each program.
+
+To support all these, Python provides **modules**. Simply, a **module** is a file consisting of Python **code** with **definitions** and **statements**. In a **module** you can find runnable code defining:
+- functions
 - classes
 - variables
 
-A **module** is a Python object with arbitrarily named attributes that you can bind and reference.
+Each module, in order to be recognized by the interpreter, has to have the `.py` extension appended. By convention, modules get their own names from the file they were written in (dropping the extension).
 
 Consider the python file `my_adder.py`. Plainly, this **module**'s name is `my_adder`.
 
-```
-# To be able to run a python module
-# it must have the .py extension
-# Defining module my_adder.py:
+```py
+# consider module in adder.py:
 
-def add(a,b)
-    sum = a+b
+def add(a, b):
+    sum = a + b
     print("The sum is: ", sum)
-    reutrn sum
+    return sum
 ```
+
+Note that within each module, its name is dynamically available through the global variable `__name__`.
 
 ---
 ## Footnotes
@@ -49,19 +51,22 @@ Modular programming is a software design technique that emphasizes separating th
 ---
 ## Practice
 
-What do we call like a python program that was written using a text editor instead of the python interpreter ?
+What is the extension specific to Python **modules**?
 ???
 
-* a script
-* a class
-* a function
+* `.py`
+* `.md`
+* `.sh`
+* `.mod`
+* `.pymod`
+* `.python`
 
 ---
 ## Revision
 
-Is it right to say modules are objects in python?
+Which of the following options would better describe a module in Python?
 ???
 
-* Yes
-* No
-* Not specified.
+* A file with python code - definitions and statements
+* A library exposing an API
+* A file with functions written in Python

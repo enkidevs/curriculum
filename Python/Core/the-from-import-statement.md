@@ -11,90 +11,127 @@ category: must-know
 
 links:
 
-  - '[More about from...import](https://www.tutorialspoint.com/python3/python_modules.htm)'
+  - '[from...import in depth](https://www.tutorialspoint.com/python3/python_modules.htm)'
 
 ---
 ## Content
 
-Imagine you only need to use one function from a **module**. There is no need to `import` it entirely as you can `import` only an **item** from it.
+To refer to specific items of a **module** within your program's **namespace**[1], you can use the `from...import` statement.
 
-To refer to **items** from a **module** within your program's **namespace**[1], we use the `from...import` statement.
-In this construction, you can specify which **definitions** to reference directly.
+Using this statement, you basically specify exactly which **definitions** you want to directly reference.
 
 Consider the following module:
-
-```
-# my_funcitons.py
+```py
+# my_functions.py
 
 def hello(what):
     text = "Hello, " + what
     print(text)
 def cube(x):
-    return(x**3)
-def quad(x)
-    print(x**4)
+    print(x ** 3)
+def quad(x):
+    print(x ** 4)
 ```
 
-If we chose to use the default `import` statement presented before:
+To access exposed methods of it we could do the following:
 
-```
-import my_funcitons
+```py
+import my_functions
 
-a = cube(3)
-print(a)
-my_funcitons.hello("Seba")
-
-# Output:
-# 27
-# Hello Seba
+print(my_functions.cube(3)) # 27
+my_functions.hello('Seba') # Hello, Seba
 ```
 
-If we chose to use the `from ... import` statement:
+Instead, we can achieve the same using the `from ... import` statement:
 
-```
+```py
 from my_funcitons import cube, hello
 
-cube(3)
-hello(Seba)
-
-# Output:
-# 7
-# Hello Seba
+cube(3) # 27
+hello('Seba') # Heelo, Seba
 ```
 
-**Note** there is one more construction ("wildcard imports") available: `from...import *`. This means, from **module_name** import every **item**. However, **wildcard imports** should be avoided, as they make it unclear which **names** are present in the **namespace**, confusing both readers and many automated tools.
+The main advantage of the `from...import` statement is that it exempts you from using the *dot notation* and thus helps you not repeat yourself.
 
-To end with, using `from ... import` statement deos not save memory. It exacutes and caches the entire module just like regular `import` statement. So there is no correct pattern of destinguishing between these two, it depends on the developer's prefferences.
+Note there is one more possible construction available, known as **wildcard imports** - `from..import *`:
+```py
+from module_name import *
+```
 
+This simply means, from `module_name` import every item. Keep in mind that wildcard imports should be avoided as they make it unclear which references are present in the current **namespace**, confusing both *readers* and *automated tools*.
+
+You can also rename the item imported to whatever you want using the `as` keyword:
+```py
+from my_functions import quad as q
+q(3) # 27
+```
+
+To end with, using `from ... import` statement doesn't save memory. It executes and caches the entire module just like regular `import` statement. So there is no consecrated pattern of distinguishing between these two, it depends on the developer's preferences.
 ---
 ## Footnotes
 
 [1: namespace]
-As you already know, in Python everything (literals, lists, dictionaries, functions, classes, etc.)  is an **object**. All these objects are referred to using a name. **Namespace** maps all **objects** to their **name**.
+As you already know, in Python, everything (count modules, classes, functions, literals etc.) is an *object*. All these objects are referred to using a name.
+
+**Namespace** is the mapping done between *available objects* and their respective *names*.
 
 ---
 ## Practice
 
-Would this code snippet run without errors?
+
+Consider the two files below - *main* and the *subtractor* module . Complete the missing gaps such that the code will execute with no problem when running `main.py`.
+
+```py
+# subtractor.py
+def ???
+  result = a - b
+  print(f'{a} - {b} is: {result}')
+  return result
 ```
-import my_funcitons
 
-x = cube(5)
-print(x*2)
+```py
+# main.py
+??? ??? ??? subtract
+            ??? ???
+
+sub(20, 3)
+# 20 - 3 is: 17
+
 ```
-???
 
-* No, because the function is misused
-* Yes, because we imported the `my_funcitons` module
-* It will run but throw exceptions
-
+* `subtract(a, b):`
+* `from`
+* `subtractor`
+* `import`
+* `as`
+* `sub`
+* `subtract`
+* `subtract(a, b)`
+* `subtract()`
+* `subtract():`
+* `*`
+* `subtractor.py`
 
 ---
 ## Revision
 
-Does the `from...import` construction import the whole module?
-???
+How can you specifically import the `calculate_volume` method of `cylinder` module?
+```py
+??? ??? ???
+    ???
 
-* Yes
-* No
-* Not specified
+radius = 10
+height = 30
+calculate_volume(radius, height)
+```
+
+* `from`
+* `cylinder`
+* `import`
+* `calculate_volume`
+* `calculate_volume()`
+* `*`
+* `namespace`
+* `__name__`
+* `cylinder:`
+* `def`

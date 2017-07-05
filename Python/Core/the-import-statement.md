@@ -16,67 +16,109 @@ links:
 ---
 ## Content
 
-You can use any Python **source file** as a **module** by importing it in another file.
+You can use any Python source file as a **module** by executing an `import` statement in some *other Python source file*.
 
 Importing is achieved through the provided `import` statement whose syntax looks like:
 
 ```
 import module1[, module2[, ... moduleN]
+
+# note that [] refers to optional arguments
 ```
 
-When the **interpreter** encounters a `import` statement, it imports that specific **module** inside, if it exists in the search path. A **search path** is a list of **directories** where the **interpreter** searches for a specific **module**.
+When the *interpreter* encounters an `import` statement, it **imports** that specific module inside, as long as it exists in the search path. A **search path** is simply the list of directories where the interpreter searches for the specified module.
 
-We will `import` and use a method from the **module** we defined in the previous insight ("What are modules?"), `my_adder.py`[1]:
+We will `import` and use a *method* exposed by the `adder` module[1] we defined in the previous insight ("What are modules?"):
 
-```
-# We need to import the module first:
+```py
+# we need to import the module first
+import adder
 
-import my_adder
-
-# And now we can use methods defined
-# in this module
-
-result = my_adder.add(3,4)
+# now we can use methods exposed by it
+result = adder.add(3,4)
 print(result)
 
 # This will be the output: 7
 ```
 
-**Note** that regardless the number of times you use the `import` statement on the same **module**, internally the code will be imported just once.
 
----
-## Footnotes
-
-[1:my_adder.py]
-```
-def add(a,b)
-    sum = a+b
-    print("The sum is: ", sum)
-    reutrn sum
-```
+Note that a module is imported just **once**, regardless of the times it's used as argument for the `import` statement.
 
 ---
 ## Practice
 
-What is missing from the following code snippet such that it will run without any errors?
-```
-import math
+We have defined the `counter` module that's supposed to `increment` its state with every function call.
+Fill in the gaps such that the module will be successfully imported and ran.
 
-calculate = my_adder.add(324,35)
-result = sqrt(calculate)
-```
-???
+```py
+# counter.py
+count = 0
 
-* `import my_adder`
-* `print(calculate)`
-* `float result`
+??? ???
+  global count
+  count += 1
+  print(x)
+  return count
+
+```
+
+```py
+# main.py
+??? ???
+
+counter.increment() # 1
+counter.increment() # 2
+
+```
+
+* `def`
+* `increment():`
+* `import`
+* `counter`
+* `increment()`
+* `increment:`
+* `as`
+* `counter`
+* `count`
+* `print`
+* `counter;`
 
 ---
 ## Revision
 
-What happens if we use the `import` statement on the same module several times?
-???
+Fill in the gaps such that the defined module is successfully imported and run:
+```py
+# subtractor.py
 
-* The module will be imported once.
-* The module will be imported multiple times.
-* The `import` statement won't work.
+def subtract(a, b):
+  result = a - b
+  print(f'{a} - {b} is: {result}')
+  return result
+```
+
+```py
+# main file
+??? ???
+
+subtractor.???(10, 2)
+# 10 - 2 is: 8
+```
+
+* `import`
+* `subtractor`
+* `subtract`
+* `subtractor;`
+* `subtractor()`
+* `print`
+* `subtract()`
+---
+## Footnotes
+
+[1:adder]
+Consider the previously defined module in `added.py`:
+```py
+def add(a, b):
+    sum = a + b
+    print("The sum is: ", sum)
+    return sum
+```
