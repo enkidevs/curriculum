@@ -1,4 +1,4 @@
-# Recursive generator.
+# Recursive generator
 author: SebaRaba
 
 levels:

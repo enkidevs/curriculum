@@ -16,13 +16,13 @@ links:
 ---
 ## Content
 
-Last insight, we've seen how **recursion** and **generators** can work together. Now, let's see how can we combine the power of two **generators**.
+Last insight, we've seen how **recursion** and **generators** can work together. Now, let's see how we can combine two **generators**.
 
 Consider the following example:
 
 ```
 def fibonacci():
-    """Generating fibonacci sequence"""
+    #Generating fibonacci sequence
     a, b = 0, 1
     while True:
         yield a
@@ -35,13 +35,13 @@ def firstn(g, n):
 print(list(firstn(fibonacci(), 10)))
 ```
 
-Because the condition present in the `while` loop will never be `False`, the first **generator** will compute infinitely. Now, we won't ever need an **infinite sequence**. What we would need is the first `n` **elements** of the sequence or the `n`th **element** from the sequence.
+Because the condition present in the `while` loop will never be `False`, the first **generator** will compute indefinitely. Now, we won't ever need an **infinite sequence**. what we would need instead is the first `n` **elements** of the sequence or the `n`th **element** of the sequence.
 
 This is why we define the second **generator** called `firstn` which accepts two **parameters**:
 - `g` which is a generator;
 - `n` which defines the number of **elements** our sequence will contain.
 
-Finally, we create a **list** containing the first `10` **elements** of the **fibonacci sequence** and **print** it.
+Finally, we print a list containing the first 10 *elements* of the *Fibonacci sequence*:
 
 ```
 # Output:
@@ -63,19 +63,19 @@ Considering the example above, what would
 ---
 ## Revision
 
+What will the output be?
 ```
 def power_of_two():
     x = 2
     while True:
-      yeild x
+      yield x
       x *= 2
 def n_power(g,n):
-    for i in range(n)
+    for i in range(n):
       yield next(g)
 
 print(list(n_power(power_of_two(), 4)))
 ```
-What will the output be?
 ???
 
 * `[2, 4, 8, 16]`
