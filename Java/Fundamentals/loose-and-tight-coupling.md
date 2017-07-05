@@ -26,12 +26,13 @@ Writing "good code" implies more than properly naming variables or using the rig
 
 ### Loose Coupling
 
-The equivalent of the relation between a smartphone whose battery you could remove yourself and the battery is called **loose coupling**. The implementation details are specific to each class, therefore reducing the dependencies.
+The equivalent of the relation between a smartphone whose battery you could remove yourself and the battery is called **loose coupling**. The implementation details are specific to each class, therefore reducing the dependencies. This design paradigm promotes *single responsibility* and *separation of concerns*.
 
 The difference between the concepts can be explained better through a code example:
 ```java
 // tight coupling
 public class Item {
+  public String name;
   public float price;
   public int quantity;
 }
@@ -64,6 +65,7 @@ A better approach would be to designate each class to manipulate the data themse
 ```java
 // loose coupling
 public class Item {
+  public String name;
   public float price;
   public int quantity;
   public float getTotalCost() {
