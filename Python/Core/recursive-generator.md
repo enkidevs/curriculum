@@ -16,30 +16,30 @@ links:
 ---
 ## Content
 
-Before the realeas of **Python 3**, **recursive generators** were implemented by calling the **generator function** in a `for loop` statement.
+Before the release of **Python 3**, **recursive generators** were implemented by calling the **generator function** in a `for` loop.
 
-Consider the following exampe:
+Consider the following example:
 ```
 def infinity(start):
     yield start
     for x in infinity(start + 1)
-      yeild x
+      yield x
 ```
 
-We defined a **generator** that counts up to infinity. After the first computation, the **starting value** we passed will be **returned**. Then we loop on the new **generators** created in the `for loop`.
+We defined a **generator** that counts up to infinity. During the first evaluation, the starting value will be **returned**. Then we loop on the new **generators** created in the `for`'s body.
 
-Now, **Python 3** implemented a new method called `yield from`. This method enables users to `yield` over a **generator** created inside the definition of another **generator**. Basically, instead of looping over the **recursive call** of the generator, we will use `yield from`.
+To achieve the same result, **Python 3** introduced a new method, `yield from`. This allows users to `yield` over a generator inside another generator - in other words, creating a **recursive generator**.
 
-Let's see the above example implemented using `yield from`
+Let's check out the example above implemented using `yield from`:
 ```
-def infinity(start)
+def infinity(start):
     yield start
     yield from infinity(start + 1)
 ```
 
 One common use of **recursive generators** is traversing **non-linear data structures** like binary trees.
 
-**Note** that recursive **generators** will be consumed, when the `StopIteration` exception is thrown.
+**N.B.** a **recursive generator** will throw `StopIteration` once it is consumed.
 
 ---
 ## Practice
@@ -47,9 +47,9 @@ One common use of **recursive generators** is traversing **non-linear data struc
 What method has been implemented in Python 3 to help creating recursive generators?
 ???
 
-* `yield from`;
-* `yield()`;
-* `next()`.
+* `yield from`
+* `yield()`
+* `next()`
 
 ---
 ## Revision
@@ -57,6 +57,6 @@ What method has been implemented in Python 3 to help creating recursive generato
 When are consumed recursive generators?
 ???
 
-* when it encounters `StopIteration`;
-* they don't ever consume;
-* when the last `yield` method defined is evaluated.
+* when it encounters `StopIteration`
+* they don't ever consume
+* when the last `yield` method defined is evaluated
