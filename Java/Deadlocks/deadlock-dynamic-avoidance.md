@@ -50,6 +50,7 @@ D : 1k/7k
 Free : 3k
 
 This of course can be expanded to multiple resource types.
+
 ---
 ## Practice
 

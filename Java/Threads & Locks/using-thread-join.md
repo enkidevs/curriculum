@@ -37,7 +37,7 @@ class JoinThread extends Thread {
   public void run() {
     if (waitsFor != null) {
       waitsFor.join();
-      //waits here until waitsFor completes 
+      //waits here until waitsFor completes
     }
     ...
   }
@@ -55,7 +55,7 @@ In this example, `t2` will wait for `t1` to complete.
 ---
 ## Practice
 
-What command is used to make a thread wait for another thread to complete before continuing its execution? 
+What command is used to make a thread wait for another thread to complete before continuing its execution?
 ???
 
 *Thread.join()
