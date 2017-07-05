@@ -1,0 +1,88 @@
+# Deadlocks
+author: nickdaminov
+
+levels:
+
+  - medium
+
+type: normal
+
+category: must-know
+
+links:
+
+  - '[Dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem)'
+  - '[Deadlock examples](https://stackoverflow.com/questions/34512/what-is-a-deadlock)'
+  - '[More on Deadlock conditions](http://wikieducator.org/Necessary_conditions_for_deadlock)'
+
+---
+## Content
+
+**Deadlock** is a situation in which two or more processes/threads are accessing same resources in a mutually exclusive fashion.
+
+A simple example:
+
+
+```
+Thread1:
+1: acquire(lock1); //takes locks
+2: acquire(lock2);
+3: doSomething();  //we need both locks
+4: release(lock2); //releases locks
+5: release(lock1);
+```
+
+
+```
+Thread2:
+1: acquire(lock2); //takes locks
+2: acquire(lock1);
+3: doSomething();  //we need both locks
+4: release(lock1); //releases locks
+5: release(lock2);
+```
+
+If we consider a situation in which `Thread1` acquires `lock1` and then `Thread2` acquires `lock2` (this can happen as these actions are not synchronized), then we end up in a **deadlock** situation as none of the two threads can proceed further.
+
+**Deadlock** is not limited to two threads only, for example *dining philosophers* problem.   
+
+
+//put this part into how to avoid a deadlock insight
+There 4 necessary and sufficient conditions for a **deadlock** to occur:
+
+ - Mutual Exclusion: only one process at a time can use the resource.
+ - Hold and Wait: process that is holding a resource can acquire further resources.
+ - No Preemption: resources are only freed after a process has finished executing.
+ - Circular Wait: there are at least two processes each waiting for each others resources.
+
+---
+## Practice
+
+What lines in `Thread2` should we swap to avoid a *deadlock* situation?
+
+???
+
+* lines 2 & 1
+* lines 4 & 5
+* lines 3 & 2
+
+What condition is not necessary for a deadlock to occur?
+
+???
+
+* none of the options listed
+* only one process at a time can use the resource
+* process that is holding a resource can acquire further resources
+* resources are only freed after a process has finished executing
+* at least two processes each waiting for each others resources
+
+---
+## Revision
+
+What is a *deadlock*?
+
+???
+
+* A situation in which processes fail to acquire resources due to mutual exclusion
+* A situation in which a process does not free it's resources after execution
+* A situation when all resources are acquired by the processes

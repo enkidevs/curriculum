@@ -17,7 +17,7 @@ links:
 ## Content
 
 Semaphores are very similar to locks, the only difference is that they allow multiple threads/processes to enter the *critical section*[1]
- 
+
 ```
 public class Semaphore {
   private int threadsEntered = 0;
@@ -38,7 +38,7 @@ public class Semaphore {
   public synchronized void release()
               throws InterruptedException{
     while(this.threadsEntered == 0)
-      wait(); //this can only by a bug
+      wait(); //this can only be a bug
               //or a non atomic operation
     this.threadsEntered--;
     this.notify();
@@ -48,22 +48,24 @@ public class Semaphore {
 ---
 ## Practice
 
-What does the fox says?
+What is the key difference between a lock and a semaphore?
+
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+* Semaphore allows multiple threads/processes to enter the critical section
+* Semaphore can be accessed across processes whereas lock is only accessible across threads
+* Semaphore holds a flag value which signalizes when an execution of a thread is finished
 
 ---
 ## Revision
 
-What does the fox says?
+What is the key difference between a lock and a semaphore?
+
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+* Semaphore allows multiple threads/processes to enter the critical section
+* Semaphore can be accessed across processes whereas lock is only accessible across threads
+* Semaphore holds a flag value which signalizes when an execution of a thread is finished
 
 ---
 ## Footnotes

@@ -109,9 +109,9 @@ What is the best practice for `Overriding` the `.start()` function?
 ---
 ## Revision
 
-What does the fox says?
+When implementing a `runnable` interface do we create a thread?
+
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+* No, we create a runnable object that has to be passed to an instance of a Thread
+* Yes, we can call `start()` on it straight away as it is a runnable thread

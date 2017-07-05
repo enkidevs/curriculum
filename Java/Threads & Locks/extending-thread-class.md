@@ -76,9 +76,9 @@ Should a thread object be passed to an instance of a `Thread` class?
 ---
 ## Revision
 
-What does the fox says?
+When extending `thread` do we need to pass it to a Thread instance?
+
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+* No, as it is a thread itself
+* Yes, as it is only a runnable object
