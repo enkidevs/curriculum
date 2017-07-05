@@ -28,9 +28,6 @@ Additionally one other the solutions could be to have a *master* lock which woul
 Unfortunately none of them are perfect and they probably conflict with the whole idea of concurrency, a better solution will be discussed in the next insight.
 
 ---
-## Practice
-
----
 ## Revision
 
 What is the concept of deadlock prevention?

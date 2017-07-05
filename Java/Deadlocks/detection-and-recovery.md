@@ -31,11 +31,7 @@ There are three ways to deal with this problem:
  - Constantly take images of the system (process-resource) and if a deadlock occurred roll back to a closest safe state.
 
 ---
-## Practice
-
----
 ## Revision
-
 
 What is the key to resolving a deadlock once it occurred?
 
