@@ -25,7 +25,7 @@ links:
 
 ```
 class synchExample {  
-  public synchronized void printSeq(int n){  
+  public synchronized void printSeq(int n){
     for(int i = 0; i < 5; i++) {  
       System.out.println(n+i);  
       try {  
@@ -49,6 +49,7 @@ synchronized (<object reference
 ```
 
 More general approaches will be discussed in further insights.
+
 ---
 ## Practice
 

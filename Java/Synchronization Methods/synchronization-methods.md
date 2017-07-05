@@ -46,9 +46,6 @@ public class Lock{
 **NOTE:** It is important to remember to use the same *lock* when working with sensitive data in multiple threads, as acquiring different *locks* will lose the purpose of synchronization.
 
 ---
-## Practice
-
----
 ## Revision
 
 What is a lock?
