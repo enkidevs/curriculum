@@ -18,11 +18,11 @@ links:
 
 When you quit the Python interpreter and open it again, the *functions* and *variables* you defined before are lost.
 
- If you want to write a more *complex program*, you are better off using a *text editor* to prepare the **input** for the interpreter. This is known as creating a **script**.
+If you want to write a more *complex program*, you are better off using a *text editor* to prepare the **input** for the interpreter. This is known as creating a **script**.
 
 As you program's *size* gets longer you might want to split it in several **files**. You may also want to use a *handy function* that you’ve written in several **programs** without copying its **definition** into each program.
 
-To support all these, Python provides **modules**. Simply, a **module** is a file consisting of Python **code** with **definitions** and **statements**. In a **module** you can find runnable code defining:
+To support all these, Python provides **modules**[1]. Simply, a **module** is a file consisting of Python **code** with **definitions** and **statements**. In a **module** you can find runnable code defining:
 - functions
 - classes
 - variables
