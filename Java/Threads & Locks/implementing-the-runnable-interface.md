@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-One way of creating a thread is to implement a `Runnable` interface which implies that you have to implement `public void run()` function. As we are implementing an interface, we create a `runnable` object and not a `thread` itself. Meaning that the `counter` object in the following example is not a `thread` and doesn't implement a `.start()`. Of course we can call `.run()` explicitly on two or more instances of the `CustomRunnable` class but then they will not be concurrent and will run in order specified.     
+One way of creating a thread is to implement a `Runnable` interface which implies that you have to implement `public void run()` function. As we are implementing an interface, we create a `runnable` object and not a `thread` itself. Meaning that the `counter` object in the following example is not a `thread` and doesn't implement a `start()`. Of course we can call `run()` explicitly on two or more instances of the `CustomRunnable` class but then they will not be concurrent and will run in order specified.     
 
 The most simple example would be:
 ```
@@ -49,7 +49,7 @@ public class Main {
 
     //here we pass our new Runnable object
     //to the `Thread` class
-    new Thread(run).start();
+    new Thread(counter).start();
     new Thread(new CustomRunnable())
                            .start();
   }
@@ -67,10 +67,10 @@ thread is running : 1
 thread is running : 2
 thread is running : 2
 thread is running : 3
+thread is running : 4
 thread is running : 3
-thread is running : 4
-thread is running : 4
 Finished!
+thread is running : 4
 Finished!
 ```
 
@@ -93,18 +93,18 @@ Should a runnable object be passed to an instance of a `Thread` class?
 
 ???
 
-What is the best practice for `Overriding` the `.start()` function?
+What is the best practice for `Overriding` the `start()` function?
 
 ???
 
-* `.run()`
-* `.start()`
+* `run()`
+* `start()`
 * No
 * Yes
 * Not overriding it at all
 * Override it with the intended functionality of a thread
 * It does not matter
-* `.create()`
+* `create()`
 
 ---
 ## Revision

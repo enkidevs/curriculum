@@ -11,7 +11,7 @@ category: how to
 
 links:
 
-  - '[More on the Thread Class](https://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html)'
+  - '[More on the Thread Class](https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html)'
 
 ---
 ## Content
@@ -67,17 +67,17 @@ Should a thread object be passed to an instance of a `Thread` class?
 
 ???
 
-* `.run()`
-* `.start()`
+* `run()`
+* `start()`
 * No
 * Yes
 * It does not matter
-* `.create()`
+* `create()`
 
 ---
 ## Revision
 
-When extending `thread` do we need to pass it to a Thread instance?
+When we create an object which extends `Thread` do we need to pass this object to an instance of a `Thread` class?
 
 ???
 

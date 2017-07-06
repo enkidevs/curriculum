@@ -17,11 +17,11 @@ links:
 ---
 ## Content
 
-**Threading** is a concept of splitting a single *process* into concurrent execution of two or more tasks. These tasks or **threads** can be run either asynchronously or synchronously and each of them has it's own path of execution within the program. This concept is of course not limited to *Java* only and can be applied to many languages.
+**Threading** is a concept of splitting a single *process* into concurrent execution of two or more tasks. These tasks or **threads** can be run either asynchronously or synchronously and each of them has its own path of execution within the program. This concept is of course not limited to *Java* only and can be applied to many languages.
 
-Every thread in *Java* is created and controlled by the `java.lang.Thread` class. In order to start a thread we have to call a `.start()` function on it.
+Every thread in *Java* is created and controlled by the `java.lang.Thread` class. In order to start a thread we have to call a `start()` function on it.
 
-**NOTE:** It is important to remember that *processes* and *threads* are not the same things although they are quite similar
+**NOTE:** It is important to remember that *processes* and *threads* are not the same things although they are quite similar.
 
 Advantages of Multithreading:
 - better use of system resources
