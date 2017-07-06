@@ -11,25 +11,29 @@ category: pattern
 
 links:
 
-  - '[link to learn more](https://enki.com)'
-
 ---
 ## Content
 
 Semaphores are very similar to locks, the only difference is that they allow multiple threads/processes to enter the *critical section*[1]
 
+In the following example *semaphore* class keeps track of how many threads entered it and only allows new threads to enter if their
 ```
 public class Semaphore {
   private int threadsEntered = 0;
   private int limit = 0;
 
+
+  //bounded Semaphore, max number of
+  //entered threads is set
+  //in the constructor  
   public Semaphore(int limit){
     this.limit = limit;
   }
 
   public synchronized void take()
               throws InterruptedException{
-    while(this.threadsEntered == limit)
+    //puts thread in a waiting mode
+    while(this.threadsEntered >= limit)
       wait();
     this.threadsEntered++;
     this.notify();
