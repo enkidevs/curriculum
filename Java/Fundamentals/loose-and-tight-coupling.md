@@ -11,8 +11,8 @@ category: must-know
 
 links:
 
-    -
-      '(Coupling and Cohesion)[https://stackoverflow.com/questions/3085285/cohesion-coupling]'
+    - >-
+        [Coupling and Cohesion](https://stackoverflow.com/questions/3085285/cohesion-coupling){website}
 
 ---
 ## Content
