@@ -22,8 +22,6 @@ Another way of ensuring mutual exclusion without using synchronization patters o
 Example:
 
 ```
-import java.util.concurrent.atomic.AtomicInteger;
-
 class Counter {
   //create a new integer
   //variable with value of 0
