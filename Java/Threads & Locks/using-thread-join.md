@@ -58,7 +58,8 @@ public class Main{
 
     //only combine results after
     //both threads finished
-    double n = ((double)t2.result/t1.result);
+    double n =
+          ((double)t2.result/t1.result);
 	}
 }
 ```
