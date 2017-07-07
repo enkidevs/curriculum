@@ -39,14 +39,17 @@ class synchExample {
 }  
 ```
 
-- The code block synchronization usually has the following pattern:
+**NOTE:** synchronizing on a method is equivalent to synchronizing on a `this` object instance, so only one method is accessible at a time.
+
+- Synchronization on an object has the following pattern:
 
 ```
-synchronized (<object reference
-                   expression>) {
-  <code block>
+synchronized (<object reference>) {
+  //do something
 }
 ```
+
+Where `object reference` is whatever object your class has access to.
 
 More general approaches will be discussed in further insights.
 

@@ -12,6 +12,7 @@ category: pattern
 links:
 
   - '[More on Critical Section](https://en.wikipedia.org/wiki/Critical_section)'
+  - '[Locks Objects in Java](https://docs.oracle.com/javase/tutorial/essential/concurrency/newlocks.html)'
 
 ---
 ## Content
@@ -42,6 +43,8 @@ public class Lock{
 }
 ```
 **Mutex** has the same concept as a lock but can be accessed between the processes (i.e. a wider range lock).
+
+Java also provides predefined *lock* interfaces in their `java.util.concurrent` library.
 
 **NOTE:** It is important to remember to use the same *lock* when working with sensitive data in multiple threads, as acquiring different *locks* will lose the purpose of synchronization.
 
