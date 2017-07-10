@@ -25,15 +25,15 @@ Example:
 ```
 @Retention(RetentionPolicy.RUNTIME)
 @interface EnkiAnn {
-    String name();
-    int counter();
+  String name();
+  int counter();
 }
 
 class TestClass{   
-    @EnkiAnn(name = "Enki", counter = 0)
-    public void myTestMethod(){
-        //method implementation
-    }
+  @EnkiAnn(name = "Enki", counter = 0)
+  public void myTestMethod(){
+      //method implementation
+  }
 }
 ```
 
