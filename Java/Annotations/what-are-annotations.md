@@ -12,36 +12,60 @@ category: feature
 links:
 
   - '[Official Annotation Description](https://docs.oracle.com/javase/tutorial/java/annotations/index.html)'
+  - '[More on Annotation Elements](https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1)'
 
 ---
 ## Content
 
-Annotations is a way of describing the code without changing its' functionality in most cases. We can think of annotations as comments for compiler or JVM.
+*Annotations* is a way of describing the code without changing its' functionality (in most cases). We can think of annotations as comments which compiler or JVM understand. Java provides you with some predefined annotations which is pretty much all that is used in practice, but of course you can create your own. Any custom annotation must start with `@interface` followed by the name, the contents of annotation are method with either default or undefined values, these method can be of these return types:
+ * A primitive type
+ * String
+ * Class or an invocation of Class
+ * An enum type
+ * An annotation type
+ * An array type whose component type is one of the preceding types
 
-//COPYRIGHT ISSUES
-The three most common purposes of annotations are:
- - Information for the compiler — Annotations can be used by the compiler to detect errors or suppress warnings.
- - Compile-time and deployment-time processing — Software tools can process annotation information to generate code, XML files, and so forth.
- - Runtime processing — Some annotations are available to be examined at runtime.
+Example:
+```
+@interface EnkiAnnotation {
+   String author() default "Enki";
+   String date();
+   double version() default 1.0;
+   String lastModified();
+   String[] contributors();
+}
+```
 
-Every annotation starts with the `@` sign which is followed by the name starting with a capital letter i.e.: `@Override`
+**NOTE:** whenever the method has no `default` value, it return value must be specified on each usage.
+
+You can split all *annotations* into three types:
+ * *Marker Annotation* (has no elements)
+ * *Single-Element Annotation*
+ * *Multi-Element Annotation*
 
 ---
 ## Practice
 
-What does the fox says?
+Can we have a 2D array as a method type in an annotation?
+
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+What is a *marker* annotation?
+
+???
+
+
+* No
+* Annotation with no elements
+* Annotation with a single element
+* Yes
 
 ---
 ## Revision
 
-What does the fox says?
+What is an annotation?
+
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+* Metadata about a piece of code which can be understood by a compiler or JVM
+* It is an interface which has to be implemented in order to 
