@@ -31,6 +31,17 @@ String[] args = {"Enki", "eNki", "enKi"};
 varArgsFunc(args);
 varArgsFunc("Enki", "eNki", "enKi");  
 ```
+Of course the arguments still have to be passed as "array", and the collection should be the last in the order of arguments:
+```
+varArgsFunc(int A, String... string_array){
+    //doEnki
+}
+//The reason is that Java does not know
+//where the collection ends
+varArgsFunc(5, "Enki", "eNki");
+```
+
+The point is that
 ---
 ## Practice
 

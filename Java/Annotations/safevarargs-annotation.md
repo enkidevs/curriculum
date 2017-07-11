@@ -16,7 +16,7 @@ links:
 ---
 ## Content
 
-Insight content goes here
+
 
 ---
 ## Practice
