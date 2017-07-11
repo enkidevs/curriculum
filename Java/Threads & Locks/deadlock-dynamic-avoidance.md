@@ -16,7 +16,11 @@ links:
 ---
 ## Content
 
-A much better approach which allows more concurrency with avoidance of deadlocks is aimed to monitor the system and to decide whether it is or it is not safe to grant the resource on every request. Such can be done by performing *Banker's Algorithm*: all the states are split to **safe** and **unsafe**. In the beginning it is considered to be a *safe* state as there are no resources taken and only an operating system is running. Whenever there is a process requesting a resource the system assumes that state and figures out if it is safe or not. If the above acquirement leads to a safe state, the resource is granted, otherwise not. To illustrate this lets look at a single type resource: money, and let processes be people taking loans.
+A much better approach which allows more concurrency with avoidance of deadlocks is aimed to monitor the system and to decide whether it is or it is not safe to grant the resource on every request. Such can be done by performing *Banker's Algorithm*: all the states are split to **safe** and **unsafe**.
+
+In the beginning it is considered to be a *safe* state as there are no resources taken and only an operating system is running. Whenever there is a process requesting a resource the system assumes that state and figures out if it is safe or not.
+
+If the above acquirement leads to a safe state, the resource is granted, otherwise not. To illustrate this let's look at a single type resource, money, and let processes be people taking loans.
 
 In order for a *Banker's Algorithm* to work the system needs to know (we also assume that after a person gets all the necessary money if executes and returns them):
  - How much of each resource each process could possibly request.

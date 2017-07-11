@@ -22,10 +22,7 @@ On the other hand, `join()` method is not static and is specific to every thread
 
 An example of using `join()`:
 
-
-//This section was COPYPASTED but it explains the topic
 ```
-
 class Add extends Thread {
   public int result;
   public void run() {
