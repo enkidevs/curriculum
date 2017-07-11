@@ -20,7 +20,7 @@ links:
 
   - "[docs.python.org](https://docs.python.org/3.5/library/datetime.html#time-objects){website}"
 
-  - "[pymotw.com](https://pymotw.com/2/datetime/){website}"
+  - "[pymotw.com](https://pymotw.com/3/datetime/){website}"
 
 ---
 ## Content

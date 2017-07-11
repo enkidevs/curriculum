@@ -20,8 +20,9 @@ notes: |
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#additional-methods-on-integer-types){website}
+  - "https://docs.python.org/3.5/library/stdtypes.html#additional-methods-on-integer-types"
+
+  - "https://en.wikipedia.org/wiki/Endianness"
 
 ---
 ## Content
@@ -93,9 +94,10 @@ This is useful when we need to get the number of bytes (aka length) needed for r
 
 Complete the missing gaps such that running this snippet on the interpreter will output `25`:
 ```py
->>> ???.???.(???.???(
-      -(-(25).??? // 8), ???="big"),
-        byteorder="big")
+>>> ???.???.(???
+      .???(-(-(25)
+      .??? // 8)
+      , ???="big"))
 ```
 
 * `int`
@@ -147,4 +149,6 @@ When specified, the integer value will be represented in `length` bytes. If thes
 [2:endianness]
 **Big-endian** and **little-endian** are terms that describe the order in which a sequence of bytes are stored in computer memory.
 
-In **big endian**, you store the *most* significant `byte` in the **smallest** address, while in **little endian** you store the *least* significant one.
+In **big endian**, you store the *most* significant `bit` in the **smallest** address, while in **little endian** you store the *least* significant one.
+
+If you wish to learn more about this subject, bookmark this insight and check its "Learn more" links section.

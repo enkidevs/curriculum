@@ -14,9 +14,10 @@ category: must-know
 ---
 ## Content
 
-Python is an entirely object orientated programming language so variables or their types don't need to be declared before using them.
-
-Each variable in Python is an *object*.
+There are few things to keep in mind when talking about Python:
+- it's an entirely *object orientated* programming language
+- each variable is an *object*
+- variables and their types **don't** need to be declared before using them
 
 To define a string (`str` type), you can either use single or double quotes:
 ```py

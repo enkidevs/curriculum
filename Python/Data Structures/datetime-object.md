@@ -23,7 +23,7 @@ links:
 ---
 ## Content
 
-The `datetime` class combines in a single object all information of both previously discussed `date` and `time` classes.
+The `datetime` class combines in a single object all the information contained by both previously discussed `date` and `time` classes.
 
 As a consequence, the `datetime` object is **aware** - recording a specific point in time that is not open to interpretations.
 
@@ -101,7 +101,7 @@ print(datetime.now())
 Here are few special date formatting characters supported by the method:
 - `%Y`: year number (e.g. `2017`)
 - `%B`: month name (e.g. `July`)
-- `%b`: month abbreviation
+- `%b`: month abbreviation (e.g. `Jan`)
 - `%d`: day of month (e.g. `30`)
 - `%w`: weekday number (e.g. `0` - Sunday, `1` - Monday)
 - `%a`: weekday abbreviation (e.g. `Mon`)
