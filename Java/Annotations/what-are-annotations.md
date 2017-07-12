@@ -43,6 +43,8 @@ You can split all *annotations* into three types:
  * *Single-Element Annotation*
  * *Multi-Element Annotation*
 
+Custom annotations can be used to create documentation automatically which means that there is no need to create `XML` or any other descriptive files manually.
+
 ---
 ## Practice
 

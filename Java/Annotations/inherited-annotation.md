@@ -11,29 +11,20 @@ category: pattern
 
 links:
 
-  - '[link to learn more](https://enki.com)'
+  - '[Officeial @Inherited description](https://docs.oracle.com/javase/7/docs/api/java/lang/annotation/Inherited.html)'
 
 ---
 ## Content
 
-`Inherited` annotation is a *marker* which indicates that the following annotation will be applicable to all the children of the class it has been applied to.
-
----
-## Practice
-
-What does the fox says?
-???
-
-* right answer
-* wrong answer
-* wrong answer 2
+`@Inherited` annotation is a *marker meta annotation* which indicates that the following annotation will be applicable to all the children of the class the following annotation was applied to.
 
 ---
 ## Revision
 
-What does the fox says?
+What functionality does `@Inherited` carry?
+
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+* It indicates that the following annotation will work on children of the applied class
+* It indicates that the following class is abstract and should have children
+* It indicates that the following class has a custom parent class
