@@ -52,13 +52,26 @@ Finally, we print a list containing the first 10 *elements* of the *Fibonacci se
 ---
 ## Practice
 
-Considering the example above, what would
-`print(list(firstn(fibonacci(), 5)))` print?
-???
+We want to generate the frist n perfect squares. Fill the gaps accordingly:
 
-* `[0,1,1,2,3]`
-* `[1,1,2,3,4]`
-* `[0,1,1,2,3,4]`
+```
+def perfect_square():
+  x = 1
+  while ???:
+    yield x * x
+    x += 1
+def first_n(g,n):
+    for i in ???(n):
+      ??? next(g)
+```
+
+* True
+* range
+* yield
+* for
+* False
+* yeild
+* if
 
 ---
 ## Revision

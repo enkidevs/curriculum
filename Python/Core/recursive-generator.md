@@ -44,19 +44,40 @@ One common use of **recursive generators** is traversing **non-linear data struc
 ---
 ## Practice
 
-What method has been implemented in Python 3 to help creating recursive generators?
+Can you spot which of the following generators are recursive?
 ???
 
-* `yield from`
-* `yield()`
-* `next()`
+```
+def list_gen(l):
+    if l:
+        yield l[0]
+        yield from list_gen(l[1:])
+
+def cubic_generator(n):
+	for i in range(n):
+		yield i ** 3
+
+```
+
+* the first one
+* the second one
+* both of them
 
 ---
 ## Revision
 
-When are consumed recursive generators?
+What do you think the output of the following snippet will look like?
+```
+def cubic_generator(n):
+	for i in range(n):
+		yield i ** 3
+
+c = cubic_generator(4)
+while(True):
+  print(next(c))
+```
 ???
 
-* when it encounters `StopIteration`
-* they don't ever consume
-* when the last `yield` method defined is evaluated
+* 0, 1, 8, 27
+* 1, 8, 27, 64
+* 0, 1, 8, 27, 64
