@@ -53,7 +53,6 @@ What is the working principle behind a stack?
 ???
 * Last-in, first-out
 * First-in, first-out
-* First-in, last-out
 * Last-in, last-out
 
 ---
