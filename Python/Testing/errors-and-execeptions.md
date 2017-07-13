@@ -18,7 +18,7 @@ links:
 
 We can distinguish at least two types of **errors** in **Python**: **syntax errors** and **exceptions**.
 
-To highlight them, we have **syntax errors**, also known as **parse errors**. They are the most common problem beginner programmers encounter while learning **Python**. The parser displays a little **arrow** pointing to the first character where the **error** was detected.
+**Syntax errors**, also known as **parse errors**. They are the most common problem beginner programmers encounter while learning **Python**. The parser displays a little **arrow** pointing to the first character where the **error** was detected.
 
 ```
 def func():
@@ -42,7 +42,7 @@ def func():
     return value
 ```
 
-However, if the code is **syntactically correct**, we can still encounter errors when executing the program. Errors detected while executing the program are called **exceptions**. There are types of exceptions which cause the program to stop executing and types of exceptions which can be handled.
+However, even if the code is **syntactically correct**, we can still encounter errors when executing the program. Errors detected while executing the program are called **exceptions**. There are types of exceptions which cause the program to stop executing and types of exceptions which can be handled.
 
 ```
 number = 10 + (10/0)
@@ -51,7 +51,7 @@ number = 10 + (10/0)
 
 Traceback (most recent call last):
 File "test", line 1
-ZeroDevisionError: devision by 0
+ZeroDivisionError: division by 0
 ```
 
 The **exception message** provides information about the **type** of the exception occurred and what caused it.
@@ -65,7 +65,7 @@ The **message body** displays:
 
 Based on its description, what's the error the parser is mostly likely to throw?
 ```
-def sum()
+def sum():
   1 + `10`
 ```
 ???
@@ -79,7 +79,7 @@ def sum()
 ---
 ## Revision
 
-Which of the following is an alternative name for compile time errors??
+Which of the following is an alternative name for compile time errors?
 ???
 
 * `exceptions`

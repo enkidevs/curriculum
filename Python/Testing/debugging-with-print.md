@@ -19,25 +19,27 @@ links:
 ## Content
 
 It doesn't matter how experienced a programmer is, there will always be mistakes in his **code**.
-**Debugging** means understanding what is going wrong with the code. There are many ways of **debugging** a program, but we will focus on the easiest one in this insight. This is debugging using the `print()` statement.
 
-Basically what happens is we look at the **values** of **variables** at specific **times**. In order to be able to **debug** your code you need a good understanding. **Debugging** helps you identify the exact cause of the **problem**. However, there is no problem if you don't have the smallest idea where it might come from. Usually, developers start with printing everything for a better understanding.
+Debugging means understanding what is going *wrong* with the code. There are many ways to debug a program, but we will focus on the most basic one in this insight. Debugging using the `print()` statement.
 
-We will use the following example:
+Usually, developers start with printing everything for a better understanding. Basically what happens is: we look at the **values** of **variables** at specific **times**.
+
+Consider the following example:
 ```
 1 def foo():
 2   return 6
 3 x = foo()
 4 while(True):    
 5   x += 1
-6 if x > 23:
-7  print "Welcome!"
+6 if x > 19:
+7  print("Welcome!")
 ```
-Let's suppose that when we wrote this snippet it seemed clear that "Welcome!" won't be **printed**. We want to debug this code now. An useful **trick** you can use when debugging with `print()` is to print the **variable**'s value together with the **line number**.
+
+Let's suppose we wanted `"Welcome!"` to be printed. In this simple case, we have only an `if` statement to check. A **useful trick** for debugging is printing the value of `x` and try to follow the code with that value in mind.
 
 ```
 1  def foo():
-2    return 8
+2    return 6
 3  x = foo()
 4  print("Line 4, x= ", x)
 5  while(True):  
@@ -47,27 +49,38 @@ Let's suppose that when we wrote this snippet it seemed clear that "Welcome!" wo
 9  print("Line 9, x=", x)
 10 print("Welcome!")
 
-#Output
-Line 4, x=8
+# Output:
+# Line 4, x=8
 ```
+
 Now we know that `x` was initialised with value `8` from `foo()`. The bug here is that the while condition will always be `True`. We can see that the while is causing problems as just the first print produces output.
 
 ---
 ## Practice
 
-What would be useful to include in our print statements?
+What value do you think will be printed at `print("Line 6:", x)`?
+```
+def counter(x):
+  print("Line 2:", x)
+  while x > 0:
+    print(x)
+    x += 1
+  print("Line 6:", x)
+
+counter(3)
+```
 ???
 
-* The line number.
-* The class where the variable is used.
-* What libraries we have imported in that class.
+* The program will get stuck in the while loop.
+* 0
+* 3
 
 ---
 ## Revision
 
-A python tool that would also work for debugging is?
+Name an ad-hoc method that can be used for debugging?
 ???
 
 * using `print()`
-* importing a module
+* The only way to debbug a python program is importing a debugging specific module
 * Python doesn't support debugging

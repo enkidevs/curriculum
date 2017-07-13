@@ -1,4 +1,4 @@
-# Python debugger
+# Python Debugger
 author: SebaRaba
 
 levels:
@@ -25,7 +25,7 @@ We will consider a program with two **global variables**, a function that create
 ```
 #Program name: debug.py
 
-number_list = [10,20,30]
+number_list = [10, 20, 30]  
 chars_list = ['a', 'b', 'c']
 
 def nested_loop():
@@ -134,12 +134,22 @@ It's extensible, being defined as the class `Pdb`.
 ---
 ## Practice
 
-What character points out the current position in the file?
+Will the following code execute with no errors? If not chose the one you think will be thrown:
+```
+name = input('What\'s your name?')
+def interaction()
+  print(name)
+  my_name = 'Seba'
+  print(name)
+  if name is my_name:
+    print("We share the same name")
+```
 ???
 
-* `->`
-* `#`
-* `*`
+* SyntaxError: invalid syntax
+* ZeroDivisionError: devision by 0
+* The code will run with no errors
+* EOFError
 
 ---
 ## Revision
@@ -147,6 +157,6 @@ What character points out the current position in the file?
 When debugging a python file with `pdb`, which command will show the step-by-step process?
 ???
 
-* `next`
 * `step`
+* `next`
 * `go`
