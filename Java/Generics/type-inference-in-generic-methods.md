@@ -25,10 +25,11 @@ public <E> boolean oneBiggerThanTwo(
   //method is not necessarily
   //specified for all type 'E'
   //parameters
-  return Unil.compare(one, two);
+  return Util.compare(one, two);
 }
-
+```
 Then we can call it by:
+```
 boolean bool1 = <Integer>compare
                 (Integer.valueOf(13),
                 Integer.valueOf(37));
