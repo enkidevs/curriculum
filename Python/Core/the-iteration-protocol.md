@@ -24,7 +24,7 @@ The iteration protocol simply refers to the flow of actions that take place each
 
 Python's built-in function `iter` takes any `iterable` object and returns an iterator from that object.
 
-Each time we call the `next` method on the iterator given, it returns the next element in the `iterable` object. If no more elements remain in the `iterable` object, the iterator raises a `StopIteration` exception (AKA an error).
+Each time we call the `next` method on the iterator given, it returns the next element in the `iterable` object. If no more elements remain in the `iterable` object, the iterator raises a `StopIteration` exception[1].
 
 Iterators are always implemented as classes. Let's examine an iterator's code for a better understanding:
 
@@ -103,3 +103,11 @@ print(sum(iterator))
 * `15`, then `15`
 * `5`, then `5`
 * `5`, then `0`
+
+---
+## Footnotes
+
+[1:`StopIteration` exception]
+An exception is simply another word for an error. Taken directly from the Python 3.6 documentation:
+
+"Raised by built-in function `next()` and an iterator‘s `__next__()` method to signal that there are no further items produced by the iterator. The exception object has a single attribute value, which is given as an argument when constructing the exception, and defaults to None."
