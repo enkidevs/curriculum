@@ -16,10 +16,14 @@ There's a distinction to be made regarding *functions* and *methods*. In Python,
 
 What's special about these methods is the fact that to define them, they are passed a `self` parameter as the first argument. As stated above, they are part of an object (which includes classes):
 ```python
-def get_fahrenheit(func):
+# define a decorator
+def get_fahrenheit(method):
+  # as this decorator potentially targets
+  # methods, pass self as a parameter
   def wrapper(self):
+    # "self" argument is passed
     return "{0} F"
-      .format(func(self) * 1.8 + 32)
+      .format(method(self) * 1.8 + 32)
   return wrapper
 
 class Temperature(object):
@@ -34,23 +38,29 @@ temp = Temperature(15)
 print(temp.get_temp())
 # 59.0 F
 ```
-Notice the `self` argument passed to `wrapper` function. But this syntax has a flaw: if we are looking to use the **same decorator** for a function that takes *more than 1 argument*, how are we going to handle that? If to the above snippet we are going to add:
+We got it now working for methods. But what if we are looking to decorate methods, as well as standalone functions? We can extend this syntax and use the generic `*args`[1] and `**kwargs`[2] arguments to ensure that we handle any number of arguments required:
 ```python
-def get_fahrenheit(func):
-  def wrapper(self, arg1):
-    return "{0} F"
-      .format(func(self) * 1.8 + 32)
-  return wrapper
-```
-Whenever we will call `get_temp`, a *TypeError* will be thrown.
-
-We can extend this syntax and use the generic `*args`[1] and `**kwargs`[2] arguments to ensure that we handle any number of arguments required:
-```python
-def get_fahrenheit(func):
+def get_fahrenheit(method):
+  # exepect any number of args/named args
   def wrapper(*args, **kwargs):
     return "{0} F"
-      .format(func(*args, **kwargs)*1.8+32)
+     .format(method(*args,**kwargs)*1.8+32)
   return wrapper
+
+class Temperature(object):
+  def __init__(self, celsius):
+    self.degrees = celsius
+
+  @get_fahrenheit
+  #two extra arguments expected here
+  def get_temp(self, extra1, extra2 = 0,
+   extra3 = 0):
+    return self.degrees + extra1 + extra2
+     + extra3
+temp = Temperature(15)
+# self is passed by default
+print(temp.get_temp(3, extra2 = 1))
+# 66.2 F (instead of 59.0F)
 ```
 
 ---
@@ -102,24 +112,59 @@ mydict = {"a":1, "b":2,"c":3}
 ---
 ## Practice
 
-What is the operator used to unpack a dictionary?
-
+When defining a decorator, the most general syntax you can use is:
+```python
+# A
+def deco(func):
+  def wrapper(*args, **kwargs):
+    ...
+# B
+def deco(func):
+  def wrapper(**args, *kwargs):
+    ...
+# C
+def deco(func):
+  def wrapper(self):
+    ...
+# D
+def deco(func):
+  def wrapper(self, args, kwargs):
+    ...
+```
 ???
-
-* `**dict`
-* `*dict`
-* `__dict`
-* `dict.unpack()`
-
+* A
+* B
+* C
+* D
 
 ---
 ## Revision
 
-A method is a function that
+
+In case of a decorator that targets `methods`, which is a valid declaration?
+```python
+# A
+def deco(method):
+  def wrapper():
+    return method(1) + method(2)
+  return wrapper
+# B
+def deco(method):
+  def wrapper(self):
+    return method(self, 1) + method(self, 2)
+  return wrapper
+# C
+def deco(self):
+  def wrapper(method):
+    return method(self, 1) + method(self, 2)
+  return wrapper
+```
 
 ???
 
-* is part of an object
-* has exactly one argument
-* is nothing special, both having the same meaning
-* is decorated
+* B
+* C
+* A
+* A and C
+* A and B
+* they are all valid

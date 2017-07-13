@@ -46,6 +46,7 @@ def say_hello(name):
 long_wrap =
   div_decorate(h2_decorate(say_hello))
 print(long_wrap("Mike"))
+
 # @ notation
 @div_decorate
 @h2_decorate
@@ -53,13 +54,13 @@ def say_hello(name):
   return "Hello, {0}!".format(name)
 print(say_hello("Mike"))
 ```
-Both notations are equivalent to:
+Both approaches will result in:
 ```HTML
 <div><h2>Hello, Mike!</h2></div>
 ```
 ### Passing arguments
 
-In our case, all the decorators do is wrap a string in tags. This example is simple and straightforward and this might not always be the case. As the outcome is similiar for both our decorators (*div* and *h2*), we can take advantage of another feature: passing arguments to the decorator function through `@` notation.
+In our case, all the decorators do is wrap a string in tags. This example is simple and straightforward and this might not always be the case. As the outcome is similar for both our decorators (*div* and *h2*), we can take advantage of another feature: passing arguments to the decorator function through `@` notation.
 
 However, this syntax requires an additional enclosing function, as the **decorator** itself should only receive the function to be decorated as its sole parameter:
 ```python
@@ -77,28 +78,68 @@ def say_hello(name):
   return "Hello, {0}!".format(name)
 print(say_hello("Mike"))
 # <div><h2>Hello, Mike!</h2><div>
+
+@tags_wrapper("h2")
+@tags_wrapper("em")
+def say_goodbye(name):
+  return "Goodbye, {0}!".format(name)
+print(say_goodbye("Mike"))
+# <h2><em>Goodbye, Mike!<em></h2>
 ```
 
 ---
 ## Practice
 
-Could a function that executes another function a number of times be considered a decorator?
+Which of the following is `not` a potential valid way of decorating the function `foo`?
+```python
+# A
+foo = decorator(foo)
+# B
+@decorator
+def foo():
+  ...
+# C
+def decorator():
+  def foo():
+    ...
+# D
+@decorator(param)
+def foo():
+  ...
 
+
+```
 ???
-
-* Yes
-* No
-* Maybe
+* C
+* D
+* A
+* B
+* they are all valid
 
 
 ---
 ## Revision
 
-The maximum number of decorators a function can have is
-
+Which of the following is `not` a potential valid way of decorating the function `foo`?
+```python
+# A
+@decorator
+def foo():
+  ...
+# B
+@decorator(param)
+def foo():
+  ...
+# C
+foo = decorator(foo)
+# D
+def decorator():
+  def foo():
+    ...
+```
 ???
-
-* as many as needed
-* 1
-* 2
-* 63
+* D
+* C
+* A
+* B
+* they are all valid
