@@ -22,8 +22,9 @@ public <E> boolean oneBiggerThanTwo(
   E one, E two) {              
   //in this case we will have to use
   //our own Util class, as 'compare'
-  //method is necessarily specified
-  //for all type 'E' parameters
+  //method is not necessarily
+  //specified for all type 'E'
+  //parameters
   return Unil.compare(one, two);
 }
 
