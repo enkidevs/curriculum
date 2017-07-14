@@ -19,7 +19,7 @@ links:
 
 Suppose we have a situation where we have class `A` and class `B` which `extends A`. Then consider:
 ```
-B b = new B();                                 
+B b = new B();                           
 
 //this line works just fine     
 A a = b;        
