@@ -17,19 +17,19 @@ links:
 ---
 ## Content
 
-Suppose we have a situation where you have class `A` and class `B` which `extends A`. Then consider:
+Suppose we have a situation where we have class `A` and class `B` which `extends A`. Then consider:
 ```
-B b = new B();
+B b = new B();                                 
 
-//this line works just fine
-A a = b;
+//this line works just fine     
+A a = b;        
 List<B> listOfB = new ArrayList<>();
 
 //this line results
 //compile-time error
 List<A> listOfA = listOfB;
 ```
-The point being that although `b` is a subtype of `a`, `List<B>` is not an subtype of `List<B>`. Instead they are both subtypes of `List<?>`.
+The point being that although `b` is a subtype of `a`, `List<B>` is not an subtype of `List<A>`. Instead they are both subtypes of `List<?>`.
 ```
 List<? extends Integer> intList
                       = new ArrayList<>();
@@ -40,22 +40,20 @@ List<? extends Number>  numList = intList;
 ```
 
 **NOTE:** `<?>` is the same as `<? extends Object>` as `Object` is the top class in *Java*.
----
-## Practice
-
-What does the fox says?
-???
-
-* right answer
-* wrong answer
-* wrong answer 2
 
 ---
 ## Revision
+What is `<?>` equivalent to?
 
-What does the fox says?
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+Suppose we have `class A` and `class B extends A`.
+Considering the `B` is a subtype of `A`, is `List<B>` a suptype of `List<A>`?
+
+???
+
+* `<? extends Object>`
+* No
+* `<? super Object>`
+* Yes
+* In this case we can not tell
