@@ -48,7 +48,7 @@ What is `<?>` equivalent to?
 ???
 
 Suppose we have `class A` and `class B extends A`.
-Considering the `B` is a subtype of `A`, is `List<B>` a suptype of `List<A>`?
+Considering the `B` is a subtype of `A`, is `List<B>` a subtype of `List<A>`?
 
 ???
 
