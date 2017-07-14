@@ -17,7 +17,7 @@ links:
 ---
 ## Content
 
-Suppose we have a situation where we have class `A` and class `B` which `extends A`. Then consider:
+Suppose we have class `A` and class `B` which `extends A`. Then consider:
 ```
 B b = new B();                           
 
@@ -25,7 +25,7 @@ B b = new B();
 A a = b;        
 List<B> listOfB = new ArrayList<>();
 
-//this line results
+//this line results in 
 //compile-time error
 List<A> listOfA = listOfB;
 ```
