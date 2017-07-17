@@ -11,7 +11,7 @@ levels:
 
 type: normal
 
-category: tip
+category: feature
 
 parent: datetime-module
 
@@ -49,7 +49,7 @@ Basic constructor:
 ```python
 import datetime
 d = datetime.date(2015,5,2)
-print(d) 
+print(d)
 # 2015-05-02
 print (d.year, d.month, d.day)
 # 2015 5 2
@@ -82,11 +82,11 @@ d = ???.date.???()
 print(d)
 ```
 
-*`datetime` 
-*`today` 
-*`dt` 
-*`Date` 
-*`current` 
+*`datetime`
+*`today`
+*`dt`
+*`Date`
+*`current`
 *`now`
 
 ---
@@ -98,11 +98,11 @@ Complete the code snippet:
 import ???
 d = datetime.???(2016, 08, 12)
 print(d)
-``` 
+```
 
-*`datetime` 
-*`date` 
-*`dt` 
-*`Date` 
-*`today` 
+*`datetime`
+*`date`
+*`dt`
+*`Date`
+*`today`
 *`set`
