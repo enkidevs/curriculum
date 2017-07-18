@@ -37,7 +37,7 @@ class Enki:
 Get all **writable** attributes of your `class object`:
 ```python
 print(Enki.__dict__)
-# {... 'pi': 3.14, '__module__': '__main__ }
+#{... 'pi': 3.14, '__module__': '__main__ }
 
 ```
 Get the metaclass of `Enki`:
@@ -70,7 +70,7 @@ print(Enki.f.__qualname__)
 Get all classes considered when looking for **base classes**, i.e. the MRO (Method Resolution Order):
 ```python
 print(Enki.__mro__)
-#(<class '__main__.Enki'>, <class 'object'>)
+#(<class '__main__.Enki'>,<class 'object'>)
 ```
 
 ---

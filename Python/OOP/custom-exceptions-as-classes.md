@@ -56,7 +56,7 @@ __main__.ErrOne
 ## Practice
 
 With the help of inheritance, create your custom exception:
-```
+```python
 ??? AuthenticationError(???):
    print('Wrong username or password')
 ```
@@ -66,7 +66,7 @@ With the help of inheritance, create your custom exception:
 *`inherit`
 *`extend`
 *`error`
-*`exc``ep``tion`
+*`exception`
 
 ---
 ## Revision
