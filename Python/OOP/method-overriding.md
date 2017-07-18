@@ -33,7 +33,7 @@ links:
 
 Python does not have special syntax for method overriding.
 
-To *override* a parent method, the child class should define a method with the **exact** same name as its parents.
+To *override* a parent method, the child class should define a method with the **exact** same name and parameters as its parent's.
 
 ```python
 class Animal:
@@ -52,7 +52,7 @@ bird.identify()
 
 To add some behavior to a method but also use the parent method behavior, use `super()`:
 ```python
-# No change to class Animal from above
+# No changes made to the class Animal
 # Change class Bird to:
 class Bird(Animal):
     def identify(self):
@@ -71,12 +71,13 @@ I am a bird
 ---
 ## Practice
 
-If you do not want to override the behaviour of a parent class, but just to extend it you can use the ??? keyword.
 
-*`super` 
-*`yield` 
-*`await` 
-*`extend` 
+To extend the functionality of a parent's class method, but not override it, you can use the ??? function.
+
+*`super`
+*`yield`
+*`await`
+*`extend`
 *`return`
 
 ---
@@ -84,5 +85,5 @@ If you do not want to override the behaviour of a parent class, but just to exte
 
 Python ??? have special syntax for method overriding.
 
-*`does not` 
+*`does not`
 *`does`
