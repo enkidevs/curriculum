@@ -16,8 +16,8 @@ We've talked a bit about how *referencing* works in Python and how assigning two
 ```python
 m = [1, 2]
 n = m
-m = [205]
-n = [3]
+m = [ 205 ]
+n = [ 3 ]
 ```
 The first two lines of code can be represented like this (an oversimplified link):
 ```bash
@@ -32,11 +32,11 @@ The first two lines of code can be represented like this (an oversimplified link
 The next two lines yield something different:
 ```bash
 # physical memory
-[205]    [1, 2]    [3]
-  |                 |
-------------------------
-  |                 |
-  m                 n
+[ 205 ]    [1, 2]    [ 3 ]
+   |                   |
+---------------------------
+   |                   |
+   m                   n
 # Python's memory heap
 ```
 The object represented by the list `[1, 2]` is no longer in scope. In order to *avoid memory leaks* (we will focus on these in the next insight), the **garbage collector** (gc) has to step in and mark the memory address as free.

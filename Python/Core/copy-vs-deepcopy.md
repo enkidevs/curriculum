@@ -16,7 +16,7 @@ Extending the example in the previous insight, we could end up in a situation in
 
 We've seen that the assignment only won't work:
 ```python
-m = [1]
+m = [1 ]
 n = m
 n.append(2)
 print(m)
@@ -24,7 +24,7 @@ print(m)
 ```
 Python *3.3* introduced a new list method to achieve a **shallow copy**:
 ```python
-m = [1]
+m = [1 ]
 n = m.copy()
 n.append(2)
 print(m)
@@ -37,7 +37,7 @@ A shallow copy is a first-layer only copy of the container: any reference to a m
 m = [1, []]
 n = m.copy()
 n.append(2)
-n[1].append(3) # access the list inside
+n[1 ].append(3) # access the list inside
 print(n)
 # [1, [3 ], 2]
 print(m)
