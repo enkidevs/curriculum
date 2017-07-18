@@ -24,9 +24,9 @@ links:
 ---
 ## Content
 
-Python *objects*/*classes*/*instances* have several more **read-only** attributes, some of which are not reported by the `dir()` function.
+Python *objects/classes/instances* have several more **read-only** attributes, some of which are not reported by the `dir()` function.
 
-Attributes are a way of getting from one object to another.
+Attributes are ways of getting from one object to another.
 
 Suppose we have the class:
 ```python
@@ -34,13 +34,13 @@ class Enki:
     pi = 3.14
 ```
 
-Get all **writable** attributes of your `object`:
+Get all **writable** attributes of your `class object`:
 ```python
 print(Enki.__dict__)
 # {... 'pi': 3.14, '__module__': '__main__ }
 
 ```
-Get the `class`'s class:
+Get the metaclass of `Enki`:
 ```python
 print(Enki.__class__)
 # <class 'type'>
@@ -54,7 +54,18 @@ print(Enki.__name__)
 
 ```
 
-To get the **qualified name**, the `class.__qualname__` attribute is available in Python 3.3.
+To get the **qualified name** (the name plus the level of nesting), the `class.__qualname__` attribute is available in Python 3.3:
+```python
+class Enki:
+    pi = 3.14
+    def f():
+      pass
+
+print(Enki.f.__name__)
+# f
+print(Enki.f.__qualname__)
+# Enki.f
+```
 
 Get all classes considered when looking for **base classes**, i.e. the MRO (Method Resolution Order):
 ```python
@@ -68,22 +79,22 @@ print(Enki.__mro__)
 Get all the writable attributes of your object:
 
 ```
-print(Enki.???) 
+print(Enki.???)
 ```
-*`__dict__` 
-*`__dict` 
-*`dict` 
-*`dict__`
+*`__dict__`
+*`dict`
+*`dir()`
+*`__dir__`
 
 ---
 ## Revision
 
-Get the class’s class:
+Get the class’s metaclass:
 
 ```
-print(Enki.???) 
+print(Enki.???)
 ```
 *`__class__`
-*`__class` 
-*`class__` 
+*`class()`
+*`__meta__`
 *`class`
