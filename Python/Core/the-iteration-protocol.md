@@ -15,7 +15,7 @@ category: must-know
 
 links:
 
-  - '[link to learn more](https://enki.com)'
+  - '[Iteration Protocol](https://medium.com/the-python-corner/iterators-and-generators-in-python-2c3929a144b)'
 
 ---
 ## Content
