@@ -20,11 +20,13 @@ Depending on the operating system you are working on (such as *Unix* or *Windows
 
 For example in *Linux Steam* folder has this path: `~/.local/share/Steam` while in *Windows* the path is `C:\Program Files\Steam`. As we can see, the file separator character (`/` and `\`) is different depending on the OS.
 
-Some files and directories related properties:
+In order to access system properties we must call `System.getProperty("path.separator")` with a specific argument provided in this case `"path.separator"`.
+
+Some files and directories related statements:
  - `file.separator` - returns character that separates components of a file path
  - `user.home` - returns user home directory
  - `user.dir` - returns user working directory
- - `path.separator` - returns path separator character used in `java.class.path`. This character is used to separate individual file paths from each other when they are going one after another. 
+ - `path.separator` - returns path separator character used in `java.class.path`. This character is used to separate individual file paths from each other when they are going one after another (`:` on Unix and `;` on Windows).
 
 **NOTE:** sometimes accessing these properties can be restricted due to the security manager of the system.
 
