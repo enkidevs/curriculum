@@ -9,28 +9,33 @@ type: normal
 
 category: must-know
 
+links:
+
+- >-
+  [More on ArrayLists](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html){website}
+
 ---
 ## Content
 
-*Arrays* and *Linked Lists* are similar in terms that they both store their elements linearly. The difference thought comes in the implementation concept. While arrays are fixed in size linked lists can be increased and decreased in size easily. Both of these data structures have their advantages over one another.
+*Arrays* and *ArrayLists* are similar in terms that they both store their elements linearly. The difference thought comes in the implementation concept. While arrays are fixed in size linked lists can be increased and decreased in size easily. Both of these data structures have their advantages over one another.
 
-Arrays:
-* Fixed in size which implies that if it has been predefined, then it occupies the same amount of memory through out its' lifetime.
-* Arrays support random access meaning that we can access any position at any time.
-* Linked Lists occupy more memory even with the same exact elements as they must store pointer information.
+The declaration of these structures is:
+```
+//Fixed size array declaration, type int
+int[] array = new int[3];
 
-Linked Lists:
-* Can be changed in length easily.
-* We don't need to know our position in a list in order to access the next element as we are provided with pointers.
+//ArrayList with starting length of 4
+ArrayList<Integer> arrList =
+                 new ArrayList<Integer>(4);
+```
+You can think of an `ArrayList` as being an advanced version of an `Array` with a lot more inbuilt functionality. The full list of methods can be found in the link in *Learn More* section.
+
+Of course this means that `Arrays` are more compact and occupy a lot less memory which can be the deciding factor when working with limited resources.
 
 ---
 ## Practice
 
 Why are arrays more memory efficient?
-
-???
-
-Why are arrays more memory safe?
 
 ???
 
@@ -45,4 +50,4 @@ Which data structure is of a fixed length?
 ???
 
 * Array
-* Lindked List
+* ArrayList
