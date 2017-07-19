@@ -19,7 +19,7 @@ links:
 
 In this workout we will discuss some features that can be done with the files and directories using *Java* language. *File* class is part of the *java.io* library and has a lot of inbuilt functionality. More information on what cool features it has can be found in Oracle documentation, link is provided in the **footnotes**.
 
-In order to rename a file we can use *java.io.File.renameTo()* function. This method returns a `boolean` value which indicates whether the renaming operation was successful or not, it also can throw *NullPointerException* or *SecurityException*.
+In order to rename a file we can use `java.io.File.renameTo()` function. This method returns a `boolean` value which indicates whether the renaming operation was successful or not, it also can throw *NullPointerException* or *SecurityException*.
 
 *renameTo(File parameter)* takes in a new file path argument i.e. the destination where you want to copy the original file. This means that not only can we rename the file but can also move it to another directory.
 
@@ -53,11 +53,11 @@ public class Main {
 ---
 ## Practice
 
-What does the the `renameTo()` method take as a parameter?
+What does the `renameTo()` method take as a parameter?
 
 ???
 
-What is the return value of a `renameTo()` method?
+What is the return value of the `renameTo()` method?
 
 ???
 
@@ -75,7 +75,7 @@ Why is it important to use try/catch block when working with files?
 ---
 ## Revision
 
-Can the `renameTo()` method be used to move a file to another directory?
+Can the `File.renameTo()` method be used to move a file to another directory?
 
 ???
 

@@ -16,15 +16,15 @@ links:
 ---
 ## Content
 
-Depending on the system you are working on such as *Unix* or *Windows*, its' settings can be different and must be taken into account as the same code may not work on a different machines. There are a lot of useful properties which *Java* provides us with its' APIs. A lot of them are related to files and directories.
+Depending on the operating system you are working on (such as *Unix* or *Windows*), its system properties might differ from the others. To be sure your code will also work on other machines, Java's API provides some useful properties that automatically change to fit the running OS.
 
-Such can be:
-* `file.separator` - returns character that separates components of a file path
-* `user.home` - returns user home directory
-* `user.dir` - returns user working directory
-* `path.separator` - returns path separator character used in `java.class.path`
+For example in *Linux Steam* folder has this path: `~/.local/share/Steam` while in *Windows* the path is `C:\Program Files\Steam`. As we can see, the file separator character (`/` and `\`) is different depending on the OS.
 
-There are a lot more properties which are worth knowing about. The link is provided in the *Learn More* section.
+Some files and directories related properties:
+ - `file.separator` - returns character that separates components of a file path
+ - `user.home` - returns user home directory
+ - `user.dir` - returns user working directory
+ - `path.separator` - returns path separator character used in `java.class.path`. This character is used to separate individual file paths from each other when they are going one after another. 
 
 **NOTE:** sometimes accessing these properties can be restricted due to the security manager of the system.
 
