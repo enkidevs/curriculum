@@ -1,4 +1,4 @@
-# Generator of generators.
+# Generator of generators
 author: SebaRaba
 
 levels:
@@ -52,7 +52,7 @@ Finally, we print a list containing the first 10 *elements* of the *Fibonacci se
 ---
 ## Practice
 
-We want to generate the frist n perfect squares. Fill the gaps accordingly:
+We want to generate the first `n` perfect squares. Fill the gaps accordingly:
 
 ```
 def perfect_square():
@@ -87,7 +87,8 @@ def n_power(g,n):
     for i in range(n):
       yield next(g)
 
-print(list(n_power(power_of_two(), 4)))
+print(list(n_power(
+  power_of_two(), 4)))
 ```
 ???
 

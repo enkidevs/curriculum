@@ -81,16 +81,23 @@ def countdown(num):
 Consider the following snippet:
 ```
 def double(L):
-  for x in __:
-    __ x*2
+  for x in ???:
+    ??? x*2
 
 my_gen = double([1, 2, 3, 4, 5])
 
-print(__(my_gen))
+print(???(my_gen))
+print(next???)
 ```
-Suppose we want to print the doubled value for the first 2 numbers in the list. Fill the gaps accordingly.
-???
 
-* L, yield(), next()
-* L, next(), yield()
-* T, yield(), yield()
+Suppose we want to print the doubled value for the first 2 numbers in the list. Fill the gaps accordingly.
+
+
+* `L`
+* `yield`
+* `next`
+* `(my_gen)`
+* `my_gen`
+* `next()`
+* `yield()`
+* `T`
