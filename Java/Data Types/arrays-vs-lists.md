@@ -11,8 +11,8 @@ category: must-know
 
 links:
 
-- >-
-  [More on ArrayLists](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html){website}
+ - '[More on ArrayLists](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html)'
+ - '[More on Arrays](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)'
 
 ---
 ## Content
@@ -28,9 +28,6 @@ int[] array = new int[3];
 ArrayList<Integer> arrList =
                  new ArrayList<Integer>(4);
 ```
-You can think of an `ArrayList` as being an advanced version of an `Array` with a lot more inbuilt functionality. The full list of methods can be found in the link in *Learn More* section.
-
-Of course this means that `Arrays` are more compact and occupy a lot less memory which can be the deciding factor when working with limited resources.
 
 ---
 ## Practice
