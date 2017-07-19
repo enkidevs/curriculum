@@ -11,50 +11,43 @@ category: must-know
 
 links:
 
-  - '[more about errors and exceptions](http://www.python-course.eu/python3_exception_handling.php)'
+  - '[More about errors and exceptions](http://www.python-course.eu/python3_exception_handling.php)'
 
 ---
 ## Content
 
-We can distinguish at least two types of **errors** in **Python**: **syntax errors** and **exceptions**.
+We can distinguish at least two types of errors in Python: **syntax errors** and **exceptions**.
 
-**Syntax errors**, also known as **parse errors**. They are the most common problem beginner programmers encounter while learning **Python**. The parser displays a little **arrow** pointing to the first character where the **error** was detected.
-
-```
+**Syntax errors**, also known as **parse errors**, are the most common problem beginner programmers encounter. In their case, the parser displays a little **arrow** pointing to the first character where the error was detected:
+```python
 def func():
 value = 5
 return value
 
-#Parser message:
-
-File "test", line 2
-  value = 12
-     ^
-IndentationError: expected
-         an indented block
+# File "test", line 2
+#   value = 12
+#      ^
+# IndentationError: expected
+#         an indented block
 ```
 
-Indentation in Python is very important. We want the **variable** to be assigned and returned in the **function body**. As the **error** states, we need to properly indent the code:
-
-```
+Indentation in Python is very important. We want the **variable** to be assigned and returned in the **function body**. As the error states, we need to properly indent the code:
+```python
 def func():
     value = 5
     return value
 ```
 
-However, even if the code is **syntactically correct**, we can still encounter errors when executing the program. Errors detected while executing the program are called **exceptions**. There are types of exceptions which cause the program to stop executing and types of exceptions which can be handled.
-
-```
+However, even if the code is *syntactically correct*, we can still encounter errors when executing the program. Errors detected while executing the program are called **exceptions**. There are types of exceptions which cause the program to stop executing and types of exceptions which can be handled.
+```python
 number = 10 + (10/0)
 
-#Compiler message:
-
-Traceback (most recent call last):
-File "test", line 1
-ZeroDivisionError: division by 0
+# Traceback (most recent call last):
+# File "test", line 1
+# ZeroDivisionError: division by 0
 ```
 
-The **exception message** provides information about the **type** of the exception occurred and what caused it.
+The **exception message** provides information about the type of the exception occurred and what caused it.
 
 The **message body** displays:
 - the context where in our code the exception was encountered;
@@ -63,10 +56,10 @@ The **message body** displays:
 ---
 ## Practice
 
-Based on its description, what's the error the parser is mostly likely to throw?
-```
+Based on its description, what's the error the parser is most likely to throw?
+```python
 def sum():
-  1 + `10`
+  return 1 + '10'
 ```
 ???
 

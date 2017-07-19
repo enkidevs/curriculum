@@ -13,20 +13,19 @@ category: must-know
 
 links:
 
-  - '[more info about python debugger](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger)'
+  - '[Python debugger](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger)'
 
 ---
 ## Content
 
-The **Python debugger**[1] comes as a module called `pdb`, which is part of the **standard Python** distribution.
+The **Python debugger** comes as a module called `pdb`, which is part of the **standard Python** distribution.
 
 We will consider a program with two **global variables**, a function that creates a **nested loop** and the `if _name_ == '_main_'` statement that calls the nested loop:
-
-```
+```python
 #Program name: debug.py
 
-number_list = [10, 20, 30]  
-chars_list = ['a', 'b', 'c']
+number_list = [1, 2]  
+chars_list = ['a', 'b']
 
 def nested_loop():
     for nr in number_list
@@ -40,13 +39,13 @@ if _name_ == '_main_':
 
 Running the **debugger** from the command line causes it to load your **source file** and stop the execution before the first statement it finds:
 
-```
+```bash
 $ python3 -m pdb debug.py
 
 #Console output:
 
 > /Users/seba/debug.py(1)<module>()
--> num_list = [10, 20, 30]
+-> num_list = [1, 2]
 (Pdb)
 ```
 
@@ -60,11 +59,10 @@ As the **debugger** is an interactive tool, it provides three commands for navig
 - `next`
 
 Considering the **source code** exemplified above, lets see how `list()` command works:
-
-```
+```sh
 (Pdb) list
-1  -> num_list = [10, 20, 30]
-2     chars = ['a', 'b', 'c']
+1  -> num_list = [1, 2]
+2     chars = ['a', 'b']
 3     
 4     
 5     def nested_loop():
@@ -76,12 +74,11 @@ Considering the **source code** exemplified above, lets see how `list()` command
 11     if __name__ == '__main__':
 (Pdb)
 ```
-
 The current line is indicated by the `->` character. This command is provided with two **optional arguments**, they must be two `int` values which define the range of lines the user wants to list (eg: `list 5, 11`). Without providing any arguments, the `list` command prints 11 lines above and below the current line.
 
 The `step` command will **iterate** through the loops showing exactly what the **loop** is doing. The difference between `step` and `next` is that `step` will stop within a called function, while `next` executes called functions to only stop at the next line of the current function.
 
-```
+```bash
 (Pdb) step
 > /Users/seba/debug.py(5)<module>()
 -> def nested_loop():
@@ -123,31 +120,24 @@ b
 (Pdb)  
 ```
 
-Finally, whenever you want to leave `pdb` console, type the command `quit` or `exit`.
-
----
-## Footnotes
-
-[1:Python debugger]
-It's extensible, being defined as the class `Pdb`.
+Finally, whenever you want to leave `pdb` console, type `quit` or `exit`.
 
 ---
 ## Practice
 
-Will the following code execute with no errors? If not chose the one you think will be thrown:
+What is the error this snippet will throw?
 ```
-name = input('What\'s your name?')
+name = input('What\'s your name?\n')
 def interaction()
   print(name)
   my_name = 'Seba'
-  print(name)
   if name is my_name:
-    print("We share the same name")
+    print("We have the same name!")
 ```
 ???
 
 * SyntaxError: invalid syntax
-* ZeroDivisionError: devision by 0
+* ZeroDivisionError: division by 0
 * The code will run with no errors
 * EOFError
 
@@ -155,6 +145,7 @@ def interaction()
 ## Revision
 
 When debugging a python file with `pdb`, which command will show the step-by-step process?
+
 ???
 
 * `step`

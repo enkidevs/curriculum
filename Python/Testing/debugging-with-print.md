@@ -1,4 +1,4 @@
-# Debugging with print()
+# Debugging
 author: SebaRaba
 
 levels:
@@ -13,16 +13,16 @@ category: must-know
 
 links:
 
-  - '[more about debugging](https://pythonconquerstheuniverse.wordpress.com/2009/09/10/debugging-in-python/)'
+  - '[More about debugging](https://pythonconquerstheuniverse.wordpress.com/2009/09/10/debugging-in-python/)'
 
 ---
 ## Content
 
-It doesn't matter how experienced a programmer is, there will always be mistakes in his **code**.
+No matter how experienced programmers are, there will always be mistakes in their **code**.
 
-Debugging means understanding what is going *wrong* with the code. There are many ways to debug a program, but we will focus on the most basic one in this insight. Debugging using the `print()` statement.
+Debugging means understanding what is going *wrong* with the code. There are many ways to debug a program, but we will focus on the most basic one in this insight: debugging using the `print()` statement.
 
-Usually, developers start with printing everything for a better understanding. Basically what happens is: we look at the **values** of **variables** at specific **times**.
+Usually, developers start by printing everything for a better understanding: **watching** how **variables**' values change over time.
 
 Consider the following example:
 ```
@@ -35,8 +35,7 @@ Consider the following example:
 7  print("Welcome!")
 ```
 
-Let's suppose we wanted `"Welcome!"` to be printed. In this simple case, we have only an `if` statement to check. A **useful trick** for debugging is printing the value of `x` and try to follow the code with that value in mind.
-
+Let's suppose we wanted `"Welcome!"` to be printed. In this simple case, we have only an `if` statement to check. A **useful trick** for debugging is printing the value of `x` and following the execution of the code:
 ```
 1  def foo():
 2    return 6
@@ -46,41 +45,44 @@ Let's suppose we wanted `"Welcome!"` to be printed. In this simple case, we have
 6    x += 1
 7  print("Line  7, x=", x)
 8  if x > 19:
-9  print("Line 9, x=", x)
-10 print("Welcome!")
+9   print("Line 9, x=", x)
+10  print("Welcome!")
 
-# Output:
-# Line 4, x=8
+# Line 4, x=6
 ```
 
-Now we know that `x` was initialised with value `8` from `foo()`. The bug here is that the while condition will always be `True`. We can see that the while is causing problems as just the first print produces output.
+Now we know that `x` was initialized with value `6` because of `foo()`. The bug here is that the while condition will always evaluate `True` and the program is stuck in an infinite loop: we can assume that because the second `print` statement is never called.
 
 ---
 ## Practice
 
-What value do you think will be printed at `print("Line 6:", x)`?
+
+What value will be printed by `print("Line 6:", x)`?
 ```
 def counter(x):
   print("Line 2:", x)
   while x > 0:
     print(x)
-    x += 1
+    x -= 1
   print("Line 6:", x)
 
 counter(3)
 ```
 ???
 
-* The program will get stuck in the while loop.
 * 0
 * 3
+* 1
+* 6
+* Nothing, the program is stuck in an infinite loop
 
 ---
 ## Revision
 
-Name an ad-hoc method that can be used for debugging?
+Which of the following is an ad-hoc debugging method?
+
 ???
 
-* using `print()`
-* The only way to debbug a python program is importing a debugging specific module
+* print()
+* debugging modules
 * Python doesn't support debugging
