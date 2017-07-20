@@ -20,6 +20,24 @@ Another pattern which is common for the object oriented development is *Facade*.
 
 Example: suppose our system is capable of taking two 2D points and calculate distance between them. Suppose that the end user desires to get perimeter and area of a 2D shape without calculating it manually. Then we could create a facade class specific to the task that takes in a basic array of vertices:
 
+```
+public class FacadeShape {
+
+  private Distance d = new Distance();
+
+  public double getPerimeter(int[] vert) {
+    //use d.getDistance() over all point
+    //to get perimeter
+    return p;
+  }
+
+  public double getArea(int[] vert) {
+    //use d.getDistance() over all point
+    //to get perimeter
+    return a;
+  }
+}
+```
 
 ---
 ## Revision
