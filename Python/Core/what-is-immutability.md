@@ -55,7 +55,8 @@ Second, immutable objects are easier to reason about through their life cycle, s
 For example, see the following code:
 
 ```python
-conn = http.client.HTTPConnection("http://example.com", 80)
+conn = http.client.HTTPConnection(
+  "http://example.com", 80)
 method = "POST" # Both dependent on this!
 conn.request(method, "/")
 r1 = conn.getresponse()
@@ -68,7 +69,8 @@ This code works correctly. However, we've introduced what is known as **'tempora
 If each `request` were used in a more individual, standalone way:
 
 ```python
-conn = http.client.HTTPConnection("http://example.com", 80)
+conn = http.client.HTTPConnection(
+  "http://example.com", 80)
 conn.request("POST", "/")
 r1 = conn.getresponse()
 conn.request("POST", "/", "text=hello")
