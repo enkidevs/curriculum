@@ -43,17 +43,19 @@ The following **output** will be produced:
 multiply_nose.test_one ... ok
 multiply_nose.test_two ... FAIL
 
-======================================================================
+=======================================
 FAIL: multiply_nose.test_two
-----------------------------------------------------------------------
+---------------------------------------
 Traceback (most recent call last):
-  File "/usr/lib/python3/dist-packages/nose/case.py", line 198, in runTest
+File "python3/dist-packages/nose/case.py",
+  line 198, in runTest
     self.test(*self.arg)
-  File "/home/seba/Desktop/multiply_nose.py", line 8, in test_two
+  File "/home/seba/Desktop/multiply_nose.py"
+    line 8, in test_two
     assert multiply(3, 2) == 5
 AssertionError
 
-----------------------------------------------------------------------
+---------------------------------------
 Ran 2 tests in 0.001s
 
 FAILED (failures=1)
@@ -80,7 +82,7 @@ What will be the test label if an `AssertionError` is thrown?
 ---
 ## Revision
 
-In terms of basic syntax, `nose` and `pytest` are 
+In terms of basic syntax, `nose` and `pytest` are
 
 ???
 
