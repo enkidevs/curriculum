@@ -13,25 +13,23 @@ category: must-know
 
 links:
 
-  - '[more information about doctests](https://docs.python.org/3/library/doctest.html)'
+  - '[More on doctests](https://docs.python.org/3/library/doctest.html)'
 
 ---
 ## Content
 
-**Doctest** enable users to test their code by running examples **embedded** in the program comments and verifying that they produce the **expected output**.
+**Doctest** enable users to test their code by running examples **embedded** in the program comments and verifying that they produce the expected output.
 
-We begin by importing the next module:
-
-```
+We begin by importing the *doctest* module and defining a function:
+```python
 # doctest_mock.py
 import doctest
 
 def multiply(a, b):
     return a * b
 ```
-Consider the following **doctest** example:
-
-```
+Then, define the tests inside the function's docstring[1]:
+```python
 # doctest_mock.py
 import doctest
 
@@ -46,7 +44,10 @@ def multiply(a, b):
 
     >>> multiply('a',3)
     'aaa'
+    >>> multiply('a',0)
+    ''
     """
+
     return a * b
 
 if __name__ == '__main__':
@@ -54,21 +55,14 @@ if __name__ == '__main__':
 
 ```
 
-To make use of **doctest**, we need:
-- to call this module in a **Python** interactive shell and run it with some values;
-- afterwards we copy the session of the interactive shell into the docstring[1] of our **function**.
-- finally, to start the **module doctest** we have to call the **method** `testmod()`, but only if the module is called **standalone**[2].
+Text documentation (`"Test for numbers:"`, `"Test for chars:"`) isn't taken into account by **doctest**. The module looks for lines beginning with the interpreter prompt (`>>>`), which marks the start of a *test case*. Either a blank line or another interpreter prompt end the test case.
 
-**Note** that normal text documentations usually contain isn't affected by **doctest**. It looks for lines beginning with the interpreter prompt (`>>>`) to find the beginning of a **test case**. The case is ended by a blank line or the next interpreter prompt.
-
-Running **doctests** without any flag wouldn't generate any output, but if the `-v` flag is passed, a **detailed log** will be printed:
-
-```
+Running **doctests** without any flag won't generate any output if the *tests pass*, but if the `-v` flag is passed, a **detailed log** will be printed:
+```bash
 $ python doctest_mock.py -v
 ```
-
 The output:
-```
+```python
 Trying:
     multiply(3, 3)
 Expecting:
@@ -79,12 +73,17 @@ Trying:
 Expecting:
     'aaa'
 ok
+Trying:
+    multiply('a', 0)
+Expecting:
+    ''
+ok
 1 items had no tests:
     __main__
 1 items passed all tests:
-   2 tests in __main__.multiply
-2 tests in 2 items.
-2 passed and 0 failed.
+   3 tests in __main__.multiply
+3 tests in 2 items.
+3 passed and 0 failed.
 Test passed.
 ```
 
@@ -95,25 +94,13 @@ Test passed.
 An object's docstring is defined by including a string constant (documentation) as the first
 statement in the object's definition.
 
-[2: standalone]
-It's not part of any other module.
-
----
-## Practice
-
-What is the output of the doctest if no flag is passed?
-???
-
-* There will be no output printed.
-* It states, in a concise form, what each test does.
-* It prints the test results in a verbose form.
 
 ---
 ## Revision
 
-How does doctest find a new test case in the documentation?
+How does `doctest` find a new test case in the documentation?
 ???
 
-* It searches for lines that begin with interpreter prompt (`>>>`).
+* It searches for lines that begin with the interpreter prompt (`>>>`).
 * It searches for any strings in the documentation.
 * It knows that tests begin after an empty line.

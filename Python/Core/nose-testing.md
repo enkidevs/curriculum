@@ -13,59 +13,64 @@ category: must-know
 
 links:
 
-  - '[more about nose testing](http://pythontesting.net/framework/nose/nose-introduction/)'
+  - '[Node introduction](http://pythontesting.net/framework/nose/nose-introduction/)'
 
 ---
 ## Content
 
-**Nose** is a well known **python** unit **test framework**, and can run **doctests** and **unittests**.
+**Nose** is another unit testing framework, which can run both **doctests** and **unittests**.
 
-**Nose** and **pytest** have similar **syntax** up to the point where you get into extra features such as **fixtures**, **plugins** or **assert mechanisms**. This is why we'll use the same **test** we defined for `multiply` method in the **pytest** insight:
+**Nose** and **pytest** have a similar synta,x up to the point where you get into advanced features such as *fixtures*, *plugins* or *assert mechanisms*. This is why we'll use the same test we defined for `multiply` method in the **pytest** insight:
+```python
+# multiply_nose.py
 
-```
-# multiply.py
+def multiply(a, b):
+    return a * b
 
-from unnecessary_math import multiply
+def test_one():
+    assert multiply(2, 3) == 6
 
-def test_numbers_3_4():
-    assert multiply(3,4) == 12
-
-def test_strings_a_3():
-    assert multiply('a',3) == 'aaa'
+def test_two():
+    assert multiply(3, 2) == 5
 ```
 
 For this example we'll **run** the test with `-v` (verbose) flag:
-
-```
-nosetests -v multiply.py
+```bash
+$ nosetests -v multiply.py
 ```
 The following **output** will be produced:
+```bash
+multiply_nose.test_one ... ok
+multiply_nose.test_two ... FAIL
 
+======================================================================
+FAIL: multiply_nose.test_two
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/nose/case.py", line 198, in runTest
+    self.test(*self.arg)
+  File "/home/seba/Desktop/multiply_nose.py", line 8, in test_two
+    assert multiply(3, 2) == 5
+AssertionError
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (failures=1)
 ```
-test_nose.test_numbers_3_4 ... ok
-test_nose.test_strings_a_3 ... ok
 
----------------------------------
-Ran 2 tests in 0.000s
+As you can see **nose**'s output is similar to the one produced by **unittests**. There are two main parts. The one above the equal signs, which gives detailed information on how each test was evaluated.
 
-OK
-```
-
-As you can see **nose**'s output is similar to the one produced by **unittests**.
-
-There are two main parts:
-
-The one above the dashes, which gives detailed information on how each **test ran**.
-
-The one beyond the dashes states the number of test that ran and a final label which can mean:
+The one below the equal signs which states the number of test that ran and a final label which can mean:
 - `OK` test passes;
-- `FAILED` the test fails and rises `AssertionError`;
-- `ERROR` the test fails and doesn't rise `AssertionError`.
+- `FAILED` the test fails and rises `AssertionError`
+- `ERROR` the test fails and doesn't rise `AssertionError`
 
 ---
 ## Practice
 
-What will the test label state if we encounter an `AssertionError`?
+What will be the test label if an `AssertionError` is thrown?
+
 ???
 
 * `FAILED`
@@ -75,10 +80,10 @@ What will the test label state if we encounter an `AssertionError`?
 ---
 ## Revision
 
-The right syntax for running nose tests with verbose flag is: `___ name_of_the_file.py`?
+In terms of basic syntax, `nose` and `pytest` are 
+
 ???
 
-* `nosetests -v`
-* `python -v`
-* `nosetest -v`
-* `nosetests -vb`
+* similar
+* small differences
+* not at all alike
