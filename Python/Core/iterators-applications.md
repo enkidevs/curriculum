@@ -1,4 +1,4 @@
-possibility# Iterators Applications
+# Iterators Applications
 author: stefkn
 
 levels:
