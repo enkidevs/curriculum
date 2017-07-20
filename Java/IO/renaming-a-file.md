@@ -17,11 +17,11 @@ links:
 ---
 ## Content
 
-In this workout we will discuss some features that can be done with the files and directories using *Java* language. *File* class is part of the *java.io* library and has a lot of inbuilt functionality. More information on what cool features it has can be found in Oracle documentation, link is provided in the **footnotes**.
+In this workout we will discuss some features that can be done with the files and directories using *Java* language. *File* class is part of the *java.io* library and has a lot of inbuilt functionality. More information on what cool features it has can be found in Oracle documentation.
 
 In order to rename a file we can use `java.io.File.renameTo()` function. This method returns a `boolean` value which indicates whether the renaming operation was successful or not and it also can throw *NullPointerException* or *SecurityException*.
 
-*renameTo(File parameter)* takes in a new file path argument i.e. the destination where you want to copy the original file. This means that not only can we rename the file but can also move it to another directory.
+`renameTo(File parameter)` takes in a new file path argument i.e. the destination where you want to copy the original file. This means that not only can we rename the file but can also move it to another directory.
 
 Example:
 ```
@@ -39,7 +39,7 @@ public class Main {
     try {
       //renaming a file path
       if(gameHacks.renameTo(gtaHacks)) {
-        System.out.println("");
+        System.out.println("Success");
         } else {
           System.out.println("Error");
         }
