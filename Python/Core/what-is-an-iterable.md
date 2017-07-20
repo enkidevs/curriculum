@@ -18,6 +18,7 @@ links:
   - '[A slower, more detailed explanation](https://stackoverflow.com/a/18744706)'
   - '[Double-underscores in Python](https://dbader.org/blog/meaning-of-underscores-in-python)'
   - '[Iterables vs. Iterators vs. Generators](http://nvie.com/posts/iterators-vs-generators/)'
+  - '[OOP Parents and Children](http://www.htmlcenter.com/blog/object-oriented-programming-parents-and-children/)'
 
 ---
 ## Content
@@ -75,7 +76,7 @@ What is the difference between `__getitem__()` and `__iter__()`?
 ## Footnotes
 
 [1:Parent and Child objects]
-This is not to be confused with the concept of parents/children in Object-Oriented Programming, which is slightly different, semantically. In OOP, the concept of parent and children objects usually refers to the concept of **inheritance**, where the features of a parent class are inherited by its children. for more information, please see [this link](http://www.htmlcenter.com/blog/object-oriented-programming-parents-and-children/).
+This is not to be confused with the concept of parents/children in Object-Oriented Programming, which is slightly different, semantically. In OOP, the concept of parent and children objects usually refers to the concept of **inheritance**, where the features of a parent class are inherited by its children. for more information, please see 'OOP Parents and Children' in the 'Learn More' section.
 
 [1:Double Underscore in Python]
 Double underscores in Python are commonly referred to by Pythonistas as "dunder" for brevity. `__iter__` is therefore pronounced *"dunder iter"*.
