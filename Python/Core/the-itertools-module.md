@@ -16,6 +16,7 @@ category: must-know
 links:
 
   - '[A gentle introduction to itertools](http://jmduke.com/posts/a-gentle-introduction-to-itertools/)'
+  - '[A Demo of APL from 1975](https://www.youtube.com/watch?v=_DTpQ4Kk2wA)'
 
 ---
 ## Content
@@ -148,4 +149,5 @@ print(
 
 [1:APL, Haskell and SML]
 Haskell is a widely-used, purely functional, lazy programming language. Because of its purely functional nature, mutations of variables or data structures and I/O are essentially not permitted at all. Therefore it is common to use iteration tools to carry out operations on data where the original object is not modified but a new copy is made with the desired changes already applied to it. Similar mechanics can be found in SML and the other ML family languages such as OCaml (they are not pure, but are still functional) and even in very old languages such as APL. It is from this paradigm that the `itertools` methods get their inspiration.
-For an interesting demo of APL featuring a vintage typewriter REPL (Read-Eval-Print Loop) from 1975, '[see here](https://www.youtube.com/watch?v=_DTpQ4Kk2wA)'.
+
+For an interesting demo of APL featuring a vintage typewriter REPL (Read-Eval-Print Loop) from 1975, see the link in the 'Learn More' section.
