@@ -11,14 +11,14 @@ category: pattern
 
 links:
 
-  - '[More on the Facade Pattern](https://enki.com)'
+  - '[More on the Facade Pattern](https://en.wikipedia.org/wiki/Facade_pattern)'
 
 ---
 ## Content
 
-Another pattern which is common for the object oriented development is *Facade*. The key idea is to hide the complexity of calculations and multiple method calls in order to provide the end user with a clean interface which implements all the necessary functionality.
+Another pattern which is common for the object oriented development is *Facade*. The key idea is to hide the complexity of calculations and multiple method calls from inside the system in order to provide the end user with a clean interface which implements all the necessary functionality.
 
-Example: suppose we have class `Distance` capable of taking two 2D points and calculating distance between them. Suppose that the end user desires to get perimeter and area of a 2D shape without calculating it manually. Then we could create a facade class specific to the task that takes in a basic array of vertices:
+Suppose the user desires to input a set of 2D points and get various information about the shape. Then we could write a class that implements all the desired functionality from scratch which could lead to duplication of code. Instead we could make use of different packages and classes
 
 ```
 public class FacadeShape {
