@@ -7,7 +7,7 @@ levels:
 
 type: normal
 
-category: how-to
+category: how to
 
 links:
 
@@ -74,31 +74,48 @@ Suppose we have the following lists. We want to know the temperature in UK. Fill
 countries = ['USA','UK','SP']
 temp = ['28','29','30']
 
-new = __(__(countries,temp))
-new.__('USA')
-new.__('SP')
+new = ???(???(
+    countries,temp))
+new.???('USA')
+new.pop('SP')
 
 print(new)
-```
-???
+# {'UK': '29'}
 
-* dict(), zip(), pop(), pop()
-* zip(), dict(), pop(), pop()
-* zip(), dict(), popitem(), pop()
+```
+
+
+* `dict`
+* `zip`
+* `pop`
+* `push`
+* `popitem`
+* `fromkeys`
+* `ip`
+* `list`
+* `list()`
+* `dict()`
+* `pop()`
 
 ---
 ## Revision
 
-Suppose we want to find out the temperature in UK using some of the dictionary built-in methods we learned. Fill the gaps accordingly:
+Convert the given two lists to a dictionary where `A` will contain the keys and `B` will give the values of the dictionary:
 ```
-countries = ['USA','UK','SP']
-temp = ['28','29','30']
+A = ['USA','UK','SP']
+B = ['28','29','30']
 
-new = __(zip(countries,__))
-print(new.__('UK'))
+C = ???(???(???,???))
+
+print(C)
+# {'USA': '28', 'UK': '29', 'SP': '30'}
 ```
-???
 
-* dict, temp, get()
-* list, temp, get()
-* dict, temp, getitem()
+* `dict`
+* `zip`
+* `A`
+* `B`
+* `C`
+* `pop`
+* `clear`
+* `list`
