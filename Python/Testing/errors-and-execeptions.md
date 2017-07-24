@@ -1,4 +1,4 @@
-# Errors and Execeptions.
+# Errors and Execeptions
 author: SebaRaba
 
 levels:
