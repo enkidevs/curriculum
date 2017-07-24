@@ -16,10 +16,10 @@ links:
 ---
 ## Content
 
-*Retention* annotation is a *meta annotation* i.e. it describes other annotations. In this case it used to choose where the indicated annotation is available to be seen:
- * Visible in code only: `RetentionPolicy.SOURCE`
- * Stored in binary with the class it is applied to: `RetentionPolicy.CLASS`
- * Can be seen by JVM at a runtime: `RetentionPolicy.RUNTIME`
+*Retention* annotation is a *meta annotation* i.e. it describes other annotations. In this case it used to choose at which stage of development this annotation is seen:
+ * Visible in code by programmers only: `RetentionPolicy.SOURCE`
+ * Stored in binary with the class it is applied to i.e. the compiler sees it but not JVM: `RetentionPolicy.CLASS`
+ * Can be seen by JVM at runtime: `RetentionPolicy.RUNTIME`
 
 Example:
 ```

@@ -27,12 +27,12 @@ varArgsFunc(String... args) {
 `VarArgs` were introduced with *Java 1.5*. The key difference between accepting an array and this method is that this one is more general, i.e:
 ```
 String[] args = {"Enki", "eNki", "enKi"};
-//both work
+//both method calls work
 varArgsFunc(args);
 varArgsFunc("Enki", "eNki", "enKi");  
 ```
 
-Of course the arguments still have to be passed as "array", and the collection should be the last in the order of arguments:
+Of course the arguments still have to be passed as "array", and the collection should be the last in the order of arguments, otherwise a compile time error will be raised, this is because the compiler assumes unlimited number of elements in the collection:
 ```
 varArgsFunc(int A, String... string_array){
     //doEnki
@@ -45,19 +45,21 @@ varArgsFunc(5, "Enki", "eNki");
 ---
 ## Practice
 
-What does the fox says?
+If we pass a collection as well as other arguments to a function, where should the collection argument be passed?
+
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+* At the end of the argument list.
+* It should be the first argument to be passed.
+* The order of the arguments does not matter.
 
 ---
 ## Revision
 
-What does the fox says?
+What is *VarArgs*?
+
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+* It is a concept of passing an unlimited number of arguments to a function.
+* It is a concept of unlimited array with variable number of arguments.
+* It is a concept of passing arguments of various types to a function.
