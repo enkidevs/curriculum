@@ -1,5 +1,5 @@
 # System Properties
-author: nickdaminov
+author: Nick Daminov
 
 levels:
 

@@ -1,5 +1,5 @@
 # Renaming a File
-author: nickdaminov
+author: Nick Daminov
 
 levels:
 
