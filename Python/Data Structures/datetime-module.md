@@ -21,29 +21,29 @@ links:
 ---
 ## Content
 
-Python's `datetime` module provides multiple classes regarding date manipulation. Accessible **date and time objects** are either *naive* or *aware* and can be used as both simple and complex solutions.
+Python's `datetime` module provides a toolkit of *classes* and *functions* for **date** and **time** manipulation - be it for simple or complex problems.
 
-Unlike **naive** objects, **aware** objects have enough knowledge to locate themselves relative to other aware objects. (e.g. time zone/daylight saving time). They represent specific points in time that aren't open to interpretation.
+Notable is the fact that objects exposed by this module can be either **naive** or **aware**.
 
- 
+Unlike **naive** objects, **aware** objects have enough knowledge to locate themselves relative to other **aware** objects. (i.e. time zone/daylight saving time information is included).
+They represent specific points in time that aren't open to interpretation.
+
 The `datetime` module itself exports the constants:
 ```python
-datetime.MINYEAR # == 1
+datetime.MINYEAR # 1
 # smallest year of date/datetime objects
-datetime.MAXYEAR # == 9999
+datetime.MAXYEAR # 9999
 ## largest year of date/datetime objects
 ```
 
-While this module supplies multiple straightforward classes such as `date`, `time` or `timedelta`, it also supplies the `datetime` class that can be confused  with the name of the module.
-
-Be aware of the distinction:
+Keep in mind that in the `datetime` **module** there is also a `datetime` **class** and they shouldn't be confused.
 ```python
-from datetime import datetime
-print (datetime.today())
-## same result, different approach
+# printing the current date and time
+# with datetime class
+
 import datetime
 print (datetime.datetime.today())
-
+# 2017-06-23 16:12:24.993654
 ```
 
 ---
@@ -53,24 +53,25 @@ Is `datetime` a module or a class?
 
 ???
 
-*`both` 
-*`a module` 
-*`a class` 
-*`neither`
+* `both`
+* `a module`
+* `a class`
+* `neither`
 
 ---
 ## Revision
 
-Using `datetime` module get the constant representing the maximum number a year can take (using the module):
-```
+Using `datetime` module get the constant representing the maximum number a year can take:
+```py
 import datetime
-???.???
+print(???.???)
+# 9999
 ```
 
-*`datetime` 
-*`MAXYEAR` 
-*`year` 
-*`MAX_YEAR` 
-*`date` 
-*`time` 
-*`max_year`
+* `datetime`
+* `MAXYEAR`
+* `year`
+* `MAX_YEAR`
+* `date`
+* `time`
+* `max_year`

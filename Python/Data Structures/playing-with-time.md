@@ -1,4 +1,4 @@
-# Playing with `time` 
+# Playing with `time`
 author: catalin
 
 levels:
@@ -25,80 +25,98 @@ links:
 ---
 ## Content
 
-The `time` module is a widely used module for time manipulation, 
-representation and  conversion.
+The `time` module is widely used for time manipulation, representation and conversion.
 
-Import the module:
-```python
+Keep in mind an `import` is needeed:
+```py
 import time
 ```
 
-The `time.time()` function returns 
-the current time in seconds since 
-"the Unix Epoch", i.e.  
-12:00am January 1, 1970.
+The `time.time()` function returns the **current time** in **seconds** since "the Unix Epoch" (i.e. 12:00am January 1 1970).
 
 ```python
 cur_time = time.time()
-print("Seconds since Epoch: ",\
-cur_time)
+print("Seconds since Unix Epoch: ",
+                          cur_time)
 
-Seconds since Epoch: 
-1455637441.6129153
+# ('Seconds since Unix Epoch: ',
+#              1498231656.509076)
 ```
 
-Pass `time.localtime` the number of 
-seconds since the Epoch; it will 
-return a **time-tuple** with the 
-current local time:
+This time expressed in seconds can be *parsed* with the help of `time.localtime` which will return a tuple with all time-relevant information:
+
 ```python
-print("Current local time :",\
-time.localtime(cur_time))
+time_struct = time.localtime(cur_time)
+print(time_struct)
+
+# time.struct_time(tm_year=2017, tm_mon=6,
+# tm_mday=23, tm_hour=15, tm_min=33,
+# tm_sec=56, tm_wday=4, tm_yday=174,
+# tm_isdst=0)
 ```
 
-To make localtime's output more 
-readable, use `time.asctime`:
+If you want a more readable output, you can use `time.asctime` which can take the `time.struct_time` tuple as argument:
+
 ```python
-print("Formatted time:", \
-time.asctime(time.localtime()))
-Formatted time: 
-Sat Jun 25 01:05:20 2016
+print(time.asctime(time_struct))
+
+# Fri Jun 23 15:27:36 2017
 ```
 
-`time.sleep(n)` can be used to make 
-your program sleep for n seconds:
+Another useful function of this module sis `time.sleep(n)` which can be used to make your program sleep for `n` seconds:
 ```python
-print("sleeping")
-time.sleep(5) #pauses for 5 seconds
-print("woke up")
+print("good night")
+time.sleep(5)
+# pauses for 5 seconds
+print("good morning")
 ```
 
 ---
 ## Practice
 
-Make your program sleep for 20 seconds:
-```
-import time
-???.???(20)
+The following python script should print the current time in the following format:
+
+e.g. Thur Jun 22 00:00:00 2017
+
+Complete the gaps with the missing pieces of code.
+
+```py
+import ???
+
+time_in_seconds = time.???
+time_struct = time.???(time_in_seconds)
+formatted = time.???(time_struct)
+
+print(formatted)
+
 ```
 
-* `time` 
-*`sleep` 
-*`t` 
-*`sleep_seconds` 
-*`hibernate` 
-*`pause`
+* `time`
+* `time()`
+* `localtime`
+* `asctime`
+* `sleep`
+* `localTime`
+* `asciitime`
+* `now()`
+* `current()`
 
 ---
 ## Revision
 
-What method from the `time` module is used to get the time in seconds since the Unix Epoch?
+The `time` module provides numerous useful function for time manipulation.
 
-???
+Supposing all required `import`s are resolved before, complete the following script such that **current time** is `print`ed as a time tuple (`time.struct_time`).
 
-*`time` 
-*`now` 
-*`today` 
-*`seconds_from_unix` 
-*`seconds_from_start` 
-*`today_seconds`
+```py
+print(???(???())
+```
+
+* `localtime`
+* `time`
+* `asctime`
+* `sleep`
+* `now`
+* `current`
+* `time_struct`
+* `struct_time`
