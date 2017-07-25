@@ -1,5 +1,5 @@
 # What Is Serialization?
-author: nickdaminov
+author: Nick Daminov
 
 levels:
 
