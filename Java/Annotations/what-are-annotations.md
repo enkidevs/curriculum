@@ -1,5 +1,5 @@
 # What Are Annotations?
-author: nickdaminov
+author: Nick Daminov
 
 levels:
 

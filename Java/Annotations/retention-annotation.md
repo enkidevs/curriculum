@@ -1,5 +1,5 @@
 # Retention Annotation
-author: nickdaminov
+author: Nick Daminov
 
 levels:
 

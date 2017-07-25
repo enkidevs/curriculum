@@ -1,5 +1,5 @@
 # Variable Argument Function
-author: nickdaminov
+author: Nick Daminov
 
 levels:
 
