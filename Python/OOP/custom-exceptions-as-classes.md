@@ -19,7 +19,7 @@ links:
 ---
 ## Content
 
-Because **exceptions** in Python are built-in classes, you can create your own exceptions by inheriting from class `Exception` or one of its subclasses.
+On top of the built-in exceptions, you can also define custom ones, by extending the `Exception` class:
 
 ```python
 class ErrOne(Exception):
@@ -31,7 +31,7 @@ class ErrThree(ErrTwo):
 # these are all exceptions
 ```
 
-We can raise any of these exceptions using the `raise`  statement:
+We can raise any of these exceptions using the `raise` statement:
 ```python
 for err in [ErrOne, ErrTwo, ErrThree]:
   try:
@@ -41,11 +41,11 @@ for err in [ErrOne, ErrTwo, ErrThree]:
   except ErrTwo:
     print("2")
   except ErrOne
-    print("1") 
+    print("1")
 # output 1 / 2 /3
 ```
 
-**Unhandled exceptions** will print an error message with the exception's class name. Suppose we remove the last `except ErrOne` clause, the following message will be printed:
+**Unhandled exceptions** will print an error message with the exception's class name. Suppose we remove the last `except ErrOne` clause; the following message will be printed:
 ```python
 ....
     raise err()
@@ -55,27 +55,27 @@ __main__.ErrOne
 ---
 ## Practice
 
-With the help of inheritance, create your exception:
-```
-??? MyException(???):
-   pass
+With the help of inheritance, create your custom exception:
+```python
+??? AuthenticationError(???):
+   print('Wrong username or password')
 ```
 
-*`class` 
-*`Exception` 
-*`inherit` 
-*`extend` 
-*`error` 
-*`exc``ep``tion`
+*`class`
+*`Exception`
+*`inherit`
+*`extend`
+*`error`
+*`exception`
 
 ---
 ## Revision
 
-Exceptions in Python are ??? classes.
+Python's `Exception` class is a ??? class.
 
-*`built-in` 
-*`sub` 
-*`parent` 
-*`child` 
-*`static` 
+*`built-in`
+*`sub`
+*`parent`
+*`child`
+*`static`
 *`private`
