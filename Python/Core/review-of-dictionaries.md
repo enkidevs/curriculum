@@ -102,7 +102,8 @@ Suppose we want to add update the 'weather' dictionary we previously defined. Fi
 
 What output will the following snippet generate:
 ```
-marks = {'John': 8, 'Steve': 9.3, 'Amy': 9.8}
+marks = {'John': 8, 'Steve': 9.3,
+         'Amy': 9.8}
 
 marks.clear()
 marks['David'] = 7
