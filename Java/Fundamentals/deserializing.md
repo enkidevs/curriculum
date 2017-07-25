@@ -1,5 +1,5 @@
 # Deserializing
-author: nickdaminov
+author: Nick Daminov
 
 levels:
 
