@@ -1,5 +1,5 @@
 # Arrays vs Lists
-author: nickdaminov
+author: Nick Daminov
 
 levels:
 
