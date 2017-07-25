@@ -67,7 +67,7 @@ print(Enki.f.__qualname__)
 # Enki.f
 ```
 
-Get all classes considered when looking for **base classes**, i.e. the MRO (Method Resolution Order):
+Get the order in which classes will be searched for a method, known as the **Method Resolution Order**, or **MRO**:
 ```python
 print(Enki.__mro__)
 #(<class '__main__.Enki'>,<class 'object'>)

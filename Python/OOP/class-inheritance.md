@@ -44,7 +44,7 @@ class Animal:
 
 ```
 
-And the `Bird` child class:
+with the `Bird` child class:
 ```python
 #note base class
 class Bird(Animal):
@@ -79,10 +79,10 @@ Make `Maths` inherit `Subject` :
 ???
   credits = 15
 ```
-*`class Maths(Subject):`
-*`class Maths(Subject)`
-*`class Maths:Subject`
-*`class Maths extends Subject:`
+* `class Maths(Subject):`
+* `class Maths(Subject)`
+* `class Maths:Subject`
+* `class Maths extends Subject:`
 
 ---
 ## Revision
@@ -90,7 +90,8 @@ Make `Maths` inherit `Subject` :
 Check if `cClass` is a child of `pClass`:
 
 ???
-*issubclass(cClass,pClass)
-*issubclass(pClass,cClass)
-*ischild(cClass,pClass)
-*ischild(pClass,cClass)
+
+* issubclass(cClass,pClass)
+* issubclass(pClass,cClass)
+* ischild(cClass,pClass)
+* ischild(pClass,cClass)

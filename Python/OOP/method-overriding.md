@@ -74,16 +74,37 @@ I am a bird
 
 To extend the functionality of a parent's class method, but not override it, you can use the ??? function.
 
-*`super`
-*`yield`
-*`await`
-*`extend`
-*`return`
+* `super`
+* `yield`
+* `await`
+* `extend`
+* `return`
 
 ---
 ## Revision
 
-Python ??? have special syntax for method overriding.
+Consider the following snippet:
+```py
+class Parent():
+  def hello(self):
+    print('I am parent')
 
-*`does not`
-*`does`
+class ???(???):
+  def ???(???):
+    print('I am child')
+
+child = Child()
+child.hello()
+# I am child
+```
+Complete the missing gaps such that the output of running it will match the given comment.
+
+* `Child`
+* `Parent`
+* `hello`
+* `self`
+* `Child()`
+* ` `
+* `child`
+* `super`
+* `hello()`
