@@ -18,7 +18,7 @@ links:
 
 The **list** is the most versatile data structure available in **Python**.
 
-One big difference between **lists** and **dictionaries** is that we can store several elements of different types in the same list. Secondly, **lsits** are collections of elements that can contain **duplicate elements** and have a **defined order** that generally does not change unless explicitly made to do so.
+One big difference between **lists** and **dictionaries** is that we can store several elements of different types in the same list. Secondly, **lists** are collections of elements that can contain **duplicate elements** and have a **defined order** that generally does not change unless explicitly made to do so.
 
 **Dictionaries** represent unordered sequences of elements. Moreover, we can state that dictionaries are the **Python** implementation of an abstract data type called **associative array**. Associative arrays consist - like dictionaries - of **(key, value) pairs**, such that each possible **key** appears at most **once** in the collection. The **values** of a dictionary can be any Python data type.
 
@@ -31,7 +31,7 @@ dict = {'Name': 'Seba',
         'Year': 'Second'}
 ```
 
-Because elements stored in **lists** can be accessed using **indices** the retrieving of an element will be done in `O(n)` in the worst case scenario. Speaking about **dictionaries**, indicies are replaced by **keys** (hashable types). This means that retrieving a certain element would be done in `O(1)` as we can find each **value** associated to each **key** dirrectly.
+Because elements stored in **lists** can be accessed using **indices**, the retrieving of an element will be done in `O(n)` in the worst case scenario. When using **dictionaries**, indices are replaced by **keys** (hashable types). This means that retrieving a certain element would be done in `O(1)` as we can find each **value** associated to each **key** directly.
 
 Let's see an example:
 ```
