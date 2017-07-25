@@ -17,6 +17,7 @@ tags:
 
 links:
 
+  - '[More on Generics by Oracle](https://docs.oracle.com/javase/tutorial/java/generics/index.html)'
   - >-
     [docs.oracle.com](https://docs.oracle.com/javase/tutorial/extra/generics/morefun.html){website}
 
