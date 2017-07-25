@@ -71,7 +71,6 @@ Why is it important to use try/catch block when working with files?
 * It takes a new name of a file as a string value
 * `renameTo()` is a void function so it does not return anything
 
-
 ---
 ## Revision
 
