@@ -1,5 +1,5 @@
 # Bitwise Operations in Java
-author: nickdaminov
+author: Nick Daminov
 
 levels:
 
