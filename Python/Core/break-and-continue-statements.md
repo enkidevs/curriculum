@@ -59,17 +59,21 @@ This gives the following output:
 ---
 ## Practice
 
-Which keyword is used to skip the current code block, and to resume execution at the start of the current loop? ???
+Which keyword is used to skip the current code block, and to resume execution at the start of the current loop?
 
-*`continue` 
-*`break` 
-*`restart`
+???
+
+* `continue`
+* `break`
+* `restart`
 
 ---
 ## Revision
 
-Which keyword is used to terminate the current loop, then resuming code execution at the following statement? ???
+Which keyword is used to terminate the current loop, then resuming code execution at the following statement?
 
-*`break` 
-*`continue` 
-*`next`
+???
+
+* `break`
+* `continue`
+* `next`

@@ -35,7 +35,7 @@ print(pyList[1])
 # prints 4
 ```
 
-It's also very simple to iterate over lists, here is a for loop printing out the values held in a list:
+It's also very simple to iterate over lists, here is a `for` loop printing out the values held in a list:
 
 ```python
 for x in pyList:
@@ -54,8 +54,8 @@ newList = []
 newList.???(5)
 ```
 
-*`append` 
-*`add` 
+*`append`
+*`add`
 *`push`
 
 ---
@@ -70,9 +70,9 @@ newList.append(2)
 ???(newList???)
 ```
 
-*`print` 
-*`[0]` 
-*`{0}` 
-*`view` 
-*`append` 
+*`print`
+*`[0]`
+*`{0}`
+*`view`
+*`append`
 *`(0)`

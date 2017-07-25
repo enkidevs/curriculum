@@ -1,4 +1,4 @@
-# Python 3
+# Python environment
 author: tommarshall
 
 levels:
@@ -14,26 +14,38 @@ category: must-know
 ---
 ## Content
 
-Python 3 was released in 2008 with the goal to simply make Python an easier language to use. 
-
-The goal of this new Python version was to also change the way the language handles strings, consequently enabling it to meet the demands of the language today.
-
-Python 3 is the first Python release which is incompatible with previous Python versions, which is why some people still use Python 2, as they find some packages and libraries to be incompatible with the latest Python version!
-
-
-One difference is that in Python 3, you must pass the items you want to print explicitly to the function in parentheses as follows:
-```python
-print ('Python 3')
+Python comes pre-installed on most Linux distributions and is available as packages or installers on all others operating systems. Everything you need can be found on:
+```
+www.python.org/downloads
 ```
 
-Python 3 is considered to be an improved version of Python 2, with fewer mistakes, and easier for beginners to understand and use.
+After installing Python, fire up a new terminal (Unix/MacOS) or a PowerShell (Windows) in order to run the Python REPL shell:
+```bash
+$ python3
+# Python 3.5.2
+# (default, Nov 17 2016, 17:05:23)
+# [GCC 5.4.0 20160609] on linux
+# Type "help", "copyright", "credits" or
+#  "license" for more information.
+>>> quit()
+$
+```
+**REPL** stands for *Read-Eval-Print Loop* which evaluates each line of code you write and outputs the result. Even though it may sound like something new, it is not: you just invoked the Python REPL from another REPL application - the shell inside the terminal.
+
+You won't use the REPL interpreter for longer snippets of code, however. It is much easier to write Python code using a text editor. There are a lot of options here: Atom, Emacs, Vim, Sublime, each with its advantages and disadvantages. We are going to recommend you to use Atom, as it is simple to use and highly customizable.
+
+To run Python file, it should firstly have the `.py` extension. Then, invoke a new terminal inside the directory and write:
+```bash
+$ python3 myNewPython.py
+```
+The process couldn't be simpler!
 
 ---
 ## Revision
 
-Python 3 is said to be an improved version of Python 2 because it has ??? and it’s easier for ??? to use.
+The Python-specific extension is ???.
 
-*`fewer mistakes` 
-*`beginners` 
-*`more functions` 
-*`developer``s`
+* `.py`
+* `.pyt`
+* `.pip`
+* `.python`

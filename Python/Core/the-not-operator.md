@@ -38,8 +38,8 @@ print((True) == (not True))
 
 What does the following code snippet return:
 
-```
-print (True) == (not True)
+```python
+print(True == (not True))
 ```
 ???
 
