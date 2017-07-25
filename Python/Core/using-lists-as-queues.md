@@ -1,4 +1,4 @@
-# Using Lists as Queues.
+# Using Lists as Queues
 author: SebaRaba
 
 levels:
@@ -7,7 +7,7 @@ levels:
 
 type: normal
 
-category: how-to
+category: how to
 
 links:
 
