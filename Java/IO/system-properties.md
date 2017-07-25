@@ -54,7 +54,6 @@ What does `user.dir` return?
 * character that separates components of a file path
 * user working directory
 
-
 ---
 ## Revision
 
