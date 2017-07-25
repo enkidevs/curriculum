@@ -11,7 +11,7 @@ category: pattern
 
 links:
 
-  - '[link to learn more](https://enki.com)'
+  - '[More of SafeVarargs](https://docs.oracle.com/javase/8/docs/api/java/lang/SafeVarargs.html)'
 
 ---
 ## Content
@@ -21,21 +21,11 @@ links:
 **NOTE:** this annotation is no longer necessary to use as compilers raise this type of errors by themselves.
 
 ---
-## Practice
-
-What does the fox says?
-???
-
-* right answer
-* wrong answer
-* wrong answer 2
-
----
 ## Revision
 
-What does the fox says?
+What is *SafeVarargs* annotation used for?
+
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+* It ensures that compiler raises an error upon improper use of *VarArgs*
+* It ensures that compiler raises an error whenever we use *VarArgs*
