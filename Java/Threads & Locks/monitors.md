@@ -1,5 +1,5 @@
 # Monitors
-author: nickdaminov
+author: Nick Daminov
 
 levels:
 

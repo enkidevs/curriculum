@@ -1,5 +1,5 @@
 # Using `Thread.join`
-author: adamMontgomerie, nickdaminov
+author: adamMontgomerie
 
 levels:
 

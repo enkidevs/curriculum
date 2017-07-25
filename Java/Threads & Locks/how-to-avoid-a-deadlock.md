@@ -1,5 +1,5 @@
 # How to Avoid a Deadlock
-author: nickdaminov
+author: Nick Daminov
 
 levels:
 

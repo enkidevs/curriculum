@@ -1,5 +1,5 @@
 # Deadlock Prevention
-author: nickdaminov
+author: Nick Daminov
 
 levels:
 

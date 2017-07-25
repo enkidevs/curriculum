@@ -1,5 +1,5 @@
 # More on Synchronization
-author: nickdaminov
+author: Nick Daminov
 
 levels:
 

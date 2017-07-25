@@ -1,5 +1,5 @@
 # Extending Thread Class
-author: nickdaminov
+author: Nick Daminov
 
 levels:
 

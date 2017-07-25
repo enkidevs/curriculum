@@ -1,5 +1,5 @@
 # Thread Sleep
-author: nickdaminov
+author: Nick Daminov
 
 levels:
 

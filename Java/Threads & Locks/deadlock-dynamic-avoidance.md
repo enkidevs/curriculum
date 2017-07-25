@@ -1,5 +1,5 @@
 # Deadlock Dynamic Avoidance
-author: nickdaminov
+author: Nick Daminov
 
 levels:
 

@@ -1,5 +1,5 @@
 # Detection and Recovery
-author: nickdaminov
+author: Nick Daminov
 
 levels:
 

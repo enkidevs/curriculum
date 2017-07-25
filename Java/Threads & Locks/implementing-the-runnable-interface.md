@@ -1,5 +1,5 @@
 # Implementing the Runnable Interface
-author: nickdaminov
+author: Nick Daminov
 
 levels:
 

@@ -1,5 +1,5 @@
 # Semaphores
-author: nickdaminov
+author: Nick Daminov
 
 levels:
 

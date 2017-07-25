@@ -1,5 +1,5 @@
 # Thread Synchronization
-author: nickdaminov
+author: Nick Daminov
 
 levels:
 
