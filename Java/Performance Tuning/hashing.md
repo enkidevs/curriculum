@@ -1,5 +1,5 @@
 # Hashing
-author: nickdaminov
+author: Nick Daminov
 
 levels:
 
