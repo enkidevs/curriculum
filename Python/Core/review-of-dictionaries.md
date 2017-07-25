@@ -82,20 +82,33 @@ del weather
 ---
 ## Practice
 
-Suppose we want to add update the 'weather' dictionary we previously defined. Fill the gaps accordingly:
+Fill in the gaps such as the commented states of the `weather` dictionary stand true:
+
 ```
-???['Barcelona'] = 31
-??? weather['New York'] = 26
-??? weather['Bucharest']
+weather = ???
+
+???['barcelona'] = 23
+weather[???] = 30
+
+print(weather)
+# {'barcelona': 23, 'bucharest': 30}
+??? weather['bucharest']
+
+print(weather)
+# {'barcelona': 23}
+
 ```
 
-* weather
-* this line is correct
-* del
-* delete
-* .clear()
-* update
-* add
+* `{}`
+* `weather`
+* `'bucharest'`
+* `del`
+* `weather()`
+* `clear`
+* `add`
+* `'barcelona'`
+* `weather['bucharest']`
+* `del weather`
 
 ---
 ## Revision
