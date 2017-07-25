@@ -1,5 +1,5 @@
 # Wildcards Extras
-author: nickdaminov
+author: Nick Daminov
 
 levels:
 

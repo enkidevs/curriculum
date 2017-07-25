@@ -1,5 +1,5 @@
 # Type Inference in Generic Methods
-author: nickdaminov
+author: Nick Daminov
 
 levels:
 
