@@ -1,4 +1,4 @@
-# Enum
+# Enum collections
 author: SebaRaba
 
 levels:
