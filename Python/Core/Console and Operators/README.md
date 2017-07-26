@@ -6,8 +6,6 @@ description: Get familiar with syntactic basis of python's console and common ar
 
 section: 0
 
-parent: Meet Python
-
 insights:
   - printing-to-the-console
   - arithmetic-operators
