@@ -6,6 +6,8 @@ description: How to loop
 
 section: 0
 
+parent: Fundamental Data Structures
+
 insights:
   - for-loops
   - while-loops
