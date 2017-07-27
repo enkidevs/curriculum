@@ -36,7 +36,7 @@ print(x[0])
 ```
 The copy module has methods to support both shallow and deep copying of objects.
 
-To create a **shallow** copy (originally the new reference points to the same memory i.e. to the same elements but whenever an element is changed, a new piece of memory is allocated to store a new value):
+To create a **shallow**[1] copy:
 ```python
 from copy import copy
 
@@ -48,7 +48,7 @@ print(x[0])
 # 1
 
 ```
-To create a **deep** copy (instead of pointing to the same object, the new reference points to a different memory where the new exact copy of an object is stored):
+To create a **deep** copy (instead of pointing to the same memory location, the new reference points to a completely different memory where an exact copy of an object is stored):
 ```python
 from copy import deepcopy
 #...
@@ -79,5 +79,13 @@ Why should we use `copy/deepcopy` rather than `B = A` in order to set *B* so tha
 
 ???
 
-* `=` doesn't create a copy of an object, it just makes *B* point to the same object as *A*, so when *B* is changed, *A* is changed too.
-* Python does not support `B = A` as you can not equalize object references.
+* `=` doesn't create a copy of an object, it just makes *B* points to the same memory address as *A*, so when *B* is changed, *A* is changed too.
+* Python does not support `B = A` as you can not assign object references.
+
+---
+## Footnotes
+
+[1:shallow copy]
+The **shallow copy** behaves in the following way:
+- initially the new object's reference points to the same memory location as the original reference
+- as subobjects of this composite copy are modified, new memory is allocated as needed to store new values, so unlike deepCopy, shallowCopy is more memory efficient

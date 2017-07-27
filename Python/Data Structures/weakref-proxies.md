@@ -37,9 +37,9 @@ p = weakref.proxy(enki)
 
 # object argument printing
 print(enki.arg)
-# print(r.arg) will not work as r does
-# not reference the object and must
-# be dereferenced as r()
+# print(r.arg) will not work as r
+# does not reference the object and
+# must be dereferenced as r()
 # weakref argument printing (ref)
 print(r().arg)
 # weakref argument printing (proxy)
