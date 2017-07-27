@@ -6,6 +6,8 @@ description: Understand how input/output operations work in Python and also how 
 
 section: 1
 
+parent: Intro to Modules
+
 insights:
   - i-o-functions
   - how-to-open-a-file-object
