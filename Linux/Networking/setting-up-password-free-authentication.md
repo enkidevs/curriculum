@@ -80,9 +80,9 @@ $ ??? -t ???
 ---
 ## Revision
 
-The file on the server in which to add your ssh key to set up password-less log in is
+The file on the server in which to add your ssh key to set up password-less authentication is
 
-???.
-*~/.ssh/authorized_keys
-*~/ssh/authorized_keys
-*~/ssh/keys
+???
+* `~/.ssh/authorized_keys`
+* `~/ssh/authorized_keys`
+* `~/ssh/keys`
