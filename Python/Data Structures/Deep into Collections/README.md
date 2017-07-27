@@ -1,0 +1,14 @@
+name: Deep into Collections
+
+type: insights-list
+
+description: Get the most out of Python's collections.
+
+section: 0
+
+insights:
+  - get-more-with-collections
+  - enhance-your-tuple-s
+  -
+  - double-ended-queues-with-deque
+  - best-way-to-implement-a-simple-queue
