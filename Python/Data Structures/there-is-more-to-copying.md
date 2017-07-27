@@ -85,7 +85,7 @@ Why should we use `copy/deepcopy` rather than `B = A` in order to set *B* so tha
 ---
 ## Footnotes
 
-[1:shallow copy]
+[1:SHALLOW COPY]
 The **shallow copy** behaves in the following way:
 - initially the new object's reference points to the same memory location as the original reference
 - as subobjects of this composite copy are modified, new memory is allocated as needed to store new values, so unlike deepCopy, shallowCopy is more memory efficient
