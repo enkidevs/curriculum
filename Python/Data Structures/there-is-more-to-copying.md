@@ -46,8 +46,11 @@ x = copy(y)
 y[0] = 99
 print(x[0])
 # 1
-
 ```
+The **shallow copy** behaves in the following way:
+* initially the new object's reference points to the same memory location as the original reference
+* as subobjects of this composite copy are modified, new memory is allocated as needed to store the new values (making it more memory efficient)
+
 To create a **deep** copy (instead of pointing to the same memory location, the new reference points to a completely different memory where an exact copy of an object is stored):
 ```python
 from copy import deepcopy
