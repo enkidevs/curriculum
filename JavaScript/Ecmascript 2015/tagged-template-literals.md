@@ -1,4 +1,4 @@
-# Tagged Template Literals
+# Template Strings
 author: alexjmackey
 
 levels:
@@ -11,53 +11,51 @@ type: normal
 
 inAlgoPool: false
 
-category: must-know
+category: feature
 
 links:
 
-  - '[link to learn more](https://enki.com)'
+  - '[Learn more about Template Strings on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)'
 
 ---
 ## Content
 
-ES6 introduces a new feature called template literals that make it easier to work with strings by replacing values and defining strings on multiple lines: 
+ES6 introduces a new feature called template strings that make it easier to work with strings by adding string interpolation and multi-line strings:
 
 ```
-var company = "Enki";
-console.log(
-`Hello ${company} hows it going?`
-);
-//Hello Enki hows it going?
+let company = "Enki";
+console.log(`Hello ${company} hows it going?`);
+//prints: "Hello Enki hows it going?"
 ```
 
-Tagged template literals allow you to process string and replacement values within a template literal.
-
-They are created when you specify a function to be called before the literal itself e.g.
+Template literals are denoted by the O&#769; character, rather than `''` or `""`. When you use template strings, you can have multiline strings:
 
 ```
-myFunc `Hello ${company} hows it going?`
-```
 
-But what arguments will myFunc receive?
-
-myFunc will receive 2 sets of parameters, **literals** and **replacement** values.
-
-We can see this in action by defining myFunc as the following:
+let aMultilineString = `
+Hello
+I am a multiline string
+`
 
 ```
-function myFunc(literals, ...replacement){
- console.log('literals: ' + literals);  
- console.log('replacement: ' + replacement);
-}
-```
 
-This will result in the following console output:
+As well as embedding _any_ JavaScript expression inside of a pair of curly braces prefixed by a dollar sign: `${5 + 5}`. The expression will be cast to a string, then replaced inside the template string.
 
 ```
-literals: Hello , hows it going?
-replacement: Enki
+let item = "Oranges";
+let itemPrice = 2.50;
+let money = 10;
+let compositeString = `Hi,
+I have ${money} dollars and I would like to purchase ${itemPrice / money} ${item}s.
+`
+
+console.log(compositeString);
 ```
 
-We could use this functionality to perform additional processing on literals and replacement values e.g. maybe translating them.
+The above would output:
 
+```
+Hi,
+I have 10 dollars and I would like to purchase 4 Oranges.
+```
 ---
