@@ -1,10 +1,12 @@
-name: Intro to Classes
+name: Classes I
 
 type: insights-list
 
 description: How do classes work in Python?
 
 section: 1
+
+parent: Playing with Time
 
 insights:
   - creating-classes
