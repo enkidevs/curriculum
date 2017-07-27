@@ -1,0 +1,43 @@
+# Using :not() to apply/unapply styles
+author: tommarshall
+
+levels:
+
+  - basic
+
+  - medium
+
+  - advanced
+
+type: normal
+
+category: how to
+
+links:
+
+  - '[link to learn more](https://enki.com)'
+
+---
+## Content
+
+Insight content goes here
+
+---
+## Practice
+
+What does the fox says?
+???
+
+* right answer
+* wrong answer
+* wrong answer 2
+
+---
+## Revision
+
+What does the fox says?
+???
+
+* right answer
+* wrong answer
+* wrong answer 2
