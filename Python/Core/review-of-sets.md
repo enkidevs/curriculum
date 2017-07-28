@@ -1,4 +1,4 @@
-# Review of Sets.
+# Review of Sets
 author: SebaRaba
 
 levels:
@@ -11,33 +11,32 @@ category: must-know
 
 links:
 
-  - '[more about sets](http://www.python-course.eu/python3_sets_frozensets.php)'
+  - '[More about sets](http://www.python-course.eu/python3_sets_frozensets.php)'
 
 ---
 ## Content
 
 **Sets** can be used to carry out **mathematical** set operations like:
-- **union**;
-- **intersection**;
-- **difference**;
-- **symmetric difference**.
+- union
+- intersection
+- difference
+- symmetric difference
 
 Consider the following two sets:
-
 ```
-A = {1,2,3,4,5}
-B = {3,5,4,8,9}
+x = {1,2,3,4,5}
+y = {3,5,4,8,9}
 ```
 
-The **Union** of these results in a set containing all **elements** from both **sets**. There are two ways to calculate the **union** of two sets:
-- using `|` operator;
-- using `union()` method;
+The **Union** of these results in a set containing *all elements* from both sets. There are two ways to calculate the union of two sets:
+- using `|` operator
+- using `union()` method
 
 Consider the following example:
 ```
-print(A | B, '\n')
-print(A.union(B), '\n')
-print(B.union(A))
+print(x | y, '\n')
+print(x.union(y), '\n')
+print(y.union(x))
 
 
 # Output:
@@ -46,15 +45,15 @@ print(B.union(A))
 # {1,2,3,4,5,8,9}
 ```
 
-We define **Intersection** of two sets, as a resulting **set** that contains only **elements** that are **in both sets**. **Intersection** is performed using:
-- the `&` operator;
-- the `intersection()` method;
+We define **Intersection** of two sets, as a resulting set that contains only elements that are *in both sets*. Intersection is performed using:
+- the `&` operator
+- the `intersection()` method
 
 Consider the following example:
 ```
-print(A & B, '\n')
-print(A.intersection(B), '\n')
-print(B.intersection(A))
+print(x & y, '\n')
+print(x.intersection(y), '\n')
+print(y.intersection(x))
 
 # Output:
 # {3,4,5}
@@ -62,29 +61,29 @@ print(B.intersection(A))
 # {3,4,5}
 ```
 
-**Difference** of `A` and `B` (`A - B`), is the set of elements that are only in `A` and not in `B`. **Difference** is performed using:
-- `-` operator;
-- `difference()` method;
+**Difference** of `x` and `y` (`x- y`), is the set of elements that are *only in `x` and not in `y`*. Difference is performed using:
+- `-` operator
+- `difference()` method
 
 Consider the following example:
 ```
-print(A - B, '\n')
-print(B.difference(A))
+print(x - y, '\n')
+print(y.difference(x))
 
 # Output:
 # {1,2}
 # {8,9}
 ```
 
-**Symmetric difference** of `A` and `B` means all **elements** that are in `A` and `B` but not in **common**.
-**Symmetric difference** is performed using:
-- `^` operator;
-- `symmetric_difference()` method;
+**Symmetric difference** of `x` and `y` means all elements that are either in `x` or `y` but *not in both*.
+Symmetric difference is performed using:
+- `^` operator
+- `symmetric_difference()` method
 
 Consider the following example:
 ```
-print(A ^ B, '\n')
-print(B.symmetric_difference(A))
+print(x ^ y, '\n')
+print(y.symmetric_difference(x))
 
 # Output:
 # {1,2,8,9}
@@ -94,17 +93,19 @@ print(B.symmetric_difference(A))
 ---
 ## Practice
 
-Is there any difference between `A & B` and `B & A`?
+Is there any difference between the outputs of `x & y` and `y & x`?
+
 ???
 
-* No.
-* Yes.
-* Depends on the case.
+* No
+* Yes
+* Depending on the sets
 
 ---
 ## Revision
 
-Which operation is performed using `^` operator ?
+Which operation is performed using `^` operator?
+
 ???
 
 * `symmetric difference`
