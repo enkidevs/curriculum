@@ -19,7 +19,7 @@ links:
 ---
 ## Content
 
-**Array.copyWithin(targetArray, [[start], [end]])** shallow copies part of an array into the same array without modifying the original array's size.
+**Array.copyWithin(targetArray, [start, [end]])** shallow copies part of an array into the same array without modifying the original array's size.
 
 Look at the following array:
 
