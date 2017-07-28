@@ -1,5 +1,5 @@
 # Template Strings
-author: alexjmackey
+author: lizthedeveloper
 
 levels:
 
@@ -59,3 +59,40 @@ Hi,
 I have 10 dollars and I would like to purchase 4 Oranges.
 ```
 ---
+
+---
+## Practice
+
+Complete the following code snippet to assemble a template string that says "Beam me up Scotty!"
+
+```javascript
+let what = "Beam" ;
+let who = "Scotty";
+
+let line = `??? me up ???!`;
+
+```
+* `${who}`
+* `#{who}`
+* `%s`
+* `$(who)`
+* `#(who)`
+* `${what}`
+* `#{what}`
+* `%s`
+* `$(what)`
+* `#(what)`
+
+---
+## Revision
+
+Create a string that says ""
+```javascript
+let sym = ???(???);
+
+```
+*`Symbol`
+*`"enki"`
+*`Sym`
+*`Object`
+*`property`
