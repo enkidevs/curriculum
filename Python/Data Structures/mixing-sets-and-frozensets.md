@@ -13,7 +13,7 @@ category: how to
 ## Content
 
 
-To perform *in-place set operations*, you can stick the `_update` keyword to the end of the methods:
+To perform *in-place set operations*[1], you can stick the `_update` keyword to the end of the set-specific methods call:
 ```python
 x = set('abc')
 y = set('cbd')
@@ -42,7 +42,7 @@ print(x | 'bd')
 # TypeError: unsupported operand type(s)
 #  for |: 'set' and 'str'
 ```
-Unless you perform in place operations, the same applies for *frozensets*.
+Unless you perform in-place operations, the same applies for *frozensets*.
 
 Also, binary operations that mix sets and frozensets will return the type of the first operand:
 ```python
@@ -96,3 +96,10 @@ print(c.pop())
 * either 1 or 2
 * 3
 * TypeError: c has no elements
+
+
+---
+## Footnotes
+
+[1: In-place operations]
+Instead of returning a new set containing the result with both operands remaining the same, *in-place operations* assign to the left hand operand the value of the result.
