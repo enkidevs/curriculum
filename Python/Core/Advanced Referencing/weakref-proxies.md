@@ -37,6 +37,9 @@ p = weakref.proxy(enki)
 
 # object argument printing
 print(enki.arg)
+# print(r.arg) will not work as r
+# does not reference the object and
+# must be dereferenced as r()
 # weakref argument printing (ref)
 print(r().arg)
 # weakref argument printing (proxy)
@@ -50,19 +53,19 @@ Keep in mind that proxies can't be used as Dictionary keys as they are not **has
 ---
 ## Practice
 
-What’s the difference between the `ref` and `proxy` `weakref` constructors?
+Which error is raised if the proxy is accessed after the reference object is deleted? ???
 
- ???
- 
-*Proxies can be used without calling the ref first to access the object.
-*Ref can be used without calling the proxy first to access the object.
+* `ReferenceError`
+* `AccessError`
+* `ObjectError`
+* `ProxyError`
 
 ---
 ## Revision
 
-Which error is raised if the proxy is accessed after the reference object is deleted? ???
+What’s the difference between using `ref` and `proxy` from `weakref`?
 
-*`ReferenceError` 
-*`AccessError` 
-*`ObjectError` 
-*`ProxyError`
+???
+
+* Ref must be dereferenced in order to access the object while Proxies don't have to be.
+* Ref can be used without calling the proxy first to access the object.
