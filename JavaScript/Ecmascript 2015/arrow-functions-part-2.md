@@ -1,11 +1,21 @@
 # Arrow Functions (Part 2)
-author: alexjmackey
+author: lizthedeveloper
 
 levels:
 
   - beginner
 
+  - basic
+
 type: normal
+
+tags:
+
+  - introduction
+
+  - es6
+
+  - workout
 
 inAlgoPool: false
 
@@ -14,23 +24,74 @@ category: must-know
 ---
 ## Content
 
-When using *arrow functions* and more complex expressions you must enclose the expression with curly brackets:
+
+Arrow Functions(`() => {}`) differ from anonymous keyword functions (`function(){}`) by not changing the value of `this`.
 
 ```
-var func = 
-x => {x++; return x * 2; }
+window.counter = 0
+
+function Counter () {
+  this.counter = 0;
+  this.countUp = setInterval(function() {
+    this.counter++;
+  }, 1000)
+  this.countDown = setInterval(() => {
+    this.counter--;
+  }, 1000)
+}
+
+let count = new Counter();
+
 ```
 
-If you want to return an object then be sure to ensure the return object in curly brackets is also wrapped in brackets so the interpreter knows how to process the code e.g.:
+In the `countUp` counter, `window.counter` is modified, because keyword functions use the same .
+In the `countDown` counter, `Counter.counter` because the `this` value is preserved.
+
+---
+## Practice
+
+Create a counter that can successfully count up and down:
 
 ```
- var obj = () =>
- ({firstname:"John",lastname: "Smith"});
+
+function Counter () {
+  this.counter = 0;
+  this.countUp = setInterval(???, 1000)
+  this.countDown = setInterval(???, 1000)
+}
+
+let count = new Counter();
+
 ```
 
-Arrow functions work particularly well when used with methods such as map & filter as allow you to succinctly declare your intention:
+
+* `function() {this.counter++;}`
+* `function() {this.counter--;}`
+* `() => {this.counter++;}`
+* `() => {this.counter--;}`
+
+---
+
+##Revision
+
+Create a counter that can successfully count up and down:
 
 ```
-var firstNames = 
-people.map(p => p.firstname);
+
+function Counter () {
+  this.counter = 0;
+  this.countUp = setInterval(???, 1000)
+  this.countDown = setInterval(???, 1000)
+}
+
+let count = new Counter();
+
 ```
+
+
+* `function() {this.counter++;}`
+* `function() {this.counter--;}`
+* `() => {this.counter++;}`
+* `() => {this.counter--;}`
+
+---
