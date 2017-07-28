@@ -11,7 +11,7 @@ levels:
 
 type: normal
 
-category: must-know
+category: feature
 
 links:
 
@@ -39,6 +39,23 @@ You can use the method `.toString(r)` to convert numbers to hex/bin/oct:
 (10).toString(8) // '12' in oct
 ```
 
+---
+# Practice
+
+Use the new ES6 notation to write the binary number for `4` with the correct prefix:
+??? ??? ??? ??? ???
+
+* `0`
+* `0`
+* `0`
+* `0`
+* `b`
+* `o`
+* `1`
+* `1`
+* `1`
+* `1`
+* `1`
 ---
 ## Revision
 
