@@ -46,8 +46,6 @@ print(even_set)
 ```
 Note that the above operation would work even if my_list contained some duplicate values, e.g:
 ```python
-my_list = [1, 2, 3, 4, 5, 6, 7, 8, \
-8, 7, 6
-
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 8, 7, 6]
 ```
 since sets by definition do not allow duplicates.
