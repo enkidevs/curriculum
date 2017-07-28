@@ -1,6 +1,13 @@
 # Mixing sets and frozensets
 author: mihaiberq
 
+levels:
+
+  - beginner
+
+type: normal
+
+category: how to
 
 ---
 ## Content
