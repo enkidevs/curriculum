@@ -43,7 +43,7 @@ Note that `exiftool` may not be present on your machine. You can install it with
 ---
 ## Practice
 
-`*.png diff=exif`  should be added to 
+`*.png diff=exif`  should be added to
 
 ??? file.
 *.gitattributes
