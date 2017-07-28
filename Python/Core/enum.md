@@ -16,93 +16,63 @@ links:
 ---
 ## Content
 
-**Enum** collection is available in the `enum` module, in Python 3.4 +. It represents a list of constants that are ment to help with organizing information.
+An **enum** is a list of constants that are meant to help with organizing information. It is available in the `enum` module, in Python 3.4+.
 
 Consider the following *namedtuple*:
 ```
 from collections import namedtuple
 
-Animal = namedtuple('Animal', 'age breed')
-lucky = Animal(age= 5, breed= 'dog')
+Dog = namedtuple('Dog', 'age breed')
+lucky = Dog(age = 5, breed = 'pug')
 ```
-
-Now, the breed field is of type string. This could be ambiguous as the user might enter any of the following 3 options, which mean the same thing: 'Dog', 'dog', 'DOG'. Enum collections come in hand in this kind of situations:
-```
+Now, the breed field should accept a string. However, it could be confusing as any of the following options should be seen as valid: 'Pug', 'pug' or 'PUG'. Here, enums come in handy:
+```python
 from collections import namedtuple
 from enum import Enum
 
 class Breed(Enum):
-  dog = 1
-  puppy = 1
-  pig = 2
-  Pig = 2
-  CAT = 3
-  cat = 3
+  pug = 'pug'
+  PUG = 'pug'
+  Pug = 'pug'
+  shiba = 'shiba'
+  shiba_inu = 'shiba'
+  beagle = 'beagle'
+  bulldog = 'bulldog'
 
-Animal = namedtuple('Animal', 'age breed')
+Dog = namedtuple('Dog', 'age breed')
 
-rex = Animal(age=3, breed= Breed.puppy)
-splif = Animal(age=2, breed= Breed.dog)
+rex = Dog(age=3, breed=Breed.pug)
+splif = Dog(age=2, breed=Breed.PUG)
 
 print(rex.breed == splif.breed)
+# True
 
-# Output: TRUE
 ```
 
-We defined a class called 'Breed' which we used to map strings that are written in a different way, but fall into the same category. This way our code will be more readable and easier to understand for other programmers.
+We defined a class called `Breed` which we used to map different strings to the same category. This way our code will be more readable and easier to understand for other programmers.
 
 There are three ways to access elements in an enumeration:
-```
-print(Breed(1))
-print(Breed['puppy'])
-print(Breed.dog)
+```python
+# by category
+print(Breed('pug'))
+print(Breed['shiba'])
+# by attribute
+print(Breed.shiba_inu)
 
-# Output:
-# Breed.dog
-# Breed.dog
-# Breed.dog
-```
-
-The generic name for one category is the one that was first defined. We can see from the above example that it doesn't matter which way we access the dog *constants* in, the optut will always be the first one defined ( 'dog' ).
-
----
-## Practice
-
-Considering the following example, fill the gaps such that the output will go as follows: WeekDays.Monday, WeekDays.Tuesday, WeekDays.Wednesday:
-```
-class WeekDays(Enum):
-  Monday = 1
-  modnay = 1
-  Tuesday = 2
-  tuesday = 2
-  Wednesday = 3
-  wednesday = 3
-  Thursday = 4
-  thursday = 4
-  Friday = 5
-  firday = 5
-
-
-print(WeekDays.???)
-print(WeekDays['???'])
-print(WeekDays(???))
-
+# Breed.pug
+# Breed.shiba
+# Breed.shiba
 ```
 
-* 1
-* CAT
-* pig
-* 2
-* 3
-* puppy
+The generic name for one category is the one that was first defined and that can be seen in the above example (`Breed.pug`, `Breed.shiba`).
 
 ---
 ## Revision
 
 Fill the gaps such that both expressions at the end will evaluate to 'True':
-```
+```python
 from collections import namedtuple
-from enum import ???
+from enum import Enum
 
 class Brands(???):
   Audi = 1
@@ -123,7 +93,6 @@ print(a4.brand == ???.brand)
 print(polo.??? != a4.engine)
 ```
 
-* Enum
 * Enum
 * 2
 * brand
