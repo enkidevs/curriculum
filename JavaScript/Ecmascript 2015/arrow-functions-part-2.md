@@ -17,6 +17,8 @@ tags:
 
   - workout
 
+  - functions
+
 inAlgoPool: false
 
 category: must-know
