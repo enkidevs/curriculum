@@ -1,5 +1,5 @@
 # Tagged Template Literals
-author: alexjmackey
+author: lizthedeveloper
 
 levels:
 
@@ -8,6 +8,16 @@ levels:
   - advanced
 
 type: normal
+
+tags:
+
+  - workout
+
+  - es6
+
+  - deep
+
+  - strings
 
 inAlgoPool: false
 

@@ -21,6 +21,10 @@ tags:
 
   - arrays
 
+  - new
+
+  - es6
+
 links:
 
   - >-

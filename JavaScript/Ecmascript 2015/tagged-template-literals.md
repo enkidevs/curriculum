@@ -9,6 +9,18 @@ levels:
 
 type: normal
 
+tags:
+
+  - new
+
+  - workout
+
+  - introduction
+
+  - strings
+
+  - es6
+
 inAlgoPool: false
 
 category: feature
