@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-The promise API also supplies a number of methods for working with multiple promises.
+The promise API supplies a number of methods for working with multiple promises.
 
 **promise.all**
 
@@ -28,9 +28,9 @@ If any of the supplied promises are rejected then the reject method is called im
 
 ```
 Promise.all([p1, p2, p3])
-.then(values => { 
- console.log(values); 
-//[3, 1337, "foo"] 
+.then(values => {
+ console.log(values);
+//[3, 1337, "foo"]
 });
 ```
 
@@ -40,7 +40,7 @@ Takes an array of promises and resolves when any supplied promises resolve succe
 
 ```
 Promise.race([p1, p2, p3])
-.then(values => { 
+.then(values => {
  console.log(“completed”);
 });
 ```
