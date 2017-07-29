@@ -20,7 +20,7 @@ tags:
 
   - arrays
 
-  - es6
+  - es6 
 
 inAlgoPool: false
 
