@@ -11,6 +11,18 @@ levels:
 
 type: normal
 
+tags:
+
+  - introduction
+
+  - new
+
+  - workout
+
+  - es6
+
+  - numbers
+
 category: feature
 
 links:

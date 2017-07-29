@@ -7,6 +7,14 @@ levels:
 
 type: normal
 
+tags:
+
+  - introduction
+
+  - es6
+
+  - memory
+
 inAlgoPool: false
 
 category: must-know

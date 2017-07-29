@@ -9,9 +9,17 @@ levels:
 
 type: normal
 
+tags:
+
+  - es6
+
+  - introduction
+
+  - oop
+
 inAlgoPool: false
 
-category: must-know
+category: feature
 
 links:
 

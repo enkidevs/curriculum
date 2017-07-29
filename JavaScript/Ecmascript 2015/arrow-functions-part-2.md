@@ -21,7 +21,7 @@ tags:
 
 inAlgoPool: false
 
-category: must-know
+category: feature
 
 ---
 ## Content
