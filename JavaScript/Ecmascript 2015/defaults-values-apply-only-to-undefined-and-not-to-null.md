@@ -13,10 +13,16 @@ type: normal
 
 category: caveats
 
+tags:
+
+  - es6
+
+  - caveat
+
 ---
 ## Content
 
-ES6 defaults values in function parameters and object deconstructions work as expected when given `undefined`. 
+ES6 defaults values in function parameters and object deconstructions work as expected when given `undefined`.
 
 
 ```
@@ -39,13 +45,13 @@ const {a = 1} = {a: null}
 
 What is **a** strictly equal to?
 ```
-const {a = 1} = {a: undefined} 
+const {a = 1} = {a: undefined}
 // a === ???
 ```
-*`1` 
-*`0` 
-*`null` 
-*`undefined` 
+*`1`
+*`0`
+*`null`
+*`undefined`
 *`NaN`
 
 ---
