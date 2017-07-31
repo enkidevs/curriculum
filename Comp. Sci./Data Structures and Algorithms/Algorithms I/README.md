@@ -1,4 +1,4 @@
-name: Intro to Algorithms
+name: Algorithms I
 
 type: insights-list
 
