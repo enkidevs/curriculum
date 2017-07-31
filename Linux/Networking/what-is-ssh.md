@@ -19,14 +19,14 @@ links:
 ---
 ## Content
 
-Acronym from *Secure Socket Shell*, is a protocol that provides users with a safe way of accessing *remote systems/machines*. It can be seen as a more secure version of Telnet, by ensuring *strong authentication* and a *secure encrypted data transfer* between two computers over an insecure networking connection.
+SSH, acronym for *Secure Socket Shell*, is a protocol that provides users with a safe way of accessing *remote systems*. It can be seen as a more secure version of Telnet, by ensuring *strong authentication* and a *secure encrypted data transfer* between two computers over an insecure networking connection.
 
 An SSH connection can be established through the use of the following 3 utilities:
 - ssh: the CLI
 - slogin: it's an alias for ssh, accepting the same flags
-- scp: secure copy, the encrypted version of the copy
+- scp: secure copy, the encrypted version of the cp
 
-In 1995 Tatu Ylönen (a researcher from Helsinki University) lauched the first version of SHH (SSH-1). Over time many bugs were discovered and in 2006 a new set of Secure Shell protocols was adopted as a standard (SSH-2).
+In 1995 Tatu Ylönen (a researcher from Helsinki University) lauched the first version of SHH (SSH-1). Over time many bugs were discovered and in 2006 a new set of Secure Shell protocols was adopted as the standard (SSH-2).
 
 The old version used *public-key cryptography*[1] to authenticate the remote machine, which SSH-2 replaced with *Deffie-Helman key exchanged*[2]. There are several encryption methods available in SHH-2, but the most used ones are: *AES*[3] and *Blowfish*[4].
 
@@ -40,9 +40,10 @@ N.B. There is no evidence of any exploits for SSH-2 yet, however, some documents
 What type of encryption does SSH-2 use?
 ???
 
+* AES or Blowfish
 * Deffie-Helman key exchanged
 * public-key cryptography
-* Hashing
+* hashing
 
 ---
 ## Revision
