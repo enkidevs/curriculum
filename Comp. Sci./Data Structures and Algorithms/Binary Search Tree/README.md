@@ -6,7 +6,7 @@ description: The famous binary search tree explained.
 
 section: 1
 
-parent: Intro to Algorithms
+parent: Algorithms I
 
 insights:
    - the-binary-search-tree-data-structure
