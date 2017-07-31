@@ -21,13 +21,15 @@ links:
 To get all of the data from a table, you can use a `SELECT` statement.
 
 ```sql
-SELECT * FROM users;
+SELECT *
+FROM users;
 ```
 
 The above command gets all of the *columns* and all of the *rows* from the `users` table.
 
 ```sql
-SELECT id, first_name, last_name FROM users;
+SELECT id, first_name, last_name
+FROM users;
 ```
 
 The above command gets only the `id`, `first_name`, and `last_name` columns of all the rows from the `users` table.
