@@ -20,7 +20,7 @@ links:
 ---
 ## Content
 
-If you commit to the current branch when instead you wanted to commit to a new branch, you can easily correct your mistake. 
+If you commit to the current branch when instead you wanted to commit to a new branch, you can easily correct your mistake.
 
 For example if you made your commit to `master` instead of `test`:
 ```
@@ -30,7 +30,7 @@ For example if you made your commit to `master` instead of `test`:
 $ git branch test
 
 # reset master to before last commit
-$ git reset --hard HEAD~ 
+$ git reset --hard HEAD~
 
 # continue on new branch
 $ git checkout test
@@ -39,7 +39,7 @@ $ git checkout test
 ---
 ## Practice
 
-The order in which you would correct the mistake is : 
+The order in which you would correct the mistake is :
 ```
 ???
 ???
@@ -53,7 +53,7 @@ The order in which you would correct the mistake is :
 ---
 ## Revision
 
-A quick hack to revert the changes made to the current branch and move them to another is 
+A quick hack to revert the changes made to the current branch and move them to another is
 
 ???
 *creating a new branch and resetting HEAD on master
