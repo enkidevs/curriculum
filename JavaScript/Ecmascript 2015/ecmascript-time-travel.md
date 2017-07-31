@@ -39,9 +39,9 @@ var half = (x) ??? {
 * `->`
 * `==>`
 %exp
-Arrow function expression has a shorter syntax than the regular expression form.
+Arrow function expressions have a shorter syntax than a keyword function expression.
 
-The **arrow function** does not bind "its" own `this` or `arguments`.
+The **arrow function** does not create a new execution context, so it inherits it's parent's `this` or `arguments`.
 %
 
 ---
@@ -126,9 +126,8 @@ let [a,b,c] == [1, 2, 3];
 * `1`
 * `3`
 %exp
-For each `a,b,c,` we assign them the first, second and third value in the array, respectively.
+When using **array destructuring** the variables `a,b,c,` have their values assigned to the first, second and third value in the array respectively.
 
-This happens because the **array destructuring assignment** was used.
 %
 
 ---
