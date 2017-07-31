@@ -23,7 +23,7 @@ git keeps a 'reflog' for a few months. This is a record of where your HEAD and b
 
 To view the reflog:
 ```
-$ git reflog 
+$ git reflog
 6342de7 HEAD@{0}: commit: Fix typo
 2cd56ed HEAD@{1}: rebase -i (squash):
 # etc
@@ -43,7 +43,7 @@ $ git show master@{2.months.ago}
 
 View the latest commit on master as of 3 days ago:
 ```
-$ git ??? ???@{3.days.ago} 
+$ git ??? ???@{3.days.ago}
 ```
 * `show`
 * `master`
@@ -55,7 +55,7 @@ $ git ??? ???@{3.days.ago}
 
 View the 6th previous value of HEAD:
 ```
-$ git ??? ???@{6} 
+$ git ??? ???@{6}
 ```
 * `show`
 * `HEAD`

@@ -56,18 +56,18 @@ $ git ???
 $ echo ??? >>
        .git/info/sparse-checkout
 ```
-*`config`
-*`core`
-*`sparsecheckout`
-*`newFeature/`
-*`.git/newFeature`
+* `config`
+* `core`
+* `sparsecheckout`
+* `newFeature/`
+* `.git/newFeature`
 
 ---
 ## Revision
 
 Directories not specified in the `sparse-checkout` file are
 
-???.
+???
 * ignored
 * the only ones pulled
 * immutable

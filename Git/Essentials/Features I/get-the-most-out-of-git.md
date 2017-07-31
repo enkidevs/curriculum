@@ -18,7 +18,7 @@ links:
 
 **Git** offers a plethora of tools specifically intended to enhance and make your workflow more flexible.
 
-When you are working you often want to see what has changed. Using the `git diff` command you can see how the working tree (current local state of the files) is different from the `HEAD` (last commit on your branch):[1]
+When you are working you often want to see what has changed. Using the `git diff` command you can see how the working tree (current local state of the files) is different from the `HEAD` (last commit on your branch)[1]:
 ```
 $ git diff
 # ...
@@ -28,7 +28,7 @@ $ git diff
 ```
 If you want to see the latest commits on all branches simply use[2]:
 ```
-$ git branch -v 
+$ git branch -v
 # *master 23f2g2e fixed bugs
 # feature 249enki implemented share
 ```
@@ -46,11 +46,11 @@ $ git cherry-pick 51241js
 
 To just apply a commit without merging or rebase you can use `git ???`.
 
-*`cherry-pick`
-*`diff`
-*`commit --amend`
-*`revert`
-*`add`
+* `cherry-pick`
+* `diff`
+* `commit --amend`
+* `revert`
+* `add`
 
 ---
 ## Revision
@@ -60,18 +60,18 @@ Complete the code snippet such that the command, if ran, will show the latest co
 $ git ??? ???
 ```
 
-*`branch`
-*`-v`
-*`-all`
-*`list`
-*`commit`
-*`all`
-*`diff`
+* `branch`
+* `-v`
+* `-all`
+* `list`
+* `commit`
+* `all`
+* `diff`
 
 ---
 ## Footnotes
 
-[1:diff]
+[1: diff command]
 Instead of seeing the differences for all the files, you can specify a file the command will target:
 ```
 $ git diff thisFile.txt
@@ -81,6 +81,6 @@ To see the difference between two branches you can use the following syntax:
 $ git diff <source_branch> <target_branch>
 ```
 
-[2:branch -v]
+[2: branch command]
 
-The `*`(asterisk) sign shows the branch you are currently on.
+The `*`(asterisk) marks the branch you are currently on.
