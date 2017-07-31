@@ -19,7 +19,8 @@ The principle behind them is fairly straight forward: you have to go back to a p
 $ git add .
 $ git status
 On branch feature
-Your branch is up-to-date with 'origin/feature'
+Your branch is up-to-date with
+  'origin/feature'
 Changes to be committed:
   modified: file1
   modified: file2
