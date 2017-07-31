@@ -2,7 +2,7 @@ name: Requests and Responses
 
 type: insights-list
 
-description: In-depth exploration
+description: Brief exploration of requests and responses.
 
 section: 1
 
