@@ -28,12 +28,12 @@ To list TCP (`-t`), UDP (`-u`) or Unix (`-x`) port connections:
 ```bash
 # TCP and UDP ports
 $ ss -tu
-State      Recv-Q Send-Q Local Address:Port
-                         Peer Address:Port            
-ESTAB      69     0      192.168.100.5:59364
-                         192.0.73.2:https                
-CLOSE-WAIT 1      0      192.168.100.5:47352
-                         54.243.104.69:https
+State     Recv-Q Send-Q Local Address:Port
+                        Peer Address:Port            
+ESTAB      69     0     192.168.100.5:59364
+                        192.0.73.2:https                
+CLOSE-WAIT 1      0     192.168.100.5:47352
+                        54.243.104.69:https
 ```
 Or you can use the query flag (`-A` or `--query=`):
 ```bash
@@ -68,8 +68,8 @@ FRAG	      0         0         0
 Show the apps connected to the Internet:
 ```
 $ ss -p
-Netid State Recv-Q Send-Q Local Address:Port
-                          Peer Address:Port                
+Netid State RecvQ SendQ Local Address:Port
+                          Peer Address:Port
 u_seq ESTAB  0      0     @0002f 203909
                           * 203910
       users:(("atom",pid=22832,fd=17))
