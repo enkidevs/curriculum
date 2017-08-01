@@ -28,7 +28,8 @@ $ usermod --expiredate 2016-04-01 newuser
 
 Add a user to supplementary groups:
 ```
-$ usermod --append --groups newgroup newuser
+$ usermod --append --groups newgroup \
+    newuser
 $ usermod -aG newgroup,enkigroup newuser
 ```
 
@@ -86,8 +87,8 @@ Change a user's home directory without moving the files:
 ```
 $ ??? ??? /newHome user
 ```
-*`usermod`
-*`--home`
-*`-dm`
-*`--move-home`
-*`chmod`
+* `usermod`
+* `--home`
+* `-dm`
+* `--move-home`
+* `chmod`
