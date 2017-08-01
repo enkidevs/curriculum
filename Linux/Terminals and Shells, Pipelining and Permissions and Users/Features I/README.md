@@ -1,4 +1,4 @@
-name: Useful Tips
+name: Features I
 
 type: insights-list
 
