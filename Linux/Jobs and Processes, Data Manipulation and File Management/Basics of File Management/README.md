@@ -1,4 +1,4 @@
-name: The Basics of File Management
+name: Basics of File Management
 
 type: insights-list
 
