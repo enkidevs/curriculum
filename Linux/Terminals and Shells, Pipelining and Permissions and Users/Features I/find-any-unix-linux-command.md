@@ -54,13 +54,15 @@ Complete the following snippet to obtain the output :
 ```
 $ ??? ???
 ...
-foomatic-kitload (8) - installs a data kit 
-          into the foomatic database.
-grub-install (8)   - install GRUB to a device
-install-docs (8)   - manage online 
-          Debian documentation
-install-sgmlcatalog (8) - maintain transitional 
-          SGML catalog
+foomatic-kitload (8) -
+      installs a data kit
+      into the foomatic database.
+grub-install (8)   -
+      install GRUB to a device
+install-docs (8)   -
+      manage online Debian documentation
+install-sgmlcatalog (8) -
+      maintain transitional SGML catalog
  ...
 ```
 *`apropos`
@@ -72,7 +74,7 @@ install-sgmlcatalog (8) - maintain transitional
 ---
 ## Revision
 
-`apropos`  allows you to search through 
+`apropos`  allows you to search through
 
 ??? .
 
