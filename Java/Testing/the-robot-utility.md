@@ -49,9 +49,9 @@ Typing a letter:
 myRobot.keyPress(KeyEvent.VK_H);
 //types letter H
 ```
-Note that `Robot` class won't just generate the events, but actually perform the actions. 
+Note that `Robot` class won't just generate the events, but actually perform the actions.
 
-Some platforms will require special privileges so make sure you use `Robot` in a
+Some platforms will require special privileges so make sure you use `Robot` in a try-catch block:
 ```java
 try {
  // use myRobot...
@@ -59,22 +59,21 @@ try {
  // handle exception...
 }
 ```
-block.
 
 ---
 ## Practice
 
-Press the left mouse button using the `Robot`  class:
-```
+Trigger a left mouse button click using the `Robot` class:
+```java
 Robot robot = new Robot();
 robot.???(
     InputEvent.???);
 ```
-*`mousePress` 
-*`BUTTON1_MASK` 
-*`BUTTON2_MASK` 
-*`mouseRelease` 
-*`keyPress`
+* `mousePress`
+* `BUTTON1_MASK`
+* `BUTTON2_MASK`
+* `mouseRelease`
+* `keyPress`
 
 ---
 ## Revision
@@ -85,7 +84,7 @@ Robot myRobot = new Robot();
 myRobot.???(0,0);
 ```
 
-*`mouseMove` 
-*`moveMouse` 
-*`mousePress` 
-*`mouseRelease`
+* `mouseMove`
+* `moveMouse`
+* `mousePress`
+* `mouseRelease`
