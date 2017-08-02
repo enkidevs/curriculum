@@ -2,7 +2,7 @@ name: System Recipes
 
 type: insights-list
 
-description: Check out this recipes to various scenarios regarding Linux system managemenet
+description: Check out this recipes to various scenarios regarding Linux system management.
 
 section: 2
 
