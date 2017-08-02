@@ -11,7 +11,7 @@ type: normal
 
 inAlgoPool: false
 
-category: must know
+category: must-know
 
 parent: what-is-a-shell
 
