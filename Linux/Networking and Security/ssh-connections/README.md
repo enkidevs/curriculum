@@ -1,4 +1,4 @@
-name: Making SSH connections
+name: Making SSH Connections
 
 type: insights-list
 
@@ -13,4 +13,4 @@ insights:
   - aliasing-ssh-connections
   - staying-connected-remotely-via-ssh-without-an-interactive-shell
   - ssh-tunneling-made-easy
-  - breaking-out-of-a-terminal-when-ssh-locks 
+  - breaking-out-of-a-terminal-when-ssh-locks
