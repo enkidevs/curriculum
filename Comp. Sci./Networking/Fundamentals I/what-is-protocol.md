@@ -71,6 +71,7 @@ Which of the following protocols is used solely for file transfer?
 ## Revision
 
 Protocols are ??? that ensure efficient communication between two devices, over a network.
+
 * rules
 * privileges
 * properties
