@@ -6,7 +6,7 @@ description: Even more on algorithms!
 
 section: 1
 
-parent: Tree Traversals
+parent: tree-traversals
 
 insights:
   - reverse-polish-notation

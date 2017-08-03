@@ -6,7 +6,7 @@ description: Explore consecrated algorithms and problems making use of the minim
 
 section: 2
 
-parent: Graph Algorithms
+parent: graph-algorithms
 
 insights:
   - kruskals-algorithm
