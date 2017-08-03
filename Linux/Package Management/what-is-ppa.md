@@ -1,4 +1,4 @@
-# What is PPA?
+# What is a PPA?
 author: Nick Daminov
 
 levels:
@@ -18,9 +18,9 @@ links:
 ---
 ## Content
 
-**PPA** is a *Personal Package Archive*, software repository for *APT*[1] packages (after downloading a PPA we can use APT to install desired software). **PPAs** are used for distributing software for *Linux* like systems via *launchpad.net*[2] which has certain advantages over other distribution methods.
+**PPA**s, or *Personal Package Archives*, is a software repository for *APT*[1] packages, hosted on `launchpad.net` servers[2]. *PPAs* are used for distributing software written or maintained by a private group or individual (anyone can publish).
 
-**PPAs** can be downloaded both trough *shell* and *GUI interface*. It is important to remember that the software distributed via **PPA** can be written by anyone in the community so there are a few points to consider:
+Packages from those *PPA*s can be downloaded both through a *shell* and a *GUI interface*. As they can be written by anyone in the community, there are a few points to consider:
  - Who created the PPA
  - How many user have downloaded and used it
  - How up to date it is (what OS version it runs on)
@@ -33,22 +33,26 @@ $ grep ^ /etc/apt/sources.list.d/*
 ---
 ## Practice
 
-What does the fox says?
+What is a PPA?
+
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+* A repository
+* A package
+* A piece of software
+* A type of shell
 
 ---
 ## Revision
 
-What does the fox says?
+What is a PPA?
+
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+* A repository
+* A package
+* A piece of software
+* A type of shell
 
 ---
 ## Footnotes
@@ -57,4 +61,4 @@ What does the fox says?
 Advanced Packaging Tool
 
 [2: Launchpad]
-Launchpad is a software collaboration platform that provides various features for application development as well as hosts Ubuntu packages and provides PPAs.
+Launchpad is a software collaboration platform that provides various features for application development, as well as hosting Ubuntu packages and providing the PPA repository.
