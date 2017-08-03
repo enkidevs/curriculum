@@ -6,7 +6,7 @@ description: Explore must know aspects of networking.
 
 section: 0
 
-parent: Fundamentals I
+parent: fundamentals-i
 
 insights:
   - what-is-an-ip-address

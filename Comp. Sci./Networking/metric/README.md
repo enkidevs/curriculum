@@ -6,7 +6,7 @@ description: How to measure computer networks.
 
 section: 0
 
-parent: Fundamentals II
+parent: fundamentals-ii
 
 insights:
   - important-networking-metrics
