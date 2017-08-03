@@ -6,7 +6,7 @@ description: Learn the basics of graph theory.
 
 section: 0
 
-parent: Intro to Data Structures
+parent: intro-data-structures
 
 insights:
   - the-graph-data-structure
