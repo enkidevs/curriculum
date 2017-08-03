@@ -6,7 +6,7 @@ description: Explore how the local repository works.
 
 section: 0
 
-parent: Getting Started
+parent: getting-started
 
 insights:
   - the-local-repository

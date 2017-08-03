@@ -6,7 +6,7 @@ description: Get started with git!
 
 section: 0
 
-parent: Fundamentals
+parent: fundamentals
 
 insights:
   - installing-git
