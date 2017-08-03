@@ -72,9 +72,9 @@ Data transmission over the Internet works in the following way:
 ---
 ## Revision
 
-IP packets are usually made out of
- - header
- - ???
+IP packets are usually made out of `header` and
+
+???
 
 * payload
 * protocols
