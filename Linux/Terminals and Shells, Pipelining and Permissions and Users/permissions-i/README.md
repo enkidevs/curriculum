@@ -6,7 +6,7 @@ description: Explore how permissions work on linux based operating systems.
 
 section: 0
 
-parent: Pipeline Basics
+parent: pipeline-basics
 
 insights:
   - users-and-groups-on-linux

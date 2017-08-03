@@ -6,7 +6,7 @@ description: Pipelining 101.
 
 section: 0
 
-parent: Linux Shell Basics
+parent: linux-shell-basics
 
 insights:
   - the-standard-streams-stdin-stdout-and-stderr
