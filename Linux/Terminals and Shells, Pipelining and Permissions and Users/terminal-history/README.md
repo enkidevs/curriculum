@@ -6,7 +6,7 @@ description: Lean how to interact with your terminal's history.
 
 section: 1
 
-parent: Permissions III
+parent: permissions-iii
 
 insights:
   - quick-cd-tips

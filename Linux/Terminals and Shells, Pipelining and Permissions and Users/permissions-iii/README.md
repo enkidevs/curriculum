@@ -6,7 +6,7 @@ description: Even more on permissions.
 
 section: 1
 
-parent: Permissions II
+parent: permissions-ii
 
 insights:
   - understanding-umask
