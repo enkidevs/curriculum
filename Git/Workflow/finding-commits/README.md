@@ -6,7 +6,7 @@ description: Check out how to find your commits easily in git.
 
 section: 0
 
-parent: Branches
+parent: branches
 
 insights:
   - search-by-commit-message-keyword
