@@ -6,7 +6,7 @@ description: Learn about the Heap and Trie data structures.
 
 section: 1
 
-parent: Binary Search Tree
+parent: binary-search-tree
 
 insights:
   - the-heap-data-structure

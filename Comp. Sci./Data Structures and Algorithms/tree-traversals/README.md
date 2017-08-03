@@ -6,7 +6,7 @@ description: How to traverse a tree.
 
 section: 1
 
-parent: Heap and Trie
+parent: heap-and-trie
 
 insights:
   - tree-traversals
