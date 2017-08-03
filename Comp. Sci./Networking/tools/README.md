@@ -6,7 +6,7 @@ description: Using tools to debug networks.
 
 section: 0
 
-parent: Metrics
+parent: metrics
 
 insights:
   - tools-to-interact-with-networks

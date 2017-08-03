@@ -6,7 +6,7 @@ description: Brief exploration of requests and responses.
 
 section: 1
 
-parent: Intro to HTTP
+parent: intro-to-http
 
 insights:
   - http-request

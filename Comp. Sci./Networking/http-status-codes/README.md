@@ -6,7 +6,7 @@ description: In-depth exploration
 
 section: 1
 
-parent: Requests and Responses
+parent: requests-responses
 
 insights:
   - informational-status-codes
