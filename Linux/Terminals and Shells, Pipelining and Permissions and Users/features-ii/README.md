@@ -6,7 +6,7 @@ description: Linux features in the spotlight, again.
 
 section: 2
 
-parent: Features I
+parent: features-i
 
 insights:
   - get-to-know-your-commands-with-type
