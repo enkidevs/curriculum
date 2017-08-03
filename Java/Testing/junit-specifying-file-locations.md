@@ -30,10 +30,10 @@ links:
 ## Content
 
 When loading data from a file system for performing a test you can use:
-```
+```java
 public void setUp() {
-   FileInputStream inp 
-      ("C:\\Testing\\someData.dat");
+   FileInputStream inp = new FileInputStream
+    ("C:\\Testing\\someData.dat");
    ...
 }
 ```
@@ -42,14 +42,14 @@ But this method of loading files during testing would not work when:
 * The user is testing on another platform, for example, Unix.
 
 If the test is running from the same directory as the test data, a simple solution would be:
-```
-FileInputStream inp ("someData.dat");
+```java
+FileInputStream inp = new FileInputStream
+  ("/someData.dat");
 ```
 However, to achieve a location-independent mechanism, a class can be mapped to a specific source directory, which would move the test data from the CM system into the classpath of the system under test:
-```
-InputStream inp = SourceResourceLoader.
-   getResourceAsStream (this.getClass(),
-   "someData.dat");
+```java
+URL filePath = this.getClass().getResource("/someData.dat");
+File someData = new File(filePath.getFile());
 ```
 
 ---
@@ -62,6 +62,6 @@ FileInputStream inp(
  ???);
 ```
 
-*`"someData.dat"` 
+*`"someData.dat"`
 *`"C:\\Testing\\someData.dat"`
 *`/home/Testing/someData.dat`
