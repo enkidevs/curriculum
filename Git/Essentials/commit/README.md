@@ -6,7 +6,7 @@ description: Explore the unit of work in git - the commit.
 
 section: 0
 
-parent: Remote Repository
+parent: remote-repository
 
 insights:
   - what-is-stored-in-a-commit

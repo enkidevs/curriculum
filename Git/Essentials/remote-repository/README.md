@@ -6,7 +6,7 @@ description: Learn the in's and out's of git's remote repository.
 
 section: 0
 
-parent: Local Repository
+parent: local-repost
 
 insights:
   - introduction-to-remote-repositories
