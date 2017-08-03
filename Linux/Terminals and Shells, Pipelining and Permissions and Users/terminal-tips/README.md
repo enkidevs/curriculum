@@ -6,7 +6,7 @@ description: Tips for an easier terminal workflow.
 
 section: 0
 
-parent: User Management
+parent: user-management
 
 insights:
   - conditional-command-execution-operator

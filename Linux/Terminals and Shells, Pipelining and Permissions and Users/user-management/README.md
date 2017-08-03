@@ -6,7 +6,7 @@ description: Learn how to manage users.
 
 section: 0
 
-parent: Permissions I
+parent: permissions-i
 
 insights:
   - adding-new-users-with-useradd
