@@ -6,7 +6,7 @@ description: See what git has to offer!
 
 section: 1
 
-parent: Features I
+parent: features-i
 
 insights:
   - let-s-play-the-blame-game
