@@ -6,7 +6,7 @@ description: Explore various tips for a better git workflow.
 
 section: 1
 
-parent: Staging II
+parent: staging-ii
 
 insights:
   - cache-your-authentication-details-to-save-time
