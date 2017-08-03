@@ -32,12 +32,10 @@ links:
 ---
 ## Content
 
-You can generate passwords in the terminal in many ways. Two of them are listed below.
-
+You can generate passwords in the terminal in many ways. Some of them are listed below.
 
 Using `openssl`:
-
-```console
+```bash
 $ openssl rand 32 -base64
 WkY+q7Z5YmiHTrpV0lwtSApbepky1BNWc1s1E7lFcpY=
 $
@@ -46,24 +44,35 @@ $
 The `rand 32` option tells `openssl` to generate a random sequence of 32 bytes and `-base64` tells `openssl` to base64-encode the output (see the link at the end for details).
 
 Using `pwgen`:
-
-```console
+```bash
 $ pwgen -s 40
 hAZmJQZkAf44F3Zoazl7II8bv07e5ta2COmFQdjK
-$
 ```
 
-By default `pwgen` generates pronounceable passwords.  The `-s` option tells `pwgen` to generate completely random, secure password instead (containing only letters and numbers).  `40` is the length of password to generate.
+By default, `pwgen` generates pronounceable passwords.  The `-s` option tells `pwgen` to generate completely random, secure password instead (containing only letters and numbers). `40` is the length of password to generate.
 
 
 By using the `-y` option we can tell `pwgen` to also include symbols in the password:
 
-```console
+```bash
 $ pwgen -s -y 40
-i^^iAa5o^oc["+43[G]{62&S!&Mt:L]ny7qbR~g0
-$
- 
+i^^iAa5o^oc[+43[G]{62&S!&Mt:L]ny7qbR~g0
 ```
+
+`apg` displays six somewhat memorable passwords based on your keyboard input. Entirely random ones can be produced with `apg -a 1`, which contain 8-10 totally randomised characters.
+
+You can also use `makepasswd`:
+```bash
+$ makepasswd -count X -minchars Y
+```
+In the code above, just replace `X` with the number of passwords required and `Y` with the minimum length of each password.
+
+Another option could be :
+```bash
+$ makepasswd -string 1234567890 -chars 4
+```
+That would create numerical-only, four digit long passwords (think PIN codes).
+
 
 ---
 ## Practice
