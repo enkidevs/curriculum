@@ -6,7 +6,7 @@ description: Enhance your git workflow!
 
 section: 0
 
-parent: Merges
+parent: merges
 
 insights:
   - workflow-long-running-branches
