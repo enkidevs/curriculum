@@ -6,7 +6,7 @@ description: Exploring utilities for data manipulation.
 
 section: 0
 
-parent: The Basics of File Management
+parent: basics-of-file-management
 
 insights:
   - the-head-and-tail-commands
