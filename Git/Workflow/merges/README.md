@@ -11,6 +11,6 @@ parent: Finding Commits
 insights:
   - solving-basic-merge-conflicts
   - merging-under-the-hood
+  - rebasing
   - the-golden-rule-of-rebasing
-  -
   - remember-the-results-of-previous-hunk-conflicts
