@@ -9,8 +9,6 @@ type: normal
 
 category: feature
 
-parent: the-three-states-in-git
-
 links:
 
   - >-
@@ -28,7 +26,7 @@ Once git knows you are intending to add the untracked file, you can use commands
 ---
 ## Practice
 
-Show that you intend to track `enki.md` : 
+Show that you intend to track `enki.md` :
 ```
 $ git ??? ??? enki.md
 ```
