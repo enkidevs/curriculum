@@ -51,7 +51,7 @@ stash@{0}: On master: new feature
 ## Practice
 
 Select the `git stash` option that stashes:
-   
+
 - tracked and untracked files ???
 - unstaged files ???
 - interactively ???
@@ -66,8 +66,3 @@ Select the `git stash` option that stashes:
 *description
 *branch
 *message
-
----
-## Footnotes
-
-The message must be wrapped in quotes if there are any special characters
