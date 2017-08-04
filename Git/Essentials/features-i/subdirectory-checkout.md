@@ -16,7 +16,7 @@ category: tip
 ---
 ## Content
 
-As of version 1.7, `git` can checkout selected subdirectories, just like `svn`.
+As of version 1.7, `git` can checkout selected subdirectories, just like `svn`. 
 
 Set up:
 
