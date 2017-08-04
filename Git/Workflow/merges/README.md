@@ -6,7 +6,7 @@ description: Merging 101.
 
 section: 0
 
-parent: Finding Commits
+parent: finding-commits
 
 insights:
   - solving-basic-merge-conflicts
