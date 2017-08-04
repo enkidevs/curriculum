@@ -1,4 +1,4 @@
-name: Logging
+name: Logging 
 
 type: insights-list
 
