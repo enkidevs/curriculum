@@ -6,7 +6,7 @@ description: Tips and tricks!
 
 section: 1
 
-parent: Logging
+parent: logging
 
 insights:
   - you-can-use-git-offline
