@@ -6,7 +6,7 @@ description: Ins and outs of staging - part one.
 
 section: 1
 
-parent: Work Smart
+parent: work-smart
 
 insights:
   - intent-to-add
