@@ -10,7 +10,7 @@ parent: local-repository
 
 insights:
   - introduction-to-remote-repositories
-  - working-with-remote
+  - working-with-remotes
   - tracking-and-staging-files
   - merging
   - pushing
