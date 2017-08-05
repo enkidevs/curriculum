@@ -1,4 +1,4 @@
-name: Fundamentals I
+name: Fundamentals I 
 
 type: insights-list
 
