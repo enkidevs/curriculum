@@ -18,7 +18,7 @@ category: must-know
 links:
 
   - 'https://www.techopedia.com/definition/8319/metric-networking'
-  
+
   - 'http://www.informit.com/articles/article.aspx?p=26129&seqNum=7'
 
 parent: extended-terminologies
@@ -30,7 +30,7 @@ parent: extended-terminologies
 
 This is also the case in *computer networks* where metrics can help us identify underlying problems, enhance connections or even decide for the most suitable Internet plans.
 
-The effective performance of a network is defined by the combination of different metrics which may vary because each network is unique in its nature and design.[1]
+The effective performance of a network is defined by the combination of different metrics which may vary because each network is unique in its nature and design.[1] 
 
 However, there are some standard and relevant measurements applicable to any network:
  - `bandwidth` - maximum rate at which information can be transferred

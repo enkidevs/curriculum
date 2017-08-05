@@ -32,7 +32,7 @@ Jitter, referred to as **Packet Delay Variation**[1], is an undesirable effect c
 
 Imagine a simple network between two computers, **A** and **B**. **A** sends a packet to **B** in `20ms` and **B** sends a response to **A** in `20ms`, then the flow of data is continuous and neither of the computers experience **jitter**.
 
-However, this is an ideal case.
+However, this is an ideal case. 
 
 Supposedly **A** sends packets every `20ms`, yet the router between **A** and **B** is busy handling other intensive tasks on the network (e.g. computer **C** is downloading a massive file). Consequently, computer **B** won't receive the packets constantly or evenly.
 

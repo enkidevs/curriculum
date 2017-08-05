@@ -48,7 +48,7 @@ When `datagrams` (packets) are released into the **network** there is no way of 
 
 The simplicity of `UDP` reduces the overhead[2] of other protocols and can be adequate for some applications such as real-time media streams or broadcasts.
 
-Protocols such as **DHCP** and **VOIP** work on top of `UDP`.
+Protocols such as **DHCP** and **VOIP** work on top of `UDP`. 
 
 ---
 ## Footnotes

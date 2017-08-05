@@ -30,7 +30,7 @@ So far, you must have encountered some of the following **protocols**:
 - `HTTP` - key protocol for data transfer across the *World Wide Web*
 - `SMTP` - used for mail transfer
 
-Some of the **protocols** used are hidden from the user, while others can be spotted by accessing a web page:
+Some of the **protocols** used are hidden from the user, while others can be spotted by accessing a web page: 
 ```text
 // the HTTPS protocol is used
 https://enki.com

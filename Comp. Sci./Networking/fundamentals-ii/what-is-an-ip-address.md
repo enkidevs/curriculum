@@ -32,7 +32,7 @@ There's a big chance you have already encountered them as[3]:
 25.255.0.1
 ```
 
-With that being the shorthand notation. The actual format of an IP address (in `IPv4`) is:
+With that being the shorthand notation. The actual format of an IP address (in `IPv4`) is: 
 ```
 xxx.xxx.xxx.xxx
 ```

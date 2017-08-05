@@ -39,7 +39,7 @@ A **proxy server** serves as a hub through which Internet requests are processed
 
 A proxy will make the requests you want instead and will return the response back to you. It can be used for various reasons:
 - bypassing parental filters
-- accessing location-blocked content
+- accessing location-blocked content 
 - providing a layer of anonymity
 
 #### VPN
