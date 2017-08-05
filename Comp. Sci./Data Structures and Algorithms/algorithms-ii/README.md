@@ -1,4 +1,4 @@
-name: Algorithms II
+name: Algorithms II 
 
 type: insights-list
 
