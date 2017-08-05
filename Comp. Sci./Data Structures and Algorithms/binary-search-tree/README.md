@@ -1,4 +1,4 @@
-name: Binary Search Tree
+name: Binary Search Tree 
 
 type: insights-list
 
