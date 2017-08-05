@@ -1,4 +1,4 @@
-name: Algorithms I
+name: Algorithms I 
 
 type: insights-list
 
