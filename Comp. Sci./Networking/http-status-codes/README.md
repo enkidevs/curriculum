@@ -1,4 +1,4 @@
-name: HTTP Status Codes
+name: HTTP Status Codes 
 
 type: insights-list
 
