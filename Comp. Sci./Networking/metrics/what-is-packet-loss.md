@@ -62,7 +62,7 @@ Therefore, they can't allow additional traffic to go through them and will resul
 
 
 [2:Software issues]
-As software written for *network devices* is not perfect, bugs might occur undetected.
+As software written for *network devices* is not perfect, bugs might occur undetected. 
 
 Therefore, it's highly recommended to always update drivers and such software to the latest versions.
 

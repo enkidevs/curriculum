@@ -33,7 +33,7 @@ However, there is a big difference between the two:
 
 This distinction can be better exemplified by:
 
-A *highway* has the capacity of moving 300 cars at the same time - this is `bandwidth`. Most of the time, however, due to congestion or jams, the actual number of cars that it can move is around 200 - this is `throughput`.
+A *highway* has the capacity of moving 300 cars at the same time - this is `bandwidth`. Most of the time, however, due to congestion or jams, the actual number of cars that it can move is around 200 - this is `throughput`. 
 
 This distinction is relevant as **ISPs** [1] usually advertise their `bandwidth` which is often higher than the `throughput` you will receive.
 

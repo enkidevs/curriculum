@@ -35,7 +35,7 @@ Based on these aspects, computer networks have been classified as:
 
 ### LAN
 
-`LAN` network connects a *small number* of devices, being typically used in networked office buildings, schools or homes.
+`LAN` network connects a *small number* of devices, being typically used in networked office buildings, schools or homes. 
 
 Due to operating in a *limited space* `LAN`s are usually owned, controlled and managed by a single person or organization. They also tend to use certain connectivity technologies, primarily `Ethernet`[1] and `Token Ring`[2].
 

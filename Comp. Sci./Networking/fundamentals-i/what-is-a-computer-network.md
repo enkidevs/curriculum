@@ -34,7 +34,7 @@ While modern devices have network devices integrated into their circuit boards, 
 
 At the same time, some devices can't connect to a network at all.
 
-The largest and most known computer network is the **Internet**. This world-wide system of interconnected smaller networks enables millions of devices to communicate with each other.
+The largest and most known computer network is the **Internet**. This world-wide system of interconnected smaller networks enables millions of devices to communicate with each other. 
 
 ---
 ## Revision

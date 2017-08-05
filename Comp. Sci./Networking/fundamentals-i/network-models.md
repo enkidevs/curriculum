@@ -54,7 +54,7 @@ The four **layers** taking part of the *Internet` model* architecture are:
 - `Application` Layer: defines the **protocol** which enables applications to interact with lower layers
 - `Transport` Layer: ensures that the *delivered data* is in-order
 - `Internet` Layer: responsible for addressing, packaging, and routing functions
-- `Network Interface` Layer: provides the means for the system to deliver data to the other devices on a directly attached network
+- `Network Interface` Layer: provides the means for the system to deliver data to the other devices on a directly attached network 
 
 
 **TCP/IP** is the older of the two approaches to data communications and is well established throughout the world.

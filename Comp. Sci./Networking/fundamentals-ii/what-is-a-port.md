@@ -40,7 +40,7 @@ To represent ports, a `16 bit` number is used, ranging from `0` to `65535`, yet 
  - `FTP` with port `21`
 
 When you visit an address such as `www.enki.com`, you won't be required to also specify its port number.
-This happens because the HTTP protocol, used to get the page, runs by default on port `80`.
+This happens because the HTTP protocol, used to get the page, runs by default on port `80`. 
 
 ---
 ## Footnotes

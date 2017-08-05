@@ -48,7 +48,7 @@ Running on port `23`, `telnet` lets you log in and control a machine remotely ba
 
 File Transfer Protocol is the standard *mechanism* provided by `TCP/IP` for *copying* a file from one host to another.
 
-Being often secured with other protocols, `FTP` is most commonly used to download or upload files to and from a server using the Internet. By default, `FTP` uses port `21`.
+Being often secured with other protocols, `FTP` is most commonly used to download or upload files to and from a server using the Internet. By default, `FTP` uses port `21`. 
 
 **MIME**
 

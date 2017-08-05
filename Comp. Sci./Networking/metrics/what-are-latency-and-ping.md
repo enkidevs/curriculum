@@ -101,7 +101,7 @@ Both are in a *cause-and-effect* relationship, each one affecting how the other 
 [3:Factors]
 There are some factors that directly influence the network latency:
  - *connection type* : for example satellite connections are slower than cable connections
- - *distance* : the farther away you are from the server, the more time it takes for information to get to you
+ - *distance* : the farther away you are from the server, the more time it takes for information to get to you 
 
 [4:Congestion]
 **Congestion** goes hand in hand with **bandwidth**. The smaller your bandwidth is, the more likely are you to experience congestion with low latency.
