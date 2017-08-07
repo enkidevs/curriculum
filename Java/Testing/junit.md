@@ -53,7 +53,7 @@ import org.junit.Test;
 public class UserTest {
   private User mike;
 
-  @Before
+  @BeforeEach
   public void setup() {
     mike = new User("Mike",
       LocalDate.of(1985, 6, 15));
