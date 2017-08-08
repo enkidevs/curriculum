@@ -2,7 +2,7 @@ name: Tips V
 
 type: insights-list
 
-description: Tips and features for a better understaing Java.
+description: Tips and features for a better understanding Java.
 
 section: 2
 
