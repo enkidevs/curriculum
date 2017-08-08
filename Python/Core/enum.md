@@ -1,4 +1,4 @@
-# Enum collections
+# The `enum` collection
 author: SebaRaba
 
 levels:
@@ -16,89 +16,106 @@ links:
 ---
 ## Content
 
-An **enum** is a list of constants that are meant to help with organizing information. It is available in the `enum` module, in Python 3.4+.
+An **enum** (enumeration) is a set of constants that is meant to keep information organized. They are used mostly when a variable should take only a small set of possible values.
 
-Consider the following *namedtuple*:
-```
-from collections import namedtuple
+While there was no default `Enum` implementation before *Python 3.4*, you could've easily create one of your own. For newer versions, you can find the base class inside the `enum` package.
 
-Dog = namedtuple('Dog', 'age breed')
-lucky = Dog(age = 5, breed = 'pug')
-```
-Now, the breed field should accept a string. However, it could be confusing as any of the following options should be seen as valid: 'Pug', 'pug' or 'PUG'. Here, enums come in handy:
+This is how to create an enum:
 ```python
-from collections import namedtuple
 from enum import Enum
 
-class Breed(Enum):
-  pug = 'pug'
-  PUG = 'pug'
-  Pug = 'pug'
-  shiba = 'shiba'
-  shiba_inu = 'shiba'
-  beagle = 'beagle'
-  bulldog = 'bulldog'
-
-Dog = namedtuple('Dog', 'age breed')
-
-rex = Dog(age=3, breed=Breed.pug)
-splif = Dog(age=2, breed=Breed.PUG)
-
-print(rex.breed == splif.breed)
-# True
-
+class Shade(Enum):
+  blue = 'denim'
+  yellow = 'cream'
+  green = 'olive'
+  fuchsia = 4
 ```
-
-We defined a class called `Breed` which we used to map different strings to the same category. This way our code will be more readable and easier to understand for other programmers.
-
-There are three ways to access elements in an enumeration:
+Even though mixing the values defeats the purpose of having a list of constants you can use, it shows that you can have it both ways. You can then access the values contained through:
 ```python
-# by category
-print(Breed('pug'))
-print(Breed['shiba'])
-# by attribute
-print(Breed.shiba_inu)
+# associated value
+print(Shade(4))
+print(Shade('cream'))
+# Shade.fuchsia
+# Shade.yellow
 
-# Breed.pug
-# Breed.shiba
-# Breed.shiba
+# associated name
+print(Shade['blue'])
+# Shade.blue
+
+# enum entry
+print(Shade.green)
+# Shade.green
+
+# name property of the entry
+print(Shade.green.name)
+# green
+
+# value property of the entry
+print(Shade.green.value)
+print(Shade.fuchsia.value)
+# olive
+# 4
+```
+It is much easier now to paint a flower without having to think about the actual shade:
+```python
+class Flower:
+  ...
+
+lily = Flower()
+lily.petals = Shade.fuchsia
+lily.stem = Shade.green
+lily.stamen = Shade.yellow
+
+print(lily.stem.value)
+# olive
 ```
 
-The generic name for one category is the one that was first defined and that can be seen in the above example (`Breed.pug`, `Breed.shiba`).
+`Enum`s are also **iterable** and **hashable**:
+```python
+for shade in Shade:
+  print(shade)
+
+flowers = dict()
+flowers[Shade.fuchsia] = ['lily', 'tulip',
+  'fuchsia']
+print(flowers)
+# {<Shade.fuchsia: 4>: ['lily', 'tulip',
+#   'fuchsia']}
+
+```
+
+---
+## Practice
+
+Assuming that the same `Shade` enum is declared, what do you think the following snippet will print?
+```python
+print(type(Shade.blue))
+???
+print(Shade.blue is Shade.green)
+???
+```
+
+* <enum 'Shade'>
+* False
+* <class 'Shade'>
+* True
+* <enum 'Shade.blue'>
+
 
 ---
 ## Revision
 
-Fill the gaps such that both expressions at the end will evaluate to 'True':
+What will the following snippet output?
 ```python
-from collections import namedtuple
 from enum import Enum
-
-class Brands(???):
-  Audi = 1
-  Bmw = 2
-  Mercedes = 3
-  Volkswagen = 4
-  audi = 1
-  bmw = ???
-  mercedes = 3
-  volkswagen = 4
-
-Car = namedtuple('Car', '??? engine')
-polo = Car(brand= Brands(4), engine=1.4)
-a4 = Car(brand= ???.audi, engine=2)
-s8 = Car(brand= Brands(1), engine=6.2)
-
-print(a4.brand == ???.brand)
-print(polo.??? != a4.engine)
+class Car(Enum):
+  bmw = 1
+  Mercedes = 'S-class'
+print(Car['bmw'])
+???
 ```
-
-* Enum
-* 2
-* brand
-* Brand
-* s8
-* engine
+* Car.bmw
+* An error, it should be `Car('bmw')`
+* An error, strings and ints cannot be mixed
+* 1
 * bmw
-* Audi
-* namedtuple
