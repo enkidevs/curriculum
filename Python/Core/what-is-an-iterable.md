@@ -78,7 +78,7 @@ What is the difference between `__getitem__()` and `__iter__()`?
 [1:Parent and Child objects]
 This is not to be confused with the concept of parents/children in Object-Oriented Programming, which is slightly different, semantically. In OOP, the concept of parent and children objects usually refers to the concept of **inheritance**, where the features of a parent class are inherited by its children. for more information, please see 'OOP Parents and Children' in the 'Learn More' section.
 
-[1:Double Underscore in Python]
+[2:Double Underscore in Python]
 Double underscores in Python are commonly referred to by Pythonistas as "dunder" for brevity. `__iter__` is therefore pronounced *"dunder iter"*.
 The meaning behind double underscores is to allow the core Python team to define so-called "Magic Methods" which define certain protocols that classes can choose to implement or not. By default, many of the built-in classes implement these methods.  
 The double underscore was chosen as way to not have as many `reserved` method names such as in Java, by prefixing and postfixing the underscores, the name `iter` is still usable in code without interfering with the language's underlying mechanisms.
