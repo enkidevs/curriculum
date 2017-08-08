@@ -98,7 +98,7 @@ print('Hello')
 Standard streams are preconnected communication channels between a computer program and its environment when it begins execution. There are 3 main connections standard input (`stdin`), standard output (`stdout`) and standard error (`stderr`).
 
 [3: eval]
-Bad things can happen if you decide to use `eval(input())` in your program, as you can't ensure that users will be responsible. For example one cloud enter `os.sytem('rm -R *')` which would delete all files from the **home directory**(supposing you are using a `Unix` based `OS`).
+Bad things can happen if you decide to use `eval(input())` in your program, as you can't ensure that users will be responsible. For example one coud enter `os.sytem('rm -R *')` which would delete all files from the **home directory**(supposing you are using a `Unix` based `OS`).
 
 ---
 ## Practice
