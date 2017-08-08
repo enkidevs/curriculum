@@ -2,7 +2,7 @@ name: File and System Manipulation I
 
 type: insights-list
 
-description: Handle file manipulation with the help of the system.
+description: Handle file manipulation with the help of your system.
 
 section: 1
 
