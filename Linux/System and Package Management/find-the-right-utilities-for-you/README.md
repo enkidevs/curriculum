@@ -9,8 +9,8 @@ section: 1
 parent: basic-system-management
 
 insights:
+  - what-is-a-ppa
   - using-ppas
   - removing-ppas
   - prevent-updating-a-specific-package-in-debian-systems
   - downgrade-a-package-via-apt-get
-  - 
