@@ -28,7 +28,7 @@ The keys can be used to get the value:
 for (var i in obj) {
    console.log(i); //key  
    console.log(obj[i]); //value 
-}
+} //firstName john lastName Smith
 ```
 
 **For of**
@@ -46,7 +46,7 @@ for (var i of iterable) {
 
 *for of* loops will only iterate over an objects values  and **not** inherited properties like the *for in* loop will. 
 
-For example note how the for in loop below returns newFunc that was added to array's prototype:
+For example note how the for in loop below returns newFunc that was added to array's prototype (we'll look at prototype shortly but for now think of it as a way to add functionality):
 
 ```
 Array.prototype.newFunc = function() {};

@@ -14,7 +14,7 @@ category: must-know
 ---
 ## Content
 
-Python uses two keywords to allow complex boolean conditions to be created, `and` and `or`. 
+Python uses two keywords to allow complex boolean conditions to be created, `and` and `or`.
 
 The `and` operator means that two or more conditions must be true in order to progress, and the `or` means that at least one condition must be true for progression.
 
@@ -39,31 +39,31 @@ if str == 'boolean' or num > 2:
 
 Complete the code snippet so that both conditions must be evaluated to true:
 
-```
+```python
 x = 6
-str = ‘python’
+str = 'python'
 
-if x == 6 ??? str == ‘python’:
-    print (‘true’)
+if x == 6 ??? str == 'python':
+    print ('true')
 ```
-*`and` 
-*`or` 
-*`both` 
-*`plus`
+* `and`
+* `or`
+* `both`
+* `plus`
 
 ---
 ## Revision
 
 Complete the code snippet so that either of the conditions must be evaluated to true:
 
-```
+```python
 x = 6
-str = ‘python’
+str = 'python'
 
-if x == 6 ??? str == ‘python’:
-    print (‘true’)
+if x == 6 ??? str == 'python':
+    print ('true')
 ```
-*`or` 
-*`and` 
-*`xor` 
-*`either`
+* `or`
+* `and`
+* `xor`
+* `either`

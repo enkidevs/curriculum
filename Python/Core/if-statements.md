@@ -14,7 +14,31 @@ category: must-know
 ---
 ## Content
 
-The standard Python syntax for an `if` statement is:
+
+Python uses *booleans* to evaluate conditions. A boolean variable has two values, true and false, and one of these will be returned once a condition has been evaluated.
+
+The `=` character can be combined with itself and other characters for a number of uses:
+- `=` is used for variable assignment
+- `==` is used for a boolean comparison
+- `!=` means is not equal to
+
+For example:
+
+```python
+# variable declaration and assignment
+num = 6
+
+# returns and prints true
+print(num == 6)
+
+# returns and prints false
+print(num < 4)
+
+# returns and prints true
+print(num != 12)
+```
+
+Such conditions can be used to manipulate the execution of the program, through `if` statements:
 
 ```python
 if (condition):
@@ -53,24 +77,24 @@ else:
 
 What does the following code snippet return?
 ???
-```
+```python
 x = 3
 if (x < 3):
-    print (‘small’)
+    print ('small')
 else:
-    print (‘big’)
+    print ('big')
 ```
 
-*big
-*small
-*error
+* big
+* small
+* error
 
 ---
 ## Revision
 
 What does the following code snippet return?
 ???
-```
+```python
 x = 8
 if (x = 8):
     print (‘true’)
@@ -78,6 +102,6 @@ else:
     print (‘false’)
 ```
 
-*Invalid Syntax
-*True
-*False
+* Invalid Syntax
+* True
+* False

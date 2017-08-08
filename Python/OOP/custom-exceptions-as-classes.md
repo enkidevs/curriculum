@@ -19,63 +19,77 @@ links:
 ---
 ## Content
 
-Because **exceptions** in Python are built-in classes, you can create your own exceptions by inheriting from class `Exception` or one of its subclasses.
+On top of the built-in exceptions, you can also define custom ones, by extending the `Exception` class:
 
 ```python
-class ErrOne(Exception):
+class BaseError(Exception):
+  """Base class for other exceptions"""
   pass
-class ErrTwo(ErrOne):
+class PassTooSmall(BaseError):
+  """Raised when password is < 8 chars"""
   pass
-class ErrThree(ErrTwo):
+class PassNoUpperCase(BaseError):
+  """Raised when no uppercase char used"""
   pass
-# these are all exceptions
 ```
 
-We can raise any of these exceptions using the `raise`  statement:
+We can raise any of these exceptions using the `raise` statement:
 ```python
-for err in [ErrOne, ErrTwo, ErrThree]:
+inputs = ['smallP', 'nouppercase',
+ 'PerfectlyFine']
+
+for i in inputs:
   try:
-    raise err()
-  except ErrThree:
-    print("3")
-  except ErrTwo:
-    print("2")
-  except ErrOne
-    print("1") 
-# output 1 / 2 /3
+    if (len(i) < 8):
+      raise PassTooSmall
+    elif not any(c.isupper() for c in i):
+      raise PassNoUpperCase
+    print('Perfect password!')
+    break
+  except PassTooSmall:
+    print('Password too small \n')
+  except PassNoUpperCase:
+    print('Pass has no uppercase\n')
+
+# Password too small
+
+# Pass has no uppercase
+
+# Perfect password!
+
 ```
 
-**Unhandled exceptions** will print an error message with the exception's class name. Suppose we remove the last `except ErrOne` clause, the following message will be printed:
+**Unhandled exceptions** will print an error message with the exception's class name. Suppose we remove the last `except PassNoUpperCase` clause; the following message will be printed:
 ```python
-....
-    raise err()
-__main__.ErrOne
+...
+raise PassNoUpperCase
+__main__.PassNoUpperCase
 ```
 
 ---
 ## Practice
 
-With the help of inheritance, create your exception:
-```
-??? MyException(???):
-   pass
+With the help of inheritance, create your custom exception:
+```python
+??? AuthenticationError(???):
+   print('Wrong username or password')
 ```
 
-*`class` 
-*`Exception` 
-*`inherit` 
-*`extend` 
-*`error` 
-*`exc``ep``tion`
+* `class`
+* `Exception`
+* `inherit`
+* `extend`
+* `error`
+* `exception`
 
 ---
 ## Revision
 
-Exceptions in Python are ??? classes.
+Python's `Exception` class is a ??? class.
 
-*`built-in` 
-*`sub` 
-*`parent` 
-*`child` 
-*`static` 
-*`private`
+* `built-in`
+* `sub`
+* `parent`
+* `child`
+* `static`
+* `private`

@@ -16,59 +16,58 @@ category: tip
 ---
 ## Content
 
-After accounts are added on your Linux system, the `usermod` can be used to edit the information.
-
-The standard `usermod` syntax is:
+Another utility that is used for user management is `usermod`. Its syntax is:
 ```
 $ usermod [options] [username]
 ```
 
-We will use as reference `enki` as a username and `enkigroup`, `othergroup` as group names.
-
 Expire a user at a defined date (**YYYY-MM-DD**):
 ```
-$ usermod --expiredate 2016-04-01 enki
+$ usermod --expiredate 2016-04-01 newuser
 ```
 
 Add a user to supplementary groups:
 ```
-$ usermod --append --groups enkigroup enki
-$ usermod -aG enkigroup,othergroup enki
+$ usermod --append --groups newgroup \
+    newuser
+$ usermod -aG newgroup,enkigroup newuser
 ```
 
 Change default home directory:
 ```
-$ usermod --home /path/to/dir enki
+$ usermod --home /path/to/dir newuser
 ```
 
 Change default shell:
 
 ```
-$ usermod --shell /path/to/sh enki
+$ usermod --shell /path/to/sh newuser
 ```
 
 Display the groups an user is member of:
 ```
-$ groups enki
-$ id enki
+$ groups newuser
+$ id newuser
 ```
 
 Disable account with password lock:
 ```
-$ usermod --lock enki
+$ usermod --lock newuser
 ```
 
 Unlock an account with password unlock:
 ```
-$ usermod --unlock enki
+$ usermod --unlock newuser
 ```
+
+As you've already seen, there are multiple ways to achieve the same result. It's a matter of taste of which utility to use when it comes to user management.
 
 ---
 ## Practice
 
 Add the user `user` to the group `root`:
 ```
-$ ??? ??? ??? 
+$ ??? ??? ???
       root user
 ```
 
@@ -88,8 +87,8 @@ Change a user's home directory without moving the files:
 ```
 $ ??? ??? /newHome user
 ```
-*`usermod`
-*`--home`
-*`-dm`
-*`--move-home`
-*`chmod`
+* `usermod`
+* `--home`
+* `-dm`
+* `--move-home`
+* `chmod`

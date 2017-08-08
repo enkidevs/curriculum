@@ -44,3 +44,20 @@ x.issuperset(y)
 x >= y
 # True
 ```
+
+
+---
+## Revision
+
+Match each set method with its shorthand syntax:
+```python
+x.issuperset(y)
+# ???
+
+x.issubset(y)
+# ???
+```
+* `x >= y`
+* `x <= y`
+* `x == y`
+* `y > x`

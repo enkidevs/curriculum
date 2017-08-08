@@ -24,7 +24,7 @@ links:
 ---
 ## Content
 
-Apart from set operations such as **union** and **intersection**, Python's `set` has other useful operations:
+Apart from set operations such as union and intersection, Python's `set` has other useful operations:
 
 Add an element to a `set` (note: sets only accept **immutable** elements):
 ```python
@@ -34,7 +34,7 @@ Add an element to a `set` (note: sets only accept **immutable** elements):
 {'n', 'E', 'k', 'i'}
 
 ```
-Clear a `set` :
+Clear a `set`:
 ```python
 >>> enki.clear()
 >>> enki
@@ -70,14 +70,14 @@ To remove a specific element from the set, either `discard(element)` or `remove(
 Create a shallow copy of the set:
 
 ```
-pq = ???("Practice") 
+pq = ???("Practice")
 practice_shallow = pq.???() 
 ```
-*`set` 
-*`copy` 
-*`shallow` 
-*`shallow_copy` 
-*`shallow-copy` 
+*`set`
+*`copy`
+*`shallow`
+*`shallow_copy`
+*`shallow-copy`
 *`new_set`
 
 ---
@@ -86,16 +86,16 @@ practice_shallow = pq.???()
 Instantiate a set, add an element to it, then clear it:
 
 ```
-enki = ???("Enk") 
-enki.???('i') 
+enki = ???("Enk")
+enki.???('i')
 enki.???()
 ```
 
-*`set` 
-*`add` 
-*`clear` 
-*`new` 
-*`element` 
-*`empty` 
-*`delete` 
+*`set`
+*`add`
+*`clear`
+*`new`
+*`element`
+*`empty`
+*`delete`
 *`list`

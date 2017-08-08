@@ -14,9 +14,9 @@ category: must-know
 ---
 ## Content
 
-When we pass variables to functions in JavaScript they are *passed by value* which means that if we manipulate the argument value inside the function, changes will not be reflected outside the function.
+When we pass primitive variables (such as numbers and strings) to functions in JavaScript they are *passed by value* which means that if we manipulate the argument value inside the function, changes will not be reflected outside the function.
  
-However, when working with objects, changes to objects *are* reflected on the object itself.
+However if we were to pass an object then changes *are* reflected on the object itself.
 
 For example:
 ```

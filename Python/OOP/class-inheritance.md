@@ -34,7 +34,7 @@ Class inheritance is easily achieved in Python following this syntax:
 class ExtendedClass(ParentClass):
     [statement]
     .
-    . 
+    .
     [statement]
 ```
 Consider the `Animal` parent class:
@@ -44,20 +44,23 @@ class Animal:
 
 ```
 
-and the `Bird` child class:
+with the `Bird` child class:
 ```python
 #note base class
-class Bird(Animal): 
-    wings = true
+class Bird(Animal):
+    wings = True
 ```
 
 Now our child class **inherits** everything from its parent:
 ```python
 enki = Bird()
 # child specific attribute
-print(enki.wings) 
+print(enki.wings)
+# True
+
 # parent specific attribute
-print(enki.name) 
+print(enki.name)
+# Max
 ```
 
 To check the inheritance:
@@ -76,18 +79,19 @@ Make `Maths` inherit `Subject` :
 ???
   credits = 15
 ```
-*`class Maths(Subject):` 
-*`class Maths(Subject)` 
-*`class Maths:Subject` 
-*`class Maths extends Subject:`
+* `class Maths(Subject):`
+* `class Maths(Subject)`
+* `class Maths:Subject`
+* `class Maths extends Subject:`
 
 ---
 ## Revision
 
-Check if `cClass` is a child of `pClass` :
+Check if `cClass` is a child of `pClass`:
 
 ???
-*issubclass(cClass,pClass)
-*issubclass(pClass,cClass)
-*ischild(cClass,pClass)
-*ischild(pClass,cClass)
+
+* issubclass(cClass,pClass)
+* issubclass(pClass,cClass)
+* ischild(cClass,pClass)
+* ischild(pClass,cClass)
