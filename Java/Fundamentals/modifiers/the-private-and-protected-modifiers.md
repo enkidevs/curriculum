@@ -14,9 +14,9 @@ category: must-know
 ---
 ## Content
 
-The `private` access modifier makes variables and methods available within their class only. Having a `private` class or interface makes no sense (as they couldn't be used), so they do not accept this modifier.
+The `private` access modifier makes variables and methods available within their class only. Having a `private` class or interface makes no sense (as they couldn't be used), so they do not accept this modifier. 
 
-The `private` modifier is the most restrictive one. It should be used as it helps with **encapsulation** of the data and prevents it from being modified unwittingly. Encapsulation is another principle of OOP and we will talk about it in a bit. 
+The `private` modifier is the most restrictive one. It should be used as it helps with **encapsulation** of the data and prevents it from being modified unwittingly. Encapsulation is another principle of OOP and we will talk about it in a bit.
 
 If the variables are private, getters and setters are required to access them. These are functions that help move data from one class to another:
 ```
@@ -72,7 +72,7 @@ public class TestClass{
   Car car = new Car(...);
   car.start(); // error
  }
-} 
+}
 ```
 *`public`
 *`private`

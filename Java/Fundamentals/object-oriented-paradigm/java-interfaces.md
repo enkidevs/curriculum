@@ -20,7 +20,7 @@ links:
 ---
 ## Content
 
-As the name says, **interfaces** in Java are a way to present *objects* to the world. 
+As the name says, **interfaces** in Java are a way to present *objects* to the world.  
 
 The difference between *interfaces* and *classes* is that, while a class has to provide *implementation* for all the methods inside, an interface can only *declare* a method and pass the task of defining the behavior to the **other classes** that implement that interface.
 
@@ -104,7 +104,7 @@ public ??? Car {
 
 public class FamilyCar implements Car{
    ...
-} 
+}
 ```
 *`interface`
 *`//nothing`

@@ -16,7 +16,7 @@ category: must-know
 
 **Java** is a programming language that follows the *Object-oriented programming paradigm* (also  known as OOP).
 
-One of the particularities of the language that makes it so widely used is that compiled Java code runs on any machine that supports java, without recompilation. This principle is called *"write once, run anywhere"* (WORA).
+One of the particularities of the language that makes it so widely used is that compiled Java code runs on any machine that supports java, without recompilation. This principle is called *"write once, run anywhere"* (WORA). 
 
 Java classes are compiled to `bytecode`, which any Java Virtual Machine (*JVM*) can understand.
 

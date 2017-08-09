@@ -14,7 +14,7 @@ category: must-know
 ---
 ## Content
 
-In the last insight, we talked about the `HelloWorld` class and about its output, but never mentioned how to get from one point to the other.
+In the last insight, we talked about the `HelloWorld` class and about its output, but never mentioned how to get from one point to the other. 
 
 Before the *Java Virtual Machine* can do its part and run the code, a *compiler*[1] is needed to get the *bytecode* understandable by the JVM[2].
 

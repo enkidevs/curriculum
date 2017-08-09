@@ -23,9 +23,9 @@ links:
 ---
 ## Content
 
-When naming classes, methods, variables or just about anything that you are required to give a name to, it is best to choose names which have a relevant meaning. 
+When naming classes, methods, variables or just about anything that you are required to give a name to, it is best to choose names which have a relevant meaning.
 
-This is to improve the readability of your code; a name which briefly explains the purpose or use of something will make it much easier for other programmers, or even the original programmer at a later date, to understand the code. 
+This is to improve the readability of your code; a name which briefly explains the purpose or use of something will make it much easier for other programmers, or even the original programmer at a later date, to understand the code.
 
 For example, this is not clear:
 ```
@@ -41,7 +41,7 @@ public String getAddress(String name) {
 ---
 ## Revision
 
-What’s the main advantage of using meaningful names for methods? 
+What’s the main advantage of using meaningful names for methods?
 
 ???
 
