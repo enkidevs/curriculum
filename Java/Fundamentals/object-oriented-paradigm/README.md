@@ -10,7 +10,7 @@ parent: java-basics
 
 insights:
   - what-is-a-class
-  - what-is-a-object
+  - what-is-an-object
   - inheritance
   - polymorphism
   - java-interfaces
