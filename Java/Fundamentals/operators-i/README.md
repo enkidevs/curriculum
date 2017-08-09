@@ -2,7 +2,7 @@ name: Operators I
 
 type: insights-list
 
-description: Explore useful operators as well as with commonly used practices.
+description: Explore useful operators as well as with commonly used practices. 
 
 section: 0
 

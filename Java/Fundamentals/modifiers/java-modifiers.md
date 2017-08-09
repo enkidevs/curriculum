@@ -19,7 +19,7 @@ links:
 ---
 ## Content
 
-**Modifiers** are keywords used during declaration that can change the variable/method/class behavior.
+**Modifiers** are keywords used during declaration that can change the variable/method/class behaviour.
 
 In the previous insights, there were some words used that were not explained, such as:
 ```

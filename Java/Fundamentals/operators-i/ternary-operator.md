@@ -27,7 +27,7 @@ links:
 ---
 ## Content
 
-An alternative to using an if/else statement is the use of the ternary operator, whose syntax appears below.
+An alternative to using an if/else statement is the use of the ternary operator, whose syntax appears below. 
 ```
 result = testCondition ? value1 : value2;
 ```
@@ -71,10 +71,10 @@ Complete the following ternary operator syntax with the correct symbols:
 ```
 int num = x > 2 ??? 2 ??? 0
 ```
-*`?` 
-*`:` 
-*`>` 
-*`<` 
-*`/` 
-*`//` 
+*`?`
+*`:`
+*`>`
+*`<`
+*`/`
+*`//`
 *`+`

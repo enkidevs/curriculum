@@ -16,9 +16,9 @@ category: must-know
 
 The most representative principle of *Object-Oriented Programming* is **inheritance**. It states that classes can be derived from other classes, with the *child classes* inheriting fields and methods from the *parent classes*.
 
-Formally, a parent class is called a **superclass**, and a child class a **subclass**.
+Formally, a parent class is called a **superclass**, and a child class a **subclass**. 
 
-Let's take the `Car` class as example. While it is a generic type, in an app we might be looking for something more specific, like `FamilyCar` and `SportsCar`. Each of those subclasses would have all the fields and methods of a `Car` object, on top of which they have their own properties. 
+Let's take the `Car` class as example. While it is a generic type, in an app we might be looking for something more specific, like `FamilyCar` and `SportsCar`. Each of those subclasses would have all the fields and methods of a `Car` object, on top of which they have their own properties.
 
 If, for a family car, the number of seats would be important as well, the  `FamilyCar` class declaration would look like this:
 ```
@@ -30,7 +30,7 @@ public FamilyCar extends Car {
      int noDoors;  */
   int noSeats;
   // Constructor function
-  
+
   public FamilyCar(String model, String
      noPlate, String color,
            int noDoors, int newNoSeats) {
@@ -47,12 +47,12 @@ public FamilyCar extends Car {
 ```
 The two keywords here are `extends` and `super()`. The first tells the JVM that the new class should inherit `Car` properties. The second calls the `Car` constructor to initialize inherited fields.
 
-The `super()` method has to be the *first statement* in the constructor, or otherwise an error is thrown. 
+The `super()` method has to be the *first statement* in the constructor, or otherwise an error is thrown.
 
 The `SportsCar` class would look almost the same, but here it makes sense to know if the engine is turbocharged or not:
 ```
 public SportsCar extends Car {
-  
+
   boolean turboCharged;
   public SportsCar(String model, String
      noPlate, String color,

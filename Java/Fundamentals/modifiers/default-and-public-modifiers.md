@@ -14,9 +14,9 @@ category: must-know
 ---
 ## Content
 
-The **default** case is the one in which no keyword is present. A variable with no modifier is implicitly accessible by *all the classes* in the *package*. 
+The **default** case is the one in which no keyword is present. A variable with no modifier is implicitly accessible by *all the classes* in the *package*.
 
-This is what we have used until now:
+This is what we have used until now: 
 ```
 String model;
 

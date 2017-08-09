@@ -33,7 +33,7 @@ links:
 ---
 ## Content
 
-Java supports three kinds of variables. 
+Java supports three kinds of variables.  
 
 Local variables are used inside blocks as counters or in methods as temporary variables and are used to store information needed by a single method.
 
