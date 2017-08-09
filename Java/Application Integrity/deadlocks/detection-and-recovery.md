@@ -18,10 +18,6 @@ links:
 
 Whenever a deadlock has occurred in the system, we can build a graph of process-resource dependencies.
 
-Let's imagine this situation:
-
-//HERE I WOULD LOVE TO HAVE/MUST HAVE A GRAPHIC OF SOME KIND, EASIER TO EXPLAIN
-
 One of the necessary conditions for a deadlock is a *circular wait*, i.e. somewhere in this graph there will be a cycle of process-resource dependency which is the cause of the deadlock.
 
 There are three ways to deal with this problem:
