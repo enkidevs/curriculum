@@ -20,7 +20,7 @@ links:
 ---
 ## Content
 
-In Java, a **class** is a blueprint after which things with similar characteristics can be modeled. An example of a class is:
+In Java, a **class** is a blueprint after which things with similar characteristics can be modeled. An example of a class is: 
 ```
 public class Car {
   String model;

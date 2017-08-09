@@ -21,7 +21,7 @@ int myIntVariable = 3;
 This tells the program that a field name `myIntVariable` exists, is of type `int` and has an intial value of `3`. As you might have guessed already, `int` is a primitive type.
 
 By type of data held, some of the other existing primitives are:
- - Numerical
+ - Numerical 
   - `long`: unlike `int` which can hold values up to 10 digits long, `long` values can be as long as 19 digits.
   - `float` and `double`, which both store floating point numbers.
  - Characters
@@ -45,7 +45,7 @@ double myDouble = 3.75d;
 float myFloat = 3.75f;
 // if none of the suffixes is
 // specified, the values are seen as
-// either int(for long) or 
+// either int(for long) or
 // double(for float)
 ```
 

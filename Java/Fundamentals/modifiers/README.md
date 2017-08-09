@@ -2,7 +2,7 @@ name: Modifiers
 
 type: insights-list
 
-description: Modifiers in Java 101.
+description: Modifiers in Java 101. 
 
 section: 0
 

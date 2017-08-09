@@ -20,7 +20,7 @@ links:
 ---
 ## Content
 
-Now that you know a little bit about Java, it is time to show you how to build your first app.
+Now that you know a little bit about Java, it is time to show you how to build your first app. 
 
 There are a couple of choices when it comes to where to write Java code: simple text editors (Atom, Sublime, Emacs, Vim) or IDEs[1] (IntelliJ, Eclipse). You can download all of them for free.
 
