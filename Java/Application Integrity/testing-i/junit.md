@@ -37,7 +37,7 @@ public class User {
   private String name;
   private LocalDate dob;
   ....
-  public int getAge(LocalDate currentDate) {
+  public int getAge(LocalDate currentDate){
     return Period.between(dob, currentDate)
       .getYears();
   }
@@ -74,7 +74,8 @@ package com.enki.users;
 
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
-import org.junit.runner.notification.Failure;
+import org.junit.runner.notification
+                                .Failure;
 
 public class TestRunner {
   public static void main(String[] args) {
@@ -83,7 +84,7 @@ public class TestRunner {
 
     for(Failure fail :
       result.getFailures()) {
-        System.out.println(fail.toString());
+      System.out.println(fail.toString());
     }
 
     System.out.println(
