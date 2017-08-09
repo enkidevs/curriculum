@@ -6,7 +6,7 @@ description: Tips and common scenarios revolving around immutability.
 
 section: 2
 
-parent: the-abstract-keyword
+parent: abstract-keyword
 
 insights:
   - defining-static-methods-within-an-interface
