@@ -11,4 +11,4 @@ insights:
   - writing-junit-tests-using-assert
   - junit-prefer-test-over-extends-testcase
   - test-parameters
-  - replacements-for-setup-and-teardown-for-junit
+  - preparing-tests-through-annotations
