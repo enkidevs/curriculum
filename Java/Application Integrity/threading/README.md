@@ -4,7 +4,7 @@ type: insights-list
 
 description: Threading 101.
 
-section: 0
+section: 1
 
 insights:
   - threading
