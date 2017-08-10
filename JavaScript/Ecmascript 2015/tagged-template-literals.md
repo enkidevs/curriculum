@@ -36,8 +36,8 @@ ES6 introduces a new feature called template strings that make it easier to work
 
 ```
 let company = "Enki";
-console.log(`Hello ${company} hows it going?`);
-//prints: "Hello Enki hows it going?"
+console.log(`Hello ${company}!`);
+//prints: "Hello Enki!"
 ```
 
 Template literals are denoted by the O&#769; character, rather than `''` or `""`. When you use template strings, you can have multiline strings:
@@ -58,7 +58,9 @@ let item = "Oranges";
 let itemPrice = 2.50;
 let money = 10;
 let compositeString = `Hi,
-I have ${money} dollars and I would like to purchase ${itemPrice / money} ${item}s.
+I have ${money} dollars,
+and I would like to purchase :
+${itemPrice / money} ${item}s.
 `
 
 console.log(compositeString);
@@ -68,7 +70,9 @@ The above would output:
 
 ```
 Hi,
-I have 10 dollars and I would like to purchase 4 Oranges.
+I have 10 dollars,
+and I would like to purchase :
+4 Oranges.
 ```
 ---
 
@@ -84,12 +88,12 @@ let who = "Scotty";
 let line = `??? me up ???!`;
 
 ```
+* `${what}`
 * `${who}`
 * `#{who}`
 * `%s`
 * `$(who)`
 * `#(who)`
-* `${what}`
 * `#{what}`
 * `%s`
 * `$(what)`
@@ -98,13 +102,22 @@ let line = `??? me up ???!`;
 ---
 ## Revision
 
-Create a string that says ""
+Complete the following code snippet to assemble a template string that says `"Stay Hungry Stay Foolish"`.
+
 ```javascript
-let sym = ???(???);
+let attr = "Hungry" ;
+let attr2 = "Foolish";
+
+let line = `Stay ??? Stay ???`;
 
 ```
-*`Symbol`
-*`"enki"`
-*`Sym`
-*`Object`
-*`property`
+* `${attr}`
+* `${attr2}`
+* `#{attr}`
+* `%s`
+* `$(attr)`
+* `#(attr)`
+* `#{attr2}`
+* `%s`
+* `$(attr2)`
+* `#(attr2)`

@@ -20,7 +20,7 @@ tags:
 
   - arrays
 
-  - es6 
+  - es6
 
 inAlgoPool: false
 
@@ -65,11 +65,11 @@ alphabet.copyWithin(-2)
 ## Practice
 
 Complete the code example to create an array that looks like this:
-`['7','8','3','4','5','6','7','8']`
+`['7','3','4','5','6','7']`
 
-```
-let integers = ['1','2','3','4','5','6','7','8'];
-integers.copyWithin(???,???,???)
+```javascript
+let ints = ['1','2','3','4','5','6','7'];
+ints.copyWithin(???,???,???)
 ```
 * 1
 * 2
@@ -85,11 +85,11 @@ integers.copyWithin(???,???,???)
 ##Revision
 
 Complete the code example to create an array that looks like this:
-`['1','2','3','1','2','6','7','8']`
+`['1','2','1','2','5','6']`
 
 ```
-let integers = ['1','2','3','4','5','6','7','8'];
-integers.copyWithin(???,???,???)
+let ints = ['1','2','3','4','5','6'];
+ints.copyWithin(???,???,???)
 ```
 * 1
 * 2

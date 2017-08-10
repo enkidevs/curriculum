@@ -54,20 +54,14 @@ You can use the method `.toString(r)` to convert numbers to hex/bin/oct:
 ---
 # Practice
 
-Use the new ES6 notation to write the binary number for `4` with the correct prefix:
-??? ??? ??? ??? ???
+Use the new ES6 notation to write the binary number for `2` with the correct prefix:
+??? ??? ???
 
-* `0`
-* `0`
-* `0`
-* `0`
 * `b`
+* `0`
+* `1`
 * `o`
-* `1`
-* `1`
-* `1`
-* `1`
-* `1`
+* `2`
 ---
 ## Revision
 

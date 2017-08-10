@@ -67,10 +67,10 @@ let count = new Counter();
 ```
 
 
-* `function() {this.counter++;}`
-* `function() {this.counter--;}`
 * `() => {this.counter++;}`
 * `() => {this.counter--;}`
+* `function() {this.counter++;}`
+* `function() {this.counter--;}`
 
 ---
 
@@ -91,9 +91,9 @@ let count = new Counter();
 ```
 
 
-* `function() {this.counter++;}`
-* `function() {this.counter--;}`
 * `() => {this.counter++;}`
 * `() => {this.counter--;}`
+* `function() {this.counter++;}`
+* `function() {this.counter--;}`
 
 ---

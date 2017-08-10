@@ -47,7 +47,7 @@ people.includes("john"); //true
 **Array.prototype.find(f)**  
 **Array.prototype.findIndex(f)**  
 
-*find* and *findIndex* return the first value or index that satisfies a testing function `f`.
+*find* and *findIndex* return the first value or index that satisfies a testing function `f`, which will receive the arguments `element`, `index`, `source`.
 
 If no elements match then *undefined* will be returned:
 
@@ -58,12 +58,12 @@ var people = [
     {name: 'Tait', age: 1}
 ];
 
-people.find(function (element, index, source) {
+people.find(function (e, i, src) {
     return element.age>=18;
 });
 //returns Alex
 
-people.findIndex(function (element, index, source) {
+people.findIndex(function (e, i, src) {
     return element.age > 18 && element.age < 30;
 });
 //returns 1
@@ -82,8 +82,8 @@ Populates an array with a supplied value and optional start & end position and i
 Find the first number divisible by `4`:
 
 ```
-let integers = ['6','2','5','4','5','6','5','8'];
-integers.???(???)
+let ints = ['6','2','5','6','5','8'];
+ints.???(???)
 ```
 * `find`
 * `findIndex`
@@ -101,8 +101,8 @@ integers.???(???)
 Fill the array with the first number divisible by `2` and `3`:
 
 ```
-let integers = ['6','2','5','4','5','6','5','8'];
-integers.???(integers.???(???))
+let ints = []'2','5','4','5','6','5','8'];
+ints.???(ints.???(???))
 ```
 * `find`
 * `findIndex`
