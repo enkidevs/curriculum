@@ -33,10 +33,10 @@ For more advanced templating you can use **Tagged Template Literals**, which all
 ```
 let price = 5;
 
-function currency(literals, substitution){
-  let text = literals[0] + substitution + literals[1];
-  if (substitution.indexOf("$")) text += "USD"
-  if (substitution.indexOf("€")) text += "EUR"
+function currency(strs, input){
+  let text = strs[0] + input + strs[1];
+  if (input.indexOf("$")) text += "USD"
+  if (input.indexOf("€")) text += "EUR"
 }
 
 currency`$${price}.00` // $5.00 USD
