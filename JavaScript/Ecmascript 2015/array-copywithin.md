@@ -39,8 +39,7 @@ Look at the following array:
 var alphabet = ["a","b","c","d","e"];
 ```
 
-To copy the first two characters into the 2nd index we could
-use **Array.copyWithin** as follows:
+To copy the first two characters into the 2nd index we could use **Array.copyWithin** as follows:
 
 ```javascript
 alphabet.copyWithin(2,0,2);
