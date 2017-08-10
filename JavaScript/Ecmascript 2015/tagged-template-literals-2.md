@@ -43,7 +43,7 @@ currency`$${price}.00` // $5.00 USD
 currency`€${price}.00` // €5.00 EUR
 ```
 
-The substitution parameter receives the value passed in to the first slot in the string to be interpolated. Subsequent values appear as additional arguments, a best practice is to use the **rest** operator to map values to an array rather than define each argument:
+The `input` parameter receives the value passed in to the first slot in the string to be interpolated. Subsequent values appear as additional arguments, a best practice is to use the **rest** operator to map values to an array rather than define each argument:
 
 ```
 function price(strings, ...substitution){
