@@ -20,13 +20,13 @@ Now, I will bring you a challenge: try to guess what's the last number denoted w
 
 | Input        | Output         |
 |:-------------:|:-------------:|
-| 1             | 1             |
+| 1             | 2             |
 | 2             | 4             |
 | 3             | 6             |
 | 4             | 8             |
 | 5             | ???           | What's the output? |
 
-Our human brain is capable of understanding simple patterns between things thanks to `math`. Figured out who's the last number?
+Our human brain is capable of understanding simple patterns between things and numbers. Figured out who's the last number?
 
 It is `10`. If you train a `regression` algorithm with the data above he will probably find out that **the output is the input times two (input*2)**, or:
 ```
