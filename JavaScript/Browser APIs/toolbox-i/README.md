@@ -1,0 +1,16 @@
+name: Toolbox I
+
+type: insights-list
+
+description: Explore a kit of browser-specific APIs.
+
+section: 0
+
+parent: toolbox-i
+
+insights:
+  - notifications-api
+  - geolocation
+  - vibration-api
+  - battery-api
+  - page-visibility-api
