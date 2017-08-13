@@ -2,7 +2,7 @@ name: Patterns
 
 type: insights-list
 
-description: Common programming patterns in Node.
+description: Common programming patterns in Node. 
 
 section: 1
 

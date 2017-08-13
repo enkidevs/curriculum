@@ -2,7 +2,7 @@ name: Modules
 
 type: insights-list
 
-description: Compartmentalize your code.
+description: Compartmentalize your code. 
 
 section: 0
 

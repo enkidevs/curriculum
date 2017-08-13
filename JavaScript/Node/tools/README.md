@@ -2,7 +2,7 @@ name: Tools
 
 type: insights-list
 
-description: Enhance your workflow with these tools.
+description: Enhance your workflow with these tools. 
 
 section: 1
 

@@ -2,7 +2,7 @@ name: Events
 
 type: insights-list
 
-description: Events 101.
+description: Events 101. 
 
 section: 0
 
