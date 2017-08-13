@@ -60,8 +60,6 @@ Good news! We're working on Node!
 ```
 
 ---
-
----
 ## Revision
 
 Which of the following module types must have its path specified when requiring it?

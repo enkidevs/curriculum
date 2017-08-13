@@ -50,8 +50,6 @@ En ki MyEmitter {
 ```
 
 ---
-
----
 ## Revision
 
 Which keyword when passed is set to reference the `EventEmitter` to which the listener is attached?
