@@ -26,7 +26,7 @@ There are some characteristic problems when using `this` with `call` and `apply`
 ```
 function calculate(a, b) {
   var c = a+b;
-  console.log(this+" equals "+c); 
+  console.log(this+" equals "+c);
 }
 var emp = {};
 calculate.apply(emp, [200,400]);
@@ -45,11 +45,6 @@ Versus the 2 parameter call of the function:
 calculate(200,400);
 [object Window] equals 600
 ```
-
----
-## Practice
-
-
 
 ---
 ## Revision
