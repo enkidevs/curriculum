@@ -6,7 +6,7 @@ description: Explore a kit of browser-specific APIs.
 
 section: 0
 
-parent: toolbox-i
+parent: user-interaction
 
 insights:
   - notifications-api
