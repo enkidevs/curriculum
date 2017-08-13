@@ -6,7 +6,7 @@ description: Common programming patterns in Node.
 
 section: 1
 
-parent: processes-and-clustering
+parent: processes-clustering
 
 insights:
   - factories-design-pattern
