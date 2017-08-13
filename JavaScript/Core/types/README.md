@@ -6,7 +6,7 @@ description: Types of JavaScript.
 
 section: 0
 
-parent: functions
+parent: functions-i
 
 insights:
   - types-introduction
