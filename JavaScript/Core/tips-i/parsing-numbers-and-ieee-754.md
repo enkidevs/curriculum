@@ -26,7 +26,7 @@ If you want to convert string input to a number type you can use the *parseInt* 
 
 *parseInt* accepts 2 arguments:
 - Value to be converted
-- Radix or base of the number system to use
+- Radix or base of the number system to use 
 
 The Radix or base defaults to 10 on later browsers but it is probably still best to specify as this is not the case on older browsers.
 
@@ -48,7 +48,7 @@ parseInt("abc",10);//NaN
 
 **IEEE-754**
 
-All numbers in JavaScript are held as *64 bit floating point numbers* using a format called *IEEE-754*. 
+All numbers in JavaScript are held as *64 bit floating point numbers* using a format called *IEEE-754*.
 
 You should be aware this means you can get issues when performing certain calculations (this also occurs in other languages that use IEEE-754) as certain numbers cannot be represented exactly. For example:
 
