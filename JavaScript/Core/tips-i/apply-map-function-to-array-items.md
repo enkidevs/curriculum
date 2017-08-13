@@ -20,7 +20,7 @@ tags:
 ---
 ## Content
 
-Using `.map` will apply a function to every element in the array, and return an array with the results.
+Using `.map` will apply a function to every element in the array, and return an array with the results.  
 ```
 [1,2,3,4].map(x => x * 2)
 // => [2,4,6,8]

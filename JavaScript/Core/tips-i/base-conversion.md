@@ -1,4 +1,4 @@
-# Base conversion 
+# Base conversion
 author: catalin
 
 levels:
@@ -14,7 +14,7 @@ category: how to
 ---
 ## Content
 
-Base conversion for `int` data types is easily achievable with the help of `toString` and `parseInt` functions.
+Base conversion for `int` data types is easily achievable with the help of `toString` and `parseInt` functions. 
 
 Convert decimal to hexadecimal:
 ```javascript

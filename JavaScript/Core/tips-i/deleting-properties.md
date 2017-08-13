@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-Setting the property to `null` or `undefined` only removes the value associated with given property. It does not remove the key.
+Setting the property to `null` or `undefined` only removes the value associated with given property. It does not remove the key. 
 
 ```
 var obj = { one: 1 }

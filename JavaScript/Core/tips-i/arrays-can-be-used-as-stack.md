@@ -18,7 +18,7 @@ links:
 
 Using the following array:
 ```
-var stack = [];
+var stack = []; 
 ```
 We can `push` items to the stack:
 ```
@@ -28,7 +28,7 @@ stack.push(2);
 Then, try using `stack.pop()`:
 ```
 console.log(stack.pop())
-// prints 2 
+// prints 2
 console.log(stack.pop())
 // prints 1
 ```
