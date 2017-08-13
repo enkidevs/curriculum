@@ -11,4 +11,4 @@ insights:
   - apply-map-function-to-array-items
   - base-conversion
   - parsing-numbers-and-ieee-754
-  - base-conversion
+  - deleting-properties
