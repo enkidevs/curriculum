@@ -43,9 +43,16 @@ MyComponent.propTypes = {
 };
 ```
 
-The validations above state that the specified `props` should be **JS** primitives. By default, they are **optional** so no warnings are shown if they are not passed to the component, they can be required by adding `isRequired` to the type like `React.PropTypes.string.isRequired`.
+The validations above state that the specified `props` should be **JS** primitives. By default, they are **optional** so no warnings are shown if they are not passed to the component.
 
-Note that `propTypes` are checked only in development mode due to performance reasons.
+ However, they can be required by appending `.isRequired` to the type:
+```
+MyComponent.propTypes = {
+ myFunc: React.PropTypes.func.isRequired,
+};
+```
+
+Note that `propTypes` are only checked in development mode due to performance reasons.
 
 ---
 ## Practice
