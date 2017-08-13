@@ -12,5 +12,5 @@ insights:
   - what-are-node-modules
   - requiring-and-exporting
   - local-modules
-  - http-server-in-node
+  - the-http-module-for-servers
   - module-patterns
