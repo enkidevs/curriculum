@@ -2,11 +2,11 @@ name: Streams
 
 type: insights-list
 
-description: Explore how to handle streams of data in NodeJS.
+description: Explore how to handle streams of data in NodeJS. 
 
 section: 0
 
-parent: streams
+parent: events
 
 insights:
   - what-are-streams

@@ -2,7 +2,7 @@ name: Intro to NodeJS
 
 type: insights-list
 
-description: See what's all the fuss is about.
+description: See what's all the fuss is about. 
 
 section: 0
 

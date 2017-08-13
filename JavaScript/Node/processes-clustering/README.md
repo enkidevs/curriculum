@@ -2,7 +2,7 @@ name: Processes and Clustering
 
 type: insights-list
 
-description: Working with processes in node and explore clustering in JS.
+description: Working with processes in node and explore clustering in JS. 
 
 section: 1
 

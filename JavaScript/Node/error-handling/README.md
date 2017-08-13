@@ -2,7 +2,7 @@ name: Error Handling
 
 type: insights-list
 
-description: How to handle various errors.
+description: How to handle various errors. 
 
 section: 1
 

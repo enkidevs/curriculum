@@ -2,7 +2,7 @@ name: Quirks
 
 type: insights-list
 
-description: Particularities of Node.
+description: Particularities of Node. 
 
 section: 1
 
