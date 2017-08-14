@@ -6,7 +6,7 @@ description: Explore and use the basics of testing.
 
 section: 1
 
-parent: Is Your Python Healthy?
+parent: is-your-python-healthy
 
 insights:
   - unit-testing

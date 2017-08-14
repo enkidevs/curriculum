@@ -6,7 +6,7 @@ description: Even more handy Python modules.
 
 section: 1
 
-parent: Utilities I
+parent: utilities-i
 
 insights:
   - use-struct-to-work-with-binary-data
