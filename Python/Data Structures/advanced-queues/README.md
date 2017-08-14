@@ -6,7 +6,7 @@ description: Explore queues in depth.
 
 section: 1
 
-parent: Deep into Collections
+parent: deep-into-collections
 
 insights:
   - a-thread-safe-queue
