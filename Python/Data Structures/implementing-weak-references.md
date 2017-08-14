@@ -26,7 +26,7 @@ links:
 ---
 ## Content
 
-Normal Python references to objects increment the object's reference count thus preventing it from being **garbage collected**. 
+Normal Python references to objects increment the object's reference count thus preventing it from being **garbage collected**. **Weak Reference** points to the object but does not affect **garbage collector** i.e. it does not increment the object's reference count.
 
 If a user desires creating **weak references**, the `weakref` module can be used:
 ```python
@@ -43,7 +43,7 @@ To create a weak reference, the `ref` class is used:
 enki = Enki()
 # weak reference to our object
 r = weakref.ref(enki)
-  
+
 ```
 Then, you can call the reference object:
 ```python
@@ -76,18 +76,18 @@ Check to see if a reference, `e`, exists:
 
 ```
 if e ??? not ???
-``` 
-*`is` 
-*`None` 
-*`equals` 
-*`parallel` 
-*`null` 
-*`0`
+```
+* `is`
+* `None`
+* `equals`
+* `parallel`
+* `null`
+* `0`
 
 ---
 ## Revision
 
-Create a weak reference to the object:
+Create a weak reference (reference that does not affect garbage collector) to the object:
 
 ```
 class Python(object): pass
@@ -96,11 +96,11 @@ enki = Python()
 r = ???.ref(???)
 ```
 
-*`weakref` 
-*`enki` 
-*`create` 
-*`instance` 
-*`instanceof` 
-*`Python` 
-*`class` 
-*`pass`
+* `weakref`
+* `enki`
+* `create`
+* `instance`
+* `instanceof`
+* `Python`
+* `class`
+* `pass`
