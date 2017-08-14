@@ -10,7 +10,7 @@ parent: control-structures
 
 insights:
   - variables-and-types
-  - lists.md
+  - lists
   - the-fundamental-tuples
   - working-with-set-s
   - dictionary-standard-mapping-type
