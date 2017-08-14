@@ -9,6 +9,6 @@ section: 1
 insights:
   - get-more-with-collections
   - enhance-your-tuple-s
-  -
+  - enum
   - double-ended-queues-with-deque
   - best-way-to-implement-a-simple-queue
