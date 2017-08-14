@@ -1,4 +1,4 @@
-name: Recipes
+name: Recipes I
 
 type: insights-list
 
