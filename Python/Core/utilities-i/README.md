@@ -6,7 +6,7 @@ description: Make use of python's readily available modules!
 
 section: 1
 
-parent: Classes II
+parent: classes-ii
 
 insights:
   - check-available-python-modules

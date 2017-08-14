@@ -6,7 +6,7 @@ description: More on classes
 
 section: 1
 
-parent: Classes I
+parent: classes-i
 
 insights:
   - class-definition-syntax
