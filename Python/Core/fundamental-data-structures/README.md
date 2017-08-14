@@ -6,7 +6,7 @@ description: Getting to know the fundamental data structures specific to Python.
 
 section: 0
 
-parent: Control Structures
+parent: control-structures
 
 insights:
   - variables-and-types

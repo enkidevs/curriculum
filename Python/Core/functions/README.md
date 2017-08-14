@@ -6,7 +6,7 @@ description: Employ the capabilities of functions.
 
 section: 0
 
-parent: Looping
+parent: looping
 
 insights:
   - defining-functions
