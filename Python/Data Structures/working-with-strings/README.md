@@ -2,7 +2,7 @@ name: Working with Strings
 
 type: insights-list
 
-description: Go through the basics of string manipulation.
+description: Go through the basics of string manipulation. 
 
 section: 0
 

@@ -21,7 +21,7 @@ notes: >
   Frozensets can be used when you know that the elements you are going to put
   into a set, will stay constant, that is, no elements will be added later. E.g.
   a set of lowercase English vowels will only ever contain 'a', 'e', 'i', 'o'
-  and 'u'.
+  and 'u'. 
 
 links:
 
@@ -31,7 +31,7 @@ links:
 ---
 ## Content
 
-Even though a `set` can't contain mutable objects, a set itself is in fact **mutable**. 
+Even though a `set` can't contain mutable objects, a set itself is in fact **mutable**.
 
 This can be seen from the existence of methods such as `add` which mutates the `set`:
 ```python
@@ -46,7 +46,7 @@ Python provides a way of creating an **immutable** set - the type is called `fro
 >>> s.add('i')
 # Traceback (most recent call last):
 #   File "<input>", line 1, in <module>
-#   AttributeError: 'frozenset' object 
+#   AttributeError: 'frozenset' object
 #   has no attribute 'add'
 
 ```

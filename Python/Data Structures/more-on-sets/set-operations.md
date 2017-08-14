@@ -25,7 +25,7 @@ links:
 ## Content
 
 Apart from set operations such as union and intersection, Python's `set` has other useful operations:
-
+ 
 Add an element to a `set` (note: sets only accept **immutable** elements):
 ```python
 >>> enki = set("Enk")
@@ -71,7 +71,7 @@ Create a shallow copy of the set:
 
 ```
 pq = ???("Practice")
-practice_shallow = pq.???() 
+practice_shallow = pq.???()
 ```
 *`set`
 *`copy`
