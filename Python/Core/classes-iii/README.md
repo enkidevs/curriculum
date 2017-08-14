@@ -6,7 +6,7 @@ description: Explore more advanced classes features.
 
 section: 2
 
-parent: Tips
+parent: tips
 
 insights:
   - special-attributes-of-objects-and-classes

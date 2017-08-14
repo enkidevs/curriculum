@@ -6,7 +6,7 @@ description: Referencing objects 101.
 
 section: 2
 
-parent: Classes III
+parent: classes-iii
 
 insights:
   - there-is-more-to-copying
