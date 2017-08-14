@@ -18,7 +18,7 @@ parent: compare-sequences-with-difflib
 ---
 ## Content
 
-`difflib`'s `SequenceMatcher` class and its ratio method makes it easy to compute  the "similarity" of two sequences.
+`difflib`'s `SequenceMatcher` class and its ratio method makes it easy to compute  the "similarity" of two sequences. 
 
 ```python
 import difflib
@@ -56,14 +56,14 @@ print(s.???() *100)
 // 50%
 ```
 
-*`difflib` 
-*`SequenceMatcher` 
-*`ratio` 
-*`r` 
-*`similarity` 
-*`diff` 
-*`Sequence` 
-*`Matcher` 
+*`difflib`
+*`SequenceMatcher`
+*`ratio`
+*`r`
+*`similarity`
+*`diff`
+*`Sequence`
+*`Matcher`
 *`get_similarity`
 
 ---
@@ -73,9 +73,9 @@ What function of `SequenceMatcher`  can be used to get the similarity of two seq
 
 ???
 
-*`ratio` 
-*`sim` 
-*`similarity` 
-*`r` 
-*`s` 
+*`ratio`
+*`sim`
+*`similarity`
+*`r`
+*`s`
 *`get_similarity`

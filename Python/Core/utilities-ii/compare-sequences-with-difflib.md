@@ -45,7 +45,7 @@ This will print the whole text once again with differences highlighted by line w
 # -f / -g / -h
 # +i / +j / +k
 ```
-The same result is achieved with `difflib.ndiff`.
+The same result is achieved with `difflib.ndiff`. 
 
 To show only the differences and some context:
 ```python
@@ -67,14 +67,14 @@ diff = d.???(a, b)
 print(‘\n’.join(diff))
 ```
 
-*`Differ` 
-*`compare` 
-*`diff` 
-*`join` 
-*`concat` 
-*`difflib` 
-*`Diff` 
-*`HtmlDiff` 
+*`Differ`
+*`compare`
+*`diff`
+*`join`
+*`concat`
+*`difflib`
+*`Diff`
+*`HtmlDiff`
 *`ndif`
 
 ---
@@ -84,7 +84,7 @@ What class from `difflib` with a `compare` method can be used to see differences
 
 ???
 
-*`Differ` 
-*`SequenceMatcher` 
-*`ndiff` 
+*`Differ`
+*`SequenceMatcher`
+*`ndiff`
 *`HtmlDiff`

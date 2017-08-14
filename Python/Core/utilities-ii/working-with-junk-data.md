@@ -21,7 +21,7 @@ links:
 ---
 ## Content
 
-The `SequenceMatcher` class inside `difflib` has its constructor's first argument either defaulted to `None` or a one-argument function that takes a sequence and returns true if the element is **junk** and is to be ignored.
+The `SequenceMatcher` class inside `difflib` has its constructor's first argument either defaulted to `None` or a one-argument function that takes a sequence and returns true if the element is **junk** and is to be ignored. 
 
 For the sake of the argument we will work with this class' function called `find_longest_match` that will search for the largest match between two sequences[1]:
 ```python
@@ -35,7 +35,7 @@ print(s.find_longest_match(0, 5, 0, 9))
 
 ```
 
-`find_longest_match` method called on `s` object takes 4 arguments: 
+`find_longest_match` method called on `s` object takes 4 arguments:
  - `a` starting index.
  - `a` ending index.
  - `b` starting index.
@@ -64,11 +64,11 @@ s = SequenceMatcher(??? x: x == ???,
     “ abcd”, “abcd abcd”)
 ```
 
-*`lambda` 
-*`" "` 
-*`null` 
-*`()` 
-*`if` 
+*`lambda`
+*`" "`
+*`null`
+*`()`
+*`if`
 *`?`
 
 ---
@@ -78,13 +78,13 @@ What module contains the SequenceMatcher class?
 
 ???
 
-*`difflib` 
-*`difference` 
-*`seq` 
-*`sequence` 
-*`match` 
-*`matcher` 
-*`seqlib` 
+*`difflib`
+*`difference`
+*`seq`
+*`sequence`
+*`match`
+*`matcher`
+*`seqlib`
 *`matchlib`
 
 ---

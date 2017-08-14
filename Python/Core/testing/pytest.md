@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-**Pytest** is a **testing framework**. Despite being a fully-featured and extensible test tool, it has a simple syntax. Creating a *test suite* means writing a **module** with a couple of functions.
+**Pytest** is a **testing framework**. Despite being a fully-featured and extensible test tool, it has a simple syntax. Creating a *test suite* means writing a **module** with a couple of functions. 
 
 The main feature **pytest** comes with is its `assert` function. In contrast with **unittest**, where you have different assertions (`assertTrue`, `assertEqual`, etc.), **pytest**'s assert will intelligently report different types of the assert expression.
 
