@@ -6,7 +6,7 @@ description: Explore how time manipulation works for you with help from datetime
 
 section: 1
 
-parent: Basic File Manipulation
+parent: basic-file-manipulation
 
 insights:
   - playing-with-time
