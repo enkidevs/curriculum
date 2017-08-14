@@ -58,7 +58,7 @@ The following **output** will be generated:
 
 ```
 .
----------------------------
+===========================
 Ran 1 tests in 0.000s
 
 OK
@@ -75,7 +75,8 @@ $ python -m unittest simple_test.py -v
 The following output will be generated:
 ```
 test_True (__main__.SimplisticTest) ... ok
----------------------------
+===========================
+
 Ran 1 tests in 0.000s
 
 OK
