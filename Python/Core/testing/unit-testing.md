@@ -68,7 +68,7 @@ The full stop displayed above the dashes ('-') indicates how many test have **pa
 - `FAIL` the test fails and rises `AssertionError`;
 - `ERROR` the test fails and doesn't rise `AssertionError`.
 
-For more detailed test results, use the `-v` flag with the command:
+For more detailed test results, use the `-v` flag with the command: 
 ```bash
 $ python -m unittest simple_test.py -v
 ```

@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-**Doctest** enable users to test their code by running examples **embedded** in the program comments and verifying that they produce the expected output.
+**Doctest** enable users to test their code by running examples **embedded** in the program comments and verifying that they produce the expected output. 
 
 We begin by importing the *doctest* module and defining a function:
 ```python

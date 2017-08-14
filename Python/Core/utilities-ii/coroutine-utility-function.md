@@ -19,7 +19,7 @@ links:
 ---
 ## Content
 
-Inside **Python**'s ` types`  module one can find the `coroutine` function since the introduction of **Python 3.5**.
+Inside **Python**'s ` types`  module one can find the `coroutine` function since the introduction of **Python 3.5**. 
 
 This function is used to transform a **generator function** into a **coroutine function**, returning a generator-based coroutine.
 
@@ -33,7 +33,7 @@ def my_gen():
   yield 2
 
 my_coroutine_obj = types.coroutine(my_gen)
-``` 
+```
 
 The new coroutine object is still **iterable**:
 ```python
@@ -42,7 +42,7 @@ for element in my_coroutine_obj:
 
 # 1
 # 2
-``` 
+```
 
 In addition, the generator based coroutine is **awaitable**, but does not necessarily implement `__await__()`
 
@@ -58,11 +58,11 @@ def my_generator():
 
 my_coroutine = ???.???(my_generator)
 ```
-*`types` 
-*`coroutine` 
-*`co` 
-*`gen` 
-*`transform` 
+*`types`
+*`coroutine`
+*`co`
+*`gen`
+*`transform`
 *`type`
 
 ---
@@ -72,9 +72,9 @@ What function from the `types` module can be used to transform a generator into 
 
 ???
 
-*`coroutine` 
-*`co` 
-*`gen` 
-*`generator` 
-*`await` 
+*`coroutine`
+*`co`
+*`gen`
+*`generator`
+*`await`
 *`gen_to_co`
