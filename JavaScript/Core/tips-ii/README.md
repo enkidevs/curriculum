@@ -6,7 +6,7 @@ description: How to JavaScript.
 
 section: 1
 
-parent: quirks
+parent: quirks-i
 
 insights:
   - using-the-double-tilde
