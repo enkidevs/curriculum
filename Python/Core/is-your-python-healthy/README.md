@@ -2,7 +2,7 @@ name: Is Your Python Healthy?
 
 type: insights-list
 
-description: Learn about error handling and debugging.
+description: Learn about error handling and debugging. 
 
 section: 1
 
