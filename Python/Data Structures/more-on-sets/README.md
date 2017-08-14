@@ -13,4 +13,4 @@ insights:
   - set-operations
   - complex-set-operations
   - immutable-sets-with-frozenset
-  - mixing-sets-and-forzensets
+  - mixing-sets-and-frozensets

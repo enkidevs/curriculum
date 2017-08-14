@@ -14,7 +14,7 @@ category: must-know
 ---
 ## Content
 
-Python has a number of further complex operations which can be carried out on `sets`.
+Python has a number of further complex operations which can be carried out on `sets`. 
 
 `issubset(x)` will return true if y is a subset of x. Instead of writing `issubset` you can use the abbreviation `<=`, for example:
 
