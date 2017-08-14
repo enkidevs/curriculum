@@ -20,7 +20,7 @@ tags:
 ---
 ## Content
 
-A *command shell*, *command-line interface*, or simply *shell* is any text-based user interface used to access to an operating system's underlying services.   They all work very similarly:
+A *command shell*, *command-line interface*, or simply *shell* is any text-based user interface used to access to an operating system's underlying services. They all work very similarly:
 
 1. The user is presented with a prompt.
 2. The user types a command and presses enter.
@@ -30,7 +30,7 @@ A *command shell*, *command-line interface*, or simply *shell* is any text-based
 
 ### Shells on Unix
 
-On Unix-based operating systems like Linux, most command shells descend from `sh` (aka the *Bourne shell*), which was first released in 1979.  Today, the default shell on most Unix-based operating systems is `bash` (aka the *Bourne again shell*). `bash` is far-and-away the most common shell.
+On Unix-based operating systems like Linux, most command shells descend from `sh` (aka the *Bourne shell*), which was first released in 1979. Today, the default shell on most Unix-based operating systems is `bash` (aka the *Bourne again shell*). `bash` is far-and-away the most common shell[1].
 
 The "classic" `bash` prompt looks like this:
 
@@ -50,9 +50,10 @@ Every shell has its own syntax for issuing commands, although there is often con
 ---
 ## Revision
 
-Which of the following is the most common *shell*? 
+Which of the following is the most common *shell*?
 
 ???
+
 *bash
 *sh
 *zsh
@@ -61,4 +62,5 @@ Which of the following is the most common *shell*?
 ---
 ## Footnotes
 
-1. When someone refers to the Linux "command shell" or "command line interface" without any clarification, they're almost always referring to `bash`.
+[1: Bash]
+When someone refers to the Linux "command shell" or "command line interface" without any clarification, they're almost always referring to `bash`.
