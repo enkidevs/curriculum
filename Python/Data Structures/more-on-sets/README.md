@@ -6,7 +6,7 @@ description: Learn the quirks of Python's built-in sets.
 
 section: 0
 
-parent: More on Lists
+parent: more-on-lists
 
 insights:
   - review-of-sets

@@ -6,7 +6,7 @@ description: Learn the quirks of Python's built-in lists.
 
 section: 0
 
-parent: Working with Strings
+parent: working-with-strings
 
 insights:
   - built-in-list-methods
