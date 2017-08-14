@@ -16,7 +16,7 @@ links:
 ---
 ## Content
 
-**Sets** can be used to carry out **mathematical** set operations like:
+**Sets** can be used to carry out **mathematical** set operations like: 
 - union
 - intersection
 - difference
