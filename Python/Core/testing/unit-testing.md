@@ -58,7 +58,7 @@ The following **output** will be generated:
 
 ```
 .
----------------------------
+===========================
 Ran 1 tests in 0.000s
 
 OK

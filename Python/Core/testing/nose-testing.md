@@ -45,7 +45,8 @@ multiply_nose.test_two ... FAIL
 
 =======================================
 FAIL: multiply_nose.test_two
----------------------------------------
+=======================================
+
 Traceback (most recent call last):
 File "python3/dist-packages/nose/case.py",
   line 198, in runTest
@@ -55,7 +56,8 @@ File "python3/dist-packages/nose/case.py",
     assert multiply(3, 2) == 5
 AssertionError
 
----------------------------------------
+=======================================
+
 Ran 2 tests in 0.001s
 
 FAILED (failures=1)
