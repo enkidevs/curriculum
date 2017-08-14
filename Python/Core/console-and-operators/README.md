@@ -6,7 +6,7 @@ description: Get familiar with syntactic basis of python's console and common ar
 
 section: 0
 
-parent: Meet Python
+parent: meet-python
 
 insights:
   - printing-to-the-console

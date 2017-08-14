@@ -6,7 +6,7 @@ description: Explore fundamental control structures of Python.
 
 section: 0
 
-parent: Console and Operations
+parent: console-and-operators
 
 insights:
   - if-statements
