@@ -1,4 +1,4 @@
-# Errors and Execeptions
+# Errors and Excpetions
 author: SebaRaba
 
 levels:
@@ -16,7 +16,7 @@ links:
 ---
 ## Content
 
-We can distinguish at least two types of errors in Python: **syntax errors** and **exceptions**. 
+We can distinguish at least two types of errors in Python: **syntax errors** and **exceptions**.
 
 **Syntax errors**, also known as **parse errors**, are the most common problem beginner programmers encounter. In their case, the parser displays a little **arrow** pointing to the first character where the error was detected:
 ```python

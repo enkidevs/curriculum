@@ -2,7 +2,7 @@ name: Utilities II
 
 type: insights-list
 
-description: Even more handy Python modules.
+description: Even more handy Python modules. 
 
 section: 1
 
