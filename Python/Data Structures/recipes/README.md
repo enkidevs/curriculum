@@ -6,7 +6,7 @@ description: Get better at data manipulation with this simple recipes for common
 
 section: 0
 
-parent: More on Dictionaries
+parent: more-on-dictionaries
 
 insights:
   - keep-large-lists-sorted-with-bisect

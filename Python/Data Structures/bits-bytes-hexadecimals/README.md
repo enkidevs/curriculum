@@ -6,7 +6,7 @@ description: Learning about the low-level data representation types in Python
 
 section: 0
 
-parent: Recipes
+parent: recipes
 
 insights:
   - get-the-most-of-int-s

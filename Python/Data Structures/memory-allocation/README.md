@@ -6,7 +6,7 @@ description: On how memory allocation and de-allocation works.
 
 section: 0
 
-parent: Recipes
+parent: bits-bytes-hexadecimals
 
 insights:
   - pointers-and-references-python

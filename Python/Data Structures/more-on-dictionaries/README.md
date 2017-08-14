@@ -6,7 +6,7 @@ description: Learn the quirks of Python's built-in dictionaries.
 
 section: 0
 
-parent: More on Sets
+parent: more-on-sets
 
 insights:
   - review-of-dictionaries
