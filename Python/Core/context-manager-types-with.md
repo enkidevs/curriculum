@@ -38,7 +38,6 @@ The use of the `with` statement (on objects that support it, such as built-in or
 >>> with open('a.txt', 'w') as f:
 ...     f.write('a line')
 ...
-6
 >>> f.closed
 True
 >>> with open('a.txt', 'r') as f:
@@ -75,30 +74,36 @@ Whatever happens in the code, the `__exit__` method will be called in the end to
 Complete the code snippet to implement a context manager:
 
 ```python
-class new_context_manager: 
-  def ???(self): 
-      # set up things 
-      return thing 
-  def ???(self,type, \
-         value,traceback): 
-      # deal with unmanaged resources 
-      
-with new_context_manager as custom_name 
-   # work with resources 
+class new_context_manager:
+  def ???(self):
+      # set up things
+      return thing
+  def ???(self, type,
+         value, traceback):
+      # deal with unmanaged resources
+
+with new_context_manager as custom_name
+   # work with resources
 ```
 
-*`__enter__` 
-*`__exit__` 
-*`__close__` 
-*`__start__` 
-*`__end__` 
-*`__run__`
+* `__enter__`
+* `__exit__`
+* `__close__`
+* `__start__`
+* `__end__`
+* `__run__`
 
 ---
 ## Revision
 
 `with` can be seen as syntactic sugar for the ??? block.
 
-*`try/except/finally` 
-*`try/catch` 
-*`exceptions`
+What functionality does `with` carry in a `with context as name` block in Python?
+
+???
+
+* `try/except/finally`
+* It automatically cleans up the `context` resource after use.
+* It ensures that context object exists and if doesn't the compiler will throw an error.
+* `try/catch`
+* `exceptions`

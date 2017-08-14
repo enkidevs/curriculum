@@ -45,27 +45,31 @@ These callbacks can be useful for example to remove dead references from a cache
 ---
 ## Practice
 
-What is the extra argument a `ref` constructor for weak references can take? 
-
-???
-
-*`callback` 
-*`flag` 
-*`boolean` 
-*`return`
-
----
-## Revision
-
 Complete the following code snippet (supposing a callback function is defined):
 
 ```
  r = weakref.???(enki, ???)
 ```
 
-*`ref` 
-*`callback` 
-*`call` 
-*`run` 
-*`flag` 
-*`bool`
+* `ref`
+* `callback`
+* `call`
+* `run`
+* `flag`
+* `bool`
+
+
+
+* `flag`
+* `boolean`
+* `return`
+
+---
+## Revision
+
+What functionality does `callback` carry in `r = weakref.ref(enki, callback)`?
+
+???
+
+* `callback` function is invoked when `enki` is deleted.
+* In this case `callback` is a proxy to `enki`.
