@@ -29,7 +29,7 @@ Import the module:
 import pprint
 ```
 
-You can use the `pprint()` function to print your data structure. 
+You can use the `pprint()` function to print your data structure.
 ```python
 # data = our data structure
 pprint.pprint(data)

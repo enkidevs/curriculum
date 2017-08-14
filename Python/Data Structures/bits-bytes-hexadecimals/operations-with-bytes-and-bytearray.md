@@ -27,7 +27,7 @@ links:
 
 Both `bytes` and `bytearray` support **common** special operations not only with operand of the same type, but with any **bytes-like** objects.
 
-Arguments should not be strings, but conversions: 
+Arguments should not be strings, but conversions:
 ```python
 a = bytes(b"abc") # bytes object
 b = a.replace("a", "f")  # will raise error
@@ -51,7 +51,7 @@ You can check if all bytes in the sequence are **ASCII alphanumeric** characters
 True
 >>> (b'abc?').isalnum()
 False
-``` 
+```
 You can create **copy** of the bytes, zero-filled to a specified width. This is useful in generating formatted report columns:
 ```python
 >>> (b"37").zfill(6)
@@ -69,13 +69,13 @@ b'enki'
 Create a copy of the bytes 0 filled to a specified width:
 
 ```
->>> (b"19").???(5) 
-b'00019' 
+>>> (b"19").???(5)
+b'00019'
 ```
 
-*`zfill` 
-*`fill0` 
-*`zero-fill` 
+*`zfill`
+*`fill0`
+*`zero-fill`
 *`zerofill`
 
 ---
@@ -84,11 +84,11 @@ b'00019'
 Check if all the bytes in the sequence are ASCII alphanumeric characters:
 
 ```
->>> (b'enki').???() 
+>>> (b'enki').???()
 True
 ```
 
-*`isalnum` 
-*`isalphanum` 
-*`isalpnum` 
+*`isalnum`
+*`isalphanum`
+*`isalpnum`
 *`isnum`

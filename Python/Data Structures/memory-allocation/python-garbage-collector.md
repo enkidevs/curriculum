@@ -24,7 +24,7 @@ The first two lines of code can be represented like this (an oversimplified link
 # physical memory
        [1, 2]
       /      \
---------------------
+====================
     /          \ references
    m            n
 # Python's memory heap
@@ -34,7 +34,7 @@ The next two lines yield something different:
 # physical memory
 [ 205 ]    [1, 2]    [ 3 ]
    |                   |
----------------------------
+===========================
    |                   |
    m                   n
 # Python's memory heap
