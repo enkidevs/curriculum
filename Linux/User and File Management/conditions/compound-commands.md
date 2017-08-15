@@ -29,7 +29,8 @@ $ (( 4/2 - 2 )); echo $?
 On the other hand, `[[ expression ]]` allows you to combine tests that are allowed for the `test` command (same syntax, comprising files, strings or integers):
 ```bash
 # regex matching
-$ [[ "abc de" == a[bc]*\ d* || (( 2 > 1 )) ]]; echo $?
+$ [[ "abc de" == a[bc]*\ d* || \
+    (( 2 > 1 )) ]]; echo $?
 # 0
 $ [[ 3 -gt 2 ]]; echo $?
 # 0
