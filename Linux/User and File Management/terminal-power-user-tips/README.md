@@ -6,7 +6,7 @@ description: Terminal power user tips
 
 section: 0
 
-parent: file-managemenet-tips
+parent: file-management-tips
 
 insights:
   - quick-bash-shortcuts
