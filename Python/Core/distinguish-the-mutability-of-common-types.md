@@ -20,9 +20,11 @@ links:
 ---
 ## Content
 
-Different types, depending on the language, might be mutable or immutable. A good example is the `string` type in Java, which the language treats as an immutable object. Whenever something is appended to a string, a new string with that modification is actually made behind-the-scenes instead of modifying the original string.
+Different types, depending on the language, might be mutable or immutable.
 
-Python has a similar system of types. In fact, the **majority** of Python's type system is actually composed of **immutable** objects. This gives a valuable insight into the way the designers of the Python language intend the types to be used.
+In Python, the **majority** of the type system is actually composed of **immutable** objects. This gives a valuable insight into the way the designers of the Python language intend the types to be used.
+
+Another good example is the `string` type in Java, which the language treats as an immutable object. Whenever something is appended to a string, a new string with that modification is actually made behind-the-scenes instead of modifying the original string.
 
 In Python, the **immutable** types are:
 
