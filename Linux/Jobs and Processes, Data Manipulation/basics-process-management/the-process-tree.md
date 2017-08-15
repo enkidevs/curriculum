@@ -54,15 +54,15 @@ You can also run `ps auxf` to see a tree-like display, although the output is le
 ---
 ## Practice
 
-In the following extract of a tree representation of processes, which process launched  `pstree` ? 
+In the following extract of a tree representation of processes, which process launched  `pstree` ?
 
 ???
 ```
 $ pstree
 systemd─┬─ModemManager─┬─{gdbus}
-                       └─{gdmain}  
-        └─ konsole--bash─┬─pstree
-                          └─{QXcbEventReader}
+        |              └─{gdmain}  
+        └─konsole--bash─┬─pstree
+                        └─{QXcbEventReader}
 ```
 *bash
 *ModemManager
