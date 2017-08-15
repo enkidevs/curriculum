@@ -34,10 +34,10 @@ PING google.com (172.217.0.238)
   icmp_seq=4 ttl=56 time=0.894 ms
 64 bytes from 172.217.0.238:
   icmp_seq=5 ttl=56 time=0.888 ms
---- google.com ping statistics ---
+=== google.com ping statistics ===
 5 packets transmitted, 5 received,
   0% packet loss, time 4001ms
-rtt min/avg/max/mdev = 
+rtt min/avg/max/mdev =
   0.822/0.871/0.905/0.044 ms
 $
 ```
@@ -52,18 +52,18 @@ For example, if I ping `www.duma.ru`, the website for the Russian State Parliame
 $ ping duma.ru
 PING duma.ru (212.11.128.31)
   56(84) bytes of data.
-64 bytes from duma.ru (212.11.128.31): 
+64 bytes from duma.ru (212.11.128.31):
   icmp_seq=1 ttl=113 time=149 ms
-64 bytes from duma.ru (212.11.128.31): 
+64 bytes from duma.ru (212.11.128.31):
   icmp_seq=2 ttl=113 time=149 ms
-64 bytes from duma.ru (212.11.128.31): 
+64 bytes from duma.ru (212.11.128.31):
   icmp_seq=3 ttl=113 time=149 ms
-64 bytes from duma.ru (212.11.128.31): 
+64 bytes from duma.ru (212.11.128.31):
   icmp_seq=4 ttl=113 time=149 ms
---- duma.ru ping statistics ---
+=== duma.ru ping statistics ===
 5 packets transmitted, 4 received,
   20% packet loss, time 4005ms
-rtt min/avg/max/mdev = 
+rtt min/avg/max/mdev =
   149.660/149.811/149.946/0.484 ms
 $
 ```
@@ -71,7 +71,7 @@ $
 ---
 ## Practice
 
-`ping` will send ??? and count the time until the 
+`ping` will send ??? and count the time until the
 
 ???.
 *data
