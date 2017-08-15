@@ -32,14 +32,14 @@ tags:
 ---
 ## Content
 
-`slurm` is a command line tool that displays real-time data 
+`slurm` is a command line tool that displays real-time data
 about the specified network interface:
 
     `-Current RX and TX Speed`
-    `-Graph Top RX and TX Speed` 
-    `-MBytes Received and Transmitted` 
+    `-Graph Top RX and TX Speed`
+    `-MBytes Received and Transmitted`
 
-You can check this utility directly by using: 
+You can check this utility directly by using:
 
 ```bash
 $ slurm -i <interface_name>
@@ -55,10 +55,10 @@ Current RX Speed: 2.70 KB/s
 Graph Top RX Speed: 8.60 KB/s  
 Overall Top RX Speed: 8.60 KB/s   
 Received Packets: 253624     
-MBytes Received: 319.855 MB 
-Errors on Receiving: 0 
+MBytes Received: 319.855 MB
+Errors on Receiving: 0
 
----------------------------------
+=================================
 
 Interface Speed: unknown
 
@@ -73,10 +73,10 @@ Errors on Transmission: 0
 ---
 ## Revision
 
-`slurm` is used as a 
+`slurm` is used as a
 
 ??? .
 *measurement tool for internet speed
-*energy drink 
+*energy drink
 *measurement tool for cpu usage
 *measurement tool for users access to a server
