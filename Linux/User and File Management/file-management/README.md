@@ -6,7 +6,7 @@ description: File management 101.
 
 section: 0
 
-parent: file-managemenet
+parent: pipelines
 
 insights:
   - the-directory-tree
