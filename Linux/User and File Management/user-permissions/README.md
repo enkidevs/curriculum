@@ -6,7 +6,7 @@ description: Check how ownership and permissions are handled on Linux-based oper
 
 section: 0
 
-parent: file-managemenet
+parent: file-management
 
 insights:
   - users-and-groups-on-linux
