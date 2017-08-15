@@ -42,8 +42,8 @@ $ apropos "user*"
 ```
 Outputs:
 ```
-addgroup - add a user or group to the system
-adduser  - add a user or group to the system
+addgroup - add a user/group to the system
+adduser  - add a user/group to the system
 ...
 ```
 
@@ -54,13 +54,13 @@ Complete the following snippet to obtain the output :
 ```
 $ ??? ???
 ...
-foomatic-kitload (8) - installs a data kit 
+foomatic-kitload (8) - installs a data kit
           into the foomatic database.
-grub-install (8)   - install GRUB to a device
-install-docs (8)   - manage online 
+grub-install (8) - install GRUB to a device
+install-docs (8) - manage online
           Debian documentation
-install-sgmlcatalog (8) - maintain transitional 
-          SGML catalog
+install-sgmlcatalog (8) - maintain
+        transitional SGML catalog
  ...
 ```
 *`apropos`
@@ -72,7 +72,7 @@ install-sgmlcatalog (8) - maintain transitional
 ---
 ## Revision
 
-`apropos`  allows you to search through 
+`apropos`  allows you to search through
 
 ??? .
 
