@@ -1,4 +1,4 @@
-# What is Immutability?
+# What Is Immutability?
 author: stefkn
 
 levels:
@@ -52,34 +52,7 @@ First, immutable objects are guaranteed to be **thread safe**. This means that e
 
 Second, immutable objects are easier to reason about through their life cycle, since we do not have to consider any kind of changes to the object which could happen later that we did not anticipate. This results in a higher level of security since it is easier to formally prove that there is no possible undefined behavior or subtle state-related bugs.
 
-For example, see the following code, utilizing a custom class called `Connection` which takes a Python `HTTPConnection` and has a method called `request` which makes a HTTP request of the method (`PUSH`, `GET`, `POST`, etc.) specified. If a method is not specified it will be the same as last method used. Optionally, the body of the HTTP request can be passed in as well, as seen in the second request, `r2`:[2]
-
-```python
-conn = Connection(
-  http.client.HTTPConnection(
-              "httpbin.org", 80))
-r1 = conn.request("POST")
-r2 = conn.request("", "text=hello")
-```
-
-This code works correctly. However, we've introduced what is known as **'temporal coupling'** which is a dependency between objects in time. In this case, `r1 = conn.request("POST")` must be before the second request for the method in the second request to be `POST`.
-
-This can be even more troublesome in languages where the `request` object is fully mutable and can be set and changed at arbitrary times; removing one line which configures the request for some later call breaks the code. We have to create a custom class to illustrate this issue as Python's standard library does not easily permit this.
-
-If each `request` were used in an immutable way, the above would not work. Instead, the custom class could have the method specified in the initializer to avoid duplication of code.
-
-```python
-conn = Connection(
-  http.client.HTTPConnection(
-              "httpbin.org", 80),
-                "POST")
-r1 = conn.request()
-r2 = conn.request("text=hello")
-```
-
-Regardless of what is removed before, these requests will work as expected. There is no temporal coupling here to introduce bugs.
-
-There are some situations where **mutable** objects might be more suited, such as when we're trying to model real-world objects in a way that is intuitive at the level of the code. Since our perception of the *real world* is based on mutable objects (when I make a change to some physical object, I still think of it as the same object, just with the change applied, not a new object) it is often simpler in such cases to use *mutable* objects, or at least *weakly immutable*.[3]
+There are some situations where **mutable** objects might be more suited, such as when we're trying to model real-world objects in a way that is intuitive at the level of the code. Since our perception of the *real world* is based on mutable objects (when I make a change to some physical object, I still think of it as the same object, just with the change applied, not a new object) it is often simpler in such cases to use *mutable* objects, or at least *weakly immutable*.[2]
 
 ---
 ## Practice
@@ -121,8 +94,5 @@ Just because an object is immutable does not mean the object stored in the compu
 
 As a result of these techniques, immutability does not necessarily mean that the program will be more resource intensive or run slower-- in fact, the complete opposite may be true, as we will discover.
 
-[2:HTTP Requests]
-For those not familiar with HTTP requests, it's not important to know the mechanics of HTTP to understand the concept. All that we need to understand to grasp the concept of temporal coupling is that there is some dependency where one method call must come before the other (to set some state in the object before the second method call) or otherwise there will be unexpected behavior.
-
-[3:Weakly Mutable]
+[2:Weakly Mutable]
 There are differing levels of immutability: **weak** and **strong**. An object is said to be **strongly immutable** if the entire object cannot be modified after creation. An object is said to be **weakly immutable** if the object contains some fields which *are* able to be modified after creation. I.E., the majority of the object would likely be immutable for the benefits that provides, but for convenience some data is still able to be modified after creation.

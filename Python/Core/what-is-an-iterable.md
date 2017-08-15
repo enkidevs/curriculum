@@ -1,4 +1,4 @@
-# What is an iterable?
+# What Is an Iterable?
 author: stefkn
 
 levels:
@@ -31,7 +31,7 @@ Examples of iterable objects include:
 
  - All sequence types, such as `list`, `str` (string), `tuple`.
  - Some non-sequence types, such as `dict` or file objects/streams.
- - Any other object whose class has a defined `__iter__()` or `__getitem__()` method, which return an `iterator` or, given a valid index number, return a member of the collection. (I.E. a `child`)
+ - Any other object whose class has a defined `__iter__()` or `__getitem__()` method, which return an `iterator` or, given a valid index number, return a member of the collection. (i.e. a `child`)
 
 To expand on the `__iter__()` and `__getitem__()` methods: these are called double underscore methods[2] which refer to built-in protocols that classes can choose to implement if the designers wish. Most built-in classes implement these methods already.
 
@@ -46,14 +46,11 @@ This is a very well-used and crucial topic within Python, and many of Python's b
 ---
 ## Practice
 
-What type of objects are `iterable`? Select all which apply.
+Which of the objects below are `iterable`?
 
-??? ??? ??? ???
+???
 
 * Sequence types (`list`, `str`, `tuple`...)
-* Non-sequence types (file objects, `dict`...)
-* Any object with a defined `__getitem__()` method
-* Any object with a defined `__iter__()` method
 * Collection types
 * Any custom classes
 * Iterators
@@ -76,9 +73,11 @@ What is the difference between `__getitem__()` and `__iter__()`?
 ## Footnotes
 
 [1:Parent and Child objects]
-This is not to be confused with the concept of parents/children in Object-Oriented Programming, which is slightly different, semantically. In OOP, the concept of parent and children objects usually refers to the concept of **inheritance**, where the features of a parent class are inherited by its children. for more information, please see 'OOP Parents and Children' in the 'Learn More' section.
+This is not to be confused with the concept of parents/children in Object-Oriented Programming, which is slightly different, semantically. In OOP, the concept of parent and children objects usually refers to the concept of **inheritance**, where the features of a parent class are inherited by its children. For more information, please see 'OOP Parents and Children' in the 'Learn More' section.
 
 [2:Double Underscore in Python]
 Double underscores in Python are commonly referred to by Pythonistas as "dunder" for brevity. `__iter__` is therefore pronounced *"dunder iter"*.
-The meaning behind double underscores is to allow the core Python team to define so-called "Magic Methods" which define certain protocols that classes can choose to implement or not. By default, many of the built-in classes implement these methods.  
+
+The meaning behind double underscores is to allow the core Python team to define so-called "Magic Methods" which define certain protocols that classes can choose to implement or not. By default, many of the built-in classes implement these methods.
+
 The double underscore was chosen as way to not have as many `reserved` method names such as in Java, by prefixing and postfixing the underscores, the name `iter` is still usable in code without interfering with the language's underlying mechanisms.

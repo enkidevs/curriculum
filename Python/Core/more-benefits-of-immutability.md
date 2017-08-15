@@ -21,19 +21,70 @@ links:
 ---
 ## Content
 
-### Avoiding Identity Mutation
+### Avoiding identity mutation
 
 For intuitive convenience, it is useful in some cases for objects to be seen as identical if their internal states are identical, such as when comparing the contents of two lists.[1] The problem with using mutable objects is that this is not possible; if we mutate the state it is no longer evaluated as being identical--the identity changes with the mutation of state.
 
-Usually a mutation of state will change the internal state of the object to be different to that of the object it is being compared to, and so this seems acceptable, even *desired* in most cases. However, there are some scenarios where this is not ideal, such as in Key-Value pairs. If some field is mutated within the key object and we try to check if the map contains the same key again, it will return false. The identity of the object has been permanently mutated, and the object associated with the object before mutation is no longer accessible, even if it is still technically the same object.
+Usually a mutation of state will change the internal state of the object to be different to that of the object it is being compared to, and so this seems acceptable, even *desired* in most cases. However, there are some scenarios where this is not ideal, such as in Key-Value pairs. If some field is mutated within the key object and we try to check if the dictionary contains the same key again, it will return `False`. The identity of the object has been permanently mutated, and the object associated with the object before mutation is no longer accessible, even if it is still technically the same object.
 
-This makes immutable objects perfect for use as keys for any kind of data structure relying on associations between keys and values (such as a `HashMap` or `Hashtable`)[2] as there is no possibility of a corrupted key making a certain value unretrievable. Luckily, in Python's standard library, mutable data types are prohibited from being used as a key for this very reason.
+In Python's standard library, mutable data types are prohibited from being used as a key for this very reason. Immutable objects are great for use as keys for any kind of data structure relying on associations between keys and values (such as in a dictionary)[2] as there is no possibility of a corrupted key making a certain value unretrievable. 
 
 ### Atomicity of failure
 
 This is an easy one: *mutable objects can sometimes be left in a half-broken state*. If we call some method on an object which causes it to throw on exception, but still exist, that object's state might not properly reflect what it is meant to describe, or be improper in some way. In this case, it is the object user's duty to properly think of all the possible situations and exceptions that could occur and handle them properly; one missed case and the object could cause bugs or maintainability issues.
 
-This is another great advantage of immutable objects. If the proper conditions are not met at the time of object creation, the constructor will simply fail and not create the object in the first place. If it does work, then a valid object will be created and be unchanged for the rest of its lifecycle. For example, regarding the `Connection` class[3] from the previous insight; if some error occurred during instantiation, it would simply not be created, and a clear and simple error could be traced back to this object failing to instantiate.
+Take a look at this simple class, `MutableShoppingBasket`, representing a user's basket on some online store. It holds an integer keeping track of the number of items, and it can increment (increase by one) or decrement (decrease by one) that integer. In the constructor we make sure that it is not possible to create a shopping basket with less than zero items.
+
+```python
+class MutableShoppingBasket:
+  def __init__(self, itemcount):
+    if itemcount < 0:
+      raise ValueError("You can't have less than zero items in the basket!")
+    self.itemcount = itemcount
+    
+  def increment_items(self):
+    self.itemcount +=1
+    
+  def decrement_items(self):
+    self.itemcount -=1
+    
+  def __repr__(self):
+    return("Shopping Basket with " + str(self.itemcount) + " items.")
+```
+
+Can you see how this constraint could be broken? Let's do it:
+
+```python
+b = MutableShoppingBasket(1)
+print(b)
+# Shopping Basket with 1 items.
+b.decrement_items()
+print(b)
+# Shopping Basket with 0 items.
+b.decrement_items()
+print(b)
+# Shopping Basket with -1 items.
+```
+
+This specific `MutableShoppingBasket` is now in a broken state and ready to cause undefined behaviour in other parts of the program and our site. What if we used it in an immutable fashion?
+
+```python
+b = MutableShoppingBasket(1)
+print(b)
+# Shopping Basket with 1 items.
+b2 = MutableShoppingBasket(b.itemcount-1)
+print(b2)
+# Shopping Basket with 0 items.
+b3 = MutableShoppingBasket(b2.itemcount-1)
+print(b3)
+# Traceback (most recent call last):
+#   File "python", line 27, in <module>
+#   File "python", line 4, in __init__
+# ValueError: You can't have less than
+#    zero items in the basket!
+```
+
+It doesn't let us, as, in creating the new object, we fail to satisfy the constraints when the constructor is called. The object is not created, and it is easy to spot where we've went wrong due to failure being contained at this point and this point only. (*As opposed to silently creating a broken object to cause trouble elsewhere.*) This is another great advantage of immutable objects as it provides this without much extra effort on the developer's part.
 
 ---
 ## Practice
@@ -60,16 +111,13 @@ r2 = conn.request("", "text=hello")
 ---
 ## Revision
 
-In what kind of data structures are immutable objects ideal to be used as keys? Choose as many that apply. (They need not be in Python)
+In what kind of data structures are immutable objects ideal to be used as keys?
 
-??? ??? ??? ???
+???
 
 * Dictionaries
-* Associative Arrays
-* Hashtables
-* HashMap
 * List
-* Tuples
+* Integers
 * Arrays
 * Strings
 
@@ -81,6 +129,3 @@ The ability to compare two objects not based on their identity but based on thei
 
 [2:Data Structures]
 Any data structure with associative mappings between keys and values (Key-Value pairs) can benefit from the added reliability that immutable keys provide. In Python, the standard associative data structure would be the `Dictionary` data type, which is similar to a Java or C++ `Hashtable`. See the link in the 'Learn More' section for more information.
-
-[3:The "Connection" Class]
-To refresh from the previous insight, this is a custom class created to illustrate some features of immutability which uses the Python standard library's http.client.HTTPConnection library. This is necessary as the standard library is created in an way which disallows many of the pitfalls demonstrated in this workout.
