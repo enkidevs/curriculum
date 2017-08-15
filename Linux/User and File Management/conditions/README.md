@@ -1,14 +1,16 @@
-name: File Streams
+name: Conditions
 
 type: insights-list
 
-description: Working with file stream via various tooling.
+description: Conditions in terminal, explained.
 
-section: 0
+section: 1
+
+parent: super-users-and-root
 
 insights:
-  - the-head-and-tail-commands
-  - paging-through-long-output-using-less
-  - selecting-portions-of-a-line-using-cut
-  - transforming-text-with-sed
-  - the-awk-programming-language-and-awk-command
+  - conditional-command-execution-operator
+  - else-statements-using-the-operator
+  - sequential-execution-using-the-statement-separator
+  - the-test-built-in
+  - compound-commands
