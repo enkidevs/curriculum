@@ -60,24 +60,23 @@ This adds a red __#__ at the start of every `p` element and a blue __?__ at the 
 `content` is mandatory to display the element but can be empty (`content:"";`).
 
 
-Both `::before` and `::after` can be used to display shapes or images.
-
+Both `::before` and `::after` can be used to display shapes, images or even borders.
 ---
 ## Practice
 
-Which CSS property is mandatory to display the element but can be empty?
+Which CSS property is mandatory to display `::before` and `::after` pseudo-elements but can be empty?
 
  ???
 
-*`content` 
-*`element` 
-*`div` 
+*`content`
+*`element`
+*`div`
 *`class`
 
 ---
 ## Revision
 
-Using the `::before` and `::after` selectors, what does the following CSS code do? 
+Using the `::before` and `::after` selectors, what does the following CSS code do?
 
 ```css
 div::before {
