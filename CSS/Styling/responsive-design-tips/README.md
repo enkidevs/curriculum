@@ -2,7 +2,7 @@ name: Responsive Design Tips
 
 type: insights-list
 
-description: Explore techniques for obtaining a responsive design.
+description: Explore techniques for obtaining a responsive design. 
 
 section: 1
 

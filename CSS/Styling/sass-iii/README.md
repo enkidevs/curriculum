@@ -2,7 +2,7 @@ name: Sass III
 
 type: insights-list
 
-description: Operations in Syntactically Awesome StyleSheets
+description: Operations in Syntactically Awesome StyleSheets 
 
 section: 1
 

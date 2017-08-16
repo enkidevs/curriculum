@@ -17,7 +17,7 @@ category: must-know
 
 A preprocessor is a program that takes an input and produces an output to be used by another program. *Sass* understands two types of syntaxes:
   - **SCSS** (Sassy CSS): an extension to the CSS syntax, similar enough that any valid *.css* file is a valid *.scss* file.
-  - **Sass**: the indented syntax version of SCSS, using indentation instead of brackets and new lines instead of semicolon; the files have *.sass* extension.  
+  - **Sass**: the indented syntax version of SCSS, using indentation instead of brackets and new lines instead of semicolon; the files have *.sass* extension.
 
 The `sass-convert` command line utility allows fast conversion between the two syntaxes:
 ```bash

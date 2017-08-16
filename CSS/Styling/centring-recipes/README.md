@@ -11,4 +11,4 @@ insights:
   - horizontal-centering-with-margin-0-auto
   - vertical-centering-fluid-blocks
   - vertical-centering-with-margin-top
-  - vertical-centering-with-margin-top
+  - vertically-center-text

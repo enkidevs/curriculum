@@ -2,7 +2,7 @@ name: Styling I
 
 type: insights-list
 
-description: Styling recipes.
+description: Styling recipes. 
 
 section: 0
 
