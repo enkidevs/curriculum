@@ -17,8 +17,6 @@ tags:
 
   - layout
 
-parent: >-
-  use-float-to-allow-an-element-to-be-placed-to-the-left-or-right-of-the-container
 
 links:
 
@@ -50,7 +48,7 @@ All you have to do is add `clearfix` class to the container and the floating ele
 </div>
 ```
 
-The hack forces the content after the floats to render below them (`clear` property specifies on which side of the element floating elements are not allowed). 
+The hack forces the content after the floats to render below them (`clear` property specifies on which side of the element floating elements are not allowed).
 
 Now, the parent will resize itself to surround the floating children.
 
@@ -75,7 +73,7 @@ What does the following CSS code do, when you have a floated image inside an ele
 }
 ```
 ???
-* Alters the elements size so it contains the image. 
+* Alters the elements size so it contains the image.
 * Alters the images size so it fits inside the element.
 * Hides the element.
 * Hides the image.

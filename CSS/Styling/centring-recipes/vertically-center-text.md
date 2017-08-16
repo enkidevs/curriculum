@@ -46,14 +46,15 @@ In the following example, what is the distance between the first and the second 
   line-height: 50px;
 ```
 ???
-*`50px` 
-*`25px` 
-*5`px`
+
+* `50px`
+* `25px`
+* `5px`
 
 ---
 ## Revision
 
-Which of the following CSS code snippets will vertically centre a line of text? 
+Which of the following CSS code snippets will vertically centre a line of text?
 ```css
 /* Option a */
 .vertical-center {
