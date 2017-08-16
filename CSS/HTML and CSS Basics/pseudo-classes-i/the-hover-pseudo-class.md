@@ -42,13 +42,14 @@ The `:hover` pseudo-class can only be applied to `<a>` (link) elements.
 ## Revision
 
 In which of the following cases, will the `:hover` pseudo-class most likely work as expected?
-```
+
 1. When the browser is running on a touch-screen device.
 2. When it is randomly mixed with other link-specific pseudo-classes.
 3. When it is applied on a button, in a browser running on a PC.
 4. When it is not used.
+
 ???
-```
+
 * 3
 * 1
 * 2
