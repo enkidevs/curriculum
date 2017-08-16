@@ -2,7 +2,7 @@ name: Sass I
 
 type: insights-list
 
-description: Syntactically Awesome StyleSheets
+description: Syntactically Awesome StyleSheets 
 
 section: 1
 

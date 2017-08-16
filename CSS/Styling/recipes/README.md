@@ -2,7 +2,7 @@ name: Recipes
 
 type: insights-list
 
-description: Solutions to real world scenarios.
+description: Solutions to real world scenarios. 
 
 section: 1
 
