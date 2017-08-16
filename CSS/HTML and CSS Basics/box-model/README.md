@@ -6,7 +6,7 @@ description: Padding, margin, border
 
 section: 0
 
-parent: intro-css
+parent: css-basics
 
 insights:
   - the-box-model
