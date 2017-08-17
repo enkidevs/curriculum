@@ -1,4 +1,4 @@
-# Preparing tests through annotations
+# Replacements for `setUp()` and `tearDown()` for **JUnit**
 author: catalin
 
 levels:
@@ -19,49 +19,71 @@ notes: |
 ---
 ## Content
 
-As you may have noticed in previous insights, we've used the `@BeforeEach` annotation for describing a `setup()` function. In *JUnit 5*, `@BeforeEach` and `@BeforeAll` (and their equivalent `@AfterEach` and `@AfterAll`) annotations[1] are used to describe functions to be run at the beginning (and at the end) of `@Test` methods.
+After the version 4 of the Java testing framework JUnit, instead of using the methods `setUp()` and `tearDown()` for managing testing resources, the `@Before` and `@After` annotations have been introduced. In addition, `@Test` annotation can be used for the testing methods.
 
-
-`@BeforeEach` and `@AfterEach` methods are executed for every test. This is the initial example:
+Instead of :
 ```java
-public class UserTest {
-  private User mike;
-
-  @BeforeEach
-  public void setup() {
-    mike = new User("Mike",
-      LocalDate.of(1985, 6, 15));
-  }
+VirtualMachine vm;
+public void setUp() {
+  vm = new VirtualMachine();
+}
+public void tearDown() {
+  vm.shutDown();
 }
 ```
-In this case, for the tests to follow, `mike` will be reinitialized as a user with the name of `Mike`, born on *15th June 1985*. In other cases, `@AfterEach` annotation can be used to close a file reading stream that was open in the beginning.
 
-If there are multiple methods marked with `@BeforeEach` or `@AfterEach` their order of execution is arbitrary.
+you can use :
+```java
+VirtualMachine vm;
+@Before
+public void initialize() {
+  vm = new VirtualMachine();
+}
+@After
+public void shutDown() {
+  vm.shutDown();
+}
+```
 
-For more resource intensive activities (opening and closing a database connection), it is recommended to use `@BeforeAll` and `@AfterAll` annotations, hence executing the methods only once.
+Before each `@Test` method, the `@Before` method will be called. Consequently, after the the `@Test` method, `@After` method will be invoked.
 
+If there are multiple methods marked with `@Before` or `@After` their order of execution is arbitrary.
+
+`@BeforeClass` and `@AfterClass` methods
+will be called only once - either *before* all tests are started or *after* they are all ran. This proves useful when you want to prevent multiple server connections or disconnects.
 
 ---
 ## Practice
 
-In case you need a _custom set up_ function for a _single test_ in a set, you should
+Complete the following code snippet with the required annotations:
+```
+VirtualMachine vm;
+@???
+public void initialise() {
+   vm = new VirtualMachine;
+}
 
-???
+@???
+public void shutDown() {
+  vm.shutDown();
+}
+```
 
-* define and call it as a normal method
-* annotate it with `@BeforeAll`
-* annotate it with `@BeforeEach`
-* write a new test
+*`Before` 
+*`After` 
+*S`etUp` 
+*T`earDown` 
+*`Test`
 
 ---
 ## Revision
 
-In JUnit 5, what method will be called only once, before all tests are done?
+What method will be called only once, before all tests are done?
 
-???
+`???`
 
-* `@BeforeAll`
-* `@BeforeClass`
-* `@AfterAll`
-* `@AfterClass`
-* `@Test`
+*`@BeforeClass` 
+*`@BeforeAll` 
+*`@AfterAll` 
+*`@After` 
+*`@Test`
