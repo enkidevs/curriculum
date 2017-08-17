@@ -70,19 +70,20 @@ What keyword makes a function a generator?
 * `return`
 * `break`
 * `gen`
+* `__next__`
 
 ---
 ## Revision
 
-What is the key feature of a generator?
+What are some of the key functional features of Python? 
 
 ???
 
-* It is resumable
-* It is immutable
-* It is pure
-* It is total
-* It is thread safe
+* Generators & Comprehensions
+* Pure Functions & High-Level
+* Interpreted & Object-Oriented
+* Immutability & Extensibility
+* Generators & Dynamic Typing
 
 ---
 ## Footnotes

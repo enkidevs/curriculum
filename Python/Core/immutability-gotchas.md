@@ -26,7 +26,7 @@ For the final insight, let's examine some of the most common slip-ups we could m
 
 If you want to define an optional argument to a method in Python, you can define a default argument to fall back on if the argument is not supplied. The syntax to do this is:
 
-```Python
+```python
 def your_method(self, optional="default"):
     do_some_stuff(self)
     # and more stuff here...
@@ -72,22 +72,39 @@ def add_to(object, collection=None):
 ```
 
 ---
+
 ## Practice
+
+How can we prevent a function we define with a mutable default argument from using that same default argument object each time?
+
+???
+
+* Replace the default with an immutable object and check in the function body if it's still there, and if so, create the container. 
+* Replace the default with an immutable container.
+* Replace the default with an immutable container and check in the function if it's empty, and if so, create the container. 
+* Use a lambda function. 
+
+---
+
+## Revision
 
 What is the result of executing the following code?
 
+```python
+def add_to(object, collection=[]):
+  collection.append(object)
+  print(collection)
+  return collection
+
+add_to(1)
+add_to(2.5)
+add_to("string")
+```
+
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
-
----
-## Revision
-
-What does the fox says?
-???
-
-* right answer
-* wrong answer
-* wrong answer 2
+* `[1], [1, 2.5], [1, 2.5, 'string']`
+* `[1], [2.5], ['string']`
+* `[1], [1], [1]`
+* `[1], [2.5, 1], ['string', 2.5, 1]`
+* `TypeError`
