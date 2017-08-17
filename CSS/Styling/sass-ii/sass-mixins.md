@@ -21,7 +21,7 @@ links:
 ---
 ## Content
 
-A *mixin* is used to allow you to create groups of CSS declarations which you can then reuse throughout your website. A good use for a mixin is for vendor prefixes. 
+A *mixin* is used to allow you to create groups of CSS declarations which you can then reuse throughout your website. A good use for a mixin is for vendor prefixes.
 
 *Mixins* can contain CSS rules, and anything which is allowed in a Sass document. They can take arguments which allows you to produce a large combination of style with only a few mixins.
 

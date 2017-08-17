@@ -33,7 +33,7 @@ In this example there are two animations.
 
 If the first one takes 1 second to complete, a chain can be created by using the aforementioned property on the second animation :
 
-```
+```css
 @keyframes first {
 	from { left: 0; }
 	to { left: 100px; }
