@@ -30,9 +30,9 @@ links:
 
 The JUnit `@Test` annotation is used to indicate that a method should be called to run a test. `@Test` can contain two types of parameter:
 
-**Exceptions** 
+**Exceptions**
 
-When the test is expected to throw an exception, we can indicate this by adding `expected = <exception>.class` after `@Test`, where <exception> is the name of the expected exception. 
+When the test is expected to throw an exception, we can indicate this by adding `expected = <exception>.class` after `@Test`, where <exception> is the name of the expected exception.
 
 ```
 //fail if IOException is not thrown
@@ -40,7 +40,7 @@ When the test is expected to throw an exception, we can indicate this by adding 
 ```
 **Time-out**
 
-When a test needs to complete within a specific time period, we can add a parameter to `@Test` to fail if the test takes too long. The value in the parameter is measured in milliseconds. 
+When a test needs to complete within a specific time period, we can add a parameter to `@Test` to fail if the test takes too long. The value in the parameter is measured in milliseconds.
 ```
 //timeout after 500ms
 @Test(timeout = 500)
@@ -49,7 +49,7 @@ When a test needs to complete within a specific time period, we can add a parame
 ---
 ## Practice
 
-Complete the snippet such that the test expects a `IOException`  and has a timeout of `900ms` :
+Complete the snippet such that the test expects an `IOException`  and has a timeout of `900ms` :
 
 ```
 @???(
@@ -57,25 +57,25 @@ Complete the snippet such that the test expects a `IOException`  and has a timeo
   ??? = 900);
 ```
 
-*`Test` 
-*`expected` 
-*`timeout` 
-*`error` 
-*`TestCase` 
-*`expects` 
-*`time`
+* `Test`
+* `expected`
+* `timeout`
+* `error`
+* `TestCase`
+* `expects`
+* `time`
 
 ---
 ## Revision
 
 What two parameters can be used with the `@Test` annotation?
 
-`???`
-`???`
+???
+???
 
-*`expected` 
-*`timeout` 
-*`name` 
-*`size` 
-*`time` 
-*`error`
+* `expected`
+* `timeout`
+* `name`
+* `size`
+* `time`
+* `error`
