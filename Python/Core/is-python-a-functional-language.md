@@ -44,10 +44,11 @@ What two adjectives describe a function which causes no side-effects and has a v
 
 ??? ???
 
-* Pure
-* Total
-* Partial
-* Immutable
+* Pure & Total
+* Pure & Partial
+* Partial & Pure
+* Immutable & Total
+* Partial & Total
 
 ---
 ## Revision
