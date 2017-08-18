@@ -6,7 +6,7 @@ description: Decorators 101
 
 section: 0
 
-parent: Generators
+parent: generators
 
 insights:
   - what-is-a-closure

@@ -6,7 +6,7 @@ description: Generate collections on the go with comprehension
 
 section: 0
 
-parent: Iterators
+parent: iterators
 
 insights:
   - list-comprehension
