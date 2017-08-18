@@ -2,7 +2,7 @@ name: Functions
 
 type: insights-list
 
-description: Employ the capabilities of functions. 
+description: Employ the capabilities of functions.
 
 section: 0
 
@@ -13,4 +13,4 @@ insights:
   - calling-functions
   - nested-functions
   - the-return-statement
-  - lambda-functions
+  - testing-functions-inline-with-doctest-to-provide-tested-examples-and-make-your-code-easier-to-understand
