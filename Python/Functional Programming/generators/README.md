@@ -2,7 +2,7 @@ name: Generators
 
 type: insights-list
 
-description: Generators 101
+description: Generators 101 
 
 section: 0
 

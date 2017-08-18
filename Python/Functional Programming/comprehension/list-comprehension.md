@@ -19,7 +19,7 @@ links:
 ---
 ## Content
 
-**List comprehensions** are a concise way of creating lists, in a somewhat declarative style. 
+**List comprehensions** are a concise way of creating lists, in a somewhat declarative style.  
 
 One common application is to create new lists whose items are the result of operations applied to other sequences or iterables, or in other words, functions of other iterables (item for item).
 
@@ -38,7 +38,7 @@ Expressions that consist of `tuples` must be parenthesized:
 ```python
 nr_square = [(x, x ** 2) \
 for x in range(4)]
-# nr_square [(0, 0), (1, 1), 
+# nr_square [(0, 0), (1, 1),
 # (2, 4), (3, 9)]
 ```
 Note that `if` clauses are also accepted:
@@ -59,7 +59,7 @@ from math import pi
 
 b = [str(round(pi, i)) \
 for i in range(1, 5)]
-# b = ['3.1', '3.14', '3.142', 
+# b = ['3.1', '3.14', '3.142',
 # '3.1416']
 ```
 
