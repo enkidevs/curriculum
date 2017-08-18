@@ -2,7 +2,7 @@ name: Functions
 
 type: insights-list
 
-description: Employ the capabilities of functions.
+description: Employ the capabilities of functions. 
 
 section: 0
 
