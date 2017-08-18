@@ -27,7 +27,7 @@ links:
 ---
 ## Content
 
-The `for` loop interpreter overhead can be huge. So here `map()` functions like a `for` loop in C code.
+The `for` loop interpreter overhead can be huge. So here `map()` functions like a `for` loop in C code. 
 
 Example:
 

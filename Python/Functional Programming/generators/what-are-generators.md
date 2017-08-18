@@ -12,7 +12,7 @@ type: normal
 category: must-know
 
 notes: >-
-  Should always be the first insight presented within this topic? 
+  Should always be the first insight presented within this topic?
 
 
   Note by vasudevram: The insight is correct. (Rewrote the code and text a bit.)
@@ -20,8 +20,8 @@ notes: >-
   beginners, since it looks like generators cause errors. Should mention that
   the more common way to use a generator is either to handle the exception via
   try/except, or to call it in a for loop, in which case the for statement
-  handles the StopIteration and uses it to terminate the loop.
-   
+  handles the StopIteration and uses it to terminate the loop. 
+
 
 ---
 ## Content
@@ -57,7 +57,7 @@ What statement is specific to generators instead of `return` ?
 
 ???
 
-*`yield` 
-*`for` 
-*`await` 
+*`yield`
+*`for`
+*`await`
 *`return`

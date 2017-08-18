@@ -16,7 +16,7 @@ links:
 ## Content
 
 **Decorators**, or function decorators, are *wrappers* to existing functions, built using the concept of *higher-order functions* (closures).
-
+ 
 You've got this generic function:
 ```python
 def say_hello(name):

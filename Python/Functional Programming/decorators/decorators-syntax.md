@@ -12,7 +12,7 @@ category: feature
 ---
 ## Content
 
-Now that you are familiar with the concept of decorators, we can talk about ways you'll see them in practice. With regard to syntax, Python specific decorator's symbol is `@`. Looking at the previous example:
+Now that you are familiar with the concept of decorators, we can talk about ways you'll see them in practice. With regard to syntax, Python specific decorator's symbol is `@`. Looking at the previous example: 
 ```python
 def say_hello(name):
   return "Hello, {0}!".format(name)
