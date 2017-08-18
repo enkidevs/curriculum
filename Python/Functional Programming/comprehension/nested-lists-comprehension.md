@@ -21,7 +21,7 @@ links:
 ---
 ## Content
 
-Since a list comprehension can take any **expression** as its initial expression, it's possible to include another list comprehension at that position, resulting in  a **nested** list comprehension. 
+Since a list comprehension can take any **expression** as its initial expression, it's possible to include another list comprehension at that position, resulting in  a **nested** list comprehension.  
 
 These are often useful, but are often used to work with matrices.
 ```python

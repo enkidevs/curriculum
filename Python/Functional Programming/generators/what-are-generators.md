@@ -20,13 +20,13 @@ notes: >-
   beginners, since it looks like generators cause errors. Should mention that
   the more common way to use a generator is either to handle the exception via
   try/except, or to call it in a for loop, in which case the for statement
-  handles the StopIteration and uses it to terminate the loop. 
+  handles the StopIteration and uses it to terminate the loop.
 
 
 ---
 ## Content
 
-Generators are special **functions** that implement or generate **iterators**.
+Generators are special **functions** that implement or generate **iterators**. 
 
 Generators look like normal functions, but instead of the **return statement** they make use of the **yield statement**.
 

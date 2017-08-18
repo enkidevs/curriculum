@@ -16,8 +16,8 @@ links:
 ---
 ## Content
 
-As we already know, **generators** are a way of creating iterable items in **Python**. The behaviour of a generator is mainly defined by the `yield()` and `next()` methods. 
-
+As we already know, **generators** are a way of creating iterable items in **Python**. The behaviour of a generator is mainly defined by the `yield()` and `next()` methods.
+ 
 When the **python interpreter** finds the `next()` function called on a generator, it jumps to the generator's body and executes every expression until it encounters the next `yield()`.
 
 The `yield()` **evaluates** and **returns** the value of the expression that follows. **Python** does two interesting actions at this stage:

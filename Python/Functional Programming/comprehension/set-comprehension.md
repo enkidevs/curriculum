@@ -24,7 +24,7 @@ links:
 ---
 ## Content
 
-Using **set comprehension** one can create sets using the same principles as with **list comprehension**. 
+Using **set comprehension** one can create sets using the same principles as with **list comprehension**.  
 
 The syntax difference between the two is that set comprehension requires using *curly brackets* (`{}`).
 

@@ -17,7 +17,7 @@ parent: list-comprehension
 
 notes: >
   Added a slightly more advanced example using a dict to count frequencies of
-  lower case letters.
+  lower case letters. 
 
 links:
 
@@ -27,7 +27,7 @@ links:
 ---
 ## Content
 
-Python provides a way of creating dictionaries using **dictionary comprehensions**. 
+Python provides a way of creating dictionaries using **dictionary comprehensions**.
 
 The syntax is similar to the one used for **set comprehension** - using curly braces (`{}`), but the user must define an expression for both the key and the value.
 

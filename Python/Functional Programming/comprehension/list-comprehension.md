@@ -19,9 +19,9 @@ links:
 ---
 ## Content
 
-**List comprehensions** are a concise way of creating lists, in a somewhat declarative style.  
+**List comprehensions** are a concise way of creating lists, in a somewhat declarative style.
 
-One common application is to create new lists whose items are the result of operations applied to other sequences or iterables, or in other words, functions of other iterables (item for item).
+One common application is to create new lists whose items are the result of operations applied to other sequences or iterables, or in other words, functions of other iterables (item for item). 
 
 The syntax for this is to include between **square brackets** (`[] `) an expression followed by at least one `for` clause.
 

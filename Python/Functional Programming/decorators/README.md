@@ -2,7 +2,7 @@ name: Decorators
 
 type: insights-list
 
-description: Decorators 101 
+description: Decorators 101  
 
 section: 0
 
