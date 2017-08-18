@@ -27,7 +27,7 @@ links:
 ---
 ## Content
 
-Generators are functions which behave like iterators, but can have better performance characteristics. These include: 
+Generators are functions which behave like iterators, but can have better performance characteristics. These include:   
 
 * Creating values on demand, resulting in lower memory consumption.
 

@@ -16,7 +16,7 @@ links:
 ---
 ## Content
 
-Last insight, we've seen how **recursion** and **generators** can work together. Now, let's see how we can combine two **generators**. 
+Last insight, we've seen how **recursion** and **generators** can work together. Now, let's see how we can combine two **generators**.  
 
 Consider the following example:
 

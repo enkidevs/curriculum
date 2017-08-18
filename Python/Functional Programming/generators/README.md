@@ -2,7 +2,7 @@ name: Generators
 
 type: insights-list
 
-description: Generators 101 
+description: Generators 101
 
 section: 0
 
@@ -11,6 +11,6 @@ parent: comprehension
 insights:
   - what-are-generators
   - yield-and-next
-  - recursive-generators
+  - recursive-generator
   - generator-of-generators
   - benefits-of-using-generators

@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-A **higher-order function**, or *closure*, is a persistent scope which makes the variable be accessible even after the code execution has moved past that block: 
+A **higher-order function**, or *closure*, is a persistent scope which makes the variable be accessible even after the code execution has moved past that block:   
 ```python
 def outer_function():
   scoped = "Hey!"

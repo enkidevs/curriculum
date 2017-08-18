@@ -2,7 +2,7 @@ name: Comprehension
 
 type: insights-list
 
-description: Generate collections on the go with comprehension
+description: Generate collections on the go with comprehension 
 
 section: 0
 

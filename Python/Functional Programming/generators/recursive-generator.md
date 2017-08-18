@@ -16,7 +16,7 @@ links:
 ---
 ## Content
 
-Before the release of Python 3, **recursive generators** were implemented by calling the **generator function** in a `for` loop. 
+Before the release of Python 3, **recursive generators** were implemented by calling the **generator function** in a `for` loop.  
 
 Consider the following example:
 ```
