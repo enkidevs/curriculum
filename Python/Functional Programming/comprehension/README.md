@@ -13,4 +13,4 @@ insights:
   - nested-lists-comprehension
   - set-comprehension
   - dictionary-comprehension
-  - speed-up-your-for-loops-using-map-or-list-comprehension
+  - speed-up-your-for-loop-using-map-or-list-comprehensions
