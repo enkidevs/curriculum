@@ -13,4 +13,4 @@ insights:
   - the-filter-built-in-function
   - the-reduce-built-in-function
   - the-max-built-in-function
-  - the-reduce-built-in-function
+  - the-sorted-built-in-function

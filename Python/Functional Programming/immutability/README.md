@@ -2,7 +2,7 @@ name: Immutability
 
 type: insights-list
 
-description: All about immutability in Python.
+description: All about immutability in Python. 
 
 section: 0
 

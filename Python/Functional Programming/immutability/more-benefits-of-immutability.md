@@ -27,7 +27,7 @@ For intuitive convenience, it is useful in some cases for objects to be seen as 
 
 Usually a mutation of state will change the internal state of the object to be different to that of the object it is being compared to, and so this seems acceptable, even *desired* in most cases. However, there are some scenarios where this is not ideal, such as in Key-Value pairs. If some field is mutated within the key object and we try to check if the dictionary contains the same key again, it will return `False`. The identity of the object has been permanently mutated, and the object associated with the object before mutation is no longer accessible, even if it is still technically the same object.
 
-In Python's standard library, mutable data types are prohibited from being used as a key for this very reason. Immutable objects are great for use as keys for any kind of data structure relying on associations between keys and values (such as in a dictionary)[2] as there is no possibility of a corrupted key making a certain value unretrievable. 
+In Python's standard library, mutable data types are prohibited from being used as a key for this very reason. Immutable objects are great for use as keys for any kind of data structure relying on associations between keys and values (such as in a dictionary)[2] as there is no possibility of a corrupted key making a certain value unretrievable.
 
 ### Atomicity of failure
 
@@ -39,17 +39,19 @@ Take a look at this simple class, `MutableShoppingBasket`, representing a user's
 class MutableShoppingBasket:
   def __init__(self, itemcount):
     if itemcount < 0:
-      raise ValueError("You can't have less than zero items in the basket!")
+      raise ValueError("""You can't have
+    less than zero items in the basket!""")
     self.itemcount = itemcount
-    
+
   def increment_items(self):
     self.itemcount +=1
-    
+
   def decrement_items(self):
     self.itemcount -=1
-    
+
   def __repr__(self):
-    return("Shopping Basket with " + str(self.itemcount) + " items.")
+    return("Shopping Basket with " +
+     str(self.itemcount) + " items.")
 ```
 
 Can you see how this constraint could be broken? Let's do it:
