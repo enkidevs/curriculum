@@ -11,7 +11,7 @@ category: must-know
 
 links:
 
-  - '[link to learn more](https://enki.com)'
+  - '[More about arguments](https://www.tutorialspoint.com/python/python_functions.htm)'
 
 ---
 ## Content
