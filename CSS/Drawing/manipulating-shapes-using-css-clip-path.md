@@ -25,14 +25,14 @@ links:
 ---
 ## Content
 
-You can use functions that are applied to `shape-outside` to `clip-path`, ie, `inset()`, `polygon()`, `ellipse()`. 
+You can use functions that are applied to `shape-outside` to `clip-path`, ie, `inset()`, `polygon()`, `ellipse()`.
 Below is an example of `clip-path` in action:
 
 ```css
 #element {
   width: 300px;
   height: 150px;
-  clip-path: 
+  clip-path:
     polygon(0% 0%, 100% 100%, 0% 100%);
 }
 ```
@@ -48,14 +48,14 @@ If you want text to wrap around a shape, you have to combine `clip-path` with th
 ---
 ## Practice
 
-Which two properties have to be combined in order for you to be able to wrap text around a shape? 
+Which two properties have to be combined in order for you to be able to wrap text around a shape?
 
 ???
 
-*clip-path and shape-outside 
-*clip-path and inset
-*inset and shape-outside 
-*path-wrap and shape-wrap
+* clip-path and shape-outside
+* clip-path and inset
+* inset and shape-outside
+* path-wrap and shape-wrap
 
 ---
 ## Revision

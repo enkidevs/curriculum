@@ -51,11 +51,11 @@ However, this property is not supported by IE or Firefox and does not change the
 
 The `shape-outside` property only works on elements with the property of ??? applied onto it.
 
-*float 
-*clear 
-*fixed 
-*shape 
-*alter
+* float
+* clear
+* fixed
+* shape
+* alter
 
 ---
 ## Revision
