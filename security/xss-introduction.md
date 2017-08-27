@@ -27,7 +27,11 @@ Take for example the mockup form I've create below...
 ```javascript
 Add a Comment Below:
 ---
+<<<<<<< HEAD
 Hi, great site. Too bad I hacked it!<script>window.location="http://www.mysite.com/"</script>
+=======
+Hi, great site. Too bad I hacked it!<script>window.location="http://www.mysite.com/"<script>
+>>>>>>> 6934035bc9342ab132082673fd6ed0f9126a5abf
 
 ---
 [SEND]

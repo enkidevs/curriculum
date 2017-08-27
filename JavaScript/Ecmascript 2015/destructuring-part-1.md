@@ -9,7 +9,7 @@ type: normal
 
 inAlgoPool: false
 
-category: must-know
+category: feature
 
 links:
 
@@ -19,7 +19,7 @@ links:
 ---
 ## Content
 
-Destructuring provides a succinct and flexible way to assign values from arrays or objects. 
+Destructuring provides a succinct and flexible way to assign values from arrays or objects.
 
 This is best illustrated with an example. Destructuring is used below to assign x and y the values 100 and 200 in just one line of code:
 
@@ -29,9 +29,9 @@ var x, y;
 //x=100, y=200
 ```
 
-**Function Returns **
+**Function Return Values**  
 
-Destructuring works great with functions. 
+Destructuring works great with functions.
 
 Let's say we have a function that multiplies two input arguments (x and y) by two and returns the result as an array.
 
@@ -48,9 +48,9 @@ function dblNumbers(x, y) {
 //x=200, y=400
 ```
 
-**Swapping variables**
+**Swapping variables**  
 
-Destructuring can also be used to swap the contents of two variables without having to create another temporarily holding variable:
+Destructuring can also be used to swap the contents of two variables without having to create another temporary variable:
 
 ```
 var x= 1;
@@ -58,5 +58,3 @@ var y= 2;
 [y, x] = [x, y];
 //x=2, y=1
 ```
-
-As you can see destructuring is very flexible and can be used in a lot of ways - let’s look at some others now.

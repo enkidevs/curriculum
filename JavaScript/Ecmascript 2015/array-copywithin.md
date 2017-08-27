@@ -1,57 +1,59 @@
 # Array.copyWithin
-author: alexjmackey
+
+author: lizthedeveloper
 
 levels:
 
-  - medium
+  - basic
 
-  - advanced
+  - medium
 
 type: normal
 
+tags:
+
+  - introduction
+
+  - workout
+
+  - new
+
+  - arrays
+
+  - es6
+
 inAlgoPool: false
 
-category: must-know
+category: feature
 
 links:
 
 ---
 ## Content
 
-**Array.copyWithin** copies part of an array into the same array without modifying the original arrays size.
+**Array.copyWithin(targetArray, [start, [end]])** shallow copies part of an array into the same array without modifying the original array's size.
 
-When you use Array.copyWithin changes occur on the array itself so you don’t need to assign the result to another variable.
+Look at the following array:
 
-Let's say we have the following variable:
 ```javascript
-var alphabet = ["a","b","c","d","e"]; 
+var alphabet = ["a","b","c","d","e"];
 ```
 
-..And we want to copy the first two characters at position 2 we could utilize **Array.copyWithin** as follows:
+To copy the first two characters into the 2nd index we could use **Array.copyWithin** as follows:
 
 ```javascript
 alphabet.copyWithin(2,0,2);
 // ["a","b","a","b","e"]
 ```
 
-**Array.copyWithin** has 3 different method overloads:
-
-```javascript
-copyWithin(
-target,
-start (optional),
-end (optional)
-)
-```
-
-So we could shorten the above to:
+Using the default values for the last two arguments, we could shorten the above to:
 
 ```javascript
 alphabet.copyWithin(2)
 // ["a","b","a","b","c"]
 ```
 
-You can also use negative position parameters so we could use **Array.copyWithin** to copy to the last two characters:
+**Array.copyWithin** also supports negative indexes:
 
 ```javascript
 alphabet.copyWithin(-2)
@@ -59,3 +61,42 @@ alphabet.copyWithin(-2)
 ```
 
 ---
+## Practice
+
+Complete the code example to create an array that looks like this:
+`['7','3','4','5','6','7']`
+
+```javascript
+let ints = ['1','2','3','4','5','6','7'];
+ints.copyWithin(???,???,???)
+```
+* 1
+* 2
+* 3
+* 4
+* 5
+* 6
+* 7
+* 8
+* 9
+* 0
+---
+##Revision
+
+Complete the code example to create an array that looks like this:
+`['1','2','1','2','5','6']`
+
+```
+let ints = ['1','2','3','4','5','6'];
+ints.copyWithin(???,???,???)
+```
+* 1
+* 2
+* 3
+* 4
+* 5
+* 6
+* 7
+* 8
+* 9
+* 0
