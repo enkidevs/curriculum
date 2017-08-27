@@ -27,11 +27,7 @@ Take for example the mockup form I've create below...
 ```javascript
 Add a Comment Below:
 ---
-<<<<<<< HEAD
 Hi, great site. Too bad I hacked it!<script>window.location="http://www.mysite.com/"</script>
-=======
-Hi, great site. Too bad I hacked it!<script>window.location="http://www.mysite.com/"<script>
->>>>>>> 6934035bc9342ab132082673fd6ed0f9126a5abf
 
 ---
 [SEND]
@@ -45,9 +41,9 @@ This method can be used to steal cookies-- a chunk of data used in authenticatin
 
 Cross Site Scripting can be used to steal ???-- a chunk of data used in authenticating a user.
 
+*`cookies`
 *`usernames`
 *`passwords`
-*`cookies`
 *`cupcakes`
 
 ---
@@ -61,9 +57,9 @@ Hi, great site. Too bad I hacked it!<???>???.location="http://www.mysite.com/"</
 
 [SEND]
 ```
-*`<script>`
-*`global`
+*`script`
 *`window`
-*`<blink>`
-*`<h1>`
+*`global`
+*`blink`
+*`h1`
 
