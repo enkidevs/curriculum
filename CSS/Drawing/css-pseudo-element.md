@@ -11,7 +11,7 @@ category: must-know
 
 links:
 
-  - '[More on pseudo elements](https://developer.mozilla.org/en/docs/Web/CSS/Pseudo-elements)'
+  - '[link to learn more](https://enki.com)'
 
 ---
 ## Content
@@ -72,7 +72,7 @@ We can also use `::before` and `::after` to add images where we need them:
 }
 ```
 
-Note the difference between inserting an image on a web page using an `<img>` html tag and using a CSS pseudo element is that, when using pseudo elements the dimensions of the image can't be adjusted.
+Note the difference between inserting an image on a web page using an `<img>` html tag and using a CSS pseudo element is that, when using pseudo elements the dimmensions of the image can't be adjusted.
 
 ---
 ## Practice
@@ -101,7 +101,7 @@ Suppose we have a file "demo.txt" that contains two paragraphs. We want to style
 ---
 ## Revision
 
-Suppose we have a web page meant to teach children different kinds of shapes. We need to exemplify a square shape by adding an image after the text, fill the gaps accordingly:
+Suppose we have a web page ment to teach children different kinds of shapes. We need to exemplify a square shape by adding an image after the text, fill the gaps accordingly:
 ```
 <div class="square"> Square: </div>
 
@@ -109,7 +109,7 @@ Suppose we have a web page meant to teach children different kinds of shapes. We
   ???: url(square_img.png);
 }
 ```
-Can we adjusted the size of the image to properly fit on the page?
+Can we adjusted the size of the image to propperly fit on the page?
 ???
 
 * square
