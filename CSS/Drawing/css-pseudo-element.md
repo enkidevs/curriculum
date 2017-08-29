@@ -11,7 +11,7 @@ category: must-know
 
 links:
 
-  - '[link to learn more](https://enki.com)'
+  - '[More on pseudo elements](https://developer.mozilla.org/en/docs/Web/CSS/Pseudo-elements)'
 
 ---
 ## Content
@@ -52,7 +52,7 @@ Consider the following situation: We have two `<div>` elements containing the fi
 <div class="firstname"> John </div>
 <div class="surname"> Fischer </div>
 
-#CSS:
+//CSS:
 .firstname::before{
   content: "First Name: ";
 }
@@ -66,29 +66,56 @@ We can also use `::before` and `::after` to add images where we need them:
 ```
 <div class="circle"> Circle: </div>
 
-#CSS
+//CSS
 .circle::after{
   content: url(circle_img.png);
 }
 ```
-The difference between inserting an image on a web page using an `<img>` html tag and using a CSS pseudo element is that, when using pseudo elements the dimmensions of the image can't be adjusted.
+
+Note the difference between inserting an image on a web page using an `<img>` html tag and using a CSS pseudo element is that, when using pseudo elements the dimensions of the image can't be adjusted.
 
 ---
 ## Practice
 
-What does the fox says?
-???
+Suppose we have a file "demo.txt" that contains two paragraphs. We want to style the first letter to be of size large and red colored. Then we want to the first line from the file to be displayed in capital letters. Fill the gaps such accordingly:
+```
+.first_paragraph::???{
+    ???: 	#FF0000;
+    font-size: xx-???;
+}
+.first_paragraph::???{
+  font-???: caps;
+}
+```
 
-* right answer
-* wrong answer
-* wrong answer 2
+* first-letter
+* color
+* large
+* first-line
+* variant
+* size
+* small
+* medium
+* before
 
 ---
 ## Revision
 
-What does the fox says?
+Suppose we have a web page meant to teach children different kinds of shapes. We need to exemplify a square shape by adding an image after the text, fill the gaps accordingly:
+```
+<div class="square"> Square: </div>
+
+.???::???{
+  ???: url(square_img.png);
+}
+```
+Can we adjusted the size of the image to properly fit on the page?
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+* square
+* after
+* content
+* no
+* yes
+* before
+* square_class
