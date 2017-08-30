@@ -25,7 +25,7 @@ links:
 ---
 ## Content
 
-`Rotate` certain shapes using `transform` can be used to obtain other shapes. 
+`Rotate` certain shapes using `transform` can be used to obtain other shapes.
 
 Applying the `transform` property on a regular square can create a diamond, for example:
 ```css
@@ -56,7 +56,7 @@ This is the default rotation around its center:
 ---
 ## Revision
 
-What are the missing values required to transform a diamond into a square? 
+What are the missing values required to transform a diamond into a square?
 
 ```css
 #transform {
