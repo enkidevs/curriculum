@@ -11,7 +11,7 @@ category: must-know
 
 links:
 
-  - '[link to learn more](https://enki.com)'
+  - '[More about pseudo elements](https://www.html5rocks.com/en/tutorials/shapes/getting-started/)'
 
 ---
 ## Content
