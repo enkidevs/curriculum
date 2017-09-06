@@ -45,13 +45,14 @@ Note: you can use this loop on strings, but it loops over Unicode code points wh
 Complete the syntax of `for-of` loop in **ES6**:
 ```javascript
 ??? (??? x ??? iterable) {
-  //
+  x = x + 2;
+  console.log(x);
 }
 ```
 
-*`for`
-*`let`
-*`of`
-*`in`
-*`while`
-*`const`
+* `for`
+* `let`
+* `of`
+* `in`
+* `while`
+* 'const'
