@@ -33,13 +33,13 @@ Using `==` is generally considered bad practice as it often leads to difficult-t
 *Strict Typing*
 
 The strict equality operator is expressed as `===`. It works as `==`, but without type coercion:
-
 ```
 ""  ===  "0"    // false
 0   ===  ""     // false
 false === "0"   // false
 " \t\r\n" === 0   // false
 ```
+Note: ` \t\r\n` are special characters that you might see in strings. All of them are whitespace, under one for or another. `\t` represents a tab (multiple space characters), while `\n` - carriage return -  and `\s` - line feed - are new line characters (they are not exactly the same and are even used together - CRLF).
 
 ---
 ## Practice

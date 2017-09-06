@@ -23,7 +23,7 @@ In order to prevent a deadlock we must avoid at least one of the necessary condi
  - Processes that hold a resource are allowed to free it before finishing execution.
  - Avoid process-resource cycles by allowing processes to require no more than one resource.
 
-Additionally one other the solutions could be to have a *master* lock which would be acquired by every process before running which would exclude any opportunity for a deadlock situation.
+Another solution could be to have a *master* lock which would be acquired by every process before running which would exclude any opportunity for a deadlock situation.
 
 Unfortunately none of them are perfect and they probably conflict with the whole idea of concurrency, a better solution will be discussed in the next insight.
 

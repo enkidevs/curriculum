@@ -27,11 +27,11 @@ The `readAsDataURL()` method is used with file or blob objects. When the read op
 
 This functionality is often used to create thumbnail previews of uploaded image files.
 
-Creating a new instance of File Reader.
+Creating a new instance of File Reader:
 ```JavaScript
 var reader = new FileReader();
 ```
-Reading the data URL.
+Reading the data URL:
 ``` JavaScript
 reader.onload = function(e) {
   var dataURL = reader.result;

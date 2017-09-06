@@ -15,7 +15,7 @@ category: must-know
 ## Content
 
 Arrays are an important concept in JavaScript and used frequently.
- 
+
 Declaring an array:
 ```
 var myArray = [1,2,3];
@@ -49,7 +49,7 @@ You can find the position of any item with the *indexOf* operator:
 ```
 var pos = myArray.indexOf(3);//2
 ```
-We can loop over all the array items with *forEach*:
+We can iterate over the array items with *forEach*:
 ```
 myArray.forEach(
 function (item, index, array) {
