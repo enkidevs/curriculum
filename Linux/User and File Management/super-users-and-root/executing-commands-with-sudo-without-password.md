@@ -33,7 +33,8 @@ Call `visudo` to start editing the
 
 The syntax for configuring user privilages looks as follows:
 ```
-user_list host_list=effective_user_list tag_list command_list
+user_list host_list =
+effective_user_list tag_list command_list
 ```
 Where:
 - user_list: list of users who are allowed to use sudo
