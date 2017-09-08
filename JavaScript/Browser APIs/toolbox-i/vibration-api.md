@@ -26,26 +26,26 @@ links:
 ---
 ## Content
 
-The Vibration API makes a device vibrate with JavaScript. It is intended to be used with mobile devices to provide additional feedback.
+The Vibration API makes a device vibrate with JavaScript. It is intended to be used with mobile devices to provide additional feedback. 
 
 To check if the API is present:
 ```
 "vibrate" in navigator
 ```
 
-You can specify the number of milliseconds the device should vibrate by passing in a numeric value to the vibrate method.
+You can specify the number of milliseconds the device should vibrate by passing in a numeric value to the vibrate method. 
 
 To make the device vibrate for 1 second:
 
 ```
 navigator.vibrate(1000);
 ```
-You can also make the device vibrate in a **pattern** by passing in an array of millisecond values. The values alternate specifying vibration and pause time intervals.
+You can also make the device vibrate in a **pattern** by passing in an array of millisecond values. The values alternate specifying vibration and pause time intervals. 
 ```
-// vibrate for one second,
+// vibrate for one second, 
 // pause for one second,
 // vibrate for two seconds then stop
-navigator.vibrate([1000, 1000, 2000]);     
+navigator.vibrate([1000, 1000, 2000]);
 ```
 Vibration can be stopped by passing a `0` or an empty array `[]` to the vibrate method.
 
@@ -55,8 +55,7 @@ Vibration can be stopped by passing a `0` or an empty array `[]` to the vibrate 
 Fill in the gaps to make the device vibrate for two seconds, pause for a second, then vibrate for three more seconds:
 
 ```javascript
-???.???([2000, 1000,
-  ???]);
+???.???([2000, 1000, ???]);
 ```
 
 * `navigator`

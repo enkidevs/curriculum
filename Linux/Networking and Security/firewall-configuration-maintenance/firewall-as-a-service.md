@@ -30,12 +30,12 @@ notes: ''
 ---
 ## Content
 
-On BSD and RPM[1] system, the firewall is configured as a service. Therefore, you can switch it on and off using commands that target services and daemons:
+On BSD and RPM system, the firewall is configured as a service. Therefore, you can switch it on and off using commands that target services and daemons:
 ```
 #for OpenBSD
 $ rcctl disable pf
 $ rcctl enable pf
-#for RedHat 6 and below
+#for RedHat
 $ service iptables stop
 $ chkconfig iptables off
 
@@ -61,22 +61,14 @@ $ sudo service iptables-persistent start
 And save your settings on the fly:
 
 ```
-$ sudo service
-          iptables-persistent save
+$ sudo service 
+          iptables-persistent save 
 ```
-
----
-## Footnotes
-
-[1: RHEL7]
-
-It's worth noting that Red Hat Enterprise Linux 7 (RHEL7) moved on to `firewalld` to manage the firewall, but it still fallbacks to `iptables`.
-
 
 ---
 ## Practice
 
-Which of the following commands will be a service-like way to stop `iptables` ?
+Which of the following commands will be a service-like way to stop `iptables` ? 
 
 ???
 *`service iptables stop`
@@ -87,7 +79,7 @@ Which of the following commands will be a service-like way to stop `iptables` ?
 ---
 ## Revision
 
-The package that allows you to treat `iptables` like a service on Debian systems is called
+The package that allows you to treat `iptables` like a service on Debian systems is called 
 
 ???.
 *`iptables-persistent`

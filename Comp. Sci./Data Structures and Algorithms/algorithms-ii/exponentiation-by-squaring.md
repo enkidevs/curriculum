@@ -68,9 +68,9 @@ For small exponent values, squaring might need more operations than straight-for
 `5^5` would require 4 multiplications, whereas, following the squaring algorithm, the same computation would require a total of
 
 ??? operations(decompose+multiply).
-*2+3
 *3+3
 *3+2
+*2+3
 *3+1
 
 ---

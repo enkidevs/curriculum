@@ -40,9 +40,9 @@ The above being said, a functional style is still easily usable in all but the m
 ---
 ## Practice
 
-What two adjectives describe a function which causes no side-effects and has a valid output for every input?
+What two adjectives describe a function which causes no side-effects and has a valid output for every input? 
 
-???
+??? ???
 
 * Pure & Total
 * Pure & Partial
@@ -65,4 +65,4 @@ Is Python considered a functional language?
 ## Footnotes
 
 [1:How Python got Functional]
-Python only acquired the functional methods `reduce()` `filter()` and `map()` (allegedly) after a Lisp hacker who missed them from that language submitted working patches. Additionally, Guido van van Rossum, the creator of Python also known as the BDFL (Benevolent Dictator For Life) once called for their removal from Python 3 in 2005. While the foundations may have been rocky, the `functools` module is well-used and presents an easy way for anyone new to functional programming concepts to introduce themselves to the idea before jumping to more functionally-focused languages such as Haskell.
+Python only acquired the functional methods `reduce()` `filter()` and `map()` (allegedly) after a Lisp hacker who missed them from that language submitted working patches. Additionally, Guido van van Rossum, the creator of Python also known as the BDFL (Benevolent Dictator For Life) once called for their removal from Python 3 in 2005. While the foundations may have been rocky, the `functools` module is well-used and presents an easy way for anyone new to functional programming concepts to introduce themselves to the idea before jumping to more functionally-focused languages such as Haskell. 

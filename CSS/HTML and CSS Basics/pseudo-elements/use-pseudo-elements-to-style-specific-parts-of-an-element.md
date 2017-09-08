@@ -23,7 +23,7 @@ links:
 ---
 ## Content
 
-To distinguish them from pseudo-classes, **pseudo-elements** should be preceded by two colons `::`. In some older browser versions the two colon notation might not be supported, so the single colon notation (`:`) must be used.
+Pseudo-elements are preceded by two colons `::`.
 
 The syntax is as follows:
 ```css
@@ -49,18 +49,16 @@ Which of the following is NOT a pseudo-element?
 
 ???
 
-* `::first-paragraph`
-* `::first-line`
-* `::first-letter`
-* `::before`
+*`::first-paragraph`
+*`::first-line`
+*`::first-letter`
+*`::before`
 
 ---
 ## Revision
 
-Ideally, what should precede all pseudo-elements declaration?
-
+What are all pseudo-elements preceded by?
 ???
-
 * `::`
 * `;;`
 * `:`

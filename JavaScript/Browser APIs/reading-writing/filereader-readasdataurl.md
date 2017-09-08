@@ -23,55 +23,36 @@ links:
 ---
 ## Content
 
-The `readAsDataURL()` method is used with file or blob objects. When the read operation is complete it returns a *data URL* with the files contents as base64 encoded string which can be access through `reader.result`.
+The `readAsDataURL()` method is used with file or blob objects. When the read operation is complete it returns a *data URL* with the files contents as base 64 encoded string.
 
 This functionality is often used to create thumbnail previews of uploaded image files.
 
-The HTML:
-```html
-<input type="file" id="file"
-  onchange="triggerRead()"
-  style="display:block">
-<img src="" id="wallpaper">
-```
-And the JavaScript:
+Creating a new instance of File Reader:
 ```JavaScript
-function triggerRead() {
-  var wallpaper =
-    document.getElementById('wallpaper');
-  var file = document.getElementById('file')
-    .files[0];
-  var reader  = new FileReader();
-
-  reader.onload = function(e) {
-    wallpaper.src = reader.result;
-  }
-
-  if(file) {
-    reader.readAsDataURL(file);
-  }
-}
+var reader = new FileReader();
 ```
-
----
-## Practice
-
-Which FileReader's function is called after `readAsDataURL()` is completed?
-
-???
-
-* `onload`
-* `onend`
-* `oncomplete`
-* `readAsDataURL`
+Reading the data URL:
+``` JavaScript
+reader.onload = function(e) {
+  var dataURL = reader.result;
+}
+reader.readAsDataURL(file);
+```
 
 ---
 ## Revision
 
-The URL returned by the `readAsDataURL` function is
+Complete the following JS code snippet to declare a file reader and to read in the data URL:
 
-???
+```javascript
+var reader = ??? FileReader();
+reader.???(file);
+```
 
-* a base64 encoded string
-* an SVG's code
-* a link to file's location
+* `new`
+* `readAsDataURL`
+* `typeof`
+* `env`
+* `readURL`
+* `read`
+* `URL`

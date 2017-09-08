@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-Python is a *high-level*, *interpreted*, *interactive* and *object-oriented* programming language.
+Python is a *high-level*, *interpreted*, *interactive* and *object-orientated* programming language. 
 
 It's designed to be easily readable as it frequently uses English keywords and few syntactical constructions. Here's the `print` method for example:
 
@@ -39,7 +39,7 @@ Since Python is an object-orientated programming language, it supports an object
 
 Do Python programs need to be compiled before execution? ???
 
-*`no`
+*`no` 
 *`yes`
 
 ---
@@ -47,10 +47,10 @@ Do Python programs need to be compiled before execution? ???
 
 What type of keyword does Python use to improve its readability? ???
 
-*`English`
-*`Simple`
-*`Interactive`
-*`Common`
+*`English` 
+*`Simple` 
+*`Interactive` 
+*`Common` 
 *`Programming`
 
 ---
