@@ -51,25 +51,28 @@ Files will be firstly looked for in `/first` then in `/second` as a fallback.
 ---
 ## Practice
 
-What express module can be used to easily deliver static HTML pages?
+Require the requisite module used to deliver  HTML pages:
 
-???
+```javascript
+var ??? = require('???');
+```
 
+* `serveStatic`
 * `serve-static`
+* `expressHTML`
 * `express-html`
-* `easy-html`
+* `staticExpress`
 * `static-express`
+* `nodeHTML`
 * `node-html`
 
 ---
 ## Revision
 
-What express module can be used to easily deliver static HTML pages?
-
+What express module can be used to easily deliver HTML pages?
 ???
-
-* `serve-static`
-* `express-html`
-* `easy-html`
-* `static-express`
-* `node-html`
+*`serve-static`
+*`express-html`
+*`easy-html`
+*`static-express`
+*`node-html`
