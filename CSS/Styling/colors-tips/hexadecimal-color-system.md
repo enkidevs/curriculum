@@ -35,7 +35,7 @@ Hexadecimal color system starts with `#` and is case-insensitive.
 `GG` relates to the degree of green.
 `BB` relates to the degree of blue.
 
-An important shortcut to realise is 
+An important shortcut to realise is
 `#FFFFFF` is the same as `#FFF`.
 
 Hexadecemical runs from `0` to `F`
@@ -46,17 +46,19 @@ Hexadecemical runs from `0` to `F`
 
 Hexadecimal numbers run from 0 to ???, and from A to ???.
 
-*`9` 
-*`F` 
-*`10` 
-*`1` 
-*`G` 
+*`9`
+*`F`
+*`10`
+*`1`
+*`G`
 *`Z`
 
 ---
 ## Revision
 
-Which of these Hexadecimal colours are not the same? ???
-* #FFF and #000
+Which of these hexadecimal colors are not the same?
+
+???
 * #FFFFF and #FFF
+* #FFF and #000
 * #FFC125 and #ffc125
