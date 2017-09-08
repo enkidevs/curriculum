@@ -23,36 +23,55 @@ links:
 ---
 ## Content
 
-The `readAsDataURL()` method is used with file or blob objects. When the read operation is complete it returns a *data URL* with the files contents as base 64 encoded string.
+The `readAsDataURL()` method is used with file or blob objects. When the read operation is complete it returns a *data URL* with the files contents as base64 encoded string which can be access through `reader.result`.
 
 This functionality is often used to create thumbnail previews of uploaded image files.
 
-Creating a new instance of File Reader:
+The HTML:
+```html
+<input type="file" id="file"
+  onchange="triggerRead()"
+  style="display:block">
+<img src="" id="wallpaper">
+```
+And the JavaScript:
 ```JavaScript
-var reader = new FileReader();
-```
-Reading the data URL:
-``` JavaScript
-reader.onload = function(e) {
-  var dataURL = reader.result;
+function triggerRead() {
+  var wallpaper =
+    document.getElementById('wallpaper');
+  var file = document.getElementById('file')
+    .files[0];
+  var reader  = new FileReader();
+
+  reader.onload = function(e) {
+    wallpaper.src = reader.result;
+  }
+
+  if(file) {
+    reader.readAsDataURL(file);
+  }
 }
-reader.readAsDataURL(file);
 ```
+
+---
+## Practice
+
+Which FileReader's function is called after `readAsDataURL()` is completed?
+
+???
+
+* `onload`
+* `onend`
+* `oncomplete`
+* `readAsDataURL`
 
 ---
 ## Revision
 
-Complete the following JS code snippet to declare a file reader and to read in the data URL:
+The URL returned by the `readAsDataURL` function is
 
-```javascript
-var reader = ??? FileReader();
-reader.???(file);
-```
+???
 
-* `new`
-* `readAsDataURL`
-* `typeof`
-* `env`
-* `readURL`
-* `read`
-* `URL`
+* a base64 encoded string
+* an SVG's code
+* a link to file's location
