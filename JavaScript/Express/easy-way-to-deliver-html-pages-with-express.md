@@ -51,7 +51,7 @@ Files will be firstly looked for in `/first` then in `/second` as a fallback.
 ---
 ## Practice
 
-Require the requisite module used to deliver  HTML pages: 
+Require the requisite module used to deliver  HTML pages:
 
 ```javascript
 var ??? = require('???');
