@@ -16,7 +16,7 @@ category: must-know
 
 Unlike other programming languages such as C, Python allows the use of `else` statements with loops.
 
-They are implemented so once a `for` or `while` loops condition evaluates to false, the `else` is executed.
+They are implemented so once a `for` or `while` loops condition evaluates to false, the `else` is executed. In other words, the `else` statement is called **once** when loops exit.
 
 For example, an `else` statement integrated into a `while` loop:
 ```python
@@ -25,7 +25,7 @@ while (x < 3):
     print(x)
     x = x + 1
 else:
-    print("x got too big!")
+    print(x, "is too big!")
 ```
 Gives the following output:
 
@@ -33,7 +33,7 @@ Gives the following output:
 0
 1
 2
-x got too big!
+3 is too big!
 ```
 
 And an `else` statement integrated into a `for` loop in a similar example:
@@ -42,7 +42,7 @@ And an `else` statement integrated into a `for` loop in a similar example:
 for x in range(0, 5):
     print(x)
 else:
-    print("Value too big!")
+    print(x, "is range's upper limit")
 ```
 Gives the following output:
 ```python
@@ -51,9 +51,8 @@ Gives the following output:
 2
 3
 4
-Value too big!
+4 is range's upper limit
 ```
-
 ---
 ## Revision
 
