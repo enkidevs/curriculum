@@ -60,7 +60,7 @@ This of course can be expanded to multiple resource types.
 
 Why is this an unsafe state?
 
- A : 2k/9k
+ A : 2k/10k
 
  B : 1k/6k
 

@@ -16,7 +16,7 @@ links:
 
 Semaphores are very similar to locks, the only difference is that they allow multiple threads/processes to enter the *critical section*[1]
 
-In the following example *semaphore* class keeps track of how many threads entered it and only allows new threads to enter if their
+The following code is an example of a basic *semaphore* class. It keeps track of how many threads have entered the semaphore and only allows new threads to enter if the limit is not reached.
 ```
 public class Semaphore {
   private int threadsEntered = 0;

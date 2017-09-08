@@ -58,7 +58,7 @@ It is especially important to use `try` and `catch` blocks when deserializing an
 
 **NOTE:**
 - `in.readObject()` was casted to `Car`
-- If the object had a `transient` field then upon deserialization, the new field will be assigned with `null`
+- If the object had a `transient` field then upon deserialization, the new field will be assigned with default values such as: `null` for an *object*, `0` for an *int*, `false` for a *Boolean*, etc.
 
 ---
 ## Practice
