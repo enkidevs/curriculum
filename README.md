@@ -1,4 +1,10 @@
-# Enki Content Contribution: How To
+# Enki Content
+
+Welcome to our open-source content repository! At Enki, we feel that education is a community effort, and is best approached when everyone is involved and engaged. To that end, we have an enrirely open-source curriculum available for you to edit, comment on, and contribute to!
+
+Learning happens best in a psycologically safe environment, so we've adopted the [contributor convenant](https://www.contributor-covenant.org/) as our code of conduct. If a list of rules isn't helping you envision what we're after, [here's another great resource](https://www.recurse.com/manual#sec-environment) (from The Recurse Center, read the Social Rules section) for how to participate in creating a community you'd like to be a part of. We _will_ enforce this, please get in touch with liz@enki.com with questions or concerns. **Everyone** is learning all the time, so disputes will be arbitrated first, and good-faith efforts are what is expected.
+
+## Enki Content Contribution: How To
 
 *Note: for company private content repos, please replace the https://github.com/sagelabs/content URL with your company’s private content repo URL.*
 
@@ -27,6 +33,12 @@
 3. Follow the instructions in Terminal to create your subtopic.
 
 **NOTE: Before create a subtopic for a non-existing topic in master branch, you need to create the topic and merge it first, if you don't do it, automated checks will throw a related error**
+
+## To create a workout
+
+All insights must be contained within a custom workout. Under a subtopic, you must create a folder with a `README.md` that specifies what is contained in the workout.
+
+We don't have a generator for this yet, in lieu of that here is an example of a workout with a `README.md` file: https://github.com/sagelabs/content/tree/master/JavaScript/Core/array-methods
 
 ## To create an insight
 
