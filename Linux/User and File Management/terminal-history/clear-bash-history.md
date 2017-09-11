@@ -12,22 +12,16 @@ type: normal
 category: how to
 
 tags:
-
   - linux
-
   - terminal
-
   - bash
-
   - history
-
   - clean
-
   - cat
-
   - 'null'
-
   - truncate
+  - workout
+
 
 notes: ''
 

@@ -10,14 +10,12 @@ type: normal
 category: feature
 
 tags:
-
   - linux
-
   - terminal
-
   - alias
-
   - ''
+  - workout
+
 
 ---
 ## Content

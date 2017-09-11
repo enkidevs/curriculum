@@ -18,6 +18,9 @@ links:
   - >-
     [www.tldp.org](http://www.tldp.org/LDP/GNU-Linux-Tools-Summary/html/x11655.htm){website}
 
+tags:
+  - introduction
+  - workout
 ---
 ## Content
 

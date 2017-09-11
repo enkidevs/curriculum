@@ -10,16 +10,13 @@ type: normal
 category: hack
 
 tags:
-
   - bash
-
   - zsh
-
   - history
-
   - search
-
   - reverse-i-search
+  - workout
+
 
 links:
 

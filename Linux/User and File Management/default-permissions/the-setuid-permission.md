@@ -10,16 +10,12 @@ type: normal
 category: must-know
 
 tags:
-
   - linux
-
   - terminal
-
   - permissions
-
   - chmod
-
   - setuid
+
 
 notes: ''
 

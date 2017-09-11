@@ -16,18 +16,14 @@ type: normal
 category: feature
 
 tags:
-
   - terminal
-
   - bash
-
   - linux
-
   - history
-
   - commands
-
   - incognito
+  - workout
+
 
 ---
 ## Content

@@ -10,14 +10,11 @@ type: normal
 category: feature
 
 tags:
-
   - linux
-
   - terminal
-
   - permissions
-
   - sticky bit
+
 
 ---
 ## Content

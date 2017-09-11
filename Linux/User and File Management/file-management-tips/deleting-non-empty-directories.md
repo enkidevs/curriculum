@@ -12,16 +12,14 @@ type: normal
 category: must-know
 
 tags:
-
   - linux
-
   - rm
-
   - terminal
-
   - delete
-
   - non empty
+  - workout
+  - introduction
+
 
 ---
 ## Content

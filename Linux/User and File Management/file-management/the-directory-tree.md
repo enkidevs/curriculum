@@ -13,6 +13,9 @@ inAlgoPool: false
 
 category: tip
 
+tags:
+  - introduction
+  - workout
 ---
 ## Content
 

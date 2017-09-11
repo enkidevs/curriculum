@@ -14,16 +14,13 @@ type: normal
 category: hack
 
 tags:
-
   - linux
-
   - terminal
-
   - random
-
   - password
-
   - generator
+  - workout
+
 
 links:
 

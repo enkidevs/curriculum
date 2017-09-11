@@ -14,18 +14,14 @@ type: normal
 category: feature
 
 tags:
-
   - shell
-
   - bash
-
   - linux
-
   - filehandle
-
   - stderr
-
   - stdout
+  - workout
+
 
 notes: ''
 

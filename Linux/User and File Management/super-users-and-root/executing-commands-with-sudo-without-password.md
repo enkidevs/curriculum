@@ -12,12 +12,10 @@ type: normal
 category: how to
 
 tags:
-
   - linux
-
   - sudo
-
   - password
+
 
 notes: ''
 

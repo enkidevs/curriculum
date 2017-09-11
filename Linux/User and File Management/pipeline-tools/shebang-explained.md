@@ -12,14 +12,12 @@ type: normal
 category: must-know
 
 tags:
-
   - linux
-
   - bash
-
   - shebang
-
   - interpreter
+  - workout
+
 
 parent: set-file-permissions-for-users
 

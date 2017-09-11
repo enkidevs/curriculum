@@ -14,18 +14,14 @@ type: normal
 category: how to
 
 tags:
-
   - linux
-
   - permissions
-
   - file
-
   - terminal
-
   - ssh
-
   - stat
+  - introduction
+
 
 parent: understanding-umask
 

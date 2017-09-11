@@ -14,20 +14,15 @@ type: normal
 category: hack
 
 tags:
-
   - linux
-
   - terminal
-
   - truncate
-
   - files
-
   - 'null'
-
   - rm
-
   - touch
+  - workout
+
 
 notes: ''
 
