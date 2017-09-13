@@ -1,4 +1,4 @@
-# Array Extensions (Part 2)
+# Array Extensions
 author: alexjmackey
 
 levels:
@@ -11,6 +11,16 @@ inAlgoPool: false
 
 category: must-know
 
+tags:
+
+  - es6
+
+  - workout
+
+  - array
+
+  - iterators
+
 links:
 
   - >-
@@ -19,26 +29,24 @@ links:
 ---
 ## Content
 
-In ES6 the array type is expanded with 3 additional properties: 
+In ES6 the array type is expanded with 3 additional properties:
 
 * keys
-* values 
+* values
 * entries
 
 These properties return a special type of object called an  **iterator**.
 
-Iterators are a more advanced concept that we cover in  EcmaScript 2015 intermediate and advanced levels. 
+If you haven't used one before, you can think of an iterator as a special collection that you can move through that will maintain its position.
 
-For now you can think of an iterator as a special collection that you can move through that will maintain its position.
-
-The below code uses arrays **entries** property to get an iterator and then log arr's keys and values:
+The below code uses `Array`'s **entries** method to get an iterator and then logs `arr`'s _keys_ and _values_:
 
 ```
 var arr = ["a", "b", "c"];
 
 var iEntries = arr.entries();
 
-iEntries.next(); 
+iEntries.next();
 //{value: [0, "a"], done:false}
 
 iEntries.next();
