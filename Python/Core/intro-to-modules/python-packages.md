@@ -46,8 +46,8 @@ Hotel.available(10)
 # 10 rooms are available
 Hotel.all_rooms(25)
 # We have: 25 rooms.
-
 ```
+
 ---
 ## Footnotes
 
@@ -57,9 +57,9 @@ Speaking about Python versions that are older than Python **3.3**: each **packag
 ---
 ## Practice
 
-Complete the missing that such that the `House` package is imported and used properly:
+Complete the missing that such that the `Hotel` package is imported and used properly:
 ```py
-??? Hotel ???
+??? Hotel
 
 def foo(x):
     capacity = ???.all_rooms(x)
@@ -69,8 +69,6 @@ def foo(x):
 
 * `import`
 * `Hotel`
-*
-* `from Hotel import all_rooms`
 * `from`
 * `as`
 * `all_rooms`
@@ -78,16 +76,16 @@ def foo(x):
 ---
 ## Revision
 
-Taking into consideration that the available `House` package exposes the `available_rooms` method, complete the following code snippet such that the could will run as intended:
+Say the `Hotel` package exposes the `available_rooms()` method. Complete the following code snippet such that only that function will be imported:
 ```py
-form Hotel import ???
+??? Hotel import ???
 
 def foo(x):
-    ???available_rooms(x)
+    ???
 ```
 
+* `from`
 * `available_rooms`
-*
-* `Hotel`
-* `Hotel.`
+* `available_rooms(x)`
+* `Hotel.available_rooms(x)`
 * `total_rooms`
