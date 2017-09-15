@@ -28,7 +28,7 @@ links:
 ---
 ## Content
 
-Sometimes *CSS* does not behave in the way we want or expect it to, suppose we have this piece of code:
+Sometimes *CSS* does not behave in the way we want or expect it to. Suppose we have this piece of code:
 ```
 HTML:
 <ul id="dream-garage">
@@ -53,20 +53,22 @@ CSS:
 ```
 But upon compilation we don't get our Saleen highlighted. And after looking through *CSS* document we find:
 ```
-ul#dream-garage li {
+#dream-garage li {
    font-weight: normal;                   
    font-size: 12px;
    color: black;
 }
 ```
-In this case *id "dream-garage"* selector is more **specific** than *class "favourite"* which neutralises effect of the latter.
-**Specificity** determines which selector affects desired piece of *HTML* code, this goes in addition to *cascading*. Let's take a look at four different selector attributes  and the *CSS* inline styling:
+In this case, the id selector *"dream-garage"* is more **specific** than the *"favorite" class*, which effectively overrides the effect of the latter.
+**Specificity** determines which selector affects desired piece of *HTML* code and this goes in addition to *cascading*. Let's take a look at four different selector attributes and the *CSS* inline styling:
  - Inline styles
  - IDs
  - Classes, attributes and pseudo-classes
  - classesElements and pseudo-elements
 
 The ones at the bottom have the lowest *specificity* and are overridden by the styling under higher attributes. The way to calculate the *specificity* of a selector is to calculate the amount of each of the above attributes, the one with most of them wins.
+
+To put everything in terms of *cascading* (about which you should remember that styles defined later in the CSS file are the ones used): if selector A has a *higher specificity* than selector B, with A and B both defined in the same CSS file, A would effectively be placed below B.
 
 **NOTE: even 1 of more *specific* attributes counts more than any number of less *specific* attributes.**
 
@@ -75,7 +77,7 @@ Example:
 .favorite: 0 inline, 0 ID, 1 Class, 0 Elem
  in short: 0-0-1-0
 
-ul#dream-garage li: 0 inline, 1 ID,
+#dream-garage li: 0 inline, 1 ID,
                            0 Class, 2 Elem
  in short: 0-1-0-2
 ```
