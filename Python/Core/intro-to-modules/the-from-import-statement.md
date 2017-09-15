@@ -48,7 +48,7 @@ Instead, we can achieve the same using the `from ... import` statement:
 from my_funcitons import cube, hello
 
 cube(3) # 27
-hello('Seba') # Heelo, Seba
+hello('Seba') # Hello, Seba
 ```
 
 The main advantage of the `from...import` statement is that it exempts you from using the *dot notation* and thus helps you not repeat yourself.
