@@ -11,6 +11,6 @@ parent: looping
 insights:
   - defining-functions
   - calling-functions
-  - function-arguments
+  - py-function-arguments
   - nested-functions
   - the-return-statement
