@@ -1,93 +1,48 @@
 # Arrow Functions (Part 1)
-author: lizthedeveloper
+author: alexjmackey
 
 levels:
 
   - beginner
 
-  - basic
-
 type: normal
 
 inAlgoPool: false
 
-category: feature
-
-tags:
-
-  - es6
-
-  - workout
-
-  - functions
+category: must-know
 
 links:
 
-  - >-
-    [MDN Guide to Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions){website}
+  - '[jsbin.com](https://jsbin.com){website}'
 
 ---
 ## Content
 
-**Arrow functions** (called lambda or "fat arrow" functions in some other languages) provide a shorthand syntax to declare function expression.
+Arrow functions (called lambda functions in some other languages) provide a short hand syntax to declare functions expressions and can save some tedious code around EcmaScript's *this* keyword which we will look at in more advanced workouts.
 
+The arrow function (sometimes referred to as "fat arrow") has two parts placed either side of *=>* e.g. 
 ```
-(parameters) => {}
+(optional) inputs => expression
 ```
-
-The parenthesis are optional if there is a single parameter:
-
-```
-parameter => {}
-```
-
-The braces are optional if the returned expression is one line:
-
-```
-parameter => expression
-```
+ 
+On the left hand side are the arguments (which are optional) and the right hand side contains the expression itself.
 
 Below we use arrow function syntax to declare a function that accepts two parameters (x and y) and will add them together:
 
 ```
-let add = (x,y) => {x+y}
+var add = (x,y) => x+y
 add(2,4); //6
 ```
 
----
-## Practice
+**Shortening arrow functions**
 
-Complete the code challenge to map the array to: `[5, 6, 5, 7]`
+If a function has no arguments you can shorten it to:
 ```
-var planets = [
-  'Earth',
-  'Saturn',
-  'Pluto',
-  'Jupiter'
-];
-
-planets.map(??? => ???);
-```
-* `planet`
-* `(planet)`
-* `{planet}`
-* `planet.length`
-* `{planet.length}`
-* `(planet.length)`
-
----
-## Revision
-
-Filter out all of the odd numbers:
-
-```
-var integers = [1,2,3,4,5,6,7,8,9];
-
-integers.filter(???);
+var pi = () => 3.14;
 ```
 
-* `(n) => {n % 2 == 0}`
-* `n => {return n % 2 === 0}`
-* `n => n % 2 === 0`
-* `{n} => {n % 2 == 0}`
-* `n => [return n % 2 === 0]`
+Or if a function has a single argument you can drop the parenthesis entirely:
+
+```
+var doubleInput = x => x*2;
+```
