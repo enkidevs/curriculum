@@ -13,10 +13,6 @@ inAlgoPool: false
 
 category: must-know
 
-links:
-
-  - '[link to learn more](https://enki.com)'
-
 ---
 ## Content
 

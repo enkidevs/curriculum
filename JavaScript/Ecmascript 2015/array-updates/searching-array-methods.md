@@ -1,5 +1,5 @@
 # Searching Arrays
-author: lizthedeveloper
+author: lizTheDeveloper
 
 levels:
 

@@ -2,7 +2,7 @@ name: Intro to EcmaScript
 
 type: insights-list
 
-description: What is EcmaScript?
+description: What is EcmaScript? 
 
 section: 0
 

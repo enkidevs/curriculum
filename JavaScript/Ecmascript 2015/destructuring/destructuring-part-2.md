@@ -18,7 +18,7 @@ Destructuring can also be used to work with objects.
 
 **Specifying where to assign variables**
 
-Sometimes when using destructuring you will want to specify where values should be assigned - this can be done as follows:
+Sometimes when using destructuring you will want to specify where values should be assigned - this can be done as follows: 
 
 ```
 var source =

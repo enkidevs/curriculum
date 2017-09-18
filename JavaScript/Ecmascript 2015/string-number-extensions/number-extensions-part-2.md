@@ -16,7 +16,7 @@ category: must-know
 
 **Number.EPSILON**
 
-Number.EPSILON is the smallest value less than 1 that can be represented as a number and is intended for advanced uses such as testing equality:
+Number.EPSILON is the smallest value less than 1 that can be represented as a number and is intended for advanced uses such as testing equality: 
 
 ```
 Number.EPSILON;

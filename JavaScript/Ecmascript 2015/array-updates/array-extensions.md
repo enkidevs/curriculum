@@ -29,7 +29,7 @@ links:
 ---
 ## Content
 
-In ES6 the array type is expanded with 3 additional properties:
+In ES6 the array type is expanded with 3 additional properties: 
 
 * keys
 * values

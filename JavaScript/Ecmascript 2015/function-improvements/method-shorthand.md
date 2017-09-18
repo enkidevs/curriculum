@@ -19,7 +19,7 @@ links:
 ---
 ## Content
 
-ES6 method shorthand allows us remove the function key word and colon making code more succinct.
+ES6 method shorthand allows us remove the function key word and colon making code more succinct. 
 
 For example prior to ES6 you would have written something similar to the below:
 

@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-Promises advantages really become apparent when you start working with more complex flows and multiple promises.
+Promises advantages really become apparent when you start working with more complex flows and multiple promises. 
 
 We can chain promises together using the **then** function:
 

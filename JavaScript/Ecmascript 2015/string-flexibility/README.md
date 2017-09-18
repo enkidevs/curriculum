@@ -2,7 +2,7 @@ name: String Flexibility
 
 type: insights-list
 
-description: Get the most out of Strings.
+description: Get the most out of Strings. 
 
 section: 1
 

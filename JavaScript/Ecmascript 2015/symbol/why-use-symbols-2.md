@@ -13,8 +13,6 @@ inAlgoPool: false
 
 category: must-know
 
-links:
-
 ---
 ## Content
 
@@ -31,7 +29,7 @@ it.next().value; //alex
 it.next().value; //bill
 ```
 
-JavaScript contains many "well known symbols" that could not be accessed prior to ES6 such as **Symbol.iterator** and **Symbol.match**. 
+JavaScript contains many "well known symbols" that could not be accessed prior to ES6 such as **Symbol.iterator** and **Symbol.match**.
 
 Note that you won’t find any well-known symbols in the symbol registry either:
 

@@ -27,7 +27,7 @@ links:
 ---
 ## Content
 
-As of ES6, Functions can be defined with default values. These values will be used if no argument (or `undefined`) is passed.
+As of ES6, Functions can be defined with default values. These values will be used if no argument (or `undefined`) is passed. 
 
 
 ```

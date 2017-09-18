@@ -2,7 +2,7 @@ name: ES6 Quirks
 
 type: insights-list
 
-description: Particularities and features.
+description: Particularities and features. 
 
 section: 2
 

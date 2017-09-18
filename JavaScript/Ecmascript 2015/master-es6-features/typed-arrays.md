@@ -19,7 +19,7 @@ links:
 
 Typed arrays are array-like objects providing a mechanism for accessing raw binary data. Usually they're used to implement network protocols, cryptography algorithms, file format manipulations, and so on.
 
-Typed arrays are made up of `buffers` and `views`. A buffer (implemented by an `ArrayBuffer` object) is an object that represents some data but does not provide a way to access its contents. That's when the view comes in - it provides a data type, starting offset, and number of elements.
+Typed arrays are made up of `buffers` and `views`. A buffer (implemented by an `ArrayBuffer` object) is an object that represents some data but does not provide a way to access its contents. That's when the view comes in - it provides a data type, starting offset, and number of elements. 
 
 Create a chunk of data 16 bytes long:
 ```

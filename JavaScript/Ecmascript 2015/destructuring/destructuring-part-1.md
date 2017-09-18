@@ -19,7 +19,7 @@ links:
 ---
 ## Content
 
-Destructuring provides a succinct and flexible way to assign values from arrays or objects.
+Destructuring provides a succinct and flexible way to assign values from arrays or objects. 
 
 This is best illustrated with an example. Destructuring is used below to assign x and y the values 100 and 200 in just one line of code:
 

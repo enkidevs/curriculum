@@ -16,7 +16,7 @@ category: must-know
 ---
 ## Content
 
-There is a special type of proxy called a **revokable proxy**.
+There is a special type of proxy called a **revokable proxy**. 
 
 This allows you to later deny access to the proxy by calling the revoke method.
 

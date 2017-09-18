@@ -13,8 +13,6 @@ inAlgoPool: false
 
 category: must-know
 
-links:
-
 ---
 ## Content
 

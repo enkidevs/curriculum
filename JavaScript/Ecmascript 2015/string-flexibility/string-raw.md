@@ -20,7 +20,7 @@ links:
 
 String.raw is used to work with template strings and is best explained with an example:
 
-In JavaScript **\n** is used to indicate a new line.
+In JavaScript **\n** is used to indicate a new line. 
 
 Consider if we had the following template literal:
 ```

@@ -21,13 +21,13 @@ links:
 ---
 ## Content
 
-ES6 has a new data structure `WeakMap`. It is a collection of key/value pairs. Its keys must be objects.
+ES6 has a new data structure `WeakMap`. It is a collection of key/value pairs. Its keys must be objects. 
 
 The syntax is:
 ```
 new WeakMap([iterable])
 ```
-The major benefit of using a `WeakMap` is  that memory leaks are prevented. 
+The major benefit of using a `WeakMap` is  that memory leaks are prevented.
 
 References to key objects are held weakly. This means that if there are no other strong references to the key, the entire entry will be removed by the garbage collector.
 
@@ -38,13 +38,13 @@ References to key objects are held weakly. This means that if there are no other
 
 Complete the syntax for a WeakMap below:
 ```
-new ???([???]) 
+new ???([???])
 ```
-*`WeakMap` 
-*`iterable` 
-*`weakmap` 
-*`Weakmap` 
-*`iterate` 
+*`WeakMap`
+*`iterable`
+*`weakmap`
+*`Weakmap`
+*`iterate`
 *`iterator`
 
 ---

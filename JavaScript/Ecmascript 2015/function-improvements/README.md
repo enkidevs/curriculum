@@ -2,7 +2,7 @@ name: Function Improvements
 
 type: insights-list
 
-description: Better functions!
+description: Better functions! 
 
 section: 0
 

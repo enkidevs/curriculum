@@ -20,7 +20,7 @@ links:
 ---
 ## Content
 
-An iterator is a special type of object that returns items from a sequence one at a time and remembers its position within the sequence.
+An iterator is a special type of object that returns items from a sequence one at a time and remembers its position within the sequence. 
 
 A sequence can be anything but for simplicity let's imagine we have an array of numbers from 1 to 5:
 ```

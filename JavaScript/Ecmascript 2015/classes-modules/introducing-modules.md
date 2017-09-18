@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-A major issue in EcmaScript is lack of a good way to divide up and reuse code.
+A major issue in EcmaScript is lack of a good way to divide up and reuse code. 
 
 Over time the community has developed a number of approaches to this issue ranging from custom solutions to the standardized (and incompatible) **CommonJS** and **Asyncronous Module Definition (AMD)**.
 

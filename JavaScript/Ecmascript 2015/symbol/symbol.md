@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-ES 6 introduces a new primitive type - **Symbol*. 
+ES 6 introduces a new primitive type - **Symbol**. 
 
 Symbols are unique and immutable. These special characteristics give them a number of usages we will look at shortly.
 
@@ -55,5 +55,5 @@ sym1 === sym2; //false
 ```
 
 This probably is not what you would expect but remember Symbols are always unique.
- 
+
 If you want to be able to access the same symbol using a key, we can use the Symbol registry which we will discuss next.

@@ -20,11 +20,11 @@ links:
 
 Arrow functions (called lambda functions in some other languages) provide a short hand syntax to declare functions expressions and can save some tedious code around EcmaScript's *this* keyword which we will look at in more advanced workouts.
 
-The arrow function (sometimes referred to as "fat arrow") has two parts placed either side of *=>* e.g. 
+The arrow function (sometimes referred to as "fat arrow") has two parts placed either side of *=>* e.g.  
 ```
 (optional) inputs => expression
 ```
- 
+
 On the left hand side are the arguments (which are optional) and the right hand side contains the expression itself.
 
 Below we use arrow function syntax to declare a function that accepts two parameters (x and y) and will add them together:

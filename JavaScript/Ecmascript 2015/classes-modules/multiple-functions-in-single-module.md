@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-A module always exists in one file but within this file we can declare multiple functions.
+A module always exists in one file but within this file we can declare multiple functions. 
 
 Let's expand upon our example and add a second function called triple.
 
