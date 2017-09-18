@@ -9,8 +9,8 @@ section: 0
 parent: intro-ecmascript
 
 insights:
-  - ecmascript-6
-  - const-part-1
-  - const-part-2
-  - let-part-1
-  - let-part-2
+  - string-extensions
+  - template-literals
+  - binary-and-octal-notation-in-es6
+  - number-extensions-part-1
+  - number-extensions-part-2
