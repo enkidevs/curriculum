@@ -1,5 +1,5 @@
-# Tagged Template Literals
-author: lizthedeveloper
+# Tagged Template Literals 2
+author: alexjmackey
 
 levels:
 
@@ -9,44 +9,48 @@ levels:
 
 type: normal
 
-tags:
-
-  - workout
-
-  - es6
-
-  - deep
-
-  - strings
-
 inAlgoPool: false
 
-category: feature
+category: must-know
 
 links:
 
 ---
 ## Content
 
-For more advanced templating you can use **Tagged Template Literals**, which allow you to define a function that does multiple processing steps in order to produce a string. Our template becomes a function, rather than a simple string, allowing us to abstract the templating process.
+In the previous insight we defined a function called myFunc with the following signature:
 
 ```
-let price = 5;
-
-function currency(strs, input){
-  let text = strs[0] + input + strs[1];
-  if (input.indexOf("$")) text += "USD"
-  if (input.indexOf("€")) text += "EUR"
+function myFunc(literals, replacement){
+...
 }
-
-currency`$${price}.00` // $5.00 USD
-currency`€${price}.00` // €5.00 EUR
 ```
 
-The `input` parameter receives the value passed in to the first slot in the string to be interpolated. Subsequent values appear as additional arguments, a best practice is to use the **rest** operator to map values to an array rather than define each argument:
+When myFunc is called with a template literal the literals parameter will receive the following object:
 
 ```
-function price(strings, ...substitution){
+["Hello ",
+" hows it going?",
+raw: Array[2]]
+```
 
+This object contains an array of the literal values and also a raw property that contains an array of the raw versions of the strings:
+
+If your literal has multiple replacement values they will be mapped to subsequent function arguments:
+
+```
+function myFunc(
+  strings,
+  subValue1,
+  subValue2){
+...
+}
+```
+
+Probably a better approach is to use the **rest** operator to map values to an array rather than define each argument:
+
+```
+function myFunc(strings, ...values){
+...
 }
 ```
