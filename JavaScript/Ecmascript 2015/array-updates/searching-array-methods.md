@@ -64,7 +64,8 @@ people.find(function (e, i, src) {
 //returns Alex
 
 people.findIndex(function (e, i, src) {
-    return element.age > 18 && element.age < 30;
+    return element.age > 18 &&
+           element.age < 30;
 });
 //returns 1
 
