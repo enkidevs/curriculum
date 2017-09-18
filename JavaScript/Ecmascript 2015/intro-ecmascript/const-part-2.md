@@ -22,7 +22,7 @@ category: must-know
 ---
 ## Content
 
-Assigning a `const` to another variable and then changing the source variable will not change the value of the `const`: 
+Assigning a `const` to another variable and then changing the source variable will not change the value of the `const`:
 
 ```
 var x= 1;
