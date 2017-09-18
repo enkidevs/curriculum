@@ -23,7 +23,8 @@ tags:
 
 links:
 
-  - [MDN Guide to Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions){website}
+  - >-
+  [MDN Guide to Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions){website}
 
 ---
 ## Content
