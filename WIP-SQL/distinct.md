@@ -22,7 +22,7 @@ The `DISTINCT` keyword enables users to cut the duplicates that result after doi
 
 Consider the following table:
 ```
-EMPLOYEES table
+--EMPLOYEES table
 +----+----------+-----+-----------+
 | ID | NAME     | AGE | SALARY    |
 +----+----------+-----+-----------+
@@ -69,7 +69,7 @@ The result:
 
 Consider the following table and the following query. Fill the gaps such that we will have no duplicates in the resulting table:
 ```
-GRADES table:
+--GRADES table:
 
 | NAME      | GRADES |
 |-----------|--------|
@@ -82,7 +82,7 @@ GRADES table:
 
 SELECET ???
 FROM ???
-??? BY GRADES
+??? BY GRADES;
 ```
 
 * DISTINCT
@@ -96,7 +96,7 @@ FROM ???
 
 Consider the following table:
 ```
-SALES table:
+--SALES table:
 
 | PRODUCT  |  SOLD    |
 |----------|----------|
@@ -115,7 +115,7 @@ Choose the query that will have the following output:
 |  20  |
 |  30  |
 ```
-* SELECT DISTINCT SOLD FROM SALES ORDER BY SOLD
-* SELECT DISTINCT SOLD FROM GRADES ORDER BY PRODUCT
-* SELECT SOLD FROM SALE ORDER BY SOLD
-* SELECT DISTINCT SOLD FROM SALES ORDER BY PRODUCT
+* SELECT DISTINCT SOLD FROM SALES ORDER BY SOLD;
+* SELECT DISTINCT SOLD FROM GRADES ORDER BY PRODUCT;
+* SELECT SOLD FROM SALE ORDER BY SOLD;
+* SELECT DISTINCT SOLD FROM SALES ORDER BY PRODUCT;
