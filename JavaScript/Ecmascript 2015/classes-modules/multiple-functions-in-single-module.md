@@ -21,19 +21,19 @@ links:
 A module always exists in one file but within this file we can declare multiple functions.
 
 Let's expand upon our example and add a second function called triple.
- 
+
 We will again use the **export** keyword to let JavaScript know we want to expose this:
 
 ```
 export function triple(x) {
  return x * 3;
-} 
+}
 ```
 
 If we just want to just use specific functions from a module we can do so with the following syntax:
 
 ```
-import { triple as mathFuncs } 
+import { triple as mathFuncs }
 from 'mathFuncs';
 mathFuncs(2); //6
 ```
@@ -71,5 +71,3 @@ if (condition) {
  import 'double'; //error
 }
 ```
-
----

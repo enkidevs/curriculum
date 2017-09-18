@@ -74,7 +74,6 @@ I have 10 dollars,
 and I would like to purchase :
 4 Oranges.
 ```
----
 
 ---
 ## Practice

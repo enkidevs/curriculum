@@ -50,5 +50,3 @@ function price(strings, ...substitution){
 
 }
 ```
-
----

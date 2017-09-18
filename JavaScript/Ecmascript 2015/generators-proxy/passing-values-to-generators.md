@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-Generators next method also accepts a parameter. 
+Generators next method also accepts a parameter.
 
 When you pass in a parameter it is assigned to the result of the **yield** statement (if you don’t pass anything in this is undefined).
 
@@ -32,7 +32,7 @@ function* getGenerator(){
  while(currentNumber<6){
   var input = yield currentNumber++;
   if(input==0) currentNumber =1;
- } 
+ }
 }
 
 var g=getGenerator();
@@ -73,4 +73,3 @@ g.next();
 g.next("a") //a
 g.next("b") // b
 ```
----

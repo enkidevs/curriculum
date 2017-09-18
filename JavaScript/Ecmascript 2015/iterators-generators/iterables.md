@@ -50,7 +50,7 @@ function getIterator (){
  if(nextIndex < num.length){
   var valueToReturn = num[nextIndex];
   nextIndex++;
-		
+
   return {
    value: valueToReturn,
    done: false
@@ -65,12 +65,10 @@ function getIterator (){
 }
 }
 ```
-	
+
 Our iterator will now function as expected.
 We could even use it with the spread operator:
 
 ```
 console.log([...it]); //[1,2,3,4,5]
 ```
-
----

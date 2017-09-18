@@ -33,7 +33,7 @@ Whilst we could easily write a loop to iterate through these numbers let's write
 function getIterator(){
  var num = [1,2,3,4,5];
  var nextIndex = 0;    
- 
+
  return {
   next: function(){
    var x = num[nextIndex];
@@ -48,7 +48,7 @@ function getIterator(){
 
 What's going on here?
 
-We have defined two variables - our sequence of numbers (num) and another (nextIndex) to keep track of our current position. 
+We have defined two variables - our sequence of numbers (num) and another (nextIndex) to keep track of our current position.
 
 We then return an object with a next method that will retrieve a value at the current position, increment the position and return an object with our value in the value property.
 
@@ -62,4 +62,3 @@ it.next(); //Object {value: 3}
 it.next(); //Object {value: 4}
 it.next(); //Object {value: 5}
 ```
----

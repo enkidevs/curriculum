@@ -67,5 +67,3 @@ set: function(obj, prop, value) {
  }
 }}
 ```
-
----

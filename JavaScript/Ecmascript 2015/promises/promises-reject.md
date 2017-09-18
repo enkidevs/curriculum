@@ -23,15 +23,15 @@ When using promises we can indicate something has failed by using the **reject**
 Let's try this with our previous example:
 
 ```
-var p = 
+var p =
 new Promise(
- function(resolve, reject){ 
- setTimeout(function(){reject("enki")}, 
+ function(resolve, reject){
+ setTimeout(function(){reject("enki")},
  2000);
 })
 .then(function(result){
  console.log("success");
-}); 
+});
 //Exception - Uncaught (in promise) enki
 ```
 
@@ -42,7 +42,7 @@ But don't worry as we can use the **catch** handler to define logic to be called
 ```
 var p = new Promise(
    function(resolve, reject) {  
-   setTimeout(function(){reject("enki")}, 
+   setTimeout(function(){reject("enki")},
    2000);
 })
 .then(function(result){
@@ -54,14 +54,12 @@ var p = new Promise(
 ```
 
 The **then** method we used actually takes two arguments like promise - a function to be called if the promise is fulfilled and another if it's rejected.
- 
+
 Both are optional so you can pass in a null value if you just want to specify something to be called on rejection:
 
 ```
-.then(null, 
+.then(null,
 function(result){
  console.log(result);
 }); //enki
 ```
-
----

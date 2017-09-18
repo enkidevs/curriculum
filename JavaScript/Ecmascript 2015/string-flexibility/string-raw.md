@@ -22,7 +22,7 @@ String.raw is used to work with template strings and is best explained with an e
 
 In JavaScript **\n** is used to indicate a new line.
 
-Consider if we had the following template literal: 
+Consider if we had the following template literal:
 ```
 `Line1\nLine2!`;
 ```
@@ -39,4 +39,3 @@ However sometimes it is desirable to work with a string template in its raw form
 String.raw `Line1\nLine2`;
 // "Line1\nLine2"
 ```
----

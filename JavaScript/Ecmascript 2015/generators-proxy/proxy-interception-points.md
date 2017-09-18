@@ -91,5 +91,3 @@ Some potential usages:
 * Validation & logging
 * Extending constructors
 * As a shim/fallback for older browsers in the future
-
----

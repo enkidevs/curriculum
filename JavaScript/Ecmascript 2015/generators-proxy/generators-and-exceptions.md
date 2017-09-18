@@ -18,9 +18,9 @@ links:
 ---
 ## Content
 
-All code inside a generator despite appearances works  synchronously. 
+All code inside a generator despite appearances works  synchronously.
 
-This means that error handling occurs as you would expect. 
+This means that error handling occurs as you would expect.
 
 The example below will catch and log out any exceptions:
 
@@ -42,12 +42,10 @@ function* getGenerator(){
 g=getGenerator();
 ```
 
-We can use generators **throw** method to create an exception. 
+We can use generators **throw** method to create an exception.
 
 The exception occurs at the point where the generator is paused from the previous yield statement.
 
 ```
 g.throw("bad error");
 ```
-
----

@@ -59,5 +59,3 @@ class Person {
 var p = new Person("Enki");
 p.name; //Enki
 ```
-
----

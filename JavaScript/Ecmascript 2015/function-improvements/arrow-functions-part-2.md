@@ -73,7 +73,6 @@ let count = new Counter();
 * `function() {this.counter--;}`
 
 ---
-
 ## Revision
 
 Create a counter that can successfully count up and down:
@@ -95,5 +94,3 @@ let count = new Counter();
 * `() => {this.counter--;}`
 * `function() {this.counter++;}`
 * `function() {this.counter--;}`
-
----

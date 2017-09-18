@@ -26,9 +26,9 @@ Some of these libraries conform (and add their own additional functionality as w
 
 **Why use promises?**
 
-It is common in JavaScript to perform tasks that do not complete immediately – for example making an ajax call. 
+It is common in JavaScript to perform tasks that do not complete immediately – for example making an ajax call.
 
-JavaScript only has one thread (ignoring web and service workers) to run in. Pages would run very slowly if we had to stop everything on a page to wait for an ajax call so JavaScript continues to execute other code. 
+JavaScript only has one thread (ignoring web and service workers) to run in. Pages would run very slowly if we had to stop everything on a page to wait for an ajax call so JavaScript continues to execute other code.
 
 However we still need a way to know when our ajax call has completed.
 
@@ -37,5 +37,3 @@ One way of approaching this problem is to use callback functions. A callback fun
 Callbacks work great for simple scenarios but with more complex scenarios things get complex and out of control quickly - for example when you need to handle more complex flow conditions such as multiple callbacks and exceptions.
 
 A better approach is to use promises lets see how to do this next.
-
----

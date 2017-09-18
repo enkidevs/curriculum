@@ -21,7 +21,7 @@ links:
 ## Content
 
 In our previous example above we have not implemented all of the iterator protocol or agreement.
- 
+
 There is an issue with our current implementation - what happens when have iterated through all the values?
 
 The iterator protocol defines that we should also return a boolean property called **done** that indicates when we have iterated through the entire sequence.
@@ -43,7 +43,7 @@ return {
   if(nextIndex < num.length){
   var valueToReturn = num[nextIndex];
   nextIndex++;
-		
+
  return {
   value: valueToReturn,
   done: false
@@ -55,5 +55,3 @@ else{
 }
 };
 ```
-
----

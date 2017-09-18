@@ -47,5 +47,3 @@ it.next();//Object {value: 3, done: false}
 it.next();//Object {value: 4, done: false}
 it.next();//Object {value: 5, done: false}
 ```
-
----

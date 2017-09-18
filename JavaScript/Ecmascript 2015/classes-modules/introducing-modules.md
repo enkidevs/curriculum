@@ -37,13 +37,13 @@ We will first create a file called mathFuncs.js and add the following code to it
 ```
 export function double(x) {
  return x * 2;
-} 
+}
 ```
 
 Next when we want to use this code we tell JavaScript we want to import it:
 
 ```
-import * as mathFuncs 
+import * as mathFuncs
 from 'mathFuncs';
 console.log(mathFuncs.double(4)); //8
 ```
@@ -55,7 +55,5 @@ First we declare our module in a file called mathFuncs.js. This is the name of o
 Next we declare that we are exporting a function called double using the **export** keyword. If we don’t use **export** the function wont be available for usage directly.
 
 We now want to use this functionality in another file so we use the keyword **import** and say we want to import everything (that's the import * bit) from the module and access this through the object we will call mathFuncs.
- 
-Finally we use this functionality with the call mathFuncs.double.
 
----
+Finally we use this functionality with the call mathFuncs.double.

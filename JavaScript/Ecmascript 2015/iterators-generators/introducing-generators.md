@@ -18,19 +18,19 @@ links:
 ---
 ## Content
 
-ES6 provides an easier way of working with iterators called **generators**. 
+ES6 provides an easier way of working with iterators called **generators**.
 
 Mozilla Developer Documentation defines generators as "a special type of function that works as a factory for iterators".
 
 Let's rewrite our simple example that iterates through 1 to 5 to use a generator function.
 
-To indicate that a function is a generator function we add an asterix or star after the function keyword. 
+To indicate that a function is a generator function we add an asterix or star after the function keyword.
 
 The positioning of this is not important so it can be next to the function keyword in the middle or next to the name.
 
 Generator functions are very special as they maintain their execution context between method calls.
 
-We can tell our generator function when we want to return a value and exit by using the **yield** keyword. 
+We can tell our generator function when we want to return a value and exit by using the **yield** keyword.
 
 When the generator is next called, it will return to the next statement just after the **yield** statement.
 
@@ -52,5 +52,3 @@ gen.next(); //{value: 4, done: false}
 gen.next(); //{value: 5, done: false}
 gen.next(); //{value: undefined, done: true}
 ```
-
----

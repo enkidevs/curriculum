@@ -32,13 +32,13 @@ You will find symbols are ignored in **for..in** loops:
 ```
 for(var i in obj){
 console.log(i)
-} 
+}
 //company
 ```
 
 Symbols do not show up in **object.keys**
 ```
-Object.keys(obj); 
+Object.keys(obj);
 //["company"]
 ```
 
@@ -50,7 +50,7 @@ Object.getOwnPropertyNames(obj);
 
 **JSON.stringify** ignores symbols:
 ```
-JSON.stringify(obj); 
+JSON.stringify(obj);
 //"{"company":"enki"}"
 ```
 
@@ -58,4 +58,3 @@ Note you can retrieve symbols with **getOwnPropertySymbols**
 ```
 Object.getOwnPropertySymbols(obj);
 ```
----

@@ -55,4 +55,3 @@ var p1 = Promise.reject(
 );
 var p2 = Promise.resolve();
 ```
----

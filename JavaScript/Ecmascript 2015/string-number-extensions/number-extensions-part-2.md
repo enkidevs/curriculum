@@ -19,7 +19,7 @@ category: must-know
 Number.EPSILON is the smallest value less than 1 that can be represented as a number and is intended for advanced uses such as testing equality:
 
 ```
-Number.EPSILON; 
+Number.EPSILON;
 //2.220446049250313e-16
 ```
 
@@ -41,5 +41,3 @@ Number.isSafeInteger(unsafe); //false
 Number.MIN_SAFE_INTEGER; //-9007199254740991
 Number.MAX_SAFE_INTEGER; //9007199254740991
 ```
-
----
