@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-In the previous insight we defined a function called myFunc with the following signature:
+In the previous insight we defined a function called myFunc with the following signature: 
 
 ```
 function myFunc(literals, replacement){

@@ -2,7 +2,7 @@ name: Destructuring
 
 type: insights-list
 
-description: Faster decomposing of data structures.
+description: Faster decomposing of data structures. 
 
 section: 1
 

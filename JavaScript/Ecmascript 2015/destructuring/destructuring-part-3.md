@@ -14,7 +14,7 @@ category: feature
 ---
 ## Content
 
-Destructuring is very useful when working with arrays.
+Destructuring is very useful when working with arrays. 
 
 **Copying Arrays**
 

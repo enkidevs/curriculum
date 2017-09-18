@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-**Array.copyWithin** copies part of an array into the same array without modifying the original arrays size.
+**Array.copyWithin** copies part of an array into the same array without modifying the original arrays size. 
 
 When you use Array.copyWithin changes occur on the array itself so you don’t need to assign the result to another variable.
 

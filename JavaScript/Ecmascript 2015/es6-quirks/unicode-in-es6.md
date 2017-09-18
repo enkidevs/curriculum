@@ -24,13 +24,13 @@ links:
 ---
 ## Content
 
-JavaScript strings are represented using UTF-16 code units. Each code unit can be used to represent a code point in the `[U+0000, U+FFFF]` range. Code points beyond that range are represented by a surrogate pair. 
+JavaScript strings are represented using UTF-16 code units. Each code unit can be used to represent a code point in the `[U+0000, U+FFFF]` range. Code points beyond that range are represented by a surrogate pair.  
 
 In ES6 the notation has been simplified:
 
 ```
 \\ represents U+1F332 (EVERGREEN TREE)
-"\u{1F332}"=="🌲"=="\uD83C\uDF32" 
+"\u{1F332}"=="🌲"=="\uD83C\uDF32"
 ```
 As with ES5, having multiple code units per code point means that `.length` is not reliable:
 ```
@@ -61,16 +61,16 @@ for (let codePoint of '🌲✈❤') {
 ---
 ## Practice
 
-What method is used to get the base-10 numeric representation of a code point at a given position in a string? 
+What method is used to get the base-10 numeric representation of a code point at a given position in a string?
 
 ```
-for (let codePoint of '🌲🌲') { 
-  console.log(codePoint.???(0)); 
-} 
+for (let codePoint of '🌲🌲') {
+  console.log(codePoint.???(0));
+}
 ```
-*`codePointAt` 
-*`codePoint` 
-*`codePointRep` 
+*`codePointAt`
+*`codePoint`
+*`codePointRep`
 *`base10point`
 
 ---

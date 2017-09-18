@@ -2,7 +2,7 @@ name: String and Number Extensions
 
 type: insights-list
 
-description: Extending Strings and Numbers.
+description: Extending Strings and Numbers. 
 
 section: 0
 

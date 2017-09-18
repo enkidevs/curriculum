@@ -2,7 +2,7 @@ name: Classes and Modules
 
 type: insights-list
 
-description: Compartmentalizing your code the proper way.
+description: Compartmentalizing your code the proper way. 
 
 section: 2
 

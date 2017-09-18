@@ -26,7 +26,7 @@ links:
 ---
 ## Content
 
-`Collator` is an object that provides locale-specific string comparisons. It's  aware of Unicode.
+`Collator` is an object that provides locale-specific string comparisons. It's  aware of Unicode. 
 
 To sort through a list of letters in two different languages:
 
@@ -42,9 +42,9 @@ In German,  `ä` sorts with `a`. In Swedish, `ä` sorts after `z`.
 i10nDE.compare("ä", "z") === -1;
 i10nSV.compare("ä", "z") === +1;
 
-console.log(list.sort(i10nDE.compare)); 
+console.log(list.sort(i10nDE.compare));
 // [ "a", "ä", "z" ]
-console.log(list.sort(i10nSV.compare)); 
+console.log(list.sort(i10nSV.compare));
 // [ "a", "z", "ä" ]
 ```
 

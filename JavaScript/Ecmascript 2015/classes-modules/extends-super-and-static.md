@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-The **extends** keyword allows you to inherit from another class and the **super** keyword allows us to access functionality on the parent.
+The **extends** keyword allows you to inherit from another class and the **super** keyword allows us to access functionality on the parent. 
 
 The below example creates a new class called Engineer that inherits from Person calling Person's constructor with the super keyword.
 

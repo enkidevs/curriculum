@@ -19,7 +19,7 @@ links:
 ---
 ## Content
 
-It is very common to return an object from a function with a property the same name as a source value declared elsewhere e.g.
+It is very common to return an object from a function with a property the same name as a source value declared elsewhere e.g. 
 
 ```
 function test(){
@@ -32,7 +32,7 @@ function test(){
 
 ```
 
-ES6 provides a convenient shortcut to do this that allows you to drop the property name if you want it to be the same as the source variable: 
+ES6 provides a convenient shortcut to do this that allows you to drop the property name if you want it to be the same as the source variable:
 
 ```
 function test(){

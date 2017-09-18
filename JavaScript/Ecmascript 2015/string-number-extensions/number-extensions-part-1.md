@@ -14,9 +14,9 @@ category: must-know
 ---
 ## Content
 
-Number benefits from a number of new methods saving you from writing your own potentially error prone implementation. 
+Number benefits from a number of new methods saving you from writing your own potentially error prone implementation.
 
-There are a large number so here are some of the ones that are likely to have more use:
+There are a large number so here are some of the ones that are likely to have more use: 
 
 **Number.isFinite**
 
@@ -38,7 +38,7 @@ Number.isInteger(0.1); //false
 
 **Number.isNaN**
 
-Before ES6 it was difficult to test if a value was equal to *NaN* (Not a number). This is because NaN == NaN evaluates to false. 
+Before ES6 it was difficult to test if a value was equal to *NaN* (Not a number). This is because NaN == NaN evaluates to false.
 
 Whilst a global *isNaN* function has existed in previous versions it has the issue that it converts values which makes it hard to test if something is really *NaN*:
 

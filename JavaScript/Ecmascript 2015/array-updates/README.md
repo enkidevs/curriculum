@@ -2,7 +2,7 @@ name: Array Updates
 
 type: insights-list
 
-description: Updating arrays, ES6 style.
+description: Updating arrays, ES6 style. 
 
 section: 0
 

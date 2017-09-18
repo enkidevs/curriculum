@@ -2,7 +2,7 @@ name: Promises
 
 type: insights-list
 
-description: Promises 101
+description: Promises 101 
 
 section: 2
 

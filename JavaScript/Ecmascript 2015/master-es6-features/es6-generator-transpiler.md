@@ -23,7 +23,7 @@ links:
 ---
 ## Content
 
-Generators are a new syntax in ES6. Unlike other ES6 features (such as Promises), Generators cannot be simply polyfilled on top of ES5.
+Generators are a new syntax in ES6. Unlike other ES6 features (such as Promises), Generators cannot be simply polyfilled on top of ES5. 
 
 If you need to make your JavaScript available to pre-ES6 browsers you can use a **transpiler** or **trans-compiler**.  
 

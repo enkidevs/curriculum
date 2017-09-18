@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-Javascript has a number of built in objects that are defined as iterables such as arrays, strings, maps and sets. When an object is iterable it defines how it will work with language features such as **for..of** loops.
+Javascript has a number of built in objects that are defined as iterables such as arrays, strings, maps and sets. When an object is iterable it defines how it will work with language features such as **for..of** loops. 
 
 In order to be iterable an object must implement the iterable protocol which means that it must have a property marked with **[Symbol.iterator]**
 

@@ -20,7 +20,7 @@ links:
 ---
 ## Content
 
-ECMAScript 6 (also referred to as ECMAScript 2015 and ES6) is the latest version of the standard managed by ECMA International that JavaScript now tracks. 
+ECMAScript 6 (also referred to as ECMAScript 2015 and ES6) is the latest version of the standard managed by ECMA International that JavaScript now tracks.  
 
 Version 6 introduces a number of exciting features that make it easier than ever to write robust and succinct code.
 

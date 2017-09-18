@@ -18,8 +18,8 @@ links:
 ---
 ## Content
 
-map is a new type of key/value object.
- 
+map is a new type of key/value object. 
+
 It is common to use an object to store a set of keys and values:
 
 ```
@@ -31,7 +31,7 @@ var obj={
 
 Using this approach however the "key" values can only ever be strings, it is not as easy as it could be to iterate over all the values and you end up having to exclude inbuilt object properties such as toString.
 
-Maps allow keys and values to be other objects (yes even DOM elements!) and you can iterate over the items with constructs such as *for of* loops. 
+Maps allow keys and values to be other objects (yes even DOM elements!) and you can iterate over the items with constructs such as *for of* loops.
 
 Let's create a map and assign keys and values:
 
@@ -58,7 +58,7 @@ map.has(str); //true
 
 To delete an entry use the delete method:
 ```
-map.delete(str); 
+map.delete(str);
 ```
 
 And the map can be emptied using clear:

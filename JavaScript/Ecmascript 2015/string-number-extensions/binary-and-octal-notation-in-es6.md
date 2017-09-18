@@ -33,7 +33,7 @@ links:
 ---
 ## Content
 
-In ES6 you can use **binary** and **octal** notation as well as hexadecimal:
+In ES6 you can use **binary** and **octal** notation as well as hexadecimal: 
 ```
 0x1 // hex '1'
 0xFF // hex '255'

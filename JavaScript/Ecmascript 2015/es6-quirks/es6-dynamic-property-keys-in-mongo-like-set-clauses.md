@@ -25,11 +25,11 @@ links:
 To update the third element of a nested array `items` you can use:
 ```
 object.update({
-  $set:{items:{3:{updated: true}}}
+  $set:{items:{3:{updated: true}}} 
 })
 ```
 But this becomes tricky when you have a variable `index` instead of a constant `3`.
-Before ES6, you would typically need to write: 
+Before ES6, you would typically need to write:
 ```
 var expression = {}
 expression[index] = {updated: true}
@@ -50,15 +50,15 @@ object.update({$set:{
 Using an index variable, write directly to an element of a nested array:
 
 ```
-object.???({$set:{ 
-  items:{[???]:{updated: true}} 
-}}) 
+object.???({$set:{
+  items:{[???]:{updated: true}}
+}})
 ```
-*`update` 
-*`index` 
-*`insert` 
+*`update`
+*`index`
+*`insert`
 *`const`
-*`add` 
+*`add`
 *`new`
 
 ---

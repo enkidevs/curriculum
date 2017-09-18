@@ -26,7 +26,7 @@ var original = [1,2,3];
 var copyOfOriginal = [...original];
 ```
 
-We can even copy the original array into the middle of a new array:
+We can even copy the original array into the middle of a new array: 
 
 ```
 var another = [0, ...original, 4, 5, 6];

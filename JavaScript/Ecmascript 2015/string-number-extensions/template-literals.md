@@ -19,7 +19,7 @@ links:
 ---
 ## Content
 
-A common task in any programming language is to concatenate and format strings. 
+A common task in any programming language is to concatenate and format strings.
 
 You have probably found yourself writing code similar to the following many times:
 
@@ -27,7 +27,7 @@ You have probably found yourself writing code similar to the following many time
 var greeting = "Hi " + name;
 ```
 
-Template Literals provide a more succinct and readable form allowing us to specify values to be replaced within the string by surrounding it with curly braces and a dollar sign. 
+Template Literals provide a more succinct and readable form allowing us to specify values to be replaced within the string by surrounding it with curly braces and a dollar sign.
 
 Note how the string itself is also enclosed with the *backtick* characters instead of ' or ":
 

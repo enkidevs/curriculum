@@ -9,8 +9,6 @@ type: normal
 
 category: feature
 
-notes: ''
-
 links:
 
   - '[www.2ality.com](http://www.2ality.com/2014/12/es6-proxies.html){website}'
@@ -18,19 +16,19 @@ links:
 ---
 ## Content
 
-ES6 has a global object called `Reflect` that has methods to implement all interceptable operations of the JavaScript **meta object** protocol. 
+ES6 has a global object called `Reflect` that has methods to implement all interceptable operations of the JavaScript **meta object** protocol.
 
 Reflect is very useful for implementing **proxies** as the names of the Reflect methods are the same as those of the proxy handler methods. This helps with forwarding operations from the proxy handler to the proxy target.
 
 Reflect can also be useful for:
 
-**Indicating success** 
+**Indicating success**
 
-Some Reflect methods return booleans indicating whether the operation succeeded. 
+Some Reflect methods return booleans indicating whether the operation succeeded.
 ```
 Reflect.defineProperty
   (target, propertyKey, propDesc)
-// Like Object.defineProperty() 
+// Like Object.defineProperty()
 // but returns a boolean.
 ```
 
@@ -54,7 +52,7 @@ Reflect.apply(func, thisArg, args) // ES6
 ---
 ## Practice
 
-Complete the missing code bits to implement functionality that is otherwise only available via operators: 
+Complete the missing code bits to implement functionality that is otherwise only available via operators:
 
 ```javascript
 Reflect.???(target, propertyKey, ???)

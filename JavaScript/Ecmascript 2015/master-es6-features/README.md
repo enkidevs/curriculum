@@ -2,7 +2,7 @@ name: Master ES6 Features
 
 type: insights-list
 
-description: In depth features of ES6.
+description: In depth features of ES6. 
 
 section: 3
 
