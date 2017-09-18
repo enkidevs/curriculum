@@ -20,7 +20,7 @@ links:
 ---
 ## Content
 
-ES6 introduces a new feature called template literals that make it easier to work with strings by replacing values and defining strings on multiple lines: 
+ES6 introduces a new feature called template literals that make it easier to work with strings by replacing values and defining strings on multiple lines:
 
 ```
 var company = "Enki";
@@ -59,5 +59,3 @@ replacement: Enki
 ```
 
 We could use this functionality to perform additional processing on literals and replacement values e.g. maybe translating them.
-
----

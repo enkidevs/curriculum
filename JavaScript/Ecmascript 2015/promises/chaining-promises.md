@@ -23,7 +23,7 @@ Promises advantages really become apparent when you start working with more comp
 We can chain promises together using the **then** function:
 
 ```
-var p = 
+var p =
 new Promise(function(resolve, reject){
   setTimeout(function(){resolve("enki")},
   2000);
@@ -36,11 +36,9 @@ new Promise(function(resolve, reject){
 })
 .then(function(result){
  console.log("finished");
-}); 
+});
 
 //then 1
 //then 2
 //finished
 ```
-
----
