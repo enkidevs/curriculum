@@ -96,7 +96,7 @@ ints.???(???)
 * `function (e) {return e == 4}`
 
 ---
-##Revision
+## Revision
 
 Fill the array with the first number divisible by `2` and `3`:
 

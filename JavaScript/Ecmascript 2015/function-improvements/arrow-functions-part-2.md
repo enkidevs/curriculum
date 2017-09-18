@@ -74,7 +74,7 @@ let count = new Counter();
 
 ---
 
-##Revision
+## Revision
 
 Create a counter that can successfully count up and down:
 

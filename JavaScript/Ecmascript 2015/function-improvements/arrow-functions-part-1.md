@@ -75,7 +75,7 @@ planets.map(??? => ???);
 * `(planet.length)`
 ---
 
-##Revision
+## Revision
 
 Filter out all of the odd numbers:
 
