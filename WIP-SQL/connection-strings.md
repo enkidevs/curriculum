@@ -18,15 +18,17 @@ links:
 ---
 ## Content
 
-The syntax for conneciton strings is slighty different for all types of servers. There are two main connection types:
+*Connection strings* are URLs that point at a database hosted on a server.
+
+The structure of connection strings are slightly different for different types of servers. There are two main connection types:
 - ODBC (Open Data Base Connectivity)
 - OLE DB (Object Linking Embedding)
 
-**ODBC** is a connection method to data sources. It requires  a data source (DSN) to be set up. This can be done using a *SQL* driver or other drivers if you want to connect to a different type of database. It's designed for connecting relational databases.
+**ODBC** is a connection method to data sources. this method requires the location of an active database. It's designed for connecting relational databases.
 
-**OLE DB** can access both, relational databases as well as non-relational databases. It's a set of software components that allow a GUI (Graphical User Interface) to connect with a backend. It doesn't need any *DSN* set up.
+**OLE DB** can access both, relational databases as well as non-relational databases. It's a set of software components that allow a GUI (Graphical User Interface) to connect with a backend.
 
-We will use some js scripts for a better understanding:
+We will use some java scripts for a better understanding:
 
 Using *ODBC* and MyODBC driver to connect to a localDB:
 ```

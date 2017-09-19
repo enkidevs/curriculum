@@ -18,28 +18,28 @@ links:
 ---
 ## Content
 
-A database server can be the *hardware* part of a database. A computer dedicated to perform database storage an retrieval. Such a hardware runs the database software  application (DBMS - database management system). It receives requests from the **client machines** and searches the collection for the **requested records**.
+A database server can mean two different things. First, it can be a computer program that provides database services as specified by *client-server model*[1], or it can mean the host (hardware part of a database).
 
-As a software, it means the backend (also called instance) part of an database application. The backend handles tasks such as data analisys, storage, data manipulation and other non-user specific tasks. In general, database management systems provide database-server functionality. There are some DBMS[1] (such as MySQL) which rely exclusively on the *client-server model*[2].
+A database server can be the *hardware* part of a database. A computer dedicated to perform database storage and retrieval. This computer runs the database software  application (DBMS - database management system). The hardware is the location that the host for the database on the network is pointing to.
 
+When we're referring to the software, we're talking about the program that receives and interprets requests. These requests are called **Queries** which are requests to store, retrieve, or change data in the database.
 
-Note it's not mandatory that the actual data is hosted *on the same hardware server* as the database application.
+Database servers can:
+- Read data
+- Store data
+- Analyse data
+- Validate data against a Schema
 
-Considering a small or mid-sized setup. The hardware server will usually host the backend part of the software and the database. Think about a school's database system. The application will connect to the database via specific ports and use inter-process communication[3] to log into and access the data. The users will connect to the database via the client side of the application.
+In a *small application*, something like a side project, the application and database will usually be hosted on the same computer, meaning they won't need to communicate over a network.
 
-In larger setups, the volume of data transactions can be so big that one single PC wouldn't be able to handle the work. In this case the software application and database will be hosted on two different machines.
+A *mid-sized application*, such as an intranet or low-volume website, will most likely be hosted on a dedicated server while the database will be on a separate dedicated server. The application would then connect to the database via a Uniform Resource Locator.
+
+In *high-scale applications*, the volume of data transactions can be so big that one single PC wouldn't be able to handle the work. In this case the software application may be running on hundreds of servers, and the database server will need to become a Cluster of servers, with one server doing the coordination, and other servers hosting portions of the database.
+
+A group of database servers (called a **Cluster**) can coordinate to share data across multiple physical pieces of hardware. This is used for very large databases, or for redundancy. For this reason, the term Database Server increasingly refers to the software, instead of the hardware.
+
 ---
 ## Practice
-
-Consider any online game server. Do you think it would be worth it to host the actual data and the database application on different machines?
-???
-
-* Yes, it would help prevent players experiencing lag problems
-* No, it will make the client-server communication even more costful
-* It wouldn't affect the performance of the game
-
----
-## Revision
 
 What does the fox says?
 ???
@@ -49,13 +49,20 @@ What does the fox says?
 * wrong answer 2
 
 ---
+## Revision
+
+Speaking about a Cluster of servers, how many servers do the coordination?
+???
+
+* Just one of them, while the others are hosting
+* All of them do both, host and coordination
+* No server, the coordination is done by a computer outside the cluster
+
+---
 ## Footnotes
 
-[1:DBMS]
-Database management system.
-
-[2:Client-server model]
+[1:Client-server model]
 Is a distributed communication framework over the network. It devides the tasks between providers of a resource/service (servers) and the ones that request a service/resource (clients).
 
-[3:inter-process communicaiton]
+[2:inter-process communicaiton]
 Is a set of programming interfaces. It enables users to coordinate activities among different program processes that run concurrently. This allows a program to handle different user requests at the same time.
