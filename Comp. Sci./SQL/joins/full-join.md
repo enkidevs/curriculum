@@ -16,6 +16,10 @@ category: must-know
 links:
     - '[Full outer join](https://en.wikipedia.org/wiki/Join_(SQL)#Full_outer_join)'
 
+tags:
+   - introduction
+   - workout
+
 ---
 ## Content
 

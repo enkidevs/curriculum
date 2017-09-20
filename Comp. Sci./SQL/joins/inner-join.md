@@ -16,6 +16,10 @@ category: must-know
 links:
   - '[Inner join](https://en.wikipedia.org/wiki/Join_(SQL)#Inner_join)'
 
+tags:
+   - introduction
+   - workout
+
 ---
 ## Content
 
