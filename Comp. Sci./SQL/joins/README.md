@@ -10,6 +10,6 @@ parent: group-by
 
 insights:
   - inner-join
-  - left-right-join
+  - left-and-right-joins
   - full-join
   - multiple-joins
