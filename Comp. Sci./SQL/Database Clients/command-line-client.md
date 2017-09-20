@@ -42,19 +42,23 @@ Let's take PostgreSQL on MacOS X as an example. After the default installation (
 ---
 ## Practice
 
-What does the fox says?
-???
+Fill in the connection string with correct arguments:
 
-* right answer
-* wrong answer
-* wrong answer 2
+./psql "sslmode=require host=??? port=??? dbname=??? user=???"
+
+* aws-us-east-1-portal.29.dblayer.com
+* 23336
+* pokemon
+* ashketchum
 
 ---
 ## Revision
 
-What does the fox says?
-???
+Fill in the connection string with correct arguments:
 
-* right answer
-* wrong answer
-* wrong answer 2
+./psql "sslmode=require host=??? port=??? dbname=??? user=???"
+
+* aws-us-east-1-portal.29.dblayer.com
+* 23336
+* pokemon
+* ashketchum

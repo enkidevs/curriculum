@@ -33,24 +33,28 @@ In order to connect to Enki "Pokemon" click "Add new Server" in " Quick Links", 
  - user: ashketchum
  - password: iwannabetheverybest
 
-Now the connection has been established, for further information read *pgAdmin* documentation.
+Now the connection has been established, for further information please refer to the *pgAdmin* documentation.
 
 ---
 ## Practice
 
-What does the fox says?
-???
+Suppose we have the following connection string:
+`psql "sslmode=require host=aws-us-east-1-portal.29.dblayer.com port=23336 dbname=pokemon user=ashketchum"`
 
-* right answer
-* wrong answer
-* wrong answer 2
+What is the name of a database???
+What is user name???
+* pokemon
+* ashketchum
 
 ---
 ## Revision
 
-What does the fox says?
-???
+Suppose we have the following connection string:
+`psql "sslmode=require host=aws-us-east-1-portal.29.dblayer.com port=23336 dbname=pokemon user=ashketchum"`
 
-* right answer
-* wrong answer
-* wrong answer 2
+What is the name of a database?
+???
+What is user name?
+???
+* pokemon
+* ashketchum
