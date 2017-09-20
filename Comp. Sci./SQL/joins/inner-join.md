@@ -38,7 +38,7 @@ ability.id = ability_effect_text.ability_id;
 The first 2 rows of the result would be:
 ```
 name   |   generation_id   |   effect
------------------------------------------
+
 stench | 3 | This Pokémon's damaging moves
   have a 10% to make the target flinch with
   each hit...
@@ -76,9 +76,17 @@ What's the sets theory equivalent of `INNER JOIN`?
 
 Fill in the blanks such that the following snippet contains a valid JOIN operations:
 ```SQL
-
-// TODO
-
+??? item.id, item.name,
+  item_effect_text.short_effect,
+  item_effect_text.item_id
+??? item
+??? ??? ???
+??? = item_effect_text.item_id;
 ```
 
-*
+* `SELECT`
+* `FROM`
+* `INNER JOIN`
+* `item_effect_text`
+* `ON`
+* `item.id`

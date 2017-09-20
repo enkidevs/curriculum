@@ -39,8 +39,8 @@ This is effectively join the first two tables (*pokemon_type* and *pokemon*) and
 
 These are the first two rows of output (out of 1225):
 ```
-name        | name   
----------------------
+name        | name
+
 bulbasaur   | grass
 bulbasaur   | poison
 ```
