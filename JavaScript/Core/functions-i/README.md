@@ -6,7 +6,7 @@ description: Basics of functions.
 
 section: 0
 
-parent: basics
+parent: be-strict-game
 
 insights:
   - declaring-functions
