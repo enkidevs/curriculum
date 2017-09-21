@@ -82,8 +82,8 @@ public class Cart {
   }
 }
 public class Checkout {
-  private Cart cart;
-  private float discount;
+  public Cart cart;
+  public float discount;
   public Checkout(Cart cart, float disc) {
     this.cart = cart;
     discount = disc;
@@ -94,7 +94,7 @@ public class Checkout {
   }
 }
 ```
-**N.B.** in this example, we've used public variables instead of private ones with getters to reduce the code snippet length. The principle, however, remains the same.
+**N.B.** in this example, we've used public variables instead of private ones with getters to reduce the code snippet length by not defining setters and getters. The principle, however, stays the same.
 
 ---
 ## Practice
