@@ -63,7 +63,7 @@ When implementing the algorithm, you can reduce the memory used to store the val
 ---
 ## Practice
 
-What is the algorithm's memory complexity when it is used with an array?
+What is the algorithm's `memory` complexity when an array is used to store up to `n` values?
 
 ???
 
@@ -77,7 +77,8 @@ What is the algorithm's memory complexity when it is used with an array?
 
 You would use the sieve of Eratosthenes for
 
-???.
+???
+
 * finding prime numbers between 2 and n
 * testing if a number is prime
 * test if a tree has a binary search tree's properties
