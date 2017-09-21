@@ -18,7 +18,7 @@ links:
 
 *Pseudo elements* are used in CSS to style specified parts of an element.
 
-By using `::first-letter` pseudo element we can style the first letter of a text. For example we can style the first letter of all `<p>` elements:
+The `::first-letter` pseudo element styles the first letter of any text element. For example, we can style the first letter of all `<p>` elements:
 
 ```
 p::first-letter{
@@ -36,7 +36,7 @@ p::first-line{
 }
 ```
 
-Note that we are able to use pseudo elements with CSS classes as well:
+Pseudo elements can be combined with any other CSS selector, here's an example with a class:
 
 ```
 p.first_paragraph::first-line{
@@ -45,7 +45,7 @@ p.first_paragraph::first-line{
 }
 ```
 
-Apart from text editing purposes, pseudo elements can be used to add content before and after any CSS element.
+Pseudo elements can also be used to add content before and after any CSS element.
 
 Consider the following situation: We have two `<div>` elements containing the first name and surname of some person. If we want to point out which is the surname and which one is the first name we can use the `::before` pseudo element:
 ```
@@ -77,13 +77,23 @@ Note the difference between inserting an image on a web page using an `<img>` ht
 ---
 ## Practice
 
-Suppose we have a file "demo.txt" that contains two paragraphs. We want to style the first letter to be of size large and red colored. Then we want to the first line from the file to be displayed in capital letters. Fill the gaps such accordingly:
+Consider the following `<div>` element. We need to do the following edits:
+- first letter of the paragraph *red* and *large*
+- the first line must be in capital letters
 ```
-.first_paragraph::???{
+<div class="text">
+Sample text row 1
+Sample text row 2
+this is my text
+new line
+</div>
+
+
+.text::???{
     ???: 	#FF0000;
     font-size: xx-???;
 }
-.first_paragraph::???{
+.text::???{
   font-???: caps;
 }
 ```
