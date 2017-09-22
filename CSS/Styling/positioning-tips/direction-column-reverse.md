@@ -66,7 +66,7 @@ Where will the first child be displayed?
 ---
 ## Revision
 
-When in Flexbox, how does `column-reverse` allow users to arrange elements?
+When using Flexbox, how does `column-reverse` allow users to arrange elements?
 
  ???
 

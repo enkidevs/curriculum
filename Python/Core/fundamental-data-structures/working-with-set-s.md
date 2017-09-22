@@ -1,4 +1,4 @@
-# Sets.
+# Sets in Python
 author: SebaRaba
 
 
@@ -17,7 +17,7 @@ links:
 ---
 ## Content
 
-In **Python**, **Sets** have four main characteristics:
+In **Python**, **sets** have four main characteristics:
 - they are an **unordered collection** of elements;
 - every elements is **unique** (no duplicates);
 - and every element must be **immutable**;
@@ -74,7 +74,8 @@ print(my_set)
 ---
 ## Practice
 
-What are the two used for updating sets?
+Which of the following pairs are valid set methods?
+
 ???
 
 * `update()` and `add()`
@@ -86,6 +87,7 @@ What are the two used for updating sets?
 ## Revision
 
 What happens when you use `remove()` on an element that doesn't exist in the set?
+
 ???
 
 * An error will be thrown.

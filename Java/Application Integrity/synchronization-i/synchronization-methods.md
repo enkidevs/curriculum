@@ -42,6 +42,10 @@ public class Lock{
   }
 }
 ```
+Using `Lock` is sometimes necessary to guarantee thread safety. However, overusing `Lock` will limit the performance of a program. This is because any code that operates under a `Lock` must be executed sequentially, as opposed to other areas of the program which will be able to execute concurrently.
+
+To maximize performance, a good idea is to reduce the scope of `Lock`s to only apply to critical sections of code.
+
 **Mutex** has the same concept as a lock but can be accessed between the processes (i.e. a wider range lock).
 
 Java also provides predefined *lock* interfaces in their `java.util.concurrent` library.
