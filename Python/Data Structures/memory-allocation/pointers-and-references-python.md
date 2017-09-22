@@ -20,7 +20,7 @@ links:
 When it comes to variables, one special characteristic of Python stands out: **every data type is an object**. Every *int*, every *string*, every *function*, every user-defined *class* is an object. Consider this example:
 ```python
 def mem_loc(var):
-  print(hex(id(a)))
+  print(hex(id(var)))
 a = 1
 b = 1
 print(mem_loc(a))
@@ -49,10 +49,10 @@ print(mem_loc(b))
 ---
 ## Practice
 
-Consider the following snippet. What's the memory location of `c+1`?
+Consider the following snippet. What do you think the memory location of `c+1` is?
 ```python
 def mem_location(var):
-  print(hex(id(a)))
+  print(hex(id(var)))
 c = 10
 print(mem_location(c))
 # 0x55a7b928f0a0

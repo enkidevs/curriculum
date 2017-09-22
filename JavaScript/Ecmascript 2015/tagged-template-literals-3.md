@@ -22,12 +22,10 @@ With access to literals and replacement values you can use Tagged Template Liter
 
 ```
 function myFunc(strings, sub){
- return "Goodbye " + sub; 
-} 
+ return "Goodbye " + sub;
+}
 
 var company="Enki";
 myFunc `Hello ${company} hows it going?`
 // "Goodbye Enki"
 ```
-
----
