@@ -1,4 +1,4 @@
-name: Hooks, arrr?
+name: Guess the Class
 
 type: game
 
