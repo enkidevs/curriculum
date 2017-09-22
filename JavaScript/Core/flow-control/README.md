@@ -6,7 +6,7 @@ description: Branch, stop and loop your programs with these control structures.
 
 section: 0
 
-parent: arrays-and-equality
+parent: taking-precedence-game
 
 insights:
   - if-statement
