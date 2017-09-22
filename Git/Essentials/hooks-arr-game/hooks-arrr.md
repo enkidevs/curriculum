@@ -9,8 +9,6 @@ type: fillTheGap
 
 category: feature
 
-parent: useful-commit-hooks
-
 ---
 ## Content
 
