@@ -35,6 +35,8 @@ In order to connect to Enki "Pokemon" click "Add new Server" in " Quick Links", 
 
 Now the connection has been established, for further information please refer to the *pgAdmin* documentation.
 
+**NOTE: please bookmark this insight if you want to access the database at your own time.**
+
 ---
 ## Practice
 

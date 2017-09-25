@@ -75,6 +75,8 @@ Which should print:
 (10, 'yellow')
 ```
 
+**NOTE: please bookmark this insight if you want to access the database at your own time.**
+
 ---
 ## Practice
 

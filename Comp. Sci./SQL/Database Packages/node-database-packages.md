@@ -71,6 +71,8 @@ The result of the following code should be similar to:
   anonymous { id: '10', name: 'yellow' } ]
 ```
 
+**NOTE: please bookmark this insight if you want to access the database at your own time.**
+
 ---
 ## Practice
 
