@@ -1,4 +1,4 @@
-name: JavaScript: Hard Mode
+name: JavaScript, Hard Mode
 
 type: game
 
