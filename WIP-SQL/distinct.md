@@ -20,58 +20,66 @@ links:
 
 The `DISTINCT` keyword enables users to cut the duplicates that result after doing a `SELECT` query.
 
-Consider the following table:
+We wil give some examples based on a database we have set up:
 ```
---EMPLOYEES table
-+----+----------+-----+-----------+
-| ID | NAME     | AGE | SALARY    |
-+----+----------+-----+-----------+
-|  1 | Johnny   |  32 | 2000.00   |
-|  2 | Britta   |  25 | 1500.00   |
-|  3 | Sebastian|  23 | 2000.00   |
-|  4 | Catalin  |  25 | 6500.00   |
+SELECT COUNT(ability_id)
+FROM ability_name;
+
+--Result:
+count
+-------
+ 1397
+(1 row)
+```
+First, we count how many ability ids are there in the ability_name table.
+If we would like to see how many of them are `DISTINCT`:
+
+```
+SELECT COUNT(DISTINCT ability_id)
+FROM ability_name;
+
+--Result:
+count
+-------
+  251
+(1 row)
 ```
 
-Now, if we run the following query:
-```
-SELECT SALARY
-FROM EMPLOYEES
-ORDER BY SALARY;
-```
-The result will look as follows:
-```
-+----------+
-| SALARY   |
-+----------+
-|  1500.00 |
-|  2000.00 |
-|  2000.00 |
-|  6500.00 |
-```
-
-As we had duplicates in the initial table, they will reflect in our result as well. Using the `DISTINCT` keyword we can handle this duplicates:
-```
-SELECT DISTINCT SALARY
-FROM EMPLOYEES
-ORDER BY SALARY;
-```
-The result:
-```
-+----------+
-| SALARY   |
-+----------+
-|  1500.00 |
-|  2000.00 |
-|  6500.00 |
-```
 ---
 ## Practice
+
+We know that the table *pokedex_name* has a field called name with 42 entries. We would like to see how many of these are distinct values. Which query do you think will have the desired output?
+```
+SELECT COUNT(name) FROM pokedex_name;
+
+--Result:
+count
+-------
+   42
+(1 row)
+
+???
+
+--Result:
+count
+-------
+   35
+(1 row)
+```
+
+* SELECT COUNT(DISTINCT name) FROM pokedex_name;
+* SELECT * FROM pokedex_name;
+* SELECT DISTINCT COUNT(name) FROM pokedex_name;
+* DISTINCT SELECT COUNT(name) FROM pokedex_name;
+
+---
+## Revision
 
 Consider the following table and the following query. Fill the gaps such that we will have no duplicates in the resulting table:
 ```
 --GRADES table:
 
-| NAME      | GRADES |
+|   NAME    | GRADES |
 |-----------|--------|
 | John      | 56%    |
 | Sebastian | 68%    |
@@ -90,32 +98,3 @@ FROM ???
 * ORDER
 * EMPLOYEES
 * *
-
----
-## Revision
-
-Consider the following table:
-```
---SALES table:
-
-| PRODUCT  |  SOLD    |
-|----------|----------|
-| T-shirt  |    20    |
-| Pullover |    30    |
-| Jacket   |    15    |
-| Hat      |    20    |
-| Shirts   |    17    |
-```
-Choose the query that will have the following output:
-```
-| SOLD |
-|------|
-|  15  |
-|  17  |
-|  20  |
-|  30  |
-```
-* SELECT DISTINCT SOLD FROM SALES ORDER BY SOLD;
-* SELECT DISTINCT SOLD FROM GRADES ORDER BY PRODUCT;
-* SELECT SOLD FROM SALE ORDER BY SOLD;
-* SELECT DISTINCT SOLD FROM SALES ORDER BY PRODUCT;
