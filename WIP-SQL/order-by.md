@@ -1,0 +1,105 @@
+# ORDER BY
+author: SebaRaba
+
+levels:
+
+  - beginner
+
+  - basic
+
+type: normal
+
+category: must-know
+
+links:
+
+  - '[More on ORDER BY](http://www.dofactory.com/sql/order-by)'
+
+---
+## Content
+
+`ORDER BY` clause enables users to order data in ascending or descending order on one or more columns. In a query, it comes after `GROUP BY` clause.
+
+Considering the example presented in the previous insight:
+```
+SELECT COUNT(name), language_id
+FROM move_name
+GROUP BY language_id;
+
+--Result:
+count | language_id
+------+-------------
+  639 |           6
+  639 |           5
+  639 |           8
+  639 |           1
+  639 |           9
+  617 |           3
+  639 |           7
+(7 rows)
+```
+Now using `ORDER BY` clause:
+```
+SELECT COUNT(name), language_id
+FROM move_name
+GROUP BY language_id;
+ORDER BY language_id;
+
+--Result:
+count | language_id
+-------+-------------
+  639 |           1
+  617 |           3
+  639 |           5
+  639 |           6
+  639 |           7
+  639 |           8
+  639 |           9
+(7 rows)
+```
+
+Note that the ascending order is set as default. If we want to display the result in a descending order we need to put `DESC` after the specifying the columns.
+
+---
+## Practice
+
+The nature_name table has data about the nature name in multiple languages. We have the fields:
+- name - for nature name
+- language_id
+Count how many names we have for each language and order the result in descending order:
+```
+SELECT ???(name),language_id
+FROM ???
+GROUP BY language_id
+??? language_id ???;
+
+--Result:
+count | language_id
+-------+-------------
+   25 |           9
+   25 |           8
+   25 |           7
+   25 |           6
+   25 |           5
+   25 |           3
+   25 |           1
+(7 rows)
+```
+
+* COUNT
+* nature_name
+* ORDER BY
+* DESC
+* AVG
+* GROUP BY
+* language_id
+
+---
+## Revision
+
+What does the fox says?
+???
+
+* right answer
+* wrong answer
+* wrong answer 2

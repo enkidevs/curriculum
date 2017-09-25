@@ -30,20 +30,20 @@ In our Pokemon db, we have a table called *move_name* with the following cloumns
 ```
 SELECT COUNT(name), language_id
 FROM move_name
-GROUP BY language_id
-ORDER BY language_id;
+GROUP BY language_id;
 
 --Result:
 count | language_id
--------+-------------
-  639 |           1
-  617 |           3
-  639 |           5
+------+-------------
   639 |           6
-  639 |           7
+  639 |           5
   639 |           8
+  639 |           1
   639 |           9
+  617 |           3
+  639 |           7
 (7 rows)
+
 ```
 ---
 ## Practice
