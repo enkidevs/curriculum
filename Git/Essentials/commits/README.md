@@ -2,7 +2,7 @@ name: Commits
 
 type: insights-list
 
-description: Explore the unit of work in git - the commit.
+description: Explore the unit of work in git - the commit. 
 
 section: 0
 

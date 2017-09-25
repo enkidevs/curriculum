@@ -2,7 +2,7 @@ name: JavaScript Basics
 
 type: insights-list
 
-description: Main particularities of JavaScript.
+description: Main particularities of JavaScript. 
 
 section: 0
 
