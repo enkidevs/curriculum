@@ -10,3 +10,4 @@ parent: intro-graphs
 
 insights:
   - what-should-it-be-stored-in
+  
