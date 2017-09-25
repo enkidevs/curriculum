@@ -48,7 +48,34 @@ count | language_id
 ---
 ## Practice
 
-In our pokemon db **item** is a table with the following columns:
+We have a table called pokemon. Two of its fields are:
+- is_default - it can be either true or false
+- name
+We want to know how many pokemons are (not) default:
+```
+SELECT ???(name),???
+FROM pokemon
+??? is_default;
+
+--Result:
+count | is_default
+------+------------
+   90 | f
+  721 | t
+(2 rows)
+```
+
+* COUNT
+* is_default
+* GROUP BY
+* AVG
+* SUM
+* name
+
+---
+## Revision
+
+In our pokemon db item is a table with the following columns:
 - id - unique id of the item
 - cost - item's cost
 - fling_power - "Dark type move"[1]
@@ -86,13 +113,3 @@ avg      | item_category_id
 * SUM
 * ORDER BY
 * GROUP
-
----
-## Revision
-
-What does the fox says?
-???
-
-* right answer
-* wrong answer
-* wrong answer 2
