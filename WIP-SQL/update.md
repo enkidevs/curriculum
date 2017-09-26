@@ -70,7 +70,31 @@ id |     name
 (15 rows)
 ```
 
-Note that if the `WHERE` clause isn't specified all the values in the specified column will be updated.
+Note that if the `WHERE` clause isn't used all the values in the specified column will be updated:
+```
+UPDATE egg_group
+SET name = 'rabbit';
+
+--Result:
+id |     name      
+---+---------------
+ 1 | rabbit
+ 2 | rabbit
+ 3 | rabbit
+ 4 | rabbit
+ 5 | rabbit
+ 6 | rabbit
+ 7 | rabbit
+ 8 | rabbit
+ 9 | rabbit
+10 | rabbit
+11 | rabbit
+12 | rabbit
+13 | rabbit
+14 | rabbit
+15 | rabbit
+(15 rows)
+```
 
 ---
 ## Practice

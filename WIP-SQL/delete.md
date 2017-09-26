@@ -46,7 +46,7 @@ id |     name
 Suppose we want to delete the first value of the table:
 ```
 DELETE FROM egg_group
-WHERE id = 1
+WHERE id = 1;
 
 --Result:
 id |     name      
@@ -68,6 +68,10 @@ id |     name
 (14 rows)
 ```
 
+If we wanted to delete all data in this table:
+```
+DELETE FROM egg_group;
+```
 
 
 ---
