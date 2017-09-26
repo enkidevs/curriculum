@@ -1,4 +1,4 @@
-# why-learn-android
+﻿# why-learn-android
 author: tlawson
 
 levels:
@@ -16,15 +16,16 @@ links:
 ---
 ## Content
 
-Android is one of the most widely used operating systems found on smartphones such as Samsung, HTC, Motorola, LG, Asus, and many more. 
+Android is one of the most widely used mobile operating systems.
 
-There are various reasons to learn Android which to name a few are: 
-1.	Open source. Open source will allow you to make what you want.
-2.	Google Play Store has a wide variety app market. 
-3.	Supported on different devices such as Smart TV’s, smartphones, tablets, camera, VOIP Phones, or Video game player.
-4.	Gradual learning curve which allow you to learn Java code and be creative with using XML enabling you to work on the app layout and design.
+Here are some interesting reasons as to learn Android:
 
-There are many reasons to learn Android. Noted above, it is ideal to have a familiarity with Java to work with Android. 
+1. Open source. Open source will allow you to make what you want.
+2. Google Play Store has a wide variety app market. 
+3. Supported on different devices such as Smart TV’s, smartphones, tablets, or camera.
+4. Gradual learning curve. Become familiar with Java and XML.
+5. Make use of Android Things. It enables building smart, connected devices such as smart thermostats, TV's, 
+   or ovens using the same frameworks and tools developers are familiar with. 
 
 ---
 ## Practice
@@ -39,7 +40,7 @@ One of the reasons to learn Android is:
 ---
 ## Revision
 
-What market has a variety of apps for Android?
+??? has a wide variety app market.
 ???
 
 * Google Play Store

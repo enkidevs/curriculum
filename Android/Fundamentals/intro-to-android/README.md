@@ -6,7 +6,7 @@ description: Examine Android!
 
 section: 0
 
-insights:
+ insights:
 
 * what-is-android
 * why-should-i-learn-android

@@ -16,27 +16,33 @@ links:
 ---
 ## Content
 
-Tools Need to Use Android are:
+Tools Needed to Use Android are:
 
-* Android Studio
-* JDK(Java Development Kit)
+* Android Studio used to build apps
+* JDK(Java Development Kit) used to write Java programs
 * Android SDK
 
-After Android Studio launches:
+Install Additional Packages
 
-* Check for Updates in the Help menu. 
-* Install additional packages. Click Configure on the Welcome menu and select SDK manager. The following
-* Sublime
+Some additional packages are needed in order to make it run properly. Below are the recommended ones, but
+you can always add additional packages or delete unnecessary ones later.
 
-After launching Android Studio, select the check for updates option in the toolbar.
-Additional packages are needed to be install for Android Studio. This can be done by opening up Android, click Configure on the Welcome menu. Select the SDK manager and select the following packages: Select all items under Tools. Select Android API 19. In the extras category, select Android Support Repository, Android Support Library, Google Repository, and Google USB Driver. Select Install Packages and Accept the License agreement.
+* Open Android Studio.
+* On the Welcome menu, click on Configure.
+* Select SDK Manager.
+* In the window that opens, select the following packages:
+* Tools - this should select all items in that category.
+* Android 4.4.2 (API 19).
+* In the Extras category: Android Support Repository, Android Support Library, Google Repository, and Google USB Driver.
+* Select Install Packages.
+* Accept License Agreement.
 
 
 
 ---
 ## Practice
 
-What IDE is preferred to use?
+What tool is used to build apps?
 ???
 
 * Android Studio
@@ -46,9 +52,10 @@ What IDE is preferred to use?
 ---
 ## Revision
 
-What is use to write Java programs?
+What are some additional packages to install for Android Studio???
 ???
 
-* JDK
-* JRE
-* SRE
+* Android Support Repository
+* Android Support Library
+* Google Repository
+* Google UsB Drive
