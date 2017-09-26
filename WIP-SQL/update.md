@@ -1,0 +1,111 @@
+# UPDATE
+author: SebaRaba
+
+levels:
+
+  - beginner
+
+  - basic
+
+type: normal
+
+category: must-know
+
+links:
+
+  - '[More on UPDATE](http://www.dofactory.com/sql/update)'
+
+---
+## Content
+
+The `UPDATE` clause enables user to modify existing data from db. It is often used with the `WHERE` clause.
+
+Consider the following table:
+```
+--egg_group:
+id |     name      
+----+---------------
+ 1 | monster
+ 2 | water1
+ 3 | bug
+ 4 | flying
+ 5 | ground
+ 6 | fairy
+ 7 | plant
+ 8 | humanshape
+ 9 | water3
+10 | mineral
+11 | indeterminate
+12 | water2
+13 | ditto
+14 | dragon
+15 | no-eggs
+(15 rows)
+```
+
+If we want to change the value "ditto" to "rabbit":
+```
+UPDATE egg_group
+SET name = 'rabbit'
+WHERE ID= 13;
+
+--Result:
+id |     name      
+----+---------------
+ 1 | monster
+ 2 | water1
+ 3 | bug
+ 4 | flying
+ 5 | ground
+ 6 | fairy
+ 7 | plant
+ 8 | humanshape
+ 9 | water3
+10 | mineral
+11 | indeterminate
+12 | water2
+13 | rabbit
+14 | dragon
+15 | no-eggs
+(15 rows)
+```
+
+Note that if the `WHERE` clause isn't specified all the values in the specified column will be updated.
+
+---
+## Practice
+
+What does the fox says?
+???
+
+* right answer
+* wrong answer
+* wrong answer 2
+
+---
+## Revision
+
+Considet the following table:
+```
+--gender
+id |    name    
+---+------------
+ 1 | female
+ 2 | male
+ 3 | genderless
+(3 rows)
+```
+Choose the query that will have the following output:
+```
+id |    name    
+---+------------
+ 1 | neutral
+ 2 | neutral
+ 3 | neutrul
+(3 rows)
+```
+???
+
+* UPDATE gender SET name = 'neutral'
+* UPDATE gender SET name = 'neutral' WHERE id = 1
+* UPDATE gender SET name = 'neutral' WHERE id = 1,2,3

@@ -1,0 +1,116 @@
+# DELETE
+author: SebaRaba
+
+levels:
+
+  - beginner
+
+  - basic
+
+type: normal
+
+category: must-know
+
+links:
+
+  - '[More on DELETE](http://www.dofactory.com/sql/delete)'
+
+---
+## Content
+
+The `DELETE` clause enables users to delete data from a table. We can specify which rows to delete using the `WHERE` clause, otherwise all records will be deleted.
+
+Consider the "egg_group" table from the previous insight:
+```
+--egg_group:
+id |     name      
+---+---------------
+ 1 | monster
+ 2 | water1
+ 3 | bug
+ 4 | flying
+ 5 | ground
+ 6 | fairy
+ 7 | plant
+ 8 | humanshape
+ 9 | water3
+10 | mineral
+11 | indeterminate
+12 | water2
+13 | ditto
+14 | dragon
+15 | no-eggs
+(15 rows)
+```
+
+Suppose we want to delete the first value of the table:
+```
+DELETE FROM egg_group
+WHERE id = 1
+
+--Result:
+id |     name      
+---+---------------
+ 2 | water1
+ 3 | bug
+ 4 | flying
+ 5 | ground
+ 6 | fairy
+ 7 | plant
+ 8 | humanshape
+ 9 | water3
+10 | mineral
+11 | indeterminate
+12 | water2
+13 | ditto
+14 | dragon
+15 | no-eggs
+(14 rows)
+```
+
+
+
+---
+## Practice
+
+What does the fox says?
+???
+
+* right answer
+* wrong answer
+* wrong answer 2
+
+---
+## Revision
+
+Consider the "egg_group" table. This time we want to delete the first 5 values:
+```
+--egg_group:
+id |     name      
+---+---------------
+ 1 | monster
+ 2 | water1
+ 3 | bug
+ 4 | flying
+ 5 | ground
+ 6 | fairy
+ 7 | plant
+ 8 | humanshape
+ 9 | water3
+10 | mineral
+11 | indeterminate
+12 | water2
+13 | ditto
+14 | dragon
+15 | no-eggs
+(15 rows)
+
+??? FROM egg_group
+WHERE id ??? 1 and 5;
+```
+???
+
+* DELETE
+* between
+* =
+* UPDATE
