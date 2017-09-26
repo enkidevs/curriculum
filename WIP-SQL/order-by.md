@@ -97,9 +97,30 @@ count | language_id
 ---
 ## Revision
 
-What does the fox says?
-???
+We have a table called location. It has data about the location's name and the region that each location belongs to. We want to count how many locations has each region. Then we want to display the results in ascending order of the counted values.
+```
+SELECT ???(name),region_id
+FROM location
+??? region_id
+ORDER BY ???;
 
-* right answer
-* wrong answer
-* wrong answer 2
+--Result:
+count | region_id
+-------+-----------
+   64 |         2
+   82 |         3
+   90 |         1
+   91 |          
+  104 |         6
+  121 |         5
+  126 |         4
+(7 rows)
+
+```
+
+* COUNT
+* GROUP BY
+* count
+* region_id
+* ORDER BY
+* SUM
