@@ -99,12 +99,26 @@ id |     name
 ---
 ## Practice
 
-What does the fox says?
+Consider the following table called "generation":
+```
+--generation:
+
+id | region_id |      name      
+----+-----------+----------------
+ 1 |         1 | generation-i
+ 2 |         2 | generation-ii
+ 3 |         3 | generation-iii
+ 4 |         4 | generation-iv
+ 5 |         5 | generation-v
+ 6 |         6 | generation-vi
+(6 rows)
+```
+We would like to update the table contents such that the last generation is generation "vii" instead of "vi".
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+* UPDATE generation SET name='generation-vii' WHERE id=6;
+* DELETE generation WHERE id=6;
+* UPDATE generation SET name='generation-vii';
 
 ---
 ## Revision
