@@ -93,7 +93,7 @@ FROM ???
 ??? BY GRADES;
 ```
 
-* DISTINCT
+* DISTINCT name
 * GRADES
 * ORDER
 * EMPLOYEES
