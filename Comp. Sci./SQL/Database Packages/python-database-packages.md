@@ -22,7 +22,7 @@ links:
 ---
 ## Content
 
-**Python** has many libraries which implement various functionalities. Some of those libraries allow the user to operate on databases. The examples of such libraries:
+**Python** has many libraries which implement various functionalities. Some of those libraries allow the user to operate on databases, these libraries are also called *database drivers*. The examples of such libraries:
  - Psycopg
  - db.py (requires Psycopg installed)
  - SQLAlchemy

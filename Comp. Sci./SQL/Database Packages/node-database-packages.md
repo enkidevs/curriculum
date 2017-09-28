@@ -15,6 +15,7 @@ links:
 
   - '[Node database packages](https://www.npmjs.com/browse/keyword/database)'
   - '[pg node package](https://www.npmjs.com/package/pg)'
+  - '[pg video tutorial](https://www.youtube.com/watch?v=hzixG7gFTxY)'
 
 ---
 ## Content
@@ -76,9 +77,10 @@ The result of the following code should be similar to:
 ---
 ## Practice
 
-Considering var conString ="pg://ashketchum:iwannabetheverybest@aws-us-east-1-portal.29.dblayer.com:23336/pokemon";, form a connection string:
-pg://???:???@???:???/???
+Considering `var conString ="pg://ashketchum:iwannabetheverybest@aws-us-east-1-portal.29.dblayer.com:23336/pokemon";`, form a connection string:
+???://???:???@???:???/???
 
+* pg
 * username
 * password
 * URLaddress
