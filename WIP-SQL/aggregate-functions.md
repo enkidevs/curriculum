@@ -1,4 +1,4 @@
-# Aggregate Values
+# SUM
 author: SebaRaba
 
 levels:
@@ -18,18 +18,19 @@ links:
 ---
 ## Content
 
-Aggregates come in hand when we need to perform calculations on a set of values and return a single value.
-
-We have a series of functions available:
-- `SUM`: returns the some of numeric values in a given column
-- `AVG`: returns the average value of a given column
-- `COUNT`: returns the total number of values in a given column
-- `MIN`: returns the smallest value in a given column
-- `MAX`: returns the biggest value in a given column
+`SUM` come in handy when we need to perform numerical addition.
 
 Following, we will see some examples based on a database (called pokemon database) that we set up for this purpose. Frist, we will extract a limited number of entries[1]:
 ```
 -- experience table:
+
+id  | level | experience | growth_rate_id
+-----+-------+------------+---------------
+  1 |     1 |          0 |              1
+  2 |     2 |         10 |              1
+  3 |     3 |         33 |              1
+....
+
 SELECT experience
 FROM experience
 LIMIT 5;
@@ -61,114 +62,15 @@ SELECT SUM(experience) FROM
 (1 row)
 ```
 
-Using `AVG` funciton:
-
-```
-SELECT AVG(experience) FROM
-(SELECT experience
-  FROM experience
-  LIMIT 5)
-AS Result;
-
---Result:
-   avg         
-----------
-  55.800
-(1 row)
-
-```
-
-Using `COUNT` function:
-
-```
-SELECT COUNT(experience) FROM
-(SELECT experience
-  FROM experience
-  LIMIT 5)
-AS result;
-
-
---Result:
-  count
----------
-    5
-(1 row)
-```
-
-Using `MIN` function:
-
-```
-SELECT MIN(experience) FROM
-(SELECT experience
-  FROM experience
-  LIMIT 5)
-AS result;
-
-
---Result:
-   min
----------
-    0
-(1 row)
-```
-
-Using `MAX` function:
-
-```
-SELECT MAX(experience) FROM
-(SELECT experience
-  FROM experience
-  LIMIT 5)
-AS result;
-
---Result:
-   max
---------
-  156
-(1 row)
-```
-
-
 ---
 ## Practice
 
-Knowing that the pokemon db has a table called *item* and a field *name*, count all name entries?
-```
-    ???
---Result:
-  count
----------
-   746
-(1 row)
 
-```
-
-* SELECT COUNT(name) FROM item;
-* SELECT COUNT(DISTINCT name) FROM item;
-* SELECT COUNT(item) FROM name;
-* SELECT COUNT(name) FROM item
 
 ---
 ## Revision
 
-We have a table of items called *item*. This table has a filed called *cost*, indicating how much each item costs. We would like to know an average cost for the first 10 items in the table. Fill the gaps accordingly:
-```
-SELECT ???(cost) FROM
-(SELECT ???
-  ??? item
-  LIMIT ???)
-??? Avg_Cost;
-```
 
-* AVG
-* cost
-* FROM
-* 10
-* AS
-* LIKE
-* AVERGE
-* 5
-* SUM
 
 ---
 ## Footnotes
