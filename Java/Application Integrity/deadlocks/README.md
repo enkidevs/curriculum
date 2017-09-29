@@ -10,8 +10,7 @@ parent: synchronization-ii
 
 insights:
   - deadlocks
-  - how-to-avoid-a-deadlock
-  - detection-and-recovery
-  - deadlock-dynamic-avoidance
   - deadlock-prevention
-  
+  - how-to-avoid-a-deadlock
+  - deadlock-dynamic-avoidance
+  - detection-and-recovery  

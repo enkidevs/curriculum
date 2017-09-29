@@ -6,7 +6,7 @@ description: Explore various recipes using arrays' methods.
 
 section: 1
 
-parent: tips-ii
+parent: foo-features-and-fun-facts-game
 
 insights:
   - filtering-items-out-of-an-array

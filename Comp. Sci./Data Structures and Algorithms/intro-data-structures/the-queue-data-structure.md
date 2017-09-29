@@ -39,7 +39,7 @@ These are your queue options in different programming languages:
 ---
 ## Practice
 
-Complete the following snippet with the output of each operation:
+Complete the following snippet with the output of each operation, based on the abstract data type (ADT) presented in the insight:
 ```
 Q.isEmpty()     true
 Q.dequeue()     ???

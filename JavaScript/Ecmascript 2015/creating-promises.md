@@ -21,13 +21,16 @@ tags:
 
   - functional programming
 
+  - es6
+
 notes: >-
   I'm wondering if the second block of code is too long. Maybe I should scrap
   the usage?
+  Nah, you need a bit of code to explain promises, that's just how it is :D -lizthedeveloper
 
 
   Also, what if people that are new to promises end up here? Should I set `for`
-  to experts? 
+  to experts?
 
 links:
 

@@ -20,38 +20,38 @@ A much better approach which allows more concurrency with avoidance of deadlocks
 
 In the beginning it is considered to be a *safe* state as there are no resources taken and only an operating system is running. Whenever there is a process requesting a resource the system assumes that state and figures out if it is safe or not.
 
-If the above acquirement leads to a safe state, the resource is granted, otherwise not. To illustrate this let's look at a single type resource, money, and let processes be people taking loans.
+If the above acquirement leads to a safe state, the resource is granted, otherwise not. To illustrate this let's look at a single type resource, unit, and let processes be letters A to C requesting those units (just like people taking loans).
 
-In order for a *Banker's Algorithm* to work the system needs to know (we also assume that after a person gets all the necessary money if executes and returns them):
+In order for a *Banker's Algorithm* to work the system needs to know (we also assume that after a process gets all the necessary units if executes and returns them):
  - How much of each resource each process could possibly request.
  - How much of each resource each process is currently holding.
  - How much of each resource the system currently has available.
 
 Consider the following setup:
 
-A : 2k/9k
+A : holds 2 / needs 9
 
-B : 1k/6k
+B : holds 1 / needs 6
 
-C : 2k/5k
+C : holds 2 / needs 5
 
-D : 1k/7k
+D : holds 1 / needs 7
 
-Free : 3k
+Free : 3
 
-This is a free state as we can grant 3k to C, then 5k to B, 6k to D and finally 7k to A so all the people/precesses do execute.
+This is a free state as we can grant 3 units to C, get 5 back, then 5 units to B, get 6 back, 6 to D and finally 7 to A so all the precesses do execute.
 
 On the other hand, this is an unsafe state as B will not be able to execute:
 
-A : 2k/9k
+A : holds 2 / needs 9
 
-B : 0k/6k
+B : holds 0 / needs 6
 
-C : 2k/5k
+C : holds 2 / needs 5
 
-D : 1k/7k
+D : holds 1 / needs 7
 
-Free : 3k
+Free : 3
 
 This of course can be expanded to multiple resource types.
 
@@ -60,15 +60,15 @@ This of course can be expanded to multiple resource types.
 
 Why is this an unsafe state?
 
- A : 2k/9k
+ A : 2 / 9
 
- B : 1k/6k
+ B : 1 / 6
 
- C : 2k/5k
+ C : 2 / 5
 
- D : 1k/6k
+ D : 1 / 6
 
- Free : 3k
+ Free : 3
 
 ???
 

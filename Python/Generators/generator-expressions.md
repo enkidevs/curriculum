@@ -61,8 +61,11 @@ Or, iterate over it with a for loop:
 ```python
 for item in my_gen: print(item)
 ```
-
-This'll print nothing, since a generator can only be iterated over once. To access values from a generator more than once, either save the values in a list, or define and then run the generator again.
+However, this prints nothing: once the values have been generated (during `list(my_gen)`), the generator is as good as empty. If we were to call it again:
+```python
+print(list(my_gen))
+# []
+```
 
 ---
 ## Practice
@@ -73,6 +76,7 @@ gen = ( x ??? x in ???(1, 100) \
    if x ??? 2 != 0)
 ```
 
+<<<<<<< HEAD
 * `for`
 * `range`
 * `%`
@@ -82,6 +86,17 @@ gen = ( x ??? x in ???(1, 100) \
 * `square`
 * `yield`
 * `is`
+=======
+*`for`
+*`range`
+*`%`
+*`gen`
+*`*`
+*`/`
+*`square`
+*`yield`
+*`is`
+>>>>>>> master
 
 ---
 ## Revision
@@ -91,6 +106,7 @@ Complete the generator expression for the square of numbers in the given range:
 gen = ( x ??? x for x ??? range(1, 20))
 ```
 
+<<<<<<< HEAD
 * `*`
 * `in`
 * `is`
@@ -98,3 +114,12 @@ gen = ( x ??? x for x ??? range(1, 20))
 * `generator`
 * `gen`
 * `square`
+=======
+*`*`
+*`in`
+*`is`
+*`yield`
+*`generator`
+*`gen`
+*`square`
+>>>>>>> master
