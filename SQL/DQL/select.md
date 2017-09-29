@@ -15,6 +15,8 @@ category: must-know
 
 links:
 
+  - '[SQL Tutorial: SELECT](http://www.sql-tutorial.com/sql-select-sql-tutorial/)'
+
 ---
 ## Content
 
@@ -22,50 +24,53 @@ To get all of the data from a table, you can use a `SELECT` statement.
 
 ```sql
 SELECT *
-FROM users;
+FROM pokemon;
 ```
 
-The above command gets all of the *columns* and all of the *rows* from the `users` table.
+The above command gets all of the *columns* and all of the *rows* from the `pokemon` table.
+
+We can also use the `SELECT` statement to specify the exact *columns* we want to keep from the table, and to discard the others.
 
 ```sql
-SELECT id, first_name, last_name
-FROM users;
+SELECT id, weight, name
+FROM pokemon;
 ```
 
-The above command gets only the `id`, `first_name`, and `last_name` columns of all the rows from the `users` table.
-
+The above command gets only the `id`, `weight`, and `name` columns from the table, but keeps all of the rows of the `pokemon` table. Remember, the information is not deleted, you're simply **querying** the database, but doing so in a way where you only receive the information contained in the specified columns.
 
 ---
 # Practice
-Get all of the columns and rows from the `blog_posts` table.
+Get all of the columns and rows from the `pokemon_form` table.
 
-??? ??? ??? ???;
+??? ???
+??? ???;
 
 * `SELECT`
 * `*`
 * `FROM`
-* `blog_posts`
+* `pokemon_form`
 * `GET`
 * `FIND`
 * `id`
 * `FOR`
-* `users`
+* `pokemon`
 
 ---
 # Revision
 
-Get all of the rows and the `id`, `order_id`, `user_id` from the `users_orders` table.
+Get all of the rows and the `id`, `weight`, `name` from the `pokemon` table.
 
-??? ??? ??? ???;
+??? ??? ??? ???
+??? ???;
 
 * `SELECT`
-* `id`
-* `order_id`
-* `user_id`
+* `id, `
+* `weight, `
+* `name`
 * `FROM`
-* `users_orders`
-* `blog_posts`
+* `pokemon`
+* `moves`
 * `GET`
 * `FIND`
-* `id`
+* `order`
 * `FOR`
