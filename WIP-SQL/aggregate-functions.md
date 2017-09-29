@@ -65,12 +65,56 @@ SELECT SUM(experience) FROM
 ---
 ## Practice
 
+Consindering the "move_effect_change" table, we want to know the total amount of move_effect:
+```
+-- "move_effect_change"
+id | move_effect | version_group_id
+---+-------------+------------------
+ 1 |           8 |               11
+ 2 |          18 |                3
+ 3 |          29 |                3
 
+SELECT ???(???) FROM move_effect_change;
+
+--Result:
+------
+3884
+(1 row)
+```
+
+* SUM
+* move_effect
+* AVG
+* total
+* TOTAL
+* ADD
 
 ---
 ## Revision
 
+We have a table called item. It holds data about how much each item costs. We want to know how much it would cost to buy all items:
+```
+--item:
 
+id  | cost  |    name       
+-----+------+------------
+  1 |     0 | master-ball
+  2 |  1200 | ultra-ball
+  3 |   600 | great-ball
+  4 |   200 | poke-ball
+
+  ???
+
+--Result:   
+--------
+ 728060
+(1 row)
+
+```
+
+* SELECT SUM(cost) FROM item;
+* SELECT AVG(cost) FROM item;
+* SELECT MAX(cost) FROM item;
 
 ---
 ## Footnotes
