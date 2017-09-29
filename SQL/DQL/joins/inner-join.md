@@ -59,20 +59,9 @@ There were a total of `191` rows returned by the query versus `251` abilities an
 [1: Ability]
 A Pokémon's ability is an aura that is passively active and provides benefits to the Pokemon and, sometimes, its party.
 
+
 ---
 ## Practice
-
-What's the sets theory equivalent of `INNER JOIN`?
-
-???
-
-* intersection
-* union
-* difference
-* cartesian product
-
----
-## Revision
 
 Fill in the blanks such that the following snippet contains a valid JOIN operations:
 ```SQL
@@ -90,3 +79,16 @@ Fill in the blanks such that the following snippet contains a valid JOIN operati
 * `item_effect_text`
 * `ON`
 * `item.id`
+
+
+---
+## Revision
+
+What's the sets theory equivalent of `INNER JOIN`?
+
+???
+
+* intersection
+* union
+* difference
+* cartesian product

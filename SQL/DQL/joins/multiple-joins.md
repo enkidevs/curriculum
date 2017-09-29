@@ -24,8 +24,6 @@ Sometimes, a single join might not be enough to get the desired result. In `many
 
 In the Pokémon database you can find multiple intermediate tables, usually named `table1_table2`: for the `pokemon` and `type` tables, the intermediate one is named `pokemon_type`. Same goes for `pokemon`, `move` and `pokemon_move`.
 
-A single JOIN is simple to achieve: take a table, use the magic word (`type JOIN`), specify the second table and choose a joining field. However, you can also join multiple tables together.  
-
 The syntax is this:
 ```SQL
 SELECT pokemon.name, type.name
@@ -49,25 +47,29 @@ The same result can be achieved by using subqueries.
 ---
 ## Practice
 
-What should the following query return?
+Fill in the gaps:
 ```SQL
 SELECT pokemon.name, LJoinRes.level,
   LJoinRes.name, LJoinRes.version_group_id
-FROM pokemon
-RIGHT OUTER JOIN (SELECT *
+??? pokemon
+??? (SELECT *
 FROM pokemon_move
-LEFT JOIN move ON
-pokemon_move.move_id = move.id) AS LJoinRes
+LEFT JOIN move ???
+pokemon_move.move_id = move.id) ??? LJoinRes
 ON pokemon.id = LJoinRes.pokemon_id
 ORDER BY pokemon.id,
   LJoinRes.version_group_id, LJoinRes.level;
 ```
 ???
 
-* A list of moves each Pokémon learns, sorted by game version and level.
-* A list of Pokémons and their evolution, sorted by game version and level.
-* A list of moves and their types, sorted by game version.
-* A list of levels each Pokémon learns the same move, sorted by game version and level.
+* `FROM`
+* `RIGHT OUTER JOIN`
+* `ON`
+* `AS`
+* `pokemon`
+* `OUTER JOIN`
+* `SELECT`
+* `ORDER BY`
 
 ---
 ## Revision

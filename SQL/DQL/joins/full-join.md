@@ -46,13 +46,20 @@ NULL|        NULL       |   19   |   wood
 ---
 ## Practice
 
-The `FULL OUTER JOIN` operations is equivalent to
-
-???
-
-* the union between `RIGHT JOIN` and `LEFT JOIN`
-* the union between `CROSS JOIN` and `LEFT JOIN`
-* the intersection between `RIGHT JOIN` and `LEFT JOIN`
+Fill in the gaps such that the following snippet becomes a valid `FULL OUTER JOIN`:
+```SQL
+??? *
+FROM ???
+??? berry_firmness ???
+berry.berry_firmness_id = berry_firmness.id
+WHERE berry_firmness.id = 2???
+```
+* `SELECT`
+* `berry`
+* `FULL OUTER JOIN`
+* `ON`
+* `;`
+* `*`
 
 ---
 ## Revision
@@ -61,12 +68,11 @@ The correct syntax for fully joining two tables is:
 ```SQL
 SELECT *
 FROM pokemon_type
-... type ON
+??? type ???
 pokemon_type.type_id = type.id
 ```
-???
 
-* All of the options are valid
 * `FULL JOIN`
-* `FULL OUTER JOIN`
-* `full join`
+* `ON`
+* `LEFT AND RIGHT JOIN`
+* `OUTER JOIN`
