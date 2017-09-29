@@ -29,19 +29,19 @@ Imagine we want to `sum` up all even number ranging from 1 to 100.
 
 Using list comprehension:
 ```python
-even_sum = sum([x for x in range(1, 100)
+even_sum = sum([x for x in range(1, 101)
                if x % 2 == 0])
 print(even_sum)
-#2450
+#2550
 ```
 This will prove inefficient in the case of a large range because it first creates a list, it iterates over it and then returns the sum.
 
 The same result can be achieved with a **generator expression**:
 ```python
-even_sum = sum(x for x in range(1, 100)
+even_sum = sum(x for x in range(1, 101)
                if x % 2 == 0)
 print(even_sum)
-#2450
+#2550
 ```
 
 The generator expressions syntax says that it must be enclosed inside parenthesis (`()`).
@@ -49,12 +49,14 @@ A generator for squares of numbers:
 ```python
 my_gen = (x * x for x in range(1,10))
 ```
+
 This generator can now  be converted to a list with:
 ```python
 print(list(my_gen))
 # [1, 4, 9, 16, 25, 36, 49,
 # 64, 81]
 ```
+
 Or, iterate over it with a for loop:
 ```python
 for item in my_gen: print(item)
@@ -74,6 +76,17 @@ gen = ( x ??? x in ???(1, 100) \
    if x ??? 2 != 0)
 ```
 
+<<<<<<< HEAD
+* `for`
+* `range`
+* `%`
+* `gen`
+* `*`
+* `/`
+* `square`
+* `yield`
+* `is`
+=======
 *`for`
 *`range`
 *`%`
@@ -83,6 +96,7 @@ gen = ( x ??? x in ???(1, 100) \
 *`square`
 *`yield`
 *`is`
+>>>>>>> master
 
 ---
 ## Revision
@@ -92,6 +106,15 @@ Complete the generator expression for the square of numbers in the given range:
 gen = ( x ??? x for x ??? range(1, 20))
 ```
 
+<<<<<<< HEAD
+* `*`
+* `in`
+* `is`
+* `yield`
+* `generator`
+* `gen`
+* `square`
+=======
 *`*`
 *`in`
 *`is`
@@ -99,3 +122,4 @@ gen = ( x ??? x for x ??? range(1, 20))
 *`generator`
 *`gen`
 *`square`
+>>>>>>> master

@@ -48,7 +48,7 @@ Require the 'gulp' plugin into the gulp file:
 * `var`
 * `require`
 * `variable`
-* `decalre`
+* `declare`
 * `use`
 * `str`
 * `int`
