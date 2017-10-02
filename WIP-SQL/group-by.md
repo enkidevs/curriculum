@@ -84,8 +84,6 @@ In our pokemon db item is a table with the following columns:
 - name - item's name
 We would like to get the average cost of each item category.
 
-Note that there are a total of 44 categories in our db. But for space and readability purposes we will display the result for the first 10 categories.
-
 ```
 SELECT ???(cost),item_category_id
 FROM ???
@@ -105,6 +103,7 @@ avg      | item_category_id
 20       |        8
 134.28   |        9
 1810     |        10
+...
 ```
 
 * AVG
