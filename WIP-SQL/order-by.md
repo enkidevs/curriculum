@@ -18,9 +18,9 @@ links:
 ---
 ## Content
 
-`ORDER BY` clause enables users to order data in ascending or descending order on one or more columns. In a query, it comes after `GROUP BY` clause.
+`ORDER BY` clause enables users to order data in ascending or descending order on one or more columns. It comes after `GROUP BY` clause.
 
-Considering the example presented in the previous insight:
+Considering the following example:
 ```
 SELECT COUNT(name), language_id
 FROM move_name

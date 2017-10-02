@@ -112,13 +112,21 @@ id | region_id |      name
  5 |         5 | generation-v
  6 |         6 | generation-vi
 (6 rows)
+
+??? generation
+SET ???='generation-vii'
+WHERE id=???;
 ```
 We would like to update the table contents such that the last generation is generation "vii" instead of "vi".
 ???
 
-* UPDATE generation SET name='generation-vii' WHERE id=6;
-* DELETE generation WHERE id=6;
-* UPDATE generation SET name='generation-vii';
+* UPDATE
+* name
+* 6
+* WHERE
+* SET
+* 7
+* 8
 
 ---
 ## Revision
@@ -132,18 +140,16 @@ id |    name
  2 | male
  3 | genderless
 (3 rows)
-```
-Choose the query that will have the following output:
-```
-id |    name    
----+------------
- 1 | neutral
- 2 | neutral
- 3 | neutrul
-(3 rows)
-```
-???
 
-* UPDATE gender SET name = 'neutral'
-* UPDATE gender SET name = 'neutral' WHERE id = 1
-* UPDATE gender SET name = 'neutral' WHERE id = 1,2,3
+??? gender
+??? name = '???'
+
+```
+We want to update the table such that all genders will be neutral.
+
+* UPDATE
+* SET
+* neutral
+* WHERE
+* DELETE
+* CHANGE
