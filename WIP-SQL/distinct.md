@@ -18,9 +18,9 @@ links:
 ---
 ## Content
 
-The `DISTINCT` keyword enables users to cut the duplicates that result after doing a `SELECT` query.
+The `DISTINCT` keyword enables users to filter the duplicates that result after doing a `SELECT` query.
 
-We wil give some examples based on a database we have set up:
+We will give some examples based on a database we have set up:
 ```
 SELECT COUNT(ability_id)
 FROM ability_name;
