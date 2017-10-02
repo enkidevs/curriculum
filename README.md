@@ -121,3 +121,4 @@ All insights should follow the [Insight Guidelines](https://github.com/enkidevs/
 
 4. Paste the code displayed into your insight to insert your image.
 5. Preview the insight after submitting your pull request to check the image addition worked.
+# pacmanAi
