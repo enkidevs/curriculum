@@ -90,3 +90,37 @@ id  | first_move | second_move
 161.52
 (1 row)
 ```
+
+* SELECT AVG(second_move) FROM contest_combo;
+* SELECT SUM(second_move) FROM contest_combo;
+* SELECT AVG(first_move) FROM contest_combo;
+
+---
+## Footnotes
+
+[1:Pokemon Db]
+We will use the same segment of "experience" table for all aggregate functions:
+```
+-- experience table:
+
+id  | level | experience | growth_rate_id
+-----+-------+------------+---------------
+  1 |     1 |          0 |              1
+  2 |     2 |         10 |              1
+  3 |     3 |         33 |              1
+....
+
+SELECT experience
+FROM experience
+LIMIT 5;
+
+--Result:
+experience
+------------
+     0
+    10
+    33
+    80
+   156
+ (5 rows)
+```

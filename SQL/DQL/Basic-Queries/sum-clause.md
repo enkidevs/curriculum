@@ -25,7 +25,7 @@ Following, we will see some examples based on a database (called pokemon databas
 -- experience table:
 
 id  | level | experience | growth_rate_id
--====+=======+============+===============
+====+=======+============+===============
   1 |     1 |          0 |              1
   2 |     2 |         10 |              1
   3 |     3 |         33 |              1
@@ -57,7 +57,7 @@ SELECT SUM(experience) FROM
 
 -- Result:
   sum
-  ====-
+=======
   279
 (1 row)
 ```
@@ -76,7 +76,7 @@ id | move_effect | version_group_id
 
 SELECT ???(???) FROM move_effect_change;
 
-==Result:
+-Result:
 ======
 3884
 (1 row)
