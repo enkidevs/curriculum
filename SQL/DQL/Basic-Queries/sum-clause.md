@@ -25,7 +25,7 @@ Following, we will see some examples based on a database (called pokemon databas
 -- experience table:
 
 id  | level | experience | growth_rate_id
------+-------+------------+---------------
+-====+=======+============+===============
   1 |     1 |          0 |              1
   2 |     2 |         10 |              1
   3 |     3 |         33 |              1
@@ -37,7 +37,7 @@ LIMIT 5;
 
 --Result:
 experience
-------------
+============
      0
     10
     33
@@ -57,7 +57,7 @@ SELECT SUM(experience) FROM
 
 -- Result:
   sum
-  -----
+  ====-
   279
 (1 row)
 ```
@@ -69,15 +69,15 @@ Consindering the "move_effect_change" table, we want to know the total amount of
 ```
 -- "move_effect_change"
 id | move_effect | version_group_id
----+-------------+------------------
+===+=============+==================
  1 |           8 |               11
  2 |          18 |                3
  3 |          29 |                3
 
 SELECT ???(???) FROM move_effect_change;
 
---Result:
-------
+==Result:
+======
 3884
 (1 row)
 ```
@@ -97,7 +97,7 @@ We have a table called item. It holds data about how much each item costs. We wa
 --item:
 
 id  | cost  |    name       
------+------+------------
+=====+======+============
   1 |     0 | master-ball
   2 |  1200 | ultra-ball
   3 |   600 | great-ball
@@ -106,7 +106,7 @@ id  | cost  |    name
   ???
 
 --Result:   
---------
+========
  728060
 (1 row)
 
