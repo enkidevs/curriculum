@@ -11,6 +11,7 @@ type: normal
 
 category: must-know
 
+
 links:
 
   - '[More on UPDATE](http://www.dofactory.com/sql/update)'
