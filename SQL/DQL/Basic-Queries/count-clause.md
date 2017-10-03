@@ -13,7 +13,7 @@ category: must-know
 
 links:
 
-  - '[More on aggregate functions](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql)'
+  - '[More on COUNT clause](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql)'
 
 ---
 ## Content
@@ -110,7 +110,7 @@ id  | level | experience | growth_rate_id
   1 |     1 |          0 |              1
   2 |     2 |         10 |              1
   3 |     3 |         33 |              1
-...
+....
 
 SELECT experience
 FROM experience
