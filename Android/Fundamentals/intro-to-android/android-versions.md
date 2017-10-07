@@ -1,4 +1,4 @@
-﻿# Android versions
+# Android versions
 author: tlawson
 
 levels:

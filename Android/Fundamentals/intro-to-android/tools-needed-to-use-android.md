@@ -1,4 +1,4 @@
-﻿# Tools needed to use Android
+# Tools needed to use Android
 author: tlawson
 
 levels:
