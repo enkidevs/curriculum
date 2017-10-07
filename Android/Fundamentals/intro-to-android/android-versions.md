@@ -1,4 +1,4 @@
-﻿# android-versions
+﻿# Android versions
 author: tlawson
 
 levels:
@@ -25,10 +25,10 @@ Each successive Android version has added features and support for more devices.
 * Large screen resolution support
 * Multi-camera support
 
-The latest version for Android is Oreo. The major feature in Oreo is the notification dots allowing a user to view pending notifications. 
+The latest version for Android is Oreo. The major feature in Oreo is the notification dots allowing a user to view pending notifications.
 Other supported features within Oreo are:
 
-* Picture in Picture Video	
+* Picture in Picture Video
 * Password Autofill
 * Additional emojis
 * Notification Channels
