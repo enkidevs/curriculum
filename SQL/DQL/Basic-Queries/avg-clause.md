@@ -104,7 +104,7 @@ We will use the same segment of "experience" table for all aggregate functions:
 -- experience table:
 
 id  | level | experience | growth_rate_id
------+-------+------------+---------------
+====+=======+============+===============
   1 |     1 |          0 |              1
   2 |     2 |         10 |              1
   3 |     3 |         33 |              1
@@ -116,7 +116,7 @@ LIMIT 5;
 
 --Result:
 experience
-------------
+==========
      0
     10
     33
