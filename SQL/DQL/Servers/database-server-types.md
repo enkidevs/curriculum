@@ -13,29 +13,82 @@ category: must-know
 
 links:
 
-  - '[link to learn more](https://enki.com)'
+  - '[More on RDBMS](https://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems)'
 
 ---
 ## Content
 
-Insight content goes here
+There are a number of RDBMS servers available, each with different strengths:
+
+*MySQL* is one of the world's most popular, open source databases. It is most commonly used as a database for web applications. It pays an important role in the so called LAMP[1] web development stack. MySQL supports many different operating systems, such as: Microsoft Windows, Linux and Mac OS X.
+
+Some MySQL features:
+- ACID (Atomicy, consistency, Isolation, Durability)
+- transaction
+- referential integrity
+- unicode
+- multiversion concurrency
+- fine-grained locking
+
+*MS Access* it's an entry level database management software. It's a powerful database for small-scale projects. MS Access is the first choice of software developers to develop application software. It uses the Jet database engine to deploy a graphical user interface.
+
+Some MS Access features:
+- option of importing and exporting the data to many formats including Excel, Outlook, ASCII
+- ACID (Atomicy, consistency, Isolation, Durability)
+- transaction
+- referential integrity
+- unicode
+- multiversion concurrency
+- fine-grained locking
+
+*MS SQL Server* is a RDBMS server developed by Microsoft to store and retrieve data as requested by the user. It's suitable for different workloads and it uses primary query languages such as: T-SQL and ANSI SQL.
+
+Some MS SQL Server features:
+- database mirroring
+- ACID (Atomicy, consistency, Isolation, Durability)
+- transaction
+- referential integrity
+- unicode
+- multiversion concurrency
+- fine-grained locking
+- a large community of professional users
+
+*Oracle* is a multi-user database. It aims to manage big data collections among multiple clients requesting and sending data.  It's an excellent database server choice for client-server computing. It supports all major operating systems for both, clients and servers.
+
+Some Oracle features:
+- ACID (Atomicy, consistency, Isolation, Durability)
+- transaction
+- referential integrity
+- unicode
+- multiversion concurrency
+- fine-grained locking
 
 ---
 ## Practice
 
-What does the fox says?
+If we have a huge database with thousands of users sending and retreiving data. But we specifically need to be able to export data in Excel format. What tipe of RDBMS do you think will best fit their needs?
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+* MS Access
+* MS SQL server
+* MySQL
 
 ---
 ## Revision
 
-What does the fox says?
+Suppose you want to learn coding and you decided to build your first web application. You would like to use LAMP development stack. Which server would you choose for hosting your database?
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+* MySQL
+* MS Access
+* Oracle
+
+---
+## Footnotes
+
+[1:LAMP]
+It's a development stack formed of:
+- Linux
+- Apache
+- MySQL
+- PHP
