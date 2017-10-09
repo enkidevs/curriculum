@@ -14,6 +14,8 @@ category: must-know
 links:
 
   - '[More on connecting to a local server](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-2016-express-localdb)'
+  - '[More on connecting to a MySql local server](https://dev.mysql.com/doc/refman/5.7/en/connecting.html)'
+  - '[More on connecting to a Postgress local server](https://www.postgresql.org/docs/8.3/static/tutorial-accessdb.html)'
 
 ---
 ## Content

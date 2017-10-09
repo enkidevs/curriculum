@@ -13,7 +13,7 @@ category: must-know
 
 links:
 
-  - '[More on connecting to a remote server](https://enki.com)'
+  - '[More on connecting to a remote server](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu)'
 
 ---
 ## Content
@@ -32,6 +32,7 @@ Where:
 - `-Q` flag stands for query, `sqml` will exit after the query finishes
 - `-q` flag stands for query, but `sqml` doesn't exit when the query is finished
 
+Basically it's the same command as the one for connecting localy, but we need to specify the machine name or IP address for the -S parameter. And also make sure that port 1433 is open on our firewall.
 
 Note that instead `-S` flag, we can use `-D` specifying a data source name (DSN)[1] instead of a server name.
 
