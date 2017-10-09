@@ -2,16 +2,16 @@
 author: mihaiberq
 
 levels:
-    - beginner
-    - basic
+  - beginner
+  - basic
 
 type: normal
 
 category: must-know
 
 tags:
-    - introduction
-    - workout
+  - introduction
+  - workout
 
 ---
 ## Content
