@@ -21,7 +21,7 @@ links:
 The `MIN` clause returns the smallest value in a given column.
 The `MAX` clause returns the biggest value in a given column.
 
-Using `MIN` function:
+Using `MIN` function[1]:
 
 ```
 SELECT MIN(experience) FROM
