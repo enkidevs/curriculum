@@ -38,15 +38,6 @@ In *high-scale applications*, the volume of data transactions can be so big that
 
 A group of database servers (called a **Cluster**) can coordinate to share data across multiple physical pieces of hardware. This is used for very large databases, or for redundancy. For this reason, the term Database Server increasingly refers to the software, instead of the hardware.
 
----
-## Practice
-
-What does the fox says?
-???
-
-* right answer
-* wrong answer
-* wrong answer 2
 
 ---
 ## Revision
@@ -63,6 +54,3 @@ Speaking about a Cluster of servers, how many servers do the coordination?
 
 [1:Client-server model]
 Is a distributed communication framework over the network. It devides the tasks between providers of a resource/service (servers) and the ones that request a service/resource (clients).
-
-[2:inter-process communicaiton]
-Is a set of programming interfaces. It enables users to coordinate activities among different program processes that run concurrently. This allows a program to handle different user requests at the same time.
