@@ -19,13 +19,17 @@ links:
 ---
 ## Content
 
-Database Client is a piece of software (also known as Database Management Tool) that gets information from the Database Server which holds all the data. Database Client is essential for all the computers that want to have access to the database.
+A **Database Client** is any piece of software (also known as a *Database Management Tool*) that issues queries to a *Database Server*, which holds the data. A Database Client is essential to have access to the database, and there are many types.
+ - Software Packages (like pg in Node, or jdbc in Java)
+ - Command Line Applications
+ - GUI Interfaces
 
-As a user we do not need to know how out data gets allocated on the storage device and how the server configuration gets set up. So let's forget the backend part (server) of using a database and look at Database Client.
+
+As a client we do not need to know how out data gets allocated on the storage device and how the server configuration gets set up. So let's forget the backend part (server) of using a database and look at Database Client.
 
 Some of the Database Clients can act as one or both of the following things:
  - The end user GUI/command line database management system which is connected to the database server.
- - Intermediate level between other users' programs which require data and the database server.
+ - When used as a software package, it can act as an intermediary between other applications and the database that holds the data.
 
 ---
 ## Practice

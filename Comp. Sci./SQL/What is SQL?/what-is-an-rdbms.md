@@ -51,5 +51,5 @@ What is RDBMS (Relational Database Management System)?
 ???
 
 * It is a piece of software that sits on a server and operates the data using high level language.
-* It is a piece of software that operates the data using SQL or some other Query Language.
+* It is a software system that controlls the data and which can be adjusted by the user in order to boost the efficiency of data storage.
 * It is a system of servers/supercomputers that manages a Relational Database.

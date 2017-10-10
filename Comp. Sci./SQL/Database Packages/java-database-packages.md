@@ -100,7 +100,7 @@ NAME = yellow
 Operation done successfully
 ```
 
-**NOTE: please bookmark this insight if you want to access the database at your own time.**
+**NOTE: Bookmark this insight, and try connecting to the databae on your own!**
 
 ---
 ## Practice
@@ -124,5 +124,4 @@ What is a database driver?
 ???
 
 * It is a library in a certain language and it is specific to a certain DBMS
-* It is the software layer between the DBMS and the server it is running on
 * It is Java specific library which allows the user to connect to the MySQL database

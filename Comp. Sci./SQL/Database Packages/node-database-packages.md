@@ -20,7 +20,7 @@ links:
 ---
 ## Content
 
-Node is an another popular platform (available as a course for premium users) which uses Java Script. As there are lots of packages available for it we will take a look at some of the database packages:
+Node is another popular platform (available as a course for premium users) which uses Java Script. As there are lots of packages available for it we will take a look at some of the database packages:
  - mongoose (for MongoDB)
  - sqlite3
  - pg (for postgres)
@@ -72,7 +72,7 @@ The result of the following code should be similar to:
   anonymous { id: '10', name: 'yellow' } ]
 ```
 
-**NOTE: please bookmark this insight if you want to access the database at your own time.**
+**NOTE: Bookmark this insight, and try connecting to the databae on your own!**
 
 ---
 ## Practice

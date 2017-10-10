@@ -33,11 +33,10 @@ In order to make the SQL course more practical we at Enki have created a Postgre
  - user: ashketchum
  - password: iwannabetheverybest
 
-
- **NOTE: please bookmark this insight if you want to access the database at your own time.**
-
 Let's take PostgreSQL on MacOS X as an example. After the default installation (link provided in 'learn more' section), we have to go to */Library/PostgreSQL/9.6/bin* folder and run the `psql` binary file with proper arguments:
 `./psql "sslmode=require host=aws-us-east-1-portal.29.dblayer.com port=23336 dbname=pokemon user=ashketchum"`
+
+**NOTE: Bookmark this insight, and try connecting to the databae on your own!**
 
 ---
 ## Practice

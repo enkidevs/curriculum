@@ -30,3 +30,12 @@ What is SQL (Structured Query Language)?
 
 * A user friendly language that allows to operate on a database.
 * A low level/assembly language that is user to store information on a piece of hardware.
+
+---
+## Practice
+
+What does SQL stand for?
+
+* Structured Query Language
+* Standart Query Language
+* Semantic Query Language
