@@ -2,7 +2,7 @@ name: Introducing JavaScript
 
 type: insights-list
 
-description: Get familiar with one of the most popular programming languages.
+description: Get familiar with one of the most popular programming languages. 
 
 section: 0
 

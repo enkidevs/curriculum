@@ -2,11 +2,11 @@ name: Function Improvements
 
 type: insights-list
 
-description: Better functions! 
+description: Better functions!
 
 section: 0
 
-parent: string-number-extensions
+parent: stringing-it-all-together-game
 
 insights:
   - arrow-functions-part-1
