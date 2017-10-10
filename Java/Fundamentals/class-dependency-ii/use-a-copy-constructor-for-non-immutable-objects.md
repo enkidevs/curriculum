@@ -1,4 +1,4 @@
-# Use a copy constructor for non-immutable objects
+# Use a copy constructor for mutable objects
 author: adamMontgomerie
 
 levels:
@@ -64,29 +64,29 @@ A copy constructor provides a simpler and safer way to create a copy of an objec
 ---
 ## Revision
 
-Which of the following code snippets is the correct copy constructor for the example ‘Address’ constructor:
+Which of the following code snippets is the correct copy constructor for the ‘Address’ constructor:
 
 ```
 // Address Constructor  
-public Location(String country, 
+public Location(String country,
                 String city) {
-  this.country = country; 
+  this.country = country;
   this.city = city;
-} 
-// Option A 
+}
+// Option A
 public Location(Location loc) {
   currentObj(loc.getCountry(),
              loc.getCity());
-} 
-// Option B 
-public Location(Location loc) { 
-  this(loc.getCountry(), 
-       loc.getCity()); 
+}
+// Option B
+public Location(Location loc) {
+  this(loc.getCountry(),
+       loc.getCity());
 }
 // Option C
-public Location(Location loc) { 
+public Location(Location loc) {
   now(loc.getCountry(),
-      loc.getCity()); 
+      loc.getCity());
 }
 ```
 ???

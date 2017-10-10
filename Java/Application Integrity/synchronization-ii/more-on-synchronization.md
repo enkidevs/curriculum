@@ -42,7 +42,7 @@ class Counter {
 }
 ```
 
-There are also `booleans`, arrays, references and many other variables to know about.
+There are also `booleans`, arrays, references and many other variables worth knowing about.
 
 ---
 ## Revision

@@ -76,6 +76,11 @@ hostname
 Alternatively referred to as a computer name or sitename, a hostname is the name of the computer you're currently logged into or visiting. You can get all these information without the need of `sudo`.
 %
 
+shutdown -r now
+%exp
+Shutdown sets a time when the pc should be shut down. It is specified that the computer should be shutdown immediately. The latest versions of unix like OSs don't require sudo for this action anymore.
+%
+
 ```
 
 ```false
@@ -117,11 +122,6 @@ dpkg-reconfigure tzdata
 locale-gen
 %exp
 The output for this commad is formed of a set of shell variables and their values. All of them with regards to the language the user chose for the system. `sudo` is required to be able to use this command.
-%
-
-shutdown -r now
-%exp
-Shutdown sets a time when the pc should be shut down. It is specified that the computer should be shutdown immediately. `sudo` permissions are required here.
 %
 
 ifconfig en0 ether 72:00:02:9b:c3:f0

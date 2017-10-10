@@ -2,7 +2,7 @@ name: Types
 
 type: insights-list
 
-description: Types of JavaScript.
+description: Types of JavaScript. 
 
 section: 0
 
