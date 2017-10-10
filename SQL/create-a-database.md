@@ -13,29 +13,56 @@ category: must-know
 
 links:
 
-  - '[link to learn more](https://enki.com)'
+  - '[More about how to create a database](https://www.postgresql.org/docs/9.1/static/app-createdb.html)'
 
 ---
 ## Content
 
-Insight content goes here
+We will create a postgres database. Using the terminal we need to enter the following command:
+```
+CREATE DATABASE my_first_db;*
+```
+This command creates a new database called *"my_first_db"*.
+
+Note that PostgresSQL provides users with a command line executable for creating a database. Using:
+```
+createdb [options...] [dbname][description]
+```
+
+Parameters:
+- `options` command-line arguments, that the db accepts
+- `dbname` database name
+- `description` optional initial comment that can be added
+
+The `createdb` command is a wrapper around the transact SQL query `CREATE DATABASE`. The only difference is that the former can be run from the command line and it enables users to add a initial comment in the db.
+
 
 ---
 ## Practice
 
-What does the fox says?
+Create a new database called "practice_qw".
+```
+??? ??? ???
+```
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+* CREATE
+* DATABASE
+* practice_qw;
+* TABLE
+* DROP
+* practice_qw
 
 ---
 ## Revision
 
-What does the fox says?
-???
-
-* right answer
-* wrong answer
-* wrong answer 2
+Using `createdb` command, create a db called "test_db" and add an initial comment stating "DB created":
+```
+??? ??? "DB created"
+```
+* createdb
+* test_db
+* revision_qw
+* LIST
+* CREATE DATABASE
+* practice_qw
