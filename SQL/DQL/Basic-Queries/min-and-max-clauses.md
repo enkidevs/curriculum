@@ -86,7 +86,7 @@ SELECT ???(???) FROM ???
 ---
 ## Revision
 
-Consider the table "move_effect_change":
+Consider the table "move_effect_change". Choose the query that finds the move with the lowest effect:
 ```
 -- "move_effect_change"
 id | move_effect | version_group_id
@@ -102,7 +102,7 @@ id | move_effect | version_group_id
    8
 (1 row)
 ```
-???
+
 
 * SELECT MIN(move_effect) FROM move_effect_change;
 * SELECT MAX(move_effect) FROM move_effect_change;
