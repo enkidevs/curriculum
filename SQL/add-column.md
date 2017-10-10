@@ -1,5 +1,4 @@
 # Add Column
-# Add Trigger
 author: SebaRaba
 
 levels:
