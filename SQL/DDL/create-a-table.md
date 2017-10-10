@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-A table can be created in sql using the following query:
+A table can be created in PostgresSQL using the following query:
 ```
 CREATE TABLE first_table(
   column1 datatype NOT NULL,

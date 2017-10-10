@@ -13,33 +13,30 @@ category: must-know
 
 links:
 
-  - '[More about how to create a database](http://www.wikihow.com/Create-a-Database-in-MySQL)'
+  - '[More about how to create a database](https://www.postgresql.org/docs/9.1/static/app-createdb.html)'
 
 ---
 ## Content
 
-We will create a mysql database. Using the terminal we need to enter the following command:
+We will create a postgres database. Using the terminal we need to enter the following command:
 ```
-CREATE DATABASE my_first_db;
+CREATE DATABASE my_first_db;*
 ```
 This command creates a new database called *"my_first_db"*.
 
-Note that on Unix-like operating systems the database's name is case sensitive. However, on Windows operating systems this rule applies just inside the same **query**. So if we call it "my_first_db" at the beginning of the query, we must use lower case letters until the end of that query.
-
-An important thing to remember is that creating a db doesn't make it available for use by default. The following command enables users to use the created db:
+Note that PostgresSQL provides users with a command line executable for creating a database. Using:
 ```
-USE my_first_db;
+createdb [options...] [dbname][description]
 ```
 
-The following command lists all databases:
-```
-SHOW DATABASES;
-```
+Parameters:
+- `options` command-line arguments, that the db accepts
+- `dbname` database name
+- `description` optional initial comment that can be added
 
-Finally, to see which db is currently selected:
-```
-SELECT DATABASE();
-```
+The `createdb` command is a wrapper around the transact SQL query `CREATE DATABASE`. The only difference is that the former can be run from the command line and it enables users to add a initial comment in the db.
+
+
 ---
 ## Practice
 
@@ -59,15 +56,13 @@ Create a new database called "practice_qw".
 ---
 ## Revision
 
-First list all databases, then use the "revision_qw" database:
+Using `createdb` command, create a db called "test_db" and add an initial comment stating "DB created":
 ```
-??? DATABASES;
-
-??? ???;
+??? ??? "DB created"
 ```
-* SHOW
-* USE
+* createdb
+* test_db
 * revision_qw
 * LIST
-* DATABASE
+* CREATE DATABASE
 * practice_qw
