@@ -2,11 +2,11 @@ name: Destructuring
 
 type: insights-list
 
-description: Faster decomposing of data structures. 
+description: Faster decomposing of data structures.
 
 section: 1
 
-parent: spread-map-set-math
+parent: map-set-weakmap-weakset-game
 
 insights:
   - destructuring-part-1

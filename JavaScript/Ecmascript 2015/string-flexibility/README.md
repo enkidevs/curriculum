@@ -2,11 +2,11 @@ name: String Flexibility
 
 type: insights-list
 
-description: Get the most out of Strings. 
+description: Get the most out of Strings.
 
 section: 1
 
-parent: destructuring
+parent: destructuring-assignments-game
 
 insights:
   - tagged-template-literals

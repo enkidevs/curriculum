@@ -29,7 +29,7 @@ For example:
 print(not False)
 # prints True
 
-print((True) == (not True))
+print(True == (not True))
 # prints False
 ```
 

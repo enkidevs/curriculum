@@ -2,11 +2,11 @@ name: Symbol
 
 type: insights-list
 
-description: A new primitive type. 
+description: A new primitive type.
 
 section: 2
 
-parent: classes-modules
+parent: ecmascript-time-travel-game
 
 insights:
   - symbol

@@ -39,6 +39,7 @@ In order to better visualize which one has priority over the other, we can turn 
 ```text
 id priority > class priority > type priority
 ```
+
 The last step in calculating a selector's specificity is to see the above as the header of a table with three columns:
 ```
          id - class - type
@@ -50,16 +51,19 @@ For example, consider the following selector that aims to style a heading, neste
 ```css
 div div.my-class h2{}
 ```
+
 There are three *type* selectors (*div, div and h2*) and one *class* selector (*.my-class*). We can use the previous syntax to represent the **specificity** of the selector:
 ```text
 id - class - type
 0  -   1   -  3
 ```
+
 However, this should not be seen as a base 10 representation. Adding an id selector on top of 99 class selectors would yield:
 ```text
          id - class - type
 selector  1 -   99   -  0
 ```
+
 Moreover, when comparing two selectors, you should always be aware of one thing: it doesn't matter how many type or class basic selectors make up a more complex one, they will always be outweighed by a class or an id selector, respectively:
 ```text
          id - class - type
@@ -127,10 +131,10 @@ p#myParagraph .class1 div.class2 {}
 ```
 
 ???
-*0-1-2-2
-*0-1-2-1
-*1-1-1-2
-*1-0-0-4
+* 0-1-2-2
+* 0-1-2-1
+* 1-1-1-2
+* 1-0-0-4
 
 ---
 ## Revision

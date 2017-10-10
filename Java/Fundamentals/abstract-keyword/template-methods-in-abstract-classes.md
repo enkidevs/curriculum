@@ -39,14 +39,14 @@ public abstract class BaseClass{
     step1();
     step2();
   }
-  /*but leaves the implementation of 
+  /*but leaves the implementation of
   those steps to subclasses*/
   abstract void step1();
   abstract void step2();
 }
 
 public class SubClass extends BaseClass{
-  /*the subclass can override the steps 
+  /*the subclass can override the steps
   and provide specific implementations*/
   @Override
   void step1(){
@@ -62,22 +62,22 @@ public class SubClass extends BaseClass{
 ---
 ## Practice
 
-Template methods are a good way to prevent 
+Template methods are a good way to prevent
 ???.
-*code repetition
-*compilation issues
-*spelling mistakes
+* code repetition
+* compilation issues
+* spelling mistakes
 
 ---
 ## Revision
 
 Complete the following Java code snippet implementing the use of a base class:
 ```
-public abstract class bigClass { 
+public abstract class bigClass {
   abstract void render();
 }
-    
-public class smallerClass 
+
+public class smallerClass
          ??? bigClass {
   ???
   void render() {
@@ -86,11 +86,11 @@ public class smallerClass
 }
 ```
 
-*`extends` 
-*`@Override` 
-*`creates` 
-*`override` 
-*`implements` 
-*`@Implement` 
-*`@Create` 
-*`@Extends`
+* `extends`
+* `@Override`
+* `creates`
+* `override`
+* `implements`
+* `@Implement`
+* `@Create`
+* `@Extends`

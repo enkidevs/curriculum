@@ -1,4 +1,4 @@
-# A simple way to select a random item from a `list/tuple` data stucture
+# A simple way to select a random item from a `list/tuple` data structure
 author: Aaron7Sun
 
 levels:
@@ -51,15 +51,15 @@ Complete the following code snippet to select a random item from a list/tuple da
 
 ```
 rand_item = ???.???(items)
-``` 
+```
 
-*`random` 
-*`choice` 
-*`rand` 
-*`select` 
-*`sample` 
-*`choose` 
-*`randomise`
+* `random`
+* `choice`
+* `rand`
+* `select`
+* `sample`
+* `choose`
+* `randomise`
 
 ---
 ## Revision
@@ -70,10 +70,10 @@ Complete the following code snippet to select 2 random items from a list/tuple d
 rand_items = ???.???(items, 2)
 ```
 
-*`random` 
-*`sample` 
-*`choice` 
-*`rand` 
-*`select` 
-*`choose` 
-*`randomise`
+* `random`
+* `sample`
+* `choice`
+* `rand`
+* `select`
+* `choose`
+* `randomise`
