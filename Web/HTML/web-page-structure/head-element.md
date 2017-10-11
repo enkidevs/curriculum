@@ -1,4 +1,4 @@
-# Head
+# The `head` Element
 author: mihaiberq
 
 levels:

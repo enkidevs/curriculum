@@ -1,4 +1,4 @@
-# Body
+# The `body` Element
 author: mihaiberq
 
 levels:
