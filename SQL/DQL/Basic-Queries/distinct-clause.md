@@ -88,13 +88,13 @@ Consider the following table and the following query. Fill the gaps such that we
 | Stefan    | 68%    |
 | Raul      | 50%    |
 
-SELECET ???
+SELECT ???
 FROM ???
 ??? BY GRADES;
 ```
 
-* DISTINCT name
-* GRADES
-* ORDER
-* EMPLOYEES
-* *
+* `DISTINCT name`
+* `GRADES`
+* `ORDER`
+* `EMPLOYEES`
+* `*`
