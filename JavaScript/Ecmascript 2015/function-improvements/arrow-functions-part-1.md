@@ -78,7 +78,9 @@ planets.map(??? => ???);
 ---
 ## Revision
 
-Filter out all of the odd numbers:
+Filter out all of the odd numbers,
+such that only even numbers are present
+in the array.
 
 ```
 var integers = [1,2,3,4,5,6,7,8,9];
@@ -86,8 +88,8 @@ var integers = [1,2,3,4,5,6,7,8,9];
 integers.filter(???);
 ```
 
-* `(n) => {n % 2 == 0}`
-* `n => {return n % 2 === 0}`
-* `n => n % 2 === 0`
-* `{n} => {n % 2 == 0}`
+* `(n) => {return n % 2 == 0}`
+* `n => {n % 2 === 0}`
+* `n => n % 2 !== 0`
+* `{n} => {n % 2 != 0}`
 * `n => [return n % 2 === 0]`
