@@ -59,10 +59,10 @@ Chose the sequence that simulates an in-order traversal of the tree:
       F    E
 ```
 ???
-*B,F,A,C,E
-*F,B,E,C,A
-*A,B,F,C,E
-*B,F,A,E,C
+* B,F,A,C,E
+* F,B,E,C,A
+* A,B,F,C,E
+* B,F,A,E,C
 
 ---
 ## Revision
@@ -72,11 +72,13 @@ Chose the sequence that simulates an in-order traversal of the tree:
       A
     /   \
    B     C
-     \    \
-      F    E
+ /   \    \
+G      F    E
+  \        / 
+  H       I
 ```
 ???
-*B,F,A,C,E
-*F,B,E,C,A
-*A,B,F,C,E
-*B,F,A,E,C
+* G,H,B,F,A,I,E,C
+* F,B,E,C,A,H,I,D
+* A,B,F,C,E,D,I,H
+* B,F,A,E,C,D,H,I

@@ -2,7 +2,7 @@ name: Functions
 
 type: insights-list
 
-description: Basics of functions.
+description: Basics of functions. 
 
 section: 0
 
