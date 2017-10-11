@@ -12,4 +12,4 @@ insights:
   - paragraphs
   - headings-h1-h6
   - update-images
-  - hyperlinks
+  - update-hyperlinks

@@ -16,7 +16,7 @@ tags:
 ## Content
 
 
-New content to go here. The author must be updated to match a valid Enki account.
+There's another file to be updated on this topic, called `hyperlinks.md`. 
 
 ---
 ## Practice
