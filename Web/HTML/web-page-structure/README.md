@@ -10,6 +10,6 @@ parent: html-structure
 
 insights:
   - doctype
-  - html
-  - head
-  - body
+  - html-element
+  - head-element
+  - body-element

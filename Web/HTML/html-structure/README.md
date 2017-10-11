@@ -10,6 +10,6 @@ parent: web-introduction
 
 insights:
   - elements
-  - tags
+  - html-tags
   - attributes
   - comments

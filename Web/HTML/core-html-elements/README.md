@@ -11,5 +11,5 @@ parent: meta-elements
 insights:
   - paragraphs
   - headings-h1-h6
-  - images
+  - update-images
   - hyperlinks
