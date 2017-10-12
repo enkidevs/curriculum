@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  sql.aggregate-single-table : 40
+
 links:
 
   - '[More on GROUP BY](https://www.techonthenet.com/sql/group_by.php)'
