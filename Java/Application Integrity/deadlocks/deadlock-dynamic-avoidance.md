@@ -59,17 +59,17 @@ This of course can be expanded to multiple resource types.
 ## Practice
 
 Why is this an unsafe state?
+```
+A : 2k/10k
 
- A : 2 / 9
+B : 1k / 6k
 
- B : 1 / 6
+C : 2k / 5k
 
- C : 2 / 5
+D : 1k / 6k
 
- D : 1 / 6
-
- Free : 3
-
+Free : 3k
+```
 ???
 
 
