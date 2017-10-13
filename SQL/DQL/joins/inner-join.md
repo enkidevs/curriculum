@@ -56,7 +56,7 @@ id |       effect       |   short_effect   |
 ```
 To match the abilities that can be found in both tables, use the following `INNER JOIN` command:
 ```SQL
-SELECT ability.name, ability.generation_id,
+SELECT ability.name,
   ability_effect_text.effect
 FROM ability
 INNER JOIN ability_effect_text ON
@@ -64,15 +64,15 @@ ability.id = ability_effect_text.ability_id;
 ```
 The first 2 rows of the result would be:
 ```
-name   |   generation_id   |   effect
-=======+===================+============
-stench | 3 | This Pokémon's damaging moves
+name    |              effect
+========+==================================
+stench  | This Pokémon's damaging moves
   have a 10% to make the target flinch with
   each hit...
-             Overworld: The wild encounter
+         Overworld: The wild encounter
   rate is halved while this Pokémon is first
   in the party.
-drizzle| 3 | The weather changes to rain
+drizzle | The weather changes to rain
   when this Pokémon enters battle...
 ```
 
