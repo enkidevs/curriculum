@@ -17,7 +17,7 @@ links:
 ---
 ## Content
 
-*Annotations* is a way of describing the code without changing its functionality (in most cases). We can think of annotations as comments which compiler or JVM understand which can suppress or raise compile and run time errors.
+*Annotations* are a way of describing the code without changing its functionality (in most cases). We can think of annotations as comments which compiler or JVM understand and can suppress or raise compile and run time errors.
 
 Java provides you with some predefined annotations which is pretty much all that is used in practice, but of course you can create your own. Any custom annotation must start with `@interface` followed by the name, the contents of annotation are method with either default or undefined values, these method can be of these return types:
  * A primitive type
@@ -28,7 +28,7 @@ Java provides you with some predefined annotations which is pretty much all that
  * An array type whose component type is one of the preceding types
 
 Example:
-```
+```java
 @interface EnkiAnnotation {
    String author() default "Enki";
    String date();

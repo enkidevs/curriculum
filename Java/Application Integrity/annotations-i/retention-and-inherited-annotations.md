@@ -17,12 +17,12 @@ links:
 ## Content
 
 *Retention* annotation is a *meta annotation* i.e. it describes other annotations. In this case it used to choose at which stage of development this annotation is seen:
- * Visible in code by programmers only: `RetentionPolicy.SOURCE`
- * Stored in binary with the class it is applied to i.e. the compiler sees it but not JVM: `RetentionPolicy.CLASS`
- * Can be seen by JVM at runtime: `RetentionPolicy.RUNTIME`
+ - Visible in code by programmers only: `RetentionPolicy.SOURCE`
+ - Stored in binary with the class it is applied to i.e. the compiler sees it but not JVM: `RetentionPolicy.CLASS`
+ - Can be seen by JVM at runtime: `RetentionPolicy.RUNTIME`
 
 Example:
-```
+```java
 @Retention(RetentionPolicy.RUNTIME)
 @interface EnkiAnn {
   String name();
@@ -50,7 +50,7 @@ Where will `EnkiAnn` be available to access?
 
 ???
 
-What should the value be of a `RetentionPolicy` be in order for an annotation to be seen only in the source code?
+What should the value of a `RetentionPolicy` be in order for an annotation to be seen only in the source code?
 
 ???
 

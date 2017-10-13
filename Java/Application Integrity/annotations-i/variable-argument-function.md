@@ -16,16 +16,16 @@ links:
 ---
 ## Content
 
-**VarArgs** allows a function to accept a variable number of arguments in multiple forms, for example assume that our function takes `Strings` as arguments:
-```
+**VarArgs** allows a function to accept a variable number of arguments in multiple forms. For example, assume that our function takes `Strings` as arguments:
+```java
 public static void
-varArgsFunc(String... args) {
+  varArgsFunc(String... args) {
     //doEnki
 }
 ```
 
 `VarArgs` were introduced with *Java 1.5*. The key difference between accepting an array and this method is that this one is more general, i.e:
-```
+```java
 String[] args = {"Enki", "eNki", "enKi"};
 //both method calls work
 varArgsFunc(args);
@@ -33,14 +33,20 @@ varArgsFunc("Enki", "eNki", "enKi");
 ```
 
 Of course the arguments still have to be passed as "array", and the collection should be the last in the order of arguments, otherwise a compile time error will be raised, this is because the compiler assumes unlimited number of elements in the collection:
-```
-varArgsFunc(int A, String... string_array){
+```java
+varArgsFunc(int A, String... stringArray){
     //doEnki
 }
 //The reason is that Java does not know
 //where the collection ends
 varArgsFunc(5, "Enki", "eNki");
 ```
+
+## SafeVarargs
+
+**SafeVarargs** annotation refers to a method that makes use of multiple arguments under `VarArgs` declaration. The point of this annotation is to force compiler to raise an error upon a wrong usage of these arguments.
+
+Until Java 7, programmers had to implicitly specify `@SafeVarargs` to ensure that the compiler would throw a proper error. As of now, most compilers throw this error by themselves.
 
 ---
 ## Practice
