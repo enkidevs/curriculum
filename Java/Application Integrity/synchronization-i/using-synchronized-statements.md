@@ -49,11 +49,11 @@ public class Example {
 ```
 In this example the object providing the lock is `this`, which is the instance of `Example` that the method is being called in.
 
-You can lock instances of other classes well:
+You can lock instances of other classes as well:
 ```
 public class Example{
   private MyObject mo;
-  
+
   public void myMethod(){
     synchronized(mo){
       //code here

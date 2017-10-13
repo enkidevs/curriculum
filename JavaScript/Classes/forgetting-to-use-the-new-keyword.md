@@ -39,7 +39,7 @@ Using the `new` keyword creates and instantiates the new `Test` instance's conte
 var testB = new Test();
 console.log(testB.desc);
 // Enki explains best...
-``` 
+```
 With *ES6* classes using `new` is mandatory.
 If omitted, a `TypeError` is thrown.
 ```
@@ -55,25 +55,25 @@ let tb = Test();     // wrong!
 
 Which line raises a `TypeError` in **ES6**?
 ```javascript
-class Enki {}
-let e1 = new Enki(); //1
-let e2 = Enki(); //2
+class Enki {}//1
+let e1 = new Enki(); //2
+let e2 = Enki(); //3
 ```
 ???
-*`2`
-*`1`
-*`none`
+* `3`
+* `1`
+* `none`
 
 ---
 ## Revision
 
 Which line raises a `TypeError` in **ES6**?
 ```javascript
-class Enki {}
-let e1 = new Enki(); //1
-let e2 = Enki(); //2
+class Enki {}//1
+let e1 = new Enki(); //2
+let e2 = Enki(); //3
 ```
 ???
-*`2`
-*`1`
-*`none`
+* `3`
+* `1`
+* `none`
