@@ -94,7 +94,8 @@ SELECT * FROM
 (subquery);
 
 /* Syntax B */
-INSERT INTO table (column1, column2, column3)
+INSERT INTO table (column1, column2,
+    column3)
 VALUES (value1, 'value2', value3);
 
 /* Syntax C */
