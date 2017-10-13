@@ -36,7 +36,7 @@ move.type_id = type.id;
 However, if our **type** table had the extra `wood` type and there was an extra `coolest-move-ever` in the **move** table, both values would get printed, on top of the other 640 rows:
 ```
 id  |        name       |   id   | type_name
-====+===================+========+============
+====+===================+========+==========
 1   |        pound      |   1    |  normal
 ...
 1234| coolest-move-ever |  NULL  |   NULL
