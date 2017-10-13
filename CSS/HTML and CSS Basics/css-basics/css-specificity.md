@@ -28,75 +28,100 @@ links:
 ---
 ## Content
 
-Sometimes *CSS* does not behave in the way we want or expect it to. Suppose we have this piece of code:
+Although a difficult topic, understanding how properties can be overridden will make you more confident when writing CSS code.
+
+In the previous workout, we discussed about three basic types of selectors:
+ - type (`div`, `p`)
+ - class (`.container`, `.title`)
+ - id (`#contact`)
+
+In order to better visualize which one has priority over the other, we can turn the list into a horizontal one:
+```text
+id priority > class priority > type priority
 ```
-HTML:
-<ul id="dream-garage">
-   <li>Saleen S7R</li>
-   <li>Lamborghini Countach</li>         
-   <li>Ferrari F430 GT3</li>
-</ul>
+
+The last step in calculating a selector's specificity is to see the above as the header of a table with three columns:
 ```
-And now we want to hightlight the favourite one:
+         id - class - type
+selector  0 -   0   -  0  
 ```
-HTML:
-<ul id="dream-garage">
-   <li class="favourite">Saleen S7R</li>
-   <li>Lamborghini Countach</li>
-   <li>Ferrari F430 GT3</li>
-</ul>
-CSS:
-.favorite {
-  color: red;
-  font-weight: bold;
+For each basic selector that is part of a more complex one, we increment the value in the appropriate column.
+
+For example, consider the following selector that aims to style a heading, nested inside a div of class *my-class*, which is another div's child:
+```css
+div div.my-class h2{}
+```
+
+There are three *type* selectors (*div, div and h2*) and one *class* selector (*.my-class*). We can use the previous syntax to represent the **specificity** of the selector:
+```text
+id - class - type
+0  -   1   -  3
+```
+
+However, this should not be seen as a base 10 representation. Adding an id selector on top of 99 class selectors would yield:
+```text
+         id - class - type
+selector  1 -   99   -  0
+```
+
+Moreover, when comparing two selectors, you should always be aware of one thing: it doesn't matter how many type or class basic selectors make up a more complex one, they will always be outweighed by a class or an id selector, respectively:
+```text
+         id - class - type
+selector1  0 - 110  -  0
+selector2  1 -   0  -  0
+```
+In the above example, *selector2*'s styling is applied in case they target the same elements.
+
+Let's go back to the first example. Say we decide to give the heading the id of *title*:
+```css
+div div.my-class #title{}
+```
+And use two selectors to target the title of the page:
+```css
+div div.my-class #title{
+  font-size: 30px;
+}
+div div.my-class h2{
+  font-size: 40px;
 }
 ```
-But upon compilation we don't get our Saleen highlighted. And after looking through *CSS* document we find:
+If cascading alone was the way to go, the heading *font-size* would be 40. Taking specificity into account:
+```text
+                        id - class - type
+div div.my-class #title  1 -   1   -  2
+div div.my-class h2      0 -   1   -  3
 ```
-#dream-garage li {
-   font-weight: normal;                   
-   font-size: 12px;
-   color: black;
+The font size is *30*.
+
+As discussed earlier, inline CSS has the highest inherited specificity:
+```html
+<div>
+  <div class="my-class">
+    <h2 id="title"
+      style="font-size:20px;">
+      Title
+    </h2>
+  </div>
+</div>
+```
+We would have to add a new column to the previous notation in order to represent inline CSS specificity:
+```text
+internal - id - class - type
+    1    - 0  -   0   -  0
+```
+This means that no matter how specific a selector might be, it can never outweigh the inline styling.
+
+There are three other factors that influence the specificity of a selector. However, we won't go into details right now. All you have to know is:
+ - attribute selectors increment the middle value: `a[href="www.example.com"]` (targets hyperlinks that have the href equals to *www.example.com*) has `0-1-1` specificity.
+ - pseudo-classes increment the middle value as well: `li:nth-of-type(2n)` (targets list items with an even index) has `0-1-1` specificity.
+ - the `!important` keyword added to the end of a CSS declaration:
+
+```css
+/* `1-0-1-0-0` specificity. */
+#title{
+  font-size: 60px !important;
 }
 ```
-In this case, the id selector *"dream-garage"* is more **specific** than the *"favorite" class*, which effectively overrides the effect of the latter.
-**Specificity** determines which selector affects desired piece of *HTML* code and this goes in addition to *cascading*. Let's take a look at four different selector attributes and the *CSS* inline styling:
- - Inline styles
- - IDs
- - Classes, attributes and pseudo-classes
- - classesElements and pseudo-elements
-
-The ones at the bottom have the lowest *specificity* and are overridden by the styling under higher attributes. The way to calculate the *specificity* of a selector is to calculate the amount of each of the above attributes, the one with most of them wins.
-
-To put everything in terms of *cascading* (about which you should remember that styles defined later in the CSS file are the ones used): if selector A has a *higher specificity* than selector B, with A and B both defined in the same CSS file, A would effectively be placed below B.
-
-**NOTE: even 1 of more *specific* attributes counts more than any number of less *specific* attributes.**
-
-Example:
-```
-.favorite: 0 inline, 0 ID, 1 Class, 0 Elem
- in short: 0-0-1-0
-
-#dream-garage li: 0 inline, 1 ID,
-                           0 Class, 2 Elem
- in short: 0-1-0-2
-```
-
-
-There are some additional factors that influence the specificity of a selector:
- - `!important` keyword means an automatic win and can only be overridden by other `!important` with other higher specificities, this is through considered to be bad practice.
- ```css
- #title{
-   font-size: 60px !important;
- }
- ```
- - `not()` adds no value by itself but increases whatever is inside by one, in the following case it would add 1 Class attribute to the selector.
- ```
- div:not(.favourite) p {
-  color: white;
-}
- ```
-
 ---
 ## Practice
 
@@ -106,10 +131,10 @@ p#myParagraph .class1 div.class2 {}
 ```
 
 ???
-*0-1-2-2
-*0-1-2-1
-*1-1-1-2
-*1-0-0-4
+* 0-1-2-2
+* 0-1-2-1
+* 1-1-1-2
+* 1-0-0-4
 
 ---
 ## Revision
