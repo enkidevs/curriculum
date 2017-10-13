@@ -21,17 +21,17 @@ The `INSERT` operation allows new entries to be added to the table. The base syn
 INSERT INTO table
 VALUES (value1, value2, value3 ...);
 ```
-For example, to insert a new item in the `item` table:
+For example, to insert a new item in the `item` table, where every value other than *name* (which is `text`) is `bigint`:
 ```SQL
---- Name is the only text, rest are bigint
-
---- id | cost | fling_power |
---- item_category_id | item_fling_effect_id|
---- name
-
 INSERT INTO item
 VALUES (1230, 2500, 50, 33, DEFAULT,
   'bug-ball');
+```
+The column ordering in the schema is as follows:
+```
+id | cost | fling_power |
+item_category_id | item_fling_effect_id |
+name
 ```
 Without specifying any column names, the insertion is done in the order in which the columns are defined in the schema. `1230` is the `id`, `2500` is the `cost` and so on.
 
