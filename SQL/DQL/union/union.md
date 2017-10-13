@@ -29,9 +29,9 @@ FROM language
 UNION
 SELECT *
 FROM language_name;
--- ERROR:  each UNION query must have
--- the same number of columns
--- LINE 4: SELECT *
+/* ERROR:  each UNION query must have
+ the same number of columns
+ LINE 4: SELECT *  */
 
 ```
 As well as the next one:
@@ -41,9 +41,9 @@ FROM language
 UNION
 SELECT id, language_id
 from language_name;
--- ERROR:  UNION types text and bigint
--- cannot be matched
--- LINE 4: SELECT id, language_id
+/* ERROR:  UNION types text and bigint
+ cannot be matched
+ LINE 4: SELECT id, language_id   */
 ```
 Changing `language_id` to `name` fixes the errors:
 ```SQL
@@ -56,7 +56,7 @@ from language_name;
 With the output:
 ```
 id |       name       
----+------------------
+===+============
 16 | Chinese
 35 | Englisch
  2 | roomaji
@@ -80,7 +80,7 @@ from language_name;
 And the output:
 ```
 id  |       name       
-----+------------------
+====+============
   1 | ja
   2 | roomaji
   3 | ko

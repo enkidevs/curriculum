@@ -88,16 +88,16 @@ pokemon.id = pokemon_type.pokemon_id
 
 Which syntax can be used to insert values in non-consecutive columns?
 ```SQL
---- Syntax A
+/* Syntax A */
 INSERT INTO table
 SELECT * FROM
 (subquery);
 
---- Syntax B
+/* Syntax B */
 INSERT INTO table (column1, column2, column3)
 VALUES (value1, 'value2', value3);
 
---- Syntax C
+/* Syntax C */
 INSERT INTO table
 VALUES (value1, 'value2', value3);
 
