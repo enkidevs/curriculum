@@ -40,7 +40,7 @@ move.type_id = type.id;
 And the first row of the 640 rows result:
 ```
 id | name  | id | type_name   
-
+===+=======+====+==========
 1  | pound | 1  | normal
 ```
 The equivalent `RIGHT OUTER JOIN`:
@@ -54,19 +54,19 @@ move.type_id = type.id;
 Yields the same first row (of 640 rows):
 ```
 id | name  | id | type_name   
-
+===+=======+====+===========
 1  | pound | 1  | normal
 ```
 There shouldn't be any difference between the two outputs as every Pokémon, move, type or item is already in the game and `NULL` entries would probably break everything. However, if there was a move without a type in the DB (for the left join) or a type for which there are no moves (for the right join), the output would look like this:
 ```
 # Left Join
-id  | name              | id | type_name
-
+id  |        name       | id | type_name
+====+===================+====+===========
 1234| coolest-move-ever | NULL  | NULL
 
 # Right Join
 id    | name | id  | type_name   
-
+======+======+=====+============
 NULL  | NULL | 19  | wood
 ```
 
