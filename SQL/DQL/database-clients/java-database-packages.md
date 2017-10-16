@@ -100,7 +100,7 @@ NAME = yellow
 Operation done successfully
 ```
 
-**NOTE: Bookmark this insight, and try connecting to the databae on your own!**
+**NOTE: Bookmark this insight, and try connecting to the database on your own!**
 
 ---
 ## Practice

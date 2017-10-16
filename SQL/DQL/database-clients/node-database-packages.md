@@ -41,8 +41,6 @@ var conString =
 //create a new Postgres client
 var client = new pg.Client(conString);
 client.connect((err)=> {
-  //due to asynchronicity we must check    
-  //that the connection was successful
   if(!err){
     client.query(
       'SELECT * FROM pokemon_color',
@@ -72,7 +70,7 @@ The result of the following code should be similar to:
   anonymous { id: '10', name: 'yellow' } ]
 ```
 
-**NOTE: Bookmark this insight, and try connecting to the databae on your own!**
+**NOTE: Bookmark this insight, and try connecting to the database on your own!**
 
 ---
 ## Practice

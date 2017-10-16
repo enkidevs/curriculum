@@ -6,6 +6,8 @@ description: Connect to a SQL Database
 
 section: 0
 
+parent: database-clients
+
 insights:
   - what-is-a-database-server
   - database-server-types

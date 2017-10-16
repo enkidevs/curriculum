@@ -20,48 +20,50 @@ links:
 
 There are a number of RDBMS servers available, each with different strengths:
 
-*MySQL* is one of the world's most popular, open source databases. It is most commonly used as a database for web applications. It pays an important role in the so called LAMP[1] web development stack. MySQL supports many different operating systems, such as: Microsoft Windows, Linux and Mac OS X.
+*MySQL* is one of the world's most popular, open source databases. It is most commonly used as a database for web applications. It's the **M** in the LAMP[1] web development stack. MySQL supports many different operating systems, such as: Microsoft Windows, Linux and Mac OS X.
 
 Some MySQL features:
-- ACID (Atomicy, consistency, Isolation, Durability)
+- ACID (Atomicity, consistency, Isolation, Durability)
 - transaction
 - referential integrity
 - unicode
-- multiversion concurrency
+- multi-version concurrency
 - fine-grained locking
 
 *MS Access* it's an entry level database management software. It's a powerful database for small-scale projects. MS Access is the first choice of software developers to develop application software. It uses the Jet database engine to deploy a graphical user interface.
 
 Some MS Access features:
 - option of importing and exporting the data to many formats including Excel, Outlook, ASCII
-- ACID (Atomicy, consistency, Isolation, Durability)
+- ACID (Atomicity, consistency, Isolation, Durability)
 - transaction
 - referential integrity
 - unicode
-- multiversion concurrency
+- multi-version concurrency
 - fine-grained locking
 
 *MS SQL Server* is a RDBMS server developed by Microsoft to store and retrieve data as requested by the user. It's suitable for different workloads and it uses primary query languages such as: T-SQL and ANSI SQL.
 
 Some MS SQL Server features:
 - database mirroring
-- ACID (Atomicy, consistency, Isolation, Durability)
+- ACID (Atomicity, consistency, Isolation, Durability)
 - transaction
 - referential integrity
 - unicode
-- multiversion concurrency
+- multi-version concurrency
 - fine-grained locking
 - a large community of professional users
 
 *Oracle* is a multi-user database. It aims to manage big data collections among multiple clients requesting and sending data.  It's an excellent database server choice for client-server computing. It supports all major operating systems for both, clients and servers.
 
 Some Oracle features:
-- ACID (Atomicy, consistency, Isolation, Durability)
+- ACID (Atomicity, consistency, Isolation, Durability)
 - transaction
 - referential integrity
 - unicode
 - multiversion concurrency
 - fine-grained locking
+
+It is important you understand which server you use, as commands can differ slightly between them.
 
 ---
 ## Practice

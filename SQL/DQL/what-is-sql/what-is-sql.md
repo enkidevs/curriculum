@@ -37,5 +37,5 @@ What is SQL (Structured Query Language)?
 What does SQL stand for?
 
 * Structured Query Language
-* Standart Query Language
+* Standard Query Language
 * Semantic Query Language
