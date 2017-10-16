@@ -39,7 +39,7 @@ FROM pokemon;
 The above command gets only the `id`, `weight`, and `name` columns from the table, but keeps all of the rows of the `pokemon` table. Remember, the information is not deleted, you're simply **querying** the database, but doing so in a way where you only receive the information contained in the specified columns.
 
 ---
-# Practice
+## Practice
 Get all of the columns and rows from the `pokemon_form` table.
 
 ??? ???
