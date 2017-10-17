@@ -4,7 +4,7 @@ type: insights-list
 
 description: Learn the ropes of synchronization.
 
-section: 1
+section: 0
 
 parent: threading
 
