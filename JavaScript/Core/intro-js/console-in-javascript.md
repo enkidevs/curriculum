@@ -29,7 +29,8 @@ For example, `console.log` can print out a message or show details of an object:
 console.log("Username: " + username);
 // Username: enkilondon
 ```
-In JavaScript there is no specification for how `console.*` methods behave. Each environment adds its own methods and behaviour. 
+In JavaScript there is no specification for how `console.*` methods behave. Each environment adds its own methods and behaviour. For example, `console.*` statements can be viewed in Google Chrome by pressing `Ctrl+Shift+i`, and in Firefox by pressing `Ctrl+Shift+k`.
+
 
 It is considered best practice to not include any `console.*` methods in production code.
 
