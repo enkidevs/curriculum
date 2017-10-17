@@ -2,15 +2,13 @@ name: Annotations I
 
 type: insights-list
 
-description: Commonly encountered scenarios regarding annotations.
+description: When and how to use annotations.
 
 section: 0
 
 parent: testing-ii
 
 insights:
-  - use-javadoc-comments-to-describe-the-purpose-of-a-class-or-method
-  - use-override-to-explicitly-indicate-that-a-method-has-been-overridden
-  - the-distinction-between-checked-and-unchecked-exceptions
-  - using-super-to-access-overriden-methods
-  - specifying-an-annotation-retention-policy
+  - what-are-annotations
+  - retention-and-inherited-annotations
+  - variable-argument-function
