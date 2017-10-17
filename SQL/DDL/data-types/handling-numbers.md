@@ -27,6 +27,9 @@ It is worth noting that, while MySQL and MSSQL support both signed and unsigned 
 
 ### Bits
 
+A string of bits, up to 64 bits long:
+- `bit(n)`: where *n* is the maximum length (PSQL, MYSQL)
+
 ### Integers
 
 Called either `int` or `integer`, this data type accepts 32bit/4 bytes integers in all SQL implementations. In terms of range, there are some differences:
@@ -49,14 +52,22 @@ Available only in PSQL and MySQL, serials are unsigned auto-incrementing integer
 ### Reals and Floats
 
 They are used to store floating point numeric data. Most used data types are:
-- `numeric(m, d)`: *m* is the total number of digits and *d* is the number of digits after the decimal point (PSQL, MySQL, MSSQL)
+- `numeric(n, d)`: *n* is the total number of digits and *d* is the number of digits after the decimal point (PSQL, MySQL, MSSQL)
 - `real`: 32bit/4 bytes, single precision (PSQL, MSSQL)
-- `float(p)`: *p* is the precision in bits.   
+- `float(p)`: *p* is the precision in bits (MySQL) or a 64bit/8 bytes IEE-754 number (MSSQL)
+- `double precision`: 64bit/8 bytes IEEE-754 number (MySQL, PSQL)
 
 ### Booleans
 
+Datatype accepting `true` or `false` as values:
+- `bool`/`boolean`: PSQL, MySQL
+- MSSQL has no special `boolean` type, but its behavior can be simulated by `bit(1)`, with 0 for false and 1 for true
 
+### Money
 
+A datatype used to store currency values:
+- `money`: 64bit/8 byte - supports 2 decimals for PSQL and 4 decimals for MSSQL
+- MySQL has no currency data type, but `decimal(n, d)` can be used to simulate the behavior
 
 ---
 ## Practice
@@ -76,7 +87,7 @@ Which of the following datatypes is not a numeric type?
 
 Is the following statement true or false?
 ```
-Most SQL databases support a currency type.
+A PSQL database supports a special currency type.
 ???
 ```
 
