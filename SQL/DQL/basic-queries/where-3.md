@@ -27,7 +27,8 @@ In a `WHERE` clause, we can also use the keywords `LIKE` and `IN`. `LIKE` allows
 ```sql
 SELECT *
 FROM pokemon
-WHERE name IN ('charmander', 'squirtle', 'bulbasaur');
+WHERE name IN ('charmander',
+  'squirtle', 'bulbasaur');
 ```
 
 The n-tuple list of possible values given to `IN` is the list of possible values that the attribute must take in that column for it to be included in the query result. In this case, we will only get the rows of the three starter Pokémon: Charmander, Squirtle and Bulbasaur.
