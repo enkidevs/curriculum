@@ -43,7 +43,10 @@ Let's take PostgreSQL on MacOS X as an example. After the default installation (
 
 Fill in the connection string with correct arguments:
 
-./psql "sslmode=require host=??? port=??? dbname=??? user=???"
+./psql "sslmode=require
+ host=???
+ port=??? dbname=???
+  user=???"
 
 * aws-us-east-1-portal.29.dblayer.com
 * 23336
@@ -55,7 +58,10 @@ Fill in the connection string with correct arguments:
 
 Fill in the connection string with correct arguments:
 
-./psql "sslmode=require host=??? port=??? dbname=??? user=???"
+./psql "sslmode=require
+ host=???
+ port=??? dbname=???
+ user=???"
 
 * aws-us-east-1-portal.29.dblayer.com
 * 23336
