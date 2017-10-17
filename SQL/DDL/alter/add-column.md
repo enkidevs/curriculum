@@ -15,6 +15,9 @@ links:
 
   - '[More on ALTER TABLE](https://www.techonthenet.com/sql_server/tables/alter_table.php)'
 
+tags:
+  - workout
+
 ---
 ## Content
 

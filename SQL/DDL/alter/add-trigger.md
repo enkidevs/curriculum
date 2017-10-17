@@ -15,6 +15,9 @@ links:
 
   - '[More on CREATE TRIGGER](https://www.codeproject.com/Articles/25600/Triggers-SQL-Server)'
 
+tags:
+  - workout
+
 ---
 ## Content
 

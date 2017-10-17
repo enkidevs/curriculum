@@ -11,6 +11,10 @@ type: normal
 
 category: must-know
 
+tags:
+  - introduction
+  - workout
+
 links:
 
   - '[More about how to create a database](https://www.postgresql.org/docs/9.1/static/app-createdb.html)'
@@ -18,7 +22,7 @@ links:
 ---
 ## Content
 
-We will create a postgres database. Using the terminal we need to enter the following command:
+We will create a PostgreSQL database. Using the terminal we need to enter the following command:
 ```
 CREATE DATABASE my_first_db;*
 ```
