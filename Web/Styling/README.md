@@ -5,4 +5,4 @@ sections:
 description: Recipes, techniques and even more tips on how to enhance your CSS workflow.
 
 prerequisites:
-  - css-html and css basics
+  - web-html and css basics

@@ -6,4 +6,4 @@ sections:
 description: Fundamentals of HTML and CSS.
 
 next:
-  - css-styling
+  - web-styling
