@@ -6,8 +6,6 @@ description: When and how to use annotations.
 
 section: 0
 
-parent: testing-ii
-
 insights:
   - what-are-annotations
   - retention-and-inherited-annotations

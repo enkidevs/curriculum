@@ -4,3 +4,6 @@ sections:
   - 2
 
 description: Learn all about data, file and system manipulation.
+
+prerequisites:
+  - java-fundamentals

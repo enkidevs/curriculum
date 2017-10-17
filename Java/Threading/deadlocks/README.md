@@ -4,7 +4,7 @@ type: insights-list
 
 description: Understanding, preventing and recovering from deadlocks.
 
-section: 1
+section: 0
 
 parent: synchronization-ii
 

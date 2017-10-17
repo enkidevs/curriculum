@@ -4,7 +4,7 @@ type: insights-list
 
 description: More on synchronization.
 
-section: 1
+section: 0
 
 parent: synchronization-i
 
