@@ -15,6 +15,10 @@ links:
 
   - '[More on creatin a table](https://www.tutorialspoint.com/sql/sql-create-table.htm)'
 
+tags:
+  - introduction
+  - workout
+
 ---
 ## Content
 

@@ -15,6 +15,9 @@ links:
 
   - '[More on ADD CONSTRAINT](https://www.tutorialspoint.com/sql/sql-alter-command.htm)'
 
+tags:
+  - workout
+
 ---
 ## Content
 

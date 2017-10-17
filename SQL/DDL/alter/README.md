@@ -1,11 +1,16 @@
-name: Create
+  name: Alter
 
-type: insights-list
+  type: insights-list
 
-description: Create Databases, and add entities to your databases
+  description: Modify your database schema
 
-section: 0
+  section: 0
 
-insights:
-  - create-a-database
-  - create-a-table
+  parent: create
+
+  insights:
+    - add-column
+    - add-constraint
+    - add-default-value
+    - add-trigger
+    - add-rule
