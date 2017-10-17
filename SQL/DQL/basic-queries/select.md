@@ -1,5 +1,5 @@
 # SELECT
-author: lizthedeveloper
+author: lizTheDeveloper
 
 levels:
 
