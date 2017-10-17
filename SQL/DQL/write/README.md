@@ -1,4 +1,4 @@
-name: `INSERT`, `UPDATE`, and `DELETE`
+name: INSERT, UPDATE, and DELETE
 
 type: insights-list
 
