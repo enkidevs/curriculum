@@ -9,8 +9,8 @@ section: 0
 parent: annotations-i
 
 insights:
-  - declaring-repeatable-annotation-types
-  - including-annotations-in-javadoc
-  - restricting-an-annotation-s-application-by-using-target
-  - suppressing-warnings-using-suppresswarnings
-  - using-the-deprecated-annotation
+  - use-javadoc-comments-to-describe-the-purpose-of-a-class-or-method
+  - use-override-to-explicitly-indicate-that-a-method-has-been-overridden
+  - the-distinction-between-checked-and-unchecked-exceptions
+  - using-super-to-access-overriden-methods
+  - specifying-an-annotation-retention-policy
