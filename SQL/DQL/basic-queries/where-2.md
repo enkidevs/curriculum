@@ -27,7 +27,8 @@ The predicates we use in `WHERE` can be conjoined using logical operators like `
 ```sql
 SELECT *
 FROM pokemon
-WHERE name = 'charmander' OR name = 'metapod';
+WHERE name = 'charmander'
+  OR name = 'metapod';
 ```
 
 This shows the rows where the name is an exact match of either 'charmander' or 'metapod'.
@@ -43,7 +44,9 @@ This statement shows all rows **except** for the one where name is equal to 'cha
 ```sql
 SELECT *
 FROM pokemon
-WHERE (name = 'charmander' OR name = 'metapod') AND height > '5';
+WHERE (name = 'charmander'
+  OR name = 'metapod')
+    AND height > '5';
 ```
 
 Finally, you can also use the `BETWEEN` operator to define a range of acceptable values, like so:
