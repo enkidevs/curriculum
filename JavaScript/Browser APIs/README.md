@@ -5,7 +5,7 @@ sections:
 description: The browser. The mother of javascript. You'll work better, together.
 
 next:
-  - css-core
+  - javascript-node
 
 prerequisites:
   - javascript-core
