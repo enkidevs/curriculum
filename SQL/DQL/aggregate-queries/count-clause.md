@@ -40,7 +40,7 @@ AS result;
 ---
 ## Practice
 
-We have a table "location". It has data stating the reagion each location belongs to. We want to know how many locations are there in each reagion and display the result ordered by regions?
+We have a table "location". It has data stating the region each location belongs to. How many locations are there in each region? Display the result ordered by regions.
 ```
 -- location
 id  | region_id |      name           
@@ -81,7 +81,7 @@ count | region_id
 ---
 ## Revision
 
-Knowing that the pokemon db has a table called *item* and a field *name*, count all name entries?
+Knowing that the pokemon db has a table called `item` and a field `name`, count all name entries?
 ```
     ???
 --Result:
