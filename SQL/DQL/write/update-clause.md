@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-The `UPDATE` clause enables user to modify existing data from db. It is often used with the `WHERE` clause.
+The `UPDATE` clause enables user to modify existing rows in the database. It is often used with the `WHERE` clause to conditionally update data.
 
 Consider the following table:
 ```
@@ -131,7 +131,7 @@ We would like to update the table contents such that the last generation is gene
 ---
 ## Revision
 
-Considet the following table:
+Consider the following table:
 ```
 --gender
 id |    name    
