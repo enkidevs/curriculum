@@ -20,9 +20,8 @@ links:
 
 The `UPDATE` clause enables user to modify existing rows in the database. It is often used with the `WHERE` clause to conditionally update data.
 
-Consider the following table:
+Consider the `egg_group` table:
 ```
---egg_group:
 id |     name      
 ===+===============
  1 | monster
@@ -43,13 +42,12 @@ id |     name
 (15 rows)
 ```
 
-If we want to change the value "ditto" to "rabbit":
+If we want to change the value "ditto" to "rabbit", we use `SET`:
 ```
 UPDATE egg_group
 SET name = 'rabbit'
 WHERE ID= 13;
 
---Result:
 id |     name      
 ===+===============
  1 | monster
@@ -75,7 +73,6 @@ Note that if the `WHERE` clause isn't used all the values in the specified colum
 UPDATE egg_group
 SET name = 'rabbit';
 
---Result:
 id |     name      
 ===+===============
  1 | rabbit
@@ -99,9 +96,8 @@ id |     name
 ---
 ## Practice
 
-Consider the following table called "generation":
+Consider the `generation` table:
 ```
---generation:
 
 id | region_id |      name      
 ===+===========+===============
@@ -118,15 +114,14 @@ SET ???='generation-vii'
 WHERE id=???;
 ```
 We would like to update the table contents such that the last generation is generation "vii" instead of "vi".
-???
 
 * UPDATE
 * name
-* 6
+* CHANGE
 * WHERE
 * SET
-* 7
-* 8
+* NEW
+* region_id
 
 ---
 ## Revision
