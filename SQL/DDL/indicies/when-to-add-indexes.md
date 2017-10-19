@@ -1,4 +1,4 @@
-# When to add indexes
+# When to add Indices
 author: SebaRaba
 
 levels:
@@ -13,24 +13,24 @@ category: must-know
 
 links:
 
-  - '[More on CRETE INDEX](https://www.tutorialspoint.com/sql/sql-indexes.htm)'
+  - '[SQLMag Dos and Donts of indices](http://sqlmag.com/database-performance-tuning/indexing-dos-and-don-ts)'
 
 ---
 ## Content
 
-Indexes are meant to help SQL Servers to lookup data *faster*. However we need to pay attention at how often the data will be inserted, updated and deleted. That is because each time we modify data in an indexed table, the index needs to be updated as well. This can lead to *lower performance* in the end.
+Indices[1] are meant to help SQL Servers to lookup data *faster*. However we need to pay attention at how often the data will be inserted, updated and deleted. That is because each time we modify data in an indexed table, the index needs to be updated as well. This can lead to *lower performance* in the end.
 
-Thus, we should bear in mind the followings while creating indexes:
-- for tables that are heavily updated, use as few columns as possible under the same index
-- if the table contains a lot of data, but the data isn't modified that frequently, use as many indexes to improve performance
-- try to select columns with very little data in clustered indicies, large columns like `text` cause performance issues
+Thus, we should bear in mind the followings while creating Indices:
+- for tables that have frequent writes, use as few columns as possible under the same index
+- if the table contains a lot of data, but the data isn't modified that frequently, use as many Indices to improve performance
+- try to select columns with very little data in clustered indices, large columns like `text` cause performance issues
 - the more duplicates we have in a column, the lower the performance of the index
 - If we use more columns in a single index, the order is important because the table will be primarily sorted by the first index, and secondarily sorted by the second index, and so on
 
 
 Now, talking about queries' performance on indexed table:
 - try to compute as many rows as possible in a single query, rather writing multiple queries
-- create non-clustered indexes on columns used frequently in `JOIN` queries
+- create non-clustered Indices on columns used frequently in `JOIN` queries
 - indexing columns is important when working with exact-match queries
 ---
 ## Practice
@@ -94,3 +94,9 @@ id  | level | experience | growth_rate_id
 * UNIQUE
 * INDEX
 * level
+
+---
+## Footnotes
+
+[1:Indices]
+Reasonable people differ when they refer to the plural of Index. Some people use Indices, some use Indexes.

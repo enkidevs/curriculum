@@ -1,4 +1,4 @@
-# Create indexes
+# Create Indices
 author: SebaRaba
 
 levels:
@@ -13,16 +13,20 @@ category: must-know
 
 links:
 
-  - '[More on CREATE INDEX](https://enki.com)'
+  - '[PostgreSQL Create Index](https://www.postgresql.org/docs/9.1/static/sql-createindex.html)'
+  - '[MySQL Create Index](https://dev.mysql.com/doc/refman/5.7/en/create-index.html)'
+  - '[MSSQL Create Index](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-index-transact-sql)'
+  - '[OracleDB Create Index](https://docs.oracle.com/cd/B28359_01/server.111/b28310/indexes003.htm#ADMIN11722)'
+  - '[Create Index W3Schools](https://www.w3schools.com/sql/sql_create_index.asp)'
 
 ---
 ## Content
 
-Indexes play a big part in the *performance* of the SQL Server database. Indexes are created on **columns** in tables and they provide a fast way to look up data based on the *values*. For example when we index one **column** and want to search a row based on some *values* from that column. Then the SQL Server finds that *value* in the indexes and uses it to locate the whole row.
+Indices[1] play a big part in the *performance* of the SQL Server database. Indices are created on **columns** in tables and they provide a fast way to look up data based on the *values*. For example when we index one **column** and want to search a row based on some *values* from that column. Then the SQL Server finds that *value* in the indices and uses it to locate the whole row.
 
-There are two main types of indexes:
-- **clustered** - they store the actual data of the whole element's row. An important feature of the clustered indexes is that the indexed values are sorted in either ascending or descending order. This means that a table can only have one clustered index on it
-- **non-clustered** - they store only values from the indexed columns and the row locators to the actual data on the row. A table can have multiple non-clustered indexes associated with it
+There are two main types of indices:
+- **clustered** - they store the actual data of the whole element's row. An important feature of the clustered indices is that the indexed values are sorted in either ascending or descending order. This means that a table can only have one clustered index on it
+- **non-clustered** - they store only values from the indexed columns and the row locators to the actual data on the row. A table can have multiple non-clustered indices associated with it
 
 Note that a table with an clustered index on it is called *"clustered table"* and one with non-clustered only is called *"heap"*.
 
@@ -39,7 +43,7 @@ If we want to create a **clustered** index:
 CREATE UNIQUE INDEX index_name
 ON table_name (col1 DESC, col2 ASC, ...)
 ```
-This would create an index on the specified table and columns. The main difference between **non-clustered** and **clustered** indexes is that for the latter we need to specify the order in which we wand the entries to be ordered.
+This would create an index on the specified table and columns. The main difference between **non-clustered** and **clustered** indices is that for the latter we need to specify the order in which we wand the entries to be ordered.
 
 ---
 ## Practice
@@ -94,3 +98,8 @@ id | version_group_id |      name
 * CREATE UNIQUE INDEX "u_index" ON version (version_group_id ASC);
 * CREATE UNIQUE INDEX "u_index" ON version (version ASC);
 * CREATE INDEX "u_index" ON version (version_group_id ASC);
+---
+## Footnotes
+
+[1:Indices]
+Reasonable people differ when they refer to the plural of Index. Some people use Indices, some use Indexes.
