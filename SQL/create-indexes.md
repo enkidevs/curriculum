@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-Indexes are a big part in the *performance* of the SQL Server database. Indexes are created on **columns** in tables and they provide a fast way to look up data based on the *values*. For example when we index one **column** and want to search a row based on some *values* from that column. Then the SQL Server finds that *value* in the indexes and uses it to locate the whole row.
+Indexes play a big part in the *performance* of the SQL Server database. Indexes are created on **columns** in tables and they provide a fast way to look up data based on the *values*. For example when we index one **column** and want to search a row based on some *values* from that column. Then the SQL Server finds that *value* in the indexes and uses it to locate the whole row.
 
 There are two main types of indexes:
 - **clustered** - they store the actual data of the whole element's row. An important feature of the clustered indexes is that the indexed values are sorted in either ascending or descending order. This means that a table can only have one clustered index on it
