@@ -23,7 +23,7 @@ Indexes are meant to help SQL Servers to lookup data *faster*. However we need t
 Thus, we should bear in mind the followings while creating indexes:
 - for tables that are heavily updated, use as few columns as possible under the same index
 - if the table contains a lot of data, but the data isn't modified that frequently, use as many indexes to improve performance
-- try to keep columns as short as possible in clustered tables
+- try to select columns with very little data in clustered indicies, large columns like `text` cause performance issues
 - the more duplicates we have in a column the lower performance of the index we will get
 - if we keep more columns under the same index, the order is important
 
