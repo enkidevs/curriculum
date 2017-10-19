@@ -1,4 +1,4 @@
-# Handling Numbers
+# SQL Numeric Data Types
 author: mihaiberq
 
 levels:
@@ -19,7 +19,7 @@ tags:
 ---
 ## Content
 
-Probably the most used datatypes in tables are **numeric values**. They can be used for *id*s, *stats*, *attack points* etc. Even **true/false** (`bool`s or `boolean`s) values are considered to be numeric types.
+Probably the most used data types in tables are **numeric values**. They can be used for *id*s, *stats*, *damage points* etc. Even **true/false** (`bool`s or `boolean`s) values are considered to be numeric types.
 
 Most SQL implementations (PostgreSQL, MySQL, Microsoft SQL) have numeric types with the same capabilities, but under different names.
 
@@ -49,6 +49,8 @@ Bigger integers are as follows:
 
 Available only in PSQL and MySQL, serials are unsigned auto-incrementing integers. MySQL's `serial` defaults to 8 bytes values (`bigint`), while in PSQL all three variants are available (`smallserial`, `serial`, `bigserial`).
 
+Note: If you are looking to use serials as IDs, your best bet is unsigned `bigint`[1].
+
 ### Reals and Floats
 
 They are used to store floating point numeric data. Most used data types are:
@@ -59,20 +61,48 @@ They are used to store floating point numeric data. Most used data types are:
 
 ### Booleans
 
-Datatype accepting `true` or `false` as values:
+A data type accepting `true` or `false` as values:
 - `bool`/`boolean`: PSQL, MySQL
 - MSSQL has no special `boolean` type, but its behavior can be simulated by `bit(1)`, with 0 for false and 1 for true
 
 ### Money
 
-A datatype used to store currency values:
+A data type used to store currency values:
 - `money`: 64bit/8 byte - supports 2 decimals for PSQL and 4 decimals for MSSQL
 - MySQL has no currency data type, but `decimal(n, d)` can be used to simulate the behavior
+
+
+---
+## Footnotes
+
+[1: Serials]
+https://hackernoon.com/the-night-the-postgresql-ids-ran-out-9430a2dbb895
+
 
 ---
 ## Practice
 
-Which of the following datatypes is not a numeric type?
+Create a table PostgreSQL table with a serial ID column PK that is `bigint`:
+```SQL
+??? ??? gen_100_pokemon(
+  id ???,
+  name text,
+  PRIMARY KEY(???)  
+);
+```
+* `CREATE`
+* `TABLE`
+* `bigserial`
+* `id`
+* `DROP`
+* `COLUMN`
+* `serial`
+* `bigint`
+
+---
+## Revision
+
+Which of the following data types is not a numeric type?
 
 ???
 
@@ -81,15 +111,3 @@ Which of the following datatypes is not a numeric type?
 * bool
 * numeric
 * bigserial
-
----
-## Revision
-
-Is the following statement true or false?
-```
-A PSQL database supports a special currency type.
-???
-```
-
-* True
-* False
