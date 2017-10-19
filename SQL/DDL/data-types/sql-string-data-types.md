@@ -51,8 +51,8 @@ LC_CTYPE='en_US.UTF-8';
 MySQL allows for column-only encodings:
 ```SQL
 CREATE TABLE language(
-    name CHAR(10) CHARACTER SET utf8
-      COLLATE utf8_unicode_ci
+    name CHAR(10) CHARACTER SET utf8mb4
+      COLLATE utf8mb4_bin
 );
 ```
 MSSQL has special data types for Unicode characters:
