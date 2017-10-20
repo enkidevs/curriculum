@@ -29,13 +29,9 @@ Thus, we should bear in mind the followings while creating Indices:
 - try to select columns with very little data in clustered indices, large columns like `text` cause performance issues
 - the more duplicates we have in a column, the lower the performance of the index
 - If we use more columns in a single index, the order is important because the table will be primarily sorted by the first index, and secondarily sorted by the second index, and so on
+- indexing columns is most important when working with exact-match queries
 
 
-Now, talking about queries' performance on indexed table:
-- try to compute as many rows as possible in a single query, rather writing multiple queries
-- create non-clustered Indices on col columns like `text` cause performance issues
-- the more duplicates we have in a column, the lower the umns used frequently in `JOIN` queries
-- indexing columns is important when working with exact-match queries
 ---
 ## Practice
 
