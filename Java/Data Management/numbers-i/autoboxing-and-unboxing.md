@@ -19,7 +19,7 @@ links:
 ---
 ## Content
 
-*Java 5* introduced a new concept of auto converting *primitive types* into their corresponding *wrapper* classes and vice-versa. 
+*Java 5* introduced a new concept of auto converting *primitive types* into their corresponding *wrapper* classes and vice-versa.
 
 `Autoboxing` represents automatic conversion of *primitive type*  to the object of their corresponding *wrapper* classes.
 ```
@@ -51,8 +51,33 @@ Conversion table :
 What is the wrapper class of primitive `int` ?
 
 ???
-*Integer
-*integer
-*Int
-*Long
-*long
+* Integer
+* integer
+* Int
+* Long
+* long
+
+---
+## Quiz
+
+headline: What will be printed by the following code snippet?
+
+question: |
+  ```
+    int x = 5;
+    Integer X = new Integer(5);
+    Integer Y = new Integer(5);
+    if(x == X) {
+      System.out.print("int5");
+    }
+    if(X == Y) {
+      System.out.print("integer5");
+    }
+  ```
+
+answers:
+
+  - “int5”
+  - “integer5”
+  - “int5integer5”
+  - Nothing
