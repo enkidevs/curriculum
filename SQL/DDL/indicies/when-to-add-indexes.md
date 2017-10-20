@@ -30,7 +30,8 @@ Thus, we should bear in mind the followings while creating Indices:
 
 Now, talking about queries' performance on indexed table:
 - try to compute as many rows as possible in a single query, rather writing multiple queries
-- create non-clustered Indices on columns used frequently in `JOIN` queries
+- create non-clustered Indices on col columns like `text` cause performance issues
+- the more duplicates we have in a column, the lower the umns used frequently in `JOIN` queries
 - indexing columns is important when working with exact-match queries
 ---
 ## Practice
@@ -38,7 +39,7 @@ Now, talking about queries' performance on indexed table:
 Consider the "experience" table. We want to create a non-clustered index on the "experience" column:
 ```
 id  | level | experience | growth_rate_id
------+-------+------------+----------------
+====+=======+============+================
   1 |     1 |          0 |              1
   2 |     2 |         10 |              1
   3 |     3 |         33 |              1
@@ -62,38 +63,28 @@ id  | level | experience | growth_rate_id
 * UNIQUE
 * INDEX
 * level
-
 
 ---
 ## Revision
 
-Consider the "experience" table. We want to create a non-clustered index on the "experience" column:
+Consider the item table:
 ```
-id  | level | experience | growth_rate_id
------+-------+------------+----------------
-  1 |     1 |          0 |              1
-  2 |     2 |         10 |              1
-  3 |     3 |         33 |              1
-  4 |     4 |         80 |              1
-  5 |     5 |        156 |              1
-  6 |     6 |        270 |              1
-  7 |     7 |        428 |              1
-  8 |     8 |        640 |              1
-  9 |     9 |        911 |              1
- 10 |    10 |       1250 |              1
- 11 |    11 |       1663 |              1
-...
+id  | cost  |    name       
+====+=======+============
+  1 |     0 | master-ball
+  2 |  1200 | ultra-ball
+  3 |   600 | great-ball
+  4 |   200 | poke-ball
 
-??? INDEX exp_index
-??? experience (???)
+    ???
+
 ```
 
-* CREATE
-* ON
-* experience
-* UNIQUE
-* INDEX
-* level
+Suppose that `PRIMARY KEY` isn't set yet. Choose the query that will create a clustered index on the `id` column.
+
+* CREATE UNIQUE INDEX id_clustered ON item(id);
+* CREATE UNIQUE INDEX id_clustered ON item(cost);
+* CREATE INDEX id_clustered ON item(id);
 
 ---
 ## Footnotes
