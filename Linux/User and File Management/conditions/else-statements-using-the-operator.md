@@ -12,8 +12,8 @@ type: normal
 category: must-know
 
 tags:
-
   - chaining operators
+
 
 ---
 ## Content

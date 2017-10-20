@@ -14,20 +14,15 @@ type: normal
 category: how to
 
 tags:
-
   - linux
-
   - apropos
-
   - search
-
   - command
-
   - terminal
-
   - find
-
   - ''
+  - workout
+
 
 ---
 ## Content

@@ -18,6 +18,9 @@ links:
   - >-
     [Permissions](https://wiki.archlinux.org/index.php/File_permissions_and_attributes){website}
 
+tags:
+  - introduction
+  - workout
 ---
 ## Content
 

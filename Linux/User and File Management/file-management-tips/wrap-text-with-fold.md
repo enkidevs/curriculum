@@ -18,6 +18,8 @@ links:
   - >-
     [www.tutorialspoint.com](http://www.tutorialspoint.com/unix_commands/fold.htm){website}
 
+tags:
+  - workout
 ---
 ## Content
 

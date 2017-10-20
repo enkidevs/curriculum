@@ -10,16 +10,15 @@ type: normal
 category: must-know
 
 tags:
-
   - linux
-
   - permissions
-
   - umask
-
   - terminal
-
   - files
+  - obscura
+  - workout
+  - deep
+
 
 ---
 ## Content

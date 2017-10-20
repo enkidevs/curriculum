@@ -17,6 +17,9 @@ links:
 
   - '[www.tecmint.com](http://www.tecmint.com/35-practical-examples-of-linux-find-command/){website}'
 
+tags:
+  - introduction
+  - workout
 ---
 ## Content
 

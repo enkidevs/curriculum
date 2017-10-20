@@ -14,16 +14,13 @@ type: normal
 category: best practice
 
 tags:
-
   - updatedb
-
   - mlocate
-
   - locate
-
   - find files
-
   - indexing filesystem
+  - workout
+
 
 notes: ''
 

@@ -16,16 +16,13 @@ type: normal
 category: hack
 
 tags:
-
   - bash
-
   - terminal
-
   - linux
-
   - hide
-
   - bash history
+  - workout
+
 
 notes: ''
 

@@ -14,18 +14,14 @@ type: normal
 category: how to
 
 tags:
-
   - secure delete
-
   - shred
-
   - erase
-
   - terminal
-
   - linux
-
   - forensics
+  - workout
+
 
 links:
 

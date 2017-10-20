@@ -14,14 +14,13 @@ type: normal
 category: how to
 
 tags:
-
   - linux
-
   - chattr
-
   - unalterable
-
   - terminal
+  - obscura
+  - workout
+
 
 ---
 ## Content

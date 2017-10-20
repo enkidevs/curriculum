@@ -15,24 +15,17 @@ type: normal
 category: must-know
 
 tags:
-
   - linux
-
   - terminal
-
   - user
-
   - userdel
-
   - delete
-
   - add
-
   - useradd
-
   - bash
-
   - chfn
+  - workout
+
 
 ---
 ## Content

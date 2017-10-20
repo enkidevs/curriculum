@@ -14,18 +14,15 @@ type: normal
 category: how to
 
 tags:
-
   - linux
-
   - user
-
   - group
-
   - terminal
-
   - sudo
-
   - usermod
+  - workout
+  - introduction
+
 
 ---
 ## Content
