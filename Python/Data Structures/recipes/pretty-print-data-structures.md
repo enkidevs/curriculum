@@ -36,7 +36,7 @@ pprint.pprint(data)
 
 ```
 
-The module also provides a way of formating data structures into strings for other purposes (e.g. logging):
+The module also provides a way of formatting data structures into strings for other purposes (e.g. logging):
 ```python
 data = [(x, {y: y * y for y in range(2)})
         for x in range(4)]
@@ -59,3 +59,12 @@ print(pprint.isreadable(data))
 ```
 
 In addition, a `PrettyPrinter` object can be created.
+
+---
+## Revision
+
+What library provides pretty printing of data structures in *Python*? ???
+
+* `pprint`
+* `draw`
+* `superdraw`
