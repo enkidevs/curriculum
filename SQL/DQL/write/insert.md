@@ -4,12 +4,13 @@ author: mihaiberq
 levels:
   - beginner
   - basic
+  - medium
 
 type: normal
 
 category: must-know
 
-standards: 
+standards:
   sql.write: 10
 
 tags:

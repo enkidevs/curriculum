@@ -7,6 +7,10 @@ levels:
 
   - basic
 
+  - medium
+
+
+
 type: normal
 
 inAlgoPool: false

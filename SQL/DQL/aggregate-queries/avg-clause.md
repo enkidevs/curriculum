@@ -7,11 +7,15 @@ levels:
 
   - basic
 
+  - medium
+
+  - advanced
+
 type: normal
 
 category: must-know
 
-standards: 
+standards:
   sql.aggregate-single-table: 10
 
 links:
