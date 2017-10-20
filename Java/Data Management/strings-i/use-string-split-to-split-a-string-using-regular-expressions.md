@@ -27,10 +27,10 @@ links:
 ---
 ## Content
 
-`split` takes a regular expression and splits the string around occurrences of this expression into an array of strings. 
+`split` takes a regular expression and splits the string around occurrences of this expression into an array of strings.
 ```
-String s = "I ate 6 pancakes, 4 
-  digestives, 2 boxes of cherries, then 
+String s = "I ate 6 pancakes, 4
+  digestives, 2 boxes of cherries, then
   I went to bed";
 String[] sub1 = s.split(",");
 String[] sub2 = s.split("\d");
@@ -48,9 +48,28 @@ Splitting on `,`:
 ```
 Splitting on `\d`:
 ```
-{ "I ate", 
-  "pancakes,", 
+{ "I ate",
+  "pancakes,",
   "digestives and",
   "boxes of cherries, then I went to bed"
 }
 ```
+Java’s split method ignores any trailing empty Strings.
+
+
+---
+## Quiz
+
+headline: quiz title
+
+question: |
+
+  int l = "Hi-there-are-you-alright---".split("-").length +
+      "---Hi-there-are-you-alright".split("-").length;
+
+answers:
+
+  - 13
+  - 10
+  - 16
+  - 12

@@ -16,7 +16,7 @@ category: must-know
 
 **Polymorphism** is a principle in object-oriented programming that refers to the ability of *child classes* to define their own behavior, while also sharing some functionalities with the *parent class*.
 
-In other words, it is the ability of an object to take different forms. 
+In other words, it is the ability of an object to take different forms.
 
 To demonstrate a polymorphic feature, let `FamilyCar` extend the `Car` class. Because a `FamilyCar` object might have the same `noDoors` as a normal car, but more seats, it makes sense to include this field:
 ```
@@ -86,16 +86,52 @@ FamilyCar fCar = new FamilyCar(
 fCar.start();
 // ???
 ```
-*The 5 seat car starts!
-*The car starts!
-*The turbocharged car starts!
-*The 5 door car starts!
+* The 5 seat car starts!
+* The car starts!
+* The turbocharged car starts!
+* The 5 door car starts!
 
 ---
 ## Revision
 
 Polymorphism refers to the ability of an object to ???
 
-*have multiple forms.
-*inherit the parent's properties.
-*extend the parent's forms.
+* have multiple forms.
+* inherit the parent's properties.
+* extend the parent's forms.
+
+---
+## Quiz
+
+headline: What will this output?
+
+question: |
+
+```
+  class Main {
+    private final String name;
+      Main(String name) {
+          this.name = name;
+      }
+      private String name() {
+          return name;
+      }
+      private void say() {
+          new Main("Stinky") {
+              void printName() {
+                  System.out.println(name());
+              }
+          }.printName();
+      }
+      public static void main(String[] args) {
+          new Main("Lessy").say();
+      }
+  }
+```
+
+answers:
+
+  - Lessy
+  - Stinky
+  - Error: name() has private access
+  - Error: cannot find symbol name()
