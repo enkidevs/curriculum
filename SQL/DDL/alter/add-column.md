@@ -19,6 +19,9 @@ inAlgoPool: false
 
 parent: create-a-table
 
+standards:
+  sql.define-columns: 10
+
 links:
 
   - '[More on ALTER TABLE](https://www.techonthenet.com/sql_server/tables/alter_table.php)'

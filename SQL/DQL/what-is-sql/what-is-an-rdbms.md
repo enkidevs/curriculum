@@ -13,6 +13,9 @@ category: must-know
 
 inAlgoPool: false
 
+standards:
+  sql: 5
+
 links:
 
   - '[What is Relational Database?](http://searchsqlserver.techtarget.com/definition/relational-database)'
