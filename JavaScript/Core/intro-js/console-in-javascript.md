@@ -29,9 +29,29 @@ For example, `console.log` can print out a message or show details of an object:
 console.log("Username: " + username);
 // Username: enkilondon
 ```
+
+A few other useful console methods include:
+Sending a warning to the console.
+```
+console.warn("Resource not changed")
+```
+Sending an error message to the console.
+```
+console.error("File not found!")
+```
+Viewing the current stack trace.
+```
+console.trace()
+```
+
+
 In JavaScript there is no specification for how `console.*` methods behave. Each environment adds its own methods and behaviour. 
 
-It is considered best practice to not include any `console.*` methods in production code.
+When creating a web application, the use of `console.*` is critical for quickly debugging problems. Whenever you need more information on a variable, or would like to know where your code stops working, you should apply a console statement at the area in question. `console.*` statements can be viewed in Google Chrome by pressing `Ctrl+Shift+i`, and in Firefox by pressing `Ctrl+Shift+k`.
+
+In addition to this, `console.*` can be used to pipe information to `stdout` in NodeJS.
+
+**It is considered best practice to not include any `console.*` methods in production code.**
 
 ---
 ## Practice
