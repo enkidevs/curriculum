@@ -15,6 +15,7 @@ tags:
   - linux
   - sudo
   - password
+  - workout
 
 
 notes: ''

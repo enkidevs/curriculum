@@ -15,6 +15,8 @@ tags:
   - permissions
   - chmod
   - setuid
+  - deep
+  - workout
 
 
 notes: ''
@@ -22,9 +24,9 @@ notes: ''
 ---
 ## Content
 
-When set-user identification (`setuid`) permission is set on an executable file, a process that runs this file is granted access based on the owner of the file, rather than the user who is running the executable file. 
+When set-user identification (`setuid`) permission is set on an executable file, a process that runs this file is granted access based on the owner of the file, rather than the user who is running the executable file.
 
-This special permission allows a user to access files and directories that are normally only available to the owner. For example, the `setuid` permission on the `passwd` command makes it possible for a user to change its password, assuming the permissions of the root: 
+This special permission allows a user to access files and directories that are normally only available to the owner. For example, the `setuid` permission on the `passwd` command makes it possible for a user to change its password, assuming the permissions of the root:
 ```
 $ ll /usr/bin/passwd
  -rwsr-xr-x 1 root /usr/bin/passwd*
@@ -40,7 +42,7 @@ $ chmod +s file
 ---
 ## Practice
 
-Which of the following is an alternate description of what `setuid` does? 
+Which of the following is an alternate description of what `setuid` does?
 
 ???
 *It allows users to run an executable with the permissions of the file's owner.

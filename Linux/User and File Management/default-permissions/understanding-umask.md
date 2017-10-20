@@ -15,6 +15,9 @@ tags:
   - umask
   - terminal
   - files
+  - obscura
+  - workout
+  - deep
 
 
 ---

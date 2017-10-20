@@ -18,6 +18,8 @@ tags:
   - chattr
   - unalterable
   - terminal
+  - obscura
+  - workout
 
 
 ---

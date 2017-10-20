@@ -20,6 +20,8 @@ tags:
   - terminal
   - sudo
   - usermod
+  - workout
+  - introduction
 
 
 ---
