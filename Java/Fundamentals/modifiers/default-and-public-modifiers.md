@@ -83,25 +83,3 @@ Which is the *default* keyword modifier?
 * public
 * protected
 * modifier
-
-
----
-## Quiz
-
-headline: What will the value of this variable be?
-
-question: |
-  // What will the value of j be?
-
-  int j = 0;
-  for (int i = 0; i < 100; i++){
-    j = j++;
-  }
-  System.out.println(j);
-
-answers:
-
-  - 0
-  - 1
-  - 100
-  - 99
