@@ -34,12 +34,10 @@ for letter, number, squares in zipped_list
 ```
 
 ---
-## Practice
-
----
 ## Revision
 
-Sometimes it might be useful to combine lists into tuples in the way:
+How would we get the `tuple` array from putting the `letters` and `values` arrays together?
+
 ```
 letters = ['a', 'b', 'c']
 values = [1, 2, 3]
