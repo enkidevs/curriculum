@@ -59,18 +59,3 @@ The default type of `5.30` is ???
 *int
 *long
 
----
-## Quiz
-
-headline: Which single boolean should be negated for the output to be `true`?
-
-question: |
-
-  System.out.println(true?false:true==true?false:true);
-                      1     2    3          4
-
-answers:
-  - 2
-  - 1
-  - 3
-  - 4 
