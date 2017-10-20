@@ -16,7 +16,7 @@ category: must-know
 
 The **default** case is the one in which no keyword is present. A variable with no modifier is implicitly accessible by *all the classes* in the *package*.
 
-This is what we have used until now: 
+This is what we have used until now:
 ```
 String model;
 
@@ -67,10 +67,10 @@ Otherwise it couldn't be called by the Java interpreter.
 What do you have to do to use a public class from another package?
 
 ???
-*Import that package.
-*Nothing.
-*Extend the class.
-*Write a getter.
+* Import that package.
+* Nothing.
+* Extend the class.
+* Write a getter.
 
 ---
 ## Revision
@@ -78,8 +78,30 @@ What do you have to do to use a public class from another package?
 Which is the *default* keyword modifier?
 
 ???
-*no keyword
-*default
-*public
-*protected
-*modifier
+* no keyword
+* default
+* public
+* protected
+* modifier
+
+
+---
+## Quiz
+
+headline: What will the value of this variable be?
+
+question: |
+  // What will the value of j be?
+
+  int j = 0;
+  for (int i = 0; i < 100; i++){
+    j = j++;
+  }
+  System.out.println(j);
+
+answers:
+
+  - 0
+  - 1
+  - 100
+  - 99
