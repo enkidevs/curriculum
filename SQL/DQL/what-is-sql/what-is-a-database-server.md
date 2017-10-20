@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  sql.connect-client: 5
+
 links:
 
   - '[More on database servers](http://ecomputernotes.com/fundamental/what-is-a-database/what-is-a-database-server)'
@@ -27,7 +30,7 @@ When we're referring to the software, we're talking about the program that recei
 Database servers can:
 - Read data
 - Store data
-- Analyse data
+- Analyze data
 - Validate data against a Schema
 
 In a *small application*, something like a side project, the application and database will usually be hosted on the same computer, meaning they won't need to communicate over a network.
@@ -53,4 +56,4 @@ Speaking about a Cluster of servers, how many servers do the coordination?
 ## Footnotes
 
 [1:Client-server model]
-Is a distributed communication framework over the network. It devides the tasks between providers of a resource/service (servers) and the ones that request a service/resource (clients).
+Is a distributed communication framework over the network. It divides the tasks between providers of a resource/service (servers) and the ones that request a service/resource (clients).

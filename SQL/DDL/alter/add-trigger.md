@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  sql.define-sequences-or-default-values: 10
+
 links:
 
   - '[More on CREATE TRIGGER](https://www.codeproject.com/Articles/25600/Triggers-SQL-Server)'

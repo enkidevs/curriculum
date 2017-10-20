@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  sql.connect-client: 5
+
 links:
 
   - '[More on RDBMS](https://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems)'

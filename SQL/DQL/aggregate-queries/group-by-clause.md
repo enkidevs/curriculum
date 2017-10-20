@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  sql.aggregate-single-table: 10
+
 links:
 
   - '[More on GROUP BY](https://www.techonthenet.com/sql/group_by.php)'
@@ -51,7 +54,7 @@ count | language_id
 We have a table called pokemon. Two of its fields are:
 - is_default - it can be either true or false
 - name
-We want to know how many pokemons are (not) default:
+We want to know how many pokemon are (not) default:
 ```
 SELECT ???(name),???
 FROM pokemon

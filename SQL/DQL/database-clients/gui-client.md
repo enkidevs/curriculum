@@ -11,6 +11,9 @@ type: normal
 
 category: feature
 
+standards:
+  sql.connect-client: 10
+
 links:
 
   - '[Top 10 GUI Database Tools](https://techtalk.gfi.com/top-10-free-database-tools-for-sys-admins/)'

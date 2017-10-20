@@ -13,6 +13,9 @@ type: normal
 
 category: must-know
 
+standards:
+  sql.read-single-table: 10
+
 links:
 
   - '[SQL Tutorial: WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/)'

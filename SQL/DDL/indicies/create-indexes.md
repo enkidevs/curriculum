@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  sql.attach-indices: 10
+
 links:
 
   - '[PostgreSQL Create Index](https://www.postgresql.org/docs/9.1/static/sql-createindex.html)'

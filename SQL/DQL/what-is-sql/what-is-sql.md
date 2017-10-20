@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  sql: 5
+
 links:
 
   - '[More Query Languages](https://en.wikipedia.org/wiki/Query_language)'

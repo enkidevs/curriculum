@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  sql.define-sequences-or-default-values: 10
+
 links:
 
   - '[More on ADD DEFAULT](https://www.w3schools.com/sql/sql_default.asp)'

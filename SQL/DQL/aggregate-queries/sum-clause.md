@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  sql.aggregate-single-table: 10
+
 links:
 
   - '[More on aggregate functions](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql)'
@@ -20,7 +23,7 @@ links:
 
 `SUM` come in handy when we need to perform numerical addition.
 
-Following, we will see some examples based on a database (called pokemon database) that we set up for this purpose. Frist, we will extract a limited number of entries[1]:
+Following, we will see some examples based on a database (called pokemon database) that we set up for this purpose. First, we will extract a limited number of entries[1]:
 ```
 -- experience table:
 
@@ -65,7 +68,7 @@ SELECT SUM(experience) FROM
 ---
 ## Practice
 
-Consindering the "move_effect_change" table, we want to know the total amount of move_effect:
+Considering the "move_effect_change" table, we want to know the total amount of move_effect:
 ```
 -- "move_effect_change"
 id | move_effect | version_group_id

@@ -11,6 +11,9 @@ type: normal
 
 category: feature
 
+standards:
+  sql.connect-client: 10
+
 links:
 
   - '[Node database packages](https://www.npmjs.com/browse/keyword/database)'

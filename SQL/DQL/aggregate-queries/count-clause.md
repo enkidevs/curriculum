@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  sql.aggregate-single-table: 10
+
 links:
 
   - '[More on COUNT clause](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql)'
@@ -23,11 +26,9 @@ The `COUNT` clause returns the total number of values in a given column.
 Using `COUNT` function[1]:
 
 ```
-SELECT COUNT(experience) FROM
-(SELECT experience
-  FROM experience
-  LIMIT 5)
-AS result;
+SELECT COUNT(experience) AS count FROM
+FROM experience
+LIMIT 5;
 
 
 --Result:

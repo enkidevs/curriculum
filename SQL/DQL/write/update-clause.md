@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  sql.write: 10
+
 links:
 
   - '[More on UPDATE](http://www.dofactory.com/sql/update)'

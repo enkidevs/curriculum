@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards: 
+  sql.aggregate-single-table: 10
+
 links:
 
   - '[More on AVG clause](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql)'
@@ -20,14 +23,12 @@ links:
 
 `AVG` returns the average numerical value of a given column.
 
-Using `AVG` funciton[1]:
+Using `AVG` function[1] to get the average of only the first five rows:
 
 ```
-SELECT AVG(experience) FROM
-(SELECT experience
-  FROM experience
-  LIMIT 5)
-AS Result;
+SELECT AVG(experience) as Result FROM
+FROM experience
+LIMIT 5;
 
 --Result:
    avg         
@@ -52,11 +53,9 @@ id  | cost  |    name
   4 |   200 | poke-ball
 
 
-SELECT ???(cost) FROM
-(SELECT ???
-  ??? item
-  LIMIT ???)
-??? Avg_Cost;
+SELECT ???(???) FROM
+??? item
+LIMIT ???
 ```
 
 * AVG
@@ -65,7 +64,8 @@ SELECT ???(cost) FROM
 * 10
 * AS
 * LIKE
-* AVERGE
+* AVERAGE
+* id
 * 5
 * SUM
 

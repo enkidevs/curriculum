@@ -13,6 +13,9 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  sql.read-single-table: 10
+
 links:
 
   - '[SQL Tutorial: SELECT](http://www.sql-tutorial.com/sql-select-sql-tutorial/)'

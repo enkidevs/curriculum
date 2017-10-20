@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  sql.aggregate-single-table: 10
+
 links:
 
   - '[More on MIN and MAX clauses](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql)'

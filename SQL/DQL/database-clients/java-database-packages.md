@@ -11,6 +11,9 @@ type: normal
 
 category: how to
 
+standards:
+  sql.connect-client: 10
+
 links:
 
   - '[Why JDBC](https://www.progress.com/faqs/datadirect-jdbc-faqs/why-do-we-need-jdbc)'

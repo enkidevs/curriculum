@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  sql.connect-client: 5
+
 links:
 
   - '[Top 10 free Database Management Tools](https://techtalk.gfi.com/top-10-free-database-tools-for-sys-admins/)'

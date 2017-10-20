@@ -9,6 +9,9 @@ type: normal
 
 category: must-know
 
+standards: 
+  sql.write: 10
+
 tags:
   - introduction
   - workout

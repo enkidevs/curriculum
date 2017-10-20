@@ -11,6 +11,9 @@ type: normal
 
 category: feature
 
+standards:
+  sql.connect-client: 10
+
 links:
 
   - '[Psycopg2 package](http://initd.org/psycopg/)'

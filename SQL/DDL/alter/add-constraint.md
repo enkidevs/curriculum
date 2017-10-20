@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  sql.define-sequences-or-default-values: 10
+
 links:
 
   - '[More on ADD CONSTRAINT](https://www.tutorialspoint.com/sql/sql-alter-command.htm)'

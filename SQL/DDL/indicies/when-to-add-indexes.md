@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  sql.attach-indices: 10
+
 links:
 
   - '[SQLMag Dos and Donts of indices](http://sqlmag.com/database-performance-tuning/indexing-dos-and-don-ts)'

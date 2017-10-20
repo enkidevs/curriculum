@@ -11,6 +11,9 @@ type: normal
 
 category: feature
 
+standards:
+  sql.connect-client: 10
+
 links:
 
   - '[PostgreSQL Download](https://www.postgresql.org/download/)'

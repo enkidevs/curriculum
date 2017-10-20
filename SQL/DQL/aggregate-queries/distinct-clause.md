@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  sql.aggregate-single-table: 10
+
 links:
 
   - '[More on DISTINCT](https://www.tutorialspoint.com/sql/sql-distinct-keyword.htm)'

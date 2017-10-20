@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  sql: 5
+
 links:
 
   - '[What is Relational Database?](http://searchsqlserver.techtarget.com/definition/relational-database)'

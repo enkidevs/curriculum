@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  sql.read-single-table: 10
+
 links:
 
   - '[More on ORDER BY](http://www.dofactory.com/sql/order-by)'
