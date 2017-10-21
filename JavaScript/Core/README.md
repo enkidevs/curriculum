@@ -9,3 +9,5 @@ description: The fundamental backbone of knowledge. For life. Well, for Javascri
 next:
   - javascript-ecmascript 2015
   - javascript-browser apis
+
+standards: javascript.core

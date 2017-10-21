@@ -9,3 +9,5 @@ next:
 
 prerequisites:
   - javascript-core
+
+standards: javascript.nodejs

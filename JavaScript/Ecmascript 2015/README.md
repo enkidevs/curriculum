@@ -11,3 +11,5 @@ next:
 
 prerequisites:
   - javascript-core
+
+standards: javascript.ecmascript-2015
