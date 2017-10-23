@@ -119,5 +119,4 @@ answers:
   - Either one of them
   - 442
   - 552
-  - 553
   - 443
