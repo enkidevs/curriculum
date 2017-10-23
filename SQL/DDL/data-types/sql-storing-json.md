@@ -78,8 +78,8 @@ VALUES('{
 And querying object properties is done using `@>` operator:
 ```SQL
 SELECT *
-FROM poke_json
-WHERE pokemon @> '{"types": ["poison", "grass"]}';
+FROM poke_json WHERE
+pokemon @> '{"types": ["poison", "grass"]}';
 ```
 With the output:
 ```
@@ -158,8 +158,8 @@ Creating tables and inserting values are mostly the same. Querying, on the other
 ```SQL
 SELECT id, JSON_VALUE(pokemon, '$.name') AS name
 FROM poke_json
-WHERE ISJSON(pokemon) > 1
-AND JSON_VALUE(pokemon, '$.moves[0].level') = 1;
+WHERE ISJSON(pokemon) > 1 AND
+JSON_VALUE(pokemon, '$.moves[0].level') = 1;
 ```
 With the output:
 ```
@@ -173,7 +173,7 @@ One of the advantages of MSSQL is that it can parse JSON strings as tables on th
 ---
 ## Footnotes
 
-[1: NoSQL]
+[1:NoSQL]
 Because of the versatility of JSON files, a new type of database had been created to store and query them. You have probably heard of NoSQL (non-SQL or non-relational) databases.
 
 ---
