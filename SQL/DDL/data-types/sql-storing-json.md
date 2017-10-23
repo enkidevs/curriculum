@@ -156,7 +156,8 @@ VALUES('{
 ```
 Creating tables and inserting values are mostly the same. Querying, on the other hand, is done differently:
 ```SQL
-SELECT id, JSON_VALUE(pokemon, '$.name') AS name
+SELECT id, JSON_VALUE(pokemon, '$.name')
+AS name
 FROM poke_json
 WHERE ISJSON(pokemon) > 1 AND
 JSON_VALUE(pokemon, '$.moves[0].level') = 1;
