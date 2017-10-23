@@ -115,15 +115,15 @@ add_to("string")
 headline: what is the last line printed?
 
 question: |
-def foo(x, k = []):
-    k.append(x)
-    print(k)
-foo(1)
-foo(2, [4, 5])
-foo(3)
+  def foo(x, k = []):
+      k.append(x)
+      print(k)
+  foo(1)
+  foo(2, [4, 5])
+  foo(3)
 
 answers:
-  - [1, 3]
-  - [1]
-  - [4, 5, 2]
-  - [1, 2, 3]
+  - "[1, 3]"
+  - "[1]"
+  - "[4, 5, 2]"
+  - "[1, 2, 3]"

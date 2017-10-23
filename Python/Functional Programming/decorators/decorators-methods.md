@@ -176,13 +176,13 @@ def deco(self):
 headline: what is the output of the following snippet?
 
 question: |
-def foo(a,b,*args,**kwargs):
-  print(a, b, args, kwargs)
-x = {'ten': 10}
-foo(1, 2, enki='wow', **x)
+  def foo(a,b,*args,**kwargs):
+    print(a, b, args, kwargs)
+  x = {'ten': 10}
+  foo(1, 2, enki='wow', **x)
 
 answers:
- - 1 2 () {'enki': 'wow', 'ten': 10}
- - (1, 2) {'enki': 'wow', 'ten': 10}
- - 1 2 [] {'enki': 'wow', 'ten': 10}
- - 1 2 (‘enki’, ‘wow’) {‘ten’: 10}
+ - "1 2 () {'enki': 'wow', 'ten': 10}"
+ - "(1, 2) {'enki': 'wow', 'ten': 10}"
+ - "1 2 [] {'enki': 'wow', 'ten': 10}"
+ - "1 2 ('enki', 'wow') {'ten': 10}"

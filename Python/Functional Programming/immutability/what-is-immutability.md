@@ -104,18 +104,18 @@ There are differing levels of immutability: **weak** and **strong**. An object i
 headline: which of the following snippets prints False?
 
 question: |
-# A
-print('hello' is 'hell' + 'o')
-# B
-s1 = 'hello'
-s2 = 'hell'
-print(s1 is s2 + 'o')
-# C
-s1 = 'hello'
-s2 = 'hell'
-print(s1 == s2 + 'o')
+  # A
+  print('hello' is 'hell' + 'o')
+  # B
+  s1 = 'hello'
+  s2 = 'hell'
+  print(s1 is s2 + 'o')
+  # C
+  s1 = 'hello'
+  s2 = 'hell'
+  print(s1 == s2 + 'o')
 
-answers: 
+answers:
   - B
   - C
   - A

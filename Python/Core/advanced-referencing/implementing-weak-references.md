@@ -111,9 +111,9 @@ r = ???.ref(???)
 headline: how would you check a variable for NoneType?
 
 question: |
-x = None
-if ... :
-  print('x is None')
+  x = None:
+  if ...
+    print('x is None')
 
 answers:
   - if x is None

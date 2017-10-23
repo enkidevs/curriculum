@@ -87,15 +87,15 @@ b = 3
 headline: what is the result of the following identity check?
 
 question: |
-# Interactive shell
->>> a = 256
->>> b = 256
->>> a is b
-???
->>> a = 257
->>> b = 257
->>> a is b
-???
+  # Interactive shell
+  >>> a = 256
+  >>> b = 256
+  >>> a is b
+  ???
+  >>> a = 257
+  >>> b = 257
+  >>> a is b
+  ???
 
 
 answers:
