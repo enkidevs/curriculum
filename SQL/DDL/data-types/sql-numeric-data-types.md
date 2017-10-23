@@ -16,9 +16,9 @@ tags:
   - workout
 
 links:
-  - [PostgreSQL Data Types](https://www.postgresql.org/docs/9.5/static/datatype.html)
-  - [MySQL Data Types](https://dev.mysql.com/doc/refman/5.7/en/data-types.html)
-  - [Microsoft SQL Data Types](https://docs.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql)
+  - '[PostgreSQL Data Types](https://www.postgresql.org/docs/9.5/static/datatype.html)'
+  - '[MySQL Data Types](https://dev.mysql.com/doc/refman/5.7/en/data-types.html)'
+  - '[Microsoft SQL Data Types](https://docs.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql)'
 
 ---
 ## Content
