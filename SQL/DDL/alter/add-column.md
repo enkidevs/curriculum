@@ -17,6 +17,8 @@ category: must-know
 
 inAlgoPool: false
 
+parent: create-a-table
+
 links:
 
   - '[More on ALTER TABLE](https://www.techonthenet.com/sql_server/tables/alter_table.php)'

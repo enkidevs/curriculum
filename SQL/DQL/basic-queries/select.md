@@ -15,6 +15,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: java-database-packages
+
 links:
 
   - '[SQL Tutorial: SELECT](http://www.sql-tutorial.com/sql-select-sql-tutorial/)'

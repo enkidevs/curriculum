@@ -1,8 +1,8 @@
-name: What is SQL?
+name: Database Clients
 
 type: insights-list
 
-description: An introduction to SQL
+description: Clients for SQL
 
 section: 0
 

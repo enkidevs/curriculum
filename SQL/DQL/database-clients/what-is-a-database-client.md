@@ -13,6 +13,8 @@ category: must-know
 
 inAlgoPool: false
 
+parent: connection-strings
+
 links:
 
   - '[Top 10 free Database Management Tools](https://techtalk.gfi.com/top-10-free-database-tools-for-sys-admins/)'

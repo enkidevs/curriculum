@@ -17,6 +17,8 @@ inAlgoPool: false
 
 category: must-know
 
+parent: avg-clause
+
 links:
   - '[Inner join](https://en.wikipedia.org/wiki/Join_(SQL)#Inner_join)'
 
