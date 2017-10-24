@@ -6,6 +6,8 @@ description: Clients for SQL
 
 section: 0
 
+parent: what-is-sql
+
 insights:
   - what-is-a-database-client
   - gui-client

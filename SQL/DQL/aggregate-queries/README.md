@@ -4,7 +4,7 @@ type: insights-list
 
 description: Tools for calculations across sets of data
 
-section: 2
+section: 1
 
 insights:
   - group-by-clause

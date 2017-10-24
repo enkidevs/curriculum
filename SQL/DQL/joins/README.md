@@ -4,7 +4,9 @@ type: insights-list
 
 description: Joining tables together.
 
-section: 2
+section: 1
+
+parent: aggregate-queries
 
 insights:
   - inner-join
