@@ -5,3 +5,5 @@ icon: '[0 0 80 80] <path d="M45.865 48.504A10.276 10.276 0 0 1 40 50.334c-.794 0
 color: 9A57C1
 
 description: Everything you need to know to confidently tackle programming challenges.
+
+topic-namespace: cs
