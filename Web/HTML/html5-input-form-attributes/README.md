@@ -9,7 +9,7 @@ section: 0
 parent: input-form-attributes
 
 insights:
-  - type=password
+  - type-password
   - autocomplete
   - autofocus
   - formaction
