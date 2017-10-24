@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-Assuming the server is up and running, we can use `sqlcmd` utility to connect remotely:
+Assuming the server is up and running, we can use `sqlcmd` utility to connect remotely: 
 ```bash
 sqlcmd -S xxx.xxx.xxx.xxx, xxxx
 -U xxxx -P xxx -d xx.xxx
