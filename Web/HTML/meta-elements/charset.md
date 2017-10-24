@@ -9,6 +9,8 @@ type: normal
 
 category: must-know
 
+stub: true
+
 tags:
   - introduction
 
@@ -22,7 +24,7 @@ New content to go here. The author must be updated to match a valid Enki account
 ## Practice
 
 What does this code do?
-      <meta charset="utf-8"> 
+      <meta charset="utf-8">
 
 ???
 

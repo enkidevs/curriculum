@@ -9,6 +9,8 @@ type: normal
 
 category: must-know
 
+stub: true
+
 tags:
   - introduction
 
@@ -16,7 +18,7 @@ tags:
 ## Content
 
 
-There's another file to be updated on this topic, called `hyperlinks.md`. 
+There's another file to be updated on this topic, called `hyperlinks.md`.
 
 ---
 ## Practice

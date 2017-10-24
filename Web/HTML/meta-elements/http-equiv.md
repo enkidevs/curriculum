@@ -9,6 +9,8 @@ type: normal
 
 category: must-know
 
+stub: true
+
 tags:
   - deep
 
@@ -26,4 +28,4 @@ What code will automatically redirect users from one webpage to another after 30
 
 ???
 
-* 
+*

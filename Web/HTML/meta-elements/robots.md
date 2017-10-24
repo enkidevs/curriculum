@@ -9,6 +9,8 @@ type: normal
 
 category: must-know
 
+stub: true
+
 tags:
   - deep
 
