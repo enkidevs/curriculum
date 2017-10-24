@@ -4,7 +4,9 @@ type: insights-list
 
 description: Learn to read data from a SQL Database
 
-section: 1
+section: 0
+
+parent: database-clients
 
 insights:
   - select
