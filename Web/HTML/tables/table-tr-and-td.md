@@ -34,19 +34,20 @@ Use <td> and </td> to add what to HTML tables?
 ???
 
 Arrange the HTML tags to properly create this table:
-    <___>
-      <___>
-        <___>Name</___>
-        <___>Height</___> 
-        <___>Eye Color</___>
-      </___>
-      <___>
-        <___>Matthew</___>
-        <___>6'2''</___> 
-        <___>Blue</___>
-      </___>
-    </table>
-
+```
+<___>
+  <___>
+    <___>Name</___>
+    <___>Height</___>
+    <___>Eye Color</___>
+  </___>
+  <___>
+    <___>Matthew</___>
+    <___>6'2''</___>
+    <___>Blue</___>
+  </___>
+</table>
+```
 ???
 
 * <td>
