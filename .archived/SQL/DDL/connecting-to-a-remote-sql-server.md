@@ -34,7 +34,7 @@ Where:
 
 Basically it's the same command as the one for connecting localy, but we need to specify the machine name or IP address for the -S parameter. And also make sure that port 1433 is open on our firewall.
 
-Note that instead `-S` flag, we can use `-D` specifying a data source name (DSN)[1] instead of a server name.
+Note that instead `-S` flag, we can use `-D` specifying a data source name (DSN)[1] instead of a server name. 
 
 ---
 ## Revision
