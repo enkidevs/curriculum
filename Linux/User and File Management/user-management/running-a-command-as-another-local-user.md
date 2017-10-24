@@ -10,8 +10,9 @@ type: normal
 category: tip
 
 tags:
-
   - sudo-su-local-shell
+  - workout
+
 
 ---
 ## Content

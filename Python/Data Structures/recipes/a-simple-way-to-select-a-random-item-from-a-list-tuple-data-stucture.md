@@ -22,14 +22,14 @@ If you need to randomly select an item from a list:
 ```python
 import random
 items = ['here', 'to', 'one', 'strings']
-rand_item = \
+rand_item = 
 items[random.randrange(len(items))]
 ```
 Use `randrange` (or `randint`) to generate a pseudo-random integer from the range indicated by it's arguments.
 
 2) Naive approach 2:
 ```python
-rand_items = \
+rand_items =
 [items[random.randrange(len(items))]
               for item in range(4)]
 ```

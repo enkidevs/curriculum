@@ -13,6 +13,8 @@ inAlgoPool: false
 
 category: must-know
 
+tags:
+  - workout
 ---
 ## Content
 

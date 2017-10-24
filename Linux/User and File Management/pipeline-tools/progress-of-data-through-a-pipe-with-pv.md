@@ -14,22 +14,16 @@ type: normal
 category: how to
 
 tags:
-
   - data
-
   - progress
-
   - pipe
-
   - pv
-
   - pipeviewer
-
   - linux
-
   - terminal
-
   - shell
+  - workout
+
 
 ---
 ## Content

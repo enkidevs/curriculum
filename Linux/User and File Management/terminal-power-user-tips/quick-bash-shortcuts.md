@@ -16,20 +16,15 @@ type: normal
 category: must-know
 
 tags:
-
   - linux
-
   - bash
-
   - terminal
-
   - keybind
-
   - readline
-
   - alt
-
   - ctrl
+  - workout
+
 
 ---
 ## Content

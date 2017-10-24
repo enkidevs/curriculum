@@ -14,18 +14,14 @@ type: normal
 category: must-know
 
 tags:
-
   - path
-
   - linux
-
   - terminal
-
   - bash
-
   - bashrc
-
   - export
+  - introduction
+
 
 ---
 ## Content

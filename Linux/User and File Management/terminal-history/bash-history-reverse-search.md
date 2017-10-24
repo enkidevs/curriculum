@@ -12,14 +12,13 @@ type: normal
 category: feature
 
 tags:
-
   - bash
-
   - linux
-
   - history
-
   - search
+  - workout
+  - workout
+
 
 notes: ''
 

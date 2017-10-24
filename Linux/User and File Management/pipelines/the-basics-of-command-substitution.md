@@ -19,6 +19,9 @@ links:
     [More
     substitutions](http://www.tldp.org/LDP/abs/html/commandsub.html){website}
 
+tags:
+  - introduction
+  - workout
 ---
 ## Content
 
