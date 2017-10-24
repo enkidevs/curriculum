@@ -24,7 +24,7 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-_____ is intended to be used with the ____ element to mark up such things as diagrams, illustrations, photos, and code examples.
+__ is intended to be used with the __ element to mark up such things as diagrams, illustrations, photos, and code examples.
 
 ???
 
@@ -36,7 +36,7 @@ _____ is intended to be used with the ____ element to mark up such things as dia
 
 The figcaption defines a caption or legend for a figure.
 Place the HTML code in the appropriate places:
-    Match: figure, img, figcaption with their appropriate spaces. 
+    Match: figure, img, figcaption with their appropriate spaces.
     <figure>
       <img src="waterfall.jpg" alt="Seljalandsfoss waterfall in Iceland">
       <figcaption>The Seljalandsfoss waterfall in Iceland. Original by <a href="http://www.flickr.com/photos/enki/">Enki Pro</a></figcaption>
