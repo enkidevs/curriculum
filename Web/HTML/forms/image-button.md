@@ -36,7 +36,7 @@ The functional difference between a form’s checkboxes and radio buttons is tha
 ???
 
 If one of the form’s radio buttons should be selected by default, what attribute is added?
-    <input type="radio" name="topic" value="item" _________ > Item </input>
+    <input type="radio" name="topic" value="item" __ > Item </input>
 
 ???
 

@@ -29,7 +29,7 @@ By default, the last value of a form’s drop-down list is selected.
 ???
 
 When a form’s drop-down has an option that needs to be pre-selected, what attribute is used?
-    <option value="item#1" ______>Item #1</option>
+    <option value="item#1" __ >Item #1</option>
 
 ???
 
