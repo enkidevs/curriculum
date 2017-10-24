@@ -15,6 +15,8 @@ type: normal
 
 category: must-know
 
+parent: add-rule
+
 inAlgoPool: false
 
 links:

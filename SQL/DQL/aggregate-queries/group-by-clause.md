@@ -17,6 +17,8 @@ category: must-know
 
 inAlgoPool: false
 
+parent: order-by-clause
+
 links:
 
   - '[More on GROUP BY](https://www.techonthenet.com/sql/group_by.php)'
