@@ -15,6 +15,9 @@ category: must-know
 
 inAlgoPool: false
 
+standards:
+  sql.write: 10
+
 links:
 
   - '[More on DELETE](http://www.dofactory.com/sql/delete)'

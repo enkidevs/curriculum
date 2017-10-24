@@ -13,6 +13,9 @@ category: how to
 
 inAlgoPool: false
 
+standards:
+  sql.connect-client: 10
+
 links:
 
   - '[Why JDBC](https://www.progress.com/faqs/datadirect-jdbc-faqs/why-do-we-need-jdbc)'

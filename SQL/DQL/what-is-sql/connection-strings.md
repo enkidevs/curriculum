@@ -13,6 +13,9 @@ category: must-know
 
 inAlgoPool: false
 
+standards:
+  sql.connect-client: 10
+
 links:
 
   - '[More on connection strings](http://www.dofactory.com/reference/connection-strings)'
