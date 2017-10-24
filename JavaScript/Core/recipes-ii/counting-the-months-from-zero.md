@@ -13,6 +13,8 @@ type: normal
 
 category: caveats
 
+standard: js.write-expressions
+
 ---
 ## Content
 

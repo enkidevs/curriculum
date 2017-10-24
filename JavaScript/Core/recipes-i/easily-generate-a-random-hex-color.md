@@ -13,6 +13,8 @@ type: normal
 
 category: tip
 
+standard: js.write-expressions
+
 links:
 
   - >-

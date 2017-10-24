@@ -67,10 +67,10 @@ function isNumber(n){
   return float && finite;
 }
 ```
-*`isNaN`
-*`parseFloat`
-*`isFinite`
-*`isInfinite`
-*`typeof`
+* `isNaN`
+* `parseFloat`
+* `isFinite`
+* `isInfinite`
+* `typeof`
 * `isNum`
-*`isValud`
+* `isValud`

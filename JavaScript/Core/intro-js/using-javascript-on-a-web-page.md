@@ -11,6 +11,8 @@ inAlgoPool: false
 
 category: must-know
 
+standard: js.javascript-syntax
+
 ---
 ## Content
 

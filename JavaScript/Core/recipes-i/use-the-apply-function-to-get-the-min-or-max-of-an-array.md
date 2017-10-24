@@ -13,6 +13,8 @@ type: normal
 
 category: pattern
 
+standard: js.write-expressions
+
 links:
 
   - '[stackoverflow](http://stackoverflow.com/questions/21255138){discussion}'

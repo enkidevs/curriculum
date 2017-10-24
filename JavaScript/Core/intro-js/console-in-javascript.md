@@ -11,6 +11,8 @@ type: normal
 
 category: must-know
 
+standard: js.javascript-syntax
+
 links:
 
   - >-

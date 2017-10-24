@@ -11,6 +11,8 @@ type: normal
 
 category: feature
 
+standard: js.write-expressions
+
 tags:
 
   - 'javascript, regex, regular expressions, regexp, test'
