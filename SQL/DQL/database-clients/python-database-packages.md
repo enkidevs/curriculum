@@ -11,8 +11,7 @@ type: normal
 
 category: feature
 
-standards:
-  sql.connect-client: 10
+inAlgoPool: false
 
 links:
 

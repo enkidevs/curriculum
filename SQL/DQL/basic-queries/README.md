@@ -7,7 +7,6 @@ description: Learn to read data from a SQL Database
 section: 1
 
 insights:
-
   - select
   - where
   - where-2

@@ -17,8 +17,7 @@ type: normal
 
 category: must-know
 
-standards:
-  sql.define-sequences-or-default-values: 10
+inAlgoPool: false
 
 links:
 

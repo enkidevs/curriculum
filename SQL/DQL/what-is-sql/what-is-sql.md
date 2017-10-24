@@ -11,8 +11,7 @@ type: normal
 
 category: must-know
 
-standards:
-  sql: 5
+inAlgoPool: false
 
 links:
 

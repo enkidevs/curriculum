@@ -15,8 +15,7 @@ type: normal
 
 category: must-know
 
-standards:
-  sql.aggregate-single-table: 10
+inAlgoPool: false
 
 links:
 

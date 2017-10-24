@@ -13,8 +13,7 @@ type: normal
 
 category: must-know
 
-standards:
-  sql.read-single-table: 10
+inAlgoPool: false
 
 links:
 

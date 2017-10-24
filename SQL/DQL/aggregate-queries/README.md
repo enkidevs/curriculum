@@ -6,8 +6,6 @@ description: Tools for calculations across sets of data
 
 section: 2
 
-parent: joins
-
 insights:
   - group-by-clause
   - sum-clause

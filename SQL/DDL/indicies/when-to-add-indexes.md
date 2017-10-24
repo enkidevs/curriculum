@@ -15,8 +15,7 @@ type: normal
 
 category: must-know
 
-standards:
-  sql.attach-indices: 10
+inAlgoPool: false
 
 links:
 

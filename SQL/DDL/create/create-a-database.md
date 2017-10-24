@@ -13,8 +13,7 @@ type: normal
 
 category: must-know
 
-standards:
-  sql.create-database: 10
+inAlgoPool: false
 
 tags:
   - introduction

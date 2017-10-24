@@ -10,15 +10,11 @@ levels:
   - medium
 
 
-
 type: normal
 
 inAlgoPool: false
 
 category: must-know
-
-standards:
-  sql.read-multiple-tables: 10
 
 links:
     - '[Full outer join](https://en.wikipedia.org/wiki/Join_(SQL)#Full_outer_join)'

@@ -15,8 +15,7 @@ type: normal
 
 category: must-know
 
-standards:
-  sql.define-columns: 10
+inAlgoPool: false
 
 links:
 

@@ -6,10 +6,7 @@ description: An introduction to SQL
 
 section: 0
 
-parent: what-is-sql
-
 insights:
-
   - what-is-a-database-client
   - gui-client
   - command-line-client

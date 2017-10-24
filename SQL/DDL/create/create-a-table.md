@@ -13,8 +13,7 @@ type: normal
 
 category: must-know
 
-standards:
-  sql.define-tables: 10
+inAlgoPool: false
 
 links:
 
