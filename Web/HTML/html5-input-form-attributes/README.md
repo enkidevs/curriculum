@@ -24,7 +24,7 @@ insights:
   - pattern-regexp
   - placeholder
   - intro-step
-  - select
+  - html-select
   - oninput
   - output
   - range
