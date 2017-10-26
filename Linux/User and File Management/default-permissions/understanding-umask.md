@@ -116,7 +116,7 @@ headline: how does umask work?
 question: What is the umask value, if the permission of a newly created file is 224?
 
 answers:
-  - Either one of them
+  - All three are valid
   - 442
   - 552
   - 443
