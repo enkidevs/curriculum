@@ -18,6 +18,8 @@ category: must-know
 inAlgoPool: false
 
 parent: order-by-clause
+standards:
+  sql.aggregate-single-table: 10
 
 links:
 

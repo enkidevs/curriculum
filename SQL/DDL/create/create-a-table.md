@@ -15,6 +15,9 @@ category: must-know
 
 inAlgoPool: false
 
+standards:
+  sql.define-tables: 10
+
 links:
 
   - '[More on creatin a table](https://www.tutorialspoint.com/sql/sql-create-table.htm)'

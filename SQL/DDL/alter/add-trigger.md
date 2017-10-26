@@ -3,21 +3,18 @@ author: SebaRaba
 
 levels:
 
-levels:
-
   - beginner
 
   - basic
-
-  - medium
-
-  - advanced
 
 type: normal
 
 category: must-know
 
 inAlgoPool: false
+
+standards:
+  sql.define-sequences-or-default-values: 10
 
 links:
 

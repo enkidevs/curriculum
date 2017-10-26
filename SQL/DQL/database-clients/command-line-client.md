@@ -13,6 +13,9 @@ category: feature
 
 inAlgoPool: false
 
+standards:
+  sql.connect-client: 10
+
 links:
 
   - '[PostgreSQL Download](https://www.postgresql.org/download/)'
