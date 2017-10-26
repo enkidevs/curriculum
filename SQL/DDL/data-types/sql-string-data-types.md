@@ -25,60 +25,36 @@ In terms of *string data types*, there are less options to be used. However, the
 
 ### char(n)
 
-The fixed-size string data types, which always takes up the number of bytes required to store a string of length `n`. In case the string has less than `n` characters, it will be padded with spaces.
+The fixed-size string data types, which always takes up the number of bytes required to store a string of length `n`. In case the string has less than `n` characters, it will be padded with spaces. If a longer string is inserted, the excess characters are truncated.
+
+`char` fields can have up to *255* bytes which, depending on the encoding used, results in varying max length for filenames. Characters that can be found in ASCII are usually represented in 1 byte, while emoticons and special characters (think Korean alphabet) can take up to 4 bytes.
+
+Use `char` whenever you know the fields would be up a certain length. For example, you can have the 2-letter (International Organization for Standardization - ISO) or 3-letter (United Nations) country codes: `US/USA`, `GB/GBR`, `RU/RUS`, `DE/DEU`, etc. Whichever you were to choose, the space required to store them is always 2 or 3 bytes.
 
 ### varchar(n)
 
-A variable length string of size `n`. The size is not always relevant, unless it goes over a certain value, specific to the database implementation.
+A variable length string of size `n`. The maximum size of a field is `2^16-1 = 65535 bytes`, which is also the maximum size a whole row is allocated. Since its size is variable, `varchar` needs 1 or 2 bytes to store the size of the string plus data: *1 byte* for values less than `2^8-1` and *2 bytes* for values between `2^8 and 2^16-1`.
 
-### text
+`varchar` values are not padded when stored. Trailing spaces that do not exceed the maximum allocated size of the column are kept.
 
-A `text` data type is in many ways similar to `varchar`s. The only difference comes from the number of indexed characters (if it is the case of indexing for that specific column).
+Use `varchar` when you have to store data of unknown length. Usually names, professions, or hashes are some examples of good `varchar` candidates.
 
-They are similar enough to the point in which MSSQL decided to drop it in the next versions and promote the use of `varchar(n)` and `nvarchar(n)`.
-
-### Character Support
-
-While the default character encoding might not be `UTF-8` (Unicode), there are some ways in which it can be enabled.
-
-PostgreSQL accepts database-wide encoding:
-```SQL
-CREATE DATABASE language
-WITH ENCODING 'UTF8'
-LC_COLLATE='en_US.UTF-8'
-LC_CTYPE='en_US.UTF-8';
-```
-MySQL allows for column-only encodings:
-```SQL
-CREATE TABLE language(
-    name CHAR(10) CHARACTER SET utf8mb4
-      COLLATE utf8mb4_bin
-);
-```
-MSSQL has special data types for Unicode characters:
-- `nchar(n)`
-- `nvarchar(n)`
-- `ntext`
 ---
 ## Practice
 
-Create a PostgreSQL table where the column `short_name` should take variable entries with no more than 6 characters and `description` should contain a large block of text:
+Create a PostgreSQL table that contains a fixed width column and a variable one, such that minimal space is used to store the table in memory:
 ```SQL
-CREATE ??? ability(
-  id bigserial,
-  name char(25),
-  short_name ???,
-  ??? ???,
-  PRIMARY KEY(id)
+CREATE ??? language(
+  id bigserial PRIMARY KEY,
+  language_name ???,
+  iso_code ???
 );
 ```
-* `varchar(6)`
-* `description`
-* `text`
-* `blob`
-* `char(255)`
-* `char(6)`
-* `text(6)`
+* `TABLE`
+* `varchar(70)`
+* `char(2)`
+* `char(70)`
+* `varchar(2)`
 
 ---
 ## Revision
