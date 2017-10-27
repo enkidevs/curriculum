@@ -14,6 +14,15 @@ category: how to
 
 parent: tests
 
+standards:
+  js.npm-publish: 10
+
+tags:
+  - introduction
+  - workout
+
+
+
 ---
 ## Content
 

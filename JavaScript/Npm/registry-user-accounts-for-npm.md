@@ -20,6 +20,14 @@ links:
 
 parent: check-data-about-a-package
 
+standards:
+  js.npm-publish: 10
+  js.npm-tasks-and-modules-manager: 10
+
+tags:
+  - workout
+  - deep
+
 ---
 ## Content
 

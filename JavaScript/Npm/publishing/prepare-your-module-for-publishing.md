@@ -14,6 +14,14 @@ category: how to
 
 parent: creating-a-node-module
 
+standards:
+  js.npm-publish: 10
+
+tags:
+  - introduction
+  - workout
+  - deep
+
 ---
 ## Content
 

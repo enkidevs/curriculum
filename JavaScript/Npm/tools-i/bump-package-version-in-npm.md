@@ -15,6 +15,13 @@ category: must-know
 
 parent: check-data-about-a-package
 
+standards:
+  js.npm-publish: 10
+
+tags:
+  - workout
+  - introduction
+
 links:
 
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/version){website}'

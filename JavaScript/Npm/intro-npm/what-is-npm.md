@@ -8,6 +8,13 @@ type: normal
 
 category: must-know
 
+standards:
+  js.npm-tasks-and-modules-manager: 10
+
+tags:
+  - introduction
+  - workout
+
 links:
 
   - >-
