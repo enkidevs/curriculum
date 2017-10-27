@@ -11,12 +11,20 @@ levels:
 
 type: normal
 
+standards:
+  js.identify-common-design-patterns: 20
+  js.node-standard-library-os: 20
+
+tags:
+  - workout
+  - deep
+  
 category: tip
 
 ---
 ## Content
 
-A *worker* object contains all the public information and methods from a worker. 
+A *worker* object contains all the public information and methods from a worker.
 
 From the *master*, the object can be obtained using `cluster.workers`. From a *worker*, the object can be obtained using `cluster.worker`.
 
@@ -32,7 +40,7 @@ worker.id();
 To check if a *worker* is connected to its master via its *IPC* channel. The function returns *true* if connected, and *false* if disconnected.
 ```javascript
 if (worker.isConnected()) {
-  process.send('Worker connected!'); 
+  process.send('Worker connected!');
 }
 ```
 

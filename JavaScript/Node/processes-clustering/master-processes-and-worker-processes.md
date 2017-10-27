@@ -13,6 +13,14 @@ levels:
 
 type: normal
 
+standards:
+  js.identify-common-design-patterns: 20
+  js.node-standard-library-os: 20
+
+tags:
+  - workout
+  - deep
+
 category: tip
 
 ---
@@ -26,9 +34,9 @@ The master process is the process which a user initiates, there is only one mast
 ```javascript
 cluster.fork();
 ```
-There can be as many or as few worker processes as required, all sharing the same server port handling incoming requests to the server. 
+There can be as many or as few worker processes as required, all sharing the same server port handling incoming requests to the server.
 
-A *Worker* object contains all the worker's public information and methods. 
+A *Worker* object contains all the worker's public information and methods.
 
 In the master this can be obtained using the command `cluster.workers`. In a worker this can be obtained using `cluster.worker`.
 

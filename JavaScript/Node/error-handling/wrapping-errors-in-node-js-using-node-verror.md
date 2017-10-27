@@ -13,6 +13,13 @@ type: normal
 
 category: feature
 
+standards:
+  js.identify-common-design-patterns: 20
+
+tags:
+  - introduction
+  - workout
+
 links:
 
   - '[github.com](https://github.com/davepacheco/node-verror){website}'

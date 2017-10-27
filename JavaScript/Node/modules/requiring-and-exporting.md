@@ -17,6 +17,13 @@ category: must-know
 
 parent: what-are-node-modules
 
+standards:
+  js.use-modules: 20
+
+tags:
+  - introduction
+  - workout
+
 links:
 - '[Node Modules](https://www.bennadel.com/blog/2169-where-does-node-js-and-require-look-for-modules.htm)'
 

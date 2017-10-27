@@ -17,6 +17,15 @@ category: must-know
 
 parent: handling-event-errors
 
+standards:
+  js.read-and-write-streams: 20
+  js.node-standard-library-os: 20
+  js.events-asynchronous-operations: 20
+
+tags:
+  - introduction
+  - workout
+
 links:
 - '[Node Streams](https://maxogden.com/node-streams.html)'
 

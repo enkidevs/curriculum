@@ -11,6 +11,14 @@ type: normal
 
 category: best practice
 
+standards:
+  js.identify-common-design-patterns: 20
+  js.use-modules: 20
+
+tags:
+  - workout
+  - deep
+
 links:
 
   - >-
@@ -27,6 +35,7 @@ Factories will create objects for you so *you don't have to*.
 
 Basic factories pattern:
 ```javascript
+//enki.js
 function Enki (args) {
   this.args = args;
 }
@@ -38,3 +47,46 @@ function create (args) {
 
 module.exports.create = create;
 ```
+
+---
+## Practice
+
+Use the factory function above to create an instance of Enki:
+```
+
+let enki = ???(???)???
+
+```
+
+* `require`
+* `'./enki.js'`
+* `(args)`
+* `new Enki`
+* `args`
+* `;`
+
+
+---
+## Revision
+
+Complete the code snippet to create a factory function and export it:
+
+```javascript
+//enki.js
+function Enki (args) {
+  this.args = args;
+}
+
+function create (args) {
+  //args should be modified here
+  ??? ??? ???(args);
+}
+
+module.exports.create = ???;
+```
+
+* return
+* new
+* Enki
+* create
+* this

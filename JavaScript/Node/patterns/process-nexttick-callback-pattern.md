@@ -13,6 +13,15 @@ type: normal
 
 category: best practice
 
+standards:
+  js.identify-common-design-patterns: 10
+  js.events-asynchronous-operations: 10
+
+tags:
+  - workout
+  - deep
+  - obscura
+
 ---
 ## Content
 
