@@ -38,3 +38,10 @@ MSSQL has special data types for Unicode characters:
 - `nchar(n)`
 - `nvarchar(n)`
 - `ntext`
+
+---
+## Practice
+
+
+---
+## Revision

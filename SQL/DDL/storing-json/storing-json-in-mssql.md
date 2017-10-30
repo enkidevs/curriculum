@@ -48,7 +48,7 @@ SELECT id, JSON_VALUE(pokemon, '$.name')
 AS name
 FROM poke_json
 WHERE ISJSON(pokemon) >= 1 AND
-JSON_VALUE(pokemon, '$.moves[0].level') = 1;
+JSON_VALUE(pokemon, '$.moves[0].level') = 1
 ```
 With the output:
 ```
@@ -77,3 +77,12 @@ Querying the JSON `pokemon` field in a SQL Server database, select all Pokémon 
 
 ---
 ## Revision
+
+Microsoft SQL's command that parses JSON fields is
+
+???
+
+* `JSON_VALUE(column,field)`
+* `PARSE_JSON(column,field)`
+* `(column)@>(field)`
+* `(column)->(field)`

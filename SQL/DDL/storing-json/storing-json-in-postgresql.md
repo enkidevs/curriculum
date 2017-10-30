@@ -81,3 +81,13 @@ Querying the JSON `pokemon` field in a PostgreSQL database, select all Pokémon 
 
 ---
 ## Revision
+
+PostgreSQL's operator for JSON parsing is
+
+???
+
+* `@>`
+* `->`
+* `->>`
+* `@`
+* `JSON_VALUE`
