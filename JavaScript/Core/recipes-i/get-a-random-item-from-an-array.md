@@ -11,7 +11,7 @@ type: normal
 
 category: how to
 
-standard: js.write-expressions
+standard: js.data-types-structures
 
 notes: ''
 

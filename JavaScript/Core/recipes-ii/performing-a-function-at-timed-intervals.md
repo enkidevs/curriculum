@@ -11,7 +11,8 @@ type: normal
 
 category: how to
 
-standard: js.write-expressions
+standard: 
+  js.async: 10
 
 tags:
 

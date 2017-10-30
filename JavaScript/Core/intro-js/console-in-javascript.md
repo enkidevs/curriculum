@@ -11,7 +11,8 @@ type: normal
 
 category: must-know
 
-standard: js.javascript-syntax
+standard: 
+  js.javascript-syntax
 
 links:
 

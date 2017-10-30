@@ -9,6 +9,9 @@ type: normal
 
 category: must-know
 
+standard: 
+  js.evaluate-expressions: 20
+
 links:
 
   - "[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators){website}"

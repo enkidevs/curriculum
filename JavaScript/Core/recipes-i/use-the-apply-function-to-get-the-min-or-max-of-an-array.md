@@ -13,7 +13,8 @@ type: normal
 
 category: pattern
 
-standard: js.write-expressions
+standard:
+  js.write-expressions: 10
 
 links:
 
@@ -44,7 +45,7 @@ Math.max.apply(Math,[1,3,2])    // 3
 
 ```
 
-The first argument provided to `.apply` is the "context". The value of this context does not matter in this case, but it is common practice when using `.apply` 
+The first argument provided to `.apply` is the "context". The value of this context does not matter in this case, but it is common practice when using `.apply`
 to provide the relevant class as context.
 
 ---
