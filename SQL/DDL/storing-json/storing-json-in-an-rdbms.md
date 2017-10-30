@@ -79,8 +79,6 @@ Which of the following JSON objects is valid?
 * A
 * B
 
-```
-
 ---
 ## Revision
 

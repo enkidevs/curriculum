@@ -33,11 +33,13 @@ Use `char` whenever you know the fields would be up a certain length. For exampl
 
 ### varchar(n)
 
-A variable length string of size `n`. The maximum size of a field is `2^16-1 = 65535 bytes`, which is also the maximum size a whole row is allocated. Since its size is variable, `varchar` needs 1 or 2 bytes to store the size of the string plus data: *1 byte* for values less than `2^8-1` and *2 bytes* for values between `2^8 and 2^16-1`.
+A variable length string of potentially size `n`. The maximum size of a string is `2^16-1 = 65535 bytes`, which is also the maximum memory block a whole row is allocated. Since its size is variable, `varchar` needs an overhead of 1 to 4 bytes to store the data length, so the next table field can be easily looked up in memory.
 
 `varchar` values are not padded when stored. Trailing spaces that do not exceed the maximum allocated size of the column are kept.
 
 Use `varchar` when you have to store data of unknown length. Usually names, professions, or hashes are some examples of good `varchar` candidates.
+
+If you are aware of a maximum length for those strings, use `varchar(n)` instead. Note that in most databases inserting a string longer than *n* characters would either give rise to an error or simply remove any additional characters.
 
 ---
 ## Practice
