@@ -14,9 +14,10 @@ category: best practice
 standards:
   js.identify-common-design-patterns: 10
 
-- introduction
-- workout
-- deep
+tags:
+  - introduction
+  - workout
+  - deep
 
 links:
 
