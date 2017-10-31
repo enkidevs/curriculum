@@ -24,8 +24,7 @@ tags:
   - new
 
 links:
-  - [](https://nodejs.org/en/blog/npm/peer-dependencies/)
-
+  - '[Peer dependencies](https://nodejs.org/en/blog/npm/peer-dependencies/)'
 
 ---
 ## Content
