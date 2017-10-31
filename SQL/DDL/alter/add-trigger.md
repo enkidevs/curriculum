@@ -3,8 +3,6 @@ author: SebaRaba
 
 levels:
 
-levels:
-
   - beginner
 
   - basic
