@@ -1,5 +1,5 @@
 # Intro pre
-author: matthew-leach
+author: matthewleach
 
 levels:
   - beginner

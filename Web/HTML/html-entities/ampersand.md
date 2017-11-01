@@ -27,6 +27,9 @@ What HTML character entity is used to insert n ampersand symbol into a document?
 
 ???
 
+
+THis is really broken... please fix.
+
 What does the &amp; character entity display in this line of code?
       <p>The symbol "&amp;" should be pretty easy to recognize.</p>
 
@@ -51,5 +54,5 @@ Character entity names are not case sensitive.
 
 ???
 * F
-* 
+*
 * F
