@@ -16,8 +16,7 @@ tags:
 
   - statistics
 
-
-
+stub: true
 
 
 ---
