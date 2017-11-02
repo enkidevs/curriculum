@@ -13,6 +13,9 @@ category: must-know
 
 inAlgoPool: false
 
+standards:
+  sql.connect-client: 5
+
 links:
 
   - '[More on database servers](http://ecomputernotes.com/fundamental/what-is-a-database/what-is-a-database-server)'

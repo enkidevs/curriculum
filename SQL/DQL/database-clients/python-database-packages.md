@@ -13,6 +13,9 @@ category: feature
 
 inAlgoPool: false
 
+standards:
+  sql.connect-client: 10
+
 links:
 
   - '[Psycopg2 package](http://initd.org/psycopg/)'

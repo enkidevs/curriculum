@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standard: 
+  js.execution-context: 10
+
 links:
 
   - >-
@@ -48,3 +51,23 @@ discountCalc
 .getDiscount
 .call({discount: 100},1); //101
 ```
+---
+## Practice
+
+Which method will change the `this` context of a JavaScript function call?
+???
+
+* `.call(obj)`
+* `.context(obj)`
+* `.this = ___`
+* `.object()`
+
+---
+## Revision
+
+Using the .???() method will change the ??? context of a JavaScript function call
+
+* `call`
+* `this`
+* `context`
+* `scope`

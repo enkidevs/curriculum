@@ -11,6 +11,9 @@ type: normal
 
 category: feature
 
+standard:
+  js.write-expressions: 10
+
 tags:
 
   - 'javascript, regex, regular expressions, regexp, test'
@@ -23,7 +26,7 @@ links:
 ---
 ## Content
 
-The `.test()` method takes a string  and checks it against a RegEx. 
+The `.test()` method takes a string  and checks it against a RegEx.
 
 The returned value is boolean. `true` if there is a match, `false` if there is no match.
 
@@ -61,7 +64,7 @@ containsRegExp.test(str);
 ---
 ## Revision
 
-Matching a string with a RegEx is done by 
+Matching a string with a RegEx is done by
 
 ???
 

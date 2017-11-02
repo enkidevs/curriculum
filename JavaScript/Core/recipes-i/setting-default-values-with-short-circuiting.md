@@ -11,6 +11,9 @@ type: normal
 
 category: pattern
 
+standard:
+  js.write-expressions: 10
+
 tags:
 
   - short-circuiting

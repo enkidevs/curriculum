@@ -9,6 +9,9 @@ type: normal
 
 category: tip
 
+standard: 
+  js.evaluate-expressions: 10
+
 tags:
 
   - ''

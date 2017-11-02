@@ -13,6 +13,9 @@ type: normal
 
 category: how to
 
+standard: 
+  js.write-expressions: 10
+
 tags:
 
   - currency-formatting

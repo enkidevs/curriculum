@@ -9,6 +9,9 @@ type: normal
 
 category: caveats
 
+standard: 
+  js.evaluate-expressions: 10
+
 parent: no-block-scope
 
 ---

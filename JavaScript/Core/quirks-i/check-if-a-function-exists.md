@@ -13,6 +13,9 @@ type: normal
 
 category: feature
 
+standard: 
+  js.write-expressions: 10
+
 links:
 
   - >-

@@ -71,7 +71,8 @@ This will speed up the process as two subshells will be invoked to resolve each 
 ---
 ## Revision
 
-Given the following is in your `package.json`, execute the script called `dailyStats`.
+
+Given the following is in your `package.json`, execute the script called `dailyStats`
 ```javascript
 {
   "name": "enki",
@@ -81,6 +82,9 @@ Given the following is in your `package.json`, execute the script called `dailyS
   }
 }
 ```
+
+??? ??? ???
+
 * `npm`
 * `run`
 * `dailyStats`

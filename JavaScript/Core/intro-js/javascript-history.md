@@ -28,7 +28,7 @@ Although JavaScript has the word “Java” in the title, the language has nothi
 Whilst some of JavaScript’s methods and syntax are similar to Java, JavaScript owes more to languages such as *Scheme* and *Self*.
 
 ---
-## Revision
+## Practice
 
 How is **JavaScript** related to **Java**?
 
@@ -38,3 +38,13 @@ How is **JavaScript** related to **Java**?
 *JavaScript has its origins in Java
 *They are basically the same
 *Java has its origins in JavaScript
+
+---
+## Revision
+
+The first version of JavaScript was developed by ??? in only 10 days.
+
+* Brendan Eich
+* Bjarne Stroustrup
+* James Gosling
+* Linus Torvalds
