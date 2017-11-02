@@ -61,9 +61,13 @@ What type of function is `JSON.parse` ?
 
 headline: What do you always have to do when parsing JSON?
 
-question: What is required when you're handling a `JSON.parse` error in Node?
+question: |
+
+//What is required when you're handling a JSON.parse error in Node?
+
+answers:
 
 - `a try/catch`
-- `an if statement`
+- `an else condition`
 - `a loop`
 - `an error message`
