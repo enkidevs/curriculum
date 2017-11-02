@@ -17,7 +17,7 @@ standards:
 tags:
   - introduction
   - workout
-  
+
 links:
 
   - >-
@@ -45,15 +45,6 @@ webSocket.on('msg', function (msg) {
 }
 ```
 
----
-## Quiz
-
-What is required when you're handling a `JSON.parse` error in Node? ???
-
-* `a try/catch`
-* `an if statement`
-* `a loop`
-* `an error message`
 
 ---
 ## Revision
@@ -62,5 +53,17 @@ What type of function is `JSON.parse` ?
 
 ???
 
-*synchronous
-*asynchronous
+* synchronous
+* asynchronous
+
+---
+## Quiz
+
+headline: What do you always have to do when parsing JSON?
+
+question: What is required when you're handling a `JSON.parse` error in Node?
+
+- `a try/catch`
+- `an if statement`
+- `a loop`
+- `an error message`
