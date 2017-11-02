@@ -64,9 +64,11 @@ This will speed up the process as two subshells will be invoked to resolve each 
 ## Revision
 
 The `npm run` command is an abbreviation for:
+
 ```
 ???
 ```
+
 * `npm run-script`
 * `npm run-scripts`
 * `npm run-test`
