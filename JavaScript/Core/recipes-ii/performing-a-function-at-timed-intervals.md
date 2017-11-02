@@ -11,6 +11,9 @@ type: normal
 
 category: how to
 
+standard: 
+  js.async: 10
+
 tags:
 
   - timed-intervals

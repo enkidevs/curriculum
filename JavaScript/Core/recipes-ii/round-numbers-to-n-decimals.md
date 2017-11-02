@@ -11,6 +11,9 @@ type: normal
 
 category: how to
 
+standard: 
+  js.write-expressions: 20
+
 ---
 ## Content
 

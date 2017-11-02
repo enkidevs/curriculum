@@ -11,6 +11,8 @@ type: normal
 
 category: how to
 
+standard: js.data-types-structures
+
 notes: ''
 
 ---
