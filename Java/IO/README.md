@@ -1,1 +1,0 @@
-It’s all about read and write. Most applications need to process an input and produce an output. Learn all about how streams can be used for that!

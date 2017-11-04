@@ -1,1 +1,0 @@
-Less is a dynamic style sheet language that can be compiled into CSS and run on the client side or server side.
