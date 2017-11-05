@@ -10,4 +10,5 @@ insights:
   - sql-numeric-data-types
   - sql-string-data-types
   - sql-text-data-type
-  - character-support
+  - encoding-and-collation
+  - add-support-for-other-character-sets
