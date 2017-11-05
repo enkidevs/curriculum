@@ -1,4 +1,4 @@
-# SQL Character Support
+# Adding Support for Multiple Character Sets
 author: mihaiberq
 
 levels:
@@ -38,6 +38,7 @@ MSSQL has special data types for Unicode characters:
 - `nchar(n)`
 - `nvarchar(n)`
 - `ntext`
+
 
 ---
 ## Practice
