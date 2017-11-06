@@ -110,17 +110,19 @@ id | region_id |      name
  3 |         3 | generation-iii
  4 |         4 | generation-iv
  5 |         5 | generation-v
- 6 |         6 | generation-vi
+ 6 |         6 | generation-vii
 (6 rows)
 
 ??? generation
-SET ???='generation-vii'
+SET ???='generation-vi'
 WHERE id=???;
 ```
-We would like to update the table contents such that the last generation is generation "vii" instead of "vi".
+We would like to update the table contents such that the last generation is generation "vi" instead of "vii".
 
 * UPDATE
 * name
+* 6
+* 'generation-vi'
 * CHANGE
 * WHERE
 * SET
