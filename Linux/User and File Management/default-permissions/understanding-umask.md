@@ -107,3 +107,16 @@ The 3 rightmost digits represent the permissions granted to the user, user's gro
 
 [2:Files]
 In case of files, for which the x (or execute) permission is turned off by default.
+
+---
+## Quiz
+
+headline: how does umask work?
+
+question: What is the umask value, if the permission of a newly created file is 224?
+
+answers:
+  - All three are valid
+  - 442
+  - 552
+  - 443
