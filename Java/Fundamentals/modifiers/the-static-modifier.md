@@ -73,6 +73,7 @@ Person john = new Person("John");
 Person sam = new Person("Sam");
 
 System.out.println(john.lastPerson);
+// ???
 ```
 * Sam
 * John
