@@ -16,7 +16,7 @@ category: must-know
 
 Unlike other programming languages such as C, Python allows the use of `else` statements with loops.
 
-They are implemented so once a `for` or `while` loops condition evaluates to false, the `else` is executed. In other words, the `else` statement is called **once** when loops exit.
+They are implemented so once a `for` or `while` loops condition evaluates to false, the `else` is executed. In other words, the `else` statement is called **once** when loops exit naturally.  
 
 For example, an `else` statement integrated into a `while` loop:
 ```python
@@ -53,6 +53,22 @@ Gives the following output:
 4
 4 is range's upper limit
 ```
+
+If loops exit because of a `break` clause, the `else` clause will be skipped:
+```python
+for i in range(0, 2):
+    if i == 1:
+        print("a")
+        break
+    print("b")
+else:
+    print("c")
+```
+With the output:
+```python
+a
+```
+
 ---
 ## Revision
 
@@ -64,3 +80,23 @@ An `else` statement is used in loops when the loops ??? is evaluated to ???.
 * true
 * statement
 * parameter
+
+---
+## Quiz
+
+headline: what will the following code snippet print?
+
+question:|
+  for i in [1, 2]:
+      if i == 1:
+          print("a")
+          break
+      print("b")
+  else:
+      print("c")
+
+answers:
+  - a
+  - a a
+  - b a
+  - a c

@@ -22,9 +22,9 @@ tags:
 ---
 ## Content
 
-*Type coercion* converts a boolean to a number. 
+*Type coercion* converts a boolean to a number.
 
-`true` is evaluated to `1` and `false` is evaluated to `0`. 
+`true` is evaluated to `1` and `false` is evaluated to `0`.
 
 For example:
 
@@ -58,6 +58,21 @@ What does the this code output?
 console.log(3 + false); // ???
 console.log(3 + true); // ???
 ```  
-*3
-*4
-*undefined
+* 3
+* 4
+* undefined
+
+---
+## Quiz
+
+headline: how will (5 + true) be evaluated?
+
+question:|
+  // What would the output of the following code snippet be?
+  console.log(5 + true);
+
+answers:
+  - 6
+  - 5
+  - True
+  - SyntaxError
