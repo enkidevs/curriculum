@@ -51,6 +51,12 @@ print(fname)
 print(age)
 # 27
 ```
+In case of tuples with multiple fields, use the `*` unpacking syntax:
+```python
+a, *b, c = (1, 2, 3, 4, 5)
+print(b)
+# [2, 3, 4]
+```
 Tuples are often used for a sequence of values of heterogeneous types (e.g. fields of a database record or columns from a CSV file), while lists are often used for homogeneous items, such as a list of only numbers, or a list of only strings. But this is not a rule, it can be the other way around too.
 
 ---
@@ -88,9 +94,25 @@ ex_tuple = ("Python", 1, "Enki", 2)
 ???[???]
 ```
 
-*`ex_tuple`
-*`2`
-*`ex_tuple.find`
-*`ex_tuple.search`
-*`3`
-*`1`
+* `ex_tuple`
+* `2`
+* `ex_tuple.find`
+* `ex_tuple.search`
+* `3`
+* `1`
+
+---
+## Quiz
+
+headline: how does unpacking work?
+
+question: |
+  # What will be the value printed by the following code block?
+  a, *b, c = (1, 2, 3, 4, 5)
+  print(b)
+
+answers:
+  - [2, 3, 4]
+  - [2]
+  - [3, 4, 5]
+  - [1, 2, 3, 4, 5]

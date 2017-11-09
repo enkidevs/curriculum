@@ -40,14 +40,14 @@ $ git log master...tests
 ```
 $ git log master...myBranch
 ```
-Would print commits that 
+Would print commits that
 
 ???
 
-*Are in either one of them, but not in both
-*Are in master, but not in myBranch
-*Are in myBranch, but not in master
-*Are in both of them
+* Are in either one of them, but not in both
+* Are in master, but not in myBranch
+* Are in myBranch, but not in master
+* Are in both of them
 
 ---
 ## Revision
@@ -55,10 +55,25 @@ Would print commits that
 ```
 $ git log ^master myBranch
 ```
-Is equivalent to 
+Is equivalent to
 
 ???
 
-*`git log master..myBranch`
-*`git log master...myBranch`
-*`git log --not master myBranch`
+* `git log master..myBranch`
+* `git log master...myBranch`
+* `git log --not master myBranch`
+
+---
+## Quiz
+
+headline: how can you specify a range of commits?
+
+question: |
+  # Consider the following git history *--*--*--A--*--*--*--B--*
+  # Which of the following commands should be used to log all commits between A and B (inclusive)?
+
+answers:
+  - git log A~..B
+  - git log A..B
+  - git log A…B
+  - git log ^A B

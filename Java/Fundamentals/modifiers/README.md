@@ -2,7 +2,7 @@ name: Modifiers
 
 type: insights-list
 
-description: Modifiers in Java 101. 
+description: Modifiers in Java 101.
 
 section: 0
 
@@ -12,5 +12,6 @@ insights:
   - java-modifiers
   - default-and-public-modifiers
   - the-private-and-protected-modifiers
-  - the-static-and-final-modifiers
+  - the-static-modifier
+  - the-final-modifier
   - encapsulation
