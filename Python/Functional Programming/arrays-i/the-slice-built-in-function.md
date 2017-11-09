@@ -132,4 +132,4 @@ answers:
   - 'ikne'
   - 'i'
   - 'enki'
-  - TypeError: 'str' object is not subscriptable
+  - TypeError: str object is not subscriptable
