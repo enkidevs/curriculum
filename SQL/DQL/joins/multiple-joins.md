@@ -80,20 +80,24 @@ The same result can be achieved by using subqueries.
 ---
 ## Practice
 
-Fill in the gaps:
+Obtain the list of moves a Pokémon learns ordered by game version and level at which it learns the move:
 ```SQL
-SELECT pokemon.name, LJoinRes.level,
-  LJoinRes.name, LJoinRes.version_group_id
+SELECT pokemon.name,
+  poke_move_level.level,
+  poke_move_level.name,
+  poke_move_level.version_group_id
 ??? pokemon
 ??? (SELECT *
 FROM pokemon_move
 LEFT JOIN move ???
-pokemon_move.move_id = move.id) ??? LJoinRes
-ON pokemon.id = LJoinRes.pokemon_id
+pokemon_move.move_id = move.id)
+??? poke_move_level
+ON pokemon.id =
+  poke_move_level.pokemon_id
 ORDER BY pokemon.id,
-  LJoinRes.version_group_id, LJoinRes.level;
+  LJoinRes.version_group_id,
+  LJoinRes.level;
 ```
-???
 
 * `FROM`
 * `RIGHT OUTER JOIN`
