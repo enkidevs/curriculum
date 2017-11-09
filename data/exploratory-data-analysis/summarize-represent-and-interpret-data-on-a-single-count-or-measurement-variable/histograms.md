@@ -33,7 +33,7 @@ This simple example shows a dataset of 8 integers divided into 5 bins.
 [0, 1, 4, 5, 5, 6, 8, 9]
 
 <!---
-Find image at histogram-images.ipynb
+Find image at eda-one-var-plots.ipynb
 -->
 
 This was created by observing the range of the values (in this case, 0 to 9) and making a thoughtful decision about how to segment the data. By choosing a range from 0 (inclusive) to 10 (exclusive) for the histogram, the dataset can be divided into 5 segments, each with a width of 2. The data is the *binned* and plotted by counting the number of values that appear in each segment:

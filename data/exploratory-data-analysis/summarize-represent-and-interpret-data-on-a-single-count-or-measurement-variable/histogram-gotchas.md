@@ -18,7 +18,7 @@ tags:
 
 stub: true
 
-notes: 'this is a tidbit that won't have any questions
+notes: 'this is a tidbit that won't have any questions'
 
 
 
@@ -37,4 +37,4 @@ Find image at histogram-images.ipynb
 
 yet they tell very different stories. One seems to indicate a typical bimodal distribution with two peaks, a valley between, and tails on each extreme, while the other appears to have a U-shaped distribution. They have the same bin width (2), but one has segment boundaries at [0, 2), [2, 4), etc., while the other has boundaries at [1, 3), [3, 5), etc.
 
-The takeaway here is that, because a histogram necessarily condenses information, you must be careful not to obscure important features of the dataset. This can be solved by creating and observing multiple histograms, as well as by considering other ways to visualize the data, such as boxplots and one-dimensional scatterplots.
+The takeaway here is that, because a histogram necessarily condenses information, you must be careful not to obscure important features of the dataset. This can be solved by creating and assessing multiple histograms with different parameters, as well as by considering other ways to visualize the data, such as boxplots and one-dimensional scatterplots.
