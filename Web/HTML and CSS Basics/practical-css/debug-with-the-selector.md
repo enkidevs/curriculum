@@ -70,10 +70,11 @@ div * {
 
 headline: which selector is used to select every element on the page?
 
-question: ??? { background-color: rgba(0,255,0,0.1); }
+question: |
+  ??? { background-color: rgba(0,255,0,0.1); }
 
 answers:
   - "*"
-  - -
+  - "-"
   - <>
   - html
