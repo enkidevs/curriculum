@@ -2,7 +2,7 @@ name: Quirks
 
 type: insights-list
 
-description: Particularities of Node. 
+description: Particularities of Node.
 
 section: 1
 
@@ -14,3 +14,4 @@ insights:
   - avoid-command-injection
   - node-os-module
   - asynchronous-file-write-read-in-node-js
+  - process-env-performance
