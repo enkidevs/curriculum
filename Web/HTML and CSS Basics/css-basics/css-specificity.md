@@ -151,3 +151,19 @@ What is the specificity of the following CSS code snippet?
 * 0-2-1-0
 * 1-1-1-0
 * 1-2-1-2
+
+---
+## Quiz
+
+headline: which of the following selectors has the highest specificity?
+
+question: |
+  #nav .selected > p:hover {} /* 1 */
+  #footer #note {} /* 2 */
+  div div ul li div div img {} /* 3 */
+
+answers:
+  - 2
+  - 1
+  - 3
+  - both 1 and 2

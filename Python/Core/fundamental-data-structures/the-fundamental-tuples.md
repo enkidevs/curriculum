@@ -106,7 +106,7 @@ ex_tuple = ("Python", 1, "Enki", 2)
 
 headline: how does unpacking work?
 
-question:|
+question: |
   # What will be the value printed by the following code block?
   a, *b, c = (1, 2, 3, 4, 5)
   print(b)

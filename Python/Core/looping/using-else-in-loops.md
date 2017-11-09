@@ -86,7 +86,7 @@ An `else` statement is used in loops when the loops ??? is evaluated to ???.
 
 headline: what will the following code snippet print?
 
-question:|
+question: |
   for i in [1, 2]:
       if i == 1:
           print("a")

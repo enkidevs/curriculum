@@ -71,7 +71,7 @@ System.out.print(b);
 
 headline: what is the difference between prefix and postfix increment operators?
 
-question:|
+question: |
   // What is the output?
   int a = 0;
   int b = a++;

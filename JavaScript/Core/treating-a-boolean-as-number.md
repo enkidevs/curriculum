@@ -67,7 +67,7 @@ console.log(3 + true); // ???
 
 headline: how will (5 + true) be evaluated?
 
-question:|
+question: |
   // What would the output of the following code snippet be?
   console.log(5 + true);
 
