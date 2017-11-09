@@ -34,7 +34,9 @@ console.log(process.env.PORT)
 // 8080
 ```
 
-Note `process.env` is a special object which gets the values through the unix `environ` system variable. Having lots of calls to this object, which are expensive, throughout your project, might show up in its performance.
+Note `process.env` is a special object which gets the values through the unix `environ` system variable. It's also considered a **live** object, because at any point during runtime it will express the live values of *environmental variables* (although changed since boot time).
+
+Having lots of calls to this object, which are expensive, throughout your project, might show up in its performance.
 
 If your application **doesn't rely** on *live* environmental variables edits there is a simple hack to overcome some performance issues. You can simply replace the live object with a *plain JavaScript* one:
 ```js
@@ -52,6 +54,18 @@ In a similar fashion, it's better to cache the value of a variable that can be u
 
 ---
 ## Practice
+
+What kind of object is `process.env`?
+
+???
+
+* live
+* plain JavaScript
+* static
+* immutable
+
+---
+## Revision
 
 Which of the followin scenarios do you think would perform better:
 ```sh
@@ -78,15 +92,3 @@ for (y = 0; y < 10; y++) {
 * A
 * B
 * same performance
-
----
-## Revision
-
-What kind of object is `process.env`?
-
-???
-
-* live
-* plain JavaScript
-* static
-* immutable
