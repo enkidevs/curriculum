@@ -1,5 +1,3 @@
-name: Data Structures and Algorithms
-
 sections:
   - 0
   - 1

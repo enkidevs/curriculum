@@ -1,5 +1,3 @@
-name: Networking
-
 sections:
   - 0
   - 1
