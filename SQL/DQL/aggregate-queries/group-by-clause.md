@@ -17,10 +17,8 @@ category: must-know
 
 inAlgoPool: false
 
-parent: order-by-clause
-
 tags:
-  - introduction
+
   - workout
 
 links:
