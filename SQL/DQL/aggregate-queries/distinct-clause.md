@@ -18,7 +18,6 @@ category: must-know
 inAlgoPool: false
 
 tags:
-  - introduction
   - workout
 
 links:
