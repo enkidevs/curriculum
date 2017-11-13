@@ -53,10 +53,23 @@ Run `man less` to read `less`'s manual (aka "manpage").
 ---
 ## Revision
 
-A pager utility that allows you to scroll and search through a stream of output, alternative to `more`,  is 
+A pager utility that allows you to scroll and search through a stream of output, alternative to `more`,  is
 
 ???.
 *less
 *grep
 *awk
 *cut
+
+---
+## Quiz
+
+headline: are you familiar with Linux pagers?
+
+question: Is more less or less more?
+
+answers:
+  - Both are true
+  - more is less
+  - less is more
+  - Neither

@@ -1,4 +1,4 @@
-# Common mistake on switch statements
+# Common mistake in switch statements
 author: kld14
 
 levels:
@@ -34,7 +34,7 @@ switch (num) {
   case 2: System.out.println("two"); break;
   default: System.out.println("default");
 }
-   
+
 ```
  For example, assuming `num` is `0`, it prints:
 
@@ -51,7 +51,7 @@ switch (num) {
   case 2: System.out.println("two"); break;
   default: System.out.println("default");
 }
-   
+
 ```
 Including the break in the last case is not strictly necessary.
 
@@ -61,19 +61,19 @@ Including the break in the last case is not strictly necessary.
 What would this snippet output, if `num=1` ?
 ```
 switch (num) {
-  case 0: System.out.print(0); 
-  case 1: System.out.print(1); 
-  case 2: System.out.print(2); 
+  case 0: System.out.print(0);
+  case 1: System.out.print(1);
+  case 2: System.out.print(2);
   default: System.out.print(3);break;
 }
 
 ???
 ```
-*`123` 
-*`0123` 
-*`1` 
-*`12` 
-*`01`
+* `123`
+* `0123`
+* `1`
+* `12`
+* `01`
 
 ---
 ## Revision
@@ -81,15 +81,35 @@ switch (num) {
 What would this snippet output, if `num=2` ?
 ```
 switch (num) {
-  case 0: System.out.print(0); 
-  case 1: System.out.print(1); 
-  case 2: System.out.print(2); 
+  case 0: System.out.print(0);
+  case 1: System.out.print(1);
+  case 2: System.out.print(2);
   default: System.out.print(3);break;
 }
 ???
 ```
-*`23` 
-*`0123` 
-*`1` 
-*`12` 
-*`3`
+* `23`
+* `0123`
+* `1`
+* `12`
+* `3`
+
+---
+## Quiz
+
+headline: what will be the output of the following switch statement?
+
+question: |
+  // What's the output for x=1?
+  switch(x) {
+    case 0: System.out.print(0); break;
+    case 1: System.out.print(1);
+    case 2: System.out.print(2); break;
+    default: System.out.print(x); break;
+  }
+
+answers:
+  - 12
+  - 1
+  - 121
+  - 012

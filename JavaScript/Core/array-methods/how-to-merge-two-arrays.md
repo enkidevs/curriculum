@@ -18,10 +18,9 @@ links:
 ---
 ## Content
 
-`concat` is not always the best approach to merging arrays as it generates a new array. 
+`concat` is not always the best approach to merging arrays as it generates a new array.
 
-
-Since `var`s are passed by reference, `concat` may mess up a reference. 
+Since `var`s are passed by reference, `concat` may mess up a reference.
 
 Instead:
 ```javascript
@@ -34,6 +33,13 @@ Merge them, adding the second one after the first one:
 Array.prototype.push.apply(array1, array2);
 
 ```
+
+Unlike other languages, JavaScript does not support `+` for concatenating arrays. The output of such an operation would be a string:
+```js
+console.log([1, 2] + [3, 4])
+// 1,23,4
+```
+
 
 ---
 ## Revision
@@ -58,3 +64,16 @@ Merge the two arrays in order:
 *`on`
 *`after`
 *`concat`
+
+---
+## Quiz
+
+headline: what is the result of the following addition?
+
+question: console.log([3, 14] + [2, 71])
+
+answers:
+  - "3,142,71"
+  - "3,14,2,71"
+  - "[3,14,2,71]"
+  - "[5, 85]"

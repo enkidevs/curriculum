@@ -13,7 +13,7 @@ category: must-know
 ## Content
 
 There's a distinction to be made regarding *functions* and *methods*. In Python, every *subroutine* is a called a function. **Methods**, on the other hand, are those functions that are part of an object.
-  
+
 What's special about these methods is the fact that to define them, they are passed a `self` parameter as the first argument. As stated above, they are part of an object (which includes classes):
 ```python
 # define a decorator
@@ -168,3 +168,21 @@ def deco(self):
 * A and C
 * A and B
 * they are all valid
+
+
+---
+## Quiz
+
+headline: what is the output of the following snippet?
+
+question: |
+  def foo(a,b,*args,**kwargs):
+    print(a, b, args, kwargs)
+  x = {'ten': 10}
+  foo(1, 2, enki='wow', **x)
+
+answers:
+ - "1 2 () {'enki': 'wow', 'ten': 10}"
+ - "(1, 2) {'enki': 'wow', 'ten': 10}"
+ - "1 2 [] {'enki': 'wow', 'ten': 10}"
+ - "1 2 ('enki', 'wow') {'ten': 10}"
