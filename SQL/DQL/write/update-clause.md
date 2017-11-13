@@ -15,6 +15,10 @@ category: must-know
 
 inAlgoPool: false
 
+tags:
+  - introduction
+  - workout
+
 links:
 
   - '[More on UPDATE](http://www.dofactory.com/sql/update)'

@@ -15,7 +15,9 @@ inAlgoPool: false
 
 category: must-know
 
-parent: java-database-packages
+tags:
+  - introduction
+  - workout
 
 links:
 

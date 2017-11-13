@@ -16,8 +16,8 @@ inAlgoPool: false
 category: must-know
 
 tags:
-   - introduction
    - workout
+   - deep
 
 ---
 ## Content

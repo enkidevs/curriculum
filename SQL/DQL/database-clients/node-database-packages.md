@@ -13,6 +13,14 @@ category: feature
 
 inAlgoPool: false
 
+tags:
+  - introduction
+  - workout
+  - node
+  - javascript
+  - implementation
+  - database packages
+
 links:
 
   - '[Node database packages](https://www.npmjs.com/browse/keyword/database)'
