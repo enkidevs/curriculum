@@ -18,9 +18,9 @@ links:
 ---
 ## Content
 
-`concat` is not always the best approach to merging arrays as it generates a new array.
+`concat` is not always the best approach to merging arrays as it generates a new array. 
 
-Since `var`s are passed by reference, `concat` may mess up a reference. 
+Since `var`s are passed by reference, `concat` may mess up a reference.
 
 Instead:
 ```javascript

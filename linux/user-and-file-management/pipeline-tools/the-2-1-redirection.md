@@ -35,7 +35,7 @@ links:
 ## Content
 
 You can use `2>&1` at the end of a command to incorporate the error stream into the output stream.
-For context, `1` is `stdout` and `2` is `stderr`. 
+For context, `1` is `stdout` and `2` is `stderr`.
 
 At first, `2>1` may look like a good way to redirect stderr to stdout. However, it will actually be interpreted as "redirect stderr to a file named 1".
 

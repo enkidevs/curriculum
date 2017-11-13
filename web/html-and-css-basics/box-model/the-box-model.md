@@ -22,10 +22,10 @@ links:
 According to the **box model**, every element on the page is a rectangular box that may have `width`, `height`, `margin`, `padding` or `border`.
 
 The dimensions of such a box are calculated by summing the values of the above mentioned properties. To better understand the formula, consider this example:
-``` 
+```
 div{
   width: 600px;
-  height: 200px;
+  height: 200px; 
   border: 4px solid blue;
   margin: 20px;
   padding: 10px;
