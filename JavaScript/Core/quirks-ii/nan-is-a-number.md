@@ -19,7 +19,7 @@ category: caveats
 When using the `typeof` operator with `NaN`, an interesting result is observed:
 
 ```
-var x = typeof NaN;
+var x = typeof NaN; 
 console.log(x);
 // 'number'
 ```

@@ -27,7 +27,7 @@ links:
 ## Content
 
 Normal Python references to objects increment the object's reference count thus preventing it from being **garbage collected**. **Weak Reference** points to the object but does not affect **garbage collector** i.e. it does not increment the object's reference count.
-
+ 
 If a user desires creating **weak references**, the `weakref` module can be used:
 ```python
 import weakref

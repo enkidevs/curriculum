@@ -18,7 +18,7 @@ category: must-know
 
 In other words, it is the ability of an object to take different forms.
 
-To demonstrate a polymorphic feature, let `FamilyCar` extend the `Car` class. Because a `FamilyCar` object might have the same `noDoors` as a normal car, but more seats, it makes sense to include this field:
+To demonstrate a polymorphic feature, let `FamilyCar` extend the `Car` class. Because a `FamilyCar` object might have the same `noDoors` as a normal car, but more seats, it makes sense to include this field: 
 ```
 public FamilyCar extends Car {
   int noSeats;

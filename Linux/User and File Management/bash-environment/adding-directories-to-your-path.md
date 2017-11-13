@@ -27,7 +27,7 @@ tags:
 ## Content
 
 **PATH** is an environmental variable that informs the shell within which directories to search for executable files in response to commands issued by a user.
-
+ 
 To do this, edit the `.bashrc` file in the home directory and append the following line (chaining the existing path additions) :
 ```
 export PATH=/path/to/dir:$PATH

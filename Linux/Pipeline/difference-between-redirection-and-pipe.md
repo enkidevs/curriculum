@@ -38,7 +38,7 @@ Let `p1` be a program that when ran will give a certain output.
 
 To put all the *output* inside a file (say `myFile`), **redirection** is necessary[1]:
 ```
-$ p1 > myFile
+$ p1 > myFile 
 ```
 However, to use the *output* as *input* of another program (say `p2`) things are different. An auxiliary file can be used (say `tmp_file`)[2]:
 ```
@@ -108,4 +108,4 @@ answers:
   - cat enki.txt > grep "enki"
   - cat enki.txt | grep "enki"
   - ls -l > enki.txt && cat < enki.txt
-  - grep "enki" < enki.txt 
+  - grep "enki" < enki.txt

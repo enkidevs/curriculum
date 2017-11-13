@@ -29,7 +29,7 @@ notes: ''
 ## Content
 
 Next time you are using your shell and need to enter a long command,
-try `ctrl-x e` (press `x` and `e` while holding control key).
+try `ctrl-x e` (press `x` and `e` while holding control key). 
 
 The shell will take what you've written on the command line so far and paste it into the editor specified by `$EDITOR`. Then you can edit at leisure using all the powerful macros and commands of `vi`, `emacs`, `nano`, or your preferred editor.
 

@@ -22,7 +22,7 @@ tags:
 ---
 ## Content
 
-Unlike many other programming languages, JavaScript doesn't differentiate between types of numbers, such as integers or floating-points.
+Unlike many other programming languages, JavaScript doesn't differentiate between types of numbers, such as integers or floating-points. 
 
 Instead, numbers are always stored as _double precision floating point numbers_, following the international `IEEE 754` standard.
 

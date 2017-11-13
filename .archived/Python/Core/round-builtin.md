@@ -17,8 +17,8 @@ tags:
 ---
 ## Content
 
-The Python’s `round(number[,ndigits])` function will return the floating point value `number` rounded to `ndigits` digits after the decimal point. However, the precision - `ndigits` can also be negative, so the number will be rounded `2` digits before the decimal point. In addition, `round()` returns `float` values, so the correct answer must have a trailing `0` after the decimal point. 
-
+The Python’s `round(number[,ndigits])` function will return the floating point value `number` rounded to `ndigits` digits after the decimal point. However, the precision - `ndigits` can also be negative, so the number will be rounded `2` digits before the decimal point. In addition, `round()` returns `float` values, so the correct answer must have a trailing `0` after the decimal point.
+ 
 ---
 ## Quiz
 

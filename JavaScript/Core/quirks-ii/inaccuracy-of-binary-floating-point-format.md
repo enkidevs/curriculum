@@ -17,7 +17,7 @@ category: caveats
 **JavaScript** has only one data type for representing numbers - binary floating-point format.
 
 Taking into consideration that binary floating-point format have several *`inaccuracies`*, you must be aware of some implications that may break your code.
-
+ 
 For example :
 ```javascript
 console.log(.1 + .2);
