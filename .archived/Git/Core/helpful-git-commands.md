@@ -21,7 +21,7 @@ Among the possible answers, `repack` is the only command not recognized by `git`
 - `reflog` is a local record of all commits referenced in your repository, and can be seen as a “saftey net”, useful for recovering lost commits.
 - `request-pull` prints in the standard output a report asking the upstream project to `pull` changes into their tree.
 - `merge-base` finds best common ancestor(s) between two commits to use in a three-way merge.
- 
+
 ---
 ## Quiz
 

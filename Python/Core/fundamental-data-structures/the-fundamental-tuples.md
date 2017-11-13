@@ -21,7 +21,7 @@ links:
 
 Tuples are used to group any number of items into a single compound value regardless of their type (even nested tuples):
 ```python
-myTuple = ("first", 13, "random", 42) 
+myTuple = ("first", 13, "random", 42)
 ```
 
 You can extract elements from the tuple using the index operator:

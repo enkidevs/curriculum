@@ -28,7 +28,7 @@ links:
 ---
 ## Content
 
-Although a difficult topic, understanding how properties can be overridden will make you more confident when writing CSS code. 
+Although a difficult topic, understanding how properties can be overridden will make you more confident when writing CSS code.
 
 In the previous workout, we discussed about three basic types of selectors:
  - type (`div`, `p`)

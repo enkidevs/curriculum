@@ -31,7 +31,7 @@ question: |
   echo $a
 
 answers:
-  - Error: unexpected end of file
+  - "Error: unexpected end of file"
   - 1
   - 2
   - $a

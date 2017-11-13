@@ -23,9 +23,9 @@ tags:
 ---
 ## Content
 
-Every file or directory gets some default permissions when created. These values can be set using `umask`[1].
+Every file or directory gets some default permissions when created. These values can be set using `umask`[1]. 
 
-As its name states, the value itself is a *mask* that *takes away* permissions. The default permission a **directory** gets when created is 777 (rwxrwxrwx), which is then masked by the `umask` value. 
+As its name states, the value itself is a *mask* that *takes away* permissions. The default permission a **directory** gets when created is 777 (rwxrwxrwx), which is then masked by the `umask` value.
 
 The default permission for new **files** is 666 (rw-rw-rw-), which gets masked by the `umask` value.
 

@@ -23,7 +23,7 @@ links:
 ---
 ## Content
 
-`inherit` takes an extra step in checking whether there are other properties it can use in the cascade before using the `initial` value that has been set. 
+`inherit` takes an extra step in checking whether there are other properties it can use in the cascade before using the `initial` value that has been set.
 
 For example:
 

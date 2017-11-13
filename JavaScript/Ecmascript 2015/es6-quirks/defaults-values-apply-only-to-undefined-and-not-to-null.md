@@ -22,7 +22,7 @@ tags:
 ---
 ## Content
 
-ES6 defaults values in function parameters and object deconstructions work as expected when given `undefined`. 
+ES6 defaults values in function parameters and object deconstructions work as expected when given `undefined`.
 
 
 ```

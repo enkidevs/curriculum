@@ -14,7 +14,7 @@ category: must-know
 ---
 ## Content
 
-Both `static` and `final` are non-access modifiers. Therefore, they can be used in conjunction with one another or with access modifiers such as `public` or `private`.
+Both `static` and `final` are non-access modifiers. Therefore, they can be used in conjunction with one another or with access modifiers such as `public` or `private`. 
 
 Variables that are declared `static` exist outside instances of the class, with every instance sharing the same variable. Static variables are also known as *class* variables.
 
@@ -53,7 +53,7 @@ With the output:
 ```bash
 3 3 3 3 3
 ```
-The last two calls are acceptable because `static` methods are class specific. 
+The last two calls are acceptable because `static` methods are class specific.
 
 ---
 ## Practice

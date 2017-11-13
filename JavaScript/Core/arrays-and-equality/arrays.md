@@ -14,7 +14,7 @@ category: must-know
 ---
 ## Content
 
-Arrays are an important concept in JavaScript and used frequently. 
+Arrays are an important concept in JavaScript and used frequently.
 
 Declaring an array:
 ```
