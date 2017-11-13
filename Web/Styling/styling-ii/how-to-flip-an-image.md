@@ -40,10 +40,10 @@ Which method is used to modify the width of an image?
 
 ???
 
-*`scaleX`
-*`scaleW`
-*`width-alter`
-*`scaleY`
+* `scaleX`
+* `scaleW`
+* `width-alter`
+* `scaleY`
 
 ---
 ## Revision
@@ -60,3 +60,18 @@ img {
 * 2
 * 0.5
 * -0.5
+
+---
+## Quiz
+
+headline: how will the following line affect an image?
+
+question: |
+  How does the following line affect an image?
+  img { transform: scaleX(-1); }
+
+answers:
+  - It horizontally flips the image
+  - It vertically flips the image
+  - It rotates the image 180 degrees
+  - The image will look just the same

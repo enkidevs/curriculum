@@ -47,7 +47,7 @@ myArray.pop();
 ```
 You can find the position of any item with the *indexOf* operator:
 ```
-var pos = myArray.indexOf(3);//2
+var pos = myArray.indexOf(3); //2
 ```
 We can iterate over the array items with *forEach*:
 ```
@@ -57,6 +57,11 @@ function (item, index, array) {
 }
 );
 ```
+Another cool feature of JavaScript is that you can initialize an array as such:
+```JavaScript
+var myArray = [,,,];
+```
+What this does is create an *empty* array of *size 3* (not 4, as the last comma is ignored).
 
 ---
 ## Practice
@@ -66,16 +71,16 @@ How would you get the last value in the `myArray` array?
 var myLength = myArray.???
 var last = ???[??? ???];
 ```
-*`length`
-*`myArray`
-*`myLength`
-*`-1`
-*`+0`
-*`+1`
-*`array`
-*`[0]`
-*`.getLast`
-*`.tail`
+* `length`
+* `myArray`
+* `myLength`
+* `-1`
+* `+0`
+* `+1`
+* `array`
+* `[0]`
+* `.getLast`
+* `.tail`
 
 ---
 ## Revision
@@ -86,11 +91,26 @@ var enkiArray = [1, 2, 3];
 var firstElement = ??????;
 ```
 
-*`enkiArray`
-*`[0]`
-*`[1]`
-*`array`
-*`getLast()`
-*`getFirst()`
-*`push`
-*`pop`
+* `enkiArray`
+* `[0]`
+* `[1]`
+* `array`
+* `getLast()`
+* `getFirst()`
+* `push`
+* `pop`
+
+---
+## Quiz
+
+headline: what is the length of the array below?
+
+question: |
+  let arr = [,,,]
+  console.log(arr.length)
+
+answers:
+  - 3
+  - 4
+  - 0
+  - 1
