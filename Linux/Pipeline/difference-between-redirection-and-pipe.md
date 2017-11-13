@@ -38,7 +38,7 @@ Let `p1` be a program that when ran will give a certain output.
 
 To put all the *output* inside a file (say `myFile`), **redirection** is necessary[1]:
 ```
-$ p1 > myFile 
+$ p1 > myFile
 ```
 However, to use the *output* as *input* of another program (say `p2`) things are different. An auxiliary file can be used (say `tmp_file`)[2]:
 ```
@@ -102,7 +102,7 @@ $ p1 > tmp_file && p2 < tmp_file
 
 headline: which of the following is not a valid command?
 
-question: Pick the option that would throw an error:
+question: Pick the option that would throw an error.
 
 answers:
   - cat enki.txt > grep "enki"
