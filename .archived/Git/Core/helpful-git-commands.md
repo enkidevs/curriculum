@@ -27,7 +27,7 @@ Among the possible answers, `repack` is the only command not recognized by `git`
 
 headline: how familiar are you with git commands?
 
-question: Which of the following is not an actual git command?
+question: Which of the following is not an actual git command? 
 
 answers:
   - git repack
