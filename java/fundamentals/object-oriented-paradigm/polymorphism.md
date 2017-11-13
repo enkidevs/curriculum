@@ -14,7 +14,7 @@ category: must-know
 ---
 ## Content
 
-**Polymorphism** is a principle in object-oriented programming that refers to the ability of *child classes* to define their own behavior, while also sharing some functionalities with the *parent class*. 
+**Polymorphism** is a principle in object-oriented programming that refers to the ability of *child classes* to define their own behavior, while also sharing some functionalities with the *parent class*.
 
 In other words, it is the ability of an object to take different forms.
 
@@ -130,5 +130,5 @@ question: |
 answers:
   - Lessy
   - Stinky
-  - Error: name() has private access
-  - Error: cannot find symbol name()
+  - "Error: name() has private access"
+  - "Error: cannot find symbol name()"
