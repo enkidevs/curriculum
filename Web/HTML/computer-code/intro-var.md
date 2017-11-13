@@ -24,18 +24,45 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-What does the tag <var> do here?
-    <p> A simple equation: <var>x</var> = <var>y</var> + 2</p>
+When using the `<var>` element, which statements are true?
 
-???
-
-* Displays the mathematical expressions differently than the surrounding text.
-
++ represents a variable in a mathematical expression
++ represents a variable in a programming context
++ produces an inline element
++ Default text style is italic. 
+- produces a block element
+- Default text style is a monospace font. 
+- represents preformatted text
+- represents user input
 
 ---
 ## Revision
 
-What HTML element wraps around mathematical expressions or a programming context to display the text differently than the surrounding text?
+What HTML element is best to display mathematical expressions or a programming context differently than the surrounding text?
 
 ???
+
 * var
+* samp
+* code
+* kbd
+* pre
+* math
+* output
+
+---
+## Quiz
+
+Which HTML element is best to substitute for "tag" within this code:  
+
+`<p>`A simple equation: `<tag>`x`</tag>` = `<tag>`y`</tag>` + 2`</p>`
+
+???
+
+* var
+* samp
+* code
+* kbd
+* pre
+* math
+* output

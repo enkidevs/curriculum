@@ -1,5 +1,5 @@
 # Thead, tbody, & tfoot
-author: mihaiberq
+author: matthewleach
 
 levels:
   - beginner
@@ -25,20 +25,43 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-Which HTML element does not specify each part of an HTML table?
+Match the HTML elements with their descriptions: 
 
-???
+???: used for adding a header to a table.
+???: used for adding a footer to a table.
+???: used for grouping table rows.
 
-* tnav
 * thead
-* tbody
 * tfooter
-
+* tbody
+* title
+* caption
+* head
+* footer
+* main
 
 ---
 ## Revision
 
-The <thead>, <tbody>, and <tfoot> elements do not effect HTML tables by default, but will with CSS styles.
+The `<thead>`, `<tbody>`, and `<tfoot>` elements have no default visual effects on HTML tables, but will with CSS styles.
 
 ???
-* T
+
+* True
+* False
+* Depends on the table created.
+
+---
+## Quiz
+
+How much do you know about HTML tables?
+
+What are two key benefits of using `<thead>`, `<tbody>`, and `<tfoot>` elements on a table?
+
++ the table body can scroll independantly of the header and footer.
++ tables will print with header/footer on top/bottom when spanning multiple pages.
+- alternative colors can be styled to rows/columns differently.
+- best for search engines to determine type of data. 
+- allows for easier nesting of table organization.
+
+

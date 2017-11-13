@@ -1,5 +1,5 @@
 # Table, tr, & td
-author: mihaiberq
+author: matthewleach
 
 levels:
   - beginner
@@ -25,57 +25,81 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-Which element is used to add columns to the tables?
-
-???
-
-Use <td> and </td> to add what to HTML tables?
-
-???
-
 Arrange the HTML tags to properly create this table:
-```
-<__>
-  <__>
-    <__>Name</__>
-    <__>Height</__>
-    <__>Eye Color</__>
-  </__>
-  <__>
-    <__>Matthew</__>
-    <__>6'2''</__>
-    <__>Blue</__>
-  </__>
-</table>
-```
-???
 
-* <td>
-* columns
-* (Can we auto-fill the matching tags?)
+```<tag1>
+  <tag2>
+    <tag3>Matthew</tag3>
+    <tag3>Denver</tag3> 
+    <tag3>Colorado</tag3>
+  </tag2>
+  <tag2>
+    <tag3>Liz</tag3>
+    <tag3>San Francisco</tag3> 
+    <tag3>California</tag3>
+  </tag2>
+</tag1>```
 
+tag1 = ???
+tag2 = ???
+tag3 = ???
+
+* table
+* tr
+* td
+* tc
+* th
+* row
+* col
+* colspan
+* rowspan
 
 ---
 ## Revision
 
-What are the three HTML elements required to create the rows and columns of an HTML table?
-
-???
-
 Match the HTML element with its description:
 
-???
+??? = defines the entire table 
+??? = defines the table row
+??? = defines the table data
 
-Which element is used to add rows to the tables?
+* `<table>`
+* `<tr>`
+* `<td>`
+* `<et>`
+* `<row>`
+* `<col>`
 
-???
+---
+## Quiz
 
-Use <tr> and </tr> to add what to HTML tables?
+How much do you know about HTML tables?
 
-???
-* table, tr, td
-* table: defines the entire table
-* tr: defines the table row
-* td: defines the table data
-* <tr>
-* rows
+Arrange the HTML tags to properly create this table:
+
+```<tag1>
+  <tag2>
+    <tag3>Pencil</tag3>
+    <tag3>1.99</tag3> 
+    <tag3>295</tag3>
+  </tag2>
+  <tag2>
+    <tag3>Pen</tag3>
+    <tag3>2.49</tag3> 
+    <tag3>423</tag3>
+  </tag2>
+</tag1>```
+
+tag1 = ???
+tag2 = ???
+tag3 = ???
+
+* table
+* tr
+* td
+* tc
+* th
+* row
+* col
+* colspan
+* rowspan

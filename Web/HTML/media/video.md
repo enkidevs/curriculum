@@ -1,5 +1,5 @@
 # Video
-author: mihaiberq
+author: matthewleach
 
 levels:
   - beginner
@@ -24,32 +24,44 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-Which HTML element is used to insert a movie clip or video stream into the document?
+In order for videos today to be supports on all major web browsers, what two video formats are needed?
 
-???
-
-When inserting a video clip, it is best to use .mp4 video format to guarantee the video will be played on all browsers (even older versions), regardless of the device.
-
-???
-
-Which video formats are supported by HTML5?
-
-???
-
-* <video>
-* F
-* WebM, Ogg, mp4,
-* <vid>
-* <media>
-* <youtube>
-* <stream>
-* <movie>
-
++ .mp4
++ .webm
+- h.246
+- codec
+- .mp3
+- .oog
 
 ---
 ## Revision
 
-HTML video files must be located on a video server to properly be delivered to users.
+Which HTML element is used to insert a movie clip or video stream into the document?
 
 ???
-* F
+
+* `<video>`
+* `<vid>`
+* `<media>`
+* `<youtube>`
+* `<stream>`
+* `<movie>`
+
+---
+## Quiz
+
+How much do you know about web videos?
+
+If your video plays OK on your local computer, but doesn't play on the web server, what can fix this?
+
+???
+
+* .htaccess file adding video types needs to be added to server.
+* Hosting videos on your server will not be possible.
+* The video will be viewable by others, just not you.
+* The video file needs to be converted properly to be posted online.
+* Close the browser, reopen it, and test the video again.
+
+
+
+

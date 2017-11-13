@@ -1,5 +1,5 @@
 # Rowspan
-author: mihaiberq
+author: matthewleach
 
 levels:
   - beginner
@@ -25,29 +25,57 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-The colspan and rowspan attributes of an HTML table provide what similar functionality in spreadsheet programs such as Excel?
+Code the following table where the "Married" values covers both rows of "Matt" and "Mary".  
 
-???
+```<tag1>
+  <tag2>
+    <tag3>Matt</tag3>
+    <tag3 tag4>Married</tag3>
+  </tag2>
+  <tag2>
+    <tag3>Mary</tag3>
+  </tag2>
+</tag1>```
 
-Which line correctly spreads a cell through multiple rows of a table?
+tag1 = ???
+tag2 = ???
+tag3 = ???
+tag4 = ???
 
-???
-
-* Merge cell
-* <td rowspan="2">Fun text here</td>
-
+* table
+* tr
+* td
+* rowspan="2"
+* colspan="2"
+* cover="2"
 
 ---
 ## Revision
 
-What attribute is useful to create multi-row headings in an HTML table?
-OR
-What attribute is useful for a header cell to title a sidebar that groups rows of entries?
+What attribute is useful to expand a single cell into the row below it?
 
 ???
 
-In HTML tables, the rowspan attribute can be applied to which element to combined it with the cell in the row below it?
-
-???
 * rowspan
-* <th> and <td>
+* colspan
+* column
+* col
+* row
+* rowgroup
+* colgroup
+
+---
+## Quiz
+
+How much do you know about HTML tables?
+
+Both colspan and rowspan are attributes of an HTML table that provide the same functionality as what in spreadsheet programs like Excel?
+
+???
+
+* merge cells
+* hide cells
+* expand cells
+* show cells
+* override cells
+* format cells

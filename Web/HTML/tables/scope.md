@@ -1,4 +1,4 @@
-# Colspan
+# Table: Scope Attribute
 author: matthewleach
 
 levels:
@@ -34,4 +34,3 @@ New content to go here. The author must be updated to match a valid Enki account
 
 ---
 ## Quiz
-

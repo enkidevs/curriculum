@@ -24,27 +24,44 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-__ is intended to be used with the __ element to mark up such things as diagrams, illustrations, photos, and code examples.
+Match the code with the tags to properly define a caption for the photo.
 
-???
+`<tag1>`
+  `<img src="waterfall.jpg" alt="Seljalandsfoss waterfall in Iceland">`
+  `<tag2>`The Seljalandsfoss waterfall in Iceland. Original by `<a href="http://www.flickr.com/photos/enki/">`Enki Pro`</a>``</tag2>`
+`</tag1>`
 
-* figure, figcaption
+tag1 = ???
+tag2 = ???
+
+* figure
+* figcaption
+* annotate
+* reference
+* caption
+* figtitle
 
 
 ---
 ## Revision
 
-The figcaption defines a caption or legend for a figure.
-Place the HTML code in the appropriate places:
-    Match: figure, img, figcaption with their appropriate spaces.
-    <figure>
-      <img src="waterfall.jpg" alt="Seljalandsfoss waterfall in Iceland">
-      <figcaption>The Seljalandsfoss waterfall in Iceland. Original by <a href="http://www.flickr.com/photos/enki/">Enki Pro</a></figcaption>
-    </figure>
-When choosing between <figure> and <aside>, which statements can help you make the proper decision?
+What HTML element best defines a caption or legend for a figure?
 
-???
-* Something wrong.
-* Use aside when the content is relate, but not required to follow along.
-* Use figure when the content is required to follow along, but it can be placed anywhere in the flow of the content.
-* Use div when the content is required and the position is important in the context of the content.
+* `<figcaption>`
+* `<caption>`
+* `<legend>`
+* `<fig>`
+* `<figtitle>`
+
+---
+## Quiz
+
+How much do you know about `<figure>`, `<aside>` & `<div>`?
+
+Use ??? when the content is related, but not required to follow along. 
+Use ??? when the content is required to follow along, but it can be placed anywhere in the flow of the content. 
+Use ??? when the content is required and the position is important in the context of the content.
+
+* `<aside>`
+* `<figure>`
+* `<div>`

@@ -24,18 +24,46 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-What does the tag <samp> do here?
-    <p>My first selection within Enki was wrong as it displayed the alert <samp>Oh no... This is a wrong answer</samp>.</p>
+When using the `<samp>` element, which statements are true?
 
-???
-
-* Displays the output text from a computer program differently than the surrounding text.
++ represents sample output from a computer program
++ displayed in the browser's default monospace font 
++ when nested inside `<kbd>`, represents input based on system output.
++ when containing `<kbd>`, represents input echoed by the system. 
+- produces a block element
+- represents preformatted text
+- represents user input
 
 
 ---
 ## Revision
 
-What HTML element wraps around sample output text from a computer program to display the text differently than the surrounding text?
+What HTML element wraps around sample output text from a computer program to identify it differently?
 
 ???
+
 * samp
+* code
+* kbd
+* pre
+* var
+* out
+* output
+
+---
+## Quiz
+
+Which HTML element is best to substitute for "tag" within this code:  
+
+`<p>`My first selection within Enki was wrong as it displayed the alert `<tag`>Oh no... This is a wrong answer`</tag>`.`</p>`
+
+tag = ???
+
+* samp
+* code
+* kbd
+* pre
+* var
+* out
+* output
+

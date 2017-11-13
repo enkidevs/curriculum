@@ -24,22 +24,51 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-Which HTML element is used to create a short quotation?
+Which statements about the `<q>` element are correct?
 
-???
+```<p><cite>Carrie Bradshaw</cite> said <q cite="#">Shopping is my cardio</q> and that is pretty awesome.</p>```
 
-Which display type is the <q> element when defining short quotes?
-
-???
-
-* q
-* inline
-
++ used for indicating short quotations
++ used within non-quoted paragraphs
++ quotation marks usually added around text by browsers
++ displays as an inline element
++ used for indicating long quotations
+- used when quotation spans multiple lines
+- typically displayed as italic text by default
+- displays as a block element
 
 ---
 ## Revision
 
-When using the <q> element to create a short quote, quotation marks are usually apply by the browser by default.
+Which HTML element is best to indicate short quotations?
 
 ???
-* T
+
+* `<q>`
+* `<quote>`
+* `<blockquote>`
+* `<quot>`
+* `<mark>`
+* `<cite>`
+* `<sq>`
+
+---
+## Quiz
+
+How much do you know about quotes in web pages?
+
+What is the most appropriate HTML element to use here?
+
+```<p>As <cite>Ron Burgundy</cite> shouted <tag cite="#">I'm not a baby! I'm a man! An ANCHORMAN!</tag></p>```
+
+tag = ???
+
+* q
+* quote
+* blockquote
+* quot
+* mark
+* cite
+* sq
+
+

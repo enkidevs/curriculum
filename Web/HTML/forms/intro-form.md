@@ -24,6 +24,21 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
+
+
+---
+## Revision
+
+
+---
+## Quiz
+
+
+
+
+
+
+
 HTML elements that allow the user to enter information is referred to as what?
 
 ???
@@ -62,8 +77,6 @@ GAME Concept: GET vs POST (outlined below with the games)
 * GET
 
 
----
-## Revision
 
 Interactive elements like textfields, radio buttons, and check boxes, must be placed within a <form> element to collect user input.
 

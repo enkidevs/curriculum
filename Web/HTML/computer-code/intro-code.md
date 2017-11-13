@@ -31,7 +31,7 @@ What content is best to style when using the `<code>` element?
 + filenames
 + JS scripts
 - keyboard keys
-- sample output text from computer program
+- output text from computer programs
 - mathematical expressions
 - variables
 - function parameter
@@ -39,7 +39,7 @@ What content is best to style when using the `<code>` element?
 ---
 ## Revision
 
-What HTML element is used in place of "tag" to display the content differently than the paragraph text?
+What HTML element is used in place of "tag" to visually highlight the difference of the paragraph elements in an appropriate way?
 
 `<p>`The `<tag>``<p>``</p>``</tag>` tags are used in HTML to create paragraphs.`</p>`
 
@@ -56,7 +56,7 @@ tag = ???
 
 How much do you know about the `<code>` element?
 
-Which statement(s) can be considered wrong with this code?
+Which statement(s) can be considered correct with this code?
 
 ```<code>
   <table>
@@ -68,6 +68,6 @@ Which statement(s) can be considered wrong with this code?
 </code>```
 
 + Any text within `<code>` will display in monospace font.
-+ Only the text "Data 1 Data 2" will be displayed.
-- All text within `<code>` will display as code and not as a table.
-- All text within `<code>` will display by default with colors associated with the coding language.
++ Only the text "Data 1 Data 2" will be displayed within the page.
+- All text within `<code>`, including the table element, will display.
+- All text within `<code>` will display by default with colors associated with the coding language of the editor.
