@@ -106,6 +106,8 @@ Polymorphism refers to the ability of an object to ???
 headline: What will this output?
 
 question: |
+
+```
   class Main {
     private final String name;
       Main(String name) {
@@ -125,9 +127,10 @@ question: |
           new Main("Lessy").say();
       }
   }
-
+```
 
 answers:
+
   - Lessy
   - Stinky
   - Error: name() has private access

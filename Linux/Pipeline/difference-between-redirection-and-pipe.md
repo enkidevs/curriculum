@@ -34,11 +34,11 @@ tags:
 - `pipe` refers to passing the *output* to another **program** or **utility**
 
 
-Let `p1` be a program that when ran will give a certain output.
+Let `p1` be a program that when ran will give a certain output. 
 
 To put all the *output* inside a file (say `myFile`), **redirection** is necessary[1]:
 ```
-$ p1 > myFile
+$ p1 > myFile 
 ```
 However, to use the *output* as *input* of another program (say `p2`) things are different. An auxiliary file can be used (say `tmp_file`)[2]:
 ```
@@ -65,13 +65,13 @@ $ script.sh ??? file.txt
 ---
 ## Revision
 
-_Piping_ refers to passing the output to another program or utility, while _redirecting_ to
+_Piping_ refers to passing the output to another program or utility, while _redirecting_ to 
 
 ???.
 
 *passing the output to a stream or file
 *passing the output to a script
-*passing the output to `cat`
+*passing the output to `cat` 
 *passing the output to an utility
 
 ---
@@ -85,7 +85,7 @@ $ p1 > myFile
 1. `p1` is executed
 2. *output* of `p1` is put in a file called `myFile`.
 
-If `myFile` already exists, it will be overriden.
+If `myFile` already exists, it will be overriden. 
 
 [2:explanation]
 What happens when running the line:
@@ -96,16 +96,3 @@ $ p1 > tmp_file && p2 < tmp_file
 1. `p1` is executed
 2.  *output* of `p1` is saved in the file called `tmp_file`
 3.  `p2` is executed having as *input* the contents of `tmp_file`
-
----
-## Quiz
-
-headline: which of the following is not a valid command?
-
-question: Pick the option that would throw an error:
-
-answers:
-  - cat enki.txt > grep "enki"
-  - cat enki.txt | grep "enki"
-  - ls -l > enki.txt && cat < enki.txt
-  - grep "enki" < enki.txt 

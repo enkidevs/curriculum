@@ -79,10 +79,10 @@ How can we prevent a function we define with a mutable default argument from usi
 
 ???
 
-* Replace the default with an immutable object and check in the function body if it's still there, and if so, create the container.
+* Replace the default with an immutable object and check in the function body if it's still there, and if so, create the container. 
 * Replace the default with an immutable container.
-* Replace the default with an immutable container and check in the function if it's empty, and if so, create the container.
-* Use a lambda function.
+* Replace the default with an immutable container and check in the function if it's empty, and if so, create the container. 
+* Use a lambda function. 
 
 ---
 
@@ -108,22 +108,3 @@ add_to("string")
 * `[1], [1], [1]`
 * `[1], [2.5, 1], ['string', 2.5, 1]`
 * `TypeError`
-
----
-## Quiz
-
-headline: what is the last line printed?
-
-question: |
-  def foo(x, k = []):
-      k.append(x)
-      print(k)
-  foo(1)
-  foo(2, [4, 5])
-  foo(3)
-
-answers:
-  - "[1, 3]"
-  - "[1]"
-  - "[4, 5, 2]"
-  - "[1, 2, 3]"

@@ -28,10 +28,8 @@ isNaN("Enki"); //true
 ---
 ## Practice
 
-What does the following code snippet return?
-```
-NaN === NaN
-```
+What does the following code snippet return? 
+```NaN` === `NaN```
 ???
 
 * false
@@ -43,20 +41,5 @@ NaN === NaN
 ## Revision
 
 `NaN === NaN` is ???
-* false
-* true
-
----
-## Quiz
-
-headline: is NaN equal to itself?
-
-question: |
-  // What would the following expression evaluate to?
-  NaN === NaN
-
-answers:
-  - false
-  - true
-  - SyntaxError
-  - NaN
+*false
+*true

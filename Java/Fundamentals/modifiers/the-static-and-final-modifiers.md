@@ -1,4 +1,4 @@
-# The `static` Modifier
+# The `static` and `final` Modifiers
 author: mihaiberq
 
 levels:
@@ -14,7 +14,7 @@ category: must-know
 ---
 ## Content
 
-Both `static` and `final` are non-access modifiers. Therefore, they can be used in conjunction with one another or with access modifiers such as `public` or `private`.
+Both `static` and `final` are non-access modifiers. Therefore, they can be used in conjunction with one another or with access modifiers such as `public` or `private`. 
 
 Variables that are declared `static` exist outside instances of the class, with every instance sharing the same variable. Static variables are also known as *class* variables.
 
@@ -55,69 +55,42 @@ With the output:
 ```
 The last two calls are acceptable because `static` methods are class specific.
 
----
-## Practice
+The `final` modifiers limits the initializations number to *1*. A final variable cannot be reassigned to refer another object.
 
-What would the following snippet print to the console?
-```java
-public class Person {
-  public static String lastPerson;
-  public String name;
-  public Person(name) {
-    this.name = name;
-    this.lastPerson = name;
+However, the data inside the object can be changed (also called its *state*).
+
+For example:
+```
+public Car{
+  private final int value = 10;
+  private static final int PRICE = 30;
+
+  public void changeValue(int x){
+    value = x; // error
   }
 }
-
-Person john = new Person("John");
-Person sam = new Person("Sam");
-
-System.out.println(john.lastPerson);
-// ???
 ```
-* Sam
-* John
-* JohnSam
-* SamJohn
+N.B. `static` and `final` can be used together to create a constant, class specific variable. Their identifiers should also be all capital letters.
+
+A `final` method cannot be overridden by any subclass. This is particularly useful when outsiders shouldn't modify the behavior of the class.
 
 ---
-## Revision
+## Practice
 
 How are static variables also called?
 
 ???
-* Class variables.
-* Instance variables.
-* Constants.
-* Class constants.
+*Class variables.
+*Instance variables.
+*Constants.
+*Class constants.
 
 ---
-## Quiz
+## Revision
 
-headline: how do class variables work?
+Variables declared `final` cannot be ???.
 
-question: |
-  public class Dog {
-    String name;
-    int age;
-    static int ageSum = 0;
-    public Dog(String name, int age){
-      this.name = name;
-      this.age = age;
-      ageSum += age;
-    }
-    public int getCurrentSum(){
-      return ageSum;
-    }
-  }
-
-  Dog d1 = new Dog("Dog", 2);
-  System.out.print(d1.getCurrentSum() + " and ");
-  Dog d2 = new Dog("Blitz", 3);
-  System.out.print(d1.getCurrentSum());
-
-answers:
-  - 2 and 5
-  - 2 and 3
-  - 2 and 2
-  - 5 and 5
+*reassigned
+*modified
+*copied
+*referenced
