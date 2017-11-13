@@ -18,7 +18,7 @@ notes: ''
 ---
 ## Content
 
-Java supports 2 forms of shorter incrementation of variables: 
+Java supports 2 forms of shorter incrementation of variables:
 
 ```java
 int i = 3;

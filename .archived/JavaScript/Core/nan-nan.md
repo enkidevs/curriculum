@@ -19,7 +19,7 @@ category: caveats
 `NaN` is not equal to itself.
 ```
 NaN === NaN; //false
-``` 
+```
 In order to check for a `NaN` result, use the `isNaN` function:
 ```
 isNaN("Enki"); //true

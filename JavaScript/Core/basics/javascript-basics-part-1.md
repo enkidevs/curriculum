@@ -18,7 +18,7 @@ Like most programming languages, JavaScript has a number of rules its code must 
 
 **Case Sensitivity**
 
-Everything in JavaScript is case sensitive. 
+Everything in JavaScript is case sensitive.
 
 **Keywords**
 

@@ -16,7 +16,7 @@ category: must-know
 
 The `final` modifiers limits the initializations number to *1*. A final variable cannot be reassigned to refer another object.
 
-However, the data inside the object can be changed (also called its *state*).
+However, the data inside the object can be changed (also called its *state*). 
 
 For example:
 ```

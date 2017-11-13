@@ -18,7 +18,7 @@ category: feature
 
 To show a commit's first parent use `^` or `~`, both achieving the same thing:
 ```
-$ git show 34de6f1^ 
+$ git show 34de6f1^
 # or
 $ git show 34de6f1~
 ```
