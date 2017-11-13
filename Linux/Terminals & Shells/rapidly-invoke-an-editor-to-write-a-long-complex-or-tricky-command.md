@@ -49,7 +49,7 @@ To open the line you have written so far in the shell into a text editor, you wo
 
 headline: which option does not belong?
 
-question: Choose the odd one out in the following list:
+question: Choose the odd one out in the following list.
 
 answers:
   - less

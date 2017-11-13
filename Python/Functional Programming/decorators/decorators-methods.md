@@ -15,7 +15,7 @@ category: must-know
 There's a distinction to be made regarding *functions* and *methods*. In Python, every *subroutine* is a called a function. **Methods**, on the other hand, are those functions that are part of an object.
 
 What's special about these methods is the fact that to define them, they are passed a `self` parameter as the first argument. As stated above, they are part of an object (which includes classes):
-```python
+```python 
 # define a decorator
 def get_fahrenheit(method):
   # as this decorator potentially targets

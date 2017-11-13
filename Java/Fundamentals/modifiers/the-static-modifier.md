@@ -53,7 +53,7 @@ With the output:
 ```bash
 3 3 3 3 3
 ```
-The last two calls are acceptable because `static` methods are class specific.
+The last two calls are acceptable because `static` methods are class specific. 
 
 ---
 ## Practice

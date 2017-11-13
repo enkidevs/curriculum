@@ -19,7 +19,7 @@ links:
 
 `git pull` is a command that combines `git fetch` and `git merge`.
 
-For example, to fetch and merge the branch `master` with the current branch:
+For example, to fetch and merge the branch `master` with the current branch: 
 ```
 $ git pull origin
 ```

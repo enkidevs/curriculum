@@ -61,3 +61,32 @@ Variables declared `final` cannot be ???.
 * modified
 * copied
 * referenced
+
+---
+## Quiz
+
+headline: how do final variables work?
+
+question: |
+  public class Person {
+    String name = "name";
+    public Person(String name) {
+      this.name = name;
+    }
+    public void newName(String name) {
+      this.name = name;
+    }
+    public void printName() {
+      System.out.println(name);
+    }
+  }
+
+  final Person p = new Person("Sam");
+  p.newName("John");
+  p.printName();
+
+answers:
+  - John
+  - Sam
+  - name
+  - Exception

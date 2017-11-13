@@ -26,7 +26,7 @@ $ git log ^master tests
 $ git log tests --not master
 # shows commits on the tests
 # branch that are not on master
-```
+``` 
 Triple dots are used to show commits that are in one branch but not in both:
 ```
 $ git log master...tests

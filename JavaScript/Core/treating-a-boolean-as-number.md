@@ -22,7 +22,7 @@ tags:
 ---
 ## Content
 
-*Type coercion* converts a boolean to a number.
+*Type coercion* converts a boolean to a number. 
 
 `true` is evaluated to `1` and `false` is evaluated to `0`.
 

@@ -23,7 +23,7 @@ links:
 ## Content
 
 The `less` command is a "pager", which allows you to scroll and search through streams of output that are too long for a single page.
-
+ 
 A simple example:
 
 ```console

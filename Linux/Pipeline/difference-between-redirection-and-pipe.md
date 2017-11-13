@@ -102,10 +102,10 @@ $ p1 > tmp_file && p2 < tmp_file
 
 headline: which of the following is not a valid command?
 
-question: Pick the option that would throw an error:
+question: Pick the option that would throw an error.
 
 answers:
   - cat enki.txt > grep "enki"
   - cat enki.txt | grep "enki"
   - ls -l > enki.txt && cat < enki.txt
-  - grep "enki" < enki.txt 
+  - grep "enki" < enki.txt

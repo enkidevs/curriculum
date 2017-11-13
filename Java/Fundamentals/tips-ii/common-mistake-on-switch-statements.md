@@ -22,7 +22,7 @@ tags:
 ---
 ## Content
 
-One common mistake is not including the `break` keyword in a switch statement.
+One common mistake is not including the `break` keyword in a switch statement. 
 
 
 Control flow of the switch statement continues until it hits a break.
