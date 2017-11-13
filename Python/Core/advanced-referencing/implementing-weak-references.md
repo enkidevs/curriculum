@@ -104,19 +104,3 @@ r = ???.ref(???)
 * `Python`
 * `class`
 * `pass`
-
----
-## Quiz
-
-headline: how would you check a variable for NoneType?
-
-question: |
-  x = None:
-  if ...
-    print('x is None')
-
-answers:
-  - if x is None
-  - if x == None
-  - if not x
-  - if x is not None

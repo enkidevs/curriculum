@@ -116,20 +116,3 @@ print(nList[sObject])
 
 [1:Negative Numbers]
 *Notice how when negative numbers are given as arguments to `slice` its behavior can be made to be analogous to the `reversed` built-in function. Depending on the context, one function may be more suitable than the other in terms of efficiency, legibility or modularity.*
-
----
-## Quiz
-
-headline: how does slicing work?
-
-question: |
-  # What will be printed by the following snippet?
-  a = 'enki'
-  print(a[::-1])
-
-
-answers:
-  - 'ikne'
-  - 'i'
-  - 'enki'
-  - TypeError: str object is not subscriptable

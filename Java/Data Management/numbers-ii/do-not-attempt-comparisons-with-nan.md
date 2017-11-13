@@ -55,12 +55,12 @@ double x = 13.0/0;
 ???.???(???);
 ```
 
-* `Double`
-* `isNaN`
-* `x`
-* `==`
-* `Integer`
-* `Math`
+*`Double`
+*`isNaN`
+*`x`
+*`==`
+*`Integer`
+*`Math`
 
 ---
 ## Revision
@@ -70,25 +70,8 @@ What value will `x` have here?
 double x = Math.tan(1/0.0);
 ```
 ???
-* `NaN`
-* `0`
-* `pi`
-* `Math.PI`
-* `3.14`
-
----
-## Quiz
-
-headline: is NaN equal to NaN?
-
-question: |
-  // What will the following snippet print?
-  double x = Double.NaN;
-  if(x == Double.NaN) { System.out.print(x); }
-  System.out.print("false");
-
-answers:
-  - false
-  - NaNfalse
-  - Double.NaNfalse
-  - NaN
+*`NaN`
+*`0`
+*`pi`
+*`Math.PI`
+*`3.14`

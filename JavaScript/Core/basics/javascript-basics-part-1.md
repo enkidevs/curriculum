@@ -26,7 +26,7 @@ Like most languages there are a number of reserved words in JavaScript that you 
 
 **Identifier naming rules**
 
-When naming any function, property or variable, the first character must be a letter, $ sign or underscore.
+When naming any function, property or variable, the first character must be a letter, $ sign or underscore. 
 
 After the first character you are free to use numbers, letters, dollar signs or underscores.
 
@@ -62,8 +62,8 @@ What syntax is used in *JavaScript* for **single line** comments?
 
 ???
 
-* `//`
-* `/* */`
+*`//`
+*`/* */`
 
 ---
 ## Revision
@@ -74,21 +74,5 @@ var 777jackpot = "jackpot";
 // line is ???
 ```
 
-* `not valid`
-* `valid`
-
----
-## Quiz
-
-headline: which of the following is a valid comment?
-
-question: |
-  1. // first comment
-  2. <!-- second comment
-  3. /* third comment */
-
-answers:
-  - 1, 2 & 3
-  - 1
-  - 1 & 3
-  - 2
+*`not valid`
+*`valid`

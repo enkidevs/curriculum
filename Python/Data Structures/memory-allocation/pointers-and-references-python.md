@@ -80,26 +80,3 @@ b = 3
 * `a` and `b` have the same value, but different memory location.
 * `a` and `b` are different objects.
 * None is true.
-
----
-## Quiz
-
-headline: what is the result of the following identity check?
-
-question: |
-  # Interactive shell
-  >>> a = 256
-  >>> b = 256
-  >>> a is b
-  ???
-  >>> a = 257
-  >>> b = 257
-  >>> a is b
-  ???
-
-
-answers:
-  - True and False
-  - True and True
-  - False and True
-  - False and False

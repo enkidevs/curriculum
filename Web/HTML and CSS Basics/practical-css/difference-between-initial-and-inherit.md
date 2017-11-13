@@ -54,16 +54,3 @@ With `inherit`, `h1` is required to `inherit` a color which it takes from `body`
 * `primary`
 * `preliminary`
 * `use`
-
----
-## Quiz
-
-headline: what does the pseudo-class :root refer to?
-
-question: In a HTML document, what does the pseudo-class :root refer to?
-
-answers:
-  - <html> element
-  - <body> element
-  - <root> element
-  - highest-level <div> element

@@ -50,22 +50,7 @@ The following code snippet outputs ???
 ```
 console.log(typeof NaN);
 ```
-* number
-* NaN
-* false
-* Infinite
-
----
-## Quiz
-
-headline: is NaN a number?
-
-question: |
-  // What is the output of this line?
-  console.log(typeof(NaN));
-
-answers:
-  - number
-  - object
-  - function
-  - undefined
+*number
+*NaN
+*false
+*Infinite
