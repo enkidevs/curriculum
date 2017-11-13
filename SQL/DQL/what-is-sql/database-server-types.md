@@ -13,6 +13,10 @@ category: must-know
 
 inAlgoPool: false
 
+tags:
+  - introduction
+  - workout
+
 links:
 
   - '[More on RDBMS](https://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems)'

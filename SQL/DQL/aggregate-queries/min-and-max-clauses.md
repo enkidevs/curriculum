@@ -17,6 +17,10 @@ category: must-know
 
 inAlgoPool: false
 
+tags:
+  - introduction
+  - workout
+
 links:
 
   - '[More on MIN and MAX clauses](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql)'

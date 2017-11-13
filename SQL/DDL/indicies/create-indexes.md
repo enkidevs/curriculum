@@ -19,6 +19,10 @@ parent: add-rule
 
 inAlgoPool: false
 
+tags:
+  - workout
+  - deep
+
 links:
 
   - '[PostgreSQL Create Index](https://www.postgresql.org/docs/9.1/static/sql-createindex.html)'

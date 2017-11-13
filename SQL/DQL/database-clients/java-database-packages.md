@@ -13,6 +13,13 @@ category: how to
 
 inAlgoPool: false
 
+tags:
+  - introduction
+  - workout
+  - java
+  - implementation
+  - database packages
+
 links:
 
   - '[Why JDBC](https://www.progress.com/faqs/datadirect-jdbc-faqs/why-do-we-need-jdbc)'

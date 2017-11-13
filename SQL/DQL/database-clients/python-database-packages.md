@@ -13,6 +13,13 @@ category: feature
 
 inAlgoPool: false
 
+tags:
+  - introduction
+  - workout
+  - python
+  - implementation
+  - database packages
+
 links:
 
   - '[Psycopg2 package](http://initd.org/psycopg/)'

@@ -13,6 +13,10 @@ category: must-know
 
 inAlgoPool: false
 
+tags:
+  - introduction
+  - workout
+
 links:
 
   - '[What is Relational Database?](http://searchsqlserver.techtarget.com/definition/relational-database)'

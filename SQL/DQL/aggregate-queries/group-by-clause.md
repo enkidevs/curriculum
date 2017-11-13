@@ -19,6 +19,10 @@ inAlgoPool: false
 
 parent: order-by-clause
 
+tags:
+  - introduction
+  - workout
+
 links:
 
   - '[More on GROUP BY](https://www.techonthenet.com/sql/group_by.php)'

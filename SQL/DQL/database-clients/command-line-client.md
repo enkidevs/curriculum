@@ -13,6 +13,10 @@ category: feature
 
 inAlgoPool: false
 
+tags:
+  - introduction
+  - workout
+
 links:
 
   - '[PostgreSQL Download](https://www.postgresql.org/download/)'

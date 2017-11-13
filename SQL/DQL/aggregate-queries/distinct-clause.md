@@ -17,6 +17,10 @@ category: must-know
 
 inAlgoPool: false
 
+tags:
+  - introduction
+  - workout
+
 links:
 
   - '[More on DISTINCT](https://www.tutorialspoint.com/sql/sql-distinct-keyword.htm)'

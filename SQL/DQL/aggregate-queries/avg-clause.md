@@ -17,6 +17,10 @@ category: must-know
 
 inAlgoPool: false
 
+tags:
+  - introduction
+  - workout
+
 links:
 
   - '[More on AVG clause](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql)'
@@ -29,7 +33,7 @@ links:
 Using `AVG` function[1] to get the average of only the first five rows:
 
 ```
-SELECT AVG(experience) as Result 
+SELECT AVG(experience) as Result
 FROM experience
 LIMIT 5;
 
@@ -56,7 +60,7 @@ id  | cost  |    name
   4 |   200 | poke-ball
 
 
-SELECT ???(???) 
+SELECT ???(???)
 ??? item
 LIMIT ???
 ```
