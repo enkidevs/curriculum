@@ -63,7 +63,7 @@ headline: What do you always have to do when parsing JSON?
 
 question: |
 
-//What is required when you're handling a JSON.parse error in Node?
+  //What is required when you're handling a JSON.parse error in Node?
 
 answers:
 
