@@ -75,3 +75,19 @@ The maximal number of edges of a directed graph is `|V|×|V-1|`, while for an un
 
 [2: Graph Representation]
 If you remember the first Data Structure and Algorithm insight, we said that different data structures are optimized for different types of operations.
+
+---
+## Quiz
+
+
+headline: which algorithm is to be use in the following scenario?
+
+question: |
+  Consider a complete, weighted graph. If we want to compute its minimum spanning tree,
+  which starts from a given node we choose, which algorithm should we use?
+
+answers:
+  - Prim’s algorithm
+  - Kruskal’s algorithm
+  - Knapsack algorithm
+  - Dijkstra’s algorithm

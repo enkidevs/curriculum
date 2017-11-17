@@ -46,10 +46,10 @@ An advantage of RPN is that it doesn't need parentheses required by the *infix n
 What is the reverse polish notation equivalent of `(2+10)/4+3`?
 
 ???
-*2 10 + 4 / 3 +
-*2 10 + 4 3 + /
-*4 + 3 / 2 + 10
-*2 10 4 3 + / +
+* 2 10 + 4 / 3 +
+* 2 10 + 4 3 + /
+* 4 + 3 / 2 + 10
+* 2 10 4 3 + / +
 
 ---
 ## Revision
@@ -57,7 +57,23 @@ What is the reverse polish notation equivalent of `(2+10)/4+3`?
 What is the infix equivalent notation of the reverse polish notation `4 3 + 10 ×`?
 
 ???
-*(4+3)×10
-*4+3×10
-*10×4+3
-*10+3×4
+* (4+3)×10
+* 4+3×10
+* 10×4+3
+* 10+3×4
+
+---
+## Quiz
+
+headline: what is the result of the following expression?
+
+question: |
+  // Evaluate the following expression written
+  // using the reverse polish notation (postfix notation)
+  2 3 * 4 - 5 / 6 + 0.4 -
+
+answers:
+  - 6
+  - 0
+  - 10.04
+  - 6.04
