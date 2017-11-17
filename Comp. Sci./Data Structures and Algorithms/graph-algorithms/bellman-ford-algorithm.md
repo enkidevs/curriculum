@@ -97,3 +97,19 @@ Assigning an initial approximate value to the distance (i.e. infinity), then rep
 We will assume that the *directed graph* is represented using a *nodes list* and a map with *(edge, weight)* pairs, for which a directed *edge from u to v* is represented as *(u,v)*.
 
 The map would, therefore, contain pairs like `((u,v),weight))`.
+
+---
+## Quiz
+
+headline: which algorithm is to be use in the following scenario?
+
+question: |
+  Suppose we have an undirected, complete, weighted (real numbers) graph.
+  Out of the following, which algorithm would work best for finding
+  the shortest paths between a source node and every other node?
+
+answers:
+  - Bellman-Ford algorithm
+  - Prim’s algorithm
+  - Kruskal’s algorithm
+  - Dijkstra’s algorithm

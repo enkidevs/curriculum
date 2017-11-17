@@ -74,7 +74,7 @@ Chose the sequence that simulates an in-order traversal of the tree:
    B     C
  /   \    \
 G      F    E
-  \        / 
+  \        /
   H       I
 ```
 ???
@@ -82,3 +82,19 @@ G      F    E
 * F,B,E,C,A,H,I,D
 * A,B,F,C,E,D,I,H
 * B,F,A,E,C,D,H,I
+
+---
+## Quiz
+
+
+headline: which tree traversal is to be use in the following scenario?
+
+question: |
+  Given a binary search tree (BST), which traversal would print
+  its nodes in ascending order?
+
+answers:
+  - In-order traversal
+  - Breadth first traversal
+  - Depth first traversal
+  - Post-order traversal
