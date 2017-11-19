@@ -1,0 +1,50 @@
+# what-files-in-src-directory
+author: tlawson
+
+levels:
+
+  - beginner
+
+  - basic
+
+type: normal
+
+category: must-know
+
+links:
+
+  - '[link to learn more](https://enki.com)'
+
+---
+## Content
+
+The src folder is found in the Project view and contains all codes (application code and android unit test script) and resource files for the following subdirectories: 
+
+*	AndroidTest is a directory for Instrumentation unit test that can run on an Android device or emulator. These 
+  test have access to Instrumentation information such as context of the app testing. 
+* Test is a unit tests that run locally on the Java Virtual Machine. These test can be used to minimize
+  execution time when the tests have no Android framework dependencies or when you duplicate the Android framework dependencies. Unit test should be under the src/test/java
+*Main contains the source files involving:
+		*Java folder contains all the java codes
+		* res contains drawables and layouts
+
+
+---
+## Practice
+
+What is AndroidTest?
+???
+
+* Used for Instrumentation unit test. 
+* Contains source files
+* run locally on the Java Virtual Machine
+
+---
+## Revision
+
+What is the purpose of the src folder?
+???
+
+* contains all codes such as application code and android unit test script
+* part of the gradle script
+* src folder does not contain unit tests
