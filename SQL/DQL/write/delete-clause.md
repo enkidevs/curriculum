@@ -110,7 +110,6 @@ id |     name
 ??? FROM egg_group
 WHERE id ??? 1 and 5;
 ```
-???
 
 * DELETE
 * between
