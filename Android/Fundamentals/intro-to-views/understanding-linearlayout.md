@@ -11,7 +11,7 @@ category: must-know
 
 links:
 
-  - ‘[Creating Linear Layouts on Android](https://developer.android.com/guide/topics/ui/layout/linear.html)'
+    - ‘[Creating Linear Layouts on Android](https://developer.android.com/guide/topics/ui/layout/linear.html)'
 
 ---
 ## Content
