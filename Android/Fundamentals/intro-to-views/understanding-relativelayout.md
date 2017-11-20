@@ -31,12 +31,14 @@ You can also align a view based on its parent (views one hierarchy above) with a
         android:id="@+id/textView" 
         android:layout_width="100dp"
         android:layout_height="40dp"
-        android:layout_alignParentBottom="true" />
+        android:
+         layout_alignParentBottom="true" />
 
     <Button android:id="@+id/button" 
         android:layout_width="100dp"
         android:layout_height="40dp" 
-        android:layout_toRightOf="@id/textView" />
+        android:
+         layout_toRightOf="@id/textView" />
 </RelativeLayout>
 ```
 
