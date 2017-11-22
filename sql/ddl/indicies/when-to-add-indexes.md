@@ -17,6 +17,10 @@ category: must-know
 
 inAlgoPool: false
 
+tags:
+  - workout
+  - deep
+
 links:
 
   - '[SQLMag Dos and Donts of indices](http://sqlmag.com/database-performance-tuning/indexing-dos-and-don-ts)'

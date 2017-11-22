@@ -17,6 +17,9 @@ category: must-know
 
 inAlgoPool: false
 
+tags:
+  - workout
+
 links:
 
   - '[More on aggregate functions](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql)'

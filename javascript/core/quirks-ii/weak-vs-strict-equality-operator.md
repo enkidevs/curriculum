@@ -74,3 +74,18 @@ console.log("\n" == 0);
 * `true false`
 * `false true`
 * `false false`
+
+---
+## Quiz
+
+headline: how familiar are you with weak equality?
+
+question: |
+  // What will this evaluate to?
+  "\t\r\\n\" == 0
+
+answers:
+  - True
+  - False
+  - SyntaxError
+  - String

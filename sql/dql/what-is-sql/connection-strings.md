@@ -13,6 +13,10 @@ category: must-know
 
 inAlgoPool: false
 
+tags:
+  - introduction
+  - workout
+
 links:
 
   - '[More on connection strings](http://www.dofactory.com/reference/connection-strings)'

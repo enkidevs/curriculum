@@ -15,6 +15,10 @@ category: must-know
 
 inAlgoPool: false
 
+tags:
+  - introduction
+  - workout
+
 links:
 
   - '[More on DELETE](http://www.dofactory.com/sql/delete)'
@@ -106,7 +110,6 @@ id |     name
 ??? FROM egg_group
 WHERE id ??? 1 and 5;
 ```
-???
 
 * DELETE
 * between

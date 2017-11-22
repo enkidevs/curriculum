@@ -23,7 +23,7 @@ tags:
 ---
 ## Content
 
-Every file or directory gets some default permissions when created. These values can be set using `umask`[1].
+Every file or directory gets some default permissions when created. These values can be set using `umask`[1]. 
 
 As its name states, the value itself is a *mask* that *takes away* permissions. The default permission a **directory** gets when created is 777 (rwxrwxrwx), which is then masked by the `umask` value.
 
@@ -107,3 +107,16 @@ The 3 rightmost digits represent the permissions granted to the user, user's gro
 
 [2:Files]
 In case of files, for which the x (or execute) permission is turned off by default.
+
+---
+## Quiz
+
+headline: how does umask work?
+
+question: What is the umask value, if the permission of a newly created file is 224?
+
+answers:
+  - All three are valid
+  - 442
+  - 552
+  - 443

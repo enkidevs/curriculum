@@ -13,6 +13,10 @@ category: feature
 
 inAlgoPool: false
 
+tags:
+  - introduction
+  - workout
+
 links:
 
   - '[Top 10 GUI Database Tools](https://techtalk.gfi.com/top-10-free-database-tools-for-sys-admins/)'

@@ -13,6 +13,10 @@ category: must-know
 
 inAlgoPool: false
 
+tags:
+  - introduction
+  - workout
+
 links:
 
   - '[More Query Languages](https://en.wikipedia.org/wiki/Query_language)'

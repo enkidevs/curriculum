@@ -25,6 +25,7 @@ links:
 
 tags:
   - workout
+  - deep
 
 ---
 ## Content
