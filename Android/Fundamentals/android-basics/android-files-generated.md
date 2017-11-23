@@ -13,7 +13,7 @@ category: how to
 
 links:
 
-  [Android File Folder Structure](http://www.brainbell.com/android/file-folder-structure.html)
+  -'[Android File Folder Structure](http://www.brainbell.com/android/file-folder-structure.html'
 
 ---
 ## Content
