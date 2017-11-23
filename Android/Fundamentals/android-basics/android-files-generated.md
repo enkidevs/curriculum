@@ -85,7 +85,7 @@ What is the purpose of the manifest folder?
 * It provides metadata for the file
 * It contains all the java files
 
----## Revision
+## Revision
 
 What folder keeps resources?
 ???
