@@ -13,27 +13,27 @@ category: must-know
 
 links:
 
-  - '[link to learn more](https://enki.com)'
+  - '[What is a Resource File](https://www.codeproject.com/articles/810940/android-resources-beginner-s-guide-to-organizing-a#the_resources_section)'
 
 ---
 ## Content
 
-Resource files keeps resources stored under the res/ directory of your project. Resource files include audio, video, images, text, or xml files.
+Resource files or res contains the resources for the project. A resource is a file representing something that can be drawn onto the screen, a layout file for your classes, or a value that can be accessed in your app, such as a string or color hex value. 
+
+Types of Resource Files include:
+* Drawable. If you app requires local images such as .jpg and .png, then these images can be placed in the drawable folder. 
+* Layout. This directory contains XML files that define you app’s user interfaces. 
+* Menu. It is used for defining navigation menus and submenus.
+*	Mipmap. This directory accepts bitmaps but is used specifically for the app launcher icon. 
+*	Values. Contains many XML files consisting of values used in your application including: 
+  *	Arrays, colors(hex values), dimensions(text and padding sizes), strings, styles(the look and feel of the app)
 
 Resource files serves the following purposes:
 *	An ID generates for each resource file providing easy access and included in the R.Java file. 
-* Android parses XML resources files to reference defined values.
-* Develop multilingual application including labels, alignment, directions, or images. 
+* parses XML resources files to reference defined values.
+* Develop multilingual application including labels, alignments, directions, or images. 
 
-Types of Resource Files include:
-* Strings, colors, arrays, dimensions stored in the res/values/ folder. 
-* Image and icons stored in the res/images folder. 
-* Drawable resources is a graphic file that can be draw on the screen stored in res/drawable folder.
-* Animations stored in res/anime/ folder
-* Layout resources defines the architecture for the user interface in an Activity or a component of a UI defined 
-  in the res/layout/ folder. 
-* Menu defines an application menu (Options menu, Context menu, or submenu).
-* Mipmap - This folder contains android application icon in different sizes.  
+
 
 
 ---
