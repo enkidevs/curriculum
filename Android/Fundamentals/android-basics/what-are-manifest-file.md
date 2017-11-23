@@ -13,26 +13,47 @@ category: must-know
 
 links:
 
-  - '[link to learn more](https://enki.com)'
+  - '[What is an Android Manifest File](https://javapapers.com/android/android-manifest/)'
 
 ---
 ## Content
 
-The AndroidManifest.xml is found in the manifest folder. The AndroidManifest.xml file provides important information about the application. The manifest file serves the following purposes:
+The Manifest file is a resource file which contains all the details needed by the android system about the application. It helps to pass on the functionality and requirements of our application to Android. The xml file is the AndroidManifest.xml and placed at the application root.  Below is a screenshot. 
 
-*	Describes the application
-*	Contains full package name for the application  
-*	The application name 
-*	Version number 
-*	App icon 
-*	Minimum requirement of hardware and software
-*	Permission required from the user 
-*	The theme used 
-*	Activities 
-*	Properties of the activities called intent filter
-*	Launcher activity 
-*	Services of the application
-*	Declares which components and resources to use
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tammy.tammy_test_3">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+                    </activity>
+    </application>
+
+</manifest>
+
+
+Among other things, the manifest does the following:
+*	Names the java package for the application. The package name serves as a unique identifier for the application. 
+*	Describes the components of the application – the activities, services, broadcast receivers, and content providers that the
+  application is composed of. 
+*	Determines which process will host application components
+*	Declares which permissions the application must have in order to access protected parts of the API
+*	Declares minimum level of the Android API that the application requires.
+*	Lists libraries that the application must be linked against. 
 
 
 ---
@@ -51,6 +72,6 @@ What is a manifest file?
 What is the purpose of the manifest file?
 ???
 
-* contains full package name for the application
-* does not declare the component and resources to use
-* describe the image to use
+* contains full package name for the application.
+* does not declare the component and resources to use.
+* describe the image to use.
