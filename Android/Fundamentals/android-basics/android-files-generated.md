@@ -87,8 +87,7 @@ What is the purpose of the manifest folder?
 
 ## Revision
 
-What folder keeps resources?
-???
+A folder that keeps resources ???
 
 * Res
 * Manifest
