@@ -92,4 +92,4 @@ What folder keeps resources?
 
 * Res
 * Manifest
-* Ja
+* Java
