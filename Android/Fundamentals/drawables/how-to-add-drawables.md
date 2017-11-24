@@ -23,20 +23,20 @@ Drawables can get directly accessed in XML via @drawable/filename where filename
 There are two ways you access a resource:
 * **In code**: You can use a resource in code by passing the resource ID as a method parameter. An example, you can set ImageView to use       res/drawable/hellome.png using setImageResource():
 
-Below is the following snippet:
+	Below is the following snippet:
 
-ImageView imageView = (ImageView) findViewById(R.id.myimageview);
-imageView.setImageResource(R.drawable.hellome);
+	ImageView imageView = (ImageView) findViewById(R.id.myimageview);
+	imageView.setImageResource(R.drawable.hellome);
 
 * **In XML**: You can define values for some XML attributes and elements using a reference to an existing resource. This will be done by
     creating layout files that supplies strings and images for your widget. The following snippet shows if you add a button to your
     layout, a string resource can be used for the button text. 
 
 
-<Button
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:text="@string/Hello" />
+	<Button
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:text="@string/Hello" />
 
 	---
 	## Practice
