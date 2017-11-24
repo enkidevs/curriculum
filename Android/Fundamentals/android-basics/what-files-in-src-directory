@@ -13,20 +13,57 @@ category: must-know
 
 links:
 
-  - '[link to learn more](https://enki.com)'
+  - '[What is the difference in Android test and Test ](https://stackoverflow.com/questions/34397524/whats-the-difference-between-src-androidtest-and-src-test-folders)'
 
 ---
 ## Content
 
 The src folder is found in the Project view and contains all codes (application code and android unit test script) and resource files for the following subdirectories: 
 
-*	AndroidTest is a directory for Instrumentation unit test that can run on an Android device or emulator. These 
-  test have access to Instrumentation information such as context of the app testing. 
-* Test is a unit tests that run locally on the Java Virtual Machine. These test can be used to minimize
-  execution time when the tests have no Android framework dependencies or when you duplicate the Android framework dependencies. Unit test should be under the src/test/java
-*Main contains the source files involving:
-		*Java folder contains all the java codes
-		* res contains drawables and layouts
+
+The following is the default directory structure for your application and test code:
+
+*  App/src/main/java is the source code of your application build which contains the MainActivity.java file. 
+*  App/src/test/java is used for unit testing that can run test without running on a real device or emulator. 
+   Unit tests run locally on the Java Virtual Machine (JVM). Using test minimize execution time when your test have no Android Framework dependencies. 
+	
+Example of unit test:
+package com.example.tammy.tammy_test_3;
+
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+/**
+ * Example local unit test, which will execute on the development machine (host).
+ *
+ * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
+ */
+public class ExampleUnitTest {
+    @Test
+    public void addition_isCorrect() throws Exception {
+        assertEquals(4, 2 + 2);
+    }
+}
+
+*  App/src/androidTest/java is unit test involving android Instrumentation. Instrumentation tests run on a device or an emulator. The app will be installed and then a testing app will also be installed which will control your app, lunching it and running UI tests as needed. Instrumentation tests can be used to test none User Interface. 
+
+Below is an example of Instrumentation unit test:
+/**
+ * Instrumentation test, which will execute on an Android device.
+ *
+ * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
+ */
+@RunWith(AndroidJUnit4.class)
+public class ExampleInstrumentedTest {
+    @Test
+    public void useAppContext() throws Exception {
+        // Context of the app under test.
+        Context appContext = InstrumentationRegistry.getTargetContext();
+
+        assertEquals("com.example.tammy.tammy_test_3", appContext.getPackageName());
+    }
+}
 
 
 ---
