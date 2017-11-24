@@ -13,7 +13,7 @@ category: must-know
 
 links:
 
-  - '[link to learn more](https://enki.com)'
+  - '[What are drawable resource?](https://developer.android.com/guide/topics/resources/drawable-resource.html)'
 
 ---
 ## Content
