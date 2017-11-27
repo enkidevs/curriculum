@@ -9,3 +9,4 @@ section:0
 parent: Essentials
 
 insights:
+  - TryParse
