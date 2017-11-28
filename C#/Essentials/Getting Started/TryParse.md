@@ -1,5 +1,5 @@
 # TryParse
-author: VhatAmI
+author: hellyale
 
 levels:
 
@@ -47,12 +47,12 @@ In the example above the else statement will fire, but if you passed "404" to th
 ---
 ## Practice
 
-`TryParse` returns the following type :
+`TryParse` returns the following type : ???
 
+*`bool`
 *`setInt` 
 *`Parse` 
 *`int`
-*`bool`
 *`out`
 
 ---
