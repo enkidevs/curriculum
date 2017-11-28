@@ -29,6 +29,7 @@ I _could_ have all of my routing, file serving, and API logic in a single, monol
 
 Instead, I would want to divide concerns for my API and my web client into different subdirectories and import them into my main `app.js` script with `require()` statements. Organizing my files in such a way allows me to jump to where I need to in my project faster, without having to scroll through thousands of lines of code.
 
+![Separation of Concers](https://github.com/i0natan/nodebestpractices/blob/master/assets/images/structurebycomponents.PNG?raw=true)
 
 You could take the Separation of Concerns principle even further by subdividing your project into different git repositories, or [creating NPM packages](https://docs.npmjs.com/getting-started/creating-node-modules) of useful code snippets for use in other projects.
 
