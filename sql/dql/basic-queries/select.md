@@ -64,7 +64,7 @@ Get all of the columns and rows from the `pokemon_form` table.
 ---
 ## Revision
 
-Get all of the rows and the `id`, `weight`, `name` from the `pokemon` table.
+Get all of the rows and the `id`, `weight`, `name` columns from the `pokemon` table.
 
 ??? ??? ??? ???
 ??? ???;

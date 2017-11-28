@@ -65,11 +65,14 @@ Select all the rows from the `pokemon` table where the name is exactly equal to 
 
 `SELECT * `
 `FROM pokemon`
-??? ???;
+??? ??? ??? ???;
 
 * WHERE
-* name = 'braixen'
+* name
+* =
+* 'braixen'
 * FROM
 * pokemon
 * IS
-* 'braixen'
+* CONTAINS
+* FIND
