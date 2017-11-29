@@ -60,5 +60,5 @@ Which of these hexadecimal colors are not the same?
 
 ???
 * #FFFFF and #FFF
-* #FFF and #000
+* #FFF and #FFFFFF
 * #FFC125 and #ffc125

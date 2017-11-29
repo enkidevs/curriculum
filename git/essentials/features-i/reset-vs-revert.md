@@ -26,7 +26,7 @@ Changes to be committed:
   modified: file2
   new file: file3
 ```
-You discovered an ugly bug right before committing and are looking to go back to the moment in time right before you started writing cod. To do that, issue:
+You discovered an ugly bug right before committing and are looking to go back to the moment in time right before you started writing code. To do that, issue:
 ```bash
 $ git reset --hard HEAD
 ```
