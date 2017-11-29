@@ -1,4 +1,4 @@
-# Node Best Practices: Project Structure (Cont.)
+# Method Inputs in Express Applications
 author: milesflo
 
 levels:
