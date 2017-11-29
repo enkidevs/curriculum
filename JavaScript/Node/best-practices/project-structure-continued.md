@@ -15,7 +15,8 @@ standard: js.identify-common-design-patterns
 
 links:
 
-  - [Project Structure Practices](https://github.com/i0natan/nodebestpractices#1-project-structure-practices)
+  - >-
+    [Project Structure Practices](https://github.com/i0natan/nodebestpractices#1-project-structure-practices)
 
 ---
 ## Content
