@@ -41,11 +41,11 @@ Change `enkiUser` ‘s password:
 ```
 $ ??? ??? ???
 ```
-*`sudo`
-*`passwd`
-*`enkiUser`
-*`changepass`
-*`enki`
+* `sudo`
+* `passwd`
+* `enkiUser`
+* `changepass`
+* `enki`
 
 ---
 ## Revision
@@ -53,5 +53,18 @@ $ ??? ??? ???
 Do you have to be a root to change your own password using  `passwd` ?  
 
 ???
-*No
-*Yes
+* No
+* Yes
+
+---
+## Quiz
+
+headline: which of the following practices should be avoided?
+
+question: Which of the following is most likely to cause a lot of problems?
+
+answers:
+  - Allowing regular users to create new root users without sudo
+  - Forcing expiry and renewal dates for root user's password
+  - Using `sudo passwd` to change someone's password
+  - Using `sudo passwd` to change your own password
