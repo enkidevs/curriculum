@@ -136,7 +136,7 @@ count | region_id
 ---
 ## Quiz
 
-headline: What statement gets columns and rows from tables?
+headline: Can you order it?
 
 question: |
 

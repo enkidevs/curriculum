@@ -95,7 +95,7 @@ Select all the columns from the `pokemon` table, keeping only the rows where the
 ---
 ## Quiz
 
-headline: What statement gets columns and rows from tables?
+headline: Do you know WHERE to put `%`?
 
 question: |
 
