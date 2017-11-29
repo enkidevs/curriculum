@@ -109,7 +109,7 @@ question: |
   (...)
 
 
-  Note that there are 6 regions, but not all locations belong to one of them. Get the region for each game_index, even if there isn't one. The result should look like this:
+  Note that there are 6 regions, but not all locations belong to one of them. Get location id, game index and region id for all records. It doesn't matter whether there is no game index for a region or vice versa. The result should look like this:
 
   id  | game_index | region_id
   ----+------------+-----------
@@ -118,7 +118,11 @@ question: |
     3 |          3 |         4
     (...)
     21|          21|          
-      |          44|
+    (...)
+      |          56|         
+    (...)
+    89|            |         6
+
 
 answers:
   - SELECT location.id,location_area.game_index,location.region_id
@@ -131,5 +135,5 @@ answers:
     FROM location LEFT JOIN location_area
     ON location.id = location_area.id;
   - SELECT location.id,location_area.game_index,location.region_id
-    FROM location RIGHT JOIN location_area 
+    FROM location RIGHT JOIN location_area
     ON location.id = location_area.id;;
