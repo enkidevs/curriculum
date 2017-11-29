@@ -87,7 +87,7 @@ G      F    E
 ## Quiz
 
 
-headline: which tree traversal is to be use in the following scenario?
+headline: which tree traversal is to be used in the following scenario?
 
 question: |
   Given a binary search tree (BST), which traversal would print
