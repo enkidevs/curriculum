@@ -1,6 +1,6 @@
-language: js
+name: JavaScript
 
-deviconsClass: devicons-javascript_badge
+language: js
 
 color: C1A957
 
