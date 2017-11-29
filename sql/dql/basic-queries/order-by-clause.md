@@ -50,7 +50,7 @@ Now using `ORDER BY` clause:
 ```
 SELECT COUNT(name), language_id
 FROM move_name
-GROUP BY language_id;
+GROUP BY language_id
 ORDER BY language_id;
 
 --Result:

@@ -74,7 +74,7 @@ It is important you understand which server you use, as commands can differ slig
 ---
 ## Practice
 
-If we have a huge database with thousands of users sending and retreiving data. But we specifically need to be able to export data in Excel format. What tipe of RDBMS do you think will best fit their needs?
+If we have a huge database with thousands of users sending and retreiving data. But we specifically need to be able to export data in Excel format. What type of RDBMS do you think will best fit their needs?
 ???
 
 * MS Access
