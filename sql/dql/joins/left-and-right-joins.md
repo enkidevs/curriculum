@@ -109,6 +109,10 @@ type.id = type_efficacy.target_type_id;
 * `ON`
 * `LEFT JOIN`
 * `WHERE`
+
+---
+## Quiz
+
 headline: What statement gets columns and rows from tables?
 
 question: |
