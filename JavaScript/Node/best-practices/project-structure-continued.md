@@ -21,9 +21,7 @@ links:
 ---
 ## Content
 
-On top of abiding by Separation of Concerns, there are some additional NodeJS-specific best practices that we should address. These are covered with [Express](http://expressjs.com/) in mind, but you can substitute it with any similar HTTP server package.
-
-In general, we should design our modules to be self-contained, and exist as separate layers (I.E., a Networking Layer, a Business Logic Layer, and a Data Access Layer, or DAL). Express methods and objects should be held within its limitations as much as possible in the Networking Layer.
+In an [Express](http://expressjs.com/) app, we should design our modules to be self-contained, and exist as separate layers (I.E., a Networking Layer, a Business Logic Layer, and a Data Access Layer, or DAL). Express methods and objects should be held within its limitations as much as possible in the Networking Layer.
 
 Let's take a look at a sample API that has separate `userAPI.js` and `userDAL.js` files. In it, we have a database call to get a user by ID...
 ```javaScript
@@ -50,19 +48,18 @@ class UserDAL {
 }
 ```
 
-As you can see, the `getByID` method expects an Express object. This severely limits our ability to test this code in a testing suit. We can __only test with HTTP calls__. Instead, let's first extrapolate the information we need from `req` and create a new object to make this function call...
+`getByID` expects an Express object, which means we can __only test with HTTP calls__. Instead, let's only send the information we need from `req` by sending a plain JS object:
 
 ```javascript
 // userAPI.js
 const database = require('userDAL.js');
 
 app.get('/', (req,res,next) => {
-  const context = {
+  database.getByID({
     user: req.user,
     transactionID: UUID.new(),
     properties: "Whatever you need here."
-  }
-  database.getByID(context);
+  });
 })
 
 
