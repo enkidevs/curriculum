@@ -31,10 +31,10 @@ notes: ''
 Since connection to a server is usually achieved by:
 
 ```
-$ ssh user@box 
+$ ssh user@box
 ```
 
-An interesting feature of the ssh client is neglected: 
+An interesting feature of the ssh client is neglected:
 
 ```
 $ ssh user@box 'ls -la /tmp'
@@ -49,23 +49,23 @@ This executes the command on the remote server and gets the output directly from
 This allows a user to log in to a remote host using another host as below:
 
 ```
-$ ssh -t hostA 'ssh hostB'
+$ ssh -t hostB 'ssh hostC'
 ```
-If `w` (who) is issued on hostB, hostA would appear in the `FROM` field.
+If `w` (who) is issued on hostC, hostB would appear in the `FROM` field.
 
 
 The `-t` option is mandatory in this case to force pseudo-terminal allocation and be able to work in an interactive shell. If you intend to run a non-interactive command like `ls` or `cat` it's possible to omit the `-t` option:
 
 ```
-$ ssh hostA ssh hostB 'ls -lah'
+$ ssh hostB ssh hostC 'ls -lah'
 ```
 
 ---
 ## Revision
 
-If you are using a middle server to connect to a third, what username will appear on the third server’s connections list? 
+If you are using a middle server to connect to a third, what username will appear on the third server’s connections list?
 
 ???
-*your username
 *the middle server’s username
+*your username
 *the third server’s username

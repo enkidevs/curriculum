@@ -45,10 +45,10 @@ Make `enki.py` file executable:
 ```
 $ ??? ??? enki.py
 ```
-*`chmod`
-*`+x`
-*`-x`
-*`chch`
+* `chmod`
+* `+x`
+* `-x`
+* `chch`
 
 ---
 ## Revision
@@ -56,6 +56,6 @@ $ ??? ??? enki.py
 If the user doesn’t have execute rights for a file, `cron` may
 
 ???.
-*fail to run the scripts
-*set the rights automatically
-*still execute them
+* fail to run the scripts
+* set the rights automatically
+* still execute them

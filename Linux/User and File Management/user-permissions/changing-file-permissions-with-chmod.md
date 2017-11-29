@@ -70,22 +70,42 @@ As we add and remove permissions, you can see the changes reflected in the permi
 
 Give *full* access to `enki.txt` for the user and its group and remove access of others:
 ```
-$ ??? ???,o??? ??? 
+$ ??? ???,o??? ???
 ```
-*`chmod`
-*`ug+rwx`
-*`-rwx`
-*`enki.txt`
-*`ugo`
-*`+rwx`
+* `chmod`
+* `ug+rwx`
+* `-rwx`
+* `enki.txt`
+* `ugo`
+* `+rwx`
 
 ---
 ## Revision
 
-What does `chmod go+x` do? 
+What does `chmod go+x` do?
 
 ???
-*Gives execute permissions to group and others
-*Removes execute permissions from group and others
-*Gives write and read permissions to user
-*Removes write and read permission from group and others
+* Gives execute permissions to group and others
+* Removes execute permissions from group and others
+* Gives write and read permissions to user
+* Removes write and read permission from group and others
+
+---
+## Quiz
+
+headline: how would you run the following script?
+
+question: |
+  Suppose you have a sh file named `script.sh`.
+  What of the following commands is the most
+  likely to successfully run the script?
+  ```
+  $ ./script.sh
+  bash: permission denied: ./script.sh
+  ```
+
+answers:
+  - chmod +x script.sh && ./script.sh
+  - sudo ./script.sh
+  - rm ./script.sh
+  - echo "#!/bin/sh" > script.sh && ./script.sh
