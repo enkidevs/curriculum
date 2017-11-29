@@ -27,9 +27,9 @@ links:
 ---
 ## Content
 
-`SUM` come in handy when we need to perform numerical addition.
+The `SUM` clause comes in handy when we need to perform numerical addition.
 
-Following, we will see some examples based on a database (called pokemon database) that we set up for this purpose. First, we will extract a limited number of entries[1]:
+Below we will see some examples based on a database (called the pokemon database) that we set up for this purpose. First, we will extract a limited number of entries[1]:
 ```
 -- experience table:
 
