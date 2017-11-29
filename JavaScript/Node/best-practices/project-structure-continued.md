@@ -40,7 +40,7 @@ app.get('/', (req,res,next) => {
 class UserDAL {
 
   getByID(req) {
-    // Class can only be used with an Express request. This is _very bad_.
+    // Function takes Express request.
     if (req.user.id) {
       otherFunction(req);
     }
@@ -60,7 +60,7 @@ app.get('/', (req,res,next) => {
   const context = {
     user: req.user,
     transactionID: UUID.new(),
-    properties: "Whatever else you need here."
+    properties: "Whatever you need here."
   }
   database.getByID(context);
 })
