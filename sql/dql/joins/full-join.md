@@ -83,3 +83,53 @@ pokemon_type.type_id = type.id
 * `ON`
 * `LEFT AND RIGHT JOIN`
 * `OUTER JOIN`
+
+---
+## Quiz
+
+headline: What statement gets columns and rows from tables?
+
+question: |
+
+  Given the tables called `location` and `location_area`:
+
+  id  | region_id |     name           
+  ----+-----------+---------------
+    1 |         4 | canalave-city
+    2 |         4 | eterna-city
+    3 |         4 | pastoria-city
+  (...)
+
+  id  | game_index | location_id |       name                      
+  ----+------------+-------------+--------------------
+    1 |          1 |           1 | canalave-city-area
+    2 |          2 |           2 | eterna-city-area
+    3 |          3 |           3 | pastoria-city-area
+    4 |          4 |           4 | sunyshore-city-area
+  (...)
+
+
+  Note that there are 6 regions, but not all locations belong to one of them. Get the region for each game_index, even if there isn't one. The result should look like this:
+
+  id  | game_index | region_id
+  ----+------------+-----------
+    1 |          1 |         4
+    2 |          2 |         4
+    3 |          3 |         4
+    (...)
+    21|          21|          
+      |          44|
+
+answers:
+  - SELECT location.id,location_area.game_index,location.region_id
+    FROM location FULL OUTER JOIN location_area
+    ON location.id = location_area.id;
+  - SELECT location.id,location_area.game_index,location.region_id
+    FROM location INNER JOIN location_area
+    ON location.id = location_area.id;
+  - SELECT location.id,location_area.game_index,location.region_id
+    FROM location LEFT JOIN location_area
+    ON location.id = location_area.id;
+  - SELECT location.id,location_area.game_index,location.region_id
+    FROM location RIGHT JOIN location_area 
+    ON location.id = location_area.id;;
