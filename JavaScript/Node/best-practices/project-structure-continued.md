@@ -49,7 +49,7 @@ class UserDAL {
 }
 ```
 
-As you can see, we cannot use the `getByID` method without passing in a Express object. This severely limits our ability to test this code in a testing suit. We can __only test with HTTP calls__. Instead, let's first extrapolate the information we need from `req` and create a new object to make this function call...
+As you can see, the `getByID` method expects an Express object. This severely limits our ability to test this code in a testing suit. We can __only test with HTTP calls__. Instead, let's first extrapolate the information we need from `req` and create a new object to make this function call...
 
 ```javascript
 // userAPI.js
