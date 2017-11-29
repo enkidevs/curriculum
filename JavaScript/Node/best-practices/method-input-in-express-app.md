@@ -21,7 +21,7 @@ links:
 ---
 ## Content
 
-In an [Express](http://expressjs.com/) app, we should design our modules to be self-contained, and exist as separate layers (I.E., a Networking Layer, a Business Logic Layer, and a Data Access Layer, or DAL). Express methods and objects should be held within its limitations as much as possible in the Networking Layer.
+In an [Express](http://expressjs.com/) app, we should design our modules to be self-contained, and exist as separate layers (i.e. a Networking Layer, a Business Logic Layer, and a Data Access Layer, or DAL). Express methods and objects should be held within its limitations as much as possible, in the Networking Layer.
 
 Let's take a look at a sample API that has separate `userAPI.js` and `userDAL.js` files. In it, we have a database call to get a user by ID...
 ```javaScript
