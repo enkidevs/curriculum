@@ -61,12 +61,6 @@ Which of the following IS NOT a C++ data type:
 * character
 * boolean
 
-If we want to represent radius=3.14, which data type will use:
-
-* float
-* bool
-* int
-* All the above is wrong!
 
 If we want to represent a character, which data type will use:
 
@@ -92,13 +86,6 @@ What do float data types hold?
 
 ---
 ## Revision
-
-If we want to represent an integer, which data type will use:
-
-* int
-* bool
-* float
-* All the above is wrong!
 
 What do bool data types hold?
 
