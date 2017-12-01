@@ -51,12 +51,27 @@ Boxplot showing outliers:
 Find images at eda-one-var-plots.ipynb
 -->
 
+While the first boxplot is simpler (and simplicity has value in EDA), it's clear that the second boxplot does a better job of accurately representing the distribution.
 
+The method for determining what defines and outlier will be covered in another insight.
 
-Recall that the purpose of exploratory data analysis is to get an overview of the data. This requires striking a balance between specificity and generality.
 
 ---
 ## Practice
+
+<!--Which of the following is true of the distributions represented by these boxplots?
+
+A. distribution A has a wider interquartile range
+B. distribution B has a greater median
+C. distribution A has a greater maximum
+D. distribution B has a greater minimum
+
+* A and C
+* B and C
+* A and D
+* A, B and D
+
+
 
 ---
 ## Revision
