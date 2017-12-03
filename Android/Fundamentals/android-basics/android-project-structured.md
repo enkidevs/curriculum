@@ -38,19 +38,19 @@ From the drop-down menu are other views containing the files and folders structu
 ---
 ## Practice
 
-What does the fox says?
+What are the following folders that are contained in each app module?
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+* manifests, java, and res
+* libs, manifests, src
+* java, res, gradle
 
 ---
 ## Revision
 
-What does the fox says?
+What is the purpose of the res folder?
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+* Contains all non-code resources to include XML layouts, strings, and bitmap images
+* Contains all non-code resources to include libraries and application code
+* Describe the information about an Android application including referenced libraries
