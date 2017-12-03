@@ -59,19 +59,20 @@ Among other things, the manifest does the following:
 ---
 ## Practice
 
-What is a manifest file?
+What of the following statements about the Manifest file is true?
 ???
 
-* provides information about the application.
-* provides only information about images.
-* the file is found in the java folder.
+* The structure of the include manifest, elements, and application.
+* The Android Manifest file is placed in the java folder.
+* It is a non-resource file that contain metadata information for the application. 
 
 ---
 ## Revision
 
-What is the purpose of the manifest file?
+What is the purpose of the files in the manifest folder?
 ???
 
-* contains full package name for the application.
-* does not declare the component and resources to use.
-* describe the image to use.
+* provides metadata for the project
+* stores java source code
+* stores a list of souce files in the project
+* stores the main activity
