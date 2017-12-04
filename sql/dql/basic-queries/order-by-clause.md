@@ -136,7 +136,7 @@ count | region_id
 ---
 ## Quiz
 
-headline: Can you order it?
+headline: Can you order a table with SQL?
 
 question: |
 
