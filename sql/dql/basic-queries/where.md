@@ -77,7 +77,7 @@ Select all the rows from the `pokemon` table where the name is exactly equal to 
 ---
 ## Quiz
 
-headline: WHERE to find it?
+headline: Can you find a particular entry in a table with SQL?
 
 question: |
 
@@ -102,4 +102,3 @@ answers:
   - WHERE name IS "speed-boost";
   - WHERE ability='speed-boost';
   - WHERE id='speed-boost';
-  

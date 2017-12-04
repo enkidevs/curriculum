@@ -87,7 +87,7 @@ pokemon_type.type_id = type.id
 ---
 ## Quiz
 
-headline: Take it all!
+headline: Can you select data from two related tables in SQL?
 
 question: |
 
