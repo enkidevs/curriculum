@@ -12,7 +12,7 @@ category: must-know
 ---
 ## Content
 
-One of the most useful commands to undo *uncommitted* changes made to files is **git reset**. If the changes are already committed, you wouldn't want to override the history and you'd use **git revert**.
+One of the most useful commands to undo *uncommitted* changes made to files is **git reset**. If the changes are already committed, you wouldn't want to override the history and you'd use **git revert**. 
 
 The principle behind them is fairly straight forward: you have to go back to a point in time when your project actually worked. Consider the following situation:
 ```bash
