@@ -35,7 +35,7 @@ $ uptime
 
 To display just the uptime:
 ```
-$ uptime -q
+$ uptime -p
 ```
 Display last time the system restarted:
 ```
