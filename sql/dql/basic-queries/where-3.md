@@ -95,7 +95,7 @@ Select all the columns from the `pokemon` table, keeping only the rows where the
 ---
 ## Quiz
 
-headline: Do you know WHERE to put `%`?
+headline: Do you know how to match a pattern in SQL?
 
 question: |
 

@@ -111,7 +111,7 @@ Select all the columns from the `pokemon` table, keeping only the rows where the
 ---
 ## Quiz
 
-headline: Get records that are IN BETWEEN.
+headline: Can you select rows between two values in SQL?
 
 question: |
 
