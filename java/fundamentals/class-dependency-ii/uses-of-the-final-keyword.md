@@ -44,9 +44,9 @@ Which of the following is not an advantage of using the `final` keyword:
 
 ???
 
-*It allows classes, where final has been used, to be extended to prevent code repetition.
-*The values of final variables cannot be accidentally changed.
-*The compiler and VM can optimize the code.
+* It allows classes, where final has been used, to be extended to prevent code repetition.
+* The values of final variables cannot be accidentally changed.
+* The compiler and VM can optimize the code.
 
 ---
 ## Revision
@@ -57,8 +57,35 @@ public ??? ??? Example{
 // Revision questions
 }
 ```
-*`final` 
-*`class` 
-*`static` 
-*`void` 
-*`String`
+* `final`
+* `class`
+* `static`
+* `void`
+* `String`
+
+---
+## Quiz
+
+headline: will the final keyword do its job?
+
+question: |
+  // What would the following snippet output?
+  ```
+  class Tesla {
+      public static final String MODEL = "Model S";
+  }
+
+  public class Roadster extends Tesla {
+      public static final String MODEL = "Roadster";
+
+      public static void main(String[] args) {
+          System.out.println(Roadster.MODEL);
+      }
+  }
+  ```
+
+answers:
+  - Roadster
+  - Model S
+  - 'error: MODEL is final'
+  - Model SRoadster

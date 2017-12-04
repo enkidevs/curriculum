@@ -28,7 +28,7 @@ Here is an example of a safe, checked conversion narrowing an `int` to a `byte`:
 ```java
 public static void convert(int i) {
   // check i's value
-  if ((i < Byte.MIN_VALUE) || 
+  if ((i < Byte.MIN_VALUE) ||
       (i > Byte.MAX_VALUE)) {
       throw new ArithmeticException("Value
       not in Byte range!");
@@ -39,3 +39,27 @@ public static void convert(int i) {
   // b can be used as a byte
 }
 ```
+
+---
+## Quiz
+
+headline: how does type conversion works?
+
+question: |
+  // What is the output of the following snippet?
+  ```
+  public class Main {
+    public static void main(String[] args) {
+        char x = 'a';
+        int i = 1;
+        System.out.print(true  ? x : 1);
+        System.out.print(false ? i : x);
+    }
+  }
+  ```
+
+answers:
+  - a97
+  - aa
+  - true
+  - false

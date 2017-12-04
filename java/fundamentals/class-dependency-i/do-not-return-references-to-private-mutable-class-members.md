@@ -25,15 +25,16 @@ Returning references to `mutable private class` members allows for the opportuni
 ```java
 class MutableClass {
   private Date d;
- 
+
   public MutableClass() {
     d = new Date();
   }
- 
+
   public Date getDate() {
     return d;
   }
-} ```
+}
+```
 
 `getDate()` returns the sole instance of the `Date` object, and so an untrusted caller may manipulate this `Date` object.
 
@@ -47,7 +48,7 @@ public Date getDate() {
 
 ```
 
-This returns a defensive copy of the `Date` object, which itself is *mutable*. 
+This returns a defensive copy of the `Date` object, which itself is *mutable*.
 
 It means that the caller cannot manipulate the original private `Date` object.
 
@@ -57,10 +58,10 @@ It means that the caller cannot manipulate the original private `Date` object.
 What is a *mutable object* ?
 
 ???
-*An object that can be modified after instantiation.
-*An object that cannot be modified after instantiation.
-*An object with no fields.
-*An object with no methods.
+* An object that can be modified after instantiation.
+* An object that cannot be modified after instantiation.
+* An object with no fields.
+* An object with no methods.
 
 ---
 ## Revision
@@ -68,6 +69,49 @@ What is a *mutable object* ?
 Which of the following is a way of preventing mutable private fields from being modified outside the class?
 
 ???
-*Getters should return a copy of the mutable field instead of the field itself.
-*Getters should return the field itself.
-*Avoid the use of setters.
+
+* Getters should return a copy of the mutable field instead of the field itself.
+* Getters should return the field itself.
+* Avoid the use of setters.
+
+---
+## Quiz
+
+headline: how well do you know immutability?
+
+question: |
+  // What does this code print?
+  ```
+  class MutableClass {
+    private int[] array;
+
+    public MutableClass() {
+      array = new int[10];
+      array[0] = 1;
+    }
+
+    public int[] getArray() {
+      return array;
+    }
+
+    public void printEl() {
+      System.out.println(array[0]);
+    }
+  }
+
+  public class Main {
+    public static void main(String[] args) {
+      MutableClass test = new MutableClass();
+      int[] array = test.getArray();
+      System.out.println(array[0]);
+      array[0] = 2;
+      test.printEl();
+    }
+  }
+  ```
+
+answers:
+  - 1 and 2
+  - 1 and 1
+  - 2 and 1
+  - 'error: array has private access'
