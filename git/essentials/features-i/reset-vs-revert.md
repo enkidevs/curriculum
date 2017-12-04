@@ -77,5 +77,5 @@ $ git ???
 ```
 * `reset --hard HEAD`
 * `reset --soft HEAD`
-* `reset HEAD`
+* `reset HEAD` 
 * `reset`
