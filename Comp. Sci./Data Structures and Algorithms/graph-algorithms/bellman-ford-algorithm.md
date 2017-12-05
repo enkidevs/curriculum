@@ -101,7 +101,7 @@ The map would, therefore, contain pairs like `((u,v),weight))`.
 ---
 ## Quiz
 
-headline: which algorithm is to be use in the following scenario?
+headline: which algorithm is to be used in the following scenario?
 
 question: |
   Suppose we have an undirected, complete, weighted (real numbers) graph.
