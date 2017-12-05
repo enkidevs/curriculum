@@ -80,7 +80,7 @@ If you remember the first Data Structure and Algorithm insight, we said that dif
 ## Quiz
 
 
-headline: which algorithm is to be use in the following scenario?
+headline: which algorithm is to be used in the following scenario?
 
 question: |
   Consider a complete, weighted graph. If we want to compute its minimum spanning tree,
