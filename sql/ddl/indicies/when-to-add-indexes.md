@@ -107,11 +107,11 @@ question: |
 
   Consider the `pokemon` table from our pokemon database:
 
-  id   | order | height | weight | base_experience | pokemon_species_id |   name          
--------|:------|:-------|:-------|:----------------|:-------------------|:----------
-     1 |     1 |      7 |     69 |              64 |                  1 | bulbasaur
-     2 |     2 |     10 |    130 |             142 |                  2 | ivysaur
-     3 |     3 |     20 |   1000 |             236 |                  3 | venusaur
+    id   | order | height | weight | base_experience | pokemon_species_id |   name          
+  -------|:------|:-------|:-------|:----------------|:-------------------|:----------
+       1 |     1 |      7 |     69 |              64 |                  1 | bulbasaur
+       2 |     2 |     10 |    130 |             142 |                  2 | ivysaur
+       3 |     3 |     20 |   1000 |             236 |                  3 | venusaur
   (...)
 
   This table has thousands of entries and it is very crowded with queries. However, we would like to know which which pokemons belong to which species esier. We want to create an index that will help us improve the efficiency of this type of retrievals.
