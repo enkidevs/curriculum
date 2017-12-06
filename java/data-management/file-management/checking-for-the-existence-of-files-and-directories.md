@@ -70,7 +70,7 @@ How would you check if the file exists?
 ---
 ## Quiz
 
-headline: what is missing from the following snippet?
+headline: can you figure out what check should be included in the following snippet?
 
 question: |
   // What should be checked here such that the below code won't throw errors?

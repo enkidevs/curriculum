@@ -43,7 +43,7 @@ public static void convert(int i) {
 ---
 ## Quiz
 
-headline: how does type conversion works?
+headline: can you identify how type conversion works in the following example?
 
 question: |
   // What is the output of the following snippet?
