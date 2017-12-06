@@ -46,7 +46,7 @@ For this reason, each language has its own collation rules. Most of the time, th
 ---
 ## Practice
 
-As of now, the most used character encoding is
+As of now, the most recommended character encoding is
 
 ???
 
