@@ -85,7 +85,7 @@ The `command not found` error is thrown if the executable couldn’t be found
 ---
 ## Quiz
 
-headline: how does $PATH work?
+headline: Do you know how the $PATH variable is evaluated?
 
 question: |
   Suppose your $PATH value is:

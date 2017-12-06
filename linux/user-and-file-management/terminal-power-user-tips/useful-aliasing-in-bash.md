@@ -94,7 +94,7 @@ is used to give a “false name” to other commands.
 ---
 ## Quiz
 
-headline: what is going on with this command?
+headline: Can you figure out what a command does given only its output?
 
 question: |
   Consider the following command and its output:
