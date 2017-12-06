@@ -66,7 +66,7 @@ public ??? ??? Example{
 ---
 ## Quiz
 
-headline: will the final keyword do its job?
+headline: can you predict the output of this example?
 
 question: |
   // What would the following snippet output?
