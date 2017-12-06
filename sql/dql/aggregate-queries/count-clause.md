@@ -27,12 +27,12 @@ links:
 ---
 ## Content
 
-The `COUNT` clause returns the total number of values in a given column.
+The `COUNT` clause returns the total number of entries in a given column.
 
 Using `COUNT` function[1]:
 
 ```
-SELECT COUNT(experience) AS count FROM
+SELECT COUNT(experience) AS count
 FROM experience
 LIMIT 5;
 
@@ -43,6 +43,7 @@ LIMIT 5;
     5
 (1 row)
 ```
+No matter how many entries there are in the `experience` table, we limit the output to 5 rows. Hence, the result is *5*.
 
 ---
 ## Practice
