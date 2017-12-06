@@ -13,6 +13,13 @@ type: normal
 
 category: best practice
 
+standards:
+  js.identify-common-design-patterns: 20
+
+tags:
+  - introduction
+  - workout
+
 links:
 
   - '[nodejs.org](https://nodejs.org/api/errors.html){website}'

@@ -11,6 +11,12 @@ category: must-know
 
 parent: installing-node-js
 
+standards:
+  js.node-developer-environment: 10
+
+tags:
+  - introduction
+
 links:
 - '[tutorialsteacher.com](http://www.tutorialsteacher.com/nodejs/nodejs-console-repl)'
 

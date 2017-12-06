@@ -11,6 +11,10 @@ type: normal
 
 category: hack
 
+standards:
+  js.node-developer-environment: 20
+  js.use-modules: 20
+
 links:
 
   - '[github.com](https://github.com/remy/nodemon){website}'

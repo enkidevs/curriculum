@@ -15,6 +15,16 @@ category: feature
 
 parent: check-data-about-a-package
 
+standards:
+  js.use-open-source-javascript-packages: 10
+  js.npm-tasks-and-modules-manager: 10
+
+tags:
+  - workout
+  - deep
+
+
+
 ---
 ## Content
 

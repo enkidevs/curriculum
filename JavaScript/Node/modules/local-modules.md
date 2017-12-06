@@ -17,6 +17,13 @@ category: must-know
 
 parent: the-http-module-for-servers
 
+standards:
+  js.use-modules: 10
+
+tags:
+  - introduction
+  - workout
+
 links:
 - '[Local Modules](http://www.tutorialsteacher.com/nodejs/nodejs-local-modules)'
 
@@ -67,3 +74,4 @@ Which of the following module types must have its path specified when requiring 
 
 * local
 * core
+* registry

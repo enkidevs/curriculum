@@ -32,7 +32,7 @@ links:
 Using `AVG` function[1] to get the average of only the first five rows:
 
 ```
-SELECT AVG(experience) as Result FROM
+SELECT AVG(experience) as Result 
 FROM experience
 LIMIT 5;
 
@@ -59,7 +59,7 @@ id  | cost  |    name
   4 |   200 | poke-ball
 
 
-SELECT ???(???) FROM
+SELECT ???(???) 
 ??? item
 LIMIT ???
 ```

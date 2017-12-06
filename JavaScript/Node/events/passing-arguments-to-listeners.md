@@ -17,6 +17,13 @@ category: must-know
 
 parent: synchronous-event-delivery
 
+standards:
+  js.events-asynchronous-operations: 20
+
+tags:
+  - introduction
+  - workout
+
 links:
 - '[Passing arguments](https://nodejs.org/api/events.html#events_passing_arguments_and_this_to_listeners)'
 
@@ -52,9 +59,10 @@ En ki MyEmitter {
 ---
 ## Revision
 
-Which keyword when passed is set to reference the `EventEmitter` to which the listener is attached?
+What does `this` refer to inside of a callback registered to listen to an event on an `EventEmitter`?
 ???
 
-* `this`
+* The instance of `EventEmitter`
+* `global`
 * `event`
-* `current`
+* `window`

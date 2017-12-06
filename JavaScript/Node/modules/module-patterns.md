@@ -17,6 +17,14 @@ category: must-know
 
 parent: local-modules
 
+standards:
+  js.use-modules: 20
+  js.identify-common-design-patterns: 10
+
+tags:
+  - introduction
+  - workout
+
 links:
 
   - '[Node Module Patterns](https://darrenderidder.github.io/talks/ModulePatterns/#/5)'
@@ -25,7 +33,7 @@ links:
 ---
 ## Content
 
-Module patterns common practices when developing Node applications in a modular way. Module patterns allow code to be written in a pro-modular way, protecting the context of some modules whilst exposing the necessary modules and variables by attaching them to the global object.
+Module patterns are common practices when developing Node applications in a modular way. Module patterns allow code to be written in a pro-modular way, protecting the context of some modules whilst exposing the necessary modules and variables by attaching them to the global object.
 
 There are a number of different Node module patterns, the simplest being the example shown in the previous insight, requiring a module with just a simple `console.log()` statement included.
 
@@ -89,3 +97,4 @@ foo();
 * `).foo`
 * `)`
 * `).module`
+* `).exports`

@@ -17,6 +17,13 @@ category: must-know
 
 parent: passing-arguments-to-listeners
 
+standards:
+  js.events-asynchronous-operations: 20
+
+tags:
+  - introduction
+  - workout
+
 links:
 - '[Node Errors](https://nodejs.org/api/errors.html)'
 
@@ -48,7 +55,7 @@ test.on(‘uncaughtException’, function(err)
 ---
 ## Practice
 
-What event type is emitted by the global event emitter object?
+What event type is emitted by the `test` event emitter object?
 ???
 
 * `uncaughtException`

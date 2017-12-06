@@ -11,6 +11,12 @@ category: must-know
 
 parent: the-repl-terminal
 
+standards:
+  js.node-developer-environment: 10
+
+tags:
+  - introduction
+
 links:
 - '[nodeguide.com](http://nodeguide.com/beginner.html#the-interactive-node.js-shell)'
 

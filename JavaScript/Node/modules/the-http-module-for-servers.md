@@ -17,6 +17,13 @@ category: must-know
 
 parent: requiring-and-exporting
 
+standards:
+  js.use-modules: 20
+
+tags:
+  - introduction
+  - workout
+
 links:
 - '[The HTTP Module](https://davidwalsh.name/nodejs-http-request)'
 
@@ -60,12 +67,22 @@ server.listen(8000, function() {
 ---
 ## Practice
 
-What type of function needs to be defined to respond to all server requests?
-???
+Complete the code snippet to listen for requests on port `2242` with `server`:
+```
+server.???(???, function() {
 
-* handler
-* named
-* anonymous
+  console.log(‘Server listening here:
+              http://localhost:%s’, 2242);
+
+});
+
+```
+
+* `listen`
+* `2242`
+* `'listener'`
+* `on`
+* `createServer`
 
 ---
 ## Revision

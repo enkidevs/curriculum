@@ -11,6 +11,12 @@ category: must-know
 
 parent: executing-programs-with-node
 
+standards:
+  js.npm-tasks-and-modules-manager: 10
+
+tags:
+  - introduction
+
 links:
 
 - '[npmjs.com](https://www.npmjs.com/)'

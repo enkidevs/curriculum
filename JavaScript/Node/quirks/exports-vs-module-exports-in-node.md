@@ -11,6 +11,14 @@ type: normal
 
 category: must-know
 
+standards:
+  js.identify-common-design-patterns: 10
+  js.use-modules: 10
+
+tags:
+  - introduction
+  - workout
+
 links:
 
   - >-

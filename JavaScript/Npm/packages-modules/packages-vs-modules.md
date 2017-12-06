@@ -13,6 +13,15 @@ category: must-know
 
 parent: semantic-versioning
 
+standards:
+  js.npm-publish: 10
+
+tags:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 ## Content
 
@@ -57,6 +66,6 @@ Node's `require()` looks for code in
 
 ???
 
-* node_modules
-* package.json
-* node_packages
+* `node_modules`
+* `package.json`
+* `node_packages`

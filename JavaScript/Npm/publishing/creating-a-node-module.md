@@ -21,6 +21,8 @@ standards:
 tags:
   - workout
   - deep
+  - new
+
 
 ---
 ## Content
