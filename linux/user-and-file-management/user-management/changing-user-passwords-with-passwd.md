@@ -59,7 +59,7 @@ Do you have to be a root to change your own password using  `passwd` ?
 ---
 ## Quiz
 
-headline: which of the following practices should be avoided?
+headline: Can you identify a security vulnerability?
 
 question: Which of the following is most likely to cause a lot of problems?
 

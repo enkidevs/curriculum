@@ -93,7 +93,7 @@ What does `chmod go+x` do?
 ---
 ## Quiz
 
-headline: how would you run the following script?
+headline: How do you run a script with elevated permissions?
 
 question: |
   Suppose you have a sh file named `script.sh`.
