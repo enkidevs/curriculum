@@ -29,7 +29,7 @@ Not all Physical Layer vulnerabilities are caused by intruders-- oblivious staff
 ---
 ## Practice Question
 
-What is one control is the Physical Layer of the OSI Model?
+What is one control in the Physical Layer?
 
 * Locks and secure enclosures
 * Use a physical firewall
@@ -51,7 +51,7 @@ Electronic locks, PIN keypads, and RFID security badges are all example of ???
 
 headline: What is one control for this OSI model Layer?
 
-question:| What is one control is the Physical Layer of the OSI Model?
+question:| What is one control in the Physical Layer of the OSI Model?
 
 answers:
 
