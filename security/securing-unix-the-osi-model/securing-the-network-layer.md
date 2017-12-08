@@ -1,4 +1,4 @@
-# Securing the Data Link Layer
+# Securing the Network Layer
 author: milesflo
 
 levels:
@@ -56,5 +56,5 @@ answers:
 
 - Use of a physical firewall
 - Using managed switches prevent topographical loops
-- Locks and secure enclosuresx
+- Locks and secure enclosures
 - Encrypted password exchange and storage
