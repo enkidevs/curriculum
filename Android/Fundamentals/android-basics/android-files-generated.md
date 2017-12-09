@@ -34,7 +34,7 @@ package com.example.tammy.helloworld;
     An example includes importing the AppCompatActivity class from the android.support.v7.app package.
     
 ```
-package com.example.tammy.helloworld;
+import android.support.v7.app.AppCompatActivity;
 ```
   * **Classes begin.** In this case, the class name is MainActivity extends the AppCompatActivity class telling the compiler that 
     the current class is to derive the base class AppCompatActivity.
