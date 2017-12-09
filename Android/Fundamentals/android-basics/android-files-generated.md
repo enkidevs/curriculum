@@ -34,14 +34,18 @@ package com.example.tammy.helloworld;
 
 ```
 import android.support.v7.app.
-                    AppCompatActivity;
+  AppCompatActivity;
 import android.os.Bundle;
 ```
 
 
   * **Classes begin.** In this case, the class name is MainActivity extends the AppCompatActivity class telling the compiler that 
     the current class is to derive the base class AppCompatActivity.
-
+    
+ ```
+ public class MainActivity extends 
+   AppCompatActivity {
+```
 *  **Override annotation** tells the compiler that you want to provide your own implementation of a predefined method in the base           class. For example, the onCreate()method is defined in the AppCompatActivity class, but you want your own implementation of it,
     so you add the annotation and override the behavior of the method.
        
