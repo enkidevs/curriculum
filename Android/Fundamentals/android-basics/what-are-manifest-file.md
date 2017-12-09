@@ -20,32 +20,6 @@ links:
 
 The Manifest file is a resource file which contains all the details needed by the android system about the application. It helps to pass on the functionality and requirements of our application to Android. The xml file is the AndroidManifest.xml and placed at the application root.  Below is a screenshot. 
 
-```android
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.tammy.tammy_test_3">
-
-    <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-                    </activity>
-    </application>
-
-</manifest>
-```
 
 Among other things, the manifest does the following:
 *	Names the java package for the application. The package name serves as a unique identifier for the application. 
