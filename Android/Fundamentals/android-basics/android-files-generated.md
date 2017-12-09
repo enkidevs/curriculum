@@ -52,6 +52,10 @@ import android.os.Bundle;
 @Override
 protected void onCreate(Bundle 
   savedInstanceState) {
+  super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+}
 ```
 * Res folder keeps resources - data for the java. It has many sub-folders such as layouts, strings, drawables, mipmaps, values, menu, 
   and bitmap images. 
