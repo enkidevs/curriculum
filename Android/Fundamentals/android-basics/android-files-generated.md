@@ -46,7 +46,7 @@ import android.view.MenuItem;
     the current class is to derive the base class AppCompatActivity.
     
 ```
-public class MainActivity extends AppCompatActivity{
+public class MainActivity extends AppCompatActivity {
 ```
 
 *  **Override annotation** tells the compiler that you want to provide your own implementation of a predefined method in the base     
