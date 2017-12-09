@@ -32,20 +32,24 @@ package com.example.tammy.tammy_test_3;
   * **Import statements** such as external packages are imported to use their methods in their own packages. 
     An example includes importing the AppCompatActivity class from the android.support.v7.app package.
     
- ```
- import android.os.Bundle;
- import android.support.design.widget.FloatingActionButton;
- import android.support.design.widget.Snackbar;
- import android.support.v7.app.AppCompatActivity;
- import android.support.v7.widget.Toolbar;
- import android.view.View;
- import android.view.Menu;
- import android.view.MenuItem;
- ```  
+```
+import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.View;
+import android.view.Menu;
+import android.view.MenuItem;
+```  
   * **Classes begin.** In this case, the class name is MainActivity extends the AppCompatActivity class telling the compiler that 
     the current class is to derive the base class AppCompatActivity.
+    
+```
+public class MainActivity extends AppCompatActivity{
+```
 
-  *  **Override annotation** tells the compiler that you want to provide your own implementation of a predefined method in the base     
+*  **Override annotation** tells the compiler that you want to provide your own implementation of a predefined method in the base     
        class. For example, the onCreate()method is defined in the AppCompatActivity class, but you want your own implementation of it,
        so you add the annotation and override the behavior of the method.
       
