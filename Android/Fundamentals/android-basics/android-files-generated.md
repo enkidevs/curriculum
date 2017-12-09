@@ -27,12 +27,9 @@ In the Android view, the app section shows the following groups: manifests, java
  
 ```
 package com.example.tammy.helloworld;
-
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
 public class MainActivity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
