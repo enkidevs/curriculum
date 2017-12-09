@@ -49,15 +49,6 @@ import android.os.Bundle;
 *  **Override annotation** tells the compiler that you want to provide your own implementation of a predefined method in the base           class. For example, the onCreate()method is defined in the AppCompatActivity class, but you want your own implementation of it,
     so you add the annotation and override the behavior of the method.
   
- ```
- @Override
-    protected void onCreate
-      (Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-    }
-}
-```       
       
 * Res folder keeps resources - data for the java. It has many sub-folders such as layouts, strings, drawables, mipmaps, values, menu, 
   and bitmap images. 
