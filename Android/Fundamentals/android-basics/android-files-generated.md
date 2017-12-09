@@ -40,13 +40,11 @@ package com.example.tammy.helloworld;
     so you add the annotation and override the behavior of the method.
        
 ```
-public class MainActivity extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_main);
+}
 ```
       
 * Res folder keeps resources - data for the java. It has many sub-folders such as layouts, strings, drawables, mipmaps, values, menu, 
