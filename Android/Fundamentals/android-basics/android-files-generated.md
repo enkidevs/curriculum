@@ -24,6 +24,10 @@ In the Android view, the app section shows the following groups: manifests, java
 * **Java folder** contains java files that stores java source code files and its packages including the MainActivity.java file.
   Within the java file include: 
   * Every class starts with the package declaration in defining the package in which the class belongs to. 
+ 
+```
+package com.example.tammy.tammy_test_3;
+```
 
 
   * **Import statements** such as external packages are imported to use their methods in their own packages. 
