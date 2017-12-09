@@ -39,17 +39,8 @@ Within the java file include:
 ```
 package com.example.tammy.helloworld;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-
-public class MainActivity extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-    }
-}
+ReactDOM.render(<div>{false}</div>,
+                              myNode);
 ```
       
 * Res folder keeps resources - data for the java. It has many sub-folders such as layouts, strings, drawables, mipmaps, values, menu, 
