@@ -36,10 +36,8 @@ Within the java file include:
     so you add the annotation and override the behavior of the method.
        
 ```
-@Override
-protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_main);
+function test() {
+      console.log("notice the blank line before this function?");
 }
 ```
       
