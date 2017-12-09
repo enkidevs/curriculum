@@ -31,7 +31,11 @@ package com.example.tammy.tammy_test_3;
 
   * **Import statements** such as external packages are imported to use their methods in their own packages. 
     An example includes importing the AppCompatActivity class from the android.support.v7.app package.
-
+    
+```
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+```
   * **Classes begin.** In this case, the class name is MainActivity extends the AppCompatActivity class telling the compiler that 
     the current class is to derive the base class AppCompatActivity.
     
