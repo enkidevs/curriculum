@@ -38,9 +38,8 @@ Within the java file include:
        
 ```
 package com.example.tammy.helloworld;
-
-ReactDOM.render(<div>{false}</div>,
-                              myNode);
+import android.support.v7.app.
+                    AppCompatActivity;
 ```
       
 * Res folder keeps resources - data for the java. It has many sub-folders such as layouts, strings, drawables, mipmaps, values, menu, 
