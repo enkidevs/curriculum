@@ -22,14 +22,15 @@ In the Android view, the app section shows the following groups: manifests, java
 
 * **Manifests folder** contains the AndroidManifest.xml file that provides metadata for the file. 
 * **Java folder** contains java files that stores java source code files and its packages including the MainActivity.java file.
-  Within the java file include: 
-  * Every class starts with the package declaration in defining the package in which the class belongs to. 
- 
+
 ```
 package com.example.tammy.helloworld;
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
 public class MainActivity extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,7 +38,9 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
-
+Within the java file include: 
+  
+  * Every class starts with the package declaration in defining the package in which the class belongs to. 
   * **Import statements** such as external packages are imported to use their methods in their own packages. 
     An example includes importing the AppCompatActivity class from the android.support.v7.app package.
 
