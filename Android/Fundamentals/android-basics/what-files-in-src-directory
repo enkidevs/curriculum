@@ -19,7 +19,14 @@ links:
 ## Content
 
 The src folder is found in the Project view and contains all codes (application code and android unit test script) and resource files for the following subdirectories: 
-
+```
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+	super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+}
+```
 
 The following is the default directory structure for your application and test code:
 
