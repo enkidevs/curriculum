@@ -28,9 +28,11 @@ Within the java file include:
  
 * Every class starts with the package declaration in defining the package in which the class belongs to.
 
+
 ```
 package com.example.tammy.helloworld;
 ```
+
 
 * `Import statements`such as external packages are imported to use their methods in their own packages. 
 An example includes importing the AppCompatActivity class from the android.support.v7.app package.
@@ -48,6 +50,7 @@ the current class is to derive the base class AppCompatActivity.
 public class MainActivity extends 
   AppCompatActivity {
 ```
+
 
 * `Override annotation` tells the compiler that you want to provide your own implementation of a predefined method in the base           class. For example, the onCreate()method is defined in the AppCompatActivity class, but you want your own implementation of it,
 so you add the annotation and override the behavior of the method.
