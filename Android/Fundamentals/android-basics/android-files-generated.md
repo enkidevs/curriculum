@@ -29,6 +29,7 @@ Within the java file include:
 * Every class starts with the package declaration in defining the package in which the class belongs to.
 
 ```
+import android.support.v7.app.
 package com.example.tammy.helloworld;
 ```
 
