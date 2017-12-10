@@ -21,17 +21,17 @@ links:
 Resource files or res contains the resources for the project. A resource is a file representing something that can be drawn onto the screen, a layout file for your classes, or a value that can be accessed in your app, such as a string or color hex value. 
 
 Types of Resource Files include:
-* Drawable. If you app requires local images such as .jpg and .png, then these images can be placed in the drawable folder. 
-* Layout. This directory contains XML files that define you app’s user interfaces. 
-* Menu. It is used for defining navigation menus and submenus.
-*	Mipmap. This directory accepts bitmaps but is used specifically for the app launcher icon. 
-*	Values. Contains many XML files consisting of values used in your application including: 
+* `Drawables` are graphics that are drawn on the screen. These include images such as .jpg and .png, that are placed in the drawable folder. 
+* `Layout` contains XML files that define you app’s user interfaces. 
+* `Menu` defines navigation menus and submenus.
+*	`Mipmap` accepts bitmaps but is used specifically for the app launcher icon. 
+*	`Values` contains many XML files consisting of values used in your application such as: 
   *	Arrays, colors(hex values), dimensions(text and padding sizes), strings, styles(the look and feel of the app)
 
 Resource files serves the following purposes:
-*	An ID generates for each resource file providing easy access and included in the R.Java file. 
-* parses XML resources files to reference defined values.
-* Develop multilingual application including labels, alignments, directions, or images. 
+*	Generates an ID for each resource file providing easy access and included in the R.Java file. 
+* Parses XML resources files to reference defined values.
+* Develops multilingual application including labels, alignments, directions, or images. 
 
 
 
