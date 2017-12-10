@@ -31,7 +31,7 @@ The Manifest file is a resource file which contains all the details needed by th
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap
-          /ic_launcher_round"
+        /ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         
