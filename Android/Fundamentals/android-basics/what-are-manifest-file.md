@@ -22,7 +22,8 @@ The Manifest file is a resource file which contains all the details needed by th
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest xmlns:android=
+  "http://schemas.android.com/apk/res/android"
     package="com.example.tammy.helloworld">
 
     <application
@@ -34,9 +35,11 @@ The Manifest file is a resource file which contains all the details needed by th
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name=
+                  "android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name=
+                  "android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
