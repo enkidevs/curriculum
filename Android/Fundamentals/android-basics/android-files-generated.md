@@ -29,7 +29,7 @@ Within the java file include:
 ```
 package com.example.tammy.helloworld;
 ```
-*`Import statements` such as external packages are imported to use their methods in their own packages. 
+*`Import statements`such as external packages are imported to use their methods in their own packages. 
 An example includes importing the AppCompatActivity class from the android.support.v7.app package.
 
 ```
@@ -46,6 +46,7 @@ public class MainActivity extends
 ```
 * `Override annotation` tells the compiler that you want to provide your own implementation of a predefined method in the base           class. For example, the onCreate()method is defined in the AppCompatActivity class, but you want your own implementation of it,
 so you add the annotation and override the behavior of the method.
+
 ```
 @Override
 protected void onCreate(Bundle 
@@ -55,6 +56,7 @@ protected void onCreate(Bundle
     }
 }
 ```
+
 *`Res folder` keeps resources - data for the java. It has many sub-folders such as layouts, strings, drawables, mipmaps, values, menu, 
 and bitmap images. 
 *`Gradle Scripts` build configuration files, property files, and setting files.     
