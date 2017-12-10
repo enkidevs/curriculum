@@ -28,7 +28,6 @@ Within the java file include:
  
 * Every class starts with the package declaration in defining the package in which the class belongs to.
 
-
 ```
 package com.example.tammy.helloworld;
 ```
@@ -47,7 +46,7 @@ import android.os.Bundle;
 the current class is to derive the base class AppCompatActivity.
     
 ```
-public class MainActivity extends 
+public class MainActivity extends
   AppCompatActivity {
 ```
 
