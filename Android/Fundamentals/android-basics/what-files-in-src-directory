@@ -18,31 +18,73 @@ links:
 ---
 ## Content
 
-The src folder is found in the Project view and contains all codes (application code and android unit test script) and resource files for the following subdirectories: 
+When you select the Project View, you will see the src directory. The `src`directory contains all code and resource files in the following subdirectories:
 
+* `androidTest`contains code for instrumentation tests that run on an Android device.
 ```
-@Override
-protected void onCreate(Bundle savedState) {
-    super.onCreate(savedState);
-    setContentView
-      (R.layout.main_activity_layout);
+package com.example.tammy.helloworld;
+
+import android.content.Context;
+import android.support.test.InstrumentationRegistry;
+import android.support.test.runner.AndroidJUnit4;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
+import static org.junit.Assert.*;
+
+/**
+ * Instrumented test, which will execute on an Android device.
+ *
+ * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
+ */
+@RunWith(AndroidJUnit4.class)
+public class ExampleInstrumentedTest {
+    @Test
+    public void useAppContext() throws Exception {
+        // Context of the app under test.
+        Context appContext = InstrumentationRegistry.getTargetContext();
+
+        assertEquals("com.example.tammy.helloworld", appContext.getPackageName());
+    }
 }
 ```
-The following is the default directory structure for your application and test code:
 
-*  App/src/main/java is the source code of your application build which contains the MainActivity.java file. 
-*  App/src/test/java is used for unit testing that can run test without running on a real device or emulator. 
-   Unit tests run locally on the Java Virtual Machine (JVM). Using test minimize execution time when your test have no Android Framework dependencies. 
-	
+* `main`contains the "main" source files: the Android code and resources shared by all build variants.
+* `java` contains Java code sources.
+* `res`contains application resources, such as drawable files, layout files, and User Interface string. 
+* `test`contains code for local tests that run on your host Java Virtual Machine.
+
+```
+package com.example.tammy.helloworld;
+
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+/**
+ * Example local unit test, which will execute on the development machine (host).
+ *
+ * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
+ */
+public class ExampleUnitTest {
+    @Test
+    public void addition_isCorrect() throws Exception {
+        assertEquals(4, 2 + 2);
+    }
+}
+```
+
+
 ---
 ## Practice
 
-What is AndroidTest?
+What is the purpose of AndroidTest?
 ???
 
-* Used for Instrumentation unit test. 
-* Contains source files
-* run locally on the Java Virtual Machine
+* Used for Instrumentation unit test that run on an Android device. 
+* Contains source files.
+* Run locally on the Java Virtual Machine for local test
 
 ---
 ## Revision
@@ -50,6 +92,6 @@ What is AndroidTest?
 What is the purpose of the src folder?
 ???
 
-* contains all codes such as application code and android unit test script
-* part of the gradle script
-* src folder does not contain unit tests
+* Contains all codes such as application code and reource files.
+* Used to capture all Java code and Gradle builds.
+* Contains codes for the project. 
