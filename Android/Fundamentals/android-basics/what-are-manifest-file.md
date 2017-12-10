@@ -27,7 +27,7 @@ The Manifest file is a resource file which contains all the details needed by th
     package="com.example.tammy.helloworld">
     
     <application
-        android:allowBackup="true"
+        android:allowBackup="true" 
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap
@@ -37,10 +37,10 @@ The Manifest file is a resource file which contains all the details needed by th
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name=
-                "android.intent.action.MAIN" />
+                  "android.intent.action.MAIN" />
 
                 <category android:name=
-                "android.intent.category.LAUNCHER" />
+                  "android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
