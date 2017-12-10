@@ -24,14 +24,14 @@ The Manifest file is a resource file which contains all the details needed by th
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android=
 "http://schemas.android.com/apk/res/android"
-package="com.example.tammy.helloworld">
+    package="com.example.tammy.helloworld">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/
-        ic_launcher_round"
+          ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
@@ -44,6 +44,7 @@ package="com.example.tammy.helloworld">
             </intent-filter>
         </activity>
     </application>
+
 </manifest>
 ```
 
