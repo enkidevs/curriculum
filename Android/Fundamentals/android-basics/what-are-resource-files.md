@@ -43,8 +43,8 @@ What is the purpose of a resource file?
 ???
 
 * Develops multilingual application including labels, alignment, directions, or images
-* It parses non-XML resource files.
-* Generates a ID images
+* Parses non-XML resource files.
+* Generates ID images
 
 ---
 ## Revision
@@ -52,6 +52,6 @@ What is the purpose of a resource file?
 What type of files does the res/values folder store?
 ???
 
-* strings, colors, and dimensions
-* images and icons
-* animations
+* Strings, Colors, and Dimensions
+* Images and Icons
+* Animations
