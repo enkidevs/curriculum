@@ -26,24 +26,7 @@ The Manifest file is a resource file which contains all the details needed by th
   "http://schemas.android.com/apk/res/android"
     package="com.example.tammy.helloworld">
 
-    <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/
-          ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name=
-                  "android.intent.action.MAIN" />
 
-                <category android:name=
-                  "android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-    </application>
 
 </manifest>
 ```
@@ -55,7 +38,7 @@ Among other things, the manifest does the following:
 *	Determines which process will host application components
 *	Declares which permissions the application must have in order to access protected parts of the API
 *	Declares minimum level of the Android API that the application requires.
-*	Lists libraries that the application must be linked against. 
+*	List libraries that the application must be linked against. 
 
 
 ---
