@@ -20,8 +20,8 @@ links:
 
 In the Android view, the app section shows the following groups: manifests, java, and the res sub-folder which described the functions below.
 
-* **Manifests folder** contains the AndroidManifest.xml file that provides metadata for the file. 
-* **Java folder** contains java files that stores java source code files and its packages including the MainActivity.java file.
+* `Manifests folder` contains the AndroidManifest.xml file that provides metadata for the file. 
+* `Java folder` contains java files that stores java source code files and its packages including the MainActivity.java file.
 
 Within the java file include: 
   
@@ -29,7 +29,7 @@ Within the java file include:
 ```
 package com.example.tammy.helloworld;
 ```
-  * **Import statements** such as external packages are imported to use their methods in their own packages. 
+  * `Import statements` such as external packages are imported to use their methods in their own packages. 
     An example includes importing the AppCompatActivity class from the android.support.v7.app package.
 
 ```
@@ -38,15 +38,14 @@ import android.support.v7.app.
 import android.os.Bundle;
 ```
 
-
-  * **Classes begin.** In this case, the class name is MainActivity extends the AppCompatActivity class telling the compiler that 
+  * Classes begin. In this case, the class name is MainActivity extends the AppCompatActivity class telling the compiler that 
     the current class is to derive the base class AppCompatActivity.
     
  ```
  public class MainActivity extends 
    AppCompatActivity {
 ```
-*  **Override annotation** tells the compiler that you want to provide your own implementation of a predefined method in the base           class. For example, the onCreate()method is defined in the AppCompatActivity class, but you want your own implementation of it,
+*  `Override annotation` tells the compiler that you want to provide your own implementation of a predefined method in the base           class. For example, the onCreate()method is defined in the AppCompatActivity class, but you want your own implementation of it,
     so you add the annotation and override the behavior of the method.
 ```
 @Override
@@ -57,9 +56,9 @@ protected void onCreate(Bundle
     }
 }
 ```
-* Res folder keeps resources - data for the java. It has many sub-folders such as layouts, strings, drawables, mipmaps, values, menu, 
+* `Res folder` keeps resources - data for the java. It has many sub-folders such as layouts, strings, drawables, mipmaps, values, menu, 
   and bitmap images. 
-* Gradle Scripts build configuration files, property files, and setting files.     
+* `Gradle Scripts` build configuration files, property files, and setting files.     
 
 
 ---
