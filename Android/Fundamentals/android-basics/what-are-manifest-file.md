@@ -25,6 +25,15 @@ The Manifest file is a resource file which contains all the details needed by th
 <manifest xmlns:android=
 "http://schemas.android.com/apk/res/android"
     package="com.example.tammy.helloworld">
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap
+          /ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
 
     
 
