@@ -21,6 +21,7 @@ links:
 In the Android view, the app section shows the following groups: manifests, java, and the res sub-folder which described the functions below.
 
 * `Manifests folder`contains the AndroidManifest.xml file that provides metadata for the file. 
+
 * `Java folder`contains java files that stores java source code files and its packages including the MainActivity.java file.
 
 Within the java file include: 
@@ -29,7 +30,7 @@ Within the java file include:
 ```
 package com.example.tammy.helloworld;
 ```
-*`Import statements`such as external packages are imported to use their methods in their own packages. 
+* `Import statements`such as external packages are imported to use their methods in their own packages. 
 An example includes importing the AppCompatActivity class from the android.support.v7.app package.
 
 ```
@@ -60,6 +61,7 @@ protected void onCreate(Bundle
 
 * `Res folder` keeps resources - data for the java. It has many sub-folders such as layouts, strings, drawables, mipmaps, values, menu, 
 and bitmap images. 
+
 * `Gradle Scripts` build configuration files, property files, and setting files.     
 
 
