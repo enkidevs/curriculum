@@ -8,8 +8,8 @@ description: Examine Android Project Structure
 section: 0
 
 insights:
-  - what-is-android
-  - why-learn-android
-  - android-versions
-  - tools-needed-to-use-android
-  - hello-android
+  - what-are-resource-files
+  - android-files-generated
+  - android-project-structure
+  - what-are-manifest-file
+  - what-file-in-src-directory
