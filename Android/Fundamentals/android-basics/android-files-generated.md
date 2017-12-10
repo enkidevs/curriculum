@@ -20,12 +20,12 @@ links:
 
 In the Android view, the app section shows the following groups: manifests, java, and the res sub-folder which described the functions below.
 
-*`Manifests folder`contains the AndroidManifest.xml file that provides metadata for the file. 
-*`Java folder`contains java files that stores java source code files and its packages including the MainActivity.java file.
+* `Manifests folder`contains the AndroidManifest.xml file that provides metadata for the file. 
+* `Java folder`contains java files that stores java source code files and its packages including the MainActivity.java file.
 
 Within the java file include: 
  
-*Every class starts with the package declaration in defining the package in which the class belongs to.
+* Every class starts with the package declaration in defining the package in which the class belongs to.
 ```
 package com.example.tammy.helloworld;
 ```
@@ -35,9 +35,10 @@ An example includes importing the AppCompatActivity class from the android.suppo
 ```
 import android.support.v7.app.
   AppCompatActivity;
-import android.os.Bundle;
+import android.os.Bundle; 
 ```
-*Classes begin. In this case, the class name is MainActivity extends the AppCompatActivity class telling the compiler that 
+
+* Classes begin. In this case, the class name is MainActivity extends the AppCompatActivity class telling the compiler that 
 the current class is to derive the base class AppCompatActivity.
     
  ```
@@ -57,9 +58,9 @@ protected void onCreate(Bundle
 }
 ```
 
-*`Res folder` keeps resources - data for the java. It has many sub-folders such as layouts, strings, drawables, mipmaps, values, menu, 
+* `Res folder` keeps resources - data for the java. It has many sub-folders such as layouts, strings, drawables, mipmaps, values, menu, 
 and bitmap images. 
-*`Gradle Scripts` build configuration files, property files, and setting files.     
+* `Gradle Scripts` build configuration files, property files, and setting files.     
 
 
 ---
