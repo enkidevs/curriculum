@@ -22,8 +22,7 @@ The Manifest file is a resource file which contains all the details needed by th
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android=
-  "http://schemas.android.com/apk/res/android"
+<manifest xmlns:android=""
 </manifest>
 ```
 
