@@ -137,11 +137,11 @@ question: |
   It doesn't have a `PRIMARY KEY` set so far. Create an index to define `ability`'s primary key.
 
 answers:
-  - CRETE UNIQUE INDEX ability_pk
+  - CREATE UNIQUE INDEX ability_pk
     ON ability(id ASC).
-  - CRETE INDEX ability_pk
+  - CREATE INDEX ability_pk
     ON ability(id ASC).
-  - CRETE UNIQUE INDEX ability_pk
-    ON ability(abilit_id ASC).
-  - CRETE INDEX ability_pk
+  - CREATE UNIQUE INDEX ability_pk
+    ON ability(ability_id ASC).
+  - CREATE INDEX ability_pk
     ON ability(name ASC).
