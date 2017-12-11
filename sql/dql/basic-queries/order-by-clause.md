@@ -30,7 +30,7 @@ links:
 
 Considering the following example:
 ```
-SELECT COUNT(name), language_id
+SELECT COUNT(name), language_id 
 FROM move_name
 GROUP BY language_id;
 

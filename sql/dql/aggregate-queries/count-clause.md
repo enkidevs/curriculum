@@ -33,7 +33,7 @@ Using `COUNT` function[1]:
 
 ```
 SELECT COUNT(experience) AS count
-FROM experience
+FROM experience 
 LIMIT 5;
 
 

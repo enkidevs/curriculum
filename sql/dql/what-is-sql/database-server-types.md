@@ -24,7 +24,7 @@ links:
 ---
 ## Content
 
-There are a number of RDBMS servers available, each with different strengths:
+There are a number of RDBMS servers available, each with different strengths: 
 
 *MySQL* is one of the world's most popular, open source databases. It is most commonly used as a database for web applications. It's the **M** in the LAMP[1] web development stack. MySQL supports many different operating systems, such as: Microsoft Windows, Linux and Mac OS X.
 

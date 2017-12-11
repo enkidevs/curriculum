@@ -45,7 +45,7 @@ $ uptime -s
 ---
 ## Revision
 
-Check for how long your system is running:
+Check for how long your system is running: 
 ```
 $ ???
 ```
