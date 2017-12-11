@@ -65,14 +65,16 @@ Select all the rows from the `pokemon` table where the name is exactly equal to 
 
 `SELECT * `
 `FROM pokemon`
-??? ???;
+??? ??? ??? ???;
 
 * WHERE
-* name = 'braixen'
+* name
+* =
+* 'braixen'
 * FROM
 * pokemon
 * IS
-* 'braixen'
+
 
 ---
 ## Quiz
@@ -102,3 +104,4 @@ answers:
   - WHERE name IS "speed-boost";
   - WHERE ability='speed-boost';
   - WHERE id='speed-boost';
+

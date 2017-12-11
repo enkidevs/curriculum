@@ -16,7 +16,6 @@ category: must-know
 inAlgoPool: false
 
 tags:
-  - introduction
   - workout
 
 links:
@@ -89,8 +88,8 @@ Select all the columns from the `pokemon` table, keeping only the rows where the
 * '%saur'
 * NAME IS
 * AND
-* FIRST
-* 'g'
+* 'saur'
+* 'saur%'
 
 ---
 ## Quiz
@@ -115,3 +114,4 @@ answers:
   - SELECT * FROM location WHERE region_id < 3 AND name='%city';
   - SELECT * FROM location WHERE BETWEEN 1 AND 2 AND name='%city';
   - SELECT * FROM location WHERE region_id < 3 AND name LIKE '_city';
+

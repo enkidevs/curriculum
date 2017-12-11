@@ -92,16 +92,20 @@ Select all the columns from the `pokemon` table, keeping only the rows where the
 
 `SELECT * `
 `FROM pokemon`
-??? ??? ??? ???;
+??? ???
+???
+???;
 
 * WHERE
 * name = 'bulbasaur' OR
 * name = 'ivysaur' OR
 * name = 'venusaur'
-* NAME IS
-* AND
+* name IS
+* OR
+* name IN
 * 'ivysaur'
 * 'bulbasaur'
+* 'venusaur'
 
 ---
 ## Quiz
