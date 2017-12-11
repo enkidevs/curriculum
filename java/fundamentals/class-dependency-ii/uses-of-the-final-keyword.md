@@ -66,7 +66,7 @@ public ??? ??? Example{
 ---
 ## Quiz
 
-headline: can you predict the output of this example?
+headline: Can you predict the output of this inheritance example?
 
 question: |
   // What would the following snippet output?
