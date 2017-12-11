@@ -4,7 +4,9 @@ type: insights-list
 
 description: Use relational databases to store the less conventional data type
 
-section: 0
+section: 1
+
+parent: storing-blobs
 
 insights:
   - storing-json-in-an-rdbms
