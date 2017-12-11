@@ -15,7 +15,7 @@ category: must-know
 
 standards:
 
-  - security.describe-osi-model: 10
+  security.describe-osi-model: 10
 
 links:
 

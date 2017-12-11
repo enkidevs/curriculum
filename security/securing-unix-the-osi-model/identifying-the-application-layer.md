@@ -15,7 +15,7 @@ category: must-know
 
 standards:
 
-  - security.identify-osi-layers: 15
+  security.identify-osi-layers: 15
 
 links:
 

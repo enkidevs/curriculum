@@ -15,7 +15,7 @@ category: must-know
 
 standards:
 
-  - security.apply-osi-layer-security: 20
+  security.apply-osi-layer-security: 20
 
 links:
 
