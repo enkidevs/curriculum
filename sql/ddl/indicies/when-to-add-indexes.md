@@ -114,7 +114,7 @@ question: |
        3 |     3 |     20 |   1000 |             236 |                  3 | venusaur
   (...)
 
-  This table has thousands of entries and it is very crowded with queries. However, we would like to know which which pokemons belong to which species esier. We want to create an index that will help us improve the efficiency of this type of retrievals.
+  This table has thousands of entries and querying a pokemon's species is very slow. We need to speed up this common query. We want to create an index that will help us improve the efficiency of this data retrieval.
 
 answers:
   - CREATE INDEX species_to_pokemon
