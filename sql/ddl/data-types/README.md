@@ -6,6 +6,8 @@ description: The most common data types
 
 section: 0
 
+parent: create
+
 insights:
   - sql-numeric-data-types
   - sql-string-data-types
