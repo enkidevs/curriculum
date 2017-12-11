@@ -8,10 +8,12 @@ levels:
 
 type: normal
 
-category: how to
+category: best practice
 
 tags:
   - introduction
+  - new
+  - deep
 
 links:
   - '[Modularize your solutions](https://github.com/i0natan/nodebestpractices/blob/master/sections/projectstructre/breakintcomponents.md)'
