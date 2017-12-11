@@ -13,6 +13,10 @@ type: normal
 
 category: must-know
 
+standards:
+
+  - security.apply-osi-layer-security
+
 links:
 
   - [SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)
