@@ -28,7 +28,7 @@ links:
 
 We will create a PostgreSQL database. Using the terminal we need to enter the following command:
 ```
-CREATE DATABASE my_first_db;*
+CREATE DATABASE my_first_db;
 ```
 This command creates a new database called *"my_first_db"*.
 
@@ -52,7 +52,6 @@ Create a new database called "practice_qw".
 ```
 ??? ??? ???
 ```
-???
 
 * CREATE
 * DATABASE
