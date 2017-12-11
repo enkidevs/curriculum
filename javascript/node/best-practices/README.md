@@ -2,7 +2,7 @@ name: Best Practices
 
 type: insights-list
 
-description: Recommended style guides, best practices and architectural tips.
+description: Best practices from a curated list
 
 section: 1
 
