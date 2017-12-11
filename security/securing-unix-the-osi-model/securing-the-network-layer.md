@@ -13,8 +13,6 @@ type: normal
 
 category: must-know
 
-stub: true
-
 links:
 
   - [SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)
