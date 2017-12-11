@@ -77,7 +77,7 @@ Which of the following is a way of preventing mutable private fields from being 
 ---
 ## Quiz
 
-headline: can you identify a security vulnerability?
+headline: Can you identify a Java security vulnerability?
 
 question: |
   // What does this code print?
