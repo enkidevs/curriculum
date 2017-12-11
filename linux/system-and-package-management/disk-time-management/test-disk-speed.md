@@ -34,7 +34,7 @@ notes: ''
 ---
 ## Content
 
-In Linux, the `dd` command can be used for simple I/O performance measurements as follows:
+In Linux, the `dd` command can be used for simple I/O performance measurements as follows: 
 
 ```
 $ dd if=/dev/zero of=~/testfile \
