@@ -1,1 +1,0 @@
-No need to reinvent the wheel. Here you can find useful algorithms to ease your job.

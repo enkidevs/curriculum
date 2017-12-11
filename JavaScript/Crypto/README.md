@@ -1,1 +1,0 @@
-The Node.js core module providing cryptographic functionality including wrappers for HMAC, cipher, decipher, sign and verify functions.

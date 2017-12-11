@@ -1,1 +1,0 @@
-There is an abundance of screen sizes that websites need to support nowadays. With responsive CSS, the same HTML elements can be re-used but displayed appropriately for different screens.
