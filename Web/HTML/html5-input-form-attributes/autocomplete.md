@@ -1,5 +1,5 @@
 # Autocomplete
-author: mihaiberq
+author: matthewleach
 
 levels:
   - beginner
@@ -23,22 +23,27 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-Which input form attribute is used to store input field data and re-populate within similar fields on other websites.
+Which statements are true regarding autocomplete?
 
-???
-
-When an HTML form has an autocomplete attribute, where is the data stored?
-
-???
-
-* autocomplete
-* In the browser.
-
++ can automatically complete fields based on the user's history
++ The default value is "on"
+- The data is stored on the webpage.
+- Items like credit card numbers should not be autocompleted.
 
 ---
 ## Revision
 
-When using the autocomplete attribute with inputs for forms, specific autofill field keywords (such as ‘name’, ‘street-address’, and ‘cc-number’) are important to assign so data is reused across different websites properly.
+Which input form attribute is used to store input field data and re-populate within similar fields on other websites. 
 
 ???
-* T
+
+* autocomplete
+* data
+* cookies
+* sessionStorage
+* objects
+* storage
+    
+    
+    
+    

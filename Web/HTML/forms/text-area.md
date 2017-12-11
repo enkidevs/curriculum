@@ -1,5 +1,5 @@
 # Text Area
-author: mihaiberq
+author: matthewleach
 
 levels:
   - beginner
@@ -24,29 +24,47 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-Which line properly creates a multi-line input field that is 10 (lines of text) in height and 50 (average character width) in width.
-???
-In this line of code that creates a text field, how are the rows and columns measured?
-    <textarea name="message" rows="10" cols="30"></textarea>
+Write the form code that creates a multi-line input for text.
 
-???
+<??? ???="???">
 
-* <textarea name="message" rows="10" cols="30"></textarea>
-* Rows are lines of text and columns are in average character width.
-
+* textarea
+* name
+* textbox
+* form
+* input
+* textarea
 
 ---
 ## Revision
 
-Which line creates an HTML form’s input area box?
+Which element creates a multi-line input field that is 10 lines of text in height and 50 average characters in width. 
 
 ???
 
-The form code <textarea name=”textbox”> creates what in the document?
+* ` <textarea name="message" rows="10" cols="30"></textarea>`
+* ` <textarea name="message" rows="30" cols="10"></textarea>`
+* ` <input type="textarea" name="message" rows="10" cols="30">`
+* ` <input name="message" rows="10" cols="30"></input>`
 
-???
-* <textarea name=”textbox”>
-* <input type="textarea">
-* <input type="textbox">
-* <textbox type="textarea">
-* A multi-line input for text.
+
+---
+## Quiz
+
+How much do you know about text fields?
+
+In this code, how are rows and columns measured?
+
+`<textarea name="message" rows="20" cols="50"></textarea>`
+
+Rows: ???
+Columns: ???
+
+* Lines of Text
+* Average character width
+* able Column
+* Table Row
+* Unicode code points
+* Number of characters
+
+

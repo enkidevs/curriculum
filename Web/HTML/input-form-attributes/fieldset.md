@@ -1,5 +1,5 @@
 # Fieldset
-author: mihaiberq
+author: matthewleach
 
 levels:
   - beginner
@@ -23,19 +23,13 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-What does the fieldset element do in this line of code?
-      <form action="test.php" method="post">
-      <fieldset>
-        <legend>Title</legend>
-        <input type="radio" id="radio">
-        <label for="radio">Click me</label>
-      </fieldset>
-    </form>
+Mark all statements that apply about the purpose of the fieldset element.
 
-???
-
-* Groups several controls as well as labels (`<label>`) within a web form.
-
++ Useful to be used with `<legend>` to make form more readable.
++ Used to group form controls.
++ Can use the disabled attribute to disable all form controls within it.
+- Visually creates a 1px black border around the `<fieldset>` element.
+- Not intended for use with screen readers.
 
 ---
 ## Revision
@@ -43,4 +37,9 @@ What does the fieldset element do in this line of code?
 What HTML element is used to group several controls, as well as labels, within a form?
 
 ???
+
 * fieldset
+* label
+* legend
+* description
+* group

@@ -1,5 +1,5 @@
 # HTML/CSS in the Browser
-author: matthew-leach
+author: matthewleach
 
 levels:
   - beginner
@@ -31,11 +31,10 @@ An HTML page without CSS in a browser will appear as what?
 * A document error occurs and nothing displays properly.
 * Webpage opens without error, but only text is displayed. 
 
-
 ---
 ## Revision
 
-A .CSS page will appear as what when opened in a browser?
+A .css page will appear as what when opened in a browser?
 
 ???
 
@@ -45,17 +44,17 @@ A .CSS page will appear as what when opened in a browser?
 * A document error occurs and nothing displays properly.
 * Page opens without error, but styles can't display without HTML. 
 
-
 ---
 ## Quiz 
 
-How do HTML & CSS files appear in a browser when viewed alone without the other?
+headline: How well do you understand basic web pages? 
 
-HTML: ???
-CSS: ???
+question: |
+How does `.css` files appear in a browser when viewed alone without an `.html` file?
 
-* Only text, images, and links are displayed.
-* Page appears exactly as it is written in a code editor.
-* A document error occurs and nothing displays properly.
-* Page opens, but no content of any sort displayed.
-* The file doesn't display anything without the other.
+answers:
+- File appears exactly as it is written in a code editor.
+- Only text, images, and links are displayed in browser.
+- A document error occurs and nothing displays properly.
+- File opens, but no content of any sort displayed.
+- The CSS file doesn't display anything without the HTML.

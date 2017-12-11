@@ -1,5 +1,5 @@
 # Blockquotes
-author: mihaiberq
+author: matthewleach
 
 levels:
   - beginner

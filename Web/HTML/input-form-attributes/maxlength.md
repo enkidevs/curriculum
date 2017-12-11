@@ -1,5 +1,5 @@
 # Maxlength
-author: mihaiberq
+author: matthewleach
 
 levels:
   - beginner
@@ -23,38 +23,33 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-What attribute sets a cap on the number of characters allowed to be entered within   a form’s input field?
+Which statement is false in regards to the maxlength attribute?
 
 ???
 
-What does the maxlength attribute do in this line of code?
-       <input type="text" name="zipcode" maxlength="5">
-
-???
-
-* maxlength
-* Only allows 5 characters within the textfield.
-
+* Text changes to red when max limit is hit by default.
+* does not provide any feedback
+* if feedback is needed, JS code is required.
+* Can only be applied to `<input>` and `<textarea>`.
+* Limits placeholder attribute length
 
 ---
 ## Revision
 
-The maxlength attribute within form’s input fields does not provide any feedback and if feedback to the user is needed, JavaScript code is required.
+Which attributes is needed so a textfield only accepts five characters?
 
-???
+`<input type="text" name="zipcode" ???="5" >`
 
-Although the default value with the number of characters allowed in the <input> element is unlimited, Google Chrome sets the cap at 524288.
+* maxlength
+* size
+* width
+* charmax
+* col
 
-???
 
-The maxlength attribute can only be applied to the form elements <input> and <textarea>.
 
-???
 
-The maxlength attribute of form elements also limits placeholder attribute length.
 
-???
-* T
-* T
-* T
-* F
+
+
+

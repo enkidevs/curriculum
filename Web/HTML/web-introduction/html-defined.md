@@ -1,5 +1,5 @@
 # HTML Defined
-author: matthew-leach
+author: matthewleach
 
 levels:
   - beginner
@@ -22,10 +22,19 @@ New content to go here. The author must be updated to match a valid Enki account
 
 What four things does HTML primarily achieve (in no particular order)?
 
-1) ??? 
-2) ???
-3) ???
-4) ???
+HTML does well.
+---
+???
+???
+???
+???
+
+HTML does not do well.
+---
+???
+???
+???
+???
 
 * Displays Text
 * Inserts Media
@@ -44,19 +53,21 @@ What does HTML provide in a web page?
 ???
 
 * content: images, text, links & containers
-* styles for images, text, links & containers
+* styles: for images, text, links & containers
 * interactivity: links, animations, and forms
 * hosting: organization of code for live web pages
 
 ---
 ## Quiz 
 
+headline: How well do you know the basics of HTML?
+
+question: |
 What does HTML provide in a web page? 
 
-???
-
-* Content
-* Styling for Content 
-* Interactive elements of the page
-* Web hosting
+answer:
+- Content such as text, images, & links. 
+- Styling for such content as text, images, & links. 
+- Interactive elements of the page.
+- Web hosting.
 

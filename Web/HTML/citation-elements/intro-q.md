@@ -1,5 +1,5 @@
 # Intro q
-author: mihaiberq
+author: matthewleach
 
 levels:
   - beginner

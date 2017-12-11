@@ -1,5 +1,5 @@
 # Image Button
-author: mihaiberq
+author: matthewleach
 
 levels:
   - beginner
@@ -24,36 +24,28 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-What code is used to replace an image with a submit button?
-    <input type="image" src="button.png" border="0" alt="Send" />
-What does this line of code do?
-    <input type="image" src="button.png" border="0" alt="Send" />
+Write the form code that creates an image button.
 
-???
+`<??? ???="???" ???="button.png" ???="Send" />`
 
-The functional difference between a form’s checkboxes and radio buttons is that:
-
-???
-
-If one of the form’s radio buttons should be selected by default, what attribute is added?
-    <input type="radio" name="topic" value="item" __ > Item </input>
-
-???
-
-Which attribute is required for every form element to send the data for that input?
-
-???
-
-* Uses an image in place of a submit button for a form.
-* radio buttons allow only one option to be selected and checkboxes multiple values can be.
-* checked
+* input
+* type
+* image
+* src
+* alt
 * name
-
+* submit
 
 ---
 ## Revision
 
-Radio buttons within a form cannot be assigned constraint validation.
+What code is used to replace an image with a form's submit button?
+    
+`<input type="image" src="button.png" />`
+`<img type="submit" src="button.png" />`
+`<input type="submit" src="button.png" />`
+`<img type="image" src="button.png" />`
 
-???
-* T
+
+
+

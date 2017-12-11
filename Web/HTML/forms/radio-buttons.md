@@ -1,5 +1,5 @@
 # Radio Buttons
-author: mihaiberq
+author: matthewleach
 
 levels:
   - beginner
@@ -24,11 +24,26 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
+Write the form code that creates a radio button.
+
+`<??? ???="???" ???="topic" ???="item"> Item <???>`
+
+* input
+* type
+* radio
+* name
+* value
+* /input
+
+---
+## Revision
+
 Which line creates an HTML form’s radio buttons?
-???
-The form code <input type="radio” name="topic" value="item”> creates what in the document?
 
 ???
 
-* <input type="radio" name="topic" value="item"> Item </input>
-* [Display a single radio button. ]
+`<input type="radio" name="topic" value="item"> Item </input>`
+`<radio name="topic" value="item"> Item </radio>`
+`<input radio="topic" value="item"> Item </input>`
+`<input type="radio" value="topic" name="item"> Item </input>`
+

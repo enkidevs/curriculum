@@ -1,5 +1,5 @@
 # Formnovalidate & novalidate
-author: mihaiberq
+author: matthewleach
 
 levels:
   - beginner
@@ -23,25 +23,30 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-Which two input form attributes disable form validation?
-    1. novalidate attribute in form element
-    2. formnovalidate attribute in submit button
-Which input form attribute within the form element disables the validation?
+Complete the code by adding the appropriate input form attributes to disable the validation within the form element and in the submit button.
 
-???
+```<form action="/action_page.php" ??? >
+ E-mail: <input type="email" name="user_email">
+ <input type="submit" ??? >
+</form>```
 
-Which input form attribute disables the validation in the submit button?
-
-???
-
-* novalidate
+* novalidate 
 * formnovalidate
-
+* validate 
+* form-data
+* datavalidate
 
 ---
 ## Revision
 
-The novalidate attribute within forms works on all major browser except Safari.
+Complete the code by adding the appropriate input form attributes to disable the validation within the form element and in the submit button.
 
-???
-* T
+```<form action="/action_page.php" ??? >
+ E-mail: <input type="email" name="user_email">
+ <input type="submit" ??? >
+</form>```
+
+* novalidate 
+* formnovalidate
+* validate
+

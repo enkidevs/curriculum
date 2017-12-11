@@ -1,5 +1,5 @@
-# Formmethod
-author: mihaiberq
+# Method
+author: matthewleach
 
 levels:
   - beginner
@@ -20,11 +20,31 @@ tags:
 
 New content to go here. The author must be updated to match a valid Enki account.
 
+
 ---
 ## Practice
 
-Which input form attribute overrides the form's method attribute?
+Match the possible values with their description related to the method attribute.
+
+`<form action="file.php" method="___">`
+
+??? : Form data is appended to the URL when submitted. 
+??? : Form data is not appended to the URL.
+??? : Closes the dialog box in which the form finds itself, if any, and otherwise does not submit. 
+
+* get
+* post
+* dialog
+
+---
+## Revision
+
+Which input form attribute specifies the HTTP method to use when the form is submitted?
 
 ???
 
-* formmethod
+* method
+* http
+* submit
+* data
+* get/post

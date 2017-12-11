@@ -1,5 +1,5 @@
 # Text Field
-author: mihaiberq
+author: matthewleach
 
 levels:
   - beginner
@@ -24,12 +24,15 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-The form code <input type="textfield"> creates what in the document?
+Write the form code that creates a single line input for text.
 
-???
+<??? ???="???">
 
-* A single line input for text.
-
+* input
+* type
+* textfield
+* form
+* text
 
 ---
 ## Revision
@@ -37,7 +40,8 @@ The form code <input type="textfield"> creates what in the document?
 Which line creates a HTML form’s input textfield?
 
 ???
-* <input type="textfield">
-* <input type="text">
-* <form input=”textfield”>
-* <textinput type="text">
+
+* `<input type="textfield">`
+* `<textfield type="input">`
+* `<form input="textfield">`
+* `<textinput type="text">`

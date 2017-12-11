@@ -1,5 +1,5 @@
 # HTML/CSS Code
-author: matthew-leach
+author: matthewleach
 
 levels:
   - beginner
@@ -50,13 +50,20 @@ CSS: ???
 ---
 ## Quiz 
 
-Can you identify HTML and CSS code?
+headline: How well can you identify HTML and CSS?
 
-`<p>I'm a style.</p>`  is ??? code.
-`p {font-size: 16px;}` is ??? code.
+question: |
+What lines of code are HTML?
 
-* HTML
-* CSS
+1) `<p>I'm a style.</p>`  
+2) `p {font-size: 16px;}` 
+3) `<img src="logo.jpg" alt="Enki Logo">` 
+4) `body {font-size: 100%;}` 
 
+answers: 
+- 1 & 3
+- 1, 3, 4
+- 1, 2, 3, 4
+- none
 
 

@@ -1,5 +1,5 @@
 # Figure & figcaption
-author: mihaiberq
+author: matthewleach
 
 levels:
   - beginner

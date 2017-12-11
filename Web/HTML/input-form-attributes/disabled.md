@@ -23,13 +23,17 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-What does the disabled attribute do in this line of code?
-    <input type="text" name="company" value="Enki" disabled>
+Mark all that apply stating what the disabled attribute does in this code.
+
+`<input type="text" name="company" value="Enki" disabled>`
 
 ???
 
-* Prevents the user from editing the textfield and the value will not send upon submission.
-
++ Prevents the user from editing the textfield 
++ The value will not send upon submission
+- Hides the textfield
+- Sends the value upon submission
+- Displays as a grey textbox by default
 
 ---
 ## Revision
@@ -37,4 +41,9 @@ What does the disabled attribute do in this line of code?
 What attribute allows the input field to display a value which the user cannot change and the default value is not sent upon submittion?
 
 ???
+
 * disabled
+* readonly
+* read-only
+* lock
+* @disabled

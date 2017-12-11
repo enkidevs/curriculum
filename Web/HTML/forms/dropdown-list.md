@@ -1,5 +1,5 @@
 # DropDown List
-author: mihaiberq
+author: matthewleach
 
 levels:
   - beginner
@@ -24,36 +24,50 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-By default, the last value of a form’s drop-down list is selected.
+Write the form code that creates an item of a dropdown.
 
-???
-
-When a form’s drop-down has an option that needs to be pre-selected, what attribute is used?
-    <option value="item#1" __ >Item #1</option>
-
-???
-
-* F
-* selected
-
+```
+<???>
+  <??? ???="???">DropDown Item #1<???>
+<???>
+```
+* select
+* option
+* value
+* value name
+* /option
+* /select
+* input
+* type
 
 ---
 ## Revision
 
-Which line creates a HTML form’s dropdown list?
+Which line of code creates form’s dropdown list with a single item?
 
 ???
 
-The form code <select name="dropdown”> creates what in the document?
+`<select><option value="item1">DropDown Item #1</option></select>`
+`<input><option value="item1">DropDown Item #1</option></input>`
+`<dropdown><option value="item1">DropDown Item #1</option></dropdown>`
+`<select><dropdown value="item1">DropDown Item #1</dropdown></select>`
 
-???
+---
+## Quiz
 
-A form’s dropdown presents the values in the dropdown using what HTML element?
+How much do you know about form dropdowns?
 
-???
-* <select name="dropdown”>
-* <input type="dropdown">
-* <form input=”dropdown>
-* <input type="select">
-* [Display a dropdown as an option]
-* <option value=”item”>
+When a form’s drop-down has an option other than the first item that needs to display by default, what attribute is used?
+
+```<select>
+  <option value="item#1" ???>Item #1</option>
+</select>```
+
+* selected
+* checked
+* preselected
+* default
+* select
+
+
+

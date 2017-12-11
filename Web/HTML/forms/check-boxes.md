@@ -1,5 +1,5 @@
 # Check Boxes
-author: mihaiberq
+author: matthewleach
 
 levels:
   - beginner
@@ -24,20 +24,25 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-The form code <input type="checkbox"> creates what in the document?
+Write the form code that creates a checkbox.
 
-???
+`<??? ???="???">`
 
-* [Display a checkbox as an option]
-
+* input
+* type
+* checkbox
+* check
+* select
 
 ---
 ## Revision
 
-Which line creates a HTML form’s checkbox?
+Which line creates an HTML form’s checkbox?
 
 ???
-* <input type="checkbox">
-* <input type="check">
-* <form input=”check”>
-* <form input=”checkbox”>
+
+`<input type="checkbox">`
+`<input type="check">`
+`<form input="check">`
+`<form input="checkbox">`
+

@@ -1,5 +1,5 @@
 # HTML/CSS Introduction
-author: matthew-leach
+author: matthewleach
 
 levels:
   - beginner
@@ -89,18 +89,16 @@ What does CSS stand for?
 ---
 ## Quiz 
 
-What does HTML & CSS stand for?
+headline: Do you know what HTML & CSS stands for? 
 
-HTML: ???
-CSS: ???
+question: |
+What does HTML and CSS stand for?
 
-* HyperText Markup Language
-* Cascading StyleSheets
-* Hyperlink Text Markup Language
-* Computer SheetStyles
-* Home Tool Markup Listing
-* Custom ScriptStyles
-* Hyper Tool Mark Language
-* Cascading ServerStyles
+answers:
+* HyperText Markup Language & Cascading StyleSheets
+* Hyperlink Text Markup Language & Computer SheetStyles
+* Home Tool Markup Listing & Custom ScriptStyles
+* Hyper Text Mark Language & Cascading SheetStyles
+
 
 

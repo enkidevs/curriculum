@@ -1,5 +1,5 @@
 # Submit & Reset
-author: mihaiberq
+author: matthewleach
 
 levels:
   - beginner
@@ -24,22 +24,53 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-When a form’s submit button is clicked, what will happen next?
+Write the form code that creates a submit button.
 
-???
+`<??? ???="???" ???="Send">`
 
-* The data within the form is sent to the server page.
+* input
+* type
+* submit
+* value
+* send
+* data
 
+Write the form code that creates a reset button.
+
+`<??? ???="???" ???="Reset">`
+
+* input
+* type
+* reset
+* value
+* send
+* data
 
 ---
 ## Revision
 
-Which line creates a HTML form’s send button?
+Which line of code defines the button that sends the data when clicked?
 
 ???
 
-Which form’s input type is used to define button for sending the data?
+* `<input type="submit" value="Send">`
+* `<submit value="Send">`
+* `<input submit="Send">`
+* `<input value="submit" type="Send">`
 
-???
-* <input type="submit" value=”Send”>
-* submit
+---
+## Quiz
+
+How much do you know about buttons within forms?
+
+If values are not assigned to reset and submit buttons stating what text the buttons should display, what happens?
+
+```<input type="submit">
+<input type="reset">```
+
+* "Submit" & "Reset" text is added by default.
+* Nothing is added to the HTML page.
+* They display as buttons without text. 
+
+
+

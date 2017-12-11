@@ -1,5 +1,5 @@
 # Intro form
-author: mihaiberq
+author: matthewleach
 
 levels:
   - beginner
@@ -11,10 +11,8 @@ category: must-know
 
 stub: true
 
-
 tags:
   - workout
-
 
 ---
 ## Content
@@ -24,71 +22,54 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
+Match the definitions with the proper terms: 
 
+??? : Form attribute used to specify where to send the data.
+??? : Method used to send the form data encoded within the URL.
+??? : Method used to encode the data within the message body of the HTTP request.
+    
+* action
+* get
+* post
+* path
+* input
 
 ---
 ## Revision
 
+Interactive elements like textfields, radio buttons, and check boxes, must be placed within which HTML element to collect user input. 
+
+???
+
+* `<form>`
+* `<input>`
+* `<field>`
+* `<embed>`
+* `<data>`
+* `<fieldset>`
 
 ---
 ## Quiz
 
-
-
-
-
-
-
-HTML elements that allow the user to enter information is referred to as what?
+What method used within a `<form>` element is more difficult to hack?
 
 ???
 
-What are the two important attributes that <form> elements need to properly send data to a defined location?
-
-???
-???
-
-Which form attribute is used to specify where to send the data?
-
-???
-
-What method is used within a <form> element to send the form data encoded within the URL?
-
-???
-
-What method is used within a <form> element to encode the data within the message body of the HTTP request?
-
-???
-
-What method used within a <form> element is more difficult to hack?
-
-???
-
-GAME Concept: GET vs POST (outlined below with the games)
-
-* form fields
-* action=”location-path”
-* method=”post or get”
+* post
+* get
+* location
+* path
 * action
+* input
+
+What method used within a `<form>` element allows the user to bookmark the URL and directly get back to the page bypassing the form-filling process?
+
+???
+
 * get
 * post
-* post
-* get
-* GET
+* location
+* path
+* action
+* input
 
-
-
-Interactive elements like textfields, radio buttons, and check boxes, must be placed within a <form> element to collect user input.
-
-???
-
-All HTML forms must start with a <form> element.
-
-???
-
-One advantage of using POST within a <form> element is that a user can bookmark the URL and directly get back to the page bypassing the form-filling process.
-
-???
-* T
-* T
-* F

@@ -1,5 +1,5 @@
 # CSS Defined
-author: matthew-leach
+author: matthewleach
 
 levels:
   - beginner
@@ -22,10 +22,20 @@ New content to go here. The author must be updated to match a valid Enki account
 
 What four things does CSS primarily achieve (in no particular order)?
 
-1) ??? 
-2) ???
-3) ???
-4) ???
+CSS does well.
+---
+???
+???
+???
+???
+
+CSS does not do well.
+---
+???
+???
+???
+???
+
 
 * Responsive Layouts
 * Styles Text 
@@ -43,7 +53,7 @@ What does CSS provide in a web page?
 
 ???
 
-* styles: images, text, links & containers
+* styles: for images, text, links & containers
 * content: images, text, links & containers
 * interactivity: links, animations, and forms
 * hosting: organization of code for live web pages
@@ -51,11 +61,13 @@ What does CSS provide in a web page?
 ---
 ## Quiz 
 
+headline: How well do you know the basics of CSS?
+
+question: |
 What does CSS provide in a web page? 
 
-???
-
-* Styling for Content
-* Content
-* Interactive elements of the page
-* Web hosting
+Answers:
+- Styling for such content as text, images, & links. 
+- Content such as text, images, & links. 
+- Interactive elements of the page
+- Web hosting
