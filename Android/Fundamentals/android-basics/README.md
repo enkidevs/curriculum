@@ -7,8 +7,5 @@ description: Examine Android Project Structure
 section: 1
 
 insights:
-  - what-is-android
-  - why-learn-android
-  - android-versions
-  - tools-needed-to-use-android
-  - hello-android
+  - what-are-manifest-file
+  
