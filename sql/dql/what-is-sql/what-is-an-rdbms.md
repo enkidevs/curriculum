@@ -35,7 +35,7 @@ To clear things out let's take a look at a few most widely spread software imple
  - Microsoft SQL Server (by Microsoft)
  - PostgreSQL (by PostgreSQL G.D.G)
 
-All of the above solutions are written in *C, C++ and assembly languages*. In short, **RDBMS** is a program that sits on the server and stores data (in a very efficient way) on a hard drive in some logical order.
+All of the above solutions are written in *C, C++ and assembly languages*. In short, a **RDBMS** is a program that sits on the server and stores data (in a very efficient way) on a hard drive in some logical order.
 
 Then the user operates on these RDBMS's with *Query Languages*. The one most common and widely used *Query Language* is **SQL**.
 
@@ -57,5 +57,5 @@ What is RDBMS (Relational Database Management System)?
 ???
 
 * It is a piece of software that sits on a server and operates the data using high level language.
-* It is a software system that controlls the data and which can be adjusted by the user in order to boost the efficiency of data storage.
+* It is a software system that controls the data and which can be adjusted by the user in order to boost the efficiency of data storage.
 * It is a system of servers/supercomputers that manages a Relational Database.
