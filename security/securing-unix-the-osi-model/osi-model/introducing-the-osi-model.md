@@ -62,7 +62,7 @@ The OSI 7 Layer Model is ordered, from bottom to top, in the following order:
 * Physical Layer
 * Data Link Layer
 * Network Layer
-* Transmission Layer
+* Transport Layer
 * Session Layer
 * Presentation Layer
 * Application Layer
