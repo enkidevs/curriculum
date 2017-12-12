@@ -8,5 +8,5 @@ section: 1
 
 insights:
   - what-are-manifest-file
-  - what-are-resource-file
+  - what-are-resource-files
   
