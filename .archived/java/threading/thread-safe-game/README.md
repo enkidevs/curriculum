@@ -2,7 +2,7 @@ name: Thread safe?
 
 type: game
 
-description: Multi threading is a common practice and a necessity in nowadays applications (either large or small). Certain classes trade thread safety for performance boosts. asa
+description: Multi threading is a common practice and a necessity in nowadays applications (either large or small). Certain classes trade thread safety for performance boosts. asaa
 
 section: 0
 
