@@ -4,9 +4,9 @@ type: insights-list
 
 description: Troubleshooting paraphernalia.
 
-section: 1
+section: 2
 
-parent: file-system-iii 
+parent: file-system-iii
 
 insights:
   - how-to-retrieve-running-java-processes-with-jps
