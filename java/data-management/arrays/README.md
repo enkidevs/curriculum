@@ -6,7 +6,7 @@ description: Employ techniques for manipulating Arrays in Java.
 
 section: 0
 
-parent: strings-iii
+parent: strings-iii 
 
 insights:
   - collections-vs-arrays

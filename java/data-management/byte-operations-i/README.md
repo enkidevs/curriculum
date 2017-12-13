@@ -1,6 +1,6 @@
 name: Byte Operations I
 
-type: insights-list
+type: insights-list 
 
 description: Low level considerations while programming in Java.
 

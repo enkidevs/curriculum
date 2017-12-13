@@ -6,7 +6,7 @@ description: Commonly encountered scenarios and recipes for them.
 
 section: 0
 
-parent: byte-operations-i
+parent: byte-operations-i 
 
 insights:
   - replace-a-substring

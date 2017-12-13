@@ -2,7 +2,7 @@ name: File Management
 
 type: insights-list
 
-description: Interact with your file system.
+description: Interact with your file system. 
 
 section: 0
 

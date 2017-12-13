@@ -6,7 +6,7 @@ description: Fixes to common problems.
 
 section: 1
 
-parent: file-system-ii
+parent: file-system-ii 
 
 insights:
   - do-not-perform-bitwise-and-arithmetic-operations-on-the-same-data
