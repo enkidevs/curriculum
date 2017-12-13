@@ -1,6 +1,6 @@
 name: Annotations III
 
-type: insights-list
+type: insights-list 
 
 description: Commonly encountered scenarios regarding annotations.
 

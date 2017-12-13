@@ -14,3 +14,4 @@ insights:
   - final-fields-do-not-need-to-be-read-through-synchronized-methods
   - thread-interruptions
   - use-thread-pool-executors
+ 

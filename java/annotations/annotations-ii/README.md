@@ -4,7 +4,7 @@ type: insights-list
 
 description: Commonly encountered scenarios regarding annotations.
 
-section: 0
+section: 0 
 
 parent: annotations-i
 
