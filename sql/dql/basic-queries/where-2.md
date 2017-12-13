@@ -92,13 +92,49 @@ Select all the columns from the `pokemon` table, keeping only the rows where the
 
 `SELECT * `
 `FROM pokemon`
-??? ??? ??? ???;
+??? ???
+???
+???;
 
 * WHERE
 * name = 'bulbasaur' OR
 * name = 'ivysaur' OR
 * name = 'venusaur'
-* NAME IS
-* AND
+* name IS
+* OR
+* name IN
 * 'ivysaur'
 * 'bulbasaur'
+* 'venusaur'
+
+---
+## Quiz
+
+headline: Can you select rows between two values in SQL?
+
+question: |
+
+  Consider the `move_name` table:
+
+    id  | language_id | move_id |  name       
+  ------|-------------|---------|------------
+      1 |           1 |       1 | はたく
+      2 |           3 |       1 | 막치기
+      3 |           5 |       1 | Écras'Face
+      4 |           6 |       1 | Pfund
+      5 |           7 |       1 | Destructor
+    (...)
+
+  Choose the query that will get all move names with id between 3 and 6. Also, pay attention to select those name that are used in languages with id 5 or 9:
+
+answers:
+  - SELECT name FROM move_name
+    WHERE move_id BETWEEN 3 AND 6 AND language_id IN (5,9);
+  - SELECT * FROM move_name
+    WHERE move_id BETWEEN 3 AND 6 AND language_id IN (5,9);
+  - SELECT name FROM move_name
+    WHERE move_id >= 3 AND move_id <= 6
+    AND language_id >= 5 OR language_id <= 9;
+  - SELECT name FROM move_name
+    WHERE move_id IN (3,6)
+    AND language_id >= 5 AND language_id <= 9;

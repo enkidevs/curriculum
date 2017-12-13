@@ -37,7 +37,7 @@ console.log(myArray.splice(2, 1));
 console.log(myArray);
 // [1, 2]
 ```
-As you can see, the function returns the elements removed in case you need them.
+As you can see, the function returns the elements removed in case you need them. 
 
 You can also replace a sequence of elements:
 ```

@@ -69,7 +69,6 @@ var planets = [
 planets.map(??? => ???);
 ```
 * `planet`
-* `(planet)`
 * `{planet}`
 * `planet.length`
 * `{planet.length}`
