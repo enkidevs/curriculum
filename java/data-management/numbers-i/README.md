@@ -2,7 +2,7 @@ name: Numbers I
 
 type: insights-list
 
-description: Exploring numbers in Java.
+description: Exploring numbers in Java. 
 
 section: 0
 

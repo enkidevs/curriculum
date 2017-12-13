@@ -2,7 +2,7 @@ name: Strings III
 
 type: insights-list
 
-description: Commonly encountered scenarios and recipes for them, part 3.
+description: Commonly encountered scenarios and recipes for them, part 3. 
 
 section: 0
 

@@ -6,7 +6,7 @@ description: Working with and implementing fundamental data structures in Java.
 
 section: 1
 
-parent: buffered-streams
+parent: buffered-streams 
 
 insights:
   - java-treemap-and-treeset-overview

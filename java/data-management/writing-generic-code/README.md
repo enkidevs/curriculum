@@ -6,7 +6,7 @@ description: Learn how to write generic code!
 
 section: 0
 
-parent: tips-i
+parent: tips-i 
 
 insights:
   - writing-generic-methods
