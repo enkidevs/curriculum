@@ -2,7 +2,7 @@ name: Annotations II
 
 type: insights-list
 
-description: Commonly encountered scenarios regarding annotations.a
+description: Commonly encountered scenarios regarding annotations.aa
 
 section: 0
 
