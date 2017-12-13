@@ -2,9 +2,9 @@ name: Annotations II
 
 type: insights-list
 
-description: Commonly encountered scenarios regarding annotations.
+description: Commonly encountered scenarios regarding annotations.a
 
-section: 0 
+section: 0
 
 parent: annotations-i
 
