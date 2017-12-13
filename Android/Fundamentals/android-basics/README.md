@@ -10,6 +10,5 @@ insights:
   - what-are-manifest-file
   - what-are-resource-files
   - what-files-in-src-directory
-  - android-project-structure
-  - android-files-generated
+ 
   
