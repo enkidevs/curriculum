@@ -1,4 +1,4 @@
-# Figure & figcaption
+# Figure & Figcaption
 author: matthewleach
 
 levels:

@@ -1,4 +1,4 @@
-# Intro bdi
+# bdi Element
 author: matthewleach
 
 levels:

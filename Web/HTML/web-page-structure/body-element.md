@@ -40,36 +40,42 @@ Organize the structure of a simple HTML web page:
 * `<body>`
 * `</body>`
 * `</html>`
-* `<main>`
-* `</main>`
 
 ---
 ## Revision
 
 Which HTML element is used to hold all of the page content that displays within the browser?
 
-???
+Make the HTML elements with their descriptions: 
+
+Required first line of an HTML page: ???
+Holds all the page content: ???
+Holds the doc title, scripts, styles, & meta information: ???
+
 
 * `<body>`
 * `<html>`
-* `<body>`
+* `<head>`
 * `<main>`
 * `<doctype>`
+* `<content>`
 
 ---
 ## Quiz
 
-Which element has a default margin of 8px creating space around the border of the entire page?
+How much do you know about default settings of HTML pages?
 
-`<INSERT IMAGE>`
-`Something better than: https://codepen.io/shoutmatt/pen/ZXMJzj`
+Which element has a default margin (usually around 8px) that creates space around the border of the entire page?
+
+<img src="body-element-margin-gap.svg" alt="">
 
 ???
 
-* body
-* html
-* head
-* doctype
-* p
+* `body`
+* `html`
+* `head`
+* `doctype`
+* `content`
+* `main`
 
 
