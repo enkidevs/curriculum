@@ -20,23 +20,25 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-Match the HTML elements with their descriptions: 
+How much do you know about default settings of HTML pages?
 
-???: Required first line for every HTML page.
+Which element has a default margin (usually around 8px) that creates space around the border of the entire page?
 
-???: Holds all the page content.
+<img src="body-element-margin-gap.svg" alt="">
 
-???: Holds the doc title, scripts, styles, & meta information.
+???
 
-* `<doctype>`
-* `<body>`
-* `<head>`
-* `<html>`
-* `<main>`
-* `<content>`
+* `body`
+* `html`
+* `head`
+* `doctype`
+* `content`
+* `main`
+
 
 ---
 ## Revision
+
 
 Organize the structure of a simple HTML web page: 
 
@@ -61,6 +63,27 @@ Organize the structure of a simple HTML web page:
 * `</body>`
 * `</html>`
 
+
+
+
+
+
+
+
+Match the HTML elements with their descriptions: 
+
+???: Required first line for every HTML page.
+
+???: Holds all the page content.
+
+???: Holds the doc title, scripts, styles, & meta information.
+
+* `<doctype>`
+* `<body>`
+* `<head>`
+* `<html>`
+* `<main>`
+* `<content>`
 
 ---
 ## Quiz
