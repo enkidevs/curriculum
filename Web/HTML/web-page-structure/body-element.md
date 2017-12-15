@@ -22,23 +22,18 @@ New content to go here. The author must be updated to match a valid Enki account
 
 Organize the structure of a simple HTML web page:
 
+```
 ???
-
 ???
-
  ???
- 
   `<title>Enki</title>`
-  
  ???
- 
  ???
- 
   `<h1>enki</h1>`
   `<p>We provide daily dev workouts.</p>`
  ???
- 
 ???
+```
 
 * `<!DOCTYPE html>`
 * `<html>`
