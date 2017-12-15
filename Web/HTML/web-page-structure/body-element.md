@@ -20,7 +20,7 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-Organize the structure of a simple HTML web page:
+Organize the structure of a simple HTML web page: ;)
 
 ```
 ???
