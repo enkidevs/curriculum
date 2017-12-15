@@ -20,6 +20,24 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
+Match the HTML elements with their descriptions: 
+
+Required first line of an HTML page: ???
+Holds all the page content: ???
+Holds the doc title, scripts, styles, & meta information: ???
+
+* `<body>`
+* `<html>`
+* `<head>`
+* `<main>`
+* `<doctype>`
+* `<content>`
+
+
+
+---
+## Revision
+
 Organize the structure of a simple HTML web page: 
 
 ```
@@ -29,7 +47,7 @@ Organize the structure of a simple HTML web page:
   <title>Enki</title>
  ???
  ???
-  <h1>enki</h1>
+  <h1>Enki</h1>
   <p>We provide daily dev workouts.</p>
  ???
 ???
@@ -43,24 +61,6 @@ Organize the structure of a simple HTML web page:
 * `</body>`
 * `</html>`
 
----
-## Revision
-
-Which HTML element is used to hold all of the page content that displays within the browser?
-
-Make the HTML elements with their descriptions: 
-
-Required first line of an HTML page: ???
-Holds all the page content: ???
-Holds the doc title, scripts, styles, & meta information: ???
-
-
-* `<body>`
-* `<html>`
-* `<head>`
-* `<main>`
-* `<doctype>`
-* `<content>`
 
 ---
 ## Quiz
