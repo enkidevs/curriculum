@@ -22,18 +22,18 @@ New content to go here. The author must be updated to match a valid Enki account
 
 Match the HTML elements with their descriptions: 
 
-Required first line of an HTML page: ???
-Holds all the page content: ???
-Holds the doc title, scripts, styles, & meta information: ???
+???: Required first line for every HTML page.
 
-* `<body>`
-* `<html>`
-* `<head>`
-* `<main>`
+???: Holds all the page content.
+
+???: Holds the doc title, scripts, styles, & meta information.
+
 * `<doctype>`
+* `<body>`
+* `<head>`
+* `<html>`
+* `<main>`
 * `<content>`
-
-
 
 ---
 ## Revision
