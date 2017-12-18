@@ -36,7 +36,7 @@ This will show the commits that are on your current branch but not on the remote
 
 In order to see the commits that are on `awesomeFeature` branch but not on `master`, you have to run:
 ```
-$ git ??? 
+$ git ???
       ??? ??? ???
 ```
 *`log`
@@ -51,10 +51,10 @@ $ git ???
 
 ```
 $ git log origin/master..HEAD
-``` 
+```
 shows ??? that are on the ??? branch, but not on ??? .
 *commits
 *current
 *master
 *main
-*snipets
+*snippets
