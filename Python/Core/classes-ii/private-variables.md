@@ -81,3 +81,25 @@ Complete the following line such that the `private` variable is considered priva
 *`class` 
 *`private` 
 *`p_`
+
+---
+## Quiz
+
+headline: Do you know how private variables work?
+
+question: |
+// We've defined a pythonic private variable in this class. Is it really private?  
+```python
+class Secret:
+    def __init__(self):
+        self.__supersecret = "the earth is not flat"
+        print(self.__supersecret)
+
+topsecret = Secret()
+```
+
+answers:
+- No, you can access the private variable via 'topsecret._Secret__supersecret'
+- No, you can access the private variable via 'topsecret.__Secret.__supersecret'
+- No, you can access the private variable via 'topsecret._private__supersecret'
+- Yup, your secret is safe forever!
