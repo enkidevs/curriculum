@@ -49,11 +49,17 @@ Can you identify type of error most likely depicted in the following snippet?
 ```js
 import http from 'http';
 ...
-http.request({host: test.com, port: 80,
-  path: '/signup', method: 'POST'},
-  (res, err) => err && console.log(err))
+// create the request header
+http.request({host: test.com,
+  port: 80,
+  path: '/signup',
+  method: 'POST'
+  }, (res, err) => err && console.log(err))
+  // add the data
     .write(
-      'username': 'enki', 'password': 'enki');
+      'username': 'enki',
+      'password': 'enki'
+    );
 ```
 ???
 
