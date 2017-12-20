@@ -1,0 +1,48 @@
+# what-files-in-src-directory
+author: tlawson
+
+levels:
+
+  - beginner
+
+  - basic
+
+type: normal
+
+category: must-know
+
+links:
+
+  - '[What is the difference in Android test and Test ](https://stackoverflow.com/questions/34397524/whats-the-difference-between-src-androidtest-and-src-test-folders)'
+
+---
+## Content
+
+When you select the Project View, you will see the src directory. The `src`directory contains all code and resource files in the following subdirectories:
+
+* `androidTest`contains code for instrumentation tests that run on an Android device.
+* `main`contains the "main" source files: the Android code and resources shared by all build variants.
+* `java` contains Java code sources.
+* `res`contains application resources, such as drawable files, layout files, and User Interface string. 
+* `test`contains code for local tests that run on your host Java Virtual Machine.
+
+
+---
+## Practice
+
+What is the purpose of AndroidTest?
+???
+
+* Used for Instrumentation unit test that run on an Android device. 
+* Contains source files.
+* Run locally on the Java Virtual Machine for local test
+
+---
+## Revision
+
+What is the purpose of the src folder?
+???
+
+* Contains all codes such as application code and reource files.
+* Used to capture all Java code and Gradle builds.
+* Contains codes for the project. 
