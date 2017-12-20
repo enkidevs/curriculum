@@ -73,6 +73,3 @@ A programmer error is
 * a feature
 * an unhandled exception
 * an asynchronous error
-
----
-## Quiz

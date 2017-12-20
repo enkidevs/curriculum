@@ -28,12 +28,15 @@ While we're at it, let's focus on the difference between asynchronous and synchr
 ```js
 import fs from 'fs';
 
-function readAndParseFile(path, user_callback) {
-  try {
-    fs.read(path, (err, text) => err && throw err);
-  } catch(err) {
-    user_callback(err);
-  }
+function readAndParseFile(path,
+  user_callback) {
+    try {
+      fs.read(path, (err, text) => {
+        if(err) throw err;
+      });
+    } catch(err) {
+      user_callback(err);
+    }
 }
 ```
 Can you identify why the following anti-pattern will fail? `try/catch` expects a synchronous exception (an "synchronous" looking approach using `async/await` won't work either). By the time `fs.read()` returns the error to the callback (or Promise), the `try/catch` block will be marked as successful and exited.
@@ -93,6 +96,3 @@ For correctness and consistency, when writing an asynchronous function, errors r
 * returned
 * thrown
 * discarded
-
----
-## Quiz
