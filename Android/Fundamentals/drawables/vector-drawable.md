@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-The advantages of using drawables are: 
+The advantages of using drawables are test
 * Easy references to strings, drawables, dimensions, themes.
 * Automatic support for multiple configurations. 
 *	Without changing your code you can have different layouts for landscape and portrait by just having an XML  
