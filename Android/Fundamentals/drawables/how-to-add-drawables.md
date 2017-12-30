@@ -1,4 +1,4 @@
-# how-to-add-drawable
+# how-to-add-drawables
 	author: tlawson
 
 	levels:
