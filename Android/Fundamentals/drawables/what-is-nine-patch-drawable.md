@@ -1,4 +1,4 @@
-# what-is-vector-and-nine-patch
+# what-is-nine-patch-drawable
 author: tlawson
 
 levels:
