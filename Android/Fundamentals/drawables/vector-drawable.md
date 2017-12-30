@@ -1,4 +1,4 @@
-# vector-drawbles
+# vector-drawable
 author: tlawson
 
 levels:
@@ -18,22 +18,20 @@ links:
 ---
 ## Content
 
-The advantages of using drawables are test
-* Easy references to strings, drawables, dimensions, themes.
-* Automatic support for multiple configurations. 
-*	Without changing your code you can have different layouts for landscape and portrait by just having an XML  
-  layout in layout-land/ and layout-port/. And you can do the same to adapt the layout to different resolutions, languages, etc.
+NinePatch Drawables is an image that has stretchable areas defined. These areas are defined in special 1 pixel wide border around the area. Add black pixels to the top and left of the border to describe where the image can be stretched horizontally and vertically. Nine Patch are useful when designing buttons.  
+•	Vector Drawables – similar in using with an .svg file but limited. Automatically scales to the density of the device.
+
 
 
 ---
 ## Practice
 
-What is an advantage of using drawables?
+What does the fox says?
 ???
 
-* easy refrence to strings, drawables, dimensions, and themes
-* one layout for landscape
-* support for single configurations
+* right answer
+* wrong answer
+* wrong answer 2
 
 ---
 ## Revision
