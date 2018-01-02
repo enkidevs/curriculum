@@ -15,9 +15,8 @@ tags:
 ---
 ## Content
 
-Styling is something that shouldn't not influence the performance of the code in any way, but rather something to please the eyes of developers. Camel case syntax versus underscore naming conventions, tabs versus spaces, or brackets position are only some of the topics there have been endless debates about over the years.
+Styling is something that shouldn't influence the performance of the code in any way, and differs from team to team. It's rare that developers agree on camel case syntax versus underscore naming conventions, tabs versus spaces, or brackets position. However, for JavaScript in general and Node in particular, brackets location isn't just a debate. Let's look at  an example:
 
-However, for JavaScript in general and Node in particular, brackets location isn't just a fad. For reference, here's an example:
 ```js
 function right() {
   return {
@@ -33,7 +32,8 @@ function wrong()
   };
 }
 ```
-At the first glance, both functions seem to return the same object (emphasis on *object*), which contains the property `status`. However, the output is as follows:
+At the first glance, both functions seem to return the same **object**, which contains the property `status`. However, the output is as follows:
+
 ```js
 console.log(right().status);
 // right
@@ -71,7 +71,9 @@ function echoNewNew()         {
 console.log(status);
 // undefined
 ```
+
 Wherever you choose to place your brackets limiting scope, the result will be the same: `status` is undefined. However, things are not the same when brackets are used to return an object:
+
 ```js
 function wrong()
 {
