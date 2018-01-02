@@ -24,13 +24,13 @@ links:
 ---
 ## Content
 
-There are a number of RDBMS servers available, each with different strengths: 
+There are a number of RDBMS servers available, each with different strengths:
 
-*MySQL* is one of the world's most popular, open source databases. It is most commonly used as a database for web applications. It's the **M** in the LAMP[1] web development stack. MySQL supports many different operating systems, such as: Microsoft Windows, Linux and Mac OS X.
+*MySQL* is one of the world's most popular open source databases. It is most commonly used as a database for web applications. It's the **M** in the LAMP[1] web development stack. MySQL supports many different operating systems, such as: Microsoft Windows, Linux and Mac OS X.
 
 Some MySQL features:
-- ACID (Atomicity, consistency, Isolation, Durability)
-- transaction
+- ACID (Atomicity, Consistency, Isolation, Durability)
+- transactions
 - referential integrity
 - unicode
 - multi-version concurrency
@@ -40,8 +40,8 @@ Some MySQL features:
 
 Some MS Access features:
 - option of importing and exporting the data to many formats including Excel, Outlook, ASCII
-- ACID (Atomicity, consistency, Isolation, Durability)
-- transaction
+- ACID (Atomicity, Consistency, Isolation, Durability)
+- transactions
 - referential integrity
 - unicode
 - multi-version concurrency
@@ -51,22 +51,22 @@ Some MS Access features:
 
 Some MS SQL Server features:
 - database mirroring
-- ACID (Atomicity, consistency, Isolation, Durability)
-- transaction
+- ACID (Atomicity, Consistency, Isolation, Durability)
+- transactions
 - referential integrity
 - unicode
 - multi-version concurrency
 - fine-grained locking
 - a large community of professional users
 
-*Oracle* is a multi-user database. It aims to manage big data collections among multiple clients requesting and sending data.  It's an excellent database server choice for client-server computing. It supports all major operating systems for both, clients and servers.
+*Oracle* is a multi-user database. It aims to manage big data collections among multiple clients requesting and sending data.  It is an excellent database server choice for client-server computing. It supports all major operating systems for both clients and servers.
 
 Some Oracle features:
-- ACID (Atomicity, consistency, Isolation, Durability)
-- transaction
+- ACID (Atomicity, Consistency, Isolation, Durability)
+- transactions
 - referential integrity
 - unicode
-- multiversion concurrency
+- multi-version concurrency
 - fine-grained locking
 
 It is important you understand which server you use, as commands can differ slightly between them.
@@ -74,7 +74,7 @@ It is important you understand which server you use, as commands can differ slig
 ---
 ## Practice
 
-If we have a huge database with thousands of users sending and retreiving data. But we specifically need to be able to export data in Excel format. What type of RDBMS do you think will best fit their needs?
+Assume we have a huge database with thousands of users sending and retrieving data. If we need to be able to export data in Excel format, what type of RDBMS do you think will best fit our needs?
 ???
 
 * MS Access
@@ -84,7 +84,7 @@ If we have a huge database with thousands of users sending and retreiving data. 
 ---
 ## Revision
 
-Suppose you want to learn coding and you decided to build your first web application. You would like to use LAMP development stack. Which server would you choose for hosting your database?
+Suppose you want to learn coding and you decided to build your first web application using LAMP development stack. Which server would you choose for hosting your database?
 ???
 
 * MySQL
@@ -95,7 +95,7 @@ Suppose you want to learn coding and you decided to build your first web applica
 ## Footnotes
 
 [1:LAMP]
-It's a development stack formed of:
+It is a development stack formed of:
 - Linux
 - Apache
 - MySQL
