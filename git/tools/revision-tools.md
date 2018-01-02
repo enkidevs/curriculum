@@ -40,7 +40,7 @@ $ git log master...tests
 ```
 $ git log master...myBranch
 ```
-Would print commits that 
+Would print commits that
 
 ???
 
@@ -55,7 +55,7 @@ Would print commits that
 ```
 $ git log ^master myBranch
 ```
-Is equivalent to 
+Is equivalent to
 
 ???
 

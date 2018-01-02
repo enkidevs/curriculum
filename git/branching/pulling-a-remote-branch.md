@@ -28,9 +28,9 @@ The merge is automatic and you are unable to review the commits. For this reason
 ---
 ## Practice
 
-To `fetch` and `merge` master branch automatically you run : 
+To `fetch` and `merge` master branch automatically you run :
 ```
-$ ??? ??? ??? 
+$ ??? ??? ???
 ```
 *`git`
 *`pull`
