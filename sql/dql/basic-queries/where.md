@@ -74,11 +74,8 @@ Select all the rows from the `pokemon` table where the name is exactly equal to 
 * FROM
 * pokemon
 * IS
-<<<<<<< HEAD
 * CONTAINS
 * FIND
-=======
-* 'braixen'
 
 ---
 ## Quiz
