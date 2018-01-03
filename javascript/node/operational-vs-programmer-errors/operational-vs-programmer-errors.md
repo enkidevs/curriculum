@@ -75,7 +75,8 @@ A programmer error is
 
 ???
 
-* a bug
-* a feature
+* a problem where the program unexpectedly crashes
+* a problem where the program expectedly crashes
+* a problem with the server configuration
+* a problem on the client
 * an unhandled exception
-* an asynchronous error

@@ -1,4 +1,4 @@
-# Handling Operational Errors
+# Handling Programmer Errors
 author: mihaiberq
 
 levels:
