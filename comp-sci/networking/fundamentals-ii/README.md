@@ -15,4 +15,4 @@ insights:
   - application-layer
   - extended-terminologies
 
-game: networking-quiza
+game: networking-quiz
