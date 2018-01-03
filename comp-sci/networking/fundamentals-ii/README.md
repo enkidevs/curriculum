@@ -14,3 +14,5 @@ insights:
   - what-are-tcp-and-udp
   - application-layer
   - extended-terminologies
+
+game: networking-quiz
