@@ -1,14 +1,12 @@
-name: Best Practices
+name: Code Structure
 
 type: insights-list
 
-description: Best practices from a curated list.
+description: Best practices about code structure 
 
 section: 1
 
 insights:
-   - use-eslint
    - split-your-project-into-components
    - wrap-common-utilities-in-modules
    - use-vulnerability-checking-tools
-
