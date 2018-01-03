@@ -31,7 +31,7 @@ import fs from 'fs';
 function readAndParseFile(path,
   user_callback) {
     try {
-      fs.read(path, (err, text) => {
+      fs.readFile(path, (err, text) => {
         if(err) throw err;
       });
     } catch(err) {
