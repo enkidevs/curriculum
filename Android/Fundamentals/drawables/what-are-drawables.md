@@ -28,6 +28,7 @@ There are many drawables types which can be used in different situations such as
 * `NinePatch Drawables` is a .png file with stretchable regions to allow proper resizing 
 * `Vector Drawables` defines XML based vector images.
 
+
 Drawables can get directly accessed in XML via @drawable/filename where filename is the filename without the file extension. There are two ways to access a resource:
 *	In code in which you can set ImageView to use res/drawable/hellome.png using setImageResource() using the following snippet below:
 ```
