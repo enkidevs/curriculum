@@ -4,7 +4,7 @@ type: insights-list
 
 description: Troubleshooting paraphernalia, part II.
 
-section: 1
+section: 2
 
 parent: tools-i
 

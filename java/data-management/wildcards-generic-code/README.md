@@ -6,7 +6,7 @@ description: All about wildcards in generic code.
 
 section: 0
 
-parent: writing-generic-code
+parent: writing-generic-code 
 
 insights:
   - wildcards-vs-objects

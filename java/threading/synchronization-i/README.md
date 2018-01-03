@@ -14,3 +14,4 @@ insights:
   - synchronization-methods
   - semaphores
   - monitors
+ 

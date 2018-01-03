@@ -2,7 +2,7 @@ name: Annotations I
 
 type: insights-list
 
-description: When and how to use annotations.
+description: When and how to use annotations. 
 
 section: 0
 

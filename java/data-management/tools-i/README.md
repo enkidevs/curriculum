@@ -4,7 +4,7 @@ type: insights-list
 
 description: Troubleshooting paraphernalia.
 
-section: 1
+section: 2
 
 parent: file-system-iii
 
