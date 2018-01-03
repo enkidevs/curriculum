@@ -2,8 +2,8 @@
 author: SebaRaba
 
 levels:
-
   - beginner
+  - medium
 
 type: normal
 
