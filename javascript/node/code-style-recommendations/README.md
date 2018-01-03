@@ -2,10 +2,9 @@ name: Code Style Recommendations
 
 type: insights-list
 
-description: Community-adopted best practices around code style
+description: Tips and best practices for code styling.
 
 section: 1
 
 insights:
   - styling-brackets
-  - use-eslint
