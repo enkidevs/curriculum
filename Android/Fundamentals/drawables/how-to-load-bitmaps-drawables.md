@@ -25,8 +25,10 @@ The following is an example of code for the XML layout file, java activity file,
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android=
+    "http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.
+        com/apk/res-auto"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:layout_margin="22dp"
@@ -63,29 +65,35 @@ Java Activity File
 ```
 package com.example.tammy.mydrawabletest;
 
-import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.
+    AppCompatActivity;
 import android.os.Bundle;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.
+    AppCompatActivity;
 import android.widget.ImageView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends 
+    AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ImageView bitmapImage = (ImageView) findViewById(R.id.imageView);
+        ImageView bitmapImage = (ImageView) 
+            findViewById(R.id.imageView);
 
         //Load in bitmap
         //Convert a Drawable to Bitmap
-        Bitmap bitmapImageLocal = BitmapFactory.decodeResource(
+        Bitmap bitmapImageLocal = BitmapFactory.
+            decodeResource(
                 getApplicationContext().getResources(),
                 R.drawable.nature);
-        bitmapImage.setImageBitmap(bitmapImageLocal);
+        bitmapImage.setImageBitmap
+            (bitmapImageLocal);
     }
 }
 ```
@@ -95,8 +103,10 @@ Strings.xml File
 ```
 <resources>
 
-    <string name="draw_bitmap">Convert Drawable to Bitmap</string>
-    <string name="landscape">Landscape Picture</string>
+    <string name="draw_bitmap">
+        Convert Drawable to Bitmap</string>
+    <string name="landscape">
+        Landscape Picture</string>
 </resources>
 
 
