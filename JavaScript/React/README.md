@@ -1,1 +1,0 @@
-One of the most popular recent libraries for building user interfaces. Created by Facebook.

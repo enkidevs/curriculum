@@ -1,1 +1,0 @@
-Alter your already favorite functions and methods and make them perfect.

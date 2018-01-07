@@ -1,1 +1,0 @@
-The browser. The mother of javascript. You'll work better, together.

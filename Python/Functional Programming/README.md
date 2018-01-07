@@ -1,1 +1,0 @@
-Why is Python a functional language and how to take advantage of it.

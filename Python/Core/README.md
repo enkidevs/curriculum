@@ -1,1 +1,0 @@
-The fundamentals of Python. No skin shedding needed.
