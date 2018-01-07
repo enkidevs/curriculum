@@ -1,4 +1,4 @@
-# how-to-load-bitmaps-drawables
+# how-to-load-bitmaps-into-drawables
 author: tlawson
 
 levels:
@@ -18,12 +18,8 @@ links:
 ---
 ## Content
 
-
-Android allows you to use the Bitmap class for working with bitmaps. A bitmap is a representation of a bitmap image. Android supports bitmap files in three formats .png, .jpg, and .gif. Android allows you to convert a drawable image into a bitmap and display it in ImageView with java code. In order to convert a drawable image to a bitmap in android, android.graphics.Bitmap and android.graphics.BitmapFactory are used.
-
-The following is an example of code for the XML layout file, java activity file, and strings.xml file. 
-
-
+Android allows you to use the Bitmap class for working with bitmaps. The Drawable class is more general, hence you frequently want to convert your bitmaps into drawables. All bitmaps which are stored in the drawable folder can be directly used as a Drawable objects.
+You can also load Bitmaps manually and convert them into Drawables objects. To load a bitmap from your assets folder or another folder you must create the Bitmap yourself. The following example code shows this for the assets folder.
 
 ---
 ## Practice
