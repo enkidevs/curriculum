@@ -20,7 +20,7 @@ links:
 
 Android allows you to use the Bitmap class for working with bitmaps. A bitmap is a representation of a bitmap image. Android supports bitmap files in three formats .png, .jpg, and .gif. Android allows you to convert a drawable image into a bitmap and display it in ImageView with java code. In order to convert a drawable image to a bitmap in android, android.graphics.Bitmap and android.graphics.BitmapFactory are used.
 
-Following is the code for XML layout file, java activity file, and strings.xml file.
+Following is the code for XML layout file, java activity file, and strings.xml file.  1
 
 XML Layout File 
 
