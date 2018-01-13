@@ -17,9 +17,20 @@ links:
 ## Content
 
 Vector drawables are based on vector graphics which vector graphics describes graphical elements using geometric shapes which is similar to a SVG file. Vector drawables create an image as an XML file and can be scaled for all dpi and for different devices. 
+
 Below are steps to create a vector drawable:
 
+Step 1: Ensure the code is in Gradle Scripts
+Below is a snippet of the code. 
 
+```
+// Gradle Plugin 2.0+
+android {
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+    }
+}
+```
 
 ---
 ## Practice
