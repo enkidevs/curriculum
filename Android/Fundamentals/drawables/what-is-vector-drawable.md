@@ -36,7 +36,8 @@ Create a vector in the vector drawable folder as an xml file.
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+<vector xmlns:android=
+  "http://schemas.android.com/apk/res/android"
     android:height="64dp"
     android:width="64dp"
     android:viewportHeight="600"
@@ -49,7 +50,8 @@ Create a vector in the vector drawable folder as an xml file.
         <path
             android:name="v"
             android:fillColor="#000000"
-            android:pathData="M300,70 l 0,-70 70,70 0,0 -70,70z" />
+            android:pathData=
+              "M300,70 l 0,-70 70,70 0,0 -70,70z" />
     </group>
 </vector>
 
@@ -60,9 +62,11 @@ Include the following code in the java activity main file:
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android=
+  "http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:app=
+      "http://schemas.android.com/apk/res-auto"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <ImageView
