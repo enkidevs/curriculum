@@ -34,7 +34,8 @@ Drawables can get directly accessed in XML via @drawable/filename where filename
   Below is the following snippet:
 
 ```
-  ImageView imageView = (ImageView) findViewById(R.id.image);
+  ImageView imageView = (ImageView) 
+    findViewById(R.id.image);
   imageView.setImageResource(R.drawable.hello);
 ```
 *	In XML which you can define values for some XML attributes and elements using a reference to an existing resource. This will be done     by creating layout files that supplies strings and images for your widget. The following snippet shows if you add a button to your       layout, a string resource can be used for the button text. 
