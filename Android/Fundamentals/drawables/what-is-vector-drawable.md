@@ -36,8 +36,8 @@ Create a vector in the vector drawable folder as an xml file.
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
-<vector xmlns:android=
-  "http://schemas.android.com/apk/res/android"
+<vector xmlns:android="
+  http://schemas.android.com/apk/res/android"
     android:height="64dp"
     android:width="64dp"
     android:viewportHeight="600"
@@ -62,12 +62,12 @@ Include the following code in the java activity main file:
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android=
-  "http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="
+  http://schemas.android.com/apk/res/android"
     xmlns:tools=
       "http://schemas.android.com/tools"
-    xmlns:app=
-      "http://schemas.android.com/apk/res-auto"
+    xmlns:app="
+      http://schemas.android.com/apk/res-auto"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <ImageView
