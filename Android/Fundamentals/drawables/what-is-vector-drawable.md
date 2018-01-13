@@ -20,7 +20,8 @@ Vector drawables are based on vector graphics which vector graphics describes gr
 
 Below are steps to create a vector drawable:
 
-Step 1: Ensure the code is in Gradle Scripts
+Step 1: Ensure the code is in Gradle Scripts.
+
 Below is a snippet of the code. 
 
 ```
@@ -32,6 +33,31 @@ android {
 }
 ```
 
+Step 2: Create a vector. 
+
+Below is a snippet of how to create a vector in the drawable folder as an XML file.
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="
+  http://schemas.android.com/apk/res/android"
+    android:height="64dp"
+    android:width="64dp"
+    android:viewportHeight="600"
+    android:viewportWidth="600" >
+    <group
+        android:name="rotationGroup"
+        android:pivotX="300.0"
+        android:pivotY="300.0"
+        android:rotation="45.0" >
+        <path
+            android:name="v"
+            android:fillColor="#000000"
+            android:pathData="
+              M300,70 l 0,-70 70,70 0,0 -70,70z" />
+    </group>
+</vector>
+```
 ---
 ## Practice
 
