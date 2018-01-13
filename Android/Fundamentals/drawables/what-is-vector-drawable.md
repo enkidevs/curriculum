@@ -24,10 +24,10 @@ Step 1: Ensure the code is in Gradle Scripts
 Below is a snippet of the code. 
 
 ```
-// Gradle Plugin 2.0+
 android {
     defaultConfig {
-        vectorDrawables.useSupportLibrary = true
+        vectorDrawables.useSupportLibrary 
+          = true
     }
 }
 ```
