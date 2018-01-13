@@ -39,14 +39,7 @@ Below is a snippet of how to create a vector in the drawable folder as an XML fi
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
-<vector xmlns:android="
-  http://schemas.android.com/apk/res/android"
-    android:height="64dp"
-    android:width="64dp"
-    android:viewportHeight="600"
-    android:viewportWidth="600" >
-  
-</vector>
+
 ```
 ---
 ## Practice
