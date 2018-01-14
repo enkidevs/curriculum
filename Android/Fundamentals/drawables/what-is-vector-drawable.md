@@ -53,6 +53,8 @@ Below is a snippet of how to create a vector in the drawable folder as an XML fi
         <path
             android:name="v"
             android:fillColor="#000000"
+            android:pathData=
+            "M300,70 l 0,-70 70,70 0,0 -70,70z" />
     
     <group>
 </vector>
