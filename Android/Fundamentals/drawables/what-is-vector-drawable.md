@@ -52,7 +52,8 @@ Below is a snippet of how to create a vector in the drawable folder as an XML fi
         android:rotation="45.0" >
         <path
             android:name="v"
-            android:fillColor="#000000" />
+            android:fillColor="#000000" 
+            android:pathData="M300,70 l 0" />
     
     <group>
 </vector>
