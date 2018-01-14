@@ -43,19 +43,19 @@ Below is a snippet of how to create a vector in the drawable folder as an XML fi
 "http://schemas.android.com/apk/res/android"
     android:height="64dp"
     android:width="64dp"
-    android:viewportHeight="600"
-    android:viewportWidth="600" >
-    <group
-        android:name="rotationGroup"
-        android:pivotX="300.0"
-        android:pivotY="300.0"
-        android:rotation="45.0" >
+    android:viewportHeight="32"
+    android:viewportWidth="32" >
+
         <path
-            android:name="v"
-            android:fillColor="#000000" 
-            android:pathData="M300,70 l 0" />
-    
-    <group>
+            android:fillColor="#c9c10606"
+            android:pathData="M20.5,9.5
+                        c-1.955,0,-3.83,1.268,-4.5,3
+                        c-0.67,-1.732,-2.547,-3,-4.5,-3
+                        C8.957,9.5,7,11.432,7,14
+                        c0,3.53,3.793,6.257,9,11.5
+                        c5.207,-5.242,9,-7.97,9,-11.5
+                        C25,11.432,23.043,9.5,20.5,9.5z" />
+
 </vector>
 ```
 ---
