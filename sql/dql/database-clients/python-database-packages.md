@@ -13,17 +13,17 @@ category: feature
 
 inAlgoPool: false
 
-<<<<<<< HEAD:SQL/DQL/database-clients/python-database-packages.md
+
 standards:
   sql.connect-client: 10
-=======
+
 tags:
   - introduction
   - workout
   - python
   - implementation
   - database packages
->>>>>>> master:sql/dql/database-clients/python-database-packages.md
+
 
 links:
 

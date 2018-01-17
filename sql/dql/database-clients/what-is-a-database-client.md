@@ -15,13 +15,13 @@ inAlgoPool: false
 
 parent: connection-strings
 
-<<<<<<< HEAD:SQL/DQL/database-clients/what-is-a-database-client.md
+
 standards:
   sql.connect-client: 5
-=======
+
 tags:
   - introduction
->>>>>>> master:sql/dql/database-clients/what-is-a-database-client.md
+
 
 links:
 
