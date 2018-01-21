@@ -1,19 +1,16 @@
 # create-vector-drawables
 author: tlawson
 
-	levels:
+levels:
 
-	  - beginner
+  - beginner
 
-	type: normal
+  - basic
 
-	category: how to
+type: normal
 
-	links:
+category: how to
 
-	  - '[link to learn more](https://enki.com)'
-
-	---
 links:
 
   - '[What are drawable resource?](https://developer.android.com/guide/topics/resources/drawable-resource.html)'
