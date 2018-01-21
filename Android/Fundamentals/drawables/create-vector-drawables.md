@@ -48,10 +48,6 @@ com/apk/res/android"
     android:viewportHeight="32"
     android:viewportWidth="32" >
 
-        <path
-            android:fillColor="#c9c10606"
-            android:pathData="M20.5,9.5" />
-
 </vector>
 
 ```
