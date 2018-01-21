@@ -42,7 +42,7 @@ Create an XML file and place the file in the drawable folder. Below is the snipp
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.
-  com/apk/res/android"
+com/apk/res/android"
     android:height="64dp"
     android:width="64dp"
     android:viewportHeight="32"
