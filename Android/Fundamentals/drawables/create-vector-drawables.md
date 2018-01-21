@@ -27,12 +27,12 @@ Steps
 Example listed below:
 
 ```
-	// Gradle Plugin 2.0+
-	android {
-	    defaultConfig {
-	        vectorDrawables.useSupportLibrary = true
-	    }
-	}
+// Gradle Plugin 2.0+
+android {
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+    }
+}
 ```
 
 ## Practice
