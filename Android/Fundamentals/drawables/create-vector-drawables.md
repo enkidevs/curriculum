@@ -41,8 +41,7 @@ Create an XML file and place the file in the drawable folder. Below is the snipp
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
-<vector xmlns:android=
-"http://schemas.android.com/apk/res/android"
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:height="64dp"
     android:width="64dp"
     android:viewportHeight="32"
@@ -50,13 +49,11 @@ Create an XML file and place the file in the drawable folder. Below is the snipp
 
         <path
             android:fillColor="#c9c10606"
-            android:pathData="M20.5,9.5
-            c-1.955,0,-3.83,1.268,-4.5,3
-            c-0.67,-1.732,-2.547,-3,-4.5,-3
-            C8.957,9.5,7,11.432,7,14
-            c0,3.53,3.793,6.257,9,11.5
-            c5.207,-5.242,9,-7.97,9,-11.5
-            C25,11.432,23.043,9.5,20.5,9.5z" />
+            android:pathData="M20.5,9.5c-1.955,0,-3.83,1.268,-4.5,
+                        3c-0.67,-1.732,-2.547,-3,-4.5,-3C8.957,9.5,
+                        7,11.432,7,1c0,3.53,3.793,6.257,9,11.5c5.207,
+                        -5.242,9,-7.97,9,-11.5C25,11.432,23.043,
+                        9.5,20.5,9.5z" />
 
 </vector>
 
