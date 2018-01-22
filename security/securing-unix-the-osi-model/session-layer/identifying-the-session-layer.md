@@ -64,8 +64,5 @@ answers:
 
 - Opening, closing, and managing connections between applications
 - Maintaining and ensuring a stable connection between two hosts over the Internet
-- Providing a user interface
 - Routing and transmission over the physical topography of the Internet
-- Providing computational power via electronic circuits
-- Packaging data packets into data streams and vice versa for transport
-- Transmitting data between network nodes
+- Packaging data packets into data streams and vice versa

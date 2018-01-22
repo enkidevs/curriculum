@@ -59,7 +59,7 @@ The Presentation Layer converts data from the ??? format to a format usable by t
 headline: What role does this Layer play in the OSI 7 Layer Model?
 
 question: |
-  What role does the Presentation Layer play in the OSI 7 Layer Model? 
+  What role does the Presentation Layer play in the OSI 7 Layer Model?
 
 answers:
 
@@ -67,6 +67,3 @@ answers:
 - Opening, closing, and managing connections between applications
 - Maintaining and ensuring a stable connection between two hosts over the Internet
 - Transmitting data between network nodes
-- Routing and transmission over the physical topography of the Internet
-- Providing computational power via electronic circuits
-- Packaging data packets into data streams and vice versa for transport

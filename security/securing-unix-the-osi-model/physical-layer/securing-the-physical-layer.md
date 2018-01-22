@@ -32,6 +32,7 @@ Not all Physical Layer vulnerabilities are caused by intruders-- oblivious staff
 ## Practice
 
 What is one control in the Physical Layer?
+???
 
 * Locks and secure enclosures
 * Use a physical firewall

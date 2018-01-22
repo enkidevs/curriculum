@@ -57,7 +57,7 @@ question: |
 
 answers:
 
-* Maintaining and ensuring a stable connection between two hosts over the Internet
-* Transmitting data between network nodes
-* Routing and transmission over the physical topography of the Internet
-* Packaging data packets into data streams and vice versa for transport
+- Maintaining and ensuring a stable connection between two hosts over the Internet
+- Transmitting data between network nodes
+- Routing and transmission over the physical topography of the Internet
+- Packaging data packets into data streams and vice versa for transport

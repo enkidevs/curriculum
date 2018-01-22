@@ -63,4 +63,3 @@ answers:
 - Routing and transmission over the physical topography of the Internet
 - Providing computational power via electronic circuits
 - Packaging data packets into data streams and vice versa for transport
-- Providing a user interface

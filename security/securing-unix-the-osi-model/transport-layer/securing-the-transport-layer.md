@@ -65,4 +65,3 @@ answers:
 - Use of a physical firewall
 - Using managed switches prevent topographical loops
 - Locks and secure enclosures
-- Encrypted password exchange and storage

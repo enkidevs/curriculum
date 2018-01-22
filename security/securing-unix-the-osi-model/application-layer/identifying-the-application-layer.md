@@ -64,7 +64,4 @@ answers:
 - Provide a user interface with high level functions for interacting with the network
 - Opening, closing, and managing connections between applications
 - Maintaining and ensuring a stable connection between two hosts over the Internet
-- Transmitting data between network nodes
-- Routing and transmission over the physical topography of the Internet
-- Providing computational power via electronic circuits
 - Packaging data packets into data streams and vice versa for transport

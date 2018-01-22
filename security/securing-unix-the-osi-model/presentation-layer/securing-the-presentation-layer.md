@@ -64,5 +64,3 @@ answers:
 - Using a strong, unique password
 - Strict use of ports as they are designed
 - Use of a physical firewall
-- Using managed switches prevent topographical loops
-- Locks and secure enclosures
