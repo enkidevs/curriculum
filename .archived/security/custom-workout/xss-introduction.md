@@ -27,7 +27,10 @@ Take for example the mockup form I've create below...
 ```javascript
 Add a Comment Below:
 ===
-Hi, great site. Too bad I hacked it!<script>window.location="http://www.mysite.com/"</script>
+Hi, great site. Too bad I hacked it!
+<script>
+window.location="http://www.mysite.com/"
+</script>
 
 ===
 [SEND]

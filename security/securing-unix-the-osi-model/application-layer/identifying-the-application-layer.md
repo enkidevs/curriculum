@@ -56,7 +56,7 @@ In the Application Layer is ???.
 ## Quiz
 headline: What role does this Layer play in the OSI 7 Layer Model?
 
-question:| Application Layer
+question:| What role does the Application Layer play in the OSI 7 Layer Model?
 
 answers:
 
