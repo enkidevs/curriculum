@@ -19,17 +19,17 @@ links:
 ---
 ## Content
 
-Cross-Site Scripting (abbreviated as XSS) is a malicious attack on a web form. 
+Cross-Site Scripting (abbreviated as XSS) is a malicious attack on a web form.
 
 A malicious user embeds HTML/JavaScript in a form (such as a search bar or comment form), and that code is executed when the plaintext is rendered.
 
 Take for example the mockup form I've create below...
 ```javascript
 Add a Comment Below:
----
+===
 Hi, great site. Too bad I hacked it!<script>window.location="http://www.mysite.com/"</script>
 
----
+===
 [SEND]
 ```
 Upon sending this comment, any users that then visit this page will be redirected to my website.
