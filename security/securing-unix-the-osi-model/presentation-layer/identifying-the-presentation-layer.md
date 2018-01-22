@@ -58,7 +58,8 @@ The Presentation Layer converts data from the ??? format to a format usable by t
 
 headline: What role does this Layer play in the OSI 7 Layer Model?
 
-question:| Presentation Layer
+question: |
+  What role does the Presentation Layer play in the OSI 7 Layer Model? 
 
 answers:
 

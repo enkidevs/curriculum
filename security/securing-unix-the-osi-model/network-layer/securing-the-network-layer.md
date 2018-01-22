@@ -52,7 +52,8 @@ The Network Layer is most vulnerable to malicious ??? from the Internet.
 
 headline: What is one control for this OSI model Layer?
 
-question:| What is one control in the Network Layer of the OSI Model?
+question: |
+  What is one control in the Network Layer of the OSI Model?
 
 answers:
 

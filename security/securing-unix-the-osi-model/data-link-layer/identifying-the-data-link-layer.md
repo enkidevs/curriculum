@@ -55,8 +55,8 @@ Nodes on the Data Link Layer are identified by their ???
 
 headline: What role does this Layer play in the OSI 7 Layer Model?
 
-question:| Data Link Layer
-
+question: |
+  What role does the Data Link Layer play in the OSI 7 Layer Model?
 answers:
 
 - Transmitting data between network nodes

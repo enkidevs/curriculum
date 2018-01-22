@@ -56,7 +56,8 @@ In order to have the most control over how traffic flows to a hosted web server,
 
 headline: What is one control for this OSI model Layer?
 
-question:| What is one control in the Transport Layer of the OSI Model?
+question: |
+  What is one control in the Transport Layer of the OSI Model?
 
 answers:
 

@@ -54,7 +54,8 @@ One part of the Network Layer is ???, responsible for identifying stations both 
 
 headline: What role does this Layer play in the OSI 7 Layer Model?
 
-question:| Network Layer
+question: |
+  What role does the Network Layer play in the OSI 7 Layer Model? 
 
 answers:
 

@@ -73,7 +73,8 @@ The OSI 7 Layer Model is ordered, from bottom to top, in the following order:
 
 headline: What is the OSI 7 Layer Model?
 
-question:| What is the OSI 7 Layer Model?
+question: |
+  What is the OSI 7 Layer Model?
 
 answers:
 

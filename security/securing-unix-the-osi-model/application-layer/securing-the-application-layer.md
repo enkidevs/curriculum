@@ -54,7 +54,8 @@ The Application Layer is ???.
 
 headline: What is one control for this OSI model Layer?
 
-question:| What is one control in the Application Layer of the OSI Model?
+question: |
+  What is one control in the Application Layer of the OSI Model?
 
 answers:
 

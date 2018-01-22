@@ -59,7 +59,8 @@ What is one control in the Data Link Layer of the OSI Model?
 
 headline: What is one control for this OSI model Layer?
 
-question:| What is one control in the Data Link Layer of the OSI Model?
+question: |
+  What is one control in the Data Link Layer of the OSI Model?
 
 answers:
 

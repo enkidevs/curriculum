@@ -53,7 +53,8 @@ Electronic locks, PIN keypads, and RFID security badges are all example of ???
 
 headline: What is one control for this OSI model Layer?
 
-question:| What is one control in the Physical Layer of the OSI Model?
+question: |
+  What is one control in the Physical Layer of the OSI Model?
 
 answers:
 

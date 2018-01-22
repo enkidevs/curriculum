@@ -54,7 +54,8 @@ The Physical Layer converts logical packets from the Data Link Layer into ??? to
 
 headline: What role does this Layer play in the OSI 7 Layer Model?
 
-question:| Physical Layer
+question: |
+  What role does the  Physical Layer play in the OSI 7 Layer Model? 
 
 answers:
 
