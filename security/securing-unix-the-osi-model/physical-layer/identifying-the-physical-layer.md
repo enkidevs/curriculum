@@ -32,6 +32,7 @@ The Physical Layer encompasses all electronic circuit transmission technologies 
 ## Practice
 
 What role does the Physical Layer play in the OSI 7 Layer Model?
+???
 
 * Providing transmission between end devices via voltage or wavelengths.
 * Transmitting data between network nodes
@@ -55,7 +56,7 @@ The Physical Layer converts logical packets from the Data Link Layer into ??? to
 headline: What role does this Layer play in the OSI 7 Layer Model?
 
 question: |
-  What role does the  Physical Layer play in the OSI 7 Layer Model? 
+  What role does the  Physical Layer play in the OSI 7 Layer Model?
 
 answers:
 
@@ -63,4 +64,3 @@ answers:
 - Transmitting data between network nodes
 - Routing and transmission over the physical topography of the Internet
 - Packaging data packets into data streams and vice versa for transport
-- Providing a user interface
