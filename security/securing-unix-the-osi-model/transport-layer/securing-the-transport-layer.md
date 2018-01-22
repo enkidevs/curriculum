@@ -21,7 +21,7 @@ links:
 
   - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
 
-  - [Common Ports Cheatsheet](http://packetlife.net/media/library/23/common_ports.pdf)
+  - '[Common Ports Cheatsheet](http://packetlife.net/media/library/23/common_ports.pdf)'
 
 ---
 ## Content
