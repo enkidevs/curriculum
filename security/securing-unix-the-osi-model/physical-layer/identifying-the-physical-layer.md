@@ -29,7 +29,7 @@ The Physical Layer (Layer 1) is responsible for physical communication between e
 The Physical Layer encompasses all electronic circuit transmission technologies on a given network. These include but are not limited to: switches, ethernet, the USB physical layer, the Bluetooth physical layer, and various wireless cards. A wider definition of the Physical Layer may include physical mediums and power supplies.
 
 ---
-## Practice Question
+## Practice
 
 What role does the Physical Layer play in the OSI 7 Layer Model?
 
@@ -40,7 +40,7 @@ What role does the Physical Layer play in the OSI 7 Layer Model?
 * Providing a user interface
 
 ---
-## Revision Question
+## Revision
 
 The Physical Layer converts logical packets from the Data Link Layer into ??? to be used by the device's hardware.
 

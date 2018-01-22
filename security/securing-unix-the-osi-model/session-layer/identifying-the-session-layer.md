@@ -30,7 +30,7 @@ Session Checkpointing allows information from different streams, perhaps origina
 
 
 ---
-## Practice Question
+## Practice
 
 What roles does The Session Layer play in the OSI 7 Layer Model?
 
@@ -43,7 +43,7 @@ What roles does The Session Layer play in the OSI 7 Layer Model?
 * Providing a user interface
 
 ---
-## Revision Question
+## Revision
 
 The Session Layer is responsible for ???, as well as authentication, authorization, and session checkpointing.
 

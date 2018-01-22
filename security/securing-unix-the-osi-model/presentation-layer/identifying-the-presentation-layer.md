@@ -30,7 +30,7 @@ The Presentation Layer is also be responsible for encryption/decryption of data 
 **Note:** This process may also take place in the Application, Session, Transport, and/or Network layers, depending on the use case.
 
 ---
-## Practice Question
+## Practice
 
 What role does the Presentation Layer play in the OSI 7 Layer Model?
 ???
@@ -44,7 +44,7 @@ What role does the Presentation Layer play in the OSI 7 Layer Model?
 * Providing computational power via electronic circuits
 
 ---
-## Revision Question
+## Revision
 
 The Presentation Layer converts data from the ??? format to a format usable by the recipient.
 

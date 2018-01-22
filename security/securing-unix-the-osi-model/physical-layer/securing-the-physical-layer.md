@@ -29,7 +29,7 @@ A person gaining unauthorized access to a facility presents a myriad of vulnerab
 Not all Physical Layer vulnerabilities are caused by intruders-- oblivious staff can present just as much a risk to a network. For example, a cleaning crew could accidentally pull a plug causing a critical Loss of Power or damage to hardware. Problems like this can be mitigated by informing staff what they should avoid tampering with, or having multiple levels of clearance in the access control system, restricting sensitive locations to technical staff members.
 
 ---
-## Practice Question
+## Practice
 
 What is one control in the Physical Layer?
 
@@ -39,7 +39,7 @@ What is one control in the Physical Layer?
 * Using switches to branch off wired connections
 
 ---
-## Revision Question
+## Revision
 
 Electronic locks, PIN keypads, and RFID security badges are all example of ???
 

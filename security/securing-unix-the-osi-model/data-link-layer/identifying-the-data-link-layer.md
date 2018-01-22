@@ -29,7 +29,7 @@ The Data Link Layer (Layer 2) is responsible for data transfer between two physi
 One note-worthy protocol in the Data Link Layer is the Address Resolution Protocol(ARP), responsible for mapping IP Addresses to MAC addresses on the link layer, and ensures that data transfered over the network reaches the correct destination.
 
 ---
-## Practice Question
+## Practice
 
 What role does the Data Link Layer play in the OSI 7 Layer Model?
 ???
@@ -41,7 +41,7 @@ What role does the Data Link Layer play in the OSI 7 Layer Model?
 * Providing a user interface
 
 ---
-## Revision Question
+## Revision
 
 Nodes on the Data Link Layer are identified by their ???
 

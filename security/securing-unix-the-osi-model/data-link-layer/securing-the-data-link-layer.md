@@ -33,7 +33,7 @@ Once a hacker is inside the network MAC addresses are easy to find, and this vul
 Another critical vulnerability to the Data Link Layer is the __packet storm__. A packet storm occurs in an unmanaged Ethernet switch when a data link connection is formed in the network topography that creates a loop. The unmanaged switch will start sending out packets in the loop indefinitely, creating white noise until it crashes. The switch will reboot and this process will repeat indefinitely. This will bring down every wired connection passing through the switch. This crash can only be resolved by physically terminating the loop, which becomes increasingly time consuming as a network increases in scale. To control this vulnerability, use __managed__ Ethernet switches. These employ the Spanning Tree Protocol(STP) to test incoming data links for network topography loops _before_ adding them to the network.
 
 ---
-## Practice Question
+## Practice
 
 What is one control in the Data Link Layer of the OSI Model?
 ???
@@ -44,7 +44,7 @@ What is one control in the Data Link Layer of the OSI Model?
 * Encrypted password exchange and storage
 
 ---
-## Revision Question
+## Revision
 
 ??? involves changing a device's MAC address to impersonate another node on a network.
 

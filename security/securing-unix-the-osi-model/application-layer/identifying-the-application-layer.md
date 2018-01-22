@@ -29,7 +29,7 @@ The Application Layer (Layer 7), highest on the stack and __most broad__ in defi
 Due to its high level of variance and loose security standards, this Layer is the most vulnerable to exploits.
 
 ---
-## Practice Question
+## Practice
 
 What role does the Data Link Layer play in the OSI 7 Layer Model?
 ???
@@ -43,7 +43,7 @@ What role does the Data Link Layer play in the OSI 7 Layer Model?
 * Packaging data packets into data streams and vice versa for transport
 
 ---
-## Revision Question
+## Revision
 
 In the Application Layer is ???.
 
