@@ -30,7 +30,7 @@ Session Checkpointing allows information from different streams, perhaps origina
 
 
 ---
-## Preview Question
+## Practice Question
 
 What roles does The Session Layer play in the OSI 7 Layer Model?
 
