@@ -56,8 +56,12 @@ Embed malicious code in my comment form:
 
 ```javascript
 Add a Comment Below:
-Hi, great site. Too bad I hacked it!<???>???.location="http://www.mysite.com/"</script>
-
+===
+Hi, great site. Too bad I hacked it!
+<???>
+???.location="http://www.mysite.com/"
+</script>
+===
 [SEND]
 ```
 *`script`
