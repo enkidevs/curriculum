@@ -22,7 +22,7 @@ links:
   - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
 
 ---
-# Content
+## Content
 
 The Session Layer (Layer 5) is responsible for opening, closing, and managing a session between end-user applications. Sessions consist of requests and responses that are exchanged between applications. It is also covers the services responsible for authentication, authorization, and __session checkpointing__.
 

@@ -22,7 +22,7 @@ links:
   - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
 
 ---
-# Content
+## Content
 
 The Data Link Layer (Layer 2) is responsible for data transfer between two physical devices (or **nodes**) in a wide area network (WAN) or local area network (LAN). The Data Link Layer takes the form of both physical ethernet connections and wireless networking and the protocols that facilitate the transfer between them. Devices on this layer are identified by their media access control (MAC) address.
 

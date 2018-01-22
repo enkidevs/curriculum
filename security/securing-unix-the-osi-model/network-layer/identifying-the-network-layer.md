@@ -23,7 +23,7 @@ links:
 
 
 ---
-# Content
+## Content
 
 The Network Layer (Layer 3) is the physical infrastructure that allows the transmission of data over the Internet. These include physical routers, routing tables which use IP addresses for both local and external communication, and next-hops that facilitate the large scale transmission of packets.
 
