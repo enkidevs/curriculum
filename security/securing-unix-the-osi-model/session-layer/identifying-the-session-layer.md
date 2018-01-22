@@ -43,7 +43,7 @@ What roles does The Session Layer play in the OSI 7 Layer Model?
 * Providing a user interface
 
 ---
-## Review Question
+## Revision Question
 
 The Session Layer is responsible for ???, as well as authentication, authorization, and session checkpointing.
 
