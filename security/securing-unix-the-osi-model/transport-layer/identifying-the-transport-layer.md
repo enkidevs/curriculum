@@ -52,7 +52,7 @@ What roles does The Transport Layer play in the OSI 7 Layer Model?
 
 headline: What role does this Layer play in the OSI 7 Layer Model?
 
-question: | 
+question: |
   What role does the Transport Layer play in the OSI 7 Layer Model?
 
 answers:
