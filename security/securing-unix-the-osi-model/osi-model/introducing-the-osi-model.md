@@ -19,7 +19,7 @@ standards:
 
 links:
 
-  - [SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)
+  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
 
 ---
 ## Content
@@ -36,7 +36,7 @@ The following lessons will go into detail about the responsibilities of each lay
 
 
 ---
-## Practice Question
+## Practice
 
 What is the OSI 7 Layer Model?
 ???
@@ -47,7 +47,7 @@ What is the OSI 7 Layer Model?
 * a hard standard for various hardware component configurations
 
 ---
-## Revision Question
+## Revision
 
 The OSI 7 Layer Model is ordered, from bottom to top, in the following order:
 
@@ -62,7 +62,7 @@ The OSI 7 Layer Model is ordered, from bottom to top, in the following order:
 * Physical Layer
 * Data Link Layer
 * Network Layer
-* Transmission Layer
+* Transport Layer
 * Session Layer
 * Presentation Layer
 * Application Layer
@@ -73,7 +73,8 @@ The OSI 7 Layer Model is ordered, from bottom to top, in the following order:
 
 headline: What is the OSI 7 Layer Model?
 
-question:| What is the OSI 7 Layer Model?
+question: |
+  What is the OSI 7 Layer Model?
 
 answers:
 

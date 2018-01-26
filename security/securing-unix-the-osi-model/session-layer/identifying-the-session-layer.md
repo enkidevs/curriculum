@@ -19,10 +19,10 @@ standards:
 
 links:
 
-  - [SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)
+  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
 
 ---
-# Content
+## Content
 
 The Session Layer (Layer 5) is responsible for opening, closing, and managing a session between end-user applications. Sessions consist of requests and responses that are exchanged between applications. It is also covers the services responsible for authentication, authorization, and __session checkpointing__.
 
@@ -30,9 +30,10 @@ Session Checkpointing allows information from different streams, perhaps origina
 
 
 ---
-## Preview Question
+## Practice
 
 What roles does The Session Layer play in the OSI 7 Layer Model?
+???
 
 * Opening, closing, and managing connections between applications
 * Maintaining and ensuring a stable connection between two hosts over the Internet
@@ -43,7 +44,7 @@ What roles does The Session Layer play in the OSI 7 Layer Model?
 * Providing a user interface
 
 ---
-## Review Question
+## Revision
 
 The Session Layer is responsible for ???, as well as authentication, authorization, and session checkpointing.
 
@@ -57,14 +58,12 @@ The Session Layer is responsible for ???, as well as authentication, authorizati
 
 headline: What role does this Layer play in the OSI 7 Layer Model?
 
-question:| Session Layer
+question: |
+  What role does the Session Layer play in the OSI 7 Layer Model?
 
 answers:
 
 - Opening, closing, and managing connections between applications
 - Maintaining and ensuring a stable connection between two hosts over the Internet
-- Providing a user interface
 - Routing and transmission over the physical topography of the Internet
-- Providing computational power via electronic circuits
-- Packaging data packets into data streams and vice versa for transport
-- Transmitting data between network nodes
+- Packaging data packets into data streams and vice versa

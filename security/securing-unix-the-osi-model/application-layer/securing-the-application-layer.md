@@ -19,7 +19,7 @@ standards:
 
 links:
 
-  - [SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)
+  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
 
 ---
 ## Content
@@ -31,7 +31,7 @@ One could control these vulnerabilities by utilizing a test suite to ensure that
 Finally, **YOU are responsible for your security**. Do not run unfamiliar programs without checking that they are from a reputable source and free of viruses and unresolved errors. [VirusTotal](https://www.virustotal.com/#/home/upload) is a great cloud-based virus scanner, and [ExploitDB](https://www.exploit-db.com/) is a great source of transparent, comprehensive bug reports.
 
 ---
-## Practice Question
+## Practice
 
 What is one control in the Application Layer of the OSI Model?
 ???
@@ -42,7 +42,7 @@ What is one control in the Application Layer of the OSI Model?
 * Using managed switches prevent topographical loops
 
 ---
-## Revision Question
+## Revision
 
 The Application Layer is ???.
 
@@ -54,7 +54,8 @@ The Application Layer is ???.
 
 headline: What is one control for this OSI model Layer?
 
-question:| What is one control in the Application Layer of the OSI Model?
+question: |
+  What is one control in the Application Layer of the OSI Model?
 
 answers:
 
