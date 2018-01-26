@@ -13,6 +13,8 @@ type: normal
 
 category: must-know
 
+parent: identifying-the-datal-link-layer
+
 standards:
 
   security.apply-osi-layer-security: 20

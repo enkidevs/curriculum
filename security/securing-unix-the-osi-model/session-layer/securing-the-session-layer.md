@@ -13,6 +13,8 @@ type: normal
 
 category: must-know
 
+parent: identifying-the-session-layer
+
 standards:
 
   security.apply-osi-layer-security: 20

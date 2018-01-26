@@ -13,6 +13,8 @@ type: normal
 
 category: must-know
 
+parent: identifying-the-physical-layer
+
 standards:
 
   security.apply-osi-layer-security: 20
