@@ -63,7 +63,7 @@ question: |
 
 answers:
 
-- Data conversion and encryption/decryption
-- Opening, closing, and managing connections between applications
-- Maintaining and ensuring a stable connection between two hosts over the Internet
-- Transmitting data between network nodes
+  - Data conversion and encryption/decryption
+  - Opening, closing, and managing connections between applications
+  - Maintaining and ensuring a stable connection between two hosts over the Internet
+  - Transmitting data between network nodes

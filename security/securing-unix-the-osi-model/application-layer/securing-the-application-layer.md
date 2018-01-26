@@ -59,7 +59,7 @@ question: |
 
 answers:
 
-- Utilizing a testing suite in software development
-- Strict use of ports as they are designed
-- Use of a physical firewall
-- Using managed switches prevent topographical loops
+  - Utilizing a testing suite in software development
+  - Strict use of ports as they are designed
+  - Use of a physical firewall
+  - Using managed switches prevent topographical loops

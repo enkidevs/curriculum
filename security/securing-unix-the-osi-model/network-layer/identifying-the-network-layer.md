@@ -59,7 +59,7 @@ question: |
 
 answers:
 
-- Routing and transmission over the physical topography of the Internet
-- Providing computational power via electronic circuits
-- Transmitting data between two directly connected mediums
-- Packaging data packets into data streams and vice versa for transport
+  - Routing and transmission over the physical topography of the Internet
+  - Providing computational power via electronic circuits
+  - Transmitting data between two directly connected mediums
+  - Packaging data packets into data streams and vice versa for transport

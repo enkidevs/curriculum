@@ -61,7 +61,7 @@ question: |
 
 answers:
 
-- Provide a user interface with high level functions for interacting with the network
-- Opening, closing, and managing connections between applications
-- Maintaining and ensuring a stable connection between two hosts over the Internet
-- Packaging data packets into data streams and vice versa for transport
+  - Provide a user interface with high level functions for interacting with the network
+  - Opening, closing, and managing connections between applications
+  - Maintaining and ensuring a stable connection between two hosts over the Internet
+  - Packaging data packets into data streams and vice versa for transport

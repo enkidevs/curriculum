@@ -70,7 +70,6 @@ The OSI 7 Layer Model is ordered, from bottom to top, in the following order:
 ---
 ## Quiz
 
-
 headline: What is the OSI 7 Layer Model?
 
 question: |
@@ -78,7 +77,7 @@ question: |
 
 answers:
 
-- a flexible standard for various network configurations
-- a hard standard for various network configurations
-- a flexible standard for various hardware component configurations
-- a hard standard for various hardware component configurations
+  - a flexible standard for various network configurations
+  - a hard standard for various network configurations
+  - a flexible standard for various hardware component configurations
+  - a hard standard for various hardware component configurations

@@ -64,7 +64,7 @@ question: |
 
 answers:
 
-- Using managed switches prevent topographical loops
-- Locks and secure enclosures
-- Use of a physical firewall
-- Encrypted password exchange and storage
+  - Using managed switches prevent topographical loops
+  - Locks and secure enclosures
+  - Use of a physical firewall
+  - Encrypted password exchange and storage

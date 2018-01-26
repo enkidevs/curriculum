@@ -59,7 +59,7 @@ question: |
 
 answers:
 
-- Locks and secure enclosures
-- Use of a physical firewall
-- Encrypted password exchange and storage
-- Using switches to branch off wired connections
+  - Locks and secure enclosures
+  - Use of a physical firewall
+  - Encrypted password exchange and storage
+  - Using switches to branch off wired connections

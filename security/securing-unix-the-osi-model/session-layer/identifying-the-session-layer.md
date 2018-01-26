@@ -63,7 +63,7 @@ question: |
 
 answers:
 
-- Opening, closing, and managing connections between applications
-- Maintaining and ensuring a stable connection between two hosts over the Internet
-- Routing and transmission over the physical topography of the Internet
-- Packaging data packets into data streams and vice versa
+  - Opening, closing, and managing connections between applications
+  - Maintaining and ensuring a stable connection between two hosts over the Internet
+  - Routing and transmission over the physical topography of the Internet
+  - Packaging data packets into data streams and vice versa

@@ -60,7 +60,7 @@ question: |
 
 answers:
 
-- Providing transmission between end devices via voltage or wavelengths.
-- Transmitting data between network nodes
-- Routing and transmission over the physical topography of the Internet
-- Packaging data packets into data streams and vice versa for transport
+  - Providing transmission between end devices via voltage or wavelengths.
+  - Transmitting data between network nodes
+  - Routing and transmission over the physical topography of the Internet
+  - Packaging data packets into data streams and vice versa for transport

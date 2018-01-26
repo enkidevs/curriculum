@@ -60,7 +60,7 @@ question: |
 
 answers:
 
-- Input validation of network responses
-- Using a strong, unique password
-- Strict use of ports as they are designed
-- Use of a physical firewall
+  - Input validation of network responses
+  - Using a strong, unique password
+  - Strict use of ports as they are designed
+  - Use of a physical firewall
