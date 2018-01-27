@@ -23,24 +23,7 @@ Android offers to developers a great Animation API that lets them to create easi
 When your Android application project is created, you need to put the bitmaps in a res/drawable directory. Then, you can create the Animation in XML like the following below:
 
 ```
-<?xml version="1.0" encoding="utf-8"?>
-<animation-list xmlns:android=
-"http://schemas.android.com/apk/res/
-android" android:id="@+id/imgDrawable"
-android:oneshot="false">
-<item android:drawable="@drawable/lion1" 
-android:duration="200" />
-<item android:drawable="@drawable/lion2" 
-android:duration="200" />
-<item android:drawable="@drawable/lion3" 
-android:duration="200" />
-<item android:drawable="@drawable/lion4" 
-android:duration="200" />
-<item android:drawable="@drawable/lion5" 
-android:duration="200" />
-<item android:drawable="@drawable/lion6" 
-android:duration="200" />
-</animation-list>
+
 ```
 
 Inside the animation-list tag, we define each frame based on item. Each item has a reference to a drawable that represents a frame, and also a duration in milliseconds. We choose to declare each frame for the lion fr om 1 to 6 with a 200 milliseconds as duration.
@@ -49,18 +32,6 @@ Inside the animation-list tag, we define each frame based on item. Each item has
 Layout of the Android applications is very simple using the RelativeLayout with an ImageView inside. Define the animation as a background for the ImageView like the following below:
 
 ```
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android=
-"http://schemas.android.com/apk/res/android"
-xmlns:app=
-"http://schemas.android.com/apk/res-auto"
-xmlns:tools=
-"http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-tools:context=
-"com.example.tammy.android_animated_
-drawable_test3.MainActivity">
 
 
 </RelativeLayout>
@@ -70,19 +41,6 @@ drawable_test3.MainActivity">
 To use the animation in this activity, you need to set the layout and to get an instance to the ImageView. Post a Runnable on the instance in which to get the background of the image and call the start method of the AnimationDrawable associated: 
 
 ```
-package com.example.tammy.android_animated_drawable_test3;
-
-import android.app.Fragment;
-import android.graphics.drawable.
-AnimationDrawable;
-import android.support.v7.app.
-AppCompatActivity;
-import android.os.Bundle;
-import android.widget.ImageView;
-
-public class MainActivity 
-extends AppCompatActivity {
-
    
 ```
 
