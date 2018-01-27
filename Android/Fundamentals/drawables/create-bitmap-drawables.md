@@ -18,7 +18,7 @@ links:
 
 Android allows you to use the Bitmap class for working with bitmaps. A `bitmap` is a representation of a bitmap image. Android supports bitmap files in three formats which are: .png, .jpg, and .gif. Android allows you to convert a drawable image into a bitmap and display it in an ImageView with java code. In order to convert a drawable image to a bitmap in android, android.graphics.Bitmap and android.graphics.BitmapFactory are used in the java code. 
 
-Below are the steps on how to create and show bitmap image to drawable inside an ImageView on button click.
+This example teaches you to convert a drawable image to bitmap and display it in ImageView with simple java code.
 
 **Steps**
 Step 1: Upload an image inside the drawable folder. 
@@ -59,8 +59,38 @@ Step 2: Access the XML Layout file. Below is the following code:
 
 </LinearLayout>
 
+Step 3: Access the Java Activity File. Below is the following code: 
 
+```
 
+package com.example.tammy.bitmapdrawable2;
+
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.widget.ImageView;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        ImageView bitmapImage = 
+        (ImageView) findViewById(R.id.imageView);
+
+        //Load in bitmap
+        //Convert a Drawable to Bitmap
+        Bitmap bitmapImageLocal = 
+        BitmapFactory.decodeResource(
+                getApplicationContext().getResources(),
+                R.drawable.nature);
+        bitmapImage.setImageBitmap(bitmapImageLocal);
+
+    }
+}
+```
 ---
 ## Practice
 
