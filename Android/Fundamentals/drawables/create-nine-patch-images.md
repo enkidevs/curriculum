@@ -1,4 +1,4 @@
-# create-nine-patch-drawables
+# create-nine-patch-images
 author: tlawson
 
 levels:
