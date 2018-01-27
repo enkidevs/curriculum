@@ -25,8 +25,7 @@ When your Android application project is created, you need to put the bitmaps in
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
-<animation-list xmlns:android=
-"http://schemas.android.com/apk/res/android" 
+<animation-list xmlns:android
 
 
 
