@@ -85,6 +85,7 @@ AppCompatActivity {
         Bitmap bitmapImageLocal = 
         BitmapFactory.decodeResource(
                 getApplicationContext().getResources(),
+                R.drawable.nature)
                
         
         
