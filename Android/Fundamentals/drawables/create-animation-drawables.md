@@ -30,7 +30,16 @@ android:id="@+id/imgDrawable"
 android:oneshot="false">
 <item android:drawable=
 "@drawable/lion1" android:duration="200" />
-
+<item android:drawable=
+"@drawable/lion2" android:duration="200" />
+<item android:drawable=
+"@drawable/lion3" android:duration="200" />
+<item android:drawable=
+"@drawable/lion4" android:duration="200" />
+<item android:drawable=
+"@drawable/lion5" android:duration="200" />
+<item android:drawable=
+"@drawable/lion6" android:duration="200" />
 
 </animation-list>
 ```
