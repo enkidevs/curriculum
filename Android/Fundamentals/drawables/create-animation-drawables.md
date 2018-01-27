@@ -87,11 +87,26 @@ app:srcCompat="@drawable/drawables"
 tools:layout_editor_absoluteX="16dp"
 tools:layout_editor_absoluteY="279dp" />
 
+</RelativeLayout>
+
 ```
 4. Run the animation. 
 To use the animation in this activity, you need to set the layout and to get an instance to the ImageView. Post a Runnable on the instance in which to get the background of the image and call the start method of the AnimationDrawable associated: 
 
 ```
+package com.example.tammy.android_
+animated_drawable_test3;
+
+import android.app.Fragment;
+import android.graphics.drawable.
+AnimationDrawable;
+import android.support.v7.app.
+AppCompatActivity;
+import android.os.Bundle;
+import android.widget.ImageView;
+
+public class MainActivity extends 
+AppCompatActivity {
    
 ```
 
