@@ -79,8 +79,7 @@ AppCompatActivity {
     (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ImageView bitmapImage = 
-        (ImageView) findViewById(R.id.imageView);
+        
 
 ```
 ---
