@@ -103,6 +103,8 @@ Step 3: Access Strings.xml file. Below is the following code.
     Landscape Picture</string>
 </resources>
 ```
+Once the application is run, you will see the icon in the screen which is converted drawable to bitmap.
+
 ---
 ## Practice
 
