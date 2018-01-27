@@ -45,7 +45,7 @@ android:duration="200" />
 </animation-list>
 
 ```
-
+Inside the animation-list tag, we define each frame based on item. Each item has a reference to a drawable that represents a frame, and also a duration in milliseconds. We choose to declare each frame for the lion from 1 to 6 with a 200 milliseconds as duration.
 ---
 ## Practice
 
