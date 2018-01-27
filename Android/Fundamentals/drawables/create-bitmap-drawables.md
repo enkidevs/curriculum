@@ -90,10 +90,18 @@ AppCompatActivity {
         bitmapImage.setImageBitmap
         (bitmapImageLocal);
         
-               
         
-        
+```
 
+Step 3: Access Strings.xml file. Below is the following code.
+```
+<resources>
+
+    <string name="draw_bitmap">
+    Convert Drawable to Bitmap</string>
+    <string name="landscape">
+    Landscape Picture</string>
+</resources>
 ```
 ---
 ## Practice
