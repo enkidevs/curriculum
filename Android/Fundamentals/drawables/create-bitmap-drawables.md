@@ -82,8 +82,9 @@ AppCompatActivity {
         (R.layout.activity_main);
         ImageView bitmapImage = (ImageView) 
         findViewById(R.id.imageView);
-        Bitmap bitmapImageLocal = BitmapFactory.
-        decodeResource(
+        Bitmap 
+        bitmapImageLocal = BitmapFactory.decodeResource
+        (
                 getApplicationContext().getResources(),
                 R.drawable.nature);
         bitmapImage.setImageBitmap
