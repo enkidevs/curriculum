@@ -50,6 +50,8 @@ Layout of the Android applications is very simple using the RelativeLayout with 
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android=
+"http://schemas.android.com/apk/res/android"
 
 ```
 
