@@ -42,7 +42,18 @@ android:duration="200" />
 android:duration="200" />
 </animation-list>
 ```
-Inside 
+
+Inside the animation-list tag, we define each frame based on item. Each item has a reference to a drawable that represents a frame, and also a duration in milliseconds. We choose to declare each frame for the lion from 1 to 6 with a 200 milliseconds as duration.
+
+3. Create the layout. 
+Layout of the Android applications is very simple using the RelativeLayout with an ImageView inside. Define the animation as a background for the ImageView like the following below:
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+
+```
+
+
 ---
 ## Practice
 
