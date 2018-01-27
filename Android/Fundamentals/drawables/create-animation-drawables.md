@@ -58,6 +58,9 @@ xmlns:tools=
 "http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
+tools:context=
+"com.example.tammy.android_animated_
+drawable_test3.MainActivity">
 
 ```
 
