@@ -62,38 +62,15 @@ Step 2: Access the XML Layout file. Below is the following code:
 Step 3: Access the Java Activity File. Below is the following code: 
 
 ```
-
 package com.example.tammy.bitmapdrawable2;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
-import android.support.v7.app.
-AppCompatActivity;
+import android.support.v7.
+app.AppCompatActivity;
 import android.widget.ImageView;
 
-public class MainActivity extends 
-AppCompatActivity {
-
-    @Override
-    protected void onCreate
-    (Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        ImageView bitmapImage = 
-        (ImageView) findViewById(R.id.imageView);
-
-        //Load in bitmap
-        //Convert a Drawable to Bitmap
-        Bitmap bitmapImageLocal = 
-        BitmapFactory.decodeResource(
-                getApplicationContext().getResources(),
-                R.drawable.nature);
-        bitmapImage.setImageBitmap
-        (bitmapImageLocal);
-
-    }
-}
 ```
 ---
 ## Practice
