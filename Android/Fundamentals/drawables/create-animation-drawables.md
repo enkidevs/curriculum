@@ -62,6 +62,17 @@ Layout of the Android applications is very simple using the RelativeLayout with 
  android:layout_height="match_parent"
  tools:context="com.example.tammy.android_
  animated_drawable_test3.MainActivity">
+ 
+ <TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_alignParentLeft="true"
+ android:layout_alignParentStart="true"
+ android:layout_alignParentTop="true"
+ android:layout_marginLeft="25dp"
+ android:layout_marginStart="25dp"
+ android:layout_marginTop="11dp"
+ android:text="Hello World!" />
 
 ```
 4. Run the animation. 
