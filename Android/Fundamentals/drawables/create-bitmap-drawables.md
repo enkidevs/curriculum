@@ -74,9 +74,13 @@ import android.widget.ImageView;
 public class MainActivity extends 
 AppCompatActivity {
 
-    @Override
+ @Override
     protected void onCreate
     (Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        ImageView bitmapImage = 
+        (ImageView) findViewById(R.id.imageView);
 
 ```
 ---
