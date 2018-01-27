@@ -62,6 +62,32 @@ tools:context=
 "com.example.tammy.android_animated_
 drawable_test3.MainActivity">
 
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentLeft="true"
+android:layout_alignParentStart="true"
+android:layout_alignParentTop="true"
+android:layout_marginLeft="25dp"
+android:layout_marginStart="25dp"
+android:layout_marginTop="11dp"
+android:text="Hello World!" />
+
+<ImageView
+android:id="@+id/imgDrawable"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentLeft="true"
+android:layout_alignParentStart="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="58dp"
+android:contentDescription="@string/todo"
+app:srcCompat="@drawable/drawables"
+tools:layout_editor_absoluteX="16dp"
+tools:layout_editor_absoluteY="279dp" />
+
+</RelativeLayout>
+
 ```
 
 
