@@ -74,6 +74,12 @@ xmlns:app=
 "http://schemas.android.com/apk/res-auto"
 android:layout_width="wrap_content"
 android:layout_height="wrap_content">
+<ImageView
+android:id="@+id/ic_heart"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+app:srcCompat="@drawable/ic_heart"
+android:contentDescription="@null"/>
  
 ```
 ## Practice
