@@ -50,6 +50,7 @@ Create an XML file and place the file in the drawable folder. Below is the snipp
     <path
             android:fillColor="#c9c10606"
             android:pathData="M20.5,9.5
+            c-1.955,0,-3.83,1.268,-4.5,3
 
        
 
