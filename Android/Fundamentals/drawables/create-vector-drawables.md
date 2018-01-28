@@ -47,6 +47,8 @@ Create an XML file and place the file in the drawable folder. Below is the snipp
     android:width="64dp"
     android:viewportHeight="32"
     android:viewportWidth="32" >
+    <path
+            android:fillColor="#c9c10606"
 
        
 
