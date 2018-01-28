@@ -52,6 +52,7 @@ Create an XML file and place the file in the drawable folder. Below is the snipp
             android:pathData="M20.5,9.5
             c-1.955,0,-3.83,1.268,-4.5,3
             c-0.67,-1.732,-2.547,-3,-4.5,-3
+            C8.957,9.5,7,11.432,7,14
             
 
        
