@@ -54,6 +54,7 @@ Create an XML file and place the file in the drawable folder. Below is the snipp
             c-0.67,-1.732,-2.547,-3,-4.5,-3
             C8.957,9.5,7,11.432,7,14
             c0,3.53,3.793,6.257,9,11.5
+            c5.207,-5.242,9,-7.97,9,-11.5
             
 
        
