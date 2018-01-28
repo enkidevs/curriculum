@@ -57,12 +57,23 @@ Create an XML file and place the file in the drawable folder. Below is the snipp
             c5.207,-5.242,9,-7.97,9,-11.5
             C25,11.432,23.043,
             9.5,20.5,9.5z" />
-            
-
-       
-
+           
 </vector>
 
+```
+3. Using Vector Drawables
+Load the vectors using the app:srcCompat property.
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android=
+    "http://schemas.android.com/apk/res/android"
+        xmlns:tools=
+        "http://schemas.android.com/tools"
+        xmlns:app=
+        "http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 ```
 ## Practice
 
