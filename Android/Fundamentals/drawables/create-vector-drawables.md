@@ -13,7 +13,7 @@ category: how to
 
 links:
 
-  - '[What are drawable resource?](https://developer.android.com/guide/topics/resources/drawable-resource.html)'
+  - '[Create a vector drawable](https://guides.codepath.com/android/drawables#vector-drawables)'
 
 ---
 ## Content
