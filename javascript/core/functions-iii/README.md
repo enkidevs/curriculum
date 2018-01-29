@@ -9,8 +9,9 @@ section: 2
 parent: functions-ii
 
 insights:
-  - anonymous-functions
-  - hoisting
+  - function-call-method
+  - difference-between-call-and-apply-methods
+  - explicit-setting-of-this-using-call-and-apply-methods
   - bind
   - method-chaining
-  - iife-pattern
+  - changing-a-functions-context-with-fn-call-object

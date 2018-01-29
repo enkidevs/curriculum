@@ -2,7 +2,7 @@ name: Functions
 
 type: insights-list
 
-description: Basics of functions.
+description: Learn to create and use parameterized functions 
 
 section: 0
 
