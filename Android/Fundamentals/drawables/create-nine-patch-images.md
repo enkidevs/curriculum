@@ -11,7 +11,7 @@ category: how to
 
 links:
 
-  - '[link to learn more](https://enki.com)'
+  - '[Creat a nine-patch image](http://www.dev2qa.com/android-nine-patch-image-example/)'
 
 ---
 ## Content
