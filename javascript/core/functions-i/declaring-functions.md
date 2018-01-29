@@ -11,6 +11,13 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  js.functions: 10
+
+tags:
+  - introduction
+  - workout
+
 ---
 ## Content
 
@@ -29,11 +36,11 @@ add(1,2);//3
 
 **Return Values**
 
-In the above example we specified that we would return the function argument x plus argument y. 
+In the above example we specified that we would return the function argument x plus argument y.
 
 If we did not specify a return value in the above example then the function would return *undefined* e.g.
 
-``` 
+```
 function add(x, y){
 	x + y;
 }

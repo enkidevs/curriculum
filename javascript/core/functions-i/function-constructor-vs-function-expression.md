@@ -13,6 +13,13 @@ type: normal
 
 category: feature
 
+standards:
+  js.functions: 10
+
+tags:
+  - introduction
+  - workout
+
 links:
 
   - >-
@@ -21,7 +28,7 @@ links:
 ---
 ## Content
 
-The concepts of constructors, declaration and expressions are often misused. Here is the official terminology according to MDN: 
+The concepts of constructors, declaration and expressions are often misused. Here is the official terminology according to MDN:
 
 Function defined with the `function` *constructor* assigned to the variable `multiply`:
 

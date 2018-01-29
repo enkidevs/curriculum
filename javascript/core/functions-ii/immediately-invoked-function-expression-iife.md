@@ -11,6 +11,14 @@ inAlgoPool: false
 
 category: tip
 
+standards:
+  js.functions: 10
+
+tags:
+  - introduction
+  - workout
+  - deep
+
 links:
 
   - >-

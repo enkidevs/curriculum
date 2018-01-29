@@ -13,6 +13,13 @@ category: tip
 
 notes: ''
 
+standards:
+  js.functions: 10
+
+tags:
+  - introduction
+  - workout
+
 links:
 
   - >-

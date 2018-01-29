@@ -13,6 +13,13 @@ type: normal
 
 category: feature
 
+standards:
+  js.functions: 10
+
+tags:
+  - introduction
+  - workout
+
 notes: ''
 
 ---
@@ -31,7 +38,7 @@ If you thought the answer was `1`, you are incorrect!
 
 ` > undefined`
 
-One quirk of JavaScript is *hoisting*. 
+One quirk of JavaScript is *hoisting*.
 
 This default behaviour moves all variable declarations to the top of the current scope.
 
@@ -69,10 +76,10 @@ function calc() {
 calc();
 ```
 
-*`run: undefined, calc: 1` 
-*`run: 1, calc: 1` 
-*`run: 4, calc: 1` 
-*`run: 4, calc: 4` 
+*`run: undefined, calc: 1`
+*`run: 1, calc: 1`
+*`run: 4, calc: 1`
+*`run: 4, calc: 4`
 *`run: undefined, calc: undefined`
 
 ---
@@ -85,7 +92,7 @@ function go(){
     console.log(a);
     var a = 2;
 }
-go(); 
+go();
 // ???
 ```
 *`undefined`

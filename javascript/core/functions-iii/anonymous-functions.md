@@ -11,6 +11,13 @@ type: normal
 
 category: must-know
 
+standards:
+  js.functions: 10
+
+tags:
+  - introduction
+  - workout
+
 links:
 
   - >-
