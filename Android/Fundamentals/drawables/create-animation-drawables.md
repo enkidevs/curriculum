@@ -11,7 +11,7 @@ category: how to
 
 links:
 
-  - '[link to learn more](https://enki.com)'
+  - '[Create a frame animation](https://www.ssaurel.com/blog/create-a-frame-animation-in-xml-on-android/)'
 
 ---
 ## Content
