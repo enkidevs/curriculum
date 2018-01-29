@@ -11,11 +11,18 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  js.javascript-syntax: 10
+
+tags:
+  - introduction
+  - workout
+
 ---
 ## Content
 
 Object's properties can also be functions.
- 
+
 For example we might add a function to our person object to print out a greeting message to the console:
 
 ```
@@ -36,7 +43,7 @@ per.sayHi();
 
 **Constructor Functions**
 
-It is common to use functions to create new objects. 
+It is common to use functions to create new objects.
 
 This allows you to encapsulate object creation similar to a class constructor:
 
