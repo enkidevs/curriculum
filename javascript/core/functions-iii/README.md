@@ -10,8 +10,7 @@ parent: functions-ii
 
 insights:
   - function-call-method
+  - changing-a-functions-context-with-fn-call-object
   - difference-between-call-and-apply-methods
-  - explicit-setting-of-this-using-call-and-apply-methods
   - bind
   - method-chaining
-  - changing-a-functions-context-with-fn-call-object
