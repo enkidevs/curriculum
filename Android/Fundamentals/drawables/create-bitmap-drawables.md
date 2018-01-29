@@ -11,7 +11,7 @@ category: how to
 
 links:
 
-  - '[link to learn more](https://enki.com)'
+  - '[Convert Drawable to Bitmap](http://www.viralandroid.com/2015/12/how-to-convert-drawable-to-bitmap-in-android.html)'
 
 ---
 ## Content
