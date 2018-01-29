@@ -11,7 +11,7 @@ type: normal
 
 category: feature
 
-standard:
+standards:
   js.write-expressions: 10
 
 tags:

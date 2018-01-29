@@ -11,7 +11,7 @@ type: normal
 
 category: caveats
 
-standard: 
+standards: 
   js.evaluate-expressions: 10
 
 ---

@@ -13,7 +13,7 @@ type: normal
 
 category: best practice
 
-standard: 
+standards: 
   js.evaluate-expressions: 10
 
 links:

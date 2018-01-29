@@ -13,7 +13,7 @@ type: normal
 
 category: caveats
 
-standard: 
+standards: 
   js.write-expressions: 10
 
 ---

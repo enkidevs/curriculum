@@ -13,7 +13,7 @@ type: normal
 
 category: pattern
 
-standard:
+standards:
   js.write-expressions: 10
 
 links:

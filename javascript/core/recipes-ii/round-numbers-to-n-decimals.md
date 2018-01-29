@@ -11,7 +11,7 @@ type: normal
 
 category: how to
 
-standard: 
+standards: 
   js.write-expressions: 20
 
 ---

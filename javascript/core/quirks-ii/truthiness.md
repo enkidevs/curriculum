@@ -13,7 +13,7 @@ type: normal
 
 category: tip
 
-standard: 
+standards: 
   js.evaluate-expressions: 10
 
 tags:

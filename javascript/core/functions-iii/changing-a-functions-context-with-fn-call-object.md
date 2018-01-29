@@ -11,7 +11,8 @@ type: normal
 
 category: must-know
 
-standards: 
+standards:
+  js.functions: 10
   js.execution-context: 10
 
 links:

@@ -9,7 +9,7 @@ type: normal
 
 category: tip
 
-standard: 
+standards: 
   js.write-expressions: 10
 
 links:

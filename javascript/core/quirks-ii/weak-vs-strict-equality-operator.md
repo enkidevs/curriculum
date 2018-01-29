@@ -9,7 +9,7 @@ type: normal
 
 category: must-know
 
-standard: 
+standards: 
   js.evaluate-expressions: 20
 
 links:
