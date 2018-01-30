@@ -9,6 +9,14 @@ type: normal
 
 category: caveats
 
+standards:
+  js.control-flow: 10
+  js.data-types-structures: 10
+
+tags:
+  - introduction
+  - workout
+
 links:
 
   - "[www.standardista.com](http://www.standardista.com/javascript/15-common-javascript-gotchas){website}"

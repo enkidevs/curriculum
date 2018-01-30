@@ -1,16 +1,18 @@
-name: Quirks II
+name: Types II
 
 type: insights-list
 
-description: Advice and recipes for commonly encountered confusions.
+description: Equality and how Types are compared
 
 section: 1
 
 parent: array-methods
 
 insights:
-  - truthiness
   - weak-vs-strict-equality-operator
+  - truthy-falsy
+  - truthy-falsy-gotchas
   - the-difference-between-null-undefined-and-nan
   - nan-is-a-number
-  - inaccuracy-of-binary-floating-point-format
+
+game: taking-precedence

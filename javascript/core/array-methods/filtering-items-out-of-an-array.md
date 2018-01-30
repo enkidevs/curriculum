@@ -14,8 +14,14 @@ type: normal
 category: best practice
 
 tags:
+  - introduction
+  - workout
+  - functional-programming
+  - arrays
 
-  - functional-programming arrays
+standards:
+  js.data-types-structures: 10
+
 
 ---
 ## Content
@@ -47,7 +53,7 @@ let activated = persons.filter(
 // => [2,4]
 
 
-  
+
 ```
 
 ---

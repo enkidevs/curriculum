@@ -7,8 +7,8 @@ description: Explore tips, tricks and features of JavaScript.
 section: 1
 
 insights:
-  - arrays-can-be-used-as-stack
-  - apply-map-function-to-array-items
-  - base-conversion
-  - parsing-numbers-and-ieee-754
+  - object-part-1
+  - object-part-2
   - deleting-properties
+  - keywords-in-hash-keys
+  - hasownproperty-method

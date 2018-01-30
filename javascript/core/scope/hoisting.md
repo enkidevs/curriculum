@@ -1,4 +1,4 @@
-# Types - Hoisting
+# Hoisting
 author: alexjmackey
 
 levels:

@@ -13,6 +13,7 @@ category: must-know
 
 standards:
   js.javascript-syntax: 10
+  js.data-types-structures: 10
 
 tags:
   - introduction

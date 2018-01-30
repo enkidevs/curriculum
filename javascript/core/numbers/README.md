@@ -14,3 +14,5 @@ insights:
   - double-and-single-quotes
   - multi-line-string-variables
   - infix-operators-are-left-associative
+
+game: infinity-game

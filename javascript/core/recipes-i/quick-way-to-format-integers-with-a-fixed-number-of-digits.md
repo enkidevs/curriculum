@@ -9,6 +9,15 @@ type: normal
 
 category: tip
 
+tags:
+  - introduction
+  - workout
+  - slice
+
+standards:
+  js.data-types-structures: 10
+  js.evaluate-expressions: 10
+
 links:
 
   - '[stackoverflow](http://stackoverflow.com/questions/8043026){discussion}'
@@ -53,7 +62,7 @@ outputs ??? .
 ---
 ## Revision
 
-`console.log(("123").slice(-4));` 
+`console.log(("123").slice(-4));`
 
  outputs ???
 

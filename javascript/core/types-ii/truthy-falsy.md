@@ -14,7 +14,7 @@ category: must-know
 ---
 ## Content
 
-All values in JavaScript have a special inherit *boolean* value of either *true* or *false*.
+All values in JavaScript have a special inherent *boolean* value of either *true* or *false*.
 
 The following are always considered false or falsy values:
 
@@ -25,11 +25,11 @@ The following are always considered false or falsy values:
 - undefined
 - NaN (Not A Number)
 
-Every other value is considered to have a value of true. 
+Every other value is considered to have a value of true.
 
 This includes some things you might not expect such as:
 
-- Empty objects 
+- Empty objects
 - The string version of zero e.g. "0"
 - Empty arrays and functions
 

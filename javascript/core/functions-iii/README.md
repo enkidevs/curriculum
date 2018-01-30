@@ -9,8 +9,8 @@ section: 2
 parent: functions-ii
 
 insights:
-  - function-call-method
+  - context-in-javascript
   - changing-a-functions-context-with-fn-call-object
+  - function-call-method
   - difference-between-call-and-apply-methods
   - bind
-  - method-chaining
