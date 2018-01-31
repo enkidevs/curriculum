@@ -16,7 +16,7 @@ links:
 ---
 ## Content
 
-A Nine-Patch is an image that has stretchable areas defined. These areas are defined in one pixel border around the area. Add black pixels to the top and left of the border to describe where the image can be stretched horizontally or vertically. Nine patch images are especially useful when designing buttons. Custom drawn buttons can look distorted and pixelated when their borders are stretched in addition to the rest of the images. Below are the mentioned steps. 
+A `Nine-Patch` is an image that has stretchable areas defined. These areas are defined in one pixel border around the area. Add black pixels to the top and left of the border to describe where the image can be stretched horizontally or vertically. Nine patch images are especially useful when designing buttons. Custom drawn buttons can look distorted and pixelated when their borders are stretched in addition to the rest of the images. Below are the mentioned steps. 
 
 Steps for converting PNG to 9 Patch PNG
 1. Add a .png image to the android project folder. 
@@ -30,19 +30,19 @@ Steps for converting PNG to 9 Patch PNG
 ---
 ## Practice
 
-What does the fox says?
+What is the best definition for a nine-patch image?
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+* A stretchable bitmap image but contains an extra 1-pixel-wide border. It must be saved with the extension .9.png, and saved into the res/drawable/ directory of your project.
+* Repeatable images reduced to their smallest size and contains an index by adding a 1-pixel border to the image.
+* Normal images with an additional two pixel border. This additional two pixel border is used to define a scalable portion of the image. 
 
 ---
 ## Revision
 
-What does the fox says?
+After an image has been converted to a nine-patch, the right panel displays?
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+* The result image after left panel image is adjusted which is the preview area
+* Drawing area in which you can edit the lines for the stretchable patches and content area. 
+* Defines the stretchable area and displays the preview of the image. 
