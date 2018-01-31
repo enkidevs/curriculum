@@ -144,8 +144,10 @@ Which of the following Java code snippet is most efficient and illustrates the c
 ```
 <animation-list xmlns:android=
 "http://schemas.android.com/apk/res/android"
-android:id="@+id/imgDrawable" 
-android:oneshot="false"
+android:id="imgDrawable" 
+android:oneshot="true"
+<item android:drawable=
+"lion1" android:duration="200" />
 
 ```
 
