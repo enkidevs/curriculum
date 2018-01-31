@@ -150,23 +150,6 @@ android:oneshot="true">
 "@drawable/lion1" android:duration="200" />
 </animation-lists>
 
-// Example B
-<animation-list xmlns:android=
-"http://schemas.android.com/apk/res/android"
-android:id="@+id/imgDrawable" 
-android:oneshot="false">
-<item android:drawable=
-"@drawable/lion1" android:duration="200" />
-</animation-list>
-
-// Example C 
-<animation-lists xmlns:android=
-"http://schemas.android.com/apk/res/android"
-android:noid="@+id/imgDrawable" 
-android:visible="false">
-<item android:drawable=
-"@drawable/lion1" android:duration="200dp" />
-</animation-list>
 ```
 
 ???
