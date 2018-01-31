@@ -44,7 +44,7 @@ android:oneshot="false">
 </animation-list>
 ```
 
-Inside the animation-list tag, we define each frame based on item. Each item has a reference to a drawable that represents a frame, and also a duration in milliseconds. We choose to declare each frame for the lion fr om 1 to 6 with a 200 milliseconds as duration.
+Inside the animation-list tag, we define each frame based on item. Each item has a reference to a drawable that represents a frame, and also a duration in milliseconds. We choose to declare each frame for the lion from 1 to 6 with a 200 milliseconds as duration.
 
 3. Create the layout. 
 Layout of the Android applications is very simple using the RelativeLayout with an ImageView inside. Define the animation as a background for the ImageView like the following below:
@@ -129,19 +129,48 @@ frameAnimation.start();
 ---
 ## Practice
 
-What does the fox says?
+The `android:duration`is?
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+* The amount of time in milliseconds to display this frame
+* Allows the duration to run a single time and then stop
+* Amount of time to display this frame
 
 ---
 ## Revision
 
-What does the fox says?
+Which of the following Java code snippet is most efficient and illustrates the correct use of creating an animation frame? 
+
+```
+//Example A
+<animation-list xmlns:android=
+"http://schemas.android.com/apk/res/android" 
+android:oneshot="true">
+<item android:drawable=
+"@drawable/lion1" android:duration="200" />
+</animation-lists>
+
+// Example B
+<animation-list xmlns:android=
+"http://schemas.android.com/apk/res/android"
+android:id="@+id/imgDrawable" 
+android:oneshot="false">
+<item android:drawable=
+"@drawable/lion1" android:duration="200" />
+</animation-list>
+
+// Example C 
+<animation-lists xmlns:android=
+"http://schemas.android.com/apk/res/android"
+android:noid="@+id/imgDrawable" 
+android:visible="false">
+<item android:drawable=
+"@drawable/lion1" android:duration="200dp" />
+</animation-list>
+```
+
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+*Example B
+*Example A
+*Example C
