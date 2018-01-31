@@ -2,8 +2,9 @@
 
 Read more link: https://www.docker.com/what-container
 
-Containers are the fundamental building blocks of the Docker toolkit.
-They effectively represent runtime instances of Docker images (more on Docker images later).
+Containers are a way of isolating an application with its own environment. It's alightweight alternative to full-blown virtualization.
+
+They are the fundamental building blocks of the Docker toolkit and effectively represent runtime instances of Docker images (more on Docker images later).
 
 A container can be viewed as an independent software environment that includes everything it needs to execute. We can use containers to isolate applications from each other and from the underlying infrastructure they are built on.
 
