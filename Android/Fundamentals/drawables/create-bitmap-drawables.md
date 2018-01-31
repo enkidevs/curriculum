@@ -108,19 +108,26 @@ Once the application is run, you will see the icon in the screen which is conver
 ---
 ## Practice
 
-What does the fox says?
+Complete the following code snippet such that it makes sense to convert a drawable to a bitmap:
+```
 ???
-
-* right answer
-* wrong answer
-* wrong answer 2
+???
+import android.os.Bundle;
+import android.support.v7.
+app.AppCompatActivity;
+import android.widget.ImageView;
+```
+*`import android.graphics.Bitmap;`
+*`import android.graphics.BitmapFactory;` 
+*`import package com.example.tammy.bitmapdrawable2;` 
+*`import java.util.Calendar;` 
 
 ---
 ## Revision
 
-What does the fox says?
+What is the best definition for bitmap?
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+* A drawable that is drawn on the screen and displayed as a bitmap in formats of .png, .jpg, and .gif.
+* A graphic file format with the file extensions of *.bmp or *.dib and saved as bits and uncompressed images.
+* A bitmap File that uses bitmap graphic files: .png, or .jpg and creates a BitmapDrawable
