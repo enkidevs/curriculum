@@ -142,7 +142,10 @@ The `android:duration`is?
 Which of the following Java code snippet is most efficient and illustrates the correct use of creating an animation frame? 
 
 ```
-
+<animation-list xmlns:android=
+"http://schemas.android.com/apk/res/android"
+android:id="@+id/imgDrawable" 
+android:oneshot="false"
 
 ```
 
