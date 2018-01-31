@@ -148,15 +148,26 @@ Which of the following Java code snippet is most efficient and illustrates the c
 android:id="imgDrawable" 
 android:oneshot="true"
 <item android:drawable=
-"lion1" android:duration="200" />
+"lion1" android:duration="200dp" />
+</animation-list>
 
 //Example B
 <animation-list xmlns:android=
 "http://schemas.android.com/apk/res/android"
-android:id="imgDrawable" 
-android:oneshot="true"
+android:id="@+id/imgDrawable" 
+android:oneshot="false">
 <item android:drawable=
-"lion1" android:duration="200" />
+"@drawable/lion1" android:duration="200" />
+</animation-list>
+
+//Example C
+<animation-list xmlns:android=
+"http://schemas.android.com/apk/res/android"
+android:id="+imgDrawable" 
+android:oneshot="false"
+<items android:drawable=
+"lion1" android:visible="200s" />
+</animation-list>
 ```
 
 ???
