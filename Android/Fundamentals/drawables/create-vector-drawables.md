@@ -86,18 +86,40 @@ android:contentDescription="@null"/>
 ```
 ## Practice
 
-A drawable is ???
+Complete the following code snippet such that it makes sense to create a vector drawable:
+```
 
-* graphic file that can be drawn on the screen
-* defined in a non-Java file
-* used to customized text
+<vector xmlns:android=
+"http://schemas.android.com/apk/res/android"
+    android:height="64dp"
+    android:width="64dp"
+    android:viewportHeight="32"
+    android:viewportWidth="32" >
+    <path
+            ???="#c9c10606"
+            ???="M20.5,9.5
+            c-1.955,0,-3.83,1.268,-4.5,3
+            c-0.67,-1.732,-2.547,-3,-4.5,-3
+            C8.957,9.5,7,11.432,7,14
+            c0,3.53,3.793,6.257,9,11.5
+            c5.207,-5.242,9,-7.97,9,-11.5
+            C25,11.432,23.043,
+            9.5,20.5,9.5z" />
+           
+</vector>
+```
+*`android:fillColor`
+*`android:pathData` 
+*`android:width` 
+*`android:viewportHeight` 
+
 
 ---
 ## Revision
 
-What drawable are grouped togeter into a composite result???
+To reference a vector drawable, use???
 
-* LayerList
-* Shape
-* Vector
+* `app:srcCompat`
+* `android:id`
+* `android:contentdescription`
 
