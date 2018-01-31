@@ -17,13 +17,12 @@ category: must-know
 
 inAlgoPool: false
 
-<<<<<<< HEAD:SQL/DQL/aggregate-queries/min-and-max-clauses.md
 standards:
   sql.aggregate-single-table: 10
-=======
+
 tags:
   - workout
->>>>>>> master:sql/dql/aggregate-queries/min-and-max-clauses.md
+
 
 links:
 

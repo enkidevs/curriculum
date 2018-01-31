@@ -17,13 +17,12 @@ category: must-know
 
 inAlgoPool: false
 
-<<<<<<< HEAD:SQL/DQL/aggregate-queries/sum-clause.md
+
 standards:
   sql.aggregate-single-table: 10
-=======
+
 tags:
   - workout
->>>>>>> master:sql/dql/aggregate-queries/sum-clause.md
 
 links:
 
