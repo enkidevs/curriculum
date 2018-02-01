@@ -10,4 +10,6 @@ insights:
   - create-bitmap-drawables
   - create-vector-drawables
   - what-are-drawables
+  - create-nine-patch-images
+  - create-animation-drawables
 
