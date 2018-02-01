@@ -8,4 +8,6 @@ section: 2
 
 insights:
   - create-bitmap-drawables
+  - create-vector-drawables
+  - what-are-drawables
 
