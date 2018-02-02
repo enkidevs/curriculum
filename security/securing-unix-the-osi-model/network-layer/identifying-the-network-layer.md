@@ -13,10 +13,6 @@ type: normal
 
 category: must-know
 
-standards:
-
-  security.identify-osi-layers: 15
-
 links:
 
   - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
@@ -58,8 +54,7 @@ question: |
   What role does the Network Layer play in the OSI 7 Layer Model?
 
 answers:
-
-- Routing and transmission over the physical topography of the Internet
-- Providing computational power via electronic circuits
-- Transmitting data between two directly connected mediums
-- Packaging data packets into data streams and vice versa for transport
+  - Routing and transmission over the physical topography of the Internet
+  - Providing computational power via electronic circuits
+  - Transmitting data between two directly connected mediums
+  - Packaging data packets into data streams and vice versa for transport

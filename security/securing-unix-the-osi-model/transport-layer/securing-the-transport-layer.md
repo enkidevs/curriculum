@@ -13,9 +13,6 @@ type: normal
 
 category: must-know
 
-standards:
-
-  security.apply-osi-layer-security: 20
 
 links:
 
@@ -60,8 +57,7 @@ question: |
   What is one control in the Transport Layer of the OSI Model?
 
 answers:
-
-- Strict use of ports as they are designed
-- Use of a physical firewall
-- Using managed switches prevent topographical loops
-- Locks and secure enclosures
+  - Strict use of ports as they are designed
+  - Use of a physical firewall
+  - Using managed switches prevent topographical loops
+  - Locks and secure enclosures

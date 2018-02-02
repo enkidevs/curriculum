@@ -13,9 +13,6 @@ type: normal
 
 category: must-know
 
-standards:
-
-  security.identify-osi-layers: 15
 
 links:
 
@@ -59,8 +56,7 @@ question: |
   What role does the  Physical Layer play in the OSI 7 Layer Model?
 
 answers:
-
-- Providing transmission between end devices via voltage or wavelengths.
-- Transmitting data between network nodes
-- Routing and transmission over the physical topography of the Internet
-- Packaging data packets into data streams and vice versa for transport
+  - Providing transmission between end devices via voltage or wavelengths.
+  - Transmitting data between network nodes
+  - Routing and transmission over the physical topography of the Internet
+  - Packaging data packets into data streams and vice versa for transport

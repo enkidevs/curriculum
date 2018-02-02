@@ -13,9 +13,6 @@ type: normal
 
 category: must-know
 
-standards:
-
-  security.apply-osi-layer-security: 20
 
 links:
 
@@ -59,8 +56,7 @@ question: |
   What is one control in the Session Layer of the OSI Model?
 
 answers:
-
-- Using a strong, unique password
-- Strict use of ports as they are designed
-- Use of a physical firewall
-- Using managed switches prevent topographical loops
+  - Using a strong, unique password
+  - Strict use of ports as they are designed
+  - Use of a physical firewall
+  - Using managed switches prevent topographical loops

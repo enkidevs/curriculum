@@ -13,9 +13,6 @@ type: normal
 
 category: must-know
 
-standards:
-
-  security.identify-osi-layers: 15
 
 links:
 
@@ -30,6 +27,8 @@ The Transport Layer (Layer 4) is responsible for maintaining and ensuring the in
 ## Practice
 
 What roles does The Transport Layer play in the OSI 7 Layer Model?
+
+???
 
 * Maintaining and ensuring a stable connection between two hosts over the Internet
 * Transmitting data between network nodes
@@ -56,8 +55,7 @@ question: |
   What role does the Transport Layer play in the OSI 7 Layer Model?
 
 answers:
-
-- Maintaining and ensuring a stable connection between two hosts over the Internet
-- Transmitting data between network nodes
-- Routing and transmission over the physical topography of the Internet
-- Packaging data packets into data streams and vice versa for transport
+  - Maintaining and ensuring a stable connection between two hosts over the Internet
+  - Transmitting data between network nodes
+  - Routing and transmission over the physical topography of the Internet
+  - Packaging data packets into data streams and vice versa for transport

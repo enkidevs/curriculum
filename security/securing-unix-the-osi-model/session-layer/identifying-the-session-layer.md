@@ -13,10 +13,6 @@ type: normal
 
 category: must-know
 
-standards:
-
-  security.identify-osi-layers: 15
-
 links:
 
   - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
@@ -62,8 +58,7 @@ question: |
   What role does the Session Layer play in the OSI 7 Layer Model?
 
 answers:
-
-- Opening, closing, and managing connections between applications
-- Maintaining and ensuring a stable connection between two hosts over the Internet
-- Routing and transmission over the physical topography of the Internet
-- Packaging data packets into data streams and vice versa
+  - Opening, closing, and managing connections between applications
+  - Maintaining and ensuring a stable connection between two hosts over the Internet
+  - Routing and transmission over the physical topography of the Internet
+  - Packaging data packets into data streams and vice versa

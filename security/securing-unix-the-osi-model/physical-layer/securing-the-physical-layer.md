@@ -13,9 +13,6 @@ type: normal
 
 category: must-know
 
-standards:
-
-  security.apply-osi-layer-security: 20
 
 links:
 
@@ -58,8 +55,7 @@ question: |
   What is one control in the Physical Layer of the OSI Model?
 
 answers:
-
-- Locks and secure enclosures
-- Use of a physical firewall
-- Encrypted password exchange and storage
-- Using switches to branch off wired connections
+  - Locks and secure enclosures
+  - Use of a physical firewall
+  - Encrypted password exchange and storage
+  - Using switches to branch off wired connections

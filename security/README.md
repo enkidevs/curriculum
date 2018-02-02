@@ -1,3 +1,5 @@
+name: Security
+
 language: bash
 
 color: 00595E

@@ -13,10 +13,6 @@ type: normal
 
 category: must-know
 
-standards:
-
-  security.apply-osi-layer-security: 20
-
 links:
 
   - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
@@ -56,8 +52,7 @@ question: |
   What is one control in the Network Layer of the OSI Model?
 
 answers:
-
-- Use of a physical firewall
-- Using managed switches prevent topographical loops
-- Locks and secure enclosures
-- Encrypted password exchange and storage
+  - Use of a physical firewall
+  - Using managed switches prevent topographical loops
+  - Locks and secure enclosures
+  - Encrypted password exchange and storage

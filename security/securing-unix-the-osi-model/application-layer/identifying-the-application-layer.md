@@ -13,10 +13,6 @@ type: normal
 
 category: must-know
 
-standards:
-
-  security.identify-osi-layers: 15
-
 links:
 
   - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
@@ -60,8 +56,7 @@ question: |
   What role does the Application Layer play in the OSI 7 Layer Model?
 
 answers:
-
-- Provide a user interface with high level functions for interacting with the network
-- Opening, closing, and managing connections between applications
-- Maintaining and ensuring a stable connection between two hosts over the Internet
-- Packaging data packets into data streams and vice versa for transport
+  - Provide a user interface with high level functions for interacting with the network
+  - Opening, closing, and managing connections between applications
+  - Maintaining and ensuring a stable connection between two hosts over the Internet
+  - Packaging data packets into data streams and vice versa for transport

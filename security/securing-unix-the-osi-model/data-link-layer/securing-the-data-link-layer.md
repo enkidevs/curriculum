@@ -13,10 +13,6 @@ type: normal
 
 category: must-know
 
-standards:
-
-  security.apply-osi-layer-security: 20
-
 links:
 
   - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
@@ -63,8 +59,7 @@ question: |
   What is one control in the Data Link Layer of the OSI Model?
 
 answers:
-
-- Using managed switches prevent topographical loops
-- Locks and secure enclosures
-- Use of a physical firewall
-- Encrypted password exchange and storage
+  - Using managed switches prevent topographical loops
+  - Locks and secure enclosures
+  - Use of a physical firewall
+  - Encrypted password exchange and storage

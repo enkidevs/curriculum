@@ -13,10 +13,6 @@ type: normal
 
 category: must-know
 
-standards:
-
-  security.describe-osi-model: 10
-
 links:
 
   - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
@@ -77,8 +73,7 @@ question: |
   What is the OSI 7 Layer Model?
 
 answers:
-
-- a flexible standard for various network configurations
-- a hard standard for various network configurations
-- a flexible standard for various hardware component configurations
-- a hard standard for various hardware component configurations
+  - a flexible standard for various network configurations
+  - a hard standard for various network configurations
+  - a flexible standard for various hardware component configurations
+  - a hard standard for various hardware component configurations

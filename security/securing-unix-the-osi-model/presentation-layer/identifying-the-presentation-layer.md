@@ -13,9 +13,6 @@ type: normal
 
 category: must-know
 
-standards:
-
-  security.identify-osi-layers: 15
 
 links:
 
@@ -62,8 +59,7 @@ question: |
   What role does the Presentation Layer play in the OSI 7 Layer Model?
 
 answers:
-
-- Data conversion and encryption/decryption
-- Opening, closing, and managing connections between applications
-- Maintaining and ensuring a stable connection between two hosts over the Internet
-- Transmitting data between network nodes
+  - Data conversion and encryption/decryption
+  - Opening, closing, and managing connections between applications
+  - Maintaining and ensuring a stable connection between two hosts over the Internet
+  - Transmitting data between network nodes

@@ -13,10 +13,6 @@ type: normal
 
 category: must-know
 
-standards:
-
-  security.apply-osi-layer-security: 20
-
 links:
 
   - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
@@ -59,8 +55,7 @@ question: |
   What is one control in the Presentation Layer of the OSI Model?
 
 answers:
-
-- Input validation of network responses
-- Using a strong, unique password
-- Strict use of ports as they are designed
-- Use of a physical firewall
+  - Input validation of network responses
+  - Using a strong, unique password
+  - Strict use of ports as they are designed
+  - Use of a physical firewall

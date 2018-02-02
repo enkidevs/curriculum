@@ -13,10 +13,6 @@ type: normal
 
 category: must-know
 
-standards:
-
-  security.apply-osi-layer-security: 20
-
 links:
 
   - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
@@ -58,8 +54,7 @@ question: |
   What is one control in the Application Layer of the OSI Model?
 
 answers:
-
-- Utilizing a testing suite in software development
-- Strict use of ports as they are designed
-- Use of a physical firewall
-- Using managed switches prevent topographical loops
+  - Utilizing a testing suite in software development
+  - Strict use of ports as they are designed
+  - Use of a physical firewall
+  - Using managed switches prevent topographical loops
