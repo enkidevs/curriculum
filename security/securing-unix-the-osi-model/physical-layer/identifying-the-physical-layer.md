@@ -15,6 +15,8 @@ category: must-know
 
 inAlgoPool: false
 
+parent: introducing-the-osi-model
+
 links:
 
   - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
