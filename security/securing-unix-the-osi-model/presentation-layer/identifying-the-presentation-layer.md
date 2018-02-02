@@ -13,6 +13,7 @@ type: normal
 
 category: must-know
 
+inAlgoPool: false
 
 links:
 
