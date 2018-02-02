@@ -13,6 +13,8 @@ type: normal
 
 category: must-know
 
+inAlgoPool: false
+
 links:
 
   - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
