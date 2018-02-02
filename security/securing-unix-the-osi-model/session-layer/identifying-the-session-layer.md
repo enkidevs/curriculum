@@ -15,6 +15,8 @@ category: must-know
 
 inAlgoPool: false
 
+parent: securing-the-transport-layer
+
 links:
 
   - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
