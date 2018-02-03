@@ -18,7 +18,8 @@ links:
 
 A `Nine-Patch` is an image that has stretchable areas defined. These areas are defined in one pixel border around the area. Add black pixels to the top and left of the border to describe where the image can be stretched horizontally or vertically. Nine patch images are especially useful when designing buttons. Custom drawn buttons can look distorted and pixelated when their borders are stretched in addition to the rest of the images. Below are the mentioned steps. 
 
-Steps for converting PNG to 9 Patch PNG
+**Steps** 
+
 1. Add a .png image to the android project folder. 
 2. Right-click the original png image. Click Create 9-Patch file in the popup menu list. 
 3. The same png image with .9.png suffix is created in the drawable folder. 
