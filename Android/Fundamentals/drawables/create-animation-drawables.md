@@ -18,7 +18,7 @@ links:
 
 Android offers to developers a great Animation API that lets them to create easily frame animation in XML or programmatically. In the section, learn how to create a frame animation in XML. For this, we’re going to use a lion character that we want to animate.
 
-**How To**
+**Steps**
 1. Create the frames of the lion animation. 
 2. Create the animation using an XML file. 
 When your Android application project is created, you need to put the bitmaps in a res/drawable directory. Then, you can create the Animation in XML like the following below:
