@@ -21,7 +21,9 @@ Android allows you to use the Bitmap class for working with bitmaps. A `bitmap` 
 This example teaches you to convert a drawable image to bitmap and display it in ImageView with simple java code.
 
 **Steps**
+
 Step 1: Upload an image inside the drawable folder. 
+
 Step 2: Access the XML Layout file. Below is the following code:
 
 **XML Layout File**
