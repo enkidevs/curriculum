@@ -22,7 +22,8 @@ Vector drawables are based on vector graphics which vector graphics describes gr
 
 Below are the steps to create a vector drawable. 
 
-Steps
+**Steps**
+
 1. Ensure the code is in gradle scripts(build.gradle(Module: app))
 Example listed below:
 
