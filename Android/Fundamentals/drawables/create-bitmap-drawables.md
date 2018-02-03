@@ -23,7 +23,6 @@ This example teaches you to convert a drawable image to bitmap and display it in
 **Steps**
 
 1. Upload an image inside the drawable folder. 
-
 2. Access the XML Layout file. Below is the following code:
 
 **XML Layout File**
