@@ -22,9 +22,9 @@ This example teaches you to convert a drawable image to bitmap and display it in
 
 **Steps**
 
-Step 1: Upload an image inside the drawable folder. 
+1. Upload an image inside the drawable folder. 
 
-Step 2: Access the XML Layout file. Below is the following code:
+2. Access the XML Layout file. Below is the following code:
 
 **XML Layout File**
 
@@ -61,7 +61,7 @@ Step 2: Access the XML Layout file. Below is the following code:
 
 </LinearLayout>
 
-Step 3: Access the Java Activity File. Below is the following code: 
+3. Access the Java Activity File. Below is the following code: 
 
 ```
 package com.example.tammy.bitmapdrawable2;
@@ -95,7 +95,7 @@ AppCompatActivity {
         
 ```
 
-Step 3: Access Strings.xml file. Below is the following code.
+4. Access Strings.xml file. Below is the following code.
 ```
 <resources>
 
