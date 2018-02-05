@@ -1,15 +1,19 @@
 # Energy Consumption and Ecology
-
 author: mihaiberq
+
 levels:
+
   - beginner
+
   - basic
-stub: true
-tags:
-  - introduction
 
 type: normal
+
 category: must-know
+
+tags:
+
+  - introduction
 
 ---
 ## Content
@@ -29,6 +33,7 @@ The three things you need for setting up a mining data center are:
 * cheap power
 * cool climate
 
+---
 ## Revision
 
 Other than electricity consumed for making the chip and running it, what else does consume the most energy during mining?

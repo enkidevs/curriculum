@@ -2,12 +2,11 @@ name: Altcoins
 
 type: insights-list
 
-description: TODO
+description: todo
 
-section: 0
-
-parent: reward-algorithms
+section: 1
 
 insights:
-  - why-do-we-need-multiple-coins
-  - altcoins
+ - why-do-we-need-multiple-coins
+ - altcoins
+

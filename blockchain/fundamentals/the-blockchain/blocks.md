@@ -1,15 +1,21 @@
 # Blocks
 author: mihaiberq
+
 levels:
+
   - beginner
+
   - basic
-stub: true
-tags:
-  - introduction
-  - workout
-  
+
 type: normal
+
 category: must-know
+
+tags:
+
+  - introduction
+
+  - workout
 
 ---
 ## Content
@@ -26,8 +32,9 @@ Who decides the condition that must be satisfied for a new block to be added to 
 * The network
 * The miner
 * The central authority
-* There is no such condition 
+* There is no such condition
 
+---
 ## Revision
 
 In a blockchain, what is the information stored in blocks?

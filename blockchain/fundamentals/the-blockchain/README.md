@@ -2,11 +2,12 @@ name: The Blockchain
 
 type: insights-list
 
-description: TODO
+description: todo
 
 section: 0
 
 insights:
-  - what-is-a-blockchain
-  - blocks
-  - blockchain-applications
+ - what-is-a-blockchain
+ - blocks
+ - blockchain-applications
+

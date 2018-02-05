@@ -1,15 +1,19 @@
 # Why do we need multiple coins?
-
 author: mihaiberq
+
 levels:
+
   - basic
+
   - medium
-stub: true
-tags:
-  - introduction
 
 type: normal
+
 category: must-know
+
+tags:
+
+  - introduction
 
 ---
 ## Content
@@ -28,6 +32,7 @@ Identify one way of creating new cryptocurrencies:
 * Adding new nodes to the network
 * Modifying the mining puzzle
 
+---
 ## Revision
 
 Evaluate the following statement: "Some altcoins are created solely to be scams."

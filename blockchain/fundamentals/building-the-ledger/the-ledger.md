@@ -1,16 +1,21 @@
 # The Ledger
-
 author: mihaiberq
+
 levels:
+
   - beginner
+
   - basic
-stub: true
-tags:
-  - introduction
-  - workout
 
 type: normal
+
 category: must-know
+
+tags:
+
+  - introduction
+
+  - workout
 
 ---
 ## Content
@@ -29,6 +34,7 @@ Identify the valid blockchain operation from the list below:
 * Remove data
 * Update data
 
+---
 ## Revision
 
 In the context of Bitcoin, the ledger is

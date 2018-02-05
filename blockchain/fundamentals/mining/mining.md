@@ -1,15 +1,19 @@
 # Mining
-
 author: mihaiberq
+
 levels:
+
   - beginner
+
   - basic
-stub: true
-tags:
-  - introduction
 
 type: normal
+
 category: must-know
+
+tags:
+
+  - introduction
 
 ---
 ## Content
@@ -28,6 +32,7 @@ Choose from the following list the case in which successful mining doesn't yield
 * Successfuly mining blocks always yields rewards.
 * The nonce is 0.
 
+---
 ## Revision
 
 What effect does mining have on the structure of the blockchain?

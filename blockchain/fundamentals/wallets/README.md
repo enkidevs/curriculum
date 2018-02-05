@@ -2,11 +2,10 @@ name: Wallets
 
 type: insights-list
 
-description: TODO
+description: todo
 
-section: 0
-
-parent: altcoins
+section: 1
 
 insights:
-  - wallets
+ - wallets
+

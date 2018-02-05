@@ -1,15 +1,19 @@
 # How Can One Mine?
-
 author: mihaiberq
+
 levels:
+
   - beginner
+
   - basic
-stub: true
-tags:
-  - introduction
 
 type: normal
+
 category: must-know
+
+tags:
+
+  - introduction
 
 ---
 ## Content
@@ -28,6 +32,7 @@ In the context of Bitcoin, which piece of hardware is the most effective for min
 * CPU
 * FPGA
 
+---
 ## Revision
 
 In the context of Bitcoin, what is the name of the variable used to solve the challenge?

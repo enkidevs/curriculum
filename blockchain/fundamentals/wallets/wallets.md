@@ -1,16 +1,24 @@
 # Wallets
 author: mihaiberq
+
 levels:
+
   - basic
+
   - medium
-stub: true
-links:
-  - '[Generating your own address](http://procbits.com/2013/08/27/generating-a-bitcoin-address-with-javascript)'
-tags:
-  - introduction
 
 type: normal
+
 category: must-know
+
+tags:
+
+  - introduction
+
+links:
+
+  - >-
+    [Generating your own address](http://procbits.com/2013/08/27/generating-a-bitcoin-address-with-javascript)
 
 ---
 ## Content
@@ -29,6 +37,7 @@ What does a cryptocurrency wallet contain?
 * A QR code
 * A list of coin IDs
 
+---
 ## Revision
 
 What do you need to obtain an address' balance for a particular cryptocoin?
@@ -39,3 +48,4 @@ What do you need to obtain an address' balance for a particular cryptocoin?
 * The private key and a blockchain connection.
 * The public key.
 * The public/private key pair.
+

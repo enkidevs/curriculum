@@ -1,16 +1,21 @@
-# Proof-of-Work
-
+# Proof of Work
 author: mihaiberq
+
 levels:
+
   - basic
+
   - medium
-stub: true
-tags:
-  - introduction
-  - deep
 
 type: normal
+
 category: must-know
+
+tags:
+
+  - introduction
+
+  - deep
 
 ---
 ## Content
@@ -29,6 +34,7 @@ In the context of Bitcoin, what is the puzzle solved?
 * Reversing a hash
 * Finding a Cunningham chain
 
+---
 ## Revision
 
 Who does PoW scheme usually advantage?
@@ -39,4 +45,17 @@ Who does PoW scheme usually advantage?
 * Average miner
 * Those with over 1000 coins
 * No one in particular
+
+---
+## Quiz
+
+headline: Identify the resource intensive mining proof.
+
+question: Which mining validation technique is the most resource intensive for miners?
+
+answers:
+  - Proof of work
+  - Proof of stake
+  - Proof of burn
+  - Proof of sweat
 

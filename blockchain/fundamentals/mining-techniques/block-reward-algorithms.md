@@ -1,23 +1,25 @@
-# Reward Algorithms
-
+# Block Reward Algorithms
 author: mihaiberq
+
 levels:
+
   - basic
+
   - medium
-stub: true
-tags:
-  - introduction
-  - deep
 
 type: normal
+
 category: must-know
+
+tags:
+
+  - introduction
+
+  - deep
 
 ---
 ## Content
 
-what do you have to know about reward algorithms?
-multiple types
-not one better than the other, but rather one fairer than the other.
 
 
 ---
@@ -27,11 +29,12 @@ In case the node picked to append the next block is based on the computing power
 
 ???
 
-* Proof-of-work
-* Proof-of-stake
-* Proof-of-concept
-* Proof-of-power 
+* Proof of work
+* Proof of stake
+* Proof of concept
+* Proof of power
 
+---
 ## Revision
 
 In the context of Bitcoin, what is the reward for running a full node?
@@ -42,4 +45,17 @@ In the context of Bitcoin, what is the reward for running a full node?
 * The node reward is equal to the block reward.
 * Exactly 10% of the block reward.
 * A small fee off of ever confirmed transaction.
+
+---
+## Quiz
+
+headline: Pick the odd one out.
+
+question: Which of the following is not a way to validate blocks?
+
+answers:
+  - Proof of burn
+  - Proof of work
+  - Proof of stake
+  - Proof of useful work
 

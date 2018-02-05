@@ -2,14 +2,13 @@ name: Mining
 
 type: insights-list
 
-description: TODO
+description: todo
 
 section: 0
 
-parent: building-the-ledger
-
 insights:
-  - mining
-  - how-can-one-mine
-  - mining-pools
-  - energy-consumption-and-ecology
+ - mining
+ - how-can-one-mine
+ - mining-pools
+ - energy-consumption-and-ecology
+

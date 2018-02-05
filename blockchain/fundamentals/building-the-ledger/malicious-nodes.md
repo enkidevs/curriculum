@@ -1,16 +1,21 @@
 # Malicious Nodes
-
 author: mihaiberq
+
 levels:
+
   - beginner
+
   - basic
-stub: true
-tags:
-  - introduction
-  - workout
 
 type: normal
+
 category: must-know
+
+tags:
+
+  - introduction
+
+  - workout
 
 ---
 ## Content
@@ -29,6 +34,7 @@ What is it that keeps nodes from going bad?
 * Exclusion from blockchain
 * Higher pick rate
 
+---
 ## Revision
 
 Identify a blockchain attack that, although unlikely, has 100% rate of success.

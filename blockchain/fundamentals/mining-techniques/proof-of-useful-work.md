@@ -1,16 +1,21 @@
 # Proof of Useful Work
-
 author: mihaiberq
+
 levels:
+
   - basic
+
   - medium
-stub: true
-tags:
-  - introduction
-  - deep
 
 type: normal
+
 category: must-know
+
+tags:
+
+  - introduction
+
+  - deep
 
 ---
 ## Content
@@ -29,7 +34,7 @@ Identify a property a uPoW puzzle must have such that it can be implemented as m
 * Solution are not equally likely
 * NP-hardness
 
-
+---
 ## Revision
 
 What is usually the type of puzzles solved using uPoW scheme?

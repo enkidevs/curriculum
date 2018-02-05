@@ -1,15 +1,19 @@
 # Mining Pools
-
 author: mihaiberq
+
 levels:
+
   - beginner
+
   - basic
-stub: true
-tags:
-  - introduction
 
 type: normal
+
 category: must-know
+
+tags:
+
+  - introduction
 
 ---
 ## Content
@@ -31,6 +35,7 @@ con: ???
 * high reward
 * no fees
 
+---
 ## Revision
 
 For most cryptocurrencies, solo mining stops being profitable after the first few months. To increase the chance of payouts, it is recommended to join ???

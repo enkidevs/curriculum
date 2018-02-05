@@ -1,15 +1,19 @@
 # Altcoins
-
 author: mihaiberq
+
 levels:
+
   - basic
+
   - medium
-stub: true
-tags:
-  - introduction
 
 type: normal
+
 category: must-know
+
+tags:
+
+  - introduction
 
 ---
 ## Content
@@ -28,11 +32,13 @@ Which Bitcoin fork is 4 times as fast as Bitcoin?
 * Bitcoin
 * Etherum
 
+---
 ## Revision
 
 Altcoin independent public keys can be derived from the same private key.
 
 ???
+
 * True
 * False
 

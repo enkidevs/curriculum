@@ -1,16 +1,21 @@
-# Proof-of-Stake
-
+# Proof of Stake
 author: mihaiberq
+
 levels:
+
   - basic
+
   - medium
-stub: true
-tags:
-  - introduction
-  - deep
 
 type: normal
+
 category: must-know
+
+tags:
+
+  - introduction
+
+  - deep
 
 ---
 ## Content
@@ -29,6 +34,7 @@ What is the main difference between PoW and PoS?
 * Miners verify
 * Miners are called stakeholders
 
+---
 ## Revision
 
 Identify the weighting factor in future Etherum PoS scheme:
@@ -39,5 +45,4 @@ Identify the weighting factor in future Etherum PoS scheme:
 * The computing power one has.
 * The time since one's last transaction.
 * One's time spent mining.
-
 
