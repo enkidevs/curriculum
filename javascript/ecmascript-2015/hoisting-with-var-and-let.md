@@ -17,7 +17,7 @@ tags:
 
 links:
 
-  - [es6-features.org](http://es6-features.org/#BlockScopedVariables){website}
+  - '[es6-features.org](http://es6-features.org/#BlockScopedVariables){website}'
 
 ---
 ## Content

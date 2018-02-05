@@ -11,9 +11,9 @@ inAlgoPool: false
 
 category: tip
 
-link:
+links:
   
-  - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let){website}
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let){website}'
 
 ---
 ## Content

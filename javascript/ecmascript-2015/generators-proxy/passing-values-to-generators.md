@@ -13,9 +13,9 @@ inAlgoPool: false
 
 category: must-know
 
-link:
+links:
   
-  - [MDN - Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}
+  - '[MDN - Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}'
   
 ---
 ## Content

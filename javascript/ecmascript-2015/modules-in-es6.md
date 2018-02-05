@@ -15,11 +15,11 @@ category: feature
 
 links:
 
-  - [exploringjs.com](http://exploringjs.com/es6/ch_modules.html){website}
+  - '[exploringjs.com](http://exploringjs.com/es6/ch_modules.html){website}'
   
-  - [MDN - Export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export){website}
+  - '[MDN - Export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export){website}'
 
-  - [MDN - Import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import){website}
+  - '[MDN - Import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import){website}'
 
 ---
 ## Content

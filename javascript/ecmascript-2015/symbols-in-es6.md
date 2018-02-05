@@ -15,9 +15,9 @@ category: feature
 
 links:
 
-  - [www.2ality.com](http://www.2ality.com/2014/12/es6-symbols.html){website}
+  - '[www.2ality.com](http://www.2ality.com/2014/12/es6-symbols.html){website}'
   
-  - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){website}
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){website}'
 
 ---
 ## Content

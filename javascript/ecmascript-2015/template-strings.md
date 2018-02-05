@@ -19,7 +19,7 @@ tags:
 
 links:
 
-  - [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/template_strings){website}
+  - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/template_strings){website}'
 
 ---
 ## Content

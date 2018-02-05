@@ -15,7 +15,7 @@ category: must-know
 
 links:
 
-  - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){website}
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){website}'
 
 ---
 ## Content

@@ -15,11 +15,11 @@ category: feature
 
 links:
 
-  - [github.com](https://github.com/lukehoban/es6features#arrows){website}
+  - '[github.com](https://github.com/lukehoban/es6features#arrows){website}'
 
-  - [www.2ality.com](http://www.2ality.com/2014/12/es6-proxies.html){website}
+  - '[www.2ality.com](http://www.2ality.com/2014/12/es6-proxies.html){website}'
   
-  - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy){website}
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy){website}'
 
 ---
 ## Content

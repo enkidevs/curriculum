@@ -23,9 +23,9 @@ inAlgoPool: false
 
 category: feature
 
-link:
+links:
   
-  - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions){website}
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions){website}'
   
 ---
 ## Content

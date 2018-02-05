@@ -20,7 +20,7 @@ tags:
 
 links:
 
-  - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Collator){website}
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Collator){website}'
 
 ---
 ## Content

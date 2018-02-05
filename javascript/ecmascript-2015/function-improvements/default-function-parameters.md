@@ -21,7 +21,7 @@ tags:
 
 links:
 
-  - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters){website}
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters){website}'
 
 ---
 ## Content
