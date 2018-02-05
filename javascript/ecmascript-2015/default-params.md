@@ -13,10 +13,9 @@ category: must-know
 
 links:
 
-  - >-
-    [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Default_parameters){website}
+  - [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Default_parameters){website}
 
-  - '[SitePoint](https://www.sitepoint.com/es6-default-parameters/){website}'
+  - [SitePoint](https://www.sitepoint.com/es6-default-parameters/){website}
 
 ---
 ## Content

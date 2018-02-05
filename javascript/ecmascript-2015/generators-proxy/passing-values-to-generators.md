@@ -13,6 +13,10 @@ inAlgoPool: false
 
 category: must-know
 
+link:
+  
+  - [MDN - Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}
+  
 ---
 ## Content
 

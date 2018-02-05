@@ -13,7 +13,9 @@ category: must-know
 
 links:
 
-  - '[ponyfoo](https://ponyfoo.com/articles/es6-symbols-in-depth)'
+  - [ponyfoo](https://ponyfoo.com/articles/es6-symbols-in-depth)
+  
+  - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){website}
 
 ---
 ## Content

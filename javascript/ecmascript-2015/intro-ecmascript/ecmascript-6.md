@@ -13,9 +13,9 @@ category: must-know
 
 links:
 
-  - '[EcmaScript 6 Features](https://github.com/lukehoban/es6features){website}'
+  - [EcmaScript 6 Features](https://github.com/lukehoban/es6features){website}
 
-  - '[Babel](https://babeljs.io/){website}'
+  - [Babel](https://babeljs.io/){website}
 
 ---
 ## Content

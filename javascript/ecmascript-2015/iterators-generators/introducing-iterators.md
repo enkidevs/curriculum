@@ -14,8 +14,10 @@ inAlgoPool: false
 category: must-know
 
 links:
-
-  - '[ponyfoo.com](https://ponyfoo.com/articles/es6-iterators-in-depth)'
+  
+  - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols){website}
+  
+  - [ponyfoo.com](https://ponyfoo.com/articles/es6-iterators-in-depth)
 
 ---
 ## Content

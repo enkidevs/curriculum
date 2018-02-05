@@ -15,9 +15,13 @@ category: feature
 
 links:
 
-  - '[github.com](https://github.com/lukehoban/es6features#arrows){website}'
+  - [github.com](https://github.com/lukehoban/es6features#arrows){website}
 
-  - '[www.2ality.com](http://www.2ality.com/2015/02/es6-scoping.html){website}'
+  - [www.2ality.com](http://www.2ality.com/2015/02/es6-scoping.html){website}
+
+  - [MDN - Let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let){website}
+  
+  - [MDN - Const](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const){website}
 
 ---
 ## Content

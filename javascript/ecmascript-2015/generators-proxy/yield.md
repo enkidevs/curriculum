@@ -13,6 +13,10 @@ inAlgoPool: false
 
 category: must-know
 
+link:
+
+  [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield#Examples){website}
+  
 ---
 ## Content
 

@@ -11,7 +11,8 @@ category: feature
 
 links:
 
-  - '[www.2ality.com](http://www.2ality.com/2015/02/es6-iteration.html){website}'
+  - [www.2ality.com](http://www.2ality.com/2015/02/es6-iteration.html){website}
+  - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of){website}
 
 ---
 ## Content
