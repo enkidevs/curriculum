@@ -23,12 +23,6 @@ tags:
 
 
 ---
-## Practice
-
-
-
-
----
 ## Revision
 
 Why would a bitcoin holder use a mixer?

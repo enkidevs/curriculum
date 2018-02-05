@@ -4,7 +4,7 @@ type: insights-list
 
 description: todo
 
-section: 1
+section: 0
 
 insights:
  - why-do-we-need-multiple-coins

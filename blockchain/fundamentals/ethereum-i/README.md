@@ -4,7 +4,7 @@ type: insights-list
 
 description: todo
 
-section: 2
+section: 0
 
 insights:
  - ethereum-and-ether

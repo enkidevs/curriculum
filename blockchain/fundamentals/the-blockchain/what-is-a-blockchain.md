@@ -46,9 +46,9 @@ A blockchain is a ??? network.
 ---
 ## Quiz
 
-headline: null
+headline: What does the following definition refer to?
 
-question: Can you identify what concept is defined by the `sequence of transaction bundles` syntagm?
+question: Can you identify what concept can be defined by the `sequence of data bundles` syntagm?
 
 answers:
   - Blockchain
