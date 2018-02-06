@@ -95,7 +95,7 @@ z = foo(4)
 
 Is the variable `a` still in scope when it is printed?
 ```
-def foo()
+def foo():
     a = "Hello World"
     return a
 
