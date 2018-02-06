@@ -4,9 +4,9 @@ type: insights-list
 
 description: all about Scope in JavaScript
 
-section: 2
+section: 1
 
-parent:
+parent: functions-ii
 
 insights:
   - hoisting

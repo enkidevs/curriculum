@@ -14,3 +14,5 @@ insights:
   - types-boolean-and-number
   - types-string
   - be-careful-when-using-typeof
+
+game: taking-precedence

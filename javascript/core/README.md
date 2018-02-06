@@ -14,13 +14,13 @@ sections:
     - arrays
     - objects
   '1':
+    - types-ii
     - strings
+    - numbers
     - array-methods
     - functions-ii
     - scope
     - errors
-    - types-ii
-    - numbers
   '2':
     - functions-iii
     - recipes-i

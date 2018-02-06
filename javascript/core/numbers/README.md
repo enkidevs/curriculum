@@ -1,18 +1,17 @@
-name: Tips III
+name: Numbers
 
 type: insights-list
 
-description: Explore tips, tricks and features of JavaScript.
+description: A deeper dive into Numbers in JavaScript
 
 section: 1
 
-parent: quirks-ii
+parent: strings
 
 insights:
-  - extra-function-arguments-are-undefined-by-default
-  - functions-return-undefined-by-default
-  - double-and-single-quotes
-  - multi-line-string-variables
-  - infix-operators-are-left-associative
+  - base-conversion
+  - inaccuracy-of-binary-floating-point-format
+  - parsing-numbers-and-ieee-754
+  - nan-is-a-number
 
 game: infinity-game

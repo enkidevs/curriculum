@@ -6,7 +6,7 @@ description: Explore various recipes using arrays' methods.
 
 section: 1
 
-parent: foo-features-and-fun-facts-game
+parent: numbers
 
 insights:
   - get-a-random-item-from-an-array

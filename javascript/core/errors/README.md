@@ -4,9 +4,9 @@ type: insights-list
 
 description: Debug errors in JavaScript
 
-section: 2
+section: 1
 
-parent: recipes-i
+parent: scope
 
 insights:
   - debugging
