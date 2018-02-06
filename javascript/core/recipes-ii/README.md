@@ -12,3 +12,4 @@ insights:
   - milliseconds-since-epoch
   - counting-the-months-from-zero
   - performing-a-function-at-timed-intervals
+  - avoid-using-with

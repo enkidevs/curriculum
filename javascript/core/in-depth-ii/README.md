@@ -6,7 +6,7 @@ description: Go deeper into the dark corners of JavaScript
 
 section: 2
 
-parent: 
+parent: recipes-i
 
 insights:
   - method-chaining
