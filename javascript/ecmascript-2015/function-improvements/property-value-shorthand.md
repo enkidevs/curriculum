@@ -13,9 +13,9 @@ category: must-know
 
 links:
 
-  - >-
-    [benmvp.com](http://www.benmvp.com/learning-es6-enhanced-object-literals/){website}
-
+  - '[benmvp.com](http://www.benmvp.com/learning-es6-enhanced-object-literals/){website}'
+  
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer){website}'
 ---
 ## Content
 
