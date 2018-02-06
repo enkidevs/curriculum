@@ -6,8 +6,6 @@ description: Particularities of functions, in depth.
 
 section: 2
 
-parent: functions-ii
-
 insights:
   - context-in-javascript
   - changing-a-functions-context-with-fn-call-object
