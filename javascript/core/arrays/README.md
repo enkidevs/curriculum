@@ -6,7 +6,7 @@ description: JavaScript Arrays
 
 section: 0
 
-parent: infinity-game
+parent: functions-i
 
 insights:
   - arrays

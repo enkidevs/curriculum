@@ -1,10 +1,12 @@
-name: Tips I
+name: Objects
 
 type: insights-list
 
-description: Explore tips, tricks and features of JavaScript.
+description: An introduction to Objects in JavaScript
 
 section: 1
+
+parent: arrays
 
 insights:
   - object-part-1

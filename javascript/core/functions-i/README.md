@@ -2,11 +2,11 @@ name: Functions
 
 type: insights-list
 
-description: Learn to create and use parameterized functions 
+description: Learn to create and use parameterized functions
 
 section: 0
 
-parent: basics
+parent: flow-control
 
 insights:
   - declaring-functions
