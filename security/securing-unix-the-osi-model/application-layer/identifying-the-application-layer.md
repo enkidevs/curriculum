@@ -31,7 +31,7 @@ Due to its high level of variance and loose security standards, this Layer is th
 ---
 ## Practice
 
-What role does the Data Link Layer play in the OSI 7 Layer Model?
+What role does the Application Layer play in the OSI 7 Layer Model?
 ???
 
 * Provide a user interface with high level functions for interacting with the network
