@@ -14,3 +14,5 @@ insights:
   - change-the-color-of-the-decoration-with-text-decoration-color
   - change-the-style-of-the-decoration-with-text-decoration-style
   - using-the-font-variant-property-to-transform-text-to-small-caps
+
+game: existential-crisis
