@@ -61,7 +61,6 @@ tools:context=
 "com.example.tammy.shapedrawable.
 MainActivity">
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
@@ -79,6 +78,7 @@ MainActivity">
     </LinearLayout>
 
 </LinearLayout>
+
 
 
 ```
