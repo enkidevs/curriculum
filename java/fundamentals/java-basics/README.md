@@ -2,7 +2,7 @@ name: Java Basics
 
 type: insights-list
 
-description: Learn about the fundamental principles employed in Java programming. 
+description: Learn about the fundamental principles employed in Java programming.
 
 section: 0
 

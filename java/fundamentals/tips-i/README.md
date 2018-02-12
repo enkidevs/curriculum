@@ -14,3 +14,5 @@ insights:
   - avoid-similar-names
   - avoid-synonyms-when-naming
   - follow-existing-project-naming-conventions
+
+game: java-8

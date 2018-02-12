@@ -10,5 +10,5 @@ insights:
   - loose-and-tight-coupling
   - cohesion
   - do-not-return-references-to-private-mutable-class-members
-  - measuring-time
-  - two-ways-to-use-an-iterator
+  - using-an-interface-as-a-parameter
+  - default-constructors
