@@ -14,3 +14,5 @@ insights:
   - difference-between-initial-and-inherit
   - the-difference-between-display-none-and-visibility-hidden
   - page-breaks-for-printing
+
+game: c-s-splat
