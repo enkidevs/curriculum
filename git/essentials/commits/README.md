@@ -2,11 +2,11 @@ name: Commits
 
 type: insights-list
 
-description: Explore the unit of work in git - the commit. 
+description: Explore the unit of work in git - the commit.
 
 section: 0
 
-parent: git-erminology-game
+game: git-erminology-game
 
 insights:
   - what-is-stored-in-a-commit
