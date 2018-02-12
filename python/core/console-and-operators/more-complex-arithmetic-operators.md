@@ -11,6 +11,9 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  py.native-types-operations.2: 10
+
 ---
 ## Content
 
@@ -40,9 +43,9 @@ Complete the following code snippet to execute 3 to the power of 4:
 ```
 3 ??? 4
 ```
-*`**` 
-*`*` 
-*` ***` 
+*`**`
+*`*`
+*` ***`
 *`^`
 
 ---
@@ -55,8 +58,8 @@ What does the following code snippet return:
 ```
 ???
 
-*`2` 
-*`3` 
-*`4` 
-*`2.5` 
+*`2`
+*`3`
+*`4`
+*`2.5`
 *`4.66`

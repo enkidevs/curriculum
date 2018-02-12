@@ -9,6 +9,9 @@ type: normal
 
 category: must-know
 
+standards:
+  py.native-types-operations.6: 10
+
 links:
 
   - >-

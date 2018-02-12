@@ -9,6 +9,9 @@ type: normal
 
 category: how to
 
+standards:
+  py.standard-library-operating-system.0: 10
+
 links:
 
   - '[More about reading from files](http://www.pythonforbeginners.com/files/reading-and-writing-files-in-python)'

@@ -9,6 +9,9 @@ type: normal
 
 category: feature
 
+standards:
+  py.standard-library-operating-system.0: 10
+
 links:
 
   - '[More operations here](https://www.tutorialspoint.com/python/python_files_io.htm)'

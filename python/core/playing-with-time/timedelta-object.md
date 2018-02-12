@@ -13,6 +13,10 @@ inAlgoPool: false
 
 category: feature
 
+standards:
+  py.native-types-operations.8: 10
+  py.standard-library-data.2: 10
+
 parent: datetime-object
 
 links:

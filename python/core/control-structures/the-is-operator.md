@@ -11,6 +11,9 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  py.native-types-operations.0: 10
+
 links:
 
   - >-

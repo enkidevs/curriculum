@@ -11,6 +11,9 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  py.native-types-operations.2: 10
+
 ---
 ## Content
 

@@ -11,6 +11,10 @@ inAlgoPool: false
 
 category: tip
 
+standards:
+  py.functions.3: 10
+
+
 ---
 ## Content
 

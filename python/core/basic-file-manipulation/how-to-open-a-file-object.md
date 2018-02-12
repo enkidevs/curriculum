@@ -11,6 +11,9 @@ type: normal
 
 category: how to
 
+standards:
+  py.standard-library-operating-system.0: 10
+
 links:
 
   - '[More about open() function](https://www.tutorialspoint.com/python3/python_files_io.htm)'

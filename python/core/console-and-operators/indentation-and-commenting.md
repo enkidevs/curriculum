@@ -11,6 +11,9 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  py.identify-python-syntax.2: 10
+
 links:
 
   - >-

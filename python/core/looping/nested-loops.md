@@ -11,6 +11,9 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  py.control-structures.0: 10
+
 ---
 ## Content
 

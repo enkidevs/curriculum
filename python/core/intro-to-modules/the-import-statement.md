@@ -9,6 +9,10 @@ type: normal
 
 category: must-know
 
+standards:
+  py.modules.0: 10
+
+
 links:
 
   - '[More about import](https://www.digitalocean.com/community/tutorials/how-to-import-modules-in-python-3)'

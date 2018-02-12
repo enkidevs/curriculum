@@ -11,6 +11,9 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  py.native-types-operations.2: 10
+
 links:
 
   - >-
@@ -58,11 +61,11 @@ What are the outputs to the following code snippet respectively:
 ???
 ???
 
-*`4` 
-*`25.75` 
-*`5` 
-*`6` 
-*`3` 
-*`26.25` 
-*`25` 
+*`4`
+*`25.75`
+*`5`
+*`6`
+*`3`
+*`26.25`
+*`25`
 *`26`

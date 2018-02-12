@@ -13,8 +13,11 @@ type: normal
 
 category: must-know
 
+standards:
+  py.object-oriented.3: 10
+
 notes: >
-  Possible intro to classes/oop workout for beginners. 
+  Possible intro to classes/oop workout for beginners.
 
 
   Notes by Vasudev: The insight content is too small to stand alone. It should
@@ -44,7 +47,7 @@ class Enki:
 ```
 Method definitions in a class (`def` statements) only define the method, they do not execute its body when encountered. Methods are only executed when they are invoked on a created class instance.
 
-A **class object** is created when a class defition ends; it is a wrapper around the contents of the class.
+A **class object** is created when a class definition ends; it is a wrapper around the contents of the class.
 
 You can create an empty class object using the `pass` keyword:
 ```python
@@ -57,9 +60,9 @@ class Enki:
 
 Method definition in a class is done with the help of ??? keyword.
 
-*`def` 
-*`pass` 
-*`return` 
+*`def`
+*`pass`
+*`return`
 *`yield`
 
 ---
@@ -67,7 +70,7 @@ Method definition in a class is done with the help of ??? keyword.
 
 You can create an empty class with the ??? keyword.
 
-*`pass` 
-*`return` 
-*`yield` 
+*`pass`
+*`return`
+*`yield`
 *`def`
