@@ -16,7 +16,49 @@ links:
 ---
 ## Content
 
-Insight content goes here
+To define shape:
+1.	Create a new Android XML file in the folder res/drawable.
+2.	Make sure the root element of the file is <shape> as this defines a ShapeDrawable.
+
+**Example**
+```
+<shape xmlns:android=
+"http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <!-- other shapes are oval, line ,ring -->
+
+    <stroke
+        android:width="2dp"
+        android:color="#FFFFFF"/>
+    <!-- Creates an outline around 
+     the shape -->
+    <!-- To get the dashes effect use
+        android:dashGap="integer"
+        android:dashWidth="integer" -->
+
+    <corners android:radius="5dp"/>
+    <gradient
+        android:type="linear"
+        android:angle="270"
+        android:centerColor="#ff6e89"
+        android:endColor="#a37875"
+        android:startColor="#bfffba" />
+    <!-- Other types are radial and sweep -->
+
+    <!-- <padding
+        android:left="integer"
+        android:top="integer"
+        android:right="integer"
+        android:bottom="integer" /> -->
+    <!-- If you want to specify padding -->
+    <size
+        android:width="100dp"
+        android:height="100dp" />
+    <!-- If you want to specify size -->
+
+</shape>
+
+```
 
 ---
 ## Practice
