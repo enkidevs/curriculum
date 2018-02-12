@@ -14,3 +14,4 @@ insights:
   - sending-emails-from-terminal-scripts
   - stress-testing-with-ab
   - useful-ssh-client-optimizations
+  - list-your-ipv6-configuration

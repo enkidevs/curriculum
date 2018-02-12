@@ -12,3 +12,5 @@ insights:
   - granting-root-access-to-a-user
   - run-previous-command-as-root
   - executing-commands-with-sudo-without-password
+
+game: know-your-rights
