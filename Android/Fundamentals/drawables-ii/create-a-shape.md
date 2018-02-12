@@ -61,6 +61,26 @@ tools:context=
 "com.example.tammy.shapedrawable.
 MainActivity">
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/bxbg"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello"
+            android:textColor="#000"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
 ```
 
 ---
