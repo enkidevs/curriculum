@@ -45,6 +45,39 @@ To define shape:
 
 </shape>
 
+```
+res/layout/main.xml
+```
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android=
+"http://schemas.android.com/apk/res/android"
+    xmlns:app=
+    "http://schemas.android.com/apk/res-auto"
+    xmlns:tools=
+    "http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=
+    "com.example.tammy.shapedrawable.
+    MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/bxbg"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello"
+            android:textColor="#000"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</LinearLayout>
 
 ```
 
