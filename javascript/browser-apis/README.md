@@ -1,11 +1,18 @@
 sections:
-  - 0
-  - 1
+  '0':
+    - navigation
+    - toolbox-i
+    - user-interaction
+  '1':
+    - measuring-performance
+    - reading-writing
+    - toolbox-ii
+    - user-interaction
 
 description: The browser. The mother of javascript. You'll work better, together.
 
 next:
-  - javascript-node
+  - javascript:node
 
 prerequisites:
-  - javascript-core
+  - javascript:core
