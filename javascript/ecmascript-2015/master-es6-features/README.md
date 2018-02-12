@@ -14,3 +14,5 @@ insights:
   - reflect-api-in-es6
   - tail-call-optimisation-in-es6
   - typed-arrays
+
+game: javascript-hard-mode-ii

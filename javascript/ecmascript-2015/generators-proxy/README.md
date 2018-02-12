@@ -14,3 +14,5 @@ insights:
   - generators-and-exceptions
   - introducing-proxy
   - proxy-interception-points
+
+game: generators-and-promises
