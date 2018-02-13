@@ -39,7 +39,7 @@ while (fruitIt.hasNext()){
   System.out.println(fruitIt.next());
 }
 //iterating over a list using a for loop
-for (Iterator<String> fruitIt = 
+for (Iterator<String> fruitIt =
   fruit.iterator(); fruitIt.hasNext()){
   System.out.println(fruitIt.next());
 }
@@ -54,18 +54,18 @@ Complete the following code such that it iterates over a while loop:
 List<String> enki = Arrays.asList(
 "enki", "is", "awesome");
 
-Iterator<String> enkIt = 
+Iterator<String> enkIt =
             enki.???();
 while (enkIt.???()){
   System.out.println(enkIt.next());
 }
 ```
-*`iterator` 
-*`hasNext` 
-*`next` 
-*`hasElements` 
-*`Iterator` 
-*`containsElements`
+* `iterator`
+* `hasNext`
+* `next`
+* `hasElements`
+* `Iterator`
+* `containsElements`
 
 ---
 ## Revision
@@ -74,9 +74,9 @@ An `iterator` can be used to :
 
 ???
 
-*`iterate over for and while loops` 
-*`see elements of an array` 
-*`concatenate strings` 
-*`append strings` 
-*`iterate a class` 
-*`iterate a method`
+* `iterate over for and while loops`
+* `see elements of an array`
+* `concatenate strings`
+* `append strings`
+* `iterate a class`
+* `iterate a method`

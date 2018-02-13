@@ -15,8 +15,7 @@ category: feature
 
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/WeakMap){website}
+  - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/WeakMap){website}'
 
 ---
 ## Content

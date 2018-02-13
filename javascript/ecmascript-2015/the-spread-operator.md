@@ -19,9 +19,9 @@ tags:
 
 links:
 
-  - >-
-    [ponyfoo.com](https://ponyfoo.com/articles/es6-spread-and-butter-in-depth){website}
-
+  - '[ponyfoo.com](https://ponyfoo.com/articles/es6-spread-and-butter-in-depth){website}'
+  
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Array_destructuring){website}'
 ---
 ## Content
 

@@ -57,7 +57,7 @@ Fill in the gaps for the following snippet to make sense:
 $ touch script.sh
 $ test ??? script.sh && echo "created"
 # created
-$ chmod -x script.sh
+$ chmod +x script.sh
 $ test ??? script.sh && echo "executable"
 # executable
 ```

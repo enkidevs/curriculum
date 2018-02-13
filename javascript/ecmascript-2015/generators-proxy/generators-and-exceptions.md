@@ -13,6 +13,12 @@ inAlgoPool: false
 
 category: must-know
 
+links:
+  
+  - '[MDN - Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}'
+  
+  - '[MDN - Exception Handling](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator/throw){website}'
+
 ---
 ## Content
 

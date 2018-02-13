@@ -9,7 +9,7 @@ sections:
     - immutability
     - iterators
 
-description: Why is Python a functional language and how to take advantage of it.
+description: Why Python is a functional language and how to take advantage of it.
 
 next:
   - comp-sci:data-structures-and-algorithms

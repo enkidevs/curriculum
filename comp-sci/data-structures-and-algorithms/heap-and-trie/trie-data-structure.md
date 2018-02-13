@@ -30,7 +30,7 @@ The best example that uses the trie data structure is the autocomplete function 
 
 A node that has a *value associated* represents a word with a higher or lower chance to be picked by the autocomplete function.
 
-Looking up data in a *trie* is fast; the worst case takes *O(m)*, where *m* is the length of the string, and you don't have to worry about two different words ending up in the same location(*collision*).
+Looking up data in a *trie* is fast; the worst case takes *O(m)*, where *m* is the length of the string, and you don't have to worry about two different words ending up in the same location (*collision*).
 
 The drawback is that *tries* can take up a lot of space because they save each intermediate step. It is also hard to prevent adding long, meaningless sequences of characters to the trie.
 

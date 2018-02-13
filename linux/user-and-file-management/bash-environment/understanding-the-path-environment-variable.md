@@ -22,7 +22,7 @@ Understanding the `PATH` environment variable and how to manipulate it is one of
 
 ### What Does The `PATH` Variable Contain?
 
-The `PATH` variable itself contains a `:`-delimited list of directories. 
+The `PATH` variable itself contains a `:`-delimited list of directories.
 
 See for yourself:
 
@@ -65,11 +65,11 @@ In what order will the shell visit the folders in `PATH` to find a valid executa
 ???
 
 ???
-*/usr/bin
-*/bin
-*/local/binaries
-*/bin/local/binaries
-*somecommand
+* /usr/bin
+* /bin
+* /local/binaries
+* /bin/local/binaries
+* somecommand
 
 ---
 ## Revision
@@ -77,7 +77,27 @@ In what order will the shell visit the folders in `PATH` to find a valid executa
 The `command not found` error is thrown if the executable couldn’t be found
 
 ???
-*in the list of folders contained in the PATH variable.
-*anywhere on the system.
-*in the local folder.
-*in the list of folders contained in the EXE variable.
+* in the list of folders contained in the PATH variable.
+* anywhere on the system.
+* in the local folder.
+* in the list of folders contained in the EXE variable.
+
+---
+## Quiz
+
+headline: Do you know how the $PATH variable is evaluated?
+
+question: |
+  Suppose your $PATH value is:
+  ```
+  $ echo $PATH
+  /bin:/usr/bin:~/Desktop/rm-ext:~/atom
+  ```
+  What is the next directory the shell will look
+  for an executable if no match was found in `/bin`?
+
+answers:
+  - /usr/bin
+  - none, as /bin is already the last one
+  - ~/atom
+  - ~/Desktop/rm-ext

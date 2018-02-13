@@ -2,7 +2,7 @@ name: Indices
 
 type: insights-list
 
-description: Create Indices to improve the performance of lookup queries
+description: Index the tables to improve lookup queries performance
 
 section: 1
 

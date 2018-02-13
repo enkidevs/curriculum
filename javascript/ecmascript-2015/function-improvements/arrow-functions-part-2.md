@@ -23,6 +23,10 @@ inAlgoPool: false
 
 category: feature
 
+links:
+  
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions){website}'
+  
 ---
 ## Content
 

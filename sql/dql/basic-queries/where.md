@@ -68,11 +68,43 @@ Select all the rows from the `pokemon` table where the name is exactly equal to 
 
 `SELECT * `
 `FROM pokemon`
-??? ???;
+??? ??? ??? ???;
 
 * WHERE
-* name = 'braixen'
+* name
+* =
+* 'braixen'
 * FROM
 * pokemon
 * IS
-* 'braixen'
+
+
+---
+## Quiz
+
+headline: Can you find a particular entry in a table with SQL?
+
+question: |
+
+  Consider the `ability` table and the following query:
+
+  id   | is_main_series | generation_id |      name      
+  -----|----------------|---------------|---------------
+     1 | t              |             3 | stench
+     2 | f              |             3 | drizzle
+     3 | t              |             3 | speed-boost
+     4 | t              |             3 | battle-armor
+  (...)
+
+  SELECT *
+  FROM ability
+
+  We want to get the record for the ability called "speed-boost". Which of the following `WHERE` clauses will
+  have this result when used with the above query?
+
+answers:
+  - WHERE name='speed-boost';
+  - WHERE name IS "speed-boost";
+  - WHERE ability='speed-boost';
+  - WHERE id='speed-boost';
+
