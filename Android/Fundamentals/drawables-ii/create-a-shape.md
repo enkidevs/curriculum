@@ -16,11 +16,16 @@ links:
 ---
 ## Content
 
-To define shape:
+A `shape drawable` is an XML that defines geometric shapes including colors, borders, and gradients which can get assigned to Views.  Drawable shapes are used to create complex shapes that can attached as a background to a layout or some view on the screen. A shape drawable is useful to change the shape, border, and gradient of a button background as an example. 
+
+The shape can be described as properties such as corners for rounding, gradient for backgrounds, padding for spacing, solid for background colors, and stroke for border.
+
+**To define shape:**
 1.	Create a new Android XML file in the folder res/drawable.
 2.	Make sure the root element of the file is <shape> as this defines a ShapeDrawable.
 
 **Example**
+
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android=
@@ -79,7 +84,15 @@ android:textSize="20dp" />
 
 </LinearLayout>
 
+```
+strings.xml 
 
+```
+<resources>
+    <string name="app_name">ShapeDrawable</string>
+    <string name="bxbg">Box Background</string>
+    <string name="hello">Hello</string>
+</resources>
 
 ```
 
