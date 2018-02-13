@@ -9,7 +9,6 @@ section: 1
 parent: classes-i
 
 insights:
-  - class-definition-syntax
   - class-vs-instance-variables
   - instance-objects
   - method-objects
