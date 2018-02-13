@@ -11,7 +11,10 @@ type: normal
 
 category: must-know
 
-notes: Multiple issues. Needs to be rewritten.
+notes: Multiple issues. Needs to be rewritten. --> was rewritten
+
+standards:
+  py.object-oriented.2: 10
 
 links:
 

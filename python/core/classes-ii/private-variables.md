@@ -1,4 +1,4 @@
-# Private Variables 
+# Private Variables
 author: catalin
 
 levels:
@@ -21,7 +21,7 @@ links:
 ---
 ## Content
 
-Really **private** instance variables (variables that can't be accessed except from within the object) **do not exist** in Python. But the following naming convention makes Python rename the variable. so it becomes pseudo-private:
+Really **private** instance variables (variables that can't be accessed except from within the object) **do not exist** in Python. But the following naming convention makes the variable pseudo-private:
 
 The convention is to put two underscores (`__`) at the beginning of the "private" variable.
 
@@ -58,12 +58,12 @@ class Test:
        self.__x = “hey there”
 t = Test()
 print(t.__x)
-??? 
+???
 ```
 
-*`AttributeError` 
-*`PrivateError` 
-*`Hey there` 
+*`AttributeError`
+*`PrivateError`
+*`Hey there`
 *`hey there`
 
 ---
@@ -74,10 +74,10 @@ Complete the following line such that the `private` variable is considered priva
 ???private = 30
 ```
 
-*`__` 
-*`&&` 
-*`--` 
-*`def` 
-*`class` 
-*`private` 
+*`__`
+*`&&`
+*`--`
+*`def`
+*`class`
+*`private`
 *`p_`
