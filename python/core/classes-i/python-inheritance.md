@@ -39,7 +39,7 @@ class Square(Shape):
   def getPerimeter(self):
     return self.x * 4
 ```
-We can now create new methods, as well as using old ones:
+We can now create new methods, as well as use old ones:
 ```python
 sq = Square(3)
 print(sq.getPerimeter())
