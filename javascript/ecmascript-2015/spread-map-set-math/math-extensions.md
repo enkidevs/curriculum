@@ -13,8 +13,7 @@ category: must-know
 
 links:
 
-  - >-
-    [ponyfoo.com](https://ponyfoo.com/articles/es6-math-additions-in-depth){website}
+  - '[ponyfoo.com](https://ponyfoo.com/articles/es6-math-additions-in-depth){website}'
 
 ---
 ## Content

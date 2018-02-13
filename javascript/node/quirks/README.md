@@ -14,3 +14,4 @@ insights:
   - avoid-command-injection
   - node-os-module
   - asynchronous-file-write-read-in-node-js
+  - process-env-performance

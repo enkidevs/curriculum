@@ -45,7 +45,7 @@ What is the output of the following sum operation?
 
 ```python
 letters = ['a', 'b', 'c']
-print(sum(strings))
+print(sum(letters))
 ```
 
 ???

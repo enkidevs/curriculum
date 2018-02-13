@@ -15,8 +15,9 @@ category: how to
 
 links:
 
-  - >-
-    [ponyfoo.com](https://ponyfoo.com/articles/es6-proxy-traps-in-depth){website}
+  - '[ponyfoo.com](https://ponyfoo.com/articles/es6-proxy-traps-in-depth){website}'
+  
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy){website}'
 
 ---
 ## Content

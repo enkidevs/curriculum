@@ -35,7 +35,7 @@ links:
 
 Considering the following example:
 ```
-SELECT COUNT(name), language_id
+SELECT COUNT(name), language_id 
 FROM move_name
 GROUP BY language_id;
 
@@ -137,3 +137,28 @@ count | region_id
 * region_id
 * ORDER BY
 * SUM
+
+---
+## Quiz
+
+headline: Can you order a table with SQL?
+
+question: |
+
+  Consider the `experience` table from our pokemon database:
+
+  id  | level | experience | growth_rate_id
+  ----|-------|------------|----------------
+    1 |     1 |          0 |              1
+    2 |     2 |         10 |              1
+    3 |     3 |         33 |              1
+    4 |     4 |         80 |              1
+    (...)
+
+  This table shows how much experience you need to gain in order to get to level 100 based on different growth rates. Choose the query that will get all records that have level 100 and orders them descending on the amount of experience needed:
+
+answers:
+  - SELECT * FROM experience WHERE level=100 ORDER BY experience DESC;
+  - SELECT * FROM experience WHERE level=100 ORDER BY growth_rate_id DESC;
+  - SELECT * FROM experience WHERE level=100 DESC ORDER BY experience;
+  - SELECT * FROM experience WHERE level=100 ORDER DESC BY experience;

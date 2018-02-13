@@ -15,9 +15,7 @@ tags:
 
 links:
 
-  - >-
-    [Object Literal Computed Property
-    Keys](http://wiki.ecmascript.org/doku.php?id=harmony:object_literals#object_literal_computed_property_keys){documentation}
+  - '[Object Literal Computed Property Keys](http://wiki.ecmascript.org/doku.php?id=harmony:object_literals#object_literal_computed_property_keys){documentation}'
 
 ---
 ## Content

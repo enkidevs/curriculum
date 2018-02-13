@@ -15,8 +15,7 @@ category: feature
 
 links:
 
-  - >-
-    [www.2ality.com](http://www.2ality.com/2015/06/tail-call-optimization.html){website}
+  - '[www.2ality.com](http://www.2ality.com/2015/06/tail-call-optimization.html){website}'
 
   - '[github.com](https://github.com/lukehoban/es6features#arrows){website}'
 

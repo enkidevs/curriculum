@@ -15,8 +15,9 @@ category: tip
 
 links:
 
-  - >-
-    [www.2ality.com](http://www.2ality.com/2015/04/numbers-math-es6.html){website}
+  - '[www.2ality.com](http://www.2ality.com/2015/04/numbers-math-es6.html){website}'
+  
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number){website}'
 
 ---
 ## Content

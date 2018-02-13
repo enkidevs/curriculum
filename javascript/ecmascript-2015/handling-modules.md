@@ -19,8 +19,7 @@ tags:
 
 links:
 
-  - >-
-    [www.sitepoint.com](http://www.sitepoint.com/understanding-es6-modules/){website}
+  - '[www.sitepoint.com](http://www.sitepoint.com/understanding-es6-modules/){website}'
 
 ---
 ## Content

@@ -6,7 +6,7 @@ description: Modify your database schema
 
 section: 0
 
-parent: create
+parent: data-types
 
 insights:
   - add-column

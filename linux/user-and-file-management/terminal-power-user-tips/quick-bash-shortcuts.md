@@ -1,4 +1,4 @@
-# Quick `bash` shortcuts 
+# Quick `bash` shortcuts
 author: tuwi.dc
 
 levels:
@@ -35,7 +35,7 @@ To effectively construct commands on the command line make use of the following 
 - `ctrl-k` to delete up to the end of the line;
 - `alt-f` to move forward by one word;
 - `alt-b` to move backwards by one word
-- `ctrl-a` to move to the beginning of the line; 
+- `ctrl-a` to move to the beginning of the line;
 - `ctrl-e` to move to the end of the line;
 
 ---
@@ -44,15 +44,15 @@ To effectively construct commands on the command line make use of the following 
 Complete the following snippet, knowing that `|` is the cursor at the current position:
 ```
 # ctrl-w will ???
-$ ls| -l ~/ 
+$ ls| -l ~/
 # ctrl-k will ???
-$ ls |-l ~/ 
+$ ls |-l ~/
 # ctrl-u will ???
-$ ls -l| ~/ 
+$ ls -l| ~/
 ```
-*`delete ls` 
-*`delete `-l ~/` 
-*`delete ls -l` 
+*delete `ls`
+*delete `-l ~/`
+*delete `ls -l`
 *move the cursor to the end of line
 *move the cursor to the beginning of the line
 
@@ -64,7 +64,7 @@ What happens when you press the following keys in the terminal?
 ctrl-a ???
 ctrl-k ???
 ```
-*`move to the start of the line`
-*`delete up to the end line`
-*`move to the end of the line`
-*`delete all the way back to the start line`
+*move to the start of the line
+*delete up to the end line
+*move to the end of the line
+*delete all the way back to the start line

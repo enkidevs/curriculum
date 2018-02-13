@@ -27,8 +27,7 @@ category: feature
 
 links:
 
-  - >-
-    [www.2ality.com](http://www.2ality.com/2015/04/numbers-math-es6.html){website}
+  - '[www.2ality.com](http://www.2ality.com/2015/04/numbers-math-es6.html){website}'
 
 ---
 ## Content

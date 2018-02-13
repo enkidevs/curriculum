@@ -21,7 +21,7 @@ parent: dijkstras-iteration
 ---
 ## Content
 
-**Bellman-Ford algorithm** computes the shortest paths from a single source vertex to all the other vertices in a *weighted graph*. The difference between *Dijkstra's* and *Bellman-Ford* is that the later, even if it is slower, works for graphs with *negative weighted* edges.
+**Bellman-Ford algorithm** computes the shortest paths from a single source vertex to all the other vertices in a *weighted graph*. The difference between *Dijkstra's* and *Bellman-Ford* is that the latter, even if it is slower, works for graphs with *negative weighted* edges.
 
 If the graph contains a *negative cycle* (the weight of the edges sum to a negative value) reachable from the source, every *walk*[1] around that cycle would decrease its cost - if this is the case, the algorithm should throw an error.
 

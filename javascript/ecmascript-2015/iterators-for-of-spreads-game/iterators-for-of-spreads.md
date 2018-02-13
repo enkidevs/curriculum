@@ -11,6 +11,10 @@ type: fillTheGap
 
 category: must-know
 
+links:
+
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Array_destructuring){website}'
+
 ---
 ## Content
 
