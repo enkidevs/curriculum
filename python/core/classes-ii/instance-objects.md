@@ -29,7 +29,7 @@ class Coordinate:
   def __init__(self, x, y):
     self.x = x
     self.y = y
-  def distance(self, other):
+  def dist(self, other):
     x_dist = (self.x-other.x)**2
     y_dist = (self.y-other.y)**2
     return (x_dist + y_dist)**0.5
