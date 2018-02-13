@@ -89,9 +89,12 @@ strings.xml
 
 ```
 <resources>
-    <string name="app_name">ShapeDrawable</string>
-    <string name="bxbg">Box Background</string>
-    <string name="hello">Hello</string>
+    <string name="app_name">
+    ShapeDrawable</string>
+    <string name="bxbg">
+    Box Background</string>
+    <string name="hello">
+    Hello</string>
 </resources>
 
 ```
