@@ -23,6 +23,7 @@ The shape can be described as properties such as corners for rounding, gradient 
 **To define shape:**
 1.	Create a new Android XML file in the folder res/drawable.
 2.	Make sure the root element of the file is <shape> as this defines a ShapeDrawable.
+3.  Once the shape is defined, you can specify it as a background resource to any view: android:background=”@drawable/myshape”.
 
 **Example**
 
