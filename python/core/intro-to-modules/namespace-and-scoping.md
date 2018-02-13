@@ -63,6 +63,7 @@ def f():
     def g():
         x = 'An enclosed variable'
         print(x) # print() is built-in
+    g()
 
 
 r = 'A global variable'
