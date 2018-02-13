@@ -49,12 +49,12 @@ emily = Employee("Emily")
 print(john.count) # 2
                   # (shared/class)
 print(emily.count) # 2
-                  # (shared/class)
+                   # (shared/class)
 
 print(john.idnum) # 1
                   # (unique/instance)
 print(emily.idnum) # 2
-                  # (unique/instance)
+                   # (unique/instance)
 ```
 
 ---
