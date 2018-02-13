@@ -53,11 +53,13 @@ Methods are different. Basically a **method** is a function that belongs to a `c
 
 Theoretically, all attributes of a class that are function objects define corresponding instance methods.
 
-So if `Coordinate.dist` is a function object, then `c1.dist` (`c1` being an instance of `Coordinate` class) is a method. Please note the difference between **function** and **method**.
+So if `Coordinate.dist` is a function object, then `c1.dist` (`c1` being an instance of `Coordinate` class) is an instance method. Please note the difference between **function** and **method**.
 
 ```python
 c1.dist(c2) # 5.0
+            # (instance method)
 Coordinate.dist(c1,c2) # 5.0
+                       # (function object)
 ```
 
 ---
