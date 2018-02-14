@@ -72,15 +72,8 @@ print(a.most_common(1))
 Using the `elements()` method, you get an **iterator** producing all values known to the `Counter`.
 
 ```python
-for x in a.elements():
-    print(x)
-a
-a
-a
-a
-a
-b
-b
+print(list(a.elements()))
+['a', 'a', 'a', 'a', 'a', 'b', 'b']
 ```
 ---
 ## Practice
