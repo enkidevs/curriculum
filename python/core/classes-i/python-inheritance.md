@@ -48,6 +48,19 @@ print(sq.getArea())
 # 9
 ```
 
+To check the inheritance:
+```python
+print(isinstance(sq, Square))
+# True
+print(isinstance(sq, Shape))
+# True
+print(issubclass(Square, Shape))
+# True
+```
+
+
+
+
 ---
 ## Practice
 
