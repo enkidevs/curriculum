@@ -9,6 +9,6 @@ section: 2
 parent: tips
 
 insights:
-  - special-attributes-of-objects-and-classes
   - metaclasses
+  - special-attributes-of-objects-and-classes
   - custom-exceptions-as-classes
