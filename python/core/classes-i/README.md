@@ -13,3 +13,4 @@ insights:
   - class-keywords
   - using-classes
   - python-inheritance
+  - method-overriding

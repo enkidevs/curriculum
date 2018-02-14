@@ -10,6 +10,5 @@ parent: tips
 
 insights:
   - special-attributes-of-objects-and-classes
-  - method-overriding
   - metaclasses
   - custom-exceptions-as-classes
