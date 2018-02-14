@@ -4,9 +4,9 @@ type: insights-list
 
 description: Even more handy Python modules.
 
-section: 1
+section: 2
 
-parent: utilities-i
+parent: classes-iii
 
 insights:
   - compare-sequences-with-difflib
