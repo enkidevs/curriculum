@@ -13,6 +13,9 @@ type: normal
 
 category: how to
 
+standards:
+  py.native-types-operations.4
+
 links:
 
   - >-
@@ -44,7 +47,7 @@ list_a.pop([index])
 
 Return a new sorted list:
 ```python
-list_a.sorted(key=None,reverse=False)
+list_a.sort(key=None,reverse=False)
 ```
 `key` specifies a function of one argument that is used to extract a *comparison key* (e.g.`key=str.lower`). If no key is specified, elements will be compared directly.
 
@@ -69,7 +72,7 @@ Complete the code snippet to return a new sorted list of `ex_list`:
 ex_list.??? (???=None,\
     reverse=False)
 ```
-*`sorted` 
+*`sort`
 *`key`
 *`order`
 *`priority`
