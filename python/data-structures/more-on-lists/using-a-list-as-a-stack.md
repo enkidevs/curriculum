@@ -11,6 +11,9 @@ category: how to
 
 parent: built-in-list-methods
 
+standards:
+  py.native-types-operations.4: 10
+
 links:
 
   - >-
@@ -54,6 +57,6 @@ stack.pop()
 
 ???
 * `15`
-* `14` 
-* `10` 
+* `14`
+* `10`
 * There’s no output...
