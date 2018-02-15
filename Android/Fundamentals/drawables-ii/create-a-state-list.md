@@ -76,6 +76,20 @@ android:right="10dp" />
 </selector>
 
 ```
+
+Button Text 
+```
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android=
+"http://schemas.android.com/
+apk/res/android">
+<item android:state_pressed="true" 
+android:color="#ffff0000"/>
+<item android:state_focused="true" 
+android:color="#ff0000ff"/>
+<item android:color="#ff000000"/>
+</selector>
+```
 ---
 ## Practice
 
