@@ -16,7 +16,21 @@ links:
 ---
 ## Content
 
-Insight content goes here
+Step 1: Create a button 
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android=
+"http://schemas.android.com/apk/res/android">
+<item
+android:state_focused="true"
+android:state_enabled="true"
+android:drawable="@drawable/button_focused" />
+<item
+android:state_enabled="true"
+android:drawable="@drawable/button_normal" />
+</selector>
+```
 
 ---
 ## Practice
