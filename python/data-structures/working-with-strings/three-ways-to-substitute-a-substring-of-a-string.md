@@ -13,6 +13,10 @@ type: normal
 
 category: tip
 
+standards:
+  py.standard-library-data.6: 10
+  py.data-structures-uses.5: 10
+
 ---
 ## Content
 
@@ -54,13 +58,13 @@ print(t
  .???(weather="sunny"))
 ```
 
-*`Template` 
-*`$` 
-*`substitute` 
-*`format` 
-*`%` 
-*`{` 
-*`dict` 
+*`Template`
+*`$`
+*`substitute`
+*`format`
+*`%`
+*`{`
+*`dict`
 *`mod`
 
 ---
@@ -73,9 +77,9 @@ print(my_string
   .???(???="evening"))
 ```
 
-*`format` 
-*`time` 
-*`first` 
-*`{time}` 
-*`substitute` 
+*`format`
+*`time`
+*`first`
+*`{time}`
+*`substitute`
 *`sub`

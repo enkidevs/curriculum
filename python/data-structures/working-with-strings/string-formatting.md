@@ -9,10 +9,11 @@ type: normal
 
 inAlgoPool: false
 
+category: must-know
+
 standards:
   py.standard-library-data.6: 10
-
-category: must-know
+  py.data-structures-uses.5: 10
 
 ---
 ## Content
