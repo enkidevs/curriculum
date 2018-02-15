@@ -8,6 +8,5 @@ section: 2
 
 insights:
   - exiting-the-interpreter
-  - simple-way-of-swapping-variables
   - dynamic-typing
   - following-pep-8-styling-guideline

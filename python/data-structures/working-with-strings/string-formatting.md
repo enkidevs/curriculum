@@ -9,6 +9,9 @@ type: normal
 
 inAlgoPool: false
 
+standards:
+  py.standard-library-data.6: 10
+
 category: must-know
 
 ---
@@ -37,7 +40,8 @@ app = 'Enki'
 streak = 3
 
 print('''This is Python workout number %d
-       with %s''' % (app, streak))
+       with %s''' % (streak, app))
+# This is Python workout number 3 with Enki
 ```
 
 ---

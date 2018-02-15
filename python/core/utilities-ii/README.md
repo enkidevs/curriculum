@@ -6,7 +6,7 @@ description: Even more handy Python modules.
 
 section: 2
 
-parent: classes-iii
+parent: advanced-referencing
 
 insights:
   - compare-sequences-with-difflib
