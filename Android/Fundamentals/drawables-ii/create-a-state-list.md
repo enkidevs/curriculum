@@ -25,10 +25,12 @@ Step 1: Create a button
 <item
 android:state_focused="true"
 android:state_enabled="true"
-android:drawable="@drawable/button_focused" />
+android:drawable=
+"@drawable/button_focused" />
 <item
 android:state_enabled="true"
-android:drawable="@drawable/button_normal" />
+android:drawable=
+"@drawable/button_normal" />
 </selector>
 ```
 Step 2: Create the drawables that are listed in the button.
