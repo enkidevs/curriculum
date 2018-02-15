@@ -21,7 +21,8 @@ Step 1: Create a button
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android=
-"http://schemas.android.com/apk/res/android">
+"http://schemas.android.com/
+apk/res/android">
 <item
 android:state_focused="true"
 android:state_enabled="true"
