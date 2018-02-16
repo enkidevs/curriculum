@@ -96,7 +96,8 @@ Step 3:
 ```
 
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout 
+<android.support.constraint.
+ConstraintLayout 
 xmlns:android=
 "http://schemas.android.com/apk/res/android"
 xmlns:app=
@@ -115,7 +116,8 @@ android:text=
 "@string/button_text"
 android:textColor=
 "@color/button_text" />
-</android.support.constraint.ConstraintLayout>
+</android.support.constraint.
+ConstraintLayout>
 
 ```
 
