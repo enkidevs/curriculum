@@ -9,6 +9,9 @@ type: normal
 
 category: feature
 
+standards:
+  py.native-types-operations.6: 10
+
 links:
 
   - '[Dictionary methods](https://www.programiz.com/python-programming/dictionary)'
@@ -16,7 +19,7 @@ links:
 ---
 ## Content
 
-Consider the following dicitonary:
+Consider the following dictionary:
 
 ```
 dict = {1:1, 2:4, 3:9, 4:16, 5:25}
@@ -57,7 +60,7 @@ print(dict.items())
 
 # Output: dict_items([(1, 1),
 # (2, 4), (3, 9), (4, 16), (5, 25)])
-``` 
+```
 
 - `keys()` : returns a list of all dictionary `key`s
 

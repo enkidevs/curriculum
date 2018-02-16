@@ -9,6 +9,9 @@ type: normal
 
 category: how to
 
+standards:
+  py.native-types-operations.6: 10
+
 links:
 
   - '[More about creating dictionaries](https://developmentality.wordpress.com/2012/03/30/three-ways-of-creating-dictionaries-in-python/)'
@@ -16,7 +19,7 @@ links:
 ---
 ## Content
 
-Usauly, two lists can be converted into a **dictionary**.
+Usually, two lists can be converted into a **dictionary**.
 
 Let's consider two lists:
 - one containing some names
