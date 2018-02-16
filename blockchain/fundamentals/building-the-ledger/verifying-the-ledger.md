@@ -58,7 +58,7 @@ This is usually dealt with requiring a number of new blocks (5-6) being appended
 
 This verification ensures that everybody has exactly the same history: the hash of the previous block must be correct and match the end of the currenly longest chain. Ideally, the lookup should be done up to the genesis block. However, this isn't scalable.
 
-In most cases, the network designates a checkpoint block, up to which checks are made. 
+In most cases, the network designates a checkpoint block, that is used as a definite source of truth. 
 
 ---
 ## Practice
@@ -75,7 +75,7 @@ Given the image above, identify the block that is checked when verifying block 4
 ---
 ## Revision
 
-What is the problem solved by verifying each transaction? 
+What is the problem solved by verifying all previous transactions? 
 
 ???
 

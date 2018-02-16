@@ -40,9 +40,9 @@ Digital coins are easier to track. We cannot necessarily link one coin to an act
 
 Having a coin-behaving asset also incentivizes more people to join the network: the bigger the network, the less likely an external harmful agent can succeed. By also rewarding the miners for each valid, confirmed block, it prevents it from going bad. If the blockchain loses credibility, the stolen goods also depreciate.
 
-As more people join the network, the more secure the network becomes. The more secure the network is, the bigger the trust people place in the network. If people trust the network, they are more likely to join and invest in the network by buying coins. If the demand is high, the value automatically rises.
+As more people join the network, hopefully honest agents, the more secure the network becomes. The more secure the network is, the bigger the trust people place in the network. If people trust the network, they are more likely to join and invest in the network's assets (coins). If the demand is high, the value automatically rises.
 
-This way, blockchains are able to self-sustain solely based on the adoption rate. But if everything is so clean and simple, you may ask why didn't the first blockchain had been released earlier than 2009. Well, there was a specific exploit that was easy to solve in a centralized environment but difficult to overcome otherwise: the double-spending problem.
+This way, blockchains are able to self-sustain solely based on the adoption rate. But if everything is so clean and simple, you may wonder why the first blockchain hadn't been released earlier than 2009. Well, there was a specific exploit that was easy to solve in a centralized environment but difficult to overcome otherwise: the double-spending problem.
 
 ---
 ## Practice
