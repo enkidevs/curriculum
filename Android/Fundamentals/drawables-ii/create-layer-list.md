@@ -72,6 +72,35 @@ Step 2: Create a colors.xml file and place in the values folder
 </resources>
 
 ```
+Step 3: Include the activity main file
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android=
+"http://schemas.android.com/
+apk/res/android"
+xmlns:tools=
+"http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.tammy.
+layer_list_example.MainActivity">
+
+<Button
+android:id="@+id/
+selectorButton"
+android:layout_width=
+"wrap_content"
+android:layout_height=
+"wrap_content"
+android:background=
+"@drawable/my_layer_list"
+android:text=
+"@string/click_me"/>
+
+</LinearLayout>
+
+```
 
 ---
 ## Practice
