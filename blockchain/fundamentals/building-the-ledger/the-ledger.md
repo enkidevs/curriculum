@@ -34,7 +34,7 @@ Assuming Alice has those 20 coins to begin with, the transaction is validated an
 
 ### Why are most ledgers built around coins?
 
-Digital coins are easier to track. We cannot necessarily link one coin to an actual person, but we can track their movement. Digital coins (similar to any other currency) are commonly accepted as a mean to evaluate services, items, shares, etc.
+Digital coins are easier to track. We cannot necessarily link one coin to an actual person, but we can track their movement. Digital coins (similar to any other currency) are commonly accepted as a mean to evaluate services, items, shares, etc. and it is in the blockchain developer interest to also release a token.
 
 [Image here - trade circle where X wants A from Y, Y wants B from Z and Z wants C from X]
 
@@ -42,9 +42,7 @@ Having a coin-behaving asset also incentivizes more people to join the network: 
 
 As more people join the network, the more secure the network becomes. The more secure the network is, the bigger the trust people place in the network. If people trust the network, they are more likely to join and invest in the network by buying coins. If the demand is high, the value automatically rises.
 
-This way, blockchains are able to self-sustain solely based on the adoption rate. Ridiculous exchange rates should not be the goal of any cryptocurrency (and if it is, stay away from that coin), but rather the monetary equivalent of the blockchain's utility.
-
-But if everything is so clean and simple, you may ask why didn't the first blockchain appear earlier than 2009. Well, there was a specific exploit that was easy to solve in a centralized environment but difficult to tackle otherwise: the double-spending problem. We will cover it in detail in the next insight.
+This way, blockchains are able to self-sustain solely based on the adoption rate. But if everything is so clean and simple, you may ask why didn't the first blockchain had been released earlier than 2009. Well, there was a specific exploit that was easy to solve in a centralized environment but difficult to overcome otherwise: the double-spending problem.
 
 ---
 ## Practice
