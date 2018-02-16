@@ -59,6 +59,19 @@ android:useLevel="false">
 </item>
 </layer-list>
 ```
+Step 2: Create a colors.xml file and place in the values folder
+```
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="colorPrimary">
+#3F51B5</color>
+<color name="colorPrimaryDark">
+#303F9F</color>
+<color name="colorAccent">
+#FF4081</color>
+</resources>
+
+```
 
 ---
 ## Practice
