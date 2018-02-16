@@ -123,12 +123,7 @@ Step 4:
 Adding strings in String.xml 
 
 ```
-<resources>
-<string name="app_name">
-StateList-Drawable</string>
-<string name="button_text">
-Button Text</string>
-</resources>
+
 
 
 ```
