@@ -15,7 +15,7 @@ links:
 
 ---
 ## Content
-
+Step 1: Activity Main file
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android=
@@ -63,6 +63,86 @@ android:id=
 </LinearLayout>
 ```
 
+Step 2: Main Activity Java file
+
+```
+package com.example.tammy.
+transitionexample;
+
+import android.support.v7.
+app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.
+OnClickListener;
+import android.widget.
+TextView;
+import android.animation.
+AnimatorSet;
+import android.animation.
+ObjectAnimator;
+import android.app.
+Activity;
+
+public class MainActivity extends 
+Activity implements OnClickListener{
+
+private final boolean IN = 
+true;
+private boolean state = 
+IN;
+@Override
+public void onCreate
+(Bundle savedInstanceState) {
+super.onCreate
+(savedInstanceState);
+setContentView
+(R.layout.activity_main);
+findViewById(R.id.button).
+setOnClickListener(this);
+}
+
+@Override
+public void onClick(View v) {
+TextView tv = (TextView)
+findViewById(R.id.text_view);
+tv.setText
+("Hello Transition!");
+ObjectAnimator scaleXOut = 
+ObjectAnimator.ofFloat
+(tv, "scaleX", 1f, 0f);
+ObjectAnimator scaleXIn = 
+ObjectAnimator.ofFloat
+(tv, "scaleX", 0f, 1f);
+ObjectAnimator scaleYOut = 
+ObjectAnimator.ofFloat
+(tv, "scaleY", 1f, 0f);
+ObjectAnimator scaleYIn = 
+ObjectAnimator.ofFloat
+(tv, "scaleY", 0f, 1f);
+ObjectAnimator rotateClockWise = 
+ObjectAnimator.ofFloat
+(tv, "rotation", 0f, 360f);
+ObjectAnimator rotateCounterClockWise = 
+ObjectAnimator.ofFloat
+(tv, "rotation", 0f, -360f);
+AnimatorSet set = 
+new AnimatorSet();
+if (state == IN) {
+set.play(scaleXIn).with
+(rotateClockWise).
+with(scaleYIn);
+} else {
+set.play(scaleXOut).with
+(rotateCounterClockWise).
+with(scaleYOut);
+}
+state = !state;
+set.setDuration(1000);
+set.start();
+}
+}
+```
 ---
 ## Practice
 
