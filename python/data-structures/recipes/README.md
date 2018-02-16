@@ -11,6 +11,6 @@ parent: more-on-dictionaries
 insights:
   - keep-large-lists-sorted-with-bisect
   - a-simple-way-to-select-a-random-item-from-a-list-tuple-data-stucture
-  - parallel-sorting-of-lists
   - combining-multiple-lists-item-by-item
+  - parallel-sorting-of-lists
   - pretty-print-data-structures

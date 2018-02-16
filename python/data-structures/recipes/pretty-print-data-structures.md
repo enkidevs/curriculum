@@ -31,25 +31,27 @@ import pprint
 
 You can use the `pprint()` function to print your data structure.
 ```python
-# data = our data structure
 pprint.pprint(data)
-
+# data = our data structure
 ```
 
 The module also provides a way of formatting data structures into strings for other purposes (e.g. logging):
 ```python
 data = [(x, {y: y * y for y in range(2)})
         for x in range(4)]
-print(pprint.pformat(data, width=19))
+
+print(data)
+[(0, {0: 0, 1: 1}), (1, {0: 0, 1: 1}), (2, {0: 0, 1: 1}), (3, {0: 0, 1: 1})]
+
 
 ```
 Instead of a single line our output will be:
 ```python
+print(pprint.pformat(data, width=19))
 [(0, {0: 0, 1: 1}),
  (1, {0: 0, 1: 1}),
  (2, {0: 0, 1: 1}),
  (3, {0: 0, 1: 1})]
-
 ```
 
 You can even check if an object is **readable**:
