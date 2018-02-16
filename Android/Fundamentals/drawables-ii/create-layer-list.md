@@ -16,7 +16,7 @@ links:
 ---
 ## Content
 
-Insight content goes here
+LayerList Drawable – manages an array of drawables. These are drawn in an array order, the largest element with the largest index is drawn on top. 
 
 ---
 ## Practice
