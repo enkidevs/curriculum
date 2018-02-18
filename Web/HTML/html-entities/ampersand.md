@@ -19,9 +19,7 @@ tags:
 ## Content
 
 
-An ampersand (sometimes referred to as the "and" symbol)
-is a special character that requires special coding
-when being used on a website or a blog.
+An ampersand (sometimes referred to as the "and" symbol) is a special character that requires special coding when being used on a website or a blog.
 To display the ampersand symbol, you can use either the HTML entity *number* or the entity *name*.
 
 HTML Entity Number

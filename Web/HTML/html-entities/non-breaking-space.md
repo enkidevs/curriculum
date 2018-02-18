@@ -1,5 +1,5 @@
 # Non-breaking Space
-author: mihaiberq
+author: Stefan-Stojanovic
 
 levels:
   - beginner

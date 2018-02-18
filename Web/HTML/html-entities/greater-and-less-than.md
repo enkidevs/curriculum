@@ -51,7 +51,7 @@ Example
 
 Source code:
 ```
-<p>Get your AT &amp; T  free first 3 months!</p>
+<p>Get your AT&amp;T  free first 3 months!</p>
 ```
 Result:
 ```
