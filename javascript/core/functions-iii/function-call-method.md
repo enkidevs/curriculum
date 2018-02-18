@@ -12,8 +12,8 @@ levels:
 type: normal
 
 standards:
-  js.functions: 10
-  js.execution-context: 10
+  js.functions.1: 10
+  js.execution-context.1: 10
 
 tags:
   - introduction

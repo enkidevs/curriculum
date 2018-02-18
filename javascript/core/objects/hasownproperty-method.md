@@ -11,7 +11,9 @@ type: normal
 
 category: feature
 
-notes: ''
+standards:
+  js.data-types-structures.3: 10
+  js.data-types-structures.4: 10
 
 links:
 
@@ -32,15 +34,15 @@ function foo() {
   delete client.connect
 }
 
-client.hasOwnProperty('connect'); 
+client.hasOwnProperty('connect');
 // returns true
 foo();
-client.hasOwnProperty('connect'); 
+client.hasOwnProperty('connect');
 // returns false
 
 ```
 
-Using `hasOwnProperty` is a reliable method of checking for the existence of a property of an object. 
+Using `hasOwnProperty` is a reliable method of checking for the existence of a property of an object.
 
 It is considered a good practice to use `hasOwnProperty` in every `for in loop` to avoid errors from extended native prototypes.
 

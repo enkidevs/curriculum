@@ -13,11 +13,15 @@ type: normal
 
 category: feature
 
+standards:
+  js.functions.5: 10
+
 tags:
-
+  - workout
   - hoisting
-
+  - deep
   - variables
+  - obscura
 
 links:
 
@@ -33,7 +37,7 @@ x = 5;
 alert(x);
 var x;
 ```
-`5` will be alerted despite `var x` not being declared until after the alert. 
+`5` will be alerted despite `var x` not being declared until after the alert.
 
 However, variable initializations are not hoisted:
 ```

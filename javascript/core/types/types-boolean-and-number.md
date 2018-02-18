@@ -11,6 +11,16 @@ inAlgoPool: false
 
 category: must-know
 
+tags:
+  - introduction
+  - workout
+
+standards:
+  js.evaluate-expressions.0: 10
+  js.evaluate-expressions.2: 10
+  js.evaluate-expressions.4: 10
+  js.standard-library.1: 10
+
 ---
 ## Content
 
@@ -25,7 +35,7 @@ var isHot = false;
 
 **Number**
 
-JavaScript supports both whole and decimal numbers all using the same number type: 
+JavaScript supports both whole and decimal numbers all using the same number type:
 ```
 var numberOfMonths=12;
 var temperature=17.2;

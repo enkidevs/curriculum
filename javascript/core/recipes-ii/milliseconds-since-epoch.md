@@ -9,8 +9,8 @@ type: normal
 
 category: tip
 
-standards: 
-  js.write-expressions: 10
+standards:
+  js.standard-library.5: 10
 
 links:
 
@@ -39,7 +39,7 @@ try `moment.js`.
 ---
 ## Practice
 
-What is missing from the following code snippet for getting the current time in milliseconds? 
+What is missing from the following code snippet for getting the current time in milliseconds?
 
 ```javascript
 ???new ???();

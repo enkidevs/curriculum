@@ -12,8 +12,8 @@ inAlgoPool: false
 category: must-know
 
 standards:
-  js.functions: 10
-  js.execution-context: 10
+  js.functions.4: 10
+  js.functions.8: 10
 
 tags:
   - introduction
@@ -69,7 +69,7 @@ var x = function(x, y){
 }
 x(1,2);
 ```
-Anonymous functions are often used in callbacks and event handlers, as well as in a special type of function called an *IIFE* which we'll cover next.
+
 
 ---
 ## Practice

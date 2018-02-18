@@ -9,6 +9,7 @@ section: 1
 parent: scope
 
 insights:
+  - exceptions
   - debugging
   - detect-an-error-type
   - catch-is-block-scoped

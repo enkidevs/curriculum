@@ -10,7 +10,6 @@ parent: types
 
 insights:
   - if-statement
-  - exceptions
   - loops-part-1
   - loops-part-2
   - data-type-comparison-in-switch-statements

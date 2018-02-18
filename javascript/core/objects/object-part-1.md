@@ -18,8 +18,8 @@ links:
     JS](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS){website}
 
 standards:
-  js.javascript-syntax: 10
-  js.data-types-structures: 10
+  js.data-types-structures.3: 10
+  js.data-types-structures.4: 10
 
 tags:
   - introduction

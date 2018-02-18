@@ -13,14 +13,18 @@ type: normal
 
 category: best practice
 
-tags:
+standards:
+  js.javascript-syntax.2: 10
 
+tags:
+  - obscura
+  - introduction
   - 'json, readability'
 
 ---
 ## Content
 
-Generally, double and single quotes are handled the same way. 
+Generally, double and single quotes are handled the same way.
 
 ```
 str1 = 'I\'m a string.';

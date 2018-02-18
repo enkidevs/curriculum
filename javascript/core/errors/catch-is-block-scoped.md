@@ -9,8 +9,13 @@ type: normal
 
 category: caveats
 
-standards: 
-  js.evaluate-expressions: 10
+standards:
+  js.exceptions.2: 10
+
+tags:
+  - workout
+  - deep
+  - obscura
 
 parent: no-block-scope
 

@@ -9,6 +9,15 @@ type: normal
 
 category: must-know
 
+standards:
+  js.async.3: 10
+
+tags:
+  - introduction
+  - workout
+  - obscura
+
+
 links:
 
   - >-
@@ -20,21 +29,21 @@ links:
 ---
 ## Content
 
-There are several ways of programming **asynchronously** in JavaScript. Each method was introduced as an improvement over the existing method. 
+There are several ways of programming **asynchronously** in JavaScript. Each method was introduced as an improvement over the existing method.
 
-**ES5 callbacks** 
+**ES5 callbacks**
 
 Use a callback function to encapsulate the continuation of the program. Some problems are "callback hell", error handling and no use of `return` or `throw`.
 
-**ES6 promises** 
+**ES6 promises**
 
 Use promises as a placeholder for a future value, like an order number at a fast-food restaurant. This allows decisions to be made before the value is known.
 
-**ES6 generators** 
+**ES6 generators**
 
 Pause and continue a generator function from a `yield` point. This is designed for synchronous programming but can be hacked into working asynchronously.
 
-**ES7 async** 
+**ES7 async**
 
 In ES7 it will be possible to use the `async` keyword to create an async function. The `await` keyword works similarly to `yield`.
 

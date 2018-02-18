@@ -13,6 +13,16 @@ type: normal
 
 category: must-know
 
+standards:
+  js.functions.5: 10
+
+tags:
+  - workout
+  - scope
+  - deep
+  - variables
+  - obscura
+
 links:
 
   - '[john-dugan.com](https://john-dugan.com/hoisting-in-javascript/){website}'
@@ -31,7 +41,7 @@ function bar(foo){
 ```
 This occurs on **execution** of the code rather than in compilation.
 
-In **strict mode** this does not happen and would give a reference error of `undeclared`. 
+In **strict mode** this does not happen and would give a reference error of `undeclared`.
 
 `undeclared` means that there is no present declaration of the variable in any of the scopes.
 

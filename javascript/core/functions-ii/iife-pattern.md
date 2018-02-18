@@ -14,7 +14,10 @@ type: normal
 category: best practice
 
 standards:
-  js.functions: 10
+  js.functions.4: 10
+  js.functions.5: 10
+  js.functions.6: 10
+  js.functions.7: 10
 
 tags:
   - introduction

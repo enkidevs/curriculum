@@ -11,7 +11,10 @@ type: normal
 
 category: how to
 
-standards: js.data-types-structures
+standards:
+  js.data-types-structures.2: 10
+  js.data-types-structures.3: 10
+  js.functions.4: 10
 
 notes: ''
 
@@ -26,7 +29,7 @@ var food = ["Sushi", "Pizza", "Tacos"];
 
 Select an item using `Math.random()` with a range of `food.length`.
 ```
-var randIndex = 
+var randIndex =
   Math.floor(Math.random() * food.length);
 ```
 
@@ -43,7 +46,7 @@ If you have an array:
 var fruits =[oranges, apples, banana];
 
 
-How would you select a fruit at random 
+How would you select a fruit at random
 from the array fruits?
 
 var index =
@@ -65,7 +68,7 @@ If you have an array:
 var fruits =[oranges, apples, banana];
 
 
-How would you select a fruit at random 
+How would you select a fruit at random
 from the array fruits?
 
 var index =

@@ -11,6 +11,18 @@ type: normal
 
 category: must-know
 
+standards:
+  js.async.3: 10
+  js.async.2: 10
+  js.use-modules.2: 10
+
+tags:
+  - workout
+  - deep
+  - async
+  - promises
+  - npm
+
 tags:
 
   - languageagnostic
@@ -32,7 +44,7 @@ links:
 
 JavaScript is **single-threaded** and so has '**run-to-completion**' behaviour (except in new ES6 syntax such as Generators), meaning that once the code in a function begins executing, it will finish before any other code can be run.
 
-**Concurrency** is when two or more tasks are executing in the same time period, but not necessarily in parallel. 
+**Concurrency** is when two or more tasks are executing in the same time period, but not necessarily in parallel.
 
 JavaScript has behaviour, known as a '**race condition**', where two concurrent tasks 'race' to see which runs first. If both alter the same data, there could be a difference in the results each time.
 
