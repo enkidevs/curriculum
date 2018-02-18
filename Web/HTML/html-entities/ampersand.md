@@ -1,5 +1,5 @@
 # Ampersand
-author: mihaiberq
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -18,8 +18,44 @@ tags:
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
 
+An ampersand (sometimes referred to as the "and" symbol)
+is a special character that requires special coding
+when being used on a website or a blog.
+To display the ampersand symbol, you can use either the HTML entity *number* or the entity *name*.
+
+HTML Entity Number
+
+Source code:
+```
+&#38;
+```
+Result:
+```
+&
+```
+
+HTML Entity Name
+
+Source code:
+```
+&amp;
+```
+Result:
+```
+&
+```
+
+Example
+
+Source code:
+```
+<p>Get AT &amp; T free first 3 months!</p>
+```
+Result:
+```
+Get AT&T free first 3 months!
+```
 ---
 ## Practice
 

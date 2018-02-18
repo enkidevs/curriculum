@@ -1,5 +1,5 @@
 # Greater and Less Than
-author: mihaiberq
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -18,7 +18,46 @@ tags:
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+Some characters in HTML are reserverd. These characters must be replaced with character entities.
+Character entities are used to display reserved characters in HTML.
+
+If you use the less than *<* or greater than *>* sings in your text, the browser can mix them up, so it is best to use character entities instead.
+
+You can use either an entity *name* or an entity *number*
+
+HTML Entity Number
+
+Source code:
+```
+&#60;       &#62;
+```
+Result:
+```
+ <            >
+```
+
+HTML Entity Name
+
+Source code:
+```
+&lt;        &gt;
+```
+Result:
+```
+ <           >
+```
+
+Example
+
+Source code:
+```
+<p>Get your AT &amp; T  free first 3 months!</p>
+```
+Result:
+```
+Get your AT&T free first 3 months!
+```
+
 
 ---
 ## Practice
