@@ -11,6 +11,11 @@ levels:
 
 type: fillTheGap
 
+standards:
+  js.write-expressions.0: 1000
+  js.evaluate-expressions.3: 1000
+  js.data-types-structures.1: 1000
+
 category: tip
 
 ---

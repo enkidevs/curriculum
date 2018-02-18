@@ -11,6 +11,14 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  js.evaluate-expressions.10: 10
+  js.evaluate-expressions.2: 10
+
+tags:
+  - introduction
+  - workout
+
 ---
 ## Content
 
@@ -28,7 +36,7 @@ var longerText = "abc" +
 		"ghi";
 ```
 
-You can also use the backslash character to continue writing text on multiple lines (make sure nothing is after the backslash). 
+You can also use the backslash character to continue writing text on multiple lines (make sure nothing is after the backslash).
 
 ```
 var longerText = "abc\

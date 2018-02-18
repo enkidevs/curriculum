@@ -9,8 +9,14 @@ type: normal
 
 category: must-know
 
-standards: 
-  js.evaluate-expressions: 20
+standards:
+  js.identify-syntax.2: 10
+  js.evaluate-expressions.3: 10
+  js.evaluate-expressions.10: 10
+
+tags:
+  - introduction
+  - workout
 
 links:
 

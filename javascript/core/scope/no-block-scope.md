@@ -11,9 +11,15 @@ type: normal
 
 category: tip
 
-tags:
+standards:
+  js.functions.5: 10
 
+tags:
+  - workout
   - scope
+  - deep
+  - variables
+  - obscura
 
 links:
 

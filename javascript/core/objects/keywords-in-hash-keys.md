@@ -11,6 +11,10 @@ category: best practice
 
 notes: 'Same issue, not sure if it''s not really really basic.'
 
+standards:
+  js.data-types-structures.3: 10
+  js.data-types-structures.4: 10
+
 links:
 
   - "[bonsaiden.github.io](http://bonsaiden.github.io/JavaScript-Garden/){website}"

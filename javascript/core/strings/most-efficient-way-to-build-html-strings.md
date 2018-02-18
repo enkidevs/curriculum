@@ -9,9 +9,15 @@ type: normal
 
 category: best practice
 
-tags:
+standards:
+  js.evaluate-expressions.3: 10
+  js.write-expressions.1: 10
 
+tags:
+  - strings
   - html
+  - introduction
+  - workout
 
 notes: ''
 

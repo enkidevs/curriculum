@@ -13,8 +13,8 @@ type: normal
 
 category: caveats
 
-standards: 
-  js.evaluate-expressions: 10
+standards:
+  js.evaluate-expressions.1: 10
 
 ---
 ## Content

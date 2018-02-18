@@ -13,8 +13,8 @@ type: normal
 
 category: best practice
 
-standards: 
-  js.evaluate-expressions: 10
+standards:
+  js.javascript-syntax.0: 10
 
 links:
 
@@ -30,10 +30,10 @@ For example:
 ```
 var a, x;
 
-with (Math) { 
+with (Math) {
   x = random();
   a = exp(x);
-} 
+}
 ```
 There are however many potential pitfalls to using `with`:
 * You can easily make global variables by mistake.
@@ -51,8 +51,8 @@ It is not recommended that you use `with` and it is not allowed in ES5 **strict 
 Change the code in order for it to run without using `with` :
 ```javascript
 var a, x;
-  
-/* with (Math) { 
+
+/* with (Math) {
   x = random();
   a = exp(x);
 } */

@@ -12,7 +12,8 @@ inAlgoPool: false
 category: must-know
 
 standards:
-  js.functions: 10
+  js.functions.0: 10
+  js.functions.1: 10
 
 tags:
   - introduction

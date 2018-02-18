@@ -15,7 +15,11 @@ category: feature
 
 tags:
 
-  - ''
+  - introduction
+  - workout
+
+standards:
+  js.functions.1: 10
 
 notes: ''
 

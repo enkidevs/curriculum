@@ -12,7 +12,7 @@ inAlgoPool: false
 category: must-know
 
 standards:
-  js.javascript-syntax: 10
+  js.functions.5: 10
 
 tags:
   - introduction

@@ -12,8 +12,9 @@ inAlgoPool: false
 category: must-know
 
 standards:
-  js.control-flow: 10
-  js.exceptions: 10
+  js.control-flow.6: 10
+  js.exceptions.2: 10
+  js.exceptions.3: 10
 
 tags:
   - introduction

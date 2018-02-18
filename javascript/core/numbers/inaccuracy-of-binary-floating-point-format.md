@@ -11,8 +11,10 @@ type: normal
 
 category: caveats
 
-standards: 
-  js.evaluate-expressions: 10
+standards:
+  js.data-types-structures.0: 10
+  js.standard-library.2: 10
+  js.evaluate-expressions.1: 10
 
 ---
 ## Content
