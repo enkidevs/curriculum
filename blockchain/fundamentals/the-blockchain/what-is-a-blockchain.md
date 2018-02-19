@@ -19,6 +19,7 @@ tags:
 
 links:
   - '[The authoritative guide to blockchain development](https://medium.freecodecamp.org/the-authoritative-guide-to-blockchain-development-855ab65b58bc)'
+  - '[Ethereum's Inventor, Vitalik Buterin, about blockchains and Ethereum](https://www.youtube.com/watch?v=WSN5BaCzsbo)'
 
 ---
 ## Content
@@ -31,9 +32,11 @@ The main goal of blockchains is to give back to individuals the control over the
 
 Theoretical blockchains go back to the early 90's, when multiple different projects were aiming to creat fully digitized, decentralized and securitized payment systems[1]. Most of them never had the chance to see the light of day, and those who had were unsuccessful.
 
-However, in January 2009, the first public blockchain was released - the Bitcoin blockchain. It was created by a person/group of people that signed as Satoshi Nakamoto. We will cover Bitcoin blockchain in a future workout so we won't dive into details right now. 
+However, in January 2009, the first public blockchain was released - the Bitcoin blockchain. It was created by a person/group of people that signed as Satoshi Nakamoto. We will cover Bitcoin blockchain in a future workout so we won't dive into details right now.
 
-What is important to point out though is that, although limited in functionality, Bitcoin worked as proof-of-concept for more complex blockchains. The peer-to-peer payment system pionereed by Bitcoin allowed forward thinkers to extend the concept to incorporate applications like crowdfunding, domain registration, prediction markets, voting, etc.
+What is important to point out though is that, although limited in functionality, Bitcoin worked as proof-of-concept for more complex blockchains. The peer-to-peer payment system pionereed by Bitcoin allowed forward thinkers to extend the concept to incorporate applications like crowdfunding, domain registration, prediction markets, voting, etc. 
+
+Having an individual blockchain for each every project isn't wanted, nor scalable. The most complex project so far, Ethereum, is a blockchain that works as a framework for developing and sharing any kind of application by writing code in its Turing-complete programming language, Solidity.
 
 Blockchains had to start by doing one thing (and doing it well). Consider the following list of concepts one has to familiarize with to develop and release a blockchain:
 - Data structures: linked lists, hash maps and graphs (merkle trees)

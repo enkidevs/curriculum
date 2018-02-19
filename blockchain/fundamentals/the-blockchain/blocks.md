@@ -23,19 +23,19 @@ links:
 ---
 ## Content
 
-Different blockchains and blocks are similar in structure, no matter the implementation. However, the content of a block is not necessarily the same and depends on the goal of the blockchain.
+**Blocks** are the structural component of the blockchain. They exist, no matter the problem the blockchain solves. The piece of information that goes in a block is usually called *transaction*.
 
-For example, a block in a blockchain that tracks digital currency transactions will register the flow of coins between accounts. A blockchain that allows decentralized distribution of code will most likely store the code. Almost anything that can be stored on the computer can also be stored on the blockchain, in one way or another.
+In a payment system, a transaction will contain a sender, a recipient and a transaction value. In a domain name registration service, a buyer, the domain bought and the value of the domain will most likely be recorded. The data in a block that stores decentralized applications will most likely be the code. In other words, any application will have its own transaction type.
 
-We've got the blocks, now we need the link between them. For any chain to exist, every new node *has* to **reference** the previous block in the blockchain and every block in any blockchain contains such a  reference.
-
-For what it's worth, this concept is what empowered and helped the most in the creation of blockchain. With that reference in place, you know for sure that if a malicious node would want to attack the network and rewrite the history, it would have to recompute every block since then.
+We've got data that goes in the block, now we need the link between them. We also need a way to ensure that once a block is in a blockchain it cannot be modified - such that a reference to the position of the block in the blockchain would not suffice. This is where **cryptographic hash functions** come into play. 
 
 ### Hash functions
 
-Informally, a **hash function H** is a function that compresses an input of any size to a string of fixed length. The length of the output depends on the function specifications, but the most common you will see are either `256`, `384`, or `512` bits long. They are one-way functions: the compression algorithm is fairly simple and always yields the same result, but the chance of finding the input based on the hash string is close to nil.
+Informally, a **hash function H** is a function that compresses an input of any size to a string of fixed length. The length of the output depends on the function specifications, but the most common you will see are either `256`, `384`, or `512` bits long. 
 
-The current standard is `FIPS-202` (a.k.a. Secure Hash Algorithm 3 or simply SHA-3). Consider the following examples:
+They are one-way functions: the compression algorithm is fairly simple and always yields the same result, but the chance of finding the input based on the hash string is close to nil. The current standard is `FIPS-202` (a.k.a. Secure Hash Algorithm 3 or simply SHA-3).
+
+Consider the following examples:
 ```
 string: Enki is great!
 SHA3-256: 8b9580615ff7c00180ceae471033b8ced0
@@ -53,12 +53,14 @@ As you can clearly see, removing the `!` from the first string yields a completl
 
 The input doesn't necessarily have to be a string since the function is modyfing the underlying representation, which is always in bits.
 
-### Back to blocks
+### Hashing block data
 
-Now that you've got a basic understanding of what hash functions do, we can say that the *reference* from one block to another is usually the hash of the header of the block, the content of the block and the reference to its previous block:
+If any piece of data can be represented as an unique string of fixed length, what if, to build block N, we we are to hash the content of block N-1 and block N-1's reference to block N-2? By including the content, any modification done to it would change the hash. By also including the reference to block N-2, we ensure that every block before cannot be tampered with.
+
+We would then be able to give a somewhat formal representation of what is hashed:
 ```
-// '|' represents bit concatenation
-ref(n + 1) = H(header(n) | content(n)
+// '|' = concatenation of strings
+ref(n) = H(header(n) | content(n)
   | ref(n-1))
 ```
 This reference is also called the **address** of the block. Depending on the blockchain, other variables might find their way into the hash function in order for the network to validate it. We'll talk about how exactly it happens using the Bitcoin and Ethereum blockchains as examples in future workouts.
@@ -69,18 +71,25 @@ But for now, consider a network that accepts any block that contains the previou
 
 It's worth mentioning about the **genesis block** or the first block of the blockchain: as there's no previous, the reference will be equal to `0`.
 
+In the "learn more" section you can find a link to an interactive website that allows you to create and append blocks to a simplified version of the Bitcoin blockchain.
 
 ---
 ## Practice
 
-Who decides the condition that must be satisfied for a new block to be added to the chain?
+What function is used to check if the content of any block has been altered?
 
 ???
 
-* The network
-* The miner
-* The central authority
-* There is no such condition
+Identify a property of the above function:
+
+???
+
+* Hash function
+* One-way function
+* Public-key function
+* Reductor function
+* Bijective function
+* Reversible function
 
 ---
 ## Revision
