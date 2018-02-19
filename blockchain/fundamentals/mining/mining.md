@@ -18,6 +18,8 @@ tags:
 ---
 ## Content
 
+For a new block to be added to the blockchain, a consensus has to be reached regarding its final state. For that to happen, the block has to be mined first. In other words, **mining** is the process of bundling transactions together such that the network would recognize the block as being valid.
+
 
 
 ---

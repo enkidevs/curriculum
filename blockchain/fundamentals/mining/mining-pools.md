@@ -18,6 +18,7 @@ tags:
 ---
 ## Content
 
+Unlike individual mining, a **mining pool**
 
 
 ---
