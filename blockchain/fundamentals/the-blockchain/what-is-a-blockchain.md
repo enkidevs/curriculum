@@ -17,38 +17,32 @@ tags:
 
   - workout
 
+links:
+  - '[The authoritative guide to blockchain development](https://medium.freecodecamp.org/the-authoritative-guide-to-blockchain-development-855ab65b58bc)'
+
 ---
 ## Content
 
-A **blockchain** (literal chain of blocks) is a network that builds a sequence of information bundles, verified by trust-worthy nodes and available to every node in the network. 
-Conceptually, every blockchain should be using cryptography to establish and maintain properties like decentralization, data integrity and anonymity. 
+A **blockchain** (a literal chain of blocks) is a peer-to-peer network which is looking to build and maintain a sequence of information bundles. For the information to be added to the sequence, it has to be verified first by trust-worthy nodes.
 
-The first blockchain drafts began appearing in the 90's, when multiple different projects were aiming to creat fully digitized, decentralized and securitized payment systems[1].
+[Linked list of blocks here]
 
-But the blockchain is not limited to just digital cash like Bitcoin or payment systems. While they are all valid applications that may at some point remove the need for intermediaries in currency transactions (and hence overhead costs for processing, security and storing data), there is no reason to stop just there.
+The main goal of blockchains is to give back to individuals the control over their own data, in contrast to having huge, private companies taking advantage of that. The power of the network comes from its **decentralization**, **high availability** and its **tamper resistance**, given enough nodes are part of the network. Every blockchain is using cryptography concepts, such as asymmetric cryptography and hash functions, to establish, support and maintain properties like decentralization, data integrity and anonymity.
 
-A (public) blockchain is built in such a way that everyone can join. All one has to do is download the blockchain client and run it. Participants share and verify the same information to prevent tampering with the data, while the *cryptographic* mechanisms on which the network is built ensure that no one can steal[2] your identity on the network. 
+Theoretical blockchains go back to the early 90's, when multiple different projects were aiming to creat fully digitized, decentralized and securitized payment systems[1]. Most of them never had the chance to see the light of day, and those who had were unsuccessful.
 
-Estonia has seen the potential in blockchain techonology and set a goal of managing its registers, such as national health, judicial, security and commercial code systems by using the blockchain. The system has been live since 2012 and their initiative is only moving forward.
+However, in January 2009, the first public blockchain was released - the Bitcoin blockchain. It was created by a person/group of people that signed as Satoshi Nakamoto. We will cover Bitcoin blockchain in a future workout so we won't dive into details right now. 
 
-[Image here of a blockchain]
+What is important to point out though is that, although limited in functionality, Bitcoin worked as proof-of-concept for more complex blockchains. The peer-to-peer payment system pionereed by Bitcoin allowed forward thinkers to extend the concept to incorporate applications like crowdfunding, domain registration, prediction markets, voting, etc.
 
-### The components of a blockchain
+Blockchains had to start by doing one thing (and doing it well). Consider the following list of concepts one has to familiarize with to develop and release a blockchain:
+- Data structures: linked lists, hash maps and graphs (merkle trees)
+- Cryptography: asymmetric (public-key) cryptography, hash functions
+- Distributed systems:  consensus, consistency and sharding
+- Networking: peer-to-peer protocols, the packet model, routing
+- Economy: game theory, macroeconomics 
 
-As stated before, a blockchain is a type of network that follows a special **protocol**. Like in any other network, **nodes** are required to acknowledge, verify or append information. This time, however, information is not converging towards a single source of truth (e.g. central database), but is exchanged between nodes. This property is called **decentralization**. 
-
-After a certain period of time (dependant on internet speed and latency) and a number of (usually 7) thumbs-up given by nodes, the set of data (**block**) is confirmed as part of the blockchain.
-
-A distinction can also be made between nodes: there are **full nodes** and **mining nodes**. In short, mining nodes, or simply *miners*, are the ones that bundle the data *available* (this is a big, maybe global, network and transactions happen every second) to them into a new block and make sure to also include a reference to the last block in the chain. Full nodes are the ones that receive the bundled blocks from miners and verify its *integrity*. If everything is in order, then they append the block to their copy of the blockchain and send the message forward.
-
-To prevent nodes for attacking the network, they *are rewarded* whenever they find a valid block - but more on this later. 
-
-At a quick glance, the components of the blockchain are as follows:
-- `Protocol`: The set of rules on which the network runs
-- `Full Node`: A node that validates transactions and blocks
-- `Miner`: A node that gathers transactions and bundles them up in a block
-- `Block`: A set of transactions available to the miner at some point in time
-- `User`: The human component behind other participants in the network
+Another proof of the worthiness and capabilities of this technology comes from Estonia: the small european country started managing its registers, such as national health, judicial, security and commercial code systems on their own blockchain. The system has been live since 2012 and their initiative is only moving forward.
 
 ---
 ## Footnotes
@@ -64,23 +58,23 @@ While computing the private key that determines your identity is infeasible for 
 ---
 ## Practice
 
-Identify the item that `is not` part of a blockchain: 
+Identify the first application of a blockchain:
 
 ???
 
-* Database
-* Set of transactions
-* Miner
-* Cryptography
-* Reward
+* peer-to-peer payment system
+* domain name registration
+* distributed database of public records
+* proof-of-concept for cryptographic mechanisms
 
 ---
 ## Revision
 
 A blockchain is a ??? network.
 
-* decentralized
+* distributed
 * centralized
+* free
 
 ---
 ## Quiz
