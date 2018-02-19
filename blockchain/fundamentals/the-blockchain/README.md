@@ -8,5 +8,5 @@ section: 0
 
 insights:
  - what-is-a-blockchain
- - blockchain-components
  - blocks
+ - blockchain-applications
