@@ -9,6 +9,9 @@ type: normal
 
 category: must-know
 
+standards:
+  py.native-types-operations.9: 10
+
 links:
 
   - '[More on Enum](https://docs.python.org/3/library/enum.html)'

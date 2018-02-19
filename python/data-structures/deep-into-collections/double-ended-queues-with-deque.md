@@ -11,6 +11,9 @@ category: must-know
 
 parent: get-more-with-collections
 
+standards:
+  cs.identify-linear-collection-data-structures-usage.2: 10
+
 links:
 
   - >-
@@ -27,7 +30,7 @@ The `deque` class in the `collections` module makes it easy to create deques or 
 Import the module:
 ```python
 from collections import deque
-``` 
+```
 
 Instantiate `deque`:
 ```python
@@ -71,12 +74,12 @@ Instantiate a double ended queue with a maximum length of 5:
 ```
 e = ???(??? = 5)
 ```
-*`deque` 
-*`maxlen` 
-*`dqueue` 
-*`dequeue` 
-*`length` 
-*`maxsize` 
+*`deque`
+*`maxlen`
+*`dqueue`
+*`dequeue`
+*`length`
+*`maxsize`
 *`size`
 
 ---
@@ -92,8 +95,8 @@ a.append("n")
 a.append("k")
 a.append("i")
 a.???("e")
-``` 
-*`appendleft` 
-*`append` 
-*`append.left` 
+```
+*`appendleft`
+*`append`
+*`append.left`
 *`append.start`

@@ -1,4 +1,4 @@
-# Best way to implement a simple `queue` 
+# Best way to implement a simple `queue`
 author: catalin
 
 levels:
@@ -10,6 +10,11 @@ type: normal
 category: best practice
 
 parent: double-ended-queues-with-deque
+
+standards:
+  cs.identify-linear-collection-data-structures-usage.2: 10
+  cs.implement-linear-collection-data-structures.2: 10
+
 
 notes: >-
   Insight content is correct. But the deque class has about 15 methods. Suggest
@@ -23,7 +28,7 @@ links:
 ---
 ## Content
 
-A simple `list` can be easily used and implemented as a **queue** abstract data structure. A queue implies the **first-in, first-out** principle. 
+A simple `list` can be easily used and implemented as a **queue** abstract data structure. A queue implies the **first-in, first-out** principle.
 
 However, this approach will prove inefficient because *inserts* and *pops* from the beginning of a list are slow (all elements need shifting by one).
 
@@ -60,17 +65,17 @@ A reverse queue can be implemented by using ???  instead of ??? for adding items
 Complete the code snippet so that the queue reads Enki:
 
 ```
-from collections import deque 
+from collections import deque
 queue = deque(["i", "n", \
-              "k", "i"]) 
+              "k", "i"])
 
 queue.???
 queue.???
 print(queue)
 ```
-*`popleft()` 
-*`appendleft("e")` 
-*`pop()` 
-*`append("e")` 
-*`pop-left()` 
+*`popleft()`
+*`appendleft("e")`
+*`pop()`
+*`append("e")`
+*`pop-left()`
 *`append-left("e")`
