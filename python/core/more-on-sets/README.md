@@ -9,7 +9,6 @@ section: 2
 parent: more-on-lists
 
 insights:
-  - review-of-sets
   - set-operations
   - complex-set-operations
   - immutable-sets-with-frozenset

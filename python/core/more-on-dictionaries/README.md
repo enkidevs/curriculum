@@ -9,8 +9,6 @@ section: 2
 parent: more-on-sets
 
 insights:
-  - review-of-dictionaries
-  - build-in-dictionary-methods
   - dictionary-view-objects
   - dictionaries-from-lists
   - keep-things-in-order-with-ordereddict
