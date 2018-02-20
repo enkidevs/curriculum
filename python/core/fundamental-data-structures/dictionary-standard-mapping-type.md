@@ -17,15 +17,22 @@ links:
 ---
 ## Content
 
-The **dictionary** (dict) is Python's main mapping type. It maps **hashable** values to arbitrary objects, as long as they provide key integrity (their value cannot be changed after being initialized, e.g. lists will throw an error). Dictionaries are equivalent to Java's HashMap or C's hash tables.
+The **dictionary** (dict) is Python's main mapping type. It maps **hashable** values to arbitrary objects.
+They behave similar to *lists*, being easily grown or shrink by adding or removing elements. There are two important differences though. Items stored in **dictionaries** can only be accessed using their key and not their position. Second, once a key is hashed to an object it can not be bind to any other object. We call this **key integrity**. Python dictionaries's corespondent in Java is the *HashMap*, in C their are called *hash tables*.
 
-You can create a *dictionary* using the `{key: value}` syntax, using the `dict` constructor:
+
+There are several ways to create a *dictionary*:
+- using the `{key: value}` syntax
+- also we can use the `dict` constructor
+- and finally we can use both the above syntax and constructor together
+
 ```python
 d1 = {'first':1, 'second':2}
 d2 = dict(first=1, second=2)
 d3 = dict({'first':1, 'second':2})
 ```
-And access the pairs with:
+
+This is how we access elements:
 ```python
 print(d1['first'])
 # 1
@@ -33,15 +40,18 @@ print(d2)
 # {'second': 2, 'first': 1}
 ```
 
-To concatenate two dictionaries, use `update`:
+
+One interesting feature *dictionaries* have is the `update()` method. It behaves similar to a concatenation of two lists, but with a few differences. Basically it merges the keys and values from one dictionary into another and overwrites values of the same key:
 ```python
 prefs = {"fruit": "apple", "car": "Tesla"}
-prefs2 = {"fruit": "orange"}
+prefs2 = {"fruit": "pear","animal": "dog"}
 prefs.update(prefs2)
 print(prefs)
-# {'car': 'Tesla', 'fruit': 'orange'}
+# {'car': 'Tesla', 'fruit': 'orange',
+# "animal": "dog"}
 ```
-Be careful when using `update`, as a dictionary cannot have multiple entries with the same key.
+
+**apple** was removed because it was overwritten by the value with the same key from the second dictionary.
 
 ---
 ## Revision
