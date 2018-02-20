@@ -1,4 +1,4 @@
-name: Recipes
+name: Recipes with Common Data Structures
 
 type: insights-list
 
