@@ -6,7 +6,7 @@ description: How do classes work in Python?
 
 section: 1
 
-parent: playing-with-time
+parent: working-with-strings
 
 insights:
   - creating-classes
