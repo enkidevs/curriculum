@@ -4,7 +4,7 @@ type: insights-list
 
 description: Explore queues in depth.
 
-section: 1
+section: 2
 
 parent: deep-into-collections
 

@@ -4,7 +4,7 @@ type: insights-list
 
 description: Explore more advanced classes features.
 
-section: 2
+section: 3
 
 parent: tips
 

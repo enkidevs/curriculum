@@ -4,7 +4,9 @@ type: insights-list
 
 description: Get the most out of Python's collections.
 
-section: 1
+section: 2
+
+parent: recipes
 
 insights:
   - get-more-with-collections

@@ -4,9 +4,7 @@ type: insights-list
 
 description: Get better at writing Python with these tips!
 
-section: 2
-
-parent: recipes
+section: 3
 
 insights:
   - exiting-the-interpreter
