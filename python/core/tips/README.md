@@ -6,7 +6,7 @@ description: Get better at writing Python with these tips!
 
 section: 2
 
-parent: more-on-dictionaries
+parent: recipes
 
 insights:
   - exiting-the-interpreter

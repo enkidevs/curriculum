@@ -4,7 +4,7 @@ type: insights-list
 
 description: Get better at data manipulation with this simple recipes for common problems.
 
-section: 0
+section: 2
 
 parent: more-on-dictionaries
 
