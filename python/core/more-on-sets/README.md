@@ -4,7 +4,7 @@ type: insights-list
 
 description: Learn the quirks of Python's built-in sets.
 
-section: 0
+section: 2
 
 parent: more-on-lists
 
