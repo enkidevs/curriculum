@@ -20,9 +20,9 @@ notes: |
 
 links:
 
-  - "https://docs.python.org/3.5/library/stdtypes.html#additional-methods-on-integer-types"
+  - [Read More]("https://docs.python.org/3.5/library/stdtypes.html#additional-methods-on-integer-types"){website}
 
-  - "https://en.wikipedia.org/wiki/Endianness"
+  - [Find out More]("https://en.wikipedia.org/wiki/Endianness"){website}
 
 ---
 ## Content
@@ -44,6 +44,11 @@ In addition, we can distinguish the following couple of methods:
 In both syntaxes defined above `byteorder` stands for the **byte order** or **endianness**[2], accepting the values `"big"` or `"little"`.
 
 The `signed` argument (`False` by default) determines whether **two’s complement** is used to represent the integer. Keep in mind that having `signed` equal to `False` and calling `.to_bytes()` on a *negative* number will result in a `OverflowError`.
+
+Note that you can round up a floating point numbers using the following expression:
+```
+rounded_up = -(-numerator // denominator)
+```
 
 Here's the former function in action:
 ```py
@@ -83,26 +88,15 @@ Similarly, the `.from_bytes()` method works in reverse:
 ---
 ## Practice
 
-Starting from number `25`, the following snippet will convert it to its binary array representation and then back to `25`.
 
-Note that you can round up a floating point numbers using the following expression:
-```
-rounded_up = -(-numerator // denominator)
-```
-
-This is useful when we need to get the number of bytes (aka length) needed for representing the integer. Keep in mind that a byte has 8 bits.
-
-Complete the missing gaps such that running this snippet on the interpreter will output `25`:
+Fill the following snippet such that it will first convert `1024` to bytes and then perform the reverse operation.
 ```py
->>> ???.???.(???
-      .???(-(-(25)
-      .??? // 8)
-      , ???="big"))
+>>> int.???(
+(1024).???((1024).???, byteorder='big'),
+???="big")
 ```
 
-* `int`
 * `from_bytes`
-* `(25)`
 * `to_bytes`
 * `bit_length()`
 * `byteorder`

@@ -62,17 +62,17 @@ Complete the output of the command run in the Python interactive shell:
 ???'\???\???'
 ```
 
-* b
-* x00
-* x01
-* a
-* x02   
-* x03
+* `b`
+* `x00`
+* `x01`
+* `a`
+* `x02`   
+* `x03`
 
 ---
 ## Revision
 
 Bytes are ??? sequences of single bits.
 
-* immutable
-* mutable
+* `immutable`
+* `mutable`
