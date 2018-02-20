@@ -6,7 +6,7 @@ description: How to loop
 
 section: 0
 
-parent: fundamental-data-structures
+parent: fundamental-data-structures-ii
 
 insights:
   - for-loops
