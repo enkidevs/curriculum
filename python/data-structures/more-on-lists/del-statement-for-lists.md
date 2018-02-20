@@ -18,7 +18,7 @@ links:
 ## Content
 
 Python's `del` statement has multiple usages when used on `lists`.
-It differs from the `pop()` method because when using `del`, the element won't be returned when removing it. 
+It differs from the `pop()` method because when using `del`, the element won't be returned when removing it.
 
 Delete the *element* at a given *index*:
 ```python
@@ -57,10 +57,12 @@ What’s the output of the following code snippet:
 >>> e = [7, 8, 9, 11, 15, 19]
 >>> del e[2:4]
 >>> e
+
 ???
+
 ```
-*`[7, 8, 15, 19]`
-*`[7, 8, 19]`
-*`[]`
-*`[7, 11, 15, 19]`
-*`[7, 15, 19]`
+* [7, 8, 15, 19]
+* [7, 8, 19]
+* []
+* [7, 11, 15, 19]
+* [7, 15, 19]

@@ -1,4 +1,4 @@
-# Parallel sorting of lists
+# Sort 2 lists together
 author: Aaron7Sun
 
 levels:
@@ -16,11 +16,26 @@ category: tip
 ---
 ## Content
 
-To sort multiple lists of the same length:
+Imagine we have two lists that whose elements are connected between each other by their index. We would like to have them sorted based on the elements of the first one.
+
+For example, we can have a list representing names and a second one representing age of those persons. We want to sort them alphabetically and also to be able to tell how old is each one.  
+
+The `zip()` method can bind two lists together such that they become a single one made of tuples:
+```python
+names = ['John', 'G', 'Arron', 'Jack']
+age = [18, 21, 40, 32]
+
+print(zip(names, age))
+>>> [('John', 18), ('G', 21), ...]
+```
+
+But also *unzip* them when used together with `*` ( the spread operator ).
 
 ```python
-data = zip(l1, l2)
-data.sort()
-l1, l2 = map(lambda t: list(t), zip(*data))
+names = ['John', 'G', 'Arron', 'Jack']
+age = [18, 21, 40, 32]
+
+names, age = zip(*sorted(zip(names, age)))
 ```
-The `zip` function returns a list of *tuples*. To convert the result of the last `zip` back to lists, it is possible to use the `map` command along with the `lambda` function.
+
+The `sorted()` method is the equivalent of `sort()` in python3. It sorts the tuples formed from the first `zip` comparing them by the *1st* element of each tuple.
