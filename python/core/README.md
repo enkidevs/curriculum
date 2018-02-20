@@ -3,26 +3,38 @@ sections:
     - meet-python
     - console-and-operators
     - control-structures
+    - fundamental-data-structures
+    - fundamental-data-structures-ii
     - looping
     - functions
-    - fundamental-data-structures
+
   '1':
-    - math-recipes
-    - string-recipes
+    - intro-to-modules
     - basic-file-manipulation
+    - playing-with-time
+    - working-with-strings
     - classes-i
     - classes-ii
-    - intro-to-modules
-    - is-your-python-healthy
-    - playing-with-time
-    - testing
     - utilities-i
-    - utilities-ii
-  '2':
-    - advanced-referencing
-    - classes-iii
-    - tips
+    - is-your-python-healthy
+    - testing
 
+  '2':
+    - more-on-lists
+    - more-on-sets
+    - more-on-dictionaries
+    - recipes
+    - deep-into-collections
+    - advanced-queues
+
+  '3':
+    - tips
+    - classes-iii
+    - bits-bytes-hexadecimals
+    - memory-allocation
+    - advanced-referencing
+    - utilities-ii
+    
 description: The fundamentals of Python. No skin shedding needed.
 
 next:
