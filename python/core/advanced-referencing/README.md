@@ -4,9 +4,9 @@ type: insights-list
 
 description: Referencing objects 101.
 
-section: 2
+section: 3
 
-parent: classes-iii
+parent: memory-allocation
 
 insights:
   - there-is-more-to-copying

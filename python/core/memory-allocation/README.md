@@ -4,7 +4,7 @@ type: insights-list
 
 description: On how memory allocation and de-allocation works.
 
-section: 0
+section: 3
 
 parent: bits-bytes-hexadecimals
 
