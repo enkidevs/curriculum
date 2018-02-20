@@ -14,3 +14,4 @@ insights:
   - break-and-continue-statements
   - using-else-in-loops
   - nested-loops
+  - looping-techniques
