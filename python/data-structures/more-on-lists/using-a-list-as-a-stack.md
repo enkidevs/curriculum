@@ -35,7 +35,7 @@ print stack.pop()
 >>> 5
 ```
 
-Stacks don't use indexes to access elements. We use two methods for this purpose:
+By definition, we don't access the elements of a stack by index, we only use methods that add or remove elements from the top of the stack. We use two methods for this purpose:
 - `append()`, which adds an element at the back of the stack ( on the last position )
 - `pop()`, which removes the element at the back of the stack ( most recently added )
 
