@@ -77,12 +77,14 @@ for i in range(num_threads):
   worker.setDaemon(True)
   worker.start()
 ```
+
 * `num_threads`
 * `Thread`
 * `num_thread`
 * `threads`
 * `new_Thread`
 * `start`
+
 
 ---
 ## Revision
@@ -93,3 +95,4 @@ Which methods tells the queue that an operation has finished? ???
 * `task.done()`
 * `task-done()`
 * `taskdone()`
+

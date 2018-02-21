@@ -23,6 +23,7 @@ links:
 
 Python features a built-in `bytes` type for manipulating binary data, which represents an **immutable** sequence of individual bytes. This is useful for working with binary data that must be stored accurately and without compression, such as a compiled program, a digital signal, or for working with bytes in cryptographic algorithms.
 
+
 `bytes()` can produce a binary sequence from other datatypes, here are some examples below.
 
 Create a **zero-filled** bytes object of specified `length`:
