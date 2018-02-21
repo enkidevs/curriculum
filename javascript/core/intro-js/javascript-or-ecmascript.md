@@ -11,6 +11,11 @@ inAlgoPool: false
 
 category: must-know
 
+tags:
+  - introduction
+  - workout
+  - obscura
+
 links:
 
   - >-

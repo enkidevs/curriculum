@@ -9,6 +9,9 @@ type: normal
 
 category: tip
 
+standards:
+  js.standard-library.5: 10
+
 links:
 
   - '[2ality.com](http://www.2ality.com/2014/02/time-values.html){blog}'
@@ -36,7 +39,7 @@ try `moment.js`.
 ---
 ## Practice
 
-What is missing from the following code snippet for getting the current time in milliseconds? 
+What is missing from the following code snippet for getting the current time in milliseconds?
 
 ```javascript
 ???new ???();

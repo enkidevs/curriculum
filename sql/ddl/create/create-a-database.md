@@ -15,6 +15,9 @@ category: must-know
 
 inAlgoPool: false
 
+standards:
+  sql.create-database: 10
+
 tags:
   - introduction
   - workout

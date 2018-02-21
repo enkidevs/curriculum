@@ -9,9 +9,17 @@ type: normal
 
 category: feature
 
-tags:
+standards:
+  js.async.3: 10
+  js.async.2: 10
+  js.use-modules.2: 10
 
-  - library
+tags:
+  - workout
+  - deep
+  - async
+  - promises
+  - npm
 
 links:
 
@@ -35,9 +43,9 @@ For example:
 ```
 var ch = csp.chan(); // new channel
 csp.takeAsync(ch, function(value) {
-   return console.log("Yay ", value); 
+   return console.log("Yay ", value);
 });
-csp.putAsync(ch, 100); 
+csp.putAsync(ch, 100);
 // puts 100 ... takes 100, "Yay 100"
 ```
 

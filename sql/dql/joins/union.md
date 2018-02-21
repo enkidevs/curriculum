@@ -17,6 +17,9 @@ category: must-know
 
 inAlgoPool: false
 
+standards:
+  sql.read-multiple-tables: 10
+
 tags:
   - workout
   - deep

@@ -9,6 +9,12 @@ type: normal
 
 category: must-know
 
+standards:
+  js.node-developer-environment: 10
+
+tags:
+  - introduction
+
 links:
 
 - '[nodejs.org](https://nodejs.org/en/)'

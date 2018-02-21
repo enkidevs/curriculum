@@ -11,6 +11,13 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  js.control-flow.3: 10
+
+tags:
+  - introduction
+  - workout
+
 ---
 ## Content
 

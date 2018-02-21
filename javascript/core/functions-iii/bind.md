@@ -1,4 +1,4 @@
-# `.bind()` 
+# `.bind()`
 author: rosielowther
 
 levels:
@@ -13,6 +13,14 @@ type: normal
 
 category: must-know
 
+standards:
+  js.functions.5: 10
+  js.execution-context.0: 10
+
+tags:
+  - introduction
+  - workout
+
 links:
 
   - >-
@@ -23,12 +31,12 @@ links:
 ---
 ## Content
 
-The `bind()` function creates a new **bound function** with the same function body as the function it is being called on. 
+The `bind()` function creates a new **bound function** with the same function body as the function it is being called on.
 
 You can use `bind()` to make a function that is always called with a **particular** `this` value:
 ```
 bind(thisArg, [p1, [p2, [...]]])
-// returns a new function 
+// returns a new function
 // that has this equal to thisArg
 ```
 The other parameters are optional and bind the parameters of the function, for example:
@@ -37,7 +45,7 @@ The other parameters are optional and bind the parameters of the function, for e
 var sum = function(a, b) {
   return a + b;
 };
-var add10 = sum.bind(null, 10); 
+var add10 = sum.bind(null, 10);
 // binds a = 10
 console.log(add10(10)); // 20
 ```

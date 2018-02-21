@@ -13,6 +13,16 @@ levels:
 
 type: normal
 
+standards:
+  js.read-and-write-streams: 20
+  js.node-standard-library-os: 20
+  js.events-asynchronous-operations: 20
+
+tags:
+  - introduction
+  - workout
+  - deep
+
 category: must-know
 
 parent: chaining-readable-streams

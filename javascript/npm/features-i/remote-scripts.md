@@ -14,6 +14,15 @@ category: feature
 
 parent: scripts-lifecycle
 
+standards:
+  js.npm-tasks-and-modules-manager: 10
+
+tags:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 ## Content
 

@@ -11,6 +11,15 @@ type: normal
 
 category: hack
 
+tags:
+  - introduction
+  - workout
+  - arrays
+
+standards:
+  js.data-types-structures.2: 10
+  js.data-types-structures.3: 10
+
 links:
 
   - '[davidwalsh.name](https://davidwalsh.name/merge-arrays-javascript){website}'
@@ -18,7 +27,7 @@ links:
 ---
 ## Content
 
-`concat` is not always the best approach to merging arrays as it generates a new array. 
+`concat` is not always the best approach to merging arrays as it generates a new array.
 
 Since `var`s are passed by reference, `concat` may mess up a reference.
 

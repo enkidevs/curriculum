@@ -13,6 +13,10 @@ type: normal
 
 category: best practice
 
+tags:
+  - obscura
+  - workout
+
 links:
 
   - >-
@@ -27,7 +31,7 @@ var str = "if(a){1+2;} else{1+3;}";
 var a = true;
 var b = eval(str);  // returns 3
 ```
-Avoid using `eval` if there is an alternative. Code generally runs more slowly if `eval  ` is used because it has to disable optimisations. 
+Avoid using `eval` if there is an alternative. Code generally runs more slowly if `eval  ` is used because it has to disable optimisations.
 
 The security of `eval` is poor. The string could be changed by a third party extension to produce malicious code.
 

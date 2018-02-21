@@ -13,6 +13,14 @@ type: normal
 
 category: tip
 
+standards:
+  js.identify-common-design-patterns: 20
+  js.node-standard-library-os: 20
+
+tags:
+  - workout
+  - deep
+
 ---
 ## Content
 
@@ -41,7 +49,7 @@ worker.send('From master to worker...');
 // or
 worker.send({data: [1, 2, 3]});
 ```
-To send a message from a *worker* to a *master*: 
+To send a message from a *worker* to a *master*:
 ```javascript
 process.send('From worker to master..., \
              with ID num: ' + process.pid);

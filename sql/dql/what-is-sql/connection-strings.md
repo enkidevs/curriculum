@@ -13,9 +13,14 @@ category: must-know
 
 inAlgoPool: false
 
+
+standards:
+  sql.connect-client: 10
+
 tags:
   - introduction
   - workout
+
 
 links:
 

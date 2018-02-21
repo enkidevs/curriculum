@@ -14,6 +14,14 @@ category: how to
 
 parent: how-npm3-handles-dependencies
 
+standards:
+  js.npm-tasks-and-modules-manager: 30
+
+tags:
+  - introduction
+  - workout
+  - deep
+
 ---
 ## Content
 
@@ -63,11 +71,22 @@ This will speed up the process as two subshells will be invoked to resolve each 
 ---
 ## Revision
 
-The `npm run` command is an abbreviation for:
+
+Given the following is in your `package.json`, execute the script called `dailyStats`
+```javascript
+{
+  "name": "enki",
+  // ...
+  "scripts": {
+    "dailyStats": "node ./bin/stats.js"
+  }
+}
 ```
-???
-```
-* `npm run-script`
-* `npm run-scripts`
-* `npm run-test`
-* `npm install --script`
+
+??? ??? ???
+
+* `npm`
+* `run`
+* `dailyStats`
+* `script`
+* `exec`
