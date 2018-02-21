@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-A `PriorityQueue` is a type of `queue` imported from the module with the same name.
+To use `PriorityQueue` data type we need to import it from `Queue` module.
 
 It uses sort order to decide what to retrieve from it first (your object must have a way of comparing its instances):
 ```python
@@ -56,6 +56,7 @@ class Enki(object):
  # output is 100 / 55 / 3
 ```
 
+To give an example of when it is advised to use `PriorityQueue`, we can thing of a hospital. Here sick people come with no interruption. Now, in a ideal situation, the hospital's staff would prioritise people depending on how sever their illness is. If there is someone who suffers a headache should be treated only after one whose heart has stopped working was treated. In such a case we would use a `PriorityQueue` treating instantly all sever illnesses and put the others in the queue.
 
 ---
 ## Footnotes
@@ -82,6 +83,6 @@ q = queue.PriorityQueue()
 
 ???
 
-*Queue 3
-*Queue 2
-*Queue 1
+* Queue 3
+* Queue 2
+* Queue 1
