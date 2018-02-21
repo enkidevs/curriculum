@@ -58,11 +58,11 @@ What are the outputs to the following code snippet respectively:
 ???
 ???
 
-*`4` 
-*`25.75` 
-*`5` 
-*`6` 
-*`3` 
-*`26.25` 
-*`25` 
-*`26`
+* `4`
+* `25.75`
+* `5`
+* `6`
+* `3` 
+* `26.25`
+* `25`
+* `26`
