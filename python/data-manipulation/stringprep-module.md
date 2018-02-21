@@ -55,10 +55,10 @@ import stringrep
 ???.???(‘x’)
 ```
 
-*`stringrep` 
-*`in_table_c11` 
-*`table_c11` 
-*`table_c_1_1` 
-*`table_c1_1` 
-*`rfc` 
-*`rfc3454``
+* `stringrep`
+* `in_table_c11`
+* `table_c11`
+* `table_c_1_1`
+* `table_c1_1`
+* `rfc`
+* `rfc3454`
