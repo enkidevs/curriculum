@@ -21,8 +21,8 @@ There are few things to keep in mind when talking about Python:
 
 To define a string (`str` type), you can either use single or double quotes:
 ```py
-str = 'enki'
-str_2 = "enki"
+string = 'enki'
+string_2 = "enki"
 ```
 
 Using single quotes will allow unescaped embedding of double quotes and vice-versa:
@@ -35,28 +35,24 @@ It's most Pythonic[1] to use single quotes until you need double quotes.
 
 To define integers (keep in mind these are signed):
 ```py
-int = 23
-int_2 = -3
+integer = 23
+integer_2 = -3
 ```
-
-Longs (long integers) are also available - as integers of infinite size and followed by the letter `L`:
-```py
-long = 0122L
-```
+Note that `long` and `int` are **unified** in Python 3.x and you don't need to worry about long integers anymore.  
 
 Floating point numbers are also easily defined:
 ```py
-float = 7.0
+float_value = 7.0
 ```
 
 Last, but not least, Python also provides support for complex numbers of form `a + b*j`, where `a` and `b` are float numbers and `J` represents the square root of `-1`:
 ```py
-complex = 3 + 5J
+complex_value = 3 + 5J
 ```
 
 Using the built-in `type()` function we can find out what type a variable has:
 ```py
-print(type(int_2))
+print(type(integer_2))
 # <type 'int'>
 
 print(type(complex))
@@ -78,10 +74,6 @@ print(type(b))
 c = '"3.14"'
 print(type(c))
 # <type '???'>
-
-d = 124124141L
-print(type(d))
-# <type '???'>
 ```
 
 * `float`
@@ -102,17 +94,12 @@ b = 100J
 print(type(b))
 # <type '???'>
 
-d = 100L
-print(type(d))
-# <type '???'>
-
 c = '100'
 print(type(c))
 # <type '???'>
 ```
 
 * `complex`
-* `long
 * `str`
 * `float`
 * `string`
