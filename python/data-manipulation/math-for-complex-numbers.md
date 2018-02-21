@@ -35,7 +35,7 @@ z = 3 + 4j
 
 Imaginary and real parts of complex numbers:
 ```python
-# complex number 
+# complex number
 # z == z.real + z.imag*1j
 print(z.real) # 3.0
 print(z.imag) # 4.0
@@ -43,7 +43,8 @@ print(z.imag) # 4.0
 ```
 Get the phase of a number:
 ```python
-# equiv to math.atan2(x.imag, x.real)
+# equiv to
+# math.atan2(x.imag, x.real)
 print(cmath.phase(z))
 # 0.9272952180016122
 ```
@@ -71,12 +72,12 @@ import cmath
 z = 7 + 1???
 print(z.???)
 ```
-*`j` 
-*`imag` 
-*`imaginary` 
-*`i` 
-*`cmath` 
-*`complex`
+* `j`
+* `imag`
+* `imaginary`
+* `i`
+* `cmath`
+* `complex`
 
 ---
 ## Revision
@@ -87,8 +88,8 @@ import ???
 z = ???(2, 4)
 ```
 
-*`cmath` 
-*`complex` 
-*`c` 
-*`math` 
-*`create`
+* `cmath`
+* `complex`
+* `c`
+* `math`
+* `create`
