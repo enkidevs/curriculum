@@ -18,16 +18,11 @@ tags:
 ---
 ## Content
 
-Some characters in HTML are reserved. These characters must be replaced with character entities.
-Character entities are used to display reserved characters in HTML.
+In HTML the browser assumes *<* and *>* always represent the start and end of an HTML tag. If we need to display the literal characters, *<* or *>*, we must use character entities.
 
-In HTML the browser assumes *<* and *>*  are the start and end of an HTML tag, so If you use the less than *<* or greater than *>* sings in your text, the browser can mix them up with tags, so it is best to use character entities instead.
-
-You can use either an entity *name* or an entity *number*
+You can use either an HTML entity *name* or an HTML entity *number*
 
 HTML Entity Number
-
-Source code:
 ```
 &#60;       &#62;
 ```
@@ -35,10 +30,7 @@ Result:
 ```
  <            >
 ```
-
 HTML Entity Name
-
-Source code:
 ```
 &lt;        &gt;
 ```
@@ -47,9 +39,7 @@ Result:
  <           >
 ```
 
-Example
-
-Source code:
+Example:
 ```
 <p>Get your AT&amp;T free first 3 months!</p>
 ```

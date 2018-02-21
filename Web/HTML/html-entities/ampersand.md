@@ -18,13 +18,15 @@ tags:
 ---
 ## Content
 
+Some characters in HTML are reserved.  To display these characters you must replace them with character entities.
 
-An ampersand (sometimes referred to as the "and" symbol) is a special character that requires special coding when being used on a website or a blog.
+Character entities are case sensitive and are also used to display characters not present on the keyboard.
+
+An ampersand or the "and" symbol is one of those reserved characters.
+
 To display the ampersand symbol, you can use either the HTML entity *number* or the entity *name*.
 
 HTML Entity Number
-
-Source code:
 ```
 &#38;
 ```
@@ -34,8 +36,6 @@ Result:
 ```
 
 HTML Entity Name
-
-Source code:
 ```
 &amp;
 ```
@@ -44,16 +44,15 @@ Result:
 &
 ```
 
-Example
-
-Source code:
+Example:
 ```
-<p>Get AT &amp; T free first 3 months!</p>
+<p>Get AT&amp;T free first 3 months!</p>
 ```
 Result:
 ```
 Get AT&T free first 3 months!
 ```
+
 ---
 ## Practice
 
