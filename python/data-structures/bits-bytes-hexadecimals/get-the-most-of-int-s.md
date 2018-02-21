@@ -20,9 +20,9 @@ notes: |
 
 links:
 
-  - [Read More]("https://docs.python.org/3.5/library/stdtypes.html#additional-methods-on-integer-types"){website}
+  - "https://docs.python.org/3.5/library/stdtypes.html#additional-methods-on-integer-types"
 
-  - [Find out More]("https://en.wikipedia.org/wiki/Endianness"){website}
+  - "https://en.wikipedia.org/wiki/Endianness"
 
 ---
 ## Content
