@@ -15,9 +15,9 @@ insights:
 ---
 ## Exercise
 sqlfiddle-link: http://sqlfiddle.com/#!9/58d6e/4
-answer: Record Count: 0
+answer: 0
 ### Question
-From `item` table `DELETE` the item having id 10. To check if your query worked a DQL query is provided. Run it and answer with the result you get from running this DQL query.
+From `item` table `DELETE` the item having id 10. To check if your query worked a DQL query is provided. Run it and answer with the result count you get from running this DQL query.
 ---
 ## Exercise
 sqlfiddle-link: http://sqlfiddle.com/#!9/58d6e/3
