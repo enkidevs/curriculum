@@ -93,7 +93,7 @@ iter(
     discounts, isInSale))
 
 fullPricesInSale =
-itertools.???(prices, isInSale)
+itertools.compress(prices, isInSale)
 
 def f(x):
   price = x + next(discountIterator)
@@ -109,7 +109,6 @@ print(
   list(salePrices))
 ```
 
-* `compress`
 * `compress`
 * `filterfalse`
 * `cycle`
