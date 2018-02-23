@@ -7,7 +7,6 @@ sections:
     - fundamental-data-structures-ii
     - looping
     - functions
-
   '1':
     - intro-to-modules
     - basic-file-manipulation
@@ -18,7 +17,6 @@ sections:
     - utilities-i
     - is-your-python-healthy
     - testing
-
   '2':
     - more-on-lists
     - more-on-sets
@@ -26,7 +24,6 @@ sections:
     - recipes
     - deep-into-collections
     - advanced-queues
-
   '3':
     - tips
     - classes-iii
@@ -34,8 +31,8 @@ sections:
     - memory-allocation
     - advanced-referencing
     - utilities-ii
-    
+
 description: The fundamentals of Python. No skin shedding needed.
 
 next:
-  - python:data-structures
+  - python:functional-programming
