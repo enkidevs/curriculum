@@ -86,7 +86,7 @@ class Employee(Person):
 headline: Do you know how inheritance affects variables defined in the parent class? 
 
 question: | 
-# Square is a child class of the Shape class. What is the output from the following code snippet? 
+  # Square is a child class of the Shape class. What is the output from the following code snippet? 
 
   class Shape:
       def __init__(self, x, y):
