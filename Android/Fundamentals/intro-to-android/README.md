@@ -7,4 +7,8 @@ description: Examine Android!
 section: 0
 
 insights:
-  - create-bitmap-drawables
+- what-is-android
+- why-learn-android	
+- android-versions	
+- tools-needed-to-use-android	
+- hello-android
