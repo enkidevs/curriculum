@@ -1,5 +1,5 @@
 # Height & width
-author: mihaiberq
+author: matthewleach
 
 levels:
   - beginner
@@ -23,17 +23,26 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-The height attribute is used only with <input type="image"> and not other input types .
+Which statements are true regarding height & width attributes within forms?
 
-???
-
-* T
-
++ Important to add to reserve space during page load. 
++ The height attribute is used only with `<input type="image">`.
++ The measurements are in pixels. 
+- CSS cannot assign height & width attributes within forms.
 
 ---
 ## Revision
 
-When a height & width are assigned as an attribute to a form, what is these measurements in?
+Complete the code by adding the appropriate input form attributes to assign the size of the submit button (20 pixels wide by 30 pixels tall).
 
-???
-* pixels
+```<form action="file.php">
+  Name: <input type="text" name="name"><br>
+  <input type="image" src="submit.svg" alt="Submit" ???="20" ???="30">
+</form>```
+
+* width
+* height
+* wide
+* tall
+* vert
+* hor

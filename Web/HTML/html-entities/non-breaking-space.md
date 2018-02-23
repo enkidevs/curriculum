@@ -1,5 +1,5 @@
 # Non-breaking Space
-author: mihaiberq
+author: matthewleach
 
 levels:
   - beginner
@@ -23,35 +23,42 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-What HTML character entity is used to prevent the browser from breaking the line between certain words or web page elements?
+What statements are true regarding a non-breaking space: 
 
-???
-
-What does the &nbsp; code do in this line of code?
-      <p>Using Enki&nbsp;Pro has been helpful learning code.</p>
-
-???
-
-What does the &nbsp; code do in this line of code?
-      <p><img src="image1.png" alt="">&nbsp;<img src="image2.png" alt=""></p>
-
-???
-
-What does the &nbsp; code do in this line of code?
-      <td>&nbsp;</td>
-
-???
-
-* Non-breaking space
-* The non-breaking space prevents the browser from breaking the line between the words Enki and Pro.
-* The non-breaking space adds an empty character of space between the images.
-* The non-breaking space prevents an empty cell in a table from collapsing.
-
++ The HTML code is written as "&nbsp;"
++ Prevents line break between words.
++ Prevents an empty cell in a table from collapsing in some browsers.
++ Same width as a word space
++ `100&nbsp;km` will display as "100 km".
+- Useful for creating indented paragraphs.
+- Long strings of them are good ways of creating gaps of space.
 
 ---
 ## Revision
 
-Non-breaking spaces are useful for creating indented paragraphs.
+What HTML character entity is used to prevent the browser from breaking the line between certain words or web page elements?
+
+`<p>5???km</p>`
+
+* &nbsp;
+* &ensp;
+* &ltsp;
+* empty space: " "
+* &space
+* &gap
+
+---
+## Quiz
+
+How much do you know about displaying images?
+
+What does the "&nbsp;" within this line of code do?
+
+`<img src="image1.png" alt="">&nbsp;<img src="image2.png" alt="">`
 
 ???
-* F
+
+* Adds an empty character of space between the images.
+* Prevents the images from starting on new line like word wrap.
+* Removes any space between the images.
+* Useful when pulling image files from a database. 

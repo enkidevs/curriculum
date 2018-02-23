@@ -1,1 +1,1 @@
-There's no styling without HTML.
+There's no content without HTML.

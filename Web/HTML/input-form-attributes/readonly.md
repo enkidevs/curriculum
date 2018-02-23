@@ -1,5 +1,5 @@
 # Readonly
-author: mihaiberq
+author: matthewleach
 
 levels:
   - beginner
@@ -23,27 +23,27 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-With this code, what can a user not do with it, even though it will still send the data upon submittion?
-    <input type="text" name="company" value="Enki" readonly>
+What can a user NOT do to this text field, even though it will still send the original data upon submittion?
+
+`<input type="text" name="company" value="Enki" readonly>`
 
 ???
 
-* ???
+* change the text
 * tab to the textfield
 * highlight the text when selected
 * copy the text from from the textfield
 
-
 ---
 ## Revision
 
-What attribute allows the input field to display a value which will be sent upon submit, but the user cannot change it,?
+What attribute allows the input field to display a value which will be sent upon submit, but the user cannot change it?
 
 ???
 
-What does the readonly attribute do in this line of code?
-    <input type="text" name="company" value="Enki" readonly>
-
-???
 * readonly
-* Prevents the user from editing the textfield.
+* disabled
+* read-only
+* lock
+* @readonly
+

@@ -1,5 +1,5 @@
 # Autofocus
-author: mihaiberq
+author: matthewleach
 
 levels:
   - beginner
@@ -23,15 +23,14 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-When the autofocus form attribute is present, the `INPUT`, `TEXTAREA`, or `BUTTON` element is automatically selected upon page load.
-    <input autofocus />
-    <button autofocus>Hi!</button>
-    <textarea autofocus></textarea>
+Which statements are true regarding autofocus?
 
-???
-
-* T
-
++ Automatically sets focus to assigned control when the page loads.
++ User can start using assigned control without having to select it first.
++ Can be assiged as: `autofocus` or `autofocus="autofocus"`
+- It should be assigned to every control in the form.
+- Can be applied to text fields, radio buttons, & check boxes. 
+- Additional JS is typically required.
 
 ---
 ## Revision
@@ -39,4 +38,10 @@ When the autofocus form attribute is present, the `INPUT`, `TEXTAREA`, or `BUTTO
 Which input form attribute sets a selected input as active when the page loads?
 
 ???
+
 * autofocus
+* mark
+* input
+* active
+* focus
+* auto

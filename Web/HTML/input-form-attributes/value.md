@@ -1,5 +1,5 @@
 # Value
-author: mihaiberq
+author: matthewleach
 
 levels:
   - beginner
@@ -26,15 +26,11 @@ New content to go here. The author must be updated to match a valid Enki account
 The value attribute is applied to a form’s input types for all but which option?
 
 ???
-???
-???
-???
 
-* (F) File: It defines the filename where the data will be sent.
+* File: It defines the filename where the data will be sent.
 * Button, reset, & submit: It defines the text within the button
 * Text, password, & hidden: It sets the default value of the input field.
 * Checkbox, radio, & image: It sets the value based on the selection and sends that value when submitted.
-
 
 ---
 ## Revision
@@ -42,4 +38,9 @@ The value attribute is applied to a form’s input types for all but which optio
 Which attribute is used in a form’s input field to set the initial value?
 
 ???
+
 * value
+* default
+* set
+* option
+* selected

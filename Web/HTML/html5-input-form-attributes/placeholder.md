@@ -1,5 +1,5 @@
 # Placeholder
-author: mihaiberq
+author: matthewleach
 
 levels:
   - beginner
@@ -23,17 +23,22 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-Which form attribute shares a short hint that describes the expected value of an input field and will be overwritten by their input?
-<input type="text" name="fname" ???="First name">
+Which statements are true regarding placeholder?
 
-
-* placeholder
-
++ Provides a short hint within the input.
++ Works with the following input types: text, search, & email
+- Numbers are not accepted as a placeholder.
+- Does not work with the following input types: url, tel, & password
 
 ---
 ## Revision
 
-The placeholder attribute works with the following input types: text, search, url, tel, email, and password.
+Which form attribute shares a short hint that describes the expected value of an input field and will be overwritten by their input?
 
-???
-* T
+`<input type="text" name="fname" ???="First name">`
+
+* placeholder
+* hint
+* sample
+* tip
+* note
