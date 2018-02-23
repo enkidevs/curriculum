@@ -26,7 +26,7 @@ This example teaches you to convert a drawable image to bitmap and display it in
 2. Access the XML Layout file. Below is the following code:
 
 **XML Layout File**
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android=
 "http://schemas.android.com/apk/res/android"
@@ -59,7 +59,7 @@ This example teaches you to convert a drawable image to bitmap and display it in
         app:srcCompat="@drawable/nature" />
 
 </LinearLayout>
-
+```
 3. Access the Java Activity File. Below is the following code: 
 
 ```
