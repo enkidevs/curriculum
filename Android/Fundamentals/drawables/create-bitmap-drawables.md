@@ -30,8 +30,8 @@ This example teaches you to convert a drawable image to bitmap and display it in
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android=
 "http://schemas.android.com/apk/res/android"
-xmlns:
-app="http://schemas.android.com/apk/res-auto"
+xmlns:app=
+"http://schemas.android.com/apk/res-auto"
 android:layout_width="fill_parent"
 android:layout_height="fill_parent"
 android:layout_margin="22dp"
