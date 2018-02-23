@@ -42,7 +42,8 @@ Result:
 
 Example:
 ```
-<p>Get your AT&amp;T free first 3 months!</p>
+<p>Get your AT&amp;T 
+free first 3 months!</p>
 ```
 Result:
 ```
@@ -63,8 +64,7 @@ Write the code that will display this HTML tag properly: "`<p>` is an HTML parag
 * <
 * >
 
----
-## Revision
+
 
 
 
