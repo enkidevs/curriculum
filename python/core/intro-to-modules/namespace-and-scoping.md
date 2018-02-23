@@ -9,6 +9,10 @@ type: normal
 
 category: must-know
 
+standards:
+  py.functions.3: 10
+
+
 links:
 
   - '[More on namespace](https://www.programiz.com/python-programming/namespace)'
@@ -59,6 +63,7 @@ def f():
     def g():
         x = 'An enclosed variable'
         print(x) # print() is built-in
+    g()
 
 
 r = 'A global variable'

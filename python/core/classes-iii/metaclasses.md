@@ -44,7 +44,8 @@ Metaclasses are defined like normal classes, using `type` as the base class:
 class Meta(type):
   pass
 ```
-However, the `metaclass` keyword argument has to be passed in order to change a class' default `type` metaclass:
+In order to change a class' default `type` metaclass, the `metaclass` keyword argument has to be passed:
+
 ```python
 class Enki(metaclass=Meta):
   pass

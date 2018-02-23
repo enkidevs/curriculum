@@ -10,6 +10,9 @@ type: normal
 
 category: must-know
 
+standards:
+  py.native-types-operations.5: 10
+
 links:
 
   - '[more about sets](http://www.python-course.eu/python3_sets_frozensets.php)'

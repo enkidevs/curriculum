@@ -2,7 +2,7 @@ name: ES6 Quirks
 
 type: insights-list
 
-description: Particularities and features. 
+description: Particularities and features.
 
 section: 2
 
@@ -14,3 +14,5 @@ insights:
   - defaults-values-apply-only-to-undefined-and-not-to-null
   - es6-dynamic-property-keys-in-mongo-like-set-clauses
   - weakmap-in-es6
+
+game: ecmascript-time-travel

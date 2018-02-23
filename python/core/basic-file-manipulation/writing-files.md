@@ -9,6 +9,9 @@ type: normal
 
 category: how to
 
+standards:
+  py.standard-library-operating-system.0: 10
+
 links:
 
   - '[More about writing to files](https://www.digitalocean.com/community/tutorials/how-to-handle-plain-text-files-in-python-3)'

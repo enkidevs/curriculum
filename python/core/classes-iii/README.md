@@ -4,13 +4,11 @@ type: insights-list
 
 description: Explore more advanced classes features.
 
-section: 2
+section: 3
 
 parent: tips
 
 insights:
-  - special-attributes-of-objects-and-classes
-  - class-inheritance
-  - method-overriding
   - metaclasses
+  - special-attributes-of-objects-and-classes
   - custom-exceptions-as-classes

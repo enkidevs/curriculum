@@ -9,6 +9,10 @@ type: normal
 
 category: must-know
 
+standards:
+  py.functions.2: 10
+
+
 links:
 
   - '[More about arguments](https://www.tutorialspoint.com/python/python_functions.htm)'

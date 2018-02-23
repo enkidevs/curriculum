@@ -9,6 +9,9 @@ type: normal
 
 category: must-know
 
+standards:
+  py.object-oriented.1: 10
+
 ---
 ## Content
 
@@ -36,7 +39,7 @@ class Square(Shape):
   def getPerimeter(self):
     return self.x * 4
 ```
-We can now create new methods, as well as using old ones:
+We can now create new methods, as well as use old ones:
 ```python
 sq = Square(3)
 print(sq.getPerimeter())
@@ -44,6 +47,19 @@ print(sq.getPerimeter())
 print(sq.getArea())
 # 9
 ```
+
+To check the inheritance:
+```python
+print(isinstance(sq, Square))
+# True
+print(isinstance(sq, Shape))
+# True
+print(issubclass(Square, Shape))
+# True
+```
+
+
+
 
 ---
 ## Practice

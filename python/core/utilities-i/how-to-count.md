@@ -28,7 +28,7 @@ Import `Counter`:
 ```python
 from collections import Counter
 ```
-The constructor has no mandatory argument, but can take any sequence, dictionary  or even keyword arguments:
+The constructor has no mandatory argument, but can take any sequence, dictionary,  or even keyword arguments:
 ```python
 b = Counter(a=5, b=2)
 a = Counter()
@@ -64,8 +64,17 @@ Set operations as union (`a | b`) or intersection (`a & b`) are also supported.
 
 In addition, using the `most_common(n)` method will print the `n` most common occurrences in a `Counter`.
 
+```python
+print(a.most_common(1))
+# [('a', 5)]
+```
+
 Using the `elements()` method, you get an **iterator** producing all values known to the `Counter`.
 
+```python
+print(list(a.elements()))
+['a', 'a', 'a', 'a', 'a', 'b', 'b']
+```
 ---
 ## Practice
 
@@ -73,9 +82,9 @@ Which method is used to find the most common occurrence in a counter?
 
 ???
 
-*`most_common(n)` 
-*`most-common(n)` 
-*`common(n)` 
+*`most_common(n)`
+*`most-common(n)`
+*`common(n)`
 *`common-item(n)`
 
 ---
@@ -88,9 +97,9 @@ e = ???()
 e.???(“enki”)
 ```
 
-*`Counter` 
-*`update` 
-*`new-counter` 
-*`new_counter` 
-*`add` 
+*`Counter`
+*`update`
+*`new-counter`
+*`new_counter`
+*`add`
 *`add_counter`

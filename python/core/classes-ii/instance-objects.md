@@ -11,7 +11,10 @@ type: normal
 
 category: must-know
 
-notes: Multiple issues. Needs to be rewritten.
+notes: Multiple issues. Needs to be rewritten. --> was rewritten
+
+standards:
+  py.object-oriented.2: 10
 
 links:
 
@@ -21,32 +24,46 @@ links:
 ---
 ## Content
 
-Instances are individual objects of a specific *Class*. For example, we might have the class `Color`, but with different instances: one for **red**, one for **blue**, etc.
+Instances are individual objects of a specific *Class*. For example, we might have the class `Coordinate`, but with different instances.  
 
 **Instance** objects are created by instantiation:
 ```python
-#empty class
-class Enki:
-  pass
+class Coordinate:
+  def __init__(self, x, y):
+    self.x = x
+    self.y = y
+  def dist(self, other):
+    x_dist = (self.x-other.x)**2
+    y_dist = (self.y-other.y)**2
+    return (x_dist + y_dist)**0.5
+
 #instantiation
-enki = Enki()
+c1 = Coordinate(1,1)
+c2 = Coordinate(4,5)
 ```
 
 Instance objects only understand **attribute references** as operations:
 - data attributes
 - methods
 
-Data attributes act like local variables and *don't need to* be defined in the class namespace. They spring into existence at the first assignment. 
+Data attributes act like local variables and *don't need to* be defined in the class namespace. They spring into existence at the first assignment.
 ```python
-enki.a = 20
-print(enki.a)
-# 20
+c1.quadrant = "first"
+print(c1.quadrant)
+# "first"
 ```
-Methods are a little bit different. Basically a **method** is a function that belongs to a `class`.
+Methods are different. Basically a **method** is a function that belongs to a `class`.
 
 Theoretically, all attributes of a class that are function objects define corresponding instance methods.
 
-So if `Enki.x` is a function object, then `enki.x` (`enki` being an instance of`Enki` class) is a method. Please note the difference between **function** and **method**.
+So if `Coordinate.dist` is a function object, then `c1.dist` (`c1` being an instance of `Coordinate` class) is an instance method. Please note the difference between **function** and **method**.
+
+```python
+c1.dist(c2) # 5.0
+            # (instance method)
+Coordinate.dist(c1,c2) # 5.0
+                       # (function object)
+```
 
 ---
 ## Practice

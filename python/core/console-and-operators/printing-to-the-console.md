@@ -11,6 +11,9 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  py.identify-python-syntax.1: 10
+
 ---
 ## Content
 
@@ -32,9 +35,9 @@ print('Python 3')
 
 Pythons simplest directive is the ??? directive. It prints out a line and incorporates a ???.
 
-*`print` 
-*`new line` 
-*`python` 
+*`print`
+*`new line`
+*`python`
 *`break`
 
 ---
@@ -45,11 +48,11 @@ Print to the console in Python 3:
 ```
 ??? ??? Python 3! ???
 ```
-*`print` 
-*`('` 
-*`')` 
-*`'` 
-*`'` 
-*`(` 
-*`)` 
+*`print`
+*`('`
+*`')`
+*`'`
+*`'`
+*`(`
+*`)`
 *`write`

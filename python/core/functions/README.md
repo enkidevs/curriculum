@@ -12,5 +12,5 @@ insights:
   - defining-functions
   - calling-functions
   - py-function-arguments
-  - nested-functions
   - the-return-statement
+  - nested-functions

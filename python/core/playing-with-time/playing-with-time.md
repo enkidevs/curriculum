@@ -13,6 +13,10 @@ inAlgoPool: false
 
 category: feature
 
+standards:
+  py.native-types-operations.8: 10
+
+
 notes: >
   Corrected earlier issue with not saving, and updated the insight with my
   changes.

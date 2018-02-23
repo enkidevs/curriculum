@@ -34,23 +34,27 @@ The difference between **class** and **instance** variables:
 
 Suppose we have the class definition:
 ```python
-class Enki:
-    class_var = 'python'  # class var
-
-    def __init__(self, inst):
-        self.inst = inst  # instance var
+class Employee:
+  count = 0   # class var
+  def __init__(self, name):
+    Employee.count += 1
+    self.name = name   # instance var
+    self.idnum = Employee.count   # instance var
 ```
 
 The difference between the types of variables can be easily seen:
 ```python
-old = Enki('0.2.3')
-new = Enki('0.2.41')
-print(old.class_var) # 'python' 
-                     # (shared/class)
-print(new.class_var) # 'python' 
-                     # (shared/class)
-print(old.inst) # '0.2.3' (unique/instance)
-print(new.inst) # '0.2.41' (unique/instance)
+john = Employee("John")
+emily = Employee("Emily")
+print(john.count) # 2
+                  # (shared/class)
+print(emily.count) # 2
+                   # (shared/class)
+
+print(john.idnum) # 1
+                  # (unique/instance)
+print(emily.idnum) # 2
+                   # (unique/instance)
 ```
 
 ---
@@ -65,5 +69,5 @@ class Test:
    my_var = ‘enki’
 ```
 
-*`class` 
+*`class`
 *`instance`

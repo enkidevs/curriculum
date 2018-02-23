@@ -14,7 +14,7 @@ category: must-know
 ---
 ## Content
 
-Unlike in statically-typed programming language, Python variables are dynamically typed. That means that a variable (e.g. `x`) can take the value of a number, a string or even a function, but not at the same time.
+Unlike in statically-typed programming language, Python variables are dynamically typed. That means that a variable (e.g. `x`) can take the value of a number, a string, or even a function, but not at the same time.
 
 Some people consider Python's dynamic typing a weakness as it can lead to hard to find bugs.
 

@@ -9,6 +9,10 @@ type: normal
 
 category: must-know
 
+standards:
+  py.modules.0: 10
+  py.modules.1: 10
+
 links:
 
   - '[from...import in depth](https://www.tutorialspoint.com/python3/python_modules.htm)'
