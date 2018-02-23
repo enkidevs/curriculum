@@ -23,14 +23,14 @@ links:
 Consider the following syntax:
 
 ```
-obj = open(f_name, [access_mode],
+obj = open(file_name, [access_mode],
                       [buffering])
 ```
 
 Here's the disambiguation of its arguments:
 - `file_name`: string value that contains the name of the file
 - `access_mode`: it determines the mode in which the file has to be opened: `read`, `write`, `append`
-- `buffering`: there are two important values `0` (means no buffering) or `1` (means line buffering[1] is performed). If the value is grater than `1` then that will be considered the buffer's size
+- `buffering`: there are two important values `0` (means no buffering) or `1` (means line buffering[1] is performed). If the value is greater than `1` then that will be considered the buffer's size
 
 The supported modes for opening a file are:
 
