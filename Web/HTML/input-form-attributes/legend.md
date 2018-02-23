@@ -1,5 +1,5 @@
 # Legend
-author: mihaiberq
+author: matthewleach
 
 levels:
   - beginner
@@ -23,32 +23,23 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-What HTML element defines the caption for a <fieldset> element?
+Mark all statements that apply to the `<legend>` element.
 
-???
++ Sets a caption for the fieldset element
++ Needs to be the first child within a `<fieldset>` element
++ Supported by every browser except Internet Explorer
+- Needs to be written directed before a `<fieldset>` element
+- Visually creates a 1px black border around the `<fieldset>` element.
+ 
+---
+## Revision
 
-What does the legend element do in this line of code?
-       <fieldset>
-        <legend>Employee:</legend>
-        Name: <input type="text">
-        Position: <input type="text">
-      </fieldset>
+What HTML element defines the caption for a `<fieldset>` element? 
 
 ???
 
 * legend
-* Sets a caption for the fieldset element.
-
-
----
-## Revision
-
-The legend needs to be the first child within a <fieldset> element.
-
-???
-
-The legend within a <fieldset> element is supported by every browser except Internet Explorer.
-
-???
-* T
-* T
+* caption
+* title
+* subtitle
+* explanation

@@ -1,5 +1,5 @@
 # Intro size
-author: mihaiberq
+author: matthewleach
 
 levels:
   - beginner
@@ -23,14 +23,16 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-Which two attributes would need to be used to create a textfield that accepts only five characters and displays them all in a monospace font?
+Which attributes is needed so a textfield displays a field with an average of 280 characters?
 
-???
-???
+`<input type="text" name="twitter" ???="280" >`
 
-* size=”5”
-* maxlength=”5“
-
+* size
+* maxlength
+* width
+* length
+* charmax
+* col
 
 ---
 ## Revision
@@ -38,10 +40,14 @@ Which two attributes would need to be used to create a textfield that accepts on
 What attribute sets the width of a form’s input field in a measurement of average characters?
 
 ???
-
-What does the size attribute do in this line of code?
-       <input type="text" name="email" size="40">
-
-???
-* size
-* Size sets the width of the textfield to fit an average of 40 characters.
+ 
+ * size
+ * width
+ * length
+ * maxlength
+ * col
+ * charsize
+ 
+ 
+    
+    

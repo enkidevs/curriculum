@@ -1,4 +1,5 @@
 # Ampersand
+
 author: Stefan-Stojanovic
 
 levels:
@@ -56,33 +57,42 @@ Get AT&T free first 3 months!
 ---
 ## Practice
 
-What HTML character entity is used to insert n ampersand symbol into a document?
+What does the "&amp;" character entity display in this line of code?
+
+`<p>The symbol "&amp;" should be pretty easy to recognize.</p>`
 
 ???
 
-What does the &amp; character entity display in this line of code?
-      <p>The symbol "&amp;" should be pretty easy to recognize.</p>
-
-???
-
-* &amp;
-* The ampersand symbol will display as &.
-
+* & 
+* * 
+* '
+* ^
+* @
 
 ---
 ## Revision
 
-Character characters in HTML must be replaced with reserved entities.
+What HTML character entity is used to insert an ampersand symbol ("&")?
 
 ???
 
-Characters that are not present on your keyboard can also be replaced by entities.
+* &amp;
+* &&;
+* &current;
+* &;
+* &ampersand;
 
-???
+---
+## Quiz
 
-Character entity names are not case sensitive.
+How much do you know about HTML character entities?
 
-???
-* F
-* 
-* F
+If you have a webpage called “black&white”, what character entitiy is best to use in the following URL:
+
+`<a href="?page=black???white&action=view">Link to B/W</a>`
+
+* &amp;
+* & 
+* %20
+* &and
+* %a2

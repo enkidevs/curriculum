@@ -1,5 +1,5 @@
 # Min and max
-author: mihaiberq
+author: matthewleach
 
 levels:
   - beginner
@@ -23,23 +23,28 @@ New content to go here. The author must be updated to match a valid Enki account
 ---
 ## Practice
 
-Which form attribute is used within an input to set low and high values?
+Which statements are true regarding min and max attributes within forms?
 
-???
-
-The max and min attributes works with the following input types:
-       (Checkboxes?)
-
-???
-
-* min and max
-* All of these: number, range, date, datetime, datetime-local, month, time and week.
-
++ `<input min="date">` specifies the minimum date allowed.
++ `<input max="number">` specifies the maximum number allowed.
+- `min` & `min` are required to be used together.
+- `min` & `min` attributes only work for the range input type.
 
 ---
 ## Revision
 
-The min and max with form inputs are both required to be used together.'
+Which form attributes are used within an input to set low and high values?
 
-???
-* F
+```<form action="file.php">
+ Quantity (between 1 and 5):
+ <input type="number" name="quantity" ???="1" ???="5">
+ <input type="submit">
+</form>```
+
+* min
+* max
+* low
+* high
+* minimum
+* maximum
+

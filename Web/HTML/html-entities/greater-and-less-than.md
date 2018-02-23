@@ -1,4 +1,5 @@
 # Greater and Less Than
+
 author: Stefan-Stojanovic
 
 levels:
@@ -52,17 +53,18 @@ Get your AT&T free first 3 months!
 ---
 ## Practice
 
-When you are using the less than (<) or greater than (>) signs in your text, the browser can possibly mix them with tags, so it is best to use character entities instead.
+Write the code that will display this HTML tag properly: "`<p>` is an HTML paragraph tag."
 
-???
+???p??? is an HTML paragraph tag.
 
-* T
-
+* &lt;
+* &gt;
+* &rt;
+* <
+* >
 
 ---
 ## Revision
 
-In HTML, some characters on your keyboard are kept reserved and cannot be used within the content of your document; like < and >
 
-???
-* T
+
