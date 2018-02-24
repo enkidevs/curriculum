@@ -49,4 +49,4 @@ Injection vulnerabilities can be prevented by ???.
 
 * Utilizing an ORM to construct reliable SQL queries
 * Preventing physical access to servers
-* 
+* Disabling anonymous access to an API
