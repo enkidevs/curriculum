@@ -42,12 +42,12 @@ Result:
 
 Example:
 ```
-<p>Get your AT&amp;T 
-free first 3 months!</p>
+<p>5 &gt; 3 </p>
+
 ```
 Result:
 ```
-Get your AT&T free first 3 months!
+5 > 3
 ```
 
 
@@ -64,7 +64,29 @@ Write the code that will display this HTML tag properly: "`<p>` is an HTML parag
 * <
 * >
 
+---
+## Revision
 
+In HTML the browser always assumes *<* and *>* represent the start and end of an HTML tag. Identify the correct ways of displaying these two characters?
 
++ Using their character entity numbers(`&#60;`,`&#62;`)
+- Using the designated (<) and (>) buttons on the keyboard
++ Using their character entity name(`&lt;`,`&gt;`)
++ Using either their character entity name or number
+- Enclosing the characters in single quoatation '<','>'
 
+---
+## Quiz
 
+How much do you know about HTML character entities?
+
+What will be displayed in this line of code:
+" `<p> 1 &lt; 3 &lt;/p&gt;` "
+
+???
+
+* <p> 1 < 3 &lt;/p&gt;
+* &lt;p&gt; 1 < 3 &lt;/p&gt;
+* <p> 1 < 3 </p>
+* <p> 1 &lt; 3 </p>
+* <p> 1 &lt; 3 &lt;/p&gt;
