@@ -31,6 +31,6 @@ For example, the hook called `post-commit` is useful for sending an email notifi
 ## Revision
 
 A hook is a custom ??? that fires when a certain ??? occurs.
-*script
-*action
-*error
+* script
+* action
+* error
