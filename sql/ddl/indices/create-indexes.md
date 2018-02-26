@@ -55,7 +55,7 @@ If we want to create a **clustered** index:
 CREATE UNIQUE INDEX index_name
 ON table_name (col1 DESC, col2 ASC, ...)
 ```
-This would create an index on the specified table and columns. The main difference between **non-clustered** and **clustered** indices is that for the latter we need to specify the order in which we wand the entries to be ordered.
+This would create an index on the specified table and columns. The main difference between **non-clustered** and **clustered** indices is that for the latter we need to specify the order in which we want the entries to be ordered.
 
 ---
 ## Practice
