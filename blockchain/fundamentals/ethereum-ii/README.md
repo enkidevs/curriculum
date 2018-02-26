@@ -8,5 +8,5 @@ section: 2
 
 insights:
  - erc20-tokens
- - icos
+ - initial-coin-offerings
 

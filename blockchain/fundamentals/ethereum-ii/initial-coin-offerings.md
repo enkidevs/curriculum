@@ -1,4 +1,4 @@
-# ICOs
+# Initial Coin Offerings
 author: mihaiberq
 
 levels:
