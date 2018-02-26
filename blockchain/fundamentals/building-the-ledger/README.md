@@ -8,7 +8,7 @@ section: 0
 
 insights:
  - the-ledger
+ - identity-and-consensus
  - verifying-the-ledger
- - consensus
  - malicious-nodes
 
