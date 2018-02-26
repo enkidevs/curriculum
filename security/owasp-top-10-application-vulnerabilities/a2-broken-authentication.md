@@ -26,17 +26,18 @@ One should also avoid single-factor authentication in favor of [2-Factor Authent
 ---
 ## Practice Question
 
-
 Which of the following situations could present a Broken Authentication vulnerability?
 ???
 
 * Allowing temporary account access if the user inputs their maiden name and home address
-* 
-* 
+* Verifying that SQL injections are not possible on an end-point
+* Applying rate limiting to an authentication endpoint
 
 ---
 ## Revision Question
 
-* asfd
-* asdf
-* aasdf
+??? is the use of multiple devices to establish trust.
+
+* 2-Factor Authentication
+* Rate Limiting
+* Multiple-Point Protection
