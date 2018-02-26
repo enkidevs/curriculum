@@ -1,4 +1,4 @@
-# Proof of Useful Work
+# Proof of Authority
 author: mihaiberq
 
 levels:

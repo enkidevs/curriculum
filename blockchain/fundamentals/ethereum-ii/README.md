@@ -1,11 +1,12 @@
-name: Wallets
+name: Ethereum II
 
 type: insights-list
 
 description: todo
 
-section: 1
+section: 2
 
 insights:
- - wallets
+ - erc20-tokens
+ - icos
 

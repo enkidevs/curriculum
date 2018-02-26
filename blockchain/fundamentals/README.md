@@ -3,14 +3,18 @@ description: The basics of any blockchain.
 sections:
   '0':
     - the-blockchain
+    - the-bitcoin-blockchain
     - building-the-ledger
+  '1':
     - mining
-    - mining-techniques
-    - altcoins
     - wallets
+    - identity-and-anonimity
+    - altcoins
+    - consensus-algorithms
+  '2':
     - forking
-    - the-bitcoin-protocol
-    - bitcoin-anonymity
-    - cryptocurrencies-value
+    - cryptoeconomics
     - ethereum-i
-    - code-on-the-blockchain
+    - solidity
+    - ethereum-ii
+    - blockchain-on-the-web

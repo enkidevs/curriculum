@@ -1,4 +1,4 @@
-# Blockchain Applications
+# Blockchain Components
 author: mihaiberq
 
 levels:
