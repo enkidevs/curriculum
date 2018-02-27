@@ -20,7 +20,7 @@ Every process is launched (or "forked") by another process.  There is a special 
 
 In this way the collection of processes running on a system form a "process tree" rooted on the init process.  Every process has a parent process and potentially multiple child processes.
 
-For example, every time you run a command while at the `bash` prompt, `bash` will fork a a new process to run your command, making that process a child of your current `bash` process.
+For example, every time you run a command while at the `bash` prompt, `bash` will fork a new process to run your command, making that process a child of your current `bash` process.
 
 Similarly, when you see a "log in" prompt, this is actually the `login` command running.  If you log in successfully, the `login` command will fork a new process to execute the logged-in user's shell of choice.
 
