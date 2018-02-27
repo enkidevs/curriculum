@@ -1,12 +1,6 @@
 name: Algorithms II 
 
-type: insights-list
-
 description: Even more on algorithms!
-
-section: 1
-
-parent: tree-traversals
 
 insights:
   - reverse-polish-notation

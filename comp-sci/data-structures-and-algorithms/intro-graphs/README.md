@@ -9,4 +9,4 @@ insights:
   - the-tree-data-structure
   - node-height-and-depth
 
-game: what-should-be-stored-in
+game: what-should-it-be-stored-in

@@ -8,7 +8,7 @@ sections:
   '0':
     - intro-data-structures
     - intro-graphs
-  '1:
+  '1':
     - algorithms-i
     - binary-search-tree
     - heap-and-trie
