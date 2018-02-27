@@ -1,12 +1,6 @@
 name: Annotations II
 
-type: insights-list
-
 description: Commonly encountered scenarios regarding annotations.
-
-section: 0
-
-parent: annotations-i
 
 insights:
   - use-javadoc-comments-to-describe-the-purpose-of-a-class-or-method

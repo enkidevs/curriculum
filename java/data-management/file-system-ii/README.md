@@ -1,12 +1,6 @@
 name: File and System Manipulation II
 
-type: insights-list
-
 description: Handle file manipulation with the help of you system.
-
-section: 1
-
-parent: file-system-i
 
 insights:
   - reading-file-attributes

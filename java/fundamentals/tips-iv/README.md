@@ -1,16 +1,10 @@
 name: Tips IV
 
-type: insights-list
-
 description: How to Java - properly.
 
-section: 1
-
-parent: patterns
-
 insights:
-  - default-constructors
+  - converting-stack-trace-to-a-string
+  - getting-time-based-on-time-zone
+  - measuring-time
   - use-locale-class-for-internationalisation
   - most-common-reason-behind-stack-overflow-error
-  - using-an-interface-as-a-parameter
-  - implementing-the-comparable-interface-to-give-objects-a-natural-order
