@@ -15,4 +15,4 @@ insights:
   - define-a-probability-distribution-theoretically
   - define-a-probability-distribution-empirically
   - expected-value-with-probability
-  - expected-value-in-game
+  - expected-value-in-games
