@@ -9,8 +9,8 @@ section: 0
 parent: independence-and-conditional-probability
 
 insights:
-  - conditional-probability
+  - conditional-probability-applied
   - addition-rule
   - multiplication-rule
   - law-of-total-probability
-  - independence-with-conditional-probability
+  - conditional-probability-applied
