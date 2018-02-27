@@ -1,10 +1,6 @@
 name: Aggregate Queries
 
-type: insights-list
-
 description: Tools for calculations across sets of data
-
-section: 1
 
 insights:
   - group-by-clause
