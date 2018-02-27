@@ -4,7 +4,7 @@ type: insights-list
 
 description: Calculate expected value and variance and and use them to solve problems
 
-section: 0
+section: 1
 
 parent: compound-events
 

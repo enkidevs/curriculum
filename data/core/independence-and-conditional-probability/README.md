@@ -4,7 +4,7 @@ type: insights-list
 
 description: Use independence and conditional probability to interpret data
 
-section: 0
+section: 1
 
 parent: exploratory-data-analysis-2
 
