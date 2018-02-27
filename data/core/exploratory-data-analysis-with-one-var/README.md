@@ -7,7 +7,9 @@ description: Summarize, represent, and interpret data on a single count or measu
 section: 0
 
 insights:
-  - basic-statistics-of-distributions
-  - histograms-and-boxplots
+  - measures-of-central-tendency
+  - standard-deviation
+  - histograms
+  - boxplots
   - differences-in-distributions
   - bar-graphs

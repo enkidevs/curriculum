@@ -1,11 +1,9 @@
-# Differences in Distributions
+# Standard Deviation
 author: tammyclee
 
 levels:
 
   - beginner
-
-  - basic
 
 type: normal
 
