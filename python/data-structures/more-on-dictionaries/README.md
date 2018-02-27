@@ -1,12 +1,6 @@
 name: More on Dictionaries
 
-type: insights-list
-
 description: Learn the quirks of Python's built-in dictionaries.
-
-section: 0
-
-parent: more-on-sets
 
 insights:
   - review-of-dictionaries

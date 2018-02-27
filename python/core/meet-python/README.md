@@ -1,10 +1,6 @@
 name: Meet Python
 
-type: insights-list
-
 description: Discover the Python language’s versions and its programming environment.
-
-section: 0
 
 insights:
   - what-is-python
