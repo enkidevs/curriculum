@@ -14,6 +14,15 @@ category: must-know
 
 parent: npm-variables
 
+standards:
+  js.npm-tasks-and-modules-manager: 10
+
+tags:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 ## Content
 

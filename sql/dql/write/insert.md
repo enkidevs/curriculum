@@ -14,6 +14,9 @@ inAlgoPool: false
 
 parent: union
 
+standards:
+  sql.write: 10
+
 tags:
   - introduction
   - workout

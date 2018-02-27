@@ -13,6 +13,11 @@ type: normal
 
 category: tip
 
+standards:
+  js.write-expressions.0: 10
+  js.evaluate-expressions.3: 10
+  js.standard-library.1: 10
+
 links:
 
   - >-
@@ -26,7 +31,7 @@ You can easily generate a string containing a random `HEX` color :
 '#' + Math.random().toString(16)
                    .substr(-6);
 ```
-Hex colors start with the `"#"` keyword, followed by a sequence of 6 characters ranging from **0** to **9**, **A** to **F**. 
+Hex colors start with the `"#"` keyword, followed by a sequence of 6 characters ranging from **0** to **9**, **A** to **F**.
 
 `Math.random().toString(16)` will generate a random number between 0 and 1 converted to hexadecimal. Calling `substr(-6)` on this will return the last 6 characters of the number.
 

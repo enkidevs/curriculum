@@ -17,9 +17,14 @@ category: must-know
 
 inAlgoPool: false
 
+
+standards:
+  sql.attach-indices: 10
+
 tags:
   - workout
   - deep
+
 
 links:
 

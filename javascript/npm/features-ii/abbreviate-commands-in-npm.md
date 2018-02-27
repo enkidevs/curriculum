@@ -13,7 +13,11 @@ category: feature
 
 parent: check-data-about-a-package
 
+standards:
+  js.npm-tasks-and-modules-manager: 10
 
+tags:
+  - obscura
 
 ---
 ## Content
@@ -49,11 +53,11 @@ What's the equivalent abbreviated command of `npm link`?
 
 ???
 
-*`npm ln`
-*`npm lk`
-*`npm l`
-*`npm k`
-*`npm n`
+* `npm ln`
+* `npm lk`
+* `npm l`
+* `npm k`
+* `npm n`
 
 ---
 ## Revision
@@ -62,8 +66,8 @@ What's the equivalent abbreviated command of `npm link`?
 
 ???
 
-*`npm ln`
-*`npm lk`
-*`npm l`
-*`npm k`
-*`npm n`
+* `npm ln`
+* `npm lk`
+* `npm l`
+* `npm k`
+* `npm n`

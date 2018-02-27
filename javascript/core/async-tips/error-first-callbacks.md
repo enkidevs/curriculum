@@ -11,6 +11,15 @@ type: normal
 
 category: feature
 
+standards:
+  js.async.0: 10
+  js.identify-common-design-patterns.3: 10
+
+tags:
+  - introduction
+  - workout
+  - deep
+
 links:
 
   - >-
@@ -19,7 +28,7 @@ links:
 ---
 ## Content
 
-Error-first callbacks have an error as the **first argument** of the callback function. If this value is **non-null** then an error has occurred. 
+Error-first callbacks have an error as the **first argument** of the callback function. If this value is **non-null** then an error has occurred.
 
 For example for the callback:
 ```
@@ -37,7 +46,7 @@ An example of a suitable caller would be:
 pay(myOrder, myCard,
   function (errorMsg, paidMsg) {
     if (errorMsg) {
-      return console.error("Error: " 
+      return console.error("Error: "
                   + errorMsg);
       }
     console.log("Paid " + paidMsg);

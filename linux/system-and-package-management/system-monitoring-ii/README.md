@@ -12,3 +12,5 @@ insights:
    - list-currently-logged-in-users
    - finding-open-files-with-lsof
    - monitor-system-memory-using-vmstat
+
+game: gotta-know-them-all

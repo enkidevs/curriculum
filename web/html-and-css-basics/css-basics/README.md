@@ -14,3 +14,5 @@ insights:
   - css-specificity
   - common-css-properties-values
   - relative-css-properties
+
+game: will-this-work-on-ie8

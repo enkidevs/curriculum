@@ -14,3 +14,5 @@ insights:
   - create-a-global-git-commit-hook
   - using-tags-for-version-control
   - pushing-tags-to-a-server
+
+game: hooks-arrr

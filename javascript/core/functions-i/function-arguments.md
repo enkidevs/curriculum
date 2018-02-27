@@ -11,11 +11,18 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  js.functions.1: 10
+
+tags:
+  - introduction
+  - workout
+
 ---
 ## Content
 
 When we pass primitive variables (such as numbers and strings) to functions in JavaScript they are *passed by value* which means that if we manipulate the argument value inside the function, changes will not be reflected outside the function.
- 
+
 However if we were to pass an object then changes *are* reflected on the object itself.
 
 For example:

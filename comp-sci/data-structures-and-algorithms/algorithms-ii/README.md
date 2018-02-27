@@ -1,4 +1,4 @@
-name: Algorithms II 
+name: Algorithms II
 
 type: insights-list
 
@@ -14,3 +14,5 @@ insights:
   - binary-expression-tree
   - exponentiation-by-squaring
   - levenshtein-distance
+
+game: oh-that-was-the-answer

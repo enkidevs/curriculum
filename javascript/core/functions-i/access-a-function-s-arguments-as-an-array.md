@@ -9,6 +9,13 @@ type: normal
 
 category: how to
 
+standards:
+  js.functions.1: 10
+
+tags:
+  - introduction
+  - workout
+
 links:
 
   - >-
@@ -25,10 +32,10 @@ Before applying Array methods, `arguments` needs to be converted to an actual Ar
 ```
 function sortedArgs() {
   // pseudo-array of arguments
-  var a = arguments 
-  // turn a into a proper Array: 
+  var a = arguments
+  // turn a into a proper Array:
   a = Array.prototype.slice.call(a)
-  // we can now use Array methods: 
+  // we can now use Array methods:
   return a.sort();
 }
 
@@ -36,7 +43,7 @@ function sortedArgs() {
 Example of use:
 
 ```
-sortedArgs(3,1,2) 
+sortedArgs(3,1,2)
 // [1,2,3]
 ```
 

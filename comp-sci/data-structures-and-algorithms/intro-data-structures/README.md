@@ -12,3 +12,5 @@ insights:
   - the-linked-list-data-structure
   - the-stack-data-structure
   - the-queue-data-structure
+
+game: what-should-it-be-stored-in

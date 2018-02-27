@@ -7,3 +7,5 @@ icon: '[-5 -5 110 110] <path fill="#fff" d="M50 43.839c21.447 0 39.737-2.673 46.
 color: 008bb9
 
 description: All about SQL!
+
+topic-namespace: sql

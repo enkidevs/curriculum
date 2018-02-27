@@ -10,6 +10,12 @@ category: must-know
 
 parent: why-use-npm
 
+standards:
+  js.npm-tasks-and-modules-manager: 10
+
+tags:
+  - introduction
+
 
 ---
 ## Content

@@ -1,4 +1,4 @@
-name: Modifiers
+name: Class Method Modifiers
 
 type: insights-list
 

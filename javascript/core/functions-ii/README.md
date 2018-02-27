@@ -2,13 +2,16 @@ name: Functions II
 
 type: insights-list
 
-description: Particularities of functions, in depth.
+description: Learn about functions as objects, and how scope works in JS.
 
-section: 2
+section: 1
+
+parent: array-methods
 
 insights:
-  - function-constructor-vs-function-expression
-  - functions-can-be-declared-after-use
-  - function-call-method
-  - difference-between-call-and-apply-methods
-  - explicit-setting-of-this-using-call-and-apply-methods
+  - functions-return-undefined-by-default
+  - check-if-a-function-exists
+  - setting-default-values-by-short-circuiting
+  - anonymous-functions
+  - iife-pattern
+  - functions-are-objects
