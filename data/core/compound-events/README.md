@@ -6,10 +6,11 @@ description: Use the rules of probability to compute probabilities of compound e
 
 section: 0
 
-parent: exploratory-data-analysis-2
+parent: independence-and-conditional-probability
 
 insights:
-  - scatterplots
-  - two-way-frequency-tables
-  - multivar-bar-graphs
-  - multivar-histograms-and-boxplots
+  - conditional-probability
+  - addition-rule
+  - multiplication-rule
+  - law-of-total-probability
+  - independence-with-conditional-probability
