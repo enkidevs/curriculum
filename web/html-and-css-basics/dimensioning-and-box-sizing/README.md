@@ -1,12 +1,6 @@
 name: Dimensions and Box Sizing
 
-type: insights-list
-
 description: Dimensioning 101
-
-section: 1
-
-parent: features
 
 insights:
   - vh-and-vw-vmin-and-vmax

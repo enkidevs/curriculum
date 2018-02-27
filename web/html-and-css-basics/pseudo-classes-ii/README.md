@@ -1,12 +1,6 @@
 name: Pseudo Classes II
 
-type: insights-list
-
 description: Special states of elements.
-
-section: 1
-
-parent: pseudo-classes-i
 
 insights:
   - drag-and-drop-pseudo-class-drop

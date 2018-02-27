@@ -1,10 +1,6 @@
 name: Pseudo Classes I
 
-type: insights-list
-
 description: Special states of elements.
-
-section: 1
 
 insights:
   - use-pseudo-classes-to-describe-a-special-state-of-an-element
