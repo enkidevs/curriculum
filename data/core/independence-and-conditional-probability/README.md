@@ -9,7 +9,7 @@ section: 0
 parent: exploratory-data-analysis-2
 
 insights:
-  -
-  -
-  -
-  - 
+  - events-in-a-sample-space
+  - independence
+  - conditional-probability
+  - recognize-independence-and-conditioning
