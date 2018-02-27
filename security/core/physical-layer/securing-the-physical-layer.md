@@ -13,15 +13,7 @@ type: normal
 
 category: must-know
 
-<<<<<<< HEAD:security/core/physical-layer/securing-the-physical-layer.md
-parent: identifying-the-physical-layer
-
-standards:
-
-  security.apply-osi-layer-security: 20
-=======
 inAlgoPool: false
->>>>>>> master:security/securing-unix-the-osi-model/physical-layer/securing-the-physical-layer.md
 
 links:
 
@@ -64,10 +56,6 @@ question: |
   What is one control in the Physical Layer of the OSI Model?
 
 answers:
-<<<<<<< HEAD:security/core/physical-layer/securing-the-physical-layer.md
-
-=======
->>>>>>> master:security/securing-unix-the-osi-model/physical-layer/securing-the-physical-layer.md
   - Locks and secure enclosures
   - Use of a physical firewall
   - Encrypted password exchange and storage

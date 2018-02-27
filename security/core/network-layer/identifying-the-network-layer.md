@@ -58,10 +58,6 @@ question: |
   What role does the Network Layer play in the OSI 7 Layer Model?
 
 answers:
-<<<<<<< HEAD:security/core/network-layer/identifying-the-network-layer.md
-
-=======
->>>>>>> master:security/securing-unix-the-osi-model/network-layer/identifying-the-network-layer.md
   - Routing and transmission over the physical topography of the Internet
   - Providing computational power via electronic circuits
   - Transmitting data between two directly connected mediums

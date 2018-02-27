@@ -62,10 +62,6 @@ question: |
   What role does the Presentation Layer play in the OSI 7 Layer Model?
 
 answers:
-<<<<<<< HEAD:security/core/presentation-layer/identifying-the-presentation-layer.md
-
-=======
->>>>>>> master:security/securing-unix-the-osi-model/presentation-layer/identifying-the-presentation-layer.md
   - Data conversion and encryption/decryption
   - Opening, closing, and managing connections between applications
   - Maintaining and ensuring a stable connection between two hosts over the Internet

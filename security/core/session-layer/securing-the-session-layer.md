@@ -13,15 +13,7 @@ type: normal
 
 category: must-know
 
-<<<<<<< HEAD:security/core/session-layer/securing-the-session-layer.md
-parent: identifying-the-session-layer
-
-standards:
-
-  security.apply-osi-layer-security: 20
-=======
 inAlgoPool: false
->>>>>>> master:security/securing-unix-the-osi-model/session-layer/securing-the-session-layer.md
 
 links:
 
@@ -65,10 +57,6 @@ question: |
   What is one control in the Session Layer of the OSI Model?
 
 answers:
-<<<<<<< HEAD:security/core/session-layer/securing-the-session-layer.md
-
-=======
->>>>>>> master:security/securing-unix-the-osi-model/session-layer/securing-the-session-layer.md
   - Using a strong, unique password
   - Strict use of ports as they are designed
   - Use of a physical firewall

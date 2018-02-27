@@ -74,10 +74,6 @@ question: |
   What is the OSI 7 Layer Model?
 
 answers:
-<<<<<<< HEAD:security/core/osi-model/introducing-the-osi-model.md
-
-=======
->>>>>>> master:security/securing-unix-the-osi-model/osi-model/introducing-the-osi-model.md
   - a flexible standard for various network configurations
   - a hard standard for various network configurations
   - a flexible standard for various hardware component configurations

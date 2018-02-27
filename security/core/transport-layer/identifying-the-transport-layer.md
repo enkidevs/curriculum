@@ -59,10 +59,6 @@ question: |
   What role does the Transport Layer play in the OSI 7 Layer Model?
 
 answers:
-<<<<<<< HEAD:security/core/transport-layer/identifying-the-transport-layer.md
-
-=======
->>>>>>> master:security/securing-unix-the-osi-model/transport-layer/identifying-the-transport-layer.md
   - Maintaining and ensuring a stable connection between two hosts over the Internet
   - Transmitting data between network nodes
   - Routing and transmission over the physical topography of the Internet
