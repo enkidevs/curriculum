@@ -1,4 +1,4 @@
-name: Exploratory Data Analysis
+name: Exploratory Data Analysis II
 
 type: insights-list
 
