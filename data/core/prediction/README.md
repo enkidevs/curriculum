@@ -4,7 +4,7 @@ type: insights-list
 
 description: Summarize, represent, and interpret relationship between two quantitative variables.  Fit and interpret linear models.  
 
-section: 2
+section: 1
 
 parent: observational-studies-and-experimental-design
 

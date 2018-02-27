@@ -4,7 +4,7 @@ type: insights-list
 
 description: Understand and evaluate random processes underlying statistical experiments.  Make inferences and justify conclusions from sample surveys, experiments, and observational studies.    
 
-section: 2
+section: 1
 
 parent: mean-and-variance
 

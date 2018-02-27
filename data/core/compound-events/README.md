@@ -4,7 +4,7 @@ type: insights-list
 
 description: Use the rules of probability to compute probabilities of compound events
 
-section: 1
+section: 0
 
 parent: independence-and-conditional-probability
 
