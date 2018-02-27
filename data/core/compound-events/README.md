@@ -1,8 +1,8 @@
-name: Independence and Conditional Probability
+name: Compound Events
 
 type: insights-list
 
-description: Summarize, represent, and interpret data on a single count or measurement variable.  
+description: Use the rules of probability to compute probabilities of compound events
 
 section: 0
 
