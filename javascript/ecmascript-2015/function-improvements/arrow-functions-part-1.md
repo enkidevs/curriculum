@@ -23,8 +23,7 @@ tags:
 
 links:
 
-  - >-
-    [MDN Guide to Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions){website}
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions){website}'
 
 ---
 ## Content
@@ -50,30 +49,30 @@ parameter => expression
 Below we use arrow function syntax to declare a function that accepts two parameters (x and y) and will add them together:
 
 ```
-let add = (x,y) => {x+y}
+let add = (x,y) => { x + y }
 add(2,4); //6
 ```
 
 ---
 ## Practice
 
-Complete the code challenge to map the array to: `[5, 6, 5, 7]`
+Write a function that will take the array `planets` and output `[5, 6, 5, 7]`:
 ```
-var planets = [
-  'Earth',
-  'Saturn',
-  'Pluto',
-  'Jupiter'
-];
+foo() => {
+  var planets = [
+    'Earth',
+    'Saturn',
+    'Pluto',
+    'Jupiter'
+  ];
 
-planets.map(??? => ???);
+  return planets.map(??? => ???);
+}
 ```
 * `planet`
-* `{planet}`
+* `return planet.length`
 * `planet.length`
-* `{planet.length}`
-* `(planet.length)`
-
+* `{planet}`
 ---
 ## Revision
 

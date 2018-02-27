@@ -21,10 +21,9 @@ tags:
 
   - iterators
 
-links:
+links: 
 
-  - >-
-    [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/values){website}
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/values){website}'
 
 ---
 ## Content

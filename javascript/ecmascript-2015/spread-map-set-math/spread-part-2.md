@@ -13,9 +13,10 @@ category: must-know
 
 links:
 
-  - >-
-    [ponyfoo.com](https://ponyfoo.com/articles/es6-spread-and-butter-in-depth){website}
-
+  - '[ponyfoo.com](https://ponyfoo.com/articles/es6-spread-and-butter-in-depth){website}'
+  
+  - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Spread_operator){website}'
+  
 ---
 ## Content
 

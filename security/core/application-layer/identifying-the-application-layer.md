@@ -1,4 +1,4 @@
-# Identifying the Session Layer
+# Identifying the Application Layer
 author: milesflo
 
 levels:
@@ -13,9 +13,9 @@ type: normal
 
 category: must-know
 
-standards:
+inAlgoPool: false
 
-  security.identify-osi-layers: 15
+parent: securing-the-presentation-layer
 
 links:
 
@@ -31,7 +31,7 @@ Due to its high level of variance and loose security standards, this Layer is th
 ---
 ## Practice
 
-What role does the Data Link Layer play in the OSI 7 Layer Model?
+What role does the Application Layer play in the OSI 7 Layer Model?
 ???
 
 * Provide a user interface with high level functions for interacting with the network
@@ -60,7 +60,6 @@ question: |
   What role does the Application Layer play in the OSI 7 Layer Model?
 
 answers:
-
   - Provide a user interface with high level functions for interacting with the network
   - Opening, closing, and managing connections between applications
   - Maintaining and ensuring a stable connection between two hosts over the Internet

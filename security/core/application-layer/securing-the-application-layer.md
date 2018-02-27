@@ -13,11 +13,7 @@ type: normal
 
 category: must-know
 
-parent: identifying-the-application-layer
-
-standards:
-
-  security.apply-osi-layer-security: 20
+inAlgoPool: false
 
 links:
 
@@ -60,7 +56,6 @@ question: |
   What is one control in the Application Layer of the OSI Model?
 
 answers:
-
   - Utilizing a testing suite in software development
   - Strict use of ports as they are designed
   - Use of a physical firewall

@@ -13,8 +13,9 @@ category: must-know
 
 links:
 
-  - >-
-    [ponyfoo.com](https://ponyfoo.com/articles/es6-template-strings-in-depth){website}
+  - '[ponyfoo.com](https://ponyfoo.com/articles/es6-template-strings-in-depth){website}'
+
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){website}'
 
 ---
 ## Content

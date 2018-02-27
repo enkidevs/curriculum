@@ -13,9 +13,9 @@ type: normal
 
 category: must-know
 
-standards:
+inAlgoPool: false
 
-  security.identify-osi-layers: 15
+parent: securing-the-transport-layer
 
 links:
 
@@ -62,7 +62,10 @@ question: |
   What role does the Session Layer play in the OSI 7 Layer Model?
 
 answers:
+<<<<<<< HEAD:security/core/session-layer/identifying-the-session-layer.md
 
+=======
+>>>>>>> master:security/securing-unix-the-osi-model/session-layer/identifying-the-session-layer.md
   - Opening, closing, and managing connections between applications
   - Maintaining and ensuring a stable connection between two hosts over the Internet
   - Routing and transmission over the physical topography of the Internet

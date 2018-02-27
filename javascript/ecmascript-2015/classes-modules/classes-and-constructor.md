@@ -21,6 +21,12 @@ inAlgoPool: false
 
 category: feature
 
+links:
+
+  - '[MDN - Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes){webstie}'
+  
+  - '[MDN - Constructors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor){website}'
+
 ---
 ## Content
 

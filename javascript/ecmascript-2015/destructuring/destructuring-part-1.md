@@ -13,8 +13,7 @@ category: feature
 
 links:
 
-  - >-
-    [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){website}
+  - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){website}'
 
 ---
 ## Content

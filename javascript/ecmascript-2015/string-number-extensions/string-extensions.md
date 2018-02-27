@@ -13,8 +13,7 @@ category: must-know
 
 links:
 
-  - >-
-    [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode){website}
+  - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode){website}'
 
 ---
 ## Content

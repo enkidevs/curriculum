@@ -14,7 +14,7 @@ category: must-know
 ---
 ## Content
 
-To call a function in Python you simply write the functions name followed by some brackets `()`.
+To call a function in Python you simply write the functions name followed by some parentheses `()`.
 
 For example:
 

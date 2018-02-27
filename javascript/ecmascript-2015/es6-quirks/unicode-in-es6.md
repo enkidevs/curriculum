@@ -15,11 +15,9 @@ category: feature
 
 links:
 
-  - >-
-    [ponyfoo.com](https://ponyfoo.com/articles/es6-strings-and-unicode-in-depth){website}
+  - '[ponyfoo.com](https://ponyfoo.com/articles/es6-strings-and-unicode-in-depth){website}'
 
-  - >-
-    [www.2ality.com](http://www.2ality.com/2013/09/javascript-unicode.html){website}
+  - '[www.2ality.com](http://www.2ality.com/2013/09/javascript-unicode.html){website}'
 
 ---
 ## Content

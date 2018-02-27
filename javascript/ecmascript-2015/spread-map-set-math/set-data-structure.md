@@ -13,8 +13,7 @@ category: must-know
 
 links:
 
-  - >-
-    [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Set){website}
+  - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Set){website}'
 
 ---
 ## Content

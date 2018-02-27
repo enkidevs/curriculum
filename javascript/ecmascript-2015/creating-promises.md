@@ -34,8 +34,7 @@ notes: >-
 
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}
+  - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
 
 ---
 ## Content

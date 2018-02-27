@@ -27,7 +27,7 @@ category: feature
 
 links:
 
-  - '[Learn more about Template Strings on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)'
 
 ---
 ## Content

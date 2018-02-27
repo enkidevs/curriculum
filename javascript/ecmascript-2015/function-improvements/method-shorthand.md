@@ -13,8 +13,7 @@ category: must-know
 
 links:
 
-  - >-
-    [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions){website}
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions){website}'
 
 ---
 ## Content

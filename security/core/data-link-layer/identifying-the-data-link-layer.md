@@ -13,9 +13,9 @@ type: normal
 
 category: must-know
 
-standards:
+inAlgoPool: false
 
-  security.identify-osi-layers: 15
+parent: securing-the-physical-layer
 
 links:
 
@@ -57,8 +57,8 @@ headline: What role does this Layer play in the OSI 7 Layer Model?
 
 question: |
   What role does the Data Link Layer play in the OSI 7 Layer Model?
-answers:
 
+answers:
   - Transmitting data between network nodes
   - Routing and transmission over the physical topography of the Internet
   - Providing computational power via electronic circuits

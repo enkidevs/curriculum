@@ -45,7 +45,7 @@ my_functions.hello('Seba') # Hello, Seba
 Instead, we can achieve the same using the `from ... import` statement:
 
 ```py
-from my_funcitons import cube, hello
+from my_functions import cube, hello
 
 cube(3) # 27
 hello('Seba') # Hello, Seba

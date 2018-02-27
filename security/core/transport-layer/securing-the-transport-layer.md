@@ -13,11 +13,15 @@ type: normal
 
 category: must-know
 
+<<<<<<< HEAD:security/core/transport-layer/securing-the-transport-layer.md
 parent: identifying-the-transport-layer
 
 standards:
 
   security.apply-osi-layer-security: 20
+=======
+inAlgoPool: false
+>>>>>>> master:security/securing-unix-the-osi-model/transport-layer/securing-the-transport-layer.md
 
 links:
 
@@ -62,7 +66,10 @@ question: |
   What is one control in the Transport Layer of the OSI Model?
 
 answers:
+<<<<<<< HEAD:security/core/transport-layer/securing-the-transport-layer.md
 
+=======
+>>>>>>> master:security/securing-unix-the-osi-model/transport-layer/securing-the-transport-layer.md
   - Strict use of ports as they are designed
   - Use of a physical firewall
   - Using managed switches prevent topographical loops

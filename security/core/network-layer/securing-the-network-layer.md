@@ -13,11 +13,15 @@ type: normal
 
 category: must-know
 
+<<<<<<< HEAD:security/core/network-layer/securing-the-network-layer.md
 parent: identifying-the-network-layer
 
 standards:
 
   security.apply-osi-layer-security: 20
+=======
+inAlgoPool: false
+>>>>>>> master:security/securing-unix-the-osi-model/network-layer/securing-the-network-layer.md
 
 links:
 
@@ -58,7 +62,10 @@ question: |
   What is one control in the Network Layer of the OSI Model?
 
 answers:
+<<<<<<< HEAD:security/core/network-layer/securing-the-network-layer.md
 
+=======
+>>>>>>> master:security/securing-unix-the-osi-model/network-layer/securing-the-network-layer.md
   - Use of a physical firewall
   - Using managed switches prevent topographical loops
   - Locks and secure enclosures

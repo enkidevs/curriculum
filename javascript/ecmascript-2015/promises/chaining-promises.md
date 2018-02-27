@@ -15,6 +15,8 @@ category: must-know
 
 links:
 
+  - '[MDN - Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
+
 ---
 ## Content
 

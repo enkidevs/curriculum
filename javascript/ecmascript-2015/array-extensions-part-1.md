@@ -13,8 +13,9 @@ category: must-know
 
 links:
 
-  - >-
-    [ponyfoo.com](https://ponyfoo.com/articles/es6-array-extensions-in-depth){website}
+  - '[ponyfoo.com](https://ponyfoo.com/articles/es6-array-extensions-in-depth){website}'
+  
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array){website}'
 
 ---
 ## Content

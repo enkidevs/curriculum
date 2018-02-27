@@ -19,6 +19,10 @@ inAlgoPool: false
 
 category: must-know
 
+links:
+
+  - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const){website}'
+
 ---
 ## Content
 

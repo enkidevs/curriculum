@@ -13,11 +13,7 @@ type: normal
 
 category: must-know
 
-parent: identifying-the-datal-link-layer
-
-standards:
-
-  security.apply-osi-layer-security: 20
+inAlgoPool: false
 
 links:
 
@@ -65,7 +61,10 @@ question: |
   What is one control in the Data Link Layer of the OSI Model?
 
 answers:
+<<<<<<< HEAD:security/core/data-link-layer/securing-the-data-link-layer.md
 
+=======
+>>>>>>> master:security/securing-unix-the-osi-model/data-link-layer/securing-the-data-link-layer.md
   - Using managed switches prevent topographical loops
   - Locks and secure enclosures
   - Use of a physical firewall

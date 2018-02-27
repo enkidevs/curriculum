@@ -13,11 +13,15 @@ type: normal
 
 category: must-know
 
+<<<<<<< HEAD:security/core/presentation-layer/securing-the-presentation-layer.md
 parent: identifying-the-presentation-layer
 
 standards:
 
   security.apply-osi-layer-security: 20
+=======
+inAlgoPool: false
+>>>>>>> master:security/securing-unix-the-osi-model/presentation-layer/securing-the-presentation-layer.md
 
 links:
 
@@ -61,7 +65,10 @@ question: |
   What is one control in the Presentation Layer of the OSI Model?
 
 answers:
+<<<<<<< HEAD:security/core/presentation-layer/securing-the-presentation-layer.md
 
+=======
+>>>>>>> master:security/securing-unix-the-osi-model/presentation-layer/securing-the-presentation-layer.md
   - Input validation of network responses
   - Using a strong, unique password
   - Strict use of ports as they are designed

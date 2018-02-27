@@ -15,8 +15,7 @@ category: tip
 
 links:
 
-  - >-
-    [github.com](https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/ch4.md){website}
+  - '[github.com](https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/ch4.md){website}'
 
   - '[facebook.github.io](https://facebook.github.io/regenerator/){website}'
 

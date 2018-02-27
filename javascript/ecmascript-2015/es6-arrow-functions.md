@@ -15,8 +15,9 @@ category: must-know
 
 links:
 
-  - >-
-    [googlechrome.github.io](https://googlechrome.github.io/samples/arrows-es6/){website}
+  - '[googlechrome.github.io](https://googlechrome.github.io/samples/arrows-es6/){website}'
+  
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions){website}'
 
 ---
 ## Content

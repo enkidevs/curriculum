@@ -1,4 +1,4 @@
-# A1 - Injection
+# Identifying SQL Iinjection Risks
 author: milesflo
 
 levels:

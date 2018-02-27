@@ -31,7 +31,7 @@ The `queue` module provides thread safe `queue` data structures. As a consequenc
 
 First we need the modules imported:
 ```python
-from queue import Queue
+from Queue import Queue
 from threading import Thread
 ```
 Define the worker function:
@@ -69,19 +69,19 @@ Using the `join()` method, our program will wait until the queue is empty and th
 Complete the code snippet:
 
 ```python
-q = Queue() 
+q = Queue()
 ??? = 3 # declare 3 threads
-for i in range(num_threads): 
+for i in range(num_threads):
   worker = ??? \
-           (target=enki, args=(q,)) 
-  worker.setDaemon(True) 
-  worker.start() 
+           (target=enki, args=(q,))
+  worker.setDaemon(True)
+  worker.start()
 ```
-*`num_threads` 
-*`Thread` 
-*`num_thread` 
-*`threads` 
-*`new_Thread` 
+*`num_threads`
+*`Thread`
+*`num_thread`
+*`threads`
+*`new_Thread`
 *`start`
 
 ---
@@ -89,7 +89,7 @@ for i in range(num_threads):
 
 Which methods tells the queue that an operation has finished? ???
 
-*`task_done()` 
-*`task.done()` 
-*`task-done()` 
+*`task_done()`
+*`task.done()`
+*`task-done()`
 *`taskdone()`

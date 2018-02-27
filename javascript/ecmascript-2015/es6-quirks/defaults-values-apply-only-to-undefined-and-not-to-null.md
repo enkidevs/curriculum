@@ -19,6 +19,11 @@ tags:
 
   - caveat
 
+links:
+  
+  - '[MDN - Undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined){website}'
+  
+  - '[MDN - Null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null){website}'
 ---
 ## Content
 
