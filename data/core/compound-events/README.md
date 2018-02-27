@@ -13,4 +13,4 @@ insights:
   - addition-rule
   - multiplication-rule
   - law-of-total-probability
-  - conditional-probability-applied
+  - independence-and-conditional-probability-applied

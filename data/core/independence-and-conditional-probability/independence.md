@@ -1,4 +1,4 @@
-# independence
+# Independence
 author: tammyclee
 
 levels:
