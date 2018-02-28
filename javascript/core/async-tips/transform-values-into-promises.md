@@ -73,3 +73,29 @@ return ???.???('my value');
 *`send`
 *`return`
 *`prom`
+
+---
+## Quiz
+
+headline: In what order will these `console.log()` statements occur?
+question: |
+  In what order will these `console.log()` statements occur?
+  ```
+  const element = document.body;
+
+  element.addEventListener('click', () => {
+    Promise.resolve().then(() => console.log('Microtask 1'));
+    console.log('Listener 1')
+  })
+
+  element.addEventListener('click', () => {
+    Promise.resolve().then(() => console.log('Microtask 2'));
+    console.log('Listener 2')
+  })
+  ```
+
+answers:
+  - Listener 1; Microtask 1; Listener 2; Microtask 2;
+  - Listener 1; Listener 2; Microtask 1; Microtask 2;
+  - Microtask 1; Listener 1; Microtask 2; Listener 2;
+  - Microtask 2; Listener 2; Microtask 1; Listener 1;
