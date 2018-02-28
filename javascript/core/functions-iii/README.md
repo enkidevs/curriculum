@@ -1,16 +1,10 @@
 name: Functions III
 
-type: insights-list
-
 description: Particularities of functions, in depth.
 
-section: 2
-
-parent: functions-ii
-
 insights:
-  - anonymous-functions
-  - hoisting
+  - context-in-javascript
+  - changing-a-functions-context-with-fn-call-object
+  - function-call-method
+  - difference-between-call-and-apply-methods
   - bind
-  - method-chaining
-  - iife-pattern
