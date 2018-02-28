@@ -23,12 +23,12 @@ Insight content goes here
 ---
 ## Practice
 
-What does the fox says?
-???
+The conditional probability of an event B is the probability that the event will occur ??? . This probability is written as ???, notation for the probability of B given A.
 
-* right answer
-* wrong answer
-* wrong answer 2
+* given the knowledge that an event A has not occurred
+* given the knowledge that an event A has already occurred
+* P(A|B)
+* P(B|A) 
 
 ---
 ## Revision
