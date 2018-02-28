@@ -6,6 +6,8 @@ description: Represent and interpret data on a single count or measurement varia
 
 section: 0
 
+parent: basic-statistics
+
 insights:
   - histograms
   - histogram-gotchas

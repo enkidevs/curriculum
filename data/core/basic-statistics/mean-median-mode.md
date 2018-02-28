@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-Measures of central tendency
+Insight content goes here.  Measures of central tendency.   
 
 ---
 ## Practice
@@ -29,12 +29,12 @@ Considering the list of integers
 
 Which measure(s) of central tendency is/are equal to 5?
 
-*`median`
-*`mode`
-*`mean`
-*`median and mode`
-*`mean and mode`
-*`median and mean`
+* median
+* mode
+* mean
+* median and mode
+* mean and mode
+* median and mean
 
 
 ---
@@ -44,7 +44,7 @@ Given the ordered list of integers
 
 `[1, 4, 4, 7, 10, 11, 29, 46]`
 
-which is greater, the median or the mean?
+Which is greater, the median or the mean?
 
-*`median`
-*`mean`
+* median
+* mean

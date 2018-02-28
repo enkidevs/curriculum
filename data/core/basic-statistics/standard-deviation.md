@@ -16,7 +16,7 @@ links:
 ---
 ## Content
 
-Insight content goes here
+Insight content goes here.  mention variance as well.  
 
 ---
 ## Practice

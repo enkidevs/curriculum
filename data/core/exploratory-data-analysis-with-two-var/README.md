@@ -6,7 +6,7 @@ description: Summarize, represent, and interpret data on a single count or measu
 
 section: 0
 
-parent: exploratory-data-analysis
+parent: exploratory-data-analysis-with-one-var
 
 insights:
   - scatterplots
