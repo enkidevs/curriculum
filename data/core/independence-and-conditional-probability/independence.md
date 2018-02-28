@@ -25,9 +25,11 @@ Insight content goes here
 
 As the Sales Manager, you want to see if the channel type is independent of whether or not a sale will come through.   
 
-For the data below, are the events “Sale” and “Web” independent? ???
+For the data below, are the events “Sale” and “Web” independent?
+???
 
-Are the events “Sale” and “Phone” independent? ???
+Are the events “Sale” and “Phone” independent?
+???
 
 | Channel Type | No Sale | Sale | Total |
 | :--: | --: | --: | --: |
