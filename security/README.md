@@ -1,6 +1,6 @@
 name: Security
 
-description: Security'; DROP TABLE Topics;
+description: Security'; DROP TABLE Topics; 
 
 color: 00595E
 
