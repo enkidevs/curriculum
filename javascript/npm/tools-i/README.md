@@ -1,12 +1,6 @@
 name: Tools I
 
-type: insights-list
-
 description: Tools of npm.
-
-section: 1
-
-parent: publishing
 
 insights:
   - manage-local-node-modules-with-npm-link
