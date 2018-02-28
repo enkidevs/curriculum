@@ -21,19 +21,27 @@ Insight content goes here.  mention variance as well.
 ---
 ## Practice
 
-What does the fox says?
-???
+Consider the list of integers
 
-* right answer
-* wrong answer
-* wrong answer 2
+`[9, 6, 5, 6, 3, 12, 8]`
+
+The standard deviation is [`???`] units
+The variance is [`???`] squared units.  
+
+* 2.50
+* 2.73
+* 2.94
+* 6.25
+* 7.43
+* 8.67
 
 ---
 ## Revision
 
-What does the fox says?
-???
+Which is generally most useful to describe the variability of the data?
 
-* right answer
-* wrong answer
-* wrong answer 2
+* mean
+* median
+* mode
+* standard deviation
+* variance

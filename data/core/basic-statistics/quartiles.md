@@ -48,6 +48,7 @@ Given the ordered list
 `[14, 16, 19, 21, 27, 31, 35, 39]`
 
 the item with value `31` is
+???
 
 * between Q1 and Q2
 * between Q2 and Q3

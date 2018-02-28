@@ -18,17 +18,17 @@ links:
 ---
 ## Content
 
-Insight content goes here
+Insight content goes here.  Objective is:  Describe events as subsets of a sample space (the set of outcomes) using characteristics (or categories) of the outcomes, or as unions, intersections, or complements of other events (“or,” “and,” “not”).
 
 ---
 ## Practice
 
-What does the fox says?
+In a class of 30 students, 15 are on a sports team, 10 are in a music program, 4 are both in sports and in music.  How many students are in neither?  
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+* 9
+* 11
+* 12
 
 ---
 ## Revision
