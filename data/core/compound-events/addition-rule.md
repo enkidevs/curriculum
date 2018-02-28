@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  data.probability-compound-uniform.1: 10
+
 links:
 
   - '[link to learn more](https://enki.com)'
@@ -23,12 +26,17 @@ Insight content goes here
 ---
 ## Practice
 
-What does the fox says?
+A single card is chosen at random from a standard deck of 52 playing cards. What is the probability of choosing a king or a queen?
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+A single card is chosen at random from a standard deck of 52 playing cards. What is the probability of choosing a king or a spade?
+???
+
+* 0.138
+* 0.154
+* 0.242
+* 0.308
+* 0.414
 
 ---
 ## Revision

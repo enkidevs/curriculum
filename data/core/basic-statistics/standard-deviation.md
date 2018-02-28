@@ -9,6 +9,9 @@ type: normal
 
 category: must-know
 
+standards:
+  data.expected-value-variance.2: 10
+
 links:
 
   - '[link to learn more](https://enki.com)'

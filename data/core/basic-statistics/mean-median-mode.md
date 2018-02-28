@@ -5,11 +5,12 @@ levels:
 
   - beginner
 
-  - basic
-
 type: normal
 
 category: must-know
+
+standards:
+  data.expected-value-variance.1: 10
 
 links:
 

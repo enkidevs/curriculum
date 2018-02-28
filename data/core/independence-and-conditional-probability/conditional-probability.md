@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  data.independence-and-conditional-probability.2: 10
+
 links:
 
   - '[link to learn more](https://enki.com)'

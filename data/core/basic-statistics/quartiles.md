@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  data.interpret-single-measure.0: 10
+
 links:
 
   - '[link to learn more](https://enki.com)'

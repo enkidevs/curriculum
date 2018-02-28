@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  data.probability-compound-uniform.4: 10
+
 links:
 
   - '[link to learn more](https://enki.com)'
@@ -33,9 +36,9 @@ What does the fox says?
 ---
 ## Revision
 
-What does the fox says?
+Suppose 5% of the population doesn’t know how to swim, of those who can’t swim 30% also can’t ride a bike.  In addition, suppose that of those who can swim, 70% can ride a bike.  
+Are the ability to swim and the ability to bike independent?  
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+* Yes, biking and swimming are independent
+* No, biking and swimming are not independent

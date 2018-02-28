@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  data.independence-and-conditional-probability.3: 10
+
 links:
 
   - '[link to learn more](https://enki.com)'
@@ -28,7 +31,7 @@ The conditional probability of an event B is the probability that the event will
 * given the knowledge that an event A has not occurred
 * given the knowledge that an event A has already occurred
 * P(A|B)
-* P(B|A) 
+* P(B|A)
 
 ---
 ## Revision
