@@ -1,12 +1,6 @@
 name: Generators
 
-type: insights-list
-
 description: Generators 101
-
-section: 0
-
-parent: comprehension
 
 insights:
   - what-are-generators
