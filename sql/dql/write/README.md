@@ -15,13 +15,16 @@ insights:
 ---
 ## Exercise
 sqlfiddle-link: http://sqlfiddle.com/#!9/58d6e/4
-answer: 0
+standards:
+  sql.write.5: 1000
 ### Question
-From `item` table `DELETE` the item having id 10. To check if your query worked a DQL query is provided. Run it and answer with the result count you get from running this DQL query.
+From `item` table `DELETE` the item having id 10.
 ---
 ## Exercise
 sqlfiddle-link: http://sqlfiddle.com/#!9/58d6e/3
 answer: nidoqueen
+standards:
+  sql.write.0: 1000
 ### Question
 Insert into `pokemon` a new record with the following field values:
   - id:  31
@@ -37,5 +40,8 @@ To test whether your insert worked, run the query provided in the link and check
 ## Exercise
 sqlfiddle-link: http://sqlfiddle.com/#!9/58d6e/5
 answer: 37
+standards:
+  sql.write.3: 1000
 ### Question
 Update `move` table such that the 14th move will have accuracy equal to 37. In the answer field provide the result of the query that is present in this SQLFiddle link.
+---
