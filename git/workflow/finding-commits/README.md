@@ -1,12 +1,6 @@
 name: Finding Commits
 
-type: insights-list
-
 description: Check out how to find your commits easily in git.
-
-section: 0
-
-parent: branches
 
 insights:
   - search-by-commit-message-keyword
