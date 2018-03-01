@@ -38,13 +38,7 @@ This way, blockchains are able to self-sustain solely based on the adoption rate
 
 The ledger is built to be **append-only**. If any other type of update operation is to take place (removal or modification), it usually means that the blockchain's security and integrity are compromised.
 
-Unlike physical ledgers, if a transaction ever took place, there is no way of hiding it. Once happened and confirmed, the details of the transaction will be available to anyone connected to the network.
-
-A transaction in Bitcoin's UTXO model looks like this:
-```
-Alice gives Bob 20 bitcoins
-```
-
+Unlike physical ledgers, if a transaction ever took place, there is no way of hiding it. Once happened and confirmed, the details of the transaction will be available to anyone connected to the network. This is one of the reasons the blockchain technology became so popular.
 
 ---
 ## Practice

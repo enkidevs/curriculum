@@ -17,17 +17,20 @@ tags:
 
   - workout
 
+links:
+  - '[Full list of block checks](https://en.bitcoin.it/wiki/Protocol_rules#.22block.22_messages)'
+
 ---
 ## Content
 
-For the sake of simplicity, we'll tackle the verification process on a transaction-based blockchain (similar to Bitcoin). For more complex blockchains, such as those that can process multi-signature accounts, store records or run code, the verification process will require more variables to be considered.
+For the sake of simplicity, we'll tackle the main steps of the verification process of Bitcoin ledger. For more complex operations, such as working with multi-signature accounts, storing records or running code, the verification process will require more variables to be considered.
 
 To append a new block to a transaction-based blockchain, there are verifications conducted on two levels:
 - Transaction level verifications
-  - Checking if there are enough founds to complete the transaction
+  - Check if there are enough founds to complete the transaction
   - Check for double-spend
 - Block level verification
-  - The block references the previous block in the node's copy of the chain
+  - Check block references
 
 ### Transaction verification and the double-spending problem
 
@@ -41,18 +44,15 @@ By keeping track of a second balance, the bank knows for sure you won't be able 
 
 In an decentralized environment, it takes a while for transaction confirmations to move between nodes. Consider this scenario: Alice is living in the UK and buys something for 10 tokens from Bob. The transaction is valid by itself and is brodcasted from the UK:
 ```
-Alice has a balance of 10 coins
 Alice pays Bob 10 coins
 ```
-Because it takes a while for the transaction to reach the nodes in Australia, Alice could also brodcast another transaction from a server in Australia that said:
+Because it takes a while for the transaction to be added to a block and then to reach the nodes in Australia, Alice could also brodcast another transaction from a server in Australia that said:
 ```
-Alice has a balance of 10 coins
 Alice pays Alice1 10 coins
 ``` 
-By the nature of blockchain, if both transactions were to be processed at the same time, one would go through and the other would be dropped. If Bob was to confirm the payment before the network actually did it, the transaction dropped could be the one sending him the 10 coins.
+By the nature of blockchain, if Alice had only 10 coins and both transactions were to be processed at the same time, one would go through and the other would be dropped. If Bob was to confirm the payment before the network actually did it, the transaction dropped could be the one sending him the coins.
 
-This is usually dealt with requiring a number of new blocks (5-6) being appended after the block containing the said transaction. The longer the new chain, the more trust-worthy it is consider to be.
-
+This is usually dealt with by waiting for a number of new blocks (5-6) to be appended after the block containing the said transaction to "confirm" it. The longer the new chain, the more trust-worthy it is consider to be.
 
 ### Block verification
 

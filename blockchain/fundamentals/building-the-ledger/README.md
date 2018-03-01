@@ -8,7 +8,8 @@ section: 0
 
 insights:
  - the-ledger
- - identity-and-consensus
+ - the-utxo-model
+ - consensus
  - verifying-the-ledger
  - malicious-nodes
 
