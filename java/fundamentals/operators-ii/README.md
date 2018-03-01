@@ -1,12 +1,6 @@
 name: Operators II
 
-type: insights-list
-
 description: More on operators
-
-section: 0
-
-parent: tips-i
 
 insights:
   - equals-operation-on-different-data-types

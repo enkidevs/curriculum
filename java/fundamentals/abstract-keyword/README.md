@@ -1,10 +1,6 @@
 name: The abstract keyword
 
-type: insights-list
-
 description: The abstract keyword explained.
-
-section: 2
 
 insights:
   - compare-classes-and-not-class-names

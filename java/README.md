@@ -1,7 +1,9 @@
-language: java
+name: Java
 
-deviconsClass: devicons-java
+description: Classes, objects and coffee — the foundation on which Java was built.
+
+icon: 'placeholder'
 
 color: C15757
 
-description: Classes, objects and coffee — the foundation on which Java was built.
+language: java
