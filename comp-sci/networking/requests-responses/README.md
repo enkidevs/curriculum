@@ -1,12 +1,6 @@
 name: Requests and Responses
 
-type: insights-list
-
 description: Brief exploration of requests and responses.
-
-section: 1
-
-parent: intro-to-http
 
 insights:
   - http-request
