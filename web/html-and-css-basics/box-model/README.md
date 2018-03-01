@@ -1,12 +1,6 @@
 name: The Box Model
 
-type: insights-list
-
 description: Padding, margin, border
-
-section: 0
-
-parent: css-basics
 
 insights:
   - the-box-model

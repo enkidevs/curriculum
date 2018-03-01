@@ -1,12 +1,6 @@
 name: CSS Basics
 
-type: insights-list
-
 description: How CSS works
-
-section: 0
-
-parent: intro-css
 
 insights:
   - applying-css
