@@ -1,6 +1,6 @@
 name: Tip II
 
-description: Second round of tips on how to program better in Java.
+description: Second round of tips on how to program better in Java. 
 
 insights:
   - always-specify-type-parameter

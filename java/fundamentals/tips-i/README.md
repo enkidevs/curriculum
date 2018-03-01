@@ -1,6 +1,6 @@
 name: Tip I
 
-description: First round of tips on how to program better in Java.
+description: First round of tips on how to program better in Java. 
 
 insights:
   - use-comments-to-explain-the-purpose-of-code
