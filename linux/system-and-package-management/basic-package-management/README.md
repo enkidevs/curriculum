@@ -1,12 +1,6 @@
 name: Basic Package Management
 
-type: insights-list
-
 description: The way to extend your toolchain.
-
-section: 0
-
-parent: system-monitoring-i
 
 insights:
   - list-installed-packages

@@ -1,12 +1,6 @@
 name: Default Permissions
 
-type: insights-list
-
 description: More on permissions.
-
-section: 1
-
-parent: conditions
 
 insights:
   - understanding-umask

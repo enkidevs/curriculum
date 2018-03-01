@@ -1,12 +1,6 @@
 name: Webscraping
 
-type: insights-list
-
 description: How to scrape the web.
-
-section: 1
-
-parent: firewall-configuration-maintenance
 
 insights:
   - short-introduction-to-wget

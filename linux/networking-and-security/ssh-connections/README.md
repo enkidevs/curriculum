@@ -1,12 +1,6 @@
 name: Making SSH Connections
 
-type: insights-list
-
 description: Lean what SSH connections are and how to make them.
-
-section: 0
-
-parent: basics-networking
 
 insights:
   - what-is-ssh

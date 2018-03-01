@@ -1,12 +1,6 @@
 name: Working with Files
 
-type: insights-list
-
 description: Recipes for file management.
-
-section: 1
-
-parent: utilities
 
 insights:
   - sort-lines-in-a-text-file

@@ -1,12 +1,6 @@
 name: File Management Tips
 
-type: insights-list
-
 description: Recipes useful for file management and manipulation.
-
-section: 0
-
-parent: user-management
 
 insights:
   - deleting-non-empty-directories
