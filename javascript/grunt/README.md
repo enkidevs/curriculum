@@ -1,1 +1,3 @@
-Automation, performing repetitive tasks like minification, compilation, unit testing and linting.
+name: Grunt
+
+description: Automation, performing repetitive tasks like minification, compilation, unit testing and linting.
