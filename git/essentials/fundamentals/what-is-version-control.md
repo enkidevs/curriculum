@@ -53,14 +53,14 @@ What *type* of VCS **only** makes use of a local database to keep changes of fil
 ---
 ## Revision
 
-What does **CVCS** stand for?
+In order to be considered in the git commit a file must be ?
 
 ???
 
-* Centralised Version Control System
-* Centralised Versioning Center System
-* Center Version Control System
-* Control Version Center System
+* Tracked
+* Untracked
+* Marked
+* Saved
 
 ---
 ## Footnotes
