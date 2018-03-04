@@ -19,7 +19,7 @@ links:
 ---
 ## Content
 
-The `stack` abstract data structure is widely used in computer science. One strong feature they offer is that elements are stored in particular way. This collection is implemented to best fit the **LIFO** principle ( **last in**, **first out** ). Sometimes we need one data structure that behaves in such a manner. 
+The `stack` abstract data structure is widely used in computer science. This collection is implemented to best fit the **LIFO** principle ( **last in**, **first out** ). Sometimes we need one data structure that behaves in such a manner. 
 
 Even though `python` does not provide a special `stack` data structure, `list`'s can easily be used in the scope.
 
