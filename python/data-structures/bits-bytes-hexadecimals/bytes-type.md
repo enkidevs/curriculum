@@ -33,7 +33,7 @@ Create a **zero-filled** bytes object of specified `length`:
 b'\x00\x00'
 ```
 
-Create a bytes object from immutable sequence of integers:
+Create a bytes object from a iterable of integers:
 ```python
 >>> c = bytes(range(4))
 >>> c
