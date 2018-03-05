@@ -14,3 +14,48 @@ insights:
   - types-undefined-and-null
   - types-boolean-and-number
   - types-string
+
+---
+## Exercises
+codewars-link: http://www.codewars.com/kata/571edd157e8954bab500032d
+standards:
+  js.data-types-structures: 1000
+  js.write-expressions: 1000
+### Question
+Practice using JavaScript Numbers on Code Wars
+
+---
+## Exercises
+codewars-link: http://www.codewars.com/kata/571edea4b625edcb51000d8e
+standards:
+  js.data-types-structures: 1000
+  js.write-expressions: 1000
+### Question
+Practice using JavaScript Strings on Code Wars
+
+---
+## Exercises
+codewars-link: http://www.codewars.com/kata/571effabb625ed9b0600107a
+standards:
+  js.data-types-structures: 1000
+  js.write-expressions: 1000
+### Question
+Practice using JavaScript Arrays on Code Wars
+
+---
+## Exercises
+codewars-link: http://www.codewars.com/kata/571f1eb77e8954a812000837
+standards:
+  js.data-types-structures: 1000
+  js.write-expressions: 1000
+### Question
+Practice using JavaScript Objects on Code Wars
+
+---
+## Exercises
+codewars-link: http://www.codewars.com/kata/571f832f07363d295d001ba8
+standards:
+  js.data-types-structures: 1000
+  js.write-expressions: 1000
+### Question
+Practice using JavaScript Booleans on Code Wars
