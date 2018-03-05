@@ -1,12 +1,6 @@
 name: Manipulating Arrays
 
-type: insights-list
-
 description: Built-in functions for manipulating arrays.
-
-section: 0
-
-parent: immutability
 
 insights:
   - the-slice-built-in-function

@@ -1,12 +1,6 @@
 name: Console and Operators
 
-type: insights-list
-
 description: Get familiar with syntactic basis of python's console and common arithmetic operators.
-
-section: 0
-
-parent: meet-python
 
 insights:
   - printing-to-the-console

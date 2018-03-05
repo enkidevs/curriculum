@@ -1,12 +1,6 @@
 name: Exceptions II
 
-type: insights-list
-
 description: More on how to handle errors through exceptions.
-
-section: 1
-
-parent: exceptions-i
 
 insights:
   - avoid-unnecessary-exception-handling

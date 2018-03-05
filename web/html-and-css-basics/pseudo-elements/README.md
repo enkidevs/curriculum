@@ -1,12 +1,6 @@
 name: Pseudo Elements
 
-type: insights-list
-
 description: Special types of elements.
-
-section: 1
-
-parent: pseudo-classes-ii
 
 insights:
   - use-pseudo-elements-to-style-specific-parts-of-an-element

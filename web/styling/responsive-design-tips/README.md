@@ -1,12 +1,6 @@
 name: Responsive Design Tips
 
-type: insights-list
-
 description: Explore techniques for obtaining a responsive design. 
-
-section: 1
-
-parent: recipes
 
 insights:
   - disabling-default-callouts-using-webkit-touch-callout

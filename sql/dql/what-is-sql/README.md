@@ -1,10 +1,6 @@
 name: What is SQL?
 
-type: insights-list
-
 description: What is SQL?
-
-section: 0
 
 insights:
   - what-is-sql

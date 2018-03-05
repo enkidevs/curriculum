@@ -1,12 +1,6 @@
 name: System Monitoring III
 
-type: insights-list
-
 description: Even more on system monitoring.
-
-section: 1
-
-parent: system-monitoring-ii
 
 insights:
   - basic-service-management-with-systemd

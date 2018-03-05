@@ -1,12 +1,6 @@
 name: Styling I
 
-type: insights-list
-
 description: Styling recipes. 
-
-section: 0
-
-parent: colors-tips
 
 insights:
   - change-the-style-of-borders-using-border-style

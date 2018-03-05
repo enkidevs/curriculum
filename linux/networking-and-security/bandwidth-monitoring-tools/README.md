@@ -1,10 +1,6 @@
 name: Bandwidth Monitoring Tools
 
-type: insights-list
-
 description: Accessible tools for monitoring network connections.
-
-section: 1
 
 insights:
   - bandwidth-monitoring-tools

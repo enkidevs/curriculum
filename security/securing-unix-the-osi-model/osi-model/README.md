@@ -1,10 +1,6 @@
 name: Open Systems Interconnection Model
 
-type: insights-list
-
-description:
-
-section: 0
+description: Open Systems Interconnection model briefing
 
 insights:
   - introducing-the-osi-model

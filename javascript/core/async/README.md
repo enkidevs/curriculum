@@ -1,10 +1,6 @@
 name: How to Async
 
-type: insights-list
-
 description: Async techniques 101.
-
-section: 3
 
 insights:
   - async-a-history

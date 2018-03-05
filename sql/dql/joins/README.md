@@ -1,12 +1,6 @@
 name: JOINs
 
-type: insights-list
-
 description: Joining tables together.
-
-section: 1
-
-parent: aggregate-queries
 
 insights:
   - inner-join
