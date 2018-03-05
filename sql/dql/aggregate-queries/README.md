@@ -19,7 +19,7 @@ insights:
 sqlfiddle-link: http://sqlfiddle.com/#!9/b3fa3a
 answer: 995
 standards:
-  sql.aggregate-multiple-tables: 10
+  sql.aggregate-sigle-tables: 10
 ### Question
 Using `pokemon` table. Compute the sum of base_experience for all pokemons that are not default.
 
@@ -28,7 +28,7 @@ Using `pokemon` table. Compute the sum of base_experience for all pokemons that 
 sqlfiddle-link: http://sqlfiddle.com/#!9/b3fa3a
 answer: 16
 standards:
-  sql.aggregate-multiple-tables: 15
+  sql.aggregate-single-tables: 15
 ### Question
 Count all moves with power greater than 50.
 
