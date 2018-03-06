@@ -1,6 +1,10 @@
 name: Props III
 
+type: Insights list
+
 description: More strategies for dealing with common issues with props
+
+section: 2
 
 insights:
   - clone-elements-in-react

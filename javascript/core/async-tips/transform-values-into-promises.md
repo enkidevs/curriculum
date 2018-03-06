@@ -9,13 +9,16 @@ type: normal
 
 category: how to
 
+standards:
+  js.async.2: 10
+
 tags:
-
   - promises
-
   - functional programming
-
   - async
+  - introduction
+  - workout
+  - deep
 
 ---
 ## Content
@@ -48,14 +51,14 @@ return Promise.reject(
 Create the following promise to represent an error:
 
 ```
-return Promise.???( 
-  new ???('Boo! :o') 
-) 
+return Promise.???(
+  new ???('Boo! :o')
+)
 ```
-*`reject` 
-*`Error` 
-*`error` 
-*`create` 
+*`reject`
+*`Error`
+*`error`
+*`create`
 *`exception`
 
 ---
@@ -73,29 +76,3 @@ return ???.???('my value');
 *`send`
 *`return`
 *`prom`
-
----
-## Quiz
-
-headline: In what order will these `console.log()` statements occur?
-question: |
-  In what order will these `console.log()` statements occur?
-  ```
-  const element = document.body;
-
-  element.addEventListener('click', () => {
-    Promise.resolve().then(() => console.log('Microtask 1'));
-    console.log('Listener 1')
-  })
-
-  element.addEventListener('click', () => {
-    Promise.resolve().then(() => console.log('Microtask 2'));
-    console.log('Listener 2')
-  })
-  ```
-
-answers:
-  - Listener 1; Microtask 1; Listener 2; Microtask 2;
-  - Listener 1; Listener 2; Microtask 1; Microtask 2;
-  - Microtask 1; Listener 1; Microtask 2; Listener 2;
-  - Microtask 2; Listener 2; Microtask 1; Listener 1;

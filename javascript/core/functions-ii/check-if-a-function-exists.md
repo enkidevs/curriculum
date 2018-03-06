@@ -13,6 +13,12 @@ type: normal
 
 category: feature
 
+standards:
+  js.write-expressions.9: 10
+  js.functions.8: 10
+  js.control-flow.5: 10
+  js.control-flow.1: 10
+
 links:
 
   - >-
@@ -21,11 +27,11 @@ links:
 ---
 ## Content
 
-There are certain scenarios where scripts are shared between different parts of a website. This can result in calling functions that *do not exist*. 
+There are certain scenarios where scripts are shared between different parts of a website. This can result in calling functions that *do not exist*.
 
 Check if a `function` exists beforehand:
 ```javascript
-if (typeof myFunction === "function") { 
+if (typeof myFunction === "function") {
     // safe to use the function
     myFunction();
 }

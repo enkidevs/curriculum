@@ -1,6 +1,12 @@
 name: Navigation
 
+type: insights-list
+
 description: Employ navigation related techniques for browsers.
+
+section: 0
+
+parent: toolbox-i
 
 insights:
   - form-a-url-from-its-parts

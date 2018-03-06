@@ -13,6 +13,19 @@ category: feature
 
 parent: dependencies
 
+standards:
+  js.use-open-source-javascript-packages: 10
+  js.npm-publish: 10
+  js.npm-tasks-and-modules-manager: 10
+
+tags:
+  - workout
+  - deep
+  - new
+
+links:
+  - '[Peer dependencies](https://nodejs.org/en/blog/npm/peer-dependencies/)'
+
 ---
 ## Content
 
@@ -64,12 +77,17 @@ In which version of npm were *peerDependencies* available?
 ---
 ## Revision
 
-You can find out your npm version with:
+Add a peer dependency called `enki` to your package using npm3+:
 ```
-$ ??? ???
+{
+  //props
+  "???": {
+    "???": "1.0.0"
+  }
+}
 ```
-* npm
-* -v
-* v
-* node
-* -npm
+* `peerDependencies`
+* `enki`
+* `dependencies`
+* `enki:peer`
+* `devDependencies`

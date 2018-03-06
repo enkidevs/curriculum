@@ -1,6 +1,12 @@
 name: Gotchas
 
+type: insights-list
+
 description: Common and good to know gotchas!
+
+section: 1
+
+parent: props-ii
 
 insights:
   - dangerously-set-innerhtml

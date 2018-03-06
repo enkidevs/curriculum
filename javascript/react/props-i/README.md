@@ -1,6 +1,10 @@
 name: Props validation
 
+type: insights-list
+
 description: Learn how to validate components' prop inputs against their types.
+
+section: 1
 
 insights:
   - prop-validation

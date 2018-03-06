@@ -1,6 +1,10 @@
 name: express-ii
 
+type: Insights list
+
 description: Description of the workout goes here
+
+section: 1
 
 insights:
   - session-handling-in-express

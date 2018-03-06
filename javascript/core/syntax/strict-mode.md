@@ -11,6 +11,13 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  js.javascript-syntax.2: 10
+
+tags:
+  - introduction
+  - obscura
+
 links:
 
   - >-

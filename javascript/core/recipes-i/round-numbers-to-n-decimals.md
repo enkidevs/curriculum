@@ -1,4 +1,4 @@
-# Round numbers to `N` decimals 
+# Round numbers to `N` decimals
 author: catalin
 
 levels:
@@ -10,6 +10,10 @@ levels:
 type: normal
 
 category: how to
+
+standards:
+  js.write-expressions.0: 10
+  js.evaluate-expressions.3: 10
 
 ---
 ## Content
@@ -36,7 +40,7 @@ Complete the following code snippet:
 ```javascript
 //convert the number to length 3
 console.log((12.4513).???(3);
-//convert the number to have length 3 
+//convert the number to have length 3
 //after the decimal point
 console.log((12.4513).???(3);
 ```

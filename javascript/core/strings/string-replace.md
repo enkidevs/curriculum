@@ -13,6 +13,16 @@ type: normal
 
 category: caveats
 
+standards:
+  js.evaluate-expressions.3: 10
+  js.write-expressions.1: 10
+
+tags:
+  - strings
+  - html
+  - introduction
+  - workout
+
 links:
 
   - >-
@@ -21,10 +31,10 @@ links:
 ---
 ## Content
 
-The `String.replace` method only changes the first occurrence of a substring, not all possible matches: 
+The `String.replace` method only changes the first occurrence of a substring, not all possible matches:
 ```
 var testString = "An example string for us";
-testString = testString.replace(/ /,"%20"); 
+testString = testString.replace(/ /,"%20");
 // testString = "An%20example string for us"
 ```
 To replace all occurrences, you need to set the global modifier:

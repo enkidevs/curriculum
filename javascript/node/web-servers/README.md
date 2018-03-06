@@ -1,6 +1,10 @@
 name: Web Servers
 
+type: Insights list
+
 description: Basic Web-Servers in Node
+
+section: 0
 
 insights:
   - the-http-module-for-servers

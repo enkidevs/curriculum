@@ -13,6 +13,15 @@ category: feature
 
 notes: ''
 
+standards:
+  js.node-developer-environment: 20
+  js.use-modules: 20
+
+tags:
+  - introduction
+  - workout
+  - deep
+
 links:
 
   - >-
@@ -22,7 +31,7 @@ links:
 
 ---
 ## Content
-
+ß
 There are many options when debugging Node applications.
 
 **Built-in debugger**
@@ -56,8 +65,8 @@ Start node with its built-in debugger:
 ```bash
 $ ??? ??? app.js
 ```
-*`node`
-*`debug`
-*`debugger`
-*`node-debug`
-*`iron-node`
+* `node`
+* `debug`
+* `debugger`
+* `node-debug`
+* `iron-node`

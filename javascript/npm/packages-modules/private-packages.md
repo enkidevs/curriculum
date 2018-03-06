@@ -13,6 +13,15 @@ category: feature
 
 parent: packages-vs-modules
 
+standards:
+  js.npm-publish: 10
+  js.npm-tasks-and-modules-manager: 10
+
+tags:
+  - workout
+  - deep
+  - new
+
 links:
   - >-
     [docs.npmjs.com](https://docs.npmjs.com/getting-started/scoped-packages){website}

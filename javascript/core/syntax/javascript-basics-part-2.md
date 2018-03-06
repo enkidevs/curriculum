@@ -11,6 +11,13 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  js.functions.5: 10
+
+tags:
+  - introduction
+  - workout
+
 ---
 ## Content
 
@@ -28,7 +35,7 @@ It’s not strictly necessary to do this as the parser will try to determine the
 
 **Variables**
 
-Variables are declared with the **var** operator which creates a variable in the *current scope*. 
+Variables are declared with the **var** operator which creates a variable in the *current scope*.
 
 For example, if this is used inside a function then the variable will exist only inside the function:
 
@@ -38,7 +45,7 @@ function hello(){
 }
 //variable out of scope
 ```
- 
+
 If you omit the var keyword and are not in strict mode then a variable will still be declared but it will be declared in global scope. When this occurs on a web page, global scope is the window object.
 
 Not using var is a very bad idea as it is easy for variables to overwrite (sometimes called clobber) other variables.

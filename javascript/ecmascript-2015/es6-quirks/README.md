@@ -1,6 +1,12 @@
 name: ES6 Quirks
 
+type: insights-list
+
 description: Particularities and features.
+
+section: 2
+
+parent: symbol
 
 insights:
   - unicode-in-es6
