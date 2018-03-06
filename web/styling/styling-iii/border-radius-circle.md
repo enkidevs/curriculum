@@ -26,7 +26,7 @@ Any element can be given rounded corners by applying `border-radius`:
 element {
   border-radius: 50%;
   width: 200px;
-  height: 200px; 
+  height: 200px;
 }
 ```
 This can be used, for example, to make a profile picture or avatar circular.
@@ -38,7 +38,10 @@ From left to right, the `border-radius` values are `25%`, `50%`, `70%`:
 ---
 ## Revision
 
-What does the `border-radius` property do to elements? ???
+What does the `border-radius` property do to elements?
+
+???
+
 * Gives the element rounded corners.
 * Gives the element square corners.
 * Makes a circular shadow for the element.

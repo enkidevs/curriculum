@@ -23,17 +23,14 @@ tags:
   - promises
   - npm
 
-tags:
-
-  - languageagnostic
 
 links:
 
   - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/1050222/concurrency-vs-parallelism-what-is-the-difference#1050257){website}
+    '[stackoverflow.com](http://stackoverflow.com/questions/1050222/concurrency-vs-parallelism-what-is-the-difference#1050257){website}'
 
   - >-
-    [github.com](https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/ch1.md){website}
+    '[github.com](https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/ch1.md){website}'
 
 ---
 ## Content

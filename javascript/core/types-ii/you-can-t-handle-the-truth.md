@@ -21,9 +21,6 @@ standards:
 tags:
   - introduction
   - workout
-
-tags:
-
   - gamified
 
 ---

@@ -72,7 +72,9 @@ div {
 ---
 ## Revision
 
-What `box-shadow` properties does the following CSS code give to the p element? ???
+What `box-shadow` properties does the following CSS code give to the p element?
+
+???
 
 ```css
 p {

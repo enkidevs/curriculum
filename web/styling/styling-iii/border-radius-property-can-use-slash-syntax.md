@@ -25,9 +25,9 @@ links:
 
 ```css
 .box {
-/* top-left, top-right, bottom-right 
+/* top-left, top-right, bottom-right
    bottom-left */
-  border-radius: 35px 25px 30px 20px/ 
+  border-radius: 35px 25px 30px 20px/
                  35px 25px 15px 30px;
 }
 ```
@@ -53,7 +53,9 @@ border-radius: 80px 70px 60px 50px/
 ---
 ## Revision
 
-What syntax can be used with the `border-radius` property for setting the horizontal and vertical radius'? ???
+What syntax can be used with the `border-radius` property for setting the horizontal and vertical radius?
+
+???
 
 * slash syntax (/)
 * equal syntax (=)

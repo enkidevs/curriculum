@@ -46,6 +46,8 @@ zip(a b c, 1 2 3, x y z)
 ## Revision
 
 What's the first item index in **SassScript**?
+
 ???
+
 *`1`
 *`0`

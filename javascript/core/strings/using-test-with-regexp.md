@@ -18,13 +18,10 @@ standards:
 
 tags:
   - strings
-  - html
+  - regex
   - introduction
   - workout
 
-tags:
-
-  - 'javascript, regex, regular expressions, regexp, test'
 
 links:
 
