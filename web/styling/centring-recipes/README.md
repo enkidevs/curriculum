@@ -8,3 +8,4 @@ insights:
   - vertical-centering-fluid-blocks
   - vertical-centering-with-margin-top
   - vertically-center-text
+  - vertically-center-anything
