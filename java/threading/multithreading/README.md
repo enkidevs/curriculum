@@ -7,3 +7,5 @@ insights:
   - multithreading-use-local-variables
   - multithreading-minimize-locking-scope
   - why-use-volatile-long-or-double
+
+game: thread-safe
