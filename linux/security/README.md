@@ -1,1 +1,3 @@
-Protect yourself!
+name: Security
+
+description: Protect yourself!
