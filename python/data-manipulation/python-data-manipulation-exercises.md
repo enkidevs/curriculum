@@ -22,8 +22,7 @@ links:
   - '[link to deeper dive blog post](https://www.analyticsvidhya.com/blog/2016/01/12-pandas-techniques-python-data-manipulation/){website}'
   - '[link to a video](https://www.youtube.com/watch?v=Iqjy9UqKKuo){video}'
 
----
-## Exercise
+
 ---
 ## Exercises
 codewars-link: https://www.codewars.com/kata/help-the-bookseller
