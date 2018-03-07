@@ -9,5 +9,5 @@ section: 2
 insights:
   - use-redux-with-react
   - the-redux-store
-  - understanding-impure-functions
+  - understanding-pure-impure-functions
   - export-selectors-with-related-reducers
