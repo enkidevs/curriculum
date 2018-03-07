@@ -1,5 +1,5 @@
 # Python syntax
-author: sebaraba
+author: SebaRaba
 
 levels:
 
