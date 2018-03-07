@@ -1,8 +1,8 @@
+name: Core
+
 description: The fundamental backbone of knowledge. For life. Well, for Javascript.
 
-next:
-  - javascript-ecmascript 2015
-  - javascript-browser apis
+core: true
 
 sections:
   '0':
@@ -29,3 +29,6 @@ sections:
   '3':
     - async
     - async-tips
+
+next:
+  - javascript:ecmascript-2015

@@ -1,3 +1,7 @@
+name: NPM
+
+description: Node package manager. It does everything it says in its name.
+
 sections:
   '0':
     - intro-npm
@@ -8,8 +12,6 @@ sections:
     - publishing
     - tools-i
 
-description: Node package manager. It does everything it says in its name.
 
-prerequisites:
-  - javascript-node
-  - javascript-core
+next:
+  - javascript:react
