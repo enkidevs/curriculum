@@ -80,6 +80,5 @@ standards:
   py.store-manipulate-data.3: 4000
   py.store-manipulate-data.2: 2000
   py.data-structures-uses.5: 4000
-  py.native-types-operations.5:3000
 ### Question
 Train your skill on `data manipulation` in python.
