@@ -39,7 +39,7 @@ py.identify-python-syntax.1:2000
 py.store-manipulate-data.0: 2000
 py.data-structures-uses.5: 2000
 ### Question
-Practice formatting `data` to transport on `network`.
+Identify python `statements`.
 
 ---
 ## Exercises
@@ -51,4 +51,4 @@ standards:
   py.store-manipulate-data.2: 2000
   py.data-structures-uses.5: 2000
 ### Question
-Practice using `excel` functions in python.
+Practice python syntax `validity`.
