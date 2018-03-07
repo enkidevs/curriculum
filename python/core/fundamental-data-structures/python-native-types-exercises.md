@@ -1,5 +1,5 @@
 # Python native types exercises
-author: sebaraba
+author: SebaRaba
 
 levels:
 
