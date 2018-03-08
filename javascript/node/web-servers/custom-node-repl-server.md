@@ -1,4 +1,4 @@
-# Custom Node REPL Server
+---
 author: catalin
 
 levels:
@@ -13,12 +13,15 @@ type: normal
 
 category: how to
 
+
 links:
 
   - '[nodejs.org](https://nodejs.org/api/repl.html){website}'
 
+
 ---
 ## Content
+# Custom Node REPL Server
 
 **Node** allows users to created their own *Read-Eval-Print-Loop*s (**REPL**).
 Basic usage:
@@ -63,10 +66,11 @@ replServer.???(???, function() {
 });
 
 ```
-*`on`
-*`'exit'`
-*`'close'`
-*`'end'`
+
+* `on`
+* `'exit'`
+* `'close'`
+* `'end'`
 
 ---
 ## Revision
@@ -78,7 +82,9 @@ replServer.???(???, function() {
 });
 
 ```
-*`on`
-*`'exit'`
-*`'close'`
-*`'end'`
+
+* `on`
+* `'exit'`
+* `'close'`
+* `'end'`
+

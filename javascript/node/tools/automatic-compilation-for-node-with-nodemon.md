@@ -1,4 +1,4 @@
-# Automatic compilation for Node with **Nodemon**
+---
 author: catalin
 
 levels:
@@ -11,12 +11,15 @@ type: normal
 
 category: hack
 
+
 links:
 
   - '[github.com](https://github.com/remy/nodemon){website}'
 
+
 ---
 ## Content
+# Automatic compilation for Node with **Nodemon**
 
 **Nodemon** is a replacement for the standard **node** compiler. This utility wraps your application code and watches for any file changes.
 
@@ -52,11 +55,12 @@ Which flag must be used to enable debugging?
 
 ???
 
-*`--debug`
-*`debug`
-*`-debug`
-*`debugging`
-*`--debugger`
+
+* `--debug`
+* `debug`
+* `-debug`
+* `debugging`
+* `--debugger`
 
 ---
 ## Revision
@@ -65,8 +69,10 @@ Which flag must be used to enable debugging?
 
 ???
 
-*`--debug`
-*`debug`
-*`-debug`
-*`debugging`
-*`--debugger`
+
+* `--debug`
+* `debug`
+* `-debug`
+* `debugging`
+* `--debugger`
+

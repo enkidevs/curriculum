@@ -1,4 +1,4 @@
-# Data type comparison in `switch` statements
+---
 author: jordanfish
 
 levels:
@@ -9,12 +9,15 @@ type: normal
 
 category: caveats
 
+
 links:
 
-  - "[www.standardista.com](http://www.standardista.com/javascript/15-common-javascript-gotchas){website}"
+  - '[www.standardista.com](http://www.standardista.com/javascript/15-common-javascript-gotchas){website}'
+
 
 ---
 ## Content
+# Data type comparison in `switch` statements
 
 The `==` operator does not care for types. Therefore, the following `if` condition will pass:
 
@@ -58,6 +61,7 @@ switch (???) {
 // A
 ```
 
+
 * `x`
 * `case`
 * `1`
@@ -81,6 +85,8 @@ switch(x){
 }
 // ???
 ```
+
 * `nothing`
 * `'Hi!'`
 * `an error`
+

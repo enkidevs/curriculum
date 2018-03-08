@@ -1,4 +1,4 @@
-# Form a `URL` from its parts 
+---
 author: pawel
 
 levels:
@@ -17,8 +17,12 @@ tags:
 
   - url
 
+
+
+
 ---
 ## Content
+# Form a `URL` from its parts 
 
 It is possible to access the current `URL` in parts, so for a website such as:
 
@@ -47,6 +51,7 @@ var newURL = ???+
          + ???;
 ``` 
 
+
 * `window.location.protocol`
 * `window.location.host`
 * `window.location.pathname`
@@ -64,10 +69,12 @@ Get the host of the url:
 window.???.???;
 ```
 
-*`location`
-*`host`
-*`navigator`
-*`history`
-*`url`
-*`protocol`
-*`pathname`
+
+* `location`
+* `host`
+* `navigator`
+* `history`
+* `url`
+* `protocol`
+* `pathname`
+

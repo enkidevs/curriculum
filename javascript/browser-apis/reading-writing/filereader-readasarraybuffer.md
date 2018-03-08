@@ -1,4 +1,4 @@
-# FileReader.readAsArrayBuffer()
+---
 author: tommarshall
 
 levels:
@@ -15,18 +15,18 @@ category: must-know
 
 tags:
 
-  - ''
+  - 
+
 
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsArrayBuffer){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsArrayBuffer){website}'
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays){website}'
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays){website}
 
 ---
 ## Content
+# FileReader.readAsArrayBuffer()
 
 The `readAsArrayBuffer();` will read a *file* or *blob* object and produce an *ArrayBuffer*. 
 
@@ -58,6 +58,7 @@ var reader = new ???();
 reader.???(file);
 ```
 
+
 * FileReader
 * readAsArrayBuffer
 * fReader
@@ -65,3 +66,4 @@ reader.???(file);
 * read
 * interpret
 * readAsArray
+

@@ -1,4 +1,4 @@
-# Generators and Exceptions
+---
 author: alexjmackey
 
 levels:
@@ -9,18 +9,19 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+
 links:
-  
+
   - '[MDN - Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}'
-  
   - '[MDN - Exception Handling](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator/throw){website}'
+
+inAlgoPool:
 
 ---
 ## Content
+# Generators and Exceptions
 
 All code inside a generator despite appearances works  synchronously.
 
@@ -53,3 +54,4 @@ The exception occurs at the point where the generator is paused from the previou
 ```
 g.throw("bad error");
 ```
+

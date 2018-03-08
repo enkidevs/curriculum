@@ -1,4 +1,4 @@
-# The **Redux** store
+---
 author: catalin
 
 levels:
@@ -11,12 +11,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
   - '[rackt.org](http://rackt.org/redux/docs/api/Store.html){website}'
 
+
 ---
 ## Content
+# The **Redux** store
 
 The **Redux** store is simply an object with few *methods* that holds the whole *state tree* of your application. The only way to change this state is by `dispatching` an action to the store.
 
@@ -57,21 +60,24 @@ let store =
   ???(reducer, initstate);
 store.???();
 ```
-*`createStore` 
-*`getState` 
-*`newStore` 
-*`store` 
-*`state` 
-*`currentState` 
-*`retState`
+
+* `createStore` 
+* `getState` 
+* `newStore` 
+* `store` 
+* `state` 
+* `currentState` 
+* `retState`
 
 ---
 ## Revision
 
 What method is used to send an action to the store and to change the state?
 ???
+
 * `dispatch()`
 * `createStore()`
 * `getState()`
 * `subscribe()`
 * `replaceReducer()`
+

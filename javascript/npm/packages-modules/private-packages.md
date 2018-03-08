@@ -1,24 +1,29 @@
-# Scoped packages
+---
 author: mihaiberq
 
 levels:
+
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: feature
 
-parent: packages-vs-modules
 
 links:
-  - >-
-    [docs.npmjs.com](https://docs.npmjs.com/getting-started/scoped-packages){website}
 
+  - '[docs.npmjs.com](https://docs.npmjs.com/getting-started/scoped-packages){website}'
+
+parent: packages-vs-modules
 ---
 ## Content
+# Scoped packages
 
 Since *npm* started supporting scoping, multiple packages can have the same name while they are under a different **scope** (that acts like a namespace).
 
@@ -59,7 +64,9 @@ var scopedPackage =
 
 A scoped package's name is preceded by ???.
 
+
 * @scope/
 * scope/
 * @/
 * nothing
+

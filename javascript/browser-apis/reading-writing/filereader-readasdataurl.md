@@ -1,4 +1,4 @@
-# FileReader.readAsDataURL()
+---
 author: tommarshall
 
 levels:
@@ -15,13 +15,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsDataURL){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsDataURL){website}'
+
 
 ---
 ## Content
+# FileReader.readAsDataURL()
 
 The `readAsDataURL()` method is used with file or blob objects. When the read operation is complete it returns a *data URL* with the files contents as base64 encoded string which can be access through `reader.result`.
 
@@ -62,6 +64,7 @@ Which FileReader's function is called after `readAsDataURL()` is completed?
 
 ???
 
+
 * `onload`
 * `onend`
 * `oncomplete`
@@ -74,6 +77,8 @@ The URL returned by the `readAsDataURL` function is
 
 ???
 
+
 * a base64 encoded string
 * an SVG's code
 * a link to file's location
+

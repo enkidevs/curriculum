@@ -1,4 +1,4 @@
-# Weak vs Strict equality operator
+---
 author: pawel
 
 levels:
@@ -9,12 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - "[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators){website}"
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators){website}'
+
 
 ---
 ## Content
+# Weak vs Strict equality operator
 
 JavaScript supports two forms of equality.
 
@@ -53,6 +56,7 @@ console.log(" \t\r\n" == 0)
 // ???
 ```
 
+
 * `false false true`
 * `false true false`
 * `true false true`
@@ -70,6 +74,7 @@ console.log(0 == "");
 console.log("\n" == 0);
 // ???
 ```
+
 * `true true`
 * `true false`
 * `false true`
@@ -77,15 +82,15 @@ console.log("\n" == 0);
 
 ---
 ## Quiz
+### how familiar are you with weak equality?
+// What will this evaluate to?
+"\t\r\\n\" == 0
 
-headline: how familiar are you with weak equality?
 
-question: |
-  // What will this evaluate to?
-  "\t\r\\n\" == 0
+ ???
 
-answers:
-  - True
-  - False
-  - SyntaxError
-  - String
+* true
+* false
+* SyntaxError
+* String
+

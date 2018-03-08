@@ -1,22 +1,23 @@
-# `package.json`
+---
 author: mihaiberq
 
 levels:
+
   - beginner
 
 type: normal
 
 category: must-know
 
-parent: setting-up-npm
 
 links:
 
-  - >-
-    [docs.npmjs.com](https://docs.npmjs.com/getting-started/using-a-package.json){website}
+  - '[docs.npmjs.com](https://docs.npmjs.com/getting-started/using-a-package.json){website}'
 
+parent: setting-up-npm
 ---
 ## Content
+# `package.json`
 
 The best way to manage locally installed packages is through the **package.json** file. Here are some key points of why you should use one:
  - it serves as documentation for the packages your project is using
@@ -67,6 +68,7 @@ $ ??? ??? ???
 ```
 Will create the default *package.json* file.
 
+
 * `npm`
 * `init`
 * `-y`
@@ -80,7 +82,9 @@ The *package.json* file serves as
 
 ???
 
+
 * all of the above
 * a list of dependencies
 * a list of scripts to be run
 * a short description of your project
+

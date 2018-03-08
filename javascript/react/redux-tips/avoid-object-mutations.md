@@ -1,4 +1,4 @@
-# Avoid object mutations
+---
 author: catalin
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [egghead.io](https://egghead.io/lessons/javascript-redux-avoiding-object-mutations-with-object-assign-and-spread){website}
+  - '[egghead.io](https://egghead.io/lessons/javascript-redux-avoiding-object-mutations-with-object-assign-and-spread){website}'
+
 
 ---
 ## Content
+# Avoid object mutations
 
 A **pure** function that returns a new object with the needed modifications can easily be implemented in **Redux**. However, if other properties are added later on to the object, you might need to update several pieces of your code. 
 
@@ -48,6 +50,7 @@ return ???.???({}, myObj, {
 });
 
 ```
+
 * `Object`
 * `assign`
 * `...`
@@ -65,9 +68,11 @@ return ???.???({}, myObj, {
 });
 
 ```
+
 * `Object`
 * `assign`
 * `...`
 * `clone`
 * `add`
 * `myObject`
+

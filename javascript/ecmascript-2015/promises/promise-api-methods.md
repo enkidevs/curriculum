@@ -1,4 +1,4 @@
-# Promise API Methods
+---
 author: alexjmackey
 
 levels:
@@ -9,16 +9,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
 
 links:
 
   - '[MDN - Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
-  
+
+inAlgoPool:
+
 ---
 ## Content
+# Promise API Methods
 
 The promise API supplies a number of methods for working with multiple promises.
 
@@ -57,3 +59,4 @@ var p1 = Promise.reject(
 );
 var p2 = Promise.resolve();
 ```
+

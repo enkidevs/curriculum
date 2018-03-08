@@ -1,4 +1,4 @@
-# `WeakMap` in ES6
+---
 author: rosielowther
 
 levels:
@@ -13,12 +13,15 @@ type: normal
 
 category: feature
 
+
 links:
 
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/WeakMap){website}'
 
+
 ---
 ## Content
+# `WeakMap` in ES6
 
 ES6 has a new data structure `WeakMap`. It is a collection of key/value pairs. Its keys must be objects. 
 
@@ -39,12 +42,13 @@ Complete the syntax for a WeakMap below:
 ```
 new ???([???])
 ```
-*`WeakMap`
-*`iterable`
-*`weakmap`
-*`Weakmap`
-*`iterate`
-*`iterator`
+
+* `WeakMap`
+* `iterable`
+* `weakmap`
+* `Weakmap`
+* `iterate`
+* `iterator`
 
 ---
 ## Revision
@@ -53,5 +57,7 @@ Are `WeakMap`s enumerable?
 
 ???
 
-*`yes`
-*`no`
+
+* `yes`
+* `no`
+

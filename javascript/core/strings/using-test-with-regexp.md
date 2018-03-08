@@ -1,4 +1,4 @@
-# Using `.test()` with RegExp
+---
 author: fsites
 
 levels:
@@ -13,15 +13,17 @@ category: feature
 
 tags:
 
-  - 'javascript, regex, regular expressions, regexp, test'
+  - javascript, regex, regular expressions, regexp, test
+
 
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test){website}'
+
 
 ---
 ## Content
+# Using `.test()` with RegExp
 
 The `.test()` method takes a string  and checks it against a RegEx. 
 
@@ -53,6 +55,7 @@ var containsRegExp = /Regular Expressions/i;
 containsRegExp.test(str);
 ```
 
+
 * True, False
 * True, True
 * False, True
@@ -65,6 +68,8 @@ Matching a string with a RegEx is done by
 
 ???
 
-*regex.test(string);
-*regex.match(string);
-*regex.check(string);
+
+* regex.test(string);
+* regex.match(string);
+* regex.check(string);
+

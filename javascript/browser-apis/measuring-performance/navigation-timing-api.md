@@ -1,4 +1,4 @@
-# Navigation Timing API
+---
 author: rosielowther
 
 levels:
@@ -13,18 +13,16 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [www.sitepoint.com -
-    apis](http://www.sitepoint.com/10-html5-apis-worth-looking/){website}
+  - '[www.sitepoint.com - apis](http://www.sitepoint.com/10-html5-apis-worth-looking/){website}'
+  - '[www.sitepoint.com - profiling](http://www.sitepoint.com/profiling-page-loads-with-the-navigation-timing-api/){website}'
 
-  - >-
-    [www.sitepoint.com -
-    profiling](http://www.sitepoint.com/profiling-page-loads-with-the-navigation-timing-api/){website}
 
 ---
 ## Content
+# Navigation Timing API
 
 The Navigation Timing API provides timing information about the page load process. It also monitors how a user navigates to a page.
 
@@ -68,6 +66,7 @@ The navigation API shows how a user navigated on a particular page. What are the
 2 : ???
 255 : Other.
 
+
 * URL or link.
 * Refreshed page.
 * History.
@@ -82,8 +81,10 @@ Navigation API stores events as a propriety of which object?
 
 ???
 
+
 * `window.performance.timing`
 * `window.timing`
 * `timing.loadEventEnd`
 * `timing.navigationStart`
 * `window.performance.navigation`
+

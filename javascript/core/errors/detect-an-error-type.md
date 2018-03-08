@@ -1,4 +1,4 @@
-# Detect an error type
+---
 author: catalin
 
 levels:
@@ -9,12 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - "[davidwalsh.name](https://davidwalsh.name/detect-error-type-javascript){website}"
+  - '[davidwalsh.name](https://davidwalsh.name/detect-error-type-javascript){website}'
+
 
 ---
 ## Content
+# Detect an error type
 
 Using the `try/catch` block you can catch an exception then figure out what type of error occurred in you code.
 For example:
@@ -50,6 +53,7 @@ Complete the following code snippet such that the `try/catch` block will handle 
 }
 ```
 
+
 * `try`
 * `err`
 * `constructor`
@@ -76,10 +80,12 @@ try {
 
 ```
 
-*`catch`
-*`SyntaxError`
-*`name`
-*`EvalError`
-*`try`
-*`syntax`
-*`Error`
+
+* `catch`
+* `SyntaxError`
+* `name`
+* `EvalError`
+* `try`
+* `syntax`
+* `Error`
+

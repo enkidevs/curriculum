@@ -1,4 +1,4 @@
-# Truthy Falsy Gotchas
+---
 author: alexjmackey
 
 levels:
@@ -7,18 +7,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
 
 links:
 
-  - >-
-    [Mozilla Developer
-    Network](https://developer.mozilla.org/en/docs/Web/JavaScript/Equality_comparisons_and_sameness){website}
+  - '[Mozilla Developer Network](https://developer.mozilla.org/en/docs/Web/JavaScript/Equality_comparisons_and_sameness){website}'
+
+inAlgoPool:
 
 ---
 ## Content
+# Truthy Falsy Gotchas
 
 You should be aware that JavaScript has a complex set of rules that contain a few gotchas about how primitive values are compared that can lead to some unexpected comparisons.
 
@@ -47,5 +47,7 @@ What will the following snippet evaluate to?
 null == false 
 // ???
 ```
-*`false`
-*`true`
+
+* `false`
+* `true`
+

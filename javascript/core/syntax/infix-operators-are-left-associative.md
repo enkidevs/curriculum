@@ -1,4 +1,4 @@
-# Infix operators are left-associative
+---
 author: adamMontgomerie
 
 levels:
@@ -21,16 +21,16 @@ tags:
 
   - operator-associativity
 
+
 links:
 
-  - >-
-    [learnxinyminutes.com](http://learnxinyminutes.com/docs/javascript/){website}
+  - '[learnxinyminutes.com](http://learnxinyminutes.com/docs/javascript/){website}'
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence){website}'
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence){website}
 
 ---
 ## Content
+# Infix operators are left-associative
 
 Operator associativity determines the order in which operators of the same type are evaluated. 
 
@@ -61,6 +61,7 @@ var x = a - (-b * c);
 console.log(x);
 ```
 
+
 * 68
 * -28
 * 192
@@ -74,6 +75,8 @@ console.log(x);
 
 The processing of operations starts with ??? operator if no brackets are used.
 
-*left-most
-*right-most
-*middle
+
+* left-most
+* right-most
+* middle
+

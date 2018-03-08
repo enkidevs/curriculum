@@ -1,21 +1,26 @@
-# How to Publish Your Own Packages
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: how to
 
-parent: tests
 
+
+parent: tests
 ---
 ## Content
+# How to Publish Your Own Packages
 
 You've been using *npm* for some time and you have found out that your favorite framework doesn't do something you really need. The beauty of npm is that everyone can publish their own packages. So you decide to give something back and extend the framework's capabilities.
 
@@ -41,6 +46,8 @@ In order to publish your package to the npm repository, you need
 
 ???.
 
+
 * an npm account
 * an initial package version of `1.0.0`
 * a `README.md` file
+

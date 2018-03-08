@@ -1,4 +1,4 @@
-# `exports` vs. `module.exports` in **Node**
+---
 author: catalin
 
 levels:
@@ -11,13 +11,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [www.hacksparrow.com](http://www.hacksparrow.com/node-js-exports-vs-module-exports.html){website}
+  - '[www.hacksparrow.com](http://www.hacksparrow.com/node-js-exports-vs-module-exports.html){website}'
+
 
 ---
 ## Content
+# `exports` vs. `module.exports` in **Node**
 
 Exporting a module in **Node** can be done in different ways. The most common is using the `exports` object:
 ``` javascript
@@ -64,6 +66,7 @@ console.log(test[3]);
 console.log(test[0]);
 console.log(test[1]);
 ```
+
 * Kayak
 * kayak
 * kayaK
@@ -75,7 +78,9 @@ console.log(test[1]);
 
 `exports` is a helper for?
 ???
+
 * `module.exports`
 * `module.imports`
 * `module`
 * `imports`
+

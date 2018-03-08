@@ -1,4 +1,4 @@
-# Manipulate npm packages cache
+---
 author: catalin
 
 levels:
@@ -13,14 +13,15 @@ type: normal
 
 category: feature
 
-parent: check-data-about-a-package
 
 links:
 
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/cache){website}'
 
+parent: check-data-about-a-package
 ---
 ## Content
+# Manipulate npm packages cache
 
 The `npm cache` utility is used to **add**, **list** or **clear** the npm cache folder.
 
@@ -50,3 +51,4 @@ If no argument is provided, the entire cache will be deleted.
 ```bash
 $ npm config get cache
 ```
+

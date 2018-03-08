@@ -1,4 +1,4 @@
-# Writable Streams
+---
 author: tommarshall
 
 levels:
@@ -15,13 +15,15 @@ type: normal
 
 category: must-know
 
-parent: chaining-readable-streams
 
 links:
-- '[Writable Streams](https://gist.github.com/joyrexus/10026630)'
 
+  - '[Writable Streams](https://gist.github.com/joyrexus/10026630){website}'
+
+parent: chaining-readable-streams
 ---
 ## Content
+# Writable Streams
 
 The `write()`  method is used to write data to a writable stream. Take the following example:
  ```
@@ -52,6 +54,7 @@ rstream.on('???', function(data) {
 });
 ```
 
+
 * `data`
 * `write`
 * `input`
@@ -68,6 +71,8 @@ Which method is used when writing data to a writable stream?
 stream.???(data);
 ```
 
+
 * `write`
 * `input`
 * `print`
+

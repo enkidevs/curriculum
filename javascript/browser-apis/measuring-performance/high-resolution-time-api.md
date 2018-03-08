@@ -1,4 +1,4 @@
-# High Resolution Time API
+---
 author: rosielowther
 
 levels:
@@ -15,17 +15,16 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [www.sitepoint.com](http://www.sitepoint.com/10-html5-apis-worth-looking/
-    ){website}
+  - '[www.sitepoint.com](http://www.sitepoint.com/10-html5-apis-worth-looking/ ){website}'
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Performance/now){website}'
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Performance/now){website}
 
 ---
 ## Content
+# High Resolution Time API
 
 The High Resolution Time API allows you to perform precise timing measurements. 
 
@@ -54,7 +53,9 @@ The API could also be used for precise timing in game, animation or audio logic.
 
 What command must you call in order to use the High Resolution Time API call? ???
 
+
 * `performance.now()`
 * `resolution.start()`
 * `highres.run()`
 * `resolution.time()`
+

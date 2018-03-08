@@ -1,4 +1,4 @@
-# `process.nextTick()` callback pattern
+---
 author: catalin
 
 levels:
@@ -13,8 +13,12 @@ type: normal
 
 category: best practice
 
+
+
+
 ---
 ## Content
+# `process.nextTick()` callback pattern
 
 *Event loop* can be viewed as a queue of callbacks that are processed by **Node** on consequent **ticks**.
 
@@ -56,6 +60,7 @@ function compute() {
 compute();
 ```
 
+
 * `nextTick`
 * `compute`
 * `nextProcess`
@@ -70,6 +75,8 @@ What can be used to replicate the basic behaviour of `setTimeout(fn, 0)`?
 
 ???
 
-*`process.nextTick()`
-*`process.next()`
-*`process.nextTick(0)`
+
+* `process.nextTick()`
+* `process.next()`
+* `process.nextTick(0)`
+

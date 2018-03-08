@@ -1,4 +1,4 @@
-# Abbreviate commands in npm
+---
 author: catalin
 
 levels:
@@ -11,12 +11,12 @@ type: normal
 
 category: feature
 
+
+
 parent: check-data-about-a-package
-
-
-
 ---
 ## Content
+# Abbreviate commands in npm
 
 `npm` uses `abbrev` program to provide abbreviations for its commands. Shorthands for most common commands are also available.
 
@@ -49,11 +49,12 @@ What's the equivalent abbreviated command of `npm link`?
 
 ???
 
-*`npm ln`
-*`npm lk`
-*`npm l`
-*`npm k`
-*`npm n`
+
+* `npm ln`
+* `npm lk`
+* `npm l`
+* `npm k`
+* `npm n`
 
 ---
 ## Revision
@@ -62,8 +63,10 @@ What's the equivalent abbreviated command of `npm link`?
 
 ???
 
-*`npm ln`
-*`npm lk`
-*`npm l`
-*`npm k`
-*`npm n`
+
+* `npm ln`
+* `npm lk`
+* `npm l`
+* `npm k`
+* `npm n`
+

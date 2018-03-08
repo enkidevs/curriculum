@@ -1,4 +1,4 @@
-# Multiple Functions in Single Module
+---
 author: alexjmackey
 
 levels:
@@ -9,18 +9,19 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+
 links:
-  
+
   - '[MDN - Import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import){website}'
-  
   - '[MDN - Export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export){website}'
+
+inAlgoPool:
 
 ---
 ## Content
+# Multiple Functions in Single Module
 
 A module always exists in one file but within this file we can declare multiple functions. 
 
@@ -75,3 +76,4 @@ if (condition) {
  import 'double'; //error
 }
 ```
+

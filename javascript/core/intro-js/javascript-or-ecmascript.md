@@ -1,4 +1,4 @@
-# JavaScript or EcmaScript?
+---
 author: alexjmackey
 
 levels:
@@ -7,17 +7,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
 
 links:
 
-  - >-
-    [www.ecma-international.org](http://www.ecma-international.org/publications/standards/Ecma-262.htm){website}
+  - '[www.ecma-international.org](http://www.ecma-international.org/publications/standards/Ecma-262.htm){website}'
+
+inAlgoPool:
 
 ---
 ## Content
+# JavaScript or EcmaScript?
 
 The language that would become JavaScript was created by **Brendan Eich** in 1995 and then standardized by an organization called ECMA as **EcmaScript-262**. The standardization was needed as two versions of the initial JavaScript (Netscape's JavaScript and Microsoft's JScript) came out, similarly enough to be considered "versions", but different enough to cause confusion.
 
@@ -42,6 +43,8 @@ Which came first ?
 
 ???
 
-*`JavaScript`
-*`EcmaScript-262`
-*`EcmaScript 2016`
+
+* `JavaScript`
+* `EcmaScript-262`
+* `EcmaScript 2016`
+

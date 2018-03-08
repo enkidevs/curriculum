@@ -1,4 +1,4 @@
-# Classes and Constructor
+---
 author: alexjmackey
 
 levels:
@@ -9,6 +9,8 @@ levels:
 
 type: normal
 
+category: feature
+
 tags:
 
   - es6
@@ -17,18 +19,17 @@ tags:
 
   - oop
 
-inAlgoPool: false
-
-category: feature
 
 links:
 
   - '[MDN - Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes){webstie}'
-  
   - '[MDN - Constructors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor){website}'
+
+inAlgoPool:
 
 ---
 ## Content
+# Classes and Constructor
 
 It has always been possible to simulate classical inheritance in JavaScript, however it comes with a number of gotcha's and caveats, and is widely regarded as "not nice to work with".
 
@@ -63,3 +64,4 @@ class Person {
 var p = new Person("Enki");
 p.name; //Enki
 ```
+

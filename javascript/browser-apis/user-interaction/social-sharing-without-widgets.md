@@ -1,4 +1,4 @@
-# Social sharing without widgets
+---
 author: catalin
 
 levels:
@@ -11,12 +11,15 @@ type: normal
 
 category: tip
 
+
 links:
 
   - '[davidwalsh.name](https://davidwalsh.name/social-sharing-links){website}'
 
+
 ---
 ## Content
+# Social sharing without widgets
 
 Create your own widgets for social sites by defining your social sharing links  as `functions` and linking them to `listeners`.
 
@@ -69,6 +72,7 @@ function shareTwitter(url, text) {
   location=0');  
 }
 ```
+
 * `open`
 * `url`
 * `text`
@@ -77,3 +81,4 @@ function shareTwitter(url, text) {
 * `fetch`
 * `page`
 * `share`
+

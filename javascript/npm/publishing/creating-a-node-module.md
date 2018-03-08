@@ -1,21 +1,26 @@
-# Creating a Node Module
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: how to
 
-parent: remote-scripts
 
+
+parent: remote-scripts
 ---
 ## Content
+# Creating a Node Module
 
 After you have set up the *package.json* file, it's time to start coding. A npm module is a regular JavaScript file that must follow the *CommonJS* module spec.
 
@@ -42,17 +47,18 @@ $ node app.js
 81
 ```
 
-
 ---
 ## Practice
 
 In order for the JavaScript file to be a module, it must have
 
 ???
+
 * a non-empty `exports` object
 * at least one function
 * constants
 * at least one non-void function
+
 ---
 ## Revision
 
@@ -60,6 +66,8 @@ Usually, a module id is
 
 ???
 
+
 * the name of the main JavaScript file
 * the name of the first function
 * defined in the *package.json*
+

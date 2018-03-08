@@ -1,4 +1,4 @@
-# Introducing Promises
+---
 author: alexjmackey
 
 levels:
@@ -9,16 +9,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
 
 links:
 
   - '[MDN - Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
 
+inAlgoPool:
+
 ---
 ## Content
+# Introducing Promises
 
 A **promise** is an object that represents a value that may or may not be obtained in the future and can be passed around like any other object.
 
@@ -39,3 +41,4 @@ One way of approaching this problem is to use callback functions. A callback fun
 Callbacks work great for simple scenarios but with more complex scenarios things get complex and out of control quickly - for example when you need to handle more complex flow conditions such as multiple callbacks and exceptions.
 
 A better approach is to use promises lets see how to do this next.
+

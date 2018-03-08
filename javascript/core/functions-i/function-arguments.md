@@ -1,4 +1,4 @@
-# Function Arguments
+---
 author: alexjmackey
 
 levels:
@@ -7,12 +7,15 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+
+
+inAlgoPool:
 
 ---
 ## Content
+# Function Arguments
 
 When we pass primitive variables (such as numbers and strings) to functions in JavaScript they are *passed by value* which means that if we manipulate the argument value inside the function, changes will not be reflected outside the function.
  
@@ -42,9 +45,10 @@ console.log(obj.name);//Apple
 
 In JavaScript, variables are ???.
 
-*passed by value
-*passed by reference
-*passed by their object
+
+* passed by value
+* passed by reference
+* passed by their object
 
 ---
 ## Revision
@@ -60,7 +64,9 @@ changeProp(per);
 console.log(per.name);
 // ???
 ```
-*John
-*Alex
-*undefined
-*null
+
+* John
+* Alex
+* undefined
+* null
+

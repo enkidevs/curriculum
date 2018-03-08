@@ -1,4 +1,4 @@
-# Lock down dependency versions by shrinkwrapping
+---
 author: catalin
 
 levels:
@@ -11,16 +11,15 @@ type: normal
 
 category: feature
 
-parent: check-data-about-a-package
 
 links:
 
-  - >-
-    [nodejs.org](https://nodejs.org/en/blog/npm/managing-node-js-dependencies-with-shrinkwrap/){website}
+  - '[nodejs.org](https://nodejs.org/en/blog/npm/managing-node-js-dependencies-with-shrinkwrap/){website}'
 
-
+parent: check-data-about-a-package
 ---
 ## Content
+# Lock down dependency versions by shrinkwrapping
 
 `npm` has great support for semanting versioning because it uses wildcards and expressions for versions of dependencies listed in the `package.json` file:
 ```json
@@ -50,6 +49,7 @@ What command do you need to run as to generate a snapshot of the current depende
 $ ??? ???
 ```
 
+
 * `npm`
 * `shrinkwrap`
 * `lock`
@@ -66,9 +66,11 @@ What command do you need to run as to generate a snapshot of the current depende
 $ ??? ???
 ```
 
+
 * `npm`
 * `shrinkwrap`
 * `lock`
 * `dependencies`
 * `package.json`
 * `npm-shrinkwrap`
+

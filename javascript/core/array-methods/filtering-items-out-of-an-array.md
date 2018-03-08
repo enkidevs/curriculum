@@ -1,4 +1,4 @@
-# Filtering items out of an array
+---
 author: Dral
 
 levels:
@@ -17,8 +17,12 @@ tags:
 
   - functional-programming arrays
 
+
+
+
 ---
 ## Content
+# Filtering items out of an array
 
 A common pattern to filter items from an array is the following:
 
@@ -61,16 +65,19 @@ var numbers = [0,1,2,3,4,5,6,7];
 var div3 = numbers.???( num =>
   num%3 ???);
 ```
-*filter
-*== 0
-*!= 0
-*get
+
+* filter
+* == 0
+* != 0
+* get
 
 ---
 ## Revision
 
 `.filter`  can be used instead of ??? .
 
-*for and if
-*if
-*for and alert
+
+* for and if
+* if
+* for and alert
+

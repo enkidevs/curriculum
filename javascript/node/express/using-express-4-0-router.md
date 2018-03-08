@@ -1,4 +1,4 @@
-# Using **Express 4.0** `router`
+---
 author: catalin
 
 levels:
@@ -11,15 +11,15 @@ type: normal
 
 category: must-know
 
-parent: easy-way-to-deliver-html-pages-with-express
 
 links:
 
-  - >-
-    [scotch.io](https://scotch.io/tutorials/learn-to-use-the-new-router-in-expressjs-4){website}
+  - '[scotch.io](https://scotch.io/tutorials/learn-to-use-the-new-router-in-expressjs-4){website}'
 
+parent: easy-way-to-deliver-html-pages-with-express
 ---
 ## Content
+# Using **Express 4.0** `router`
 
 The router in **Express** acts like a mini express application that doesn't bring in views, settings and so on, yet provides us with routing APIs.
 
@@ -70,13 +70,14 @@ Complete the below code snippet:
     ???; 
 }); 
 ```
-*`router` 
-*`next` 
-*`next()` 
-*`callback()` 
-*`done()`  
-*`env` 
-*`app`
+
+* `router` 
+* `next` 
+* `next()` 
+* `callback()` 
+* `done()`  
+* `env` 
+* `app`
 
 ---
 ## Revision
@@ -86,10 +87,12 @@ Create `simple` route:
 app.???('/simple', function(req, res) {
   ???.???('Simple route accessed!');
 ```
-*`get`
-*`res`
-*`send`
-*`use`
-*`req`
-*`app`
-*`router`
+
+* `get`
+* `res`
+* `send`
+* `use`
+* `req`
+* `app`
+* `router`
+

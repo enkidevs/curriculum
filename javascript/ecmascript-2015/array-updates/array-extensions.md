@@ -1,4 +1,4 @@
-# Array Extensions
+---
 author: alexjmackey
 
 levels:
@@ -6,8 +6,6 @@ levels:
   - beginner
 
 type: normal
-
-inAlgoPool: false
 
 category: must-know
 
@@ -21,12 +19,16 @@ tags:
 
   - iterators
 
-links: 
+
+links:
 
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/values){website}'
 
+inAlgoPool:
+
 ---
 ## Content
+# Array Extensions
 
 In ES6 the array type is expanded with 3 additional properties: 
 
@@ -57,3 +59,4 @@ iEntries.next();
 iEntries.next();
 //{value: undefined, done: true}
 ```
+

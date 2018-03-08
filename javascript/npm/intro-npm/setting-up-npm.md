@@ -1,18 +1,20 @@
-# Setting up npm
+---
 author: mihaiberq
 
 levels:
+
   - beginner
 
 type: normal
 
 category: must-know
 
+
+
 parent: why-use-npm
-
-
 ---
 ## Content
+# Setting up npm
 
 Now that you have chosen to use **npm**, the next step is to install it: *npm* is included with *Node.js*.
 
@@ -39,6 +41,7 @@ If the version of the package is not specified, npm will install its latest vers
 var express = require('express');
 var app = express();
 ```
+
 ---
 ## Revision
 
@@ -46,9 +49,11 @@ Install the *react* package locally:
 ```bash
 $ ??? ??? ??? ???
 ```
+
 * `npm`
 * `install`
 * `react`
 * `-l`
 * `-g`
 * `node`
+

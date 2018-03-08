@@ -1,4 +1,4 @@
-# Function call method
+---
 author: tommarshall
 
 levels:
@@ -13,8 +13,12 @@ type: normal
 
 category: must-know
 
+
+
+
 ---
 ## Content
+# Function call method
 
 The `call` method allows changing the this object of a function from the original context to the context of the new object specified by `thisObj`. 
 
@@ -54,6 +58,7 @@ str = "Object: 2. Arguments: 4 6 "
 ## Practice
 
 If `currObj` is not supplied, what is it set to by default? ???
+
 * The global object.
 * Equal to null.
 * The previous object.
@@ -68,7 +73,9 @@ callObject.call(null, 4, 2);
 ```
 ???
 
+
 * Object: null, Arguments: 4,2
 * Object: 4, Arguments 2
 * Object: 4, Arguments: null, 2
 * This gives an error
+

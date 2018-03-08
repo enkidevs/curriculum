@@ -1,4 +1,4 @@
-# Splice
+---
 author: alexjmackey
 
 levels:
@@ -7,17 +7,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
 
 links:
 
-  - >-
-    [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/splice){website}
+  - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/splice){website}'
+
+inAlgoPool:
 
 ---
 ## Content
+# Splice
 
 Splice is a very useful array function that allows you to add and remove items to an array.
 
@@ -56,6 +57,7 @@ Remove the `4th` and `5th` elements from the array:
 ```
 myArray.???(3, ???)
 ```
+
 * `splice`
 * `2`
 * `slice`
@@ -74,9 +76,11 @@ How would you remove the first element in the array using `splice`?
 myArray.???(???, ???);
 ```
 
+
 * `splice`
 * `0`
 * `1`
 * `2`
 * `remove`
 * `slice`
+

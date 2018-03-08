@@ -1,4 +1,4 @@
-# `hasOwnProperty` method
+---
 author: pawel
 
 levels:
@@ -11,15 +11,15 @@ type: normal
 
 category: feature
 
-notes: ''
 
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty){website}'
 
+notes: 
 ---
 ## Content
+# `hasOwnProperty` method
 
 The `hasOwnProperty` method returns a boolean indicating whether the object has the specified property.
 
@@ -64,6 +64,7 @@ tricky();
 enki.hasOwnProperty('practiceQuestion');
 ```
 
+
 * True, False, False
 * True, False, True
 * True, True, False
@@ -76,6 +77,8 @@ enki.hasOwnProperty('practiceQuestion');
 
  ???
 
-*obj hasn’t got ‘prop’ as property
-*obj has the property
-*obj has the property and its value is null
+
+* obj hasn’t got ‘prop’ as property
+* obj has the property
+* obj has the property and its value is null
+

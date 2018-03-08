@@ -1,4 +1,4 @@
-# `npm` verifies `sha1` hashes of packages
+---
 author: catalin
 
 levels:
@@ -13,10 +13,12 @@ type: normal
 
 category: feature
 
-parent: check-data-about-a-package
 
+
+parent: check-data-about-a-package
 ---
 ## Content
+# `npm` verifies `sha1` hashes of packages
 
 When your *Node.js* app is compiled with **openssl crypto** support, `npm` package manager  provides automatic  **checksumming** support.
 
@@ -29,3 +31,4 @@ They are also verified after they are downloaded by other users.
 In case an error occurs during downloading, or if something gets corrupted in transit, `npm` will **refuse to proceed** with the installation.
 
 Checksumming in `npm` is completely silent and provides another layer of security for all packages.
+

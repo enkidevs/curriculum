@@ -1,21 +1,26 @@
-# Environmental Variables
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: feature
 
-parent: available-binaries-for-scripting
 
+
+parent: available-binaries-for-scripting
 ---
 ## Content
+# Environmental Variables
 
 Another feature of npm is allowing the user to set values which would be seen as *environmental variables* in *scripts*. All re-used values should be declared inside the *config* object:
 ```javascript
@@ -59,6 +64,7 @@ Keep in mind, however, that the environmental variables in Windows are invoked u
 The prefix needed to invoke preconfigured values is:
 
 ???
+
 * `$npm_package_config_`
 * `npm_package_config_`
 * `npm_package_config`
@@ -71,8 +77,10 @@ You can override the local value of an environmental variable by running:
 ```
 $ npm ??? ??? ??? newValue
 ```
+
 * `config`
 * `set`
 * `packageName:property`
 * `property`
 * `-s`
+

@@ -1,4 +1,4 @@
-# Self-closing tags in **JSX**
+---
 author: catalin
 
 levels:
@@ -11,10 +11,12 @@ type: normal
 
 category: must-know
 
-parent: custom-proptype-s-to-be-required
 
+
+parent: custom-proptype-s-to-be-required
 ---
 ## Content
+# Self-closing tags in **JSX**
 
 **JSX** is a JavaScript syntax extension that is widely used together with **React**, even though plain JavaScript can also be used.
 
@@ -45,6 +47,7 @@ Which of the following tags is a self closing tag? ???
 // Option B
 <tag/>
 ```
+
 * Option B
 * Option A
 * Neither of them..
@@ -56,6 +59,8 @@ Does **JSX** support self closing tags?
 
 ???
 
-*`yes`
-*`no`
-*`depends`
+
+* `yes`
+* `no`
+* `depends`
+

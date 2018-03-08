@@ -1,4 +1,4 @@
-# No block scope
+---
 author: adamMontgomerie
 
 levels:
@@ -15,16 +15,16 @@ tags:
 
   - scope
 
+
 links:
 
-  - >-
-    [learnxinyminutes.com](http://learnxinyminutes.com/docs/javascript/){website}
+  - '[learnxinyminutes.com](http://learnxinyminutes.com/docs/javascript/){website}'
+  - '[stackoverflow.com](http://stackoverflow.com/questions/500431/what-is-the-scope-of-variables-in-javascript){website}'
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/500431/what-is-the-scope-of-variables-in-javascript){website}
 
 ---
 ## Content
+# No block scope
 
 Functions have their own scopes, however most other blocks do not.
 ```
@@ -64,8 +64,10 @@ function bar() {
   alert(a); // ???
 }
 ```
-*0
-*1
-*2
-*3
-*undefined
+
+* 0
+* 1
+* 2
+* 3
+* undefined
+

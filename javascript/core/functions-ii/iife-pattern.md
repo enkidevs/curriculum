@@ -1,4 +1,4 @@
-# IIFE pattern
+---
 author: rosielowther
 
 levels:
@@ -13,19 +13,17 @@ type: normal
 
 category: best practice
 
+
 links:
 
-  - >-
-    [benalman.com](http://benalman.com/news/2010/11/immediately-invoked-function-expression/){website}
+  - '[benalman.com](http://benalman.com/news/2010/11/immediately-invoked-function-expression/){website}'
+  - '[stackoverflow.com](http://stackoverflow.com/questions/592396/what-is-the-purpose-of-a-self-executing-function-in-javascript){website}'
+  - '[markdalgleish.com](http://markdalgleish.com/2011/03/self-executing-anonymous-functions/){website}'
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/592396/what-is-the-purpose-of-a-self-executing-function-in-javascript){website}
-
-  - >-
-    [markdalgleish.com](http://markdalgleish.com/2011/03/self-executing-anonymous-functions/){website}
 
 ---
 ## Content
+# IIFE pattern
 
 The **Immediately Invoked Function Expression pattern** (**IIFE** or "iffy") is a function expression (either named or anonymous) that is immediately called. 
 
@@ -63,11 +61,12 @@ For example:
 
 A use case of the IIFE pattern is to wrap the whole code in an IIFE and pass in the ??? object. This could be given an alias of ???. Global public properties could then be made accessible.
 
-*`window` 
-*`global` 
-*`modal` 
-*`new` 
-*`returned`
+
+* `window` 
+* `global` 
+* `modal` 
+* `new` 
+* `returned`
 
 ---
 ## Revision
@@ -79,10 +78,12 @@ What's the syntax of an **IIFE** ?
 }???);
 ```
 
-*`function`
-*`()`
-*`{}`
-*`(`
-*`)`
-*`name`
-*`call`
+
+* `function`
+* `()`
+* `{}`
+* `(`
+* `)`
+* `name`
+* `call`
+
