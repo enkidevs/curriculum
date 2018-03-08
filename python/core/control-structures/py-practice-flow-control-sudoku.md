@@ -1,4 +1,4 @@
-# Python control structures exercises
+# Exercises control structures solving a sudoku
 author: SebaRaba
 
 levels:
@@ -30,29 +30,5 @@ standards:
   py.control-structures.2: 2000
   py.control-structures.3: 3000
   py.control-structures.4: 5000
-### Question
-Practice flow control `structures` in python.
-
----
-## Exercises
-codewars-link: https://www.codewars.com/kata/unique-sum
-standards:
-  py.control-structures.0: 1000
-  py.control-structures.1: 2000
-  py.control-structures.2: 2000
-  py.control-structures.4: 5000
-### Question
-Practice flow control `structures` in python.
-
----
-## Exercises
-codewars-link: https://www.codewars.com/kata/coding-meetup-number-17-higher-order-functions-series-sort-by-programming-language
-standards:
-  py.control-structures.0: 1000
-  py.control-structures.1: 2000
-  py.control-structures.2: 2000
-  py.control-structures.3: 3000
-  py.control-structures.4: 5000
-
 ### Question
 Practice flow control `structures` in python.
