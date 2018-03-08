@@ -1,4 +1,4 @@
-# Sort Function Practice 2
+# JS Practice Sort 2
 author: milesflo
 
 levels:

@@ -1,4 +1,4 @@
-# Sort Function Practice 1
+# JS Practice Default Parameters
 author: milesflo
 
 levels:

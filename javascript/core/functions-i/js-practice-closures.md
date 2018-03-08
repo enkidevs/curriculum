@@ -1,4 +1,4 @@
-# Closures Practice
+# JS Practice Closures
 author: milesflo
 
 levels:

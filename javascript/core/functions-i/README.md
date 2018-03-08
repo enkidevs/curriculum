@@ -15,3 +15,8 @@ insights:
   - function-arguments
   - access-a-function-s-arguments-as-an-array
 
+exercises:
+  - js-practice-sort-i
+  - js-practice-sort-ii
+  - js-practice-default-parameters
+  - js-practice-closures
