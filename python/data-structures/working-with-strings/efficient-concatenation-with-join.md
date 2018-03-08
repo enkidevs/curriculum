@@ -1,4 +1,4 @@
-# Efficient concatenation with *join()*
+---
 author: Aaron7Sun
 
 levels:
@@ -17,10 +17,12 @@ tags:
 
   - speed-up-code
 
-notes: ''
 
+
+notes: 
 ---
 ## Content
+# Efficient concatenation with *join()*
 
 Strings in Python are immutable. The advantage is that strings can be directly used as keys in dictionaries, and string copies can be shared among multiple variable bindings. But the disadvantage is that if you want to amend something in a existing string, then you have to create a new one. This leads to significant inefficiencies:
 
@@ -49,3 +51,4 @@ slist = [some_function(elt) \
     for elt in somelist]
 s = "".join(slist)
 ```
+

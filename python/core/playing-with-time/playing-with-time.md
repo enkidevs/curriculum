@@ -1,4 +1,4 @@
-# Playing with `time`
+---
 author: catalin
 
 levels:
@@ -9,21 +9,20 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: feature
 
-notes: >
-  Corrected earlier issue with not saving, and updated the insight with my
-  changes.
+inAlgoPool: false
+
 
 links:
 
-  - >-
-    [www.tutorialspoint.com](http://www.tutorialspoint.com/python/python_date_time.htm){website}
+  - '[www.tutorialspoint.com](http://www.tutorialspoint.com/python/python_date_time.htm){website}'
+
+notes: Corrected earlier issue with not saving, and updated the insight with my changes.
 
 ---
 ## Content
+# Playing with `time`
 
 The `time` module is widely used for time manipulation, representation and conversion.
 
@@ -91,6 +90,7 @@ print(formatted)
 
 ```
 
+
 * `time`
 * `time()`
 * `localtime`
@@ -112,6 +112,7 @@ Supposing all required `import`s are resolved before, complete the following scr
 print(???(???())
 ```
 
+
 * `localtime`
 * `time`
 * `asctime`
@@ -120,3 +121,4 @@ print(???(???())
 * `current`
 * `time_struct`
 * `struct_time`
+

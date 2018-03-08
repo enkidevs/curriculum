@@ -1,4 +1,4 @@
-# Special `queue` methods
+---
 author: catalin
 
 levels:
@@ -9,15 +9,15 @@ type: normal
 
 category: feature
 
-parent: a-thread-safe-queue
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/queue.html#queue-objects){website}
+  - '[docs.python.org](https://docs.python.org/3.5/library/queue.html#queue-objects){website}'
 
+parent: a-thread-safe-queue
 ---
 ## Content
+# Special `queue` methods
 
 All `queue` objects (`Queue` , `LifoQueue` and `PriorityQueue`) provide a plethora of public methods useful in many scenarios.
 
@@ -64,10 +64,11 @@ Check if queue `e` is full:
 ```
 print(e.???()) 
 ```
-*`full` 
-*`!space` 
-*`max` 
-*`complete`
+
+* `full` 
+* `!space` 
+* `max` 
+* `complete`
 
 ---
 ## Revision
@@ -77,8 +78,10 @@ Declare a queue with a limit of 5 elements:
 ```
 q = ???.???(5)
 ```
-*`queue` 
-*`Queue` 
-*`new` 
-*`instance` 
-*`create`
+
+* `queue` 
+* `Queue` 
+* `new` 
+* `instance` 
+* `create`
+

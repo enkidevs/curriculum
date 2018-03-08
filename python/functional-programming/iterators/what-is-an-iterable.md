@@ -1,4 +1,4 @@
-# What Is an Iterable?
+---
 author: stefkn
 
 levels:
@@ -13,15 +13,18 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[A slower, more detailed explanation](https://stackoverflow.com/a/18744706)'
-  - '[Double-underscores in Python](https://dbader.org/blog/meaning-of-underscores-in-python)'
-  - '[Iterables vs. Iterators vs. Generators](http://nvie.com/posts/iterators-vs-generators/)'
-  - '[OOP Parents and Children](http://www.htmlcenter.com/blog/object-oriented-programming-parents-and-children/)'
+  - '[A slower, more detailed explanation](https://stackoverflow.com/a/18744706){website}'
+  - '[Double-underscores in Python](https://dbader.org/blog/meaning-of-underscores-in-python){website}'
+  - '[Iterables vs. Iterators vs. Generators](http://nvie.com/posts/iterators-vs-generators/){website}'
+  - '[OOP Parents and Children](http://www.htmlcenter.com/blog/object-oriented-programming-parents-and-children/){website}'
+
 
 ---
 ## Content
+# What Is an Iterable?
 
 **Iteration** is the process of taking one element at a time from a collection of elements.
 
@@ -50,6 +53,7 @@ Which of the objects below are `iterable`?
 
 ???
 
+
 * Sequence types (`list`, `str`, `tuple`...)
 * Collection types
 * Any custom classes
@@ -64,6 +68,7 @@ What is the difference between `__getitem__()` and `__iter__()`?
 
 ???
 
+
 * `__getitem__()` is for indexed lookup, `__iter__()` returns an iterator
 * `__getitem__()` returns the item, `__iter__()` returns an iterator
 * `__getitem__()` is for indexed lookup, `__iter__()` returns an iterable
@@ -71,7 +76,6 @@ What is the difference between `__getitem__()` and `__iter__()`?
 
 ---
 ## Footnotes
-
 [1:Parent and Child objects]
 This is not to be confused with the concept of parents/children in Object-Oriented Programming, which is slightly different, semantically. In OOP, the concept of parent and children objects usually refers to the concept of **inheritance**, where the features of a parent class are inherited by its children. For more information, please see 'OOP Parents and Children' in the 'Learn More' section.
 

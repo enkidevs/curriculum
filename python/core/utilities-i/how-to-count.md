@@ -1,4 +1,4 @@
-# How to count
+---
 author: catalin
 
 levels:
@@ -11,16 +11,15 @@ type: normal
 
 category: how to
 
-notes: >-
-  Insight is correct, But should give a few examples of common counter methods
-  like most_common(), elements(), etc.
 
 links:
 
   - '[pymotw.com](https://pymotw.com/2/collections/counter.html){website}'
 
+notes: Insight is correct, But should give a few examples of common counter methods like most_common(), elements(), etc.
 ---
 ## Content
+# How to count
 
 Python's `collection` module provides the `Counter` class - a container used for keeping track of the frequencies or counts of values in some data. It's a dict subclass with more features.
 
@@ -73,10 +72,11 @@ Which method is used to find the most common occurrence in a counter?
 
 ???
 
-*`most_common(n)` 
-*`most-common(n)` 
-*`common(n)` 
-*`common-item(n)`
+
+* `most_common(n)` 
+* `most-common(n)` 
+* `common(n)` 
+* `common-item(n)`
 
 ---
 ## Revision
@@ -88,9 +88,11 @@ e = ???()
 e.???(“enki”)
 ```
 
-*`Counter` 
-*`update` 
-*`new-counter` 
-*`new_counter` 
-*`add` 
-*`add_counter`
+
+* `Counter` 
+* `update` 
+* `new-counter` 
+* `new_counter` 
+* `add` 
+* `add_counter`
+

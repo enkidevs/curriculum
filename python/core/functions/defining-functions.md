@@ -1,4 +1,4 @@
-# Defining Functions
+---
 author: tommarshall
 
 levels:
@@ -7,16 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[anh.cs.luc.edu](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/functions.html){website}'
 
+
 ---
 ## Content
+# Defining Functions
 
 Functions allow you to split up your code into relevant blocks, they allow code to be ordered and to be more readable.
 
@@ -57,6 +60,7 @@ def function 4()
 ```
 ???
 
+
 * `Function 1`
 * `Function 2`
 * `Function 3`
@@ -68,6 +72,8 @@ def function 4()
 What keyword is used to define a new function?
 ???
 
+
 * `def`
 * `new`
 * `func`
+

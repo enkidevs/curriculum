@@ -1,4 +1,4 @@
-# String Operations
+---
 author: tommarshall
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# String Operations
 
 Strings are bits of text either defined with 'single' or "double" quotations. Python has a number of build in methods which perform a variety of operations on strings.
 
@@ -61,6 +65,7 @@ Complete the code snippet to return the number of occurrences of the letter `p`:
 str = 'laptop'
 print(str.???('p'))
 ```
+
 * `count`
 * `occur`
 * `num`
@@ -75,6 +80,8 @@ str = 'Revision Questions'
 
 words = str.???(' ')
 ```
+
 * `split`
 * `divide`
 * `new`
+

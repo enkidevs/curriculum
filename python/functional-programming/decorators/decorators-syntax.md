@@ -1,4 +1,4 @@
-# Decorators syntax
+---
 author: mihaiberq
 
 levels:
@@ -9,8 +9,12 @@ type: normal
 
 category: feature
 
+
+
+
 ---
 ## Content
+# Decorators syntax
 
 Now that you are familiar with the concept of decorators, we can talk about ways you'll see them in practice. With regard to syntax, Python specific decorator's symbol is `@`. Looking at the previous example:  
 ```python
@@ -110,12 +114,12 @@ def foo():
 
 ```
 ???
+
 * C
 * D
 * A
 * B
 * they are all valid
-
 
 ---
 ## Revision
@@ -138,8 +142,10 @@ def decorator():
     ...
 ```
 ???
+
 * D
 * C
 * A
 * B
 * they are all valid
+

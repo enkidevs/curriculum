@@ -1,4 +1,4 @@
-# Math for complex numbers
+---
 author: catalin
 
 levels:
@@ -9,16 +9,19 @@ levels:
 
 type: normal
 
+category: tip
+
 inAlgoPool: false
 
-category: tip
 
 links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/cmath.html){website}'
 
+
 ---
 ## Content
+# Math for complex numbers
 
 Another module for mathematical operations is available by default in Python. `cmath` is specialised for operations on complex numbers.
 
@@ -71,12 +74,13 @@ import cmath
 z = 7 + 1???
 print(z.???)
 ```
-*`j` 
-*`imag` 
-*`imaginary` 
-*`i` 
-*`cmath` 
-*`complex`
+
+* `j` 
+* `imag` 
+* `imaginary` 
+* `i` 
+* `cmath` 
+* `complex`
 
 ---
 ## Revision
@@ -87,8 +91,10 @@ import ???
 z = ???(2, 4)
 ```
 
-*`cmath` 
-*`complex` 
-*`c` 
-*`math` 
-*`create`
+
+* `cmath` 
+* `complex` 
+* `c` 
+* `math` 
+* `create`
+

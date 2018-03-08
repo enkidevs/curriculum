@@ -1,4 +1,4 @@
-# Operations with `bytes` and `bytearray`
+---
 author: catalin
 
 levels:
@@ -13,17 +13,15 @@ type: normal
 
 category: feature
 
-parent: bytes-type
-
-notes: ''
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#bytes-and-bytearray-operations){website}
+  - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#bytes-and-bytearray-operations){website}'
 
+parent: bytes-typenotes: 
 ---
 ## Content
+# Operations with `bytes` and `bytearray`
 
 Both `bytes` and `bytearray` support **common** special operations not only with operand of the same type, but with any **bytes-like** objects.
 
@@ -73,10 +71,11 @@ Create a copy of the bytes 0 filled to a specified width:
 b'00019'
 ```
 
-*`zfill`
-*`fill0`
-*`zero-fill`
-*`zerofill`
+
+* `zfill`
+* `fill0`
+* `zero-fill`
+* `zerofill`
 
 ---
 ## Revision
@@ -88,7 +87,9 @@ Check if all the bytes in the sequence are ASCII alphanumeric characters:
 True
 ```
 
-*`isalnum`
-*`isalphanum`
-*`isalpnum`
-*`isnum`
+
+* `isalnum`
+* `isalphanum`
+* `isalpnum`
+* `isnum`
+

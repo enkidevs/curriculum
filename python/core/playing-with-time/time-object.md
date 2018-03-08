@@ -1,4 +1,4 @@
-# `date` and `time` in `datetime`
+---
 author: catalin
 
 levels:
@@ -9,21 +9,20 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: feature
 
-parent: datetime-module
+inAlgoPool: false
 
 
 links:
 
-  - "[docs.python.org](https://docs.python.org/3.5/library/datetime.html#time-objects){website}"
+  - '[docs.python.org](https://docs.python.org/3.5/library/datetime.html#time-objects){website}'
+  - '[pymotw.com](https://pymotw.com/3/datetime/){website}'
 
-  - "[pymotw.com](https://pymotw.com/3/datetime/){website}"
-
+parent: datetime-module
 ---
 ## Content
+# `date` and `time` in `datetime`
 
 In the `datetime` module the `time` class is used to represent time values, while the `date` class provides support for calendar date values.
 
@@ -91,6 +90,7 @@ my_date = date.today()
 print(my_date) # 2017-06-27
 print(my_date.replace(1986)) # 1986-06-27
 ```
+
 ---
 ## Practice
 
@@ -108,6 +108,7 @@ print(d.???) # 12
 print(d.???) # 727191
 
 ```
+
 
 * `datetime`
 * `datetime`
@@ -132,6 +133,7 @@ from datetime import date
 current = ???
 ```
 
+
 * `date.today()`
 * `date()`
 * `current()`
@@ -140,6 +142,5 @@ current = ???
 
 ---
 ## Footnotes
-
 [1:proleptic Georgian calendar]
 The proleptic Gregorian calendar is produced by extending the Gregorian calendar backward with negative values to dates preceding its official introduction in **1582**.

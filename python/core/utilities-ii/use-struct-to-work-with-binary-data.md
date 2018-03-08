@@ -1,4 +1,4 @@
-# Use `struct` to work with Binary Data
+---
 author: catalin
 
 levels:
@@ -11,19 +11,15 @@ type: normal
 
 category: feature
 
-notes: >-
-  There should be an explanation of the output of the struct.pack example that
-  is shown. It is not obvious to a new reader. Also a few more examples of
-  packing and unpacking other data types should be shown. Should mention that is
-  useful for reading and writing binary files, and converting between binary
-  data and text data formats.
 
 links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/struct.html){website}'
 
+notes: There should be an explanation of the output of the struct.pack example that is shown. It is not obvious to a new reader. Also a few more examples of packing and unpacking other data types should be shown. Should mention that is useful for reading and writing binary files, and converting between binary data and text data formats.
 ---
 ## Content
+# Use `struct` to work with Binary Data
 
 Python's `struct` module has routines for converting between binary and text data, in both directions. 
 
@@ -61,13 +57,14 @@ Return the size of the `struct` given:
 >>> ???.???(‘hhl’)
 8
 ```
-*`struct`
-*`calcsize`
-*`size`
-*`s`
-*`get_size`
-*`pack`
-*`unpack`
+
+* `struct`
+* `calcsize`
+* `size`
+* `s`
+* `get_size`
+* `pack`
+* `unpack`
 
 ---
 ## Revision
@@ -78,8 +75,10 @@ What method should be used in the following code snippet to get a `bytes` object
 b'\x03\x00\r\x00*\x00\x00\x00'
 ```
 
-*`pack`
-*`unpack`
-*`struct`
-*`bytes`
-*`calcsize`
+
+* `pack`
+* `unpack`
+* `struct`
+* `bytes`
+* `calcsize`
+

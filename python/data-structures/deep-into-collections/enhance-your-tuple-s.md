@@ -1,4 +1,4 @@
-# Enhance your `tuple`s
+---
 author: catalin
 
 levels:
@@ -13,58 +13,41 @@ type: normal
 
 category: feature
 
-parent: get-more-with-collections
-
-notes: >+
-  Issues found:
-
-
-  This line early in the code:
-
-
-  point = namedtuple('3DPoint', 'x y z')
-
-
-  gives a syntax error because of 3Dpoint:
-
-
-  ValueError: Type names and field names must be valid identifiers: '3DPoint'
-
-
-  Fix it. 
-
-
-  Should also mention the benefits of named tuples and common / important uses,
-
-  such as for dealing with rows in CSV files or from database tables.
-
-  The attribute lookup feature and the helpful ways of printing named tuple 
-
-  values, should be mentioned (the docstring and the __repr__ method), either in
-  the same insight, or in another 
-
-  insight if this one becomes too long.
-
-
-  See:
-
-
-  https://docs.python.org/3.6/library/collections.html#collections.namedtuple
-
-
-  Can also mention in brief that Named tuple instances do not have per-instance
-  dictionaries, so they are lightweight and require no more memory than regular
-  tuples.
-
-
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/collections.html#chainmap-examples-and-recipes){website}
+  - '[docs.python.org](https://docs.python.org/3.5/library/collections.html#chainmap-examples-and-recipes){website}'
+
+parent: get-more-with-collectionsnotes: Issues found:
+
+This line early in the code:
+
+point = namedtuple('3DPoint', 'x y z')
+
+gives a syntax error because of 3Dpoint:
+
+ValueError: Type names and field names must be valid identifiers: '3DPoint'
+
+Fix it. 
+
+Should also mention the benefits of named tuples and common / important uses,
+such as for dealing with rows in CSV files or from database tables.
+The attribute lookup feature and the helpful ways of printing named tuple 
+values, should be mentioned (the docstring and the __repr__ method), either in the same insight, or in another 
+insight if this one becomes too long.
+
+See:
+
+https://docs.python.org/3.6/library/collections.html#collections.namedtuple
+
+Can also mention in brief that Named tuple instances do not have per-instance dictionaries, so they are lightweight and require no more memory than regular tuples.
+
+
+
 
 ---
 ## Content
+# Enhance your `tuple`s
 
 Standard Python `tuples` are lightweight sequences of immutable objects, yet their implementation may prove inconvenient in some scenarios.
 
@@ -114,13 +97,14 @@ print(p.???())
 #             ('b', 5), ('c', 2)]) 
 ```
 
-*`namedtuple` 
-*`_asdict` 
-*`named_tuple` 
-*`tuple_instance` 
-*`new` 
-*`asOrderedDict` 
-*`asDict`
+
+* `namedtuple` 
+* `_asdict` 
+* `named_tuple` 
+* `tuple_instance` 
+* `new` 
+* `asOrderedDict` 
+* `asDict`
 
 ---
 ## Revision
@@ -135,10 +119,12 @@ print(q)
 # Revision(a=10, b=5, c=2) 
 ```
 
-*`namedtuple` 
-*`question` 
-*`Revision` 
-*`print` 
-*`named_tuple` 
-*`new_named_tuple` 
-*`tuple_instance`
+
+* `namedtuple` 
+* `question` 
+* `Revision` 
+* `print` 
+* `named_tuple` 
+* `new_named_tuple` 
+* `tuple_instance`
+

@@ -1,4 +1,4 @@
-# `bytes` type
+---
 author: catalin
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#bytes){website}
+  - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#bytes){website}'
+
 
 ---
 ## Content
+# `bytes` type
 
 Python uses built-in **core types** for manipulating binary data. Such a type is the `bytes` object  - **immutable** sequences of single bytes.
 
@@ -61,6 +63,7 @@ Complete the output of the command run in the Python interactive shell:
 ???'\???\???'
 ```
 
+
 * `b`
 * `x00`
 * `x01`
@@ -73,5 +76,7 @@ Complete the output of the command run in the Python interactive shell:
 
 Bytes are ??? sequences of single bits.
 
+
 * `immutable`
 * `mutable`
+

@@ -1,4 +1,4 @@
-# Functional Particularities of Python
+---
 author: stefkn
 
 levels:
@@ -13,12 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[Functional Programming in Python](http://www.oreilly.com/programming/free/files/functional-programming-python.pdf)'
+  - '[Functional Programming in Python](http://www.oreilly.com/programming/free/files/functional-programming-python.pdf){website}'
+
 
 ---
 ## Content
+# Functional Particularities of Python
 
 In this insight we'll explore some of the paradigms of functional programming as applied to Python, specifically.
 
@@ -67,6 +70,7 @@ What keyword makes a function a generator?
 
 ???
 
+
 * `yield`
 * `return`
 * `break`
@@ -80,6 +84,7 @@ What are some of the key functional features of Python?
 
 ???
 
+
 * Generators & Comprehensions
 * Pure Functions & High-Level
 * Interpreted & Object-Oriented
@@ -88,7 +93,6 @@ What are some of the key functional features of Python?
 
 ---
 ## Footnotes
-
 [1:Iterators]
 Iterators are objects which return one value at a time from a collection of values. For example, an iterator traversing a list will return one element of the list at a time until it reaches the end of the list and throws a `StopIteration` exception. For more information, see the related insights relating to Python iteration.
 

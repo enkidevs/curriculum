@@ -1,4 +1,4 @@
-# Context manager types - `with`
+---
 author: catalin
 
 levels:
@@ -13,22 +13,17 @@ type: normal
 
 category: how to
 
-notes: >
-  The explanation of the custom context manager should preferably have an small
-  real-life example (which demonstrates the benefits of the feature), and also
-  explain the 3 arguments of the __exit__ method and how they can be used in the
-  surrounding code.
 
 links:
 
-  - >-
-    [preshing.com](http://preshing.com/20110920/the-python-with-statement-by-example/){website}
+  - '[preshing.com](http://preshing.com/20110920/the-python-with-statement-by-example/){website}'
+  - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#context-manager-types){website}'
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#context-manager-types){website}
+notes: The explanation of the custom context manager should preferably have an small real-life example (which demonstrates the benefits of the feature), and also explain the 3 arguments of the __exit__ method and how they can be used in the surrounding code.
 
 ---
 ## Content
+# Context manager types - `with`
 
 The **context manager** type is a Python feature to help work with unmanaged resources (e.g. file streams) which it is better to clean up or shutdown in an orderly manner after use, e.g. always closing a file after use).
 
@@ -86,6 +81,7 @@ with new_context_manager as custom_name
    # work with resources
 ```
 
+
 * `__enter__`
 * `__exit__`
 * `__close__`
@@ -102,8 +98,10 @@ What functionality does `with` carry in a `with context as name` block in Python
 
 ???
 
+
 * `try/except/finally`
 * It automatically cleans up the `context` resource after use.
 * It ensures that context object exists and if doesn't the compiler will throw an error.
 * `try/catch`
 * `exceptions`
+

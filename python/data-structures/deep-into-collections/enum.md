@@ -1,4 +1,4 @@
-# The `enum` collection
+---
 author: SebaRaba
 
 levels:
@@ -9,12 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[More on Enum](https://docs.python.org/3/library/enum.html)'
+  - '[More on Enum](https://docs.python.org/3/library/enum.html){website}'
+
 
 ---
 ## Content
+# The `enum` collection
 
 An **enum** (enumeration) is a set of constants that is meant to keep information organized. They are used mostly when a variable should take only a small set of possible values.
 
@@ -95,12 +98,12 @@ print(Shade.blue is Shade.green)
 ???
 ```
 
+
 * <enum 'Shade'>
 * False
 * <class 'Shade'>
 * True
 * <enum 'Shade.blue'>
-
 
 ---
 ## Revision
@@ -114,8 +117,10 @@ class Car(Enum):
 print(Car['bmw'])
 ???
 ```
+
 * Car.bmw
 * An error, it should be `Car('bmw')`
 * An error, strings and ints cannot be mixed
 * 1
 * bmw
+

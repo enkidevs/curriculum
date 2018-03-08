@@ -1,4 +1,4 @@
-# Simple way of swapping variables
+---
 author: Aaron7Sun
 
 levels:
@@ -13,8 +13,12 @@ type: normal
 
 category: tip
 
+
+
+
 ---
 ## Content
+# Simple way of swapping variables
 
 In most languages, swapping two variables requires a third variable or  arithmetic manipulations.
 
@@ -37,11 +41,12 @@ Complete the following snippet such that the variables are swapped, using tuple 
 (4, 3)
 ```
 
-*`e` 
-*`d` 
-*`swap` 
-*`switch` 
-*`a`
+
+* `e` 
+* `d` 
+* `swap` 
+* `switch` 
+* `a`
 
 ---
 ## Revision
@@ -54,6 +59,8 @@ What is the output of the following snippet?
 ???
 ```
 
-*`4, 5` 
-*`5, 4` 
-*`error`
+
+* `4, 5` 
+* `5, 4` 
+* `error`
+

@@ -1,4 +1,4 @@
-# Speed up your `for` loop using `map()` or list comprehensions
+---
 author: Aaron7Sun
 
 levels:
@@ -17,15 +17,15 @@ tags:
 
   - speed-up-code
 
-notes: ''
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/2/library/functions.html#map){website}
+  - '[docs.python.org](https://docs.python.org/2/library/functions.html#map){website}'
 
+notes: 
 ---
 ## Content
+# Speed up your `for` loop using `map()` or list comprehensions
 
 The `for` loop interpreter overhead can be huge. So here `map()` functions like a `for` loop in C code.  
 
@@ -48,3 +48,4 @@ lowerList = [word.lower() \
          for word in inputList]
 ```
 They are both more efficient than simple `for` loop statement.
+

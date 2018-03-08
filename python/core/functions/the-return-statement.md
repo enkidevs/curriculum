@@ -1,4 +1,4 @@
-# The `return` statement
+---
 author: tommarshall
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# The `return` statement
 
 Python's `return` statement exits a function and passes back an expression to the function caller. It's used to return the *flow of control* with an *output result* to the function call.
 
@@ -40,9 +44,11 @@ Return!
 
 Python’s return statement exits a function and passes back an ??? to the function caller. It’s used to return the ??? with an output result to the function call.
 
-*expression
-*flow of control
-*result
-*sum
-*instance
-*function instance
+
+* expression
+* flow of control
+* result
+* sum
+* instance
+* function instance
+

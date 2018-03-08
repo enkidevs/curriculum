@@ -1,4 +1,4 @@
-# Working with decimals
+---
 author: catalin
 
 levels:
@@ -9,20 +9,20 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: feature
 
-notes: Math modules workout
+inAlgoPool: false
+
 
 links:
 
   - '[pymotw.com](https://pymotw.com/2/decimal/){website}'
-
   - '[docs.python.org](https://docs.python.org/3.5/library/decimal.html){website}'
 
+notes: Math modules workout
 ---
 ## Content
+# Working with decimals
 
 Python's `decimal` module provides implementation of fixed and floating point arithmetic based on the model people are familiar with, instead of the *IEEE* version implemented by computers.
 
@@ -69,10 +69,11 @@ d = decimal.Decimal(“2.71”)
 print(d.???())
 ```
 
-*`log10` 
-*`log` 
-*`logarithm` 
-*`logarithm_10`
+
+* `log10` 
+* `log` 
+* `logarithm` 
+* `logarithm_10`
 
 ---
 ## Revision
@@ -83,8 +84,10 @@ import decimal
 a = ???.???(“6.42”)
 ```
 
-*`decimal` 
-*`Decimal` 
-*`d` 
-*`dec` 
-*`Object`
+
+* `decimal` 
+* `Decimal` 
+* `d` 
+* `dec` 
+* `Object`
+

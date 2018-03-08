@@ -1,4 +1,4 @@
-# Memory Allocation and Mutable Types
+---
 author: mihaiberq
 
 levels:
@@ -9,8 +9,12 @@ type: normal
 
 category: must-know
 
+
+
+
 ---
 ## Content
+# Memory Allocation and Mutable Types
 
 You also have access to *mutable types*: lists, dictionaries, classes and their instances etc. Consider the following code snippets that use the same `mem_loc()` function defined in the previous insight:
 ```python
@@ -77,6 +81,7 @@ b['key'] = 'mutable'
 print(a)
 ???
 ```
+
 * `{'key': 'mutable'}`
 * `{'key': 'value'}`
 * `{'key': 'value', 'key': 'mutable'}`
@@ -93,7 +98,9 @@ b.append(5)
 print(a)
 ???
 ```
+
 * `[5]`
 * `5`
 * `[]`
 * `a`
+

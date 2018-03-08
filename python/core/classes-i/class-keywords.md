@@ -1,4 +1,4 @@
-# Class Keywords
+---
 author: mihaiberq
 
 levels:
@@ -9,8 +9,12 @@ type: normal
 
 category: must-know
 
+
+
+
 ---
 ## Content
+# Class Keywords
 
 There are a number of essential keywords associated with Python classes.
 
@@ -38,7 +42,9 @@ class Employee:
 
 Independent functions are called ???
 
+
 * just functions
 * methods
 * attributes
 * objects
+

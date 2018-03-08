@@ -1,4 +1,4 @@
-# Class definition syntax
+---
 author: catalin
 
 levels:
@@ -13,24 +13,18 @@ type: normal
 
 category: must-know
 
-notes: >
-  Possible intro to classes/oop workout for beginners. 
-
-
-  Notes by Vasudev: The insight content is too small to stand alone. It should
-  be linked to other insights on the same topic. Also, there should be a few
-  examples given, of the definition of methods, and data members, and the calls
-  to methods and getting and settting of data members, whether in other (linked)
-  insights, or in this one. Probably not all in this one since it will exceed
-  the character limit,
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#a-first-look-at-classes){website}
+  - '[docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#a-first-look-at-classes){website}'
+
+notes: Possible intro to classes/oop workout for beginners. 
+
+Notes by Vasudev: The insight content is too small to stand alone. It should be linked to other insights on the same topic. Also, there should be a few examples given, of the definition of methods, and data members, and the calls to methods and getting and settting of data members, whether in other (linked) insights, or in this one. Probably not all in this one since it will exceed the character limit,
 
 ---
 ## Content
+# Class definition syntax
 
 Think of **classes** as *blueprints* for creating objects with data (members) and behaviors (methods). They just define **how** the actual instances are implemented.
 
@@ -57,17 +51,20 @@ class Enki:
 
 Method definition in a class is done with the help of ??? keyword.
 
-*`def` 
-*`pass` 
-*`return` 
-*`yield`
+
+* `def` 
+* `pass` 
+* `return` 
+* `yield`
 
 ---
 ## Revision
 
 You can create an empty class with the ??? keyword.
 
-*`pass` 
-*`return` 
-*`yield` 
-*`def`
+
+* `pass` 
+* `return` 
+* `yield` 
+* `def`
+

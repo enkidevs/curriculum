@@ -1,4 +1,4 @@
-# Nested Functions
+---
 author: tommarshall
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: tip
+
 inAlgoPool: false
 
-category: tip
+
+
 
 ---
 ## Content
+# Nested Functions
 
 Functions can be defined within the scope of other functions. Functions defined within other functions are known as *nested functions*.
 
@@ -56,6 +60,7 @@ outer(3)
 ```
 ???
 
+
 * `(3, 1)`
 * `(5, 3)`
 * `(3, 3,`
@@ -66,6 +71,8 @@ outer(3)
 
 A function is nested when it’s defined inside the ??? of another function.
 
+
 * scope
 * parentheses
 * enclosing class
+

@@ -1,4 +1,4 @@
-# There is more to copying
+---
 author: catalin
 
 levels:
@@ -11,14 +11,16 @@ type: normal
 
 category: must-know
 
+
 links:
 
   - '[www.python-course.eu](http://www.python-course.eu/deep_copy.php){website}'
-
   - '[docs.python.org](https://docs.python.org/3.5/library/copy.html){website}'
+
 
 ---
 ## Content
+# There is more to copying
 
 An **assignment** only creates a "binding" (an association) between a name and a "target" (object of some type). A  **copy** is sometimes necessary so you can change the value of one object without changing the other (when two names are pointing to the same object).
 ```python
@@ -67,6 +69,7 @@ Complete the code snippet to create a deep copy:
 from copy ??? deepcopy
 x = ???(y)
 ```
+
 * `import`
 * `deepcopy`
 * `inherit`
@@ -82,5 +85,7 @@ Why should we use `copy/deepcopy` rather than `B = A` in order to set *B* so tha
 
 ???
 
+
 * `=` doesn't create a copy of an object, it just makes *B* points to the same memory address as *A*, so when *B* is changed, *A* is changed too.
 * Python does not support `B = A` as you can not assign object references.
+

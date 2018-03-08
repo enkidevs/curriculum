@@ -1,4 +1,4 @@
-# Keep things in order with `OrderedDict`
+---
 author: catalin
 
 levels:
@@ -11,28 +11,23 @@ type: normal
 
 category: feature
 
-notes: >
-  Notes by Vasudev:
-
-
-  This line:
-
-
-  Another subclass of the `collections` module is the `OrderedDict`.
-
-
-  uses incorrect terms - OrderedDict is not a subclass of collections module but
-  a class in that module. And it is a subclass of dict.
 
 links:
 
   - '[pymotw.com](https://pymotw.com/2/collections/ordereddict.html){website}'
+  - '[docs.python.org](https://docs.python.org/3.5/library/collections.html#ordereddict-objects){website}'
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/collections.html#ordereddict-objects){website}
+notes: Notes by Vasudev:
+
+This line:
+
+Another subclass of the `collections` module is the `OrderedDict`.
+
+uses incorrect terms - OrderedDict is not a subclass of collections module but a class in that module. And it is a subclass of dict.
 
 ---
 ## Content
+# Keep things in order with `OrderedDict`
 
 Another class of the `collections` module is the `OrderedDict`, a subclass of `dict`. This class works just like the normal dictionary, but it remembers the order in which elements are added to it.
 
@@ -72,10 +67,11 @@ for k, v in b.items():
 
 In what order would an iteration over a regular dict produce its values? ???
 
-*Arbitrary
-*Ordered
-*Ascending
-*Descending
+
+* Arbitrary
+* Ordered
+* Ascending
+* Descending
 
 ---
 ## Revision
@@ -93,10 +89,12 @@ for k, v in e.???():
 
 # e E / n N / k K / i I 
 ```
-*`OrderedDict` 
-*`items` 
-*`dict` 
-*`print` 
-*`odict` 
-*`dictionary` 
-*`holds`
+
+* `OrderedDict` 
+* `items` 
+* `dict` 
+* `print` 
+* `odict` 
+* `dictionary` 
+* `holds`
+

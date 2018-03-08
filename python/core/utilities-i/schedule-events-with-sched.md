@@ -1,4 +1,4 @@
-# Schedule events with `sched`
+---
 author: catalin
 
 levels:
@@ -11,12 +11,15 @@ type: normal
 
 category: how to
 
+
 links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/sched.html){website}'
 
+
 ---
 ## Content
+# Schedule events with `sched`
 
 Another useful **Python** module is `sched` and it's used for general purpose event scheduling.
 
@@ -47,3 +50,4 @@ Then we run our scheduler:
 s.run()
 ```
 `first` is printed after 2 seconds while `second` is printed after 3 seconds.
+

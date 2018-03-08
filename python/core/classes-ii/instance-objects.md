@@ -1,4 +1,4 @@
-# Instance objects
+---
 author: catalin
 
 levels:
@@ -11,15 +11,15 @@ type: normal
 
 category: must-know
 
-notes: Multiple issues. Needs to be rewritten.
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#instance-objects){website}
+  - '[docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#instance-objects){website}'
 
+notes: Multiple issues. Needs to be rewritten.
 ---
 ## Content
+# Instance objects
 
 Instances are individual objects of a specific *Class*. For example, we might have the class `Color`, but with different instances: one for **red**, one for **blue**, etc.
 
@@ -64,6 +64,7 @@ enki = ???;
 ???.???;
 ```
 
+
 * `Enki()`
 * `enki`
 * `printEnki()`
@@ -84,5 +85,7 @@ max = Dog()
 max.age = 3
 ```
 ???
-*Yes
-*No
+
+* Yes
+* No
+

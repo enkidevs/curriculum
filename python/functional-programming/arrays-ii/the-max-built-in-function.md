@@ -1,4 +1,4 @@
-# The `max` Built-in Function
+---
 author: stefkn
 
 levels:
@@ -13,13 +13,16 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[Python max()](https://www.programiz.com/python-programming/methods/built-in/max)'
-  - '[Python 3.3 Documentation](https://docs.python.org/3.3/library/functions.html#max)'
+  - '[Python max()](https://www.programiz.com/python-programming/methods/built-in/max){website}'
+  - '[Python 3.3 Documentation](https://docs.python.org/3.3/library/functions.html#max){website}'
+
 
 ---
 ## Content
+# The `max` Built-in Function
 
 The `max` function returns the largest item in an iterable object, or, the largest of two or more parameters given to it. The general syntax follows the form:
 
@@ -87,6 +90,7 @@ print(???(queue1,
           key=lambda x: ???/???))
 ```
 
+
 * max
 * sum(x)
 * len(x)
@@ -106,6 +110,7 @@ print(max(list3))
 
 ???
 
+
 * TypeError
 * 'xyz'
 * 'zzz'
@@ -113,6 +118,5 @@ print(max(list3))
 
 ---
 ## Footnotes
-
 [1:Key]
 *This is exactly the same as the way keys are used in other built-in functions such as `sort` etc. For more information see the lesson on the `sorted` and `sort` functions.*

@@ -1,4 +1,4 @@
-# Using a `list` as a `stack`
+---
 author: catalin
 
 levels:
@@ -9,15 +9,15 @@ type: normal
 
 category: how to
 
-parent: built-in-list-methods
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#using-lists-as-stacks){website}
+  - '[docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#using-lists-as-stacks){website}'
 
+parent: built-in-list-methods
 ---
 ## Content
+# Using a `list` as a `stack`
 
 The `stack` abstract data type is widely used in all computer science. It basically serves as a collection where elements comes off based on the **LIFO** principle ( **last in**, **first out** ).
 
@@ -53,7 +53,9 @@ stack.pop()
 ```
 
 ???
+
 * `15`
 * `14` 
 * `10` 
 * There’s no output...
+

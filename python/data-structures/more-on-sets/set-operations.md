@@ -1,4 +1,4 @@
-# `set` operations
+---
 author: catalin
 
 levels:
@@ -9,20 +9,18 @@ type: normal
 
 category: feature
 
-parent: working-with-set-s
-
-notes: >+
-  This one should be listed in a workout before the `frozenset` insight (id:
-  56c47a58bb514406009a85ec )
-
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#set-types-set-frozenset){website}
+  - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#set-types-set-frozenset){website}'
+
+parent: working-with-set-snotes: This one should be listed in a workout before the `frozenset` insight (id: 56c47a58bb514406009a85ec )
+
+
 
 ---
 ## Content
+# `set` operations
 
 Apart from set operations such as union and intersection, Python's `set` has other useful operations:
  
@@ -73,12 +71,13 @@ Create a shallow copy of the set:
 pq = ???("Practice")
 practice_shallow = pq.???()
 ```
-*`set`
-*`copy`
-*`shallow`
-*`shallow_copy`
-*`shallow-copy`
-*`new_set`
+
+* `set`
+* `copy`
+* `shallow`
+* `shallow_copy`
+* `shallow-copy`
+* `new_set`
 
 ---
 ## Revision
@@ -91,11 +90,13 @@ enki.???('i')
 enki.???()
 ```
 
-*`set`
-*`add`
-*`clear`
-*`new`
-*`element`
-*`empty`
-*`delete`
-*`list`
+
+* `set`
+* `add`
+* `clear`
+* `new`
+* `element`
+* `empty`
+* `delete`
+* `list`
+

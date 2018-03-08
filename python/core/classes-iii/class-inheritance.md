@@ -1,4 +1,4 @@
-# Class inheritance
+---
 author: catalin
 
 levels:
@@ -11,23 +11,24 @@ type: normal
 
 category: must-know
 
-notes: |+
-  Code has errors and will not run. See mismatching class names in def and call:
-
-  class ExtendedEnki(Enki): #note base class
-      pi = 3.14
-  Now our child class inherits everything from its parent:
-
-  enki = EnkiExtended()
-
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#inheritance){website}
+  - '[docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#inheritance){website}'
+
+notes: Code has errors and will not run. See mismatching class names in def and call:
+
+class ExtendedEnki(Enki): #note base class
+    pi = 3.14
+Now our child class inherits everything from its parent:
+
+enki = EnkiExtended()
+
+
 
 ---
 ## Content
+# Class inheritance
 
 Class inheritance is easily achieved in Python following this syntax:
 ```python
@@ -79,6 +80,7 @@ Make `Maths` inherit `Subject` :
 ???
   credits = 15
 ```
+
 * `class Maths(Subject):`
 * `class Maths(Subject)`
 * `class Maths:Subject`
@@ -91,7 +93,9 @@ Check if `cClass` is a child of `pClass`:
 
 ???
 
+
 * issubclass(cClass,pClass)
 * issubclass(pClass,cClass)
 * ischild(cClass,pClass)
 * ischild(pClass,cClass)
+
