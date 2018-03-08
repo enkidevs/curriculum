@@ -17,7 +17,7 @@ insights:
 
 exercises:
   - js-practice-booleans
-  - js-practice-strings
   - js-practice-numbers
+  - js-practice-strings
   - js-practice-arrays
   - js-practice-objects
