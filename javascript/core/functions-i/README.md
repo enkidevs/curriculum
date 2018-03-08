@@ -14,3 +14,9 @@ insights:
   - immediately-invoked-function-expression-iife
   - function-arguments
   - access-a-function-s-arguments-as-an-array
+
+exercises:
+  - js-practice-bind
+  - js-practice-call
+  - js-practice-spreads
+  - js-practice-this
