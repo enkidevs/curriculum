@@ -1,4 +1,4 @@
-# For Loop Practice
+# JS Practice For Loops
 author: milesflo
 
 levels:

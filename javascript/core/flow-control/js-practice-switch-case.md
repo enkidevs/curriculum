@@ -1,4 +1,4 @@
-# Switch Case Practice
+# JS Practice Switch Case
 author: milesflo
 
 levels:

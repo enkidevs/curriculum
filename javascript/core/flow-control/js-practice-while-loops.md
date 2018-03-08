@@ -1,4 +1,4 @@
-# While Loop Practice
+# JS Practice While Loop
 author: milesflo
 
 levels:

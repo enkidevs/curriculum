@@ -1,4 +1,4 @@
-# If...Else Exercise
+# JS Practice If...Else
 author: milesflo
 
 levels:
