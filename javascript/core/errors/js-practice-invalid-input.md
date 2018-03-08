@@ -7,7 +7,7 @@ levels:
 
   - basic
 
-type: exerciseList
+type: exercise
 
 links:
 
