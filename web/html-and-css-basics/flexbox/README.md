@@ -8,3 +8,4 @@ insights:
   - flexbox-order
   - using-flex-grow
   - using-flex-shrink
+  - avoid-margin-hacks-with-flexbox

@@ -8,3 +8,5 @@ insights:
   - tracking-and-staging-files
   - merging
   - pushing
+
+game: git-erminology
