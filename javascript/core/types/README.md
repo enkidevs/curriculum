@@ -14,3 +14,10 @@ insights:
   - types-undefined-and-null
   - types-boolean-and-number
   - types-string
+
+exercises:
+  - js-practice-booleans
+  - js-practice-strings
+  - js-practice-numbers
+  - js-practice-arrays
+  - js-practice-objects
