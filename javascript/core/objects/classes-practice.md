@@ -1,26 +1,4 @@
-# Standard Library Practice
-author: milesflo
 
-levels:
-
-  - beginner
-
-  - basic
-
-type: exerciseList
-
-links:
-
-  - '[MDN - Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)'
-
----
-## Exercise
-codewars-link: https://www.codewars.com/kata/fun-with-es6-classes-number-1-people-people-people
-standards:
-    js.prototype-class.0: 1000
-    js.prototype-class.1: 1000
-### Question
-Implement a basic JavaScript Class on Code Wars
 
 ---
 ## Exercise
@@ -30,26 +8,6 @@ standards:
     js.prototype-inherit.1: 1000
 ### Question
 Practice JavaScript Class Inheritance on Code Wars
-
----
-## Exercise
-codewars-link: https://www.codewars.com/kata/fun-with-es6-classes-number-3-cuboids-cubes-and-getters
-standards:
-    js.prototype-class.0: 1000
-    js.prototype-class.1: 1000
-    js.prototype-class.2: 1000
-### Question
-Practice using JavaScript Class `getters` on Code Wars
-
----
-## Exercise
-codewars-link: https://www.codewars.com/kata/fun-with-es6-classes-number-4-cubes-and-setters
-standards:
-    js.prototype-class.0: 1000
-    js.prototype-class.1: 1000
-    js.prototype-class.2: 1000
-### Question
-Practice using JavaScript Class `setters` on Code Wars
 
 ---
 ## Exercise
