@@ -123,11 +123,24 @@ id | version_group_id |      name
 
 Given a table called `ability` from our pokemon database:
 
-id   | is_main_series | generation_id |      name
+id   | is_main_series | generation_id |      name      
+=====+================+===============+===============
+   1 | t              |             3 | stench
+   2 | f              |             3 | drizzle
+   3 | t              |             3 | speed=boost
+   4 | t              |             3 | battle-armor
+(...)
+
+
+It doesn't have a `PRIMARY KEY` set so far. Create an index to define `ability`'s primary key.
 ```
 
  ???
 
+* CREATE UNIQUE INDEX ability_pk ON ability(id ASC).
+* CREATE INDEX ability_pk ON ability(id ASC).
+* CREATE UNIQUE INDEX ability_pk ON ability(ability_id ASC).
+* CREATE INDEX ability_pk ON ability(name ASC).
 
 ---
 ## Footnotes

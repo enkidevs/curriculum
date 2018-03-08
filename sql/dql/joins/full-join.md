@@ -98,9 +98,41 @@ pokemon_type.type_id = type.id
 
 Given the tables called `location` and `location_area`:
 
-id  | region_id |     name
+id  | region_id |     name           
+====+===========+===============
+  1 |         4 | canalave-city
+  2 |         4 | eterna-city
+  3 |         4 | pastoria-city
+(...)
+
+id  | game_index | location_id |       name                      
+====+============+=============+====================
+  1 |          1 |           1 | canalave-city-area
+  2 |          2 |           2 | eterna-city-area
+  3 |          3 |           3 | pastoria-city-area
+  4 |          4 |           4 | sunyshore-city-area
+(...)
+
+
+Note that there are 6 regions, but not all locations belong to one of them. Get location id, game index and region id for all records. It doesn't matter whether there is no game index for a region or vice versa. The result should look like this:
+
+id  | game_index | region_id
+====+============+===========
+  1 |          1 |         4
+  2 |          2 |         4
+  3 |          3 |         4
+  (...)
+  21|          21|          
+  (...)
+    |          56|         
+  (...)
+  89|            |         6
 ```
 
  ???
 
+* SELECT location.id,location_area.game_index,location.region_id FROM location FULL OUTER JOIN location_area ON location.id = location_area.id;
+* SELECT location.id,location_area.game_index,location.region_id FROM location INNER JOIN location_area ON location.id = location_area.id;
+* SELECT location.id,location_area.game_index,location.region_id FROM location LEFT JOIN location_area ON location.id = location_area.id;
+* SELECT location.id,location_area.game_index,location.region_id FROM location RIGHT JOIN location_area ON location.id = location_area.id;
 

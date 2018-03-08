@@ -105,11 +105,22 @@ Suppose that `PRIMARY KEY` isn't set yet. Choose the query that will create a cl
 
 Consider the `pokemon` table from our pokemon database:
 
-  id   | order | height | weight | base_experience | pokemon_species_id |   name
+  id   | order | height | weight | base_experience | pokemon_species_id |   name          
+=======+=======+========+========+=================+====================+===========
+     1 |     1 |      7 |     69 |              64 |                  1 | bulbasaur
+     2 |     2 |     10 |    130 |             142 |                  2 | ivysaur
+     3 |     3 |     20 |   1000 |             236 |                  3 | venusaur
+(...)
+
+This table has thousands of entries and querying a pokemon's species is very slow. We need to speed up this common query. We want to create an index that will help us improve the efficiency of this data retrieval.
 ```
 
  ???
 
+* CREATE INDEX species_to_pokemon ON pokemon(pokemon_species_id);
+* CREATE UNIQUE INDEX species_to_pokemon ON pokemon(pokemon_species_id);
+* CREATE UNIQUE INDEX species_to_pokemon ON pokemon(id);
+* CREATE INDEX species_to_pokemon ON pokemon(weight);
 
 ---
 ## Footnotes

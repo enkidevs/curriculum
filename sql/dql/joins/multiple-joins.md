@@ -134,9 +134,35 @@ In order to join multiple tables together, subqueries must be used.
 
 Given the tables called `pokedex`, `version_group` and `pokedex_version_group`:
 
-id | is_main_series | region_id |       name
+id | is_main_series | region_id |       name       
+===+================+===========+==================
+ 1 | t              |           | national
+ 2 | t              |         1 | kanto
+ 3 | t              |         2 | original-johto
+ 4 | t              |         3 | hoenn
+
+(...)
+
+id | order | generation_id |           name            
+===+=======+===============+===========================
+ 1 |     1 |             1 | red-blue
+ 2 |     2 |             1 | yellow
+ 3 |     3 |             2 | gold-silver
+(...)
+
+id | pokedex_id | version_group_id
+===+============+==================
+ 1 |          2 |                1
+ 2 |          2 |                2
+ 3 |          2 |                7
+
+Get the names of pokedexes and version_groups using `pokedex_version_group` table. Do not include records that don't have both, pokedex and version_group :
 ```
 
  ???
 
+* SELECT pokedex.name, version_group.name FROM pokedex_version_group INNER JOIN pokedex ON pokedex_version_group.pokedex_id = pokedex.id INNER JOIN version_group ON pokedex_version_group.version_group_id = version_group.id;
+* SELECT pokedex.name, version_group.name FROM pokedex_version_group RIGHT JOIN pokedex ON pokedex_version_group.pokedex_id = pokedex.id LEFT JOIN version_group ON pokedex_version_group.version_group_id = version_group.id;
+* SELECT pokedex.name, version_group.name FROM pokedex_version_group FULL OUTER JOIN pokedex ON pokedex_version_group.pokedex_id = pokedex.id FULL OUTER JOIN version_group ON pokedex_version_group.version_group_id = version_group.id;
+* SELECT pokedex.name, version_group.name FROM pokedex_version_group LEFT JOIN pokedex ON pokedex_version_group.pokedex_id = pokedex.id RIGHT JOIN version_group ON pokedex_version_group.version_group_id = version_group.id;
 
