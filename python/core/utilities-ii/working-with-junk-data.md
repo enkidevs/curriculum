@@ -17,6 +17,7 @@ links:
   - '[docs.python.org](https://docs.python.org/2/library/difflib.html#sequencematcher-objects){website}'
 
 parent: compare-sequences-with-difflib
+
 ---
 ## Content
 # Working with junk data

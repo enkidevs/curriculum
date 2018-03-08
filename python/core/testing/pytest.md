@@ -16,6 +16,7 @@ links:
 
   - '[Learn more about pytest](https://semaphoreci.com/community/tutorials/testing-python-applications-with-pytest){website}'
 
+{}
 
 ---
 ## Content

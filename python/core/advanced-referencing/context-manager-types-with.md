@@ -19,7 +19,11 @@ links:
   - '[preshing.com](http://preshing.com/20110920/the-python-with-statement-by-example/){website}'
   - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#context-manager-types){website}'
 
-notes: The explanation of the custom context manager should preferably have an small real-life example (which demonstrates the benefits of the feature), and also explain the 3 arguments of the __exit__ method and how they can be used in the surrounding code.
+notes: >
+  The explanation of the custom context manager should preferably have an small
+  real-life example (which demonstrates the benefits of the feature), and also
+  explain the 3 arguments of the __exit__ method and how they can be used in the
+  surrounding code.
 
 ---
 ## Content

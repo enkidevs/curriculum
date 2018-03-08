@@ -19,6 +19,7 @@ links:
   - '[Python Reference: Data Model](https://docs.python.org/3/reference/datamodel.html){website}'
   - '[Blog post: Objects Should be Immutable](http://www.yegor256.com/2014/06/09/objects-should-be-immutable.html){website}'
 
+{}
 
 ---
 ## Content

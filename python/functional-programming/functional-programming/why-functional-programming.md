@@ -19,6 +19,7 @@ links:
   - '[Advantages Of Functional Programming](http://wiki.c2.com/?AdvantagesOfFunctionalProgramming){website}'
   - '[Functional Programming HOWTO](https://docs.python.org/2/howto/functional.html){website}'
 
+{}
 
 ---
 ## Content

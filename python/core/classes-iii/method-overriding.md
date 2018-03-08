@@ -18,9 +18,15 @@ links:
 
   - '[lgiordani.com](http://lgiordani.com/blog/2014/05/19/method-overriding-in-python/#.Vsx21JyLRhF){website}'
 
-notes: Again, preferably use other names for classes instead of words containing Enki all the time. More realistic names would help. E.g. Animal for the parent class and Bird for the child class. Also, then the output would make more sense, because it would say: "I am an animal." and then "I am a bird" - instead of "parent" and "child" which is slightly confusing to beginners.
+notes: >
+  Again, preferably use other names for classes instead of words containing Enki
+  all the time. More realistic names would help. E.g. Animal for the parent
+  class and Bird for the child class. Also, then the output would make more
+  sense, because it would say: "I am an animal." and then "I am a bird" -
+  instead of "parent" and "child" which is slightly confusing to beginners.
 
-Made the changes in the insight.
+
+  Made the changes in the insight.
 
 ---
 ## Content

@@ -16,7 +16,11 @@ links:
 
   - '[python-3-patterns-idioms-test.readthedocs.org](http://python-3-patterns-idioms-test.readthedocs.org/en/latest/Comprehensions.html#set-comprehensions){website}'
 
-parent: list-comprehensionnotes: Added the point that the list-to-set comprehension will work even if the list contains duplicates.
+parent: list-comprehension
+notes: >-
+  Added the point that the list-to-set comprehension will work even if the list
+  contains duplicates.
+
 ---
 ## Content
 # Set comprehension

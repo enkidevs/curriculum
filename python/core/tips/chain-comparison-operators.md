@@ -22,6 +22,7 @@ links:
 
   - '[stackoverflow.com](http://stackoverflow.com/questions/101268/hidden-features-of-python){website}'
 
+{}
 
 ---
 ## Content

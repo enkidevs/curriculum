@@ -16,6 +16,7 @@ links:
 
   - '[More on functional programming](https://codesachin.wordpress.com/2016/04/03/a-practical-introduction-to-functional-programming-for-python-coders/){website}'
 
+{}
 
 ---
 ## Content

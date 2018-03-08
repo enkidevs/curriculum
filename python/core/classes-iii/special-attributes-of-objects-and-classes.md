@@ -19,6 +19,7 @@ links:
   - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#special-attributes){website}'
   - '[MRO](http://python-history.blogspot.in/2010/06/method-resolution-order.html){website}'
 
+{}
 
 ---
 ## Content

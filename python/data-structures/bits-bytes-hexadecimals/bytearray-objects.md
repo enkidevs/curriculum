@@ -19,6 +19,7 @@ links:
   - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#bytearray-objects){website}'
 
 parent: bytes-type
+
 ---
 ## Content
 # `bytearray` objects

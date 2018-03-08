@@ -16,6 +16,7 @@ links:
 
   - '[More on doctests](https://docs.python.org/3/library/doctest.html){website}'
 
+{}
 
 ---
 ## Content

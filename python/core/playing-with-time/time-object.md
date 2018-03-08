@@ -20,6 +20,7 @@ links:
   - '[pymotw.com](https://pymotw.com/3/datetime/){website}'
 
 parent: datetime-module
+
 ---
 ## Content
 # `date` and `time` in `datetime`

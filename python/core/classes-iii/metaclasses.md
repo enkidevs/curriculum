@@ -16,6 +16,7 @@ links:
 
   - '[An in-depth analysis of metaclasses](https://blog.ionelmc.ro/2015/02/09/understanding-python-metaclasses/){website}'
 
+{}
 
 ---
 ## Content

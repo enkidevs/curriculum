@@ -15,13 +15,14 @@ links:
   - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#additional-methods-on-integer-types){website}'
   - '[en.wikipedia.org](https://en.wikipedia.org/wiki/Endianness){website}'
 
-notes: This line of output from a snippet in the insight:
+notes: |
+  This line of output from a snippet in the insight:
 
-11 # 555 in binary is 10000000000
+  11 # 555 in binary is 10000000000
 
-is incorrect. It should be:
+  is incorrect. It should be:
 
-11 # 1024 in binary is 10000000000
+  11 # 1024 in binary is 10000000000
 
 ---
 ## Content

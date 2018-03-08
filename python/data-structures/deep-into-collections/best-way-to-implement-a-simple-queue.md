@@ -14,7 +14,11 @@ links:
 
   - '[docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#using-lists-as-queues){website}'
 
-parent: double-ended-queues-with-dequenotes: Insight content is correct. But the deque class has about 15 methods. Suggest adding a few examples of use of other methods.
+parent: double-ended-queues-with-deque
+notes: >-
+  Insight content is correct. But the deque class has about 15 methods. Suggest
+  adding a few examples of use of other methods.
+
 ---
 ## Content
 # Best way to implement a simple `queue`

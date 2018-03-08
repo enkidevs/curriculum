@@ -18,7 +18,9 @@ links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#bytes-and-bytearray-operations){website}'
 
-parent: bytes-typenotes: 
+parent: bytes-type
+notes: ''
+
 ---
 ## Content
 # Operations with `bytes` and `bytearray`

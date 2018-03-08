@@ -18,6 +18,7 @@ links:
 
   - '[pymotw.com](https://pymotw.com/2/difflib/){website}'
 
+{}
 
 ---
 ## Content

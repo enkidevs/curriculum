@@ -17,13 +17,18 @@ links:
   - '[pymotw.com](https://pymotw.com/2/collections/ordereddict.html){website}'
   - '[docs.python.org](https://docs.python.org/3.5/library/collections.html#ordereddict-objects){website}'
 
-notes: Notes by Vasudev:
+notes: >
+  Notes by Vasudev:
 
-This line:
 
-Another subclass of the `collections` module is the `OrderedDict`.
+  This line:
 
-uses incorrect terms - OrderedDict is not a subclass of collections module but a class in that module. And it is a subclass of dict.
+
+  Another subclass of the `collections` module is the `OrderedDict`.
+
+
+  uses incorrect terms - OrderedDict is not a subclass of collections module but
+  a class in that module. And it is a subclass of dict.
 
 ---
 ## Content

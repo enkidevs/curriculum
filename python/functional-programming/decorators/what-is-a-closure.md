@@ -14,7 +14,8 @@ links:
 
   - '[More about higher-order functions](http://www.composingprograms.com/pages/16-higher-order-functions.html){website}'
 
-notes: prerequisites: scoping
+notes: 'prerequisites: scoping'
+
 ---
 ## Content
 # What Are Higher-Order Functions?

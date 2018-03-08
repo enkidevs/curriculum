@@ -15,6 +15,7 @@ links:
   - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#additional-methods-on-float){website}'
 
 notes: abc
+
 ---
 ## Content
 # Get the most of `float`s

@@ -17,6 +17,7 @@ links:
   - '[docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#nested-list-comprehensions){website}'
 
 parent: list-comprehension
+
 ---
 ## Content
 # Nested lists comprehension

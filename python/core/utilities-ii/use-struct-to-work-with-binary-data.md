@@ -16,7 +16,13 @@ links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/struct.html){website}'
 
-notes: There should be an explanation of the output of the struct.pack example that is shown. It is not obvious to a new reader. Also a few more examples of packing and unpacking other data types should be shown. Should mention that is useful for reading and writing binary files, and converting between binary data and text data formats.
+notes: >-
+  There should be an explanation of the output of the struct.pack example that
+  is shown. It is not obvious to a new reader. Also a few more examples of
+  packing and unpacking other data types should be shown. Should mention that is
+  useful for reading and writing binary files, and converting between binary
+  data and text data formats.
+
 ---
 ## Content
 # Use `struct` to work with Binary Data

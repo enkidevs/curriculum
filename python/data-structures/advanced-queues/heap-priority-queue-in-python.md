@@ -16,6 +16,7 @@ links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/heapq.html){website}'
 
+{}
 
 ---
 ## Content

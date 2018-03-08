@@ -18,6 +18,7 @@ links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/functions.html){website}'
 
+{}
 
 ---
 ## Content

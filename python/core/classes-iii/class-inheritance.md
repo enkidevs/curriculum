@@ -16,13 +16,14 @@ links:
 
   - '[docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#inheritance){website}'
 
-notes: Code has errors and will not run. See mismatching class names in def and call:
+notes: |+
+  Code has errors and will not run. See mismatching class names in def and call:
 
-class ExtendedEnki(Enki): #note base class
-    pi = 3.14
-Now our child class inherits everything from its parent:
+  class ExtendedEnki(Enki): #note base class
+      pi = 3.14
+  Now our child class inherits everything from its parent:
 
-enki = EnkiExtended()
+  enki = EnkiExtended()
 
 
 

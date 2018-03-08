@@ -14,7 +14,10 @@ links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#set-types-set-frozenset){website}'
 
-parent: working-with-set-snotes: This one should be listed in a workout before the `frozenset` insight (id: 56c47a58bb514406009a85ec )
+parent: working-with-set-s
+notes: >+
+  This one should be listed in a workout before the `frozenset` insight (id:
+  56c47a58bb514406009a85ec )
 
 
 

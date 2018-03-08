@@ -16,6 +16,7 @@ links:
 
   - '[is operator](http://stackoverflow.com/questions/13650293/understanding-pythons-is-operator){website}'
 
+{}
 
 ---
 ## Content

@@ -18,7 +18,8 @@ links:
 
   - '[pymotw.com](https://pymotw.com/2/pprint/){website}'
 
-notes: 
+notes: ''
+
 ---
 ## Content
 # Pretty print data structures

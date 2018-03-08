@@ -20,6 +20,7 @@ links:
   - '[Lambda, filter, reduce and map](http://www.python-course.eu/lambda.php){website}'
   - '[9 Python Filter Function and List Comprehension Examples](http://www.thegeekstuff.com/2014/05/python-filter-and-list){website}'
 
+{}
 
 ---
 ## Content

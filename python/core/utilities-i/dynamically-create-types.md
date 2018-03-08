@@ -29,6 +29,7 @@ links:
   - '[docs.python.org](https://docs.python.org/3/library/functions.html#type){website}'
 
 notes: this should be linked to python metaclasses insight
+
 ---
 ## Content
 # Dynamically create types

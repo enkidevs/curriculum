@@ -16,6 +16,7 @@ category: how to
 
 
 parent: compare-sequences-with-difflib
+
 ---
 ## Content
 # Get the similarity ratio of two sequences

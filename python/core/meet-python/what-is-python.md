@@ -16,6 +16,7 @@ links:
 
   - '[www.python.org](https://www.python.org/doc/essays/comparisons/){website}'
 
+{}
 
 ---
 ## Content

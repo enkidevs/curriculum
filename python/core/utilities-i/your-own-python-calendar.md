@@ -16,12 +16,13 @@ links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/calendar.html){website}'
 
-notes: Added:
+notes: |
+  Added:
 
 
-print(calendar.calendar(2016))
+  print(calendar.calendar(2016))
 
-to show how to print calendar for a year.
+  to show how to print calendar for a year.
 
 ---
 ## Content

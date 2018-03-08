@@ -19,6 +19,7 @@ links:
   - '[Python 3.3 Documentation - zip](https://docs.python.org/3.3/library/functions.html#zip){website}'
   - '[Python zip()](https://www.programiz.com/python-programming/methods/built-in/zip){website}'
 
+{}
 
 ---
 ## Content

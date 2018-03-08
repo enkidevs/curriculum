@@ -21,6 +21,7 @@ links:
   - '[Iterables vs. Iterators vs. Generators](http://nvie.com/posts/iterators-vs-generators/){website}'
   - '[OOP Parents and Children](http://www.htmlcenter.com/blog/object-oriented-programming-parents-and-children/){website}'
 
+{}
 
 ---
 ## Content

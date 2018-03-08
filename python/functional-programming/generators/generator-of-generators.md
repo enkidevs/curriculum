@@ -14,6 +14,7 @@ links:
 
   - '[more on generators](http://www.python-course.eu/python3_generators.php){website}'
 
+{}
 
 ---
 ## Content

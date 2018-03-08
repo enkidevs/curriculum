@@ -20,6 +20,7 @@ links:
   - '[map, filter, and reduce](http://www.bogotobogo.com/python/python_fncs_map_filter_reduce.php){website}'
   - '[Lambda, filter, reduce and map](http://www.python-course.eu/lambda.php){website}'
 
+{}
 
 ---
 ## Content

@@ -20,6 +20,7 @@ links:
   - '[docs.python.org](https://docs.python.org/3.5/library/decimal.html){website}'
 
 notes: Math modules workout
+
 ---
 ## Content
 # Working with decimals

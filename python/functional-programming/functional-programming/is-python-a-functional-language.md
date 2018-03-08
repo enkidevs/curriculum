@@ -19,6 +19,7 @@ links:
   - '[The fate of reduce() in Python 3000](http://www.artima.com/weblogs/viewpost.jsp?thread=98196){website}'
   - '[Is Python a functional language?](https://www.quora.com/Is-Python-a-functional-language){website}'
 
+{}
 
 ---
 ## Content

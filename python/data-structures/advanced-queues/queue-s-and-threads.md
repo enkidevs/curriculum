@@ -15,9 +15,11 @@ links:
   - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#memory-views){website}'
   - '[www.troyfawkes.com](http://www.troyfawkes.com/learn-python-multithreading-queues-basics/){website}'
 
-parent: a-thread-safe-queuenotes: The program does not work as it is. It has a syntax error, in this line:
-    print q.get()
-the print should have parentheses since this is for Python 3.  Fixed.
+parent: a-thread-safe-queue
+notes: |
+  The program does not work as it is. It has a syntax error, in this line:
+      print q.get()
+  the print should have parentheses since this is for Python 3.  Fixed.
 
 ---
 ## Content

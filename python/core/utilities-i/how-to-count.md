@@ -16,7 +16,10 @@ links:
 
   - '[pymotw.com](https://pymotw.com/2/collections/counter.html){website}'
 
-notes: Insight is correct, But should give a few examples of common counter methods like most_common(), elements(), etc.
+notes: >-
+  Insight is correct, But should give a few examples of common counter methods
+  like most_common(), elements(), etc.
+
 ---
 ## Content
 # How to count

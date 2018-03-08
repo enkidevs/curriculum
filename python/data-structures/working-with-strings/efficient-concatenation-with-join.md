@@ -19,7 +19,8 @@ tags:
 
 
 
-notes: 
+notes: ''
+
 ---
 ## Content
 # Efficient concatenation with *join()*

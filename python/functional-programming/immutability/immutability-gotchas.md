@@ -18,6 +18,7 @@ links:
 
   - '[Common Gotchas](http://docs.python-guide.org/en/latest/writing/gotchas/){website}'
 
+{}
 
 ---
 ## Content

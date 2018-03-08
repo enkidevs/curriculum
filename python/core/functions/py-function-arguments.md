@@ -14,6 +14,7 @@ links:
 
   - '[More about arguments](https://www.tutorialspoint.com/python/python_functions.htm){website}'
 
+{}
 
 ---
 ## Content

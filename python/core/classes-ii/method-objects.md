@@ -16,19 +16,30 @@ links:
 
   - '[docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#method-objects){website}'
 
-parent: instance-objectsnotes: Using the word Enki or enki in many places such as for class name, instance name, return value (as in this example), is confusing to readers. Use different and more relevant names to distinguish. --> updated.
+parent: instance-objects
+notes: >
+  Using the word Enki or enki in many places such as for class name, instance
+  name, return value (as in this example), is confusing to readers. Use
+  different and more relevant names to distinguish. --> updated.
 
-Also, what is the purpose of showing that you can do:
 
-ef = enki.f
+  Also, what is the purpose of showing that you can do:
 
-and then call:
 
-ef()
+  ef = enki.f
 
-?
 
-It should be connected to some purpose or benefit, otherwise may be better not to show it.
+  and then call:
+
+
+  ef()
+
+
+  ?
+
+
+  It should be connected to some purpose or benefit, otherwise may be better not
+  to show it.
 
 ---
 ## Content

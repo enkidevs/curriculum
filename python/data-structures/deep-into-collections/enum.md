@@ -14,6 +14,7 @@ links:
 
   - '[More on Enum](https://docs.python.org/3/library/enum.html){website}'
 
+{}
 
 ---
 ## Content

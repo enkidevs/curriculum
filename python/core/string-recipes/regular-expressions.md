@@ -19,7 +19,12 @@ links:
   - '[pymotw.com](https://pymotw.com/2/re/){website}'
   - '[docs.python.org](https://docs.python.org/3.5/howto/regex.html#regex-howto){website}'
 
-notes: Insight contet is right. But should have a few examples that show the use of the various regular expression patterns, such as for matching either pattern1 or pattern2, matching zero or one of some character, matching 2 to 4 of some character, etc.
+notes: >-
+  Insight contet is right. But should have a few examples that show the use of
+  the various regular expression patterns, such as for matching either pattern1
+  or pattern2, matching zero or one of some character, matching 2 to 4 of some
+  character, etc.
+
 ---
 ## Content
 # Regular expressions 

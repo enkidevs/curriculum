@@ -15,6 +15,7 @@ links:
   - '[PyMOTW](http://pymotw.com/2/doctest/){blog}'
   - '[python.org](https://docs.python.org/2/library/doctest.html){documentation}'
 
+{}
 
 ---
 ## Content

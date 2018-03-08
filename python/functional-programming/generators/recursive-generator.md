@@ -14,6 +14,7 @@ links:
 
   - '[more about recursive generators](https://stackoverflow.com/questions/35015181/python-recursive-generator){website}'
 
+{}
 
 ---
 ## Content

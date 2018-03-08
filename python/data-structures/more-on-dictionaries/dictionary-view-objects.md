@@ -15,6 +15,7 @@ links:
   - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#dictionary-view-objects){website}'
 
 parent: dictionary-standard-mapping-type
+
 ---
 ## Content
 # `Dictionary` view objects

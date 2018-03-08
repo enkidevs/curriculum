@@ -16,6 +16,7 @@ links:
 
   - '[More about open() function](https://www.tutorialspoint.com/python3/python_files_io.htm){website}'
 
+{}
 
 ---
 ## Content

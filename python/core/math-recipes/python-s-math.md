@@ -18,20 +18,21 @@ links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/math.html){website}'
 
-notes: Math modules workout.
-Notes by Vasudev:
-All stdlib modules are always available,
-so the math module is not special in
-this regard. So correct the opening
-sentence, by removing the words "every
-time - available".  Also change the word
-"specialized" to "common" - because there
-is nothing very special about the functions
-in the math module, they are normal math
-functions.  Correct line spacing between
-titles and items in insight.  Confirm usage
-of modf and also mention fmod and the
-difference between them.
+notes: |+
+  Math modules workout.
+  Notes by Vasudev:
+  All stdlib modules are always available,
+  so the math module is not special in
+  this regard. So correct the opening
+  sentence, by removing the words "every
+  time - available".  Also change the word
+  "specialized" to "common" - because there
+  is nothing very special about the functions
+  in the math module, they are normal math
+  functions.  Correct line spacing between
+  titles and items in insight.  Confirm usage
+  of modf and also mention fmod and the
+  difference between them.
 
 
 

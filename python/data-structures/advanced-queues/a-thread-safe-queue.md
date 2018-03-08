@@ -16,6 +16,7 @@ links:
 
   - '[pymotw.com](https://pymotw.com/2/Queue/){website}'
 
+{}
 
 ---
 ## Content

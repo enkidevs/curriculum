@@ -22,6 +22,7 @@ links:
   - '[docs.python.org](https://docs.python.org/3.5/library/textwrap.html){website}'
 
 notes: String manipulation workout
+
 ---
 ## Content
 # Format text paragraphs with `textwrap`

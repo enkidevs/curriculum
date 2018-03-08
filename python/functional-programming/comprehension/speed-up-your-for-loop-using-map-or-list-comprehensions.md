@@ -22,7 +22,8 @@ links:
 
   - '[docs.python.org](https://docs.python.org/2/library/functions.html#map){website}'
 
-notes: 
+notes: ''
+
 ---
 ## Content
 # Speed up your `for` loop using `map()` or list comprehensions

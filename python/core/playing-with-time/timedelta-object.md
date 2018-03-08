@@ -19,6 +19,7 @@ links:
   - '[docs.python.org](https://docs.python.org/3.5/library/datetime.html#timedelta-objects){website}'
 
 parent: datetime-object
+
 ---
 ## Content
 # Date arithmetics with `timedelta`

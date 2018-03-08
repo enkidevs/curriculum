@@ -14,6 +14,7 @@ links:
 
   - '[Iterators vs. Generators](http://nvie.com/posts/iterators-vs-generators/){website}'
 
+{}
 
 ---
 ## Content

@@ -22,6 +22,7 @@ links:
   - '[docs.python.org](https://docs.python.org/3.5/library/random.html){website}'
 
 notes: Math modules workout
+
 ---
 ## Content
 # Generating `random` numbers

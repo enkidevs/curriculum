@@ -16,6 +16,7 @@ links:
 
   - '[Python division](http://stackoverflow.com/questions/2958684/python-division){website}'
 
+{}
 
 ---
 ## Content

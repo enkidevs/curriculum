@@ -16,6 +16,7 @@ links:
   - '[docs.python.org](https://docs.python.org/3.5/library/collections.html#deque-objects){website}'
 
 parent: get-more-with-collections
+
 ---
 ## Content
 # Double ended queues with `deque`

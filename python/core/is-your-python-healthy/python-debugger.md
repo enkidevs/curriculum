@@ -16,6 +16,7 @@ links:
 
   - '[Python debugger](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger){website}'
 
+{}
 
 ---
 ## Content

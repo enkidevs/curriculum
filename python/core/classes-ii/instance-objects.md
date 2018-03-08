@@ -17,6 +17,7 @@ links:
   - '[docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#instance-objects){website}'
 
 notes: Multiple issues. Needs to be rewritten.
+
 ---
 ## Content
 # Instance objects

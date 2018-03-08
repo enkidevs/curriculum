@@ -18,6 +18,7 @@ links:
 
   - '[Python slice()](https://www.programiz.com/python-programming/methods/built-in/slice){website}'
 
+{}
 
 ---
 ## Content

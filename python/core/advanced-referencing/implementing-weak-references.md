@@ -17,8 +17,11 @@ links:
   - '[pymotw.com](https://pymotw.com/2/weakref/){website}'
   - '[docs.python.org](https://docs.python.org/3.5/library/weakref.html){website}'
 
-notes: Note by Vasudev:
-Insight does not show the benefit of using weak references. Change it so it does.
+notes: >
+  Note by Vasudev:
+
+  Insight does not show the benefit of using weak references. Change it so it
+  does.
 
 ---
 ## Content

@@ -17,6 +17,7 @@ links:
   - '[pymotw.com](https://pymotw.com/2/weakref/#proxies){website}'
 
 parent: implementing-weak-references
+
 ---
 ## Content
 # `weakref` proxies

@@ -14,6 +14,7 @@ links:
 
   - '[docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#the-del-statement){website}'
 
+{}
 
 ---
 ## Content

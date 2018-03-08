@@ -18,7 +18,8 @@ links:
 
   - '[www.python.org](https://www.python.org/dev/peps/pep-0008/#whitespace-in-expressions-and-statements){website}'
 
-notes: 
+notes: ''
+
 ---
 ## Content
 # Following PEP 8 styling guideline.

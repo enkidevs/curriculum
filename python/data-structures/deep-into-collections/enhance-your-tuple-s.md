@@ -18,29 +18,47 @@ links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/collections.html#chainmap-examples-and-recipes){website}'
 
-parent: get-more-with-collectionsnotes: Issues found:
+parent: get-more-with-collections
+notes: >+
+  Issues found:
 
-This line early in the code:
 
-point = namedtuple('3DPoint', 'x y z')
+  This line early in the code:
 
-gives a syntax error because of 3Dpoint:
 
-ValueError: Type names and field names must be valid identifiers: '3DPoint'
+  point = namedtuple('3DPoint', 'x y z')
 
-Fix it. 
 
-Should also mention the benefits of named tuples and common / important uses,
-such as for dealing with rows in CSV files or from database tables.
-The attribute lookup feature and the helpful ways of printing named tuple 
-values, should be mentioned (the docstring and the __repr__ method), either in the same insight, or in another 
-insight if this one becomes too long.
+  gives a syntax error because of 3Dpoint:
 
-See:
 
-https://docs.python.org/3.6/library/collections.html#collections.namedtuple
+  ValueError: Type names and field names must be valid identifiers: '3DPoint'
 
-Can also mention in brief that Named tuple instances do not have per-instance dictionaries, so they are lightweight and require no more memory than regular tuples.
+
+  Fix it. 
+
+
+  Should also mention the benefits of named tuples and common / important uses,
+
+  such as for dealing with rows in CSV files or from database tables.
+
+  The attribute lookup feature and the helpful ways of printing named tuple 
+
+  values, should be mentioned (the docstring and the __repr__ method), either in
+  the same insight, or in another 
+
+  insight if this one becomes too long.
+
+
+  See:
+
+
+  https://docs.python.org/3.6/library/collections.html#collections.namedtuple
+
+
+  Can also mention in brief that Named tuple instances do not have per-instance
+  dictionaries, so they are lightweight and require no more memory than regular
+  tuples.
 
 
 

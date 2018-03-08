@@ -14,6 +14,7 @@ links:
 
   - '[More about lists as queues](https://welcomedata.wordpress.com/2015/07/03/using-lists-as-stacks-and-queues-in-python/){website}'
 
+{}
 
 ---
 ## Content

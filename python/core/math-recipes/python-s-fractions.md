@@ -19,6 +19,7 @@ links:
   - '[docs.python.org](https://docs.python.org/3.5/library/fractions.html){website}'
 
 notes: Math modules workout
+
 ---
 ## Content
 # Python's `fractions`

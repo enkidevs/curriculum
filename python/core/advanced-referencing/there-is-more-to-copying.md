@@ -17,6 +17,7 @@ links:
   - '[www.python-course.eu](http://www.python-course.eu/deep_copy.php){website}'
   - '[docs.python.org](https://docs.python.org/3.5/library/copy.html){website}'
 
+{}
 
 ---
 ## Content
