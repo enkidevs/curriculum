@@ -6,12 +6,7 @@ levels:
   - beginner
 
   - basic
-
-
-tags:
-
-  - workout
-
+  
 
 type: exerciseList
 
