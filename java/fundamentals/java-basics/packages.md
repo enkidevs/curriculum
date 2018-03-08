@@ -9,12 +9,13 @@ type: normal
 
 category: must-know
 
+inAlgoPool: false
+
 
 links:
 
   - '[Naming conventions](http://www.oracle.com/technetwork/java/codeconventions-135099.html){website}'
 
-inAlgoPool:
 
 ---
 ## Content

@@ -9,12 +9,13 @@ type: normal
 
 category: must-know
 
+inAlgoPool: false
+
 
 links:
 
   - '[How interfaces impact the code](http://stackoverflow.com/questions/504904/is-there-more-to-an-interface-than-having-the-correct-methods){website}'
 
-inAlgoPool:
 
 ---
 ## Content

@@ -13,6 +13,8 @@ type: normal
 
 category: best practice
 
+inAlgoPool: false
+
 tags:
 
   - don't-repeat-yourself

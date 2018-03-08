@@ -13,6 +13,8 @@ type: normal
 
 category: must-know
 
+inAlgoPool: false
+
 tags:
 
   - interface

@@ -11,6 +11,8 @@ type: normal
 
 category: tip
 
+inAlgoPool: false
+
 
 
 
@@ -49,7 +51,6 @@ public static void convert(int i) {
 ### Can you identify how type conversion works in the following example?
 ```
 // What is the output of the following snippet?
-```
 public class Main {
   public static void main(String[] args) {
       char x = 'a';
@@ -58,7 +59,6 @@ public class Main {
       System.out.print(false ? i : x);
   }
 }
-```
 ```
 
  ???

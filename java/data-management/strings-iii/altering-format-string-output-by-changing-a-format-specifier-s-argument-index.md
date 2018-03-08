@@ -9,6 +9,8 @@ type: normal
 
 category: tip
 
+inAlgoPool: false
+
 tags:
 
   - strings

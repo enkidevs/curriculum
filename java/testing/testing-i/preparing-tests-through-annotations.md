@@ -13,6 +13,8 @@ type: normal
 
 category: tip
 
+inAlgoPool: false
+
 
 
 notes: https://insights.enki.com/#/contrib/5594adacabc92e3300233c3b

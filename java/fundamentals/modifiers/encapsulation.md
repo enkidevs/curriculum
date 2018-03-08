@@ -9,12 +9,13 @@ type: normal
 
 category: must-know
 
+inAlgoPool: false
+
 
 links:
 
   - '[Encapsulation](https://www.tutorialspoint.com/java/java_encapsulation.htm){website}'
 
-inAlgoPool:
 
 ---
 ## Content

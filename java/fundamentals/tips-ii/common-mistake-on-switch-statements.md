@@ -11,6 +11,8 @@ type: normal
 
 category: caveats
 
+inAlgoPool: false
+
 tags:
 
   - switch
@@ -119,3 +121,4 @@ switch(x) {
 * 1
 * 121
 * 10
+

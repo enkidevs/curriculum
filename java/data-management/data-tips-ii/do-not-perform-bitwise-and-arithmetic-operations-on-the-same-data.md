@@ -13,6 +13,8 @@ type: normal
 
 category: best practice
 
+inAlgoPool: false
+
 tags:
 
   - numeric-operations

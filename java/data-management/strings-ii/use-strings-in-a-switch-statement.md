@@ -9,6 +9,8 @@ type: normal
 
 category: feature
 
+inAlgoPool: false
+
 tags:
 
   - switch

@@ -11,6 +11,8 @@ type: normal
 
 category: tip
 
+inAlgoPool: false
+
 tags:
 
   - binary

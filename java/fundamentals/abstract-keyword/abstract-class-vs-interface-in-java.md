@@ -13,6 +13,8 @@ type: normal
 
 category: tip
 
+inAlgoPool: false
+
 tags:
 
   - java-interface

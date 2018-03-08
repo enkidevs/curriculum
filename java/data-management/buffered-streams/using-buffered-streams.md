@@ -9,6 +9,8 @@ type: normal
 
 category: best practice
 
+inAlgoPool: false
+
 tags:
 
   - streams

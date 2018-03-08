@@ -9,12 +9,13 @@ type: normal
 
 category: must-know
 
+inAlgoPool: false
+
 
 links:
 
   - '[Get started with Java](https://docs.oracle.com/javase/tutorial/getStarted/cupojava/index.html){website}'
 
-inAlgoPool:
 
 ---
 ## Content

@@ -11,6 +11,8 @@ type: normal
 
 category: must-know
 
+inAlgoPool: false
+
 tags:
 
   - java-8

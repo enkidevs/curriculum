@@ -9,6 +9,8 @@ type: normal
 
 category: pattern
 
+inAlgoPool: false
+
 
 links:
 

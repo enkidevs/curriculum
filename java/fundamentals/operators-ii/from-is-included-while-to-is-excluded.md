@@ -13,6 +13,8 @@ type: normal
 
 category: caveats
 
+inAlgoPool: false
+
 tags:
 
   - java-common-practises

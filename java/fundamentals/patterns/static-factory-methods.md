@@ -13,6 +13,8 @@ type: normal
 
 category: pattern
 
+inAlgoPool: false
+
 tags:
 
   - design-patterns

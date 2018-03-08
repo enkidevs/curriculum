@@ -11,6 +11,8 @@ type: normal
 
 category: feature
 
+inAlgoPool: false
+
 tags:
 
   - data structures

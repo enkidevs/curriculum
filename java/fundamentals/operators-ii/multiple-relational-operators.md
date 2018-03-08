@@ -11,6 +11,8 @@ type: normal
 
 category: tip
 
+inAlgoPool: false
+
 
 
 notes: Hope it's not too basic

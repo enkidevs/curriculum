@@ -11,6 +11,8 @@ type: normal
 
 category: tip
 
+inAlgoPool: false
+
 
 
 notes: For experts as it's quite unusual to see it and might confuse beginners?

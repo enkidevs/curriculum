@@ -9,9 +9,10 @@ type: normal
 
 category: must-know
 
+inAlgoPool: false
 
 
-inAlgoPool:
+
 
 ---
 ## Content

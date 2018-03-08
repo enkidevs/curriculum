@@ -13,6 +13,8 @@ type: normal
 
 category: how to
 
+inAlgoPool: false
+
 tags:
 
   - array
