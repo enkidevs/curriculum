@@ -1,4 +1,4 @@
-# `this` Practice
+# JS Practice `this`
 author: milesflo
 
 levels:

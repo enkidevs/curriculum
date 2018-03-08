@@ -1,4 +1,4 @@
-# Function `call` and `apply` Practice
+# JS Practice `call` and `apply`
 author: milesflo
 
 levels:

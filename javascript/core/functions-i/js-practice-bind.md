@@ -1,4 +1,4 @@
-# Function `bind` Practice
+# JS Practice `bind`
 author: milesflo
 
 levels:
