@@ -8,11 +8,6 @@ levels:
   - basic
 
 
-tags:
-
-  - workout
-
-
 type: exerciseList
 
 links:
