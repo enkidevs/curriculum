@@ -1,4 +1,4 @@
-# Exception Practice
+# Error Throwing
 author: milesflo
 
 levels:
@@ -16,16 +16,6 @@ links:
 
 ---
 ## Exercise
-codewars-link: https://www.codewars.com/kata/invalid-input-error-handling-number-1
-standards:
-    js.exceptions.0: 1000
-    js.exceptions.1: 1000
-    js.exceptions.2: 1000
-### Question
-Practice Error Handling on Code Wars
-
----
-## Exercise
 codewars-link: https://www.codewars.com/kata/error-throwing-error-handling-number-2
 standards:
     js.exceptions.0: 1000
@@ -33,14 +23,3 @@ standards:
     js.exceptions.2: 1000
 ### Question
 Practice throwing JavaScript Errors on Code Wars
-
----
-## Exercise
-codewars-link: https://www.codewars.com/kata/throw-from-list-error-handling-number-3
-standards:
-    js.exceptions.0: 1000
-    js.exceptions.1: 1000
-    js.exceptions.2: 1000
-    js.exceptions.3: 1000
-### Question
-Practice creating custom JavaScript Errors on Code Wars
