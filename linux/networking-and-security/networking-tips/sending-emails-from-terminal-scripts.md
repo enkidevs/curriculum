@@ -1,4 +1,4 @@
----
+# Sending emails from terminal / scripts
 author: tuwi.dc
 
 levels:
@@ -25,14 +25,10 @@ tags:
 
   - gmail
 
-  - 
-
-
-
+  - ''
 
 ---
 ## Content
-# Sending emails from terminal / scripts
 
 It is possible to send email from the terminal (or from inside scripts) by using `sendemail`.
 
@@ -49,4 +45,3 @@ $ sendemail -f fromuser@gmail.com \
  -o tls=yes -xu gmailaccount \
  -xp gmailpassword 
 ```
-

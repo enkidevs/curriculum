@@ -1,4 +1,4 @@
----
+# Revision control of configuration files with git
 author: tuwi.dc
 
 levels:
@@ -21,13 +21,10 @@ tags:
 
   - backup
 
-
-
 notes: ''
 
 ---
 ## Content
-# Revision control of configuration files with git
 
 It is always considered good practice to keep track of your important configuration files 
 and `git` is a great tool for this. 
@@ -71,8 +68,6 @@ You can upload your important configuration files to *git* using
 
 ??? .
 
-
-* auto-commit scripts
-* auto-pull scripts
-* history
-
+*auto-commit scripts
+*auto-pull scripts
+*history

@@ -1,4 +1,4 @@
----
+# Execute a command without saving it in history
 author: tuwi.dc
 
 levels:
@@ -16,26 +16,18 @@ type: normal
 category: hack
 
 tags:
-
   - bash
-
   - terminal
-
   - linux
-
   - hide
-
   - bash history
-
   - workout
-
 
 
 notes: ''
 
 ---
 ## Content
-# Execute a command without saving it in history
 
 Adding one or more spaces before your command will result in `history` not recording it.
 
@@ -64,9 +56,7 @@ Depending on your setup, adding ???
 
 at the beginning of a command will make `history` not record it.
 
-
-* space
-* #
-* !
-* ?
-
+*space
+*#
+*!
+*?

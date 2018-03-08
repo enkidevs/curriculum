@@ -1,4 +1,4 @@
----
+# Using `PPAs`
 author: tuwi.dc
 
 levels:
@@ -27,12 +27,8 @@ tags:
 
   - ubuntu
 
-
-
-
 ---
 ## Content
-# Using `PPAs`
 
 PPAs[1] are repositories that have additional/custom builds/packages on them. They are, in general, non-standard software or updates.
 
@@ -64,12 +60,12 @@ $ ppa-purge ppa:<lp-name>/<ppa-name>
 `PPA's`  are not recommended if 
 
 ???.
-
-* you want a stable build
-* you want to test new features 
-* applications are not working
+*you want a stable build
+*you want to test new features 
+*applications are not working
 
 ---
 ## Footnotes
+
 [1:Acronym]
 Personal Package Archive

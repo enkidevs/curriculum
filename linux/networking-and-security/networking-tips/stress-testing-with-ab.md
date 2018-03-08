@@ -1,4 +1,4 @@
----
+# Stress testing with `ab`
 author: tuwi.dc
 
 levels:
@@ -25,13 +25,10 @@ tags:
 
   - apachebench
 
-
-
 notes: ''
 
 ---
 ## Content
-# Stress testing with `ab`
 
 ApacheBench (or `ab` tool) is a tool for benchmarking and regression testing of web servers.
 
@@ -55,9 +52,7 @@ $ ab -n 1000 -c 10 -k \
 ## Revision
 
 A tool for testing how many connections your server is capable of serving is ???.
-
-* `ab`
-* `netstat`
-* `w`
-* `ss`
-
+*`ab`
+*`netstat`
+*`w`
+*`ss`

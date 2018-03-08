@@ -1,4 +1,4 @@
----
+# `su` vs `sudo`
 author: catalin
 
 levels:
@@ -10,15 +10,9 @@ type: normal
 category: must-know
 
 tags:
-
   - introduction
-
-
-
-
 ---
 ## Content
-# `su` vs `sudo`
 
 There is a big difference between `su` and `sudo` commands:
 
@@ -55,11 +49,10 @@ You can give a user *root privileges* (`sudo` access)  by following the syntax a
 What is a `sudoer`?
 
 ???
-
-* A user that can run one or more commands with elevated privileges.
-* The equivalent of root.
-* A user that can *always* run *all* the commands with elevated privileges.
-* The machine on which a user can run commands with elevated privileges.
+*A user that can run one or more commands with elevated privileges.
+*The equivalent of root.
+*A user that can *always* run *all* the commands with elevated privileges.
+*The machine on which a user can run commands with elevated privileges.
 
 ---
 ## Revision
@@ -67,8 +60,6 @@ What is a `sudoer`?
 Running `su` will 
 
 ??? .
-
-* switch to the root account.
-* give you root privileges for the next command.
-* switch to the next account in the list.
-
+*switch to the root account.
+*give you root privileges for the next command.
+*switch to the next account in the list.

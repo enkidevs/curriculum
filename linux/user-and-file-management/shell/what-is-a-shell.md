@@ -1,4 +1,4 @@
----
+# What is a *shell*?
 author: jfarmer
 
 levels:
@@ -9,20 +9,16 @@ levels:
 
 type: normal
 
-category: must-know
-
 inAlgoPool: false
+
+category: must-know
 
 tags:
 
-  - 
-
-
-
+  - ''
 
 ---
 ## Content
-# What is a *shell*?
 
 A *command shell*[1], *command-line interface*, or simply *shell* is any text-based user interface used to access to an operating system's underlying services.   They all work very similarly:
 
@@ -57,13 +53,13 @@ Every shell has its own syntax for issuing commands, although there is often con
 Which of the following is the most common *shell*? 
 
 ???
-
-* bash
-* sh
-* zsh
-* fish
+*bash
+*sh
+*zsh
+*fish
 
 ---
 ## Footnotes
+
 [1:Command Shell]
 When someone refers to the Linux "command shell" or "command line interface" without any clarification, they're almost always referring to `bash`.

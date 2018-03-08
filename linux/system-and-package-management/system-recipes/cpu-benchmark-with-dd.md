@@ -1,4 +1,4 @@
----
+# CPU benchmark with `dd`
 author: tuwi.dc
 
 levels:
@@ -25,13 +25,10 @@ tags:
 
   - checksum
 
-
-
 notes: ''
 
 ---
 ## Content
-# CPU benchmark with `dd`
 
 `dd` in conjunction with any stream-processing CPU-intensive program can also be used as a simple CPU benchmark! You can run this out of the box as follows:
 ```
@@ -57,9 +54,7 @@ As a hack for bench-testing the computer’s CPU you can use:
 $ ??? if=/dev/zero bs=1M 
          count=1024 | ???
 ```
-
-* `dd`
-* `md5sum`
-* `db`
-* `md5s`
-
+*`dd`
+*`md5sum`
+*`db`
+*`md5s`

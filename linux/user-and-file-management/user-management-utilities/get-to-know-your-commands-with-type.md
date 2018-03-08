@@ -1,4 +1,4 @@
----
+# Get to know  your commands with `type`
 author: tuwi.dc
 
 levels:
@@ -12,25 +12,16 @@ type: normal
 category: feature
 
 tags:
-
   - linux
-
   - terminal
-
   - type
-
   - bash
-
   - alias
-
   - workout
-
-
 
 
 ---
 ## Content
-# Get to know  your commands with `type`
 
 The `type` command is used to differentiate between *builtin* commands and *external binaries*.
 
@@ -79,13 +70,13 @@ You can call ???
 
 alongside another command to find out its alias, functions, builtins and keywords.
 
-
-* type
-* desc
-* -type
-* —desc
+*type
+*desc
+*-type
+*—desc
 
 ---
 ## Footnotes
+
 [1:info]
 `type` can find whether the targeted command is an *alias*, a *keyword*, a *function*, a *builtin* or a *file*.

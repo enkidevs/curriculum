@@ -1,4 +1,4 @@
----
+# Using `Tasksel` for software installation
 author: tuwi.dc
 
 levels:
@@ -23,12 +23,8 @@ tags:
 
   - server
 
-
-
-
 ---
 ## Content
-# Using `Tasksel` for software installation
 
 `Tasksel` is a software installation application that is an integral part of the Debian installer and works under Ubuntu Linux too. 
 
@@ -65,10 +61,8 @@ To list all the packages that would be displayed in the `tasksel` UI, you would 
 ```
 $ ??? ??? ??? 
 ```
-
-* `sudo`
-* `tasksel`
-* `—list-tasks`
-* `-lt`
-* `taskel`
-
+*`sudo`
+*`tasksel`
+*`—list-tasks`
+*`-lt`
+*`taskel`

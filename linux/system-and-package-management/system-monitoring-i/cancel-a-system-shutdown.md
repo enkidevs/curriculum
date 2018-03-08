@@ -1,4 +1,4 @@
----
+# Cancel a system shutdown
 author: nene
 
 levels:
@@ -15,12 +15,8 @@ tags:
 
   - shutdown
 
-
-
-
 ---
 ## Content
-# Cancel a system shutdown
 
 If you started the shutdown either via the terminal or from the GUI and then realised that you didn’t really want to do that, you can use:
 
@@ -41,8 +37,6 @@ In order to cancel a shutdown command you can use `shutdown -c` or
 
 ??? .
 
-
-* pkill shutdown
-* kill shutdown
-* shutdown -pkill
-
+*pkill shutdown
+*kill shutdown
+*shutdown -pkill

@@ -1,4 +1,4 @@
----
+# Listing Processes Using `ps`
 author: jfarmer
 
 levels:
@@ -9,19 +9,18 @@ levels:
 
 type: normal
 
-category: must-know
-
 inAlgoPool: false
 
+category: must-know
 
 links:
 
-  - '[Process basics](http://www.tldp.org/LDP/intro-linux/html/sect_04_01.html){website}'
-
+  - >-
+    [Process
+    basics](http://www.tldp.org/LDP/intro-linux/html/sect_04_01.html){website}
 
 ---
 ## Content
-# Listing Processes Using `ps`
 
 The `ps` command (short for *process status*) displays information about the currently-running processes.
 
@@ -61,9 +60,7 @@ To view every process running on the machine, you can run:
 ```
 $ ??? ???
 ```
-
-* `ps`
-* `aux`
-* `pid`
-* `-a`
-
+*`ps`
+*`aux`
+*`pid`
+*`-a`

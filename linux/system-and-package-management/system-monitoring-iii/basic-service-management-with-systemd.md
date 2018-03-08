@@ -1,4 +1,4 @@
----
+# Basic service management with `systemd`
 author: tuwi.dc
 
 levels:
@@ -23,12 +23,8 @@ tags:
 
   - status
 
-
-
-
 ---
 ## Content
-# Basic service management with `systemd`
 
 In Ubuntu `upstart` will be deprecated in favor of `systemd`. Here is what you can do with it.
 
@@ -41,7 +37,7 @@ $ systemctl list-units --type service
 ```
 Use the following to start a service. Does not persist after reboot:
 
-``` 
+```
 $ systemctl start SERVICE.service```
 
 Use this to stop a service. Does not persist after reboot:
@@ -66,7 +62,7 @@ $ systemctl status SERVICE.service
 To start a service on boot, use:
 ```
 $ systemctl enable SERVICE.service
-``` 
+```
 
 And to stop it from starting on boot:
 ```
@@ -76,18 +72,22 @@ $ systemctl disable SERVICE.service
 ---
 ## Revision
 
-Service-specific actions (enable, stop, restart, reload) can be triggered by 
+Service-specific actions (enable, stop, restart, reload) can be triggered by
 
 ??? .
 
-
-* systemctl
-* res
-* nano
-* syserv
+*systemctl
+*res
+*nano
+*syserv
 
 ---
 ## Footnotes
+
 [1:Example output]
 ```
-UNIT
+UNIT================================
+systemd=ask=password=console.service
+LOAD===ACTIVE===SUB==DESCRIPTION===
+loaded inactive dead Dispatch Password
+```

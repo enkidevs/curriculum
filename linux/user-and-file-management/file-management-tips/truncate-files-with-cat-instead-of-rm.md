@@ -1,4 +1,4 @@
----
+# Truncate files with `cat` instead of `rm`
 author: tuwi.dc
 
 levels:
@@ -14,30 +14,20 @@ type: normal
 category: hack
 
 tags:
-
   - linux
-
   - terminal
-
   - truncate
-
   - files
-
-  - null
-
+  - 'null'
   - rm
-
   - touch
-
   - workout
-
 
 
 notes: ''
 
 ---
 ## Content
-# Truncate files with `cat` instead of `rm`
 
 Since `cat` enables us to preserve file ownership and permissions it is preferable to truncate files with:
 ```
@@ -61,10 +51,8 @@ Delete the *contents* of `old_log_file` :
 ```
 $ ??? ??? > ???
 ```
-
-* `cat`
-* `/dev/null`
-* `old_log_file`
-* `touch`
-* `rm`
-
+*`cat`
+*`/dev/null`
+*`old_log_file`
+*`touch`
+*`rm`

@@ -1,4 +1,4 @@
----
+# Get real network statistics with `slurm`
 author: tuwi.dc
 
 levels:
@@ -29,12 +29,8 @@ tags:
 
   - statistics
 
-
-
-
 ---
 ## Content
-# Get real network statistics with `slurm`
 
 `slurm` is a command line tool that displays real-time data
 about the specified network interface:
@@ -80,9 +76,7 @@ Errors on Transmission: 0
 `slurm` is used as a
 
 ??? .
-
-* measurement tool for internet speed
-* energy drink
-* measurement tool for cpu usage
-* measurement tool for users access to a server
-
+*measurement tool for internet speed
+*energy drink
+*measurement tool for cpu usage
+*measurement tool for users access to a server

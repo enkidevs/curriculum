@@ -1,4 +1,4 @@
----
+# Check `iptables` firewall status
 author: tuwi.dc
 
 levels:
@@ -19,16 +19,15 @@ tags:
 
   - firewall
 
+notes: ''
 
 links:
 
-  - '[www.cyberciti.biz](http://www.cyberciti.biz/faq/rhel-fedorta-linux-iptables-firewall-configuration-tutorial/){website}'
-
-notes: ''
+  - >-
+    [www.cyberciti.biz](http://www.cyberciti.biz/faq/rhel-fedorta-linux-iptables-firewall-configuration-tutorial/){website}
 
 ---
 ## Content
-# Check `iptables` firewall status
 
 Linux comes with a host based firewall called Netfilter.
 This Linux based firewall is controlled by the program (binary) called iptables to handle filtering for IPv4, and ip6tables handles filtering for IPv6.
@@ -70,7 +69,6 @@ Which of the following flags, when used together with `iptables` command will di
 $ sudo iptables ???
 ```
 
-
 * `-n`
 * `-d`
 * `-L`
@@ -83,10 +81,8 @@ You can list the active firewall rules by running:
 ```
 $ ??? ???
 ```
-
-* `iptables`
-* `-L`
-* `iftables`
-* `-n`
-* `-l`
-
+*`iptables`
+*`-L`
+*`iftables`
+*`-n`
+*`-l`

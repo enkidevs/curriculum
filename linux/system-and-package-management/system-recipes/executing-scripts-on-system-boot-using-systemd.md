@@ -1,4 +1,4 @@
----
+# Executing scripts on system boot using `systemd`
 author: tuwi.dc
 
 levels:
@@ -21,12 +21,8 @@ tags:
 
   - rc.local
 
-
-
-
 ---
 ## Content
-# Executing scripts on system boot using `systemd`
 
 Since most of the distributions migrated to `systemd`, the old way of running a script on boot by adding it to the `rc.local` won't be supported for long.
 
@@ -57,8 +53,6 @@ You can execute a script on boot by adding it to the
 
 ???  file .
 
-
-* rc.local
-* boot
-* rc.boot
-
+*rc.local
+*boot
+*rc.boot

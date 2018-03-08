@@ -1,4 +1,4 @@
----
+# Working with `.gz` files
 author: daniel_adelberg
 
 levels:
@@ -15,15 +15,13 @@ tags:
 
   - gzip
 
-
 links:
 
-  - '[www.cyberciti.biz](http://www.cyberciti.biz/faq/howto-compress-expand-gz-files/){website}'
-
+  - >-
+    [www.cyberciti.biz](http://www.cyberciti.biz/faq/howto-compress-expand-gz-files/){website}
 
 ---
 ## Content
-# Working with `.gz` files
 
 Commonly, files for Linux will be compressed with `gzip`, a file format designed for the GNU Project. 
 
@@ -44,11 +42,10 @@ $ gzip file
 
 The ??? flag is used to decompress files.
 
-
-* -d
-* -c
-* -f
-* no flag
+*-d
+*-c
+*-f
+*no flag
 
 ---
 ## Revision
@@ -57,9 +54,7 @@ Complete the command to decompress `update.gz` :
 ```
 $ ??? ??? update.gz
 ```
-
-* `gzip`
-* `-d`
-* `-r`
-* `unzip`
-
+*`gzip`
+*`-d`
+*`-r`
+*`unzip`

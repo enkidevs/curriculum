@@ -1,4 +1,4 @@
----
+# Using `xargs` to build commands.
 author: aakarsh
 
 levels:
@@ -14,17 +14,12 @@ type: normal
 category: must-know
 
 tags:
-
   - xargs
-
   - workout
-
-
 
 
 ---
 ## Content
-# Using `xargs` to build commands.
 
 Use `xargs` to build and execute commands
 from standard input. This often provides a simpler construct than using explicit loops.
@@ -66,13 +61,13 @@ Output from the `find` will substitute for every file found both `{}` occurrence
 ## Revision
 
 `xargs` takes the ??? stream and transforms it into the ??? stream for other utilities to use.
-
-* STDIN
-* STDOUT
-* STDERR
+*STDIN
+*STDOUT
+*STDERR
 
 ---
 ## Footnotes
+
 [1:error handling]
 To make sure empty files are treated correctly, pass the `-0` flag to `xargs` to split the lists at **null** chars together with `-print0` flag of the `find` command.
 [2:example explanation]

@@ -1,4 +1,4 @@
----
+# Short Introduction to `Wget` 
 author: catalin
 
 levels:
@@ -11,12 +11,8 @@ type: normal
 
 category: tip
 
-
-
-
 ---
 ## Content
-# Short Introduction to `Wget` 
 
 `Wget` is a utility that can work better than a browser when it comes to downloading pages or files from the web and even for synchronizing local web archives. 
 
@@ -40,8 +36,6 @@ After the transfer has finished, `wget` goes through the local files to change a
 
 An alternative to `cURL` is ??? .
 
-
-* Wget
-* which
-* dl
-
+*Wget
+*which
+*dl

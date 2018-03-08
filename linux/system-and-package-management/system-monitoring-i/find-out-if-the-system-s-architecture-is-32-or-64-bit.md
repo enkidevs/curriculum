@@ -1,4 +1,4 @@
----
+# Find out if the system's architecture is 32 or 64 bit
 author: tuwi.dc
 
 levels:
@@ -25,14 +25,10 @@ tags:
 
   - kernel
 
-  - 
-
-
-
+  - ''
 
 ---
 ## Content
-# Find out if the system's architecture is 32 or 64 bit
 
 The easiest way to do it is executing:
 ```
@@ -63,11 +59,10 @@ To find out *just* your system’s architecture, you would run :
 ```
 $ ??? ???
 ```
-
-* `uname`
-* `-m`
-* `-s`
-* `-arch`
+*`uname`
+*`-m`
+*`-s`
+*`-arch`
 
 ---
 ## Revision
@@ -76,12 +71,12 @@ To find out your system’s arhitecture you would run :
 ```
 $ ???
 ```
-
-* `uname -a`
-* `uname -s`
-* `uname -arch`
+*`uname -a`
+*`uname -s`
+*`uname -arch`
 
 ---
 ## Footnotes
+
 [1:32-bit of Context]
 i386 means you are running a 32-bit kernel supporting codes compatible with the Intel 80386 processor - which is from 1985. The same principle applies for every other `iXXX` output, all being 32-bit.

@@ -1,4 +1,4 @@
----
+# Lockdown **Cronjobs**
 author: catalin
 
 levels:
@@ -13,13 +13,10 @@ type: normal
 
 category: tip
 
-
-
 parent: practical-cron
 
 ---
 ## Content
-# Lockdown **Cronjobs**
 
 `cron`, the system process used to *schedule* tasks has a built-in feature that let's you determine who may or who may not run jobs with it.
 
@@ -44,7 +41,6 @@ Disable `cron` access for every user:
 ```
 $ ??? ???>>/etc/???
 ```
-
 * `echo`
 * `ALL`
 * `cron.deny`
@@ -61,9 +57,7 @@ $ ??? ???>>/etc/???
 You can deny users access to *cronjobs* by adding them to 
 
 ???.
-
-* /etc/cron.deny
-* /etc/cron.allow
-* /crontab/deny
-* /cron/.deny
-
+*/etc/cron.deny
+*/etc/cron.allow
+*/crontab/deny
+*/cron/.deny

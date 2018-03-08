@@ -1,4 +1,4 @@
----
+# Granting `root` access to a user
 author: tuwi.dc
 
 levels:
@@ -14,29 +14,18 @@ type: normal
 category: how to
 
 tags:
-
   - linux
-
   - user
-
   - group
-
   - terminal
-
   - sudo
-
   - usermod
-
   - workout
-
   - introduction
-
-
 
 
 ---
 ## Content
-# Granting `root` access to a user
 
 To give a specific user `root` access, you need to add the user to the `root` permissions group.
 
@@ -72,9 +61,7 @@ Give `enkiUser` root access:
 ```
 $ usermod ??? ??? enkiUser
 ```
-
-* `-aG`
-* `root`
-* `-ag`
-* `admin`
-
+*`-aG`
+*`root`
+*`-ag`
+*`admin`

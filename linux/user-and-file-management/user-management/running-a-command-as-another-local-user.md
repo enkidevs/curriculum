@@ -1,4 +1,4 @@
----
+# Running a command as another local user
 author: dean
 
 levels:
@@ -10,17 +10,12 @@ type: normal
 category: tip
 
 tags:
-
   - sudo-su-local-shell
-
   - workout
-
-
 
 
 ---
 ## Content
-# Running a command as another local user
 
 To execute a command as a different user, call **sudo** with the ***-u*** argument:
 ```bash
@@ -41,9 +36,7 @@ test
 ## Revision
 
 The `sudo` flag that allows you to run commands as another user is ??? .
-
-* `-u`
-* `-n`
-* `-t`
-* `-R`
-
+*`-u`
+*`-n`
+*`-t`
+*`-R`

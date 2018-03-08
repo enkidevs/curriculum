@@ -1,4 +1,4 @@
----
+# Make use of `ss`
 author: catalin
 
 levels:
@@ -11,15 +11,12 @@ type: normal
 
 category: how to
 
-
 links:
 
-  - '[Example of ss capabilities](http://www.binarytides.com/linux-ss-command/){website}'
-
+  - '[Example of ss capabilities](http://www.binarytides.com/linux-ss-command/)'
 
 ---
 ## Content
-# Make use of `ss`
 
 `ss` command line utility is used to get socket statistics. It replaces the deprecated `netstat` command.
 
@@ -80,14 +77,12 @@ u_seq ESTAB  0      0     @0001c 30591
                           * 30592
       users:(("chrome",pid=3057,fd=10))
 ```
-
 ---
 ## Practice
 
 The explicit number of TCP connections is part of
 
 ???'s output.
-
 
 * `ss -s`
 * `ss -s`
@@ -98,9 +93,7 @@ The explicit number of TCP connections is part of
 
 `ss` is the replacement of the deprecated ??? command.
 
-
 * netstat
 * ip
 * ifconfig
 * ports
-

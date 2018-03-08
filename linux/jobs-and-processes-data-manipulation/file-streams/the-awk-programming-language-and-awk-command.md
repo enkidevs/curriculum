@@ -1,4 +1,4 @@
----
+# The AWK Programming Language And `awk` Command
 author: jfarmer
 
 levels:
@@ -9,19 +9,16 @@ levels:
 
 type: normal
 
-category: must-know
-
 inAlgoPool: false
 
+category: must-know
 
 links:
 
   - '[AWK one-liners](http://www.pement.org/awk/awk1line.txt){website}'
 
-
 ---
 ## Content
-# The AWK Programming Language And `awk` Command
 
 AWK is a programming language for processing text files.  It views text files as a big table of data where the rows are records and the columns are fields.  By default AWK will treat each line as a record and each word in a line as a field, although one can change that behavior.
 
@@ -60,12 +57,11 @@ $ awk '{??? ???}'
 500.00
 29.99
 ```
-
-* `print`
-* `($2-$3)*$4`
-* `(&2-&3)*&4`
-* `(&1–&2)*&3`
-* `stdout`
+*`print`
+*`($2-$3)*$4`
+*`(&2-&3)*&4`
+*`(&1–&2)*&3`
+*`stdout`
 
 ---
 ## Revision
@@ -73,9 +69,7 @@ $ awk '{??? ???}'
 Which of the following commands cannot be simulated using an `awk` script? 
 
 ???
-
-* mv
-* sed
-* head
-* cut
-
+*mv
+*sed
+*head
+*cut

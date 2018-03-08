@@ -1,4 +1,4 @@
----
+# `nettop` and `jnettop`
 author: mihaiberq
 
 levels:
@@ -11,15 +11,13 @@ type: normal
 
 category: how to
 
-
 links:
 
-  - '[Nettop](http://www.unix.com/man-page/osx/1/nettop/){website}'
+    - '[Nettop](http://www.unix.com/man-page/osx/1/nettop/)'
 
 
 ---
 ## Content
-# `nettop` and `jnettop`
 
 `nettop` (MacOS) and its Debian/OpedBSD equivalent `jnettop` are command line tools for monitoring network traffic. They both display the traffic going in and out of the machine and the ports used.
 
@@ -66,7 +64,6 @@ You might need to run them with *sudo* to work.
 
 ???
 
-
 * monitor traffic
 * enable and disable ports
 * verify how the DNS resolves
@@ -77,9 +74,7 @@ You might need to run them with *sudo* to work.
 
 The ??? equivalent of `jnettop` is `nettop`.
 
-
 * MacOS
 * Debian
 * Windows
 * OpenBSD
-

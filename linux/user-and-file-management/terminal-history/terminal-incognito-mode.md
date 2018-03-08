@@ -1,4 +1,4 @@
----
+# Terminal incognito mode
 author: tuwi.dc
 
 levels:
@@ -16,27 +16,17 @@ type: normal
 category: feature
 
 tags:
-
   - terminal
-
   - bash
-
   - linux
-
   - history
-
   - commands
-
   - incognito
-
   - workout
-
-
 
 
 ---
 ## Content
-# Terminal incognito mode
 
 To temporarily disable command logging in the terminal, use:
 ```bash
@@ -63,12 +53,11 @@ Complete the snippet to disable command tracking:
 ```
 $ ??? ??? ???
 ```
-
-* `set`
-* `+o`
-* `history`
-* `-o`
-* `shopt`
+*`set`
+*`+o`
+*`history`
+*`-o`
+*`shopt`
 
 ---
 ## Revision
@@ -78,7 +67,5 @@ $ set -o history
 ```
 ??? command tracking.
 
-
-* enables
-* disables
-
+*enables
+*disables

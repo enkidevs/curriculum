@@ -1,25 +1,20 @@
----
+# The `test` Built-in
 author: mihaiberq
 
 levels:
-
-  - basic
-
-  - medium
+    - basic
+    - medium
 
 type: normal
 
 category: feature
 
-
 links:
 
-  - '[Classic test command](http://wiki.bash-hackers.org/commands/classictest){website}'
-
+    - '[Classic test command](http://wiki.bash-hackers.org/commands/classictest)'
 
 ---
 ## Content
-# The `test` Built-in
 
 Previously, you've seen the `&&` and `||` operators that have different results based on whether other commands were successful or not. The `test` built-in allows us to evaluate expressions and, therefore, to have a different approach to using `&&` and `||`.
 
@@ -66,7 +61,6 @@ $ chmod +x script.sh
 $ test ??? script.sh && echo "executable"
 # executable
 ```
-
 * `-e`
 * `-x`
 * `-ex`
@@ -80,10 +74,8 @@ The equivalent syntax for the `test <expr>` command is
 
 ???
 
-
 * `[ <expr> ]`
 * `[<expr>]`
 * `(( <expr> ))`
 * `$(<expr>)`
 * `!<expr>`
-

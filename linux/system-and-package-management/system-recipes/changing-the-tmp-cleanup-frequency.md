@@ -1,4 +1,4 @@
----
+# Changing the `/tmp` cleanup frequency
 author: tuwi.dc
 
 levels:
@@ -21,13 +21,10 @@ tags:
 
   - cleanup
 
-
-
 parent: practical-cron
 
 ---
 ## Content
-# Changing the `/tmp` cleanup frequency
 
 The `/tmp` directory is cleared by default at every boot as the `TMPTIME` in `/etc/default/rcS` is 0 by default.
 
@@ -57,11 +54,10 @@ A negative value of `TMPTIME`  tells the system to delete the tmp folder
 
 ??? .
 
-
-* never
-* every day
-* when a process stops using them
-* after a reboot
+*never
+*every day
+*when a process stops using them
+*after a reboot
 
 ---
 ## Revision
@@ -70,9 +66,7 @@ The default `TMPTIME`  (which clears tmp directory after every reboot) value is
 
 ??? .
 
-
-* 0
-* -1
-* 1
-* 7
-
+*0
+*-1
+*1
+*7

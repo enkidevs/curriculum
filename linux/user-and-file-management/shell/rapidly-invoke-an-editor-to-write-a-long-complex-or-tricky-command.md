@@ -1,4 +1,4 @@
----
+# Rapidly invoke an editor to write a long, complex, or tricky command
 author: tuwi.dc
 
 levels:
@@ -23,13 +23,10 @@ tags:
 
   - terminal
 
-
-
 notes: ''
 
 ---
 ## Content
-# Rapidly invoke an editor to write a long, complex, or tricky command
 
 Next time you are using your shell and need to enter a long command,
 try `ctrl-x e` (press `x` and `e` while holding control key).
@@ -43,21 +40,19 @@ To open the line you have written so far in the shell into a text editor, you wo
 
 ??? .
 
-
-* ctrl-x-e
-* ctrl-x
-* ctrl-r
+*ctrl-x-e
+*ctrl-x
+*ctrl-r
 
 ---
 ## Quiz
-### which option does not belong?
-```
-Choose the odd one out in the following list.```
 
- ???
+headline: which option does not belong?
 
-* less
-* vi
-* vim
-* nano
+question: Choose the odd one out in the following list.
 
+answers:
+  - less
+  - vi
+  - vim
+  - nano

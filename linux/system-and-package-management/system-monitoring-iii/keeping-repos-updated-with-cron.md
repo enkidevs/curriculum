@@ -1,4 +1,4 @@
----
+# Keeping repos updated with `cron`
 author: tuwi.dc
 
 levels:
@@ -29,14 +29,10 @@ tags:
 
   - terminal
 
-  - 
-
-
-
+  - ''
 
 ---
 ## Content
-# Keeping repos updated with `cron`
 
 It is good practice to keep your repositories updated. This reduces update time when upgrades are required. 
 
@@ -52,4 +48,3 @@ Append:
 ```
 
 This will only update the repos, leaving the system ready to be upgraded.
-

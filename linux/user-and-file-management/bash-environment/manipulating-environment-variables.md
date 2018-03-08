@@ -1,4 +1,4 @@
----
+# Manipulating Environment Variables
 author: jfarmer
 
 levels:
@@ -9,20 +9,14 @@ levels:
 
 type: normal
 
-category: must-know
-
 inAlgoPool: false
 
+category: must-know
+
 tags:
-
   - introduction
-
-
-
-
 ---
 ## Content
-# Manipulating Environment Variables
 
 There are four things you might want to do to an environment variable, which we'll refer to as "variable" from here on out:
 
@@ -104,4 +98,3 @@ jesse@host ~ $ echo $FOOD
 
 jesse@host $
 ```
-

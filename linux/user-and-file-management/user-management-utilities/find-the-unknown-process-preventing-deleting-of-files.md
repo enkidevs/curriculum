@@ -1,4 +1,4 @@
----
+# Find the unknown process preventing deleting of files
 author: nene
 
 levels:
@@ -14,9 +14,7 @@ type: normal
 category: hack
 
 tags:
-
   - files
-
   - workout
 
 
@@ -24,10 +22,8 @@ links:
 
   - '[linux.die.net](http://linux.die.net/man/1/fuser){website}'
 
-
 ---
 ## Content
-# Find the unknown process preventing deleting of files
 
 Sometimes when deleting a file, the error "File is already in use" is encountered, with further trouble locating the process using the file.
 
@@ -46,9 +42,7 @@ Complete the command to kill the processes that are using a file :
 ```
 $ ??? ??? file_name
 ```
-
-* `fuser`
-* `-k`
-* `-v`
-* `kill`
-
+*`fuser`
+*`-k`
+*`-v`
+*`kill`

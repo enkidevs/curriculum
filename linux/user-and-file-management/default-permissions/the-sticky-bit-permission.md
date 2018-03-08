@@ -1,4 +1,4 @@
----
+# The `sticky bit` permission
 author: tuwi.dc
 
 levels:
@@ -10,25 +10,16 @@ type: normal
 category: feature
 
 tags:
-
   - linux
-
   - terminal
-
   - permissions
-
   - sticky bit
-
   - deep
-
   - workout
-
-
 
 
 ---
 ## Content
-# The `sticky bit` permission
 
 The sticky bit is a permission bit that protects the files within a directory. If the directory has the sticky bit set, a file can be deleted only by the owner of the file, the owner of the directory, or by root.
 
@@ -55,9 +46,7 @@ $ chmod -t file
 The sticky bit prevents
 
 ???.
-
-* other users from deleting the file
-* the owner of the file from deleting the file
-* the root from deleting the file
-* the owner from moving the file
-
+*other users from deleting the file
+*the owner of the file from deleting the file
+*the root from deleting the file
+*the owner from moving the file

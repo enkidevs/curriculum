@@ -1,4 +1,4 @@
----
+# Math in the terminal with `bc`
 author: catalin
 
 levels:
@@ -11,12 +11,8 @@ type: normal
 
 category: tip
 
-
-
-
 ---
 ## Content
-# Math in the terminal with `bc`
 
 As some shells offer the option of doing mathematical operations natively while others rely on `expr` to evaluate expressions, porting calculations between **UNIX** systems can raise some problems.
 
@@ -56,7 +52,6 @@ Print the result of the following expressions, but only show the first 5 digits:
 $ ??? "???=???; 58/21" 
          | ???
 ```
-
 * `echo`
 * `scale`
 * `5`
@@ -72,9 +67,7 @@ You can compute a mathematical expression in terminal by piping it through:
 ```
 $ echo '(4-2)^3*2` | ???
 ```
-
-* `bc`
-* `math`
-* `grep`
-* `bo`
-
+*`bc`
+*`math`
+*`grep`
+*`bo`

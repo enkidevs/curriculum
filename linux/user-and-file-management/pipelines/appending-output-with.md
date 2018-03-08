@@ -1,4 +1,4 @@
----
+# Appending Output With `>>`
 author: jfarmer
 
 levels:
@@ -9,22 +9,15 @@ levels:
 
 type: normal
 
-category: must-know
-
 inAlgoPool: false
 
+category: must-know
+
 tags:
-
   - introduction
-
   - workout
-
-
-
-
 ---
 ## Content
-# Appending Output With `>>`
 
 Using `>` to redirect the output of a command to a file will cause the entire contents of the file to be overwritten.  Consider this example, which will write the directory contents of your home directory to a file named `homedir_contents.txt`:
 
@@ -70,9 +63,7 @@ Note that for appending purposes the use of the `cat` command is recomanded.
 
  whereas `>>`  ??? .
 
-
 * writes the stdout to a file, overwriting its content
 * appends stdout stream to a file
 * creates a new folder
 * deletes a file
-

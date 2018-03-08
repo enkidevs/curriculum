@@ -1,4 +1,4 @@
----
+# Adding New Users With `useradd`
 author: jfarmer
 
 levels:
@@ -9,20 +9,14 @@ levels:
 
 type: normal
 
-category: must-know
-
 inAlgoPool: false
 
+category: must-know
+
 tags:
-
   - workout
-
-
-
-
 ---
 ## Content
-# Adding New Users With `useradd`
 
 We can use the `useradd` command to add new user accounts to the system.  The simplest usage is as follows:
 
@@ -56,11 +50,10 @@ On Debian systems, it's recommended you use the `adduser` command rather than th
 In which case will the new user *not* be able to login? 
 
 ???
-
-* It doesn’t have a password set up.
-* It doesn’t have a group assigned.
-* It doesn’t have a home directory. 
-* It doesn’t have an account picture.
+*It doesn’t have a password set up.
+*It doesn’t have a group assigned.
+*It doesn’t have a home directory. 
+*It doesn’t have an account picture.
 
 ---
 ## Revision
@@ -69,11 +62,9 @@ Set up a new user with their own home directory:
 ```
 $ ??? ??? ??? ???
 ```
-
-* `sudo`
-* `useradd`
-* `-m`
-* `newuser`
-* `-G`
-* `root`
-
+*`sudo`
+*`useradd`
+*`-m`
+*`newuser`
+*`-G`
+*`root`

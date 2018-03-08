@@ -1,4 +1,4 @@
----
+# Duplicate pipe content with `tee`
 author: catalin
 
 levels:
@@ -11,19 +11,14 @@ type: normal
 
 category: how to
 
-tags:
-
-  - workout
-
-
 links:
 
   - '[en.wikipedia.org](https://en.wikipedia.org/wiki/Tee_(command)){website}'
 
-
+tags:
+  - workout
 ---
 ## Content
-# Duplicate pipe content with `tee`
 
 To duplicate the content while piping you can use the `tee` utility. 
 
@@ -49,7 +44,6 @@ Print the output of `ls` command in two files:
 ```
 $ ??? ??? ??? fileone filetwo
 ```
-
 * `ls`
 * `|`
 * `tee`
@@ -66,7 +60,6 @@ Print the output of `ls` command in two files:
 ```
 $ ??? ??? ??? fileone filetwo
 ```
-
 * `ls`
 * `|`
 * `tee`
@@ -75,4 +68,3 @@ $ ??? ??? ??? fileone filetwo
 * `>>`
 * `>`
 * `<`
-

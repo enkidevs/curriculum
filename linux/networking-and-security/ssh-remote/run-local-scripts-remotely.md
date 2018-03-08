@@ -1,4 +1,4 @@
----
+# Run local scripts remotely
 author: catalin
 
 levels:
@@ -11,13 +11,10 @@ type: normal
 
 category: how to
 
-
-
 parent: ssh-pipes
 
 ---
 ## Content
-# Run local scripts remotely
 
 Let's say you locally have a script that you want to run on a remote machine.
 
@@ -37,11 +34,9 @@ Run a local script on a remote machine:
 $ ??? ??? 'bash -s' 
         ??? enki.sh
 ```
-
-* `ssh`
-* `user@server`
-* `<`
-* `|`
-* `cp`
-* `user`
-
+*`ssh`
+*`user@server`
+*`<`
+*`|`
+*`cp`
+*`user`

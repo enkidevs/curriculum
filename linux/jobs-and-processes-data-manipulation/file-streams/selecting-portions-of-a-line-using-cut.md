@@ -1,4 +1,4 @@
----
+# Selecting Portions of A Line Using `cut`
 author: jfarmer
 
 levels:
@@ -9,16 +9,12 @@ levels:
 
 type: normal
 
-category: must-know
-
 inAlgoPool: false
 
-
-
+category: must-know
 
 ---
 ## Content
-# Selecting Portions of A Line Using `cut`
 
 The `cut` command allows us to "cut out" specified portions of each line of a file.  You can either pass the name of a file to `cut` directly or pass it output from another program via the `|` operator.
 
@@ -85,20 +81,17 @@ Print the *subtopic* name using `cut` :
 ```
 $ cut ??? ??? ???
 ```
-
-* `-d"/"`
-* `-f2`
-* `enki.txt`
-* `-d" "`
-* `-f1`
+*`-d"/"`
+*`-f2`
+*`enki.txt`
+*`-d" "`
+*`-f1`
 
 ---
 ## Revision
 
 The flag used to specify the delimiter of the `cut` command is ???.
-
-* -d
-* -f
-* -a
-* -F
-
+*-d
+*-f
+*-a
+*-F

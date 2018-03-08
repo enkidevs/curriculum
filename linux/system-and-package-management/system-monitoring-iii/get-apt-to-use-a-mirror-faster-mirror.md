@@ -1,4 +1,4 @@
----
+# Get `apt` to use a mirror / faster mirror
 author: tuwi.dc
 
 levels:
@@ -23,12 +23,8 @@ tags:
 
   - ubuntu
 
-
-
-
 ---
 ## Content
-# Get `apt` to use a mirror / faster mirror
 
 `apt-get` now supports a 'mirror' method that will automatically select a good mirror based on your location. 
 
@@ -69,8 +65,6 @@ Lucid (10.04), Maverick (10.10), Natty (11.04), And Oneiric (11.10) users can re
 You can speed up your download by using 
 
 ??? .
-
-* mirrors
-* shops
-* packages
-
+*mirrors
+*shops
+*packages

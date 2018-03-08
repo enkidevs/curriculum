@@ -1,4 +1,4 @@
----
+# Easy way of sharing files
 author: catalin
 
 levels:
@@ -11,12 +11,8 @@ type: normal
 
 category: how to
 
-
-
-
 ---
 ## Content
-# Easy way of sharing files
 
 File transfer on the network without setting up extra software can be easily achieved using `woof` utility.
 
@@ -47,9 +43,7 @@ $ ./woof -s
 
 A quick way of sharing files is using ??? utility.
 
-
-* woof
-* mv
-* ssh
-* share
-
+*woof
+*mv
+*ssh
+*share

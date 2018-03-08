@@ -1,4 +1,4 @@
----
+# Conditional command execution (`&&` operator)
 author: nene
 
 levels:
@@ -12,15 +12,11 @@ type: normal
 category: must-know
 
 tags:
-
   - chaining operators
-
-
 
 
 ---
 ## Content
-# Conditional command execution (`&&` operator)
 
 Use the `&&` operator to execute two consecutive commands in order.
 
@@ -39,8 +35,6 @@ The above creates *newFolder* and cd into it.
 
 `&&` operator is used to execute a second command if the first one ??? .
 
-
-* succeeds
-* fails
-* is not found
-
+*succeeds
+*fails
+*is not found

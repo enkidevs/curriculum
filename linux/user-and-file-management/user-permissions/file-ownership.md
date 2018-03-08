@@ -86,4 +86,3 @@ You can use `???` to see which user or group owns a specific *file*.
 * `ls -a`
 * `ls -o`
 * `ls -d`
-

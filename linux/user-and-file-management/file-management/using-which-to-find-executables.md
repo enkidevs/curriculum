@@ -1,4 +1,4 @@
----
+# Using `which` To Find Executables
 author: jfarmer
 
 levels:
@@ -9,22 +9,15 @@ levels:
 
 type: normal
 
-category: must-know
-
 inAlgoPool: false
 
+category: must-know
+
 tags:
-
   - introduction
-
   - workout
-
-
-
-
 ---
 ## Content
-# Using `which` To Find Executables
 
 When you type the name of a program at the shell prompt, your shell will use the `PATH` environment variable to determine which executable to run.  Short of looking through all the directories listed in `PATH` yourself, how do you know *which* executable your shell will execute?
 
@@ -59,7 +52,6 @@ There are two major use cases for `which`:
 ???
 
 command will tell you what executable your shell would be running after typing a command.
-
 * which
 * try
 * ps
@@ -68,14 +60,13 @@ command will tell you what executable your shell would be running after typing a
 
 ---
 ## Quiz
-### Do you know how to find the location of an executable?
-```
-Which built-in command returns the path to an executable?```
 
- ???
+headline: Do you know how to find the location of an executable?
 
-* which ls
-* type ls
-* path ls
-* ll ls
+question: Which built-in command returns the path to an executable?
 
+answers:
+  - which ls
+  - type ls
+  - path ls
+  - ll ls

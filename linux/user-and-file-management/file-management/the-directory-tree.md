@@ -1,4 +1,4 @@
----
+# The Directory Tree
 author: jfarmer
 
 levels:
@@ -9,22 +9,15 @@ levels:
 
 type: normal
 
-category: tip
-
 inAlgoPool: false
 
+category: tip
+
 tags:
-
   - introduction
-
   - workout
-
-
-
-
 ---
 ## Content
-# The Directory Tree
 
 The Linux filesystem is laid out as a "directory tree".  There is a single root directory (denoted `/`), every other directory has a "parent" directory, and every file is contained in a single directory.
 
@@ -63,10 +56,9 @@ So, for example, `/usr/share/..` is a valid directory path and refers to the par
 In what directory will you be after issuing `cd .` ? 
 
 ???
-
-* In the same directory
-* In the parent directory
-* In the first child directory
+*In the same directory
+*In the parent directory
+*In the first child directory
 
 ---
 ## Revision
@@ -74,8 +66,6 @@ In what directory will you be after issuing `cd .` ?
 In what directory will you be after issuing `cd ..` ? 
 
 ???
-
-* In the parent directory
-* In the same directory
-* In the first child directory
-
+*In the parent directory
+*In the same directory
+*In the first child directory

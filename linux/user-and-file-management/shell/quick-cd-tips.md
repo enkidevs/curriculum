@@ -1,4 +1,4 @@
----
+# Quick `cd` tips
 author: tuwi.dc
 
 levels:
@@ -23,13 +23,10 @@ tags:
 
   - terminal
 
-
-
 notes: ''
 
 ---
 ## Content
-# Quick `cd` tips
 
 The `pushd` command saves the current working directory in memory so it can be returned to at any time.
 
@@ -63,7 +60,6 @@ $ cd -
 Directories saved by `pushd` can be seen using
 
 ???
-
 * dirs
 * cd -
 * topd
@@ -75,9 +71,7 @@ Directories saved by `pushd` can be seen using
 `pushd` ,`popd`  and `dirs` are shell built-ins which allow you to manipulate the
 
 ???
-
 * directory stack
 * switch
 * directory queue
 * memory
-

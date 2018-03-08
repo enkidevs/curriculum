@@ -1,4 +1,4 @@
----
+# Repeating commands with `watch`
 author: tuwi.dc
 
 levels:
@@ -21,13 +21,10 @@ tags:
 
   - connections
 
-
-
 notes: ''
 
 ---
 ## Content
-# Repeating commands with `watch`
 
 Using **watch** allows us to run a command repeatedly, at specified time intervals.
 The default is two-second intervals, but this may be changed with the `-n` option.
@@ -55,14 +52,13 @@ Write "5" to standard output every 2 seconds:
 ```
 $ ??? ??? ??? ???
 ```
-
-* `watch`
-* `-n`
-* `2`
-* `"echo 5"`
-* `"print 5"`
-* `-m`
-* `5`
+*`watch`
+*`-n`
+*`2`
+*`"echo 5"`
+*`"print 5"`
+*`-m`
+*`5`
 
 ---
 ## Revision
@@ -70,9 +66,7 @@ $ ??? ??? ??? ???
 ??? 
 
 allows you to run a command repeatedly at specified time intervals.
-
-* `watch` 
-* `time` 
-* `timer` 
-* `repeat`
-
+*`watch` 
+*`time` 
+*`timer` 
+*`repeat`

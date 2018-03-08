@@ -1,4 +1,4 @@
----
+# Quick `bash` shortcuts
 author: tuwi.dc
 
 levels:
@@ -16,29 +16,18 @@ type: normal
 category: must-know
 
 tags:
-
   - linux
-
   - bash
-
   - terminal
-
   - keybind
-
   - readline
-
   - alt
-
   - ctrl
-
   - workout
-
-
 
 
 ---
 ## Content
-# Quick `bash` shortcuts
 
 To effectively construct commands on the command line make use of the following hotkeys:
 - `ctrl-w` to delete the last word;
@@ -61,12 +50,11 @@ $ ls |-l ~/
 # ctrl-u will ???
 $ ls -l| ~/
 ```
-
-* delete `ls`
-* delete `-l ~/`
-* delete `ls -l`
-* move the cursor to the end of line
-* move the cursor to the beginning of the line
+*delete `ls`
+*delete `-l ~/`
+*delete `ls -l`
+*move the cursor to the end of line
+*move the cursor to the beginning of the line
 
 ---
 ## Revision
@@ -76,9 +64,7 @@ What happens when you press the following keys in the terminal?
 ctrl-a ???
 ctrl-k ???
 ```
-
-* move to the start of the line
-* delete up to the end line
-* move to the end of the line
-* delete all the way back to the start line
-
+*move to the start of the line
+*delete up to the end line
+*move to the end of the line
+*delete all the way back to the start line

@@ -1,4 +1,4 @@
----
+# The `setgid` permission
 author: catalin
 
 levels:
@@ -14,17 +14,11 @@ type: normal
 category: must-know
 
 tags:
-
   - deep
-
   - workout
-
-
-
 
 ---
 ## Content
-# The `setgid` permission
 
 The `setgid` permission stands for **set group id**. This permission is similar to `setuid`, except that the process's effective group ID is changed to the *group owner* of the file, and access of a *user* is granted based on permissions assigned to that group. Therefore, the file belongs to the group that owns the directory, not to the user's group ownership.
 
@@ -64,7 +58,6 @@ If a user of group `test` creates a new file in that directory, which group will
 
 ???
 
-
 * enki
 * test
 * both groups
@@ -77,11 +70,9 @@ How do you apply `setgid` bit to a file?
 $ ??? ??? myfile
 ```
 
-
 * `chmod`
 * `g+s`
 * `g-s`
 * `u+s`
 * `a-s`
 * `perm`
-

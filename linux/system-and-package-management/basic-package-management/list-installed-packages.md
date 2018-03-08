@@ -1,4 +1,4 @@
----
+# List installed packages
 author: tuwi.dc
 
 levels:
@@ -35,13 +35,10 @@ tags:
 
   - grep
 
-
-
 notes: ''
 
 ---
 ## Content
-# List installed packages
 
 We can get a list of all the installed packages on a Debian / Ubuntu server by issuing:
 
@@ -74,10 +71,9 @@ $ yum list installed "package_name"
 It’s good practice to add the list of installed packages to a new file because 
 
 ???.
-
-* it makes the recovery process easier
-* it is easier to list them again
-* it is easier to update them
+*it makes the recovery process easier
+*it is easier to list them again
+*it is easier to update them
 
 ---
 ## Revision
@@ -91,8 +87,6 @@ $ rpm -qa
 #???
 $ pkg_version 
 ```
-
-* `Debian`
-* `RedHat/Fedora`
-* `BSD`
-
+*`Debian`
+*`RedHat/Fedora`
+*`BSD`

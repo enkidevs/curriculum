@@ -1,4 +1,4 @@
----
+# The Basics of Environment Variables
 author: jfarmer
 
 levels:
@@ -11,12 +11,8 @@ type: normal
 
 category: must-know
 
-
-
-
 ---
 ## Content
-# The Basics of Environment Variables
 
 An *environment variable* is a dynamic, named variable that can affect the way processes behave on a computer.  For example, a process might look up the `HOME` environment variable to determine the current user's home directory.
 
@@ -69,10 +65,8 @@ How would you list all environment variables’ values?
 ```
 $ ???
 ```
-
-* `env`
-* `$PATH`
-* `$ALL`
-* `vars`
-* `$VARS`
-
+*`env`
+*`$PATH`
+*`$ALL`
+*`vars`
+*`$VARS`

@@ -1,4 +1,4 @@
----
+# Limit the `wget` download rate
 author: tuwi.dc
 
 levels:
@@ -25,12 +25,8 @@ tags:
 
   - download
 
-
-
-
 ---
 ## Content
-# Limit the `wget` download rate
 
 You can limit the download rate of the `wget` command to avoid band saturation.
 
@@ -50,11 +46,9 @@ Limit the download rate for `file.iso`  to 1MB:
 $ ??? ??? ??? 
       http://server.com/file.iso
 ```
-
-* `wget`
-* `—limit-rate`
-* `1m`
-* `1MB`
-* `-L`
-* `ds`
-
+*`wget`
+*`—limit-rate`
+*`1m`
+*`1MB`
+*`-L`
+*`ds`

@@ -1,4 +1,4 @@
----
+# Installing a `.deb` package from the terminal
 author: tuwi.dc
 
 levels:
@@ -29,12 +29,8 @@ tags:
 
   - terminal
 
-
-
-
 ---
 ## Content
-# Installing a `.deb` package from the terminal
 
 To install a `deb` package:
 ```
@@ -61,12 +57,11 @@ The missing dependencies error thrown by `dpkg` can be fixed by:
 ```
 $ ??? ??? ??? 
 ```
-
-* `apt-get`
-* `install` 
-* `-f`
-* `dpkg`
-* `update`
+*`apt-get`
+*`install` 
+*`-f`
+*`dpkg`
+*`update`
 
 ---
 ## Revision
@@ -75,10 +70,8 @@ The usual syntax for installing a `deb` package is:
 ```
 $ ??? ??? ???
 ```
-
-* `dpkg`
-* `-i`
-* `Deb_package_name`
-* `install`
-* `apt-get`
-
+*`dpkg`
+*`-i`
+*`Deb_package_name`
+*`install`
+*`apt-get`

@@ -1,4 +1,4 @@
----
+# Image manipulation  using `convert`
 author: tuwi.dc
 
 levels:
@@ -27,18 +27,15 @@ tags:
 
   - ImageMagic
 
+notes: |+
+
 
 links:
 
   - '[www.imagemagick.org](http://www.imagemagick.org/Usage/){website}'
 
-notes: |+
-
-
-
 ---
 ## Content
-# Image manipulation  using `convert`
 
 `convert`[1] can be used to change image formats as well as resize, crop, rotate and many other options. Its basic structure is:
 ```
@@ -64,7 +61,6 @@ $ ??? enki.png ???
   ??? newEnki.jpg
 ```
 
-
 * `convert`
 * `-resize`
 * `x200`
@@ -75,6 +71,7 @@ $ ??? enki.png ???
 
 ---
 ## Footnotes
+
 [1:Where to get it]
 Part of ` imagemagick` suit of tools.
 [2:Size]

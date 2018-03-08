@@ -1,4 +1,4 @@
----
+# Users And Groups On Linux
 author: jfarmer
 
 levels:
@@ -9,22 +9,15 @@ levels:
 
 type: normal
 
-category: must-know
-
 inAlgoPool: false
 
+category: must-know
+
 tags:
-
   - introduction
-
   - workout
-
-
-
-
 ---
 ## Content
-# Users And Groups On Linux
 
 Linux is a multiuser operating system.  Like any multiuser operating system, it has a notion of "permissions", since by default one doesn't want one user to be able to edit another user's files (or edit system files without proving they're an administrator).  There are two concepts central to Linux's permissions: users and groups.
 
@@ -59,10 +52,8 @@ You can see the groups a user is in by issuing:
 ```
 $ ??? ???
 ```
-
-* `groups`
-* `user`
-* `group`
-* `ls -g`
-* `-groups`
-
+*`groups`
+*`user`
+*`group`
+*`ls -g`
+*`-groups`

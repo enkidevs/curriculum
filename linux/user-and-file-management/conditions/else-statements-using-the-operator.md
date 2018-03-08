@@ -1,4 +1,4 @@
----
+# `else` statements using the `||` operator 
 author: nene
 
 levels:
@@ -12,15 +12,11 @@ type: normal
 category: must-know
 
 tags:
-
   - chaining operators
-
-
 
 
 ---
 ## Content
-# `else` statements using the `||` operator 
 
 The `OR` operator (`||`) allows you to execute the second command _if and only if_ the first command fails.
 
@@ -49,8 +45,6 @@ $ rm enki || echo 'fail'
 
 ??? .
 
-
-* the first command fails
-* the first command succeeds
-* "enki" is already installed
-
+*the first command fails
+*the first command succeeds
+*"enki" is already installed

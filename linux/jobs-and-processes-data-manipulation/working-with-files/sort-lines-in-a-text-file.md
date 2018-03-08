@@ -1,4 +1,4 @@
----
+# `sort` lines in a text file
 author: catalin
 
 levels:
@@ -11,15 +11,12 @@ type: normal
 
 category: how to
 
-
 links:
 
   - '[www.computerhope.com](http://www.computerhope.com/unix/usort.htm){website}'
 
-
 ---
 ## Content
-# `sort` lines in a text file
 
 The Linux and Unix `sort` command is used to sort content in text files line by line.
 
@@ -66,7 +63,6 @@ $ ??? ??? ???
           output_enki enki
 ```
 
-
 * `sort`
 * `-r`
 * `-o`
@@ -81,10 +77,8 @@ Check if the `enki` file is sorted:
 ```
 $ ??? ??? enki.txt
 ```
-
-* `sort`
-* `-c`
-* `-r`
-* `awk`
-* `nl`
-
+*`sort`
+*`-c`
+*`-r`
+*`awk`
+*`nl`

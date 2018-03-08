@@ -1,4 +1,4 @@
----
+# Quick port test with `netcat`
 author: tuwi.dc
 
 levels:
@@ -21,13 +21,10 @@ tags:
 
   - netcat
 
-
-
 notes: ''
 
 ---
 ## Content
-# Quick port test with `netcat`
 
 To be sure that we can communicate with a service sometimes the very first thing to do is verify manually that we can connect to it. 
 
@@ -74,10 +71,8 @@ You can test if a server’s *port 20* is open by issuing:
 $ ??? ??? 
       ??? 20
 ```
-
-* `nc`
-* `-z`
-* `server_address`
-* `-v`
-* `your_ip`
-
+*`nc`
+*`-z`
+*`server_address`
+*`-v`
+*`your_ip`

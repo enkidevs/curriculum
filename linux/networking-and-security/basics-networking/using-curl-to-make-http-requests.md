@@ -1,4 +1,4 @@
----
+# Using `curl` To Make HTTP Requests
 author: jfarmer
 
 levels:
@@ -9,19 +9,18 @@ levels:
 
 type: normal
 
-category: must-know
-
 inAlgoPool: false
 
+category: must-know
 
 links:
 
-  - '[More use cases](http://www.thegeekstuff.com/2012/04/curl-examples/){website}'
-
+  - >-
+    [More use
+    cases](http://www.thegeekstuff.com/2012/04/curl-examples/){website}
 
 ---
 ## Content
-# Using `curl` To Make HTTP Requests
 
 Virtually every Unix system comes with the `curl` command pre-installed.  `curl` allows us to simulate any HTTP request, although most commonly it's used to download files and webpages from the command-line.
 
@@ -62,10 +61,8 @@ $ ??? ??? ???
          https://catpictures.com/cat1.jpg
 ```
 
-
-* `curl`
-* `-o`
-* `cat.jpg`
-* `-O`
-* `-d`
-
+*`curl`
+*`-o`
+*`cat.jpg`
+*`-O`
+*`-d`

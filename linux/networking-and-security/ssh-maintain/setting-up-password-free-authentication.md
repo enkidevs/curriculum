@@ -1,4 +1,4 @@
----
+# Setting up password-free authentication
 author: tuwi.dc
 
 levels:
@@ -21,12 +21,8 @@ tags:
 
   - ssh-copy-id
 
-
-
-
 ---
 ## Content
-# Setting up password-free authentication
 
 To set up password-free authentication start by generating a pair of keys:
 ```
@@ -70,7 +66,6 @@ Complete the following code snippet such that, by running it, a SSH `rsa` key pa
 $ ??? -t ???
 ```
 
-
 * `ssh-keygen`
 * `rsa`
 * `ssh`
@@ -88,8 +83,6 @@ $ ??? -t ???
 The file on the server in which to add your ssh key to set up password-less authentication is
 
 ???
-
 * `~/.ssh/authorized_keys`
 * `~/ssh/authorized_keys`
 * `~/ssh/keys`
-

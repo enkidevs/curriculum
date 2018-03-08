@@ -1,4 +1,4 @@
----
+# Input And Output Redirection With `<` and `>`
 author: jfarmer
 
 levels:
@@ -9,22 +9,15 @@ levels:
 
 type: normal
 
-category: must-know
-
 inAlgoPool: false
 
+category: must-know
+
 tags:
-
   - introduction
-
   - workout
-
-
-
-
 ---
 ## Content
-# Input And Output Redirection With `<` and `>`
 
 The pipe operator `|` allows us to glue the `stdout` of one process to the `stdin` of another process.  However, it's also possible to make a process's `stdout` descriptor point directly to a file, so that everything written to stdout is actually written to a file.  We can do likewise for `stdin`, so that the contents of the file are read in automatically as input.
 
@@ -77,11 +70,10 @@ $ some_command < some_file.txt
 Which of the following can redirect the output of a process to a file? 
 
 ???
-
-* >
-* <
-* |
-* $
+*>
+*<
+*|
+*$
 
 ---
 ## Revision
@@ -94,9 +86,7 @@ Is the same as running:
 ```
 $ ??? ??? ???
 ```
-
-* `some_command`
-* `<`
-* `some_file.txt`
-* `>`
-
+*`some_command`
+*`<`
+*`some_file.txt`
+*`>`

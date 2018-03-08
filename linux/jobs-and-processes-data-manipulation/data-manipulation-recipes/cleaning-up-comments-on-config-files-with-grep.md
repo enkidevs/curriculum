@@ -1,4 +1,4 @@
----
+# Cleaning up comments on config files with `grep`
 author: tuwi.dc
 
 levels:
@@ -21,16 +21,15 @@ tags:
 
   - config files
 
+notes: ''
 
 links:
 
-  - '[www.thegeekstuff.com](http://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/){website}'
-
-notes: ''
+  - >-
+    [www.thegeekstuff.com](http://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/){website}
 
 ---
 ## Content
-# Cleaning up comments on config files with `grep`
 
 The `grep` command is most commonly used to search plain-text data sets for lines matching a regular expression. But that's not the only use for `grep`.
 
@@ -57,7 +56,6 @@ Display `.bashrc` without empty lines:
 $ ??? -v ??? ???
          ~/.bashrc
 ```
-
 * `grep`
 * `-e`
 * `'^$'`
@@ -71,9 +69,7 @@ What flag can be used with the `grep` command to enable regex matching?
 
 ???
 
-
 * `-e`
 * `-v`
 * `-r`
 * `-m`
-

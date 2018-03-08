@@ -1,4 +1,4 @@
----
+# How to analyse a server's log files
 author: tuwi.dc
 
 levels:
@@ -27,16 +27,16 @@ tags:
 
   - user-agent
 
+notes: ''
 
 links:
 
-  - '[A more in-depth article](http://www.the-art-of-web.com/system/logs/){website}'
-
-notes: ''
+  - >-
+    [A more in-depth
+    article](http://www.the-art-of-web.com/system/logs/){website}
 
 ---
 ## Content
-# How to analyse a server's log files
 
 There are many tools that allow you to generate reports on who is visiting your site, but you might find it useful to know how to do this by yourself. 
 
@@ -74,25 +74,24 @@ HTTP/1.0" 200 468 "-" "Googlebot/2.1
 # ???
 ```
 
-
-* `$4`
-* `$9`
-* `$3`
-* `$2`
+*`$4`
+*`$9`
+*`$3`
+*`$2`
 
 ---
 ## Revision
 
 To change the default `awk` field separator, the ??? flag is used.
 
-
-* -F
-* -S
-* -s
-* -f
+*-F
+*-S
+*-s
+*-f
 
 ---
 ## Footnotes
+
 [1:Format]
 - `%h`   = IP address of the client who made the request
 - `%l`   =  RFC 1413 identity of the client

@@ -1,4 +1,4 @@
----
+# Private key encryption with `OpenSSL`
 author: catalin
 
 levels:
@@ -11,12 +11,8 @@ type: normal
 
 category: how to
 
-
-
-
 ---
 ## Content
-# Private key encryption with `OpenSSL`
 
 You can use **OpenSSL** to achieve public/private encryption. This implies the existence of two keys - one public and one private. 
 
@@ -61,7 +57,6 @@ How do you extract your public key:
 $ ??? ??? -in private.pem 
 -out public.pem -outform PEM -pubout
 ```
-
 * `openssl`
 * `rsa`
 * `genrsa`
@@ -77,11 +72,11 @@ Generate the private/public key pair using openssl:
 ```
 $ openssl ??? ??? ???
 ```
-
-* `genrsa`
-* `-out`
-* `keys.pem`
+*`genrsa`
+*`-out`
+*`keys.pem`
 
 ---
 ## Footnotes
+
 [1:explanation] This creates a key file called private.pem that uses `2048` bits. This file actually has both the private and public keys.
