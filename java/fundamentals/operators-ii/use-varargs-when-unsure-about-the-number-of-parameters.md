@@ -1,4 +1,4 @@
----
+# Use _varargs_ when unsure about the number of parameters
 author: adamMontgomerie
 
 levels:
@@ -13,8 +13,6 @@ type: normal
 
 category: tip
 
-inAlgoPool: false
-
 tags:
 
   - parameters
@@ -25,15 +23,13 @@ tags:
 
   - arrays
 
-
 links:
 
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/javaOO/arguments.html#varargs){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/javaOO/arguments.html#varargs){website}
 
 ---
 ## Content
-# Use _varargs_ when unsure about the number of parameters
 
 Sometimes, it may be necessary to write a method that can take a variable amount of parameters. A simple example of this could be a method which takes prices and calculates a total cost.
 
@@ -54,4 +50,3 @@ Here, the price parameter can accept any number of `int`s. This is indicated by 
 int total1 = calculate(2, 54);
 int total2 = calculate(5, 10, 27, 19);
 ```
-

@@ -1,4 +1,4 @@
----
+# The `private` and `protected` Modifiers
 author: mihaiberq
 
 levels:
@@ -7,16 +7,12 @@ levels:
 
 type: normal
 
-category: must-know
-
 inAlgoPool: false
 
-
-
+category: must-know
 
 ---
 ## Content
-# The `private` and `protected` Modifiers
 
 The `private` access modifier makes variables and methods available within their class only. Having a `private` class or interface makes no sense (as they couldn't be used), so they do not accept this modifier. 
 
@@ -78,20 +74,17 @@ public class TestClass{
  }
 }
 ```
-
-* `public`
-* `private`
-* `protected`
-* ``
+*`public`
+*`private`
+*`protected`
+*``
 
 ---
 ## Revision
 
 A ??? field can only be accessed by the subclasses.
 
-
-* protected
-* private
-* public
-* static
-
+*protected
+*private
+*public
+*static

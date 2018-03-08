@@ -1,4 +1,4 @@
----
+# Getting time based on time zones
 author: fahimrahman
 
 levels:
@@ -13,23 +13,19 @@ type: normal
 
 category: feature
 
-inAlgoPool: false
-
 tags:
 
   - time
 
   - timezone
 
-
 links:
 
-  - '[docs.oracle.com](http://docs.oracle.com/javase/7/docs/api/java/util/TimeZone.html){website}'
-
+  - >-
+    [docs.oracle.com](http://docs.oracle.com/javase/7/docs/api/java/util/TimeZone.html){website}
 
 ---
 ## Content
-# Getting time based on time zones
 
 The `TimeZone` class can be used to retrieve the time zone of a particular location and can also figure out daylight savings. 
 
@@ -74,11 +70,10 @@ What method can be used to get the timezone of the location where the program is
 
 `???`
 
-
-* `TimeZone.getDefault()` 
-* `TimeZone.getStandard()` 
-* `TimeZone.getLocalTimeZone()` 
-* `TimeZone.getTimeZone()`
+*`TimeZone.getDefault()` 
+*`TimeZone.getStandard()` 
+*`TimeZone.getLocalTimeZone()` 
+*`TimeZone.getTimeZone()`
 
 ---
 ## Revision
@@ -87,11 +82,9 @@ What library can be used to determine the timezone of a specific location, but a
 
 `???`
 
-
-* `TimeZone` 
-* `GeorgianCalendar` 
-* `Time` 
-* `Timezone` 
-* `Calendar` 
-* `Date`
-
+*`TimeZone` 
+*`GeorgianCalendar` 
+*`Time` 
+*`Timezone` 
+*`Calendar` 
+*`Date`

@@ -1,4 +1,4 @@
----
+# Thread interruptions
 author: catalin
 
 levels:
@@ -11,18 +11,17 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
-
+notes: |-
+  https://insights.enki.com/insight/55b05687c629433100344a8a
+  https://insights.enki.com/insight/55b0539dd457944f00962cd7
 
 links:
 
-  - '[www.javatpoint.com](http://www.javatpoint.com/interrupting-a-thread){website}'
+  - >-
+    [www.javatpoint.com](http://www.javatpoint.com/interrupting-a-thread){website}
 
-notes: https://insights.enki.com/insight/55b05687c629433100344a8a
-https://insights.enki.com/insight/55b0539dd457944f00962cd7
 ---
 ## Content
-# Thread interruptions
 
 *Interrupts* can be used to indicate that a thread should stop whatever its doing and do something else or terminate.
 
@@ -59,11 +58,10 @@ Complete the following code snippet to handle `interrupt`  signals:
 try { Thread.sleep(1000); }
 catch(??? e) {}
 ```
-
-* `InterruptedException` 
-* `InterruptException` 
-* `ThreadException` 
-* `ThreadInterruptException`
+*`InterruptedException` 
+*`InterruptException` 
+*`ThreadException` 
+*`ThreadInterruptException`
 
 ---
 ## Revision
@@ -75,12 +73,10 @@ if (Thread.???()) {
   throw new 
    ???();}
 ```
-
-* `interrupted` 
-* `InterruptedException` 
-* `stopped` 
-* `Exception` 
-* `ThreadException` 
-* `prevented` 
-* `PreventedException`
-
+*`interrupted` 
+*`InterruptedException` 
+*`stopped` 
+*`Exception` 
+*`ThreadException` 
+*`prevented` 
+*`PreventedException`

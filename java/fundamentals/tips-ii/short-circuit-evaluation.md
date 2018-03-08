@@ -1,4 +1,4 @@
----
+# Short-circuit evaluation
 author: pawel
 
 levels:
@@ -9,17 +9,14 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
-
+notes: ''
 
 links:
 
   - '[www.grauw.nl](http://www.grauw.nl/blog/entry/510){website}'
 
-notes: 
 ---
 ## Content
-# Short-circuit evaluation
 
 Short-circuit evaluation is the way programming languages evaluate some boolean operations, where second argument is evaluated only if first argument is not sufficient to determine the outcome of the expression.
 
@@ -40,8 +37,6 @@ Which of the following does short-circulation not prevent?
 
 ???
 
-
-* Exceptions being thrown
-* Expensive calculations
-* Run-time errors
-
+*Exceptions being thrown
+*Expensive calculations
+*Run-time errors

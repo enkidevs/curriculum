@@ -1,4 +1,4 @@
----
+# Careful Numeric Data Conversions
 author: tommarshall
 
 levels:
@@ -11,14 +11,8 @@ type: normal
 
 category: tip
 
-inAlgoPool: false
-
-
-
-
 ---
 ## Content
-# Careful Numeric Data Conversions
 
 Converting a numeric type to a narrower type must be done with care or you could end up with **lost** and/or **misinterpreted data**.
 
@@ -48,23 +42,24 @@ public static void convert(int i) {
 
 ---
 ## Quiz
-### Can you identify how type conversion works in the following example?
-```
-// What is the output of the following snippet?
-public class Main {
-  public static void main(String[] args) {
-      char x = 'a';
-      int i = 1;
-      System.out.print(true  ? x : 1);
-      System.out.print(false ? i : x);
+
+headline: Can you identify how type conversion works in the following example?
+
+question: |
+  // What is the output of the following snippet?
+  ```
+  public class Main {
+    public static void main(String[] args) {
+        char x = 'a';
+        int i = 1;
+        System.out.print(true  ? x : 1);
+        System.out.print(false ? i : x);
+    }
   }
-}
-```
+  ```
 
- ???
-
-* a97
-* aa
-* true
-* false
-
+answers:
+  - a97
+  - aa
+  - true
+  - false

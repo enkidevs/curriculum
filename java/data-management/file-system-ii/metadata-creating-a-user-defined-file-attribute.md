@@ -1,4 +1,4 @@
----
+# Metadata: creating a user-defined file attribute
 author: adamMontgomerie
 
 levels:
@@ -13,8 +13,6 @@ type: normal
 
 category: tip
 
-inAlgoPool: false
-
 tags:
 
   - file-io
@@ -25,15 +23,13 @@ tags:
 
   - file-attributes
 
-
 links:
 
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/fileAttr.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/fileAttr.html){website}
 
 ---
 ## Content
-# Metadata: creating a user-defined file attribute
 
 It is possible to create user-defined file attributes, besides default ones. This comes in handy if you need a way to verify if the file was proofread or encrypted.
 
@@ -82,13 +78,12 @@ view.???(???,
    Charset.defaultCharset()
           .???);
 ```
-
-* `write` 
-* `attr` 
-* `encode(val)` 
-* `encode` 
-* `val` 
-* `encode(attr)`
+*`write` 
+*`attr` 
+*`encode(val)` 
+*`encode` 
+*`val` 
+*`encode(attr)`
 
 ---
 ## Revision
@@ -101,10 +96,8 @@ UserDefinedFileAttributeView view =
  ???,
  UserDefinedFileAttributeView.Class);
 ```
-
-* `Files.getFileAttributeView` 
-* `p` 
-* `file` 
-* `File.getFileAttributeView` 
-* `view`
-
+*`Files.getFileAttributeView` 
+*`p` 
+*`file` 
+*`File.getFileAttributeView` 
+*`view`

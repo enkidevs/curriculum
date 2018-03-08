@@ -1,4 +1,4 @@
----
+# Always specify type parameter
 author: fahimrahman
 
 levels:
@@ -11,23 +11,19 @@ type: normal
 
 category: best practice
 
-inAlgoPool: false
-
 tags:
 
   - raw-type
 
   - parameterized-type
 
-
 links:
 
-  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=224){website}'
-
+  - >-
+    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=224){website}
 
 ---
 ## Content
-# Always specify type parameter
 
 A *parameterized type* would look like:
 ```
@@ -43,4 +39,3 @@ Although Java allows the use of raw types, they should be avoided since:
 * Using a parameterized type allows compile time checks - less chances of errors.
 * Raw types usually require casts to convert to a suitable type.
 * They only exist to maintain backward compatibility with older versions of Java.
-

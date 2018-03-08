@@ -1,4 +1,4 @@
----
+# Do not attempt comparisons with NaN
 author: fahimrahman
 
 levels:
@@ -11,17 +11,13 @@ type: normal
 
 category: best practice
 
-inAlgoPool: false
-
-
 links:
 
-  - '[www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/NUM07-J.+Do+not+attempt+comparisons+with+NaN){website}'
-
+  - >-
+    [www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/NUM07-J.+Do+not+attempt+comparisons+with+NaN){website}
 
 ---
 ## Content
-# Do not attempt comparisons with NaN
 
 A NaN or *Not-a-Number* value is used to represent the result of certain invalid operations such as dividing zero by zero. NaN constants of both float and double type are predefined as `Float.NaN` and `Double.NaN`.
 
@@ -59,7 +55,6 @@ double x = 13.0/0;
 ???.???(???);
 ```
 
-
 * `Double`
 * `isNaN`
 * `x`
@@ -75,7 +70,6 @@ What value will `x` have here?
 double x = Math.tan(1/0.0);
 ```
 ???
-
 * `NaN`
 * `0`
 * `pi`
@@ -84,18 +78,17 @@ double x = Math.tan(1/0.0);
 
 ---
 ## Quiz
-### is NaN equal to NaN?
-```
-// What will the following snippet print?
-double x = Double.NaN;
-if(x == Double.NaN) { System.out.print(x); }
-System.out.print("false");
-```
 
- ???
+headline: is NaN equal to NaN?
 
-* false
-* NaNfalse
-* Double.NaNfalse
-* NaN
+question: |
+  // What will the following snippet print?
+  double x = Double.NaN;
+  if(x == Double.NaN) { System.out.print(x); }
+  System.out.print("false");
 
+answers:
+  - false
+  - NaNfalse
+  - Double.NaNfalse
+  - NaN

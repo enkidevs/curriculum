@@ -1,4 +1,4 @@
----
+# Determining string equality
 author: adamMontgomerie
 
 levels:
@@ -13,21 +13,17 @@ type: normal
 
 category: tip
 
-inAlgoPool: false
-
 tags:
 
   - strings
 
-
 links:
 
-  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=18){website}'
-
+  - >-
+    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=18){website}
 
 ---
 ## Content
-# Determining string equality
 
 Using the `==` operator to compare strings actually checks the identity of the strings rather than comparing their content.
 
@@ -54,4 +50,3 @@ if(string1.equals(string2)){
 }
 return false;
 ```
-

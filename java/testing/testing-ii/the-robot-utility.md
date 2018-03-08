@@ -1,4 +1,4 @@
----
+# The Robot Utility
 author: catalin
 
 levels:
@@ -9,18 +9,16 @@ type: normal
 
 category: feature
 
-inAlgoPool: false
-
-
 links:
 
-  - '[www.developer.com](http://www.developer.com/java/other/article.php/2212401/Introduction-to-the-Java-Robot-Class-in-Java.htm){website}'
-  - '[www.java-tips.org](http://www.java-tips.org/java-se-tips-100019/21-java-awt/1758-how-to-use-robot-class-in-java.html){website}'
+  - >-
+    [www.developer.com](http://www.developer.com/java/other/article.php/2212401/Introduction-to-the-Java-Robot-Class-in-Java.htm){website}
 
+  - >-
+    [www.java-tips.org](http://www.java-tips.org/java-se-tips-100019/21-java-awt/1758-how-to-use-robot-class-in-java.html){website}
 
 ---
 ## Content
-# The Robot Utility
 
 `Java.awt.Robot` is a class used to mimic the human behavior, taking control over the mouse and keyboard. For example:
 
@@ -71,7 +69,6 @@ Robot robot = new Robot();
 robot.???(
     InputEvent.???);
 ```
-
 * `mousePress`
 * `BUTTON1_MASK`
 * `BUTTON2_MASK`
@@ -87,9 +84,7 @@ Robot myRobot = new Robot();
 myRobot.???(0,0);
 ```
 
-
 * `mouseMove`
 * `moveMouse`
 * `mousePress`
 * `mouseRelease`
-

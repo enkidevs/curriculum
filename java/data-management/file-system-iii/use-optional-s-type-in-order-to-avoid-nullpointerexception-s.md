@@ -1,4 +1,4 @@
----
+# Use `Optional(s)` type in order to avoid `NullPointerException(s)`
 author: catalin
 
 levels:
@@ -13,18 +13,19 @@ type: normal
 
 category: feature
 
-inAlgoPool: false
-
+notes: >-
+  https://insights.enki.com/#/contrib/others/55f03bb3f457f33b0062114e?search=khandelwalrinki
 
 links:
 
-  - '[www.concretepage.com](http://www.concretepage.com/java/jdk-8/java-8-optional-example-avoid-nullpointerexception){website}'
-  - '[blog.idrsolutions.com](https://blog.idrsolutions.com/2015/04/java-8-optional-class-explained-in-5-minutes/){website}'
+  - >-
+    [www.concretepage.com](http://www.concretepage.com/java/jdk-8/java-8-optional-example-avoid-nullpointerexception){website}
 
-notes: https://insights.enki.com/#/contrib/others/55f03bb3f457f33b0062114e?search=khandelwalrinki
+  - >-
+    [blog.idrsolutions.com](https://blog.idrsolutions.com/2015/04/java-8-optional-class-explained-in-5-minutes/){website}
+
 ---
 ## Content
-# Use `Optional(s)` type in order to avoid `NullPointerException(s)`
 
 Java 8 comes with a new `Optional` type, a new container type that wraps a single value, if the value is available. It's meant to convey the meaning that the value might be absent.
 
@@ -70,11 +71,10 @@ Optional<String>
    myName = Optional.ofNullable( null );    
 myName.???(); 
 ```
-
-* `isPresent` 
-* `isNull` 
-* `isEmpty` 
-* `isNotNull`
+*`isPresent` 
+*`isNull` 
+*`isEmpty` 
+*`isNotNull`
 
 ---
 ## Revision
@@ -84,11 +84,9 @@ Create an empty `Optional` of type `String`:
 ???<???> op =
        Optional.empty();
 ```
-
-* `Optional` 
-* `String` 
-* `Op` 
-* `string` 
-* `EmptyOptional` 
-* `null`
-
+*`Optional` 
+*`String` 
+*`Op` 
+*`string` 
+*`EmptyOptional` 
+*`null`

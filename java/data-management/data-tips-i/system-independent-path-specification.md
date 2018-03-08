@@ -1,4 +1,4 @@
----
+# System independent path specification
 author: Sergey
 
 levels:
@@ -11,18 +11,14 @@ type: normal
 
 category: best practice
 
-inAlgoPool: false
-
 tags:
 
   - java-io
 
+notes: ''
 
-
-notes: 
 ---
 ## Content
-# System independent path specification
 
 Try not to be system-dependent with file paths, e.g.:
 
@@ -48,9 +44,7 @@ String dataFilepathName =
 Which of these methods returns the system’s default path to a specific file separator?
 
 ???
-
-* `File.separator` 
-* `File.pathSeparator` 
-* `File.defaultSeparator` 
-* `System.separator`
-
+*`File.separator` 
+*`File.pathSeparator` 
+*`File.defaultSeparator` 
+*`System.separator`

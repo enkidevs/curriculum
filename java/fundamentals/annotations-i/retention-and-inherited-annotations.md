@@ -1,4 +1,4 @@
----
+# Retention and Inherited Annotations
 author: Nick Daminov
 
 levels:
@@ -9,17 +9,12 @@ type: normal
 
 category: pattern
 
-inAlgoPool: false
-
-
 links:
 
-  - '[More on Retention Annotation](https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.4.2){website}'
-
+  - '[More on Retention Annotation](https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.4.2)'
 
 ---
 ## Content
-# Retention and Inherited Annotations
 
 *Retention* annotation is a *meta annotation* i.e. it describes other annotations. In this case it used to choose at which stage of development this annotation is seen:
  - Visible in code by programmers only: `RetentionPolicy.SOURCE`
@@ -59,7 +54,6 @@ What should the value of a `RetentionPolicy` be in order for an annotation to be
 
 ???
 
-
 * At runtime
 * RetentionPolicy.SOURCE
 * At compilation time only but not when the program runs
@@ -73,8 +67,6 @@ What is the `retention` annotation used for?
 
 ???
 
-
 * To indicate where the following annotation is visible
 * To include the following annotation in the documentation
 * To indicate that the following annotation can be applied more than once in the same declaration
-

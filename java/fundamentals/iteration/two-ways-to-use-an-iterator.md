@@ -1,4 +1,4 @@
----
+# Two ways to use an `Iterator`
 author: adamMontgomerie
 
 levels:
@@ -13,23 +13,19 @@ type: normal
 
 category: feature
 
-inAlgoPool: false
-
 tags:
 
   - loops
 
   - iterators
 
-
 links:
 
-  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=125){website}'
-
+  - >-
+    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=125){website}
 
 ---
 ## Content
-# Two ways to use an `Iterator`
 
 An `Iterator` can be used to iterate over a collection using either a `for` loop or a `while` loop.
 
@@ -64,7 +60,6 @@ while (enkIt.???()){
   System.out.println(enkIt.next());
 }
 ```
-
 * `iterator`
 * `hasNext`
 * `next`
@@ -79,11 +74,9 @@ An `iterator` can be used to :
 
 ???
 
-
 * `iterate over for and while loops`
 * `see elements of an array`
 * `concatenate strings`
 * `append strings`
 * `iterate a class`
 * `iterate a method`
-

@@ -1,4 +1,4 @@
----
+# `Thread.sleep` and `Thread.yield` do not have synchronization mechanisms
 author: catalin
 
 levels:
@@ -11,17 +11,16 @@ type: normal
 
 category: caveats
 
-inAlgoPool: false
-
+notes: >-
+  https://insights.enki.com/#/contrib/others/55f02923f457f33b00621148?search=khandelwalrinki
 
 links:
 
-  - '[docs.oracle.com](https://docs.oracle.com/javase/specs/jls/se7/html/jls-17.html){website}'
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/specs/jls/se7/html/jls-17.html){website}
 
-notes: https://insights.enki.com/#/contrib/others/55f02923f457f33b00621148?search=khandelwalrinki
 ---
 ## Content
-# `Thread.sleep` and `Thread.yield` do not have synchronization mechanisms
 
 Before a `Thread.sleep` or `Thread.yield` call the Java compiler will not flush writes cached in registers out to shared memory or reload values cached in registers.
 
@@ -50,9 +49,7 @@ Take the following code snippet, the loop will run and loop endlessly, despite t
 ```java
 ??? boolean done;
 ```
-
-* `volatile` 
-* `static` 
-* `finished` 
-* `checker`
-
+*`volatile` 
+*`static` 
+*`finished` 
+*`checker`

@@ -1,4 +1,4 @@
----
+# The `abstract` keyword
 author: adamMontgomerie
 
 levels:
@@ -11,8 +11,6 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
-
 tags:
 
   - abstract
@@ -21,15 +19,13 @@ tags:
 
   - interface
 
-
 links:
 
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html){website}
 
 ---
 ## Content
-# The `abstract` keyword
 
 An `abstract` method is a method that is declared without an implementation.
 ```
@@ -62,10 +58,9 @@ abstract String optionY{String s);
 abstract String optionZ(String s);
 ```
 ???
-
-* Option Z
-* Option X
-* Option Y
+*Option Z
+*Option X
+*Option Y
 
 ---
 ## Revision
@@ -79,8 +74,6 @@ abstract float optionC(float e) {
 }
 ```
 ???
-
-* Option A
-* Option B
-* Option C
-
+*Option A
+*Option B
+*Option C

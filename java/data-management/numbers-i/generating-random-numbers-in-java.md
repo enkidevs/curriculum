@@ -1,4 +1,4 @@
----
+# Generating random numbers
 author: adamMontgomerie
 
 levels:
@@ -11,21 +11,17 @@ type: normal
 
 category: how to
 
-inAlgoPool: false
-
 tags:
 
   - random
 
-
 links:
 
-  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=62){website}'
-
+  - >-
+    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=62){website}
 
 ---
 ## Content
-# Generating random numbers
 
 There are two ways to generate random numbers.
 - The `Math.random` static method can be used to generate a random `double` between 0  (inclusive) and 1 (exclusive).
@@ -49,4 +45,3 @@ int x = rand.nextInt((max - min) + 1) + min;
 ```
 
 `Math.random` is appropriate when a `double` is needed, however it is better to use the `Random` class to generate random `int` values.
-

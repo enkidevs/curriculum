@@ -1,4 +1,4 @@
----
+# Multiple Relational Operators
 author: pawel
 
 levels:
@@ -11,14 +11,10 @@ type: normal
 
 category: tip
 
-inAlgoPool: false
-
-
-
 notes: Hope it's not too basic
+
 ---
 ## Content
-# Multiple Relational Operators
 
 Consider:
 
@@ -40,4 +36,3 @@ The outcome of that test is then compared against 2, which is not the intended s
 if (-2 <= x && x <= 2) { doSomething }
 
 ```
-

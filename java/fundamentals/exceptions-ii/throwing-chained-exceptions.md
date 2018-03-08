@@ -1,4 +1,4 @@
----
+# Throwing chained `exceptions`
 author: adamMontgomerie
 
 levels:
@@ -13,23 +13,19 @@ type: normal
 
 category: tip
 
-inAlgoPool: false
-
 tags:
 
   - exceptions
 
   - chained-exceptions
 
-
 links:
 
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/exceptions/chained.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/exceptions/chained.html){website}
 
 ---
 ## Content
-# Throwing chained `exceptions`
 
 It is sometimes useful to be able to throw an exception in response to an exception; this is called _chaining exceptions_.
 
@@ -46,4 +42,3 @@ catch(Exception e) {
 }
 ```
 The new `Exception` object takes two parameters; the first is a message to be displayed, and the second is the `Throwable` object which caused the exception.
-

@@ -1,4 +1,4 @@
----
+# Flushing buffered streams
 author: adamMontgomerie
 
 levels:
@@ -13,8 +13,6 @@ type: normal
 
 category: tip
 
-inAlgoPool: false
-
 tags:
 
   - streams
@@ -25,15 +23,13 @@ tags:
 
   - flushing
 
-
 links:
 
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/buffers.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/buffers.html){website}
 
 ---
 ## Content
-# Flushing buffered streams
 
 Buffered streams typically only call the native output API once the buffer is full. Sometimes it is appropriate to write from a buffer before it is full; this is called *flushing*.
 
@@ -42,4 +38,3 @@ This can be done by calling the `flush` method which is included in all output s
 outStream.flush();
 ```
 However, it is not always necessary to manually flush a buffer. For example, the `close` method automatically flushes the buffer before closing the stream.
-

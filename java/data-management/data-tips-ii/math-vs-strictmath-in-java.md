@@ -1,4 +1,4 @@
----
+# `Math` vs `StrictMath` in java
 author: pawel
 
 levels:
@@ -11,21 +11,19 @@ type: normal
 
 category: feature
 
-inAlgoPool: false
-
 tags:
 
-  - 
+  - ''
 
+notes: ''
 
 links:
 
-  - '[stackoverflow.com](http://stackoverflow.com/questions/4232231/whats-the-difference-between-java-lang-math-and-java-lang-strictmath){website}'
+  - >-
+    [stackoverflow.com](http://stackoverflow.com/questions/4232231/whats-the-difference-between-java-lang-math-and-java-lang-strictmath){website}
 
-notes: 
 ---
 ## Content
-# `Math` vs `StrictMath` in java
 
 Java offers 2 very similar classes - `java.lang.Math` and `java.lang.StrictMath`.  Unlike some of the numeric methods of class `StrictMath`, all implementations of the equivalent functions of class `Math` are not defined to return the bit-for-bit same results. This allows better-performing implementations where strict reproducibility is not required.
 
@@ -38,9 +36,8 @@ If portability is intended what java class is more reliable?
 
 `???`
 
-
-* `StrictMath` 
-* `Math`
+*`StrictMath` 
+*`Math`
 
 ---
 ## Revision
@@ -49,7 +46,5 @@ What java class related to mathematics have its function not defined to return t
 
 `???`
 
-
-* `Math` 
-* `StrictMath`
-
+*`Math` 
+*`StrictMath`

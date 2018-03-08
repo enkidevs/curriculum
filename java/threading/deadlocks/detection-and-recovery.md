@@ -1,4 +1,4 @@
----
+# Detection and Recovery
 author: Nick Daminov
 
 levels:
@@ -9,17 +9,12 @@ type: normal
 
 category: how to
 
-inAlgoPool: false
-
-
 links:
 
-  - '[More on Detection and Recovery](http://ecomputernotes.com/database-system/rdbms/deadlock-detect-and-recover){website}'
-
+  - '[More on Detection and Recovery](http://ecomputernotes.com/database-system/rdbms/deadlock-detect-and-recover)'
 
 ---
 ## Content
-# Detection and Recovery
 
 Whenever a deadlock has occurred in the system, we can build a graph of process-resource dependencies.
 
@@ -38,8 +33,6 @@ What is the key to resolving a deadlock once it occurred?
 
 ???
 
-
 * Break the cycle of process-resource dependency
 * Kill all processes in the system
 * Roll the system back to a boot state
-

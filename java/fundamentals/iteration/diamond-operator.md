@@ -1,4 +1,4 @@
----
+# Diamond Operator
 author: abhavk
 
 levels:
@@ -9,14 +9,8 @@ type: normal
 
 category: tip
 
-inAlgoPool: false
-
-
-
-
 ---
 ## Content
-# Diamond Operator
 
 Since Java 7 it's not necessary to declare the type parameter twice while instantiating objects like Maps, Sets and Lists.
 
@@ -49,10 +43,9 @@ Map<String, List<Integer>> map =
   new HashMap<>();
 ``` 
 ???
-
-* Example C
-* Example A
-* Example B
+*Example C
+*Example A
+*Example B
 
 ---
 ## Revision
@@ -75,8 +68,6 @@ Map<String, List<Integer>> map =
 
 ???
 
-
-* Example B
-* Example A
-* Example C
-
+*Example B
+*Example A
+*Example C

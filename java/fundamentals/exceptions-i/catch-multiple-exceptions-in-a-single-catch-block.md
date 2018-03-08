@@ -1,4 +1,4 @@
----
+# Catch multiple exceptions in a single `catch` block
 author: adamMontgomerie
 
 levels:
@@ -11,24 +11,22 @@ type: normal
 
 category: tip
 
-inAlgoPool: false
-
 tags:
 
   - exceptions
 
   - jdk-7
 
-
 links:
 
-  - '[docs.oracle.com](http://docs.oracle.com/javase/7/docs/technotes/guides/language/catch-multiple.html){website}'
-  - '[javarevisited.blogspot.jp](http://javarevisited.blogspot.jp/2014/04/10-jdk-7-features-to-revisit-before-you.html){website}'
+  - >-
+    [docs.oracle.com](http://docs.oracle.com/javase/7/docs/technotes/guides/language/catch-multiple.html){website}
 
+  - >-
+    [javarevisited.blogspot.jp](http://javarevisited.blogspot.jp/2014/04/10-jdk-7-features-to-revisit-before-you.html){website}
 
 ---
 ## Content
-# Catch multiple exceptions in a single `catch` block
 
 It is possible to catch multiple types of exception within a single `catch` block. For example:
 ```
@@ -53,4 +51,3 @@ catch(IOException | SQLException e) {
   //do something
 }
 ```
-

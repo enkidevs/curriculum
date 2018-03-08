@@ -1,4 +1,4 @@
----
+# Multithreading: use local variables
 author: adamMontgomerie
 
 levels:
@@ -13,21 +13,17 @@ type: normal
 
 category: best practice
 
-inAlgoPool: false
-
 tags:
 
   - multithreading
 
-
 links:
 
-  - '[javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2015/05/top-10-java-multithreading-and.html){website}'
-
+  - >-
+    [javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2015/05/top-10-java-multithreading-and.html){website}
 
 ---
 ## Content
-# Multithreading: use local variables
 
 Using local variables rather than class or instance variables can help prevent synchronization problems.
 ```
@@ -56,9 +52,7 @@ We can solve this problem by declaring list as a local variable inside `method()
 When multithreading, what type of variable should be used to prevent synchronization problems? 
 
 ??? 
-
-* local variables
-* class variables
-* instance variables
-* threading variables
-
+*local variables
+*class variables
+*instance variables
+*threading variables

@@ -1,4 +1,4 @@
----
+# Don't repeat yourself (DRY) principle
 author: fahimrahman
 
 levels:
@@ -13,8 +13,6 @@ type: normal
 
 category: best practice
 
-inAlgoPool: false
-
 tags:
 
   - don't-repeat-yourself
@@ -27,15 +25,15 @@ tags:
 
   - repetition
 
+notes: 'static workout '
 
 links:
 
-  - '[www.thejavageek.com](http://www.thejavageek.com/2015/04/10/dont-repeat-yourself-principle/){website}'
+  - >-
+    [www.thejavageek.com](http://www.thejavageek.com/2015/04/10/dont-repeat-yourself-principle/){website}
 
-notes: static workout 
 ---
 ## Content
-# Don't repeat yourself (DRY) principle
 
 Code written should be made easy to maintain by following the *don’t repeat yourself* principle. 
 
@@ -70,4 +68,3 @@ public class University {
   }
 }
 ```
-

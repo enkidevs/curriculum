@@ -1,4 +1,4 @@
----
+# Packages
 author: mihaiberq
 
 levels:
@@ -7,19 +7,18 @@ levels:
 
 type: normal
 
-category: must-know
-
 inAlgoPool: false
 
+category: must-know
 
 links:
 
-  - '[Naming conventions](http://www.oracle.com/technetwork/java/codeconventions-135099.html){website}'
-
+  - >-
+    [Naming
+    conventions](http://www.oracle.com/technetwork/java/codeconventions-135099.html){website}
 
 ---
 ## Content
-# Packages
 
 **Packages** are a way of organizing Java classes. The Java packages can be stored in files having the *.jar* extension, allowing classes to be imported as a group rather than individually. 
 
@@ -50,13 +49,12 @@ Complete the following snippet to include every class in the Java lang package:
 ```
 ??? ???.???.???;
 ```
-
-* `import`
-* `java`
-* `lang`
-* `*`
-* `all`
-* `package`
+*`import`
+*`java`
+*`lang`
+*`*`
+*`all`
+*`package`
 
 ---
 ## Revision
@@ -65,12 +63,10 @@ Complete the following snippet to include every class in the Java I/O package:
 ```
 ??? ???.???.???;
 ```
-
-* `import`
-* `java`
-* `io`
-* `*`
-* `all`
-* `IO`
-* `package`
-
+*`import`
+*`java`
+*`io`
+*`*`
+*`all`
+*`IO`
+*`package`

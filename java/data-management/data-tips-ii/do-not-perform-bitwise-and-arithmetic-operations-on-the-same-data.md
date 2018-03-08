@@ -1,4 +1,4 @@
----
+# Do not perform bitwise and arithmetic operations on the same data
 author: fahimrahman
 
 levels:
@@ -13,21 +13,17 @@ type: normal
 
 category: best practice
 
-inAlgoPool: false
-
 tags:
 
   - numeric-operations
 
-
 links:
 
-  - '[www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/NUM01-J.+Do+not+perform+bitwise+and+arithmetic+operations+on+the+same+data){website}'
-
+  - >-
+    [www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/NUM01-J.+Do+not+perform+bitwise+and+arithmetic+operations+on+the+same+data){website}
 
 ---
 ## Content
-# Do not perform bitwise and arithmetic operations on the same data
 
 Arithmetic operators are operated on numeric variables, whereas bitwise operators (`<<`, `>>`, `&`, etc.) are operated on bit collections exclusively.
  
@@ -62,11 +58,9 @@ a /= 4;     // a = -5
 What is the arithmetic equivalent of `a >> 3`  ?
 
 ???
-
-* a/8
-* a/4
-* 8a
-* 4a
-* 3a
-* a/3
-
+*a/8
+*a/4
+*8a
+*4a
+*3a
+*a/3

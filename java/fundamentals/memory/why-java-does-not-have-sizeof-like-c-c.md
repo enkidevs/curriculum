@@ -1,4 +1,4 @@
----
+# Why Java does not have `sizeof` like C/C++
 author: pawel
 
 levels:
@@ -13,23 +13,20 @@ type: normal
 
 category: tip
 
-inAlgoPool: false
-
 tags:
 
   - memory-allocation
 
+notes: ''
 
 links:
 
-  - '[docs.oracle.com](https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/garbage_collect.html){website}'
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/garbage_collect.html){website}
 
-notes: 
 ---
 ## Content
-# Why Java does not have `sizeof` like C/C++
 
 In C and C++ `sizeof()` allocates bytes for data items. It often varies for different machines or operating systems. For example integer can be stored in 16 or 32 bits. 
 
 Java stores precisely the same sizes on all machines, portability is the part of this language and we should not worry about it.
-

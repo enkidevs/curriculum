@@ -1,4 +1,4 @@
----
+# `Hello World!`
 author: mihaiberq
 
 levels:
@@ -7,19 +7,18 @@ levels:
 
 type: normal
 
-category: must-know
-
 inAlgoPool: false
 
+category: must-know
 
 links:
 
-  - '[Get started with Java](https://docs.oracle.com/javase/tutorial/getStarted/cupojava/index.html){website}'
-
+  - >-
+    [Get started with
+    Java](https://docs.oracle.com/javase/tutorial/getStarted/cupojava/index.html){website}
 
 ---
 ## Content
-# `Hello World!`
 
 Now that you know a little bit about Java, it is time to show you how to build your first app. 
 
@@ -54,12 +53,11 @@ What built-in **Java** class provides the `println()` method that prints text to
 ???.out.println("hey there");
 ```
 
-
-* `System`
-* `Console`
-* `Main`
-* `HelloWorld`
-* `Printer`
+*`System`
+*`Console`
+*`Main`
+*`HelloWorld`
+*`Printer`
 
 ---
 ## Revision
@@ -68,15 +66,15 @@ What's the name of the mandatory main **Java** function for a program to run?
 
 ???
 
-
-* `main`
-* `start`
-* `run`
-* `debug`
-* `prod`
+*`main`
+*`start`
+*`run`
+*`debug`
+*`prod`
 
 ---
 ## Footnotes
+
 [1:IDE]
 IDEs, or Integrated Development Environments, are applications much like text editors but with extra available features: as they are specific to a certain language, they come with autocomplete functionalities, syntax checker, class definitions and specifications (IntelliJ excels at this), and debugging, building and compiling tools.
 

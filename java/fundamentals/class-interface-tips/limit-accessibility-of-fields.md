@@ -1,4 +1,4 @@
----
+# Limit Accessibility of `Fields`
 author: Russiee
 
 levels:
@@ -11,17 +11,13 @@ type: normal
 
 category: best practice
 
-inAlgoPool: false
-
-
 links:
 
-  - '[www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/OBJ01-J.+Limit+accessibility+of+fields){website}'
-
+  - >-
+    [www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/OBJ01-J.+Limit+accessibility+of+fields){website}
 
 ---
 ## Content
-# Limit Accessibility of `Fields`
 
 An incorrect assumption is that declaring a field or variable as `final` makes the object referenced _immutable_. 
 
@@ -86,19 +82,16 @@ public class Company {
 }
 ```
 ???
-
-* Field `name` of Person is `private` and cannot be accessed from Company.
-* `this` keyword is wrongly used.
-* `p` is not instantiated correctly.
-* `p.name` shouldn’t be a String.
+*Field `name` of Person is `private` and cannot be accessed from Company.
+*`this` keyword is wrongly used.
+*`p` is not instantiated correctly.
+*`p.name` shouldn’t be a String.
 
 ---
 ## Revision
 
 If a want an object to be immutable outside of its class, you should declare it ???.
-
-* private
-* final
-* public
-* static
-
+*private
+*final
+*public
+*static

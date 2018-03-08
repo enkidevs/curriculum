@@ -1,4 +1,4 @@
----
+# JUnit: Specifying file locations
 author: fahimrahman
 
 levels:
@@ -13,8 +13,6 @@ type: normal
 
 category: best practice
 
-inAlgoPool: false
-
 tags:
 
   - JUnit
@@ -23,15 +21,13 @@ tags:
 
   - best-practice
 
-
 links:
 
-  - '[www.javaworld.com](http://www.javaworld.com/article/2076265/testing-debugging/junit-best-practices.html){website}'
-
+  - >-
+    [www.javaworld.com](http://www.javaworld.com/article/2076265/testing-debugging/junit-best-practices.html){website}
 
 ---
 ## Content
-# JUnit: Specifying file locations
 
 When loading data from a file system for performing a test you can use:
 ```java
@@ -74,8 +70,6 @@ When testing external resource files, it is recommended
 
 ???
 
-
 * to move the files in the same directory as the tests
 * to use the Java 8 API
 * to close the input stream by yourself
-

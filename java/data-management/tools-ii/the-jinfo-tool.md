@@ -1,4 +1,4 @@
----
+# The `jinfo` tool
 author: catalin
 
 levels:
@@ -11,17 +11,16 @@ type: normal
 
 category: feature
 
-inAlgoPool: false
-
+notes: >-
+  https://insights.enki.com/#/contrib/others/55f423bfd7d6642d00118729?search=khandelwalrinki
 
 links:
 
-  - '[www.tutorialspoint.com](http://www.tutorialspoint.com/unix_commands/jinfo.htm){website}'
+  - >-
+    [www.tutorialspoint.com](http://www.tutorialspoint.com/unix_commands/jinfo.htm){website}
 
-notes: https://insights.enki.com/#/contrib/others/55f423bfd7d6642d00118729?search=khandelwalrinki
 ---
 ## Content
-# The `jinfo` tool
 
 `jinfo` prints configuration information for a given Java process or core file or a remote debug server. Configuration information includes Java System properties and Java virtual machine command line flags.
 
@@ -60,13 +59,12 @@ Print the JavaSystem properties as name value pairs with the given process runni
 $ jinfo ??? ???
         PID
 ```
-
-* `-J-d64` 
-* `-sysprops` 
-* `-d64` 
-* `-VM-d64` 
-* `-systprops` 
-* `-system`
+*`-J-d64` 
+*`-sysprops` 
+*`-d64` 
+*`-VM-d64` 
+*`-systprops` 
+*`-system`
 
 ---
 ## Revision
@@ -75,9 +73,7 @@ Print the JavaSystem properties as name value pairs:
 ```
 $ jinfo ??? PID
 ```
-
-* `-sysprops` 
-* `-systprops` 
-* `sysprops` 
-* `props`
-
+*`-sysprops` 
+*`-systprops` 
+*`sysprops` 
+*`props`

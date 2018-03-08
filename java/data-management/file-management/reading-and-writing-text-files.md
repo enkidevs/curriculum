@@ -1,4 +1,4 @@
----
+# Reading and writing text files
 author: adamMontgomerie
 
 levels:
@@ -11,8 +11,6 @@ type: normal
 
 category: how to
 
-inAlgoPool: false
-
 tags:
 
   - file-io
@@ -21,15 +19,13 @@ tags:
 
   - streams
 
-
 links:
 
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/charstreams.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/charstreams.html){website}
 
 ---
 ## Content
-# Reading and writing text files
 
 Java has various I/O classes for reading and writing files. The `FileReader` and `FileWriter` classes can be used to read from and write to text files.
 
@@ -71,11 +67,10 @@ while ((c = input.read()) != -1) {
 What will be printed to the console?
 
 ???
-
-* `c` ASCII value.
-* `c` as a character.
-* `c` as a String.
-* Nothing.
+*`c` ASCII value.
+*`c` as a character.
+*`c` as a String.
+*Nothing.
 
 ---
 ## Revision
@@ -83,9 +78,7 @@ What will be printed to the console?
 Why is the try-catch block necessary when reading and writing files with `FileReader/FileWriter`?
 
 ???
-
-* In case the paths to the files aren’t valid.
-* In case the files are empty.
-* In case the we swapped the paths by mistake.
-* In case files are too large.
-
+*In case the paths to the files aren’t valid.
+*In case the files are empty.
+*In case the we swapped the paths by mistake.
+*In case files are too large.

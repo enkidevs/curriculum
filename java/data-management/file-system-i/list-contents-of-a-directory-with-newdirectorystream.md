@@ -1,4 +1,4 @@
----
+# List contents of a directory with `newDirectoryStream`
 author: adamMontgomerie
 
 levels:
@@ -8,8 +8,6 @@ levels:
 type: normal
 
 category: how to
-
-inAlgoPool: false
 
 tags:
 
@@ -23,15 +21,13 @@ tags:
 
   - iterator
 
-
 links:
 
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/dirs.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/dirs.html){website}
 
 ---
 ## Content
-# List contents of a directory with `newDirectoryStream`
 
 ```
 Path dir = Paths.get("home/dir");
@@ -55,10 +51,8 @@ Path dir = Paths.("path/dir");
    ???
   .???;
 ```
-
-* `DirectoryStream` 
-* `Files` 
-* `newDirectoryStream(dir)` 
-* `newDirectoryStream()` 
-* `File`
-
+*`DirectoryStream` 
+*`Files` 
+*`newDirectoryStream(dir)` 
+*`newDirectoryStream()` 
+*`File`

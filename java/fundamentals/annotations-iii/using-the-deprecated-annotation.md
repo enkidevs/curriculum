@@ -1,4 +1,4 @@
----
+# Using the `@Deprecated` annotation
 author: adamMontgomerie
 
 levels:
@@ -11,21 +11,17 @@ type: normal
 
 category: feature
 
-inAlgoPool: false
-
 tags:
 
   - annotations
 
-
 links:
 
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/annotations/predefined.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/annotations/predefined.html){website}
 
 ---
 ## Content
-# Using the `@Deprecated` annotation
 
 The `@Deprecated` annotation can be used to indicate elements which should no longer be used. Any program that uses an element which is marked as `@Deprecated` will produce a compiler warning.
 ```
@@ -53,20 +49,17 @@ public void two() {};
 
 ???
 
-
-* `two()`
-* `one()` 
-* `none` 
-* `both`
+*`two()`
+*`one()` 
+*`none` 
+*`both`
 
 ---
 ## Revision
 
 Using a `@Deprecated` function will rise a ???.
 
-
-* compiler warning
-* compiler error
-* run-time error
-* run-time warning
-
+*compiler warning
+*compiler error
+*run-time error
+*run-time warning

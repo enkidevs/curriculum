@@ -1,4 +1,4 @@
----
+# The `final` Modifier
 author: mihaiberq
 
 levels:
@@ -7,16 +7,12 @@ levels:
 
 type: normal
 
-category: must-know
-
 inAlgoPool: false
 
-
-
+category: must-know
 
 ---
 ## Content
-# The `final` Modifier
 
 The `final` modifiers limits the initializations number to *1*. A final variable cannot be reassigned to refer another object.
 
@@ -49,18 +45,17 @@ Which of the following lines would give rise to an error?
 5. System.out.println(DATE);
 ```
 ???
-
 * 4
 * 1
 * 2
 * 3
 * 5
 
+
 ---
 ## Revision
 
 Variables declared `final` cannot be ???.
-
 
 * reassigned
 * modified
@@ -69,30 +64,29 @@ Variables declared `final` cannot be ???.
 
 ---
 ## Quiz
-### how do final variables work?
-```
-public class Person {
-  String name = "name";
-  public Person(String name) {
-    this.name = name;
+
+headline: how do final variables work?
+
+question: |
+  public class Person {
+    String name = "name";
+    public Person(String name) {
+      this.name = name;
+    }
+    public void newName(String name) {
+      this.name = name;
+    }
+    public void printName() {
+      System.out.println(name);
+    }
   }
-  public void newName(String name) {
-    this.name = name;
-  }
-  public void printName() {
-    System.out.println(name);
-  }
-}
 
-final Person p = new Person("Sam");
-p.newName("John");
-p.printName();
-```
+  final Person p = new Person("Sam");
+  p.newName("John");
+  p.printName();
 
- ???
-
-* John
-* Sam
-* name
-* Exception
-
+answers:
+  - John
+  - Sam
+  - name
+  - Exception

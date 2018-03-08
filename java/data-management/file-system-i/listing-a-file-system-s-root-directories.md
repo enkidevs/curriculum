@@ -1,4 +1,4 @@
----
+# Listing a file system's root directories
 author: adamMontgomerie
 
 levels:
@@ -10,8 +10,6 @@ levels:
 type: normal
 
 category: feature
-
-inAlgoPool: false
 
 tags:
 
@@ -25,15 +23,13 @@ tags:
 
   - root-directory
 
-
 links:
 
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/dirs.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/dirs.html){website}
 
 ---
 ## Content
-# Listing a file system's root directories
 
 Using the **static** `FileSystems` class, you can get the default `FileSystem` (note the missing `s`) through the `getDefault()` method.
 
@@ -60,9 +56,7 @@ Iterable<Path> myDir = ???
   .getDefault().getRootDirectories();
 
 ```
-
-* FileSystems
-* FileSystem
-* System
-* FileSystemUtils
-
+*FileSystems
+*FileSystem
+*System
+*FileSystemUtils

@@ -1,4 +1,4 @@
----
+# Retrieve the component type of an array
 author: fahimrahman
 
 levels:
@@ -13,8 +13,6 @@ type: normal
 
 category: how to
 
-inAlgoPool: false
-
 tags:
 
   - array
@@ -23,15 +21,13 @@ tags:
 
   - java.lang.Class
 
-
 links:
 
-  - '[www.tutorialspoint.com](http://www.tutorialspoint.com/java/lang/class_getcomponenttype.htm){website}'
-
+  - >-
+    [www.tutorialspoint.com](http://www.tutorialspoint.com/java/lang/class_getcomponenttype.htm){website}
 
 ---
 ## Content
-# Retrieve the component type of an array
 
 If the *type* of components in an array is unknown, they can be retrieved by using the `getComponentType()` method. This method will return the Class representing the element type of the array.
 
@@ -70,12 +66,11 @@ Class arrayClass = array.getClass();
 return arrayClass.getComponentType(); 
 ```
 ???
-
-* `int` 
-* `double` 
-* `Class` 
-* `Array` 
-* `ArrayList`
+*`int` 
+*`double` 
+*`Class` 
+*`Array` 
+*`ArrayList`
 
 ---
 ## Revision
@@ -84,9 +79,7 @@ What method is used to get the type of an array?
 
 `???`
 
-
-* `getComponentType()` 
-* `getType()` 
-* `getClass()` 
-* `getArrayType()`
-
+*`getComponentType()` 
+*`getType()` 
+*`getClass()` 
+*`getArrayType()`

@@ -1,4 +1,4 @@
----
+# Java `Strings`
 author: mihaiberq
 
 levels:
@@ -7,16 +7,12 @@ levels:
 
 type: normal
 
-category: must-know
-
 inAlgoPool: false
 
-
-
+category: must-know
 
 ---
 ## Content
-# Java `Strings`
 
 What's odd about Java is that *character sequences*, or *strings*, are not *primitives*. However, because they are so often used, `String`s have priority over other classes.
 
@@ -58,9 +54,7 @@ System.out.println(concat);
 
 To concatenate two strings, operator ??? is used.
 
-
-* +
-* ++
-* -
-* ,
-
+*+
+*++
+*-
+*,

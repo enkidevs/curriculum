@@ -1,4 +1,4 @@
----
+# Difference between ```HashMap``` and ```Hashtable```
 author: pawel
 
 levels:
@@ -11,21 +11,19 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
-
 tags:
 
   - hashmap-hashtable
 
+notes: ''
 
 links:
 
-  - '[javahungry.blogspot.com](http://javahungry.blogspot.com/2014/03/hashmap-vs-hashtable-difference-with-example-java-interview-questions.html){website}'
+  - >-
+    [javahungry.blogspot.com](http://javahungry.blogspot.com/2014/03/hashmap-vs-hashtable-difference-with-example-java-interview-questions.html){website}
 
-notes: 
 ---
 ## Content
-# Difference between ```HashMap``` and ```Hashtable```
 
 Both `HashMap` and `Hashtable` implement Map interface but there are some significant differences between them. 
 
@@ -40,11 +38,10 @@ Which one of the following classes is synchronized?
 
 ???
 
-
-* `Hashtable` 
-* `HashMap` 
-* `both` 
-* `none`
+*`Hashtable` 
+*`HashMap` 
+*`both` 
+*`none`
 
 ---
 ## Revision
@@ -53,9 +50,7 @@ Which one of the following classes allow `null` values as keys?
 
 ???
 
-
-* `HashMap` 
-* `Hashtable` 
-* `both` 
-* `none`
-
+*`HashMap` 
+*`Hashtable` 
+*`both` 
+*`none`

@@ -1,4 +1,4 @@
----
+# Use meaningful names
 author: adamMontgomerie
 
 levels:
@@ -11,21 +11,17 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
-
 tags:
 
   - naming-conventions
 
-
 links:
 
-  - '[javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2014/10/10-java-best-practices-to-name-variables-methods-classes-packages.html){website}'
-
+  - >-
+    [javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2014/10/10-java-best-practices-to-name-variables-methods-classes-packages.html){website}
 
 ---
 ## Content
-# Use meaningful names
 
 When naming classes, methods, variables or just about anything that you are required to give a name to, it is best to choose names which have a relevant meaning.
 
@@ -49,9 +45,7 @@ What’s the main advantage of using meaningful names for methods?
 
 ???
 
-
-* Improves your codes readability.
-* Bigger names are always better.
-* Improves code compilation times.
-* Improves running times.
-
+*Improves your codes readability.
+*Bigger names are always better.
+*Improves code compilation times.
+*Improves running times.

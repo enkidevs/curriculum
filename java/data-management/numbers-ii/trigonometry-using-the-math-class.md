@@ -1,4 +1,4 @@
----
+# Trigonometry using the `Math` class
 author: adamMontgomerie
 
 levels:
@@ -13,23 +13,19 @@ type: normal
 
 category: tip
 
-inAlgoPool: false
-
 tags:
 
   - math
 
   - utility-classes
 
-
 links:
 
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/beyondmath.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/beyondmath.html){website}
 
 ---
 ## Content
-# Trigonometry using the `Math` class
 
 The `Math` class contains various methods for performing trigonometric functions. For example, it is possible to convert a value in degrees to radians:
 ```
@@ -45,4 +41,3 @@ System.out.format(
 );
 
 ```
-

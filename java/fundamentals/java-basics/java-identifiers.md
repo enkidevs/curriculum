@@ -1,4 +1,4 @@
----
+# Java Identifiers
 author: mihaiberq
 
 levels:
@@ -13,16 +13,12 @@ levels:
 
 type: normal
 
-category: must-know
-
 inAlgoPool: false
 
-
-
+category: must-know
 
 ---
 ## Content
-# Java Identifiers
 
 In Java, every class, method, or variable has to have a name. Formally, this name is called an **identifier**.
 
@@ -38,9 +34,7 @@ Java is case sensitive, so `myident` and `myIdent` are two different identifiers
 
 An identifier is a variable's ???.
 
-
-* name
-* value
-* type
-* size
-
+*name
+*value
+*type
+*size

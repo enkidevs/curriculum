@@ -1,4 +1,4 @@
----
+# Using `Thread.join`
 author: adamMontgomerie
 
 levels:
@@ -9,19 +9,14 @@ type: normal
 
 category: feature
 
-inAlgoPool: false
-
-
 links:
 
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/concurrency/join.html){website}'
-  - '[More on Joining](https://docs.oracle.com/javase/tutorial/essential/concurrency/join.html){website}'
-  - '[More on InterruptedException](https://docs.oracle.com/javase/7/docs/api/java/lang/InterruptedException.html){website}'
-
+- '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/concurrency/join.html)'
+- '[More on Joining](https://docs.oracle.com/javase/tutorial/essential/concurrency/join.html)'
+- '[More on InterruptedException](https://docs.oracle.com/javase/7/docs/api/java/lang/InterruptedException.html)'
 
 ---
 ## Content
-# Using `Thread.join`
 
 On the other hand, `join()` method is not static and is specific to every thread. The key point of this function is to wait until the thread finishes running and terminates. This can be useful when each of the running threads performs a calculation and then you want to combine the results in some way. In order to do that you must ensure that all the threads have finished their calculations otherwise it will result a wrong answer in the end.
 
@@ -78,7 +73,6 @@ What does `join()` method do?
 
 ???
 
-
 * It waits until a thread finished executing
 * It pauses execution of a thread for a certain time
 * It pauses all the threads in a queue
@@ -102,7 +96,6 @@ t1.join();
 
 The `t1.join()` method call will? ???
 
-
 * join()
 * wait until t1 to dies
 * sleep()
@@ -111,4 +104,3 @@ The `t1.join()` method call will? ???
 * immediately start t2
 * pause t1 until t2 dies
 * speed up t1
-

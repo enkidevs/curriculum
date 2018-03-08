@@ -1,4 +1,4 @@
----
+# Metadata: setting a file's owner
 author: adamMontgomerie
 
 levels:
@@ -13,8 +13,6 @@ type: normal
 
 category: tip
 
-inAlgoPool: false
-
 tags:
 
   - file-io
@@ -23,15 +21,13 @@ tags:
 
   - metadata
 
-
 links:
 
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/fileAttr.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/fileAttr.html){website}
 
 ---
 ## Content
-# Metadata: setting a file's owner
 
 The `UserPrincipalLookupService` can be used to lookup a user name defined as a string and store it as a `UserPrincipal` object:
 ```
@@ -57,10 +53,8 @@ UserPrincipal owner =
 .???
 .???;
 ```
-
-* getFileSystem()` 
-* getUserPrincipalLookupService() 
-* lookupPrincipalByName("tom")
-* lookupPrincipalByName()
-* getUserPrincipalLookupService("tom")
-
+*getFileSystem()` 
+*getUserPrincipalLookupService() 
+*lookupPrincipalByName("tom")
+*lookupPrincipalByName()
+*getUserPrincipalLookupService("tom")

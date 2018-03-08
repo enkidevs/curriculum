@@ -1,4 +1,4 @@
----
+# Throwing proper exceptions for unfinished code
 author: hyousaf
 
 levels:
@@ -13,17 +13,12 @@ type: normal
 
 category: best practice
 
-inAlgoPool: false
-
-
 links:
 
   - '[www.javalobby.org](http://www.javalobby.org/){website}'
 
-
 ---
 ## Content
-# Throwing proper exceptions for unfinished code
 
 If you haven't completed a library or class, its often better to add an `UnsupportedOperationException` with a good description. 
 
@@ -38,4 +33,3 @@ This will
 a) throw an exception when its called, notifying the user what's happened
 
 b) act as a reminder and give other people awareness why it is not complete
-

@@ -1,4 +1,4 @@
----
+# Using an interface as a parameter
 author: catalin
 
 levels:
@@ -13,18 +13,18 @@ type: normal
 
 category: tip
 
-inAlgoPool: false
-
+notes: 'https://insights.enki.com/#/contrib/5599d0efef6d014f00958ea6'
 
 links:
 
-  - '[stackoverflow.com](http://stackoverflow.com/questions/2575429/interface-as-a-method-parameter-in-java){website}'
-  - '[www.vogella.com](http://www.vogella.com/tutorials/JavaCollections/article.html#collectionssort){website}'
+  - >-
+    [stackoverflow.com](http://stackoverflow.com/questions/2575429/interface-as-a-method-parameter-in-java){website}
 
-notes: https://insights.enki.com/#/contrib/5599d0efef6d014f00958ea6
+  - >-
+    [www.vogella.com](http://www.vogella.com/tutorials/JavaCollections/article.html#collectionssort){website}
+
 ---
 ## Content
-# Using an interface as a parameter
 
 You can define methods that take an **interface** as a parameter. Your interface defines a *contract* and your methods will accept as parameter any objects whose class *implements* that **interface**. This is in fact one of the most common and useful ways to use an **interface**.
 
@@ -60,9 +60,7 @@ The *collection framework* from the standard Java API frequently uses this proce
 Which of the following is an example of a method that takes an interface as argument?
 
 ???
-
-* Collections.sort()
-* Arrays.sort()
-* UserDefinedFileAttributeView.read() 
-* List.add()
-
+*Collections.sort()
+*Arrays.sort()
+*UserDefinedFileAttributeView.read() 
+*List.add()

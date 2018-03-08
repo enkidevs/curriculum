@@ -1,4 +1,4 @@
----
+# More on Synchronization
 author: Nick Daminov
 
 levels:
@@ -9,18 +9,13 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
-
-
 links:
 
-  - '[More on Atomic Variables](https://docs.oracle.com/javase/tutorial/essential/concurrency/atomicvars.html){website}'
-  - '[More on Atomic Package](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/atomic/package-summary.html){website}'
-
+  - '[More on Atomic Variables](https://docs.oracle.com/javase/tutorial/essential/concurrency/atomicvars.html)'
+  - '[More on Atomic Package](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/atomic/package-summary.html)'
 
 ---
 ## Content
-# More on Synchronization
 
 Another way of ensuring mutual exclusion without using synchronization patters or `synchronized` is using atomic variables provided in `java.util.concurrent.atomic` library. It has to be noted that this approach is specific to Java and will only work if you are working with single variables.
 
@@ -56,8 +51,6 @@ What is a thread safe way of accessing and updating variables without using lock
 
 ???
 
-
 * atomic variables
 * electronic variables
 * instant variables
-

@@ -1,4 +1,4 @@
----
+# How to check for static dependencies of applications and libraries from the command line.
 author: catalin
 
 levels:
@@ -9,19 +9,20 @@ type: normal
 
 category: how to
 
-inAlgoPool: false
-
+notes: 'https://insights.enki.com/insight/55f433a9da97642e00a7819a'
 
 links:
 
   - '[dzone.com](https://dzone.com/articles/jdeps-jdk-8-command-line){website}'
-  - '[www.eclipse.org](http://www.eclipse.org/community/eclipse_newsletter/2016/february/article3.php){website}'
-  - '[marxsoftware.blogspot.co.uk](http://marxsoftware.blogspot.co.uk/2014/03/jdeps.html){website}'
 
-notes: https://insights.enki.com/insight/55f433a9da97642e00a7819a
+  - >-
+    [www.eclipse.org](http://www.eclipse.org/community/eclipse_newsletter/2016/february/article3.php){website}
+
+  - >-
+    [marxsoftware.blogspot.co.uk](http://marxsoftware.blogspot.co.uk/2014/03/jdeps.html){website}
+
 ---
 ## Content
-# How to check for static dependencies of applications and libraries from the command line.
 
 Introduced with JDK 8, the `jdeps` command shows the package-level or class-level dependencies of Java class files (applications or libraries) from within the command line.
 
@@ -54,13 +55,12 @@ Print all class-level dependencies of `enki.jar` application:
 ```
 ??? ??? enki.jar
 ```
-
-* `jdeps` 
-* `-v` 
-* `-c` 
-* `-d` 
-* `jdb` 
-* `deps`
+*`jdeps` 
+*`-v` 
+*`-c` 
+*`-d` 
+*`jdb` 
+*`deps`
 
 ---
 ## Revision
@@ -69,11 +69,9 @@ Print all class-level dependencies of `enki.jar` application:
 ```
 ??? ??? enki.jar
 ```
-
-* `jdeps` 
-* `-v` 
-* `-c` 
-* `-d` 
-* `jdb` 
-* `deps`
-
+*`jdeps` 
+*`-v` 
+*`-c` 
+*`-d` 
+*`jdb` 
+*`deps`

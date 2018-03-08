@@ -1,4 +1,4 @@
----
+# Calling one constructor from another
 author: pawel
 
 levels:
@@ -11,14 +11,10 @@ type: normal
 
 category: tip
 
-inAlgoPool: false
-
-
-
 notes: For experts as it's quite unusual to see it and might confuse beginners?
+
 ---
 ## Content
-# Calling one constructor from another
 
 If a class has more than one constructor, it can be convenient to have the default constructor call another constructor of the same class. 
 
@@ -36,4 +32,3 @@ public class BankAccount {
 The command `this(0);` is effectively  calling another constructor of this class and supply the value 0.
 
 Such a constructor call can occur only as the first line in another constructor.
-

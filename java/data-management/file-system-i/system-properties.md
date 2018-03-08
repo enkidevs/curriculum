@@ -1,4 +1,4 @@
----
+# System Properties
 author: Nick Daminov
 
 levels:
@@ -9,17 +9,12 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
-
-
 links:
 
-  - '[More on System Properties](https://docs.oracle.com/javase/tutorial/essential/environment/sysprop.html){website}'
-
+  - '[More on System Properties](https://docs.oracle.com/javase/tutorial/essential/environment/sysprop.html)'
 
 ---
 ## Content
-# System Properties
 
 Depending on the operating system you are working on (such as *Unix* or *Windows*), its system properties might differ from the others. To be sure your code will also work on other machines, Java's API provides some useful properties that automatically change to fit the running OS.
 
@@ -54,7 +49,6 @@ What does `user.dir` return?
 
 ???
 
-
 * returns user home directory
 * path separator character
 * character that separates components of a file path
@@ -66,7 +60,5 @@ What does `user.dir` return?
 Why is it important to consider different system properties when working with file systems?
 ???
 
-
 * Different operating systems have their own unique properties which if mixed up will ruin the program
 * System properties are changing through out the execution process so it is important to stay up to date to ensure the correctness of the program
-

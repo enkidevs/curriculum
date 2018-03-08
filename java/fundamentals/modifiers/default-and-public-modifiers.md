@@ -1,4 +1,4 @@
----
+# Default and `public` Modifiers
 author: mihaiberq
 
 levels:
@@ -7,16 +7,12 @@ levels:
 
 type: normal
 
-category: must-know
-
 inAlgoPool: false
 
-
-
+category: must-know
 
 ---
 ## Content
-# Default and `public` Modifiers
 
 The **default** case is the one in which no keyword is present. A variable with no modifier is implicitly accessible by *all the classes* in the *package*.
 
@@ -71,7 +67,6 @@ Otherwise it couldn't be called by the Java interpreter.
 What do you have to do to use a public class from another package?
 
 ???
-
 * Import that package.
 * Nothing.
 * Extend the class.
@@ -83,10 +78,8 @@ What do you have to do to use a public class from another package?
 Which is the *default* keyword modifier?
 
 ???
-
 * no keyword
 * default
 * public
 * protected
 * modifier
-

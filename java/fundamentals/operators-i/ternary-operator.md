@@ -1,4 +1,4 @@
----
+# Ternary operator
 author: kld14
 
 levels:
@@ -11,8 +11,6 @@ type: normal
 
 category: feature
 
-inAlgoPool: false
-
 tags:
 
   - java
@@ -21,15 +19,13 @@ tags:
 
   - conditional
 
-
 links:
 
-  - '[alvinalexander.com](http://alvinalexander.com/java/edu/pj/pj010018){website}'
-
+  - >-
+    [alvinalexander.com](http://alvinalexander.com/java/edu/pj/pj010018){website}
 
 ---
 ## Content
-# Ternary operator
 
 An alternative to using an if/else statement is the use of the ternary operator, whose syntax appears below.
 ```
@@ -62,7 +58,6 @@ if (flag > 5) {
 }
 ```
 ???
-
 * int count = flag > 5 ? 2:5;
 * int flag = count > 5 ? 5:2;
 * int count = flag > 5 ? 5:2;
@@ -77,7 +72,6 @@ Complete the following ternary operator syntax with the correct symbols:
 int num = x > 2 ??? 2 ??? 0
 ```
 
-
 * `?`
 * `:`
 * `>`
@@ -88,17 +82,16 @@ int num = x > 2 ??? 2 ??? 0
 
 ---
 ## Quiz
-### Which single boolean should be negated for the output to be `true`?
-```
 
-System.out.println(true?false:true==true?false:true);
-                    1     2    3          4
-```
+headline: Which single boolean should be negated for the output to be `true`?
 
- ???
+question: |
 
-* 2
-* 1
-* 3
-* 4
+  System.out.println(true?false:true==true?false:true);
+                      1     2    3          4
 
+answers:
+  - 2
+  - 1
+  - 3
+  - 4

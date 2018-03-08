@@ -1,4 +1,4 @@
----
+# Creating a defensive copy of an object to guarantee immutability
 author: adamMontgomerie
 
 levels:
@@ -13,21 +13,17 @@ type: normal
 
 category: tip
 
-inAlgoPool: false
-
 tags:
 
   - oop
 
-
 links:
 
-  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=15){website}'
-
+  - >-
+    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=15){website}
 
 ---
 ## Content
-# Creating a defensive copy of an object to guarantee immutability
 
 In order for an object to be immutable, it should not be possible to change its state after it has been constructed. Immutable objects can have mutable objects as fields. In order to prevent the mutable object field from being changed, a defensive copy must be made when the value of the field is set or whenever the field is passed outside of the class.
 
@@ -46,4 +42,3 @@ this.dateOfBirth =
   new Date(dateOfBirth.getTime());
 ```
 Rather than assigning the existing `dateOfBirth` object to our new 'Person' object, we create a copy of that object inside the class.
-

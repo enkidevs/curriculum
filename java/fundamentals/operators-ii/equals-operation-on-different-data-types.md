@@ -1,4 +1,4 @@
----
+# Equals operation on different data types
 author: AlexBroadbent
 
 levels:
@@ -13,8 +13,6 @@ type: normal
 
 category: tip
 
-inAlgoPool: false
-
 tags:
 
   - java
@@ -27,12 +25,12 @@ tags:
 
   - simple
 
+notes: >-
+  Formatting of the second paragraph may need some tweaking, just to make the
+  code sections a bit tidier.
 
-
-notes: Formatting of the second paragraph may need some tweaking, just to make the code sections a bit tidier.
 ---
 ## Content
-# Equals operation on different data types
 
 When comparing objects of different type, use either the ```==``` comparator or the ```.equals()``` method.
 
@@ -58,4 +56,3 @@ Object o2 = o1;
 boolean objectsEqual = (o1 == o2); // true
 ```
 The ```o1 == o2``` expression compares that the data that is pointed to by the variable ```o1``` is the same as ```o2``` and not that both objects are the string "Hello World!"
-

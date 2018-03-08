@@ -1,4 +1,4 @@
----
+# `final` fields do not need to be read through `synchronized` methods
 author: adamMontgomerie
 
 levels:
@@ -13,8 +13,6 @@ type: normal
 
 category: tip
 
-inAlgoPool: false
-
 tags:
 
   - multithreading
@@ -25,15 +23,13 @@ tags:
 
   - final
 
-
 links:
 
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html){website}
 
 ---
 ## Content
-# `final` fields do not need to be read through `synchronized` methods
 
 Using `synchronized` methods to access an object's fields is a way to prevent thread interference and memory consistency errors.
 
@@ -53,4 +49,3 @@ public void getX() {
 }
 ```
 This is is because a `final` field cannot be changed once it has been set; so there is no chance of introducing a memory consistency error.
-

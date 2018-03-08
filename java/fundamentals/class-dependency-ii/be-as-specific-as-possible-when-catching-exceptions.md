@@ -1,4 +1,4 @@
----
+# Be as specific as possible when catching exceptions
 author: adamMontgomerie
 
 levels:
@@ -13,21 +13,17 @@ type: normal
 
 category: best practice
 
-inAlgoPool: false
-
 tags:
 
   - exceptions
 
-
 links:
 
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/exceptions/advantages.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/exceptions/advantages.html){website}
 
 ---
 ## Content
-# Be as specific as possible when catching exceptions
 
 When specifying the type of exception to catch, it is generally preferable to be as specific as possible. For example:
 ```
@@ -57,8 +53,6 @@ In this case, the catch block only catches one type of exception. This allows us
 When handling exceptions, being more specific means:
 
 ???
-
-* Catching a particular exception.
-* Catching the generic exception.
-* Having multiple `try` blocks.
-
+*Catching a particular exception.
+*Catching the generic exception.
+*Having multiple `try` blocks.

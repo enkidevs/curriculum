@@ -1,4 +1,4 @@
----
+# Double Brace Initialization
 author: abhavk
 
 levels:
@@ -9,17 +9,12 @@ type: normal
 
 category: how to
 
-inAlgoPool: false
-
-
 links:
 
   - '[www.c2.com](http://www.c2.com/cgi/wiki?DoubleBraceInitialization){website}'
 
-
 ---
 ## Content
-# Double Brace Initialization
 
 Instead of having to always initialize a set, list or map to contain elements by manually initializing a set and adding elements to it (for example to pass to a function), Java provides a way to do it all in one go. It's called Double Brace Initialization. For example the following code:
 
@@ -54,12 +49,11 @@ new ArrayList<String>() ???
 }};
 ```
 
-
-* `{{` 
-* `add` 
-* `((` 
-* `{(` 
-* `push`
+*`{{` 
+*`add` 
+*`((` 
+*`{(` 
+*`push`
 
 ---
 ## Revision
@@ -84,8 +78,6 @@ newSet(new HashSet<String>() {{
 }});
 ```
 ???
-
-* Option C
-* Option A
-* Option B
-
+*Option C
+*Option A
+*Option B

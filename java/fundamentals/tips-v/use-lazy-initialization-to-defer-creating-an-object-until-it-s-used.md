@@ -1,4 +1,4 @@
----
+# Use lazy initialization to defer creating an object until it's used
 author: fahimrahman
 
 levels:
@@ -13,25 +13,21 @@ type: normal
 
 category: tip
 
-inAlgoPool: false
-
 tags:
 
   - lazy-initialization
 
   - java
 
-  - 
-
+  - ''
 
 links:
 
-  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=34){website}'
-
+  - >-
+    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=34){website}
 
 ---
 ## Content
-# Use lazy initialization to defer creating an object until it's used
 
 If the creation of an object is expensive or if the object is needed only under some specific condition, *lazy initialization* can be used to optimize performance.
 ```
@@ -52,4 +48,3 @@ This has several advantages, such as
 1. Avoiding the initialization of a component in an application up front, thus helping the app to launch much quicker.
 
 2. While working with low memory resources and computing power such as in embedded systems, one needs to be resource conscious.
-

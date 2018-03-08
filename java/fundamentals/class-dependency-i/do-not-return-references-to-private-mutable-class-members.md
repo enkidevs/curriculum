@@ -1,4 +1,4 @@
----
+# Do not return *references* to private *mutable* class members
 author: Russiee
 
 levels:
@@ -11,17 +11,13 @@ type: normal
 
 category: caveats
 
-inAlgoPool: false
-
-
 links:
 
-  - '[www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/OBJ05-J.+Do+not+return+references+to+private+mutable+class+members){website}'
-
+  - >-
+    [www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/OBJ05-J.+Do+not+return+references+to+private+mutable+class+members){website}
 
 ---
 ## Content
-# Do not return *references* to private *mutable* class members
 
 Returning references to `mutable private class` members allows for the opportunity to **corrupt** the internal state of a class *maliciously* or *accidentally*.
 
@@ -62,7 +58,6 @@ It means that the caller cannot manipulate the original private `Date` object.
 What is a *mutable object* ?
 
 ???
-
 * An object that can be modified after instantiation.
 * An object that cannot be modified after instantiation.
 * An object with no fields.
@@ -75,48 +70,48 @@ Which of the following is a way of preventing mutable private fields from being 
 
 ???
 
-
 * Getters should return a copy of the mutable field instead of the field itself.
 * Getters should return the field itself.
 * Avoid the use of setters.
 
 ---
 ## Quiz
-### Can you identify a Java security vulnerability?
-```
-// What does this code print?
-class MutableClass {
-  private int[] array;
 
-  public MutableClass() {
-    array = new int[10];
-    array[0] = 1;
+headline: Can you identify a Java security vulnerability?
+
+question: |
+  // What does this code print?
+  ```
+  class MutableClass {
+    private int[] array;
+
+    public MutableClass() {
+      array = new int[10];
+      array[0] = 1;
+    }
+
+    public int[] getArray() {
+      return array;
+    }
+
+    public void printEl() {
+      System.out.println(array[0]);
+    }
   }
 
-  public int[] getArray() {
-    return array;
+  public class Main {
+    public static void main(String[] args) {
+      MutableClass test = new MutableClass();
+      int[] array = test.getArray();
+      System.out.println(array[0]);
+      array[0] = 2;
+      test.printEl();
+    }
   }
+  ```
 
-  public void printEl() {
-    System.out.println(array[0]);
-  }
-}
-
-public class Main {
-  public static void main(String[] args) {
-    MutableClass test = new MutableClass();
-    int[] array = test.getArray();
-    System.out.println(array[0]);
-    array[0] = 2;
-    test.printEl();
-  }
-}
-```
-
- ???
-
-* 1 and 2
-* 1 and 1
-* 2 and 1
-* error: array has private access
-
+answers:
+  - 1 and 2
+  - 1 and 1
+  - 2 and 1
+  - 'error: array has private access'

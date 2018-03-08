@@ -1,4 +1,4 @@
----
+# Common mistake in switch statements
 author: kld14
 
 levels:
@@ -11,8 +11,6 @@ type: normal
 
 category: caveats
 
-inAlgoPool: false
-
 tags:
 
   - switch
@@ -21,12 +19,8 @@ tags:
 
   - mistake
 
-
-
-
 ---
 ## Content
-# Common mistake in switch statements
 
 One common mistake is not including the `break` keyword in a switch statement.
 
@@ -75,7 +69,6 @@ switch (num) {
 
 ???
 ```
-
 * `123`
 * `0123`
 * `1`
@@ -95,7 +88,6 @@ switch (num) {
 }
 ???
 ```
-
 * `23`
 * `0123`
 * `1`
@@ -104,21 +96,20 @@ switch (num) {
 
 ---
 ## Quiz
-### what will be the output of the following switch statement?
-```
-// What's the output for x=1?
-switch(x) {
-  case 0: System.out.print(0); break;
-  case 1: System.out.print(1);
-  case 2: System.out.print(2); break;
-  default: System.out.print(x); break;
-}
-```
 
- ???
+headline: what will be the output of the following switch statement?
 
-* 12
-* 1
-* 121
-* 10
+question: |
+  // What's the output for x=1?
+  switch(x) {
+    case 0: System.out.print(0); break;
+    case 1: System.out.print(1);
+    case 2: System.out.print(2); break;
+    default: System.out.print(x); break;
+  }
 
+answers:
+  - 12
+  - 1
+  - 121
+  - 012

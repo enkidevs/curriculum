@@ -1,4 +1,4 @@
----
+# Deleting files and directories
 author: catalin
 
 levels:
@@ -9,14 +9,8 @@ type: normal
 
 category: how to
 
-inAlgoPool: false
-
-
-
-
 ---
 ## Content
-# Deleting files and directories
 
 JDK provides the static `delete` method to delete files and directories.
 Basic syntax:
@@ -40,9 +34,7 @@ Use `File` class to delete a file:
 ```
 File.???;
 ```
-
-* `delete(path)` 
-* `rm(path)` 
-* `remove(path)` 
-* `drop(path)`
-
+*`delete(path)` 
+*`rm(path)` 
+*`remove(path)` 
+*`drop(path)`

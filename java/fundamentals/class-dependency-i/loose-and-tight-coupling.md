@@ -1,4 +1,4 @@
----
+# Loose and Tight Coupling
 author: mihaiberq
 
 levels:
@@ -9,17 +9,13 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
-
-
 links:
 
-  - '[Coupling and Cohesion](https://stackoverflow.com/questions/3085285/cohesion-coupling){website}'
-
+    - >-
+        [Coupling and Cohesion](https://stackoverflow.com/questions/3085285/cohesion-coupling){website}
 
 ---
 ## Content
-# Loose and Tight Coupling
 
 Writing "good code" implies more than properly naming variables or using the right modifiers. It also refers to software design and how easily the application can be maintained and extended.
 
@@ -107,11 +103,12 @@ What is tight coupling?
 
 ???
 
-
 * A high-level of dependency between two classes
 * A low-level of dependency between two classes
 * A high-level of dependency inside the same class
 * A low-level of dependency inside the same class
+
+
 
 ---
 ## Revision
@@ -120,9 +117,7 @@ Which of the following definitions describes `coupling` the best?
 
 ???
 
-
 * The degree of independence among modules
 * The degree of independence inside modules
 * The alternative use of private and public variables
 * Inheritance dependencies
-

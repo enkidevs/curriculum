@@ -1,4 +1,4 @@
----
+# Package naming conventions
 author: adamMontgomerie
 
 levels:
@@ -11,21 +11,17 @@ type: normal
 
 category: tip
 
-inAlgoPool: false
-
 tags:
 
   - packages
 
-
 links:
 
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/package/namingpkgs.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/package/namingpkgs.html){website}
 
 ---
 ## Content
-# Package naming conventions
 
 To prevent name conflicts between packages, it it is best to follow the naming convention for Java packages.
 
@@ -36,4 +32,3 @@ For example, if we have a package called `examplepackage` and we work at a compa
 com.examplecompany.examplepackage
 ```
 In addition, package names are always in lower case.
-

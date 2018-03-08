@@ -1,4 +1,4 @@
----
+# Iterate without an index
 author: adamMontgomerie
 
 levels:
@@ -13,21 +13,17 @@ type: normal
 
 category: tip
 
-inAlgoPool: false
-
 tags:
 
   - loops
 
-
 links:
 
-  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=88){website}'
-
+  - >-
+    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=88){website}
 
 ---
 ## Content
-# Iterate without an index
 
 Using a for-each or an Iterator instead of a traditional for-loop is a more concise and less error-prone solution. 
 
@@ -51,4 +47,3 @@ for(int i=0; i<colors.size(); i++){
 }
 
 ```
-

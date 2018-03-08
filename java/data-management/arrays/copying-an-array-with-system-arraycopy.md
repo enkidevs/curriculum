@@ -1,4 +1,4 @@
----
+# Copying an array with `System.arraycopy()`
 author: adamMontgomerie
 
 levels:
@@ -13,23 +13,19 @@ type: normal
 
 category: tip
 
-inAlgoPool: false
-
 tags:
 
   - loops
 
   - arrays
 
-
 links:
 
-  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=3){website}'
-
+  - >-
+    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=3){website}
 
 ---
 ## Content
-# Copying an array with `System.arraycopy()`
 
 `System.arraycopy` can be used to copy the contents of an array to a new location in a more concise way than using a loop. For example, in order to copy content from `src` to `dest`
 
@@ -48,4 +44,3 @@ we can use `System.arraycopy()`
 System.arraycopy(src, 0 ,dest, 0, 
   src.length);
 ```
-

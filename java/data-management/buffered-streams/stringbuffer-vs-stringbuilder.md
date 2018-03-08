@@ -1,4 +1,4 @@
----
+# `StringBuffer` vs `StringBuilder`
 author: fahimrahman
 
 levels:
@@ -9,8 +9,6 @@ type: normal
 
 category: tip
 
-inAlgoPool: false
-
 tags:
 
   - StringBuffer
@@ -19,17 +17,15 @@ tags:
 
   - String-concatenation
 
-  - 
-
+  - ''
 
 links:
 
-  - '[docs.oracle.com](http://docs.oracle.com/javase/7/docs/api/java/lang/StringBuilder.html){website}'
-
+  - >-
+    [docs.oracle.com](http://docs.oracle.com/javase/7/docs/api/java/lang/StringBuilder.html){website}
 
 ---
 ## Content
-# `StringBuffer` vs `StringBuilder`
 
 While both the clases can be used to concatenate strings, the key differences between `StringBuffer` and `StringBuilder` are:
 
@@ -38,4 +34,3 @@ While both the clases can be used to concatenate strings, the key differences be
 * `StringBuilder` is a drop-in replacement for `StringBuffer` for *use in a single thread* with no synchronization. 
 
 Performance wise, `StringBuilder` is faster compared to `StringBuffer`, and hence should preferred under most implementations.
-

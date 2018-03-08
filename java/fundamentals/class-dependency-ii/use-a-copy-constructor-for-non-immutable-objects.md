@@ -1,4 +1,4 @@
----
+# Use a copy constructor for mutable objects
 author: adamMontgomerie
 
 levels:
@@ -13,23 +13,19 @@ type: normal
 
 category: best practice
 
-inAlgoPool: false
-
 tags:
 
   - object-construction
 
   - object-copying
 
-
 links:
 
-  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=71){website}'
-
+  - >-
+    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=71){website}
 
 ---
 ## Content
-# Use a copy constructor for mutable objects
 
 Rather than using `clone`, a simpler way to create a copy of an object is to use a copy constructor. For example, a class 'Person' with this constructor:
 
@@ -60,11 +56,10 @@ A copy constructor provides a simpler and safer way to create a copy of an objec
 
 ???
 
-
-* clone()
-* duplicate()
-* construct()
-* constructor()
+*clone()
+*duplicate()
+*construct()
+*constructor()
 
 ---
 ## Revision
@@ -96,8 +91,6 @@ public Location(Location loc) {
 ```
 ???
 
-
-* Option B
-* Option C
-* Option A
-
+*Option B
+*Option C
+*Option A

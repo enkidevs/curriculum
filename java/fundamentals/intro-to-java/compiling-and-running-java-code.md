@@ -1,4 +1,4 @@
----
+# Compiling and Running Java Code
 author: mihaiberq
 
 levels:
@@ -7,16 +7,12 @@ levels:
 
 type: normal
 
-category: must-know
-
 inAlgoPool: false
 
-
-
+category: must-know
 
 ---
 ## Content
-# Compiling and Running Java Code
 
 In the last insight, we talked about the `HelloWorld` class and about its output, but never mentioned how to get from one point to the other. 
 
@@ -48,7 +44,6 @@ As you can see, after calling the JVM, the output of the program is printed to t
 
 A\an ??? translates the high-level Java code into bytecode.
 
-
 * compiler
 * virtual machine
 * IDE
@@ -60,7 +55,6 @@ A\an ??? translates the high-level Java code into bytecode.
 You can get both the Java compiler and the JVM by installing
 
 ???.
-
 * Java Development Kit
 * Java Virtual Machine
 * Any virtual machine
@@ -68,6 +62,7 @@ You can get both the Java compiler and the JVM by installing
 
 ---
 ## Footnotes
+
 [1:Compiler]
 In general, a compiler is a tool that translates the code you write (which is human-understandable enough, but has no use for the computer) into code that the computer understands, but has no use for you. In particular, the Java compiler does only half of the job - the output bytecode cannot be executed by the machine without getting it through another tool (which is the JVM).
 

@@ -1,4 +1,4 @@
----
+# Different types of variables in Java
 author: pawel
 
 levels:
@@ -13,8 +13,6 @@ type: normal
 
 category: tip
 
-inAlgoPool: false
-
 tags:
 
   - variable-types
@@ -25,15 +23,15 @@ tags:
 
   - class-variables
 
+notes: ''
 
 links:
 
-  - '[www.tutorialspoint.com](http://www.tutorialspoint.com/java/java_variable_types.htm){website}'
+  - >-
+    [www.tutorialspoint.com](http://www.tutorialspoint.com/java/java_variable_types.htm){website}
 
-notes: 
 ---
 ## Content
-# Different types of variables in Java
 
 Java supports three kinds of variables.  
 
@@ -42,4 +40,3 @@ Local variables are used inside blocks as counters or in methods as temporary va
 Instance variables are defining attributes or states of a particular objects and are used to store information across multiple methods in the objects.
 
 Class variables are global to a class and to all the instances of the class and can be used for communicating between different objects in the same class or keeping track of global states
-

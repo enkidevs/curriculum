@@ -1,4 +1,4 @@
----
+# Deadlocks
 author: Nick Daminov
 
 levels:
@@ -9,19 +9,14 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
-
-
 links:
 
-  - '[Dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem){website}'
-  - '[Deadlock examples](https://stackoverflow.com/questions/34512/what-is-a-deadlock){website}'
-  - '[More on Deadlock conditions](http://wikieducator.org/Necessary_conditions_for_deadlock){website}'
-
+  - '[Dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem)'
+  - '[Deadlock examples](https://stackoverflow.com/questions/34512/what-is-a-deadlock)'
+  - '[More on Deadlock conditions](http://wikieducator.org/Necessary_conditions_for_deadlock)'
 
 ---
 ## Content
-# Deadlocks
 
 **Deadlock** is a situation in which two or more processes/threads are accessing same resources in a mutually exclusive fashion.
 
@@ -49,7 +44,7 @@ Thread2:
 
 If we consider a situation in which `Thread1` acquires `lock1` and then `Thread2` acquires `lock2` (this can happen as these actions are not synchronized), then we end up in a **deadlock** situation as none of the two threads can proceed further.
 
-**Deadlock** is not limited to two threads only, for example *dining philosophers* problem.
+**Deadlock** is not limited to two threads only, for example *dining philosophers* problem.   
 
 ---
 ## Practice
@@ -57,7 +52,6 @@ If we consider a situation in which `Thread1` acquires `lock1` and then `Thread2
 What lines in `Thread2` should we swap to avoid a *deadlock* situation?
 
 ???
-
 
 * lines 2 & 1
 * lines 4 & 5
@@ -70,8 +64,6 @@ What is a *deadlock*?
 
 ???
 
-
 * A situation in which processes fail to acquire resources due to mutual exclusion
 * A situation in which a process does not free it's resources after execution
 * A situation when all resources are acquired by the processes
-

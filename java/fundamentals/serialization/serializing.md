@@ -1,4 +1,4 @@
----
+# Serializing
 author: Nick Daminov
 
 levels:
@@ -9,17 +9,12 @@ type: normal
 
 category: how to
 
-inAlgoPool: false
-
-
 links:
 
-  - '[More on Serialization](https://www.tutorialspoint.com/java/java_serialization.htm){website}'
-
+  - '[More on Serialization](https://www.tutorialspoint.com/java/java_serialization.htm)'
 
 ---
 ## Content
-# Serializing
 
 **NOTE:** whenever an object is serialized to a file, conventionally this file is given a `.ser` extension although it can be any other type of file such as `.txt`.
 
@@ -96,7 +91,6 @@ What could be done to Car in order to avoid the above problem?
 
 ???
 
-
 * No, Car has a non serializable field
 * Engine should be marked as `transient`
 * Yes, Car is serializable
@@ -120,7 +114,6 @@ What is the conventional extension of a file that the information about the clas
 
 ???
 
-
 * serializable
 * `transient`
 * `.ser`
@@ -130,5 +123,6 @@ What is the conventional extension of a file that the information about the clas
 
 ---
 ## Footnotes
+
 [1:`transient`]
 We mark fields with `transient` if this field will not be serialized and the information about this field will not be transferred. The motivation for this may be that this particular piece of information is redundant for the receiver or is too risky to transfer (i.e. passwords or other private data).

@@ -1,4 +1,4 @@
----
+# Using `enum` in Java
 author: pawel
 
 levels:
@@ -11,18 +11,14 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
-
 tags:
 
   - enum
 
+notes: ''
 
-
-notes: 
 ---
 ## Content
-# Using `enum` in Java
 
 In Java `enum` is a type whose fields consist of a fixed set of constants. You should use enum types any time you need to represent a fixed set of constants, e.g. days of the week, cards in a deck or menu item options. 
 
@@ -44,15 +40,14 @@ public ??? MyEnum ???
 ???
 ```
 
-
 * `enum` 
-* `{` 
-* `}` 
-* `enumeration` 
-* `[` 
-* `]` 
-* `(` 
-* `)`
+*`{` 
+*`}` 
+*`enumeration` 
+*`[` 
+*`]` 
+*`(` 
+*`)`
 
 ---
 ## Revision
@@ -64,10 +59,8 @@ public ??? MyEnum {
 }
 ```
 
-
 * `enum` 
-* `enumeration` 
-* `e` 
-* `list` 
-* `array`
-
+*`enumeration` 
+*`e` 
+*`list` 
+*`array`

@@ -1,4 +1,4 @@
----
+# Writing generic methods
 author: adamMontgomerie
 
 levels:
@@ -11,23 +11,19 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
-
 tags:
 
   - generic-method
 
   - type-inference
 
-
 links:
 
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/methods.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/methods.html){website}
 
 ---
 ## Content
-# Writing generic methods
 
 In this example method:
 ```
@@ -54,4 +50,3 @@ Notice that we have replaced references to a specific type `int` with `E`; our g
 Also notice the `<E>` before the method's return type (in this case `void`); this is the method's type parameter, and is necessary for defining a generic method.
 
 We can now use this method to print all of our project's arrays.
-

@@ -1,4 +1,4 @@
----
+# serialVersionUID
 author: Nick Daminov
 
 levels:
@@ -9,17 +9,12 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
-
-
 links:
 
-  - '[More About serialVersionUID](https://stackoverflow.com/questions/285793/what-is-a-serialversionuid-and-why-should-i-use-it){website}'
-
+  - '[More About serialVersionUID](https://stackoverflow.com/questions/285793/what-is-a-serialversionuid-and-why-should-i-use-it)'
 
 ---
 ## Content
-# serialVersionUID
 
 The key component of a receiving and deserializing process is **serialVersionUID**. **serialVersionUID** is a class version number which is used during deserialization to verify that the sender and receiver have the same class structure for the serealized object.
 
@@ -41,7 +36,6 @@ What is serialVersionUID?
 What is the best practice for serialVersionUID declaration?
 
 ???
-
 
 * A specific number that is used upon deserializing an object
 * Custom declaration
@@ -69,7 +63,6 @@ What is the data type of serialVersionUID?
 
 ???
 
-
 * A specific number that is used upon deserializing an object
 * Custom declaration
 * Any access type
@@ -82,5 +75,6 @@ What is the data type of serialVersionUID?
 
 ---
 ## Footnotes
+
 [1:ANY-ACCESS-MODIFIER]
 In this it makes no difference if we make it `private`, `public`, `protected` or any other type.

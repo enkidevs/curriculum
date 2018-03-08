@@ -1,4 +1,4 @@
----
+# Why use `volatile` `long` or `double`
 author: catalin
 
 levels:
@@ -13,17 +13,16 @@ type: normal
 
 category: best practice
 
-inAlgoPool: false
-
+notes: >-
+  https://insights.enki.com/#/contrib/others/55f00de0f457f33b00621144?search=khandelwalrinki
 
 links:
 
-  - '[stackoverflow.com](http://stackoverflow.com/questions/3463658/are-64-bit-assignments-in-java-atomic-on-a-32-bit-machine){website}'
+  - >-
+    [stackoverflow.com](http://stackoverflow.com/questions/3463658/are-64-bit-assignments-in-java-atomic-on-a-32-bit-machine){website}
 
-notes: https://insights.enki.com/#/contrib/others/55f00de0f457f33b00621144?search=khandelwalrinki
 ---
 ## Content
-# Why use `volatile` `long` or `double`
 
 When multi threading read/writes operations with 64 bit values, you need to take into consideration that `long` and `double` values are not atomic. That means that a single write or read is treated as two separate operations: one to each `32 bit` half.
 
@@ -49,4 +48,3 @@ In order to avoid this problem, `long` and `double` values need to be granted at
 private volatile long i = 0;
 ```
 Making the field `volatile` will guarantee its atomicity.
-

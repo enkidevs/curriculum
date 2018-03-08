@@ -1,4 +1,4 @@
----
+# Intro to `JConsole`
 author: catalin
 
 levels:
@@ -15,17 +15,16 @@ type: normal
 
 category: feature
 
-inAlgoPool: false
-
+notes: >-
+  https://insights.enki.com/#/contrib/others/55f43176da97642e00a78199?search=khandelwalrinki
 
 links:
 
-  - '[docs.oracle.com](http://docs.oracle.com/javase/7/docs/technotes/guides/management/jconsole.html){website}'
+  - >-
+    [docs.oracle.com](http://docs.oracle.com/javase/7/docs/technotes/guides/management/jconsole.html){website}
 
-notes: https://insights.enki.com/#/contrib/others/55f43176da97642e00a78199?search=khandelwalrinki
 ---
 ## Content
-# Intro to `JConsole`
 
 `JConsole` is a graphical monitoring tool to monitor *Java Virtual Machine* and *Java *applications both on a local or remote machine.
 
@@ -60,14 +59,13 @@ Set up remote monitoring with JConsole:
 ```
 $ jconsole ???:???
 ```
-
-* `hostname` 
-* `port` 
-* `PID` 
-* `-J-d64` 
-* `-J-d32` 
-* `-system` 
-* `gate`
+*`hostname` 
+*`port` 
+*`PID` 
+*`-J-d64` 
+*`-J-d32` 
+*`-system` 
+*`gate`
 
 ---
 ## Revision
@@ -77,8 +75,6 @@ What does the following piece of code do?
 $ jconsole PID
 ```
 ???
-
-* Starts JConsole on a specific application
-* Starts JConsole at a specific time
-* Starts JConsole on a private port
-
+*Starts JConsole on a specific application
+*Starts JConsole at a specific time
+*Starts JConsole on a private port

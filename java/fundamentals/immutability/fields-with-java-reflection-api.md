@@ -1,4 +1,4 @@
----
+# Fields with Java **Reflection API**
 author: catalin
 
 levels:
@@ -11,17 +11,15 @@ type: normal
 
 category: feature
 
-inAlgoPool: false
-
+notes: 'https://insights.enki.com/#/contrib/55ae3539d457944f00962ca4'
 
 links:
 
-  - '[www.java-tips.org](http://www.java-tips.org/java-lang/2513-how-to-set-field-values-using-java-reflection.html){website}'
+  - >-
+    [www.java-tips.org](http://www.java-tips.org/java-lang/2513-how-to-set-field-values-using-java-reflection.html){website}
 
-notes: https://insights.enki.com/#/contrib/55ae3539d457944f00962ca4
 ---
 ## Content
-# Fields with Java **Reflection API**
 
 As a part of the **Reflection API**, the `java.lang.reflect.Field` class represents a generic *field* in a class or interface, allowing the programmatic retrieval of field information (name, value, annotations), or even modification of a field.
 
@@ -63,10 +61,9 @@ Complete the following code snippet to set the value of the field to 10:
 ```
 intField.???(myObj, 10);
 ```
-
-* `setInt` 
-* `set` 
-* `setField`
+*`setInt` 
+*`set` 
+*`setField`
 
 ---
 ## Revision
@@ -77,10 +74,8 @@ Field intField =
   ???.getClass()
           .???("Enki");
 ```
-
-* `myObj` 
-* `getField` 
-* `field` 
-* `setField` 
-* `find`
-
+*`myObj` 
+*`getField` 
+*`field` 
+*`setField` 
+*`find`

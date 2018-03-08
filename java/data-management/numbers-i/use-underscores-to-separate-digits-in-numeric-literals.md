@@ -1,4 +1,4 @@
----
+# Use underscores to separate digits in numeric literals
 author: adamMontgomerie
 
 levels:
@@ -13,21 +13,17 @@ type: normal
 
 category: feature
 
-inAlgoPool: false
-
 tags:
 
   - jdk-7
 
-
 links:
 
-  - '[javarevisited.blogspot.jp](http://javarevisited.blogspot.jp/2014/04/10-jdk-7-features-to-revisit-before-you.html){website}'
-
+  - >-
+    [javarevisited.blogspot.jp](http://javarevisited.blogspot.jp/2014/04/10-jdk-7-features-to-revisit-before-you.html){website}
 
 ---
 ## Content
-# Use underscores to separate digits in numeric literals
 
 In JDK 7+, it is possible to place underscores '_' inside numeric literals in order to make them more readable.
 
@@ -41,4 +37,3 @@ This can also be used break very large integer values to make them more readable
 int billion = 1_000_000_000;
 ```
 Note that underscores must be placed in between digits; values that begin or end with an underscore are invalid.
-

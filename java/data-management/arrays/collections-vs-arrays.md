@@ -1,4 +1,4 @@
----
+# Collections vs arrays
 author: adamMontgomerie
 
 levels:
@@ -11,23 +11,19 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
-
 tags:
 
   - collections
 
   - arrays
 
-
 links:
 
-  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=39){website}'
-
+  - >-
+    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=39){website}
 
 ---
 ## Content
-# Collections vs arrays
 
 Collections are more feature-rich than arrays so are preferable in most cases. for example: 
 
@@ -43,9 +39,8 @@ Which one of the following has pre-made sorting algorithms?
 
 `???`
 
-
-* `collections` 
-* `arrays`
+*`collections` 
+*`arrays`
 
 ---
 ## Revision
@@ -54,7 +49,5 @@ Which one has dynamic size?
 
 `???`
 
-
-* `collections` 
-* `arrays`
-
+*`collections` 
+*`arrays`

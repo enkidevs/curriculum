@@ -1,4 +1,4 @@
----
+# Hashing
 author: Nick Daminov
 
 levels:
@@ -9,19 +9,14 @@ type: normal
 
 category: feature
 
-inAlgoPool: false
-
-
 links:
 
-  - '[More on Hashing](https://en.wikipedia.org/wiki/Hash_function){website}'
-  - '[Java Object HashCode](https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#hashCode()){website}'
-  - '[String Hashcode](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#hashCode()){website}'
-
+  - '[More on Hashing](https://en.wikipedia.org/wiki/Hash_function)'
+  - '[Java Object HashCode](https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#hashCode())'
+  - '[String Hashcode](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#hashCode())'
 
 ---
 ## Content
-# Hashing
 
 **Hashing** is a process of mapping an arbitrary size data to a fixed size data which satisfies certain properties. In *Java* each object has a hash value defined by `public int hashCode()` function which returns a hash value implemented in the `Object` class. This function has following properties:
  - If two objects are *"equal"*, then they have the same hash value, equality of two objects is provided by `public boolean equals(Object obj)` method.
@@ -46,8 +41,6 @@ What is hashing?
 
 ???
 
-
 * Concept of encoding an arbitrary data into a fixed size number in a unique way.
 * Concept of rewriting methods in a subclass if they already exist in a parent class.
 * Specific order of inheritance from multiple classes.
-

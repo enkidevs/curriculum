@@ -1,4 +1,4 @@
----
+# The `jmap` tool
 author: catalin
 
 levels:
@@ -11,18 +11,19 @@ type: normal
 
 category: feature
 
-inAlgoPool: false
-
+notes: >-
+  https://insights.enki.com/#/contrib/others/55f42618da97642e00a78196?search=khandelwalrinki
 
 links:
 
-  - '[docs.oracle.com](http://docs.oracle.com/javase/7/docs/technotes/tools/share/jmap.html){website}'
-  - '[blog.codecentric.de](https://blog.codecentric.de/en/2008/07/memory-analysis-part-1-obtaining-a-java-heapdump/){website}'
+  - >-
+    [docs.oracle.com](http://docs.oracle.com/javase/7/docs/technotes/tools/share/jmap.html){website}
 
-notes: https://insights.enki.com/#/contrib/others/55f42618da97642e00a78196?search=khandelwalrinki
+  - >-
+    [blog.codecentric.de](https://blog.codecentric.de/en/2008/07/memory-analysis-part-1-obtaining-a-java-heapdump/){website}
+
 ---
 ## Content
-# The `jmap` tool
 
 `jmap` - Memory Map: Prints shared object memory maps or heap memory details of a given JVM process or a Java core file on the local machine. It can also used with the `jsadebugd` daemon to query a process or core file on a remote machine.
 
@@ -59,14 +60,13 @@ Dump the heap information into the `practice.bin` file:
 $ jmap ???:???=
       practice.bin PID
 ```
-
-* `-dump` 
-* `file` 
-* `dump` 
-* `location` 
-* `loc` 
-* `dest` 
-* `info`
+*`-dump` 
+*`file` 
+*`dump` 
+*`location` 
+*`loc` 
+*`dest` 
+*`info`
 
 ---
 ## Revision
@@ -75,11 +75,9 @@ Print the heap histogram for a running process:
 ```
 $ jmap ??? ???
 ```
-
-* `-histo` 
-* `PID` 
-* `-h` 
-* `-histogram` 
-* `process` 
-* `processID`
-
+*`-histo` 
+*`PID` 
+*`-h` 
+*`-histogram` 
+*`process` 
+*`processID`

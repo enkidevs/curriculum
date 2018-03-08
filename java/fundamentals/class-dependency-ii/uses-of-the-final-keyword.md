@@ -1,4 +1,4 @@
----
+# Uses of the `final` keyword
 author: adamMontgomerie
 
 levels:
@@ -13,23 +13,19 @@ type: normal
 
 category: feature
 
-inAlgoPool: false
-
 tags:
 
   - keywords
 
   - oop-concepts
 
-
 links:
 
-  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=23){website}'
-
+  - >-
+    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=23){website}
 
 ---
 ## Content
-# Uses of the `final` keyword
 
 The `final` keyword has different meanings depending on where it is used:
 - If used on a class then it means that the class cannot be extended.
@@ -48,7 +44,6 @@ Which of the following is not an advantage of using the `final` keyword:
 
 ???
 
-
 * It allows classes, where final has been used, to be extended to prevent code repetition.
 * The values of final variables cannot be accidentally changed.
 * The compiler and VM can optimize the code.
@@ -62,7 +57,6 @@ public ??? ??? Example{
 // Revision questions
 }
 ```
-
 * `final`
 * `class`
 * `static`
@@ -71,26 +65,27 @@ public ??? ??? Example{
 
 ---
 ## Quiz
-### Can you predict the output of this inheritance example?
-```
-// What would the following snippet output?
-class Tesla {
-    public static final String MODEL = "Model S";
-}
 
-public class Roadster extends Tesla {
-    public static final String MODEL = "Roadster";
+headline: Can you predict the output of this inheritance example?
 
-    public static void main(String[] args) {
-        System.out.println(Roadster.MODEL);
-    }
-}
-```
+question: |
+  // What would the following snippet output?
+  ```
+  class Tesla {
+      public static final String MODEL = "Model S";
+  }
 
- ???
+  public class Roadster extends Tesla {
+      public static final String MODEL = "Roadster";
 
-* Roadster
-* Model S
-* error: MODEL is final
-* Model SRoadster
+      public static void main(String[] args) {
+          System.out.println(Roadster.MODEL);
+      }
+  }
+  ```
 
+answers:
+  - Roadster
+  - Model S
+  - 'error: MODEL is final'
+  - Model SRoadster

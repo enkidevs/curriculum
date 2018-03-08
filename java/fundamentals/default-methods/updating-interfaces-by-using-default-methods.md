@@ -1,4 +1,4 @@
----
+# Updating interfaces by using `default` methods
 author: adamMontgomerie
 
 levels:
@@ -9,23 +9,19 @@ type: normal
 
 category: tip
 
-inAlgoPool: false
-
 tags:
 
   - interfaces
 
   - default-method
 
-
 links:
 
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html){website}
 
 ---
 ## Content
-# Updating interfaces by using `default` methods
 
 Take the following interface:
 ```
@@ -67,12 +63,11 @@ public interface Move{
   }
 }
 ```
-
-* `default`
-* `void`
-* `private`
-* `static`
-* `public`
+*`default`
+*`void`
+*`private`
+*`static`
+*`public`
 
 ---
 ## Revision
@@ -80,9 +75,7 @@ public interface Move{
 Which type of method declared in an interface requires some kind of implementation inside the said interface?
 
 ???
-
-* Only default ones.
-* None.
-* All.
-* Non-default methods.
-
+*Only default ones.
+*None.
+*All.
+*Non-default methods.

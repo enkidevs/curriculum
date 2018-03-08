@@ -1,4 +1,4 @@
----
+# Java Versions
 author: mihaiberq
 
 levels:
@@ -7,16 +7,12 @@ levels:
 
 type: normal
 
-category: must-know
-
 inAlgoPool: false
 
-
-
+category: must-know
 
 ---
 ## Content
-# Java Versions
 
 A little history for you. Java was first released in 1995. Since then, there have been 9 other major versions, Java 8 being the latest publicly available one. 
 
@@ -37,7 +33,6 @@ Roughly how many classes are in the current **Java** version 8 ?
 
 ???
 
-
 * 4300
 * 10
 * 100
@@ -51,9 +46,7 @@ What's latest announced Java version?
 
 ???
 
-
 * Java 9
 * Java 5
 * Java 1
 * Java 8
-

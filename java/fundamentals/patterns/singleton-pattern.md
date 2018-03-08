@@ -1,4 +1,4 @@
----
+# Singleton Pattern
 author: pawel
 
 levels:
@@ -13,21 +13,19 @@ type: normal
 
 category: pattern
 
-inAlgoPool: false
-
 tags:
 
   - singleton
 
+notes: ''
 
 links:
 
-  - '[www.tutorialspoint.com](http://www.tutorialspoint.com/design_pattern/singleton_pattern.htm){website}'
+  - >-
+    [www.tutorialspoint.com](http://www.tutorialspoint.com/design_pattern/singleton_pattern.htm){website}
 
-notes: 
 ---
 ## Content
-# Singleton Pattern
 
 Singleton pattern is a design pattern involving a class which can be instantiated *exactly once*.
 
@@ -54,4 +52,3 @@ the method cannot be accessed other class*/
 This version of the Singleton class is not the most efficient one, however it is thread-safe and it will do the job most of the time.
 
 A reason to use a Singleton class is to log other classes in the application. Because a logger is heavily accessed, it makes sense to have a single instance to track the output.
-

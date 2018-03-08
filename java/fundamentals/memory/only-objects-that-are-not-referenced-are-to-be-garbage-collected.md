@@ -1,4 +1,5 @@
----
+# Only objects that are not referenced are to be garbage collected.
+
 author: catalin
 
 levels:
@@ -13,17 +14,14 @@ type: normal
 
 category: caveats
 
-inAlgoPool: false
-
+notes: 'https://insights.enki.com/#/contrib/others/55f4be87d7d6642d0011873b?search=kha'
 
 links:
 
   - '[pawlan.com](http://pawlan.com/monica/articles/refobjs/){website}'
 
-notes: https://insights.enki.com/#/contrib/others/55f4be87d7d6642d0011873b?search=kha
 ---
 ## Content
-# Only objects that are not referenced are to be garbage collected.
 
 In order for a *Java* object to be automatically garbage collected, all the references to it must be *nullified*.
 
@@ -48,4 +46,3 @@ doc = null;
 At the end of the code snippet one might think the `DOM document` will be garbage-collected. This is not the case!
 
 A `DOM Node` object always belongs to a `DOM Document`. Even when removed from the document the node object retains a reference to its owning document. As long as we keep that child object, neither the document nor any of the nodes it refers to will be removed.
-

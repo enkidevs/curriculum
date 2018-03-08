@@ -1,4 +1,4 @@
----
+# Specifying an annotation retention policy
 author: adamMontgomerie
 
 levels:
@@ -13,23 +13,19 @@ type: normal
 
 category: feature
 
-inAlgoPool: false
-
 tags:
 
   - annotations
 
   - meta-annotations
 
-
 links:
 
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/annotations/predefined.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/annotations/predefined.html){website}
 
 ---
 ## Content
-# Specifying an annotation retention policy
 
 Meta-annotations are annotations which apply to other annotations. The `@Retention` meta-annotation specifies the way in which an annotation should be stored. There are three available retention policies:
 - `RetentionPolicy.SOURCE`: the annotation is ignored by the compiler and maintained only at source code level.
@@ -45,4 +41,3 @@ For example:
 }
 ```
 This annotation will be available at runtime.
-

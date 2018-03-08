@@ -1,4 +1,4 @@
----
+# How to list all files in a directory that match a filename extension in Java
 author: pawel
 
 levels:
@@ -9,14 +9,10 @@ type: normal
 
 category: how to
 
-inAlgoPool: false
+notes: ''
 
-
-
-notes: 
 ---
 ## Content
-# How to list all files in a directory that match a filename extension in Java
 
 Often we want to create a list of all files in a given directory that match a specific filename pattern, or more specifically, match the same filename extension. An elegant solution to this problem is presented below:
 
@@ -43,10 +39,8 @@ FileUtils.listFiles("~/Desktop", new
 ???,
 ???);
 ```
-
-* `WildcardFileFilter("*enki*")` 
-* `TrueFileFilter.INSTANCE` 
-* `WildcardDirectoryFilter("*")` 
-* `TrueFilter.ALL` 
-* `WildcardFileFilter("enki")`
-
+*`WildcardFileFilter("*enki*")` 
+*`TrueFileFilter.INSTANCE` 
+*`WildcardDirectoryFilter("*")` 
+*`TrueFilter.ALL` 
+*`WildcardFileFilter("enki")`

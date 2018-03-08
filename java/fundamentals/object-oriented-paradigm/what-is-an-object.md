@@ -1,4 +1,4 @@
----
+# What Is an Object?
 author: mihaiberq
 
 levels:
@@ -7,16 +7,12 @@ levels:
 
 type: normal
 
-category: must-know
-
 inAlgoPool: false
 
-
-
+category: must-know
 
 ---
 ## Content
-# What Is an Object?
 
 An **object** is the representation of a blueprint. Basically, an *object* is created from a *class*. In Java, the `new` keyword is used to create an object. 
 
@@ -62,7 +58,6 @@ What is the keyword used when instantiating objects?
 
 ???
 
-
 * `new`
 * `build`
 * `new*`
@@ -75,8 +70,6 @@ The `initalization` part of creating an object refers to
 
 ???
 
-
 * the constructor method being called
 * the `new` keyword being used
 * the variable being declared
-
