@@ -1,5 +1,4 @@
-# Force a time update with `ntp`
-
+---
 author: tuwi.dc
 
 levels:
@@ -28,8 +27,12 @@ tags:
 
   - terminal
 
+
+
+
 ---
 ## Content
+# Force a time update with `ntp`
 
 To force an `ntp`[1] time update from the terminal, use the `ntpd` command.
 
@@ -51,13 +54,13 @@ Sync the system time with the  `0.uk.pool.ntp.org`  server :
 $ ??? ??? 
       0.uk.pool.ntp.org
 ```
-*`ntpdate`
-*`-u`
-*`ntupdate`
-*`-f`
+
+* `ntpdate`
+* `-u`
+* `ntupdate`
+* `-f`
 
 ---
 ## Footnotes
-
 [1:NTP]
 Network Time Protocol

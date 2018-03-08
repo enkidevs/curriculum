@@ -1,4 +1,4 @@
-# Transforming Text With `sed`
+---
 author: jfarmer
 
 levels:
@@ -9,16 +9,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[Useful sed one-liners](http://sed.sourceforge.net/sed1line.txt){website}'
 
+
 ---
 ## Content
+# Transforming Text With `sed`
 
 The `sed` command (short for *stream editor*) is used to manipulate a stream of text one line at a time.  A common use-case is altering the contents of a file or output of another program one line at a time.
 
@@ -66,10 +69,11 @@ Replace the first apparition of *apple* in each line by *orange*:
 $ ??? '??? ??? ???'
         fruits.txt
 ```
-*`sed`
-*`s/`
-*`apple/`
-*`orange/`
+
+* `sed`
+* `s/`
+* `apple/`
+* `orange/`
 
 ---
 ## Revision
@@ -77,7 +81,9 @@ $ ??? '??? ??? ???'
 What does `sed` stand for? 
 
 ???
-*stream editor
-*special editor
-*stream edit
-*special stream editor
+
+* stream editor
+* special editor
+* stream edit
+* special stream editor
+

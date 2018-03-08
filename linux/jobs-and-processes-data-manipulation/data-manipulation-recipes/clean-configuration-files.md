@@ -1,4 +1,4 @@
-# Clean configuration files
+---
 author: tup
 
 levels:
@@ -19,10 +19,13 @@ tags:
 
   - clean
 
+
+
 notes: 'ARSENY, THIS IS AN EXPERT''S INSIGHT - DO NOT REJECT'
 
 ---
 ## Content
+# Clean configuration files
 
 Over commented *configuration* files can be difficult to read and manage. 
 
@@ -54,7 +57,9 @@ A script to delete comments and empty lines from configuration files would use t
 
 ??? command .
 
-*sed
-*clr
-*del
-*cd
+
+* sed
+* clr
+* del
+* cd
+

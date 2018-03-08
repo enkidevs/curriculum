@@ -1,4 +1,4 @@
-# Run previous command as root
+---
 author: nene
 
 levels:
@@ -16,13 +16,19 @@ type: normal
 category: hack
 
 tags:
+
   - root
+
   - commands
+
   - introduction
+
+
 
 
 ---
 ## Content
+# Run previous command as root
 
 Without including `sudo` before a command, sometimes a 'permission denied' message can be received.
 
@@ -48,7 +54,9 @@ A hack to re-run the last command as root is:
 $ adduser newUser
 $ ???
 ```
-*`sudo !!`
-*`!!`
-*`sudo adduser newUser`
-*`adduser newUser`
+
+* `sudo !!`
+* `!!`
+* `sudo adduser newUser`
+* `adduser newUser`
+

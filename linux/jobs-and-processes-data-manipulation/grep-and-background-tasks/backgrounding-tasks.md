@@ -1,4 +1,4 @@
-# Backgrounding tasks 
+---
 author: tuwi.dc
 
 levels:
@@ -23,10 +23,13 @@ tags:
 
   - background
 
+
+
 notes: ''
 
 ---
 ## Content
+# Backgrounding tasks 
 
 Sometimes we need to execute a task that takes a couple of minutes but this task is screen-blocking, and it's a pain to open a new terminal just for it.
 
@@ -54,7 +57,9 @@ You can run a command in the background by adding
 
 ??? at the end of it .
 
-*`&`
-*`$`
-*`bg`
-*`!`
+
+* `&`
+* `$`
+* `bg`
+* `!`
+

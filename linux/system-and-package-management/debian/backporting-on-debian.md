@@ -1,5 +1,4 @@
-# Backporting on Debian
-
+---
 author: tuwi.dc
 
 levels:
@@ -30,14 +29,16 @@ tags:
 
   - upgrades
 
-notes: ''
 
 links:
 
   - '[backports.debian.org](http://backports.debian.org/Instructions/){website}'
 
+notes: ''
+
 ---
 ## Content
+# Backporting on Debian
 
 Backports are recompiled packages, taken from the next Debian releases (from *testing* and sometimes from *unstable*, when it comes to security updates) installed on a *stable* environment.
 
@@ -76,12 +77,12 @@ The `-t` (`--target-release`) specifies *jessie-backports* as target release.
 `Backports` are recompiled packages taken from 
 
 ???.
-*next releases of the OS
-*older releases of the OS
-*other OS
+
+* next releases of the OS
+* older releases of the OS
+* other OS
 
 ---
 ## Footnotes
-
 [1:Syntax]
 `deb` indicates that the archive contains binary packages, next is the repository URL. The *distribution* can be either the release code name(i.e. wheezy-backports) or release class(stable,testing). `main` is a *component* and consists of *DFSG*(Debian Free Software Guidelines)-compilant packages, which are considered being part of the Debian distribution.

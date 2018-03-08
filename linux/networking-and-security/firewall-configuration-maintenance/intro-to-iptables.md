@@ -1,4 +1,4 @@
-#  Intro to `iptables`
+---
 author: tuwi.dc
 
 levels:
@@ -19,10 +19,13 @@ tags:
 
   - netfilter
 
+
+
 notes: ''
 
 ---
 ## Content
+#  Intro to `iptables`
 
 *iptables* is the firewall solution that ships with the Linux kernel. It works by checking each packet that comes through against a set of rules to decide what to do.
 
@@ -75,15 +78,16 @@ $ ??? ??? ???
     ??? DROP
 ```
 
-*`iptables`
-*`-A`
-*`INPUT`
-*`132.154.32.101`
-*`-j`
-*`DROP`
-*`A`
-*`iftables`
-*`ACCEPT`
+
+* `iptables`
+* `-A`
+* `INPUT`
+* `132.154.32.101`
+* `-j`
+* `DROP`
+* `A`
+* `iftables`
+* `ACCEPT`
 
 ---
 ## Revision
@@ -91,14 +95,14 @@ $ ??? ??? ???
 Which of the following chains is not a default one?
 
 ???
-*RULES
-*INPUT
-*OUTPUT
-*FORWARD
+
+* RULES
+* INPUT
+* OUTPUT
+* FORWARD
 
 ---
 ## Footnotes
-
 [1:Chains]
 A set of rules a packet is checked against sequentially.
 [2:Input]

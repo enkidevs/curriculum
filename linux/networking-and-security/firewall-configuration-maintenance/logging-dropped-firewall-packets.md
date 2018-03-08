@@ -1,4 +1,4 @@
-# Logging dropped firewall packets
+---
 author: tuwi.dc
 
 levels:
@@ -19,10 +19,13 @@ tags:
 
   - logging
 
+
+
 notes: ''
 
 ---
 ## Content
+# Logging dropped firewall packets
 
 If you want to determine what sort of traffic is being blocked, a way of doing so is by logging the dropped packets with a logdrop chain.
 
@@ -64,7 +67,9 @@ The action flow to log dropped packets is:
 3. ???
 4. ???
 ```
-*`Create a new chain`
-*`Set the number of logged packets`
-*`Set the last action of the chain to DROP`
-*`Use the new chain as target`
+
+* `Create a new chain`
+* `Set the number of logged packets`
+* `Set the last action of the chain to DROP`
+* `Use the new chain as target`
+

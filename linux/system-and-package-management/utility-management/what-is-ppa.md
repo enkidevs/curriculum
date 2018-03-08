@@ -1,4 +1,4 @@
-# What is a PPA?
+---
 author: Nick Daminov
 
 levels:
@@ -9,14 +9,18 @@ type: normal
 
 category: must-know
 
+
 links:
-  - '[More on APT](https://en.wikipedia.org/wiki/APT_(Debian))'
-  - '[More on PPAs](https://launchpad.net/ubuntu/+ppas)'
-  - '[PPAs with GUI](https://askubuntu.com/questions/4983/what-are-ppas-and-how-do-i-use-them)'
-  - '[Launchpad](https://launchpad.net/)'
+
+  - '[More on APT](https://en.wikipedia.org/wiki/APT_(Debian)){website}'
+  - '[More on PPAs](https://launchpad.net/ubuntu/+ppas){website}'
+  - '[PPAs with GUI](https://askubuntu.com/questions/4983/what-are-ppas-and-how-do-i-use-them){website}'
+  - '[Launchpad](https://launchpad.net/){website}'
+
 
 ---
 ## Content
+# What is a PPA?
 
 **PPA**s, or *Personal Package Archives*, is a software repository for *APT*[1] packages, hosted on `launchpad.net` servers[2]. *PPAs* are used for distributing software written or maintained by a private group or individual (anyone can publish).
 
@@ -37,6 +41,7 @@ What is a PPA?
 
 ???
 
+
 * A repository
 * A package
 * A piece of software
@@ -49,6 +54,7 @@ What is a PPA?
 
 ???
 
+
 * A repository
 * A package
 * A piece of software
@@ -56,7 +62,6 @@ What is a PPA?
 
 ---
 ## Footnotes
-
 [1: APT]
 Advanced Packaging Tool
 

@@ -1,4 +1,4 @@
-# Adding directories to your `$PATH`
+---
 author: tuwi.dc
 
 levels:
@@ -14,17 +14,27 @@ type: normal
 category: must-know
 
 tags:
+
   - path
+
   - linux
+
   - terminal
+
   - bash
+
   - bashrc
+
   - export
+
   - introduction
+
+
 
 
 ---
 ## Content
+# Adding directories to your `$PATH`
 
 **PATH** is an environmental variable that informs the shell within which directories to search for executable files in response to commands issued by a user.
 
@@ -64,29 +74,32 @@ What should be added to `.bashrc` to prepend `/fun/enki`  to `PATH` ?
 # reload .bashrc
 $ ??? ~/.bashrc
 ```
-*`"/fun/enki:$PATH"`
-*`source`
-*`"/fun/enki:PATH"`
-*`/fun/enki:$PATH`
-*`reload`
+
+* `"/fun/enki:$PATH"`
+* `source`
+* `"/fun/enki:PATH"`
+* `/fun/enki:$PATH`
+* `reload`
 
 ---
 ## Revision
 
 In order to add a new directory to `PATH`, you have to modify the ??? file.
-*.bashrc
-*.bashsrc
-*.bashpath
+
+* .bashrc
+* .bashsrc
+* .bashpath
 
 ---
 ## Quiz
+### when is the ~/.bashrc file run?
+```
+When is the ~/.bashrc file run?```
 
-headline: when is the ~/.bashrc file run?
+ ???
 
-question: When is the ~/.bashrc file run?
+* Whenever a new terminal is opened
+* Once every boot
+* Once for every user login
+* Every thirty minutes
 
-answers:
-  - Whenever a new terminal is opened
-  - Once every boot
-  - Once for every user login
-  - Every thirty minutes

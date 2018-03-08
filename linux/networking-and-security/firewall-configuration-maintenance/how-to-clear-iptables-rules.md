@@ -1,4 +1,4 @@
-# How to clear `iptables` rules
+---
 author: tuwi.dc
 
 levels:
@@ -27,10 +27,13 @@ tags:
 
   - allow
 
+
+
 notes: ''
 
 ---
 ## Content
+# How to clear `iptables` rules
 
 Although it is not a good idea, often we need to make sure that nothing is blocking our 
 data from/to a specific host. This can mean the *firewall* needs to be 'disabled'.
@@ -67,7 +70,9 @@ In practice, you might not want to wipe the state clean since it will leave your
 ## Revision
 
 On a Debian system, to stop the firewall you have to ??? the rules.
-*clear
-*stop
-*target
-*add
+
+* clear
+* stop
+* target
+* add
+

@@ -1,4 +1,4 @@
-# Fixing the shell in cron
+---
 author: tuwi.dc
 
 levels:
@@ -21,12 +21,15 @@ tags:
 
   - shell
 
-  - ''
+  - 
+
+
 
 parent: practical-cron
 
 ---
 ## Content
+# Fixing the shell in cron
 
 In most environments `cron` executes commands using `sh`, though  it is often assumed it will use `bash`.
 
@@ -54,7 +57,9 @@ If the command is a script, make sure the script contains a shebang:
 ## Revision
 
 You have to modify the ??? variable in the cron file to run all the commands using `/bin/bash`.
-*SHELL
-*RUN
-*COMPILE
-*BASH
+
+* SHELL
+* RUN
+* COMPILE
+* BASH
+

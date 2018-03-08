@@ -1,4 +1,4 @@
-# Downgrade a package via `apt-get`
+---
 author: tuwi.dc
 
 levels:
@@ -27,8 +27,12 @@ tags:
 
   - terminal
 
+
+
+
 ---
 ## Content
+# Downgrade a package via `apt-get`
 
 You can downgrade a package via apt-get.
 If you have the version number, or the target release, apt-get allows you to make a selection. 
@@ -63,8 +67,10 @@ You can downgrade a package on Debian systems using:
 $ ??? install 
       ???=???
 ```
-*`apt-get`
-*`package_name`
-*`desired_package_version`
-*`apt-mark`
-*`current_packate_version`
+
+* `apt-get`
+* `package_name`
+* `desired_package_version`
+* `apt-mark`
+* `current_packate_version`
+

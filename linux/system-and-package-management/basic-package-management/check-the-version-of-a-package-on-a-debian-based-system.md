@@ -1,4 +1,4 @@
-# Check the version of a package on a Debian based system
+---
 author: tuwi.dc
 
 levels:
@@ -29,10 +29,13 @@ tags:
 
   - bash
 
+
+
 notes: ''
 
 ---
 ## Content
+# Check the version of a package on a Debian based system
 
 You can check the version of a package installed in a deb based system with the `dpkg` command:
 
@@ -73,10 +76,11 @@ The only option for third letter is `r` and means it needs reinstallation (reins
 A status code of `uf` stands for 
 
 ???.
-*unknown desired state and removal of the config files failed state
-*unmount desired state and removal of the config files failed state
-*unknown desired state and half installed state
-*installed desired state and unknown state
+
+* unknown desired state and removal of the config files failed state
+* unmount desired state and removal of the config files failed state
+* unknown desired state and half installed state
+* installed desired state and unknown state
 
 ---
 ## Revision
@@ -85,9 +89,11 @@ You can check the status of installed packages on a Debian system by issuing:
 ```
 $ ??? ??? ???
 ```
-*`dpkg`
-*`—list`
-*`Package_name`
-*`installed`
-*`apt-get`
-*`list`
+
+* `dpkg`
+* `—list`
+* `Package_name`
+* `installed`
+* `apt-get`
+* `list`
+

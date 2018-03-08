@@ -1,4 +1,4 @@
-# Debugging `ssh` client issues
+---
 author: tuwi.dc
 
 levels:
@@ -19,10 +19,13 @@ tags:
 
   - debugging
 
+
+
 notes: code blocks width is weird
 
 ---
 ## Content
+# Debugging `ssh` client issues
 
 To see more detailed information when connecting to a host via ssh for debugging purposes, add the `-v` flag (for verbosity):   
 ```
@@ -65,3 +68,4 @@ pkalg ssh-rsa blen 279
 debug1: Authentication succeeded (publickey)
 
 ```
+

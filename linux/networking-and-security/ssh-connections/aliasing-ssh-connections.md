@@ -1,4 +1,4 @@
-# Aliasing ssh connections
+---
 author: tuwi.dc
 
 levels:
@@ -21,10 +21,13 @@ tags:
 
   - config
 
+
+
 notes: ''
 
 ---
 ## Content
+# Aliasing ssh connections
 
 When using many ssh connections it is very convenient to alias them.
 
@@ -67,17 +70,20 @@ HostName ???
 User root
 ??? 256
 ```
-*`IdentityFile`
-*`123.12.255.19`
-*`Port`
-*`ID`
-*`Name`
+
+* `IdentityFile`
+* `123.12.255.19`
+* `Port`
+* `ID`
+* `Name`
 
 ---
 ## Revision
 
 You can alias *ssh connections* by editing the ??? file .
-*.ssh/config
-*.ssh/connections
-*.ssh/servers
-*.ssh/alias
+
+* .ssh/config
+* .ssh/connections
+* .ssh/servers
+* .ssh/alias
+

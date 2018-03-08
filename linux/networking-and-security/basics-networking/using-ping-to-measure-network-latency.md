@@ -1,4 +1,4 @@
-# Using `ping` To Measure Network Latency
+---
 author: jfarmer
 
 levels:
@@ -9,12 +9,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# Using `ping` To Measure Network Latency
 
 The `ping` command will continuously send a tiny bit of internet traffic to a remote address and report the amount of time it took to receive a response.  It will also report if the traffic was dropped, which is indicative of a bad network connection or a misconfigured network. The `ping` command one of the most basic and essential tools for diagnosing network problems.
 
@@ -74,10 +78,11 @@ $
 `ping` will send ??? and count the time until the
 
 ???.
-*data
-*server’s response
-*connection fails
-*your public key
+
+* data
+* server’s response
+* connection fails
+* your public key
 
 ---
 ## Revision
@@ -85,6 +90,8 @@ $
 Based on the distance, which server would respond to pings faster?
 
 ???
-*a close one
-*a distant one
-*the distance isn’t relevant
+
+* a close one
+* a distant one
+* the distance isn’t relevant
+

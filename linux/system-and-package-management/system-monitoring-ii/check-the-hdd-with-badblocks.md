@@ -1,4 +1,4 @@
-# Check the HDD with `badblocks`
+---
 author: tuwi.dc
 
 levels:
@@ -25,8 +25,12 @@ tags:
 
   - check
 
+
+
+
 ---
 ## Content
+# Check the HDD with `badblocks`
 
 `badblocks` is a Linux utility to check for bad sectors on a disk drive. 
 
@@ -62,7 +66,9 @@ You can check your hard drive for bad sectors with
 
 ???.
 
-*badblocks
-*fsck
-*usermod
-*hostname
+
+* badblocks
+* fsck
+* usermod
+* hostname
+

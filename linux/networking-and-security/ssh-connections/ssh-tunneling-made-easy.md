@@ -1,4 +1,4 @@
-# SSH tunneling made easy
+---
 author: tuwi.dc
 
 levels:
@@ -17,10 +17,13 @@ tags:
 
   - proxy
 
+
+
 notes: ''
 
 ---
 ## Content
+# SSH tunneling made easy
 
 SSH tunneling can be thought of as a poor-man's-VPN. It is handy in situations where you would like to hide your traffic from anybody who might be listening on the wire.
 
@@ -53,6 +56,7 @@ $ ??? ??? \
     ??? \
     ???
 ```
+
 * `ssh`
 * `-L`
 * `port:host:hostport`
@@ -69,6 +73,7 @@ $ ??? ??? \
   yourport:host:hostport \
   username@ssh_server
 ```
+
 * `ssh`
 * `-L`
 * `-T`
@@ -77,3 +82,4 @@ $ ??? ??? \
 * `--tunnel`
 * `-t`
 * `-l`
+

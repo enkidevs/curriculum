@@ -1,4 +1,4 @@
-# Detect your linux distribution
+---
 author: tuwi.dc
 
 levels:
@@ -25,8 +25,12 @@ tags:
 
   - temrinal
 
+
+
+
 ---
 ## Content
+# Detect your linux distribution
 
 You can find the base of your linux distribution by issuing the `lsb_release` [1]command like below:
 ```
@@ -52,13 +56,13 @@ You can get *detailed* information about your Linux distribution by running:
 ```
 $ ???
 ```
-*`lsb_release -a`
-*`lsb_release -i`
-*`ls_release -a`
-*`lin_release`
+
+* `lsb_release -a`
+* `lsb_release -i`
+* `ls_release -a`
+* `lin_release`
 
 ---
 ## Footnotes
-
 [1:LSB]
 **LSB** in the `lsb_release` command stands for *Linux Standard Base* which is a joint project by several Linux Distributions aiming to standardise the software system architecture.

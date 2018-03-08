@@ -1,4 +1,4 @@
-# Basic service management with `systemd`
+---
 author: tuwi.dc
 
 levels:
@@ -23,8 +23,12 @@ tags:
 
   - status
 
+
+
+
 ---
 ## Content
+# Basic service management with `systemd`
 
 In Ubuntu `upstart` will be deprecated in favor of `systemd`. Here is what you can do with it.
 
@@ -76,18 +80,14 @@ Service-specific actions (enable, stop, restart, reload) can be triggered by
 
 ??? .
 
-*systemctl
-*res
-*nano
-*syserv
+
+* systemctl
+* res
+* nano
+* syserv
 
 ---
 ## Footnotes
-
 [1:Example output]
 ```
-UNIT--------------------------------
-systemd-ask-password-console.service
-LOAD---ACTIVE---SUB--DESCRIPTION---
-loaded inactive dead Dispatch Password
-```
+UNIT

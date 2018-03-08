@@ -1,4 +1,4 @@
-# Practical `du` command
+---
 author: tuwi.dc
 
 levels:
@@ -23,10 +23,13 @@ tags:
 
   - size
 
+
+
 notes: ''
 
 ---
 ## Content
+# Practical `du` command
 
 The Linux `du` (disk usage) provides information on disk usage of files and directories.
 ```
@@ -63,12 +66,13 @@ Find out the sizes expressed in easily  readable format of all items on your Des
 ```
 $ ??? ??? ???
 ``` 
-*`du`
-*`-ha`
-*`~/Desktop/`
-*`-a`
-*`-hs`
-*`-hvs`
+
+* `du`
+* `-ha`
+* `~/Desktop/`
+* `-a`
+* `-hs`
+* `-hvs`
 
 ---
 ## Revision
@@ -77,7 +81,9 @@ The `du` command stands for
 
 ??? . 
 
-*disk usage
-*disk utility
-*document usage
-*memory usage
+
+* disk usage
+* disk utility
+* document usage
+* memory usage
+

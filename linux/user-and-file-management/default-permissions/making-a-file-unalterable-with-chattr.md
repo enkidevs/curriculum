@@ -1,4 +1,4 @@
-# Making a file unalterable with `chattr`
+---
 author: tuwi.dc
 
 levels:
@@ -14,16 +14,25 @@ type: normal
 category: how to
 
 tags:
+
   - linux
+
   - chattr
+
   - unalterable
+
   - terminal
+
   - obscura
+
   - workout
+
+
 
 
 ---
 ## Content
+# Making a file unalterable with `chattr`
 
 You can make a file unalterable so that it cannot be changed or deleted even by root:
 ```
@@ -56,8 +65,10 @@ Make `enki`  *file* untouchable:
 ```
 $ ??? ??? enki
 ```
-*`chattr`
-*`+i`
-*`-R`
-*`-Ri`
-*`-i`
+
+* `chattr`
+* `+i`
+* `-R`
+* `-Ri`
+* `-i`
+

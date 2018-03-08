@@ -1,4 +1,4 @@
-# How to pause a process and run others in the background
+---
 author: nene
 
 levels:
@@ -17,14 +17,15 @@ tags:
 
   - nano
 
+
 links:
 
-  - >-
-    [Background
-    processes](http://www.cyberciti.biz/faq/linux-command-line-run-in-background/){website}
+  - '[Background processes](http://www.cyberciti.biz/faq/linux-command-line-run-in-background/){website}'
+
 
 ---
 ## Content
+# How to pause a process and run others in the background
 
 ```
 CTRL+Z  # pauses an application
@@ -81,10 +82,11 @@ $ ??? ???
 #process 2
 $ ??? ??? 
 ```
-*`bg`
-*`%3`
-*`fg`
-*`%2`
+
+* `bg`
+* `%3`
+* `fg`
+* `%2`
 
 ---
 ## Revision
@@ -93,7 +95,9 @@ Bringing the most recently paused process to the front is done by running
 
 ??? .
 
-*`fg`
-*`bg`
-*`pop`
-*`start -fg`
+
+* `fg`
+* `bg`
+* `pop`
+* `start -fg`
+

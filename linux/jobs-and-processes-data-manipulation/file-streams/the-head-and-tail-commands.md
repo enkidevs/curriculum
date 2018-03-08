@@ -1,4 +1,4 @@
-# The `head` And `tail` Commands
+---
 author: jfarmer
 
 levels:
@@ -9,12 +9,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# The `head` And `tail` Commands
 
 `head` and `tail` are two commands that allow you to select and display the first few lines or last few lines lines from a file or output stream, respectively.  By default both will select 10 lines, but using the `-n` option you can specify a different amount.
 
@@ -61,7 +65,9 @@ $ ls -t | tail -n3
 ## Revision
 
 The flag of `tail` that will make it keep printing lines as they are appended to a file is ???.
-*-f
-*-a
-*-n
-*-r
+
+* -f
+* -a
+* -n
+* -r
+

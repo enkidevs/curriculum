@@ -1,4 +1,4 @@
-# Understanding The `PATH` Environment Variable
+---
 author: jfarmer
 
 levels:
@@ -9,14 +9,20 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 tags:
+
   - introduction
+
+
+
+
 ---
 ## Content
+# Understanding The `PATH` Environment Variable
 
 Understanding the `PATH` environment variable and how to manipulate it is one of the most important things a beginner can master.  The contents of `PATH` tell your shell where to look for executables.  It is therefore central to understanding what happens when you type a command at the command prompt.
 
@@ -65,6 +71,7 @@ In what order will the shell visit the folders in `PATH` to find a valid executa
 ???
 
 ???
+
 * /usr/bin
 * /bin
 * /local/binaries
@@ -77,6 +84,7 @@ In what order will the shell visit the folders in `PATH` to find a valid executa
 The `command not found` error is thrown if the executable couldn’t be found
 
 ???
+
 * in the list of folders contained in the PATH variable.
 * anywhere on the system.
 * in the local folder.
@@ -84,20 +92,21 @@ The `command not found` error is thrown if the executable couldn’t be found
 
 ---
 ## Quiz
+### Do you know how the $PATH variable is evaluated?
+```
+Suppose your $PATH value is:
+```
+$ echo $PATH
+/bin:/usr/bin:~/Desktop/rm-ext:~/atom
+```
+What is the next directory the shell will look
+for an executable if no match was found in `/bin`?
+```
 
-headline: Do you know how the $PATH variable is evaluated?
+ ???
 
-question: |
-  Suppose your $PATH value is:
-  ```
-  $ echo $PATH
-  /bin:/usr/bin:~/Desktop/rm-ext:~/atom
-  ```
-  What is the next directory the shell will look
-  for an executable if no match was found in `/bin`?
+* /usr/bin
+* none, as /bin is already the last one
+* ~/atom
+* ~/Desktop/rm-ext
 
-answers:
-  - /usr/bin
-  - none, as /bin is already the last one
-  - ~/atom
-  - ~/Desktop/rm-ext

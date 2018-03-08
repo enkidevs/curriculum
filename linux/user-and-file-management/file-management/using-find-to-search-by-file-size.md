@@ -1,4 +1,4 @@
-# Using `find` To Search By File Size
+---
 author: jfarmer
 
 levels:
@@ -9,15 +9,22 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 tags:
+
   - introduction
+
   - workout
+
+
+
+
 ---
 ## Content
+# Using `find` To Search By File Size
 
 The `find` command is used to search for files on your computer.  It's often useful to search for files by file size, e.g., if you want to find potentially large files to delete.
 
@@ -50,10 +57,12 @@ Find all the files of at least 1GB in size :
 $ ??? ??? ??? f 
          ??? ??? 
 ```
-*`find`
-*`.`
-*`-type`
-*`-size`
-*`+1G`
-*`+1GB`
-*`sudo`
+
+* `find`
+* `.`
+* `-type`
+* `-size`
+* `+1G`
+* `+1GB`
+* `sudo`
+

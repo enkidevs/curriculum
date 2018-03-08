@@ -1,4 +1,4 @@
-# Using `dd` To Create Disk Images
+---
 author: jfarmer
 
 levels:
@@ -11,8 +11,12 @@ type: normal
 
 category: must-know
 
+
+
+
 ---
 ## Content
+# Using `dd` To Create Disk Images
 
 The `dd` command is a versatile tool for copying and converting files.  Most commonly it is used to interact with disk drives, which are exposed as files via the `/dev` filesystem.
 
@@ -38,9 +42,11 @@ You can create an image of disks by running:
 $ ??? ???=/dev/cdrom 
       ???=~/my_disk.iso
 ```
-*`dd`
-*`if`
-*`of`
-*`-of`
-*`-if`
-*`cp`
+
+* `dd`
+* `if`
+* `of`
+* `-of`
+* `-if`
+* `cp`
+

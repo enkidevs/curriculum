@@ -1,4 +1,4 @@
-# Fast file indexing with `updatedb` and `locate`
+---
 author: tuwi.dc
 
 levels:
@@ -14,18 +14,26 @@ type: normal
 category: best practice
 
 tags:
+
   - updatedb
+
   - mlocate
+
   - locate
+
   - find files
+
   - indexing filesystem
+
   - workout
+
 
 
 notes: ''
 
 ---
 ## Content
+# Fast file indexing with `updatedb` and `locate`
 
 The `updatedb` command is used to index the files in your file system and `locate` is used to search for files efficiently, using this index.
 
@@ -68,7 +76,9 @@ $ yum install mlocate
 
 pair, provided by the `mlocate` package, is used to search for files efficiently .
 
-*updatedb/locate
-*searchdb/locate
-*search/locate
-*indexdb/findb
+
+* updatedb/locate
+* searchdb/locate
+* search/locate
+* indexdb/findb
+

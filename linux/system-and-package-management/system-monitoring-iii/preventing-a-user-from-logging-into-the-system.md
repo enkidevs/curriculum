@@ -1,4 +1,4 @@
-# Preventing a user from logging into the system
+---
 author: tuwi.dc
 
 levels:
@@ -15,14 +15,18 @@ tags:
 
   - nologin
 
-  - 'false'
+  - false
 
   - shells
 
   - prevent
 
+
+
+
 ---
 ## Content
+# Preventing a user from logging into the system
 
 A linux system user's ability to login on the shell, or via SSH, depends on their shell settings in `/etc/passwd`.
 
@@ -53,12 +57,13 @@ Prevent user `Tom`  from logging into the system :
 $ sudo ??? ??? 
        ??? ???
 ```
-*`chsh`
-*`Tom`
-*`-s`
-*`/bin/nologin`
-*`cshs`
-*`-l`
+
+* `chsh`
+* `Tom`
+* `-s`
+* `/bin/nologin`
+* `cshs`
+* `-l`
 
 ---
 ## Revision
@@ -68,7 +73,9 @@ Restore log-in rights for Tom:
 $ sudo ??? Tom 
         -s ???
 ```
-*`chsh`
-*`/bin/bash`
-*`cshs`
-*`/bin/login`
+
+* `chsh`
+* `/bin/bash`
+* `cshs`
+* `/bin/login`
+

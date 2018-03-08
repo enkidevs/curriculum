@@ -1,4 +1,4 @@
-# Delete commands aliases
+---
 author: catalin
 
 levels:
@@ -9,8 +9,12 @@ type: normal
 
 category: tip
 
+
+
+
 ---
 ## Content
+# Delete commands aliases
 
 Adding the `-i` or `--interactive` flag to the `rm` [1], `mv`[2]or `cp`[3] commands will ask you to confirm the intent after each step of their iteration.
 
@@ -28,14 +32,14 @@ $ alias rm='rm -i'
 ## Revision
 
 You can prompt for confirmation when using `rm` and `mv` commands with `???` flag.
-*`-i`
-*`-I`
-*`-r`
-*`-p`
+
+* `-i`
+* `-I`
+* `-r`
+* `-p`
 
 ---
 ## Footnotes
-
 [1:remove]
 The `rm` (i.e., remove) command is used to delete files and directories.
 [2:move]

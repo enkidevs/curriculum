@@ -1,4 +1,4 @@
-# Breaking out of a terminal when `ssh` locks
+---
 author: tuwi.dc
 
 levels:
@@ -21,8 +21,12 @@ tags:
 
   - escape
 
+
+
+
 ---
 ## Content
+# Breaking out of a terminal when `ssh` locks
 
 At times an `ssh` connection times-out or disconnects and the current terminal locks. 
 
@@ -50,6 +54,8 @@ If an `ssh` connection times-out or disconnects, press ???
 
 to kill the current session. (↵ being the Enter Key).
 
-*↵  ~.
-*↵ ~#
-*↵ ~R
+
+* ↵  ~.
+* ↵ ~#
+* ↵ ~R
+

@@ -1,4 +1,4 @@
-# Stopping Processes With `kill` And `killall`
+---
 author: jfarmer
 
 levels:
@@ -9,18 +9,19 @@ levels:
 
 type: normal
 
+category: tip
+
 inAlgoPool: false
 
-category: tip
 
 links:
 
-  - >-
-    [Kill
-    signals](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_12_01.html){website}
+  - '[Kill signals](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_12_01.html){website}'
+
 
 ---
 ## Content
+# Stopping Processes With `kill` And `killall`
 
 Oftentimes we want to kill a process that is consuming too many resources or has otherwise become unresponsive.  The two most common tools for this are `kill` and `killall`.
 
@@ -63,10 +64,11 @@ Match with the correct argument:
 $ kill ???
 $ killall ???
 ```
-*`processID`
-*`processname`
-*`taskID`
-*`username`
+
+* `processID`
+* `processname`
+* `taskID`
+* `username`
 
 ---
 ## Revision
@@ -74,7 +76,9 @@ $ killall ???
 Force killing a process is done by attaching a 
 
 ??? code.
-*-9
-*-2
-*-3
-*-7
+
+* -9
+* -2
+* -3
+* -7
+

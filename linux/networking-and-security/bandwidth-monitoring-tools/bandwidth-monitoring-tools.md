@@ -1,4 +1,4 @@
-# Bandwidth monitoring tools 
+---
 author: tuwi.dc
 
 levels:
@@ -25,8 +25,12 @@ tags:
 
   - bandwidth
 
+
+
+
 ---
 ## Content
+# Bandwidth monitoring tools 
 
 Here are some tools provided by the Ubuntu repos for network monitoring:
 
@@ -46,7 +50,9 @@ Each can be used for specific monitoring or basic statistics.
 ## Revision
 
 Some tools that monitor the bandwidth are  ???
-*tcptrack and vnstat.
-*dd and tcptrack.
-*ab and dd.
-*top and vnstat.
+
+* tcptrack and vnstat.
+* dd and tcptrack.
+* ab and dd.
+* top and vnstat.
+

@@ -1,4 +1,4 @@
-# Set a process priority
+---
 author: tuwi.dc
 
 levels:
@@ -27,8 +27,12 @@ tags:
 
   - process
 
+
+
+
 ---
 ## Content
+# Set a process priority
 
 `Nice` is a command in Unix and Linux operating systems that allows for the adjustment of the 'niceness' value of processes. 
 
@@ -66,13 +70,14 @@ Set the highest priority for the process with ID `2314` :
 ```
 $ ??? ??? ??? 2314
 ```
-*`renice`
-*`-20`
-*`-p`
-*`19`
-*`nice`
-*`0`
-*`-pr`
+
+* `renice`
+* `-20`
+* `-p`
+* `19`
+* `nice`
+* `0`
+* `-pr`
 
 ---
 ## Revision
@@ -80,7 +85,9 @@ $ ??? ??? ??? 2314
 A process’ nice value of 15 represents a 
 
 ??? priority .
-*low
-*high
-*default
-*medium
+
+* low
+* high
+* default
+* medium
+

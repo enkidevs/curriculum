@@ -1,4 +1,4 @@
-# SSH Pipes
+---
 author: catalin
 
 levels:
@@ -11,8 +11,12 @@ type: normal
 
 category: how to
 
+
+
+
 ---
 ## Content
+# SSH Pipes
 
 One of the benefits of piping is that you can use it over networks and it does wonders for data transfer.
 
@@ -54,5 +58,7 @@ Note that half of the command is executed locally, while the other half is execu
 Can you pipe data through an SSH connection?
 
 ???
-*Yes
-*No
+
+* Yes
+* No
+

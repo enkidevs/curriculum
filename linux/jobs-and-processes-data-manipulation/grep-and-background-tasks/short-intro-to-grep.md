@@ -1,4 +1,4 @@
-# Short intro to `grep`
+---
 author: tuwi.dc
 
 levels:
@@ -21,10 +21,13 @@ tags:
 
   - intro
 
+
+
 notes: ''
 
 ---
 ## Content
+# Short intro to `grep`
 
 The basic usage of the `grep` command is to search for a specific string in a specified file like:
 ```
@@ -64,19 +67,22 @@ What do each of the following flags represent?
 #-c =???
 #default =???
 ```
-*`case-insensitive search`
-*`recursive search in current directory`
-*`count`
-*`case-sensitive search`
+
+* `case-insensitive search`
+* `recursive search in current directory`
+* `count`
+* `case-sensitive search`
 
 ---
 ## Revision
 
 `grep` ??? the input file for lines containing a match to the given ???.
 
-*searches 
-*pattern
-*string
-*script
-*copies
-*deletes
+
+* searches 
+* pattern
+* string
+* script
+* copies
+* deletes
+

@@ -1,4 +1,4 @@
-# Using `find` To Search By Filename
+---
 author: jfarmer
 
 levels:
@@ -9,19 +9,25 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+tags:
+
+  - introduction
+
+  - workout
+
 
 links:
 
   - '[www.tecmint.com](http://www.tecmint.com/35-practical-examples-of-linux-find-command/){website}'
 
-tags:
-  - introduction
-  - workout
+
 ---
 ## Content
+# Using `find` To Search By Filename
 
 The `find` command is used to search for files on your computer.  One of the most common uses is to search for a files based on their filename, although it can do much more than that.
 
@@ -66,13 +72,14 @@ Search in the home directory for files that contain happy in their title:
 $ ??? ??? -type
         ??? ??? ???
 ```
-*`find`
-*`~/`
-*`f`
-*`-name`
-*`"*happy*"`
-*`"happy"`
-*`d`
+
+* `find`
+* `~/`
+* `f`
+* `-name`
+* `"*happy*"`
+* `"happy"`
+* `d`
 
 ---
 ## Revision
@@ -81,7 +88,9 @@ To look for directories with `find` you need
 
 ??? flag.
 
-*-type d
-*-type f
-*dir
-*-dir
+
+* -type d
+* -type f
+* dir
+* -dir
+

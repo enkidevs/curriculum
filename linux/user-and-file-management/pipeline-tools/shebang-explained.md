@@ -1,4 +1,4 @@
-# Shebang `#!` explained 
+---
 author: tuwi.dc
 
 levels:
@@ -12,19 +12,25 @@ type: normal
 category: must-know
 
 tags:
+
   - linux
+
   - bash
+
   - shebang
+
   - interpreter
+
   - workout
 
 
-parent: set-file-permissions-for-users
 
+parent: set-file-permissions-for-users
 notes: Approved by Jordan
 
 ---
 ## Content
+# Shebang `#!` explained 
 
 The shebang (`#!`) at the head of a script tells your system that this file is a set of commands to be fed to the indicated command interpreter. 
 
@@ -63,10 +69,11 @@ What should be added to the script in order for the system to use the first `nod
 ```
 #! ???
 ```
-*`/usr/bin/env node`
-*`/usr/bin/node`
-*`/bin/sh`
-*`/usr/bin/env node4`
+
+* `/usr/bin/env node`
+* `/usr/bin/node`
+* `/bin/sh`
+* `/usr/bin/env node4`
 
 ---
 ## Revision
@@ -77,12 +84,12 @@ What should be added to the script in order for the system to use the first `nod
 Is used to tell the system what ??? 
 
 should be used for that particular file.
-*interpreter
-*script
-*path
+
+* interpreter
+* script
+* path
 
 ---
 ## Footnotes
-
 [1:Directory permision]
 The `+x` bit for a directory allows the user to `cd` into it and access its inner files.

@@ -1,4 +1,4 @@
-# **SELinux**  modes
+---
 author: catalin
 
 levels:
@@ -11,8 +11,12 @@ type: normal
 
 category: feature
 
+
+
+
 ---
 ## Content
+# **SELinux**  modes
 
 There is a default security mechanism provided in the kernel called **Security-Enhanced Linux**.
 
@@ -45,6 +49,7 @@ How do you change **SELinux** settings to only *warn* and *log* :
 $ ??? ???
 ```
 
+
 * `setenforce`
 * `permissive`
 * `getenforce`
@@ -58,7 +63,9 @@ $ ??? ???
 
 _SELinux_ is a ???.
 
-*kernel security module
-*terminal browser
-*Linux distribution
-*hacker group
+
+* kernel security module
+* terminal browser
+* Linux distribution
+* hacker group
+

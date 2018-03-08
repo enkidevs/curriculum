@@ -1,4 +1,4 @@
-# Install specific version of packages
+---
 author: tuwi.dc
 
 levels:
@@ -31,10 +31,13 @@ tags:
 
   - debian
 
+
+
 notes: ''
 
 ---
 ## Content
+# Install specific version of packages
 
 Often it's necessary to install a specific version of a package. To do so, a complete version of the package is required.
 
@@ -72,6 +75,8 @@ $ apt-get install firefox=46.0
 ## Revision
 
 `apt-cache showpkg <package_name>`  would work on ??? systems.
-*Debian
-*RPM
-*BSD
+
+* Debian
+* RPM
+* BSD
+

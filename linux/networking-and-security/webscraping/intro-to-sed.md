@@ -1,4 +1,4 @@
-# Intro to `sed`
+---
 author: tuwi.dc
 
 levels:
@@ -25,10 +25,13 @@ tags:
 
   - regex
 
+
+
 notes: ''
 
 ---
 ## Content
+# Intro to `sed`
 
 `sed` (short for "stream editor") is a Unix utility command that parses and transforms text using a simple, compact language. 
 
@@ -79,11 +82,12 @@ Complete the following command to replace *cat* with *rat* from lines which cont
 $ ??? ??? 
        animals > animals1
 ```  
-*`sed`
-*`’/dog/s/cat/rat/g’`
-*`’/s/cat/dog/g’`
-*`’/dog/!s/cat/rat/g’`
-*`des`
+
+* `sed`
+* `’/dog/s/cat/rat/g’`
+* `’/s/cat/dog/g’`
+* `’/dog/!s/cat/rat/g’`
+* `des`
 
 ---
 ## Revision
@@ -91,7 +95,9 @@ $ ??? ???
 To replace all the occurrences of a word, you would most likely use the
 
 ???
-*`g` flag
-*`all` flag
-*`l` flag
-*`0` flag
+
+* `g` flag
+* `all` flag
+* `l` flag
+* `0` flag
+

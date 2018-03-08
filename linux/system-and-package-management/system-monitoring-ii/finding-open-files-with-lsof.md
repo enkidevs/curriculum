@@ -1,4 +1,4 @@
-# Finding Open Files With `lsof`
+---
 author: jfarmer
 
 levels:
@@ -25,16 +25,17 @@ tags:
 
   - lsof
 
-notes: 'to review parent'
-
-parent: list-currently-logged-in-users
 
 links:
 
   - '[inux.die.net](https://linux.die.net/man/8/lsof){website}'
 
+notes: to review parent
+parent: list-currently-logged-in-users
+
 ---
 ## Content
+# Finding Open Files With `lsof`
 
 The `lsof`[1] command displays a list of currently open files and the program that has opened it.  There are two common scenarios where `lsof` is incredibly useful:
 
@@ -71,6 +72,7 @@ $ sudo lsof /var/log/syslog
 
 flag is required to find files used by a specific process.
 
+
 * -p
 * -f
 * -r
@@ -83,6 +85,7 @@ You can find *all* the processes that are using a file by issuing:
 ```
 $ ??? ??? ???
 ```
+
 * `sudo`
 * `lsof`
 * `filename`
@@ -91,6 +94,5 @@ $ ??? ??? ???
 
 ---
 ## Footnotes
-
 [1:lsof]
 You can think of `lsof` as ls + of ,standing for **list** *open files*.

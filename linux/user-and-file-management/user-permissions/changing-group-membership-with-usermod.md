@@ -1,4 +1,4 @@
-# Changing Group Membership With `usermod`
+---
 author: jfarmer
 
 levels:
@@ -9,15 +9,22 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 tags:
+
   - introduction
+
   - workout
+
+
+
+
 ---
 ## Content
+# Changing Group Membership With `usermod`
 
 We can use the `usermod` command to add a user to a specific group.  It works like so:
 
@@ -41,13 +48,14 @@ Add `john` to the `enki` group:
 $ sudo ??? ??? ???
        ??? ???
 ```
-*`usermod`
-*`-a`
-*`-G`
-*`enki`
-*`john`
-*`-Ag`
-*`-A`
+
+* `usermod`
+* `-a`
+* `-G`
+* `enki`
+* `john`
+* `-Ag`
+* `-A`
 
 ---
 ## Revision
@@ -57,9 +65,11 @@ Make `john` a member of the `enki` group, and of this group only:
 $ sudo ??? ??? 
        ??? ???
 ```
-*`usermod`
-*`-G`
-*`enki`
-*`john`
-*`-aG`
-*`chmod`
+
+* `usermod`
+* `-G`
+* `enki`
+* `john`
+* `-aG`
+* `chmod`
+

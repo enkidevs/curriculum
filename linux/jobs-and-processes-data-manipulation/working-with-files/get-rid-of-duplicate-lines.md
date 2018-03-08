@@ -1,4 +1,4 @@
-# Get rid of duplicate lines
+---
 author: tuwi.dc
 
 levels:
@@ -25,10 +25,13 @@ tags:
 
   - terminal
 
+
+
 notes: ''
 
 ---
 ## Content
+# Get rid of duplicate lines
 
 Here is a one liner tip for you:
 ```
@@ -80,7 +83,9 @@ Sorting the lines of a file in order to get rid of the duplicates can be done us
 ```
 $ ??? file_to_filter | ???
 ```
-*`sort`
-*`uniq`
-*`unique`
-*`sed`
+
+* `sort`
+* `uniq`
+* `unique`
+* `sed`
+

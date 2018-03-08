@@ -1,4 +1,4 @@
-# Play sounds remotely
+---
 author: catalin
 
 levels:
@@ -11,10 +11,13 @@ type: normal
 
 category: how to
 
+
+
 parent: ssh-pipes
 
 ---
 ## Content
+# Play sounds remotely
 
 You can play a local file on a remote machine using the powerful combination of `ssh` and piping.
 
@@ -35,7 +38,9 @@ Obviously using `mpg321 -` is particular to `mp3` files. Other common variants a
 You can decode `.mp3` in terminal with
 
 ??? package.
-*mpg321
-*music
-*mplay
-*sound
+
+* mpg321
+* music
+* mplay
+* sound
+

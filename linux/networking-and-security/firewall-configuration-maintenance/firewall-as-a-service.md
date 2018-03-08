@@ -1,4 +1,4 @@
-# `Firewall` as a service
+---
 author: tuwi.dc
 
 levels:
@@ -25,10 +25,13 @@ tags:
 
   - firewall
 
+
+
 notes: ''
 
 ---
 ## Content
+# `Firewall` as a service
 
 On BSD and RPM[1] system, the firewall is configured as a service. Therefore, you can switch it on and off using commands that target services and daemons:
 ```
@@ -66,23 +69,16 @@ $ sudo service
 ```
 
 ---
-## Footnotes
-
-[1: RHEL7]
-
-It's worth noting that Red Hat Enterprise Linux 7 (RHEL7) moved on to `firewalld` to manage the firewall, but it still fallbacks to `iptables`.
-
-
----
 ## Practice
 
 Which of the following commands will be a service-like way to stop `iptables` ?
 
 ???
-*`service iptables stop`
-*`iptables -R DROP`
-*`stop iptables.service`
-*`disable iptables.service`
+
+* `service iptables stop`
+* `iptables -R DROP`
+* `stop iptables.service`
+* `disable iptables.service`
 
 ---
 ## Revision
@@ -90,7 +86,14 @@ Which of the following commands will be a service-like way to stop `iptables` ?
 The package that allows you to treat `iptables` like a service on Debian systems is called
 
 ???.
-*`iptables-persistent`
-*`iptables-service`
-*`iptables`
-*`iptables-stop`
+
+* `iptables-persistent`
+* `iptables-service`
+* `iptables`
+* `iptables-stop`
+
+---
+## Footnotes
+[1: RHEL7]
+
+It's worth noting that Red Hat Enterprise Linux 7 (RHEL7) moved on to `firewalld` to manage the firewall, but it still fallbacks to `iptables`.

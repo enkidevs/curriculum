@@ -1,4 +1,4 @@
-# Track SSH log-in attempts
+---
 author: tuwi.dc
 
 levels:
@@ -23,8 +23,12 @@ tags:
 
   - debian
 
+
+
+
 ---
 ## Content
+# Track SSH log-in attempts
 
 All login attempts in Debian systems are logged to `/var/log/auth.log`. For distribution using *systemd*, the log can be checked with `journalctl`.
 
@@ -61,7 +65,9 @@ $ journalctl _COMM=sshd
 `/log/auth.log` can be used to track 
 
 ??? .
-*failed log in attempts
-*packets received
-*packets sent
-*passwords used to log in
+
+* failed log in attempts
+* packets received
+* packets sent
+* passwords used to log in
+

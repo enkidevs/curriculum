@@ -1,4 +1,4 @@
-# Find any Unix / Linux command
+---
 author: tuwi.dc
 
 levels:
@@ -14,18 +14,29 @@ type: normal
 category: how to
 
 tags:
+
   - linux
+
   - apropos
+
   - search
+
   - command
+
   - terminal
+
   - find
-  - ''
+
+  - 
+
   - workout
+
+
 
 
 ---
 ## Content
+# Find any Unix / Linux command
 
 It's possible to perform keyword searches under linux using the `apropos` command.
 
@@ -58,11 +69,12 @@ install-sgmlcatalog (8) - maintain
         transitional SGML catalog
  ...
 ```
-*`apropos`
-*`"install*"`
-*`"to"`
-*`"user"`
-*`apropo`
+
+* `apropos`
+* `"install*"`
+* `"to"`
+* `"user"`
+* `apropo`
 
 ---
 ## Revision
@@ -71,6 +83,8 @@ install-sgmlcatalog (8) - maintain
 
 ??? .
 
-*commands’ description
-*users
-*servers
+
+* commands’ description
+* users
+* servers
+

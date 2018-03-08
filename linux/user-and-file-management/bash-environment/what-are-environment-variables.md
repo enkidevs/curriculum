@@ -1,4 +1,4 @@
-# What Are Environment Variables?
+---
 author: jfarmer
 
 levels:
@@ -9,14 +9,20 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 tags:
+
   - introduction
+
+
+
+
 ---
 ## Content
+# What Are Environment Variables?
 
 An *environment variable* is a dynamic, named variable that can affect the way processes behave on a computer.  For example, a process might look up the `HOME` environment variable to determine the current user's home directory.
 
@@ -69,8 +75,10 @@ Print the value of the environmental variable `HOME` :
 ```
 $ ??? ???
 ```
-*`echo`
-*`$HOME`
-*`home`
-*`$home`
-*`ls`
+
+* `echo`
+* `$HOME`
+* `home`
+* `$home`
+* `ls`
+

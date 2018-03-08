@@ -1,4 +1,4 @@
-# Clear the terminal instantly
+---
 author: tuwi.dc
 
 levels:
@@ -12,18 +12,26 @@ type: normal
 category: feature
 
 tags:
+
   - linux
+
   - terminal
+
   - reset
+
   - clear
+
   - clenup
+
   - workout
+
 
 
 notes: ''
 
 ---
 ## Content
+# Clear the terminal instantly
 
 We can clear the terminal instantly by pressing `ctrl + L` . This will achieve the same as issuing `clear` command.
 
@@ -40,7 +48,9 @@ To *reload* the terminal and *clear* the previous output you would run
 
 ??? .
 
-*reset
-*clear
-*clr
-*sudo --reload
+
+* reset
+* clear
+* clr
+* sudo --reload
+

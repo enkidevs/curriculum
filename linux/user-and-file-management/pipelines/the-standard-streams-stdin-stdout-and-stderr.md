@@ -1,4 +1,4 @@
-# The Standard Streams: `stdin`, `stdout`, and `stderr`
+---
 author: jfarmer
 
 levels:
@@ -9,15 +9,22 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 tags:
+
   - introduction
+
   - workout
+
+
+
+
 ---
 ## Content
+# The Standard Streams: `stdin`, `stdout`, and `stderr`
 
 In Unix, when a program wants to open a file for reading or writing it must obtain a "file descriptor" from the operating system.  The operating system keeps track of which file descriptor references which file.
 
@@ -36,10 +43,11 @@ stdin - ???
 stdout - ???
 stderr - ???
 ```
-*`standard input`
-*`standard output`
-*`standard error`
-*`standard stream`
+
+* `standard input`
+* `standard output`
+* `standard error`
+* `standard stream`
 
 ---
 ## Revision
@@ -47,7 +55,9 @@ stderr - ???
 How would a program know who is the source of the input received through `stdin` ?
 
 ???
-*It wouldn’t be able to find out
-*By `stdin.source` 
-*By `stdin -s` 
-*By the type of input received
+
+* It wouldn’t be able to find out
+* By `stdin.source` 
+* By `stdin -s` 
+* By the type of input received
+

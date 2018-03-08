@@ -1,4 +1,4 @@
-# `Crontab` newline issue
+---
 author: tuwi.dc
 
 levels:
@@ -29,10 +29,13 @@ tags:
 
   - trick
 
+
+
 parent: practical-cron
 
 ---
 ## Content
+# `Crontab` newline issue
 
 If you forget to add a newline at the end of the `crontab` file, it won't run the last job in the list. 
 
@@ -60,7 +63,9 @@ Note how after the last command there is an empty line ensuring that the `whispe
 
 is needed for `crontab` to run the last job in the list.
 
-*A newline at the end
-*A newline at the start
-*A comment at the end
-*$
+
+* A newline at the end
+* A newline at the start
+* A comment at the end
+* $
+

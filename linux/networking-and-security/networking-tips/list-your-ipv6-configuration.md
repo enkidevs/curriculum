@@ -1,4 +1,4 @@
-# List your IPv6 configuration
+---
 author: tuwi.dc
 
 levels:
@@ -19,8 +19,12 @@ tags:
 
   - ip
 
+
+
+
 ---
 ## Content
+# List your IPv6 configuration
 
 To see the IPv6 configuration on a linux server using the `ip` tool:
 ```
@@ -42,6 +46,7 @@ $ ??? <interface> |
     ??? ???
 ```
 
+
 * `ifconfig`
 * `grep`
 * `"inet6"`
@@ -58,7 +63,9 @@ Check the IPv6 configuration of an interface using `ip` command:
 $ ip  ??? ???
      show ??? ???
 ```
-*`-6`
-*`addr`
-*`dev`
-*`interface_name`
+
+* `-6`
+* `addr`
+* `dev`
+* `interface_name`
+

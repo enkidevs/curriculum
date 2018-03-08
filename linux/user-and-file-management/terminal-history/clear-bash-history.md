@@ -1,4 +1,4 @@
-# Clear bash history
+---
 author: tuwi.dc
 
 levels:
@@ -12,21 +12,32 @@ type: normal
 category: how to
 
 tags:
+
   - linux
+
   - terminal
+
   - bash
+
   - history
+
   - clean
+
   - cat
-  - 'null'
+
+  - null
+
   - truncate
+
   - workout
+
 
 
 notes: ''
 
 ---
 ## Content
+# Clear bash history
 
 If not altered every command executed on a linux system is stored in the `.bash_history ` file.
 
@@ -53,6 +64,7 @@ You can clear another user's history by running :
 $ sudo ??? /dev/null >
            ???
 ```
+
 * `cat`
 * `/home/user/.bash_history`
 * `~/.bash_history`
@@ -66,9 +78,11 @@ To clear the current user’s history you can run:
 ```
 $ ??? ???
 ```
+
 * `history`
 * `-c`
 * `~/.bash_history`
 * `-history`
 * `echo`
 * `-d`
+

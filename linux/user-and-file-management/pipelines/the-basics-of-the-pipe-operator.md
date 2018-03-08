@@ -1,4 +1,4 @@
-# The Basics of The Pipe Operator `|`
+---
 author: jfarmer
 
 levels:
@@ -9,15 +9,22 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 tags:
+
   - introduction
+
   - workout
+
+
+
+
 ---
 ## Content
+# The Basics of The Pipe Operator `|`
 
 In Unix, every process has three standard streams: `stdin`, `stdout`, and `stderr`.  By default anything a process writes to `stdout` will appear as text on the console.  However, we can make it so that one process's `stdout` is attached to another process's `stdin` to produce a "pipeline."
 
@@ -43,8 +50,10 @@ Print the lines which contain `eth0` by pipelining `ifconfig` ‘s output :
 ```
 $ ??? ??? ??? eth0
 ```
-*`ifconfig`
-*`|`
-*`grep`
-*`>`
-*`>>`
+
+* `ifconfig`
+* `|`
+* `grep`
+* `>`
+* `>>`
+

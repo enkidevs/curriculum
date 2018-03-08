@@ -1,4 +1,4 @@
-# Extracting the `public key` from the `private key`
+---
 author: tuwi.dc
 
 levels:
@@ -25,8 +25,12 @@ tags:
 
   - ssh-keygen
 
+
+
+
 ---
 ## Content
+# Extracting the `public key` from the `private key`
 
 The `-y` option of the `ssh-keygen` tool outputs the public key:
 ```
@@ -52,10 +56,12 @@ Extract the *public key* from your *private ssh key*:
 $ ??? ??? ??? 
           ???
 ```
-*`ssh-keygen`
-*`-y`
-*`-f`
-*`~/.ssh/id_rsa`
-*`~/.ssh/id_rsa.pub`
-*`-p`
-*`cat`
+
+* `ssh-keygen`
+* `-y`
+* `-f`
+* `~/.ssh/id_rsa`
+* `~/.ssh/id_rsa.pub`
+* `-p`
+* `cat`
+

@@ -1,4 +1,4 @@
-# Change your `hostname` on systems using `systemd`
+---
 author: tuwi.dc
 
 levels:
@@ -23,13 +23,15 @@ tags:
 
   - change
 
+
 links:
 
-  - >-
-    [www.freedesktop.org](https://www.freedesktop.org/software/systemd/man/hostnamectl.html){website}
+  - '[www.freedesktop.org](https://www.freedesktop.org/software/systemd/man/hostnamectl.html){website}'
+
 
 ---
 ## Content
+# Change your `hostname` on systems using `systemd`
 
 The `hostnamectl` command is part of the `systemd-services` package.
 
@@ -55,10 +57,11 @@ What command should be run to set the new hostname using the  `systemd-services`
 ```
 $ ??? ??? new_hostname
 ```
-*`hostnamectl`
-*`set-hostname`
-*`hostnamemd`
-*`set_hostname`
+
+* `hostnamectl`
+* `set-hostname`
+* `hostnamemd`
+* `set_hostname`
 
 ---
 ## Revision
@@ -67,12 +70,12 @@ Even if you use `hostnamectl` to change the hostname, you should manually edit t
 
 ??? file.
 
-*/etc/hosts 
-*/etc/hostname 
-*/etc/hostnamectl
+
+* /etc/hosts 
+* /etc/hostname 
+* /etc/hostnamectl
 
 ---
 ## Footnotes
-
 [1:Pretty Hostname]
 The pretty hostname is a free-form UTF8 host name for presentation to the user. (e.g. *Charlie's Laptop*)
