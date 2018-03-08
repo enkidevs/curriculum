@@ -1,4 +1,4 @@
-# Securing the Physical Layer
+---
 author: milesflo
 
 levels:
@@ -15,12 +15,15 @@ category: must-know
 
 inAlgoPool: false
 
+
 links:
 
-  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
+  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}'
+
 
 ---
 ## Content
+# Securing the Physical Layer
 
 A person gaining unauthorized access to a facility presents a myriad of vulnerabilities to the Physical Layer of its network. The trespasser could destroy/steal hardware or data, as well as set up discrete monitoring systems. This can be mitigated with an __access control system__, such as electronic locks, PIN keypads, or security badges. This access control system should keep logs who enters and leaves the facility and at what time. Audio and video surveillance of the facility and its perimeter would further prevent break-ins and identify the trespasser.
 
@@ -32,6 +35,7 @@ Not all Physical Layer vulnerabilities are caused by intruders-- oblivious staff
 What is one control in the Physical Layer?
 ???
 
+
 * Locks and secure enclosures
 * Use a physical firewall
 * Encrypted password exchange and storage
@@ -42,6 +46,7 @@ What is one control in the Physical Layer?
 
 Electronic locks, PIN keypads, and RFID security badges are all example of ???
 
+
 * access control systems
 * surveillance equipment
 * electromagnetic shielding
@@ -49,14 +54,15 @@ Electronic locks, PIN keypads, and RFID security badges are all example of ???
 
 ---
 ## Quiz
+### What is one control for this OSI model Layer?
+```
+What is one control in the Physical Layer of the OSI Model?
+```
 
-headline: What is one control for this OSI model Layer?
+ ???
 
-question: |
-  What is one control in the Physical Layer of the OSI Model?
+* Locks and secure enclosures
+* Use of a physical firewall
+* Encrypted password exchange and storage
+* Using switches to branch off wired connections
 
-answers:
-  - Locks and secure enclosures
-  - Use of a physical firewall
-  - Encrypted password exchange and storage
-  - Using switches to branch off wired connections
