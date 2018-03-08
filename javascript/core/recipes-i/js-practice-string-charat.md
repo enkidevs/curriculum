@@ -1,4 +1,4 @@
-# String `charAt`, `charCodeAt` and `fromCharCode` Practice
+# JS Practice String `charAt`, `charCodeAt` and `fromCharCode`
 author: milesflo
 
 levels:

@@ -1,4 +1,4 @@
-# Array `splice` and `slice` Practice
+# JS Practice Array `splice` and `slice`
 author: milesflo
 
 levels:

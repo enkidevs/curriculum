@@ -1,4 +1,4 @@
-# String `slice`, `substring`, and `substr` Practice
+# JS Practice String `slice`, `substring`, and `substr`
 author: milesflo
 
 levels:

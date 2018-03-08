@@ -1,4 +1,4 @@
-# String `indexOf`, `lastIndexOf` and `search` Practice
+# JS Practice String `indexOf`, `lastIndexOf` and `search`
 author: milesflo
 
 levels:
@@ -12,7 +12,6 @@ type: exercise
 links:
 
   - '[MDN - String class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)'
-
 
 ---
 ## Exercises

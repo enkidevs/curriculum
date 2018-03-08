@@ -1,4 +1,4 @@
-# Number `toFixed`, `toExponential` and `toPrecision` Practice
+# JS Practice Number `toFixed`, `toExponential` and `toPrecision`
 author: milesflo
 
 levels:

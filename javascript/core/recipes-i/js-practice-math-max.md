@@ -1,4 +1,4 @@
-# Math `max`, `min` and `abs` Practice
+# JS Practice Math `max`, `min` and `abs`
 author: milesflo
 
 levels:

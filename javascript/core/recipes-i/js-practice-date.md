@@ -1,4 +1,4 @@
-# Date Practice
+# JS Practice Date
 author: milesflo
 
 levels:

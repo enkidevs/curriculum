@@ -1,4 +1,4 @@
-# Math `round`, `ceil` and `floor` Practice
+# JS Practice Math `round`, `ceil` and `floor`
 author: milesflo
 
 levels:

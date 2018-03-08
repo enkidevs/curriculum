@@ -1,4 +1,4 @@
-# Array `concat` and `join` Practice
+# JS Practice Array `concat` and `join`
 author: milesflo
 
 levels:

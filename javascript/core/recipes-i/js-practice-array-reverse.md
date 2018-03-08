@@ -1,4 +1,4 @@
-# Array `reverse` and `sort` Practice
+# JS Practice Array `reverse` and `sort`
 author: milesflo
 
 levels:
@@ -12,7 +12,6 @@ type: exercise
 links:
 
   - '[MDN - Array class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)'
-
 
 ---
 ## Exercises

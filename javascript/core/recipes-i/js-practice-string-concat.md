@@ -1,4 +1,4 @@
-# String `concat`, `split` and `join` Practice
+# JS Practice String `concat`, `split` and `join`
 author: milesflo
 
 levels:

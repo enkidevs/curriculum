@@ -1,4 +1,4 @@
-# String `toUpperCase`, `toLowerCase` and `replace` Practice
+# JS Practice String `toUpperCase`, `toLowerCase` and `replace`
 author: milesflo
 
 levels:

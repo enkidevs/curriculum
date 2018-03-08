@@ -1,4 +1,4 @@
-# Array `map` Practice
+# JS Practice Array `map`
 author: milesflo
 
 levels:

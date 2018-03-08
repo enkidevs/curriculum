@@ -1,4 +1,4 @@
-# Math `pow`, `sqrt` and `cbrt` Practice
+# JS Practice Math `pow`, `sqrt` and `cbrt`
 author: milesflo
 
 levels:

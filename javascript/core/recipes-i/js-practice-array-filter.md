@@ -1,4 +1,4 @@
-# Array `filter` Practice
+# JS Practice Array `filter`
 author: milesflo
 
 levels:

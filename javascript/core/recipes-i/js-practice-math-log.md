@@ -1,4 +1,4 @@
-# Math `log` Practice
+# JS Practice Math `log`
 author: milesflo
 
 levels:

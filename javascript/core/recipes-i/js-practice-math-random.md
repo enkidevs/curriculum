@@ -1,4 +1,4 @@
-# Math `random` Practice
+# JS Practice Math `random`
 author: milesflo
 
 levels:
@@ -11,8 +11,7 @@ type: exercise
 
 links:
 
-  - '[MDN - String class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)'
-  - '[MDN - Number class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)'
+  - '[MDN - Math class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)'
 
 ---
 ## Exercises

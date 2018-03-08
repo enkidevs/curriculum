@@ -1,4 +1,4 @@
-# Array `reduce` and `reduceRight` Practice
+# JS Practice Array `reduce` and `reduceRight`
 author: milesflo
 
 levels:

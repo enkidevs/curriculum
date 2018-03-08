@@ -1,4 +1,4 @@
-# Number `toString` and `toLocaleString` Practice
+# JS Practice Number `toString` and `toLocaleString`
 author: milesflo
 
 levels:

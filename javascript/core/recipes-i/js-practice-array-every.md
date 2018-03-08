@@ -1,4 +1,4 @@
-# Array `every` and `some` Practice
+# JS Practice Array `every` and `some`
 author: milesflo
 
 levels:

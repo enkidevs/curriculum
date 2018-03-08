@@ -1,4 +1,4 @@
-# Array `isArray`, `indexOf` and `toString` Practice
+# JS Practice Array `isArray`, `indexOf` and `toString`
 author: milesflo
 
 levels:

@@ -1,4 +1,4 @@
-# Array `push`, `pop`, `shift` and `unshift` Practice
+# JS Practice Array `push`, `pop`, `shift` and `unshift`
 author: milesflo
 
 levels:
