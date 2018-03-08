@@ -16,7 +16,6 @@ links:
 
   - '[Control flow in Python](https://docs.python.org/2/tutorial/controlflow.html){website}'
 
-{}
 
 ---
 ## Content

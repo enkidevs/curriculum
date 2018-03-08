@@ -19,7 +19,6 @@ links:
   - '[Python max()](https://www.programiz.com/python-programming/methods/built-in/max){website}'
   - '[Python 3.3 Documentation](https://docs.python.org/3.3/library/functions.html#max){website}'
 
-{}
 
 ---
 ## Content

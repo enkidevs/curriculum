@@ -14,7 +14,6 @@ links:
 
   - '[chase-seibert.github.io]((Diagnosing memory leaks)[http://chase-seibert.github.io/blog/2013/08/03/diagnosing-memory-leaks-python.html]){website}'
 
-{}
 
 ---
 ## Content

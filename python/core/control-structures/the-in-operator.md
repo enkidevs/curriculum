@@ -16,7 +16,6 @@ links:
 
   - '[Use cases](http://kracekumar.com/post/22512660850/python-in-operator-use-cases){website}'
 
-{}
 
 ---
 ## Content

@@ -22,7 +22,6 @@ links:
   - '[PEP 3000](https://www.python.org/dev/peps/pep-3100/#id100){website}'
   - '[__cmp__ in Python 2 and 3](https://stackoverflow.com/questions/8276983/python-2-and-python-3-cmp){website}'
 
-{}
 
 ---
 ## Content

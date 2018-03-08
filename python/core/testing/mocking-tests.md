@@ -16,7 +16,6 @@ links:
 
   - '[More on mocking tests](https://docs.python.org/3/library/unittest.mock.html){website}'
 
-{}
 
 ---
 ## Content

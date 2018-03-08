@@ -16,7 +16,6 @@ links:
 
   - '[more about exception handling](https://docs.python.org/3/tutorial/errors.html){website}'
 
-{}
 
 ---
 ## Content

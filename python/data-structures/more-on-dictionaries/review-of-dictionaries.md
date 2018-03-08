@@ -16,7 +16,6 @@ links:
 
   - '[More on dictionaries](https://www.digitalocean.com/community/tutorials/understanding-dictionaries-in-python-3){website}'
 
-{}
 
 ---
 ## Content

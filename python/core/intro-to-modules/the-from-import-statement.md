@@ -14,7 +14,6 @@ links:
 
   - '[from...import in depth](https://www.tutorialspoint.com/python3/python_modules.htm){website}'
 
-{}
 
 ---
 ## Content

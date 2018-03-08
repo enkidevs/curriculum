@@ -16,7 +16,6 @@ links:
 
   - '[Map, filter and Reduce](http://web.mit.edu/6.005/www/fa15/classes/25-map-filter-reduce/#reduce){website}'
 
-{}
 
 ---
 ## Content

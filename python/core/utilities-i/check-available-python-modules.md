@@ -24,7 +24,6 @@ links:
 
   - '[stackoverflow.com](http://stackoverflow.com/questions/739993/how-can-i-get-a-list-of-locally-installed-python-modules){website}'
 
-{}
 
 ---
 ## Content

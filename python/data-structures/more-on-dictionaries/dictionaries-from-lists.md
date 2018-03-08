@@ -14,7 +14,6 @@ links:
 
   - '[More about creating dictionaries](https://developmentality.wordpress.com/2012/03/30/three-ways-of-creating-dictionaries-in-python/){website}'
 
-{}
 
 ---
 ## Content

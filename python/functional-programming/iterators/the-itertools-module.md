@@ -19,7 +19,6 @@ links:
   - '[A gentle introduction to itertools](http://jmduke.com/posts/a-gentle-introduction-to-itertools/){website}'
   - '[A Demo of APL from 1975](https://www.youtube.com/watch?v=_DTpQ4Kk2wA){website}'
 
-{}
 
 ---
 ## Content

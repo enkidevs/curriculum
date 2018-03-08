@@ -16,7 +16,6 @@ links:
 
   - '[more about built-in exceptions](https://docs.python.org/3/library/exceptions.html){website}'
 
-{}
 
 ---
 ## Content

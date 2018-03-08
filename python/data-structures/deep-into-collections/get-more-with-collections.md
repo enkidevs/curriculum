@@ -19,7 +19,6 @@ links:
   - '[pymbook.readthedocs.org](http://pymbook.readthedocs.org/en/latest/collections.html){website}'
   - '[docs.python.org](https://docs.python.org/3.5/library/collections.html){website}'
 
-{}
 
 ---
 ## Content

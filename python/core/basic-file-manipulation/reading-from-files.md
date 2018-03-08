@@ -14,7 +14,6 @@ links:
 
   - '[More about reading from files](http://www.pythonforbeginners.com/files/reading-and-writing-files-in-python){website}'
 
-{}
 
 ---
 ## Content

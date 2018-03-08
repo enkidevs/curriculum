@@ -18,7 +18,6 @@ links:
 
   - '[Immutability - Wikipedia](https://en.wikipedia.org/wiki/Immutable_object){website}'
 
-{}
 
 ---
 ## Content

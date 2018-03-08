@@ -18,7 +18,6 @@ links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/cmath.html){website}'
 
-{}
 
 ---
 ## Content

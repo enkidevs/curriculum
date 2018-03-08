@@ -16,7 +16,6 @@ links:
 
   - '[More information about I/O](https://www.tutorialspoint.com/python/python_files_io.htm){website}'
 
-{}
 
 ---
 ## Content

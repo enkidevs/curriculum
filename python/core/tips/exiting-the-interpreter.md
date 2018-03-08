@@ -20,7 +20,6 @@ links:
 
   - '[docs.python.org](https://docs.python.org/2/tutorial/interpreter.html){website}'
 
-{}
 
 ---
 ## Content

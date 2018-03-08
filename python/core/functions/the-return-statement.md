@@ -13,7 +13,6 @@ inAlgoPool: false
 
 
 
-{}
 
 ---
 ## Content

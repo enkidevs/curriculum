@@ -21,7 +21,6 @@ links:
   - '[pymotw.com](https://pymotw.com/2/codecs/){website}'
   - '[docs.python.org](https://docs.python.org/3.5/library/codecs.html){website}'
 
-{}
 
 ---
 ## Content

@@ -11,7 +11,6 @@ category: how to
 
 
 
-{}
 
 ---
 ## Content

@@ -13,7 +13,6 @@ category: must-know
 
 
 
-{}
 
 ---
 ## Content

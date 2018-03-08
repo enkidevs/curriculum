@@ -14,7 +14,6 @@ links:
 
   - '[More about errors and exceptions](http://www.python-course.eu/python3_exception_handling.php){website}'
 
-{}
 
 ---
 ## Content

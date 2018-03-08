@@ -14,7 +14,6 @@ links:
 
   - '[More on namespace](https://www.programiz.com/python-programming/namespace){website}'
 
-{}
 
 ---
 ## Content

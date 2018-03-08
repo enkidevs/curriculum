@@ -14,7 +14,6 @@ links:
 
   - '[More about writing to files](https://www.digitalocean.com/community/tutorials/how-to-handle-plain-text-files-in-python-3){website}'
 
-{}
 
 ---
 ## Content

@@ -19,7 +19,6 @@ links:
   - '[docs.python.org](https://docs.python.org/2/library/stringprep.html){website}'
   - '[www.ietf.org](https://www.ietf.org/rfc/rfc3454.txt){website}'
 
-{}
 
 ---
 ## Content

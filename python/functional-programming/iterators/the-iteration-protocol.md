@@ -18,7 +18,6 @@ links:
 
   - '[Iteration Protocol](https://medium.com/the-python-corner/iterators-and-generators-in-python-2c3929a144b){website}'
 
-{}
 
 ---
 ## Content

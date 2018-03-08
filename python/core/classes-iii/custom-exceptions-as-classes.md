@@ -16,7 +16,6 @@ links:
 
   - '[docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#exceptions-are-classes-too){website}'
 
-{}
 
 ---
 ## Content
