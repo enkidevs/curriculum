@@ -72,7 +72,6 @@ public ??? ??? Example{
 ### Can you predict the output of this inheritance example?
 ```
 // What would the following snippet output?
-```
 class Tesla {
     public static final String MODEL = "Model S";
 }
@@ -84,7 +83,6 @@ public class Roadster extends Tesla {
         System.out.println(Roadster.MODEL);
     }
 }
-```
 ```
 
  ???

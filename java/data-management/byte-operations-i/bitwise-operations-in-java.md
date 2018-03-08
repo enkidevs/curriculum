@@ -36,7 +36,35 @@ public class Main{
     System.out.println(a & b);
     //&:   0001
     //     0101
-    //
+    //     --
+    //     0001
+
+    System.out.println(a | b);
+    //|:   0001
+    //     0101
+    //     --
+    //     0101
+
+    System.out.println(a ^ b);
+    //^:   0001
+    //     0101
+    //     --
+    //     0100
+
+    System.out.println(~a);
+    //~:   0001
+    //     --
+    //     1110
+
+  }
+}
+//The output is the following:
+//1
+//5
+//4
+//-2
+```
+The last result is `-2` because *Java* uses two's complement bit representation.
 
 ---
 ## Practice

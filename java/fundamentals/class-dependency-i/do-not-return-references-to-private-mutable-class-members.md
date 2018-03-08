@@ -83,7 +83,6 @@ Which of the following is a way of preventing mutable private fields from being 
 ### Can you identify a Java security vulnerability?
 ```
 // What does this code print?
-```
 class MutableClass {
   private int[] array;
 
@@ -110,7 +109,6 @@ public class Main {
     test.printEl();
   }
 }
-```
 ```
 
  ???
