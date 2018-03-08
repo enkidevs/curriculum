@@ -1,4 +1,4 @@
-# `:empty` and `:blank`
+---
 author: Billiexu
 
 levels:
@@ -11,13 +11,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [www.sitepoint.com](http://www.sitepoint.com/future-generation-css-selectors-level-4/){website}
+  - '[www.sitepoint.com](http://www.sitepoint.com/future-generation-css-selectors-level-4/){website}'
+
 
 ---
 ## Content
+# `:empty` and `:blank`
 
 With `:empty` you can select an element based on there being no children in it, whether that be elements, text nodes, or even white space nodes. So with `:empty`, even if the element contains a single space and nothing else, it will not be considered “empty”.
 
@@ -53,6 +55,7 @@ Which pseudo-class would select the following element?
 <p> </p>
 ```
 ???
+
 * `:blank`
 * `:empty`
 * `neither...`
@@ -69,9 +72,11 @@ Which lines of HTML code would a *:blank* pseudo class apply to?
 5 <p>.</p>
 ```
 ???
+
 * 2nd and 4th
 * 2nd, 4th, 5th
 * 1st, 3rd, 5th
 * 4th and 5th
 * 2nd and 5th
 * 1st and 3rd
+

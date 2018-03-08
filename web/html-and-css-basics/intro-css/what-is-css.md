@@ -1,4 +1,4 @@
-# What Is CSS?
+---
 author: mihaiberq
 
 levels:
@@ -7,17 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [www.theodinproject.com](http://www.theodinproject.com/courses/web-development-101#section-the-front-end){website}
+  - '[www.theodinproject.com](http://www.theodinproject.com/courses/web-development-101#section-the-front-end){website}'
+
 
 ---
 ## Content
+# What Is CSS?
 
 **CSS**, also known as **Cascading Style Sheets**, is a styling language that can be applied to HTML, XML or SVG documents.
 
@@ -42,6 +44,7 @@ In the context of a web page, CSS takes care of
 
 ???
 
+
 * styling
 * structure
 * behavior
@@ -54,7 +57,9 @@ What does *CSS* stand for?
 
 ???
 
+
 * Cascading Style Sheets
 * Cross Site Scripting
 * Customer Service Site
 * Computer Styling Sheets
+

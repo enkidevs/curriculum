@@ -1,4 +1,4 @@
-# `currentColor` improves code reusability 
+---
 author: Mathieu
 
 levels:
@@ -13,17 +13,17 @@ type: normal
 
 category: best practice
 
-notes: ''
 
 links:
 
   - '[caniuse.com](http://caniuse.com/#feat=currentcolor){website}'
+  - '[osvaldas.info](http://osvaldas.info/keeping-css-short-with-currentcolor){website}'
 
-  - >-
-    [osvaldas.info](http://osvaldas.info/keeping-css-short-with-currentcolor){website}
+notes: ''
 
 ---
 ## Content
+# `currentColor` improves code reusability 
 
 `currentColor` will reuse the calculated value of the element’s `color` property.
 
@@ -57,6 +57,8 @@ a:hover {
 ## Revision
 
 What does the `currentColor` property in CSS do? ???
+
 * Reuse's the calculated value of the element's colour property.
 * Sets colour equal to the most used colour in the stylesheet.
 * Sets colour equal to the least used colour in the stylesheet.
+

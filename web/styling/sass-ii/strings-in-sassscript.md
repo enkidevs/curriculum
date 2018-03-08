@@ -1,4 +1,4 @@
-# Strings in SassScript
+---
 author: tommarshall
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [sass-lang.com](http://sass-lang.com/documentation/Sass/Script/Functions.html#list-functions){website}
+  - '[sass-lang.com](http://sass-lang.com/documentation/Sass/Script/Functions.html#list-functions){website}'
+
 
 ---
 ## Content
+# Strings in SassScript
 
 There are two types of strings in CSS and both of these are recognised in *SassScript*. The first is `"with quotations"`, and the second is `without quotations`.
 
@@ -49,6 +51,7 @@ Pick the right index at which you should insert a character as to result in "enk
 str-insert("eki", "n", ???) 
 ```
 
+
 * `2`
 * `1`
 * `3`
@@ -63,8 +66,10 @@ Pick the right index at which you should insert a character as to result in "enk
 str-insert("eki", "n", ???) 
 ```
 
+
 * `2`
 * `1`
 * `3`
 * `4`
 * `0`
+

@@ -1,4 +1,4 @@
-# Headings and Paragraphs
+---
 author: mihaiberq
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# Headings and Paragraphs
 
 Even the simplest of web pages must contain at least one block of text. Usually, these fields are semantically delimited by the `<h>` and `<p>` tags.
 ```html
@@ -54,6 +58,7 @@ This behavior is specific to **block elements**.
 The smallest sized heading is
 
 ???
+
 * h6
 * h1
 * h2
@@ -66,7 +71,9 @@ The smallest sized heading is
 
 All headings are ??? by default.
 
+
 * bold
 * italic
 * bigger than paragraphs
 * smaller than paragraphs
+

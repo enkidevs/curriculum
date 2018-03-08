@@ -1,4 +1,4 @@
-# Drag-and-Drop pseudo-class `:drop`
+---
 author: Billiexu
 
 levels:
@@ -21,13 +21,15 @@ tags:
 
   - webdevelopment
 
+
 links:
 
-  - >-
-    [www.sitepoint.com](http://www.sitepoint.com/future-generation-css-selectors-level-4/){website}
+  - '[www.sitepoint.com](http://www.sitepoint.com/future-generation-css-selectors-level-4/){website}'
+
 
 ---
 ## Content
+# Drag-and-Drop pseudo-class `:drop`
 
 The `:drop` selector allows styling of the drop zone (the place where the element is supposed to be dropped), during the time when the user is dragging (or carrying) the element to be dropped.
 
@@ -58,7 +60,9 @@ What will the following CSS code do whilst dragging and not dragging? ???
 }
 ```
 
+
 * Whilst dragging, the background colour is red. Whilst not dragging, the background colour is white.
 * Whilst dragging, the background colour is white. Whilst not dragging, the background colour is red.
 * The background colour is always red.
 * The background colour is always white.
+

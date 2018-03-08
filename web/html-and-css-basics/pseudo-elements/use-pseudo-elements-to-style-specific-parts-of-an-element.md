@@ -1,4 +1,4 @@
-# Use pseudo-elements to style specific parts of an element
+---
 author: priyankinirmal
 
 levels:
@@ -15,13 +15,15 @@ tags:
 
   - pseudo-elements
 
+
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements){website}'
+
 
 ---
 ## Content
+# Use pseudo-elements to style specific parts of an element
 
 To distinguish them from pseudo-classes, **pseudo-elements** should be preceded by two colons `::`. In some older browser versions the two colon notation might not be supported, so the single colon notation (`:`) must be used.
 
@@ -49,6 +51,7 @@ Which of the following is NOT a pseudo-element?
 
 ???
 
+
 * `::first-paragraph`
 * `::first-line`
 * `::first-letter`
@@ -61,8 +64,10 @@ Ideally, what should precede all pseudo-elements declaration?
 
 ???
 
+
 * `::`
 * `;;`
 * `:`
 * `-`
 * `;`
+

@@ -1,4 +1,4 @@
-# SassScript Map and List Functions
+---
 author: tommarshall
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [sass-lang.com](http://sass-lang.com/documentation/Sass/Script/Functions.html#list-functions){website}
+  - '[sass-lang.com](http://sass-lang.com/documentation/Sass/Script/Functions.html#list-functions){website}'
+
 
 ---
 ## Content
+# SassScript Map and List Functions
 
 In *SassScript* neither maps or lists support any special operations, they're manipulated by their respective map and list functions. 
 
@@ -47,5 +49,7 @@ zip(a b c, 1 2 3, x y z)
 
 What's the first item index in **SassScript**?
 ???
-*`1`
-*`0`
+
+* `1`
+* `0`
+

@@ -1,4 +1,4 @@
-# Use `z-index` to specify the stack order of elements that overlap
+---
 author: priyankinirmal
 
 levels:
@@ -23,13 +23,15 @@ tags:
 
   - position
 
+
 links:
 
-  - >-
-    [css-tricks.com](https://css-tricks.com/almanac/properties/z/z-index/){website}
+  - '[css-tricks.com](https://css-tricks.com/almanac/properties/z/z-index/){website}'
+
 
 ---
 ## Content
+# Use `z-index` to specify the stack order of elements that overlap
 
 This property can only be used for elements which aren't in the normal stack. For example, those with a `position` value which is not `static` (default). 
 
@@ -69,10 +71,11 @@ Which of the following elements will be displayed on top?
 }
 ```
 ???
-*`A` 
-*`B` 
-*`C` 
-*They are all on the same level.
+
+* `A` 
+* `B` 
+* `C` 
+* They are all on the same level.
 
 ---
 ## Revision
@@ -81,7 +84,9 @@ To use the `z-index` to specify the stack order of overlapping elements, which o
 
 ???
 
+
 * `position: static;`
 * `position: absolute;`
 * `position: fixed;`
 * `position: relative`
+

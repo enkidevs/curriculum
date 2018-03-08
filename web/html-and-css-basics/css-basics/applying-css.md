@@ -1,4 +1,4 @@
-# Applying CSS
+---
 author: mihaiberq
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# Applying CSS
 
 We talked about CSS and what it can do, but we didn't mention how to actually make the browser use it alongside the HTML file.
 
@@ -45,11 +49,12 @@ Complete the HTML snippet to import an external CSS file:
 </head>
 ```
 
-*`link`
-*`rel`
-*`href`
-*`import`
-*`name`
+
+* `link`
+* `rel`
+* `href`
+* `import`
+* `name`
 
 ---
 ## Revision
@@ -57,6 +62,8 @@ Complete the HTML snippet to import an external CSS file:
 What is the recommended way of applying CSS?
 
 ???
-*External file.
-*Internal CSS.
-*Inline CSS.
+
+* External file.
+* Internal CSS.
+* Inline CSS.
+

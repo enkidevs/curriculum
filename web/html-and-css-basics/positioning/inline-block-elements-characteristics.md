@@ -1,4 +1,4 @@
-# Inline-block Elements Characteristics
+---
 author: mihaiberq
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# Inline-block Elements Characteristics
 
 There aren't any *inline-block* elements per se: they are *inline* elements that accept some *block-specific* properties. 
 
@@ -33,7 +37,9 @@ In short, `inline-block` is trying to replicate the behavior of replaced element
 Whose behavior is `display:inline-block` trying to replicate?
 
 ???
+
 * Replaced elements'
 * Inline elements'
 * Block elements'
 * Newer elements'
+

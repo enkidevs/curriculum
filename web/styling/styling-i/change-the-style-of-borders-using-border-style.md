@@ -1,4 +1,4 @@
-# Change the style of borders using `border-style`
+---
 author: priyankinirmal
 
 levels:
@@ -19,15 +19,17 @@ tags:
 
   - border-style
 
-  - ''
+  - 
+
 
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/border-style){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/border-style){website}'
+
 
 ---
 ## Content
+# Change the style of borders using `border-style`
 
 Use right/left/top/bottom to specify which border of the element you want to apply the style to.
 ```css
@@ -46,8 +48,10 @@ p.all {
 ## Revision
 
 Which of the following is not a `border-style`? ???
+
 * `curve`
 * `groove`
 * `ridge`
 * `double`
 * `dashed`
+

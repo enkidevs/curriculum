@@ -1,4 +1,4 @@
-# Internal CSS
+---
 author: mihaiberq
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# Internal CSS
 
 The next two ways of writing CSS code do not require an external `.css` file - both structure (HTML) and style (CSS) live inside the same HTML file.
 
@@ -55,6 +59,8 @@ The CSS code with the highest rendering priority is
 
 ???
 
+
 * inline CSS
 * internal CSS
 * external CSS
+

@@ -1,4 +1,4 @@
-# Using SassScripts Interactive Shell
+---
 author: tommarshall
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: tip
 
+
 links:
 
-  - >-
-    [sass-lang.com](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#sassscript){website}
+  - '[sass-lang.com](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#sassscript){website}'
+
 
 ---
 ## Content
+# Using SassScripts Interactive Shell
 
 *SassScript's* interactive shell gives you the chance to experiment with SassScript expressions. 
 
@@ -48,6 +50,7 @@ How can you launch *SassScript* interactive shell?
 ```
 $ ??? ???
 ```
+
 * `sass`
 * `--interactive`
 * `sassscript`
@@ -64,6 +67,7 @@ How can you launch *SassScript* interactive shell?
 ```
 $ ??? ???
 ```
+
 * `sass`
 * `--interactive`
 * `sassscript`
@@ -71,3 +75,4 @@ $ ??? ???
 * `--shell`
 * `-c`
 * `--cli`
+

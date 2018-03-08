@@ -1,4 +1,4 @@
-# Declaring linear gradients using the `background` property
+---
 author: priyankinirmal
 
 levels:
@@ -23,12 +23,15 @@ tags:
 
   - background
 
+
 links:
 
   - '[css-tricks.com](https://css-tricks.com/css3-gradients/){website}'
 
+
 ---
 ## Content
+# Declaring linear gradients using the `background` property
 
 Use the shorthand `background` property to declare gradients.
 
@@ -52,11 +55,12 @@ This gradient will transition from blue to green from left to right.
 Which is the most common type of gradient? 
 ???
 
-*`linear-gradient` 
-*`square-gradient` 
-*`perpendicular-gradient` 
-*`bi-linear-gradient` 
-*`radial-gradient`
+
+* `linear-gradient` 
+* `square-gradient` 
+* `perpendicular-gradient` 
+* `bi-linear-gradient` 
+* `radial-gradient`
 
 ---
 ## Revision
@@ -69,7 +73,9 @@ span.gradient {
                                white);
 }
 ```
+
 * Transitions the gradient from red to white, starting from right to left.
 * Transitions the gradient from red to white, starting from left to right.
 * Transitions the gradient from white to red, starting from right to left.
 * Transitions the gradient from white to red, starting from left to right.
+

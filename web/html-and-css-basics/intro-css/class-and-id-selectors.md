@@ -1,4 +1,4 @@
-# Class and ID Selectors
+---
 author: mihaiberq
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# Class and ID Selectors
 
 ### Class Selectors
 
@@ -52,11 +56,11 @@ And the HTML:
 Which of the following selectors does *always* target a single element?
 
 ???
+
 * ID
 * Class
 * Type
 * A combination between type and class
-
 
 ---
 ## Revision
@@ -65,6 +69,8 @@ In CSS, the syntax for targeting elements within a certain class is:
 ```
 ???
 ```
+
 * `.class`
 * `#class`
 * `class`
+

@@ -1,4 +1,4 @@
-# The `nth-child` Property
+---
 author: jordanfish
 
 levels:
@@ -13,12 +13,15 @@ type: normal
 
 category: how to
 
+
 links:
 
   - '[github.com](https://github.com/AllThingsSmitty/css-protips){website}'
 
+
 ---
 ## Content
+# The `nth-child` Property
 
 The basic usage of the `nth-child` pseudo-class is to select a single child of the targeted element, like so:
 ```
@@ -98,7 +101,9 @@ li:nth-child(-n+7) {
    display: block;
 }
 ```
+
 * Items 1 through 7.
 * Items 0 through 7.
 * Items 1 through 6
 * Items -1 through 7.
+

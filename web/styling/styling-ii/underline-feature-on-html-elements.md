@@ -1,4 +1,4 @@
-# Underline feature on HTML elements
+---
 author: oj14henry
 
 levels:
@@ -17,8 +17,12 @@ tags:
 
   - underline
 
+
+
+
 ---
 ## Content
+# Underline feature on HTML elements
 
 To remove the natural underline feature that comes with `a` elements:
 
@@ -48,12 +52,13 @@ a {
   ??? : ???;
 }
 ```
-*`text-decoration` 
-*`none` 
-*`decoration` 
-*`initial` 
-*`remove` 
-*`underline`
+
+* `text-decoration` 
+* `none` 
+* `decoration` 
+* `initial` 
+* `remove` 
+* `underline`
 
 ---
 ## Revision
@@ -65,6 +70,8 @@ a {
 }
 ```
  ???
+
 * Removes the natural underline feature on all &lt;a&gt; elements.
 * Reverts and changes made to the text in all &lt;a&gt; elements, such as different colors.
 * Adds the natural underline feature to all &lt;a&gt; elements.
+
