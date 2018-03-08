@@ -6,12 +6,7 @@ levels:
   - beginner
 
   - basic
-
-
-tags:
-
-  - workout
-
+  
 
 type: exerciseList
 
@@ -36,15 +31,4 @@ standards:
 ### Question
 Make use of `scope` effectively.
 
----
-## Exercises
-codewars-link: https://www.codewars.com/kata/duplicate-encoder
-standards:
-  py.functions.0: 1000
-  py.functions.1: 2000
-  py.functions.2: 3000
-  py.functions.4: 4000
-  py.functions.5: 5000
 
-### Question
-More practice on python `functions` and `scoping`.
