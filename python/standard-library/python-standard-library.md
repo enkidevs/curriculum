@@ -10,11 +10,6 @@ levels:
   - medium
 
 
-tags:
-
-  - workout
-
-
 type: exerciseList
 
 links:
@@ -32,23 +27,3 @@ standards:
 
 ### Question
 Make effective use of python's `standard library`.
-
----
-## Exercises
-codewars-link: https://www.codewars.com/kata/find-the-files-then-read-them
-standards:
-  py.standard-library-operating-system.0: 2000
-  py.standard-library-operating-system.1: 2000
-
-### Question
-Make effective use of python's `standard library`.
-
----
-## Exercises
-codewars-link: https://www.codewars.com/kata/sort-the-columns-of-a-csv-file
-standards:
-  py.standard-library-operating-system.0: 2000
-  py.standard-library-operating-system.1: 2000
-
-### Question
-Make effective use of python's `standard library`
