@@ -1,4 +1,4 @@
-# What is Git?
+---
 author: catalin
 
 levels:
@@ -7,17 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [www.atlassian.com](https://www.atlassian.com/git/tutorials/what-is-git/){website}
+  - '[www.atlassian.com](https://www.atlassian.com/git/tutorials/what-is-git/){website}'
+
 
 ---
 ## Content
+# What is Git?
 
 **Git**[1] is the name of the most widely used *Distributed Version Control System*, and is the standard of version control for both commercial and open source projects.
 
@@ -36,6 +38,7 @@ What is **Git**'s versioning based on?
 
 ???
 
+
 * Content of the file
 * Name of the file
 * Both
@@ -47,6 +50,7 @@ What type of VCS is Git?
 
 ???
 
+
 * DVCS
 * CVCS
 * LVCS
@@ -54,7 +58,6 @@ What type of VCS is Git?
 
 ---
 ## Footnotes
-
 [1:name origin]
 Linus Torvalds is the creator of the original Linux kernel, but also of **Git** in 2005, a term which in British English slang refers to a stupid or unpleasant person.
 

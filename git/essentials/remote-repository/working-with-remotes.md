@@ -1,4 +1,4 @@
-# Working with remotes
+---
 author: catalin
 
 levels:
@@ -7,20 +7,20 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [git-scm.com](https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}
+  - '[git-scm.com](https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}'
+  - '[git-scm.com](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes){website}'
 
-  - >-
-    [git-scm.com](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes){website}
 
 ---
 ## Content
+# Working with remotes
 
 Remote repositories are fundamental to the **Git** workflow for teams who need to collaborate.
 
@@ -58,10 +58,11 @@ What's the default name **Git** provides to the server you `clone` from?
 
 ???
 
-*origin
-*master
-*remote
-*GitHub
+
+* origin
+* master
+* remote
+* GitHub
 
 ---
 ## Revision
@@ -72,15 +73,15 @@ What command is used to see the remote repositories for your project?
 $ git ???
 ```
 
-*`remote`
-*`remotes`
-*`add`
-*`status`
-*`checkout`
+
+* `remote`
+* `remotes`
+* `add`
+* `status`
+* `checkout`
 
 ---
 ## Footnotes
-
 [1:remotes]
 Using the `-v` flag will show the `URL`s used when both reading (merge or fetch) and writing (push) to that remote:
 

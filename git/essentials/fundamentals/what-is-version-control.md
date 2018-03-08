@@ -1,4 +1,4 @@
-# What is Version Control?
+---
 author: catalin
 
 levels:
@@ -7,20 +7,20 @@ levels:
 
 type: normal
 
+category: thought
+
 inAlgoPool: false
 
-category: thought
 
 links:
 
-  - >-
-    [git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control){website}
+  - '[git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control){website}'
+  - '[www.atlassian.com](https://www.atlassian.com/git/tutorials/what-is-version-control){website}'
 
-  - >-
-    [www.atlassian.com](https://www.atlassian.com/git/tutorials/what-is-version-control){website}
 
 ---
 ## Content
+# What is Version Control?
 
 **Version Control** defines a **system** intended to help software development teams record and manage changes to their source code[1].
 
@@ -46,6 +46,7 @@ What *type* of VCS **only** makes use of a local database to keep changes of fil
 
 ???
 
+
 * Local Version Control 
 * Centralised Version Control
 * Distributed Version Control
@@ -57,6 +58,7 @@ What does **CVCS** stand for?
 
 ???
  
+
 * Centralised Version Control System
 * Centralised Versioning Center System
 * Center Version Control System
@@ -64,7 +66,6 @@ What does **CVCS** stand for?
 
 ---
 ## Footnotes
-
 [1:applicability]
 Keep in mind that **Version Control** software is not limited to text files and implicitly source code, but also to different kind of files such as images, making it useful not only for software developers.
 [2:DVCS]

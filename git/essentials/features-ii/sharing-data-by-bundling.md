@@ -1,4 +1,4 @@
-# Sharing data by bundling
+---
 author: rosielowther
 
 levels:
@@ -13,12 +13,15 @@ type: normal
 
 category: feature
 
+
 links:
 
   - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Bundling){website}'
 
+
 ---
 ## Content
+# Sharing data by bundling
 
 As well as sharing git data over a network, you can also bundle the data into one file.
 
@@ -46,11 +49,12 @@ How would you bundle the whole `newFeature` branch?
 $ git bundle ??? 
    FeatureBranch ??? ???        
 ```
-*`create`
-*`HEAD`
-*`newFeature`
-*`-create`
-*`head`
+
+* `create`
+* `HEAD`
+* `newFeature`
+* `-create`
+* `head`
 
 ---
 ## Revision
@@ -59,7 +63,9 @@ To verify if `newBundle` is a valid bundle, you would run
 ```
 $ git ??? ??? ../newBundle
 ```
-*`bundle`
-*`verify`
-*`-b`
-*`--verify`
+
+* `bundle`
+* `verify`
+* `-b`
+* `--verify`
+

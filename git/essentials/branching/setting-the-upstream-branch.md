@@ -1,4 +1,4 @@
-# Setting the upstream branch
+---
 author: rosielowther
 
 levels:
@@ -11,15 +11,16 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}
-
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}'
   - '[git-scm.com](https://git-scm.com/docs/git-branch){website}'
+
 
 ---
 ## Content
+# Setting the upstream branch
 
 When you use the `git clone` or `git checkout` commands on a remote repository, a tracking branch is set up automatically.
 
@@ -38,17 +39,20 @@ $ git ??? ???
         ???/???
 ``` 
 is used to set the current branch to follow the remote branch *newFeature*.
-*`branch`
-*`-u`
-*`origin`
-*`newFeature`
-*`checkout`
-*`-upstream`
+
+* `branch`
+* `-u`
+* `origin`
+* `newFeature`
+* `checkout`
+* `-upstream`
 
 ---
 ## Revision
 
 `git clone` and `git checkout` commands on a remote repository set up a ??? branch automatically.
-*tracking
-*single
-*false
+
+* tracking
+* single
+* false
+

@@ -1,4 +1,4 @@
-# `master` and `origin` aren't special
+---
 author: rosielowther
 
 levels:
@@ -11,8 +11,12 @@ type: normal
 
 category: must-know
 
+
+
+
 ---
 ## Content
+# `master` and `origin` aren't special
 
 `master` and `origin` are widely used in git, but they aren't special values. They are just the default names when you use the commands `init` and `clone`.
 
@@ -34,10 +38,11 @@ The default name for the remote is `origin`.
 `master` is used as ??? ,
 
  while `origin` as ??? .
-*default first branch name
-*default remote repository name
-*new branches’ default name
-*local folder name
+
+* default first branch name
+* default remote repository name
+* new branches’ default name
+* local folder name
 
 ---
 ## Revision
@@ -45,7 +50,9 @@ The default name for the remote is `origin`.
 `master` is used as ??? ,
 
  while `origin` as ??? .
-*default first branch name
-*default remote repository name
-*new branches’ default name
-*local folder name
+
+* default first branch name
+* default remote repository name
+* new branches’ default name
+* local folder name
+

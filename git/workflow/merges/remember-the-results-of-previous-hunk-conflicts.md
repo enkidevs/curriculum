@@ -1,4 +1,4 @@
-# Remember the results of previous hunk conflicts
+---
 author: rosielowther
 
 levels:
@@ -11,12 +11,15 @@ type: normal
 
 category: feature
 
+
 links:
 
   - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Rerere){website}'
 
+
 ---
 ## Content
+# Remember the results of previous hunk conflicts
 
 The "Reuse Recorded Resolution" tool (`rerere`) permits git to remember how you chose to resolve a merge conflict. The next time this conflict appears git can automatically resolve it for you.
 
@@ -49,19 +52,22 @@ Practice: The command to enable the *Reuse Recorded Resolution* tool is:
 $ ??? ??? ???
   ???.??? ???
 ```
-*`git`
-*`config`
-*`--global`
-*`rerere`
-*`enabled`
-*`true`
+
+* `git`
+* `config`
+* `--global`
+* `rerere`
+* `enabled`
+* `true`
 
 ---
 ## Revision
 
 rerere(“Reuse Recorded Resolution”) ??? the way you ??? a ??? conflict and automatically resolves it for you.
-*saves
-*solved
-*merging
-*shares
-*pulling
+
+* saves
+* solved
+* merging
+* shares
+* pulling
+

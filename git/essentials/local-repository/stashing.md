@@ -1,4 +1,4 @@
-# Stashing
+---
 author: catalin
 
 levels:
@@ -7,16 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[git-scm.com](https://git-scm.com/book/en/v1/Git-Tools-Stashing){website}'
 
+
 ---
 ## Content
+# Stashing
 
 Another highly useful feature of **Git** allows you to _set aside_ current work; usually in order to switch branches without losing uncommitted changes.
 
@@ -84,6 +87,7 @@ Complete the code snippet below so it removes the most recent set of changes in 
 $ git stash ??? ???@???
 ```
 
+
 * `drop`
 * `stash`
 * `{0}`
@@ -100,6 +104,7 @@ Complete the command below such as the most recent set of changes in the stash a
 $ ??? ??? ???
 ```
 
+
 * `git`
 * `stash`
 * `apply`
@@ -111,7 +116,6 @@ $ ??? ??? ???
 
 ---
 ## Footnotes
-
 [1:stack]
 A **stack** is an abstract data type on top of which `git`'s stash is built.
 The name **stack** comes from the analogy to a set of physical items (e.g. plates) stacked on top of each other. You can only add an element to the *top* of the stack or remove the *topmost* element of the stack. This principle is called **LIFO** - last in, first out.

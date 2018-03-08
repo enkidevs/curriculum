@@ -1,4 +1,4 @@
-# Search by commit message keyword
+---
 author: rosielowther
 
 levels:
@@ -9,13 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History){website}'
+
 
 ---
 ## Content
+# Search by commit message keyword
 
 There is a useful **log output** filter that you can use to help find a particular commit. 
 
@@ -38,6 +40,7 @@ Search for all commits with 'enki' in their commit message :
 ```
 $ git ??? ??? 
 ```
+
 * `log`
 * `--grep=enki`
 * `--grep`
@@ -53,6 +56,8 @@ $ git log --pretty=oneline --grep=enki
  
 ```
 ???
+
 * Shows the commit messages with 'enki'.
 * Shows the commits by author 'enki'.
 * Shows the commits in 'enki' repository.
+

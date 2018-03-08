@@ -1,4 +1,4 @@
-# The golden rule of rebasing
+---
 author: rosielowther
 
 levels:
@@ -11,12 +11,15 @@ type: normal
 
 category: best practice
 
+
 links:
 
   - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Rebasing){website}'
 
+
 ---
 ## Content
+# The golden rule of rebasing
 
 Rebasing is the process of modifying the base commit from which a series of commits stems. This is achieved with the `git rebase` command. Rebasing is an alternative to **merging** when wanting to combine two different branches of development.
 > **Only rebase commits that exist in your local repository.** 
@@ -36,15 +39,18 @@ How would you make git to recreate a history of commits if someone rebased share
 ```
 $ git ??? ???
 ```
-*`pull`
-*`--rebase`
-*`rebase`
-*`commit`
+
+* `pull`
+* `--rebase`
+* `rebase`
+* `commit`
 
 ---
 ## Revision
 
 The best practice is to only `rebase` commits that exist in your ??? ???.
-*local
-*repository
-*remote
+
+* local
+* repository
+* remote
+

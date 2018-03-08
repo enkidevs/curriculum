@@ -1,4 +1,4 @@
-# Search for commits by author
+---
 author: rosielowther
 
 levels:
@@ -9,13 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History){website}'
+
 
 ---
 ## Content
+# Search for commits by author
 
 You can search for commits that were made by a particular author by using the `--author` option. 
 
@@ -37,6 +39,7 @@ Search for the commits made by "enki" or "Joe".
 ```
 $ git log ???="???\|Joe"
 ```
+
 * `--author`
 * `enki`
 * `--pretty`
@@ -50,8 +53,10 @@ Search for the commits made by "C Mustard".
 ```
 $ git ??? ???="C Mustard"
 ```
+
 * `log`
 * `--author`
 * `--pretty`
 * `format`
 * `--name`
+

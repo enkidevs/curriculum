@@ -1,4 +1,4 @@
-# Merging
+---
 author: catalin
 
 levels:
@@ -7,17 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [git-scm.com](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging){website}
+  - '[git-scm.com](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging){website}'
+
 
 ---
 ## Content
+# Merging
 
 Merging is the operation of joining two or more development histories (branches)  together.
 
@@ -63,11 +65,12 @@ To check what files were not successfully merged automatically:
 $ git ???
 ```
 
-*`status`
-*`merge`
-*`list`
-*`checkout`
-*`conflicts`
+
+* `status`
+* `merge`
+* `list`
+* `checkout`
+* `conflicts`
 
 ---
 ## Revision
@@ -76,13 +79,13 @@ A merge operation will:
 
 ???
 
+
 * merge target branch into the current one
 * merge current branch into the target one
 * create new branch combining the current and target branch
 
 ---
 ## Footnotes
-
 [1:unmerged]
 You can check what files weren't successfully  merged using the `git status` command:
 ```

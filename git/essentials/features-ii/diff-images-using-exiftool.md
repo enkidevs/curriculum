@@ -1,4 +1,4 @@
-# Diff images using *ExifTool*
+---
 author: rosielowther
 
 levels:
@@ -11,16 +11,16 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [www.sno.phy.queensu.ca](http://www.sno.phy.queensu.ca/~phil/exiftool/){website}
+  - '[www.sno.phy.queensu.ca](http://www.sno.phy.queensu.ca/~phil/exiftool/){website}'
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes){website}'
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes){website}
 
 ---
 ## Content
+# Diff images using *ExifTool*
 
 *ExifTool* can extract the metadata (EXIF) from image files and convert it into text.
 
@@ -46,15 +46,18 @@ Note that `exiftool` may not be present on your machine. You can install it with
 `*.png diff=exif`  should be added to
 
 ??? file.
-*.gitattributes
-*.git/config
-*.gitignore
+
+* .gitattributes
+* .git/config
+* .gitignore
 
 ---
 ## Revision
 
 `ExifTool` can be used to ??? from a photo and convert it into text.
 
-*extract metadata
-*extract pixels
-*extract color codes
+
+* extract metadata
+* extract pixels
+* extract color codes
+

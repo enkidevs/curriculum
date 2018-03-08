@@ -1,4 +1,4 @@
-# Specify a commit by its ancestry
+---
 author: rosielowther
 
 levels:
@@ -13,8 +13,12 @@ type: normal
 
 category: feature
 
+
+
+
 ---
 ## Content
+# Specify a commit by its ancestry
 
 To show a commit's first parent use `^` or `~`, both achieving the same thing:
 ```
@@ -42,6 +46,7 @@ $ git show 34de6f1~2
 What is the `~` equivalent of `^^^^`?
 
 ???
+
 * ~4
 * ~3
 * ~2
@@ -55,21 +60,23 @@ The command:
 $ git show 42ea31d^
 ```
 Gets the ??? of commit `42ea31d`.
+
 * parent
 * grandparent
 * child
 
 ---
 ## Quiz
+### how can you access the forth commit in this sequence?
+```
+Say you've got the following commit tree: A--B--C--D--E--HEAD.
+Which of the following refers to the commit labeled with D?
+```
 
-headline: how can you access the forth commit in this sequence?
+ ???
 
-question: |
-  Say you've got the following commit tree: A--B--C--D--E--HEAD.
-  Which of the following refers to the commit labeled with D?
+* HEAD~~
+* HEAD^2
+* HEAD^1
+* HEAD~1
 
-answers:
-  - HEAD~~
-  - HEAD^2
-  - HEAD^1
-  - HEAD~1

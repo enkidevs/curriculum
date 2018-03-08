@@ -1,4 +1,4 @@
-# Some common terminology
+---
 author: catalin
 
 levels:
@@ -7,17 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [help.github.com](https://help.github.com/articles/github-glossary/){website}
+  - '[help.github.com](https://help.github.com/articles/github-glossary/){website}'
+
 
 ---
 ## Content
+# Some common terminology
 
 It's of upmost importance to understand the common terminology in **Git** in order to fully grasp how it works.
 
@@ -58,19 +60,9 @@ What other name does the **staging area** have?
 
 ???
 
-*index
-*HEAD
-*tag
-*stage
 
----
-## Revision
+* index
+* HEAD
+* tag
+* stage
 
-What is the **HEAD** ?
-
-???
-
-* A reference to the last commit of the current branch
-* A different version of the repository
-* The place where the work is stored until a commit is made
-* A pointer to o specific commit

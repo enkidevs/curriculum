@@ -1,4 +1,4 @@
-# Solving basic merge conflicts
+---
 author: rosielowther
 
 levels:
@@ -9,8 +9,12 @@ type: normal
 
 category: must-know
 
+
+
+
 ---
 ## Content
+# Solving basic merge conflicts
 
 Merge conflicts occur when the same part of the code has been modified in both branches.
 
@@ -50,6 +54,7 @@ console.log(b);
 
 $ git ??? testing.js
 ```
+
 * `merge`
 * `add`
 * `rm`
@@ -62,8 +67,10 @@ How do you mark a merge conflict as resolved?
 ```
 $ git ???
 ```
+
 * `add`
 * `merge`
 * `rm`
 * `branch`
 * `commit`
+

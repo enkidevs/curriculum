@@ -1,4 +1,4 @@
-# General **GitHub** workflow
+---
 author: catalin
 
 levels:
@@ -9,14 +9,16 @@ type: normal
 
 category: how to
 
-parent: git-hub
 
 links:
 
   - '[guides.github.com](https://guides.github.com/introduction/flow/){website}'
 
+parent: git-hub
+
 ---
 ## Content
+# General **GitHub** workflow
 
 **GitHub** enhanced **Git**'s collaboration capability with the `pull request`, providing a *GUI* way to generate a 'patch'.
 
@@ -42,10 +44,10 @@ Is the concept of **pull requests** only used in *GitHub*?
 
 ???
 
-*`no`
-*`yes`
+
+* `no`
+* `yes`
 
 ---
 ## Footnotes
-
 [1:pull request] This occurs automatically when you are **not** a listed 'contributor' on the repository

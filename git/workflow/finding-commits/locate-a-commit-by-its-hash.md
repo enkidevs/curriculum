@@ -1,4 +1,4 @@
-# Locate a commit by its hash
+---
 author: rosielowther
 
 levels:
@@ -11,8 +11,12 @@ type: normal
 
 category: must-know
 
+
+
+
 ---
 ## Content
+# Locate a commit by its hash
 
 To identify a commit, git only requires the user to specify the first four characters of the hash (checksum), although it is generally better to use at least seven characters.
 
@@ -38,11 +42,12 @@ Run the command to find out the unique abbreviation of a checksum :
 $ git ??? ???
       ???=???
 ```
-*`log`
-*`--abbrev-commit`
-*`--pretty`
-*`oneline`
-*`show`
+
+* `log`
+* `--abbrev-commit`
+* `--pretty`
+* `oneline`
+* `show`
 
 ---
 ## Revision
@@ -55,5 +60,7 @@ d921970aadf03b3cf0e71becdaab3147ba71cdef
 ```
 $ git show d921970
 ```
-*will
-*will not
+
+* will
+* will not
+

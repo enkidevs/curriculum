@@ -1,4 +1,4 @@
-# Custom colour options
+---
 author: rosielowther
 
 levels:
@@ -9,13 +9,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration){website}'
+
 
 ---
 ## Content
+# Custom colour options
 
 You can change the default colour options for the console text.
 
@@ -36,16 +38,19 @@ Change the color for `diff.meta` to be *blue*, *black* and *bold*
 $ git ??? ??? 
       ??? ???
 ```
-*`config`
-*`--global`
-*`color.diff.meta`
-*`”blue black bold”`
-*`”blue, black, bold”`
+
+* `config`
+* `--global`
+* `color.diff.meta`
+* `”blue black bold”`
+* `”blue, black, bold”`
 
 ---
 ## Revision
 
 A customisable `color.` option is ??? .
-*interactive.*
-*git.*
-*sources.*
+
+* interactive.*
+* git.*
+* sources.*
+

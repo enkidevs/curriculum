@@ -1,4 +1,4 @@
-# Logging
+---
 author: catalin
 
 levels:
@@ -9,8 +9,12 @@ type: normal
 
 category: how to
 
+
+
+
 ---
 ## Content
+# Logging
 
 To explore your project's history, **Git** provides a logging tool as the `git log` command:
 ```
@@ -62,16 +66,17 @@ Log 5 commits:
 ```
 $ git ??? ??? ???
 ```
-*`log`
-*`-n`
-*`5`
-*`--stat`
-*`--show`
-*`--commits`
-*`all`
-*`just`
-*`show`
-*`status`
+
+* `log`
+* `-n`
+* `5`
+* `--stat`
+* `--show`
+* `--commits`
+* `all`
+* `just`
+* `show`
+* `status`
 
 ---
 ## Revision
@@ -82,8 +87,10 @@ What flag of `git log` would you use to show commits on one line?
 $ git log ???
 ```
 
-*`--oneline`
-*`one`
-*`-o`
-*`--pretty`
-*`-n`
+
+* `--oneline`
+* `one`
+* `-o`
+* `--pretty`
+* `-n`
+
