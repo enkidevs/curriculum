@@ -1,4 +1,4 @@
-# Spreads Practice
+# JS Practice Spreads
 author: milesflo
 
 levels:
