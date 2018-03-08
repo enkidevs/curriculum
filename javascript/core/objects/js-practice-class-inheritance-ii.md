@@ -1,4 +1,4 @@
-# Class Inheritance Practice 2
+# JS Practice Class Inheritance 2
 author: milesflo
 
 levels:

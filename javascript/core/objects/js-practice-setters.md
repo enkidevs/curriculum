@@ -1,4 +1,4 @@
-# Class `setters` Practice
+# JS Practice `setters`
 author: milesflo
 
 levels:

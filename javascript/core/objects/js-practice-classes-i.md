@@ -1,4 +1,4 @@
-# Basic Classes Practice 1
+# JS Practice Classes 1
 author: milesflo
 
 levels:

@@ -1,4 +1,4 @@
-# Class `getters` Practice
+# JS Practice `getters`
 author: milesflo
 
 levels:
