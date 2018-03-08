@@ -1,4 +1,4 @@
-# Promises
+# JS Practice Promises
 author: milesflo
 
 levels:

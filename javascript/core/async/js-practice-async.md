@@ -1,4 +1,4 @@
-# Async
+# JS Practice Async
 author: milesflo
 
 levels:

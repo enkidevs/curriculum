@@ -1,4 +1,4 @@
-# Event Loop
+# JS Practice Event Loop
 author: milesflo
 
 levels:

@@ -1,4 +1,4 @@
-# `async/await`
+# JS Practice `async/await`
 author: milesflo
 
 levels:
