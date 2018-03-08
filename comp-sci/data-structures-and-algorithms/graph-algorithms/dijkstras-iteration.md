@@ -57,7 +57,7 @@ Which distances have been updated after the first iteration of the algorithm is 
  A -- B
 8|  /3     
  | /     
- C --- D
+ C -- D
     2  
 ```
 ???
