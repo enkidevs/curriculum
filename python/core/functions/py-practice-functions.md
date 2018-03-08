@@ -28,15 +28,3 @@ standards:
 
 ### Question
 Practice python `functions`.
-
----
-## Exercises
-codewars-link: https://www.codewars.com/kata/a-function-within-a-function
-standards:
-  py.functions.0: 1000
-  py.functions.1: 2000
-  py.functions.3: 3000
-  py.control-structures.4: 3000
-
-### Question
-Practice python `functions`.
