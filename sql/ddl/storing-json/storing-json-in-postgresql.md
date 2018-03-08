@@ -1,4 +1,4 @@
-# Storing JSON in PostgreSQL
+---
 author: mihaiberq
 
 levels:
@@ -12,12 +12,19 @@ type: normal
 category: must-know
 
 tags:
+
   - introduction
+
   - workout
+
   - deep
+
+
+
 
 ---
 ## Content
+# Storing JSON in PostgreSQL
 
 In PostgreSQL, there are two possible ways of storing JSON objects:
 - `json`: stores an exact copy of the string, which is reparsed for every query targeting it
@@ -70,6 +77,7 @@ Querying the JSON `pokemon` field in a PostgreSQL database, select all Pokémon 
 ??? poke_json ???
 ??? ??? '{"has_evolution": ???}';
 ```
+
 * `SELECT`
 * `FROM`
 * `WHERE`
@@ -86,8 +94,10 @@ PostgreSQL's operator for JSON parsing is
 
 ???
 
+
 * `@>`
 * `->`
 * `->>`
 * `@`
 * `JSON_VALUE`
+

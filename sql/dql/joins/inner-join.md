@@ -1,4 +1,4 @@
-# INNER JOIN
+---
 author: mihaiberq
 
 levels:
@@ -13,21 +13,26 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+tags:
+
+  - introduction
+
+  - workout
+
+
+links:
+
+  - '[Inner join](https://en.wikipedia.org/wiki/Join_(SQL)#Inner_join){website}'
 
 parent: avg-clause
 
-links:
-  - '[Inner join](https://en.wikipedia.org/wiki/Join_(SQL)#Inner_join)'
-
-tags:
-   - introduction
-   - workout
-
 ---
 ## Content
+# INNER JOIN
 
 The `JOIN` clauses combine multiple columns from one or more **related tables**, creating a new set of data. Joins are a core part of SQL as their existence promotes data singularity.
 
@@ -91,13 +96,6 @@ An *INNER JOIN* is a type of join that only returns rows for which the joined fi
 There were a total of `191` rows returned by the query versus `251` abilities and `191` text effects.
 
 ---
-## Footnotes
-
-[1: Ability]
-A Pokémon's ability is an aura that is passively active and provides benefits to the Pokemon and, sometimes, its party.
-
-
----
 ## Practice
 
 Fill in the blanks such that the following snippet contains a valid JOIN operations:
@@ -110,13 +108,13 @@ Fill in the blanks such that the following snippet contains a valid JOIN operati
 ??? = item_effect_text.item_id;
 ```
 
+
 * `SELECT`
 * `FROM`
 * `INNER JOIN`
 * `item_effect_text`
 * `ON`
 * `item.id`
-
 
 ---
 ## Revision
@@ -125,6 +123,7 @@ What's the sets theory equivalent of `INNER JOIN`?
 
 ???
 
+
 * intersection
 * union
 * difference
@@ -132,28 +131,21 @@ What's the sets theory equivalent of `INNER JOIN`?
 
 ---
 ## Quiz
+### Can you filter one table based on data in another table in SQL?
+```
 
-headline: Can you filter one table based on data in another table in SQL?
+Consider `pokemon` and `pokemon_species` tables. The first one has two columns `height` and `weight`. The latter has a boolean valued column `is_baby`. Select the query that will get the name, height and width of
+all pokemons that are babies:
+```
 
-question: |
+ ???
 
-  Consider `pokemon` and `pokemon_species` tables. The first one has two columns `height` and `weight`. The latter has a boolean valued column `is_baby`. Select the query that will get the name, height and width of
-  all pokemons that are babies:
+* SELECT pokemon_species.name,pokemon.height,pokemon.weight FROM pokemon INNER JOIN pokemon_species ON pokemon.pokemon_species_id = pokemon_species.id WHERE pokemon_species.is_baby='t';
+* SELECT pokemon.name,pokemon.height,pokemon.weight FROM pokemon LEFT JOIN pokemon_species ON pokemon.pokemon_species_id = pokemon_species.id WHERE pokemon_species.is_baby='t';
+* SELECT pokemon.name,pokemon.height,pokemon.weight FROM pokemon RIGHT JOIN pokemon_species ON pokemon.pokemon_species_id = pokemon_species.id WHERE pokemon_species.is_baby='t';
+* SELECT pokemon.name,pokemon.height,pokemon.weight FROM pokemon INNER JOIN pokemon_species ON pokemon.pokemon_species_id = pokemon_species.id WHERE pokemon_species.is_baby='f';
 
-answers:
-  - SELECT pokemon_species.name,pokemon.height,pokemon.weight
-    FROM pokemon INNER JOIN pokemon_species
-    ON pokemon.pokemon_species_id = pokemon_species.id
-    WHERE pokemon_species.is_baby='t';
-  - SELECT pokemon.name,pokemon.height,pokemon.weight
-    FROM pokemon LEFT JOIN pokemon_species
-    ON pokemon.pokemon_species_id = pokemon_species.id
-    WHERE pokemon_species.is_baby='t';
-  - SELECT pokemon.name,pokemon.height,pokemon.weight
-    FROM pokemon RIGHT JOIN pokemon_species
-    ON pokemon.pokemon_species_id = pokemon_species.id
-    WHERE pokemon_species.is_baby='t';
-  - SELECT pokemon.name,pokemon.height,pokemon.weight
-    FROM pokemon INNER JOIN pokemon_species
-    ON pokemon.pokemon_species_id = pokemon_species.id
-    WHERE pokemon_species.is_baby='f';
+---
+## Footnotes
+[1: Ability]
+A Pokémon's ability is an aura that is passively active and provides benefits to the Pokemon and, sometimes, its party.

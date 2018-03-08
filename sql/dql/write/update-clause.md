@@ -1,4 +1,4 @@
-# Update clause
+---
 author: SebaRaba
 
 levels:
@@ -16,15 +16,20 @@ category: must-know
 inAlgoPool: false
 
 tags:
+
   - introduction
+
   - workout
+
 
 links:
 
-  - '[More on UPDATE](http://www.dofactory.com/sql/update)'
+  - '[More on UPDATE](http://www.dofactory.com/sql/update){website}'
+
 
 ---
 ## Content
+# Update clause
 
 The `UPDATE` clause enables user to modify existing rows in the database. It is often used with the `WHERE` clause to conditionally update data.
 
@@ -123,6 +128,7 @@ WHERE id=???;
 ```
 We would like to update the table contents such that the last generation is generation "vi" instead of "vii".
 
+
 * UPDATE
 * name
 * 6
@@ -152,9 +158,11 @@ id |    name
 ```
 We want to update the table such that all genders will be neutral.
 
+
 * UPDATE
 * SET
 * neutral
 * WHERE
 * DELETE
 * CHANGE
+

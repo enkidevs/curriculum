@@ -1,4 +1,4 @@
-# Distinct clause
+---
 author: SebaRaba
 
 levels:
@@ -18,14 +18,18 @@ category: must-know
 inAlgoPool: false
 
 tags:
+
   - workout
+
 
 links:
 
-  - '[More on DISTINCT](https://www.tutorialspoint.com/sql/sql-distinct-keyword.htm)'
+  - '[More on DISTINCT](https://www.tutorialspoint.com/sql/sql-distinct-keyword.htm){website}'
+
 
 ---
 ## Content
+# Distinct clause
 
 The `DISTINCT` keyword enables users to filter the duplicates that result after doing a `SELECT` query.
 
@@ -76,6 +80,7 @@ count
 (1 row)
 ```
 
+
 * SELECT COUNT(DISTINCT name) FROM pokedex_name;
 * SELECT * FROM pokedex_name;
 * SELECT DISTINCT COUNT(name) FROM pokedex_name;
@@ -102,8 +107,10 @@ FROM ???
 ??? BY GRADES;
 ```
 
+
 * `DISTINCT name`
 * `GRADES`
 * `ORDER`
 * `EMPLOYEES`
 * `*`
+

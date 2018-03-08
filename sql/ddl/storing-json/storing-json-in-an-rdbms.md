@@ -1,4 +1,4 @@
-# Storing JSON in an RDBMS
+---
 author: mihaiberq
 
 levels:
@@ -12,12 +12,19 @@ type: normal
 category: must-know
 
 tags:
+
   - introduction
+
   - workout
+
   - deep
+
+
+
 
 ---
 ## Content
+# Storing JSON in an RDBMS
 
 **JSON**, or JavaScript Object Notation, is a string that has a semantic value. A JSON object looks like this:
 ```JSON
@@ -42,12 +49,6 @@ As you can see, a JSON object looks very much like a table entry on its own[1]. 
 While JSON isn't a RDBMS standardized type, vendors took their liberty to implement their own way of dealing with it. But the lack of specifications comes with a cost: big differences in how storing, querying and updating work from vendor to vendor.
 
 There is, however, a common requirement: tables to include JSON fields must use `UTF-8` encoding, regardless of the SQL implementation.
-
----
-## Footnotes
-
-[1:NoSQL]
-Because of JSON's versatility and popularity of JavaScript, a new type of database had been created to better match the needs of developers. They are called NoSQL (non-SQL or non-relational) databases.
 
 ---
 ## Practice
@@ -75,6 +76,7 @@ Which of the following JSON objects is valid?
 ```
 ???
 
+
 * C
 * A
 * B
@@ -86,7 +88,13 @@ While storing JSON data is possible in most relational databases, the ones that 
 
 ???
 
+
 * NoSQL databases
 * PostgreSQL databases
 * MySQL databases
 * SQL Server databases
+
+---
+## Footnotes
+[1:NoSQL]
+Because of JSON's versatility and popularity of JavaScript, a new type of database had been created to better match the needs of developers. They are called NoSQL (non-SQL or non-relational) databases.

@@ -1,4 +1,4 @@
-# Group By clause
+---
 author: SebaRaba
 
 levels:
@@ -21,12 +21,15 @@ tags:
 
   - workout
 
+
 links:
 
-  - '[More on GROUP BY](https://www.techonthenet.com/sql/group_by.php)'
+  - '[More on GROUP BY](https://www.techonthenet.com/sql/group_by.php){website}'
+
 
 ---
 ## Content
+# Group By clause
 
 The `GROUP BY` clause is often used with aggregate functions (e.g. `SUM`, `AVG`). Syntactically it comes after the `WHERE` clause and before the `ORDER BY` in the *query*. It enables users to group data by one or more columns.
 
@@ -55,6 +58,7 @@ count | language_id
 (7 rows)
 
 ```
+
 ---
 ## Practice
 
@@ -74,6 +78,7 @@ count | is_default
   721 | t
 (2 rows)
 ```
+
 
 * COUNT
 * is_default
@@ -118,9 +123,11 @@ avg      | item_category_id
 
 ```
 
+
 * AVG
 * item
 * GROUP BY
 * SUM
 * ORDER BY
 * GROUP
+

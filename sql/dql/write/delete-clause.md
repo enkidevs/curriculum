@@ -1,4 +1,4 @@
-# Delete clause
+---
 author: SebaRaba
 
 levels:
@@ -16,15 +16,20 @@ category: must-know
 inAlgoPool: false
 
 tags:
+
   - introduction
+
   - workout
+
 
 links:
 
-  - '[More on DELETE](http://www.dofactory.com/sql/delete)'
+  - '[More on DELETE](http://www.dofactory.com/sql/delete){website}'
+
 
 ---
 ## Content
+# Delete clause
 
 The `DELETE` clause enables users to delete data from a table. We can specify which rows to delete using the `WHERE` clause, otherwise all records will be deleted.
 
@@ -81,7 +86,6 @@ If we wanted to delete all data in this table:
 DELETE FROM egg_group;
 ```
 
-
 ---
 ## Practice
 
@@ -110,6 +114,7 @@ id |     name
 ??? FROM egg_group
 WHERE id ??? 1 and 5;
 ```
+
 
 * DELETE
 * between
@@ -143,6 +148,8 @@ id |     name
 ```
 ???
 
+
 * DELETE FROM egg_group WHERE id= 15;
 * UPDATE egg_group DELETE WHERE id=15;
 * DELETE FROM egg_group;
+

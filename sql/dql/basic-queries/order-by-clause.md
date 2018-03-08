@@ -1,4 +1,4 @@
-# Order By clause
+---
 author: SebaRaba
 
 levels:
@@ -16,15 +16,20 @@ category: must-know
 inAlgoPool: false
 
 tags:
+
   - introduction
+
   - workout
+
 
 links:
 
-  - '[More on ORDER BY](http://www.dofactory.com/sql/order-by)'
+  - '[More on ORDER BY](http://www.dofactory.com/sql/order-by){website}'
+
 
 ---
 ## Content
+# Order By clause
 
 `ORDER BY` clause enables users to order data in ascending or descending order on one or more columns. It comes after `GROUP BY` clause.
 
@@ -94,6 +99,7 @@ count | language_id
 (7 rows)
 ```
 
+
 * COUNT
 * nature_name
 * ORDER BY
@@ -126,6 +132,7 @@ count | region_id
 
 ```
 
+
 * COUNT
 * GROUP BY
 * count
@@ -135,25 +142,14 @@ count | region_id
 
 ---
 ## Quiz
+### Can you order a table with SQL?
+```
 
-headline: Can you order a table with SQL?
+Consider the `experience` table from our pokemon database:
 
-question: |
+id  | level | experience | growth_rate_id
+```
 
-  Consider the `experience` table from our pokemon database:
+ ???
 
-  id  | level | experience | growth_rate_id
-  ----|-------|------------|----------------
-    1 |     1 |          0 |              1
-    2 |     2 |         10 |              1
-    3 |     3 |         33 |              1
-    4 |     4 |         80 |              1
-    (...)
 
-  This table shows how much experience you need to gain in order to get to level 100 based on different growth rates. Choose the query that will get all records that have level 100 and orders them descending on the amount of experience needed:
-
-answers:
-  - SELECT * FROM experience WHERE level=100 ORDER BY experience DESC;
-  - SELECT * FROM experience WHERE level=100 ORDER BY growth_rate_id DESC;
-  - SELECT * FROM experience WHERE level=100 DESC ORDER BY experience;
-  - SELECT * FROM experience WHERE level=100 ORDER DESC BY experience;

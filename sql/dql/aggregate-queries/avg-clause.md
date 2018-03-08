@@ -1,4 +1,4 @@
-# AVG clause
+---
 author: SebaRaba
 
 levels:
@@ -18,14 +18,18 @@ category: must-know
 inAlgoPool: false
 
 tags:
+
   - workout
+
 
 links:
 
-  - '[More on AVG clause](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql)'
+  - '[More on AVG clause](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql){website}'
+
 
 ---
 ## Content
+# AVG clause
 
 `AVG` returns the average numerical value of a given column.
 
@@ -64,6 +68,7 @@ SELECT ???(???)
 LIMIT ???
 ```
 
+
 * AVG
 * cost
 * FROM
@@ -97,13 +102,13 @@ id  | first_move | second_move
 (1 row)
 ```
 
+
 * SELECT AVG(second_move) FROM contest_combo;
 * SELECT SUM(second_move) FROM contest_combo;
 * SELECT AVG(first_move) FROM contest_combo;
 
 ---
 ## Footnotes
-
 [1:Pokemon Db]
 We will use the same segment of "experience" table for all aggregate functions:
 ```

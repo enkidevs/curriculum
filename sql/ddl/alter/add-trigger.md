@@ -1,4 +1,4 @@
-# Add Trigger
+---
 author: SebaRaba
 
 levels:
@@ -17,16 +17,21 @@ category: must-know
 
 inAlgoPool: false
 
+tags:
+
+  - workout
+
+  - deep
+
+
 links:
 
-  - '[More on CREATE TRIGGER](https://www.codeproject.com/Articles/25600/Triggers-SQL-Server)'
+  - '[More on CREATE TRIGGER](https://www.codeproject.com/Articles/25600/Triggers-SQL-Server){website}'
 
-tags:
-  - workout
-  - deep
 
 ---
 ## Content
+# Add Trigger
 
 Triggers are defined to let the computer now it has to run a certain set of actions when an event happens. Usually this events mean executing: `UPDATE`, `INSERT` and `DELETE` statements. Basically it's a database object that is bound to a table and executes automatically. Types of triggers:
 - After triggers
@@ -62,7 +67,6 @@ GO;
 
 This time we say: If we update table "db_name.table_name", then update "another_table" instead.
 
-
 ---
 ## Revision
 
@@ -79,6 +83,7 @@ AS BEGIN
 GO;
 ```
 
+
 * CREATE TRIGGER
 * UPDATE
 * name_backup
@@ -87,3 +92,4 @@ GO;
 * name
 * region_id
 * INSERT
+
