@@ -24,41 +24,6 @@ links:
 
 ---
 ## Exercises
-codewars-link: https://www.codewars.com/kata/a-function-within-a-function
-standards:
-  py.functions.0: 1000
-  py.functions.1: 2000
-  py.functions.3: 3000
-  py.control-structures.4: 3000
-
-### Question
-Practice python `functions`.
-
----
-## Exercises
-codewars-link: https://www.codewars.com/kata/number-of-people-in-the-bus
-standards:
-  py.functions.0: 1000
-  py.functions.1: 2000
-  py.functions.3: 3000
-
-### Question
-Practice python `functions`.
-
----
-## Exercises
-codewars-link: https://www.codewars.com/kata/digital-cypher
-standards:
-  py.functions.0: 1000
-  py.functions.1: 2000
-  py.functions.2: 3000
-  py.functions.3: 3000  
-
-### Question
-Solve ciphers and train your skills with python `functions`.
-
----
-## Exercises
 codewars-link: https://www.codewars.com/kata/sum-of-pairs
 standards:
   py.functions.0: 1000
