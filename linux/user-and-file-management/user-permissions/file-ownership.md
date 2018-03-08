@@ -35,10 +35,29 @@ Here is some example output:
 
 ```console
 $ ls -ld /var/log
-drwxrwxr-x 10 root syslog 
+drwxrwxr-x 10 root syslog
     4096 Jun 13 06:25 /var/log
 $ ls -l /var/log/syslog
--rw-r
+-rw-r--r-- 1 syslog adm
+    98 Jun 13 07:17 /var/log/syslog
+$
+```
+
+The string `drwxrwxr-x` describes the user and group permissions for the `/var/log` directory, which we'll outline briefly below.  The directory itself is owned by the user `root` and the group `syslog`.
+
+Likewise, `-rw-r--r--` describes the file permissions on `/var/log/syslog`, which is owned by the *user* `syslog` and the group `adm`.
+
+### Understanding Permission Strings
+
+To understand the permission string `drwxrwxr-x` it helps to break it apart like so:
+
+```text
+d|rwx|rwx|r-x
+```
+
+The `d` signifies that we're looking at a directory.  The first `rwx` signifies that the *user* who owns this directory has read, write, and execute permissions.  The second `rwx` signifies that any user in the `syslog` group also has read, write, and execute permissions.  The final `r-x` signifies that every other user on the system has read permission and execute permission, but *not* write permission.
+
+For directories, the execute permission allows users to use `cd` to change into the directory, the read permission allows users to list the files in the directory, and the write permission allows users to create, rename, or delete files in the directory.
 
 ---
 ## Practice
@@ -49,7 +68,7 @@ $ ls -l schedule.txt
   -r-xr-xr-- 10 student students
      436 Jul 15 13:21 ~/schedule.txt
 ```
-Who has the fewest permissions for this file? 
+Who has the fewest permissions for this file?
 
 ???
 
