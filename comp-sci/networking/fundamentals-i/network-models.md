@@ -1,4 +1,4 @@
-# Network models
+---
 author: SebaRaba
 
 levels:
@@ -9,16 +9,16 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - 'http://what-when-how.com/data-communications-and-networking/network-models-data-communications-and-networking/'
-
-  - 'http://www.webopedia.com/quick_ref/OSI_Layers.asp'
+  - '[what-when-how.com](http://what-when-how.com/data-communications-and-networking/network-models-data-communications-and-networking/){website}'
+  - '[www.webopedia.com](http://www.webopedia.com/quick_ref/OSI_Layers.asp){website}'
 
 parent: types-of-networks
-
 ---
 ## Content
+# Network models
 
 In order to ease the *complexity* of networking engineering, the **networking communication** concept was divided into multiple **layers**.
 
@@ -68,6 +68,7 @@ Which of the following layers of the **Internet model** is responsible for addre
 
 ???
 
+
 * Internet
 * Transport
 * Application
@@ -80,9 +81,11 @@ Which of the following layers of the **OSI model** handles the routing of data?
 
 ???
 
+
 * Network
 * Transport
 * Application
 * Internet
 * Session
 * Presentation
+

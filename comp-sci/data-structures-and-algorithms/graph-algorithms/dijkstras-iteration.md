@@ -1,21 +1,26 @@
-# Dijkstra's Algorithm Iteration
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
-parent: dijkstras-algorithm
 
+
+parent: dijkstras-algorithm
 ---
 ## Content
+# Dijkstra's Algorithm Iteration
 
 Consider the following undirected, weighted graph, for which **A** is the initial node:
 
@@ -48,6 +53,7 @@ AC = 5
 AD = 8
 AE = 10
 ```
+
 ---
 ## Practice
 
@@ -61,6 +67,7 @@ Which distances have been updated after the first iteration of the algorithm is 
     2  
 ```
 ???
+
 * `BA=6/BC=3`
 * `BA=8/BC=3`
 * `CD=inf/BD=inf`
@@ -72,14 +79,13 @@ Which distances have been updated after the first iteration of the algorithm is 
 One of the initial steps in applying Dijkstra's algorithm is
 
 ???
+
 * assigning a start node.
 * assigning an end node.
 * calculating the final distances between nodes.
 * marking all nodes as visited.
 
-
 ---
 ## Footnotes
-
 [1:Paths]
 If there is a path between A and C and one between C and, say, X, it means that there is also a path between A and X.

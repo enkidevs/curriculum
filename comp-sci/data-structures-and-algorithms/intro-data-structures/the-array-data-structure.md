@@ -1,4 +1,4 @@
-# The Array Data Structure
+---
 author: mihaiberq
 
 levels:
@@ -9,13 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
-    - >-
-        [What is an array?](http://www.bbc.co.uk/education/guides/z4tf9j6/revision/2){website}
+
+  - '[What is an array?](http://www.bbc.co.uk/education/guides/z4tf9j6/revision/2){website}'
 
 parent: what-is-a-data-structure
 ---
 ## Content
+# The Array Data Structure
 
 An **array** is a data structure organized as a collection of elements, for which **indexes** are used to access its content. The same information may appear in the array more than once, but under different indexes. This is how you could picture it:
 
@@ -69,17 +71,21 @@ myArray[0] = x;
 To access an element in an array, you would use:
 
 ???
+
 * indexes
 * promises
 * values
 * data structures
+
 ---
 ## Revision
 
 An array that has its size declared up-front it's called
 
 ???
+
 * static
 * dynamic
 * indexed
 * associative
+

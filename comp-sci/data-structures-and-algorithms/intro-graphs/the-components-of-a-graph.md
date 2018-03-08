@@ -1,4 +1,4 @@
-# The Components of a Graph
+---
 author: mihaiberq
 
 levels:
@@ -9,9 +9,12 @@ type: normal
 
 category: must-know
 
+
+
 parent: the-graph-data-structure
 ---
 ## Content
+# The Components of a Graph
 
 In a graph, a **path** is a sequence of vertices and edges , such that between two vertices in the path, there is an edge. In a *directed graph*, a **directed path** is a path such that all edges are directed and traversed along their direction. The path below is `[E, C, A, F]`:
 
@@ -51,13 +54,13 @@ If the graph is connected as well, it is called a **tree**. A **spanning tree** 
 
 Note: The notion of **tree** here is not related to the one of the *Tree Data Type* since it *does not need* to have a root.
 
-
 ---
 ## Practice
 
 Can a graph be a tree if it has more than one connected component?
 
 ???
+
 * No
 * Yes
 
@@ -67,7 +70,9 @@ Can a graph be a tree if it has more than one connected component?
 A subgraph of a graph is *spanning* if it contains
 
 ???.
+
 * all the nodes in the graph
 * all the edges in the graph
 * all the connected components of the graph
 * only the directed edges
+

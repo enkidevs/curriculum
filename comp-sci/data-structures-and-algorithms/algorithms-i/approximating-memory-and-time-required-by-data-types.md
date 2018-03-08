@@ -1,27 +1,30 @@
-# Approximating Memory and Time required by Data Types
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
 links:
-    - >-
-      [What is an algorithm?](http://www.bbc.co.uk/education/guides/z22wwmn/revision){website}
-    - >-
-      [The Big-O notation](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/){website}
+
+  - '[What is an algorithm?](http://www.bbc.co.uk/education/guides/z22wwmn/revision){website}'
+  - '[The Big-O notation](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/){website}'
 
 parent: node-height-and-depth
-
 ---
 ## Content
+# Approximating Memory and Time required by Data Types
 
 One of the main reasons of having multiple data structures is specialization. In the case of an *Array*, inserting an element requires all the elements to the right of the new one to be moved (**shifted**) one position.
 
@@ -63,6 +66,7 @@ For comparison, visiting every node in a linked list is also a linear operation 
 In an array, how many operations are required for the worst-case scenario deletion (removal of the element with index 0)?
 
 ???
+
 * n
 * 1
 * log n
@@ -74,6 +78,7 @@ In an array, how many operations are required for the worst-case scenario deleti
 Which of the following operations is bounded by the constant function?
 
 ???
+
 * LinkedList insertion
 * Array insertion
 * Array searching
@@ -81,7 +86,6 @@ Which of the following operations is bounded by the constant function?
 
 ---
 ## Footnotes
-
 [1:Big O]
 Pronounced Big-Oh.
 

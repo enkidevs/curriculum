@@ -1,4 +1,4 @@
-# Differences between bandwidth and throughput
+---
 author: catalin
 
 levels:
@@ -15,15 +15,16 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - 'http://www-users.cselabs.umn.edu/classes/Spring-2016/csci5221/Papers/Fundamentals_of_Internet_Measurement_A_Tutorial.pdf'
-  - 'http://www.cisconet.com/traffic-analysis/traffic-analysis-general/239-internet-speed-issue-throughput-vs-bandwidth.html'
+  - '[www-users.cselabs.umn.edu](http://www-users.cselabs.umn.edu/classes/Spring-2016/csci5221/Papers/Fundamentals_of_Internet_Measurement_A_Tutorial.pdf){website}'
+  - '[www.cisconet.com](http://www.cisconet.com/traffic-analysis/traffic-analysis-general/239-internet-speed-issue-throughput-vs-bandwidth.html){website}'
 
 parent: what-is-jitter
-
 ---
 ## Content
+# Differences between bandwidth and throughput
 
 Both `bandwidth`  and `throughput` are metrics used to describe the performance of data transfer over a network segment (a link from a point `A` to a point `B`).
 
@@ -42,17 +43,12 @@ These metrics are computed over a **single unit of time**, being expressed in bi
  Modern networks are much faster and therefore have their speed measured in millions of bits per second, megabits per second (`Mbps`) or in billions of bits per second, gigabits per second (`Gbps`).
 
 ---
-## Footnotes
-
-[1: ISP]
-Internet Service Provider.
-
----
 ## Practice
 
 Which of the following metric refers to the **maximum theoretical** speed data can move over a network link?
 
 ???
+
 
 
 * `bandwidth`
@@ -67,7 +63,13 @@ Which of the following metric refers to the **actual** speed data can move over 
 
 ???
 
+
 * `throughput`
 * `jitter`
 * `latency`
 * `bandwidth`
+
+---
+## Footnotes
+[1: ISP]
+Internet Service Provider.

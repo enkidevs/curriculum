@@ -1,4 +1,4 @@
-# What Is a Data Structure?
+---
 author: mihaiberq
 
 levels:
@@ -9,12 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
-    - >-
-        [What is a data structure?](http://www.bbc.co.uk/education/guides/z4tf9j6/revision/1){website}
+
+  - '[What is a data structure?](http://www.bbc.co.uk/education/guides/z4tf9j6/revision/1){website}'
+
 
 ---
 ## Content
+# What Is a Data Structure?
 
 A **data structure** is a particular pattern for organizing information in order to make interacting with that information in the ways we want less expensive.
 
@@ -34,14 +37,15 @@ We might describe the respective *pattern* of information in these two lists as 
 
 Later on, you will be able to distinguish what data structure each example represents and how to use it efficiently.
 
-
 ---
 ## Revision
 
 What is a data structure?
 
 ???
+
 * A pattern for organizing information.
 * A pattern for sorting information.
 * A pattern for inserting information.
 * An array of information.
+

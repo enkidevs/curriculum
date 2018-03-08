@@ -1,4 +1,4 @@
-# Client error status codes
+---
 author: catalin
 
 levels:
@@ -15,21 +15,18 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - 'https://www.lifewire.com/http-error-and-status-codes-explained-817986'
-
-  - 'https://www.digitalocean.com/community/tutorials/how-to-troubleshoot-common-http-error-codes'
-
-  - 'https://www.tutorialspoint.com/http/http_status_codes.htm'
-
-  - 'https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html'
-
+  - '[www.lifewire.com](https://www.lifewire.com/http-error-and-status-codes-explained-817986){website}'
+  - '[www.digitalocean.com](https://www.digitalocean.com/community/tutorials/how-to-troubleshoot-common-http-error-codes){website}'
+  - '[www.tutorialspoint.com](https://www.tutorialspoint.com/http/http_status_codes.htm){website}'
+  - '[www.w3.org](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html){website}'
 
 parent: redirection-status-codes
-
 ---
 ## Content
+# Client error status codes
 
 **Client error status codes** mean there has been an error in the request, made by the client.
 
@@ -48,19 +45,12 @@ Other such codes are:
 - `405` **Method Not Allowed** - the client used the wrong HTTP verb for a particular resource (`GET` to send a completed form instead of `POST`)
 
 ---
-## Footnotes
-
-[1: Platform specific responses]
-As different servers have different structure, the requests have to fit them. The software vendors were therefore required to  develop such responses to guide users.
-
-Some platforms that implemented them are: Twitter, Microsoft or Nginx.
-
----
 ## Practice
 
 A client error code will be returned in case of a request
 
 ???
+
 
 * trying to access an invalid resource
 * being processed successfully
@@ -74,7 +64,15 @@ The `Unauthorized` response has a status code of
 
 ???
 
+
 * 401
 * 400
 * 404
 * 418
+
+---
+## Footnotes
+[1: Platform specific responses]
+As different servers have different structure, the requests have to fit them. The software vendors were therefore required to  develop such responses to guide users.
+
+Some platforms that implemented them are: Twitter, Microsoft or Nginx.

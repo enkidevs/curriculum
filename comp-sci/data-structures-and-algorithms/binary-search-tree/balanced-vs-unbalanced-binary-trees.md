@@ -1,24 +1,29 @@
-# Balanced vs. Unbalanced Binary Trees
+---
 author: jfarmer
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
 links:
-    - >-
-        [Why is it safer to keep the tree balanced?](http://stackoverflow.com/questions/8015630/definition-of-a-balanced-tree){website}
+
+  - '[Why is it safer to keep the tree balanced?](http://stackoverflow.com/questions/8015630/definition-of-a-balanced-tree){website}'
 
 parent: removing-keys-from-a-binary-search-tree
 ---
 ## Content
+# Balanced vs. Unbalanced Binary Trees
 
 A binary tree is called *balanced* if every leaf node is not more than a certain distance away from the root than any other leaf.  That is, if we take any two leaf nodes (including empty nodes), the distance between each node and the root is approximately the same.  In most cases "approximately the same" means the distance between the leaf and the root is not greater than 1, but the exact number can vary from application to application.
 
@@ -43,6 +48,7 @@ Solving this problem and guaranteeing that the tree remains more-or-less balance
 Which of the following data structures is a type of *maximally-unbalanced* binary tree?
 
 ???
+
 * Ordered linked list
 * Ordered array
 * Weighted graph
@@ -50,7 +56,6 @@ Which of the following data structures is a type of *maximally-unbalanced* binar
 
 ---
 ## Footnotes
-
 [1: AVL tree]
 Self-balancing binary search tree, in which the height of the two child subtrees of any node differ by at most one.
 

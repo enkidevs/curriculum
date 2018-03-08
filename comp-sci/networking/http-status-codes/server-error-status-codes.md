@@ -1,24 +1,26 @@
-# Server error status codes
+---
 author: SebaRaba
 
 levels:
 
-- beginner
+  - beginner
 
-- basic
+  - basic
 
-- medium
+  - medium
 
-- advanced
+  - advanced
 
 type: normal
 
 category: must-know
 
-parent: client-error-status-codes
 
+
+parent: client-error-status-codes
 ---
 ## Content
+# Server error status codes
 
 When processing *HTTP requests*, problems can occur not only on the client side, but also on the server side. In such cases, if possible, **server-error status codes** are returned.
 
@@ -40,6 +42,7 @@ In case of an unexpected factor preventing the server from completing the reques
 
 ???
 
+
 * `500` **Internal Server Error**
 * `502` **Bad Gateway**
 * `504` **Gateway Timeout**
@@ -51,6 +54,8 @@ What status code should the server return if it is unable to process the request
 
 ???
 
+
 * `503` **Service Unavailable**
 * `501` **Not Implemented**
 * `504` **Gateway Timeout**
+
