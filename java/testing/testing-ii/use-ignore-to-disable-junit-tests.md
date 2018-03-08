@@ -1,4 +1,4 @@
-# Use `@Ignore` to disable JUnit tests
+---
 author: adamMontgomerie
 
 levels:
@@ -15,16 +15,16 @@ tags:
 
   - testing
 
+
 links:
 
-  - >-
-    [javarevisited.blogspot.gr](http://javarevisited.blogspot.gr/2012/06/junit4-annotations-test-examples-and.html){website}
+  - '[javarevisited.blogspot.gr](http://javarevisited.blogspot.gr/2012/06/junit4-annotations-test-examples-and.html){website}'
+  - '[junit.sourceforge.net](http://junit.sourceforge.net/javadoc/org/junit/Ignore.html){website}'
 
-  - >-
-    [junit.sourceforge.net](http://junit.sourceforge.net/javadoc/org/junit/Ignore.html){website}
 
 ---
 ## Content
+# Use `@Ignore` to disable JUnit tests
 
 Sometimes it is appropriate to disable a test or set of tests. Perhaps the feature which is supposed to be tested has not yet been implemented.
 
@@ -38,3 +38,4 @@ public void exampleTest() { ... }
 ```
 @Ignore("Not yet implemeneted")
 ```
+

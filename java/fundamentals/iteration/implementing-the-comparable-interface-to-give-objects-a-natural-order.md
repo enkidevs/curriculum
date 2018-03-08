@@ -1,4 +1,4 @@
-# Implementing the `Comparable` interface to give objects a Natural Order
+---
 author: AlexBroadbent
 
 levels:
@@ -23,24 +23,19 @@ tags:
 
   - sort
 
-notes: >-
-  This may need to be shortened/simplified, this is a large topic but this
-  article just kind of skims the surface of what the Comparable interface can
-  do.
-
-
-  The link could be to a more user-friendly website, such as java-examples.com.
-
-
-  Static workout
 
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html){website}'
 
+notes: This may need to be shortened/simplified, this is a large topic but this article just kind of skims the surface of what the Comparable interface can do.
+
+The link could be to a more user-friendly website, such as java-examples.com.
+
+Static workout
 ---
 ## Content
+# Implementing the `Comparable` interface to give objects a Natural Order
 
 The `Comparable` interface imposes *natural ordering* on the objects of each class that implements it. It has one method, `compareTo`, which is referred to as its natural comparison method and also used to sort.
 
@@ -68,3 +63,4 @@ It is strongly recommended, but not strictly required that
 `(x.compareTo(y) == 0) == (x.equals(y))`
 
 Generally speaking, any class that implements the Comparable interface and violates this condition should clearly indicate this fact.
+

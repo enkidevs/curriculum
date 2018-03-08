@@ -1,4 +1,4 @@
-# Increase `PermGen` space as to avoid `OutOfMemory` errors
+---
 author: catalin
 
 levels:
@@ -11,16 +11,15 @@ type: normal
 
 category: tip
 
-notes: >-
-  https://insights.enki.com/#/contrib/others/55f05ce11baba32f002fd31c?search=khandelwalrinki
 
 links:
 
-  - >-
-    [confluence.atlassian.com](https://confluence.atlassian.com/display/CONFKB/How+to+fix+out+of+memory+errors+by+increasing+available+memory){website}
+  - '[confluence.atlassian.com](https://confluence.atlassian.com/display/CONFKB/How+to+fix+out+of+memory+errors+by+increasing+available+memory){website}'
 
+notes: https://insights.enki.com/#/contrib/others/55f05ce11baba32f002fd31c?search=khandelwalrinki
 ---
 ## Content
+# Increase `PermGen` space as to avoid `OutOfMemory` errors
 
 Java Virtual Machines are allocated a default of `64 MB` of memory. Bigger applications will of course require more memory.
 
@@ -53,7 +52,9 @@ Before Java 8, you could’ve increased `permGen` memory space to 256M with:
 ```
 $ ???
 ```
-*`java -XX:PermSize=256M` 
-*`java PermSize=256M` 
-*`PermSize=256M` 
-*`java :PermSize=256M`
+
+* `java -XX:PermSize=256M` 
+* `java PermSize=256M` 
+* `PermSize=256M` 
+* `java :PermSize=256M`
+

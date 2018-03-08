@@ -1,4 +1,4 @@
-# Restricting an annotation's application by using `@Target`
+---
 author: adamMontgomerie
 
 levels:
@@ -17,13 +17,15 @@ tags:
 
   - meta-annotations
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/annotations/predefined.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/annotations/predefined.html){website}'
+
 
 ---
 ## Content
+# Restricting an annotation's application by using `@Target`
 
 The type of element that an annotation can be applied to can be restricted using the `@Target` meta-annotation. 
 
@@ -53,12 +55,13 @@ Complete the standard definition of a restricted annotation:
   ???.ELEMENT_TYPE);
 ```
 
-*`Target` 
-*`ElementType` 
-*`Test` 
-*`Annotation` 
-*`Restrict` 
-*`ElementName`
+
+* `Target` 
+* `ElementType` 
+* `Test` 
+* `Annotation` 
+* `Restrict` 
+* `ElementName`
 
 ---
 ## Revision
@@ -71,7 +74,9 @@ Complete the standard definition of a restricted annotation using `@Target` :
 
 ```
 
-*`ElementType` 
-*`Constructor` 
-*`Element` 
-*`ElementName`
+
+* `ElementType` 
+* `Constructor` 
+* `Element` 
+* `ElementName`
+

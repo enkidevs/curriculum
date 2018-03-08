@@ -1,4 +1,4 @@
-# Use `Arrays.asList()` to initialise lists
+---
 author: adamMontgomerie
 
 levels:
@@ -17,13 +17,15 @@ tags:
 
   - collections
 
+
 links:
 
-  - >-
-    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=39){website}
+  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=39){website}'
+
 
 ---
 ## Content
+# Use `Arrays.asList()` to initialise lists
 
 Lists can be initialised concisely using `Arrays.asList()`. For example this:
 
@@ -50,13 +52,14 @@ List<String> enki =
    ???.???(
    “enki”, “is”, “cool” );
 ```
-*`Arrays` 
-*`asList` 
-*`Array` 
-*`List` 
-*`asArray` 
-*`asArrayList` 
-*`ArrayList`
+
+* `Arrays` 
+* `asList` 
+* `Array` 
+* `List` 
+* `asArray` 
+* `asArrayList` 
+* `ArrayList`
 
 ---
 ## Revision
@@ -67,10 +70,12 @@ List<String> myList =
    Arrays.???(
    “one”, “two”, “three” );
 ```
-*`asList` 
-*`ArrayList` 
-*`Array` 
-*`StringList` 
-*`List` 
-*`asArray` 
-*`asArrayList`
+
+* `asList` 
+* `ArrayList` 
+* `Array` 
+* `StringList` 
+* `List` 
+* `asArray` 
+* `asArrayList`
+

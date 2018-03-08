@@ -1,4 +1,4 @@
-# The distinction between overloading and overriding methods
+---
 author: adamMontgomerie
 
 levels:
@@ -21,16 +21,16 @@ tags:
 
   - overriding
 
+
 links:
 
-  - >-
-    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=119){website}
+  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=119){website}'
+  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=223){website}'
 
-  - >-
-    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=223){website}
 
 ---
 ## Content
+# The distinction between overloading and overriding methods
 
 In Java, methods can be both overloaded and overridden.
 - Overloading refers to creating two or more methods with the same names but a different number or type of parameters. For example:
@@ -65,9 +65,10 @@ What’s the name of the process where a method is redefined after being taken f
 
 ???
 
-*Overriding
-*Overloading
-*Inheriting
+
+* Overriding
+* Overloading
+* Inheriting
 
 ---
 ## Revision
@@ -78,7 +79,9 @@ void newField(String name);
 void newField(String name, String country);
 ```
 ???
-*Overloading
-*Overriding
-*Overcomplicating
-*Overwriting
+
+* Overloading
+* Overriding
+* Overcomplicating
+* Overwriting
+

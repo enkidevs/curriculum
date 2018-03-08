@@ -1,4 +1,4 @@
-# 'From' is included while 'to' is excluded
+---
 author: adamMontgomerie
 
 levels:
@@ -17,13 +17,15 @@ tags:
 
   - java-common-practises
 
+
 links:
 
-  - >-
-    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=214){website}
+  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=214){website}'
+
 
 ---
 ## Content
+# 'From' is included while 'to' is excluded
 
 As a convention, when specifying a range of values, the first value 'from' is included while the last value 'to' is excluded. 
 
@@ -33,3 +35,4 @@ So, `"Enki".substring(1,3);` will return `"nk"`. The character at 1; 'n' was inc
 
 This convention also applies in other areas of the JDK such as `List.sublist(from, to)` and 
 `Arrays.copyOfRange(T[], from, to)`.
+

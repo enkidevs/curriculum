@@ -1,4 +1,4 @@
-# The `Console` class
+---
 author: catalin
 
 levels:
@@ -11,15 +11,16 @@ type: normal
 
 category: feature
 
-notes: |
-  https://insights.enki.com/#/contrib/5597c334d07c503200b46e1a
 
 links:
 
   - '[www.javatpoint.com](http://www.javatpoint.com/Console-class){website}'
 
+notes: https://insights.enki.com/#/contrib/5597c334d07c503200b46e1a
+
 ---
 ## Content
+# The `Console` class
 
 The `Java.io.Console` class provides methods to access the character-based console device, if any, associated with the current *Java Virtual Machine*. This class is attached to the `System` console internally. 
 
@@ -47,7 +48,9 @@ Keep in mind that this class does not have a high level of security and it is mo
 ## Revision
 
 If you would want to read a password as input from the user, you could use ??? class.
-*Console
-*Scanner
-*BufferedReader
-*Input
+
+* Console
+* Scanner
+* BufferedReader
+* Input
+

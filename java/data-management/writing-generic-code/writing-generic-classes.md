@@ -1,4 +1,4 @@
-# Writing generic classes
+---
 author: adamMontgomerie
 
 levels:
@@ -17,13 +17,15 @@ tags:
 
   - generics
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/types.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/types.html){website}'
+
 
 ---
 ## Content
+# Writing generic classes
 
 The following class can accept and return any type of object. It cannot, however, accept primitive types.
 ```
@@ -56,3 +58,4 @@ Box<Integer> box1 = new Box<Integer>();
 //can be declared like this in Java 7+:
 Box<Integer> box2 = new Box<>();
 ```
+

@@ -1,4 +1,4 @@
-# Default constructors
+---
 author: adamMontgomerie
 
 levels:
@@ -19,13 +19,15 @@ tags:
 
   - constructors
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/super.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/super.html){website}'
+
 
 ---
 ## Content
+# Default constructors
 
 If there is no constructor explicitly defined in a subclass, the Java compiler will automatically add a no-argument constructor of its superclass. 
 
@@ -41,3 +43,4 @@ public void SubClass extends SuperClass {
 In the above example, the compiler will automatically insert `SuperClass`' constructor into `SubClass`.
 
 If `SuperClass` had no constructor, then there would be an error. Note that the `Object` class has a no-argument constructor, so any class whose only superclass is `Object` will not generate this error.
+

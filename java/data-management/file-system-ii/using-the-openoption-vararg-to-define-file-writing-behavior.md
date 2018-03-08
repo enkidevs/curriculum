@@ -1,4 +1,4 @@
-# Using the `OpenOption...` vararg to define file writing behavior
+---
 author: adamMontgomerie
 
 levels:
@@ -21,13 +21,15 @@ tags:
 
   - writing
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/file.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/file.html){website}'
+
 
 ---
 ## Content
+# Using the `OpenOption...` vararg to define file writing behavior
 
 The `OpenOption` parameter is an optional argument which can take one or more values which define file writing behavior.
 
@@ -44,3 +46,4 @@ OutputStream out = new BufferedOutputStream(
 `CREATE` specifies that a file is to be created if it does not already exist, and `APPEND` specifies that if a file already exists then the new data will be appended to the end of it.
 
 There are several other available `CopyOption` arguments such as `DELETE_ON_CLOSE`.
+

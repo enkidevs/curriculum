@@ -1,4 +1,4 @@
-# Java HashSet and HashMap overview
+---
 author: alex
 
 levels:
@@ -11,12 +11,15 @@ type: normal
 
 category: feature
 
+
 links:
 
   - '[en.wikipedia.org](https://en.wikipedia.org/wiki/Hash_table){website}'
 
+
 ---
 ## Content
+# Java HashSet and HashMap overview
 
 Part of Java's Collections API are the HashSet and HashMap classes which provide fast search, insert, update and delete operations for persisting data.
 
@@ -32,3 +35,4 @@ How it all fits together:
 Important: Proper implementations of the `hashCode` and `equals` methods are crucial! *Two equal keys must always return the same hash code!* The reverse, on the other hand, need not hold true.
 
 Note: The classes don't provide any specific ordering of the data when iterating over it.
+

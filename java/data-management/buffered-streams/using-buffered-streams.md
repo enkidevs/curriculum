@@ -1,4 +1,4 @@
-# Using buffered streams
+---
 author: adamMontgomerie
 
 levels:
@@ -17,13 +17,15 @@ tags:
 
   - buffered-streams
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/buffers.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/buffers.html){website}'
+
 
 ---
 ## Content
+# Using buffered streams
 
 Using unbuffered I/O like `FileReader` can be inefficient because the read requests are handled directly by the operating system.
 
@@ -45,6 +47,8 @@ output = new BufferedWriter(
 Why is it more efficient to write to a file using a buffer?
 
 ???
-*The buffer reduces the number of disk accesses required to write the data.
-*The buffer increases the number of disk accesses required to write the data.
-*The stream closes itself after it finished writing.
+
+* The buffer reduces the number of disk accesses required to write the data.
+* The buffer increases the number of disk accesses required to write the data.
+* The stream closes itself after it finished writing.
+

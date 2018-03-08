@@ -1,4 +1,4 @@
-# Private constructors
+---
 author: adamMontgomerie
 
 levels:
@@ -15,16 +15,16 @@ tags:
 
   - factory-method
 
+
 links:
 
-  - >-
-    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=40){website}
+  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=40){website}'
+  - '[sourcemaking.com](https://sourcemaking.com/design_patterns/factory_method){website}'
 
-  - >-
-    [sourcemaking.com](https://sourcemaking.com/design_patterns/factory_method){website}
 
 ---
 ## Content
+# Private constructors
 
 Making a constructor private prevents external callers from instantiating a class. 
 
@@ -47,7 +47,6 @@ In this example, the constructor is private, so the only way to create an instan
 
 ---
 ## Footnotes
-
 [1:factory methods]
 A factory method replaces the standard constructor, dealing with object creation without having to specify the exact class of the object that will be created. 
 
