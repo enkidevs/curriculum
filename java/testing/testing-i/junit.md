@@ -1,16 +1,20 @@
-# Intro to JUnit
+---
 author: mihaiberq
 
 levels:
 
-    - medium
+  - medium
 
 type: normal
 
 category: must-know
 
+
+
+
 ---
 ## Content
+# Intro to JUnit
 
 **JUnit** is one of the main *unit testing frameworks* written for Java. Testing means verifying that the application as a whole or small parts of it (*units*) behave as expected.
 
@@ -103,6 +107,7 @@ $ java TestRunner
 
 In JUnit, code is tested with ???
 
+
 * assertions
 * equal statements
 * deep equal statements
@@ -113,7 +118,9 @@ In JUnit, code is tested with ???
 
 Setting up a test runner is seen as a type of ??? testing.
 
+
 * automated
 * manual
 * unit
 * application
+

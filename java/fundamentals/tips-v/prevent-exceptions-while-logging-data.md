@@ -1,4 +1,4 @@
-# Prevent `exceptions` while logging Data
+---
 author: Russiee
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: caveats
 
+
 links:
 
-  - >-
-    [www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/ERR02-J.+Prevent+exceptions+while+logging+data){website}
+  - '[www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/ERR02-J.+Prevent+exceptions+while+logging+data){website}'
+
 
 ---
 ## Content
+# Prevent `exceptions` while logging Data
 
 Successful logging can be *prevented* by exceptions thrown while logging is in progress!
 
@@ -50,3 +52,4 @@ try {
 ```
 
 Only one logger is required for the entire program.
+

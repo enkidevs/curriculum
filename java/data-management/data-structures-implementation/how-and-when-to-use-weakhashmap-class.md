@@ -1,4 +1,4 @@
-# How and when to use `WeakHashMap` class
+---
 author: catalin
 
 levels:
@@ -13,15 +13,15 @@ type: normal
 
 category: best practice
 
-notes: 'https://insights.enki.com/#/contrib/others/5585b52f575399cf01b26b9f?search=kha'
 
 links:
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/10599710/weakhashmap-example){website}
+  - '[stackoverflow.com](http://stackoverflow.com/questions/10599710/weakhashmap-example){website}'
 
+notes: https://insights.enki.com/#/contrib/others/5585b52f575399cf01b26b9f?search=kha
 ---
 ## Content
+# How and when to use `WeakHashMap` class
 
 A `WeakHashMap` is a special `Map` implementation where the keys of the map are stored in a `WeakReference`.
 
@@ -49,9 +49,10 @@ Another usage for this class is the creation of canonical maps, as you can store
 When is a `WeakHashMap`  entry taken by the garbage collector? 
 
 ???
-*When the key’s strong reference is set to be null.
-*When it’s empty.
-*After it has been used once.
+
+* When the key’s strong reference is set to be null.
+* When it’s empty.
+* After it has been used once.
 
 ---
 ## Revision
@@ -62,10 +63,12 @@ HashMap map =
       new ???();
 System.???();
 ```
-*`WeakHashMap` 
-*`gc` 
-*`HashMap` 
-*`garbage` 
-*`mapInstance` 
-*`collect` 
-*`garbagecollect`
+
+* `WeakHashMap` 
+* `gc` 
+* `HashMap` 
+* `garbage` 
+* `mapInstance` 
+* `collect` 
+* `garbagecollect`
+

@@ -1,4 +1,4 @@
-# What Is a Class?
+---
 author: mihaiberq
 
 levels:
@@ -7,18 +7,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
 
 links:
 
-  - >-
-    [Why OOP makes
-    sense](https://www.quora.com/What-is-the-difference-between-procedural-and-object-oriented-programming){website}
+  - '[Why OOP makes sense](https://www.quora.com/What-is-the-difference-between-procedural-and-object-oriented-programming){website}'
+
+inAlgoPool:
 
 ---
 ## Content
+# What Is a Class?
 
 In Java, a **class** is a blueprint after which things with similar characteristics can be modeled. An example of a class is: 
 ```
@@ -71,7 +71,9 @@ The method that creates a new object is called
 
 ???
 
+
 * constructor
 * instantiator
 * class
 * newObject
+

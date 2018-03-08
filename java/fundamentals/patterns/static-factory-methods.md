@@ -1,4 +1,4 @@
-# Static factory methods
+---
 author: adamMontgomerie
 
 levels:
@@ -17,16 +17,16 @@ tags:
 
   - design-patterns
 
+
 links:
 
-  - >-
-    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=21){website}
+  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=21){website}'
+  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=40){website}'
 
-  - >-
-    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=40){website}
 
 ---
 ## Content
+# Static factory methods
 
 Factory methods are static methods which return an instance of a class. Several advantages of this are:
 - able to return a subtype of the return type.
@@ -44,3 +44,4 @@ public class Animal{
 }
 ```
 In the above example, the constructor is private to guarantee that instances of `Animal` can only be created using the `getInstance()` factory method.
+

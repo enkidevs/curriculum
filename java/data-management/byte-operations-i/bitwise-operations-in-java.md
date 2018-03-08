@@ -1,4 +1,4 @@
-# Bitwise Operations in Java
+---
 author: Nick Daminov
 
 levels:
@@ -11,12 +11,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - '[Oracle Bit Operations Documentation](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op3.html)'
+  - '[Oracle Bit Operations Documentation](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op3.html){website}'
+
 
 ---
 ## Content
+# Bitwise Operations in Java
 
 *Java* provides us with certain bitwise operations, i.e. operations on concrete bits of the binary representation of the value. Such operations are:
  - `&` - *AND* operator returns `1` if both bits are `1`.
@@ -33,35 +36,7 @@ public class Main{
     System.out.println(a & b);
     //&:   0001
     //     0101
-    //     ----
-    //     0001
-
-    System.out.println(a | b);
-    //|:   0001
-    //     0101
-    //     ----
-    //     0101
-
-    System.out.println(a ^ b);
-    //^:   0001
-    //     0101
-    //     ----
-    //     0100
-
-    System.out.println(~a);
-    //~:   0001
-    //     ----
-    //     1110
-
-  }
-}
-//The output is the following:
-//1
-//5
-//4
-//-2
-```
-The last result is `-2` because *Java* uses two's complement bit representation.
+    //
 
 ---
 ## Practice
@@ -69,6 +44,7 @@ The last result is `-2` because *Java* uses two's complement bit representation.
 What would be the output of `System.out.println(7 & 5);`, 7 = 0111, 5 = 0101?
 
 ???
+
 
 * 5
 * 0
@@ -85,5 +61,7 @@ What does *OR* operation returns if the input bits are `1` and `0`?
 
 ???
 
+
 * `0`
 * `1`
+

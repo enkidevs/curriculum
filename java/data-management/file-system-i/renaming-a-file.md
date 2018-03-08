@@ -1,4 +1,4 @@
-# Renaming a File
+---
 author: Nick Daminov
 
 levels:
@@ -9,13 +9,16 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - '[File Class Documentation](https://docs.oracle.com/javase/7/docs/api/java/io/File.html#renameTo(java.io.File))'
-  - '[File Manipulations with Examples](https://www.tutorialspoint.com/java/io/java_io_file.htm)'
+  - '[File Class Documentation](https://docs.oracle.com/javase/7/docs/api/java/io/File.html#renameTo(java.io.File)){website}'
+  - '[File Manipulations with Examples](https://www.tutorialspoint.com/java/io/java_io_file.htm){website}'
+
 
 ---
 ## Content
+# Renaming a File
 
 In this workout we will discuss some features that can be done with the files and directories using *Java* language. *File* class is part of the *java.io* library and has a lot of inbuilt functionality. More information on what cool features it has can be found in Oracle documentation.
 
@@ -65,6 +68,7 @@ Why is it important to use try/catch block when working with files?
 
 ???
 
+
 * It takes a new path of the future file
 * It returns a boolean value depending on whether operation was successful
 * There may not be a file that is specified by the path
@@ -78,6 +82,8 @@ Can the `File.renameTo()` method be used to move a file to another directory?
 
 ???
 
+
 * Yes, it can move the file to any directory in the system
 * Yes, but only if this directory is a part of `src` folder  
 * No, it can only rename the file
+

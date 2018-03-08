@@ -1,4 +1,4 @@
-# Inheritance
+---
 author: mihaiberq
 
 levels:
@@ -7,12 +7,15 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+
+
+inAlgoPool:
 
 ---
 ## Content
+# Inheritance
 
 The most representative principle of *Object-Oriented Programming* is **inheritance**. It states that classes can be derived from other classes, with the *child classes* inheriting fields and methods from the *parent classes*.
 
@@ -110,10 +113,11 @@ test(sCar); //valid
 Where should the `super()` method be called in the constructor?
 
 ???
-*As the first statement.
-*As the last statement.
-*Anywhere.
-*It is not supposed to be called in the constructor.
+
+* As the first statement.
+* As the last statement.
+* Anywhere.
+* It is not supposed to be called in the constructor.
 
 ---
 ## Revision
@@ -121,7 +125,9 @@ Where should the `super()` method be called in the constructor?
 What method should the child class call to use the parent's constructor?
 
 ???
-*super()
-*parent()
-*extends()
-*build()
+
+* super()
+* parent()
+* extends()
+* build()
+

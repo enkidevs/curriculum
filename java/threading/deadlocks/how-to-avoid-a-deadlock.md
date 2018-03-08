@@ -1,4 +1,4 @@
-# How to Avoid a Deadlock
+---
 author: Nick Daminov
 
 levels:
@@ -9,12 +9,15 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - '[Ostrich Algorithm](https://en.wikipedia.org/wiki/Ostrich_algorithm)'
+  - '[Ostrich Algorithm](https://en.wikipedia.org/wiki/Ostrich_algorithm){website}'
+
 
 ---
 ## Content
+# How to Avoid a Deadlock
 
 There are 4 necessary and sufficient conditions for a **deadlock** to occur:
 
@@ -40,6 +43,7 @@ What condition is not necessary for a deadlock to occur?
 
 ???
 
+
 * none of the options listed
 * only one process at a time can use the resource
 * process that is holding a resource can acquire further resources
@@ -53,6 +57,8 @@ What is "Ostrich Algorithm"?
 
 ???
 
+
 * Ignoring deadlock problem
 * Solving a deadlock by running a an ostrich class
 * Running an ostrich thread in a process-resource cycle
+

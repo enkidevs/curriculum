@@ -1,4 +1,4 @@
-# Sibling Classes
+---
 author: pawel
 
 levels:
@@ -13,10 +13,12 @@ tags:
 
   - class-hierarchy
 
-notes: ''
 
+
+notes: 
 ---
 ## Content
+# Sibling Classes
 
 Sibling classes cannot be assigned to each other, even with an explicit cast. 
 Because of that property, code below would cause a compile error.
@@ -33,3 +35,4 @@ Child2 c2 = new Child2();
 c1 = c2; // Compile error
 ```
 To avoid such problems you can explicitly cast given class, however `ClassCastException` will be thrown at run-time.
+

@@ -1,4 +1,4 @@
-# Java Memory management
+---
 author: alex
 
 levels:
@@ -15,10 +15,14 @@ category: feature
 
 tags:
 
-  - 'java, JVM, garbage collection'
+  - java, JVM, garbage collection
+
+
+
 
 ---
 ## Content
+# Java Memory management
 
 Memory management is the process of allocating new objects and removing unused objects to make space for those new object allocations. 
 
@@ -34,10 +38,11 @@ On what algorithm is Garbage Collection based?
 
 `???`
 
-*`Mark-and-Sweep` 
-*`Breath-first` 
-*`Depth-first` 
-*`Dijkstra`
+
+* `Mark-and-Sweep` 
+* `Breath-first` 
+* `Depth-first` 
+* `Dijkstra`
 
 ---
 ## Revision
@@ -46,7 +51,9 @@ On what is Java’s memory management based?
 
 `???`
 
-*`Garbage Collection` 
-*`Mark-and-Sweep` 
-*`Manually nullifying references` 
-*`Breadth first algorithm`
+
+* `Garbage Collection` 
+* `Mark-and-Sweep` 
+* `Manually nullifying references` 
+* `Breadth first algorithm`
+

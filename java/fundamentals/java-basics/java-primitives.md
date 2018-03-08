@@ -1,4 +1,4 @@
-# Java Primitives
+---
 author: mihaiberq
 
 levels:
@@ -7,12 +7,15 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+
+
+inAlgoPool:
 
 ---
 ## Content
+# Java Primitives
 
 In Java, **primitives** are the most basic data types. To be able to use a variable, it must be declared first, like this:
 ```java
@@ -54,7 +57,9 @@ float myFloat = 3.75f;
 
 The default type of `5.30` is ???
 
+
 * double
 * float
 * int
 * long
+

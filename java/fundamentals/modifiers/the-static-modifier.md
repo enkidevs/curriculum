@@ -1,4 +1,4 @@
-# The `static` Modifier
+---
 author: mihaiberq
 
 levels:
@@ -7,12 +7,15 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+
+
+inAlgoPool:
 
 ---
 ## Content
+# The `static` Modifier
 
 Both `static` and `final` are non-access modifiers. Therefore, they can be used in conjunction with one another or with access modifiers such as `public` or `private`. 
 
@@ -75,6 +78,7 @@ Person sam = new Person("Sam");
 System.out.println(john.lastPerson);
 // ???
 ```
+
 * Sam
 * John
 * JohnSam
@@ -86,6 +90,7 @@ System.out.println(john.lastPerson);
 How are static variables also called?
 
 ???
+
 * Class variables.
 * Instance variables.
 * Constants.
@@ -93,31 +98,32 @@ How are static variables also called?
 
 ---
 ## Quiz
-
-headline: how do class variables work?
-
-question: |
-  public class Dog {
-    String name;
-    int age;
-    static int ageSum = 0;
-    public Dog(String name, int age){
-      this.name = name;
-      this.age = age;
-      ageSum += age;
-    }
-    public int getCurrentSum(){
-      return ageSum;
-    }
+### how do class variables work?
+```
+public class Dog {
+  String name;
+  int age;
+  static int ageSum = 0;
+  public Dog(String name, int age){
+    this.name = name;
+    this.age = age;
+    ageSum += age;
   }
+  public int getCurrentSum(){
+    return ageSum;
+  }
+}
 
-  Dog d1 = new Dog("Dog", 2);
-  System.out.print(d1.getCurrentSum() + " and ");
-  Dog d2 = new Dog("Blitz", 3);
-  System.out.print(d1.getCurrentSum());
+Dog d1 = new Dog("Dog", 2);
+System.out.print(d1.getCurrentSum() + " and ");
+Dog d2 = new Dog("Blitz", 3);
+System.out.print(d1.getCurrentSum());
+```
 
-answers:
-  - 2 and 5
-  - 2 and 3
-  - 2 and 2
-  - 5 and 5
+ ???
+
+* 2 and 5
+* 2 and 3
+* 2 and 2
+* 5 and 5
+

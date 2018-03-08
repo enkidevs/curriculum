@@ -1,4 +1,4 @@
-# Encapsulation
+---
 author: mihaiberq
 
 levels:
@@ -7,17 +7,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
 
 links:
 
-  - >-
-    [Encapsulation](https://www.tutorialspoint.com/java/java_encapsulation.htm){website}
+  - '[Encapsulation](https://www.tutorialspoint.com/java/java_encapsulation.htm){website}'
+
+inAlgoPool:
 
 ---
 ## Content
+# Encapsulation
 
 The third *Object-Oriented Programming* principle is **encapsulation**. It refers to the process of wrapping the data and the methods using that data together. Encapsulation means keeping the *variables* in a class private, and having methods in that particular class for accessing them. 
 
@@ -82,17 +83,20 @@ public void setNoDoors(int newNoDoors){
 
 To achieve encapsulation, fields in a class should be declared ???.
 
-*private
-*public
-*static
-*final
+
+* private
+* public
+* static
+* final
 
 ---
 ## Revision
 
 Methods that return or change the value of a class' variables are called ???.
 
-*getters and setters
-*returners and changers
-*getters and changers
-*returners and setters
+
+* getters and setters
+* returners and changers
+* getters and changers
+* returners and setters
+

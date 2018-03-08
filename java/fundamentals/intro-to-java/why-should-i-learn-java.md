@@ -1,4 +1,4 @@
-# Why Should I Learn Java?
+---
 author: mihaiberq
 
 levels:
@@ -7,18 +7,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: feature
+
 
 links:
 
-  - >-
-    [Who is using
-    Java?](https://www.quora.com/Why-is-Java-so-important){website}
+  - '[Who is using Java?](https://www.quora.com/Why-is-Java-so-important){website}'
+
+inAlgoPool:
 
 ---
 ## Content
+# Why Should I Learn Java?
 
 *Java* is one of the most used programming languages in the world, with millions of developers. It runs on PCs, mobile phones and even Blu-ray players. 
 
@@ -33,6 +33,7 @@ There are many more reasons you should learn Java. The only downside is, as with
 
 Java is a ??? typed language.
 
+
 * static
 * dynamic
 
@@ -43,6 +44,8 @@ Does Java require a lot of changes and configuration of its memory manager or ga
 
 ???
 
+
 * No
 * Yes
 * Only when you start learning
+

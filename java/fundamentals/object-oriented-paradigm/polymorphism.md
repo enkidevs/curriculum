@@ -1,4 +1,4 @@
-# Polymorphism
+---
 author: mihaiberq
 
 levels:
@@ -7,12 +7,15 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+
+
+inAlgoPool:
 
 ---
 ## Content
+# Polymorphism
 
 **Polymorphism** is a principle in object-oriented programming that refers to the ability of *child classes* to define their own behavior, while also sharing some functionalities with the *parent class*.
 
@@ -86,6 +89,7 @@ FamilyCar fCar = new FamilyCar(
 fCar.start();
 // ???
 ```
+
 * The 5 seat car starts!
 * The car starts!
 * The turbocharged car starts!
@@ -96,39 +100,40 @@ fCar.start();
 
 Polymorphism refers to the ability of an object to ???
 
+
 * have multiple forms.
 * inherit the parent's properties.
 * extend the parent's forms.
 
 ---
 ## Quiz
+### What will this output?
+```
+class Main {
+  private final String name;
+    Main(String name) {
+        this.name = name;
+    }
+    private String name() {
+        return name;
+    }
+    private void say() {
+        new Main("Stinky") {
+            void printName() {
+                System.out.println(name());
+            }
+        }.printName();
+    }
+    public static void main(String[] args) {
+        new Main("Lessy").say();
+    }
+}
+```
 
-headline: What will this output?
+ ???
 
-question: |
-  class Main {
-    private final String name;
-      Main(String name) {
-          this.name = name;
-      }
-      private String name() {
-          return name;
-      }
-      private void say() {
-          new Main("Stinky") {
-              void printName() {
-                  System.out.println(name());
-              }
-          }.printName();
-      }
-      public static void main(String[] args) {
-          new Main("Lessy").say();
-      }
-  }
+* Lessy
+* Stinky
+* Error: name() has private access
+* Error: cannot find symbol name()
 
-
-answers:
-  - Lessy
-  - Stinky
-  - "Error: name() has private access"
-  - "Error: cannot find symbol name()"

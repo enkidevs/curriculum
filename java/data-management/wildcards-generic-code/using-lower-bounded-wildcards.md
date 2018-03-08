@@ -1,4 +1,4 @@
-# Using lower bounded wildcards
+---
 author: adamMontgomerie
 
 levels:
@@ -23,13 +23,15 @@ tags:
 
   - collections
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/lowerBounded.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/lowerBounded.html){website}'
+
 
 ---
 ## Content
+# Using lower bounded wildcards
 
 Lower bounded wildcards can be used to make a variable less restrictive. For example, the following method will only accept collections of type `List<Integer>`:
 ```
@@ -45,3 +47,4 @@ public void method(
 }
 ```
 This method will now accept `List`s of supertypes of `Integer`, such as `Number` and `Object`.
+
