@@ -1,5 +1,5 @@
 # Practice python booleans
-author: sebaraba
+author: SebaRaba
 
 levels:
 
