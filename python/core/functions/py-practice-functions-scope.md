@@ -17,10 +17,8 @@ links:
   - '[link to a video](https://www.youtube.com/watch?v=9Os0o3wzS_I){video}'
   - '[link to a discussion](https://enki.com)'
 
-
----
-## Exercises
-codewars-link: https://www.codewars.com/kata/sum-of-pairs
+linkType: codewars
+link: https://www.codewars.com/kata/sum-of-pairs
 standards:
   py.functions.0: 1000
   py.functions.1: 2000
@@ -28,6 +26,8 @@ standards:
   py.functions.4: 4000
   py.functions.5: 5000
 
+---
+## Exercises
 ### Question
 Make use of `scope` effectively.
 
