@@ -19,7 +19,8 @@ links:
 
 ---
 ## Exercises
-codewars-link: https://www.codewars.com/kata/sum-of-two-lowest-positive-integers
+linkType: codewarsna
+link: https://www.codewars.com/kata/sum-of-two-lowest-positive-integers
 standards:
   py.native-types-operations.1:1000
   py.native-types-operations.2:1000
@@ -31,15 +32,4 @@ standards:
 ## Question
 Use python's `mapping` types.
 
----
-## Exercises
-codewars-link: https://www.codewars.com/kata/self-closing-cookie-jar
-standards:
-  py.native-types-operations.1:1000
-  py.native-types-operations.2:2000
-  py.native-types-operations.4:4000
-  py.native-types-operations.7:4000
-  py.native-types-operations.8:4000
 
-## Question
-Use python's `mapping` types.
