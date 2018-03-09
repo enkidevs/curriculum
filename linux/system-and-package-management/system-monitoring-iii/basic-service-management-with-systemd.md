@@ -37,7 +37,7 @@ $ systemctl list-units --type service
 ```
 Use the following to start a service. Does not persist after reboot:
 
-``` 
+```
 $ systemctl start SERVICE.service```
 
 Use this to stop a service. Does not persist after reboot:
@@ -62,7 +62,7 @@ $ systemctl status SERVICE.service
 To start a service on boot, use:
 ```
 $ systemctl enable SERVICE.service
-``` 
+```
 
 And to stop it from starting on boot:
 ```
@@ -72,7 +72,7 @@ $ systemctl disable SERVICE.service
 ---
 ## Revision
 
-Service-specific actions (enable, stop, restart, reload) can be triggered by 
+Service-specific actions (enable, stop, restart, reload) can be triggered by
 
 ??? .
 
@@ -86,8 +86,8 @@ Service-specific actions (enable, stop, restart, reload) can be triggered by
 
 [1:Example output]
 ```
-UNIT--------------------------------
-systemd-ask-password-console.service
-LOAD---ACTIVE---SUB--DESCRIPTION---
+UNIT================================
+systemd=ask=password=console.service
+LOAD===ACTIVE===SUB==DESCRIPTION===
 loaded inactive dead Dispatch Password
 ```

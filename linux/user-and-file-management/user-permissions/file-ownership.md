@@ -1,4 +1,4 @@
-# File Ownership
+---
 author: jfarmer
 
 levels:
@@ -9,20 +9,25 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+tags:
+
+  - introduction
+
+  - workout
+
 
 links:
 
-  - >-
-    [Permissions](https://wiki.archlinux.org/index.php/File_permissions_and_attributes){website}
+  - '[Permissions](https://wiki.archlinux.org/index.php/File_permissions_and_attributes){website}'
 
-tags:
-  - introduction
-  - workout
+
 ---
 ## Content
+# File Ownership
 
 On Linux, every file and directory is given both a user owner and a group owner.  You can use `ls -l` or `ls -ld` to see which user and group owns a specific file or directory (respectively).
 
@@ -30,17 +35,17 @@ Here is some example output:
 
 ```console
 $ ls -ld /var/log
-drwxrwxr-x 10 root syslog 
+drwxrwxr-x 10 root syslog
     4096 Jun 13 06:25 /var/log
 $ ls -l /var/log/syslog
--rw-r----- 1 syslog adm
+-rw-r--r-- 1 syslog adm
     98 Jun 13 07:17 /var/log/syslog
 $
 ```
 
 The string `drwxrwxr-x` describes the user and group permissions for the `/var/log` directory, which we'll outline briefly below.  The directory itself is owned by the user `root` and the group `syslog`.
 
-Likewise, `-rw-r-----` describes the file permissions on `/var/log/syslog`, which is owned by the *user* `syslog` and the group `adm`.
+Likewise, `-rw-r--r--` describes the file permissions on `/var/log/syslog`, which is owned by the *user* `syslog` and the group `adm`.
 
 ### Understanding Permission Strings
 
@@ -63,19 +68,21 @@ $ ls -l schedule.txt
   -r-xr-xr-- 10 student students
      436 Jul 15 13:21 ~/schedule.txt
 ```
-Who has the fewest permissions for this file? 
+Who has the fewest permissions for this file?
 
 ???
-*Others
-*User
-*Group
-*They all have the same permissions
+
+* Others
+* User
+* Group
+* They all have the same permissions
 
 ---
 ## Revision
 
 You can use `???` to see which user or group owns a specific *file*.
-*`ls -l`
-*`ls -a`
-*`ls -o`
-*`ls -d`
+
+* `ls -l`
+* `ls -a`
+* `ls -o`
+* `ls -d`
