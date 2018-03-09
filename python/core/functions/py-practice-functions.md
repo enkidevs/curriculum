@@ -17,15 +17,15 @@ links:
   - '[link to a video](https://www.youtube.com/watch?v=9Os0o3wzS_I){video}'
   - '[link to a discussion](https://enki.com)'
 
-
----
-## Exercises
-codewars-link: https://www.codewars.com/kata/number-of-people-in-the-bus
+linkType: codewars
+link: https://www.codewars.com/kata/number-of-people-in-the-bus
 standards:
   py.functions.0: 1000
   py.functions.1: 2000
   py.functions.3: 3000
 
+---
+## Exercises
 ### Question
 Practice python `functions`.
 
