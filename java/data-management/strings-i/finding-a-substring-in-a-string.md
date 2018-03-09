@@ -1,4 +1,4 @@
-# Finding a substring in a string
+---
 author: adamMontgomerie
 
 levels:
@@ -15,13 +15,15 @@ tags:
 
   - strings
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/manipstrings.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/manipstrings.html){website}'
+
 
 ---
 ## Content
+# Finding a substring in a string
 
 In order to confirm if a string contains a specific substring, we can simply use the `contains` method in the `String` class.
 
@@ -39,3 +41,4 @@ int indexFirst = s.indexOf("dog");
 int indexLast = s.lastIndexOf("dog");
 //indexLast: 15
 ```
+

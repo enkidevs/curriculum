@@ -1,4 +1,4 @@
-# Declaring `volatile` variables
+---
 author: adamMontgomerie
 
 levels:
@@ -25,13 +25,15 @@ tags:
 
   - atomic_access
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/concurrency/atomic.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/concurrency/atomic.html){website}'
+
 
 ---
 ## Content
+# Declaring `volatile` variables
 
 The `volatile` modifier guarantees that all threads will always see the most up-to-date value of the variable.
 
@@ -59,7 +61,9 @@ Take the following code snippet, the loop will run and loop endlessly, despite t
 ```java
 ??? boolean done;
 ```
-*`volatile`
-*`static`
-*`finished`
-*`checker`
+
+* `volatile`
+* `static`
+* `finished`
+* `checker`
+

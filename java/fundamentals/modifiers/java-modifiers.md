@@ -1,4 +1,4 @@
-# Java Modifiers
+---
 author: mihaiberq
 
 levels:
@@ -7,17 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html){website}'
+
 
 ---
 ## Content
+# Java Modifiers
 
 **Modifiers** are keywords used during declaration that can change the variable/method/class behaviour.
 
@@ -56,10 +58,11 @@ We will talk about each of them in detail in a future workout.
 Which of the following modifiers makes a variable visible only to its enclosing class?
 
 ???
-*private
-*public
-*protected
-*static
+
+* private
+* public
+* protected
+* static
 
 ---
 ## Revision
@@ -67,7 +70,9 @@ Which of the following modifiers makes a variable visible only to its enclosing 
 Which of the following modifiers makes a variable class specific, not instance specific?
 
 ???
-*static
-*private
-*public
-*final
+
+* static
+* private
+* public
+* final
+

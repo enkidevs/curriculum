@@ -1,4 +1,4 @@
-# Use strings in a `switch` statement
+---
 author: adamMontgomerie
 
 levels:
@@ -17,13 +17,15 @@ tags:
 
   - java-7
 
+
 links:
 
-  - >-
-    [javarevisited.blogspot.jp](http://javarevisited.blogspot.jp/2014/04/10-jdk-7-features-to-revisit-before-you.html){website}
+  - '[javarevisited.blogspot.jp](http://javarevisited.blogspot.jp/2014/04/10-jdk-7-features-to-revisit-before-you.html){website}'
+
 
 ---
 ## Content
+# Use strings in a `switch` statement
 
 In Java 7+, it is possible to use a string as a selector in a `switch` statement.
 
@@ -49,5 +51,7 @@ The string comparisons are case sensitive.
 
 String comparisons in switch statements ??? case sensitive.
 
-*are
-*aren't
+
+* are
+* aren't
+

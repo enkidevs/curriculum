@@ -1,4 +1,4 @@
-# Use Javadoc comments to describe the purpose of a class or method
+---
 author: fahimrahman
 
 levels:
@@ -21,13 +21,15 @@ tags:
 
   - practices
 
+
 links:
 
-  - >-
-    [www.oracle.com](http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html){website}
+  - '[www.oracle.com](http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html){website}'
+
 
 ---
 ## Content
+# Use Javadoc comments to describe the purpose of a class or method
 
 A Javadoc comment starts with the opening tag ```/**``` and includes a description of a class or method, followed by additional info on what the method takes as parameter, the return type and more. 
 
@@ -46,3 +48,4 @@ public int getMarks(String surname, int id)
 }
 ```
 The Javadoc is generated in HTML format from the source code and acts as reference for programmers. They are especially helpful when working on large projects.
+

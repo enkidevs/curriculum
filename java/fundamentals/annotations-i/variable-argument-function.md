@@ -1,4 +1,4 @@
-# Variable Argument Function
+---
 author: Nick Daminov
 
 levels:
@@ -9,12 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[More on VarArgs](https://stackoverflow.com/questions/7607353/how-to-create-java-method-that-accepts-variable-number-of-arguments)'
+  - '[More on VarArgs](https://stackoverflow.com/questions/7607353/how-to-create-java-method-that-accepts-variable-number-of-arguments){website}'
+
 
 ---
 ## Content
+# Variable Argument Function
 
 **VarArgs** allows a function to accept a variable number of arguments in multiple forms. For example, assume that our function takes `Strings` as arguments:
 ```java
@@ -55,6 +58,7 @@ If we pass a collection as well as other arguments to a function, where should t
 
 ???
 
+
 * At the end of the argument list.
 * It should be the first argument to be passed.
 * The order of the arguments does not matter.
@@ -66,6 +70,8 @@ What is *VarArgs*?
 
 ???
 
+
 * It is a concept of passing an unlimited number of arguments to a function.
 * It is a concept of unlimited array with variable number of arguments.
 * It is a concept of passing arguments of various types to a function.
+

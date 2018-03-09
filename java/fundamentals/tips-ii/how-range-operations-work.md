@@ -1,4 +1,4 @@
-# How range operations work
+---
 author: catalin
 
 levels:
@@ -9,10 +9,12 @@ type: normal
 
 category: must-know
 
-notes: 'https://insights.enki.com/#/contrib/others/55c83ba83f06ab320051aa8a?search=kha'
 
+
+notes: https://insights.enki.com/#/contrib/others/55c83ba83f06ab320051aa8a?search=kha
 ---
 ## Content
+# How range operations work
 
 When specifying a range of values, the first value `from` is included while the last value `to` is excluded.
 
@@ -42,11 +44,12 @@ What would be the return value of the following method:
 "beautiful".substring(4, 6);
 // ???
 ```
-*`ti` 
-*`ut` 
-*`if` 
-*`be` 
-*`ul`
+
+* `ti` 
+* `ut` 
+* `if` 
+* `be` 
+* `ul`
 
 ---
 ## Revision
@@ -56,5 +59,7 @@ When calling the following function:
 "test".substring(1,3)
 ```
 The output will ??? the character with index 3.
-*`exclude` 
-*`include`
+
+* `exclude` 
+* `include`
+

@@ -1,4 +1,4 @@
-# Synchronization Methods
+---
 author: Nick Daminov
 
 levels:
@@ -9,13 +9,16 @@ type: normal
 
 category: pattern
 
+
 links:
 
-  - '[More on Critical Section](https://en.wikipedia.org/wiki/Critical_section)'
-  - '[Locks Objects in Java](https://docs.oracle.com/javase/tutorial/essential/concurrency/newlocks.html)'
+  - '[More on Critical Section](https://en.wikipedia.org/wiki/Critical_section){website}'
+  - '[Locks Objects in Java](https://docs.oracle.com/javase/tutorial/essential/concurrency/newlocks.html){website}'
+
 
 ---
 ## Content
+# Synchronization Methods
 
 **Synchronization** is an important concept when tackling multithreading problems. *Race conditions* can be avoided by using different types of patterns. The four most common are: *Lock*, *Semaphore*, *Monitor* and *Mutex*.
 
@@ -63,6 +66,7 @@ What is the difference between a lock and a mutex?
 
 ???
 
+
 * synchronization mechanism that allows a single thread to enter a critical section
 * mutex can be accesses by processes while lock can only be accessed by threads
 * synchronization mechanism that allows multiple thread to enter a critical section
@@ -70,9 +74,7 @@ What is the difference between a lock and a mutex?
 * mutex allows multiple processes to enter critical section
 * lock pauses execution of a program for a certain time in order for the system to free up the resources
 
-
 ---
 ## Footnotes
-
 [1:Critical Section]
-Section of a code which can only be accessed by a certain number of threads/processes (usually no more than one).   
+Section of a code which can only be accessed by a certain number of threads/processes (usually no more than one).

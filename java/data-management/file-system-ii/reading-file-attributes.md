@@ -1,4 +1,4 @@
-# Reading file attributes
+---
 author: adamMontgomerie
 
 levels:
@@ -19,13 +19,15 @@ tags:
 
   - file-attributes
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/fileAttr.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/fileAttr.html){website}'
+
 
 ---
 ## Content
+# Reading file attributes
 
 The `Files` class contains several methods for reading individual file attributes; for example `Files.size(path)` retrieves the file size in bytes.
 
@@ -53,8 +55,10 @@ BasicFileAttributes attrs = ???
   .???(path,
   BasicFileAttributes.class);
 ```
-*`Files` 
-*`readAttributes` 
-*`File` 
-*`getAttributes` 
-*`read`
+
+* `Files` 
+* `readAttributes` 
+* `File` 
+* `getAttributes` 
+* `read`
+

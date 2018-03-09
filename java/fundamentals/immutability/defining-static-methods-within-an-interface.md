@@ -1,4 +1,4 @@
-# Defining `static` methods within an `interface`
+---
 author: adamMontgomerie
 
 levels:
@@ -19,13 +19,15 @@ tags:
 
   - static-methods
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html){website}'
+
 
 ---
 ## Content
+# Defining `static` methods within an `interface`
 
 As of Java 8, it is possible to add implementations of `static` methods to interfaces. This allows utility methods to be included in a relevant interface rather than a separate utility class.
 
@@ -56,14 +58,15 @@ public ??? EnkiInterface {
  }
 }
 ```
-*`interface` 
-*`static` 
-*`int` 
-*`long` 
-*`Interface` 
-*`Class` 
-*`long` 
-*`void`
+
+* `interface` 
+* `static` 
+* `int` 
+* `long` 
+* `Interface` 
+* `Class` 
+* `long` 
+* `void`
 
 ---
 ## Revision
@@ -72,5 +75,7 @@ Can `static` methods inside an interface be overridden?
 
 `???`
 
-*`No` 
-*`Yes`
+
+* `No` 
+* `Yes`
+

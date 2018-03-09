@@ -1,4 +1,4 @@
-# Constant notation
+---
 author: Demonus
 
 levels:
@@ -19,8 +19,12 @@ tags:
 
   - java
 
+
+
+
 ---
 ## Content
+# Constant notation
 
 When creating constants (variables with only one value), it's good practice to write them in full-capital letters.  
 
@@ -38,3 +42,4 @@ public final int IMPORTANT_CONSTANT = 200;
 
 
 ```
+
