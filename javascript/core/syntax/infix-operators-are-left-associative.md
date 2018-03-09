@@ -13,12 +13,17 @@ type: normal
 
 category: tip
 
+standards:
+  js.javascript-syntax.2: 10
+  js.write-expressions.0: 10
+  js.evaluate-expressions.0: 10
+
+
 tags:
-
+  - introduction
+  - obscura
   - operators
-
   - infix-operators
-
   - operator-associativity
 
 links:
@@ -32,7 +37,7 @@ links:
 ---
 ## Content
 
-Operator associativity determines the order in which operators of the same type are evaluated. 
+Operator associativity determines the order in which operators of the same type are evaluated.
 
 Operations are processed from the left-hand side of an equation:
 ```

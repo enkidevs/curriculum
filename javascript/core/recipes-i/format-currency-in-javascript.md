@@ -13,8 +13,14 @@ type: normal
 
 category: how to
 
-tags:
+standards:
+  js.write-expressions.0: 10
+  js.evaluate-expressions.3: 10
+  js.standard-library.1: 10
 
+tags:
+  - introduction
+  - deep
   - currency-formatting
 
 links:
@@ -25,7 +31,7 @@ links:
 ---
 ## Content
 
-The function below will ensure numbers are correctly rounded to 2 decimal places and prevent some null errors: 
+The function below will ensure numbers are correctly rounded to 2 decimal places and prevent some null errors:
 
 ```javascript
 function currency(n){
@@ -42,7 +48,7 @@ What does the following code snippet output? ???
 ```javascript
 function currency(n) {
    n = parseFloat(n);
-   return isNaN(n) ? 
+   return isNaN(n) ?
          false : n.toFixed(3);
 }
 console.log(

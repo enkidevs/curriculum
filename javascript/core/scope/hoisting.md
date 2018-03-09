@@ -1,93 +1,60 @@
 # Hoisting
-author: AlexYancey
+author: alexjmackey
 
 levels:
-
-  - basic
-
-  - medium
 
   - beginner
 
 type: normal
 
-category: feature
+inAlgoPool: false
 
-notes: ''
+category: must-know
+
+standards:
+  js.functions.5: 10
+
+tags:
+  - workout
+  - hoisting
+  - deep
+  - variables
+  - obscura
+
+links:
+
+  - >-
+    [Site
+    Point](https://www.sitepoint.com/demystifying-javascript-variable-scope-hoisting/){website}
 
 ---
 ## Content
 
-Think fast, what does this snippet print?
+In JavaScript, when you declare variables they are always processed first before any code is executed even if they are declared later in the code.
 
-    var a = 1;
-    function go(){
-        console.log(a);
-        var a = 2;
-    }
-    go();
-
-If you thought the answer was `1`, you are incorrect!
-
-` > undefined`
-
-One quirk of JavaScript is *hoisting*. 
-
-This default behaviour moves all variable declarations to the top of the current scope.
-
-This is how the snippet is actually executed, in order:
-
-    var a;
-    a = 1;
-    function go(){
-        var a;
-        console.log(a);
-        a = 2;
-    }
-    go();
-
-In this case, `a` is redeclared and reset to `undefined` before it is logged.
-
----
-## Practice
-
-What will the following functions print? ???
-
+For example, if you have the following code:
 ```
-var e = 1;
-function run(){
-    console.log(e);
-    var e = 4;
-}
-run();
-
-var c = 1;
-function calc() {
-    console.log(c*c);
-    c = 4;
-}
-calc();
+x=1;
+var x;
 ```
+This is actually executed as:
+```
+var x;
+x=1;
+```
+This process is called **hoisting** and it's considered best practice to declare variables at the top of the scope they are declared in.
 
-*`run: undefined, calc: 1` 
-*`run: 1, calc: 1` 
-*`run: 4, calc: 1` 
-*`run: 4, calc: 4` 
-*`run: undefined, calc: undefined`
+In practice, hoisting will rarely impact you but you should be aware it exists and some programs called **linters** (a linter checks code for style and rule breaches) will insist on variables being declared first.
 
 ---
 ## Revision
 
-What will this print
-```javascript
-var a = 1;
-function go(){
-    console.log(a);
-    var a = 2;
-}
-go(); 
-// ???
-```
-*`undefined`
-*`1`
-*`2`
+What does **hoisting** mean?
+
+
+???
+
+* Variable declarations are processed before code is executed
+* You must first declare variables before methods
+* A general rule for **linters**
+* You can have multiple variables with the same name

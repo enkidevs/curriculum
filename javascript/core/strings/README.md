@@ -1,6 +1,12 @@
 name: Strings
 
+type: insights-list
+
 description: Explore Strings in depth
+
+section: 1
+
+parent: types-ii
 
 insights:
   - string-replace

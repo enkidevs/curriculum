@@ -1,7 +1,12 @@
 name: Scope
 
+type: insights-list
+
 description: all about Scope in JavaScript
 
+section: 1
+
+parent: functions-ii
 
 insights:
   - hoisting

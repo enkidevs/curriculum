@@ -11,6 +11,13 @@ type: normal
 
 category: must-know
 
+standards:
+  js.identify-common-design-patterns: 10
+
+tags:
+  - introduction
+  - workout
+
 links:
 
   - '[nodejs.org](https://nodejs.org/docs/latest/api/globals.html){website}'

@@ -1,6 +1,10 @@
 name: Functions III
 
+type: insights-list
+
 description: Particularities of functions, in depth.
+
+section: 2
 
 insights:
   - context-in-javascript

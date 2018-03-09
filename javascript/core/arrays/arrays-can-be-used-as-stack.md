@@ -9,6 +9,15 @@ type: normal
 
 category: tip
 
+standards:
+  js.data-types-structures.2: 10
+  js.data-types-structures.3: 10
+
+tags:
+
+  - introduction
+  - workout
+
 links:
 
   - '[stackoverflow](http://stackoverflow.com/questions/1590247){discussion}'
@@ -18,7 +27,7 @@ links:
 
 Using the following array:
 ```
-var stack = []; 
+var stack = [];
 ```
 We can `push` items to the stack:
 ```

@@ -1,4 +1,4 @@
-# Setting the length of an array 
+# Setting the length of an array
 author: pawel
 
 levels:
@@ -14,18 +14,25 @@ type: normal
 category: hack
 
 tags:
+  - workout
+  - obscura
 
-  - ''
+standards:
+  js.data-types-structures.3: 10
+  js.data-types-structures.4: 10
+
 
 ---
 ## Content
+
+Have you ever wondered what happens if you manually change the length of an array?
 
 Given the array:
 
 ```
 var a = ["one", "two", "three"];
 ```
-You can manually set the length of the array to truncate or extend it. To truncate: 
+You can manually set the length of the array to truncate or extend it. To truncate:
 ```
 a.length = 2;
 // a = ["one", "two"]
@@ -35,7 +42,7 @@ a.length = 2;
 Now, to extend the truncated array returned from the above:
 ```
 a.length = 4;
-// a = ["one", "two", undefined, 
+// a = ["one", "two", undefined,
 //               undefined]
 ```
 Finally, to truncate to zero:

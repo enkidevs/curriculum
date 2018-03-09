@@ -20,6 +20,15 @@ links:
   - >-
     [docs.npmjs.com](https://docs.npmjs.com/files/package.json#optionaldependencies){website}
 
+standards:
+  js.use-open-source-javascript-packages: 10
+  js.npm-publish: 10
+
+tags:
+  - workout
+  - deep
+
+
 
 ---
 ## Content

@@ -1,6 +1,12 @@
 name: Numbers Recipes
 
+type: insights-list
+
 description: Recipes for working with Numbers
+
+section: 2
+
+parent: functions-iii
 
 insights:
   - format-currency-in-javascript

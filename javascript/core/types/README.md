@@ -1,6 +1,12 @@
 name: Types
 
+type: insights-list
+
 description: Types of JavaScript.
+
+section: 0
+
+parent: syntax
 
 insights:
   - types-introduction

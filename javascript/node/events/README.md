@@ -1,6 +1,12 @@
 name: Events
 
+type: insights-list
+
 description: Events 101. 
+
+section: 0
+
+parent: modules
 
 insights:
   - consuming-events

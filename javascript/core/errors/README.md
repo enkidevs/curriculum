@@ -1,6 +1,12 @@
 name: Debugging in JavaScript
 
+type: insights-list
+
 description: Debug errors in JavaScript
+
+section: 1
+
+parent: scope
 
 insights:
   - exceptions

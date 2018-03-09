@@ -11,10 +11,20 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  js.functions.4: 10
+  js.functions.8: 10
+
+tags:
+  - introduction
+  - workout
+  - deep
+  - obscura
+
 ---
 ## Content
 
-Every function in JavaScript is also an object. 
+Every function in JavaScript is also an object.
 
 This means we can assign a function to a variable which can be used to execute the function - this is called a *function expression*:
 
@@ -26,9 +36,9 @@ var x = function myFunc(x,y){
 x(1,2);//3
 ```
 
-But why do this? 
+But why do this?
 
-One reason is to pass functions into other functions. 
+One reason is to pass functions into other functions.
 
 A somewhat contrived example would be if we were creating a calculator we could pass different calculation expressions into the *calc* function and avoid repeating the console logging code:
 
@@ -49,7 +59,7 @@ calc(add);//3
 calc(subtract);//1
 ```
 
-We don’t even need to give our functions a name. 
+We don’t even need to give our functions a name.
 
 This is called an anonymous function:
 
@@ -59,7 +69,7 @@ var x = function(x, y){
 }
 x(1,2);
 ```
-Anonymous functions are often used in callbacks and event handlers, as well as in a special type of function called an *IIFE* which we'll cover next.
+
 
 ---
 ## Practice
@@ -69,7 +79,7 @@ Complete the function expression in the following code snippet such that it make
 ??? x = ??? add(x, y, z){
     ??? x + y + z;
 }
-console.log(x(1, 2, 3)); 
+console.log(x(1, 2, 3));
 ```
 
 *`var`
@@ -88,7 +98,7 @@ Complete the function expression in the following code snippet such that it make
 ??? x = ??? add(x, y, z){
     ??? x + y + z;
 }
-console.log(x(1, 2, 3)); 
+console.log(x(1, 2, 3));
 ```
 
 *`var`

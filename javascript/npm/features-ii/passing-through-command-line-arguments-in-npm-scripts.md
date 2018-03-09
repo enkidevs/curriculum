@@ -18,6 +18,11 @@ links:
 
 parent: check-data-about-a-package
 
+tags:
+  - introduction
+  - workout
+  - deep
+
 ---
 ## Content
 

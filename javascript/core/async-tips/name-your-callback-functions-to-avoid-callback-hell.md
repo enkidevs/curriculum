@@ -9,6 +9,11 @@ type: normal
 
 category: best practice
 
+standards:
+  js.async.0: 10
+  js.functions.3: 10
+  js.control-flow.5: 10
+
 links:
 
   - '[callbackhell.com](http://callbackhell.com/){blog}'
@@ -25,14 +30,14 @@ setTimeout(function(){
   },1000);
 },1000);
 ```
-Prefer: 
+Prefer:
 ```
 function greeting1() {
   console.log('greeting 1');
   setTimeout(greeting2, 1000);
 }
 function greeting2() {
-  console.log('greeting 2'); 
+  console.log('greeting 2');
 }
 setTimeout(greeting1, 1000);
 ```
@@ -61,7 +66,7 @@ function Hey() {
   setTimeout(Hey_again, 1000);
 }
 function Hey_again() {
-  console.log('Hey, again!'); 
+  console.log('Hey, again!');
 }
 setTimeout(Hey, 1000);
 ```

@@ -13,6 +13,16 @@ type: normal
 
 category: best practice
 
+standards:
+  js.functions.4: 10
+  js.functions.5: 10
+  js.functions.6: 10
+  js.functions.7: 10
+
+tags:
+  - introduction
+  - workout
+
 links:
 
   - >-
@@ -27,7 +37,7 @@ links:
 ---
 ## Content
 
-The **Immediately Invoked Function Expression pattern** (**IIFE** or "iffy") is a function expression (either named or anonymous) that is immediately called. 
+The **Immediately Invoked Function Expression pattern** (**IIFE** or "iffy") is a function expression (either named or anonymous) that is immediately called.
 
 The syntax is:
 ```
@@ -63,10 +73,10 @@ For example:
 
 A use case of the IIFE pattern is to wrap the whole code in an IIFE and pass in the ??? object. This could be given an alias of ???. Global public properties could then be made accessible.
 
-*`window` 
-*`global` 
-*`modal` 
-*`new` 
+*`window`
+*`global`
+*`modal`
+*`new`
 *`returned`
 
 ---

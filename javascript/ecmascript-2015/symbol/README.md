@@ -1,6 +1,12 @@
 name: Symbol
 
+type: insights-list
+
 description: A new primitive type.
+
+section: 2
+
+parent: ecmascript-time-travel-game
 
 insights:
   - symbol

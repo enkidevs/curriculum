@@ -14,6 +14,16 @@ category: feature
 
 parent: how-to-publish-your-own-packages
 
+standards:
+  js.use-open-source-javascript-packages: 10
+  js.npm-publish: 10
+  js.npm-tasks-and-modules-manager: 10
+
+tags:
+  - introduction
+  - workout
+  - deep
+
 links:
 
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/view)'

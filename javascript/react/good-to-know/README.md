@@ -1,6 +1,12 @@
 name: Good to know
 
+type: insights-list
+
 description: Good to know particularities and addons of React.
+
+section: 1
+
+parent: gotchas
 
 insights:
   - immutability-helpers-in-react

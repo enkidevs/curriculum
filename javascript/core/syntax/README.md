@@ -1,6 +1,12 @@
 name: JavaScript Syntax and Variables
 
+type: insights-list
+
 description: Syntax of JavaScript, Variables
+
+section: 0
+
+parent: intro-js
 
 insights:
   - javascript-basics-part-1

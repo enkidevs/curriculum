@@ -14,6 +14,16 @@ category: how to
 
 parent: remote-scripts
 
+standards:
+  js.npm-publish: 10
+  js.npm-tasks-and-modules-manager: 10
+
+tags:
+  - workout
+  - deep
+  - new
+
+
 ---
 ## Content
 

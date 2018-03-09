@@ -13,6 +13,13 @@ type: normal
 
 category: caveats
 
+standards:
+  js.standard-library.5: 10
+
+tags:
+  - workout 
+
+
 ---
 ## Content
 
@@ -20,7 +27,7 @@ The months of the year in a date object begin counting from zero.
 
 ```
 var date = new Date(2015,1,21);
-console.log(date); 
+console.log(date);
 ```
 The date that will not be the 21st of January, but instead this date object represents: `Sat Feb 21 2015 00:00:00 GMT-700`.
 

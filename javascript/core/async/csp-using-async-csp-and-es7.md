@@ -9,6 +9,18 @@ type: normal
 
 category: feature
 
+standards:
+  js.async.3: 10
+  js.async.2: 10
+  js.use-modules.2: 10
+
+tags:
+  - workout
+  - deep
+  - async
+  - promises
+  - npm
+
 links:
 
   - '[www.npmjs.com](https://www.npmjs.com/package/async-csp){website}'
@@ -16,7 +28,7 @@ links:
 ---
 ## Content
 
-_async-csp_ is a package which creates Communicating Sequential Processes (CSP) style **channels** using **ES7 async/await**.
+_async-csp_ is an npm package which creates Communicating Sequential Processes (CSP) style **channels** using **ES7 async/await**.
 
 A **Channel** is a container which makes use of **Promises** to handle the flow of data.
 

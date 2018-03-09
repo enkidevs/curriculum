@@ -9,6 +9,15 @@ type: normal
 
 category: must-know
 
+standards:
+  js.exceptions.0: 10
+  js.exceptions.1: 10
+  js.exceptions.2: 10
+
+tags:
+  - introduction
+  - workout
+
 links:
 
   - "[davidwalsh.name](https://davidwalsh.name/detect-error-type-javascript){website}"
@@ -16,7 +25,7 @@ links:
 ---
 ## Content
 
-Using the `try/catch` block you can catch an exception then figure out what type of error occurred in you code.
+Using the `try/catch` block you can catch an exception then figure out what type of error occurred in your code.
 For example:
 ```javascript
 try {
