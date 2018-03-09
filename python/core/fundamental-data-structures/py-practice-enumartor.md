@@ -1,5 +1,5 @@
 # Practice python enumerator type
-author: sebaraba
+author: SebaRaba
 
 levels:
 
@@ -19,7 +19,8 @@ links:
 
 ---
 ## Exercises
-codewars-link: https://www.codewars.com/kata/categorize-new-member
+linkType: codewars
+link: https://www.codewars.com/kata/categorize-new-member
 standards:
   py.native-types-operations.1:1000
   py.native-types-operations.5:2000

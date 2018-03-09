@@ -1,5 +1,5 @@
 # Practice python sequence with fibonacci
-author: sebaraba
+author: SebaRaba
 
 levels:
 
@@ -19,13 +19,13 @@ links:
 
 ---
 ## Exercises
-codewars-link: https://www.codewars.com/kata/fibonacci-tribonacci-and-friends
+linkType: codewars
+link: https://www.codewars.com/kata/fibonacci-tribonacci-and-friends
 standards:
   py.native-types-operations.2:2000
   py.native-types-operations.3:2000
   py.native-types-operations.4:4000
   py.native-types-operations.5:4000
   py.native-types-operations.8:4000
-
 ### Question
 Play with Fibonacci's `sequence` in python.
