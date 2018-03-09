@@ -1,4 +1,4 @@
-# Borders
+---
 author: mihaiberq
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# Borders
 
 Borders occupy the space between margin and padding, providing an outline of the element. For a `border` to be displayed, it requires 3 properties: `width`, `style` and `color`. Those properties can be declared individually:
 ```css
@@ -47,9 +51,10 @@ In the shorthand declaration, where is the style of the border located?
 border: 1 2 3;
 ```
 ???
-*2
-*1
-*3
+
+* 2
+* 1
+* 3
 
 ---
 ## Revision
@@ -59,6 +64,8 @@ In the shorthand declaration, where is the color of the border located?
 border: 1 2 3;
 ```
 ???
-*3
-*1
-*2
+
+* 3
+* 1
+* 2
+

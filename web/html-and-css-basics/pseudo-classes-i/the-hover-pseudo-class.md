@@ -1,16 +1,22 @@
-# The `hover` Pseudo-Class
+---
 author: mihaiberq
 
 levels:
-    - basic
-    - medium
+
+  - basic
+
+  - medium
 
 type: normal
 
 category: feature
 
+
+
+
 ---
 ## Content
+# The `hover` Pseudo-Class
 
 One of the most versatile and used pseudo-classes is `:hover`. Whenever an element on a website reacts to the mouse pointer being on top of it, usually it is because of the `:hover` pseudo-class matching.
 
@@ -33,10 +39,10 @@ The `:hover` pseudo-class can only be applied to `<a>` (link) elements.
 
 ???
 
+
 * False
 * True
 * Partially true, applicable to some browsers
-
 
 ---
 ## Revision
@@ -50,8 +56,10 @@ In which of the following cases, will the `:hover` pseudo-class most likely work
 
 ???
 
+
 * 3
 * 1
 * 2
 * 4
 * None
+

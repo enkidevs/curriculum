@@ -1,4 +1,4 @@
-# The *Box Model*
+---
 author: mihaiberq
 
 levels:
@@ -7,17 +7,19 @@ levels:
 
 type: normal
 
+category: tip
+
 inAlgoPool: false
 
-category: tip
 
 links:
 
-  - >-
-    [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model){website}
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model){website}'
+
 
 ---
 ## Content
+# The *Box Model*
 
 According to the **box model**, every element on the page is a rectangular box that may have `width`, `height`, `margin`, `padding` or `border`.
 
@@ -44,6 +46,7 @@ It is important to mention that some elements *do not accept* top and bottom mar
 Which is the inside-out order for the *box model* components?
 
 ???
+
 * Content/Padding/Border/Margin
 * Content/Border/Padding/Margin
 * Padding/Content/Border/Margin
@@ -51,13 +54,14 @@ Which is the inside-out order for the *box model* components?
 
 ---
 ## Quiz
+### are you familiar with the box model?
+```
+What’s the correct outside-in order of the elements contained by the Box Model?```
 
-headline: are you familiar with the box model?
+ ???
 
-question: What’s the correct outside-in order of the elements contained by the Box Model?
+* Margin/Border/Padding/Content
+* Border/Margin/Padding/Content
+* Margin/Padding/Border/Content
+* Content/Border/Margin/Padding
 
-answers:
-  - Margin/Border/Padding/Content
-  - Border/Margin/Padding/Content
-  - Margin/Padding/Border/Content
-  - Content/Border/Margin/Padding

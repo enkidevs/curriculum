@@ -1,4 +1,4 @@
-# Manipulating shapes using CSS: `clip-path`
+---
 author: oj14henry
 
 levels:
@@ -17,13 +17,15 @@ tags:
 
   - shapes
 
+
 links:
 
-  - >-
-    [css-tricks.com](https://css-tricks.com/working-with-shapes-in-web-design/){website}
+  - '[css-tricks.com](https://css-tricks.com/working-with-shapes-in-web-design/){website}'
+
 
 ---
 ## Content
+# Manipulating shapes using CSS: `clip-path`
 
 You can use functions that are applied to `shape-outside` to `clip-path`, ie, `inset()`, `polygon()`, `ellipse()`.
 Below is an example of `clip-path` in action:
@@ -52,10 +54,11 @@ Which two properties have to be combined in order for you to be able to wrap tex
 
 ???
 
-*clip-path and shape-outside
-*clip-path and inset
-*inset and shape-outside
-*path-wrap and shape-wrap
+
+* clip-path and shape-outside
+* clip-path and inset
+* inset and shape-outside
+* path-wrap and shape-wrap
 
 ---
 ## Revision
@@ -72,7 +75,9 @@ div {
 }
 ```
 
+
 * A triangle.
 * A hexagon.
 * A square.
 * An octagon.
+

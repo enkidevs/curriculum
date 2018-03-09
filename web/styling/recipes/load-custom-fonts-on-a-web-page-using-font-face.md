@@ -1,4 +1,4 @@
-# Load custom fonts on a web page using `@font-face`
+---
 author: vbaron
 
 levels:
@@ -19,13 +19,15 @@ tags:
 
   - font-face
 
+
 links:
 
-  - >-
-    [css-tricks.com](https://css-tricks.com/snippets/css/using-font-face/){website}
+  - '[css-tricks.com](https://css-tricks.com/snippets/css/using-font-face/){website}'
+
 
 ---
 ## Content
+# Load custom fonts on a web page using `@font-face`
 
 Custom fonts are hosted server-side and downloaded then displayed using CSS.
 
@@ -56,6 +58,7 @@ In case the custom font import failed, *sans-serif* will be used as the fallback
 Which of the following font format is supported by most browsers?
 
 ???
+
 * `truetype`
 * `woff`
 * `woff2`
@@ -74,7 +77,9 @@ p {
 When using custom fonts with `@font-face`, `sans-serif` is considered to be the
 
 ???.
+
 * fallback font
 * italic font
 * next font
 * inline font
+

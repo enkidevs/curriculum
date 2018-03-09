@@ -1,4 +1,4 @@
-# Margin and Padding
+---
 author: mihaiberq
 
 levels:
@@ -13,12 +13,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# Margin and Padding
 
 Both properties are, alongside `border`, part of the **box model**. They are usually used to help with positioning and visibility.
 
@@ -83,17 +87,20 @@ padding: 10px 0px 13px 5px;
 ```
 ???
 
-*Fourth 
-*First
-*Second
-*Third
+
+* Fourth 
+* First
+* Second
+* Third
 
 ---
 ## Revision
 
 The ??? property expands the borders of the element, while ??? property pushes it from other adjacent ones.
 
-*padding
-*margin
-*border
-*box
+
+* padding
+* margin
+* border
+* box
+

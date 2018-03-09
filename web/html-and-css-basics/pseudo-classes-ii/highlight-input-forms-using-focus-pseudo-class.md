@@ -1,4 +1,4 @@
-# Highlight input forms using `:focus` pseudo-class
+---
 author: Demonus
 
 levels:
@@ -17,12 +17,16 @@ tags:
 
   - Pseudo-class
 
-  - ':focus'
+  - :focus
 
   - forms
 
+
+
+
 ---
 ## Content
+# Highlight input forms using `:focus` pseudo-class
 
 Responsiveness can make the forms more user-friendly and easier to read. 
 
@@ -52,9 +56,10 @@ Pseudo-classes can be combined with classes, or other selectors, to specify diff
 What does the `:focus` pseudo class allow? 
 ???
 
-*The clicked on form element to be targeted.
-*Input forms to be created.
-*Creates a focus point within a page.
+
+* The clicked on form element to be targeted.
+* Input forms to be created.
+* Creates a focus point within a page.
 
 ---
 ## Revision
@@ -69,6 +74,8 @@ dob:focus {
 }
 ```
 ???
+
 * Sets the background colour of the name input to red, and of the date of birth input to green.
 * Sets the background colour of the name input to red and the rest of the page to green.
 * Sets the background colour of the date of birth input to green and the rest of the page to red.
+

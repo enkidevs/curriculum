@@ -1,4 +1,4 @@
-# Sass Supported Comments
+---
 author: tommarshall
 
 levels:
@@ -11,13 +11,15 @@ type: normal
 
 category: best practice
 
+
 links:
 
-  - >-
-    [sass-lang.com](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#comments){website}
+  - '[sass-lang.com](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#comments){website}'
+
 
 ---
 ## Content
+# Sass Supported Comments
 
 There are two ways to comment out code in Sass. The first is a single-line comment:
 ```cs
@@ -43,10 +45,11 @@ Which of the following comments would be preserved when CSS code is generated fr
 
 ???
 
-*`/* Option A */`
-*`// Option B`
-*`<!-- Option C -->`
-*`# Option D`
+
+* `/* Option A */`
+* `// Option B`
+* `<!-- Option C -->`
+* `# Option D`
 
 ---
 ## Revision
@@ -54,7 +57,9 @@ Which of the following comments would be preserved when CSS code is generated fr
 Which type of comment is preserved when CSS code is generated from Sass code?
 
 ???
+
 * Multi-line comments
 * Single-line commments
 * All comments
 * No comments
+

@@ -1,4 +1,4 @@
-# The `box-sizing` Property
+---
 author: mihaiberq
 
 levels:
@@ -7,16 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[Box Sizing](https://css-tricks.com/box-sizing/){website}'
 
+
 ---
 ## Content
+# The `box-sizing` Property
 
 In the previous examples, the size of the containing box size was always the sum of horizontal and vertical dimensions. However, as you might have noticed, it gets trickier and trickier to properly calculate the `width` and `height` as you nest elements.
 
@@ -56,10 +59,11 @@ For which `box-sizing` value, the `width` property contains both the content and
 ```
 box-sizing: ???;
 ```
-*`padding-box`
-*`border-box`
-*`content-box`
-*`margin-box`
+
+* `padding-box`
+* `border-box`
+* `content-box`
+* `margin-box`
 
 ---
 ## Revision
@@ -68,7 +72,9 @@ For which `box-sizing` value, the `width` property contains the content, the pad
 ```
 box-sizing: ???;
 ```
-*`border-box`
-*`padding-box`
-*`content-box`
-*`margin-box`
+
+* `border-box`
+* `padding-box`
+* `content-box`
+* `margin-box`
+

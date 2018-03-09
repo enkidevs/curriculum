@@ -1,4 +1,4 @@
-# Relative CSS properties
+---
 author: mihaiberq
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# Relative CSS properties
 
 Alongside absolute values, CSS allows the use of relative ones: *percentages*, *ems*, and *vw* and *vh*, which scale with container's properties.
 
@@ -88,6 +92,7 @@ And HTML:
 Which of the following values is not equivalent to a `width` of `200px` for the inner `div`?
 
 ???
+
 * width: 20em;
 * width: 40%;
 * width: 200px;
@@ -99,7 +104,9 @@ Which of the following values is not equivalent to a `width` of `200px` for the 
 In CSS, `width: 10%` is equal to
 
 ???
+
 * 10% of parent's width
 * 100px
 * 10% of parent's font-size
 * 10% of body's width
+

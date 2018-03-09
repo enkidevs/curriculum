@@ -1,4 +1,4 @@
-# `letter-spacing` property 
+---
 author: nene
 
 levels:
@@ -13,8 +13,12 @@ type: normal
 
 category: feature
 
+
+
+
 ---
 ## Content
+# `letter-spacing` property 
 
 Use `letter-spacing` to increase legibility of the headings and to properly justify the text. 
 
@@ -40,10 +44,11 @@ p {
   ??? : ???;
 }
 ```
-*`letter-spacing` 
-*`2px` 
-*`font-spacing` 
-*`0.125em`
+
+* `letter-spacing` 
+* `2px` 
+* `font-spacing` 
+* `0.125em`
 
 ---
 ## Revision
@@ -51,6 +56,8 @@ p {
 What's the key advantage of the `letter-spacing` property? 
 
 ???
+
 * Increases the readability of headings and paragraph text.
 * Allows letters to be spaced out.
 * Can make text cover a large space.
+

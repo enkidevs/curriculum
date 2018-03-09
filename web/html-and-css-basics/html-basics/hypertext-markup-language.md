@@ -1,4 +1,4 @@
-# HyperText Markup Language
+---
 author: mihaiberq
 
 levels:
@@ -7,16 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[First web page](http://info.cern.ch/hypertext/WWW/TheProject.html){website}'
 
+
 ---
 ## Content
+# HyperText Markup Language
 
 Also known as **HTML**, it is the standard markup language used to create websites.  HTML[1] describes the structure of a web page semantically, using **tags**. A HTML tag syntax is the name of the HTML element, enclosed by the *less than* and *greater than* signs.
 
@@ -68,6 +71,7 @@ You can bookmark this insight to receive a link to the *first online web page*.
 
 The two main components of a HTML document are ???.
 
+
 * <head> and <body>
 * <heading> and <body>
 * <p> and <a>
@@ -78,15 +82,14 @@ The two main components of a HTML document are ???.
 
 The two main components of a HTML document are ???.
 
+
 * <head> and <body>
 * <heading> and <body>
 * <p> and <a>
 * <h> and <body>
 
-
 ---
 ## Footnotes
-
 [1:HTML]
 
 You can start writing HTML by creating a new file with the `.html` extension. To see how the code looks, drag and drop the file in your browser.

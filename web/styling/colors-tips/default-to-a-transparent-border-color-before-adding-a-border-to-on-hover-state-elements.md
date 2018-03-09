@@ -1,4 +1,4 @@
-# Default to a transparent `border-color` before adding a border to on `:hover` state elements
+---
 author: fsites
 
 levels:
@@ -15,14 +15,17 @@ category: pattern
 
 tags:
 
-  - 'borders, border, :hover, hover'
+  - borders, border, :hover, hover
+
 
 links:
 
   - '[codepen.io](http://codepen.io/anon/pen/waEMWw){website}'
 
+
 ---
 ## Content
+# Default to a transparent `border-color` before adding a border to on `:hover` state elements
 
 By using a transparent border as a default, then changing the `border-color` on hover, you will avoid moving other elements on hover.
 
@@ -59,7 +62,9 @@ label:hover {
    border-color: black
 }
 ```
+
 * Makes the border black instead of transparent when the label is hovered over.
 * Makes the border transparent instead of block when the label is hovered over.
 * Makes the label solid instead of transparent when hovered over.
 * Makes the label disappear when hovered over.
+

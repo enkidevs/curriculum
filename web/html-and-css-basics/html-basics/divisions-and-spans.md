@@ -1,4 +1,4 @@
-# Divisions and Spans
+---
 author: mihaiberq
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# Divisions and Spans
 
 Divisions, or `<div>`s and `<span>`s are elements used for styling. They do not have any semantic value as they are generic containers.
 
@@ -46,6 +50,8 @@ Knowing this, you are now one step closer to writing CSS: by giving `<div>`s and
 
 span`s are seen as ??? elements.
 
+
 * stylistic
 * structural
 * not
+

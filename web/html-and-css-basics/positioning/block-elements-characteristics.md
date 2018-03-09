@@ -1,4 +1,4 @@
-# Block Elements Characteristics
+---
 author: Mathieu
 
 levels:
@@ -7,19 +7,20 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
-notes: 'http://www.webcredible.com/blog-reports/css/more-css-tricks.shtml'
+inAlgoPool: false
+
 
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements){website}'
+
+notes: 'http://www.webcredible.com/blog-reports/css/more-css-tricks.shtml'
 
 ---
 ## Content
+# Block Elements Characteristics
 
 A block element has the following characteristics:
 
@@ -38,10 +39,11 @@ Which of the following element is * not * a block element?
 
 ???
 
-*`<span>` 
-*`<form>` 
-*`<ul>` 
-*`<article>`
+
+* `<span>` 
+* `<form>` 
+* `<ul>` 
+* `<article>`
 
 ---
 ## Revision
@@ -49,9 +51,11 @@ Which of the following element is * not * a block element?
 Which of the following is not a block element? 
 
 ???
+
 * `<img>`
 * `<div>`
 * `<h1>`
 * `<form>`
 * `<li>`
 * `<p>`
+
