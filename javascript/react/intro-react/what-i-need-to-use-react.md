@@ -1,4 +1,4 @@
-# **React** dependencies
+---
 author: catalin
 
 levels:
@@ -9,15 +9,15 @@ type: normal
 
 category: must-know
 
-parent: why-use-react
 
 links:
 
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/docs/installation.html){website}
+  - '[facebook.github.io](https://facebook.github.io/react/docs/installation.html){website}'
 
+parent: why-use-react
 ---
 ## Content
+# **React** dependencies
 
 Being a truly flexible library, you can create applications from scratch with **React**, but also gradually including it to your code base without having to re-write anything.
 
@@ -61,13 +61,14 @@ Which tool will automatically set-up the development environment for a simple `R
 
 ???
 
+
 * create-react-app
 * react-dom
 * browserify
 * babel-preset-react
+
 ---
 ## Footnotes
-
 [1:bundler]
 
 A `JavaScript` **bundler** is a tool that puts your code and all its dependencies together in one `JS` file. There are many of them out there these days, being the most popular ones `browserify` and `webpack`.

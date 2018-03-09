@@ -1,4 +1,4 @@
-# JavaScript Basics - Part 1
+---
 author: alexjmackey
 
 levels:
@@ -7,12 +7,15 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+
+
+inAlgoPool:
 
 ---
 ## Content
+# JavaScript Basics - Part 1
 
 Like most programming languages, JavaScript has a number of rules its code must adhere to.
 
@@ -62,6 +65,7 @@ What syntax is used in *JavaScript* for **single line** comments?
 
 ???
 
+
 * `//`
 * `/* */`
 
@@ -74,21 +78,22 @@ var 777jackpot = "jackpot";
 // line is ???
 ```
 
+
 * `not valid`
 * `valid`
 
 ---
 ## Quiz
+### which of the following is a valid comment?
+1. // first comment
+2. <!-- second comment
+3. /* third comment */
 
-headline: which of the following is a valid comment?
 
-question: |
-  1. // first comment
-  2. <!-- second comment
-  3. /* third comment */
+ ???
 
-answers:
-  - 1, 2 & 3
-  - 1
-  - 1 & 3
-  - 2
+* 1, 2 & 3
+* 1
+* 1 & 3
+* 2
+

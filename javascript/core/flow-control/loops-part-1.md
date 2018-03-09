@@ -1,4 +1,4 @@
-# Loops - Part 1
+---
 author: alexjmackey
 
 levels:
@@ -7,12 +7,15 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+
+
+inAlgoPool:
 
 ---
 ## Content
+# Loops - Part 1
 
 JavaScript supports the standard loop constructs you have probably come across in other languages:
 
@@ -69,13 +72,14 @@ var i = 0;
   i++;
 } ??? (i < ???)
 ```
-*`do`
-*`while`
-*`10`
-*`if`
-*`else`
-*`9`
-*`for`
+
+* `do`
+* `while`
+* `10`
+* `if`
+* `else`
+* `9`
+* `for`
 
 ---
 ## Revision
@@ -86,9 +90,11 @@ Complete the following `for` loop such that it makes sense:
    console.log(i);
 }
 ```
-*`for`
-*`var`
-*`i++`
-*`while`
-*`do`
-*`i--`
+
+* `for`
+* `var`
+* `i++`
+* `while`
+* `do`
+* `i--`
+

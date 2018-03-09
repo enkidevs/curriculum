@@ -1,4 +1,4 @@
-# Parsing Numbers and IEEE-754
+---
 author: alexjmackey
 
 levels:
@@ -7,20 +7,19 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
 
 links:
 
-  - >-
-    [How numbers are
-    represented](http://steve.hollasch.net/cgindex/coding/ieeefloat.html){website}
-
+  - '[How numbers are represented](http://steve.hollasch.net/cgindex/coding/ieeefloat.html){website}'
   - '[IEEE association](http://standards.ieee.org/){website}'
+
+inAlgoPool:
 
 ---
 ## Content
+# Parsing Numbers and IEEE-754
 
 If you want to convert string input to a number type you can use the *parseInt* and *parseFloat* methods.
 
@@ -66,9 +65,10 @@ console.log(parseInt("abc",10));
 
 ```
 
-*`NaN`
-*`Error`
-*`10`
+
+* `NaN`
+* `Error`
+* `10`
 
 ---
 ## Revision
@@ -77,7 +77,9 @@ What method would you use to parse the following string so that it doesn't retur
 ```
 ???("0.2", 10);
 ```
-*`parseFloat`
-*`parseInt`
-*`parseString`
-*`parseDouble`
+
+* `parseFloat`
+* `parseInt`
+* `parseString`
+* `parseDouble`
+

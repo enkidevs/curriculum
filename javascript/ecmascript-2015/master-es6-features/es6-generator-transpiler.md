@@ -1,4 +1,4 @@
-# ES6 Generator Transpiler
+---
 author: rosielowther
 
 levels:
@@ -13,14 +13,16 @@ type: normal
 
 category: tip
 
+
 links:
 
   - '[github.com](https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/ch4.md){website}'
-
   - '[facebook.github.io](https://facebook.github.io/regenerator/){website}'
+
 
 ---
 ## Content
+# ES6 Generator Transpiler
 
 Generators are a new syntax in ES6. Unlike other ES6 features (such as Promises), Generators cannot be simply polyfilled on top of ES5. 
 
@@ -36,6 +38,7 @@ _https://facebook.github.io/regenerator/_
 
 What's required to make your JavaScript available to pre-ES6 browsers? ???
 
+
 * A transpiler or trans-compiler.
 * An Integrated Development Environment.
 * A bash terminal.
@@ -47,5 +50,7 @@ Can **Generators** be polyfilled on top of **ES5** ?
 
 ???
 
-*`no`
-*`yes`
+
+* `no`
+* `yes`
+

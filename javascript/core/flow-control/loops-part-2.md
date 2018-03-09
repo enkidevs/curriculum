@@ -1,4 +1,4 @@
-# Loops - Part 2
+---
 author: alexjmackey
 
 levels:
@@ -7,12 +7,15 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+
+
+inAlgoPool:
 
 ---
 ## Content
+# Loops - Part 2
 
 *for in* loops allow you to iterate through an objects keys. E.g. the keys below are firstName and lastName:
 
@@ -95,6 +98,7 @@ var myArray = [1,2,"3","item"];
   console.log(i);
 }
 ```
+
 * `for`
 * `of`
 * `myArray`
@@ -106,7 +110,9 @@ var myArray = [1,2,"3","item"];
 
 To exit a loop, you can use the ??? keyword.
 
+
 * break
 * stop
 * finish
 * end
+

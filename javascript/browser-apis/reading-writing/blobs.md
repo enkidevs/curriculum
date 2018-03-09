@@ -1,4 +1,4 @@
-# Blobs
+---
 author: tommarshall
 
 levels:
@@ -13,12 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
   - '[www.javascripture.com](http://www.javascripture.com/Blob){website}'
 
+
 ---
 ## Content
+# Blobs
 
 A *blob* object represents an "almost file" object of raw data. It represents data that isn't in JavaScript's standard format. You use *FileReader* to read data from a blob.
 
@@ -50,6 +53,7 @@ var blob = new ???([
     {type : 'application/json'});
 ```
 
+
 * `Blob`
 * `stringify`
 * `Instance`
@@ -67,8 +71,10 @@ var blob = instanceOfBlob.???([
  start, [, end [, contentType]]
 ]);
 ```
-*`slice`
-*`subset`
-*`splice`
-*`concat`
-*`stringify`
+
+* `slice`
+* `subset`
+* `splice`
+* `concat`
+* `stringify`
+

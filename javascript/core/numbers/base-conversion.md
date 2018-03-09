@@ -1,4 +1,4 @@
-# Base conversion
+---
 author: catalin
 
 levels:
@@ -11,8 +11,12 @@ type: normal
 
 category: how to
 
+
+
+
 ---
 ## Content
+# Base conversion
 
 Base conversion for `int` data types is easily achievable with the help of `toString` and `parseInt` functions. 
 
@@ -45,11 +49,12 @@ Complete the following code snippet:
 // convert "ad23e1" from base 16 to base 10
 console.log(???("ad23e1",???));
 ```
-*2
-*parseInt
-*16
-*10
-*”base 10”
+
+* 2
+* parseInt
+* 16
+* 10
+* ”base 10”
 
 ---
 ## Revision
@@ -61,8 +66,10 @@ console.log((132).toString(???));
 // convert "ead2" from base 15 to base 10
 console.log(???("ef2",???));
 ```
-*16
-*parseInt
-*15
-*10
-*”base 10”
+
+* 16
+* parseInt
+* 15
+* 10
+* ”base 10”
+

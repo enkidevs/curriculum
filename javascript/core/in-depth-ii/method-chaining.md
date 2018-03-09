@@ -1,4 +1,4 @@
-# Method chaining
+---
 author: dean
 
 levels:
@@ -15,15 +15,17 @@ category: pattern
 
 tags:
 
-  - 'method, function, chaining'
+  - method, function, chaining
+
 
 links:
 
-  - >-
-    [schier.co](http://schier.co/blog/2013/11/14/method-chaining-in-javascript.html){website}
+  - '[schier.co](http://schier.co/blog/2013/11/14/method-chaining-in-javascript.html){website}'
+
 
 ---
 ## Content
+# Method chaining
 
 Method chaining allows multiple methods to be called one after the other on the same object.
 
@@ -62,6 +64,8 @@ How is method chaining typically enabled?
 
 ???
 
-*Implementing methods that return `this`
-*No need for implementation
-*Updating the object to allow this
+
+* Implementing methods that return `this`
+* No need for implementation
+* Updating the object to allow this
+

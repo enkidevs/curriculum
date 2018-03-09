@@ -1,4 +1,4 @@
-# Round numbers to `N` decimals 
+---
 author: catalin
 
 levels:
@@ -11,8 +11,12 @@ type: normal
 
 category: how to
 
+
+
+
 ---
 ## Content
+# Round numbers to `N` decimals 
 
 Two methods that can be useful in rounding numbers.
 - `toFixed(n)`: argument provides the length after the decimal point
@@ -40,10 +44,11 @@ console.log((12.4513).???(3);
 //after the decimal point
 console.log((12.4513).???(3);
 ```
-*toPrecision
-*toFixed
-*dec
-*length
+
+* toPrecision
+* toFixed
+* dec
+* length
 
 ---
 ## Revision
@@ -54,5 +59,7 @@ var pi = 3.141592;
 console.log(pi.???(2));
 // 3.14
 ```
-*`toFixed`
-*`toPrecision`
+
+* `toFixed`
+* `toPrecision`
+

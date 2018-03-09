@@ -1,9 +1,12 @@
-# Handling Operational Errors
+---
 author: mihaiberq
 
 levels:
+
   - beginner
+
   - basic
+
   - medium
 
 type: normal
@@ -11,14 +14,20 @@ type: normal
 category: how to
 
 tags:
+
   - introduction
+
   - workout
 
+
 links:
-  - '[Node JS and Errors](https://www.joyent.com/node-js/production/design/errors)'
+
+  - '[Node JS and Errors](https://www.joyent.com/node-js/production/design/errors){website}'
+
 
 ---
 ## Content
+# Handling Operational Errors
 
 There isn't a single place in the application where errors can pop up, so you should be prepared to handle them wherever you are making a HTTP request, performing I/O operations, forking processes or validation input. You may end up handling the same error at different points of the stack, since those functions can't do more than passing the error.
 
@@ -84,15 +93,19 @@ main();
 
 ???
 
+
 * No error shown, only the message `reject_example`.
 * An exception with the message `throw_example`.
 * An exception with the message `reject_example`.
 * No error shown, only the message `throw_example`.
+
 ---
 ## Revision
 
 For correctness and consistency, when writing an asynchronous function, errors raised should be ???
 
+
 * returned
 * thrown
 * discarded
+

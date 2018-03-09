@@ -1,4 +1,4 @@
-# Conditional rendering (Part 1)
+---
 author: catalin
 
 levels:
@@ -15,14 +15,15 @@ type: normal
 
 category: how to
 
-parent: event-handling-in-react
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/conditional-rendering.html)'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/conditional-rendering.html){website}'
 
+parent: event-handling-in-react
 ---
 ## Content
+# Conditional rendering (Part 1)
 
 **Conditional rendering** is the long-standing technique of `render`ing different `element`s for different scenarios. 
 
@@ -72,7 +73,6 @@ class Message extends React.component {
 
 When rendering `Message` component with `isRaining=true`, it will make use of `<Rainy />` while otherwise it will use `<Sunny />`. In both cases the latter `<p>` is shown as well.
 
-
 ---
 ## Practice
 
@@ -98,6 +98,7 @@ ReactDOM.render(
 );
 ```
 
+
 * `props`
 * `show`
 * `?`
@@ -115,6 +116,7 @@ What does **React** use for **conditional rendering**?
 
 ???
 
+
 * standard `JS` - `if`s and ternary operators
 * the `renderIf` special method
 * the `renderIfElse` special method
@@ -122,7 +124,6 @@ What does **React** use for **conditional rendering**?
 
 ---
 ## Footnotes
-
 [1:Ternary operator]
 
 The **conditional** or **ternary** operator is the only `JS` operator taking 3 operands.

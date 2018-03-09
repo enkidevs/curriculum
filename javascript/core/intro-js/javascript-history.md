@@ -1,4 +1,4 @@
-# JavaScript History
+---
 author: alexjmackey
 
 levels:
@@ -7,17 +7,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
 
 links:
 
-  - >-
-    [www.w3.org](https://www.w3.org/community/webed/wiki/A_Short_History_of_JavaScript){website}
+  - '[www.w3.org](https://www.w3.org/community/webed/wiki/A_Short_History_of_JavaScript){website}'
+
+inAlgoPool:
 
 ---
 ## Content
+# JavaScript History
 
 Before we jump in, a few words on JavaScript history. It was initially developed by **Brendan Eich** in just *10 days* under the code name *Mocha* in May 1995. 
 
@@ -34,7 +35,9 @@ How is **JavaScript** related to **Java**?
 
 ???
 
-*They are not related
-*JavaScript has its origins in Java
-*They are basically the same
-*Java has its origins in JavaScript
+
+* They are not related
+* JavaScript has its origins in Java
+* They are basically the same
+* Java has its origins in JavaScript
+

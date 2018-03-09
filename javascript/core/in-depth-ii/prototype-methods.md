@@ -1,4 +1,4 @@
-# Prototype methods
+---
 author: dean
 
 levels:
@@ -15,10 +15,14 @@ category: pattern
 
 tags:
 
-  - 'prototype, methods, class, object'
+  - prototype, methods, class, object
+
+
+
 
 ---
 ## Content
+# Prototype methods
 
 Prototypes are objects with properties that other objects inherit. Therefore, any methods defined by the prototype are also inherited, and can be used by the inheriting object.
 
@@ -69,17 +73,20 @@ function MyHobby(hobby){
 var student = new MyHobby("studying");
 student.sayHobby();
 ```
-*prototype
-*sayHobby
-*MyHobby
-*studying
-*printHobby
+
+* prototype
+* sayHobby
+* MyHobby
+* studying
+* printHobby
 
 ---
 ## Revision
 
 An object that can be inherited is called ???.
 
-*prototype
-*variable
-*function
+
+* prototype
+* variable
+* function
+

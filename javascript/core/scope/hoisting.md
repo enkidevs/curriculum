@@ -1,4 +1,4 @@
-# Hoisting
+---
 author: AlexYancey
 
 levels:
@@ -13,10 +13,12 @@ type: normal
 
 category: feature
 
-notes: ''
 
+
+notes: 
 ---
 ## Content
+# Hoisting
 
 Think fast, what does this snippet print?
 
@@ -69,11 +71,12 @@ function calc() {
 calc();
 ```
 
-*`run: undefined, calc: 1` 
-*`run: 1, calc: 1` 
-*`run: 4, calc: 1` 
-*`run: 4, calc: 4` 
-*`run: undefined, calc: undefined`
+
+* `run: undefined, calc: 1` 
+* `run: 1, calc: 1` 
+* `run: 4, calc: 1` 
+* `run: 4, calc: 4` 
+* `run: undefined, calc: undefined`
 
 ---
 ## Revision
@@ -88,6 +91,8 @@ function go(){
 go(); 
 // ???
 ```
-*`undefined`
-*`1`
-*`2`
+
+* `undefined`
+* `1`
+* `2`
+

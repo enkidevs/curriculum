@@ -1,4 +1,4 @@
-# Double and single quotes
+---
 author: fsites
 
 levels:
@@ -15,10 +15,14 @@ category: best practice
 
 tags:
 
-  - 'json, readability'
+  - json, readability
+
+
+
 
 ---
 ## Content
+# Double and single quotes
 
 Generally, double and single quotes are handled the same way. 
 
@@ -37,6 +41,7 @@ However, modern linters often recommend using single quotes in JavaScript, with 
 
 JSON standards require strings to be ??? quoted. However some modern linters recommend using ??? quotes only in JavaScript.
 
+
 * double
 * single
 * no
@@ -46,5 +51,7 @@ JSON standards require strings to be ??? quoted. However some modern linters rec
 
 JSON standard requires every string to be ??? quoted.
 
-*double
-*single
+
+* double
+* single
+

@@ -1,4 +1,4 @@
-# Map (data structure)
+---
 author: alexjmackey
 
 levels:
@@ -7,18 +7,19 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
 
 links:
 
   - '[ponyfoo.com](https://ponyfoo.com/articles/es6-maps-in-depth){website}'
-  
   - '[MDN - Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map){website}'
+
+inAlgoPool:
 
 ---
 ## Content
+# Map (data structure)
 
 map is a new type of key/value object. 
 
@@ -67,3 +68,4 @@ And the map can be emptied using clear:
 ```
 map.clear();
 ```
+

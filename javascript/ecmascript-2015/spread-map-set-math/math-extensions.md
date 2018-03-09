@@ -1,4 +1,4 @@
-# Math Extensions
+---
 author: alexjmackey
 
 levels:
@@ -7,16 +7,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
 
 links:
 
   - '[ponyfoo.com](https://ponyfoo.com/articles/es6-math-additions-in-depth){website}'
 
+inAlgoPool:
+
 ---
 ## Content
+# Math Extensions
 
 In ES6 the *Math* object has been expanded with a lot of functionality. Many of the additions have very specific use cases so let's discuss those more likely to be used in every day development. 
 
@@ -45,3 +47,4 @@ Math.sign returns a value that represents whether a number is positive (1), nega
 Math.sign(1); //1
 Math.sign(-1); //-1
 ```
+

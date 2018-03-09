@@ -1,4 +1,4 @@
-# Array.copyWithin
+---
 author: lizTheDeveloper
 
 levels:
@@ -8,6 +8,8 @@ levels:
   - medium
 
 type: normal
+
+category: feature
 
 tags:
 
@@ -21,16 +23,16 @@ tags:
 
   - es6
 
-inAlgoPool: false
-
-category: feature
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin){website}'
 
+inAlgoPool:
+
 ---
 ## Content
+# Array.copyWithin
 
 **Array.copyWithin(targetArray, [start, [end]])** shallow copies part of an array into the same array without modifying the original array's size.
 
@@ -71,6 +73,7 @@ Complete the code example to create an array that looks like this:
 let ints = ['1','2','3','4','5','6','7'];
 ints.copyWithin(???,???,???)
 ```
+
 * 1
 * 2
 * 3
@@ -81,6 +84,7 @@ ints.copyWithin(???,???,???)
 * 8
 * 9
 * 0
+
 ---
 ## Revision
 
@@ -91,6 +95,7 @@ Complete the code example to create an array that looks like this:
 let ints = ['1','2','3','4','5','6'];
 ints.copyWithin(???,???,???)
 ```
+
 * 1
 * 2
 * 3
@@ -101,3 +106,4 @@ ints.copyWithin(???,???,???)
 * 8
 * 9
 * 0
+

@@ -1,4 +1,4 @@
-# `body-parser` in **Express**
+---
 author: catalin
 
 levels:
@@ -11,17 +11,16 @@ type: normal
 
 category: must-know
 
-parent: easy-way-to-deliver-html-pages-with-express
 
 links:
 
-  - >-
-    [medium.com](https://medium.com/@adamzerner/how-bodyparser-works-247897a93b90#.34biejvm1){website}
-
+  - '[medium.com](https://medium.com/@adamzerner/how-bodyparser-works-247897a93b90#.34biejvm1){website}'
   - '[github.com](https://github.com/expressjs/body-parser){website}'
 
+parent: easy-way-to-deliver-html-pages-with-express
 ---
 ## Content
+# `body-parser` in **Express**
 
 With the introduction of **Express 4.0**, the separate module `body-parser` was introduced as a replacement for the previous version.
 
@@ -67,13 +66,14 @@ app.use(
    extended: ???
 })); 
 ```
-*`urlencoded` 
-*`false` 
-*`true`
-*`parse`
-*`undefined` 
-*`encoded` 
-*`json`
+
+* `urlencoded` 
+* `false` 
+* `true`
+* `parse`
+* `undefined` 
+* `encoded` 
+* `json`
 
 ---
 ## Revision
@@ -83,9 +83,11 @@ app.use(
 app.???(bodyParser.???());
 ```
 
-*`use`
-*`json`
-*`json()`
-*`app`
-*`urlencoded`
-*`jsonParser`
+
+* `use`
+* `json`
+* `json()`
+* `app`
+* `urlencoded`
+* `jsonParser`
+

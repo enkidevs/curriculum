@@ -1,4 +1,4 @@
-# Network Information API
+---
 author: tommarshall
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [code.tutsplus.com](http://code.tutsplus.com/tutorials/html5-network-information-api--cms-21598){website}
+  - '[code.tutsplus.com](http://code.tutsplus.com/tutorials/html5-network-information-api--cms-21598){website}'
+
 
 ---
 ## Content
+# Network Information API
 
 The *Network Information API* provides information about the system's connection. It's used to choose either high definition or low definition content for a user, dependent on their connection. 
 
@@ -59,6 +61,7 @@ var connection = ???.connection ||
 var type = connection.type;
 ```
 
+
 * `navigator`
 * `mozConnection`
 * `webkitConnection`
@@ -77,8 +80,10 @@ connection.addEventListener('???',
   handlingFunction);
 ```
 
-*`typechange`
-*`type`
-*`change`
-*`update`
-*`statusChange`
+
+* `typechange`
+* `type`
+* `change`
+* `update`
+* `statusChange`
+

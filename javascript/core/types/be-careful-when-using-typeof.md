@@ -1,4 +1,4 @@
-# Be careful when using `typeof`.
+---
 author: Bruno
 
 levels:
@@ -11,16 +11,17 @@ category: tip
 
 tags:
 
-  - ''
+  - 
+
 
 links:
 
-  - >-
-    [Type detection
-    tutorial](http://javascript.info/tutorial/type-detection){tutorial}
+  - '[Type detection tutorial](http://javascript.info/tutorial/type-detection){tutorial}'
+
 
 ---
 ## Content
+# Be careful when using `typeof`.
 
 `typeof` returns "object" for all objects, and nothing more specific. 
 
@@ -41,6 +42,7 @@ What does the following return? ???
 typeof new Date();
 ```
 
+
 * An object
 * Null
 * A date
@@ -51,7 +53,9 @@ typeof new Date();
 
 `typeof(new Array())`  returns ??? and nothing more specific.
 
-*object
-*null
-*var
-*Array()
+
+* object
+* null
+* var
+* Array()
+

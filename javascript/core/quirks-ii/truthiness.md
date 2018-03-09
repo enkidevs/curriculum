@@ -1,4 +1,4 @@
-# Truthiness
+---
 author: adamMontgomerie
 
 levels:
@@ -23,16 +23,16 @@ tags:
 
   - boolean
 
+
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Glossary/Truthy){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Glossary/Truthy){website}'
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Glossary/Falsy){website}'
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Glossary/Falsy){website}
 
 ---
 ## Content
+# Truthiness
 
 In JavaScript, a *Truthy* value is any value which, when evaluated in a boolean context, is `true`. Similarly, a *Falsy* value is any value which evaluates to `false` in a boolean context.
 
@@ -72,6 +72,7 @@ if (NaN) ...
 if ([]) ...
 ```
 
+
 * F T F F T
 * F T F T T
 * T F T T F
@@ -82,7 +83,9 @@ if ([]) ...
 
 `false` ,`null` ,`NaN` are ??? values, while all javascript objects are ??? .
 
-*falsy
-*truthy
-*true
-*false
+
+* falsy
+* truthy
+* true
+* false
+

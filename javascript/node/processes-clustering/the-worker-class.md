@@ -1,4 +1,4 @@
-# The Worker Class
+---
 author: tommarshall
 
 levels:
@@ -13,8 +13,12 @@ type: normal
 
 category: tip
 
+
+
+
 ---
 ## Content
+# The Worker Class
 
 A *worker* object contains all the public information and methods from a worker. 
 
@@ -47,9 +51,11 @@ if (worker.???()) {
 }
 ```
 
+
 * `isConnected`
 * `process`
 * `connected`
 * `worker`
 * `isIPC`
 * `send`
+

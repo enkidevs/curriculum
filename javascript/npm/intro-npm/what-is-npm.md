@@ -1,20 +1,23 @@
-# What is npm?
+---
 author: mihaiberq
 
 levels:
+
   - beginner
 
 type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [docs.npmjs.com](https://docs.npmjs.com/getting-started/what-is-npm){website}
+  - '[docs.npmjs.com](https://docs.npmjs.com/getting-started/what-is-npm){website}'
+
 
 ---
 ## Content
+# What is npm?
 
 **Npm**, or **node package manager**, is a piece of software that facilitates the process of code sharing. Code can be made available as a package and downloaded using npm for use in a project.
 
@@ -35,6 +38,7 @@ The aim of a package is to
 
 ???
 
+
 * solve specific problems efficiently
 * solve every problem in an application efficiently
 * encapsulate the application
@@ -46,6 +50,8 @@ The aim of a package is to
 
 ???
 
+
 * node package manager
 * new package manager
 * node packet manager
+

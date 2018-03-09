@@ -1,4 +1,4 @@
-# The **React** element
+---
 author: catalin
 
 levels:
@@ -15,16 +15,15 @@ type: normal
 
 category: must-know
 
-parent: what-i-need-to-use-react
 
 links:
 
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/docs/rendering-elements.html){website}
+  - '[facebook.github.io](https://facebook.github.io/react/docs/rendering-elements.html){website}'
 
-
+parent: what-i-need-to-use-react
 ---
 ## Content
+# The **React** element
 
 An `element` in **React** is the most basic building block for describing your application's `UI`.
 
@@ -67,6 +66,7 @@ const element = <h2>Enki<h2>;
 );
 ```
 
+
 * `ReactDOM`
 * `element`
 * `root`
@@ -78,10 +78,10 @@ const element = <h2>Enki<h2>;
 ---
 ## Revision
 
-
 `React` elements are
 
 ???
+
 
 * immutable
 * mutable
@@ -89,10 +89,8 @@ const element = <h2>Enki<h2>;
 * components
 * classes
 
-
 ---
 ## Footnotes
-
 [1:ReactDOM]
 The `ReactDOM` module exposes **DOM** specific methods, being the *glue* between **React** and the **DOM**. Until recently, this package was bundled within the core **React**.
 

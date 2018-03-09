@@ -1,4 +1,4 @@
-# Avoid using `with`
+---
 author: rosielowther
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: best practice
 
+
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/with){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/with){website}'
+
 
 ---
 ## Content
+# Avoid using `with`
 
 The `with` statement shortens code by making it unnecessary to repeat object references.
 
@@ -56,16 +58,19 @@ var a, x;
 x = ??? ;
 a = ??? ;
 ```  
-*Math.random()
-*Math.exp(x)
-*Math.exp()
-*Math.random(x)
+
+* Math.random()
+* Math.exp(x)
+* Math.exp()
+* Math.random(x)
 
 ---
 ## Revision
 
 A downside of using `with` is that ???
 
-*you can make global variables by mistake.
-*it shortens code.
-*you don’t have to repeat object references.
+
+* you can make global variables by mistake.
+* it shortens code.
+* you don’t have to repeat object references.
+

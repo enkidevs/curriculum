@@ -1,4 +1,4 @@
-# CSP using _async-csp_ and ES7
+---
 author: rosielowther
 
 levels:
@@ -9,12 +9,15 @@ type: normal
 
 category: feature
 
+
 links:
 
   - '[www.npmjs.com](https://www.npmjs.com/package/async-csp){website}'
 
+
 ---
 ## Content
+# CSP using _async-csp_ and ES7
 
 _async-csp_ is a package which creates Communicating Sequential Processes (CSP) style **channels** using **ES7 async/await**.
 
@@ -37,6 +40,7 @@ async function puts(channel) {
 
 Which two functions are used to place a value onto a channel and to take a value from a channel? ???
 
+
 * `.put()` and `.take()`
 * `.add()` and `.remove()`
 * `.add()` and `.take()`
@@ -49,8 +53,10 @@ What does a **CSP Channel** use to handle the flow of data?
 
 ???
 
-*Promises
-*Generators
-*`put()`
-*`take()`
-*nothing
+
+* Promises
+* Generators
+* `put()`
+* `take()`
+* nothing
+

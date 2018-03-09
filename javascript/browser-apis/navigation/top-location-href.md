@@ -1,4 +1,4 @@
-# `top.location.href`
+---
 author: pawel
 
 levels:
@@ -11,16 +11,16 @@ type: normal
 
 category: tip
 
+
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Window/location){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Window/location){website}'
+  - '[www.w3schools.com](http://www.w3schools.com/js/js_window_location.asp){website}'
 
-  - >-
-    [www.w3schools.com](http://www.w3schools.com/js/js_window_location.asp){website}
 
 ---
 ## Content
+# `top.location.href`
 
 `top.location.href` returns the location of the topmost window in the window hierarchy. If a window has no parent, `top` is a reference to itself:
 ```
@@ -38,6 +38,7 @@ Assuming that the current window has no parent, what would the following check r
 window === window.top
 ```
 
+
 * True
 * False
 * Error
@@ -50,6 +51,8 @@ Assume current window has no parent. What will the output of the following check
 ```javascript
 window === window.top // ???
 ```
-*`true`
-*`false`
-*`error`
+
+* `true`
+* `false`
+* `error`
+

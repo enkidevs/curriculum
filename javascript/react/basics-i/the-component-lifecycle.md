@@ -1,4 +1,4 @@
-# The **component** lifecycle
+---
 author: catalin
 
 levels:
@@ -15,16 +15,16 @@ type: normal
 
 category: must-know
 
-parent: functional-components
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/state-and-lifecycle.html#adding-lifecycle-methods-to-a-class)'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/state-and-lifecycle.html#adding-lifecycle-methods-to-a-class){website}'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/react-component.html#the-component-lifecycle){website}'
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/react-component.html#the-component-lifecycle)'
-
+parent: functional-components
 ---
 ## Content
+# The **component** lifecycle
 
 **Lifecycle methods** are special methods that can be overridden by a **React** `component` to run code at a particular point in time.
 
@@ -59,14 +59,13 @@ By convention, methods starting with `will` are run **before** an event happens 
 
 Making use of **lifecycle methods** grants you improved control over the `component`, letting you perform optimisations, free up resources, integrate third-party libraries or even handle `props` and `state` better.
 
-
-
 ---
 ## Practice
 
 What **lifecycle method** is used to target the point in time **before** `render`ing?
 
 ???
+
 
 * `componentWillMount`
 * `componentDidMount`
@@ -80,6 +79,7 @@ Is `React.Component`'s `constructor(props)` method considered a **lifecycle hook
 
 ???
 
+
 * yes
 * no
 * only when setting `state`
@@ -87,7 +87,6 @@ Is `React.Component`'s `constructor(props)` method considered a **lifecycle hook
 
 ---
 ## Footnotes
-
 [1:mounting]
 
 **Mounting** refers to the initial insertion of a **React** `component` into the **DOM**.

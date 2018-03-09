@@ -1,4 +1,4 @@
-# Object - Part 1
+---
 author: alexjmackey
 
 levels:
@@ -7,18 +7,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
 
 links:
 
-  - >-
-    [Object-oriented
-    JS](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS){website}
+  - '[Object-oriented JS](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS){website}'
+
+inAlgoPool:
 
 ---
 ## Content
+# Object - Part 1
 
 JavaScript has a special type called *Object* which is a collection of keys and values.
  
@@ -78,8 +78,9 @@ Would the following line print "model"?
 ```
 console.log(car.test); // ???
 ```
-*no
-*yes
+
+* no
+* yes
 
 ---
 ## Revision
@@ -92,7 +93,9 @@ var per = {
 };
 ???
 ```
-*`per.age = 40;`
-*`var per.age = 40;`
-*`per[age] = 40;`
-*`per.addNewProperty(age,40);`
+
+* `per.age = 40;`
+* `var per.age = 40;`
+* `per[age] = 40;`
+* `per.addNewProperty(age,40);`
+

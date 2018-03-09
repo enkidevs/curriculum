@@ -1,4 +1,4 @@
-# Using JavaScript on a web page
+---
 author: alexjmackey
 
 levels:
@@ -7,12 +7,15 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+
+
+inAlgoPool:
 
 ---
 ## Content
+# Using JavaScript on a web page
 
 JavaScript is an interpreted language and needs a *host environment* such as a web browser to run (or in Node’s case, Google’s *v8 engine*).
 
@@ -69,9 +72,11 @@ console.log("enki");
 ???
 ```
 
-*`<script>`
-*`</script>`
-*`<script/>`
-*`/>`
-*`<script`
-*`src=`
+
+* `<script>`
+* `</script>`
+* `<script/>`
+* `/>`
+* `<script`
+* `src=`
+

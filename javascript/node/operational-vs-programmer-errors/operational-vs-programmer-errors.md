@@ -1,9 +1,12 @@
-# Operational vs. Programmer Errors
+---
 author: mihaiberq
 
 levels:
+
   - beginner
+
   - basic
+
   - medium
 
 type: normal
@@ -11,13 +14,18 @@ type: normal
 category: must-know
 
 tags:
+
   - introduction
 
+
 links:
-   - '[Distinguish operational from programmatic errors](https://github.com/i0natan/nodebestpractices/blob/master/sections/errorhandling/operationalvsprogrammererror.md)'
+
+  - '[Distinguish operational from programmatic errors](https://github.com/i0natan/nodebestpractices/blob/master/sections/errorhandling/operationalvsprogrammererror.md){website}'
+
 
 ---
 ## Content
+# Operational vs. Programmer Errors
 
 Errors in Node start off as scary. What if my server dies when there are hundreds of people connected? Do I restart it and disconnect all users? Do I handle all the possible errors such that no unwanted restart is needed?
 
@@ -63,6 +71,7 @@ http.request({host: test.com,
 ```
 ???
 
+
 * Handled operational error
 * Unhandled operational error
 * Handled programmer error
@@ -75,8 +84,10 @@ A programmer error is
 
 ???
 
+
 * a problem where the program unexpectedly crashes
 * a problem where the program expectedly crashes
 * a problem with the server configuration
 * a problem on the client
 * an unhandled exception
+

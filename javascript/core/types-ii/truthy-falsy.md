@@ -1,4 +1,4 @@
-# Truthy Falsy
+---
 author: alexjmackey
 
 levels:
@@ -7,12 +7,15 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+
+
+inAlgoPool:
 
 ---
 ## Content
+# Truthy Falsy
 
 All values in JavaScript have a special inherit *boolean* value of either *true* or *false*.
 
@@ -53,15 +56,18 @@ else {
 
 A null object is ???.
 
-*falsy
-*truthy
-*neither falsy nor truthy.
+
+* falsy
+* truthy
+* neither falsy nor truthy.
 
 ---
 ## Revision
 
 An empty string is ???.
 
-*falsy
-*truthy
-*neither falsy nor truthy
+
+* falsy
+* truthy
+* neither falsy nor truthy
+

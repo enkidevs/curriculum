@@ -1,4 +1,4 @@
-# Load Initial Data via AJAX
+---
 author: tommarshall
 
 levels:
@@ -13,15 +13,15 @@ type: normal
 
 category: must-know
 
-parent: custom-proptype-s-to-be-required
 
 links:
 
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/tips/initial-ajax.html){website}
+  - '[facebook.github.io](https://facebook.github.io/react/tips/initial-ajax.html){website}'
 
+parent: custom-proptype-s-to-be-required
 ---
 ## Content
+# Load Initial Data via AJAX
 
 Data is typically fetched in the  `componentDidMount` lifecycle method. When the response has arrived, the data's stored in a state, triggering a render to update your user interface.
 
@@ -47,3 +47,4 @@ var loadData = React.createClass({
   }
 });
 ```
+

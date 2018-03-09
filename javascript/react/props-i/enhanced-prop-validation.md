@@ -1,4 +1,4 @@
-# Enhanced `props` Validation
+---
 author: catalin
 
 levels:
@@ -15,10 +15,12 @@ type: normal
 
 category: how to
 
-parent: default-values-for-props
 
+
+parent: default-values-for-props
 ---
 ## Content
+# Enhanced `props` Validation
 
 In addition to standard *prop validations* for *JavaScript* primitives there are other types available through `React.PropTypes`.
 
@@ -73,6 +75,7 @@ Test.propTypes = {
               .???(???),
 };
 ```
+
 * `PropTypes`
 * `instanceOf`
 * `Enki`
@@ -96,6 +99,7 @@ Test.propTypes = {
               .???(???),
 };
 ```
+
 * `PropTypes`
 * `instanceOf`
 * `Enki`
@@ -104,3 +108,4 @@ Test.propTypes = {
 * `PropType`
 * `propType`
 * `oneOf`
+

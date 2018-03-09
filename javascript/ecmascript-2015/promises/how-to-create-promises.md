@@ -1,4 +1,4 @@
-# How To Create Promises
+---
 author: alexjmackey
 
 levels:
@@ -9,8 +9,6 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
 
@@ -18,8 +16,11 @@ links:
 
   - '[MDN - Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
 
+inAlgoPool:
+
 ---
 ## Content
+# How To Create Promises
 
 Promises are easy to create.
 
@@ -69,3 +70,4 @@ When resolve was called after two seconds we then logged this value to the conso
 It is important to note that you cannot cancel a promise once it's being processed and you cant check on its current state either.
 
 Next let's look at how to indicate something went wrong..
+

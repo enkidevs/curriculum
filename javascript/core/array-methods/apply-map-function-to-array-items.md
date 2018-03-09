@@ -1,4 +1,4 @@
-# Apply `map` function to array items
+---
 author: Dral
 
 levels:
@@ -17,8 +17,12 @@ tags:
 
   - functional-programming arrays
 
+
+
+
 ---
 ## Content
+# Apply `map` function to array items
 
 Using `.map` will apply a function to every element in the array, and return an array with the results.  
 ```
@@ -47,17 +51,20 @@ Map the following array to return the square of each element:
 var arr = [1,2,3,4,'map'].map(x => ???);
 // the result will be [1,4,9,16,???]
 ```
-*x*x
-*NaN
-*x^2
-*null
-*x+x
+
+* x*x
+* NaN
+* x^2
+* null
+* x+x
 
 ---
 ## Revision
 
 You have to modify the elements of an array after a single,certain rule. The best way to do it is using ??? .
 
-*map()
-*filter()
-*splice()
+
+* map()
+* filter()
+* splice()
+

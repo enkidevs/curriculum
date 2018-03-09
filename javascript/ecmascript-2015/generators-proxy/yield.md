@@ -1,4 +1,4 @@
-# yield
+---
 author: alexjmackey
 
 levels:
@@ -9,16 +9,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield#Examples){website}'
-  
+
+inAlgoPool:
+
 ---
 ## Content
+# yield
 
 We can actually make our number example even more succinct by using **yield***:
 ```
@@ -49,3 +51,4 @@ it.next();//Object {value: 3, done: false}
 it.next();//Object {value: 4, done: false}
 it.next();//Object {value: 5, done: false}
 ```
+

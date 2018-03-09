@@ -1,4 +1,4 @@
-# Difference between **.call** and **.apply** methods
+---
 author: Stefantudose
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/1986896/what-is-the-difference-between-call-and-apply){website}
+  - '[stackoverflow.com](http://stackoverflow.com/questions/1986896/what-is-the-difference-between-call-and-apply){website}'
+
 
 ---
 ## Content
+# Difference between **.call** and **.apply** methods
 
 The main difference between the two methods is the way they handle arguments.
 
@@ -37,6 +39,7 @@ function.apply(obj, [1, 2, 3]);
 
 The ??? method lets you invoke the method using an array as an argument whereas the ??? method require explicit parameters.
 
+
 * `.apply`
 * `.call`
 
@@ -48,5 +51,7 @@ What must be used so explicit arguments are required?
 function.???(obj, 1, 2, 3);
 ```
 
-*`call`
-*`apply`
+
+* `call`
+* `apply`
+

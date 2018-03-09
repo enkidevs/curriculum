@@ -1,22 +1,27 @@
-# Increase performance with `PROCESS.ENV`
+---
 author: catalin
 
 levels:
 
   - basic
+
   - medium
+
   - expert
 
 type: normal
 
 category: hack
 
+
 links:
 
   - '[Source](https://github.com/facebook/react/issues/812#issuecomment-172929366){website}'
 
+
 ---
 ## Content
+# Increase performance with `PROCESS.ENV`
 
 Each process is linked to a set of **environmental variables** that your application can use for various configurations.
 
@@ -51,13 +56,13 @@ This hack doesn't guarantee a big performance increase, but for servers making u
 
 In a similar fashion, it's better to cache the value of a variable that can be used multiple time instead of accessing `process.env` each time.
 
-
 ---
 ## Practice
 
 What kind of object is `process.env`?
 
 ???
+
 
 * live
 * plain JavaScript
@@ -89,6 +94,8 @@ for (y = 0; y < 10; y++) {
 ```
 ???
 
+
 * A
 * B
 * same performance
+

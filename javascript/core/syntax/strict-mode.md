@@ -1,4 +1,4 @@
-# Strict Mode
+---
 author: alexjmackey
 
 levels:
@@ -7,18 +7,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
 
 links:
 
-  - >-
-    [Mozilla Developer
-    Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode){website}
+  - '[Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode){website}'
+
+inAlgoPool:
 
 ---
 ## Content
+# Strict Mode
 
 EcmaScript **version 5** introduced a feature called **strict mode** that makes the JavaScript interpreter enforce a more stringent set of rules.
 
@@ -49,15 +49,16 @@ How do you enable **strict mode** in EcmaScript 5?
 ```
 "??? ???";
 ```
-*`use`
-*`strict`
-*`mode`
-*`str`
-*`let`
-*`var`
-*`strict-mode`
-*`enable`
-*`on`
+
+* `use`
+* `strict`
+* `mode`
+* `str`
+* `let`
+* `var`
+* `strict-mode`
+* `enable`
+* `on`
 
 ---
 ## Revision
@@ -67,12 +68,14 @@ How do you enable **strict mode** in EcmaScript 5?
 ```
 "??? ???";
 ```
-*`use`
-*`strict`
-*`mode`
-*`str`
-*`let`
-*`var`
-*`strict-mode`
-*`enable`
-*`on`
+
+* `use`
+* `strict`
+* `mode`
+* `str`
+* `let`
+* `var`
+* `strict-mode`
+* `enable`
+* `on`
+

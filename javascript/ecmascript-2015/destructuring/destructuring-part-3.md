@@ -1,4 +1,4 @@
-# Destructuring (Part 3)
+---
 author: alexjmackey
 
 levels:
@@ -7,16 +7,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: feature
 
-links: 
-  
+
+links:
+
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){website}'
-  
+
+inAlgoPool:
+
 ---
 ## Content
+# Destructuring (Part 3)
 
 Destructuring is very useful when working with arrays. 
 
@@ -44,3 +46,4 @@ Below we will ignore the second (200) value:
 ```
 [x, , z] = f(100,200, 300);
 ```
+

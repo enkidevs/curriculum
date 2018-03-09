@@ -1,4 +1,4 @@
-# How to merge two arrays
+---
 author: catalin
 
 levels:
@@ -11,12 +11,15 @@ type: normal
 
 category: hack
 
+
 links:
 
   - '[davidwalsh.name](https://davidwalsh.name/merge-arrays-javascript){website}'
 
+
 ---
 ## Content
+# How to merge two arrays
 
 `concat` is not always the best approach to merging arrays as it generates a new array. 
 
@@ -40,7 +43,6 @@ console.log([1, 2] + [3, 4])
 // 1,23,4
 ```
 
-
 ---
 ## Revision
 
@@ -56,24 +58,25 @@ Merge the two arrays in order:
 ???.prototype.???
                  .???(arrray1, arrray2);
 ```
-*`Array`
-*`push`
-*`apply`
-*`merge`
-*`arrayList`
-*`on`
-*`after`
-*`concat`
+
+* `Array`
+* `push`
+* `apply`
+* `merge`
+* `arrayList`
+* `on`
+* `after`
+* `concat`
 
 ---
 ## Quiz
+### what is the result of the following addition?
+console.log([3, 14] + [2, 71])
 
-headline: what is the result of the following addition?
+ ???
 
-question: console.log([3, 14] + [2, 71])
+* 3,142,71
+* 3,14,2,71
+* [3,14,2,71]
+* [5, 85]
 
-answers:
-  - "3,142,71"
-  - "3,14,2,71"
-  - "[3,14,2,71]"
-  - "[5, 85]"

@@ -1,4 +1,4 @@
-# Spread (Part 2)
+---
 author: alexjmackey
 
 levels:
@@ -7,18 +7,19 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
 
 links:
 
   - '[ponyfoo.com](https://ponyfoo.com/articles/es6-spread-and-butter-in-depth){website}'
-  
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Spread_operator){website}'
-  
+
+inAlgoPool:
+
 ---
 ## Content
+# Spread (Part 2)
 
 The spread syntax is particularly useful when working with arrays and we can use it to copy an array (previously you would probably have used slice to accomplish this):
 
@@ -40,3 +41,4 @@ Or add on the end of an existing array:
 original.push(...copyOfOriginal);
 //[1, 2, 3, 1, 2, 3]
 ```
+

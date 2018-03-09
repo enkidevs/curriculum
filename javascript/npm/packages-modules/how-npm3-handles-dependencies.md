@@ -1,20 +1,26 @@
-# How npm3 handles dependencies
+---
 author: mihaiberq
 
 levels:
+
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: feature
 
-parent: deprecated-peer-dependencies
 
+
+parent: deprecated-peer-dependencies
 ---
 ## Content
+# How npm3 handles dependencies
 
 The main reason why a change to the installation pattern was needed is because of the potential for deep nesting: when multiple packages depend on PackageA each would have the PackageA installed as one of their node_modules. This is not scalable.
 
@@ -69,6 +75,7 @@ What is the main difference between how npm2 and npm3 handles dependencies?
 
 ???
 
+
 * `node_modules` structure depends on the declaration order
 * dependencies are always updated to their latest version
 * dependencies can be locked to at specific version
@@ -78,6 +85,8 @@ What is the main difference between how npm2 and npm3 handles dependencies?
 
 Flat installing dependencies of dependencies is a feature of ???.
 
+
 * npm3
 * npm2
 * npm1
+

@@ -1,4 +1,4 @@
-# Custom validator functions for `props`
+---
 author: catalin
 
 levels:
@@ -15,15 +15,15 @@ type: normal
 
 category: feature
 
-parent: enhanced-prop-validation
 
 links:
 
-  - >-
-    [rjzaworski.com](http://rjzaworski.com/2015/01/putting-react-custom-proptypes-to-work){website}
+  - '[rjzaworski.com](http://rjzaworski.com/2015/01/putting-react-custom-proptypes-to-work){website}'
 
+parent: enhanced-prop-validation
 ---
 ## Content
+# Custom validator functions for `props`
 
 **React** allows  you to define and use custom *validator functions* for your props. These can be used inside `propTypes`.
  
@@ -70,6 +70,7 @@ function (???, ???, ???) {
  //check here
 }
 ```
+
 * `props`
 * `propName`
 * `componentName`
@@ -87,6 +88,7 @@ function (???, ???, ???) {
  //check here
 }
 ```
+
 * `props`
 * `propName`
 * `componentName`
@@ -97,6 +99,5 @@ function (???, ???, ???) {
 
 ---
 ## Footnotes
-
 [1:Arguments]
 `location` can also be used as the last argument.

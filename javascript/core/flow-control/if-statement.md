@@ -1,4 +1,4 @@
-# If Statement
+---
 author: alexjmackey
 
 levels:
@@ -7,12 +7,15 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+
+
+inAlgoPool:
 
 ---
 ## Content
+# If Statement
 
 Like most programming languages JavaScript has a number of flow control statements including the standard *if*, *if else* and *switch* statements.
 
@@ -76,13 +79,14 @@ Complete the basic syntax of the following `switch` statement:
 
 ```
 
-*`switch`
-*`case`
-*`default`
-*`break`
-*`if`
-*`else`
-*`if else`
+
+* `switch`
+* `case`
+* `default`
+* `break`
+* `if`
+* `else`
+* `if else`
 
 ---
 ## Revision
@@ -96,12 +100,14 @@ if (condition <= 0) {
 }
 
 ```
-*`else`
-*`if`
-*`case`
-*`break`
-*`if else`
-*`else if`
-*`switch`
-*`case`
-*`==`
+
+* `else`
+* `if`
+* `case`
+* `break`
+* `if else`
+* `else if`
+* `switch`
+* `case`
+* `==`
+

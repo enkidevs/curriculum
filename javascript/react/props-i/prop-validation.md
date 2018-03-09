@@ -1,4 +1,4 @@
-# `props` Validation
+---
 author: catalin
 
 levels:
@@ -15,15 +15,15 @@ type: normal
 
 category: best practice
 
-parent: destructuring-arguments
 
 links:
 
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#react.proptypes){website}
+  - '[facebook.github.io](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#react.proptypes){website}'
 
+parent: destructuring-arguments
 ---
 ## Content
+# `props` Validation
 
 `JavaScript` being a loosely typed language you can experience runtime errors when you expect data of one type but receive another. *React* helps us in this by providing a feature called `propTypes`.
 
@@ -67,6 +67,7 @@ Test.propTypes = {
 };
 ```
 
+
 * `PropTypes`
 * `func`
 * `object`
@@ -91,6 +92,7 @@ Test.propTypes = {
 };
 ```
 
+
 * `PropTypes`
 * `func`
 * `object`
@@ -101,3 +103,4 @@ Test.propTypes = {
 * `method`
 * `Props`
 * `Primitives`
+

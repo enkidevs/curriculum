@@ -1,4 +1,4 @@
-# JavaScript compilation
+---
 author: rosielowther
 
 levels:
@@ -13,8 +13,12 @@ type: normal
 
 category: feature
 
+
+
+
 ---
 ## Content
+# JavaScript compilation
 
 A common **misconception** is that JavaScript is **not compiled**.
 
@@ -58,6 +62,7 @@ function test() {
 }
 ```
 
+
 * global
 * test
 * test2
@@ -80,7 +85,9 @@ function foo(){ // foo is in global
   }
 }
 ```
-*global
-*foo
-*fee
-*local
+
+* global
+* foo
+* fee
+* local
+
