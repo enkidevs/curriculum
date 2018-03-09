@@ -1,4 +1,4 @@
-# The `not` operator
+---
 author: tommarshall
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# The `not` operator
 
 Using Python's `not` operator pre boolean expression will simply negate it.
 
@@ -43,6 +47,8 @@ print(True == (not True))
 ```
 ???
 
-*False
-*True
-*Error
+
+* False
+* True
+* Error
+

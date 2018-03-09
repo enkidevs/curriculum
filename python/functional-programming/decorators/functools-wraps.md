@@ -1,4 +1,4 @@
-# Functools' `wraps`
+---
 author: mihaiberq
 
 levels:
@@ -9,8 +9,12 @@ type: normal
 
 category: feature
 
+
+
+
 ---
 ## Content
+# Functools' `wraps`
 
 As useful as decorators can be, they prove hard to debug. One important reason for that is the wrapping mechanism: the decorator overrides the wrapped function's properties, such as the name or the documentation (*docstrings*[1]).   
 
@@ -51,20 +55,19 @@ print(say_hello.__doc__)
 ```
 
 ---
-## Footnotes
-
-[1: Docstring]
-Python docstrings are a way of documenting code. The docstring for an object should be the first statement of that object, after the definition. They are recognized by the Python compiler and can be accessed via `__doc__` property of the object.
-
-
----
 ## Revision
 
 The `wraps` function of `functools` module works like any other
 
 ???
 
+
 * decorator
 * method
 * module
 * class method
+
+---
+## Footnotes
+[1: Docstring]
+Python docstrings are a way of documenting code. The docstring for an object should be the first statement of that object, after the definition. They are recognized by the Python compiler and can be accessed via `__doc__` property of the object.

@@ -1,4 +1,4 @@
-# `Dictionary` - standard mapping type
+---
 author: catalin
 
 levels:
@@ -9,13 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#mapping-types-dict){website}
+  - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#mapping-types-dict){website}'
+
 
 ---
 ## Content
+# `Dictionary` - standard mapping type
 
 The **dictionary** (dict) is Python's main mapping type. It maps **hashable** values to arbitrary objects, as long as they provide key integrity (their value cannot be changed after being initialized, e.g. lists will throw an error). Dictionaries are equivalent to Java's HashMap or C's hash tables.
 
@@ -50,7 +52,9 @@ Which of the following is __not__ a valid syntax for creating a Python dictionar
 ```
 ???
 ```
+
 * `['first':1, 'second':2]`
 * `dict(first=1, second=2)`
 * `dict({'first':1, 'second':2})`
 * `dict.fromkeys(('first', 'second'))`
+

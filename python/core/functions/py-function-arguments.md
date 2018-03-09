@@ -1,4 +1,4 @@
-# Function arguments
+---
 author: SebaRaba
 
 levels:
@@ -9,12 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[More about arguments](https://www.tutorialspoint.com/python/python_functions.htm)'
+  - '[More about arguments](https://www.tutorialspoint.com/python/python_functions.htm){website}'
+
 
 ---
 ## Content
+# Function arguments
 
 Functions can be called using any of the following types of arguments (also called parameters):
 - Required arguments
@@ -121,6 +124,7 @@ foo(name, department);
 ```
 ???
 
+
 * Yes, it will.
 * No, it won't.
 * Yes, but only for some input.
@@ -137,6 +141,8 @@ def foo(product, ???, ???):
 
 foo('Baseball bat', ???)
 ```
+
 * quantity
 * price='$1.00'
 * 150
+

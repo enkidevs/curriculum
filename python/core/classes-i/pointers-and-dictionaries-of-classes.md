@@ -1,4 +1,4 @@
-# Pointers and Dictionaries of Classes
+---
 author: tommarshall
 
 levels:
@@ -9,8 +9,12 @@ type: normal
 
 category: must-know
 
+
+
+
 ---
 ## Content
+# Pointers and Dictionaries of Classes
 
 When saying two class instances are equal to one another, the instance on the left becomes the class instance on the right.
 
@@ -47,7 +51,9 @@ Pick the true statement about the snippet below:
 objA = objB
 ```
 ???
+
 * `objA` points to `objB`
 * `objB` points to `objA`
 * `objA` is not `objB`
 * `objB` is not `objA`
+

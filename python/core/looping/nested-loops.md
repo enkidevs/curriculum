@@ -1,4 +1,4 @@
-# Nested Loops
+---
 author: tommarshall
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# Nested Loops
 
 A nested loop in Python is where you have one loop inside of another loop. The inner loop will complete an entire sequence whilst the outer loop will increment once.
 
@@ -64,6 +68,8 @@ c
 How do nested loops work?
 ???
 
+
 * The outer loop increments once per full cycle of the inner loop.
 * The inner loop increments once per full cycle of the outer loop.
 * The inner and outer loops increment simultaneously.
+

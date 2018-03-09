@@ -1,4 +1,4 @@
-# Using Lists as Queues
+---
 author: SebaRaba
 
 levels:
@@ -9,12 +9,15 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - '[More about lists as queues](https://welcomedata.wordpress.com/2015/07/03/using-lists-as-stacks-and-queues-in-python/)'
+  - '[More about lists as queues](https://welcomedata.wordpress.com/2015/07/03/using-lists-as-stacks-and-queues-in-python/){website}'
+
 
 ---
 ## Content
+# Using Lists as Queues
 
 It's appropriate to create a **new class** to help implement an **abstract data type** such as a **queue**. We will use **list** data structures this time.
 
@@ -69,6 +72,7 @@ print(n)
 ```
 ???
 
+
 * Queue, 7, 1, 0, 2, my_queue
 * queue, 2, 0, 1, 7, my_queue
 * Queue, 2, 0, 1, 7, my_queue
@@ -95,7 +99,9 @@ for n in temp.items:
 ```
 ???
 
+
 * 5 E U E U Q
 * 5 Q U E U E
 * Q U E U E
 * E U E U Q
+

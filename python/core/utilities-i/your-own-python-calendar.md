@@ -1,4 +1,4 @@
-# Your own Python `calendar` 
+---
 author: catalin
 
 levels:
@@ -11,6 +11,11 @@ type: normal
 
 category: how to
 
+
+links:
+
+  - '[docs.python.org](https://docs.python.org/3.5/library/calendar.html){website}'
+
 notes: |
   Added:
 
@@ -19,13 +24,9 @@ notes: |
 
   to show how to print calendar for a year.
 
-links:
-
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/calendar.html){website}
-
 ---
 ## Content
+# Your own Python `calendar` 
 
 The Python `calendar` module defines the `Calendar` class. This is used for various date calculations as well as `TextCalendar` and `HTMLCalendar` classes with their `local` subclasses, used for rendering pre formatted output.
 
@@ -80,11 +81,12 @@ Set the first day of the week of your `calendar` to be Monday:
 calendar.??? \
   (calendar.MONDAY) 
 ```
-*`setfirstweekday` 
-*`setweekday` 
-*`setfirstday` 
-*`firstweekday` 
-*`firstday`
+
+* `setfirstweekday` 
+* `setweekday` 
+* `setfirstday` 
+* `firstweekday` 
+* `firstday`
 
 ---
 ## Revision
@@ -96,7 +98,9 @@ import calendar
 print(calendar.???(2016))
 ```
 
-*`calendar` 
-*`year` 
-*`currentYear` 
-*`annum`
+
+* `calendar` 
+* `year` 
+* `currentYear` 
+* `annum`
+

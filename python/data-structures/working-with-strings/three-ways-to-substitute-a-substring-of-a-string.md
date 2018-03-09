@@ -1,4 +1,4 @@
-# Three ways to substitute a substring of a string
+---
 author: Aaron7Sun
 
 levels:
@@ -13,8 +13,12 @@ type: normal
 
 category: tip
 
+
+
+
 ---
 ## Content
+# Three ways to substitute a substring of a string
 
 1) `string.Template`
 ```python
@@ -54,14 +58,15 @@ print(t
  .???(weather="sunny"))
 ```
 
-*`Template` 
-*`$` 
-*`substitute` 
-*`format` 
-*`%` 
-*`{` 
-*`dict` 
-*`mod`
+
+* `Template` 
+* `$` 
+* `substitute` 
+* `format` 
+* `%` 
+* `{` 
+* `dict` 
+* `mod`
 
 ---
 ## Revision
@@ -73,9 +78,11 @@ print(my_string
   .???(???="evening"))
 ```
 
-*`format` 
-*`time` 
-*`first` 
-*`{time}` 
-*`substitute` 
-*`sub`
+
+* `format` 
+* `time` 
+* `first` 
+* `{time}` 
+* `substitute` 
+* `sub`
+

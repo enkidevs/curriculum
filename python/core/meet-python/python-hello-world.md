@@ -1,4 +1,4 @@
-# Hello World!
+---
 author: tommarshall
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# Hello World!
 
 We can write our first Python program, and print Hello World to the console!
 
@@ -36,7 +40,9 @@ Complete the code snippet:
 ```
 ???('Python with Enki!')
 ```
-*`print`
-*`write`
-*`sys.out`
-*`writeln`
+
+* `print`
+* `write`
+* `sys.out`
+* `writeln`
+

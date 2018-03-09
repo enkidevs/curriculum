@@ -1,4 +1,4 @@
-# Benefits of using generators
+---
 author: Ricardo
 
 levels:
@@ -19,13 +19,15 @@ tags:
 
   - performance
 
+
 links:
 
-  - >-
-    [www.jeffknupp.com](https://www.jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/){website}
+  - '[www.jeffknupp.com](https://www.jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/){website}'
+
 
 ---
 ## Content
+# Benefits of using generators
 
 Generators are functions which behave like iterators, but can have better performance characteristics. These include:   
 
@@ -40,5 +42,7 @@ However, the set of generated values can only be used once.
 
 Because generators create values on demand, this results in ??? memory consumption.
 
-*lower
-*higher
+
+* lower
+* higher
+

@@ -1,4 +1,4 @@
-# `break` and `continue` statements
+---
 author: tommarshall
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# `break` and `continue` statements
 
 Python's `break` statement is used to terminate the current loop, either a for or a while loop, it then resumes the code execution at the following statement.
 
@@ -63,6 +67,7 @@ Which keyword is used to skip the current code block, and to resume execution at
 
 ???
 
+
 * `continue`
 * `break`
 * `restart`
@@ -74,6 +79,8 @@ Which keyword is used to terminate the current loop, then resuming code executio
 
 ???
 
+
 * `break`
 * `continue`
 * `next`
+

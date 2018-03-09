@@ -1,4 +1,4 @@
-# Unicode character database at your hands
+---
 author: catalin
 
 levels:
@@ -11,18 +11,20 @@ levels:
 
 type: normal
 
+category: feature
+
 inAlgoPool: false
 
-category: feature
 
 links:
 
   - '[pymotw.com](https://pymotw.com/2/codecs/){website}'
-
   - '[docs.python.org](https://docs.python.org/3.5/library/codecs.html){website}'
+
 
 ---
 ## Content
+# Unicode character database at your hands
 
 Python's self explanatory module called `unicodedata` provides the user with access to the **Unicode Character Database** and implicitly every character's properties.
 
@@ -63,12 +65,13 @@ Get the category of the specified character:
 #Letter, uppercase
 ```
 
-*`unicodedata` 
-*`category` 
-*`lookup` 
-*`name` 
-*`unicode` 
-*`data`
+
+* `unicodedata` 
+* `category` 
+* `lookup` 
+* `name` 
+* `unicode` 
+* `data`
 
 ---
 ## Revision
@@ -79,6 +82,8 @@ Get the name of a character specified:
 ‘TILDE’
 ```
 
-*`name` 
-*`lookup` 
-*`category`
+
+* `name` 
+* `lookup` 
+* `category`
+

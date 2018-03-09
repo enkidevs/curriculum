@@ -1,4 +1,4 @@
-# List comprehension
+---
 author: catalin
 
 levels:
@@ -11,13 +11,15 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#list-comprehensions){website}
+  - '[docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#list-comprehensions){website}'
+
 
 ---
 ## Content
+# List comprehension
 
 **List comprehensions** are a concise way of creating lists, in a somewhat declarative style.
 
@@ -78,3 +80,4 @@ if square(i) < 50 ]
 [0, 1, 2, 3, 4, 5, 6, 7]
 
 ```
+

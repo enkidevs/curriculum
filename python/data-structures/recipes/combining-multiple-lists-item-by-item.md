@@ -1,4 +1,4 @@
-# Combining multiple lists, item by item
+---
 author: Aaron7Sun
 
 levels:
@@ -13,8 +13,12 @@ type: normal
 
 category: tip
 
+
+
+
 ---
 ## Content
+# Combining multiple lists, item by item
 
 The built-in `zip` function can be used to zip lists together.
 
@@ -46,6 +50,8 @@ tuple = ???(letters, values)
 tuple = [('a', 1), ('b', 2), ('c', 3)]
 ```
 
+
 * `zip`
 * `button`
 * `combine`
+

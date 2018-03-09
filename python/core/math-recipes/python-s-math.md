@@ -1,4 +1,4 @@
-# Python's `math`
+---
 author: catalin
 
 levels:
@@ -9,9 +9,14 @@ levels:
 
 type: normal
 
+category: feature
+
 inAlgoPool: false
 
-category: feature
+
+links:
+
+  - '[docs.python.org](https://docs.python.org/3.5/library/math.html){website}'
 
 notes: |+
   Math modules workout.
@@ -30,12 +35,10 @@ notes: |+
   difference between them.
 
 
-links:
-
-  - '[docs.python.org](https://docs.python.org/3.5/library/math.html){website}'
 
 ---
 ## Content
+# Python's `math`
 
 The `math` module provides the user with mathematical functions common in the C standard library.
 
@@ -94,11 +97,12 @@ import math
 ???.???(var)
 ```
 
-*`math` 
-*`isinf` 
-*`mathematics` 
-*`is_inf` 
-*`infinite`
+
+* `math` 
+* `isinf` 
+* `mathematics` 
+* `is_inf` 
+* `infinite`
 
 ---
 ## Revision
@@ -108,8 +112,10 @@ Using the `math`  module, assign to `a` the value of `PI` :
 a = ???.???
 ```
 
-*`math` 
-*`pi` 
-*`constants` 
-*`e` 
-*`3.14`
+
+* `math` 
+* `pi` 
+* `constants` 
+* `e` 
+* `3.14`
+

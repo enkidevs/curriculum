@@ -1,4 +1,4 @@
-# Dictionary comprehension
+---
 author: catalin
 
 levels:
@@ -13,19 +13,19 @@ type: normal
 
 category: must-know
 
-parent: list-comprehension
 
+links:
+
+  - '[www.bogotobogo.com](http://www.bogotobogo.com/python/python_dictionary_comprehension_with_zip_from_list.php){website}'
+
+parent: list-comprehension
 notes: >
   Added a slightly more advanced example using a dict to count frequencies of
   lower case letters. 
 
-links:
-
-  - >-
-    [www.bogotobogo.com](http://www.bogotobogo.com/python/python_dictionary_comprehension_with_zip_from_list.php){website}
-
 ---
 ## Content
+# Dictionary comprehension
 
 Python provides a way of creating dictionaries using **dictionary comprehensions**.
 
@@ -80,3 +80,4 @@ print(lfk)
 'y', 'z']
 
 ```
+

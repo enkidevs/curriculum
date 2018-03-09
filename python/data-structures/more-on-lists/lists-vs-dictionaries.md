@@ -1,4 +1,4 @@
-# Lists vs Dictionaries.
+---
 author: SebaRaba
 
 levels:
@@ -9,12 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[More information here](https://monjurulhabib.wordpress.com/2016/09/22/python-when-to-use-list-vs-tuple-vs-dictionary-vs-set-theory/)'
+  - '[More information here](https://monjurulhabib.wordpress.com/2016/09/22/python-when-to-use-list-vs-tuple-vs-dictionary-vs-set-theory/){website}'
+
 
 ---
 ## Content
+# Lists vs Dictionaries.
 
 The **list** is the most versatile data structure available in **Python**.
 
@@ -56,6 +59,7 @@ print(dict[Name], '\n', dict[Year])
 What complexity is required for a lookup on a list?
 ???
 
+
 * `O(n)`
 * `O(1)`
 * `O(n^2)`
@@ -74,6 +78,8 @@ print(my_dict.__(my_list[__]))
 We want to access value `5` from the dictionary using one of the list's elements.
 ???
 
+
 * get(), 1
 * get(), 2
 * getitem(), 0
+

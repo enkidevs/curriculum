@@ -1,4 +1,4 @@
-# Keep large lists sorted with `bisect`
+---
 author: catalin
 
 levels:
@@ -11,12 +11,15 @@ type: normal
 
 category: best practice
 
+
 links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/bisect.html){website}'
 
+
 ---
 ## Content
+# Keep large lists sorted with `bisect`
 
 Using the basic **bisection algorithm**, Python's `bisect` module provides a more efficient way of inserting elements into a list while keeping it **sorted**.
 
@@ -60,6 +63,7 @@ a = [0, 1, 2, 2, 2, 3]
 ```
 What will the output of `print(bisect.bisect(a, 2))` be? ???
 
+
 * 5
 * 2
 * 4
@@ -71,6 +75,8 @@ What will the output of `print(bisect.bisect(a, 2))` be? ???
  - `insort`: ???
  - `bisect`: ???
 
+
 * inserts a new element into an ordered list
 * returns the position where to insert a new element in a sorted list
 * sorts and returns an unsorted list
+

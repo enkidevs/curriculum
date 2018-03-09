@@ -1,4 +1,4 @@
-# Private Variables 
+---
 author: catalin
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#private-variables){website}
+  - '[docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#private-variables){website}'
+
 
 ---
 ## Content
+# Private Variables 
 
 Really **private** instance variables (variables that can't be accessed except from within the object) **do not exist** in Python. But the following naming convention makes Python rename the variable. so it becomes pseudo-private:
 
@@ -61,10 +63,11 @@ print(t.__x)
 ??? 
 ```
 
-*`AttributeError` 
-*`PrivateError` 
-*`Hey there` 
-*`hey there`
+
+* `AttributeError` 
+* `PrivateError` 
+* `Hey there` 
+* `hey there`
 
 ---
 ## Revision
@@ -74,10 +77,12 @@ Complete the following line such that the `private` variable is considered priva
 ???private = 30
 ```
 
-*`__` 
-*`&&` 
-*`--` 
-*`def` 
-*`class` 
-*`private` 
-*`p_`
+
+* `__` 
+* `&&` 
+* `--` 
+* `def` 
+* `class` 
+* `private` 
+* `p_`
+

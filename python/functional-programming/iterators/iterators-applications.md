@@ -1,4 +1,4 @@
-# Iterators Applications
+---
 author: stefkn
 
 levels:
@@ -13,12 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[Iterators and Generators](http://chimera.labs.oreilly.com/books/1230000000393/ch04.html)'
+  - '[Iterators and Generators](http://chimera.labs.oreilly.com/books/1230000000393/ch04.html){website}'
+
 
 ---
 ## Content
+# Iterators Applications
 
 Iterators are very practically useful. In many cases, they can achieve the same results with far fewer lines of code and while using less resources than other approaches, since with iterators we can guarantee we will access the next item in the collection without having to keep the entire collection and our position inside it within memory.
 
@@ -119,6 +122,7 @@ while True:
   ???
 ```
 
+
 * `if line is None: break`
 * `if Line is None: break`
 * `catch StopIteration: `
@@ -131,6 +135,7 @@ What method must a custom class implement to be able to support creating iterato
 
 ???
 
+
 * `__iter__()`
 * `__next__()`
 * `__self__()`
@@ -138,6 +143,5 @@ What method must a custom class implement to be able to support creating iterato
 
 ---
 ## Footnotes
-
 [1:I/O Operations]
 It's generally recommended to close files as soon as you've extracted the data you need to a separate data structure to avoid the possibility of concurrent access errors, or issues with other processes (whether they be OS or third party) wanting to access the same file at the same time. It also happens to be more efficient as the mode-bit change and context switch required to execute the system call to read from storage causes some overhead.

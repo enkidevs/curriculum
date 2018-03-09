@@ -1,4 +1,4 @@
-# Inheritance
+---
 author: mihaiberq
 
 levels:
@@ -9,8 +9,12 @@ type: normal
 
 category: must-know
 
+
+
+
 ---
 ## Content
+# Inheritance
 
 Inheritance in Python allows you to define a class which is based on another existing class.
 
@@ -52,6 +56,7 @@ The concept of *inheritance* refers to a child class receiving parent's class
 
 ???
 
+
 * attributes and methods
 * class name and attributes
 * methods
@@ -75,7 +80,9 @@ class Employee(Person):
   ...
 ```
 ???
+
 * C
 * A
 * B
 * none
+

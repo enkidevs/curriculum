@@ -1,4 +1,4 @@
-# Check available python modules
+---
 author: Ricardo
 
 levels:
@@ -19,13 +19,15 @@ tags:
 
   - imports
 
+
 links:
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/739993/how-can-i-get-a-list-of-locally-installed-python-modules){website}
+  - '[stackoverflow.com](http://stackoverflow.com/questions/739993/how-can-i-get-a-list-of-locally-installed-python-modules){website}'
+
 
 ---
 ## Content
+# Check available python modules
 
 Find a list of all python modules installed on a machine by running the following command in a terminal.
 
@@ -51,12 +53,13 @@ Complete the following command such that when used in the Python interactive she
 >>> ???(???)
 ```
 
-*`help` 
-*`'modules'` 
-*`pydoc` 
-*`modules` 
-*`get` 
-*`show`
+
+* `help` 
+* `'modules'` 
+* `pydoc` 
+* `modules` 
+* `get` 
+* `show`
 
 ---
 ## Revision
@@ -65,7 +68,9 @@ What command/s can be ran in **a terminal*** in order to see all Python modules 
 
 ???
 
-*`pydoc modules` 
-*`help('modules')` 
-*`both` 
-*`neither`
+
+* `pydoc modules` 
+* `help('modules')` 
+* `both` 
+* `neither`
+
