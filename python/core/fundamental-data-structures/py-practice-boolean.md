@@ -19,7 +19,8 @@ links:
 
 ---
 ## Exercises
-codewars-link: https://www.codewars.com/kata/you-only-need-one-beginner
+linkType: codewars
+link: https://www.codewars.com/kata/you-only-need-one-beginner
 standards:
   py.data-structures-uses.0:1000
   py.native-types-operations.0:1000
