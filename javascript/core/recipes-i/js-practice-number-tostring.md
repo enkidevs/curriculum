@@ -12,6 +12,8 @@ type: exercise
 links:
 
   - '[MDN - Number class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)'
+  - '[MDN - Number.toString](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toString)'
+  - '[MDN - Number.toLocaleString](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString)'
 
 ---
 ## Exercises

@@ -12,6 +12,9 @@ type: exercise
 links:
 
   - '[MDN - String class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)'
+  - '[MDN - String.slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice)'
+  - '[MDN - String.substring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring)'
+  - '[MDN - String.substr](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr)'
 
 ---
 ## Exercises

@@ -12,6 +12,9 @@ type: exercise
 links:
 
   - '[MDN - String class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)'
+  - '[MDN - String.charAt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt)'
+  - '[MDN - String.charCodeAt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt)'
+  - '[MDN - String.fromCharCode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode)'
 
 ---
 ## Exercises

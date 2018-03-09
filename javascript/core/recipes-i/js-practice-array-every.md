@@ -12,6 +12,8 @@ type: exercise
 links:
 
   - '[MDN - Array class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)'
+  - '[MDN - Array.every](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)'
+  - '[MDN - Array.some](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)'
 
 ---
 ## Exercises

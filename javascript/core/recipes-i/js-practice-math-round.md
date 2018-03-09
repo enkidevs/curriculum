@@ -12,6 +12,9 @@ type: exercise
 links:
 
   - '[MDN - Math class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)'
+  - '[MDN - Math.round](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round)'
+  - '[MDN - Math.ceil](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil)'
+  - '[MDN - Math.floor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)'
 
 ---
 ## Exercises

@@ -12,6 +12,9 @@ type: exercise
 links:
 
   - '[MDN - String class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)'
+  - '[MDN - String.concat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat)'
+  - '[MDN - String.split](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)'
+  - '[MDN - String.join](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/join)'
 
 ---
 ## Exercises

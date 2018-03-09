@@ -12,6 +12,7 @@ type: exercise
 links:
 
   - '[MDN - Math class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)'
+  - '[MDN - Math.log](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log)'
 
 ---
 ## Exercises
