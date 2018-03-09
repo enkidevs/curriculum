@@ -1,5 +1,5 @@
 # Practice python iterator
-author: sebaraba
+author: SebaRaba
 
 levels:
 
