@@ -1,20 +1,26 @@
-# Post-order Traversal
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
+
 parent: in-order-traversal
 ---
 ## Content
+# Post-order Traversal
 
 **Post-order traversal** is a type of *depth-first traversal* in which the root of the tree is visited after the right child. It only makes sense for *binary trees*.
 
@@ -56,10 +62,11 @@ Chose the sequence that simulates a post-order traversal of the tree:
 D     F    E
 ```
 ???
-*D,F,B,E,C,A
-*A,B,D,F,C,E
-*D,B,F,A,C,E
-*A,B,C,D,E,F
+
+* D,F,B,E,C,A
+* A,B,D,F,C,E
+* D,B,F,A,C,E
+* A,B,C,D,E,F
 
 ---
 ## Revision
@@ -73,7 +80,9 @@ Chose the sequence that simulates a post-order traversal of the tree:
 D     F    E
 ```
 ???
-*D,F,B,E,C,A
-*A,B,D,F,C,E
-*D,B,F,A,C,E
-*A,B,C,D,E,F
+
+* D,F,B,E,C,A
+* A,B,D,F,C,E
+* D,B,F,A,C,E
+* A,B,C,D,E,F
+

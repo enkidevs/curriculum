@@ -1,24 +1,29 @@
-# (0-1) Knapsack Problem
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
 links:
-    - >-
-        [A more in-depth explanation of the problem](https://www.quora.com/Whats-an-intuitive-explanation-for-the-0-1-knapsack-problem-in-data-structures-and-algorithms){website}
+
+  - '[A more in-depth explanation of the problem](https://www.quora.com/Whats-an-intuitive-explanation-for-the-0-1-knapsack-problem-in-data-structures-and-algorithms){website}'
 
 parent: prims-iteration
 ---
 ## Content
+# (0-1) Knapsack Problem
 
 **Knapsack(backpack) problem** is a maximization problem in which a set of items, each with a given weight and value, must be stored in a knapsack without exceeding its weight limit.
 
@@ -62,6 +67,7 @@ If the sum of the previous weight and the current item's weight goes over the ma
 ```
 m[w][i] = ???
 ```
+
 * `m[w][i-1]`
 * `m[w][i]`
 * `m[w-1][i]`
@@ -72,6 +78,7 @@ m[w][i] = ???
 
 0-1 Knapsack problem requires a ??? approach to be solved.
 
+
 * dynamic
 * greedy
 * recursive
@@ -79,7 +86,6 @@ m[w][i] = ???
 
 ---
 ## Footnotes
-
 [1: Dynamic programming]
 The dynamic approach works by breaking a bigger problem into smaller ones, storing their result somewhere (*memoization*), and building a solution chain that would use previous results to solve the current problem.
 

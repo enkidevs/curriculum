@@ -1,24 +1,29 @@
-# Levenshtein Distance
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
 links:
-    - >-
-        [Optimizing Levensthein distance computation](http://stackoverflow.com/questions/3183149/most-efficient-way-to-calculate-levenshtein-distance){website}
+
+  - '[Optimizing Levensthein distance computation](http://stackoverflow.com/questions/3183149/most-efficient-way-to-calculate-levenshtein-distance){website}'
 
 parent: exponentiation-by-squaring
 ---
 ## Content
+# Levenshtein Distance
 
 The **Levenshtein distance**, or *edit distance*, is the amount by which two strings differ.
 
@@ -63,6 +68,7 @@ The *Levensthein distance* between the two strings, *trace* and *face*, is locat
 What is the distance between strings `string` and `int`?
 
 ???
+
 * 4
 * 5
 * 3
@@ -74,7 +80,9 @@ What is the distance between strings `string` and `int`?
 How many removals are needed to get from the string `test` to `east`?
 
 ???
+
 * 0
 * 1
 * 2
 * 3
+

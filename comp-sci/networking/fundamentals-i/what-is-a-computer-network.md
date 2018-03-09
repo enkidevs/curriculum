@@ -1,4 +1,4 @@
-# What is a computer network?
+---
 author: SebaRaba
 
 levels:
@@ -9,12 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - 'http://www.explainingcomputers.com/networking.html'
+  - '[www.explainingcomputers.com](http://www.explainingcomputers.com/networking.html){website}'
+
 
 ---
 ## Content
+# What is a computer network?
 
 **Computer Networking**'s main purpose is to enable several devices to communicate with each other to share and exchange resources.
 
@@ -34,7 +37,7 @@ While modern devices have network devices integrated into their circuit boards, 
 
 At the same time, some devices can't connect to a network at all.
 
-The largest and most known computer network is the **Internet**. This world-wide system of interconnected smaller networks enables millions of devices to communicate with each other. 
+The largest and most known computer network is the **Internet**. This world-wide system of interconnected smaller networks enables millions of devices to communicate with each other.
 
 ---
 ## Revision
@@ -42,6 +45,7 @@ The largest and most known computer network is the **Internet**. This world-wide
 Within a computer network, how are devices that send, route or receive data called?
 
 ???
+
 
 * nodes
 * hardware
@@ -53,7 +57,6 @@ Within a computer network, how are devices that send, route or receive data call
 
 ---
 ## Footnotes
-
 [1:network hardware]
 These are physical devices which are required for communication and interaction between devices on a computer network. Specifically, they mediate data in a computer network.
 

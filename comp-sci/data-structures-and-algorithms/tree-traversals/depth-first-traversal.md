@@ -1,21 +1,26 @@
-# Depth-first Traversal
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
-parent: tree-traversals
 
+
+parent: tree-traversals
 ---
 ## Content
+# Depth-first Traversal
 
 **Depth-first traversal** (also known as *Depth-first search* or *DFS*) represents the tree traversal in which the left node's grandchildren are prioritized over the right nodes.
 
@@ -46,7 +51,9 @@ Which node will be prioritized after *B* in a depth-first traversal?
    D     E
 ```
 ???
+
 * D
 * E
 * A
 * C
+

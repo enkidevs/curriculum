@@ -1,4 +1,4 @@
-# What is jitter?
+---
 author: catalin
 
 levels:
@@ -15,14 +15,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - 'http://www.cisco.com/c/en/us/support/docs/voice/voice-quality/18902-jitter-packet-voice.html'
+  - '[www.cisco.com](http://www.cisco.com/c/en/us/support/docs/voice/voice-quality/18902-jitter-packet-voice.html){website}'
 
 parent: what-is-packet-loss
-
 ---
 ## Content
+# What is jitter?
 
 **Jitter** is defined as the variation in the delay of received packets in computer networks.
 
@@ -40,13 +41,13 @@ Following this scenario, instead of every `20ms`, **B** can receive packets with
 
 There's a pretty high chance you have experienced jitter before. Most recognisable scenarios are *lag spikes* in video games where players teleport across the map or *pauses in video buffering* on services like YouTube.
 
-
 ---
 ## Revision
 
 The term **jitter** is used interchangeably with:
 
 ??? ??? ???
+
 
 * Packet
 * Delay
@@ -59,7 +60,6 @@ The term **jitter** is used interchangeably with:
 
 ---
 ## Footnotes
-
 [1:packet delay variation]
 Keep in mind that the terms **Jitter** and **Packet Delay Variation** are not completely synonymous, but often used interchangeably.
 

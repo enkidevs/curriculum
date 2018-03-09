@@ -1,20 +1,26 @@
-# In-order Traversal
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
+
 parent: pre-order-traversal
 ---
 ## Content
+# In-order Traversal
 
 **In-order traversal** is a type of *depth-first traversal* in which the *root* of the tree is visited after the left child and before the right child. It only makes sense for *binary trees*.
 
@@ -59,6 +65,7 @@ Chose the sequence that simulates an in-order traversal of the tree:
       F    E
 ```
 ???
+
 * B,F,A,C,E
 * F,B,E,C,A
 * A,B,F,C,E
@@ -78,6 +85,7 @@ G      F    E
   H       I
 ```
 ???
+
 * G,H,B,F,A,I,E,C
 * F,B,E,C,A,H,I,D
 * A,B,F,C,E,D,I,H
@@ -85,16 +93,15 @@ G      F    E
 
 ---
 ## Quiz
+### which tree traversal is to be use in the following scenario?
+Given a binary search tree (BST), which traversal would print
+its nodes in ascending order?
 
 
-headline: which tree traversal is to be use in the following scenario?
+ ???
 
-question: |
-  Given a binary search tree (BST), which traversal would print
-  its nodes in ascending order?
+* In-order traversal
+* Breadth first traversal
+* Depth first traversal
+* Post-order traversal
 
-answers:
-  - In-order traversal
-  - Breadth first traversal
-  - Depth first traversal
-  - Post-order traversal

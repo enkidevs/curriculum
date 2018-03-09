@@ -1,4 +1,4 @@
-# Node Height and Depth
+---
 author: mihaiberq
 
 levels:
@@ -9,9 +9,12 @@ type: normal
 
 category: must-know
 
+
+
 parent: the-tree-data-structure
 ---
 ## Content
+# Node Height and Depth
 
 The **height of a node** is the number of edges on the *longest path* from that node to a leaf.
 
@@ -53,10 +56,11 @@ B ???
 C ???
 D ???
 ```
-*`D0/H2`
-*`D1/H0`
-*`D1/H1`
-*`D2/H0`
+
+* `D0/H2`
+* `D1/H0`
+* `D1/H1`
+* `D2/H0`
 
 ---
 ## Revision
@@ -72,7 +76,9 @@ A ???
 B ???
 C ???
 ```
-*`D0/H2`
-*`D1/H1`
-*`D2/H0`
-*`D2/H2`
+
+* `D0/H2`
+* `D1/H1`
+* `D2/H0`
+* `D2/H2`
+
