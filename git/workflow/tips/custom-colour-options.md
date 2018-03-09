@@ -21,7 +21,7 @@ links:
 
 You can change the default colour options for the console text.
 
-For example, to set the colour of changed files to **magenta foreground**, **white background** and **bold text**:
+For example, to set the colour of the results for `git status` command to **magenta foreground**, **white background** and **bold text**:
 ```
 $ git config --global color.status.changed
  "magenta white bold"
@@ -33,9 +33,9 @@ The other `color.*` options are `ui`, `branch.*`, `diff.*` and `interactive.*`.
 ---
 ## Practice
 
-Change the color for `diff.meta` to be *blue*, *black* and *bold*
+Change the colour for `diff.meta` to be *blue* foreground, *black* background and *bold* font:
 ```
-$ git ??? ??? 
+$ git ??? ???
       ??? ???
 ```
 
@@ -53,4 +53,5 @@ A customisable `color.` option is ??? .
 * interactive.*
 * git.*
 * sources.*
+
 

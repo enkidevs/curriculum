@@ -32,7 +32,7 @@ Conceptually, a branch is divergence at a specific point from your working tree[
 Changes (technically commits) are added to history of the current branch, resulting in a fork[2] in the project history.
 In practice a branch is merely a **pointer** to a specific commit object.
 
-With the `git branch` command you can create, edit, rename and remove branches. 
+With the `git branch` command you can create, edit, rename and remove branches.
 
 Branches are often used as a "reference" when working with `git merge`[3] and `git checkout`.
 
@@ -52,7 +52,7 @@ $ git branch my-branch
 ```
 Delete a branch:
 ```bash
-$ git branch -d my-branch 
+$ git branch -d my-branch
 # unmerged changes will stop this
 $ git branch -D my-branch
 # will force delete
@@ -62,7 +62,7 @@ To rename the current branch:
 $ git branch -m new-branch-name
 
 ```
-Because a branch is actually a pointer to a commit, it should be obvious that you can switch to a new branch with the `git checkout` command[4]:
+Thinking of a branch as a pointer to a specific state of the repository. We can visualise how changing to a different branch actually takes us to a different stage of the same project project. Basically different changes of the same project are stored on different branches. To change the branch we are on we can use `git checkout`[4]:
 ```
 $ git checkout my-branch
 ```
@@ -91,7 +91,6 @@ What command is used in **Git** to switch between branches?
 
 ???
 
-
 * `git checkout`
 * `git branch`
 * `git branch -m`
@@ -107,7 +106,7 @@ The **working tree** consist of files that you are currently working on.
 A **fork** is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
 
 
-[3:merging] 
+[3:merging]
 **Merging** is the operation of combining different lines of development (branches) into a single one.
 
 
