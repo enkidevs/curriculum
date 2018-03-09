@@ -16,7 +16,8 @@ links:
 
 ---
 ## Exercises
-codewars-link: http://www.codewars.com/kata/bad-apples/python
+linkType: codewars
+link: http://www.codewars.com/kata/bad-apples/python
 standards:
   py.data-structures-uses.0:2000
   py.data-structures-uses.2:2000
