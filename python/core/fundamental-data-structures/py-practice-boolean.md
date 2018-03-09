@@ -17,13 +17,13 @@ links:
   - '[link to deeper dive blog post](http://www.diveintopython3.net/native-datatypes.html){website}'
   - '[link to a video](https://www.youtube.com/watch?v=TkpNMvBrEUw){video}'
 
----
-## Exercises
 linkType: codewars
 link: https://www.codewars.com/kata/you-only-need-one-beginner
 standards:
   py.data-structures-uses.0:1000
   py.native-types-operations.0:1000
   py.native-types-operations.2:2000
+---
+## Exercises
 ### Question
 Practice using python's `boolean` and `numeric` types on Code Wars.

@@ -17,8 +17,6 @@ links:
   - '[link to deeper dive blog post](http://www.diveintopython3.net/native-datatypes.html){website}'
   - '[link to a video](https://www.youtube.com/watch?v=TkpNMvBrEUw){video}'
 
----
-## Exercises
 linkType: codewars
 link: https://www.codewars.com/kata/categorize-new-member
 standards:
@@ -26,6 +24,7 @@ standards:
   py.native-types-operations.5:2000
   py.native-types-operations.9:2000
   py.data-structures-uses.0: 1000
-
+---
+## Exercises
 ### Question
 Practice using python's `enumerator` and `set` data types.

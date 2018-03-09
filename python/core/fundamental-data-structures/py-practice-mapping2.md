@@ -17,9 +17,6 @@ links:
   - '[link to deeper dive blog post](http://www.diveintopython3.net/native-datatypes.html){website}'
   - '[link to a video](https://www.youtube.com/watch?v=TkpNMvBrEUw){video}'
 
-
----
-## Exercises
 linkType: codewars
 link: https://www.codewars.com/kata/self-closing-cookie-jar
 standards:
@@ -28,5 +25,7 @@ standards:
   py.native-types-operations.4:4000
   py.native-types-operations.7:4000
   py.native-types-operations.8:4000
-## Question
+---
+## Exercises
+### Question
 Use python's `mapping` types.
