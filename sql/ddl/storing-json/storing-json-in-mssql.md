@@ -1,4 +1,4 @@
-# Storing JSON in SQL Server
+---
 author: mihaiberq
 
 levels:
@@ -12,12 +12,19 @@ type: normal
 category: must-know
 
 tags:
+
   - introduction
+
   - workout
+
   - deep
+
+
+
 
 ---
 ## Content
+# Storing JSON in SQL Server
 
 SQL Server, or Microsoft SQL, has no default JSON data type but provides functional support to query the JSON objects stored as strings:
 ```SQL
@@ -67,6 +74,7 @@ Querying the JSON `pokemon` field in a SQL Server database, select all Pokémon 
 ??? poke_json ???
 ???(???, ???) = ???;
 ```
+
 * `SELECT`
 * `FROM`
 * `WHERE`
@@ -82,7 +90,9 @@ Microsoft SQL's command that parses JSON fields is
 
 ???
 
+
 * `JSON_VALUE(column,field)`
 * `PARSE_JSON(column,field)`
 * `(column)@>(field)`
 * `(column)->(field)`
+

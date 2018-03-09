@@ -1,4 +1,4 @@
-# WHERE (3)
+---
 author: stefkn
 
 levels:
@@ -16,14 +16,18 @@ category: must-know
 inAlgoPool: false
 
 tags:
+
   - workout
+
 
 links:
 
-  - '[SQL Tutorial: WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/)'
+  - '[SQL Tutorial: WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}'
+
 
 ---
 ## Content
+# WHERE (3)
 
 ### `LIKE`, `IN`
 
@@ -62,6 +66,7 @@ Select all the columns from the `pokemon` table, keeping only the rows where the
 `FROM pokemon`
 ??? ??? ??? ???;
 
+
 * WHERE
 * name
 * IN
@@ -82,6 +87,7 @@ Select all the columns from the `pokemon` table, keeping only the rows where the
 `FROM pokemon`
 ??? ??? ??? ???;
 
+
 * WHERE
 * name
 * LIKE
@@ -93,25 +99,25 @@ Select all the columns from the `pokemon` table, keeping only the rows where the
 
 ---
 ## Quiz
+### Do you know how to match a pattern in SQL?
+```
 
-headline: Do you know how to match a pattern in SQL?
+Consider the `location` table from our pokemon database:
 
-question: |
+id  | region_id |     name           
+====+===========+=================
+  1 |         4 | canalave-city
+  2 |         1 | eterna-city
+  3 |         3 | pastoria-city
+(...)
 
-  Consider the `location` table from our pokemon database:
+Choose the query that will get all the location records that are based in regions 1, 2. Also, pay attention to include only locations that end in 'city':
+```
 
-  id  | region_id |     name           
-  ----|:----------|:----------------
-    1 |         4 | canalave-city
-    2 |         1 | eterna-city
-    3 |         3 | pastoria-city
-  (...)
+ ???
 
-  Choose the query that will get all the location records that are based in regions 1, 2. Also, pay attention to include only locations that end in 'city':
-
-answers:
-  - SELECT * FROM location WHERE region_id < 3 AND name LIKE '%city';
-  - SELECT * FROM location WHERE region_id < 3 AND name='%city';
-  - SELECT * FROM location WHERE BETWEEN 1 AND 2 AND name='%city';
-  - SELECT * FROM location WHERE region_id < 3 AND name LIKE '_city';
+* SELECT * FROM location WHERE region_id < 3 AND name LIKE '%city';
+* SELECT * FROM location WHERE region_id < 3 AND name='%city';
+* SELECT * FROM location WHERE BETWEEN 1 AND 2 AND name='%city';
+* SELECT * FROM location WHERE region_id < 3 AND name LIKE '_city';
 

@@ -1,4 +1,4 @@
-# Handling Blobs in SQL
+---
 author: mihaiberq
 
 levels:
@@ -12,12 +12,19 @@ type: normal
 category: how to
 
 tags:
+
   - introduction
+
   - workout
+
   - deep
+
+
+
 
 ---
 ## Content
+# Handling Blobs in SQL
 
 PostgreSQL's native *BLOB* type is `bytea` (1GB per entry). It came two support two types of bytes since it was implemented:
 - `Escape Format`: the legacy format, using ASCII to encode characters.
@@ -45,6 +52,7 @@ In a PostgreSQL database, insert a hex string into a `bytea` field:
 ???(???('\xBYTESOFPIKACHUSPRITE',
   ???));
 ```
+
 * `INSERT`
 * `VALUES`
 * `decode`
@@ -62,6 +70,7 @@ In a PostgreSQL database, insert a hex string into a `bytea` field:
 ???(???('\xBYTESOFPIKACHUSPRITE',
   ???));
 ```
+
 * `INSERT`
 * `VALUES`
 * `decode`
@@ -69,3 +78,4 @@ In a PostgreSQL database, insert a hex string into a `bytea` field:
 * `encode`
 * `FROM`
 * `hex`
+

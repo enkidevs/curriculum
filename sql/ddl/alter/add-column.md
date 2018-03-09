@@ -1,4 +1,4 @@
-# Add Column
+---
 author: SebaRaba
 
 levels:
@@ -17,18 +17,22 @@ category: must-know
 
 inAlgoPool: false
 
-parent: create-a-table
+tags:
+
+  - workout
+
+  - deep
+
 
 links:
 
-  - '[More on ALTER TABLE](https://www.techonthenet.com/sql_server/tables/alter_table.php)'
+  - '[More on ALTER TABLE](https://www.techonthenet.com/sql_server/tables/alter_table.php){website}'
 
-tags:
-  - workout
-  - deep
+parent: create-a-table
 
 ---
 ## Content
+# Add Column
 
 If we would like to add a new column to a certain table, we can use the `ALTER TABLE` statement:
 ```
@@ -58,6 +62,7 @@ id |    name
 ADD ??? ???;
 ```
 
+
 * ALTER TABLE
 * members
 * INT
@@ -83,6 +88,8 @@ id | region_id |      name
 ```
 
 
+
 * ALTER TABLE generation DROP COLUMN region_id;
 * ALTER TABLE generation DROP region_id;
 * ALTER generation DROP COLUMN region_id;
+
