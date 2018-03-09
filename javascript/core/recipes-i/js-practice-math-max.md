@@ -16,11 +16,12 @@ links:
   - '[MDN - Math.min](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/min)'
   - '[MDN - Math.abs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/abs)'
 
----
-## Exercises
 codewars-link: http://www.codewars.com/kata/5733d6c2d780e20173000baa
 standards:
   js.standard-library.1: 1000
   js.write-expressions.0: 1000
+
+---
+## Exercises
 ### Question
 Practice using the JavaScript Math methods `max()`, `min()` and `abs()`

@@ -16,11 +16,12 @@ links:
   - '[MDN - String.split](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)'
   - '[MDN - String.join](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/join)'
 
----
-## Exercises
 codewars-link: http://www.codewars.com/kata/57280481e8118511f7000ffa
 standards:
   js.standard-library.0: 1000
   js.write-expressions.0: 1000
+
+---
+## Exercises
 ### Question
 Practice using the JavaScript String methods `concat()`, `split()` and `join()`

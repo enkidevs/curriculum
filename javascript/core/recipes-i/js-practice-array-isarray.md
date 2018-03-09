@@ -16,11 +16,12 @@ links:
   - '[MDN - Array.indexOf](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)'
   - '[MDN - Array.toString](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toString)'
 
----
-## Exercises
 codewars-link: http://www.codewars.com/kata/5732b0351eb838d03300101d
 standards:
   js.standard-library.4: 1000
   js.write-expressions.0: 1000
+
+---
+## Exercises
 ### Question
 Practice using the JavaScript Array methods `isArray()`, `indexOf()` and `toString()`
