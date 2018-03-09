@@ -1,4 +1,4 @@
-# Introducing the OSI Model
+---
 author: milesflo
 
 levels:
@@ -15,12 +15,15 @@ category: must-know
 
 inAlgoPool: false
 
+
 links:
 
-  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
+  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}'
+
 
 ---
 ## Content
+# Introducing the OSI Model
 
 The __Open Systems Interconnection Model__ (OSI Model) is a model for standardizing networks across various hardware configurations.
 
@@ -32,12 +35,12 @@ The model is displayed as a stack to show that each Layer requires every other l
 
 The following lessons will go into detail about the responsibilities of each layer and how it functions in a network. No two networks are the same, and as such the goal of the OSI Model is to be less of a hard rule and more of a flexible guideline.
 
-
 ---
 ## Practice
 
 What is the OSI 7 Layer Model?
 ???
+
 
 * a flexible standard for various network configurations
 * a hard standard for various network configurations
@@ -57,6 +60,7 @@ The OSI 7 Layer Model is ordered, from bottom to top, in the following order:
 6. ???
 7. ???
 
+
 * Physical Layer
 * Data Link Layer
 * Network Layer
@@ -67,15 +71,15 @@ The OSI 7 Layer Model is ordered, from bottom to top, in the following order:
 
 ---
 ## Quiz
+### What is the OSI 7 Layer Model?
+```
+What is the OSI 7 Layer Model?
+```
 
+ ???
 
-headline: What is the OSI 7 Layer Model?
+* a flexible standard for various network configurations
+* a hard standard for various network configurations
+* a flexible standard for various hardware component configurations
+* a hard standard for various hardware component configurations
 
-question: |
-  What is the OSI 7 Layer Model?
-
-answers:
-  - a flexible standard for various network configurations
-  - a hard standard for various network configurations
-  - a flexible standard for various hardware component configurations
-  - a hard standard for various hardware component configurations
