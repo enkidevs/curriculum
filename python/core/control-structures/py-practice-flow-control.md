@@ -16,13 +16,15 @@ links:
   - '[link to deeper dive blog post](http://gsl.mit.edu/media/programs/sri-lanka-summer-2011/materials/t-l03.pdf){website}'
   - '[link to a video](https://www.youtube.com/watch?v=c64cJHAJSn4){video}'
 
----
-## Exercises
-codewars-link: https://www.codewars.com/kata/unique-sum
+linkType: codewars
+link: https://www.codewars.com/kata/unique-sum
 standards:
   py.control-structures.0: 1000
   py.control-structures.1: 2000
   py.control-structures.2: 2000
   py.control-structures.4: 5000
+
+---
+## Exercises
 ### Question
 Use python `flow control` structures.
