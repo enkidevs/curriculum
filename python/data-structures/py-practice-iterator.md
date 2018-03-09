@@ -1,4 +1,4 @@
-# Python data structures exercises
+# Practice python iterator
 author: sebaraba
 
 levels:
@@ -26,13 +26,3 @@ standards:
 ### Question
 Practice working with python `iterator`.
 
----
-## Exercises
-codewars-link: https://www.codewars.com/kata/map-and-filter-to-get-a-special-sequence-of-integers/python
-standards:
-  py.data-structures-uses.0: 1000
-  py.data-structures-uses.1: 3000
-  py.native-types-operations.3:4000
-
-### Question
-Practice working with python `iterator`.
