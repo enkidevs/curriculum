@@ -24,6 +24,6 @@ standards:
   py.use-iteration-protocol.4: 3000
 
 ---
-## Exercises
+## Exercise
 ### Question
 Practice your skills with `next` and `iter`.
