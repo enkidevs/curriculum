@@ -27,7 +27,7 @@ standards:
   py.functions.5: 5000
 
 ---
-## Exercises
+## Exercise
 ### Question
 Make use of `scope` effectively.
 
