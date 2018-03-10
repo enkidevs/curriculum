@@ -23,6 +23,6 @@ standards:
   py.native-types-operations.3:4000
 
 ---
-## Exercises
+## Exercise
 ### Question
 Train your skills on using sets of dat and python's `string` type.
