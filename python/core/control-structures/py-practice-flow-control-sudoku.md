@@ -25,6 +25,6 @@ standards:
   py.control-structures.4: 5000
 
 ---
-## Exercises
+## Exercise
 ### Question
 Practice flow control `structures` in python.
