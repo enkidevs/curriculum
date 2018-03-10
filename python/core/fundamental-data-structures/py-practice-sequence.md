@@ -26,6 +26,6 @@ standards:
   py.native-types-operations.5:4000
   py.native-types-operations.8:4000
 ---
-## Exercises
+## Exercise
 ### Question
 Play with Fibonacci's `sequence` in python.
