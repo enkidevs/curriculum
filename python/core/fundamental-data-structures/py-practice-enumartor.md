@@ -25,6 +25,6 @@ standards:
   py.native-types-operations.9:2000
   py.data-structures-uses.0: 1000
 ---
-## Exercises
+## Exercise
 ### Question
 Practice using python's `enumerator` and `set` data types.
