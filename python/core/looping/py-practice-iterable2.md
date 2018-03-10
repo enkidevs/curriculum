@@ -23,6 +23,6 @@ standards:
   py.use-iteration-protocol.3: 2000
 
 ---
-## Exercises
+## Exercise
 ### Question
 Practice `iterables` in python.
