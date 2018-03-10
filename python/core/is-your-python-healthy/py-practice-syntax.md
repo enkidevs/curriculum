@@ -24,6 +24,6 @@ standards:
   py.data-structures-uses.5: 2000
 
 ---
-## Exercises
+## Exercise
 ### Question
 Practice python syntax `validity`.
