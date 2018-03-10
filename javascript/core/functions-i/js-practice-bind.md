@@ -13,10 +13,12 @@ links:
 
   - '[MDN - Function.bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)'
 
----
-## Exercise
+
 codewars-link: https://www.codewars.com/kata/power-bind
 standards:
-    js.execution-context.0: 1000
+  js.execution-context.0: 1000
+
+---
+## Exercise
 ### Question
 Explore `bind` in JavaScript on Code Wars
