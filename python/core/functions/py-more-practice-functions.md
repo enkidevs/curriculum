@@ -32,6 +32,6 @@ standards:
   py.functions.5: 5000
 
 ---
-## Exercises
+## Exercise
 ### Question
 More practice on python `functions` and `scoping`.
