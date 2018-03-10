@@ -24,6 +24,6 @@ py.use-iteration-protocol.2: 2000
 py.use-iteration-protocol.3: 3000
 
 ---
-## Exercises
+## Exercise
 ### Question
 Iterate without a `loop` in python.
