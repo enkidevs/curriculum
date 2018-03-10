@@ -18,12 +18,13 @@ links:
   - '[link to deeper dive blog post](https://pythontips.com/2013/07/30/20-python-libraries-you-cant-live-without/){website}'
   - '[link to a video](https://www.youtube.com/watch?v=CqvZ3vGoGs0){video}'
 
----
-## Exercises
-codewars-link: https://www.codewars.com/kata/extract-file-name
+linkType: codewars
+link: https://www.codewars.com/kata/extract-file-name
 standards:
   py.standard-library-operating-system.0: 2000
   py.standard-library-operating-system.1: 2000
 
+---
+## Exercise
 ### Question
 Make effective use of python's `standard library`.
