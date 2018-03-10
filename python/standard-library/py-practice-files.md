@@ -26,6 +26,6 @@ standards:
 
 
 ---
-## Exercises
+## Exercise
 ### Question
 Work with files in python.
