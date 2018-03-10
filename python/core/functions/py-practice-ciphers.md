@@ -16,15 +16,16 @@ links:
   - '[link to deeper dive blog post](https://www.digitalocean.com/community/tutorials/how-to-define-functions-in-python-3){website}'
   - '[link to a video](https://www.youtube.com/watch?v=9Os0o3wzS_I){video}'
   - '[link to a discussion](https://enki.com)'
-
----
-## Exercises
-codewars-link: https://www.codewars.com/kata/digital-cypher
+  
+linkType: codewars
+link: https://www.codewars.com/kata/digital-cypher
 standards:
   py.functions.0: 1000
   py.functions.1: 2000
   py.functions.2: 3000
   py.functions.3: 3000
 
+---
+## Exercise
 ### Question
 Solve ciphers and train your skills with python `functions`.
