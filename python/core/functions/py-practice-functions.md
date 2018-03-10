@@ -25,7 +25,7 @@ standards:
   py.functions.3: 3000
 
 ---
-## Exercises
+## Exercise
 ### Question
 Practice python `functions`.
 
