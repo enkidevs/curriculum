@@ -23,7 +23,7 @@ standards:
   py.native-types-operations.3:4000
 
 ---
-## Exercises
+## Exercise
 ### Question
 Practice working with python `iterator`.
 
