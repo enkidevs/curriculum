@@ -23,6 +23,6 @@ standards:
   py.data-structures-uses.5: 2000
   
 ---
-## Exercises
+## Exercise
 ### Question
 Practice working with `for loops` and `iterables` in python.
