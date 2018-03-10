@@ -23,7 +23,7 @@ links:
   - '[link to a discussion](https://enki.com)'
 
 linkType: codewars
-link: https://www.codewars.com/kata/duplicate-encoder
+link: https://www.codewars.com/kata/sum-of-pairs
 standards:
   py.functions.0: 1000
   py.functions.1: 2000
@@ -32,6 +32,6 @@ standards:
   py.functions.5: 5000
 
 ---
-## Exercises
+## Exercise
 ### Question
-More practice on python `functions` and `scoping`.
+Make use of `scope` effectively.
