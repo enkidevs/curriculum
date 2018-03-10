@@ -24,6 +24,6 @@ standards:
   py.native-types-operations.0:1000
   py.native-types-operations.2:2000
 ---
-## Exercises
+## Exercise
 ### Question
 Practice using python's `boolean` and `numeric` types on Code Wars.
