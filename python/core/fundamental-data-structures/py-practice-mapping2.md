@@ -26,6 +26,6 @@ standards:
   py.native-types-operations.7:4000
   py.native-types-operations.8:4000
 ---
-## Exercises
+## Exercise
 ### Question
 Use python's `mapping` types.
