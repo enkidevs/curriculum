@@ -18,7 +18,7 @@ links:
   - '[link to a video](https://www.youtube.com/watch?v=V-GZxNLOMXs){video}'
 
 linkType: codewars
-link: https://www.codewars.com/kata/the-enigma-machine-part-1-the-plugboard
+link: https://www.codewars.com/kata/building-an-adaboost-model-with-sklearn-introductory-machine-learning
 standards:
     py.modules.0: 1000
     py.modules.1: 1000
@@ -31,4 +31,4 @@ standards:
 ---
 ## Exercise
 ### Question
-Train using python packages.
+Build a machine learning model using python packages.

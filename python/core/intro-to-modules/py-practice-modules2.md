@@ -1,4 +1,4 @@
-# Practice package modules
+# Practice python modules
 author: SebaRaba
 
 levels:
@@ -18,17 +18,13 @@ links:
   - '[link to a video](https://www.youtube.com/watch?v=V-GZxNLOMXs){video}'
 
 linkType: codewars
-link: https://www.codewars.com/kata/the-enigma-machine-part-1-the-plugboard
+link: https://www.codewars.com/kata/find-out-whether-the-shape-is-a-cube
 standards:
     py.modules.0: 1000
-    py.modules.1: 1000
-    py.modules.3: 1000
-    py.modules.4: 2000
-    py.modules.5: 3000
-    py.modules.6: 3000
-    py.modules.7: 3000
+    py.modules.1: 2000
+    py.modules.2: 1000
 
 ---
 ## Exercise
 ### Question
-Train using python packages.
+Practice using modules in python.
