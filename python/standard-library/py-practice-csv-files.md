@@ -25,6 +25,6 @@ standards:
   py.standard-library-operating-system.1: 2000
 
 ---
-## Exercises
+## Exercise
 ### Question
 Manage `csv` files in python.
