@@ -1,4 +1,3 @@
-# JS Practice Spreads
 author: milesflo
 
 levels:
@@ -9,15 +8,20 @@ levels:
 
 type: exerciseList
 
+standards:
+
+  - js.execution-context.1: 1000
+
 links:
 
   - '[MDN - Spreads](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)'
-
+link: https://www.codewars.com/kata/unpacking-arguments/javascript
+linkType: codewars
 codewars-link: https://www.codewars.com/kata/unpacking-arguments/javascript
-standards:
-  js.execution-context.1: 1000
 
 ---
+# JS Practice Spreads
 ## Exercise
 ### Question
+
 Practice unpacking function arguments with spreads
