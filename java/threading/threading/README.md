@@ -1,10 +1,6 @@
 name: Threading
 
-type: insights-list
-
 description: Threading 101.
-
-section: 0
 
 insights:
   - threading

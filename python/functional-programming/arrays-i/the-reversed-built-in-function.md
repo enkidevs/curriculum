@@ -65,8 +65,6 @@ class Classroom:
     def __reversed__(self):
         return ???(???.???)
 
-#------------------------------
-
 c = Classroom()
 print(list(reversed(c)))
 ```

@@ -1,10 +1,6 @@
 name: File and System Manipulation I
 
-type: insights-list
-
 description: Handle file manipulation with the help of your system.
-
-section: 1
 
 insights:
   - renaming-a-file

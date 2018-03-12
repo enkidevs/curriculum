@@ -1,12 +1,6 @@
 name: Modifiers
 
-type: insights-list
-
 description: Modifiers in Java 101.
-
-section: 0
-
-parent: object-oriented-paradigm
 
 insights:
   - java-modifiers

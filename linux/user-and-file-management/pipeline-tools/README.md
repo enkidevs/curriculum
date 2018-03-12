@@ -1,10 +1,6 @@
 name: Pipeline Tools
 
-type: insights-list
-
 description: Tools for easier pipelining.
-
-section: 2
 
 insights:
   - using-xargs-to-build-commands

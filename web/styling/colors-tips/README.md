@@ -1,12 +1,6 @@
 name: Colors Tips
 
-type: insights-list
-
 description: Working with colors.
-
-section: 0
-
-parent: positioning-tips
 
 insights:
   - hexadecimal-color-system

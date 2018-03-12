@@ -1,12 +1,6 @@
 name: Heap and Trie
 
-type: insights-list
-
 description: Learn about the Heap and Trie data structures.
-
-section: 1
-
-parent: binary-search-tree
 
 insights:
   - the-heap-data-structure

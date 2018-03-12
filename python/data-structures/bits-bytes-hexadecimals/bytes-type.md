@@ -21,7 +21,7 @@ links:
 ---
 ## Content
 
-Python uses built-in **core types** for manipulating binary data. Such a type is the `bytes` object  - **immutable** sequences of single bytes. 
+Python uses built-in **core types** for manipulating binary data. Such a type is the `bytes` object  - **immutable** sequences of single bytes.
 
 Even though a `bytes` object behaves like a sequence of integers, some of its methods  work only with **ASCII** data. It is similar to  the string type in some ways.
 
@@ -61,17 +61,17 @@ Complete the output of the command run in the Python interactive shell:
 ???'\???\???'
 ```
 
-*`b` 
-*`x00` 
-*`x01`
-*`a`
-*`x02`   
-*`x03`
+* `b`
+* `x00`
+* `x01`
+* `a`
+* `x02`   
+* `x03`
 
 ---
 ## Revision
 
 Bytes are ??? sequences of single bits.
 
-*`immutable` 
-*`mutable`
+* `immutable`
+* `mutable`

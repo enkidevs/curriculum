@@ -1,12 +1,6 @@
 name: Practical CSS
 
-type: insights-list
-
 description: Tips to use in practice
-
-section: 1
-
-parent: dimensioning-and-box-sizing
 
 insights:
   - debug-with-the-selector
