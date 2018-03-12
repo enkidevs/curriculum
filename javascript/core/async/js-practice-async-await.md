@@ -1,3 +1,4 @@
+---
 author: milesflo
 
 levels:
@@ -10,7 +11,7 @@ type: exercise
 
 standards:
 
-  - js.async.3: 1000
+  js.async.3: 1000
 
 links:
 
@@ -21,8 +22,7 @@ linkType: codewars
 codewars-link: https://www.codewars.com/kata/jokes-youve-been-awaiting-for-dot-dot-dot-promise
 
 ---
-# JS Practice `async/await`
 ## Exercise
-### Question
+# JS Practice `async/await`
 
 Practice using JavaScript `async/await` on Code Wars

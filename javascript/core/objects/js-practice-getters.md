@@ -1,3 +1,4 @@
+---
 author: milesflo
 
 levels:
@@ -10,11 +11,9 @@ type: exercise
 
 standards:
 
-  - js.prototype-class.0: 1000
-
-  - js.prototype-class.1: 1000
-
-  - js.prototype-class.2: 1000
+  js.prototype-class.0: 1000
+  js.prototype-class.1: 1000
+  js.prototype-class.2: 1000
 
 links:
 
@@ -24,8 +23,7 @@ linkType: codewars
 codewars-link: https://www.codewars.com/kata/fun-with-es6-classes-number-3-cuboids-cubes-and-getters
 
 ---
-# JS Practice `getters`
 ## Exercise
-### Question
+# JS Practice `getters`
 
 Practice using JavaScript Class `getters` on Code Wars

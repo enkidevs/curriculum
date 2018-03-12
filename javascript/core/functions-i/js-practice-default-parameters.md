@@ -1,4 +1,4 @@
-# JS Practice Default Parameters
+---
 author: milesflo
 
 levels:
@@ -23,6 +23,7 @@ standards:
   js.functions.3: 1000
 
 ---
-## Exercises
-### Question
+## Exercise
+# JS Practice Default Parameters
+
 Write a JavaScript function with default parameters

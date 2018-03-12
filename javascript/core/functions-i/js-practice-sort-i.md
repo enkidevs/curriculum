@@ -1,4 +1,4 @@
-# JS Practice Sort 1
+---
 author: milesflo
 
 levels:
@@ -22,6 +22,7 @@ standards:
   js.functions.3: 1000
 
 ---
-## Exercises
-### Question
+## Exercise
+# JS Practice Sort 1
+
 Write a JavaScript function that will sort Strings in descending order

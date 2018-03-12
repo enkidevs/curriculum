@@ -1,3 +1,4 @@
+---
 author: milesflo
 
 levels:
@@ -10,7 +11,7 @@ type: exercise
 
 standards:
 
-  - js.execution-context.1: 1000
+  js.execution-context.1: 1000
 
 links:
 
@@ -21,8 +22,7 @@ linkType: codewars
 codewars-link: https://www.codewars.com/kata/write-javascripts-call-function-using-apply
 
 ---
-# JS Practice `call` and `apply`
 ## Exercise
-### Question
+# JS Practice `call` and `apply`
 
 Explore JavaScript `call` and `apply` statements

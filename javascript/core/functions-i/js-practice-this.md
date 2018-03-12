@@ -1,3 +1,4 @@
+---
 author: milesflo
 
 levels:
@@ -10,11 +11,9 @@ type: exerciseList
 
 standards:
 
-  - js.execution-context.2: 1000
-
-  - js.execution-context.3: 1000
-
-  - js.execution-context.4: 1000
+  js.execution-context.2: 1000
+  js.execution-context.3: 1000
+  js.execution-context.4: 1000
 
 links:
 
@@ -24,8 +23,7 @@ linkType: codewars
 codewars-link: https://www.codewars.com/kata/classy-classes
 
 ---
-# JS Practice `this`
 ## Exercise
-### Question
+# JS Practice `this`
 
 Explore the `this` operator in JavaScript with Constructor functions

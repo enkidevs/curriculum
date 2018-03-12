@@ -1,4 +1,4 @@
-# JS Practice Closures
+---
 author: milesflo
 
 levels:
@@ -24,6 +24,7 @@ standards:
   js.functions.6: 1000
   
 ---
-## Exercises
-### Question
+## Exercise
+# JS Practice Closures
+
 Write a specialized function called a `Closure`.

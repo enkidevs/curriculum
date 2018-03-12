@@ -1,3 +1,4 @@
+---
 author: milesflo
 
 levels:
@@ -10,7 +11,7 @@ type: exercise
 
 standards:
 
-  - js.async.0: 1000
+  js.async.0: 1000
 
 links:
 
@@ -20,8 +21,7 @@ linkType: codewars
 codewars-link: https://www.codewars.com/kata/node-dot-js-async-i-slash-o/train/javascript
 
 ---
-# JS Practice Async
 ## Exercise
-### Question
+# JS Practice Async
 
 Practice using Async JavaScript operations on Code Wars

@@ -1,3 +1,4 @@
+---
 author: milesflo
 
 levels:
@@ -10,7 +11,7 @@ type: exercise
 
 standards:
 
-  - js.execution-context.0: 1000
+  js.execution-context.0: 1000
 
 links:
 
@@ -20,8 +21,7 @@ linkType: codewars
 codewars-link: https://www.codewars.com/kata/power-bind
 
 ---
-# JS Practice `bind`
 ## Exercise
-### Question
+# JS Practice `bind`
 
 Explore `bind` in JavaScript on Code Wars

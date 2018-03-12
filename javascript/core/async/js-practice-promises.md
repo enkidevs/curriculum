@@ -1,3 +1,4 @@
+---
 author: milesflo
 
 levels:
@@ -10,7 +11,7 @@ type: exercise
 
 standards:
 
-  - js.async.2: 1000
+  js.async.2: 1000
 
 links:
 
@@ -20,8 +21,7 @@ linkType: codewars
 codewars-link: https://www.codewars.com/kata/i-promise-not-to-optimize
 
 ---
-# JS Practice Promises
 ## Exercise
-### Question
+# JS Practice Promises
 
 Practice using JavaScript Promises on Code Wars

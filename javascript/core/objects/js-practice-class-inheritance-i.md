@@ -1,3 +1,4 @@
+---
 author: milesflo
 
 levels:
@@ -10,9 +11,8 @@ type: exercise
 
 standards:
 
-  - js.prototype-inherit.0: 1000
-
-  - js.prototype-inherit.1: 1000
+  js.prototype-inherit.0: 1000
+  js.prototype-inherit.1: 1000
 
 links:
 
@@ -23,8 +23,7 @@ linkType: codewars
 codewars-link: https://www.codewars.com/kata/fun-with-es6-classes-number-2-animals-and-inheritance
 
 ---
-# JS Practice Class Inheritance 1
 ## Exercise
-### Question
+# JS Practice Class Inheritance 1
 
 Practice JavaScript Class Inheritance on Code Wars

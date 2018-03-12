@@ -1,3 +1,4 @@
+---
 author: milesflo
 
 levels:
@@ -10,7 +11,7 @@ type: exerciseList
 
 standards:
 
-  - js.execution-context.1: 1000
+  js.execution-context.1: 1000
 
 links:
 
@@ -20,8 +21,7 @@ linkType: codewars
 codewars-link: https://www.codewars.com/kata/unpacking-arguments/javascript
 
 ---
-# JS Practice Spreads
 ## Exercise
-### Question
+# JS Practice Spreads
 
 Practice unpacking function arguments with spreads

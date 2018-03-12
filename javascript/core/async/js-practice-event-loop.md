@@ -1,3 +1,4 @@
+---
 author: milesflo
 
 levels:
@@ -10,7 +11,7 @@ type: exercise
 
 standards:
 
-  - js.async.1: 1000
+  js.async.1: 1000
 
 links:
 
@@ -21,8 +22,7 @@ linkType: codewars
 codewars-link: https://www.codewars.com/kata/an-eventful-bus
 
 ---
-# JS Practice Event Loop
 ## Exercise
-### Question
+# JS Practice Event Loop
 
 Explore the JavaScript Event Loop on Code Wars

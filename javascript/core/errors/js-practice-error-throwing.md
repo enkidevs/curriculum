@@ -1,4 +1,4 @@
-# JS Practice Error Throwing
+---
 author: milesflo
 
 levels:
@@ -22,5 +22,6 @@ standards:
 
 ---
 ## Exercise
-### Question
+# JS Practice Error Throwing
+
 Practice throwing JavaScript Errors on Code Wars

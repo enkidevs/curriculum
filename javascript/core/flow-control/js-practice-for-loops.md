@@ -1,4 +1,4 @@
-# JS Practice For Loops
+---
 author: milesflo
 
 levels:
@@ -22,6 +22,7 @@ standards:
   js.write-expressions.0: 1000
 
 ---
-## Exercises
-### Question
+## Exercise
+# JS Practice For Loops
+
 Practice using JavaScript For-Loops on Code Wars

@@ -1,4 +1,4 @@
-# JS Practice Custom Errors
+---
 author: milesflo
 
 levels:
@@ -23,5 +23,6 @@ standards:
 
 ---
 ## Exercise
-### Question
+# JS Practice Custom Errors
+
 Practice creating custom JavaScript Errors on Code Wars

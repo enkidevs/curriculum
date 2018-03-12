@@ -1,4 +1,4 @@
-# JS Practice Switch Case
+---
 author: milesflo
 
 levels:
@@ -21,6 +21,7 @@ standards:
   js.write-expressions.0: 1000
 
 ---
-## Exercises
-### Question
+## Exercise
+# JS Practice Switch Case
+
 Practice using JavaScript Switch-Cases on Code Wars

@@ -1,4 +1,4 @@
-# JS Practice If...Else
+---
 author: milesflo
 
 levels:
@@ -21,6 +21,7 @@ standards:
   js.write-expressions.0: 1000
 
 ---
-## Exercises
-### Question
+## Exercise
+# JS Practice If...Else
+
 Practice using JavaScript if..else Conditionals on Code Wars

@@ -1,4 +1,4 @@
-# JS Practice Sort 2
+---
 author: milesflo
 
 levels:
@@ -23,6 +23,7 @@ standards:
   js.functions.3: 1000
 
 ---
-## Exercises
-### Question
+## Exercise
+# JS Practice Sort 2
+
 Write a JavaScript function that will sort Strings by their last character

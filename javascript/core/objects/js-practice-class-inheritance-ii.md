@@ -1,3 +1,4 @@
+---
 author: milesflo
 
 levels:
@@ -10,13 +11,10 @@ type: exercise
 
 standards:
 
-  - js.prototype-class.0: 1000
-
-  - js.prototype-class.1: 1000
-
-  - js.prototype-class.2: 1000
-
-  - js.prototype-prototype.0: 1000
+  js.prototype-class.0: 1000
+  js.prototype-class.1: 1000
+  js.prototype-class.2: 1000
+  js.prototype-prototype.0: 1000
 
 links:
 
@@ -27,8 +25,7 @@ linkType: codewars
 codewars-link: https://www.codewars.com/kata/speedcode-number-3-x-fun-with-es6-classes-number-5-dogs-and-classes
 
 ---
-# JS Practice Class Inheritance 2
 ## Exercise
-### Question
+# JS Practice Class Inheritance 2
 
 Apply your knowledge of JavaScript Class Inheritance in this Code Wars challenge!

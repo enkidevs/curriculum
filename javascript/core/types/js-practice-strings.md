@@ -1,4 +1,4 @@
-# JS Practice Strings
+---
 author: milesflo
 
 levels:
@@ -19,9 +19,9 @@ links:
   - '[MDN - Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)'
   - '[YoutTube - 20 String Methods in 7 Minutes](https://www.youtube.com/watch?v=VRz0nbax0uI)'
 
-codewars-link: http://www.codewars.com/kata/571edea4b625edcb51000d8e
 linkType: codewars
 link: http://www.codewars.com/kata/571edea4b625edcb51000d8e
+
 standards:
   js.data-types-structures.0: 1000
   js.data-types-structures.1: 3000
@@ -29,5 +29,6 @@ standards:
 
 ---
 ## Exercise
-### Question
+# JS Practice Strings
+
 Practice using JavaScript Strings on Code Wars

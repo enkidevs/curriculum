@@ -19,7 +19,7 @@ links:
 codewars-link: http://www.codewars.com/kata/57277a31e5e51450a4000010
 standards:
   js.standard-library.0: 1000
-  js.write-expressions.0: 1000that will sort Strings in descending order
+  js.write-expressions.0: 1000
 
 ---
 ## Exercise

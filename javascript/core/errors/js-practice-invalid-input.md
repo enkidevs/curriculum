@@ -1,4 +1,4 @@
-# JS Practice Invalid Input
+---
 author: milesflo
 
 levels:
@@ -22,5 +22,6 @@ standards:
 
 ---
 ## Exercise
-### Question
+# JS Practice Invalid Input
+
 Practice Error Handling on Code Wars

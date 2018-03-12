@@ -1,4 +1,4 @@
-# JS Practice While Loop
+---
 author: milesflo
 
 levels:
@@ -22,6 +22,7 @@ standards:
   js.write-expressions.0: 1000
 
 ---
-## Exercises
-### Question
+## Exercise
+# JS Practice While Loop
+
 Practice using JavaScript While-Loops on Code Wars

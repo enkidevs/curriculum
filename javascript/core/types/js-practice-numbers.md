@@ -1,4 +1,4 @@
-# JS Practice Numbers
+---
 author: milesflo
 
 levels:
@@ -21,12 +21,14 @@ links:
 
 linkType: codewars
 link: http://www.codewars.com/kata/571edd157e8954bab500032d
-codewars-link: http://www.codewars.com/kata/571edd157e8954bab500032d
+
 standards:
   js.data-types-structures.0: 1000
   js.data-types-structures.1: 6000
   js.write-expressions.0: 6000
+
 ---
 ## Exercise
-### Question
+# JS Practice Numbers
+
 Practice using JavaScript Numbers on Code Wars
