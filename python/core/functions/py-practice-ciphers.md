@@ -1,4 +1,4 @@
-# Play with ciphers
+---
 author: SebaRaba
 
 levels:
@@ -7,8 +7,14 @@ levels:
 
   - basic
 
-
 type: exercise
+
+standards:
+
+  py.functions.0: 1000
+  py.functions.1: 2000
+  py.functions.2: 3000
+  py.functions.3: 3000
 
 links:
 
@@ -16,16 +22,10 @@ links:
   - '[link to deeper dive blog post](https://www.digitalocean.com/community/tutorials/how-to-define-functions-in-python-3){website}'
   - '[link to a video](https://www.youtube.com/watch?v=9Os0o3wzS_I){video}'
   - '[link to a discussion](https://enki.com)'
-  
-linkType: codewars
 link: https://www.codewars.com/kata/digital-cypher
-standards:
-  py.functions.0: 1000
-  py.functions.1: 2000
-  py.functions.2: 3000
-  py.functions.3: 3000
-
+linkType: codewars
 ---
 ## Exercise
+# Play with ciphers
 
 Solve ciphers and train your skills with python `functions`.

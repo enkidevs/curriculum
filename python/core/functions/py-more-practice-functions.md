@@ -1,4 +1,4 @@
-# Python functions exercises
+---
 author: SebaRaba
 
 levels:
@@ -7,13 +7,19 @@ levels:
 
   - basic
 
+type: exercise
+
+standards:
+
+  py.functions.0: 1000
+  py.functions.1: 2000
+  py.functions.2: 3000
+  py.functions.4: 4000
+  py.functions.5: 5000
 
 tags:
 
   - workout
-
-
-type: exercise
 
 links:
 
@@ -21,17 +27,10 @@ links:
   - '[link to deeper dive blog post](https://www.digitalocean.com/community/tutorials/how-to-define-functions-in-python-3){website}'
   - '[link to a video](https://www.youtube.com/watch?v=9Os0o3wzS_I){video}'
   - '[link to a discussion](https://enki.com)'
-
-linkType: codewars
 link: https://www.codewars.com/kata/duplicate-encoder
-standards:
-  py.functions.0: 1000
-  py.functions.1: 2000
-  py.functions.2: 3000
-  py.functions.4: 4000
-  py.functions.5: 5000
-
+linkType: codewars
 ---
 ## Exercise
+# Python functions exercises
 
 More practice on python `functions` and `scoping`.

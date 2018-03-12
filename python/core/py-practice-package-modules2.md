@@ -1,4 +1,4 @@
-# Practice package modules
+---
 author: SebaRaba
 
 levels:
@@ -7,19 +7,10 @@ levels:
 
   - basic
 
-
 type: exercise
 
-
-links:
-
-  - '[link to official documentation](https://docs.python.org/3/tutorial/modules.html){website}'
-  - '[link to deeper dive blog post](https://docs.python.org/3/tutorial/modules.html){website}'
-  - '[link to a video](https://www.youtube.com/watch?v=V-GZxNLOMXs){video}'
-
-linkType: codewars
-link: https://www.codewars.com/kata/building-an-adaboost-model-with-sklearn-introductory-machine-learning
 standards:
+
   py.modules.0: 1000
   py.modules.1: 1000
   py.modules.3: 1000
@@ -28,7 +19,15 @@ standards:
   py.modules.6: 3000
   py.modules.7: 3000
 
+links:
+
+  - '[link to official documentation](https://docs.python.org/3/tutorial/modules.html){website}'
+  - '[link to deeper dive blog post](https://docs.python.org/3/tutorial/modules.html){website}'
+  - '[link to a video](https://www.youtube.com/watch?v=V-GZxNLOMXs){video}'
+link: https://www.codewars.com/kata/building-an-adaboost-model-with-sklearn-introductory-machine-learning
+linkType: codewars
 ---
 ## Exercise
+# Practice package modules
 
 Build a machine learning model using python packages.
