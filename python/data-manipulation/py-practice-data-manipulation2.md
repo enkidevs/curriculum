@@ -7,7 +7,7 @@ levels:
 
   - basic
 
-type: exerciseList
+type: exercise
 
 standards:
 
@@ -24,8 +24,7 @@ links:
 link: http://www.codewars.com/kata/pick-peaks
 linkType: codewars
 ---
-# Practice data manipulation
 ## Exercise
-### Question
+# Practice data manipulation
 
 Train your skill on `data manipulation` in python.

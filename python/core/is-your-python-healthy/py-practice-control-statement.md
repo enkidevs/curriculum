@@ -23,8 +23,7 @@ links:
 link: https://www.codewars.com/kata/numbers-in-strings
 linkType: codewars
 ---
-# Practice control statements
 ## Exercise
-### Question
+# Practice control statements
 
 Identify python `statements`.

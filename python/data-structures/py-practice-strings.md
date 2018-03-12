@@ -7,7 +7,7 @@ levels:
 
   - basic
 
-type: exerciseList
+type: exercise
 
 standards:
 
@@ -23,8 +23,7 @@ links:
 link: https://www.codewars.com/kata/help-the-bookseller
 linkType: codewars
 ---
-# Practice working with strings
 ## Exercise
-### Question
+# Practice working with strings
 
 Train your skills on using sets of dat and python's `string` type.

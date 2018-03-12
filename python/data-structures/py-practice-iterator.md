@@ -7,7 +7,7 @@ levels:
 
   - basic
 
-type: exerciseList
+type: exercise
 
 standards:
 
@@ -23,8 +23,7 @@ links:
 link: http://www.codewars.com/kata/clock-in-mirror
 linkType: codewars
 ---
-# Practice python iterator
 ## Exercise
-### Question
+# Practice python iterator
 
 Practice working with python `iterator`.

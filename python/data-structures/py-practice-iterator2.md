@@ -7,7 +7,7 @@ levels:
 
   - basic
 
-type: exerciseList
+type: exercise
 
 standards:
 
@@ -21,8 +21,7 @@ links:
 link: https://www.codewars.com/kata/map-and-filter-to-get-a-special-sequence-of-integers/python
 linkType: codewars
 ---
-# Practice python iterator2
 ## Exercise
-### Question
+# Practice python iterator2
 
 Practice working with python `iterator`.

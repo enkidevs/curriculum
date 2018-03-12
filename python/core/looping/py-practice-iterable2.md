@@ -23,8 +23,7 @@ links:
 link: https://www.codewars.com/kata/count-of-positives-slash-sum-of-negatives
 linkType: codewars
 ---
-# Practice iterables2
 ## Exercise
-### Question
+# Practice iterables2
 
 Practice `iterables` in python.

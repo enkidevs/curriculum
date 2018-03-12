@@ -7,7 +7,7 @@ levels:
 
   - basic
 
-type: exerciseList
+type: exercise
 
 standards:
 
@@ -22,8 +22,7 @@ links:
 link: http://www.codewars.com/kata/bad-apples/python
 linkType: codewars
 ---
-# Practice data structures
 ## Exercise
-### Question
+# Practice data structures
 
 Practice using `data structures` in python.

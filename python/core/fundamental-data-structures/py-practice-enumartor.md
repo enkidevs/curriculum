@@ -26,8 +26,7 @@ links:
 link: https://www.codewars.com/kata/categorize-new-member
 linkType: codewars
 ---
-# Practice python enumerator type
 ## Exercise
-### Question
+# Practice python enumerator type
 
 Practice using python's `enumerator` and `set` data types.

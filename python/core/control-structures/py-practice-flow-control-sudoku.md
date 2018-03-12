@@ -25,8 +25,7 @@ links:
 link: https://www.codewars.com/kata/did-i-finish-my-sudoku
 linkType: codewars
 ---
-# Exercises control structures solving a sudoku
 ## Exercise
-### Question
+# Exercises control structures solving a sudoku
 
 Practice flow control `structures` in python.

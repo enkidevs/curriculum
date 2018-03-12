@@ -27,8 +27,7 @@ links:
 link: https://www.codewars.com/kata/fibonacci-tribonacci-and-friends
 linkType: codewars
 ---
-# Practice python sequence with fibonacci
 ## Exercise
-### Question
+# Practice python sequence with fibonacci
 
 Play with Fibonacci's `sequence` in python.

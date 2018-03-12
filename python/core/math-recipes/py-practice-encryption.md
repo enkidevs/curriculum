@@ -25,8 +25,7 @@ links:
 link: https://www.codewars.com/kata/simple-encryption-number-1-alternating-split
 linkType: codewars
 ---
-# Practice encryption
 ## Exercise
-### Question
+# Practice encryption
 
 Encrypt/Decrypt data with python.

@@ -28,8 +28,7 @@ links:
 link: https://www.codewars.com/kata/sum-of-two-lowest-positive-integers
 linkType: codewars
 ---
-# Python native types exercises
 ## Exercise
-### Question
+# Python native types exercises
 
 Use python's `mapping` types.

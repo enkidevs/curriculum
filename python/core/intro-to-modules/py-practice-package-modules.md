@@ -27,8 +27,7 @@ links:
 link: https://www.codewars.com/kata/the-enigma-machine-part-1-the-plugboard
 linkType: codewars
 ---
-# Practice package modules
 ## Exercise
-### Question
+# Practice package modules
 
 Train using python packages.

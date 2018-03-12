@@ -24,7 +24,7 @@ links:
 link: https://www.codewars.com/kata/convert-a-linked-list-to-a-string
 linkType: codewars
 ---
-# Practice loops
 ## Exercise
-### Question
+# Practice loops
+
 Iterate without a `loop` in python.

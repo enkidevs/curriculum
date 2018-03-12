@@ -23,8 +23,7 @@ links:
 link: https://www.codewars.com/kata/thinkful-list-drills-longest-word
 linkType: codewars
 ---
-# Practice iterable data types
 ## Exercise
-### Question
+# Practice iterable data types
 
 Practice working with `for loops` and `iterables` in python.

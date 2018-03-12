@@ -27,8 +27,7 @@ links:
 link: https://www.codewars.com/kata/building-an-adaboost-model-with-sklearn-introductory-machine-learning
 linkType: codewars
 ---
-# Practice package modules
 ## Exercise
-### Question
+# Practice package modules
 
 Build a machine learning model using python packages.

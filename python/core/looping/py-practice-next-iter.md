@@ -24,8 +24,7 @@ links:
 link: https://www.codewars.com/kata/my-head-is-at-the-wrong-end
 linkType: codewars
 ---
-# Practice next and iter
 ## Exercise
-### Question
+# Practice next and iter
 
 Practice your skills with `next` and `iter`.

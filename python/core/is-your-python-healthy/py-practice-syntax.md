@@ -24,8 +24,7 @@ links:
 link: https://www.codewars.com/kata/regex-validate-pin-code
 linkType: codewars
 ---
-# Practice python syntax
 ## Exercise
-### Question
+# Practice python syntax
 
 Practice python syntax `validity`.

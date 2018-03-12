@@ -9,7 +9,7 @@ levels:
 
   - medium
 
-type: exerciseList
+type: exercise
 
 standards:
 
@@ -25,8 +25,7 @@ links:
 link: https://www.codewars.com/kata/cat-years-dog-years
 linkType: codewars
 ---
-# Practice python string manipulation
 ## Exercise
-### Question
+# Practice python string manipulation
 
 Train your math skills with python.

@@ -9,7 +9,7 @@ levels:
 
   - medium
 
-type: exerciseList
+type: exercise
 
 standards:
 
@@ -24,8 +24,7 @@ links:
 link: https://www.codewars.com/kata/binary-representation-of-an-integer
 linkType: codewars
 ---
-# Practice using binary data
 ## Exercise
-### Question
+# Practice using binary data
 
 Practice using binary data in python.

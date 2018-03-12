@@ -23,8 +23,7 @@ links:
 link: https://www.codewars.com/kata/find-out-whether-the-shape-is-a-cube
 linkType: codewars
 ---
-# Practice python modules
 ## Exercise
-### Question
+# Practice python modules
 
 Practice using modules in python.

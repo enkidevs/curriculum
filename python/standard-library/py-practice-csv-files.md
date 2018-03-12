@@ -9,7 +9,7 @@ levels:
 
   - medium
 
-type: exerciseList
+type: exercise
 
 standards:
 
@@ -24,8 +24,7 @@ links:
 link: https://www.codewars.com/kata/sort-the-columns-of-a-csv-file
 linkType: codewars
 ---
-# Manage CSV files
 ## Exercise
-### Question
+# Manage CSV files
 
 Manage `csv` files in python.

@@ -25,8 +25,7 @@ links:
 link: https://www.codewars.com/kata/you-only-need-one-beginner
 linkType: codewars
 ---
-# Practice python booleans
 ## Exercise
-### Question
+# Practice python booleans
 
 Practice using python's `boolean` and `numeric` types on Code Wars.

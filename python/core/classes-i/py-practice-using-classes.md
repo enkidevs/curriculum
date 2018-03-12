@@ -22,8 +22,7 @@ links:
 link: https://www.codewars.com/kata/ordered-count-of-characters
 linkType: codewars
 ---
-# Practice using classes.
 ## Exercise
-### Question
+# Practice using classes.
 
 Practice using classes together with your networking skills.

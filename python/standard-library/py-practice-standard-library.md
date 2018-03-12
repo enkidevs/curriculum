@@ -9,7 +9,7 @@ levels:
 
   - medium
 
-type: exerciseList
+type: exercise
 
 standards:
 
@@ -24,8 +24,7 @@ links:
 link: https://www.codewars.com/kata/extract-file-name
 linkType: codewars
 ---
-# Python standard library
 ## Exercise
-### Question
+# Python standard library
 
 Make effective use of python's `standard library`.

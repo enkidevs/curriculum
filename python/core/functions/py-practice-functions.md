@@ -24,8 +24,7 @@ links:
 link: https://www.codewars.com/kata/number-of-people-in-the-bus
 linkType: codewars
 ---
-# Practice functions
 ## Exercise
-### Question
+# Practice functions
 
 Practice python `functions`.

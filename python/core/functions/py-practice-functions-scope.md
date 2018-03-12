@@ -26,8 +26,7 @@ links:
 link: https://www.codewars.com/kata/sum-of-pairs
 linkType: codewars
 ---
-# Python scope
 ## Exercise
-### Question
+# Python scope
 
 Make use of `scope` effectively.

@@ -24,8 +24,7 @@ links:
 link: https://www.codewars.com/kata/classy-extentions
 linkType: codewars
 ---
-# Practice using classes.
 ## Exercise
-### Question
+# Practice using classes.
 
 Practice using classes in python.

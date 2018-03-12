@@ -30,8 +30,7 @@ links:
 link: https://www.codewars.com/kata/sum-of-pairs
 linkType: codewars
 ---
-# Python functions exercises
 ## Exercise
-### Question
+# Python functions exercises
 
 Make use of `scope` effectively.

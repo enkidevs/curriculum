@@ -25,8 +25,7 @@ links:
 link: https://www.codewars.com/kata/coding-meetup-number-17-higher-order-functions-series-sort-by-programming-language
 linkType: codewars
 ---
-# Python control structures exercise
 ## Exercise
-### Question
+# Python control structures exercise
 
 Practice flow control `structures` in python.

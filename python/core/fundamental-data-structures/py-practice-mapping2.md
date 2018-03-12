@@ -27,8 +27,7 @@ links:
 link: https://www.codewars.com/kata/self-closing-cookie-jar
 linkType: codewars
 ---
-# Python native types exercises
 ## Exercise
-### Question
+# Python native types exercises
 
 Use python's `mapping` types.

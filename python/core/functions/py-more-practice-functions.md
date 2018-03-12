@@ -30,8 +30,7 @@ links:
 link: https://www.codewars.com/kata/duplicate-encoder
 linkType: codewars
 ---
-# Python functions exercises
 ## Exercise
-### Question
+# Python functions exercises
 
 More practice on python `functions` and `scoping`.

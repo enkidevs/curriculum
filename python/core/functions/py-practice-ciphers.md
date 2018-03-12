@@ -25,8 +25,7 @@ links:
 link: https://www.codewars.com/kata/digital-cypher
 linkType: codewars
 ---
-# Play with ciphers
 ## Exercise
-### Question
+# Play with ciphers
 
 Solve ciphers and train your skills with python `functions`.

@@ -24,8 +24,7 @@ links:
 link: https://www.codewars.com/kata/unique-sum
 linkType: codewars
 ---
-# Practice flow control structures
 ## Exercise
-### Question
+# Practice flow control structures
 
 Use python `flow control` structures.

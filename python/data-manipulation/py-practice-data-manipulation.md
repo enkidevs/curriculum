@@ -7,7 +7,7 @@ levels:
 
   - basic
 
-type: exerciseList
+type: exercise
 
 standards:
 
@@ -24,8 +24,7 @@ links:
 link: https://www.codewars.com/kata/help-the-bookseller
 linkType: codewars
 ---
-# Python Data manipulation Exercises
 ## Exercise
-### Question
+# Python Data manipulation Exercises
 
 Practice working with `nested data` and `data structures` in python.

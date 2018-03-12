@@ -9,7 +9,7 @@ levels:
 
   - medium
 
-type: exerciseList
+type: exercise
 
 standards:
 
@@ -24,8 +24,7 @@ links:
 link: https://www.codewars.com/kata/find-the-files-then-read-them
 linkType: codewars
 ---
-# Working with files in python
 ## Exercise
-### Question
+# Working with files in python
 
 Work with files in python.

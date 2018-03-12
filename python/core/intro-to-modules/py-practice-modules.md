@@ -24,8 +24,7 @@ links:
 link: https://www.codewars.com/kata/circle-area-inside-square
 linkType: codewars
 ---
-# Practice python modules
 ## Exercise
-### Question
+# Practice python modules
 
 Practice using python modules.

@@ -9,7 +9,7 @@ levels:
 
   - medium
 
-type: exerciseList
+type: exercise
 
 standards:
 
@@ -22,8 +22,7 @@ links:
 link: https://www.codewars.com/kata/folding-your-way-to-the-moon
 linkType: undefined
 ---
-# Practice your math skills
 ## Exercise
-### Question
+# Practice your math skills
 
 Train your math skills with python.

@@ -9,7 +9,7 @@ levels:
 
   - medium
 
-type: exerciseList
+type: exercise
 
 standards:
 
@@ -24,8 +24,7 @@ links:
 link: https://www.codewars.com/kata/create-phone-number
 linkType: codewars
 ---
-# Practice python string manipulation
 ## Exercise
-### Question
+# Practice python string manipulation
 
 Practice `strings` in python.
