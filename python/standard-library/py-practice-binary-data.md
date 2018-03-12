@@ -1,4 +1,3 @@
-# Practice using binary data
 author: SebaRaba
 
 levels:
@@ -9,22 +8,23 @@ levels:
 
   - medium
 
-
 type: exerciseList
+
+standards:
+
+  - py.standard-library-data.3: 2000
+  - py.standard-library-data.4: 2000
+  - py.standard-library-data.8: 3000
 
 links:
 
   - '[link to official documentation](https://www.devdungeon.com/content/working-binary-data-python){website}'
   - '[link to a video](https://www.youtube.com/watch?v=f5dU3xoE6ms){video}'
-
-linkType: codewars
 link: https://www.codewars.com/kata/binary-representation-of-an-integer
-standards:
-  py.standard-library-data.3: 2000
-  py.standard-library-data.4: 2000
-  py.standard-library-data.8: 3000
-
+linkType: codewars
 ---
+# Practice using binary data
 ## Exercise
 ### Question
+
 Practice using binary data in python.

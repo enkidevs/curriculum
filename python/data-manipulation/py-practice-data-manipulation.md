@@ -1,4 +1,3 @@
-# Python Data manipulation Exercises
 author: SebaRaba
 
 levels:
@@ -7,24 +6,25 @@ levels:
 
   - basic
 
-
 type: exerciseList
+
+standards:
+
+  - py.store-manipulate-data.0: 3000
+  - py.store-manipulate-data.1: 2000
+  - py.store-manipulate-data.2: 3000
+  - py.data-structures-uses.5: 5000
+  - py.data-structures-uses.4: 6000
 
 links:
 
   - '[link to deeper dive blog post](https://www.analyticsvidhya.com/blog/2016/01/12-pandas-techniques-python-data-manipulation/){website}'
   - '[link to a video](https://www.youtube.com/watch?v=Iqjy9UqKKuo){video}'
-
-linkType: codewars
 link: https://www.codewars.com/kata/help-the-bookseller
-standards:
-  py.store-manipulate-data.0: 3000
-  py.store-manipulate-data.1: 2000
-  py.store-manipulate-data.2: 3000
-  py.data-structures-uses.5: 5000
-  py.data-structures-uses.4: 6000
-
+linkType: codewars
 ---
+# Python Data manipulation Exercises
 ## Exercise
 ### Question
+
 Practice working with `nested data` and `data structures` in python.
