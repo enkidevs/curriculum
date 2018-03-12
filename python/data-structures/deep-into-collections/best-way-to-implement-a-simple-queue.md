@@ -1,4 +1,4 @@
-# Best way to implement a simple `queue` 
+# Best way to implement a simple `queue`
 author: catalin
 
 levels:
@@ -23,7 +23,7 @@ links:
 ---
 ## Content
 
-A simple `list` can be easily used and implemented as a **queue** abstract data structure. A queue implies the **first-in, first-out** principle. 
+A simple `list` can be easily used and implemented as a **queue** abstract data structure. A queue implies the **first-in, first-out** principle.
 
 However, this approach will prove inefficient because *inserts* and *pops* from the beginning of a list are slow (all elements need shifting by one).
 
@@ -45,14 +45,14 @@ A reverse queue can be implemented by opting for `appendleft` instead of `append
 ---
 ## Practice
 
-A reverse queue can be implemented by using ???  instead of ??? for adding items, and by using ??? instead of ??? for removing items.
+A queue can be implemented by using ???  and ??? for adding items, and by using ??? and ??? for removing items.
 
-*appendleft
-*append
-*pop
-*popleft
-*appendright
-*popright
+* appendleft
+* append
+* pop
+* popleft
+* appendright
+* popright
 
 ---
 ## Revision
@@ -60,17 +60,19 @@ A reverse queue can be implemented by using ???  instead of ??? for adding items
 Complete the code snippet so that the queue reads Enki:
 
 ```
-from collections import deque 
+from collections import deque
 queue = deque(["i", "n", \
-              "k", "i"]) 
+              "k", "i"])
 
 queue.???
 queue.???
 print(queue)
 ```
-*`popleft()` 
-*`appendleft("e")` 
-*`pop()` 
-*`append("e")` 
-*`pop-left()` 
-*`append-left("e")`
+
+
+* `popleft()`
+* `appendleft("e")`
+* `pop()`
+* `append("e")`
+* `pop-left()`
+* `append-left("e")`

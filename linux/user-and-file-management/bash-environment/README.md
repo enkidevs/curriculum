@@ -1,10 +1,6 @@
 name: Bash Environment
 
-type: insights-list
-
 description: Getting familiar with the bash environment.
-
-section: 0
 
 insights:
   - customizing-bash-via-bashrc

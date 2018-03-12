@@ -1,12 +1,6 @@
 name: Strings III
 
-type: insights-list
-
 description: Commonly encountered scenarios and recipes for them, part 3.
-
-section: 0
-
-parent: strings-ii
 
 insights:
   - avoid-floating-point-when-calculating-exact-quantities-such-as-money
