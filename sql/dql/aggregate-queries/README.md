@@ -9,3 +9,11 @@ insights:
   - min-and-max-clauses
   - distinct-clause
   - avg-clause
+
+exercises:
+  - sql-practice-single-table
+  - sql-practice-single-table-2
+  - sql-practice-aggregate-table-min-and-max
+  - sql-practice-aggregate-table-max-filter
+  - sql-practice-aggregate-group
+  - sql-practice-aggregate-average
