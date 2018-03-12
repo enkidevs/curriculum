@@ -1,12 +1,6 @@
 name: Writing Generic Code
 
-type: insights-list
-
 description: Learn how to write generic code!
-
-section: 0
-
-parent: tips-i
 
 insights:
   - writing-generic-methods

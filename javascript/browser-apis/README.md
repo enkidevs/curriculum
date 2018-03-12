@@ -1,11 +1,20 @@
-sections:
-  - 0
-  - 1
+name: Browser APIs
 
 description: The browser. The mother of javascript. You'll work better, together.
 
+sections:
+  '0':
+    - navigation
+    - toolbox-i
+    - user-interaction
+  '1':
+    - measuring-performance
+    - reading-writing
+    - toolbox-ii
+    - user-interaction
+
 next:
-  - javascript-node
+  - javascript:node
 
 prerequisites:
-  - javascript-core
+  - javascript:ecmascript-2015

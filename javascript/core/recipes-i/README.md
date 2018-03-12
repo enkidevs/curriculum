@@ -1,19 +1,13 @@
-name: Recipes I
+name: Numbers Recipes
 
-type: insights-list
-
-description: Recipes for common problems.
-
-section: 2
-
-parent: functions-iii
+description: Recipes for working with Numbers
 
 insights:
+  - format-currency-in-javascript
   - easily-generate-a-random-hex-color
-  - use-the-apply-function-to-get-the-min-or-max-of-an-array
-  - get-a-random-item-from-an-array
-  - using-test-with-regexp
-  - setting-default-values-with-short-circuiting
+  - round-numbers-to-n-decimals
+  - using-the-double-tilde
+  - quick-way-to-format-integers-with-a-fixed-number-of-digits
 
 exercises:
   - js-practice-number-tostring
@@ -40,4 +34,4 @@ exercises:
   - js-practice-math-random
   - js-practice-date
 
-  
+game: using-the-double-tilde-game

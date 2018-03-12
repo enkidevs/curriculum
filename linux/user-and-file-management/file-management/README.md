@@ -1,12 +1,6 @@
 name: File Management
 
-type: insights-list
-
 description: File management 101.
-
-section: 0
-
-parent: pipelines
 
 insights:
   - the-directory-tree
