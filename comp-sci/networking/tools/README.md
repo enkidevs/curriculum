@@ -1,12 +1,6 @@
 name: Tools
 
-type: insights-list
-
 description: Using tools to debug networks.
-
-section: 0
-
-parent: metrics
 
 insights:
   - tools-to-interact-with-networks
@@ -14,3 +8,5 @@ insights:
   - dns-lookup  
   - network-interfaces-tools
   - test-connectivity
+
+game: networking-quiz

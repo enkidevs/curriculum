@@ -1,12 +1,6 @@
 name: Disk and Time Management
 
-type: insights-list
-
 description: Utilities that come in hand for disk and time management.
-
-section: 0
-
-parent: basic-package-management
 
 insights:
   - test-disk-speed
