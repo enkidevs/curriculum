@@ -20,10 +20,11 @@ links:
 linkType: codewars
 link: https://www.codewars.com/kata/categorize-new-member
 standards:
-  py.native-types-operations.1:1000
-  py.native-types-operations.5:2000
-  py.native-types-operations.9:2000
+  py.native-types-operations.1: 1000
+  py.native-types-operations.5: 2000
+  py.native-types-operations.9: 2000
   py.data-structures-uses.0: 1000
+
 ---
 ## Exercise
 

@@ -19,7 +19,7 @@ links:
 
 website-link: https://www.codewars.com/kata/folding-your-way-to-the-moon
 standards:
-    py.standard-library-data.1: 2000
+  py.standard-library-data.1: 2000
 
 ---
 ## Exercise

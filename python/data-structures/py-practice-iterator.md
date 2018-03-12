@@ -20,7 +20,7 @@ standards:
   py.data-structures-uses.5: 4000
   py.data-structures-uses.3: 3000
   py.data-structures-uses.4: 4000
-  py.native-types-operations.3:4000
+  py.native-types-operations.3: 4000
 
 ---
 ## Exercise

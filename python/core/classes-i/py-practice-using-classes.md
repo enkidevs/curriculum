@@ -19,6 +19,7 @@ link: https://www.codewars.com/kata/ordered-count-of-characters
 standards:
   py.object-oriented.0: 1000
   py.object-oriented.3: 2000
+
 ---
 
 ## Exercise

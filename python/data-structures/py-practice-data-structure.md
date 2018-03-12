@@ -17,10 +17,10 @@ links:
 linkType: codewars
 link: http://www.codewars.com/kata/bad-apples/python
 standards:
-  py.data-structures-uses.0:2000
-  py.data-structures-uses.2:2000
-  py.data-structures-uses.3:3000
-  py.native-types-operations.3:3000
+  py.data-structures-uses.0: 2000
+  py.data-structures-uses.2: 2000
+  py.data-structures-uses.3: 3000
+  py.native-types-operations.3: 3000
  
 ---
 ## Exercise

@@ -18,8 +18,8 @@ links:
 linkType: codewars
 link: https://www.codewars.com/kata/numbers-in-strings
 standards:
-  py.identify-python-syntax.0:1000
-  py.identify-python-syntax.1:2000
+  py.identify-python-syntax.0: 1000
+  py.identify-python-syntax.1: 2000
   py.store-manipulate-data.0: 2000
   py.data-structures-uses.5: 2000
 

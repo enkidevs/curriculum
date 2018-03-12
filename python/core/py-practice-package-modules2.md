@@ -20,13 +20,13 @@ links:
 linkType: codewars
 link: https://www.codewars.com/kata/building-an-adaboost-model-with-sklearn-introductory-machine-learning
 standards:
-    py.modules.0: 1000
-    py.modules.1: 1000
-    py.modules.3: 1000
-    py.modules.4: 2000
-    py.modules.5: 3000
-    py.modules.6: 3000
-    py.modules.7: 3000
+  py.modules.0: 1000
+  py.modules.1: 1000
+  py.modules.3: 1000
+  py.modules.4: 2000
+  py.modules.5: 3000
+  py.modules.6: 3000
+  py.modules.7: 3000
 
 ---
 ## Exercise

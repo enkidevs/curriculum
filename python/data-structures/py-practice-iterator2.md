@@ -19,7 +19,7 @@ link: https://www.codewars.com/kata/map-and-filter-to-get-a-special-sequence-of-
 standards:
   py.data-structures-uses.0: 1000
   py.data-structures-uses.1: 3000
-  py.native-types-operations.3:4000
+  py.native-types-operations.3: 4000
 
 ---
 ## Exercise
