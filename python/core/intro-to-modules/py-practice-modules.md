@@ -8,7 +8,7 @@ levels:
   - basic
 
 
-type: exerciseList
+type: exercise
 
 
 links:
@@ -20,10 +20,12 @@ links:
 linkType: codewars
 link: https://www.codewars.com/kata/circle-area-inside-square
 standards:
-    py.modules.0: 1000
-    py.modules.1: 1000
-    py.modules.2: 2000
-    py.modules.5: 2000
+  py.modules.0: 1000
+  py.modules.1: 1000
+  py.modules.2: 2000
+  py.modules.5: 2000
+---
+
 ## Exercise
-### Question
+
 Practice using python modules.

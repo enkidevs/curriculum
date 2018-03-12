@@ -13,7 +13,7 @@ tags:
   - workout
 
 
-type: exerciseList
+type: exercise
 
 links:
 
@@ -33,5 +33,5 @@ standards:
 
 ---
 ## Exercise
-### Question
+
 More practice on python `functions` and `scoping`.

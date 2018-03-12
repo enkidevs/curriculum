@@ -9,7 +9,7 @@ levels:
 
   - medium
 
-type: exerciseList
+type: exercise
 
 links:
 
@@ -17,7 +17,7 @@ links:
   - '[link to deeper dive blog post](http://www.diveintopython3.net/native-datatypes.html){website}'
   - '[link to a video](https://www.youtube.com/watch?v=TkpNMvBrEUw){video}'
 
-linkType: codewarsna
+linkType: codewars
 link: https://www.codewars.com/kata/sum-of-two-lowest-positive-integers
 standards:
   py.native-types-operations.1:1000
@@ -28,5 +28,5 @@ standards:
   py.native-types-operations.8:4000
 ---
 ## Exercise
-### Question
+
 Use python's `mapping` types.

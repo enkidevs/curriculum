@@ -8,7 +8,7 @@ levels:
   - basic
 
 
-type: exerciseList
+type: exercise
 
 links:
 
@@ -27,5 +27,5 @@ standards:
 
 ---
 ## Exercise
-### Question
+
 Solve ciphers and train your skills with python `functions`.

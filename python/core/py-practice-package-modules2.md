@@ -8,7 +8,7 @@ levels:
   - basic
 
 
-type: exerciseList
+type: exercise
 
 
 links:
@@ -30,5 +30,5 @@ standards:
 
 ---
 ## Exercise
-### Question
+
 Build a machine learning model using python packages.

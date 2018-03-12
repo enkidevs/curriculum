@@ -8,7 +8,7 @@ levels:
   - basic
 
 
-type: exerciseList
+type: exercise
 
 
 links:
@@ -20,11 +20,11 @@ links:
 linkType: codewars
 link: https://www.codewars.com/kata/find-out-whether-the-shape-is-a-cube
 standards:
-    py.modules.0: 1000
-    py.modules.1: 2000
-    py.modules.2: 1000
+  py.modules.0: 1000
+  py.modules.1: 2000
+  py.modules.2: 1000
 
 ---
 ## Exercise
-### Question
+
 Practice using modules in python.

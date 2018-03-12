@@ -7,7 +7,7 @@ levels:
 
   - basic
 
-type: exerciseList
+type: exercise
 
 links:
 
@@ -24,5 +24,5 @@ standards:
 
 ---
 ## Exercise
-### Question
+
 Practice `iterables` in python.

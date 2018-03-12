@@ -8,7 +8,7 @@ levels:
   - basic
   
 
-type: exerciseList
+type: exercise
 
 links:
 
@@ -28,7 +28,7 @@ standards:
 
 ---
 ## Exercise
-### Question
+
 Make use of `scope` effectively.
 
 

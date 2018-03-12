@@ -8,7 +8,7 @@ levels:
   - basic
 
 
-type: exerciseList
+type: exercise
 
 links:
 
@@ -25,5 +25,5 @@ standards:
 
 ---
 ## Exercise
-### Question
+
 Identify python `statements`.

@@ -9,7 +9,7 @@ levels:
 
   - medium
 
-type: exerciseList
+type: exercise
 
 links:
 
@@ -26,5 +26,5 @@ standards:
   py.data-structures-uses.0: 1000
 ---
 ## Exercise
-### Question
+
 Practice using python's `enumerator` and `set` data types.

@@ -7,7 +7,7 @@ levels:
 
   - basic
 
-type: exerciseList
+type: exercise
 
 links:
 
@@ -18,12 +18,12 @@ links:
 linkType: codewars
 link: https://www.codewars.com/kata/convert-a-linked-list-to-a-string
 standards:
-py.use-iteration-protocol.0: 1000
-py.use-iteration-protocol.1: 2000
-py.use-iteration-protocol.2: 2000
-py.use-iteration-protocol.3: 3000
+  py.use-iteration-protocol.0: 1000
+  py.use-iteration-protocol.1: 2000
+  py.use-iteration-protocol.2: 2000
+  py.use-iteration-protocol.3: 3000
 
 ---
 ## Exercise
-### Question
+
 Iterate without a `loop` in python.

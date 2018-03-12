@@ -8,7 +8,7 @@ levels:
   - basic
 
 
-type: exerciseList
+type: exercise
 
 
 links:
@@ -20,15 +20,15 @@ links:
 linkType: codewars
 link: https://www.codewars.com/kata/the-enigma-machine-part-1-the-plugboard
 standards:
-    py.modules.0: 1000
-    py.modules.1: 1000
-    py.modules.3: 1000
-    py.modules.4: 2000
-    py.modules.5: 3000
-    py.modules.6: 3000
-    py.modules.7: 3000
+  py.modules.0: 1000
+  py.modules.1: 1000
+  py.modules.3: 1000
+  py.modules.4: 2000
+  py.modules.5: 3000
+  py.modules.6: 3000
+  py.modules.7: 3000
 
 ---
 ## Exercise
-### Question
+
 Train using python packages.

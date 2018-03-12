@@ -9,7 +9,7 @@ levels:
 
   - medium
 
-type: exerciseList
+type: exercise
 
 links:
 
@@ -25,5 +25,5 @@ standards:
   py.native-types-operations.2:2000
 ---
 ## Exercise
-### Question
+
 Practice using python's `boolean` and `numeric` types on Code Wars.

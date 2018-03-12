@@ -6,9 +6,9 @@ levels:
   - beginner
 
   - basic
-  
 
-type: exerciseList
+
+type: exercise
 
 links:
 
@@ -27,5 +27,5 @@ standards:
 
 ---
 ## Exercise
-### Question
+
 Practice flow control `structures` in python.

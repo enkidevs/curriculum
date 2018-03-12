@@ -7,7 +7,7 @@ levels:
 
   - basic
 
-type: exerciseList
+type: exercise
 
 links:
 
@@ -25,5 +25,5 @@ standards:
 
 ---
 ## Exercise
-### Question
+
 Practice your skills with `next` and `iter`.

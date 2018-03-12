@@ -9,7 +9,7 @@ levels:
 
   - medium
 
-type: exerciseList
+type: exercise
 
 links:
 
@@ -27,5 +27,5 @@ standards:
   py.native-types-operations.8:4000
 ---
 ## Exercise
-### Question
+
 Use python's `mapping` types.

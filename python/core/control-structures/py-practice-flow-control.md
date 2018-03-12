@@ -8,7 +8,7 @@ levels:
   - basic
 
 
-type: exerciseList
+type: exercise
 
 links:
 
@@ -26,5 +26,5 @@ standards:
 
 ---
 ## Exercise
-### Question
+
 Use python `flow control` structures.
