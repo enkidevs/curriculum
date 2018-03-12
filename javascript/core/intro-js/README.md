@@ -1,10 +1,6 @@
 name: Introducing JavaScript
 
-type: insights-list
-
 description: Get familiar with one of the most popular programming languages. 
-
-section: 0
 
 insights:
   - why-learn-javascript

@@ -1,12 +1,6 @@
 name: Typography how-to's
 
-type: insights-list
-
 description: Employ CSS features to work on the typography of pages.
-
-section: 1
-
-parent: practical-css
 
 insights:
   - a-great-font-resource-google-font-api

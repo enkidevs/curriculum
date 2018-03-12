@@ -1,12 +1,6 @@
 name: Memory Allocation
 
-type: insights-list
-
 description: On how memory allocation and de-allocation works.
-
-section: 0
-
-parent: bits-bytes-hexadecimals
 
 insights:
   - pointers-and-references-python

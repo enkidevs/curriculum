@@ -47,9 +47,9 @@ public class Carrot
   extends Vegetable 
   implements Food {
   public static void main(String... args) {
-    Carrot carrot = new Carrot;
+    Carrot carrot = new Carrot();
     System.out.println(carrot.describe());
   }
 }
 ```
-Both `Vegetable` and and `Food` contain an implementation of `describe()`. When `carrot.describe()` is called, it will print `"A vegetable"`. This is because `Food.describe()` is a `default` method, while `Vegetable.describe()` is an instance method.
+Both `Vegetable` and `Food` contain an implementation of `describe()`. When `carrot.describe()` is called, it will print `"A vegetable"`. This is because `Food.describe()` is a `default` method, while `Vegetable.describe()` is an instance method.

@@ -1,12 +1,6 @@
 name: Terminal History
 
-type: insights-list
-
 description: Interacting with the history of your terminal.
-
-section: 1
-
-parent: default-permissions
 
 insights:
   - bash-history-reverse-search

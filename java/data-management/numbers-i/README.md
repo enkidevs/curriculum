@@ -1,10 +1,6 @@
 name: Numbers I
 
-type: insights-list
-
 description: Exploring numbers in Java.
-
-section: 0
 
 insights:
   - default-values-for-unassigned-data-types
