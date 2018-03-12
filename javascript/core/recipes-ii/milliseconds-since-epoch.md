@@ -9,6 +9,9 @@ type: normal
 
 category: tip
 
+standards:
+  js.standard-library.5: 10
+
 links:
 
   - '[2ality.com](http://www.2ality.com/2014/02/time-values.html){blog}'

@@ -11,9 +11,16 @@ type: normal
 
 category: feature
 
-tags:
+standards:
+  js.evaluate-expressions.3: 10
+  js.write-expressions.1: 10
+  js.standard-library.0: 10
 
-  - 'javascript, regex, regular expressions, regexp, test'
+tags:
+  - strings
+  - html
+  - introduction
+  - workout
 
 links:
 

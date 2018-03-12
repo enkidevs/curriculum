@@ -11,6 +11,14 @@ type: normal
 
 category: must-know
 
+standards:
+  js.async.2: 10
+
+tags:
+  - workout
+  - deep
+  - obscura
+
 links:
 
   - '[blog.getify.com](http://blog.getify.com/promises-part-2/){website}'

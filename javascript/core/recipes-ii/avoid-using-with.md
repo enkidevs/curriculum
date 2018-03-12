@@ -13,6 +13,9 @@ type: normal
 
 category: best practice
 
+standards:
+  js.javascript-syntax.0: 10
+
 links:
 
   - >-

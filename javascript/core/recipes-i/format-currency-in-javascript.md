@@ -13,8 +13,14 @@ type: normal
 
 category: how to
 
-tags:
+standards:
+  js.write-expressions.0: 10
+  js.evaluate-expressions.3: 10
+  js.standard-library.1: 10
 
+tags:
+  - introduction
+  - deep
   - currency-formatting
 
 links:

@@ -11,13 +11,16 @@ levels:
 
 type: normal
 
-category: feature
+
+standards:
+  js.functions.5: 10
 
 tags:
-
+  - workout
   - hoisting
-
+  - deep
   - variables
+  - obscura
 
 links:
 

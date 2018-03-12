@@ -9,7 +9,11 @@ levels:
 
 type: normal
 
-category: how to
+category: how 
+
+standards:
+  js.write-expressions.0: 10
+  js.evaluate-expressions.3: 10
 
 ---
 ## Content

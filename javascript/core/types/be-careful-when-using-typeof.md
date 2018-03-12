@@ -9,9 +9,12 @@ type: normal
 
 category: tip
 
-tags:
+standards:
+  js.evaluate-expressions.10: 10
 
-  - ''
+tags:
+  - introduction
+  - workout
 
 links:
 

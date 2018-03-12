@@ -13,6 +13,13 @@ type: normal
 
 category: must-know
 
+standards:
+  js.functions.8: 10
+
+tags:
+  - introduction
+  - workout
+
 ---
 ## Content
 
