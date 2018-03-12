@@ -18,7 +18,7 @@ links:
   - '[link to a video](https://www.youtube.com/watch?v=8PzDfykGg_g){video}'
 
 link: https://www.codewars.com/kata/simple-encryption-number-1-alternating-split
-linkType: codewards
+linkType: codewars
 standards:
   py.standard-library-data.3: 2000
   py.standard-library-data.5: 2000
