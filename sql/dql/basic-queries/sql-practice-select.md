@@ -7,8 +7,6 @@ levels:
 
   - basic
 
-  - medium
-
 
 tags:
 
@@ -16,20 +14,19 @@ tags:
 
   - workout
 
-  - deep
-
 
 type: exercise
 
 
 
 linkType: sqlfiddle
-link: http://sqlfiddle.com/#!9/58d6e/44
-answer: /flinch/
+link: http://sqlfiddle.com/#!9/b3fa3a
+answer: 100
+
 
 standards:
-  sql.dql.aggregate-single-table.0: 1000
-  sql.dql.aggregate-single-table.3: 1000
+  sql.read-single-table.0: 1000
+  sql.read-single-table.1: 1000
 
 links:
 
@@ -39,5 +36,5 @@ links:
 - '[link to a discussion](https://enki.com)'
 ---        
 ## Exercise
-# SQL Practice Aggregate Group
-Write a query that counts how many items each `fling_effect` has. What is the name of the `fling_effect` that has `2` items?
+# SQL Practice Select
+Find the accuracy of the move having `id` equal to `10`.
