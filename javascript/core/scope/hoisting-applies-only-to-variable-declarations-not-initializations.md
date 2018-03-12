@@ -11,6 +11,7 @@ levels:
 
 type: normal
 
+category: feature
 
 standards:
   js.functions.5: 10

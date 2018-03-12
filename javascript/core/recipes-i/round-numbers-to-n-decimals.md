@@ -9,7 +9,7 @@ levels:
 
 type: normal
 
-category: how 
+category: how to
 
 standards:
   js.write-expressions.0: 10
