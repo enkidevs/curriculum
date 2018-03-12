@@ -7,3 +7,10 @@ insights:
   - function-arguments
   - access-a-function-s-arguments-as-an-array
   - functions-can-be-declared-after-use
+
+
+exercises:
+  - js-practice-sort-i
+  - js-practice-sort-ii
+  - js-practice-default-parameters
+  - js-practice-closures
