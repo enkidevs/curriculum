@@ -1,4 +1,4 @@
-# Practice encryption
+---
 author: SebaRaba
 
 levels:
@@ -27,4 +27,5 @@ standards:
 
 ---
 ## Exercise
+# Practice encryption
 Encrypt/Decrypt data with python.
