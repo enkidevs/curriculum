@@ -1,4 +1,3 @@
-# JS Practice Promises
 author: milesflo
 
 levels:
@@ -9,15 +8,20 @@ levels:
 
 type: exercise
 
+standards:
+
+  - js.async.2: 1000
+
 links:
 
   - '[MDN - Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)'
-
+link: https://www.codewars.com/kata/i-promise-not-to-optimize
+linkType: codewars
 codewars-link: https://www.codewars.com/kata/i-promise-not-to-optimize
-standards:
-  js.async.2: 1000
 
 ---
-## Exercise  
+# JS Practice Promises
+## Exercise
 ### Question
+
 Practice using JavaScript Promises on Code Wars
