@@ -8,6 +8,3 @@ insights:
   - python-2
   - python-3
   - python-hello-world
-
-exercises:
-  - py-practice-py2-environment
