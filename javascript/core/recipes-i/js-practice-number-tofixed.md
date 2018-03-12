@@ -1,4 +1,4 @@
-# JS Practice Number `toFixed`, `toExponential` and `toPrecision`
+---
 author: milesflo
 
 levels:
@@ -22,6 +22,7 @@ standards:
   js.write-expressions.0: 1000
 
 ---
-## Exercises
-### Question
+## Exercise
+# JS Practice Number `toFixed`, `toExponential` and `toPrecision`
+
 Practice using the JavaScript Numbers methods `toFixed()`, `toExponential()` and `toPrecision()`

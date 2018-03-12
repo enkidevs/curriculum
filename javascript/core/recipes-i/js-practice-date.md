@@ -1,4 +1,4 @@
-# JS Practice Date
+---
 author: milesflo
 
 levels:
@@ -17,8 +17,8 @@ codewars-link: http://www.codewars.com/kata/the-coupon-code
 standards:
   js.standard-library.5: 1000
   js.write-expressions.0: 1000
-  
+
 ---
-## Exercises
-### Question
+## Exercise
+# JS Practice Date
 Practice using the JavaScript `Date` object

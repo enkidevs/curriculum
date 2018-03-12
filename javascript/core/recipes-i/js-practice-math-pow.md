@@ -1,4 +1,4 @@
-# JS Practice Math `pow`, `sqrt` and `cbrt`
+---
 author: milesflo
 
 levels:
@@ -22,6 +22,6 @@ standards:
   js.write-expressions.0: 1000
 
 ---
-## Exercises
-### Question
+## Exercise
+# JS Practice Math `pow`, `sqrt` and `cbrt`
 Practice using the JavaScript Math methods `pow()`, `sqrt()` and `cbrt()`

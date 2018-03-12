@@ -1,4 +1,4 @@
-# JS Practice String `indexOf`, `lastIndexOf` and `search`
+---
 author: milesflo
 
 levels:
@@ -22,6 +22,7 @@ standards:
   js.write-expressions.0: 1000that will sort Strings in descending order
 
 ---
-## Exercises
-### Question
+## Exercise
+# JS Practice String `indexOf`, `lastIndexOf` and `search`
+
 Practice using the JavaScript String methods `indexOf()`, `lastIndexOf()` and `search()`

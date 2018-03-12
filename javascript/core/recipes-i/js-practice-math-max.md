@@ -1,4 +1,4 @@
-# JS Practice Math `max`, `min` and `abs`
+---
 author: milesflo
 
 levels:
@@ -22,6 +22,6 @@ standards:
   js.write-expressions.0: 1000
 
 ---
-## Exercises
-### Question
+## Exercise
+# JS Practice Math `max`, `min` and `abs`
 Practice using the JavaScript Math methods `max()`, `min()` and `abs()`

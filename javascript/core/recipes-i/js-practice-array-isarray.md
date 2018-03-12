@@ -1,4 +1,4 @@
-# JS Practice Array `isArray`, `indexOf` and `toString`
+---
 author: milesflo
 
 levels:
@@ -22,6 +22,6 @@ standards:
   js.write-expressions.0: 1000
 
 ---
-## Exercises
-### Question
+## Exercise
+# JS Practice Array `isArray`, `indexOf` and `toString`
 Practice using the JavaScript Array methods `isArray()`, `indexOf()` and `toString()`

@@ -1,4 +1,4 @@
-# JS Practice Number `toString` and `toLocaleString`
+---
 author: milesflo
 
 levels:
@@ -21,6 +21,6 @@ standards:
   js.write-expressions.0: 1000
 
 ---
-## Exercises
-### Question
+## Exercise
+# JS Practice Number `toString` and `toLocaleString`
 Practice using the JavaScript Numbers methods `toString()` and `toLocaleString()`

@@ -1,4 +1,4 @@
-# JS Practice String `charAt`, `charCodeAt` and `fromCharCode`
+---
 author: milesflo
 
 levels:
@@ -22,6 +22,7 @@ standards:
   js.write-expressions.0: 1000
 
 ---
-## Exercises
-### Question
+## Exercise
+# JS Practice String `charAt`, `charCodeAt` and `fromCharCode`
+
 Practice using the JavaScript String methods `charAt()`, `charCodeAt()` and `fromCharCode()`

@@ -1,4 +1,4 @@
-# JS Practice Array `filter`
+---
 author: milesflo
 
 levels:
@@ -20,6 +20,6 @@ standards:
   js.write-expressions.0: 1000
 
 ---
-## Exercises
-### Question
+## Exercise
+# JS Practice Array `filter`
 Practice using the JavaScript Array method `filter()`

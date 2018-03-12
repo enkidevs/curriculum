@@ -1,4 +1,4 @@
-# JS Practice String `concat`, `split` and `join`
+---
 author: milesflo
 
 levels:
@@ -22,6 +22,7 @@ standards:
   js.write-expressions.0: 1000
 
 ---
-## Exercises
-### Question
+## Exercise
+# JS Practice String `concat`, `split` and `join`
+
 Practice using the JavaScript String methods `concat()`, `split()` and `join()`

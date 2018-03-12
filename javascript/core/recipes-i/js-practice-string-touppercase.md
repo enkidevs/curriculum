@@ -1,4 +1,4 @@
-# JS Practice String `toUpperCase`, `toLowerCase` and `replace`
+---
 author: milesflo
 
 levels:
@@ -22,6 +22,7 @@ standards:
   js.write-expressions.0: 1000
 
 ---
-## Exercises
-### Question
+## Exercise
+# JS Practice String `toUpperCase`, `toLowerCase` and `replace`
+
 Practice using the JavaScript String methods `toUpperCase()`, `toLowerCase()` and `replace()`

@@ -1,4 +1,4 @@
-# JS Practice Array `push`, `pop`, `shift` and `unshift`
+---
 author: milesflo
 
 levels:
@@ -23,6 +23,6 @@ standards:
   js.write-expressions.0: 1000
 
 ---
-## Exercises
-### Question
+## Exercise
+# JS Practice Array `push`, `pop`, `shift` and `unshift`
 Practice using the JavaScript Array methods `push()`, `pop()`, `shift()` and `unshift()`

@@ -1,4 +1,4 @@
-# JS Practice Array `reverse` and `sort`
+---
 author: milesflo
 
 levels:
@@ -19,8 +19,8 @@ codewars-link: http://www.codewars.com/kata/572df796914b5ba27c000c90
 standards:
   js.standard-library.4: 1000
   js.write-expressions.0: 1000
-  
+
 ---
-## Exercises
-### Question
+## Exercise
+# JS Practice Array `reverse` and `sort`
 Practice using the JavaScript Array methods `reverse()` and `sort()`

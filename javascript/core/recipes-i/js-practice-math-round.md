@@ -1,4 +1,4 @@
-# JS Practice Math `round`, `ceil` and `floor`
+---
 author: milesflo
 
 levels:
@@ -22,6 +22,6 @@ standards:
   js.write-expressions.0: 1000
 
 ---
-## Exercises
-### Question
+## Exercise
+# JS Practice Math `round`, `ceil` and `floor`
 Practice using the JavaScript Math methods `round()`, `ceil()` and `floor()`

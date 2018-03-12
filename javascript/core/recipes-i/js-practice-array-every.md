@@ -1,4 +1,4 @@
-# JS Practice Array `every` and `some`
+---
 author: milesflo
 
 levels:
@@ -21,6 +21,6 @@ standards:
   js.write-expressions.0: 1000
 
 ---
-## Exercises
-### Question
+## Exercise
+# JS Practice Array `every` and `some`
 Practice using the JavaScript Array methods `every()` and `some()`

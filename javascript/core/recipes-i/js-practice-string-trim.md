@@ -1,4 +1,4 @@
-# JS Practice String `trim`
+---
 author: milesflo
 
 levels:
@@ -20,6 +20,7 @@ standards:
   js.write-expressions.0: 1000
 
 ---
-## Exercises
-### Question
+## Exercise
+# JS Practice String `trim`
+
 Practice using the JavaScript String method `trim()` and the String template

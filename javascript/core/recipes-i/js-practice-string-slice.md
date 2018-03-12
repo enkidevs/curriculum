@@ -1,4 +1,4 @@
-# JS Practice String `slice`, `substring`, and `substr`
+---
 author: milesflo
 
 levels:
@@ -22,6 +22,7 @@ standards:
   js.write-expressions.0: 1000
 
 ---
-## Exercises
-### Question
+## Exercise
+# JS Practice String `slice`, `substring`, and `substr`
+
 Practice using the JavaScript String methods `slice()`, `substring()` and `substr()`
