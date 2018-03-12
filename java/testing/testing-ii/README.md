@@ -1,12 +1,6 @@
 name: Testing II
 
-type: insights-list
-
 description: Testing recipes.
-
-section: 0
-
-parent: testing-i
 
 insights:
   - focus-testing-on-key-areas

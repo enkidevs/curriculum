@@ -1,10 +1,6 @@
 name: Crontab
 
-type: insights-list
-
 description: All about crontab.
-
-section: 2
 
 insights:
   - practical-cron

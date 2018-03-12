@@ -1,12 +1,6 @@
 name: Connecting to Remote Hosts with SSH
 
-type: insights-list
-
 description: Remote connections, exemplified.
-
-section: 1
-
-parent: bandwidth-monitoring-tools
 
 insights:
   - run-local-scripts-remotely

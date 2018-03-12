@@ -1,10 +1,6 @@
 name: Functional Programming
 
-type: insights-list
-
 description: Programming like mathematicians.
-
-section: 0
 
 insights:
   - what-is-functional-programming

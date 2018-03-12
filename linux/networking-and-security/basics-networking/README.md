@@ -1,10 +1,6 @@
 name: Basics of Linux Networking
 
-type: insights-list
-
 description: Learn about interfaces and tools to interact with networks.
-
-section: 0
 
 insights:
   - what-is-a-network-interface

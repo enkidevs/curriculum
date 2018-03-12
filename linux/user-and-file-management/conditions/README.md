@@ -1,12 +1,6 @@
 name: Conditions
 
-type: insights-list
-
 description: Conditions in terminal, explained.
-
-section: 1
-
-parent: super-users-and-root
 
 insights:
   - conditional-command-execution-operator

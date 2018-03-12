@@ -1,12 +1,6 @@
 name: Utility Management
 
-type: insights-list
-
 description: Learn how to easily download, update or downgrade your utilities.
-
-section: 1
-
-parent: system-monitoring-iii
 
 insights:
   - what-is-ppa

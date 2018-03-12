@@ -1,7 +1,9 @@
-language: bash
+name: Git
 
-deviconsClass: devicons-git
+description: An efficient tool kit made for project collaboration. It has become the de facto standard of version control for teams. 
 
 color: C17B57
 
-description: An efficient tool kit made for project collaboration. It has become the de facto standard of version control for teams.
+icon: 'placeholder'
+
+language: bash

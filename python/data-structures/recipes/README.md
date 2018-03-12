@@ -1,12 +1,6 @@
 name: Recipes
 
-type: insights-list
-
 description: Get better at data manipulation with this simple recipes for common problems.
-
-section: 0
-
-parent: more-on-dictionaries
 
 insights:
   - keep-large-lists-sorted-with-bisect
