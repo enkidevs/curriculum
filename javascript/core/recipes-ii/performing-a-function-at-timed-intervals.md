@@ -11,10 +11,14 @@ type: normal
 
 category: how to
 
+standards:
+  js.async.0: 10
+
 tags:
-
+  - workout
+  - introduction
+  - deep
   - timed-intervals
-
   - fundamental
 
 ---

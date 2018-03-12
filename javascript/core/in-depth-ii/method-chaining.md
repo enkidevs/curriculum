@@ -13,9 +13,18 @@ type: normal
 
 category: pattern
 
-tags:
 
-  - 'method, function, chaining'
+standards:
+  js.functions.1: 10
+  js.functions.6: 10
+  js.execution-context.2: 10
+
+tags:
+  - introduction
+  - workout
+  - method
+  - function
+  - chaining
 
 links:
 

@@ -13,6 +13,11 @@ type: normal
 
 category: pattern
 
+standards:
+  js.write-expressions.0: 10
+  js.write-expressions.5: 10
+  js.data-types-structures.6: 10
+
 links:
 
   - '[stackoverflow](http://stackoverflow.com/questions/21255138){discussion}'

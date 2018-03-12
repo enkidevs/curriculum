@@ -11,6 +11,13 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  js.functions.5: 10
+
+tags:
+  - introduction
+  - workout
+
 ---
 ## Content
 

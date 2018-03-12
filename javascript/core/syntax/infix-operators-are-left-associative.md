@@ -13,12 +13,16 @@ type: normal
 
 category: tip
 
+standards:
+  js.javascript-syntax.2: 10
+  js.write-expressions.0: 10
+  js.evaluate-expressions.0: 10
+
 tags:
-
+  - introduction
+  - obscura
   - operators
-
   - infix-operators
-
   - operator-associativity
 
 links:

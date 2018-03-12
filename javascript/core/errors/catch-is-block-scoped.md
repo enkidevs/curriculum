@@ -11,6 +11,14 @@ category: caveats
 
 parent: no-block-scope
 
+standards:
+  js.exceptions.2: 10
+
+tags:
+  - workout
+  - deep
+  - obscura
+
 ---
 ## Content
 

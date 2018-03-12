@@ -13,11 +13,19 @@ type: normal
 
 category: feature
 
+standards:
+  js.functions: 10
+  js.execution-context: 10
+
+tags:
+  - introduction
+  - workout
+
 notes: ''
 
 ---
 ## Content
-
+ 
 Think fast, what does this snippet print?
 
     var a = 1;

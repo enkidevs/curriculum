@@ -13,9 +13,17 @@ type: normal
 
 category: pattern
 
-tags:
+standards:
+  js.prototype-inherit.0: 10
 
-  - 'prototype, methods, class, object'
+tags:
+  - introduction
+  - workout
+  - deep
+  - prototype
+  - methods
+  - class
+  - object
 
 ---
 ## Content
@@ -78,7 +86,7 @@ student.sayHobby();
 ---
 ## Revision
 
-An object that can be inherited is called ???.
+An object in JavaScript that can be inherited from is called ???.
 
 *prototype
 *variable

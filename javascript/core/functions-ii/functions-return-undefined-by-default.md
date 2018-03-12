@@ -13,11 +13,12 @@ type: normal
 
 category: feature
 
+standards:
+  js.functions.1: 10
+
 tags:
-
-  - ''
-
-notes: ''
+  - introduction
+  - workout
 
 ---
 ## Content

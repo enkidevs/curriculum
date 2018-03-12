@@ -13,9 +13,16 @@ type: normal
 
 category: best practice
 
-tags:
+standards:
+  js.data-types-structures.2: 10
+  js.data-types-structures.3: 10
+  js.functions.4: 10
 
-  - functional-programming arrays
+tags:
+  - introduction
+  - workout
+  - functional-programming
+  - arrays
 
 ---
 ## Content
