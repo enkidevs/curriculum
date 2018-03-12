@@ -1,20 +1,26 @@
-# Declaring dependencies
+---
 author: mihaiberq
 
 levels:
+
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
-parent: private-packages
 
+
+parent: private-packages
 ---
 ## Content
+# Declaring dependencies
 
 There are two types of packages you can include in your project:
  - **dependencies**: used in production
@@ -58,6 +64,7 @@ Packages that the application is dependent on are specified in
 
 ???
 
+
 * package.json file
 * node_modules directory
 * dependencies.json file
@@ -70,9 +77,11 @@ Install and add *gulp* to the list of dev dependencies from the command line:
 ```
 $ ??? ??? ??? ???
 ```
+
 * `npm`
 * `install`
 * `gulp`
 * `--save-dev`
 * `--save`
 * `node`
+

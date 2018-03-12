@@ -1,4 +1,4 @@
-# Basic Git configuration
+---
 author: catalin
 
 levels:
@@ -7,17 +7,19 @@ levels:
 
 type: normal
 
+category: how to
+
 inAlgoPool: false
 
-category: how to
 
 links:
 
-  - >-
-    [git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup){website}
+  - '[git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup){website}'
+
 
 ---
 ## Content
+# Basic Git configuration
 
 After installation, you might want to customize different variables/information in your **Git** environment.
 
@@ -65,15 +67,16 @@ $ git ??? ??? \
   user.??? "My Name"
 ```
 
-*`config`
-*`--global`
-*`name`
-*`user`
-*`username`
-*`me`
-*`--all`
-*`--general`
-*`set`
+
+* `config`
+* `--global`
+* `name`
+* `user`
+* `username`
+* `me`
+* `--all`
+* `--general`
+* `set`
 
 ---
 ## Revision
@@ -81,6 +84,7 @@ $ git ??? ??? \
 What `Git` command is used to change various configuration options?
 
 ???
+
 
 * `git config`
 * `git --global`
@@ -90,6 +94,5 @@ What `Git` command is used to change various configuration options?
 
 ---
 ## Footnotes
-
 [1:global]
 The `--global` flag applies changes to all projects. It's possible to change variables for specific projects by running the command without the flag.

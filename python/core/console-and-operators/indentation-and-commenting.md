@@ -1,4 +1,4 @@
-# Indentation and Commenting
+---
 author: tommarshall
 
 levels:
@@ -7,18 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [Comment
-    conventions](https://www.python.org/dev/peps/pep-0008/#comments){website}
+  - '[Comment conventions](https://www.python.org/dev/peps/pep-0008/#comments){website}'
+
 
 ---
 ## Content
+# Indentation and Commenting
 
 Unlike many other programming languages, Python uses indentation (tabs) to separate blocks of code instead of curly braces.
 
@@ -62,10 +63,11 @@ print("This line isn't commented out!")
 
 How many spaces is a standard amount for indentation in Python?
 ???
-*`4`
-*`2`
-*`1`
-*`6`
+
+* `4`
+* `2`
+* `1`
+* `6`
 
 ---
 ## Revision
@@ -79,6 +81,8 @@ Which of the following is a valid Python comment?
 ```
 ???
 
-*`Comment C`
-*`Comment B`
-*`Comment A`
+
+* `Comment C`
+* `Comment B`
+* `Comment A`
+

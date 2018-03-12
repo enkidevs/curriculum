@@ -1,4 +1,4 @@
-# The Linked List Data Structure
+---
 author: mihaiberq
 
 levels:
@@ -9,13 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
-    - >-
-        [What is a linked list?](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html){website}
+
+  - '[What is a linked list?](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html){website}'
 
 parent: the-array-data-structure
 ---
 ## Content
+# The Linked List Data Structure
 
 A **list**, or a **sequence**, is an *abstract*[1] data type that represents a linear chain of values, where the same value can appear more than once. The *list* has a first element, **head**, and a last element, **tail**.
 
@@ -45,13 +47,13 @@ A good example to see the differences is the implementation of the *Josephus pro
 
 In contrast to the list, deletion in *dynamic arrays* implies shifting the other elements to maintain the internal structure. Yet, finding the *nth* person is easier, by referencing their position directly.
 
-
 ---
 ## Practice
 
 What does a DoublyLinkedList node usually keep track of?
 
 ???
+
 
 * Its element, the previous node and the next node.
 * The previous node and the next node.
@@ -65,6 +67,7 @@ Which of the following concepts is list-specific?
 
 ???
 
+
 * Head
 * Element
 * Index
@@ -72,7 +75,6 @@ Which of the following concepts is list-specific?
 
 ---
 ## Footnotes
-
 [1:Abstract Data Type]
 Abstract Data Type, or ADT, means the data type cannot be implemented (i.e. represented) by itself and it needs some kind of 'support' in order to be used.
 

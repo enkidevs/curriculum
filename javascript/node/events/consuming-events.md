@@ -1,4 +1,4 @@
-# Consuming events
+---
 author: tommarshall
 
 levels:
@@ -15,14 +15,15 @@ type: normal
 
 category: must-know
 
-parent: module-patterns
 
 links:
 
-  - '[Node Events](https://nodesource.com/blog/understanding-the-nodejs-event-loop/)'
+  - '[Node Events](https://nodesource.com/blog/understanding-the-nodejs-event-loop/){website}'
 
+parent: module-patterns
 ---
 ## Content
+# Consuming events
 
 Node applications are event driven applications, an event occurs upon a change of state in an application, for example, a button being clicked, or data being inputted.
 
@@ -68,6 +69,7 @@ system.file.???(
   function(fileID, initials) {}
 )
 ```
+
 * `on`
 * `edit`
 * `event`
@@ -80,6 +82,8 @@ system.file.???(
 Which method is called when an event occurs to trigger the callback function?
 ???
 
+
 * `.on`
 * `.event`
 * `.start`
+

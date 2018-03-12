@@ -1,4 +1,4 @@
-# Clearfix for layouts
+---
 author: nene
 
 levels:
@@ -20,11 +20,12 @@ tags:
 
 links:
 
-  - >-
-    [fuseinteractive.ca](http://fuseinteractive.ca/blog/understanding-humble-clearfix#.VaQqCZNViko){website}
+  - '[fuseinteractive.ca](http://fuseinteractive.ca/blog/understanding-humble-clearfix#.VaQqCZNViko){website}'
+
 
 ---
 ## Content
+# Clearfix for layouts
 
 Use `clearfix` to make an element automatically clear its child elements, so there would be no need for additional markup :
 
@@ -58,9 +59,10 @@ Now, the parent will resize itself to surround the floating children.
 What does `clear` property do?
 
 ???
-*It doesn’t allow float elements on specified sides.
-*It doesn’t allow any type of elements on specified sides.
-*It allows float elements on specified sides.
+
+* It doesn’t allow float elements on specified sides.
+* It doesn’t allow any type of elements on specified sides.
+* It allows float elements on specified sides.
 
 ---
 ## Revision
@@ -73,7 +75,9 @@ What does the following CSS code do, when you have a floated image inside an ele
 }
 ```
 ???
+
 * Alters the elements size so it contains the image.
 * Alters the images size so it fits inside the element.
 * Hides the element.
 * Hides the image.
+

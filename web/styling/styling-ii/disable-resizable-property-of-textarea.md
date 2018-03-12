@@ -1,4 +1,4 @@
-# Disable resizable property of `textarea`
+---
 author: oj14henry
 
 levels:
@@ -21,8 +21,12 @@ tags:
 
   - resizable
 
+
+
+
 ---
 ## Content
+# Disable resizable property of `textarea`
 
 To disable the resizing behavior of `textarea` elements, do the following:
 
@@ -55,9 +59,10 @@ Which of the following disables the resizing behavior of an element?
 
 ???
 
-*`resize: none` 
-*`resizable: false` 
-*`size-alter: false`
+
+* `resize: none` 
+* `resizable: false` 
+* `size-alter: false`
 
 ---
 ## Revision
@@ -66,7 +71,9 @@ When disabling the resizing behavior of `textarea` elements, `overflow` property
 
 ???
 
+
 * any value other than visible
 * visible
 * resize
 * none
+

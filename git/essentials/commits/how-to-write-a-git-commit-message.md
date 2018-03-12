@@ -1,4 +1,4 @@
-# How to write a git commit message
+---
 author: rosielowther
 
 levels:
@@ -9,15 +9,16 @@ type: normal
 
 category: must-know
 
+
 links:
 
   - '[chris.beams.io](http://chris.beams.io/posts/git-commit/){website}'
+  - '[robots.thoughtbot.com](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message){website}'
 
-  - >-
-    [robots.thoughtbot.com](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message){website}
 
 ---
 ## Content
+# How to write a git commit message
 
 You should write a commit message that explains the aim of the commit and why the changes were made.
 
@@ -49,10 +50,11 @@ Commit the changes with the message "issue no.8 fixed" :
 $ git ??? ??? 
             ???
 ```
-*`commit`
-*`-m`
-*`"issue no.8 fixed"`
-*-message
+
+* `commit`
+* `-m`
+* `"issue no.8 fixed"`
+* -message
 
 ---
 ## Revision
@@ -62,7 +64,9 @@ Commit the changes with the message "typo fixed"
 $ ??? ??? 
         ??? ???
 ```
-*`git`
-*`commit`
-*`-m`
-*`"typo fixed"`
+
+* `git`
+* `commit`
+* `-m`
+* `"typo fixed"`
+

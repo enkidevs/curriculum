@@ -1,4 +1,4 @@
-# Dangerously set `innerHTML`
+---
 author: catalin
 
 levels:
@@ -13,15 +13,15 @@ type: normal
 
 category: must-know
 
-parent: custom-proptype-s-to-be-required
 
 links:
 
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/tips/dangerously-set-inner-html.html){website}
+  - '[facebook.github.io](https://facebook.github.io/react/tips/dangerously-set-inner-html.html){website}'
 
+parent: custom-proptype-s-to-be-required
 ---
 ## Content
+# Dangerously set `innerHTML`
 
 React gives you the ability to insert *raw* HTML.
 
@@ -49,6 +49,7 @@ dangerouslySetInnerHTML:
 { ???: '<p>Enki </p>' }
 ```
 
+
 * `__html`
 * `html`
 * `_html`
@@ -65,9 +66,11 @@ dangerouslySetInnerHTML:
 { ???: '<p>Enki </p>' }
 ```
 
+
 * `__html`
 * `html`
 * `_html`
 * `value`
 * `id`
 * `text`
+

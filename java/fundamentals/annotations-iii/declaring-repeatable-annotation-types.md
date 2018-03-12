@@ -1,4 +1,4 @@
-# Declaring `@Repeatable` annotation types
+---
 author: adamMontgomerie
 
 levels:
@@ -21,13 +21,15 @@ tags:
 
   - java-8
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/annotations/repeating.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/annotations/repeating.html){website}'
+
 
 ---
 ## Content
+# Declaring `@Repeatable` annotation types
 
 As of Java 8, it is possible to apply the same type of annotation more than once to a single declaration. In order to do this, when defining a new annotation type, the `@Repeatable` meta-annotation must be used.
 
@@ -48,3 +50,4 @@ public @interface Contributors {
 }
 ```
 The container has one field which is an array of the type of annotation we wish to store.
+

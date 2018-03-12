@@ -1,4 +1,4 @@
-# Synchronous File Write/Read in Node.js
+---
 author: rosielowther
 
 levels:
@@ -11,16 +11,16 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [nodejs.org](https://nodejs.org/api/fs.html#fs_fs_writefilesync_file_data_options){website}
+  - '[nodejs.org](https://nodejs.org/api/fs.html#fs_fs_writefilesync_file_data_options){website}'
+  - '[nodejs.org](https://nodejs.org/api/fs.html#fs_fs_readfilesync_file_options){website}'
 
-  - >-
-    [nodejs.org](https://nodejs.org/api/fs.html#fs_fs_readfilesync_file_options){website}
 
 ---
 ## Content
+# Synchronous File Write/Read in Node.js
 
 The File System (FS) module provides file I/O. The methods have asynchronous and synchronous forms.
 
@@ -46,9 +46,11 @@ Synchronously write data to a file:
 fs.???(file, data)
 ```
 
-*`writeFileSync`
-*`writeSyncFile`
-*`writeSync`
-*`write`
-*`writeFileAsync`
-*`writeFile`
+
+* `writeFileSync`
+* `writeSyncFile`
+* `writeSync`
+* `write`
+* `writeFileAsync`
+* `writeFile`
+

@@ -1,4 +1,4 @@
-# Http Server in **Node**
+---
 author: catalin
 
 levels:
@@ -11,13 +11,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [ponyfoo.com](https://ponyfoo.com/articles/teach-yourself-nodejs-in-10-steps#http-server){website}
+  - '[ponyfoo.com](https://ponyfoo.com/articles/teach-yourself-nodejs-in-10-steps#http-server){website}'
+
 
 ---
 ## Content
+# Http Server in **Node**
 
 Create a `http` server with Node:
 ```javascript
@@ -51,14 +53,15 @@ http.???(
      //...
  }).listen(port);
 ```
-*`createServer`
-*`res`
-*`req`
-*`newServer`
-*`declareServer`
-*`server`
-*`env`
-*`arg`
+
+* `createServer`
+* `res`
+* `req`
+* `newServer`
+* `declareServer`
+* `server`
+* `env`
+* `arg`
 
 ---
 ## Revision
@@ -72,9 +75,11 @@ http.???(function(req, res) {
 }).???(8080);
 ```
 
-*`createServer`
-*`listen`
-*`httpServer`
-*`on`
-*`localhost`
-*`require`
+
+* `createServer`
+* `listen`
+* `httpServer`
+* `on`
+* `localhost`
+* `require`
+

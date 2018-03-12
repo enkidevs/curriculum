@@ -1,4 +1,4 @@
-# CSS Declaration
+---
 author: mihaiberq
 
 levels:
@@ -7,13 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
 
 
 ---
 ## Content
+# CSS Declaration
 
 A CSS file is made up of *selectors* (a way of pointing to the HTML elements to be changed) and *declarations* (a property and value pair).
 
@@ -45,7 +48,6 @@ p{
 ```
 `p` is a type selector. Whatever CSS rule you apply to `p` in this example, it will affect all instances of `<p>` elements in the HTML document.
 
-
 ---
 ## Practice
 
@@ -55,6 +57,7 @@ Complete the following snippet with the general syntax for a CSS declaration:
   ??? ??? ???;
 }
 ```
+
 * `selector`
 * `property`
 * `:`
@@ -72,6 +75,7 @@ Complete the following snippet with the general syntax for a CSS declaration:
   ??? ??? ???;
 }
 ```
+
 * `selector`
 * `property`
 * `:`
@@ -79,3 +83,4 @@ Complete the following snippet with the general syntax for a CSS declaration:
 * `=`
 * `background-decoration`
 * `red`
+

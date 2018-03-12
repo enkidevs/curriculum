@@ -1,4 +1,4 @@
-# Best way to implement a simple `queue`
+---
 author: catalin
 
 levels:
@@ -9,19 +9,19 @@ type: normal
 
 category: best practice
 
-parent: double-ended-queues-with-deque
 
+links:
+
+  - '[docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#using-lists-as-queues){website}'
+
+parent: double-ended-queues-with-deque
 notes: >-
   Insight content is correct. But the deque class has about 15 methods. Suggest
   adding a few examples of use of other methods.
 
-links:
-
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#using-lists-as-queues){website}
-
 ---
 ## Content
+# Best way to implement a simple `queue`
 
 A simple `list` can be easily used and implemented as a **queue** abstract data structure. A queue implies the **first-in, first-out** principle.
 
@@ -47,6 +47,7 @@ A reverse queue can be implemented by opting for `appendleft` instead of `append
 
 A queue can be implemented by using ???  and ??? for adding items, and by using ??? and ??? for removing items.
 
+
 * appendleft
 * append
 * pop
@@ -70,9 +71,11 @@ print(queue)
 ```
 
 
+
 * `popleft()`
 * `appendleft("e")`
 * `pop()`
 * `append("e")`
 * `pop-left()`
 * `append-left("e")`
+

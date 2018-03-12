@@ -1,4 +1,4 @@
-# Using `flex-shrink`
+---
 author: Billiexu
 
 levels:
@@ -19,13 +19,15 @@ tags:
 
   - flexbox
 
+
 links:
 
-  - >-
-    [css-tricks.com](https://css-tricks.com/almanac/properties/f/flex-shrink/){website}
+  - '[css-tricks.com](https://css-tricks.com/almanac/properties/f/flex-shrink/){website}'
+
 
 ---
 ## Content
+# Using `flex-shrink`
 
 `flex-shrink` specifies the "flex shrink factor". 
 
@@ -79,10 +81,11 @@ Elements of which class will shrink three times as much as the largest one?
 }
 ```
 ???
-*flex1
-*flex3
-*flex2
-*none
+
+* flex1
+* flex3
+* flex2
+* none
 
 ---
 ## Revision
@@ -91,6 +94,8 @@ What does the `flex-shrink` factor determine?
 
 ???
 
+
 * How much the flex item shrinks relative to the rest of the items if there's not space on the row.
 * How much the flex item shrinks on the page.
 * How much the flex item expands.
+

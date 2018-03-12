@@ -1,4 +1,4 @@
-# Importer
+---
 author: Parvin
 
 levels:
@@ -11,13 +11,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [github.com](https://github.com/chriseppstein/sass-css-importer/blob/master/README.markdown){website}
+  - '[github.com](https://github.com/chriseppstein/sass-css-importer/blob/master/README.markdown){website}'
+
 
 ---
 ## Content
+# Importer
 
 CSS has an import option that lets you split your CSS into smaller, more maintainable portions.
 
@@ -53,8 +55,10 @@ Each time you use *@import* in CSS it ???.
 
 When using *@import* in Sass the file you're importing is taken and ???.
 
+
 * creates a new HTTP request.
 * combined with the file you're importing into.
 * creates a new instance of the file.
 * creates a new copy of the file.
 * combined with the file you're importing into, in a new file.
+

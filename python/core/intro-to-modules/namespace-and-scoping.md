@@ -1,4 +1,4 @@
-# Namespace and scoping
+---
 author: SebaRaba
 
 levels:
@@ -9,12 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[More on namespace](https://www.programiz.com/python-programming/namespace)'
+  - '[More on namespace](https://www.programiz.com/python-programming/namespace){website}'
+
 
 ---
 ## Content
+# Namespace and scoping
 
 As briefly mentioned before, the **namespace** is the *mapping* between available objects and their referencing names.
 
@@ -72,6 +75,7 @@ A local variable
 An enclosed variable
 A global variable
 ```
+
 ---
 ## Practice
 
@@ -84,6 +88,7 @@ def foo(x):
 z = foo(4)
 ```
 ???
+
 
 * Global
 * Enclosed
@@ -104,6 +109,8 @@ print(a)
 ```
 ???
 
+
 * No
 * Yes
 * It can't be determined.
+

@@ -1,4 +1,4 @@
-# Useful stashing options
+---
 author: rosielowther
 
 levels:
@@ -13,15 +13,16 @@ type: normal
 
 category: feature
 
-parent: stashing-changes
 
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning){website}'
+
+parent: stashing-changes
 
 ---
 ## Content
+# Useful stashing options
 
 To only stash files that are not staged:
 ```
@@ -55,14 +56,17 @@ Select the `git stash` option that stashes:
 - tracked and untracked files ???
 - unstaged files ???
 - interactively ???
-*-u
-*--keep-index
-*--patch
+
+* -u
+* --keep-index
+* --patch
 
 ---
 ## Revision
 
 `new feature` in `git stash save new feature` represents a ??? of the stash.
-*description
-*branch
-*message
+
+* description
+* branch
+* message
+

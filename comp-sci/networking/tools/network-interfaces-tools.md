@@ -1,4 +1,4 @@
-# Network Interfaces
+---
 author: catalin
 
 levels:
@@ -15,16 +15,16 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - http://www.computerhope.com/unix/uifconfi.htm
-
-  - https://en.wikipedia.org/wiki/Network_interface
+  - '[www.computerhope.com](http://www.computerhope.com/unix/uifconfi.htm){website}'
+  - '[en.wikipedia.org](https://en.wikipedia.org/wiki/Network_interface){website}'
 
 parent: dns-lookup
-
 ---
 ## Content
+# Network Interfaces
 
 The `ifconfig` command is available on **Linux** and **OS X**. It enables users to configure and view information about network interfaces via the command line.
 
@@ -83,6 +83,7 @@ What is the equivalent of `ifconfig` on **Windows**?
 
 ???
 
+
 * `ipconfig`
 * `tracepath`
 * `netstat`
@@ -96,6 +97,7 @@ Which flag is used to show active and inactive connections while running the fol
 $ ifconfig ???
 ```
 
+
 * `-a`
 * `-up`
 * `-all`
@@ -105,7 +107,6 @@ $ ifconfig ???
 
 ---
 ## Footnotes
-
 [1:loopback]
 The **loopback** is a virtual network interface that a device can use to communicate with itself.
 

@@ -1,4 +1,4 @@
-# Functions can be declared after use
+---
 author: rosielowther
 
 levels:
@@ -13,8 +13,12 @@ type: normal
 
 category: must-know
 
+
+
+
 ---
 ## Content
+# Functions can be declared after use
 
 Function **declarations** load before other code is executed. This means that the function can be declared after it has been used. 
 
@@ -42,8 +46,9 @@ Give the output:
 alert(foo()); // ???
 var foo = function() { return 'Enki'; } 
 ``` 
-*error
-*alerts 'Enki'
+
+* error
+* alerts 'Enki'
 
 ---
 ## Revision
@@ -53,5 +58,7 @@ Give the output:
 alert(foo()); // ???
 function foo() { return 'Enki'; } 
 ``` 
-*alerts 'Enki'
-*error
+
+* alerts 'Enki'
+* error
+

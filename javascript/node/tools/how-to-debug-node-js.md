@@ -1,4 +1,4 @@
-# How to debug Node.js
+---
 author: rosielowther
 
 levels:
@@ -11,17 +11,16 @@ type: normal
 
 category: feature
 
-notes: ''
 
 links:
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/1911015/how-do-i-debug-node-js-applications/31502652#31502652){website}
-
+  - '[stackoverflow.com](http://stackoverflow.com/questions/1911015/how-do-i-debug-node-js-applications/31502652#31502652){website}'
   - '[github.com](https://github.com/s-a/iron-node){website}'
 
+notes: 
 ---
 ## Content
+# How to debug Node.js
 
 There are many options when debugging Node applications.
 
@@ -56,8 +55,10 @@ Start node with its built-in debugger:
 ```bash
 $ ??? ??? app.js
 ```
-*`node`
-*`debug`
-*`debugger`
-*`node-debug`
-*`iron-node`
+
+* `node`
+* `debug`
+* `debugger`
+* `node-debug`
+* `iron-node`
+

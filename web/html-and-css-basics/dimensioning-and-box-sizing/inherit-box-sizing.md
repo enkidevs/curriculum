@@ -1,4 +1,4 @@
-# Inherit `box-sizing`
+---
 author: jordanfish
 
 levels:
@@ -11,14 +11,16 @@ type: normal
 
 category: best practice
 
-parent: use-box-sizing-to-define-an-element-s-width-and-height-properties
 
 links:
 
   - '[github.com](https://github.com/AllThingsSmitty/css-protips){website}'
 
+parent: use-box-sizing-to-define-an-element-s-width-and-height-properties
+
 ---
 ## Content
+# Inherit `box-sizing`
 
 Say you want to set `box-sizing` `border-box` to every element in the page:
 
@@ -66,7 +68,9 @@ p {
 }
 ```
 
+
 * `inherit`
 * `inherits`
 * `extend`
 * `extends`
+

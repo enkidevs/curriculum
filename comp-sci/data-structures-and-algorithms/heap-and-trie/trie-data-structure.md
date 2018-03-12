@@ -1,24 +1,29 @@
-# The Trie Data Structure
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
 links:
-    - >-
-        [Working with tries](https://medium.com/algorithms/trie-prefix-tree-algorithm-ee7ab3fe3413){website}
+
+  - '[Working with tries](https://medium.com/algorithms/trie-prefix-tree-algorithm-ee7ab3fe3413){website}'
 
 parent: o-logn-operations-for-heaps
 ---
 ## Content
+# The Trie Data Structure
 
 A **trie**, also know as *radix tree* or *prefix tree*, is an ordered tree structure that stores sets or arrays having one or more relations between the elements.
 
@@ -42,7 +47,9 @@ They are also called *prefix trees* because a *pre-order traversal* would visit 
 How long does searching for a word take?
 
 ???
+
 * O(word's length)
 * O(trie's size)
 * O(word's length * trie's size)
 * O(log n)
+

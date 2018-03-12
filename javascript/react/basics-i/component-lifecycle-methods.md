@@ -1,4 +1,4 @@
-# Component **lifecycle methods**
+---
 author: catalin
 
 levels:
@@ -15,14 +15,15 @@ type: normal
 
 category: must-know
 
-parent: the-component-lifecycle
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/react-component.html#the-component-lifecycle)'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/react-component.html#the-component-lifecycle){website}'
 
+parent: the-component-lifecycle
 ---
 ## Content
+# Component **lifecycle methods**
 
 As discussed before, **lifecycle methods** can be used to target a specific point in the *life* of a `component`.
 
@@ -60,12 +61,14 @@ constructor(props) {
 ### 3. Unmounting
 
 - `componentWillUnmount()` - is invoked immediately **before** a `component` is unmounted and destroyed. Useful for resource cleanup.
+
 ---
 ## Practice
 
 What of the following methods is called **after** rendering, but not after the first one.
 
 ???
+
 
 * `componentDidUpdate`
 * `componentDidMount`
@@ -81,7 +84,9 @@ What method is the first being called in the **component lifecycle**?
 
 ???
 
+
 * `constructor`
 * `componentWillMount`
 * `shouldComponentUpdate`
 * `componentDidMount`
+

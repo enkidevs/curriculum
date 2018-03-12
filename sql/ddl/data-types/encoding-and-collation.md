@@ -1,4 +1,4 @@
-# Encoding and Collation
+---
 author: mihaiberq
 
 levels:
@@ -12,11 +12,17 @@ type: normal
 category: must-know
 
 tags:
+
   - introduction
+
   - workout
+
+
+
 
 ---
 ## Content
+# Encoding and Collation
 
 When it comes to storing and manipulating string fields, two questions come to mind:
 - What if the characters are not part of the Latin alphabet, e.g. Korean, Russian or even emojis?
@@ -50,6 +56,7 @@ As of now, the most recommended character encoding is
 
 ???
 
+
 * UTF-8
 * UTF-16
 * UTF-32
@@ -68,5 +75,7 @@ A function that maps bits to characters.
 ???
 ```
 
+
 * collation
 * encoding
+

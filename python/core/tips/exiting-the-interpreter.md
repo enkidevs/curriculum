@@ -1,4 +1,4 @@
-# Exiting the interpreter
+---
 author: Ricardo
 
 levels:
@@ -15,13 +15,15 @@ tags:
 
   - interpreter
 
+
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/2/tutorial/interpreter.html){website}
+  - '[docs.python.org](https://docs.python.org/2/tutorial/interpreter.html){website}'
+
 
 ---
 ## Content
+# Exiting the interpreter
 
 The interactive interpreter can be closed conventionally using _CTRL-D_. 
 
@@ -43,3 +45,4 @@ or
 ```python
 >>> quit()
 ```
+

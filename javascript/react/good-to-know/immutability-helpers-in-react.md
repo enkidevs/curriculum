@@ -1,4 +1,4 @@
-# Immutability helpers in **React**
+---
 author: catalin
 
 levels:
@@ -13,15 +13,15 @@ type: normal
 
 category: feature
 
-parent: custom-proptype-s-to-be-required
 
 links:
 
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/docs/update.html){website}
+  - '[facebook.github.io](https://facebook.github.io/react/docs/update.html){website}'
 
+parent: custom-proptype-s-to-be-required
 ---
 ## Content
+# Immutability helpers in **React**
 
 Opting out for an immutable style of data management, a significant speed up can be achieved by easily implementing a fast `shouldComponentUpdate()` lifecycle method.
 
@@ -70,15 +70,16 @@ var newObj = ???(myData, {
 });
 ```
 
-*`update`
-*`$`
-*`push`
-*`set`
-*`$unshift`
-*`splice`
-*`arrray`
-*`{`
-*`}`
+
+* `update`
+* `$`
+* `push`
+* `set`
+* `$unshift`
+* `splice`
+* `arrray`
+* `{`
+* `}`
 
 ---
 ## Revision
@@ -96,12 +97,14 @@ var newObj = ???(myData, {
 });
 ```
 
-*`update`
-*`$`
-*`push`
-*`set`
-*`$unshift`
-*`splice`
-*`arrray`
-*`{`
-*`}`
+
+* `update`
+* `$`
+* `push`
+* `set`
+* `$unshift`
+* `splice`
+* `arrray`
+* `{`
+* `}`
+

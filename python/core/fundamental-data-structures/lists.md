@@ -1,4 +1,4 @@
-# Lists
+---
 author: tommarshall
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# Lists
 
 Lists are not so different from arrays, they can contain any variable type, and as many different variables as you'd like.
 
@@ -54,9 +58,10 @@ newList = []
 newList.???(5)
 ```
 
-*`append`
-*`add`
-*`push`
+
+* `append`
+* `add`
+* `push`
 
 ---
 ## Revision
@@ -70,9 +75,11 @@ newList.append(2)
 ???(newList???)
 ```
 
-*`print`
-*`[0]`
-*`{0}`
-*`view`
-*`append`
-*`(0)`
+
+* `print`
+* `[0]`
+* `{0}`
+* `view`
+* `append`
+* `(0)`
+

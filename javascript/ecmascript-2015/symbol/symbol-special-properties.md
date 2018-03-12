@@ -1,4 +1,4 @@
-# Symbol Special Properties
+---
 author: alexjmackey
 
 levels:
@@ -9,16 +9,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){website}'
 
+inAlgoPool:
+
 ---
 ## Content
+# Symbol Special Properties
 
 Symbols behave differently to other primitives such as strings and numbers.
 
@@ -60,3 +62,4 @@ Note you can retrieve symbols with **getOwnPropertySymbols**
 ```
 Object.getOwnPropertySymbols(obj);
 ```
+

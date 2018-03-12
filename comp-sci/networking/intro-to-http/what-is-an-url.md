@@ -1,4 +1,4 @@
-# What is an URL?
+---
 author: SebaRaba
 
 levels:
@@ -15,16 +15,16 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - 'https://docs.oracle.com/javase/tutorial/networking/urls/definition.html'
-
-  - 'http://www.computerhope.com/jargon/u/url.htm'
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/networking/urls/definition.html){website}'
+  - '[www.computerhope.com](http://www.computerhope.com/jargon/u/url.htm){website}'
 
 parent: what-is-http
-
 ---
 ## Content
+# What is an URL?
 
 **URLs** (Uniform Resource Locators) are sequences of characters used to identify resources on the Internet. They are specified in the header of the request.
 
@@ -46,20 +46,12 @@ In fact, a **URL** is subtype of **URI** (Uniform Resource Identifier), but acco
 While all **URL**s are **URI**s, not all **URI**s are **URL**s.
 
 ---
-## Footnotes
-
-[1: Query string]
-This is usually used for additional operations that should be done server-side: filtering, searching etc. :
-```
-www.myapp.com/users?name=John
-```
-Would make sense to return the users whose name is *John*.
----
 ## Practice
 
 What character(s) is/are used to specify the beginning of the `query string` in a **URL** ?
 
 ???
+
 
 * `?`
 * `&`
@@ -76,8 +68,18 @@ The substring of an URL containing a subdomain, a domain and a port number is ca
 
 ???
 
+
 * `host`
 * `path`
 * `query`
 * `body`
 * `suffix`
+
+---
+## Footnotes
+[1: Query string]
+This is usually used for additional operations that should be done server-side: filtering, searching etc. :
+```
+www.myapp.com/users?name=John
+```
+Would make sense to return the users whose name is *John*.

@@ -1,4 +1,4 @@
-# Make text unselectable
+---
 author: SeanWalters
 
 levels:
@@ -15,15 +15,16 @@ tags:
 
   - NoSelection
 
+
 links:
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/826782/css-rule-to-disable-text-selection-highlighting){website}
-
+  - '[stackoverflow.com](http://stackoverflow.com/questions/826782/css-rule-to-disable-text-selection-highlighting){website}'
   - '[caniuse.com](http://caniuse.com/#search=webkit){website}'
+
 
 ---
 ## Content
+# Make text unselectable
 
 This is a method in CSS to make text in a web page unselectable. 
 
@@ -57,9 +58,10 @@ Complete the method which can be used to make text in a web page unselectable:
 } 
 ```
 
-*`user-select` 
-*`selectable` 
-*`select`
+
+* `user-select` 
+* `selectable` 
+* `select`
 
 ---
 ## Revision
@@ -76,7 +78,9 @@ What does the following CSS code do?
 ```
 
 ???
+
 * It makes the contents of &lt;p&gt; unable to be selected.
 * It makes the contents of &lt;p&gt; able to be selected.
 * It changes the colour of &lt;p&gt;'s contents.
 * It automatically highlights the contents of &lt;p&gt;.
+

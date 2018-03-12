@@ -1,4 +1,4 @@
-# Hoisting applies only to variable declarations, not initializations
+---
 author: adamMontgomerie
 
 levels:
@@ -19,13 +19,15 @@ tags:
 
   - variables
 
+
 links:
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/3725546/variable-hoisting){website}
+  - '[stackoverflow.com](http://stackoverflow.com/questions/3725546/variable-hoisting){website}'
+
 
 ---
 ## Content
+# Hoisting applies only to variable declarations, not initializations
 
 Variable declarations are moved to the top of the current scope, either the current function or script. This means that variables can be used before they are declared.
 ```
@@ -51,9 +53,10 @@ s = "enki";
 console.log(s);
 var s;
 ```
-*enki
-*undefined
-*nothing
+
+* enki
+* undefined
+* nothing
 
 ---
 ## Revision
@@ -63,6 +66,8 @@ The following code outputs ???
 console.log(v);
 var v = "enki";
 ```
-*undefined
-*enki
-*nothing
+
+* undefined
+* enki
+* nothing
+

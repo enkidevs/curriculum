@@ -1,4 +1,4 @@
-# Avoid using `static` variables
+---
 author: catalin
 
 levels:
@@ -13,18 +13,16 @@ type: normal
 
 category: tip
 
-notes: 'https://insights.enki.com/#/contrib/55963a353fa08f3200a41135'
 
 links:
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/7026507/why-are-static-variables-considered-evil?rq=1){website}
+  - '[stackoverflow.com](http://stackoverflow.com/questions/7026507/why-are-static-variables-considered-evil?rq=1){website}'
+  - '[gbracha.blogspot.co.uk](http://gbracha.blogspot.co.uk/2008/02/cutting-out-static.html){website}'
 
-  - >-
-    [gbracha.blogspot.co.uk](http://gbracha.blogspot.co.uk/2008/02/cutting-out-static.html){website}
-
+notes: https://insights.enki.com/#/contrib/55963a353fa08f3200a41135
 ---
 ## Content
+# Avoid using `static` variables
 
 Using `static` variables enables objects constructed from the same class to effectively share the same field. 
 Even though `static` variables will be of help in certain scenarios (such as counters) they are to be avoided in most cases.
@@ -52,3 +50,4 @@ To ensure a single copy of a value, a **singleton** pattern is better practice.
 In addition, `static` variables are bad for **security**, **re-entrancy** and **concurrency**.
 
 Keep in mind though that `static` constants are not considered a bad practice.
+

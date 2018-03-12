@@ -1,4 +1,4 @@
-# Types - String
+---
 author: alexjmackey
 
 levels:
@@ -7,12 +7,15 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+
+
+inAlgoPool:
 
 ---
 ## Content
+# Types - String
 
 You can declare a string value in JavaScript using either single or double quotes - JavaScript will accept either:
 ```
@@ -56,12 +59,13 @@ var myString = 'this will ???
        be displayed on two lines';
 ```
 
-*`\n`
-*`+`
-*`"`
-*`\`
-*`\r`
-*`\t`
+
+* `\n`
+* `+`
+* `"`
+* `\`
+* `\r`
+* `\t`
 
 ---
 ## Revision
@@ -74,7 +78,9 @@ var company = 'Enki';
 
 ???
 
-*both
-*first
-*second
-*none
+
+* both
+* first
+* second
+* none
+

@@ -1,4 +1,4 @@
-# Use `em` instead of `px` for sizes
+---
 author: nene
 
 levels:
@@ -19,8 +19,12 @@ tags:
 
   - formatting
 
+
+
+
 ---
 ## Content
+# Use `em` instead of `px` for sizes
 
 `em` is directly proportional to the font size currently in use. This makes it easier to keep the proportions intact for future changes and responsive design.
 
@@ -63,15 +67,17 @@ Set the font-size of `.smallparagraph`  to 8px in a responsive way:
   font-size: ???;
 }
 ```
-*`0.5em` 
-*`0.8em` 
-*`8px` 
-*`1em`
+
+* `0.5em` 
+* `0.8em` 
+* `8px` 
+* `1em`
 
 ---
 ## Revision
 
 `em` is directly ??? to the current ??? . This makes it simpler for future changes and ??? design.
+
 
 * proportional
 * font size
@@ -82,3 +88,4 @@ Set the font-size of `.smallparagraph`  to 8px in a responsive way:
 * look
 * different
 * changing
+

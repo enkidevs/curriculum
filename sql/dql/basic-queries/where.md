@@ -1,4 +1,4 @@
-# WHERE
+---
 author: stefkn
 
 levels:
@@ -16,15 +16,20 @@ category: must-know
 inAlgoPool: false
 
 tags:
+
   - introduction
+
   - workout
+
 
 links:
 
-  - '[SQL Tutorial: WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/)'
+  - '[SQL Tutorial: WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}'
+
 
 ---
 ## Content
+# WHERE
 
 When added to an SQL `SELECT` statement, `WHERE` allows us to select rows in a table by specifying rules. The WHERE keyword can also be used to insert, update and delete data from tables.
 
@@ -51,6 +56,7 @@ Select all the rows from the `pokemon` table where the weight is less than 500.
 `FROM pokemon`
 ??? ???;
 
+
 * WHERE
 * weight < '500'
 * FROM
@@ -67,6 +73,7 @@ Select all the rows from the `pokemon` table where the name is exactly equal to 
 `FROM pokemon`
 ??? ??? ??? ???;
 
+
 * WHERE
 * name
 * =
@@ -75,33 +82,32 @@ Select all the rows from the `pokemon` table where the name is exactly equal to 
 * pokemon
 * IS
 
-
 ---
 ## Quiz
+### Can you find a particular entry in a table with SQL?
+```
 
-headline: Can you find a particular entry in a table with SQL?
+Consider the `ability` table and the following query:
 
-question: |
+id   | is_main_series | generation_id |      name      
+=====+================+===============+===============
+   1 | t              |             3 | stench
+   2 | f              |             3 | drizzle
+   3 | t              |             3 | speed-boost
+   4 | t              |             3 | battle-armor
+(...)
 
-  Consider the `ability` table and the following query:
+SELECT *
+FROM ability
 
-  id   | is_main_series | generation_id |      name      
-  -----|----------------|---------------|---------------
-     1 | t              |             3 | stench
-     2 | f              |             3 | drizzle
-     3 | t              |             3 | speed-boost
-     4 | t              |             3 | battle-armor
-  (...)
+We want to get the record for the ability called "speed-boost". Which of the following `WHERE` clauses will
+have this result when used with the above query?
+```
 
-  SELECT *
-  FROM ability
+ ???
 
-  We want to get the record for the ability called "speed-boost". Which of the following `WHERE` clauses will
-  have this result when used with the above query?
-
-answers:
-  - WHERE name='speed-boost';
-  - WHERE name IS "speed-boost";
-  - WHERE ability='speed-boost';
-  - WHERE id='speed-boost';
+* WHERE name='speed-boost';
+* WHERE name IS "speed-boost";
+* WHERE ability='speed-boost';
+* WHERE id='speed-boost';
 

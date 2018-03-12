@@ -1,4 +1,4 @@
-# Dates in git
+---
 author: rosielowther
 
 levels:
@@ -9,13 +9,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [alexpeattie.com](https://alexpeattie.com/blog/working-with-dates-in-git){website}
+  - '[alexpeattie.com](https://alexpeattie.com/blog/working-with-dates-in-git){website}'
+
 
 ---
 ## Content
+# Dates in git
 
 Git has a very flexible date format.
 
@@ -49,15 +51,18 @@ To retrieve all the logs starting from last week until yesterday, you would run:
 $ git ??? --since=??? 
      ???="yesterday"
 ```
-*`log`
-*`"last week"`
-*`--until`
-*`until`
-*`logs`
+
+* `log`
+* `"last week"`
+* `--until`
+* `until`
+* `logs`
 
 ---
 ## Revision
 
 `git` ??? understand relative dates like `"yesterday"` and `"1month6days ago"`.
-*can
-*can’t
+
+* can
+* can’t
+

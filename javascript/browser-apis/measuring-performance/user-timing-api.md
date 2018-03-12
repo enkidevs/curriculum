@@ -1,4 +1,4 @@
-# User Timing API
+---
 author: rosielowther
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [www.sitepoint.com](http://www.sitepoint.com/10-html5-apis-worth-looking/){website}
+  - '[www.sitepoint.com](http://www.sitepoint.com/10-html5-apis-worth-looking/){website}'
+
 
 ---
 ## Content
+# User Timing API
 
 The User Timing API is used to measure the **performance** of JavaScript code. 
 
@@ -45,11 +47,12 @@ performance.???("???",
     "start", "end");
 
 ```
-*`measure`
-*`duration`
-*`time`
-*`elapsed`
-*`timing`
+
+* `measure`
+* `duration`
+* `time`
+* `elapsed`
+* `timing`
 
 ---
 ## Revision
@@ -60,8 +63,10 @@ performance.???("???",
     "start", "end");
 
 ```
-*`measure`
-*`duration`
-*`time`
-*`elapsed`
-*`timing`
+
+* `measure`
+* `duration`
+* `time`
+* `elapsed`
+* `timing`
+

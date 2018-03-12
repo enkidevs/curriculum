@@ -1,21 +1,26 @@
-# Npm Scripting
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: how to
 
-parent: how-npm3-handles-dependencies
 
+
+parent: how-npm3-handles-dependencies
 ---
 ## Content
+# Npm Scripting
 
 `npm` is a lot more than just a package manager for Node. It supports scripting using the `run-script` (or the abbreviated `run`) option.
 
@@ -67,7 +72,9 @@ The `npm run` command is an abbreviation for:
 ```
 ???
 ```
+
 * `npm run-script`
 * `npm run-scripts`
 * `npm run-test`
 * `npm install --script`
+

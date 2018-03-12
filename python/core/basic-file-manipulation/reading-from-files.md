@@ -1,4 +1,4 @@
-# Reading from files
+---
 author: SebaRaba
 
 levels:
@@ -9,12 +9,15 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - '[More about reading from files](http://www.pythonforbeginners.com/files/reading-and-writing-files-in-python)'
+  - '[More about reading from files](http://www.pythonforbeginners.com/files/reading-and-writing-files-in-python){website}'
+
 
 ---
 ## Content
+# Reading from files
 
 After opening a **file object**, we have three **operations** available in **Python** for reading files:
 - `read()`
@@ -77,6 +80,7 @@ print(file.???())
 print(???.readline())
 ```
 
+
 * `open`
 * `readline`
 * `file`
@@ -96,6 +100,7 @@ file = open('test.txt', '???')
 print(file.???())
 ```
 
+
 * `r`
 * `readlines`
 * `w`
@@ -104,3 +109,4 @@ print(file.???())
 * `read`
 * `open`
 * `write`
+

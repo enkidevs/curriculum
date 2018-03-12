@@ -1,4 +1,4 @@
-# Using `static` fields
+---
 author: adamMontgomerie
 
 levels:
@@ -13,13 +13,15 @@ tags:
 
   - static
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/javaOO/classvars.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/javaOO/classvars.html){website}'
+
 
 ---
 ## Content
+# Using `static` fields
 
 Marking a field as `static` indicates that it belongs to the class rather than instances of that class. This means that a `static` field will hold the same value for every instance that is created.
 
@@ -50,8 +52,9 @@ public class Enki {
 }
 ```
 ???
-*Keeps count of something across all instances of a class.
-*Keeps count of something in an instance of a class.
+
+* Keeps count of something across all instances of a class.
+* Keeps count of something in an instance of a class.
 
 ---
 ## Revision
@@ -60,9 +63,11 @@ Marking a field as static shows it belongs to the class rather than ??? of that 
 
 This means that a static field holds ??? for every instance created.
 
-*instances
-*the same value
-*methods
-*functions
-*a different value
-*a related value
+
+* instances
+* the same value
+* methods
+* functions
+* a different value
+* a related value
+

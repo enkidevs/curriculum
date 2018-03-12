@@ -1,4 +1,4 @@
-# Following PEP 8 styling guideline.
+---
 author: Bruno
 
 levels:
@@ -13,15 +13,16 @@ type: normal
 
 category: tip
 
-notes: ''
 
 links:
 
-  - >-
-    [www.python.org](https://www.python.org/dev/peps/pep-0008/#whitespace-in-expressions-and-statements){website}
+  - '[www.python.org](https://www.python.org/dev/peps/pep-0008/#whitespace-in-expressions-and-statements){website}'
+
+notes: ''
 
 ---
 ## Content
+# Following PEP 8 styling guideline.
 
 The most common and standard styling guideline for Python is known as PEP 8.
 It is designed to improve readability.
@@ -66,5 +67,7 @@ two   = 2
 three = 3
 ```
 
-*`Option A` 
-*`Option B`
+
+* `Option A` 
+* `Option B`
+

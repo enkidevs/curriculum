@@ -1,4 +1,4 @@
-# Using the double tilde `~~`
+---
 author: pawel
 
 levels:
@@ -17,8 +17,12 @@ tags:
 
   - double-tilde
 
+
+
+
 ---
 ## Content
+# Using the double tilde `~~`
 
 The double tilde `~~` is a quick way to truncate a value to an integer. For example:
 
@@ -47,6 +51,7 @@ console.log(~~"-1.92"); // ???
 console.log(~~{}); // ???
 ```
 
+
 * 15
 * 7
 * -1
@@ -70,8 +75,10 @@ console.log( ~~"56.78" ); // ???
 console.log( ~~"Sunny" ); // ???
 ```
 
-*12
-*56
-*0
-*NaN
-*”56”
+
+* 12
+* 56
+* 0
+* NaN
+* ”56”
+

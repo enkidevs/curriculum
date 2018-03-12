@@ -1,4 +1,4 @@
-# Http pipelining
+---
 author: SebaRaba
 
 levels:
@@ -15,16 +15,16 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - 'https://en.wikipedia.org/wiki/HTTP_pipelining'
-
-  - 'https://brianbondy.com/blog/119/what-you-should-know-about-http-pipelining'
+  - '[en.wikipedia.org](https://en.wikipedia.org/wiki/HTTP_pipelining){website}'
+  - '[brianbondy.com](https://brianbondy.com/blog/119/what-you-should-know-about-http-pipelining){website}'
 
 parent: a-response-example
-
 ---
 ## Content
+# Http pipelining
 
 **HTTP pipelining** is a technique in which multiple *requests* are sent on a single `TCP` connection, without waiting for the corresponding *responses*.
 
@@ -41,6 +41,7 @@ HTTP pipelining requires both the *client* and the *server* to support it. Any s
 
 ??? and `PATCH` requests shouldn't be pipelined.
 
+
 * `POST`
 * `GET`
 * `HEAD`
@@ -53,6 +54,7 @@ HTTP pipelining means exchanging multiple messages on the same
 
 ???
 
+
 * TCP connection
 * HTTP connection
 * local network
@@ -60,6 +62,5 @@ HTTP pipelining means exchanging multiple messages on the same
 
 ---
 ## Footnotes
-
 [1:idempotent]
 In Computer Science, the term **idempotent** is used to describe an operation that will produce the same result if executed once or multiple times.

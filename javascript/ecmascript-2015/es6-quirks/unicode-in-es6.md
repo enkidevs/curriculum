@@ -1,4 +1,4 @@
-# Unicode in ES6
+---
 author: rosielowther
 
 levels:
@@ -13,14 +13,16 @@ type: normal
 
 category: feature
 
+
 links:
 
   - '[ponyfoo.com](https://ponyfoo.com/articles/es6-strings-and-unicode-in-depth){website}'
-
   - '[www.2ality.com](http://www.2ality.com/2013/09/javascript-unicode.html){website}'
+
 
 ---
 ## Content
+# Unicode in ES6
 
 JavaScript strings are represented using UTF-16 code units. Each code unit can be used to represent a code point in the `[U+0000, U+FFFF]` range. Code points beyond that range are represented by a surrogate pair.  
 
@@ -66,10 +68,11 @@ for (let codePoint of '🌲🌲') {
   console.log(codePoint.???(0));
 }
 ```
-*`codePointAt`
-*`codePoint`
-*`codePointRep`
-*`base10point`
+
+* `codePointAt`
+* `codePoint`
+* `codePointRep`
+* `base10point`
 
 ---
 ## Revision
@@ -78,7 +81,9 @@ How are Javascript strings represented?
 
 ???
 
-*UTF-16
-*UTF-8
-*UTF-32
-*US-ASCII
+
+* UTF-16
+* UTF-8
+* UTF-32
+* US-ASCII
+

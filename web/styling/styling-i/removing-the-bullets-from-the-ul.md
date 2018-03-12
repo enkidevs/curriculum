@@ -1,4 +1,4 @@
-# Removing the bullets from the `ul`
+---
 author: koenvanlent
 
 levels:
@@ -17,13 +17,15 @@ tags:
 
   - bullets
 
+
 links:
 
-  - >-
-    [css.maxdesign.com.au](http://css.maxdesign.com.au/listutorial/index.htm){website}
+  - '[css.maxdesign.com.au](http://css.maxdesign.com.au/listutorial/index.htm){website}'
+
 
 ---
 ## Content
+# Removing the bullets from the `ul`
 
 Once you have created your unordered list (`ul`) in HTML, simply add the `list-style-type` property and set it to *none* in your stylesheet.
 ```
@@ -41,10 +43,11 @@ Which CSS property is used to determine the type of bullet points for an unorder
 
 ???
 
-*`list-style-type` 
-*`bullets-type` 
-*`list-type` 
-*`bullets-style`
+
+* `list-style-type` 
+* `bullets-type` 
+* `list-type` 
+* `bullets-style`
 
 ---
 ## Revision
@@ -57,6 +60,8 @@ ul {
 ```
 ???
 
+
 * Tells the list to use squares instead of bullet points.
 * Removes the bullet points from the unordered list.
 * Sets the unordered list to format text into the shape of a square.
+

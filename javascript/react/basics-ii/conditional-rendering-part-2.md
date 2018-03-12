@@ -1,4 +1,4 @@
-# Conditional Rendering (Part 2)
+---
 author: catalin
 
 levels:
@@ -15,14 +15,15 @@ type: normal
 
 category: how to
 
-parent: conditional-rendering-part-1
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/conditional-rendering.html)'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/conditional-rendering.html){website}'
 
+parent: conditional-rendering-part-1
 ---
 ## Content
+# Conditional Rendering (Part 2)
 
 Using **React** with **JSX** gives you more power and convenience when writing code by letting you *embed JS* expressions in **curly braces** (`{expression}`).
 
@@ -82,6 +83,7 @@ ReactDOM.render(
 );
 ```
 
+
 * `!props.x`
 * `&&`
 * `</div>`
@@ -118,7 +120,9 @@ ReactDOM.render(
 
 ???
 
+
 * Yes
 * No
 * Error raised
 * Null
+

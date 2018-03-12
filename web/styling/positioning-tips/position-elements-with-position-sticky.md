@@ -1,4 +1,4 @@
-# Position elements with  `position: sticky`
+---
 author: Mathieu
 
 levels:
@@ -13,17 +13,17 @@ type: normal
 
 category: feature
 
-notes: ''
 
 links:
 
   - '[caniuse.com](http://caniuse.com/#feat=css-sticky){website}'
+  - '[updates.html5rocks.com](http://updates.html5rocks.com/2012/08/Stick-your-landings-position-sticky-lands-in-WebKit){website}'
 
-  - >-
-    [updates.html5rocks.com](http://updates.html5rocks.com/2012/08/Stick-your-landings-position-sticky-lands-in-WebKit){website}
+notes: ''
 
 ---
 ## Content
+# Position elements with  `position: sticky`
 
 `position: sticky` is a new way to position elements and is conceptually similar to `position: fixed`. 
 
@@ -43,7 +43,9 @@ By simply adding `position: sticky` (vendor prefixed), we can tell an element to
 
 Which of the following browsers *does not* support `position: sticky`? ???
 
+
 * Chrome
 * Firefox
 * Safari
 * iOS Safari
+

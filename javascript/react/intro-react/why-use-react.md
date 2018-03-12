@@ -1,4 +1,4 @@
-# Why use **React**?
+---
 author: catalin
 
 levels:
@@ -9,18 +9,16 @@ type: normal
 
 category: must-know
 
-parent: one-way-data-binding
 
 links:
 
-  - >-
-    [medium.com](https://medium.com/@zackargyle/stop-using-react-for-everything-c8297ac1a644#.bp2zaar6p){website}
+  - '[medium.com](https://medium.com/@zackargyle/stop-using-react-for-everything-c8297ac1a644#.bp2zaar6p){website}'
+  - '[linkedin.com](https://www.linkedin.com/pulse/what-reactjs-why-i-recommend-other-javascript-sandip-das){website}'
 
-  - >-
-    [linkedin.com](https://www.linkedin.com/pulse/what-reactjs-why-i-recommend-other-javascript-sandip-das){website}
-
+parent: one-way-data-binding
 ---
 ## Content
+# Why use **React**?
 
 **React** is considered a great choice for building the **UI** of web applications - be it simple *SPAs*[1] or
 large projects with numerous authors due to the **self-containing** nature of its *components*.
@@ -44,6 +42,7 @@ Which one of the following improves **React**'s performance the most?
 
 ???
 
+
 * **Virtual DOM** diff algorithm
 * JSX
 * SEO
@@ -53,7 +52,6 @@ Which one of the following improves **React**'s performance the most?
 
 ---
 ## Footnotes
-
 [1:SPA]
 
 **Single-Page Applications** (SPAs) are Web apps that load a single `HTML` page and dynamically update that page as the user interacts with the app.

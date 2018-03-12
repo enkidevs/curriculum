@@ -1,4 +1,4 @@
-# Flags for `npm`
+---
 author: catalin
 
 levels:
@@ -11,16 +11,15 @@ type: normal
 
 category: best practice
 
-parent: check-data-about-a-package
 
 links:
 
-  - >-
-    [strongloop.com](https://strongloop.com/strongblog/3-neat-tricks-with-npm-run/){website}
+  - '[strongloop.com](https://strongloop.com/strongblog/3-neat-tricks-with-npm-run/){website}'
 
-
+parent: check-data-about-a-package
 ---
 ## Content
+# Flags for `npm`
 
 Configuration options such as **environment variables** and **command line flags** that are used for *Node.js* are also available for the `npm` package manager.
 
@@ -57,8 +56,10 @@ Complete the start script to support `--harmony` flag in `package.json`:
   }
 }
 ```
-*`start`
-*`node`
-*`npm`
-*`require`
-*`dependencies`
+
+* `start`
+* `node`
+* `npm`
+* `require`
+* `dependencies`
+

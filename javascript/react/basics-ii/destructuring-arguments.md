@@ -1,4 +1,4 @@
-# Destructuring arguments
+---
 author: catalin
 
 levels:
@@ -15,16 +15,16 @@ type: normal
 
 category: how to
 
-parent: jsx-spread-attributes
 
 links:
 
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)'
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){website}'
+  - '[simonsmith.io](https://simonsmith.io/destructuring-objects-as-function-parameters-in-es6/){website}'
 
-  - '[simonsmith.io](https://simonsmith.io/destructuring-objects-as-function-parameters-in-es6/)'
-
+parent: jsx-spread-attributes
 ---
 ## Content
+# Destructuring arguments
 
 The **destructuring assignment** syntax, introduced in `ES6`, is used to extract data from either *arrays* or *objects* in distinct variables. 
 
@@ -55,7 +55,6 @@ function Display({text, ...props}) {
 }
 ```
 
-
 ---
 ## Practice
 
@@ -68,6 +67,7 @@ function Enki({text, ???}) {
   return <h1 {...props}>???</h1>;
 }
 ```
+
 
 * `...props`
 * `{text}`
@@ -90,6 +90,7 @@ function Enki({text, ???}) {
 }
 ```
 
+
 * `...props`
 * `{text}`
 * `props`
@@ -97,3 +98,4 @@ function Enki({text, ???}) {
 * `text`
 * `this.props.text`
 * `props.text`
+

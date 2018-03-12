@@ -1,4 +1,4 @@
-# LEFT And RIGHT JOINs
+---
 author: mihaiberq
 
 levels:
@@ -11,21 +11,26 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
-links:
-  - '[Left outer join](https://en.wikipedia.org/wiki/Join_(SQL)#Left_outer_join)'
-  - '[Right outer join](https://en.wikipedia.org/wiki/Join_(SQL)#Right_outer_join)'
+inAlgoPool: false
 
 tags:
-   - introduction
-   - workout
+
+  - introduction
+
+  - workout
+
+
+links:
+
+  - '[Left outer join](https://en.wikipedia.org/wiki/Join_(SQL)#Left_outer_join){website}'
+  - '[Right outer join](https://en.wikipedia.org/wiki/Join_(SQL)#Right_outer_join){website}'
 
 
 ---
 ## Content
+# LEFT And RIGHT JOINs
 
 The `LEFT JOIN`, or `LEFT OUTER JOIN`, is a type of join whose result contains **all** rows in the first table, regardless of whether there's a match with the right-hand table. Conversely, the `RIGHT JOIN`, or `RIGHT OUTER JOIN`, returns all rows in the second table. The keyword here is *outer*, which means "preserve the whole table".
 
@@ -88,11 +93,11 @@ The difference between inner join (IJ) and left outer join (LOJ) is that
 
 ???
 
+
 * the LOJ result contains all rows in the first table
 * the LOJ result contains all rows in the second table
 * only their name differ
 * tables intersection can only be found as part of IJ result
-
 
 ---
 ## Revision
@@ -104,6 +109,7 @@ SELECT *
 ??? type_efficacy ???
 type.id = type_efficacy.target_type_id;
 ```
+
 * `FROM`
 * `RIGHT JOIN`
 * `ON`
@@ -112,50 +118,14 @@ type.id = type_efficacy.target_type_id;
 
 ---
 ## Quiz
+### LEFT OR RIGHT?
+```
 
-headline: LEFT OR RIGHT?
+Given the tables called `location_area` and `location`:
 
-question: |
+id  | game_index | location_id |       name
+```
 
-  Given the tables called `location_area` and `location`:
-
-  id  | game_index | location_id |       name                      
-  ----|------------|-------------|--------------------
-    1 |          1 |           1 | canalave-city-area
-    2 |          2 |           2 | eterna-city-area
-    3 |          3 |           3 | pastoria-city-area
-    4 |          4 |           4 | sunyshore-city-area
-  (...)
-
-  id  | region_id |     name           
-  ----|-----------|---------------
-    1 |         4 | canalave-city
-    2 |         4 | eterna-city
-    3 |         4 | pastoria-city
-  (...)
+ ???
 
 
-  Note that there are 6 regions, but not all locations belong to one of them. Get game_index's region, `NULL` if there is none. The result should look like this:
-
-  id  | game_index | region_id
-  ----|------------|-----------
-    1 |          1 |         4
-    2 |          2 |         4
-    3 |          3 |         4
-    (...)
-    21|          21|          
-    44|          44|
-
-answers:  
-  - SELECT location.id,location_area.game_index,location.region_id
-    FROM location LEFT JOIN location_area
-    ON location.id = location_area.id;
-  - SELECT location.id,location_area.game_index,location.region_id
-    FROM location FULL OUTER JOIN location_area
-    ON location.id = location_area.id;
-  - SELECT location.id,location_area.game_index,location.region_id
-    FROM location INNER JOIN location_area
-    ON location.id = location_area.id;
-  - SELECT location.id,location_area.game_index,location.region_id
-    FROM location RIGHT JOIN location_area
-    ON location.id = location_area.id;

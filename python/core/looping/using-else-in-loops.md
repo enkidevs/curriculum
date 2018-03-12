@@ -1,4 +1,4 @@
-# Using `else` in loops
+---
 author: tommarshall
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# Using `else` in loops
 
 Unlike other programming languages such as C, Python allows the use of `else` statements with loops.
 
@@ -74,6 +78,7 @@ a
 
 An `else` statement is used in loops when the loops ??? is evaluated to ???.
 
+
 * condition
 * false
 * null
@@ -83,20 +88,21 @@ An `else` statement is used in loops when the loops ??? is evaluated to ???.
 
 ---
 ## Quiz
+### what will the following code snippet print?
+```
+for i in [1, 2]:
+    if i == 1:
+        print("a")
+        break
+    print("b")
+else:
+    print("c")
+```
 
-headline: what will the following code snippet print?
+ ???
 
-question: |
-  for i in [1, 2]:
-      if i == 1:
-          print("a")
-          break
-      print("b")
-  else:
-      print("c")
+* a
+* a a
+* b a
+* a c
 
-answers:
-  - a
-  - a a
-  - b a
-  - a c

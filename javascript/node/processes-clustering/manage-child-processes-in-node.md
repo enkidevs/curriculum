@@ -1,4 +1,4 @@
-# Manage child processes in **Node**
+---
 author: catalin
 
 levels:
@@ -13,15 +13,16 @@ type: normal
 
 category: how to
 
+
 links:
 
   - '[www.graemeboy.com](http://www.graemeboy.com/node-child-processes){website}'
+  - '[krasimirtsonev.com](http://krasimirtsonev.com/blog/article/Nodejs-managing-child-processes-starting-stopping-exec-spawn){website}'
 
-  - >-
-    [krasimirtsonev.com](http://krasimirtsonev.com/blog/article/Nodejs-managing-child-processes-starting-stopping-exec-spawn){website}
 
 ---
 ## Content
+# Manage child processes in **Node**
 
 **Node** has the ability to externalize *CPU-intensive* processing in order to free the event loop by *spawning* child processes that can communicate seamlessly with their parents.
 
@@ -63,6 +64,7 @@ var spawn =
   require('???').???;
 ```
 
+
 * `child_process`
 * `spawn`
 * `create-child`
@@ -76,7 +78,9 @@ var spawn =
 What module is required to spawn child processes?
 ???
 
-*`child_process`
-*`child_processes`
-*`spawn_process`
-*`child-cpu`
+
+* `child_process`
+* `child_processes`
+* `spawn_process`
+* `child-cpu`
+

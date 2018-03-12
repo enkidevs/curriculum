@@ -1,4 +1,4 @@
-# Limiting log output by time
+---
 author: rosielowther
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History){website}'
+
 
 ---
 ## Content
+# Limiting log output by time
 
 By default `git log` shows the whole commit history, with the most recent commit first.
 
@@ -40,6 +42,7 @@ $ git ???
     --???="2016-01-01" 
     --???="2016-01-05"
 ```
+
 * `log`
 * `after`
 * `before`
@@ -53,8 +56,10 @@ Show the commits made today :
 ```
 $ git ??? ???
 ```
+
 * `log`
 * `--since="yesterday"`
 * `--pretty`
 * `--since`
 * `"yesterday"`
+

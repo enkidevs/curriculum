@@ -1,20 +1,26 @@
-# Deprecated peer dependencies
+---
 author: mihaiberq
 
 levels:
+
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: feature
 
-parent: dependencies
 
+
+parent: dependencies
 ---
 ## Content
+# Deprecated peer dependencies
 
 By now, the question of what happens if one package depends on another package may have crossed your mind. Do you specify both in dependencies field or just the one you would use and hope npm will take care of everything?
 
@@ -57,6 +63,7 @@ In which version of npm were *peerDependencies* available?
 
 ???
 
+
 * npm v2
 * npm v3
 * npm v4
@@ -68,8 +75,10 @@ You can find out your npm version with:
 ```
 $ ??? ???
 ```
+
 * npm
 * -v
 * v
 * node
 * -npm
+

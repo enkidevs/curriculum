@@ -1,4 +1,4 @@
-# Sass Extend/Inheritance
+---
 author: tommarshall
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: tip
 
+
 links:
 
-  - >-
-    [sass-lang.com](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#extend){website}
+  - '[sass-lang.com](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#extend){website}'
+
 
 ---
 ## Content
+# Sass Extend/Inheritance
 
 The `@extend` feature of *Sass* is one of its most useful features. Using `@extend` allows you to share a set of CSS properties between different selectors.
 
@@ -53,7 +55,9 @@ The code in CSS that this generates:
 ## Revision
 
 Which is the correct way to use Sass @extend to extend the class *properties*? ???
+
 * @extend .properties;
 * properties(@extend);
 * @extend(properties);
 * extend .properties;
+

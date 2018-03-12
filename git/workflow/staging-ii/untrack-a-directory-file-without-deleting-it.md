@@ -1,4 +1,4 @@
-# Untrack a directory/file without deleting it
+---
 author: rosielowther
 
 levels:
@@ -9,13 +9,15 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - >-
-    [github.com](https://github.com/jbranchaud/til/blob/master/git/untrack-a-file-without-deleting-it.md){website}
+  - '[github.com](https://github.com/jbranchaud/til/blob/master/git/untrack-a-file-without-deleting-it.md){website}'
+
 
 ---
 ## Content
+# Untrack a directory/file without deleting it
 
 To delete a file from your project in git you use `git rm`.
 
@@ -38,6 +40,7 @@ Untrack the directory `experiment` :
 $ git ??? ??? ??? 
                   experiment
 ```
+
 * `rm`
 * `--cached`
 * `-r`
@@ -51,7 +54,9 @@ What is the flag to remove a file from cache, but not from the working directory
 ```
 $ git rm ??? enki.html
 ```
+
 * `--cached`
 * `-d`
 * `-m`
 * `--index`
+

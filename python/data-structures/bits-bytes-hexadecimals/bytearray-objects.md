@@ -1,4 +1,4 @@
-# `bytearray` objects
+---
 author: catalin
 
 levels:
@@ -13,15 +13,16 @@ type: normal
 
 category: feature
 
-parent: bytes-type
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#bytearray-objects){website}
+  - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#bytearray-objects){website}'
+
+parent: bytes-type
 
 ---
 ## Content
+# `bytearray` objects
 
 The **mutable** counterpart of the `bytes` object is the `bytearray` object. 
 
@@ -60,10 +61,11 @@ Create a bytearray object from the hexadecimal string:
 bytearray(b'.\xf0\xf1\xf2') 
 ```
 
-*`fromhex` 
-*`hex` 
-*`fromhexad` 
-*`hexadecimal`
+
+* `fromhex` 
+* `hex` 
+* `fromhexad` 
+* `hexadecimal`
 
 ---
 ## Revision
@@ -75,10 +77,12 @@ Convert the bytearray object into a hexadecimal string:
     .???() 
 'f0f1f2' 
 ```
-*`bytearray` 
-*`hex` 
-*`barray` 
-*`fromhex` 
-*`tohex` 
-*`byte` 
-*`array`
+
+* `bytearray` 
+* `hex` 
+* `barray` 
+* `fromhex` 
+* `tohex` 
+* `byte` 
+* `array`
+

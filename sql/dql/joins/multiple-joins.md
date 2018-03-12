@@ -1,4 +1,4 @@
-# Multiple JOINs
+---
 author: mihaiberq
 
 levels:
@@ -11,16 +11,22 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 tags:
-   - workout
-   - deep
+
+  - workout
+
+  - deep
+
+
+
 
 ---
 ## Content
+# Multiple JOINs
 
 Sometimes, a single join might not be enough to get the desired result. In `many-to-many` relationships, when an intermediate table is used to avoid data duplication, such practice is common.
 
@@ -99,6 +105,7 @@ ORDER BY pokemon.id,
   LJoinRes.level;
 ```
 
+
 * `FROM`
 * `RIGHT OUTER JOIN`
 * `ON`
@@ -116,59 +123,46 @@ Is the following statement true or false?
 In order to join multiple tables together, subqueries must be used.
 
 ???
+
 * false
 * true
 
 ---
 ## Quiz
+### Sometimes one is not enough?
+```
 
-headline: Sometimes one is not enough?
+Given the tables called `pokedex`, `version_group` and `pokedex_version_group`:
 
-question: |
+id | is_main_series | region_id |       name       
+===+================+===========+==================
+ 1 | t              |           | national
+ 2 | t              |         1 | kanto
+ 3 | t              |         2 | original-johto
+ 4 | t              |         3 | hoenn
 
-  Given the tables called `pokedex`, `version_group` and `pokedex_version_group`:
+(...)
 
-  id | is_main_series | region_id |       name       
-  ---|----------------|-----------|------------------
-   1 | t              |           | national
-   2 | t              |         1 | kanto
-   3 | t              |         2 | original-johto
-   4 | t              |         3 | hoenn
+id | order | generation_id |           name            
+===+=======+===============+===========================
+ 1 |     1 |             1 | red-blue
+ 2 |     2 |             1 | yellow
+ 3 |     3 |             2 | gold-silver
+(...)
 
-  (...)
+id | pokedex_id | version_group_id
+===+============+==================
+ 1 |          2 |                1
+ 2 |          2 |                2
+ 3 |          2 |                7
 
-  id | order | generation_id |           name            
-  ---|-------|---------------|---------------------------
-   1 |     1 |             1 | red-blue
-   2 |     2 |             1 | yellow
-   3 |     3 |             2 | gold-silver
-  (...)
+Get the names of pokedexes and version_groups using `pokedex_version_group` table. Do not include records that don't have both, pokedex and version_group :
+```
 
-  id | pokedex_id | version_group_id
-  ---|------------|------------------
-   1 |          2 |                1
-   2 |          2 |                2
-   3 |          2 |                7
+ ???
 
-  Get the names of pokedexes and version_groups using `pokedex_version_group` table. Do not include records that don't have both, pokedex and version_group :
+* SELECT pokedex.name, version_group.name FROM pokedex_version_group INNER JOIN pokedex ON pokedex_version_group.pokedex_id = pokedex.id INNER JOIN version_group ON pokedex_version_group.version_group_id = version_group.id;
+* SELECT pokedex.name, version_group.name FROM pokedex_version_group RIGHT JOIN pokedex ON pokedex_version_group.pokedex_id = pokedex.id LEFT JOIN version_group ON pokedex_version_group.version_group_id = version_group.id;
+* SELECT pokedex.name, version_group.name FROM pokedex_version_group FULL OUTER JOIN pokedex ON pokedex_version_group.pokedex_id = pokedex.id FULL OUTER JOIN version_group ON pokedex_version_group.version_group_id = version_group.id;
+* SELECT pokedex.name, version_group.name FROM pokedex_version_group LEFT JOIN pokedex ON pokedex_version_group.pokedex_id = pokedex.id RIGHT JOIN version_group ON pokedex_version_group.version_group_id = version_group.id;
 
-answers:  
-  - SELECT pokedex.name, version_group.name
-    FROM pokedex_version_group
-    INNER JOIN pokedex ON pokedex_version_group.pokedex_id = pokedex.id
-    INNER JOIN version_group ON pokedex_version_group.version_group_id = version_group.id;
-
-  - SELECT pokedex.name, version_group.name
-    FROM pokedex_version_group
-    RIGHT JOIN pokedex ON pokedex_version_group.pokedex_id = pokedex.id
-    LEFT JOIN version_group ON pokedex_version_group.version_group_id = version_group.id;
-
-  - SELECT pokedex.name, version_group.name
-    FROM pokedex_version_group
-    FULL OUTER JOIN pokedex ON pokedex_version_group.pokedex_id = pokedex.id
-    FULL OUTER JOIN version_group ON pokedex_version_group.version_group_id = version_group.id;
-
-  - SELECT pokedex.name, version_group.name
-    FROM pokedex_version_group
-    LEFT JOIN pokedex ON pokedex_version_group.pokedex_id = pokedex.id
-    RIGHT JOIN version_group ON pokedex_version_group.version_group_id = version_group.id;

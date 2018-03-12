@@ -1,4 +1,4 @@
-# Functions return `undefined` by default
+---
 author: rosielowther
 
 levels:
@@ -15,12 +15,14 @@ category: feature
 
 tags:
 
-  - ''
+  - 
 
-notes: ''
 
+
+notes: 
 ---
 ## Content
+# Functions return `undefined` by default
 
 JavaScript is a **dynamic** programming language which means that it is not necessary to define the return type of a function.
 
@@ -61,9 +63,11 @@ foo(1); // = ???
 foo(2); // = ???
 foo(3) === foo(1); // = ???
 ```
-*undefined
-*Enki
-*true
-*null
-*false
-*NaN
+
+* undefined
+* Enki
+* true
+* null
+* false
+* NaN
+

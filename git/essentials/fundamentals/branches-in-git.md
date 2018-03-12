@@ -1,4 +1,4 @@
-# Branches in Git
+---
 author: catalin
 
 levels:
@@ -7,17 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [git-scm.com](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell){website}
+  - '[git-scm.com](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell){website}'
+
 
 ---
 ## Content
+# Branches in Git
 
 Branching allows developers to diverge from the main line of development without affecting other work.
 
@@ -73,6 +75,7 @@ Complete the command below in order to force the delete of `my-branch`:
 $ git ??? ??? my-branch
 ```
 
+
 * `branch`
 * `-D`
 * `-d`
@@ -94,7 +97,6 @@ What command is used in **Git** to switch between branches?
 
 ---
 ## Footnotes
-
 [1:working tree]
 The **working tree** consist of files that you are currently working on.
 

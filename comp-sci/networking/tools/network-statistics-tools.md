@@ -1,4 +1,4 @@
-# Network Statistics
+---
 author: catalin
 
 levels:
@@ -15,16 +15,16 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - http://www.c-jump.com/CIS24/Slides/Networking/html_utils/netstat.html
-
-  - https://www.ibm.com/support/knowledgecenter/en/SSMN28_4.1.1/com.ibm.rm.doc_4.1.1/frp_r_pdg_netstat_command.html
+  - '[www.c-jump.com](http://www.c-jump.com/CIS24/Slides/Networking/html_utils/netstat.html){website}'
+  - '[www.ibm.com](https://www.ibm.com/support/knowledgecenter/en/SSMN28_4.1.1/com.ibm.rm.doc_4.1.1/frp_r_pdg_netstat_command.html){website}'
 
 parent: tools-to-interact-with-networks
-
 ---
 ## Content
+# Network Statistics
 
 Short for *Network Statistics*, the `netstat` command is a simple, yet powerful tool that provides useful information about your network configuration and activity.
 
@@ -76,6 +76,7 @@ Which flag can you use to display the **kernel routing table**?
 $ netstat ???
 ```
 
+
 * `-r`
 * `-x`
 * `-i`
@@ -90,6 +91,7 @@ What flag would you use to filter the output of the following snippet, showing o
 $ netstat ???
 ```
 
+
 * `-t`
 * `-i`
 * `-u`
@@ -98,7 +100,6 @@ $ netstat ???
 
 ---
 ## Footnotes
-
 [1:kernel routing table]
 This is the same as the **IP routing table**, mentioned in the previous insight.
 On **Linux** the same information can be retrieved form the table using `route` command.

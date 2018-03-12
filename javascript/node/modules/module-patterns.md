@@ -1,4 +1,4 @@
-# Module patterns
+---
 author: tommarshall
 
 levels:
@@ -15,15 +15,15 @@ type: normal
 
 category: must-know
 
-parent: local-modules
 
 links:
 
-  - '[Node Module Patterns](https://darrenderidder.github.io/talks/ModulePatterns/#/5)'
+  - '[Node Module Patterns](https://darrenderidder.github.io/talks/ModulePatterns/#/5){website}'
 
-
+parent: local-modules
 ---
 ## Content
+# Module patterns
 
 Module patterns common practices when developing Node applications in a modular way. Module patterns allow code to be written in a pro-modular way, protecting the context of some modules whilst exposing the necessary modules and variables by attaching them to the global object.
 
@@ -65,6 +65,7 @@ foo();
 What must be used when exporting an anonymous function?
 ???
 
+
 * `module.exports`
 * `require`
 * `exports`
@@ -86,6 +87,8 @@ var foo = require('./module.js'???;
 foo();
 ```
 
+
 * `).foo`
 * `)`
 * `).module`
+

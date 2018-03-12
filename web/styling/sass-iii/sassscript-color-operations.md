@@ -1,4 +1,4 @@
-# SassScript Color Operations
+---
 author: tommarshall
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: best practice
 
+
 links:
 
-  - >-
-    [sass-lang.com](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#color_operations){website}
+  - '[sass-lang.com](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#color_operations){website}'
+
 
 ---
 ## Content
+# SassScript Color Operations
 
 *SassScript's* arithmetic operations are supported for all color values, they perform on each component of a color in order.
 
@@ -69,9 +71,10 @@ p {
    color: ???;
 }
 ```
-*`#820932` 
-*`#800110` 
-*`810421`
+
+* `#820932` 
+* `#800110` 
+* `810421`
 
 ---
 ## Revision
@@ -89,6 +92,8 @@ p {
 }
 ```
 
-*`#001034`
-*`#341000`
-*`#000034`
+
+* `#001034`
+* `#341000`
+* `#000034`
+

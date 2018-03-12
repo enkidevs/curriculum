@@ -1,4 +1,4 @@
-# Manage local node modules with `npm link`
+---
 author: catalin
 
 levels:
@@ -13,14 +13,15 @@ type: normal
 
 category: feature
 
-parent: check-data-about-a-package
 
 links:
 
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/link){website}'
 
+parent: check-data-about-a-package
 ---
 ## Content
+# Manage local node modules with `npm link`
 
 A modular Node.js application often implies the usage of certain local modules.
 
@@ -53,3 +54,4 @@ $ npm link
 $ cd app/
 $ npm link moduleTwo
 ```
+

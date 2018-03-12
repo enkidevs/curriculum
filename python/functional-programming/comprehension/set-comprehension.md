@@ -1,28 +1,29 @@
-# Set comprehension
+---
 author: catalin
 
 levels:
 
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
-parent: list-comprehension
 
+links:
+
+  - '[python-3-patterns-idioms-test.readthedocs.org](http://python-3-patterns-idioms-test.readthedocs.org/en/latest/Comprehensions.html#set-comprehensions){website}'
+
+parent: list-comprehension
 notes: >-
   Added the point that the list-to-set comprehension will work even if the list
   contains duplicates.
 
-links:
-
-  - >-
-    [python-3-patterns-idioms-test.readthedocs.org](http://python-3-patterns-idioms-test.readthedocs.org/en/latest/Comprehensions.html#set-comprehensions){website}
-
 ---
 ## Content
+# Set comprehension
 
 Using **set comprehension** one can create sets using the same principles as with **list comprehension**.  
 
@@ -49,3 +50,4 @@ Note that the above operation would work even if my_list contained some duplicat
 my_list = [1, 2, 3, 4, 5, 6, 7, 8, 8, 7, 6]
 ```
 since sets by definition do not allow duplicates.
+

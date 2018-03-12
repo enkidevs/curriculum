@@ -1,4 +1,4 @@
-# Why learn Python?
+---
 author: tommarshall
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: tip
+
 inAlgoPool: false
 
-category: tip
+
+
 
 ---
 ## Content
+# Why learn Python?
 
 Python was designed in a way that is easy to understand and to read. It uses English keywords and doesn't require long variable declarations or the use of curly brackets for functions and classes.
 
@@ -35,7 +39,9 @@ As we know, Python is an *object orientated* programming language, therefore bec
 
 How much Python code is usually required compared to the C++ code for the same task? ???
 
-*`Up to 10 times less` 
-*`Up to 5 times less` 
-*`3–5 times less` 
-*`Roughly equal`
+
+* `Up to 10 times less` 
+* `Up to 5 times less` 
+* `3–5 times less` 
+* `Roughly equal`
+

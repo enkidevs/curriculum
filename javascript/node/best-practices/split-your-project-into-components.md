@@ -1,9 +1,12 @@
-# Split Your Project into Components
+---
 author: mihaiberq
 
 levels:
+
   - beginner
+
   - basic
+
   - medium
 
 type: normal
@@ -11,15 +14,22 @@ type: normal
 category: best practice
 
 tags:
+
   - introduction
+
   - new
+
   - deep
 
+
 links:
-  - '[Modularize your solutions](https://github.com/i0natan/nodebestpractices/blob/master/sections/projectstructre/breakintcomponents.md)'
+
+  - '[Modularize your solutions](https://github.com/i0natan/nodebestpractices/blob/master/sections/projectstructre/breakintcomponents.md){website}'
+
 
 ---
 ## Content
+# Split Your Project into Components
 
 One common practice of overzealous beginner developers is to trade the time spent on structuring the project for time spent coding. This works fine for personal or small projects, but has serious downsides in the long run.
 
@@ -42,6 +52,7 @@ What about one of using microservices?
 
 ???
 
+
 * Common code is easily accessed.
 * Easy to reason about each component's job.
 * A lot of time has to be spent to properly design the system.
@@ -54,6 +65,7 @@ Can you point out the main reason for breaking up big projects into microservice
 
 ???
 
+
 * To lower complexity.
 * To decrease the number of dependencies.
 * To encourage the use of APIs.
@@ -61,13 +73,13 @@ Can you point out the main reason for breaking up big projects into microservice
 
 ---
 ## Quiz
+### can you identify a property of microservices?
+Which of the following properties defines microservices?
 
-headline: can you identify a property of microservices?
+ ???
 
-question: Which of the following properties defines microservices?
+* Modularity
+* Tight coupling
+* Anonymity
+* Low computational power
 
-answers:
-  - Modularity
-  - Tight coupling
-  - Anonymity
-  - Low computational power

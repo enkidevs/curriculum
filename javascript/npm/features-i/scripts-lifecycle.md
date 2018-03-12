@@ -1,21 +1,26 @@
-# Hook Scripts
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
-parent: npm-variables
 
+
+parent: npm-variables
 ---
 ## Content
+# Hook Scripts
 
 Scripts are an essential feature of *npm*. They simplify the process of building and running your application. In the last insight, you saw how to write and invoke scripts using the command line.
 
@@ -38,6 +43,7 @@ Note that `npm start` runs `node server.js` by default, in case you have such a 
 A default `npm` script event is:
 
 ???
+
 * postinstall
 * pre-commit
 * gulp
@@ -50,7 +56,9 @@ What command does `npm start` run by default?
 ```
 $ ???
 ```
+
 * `node server.js`
 * `gulp`
 * `node -v`
 * `npm install`
+

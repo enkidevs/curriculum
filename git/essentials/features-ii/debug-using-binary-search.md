@@ -1,4 +1,4 @@
-# Debug using binary search
+---
 author: rosielowther
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Debugging-with-Git){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Debugging-with-Git){website}'
+
 
 ---
 ## Content
+# Debug using binary search
 
 The `bisect` tool helps to identify the commit that introduced a bug.
 
@@ -58,10 +60,11 @@ You can flag a commit as *broken* using :
 ```
 $ git ??? ???
 ```
-*`bisect`
-*`bad`
-*`Bisect`
-*`-b`
+
+* `bisect`
+* `bad`
+* `Bisect`
+* `-b`
 
 ---
 ## Revision
@@ -69,7 +72,9 @@ $ git ??? ???
 ```$ git ???``` 
 
 helps finding a commit that introduced a bug using ??? search.
-*`bisect`
-*`binary`
-*`-binary`
-*`-B`
+
+* `bisect`
+* `binary`
+* `-binary`
+* `-B`
+

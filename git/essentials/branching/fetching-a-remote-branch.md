@@ -1,4 +1,4 @@
-# Fetching a remote branch
+---
 author: rosielowther
 
 levels:
@@ -9,13 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}'
+
 
 ---
 ## Content
+# Fetching a remote branch
 
 If you are working on a local version of a remote branch and someone else updates the remote branch, you might want to synchronise your version.
 
@@ -39,6 +41,7 @@ Synchronise your local branch with changes to the remote `test`:
 ```
 $ git ??? ???
 ```
+
 * `fetch`
 * `test`
 * `master`
@@ -53,7 +56,9 @@ Complete the process to apply the changes to your local branch `master`:
 $ git ??? origin
 $ git ???
 ```
+
 * `fetch`
 * `merge`
 * `commit`
 * `master`
+

@@ -1,4 +1,4 @@
-# Overcome line-ending issues
+---
 author: rosielowther
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration){website}'
+
 
 ---
 ## Content
+# Overcome line-ending issues
 
 Windows uses a carriage-return character and a linefeed character (CRLF) for new lines in files, whereas Mac and Linux systems use a linefeed character (LF).
 
@@ -42,10 +44,11 @@ Enable `core.autocrlf` on Windows:
 $ git ??? ???
       ??? ???
 ```
-*`config`
-*`--global`
-*`core.autocrlf`
-*`true`
+
+* `config`
+* `--global`
+* `core.autocrlf`
+* `true`
 
 ---
 ## Revision
@@ -54,7 +57,9 @@ To enable `core.autocrlf`, its value should be set to:
 - Windows   ???
 - Linux/Mac   ???
 
-*true
-*input
-*start
-*-true
+
+* true
+* input
+* start
+* -true
+

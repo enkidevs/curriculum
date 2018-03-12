@@ -1,4 +1,4 @@
-# Chaining Promises
+---
 author: alexjmackey
 
 levels:
@@ -9,16 +9,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
 
 links:
 
   - '[MDN - Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
 
+inAlgoPool:
+
 ---
 ## Content
+# Chaining Promises
 
 Promises advantages really become apparent when you start working with more complex flows and multiple promises. 
 
@@ -44,3 +46,4 @@ new Promise(function(resolve, reject){
 //then 2
 //finished
 ```
+

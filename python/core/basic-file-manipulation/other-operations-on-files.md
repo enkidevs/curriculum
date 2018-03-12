@@ -1,4 +1,4 @@
-# Other operations on files
+---
 author: SebaRaba
 
 levels:
@@ -9,12 +9,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - '[More operations here](https://www.tutorialspoint.com/python/python_files_io.htm)'
+  - '[More operations here](https://www.tutorialspoint.com/python/python_files_io.htm){website}'
+
 
 ---
 ## Content
+# Other operations on files
 
 **Python** provides more methods to ease `I/O` interactions and **file handling**. Among these we can count:
 - `tell()` which returns the current position in the file
@@ -68,16 +71,6 @@ os.remove('new_file.txt');
 ```
 
 ---
-## Footnotes
-
-[1: file.txt]
-```
-# file.txt
-This is my file
-It has two lines of text
-```
-
----
 ## Practice
 
 Fill the gaps:
@@ -91,6 +84,7 @@ file.???(0)
 print(file.read())
 ```
 ???
+
 
 
 * `r`
@@ -110,7 +104,17 @@ Which method returns the current position of the file pointer within a **file ob
 
 ???
 
+
 * `tell()`
 * `seek()`
 * `open()`
 * `readline()`
+
+---
+## Footnotes
+[1: file.txt]
+```
+# file.txt
+This is my file
+It has two lines of text
+```

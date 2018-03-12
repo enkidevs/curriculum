@@ -1,4 +1,4 @@
-# Online Debugging Options
+---
 author: alexjmackey
 
 levels:
@@ -7,16 +7,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
 
 links:
 
   - '[jsbin.com](https://jsbin.com/){website}'
 
+inAlgoPool:
+
 ---
 ## Content
+# Online Debugging Options
 
 It can be useful to quickly test a bit of code without having to create HTML and JavaScript files.
 
@@ -42,7 +44,9 @@ Can online JavaScript environments use libraries such as React, Angular or jQuer
 
 ???
 
+
 * Yes
 * No
 * Only jQuery
 * Only React
+

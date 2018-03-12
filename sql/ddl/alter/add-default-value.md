@@ -1,4 +1,4 @@
-# Add Default Value
+---
 author: SebaRaba
 
 levels:
@@ -17,16 +17,21 @@ category: must-know
 
 inAlgoPool: false
 
+tags:
+
+  - workout
+
+  - deep
+
+
 links:
 
-  - '[More on ADD DEFAULT](https://www.w3schools.com/sql/sql_default.asp)'
+  - '[More on ADD DEFAULT](https://www.w3schools.com/sql/sql_default.asp){website}'
 
-tags:
-  - workout
-  - deep
 
 ---
 ## Content
+# Add Default Value
 
 In *MS Acccess* and *SQL Servers* we can use the `ALTER TABLE` statement to set default values for desired columns:
 ```
@@ -69,6 +74,7 @@ ALTER ??? ???
 ??? 1;
 ```
 
+
 * ALTER TABLE
 * COLUMN
 * region_id
@@ -97,6 +103,8 @@ id | version_group_id |      name
     ???
 ```
 
+
 * ALTER TABLE version ALTER COLUMN name SET DEFAULT 'ruby';
 * ALTER TABLE region ALTER COLUMN name SET DEFAULT 'ruby';
 * ALTER TABLE version ALTER name SET DEFAULT 'ruby';
+

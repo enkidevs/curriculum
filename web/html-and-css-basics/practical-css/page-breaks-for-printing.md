@@ -1,4 +1,4 @@
-# Page breaks for printing
+---
 author: catalin
 
 levels:
@@ -13,12 +13,15 @@ type: normal
 
 category: how to
 
+
 links:
 
   - '[davidwalsh.name](https://davidwalsh.name/css-page-breaks){website}'
 
+
 ---
 ## Content
+# Page breaks for printing
 
 **CSS** provide with a set of properties in order to define how a document is printed:
 - `page-break-before` : will break the page before the element on which is applied
@@ -44,7 +47,9 @@ Do not forget that the ruling must be preceded by `@media print`.
 
 Which of the following is not a CSS page break? ???
 
+
 * `page-break-prior`
 * `page-break-before`
 * `page-break-after`
 * `page-break-inside`
+

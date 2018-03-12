@@ -1,4 +1,4 @@
-# Access a function's `arguments` as an array
+---
 author: Bruno
 
 levels:
@@ -9,13 +9,15 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments){documentation}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments){documentation}'
+
 
 ---
 ## Content
+# Access a function's `arguments` as an array
 
 The arguments of a function can be accessed with the `arguments` keyword, but `arguments` only returns a *pseudo-array*.
 
@@ -51,10 +53,12 @@ function myArray() {
   return a;
 ```
 
-*`arguments`
-*`slice`
-*`splice`
-*`argv`
-*`args`
-*`sort`
-*`toArray`
+
+* `arguments`
+* `slice`
+* `splice`
+* `argv`
+* `args`
+* `sort`
+* `toArray`
+

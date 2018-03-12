@@ -1,8 +1,10 @@
-# Styling Brackets
+---
 author: mihaiberq
 
 levels:
+
   - beginner
+
   - basic
 
 type: normal
@@ -10,10 +12,15 @@ type: normal
 category: tip
 
 tags:
+
   - introduction
+
+
+
 
 ---
 ## Content
+# Styling Brackets
 
 Styling is something that shouldn't influence the performance of the code in any way, and differs from team to team. It's rare that developers agree on camel case syntax versus underscore naming conventions, tabs versus spaces, or brackets position. However, for JavaScript in general and Node in particular, brackets location isn't just a debate. Let's look at  an example:
 
@@ -134,6 +141,7 @@ function C()
   };
 }
 ```
+
 * A
 * B
 * C
@@ -152,6 +160,7 @@ function tictac() {
 ```
 ???
 
+
 * Automatic semicolon insertion
 * Scoping
 * Automatic bracket placement
@@ -159,20 +168,20 @@ function tictac() {
 
 ---
 ## Quiz
-
-headline: what will the following snippet output?
-
-question: |
-  function pi() {
-    return
-    {
-      pi: 3.14
-    }
+### what will the following snippet output?
+function pi() {
+  return
+  {
+    pi: 3.14
   }
-  console.log(pi())
+}
+console.log(pi())
 
-answers:
-  - undefined
-  - {pi: 3.14}
-  - SyntaxError
-  - {'pi': 3.14}
+
+ ???
+
+* undefined
+* [object Object]
+* SyntaxError
+* [object Object]
+

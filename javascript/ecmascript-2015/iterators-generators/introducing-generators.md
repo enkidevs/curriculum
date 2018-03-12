@@ -1,4 +1,4 @@
-# Introducing Generators
+---
 author: alexjmackey
 
 levels:
@@ -9,16 +9,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+
 links:
-  
+
   - '[MDN - Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}'
+
+inAlgoPool:
 
 ---
 ## Content
+# Introducing Generators
 
 ES6 provides an easier way of working with iterators called **generators**.
 
@@ -54,3 +56,4 @@ gen.next(); //{value: 4, done: false}
 gen.next(); //{value: 5, done: false}
 gen.next(); //{value: undefined, done: true}
 ```
+

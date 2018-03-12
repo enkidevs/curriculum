@@ -1,4 +1,4 @@
-# Iterables
+---
 author: alexjmackey
 
 levels:
@@ -9,16 +9,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+
 links:
-  
+
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols){website}'
-  
+
+inAlgoPool:
+
 ---
 ## Content
+# Iterables
 
 Javascript has a number of built in objects that are defined as iterables such as arrays, strings, maps and sets. When an object is iterable it defines how it will work with language features such as **for..of** loops. 
 
@@ -74,3 +76,4 @@ We could even use it with the spread operator:
 ```
 console.log([...it]); //[1,2,3,4,5]
 ```
+

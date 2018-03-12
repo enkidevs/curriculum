@@ -1,4 +1,4 @@
-# Closures
+---
 author: rosielowther
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [ryanmorr.com](http://ryanmorr.com/understanding-scope-and-context-in-javascript/){website}
+  - '[ryanmorr.com](http://ryanmorr.com/understanding-scope-and-context-in-javascript/){website}'
+
 
 ---
 ## Content
+# Closures
 
 A **closure** is created when you access a  variable outside of the immediate scope. 
 
@@ -56,14 +58,17 @@ function foo(){
 }
 foo()();
 ```    
-*will
-*will not
+
+* will
+* will not
 
 ---
 ## Revision
 
 A *closure* is created when you ???.
 
-*nest a function inside another
-*declare a function
-*call a function
+
+* nest a function inside another
+* declare a function
+* call a function
+

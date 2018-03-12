@@ -1,4 +1,4 @@
-# Why Learn JavaScript?
+---
 author: alexjmackey
 
 levels:
@@ -7,12 +7,15 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+
+
+inAlgoPool:
 
 ---
 ## Content
+# Why Learn JavaScript?
 
 JavaScript was originally developed to add functionality to web pages but it's now used for much more!
 
@@ -32,7 +35,9 @@ Why was **JavaScript** originally developed?
 
 ???
 
-*To add functionality to web pages
-*To create databases
-*To enhance Java
-*To replace HTML
+
+* To add functionality to web pages
+* To create databases
+* To enhance Java
+* To replace HTML
+

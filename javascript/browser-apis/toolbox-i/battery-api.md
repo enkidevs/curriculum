@@ -1,4 +1,4 @@
-# Battery API
+---
 author: rosielowther
 
 levels:
@@ -13,15 +13,16 @@ type: normal
 
 category: feature
 
+
 links:
 
   - '[davidwalsh.name](https://davidwalsh.name/javascript-battery-api){website}'
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API){website}'
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API){website}
 
 ---
 ## Content
+# Battery API
 
 The Battery API provides information about the system's **battery** status, such as the current charge level, the time left to full charge and the battery time remaining.
 
@@ -62,6 +63,7 @@ navigator.???()
 });
 ```
 
+
 * `getBattery`
 * `then`
 * `battery`
@@ -69,3 +71,4 @@ navigator.???()
 * `now`
 * `run`
 * `start`
+

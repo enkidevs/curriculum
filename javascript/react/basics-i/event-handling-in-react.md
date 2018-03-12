@@ -1,4 +1,4 @@
-# Event handling in **React**
+---
 author: catalin
 
 levels:
@@ -15,14 +15,15 @@ type: normal
 
 category: must-know
 
-parent: forms-in-react
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/handling-events.html)'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/handling-events.html){website}'
 
+parent: forms-in-react
 ---
 ## Content
+# Event handling in **React**
 
 Adding **event handlers** in **React** is done by providing a listener to the element when initially `render`ed and **not** by calling `addEventListener`: 
 ```jsx
@@ -92,6 +93,7 @@ class Practice extends React.Component {
 }
 ```
 
+
 * `myHandler`
 * `this.myHandler`
 * `bind`
@@ -121,6 +123,7 @@ class Click extends React.Component {
 
 ```
 
+
 * `onClick`
 * `this.clickCallback`
 * `clickCallback`
@@ -128,9 +131,9 @@ class Click extends React.Component {
 * `onclicked`
 * `onclick`
 * `this.clickCallback()`
+
 ---
 ## Footnotes
-
 [1:synthetic events]
 The `SyntheticEvent` is a cross-browser wrapper used by **React** whose instances are passed to event handling function.
 It has exactly the same interface as the browser's native `event`.

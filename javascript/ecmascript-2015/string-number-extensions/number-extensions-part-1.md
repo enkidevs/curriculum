@@ -1,4 +1,4 @@
-# Number Extensions (Part 1)
+---
 author: alexjmackey
 
 levels:
@@ -7,16 +7,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number){website}'
 
+inAlgoPool:
+
 ---
 ## Content
+# Number Extensions (Part 1)
 
 Number benefits from a number of new methods saving you from writing your own potentially error prone implementation.
 
@@ -56,3 +58,4 @@ Number.isNaN allows you to easily test if a number really is NaN:
 Number.isNaN(1); //false
 Number.isNaN(Number.NaN); //true
 ```
+

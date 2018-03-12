@@ -1,4 +1,4 @@
-# Most efficient way to build `HTML` strings
+---
 author: pawel
 
 levels:
@@ -13,14 +13,15 @@ tags:
 
   - html
 
-notes: ''
 
 links:
 
   - '[jsperf.com](http://jsperf.com/string-concat-vs-array-join-10000){website}'
 
+notes: 
 ---
 ## Content
+# Most efficient way to build `HTML` strings
 
 On modern browsers, building `HTML` strings with `.join()` is less efficient than concatenating strings with `+`.
 
@@ -55,6 +56,8 @@ What's the more efficient way to build `HTML` strings in modern browsers?
 
 ???
 
-*`1)`
-*`2)`
-*`3)`
+
+* `1)`
+* `2)`
+* `3)`
+

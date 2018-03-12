@@ -1,4 +1,4 @@
-# Using timers with extra arguments
+---
 author: WebReflection
 
 levels:
@@ -13,14 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [W3C HTML5
-    Timers](https://dev.w3.org/html5/spec-LC/timers.html#timers){documentation}
+  - '[W3C HTML5 Timers](https://dev.w3.org/html5/spec-LC/timers.html#timers){documentation}'
+
 
 ---
 ## Content
+# Using timers with extra arguments
 
 Both `setTimeout` and `setInterval` are a _W3C HTML5_ specification, available as global methods in both client and server engines.
 
@@ -61,6 +62,7 @@ if (confirm('cancel shutdown?')) {
   ???
 }
 ```
+
 * `clearTimeout(task)`
 * `task = null;`
 * `delete task;`
@@ -81,7 +83,9 @@ let t = setInterval(
   10    // b
 );
 ```
+
 * `always 11`
 * `10 then 11 then 12`
 * `NaN`
 * `11 then 12 then 13`
+

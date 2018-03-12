@@ -1,4 +1,4 @@
-# What is a port?
+---
 author: catalin
 
 levels:
@@ -9,14 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - 'https://www.tutorialspoint.com/computer_fundamentals/computer_ports.htm'
+  - '[www.tutorialspoint.com](https://www.tutorialspoint.com/computer_fundamentals/computer_ports.htm){website}'
 
 parent: what-is-an-ip-address
-
 ---
 ## Content
+# What is a port?
 
 In *computer networking*, a **port**[1] is an essential component of the *Internet Protocol*. It is passed as a numerical value that identifies individual services on a networked computer.
 
@@ -40,15 +41,7 @@ To represent ports, a `16 bit` number is used, ranging from `0` to `65535`, yet 
  - `FTP` with port `21`
 
 When you visit an address such as `www.enki.com`, you won't be required to also specify its port number.
-This happens because the HTTP protocol, used to get the page, runs by default on port `80`. 
-
----
-## Footnotes
-
-[1:ports]
-The term **port** has also other uses in computer science:
- - physical docking points usually between devices and sockets (eg. USB port)
- - action of moving a program from one operating system environment to another
+This happens because the HTTP protocol, used to get the page, runs by default on port `80`.
 
 ---
 ## Practice
@@ -57,14 +50,24 @@ What is HTTP's default port?
 
 ???
 
+
 * `80`
 * `21`
 * `81`
+
 ---
 ## Revision
 
 A port is an essential component of the ??? .
 
+
 * `IP`
 * `networked devices`
 * `Internet`
+
+---
+## Footnotes
+[1:ports]
+The term **port** has also other uses in computer science:
+ - physical docking points usually between devices and sockets (eg. USB port)
+ - action of moving a program from one operating system environment to another

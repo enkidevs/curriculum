@@ -1,4 +1,4 @@
-# Property Value Shorthand
+---
 author: alexjmackey
 
 levels:
@@ -7,17 +7,19 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
 
 links:
 
   - '[benmvp.com](http://www.benmvp.com/learning-es6-enhanced-object-literals/){website}'
-  
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer){website}'
+
+inAlgoPool:
+
 ---
 ## Content
+# Property Value Shorthand
 
 It is very common to return an object from a function with a property the same name as a source value declared elsewhere e.g. 
 
@@ -47,3 +49,4 @@ test(); //{ name: "enki" }
 ```
 
 Note an exception will be thrown at run time if you  specify a value that doesn’t exist in your return object.
+

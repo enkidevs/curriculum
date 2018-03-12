@@ -1,21 +1,26 @@
-# Remote Scripts
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: feature
 
-parent: scripts-lifecycle
 
+
+parent: scripts-lifecycle
 ---
 ## Content
+# Remote Scripts
 
 Another feature of *npm* is running external scripts. These include shell scripts, Makefiles or other build tools that you are more familiar with.
 
@@ -39,6 +44,7 @@ dev:
     ENV=development PORT=3000
     node server.js
 ```
+
 ---
 ## Revision
 
@@ -48,7 +54,9 @@ The syntax to add an external script to *package.json* is:
   "external": "???"
 }
 ```
+
 * `scripts`
 * `./external_script.sh`
 * `script`
 * `external_script.js`
+

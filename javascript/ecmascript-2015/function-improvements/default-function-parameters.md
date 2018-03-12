@@ -1,4 +1,4 @@
-# Default function parameters
+---
 author: NomaDube
 
 levels:
@@ -19,12 +19,15 @@ tags:
 
   - functions
 
+
 links:
 
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters){website}'
 
+
 ---
 ## Content
+# Default function parameters
 
 As of ES6, Functions can be defined with default values. These values will be used if no argument (or `undefined`) is passed. 
 
@@ -52,8 +55,10 @@ function square(a = 1) {
 console.log(square());
 // ???
 ```
-*`1`
-*`2`
-*`error`
-*`undefined`
-*`null`
+
+* `1`
+* `2`
+* `error`
+* `undefined`
+* `null`
+

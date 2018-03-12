@@ -1,4 +1,4 @@
-# **GZIP** compression for **Express**
+---
 author: catalin
 
 levels:
@@ -11,14 +11,15 @@ type: normal
 
 category: must-know
 
-parent: easy-way-to-deliver-html-pages-with-express
 
 links:
 
   - '[github.com](https://github.com/expressjs/compression){website}'
 
+parent: easy-way-to-deliver-html-pages-with-express
 ---
 ## Content
+# **GZIP** compression for **Express**
 
 Using **Gzip** compression middleware in **Express** is a must when talking about loading speed optimization for websites/webapps. This practice can reduce more than 70% size of the packets on a certain website.
 
@@ -45,8 +46,10 @@ Apply *gzip compression* for **Express 3.0**:
 ```javascript
 app.???(express.???());
 ```
-*`use`
-*`compress`
-*`require`
-*`var`
-*`apply`
+
+* `use`
+* `compress`
+* `require`
+* `var`
+* `apply`
+

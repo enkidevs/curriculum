@@ -1,4 +1,4 @@
-# Async File Write in Node.js
+---
 author: rosielowther
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [nodejs.org](https://nodejs.org/api/fs.html#fs_fs_writefile_file_data_options_callback){website}
+  - '[nodejs.org](https://nodejs.org/api/fs.html#fs_fs_writefile_file_data_options_callback){website}'
+
 
 ---
 ## Content
+# Async File Write in Node.js
 
 The File System (FS) module provides file I/O. You can use `fs.writeFile` to **asynchronously write data to a file**. The data can be a string or a buffer.
 
@@ -43,3 +45,4 @@ function (err) {
 Note: The file specified must support writing and the file is overwritten if it already exists.
 
 It is not recommended to use `fs.writeFile` multiple times on the same file without waiting for the callback.  Use `fs.createWriteStream` instead.
+

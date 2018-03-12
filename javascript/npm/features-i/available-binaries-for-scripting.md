@@ -1,21 +1,26 @@
-# Available Binaries For Scripting
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: how to
 
-parent: npm-scripting
 
+
+parent: npm-scripting
 ---
 ## Content
+# Available Binaries For Scripting
 
 Scripting is great for compiling and processing. However, not all the modules you have installed can be used for scripting: binaries are required for the packages to be invoked from the command line.
 
@@ -46,11 +51,13 @@ You can find out the exact location of available binaries with:
 $ ??? ???
 ```
 
+
 * `npm`
 * `bin`
 * `ls`
 * `/project/node_modules/.bin`
 * `/usr/local/bin`
+
 ---
 ## Revision
 
@@ -58,7 +65,9 @@ A package binary file is needed for
 
 ???
 
+
 * command line invocation of the module
 * importing the module
 * publishing the module
 * explaining the functionalities of the module
+

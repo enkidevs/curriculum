@@ -1,4 +1,4 @@
-# Combine *reducers* in **Redux**
+---
 author: catalin
 
 levels:
@@ -11,12 +11,15 @@ type: normal
 
 category: how to
 
+
 links:
 
   - '[rackt.org](http://rackt.org/redux/docs/api/combineReducers.html){website}'
 
+
 ---
 ## Content
+# Combine *reducers* in **Redux**
 
 When applications become more complex, the *reduction function* can and should be split into separate functions, managing different parts of the **state** as to keep the code logic tidy and scalable. This is done by using the special method `combineReducers()`.
 
@@ -50,6 +53,7 @@ combineReducer({firstReducer:firstReducer,
 
 Once the `combineReducers()` function has transformed an object with different reducer functions into a single reducer function, where is it then passed to? ???
 
+
 * `createStore()`
 * `createReducer()`
 * `createObject()`
@@ -60,7 +64,9 @@ Once the `combineReducers()` function has transformed an object with different r
 What special method is used to combine different reduction functions with the scope of keeping your code scalable?
 ???
 
+
 * `combineReducers()`
 * `combine()`
 * `createStore()`
 * `addReducer()`
+

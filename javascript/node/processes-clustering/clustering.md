@@ -1,4 +1,4 @@
-# Clustering
+---
 author: catalin
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - >-
-    [codeforgeek.com](https://codeforgeek.com/2014/12/cluster-node-js-performance/){website}
+  - '[codeforgeek.com](https://codeforgeek.com/2014/12/cluster-node-js-performance/){website}'
+
 
 ---
 ## Content
+# Clustering
 
 **Node** processes run in a single thread limited by default to `512Mb` on `32-bit` machines and `1Gb` on `64-bit`.
 
@@ -51,6 +53,7 @@ Initiate a new worker process.
 ???.???;
 ```
 
+
 * `cluster`
 * `fork()`
 * `master`
@@ -68,7 +71,9 @@ if(cluster.???){
 };
 ```
 
+
 * `isMaster`
 * `master`
 * `notChild`
 * `child`
+

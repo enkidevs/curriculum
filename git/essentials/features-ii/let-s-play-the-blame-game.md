@@ -1,4 +1,4 @@
-# Let's play the blame game
+---
 author: JyotiBajaj
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: tip
 
+
 links:
 
-  - >-
-    [git-scm.com](https://git-scm.com/book/en/v2/Git-Tools-Debugging-with-Git){website}
+  - '[git-scm.com](https://git-scm.com/book/en/v2/Git-Tools-Debugging-with-Git){website}'
+
 
 ---
 ## Content
+# Let's play the blame game
 
 ```
 git blame [file_name]
@@ -50,10 +52,11 @@ Complete the command to see the changes made to a file and by whom:
 $ ??? ??? 
          src/myPackage/Main.java
 ```
-*`git`
-*`blame`
-*`check`
-*`add`
+
+* `git`
+* `blame`
+* `check`
+* `add`
 
 ---
 ## Revision
@@ -61,6 +64,8 @@ $ ??? ???
 `git blame` shows
 
  ???
-*changes made to a file and by whom
-*active developers for the repository
-*nothing
+
+* changes made to a file and by whom
+* active developers for the repository
+* nothing
+

@@ -1,4 +1,4 @@
-# What is stored in a commit?
+---
 author: rosielowther
 
 levels:
@@ -9,13 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History){website}'
+
 
 ---
 ## Content
+# What is stored in a commit?
 
 When you make a commit, git stores a commit object.
 
@@ -33,6 +35,8 @@ The commit object contains a checksum, the author's name and email, the commit m
 ## Revision
 
 The usual commit object contains a hash-code, author’s name and email, date and ??? .
-*description
-*SHA-1
-*checksum
+
+* description
+* SHA-1
+* checksum
+

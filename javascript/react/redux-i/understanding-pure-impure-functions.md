@@ -1,4 +1,4 @@
-# Understanding **pure/impure** functions
+---
 author: catalin
 
 levels:
@@ -9,13 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [www.nicoespeon.com](http://www.nicoespeon.com/en/2015/01/pure-functions-javascript/){website}
+  - '[www.nicoespeon.com](http://www.nicoespeon.com/en/2015/01/pure-functions-javascript/){website}'
+
 
 ---
 ## Content
+# Understanding **pure/impure** functions
 
 As **Redux** is based on the general concept of the *single immutable state tree*, **pure** functions should be used as often as possible as not to alter any state, but to always generate new states (especially for the frontend).
 
@@ -46,5 +48,7 @@ What type of functions should be used in **Redux** as to preserve the **single i
 
 ???
 
+
 * pure
 * impure
+

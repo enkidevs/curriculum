@@ -1,4 +1,4 @@
-# Monitors
+---
 author: Nick Daminov
 
 levels:
@@ -9,12 +9,15 @@ type: normal
 
 category: pattern
 
+
 links:
 
-  - '[More on Monitors](https://stackoverflow.com/questions/7335950/semaphore-vs-monitors-whats-the-difference)'
+  - '[More on Monitors](https://stackoverflow.com/questions/7335950/semaphore-vs-monitors-whats-the-difference){website}'
+
 
 ---
 ## Content
+# Monitors
 
 Unlike the two previous patters **monitors** are higher class synchronization mechanisms. **Monitor** functionality can be accessed by multiple threads.
 
@@ -51,6 +54,7 @@ What is the highest class synchronization pattern?
 
 ???
 
+
 * Monitor
 * Lock
 * Mutex
@@ -67,8 +71,10 @@ What is the key concept of a monitor?
 
 ???
 
+
 * A high class structure that provides synchronized functionality accessible by many threads
 * To provide synchronized functionality by mutually exclusive methods
 * To provide more fancy output unlike punchcards and LEDs
 * A pattern that allows multiple threads to use certain functionality at a single time
 * A piece of hardware used to display information from a computer to the user
+

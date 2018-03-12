@@ -1,4 +1,4 @@
-# Securing the Application Layer
+---
 author: milesflo
 
 levels:
@@ -15,12 +15,15 @@ category: must-know
 
 inAlgoPool: false
 
+
 links:
 
-  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
+  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}'
+
 
 ---
 ## Content
+# Securing the Application Layer
 
 The open-ended and ever-changing nature of the Application Layer means that many vulnerabilities are grouped together in it. Anything developed by a programmer falls under this Layer, and since programmers are human, accidents happen. At the least severe, these errors can cause crashes and unexpected behavior. At worst, software errors can result in stolen/destroyed data, physical damage, and backdoor access being created on the network node.
 
@@ -34,6 +37,7 @@ Finally, **YOU are responsible for your security**. Do not run unfamiliar progra
 What is one control in the Application Layer of the OSI Model?
 ???
 
+
 * Utilizing a testing suite in software development
 * Strict use of ports as they are designed
 * Use of a physical firewall
@@ -44,19 +48,21 @@ What is one control in the Application Layer of the OSI Model?
 
 The Application Layer is ???.
 
+
 * open-ended and always changing
 * very limited in scope
 
 ---
 ## Quiz
+### What is one control for this OSI model Layer?
+```
+What is one control in the Application Layer of the OSI Model?
+```
 
-headline: What is one control for this OSI model Layer?
+ ???
 
-question: |
-  What is one control in the Application Layer of the OSI Model?
+* Utilizing a testing suite in software development
+* Strict use of ports as they are designed
+* Use of a physical firewall
+* Using managed switches prevent topographical loops
 
-answers:
-  - Utilizing a testing suite in software development
-  - Strict use of ports as they are designed
-  - Use of a physical firewall
-  - Using managed switches prevent topographical loops

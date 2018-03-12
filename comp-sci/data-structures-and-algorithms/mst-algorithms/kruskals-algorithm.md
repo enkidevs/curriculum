@@ -1,24 +1,29 @@
-# Kruskal's Algorithm
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
 links:
-    - >-
-        [Step-by-step, interactive Kruskal's algorithm application](https://www-m9.ma.tum.de/graph-algorithms/mst-kruskal/index_en.html){website}
+
+  - '[Step-by-step, interactive Kruskal's algorithm application](https://www-m9.ma.tum.de/graph-algorithms/mst-kruskal/index_en.html){website}'
 
 parent: traveling-salesman-problem
 ---
 ## Content
+# Kruskal's Algorithm
 
 **Kruskal's algorithm** is an algorithm that finds a *minimum spanning tree*[1] in a *weighted graph*[2]. The applications of minimum spanning trees are numerous: any type of network design (electrical, roads), data cluster analysis, process control, etc.
 
@@ -58,13 +63,13 @@ Swipe to the next insight to see an iteration of the algorithm.
 Kruskal's algorithm is used for finding
 
 ???.
+
 * the minimum spanning tree in a weighted graph
 * distances between the nodes in a weighted graph
 * the number of negative cycles in a weighted graph
 
 ---
 ## Footnotes
-
 [1:Minimum spanning tree]
 A **spanning tree** is a connected subgraph of the initial graph G, which contains all of the nodes in G and doesn't have any cycles. The spanning tree is **minimum** if its spanning properties are satisfied using the cheapest edges in the graph.
 

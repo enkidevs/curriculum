@@ -1,4 +1,4 @@
-# The distinction between checked and unchecked exceptions
+---
 author: adamMontgomerie
 
 levels:
@@ -15,16 +15,16 @@ tags:
 
   - exceptions
 
+
 links:
 
-  - >-
-    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=129){website}
+  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=129){website}'
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/exceptions/catchOrDeclare.html){website}'
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/exceptions/catchOrDeclare.html){website}
 
 ---
 ## Content
+# The distinction between checked and unchecked exceptions
 
 In Java, exceptions are objects which are created when an error occurs within a method. Exceptions can be divided into *checked* and *unchecked* exceptions.
 
@@ -52,3 +52,4 @@ for (int i = 0; i < arr.length; i++) {
  // will be thrown 
 }
 ```
+

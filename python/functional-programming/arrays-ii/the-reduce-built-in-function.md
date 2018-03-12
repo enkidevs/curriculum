@@ -1,4 +1,4 @@
-# The `reduce` Built-in Function
+---
 author: stefkn
 
 levels:
@@ -11,12 +11,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[Map, filter and Reduce](http://web.mit.edu/6.005/www/fa15/classes/25-map-filter-reduce/#reduce)'
+  - '[Map, filter and Reduce](http://web.mit.edu/6.005/www/fa15/classes/25-map-filter-reduce/#reduce){website}'
+
 
 ---
 ## Content
+# The `reduce` Built-in Function
 
 The `reduce` built-in allows us to apply a function sequentially to all items in a given list, but is different from `map` in that it applies the given function cumulatively.
 
@@ -85,6 +88,7 @@ collection.add(drive1, drive2,
 print(???(???, ???))
 ```
 
+
 * `int(totalStorage)`
 * `storage.size`
 * `reduce`
@@ -107,6 +111,7 @@ print(reduce(lambda x, y: x / y, numbers))
 ```
 ???
 
+
 * `(((100 / 2) / 2) / 5) = 5.0`
 * `(((100 / 2) / 2) / 5) = 5`
 * `(100 / 2 / 2 / 5) = 5.0`
@@ -114,6 +119,5 @@ print(reduce(lambda x, y: x / y, numbers))
 
 ---
 ## Footnotes
-
 [1:Functional Programming]
 *The style of programming that eschews imperative loops such as for loops is called functional programming. For more information about functional programming and Python, see the related workout, since the topic is too broad to cover in one lesson.*

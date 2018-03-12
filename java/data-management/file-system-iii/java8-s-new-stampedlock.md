@@ -1,4 +1,4 @@
-# Java8's new `StampedLock`
+---
 author: catalin
 
 levels:
@@ -9,15 +9,15 @@ type: normal
 
 category: feature
 
-notes: 'https://insights.enki.com/#/contrib/others/55f038e0f457f33b0062114c?search=kha'
 
 links:
 
-  - >-
-    [blog.takipi.com](http://blog.takipi.com/java-8-stampedlocks-vs-readwritelocks-and-synchronized/){website}
+  - '[blog.takipi.com](http://blog.takipi.com/java-8-stampedlocks-vs-readwritelocks-and-synchronized/){website}'
 
+notes: https://insights.enki.com/#/contrib/others/55f038e0f457f33b0062114c?search=kha
 ---
 ## Content
+# Java8's new `StampedLock`
 
 `ReadWriteLock` interface was introduced because `synchronized` blocks would not grant the ability to have more than one thread in a critical situation, for example where multiple threads are trying to edit some data, and others to simply read it.
 ```java
@@ -41,11 +41,12 @@ Obtaining a read or write lock via `readLock()` or `writeLock()` returns a stamp
 
 The locking methods of a `StampedLock` return a stamp represented by a `???` value.
  
-*`long` 
-*`int` 
-*`float` 
-*`char` 
-*`String`
+
+* `long` 
+* `int` 
+* `float` 
+* `char` 
+* `String`
 
 ---
 ## Revision
@@ -56,7 +57,9 @@ StampedLock lock =
              new StampedLock();
 lock.???;```
 
-*`writeLock()` 
-*`readLock()` 
-*`lockReading()` 
-*`lockWriting()`
+
+* `writeLock()` 
+* `readLock()` 
+* `lockReading()` 
+* `lockWriting()`
+

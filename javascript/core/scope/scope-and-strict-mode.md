@@ -1,4 +1,4 @@
-# Scope and strict mode
+---
 author: rosielowther
 
 levels:
@@ -13,12 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
   - '[john-dugan.com](https://john-dugan.com/hoisting-in-javascript/){website}'
 
+
 ---
 ## Content
+# Scope and strict mode
 
 In **non-strict mode**, a variable not found in a **local** scope will be created in the **global** scope.
 
@@ -52,13 +55,16 @@ function bar(foo){
 
 ???
 
-*`non-strict`
-*`strict`
+
+* `non-strict`
+* `strict`
 
 ---
 ## Revision
 
 Non-strict mode allows the automate creation of a variable in ??? scope, while *strict mode* would throw an error if the ??? variable is not declared.
-*global
-*local
-*strict
+
+* global
+* local
+* strict
+

@@ -1,4 +1,4 @@
-# Types - Boolean and Number
+---
 author: alexjmackey
 
 levels:
@@ -7,12 +7,15 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+
+
+inAlgoPool:
 
 ---
 ## Content
+# Types - Boolean and Number
 
 **Boolean**
 
@@ -55,7 +58,9 @@ Which of the following statements is considered true?
 
 ???
 
+
 * The number type in JavaScript support both whole and decimal numbers
 * Boolean type has three options
 * You need the `Math` object to add numbers
 * Boolean types use **Upper case**
+

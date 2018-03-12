@@ -1,4 +1,4 @@
-# Unittest
+---
 author: SebaRaba
 
 levels:
@@ -9,12 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[learn more about unit testing](https://docs.python.org/3/library/unittest.html)'
+  - '[learn more about unit testing](https://docs.python.org/3/library/unittest.html){website}'
+
 
 ---
 ## Content
+# Unittest
 
 **"Testing"**, in general programming terms, is the practice of writing code (separate from your actual application), that invokes parts of your application's code in order to **test** if it works as expected.
 
@@ -81,12 +84,14 @@ Ran 1 tests in 0.000s
 
 OK
 ```
+
 ---
 ## Practice
 
 `setUp()` method defines instructions/code that will be run
 
 ???
+
 
 * before each test method
 * after each test method
@@ -100,6 +105,8 @@ OK
 
 ???
 
+
 * a condition is met
 * an expected result is met
 * a specific exception is raised
+

@@ -1,4 +1,4 @@
-# Notifications API
+---
 author: rosielowther
 
 levels:
@@ -15,13 +15,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/notification){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/notification){website}'
+
 
 ---
 ## Content
+# Notifications API
 
 The Notifications API displays desktop notifications to the user and is a great way to alert the user of important events occurring in the application. 
 
@@ -68,7 +70,9 @@ var n = new Notification(title, options);
 
 Which JS call is the call used to request the permission to display notifications, using the Notifications API? ???
 
+
 * `Notification.requestPermission(`
 * `Notification.permission(`
 * `Notification.grantPermission(`
 * `Notification.permissionStatus(`
+

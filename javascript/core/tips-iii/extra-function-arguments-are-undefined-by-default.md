@@ -1,4 +1,4 @@
-# Extra function arguments are undefined by default
+---
 author: dean
 
 levels:
@@ -15,14 +15,17 @@ category: feature
 
 tags:
 
-  - 'function, arguments, undefined, default'
+  - function, arguments, undefined, default
+
 
 links:
 
   - '[javascript.info](http://javascript.info/tutorial/arguments){website}'
 
+
 ---
 ## Content
+# Extra function arguments are undefined by default
 
 Functions can be called with **any** amount of arguments, regardless of the parameters stated in the constructor.
 
@@ -59,9 +62,10 @@ function bar(x) {
 bar(2, "a", "b");
 // ???
 ```
-*`b`
-*`a`
-*`2`
+
+* `b`
+* `a`
+* `2`
 
 ---
 ## Revision
@@ -74,6 +78,8 @@ function foo(arg) {
 foo(1, "test");
 // ???
 ```
-*test
-*1
-*undefined
+
+* test
+* 1
+* undefined
+

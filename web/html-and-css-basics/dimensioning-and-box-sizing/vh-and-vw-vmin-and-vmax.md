@@ -1,4 +1,4 @@
-# `vh` and `vw`, `vmin` and `vmax`
+---
 author: Mathieu
 
 levels:
@@ -13,14 +13,16 @@ type: normal
 
 category: feature
 
-notes: ''
 
 links:
 
   - '[caniuse.com](http://caniuse.com/#feat=viewport-units){website}'
 
+notes: ''
+
 ---
 ## Content
+# `vh` and `vw`, `vmin` and `vmax`
 
 Responsive web design techniques rely heavily on percentage rules. `width` is relative to the nearest containing parent element. It is possible to use the width of the viewport instead of the width of the parent element using the `vh` and `vw` units.
 
@@ -36,3 +38,4 @@ For example, here is a responsive square:
 The `square` class has the same value for width and height because the viewport might not be a square. For example, on a `1400×900` viewport, `20vw×20vh` would draw a `280×180` rectangle, not a square.
 
 `vmin` is equal to the smallest of `vh` and `vw`, while `vmax` is the largest.
+

@@ -1,4 +1,4 @@
-# First-error callbacks in **Node**
+---
 author: catalin
 
 levels:
@@ -11,13 +11,15 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - >-
-    [fredkschott.com](http://fredkschott.com/post/2014/03/understanding-error-first-callbacks-in-node-js/){website}
+  - '[fredkschott.com](http://fredkschott.com/post/2014/03/understanding-error-first-callbacks-in-node-js/){website}'
+
 
 ---
 ## Content
+# First-error callbacks in **Node**
 
 The `"error-first"` callback (also `"errorback"` or `"err-back"`) has become the standard protocol for **Node** as to enable a balanced, non-blocking flow of control and processing power across applications and modules.
 
@@ -55,8 +57,10 @@ What are the arguments of a `error-first` callback function?
 ```javascript
 function(???, ??) { }
 ```
-*`err`
-*`data`
-*`fileNotFound`
-*`log`
-*`null`
+
+* `err`
+* `data`
+* `fileNotFound`
+* `log`
+* `null`
+

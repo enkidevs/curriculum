@@ -1,4 +1,4 @@
-# Avoid command injection
+---
 author: catalin
 
 levels:
@@ -11,15 +11,15 @@ type: normal
 
 category: best practice
 
-notes: I'm trying to make a Node workout based on security tips. This is one of them.
 
 links:
 
-  - >-
-    [blog.liftsecurity.io](https://blog.liftsecurity.io/2014/08/19/Avoid-Command-Injection-Node.js){website}
+  - '[blog.liftsecurity.io](https://blog.liftsecurity.io/2014/08/19/Avoid-Command-Injection-Node.js){website}'
 
+notes: I'm trying to make a Node workout based on security tips. This is one of them.
 ---
 ## Content
+# Avoid command injection
 
 Avoiding command injection is highly recommended when the **security** factor of your Node application is taken into consideration.
 
@@ -48,6 +48,8 @@ child_process.???('ls', ['-l'
 });
 ```
 
+
 * `execFile`
 * `exec`
 * `spawn`
+

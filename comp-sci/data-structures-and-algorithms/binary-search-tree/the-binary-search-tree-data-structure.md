@@ -1,24 +1,29 @@
-# The Binary Search Tree Data Structure
+---
 author: jfarmer
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
 links:
-    - >-
-        [Binary Search Trees](http://algs4.cs.princeton.edu/32bst/){website}
+
+  - '[Binary Search Trees](http://algs4.cs.princeton.edu/32bst/){website}'
 
 parent: post-order-traversal
 ---
 ## Content
+# The Binary Search Tree Data Structure
 
 A *binary search tree* (or BST) is a tree-based data structure designed for efficient insertion, deletion, and searching. BSTs are in many ways the most important search-optimized data structure — although the most basic version of BST described here is rarely used in practice, many search-optimized data structures are based on it.
 
@@ -50,6 +55,7 @@ Which key prevents the following tree from being a *BST*?
  3    11      20
 ```
 ???
+
 * 11
 * 3
 * 20
@@ -62,7 +68,9 @@ Which key prevents the following tree from being a *BST*?
 Which child has to be larger than the parent for a tree to be a Binary Search Tree?
 
 ???
+
 * Right
 * Left
 * Both
 * None
+

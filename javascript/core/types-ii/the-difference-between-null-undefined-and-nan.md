@@ -1,4 +1,4 @@
-# The difference between null, undefined and NaN
+---
 author: rosielowther
 
 levels:
@@ -11,8 +11,12 @@ type: normal
 
 category: must-know
 
+
+
+
 ---
 ## Content
+# The difference between null, undefined and NaN
 
 In JavaScript, a variable that has been declared but not yet defined is of the type `undefined`:
 
@@ -48,9 +52,10 @@ function foo(num){
 }
 console.log(foo("sum"));
 ```    
-*NaN
-*undefined
-*null
+
+* NaN
+* undefined
+* null
 
 ---
 ## Revision
@@ -62,6 +67,8 @@ console.log(x);
 // ???
 ```
 
-*`NaN`
-*`undefined`
-*`null`
+
+* `NaN`
+* `undefined`
+* `null`
+

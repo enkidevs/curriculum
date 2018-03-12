@@ -1,4 +1,4 @@
-# Method objects
+---
 author: catalin
 
 levels:
@@ -11,8 +11,12 @@ type: normal
 
 category: tip
 
-parent: instance-objects
 
+links:
+
+  - '[docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#method-objects){website}'
+
+parent: instance-objects
 notes: >
   Using the word Enki or enki in many places such as for class name, instance
   name, return value (as in this example), is confusing to readers. Use
@@ -37,13 +41,9 @@ notes: >
   It should be connected to some purpose or benefit, otherwise may be better not
   to show it.
 
-links:
-
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#method-objects){website}
-
 ---
 ## Content
+# Method objects
 
 In Python, functions are seen as *objects* - and there is a clear distinction between a **method call** and a **method object**.
 
@@ -83,10 +83,12 @@ class Test:
 x = test.???
 ```
 
-*`test`
-*`p`
-*`p()`
-*`Test`
-*`new`
-*`def`
-*`get`
+
+* `test`
+* `p`
+* `p()`
+* `Test`
+* `new`
+* `def`
+* `get`
+

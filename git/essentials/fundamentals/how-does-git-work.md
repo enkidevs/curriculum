@@ -1,4 +1,4 @@
-# How does Git work?
+---
 author: catalin
 
 levels:
@@ -7,17 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics){website}
+  - '[git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics){website}'
+
 
 ---
 ## Content
+# How does Git work?
 
 Being able to use **Git** effectively requires understanding how it works on a fundamental level.
 
@@ -38,6 +40,7 @@ You can store a snapshot of the data in the local repository by
 
 ???
 
+
 * `committing`
 * `tracking`
 * `creating a Git repository`
@@ -50,5 +53,7 @@ How does **Git** think of data?
 
 ???
 
+
 * as snapshots
 * as a set of files and changes made to them over time
+

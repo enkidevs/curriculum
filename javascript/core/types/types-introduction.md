@@ -1,4 +1,4 @@
-# Types - Introduction
+---
 author: alexjmackey
 
 levels:
@@ -7,12 +7,15 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+
+
+inAlgoPool:
 
 ---
 ## Content
+# Types - Introduction
 
 JavaScript has the following primitive types:
 
@@ -51,7 +54,9 @@ Which one of the following is **not** a primitive type:
 
 ???
 
-*RegExp
-*Symbol
-*String
-*Number
+
+* RegExp
+* Symbol
+* String
+* Number
+

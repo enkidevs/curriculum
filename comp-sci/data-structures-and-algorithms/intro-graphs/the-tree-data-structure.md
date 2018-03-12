@@ -1,4 +1,4 @@
-# The Tree Data Structure
+---
 author: mihaiberq
 
 levels:
@@ -9,13 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
-    - >-
-         [Tree data structure](http://www.cs.cmu.edu/~clo/www/CMU/DataStructures/Lessons/lesson4_1.htm){website}
+
+  - '[Tree data structure](http://www.cs.cmu.edu/~clo/www/CMU/DataStructures/Lessons/lesson4_1.htm){website}'
 
 parent: graph-adt
 ---
 ## Content
+# The Tree Data Structure
 
 A **tree** is the abstract data type that can store elements *hierarchically* (non-linearly). Every element other than the *root* has a **parent** element and zero or more **children** elements. The **root** can only have children.
 
@@ -58,13 +60,13 @@ And its *query methods* should be:
 - `isExternal(n)` : *Returns* true if n doesn't have children.
 - `isRoot(n)` : *Returns* true if n is the root of the tree.
 
-
 ---
 ## Practice
 
 Which of the following is true?
 
 ???
+
 * A tree is a subtype of graph without cycles.
 * A tree is an undirected graph.
 * A graph is a subtype of a tree.
@@ -76,7 +78,9 @@ Which of the following is true?
 Which of the following statements does apply to Tree data structures?
 
 ???
+
 * The root node has no parents.
 * The root node has to have at least 1 child.
 * The root node cannot have more than 2 children.
 * There is no relation between the nodes of a tree.
+

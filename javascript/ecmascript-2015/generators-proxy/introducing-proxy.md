@@ -1,4 +1,4 @@
-# Introducing Proxy
+---
 author: alexjmackey
 
 levels:
@@ -9,16 +9,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+
 links:
-  
+
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy){website}'
-  
+
+inAlgoPool:
+
 ---
 ## Content
+# Introducing Proxy
 
 **proxy** is new to ES6 and allows you to intercept (referred to as trap) calls to actions on objects such as property access and enumeration.
 
@@ -69,3 +71,4 @@ set: function(obj, prop, value) {
  }
 }}
 ```
+

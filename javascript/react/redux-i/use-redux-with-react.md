@@ -1,4 +1,4 @@
-# Use **Redux** with **React**
+---
 author: catalin
 
 levels:
@@ -13,20 +13,17 @@ type: normal
 
 category: pattern
 
-notes: This can be also placed in the react subtopic
 
 links:
 
   - '[rackt.org](http://rackt.org/redux/docs/basics/UsageWithReact.html){website}'
+  - '[github.com](https://github.com/rackt/react-redux/blob/master/docs/quick-start.md#quick-start){website}'
+  - '[github.com](https://github.com/rackt/react-redux/blob/master/docs/api.md#api){website}'
 
-  - >-
-    [github.com](https://github.com/rackt/react-redux/blob/master/docs/quick-start.md#quick-start){website}
-
-  - >-
-    [github.com](https://github.com/rackt/react-redux/blob/master/docs/api.md#api){website}
-
+notes: This can be also placed in the react subtopic
 ---
 ## Content
+# Use **Redux** with **React**
 
 *Redux* has no relation to *React*, yet it works well with this framework as UI can be described as functions of *state*, which **Redux** can update in response to actions.
 
@@ -65,6 +62,7 @@ connect([???], [mapDispatchToProps],
         [???], [options])
 ```
 
+
 * `mapStateToProps`
 * `mergeProps`
 * `connectProps`
@@ -80,6 +78,8 @@ What function must be imported as to turn a presentational container into a comp
 import { ??? } form `react-redux`
 ```
 
+
 * `connect`
 * `container`
 * `dispatch`
+

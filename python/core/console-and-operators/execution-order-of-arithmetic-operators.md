@@ -1,4 +1,4 @@
-# Execution Order of Arithmetic Operators
+---
 author: tommarshall
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# Execution Order of Arithmetic Operators
 
 When creating commands using arithmetic operators in Python it's very important you understand the order in which your command will be executed. 
 
@@ -39,10 +43,11 @@ What’s the output of the following command:
 ```
 ???
 
-*`3` 
-*`3.0` 
-*`2.0` 
-*`1`
+
+* `3` 
+* `3.0` 
+* `2.0` 
+* `1`
 
 ---
 ## Revision
@@ -54,8 +59,10 @@ What’s the output of the following command:
 ```
 ???
 
-*`8` 
-*`8.0` 
-*`6.0` 
-*`5` 
-*`7.0`
+
+* `8` 
+* `8.0` 
+* `6.0` 
+* `5` 
+* `7.0`
+

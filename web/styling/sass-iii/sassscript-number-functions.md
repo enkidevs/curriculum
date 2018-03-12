@@ -1,4 +1,4 @@
-# SassScript Number Functions
+---
 author: tommarshall
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: tip
 
+
 links:
 
-  - >-
-    [sass-lang.com](http://sass-lang.com/documentation/Sass/Script/Functions.html){website}
+  - '[sass-lang.com](http://sass-lang.com/documentation/Sass/Script/Functions.html){website}'
+
 
 ---
 ## Content
+# SassScript Number Functions
 
 *SassScript* has a number of implemented number functions which can be used for the manipulation and creation of numeric values.
 
@@ -55,12 +57,13 @@ percentage(100px / 50px); /* ??? */
 abs(-2px); /* ??? */
 ```
 
-*`200%` 
-*`2px` 
-*`2%` 
-*`-2px` 
-*`0.2px` 
-*`20%`
+
+* `200%` 
+* `2px` 
+* `2%` 
+* `-2px` 
+* `0.2px` 
+* `20%`
 
 ---
 ## Revision
@@ -72,6 +75,7 @@ abs(-1px);
 random(2);
 ```
 ??? ??? ???
+
 * 150%
 * 1px
 * random value : `1 <= x <= 2`
@@ -81,3 +85,4 @@ random(2);
 * 0px
 * random value : `0 <= x <= 2`
 * random value : `x < 2`
+

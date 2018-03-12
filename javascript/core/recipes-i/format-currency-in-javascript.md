@@ -1,4 +1,4 @@
-# Format currency in JavaScript
+---
 author: pawel
 
 levels:
@@ -17,13 +17,15 @@ tags:
 
   - currency-formatting
 
+
 links:
 
-  - >-
-    [css-tricks.com](https://css-tricks.com/snippets/javascript/format-currency/){website}
+  - '[css-tricks.com](https://css-tricks.com/snippets/javascript/format-currency/){website}'
+
 
 ---
 ## Content
+# Format currency in JavaScript
 
 The function below will ensure numbers are correctly rounded to 2 decimal places and prevent some null errors: 
 
@@ -49,6 +51,7 @@ console.log(
          currency('10.93719'));
 ```
 
+
 * 10.937
 * 10.9372
 * 10.938
@@ -68,6 +71,8 @@ console.log(currency('1234.567'));
 
 ???
 ```
-*1234.57
-*1234.56
-*12
+
+* 1234.57
+* 1234.56
+* 12
+

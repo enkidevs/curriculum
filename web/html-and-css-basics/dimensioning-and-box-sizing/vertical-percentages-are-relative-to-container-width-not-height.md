@@ -1,4 +1,4 @@
-# Vertical percentages are relative to container width, not height
+---
 author: Mathieu
 
 levels:
@@ -13,15 +13,16 @@ type: normal
 
 category: caveats
 
-notes: 'http://www.sitepoint.com/12-little-known-css-facts/'
 
 links:
 
-  - >-
-    [www.impressivewebs.com](http://www.impressivewebs.com/vertical-percentages-css/){website}
+  - '[www.impressivewebs.com](http://www.impressivewebs.com/vertical-percentages-css/){website}'
+
+notes: 'http://www.sitepoint.com/12-little-known-css-facts/'
 
 ---
 ## Content
+# Vertical percentages are relative to container width, not height
 
 Width percentage is intuitively calculated based on the width of the container. 
 
@@ -51,10 +52,11 @@ div {
    margin-top: 10%; 
    /* margin-top: ??? px */
 ```
-*`30`
-*`10`
-*`100`
-*`40`
+
+* `30`
+* `10`
+* `100`
+* `40`
 
 ---
 ## Revision
@@ -62,7 +64,9 @@ div {
 Percentages on properties such as *padding-top* and *margin-top* are calculated based on the 
 
 ???
+
 * width of the container.
 * height of the container.
 * perimeter of the container.
 * area of the container.
+

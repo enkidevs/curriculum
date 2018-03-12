@@ -1,4 +1,4 @@
-# Create a Database
+---
 author: SebaRaba
 
 levels:
@@ -16,15 +16,20 @@ category: must-know
 inAlgoPool: false
 
 tags:
+
   - introduction
+
   - workout
+
 
 links:
 
-  - '[More about how to create a database](https://www.postgresql.org/docs/9.1/static/app-createdb.html)'
+  - '[More about how to create a database](https://www.postgresql.org/docs/9.1/static/app-createdb.html){website}'
+
 
 ---
 ## Content
+# Create a Database
 
 We will create a PostgreSQL database. Using the terminal we need to enter the following command:
 ```
@@ -44,7 +49,6 @@ Parameters:
 
 The `createdb` command is a wrapper around the transact SQL query `CREATE DATABASE`. The only difference is that the former can be run from the command line and it enables users to add a initial comment in the db.
 
-
 ---
 ## Practice
 
@@ -52,6 +56,7 @@ Create a new database called "practice_qw".
 ```
 ??? ??? ???
 ```
+
 
 * CREATE
 * DATABASE
@@ -67,9 +72,11 @@ Using `createdb` command, create a db called "test_db" and add an initial commen
 ```
 ??? ??? "DB created"
 ```
+
 * createdb
 * test_db
 * revision_qw
 * LIST
 * CREATE DATABASE
 * practice_qw
+

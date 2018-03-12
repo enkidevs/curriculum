@@ -1,4 +1,4 @@
-# Facade Pattern
+---
 author: Nick Daminov
 
 levels:
@@ -9,12 +9,15 @@ type: normal
 
 category: pattern
 
+
 links:
 
-  - '[More on the Facade Pattern](https://en.wikipedia.org/wiki/Facade_pattern)'
+  - '[More on the Facade Pattern](https://en.wikipedia.org/wiki/Facade_pattern){website}'
+
 
 ---
 ## Content
+# Facade Pattern
 
 Another pattern which is common for the object oriented development is *Facade*. The key idea is to hide the complexity of calculations and multiple method calls from inside the system in order to provide the end user with a clean interface which implements all the necessary functionality.
 
@@ -54,6 +57,8 @@ What is the *Facade* pattern?
 
 ???
 
+
 * It is a wrapper around the system that provides the end user with a clean desired functionality.
 * It describes the whole inheritance structure of the program.
 * It describes how a group of interfaces acting together.
+

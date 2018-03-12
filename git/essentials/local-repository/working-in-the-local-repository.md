@@ -1,4 +1,4 @@
-# Working in the local repository
+---
 author: catalin
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# Working in the local repository
 
 Changing the content of the files in your **Git** project won't directly affect your local repository. To do this, you must perform some operations to make sure your changes are permanently stored.
 
@@ -33,6 +37,7 @@ Files that are not in the staging area and were not included in the last commit 
 
 ???
 
+
 * untracked
 * staged
 * added
@@ -44,7 +49,9 @@ Files that are not in the staging area and were not included in the last commit 
 
 Using the `git add` command you include modified files to the ???.
 
+
 * staging area
 * git repository
 * working tree
 * GitHub
+

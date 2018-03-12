@@ -1,4 +1,4 @@
-# The `http` module for servers
+---
 author: tommarshall
 
 levels:
@@ -15,13 +15,15 @@ type: normal
 
 category: must-know
 
-parent: requiring-and-exporting
 
 links:
-- '[The HTTP Module](https://davidwalsh.name/nodejs-http-request)'
 
+  - '[The HTTP Module](https://davidwalsh.name/nodejs-http-request){website}'
+
+parent: requiring-and-exporting
 ---
 ## Content
+# The `http` module for servers
 
 Node is well suited and frequently used for creating servers which are both lightweight and can handle multiple requests simultaneously. It comes out-of-the-box with the `http` module providing an intuitive, yet powerful API for this purpose.
 
@@ -63,6 +65,7 @@ server.listen(8000, function() {
 What type of function needs to be defined to respond to all server requests?
 ???
 
+
 * handler
 * named
 * anonymous
@@ -76,6 +79,8 @@ Complete the code snippet to create a new HTTP server object:
 var server = http.???(requestHandler);
 ```
 
+
 * `createServer`
 * `httpServer`
 * `createHTTP`
+

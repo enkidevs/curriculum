@@ -1,4 +1,4 @@
-# Metaclasses
+---
 author: mihaiberq
 
 levels:
@@ -11,12 +11,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-    - '[An in-depth analysis of metaclasses](https://blog.ionelmc.ro/2015/02/09/understanding-python-metaclasses/)'
+  - '[An in-depth analysis of metaclasses](https://blog.ionelmc.ro/2015/02/09/understanding-python-metaclasses/){website}'
+
 
 ---
 ## Content
+# Metaclasses
 
 In Python, *classes* are also *objects*. Just like any other object, they must be an instance of something: in this case, a **metaclass**. You can find out the base metaclass of a class through:
 ```python
@@ -63,8 +66,10 @@ What is the default metaclass of newly defined classes?
 
 ???
 
+
 * `type`
 * `meta`
 * `type()`
 * `class`
 * `meta()`
+

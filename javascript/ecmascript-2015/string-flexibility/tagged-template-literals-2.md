@@ -1,4 +1,4 @@
-# Tagged Template Literals
+---
 author: lizTheDeveloper
 
 levels:
@@ -8,6 +8,8 @@ levels:
   - advanced
 
 type: normal
+
+category: feature
 
 tags:
 
@@ -19,16 +21,16 @@ tags:
 
   - strings
 
-inAlgoPool: false
-
-category: feature
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){website}'
 
+inAlgoPool:
+
 ---
 ## Content
+# Tagged Template Literals
 
 For more advanced templating you can use **Tagged Template Literals**, which allow you to define a function that does multiple processing steps in order to produce a string. Our template becomes a function, rather than a simple string, allowing us to abstract the templating process.
 
@@ -52,3 +54,4 @@ function price(strings, ...substitution){
 
 }
 ```
+

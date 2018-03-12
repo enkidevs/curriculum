@@ -1,4 +1,4 @@
-# What is a packet?
+---
 author: catalin
 
 levels:
@@ -9,16 +9,16 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - 'http://www.dummies.com/programming/networking/cisco/cisco-networking-packets/'
-
-  - 'http://whatismyipaddress.com/tcp-ip'
+  - '[www.dummies.com](http://www.dummies.com/programming/networking/cisco/cisco-networking-packets/){website}'
+  - '[whatismyipaddress.com](http://whatismyipaddress.com/tcp-ip){website}'
 
 parent: what-is-a-computer-network
-
 ---
 ## Content
+# What is a packet?
 
 Think of **packets**[1] as the simplest unit of communication in computer networks.
 
@@ -41,23 +41,13 @@ Over the Internet, where *IP* (Internet Protocol) is the standard, packets' **he
 In the latter type of networks, packets are sent over the Internet through *nodes*[2] (devices and routers) positioned between the *source* and *destination*.
 
 ---
-## Footnotes
-
-[1:packets]
-Other terms equivalent to **packets** are datagrams, segments, blocks, cells and even frames, depending on the protocol used for data transmission.
-
-[2:how do nodes work?]
-Contrary to *traditional lines* of communication, such as telephone lines, where there must be a continuous physical link between the source and destination, modern networks work on a different concept.
-
-Packets are routed from *source* to *destination*, going through **nodes**. At each node calculations are made deciding the most efficient route of reaching the destination. 
-
----
 ## Practice
 
 Data transmission over the Internet works in the following way:
 - original data is split into ??? at ???
 - data is transmitted following protocol rules
 - data is ??? at ???
+
 
 * packets
 * source
@@ -76,6 +66,7 @@ IP packets are usually made out of `header` and
 
 ???
 
+
 * payload
 * protocols
 * packets
@@ -83,3 +74,13 @@ IP packets are usually made out of `header` and
 * source
 * datagram
 * cells
+
+---
+## Footnotes
+[1:packets]
+Other terms equivalent to **packets** are datagrams, segments, blocks, cells and even frames, depending on the protocol used for data transmission.
+
+[2:how do nodes work?]
+Contrary to *traditional lines* of communication, such as telephone lines, where there must be a continuous physical link between the source and destination, modern networks work on a different concept.
+
+Packets are routed from *source* to *destination*, going through **nodes**. At each node calculations are made deciding the most efficient route of reaching the destination.

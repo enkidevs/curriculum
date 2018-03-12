@@ -1,4 +1,4 @@
-# Equality
+---
 author: alexjmackey
 
 levels:
@@ -7,12 +7,15 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+
+
+inAlgoPool:
 
 ---
 ## Content
+# Equality
 
 JavaScript supports two types of comparison operator’s **loose** and **strict**. 
 
@@ -45,15 +48,18 @@ The following check will evaluate to:
 // ???
 ```
 
-*`true`
-*`false`
+
+* `true`
+* `false`
 
 ---
 ## Revision
 
 `===` is called ???
 
-*strict equality
-*loose equality
-*triple equality
-*not equal
+
+* strict equality
+* loose equality
+* triple equality
+* not equal
+

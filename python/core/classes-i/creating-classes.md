@@ -1,4 +1,4 @@
-# Creating Classes
+---
 author: mihaiberq
 
 levels:
@@ -9,8 +9,12 @@ type: normal
 
 category: must-know
 
+
+
+
 ---
 ## Content
+# Creating Classes
 
 Classes are *templates* which can be used to create objects. They *encapsulate* variables and methods[1] into a single entity, defining a general behavior for that entity (object) to follow.
 
@@ -65,6 +69,7 @@ class Car:
     print("Starting engine!")
 ```
 ???
+
 * B
 * A
 * C
@@ -86,7 +91,9 @@ new empl = Employee("John")
 ```
 ???
 
+
 * A
 * B
 * C
 * neither
+

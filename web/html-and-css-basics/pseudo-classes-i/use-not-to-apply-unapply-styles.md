@@ -1,4 +1,4 @@
-# Use `:not()` to apply/unapply styles 
+---
 author: jordanfish
 
 levels:
@@ -9,12 +9,15 @@ type: normal
 
 category: how to
 
+
 links:
 
   - '[github.com](https://github.com/AllThingsSmitty/css-protips){website}'
 
+
 ---
 ## Content
+# Use `:not()` to apply/unapply styles 
 
 Rather than adding a border to a navigation bar, and then removing it for the last element:
 
@@ -47,10 +50,11 @@ Complete the code snippet:
   border-left: 5px dashed #FFF; 
 } 
 ```
-*`:not` 
-*`.not` 
-*`::not` 
-*`not`
+
+* `:not` 
+* `.not` 
+* `::not` 
+* `not`
 
 ---
 ## Revision
@@ -62,6 +66,8 @@ What does the following CSS code do?
 }
 ```
 ???
+
 * Allows styles to be applied to all elements except for the final element.
 * Allows styles to be applied specifically to the final element.
 * Allows styles to be applied to every other element.
+

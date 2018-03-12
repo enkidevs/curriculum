@@ -1,4 +1,4 @@
-# Interaction with the user
+---
 author: ioanna.ki
 
 levels:
@@ -15,12 +15,15 @@ tags:
 
   - javascript
 
+
 links:
 
   - '[javascript.info](javascript.info){website}'
 
+
 ---
 ## Content
+# Interaction with the user
 
 Mainly useful for prototyping, there are multiple ways to interact with the user. 
 
@@ -51,10 +54,11 @@ Prompt the user with a message and input option:
 ???(???, default);
 ```
 
-*`prompt`
-*`text`
-*`alert`
-*`confirm`
+
+* `prompt`
+* `text`
+* `alert`
+* `confirm`
 
 ---
 ## Revision
@@ -64,7 +68,9 @@ Prompt the user with a message and input option:
 ???(???, default);
 ```
 
-*`prompt`
-*`text`
-*`alert`
-*`confirm`
+
+* `prompt`
+* `text`
+* `alert`
+* `confirm`
+

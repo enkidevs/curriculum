@@ -1,4 +1,4 @@
-# Date arithmetics with `timedelta`
+---
 author: catalin
 
 levels:
@@ -9,19 +9,20 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: feature
 
-parent: datetime-object
+inAlgoPool: false
+
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/datetime.html#timedelta-objects){website}
+  - '[docs.python.org](https://docs.python.org/3.5/library/datetime.html#timedelta-objects){website}'
+
+parent: datetime-object
 
 ---
 ## Content
+# Date arithmetics with `timedelta`
 
 Another useful class provided by `datetime` is called `timedelta`. With this object you can compute past or future dates along with differences between times.
 
@@ -55,6 +56,7 @@ print(day_after_tomorrow)
 # 2017-06-30 13:12:35.145494
 
 ```
+
 ---
 ## Practice
 
@@ -69,6 +71,7 @@ delta = ???(???=???)
 x = today ??? delta
 
 ```
+
 
 * `datetime`
 * `timedelta`
@@ -85,7 +88,6 @@ x = today ??? delta
 * `delta`
 
 ---
-
 ## Revision
 
 Calculate the value of `yesterday`:
@@ -98,6 +100,7 @@ today = datetime.today()
 yesterday = ??? - ???
 ```
 
+
 * `hours`
 * `24`
 * `today`
@@ -108,3 +111,4 @@ yesterday = ??? - ???
 * `date`
 * `time`
 * `today / 2`
+

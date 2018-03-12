@@ -1,21 +1,26 @@
-# Preparing Your Module For Publishing
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: how to
 
-parent: creating-a-node-module
 
+
+parent: creating-a-node-module
 ---
 ## Content
+# Preparing Your Module For Publishing
 
 If you decide to publish your module, a good *README.md* file is necessary. It does not only help you keep track of the capabilities of the module, but also it helps others understand how to use your module.
 
@@ -55,5 +60,7 @@ You should now be able to find your package in the npm registry.
 
 Scoped packages are ??? by default.
 
+
 * private
 * public
+

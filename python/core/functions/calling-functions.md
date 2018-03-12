@@ -1,4 +1,4 @@
-# Calling functions
+---
 author: tommarshall
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# Calling functions
 
 To call a function in Python you simply write the functions name followed by some parentheses `()`.
 
@@ -65,6 +69,7 @@ Complete the code snippet to define and call the function with the correct param
 num = 5
 ???(???)
 ```
+
 * `def`
 * `cube`
 * `num`
@@ -73,3 +78,4 @@ num = 5
 * `obj`
 * `var`
 * `function`
+

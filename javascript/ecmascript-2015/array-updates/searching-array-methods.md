@@ -1,4 +1,4 @@
-# Searching Arrays
+---
 author: lizTheDeveloper
 
 levels:
@@ -8,8 +8,6 @@ levels:
   - basic
 
 type: normal
-
-inAlgoPool: false
 
 category: feature
 
@@ -25,14 +23,17 @@ tags:
 
   - es6
 
+
 links:
 
   - '[ponyfoo.com](https://ponyfoo.com/articles/es6-array-extensions-in-depth){website}'
-  
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array){website}'
+
+inAlgoPool:
 
 ---
 ## Content
+# Searching Arrays
 
 Arrays added a number of prototype methods in ES6 for improved ease of searching Arrays.
 
@@ -98,6 +99,26 @@ ints.???(???)
 * `function (e) {return e == 4}`
 
 ---
+## Practice
+
+Find the first number divisible by `4`:
+
+```
+let ints = ['6','2','5','6','5','8'];
+ints.???(???)
+```
+
+* `find`
+* `findIndex`
+* `fill`
+* `includes`
+* `get`
+* `filter`
+* `function (e) {return e % 4}`
+* `function (e) {return e = 4}`
+* `function (e) {return e == 4}`
+
+---
 ## Revision
 
 Fill the array with the first number divisible by `2` and `3`:
@@ -106,6 +127,7 @@ Fill the array with the first number divisible by `2` and `3`:
 let ints = []'2','5','4','5','6','5','8'];
 ints.???(ints.???(???))
 ```
+
 * `find`
 * `findIndex`
 * `fill`
@@ -113,3 +135,4 @@ ints.???(ints.???(???))
 * `get`
 * `filter`
 * `function (e) {return e % 2 && e % 3}`
+

@@ -1,4 +1,4 @@
-# Inversion of Control
+---
 author: rosielowther
 
 levels:
@@ -11,12 +11,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
   - '[blog.getify.com](http://blog.getify.com/promises-part-2/){website}'
 
+
 ---
 ## Content
+# Inversion of Control
 
 **Inversion of control** is one of the problems of using **callbacks** for asynchronous programming in JavaScript.
 
@@ -44,7 +47,9 @@ What can **Promises** do?
 
 ???
 
-*un-invert the control
-*enforce control
-*call your callback earlier
-*call your callback more frequently
+
+* un-invert the control
+* enforce control
+* call your callback earlier
+* call your callback more frequently
+

@@ -1,4 +1,4 @@
-# `Lambda` Functions
+---
 author: tommarshall
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: tip
+
 inAlgoPool: false
 
-category: tip
+
+
 
 ---
 ## Content
+# `Lambda` Functions
 
 Python has two tools for building functions, `def` and `lambda`.
 
@@ -57,10 +61,12 @@ With lambda:
 square = ??? ???: x * x
 ```
 
-*`lambda`
-*`x`
-*`def`
-*`new`
-*`instance`
-*`function`
+
+* `lambda`
+* `x`
+* `def`
+* `new`
+* `instance`
+* `function`
 lamb
+

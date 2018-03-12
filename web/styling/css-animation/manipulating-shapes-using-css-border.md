@@ -1,4 +1,4 @@
-# Manipulating shapes using CSS: `border`
+---
 author: oj14henry
 
 levels:
@@ -19,13 +19,15 @@ tags:
 
   - shapes
 
+
 links:
 
-  - >-
-    [css-tricks.com](https://css-tricks.com/working-with-shapes-in-web-design/){website}
+  - '[css-tricks.com](https://css-tricks.com/working-with-shapes-in-web-design/){website}'
+
 
 ---
 ## Content
+# Manipulating shapes using CSS: `border`
 
 You can make shapes by defining the properties of the `border`, as seen below:
 
@@ -66,7 +68,9 @@ What shape would the following CSS produce? ???
 }
 ```
 
+
 * A triangle.
 * A square.
 * A circle.
 * A rectangle.
+
