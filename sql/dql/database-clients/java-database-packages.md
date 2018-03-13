@@ -13,12 +13,17 @@ category: how to
 
 inAlgoPool: false
 
+
+standards:
+  sql.connect-client: 10
+
 tags:
   - introduction
   - workout
   - java
   - implementation
   - database packages
+
 
 links:
 

@@ -15,6 +15,9 @@ category: must-know
 
 inAlgoPool: false
 
+standards:
+  sql.read-single-table: 10
+
 tags:
   - introduction
   - workout
@@ -104,4 +107,3 @@ answers:
   - WHERE name IS "speed-boost";
   - WHERE ability='speed-boost';
   - WHERE id='speed-boost';
-

@@ -15,8 +15,13 @@ category: must-know
 
 inAlgoPool: false
 
+
+standards:
+  sql.read-single-table: 10
+
 tags:
   - workout
+
 
 links:
 
@@ -114,4 +119,3 @@ answers:
   - SELECT * FROM location WHERE region_id < 3 AND name='%city';
   - SELECT * FROM location WHERE BETWEEN 1 AND 2 AND name='%city';
   - SELECT * FROM location WHERE region_id < 3 AND name LIKE '_city';
-
