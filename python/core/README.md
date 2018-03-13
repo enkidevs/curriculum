@@ -10,7 +10,6 @@ sections:
     - console-and-operators
     - control-structures
     - fundamental-data-structures
-    - fundamental-data-structures-ii
     - looping
     - functions
   '1':
