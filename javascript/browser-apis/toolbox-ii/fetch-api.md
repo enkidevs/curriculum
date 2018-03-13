@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Fetch API
+
+---
+## Content
 
 The *Fetch API* provides an interface to fetch resources from across a network. 
 

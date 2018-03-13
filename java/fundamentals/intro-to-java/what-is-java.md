@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # What is Java?
+
+---
+## Content
 
 **Java** is a programming language that follows the *Object-oriented programming paradigm* (also  known as OOP).
 

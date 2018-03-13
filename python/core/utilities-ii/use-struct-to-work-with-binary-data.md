@@ -24,8 +24,11 @@ notes: >-
   data and text data formats.
 
 ---
-## Content
+
 # Use `struct` to work with Binary Data
+
+---
+## Content
 
 Python's `struct` module has routines for converting between binary and text data, in both directions. 
 

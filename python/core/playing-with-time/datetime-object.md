@@ -21,8 +21,11 @@ links:
 parent: time-object
 
 ---
-## Content
+
 # `datetime` object
+
+---
+## Content
 
 The `datetime` class combines in a single object all the information contained by both previously discussed `date` and `time` classes.
 

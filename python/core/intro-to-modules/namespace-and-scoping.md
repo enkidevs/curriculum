@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Namespace and scoping
+
+---
+## Content
 
 As briefly mentioned before, the **namespace** is the *mapping* between available objects and their referencing names.
 

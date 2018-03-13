@@ -17,8 +17,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Destructuring (Part 3)
+
+---
+## Content
 
 Destructuring is very useful when working with arrays. 
 

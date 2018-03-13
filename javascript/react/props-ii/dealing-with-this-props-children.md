@@ -18,8 +18,11 @@ links:
 
 parent: custom-proptype-s-to-be-required
 ---
-## Content
+
 # Dealing with `this.props.children`
+
+---
+## Content
 
 **React** provides the user with the useful class `React.Children` which provides various utilities for dealing with the opaque data structure `this.props.children`.
 

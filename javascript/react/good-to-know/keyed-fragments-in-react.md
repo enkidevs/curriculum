@@ -20,8 +20,11 @@ links:
 
 parent: custom-proptype-s-to-be-required
 ---
-## Content
+
 # Keyed fragments in **React**
+
+---
+## Content
 
 With two sets of children that need reordering, there is no way of putting a key on each set without adding a wrapper element.
 

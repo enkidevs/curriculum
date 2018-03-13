@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Heap/Priority Queue in Python
+
+---
+## Content
 
 **Python** provides the `heapq` module, an implementation of the heap queue algorithm (a.k.a. priority queue).
 

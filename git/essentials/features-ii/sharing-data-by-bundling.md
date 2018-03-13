@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Sharing data by bundling
+
+---
+## Content
 
 As well as sharing git data over a network, you can also bundle the data into one file.
 

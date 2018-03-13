@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Some common terminology
+
+---
+## Content
 
 It's of upmost importance to understand the common terminology in **Git** in order to fully grasp how it works.
 

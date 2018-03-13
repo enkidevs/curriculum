@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Functional Particularities of Python
+
+---
+## Content
 
 In this insight we'll explore some of the paradigms of functional programming as applied to Python, specifically.
 

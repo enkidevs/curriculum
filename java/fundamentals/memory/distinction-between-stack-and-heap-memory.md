@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # Distinction between stack and heap memory
+
+---
+## Content
 
 Stack and heap memory are both types of memory, but have different purposes and uses within a program:
 - Stack memory is used to store local variables and method calls, while heap memory is used to store objects.

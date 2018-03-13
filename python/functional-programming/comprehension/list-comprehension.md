@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # List comprehension
+
+---
+## Content
 
 **List comprehensions** are a concise way of creating lists, in a somewhat declarative style.
 

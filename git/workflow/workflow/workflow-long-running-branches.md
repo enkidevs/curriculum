@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Workflow: long running branches
+
+---
+## Content
 
 Long running branches are branches that you create to work on for the long-term.
 

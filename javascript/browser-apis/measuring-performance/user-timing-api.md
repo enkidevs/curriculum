@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # User Timing API
+
+---
+## Content
 
 The User Timing API is used to measure the **performance** of JavaScript code. 
 

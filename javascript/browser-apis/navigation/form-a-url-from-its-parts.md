@@ -21,8 +21,11 @@ tags:
 
 
 ---
-## Content
+
 # Form a `URL` from its parts 
+
+---
+## Content
 
 It is possible to access the current `URL` in parts, so for a website such as:
 

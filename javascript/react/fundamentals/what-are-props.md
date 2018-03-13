@@ -23,8 +23,11 @@ links:
 
 parent: the-react-component
 ---
-## Content
+
 # What are `props`?
+
+---
+## Content
 
 As discussed before, `component`s can take input in a similar way to a function, via `props`.
 

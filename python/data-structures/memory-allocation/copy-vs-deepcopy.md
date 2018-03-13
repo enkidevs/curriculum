@@ -13,8 +13,11 @@ category: must-know
 
 
 ---
-## Content
+
 # `copy` vs `deepcopy`
+
+---
+## Content
 
 Extending the example in the previous insight, we could end up in a situation in which we need to copy a mutable type (list, dictionary) and work on the copy, without modifying the initial object.
 

@@ -20,8 +20,11 @@ links:
 
 parent: check-data-about-a-package
 ---
-## Content
+
 # Bump package version in npm
+
+---
+## Content
 
 The `npm version` command, when ran in a package directory, will bump the version.
 

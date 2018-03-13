@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Complex `set` operations
+
+---
+## Content
 
 Python has a number of further complex operations which can be carried out on `sets`. 
 

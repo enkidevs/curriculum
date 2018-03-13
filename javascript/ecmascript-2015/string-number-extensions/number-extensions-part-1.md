@@ -17,8 +17,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Number Extensions (Part 1)
+
+---
+## Content
 
 Number benefits from a number of new methods saving you from writing your own potentially error prone implementation.
 

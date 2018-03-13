@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # ES6 dynamic property keys in mongo-like set clauses
+
+---
+## Content
 
 To update the third element of a nested array `items` you can use:
 ```

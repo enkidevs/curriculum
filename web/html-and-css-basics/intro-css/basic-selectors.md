@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Type Selectors
+
+---
+## Content
 
 As stated in the second insight, selectors are a way of targeting particular HTML elements styling. we should explain what a **selector** is.
 

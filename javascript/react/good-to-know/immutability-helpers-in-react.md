@@ -20,8 +20,11 @@ links:
 
 parent: custom-proptype-s-to-be-required
 ---
-## Content
+
 # Immutability helpers in **React**
+
+---
+## Content
 
 Opting out for an immutable style of data management, a significant speed up can be achieved by easily implementing a fast `shouldComponentUpdate()` lifecycle method.
 

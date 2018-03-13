@@ -30,8 +30,11 @@ links:
 
 
 ---
-## Content
+
 # Flushing buffered streams
+
+---
+## Content
 
 Buffered streams typically only call the native output API once the buffer is full. Sometimes it is appropriate to write from a buffer before it is full; this is called *flushing*.
 

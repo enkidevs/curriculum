@@ -21,8 +21,11 @@ links:
 
 
 ---
-## Content
+
 # `try-catch` only for **sync** code
+
+---
+## Content
 
 All *JavaScript* errors are handled as exceptions that will **instantly** generate and `throw` and error. To handle them, `try-catch` constructor is used.
 

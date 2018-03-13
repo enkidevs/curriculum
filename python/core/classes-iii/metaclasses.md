@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Metaclasses
+
+---
+## Content
 
 In Python, *classes* are also *objects*. Just like any other object, they must be an instance of something: in this case, a **metaclass**. You can find out the base metaclass of a class through:
 ```python

@@ -22,8 +22,11 @@ links:
 
 parent: handling-event-errors
 ---
-## Content
+
 # What are Streams?
+
+---
+## Content
 
 Streams are unix pipes[1] allowing data to be read from a source and for data to be piped to a destination. A stream is effectively an `EventEmitter` with implementation of some special methods.
 

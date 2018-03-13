@@ -19,8 +19,11 @@ links:
 notes: https://insights.enki.com/#/contrib/55a3b45d2a4a89320042e651
 
 ---
-## Content
+
 # Throwing an `exception`
+
+---
+## Content
 
 An `exception` is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions.
 There are two types of `exception`:

@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Two ways to use an `Iterator`
+
+---
+## Content
 
 An `Iterator` can be used to iterate over a collection using either a `for` loop or a `while` loop.
 

@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Avoid similar names
+
+---
+## Content
 
 When naming variables or other things which you must give a name to, it is usually best to avoid creating them with similar names.
 

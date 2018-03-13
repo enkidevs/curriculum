@@ -19,8 +19,11 @@ category: must-know
 
 parent: bellman-ford-algorithm
 ---
-## Content
+
 # Bellman-Ford Algorithm Iteration
+
+---
+## Content
 
 Let's apply the algorithm on the following graph, with *A* as our starting node. As we would normally do for Dijkstra's, we initalized the distance to *A* to be `0` and every other distance to be a very large number (or `inf`):
 

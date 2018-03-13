@@ -19,8 +19,11 @@ category: must-know
 
 parent: client-error-status-codes
 ---
-## Content
+
 # Server error status codes
+
+---
+## Content
 
 When processing *HTTP requests*, problems can occur not only on the client side, but also on the server side. In such cases, if possible, **server-error status codes** are returned.
 

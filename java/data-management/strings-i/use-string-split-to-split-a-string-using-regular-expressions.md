@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Use `String.split()` to split a string using regular expressions
+
+---
+## Content
 
 `split` takes a regular expression and splits the string around occurrences of this expression into an array of strings. 
 ```

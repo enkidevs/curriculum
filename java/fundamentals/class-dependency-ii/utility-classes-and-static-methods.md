@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Utility classes and `static` methods
+
+---
+## Content
 
 Utility classes defines set of methods that perform common, often re-used functions. They do not depend on the state of any object, therefore should usually be declared as `static`.
 

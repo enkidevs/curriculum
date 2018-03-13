@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Check if a function exists
+
+---
+## Content
 
 There are certain scenarios where scripts are shared between different parts of a website. This can result in calling functions that *do not exist*. 
 

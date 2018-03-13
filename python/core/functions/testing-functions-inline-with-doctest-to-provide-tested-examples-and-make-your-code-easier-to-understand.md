@@ -17,8 +17,11 @@ links:
 
 
 ---
-## Content
+
 # Testing functions inline with `doctest` to provide (tested) examples and make your code easier to understand
+
+---
+## Content
 
 Example:
 ```

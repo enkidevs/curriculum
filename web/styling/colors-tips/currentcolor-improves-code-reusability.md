@@ -22,8 +22,11 @@ links:
 notes: ''
 
 ---
-## Content
+
 # `currentColor` improves code reusability 
+
+---
+## Content
 
 `currentColor` will reuse the calculated value of the element’s `color` property.
 

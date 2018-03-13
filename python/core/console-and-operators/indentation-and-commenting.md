@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Indentation and Commenting
+
+---
+## Content
 
 Unlike many other programming languages, Python uses indentation (tabs) to separate blocks of code instead of curly braces.
 

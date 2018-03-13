@@ -64,8 +64,11 @@ notes: >+
 
 
 ---
-## Content
+
 # Enhance your `tuple`s
+
+---
+## Content
 
 Standard Python `tuples` are lightweight sequences of immutable objects, yet their implementation may prove inconvenient in some scenarios.
 

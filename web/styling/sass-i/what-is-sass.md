@@ -15,8 +15,11 @@ category: must-know
 
 
 ---
-## Content
+
 # What Is Sass?
+
+---
+## Content
 
 **Sass**, or *Syntactically Awesome StyleSheets*, is a CSS preprocessor which unlocks some features that are yet to have a concrete syntax in CSS. Some of these features are variables, inheritance, nesting and mixins.
 

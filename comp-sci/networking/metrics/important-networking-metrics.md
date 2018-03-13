@@ -23,8 +23,11 @@ links:
 
 parent: extended-terminologies
 ---
-## Content
+
 # Important networking metrics
+
+---
+## Content
 
 **Metrics** are used to verify desired behaviours of processes in a *quantitative* and *qualitative* manner.
 

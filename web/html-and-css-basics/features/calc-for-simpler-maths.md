@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # `calc()` for simpler maths
+
+---
+## Content
 
 For styling a 7-column grid you may use something like :
 ```

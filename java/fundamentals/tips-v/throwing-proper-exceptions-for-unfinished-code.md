@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Throwing proper exceptions for unfinished code
+
+---
+## Content
 
 If you haven't completed a library or class, its often better to add an `UnsupportedOperationException` with a good description. 
 

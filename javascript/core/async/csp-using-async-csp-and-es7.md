@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # CSP using _async-csp_ and ES7
+
+---
+## Content
 
 _async-csp_ is a package which creates Communicating Sequential Processes (CSP) style **channels** using **ES7 async/await**.
 

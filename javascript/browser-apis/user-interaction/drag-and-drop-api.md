@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Drag and Drop API
+
+---
+## Content
 
 *Drag and Drop interfaces* allow applications to use drag and drop features in browsers. This means the user can select elements with their mouse, drag the elements to a droppable element, and drop the element by releasing the mouse button. 
 

@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Wrap Common Utilities in NPM Packages
+
+---
+## Content
 
 A monolith is built around some code shared by all the components. If you decide to break up the monolith, every new module would require some part of the shared code. Database models, helper functions, constants, wrappers, etc. are some examples of shared resources.
 

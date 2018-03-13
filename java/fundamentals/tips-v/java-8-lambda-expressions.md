@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Java 8 Lambda expressions
+
+---
+## Content
 
 The latest Java release included quite a few changes that pushed the language to be more functional-friendly.
 

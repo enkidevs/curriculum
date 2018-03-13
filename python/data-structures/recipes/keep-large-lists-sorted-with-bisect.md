@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Keep large lists sorted with `bisect`
+
+---
+## Content
 
 Using the basic **bisection algorithm**, Python's `bisect` module provides a more efficient way of inserting elements into a list while keeping it **sorted**.
 

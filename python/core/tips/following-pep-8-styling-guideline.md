@@ -21,8 +21,11 @@ links:
 notes: ''
 
 ---
-## Content
+
 # Following PEP 8 styling guideline.
+
+---
+## Content
 
 The most common and standard styling guideline for Python is known as PEP 8.
 It is designed to improve readability.

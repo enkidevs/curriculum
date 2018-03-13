@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Securing the Data Link Layer
+
+---
+## Content
 
 The Data Link Layer facilitates the transfer of data around a LAN network with protocols like [ARP](https://en.wikipedia.org/wiki/Address_Resolution_Protocol). As a quick reminder, ARP is responsible for identifying and associating IP addresses of network nodes with their MAC addresses. The ARP protocol is critical for ensuring that information anywhere higher up in the OSI Model reaches the correct endpoint, and as such attracts the attention of hackers.
 

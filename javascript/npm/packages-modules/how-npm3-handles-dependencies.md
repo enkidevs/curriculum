@@ -19,8 +19,11 @@ category: feature
 
 parent: deprecated-peer-dependencies
 ---
-## Content
+
 # How npm3 handles dependencies
+
+---
+## Content
 
 The main reason why a change to the installation pattern was needed is because of the potential for deep nesting: when multiple packages depend on PackageA each would have the PackageA installed as one of their node_modules. This is not scalable.
 

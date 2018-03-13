@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Internal CSS
+
+---
+## Content
 
 The next two ways of writing CSS code do not require an external `.css` file - both structure (HTML) and style (CSS) live inside the same HTML file.
 

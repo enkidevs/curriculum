@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Avoid array mutations 
+
+---
+## Content
 
 There are different ways of creating a **pure** function needed in **Redux** for generating a new array of items.
 

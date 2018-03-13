@@ -15,8 +15,11 @@ category: tip
 
 notes: 
 ---
-## Content
+
 # How to create directories in Java
+
+---
+## Content
 
 Until Java 7, `mkdir` and `mkdirs` methods of `File` class  were used to create new directories. 
 

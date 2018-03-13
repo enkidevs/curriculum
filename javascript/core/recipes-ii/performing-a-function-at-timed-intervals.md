@@ -21,8 +21,11 @@ tags:
 
 
 ---
-## Content
+
 # Performing a function at timed intervals
+
+---
+## Content
 
 To perform functions at regular intervals using `setInterval`:
 

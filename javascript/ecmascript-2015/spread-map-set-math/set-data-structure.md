@@ -17,8 +17,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Set (data structure)
+
+---
+## Content
 
 Set is a new data structure in ES6 that will only store unique values.
  

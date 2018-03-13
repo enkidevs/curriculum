@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Use comments to explain the purpose of code
+
+---
+## Content
 
 When commenting your code, it is not good practice to write what the code does line-for-line. In fact, if the code needs to be explained in this fashion, it is probably poorly written.
 

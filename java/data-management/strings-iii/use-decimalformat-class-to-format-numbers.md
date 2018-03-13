@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # Use `DecimalFormat` class to format numbers
+
+---
+## Content
 
 The `DecimalFormat` class can be used to specify custom formats for numbers. 
 ```

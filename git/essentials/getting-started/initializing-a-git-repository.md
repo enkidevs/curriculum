@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Initializing a Git repository
+
+---
+## Content
 
 There are two primary ways to include a project under **Git** control:
 1. Bring an existing project/directory on your machine under control of **Git**

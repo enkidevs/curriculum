@@ -21,8 +21,11 @@ tags:
 
 
 ---
-## Content
+
 # Apply `map` function to array items
+
+---
+## Content
 
 Using `.map` will apply a function to every element in the array, and return an array with the results.  
 ```

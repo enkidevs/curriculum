@@ -16,8 +16,11 @@ links:
 
 notes: https://insights.enki.com/#/contrib/others/55f43787ce84ec2100d2bb5e?search=kha
 ---
-## Content
+
 # `JJS` - Oracle Nashorn, newest JavaScript Engine
+
+---
+## Content
 
 With the introduction of *Java 8*, the *JDK* will be shipped with a new *JavaScript* scripting engine, a replacement for the old one based on *Mozilla Rhino*. 
 

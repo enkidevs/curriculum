@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Avoiding whitespace issues
+
+---
+## Content
 
 git automatically warns about spaces at the end of a line, blank lines at the end of a file and spaces before tabs at the beginning of a line. 
 

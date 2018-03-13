@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Images
+
+---
+## Content
 
 **Images** are *self-enclosing elements*, which display external pictures.They are delimited by the `<img/>` tag.
 

@@ -18,8 +18,11 @@ category: how to
 parent: compare-sequences-with-difflib
 
 ---
-## Content
+
 # Get the similarity ratio of two sequences
+
+---
+## Content
 
 `difflib`'s `SequenceMatcher` class and its ratio method makes it easy to compute  the "similarity" of two sequences. 
 

@@ -22,8 +22,11 @@ parent:
   
 notes: Originally from Dan Abramov http://twitter.com/dan_abramov/status/658710159125037056 but don't have permission to use yet so re-wrote a little
 ---
-## Content
+
 # Use `propTypes` on stateless components
+
+---
+## Content
 
 Since **React 0.14** it is possible to define components as a simple function:
 ```

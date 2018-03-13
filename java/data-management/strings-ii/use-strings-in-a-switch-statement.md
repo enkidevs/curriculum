@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Use strings in a `switch` statement
+
+---
+## Content
 
 In Java 7+, it is possible to use a string as a selector in a `switch` statement.
 

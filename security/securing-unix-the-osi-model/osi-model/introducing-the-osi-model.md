@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Introducing the OSI Model
+
+---
+## Content
 
 The __Open Systems Interconnection Model__ (OSI Model) is a model for standardizing networks across various hardware configurations.
 

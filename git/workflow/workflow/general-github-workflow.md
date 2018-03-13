@@ -17,8 +17,11 @@ links:
 parent: git-hub
 
 ---
-## Content
+
 # General **GitHub** workflow
+
+---
+## Content
 
 **GitHub** enhanced **Git**'s collaboration capability with the `pull request`, providing a *GUI* way to generate a 'patch'.
 

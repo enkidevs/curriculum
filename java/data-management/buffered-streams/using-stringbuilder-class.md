@@ -19,8 +19,11 @@ links:
 notes: https://insights.enki.com/#/contrib/559f18b0d6128391005e604a
 
 ---
-## Content
+
 # Using `StringBuilder` class
+
+---
+## Content
 
 `String` objects are **immutable**. That means they can not be changed after being created. 
 ```java

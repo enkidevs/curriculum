@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Extra function arguments are undefined by default
+
+---
+## Content
 
 Functions can be called with **any** amount of arguments, regardless of the parameters stated in the constructor.
 

@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Pulling a remote branch
+
+---
+## Content
 
 `git pull` is a command that combines `git fetch` and `git merge`.
 

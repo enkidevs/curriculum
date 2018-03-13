@@ -19,8 +19,11 @@ links:
 
 
 ---
-## Content
+
 # Changing a functions context with `fn.call(object)`
+
+---
+## Content
 
 `fn.call()` allows you to call a function and provide an alternative value for the functions *this* context.
 

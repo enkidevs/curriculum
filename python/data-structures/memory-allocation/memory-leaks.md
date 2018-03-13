@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Memory leaks
+
+---
+## Content
 
 A **memory leak** occurs when a program manages *memory allocation* incorrectly: memory no longer needed is not released. Imagine the memory as a horizontal axis, with an application `A` requesting `512MB` of memory:
 ```bash

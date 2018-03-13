@@ -21,8 +21,11 @@ links:
 parent: datetime-object
 
 ---
-## Content
+
 # Date arithmetics with `timedelta`
+
+---
+## Content
 
 Another useful class provided by `datetime` is called `timedelta`. With this object you can compute past or future dates along with differences between times.
 

@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Securing the Session Layer
+
+---
+## Content
 
 The Session Layer deals with authentication and privileges on all Layers above. If an account with escalated privileges is compromised, a hacker could wreak havoc on a network. Therefore, the Session Layer among the most appealing to hackers.
 

@@ -21,8 +21,11 @@ links:
 
 
 ---
-## Content
+
 # The `max` Built-in Function
+
+---
+## Content
 
 The `max` function returns the largest item in an iterable object, or, the largest of two or more parameters given to it. The general syntax follows the form:
 

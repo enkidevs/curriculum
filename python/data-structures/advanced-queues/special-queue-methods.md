@@ -17,8 +17,11 @@ links:
 parent: a-thread-safe-queue
 
 ---
-## Content
+
 # Special `queue` methods
+
+---
+## Content
 
 All `queue` objects (`Queue` , `LifoQueue` and `PriorityQueue`) provide a plethora of public methods useful in many scenarios.
 

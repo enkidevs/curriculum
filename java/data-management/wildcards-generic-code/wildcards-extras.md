@@ -17,8 +17,11 @@ links:
 
 
 ---
-## Content
+
 # Wildcards Extras
+
+---
+## Content
 
 Suppose we have class `A` and class `B` which `extends A`. Then consider:
 ```

@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Overcome line-ending issues
+
+---
+## Content
 
 Windows uses a carriage-return character and a linefeed character (CRLF) for new lines in files, whereas Mac and Linux systems use a linefeed character (LF).
 

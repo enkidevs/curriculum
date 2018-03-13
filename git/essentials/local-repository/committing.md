@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Committing
+
+---
+## Content
 
 Committing is the action which permanently stores changes in a file as part of the **Git** repository. For this operation all you have to do is issue the `git commit` command.
 

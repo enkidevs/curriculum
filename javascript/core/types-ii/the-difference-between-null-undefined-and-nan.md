@@ -15,8 +15,11 @@ category: must-know
 
 
 ---
-## Content
+
 # The difference between null, undefined and NaN
+
+---
+## Content
 
 In JavaScript, a variable that has been declared but not yet defined is of the type `undefined`:
 

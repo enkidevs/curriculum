@@ -28,8 +28,11 @@ notes: |+
 
 
 ---
-## Content
+
 # Class inheritance
+
+---
+## Content
 
 Class inheritance is easily achieved in Python following this syntax:
 ```python

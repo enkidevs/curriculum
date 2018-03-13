@@ -19,8 +19,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Revokable Proxies and Usages
+
+---
+## Content
 
 There is a special type of proxy called a **revokable proxy**. 
 

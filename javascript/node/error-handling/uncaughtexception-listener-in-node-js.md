@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # `uncaughtException` listener in Node.js
+
+---
+## Content
 
 Use an `uncaughtException` listener to prevent a program crashing due to an unhandled exception.
 

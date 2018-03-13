@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Permission API
+
+---
+## Content
 
 The **Permission API** is a standard way to check the permission status of an API.
 

@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Dictionary methods
+
+---
+## Content
 
 Consider the following dicitonary:
 

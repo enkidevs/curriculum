@@ -19,8 +19,11 @@ links:
 notes: 'http://www.webcredible.com/blog-reports/css/more-css-tricks.shtml'
 
 ---
-## Content
+
 # Block Elements Characteristics
+
+---
+## Content
 
 A block element has the following characteristics:
 

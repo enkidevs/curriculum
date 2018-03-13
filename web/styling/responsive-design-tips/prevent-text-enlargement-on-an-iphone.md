@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Prevent Text Enlargement on an iPhone
+
+---
+## Content
 
 By default, an iPhone will increase the size of the font on a webpage. 
 

@@ -27,8 +27,11 @@ links:
 
 
 ---
-## Content
+
 # Use try-with-resources instead of `finally`
+
+---
+## Content
 
 A resource is an object that must be closed once the program has finished using it. In pre-JDK 7 versions, resources must be closed at the end of a `try` block using `finally`. 
 

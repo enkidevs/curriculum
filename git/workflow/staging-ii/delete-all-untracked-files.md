@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Delete all untracked files
+
+---
+## Content
 
 Use `git clean` to remove untracked files from your local repository.
 

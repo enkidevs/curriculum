@@ -22,8 +22,11 @@ notes: >-
   http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/
 
 ---
-## Content
+
 # Horizontal centering fluid blocks
+
+---
+## Content
 
 To horizontally center blocks of unknown width:
 

@@ -32,8 +32,11 @@ links:
 
 
 ---
-## Content
+
 # Use `box-sizing` to define an element's `width` and `height` properties 
+
+---
+## Content
 
 The default value for `box-sizing` is `content-box`. This setting indicates only the content is included in the total `width` and `height` properties. 
 

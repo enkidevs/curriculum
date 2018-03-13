@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Use `Arrays.asList()` to initialise lists
+
+---
+## Content
 
 Lists can be initialised concisely using `Arrays.asList()`. For example this:
 

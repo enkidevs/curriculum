@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Prune remote tracking references
+
+---
+## Content
 
 You may have references to old remote branches in your local repository.
 

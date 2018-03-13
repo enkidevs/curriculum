@@ -13,8 +13,11 @@ category: must-know
 
 
 ---
-## Content
+
 # Inheritance
+
+---
+## Content
 
 Inheritance in Python allows you to define a class which is based on another existing class.
 

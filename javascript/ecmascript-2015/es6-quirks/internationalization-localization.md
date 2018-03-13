@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Internationalization & Localization
+
+---
+## Content
 
 `Collator` is an object that provides locale-specific string comparisons. It's  aware of Unicode. 
 

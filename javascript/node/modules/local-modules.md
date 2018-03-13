@@ -22,8 +22,11 @@ links:
 
 parent: the-http-module-for-servers
 ---
-## Content
+
 # Local Modules
+
+---
+## Content
 
 In Node.js a local module is a module created locally to your application. A local module can include different functionalities of the application across different files and folders.
 

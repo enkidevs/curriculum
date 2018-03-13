@@ -19,8 +19,11 @@ category: how to
 
 parent: inserting-data-into-a-binary-search-tree
 ---
-## Content
+
 # Removing Keys From a Binary Search Tree
+
+---
+## Content
 
 Removing or deleting a node from a binary search tree (BST) is more complicated than inserting or searching.  There are three possible cases to consider:
 

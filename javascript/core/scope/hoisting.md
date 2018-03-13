@@ -17,8 +17,11 @@ category: feature
 
 notes: 
 ---
-## Content
+
 # Hoisting
+
+---
+## Content
 
 Think fast, what does this snippet print?
 

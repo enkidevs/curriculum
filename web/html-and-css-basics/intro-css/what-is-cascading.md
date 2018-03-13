@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # What Is Cascading?
+
+---
+## Content
 
 Within CSS, multiple style blocks *cascade* from the top of the style sheet to the bottom. Here's an example:
 ```

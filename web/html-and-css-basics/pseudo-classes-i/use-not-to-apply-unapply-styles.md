@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Use `:not()` to apply/unapply styles 
+
+---
+## Content
 
 Rather than adding a border to a navigation bar, and then removing it for the last element:
 

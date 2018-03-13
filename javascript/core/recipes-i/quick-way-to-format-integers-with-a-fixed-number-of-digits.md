@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Quick way to format integers with a fixed number of digits.
+
+---
+## Content
 
 If we are required to format a number with a particular amount of digits, for example:
 

@@ -13,8 +13,11 @@ category: must-know
 
 notes: https://insights.enki.com/#/contrib/others/55c83ba83f06ab320051aa8a?search=kha
 ---
-## Content
+
 # How range operations work
+
+---
+## Content
 
 When specifying a range of values, the first value `from` is included while the last value `to` is excluded.
 

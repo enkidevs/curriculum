@@ -30,8 +30,11 @@ links:
 
 
 ---
-## Content
+
 # Using `synchronized` statements
+
+---
+## Content
 
 `synchronized` statements can be used to avoid memory inconsistency errors and thread interference in multi-threaded programs.
 

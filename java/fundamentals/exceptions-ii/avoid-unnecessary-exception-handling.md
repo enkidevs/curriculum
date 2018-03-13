@@ -25,8 +25,11 @@ links:
 
 
 ---
-## Content
+
 # Avoid unnecessary exception handling
+
+---
+## Content
 
 Throwing and catching exceptions is costly in terms of performance. Avoiding unnecessary exception handling can speed up your code. 
 

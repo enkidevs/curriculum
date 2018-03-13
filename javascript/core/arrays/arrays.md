@@ -14,8 +14,11 @@ category: must-know
 inAlgoPool:
 
 ---
-## Content
+
 # Arrays
+
+---
+## Content
 
 Arrays are an important concept in JavaScript and used frequently.
 

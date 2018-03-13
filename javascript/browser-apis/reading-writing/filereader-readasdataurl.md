@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # FileReader.readAsDataURL()
+
+---
+## Content
 
 The `readAsDataURL()` method is used with file or blob objects. When the read operation is complete it returns a *data URL* with the files contents as base64 encoded string which can be access through `reader.result`.
 

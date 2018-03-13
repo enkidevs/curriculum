@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Referencing Parent Selectors
+
+---
+## Content
 
 It can often be useful to use a nested rule's parent selector in more ways than just the default.
 

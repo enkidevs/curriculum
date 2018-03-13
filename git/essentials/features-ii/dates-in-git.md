@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Dates in git
+
+---
+## Content
 
 Git has a very flexible date format.
 

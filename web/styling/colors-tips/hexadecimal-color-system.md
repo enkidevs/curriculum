@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Hexadecimal color system
+
+---
+## Content
 
 Hexadecimal color system starts with `#` and is case-insensitive.
 

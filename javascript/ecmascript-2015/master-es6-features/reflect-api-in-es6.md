@@ -17,8 +17,11 @@ links:
 
 
 ---
-## Content
+
 # Reflect API in ES6
+
+---
+## Content
 
 ES6 has a global object called `Reflect` that has methods to implement all interceptable operations of the JavaScript **meta object** protocol.
 

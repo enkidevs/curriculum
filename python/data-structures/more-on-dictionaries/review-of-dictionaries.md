@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Review of dictionaries
+
+---
+## Content
 
 Dictionaries are used to store data that is related in a way or another. What makes them different from other data types is that they provide a way to map *keys* ( such as an ID ) to *values* ( such as some information associated with that specific ID ).
 

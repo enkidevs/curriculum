@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # FileReader.readAsText()
+
+---
+## Content
 
 The `readAsText()` method is used to read text files. It takes two parameters, the first is the file or blob object to read. The second is the encoding of the file, by default this is UTF-8.
 

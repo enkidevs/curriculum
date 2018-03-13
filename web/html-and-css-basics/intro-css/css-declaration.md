@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # CSS Declaration
+
+---
+## Content
 
 A CSS file is made up of *selectors* (a way of pointing to the HTML elements to be changed) and *declarations* (a property and value pair).
 

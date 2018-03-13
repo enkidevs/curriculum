@@ -21,8 +21,11 @@ links:
 parent: stashing-changes
 
 ---
-## Content
+
 # Create a new branch from a stash
+
+---
+## Content
 
 If you want to test out a stash before you apply it to its original branch, you can use the `branch` option:
 ```

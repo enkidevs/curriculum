@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # The fundamental `tuple`
+
+---
+## Content
 
 `Tuples` are one of the currently implemented **sequence data types** (alongside with `lists`, `ranges` and `dictionaries`).
 

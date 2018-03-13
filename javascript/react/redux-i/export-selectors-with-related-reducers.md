@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Export selectors with related reducers
+
+---
+## Content
 
 Selectors are used to compute derived data, thus making Redux store the minimal possible state. Reducers specify how the application's state changes in response to some actions.
 

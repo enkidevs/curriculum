@@ -18,8 +18,11 @@ links:
 
 notes: This insights is also based on security - should be on a security workout I guess.
 ---
-## Content
+
 # Node and `sudo`
+
+---
+## Content
 
 ```bash
 $ sudo node myapp.js

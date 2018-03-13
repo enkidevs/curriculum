@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Navigating the browser history
+
+---
+## Content
 
 The History API allows navigation of the browser history. 
 

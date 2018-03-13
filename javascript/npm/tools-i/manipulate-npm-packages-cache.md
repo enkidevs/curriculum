@@ -20,8 +20,11 @@ links:
 
 parent: check-data-about-a-package
 ---
-## Content
+
 # Manipulate npm packages cache
+
+---
+## Content
 
 The `npm cache` utility is used to **add**, **list** or **clear** the npm cache folder.
 

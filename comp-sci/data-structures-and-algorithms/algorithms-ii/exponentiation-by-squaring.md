@@ -22,8 +22,11 @@ links:
 
 parent: binary-expression-tree
 ---
-## Content
+
 # Exponentiation By Squaring
+
+---
+## Content
 
 The concept of **exponentiation by squaring** refers to a method to fast compute large powers of a number. Some other names for it are *square-and-multiply algorithm* or *binary exponentiation*.
 

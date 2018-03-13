@@ -31,8 +31,11 @@ links:
 
 
 ---
-## Content
+
 # Truthiness
+
+---
+## Content
 
 In JavaScript, a *Truthy* value is any value which, when evaluated in a boolean context, is `true`. Similarly, a *Falsy* value is any value which evaluates to `false` in a boolean context.
 

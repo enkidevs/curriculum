@@ -22,8 +22,11 @@ links:
 
 parent: kruskals-iteration
 ---
-## Content
+
 # Prim's Algorithm
+
+---
+## Content
 
 As an alternative to Kruskal's algorithm, Prim's algorithm yields the same result: the **minimum spanning tree** of that graph. It is a greedy algorithm which works for **connected, weighted, undirected graphs**.
 

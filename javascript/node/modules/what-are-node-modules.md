@@ -22,8 +22,11 @@ links:
 
 parent: npm-nodes-package-manager
 ---
-## Content
+
 # What are Node Modules?
+
+---
+## Content
 
 A module encapsulates an amount of code into one single code unit. Node has a module system implemented which allows for other JavaScript files to be included and used in your application. A substantial amount of Node’s core functionality was implemented using JavaScript modules.
 

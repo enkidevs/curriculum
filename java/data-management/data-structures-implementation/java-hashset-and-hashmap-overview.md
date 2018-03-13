@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Java HashSet and HashMap overview
+
+---
+## Content
 
 Part of Java's Collections API are the HashSet and HashMap classes which provide fast search, insert, update and delete operations for persisting data.
 

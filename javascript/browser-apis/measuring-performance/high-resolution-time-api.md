@@ -23,8 +23,11 @@ links:
 
 
 ---
-## Content
+
 # High Resolution Time API
+
+---
+## Content
 
 The High Resolution Time API allows you to perform precise timing measurements. 
 

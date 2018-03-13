@@ -20,8 +20,11 @@ links:
 
 parent: custom-proptype-s-to-be-required
 ---
-## Content
+
 # Dangerously set `innerHTML`
+
+---
+## Content
 
 React gives you the ability to insert *raw* HTML.
 

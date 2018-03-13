@@ -19,8 +19,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Why use symbols?
+
+---
+## Content
 
 As symbols are always unique they are great for library authors to defining values without fear of overwriting anything existing e.g.
 

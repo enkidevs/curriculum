@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Basic Git configuration
+
+---
+## Content
 
 After installation, you might want to customize different variables/information in your **Git** environment.
 

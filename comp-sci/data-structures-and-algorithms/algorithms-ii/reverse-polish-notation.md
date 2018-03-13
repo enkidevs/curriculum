@@ -22,8 +22,11 @@ links:
 
 parent: trie-data-structure
 ---
-## Content
+
 # Reverse Polish Notation
+
+---
+## Content
 
 **Reverse polish notation**, or *postfix notation*, is a mathematical notation in which the *operators* follow their *operands* (+, × etc. can be found on the right-hand side of their operands).
 ```

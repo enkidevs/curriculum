@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # Split Your Project into Components
+
+---
+## Content
 
 One common practice of overzealous beginner developers is to trade the time spent on structuring the project for time spent coding. This works fine for personal or small projects, but has serious downsides in the long run.
 

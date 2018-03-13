@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Java Versions
+
+---
+## Content
 
 A little history for you. Java was first released in 1995. Since then, there have been 9 other major versions, Java 8 being the latest publicly available one. 
 

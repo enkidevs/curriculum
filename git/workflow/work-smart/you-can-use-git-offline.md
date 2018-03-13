@@ -15,8 +15,11 @@ category: must-know
 
 
 ---
-## Content
+
 # You can use git offline!
+
+---
+## Content
 
 You can use almost all of git's features offline, as git only needs to read from your local repository.
 

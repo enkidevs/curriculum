@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Blobs
+
+---
+## Content
 
 A *blob* object represents an "almost file" object of raw data. It represents data that isn't in JavaScript's standard format. You use *FileReader* to read data from a blob.
 

@@ -23,8 +23,11 @@ notes: >
   changes.
 
 ---
-## Content
+
 # Playing with `time`
+
+---
+## Content
 
 The `time` module is widely used for time manipulation, representation and conversion.
 

@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # `Hello World!`
+
+---
+## Content
 
 Now that you know a little bit about Java, it is time to show you how to build your first app. 
 

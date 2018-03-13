@@ -19,8 +19,11 @@ links:
 
 parent: easy-way-to-deliver-html-pages-with-express
 ---
-## Content
+
 # `body-parser` in **Express**
+
+---
+## Content
 
 With the introduction of **Express 4.0**, the separate module `body-parser` was introduced as a replacement for the previous version.
 

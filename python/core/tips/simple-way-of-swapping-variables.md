@@ -17,8 +17,11 @@ category: tip
 
 
 ---
-## Content
+
 # Simple way of swapping variables
+
+---
+## Content
 
 In most languages, swapping two variables requires a third variable or  arithmetic manipulations.
 

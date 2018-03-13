@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Network Information API
+
+---
+## Content
 
 The *Network Information API* provides information about the system's connection. It's used to choose either high definition or low definition content for a user, dependent on their connection. 
 

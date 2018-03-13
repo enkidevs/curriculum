@@ -22,8 +22,11 @@ notes: >-
   http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/
 
 ---
-## Content
+
 # Use `text-transform` to avoid screen-reader pronunciation errors
+
+---
+## Content
 
 A screen-reader handling CONTACT US (in uppercase) would be read out "Contact U S", which is not correct. 
 

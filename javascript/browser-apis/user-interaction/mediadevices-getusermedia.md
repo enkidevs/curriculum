@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # MediaDevices.getUserMedia()
+
+---
+## Content
 
 *MediaDevices.getUserMedia()* prompts a user for permission to use video/audio input devices such as webcams/microphones. 
 

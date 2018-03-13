@@ -19,8 +19,11 @@ category: how to
 
 parent: creating-a-node-module
 ---
-## Content
+
 # Preparing Your Module For Publishing
+
+---
+## Content
 
 If you decide to publish your module, a good *README.md* file is necessary. It does not only help you keep track of the capabilities of the module, but also it helps others understand how to use your module.
 

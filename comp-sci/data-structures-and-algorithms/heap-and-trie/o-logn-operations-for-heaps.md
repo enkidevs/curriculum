@@ -19,8 +19,11 @@ category: must-know
 
 parent: removing-data-from-a-heap-with-the-downheap-operation
 ---
-## Content
+
 # How Do Binary Heaps Enable O(log(n)) Insertion and Removal?
+
+---
+## Content
 
 For a binary max-heap (or min-heap), why do the insert and find-max (or find-min, respectively) operations only take O(log n) time?
 

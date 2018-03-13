@@ -19,8 +19,11 @@ category: must-know
 
 parent: pre-order-traversal
 ---
-## Content
+
 # In-order Traversal
+
+---
+## Content
 
 **In-order traversal** is a type of *depth-first traversal* in which the *root* of the tree is visited after the left child and before the right child. It only makes sense for *binary trees*.
 

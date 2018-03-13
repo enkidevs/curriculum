@@ -21,8 +21,11 @@ links:
 
 
 ---
-## Content
+
 # The `all` Built-in Function
+
+---
+## Content
 
 The `all` function takes an iterable object and returns `True` if all the elements in the iterable object evaluate to `True`, or if the object is empty. It takes the form:
 

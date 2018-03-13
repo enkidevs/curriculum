@@ -19,8 +19,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # String.raw
+
+---
+## Content
 
 String.raw is used to work with template strings and is best explained with an example:
 

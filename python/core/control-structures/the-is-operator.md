@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # The `is` operator
+
+---
+## Content
 
 Python's `is` operator is used to match instances of variables, instead of matching the values of variables like the `==` operator.
 

@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Always specify type parameter
+
+---
+## Content
 
 A *parameterized type* would look like:
 ```

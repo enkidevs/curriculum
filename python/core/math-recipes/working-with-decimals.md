@@ -22,8 +22,11 @@ links:
 notes: Math modules workout
 
 ---
-## Content
+
 # Working with decimals
+
+---
+## Content
 
 Python's `decimal` module provides implementation of fixed and floating point arithmetic based on the model people are familiar with, instead of the *IEEE* version implemented by computers.
 

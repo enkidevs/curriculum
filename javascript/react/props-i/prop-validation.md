@@ -22,8 +22,11 @@ links:
 
 parent: destructuring-arguments
 ---
-## Content
+
 # `props` Validation
+
+---
+## Content
 
 `JavaScript` being a loosely typed language you can experience runtime errors when you expect data of one type but receive another. *React* helps us in this by providing a feature called `propTypes`.
 

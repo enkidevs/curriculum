@@ -19,8 +19,11 @@ category: must-know
 
 parent: successful-status-codes
 ---
-## Content
+
 # Redirection status codes
+
+---
+## Content
 
 **Redirection status codes** notify the client that additional steps are required to complete the request. They always start with `3`.
 

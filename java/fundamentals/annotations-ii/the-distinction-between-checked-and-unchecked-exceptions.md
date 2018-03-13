@@ -23,8 +23,11 @@ links:
 
 
 ---
-## Content
+
 # The distinction between checked and unchecked exceptions
+
+---
+## Content
 
 In Java, exceptions are objects which are created when an error occurs within a method. Exceptions can be divided into *checked* and *unchecked* exceptions.
 

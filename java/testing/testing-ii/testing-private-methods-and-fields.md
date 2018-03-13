@@ -13,8 +13,11 @@ category: tip
 
 
 ---
-## Content
+
 # Testing Private Methods and Fields
+
+---
+## Content
 
 Times may come when you will have to test **private** methods. As using *inner classes* to write tests is *not advisable* (as tests would likely end up in production), three other methods are to be considered.
 

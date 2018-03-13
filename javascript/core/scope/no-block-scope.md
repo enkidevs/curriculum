@@ -23,8 +23,11 @@ links:
 
 
 ---
-## Content
+
 # No block scope
+
+---
+## Content
 
 Functions have their own scopes, however most other blocks do not.
 ```

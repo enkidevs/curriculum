@@ -17,8 +17,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Exceptions
+
+---
+## Content
 
 Some operations in our programs can potentially fail due to no fault of the developer. 
 

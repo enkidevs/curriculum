@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # `:required` and `:optional` pseudo classes
+
+---
+## Content
 
 Especially when creating a form, some fields in it are mandatory for user to complete. 
 

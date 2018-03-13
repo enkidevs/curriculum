@@ -17,8 +17,11 @@ links:
 notes: 'prerequisites: scoping'
 
 ---
-## Content
+
 # What Are Higher-Order Functions?
+
+---
+## Content
 
 A **higher-order function**, or *closure*, is a persistent scope which makes the variable be accessible even after the code execution has moved past that block:   
 ```python

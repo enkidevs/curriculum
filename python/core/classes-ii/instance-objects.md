@@ -19,8 +19,11 @@ links:
 notes: Multiple issues. Needs to be rewritten.
 
 ---
-## Content
+
 # Instance objects
+
+---
+## Content
 
 Instances are individual objects of a specific *Class*. For example, we might have the class `Color`, but with different instances: one for **red**, one for **blue**, etc.
 

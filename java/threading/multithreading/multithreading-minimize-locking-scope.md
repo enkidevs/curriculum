@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Multithreading: minimize locking scope
+
+---
+## Content
 
 Using `Lock` is sometimes necessary to guarantee thread safety. However, overusing `Lock` will limit the performance of a program. This is because any code that operates under a `Lock` must be executed sequentially; as opposed to other areas of the program which will be able to execute concurrently.
 

@@ -26,8 +26,11 @@ notes: >
   surrounding code.
 
 ---
-## Content
+
 # Context manager types - `with`
+
+---
+## Content
 
 The **context manager** type is a Python feature to help work with unmanaged resources (e.g. file streams) which it is better to clean up or shutdown in an orderly manner after use, e.g. always closing a file after use).
 

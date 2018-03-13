@@ -23,8 +23,11 @@ links:
 
 
 ---
-## Content
+
 # The difference between _parallel_, _asynchronous_ and _concurrent_
+
+---
+## Content
 
 '**Asynchronous**' describes tasks occurring out of order, i.e. the main program flow can continue **now** and the asynchronous task will complete **later**.
 

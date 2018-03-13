@@ -25,8 +25,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Const (Part 2)
+
+---
+## Content
 
 Assigning a `const` to another variable and then changing the source variable will not change the value of the `const`:
 

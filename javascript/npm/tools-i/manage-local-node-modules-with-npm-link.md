@@ -20,8 +20,11 @@ links:
 
 parent: check-data-about-a-package
 ---
-## Content
+
 # Manage local node modules with `npm link`
+
+---
+## Content
 
 A modular Node.js application often implies the usage of certain local modules.
 

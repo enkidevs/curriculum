@@ -14,8 +14,11 @@ category: must-know
 inAlgoPool:
 
 ---
-## Content
+
 # Functions Are Objects
+
+---
+## Content
 
 Every function in JavaScript is also an object. 
 

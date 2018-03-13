@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Specifying an annotation retention policy
+
+---
+## Content
 
 Meta-annotations are annotations which apply to other annotations. The `@Retention` meta-annotation specifies the way in which an annotation should be stored. There are three available retention policies:
 - `RetentionPolicy.SOURCE`: the annotation is ignored by the compiler and maintained only at source code level.

@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Managing branches
+
+---
+## Content
 
 If you want to see a list of your branches, you can run `git branch`:
 ```

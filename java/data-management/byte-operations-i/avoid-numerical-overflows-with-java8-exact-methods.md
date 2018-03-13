@@ -16,8 +16,11 @@ links:
 
 notes: https://insights.enki.com/#/contrib/others/55f03d0d1baba32f002fd319?search=kha
 ---
-## Content
+
 # Avoid numerical overflows with *Java8* `exact` methods.
+
+---
+## Content
 
 In order to avoid *numerical overflows* or *underflows* (that is assigning a value to a variable whose type size does not allow it) a certain set of methods have been added with **Java 8**.
 

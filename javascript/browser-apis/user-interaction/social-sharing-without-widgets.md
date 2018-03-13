@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Social sharing without widgets
+
+---
+## Content
 
 Create your own widgets for social sites by defining your social sharing links  as `functions` and linking them to `listeners`.
 

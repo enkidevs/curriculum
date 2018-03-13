@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # The built-in Node debugger
+
+---
+## Content
 
 Use the built-in Node debugger by running your app in **debug mode**:
 ```

@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # Use `Locale` class for Internationalisation
+
+---
+## Content
 
 The `Locale` class can be used to represent different regions, languages and scripts. We can use `Locale` to format output which is locale-sensitive. 
 

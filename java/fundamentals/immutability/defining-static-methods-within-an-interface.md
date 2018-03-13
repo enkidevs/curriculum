@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Defining `static` methods within an `interface`
+
+---
+## Content
 
 As of Java 8, it is possible to add implementations of `static` methods to interfaces. This allows utility methods to be included in a relevant interface rather than a separate utility class.
 

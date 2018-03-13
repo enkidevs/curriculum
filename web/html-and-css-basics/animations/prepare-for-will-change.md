@@ -24,8 +24,11 @@ links:
 notes: 'http://www.creativebloq.com/css3/tips-breathe-new-life-your-css-61411880'
 
 ---
-## Content
+
 # Prepare for `will-change`
+
+---
+## Content
 
 If you've used `-webkit-transform: translateZ(0)` to magically make your pages faster, the hack, which in many browsers simply creates a new compositor layer, is being replaced by `will-change`. 
 

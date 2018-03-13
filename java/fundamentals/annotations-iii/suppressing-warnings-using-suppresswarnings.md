@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # Suppressing warnings using `@SuppressWarnings`
+
+---
+## Content
 
 It is occasionally appropriate to suppress a compiler warning. For example, if some legacy code needs to be integrated with a new system, and a deprecated method needs to be used to achieve this, we can use `@SuppressWarnings`: 
 ```

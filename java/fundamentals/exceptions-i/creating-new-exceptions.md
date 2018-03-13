@@ -21,8 +21,11 @@ links:
 
 
 ---
-## Content
+
 # Creating new Exceptions
+
+---
+## Content
 
 Creating your own exceptions allows you to differentiate exceptions thrown by your own classes from those thrown by others. It also allows you to differentiate between similar, related exceptions. You may also occasionally come across exceptions which are not already represented.
 

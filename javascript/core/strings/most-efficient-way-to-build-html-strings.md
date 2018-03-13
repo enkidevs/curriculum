@@ -20,8 +20,11 @@ links:
 
 notes: 
 ---
-## Content
+
 # Most efficient way to build `HTML` strings
+
+---
+## Content
 
 On modern browsers, building `HTML` strings with `.join()` is less efficient than concatenating strings with `+`.
 

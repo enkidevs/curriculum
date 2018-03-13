@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # The `final` Modifier
+
+---
+## Content
 
 The `final` modifiers limits the initializations number to *1*. A final variable cannot be reassigned to refer another object.
 

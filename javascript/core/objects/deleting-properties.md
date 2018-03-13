@@ -16,8 +16,11 @@ links:
 
 notes: Hope it's not too basics?
 ---
-## Content
+
 # Deleting properties
+
+---
+## Content
 
 Setting the property to `null` or `undefined` only removes the value associated with given property. It does not remove the key. 
 

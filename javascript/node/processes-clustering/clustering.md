@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Clustering
+
+---
+## Content
 
 **Node** processes run in a single thread limited by default to `512Mb` on `32-bit` machines and `1Gb` on `64-bit`.
 

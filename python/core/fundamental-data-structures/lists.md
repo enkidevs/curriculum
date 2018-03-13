@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Lists
+
+---
+## Content
 
 Lists are not so different from arrays, they can contain any variable type, and as many different variables as you'd like.
 

@@ -22,8 +22,11 @@ links:
 
 parent: post-order-traversal
 ---
-## Content
+
 # The Binary Search Tree Data Structure
+
+---
+## Content
 
 A *binary search tree* (or BST) is a tree-based data structure designed for efficient insertion, deletion, and searching. BSTs are in many ways the most important search-optimized data structure — although the most basic version of BST described here is rarely used in practice, many search-optimized data structures are based on it.
 

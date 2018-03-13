@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Limit Accessibility of `Fields`
+
+---
+## Content
 
 An incorrect assumption is that declaring a field or variable as `final` makes the object referenced _immutable_. 
 

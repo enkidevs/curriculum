@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # `StringBuffer` vs `StringBuilder`
+
+---
+## Content
 
 While both the clases can be used to concatenate strings, the key differences between `StringBuffer` and `StringBuilder` are:
 

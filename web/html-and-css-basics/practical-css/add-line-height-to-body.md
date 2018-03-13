@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Add `line-height` to `body`
+
+---
+## Content
 
 Rather than adding `line-height` to each element:
 

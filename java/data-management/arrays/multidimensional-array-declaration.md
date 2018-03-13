@@ -15,8 +15,11 @@ category: how to
 
 
 ---
-## Content
+
 # Multidimensional array declaration
+
+---
+## Content
 
 The following code declares a 2D array - an array of 10 
 arrays each of length 7.

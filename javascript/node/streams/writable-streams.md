@@ -22,8 +22,11 @@ links:
 
 parent: chaining-readable-streams
 ---
-## Content
+
 # Writable Streams
+
+---
+## Content
 
 The `write()`  method is used to write data to a writable stream. Take the following example:
  ```

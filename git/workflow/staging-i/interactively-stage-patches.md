@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Interactively stage patches
+
+---
+## Content
 
 To partially stage a file:
 ```

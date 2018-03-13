@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # Using the `OpenOption...` vararg to define file writing behavior
+
+---
+## Content
 
 The `OpenOption` parameter is an optional argument which can take one or more values which define file writing behavior.
 

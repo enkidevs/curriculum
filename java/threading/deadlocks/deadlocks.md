@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Deadlocks
+
+---
+## Content
 
 **Deadlock** is a situation in which two or more processes/threads are accessing same resources in a mutually exclusive fashion.
 

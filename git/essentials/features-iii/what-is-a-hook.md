@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # What is a hook?
+
+---
+## Content
 
 A hook is a custom script that automatically fires when certain actions occur.
 

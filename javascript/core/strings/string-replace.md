@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # `String.replace`
+
+---
+## Content
 
 The `String.replace` method only changes the first occurrence of a substring, not all possible matches: 
 ```

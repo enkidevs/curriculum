@@ -19,8 +19,11 @@ category: feature
 
 parent: available-binaries-for-scripting
 ---
-## Content
+
 # Environmental Variables
+
+---
+## Content
 
 Another feature of npm is allowing the user to set values which would be seen as *environmental variables* in *scripts*. All re-used values should be declared inside the *config* object:
 ```javascript

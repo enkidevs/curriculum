@@ -27,8 +27,11 @@ links:
 
 
 ---
-## Content
+
 # Use thread pool executors
+
+---
+## Content
 
 Creating threads is expensive. Rather than creating and discarding a new thread every time we need to process a request, we can use the Java Executor Framework.
 

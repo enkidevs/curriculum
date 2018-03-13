@@ -13,8 +13,11 @@ category: must-know
 
 
 ---
-## Content
+
 # Solving basic merge conflicts
+
+---
+## Content
 
 Merge conflicts occur when the same part of the code has been modified in both branches.
 

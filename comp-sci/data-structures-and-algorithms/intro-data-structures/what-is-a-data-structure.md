@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # What Is a Data Structure?
+
+---
+## Content
 
 A **data structure** is a particular pattern for organizing information in order to make interacting with that information in the ways we want less expensive.
 

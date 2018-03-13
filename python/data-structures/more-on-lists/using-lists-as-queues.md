@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Using Lists as Queues
+
+---
+## Content
 
 It's appropriate to create a **new class** to help implement an **abstract data type** such as a **queue**. We will use **list** data structures this time.
 

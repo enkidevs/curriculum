@@ -13,8 +13,11 @@ category: must-know
 
 
 ---
-## Content
+
 # Class Keywords
+
+---
+## Content
 
 There are a number of essential keywords associated with Python classes.
 

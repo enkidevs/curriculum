@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # The `filter` Built-in Function
+
+---
+## Content
 
 Together with the other built-in functions `map`[1] and `reduce`, `filter` allows us to take a functional approach to programming in Python. As the name might suggest, `filter` takes a function and an iterable object and returns only the elements in the iterable object for which the given function returns `true`[2]. `filter` takes the general form:
 

@@ -32,8 +32,11 @@ links:
 
 notes: static workout 
 ---
-## Content
+
 # Don't repeat yourself (DRY) principle
+
+---
+## Content
 
 Code written should be made easy to maintain by following the *don’t repeat yourself* principle. 
 

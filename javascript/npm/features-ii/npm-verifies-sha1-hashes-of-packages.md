@@ -17,8 +17,11 @@ category: feature
 
 parent: check-data-about-a-package
 ---
-## Content
+
 # `npm` verifies `sha1` hashes of packages
+
+---
+## Content
 
 When your *Node.js* app is compiled with **openssl crypto** support, `npm` package manager  provides automatic  **checksumming** support.
 

@@ -22,8 +22,11 @@ links:
 
 parent: custom-validations-for-props
 ---
-## Content
+
 # Require custom `propTypes` validators
+
+---
+## Content
 
 There is a way of creating your own *`propTypes` validator function* that can also be suffixed with `.isRequired`. This is done by  using chained validators and the `bind()` function.
 

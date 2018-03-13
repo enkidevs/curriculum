@@ -19,8 +19,11 @@ category: feature
 
 parent: dependencies
 ---
-## Content
+
 # Deprecated peer dependencies
+
+---
+## Content
 
 By now, the question of what happens if one package depends on another package may have crossed your mind. Do you specify both in dependencies field or just the one you would use and hope npm will take care of everything?
 

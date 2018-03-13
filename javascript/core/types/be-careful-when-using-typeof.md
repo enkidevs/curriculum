@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Be careful when using `typeof`.
+
+---
+## Content
 
 `typeof` returns "object" for all objects, and nothing more specific. 
 

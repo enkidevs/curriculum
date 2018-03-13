@@ -24,8 +24,11 @@ links:
 
 notes: 
 ---
-## Content
+
 # Singleton Pattern
+
+---
+## Content
 
 Singleton pattern is a design pattern involving a class which can be instantiated *exactly once*.
 

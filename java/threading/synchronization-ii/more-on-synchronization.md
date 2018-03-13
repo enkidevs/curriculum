@@ -17,8 +17,11 @@ links:
 
 
 ---
-## Content
+
 # More on Synchronization
+
+---
+## Content
 
 Another way of ensuring mutual exclusion without using synchronization patters or `synchronized` is using atomic variables provided in `java.util.concurrent.atomic` library. It has to be noted that this approach is specific to Java and will only work if you are working with single variables.
 

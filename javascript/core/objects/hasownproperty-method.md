@@ -18,8 +18,11 @@ links:
 
 notes: 
 ---
-## Content
+
 # `hasOwnProperty` method
+
+---
+## Content
 
 The `hasOwnProperty` method returns a boolean indicating whether the object has the specified property.
 

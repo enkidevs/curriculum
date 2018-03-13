@@ -30,8 +30,11 @@ links:
 
 
 ---
-## Content
+
 # Upper bounded wildcards
+
+---
+## Content
 
 Upper bounded wildcards can be used to make a variable less restrictive. For example, say we want to create a class which takes a `List` as a parameter. But we do not know whether the list will be `List<Number>`, `List<Integer>`, `List<Double>` or other subclasses of `Number`.
 

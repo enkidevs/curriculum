@@ -17,8 +17,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Let (Part 1)
+
+---
+## Content
 
 *let* declares a variable and is used in a similar method to *var*.
 

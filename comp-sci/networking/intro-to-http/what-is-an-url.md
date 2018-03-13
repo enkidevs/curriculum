@@ -23,8 +23,11 @@ links:
 
 parent: what-is-http
 ---
-## Content
+
 # What is an URL?
+
+---
+## Content
 
 **URLs** (Uniform Resource Locators) are sequences of characters used to identify resources on the Internet. They are specified in the header of the request.
 

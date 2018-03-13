@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # `WeakMap` in ES6
+
+---
+## Content
 
 ES6 has a new data structure `WeakMap`. It is a collection of key/value pairs. Its keys must be objects. 
 

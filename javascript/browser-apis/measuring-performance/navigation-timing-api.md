@@ -21,8 +21,11 @@ links:
 
 
 ---
-## Content
+
 # Navigation Timing API
+
+---
+## Content
 
 The Navigation Timing API provides timing information about the page load process. It also monitors how a user navigates to a page.
 

@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Arrays can be used as stack
+
+---
+## Content
 
 Using the following array:
 ```

@@ -17,8 +17,11 @@ links:
 
 parent: what-is-protocol
 ---
-## Content
+
 # Types of networks
+
+---
+## Content
 
 There are several types of **computer networks** currently in use, *characterized* by their **purpose** as well as their **size**.
 

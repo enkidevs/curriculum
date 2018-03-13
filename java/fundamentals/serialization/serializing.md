@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Serializing
+
+---
+## Content
 
 **NOTE:** whenever an object is serialized to a file, conventionally this file is given a `.ser` extension although it can be any other type of file such as `.txt`.
 

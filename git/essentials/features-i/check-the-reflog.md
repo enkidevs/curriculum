@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Check the reflog
+
+---
+## Content
 
 git keeps a 'reflog' for a few months. This is a record of where your HEAD and branch references have been.
 

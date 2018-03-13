@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # SassScript Map and List Functions
+
+---
+## Content
 
 In *SassScript* neither maps or lists support any special operations, they're manipulated by their respective map and list functions. 
 

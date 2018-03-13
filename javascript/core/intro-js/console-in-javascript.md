@@ -19,8 +19,11 @@ links:
 
 
 ---
-## Content
+
 # `console.*` in JavaScript
+
+---
+## Content
 
 The `console.*` methods output information to a console.
 

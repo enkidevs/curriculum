@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # `abstract` classes can have `static` members
+
+---
+## Content
 
 An `abstract` class cannot be instantiated, so any instance methods that have been implemented cannot be called. 
 

@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Use meaningful names
+
+---
+## Content
 
 When naming classes, methods, variables or just about anything that you are required to give a name to, it is best to choose names which have a relevant meaning.
 

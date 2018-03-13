@@ -21,8 +21,11 @@ links:
 notes: ''
 
 ---
-## Content
+
 # Use `SVG` for icons
+
+---
+## Content
 
 Since `SVG` (Scalable Vector Graphics) scales well for all resolution types, it is useful for icons:
 ```

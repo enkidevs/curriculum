@@ -21,8 +21,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Java Identifiers
+
+---
+## Content
 
 In Java, every class, method, or variable has to have a name. Formally, this name is called an **identifier**.
 

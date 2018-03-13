@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Built-in Exceptions
+
+---
+## Content
 
 In Python, all exceptions must inherit the `BaseException` class. Usually, **exceptions** have an associated *"value"* indicating the cause of the **error**. This *"value"* is a class variable that could either be a string or a tuple, which is required for the exception to be instantiated. 
 

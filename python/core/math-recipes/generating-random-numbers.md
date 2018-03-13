@@ -24,8 +24,11 @@ links:
 notes: Math modules workout
 
 ---
-## Content
+
 # Generating `random` numbers
+
+---
+## Content
 
 The Python `random` module provides random (pseudo-random) number generators based on the *Mersenne Twister* algorithm.
 

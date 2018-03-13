@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Add autocorrect to git
+
+---
+## Content
 
 If you want git to correct typos you can set `help.autocorrect`:
 ```

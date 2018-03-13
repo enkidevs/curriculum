@@ -19,8 +19,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # yield
+
+---
+## Content
 
 We can actually make our number example even more succinct by using **yield***:
 ```

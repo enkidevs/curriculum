@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Weak vs Strict equality operator
+
+---
+## Content
 
 JavaScript supports two forms of equality.
 

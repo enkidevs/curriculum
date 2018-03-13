@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Modifying a Previous Commit
+
+---
+## Content
 
 Forgot something in your last **commit**?
 

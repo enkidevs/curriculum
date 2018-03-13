@@ -13,8 +13,11 @@ category: feature
 
 
 ---
-## Content
+
 # Functools' `wraps`
+
+---
+## Content
 
 As useful as decorators can be, they prove hard to debug. One important reason for that is the wrapping mechanism: the decorator overrides the wrapped function's properties, such as the name or the documentation (*docstrings*[1]).   
 

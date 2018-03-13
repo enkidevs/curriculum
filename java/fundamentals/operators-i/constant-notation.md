@@ -23,8 +23,11 @@ tags:
 
 
 ---
-## Content
+
 # Constant notation
+
+---
+## Content
 
 When creating constants (variables with only one value), it's good practice to write them in full-capital letters.  
 

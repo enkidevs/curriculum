@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Pushing to a remote branch
+
+---
+## Content
 
 If you want to share a branch, you have to push it to the remote. 
 

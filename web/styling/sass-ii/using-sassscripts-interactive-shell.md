@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Using SassScripts Interactive Shell
+
+---
+## Content
 
 *SassScript's* interactive shell gives you the chance to experiment with SassScript expressions. 
 

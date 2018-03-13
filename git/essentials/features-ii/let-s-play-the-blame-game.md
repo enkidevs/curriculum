@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Let's play the blame game
+
+---
+## Content
 
 ```
 git blame [file_name]

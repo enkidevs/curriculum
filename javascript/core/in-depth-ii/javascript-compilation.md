@@ -17,8 +17,11 @@ category: feature
 
 
 ---
-## Content
+
 # JavaScript compilation
+
+---
+## Content
 
 A common **misconception** is that JavaScript is **not compiled**.
 

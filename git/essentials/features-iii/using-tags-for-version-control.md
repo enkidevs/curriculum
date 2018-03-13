@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Using tags for version control
+
+---
+## Content
 
 In git you can tag a certain point in history as being important. You can use this to mark a new **version**.
 

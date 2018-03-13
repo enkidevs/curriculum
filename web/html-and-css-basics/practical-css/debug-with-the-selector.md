@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Debug with the `*` selector
+
+---
+## Content
 
 These three lines of **CSS** will select every element on the page and give them a slightly darker background color with the help of the `*` selector.
 ```css

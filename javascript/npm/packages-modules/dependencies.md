@@ -19,8 +19,11 @@ category: must-know
 
 parent: private-packages
 ---
-## Content
+
 # Declaring dependencies
+
+---
+## Content
 
 There are two types of packages you can include in your project:
  - **dependencies**: used in production

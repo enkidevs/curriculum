@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Animations in Webkit browsers
+
+---
+## Content
 
 Many Webkit browsers still use the `-webkit-prefixed` version of animations, keyframes, and transitions. 
 

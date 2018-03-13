@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Execution Order of Arithmetic Operators
+
+---
+## Content
 
 When creating commands using arithmetic operators in Python it's very important you understand the order in which your command will be executed. 
 

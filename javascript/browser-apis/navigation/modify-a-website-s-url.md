@@ -21,8 +21,11 @@ links:
 
 
 ---
-## Content
+
 # Modify a website's URL
+
+---
+## Content
 
 The HTML5 History API enables developers to alter a website's URL without a full page refresh. This allows the URL to be more relevant to the content on the page if it has been loaded dynamically. This is also useful if the user wants to share the URL.
 

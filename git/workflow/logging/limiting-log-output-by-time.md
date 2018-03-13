@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Limiting log output by time
+
+---
+## Content
 
 By default `git log` shows the whole commit history, with the most recent commit first.
 

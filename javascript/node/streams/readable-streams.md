@@ -22,8 +22,11 @@ links:
 
 parent: what-are-streams
 ---
-## Content
+
 # Readable Streams
+
+---
+## Content
 
 A readable stream reads data from a source. A source could be a file on a system, another stream, an array or buffer in memory or a variety of other options. Streams are `EventEmitters`, therefore they emit a number of events whilst running.
 

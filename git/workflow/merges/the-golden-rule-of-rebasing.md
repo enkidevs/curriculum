@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # The golden rule of rebasing
+
+---
+## Content
 
 Rebasing is the process of modifying the base commit from which a series of commits stems. This is achieved with the `git rebase` command. Rebasing is an alternative to **merging** when wanting to combine two different branches of development.
 > **Only rebase commits that exist in your local repository.** 

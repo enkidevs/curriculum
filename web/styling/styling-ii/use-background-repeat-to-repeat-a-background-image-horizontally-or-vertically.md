@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # Use `background-repeat` to repeat a background image horizontally or vertically
+
+---
+## Content
 
 The background image will repeat in both directions by default. Use ```repeat-x``` to repeat the image horizontally and ```repeat-y``` to repeat it vertically.
 

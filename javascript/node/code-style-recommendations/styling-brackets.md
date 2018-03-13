@@ -15,12 +15,12 @@ tags:
 
   - introduction
 
+---
 
-
+# Styling Brackets
 
 ---
 ## Content
-# Styling Brackets
 
 Styling is something that shouldn't influence the performance of the code in any way, and differs from team to team. It's rare that developers agree on camel case syntax versus underscore naming conventions, tabs versus spaces, or brackets position. However, for JavaScript in general and Node in particular, brackets location isn't just a debate. Let's look at  an example:
 

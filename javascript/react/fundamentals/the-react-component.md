@@ -22,8 +22,11 @@ links:
 
 parent: the-react-element
 ---
-## Content
+
 # The **React** component
+
+---
+## Content
 
 In **React** a `component` represents a fundamental *class* you can work with to build re-usable and independent `UI` blocks.
 

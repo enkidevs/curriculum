@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Thread Sleep
+
+---
+## Content
 
 Sometimes you might want to put a thread to `sleep` (i.e. stop its execution for some time) or `join` it (i.e. wait until it terminates). This is a very basic concept but can have many uses.
 

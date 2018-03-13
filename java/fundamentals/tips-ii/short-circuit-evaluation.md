@@ -16,8 +16,11 @@ links:
 
 notes: 
 ---
-## Content
+
 # Short-circuit evaluation
+
+---
+## Content
 
 Short-circuit evaluation is the way programming languages evaluate some boolean operations, where second argument is evaluated only if first argument is not sufficient to determine the outcome of the expression.
 

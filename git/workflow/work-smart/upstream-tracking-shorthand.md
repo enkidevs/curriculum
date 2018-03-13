@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Upstream (tracking) shorthand
+
+---
+## Content
 
 You can reference an upstream tracked branch with the `@{upstream}` or `@{u}` shorthand. 
 

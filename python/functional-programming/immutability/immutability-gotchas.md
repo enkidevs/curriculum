@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Immutability Gotchas!
+
+---
+## Content
 
 For the final insight, let's examine some of the most common slip-ups we could make related to immutability. While at first glance some of these errors can seem difficult to understand, if we examine them from the point of view of the underlying mechanisms of the language it will be clear to see how they work. Being able to grasp these subtleties of the language will be valuable in helping us write code that performs basic functions correctly on the first try, helping to decrease the time we need to spend hunting for bugs.
 

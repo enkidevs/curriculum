@@ -21,8 +21,11 @@ tags:
 
 
 ---
-## Content
+
 # Pythonic substring testing
+
+---
+## Content
 
 Perform a substring test in a pythonic fashion using the `in` operator:
  

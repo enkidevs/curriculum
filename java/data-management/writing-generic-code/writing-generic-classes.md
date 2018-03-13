@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Writing generic classes
+
+---
+## Content
 
 The following class can accept and return any type of object. It cannot, however, accept primitive types.
 ```

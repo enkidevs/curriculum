@@ -21,8 +21,11 @@ links:
 
 
 ---
-## Content
+
 # Is Python a Functional Language?
+
+---
+## Content
 
 In the last few insights we've made references to different programming languages. Some we've referred to as *pure* functional languages, such as Haskell. This begs the question: *"Is Python a functional language?"*
 

@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # String Operations
+
+---
+## Content
 
 Strings are bits of text either defined with 'single' or "double" quotations. Python has a number of build in methods which perform a variety of operations on strings.
 

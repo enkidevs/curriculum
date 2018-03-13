@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Copying an array with `System.arraycopy()`
+
+---
+## Content
 
 `System.arraycopy` can be used to copy the contents of an array to a new location in a more concise way than using a loop. For example, in order to copy content from `src` to `dest`
 

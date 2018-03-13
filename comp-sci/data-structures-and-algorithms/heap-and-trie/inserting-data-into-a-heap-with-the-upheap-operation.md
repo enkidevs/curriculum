@@ -19,8 +19,11 @@ category: how to
 
 parent: the-heap-data-structure
 ---
-## Content
+
 # Inserting Data Into a Heap With The `upheap` Operation
+
+---
+## Content
 
 How do we insert information into a heap efficiently? Consider the following (binary) max-heap:
 

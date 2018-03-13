@@ -21,8 +21,11 @@ tags:
 
 
 ---
-## Content
+
 # Filtering items out of an array
+
+---
+## Content
 
 A common pattern to filter items from an array is the following:
 

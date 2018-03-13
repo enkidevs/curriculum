@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # The `nth-child` Property
+
+---
+## Content
 
 The basic usage of the `nth-child` pseudo-class is to select a single child of the targeted element, like so:
 ```

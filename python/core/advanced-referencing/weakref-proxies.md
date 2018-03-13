@@ -19,8 +19,11 @@ links:
 parent: implementing-weak-references
 
 ---
-## Content
+
 # `weakref` proxies
+
+---
+## Content
 
 To implement weak references to objects in Python, one can use the `ref` or the `proxy` constructors.
 

@@ -22,8 +22,11 @@ links:
 
 notes: This can be also placed in the react subtopic
 ---
-## Content
+
 # Use **Redux** with **React**
+
+---
+## Content
 
 *Redux* has no relation to *React*, yet it works well with this framework as UI can be described as functions of *state*, which **Redux** can update in response to actions.
 

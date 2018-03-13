@@ -22,8 +22,11 @@ links:
 
 parent: rendering-multiple-components
 ---
-## Content
+
 # Forms in **React**
+
+---
+## Content
 
 While standard *HTML behaviour* of `<input />`, `<textarea />` or `<select />` elements work in **React**, having `JS` functions handling updates and submission is highly advised.
 

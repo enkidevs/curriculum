@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Scope and strict mode
+
+---
+## Content
 
 In **non-strict mode**, a variable not found in a **local** scope will be created in the **global** scope.
 

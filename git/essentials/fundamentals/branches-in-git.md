@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Branches in Git
+
+---
+## Content
 
 Branching allows developers to diverge from the main line of development without affecting other work.
 

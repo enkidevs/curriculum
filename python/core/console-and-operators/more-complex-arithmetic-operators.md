@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # More Complex Arithmetic Operators
+
+---
+## Content
 
 Python also supports the `**` arithmetic operator, which multiplies a number to the power of another.
 

@@ -23,8 +23,11 @@ links:
 
 parent: jsx-spread-attributes
 ---
-## Content
+
 # Destructuring arguments
+
+---
+## Content
 
 The **destructuring assignment** syntax, introduced in `ES6`, is used to extract data from either *arrays* or *objects* in distinct variables. 
 

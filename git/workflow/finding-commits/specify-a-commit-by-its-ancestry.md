@@ -17,8 +17,11 @@ category: feature
 
 
 ---
-## Content
+
 # Specify a commit by its ancestry
+
+---
+## Content
 
 To show a commit's first parent use `^` or `~`, both achieving the same thing:
 ```

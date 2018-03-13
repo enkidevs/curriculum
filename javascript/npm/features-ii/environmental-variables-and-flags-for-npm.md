@@ -18,8 +18,11 @@ links:
 
 parent: check-data-about-a-package
 ---
-## Content
+
 # Flags for `npm`
+
+---
+## Content
 
 Configuration options such as **environment variables** and **command line flags** that are used for *Node.js* are also available for the `npm` package manager.
 

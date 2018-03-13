@@ -22,8 +22,11 @@ links:
 
 parent: primality-test
 ---
-## Content
+
 # Tree Traversals
+
+---
+## Content
 
 *Tree traversal* (also known as *tree search*) is the process of visiting each node in the tree data structure once. The order in which the algorithm visits the nodes serves for classifying them.
 

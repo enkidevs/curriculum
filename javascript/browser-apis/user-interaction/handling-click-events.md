@@ -21,8 +21,11 @@ links:
 
 
 ---
-## Content
+
 # Handling click events
+
+---
+## Content
 
 JavaScript provides a way to handle different click events such as right clicks and double clicks.
 

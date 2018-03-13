@@ -24,8 +24,11 @@ links:
 
 parent: network-statistics-tools
 ---
-## Content
+
 # DNS Lookup
+
+---
+## Content
 
 **DNS** (Domain Name System) is used to map common domain names such as: `www.enki.com` to IP addresses.
 

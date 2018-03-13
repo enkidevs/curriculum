@@ -16,8 +16,11 @@ links:
 
 parent: the-linked-list-data-structure
 ---
-## Content
+
 # The Stack Data Structure
+
+---
+## Content
 
 A **stack** is a collection of objects optimized for two things:
 - adding items

@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Interactive staging
+
+---
+## Content
 
 To stage a file interactively, use the `-i` or `--interactive` option:
 ```

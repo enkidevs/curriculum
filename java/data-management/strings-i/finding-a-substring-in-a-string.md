@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Finding a substring in a string
+
+---
+## Content
 
 In order to confirm if a string contains a specific substring, we can simply use the `contains` method in the `String` class.
 

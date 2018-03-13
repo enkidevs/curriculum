@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # List contents of a directory with `newDirectoryStream`
+
+---
+## Content
 
 ```
 Path dir = Paths.get("home/dir");

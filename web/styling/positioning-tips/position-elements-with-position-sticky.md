@@ -22,8 +22,11 @@ links:
 notes: ''
 
 ---
-## Content
+
 # Position elements with  `position: sticky`
+
+---
+## Content
 
 `position: sticky` is a new way to position elements and is conceptually similar to `position: fixed`. 
 

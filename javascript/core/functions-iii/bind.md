@@ -21,8 +21,11 @@ links:
 
 
 ---
-## Content
+
 # `.bind()` 
+
+---
+## Content
 
 The `bind()` function creates a new **bound function** with the same function body as the function it is being called on. 
 

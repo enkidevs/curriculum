@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Type Inference in Generic Methods
+
+---
+## Content
 
 Type inference is a feature of generic methods which allows you to call them as if they were ordinary methods i.e. without specifying the type in between `<>`. For example:
 ```

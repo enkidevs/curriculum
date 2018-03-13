@@ -22,8 +22,11 @@ links:
 
 parent: levenshtein-distance
 ---
-## Content
+
 # Dijkstra's Algorithm
+
+---
+## Content
 
 **Dijkstra's algorithm** is an algorithm for finding the shortest paths between nodes in a *weighted graph*[1].
 

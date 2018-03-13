@@ -19,15 +19,16 @@ tags:
 
   - conditional
 
-
 links:
 
   - '[alvinalexander.com](http://alvinalexander.com/java/edu/pj/pj010018){website}'
 
+---
+
+# Ternary operator
 
 ---
 ## Content
-# Ternary operator
 
 An alternative to using an if/else statement is the use of the ternary operator, whose syntax appears below.
 ```

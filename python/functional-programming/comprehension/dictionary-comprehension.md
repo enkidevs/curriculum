@@ -24,8 +24,11 @@ notes: >
   lower case letters. 
 
 ---
-## Content
+
 # Dictionary comprehension
+
+---
+## Content
 
 Python provides a way of creating dictionaries using **dictionary comprehensions**.
 

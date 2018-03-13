@@ -23,8 +23,11 @@ links:
 
 parent: network-interfaces-tools
 ---
-## Content
+
 # Testing Internet Connectivity
+
+---
+## Content
 
 Possibly the simplest way to test the **connectivity** between your machine and a remote host is via the `ping` utility.
 

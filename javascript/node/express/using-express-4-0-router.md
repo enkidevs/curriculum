@@ -18,8 +18,11 @@ links:
 
 parent: easy-way-to-deliver-html-pages-with-express
 ---
-## Content
+
 # Using **Express 4.0** `router`
+
+---
+## Content
 
 The router in **Express** acts like a mini express application that doesn't bring in views, settings and so on, yet provides us with routing APIs.
 

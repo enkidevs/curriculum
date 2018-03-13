@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Disabling default callouts using `webkit-touch-callout`
+
+---
+## Content
 
 On iOS, when you touch and hold a touch target such as a link, the browser displays a callout containing information about the link.
 

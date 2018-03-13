@@ -25,8 +25,11 @@ notes: >-
   http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/
 
 ---
-## Content
+
 # CSS Specificity
+
+---
+## Content
 
 Although a difficult topic, understanding how properties can be overridden will make you more confident when writing CSS code.
 

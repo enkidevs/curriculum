@@ -23,8 +23,11 @@ links:
 
 
 ---
-## Content
+
 # Private constructors
+
+---
+## Content
 
 Making a constructor private prevents external callers from instantiating a class. 
 

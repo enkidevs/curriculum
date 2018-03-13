@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # `for` loops
+
+---
+## Content
 
 `for` loops are used in most programming languages to iterate over a defined sequence.
 

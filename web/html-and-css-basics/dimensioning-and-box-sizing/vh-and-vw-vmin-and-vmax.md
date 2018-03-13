@@ -21,8 +21,11 @@ links:
 notes: ''
 
 ---
-## Content
+
 # `vh` and `vw`, `vmin` and `vmax`
+
+---
+## Content
 
 Responsive web design techniques rely heavily on percentage rules. `width` is relative to the nearest containing parent element. It is possible to use the width of the viewport instead of the width of the parent element using the `vh` and `vw` units.
 

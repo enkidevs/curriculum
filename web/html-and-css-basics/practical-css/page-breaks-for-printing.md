@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Page breaks for printing
+
+---
+## Content
 
 **CSS** provide with a set of properties in order to define how a document is printed:
 - `page-break-before` : will break the page before the element on which is applied

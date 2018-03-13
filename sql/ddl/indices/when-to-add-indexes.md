@@ -31,7 +31,7 @@ links:
 
 ---
 
-# When to add Indices
+# When to Add Indices
 
 ---
 ## Content

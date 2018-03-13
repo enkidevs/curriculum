@@ -21,8 +21,11 @@ tags:
 
 
 ---
-## Content
+
 # Meaning of polyfill
+
+---
+## Content
 
 Polyfill (or polyfiller) is downloadable code which provides facilities that are not built into a web browser. It implements technology that a developer expects the browser to provide natively, providing a more uniform API landscape. 
 

@@ -22,8 +22,11 @@ links:
 
 parent: component-lifecycle-methods
 ---
-## Content
+
 # Rendering multiple components
+
+---
+## Content
 
 **React** allows the creation of `DOM` element collections by harnessing the power of pure `JS`.
 

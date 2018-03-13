@@ -19,8 +19,11 @@ category: must-know
 
 parent: informational-status-codes
 ---
-## Content
+
 # Successful status codes
+
+---
+## Content
 
 **Successful status codes** start with the digit `2`. They inform the client that the server has received and accepted a request. Moreover, in case of a `200` **OK** status code, the result of the request will be delivered as the payload of the response.
 

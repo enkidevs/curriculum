@@ -17,8 +17,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Destructuring (Part 2)
+
+---
+## Content
 
 Destructuring can also be used to work with objects.
 

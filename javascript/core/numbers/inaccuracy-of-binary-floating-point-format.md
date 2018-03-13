@@ -15,8 +15,11 @@ category: caveats
 
 
 ---
-## Content
+
 # Inaccuracy of binary floating-point format
+
+---
+## Content
 
 **JavaScript** has only one data type for representing numbers - binary floating-point format.
 

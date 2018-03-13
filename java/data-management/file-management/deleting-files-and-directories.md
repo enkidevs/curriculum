@@ -13,8 +13,11 @@ category: how to
 
 
 ---
-## Content
+
 # Deleting files and directories
+
+---
+## Content
 
 JDK provides the static `delete` method to delete files and directories.
 Basic syntax:

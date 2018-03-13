@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # The **Redux** store
+
+---
+## Content
 
 The **Redux** store is simply an object with few *methods* that holds the whole *state tree* of your application. The only way to change this state is by `dispatching` an action to the store.
 

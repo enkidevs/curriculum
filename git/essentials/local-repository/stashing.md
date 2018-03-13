@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Stashing
+
+---
+## Content
 
 Another highly useful feature of **Git** allows you to _set aside_ current work; usually in order to switch branches without losing uncommitted changes.
 

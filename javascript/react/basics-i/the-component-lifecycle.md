@@ -23,8 +23,11 @@ links:
 
 parent: functional-components
 ---
-## Content
+
 # The **component** lifecycle
+
+---
+## Content
 
 **Lifecycle methods** are special methods that can be overridden by a **React** `component` to run code at a particular point in time.
 

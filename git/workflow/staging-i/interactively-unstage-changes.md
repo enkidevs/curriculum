@@ -18,8 +18,11 @@ links:
 parent: interactively-stage-patches
 
 ---
-## Content
+
 # Interactively unstage changes
+
+---
+## Content
 
 In the same way that you can interactively stage changes, you can interactively unstage changes using `git reset` with the `--patch` option.
 

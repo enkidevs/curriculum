@@ -23,8 +23,11 @@ links:
 
 
 ---
-## Content
+
 # Use `@Ignore` to disable JUnit tests
+
+---
+## Content
 
 Sometimes it is appropriate to disable a test or set of tests. Perhaps the feature which is supposed to be tested has not yet been implemented.
 

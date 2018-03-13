@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Flexbox `justify-content`
+
+---
+## Content
 
 In Flexbox, there are many useful values for `justify-content` property. `space-between` and `space-around` are the most helpful two to distribute elements along the `flex-direction` _(x-axis by default)_:
 

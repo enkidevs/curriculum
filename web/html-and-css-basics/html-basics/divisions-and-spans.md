@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Divisions and Spans
+
+---
+## Content
 
 Divisions, or `<div>`s and `<span>`s are elements used for styling. They do not have any semantic value as they are generic containers.
 

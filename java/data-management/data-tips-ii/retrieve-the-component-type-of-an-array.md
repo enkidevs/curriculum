@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # Retrieve the component type of an array
+
+---
+## Content
 
 If the *type* of components in an array is unknown, they can be retrieved by using the `getComponentType()` method. This method will return the Class representing the element type of the array.
 

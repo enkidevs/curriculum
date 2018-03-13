@@ -17,8 +17,11 @@ links:
 
 
 ---
-## Content
+
 # What Are Annotations?
+
+---
+## Content
 
 *Annotations* are a way of describing the code without changing its functionality (in most cases). We can think of annotations as comments which compiler or JVM understand and can suppress or raise compile and run time errors.
 

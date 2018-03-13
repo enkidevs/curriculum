@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Autohiding scrollbars for **IE**
+
+---
+## Content
 
 Note this only works in **Edge** and **IE 10/11** .
 Instead of always showing a scrollbar, you can make it only show when needed :

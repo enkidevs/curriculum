@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Sass Extend/Inheritance
+
+---
+## Content
 
 The `@extend` feature of *Sass* is one of its most useful features. Using `@extend` allows you to share a set of CSS properties between different selectors.
 

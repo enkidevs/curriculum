@@ -22,8 +22,11 @@ links:
 
 parent: module-patterns
 ---
-## Content
+
 # Consuming events
+
+---
+## Content
 
 Node applications are event driven applications, an event occurs upon a change of state in an application, for example, a button being clicked, or data being inputted.
 

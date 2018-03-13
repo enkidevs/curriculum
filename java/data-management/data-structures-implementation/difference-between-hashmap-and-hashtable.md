@@ -22,8 +22,11 @@ links:
 
 notes: 
 ---
-## Content
+
 # Difference between ```HashMap``` and ```Hashtable```
+
+---
+## Content
 
 Both `HashMap` and `Hashtable` implement Map interface but there are some significant differences between them. 
 

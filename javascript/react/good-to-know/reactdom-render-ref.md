@@ -20,8 +20,11 @@ links:
 
 parent: custom-proptype-s-to-be-required
 ---
-## Content
+
 # `ReactDOM.render` ref
+
+---
+## Content
 
 Even though *reactive* data flow always ensures that latest props are sent to each child outputted from `render()`, there are few cases where it's necessary or beneficial to *reach out* to component instances. This is done via `refs` (references).
 

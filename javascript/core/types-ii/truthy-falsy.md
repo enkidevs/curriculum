@@ -14,8 +14,11 @@ category: must-know
 inAlgoPool:
 
 ---
-## Content
+
 # Truthy Falsy
+
+---
+## Content
 
 All values in JavaScript have a special inherit *boolean* value of either *true* or *false*.
 

@@ -25,8 +25,11 @@ tags:
 
 
 ---
-## Content
+
 # Disable resizable property of `textarea`
+
+---
+## Content
 
 To disable the resizing behavior of `textarea` elements, do the following:
 

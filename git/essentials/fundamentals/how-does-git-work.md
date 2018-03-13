@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # How does Git work?
+
+---
+## Content
 
 Being able to use **Git** effectively requires understanding how it works on a fundamental level.
 

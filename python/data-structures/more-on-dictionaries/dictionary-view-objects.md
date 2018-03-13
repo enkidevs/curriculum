@@ -17,8 +17,11 @@ links:
 parent: dictionary-standard-mapping-type
 
 ---
-## Content
+
 # `Dictionary` view objects
+
+---
+## Content
 
 Dictionaries provide the following methods:
 ```python

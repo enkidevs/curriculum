@@ -15,8 +15,11 @@ category: must-know
 
 
 ---
-## Content
+
 # Locate a commit by its hash
+
+---
+## Content
 
 To identify a commit, git only requires the user to specify the first four characters of the hash (checksum), although it is generally better to use at least seven characters.
 

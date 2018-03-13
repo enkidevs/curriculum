@@ -19,8 +19,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Why use Symbols 2
+
+---
+## Content
 
 Probably the primary use of symbols is to introduce changes into EcmaScript. We can this in action with *iterators*.
 

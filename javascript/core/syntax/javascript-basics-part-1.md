@@ -14,8 +14,11 @@ category: must-know
 inAlgoPool:
 
 ---
-## Content
+
 # JavaScript Basics - Part 1
+
+---
+## Content
 
 Like most programming languages, JavaScript has a number of rules its code must adhere to.
 

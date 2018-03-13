@@ -17,8 +17,11 @@ category: tip
 
 
 ---
-## Content
+
 # Combining multiple lists, item by item
+
+---
+## Content
 
 The built-in `zip` function can be used to zip lists together.
 

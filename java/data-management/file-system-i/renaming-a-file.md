@@ -17,8 +17,11 @@ links:
 
 
 ---
-## Content
+
 # Renaming a File
+
+---
+## Content
 
 In this workout we will discuss some features that can be done with the files and directories using *Java* language. *File* class is part of the *java.io* library and has a lot of inbuilt functionality. More information on what cool features it has can be found in Oracle documentation.
 

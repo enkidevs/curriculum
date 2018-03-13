@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Flow control using _co_
+
+---
+## Content
 
 _co_ is a **flow control program**, which uses **generators** and **promises**. Use it to write non-blocking code more cleanly. It can be used in the browser and with Node.js.
 

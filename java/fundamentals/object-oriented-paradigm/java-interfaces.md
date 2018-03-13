@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Java Interfaces
+
+---
+## Content
 
 As the name says, **interfaces** in Java are a way to present *objects* to the world.  
 

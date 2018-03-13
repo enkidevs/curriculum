@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Load custom fonts on a web page using `@font-face`
+
+---
+## Content
 
 Custom fonts are hosted server-side and downloaded then displayed using CSS.
 

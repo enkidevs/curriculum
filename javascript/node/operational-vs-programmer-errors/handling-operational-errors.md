@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Handling Operational Errors
+
+---
+## Content
 
 There isn't a single place in the application where errors can pop up, so you should be prepared to handle them wherever you are making a HTTP request, performing I/O operations, forking processes or validation input. You may end up handling the same error at different points of the stack, since those functions can't do more than passing the error.
 

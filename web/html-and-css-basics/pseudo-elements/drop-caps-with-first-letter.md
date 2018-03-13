@@ -22,8 +22,11 @@ notes: >-
   http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/
 
 ---
-## Content
+
 # Drop caps with `::first-letter`
+
+---
+## Content
 
 Using the `::first-line` and `::first-letter` pseudo elements that have been  introduced in CSS1, a nice typographic effect like a drop cap can be achieved.
 

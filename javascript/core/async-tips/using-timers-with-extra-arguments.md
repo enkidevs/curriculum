@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Using timers with extra arguments
+
+---
+## Content
 
 Both `setTimeout` and `setInterval` are a _W3C HTML5_ specification, available as global methods in both client and server engines.
 

@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # `Border-radius` property can use `slash syntax(/)`
+
+---
+## Content
 
 ```css
 .box {

@@ -20,8 +20,11 @@ links:
 
 notes: https://insights.enki.com/#/contrib/others/55f00de0f457f33b00621144?search=khandelwalrinki
 ---
-## Content
+
 # Why use `volatile` `long` or `double`
+
+---
+## Content
 
 When multi threading read/writes operations with 64 bit values, you need to take into consideration that `long` and `double` values are not atomic. That means that a single write or read is treated as two separate operations: one to each `32 bit` half.
 

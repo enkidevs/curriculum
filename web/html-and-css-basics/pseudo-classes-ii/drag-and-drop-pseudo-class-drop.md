@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # Drag-and-Drop pseudo-class `:drop`
+
+---
+## Content
 
 The `:drop` selector allows styling of the drop zone (the place where the element is supposed to be dropped), during the time when the user is dragging (or carrying) the element to be dropped.
 

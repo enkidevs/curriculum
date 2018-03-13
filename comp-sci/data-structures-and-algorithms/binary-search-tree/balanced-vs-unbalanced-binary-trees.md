@@ -22,8 +22,11 @@ links:
 
 parent: removing-keys-from-a-binary-search-tree
 ---
-## Content
+
 # Balanced vs. Unbalanced Binary Trees
+
+---
+## Content
 
 A binary tree is called *balanced* if every leaf node is not more than a certain distance away from the root than any other leaf.  That is, if we take any two leaf nodes (including empty nodes), the distance between each node and the root is approximately the same.  In most cases "approximately the same" means the distance between the leaf and the root is not greater than 1, but the exact number can vary from application to application.
 

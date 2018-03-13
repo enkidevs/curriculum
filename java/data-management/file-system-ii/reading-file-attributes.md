@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Reading file attributes
+
+---
+## Content
 
 The `Files` class contains several methods for reading individual file attributes; for example `Files.size(path)` retrieves the file size in bytes.
 

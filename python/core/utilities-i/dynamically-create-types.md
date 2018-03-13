@@ -31,8 +31,11 @@ links:
 notes: this should be linked to python metaclasses insight
 
 ---
-## Content
+
 # Dynamically create types
+
+---
+## Content
 
 In *Python* every **class** is an instance of so called **metaclass**. This means that we can create new classes without `class` structure by calling `type` function[1]:
 ```

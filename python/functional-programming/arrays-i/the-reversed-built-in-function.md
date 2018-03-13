@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # The `reversed` Built-in Function
+
+---
+## Content
 
 The `reversed` built-in allows us to create an iterator for an iterable sequence of objects which iterates through the collection in reverse order. For `reversed` to work, the object passed to it as an argument must implement the `__reversed__()` method or otherwise support the `__len__()` and `__getitem__()`[1] methods with integer arguments. `reversed` takes the syntax:
 

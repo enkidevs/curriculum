@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Why learn Python?
+
+---
+## Content
 
 Python was designed in a way that is easy to understand and to read. It uses English keywords and doesn't require long variable declarations or the use of curly brackets for functions and classes.
 

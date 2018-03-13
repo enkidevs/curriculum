@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Checking for the existence of files and directories
+
+---
+## Content
 
 When performing operations on files, it is useful to be able to check whether expected files or directories actually exist.
 

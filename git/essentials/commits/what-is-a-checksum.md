@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # What is a checksum?
+
+---
+## Content
 
 In git a **checksum** is a **SHA-1 hash**, which is a 40-character string of hexadecimal characters. 
 

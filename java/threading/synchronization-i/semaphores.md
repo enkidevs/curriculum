@@ -13,8 +13,11 @@ category: pattern
 
 
 ---
-## Content
+
 # Semaphores
+
+---
+## Content
 
 Semaphores are very similar to locks, the only difference is that they allow multiple threads/processes to enter the *critical section*[1].
 

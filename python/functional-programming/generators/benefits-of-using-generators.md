@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Benefits of using generators
+
+---
+## Content
 
 Generators are functions which behave like iterators, but can have better performance characteristics. These include:   
 

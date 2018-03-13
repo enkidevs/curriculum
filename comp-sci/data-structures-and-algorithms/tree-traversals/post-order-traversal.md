@@ -19,8 +19,11 @@ category: must-know
 
 parent: in-order-traversal
 ---
-## Content
+
 # Post-order Traversal
+
+---
+## Content
 
 **Post-order traversal** is a type of *depth-first traversal* in which the root of the tree is visited after the right child. It only makes sense for *binary trees*.
 

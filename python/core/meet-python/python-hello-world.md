@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Hello World!
+
+---
+## Content
 
 We can write our first Python program, and print Hello World to the console!
 

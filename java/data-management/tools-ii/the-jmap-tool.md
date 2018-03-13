@@ -19,8 +19,11 @@ links:
 
 notes: https://insights.enki.com/#/contrib/others/55f42618da97642e00a78196?search=khandelwalrinki
 ---
-## Content
+
 # The `jmap` tool
+
+---
+## Content
 
 `jmap` - Memory Map: Prints shared object memory maps or heap memory details of a given JVM process or a Java core file on the local machine. It can also used with the `jsadebugd` daemon to query a process or core file on a remote machine.
 

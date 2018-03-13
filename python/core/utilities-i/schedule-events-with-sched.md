@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Schedule events with `sched`
+
+---
+## Content
 
 Another useful **Python** module is `sched` and it's used for general purpose event scheduling.
 

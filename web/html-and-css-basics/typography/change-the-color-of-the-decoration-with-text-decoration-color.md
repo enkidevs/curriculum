@@ -20,8 +20,11 @@ parent: underline-feature-on-html-elements
 notes: 'https://css-tricks.com/more-control-over-text-decoration/'
 
 ---
-## Content
+
 # Change the color of the decoration with `text-decoration-color`
+
+---
+## Content
 
 The default for the color of the decoration lines is the same as the `color` of the text. But you can change that:
 

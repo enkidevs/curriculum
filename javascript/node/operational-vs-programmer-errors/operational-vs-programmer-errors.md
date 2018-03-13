@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Operational vs. Programmer Errors
+
+---
+## Content
 
 Errors in Node start off as scary. What if my server dies when there are hundreds of people connected? Do I restart it and disconnect all users? Do I handle all the possible errors such that no unwanted restart is needed?
 

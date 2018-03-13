@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Merging
+
+---
+## Content
 
 Merging is the operation of joining two or more development histories (branches)  together.
 

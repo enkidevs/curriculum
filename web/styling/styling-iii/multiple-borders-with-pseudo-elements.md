@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Multiple borders with pseudo elements
+
+---
+## Content
 
 `::after` and `::before` pseudo-elements can be used to add more borders to an element.
 These must be either set being larger and behind the element or smaller and inside (but parent element must be positioned on top).

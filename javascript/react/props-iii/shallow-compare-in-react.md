@@ -23,8 +23,11 @@ notes:
 
 parent: custom-proptype-s-to-be-required
 ---
-## Content
+
 # Shallow compare in **React**
+
+---
+## Content
 
 A performance boost can be achieved with the helper function `shallowCompare` when used on a **React** component render function that is *"pure"*.
 

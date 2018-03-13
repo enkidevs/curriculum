@@ -16,8 +16,11 @@ links:
 
 notes: This can used as the first insight on Express subtopic
 ---
-## Content
+
 # Basic web server with Express
+
+---
+## Content
 
 Express JavaScript is a tiny and flexible Node.js framework, providing robust features for **middleware implementation**,  **routing** and **dynamic rendering** of HTML pages.
 

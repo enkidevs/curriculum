@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Custom exceptions as classes
+
+---
+## Content
 
 On top of the built-in exceptions, you can also define custom ones, by extending the `Exception` class:
 

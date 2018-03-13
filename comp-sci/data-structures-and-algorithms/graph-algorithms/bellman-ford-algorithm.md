@@ -22,8 +22,11 @@ links:
 
 parent: dijkstras-iteration
 ---
-## Content
+
 # Bellman-Ford Algorithm
+
+---
+## Content
 
 **Bellman-Ford algorithm** computes the shortest paths from a single source vertex to all the other vertices in a *weighted graph*. The difference between *Dijkstra's* and *Bellman-Ford* is that the latter, even if it is slower, works for graphs with *negative weighted* edges.
 

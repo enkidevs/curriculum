@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Function arguments
+
+---
+## Content
 
 Functions can be called using any of the following types of arguments (also called parameters):
 - Required arguments

@@ -28,8 +28,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Classes and Constructor
+
+---
+## Content
 
 It has always been possible to simulate classical inheritance in JavaScript, however it comes with a number of gotcha's and caveats, and is widely regarded as "not nice to work with".
 

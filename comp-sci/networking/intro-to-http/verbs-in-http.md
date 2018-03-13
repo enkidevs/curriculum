@@ -23,8 +23,11 @@ links:
 
 parent: what-are-status-codes
 ---
-## Content
+
 # Verbs in HTTP
+
+---
+## Content
 
 While *URLs* indicate the location to which an HTTP request is sent, the action to be performed by the server is specified by the **HTTP verbs**.
 

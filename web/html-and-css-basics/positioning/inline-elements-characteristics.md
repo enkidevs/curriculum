@@ -19,8 +19,11 @@ links:
 notes: 'http://www.webcredible.com/blog-reports/css/more-css-tricks.shtml'
 
 ---
-## Content
+
 # Inline Elements Characteristics
+
+---
+## Content
 
 An inline element has the following characteristics:
 

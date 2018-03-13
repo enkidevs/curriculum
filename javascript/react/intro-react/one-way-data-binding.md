@@ -17,8 +17,11 @@ links:
 
 parent: what-is-jsx
 ---
-## Content
+
 # One way data binding
+
+---
+## Content
 
 **React** encourages **unidirectional data flow** by design, making it the canonical example of this approach nowadays.
 

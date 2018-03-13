@@ -18,8 +18,11 @@ links:
 
 notes: https://insights.enki.com/#/contrib/55ae3539d457944f00962ca4
 ---
-## Content
+
 # Fields with Java **Reflection API**
+
+---
+## Content
 
 As a part of the **Reflection API**, the `java.lang.reflect.Field` class represents a generic *field* in a class or interface, allowing the programmatic retrieval of field information (name, value, annotations), or even modification of a field.
 

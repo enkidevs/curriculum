@@ -23,8 +23,11 @@ links:
 
 
 ---
-## Content
+
 # Unicode character database at your hands
+
+---
+## Content
 
 Python's self explanatory module called `unicodedata` provides the user with access to the **Unicode Character Database** and implicitly every character's properties.
 

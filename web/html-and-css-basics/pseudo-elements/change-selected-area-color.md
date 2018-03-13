@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Change selected area color
+
+---
+## Content
 
 Highlighted text area colors can be easily change with the `::selection` pseudo element. 
 

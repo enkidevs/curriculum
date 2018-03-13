@@ -14,11 +14,12 @@ type: normal
 category: tip
 
 
+---
 
-notes: 
+# Prefix and postfix of increment operators
+
 ---
 ## Content
-# Prefix and postfix of increment operators
 
 Java supports 2 forms of shorter incrementation of variables:
 

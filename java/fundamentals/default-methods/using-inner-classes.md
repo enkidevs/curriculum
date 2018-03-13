@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Using inner classes
+
+---
+## Content
 
 It is possible to nest a class within another class. A non-static nested class is called an inner class. Inner classes are defined the same way as other classes, but within the definition of an outer class:
 ```

@@ -15,8 +15,11 @@ category: tip
 
 notes: Hope it's not too basic
 ---
-## Content
+
 # Multiple Relational Operators
+
+---
+## Content
 
 Consider:
 

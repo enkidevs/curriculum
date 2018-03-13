@@ -23,8 +23,11 @@ links:
 
 parent: tools-to-interact-with-networks
 ---
-## Content
+
 # Network Statistics
+
+---
+## Content
 
 Short for *Network Statistics*, the `netstat` command is a simple, yet powerful tool that provides useful information about your network configuration and activity.
 

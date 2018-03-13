@@ -20,8 +20,11 @@ links:
 
 parent: easy-way-to-deliver-html-pages-with-express
 ---
-## Content
+
 # Log with `morgan` in **Express**
+
+---
+## Content
 
 To use the new **HTTP** logger (called `morgan`) from **Express 4.0** you need to install:
 ```bash

@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Increase performance with `PROCESS.ENV`
+
+---
+## Content
 
 Each process is linked to a set of **environmental variables** that your application can use for various configurations.
 

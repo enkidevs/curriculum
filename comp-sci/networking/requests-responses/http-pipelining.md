@@ -23,8 +23,11 @@ links:
 
 parent: a-response-example
 ---
-## Content
+
 # Http pipelining
+
+---
+## Content
 
 **HTTP pipelining** is a technique in which multiple *requests* are sent on a single `TCP` connection, without waiting for the corresponding *responses*.
 

@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Strings in SassScript
+
+---
+## Content
 
 There are two types of strings in CSS and both of these are recognised in *SassScript*. The first is `"with quotations"`, and the second is `without quotations`.
 

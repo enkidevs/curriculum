@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Compare sequences with `difflib`
+
+---
+## Content
 
 Another useful Python module  crafted for comparing sequences (even files and text) is `difflib`.
 

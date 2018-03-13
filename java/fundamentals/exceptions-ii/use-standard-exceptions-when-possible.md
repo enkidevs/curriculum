@@ -25,8 +25,11 @@ links:
 
 
 ---
-## Content
+
 # Use standard exceptions when possible
+
+---
+## Content
 
 It is best to avoid creating your own exceptions if there are already existing standard exceptions which serve the same purpose. Most Java developers will be familiar with standard exceptions; so using them will make your code easier to understand for other people. 
 

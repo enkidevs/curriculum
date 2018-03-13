@@ -21,8 +21,11 @@ links:
 
 
 ---
-## Content
+
 # Why Functional Programming?
+
+---
+## Content
 
 In this insight, we'll go a little deeper into the concept of functional programming by analyzing the benefits and drawbacks it can provide. Most of these points are applicable to functional programming in general and not specifically to functional programming within Python.
 

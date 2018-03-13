@@ -15,8 +15,11 @@ category: must-know
 
 
 ---
-## Content
+
 # Rebasing
+
+---
+## Content
 
 The `git rebase` command is a way to combine branches.
 

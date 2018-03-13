@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Python Debugger
+
+---
+## Content
 
 The **Python debugger** comes as a module called `pdb`, which is part of the **standard Python** distribution. 
 

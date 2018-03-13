@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Making shapes with `transform`
+
+---
+## Content
 
 `Rotate` certain shapes using `transform` can be used to obtain other shapes.
 

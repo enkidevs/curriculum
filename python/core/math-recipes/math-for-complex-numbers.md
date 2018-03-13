@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Math for complex numbers
+
+---
+## Content
 
 Another module for mathematical operations is available by default in Python. `cmath` is specialised for operations on complex numbers.
 

@@ -21,8 +21,11 @@ tags:
 
 
 ---
-## Content
+
 # Underline feature on HTML elements
+
+---
+## Content
 
 To remove the natural underline feature that comes with `a` elements:
 

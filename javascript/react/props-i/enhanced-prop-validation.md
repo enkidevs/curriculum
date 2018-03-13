@@ -19,8 +19,11 @@ category: how to
 
 parent: default-values-for-props
 ---
-## Content
+
 # Enhanced `props` Validation
+
+---
+## Content
 
 In addition to standard *prop validations* for *JavaScript* primitives there are other types available through `React.PropTypes`.
 

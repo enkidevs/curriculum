@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Difference between **.call** and **.apply** methods
+
+---
+## Content
 
 The main difference between the two methods is the way they handle arguments.
 

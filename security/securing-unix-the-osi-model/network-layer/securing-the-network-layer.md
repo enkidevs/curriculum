@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Securing the Network Layer
+
+---
+## Content
 
 The Network Layer is most vulnerable to malicious **packets** coming in to your network through the Internet. The quintessential control for the Network Layer is a physical firewall. This will protect your network from external threats by routing packets to specific network nodes and dropping ones that are not anticipated. Some network nodes, such as modern routers, servers, and personal computers, come with software firewalls. These create an additional layer of security for the end node by forwarding packets to the desired applications and dropping unexpected packets.
 

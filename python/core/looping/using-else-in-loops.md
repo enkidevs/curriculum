@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Using `else` in loops
+
+---
+## Content
 
 Unlike other programming languages such as C, Python allows the use of `else` statements with loops.
 

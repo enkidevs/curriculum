@@ -22,8 +22,11 @@ links:
 
 parent: how-to-publish-your-own-packages
 ---
-## Content
+
 # Check the details of a package
+
+---
+## Content
 
 You can get details about your package or other packages using:
 ```bash

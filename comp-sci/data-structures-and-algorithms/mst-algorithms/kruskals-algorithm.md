@@ -22,8 +22,11 @@ links:
 
 parent: traveling-salesman-problem
 ---
-## Content
+
 # Kruskal's Algorithm
+
+---
+## Content
 
 **Kruskal's algorithm** is an algorithm that finds a *minimum spanning tree*[1] in a *weighted graph*[2]. The applications of minimum spanning trees are numerous: any type of network design (electrical, roads), data cluster analysis, process control, etc.
 

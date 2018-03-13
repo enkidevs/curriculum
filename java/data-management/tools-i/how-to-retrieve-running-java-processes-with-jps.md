@@ -21,8 +21,11 @@ links:
 
 notes: https://insights.enki.com/#/contrib/others/55f4294ed7d6642d0011872b?search=khandelwalrinki
 ---
-## Content
+
 # How to retrieve running java processes with `jps`
+
+---
+## Content
 
 The Java Virtual Machine has a `jps` tool used in order to list all the running java processes of the current user from within the command line terminal.
 

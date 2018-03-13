@@ -22,8 +22,11 @@ links:
 
 notes: https://insights.enki.com/#/contrib/others/55f43176da97642e00a78199?search=khandelwalrinki
 ---
-## Content
+
 # Intro to `JConsole`
+
+---
+## Content
 
 `JConsole` is a graphical monitoring tool to monitor *Java Virtual Machine* and *Java *applications both on a local or remote machine.
 

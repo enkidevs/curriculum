@@ -17,8 +17,11 @@ links:
 
 parent: what-is-a-packet
 ---
-## Content
+
 # What is a protocol?
+
+---
+## Content
 
 **Networks** enable two or more devices to *communicate*.
 

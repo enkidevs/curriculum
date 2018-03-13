@@ -17,8 +17,11 @@ category: tip
 
 
 ---
-## Content
+
 # Master and Worker Process Communication
+
+---
+## Content
 
 Messages can be sent between the *master* process and its *worker* processes to assign tasks, return that tasks are completed, and other operations.
 

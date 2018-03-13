@@ -23,8 +23,11 @@ links:
 parent: securing-the-physical-layer
 
 ---
-## Content
+
 # Identifying the Data Link Layer
+
+---
+## Content
 
 The Data Link Layer (Layer 2) is responsible for data transfer between two physical devices (or **nodes**) in a wide area network (WAN) or local area network (LAN). The Data Link Layer takes the form of both physical ethernet connections and wireless networking and the protocols that facilitate the transfer between them. Devices on this layer are identified by their media access control (MAC) address.
 

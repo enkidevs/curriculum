@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Use attribute selectors with empty links
+
+---
+## Content
 
 Display links when the `<a>` element has no text value but the `href` attribute has an external link:
 ```

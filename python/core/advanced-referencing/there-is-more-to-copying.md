@@ -19,8 +19,11 @@ links:
 
 
 ---
-## Content
+
 # There is more to copying
+
+---
+## Content
 
 An **assignment** only creates a "binding" (an association) between a name and a "target" (object of some type). A  **copy** is sometimes necessary so you can change the value of one object without changing the other (when two names are pointing to the same object).
 ```python

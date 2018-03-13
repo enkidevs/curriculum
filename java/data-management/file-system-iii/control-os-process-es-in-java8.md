@@ -16,8 +16,11 @@ links:
 
 notes: https://insights.enki.com/#/contrib/others/55c838333d25fc2e0079a878?search=khandelwalrinki
 ---
-## Content
+
 # Control OS `Process`es in `Java8`
+
+---
+## Content
 
 Launching an OS process from within your code can have unexpected results or result to bad exceptions down the line.
  The problem with launching a process from within Java code so far has been the difficulty to control a process once it has been launched.

@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Chain comparison operators
+
+---
+## Content
 
 Python provides a syntactic shortcut for chaining comparison operators.
 

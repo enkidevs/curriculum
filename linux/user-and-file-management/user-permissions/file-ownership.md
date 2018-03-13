@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # File Ownership
+
+---
+## Content
 
 On Linux, every file and directory is given both a user owner and a group owner.  You can use `ls -l` or `ls -ld` to see which user and group owns a specific file or directory (respectively).
 

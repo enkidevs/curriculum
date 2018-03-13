@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Combine *reducers* in **Redux**
+
+---
+## Content
 
 When applications become more complex, the *reduction function* can and should be split into separate functions, managing different parts of the **state** as to keep the code logic tidy and scalable. This is done by using the special method `combineReducers()`.
 

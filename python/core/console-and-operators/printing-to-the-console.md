@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Printing to the console!
+
+---
+## Content
 
 Python's simplest directive is the `print` directive, it simply prints out a line, and incorporates a new line. 
 

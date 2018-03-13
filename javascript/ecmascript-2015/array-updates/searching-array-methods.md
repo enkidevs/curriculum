@@ -32,8 +32,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Searching Arrays
+
+---
+## Content
 
 Arrays added a number of prototype methods in ES6 for improved ease of searching Arrays.
 

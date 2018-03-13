@@ -13,8 +13,11 @@ category: must-know
 
 parent: package-json
 ---
-## Content
+
 # Semantic versioning
+
+---
+## Content
 
 It's almost always better to use the newest version of a package as it often offers fixes or improvements to its functionality. As a package maintainer it is important to communicate any changes made in a release as it may break code[1] depending on the package.
 

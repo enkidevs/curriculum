@@ -18,8 +18,11 @@ links:
 
 notes: 
 ---
-## Content
+
 # Generating a compact Java code
+
+---
+## Content
 
 If you're trying to make your code more compact the obvious step would be to JAR all the files. There is however a way to make JAR files even smaller. Most of the modern code obfuscators are replacing long class/method, variables names 
 (for example: CalculatingNumberOfThreads) by shorter, just 2-3 characters.

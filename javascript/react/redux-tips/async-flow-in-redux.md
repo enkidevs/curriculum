@@ -23,8 +23,11 @@ links:
 
 notes: This insight should be given right before or after the specific Middleware insight. ( 56a2137805a87a0600cfa409 )
 ---
-## Content
+
 # Async flow in **Redux**
+
+---
+## Content
 
 The default **Redux** store only supports synchronous data flow. However, with the help of `middleware` asynchronous data flow is also possible.
 

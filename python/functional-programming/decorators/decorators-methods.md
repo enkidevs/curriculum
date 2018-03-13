@@ -13,8 +13,11 @@ category: must-know
 
 
 ---
-## Content
+
 # Decorators and methods
+
+---
+## Content
 
 There's a distinction to be made regarding *functions* and *methods*. In Python, every *subroutine* is a called a function. **Methods**, on the other hand, are those functions that are part of an object.
 

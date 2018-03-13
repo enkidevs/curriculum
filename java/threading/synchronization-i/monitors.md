@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Monitors
+
+---
+## Content
 
 Unlike the two previous patters **monitors** are higher class synchronization mechanisms. **Monitor** functionality can be accessed by multiple threads.
 

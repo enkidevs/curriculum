@@ -19,8 +19,11 @@ links:
 notes: ''
 
 ---
-## Content
+
 # Stashing changes
+
+---
+## Content
 
 If you want to switch branches but aren't ready to commit the work on your current branch, you can stash the changes on the stack:
 ```

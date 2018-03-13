@@ -19,8 +19,11 @@ links:
 parent: use-box-sizing-to-define-an-element-s-width-and-height-properties
 
 ---
-## Content
+
 # Inherit `box-sizing`
+
+---
+## Content
 
 Say you want to set `box-sizing` `border-box` to every element in the page:
 

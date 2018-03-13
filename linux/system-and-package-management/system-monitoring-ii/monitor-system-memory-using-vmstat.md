@@ -25,8 +25,11 @@ tags:
 
 
 ---
-## Content
+
 # Monitor System Memory using `vmstat`
+
+---
+## Content
 
 `vmstat` allows the user to monitor virtual
 memory statistics such as processes, memory,

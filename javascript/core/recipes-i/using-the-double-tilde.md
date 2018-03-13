@@ -21,8 +21,11 @@ tags:
 
 
 ---
-## Content
+
 # Using the double tilde `~~`
+
+---
+## Content
 
 The double tilde `~~` is a quick way to truncate a value to an integer. For example:
 

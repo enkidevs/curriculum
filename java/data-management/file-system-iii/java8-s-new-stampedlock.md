@@ -16,8 +16,11 @@ links:
 
 notes: https://insights.enki.com/#/contrib/others/55f038e0f457f33b0062114c?search=kha
 ---
-## Content
+
 # Java8's new `StampedLock`
+
+---
+## Content
 
 `ReadWriteLock` interface was introduced because `synchronized` blocks would not grant the ability to have more than one thread in a critical situation, for example where multiple threads are trying to edit some data, and others to simply read it.
 ```java

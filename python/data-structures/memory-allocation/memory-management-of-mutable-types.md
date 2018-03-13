@@ -13,8 +13,11 @@ category: must-know
 
 
 ---
-## Content
+
 # Memory Allocation and Mutable Types
+
+---
+## Content
 
 You also have access to *mutable types*: lists, dictionaries, classes and their instances etc. Consider the following code snippets that use the same `mem_loc()` function defined in the previous insight:
 ```python

@@ -19,8 +19,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Chaining Promises
+
+---
+## Content
 
 Promises advantages really become apparent when you start working with more complex flows and multiple promises. 
 

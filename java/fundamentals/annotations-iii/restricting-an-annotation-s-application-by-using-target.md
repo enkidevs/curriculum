@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Restricting an annotation's application by using `@Target`
+
+---
+## Content
 
 The type of element that an annotation can be applied to can be restricted using the `@Target` meta-annotation. 
 

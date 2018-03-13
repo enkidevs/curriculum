@@ -19,8 +19,11 @@ category: tip
 
 
 ---
-## Content
+
 # Master Processes and Worker Processes
+
+---
+## Content
 
 The *Cluster* module allows you to identify the master process as follows:
 ```javascript

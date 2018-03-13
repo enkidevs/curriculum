@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Deadlock Dynamic Avoidance
+
+---
+## Content
 
 A much better approach which allows more concurrency with avoidance of deadlocks is aimed to monitor the system and to decide whether it is or it is not safe to grant the resource on every request. Such can be done by performing *Banker's Algorithm*: all the states are split to **safe** and **unsafe**.
 

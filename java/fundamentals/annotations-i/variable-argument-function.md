@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Variable Argument Function
+
+---
+## Content
 
 **VarArgs** allows a function to accept a variable number of arguments in multiple forms. For example, assume that our function takes `Strings` as arguments:
 ```java

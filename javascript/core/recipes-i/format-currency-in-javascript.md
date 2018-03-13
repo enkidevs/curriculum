@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Format currency in JavaScript
+
+---
+## Content
 
 The function below will ensure numbers are correctly rounded to 2 decimal places and prevent some null errors: 
 

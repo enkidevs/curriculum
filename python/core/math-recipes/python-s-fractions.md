@@ -21,8 +21,11 @@ links:
 notes: Math modules workout
 
 ---
-## Content
+
 # Python's `fractions`
+
+---
+## Content
 
 Support for rational number arithmetic can be achieved using Python's  `fractions` module.
 

@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Arithmetic Operators
+
+---
+## Content
 
 Similar to other programming languages, Python allows the use of standard arithmetic operators with numbers.
 

@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Positioning Elements
+
+---
+## Content
 
 Now that you can tell how much space an element takes when rendered based on its properties, the next step is to position it in the page layout. Three *basic* ways to position elements are: *relative positioning*, *absolute positioning* and *floating* them.
 

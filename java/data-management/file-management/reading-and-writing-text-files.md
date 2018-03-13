@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Reading and writing text files
+
+---
+## Content
 
 Java has various I/O classes for reading and writing files. The `FileReader` and `FileWriter` classes can be used to read from and write to text files.
 

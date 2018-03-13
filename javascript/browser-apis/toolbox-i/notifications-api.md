@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Notifications API
+
+---
+## Content
 
 The Notifications API displays desktop notifications to the user and is a great way to alert the user of important events occurring in the application. 
 

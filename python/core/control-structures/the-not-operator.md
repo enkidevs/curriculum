@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # The `not` operator
+
+---
+## Content
 
 Using Python's `not` operator pre boolean expression will simply negate it.
 

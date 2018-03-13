@@ -21,8 +21,11 @@ links:
 parent: bytes-type
 
 ---
-## Content
+
 # `bytearray` objects
+
+---
+## Content
 
 The **mutable** counterpart of the `bytes` object is the `bytearray` object. 
 

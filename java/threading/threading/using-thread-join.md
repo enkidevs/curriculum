@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Using `Thread.join`
+
+---
+## Content
 
 On the other hand, `join()` method is not static and is specific to every thread. The key point of this function is to wait until the thread finishes running and terminates. This can be useful when each of the running threads performs a calculation and then you want to combine the results in some way. In order to do that you must ensure that all the threads have finished their calculations otherwise it will result a wrong answer in the end.
 

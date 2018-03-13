@@ -25,8 +25,11 @@ notes: >-
   handles the StopIteration and uses it to terminate the loop.
 
 ---
-## Content
+
 # What are generators
+
+---
+## Content
 
 Generators are special **functions** that implement or generate **iterators**. 
 

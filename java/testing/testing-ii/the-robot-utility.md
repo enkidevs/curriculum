@@ -17,8 +17,11 @@ links:
 
 
 ---
-## Content
+
 # The Robot Utility
+
+---
+## Content
 
 `Java.awt.Robot` is a class used to mimic the human behavior, taking control over the mouse and keyboard. For example:
 

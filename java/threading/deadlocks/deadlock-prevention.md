@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Deadlock Prevention
+
+---
+## Content
 
 In order to prevent a deadlock we must avoid at least one of the necessary conditions for it. Such can be:
 

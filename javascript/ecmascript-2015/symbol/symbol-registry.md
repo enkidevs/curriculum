@@ -19,8 +19,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Symbol Registry
+
+---
+## Content
 
 As we saw earlier even if you create two symbols with the same description/key JavaScript considers them unique.
 

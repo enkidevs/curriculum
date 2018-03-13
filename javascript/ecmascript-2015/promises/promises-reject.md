@@ -19,8 +19,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Promises - Reject
+
+---
+## Content
 
 When using promises we can indicate something has failed by using the **reject** function instead of **resolve**.
 

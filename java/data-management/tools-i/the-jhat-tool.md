@@ -18,8 +18,11 @@ links:
 
 notes: https://insights.enki.com/#/contrib/others/55f421b8742fb322000e0d7c?search=khandelwalrinki
 ---
-## Content
+
 # The `jhat` tool
+
+---
+## Content
 
 Memory leaks often happen due to objects kept alive because of some reference in the rootset, even though they're no longer needed.
 

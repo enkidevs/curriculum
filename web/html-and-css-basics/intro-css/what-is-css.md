@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # What Is CSS?
+
+---
+## Content
 
 **CSS**, also known as **Cascading Style Sheets**, is a styling language that can be applied to HTML, XML or SVG documents.
 

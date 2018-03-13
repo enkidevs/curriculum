@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Cherry-pick a commit
+
+---
+## Content
 
 Cherry-picking is the method to apply a single, specific commit from another branch.
 

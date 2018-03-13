@@ -21,8 +21,11 @@ links:
 
 
 ---
-## Content
+
 # The `zip` Built-in Function
+
+---
+## Content
 
 The `zip` built-in allows us to create tuples from multiple iterable collections of objects. Tuples are finite ordered lists of n elements, which is referred to as an n-tuple. In Python, tuples are represented with rounded brackets, such as: `('hello', 'good day', 'good morning')` which is a 3-tuple of greetings.
 

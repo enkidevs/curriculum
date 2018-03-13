@@ -17,8 +17,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Splice
+
+---
+## Content
 
 Splice is a very useful array function that allows you to add and remove items to an array.
 

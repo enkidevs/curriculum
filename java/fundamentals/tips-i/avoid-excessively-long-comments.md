@@ -25,8 +25,11 @@ links:
 
 
 ---
-## Content
+
 # Avoid excessively long comments
+
+---
+## Content
 
 It is often necessary to explain what a piece of code does by writing a comment; this can help make your code easier to understand. However, excessive use of comments can in-fact make code harder to read because there are more things in the way; obfuscating the code that is doing the actual work.
 

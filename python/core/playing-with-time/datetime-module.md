@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # `datetime` module
+
+---
+## Content
 
 Python's `datetime` module provides a toolkit of *classes* and *functions* for **date** and **time** manipulation - be it for simple or complex problems.
 

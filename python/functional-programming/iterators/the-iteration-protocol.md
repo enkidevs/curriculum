@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # The Iteration Protocol
+
+---
+## Content
 
 The iteration protocol simply refers to the flow of actions that take place each step of an iteration. Iteration is the process of taking one element at a time from a group of elements sequentially; in Python specifically, an iteration is the process of looping through an `iterable` object, which is a collection of objects, and doing something with each element.
 

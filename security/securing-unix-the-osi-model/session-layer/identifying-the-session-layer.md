@@ -23,8 +23,11 @@ links:
 parent: securing-the-transport-layer
 
 ---
-## Content
+
 # Identifying the Session Layer
+
+---
+## Content
 
 The Session Layer (Layer 5) is responsible for opening, closing, and managing a session between end-user applications. Sessions consist of requests and responses that are exchanged between applications. It is also covers the services responsible for authentication, authorization, and __session checkpointing__.
 

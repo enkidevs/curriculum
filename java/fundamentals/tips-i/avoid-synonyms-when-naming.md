@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Avoid synonyms when naming
+
+---
+## Content
 
 When choosing names for methods or variables, it is best to be consistent and avoid using synonyms to describe different methods or variables which have the same purpose.
 

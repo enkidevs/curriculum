@@ -19,8 +19,11 @@ links:
 
 
 ---
-## Content
+
 # Setting the upstream branch
+
+---
+## Content
 
 When you use the `git clone` or `git checkout` commands on a remote repository, a tracking branch is set up automatically.
 

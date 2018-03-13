@@ -17,8 +17,11 @@ category: caveats
 
 
 ---
-## Content
+
 # `NaN` is a number
+
+---
+## Content
 
 When using the `typeof` operator with `NaN`, an interesting result is observed:
 

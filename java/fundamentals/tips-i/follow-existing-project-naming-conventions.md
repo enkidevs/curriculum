@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Follow existing project naming conventions
+
+---
+## Content
 
 When working on a project with other programmers, or updating an old project, either one of your own or someone else's, it is best to follow the existing naming conventions in that project. 
 

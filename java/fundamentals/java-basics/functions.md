@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Functions
+
+---
+## Content
 
 We return to the `HelloWorld` example for this part:
 ```

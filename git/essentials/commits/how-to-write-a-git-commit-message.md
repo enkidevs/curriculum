@@ -17,8 +17,11 @@ links:
 
 
 ---
-## Content
+
 # How to write a git commit message
+
+---
+## Content
 
 You should write a commit message that explains the aim of the commit and why the changes were made.
 

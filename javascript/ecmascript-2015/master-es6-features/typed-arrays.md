@@ -17,8 +17,11 @@ links:
 
 
 ---
-## Content
+
 # Typed Arrays
+
+---
+## Content
 
 Typed arrays are array-like objects providing a mechanism for accessing raw binary data. Usually they're used to implement network protocols, cryptography algorithms, file format manipulations, and so on.
 

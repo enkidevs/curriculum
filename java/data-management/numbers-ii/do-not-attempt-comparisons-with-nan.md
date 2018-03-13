@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Do not attempt comparisons with NaN
+
+---
+## Content
 
 A NaN or *Not-a-Number* value is used to represent the result of certain invalid operations such as dividing zero by zero. NaN constants of both float and double type are predefined as `Float.NaN` and `Double.NaN`.
 

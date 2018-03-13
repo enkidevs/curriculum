@@ -14,8 +14,11 @@ category: must-know
 inAlgoPool:
 
 ---
-## Content
+
 # Types - Boolean and Number
+
+---
+## Content
 
 **Boolean**
 

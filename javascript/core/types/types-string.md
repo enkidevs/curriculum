@@ -14,8 +14,11 @@ category: must-know
 inAlgoPool:
 
 ---
-## Content
+
 # Types - String
+
+---
+## Content
 
 You can declare a string value in JavaScript using either single or double quotes - JavaScript will accept either:
 ```

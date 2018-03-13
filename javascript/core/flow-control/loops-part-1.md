@@ -14,8 +14,11 @@ category: must-know
 inAlgoPool:
 
 ---
-## Content
+
 # Loops - Part 1
+
+---
+## Content
 
 JavaScript supports the standard loop constructs you have probably come across in other languages:
 

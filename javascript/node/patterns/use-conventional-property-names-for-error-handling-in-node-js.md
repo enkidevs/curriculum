@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Use conventional property names for error handling in Node.js
+
+---
+## Content
 
 When you handle errors in Node.js, it is best practice to use the standard `Error` class.
 

@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Inline-block Elements Characteristics
+
+---
+## Content
 
 There aren't any *inline-block* elements per se: they are *inline* elements that accept some *block-specific* properties. 
 

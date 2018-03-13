@@ -13,8 +13,11 @@ category: how to
 
 
 ---
-## Content
+
 # Logging
+
+---
+## Content
 
 To explore your project's history, **Git** provides a logging tool as the `git log` command:
 ```

@@ -29,8 +29,11 @@ notes: >
   Made the changes in the insight.
 
 ---
-## Content
+
 # Method overriding
+
+---
+## Content
 
 Python does not have special syntax for method overriding.
 

@@ -16,8 +16,11 @@ links:
 
 notes: https://insights.enki.com/#/contrib/others/55c833563f06ab320051aa89?search=kha
 ---
-## Content
+
 # `Autoboxing` and `Unboxing`
+
+---
+## Content
 
 *Java 5* introduced a new concept of auto converting *primitive types* into their corresponding *wrapper* classes and vice-versa.
 

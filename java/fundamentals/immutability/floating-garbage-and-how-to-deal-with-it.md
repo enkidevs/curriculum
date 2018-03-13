@@ -16,8 +16,11 @@ links:
 
 notes: Not sure if not too generic
 ---
-## Content
+
 # Floating garbage and how to deal with it
+
+---
+## Content
 
 Since garbage collector and application run concurrently on the machine during a major collection, objects that are traced by the garbage collector thread may subsequently become unreachable by the time collection finishes. Such unreachable objects are called floating garbage.
 

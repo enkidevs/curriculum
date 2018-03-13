@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Private Variables 
+
+---
+## Content
 
 Really **private** instance variables (variables that can't be accessed except from within the object) **do not exist** in Python. But the following naming convention makes Python rename the variable. so it becomes pseudo-private:
 

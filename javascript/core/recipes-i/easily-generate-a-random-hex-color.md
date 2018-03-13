@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Easily generate a random `HEX` color
+
+---
+## Content
 
 You can easily generate a string containing a random `HEX` color :
 ```javascript

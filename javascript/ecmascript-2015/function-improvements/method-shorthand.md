@@ -17,8 +17,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Method Shorthand
+
+---
+## Content
 
 ES6 method shorthand allows us remove the function key word and colon making code more succinct. 
 

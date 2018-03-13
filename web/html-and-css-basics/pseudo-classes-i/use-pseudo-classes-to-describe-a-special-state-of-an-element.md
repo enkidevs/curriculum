@@ -25,8 +25,11 @@ links:
 
 
 ---
-## Content
+
 # Use pseudo-classes to describe a special state of an element
+
+---
+## Content
 
 Unlike regular classes, pseudo-classes are not specified in the HTML. They are preceded by a colon, for example `a:hover`. This is a dynamic pseudo-class and its effects  are applied in response to  the user's actions.
 

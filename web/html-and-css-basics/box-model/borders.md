@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Borders
+
+---
+## Content
 
 Borders occupy the space between margin and padding, providing an outline of the element. For a `border` to be displayed, it requires 3 properties: `width`, `style` and `color`. Those properties can be declared individually:
 ```css

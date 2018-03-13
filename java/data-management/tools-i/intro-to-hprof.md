@@ -20,8 +20,11 @@ links:
 
 notes: https://insights.enki.com/#/contrib/others/55f41eef742fb322000e0d7b?search=kha
 ---
-## Content
+
 # Intro to `HPROF` 
+
+---
+## Content
 
 `HPROF` is a tool shipped together with the *Java SDK*, a dynamically linked library that interfaces with the *JVM Tools Interface*.
 

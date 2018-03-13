@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Collections vs arrays
+
+---
+## Content
 
 Collections are more feature-rich than arrays so are preferable in most cases. for example: 
 

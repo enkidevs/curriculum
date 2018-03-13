@@ -19,8 +19,11 @@ links:
 
 parent: easy-way-to-deliver-html-pages-with-express
 ---
-## Content
+
 # Session handling in **Express**
+
+---
+## Content
 
 Prior to handling sessions in **Express 4.0**, the `express-session` middleware must be installed:
 ```bash

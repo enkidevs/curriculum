@@ -19,8 +19,11 @@ category: must-know
 
 parent: http-pipelining
 ---
-## Content
+
 # Informational status codes
+
+---
+## Content
 
 **Informational status codes** are three digit codes that begin with `1`.
 

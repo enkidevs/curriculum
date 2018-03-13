@@ -16,8 +16,11 @@ links:
 
 parent: what-is-npm
 ---
-## Content
+
 # Why should I use npm?
+
+---
+## Content
 
 There are several options when it comes to JavaScript package managers.
 

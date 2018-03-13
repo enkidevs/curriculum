@@ -21,8 +21,11 @@ links:
 parent: stashing-changes
 
 ---
-## Content
+
 # Useful stashing options
+
+---
+## Content
 
 To only stash files that are not staged:
 ```

@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # I/O Functions
+
+---
+## Content
 
 `I/O`(input/output) stands for the communication between a **data processing system** such as a computer, or any device, and the **outside world**.
 

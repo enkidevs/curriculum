@@ -21,8 +21,11 @@ links:
 
 
 ---
-## Content
+
 # Cache your authentication details to save time
+
+---
+## Content
 
 Before you can push to a git server over  HTTP protocol, git will ask for your username and password.
 

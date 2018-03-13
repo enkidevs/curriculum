@@ -25,8 +25,11 @@ tags:
 
 
 ---
-## Content
+
 # Highlight input forms using `:focus` pseudo-class
+
+---
+## Content
 
 Responsiveness can make the forms more user-friendly and easier to read. 
 

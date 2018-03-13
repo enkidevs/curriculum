@@ -15,8 +15,11 @@ category: must-know
 
 
 ---
-## Content
+
 # `master` and `origin` aren't special
+
+---
+## Content
 
 `master` and `origin` are widely used in git, but they aren't special values. They are just the default names when you use the commands `init` and `clone`.
 

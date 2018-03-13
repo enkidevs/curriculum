@@ -19,8 +19,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Symbol Special Properties
+
+---
+## Content
 
 Symbols behave differently to other primitives such as strings and numbers.
 

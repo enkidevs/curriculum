@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Difference between `initial` and `inherit`
+
+---
+## Content
 
 `inherit` takes an extra step in checking whether there are other properties it can use in the cascade before using the `initial` value that has been set.
 

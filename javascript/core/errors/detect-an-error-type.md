@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Detect an error type
+
+---
+## Content
 
 Using the `try/catch` block you can catch an exception then figure out what type of error occurred in you code.
 For example:

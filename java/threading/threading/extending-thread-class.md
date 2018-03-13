@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Extending Thread Class
+
+---
+## Content
 
 The easier way of creating a thread is by extending the `Thread` class since we inherit a lot of functionality from it:
 

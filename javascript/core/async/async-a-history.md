@@ -17,8 +17,11 @@ links:
 
 
 ---
-## Content
+
 # Async: a history
+
+---
+## Content
 
 There are several ways of programming **asynchronously** in JavaScript. Each method was introduced as an improvement over the existing method. 
 

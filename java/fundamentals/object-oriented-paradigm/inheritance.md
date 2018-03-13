@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Inheritance
+
+---
+## Content
 
 The most representative principle of *Object-Oriented Programming* is **inheritance**. It states that classes can be derived from other classes, with the *child classes* inheriting fields and methods from the *parent classes*.
 

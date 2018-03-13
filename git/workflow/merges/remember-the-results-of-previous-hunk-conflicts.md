@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Remember the results of previous hunk conflicts
+
+---
+## Content
 
 The "Reuse Recorded Resolution" tool (`rerere`) permits git to remember how you chose to resolve a merge conflict. The next time this conflict appears git can automatically resolve it for you.
 

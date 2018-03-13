@@ -37,8 +37,11 @@ notes: |+
 
 
 ---
-## Content
+
 # Python's `math`
+
+---
+## Content
 
 The `math` module provides the user with mathematical functions common in the C standard library.
 

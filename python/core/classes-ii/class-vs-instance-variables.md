@@ -25,8 +25,11 @@ notes: >
   'a' and 'b', or 1 and 2 could be used instead. --> updated.
 
 ---
-## Content
+
 # **Class** vs. **Instance** variables
+
+---
+## Content
 
 The difference between **class** and **instance** variables:
 

@@ -19,8 +19,11 @@ links:
 
 
 ---
-## Content
+
 # Working with remotes
+
+---
+## Content
 
 Remote repositories are fundamental to the **Git** workflow for teams who need to collaborate.
 

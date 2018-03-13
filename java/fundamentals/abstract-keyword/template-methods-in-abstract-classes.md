@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Template methods in abstract classes
+
+---
+## Content
 
 Template methods are methods in an abstract base class which define the general format of a method but leave the specific implementation to a subclass.
 

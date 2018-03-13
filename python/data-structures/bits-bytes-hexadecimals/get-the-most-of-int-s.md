@@ -25,8 +25,11 @@ notes: |
   11 # 1024 in binary is 10000000000
 
 ---
-## Content
+
 # Converting `int`s to binary data
+
+---
+## Content
 
 The **built-in** `int` types provides several methods for data manipulation at a binary level. Conventionally, for integer values representation, **bytes** (group of 8 bits) are used.
 

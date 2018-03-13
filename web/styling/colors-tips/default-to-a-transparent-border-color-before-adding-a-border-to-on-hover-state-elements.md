@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Default to a transparent `border-color` before adding a border to on `:hover` state elements
+
+---
+## Content
 
 By using a transparent border as a default, then changing the `border-color` on hover, you will avoid moving other elements on hover.
 

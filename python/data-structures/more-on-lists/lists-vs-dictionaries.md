@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Lists vs Dictionaries.
+
+---
+## Content
 
 The **list** is the most versatile data structure available in **Python**.
 

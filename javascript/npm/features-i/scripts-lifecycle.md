@@ -19,8 +19,11 @@ category: must-know
 
 parent: npm-variables
 ---
-## Content
+
 # Hook Scripts
+
+---
+## Content
 
 Scripts are an essential feature of *npm*. They simplify the process of building and running your application. In the last insight, you saw how to write and invoke scripts using the command line.
 

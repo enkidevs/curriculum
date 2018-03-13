@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Deserializing
+
+---
+## Content
 
 Following from the previous insight, lets now deserialize our Car object:
 

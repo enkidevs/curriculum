@@ -22,8 +22,11 @@ links:
 
 parent: o-logn-operations-for-heaps
 ---
-## Content
+
 # The Trie Data Structure
+
+---
+## Content
 
 A **trie**, also know as *radix tree* or *prefix tree*, is an ordered tree structure that stores sets or arrays having one or more relations between the elements.
 

@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Shuffle an array using `sort` and `random`.
+
+---
+## Content
 
 Given the array:
 

@@ -30,8 +30,11 @@ links:
 
 
 ---
-## Content
+
 # Metadata: creating a user-defined file attribute
+
+---
+## Content
 
 It is possible to create user-defined file attributes, besides default ones. This comes in handy if you need a way to verify if the file was proofread or encrypted.
 

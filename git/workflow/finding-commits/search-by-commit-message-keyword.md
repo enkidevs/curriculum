@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Search by commit message keyword
+
+---
+## Content
 
 There is a useful **log output** filter that you can use to help find a particular commit. 
 

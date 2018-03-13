@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Data type comparison in `switch` statements
+
+---
+## Content
 
 The `==` operator does not care for types. Therefore, the following `if` condition will pass:
 

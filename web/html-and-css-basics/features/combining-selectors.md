@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Combining selectors
+
+---
+## Content
 
 Two selectors can be combined to refer to a certain element. The most common ones are '+' and '~'.  
 

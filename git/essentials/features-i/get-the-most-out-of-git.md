@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Get the most out of **Git**
+
+---
+## Content
 
 **Git** offers a plethora of tools specifically intended to enhance and make your workflow more flexible.
 

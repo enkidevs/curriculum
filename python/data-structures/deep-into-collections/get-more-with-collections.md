@@ -21,8 +21,11 @@ links:
 
 
 ---
-## Content
+
 # Get more with `collections`!
+
+---
+## Content
 
 In addition to Python's built-in data structures (such as tuples, dicts, and lists), a library module called `collections` provides data structures with additional features, some of which are specializations of the built-in ones.
 

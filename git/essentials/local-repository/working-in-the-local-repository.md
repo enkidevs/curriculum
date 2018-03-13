@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Working in the local repository
+
+---
+## Content
 
 Changing the content of the files in your **Git** project won't directly affect your local repository. To do this, you must perform some operations to make sure your changes are permanently stored.
 

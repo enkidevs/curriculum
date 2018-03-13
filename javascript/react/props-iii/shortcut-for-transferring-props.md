@@ -20,8 +20,11 @@ links:
 
 parent: custom-proptype-s-to-be-required
 ---
-## Content
+
 # Shortcut for transferring props
+
+---
+## Content
 
 With the intention of saving time while typing, the **JSX** *spread syntax* can be used to transfer props.
 

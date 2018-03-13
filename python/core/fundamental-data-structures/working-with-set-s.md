@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Sets in Python
+
+---
+## Content
 
 In **Python**, **sets** have four main characteristics:
 - they are an **unordered collection** of elements;

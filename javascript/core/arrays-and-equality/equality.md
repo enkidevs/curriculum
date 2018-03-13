@@ -14,8 +14,11 @@ category: must-know
 inAlgoPool:
 
 ---
-## Content
+
 # Equality
+
+---
+## Content
 
 JavaScript supports two types of comparison operator’s **loose** and **strict**. 
 

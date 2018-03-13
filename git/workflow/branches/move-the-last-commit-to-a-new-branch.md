@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Move the last commit to a new branch
+
+---
+## Content
 
 If you commit to the current branch when instead you wanted to commit to a new branch, you can easily correct your mistake.
 

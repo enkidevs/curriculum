@@ -22,8 +22,11 @@ links:
 
 parent: validate-for-required-props
 ---
-## Content
+
 # Default values for props
+
+---
+## Content
 
 **React** provides a way of defining *default* values for props. This allows the safety usage of props even though they are not specified by the parent component.
 

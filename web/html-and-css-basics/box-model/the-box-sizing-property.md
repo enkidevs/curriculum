@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # The `box-sizing` Property
+
+---
+## Content
 
 In the previous examples, the size of the containing box size was always the sum of horizontal and vertical dimensions. However, as you might have noticed, it gets trickier and trickier to properly calculate the `width` and `height` as you nest elements.
 

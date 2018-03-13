@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # Declaring `@Repeatable` annotation types
+
+---
+## Content
 
 As of Java 8, it is possible to apply the same type of annotation more than once to a single declaration. In order to do this, when defining a new annotation type, the `@Repeatable` meta-annotation must be used.
 

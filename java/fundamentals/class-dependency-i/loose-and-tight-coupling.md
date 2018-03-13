@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Loose and Tight Coupling
+
+---
+## Content
 
 Writing "good code" implies more than properly naming variables or using the right modifiers. It also refers to software design and how easily the application can be maintained and extended.
 

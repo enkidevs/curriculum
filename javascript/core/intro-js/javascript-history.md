@@ -17,8 +17,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # JavaScript History
+
+---
+## Content
 
 Before we jump in, a few words on JavaScript history. It was initially developed by **Brendan Eich** in just *10 days* under the code name *Mocha* in May 1995. 
 

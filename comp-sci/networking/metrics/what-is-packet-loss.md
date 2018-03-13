@@ -23,8 +23,11 @@ links:
 
 parent: what-are-latency-and-ping
 ---
-## Content
+
 # How does packet loss happen?
+
+---
+## Content
 
 **Packet loss** is a phenomenon that happens when packets sent across a computer network fail to reach their intended destination.
 

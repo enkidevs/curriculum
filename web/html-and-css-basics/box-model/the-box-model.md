@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # The *Box Model*
+
+---
+## Content
 
 According to the **box model**, every element on the page is a rectangular box that may have `width`, `height`, `margin`, `padding` or `border`.
 

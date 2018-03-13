@@ -18,8 +18,11 @@ links:
 
 parent: custom-proptype-s-to-be-required
 ---
-## Content
+
 # `if`-`else` statements in **JSX** and **React**
+
+---
+## Content
 
 **JSX** is a JavaScript extension intended to be a syntactic sugar for function calls and object construction.
 

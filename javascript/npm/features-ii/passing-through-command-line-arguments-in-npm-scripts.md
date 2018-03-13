@@ -18,8 +18,11 @@ links:
 
 parent: check-data-about-a-package
 ---
-## Content
+
 # Passing through command line arguments in npm scripts
+
+---
+## Content
 
 `npm` package manager provides a feature that lets users pass in command line arguments using the `-- ` characters. Note that there is a blank space after the two dashes.
 

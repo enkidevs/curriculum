@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Pushing
+
+---
+## Content
 
 **Pushing** is the way to share/push upstream your work on a remote repository.
 

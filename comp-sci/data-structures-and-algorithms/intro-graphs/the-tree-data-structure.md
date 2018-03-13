@@ -16,8 +16,11 @@ links:
 
 parent: graph-adt
 ---
-## Content
+
 # The Tree Data Structure
+
+---
+## Content
 
 A **tree** is the abstract data type that can store elements *hierarchically* (non-linearly). Every element other than the *root* has a **parent** element and zero or more **children** elements. The **root** can only have children.
 

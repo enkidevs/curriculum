@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Bitwise Operations in Java
+
+---
+## Content
 
 *Java* provides us with certain bitwise operations, i.e. operations on concrete bits of the binary representation of the value. Such operations are:
  - `&` - *AND* operator returns `1` if both bits are `1`.

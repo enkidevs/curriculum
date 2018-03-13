@@ -19,8 +19,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # How To Create Promises
+
+---
+## Content
 
 Promises are easy to create.
 

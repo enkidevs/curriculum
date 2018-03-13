@@ -13,8 +13,11 @@ category: must-know
 
 parent: the-tree-data-structure
 ---
-## Content
+
 # Node Height and Depth
+
+---
+## Content
 
 The **height of a node** is the number of edges on the *longest path* from that node to a leaf.
 

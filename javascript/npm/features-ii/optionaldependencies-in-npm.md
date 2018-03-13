@@ -20,8 +20,11 @@ links:
 
 parent: check-data-about-a-package
 ---
-## Content
+
 # `optionalDependencies` in npm
+
+---
+## Content
 
 `optionalDependencies` object in `package.json` file can be used to specify dependencies that are not **necessarily needed**.
 

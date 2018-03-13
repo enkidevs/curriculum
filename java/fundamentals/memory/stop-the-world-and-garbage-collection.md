@@ -19,8 +19,11 @@ links:
 
 notes: https://insights.enki.com/#/contrib/others/55f4c1d0d7d6642d0011873c?search=khandelwalrinki https://insights.enki.com/#/contrib/others/55f4c419ce84ec2100d2bb6a?search=kha
 ---
-## Content
+
 # Stop-the-world and Garbage Collection
+
+---
+## Content
 
 `Java` features automatic memory management also known as *garbage collection* (GC). Once an instance of an object becomes unreachable from the executing program, it's classified as garbage and the memory it takes up should eventually be freed.
 

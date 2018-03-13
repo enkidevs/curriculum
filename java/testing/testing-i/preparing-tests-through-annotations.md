@@ -18,8 +18,11 @@ category: tip
 notes: https://insights.enki.com/#/contrib/5594adacabc92e3300233c3b
 
 ---
-## Content
+
 # Preparing tests through annotations
+
+---
+## Content
 
 As you may have noticed in previous insights, we've used the `@BeforeEach` annotation for describing a `setup()` function. In *JUnit 5*, `@BeforeEach` and `@BeforeAll` (and their equivalent `@AfterEach` and `@AfterAll`) annotations[1] are used to describe functions to be run at the beginning (and at the end) of `@Test` methods.
 

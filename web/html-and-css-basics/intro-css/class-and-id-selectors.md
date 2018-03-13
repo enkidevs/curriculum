@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Class and ID Selectors
+
+---
+## Content
 
 ### Class Selectors
 

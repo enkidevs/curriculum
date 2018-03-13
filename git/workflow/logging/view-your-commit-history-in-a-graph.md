@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # View your commit history in a graph
+
+---
+## Content
 
 If you want to see a visual representation of your branching and merging, you can use the `--graph` option of `git log`.
 

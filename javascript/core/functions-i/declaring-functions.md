@@ -14,8 +14,11 @@ category: must-know
 inAlgoPool:
 
 ---
-## Content
+
 # Declaring Functions
+
+---
+## Content
 
 JavaScript supports a number of different ways of declaring functions.
 

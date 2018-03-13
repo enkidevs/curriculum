@@ -17,8 +17,11 @@ links:
 parent: a-thread-safe-queue
 
 ---
-## Content
+
 # Prioritize your `queue`
+
+---
+## Content
 
 A `PriorityQueue` is a type of `queue` imported from the module with the same name.
 

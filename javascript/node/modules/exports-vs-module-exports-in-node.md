@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # `exports` vs. `module.exports` in **Node**
+
+---
+## Content
 
 Exporting a module in **Node** can be done in different ways. The most common is using the `exports` object:
 ``` javascript

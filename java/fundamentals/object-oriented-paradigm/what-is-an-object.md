@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # What Is an Object?
+
+---
+## Content
 
 An **object** is the representation of a blueprint. Basically, an *object* is created from a *class*. In Java, the `new` keyword is used to create an object. 
 

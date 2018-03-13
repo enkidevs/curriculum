@@ -21,8 +21,11 @@ links:
 
 
 ---
-## Content
+
 # Tail call optimisation in ES6
+
+---
+## Content
 
 A **tail call** is a function call that is in the **tail position** (the last action in a function). Here `t()` is in the tail position: 
 ```

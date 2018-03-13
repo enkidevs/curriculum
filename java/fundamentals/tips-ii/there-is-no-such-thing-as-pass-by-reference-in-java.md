@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # There is no such thing as *pass-by-reference* in Java
+
+---
+## Content
 
 Everything in Java is *pass-by-value*. This means:
 

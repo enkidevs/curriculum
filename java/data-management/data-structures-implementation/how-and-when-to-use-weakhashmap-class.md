@@ -20,8 +20,11 @@ links:
 
 notes: https://insights.enki.com/#/contrib/others/5585b52f575399cf01b26b9f?search=kha
 ---
-## Content
+
 # How and when to use `WeakHashMap` class
+
+---
+## Content
 
 A `WeakHashMap` is a special `Map` implementation where the keys of the map are stored in a `WeakReference`.
 

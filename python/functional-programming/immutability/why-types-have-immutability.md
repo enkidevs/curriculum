@@ -21,8 +21,11 @@ links:
 
 
 ---
-## Content
+
 # Why Types Have Immutability
+
+---
+## Content
 
 Over the next insights we'll explore further into the conceptual and tangible benefits to using a type system that supports mutable and immutable objects, specifically with respect to the type system implemented in Python.
 

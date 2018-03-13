@@ -13,8 +13,11 @@ category: must-know
 
 
 ---
-## Content
+
 # Python's Garbage Collector
+
+---
+## Content
 
 We've talked a bit about how *referencing* works in Python and how assigning two names to a *mutable data type* can cause some unexpected troubles. Now, it's time to focus on what happens if *no variable* references that data type anymore:
 ```python

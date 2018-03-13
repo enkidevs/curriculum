@@ -15,8 +15,11 @@ category: feature
 
 
 ---
-## Content
+
 # The `hover` Pseudo-Class
+
+---
+## Content
 
 One of the most versatile and used pseudo-classes is `:hover`. Whenever an element on a website reacts to the mouse pointer being on top of it, usually it is because of the `:hover` pseudo-class matching.
 

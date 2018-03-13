@@ -22,8 +22,11 @@ notes: |
   the print should have parentheses since this is for Python 3.  Fixed.
 
 ---
-## Content
+
 # `queue`s and threads
+
+---
+## Content
 
 The `queue` module provides thread safe `queue` data structures. As a consequence, multiple threads can share the same `queue`.
 

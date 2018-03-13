@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # `break` and `continue` statements
+
+---
+## Content
 
 Python's `break` statement is used to terminate the current loop, either a for or a while loop, it then resumes the code execution at the following statement.
 

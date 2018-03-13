@@ -29,8 +29,11 @@ links:
 
 
 ---
-## Content
+
 # The distinction between overloading and overriding methods
+
+---
+## Content
 
 In Java, methods can be both overloaded and overridden.
 - Overloading refers to creating two or more methods with the same names but a different number or type of parameters. For example:

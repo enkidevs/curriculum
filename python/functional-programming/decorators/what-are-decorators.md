@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # What Are Decorators?
+
+---
+## Content
 
 **Decorators**, or function decorators, are *wrappers* to existing functions, built using the concept of *higher-order functions* (closures).
    

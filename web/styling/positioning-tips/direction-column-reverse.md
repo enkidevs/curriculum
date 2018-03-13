@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # `direction`: `column-reverse`
+
+---
+## Content
 
 In Flexbox, `column-reverse` enables users to arrange elements vertically in reverse order.
 

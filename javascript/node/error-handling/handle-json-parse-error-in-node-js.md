@@ -19,8 +19,11 @@ links:
 
 
 ---
-## Content
+
 # Handle `JSON.parse` error in Node.js
+
+---
+## Content
 
 Handling a `JSON.parse` error is one of the few situations when you'd use a `try/catch` in Node.
 

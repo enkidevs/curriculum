@@ -17,8 +17,11 @@ category: tip
 
 
 ---
-## Content
+
 # A simple way to select a random item from a `list/tuple` data structure
+
+---
+## Content
 
 If you need to randomly select an item from a list:
 

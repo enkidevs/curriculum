@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # IIFE pattern
+
+---
+## Content
 
 The **Immediately Invoked Function Expression pattern** (**IIFE** or "iffy") is a function expression (either named or anonymous) that is immediately called. 
 

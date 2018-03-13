@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Double Brace Initialization
+
+---
+## Content
 
 Instead of having to always initialize a set, list or map to contain elements by manually initializing a set and adding elements to it (for example to pass to a function), Java provides a way to do it all in one go. It's called Double Brace Initialization. For example the following code:
 

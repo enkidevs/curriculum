@@ -20,8 +20,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Iterator Protocol
+
+---
+## Content
 
 In our previous example above we have not implemented all of the iterator protocol or agreement. 
 

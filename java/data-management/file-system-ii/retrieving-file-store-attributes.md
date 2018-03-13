@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # Retrieving file store attributes
+
+---
+## Content
 
 The `Files.getFileStore(Path)` method can be used to retrieve the file store for the specified file. The attributes of the file store can then be accessed.
 

@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # The `slice` Built-in Function
+
+---
+## Content
 
 The `slice` built-in is a constructor which creates a *slice object* representing the set of indices specified by a given range. It can be used to get substrings, subtuples and sublists from their respective sequence objects. The general syntax is of the form:
 
