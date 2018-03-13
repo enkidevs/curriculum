@@ -10,7 +10,7 @@ levels:
 type: exercise
 
 link: https://www.codewars.com/kata/default-plus-rest-plus-spread
-linkType: undefined
+linkType: codewars
 standards:
 
   js.functions.0: 1000

@@ -10,7 +10,7 @@ levels:
 type: exercise
 
 link: http://www.codewars.com/kata/the-coupon-code
-linkType: undefined
+linkType: codewars
 standards:
 
   js.standard-library.5: 1000

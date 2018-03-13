@@ -10,7 +10,7 @@ levels:
 type: exercise
 
 link: http://www.codewars.com/kata/descending-order
-linkType: undefined
+linkType: codewars
 standards:
 
   js.functions.0: 1000

@@ -10,7 +10,7 @@ levels:
 type: exercise
 
 link: https://www.codewars.com/kata/throw-from-list-error-handling-number-3
-linkType: undefined
+linkType: codewars
 standards:
 
   js.exceptions.0: 1000

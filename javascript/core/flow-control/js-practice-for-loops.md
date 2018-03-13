@@ -10,7 +10,7 @@ levels:
 type: exercise
 
 link: http://www.codewars.com/kata/5721a78c283129e416000999
-linkType: undefined
+linkType: codewars
 standards:
 
   js.control-flow.0: 1000

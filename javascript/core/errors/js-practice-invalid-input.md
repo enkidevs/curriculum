@@ -10,7 +10,7 @@ levels:
 type: exercise
 
 link: https://www.codewars.com/kata/invalid-input-error-handling-number-1
-linkType: undefined
+linkType: codewars
 standards:
 
   js.exceptions.0: 1000

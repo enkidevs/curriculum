@@ -10,7 +10,7 @@ levels:
 type: exercise
 
 link: https://www.codewars.com/kata/fun-with-es6-classes-number-4-cubes-and-setters
-linkType: undefined
+linkType: codewars
 standards:
 
   js.prototype-class.0: 1000
@@ -25,8 +25,6 @@ links:
 # JS Practice `setters`
 
 ---
-## Exercise
-
 ## Exercise
 
 Practice using JavaScript Class `setters` on Code Wars

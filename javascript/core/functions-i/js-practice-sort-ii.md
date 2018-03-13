@@ -10,7 +10,7 @@ levels:
 type: exercise
 
 link: http://www.codewars.com/kata/sort-by-last-char
-linkType: undefined
+linkType: codewars
 standards:
 
   js.data-types-structures.4: 1000

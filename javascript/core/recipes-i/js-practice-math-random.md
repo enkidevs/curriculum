@@ -10,7 +10,7 @@ levels:
 type: exercise
 
 link: http://www.codewars.com/kata/5735956413c2054a680009ec
-linkType: undefined
+linkType: codewars
 standards:
 
   js.standard-library.1: 1000
