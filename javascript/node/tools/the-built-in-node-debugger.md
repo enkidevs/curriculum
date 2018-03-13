@@ -11,6 +11,16 @@ type: normal
 
 category: must-know
 
+standards:
+  js.node-developer-environment: 20
+  js.use-modules: 20
+
+
+tags:
+  - introduction
+  - workout
+  - deep
+
 links:
 
   - >-
@@ -49,7 +59,7 @@ for(var i=0; i<10; i++) {      // line 0
    debugger;                   // line 1
    console.log("hello " + i);  // line 2
 }                              // line 3
-console.log("end:);            // line 4
+console.log("end");            // line 4
 ```
 
 * Line 1
@@ -66,7 +76,7 @@ How can you run `enki` app in *debug* mode?
 ??? ??? enki
 ```
 
-*`node`
-*`debug`
-*`debugger`
-*`npm`
+* `node`
+* `debug`
+* `debugger`
+* `npm`

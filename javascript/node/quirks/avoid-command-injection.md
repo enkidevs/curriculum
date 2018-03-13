@@ -11,6 +11,15 @@ type: normal
 
 category: best practice
 
+standards:
+  js.identify-common-design-patterns: 20
+  js.node-standard-library-os: 20
+
+tags:
+  - workout
+  - deep
+  - obscura
+
 notes: I'm trying to make a Node workout based on security tips. This is one of them.
 
 links:

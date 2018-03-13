@@ -17,6 +17,16 @@ category: must-know
 
 parent: piping-readable-streams
 
+standards:
+  js.read-and-write-streams: 20
+  js.node-standard-library-os: 20
+  js.events-asynchronous-operations: 20
+
+tags:
+  - introduction
+  - workout
+  - deep
+
 links:
 
   - '[Chaining](http://www.naeemrana.com/node-js/node-js-streams-pipe-and-chaining/)'

@@ -13,6 +13,14 @@ type: normal
 
 category: how to
 
+standards:
+  js.node-developer-environment: 20
+  js.use-modules: 20
+  js.identify-common-design-patterns: 10
+
+tags:
+  - workout
+
 links:
 
   - '[nodejs.org](https://nodejs.org/api/repl.html){website}'
@@ -63,10 +71,10 @@ replServer.???(???, function() {
 });
 
 ```
-*`on`
-*`'exit'`
-*`'close'`
-*`'end'`
+* `on`
+* `'exit'`
+* `'close'`
+* `'end'`
 
 ---
 ## Revision
@@ -78,7 +86,7 @@ replServer.???(???, function() {
 });
 
 ```
-*`on`
-*`'exit'`
-*`'close'`
-*`'end'`
+* `on`
+* `'exit'`
+* `'close'`
+* `'end'`

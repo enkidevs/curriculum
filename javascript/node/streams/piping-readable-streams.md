@@ -18,6 +18,16 @@ category: must-know
 
 parent: readable-streams
 
+standards:
+  js.read-and-write-streams: 20
+  js.node-standard-library-os: 20
+  js.events-asynchronous-operations: 20
+
+tags:
+  - introduction
+  - workout
+  - deep
+
 links:
 - '[Piping streams](https://www.sandersdenardi.com/readable-writable-transform-streams-node/)'
 
