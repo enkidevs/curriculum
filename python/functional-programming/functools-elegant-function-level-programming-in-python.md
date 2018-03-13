@@ -1,4 +1,4 @@
-# Functools: elegant function-level programming in Python.
+---
 author: Bruno
 
 levels:
@@ -13,9 +13,13 @@ category: tip
 
 links:
 
-  - '[functools](https://docs.python.org/2/library/functools.html){documentation}'
+  - '[functools](https://docs.python.org/2/library/functools.html)'
 
-  - '[Sorting Mini-HOW TO](https://wiki.python.org/moin/HowTo/Sorting){tutorial}'
+  - '[Sorting Mini-HOW TO](https://wiki.python.org/moin/HowTo/Sorting)'
+
+---
+
+# Functools: elegant function-level programming in Python.
 
 ---
 ## Content
@@ -44,3 +48,4 @@ rev = cmp_to_key(rev_diff)
 sorted([5,1,3,4], key = rev)
 #> [5,4,3,1]
 ```
+

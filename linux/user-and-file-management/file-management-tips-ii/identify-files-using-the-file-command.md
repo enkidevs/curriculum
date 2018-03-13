@@ -1,5 +1,4 @@
-# Identify files using the `file` command
-
+---
 author: tuwi.dc
 
 levels:
@@ -24,13 +23,9 @@ tags:
 
   - linux
 
-notes: >-
+---
 
-  `file` tests each argument in an attempt to classify it. There are three sets
-  of tests, performed in this order: filesystem tests, magic tests, and language
-  tests.
-
-  The first test that succeeds causes the file type to be printed.
+# Identify files using the `file` command
 
 ---
 ## Content
@@ -58,6 +53,8 @@ A valid output of the `file` command is:
 $ file script.py
 ???
 ```
-*`script.py: ASCII text`
-*`-rw-rw-r-- 1 owner group 2048 19 Nov 2014 script.py
-*`# script.py content`
+
+* `script.py: ASCII text`
+* `-rw-rw-r-- 1 owner group 2048 19 Nov 2014 script.py
+* `# script.py content`
+

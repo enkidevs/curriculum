@@ -1,4 +1,4 @@
-# Easy way of sharing files
+---
 author: catalin
 
 levels:
@@ -10,6 +10,10 @@ levels:
 type: normal
 
 category: how to
+
+---
+
+# Easy way of sharing files
 
 ---
 ## Content
@@ -43,7 +47,8 @@ $ ./woof -s
 
 A quick way of sharing files is using ??? utility.
 
-*woof
-*mv
-*ssh
-*share
+* woof
+* mv
+* ssh
+* share
+

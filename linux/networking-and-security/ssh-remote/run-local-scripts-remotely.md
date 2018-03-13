@@ -1,4 +1,4 @@
-# Run local scripts remotely
+---
 author: catalin
 
 levels:
@@ -12,6 +12,10 @@ type: normal
 category: how to
 
 parent: ssh-pipes
+
+---
+
+# Run local scripts remotely
 
 ---
 ## Content
@@ -34,9 +38,11 @@ Run a local script on a remote machine:
 $ ??? ??? 'bash -s' 
         ??? enki.sh
 ```
-*`ssh`
-*`user@server`
-*`<`
-*`|`
-*`cp`
-*`user`
+
+* `ssh`
+* `user@server`
+* `<`
+* `|`
+* `cp`
+* `user`
+

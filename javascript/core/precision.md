@@ -1,4 +1,4 @@
-# Precision
+---
 author: pawel
 
 levels:
@@ -19,7 +19,11 @@ tags:
 
 links:
 
-  - '[Arbitrary Precision](http://0.30000000000000004.com/){website}'
+  - '[Arbitrary Precision](http://0.30000000000000004.com/)'
+
+---
+
+# Precision
 
 ---
 ## Content
@@ -73,7 +77,9 @@ var y = (0.2 * 10 + 0.3 * 10) / 10;
 var x = 9999999999999999;
 console.log(x);
 //x: ???
-```  
-*10000000000000000 // 17 digits
-*9999999999999999 //16 digits
-*99999999999999999//17 digits
+```
+
+* 10000000000000000 // 17 digits
+* 9999999999999999 //16 digits
+* 99999999999999999//17 digits
+

@@ -1,4 +1,4 @@
-# Converting Java object to/from JSON using Gson
+---
 author: pawel
 
 levels:
@@ -19,8 +19,11 @@ tags:
 
 links:
 
-  - >-
-    [sites.google.com](https://sites.google.com/site/gson/gson-user-guide#TOC-Object-Examples){website}
+  - '[sites.google.com](https://sites.google.com/site/gson/gson-user-guide#TOC-Object-Examples)'
+
+---
+
+# Converting Java object to/from JSON using Gson
 
 ---
 ## Content
@@ -39,3 +42,4 @@ Gson gson = new Gson();
 String json = gson.toJson(obj);
 // json is {"value":42,"message":"foo"}
 ```
+

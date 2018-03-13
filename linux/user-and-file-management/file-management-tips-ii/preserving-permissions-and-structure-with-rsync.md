@@ -1,4 +1,4 @@
-# Preserving permissions and structure with `rsync`
+---
 author: tuwi.dc
 
 levels:
@@ -28,6 +28,10 @@ tags:
   - archive
 
 ---
+
+# Preserving permissions and structure with `rsync`
+
+---
 ## Content
 
 To recursively copy from a remote system to your local system preserving permissions and structure you can use `rsync`. It works best for syncing the same files repeatedly over time:
@@ -48,7 +52,9 @@ Keep in mind that here we assume that we are using key based authentication and 
 
 `rsync` works best for files/directories that 
 
-??? . 
-*need constant syncing
-*have to be downloaded only once
-*are system independent
+??? .
+
+* need constant syncing
+* have to be downloaded only once
+* are system independent
+

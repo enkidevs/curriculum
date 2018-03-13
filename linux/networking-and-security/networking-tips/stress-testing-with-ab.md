@@ -1,4 +1,4 @@
-# Stress testing with `ab`
+---
 author: tuwi.dc
 
 levels:
@@ -25,7 +25,9 @@ tags:
 
   - apachebench
 
-notes: ''
+---
+
+# Stress testing with `ab`
 
 ---
 ## Content
@@ -52,7 +54,9 @@ $ ab -n 1000 -c 10 -k \
 ## Revision
 
 A tool for testing how many connections your server is capable of serving is ???.
-*`ab`
-*`netstat`
-*`w`
-*`ss`
+
+* `ab`
+* `netstat`
+* `w`
+* `ss`
+

@@ -1,4 +1,4 @@
-# URL addresses with Special characters in Java
+---
 author: pawel
 
 levels:
@@ -22,6 +22,10 @@ tags:
   - net
 
 ---
+
+# URL addresses with Special characters in Java
+
+---
 ## Content
 
 Sometimes URLs might contain special characters, we need to encode to make them legal.
@@ -37,3 +41,4 @@ URI uri = new URI("http", "example.com",
           "/hello world/", "");
 URL url = uri.toURL();
 ```
+

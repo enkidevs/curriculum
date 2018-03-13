@@ -1,4 +1,4 @@
-# Setting up password-free authentication
+---
 author: tuwi.dc
 
 levels:
@@ -20,6 +20,10 @@ tags:
   - pasword-less
 
   - ssh-copy-id
+
+---
+
+# Setting up password-free authentication
 
 ---
 ## Content
@@ -83,6 +87,8 @@ $ ??? -t ???
 The file on the server in which to add your ssh key to set up password-less authentication is
 
 ???
+
 * `~/.ssh/authorized_keys`
 * `~/ssh/authorized_keys`
 * `~/ssh/keys`
+

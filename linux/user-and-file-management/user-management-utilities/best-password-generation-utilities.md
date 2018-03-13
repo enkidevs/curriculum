@@ -1,4 +1,4 @@
-# Best password generation utilities
+---
 author: nene
 
 levels:
@@ -14,9 +14,14 @@ type: normal
 category: how to
 
 tags:
+
   - passwords
+
   - workout
 
+---
+
+# Best password generation utilities
 
 ---
 ## Content
@@ -52,7 +57,9 @@ That would create numerical-only, four digit long passwords (think PIN codes).
 Out of the following, the tool that is *not* helpful if you want to generate passwords is 
 
 ???.
-*`xargs`
-*`apg`
-*`pwgen`
-*`makepasswd`
+
+* `xargs`
+* `apg`
+* `pwgen`
+* `makepasswd`
+

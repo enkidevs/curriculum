@@ -1,4 +1,4 @@
-# Sequential execution using the `;` statement separator
+---
 author: nene
 
 levels:
@@ -12,8 +12,12 @@ type: normal
 category: feature
 
 tags:
+
   - chaining operators
 
+---
+
+# Sequential execution using the `;` statement separator
 
 ---
 ## Content
@@ -35,16 +39,18 @@ Run the following commands one after the other :
 ```
 $ date ??? who am i
 ```
-*`;`
-*`\n`
-*`||`
+
+* `;`
+* `\n`
+* `||`
 
 ---
 ## Revision
 
 You can sequentially run commands using the ??? statement separator.
 
-*;
-*’’
-*&
-*&&
+* ;
+* ’’
+* &
+* &&
+

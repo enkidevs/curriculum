@@ -1,4 +1,4 @@
-# Staying connected remotely via SSH without an interactive shell
+---
 author: dean
 
 levels:
@@ -14,6 +14,10 @@ category: hack
 tags:
 
   - ssh-tunnel-interactive-shell
+
+---
+
+# Staying connected remotely via SSH without an interactive shell
 
 ---
 ## Content
@@ -34,7 +38,9 @@ The `-N` option prevents remote commands from executing, and therefore allows lo
 ## Revision
 
 If you are looking for a port forwarding on a machine without an interactive shell, you should use `ssh` ??? flag.
-*-N
-*-n
-*-C
-*-p
+
+* -N
+* -n
+* -C
+* -p
+

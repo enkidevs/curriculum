@@ -1,4 +1,4 @@
-# Server-side rendering
+---
 author: catalin
 
 levels:
@@ -11,16 +11,15 @@ type: normal
 
 category: pattern
 
-notes: >-
-  This insight can fit under Node, Express and React as well as it deals with
-  them bundled up.
-
 parent: custom-proptype-s-to-be-required
 
 links:
 
-  - >-
-    [artsy.github.io](http://artsy.github.io/blog/2013/11/30/rendering-on-the-server-and-client-in-node-dot-js/){website}
+  - '[artsy.github.io](http://artsy.github.io/blog/2013/11/30/rendering-on-the-server-and-client-in-node-dot-js/)'
+
+---
+
+# Server-side rendering
 
 ---
 ## Content
@@ -70,3 +69,4 @@ The main advantage of server-side rendering in React is that the user doesn't ha
 * scripted
 * results
 * improved user performance
+

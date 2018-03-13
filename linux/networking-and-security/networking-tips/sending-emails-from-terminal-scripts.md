@@ -1,4 +1,4 @@
-# Sending emails from terminal / scripts
+---
 author: tuwi.dc
 
 levels:
@@ -25,7 +25,11 @@ tags:
 
   - gmail
 
-  - ''
+  - 
+
+---
+
+# Sending emails from terminal / scripts
 
 ---
 ## Content
@@ -33,8 +37,8 @@ tags:
 It is possible to send email from the terminal (or from inside scripts) by using `sendemail`.
 
 Firstly, acquire the packages needed:
- *libio-socket-ssl-perl*,
- *libnet-ssleay-perl* and  *sendemail*.
+* libio-socket-ssl-perl*,
+* libnet-ssleay-perl* and  *sendemail*.
 
 Then, you can issue it with the following syntax: 
 ```
@@ -45,3 +49,4 @@ $ sendemail -f fromuser@gmail.com \
  -o tls=yes -xu gmailaccount \
  -xp gmailpassword 
 ```
+

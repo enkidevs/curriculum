@@ -1,4 +1,4 @@
-# Strings in ES6
+---
 author: rosielowther
 
 levels:
@@ -15,10 +15,14 @@ category: feature
 
 links:
 
-  - '[www.2ality.com](http://www.2ality.com/2015/01/es6-strings.html){website}'
-  
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String){website}'
-  
+  - '[www.2ality.com](http://www.2ality.com/2015/01/es6-strings.html)'
+
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)'
+
+---
+
+# Strings in ES6
+
 ---
 ## Content
 
@@ -80,7 +84,9 @@ What's the result of this:
 `Enki`.includes(`nk`)
 // ???
 ```
-*`true`
-*`false`
-*`(2,3)`
-*`(1,2)`
+
+* `true`
+* `false`
+* `(2,3)`
+* `(1,2)`
+

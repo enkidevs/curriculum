@@ -1,4 +1,4 @@
-# Understanding `umask`
+---
 author: tuwi.dc
 
 levels:
@@ -10,15 +10,26 @@ type: normal
 category: must-know
 
 tags:
+
   - linux
+
   - permissions
+
   - umask
+
   - terminal
+
   - files
+
   - obscura
+
   - workout
+
   - deep
 
+---
+
+# Understanding `umask`
 
 ---
 ## Content
@@ -81,10 +92,11 @@ To apply this for all the users of the system you should add this in `/etc/profi
 What default permission would a *new file* have if the `umask` is `314` (which translates to `-wx--xr--`)?
 
 ???
-*r--rw--w-
-*r--r--r--
-*-wx-wx-w-
-*--x--x-wx
+
+* r--rw--w-
+* r--r--r--
+* -wx-wx-w-
+* --x--x-wx
 
 ---
 ## Revision
@@ -92,31 +104,23 @@ What default permission would a *new file* have if the `umask` is `314` (which t
 What `umask` value makes the new files only accessible to the user who created them?
 
 ???
-*077
-*700
-*777
-*000
 
----
-## Footnotes
-
-[1:Permissions]
-The *mask* represents a 4 digit value, and it is a valid octal number. If fewer digits are passed as an argument, leading zeros are assumed.
-
-The 3 rightmost digits represent the permissions granted to the user, user's group and other users, respectively.
-
-[2:Files]
-In case of files, for which the x (or execute) permission is turned off by default.
+* 077
+* 700
+* 777
+* 000
 
 ---
 ## Quiz
 
-headline: how does umask work?
+ ### how does umask work?
 
-question: What is the umask value, if the permission of a newly created file is 224?
+  What is the umask value, if the permission of a newly created file is 224?
 
 answers:
+
   - All three are valid
   - 442
   - 552
   - 443
+

@@ -1,4 +1,4 @@
-# Using `touch` to alter files modification time
+---
 author: tuwi.dc
 
 levels:
@@ -12,14 +12,24 @@ type: normal
 category: how to
 
 tags:
+
   - linux
+
   - touch
+
   - timestamp
+
   - date
+
   - alter
+
   - workout
+
   - introduction
 
+---
+
+# Using `touch` to alter files modification time
 
 ---
 ## Content
@@ -49,12 +59,13 @@ Set the modification time of `enki.txt` to be 5 minutes ago :
 $ ??? ??? ???
                 enki.txt
 ```
-*`touch`
-*`-d`
-*`"5 minutes ago"`
-*`5`
-*`-r`
-*`set`
+
+* `touch`
+* `-d`
+* `"5 minutes ago"`
+* `5`
+* `-r`
+* `set`
 
 ---
 ## Revision
@@ -63,6 +74,7 @@ You can alter the modification or the access time of a file using the
 
 ??? command .
 
-*touch
-*alter
-*set
+* touch
+* alter
+* set
+

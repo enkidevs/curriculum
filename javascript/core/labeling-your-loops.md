@@ -1,4 +1,4 @@
-# Labeling your loops
+---
 author: ioanna.ki
 
 levels:
@@ -17,8 +17,11 @@ tags:
 
 links:
 
-  - >-
-    [samuli.hakoniemi.net](http://samuli.hakoniemi.net/10-small-things-you-may-not-know-about-javascript/){website}
+  - '[samuli.hakoniemi.net](http://samuli.hakoniemi.net/10-small-things-you-may-not-know-about-javascript/)'
+
+---
+
+# Labeling your loops
 
 ---
 ## Content
@@ -57,9 +60,10 @@ for(var i=0; i<5; i++) {
 
 ```
 
-*`break`
-*`enkiLoop`
-*`loop`
-*`yield`
-*`stop`
-*`enki`
+* `break`
+* `enkiLoop`
+* `loop`
+* `yield`
+* `stop`
+* `enki`
+

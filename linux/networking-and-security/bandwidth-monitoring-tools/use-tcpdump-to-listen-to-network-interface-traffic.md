@@ -1,4 +1,4 @@
-# Use `tcpdump` to listen to network interface traffic
+---
 author: aakarsh
 
 levels:
@@ -12,6 +12,10 @@ levels:
 type: normal
 
 category: how to
+
+---
+
+# Use `tcpdump` to listen to network interface traffic
 
 ---
 ## Content
@@ -47,7 +51,9 @@ filters.
 ## Revision
 
 You can use `tcpdump` to listen to traffic passing through a *specific interface* by using the ??? flag.
-*-i
-*-v
-*-e
-*-a
+
+* -i
+* -v
+* -e
+* -a
+

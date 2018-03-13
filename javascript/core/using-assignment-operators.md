@@ -1,4 +1,4 @@
-# Using assignment operators
+---
 author: fsites
 
 levels:
@@ -13,16 +13,15 @@ category: feature
 
 tags:
 
-  - 'operators, assignment, loops'
-
-notes: >-
-  Seems trivial but they had me confused when I started looking at other peoples
-  code.
+  - operators, assignment, loops
 
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators)'
+
+---
+
+# Using assignment operators
 
 ---
 ## Content
@@ -53,17 +52,19 @@ x ??? 4; // make x == 20
 x ??? 2; // then, make x == 10
 x ??? 3; // lastly, make x == 7
 ```
-*`*=` 
-*`/=` 
-*`-=` 
-*`++` 
-*`=>`
+
+* `*=` 
+* `/=` 
+* `-=` 
+* `++` 
+* `=>`
 
 ---
 ## Revision
 
-`x = x + y` can be shortened using ??? 
+`x = x + y` can be shortened using ???
 
-*`x += y` 
-*x ++ y
-*x =+ y
+* `x += y` 
+* x ++ y
+* x =+ y
+

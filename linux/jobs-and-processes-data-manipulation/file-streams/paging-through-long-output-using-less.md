@@ -1,4 +1,4 @@
-# Paging Through Long Output Using `less`
+---
 author: jfarmer
 
 levels:
@@ -9,15 +9,15 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
 links:
 
-  - >-
-    [Pagers
-    comparison](http://unix.stackexchange.com/questions/81129/what-are-the-differences-between-most-more-and-less){website}
+  - '[Pagers comparison](http://unix.stackexchange.com/questions/81129/what-are-the-differences-between-most-more-and-less)'
+
+---
+
+# Paging Through Long Output Using `less`
 
 ---
 ## Content
@@ -56,20 +56,23 @@ Run `man less` to read `less`'s manual (aka "manpage").
 A pager utility that allows you to scroll and search through a stream of output, alternative to `more`,  is
 
 ???.
-*less
-*grep
-*awk
-*cut
+
+* less
+* grep
+* awk
+* cut
 
 ---
 ## Quiz
 
-headline: are you familiar with Linux pagers?
+ ### are you familiar with Linux pagers?
 
-question: Is more less or less more?
+  Is more less or less more?
 
 answers:
+
   - Both are true
   - more is less
   - less is more
   - Neither
+

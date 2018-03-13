@@ -1,4 +1,4 @@
-# How to unmodify a modified file
+---
 author: rosielowther
 
 levels:
@@ -15,8 +15,11 @@ category: must-know
 
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Undoing-Things){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Undoing-Things)'
+
+---
+
+# How to unmodify a modified file
 
 ---
 ## Content
@@ -37,6 +40,7 @@ You can use **stashing** or **branching** to keep a copy of the changes to a fil
 Why isn't reverting a file to its old version good practice?
 
 ???
+
 * The deleted changes can't be recovered.
 * It can have unexpected results.
 * The command doesn't work on all files.
@@ -48,6 +52,8 @@ Revert `README.md` to its previous version :
 ```
 $ git ??? -- README.md
 ```
+
 * `checkout`
 * `revert`
 * `remove`
+

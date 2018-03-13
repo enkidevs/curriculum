@@ -1,4 +1,4 @@
-# Cleaning up comments on config files with `grep`
+---
 author: tuwi.dc
 
 levels:
@@ -21,12 +21,13 @@ tags:
 
   - config files
 
-notes: ''
-
 links:
 
-  - >-
-    [www.thegeekstuff.com](http://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/){website}
+  - '[www.thegeekstuff.com](http://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)'
+
+---
+
+# Cleaning up comments on config files with `grep`
 
 ---
 ## Content
@@ -56,6 +57,7 @@ Display `.bashrc` without empty lines:
 $ ??? -v ??? ???
          ~/.bashrc
 ```
+
 * `grep`
 * `-e`
 * `'^$'`
@@ -73,3 +75,4 @@ What flag can be used with the `grep` command to enable regex matching?
 * `-v`
 * `-r`
 * `-m`
+

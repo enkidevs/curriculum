@@ -1,4 +1,4 @@
-# Computed property names in object literals
+---
 author: nicoburns
 
 levels:
@@ -17,7 +17,9 @@ tags:
 
   - es6
 
-notes: ''
+---
+
+# Computed property names in object literals
 
 ---
 ## Content
@@ -58,14 +60,14 @@ var enki  = {
 }
 ```
 
-*`x`
-*`"y"`
-*`y`
-*`"x"`
-*`3.14`
-*`new`
-*`Object`
-*`{}`
+* `x`
+* `"y"`
+* `y`
+* `"x"`
+* `3.14`
+* `new`
+* `Object`
+* `{}`
 
 ---
 ## Revision
@@ -85,11 +87,12 @@ var enki  = {
 }
 ```
 
-*`x`
-*`"y"`
-*`y`
-*`"x"`
-*`3.14`
-*`new`
-*`Object`
-*`{}`
+* `x`
+* `"y"`
+* `y`
+* `"x"`
+* `3.14`
+* `new`
+* `Object`
+* `{}`
+

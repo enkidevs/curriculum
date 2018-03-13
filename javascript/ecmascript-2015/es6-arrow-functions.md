@@ -1,4 +1,4 @@
-# ES6 Arrow Functions
+---
 author: rosielowther
 
 levels:
@@ -15,9 +15,13 @@ category: must-know
 
 links:
 
-  - '[googlechrome.github.io](https://googlechrome.github.io/samples/arrows-es6/){website}'
-  
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions){website}'
+  - '[googlechrome.github.io](https://googlechrome.github.io/samples/arrows-es6/)'
+
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)'
+
+---
+
+# ES6 Arrow Functions
 
 ---
 ## Content
@@ -56,13 +60,13 @@ var evens = odds.map(
 ??? evens = odds.map(n ??? n + 1);
 ```
 
-*`var`
-*`=>`
-*`return`
-*`()`
-*`{}`
-*`=`
-*`>`
+* `var`
+* `=>`
+* `return`
+* `()`
+* `{}`
+* `=`
+* `>`
 
 ---
 ## Revision
@@ -78,10 +82,11 @@ var evens = odds.map(
 ??? evens = odds.map(n ??? n + 1);
 ```
 
-*`var`
-*`=>`
-*`return`
-*`()`
-*`{}`
-*`=`
-*`>`
+* `var`
+* `=>`
+* `return`
+* `()`
+* `{}`
+* `=`
+* `>`
+

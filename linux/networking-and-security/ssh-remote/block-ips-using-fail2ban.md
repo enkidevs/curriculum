@@ -1,4 +1,4 @@
-# Block IPs using `Fail2ban`
+---
 author: tuwi.dc
 
 levels:
@@ -29,8 +29,11 @@ tags:
 
 links:
 
-  - >-
-    [www.digitalocean.com](https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-ubuntu-14-04){website}
+  - '[www.digitalocean.com](https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-ubuntu-14-04)'
+
+---
+
+# Block IPs using `Fail2ban`
 
 ---
 ## Content
@@ -77,6 +80,8 @@ $ /etc/init.d/fail2ban start
 The `fail2ban` service looks through logs and bans IPs that 
 
 ???.
-*had too many failed log in attempts
-*made too many requests
-*were inactive for too long
+
+* had too many failed log in attempts
+* made too many requests
+* were inactive for too long
+

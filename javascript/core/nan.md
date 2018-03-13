@@ -1,4 +1,4 @@
-# `NaN`
+---
 author: adamMontgomerie
 
 levels:
@@ -21,7 +21,11 @@ tags:
 
 links:
 
-  - '[www.2ality.com](http://www.2ality.com/2012/02/nan-infinity.html){website}'
+  - '[www.2ality.com](http://www.2ality.com/2012/02/nan-infinity.html)'
+
+---
+
+# `NaN`
 
 ---
 ## Content
@@ -64,9 +68,11 @@ console.log(Number("enki")); // ???
 console.log(0/0 ===
    Number("five")); // ???
 ```
-*NaN
-*false
-*enki
-*True
-*true
-*0
+
+* NaN
+* false
+* enki
+* True
+* true
+* 0
+

@@ -1,4 +1,4 @@
-# Use the `apply` function to get the `min` or `max` of an array
+---
 author: Bruno
 
 levels:
@@ -15,7 +15,11 @@ category: pattern
 
 links:
 
-  - '[stackoverflow](http://stackoverflow.com/questions/21255138){discussion}'
+  - '[stackoverflow](http://stackoverflow.com/questions/21255138)'
+
+---
+
+# Use the `apply` function to get the `min` or `max` of an array
 
 ---
 ## Content
@@ -54,10 +58,10 @@ Math.max.apply(null, [5,8,2]);
 // ???
 ```
 
-*`8`
-*`NaN`
-*`-Infinity`
-*`5`
+* `8`
+* `NaN`
+* `-Infinity`
+* `5`
 
 ---
 ## Revision
@@ -68,7 +72,8 @@ Math.max.apply(null, [5,8,2]);
 // ???
 ```
 
-*`8`
-*`NaN`
-*`-Infinity`
-*`5`
+* `8`
+* `NaN`
+* `-Infinity`
+* `5`
+

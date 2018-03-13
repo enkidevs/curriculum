@@ -1,4 +1,4 @@
-# Common issue with scripts in `cron`
+---
 author: tuwi.dc
 
 levels:
@@ -13,6 +13,8 @@ type: normal
 
 category: caveats
 
+parent: practical-cron
+
 tags:
 
   - linux
@@ -23,7 +25,9 @@ tags:
 
   - executable
 
-parent: practical-cron
+---
+
+# Common issue with scripts in `cron`
 
 ---
 ## Content
@@ -45,6 +49,7 @@ Make `enki.py` file executable:
 ```
 $ ??? ??? enki.py
 ```
+
 * `chmod`
 * `+x`
 * `-x`
@@ -56,6 +61,8 @@ $ ??? ??? enki.py
 If the user doesn’t have execute rights for a file, `cron` may
 
 ???.
+
 * fail to run the scripts
 * set the rights automatically
 * still execute them
+

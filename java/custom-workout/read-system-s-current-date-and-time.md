@@ -1,4 +1,4 @@
-# Read system's current date and time
+---
 author: fahimrahman
 
 levels:
@@ -19,12 +19,15 @@ tags:
 
   - calender
 
-  - ''
+  - 
 
 links:
 
-  - >-
-    [www.mkyong.com](http://www.mkyong.com/java/java-how-to-get-current-date-time-date-and-calender/){website}
+  - '[www.mkyong.com](http://www.mkyong.com/java/java-how-to-get-current-date-time-date-and-calender/)'
+
+---
+
+# Read system's current date and time
 
 ---
 ## Content
@@ -54,3 +57,4 @@ System.out.println(
 dateFormat.format(calender.getTime()));  
 
 ```
+

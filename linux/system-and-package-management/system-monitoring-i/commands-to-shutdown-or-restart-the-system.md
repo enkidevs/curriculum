@@ -1,4 +1,4 @@
-# Commands to shutdown or restart the system
+---
 author: tuwi.dc
 
 levels:
@@ -20,6 +20,10 @@ tags:
   - halt
 
   - poweroff
+
+---
+
+# Commands to shutdown or restart the system
 
 ---
 ## Content
@@ -48,10 +52,10 @@ $ ???
 ```
 command restarts the system.
 
-*`sudo shutdown -r now`
-*`sudo halt`
-*`sudo shutdown -h now`
-*`sudo init 0`
+* `sudo shutdown -r now`
+* `sudo halt`
+* `sudo shutdown -h now`
+* `sudo init 0`
 
 ---
 ## Revision
@@ -61,7 +65,8 @@ $ ???
 ```
 command shuts down the system.
 
-*`sudo shutdown -h now`
-*`sudo reboot`
-*`sudo init 6`
-*`sudo shutdown -r now`
+* `sudo shutdown -h now`
+* `sudo reboot`
+* `sudo init 6`
+* `sudo shutdown -r now`
+

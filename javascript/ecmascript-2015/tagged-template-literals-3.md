@@ -1,4 +1,4 @@
-# Tagged Template Literals 3
+---
 author: alexjmackey
 
 levels:
@@ -9,13 +9,15 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
 links:
 
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)'
+
+---
+
+# Tagged Template Literals 3
 
 ---
 ## Content
@@ -31,3 +33,4 @@ var company="Enki";
 myFunc `Hello ${company} hows it going?`
 // "Goodbye Enki"
 ```
+

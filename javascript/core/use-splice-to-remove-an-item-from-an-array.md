@@ -1,4 +1,4 @@
-# Use `splice()` to remove an item from an array
+---
 author: madhavi.penumatsa
 
 levels:
@@ -17,7 +17,11 @@ tags:
 
 links:
 
-  - '[developer.mozilla.org](https://developer.mozilla.org/){website}'
+  - '[developer.mozilla.org](https://developer.mozilla.org/)'
+
+---
+
+# Use `splice()` to remove an item from an array
 
 ---
 ## Content
@@ -54,6 +58,7 @@ delete ar[2]; // ar = ???
 // splice(startingPos,deleteCount)
 ar.splice(2,2); // ar = ???
 ```
+
 * [1,2,undefined,’5’]
 * [1,2]
 * [1,3,’5’]
@@ -70,3 +75,4 @@ After calling `splice(1,1)`  on x , it will contain ??? .
 * [1,6,8]
 * [4,6,8]
 * [1,undefined,6,8]
+

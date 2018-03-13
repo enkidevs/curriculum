@@ -1,4 +1,4 @@
-# Handling modules
+---
 author: nene
 
 levels:
@@ -19,7 +19,11 @@ tags:
 
 links:
 
-  - '[www.sitepoint.com](http://www.sitepoint.com/understanding-es6-modules/){website}'
+  - '[www.sitepoint.com](http://www.sitepoint.com/understanding-es6-modules/)'
+
+---
+
+# Handling modules
 
 ---
 ## Content
@@ -54,10 +58,12 @@ Import the `enki` class in another file :
 ```javascript
 ??? Enki ??? 'enki';
 ```
-*`import`
-*`from`
-*`to`
-*`export`
-*`default`
-*`function`
-*`require`
+
+* `import`
+* `from`
+* `to`
+* `export`
+* `default`
+* `function`
+* `require`
+

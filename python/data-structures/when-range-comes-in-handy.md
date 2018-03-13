@@ -1,4 +1,4 @@
-# When `range` comes in handy
+---
 author: catalin
 
 levels:
@@ -13,8 +13,11 @@ category: must-know
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#ranges){website}
+  - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#ranges)'
+
+---
+
+# When `range` comes in handy
 
 ---
 ## Content
@@ -64,10 +67,11 @@ r = range(0, 15, 2)
 13 in r
 2 in r 
 ```
-*`False True` 
-*`False False` 
-*`True True` 
-*`True False`
+
+* `False True` 
+* `False False` 
+* `True True` 
+* `True False`
 
 ---
 ## Revision
@@ -79,6 +83,7 @@ for i in range(0, 12, 4):
     print(i - 1)
 ```
 
-*`-1 3 7` 
-*`0 4 8` 
-*`-1 3 7 11`
+* `-1 3 7` 
+* `0 4 8` 
+* `-1 3 7 11`
+

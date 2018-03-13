@@ -1,4 +1,4 @@
-# Template Strings
+---
 author: nene
 
 levels:
@@ -19,7 +19,11 @@ tags:
 
 links:
 
-  - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/template_strings){website}'
+  - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/template_strings)'
+
+---
+
+# Template Strings
 
 ---
 ## Content
@@ -58,12 +62,13 @@ function pr() {
 console.log('Time ???{???()} Python!'); 
 // Time to practice my Python!
 ```
-*`$` 
-*`pr` 
-*`£` 
-*`&`  
-*`fn` 
-*`func`
+
+* `$` 
+* `pr` 
+* `£` 
+* `&`  
+* `fn` 
+* `func`
 
 ---
 ## Revision
@@ -74,13 +79,14 @@ var a = 'enki';
 console.log(`cool thing -> ???{???} `);
 ```
 
-*`$`
-*`a`
-*`template`
-*`%`
-*`(`
-*`{`
-*`)`
-*`}`
-*`string`
-*`enki`
+* `$`
+* `a`
+* `template`
+* `%`
+* `(`
+* `{`
+* `)`
+* `}`
+* `string`
+* `enki`
+

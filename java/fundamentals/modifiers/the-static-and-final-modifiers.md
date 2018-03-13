@@ -1,4 +1,4 @@
-# The `static` and `final` Modifiers
+---
 author: mihaiberq
 
 levels:
@@ -7,9 +7,11 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+---
+
+# The `static` and `final` Modifiers
 
 ---
 ## Content
@@ -80,17 +82,19 @@ A `final` method cannot be overridden by any subclass. This is particularly usef
 How are static variables also called?
 
 ???
-*Class variables.
-*Instance variables.
-*Constants.
-*Class constants.
+
+* Class variables.
+* Instance variables.
+* Constants.
+* Class constants.
 
 ---
 ## Revision
 
 Variables declared `final` cannot be ???.
 
-*reassigned
-*modified
-*copied
-*referenced
+* reassigned
+* modified
+* copied
+* referenced
+

@@ -1,4 +1,4 @@
-# SSH Pipes
+---
 author: catalin
 
 levels:
@@ -10,6 +10,10 @@ levels:
 type: normal
 
 category: how to
+
+---
+
+# SSH Pipes
 
 ---
 ## Content
@@ -54,5 +58,7 @@ Note that half of the command is executed locally, while the other half is execu
 Can you pipe data through an SSH connection?
 
 ???
-*Yes
-*No
+
+* Yes
+* No
+

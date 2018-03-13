@@ -1,4 +1,4 @@
-# Check if an argument is a number
+---
 author: Kirill
 
 levels:
@@ -13,11 +13,13 @@ type: normal
 
 category: how to
 
-notes: 'Check how this works with bruno '
-
 links:
 
-  - '[2ality.com](http://www.2ality.com/2014/05/is-integer.html){blog}'
+  - '[2ality.com](http://www.2ality.com/2014/05/is-integer.html)'
+
+---
+
+# Check if an argument is a number
 
 ---
 ## Content
@@ -67,10 +69,12 @@ function isNumber(n){
   return float && finite;
 }
 ```
-*`isNaN`
-*`parseFloat`
-*`isFinite`
-*`isInfinite`
-*`typeof`
+
+* `isNaN`
+* `parseFloat`
+* `isFinite`
+* `isInfinite`
+* `typeof`
 * `isNum`
-*`isValud`
+* `isValud`
+

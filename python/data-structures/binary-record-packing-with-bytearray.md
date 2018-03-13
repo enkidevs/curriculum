@@ -1,4 +1,4 @@
-# Binary record packing with `bytearray`
+---
 author: catalin
 
 levels:
@@ -13,14 +13,15 @@ category: tip
 
 parent: bytearray-objects
 
-notes: Changes made. See notes in Python-Insights-In-Review-remarks.txt
-
 links:
 
-  - >-
-    [dabeaz.blogspot.co.uk](http://dabeaz.blogspot.co.uk/2010/01/few-useful-bytearray-tricks.html){website}
+  - '[dabeaz.blogspot.co.uk](http://dabeaz.blogspot.co.uk/2010/01/few-useful-bytearray-tricks.html)'
 
-  - '[Code example](https://repl.it/Dca2){website}'
+  - '[Code example](https://repl.it/Dca2)'
+
+---
+
+# Binary record packing with `bytearray`
 
 ---
 ## Content
@@ -77,6 +78,7 @@ What can be reduced using a `bytearray` when using data written out as a binary 
 
 ???
 
-*Run time
-*Code errors
-*Lines of code
+* Run time
+* Code errors
+* Lines of code
+

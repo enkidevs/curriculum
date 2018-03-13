@@ -1,4 +1,4 @@
-# Make `POST` requests with `curl`
+---
 author: tuwi.dc
 
 levels:
@@ -13,7 +13,9 @@ type: normal
 
 category: how to
 
-notes: ''
+---
+
+# Make `POST` requests with `curl`
 
 ---
 ## Content
@@ -29,3 +31,4 @@ curl -H "Content-Type: application/json" \
     -X POST -d '{"key":"value"}' \
     http://localhost:3000/api/
 ```
+

@@ -1,4 +1,4 @@
-# Using `find` To Search By File Size
+---
 author: jfarmer
 
 levels:
@@ -9,13 +9,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
 tags:
+
   - introduction
+
   - workout
+
+---
+
+# Using `find` To Search By File Size
+
 ---
 ## Content
 
@@ -39,8 +44,7 @@ $ find . -size +100M
 The `-exec` option tells `find` to execute a particular command for each result, replacing `{}` with the name of the file.  The `\;` denotes the end of the command to be executed.
 
 In this case, we'll call `ls -lh` for each file we find.  For `ls`, the `-l` option produces output that includes file size, file permissions, and other details.  The `-h` option tells `ls` to output the file sizes in a human-friendly format, i.e., `550M` for 550MB instead of `576716800` for 576716800 bytes.
-
-**Note**: you can use *any* command with `-exec`, not just `ls`.
+* *Note**: you can use *any* command with `-exec`, not just `ls`.
 
 ---
 ## Revision
@@ -50,10 +54,12 @@ Find all the files of at least 1GB in size :
 $ ??? ??? ??? f 
          ??? ??? 
 ```
-*`find`
-*`.`
-*`-type`
-*`-size`
-*`+1G`
-*`+1GB`
-*`sudo`
+
+* `find`
+* `.`
+* `-type`
+* `-size`
+* `+1G`
+* `+1GB`
+* `sudo`
+

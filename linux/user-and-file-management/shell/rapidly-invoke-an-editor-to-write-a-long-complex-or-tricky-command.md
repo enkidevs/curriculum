@@ -1,4 +1,4 @@
-# Rapidly invoke an editor to write a long, complex, or tricky command
+---
 author: tuwi.dc
 
 levels:
@@ -23,7 +23,9 @@ tags:
 
   - terminal
 
-notes: ''
+---
+
+# Rapidly invoke an editor to write a long, complex, or tricky command
 
 ---
 ## Content
@@ -40,19 +42,21 @@ To open the line you have written so far in the shell into a text editor, you wo
 
 ??? .
 
-*ctrl-x-e
-*ctrl-x
-*ctrl-r
+* ctrl-x-e
+* ctrl-x
+* ctrl-r
 
 ---
 ## Quiz
 
-headline: which option does not belong?
+ ### which option does not belong?
 
-question: Choose the odd one out in the following list.
+  Choose the odd one out in the following list.
 
 answers:
+
   - less
   - vi
   - vim
   - nano
+

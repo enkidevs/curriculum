@@ -1,5 +1,4 @@
-# Get disk space usage with `df`
-
+---
 author: tuwi.dc
 
 levels:
@@ -27,6 +26,10 @@ tags:
   - human readable
 
 ---
+
+# Get disk space usage with `df`
+
+---
 ## Content
 
 The `df` (disk free) command provides the `-h` flag as an option to display sizes in human readable formats. 
@@ -45,9 +48,10 @@ none        2.0G   39M  1.9G   2% /run/shm
 ---
 ## Revision
 
-You can get the free disk status with ???. 
+You can get the free disk status with ???.
 
-*`df`
-*`du`
-*`touch`
-*`dd`
+* `df`
+* `du`
+* `touch`
+* `dd`
+

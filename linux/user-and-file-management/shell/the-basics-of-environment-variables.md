@@ -1,4 +1,4 @@
-# The Basics of Environment Variables
+---
 author: jfarmer
 
 levels:
@@ -10,6 +10,10 @@ levels:
 type: normal
 
 category: must-know
+
+---
+
+# The Basics of Environment Variables
 
 ---
 ## Content
@@ -65,8 +69,10 @@ How would you list all environment variables’ values?
 ```
 $ ???
 ```
-*`env`
-*`$PATH`
-*`$ALL`
-*`vars`
-*`$VARS`
+
+* `env`
+* `$PATH`
+* `$ALL`
+* `vars`
+* `$VARS`
+

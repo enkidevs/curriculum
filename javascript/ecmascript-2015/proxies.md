@@ -1,4 +1,4 @@
-# Proxies 
+---
 author: nene
 
 levels:
@@ -15,9 +15,13 @@ category: how to
 
 links:
 
-  - '[ponyfoo.com](https://ponyfoo.com/articles/es6-proxy-traps-in-depth){website}'
-  
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy){website}'
+  - '[ponyfoo.com](https://ponyfoo.com/articles/es6-proxy-traps-in-depth)'
+
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy)'
+
+---
+
+# Proxies 
 
 ---
 ## Content
@@ -62,8 +66,9 @@ console.log(obj.a) // ???
 console.log(obj.enki) // ???
 ```
 
-*`5`
-*`-4`
-*`NaN`
-*`undefined`
-*`-Infinity`
+* `5`
+* `-4`
+* `NaN`
+* `undefined`
+* `-Infinity`
+

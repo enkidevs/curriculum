@@ -1,4 +1,4 @@
-# Removing PPAs
+---
 author: tuwi.dc
 
 levels:
@@ -10,6 +10,8 @@ levels:
 type: normal
 
 category: how to
+
+parent: using-ppas
 
 tags:
 
@@ -31,12 +33,14 @@ tags:
 
   - repository
 
-parent: using-ppas
+---
+
+# Removing PPAs
 
 ---
 ## Content
 
-*Personal Package Archives* are non-standard updates or pieces of software (think of unstable versions). If you decide to delete them, there are multiple ways in which to do so.
+* Personal Package Archives* are non-standard updates or pieces of software (think of unstable versions). If you decide to delete them, there are multiple ways in which to do so.
 
 Using the `--remove` flag:
 ```
@@ -72,9 +76,10 @@ $ apt-get update
 The safer alternative to `apt-get purge` that also removes PPA’s is 
 
 ???.
-*ppa-purge
-*add-apt-repository --remove
-*manually deleting their list files
+
+* ppa-purge
+* add-apt-repository --remove
+* manually deleting their list files
 
 ---
 ## Revision
@@ -83,9 +88,11 @@ To delete a package installed from a *PPA*, you could run:
 ```
 $ ??? ??? ???
 ```
-*`apt-get`
-*`purge`
-*`package_name`
-*`PPA_name`
-*`delete`
-*`ppa-purge`
+
+* `apt-get`
+* `purge`
+* `package_name`
+* `PPA_name`
+* `delete`
+* `ppa-purge`
+

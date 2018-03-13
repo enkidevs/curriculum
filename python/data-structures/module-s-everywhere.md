@@ -1,4 +1,4 @@
-# `Module`s everywhere!
+---
 author: catalin
 
 levels:
@@ -13,14 +13,13 @@ type: normal
 
 category: must-know
 
-notes: >
-  The return statement used in the module is not required. Works the same
-  without it. Other rewrites to code and text done.
-
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#modules){website}
+  - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#modules)'
+
+---
+
+# `Module`s everywhere!
 
 ---
 ## Content
@@ -68,20 +67,21 @@ def favourite(topic):
    
 ??? python_module ??? python_mod 
 python_mod.favourite("Python") 
-``` 
+```
 
-*`import` 
-*`as` 
-*`inherit` 
-*`declare` 
-*`named` 
-*`new`
+* `import` 
+* `as` 
+* `inherit` 
+* `declare` 
+* `named` 
+* `new`
 
 ---
 ## Revision
 
-Modules are files which can be ??? in other modules or in the main module. 
+Modules are files which can be ??? in other modules or in the main module.
 
-*imported
-*inherited
-*used
+* imported
+* inherited
+* used
+

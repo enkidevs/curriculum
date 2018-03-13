@@ -1,4 +1,4 @@
-# Fully qualified names in `SQL` query
+---
 author: pawel
 
 levels:
@@ -17,7 +17,11 @@ tags:
 
   - JDBC
 
-  - ''
+  - 
+
+---
+
+# Fully qualified names in `SQL` query
 
 ---
 ## Content
@@ -28,3 +32,4 @@ If an `SQL` statement uses fields with the same name from multiple tables, the f
 SELECT authors.authorID, books.authorID 
   FROM authors, books
 ```
+

@@ -1,9 +1,11 @@
-# The `test` Built-in
+---
 author: mihaiberq
 
 levels:
-    - basic
-    - medium
+
+  - basic
+
+  - medium
 
 type: normal
 
@@ -11,7 +13,11 @@ category: feature
 
 links:
 
-    - '[Classic test command](http://wiki.bash-hackers.org/commands/classictest)'
+  - '[Classic test command](http://wiki.bash-hackers.org/commands/classictest)'
+
+---
+
+# The `test` Built-in
 
 ---
 ## Content
@@ -61,6 +67,7 @@ $ chmod +x script.sh
 $ test ??? script.sh && echo "executable"
 # executable
 ```
+
 * `-e`
 * `-x`
 * `-ex`
@@ -79,3 +86,4 @@ The equivalent syntax for the `test <expr>` command is
 * `(( <expr> ))`
 * `$(<expr>)`
 * `!<expr>`
+

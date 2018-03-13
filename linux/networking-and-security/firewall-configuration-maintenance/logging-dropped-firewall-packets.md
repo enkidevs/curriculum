@@ -1,4 +1,4 @@
-# Logging dropped firewall packets
+---
 author: tuwi.dc
 
 levels:
@@ -19,7 +19,9 @@ tags:
 
   - logging
 
-notes: ''
+---
+
+# Logging dropped firewall packets
 
 ---
 ## Content
@@ -64,7 +66,9 @@ The action flow to log dropped packets is:
 3. ???
 4. ???
 ```
-*`Create a new chain`
-*`Set the number of logged packets`
-*`Set the last action of the chain to DROP`
-*`Use the new chain as target`
+
+* `Create a new chain`
+* `Set the number of logged packets`
+* `Set the last action of the chain to DROP`
+* `Use the new chain as target`
+

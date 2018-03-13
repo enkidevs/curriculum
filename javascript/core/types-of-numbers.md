@@ -1,4 +1,4 @@
-# Types of numbers
+---
 author: pawel
 
 levels:
@@ -18,6 +18,10 @@ tags:
   - number-evaluation
 
   - IEEE-754-standard
+
+---
+
+# Types of numbers
 
 ---
 ## Content
@@ -56,12 +60,14 @@ Unlike other languages, Javascript stores numbers as ???
 ---
 ## Quiz
 
-headline: is the following statement true?
+ ### is the following statement true?
 
-question: console.log(Number.MIN_VALUE > 0)
+  console.log(Number.MIN_VALUE > 0)
 
 answers:
+
   - true
   - false
   - TypeError
   - RangeError
+

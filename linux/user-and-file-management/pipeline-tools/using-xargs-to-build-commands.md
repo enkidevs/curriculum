@@ -1,4 +1,4 @@
-# Using `xargs` to build commands.
+---
 author: aakarsh
 
 levels:
@@ -14,9 +14,14 @@ type: normal
 category: must-know
 
 tags:
+
   - xargs
+
   - workout
 
+---
+
+# Using `xargs` to build commands.
 
 ---
 ## Content
@@ -61,14 +66,8 @@ Output from the `find` will substitute for every file found both `{}` occurrence
 ## Revision
 
 `xargs` takes the ??? stream and transforms it into the ??? stream for other utilities to use.
-*STDIN
-*STDOUT
-*STDERR
 
----
-## Footnotes
+* STDIN
+* STDOUT
+* STDERR
 
-[1:error handling]
-To make sure empty files are treated correctly, pass the `-0` flag to `xargs` to split the lists at **null** chars together with `-print0` flag of the `find` command.
-[2:example explanation]
-The command below will find all `.bak` files in the current directory then move them to `~/old.files`.

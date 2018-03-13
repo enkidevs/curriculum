@@ -1,4 +1,4 @@
-# Instance variable initializations
+---
 author: pawel
 
 levels:
@@ -16,6 +16,10 @@ category: tip
 tags:
 
   - best-practice
+
+---
+
+# Instance variable initializations
 
 ---
 ## Content
@@ -41,3 +45,4 @@ public class Coin {
   private String name;
 }
 ```
+

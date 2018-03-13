@@ -1,4 +1,4 @@
-# Revision tools
+---
 author: rosielowther
 
 levels:
@@ -11,8 +11,11 @@ category: feature
 
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Revision-Selection){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Revision-Selection)'
+
+---
+
+# Revision tools
 
 ---
 ## Content
@@ -66,13 +69,14 @@ Is equivalent to
 ---
 ## Quiz
 
-headline: how can you specify a range of commits?
+### How can you specify a range of commits?
 
-question: |
-  # Consider the following git history *--*--*--A--*--*--*--B--*
-  # Which of the following commands should be used to log all commits between A and B (inclusive)?
+Consider the following git history *--*--*--A--*--*--*--B--* 
+
+Which of the following commands should be used to log all commits between A and B (inclusive)?
 
 answers:
+
   - git log A~..B
   - git log A..B
   - git log A…B

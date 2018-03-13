@@ -1,4 +1,4 @@
-# Removing old kernels in Debian based systems
+---
 author: tuwi.dc
 
 levels:
@@ -26,6 +26,10 @@ tags:
   - update
 
   - grub
+
+---
+
+# Removing old kernels in Debian based systems
 
 ---
 ## Content
@@ -69,12 +73,13 @@ Complete the following command to delete kernels older than the current one :
 $ ??? ??? ??? 
        linux-image-x.x-x-generic
 ```
-*`sudo`
-*`apt-get`
-*`purge`
-*`-rm`
-*`del`
-*`ker-get`
+
+* `sudo`
+* `apt-get`
+* `purge`
+* `-rm`
+* `del`
+* `ker-get`
 
 ---
 ## Revision
@@ -83,7 +88,8 @@ The command which outputs the current kernel is
 
 `???` .
 
-*`uname -r`
-*`uname -k`
-*`kernel -v`
-*`get -k`
+* `uname -r`
+* `uname -k`
+* `kernel -v`
+* `get -k`
+

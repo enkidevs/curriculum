@@ -1,4 +1,4 @@
-# Run previous command as root
+---
 author: nene
 
 levels:
@@ -16,10 +16,16 @@ type: normal
 category: hack
 
 tags:
+
   - root
+
   - commands
+
   - introduction
 
+---
+
+# Run previous command as root
 
 ---
 ## Content
@@ -48,7 +54,9 @@ A hack to re-run the last command as root is:
 $ adduser newUser
 $ ???
 ```
-*`sudo !!`
-*`!!`
-*`sudo adduser newUser`
-*`adduser newUser`
+
+* `sudo !!`
+* `!!`
+* `sudo adduser newUser`
+* `adduser newUser`
+

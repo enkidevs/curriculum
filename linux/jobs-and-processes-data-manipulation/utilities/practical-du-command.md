@@ -1,4 +1,4 @@
-# Practical `du` command
+---
 author: tuwi.dc
 
 levels:
@@ -23,7 +23,9 @@ tags:
 
   - size
 
-notes: ''
+---
+
+# Practical `du` command
 
 ---
 ## Content
@@ -62,22 +64,24 @@ $ du -h dir | sort -rh | head -3
 Find out the sizes expressed in easily  readable format of all items on your Desktop:
 ```
 $ ??? ??? ???
-``` 
-*`du`
-*`-ha`
-*`~/Desktop/`
-*`-a`
-*`-hs`
-*`-hvs`
+```
+
+* `du`
+* `-ha`
+* `~/Desktop/`
+* `-a`
+* `-hs`
+* `-hvs`
 
 ---
 ## Revision
 
 The `du` command stands for 
 
-??? . 
+??? .
 
-*disk usage
-*disk utility
-*document usage
-*memory usage
+* disk usage
+* disk utility
+* document usage
+* memory usage
+

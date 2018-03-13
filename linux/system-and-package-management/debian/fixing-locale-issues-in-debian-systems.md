@@ -1,4 +1,4 @@
-# Fixing `locale` issues in Debian systems
+---
 author: tuwi.dc
 
 levels:
@@ -24,6 +24,10 @@ tags:
   - locales
 
   - terminal
+
+---
+
+# Fixing `locale` issues in Debian systems
 
 ---
 ## Content
@@ -69,12 +73,13 @@ To generate missing `locale` values and reconfigure the existing ones you can ru
 $ ??? 'en_US.UTF-8'
 $ ??? ???
 ```
-*`locale-gen`
-*`dpkg-reconfigure`
-*`locales`
-*`locale`
-*`gen`
-*`reconfigure`
+
+* `locale-gen`
+* `dpkg-reconfigure`
+* `locales`
+* `locale`
+* `gen`
+* `reconfigure`
 
 ---
 ## Revision
@@ -84,6 +89,8 @@ To generate missing `locales`  values, you could run:
 $ ??? 'pt-BR.UTF-8' 
 # Portuguese-Brazil
 ```
-*`locale-gen`
-*`gen`
-*`locales`
+
+* `locale-gen`
+* `gen`
+* `locales`
+

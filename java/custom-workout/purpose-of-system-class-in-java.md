@@ -1,4 +1,4 @@
-# Purpose of `System` class in Java
+---
 author: pawel
 
 levels:
@@ -17,12 +17,13 @@ tags:
 
   - system-class
 
-notes: ''
-
 links:
 
-  - >-
-    [docs.oracle.com](http://docs.oracle.com/javase/7/docs/api/java/lang/System.html){website}
+  - '[docs.oracle.com](http://docs.oracle.com/javase/7/docs/api/java/lang/System.html)'
+
+---
+
+# Purpose of `System` class in Java
 
 ---
 ## Content
@@ -36,3 +37,4 @@ System class in Java cannot be instantiated, all the functions provided are in s
 - `static PrintStream err` (error stream) 
 - `static InputStream in` (input stream)
 - `static PrintStream out` (output stream)
+

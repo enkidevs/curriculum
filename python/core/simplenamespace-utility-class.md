@@ -1,4 +1,4 @@
-# `SimpleNamespace` Utility Class
+---
 author: catalin
 
 levels:
@@ -13,8 +13,11 @@ category: feature
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/types.html#additional-utility-classes-and-functions){website}
+  - '[docs.python.org](https://docs.python.org/3.5/library/types.html#additional-utility-classes-and-functions)'
+
+---
+
+# `SimpleNamespace` Utility Class
 
 ---
 ## Content
@@ -45,12 +48,12 @@ import types
 enki = ???.???()
 ```
 
-*`types` 
-*`SimpleNamespace` 
-*`empty` 
-*`type` 
-*`SimpleClass` 
-*`EmptyClass`
+* `types` 
+* `SimpleNamespace` 
+* `empty` 
+* `type` 
+* `SimpleClass` 
+* `EmptyClass`
 
 ---
 ## Revision
@@ -59,9 +62,10 @@ What Python module contains the `SimpleNamespace` utility class?
 
 ???
 
-*`types` 
-*`type` 
-*`classes` 
-*`class` 
-*`utility` 
-*`utilities`
+* `types` 
+* `type` 
+* `classes` 
+* `class` 
+* `utility` 
+* `utilities`
+

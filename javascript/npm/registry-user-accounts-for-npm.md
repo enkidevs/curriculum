@@ -1,4 +1,4 @@
-# Registry user accounts for npm
+---
 author: catalin
 
 levels:
@@ -13,12 +13,15 @@ type: normal
 
 category: how to
 
+parent: check-data-about-a-package
+
 links:
 
-  - '[docs.npmjs.com](https://docs.npmjs.com/cli/adduser){website}'
+  - '[docs.npmjs.com](https://docs.npmjs.com/cli/adduser)'
 
+---
 
-parent: check-data-about-a-package
+# Registry user accounts for npm
 
 ---
 ## Content
@@ -70,3 +73,4 @@ For what command is `npm login` an alias?
 * `npm signup`
 * `npm signin`
 * `npm add`
+

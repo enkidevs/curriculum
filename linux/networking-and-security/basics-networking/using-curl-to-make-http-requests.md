@@ -1,4 +1,4 @@
-# Using `curl` To Make HTTP Requests
+---
 author: jfarmer
 
 levels:
@@ -9,15 +9,15 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
 links:
 
-  - >-
-    [More use
-    cases](http://www.thegeekstuff.com/2012/04/curl-examples/){website}
+  - '[More use cases](http://www.thegeekstuff.com/2012/04/curl-examples/)'
+
+---
+
+# Using `curl` To Make HTTP Requests
 
 ---
 ## Content
@@ -61,8 +61,9 @@ $ ??? ??? ???
          https://catpictures.com/cat1.jpg
 ```
 
-*`curl`
-*`-o`
-*`cat.jpg`
-*`-O`
-*`-d`
+* `curl`
+* `-o`
+* `cat.jpg`
+* `-O`
+* `-d`
+

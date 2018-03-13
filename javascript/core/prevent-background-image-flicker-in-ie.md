@@ -1,4 +1,4 @@
-# Prevent background image flicker in **IE**
+---
 author: catalin
 
 levels:
@@ -11,13 +11,16 @@ category: tip
 
 links:
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/18292107/ie-background-flicker){website}
+  - '[stackoverflow.com](http://stackoverflow.com/questions/18292107/ie-background-flicker)'
+
+---
+
+# Prevent background image flicker in **IE**
 
 ---
 ## Content
 
-**Internet Explorer** proved to have problems when loading cached background images as a flicker effect commonly appear.
+* *Internet Explorer** proved to have problems when loading cached background images as a flicker effect commonly appear.
 
 A quick fix is adding this **JS** script:
 ```javascript
@@ -52,17 +55,19 @@ Force loading an image means hard-coding the image source in the html attribute 
 < ??? ???='enki1.jpg' 
                     style='???:none' />
 ```
-*img
-*src
-*display
-*source
-*background-image
+
+* img
+* src
+* display
+* source
+* background-image
 
 ---
 ## Revision
 
 Flickering image bug in IE10 can be solved by ???
 
-*force loading the image
-*loading the image through a script
-*uninstalling IE10
+* force loading the image
+* loading the image through a script
+* uninstalling IE10
+

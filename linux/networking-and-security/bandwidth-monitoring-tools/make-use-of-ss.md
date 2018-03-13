@@ -1,4 +1,4 @@
-# Make use of `ss`
+---
 author: catalin
 
 levels:
@@ -14,6 +14,10 @@ category: how to
 links:
 
   - '[Example of ss capabilities](http://www.binarytides.com/linux-ss-command/)'
+
+---
+
+# Make use of `ss`
 
 ---
 ## Content
@@ -46,7 +50,7 @@ $ ss -at
 State   Recv-Q Send-Q Local Address:Port
                       Peer Address:Port
 LISTEN  0      128    127.0.0.1:5939
-                      *:*   
+* :*   
 ESTAB   0      0      192.168.100.5:48088
                       34.198.75.135:https
 ```
@@ -58,7 +62,7 @@ TCP:   21 (estab 13, closed 0, orphaned 0,
    synrecv 0, timewait 0/0), ports 0
 
 Transport   Total      IP        IPv6
-*	         0         -         -        
+* 0         -         -        
 RAW	       1         0         1        
 UDP	       19        9         10       
 TCP	       21        15        6        
@@ -71,12 +75,13 @@ $ ss -p
 Netid State RecvQ SendQ Local Address:Port
                         Peer Address:Port
 u_seq ESTAB  0      0     @0002f 203909
-                          * 203910
+* 203910
       users:(("atom",pid=22832,fd=17))
 u_seq ESTAB  0      0     @0001c 30591
-                          * 30592
+* 30592
       users:(("chrome",pid=3057,fd=10))
 ```
+
 ---
 ## Practice
 
@@ -97,3 +102,4 @@ The explicit number of TCP connections is part of
 * ip
 * ifconfig
 * ports
+

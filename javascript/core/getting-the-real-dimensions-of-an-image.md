@@ -1,4 +1,4 @@
-# Getting the *real* dimensions of an image
+---
 author: catalin
 
 levels:
@@ -11,7 +11,11 @@ category: tip
 
 links:
 
-  - '[davidwalsh.name](https://davidwalsh.name/get-image-dimensions){website}'
+  - '[davidwalsh.name](https://davidwalsh.name/get-image-dimensions)'
+
+---
+
+# Getting the *real* dimensions of an image
 
 ---
 ## Content
@@ -59,13 +63,13 @@ enkiImg.???('???',
 
 ```
 
-*`addEventListener`
-*`load`
-*`naturalWidth`
-*`naturalHeight`
-*`height`
-*`width`
-*`onload`
+* `addEventListener`
+* `load`
+* `naturalWidth`
+* `naturalHeight`
+* `height`
+* `width`
+* `onload`
 
 ---
 ## Revision
@@ -82,11 +86,12 @@ enkiImg.???('???',
 
 ```
 
-*`addEventListener`
-*`load`
-*`naturalWidth`
-*`naturalHeight`
-*`height`
-*`width`
-*`onLoad`
-*`onload`
+* `addEventListener`
+* `load`
+* `naturalWidth`
+* `naturalHeight`
+* `height`
+* `width`
+* `onLoad`
+* `onload`
+

@@ -1,4 +1,4 @@
-# Avoid using `!=` to test the end of a range
+---
 author: pawel
 
 levels:
@@ -17,7 +17,9 @@ tags:
 
   - best-practice
 
-notes: As always - hope it's not to basic
+---
+
+# Avoid using `!=` to test the end of a range
 
 ---
 ## Content
@@ -49,3 +51,4 @@ for (rate = 2; rate < 5; rate = rate + 0.1)
   { ... }
 
 ```
+
