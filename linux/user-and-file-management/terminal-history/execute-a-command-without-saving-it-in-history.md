@@ -59,12 +59,10 @@ This might not work *by default* on some shell setups.
 ---
 ## Revision
 
-Depending on your setup, adding ??? 
+Depending on your setup, adding ??? at the beginning of a command will make `history` not recors it.
 
-at the beginning of a command will make `history` not record it.
-
-* space
-* #
-* !
-* ?
+* `space`
+* `#`
+* `!`
+* `?`
 
