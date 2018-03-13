@@ -9,7 +9,7 @@ insights:
   - where-3
   - order-by-clause
 
-  exercises:
-    - sql-practice-select
-    - sql-practice-order-results
-    - sql-practice-string-matching
+exercises:
+  - sql-practice-select
+  - sql-practice-order-results
+  - sql-practice-string-matching
