@@ -9,20 +9,24 @@ levels:
 
 type: exercise
 
-links:
-
-  - '[MDN - try..catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)'
-  - '[MDN - throw](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)'
-
-codewars-link: https://www.codewars.com/kata/throw-from-list-error-handling-number-3
+link: https://www.codewars.com/kata/throw-from-list-error-handling-number-3
+linkType: undefined
 standards:
+
   js.exceptions.0: 1000
   js.exceptions.1: 1000
   js.exceptions.2: 1000
   js.exceptions.3: 1000
 
+links:
+
+  - '[MDN - try..catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)'
+  - '[MDN - throw](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)'
+---
+
+# JS Practice Custom Errors
+
 ---
 ## Exercise
-# JS Practice Custom Errors
 
 Practice creating custom JavaScript Errors on Code Wars

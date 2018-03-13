@@ -7,8 +7,10 @@ levels:
 
   - basic
 
-type: exerciseList
+type: exercise
 
+link: https://www.codewars.com/kata/unpacking-arguments/javascript
+linkType: codewars
 standards:
 
   js.execution-context.1: 1000
@@ -16,12 +18,11 @@ standards:
 links:
 
   - '[MDN - Spreads](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)'
-link: https://www.codewars.com/kata/unpacking-arguments/javascript
-linkType: codewars
-codewars-link: https://www.codewars.com/kata/unpacking-arguments/javascript
+---
+
+# JS Practice Spreads
 
 ---
 ## Exercise
-# JS Practice Spreads
 
 Practice unpacking function arguments with spreads

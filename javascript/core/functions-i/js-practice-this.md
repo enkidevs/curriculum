@@ -7,8 +7,10 @@ levels:
 
   - basic
 
-type: exerciseList
+type: exercise
 
+link: https://www.codewars.com/kata/classy-classes
+linkType: codewars
 standards:
 
   js.execution-context.2: 1000
@@ -18,12 +20,11 @@ standards:
 links:
 
   - '[MDN - this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)'
-link: https://www.codewars.com/kata/classy-classes
-linkType: codewars
-codewars-link: https://www.codewars.com/kata/classy-classes
+---
+
+# JS Practice `this`
 
 ---
 ## Exercise
-# JS Practice `this`
 
 Explore the `this` operator in JavaScript with Constructor functions

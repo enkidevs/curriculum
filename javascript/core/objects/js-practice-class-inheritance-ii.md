@@ -9,6 +9,8 @@ levels:
 
 type: exercise
 
+link: https://www.codewars.com/kata/speedcode-number-3-x-fun-with-es6-classes-number-5-dogs-and-classes
+linkType: codewars
 standards:
 
   js.prototype-class.0: 1000
@@ -20,12 +22,11 @@ links:
 
   - '[MDN - Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)'
   - '[MDN - Inheritance](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance)'
-link: https://www.codewars.com/kata/speedcode-number-3-x-fun-with-es6-classes-number-5-dogs-and-classes
-linkType: codewars
-codewars-link: https://www.codewars.com/kata/speedcode-number-3-x-fun-with-es6-classes-number-5-dogs-and-classes
+---
+
+# JS Practice Class Inheritance 2
 
 ---
 ## Exercise
-# JS Practice Class Inheritance 2
 
 Apply your knowledge of JavaScript Class Inheritance in this Code Wars challenge!

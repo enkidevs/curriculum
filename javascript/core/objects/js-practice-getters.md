@@ -9,6 +9,8 @@ levels:
 
 type: exercise
 
+link: https://www.codewars.com/kata/fun-with-es6-classes-number-3-cuboids-cubes-and-getters
+linkType: codewars
 standards:
 
   js.prototype-class.0: 1000
@@ -18,12 +20,11 @@ standards:
 links:
 
   - '[MDN - Get](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get)'
-link: https://www.codewars.com/kata/fun-with-es6-classes-number-3-cuboids-cubes-and-getters
-linkType: codewars
-codewars-link: https://www.codewars.com/kata/fun-with-es6-classes-number-3-cuboids-cubes-and-getters
+---
+
+# JS Practice `getters`
 
 ---
 ## Exercise
-# JS Practice `getters`
 
 Practice using JavaScript Class `getters` on Code Wars
