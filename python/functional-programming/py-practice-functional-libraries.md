@@ -10,11 +10,6 @@ levels:
   - medium
 
 
-tags:
-
-  - workout
-
-
 type: exerciseList
 
 links:
