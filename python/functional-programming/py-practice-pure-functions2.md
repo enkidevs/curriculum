@@ -9,7 +9,6 @@ levels:
 
   - medium
 
-
 type: exerciseList
 
 links:
@@ -18,11 +17,11 @@ links:
   - '[link to video tutorial](https://www.youtube.com/watch?v=NE97ylAnrz4) {video}'
 
 linkType: codewars
-link: https://www.codewars.com/kata/thinking-and-testing-uniq-or-not-uniq
+link: https://www.codewars.com/kata/number-of-people-in-the-bus
 standards:
-    py.pure-functions.0: 1000
+    py.pure-functions.1: 1000
 
 ---
 ## Exercise
 ### Question
-Practice functional libraries in python.
+Practice `pure` functions in python.
