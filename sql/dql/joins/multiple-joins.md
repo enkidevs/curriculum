@@ -133,8 +133,8 @@ In order to join multiple tables together, subqueries must be used.
 ---
 ## Quiz
 ### Sometimes one is not enough?
-```
 
+```
 Given the tables called `pokedex`, `version_group` and `pokedex_version_group`:
 
 id | is_main_series | region_id |       name       
@@ -162,7 +162,7 @@ id | pokedex_id | version_group_id
 Get the names of pokedexes and version_groups using `pokedex_version_group` table. Do not include records that don't have both, pokedex and version_group :
 ```
 
- ???
+???
 
 * SELECT pokedex.name, version_group.name FROM pokedex_version_group INNER JOIN pokedex ON pokedex_version_group.pokedex_id = pokedex.id INNER JOIN version_group ON pokedex_version_group.version_group_id = version_group.id;
 * SELECT pokedex.name, version_group.name FROM pokedex_version_group RIGHT JOIN pokedex ON pokedex_version_group.pokedex_id = pokedex.id LEFT JOIN version_group ON pokedex_version_group.version_group_id = version_group.id;

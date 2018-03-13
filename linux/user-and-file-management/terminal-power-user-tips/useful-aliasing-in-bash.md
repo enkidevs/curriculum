@@ -103,10 +103,10 @@ is used to give a “false name” to other commands.
 
 ---
 ## Quiz
+### Can you figure out what a command does given only its output?
 
- ### Can you figure out what a command does given only its output?
+Consider the following command and its output:
 
-  Consider the following command and its output:
 ```
 $ ll
 total 40
@@ -117,10 +117,10 @@ drwxr-xr-x 21 enki enki 4096 Nov 16 12:37 JavaScript
 ```
 Which of the following statements is true?
 
-answers:
+???
 
-  - ll is an alias for 'ls -l' plus additional, optional flags
-  - ll is another implementation of ls
-  - ll is an extension to ls that accepts additional flags
-  - ll is Ubuntu's version of ls
+* ll is an alias for 'ls -l' plus additional, optional flags
+* ll is another implementation of ls
+* ll is an extension to ls that accepts additional flags
+* ll is Ubuntu's version of ls
 

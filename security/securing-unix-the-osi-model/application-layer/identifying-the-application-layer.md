@@ -59,11 +59,12 @@ In the Application Layer is ???.
 ---
 ## Quiz
 ### What role does this Layer play in the OSI 7 Layer Model?
+
 ```
 What role does the Application Layer play in the OSI 7 Layer Model?
 ```
 
- ???
+???
 
 * Provide a user interface with high level functions for interacting with the network
 * Opening, closing, and managing connections between applications

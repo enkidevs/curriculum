@@ -67,13 +67,13 @@ Gets the ??? of commit `42ea31d`.
 
 ---
 ## Quiz
-### how can you access the forth commit in this sequence?
+### How can you access the forth commit in this sequence?
 ```
 Say you've got the following commit tree: A--B--C--D--E--HEAD.
 Which of the following refers to the commit labeled with D?
 ```
 
- ???
+???
 
 * HEAD~~
 * HEAD^2

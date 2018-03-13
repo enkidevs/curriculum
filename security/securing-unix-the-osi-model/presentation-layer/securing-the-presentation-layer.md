@@ -56,11 +56,12 @@ A ??? occurs when a program attempts to write to a memory address outside of its
 ---
 ## Quiz
 ### What is one control for this OSI model Layer?
+
 ```
 What is one control in the Presentation Layer of the OSI Model?
 ```
 
- ???
+???
 
 * Input validation of network responses
 * Using a strong, unique password

@@ -69,7 +69,7 @@ Variables declared `final` cannot be ???.
 
 ---
 ## Quiz
-### how do final variables work?
+### How do final variables work?
 ```
 public class Person {
   String name = "name";

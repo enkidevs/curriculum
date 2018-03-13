@@ -99,10 +99,9 @@ What does `chmod go+x` do?
 
 ---
 ## Quiz
+### How do you run a script with elevated permissions?
 
- ### How do you run a script with elevated permissions?
-
-  Suppose you have a sh file named `script.sh`.
+Suppose you have a sh file named `script.sh`.
 What of the following commands is the most
 likely to successfully run the script?
 ```
@@ -110,10 +109,10 @@ $ ./script.sh
 bash: permission denied: ./script.sh
 ```
 
-answers:
+???
 
-  - chmod +x script.sh && ./script.sh
-  - sudo ./script.sh
-  - rm ./script.sh
-  - echo "#!/bin/sh" > script.sh && ./script.sh
+* chmod +x script.sh && ./script.sh
+* sudo ./script.sh
+* rm ./script.sh
+* echo "#!/bin/sh" > script.sh && ./script.sh
 

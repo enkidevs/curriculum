@@ -82,7 +82,7 @@ double x = Math.tan(1/0.0);
 
 ---
 ## Quiz
-### is NaN equal to NaN?
+### Is NaN equal to NaN?
 ```
 // What will the following snippet print?
 double x = Double.NaN;
@@ -90,7 +90,7 @@ if(x == Double.NaN) { System.out.print(x); }
 System.out.print("false");
 ```
 
- ???
+???
 
 * false
 * NaNfalse

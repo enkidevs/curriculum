@@ -131,7 +131,7 @@ class Main {
 }
 ```
 
- ???
+???
 
 * Lessy
 * Stinky

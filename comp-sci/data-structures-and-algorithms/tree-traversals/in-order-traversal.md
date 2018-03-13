@@ -93,12 +93,11 @@ G      F    E
 
 ---
 ## Quiz
-### which tree traversal is to be use in the following scenario?
+### Which tree traversal is to be use in the following scenario?
 Given a binary search tree (BST), which traversal would print
 its nodes in ascending order?
 
-
- ???
+???
 
 * In-order traversal
 * Breadth first traversal

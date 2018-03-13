@@ -75,9 +75,9 @@ Consider the following git history *--*--*--A--*--*--*--B--*
 
 Which of the following commands should be used to log all commits between A and B (inclusive)?
 
-answers:
+???
 
-  - git log A~..B
-  - git log A..B
-  - git log A…B
-  - git log ^A B
+* git log A~..B
+* git log A..B
+* git log A…B
+* git log ^A B

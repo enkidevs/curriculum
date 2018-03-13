@@ -61,7 +61,7 @@ The Physical Layer converts logical packets from the Data Link Layer into ??? to
 What role does the  Physical Layer play in the OSI 7 Layer Model?
 ```
 
- ???
+???
 
 * Providing transmission between end devices via voltage or wavelengths.
 * Transmitting data between network nodes

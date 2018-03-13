@@ -60,12 +60,12 @@ Java’s split method ignores any trailing empty Strings.
 
 ---
 ## Quiz
-### how does string splitting work?
+### How does string splitting work?
 ```
 // What's the value of l?
 int l = "Hi-there-are-you-alright
 ```
 
- ???
+???
 
 

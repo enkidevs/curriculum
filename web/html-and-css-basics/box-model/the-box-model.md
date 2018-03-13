@@ -54,11 +54,11 @@ Which is the inside-out order for the *box model* components?
 
 ---
 ## Quiz
-### are you familiar with the box model?
-```
-What’s the correct outside-in order of the elements contained by the Box Model?```
+### Are you familiar with the box model?
 
- ???
+What’s the correct outside-in order of the elements contained by the Box Model?
+
+???
 
 * Margin/Border/Padding/Content
 * Border/Margin/Padding/Content

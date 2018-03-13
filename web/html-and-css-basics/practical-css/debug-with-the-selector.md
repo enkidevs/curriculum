@@ -71,12 +71,11 @@ div * {
 
 ---
 ## Quiz
-### which selector is used to select every element on the page?
-```
-??? { background-color: rgba(0,255,0,0.1); }
-```
+### Which selector is used to select every element on the page?
 
- ???
+??? { 
+  background-color: rgba(0,255,0,0.1); 
+}
 
 * *
 * -

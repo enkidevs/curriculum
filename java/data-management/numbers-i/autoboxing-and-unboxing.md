@@ -62,7 +62,6 @@ What is the wrapper class of primitive `int` ?
 ## Quiz
 ### What will be printed by the following code snippet?
 ```
-```
   int x = 5;
   Integer X = new Integer(5);
   Integer Y = new Integer(5);
@@ -73,9 +72,8 @@ What is the wrapper class of primitive `int` ?
     System.out.print("integer5");
   }
 ```
-```
 
- ???
+???
 
 * “int5”
 * “integer5”

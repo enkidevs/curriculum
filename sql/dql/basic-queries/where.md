@@ -88,8 +88,8 @@ Select all the rows from the `pokemon` table where the name is exactly equal to 
 ---
 ## Quiz
 ### Can you find a particular entry in a table with SQL?
-```
 
+```
 Consider the `ability` table and the following query:
 
 id   | is_main_series | generation_id |      name      
@@ -107,7 +107,7 @@ We want to get the record for the ability called "speed-boost". Which of the fol
 have this result when used with the above query?
 ```
 
- ???
+???
 
 * WHERE name='speed-boost';
 * WHERE name IS "speed-boost";

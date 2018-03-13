@@ -118,14 +118,15 @@ print(nList[sObject])
 
 ---
 ## Quiz
-### how does slicing work?
+### How does slicing work?
+
 ```
 # What will be printed by the following snippet?
 a = 'enki'
 print(a[::-1])
 ```
 
- ???
+???
 
 * ikne
 * i

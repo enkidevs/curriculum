@@ -60,11 +60,12 @@ What is one control in the Data Link Layer of the OSI Model?
 ---
 ## Quiz
 ### What is one control for this OSI model Layer?
+
 ```
 What is one control in the Data Link Layer of the OSI Model?
 ```
 
- ???
+???
 
 * Using managed switches prevent topographical loops
 * Locks and secure enclosures

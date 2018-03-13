@@ -146,8 +146,8 @@ count | region_id
 ---
 ## Quiz
 ### Can you order a table with SQL?
-```
 
+```
 Consider the `experience` table from our pokemon database:
 
 id  | level | experience | growth_rate_id
@@ -161,7 +161,7 @@ id  | level | experience | growth_rate_id
 This table shows how much experience you need to gain in order to get to level 100 based on different growth rates. Choose the query that will get all records that have level 100 and orders them descending on the amount of experience needed:
 ```
 
- ???
+???
 
 * SELECT * FROM experience WHERE level=100 ORDER BY experience DESC;
 * SELECT * FROM experience WHERE level=100 ORDER BY growth_rate_id DESC;

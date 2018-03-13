@@ -56,11 +56,12 @@ Hackers may use a botnet to guess passwords via ???.
 ---
 ## Quiz
 ### What is one control for this OSI model Layer?
+
 ```
 What is one control in the Session Layer of the OSI Model?
 ```
 
- ???
+???
 
 * Using a strong, unique password
 * Strict use of ports as they are designed

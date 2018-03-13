@@ -57,11 +57,12 @@ Nodes on the Data Link Layer are identified by their ???
 ---
 ## Quiz
 ### What role does this Layer play in the OSI 7 Layer Model?
+
 ```
 What role does the Data Link Layer play in the OSI 7 Layer Model?
 ```
 
- ???
+???
 
 * Transmitting data between network nodes
 * Routing and transmission over the physical topography of the Internet

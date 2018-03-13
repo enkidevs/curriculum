@@ -57,7 +57,7 @@ The Network Layer is most vulnerable to malicious ??? from the Internet.
 What is one control in the Network Layer of the OSI Model?
 ```
 
- ???
+???
 
 * Use of a physical firewall
 * Using managed switches prevent topographical loops

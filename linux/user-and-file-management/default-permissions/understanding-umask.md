@@ -112,15 +112,14 @@ What `umask` value makes the new files only accessible to the user who created t
 
 ---
 ## Quiz
+### How does umask work?
 
- ### how does umask work?
+What is the umask value, if the permission of a newly created file is 224?
 
-  What is the umask value, if the permission of a newly created file is 224?
+???
 
-answers:
-
-  - All three are valid
-  - 442
-  - 552
-  - 443
+* All three are valid
+* 442
+* 552
+* 443
 

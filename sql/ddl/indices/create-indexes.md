@@ -122,8 +122,8 @@ id | version_group_id |      name
 ---
 ## Quiz
 ### What statement gets columns and rows from tables?
-```
 
+```
 Given a table called `ability` from our pokemon database:
 
 id   | is_main_series | generation_id |      name      
@@ -138,7 +138,7 @@ id   | is_main_series | generation_id |      name
 It doesn't have a `PRIMARY KEY` set so far. Create an index to define `ability`'s primary key.
 ```
 
- ???
+???
 
 * CREATE UNIQUE INDEX ability_pk ON ability(id ASC).
 * CREATE INDEX ability_pk ON ability(id ASC).

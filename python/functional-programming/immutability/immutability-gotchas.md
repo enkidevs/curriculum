@@ -114,7 +114,8 @@ add_to("string")
 
 ---
 ## Quiz
-### what is the last line printed?
+### What is the last line printed?
+
 ```
 def foo(x, k = []):
     k.append(x)
@@ -124,7 +125,7 @@ foo(2, [4, 5])
 foo(3)
 ```
 
- ???
+???
 
 * [1, 3]
 * [1]

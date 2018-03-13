@@ -89,7 +89,7 @@ The main difference between Bellman-Ford and Dijkstra's algorithms is that
 
 ---
 ## Quiz
-### which algorithm is to be use in the following scenario?
+### Which algorithm is to be use in the following scenario?
 Suppose we have an undirected, complete, weighted (real numbers) graph.
 Out of the following, which algorithm would work best for finding
 the shortest paths between a source node and every other node?

@@ -48,15 +48,14 @@ To open the line you have written so far in the shell into a text editor, you wo
 
 ---
 ## Quiz
+### Which option does not belong?
 
- ### which option does not belong?
+Choose the odd one out in the following list.
 
-  Choose the odd one out in the following list.
+???
 
-answers:
-
-  - less
-  - vi
-  - vim
-  - nano
+* less
+* vi
+* vim
+* nano
 

@@ -55,11 +55,12 @@ The Application Layer is ???.
 ---
 ## Quiz
 ### What is one control for this OSI model Layer?
+
 ```
 What is one control in the Application Layer of the OSI Model?
 ```
 
- ???
+???
 
 * Utilizing a testing suite in software development
 * Strict use of ports as they are designed

@@ -99,7 +99,7 @@ How are static variables also called?
 
 ---
 ## Quiz
-### how do class variables work?
+### How do class variables work?
 ```
 public class Dog {
   String name;

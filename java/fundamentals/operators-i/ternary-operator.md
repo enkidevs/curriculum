@@ -89,11 +89,13 @@ int num = x > 2 ??? 2 ??? 0
 ### Which single boolean should be negated for the output to be `true`?
 ```
 
-System.out.println(true?false:true==true?false:true);
-                    1     2    3          4
+System
+.out
+.println(true?false:true==true?false:true);
+          1    2     3          4
 ```
 
- ???
+???
 
 * 2
 * 1

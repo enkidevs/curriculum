@@ -97,8 +97,8 @@ pokemon_type.type_id = type.id
 ---
 ## Quiz
 ### Can you select data from two related tables in SQL?
-```
 
+```
 Given the tables called `location` and `location_area`:
 
 id  | region_id |     name           
@@ -132,7 +132,7 @@ id  | game_index | region_id
   89|            |         6
 ```
 
- ???
+???
 
 * SELECT location.id,location_area.game_index,location.region_id FROM location FULL OUTER JOIN location_area ON location.id = location_area.id;
 * SELECT location.id,location_area.game_index,location.region_id FROM location INNER JOIN location_area ON location.id = location_area.id;

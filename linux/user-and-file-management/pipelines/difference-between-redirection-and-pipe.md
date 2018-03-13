@@ -81,15 +81,14 @@ _Piping_ refers to passing the output to another program or utility, while _redi
 
 ---
 ## Quiz
+### Which of the following is not a valid command?
 
- ### which of the following is not a valid command?
+Pick the option that would throw an error.
 
-  Pick the option that would throw an error.
+???
 
-answers:
-
-  - cat enki.txt > grep "enki"
-  - cat enki.txt | grep "enki"
-  - ls -l > enki.txt && cat < enki.txt
-  - grep "enki" < enki.txt
+* cat enki.txt > grep "enki"
+* cat enki.txt | grep "enki"
+* ls -l > enki.txt && cat < enki.txt
+* grep "enki" < enki.txt
 

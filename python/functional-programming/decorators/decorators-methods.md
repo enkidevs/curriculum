@@ -130,7 +130,8 @@ def deco(self):
 
 ---
 ## Quiz
-### what is the output of the following snippet?
+### What is the output of the following snippet?
+
 ```
 def foo(a,b,*args,**kwargs):
   print(a, b, args, kwargs)
@@ -138,7 +139,7 @@ x = {'ten': 10}
 foo(1, 2, enki='wow', **x)
 ```
 
- ???
+???
 
 * 1 2 () {'enki': 'wow', 'ten': 10}
 * (1, 2) {'enki': 'wow', 'ten': 10}

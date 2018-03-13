@@ -120,8 +120,8 @@ Select all the columns from the `pokemon` table, keeping only the rows where the
 ---
 ## Quiz
 ### Can you select rows between two values in SQL?
-```
 
+```
 Consider the `move_name` table:
 
   id  | language_id | move_id |  name       
@@ -136,7 +136,7 @@ Consider the `move_name` table:
 Choose the query that will get all move names with id between 3 and 6. Also, pay attention to select those name that are used in languages with id 5 or 9:
 ```
 
- ???
+???
 
 * SELECT name FROM move_name WHERE move_id BETWEEN 3 AND 6 AND language_id IN (5,9);
 * SELECT * FROM move_name WHERE move_id BETWEEN 3 AND 6 AND language_id IN (5,9);

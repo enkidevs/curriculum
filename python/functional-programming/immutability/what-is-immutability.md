@@ -93,7 +93,8 @@ How would we get the effect of adding another element to an immutable list?
 
 ---
 ## Quiz
-### which of the following snippets prints False?
+### Which of the following snippets prints False?
+
 ```
 # A
 print('hello' is 'hell' + 'o')
@@ -107,7 +108,7 @@ s2 = 'hell'
 print(s1 == s2 + 'o')
 ```
 
- ???
+???
 
 * B
 * C

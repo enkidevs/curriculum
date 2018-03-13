@@ -87,7 +87,8 @@ b = 3
 
 ---
 ## Quiz
-### what is the result of the following identity check?
+### What is the result of the following identity check?
+
 ```
 # Interactive shell
 >>> a = 256
@@ -100,7 +101,7 @@ b = 3
 ???
 ```
 
- ???
+???
 
 * True and False
 * True and True

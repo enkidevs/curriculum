@@ -95,8 +95,8 @@ Get all of the rows and the `id`, `weight`, `name` columns from the `pokemon` ta
 ---
 ## Quiz
 ### What statement gets columns and rows from tables?
-```
 
+```
 Given a table called `ability` from our pokemon database:
 
 id   | is_main_series | generation_id |      name      
@@ -111,7 +111,7 @@ id   | is_main_series | generation_id |      name
 Choose the query that will get all the entries from this table:
 ```
 
- ???
+???
 
 * SELECT * FROM ability;
 * DISPLAY [all] FROM ability;

@@ -72,7 +72,7 @@ System.out.print(b);
 
 ---
 ## Quiz
-### what is the difference between prefix and postfix increment operators?
+### What is the difference between prefix and postfix increment operators?
 ```
 // What is the output?
 int a = 0;
@@ -81,7 +81,7 @@ int c = ++b;
 System.out.println(b + " and " + c);
 ```
 
- ???
+???
 
 * 1 and 1
 * 1 and 2

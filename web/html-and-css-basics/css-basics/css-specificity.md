@@ -157,14 +157,15 @@ What is the specificity of the following CSS code snippet?
 
 ---
 ## Quiz
-### which of the following selectors has the highest specificity?
+### Which of the following selectors has the highest specificity?
+
 ```
 #nav .selected > p:hover {} /* 1 */
 #footer #note {} /* 2 */
 div div ul li div div img {} /* 3 */
 ```
 
- ???
+???
 
 * 2
 * 1

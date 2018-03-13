@@ -168,7 +168,7 @@ function tictac() {
 
 ---
 ## Quiz
-### what will the following snippet output?
+### What will the following snippet output?
 function pi() {
   return
   {
@@ -178,7 +178,7 @@ function pi() {
 console.log(pi())
 
 
- ???
+???
 
 * undefined
 * [object Object]
