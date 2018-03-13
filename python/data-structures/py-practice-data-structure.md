@@ -9,6 +9,8 @@ levels:
 
 type: exercise
 
+link: http://www.codewars.com/kata/bad-apples/python
+linkType: codewars
 standards:
 
   py.data-structures-uses.0: 2000
@@ -19,10 +21,11 @@ standards:
 links:
 
   - '[link to official documentation](https://docs.python.org/3/tutorial/datastructures.html){website}'
-link: http://www.codewars.com/kata/bad-apples/python
-linkType: codewars
+---
+
+# Practice data structures
+
 ---
 ## Exercise
-# Practice data structures
 
 Practice using `data structures` in python.

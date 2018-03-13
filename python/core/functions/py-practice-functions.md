@@ -9,6 +9,8 @@ levels:
 
 type: exercise
 
+link: https://www.codewars.com/kata/number-of-people-in-the-bus
+linkType: codewars
 standards:
 
   py.functions.0: 1000
@@ -21,10 +23,11 @@ links:
   - '[link to deeper dive blog post](https://www.digitalocean.com/community/tutorials/how-to-define-functions-in-python-3){website}'
   - '[link to a video](https://www.youtube.com/watch?v=9Os0o3wzS_I){video}'
   - '[link to a discussion](https://enki.com)'
-link: https://www.codewars.com/kata/number-of-people-in-the-bus
-linkType: codewars
+---
+
+# Practice functions
+
 ---
 ## Exercise
-# Practice functions
 
 Practice python `functions`.

@@ -9,6 +9,8 @@ levels:
 
 type: exercise
 
+link: https://www.codewars.com/kata/help-the-bookseller
+linkType: codewars
 standards:
 
   py.store-manipulate-data.0: 3000
@@ -21,10 +23,11 @@ links:
 
   - '[link to deeper dive blog post](https://www.analyticsvidhya.com/blog/2016/01/12-pandas-techniques-python-data-manipulation/){website}'
   - '[link to a video](https://www.youtube.com/watch?v=Iqjy9UqKKuo){video}'
-link: https://www.codewars.com/kata/help-the-bookseller
-linkType: codewars
+---
+
+# Python Data manipulation Exercises
+
 ---
 ## Exercise
-# Python Data manipulation Exercises
 
 Practice working with `nested data` and `data structures` in python.

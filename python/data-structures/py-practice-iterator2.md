@@ -9,6 +9,8 @@ levels:
 
 type: exercise
 
+link: https://www.codewars.com/kata/map-and-filter-to-get-a-special-sequence-of-integers/python
+linkType: codewars
 standards:
 
   py.data-structures-uses.0: 1000
@@ -18,10 +20,11 @@ standards:
 links:
 
   - '[link to official documentation](https://docs.python.org/3/tutorial/datastructures.html){website}'
-link: https://www.codewars.com/kata/map-and-filter-to-get-a-special-sequence-of-integers/python
-linkType: codewars
+---
+
+# Practice python iterator 2
+
 ---
 ## Exercise
-# Practice python iterator2
 
 Practice working with python `iterator`.
