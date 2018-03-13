@@ -10,6 +10,13 @@ parent: package-json
 
 category: must-know
 
+standards:
+  js.npm-tasks-and-modules-manager: 10
+  js.use-open-source-javascript-packages: 10
+
+tags:
+  - introduction
+
 ---
 ## Content
 

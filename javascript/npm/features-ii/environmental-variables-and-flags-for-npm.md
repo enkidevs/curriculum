@@ -18,6 +18,13 @@ links:
   - >-
     [strongloop.com](https://strongloop.com/strongblog/3-neat-tricks-with-npm-run/){website}
 
+standards:
+  js.use-open-source-javascript-packages: 10
+
+tags:
+  - workout
+  - deep
+
 
 ---
 ## Content
@@ -57,8 +64,8 @@ Complete the start script to support `--harmony` flag in `package.json`:
   }
 }
 ```
-*`start`
-*`node`
-*`npm`
-*`require`
-*`dependencies`
+* `start`
+* `node`
+* `npm`
+* `require`
+* `dependencies`

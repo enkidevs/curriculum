@@ -10,6 +10,12 @@ category: must-know
 
 parent: setting-up-npm
 
+standards:
+  js.npm-tasks-and-modules-manager: 10
+
+tags:
+  - introduction
+
 links:
 
   - >-

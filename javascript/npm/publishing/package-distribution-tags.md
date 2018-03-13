@@ -19,7 +19,13 @@ links:
 
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/dist-tag){website}'
 
+standards:
+  js.use-open-source-javascript-packages: 10
+  js.npm-publish: 10
+  js.npm-tasks-and-modules-manager: 10
 
+tags:
+  - workout
 
 ---
 ## Content
