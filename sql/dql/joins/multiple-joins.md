@@ -15,6 +15,9 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  sql.read-multiple-tables: 10
+
 tags:
    - workout
    - deep
@@ -129,7 +132,7 @@ question: |
   Given the tables called `pokedex`, `version_group` and `pokedex_version_group`:
 
   id | is_main_series | region_id |       name       
-  ---|----------------|-----------|------------------
+  ===|================|===========|================
    1 | t              |           | national
    2 | t              |         1 | kanto
    3 | t              |         2 | original-johto
@@ -138,14 +141,14 @@ question: |
   (...)
 
   id | order | generation_id |           name            
-  ---|-------|---------------|---------------------------
+  ===|=======|===============|======================
    1 |     1 |             1 | red-blue
    2 |     2 |             1 | yellow
    3 |     3 |             2 | gold-silver
   (...)
 
   id | pokedex_id | version_group_id
-  ---|------------|------------------
+  ===|============|==================
    1 |          2 |                1
    2 |          2 |                2
    3 |          2 |                7

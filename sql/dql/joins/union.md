@@ -17,6 +17,9 @@ category: must-know
 
 inAlgoPool: false
 
+standards:
+  sql.read-multiple-tables: 10
+
 tags:
   - workout
   - deep
@@ -145,14 +148,14 @@ question: |
   Given the tables called `item_pocket` and `item_category`:
 
   id |   name    
-  ----|:---------
+  ===|===========
    1 | misc
    2 | medicine
    3 | pokeballs
   (...)
 
   id   | item_pocket_id |    name       
-  -----|:---------------|:-------------
+  =====|================|=============
      1 |              7 | stat-boosts
      2 |              5 | effort-drop
      3 |              5 | medicine
@@ -165,7 +168,7 @@ question: |
   The result should look like this:
 
     id   | pocket_name |   name       
-  -------|:------------|:-------------
+  =======|=============|===============
        1 | battle      | stat-boosts
        2 | berries     | effort-drop
        3 | misc        | medicine
