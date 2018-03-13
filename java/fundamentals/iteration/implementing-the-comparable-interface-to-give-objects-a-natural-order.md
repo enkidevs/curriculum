@@ -28,11 +28,8 @@ links:
 
   - '[docs.oracle.com](https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html){website}'
 
-notes: This may need to be shortened/simplified, this is a large topic but this article just kind of skims the surface of what the Comparable interface can do.
+notes: This may need to be shortened/simplified, this is a large topic but this article just kind of skims the surface of what the Comparable interface can do. The link could be to a more user-friendly website, such as java-examples.com. Static workout.
 
-The link could be to a more user-friendly website, such as java-examples.com.
-
-Static workout
 ---
 ## Content
 # Implementing the `Comparable` interface to give objects a Natural Order

@@ -18,8 +18,7 @@ links:
 
   - '[blog.thilinamb.com](http://blog.thilinamb.com/2008/12/how-to-increase-java-stack-size.html){website}'
 
-notes: https://insights.enki.com/#/contrib/others/55ef1843d2b1123000710e27?search=khandelwalrinki
-https://insights.enki.com/#/contrib/others/55f05f981baba32f002fd31d?search=kha
+notes: https://insights.enki.com/#/contrib/others/55ef1843d2b1123000710e27?search=khandelwalrinki https://insights.enki.com/#/contrib/others/55f05f981baba32f002fd31d?search=kha
 ---
 ## Content
 # Most common reason behind **stack overflow** error

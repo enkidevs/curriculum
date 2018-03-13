@@ -18,8 +18,10 @@ links:
 
   - '[facebook.github.io](https://facebook.github.io/react/docs/shallow-compare.html){website}'
 
-notes: probably best in the same workout with :
-https://insights.enki.com/#/contrib/56aa0290bd6a4609006eaee3parent: custom-proptype-s-to-be-required
+notes: 
+  probably best in the same workout with https://insights.enki.com/#/contrib/56aa0290bd6a4609006eaee3
+
+parent: custom-proptype-s-to-be-required
 ---
 ## Content
 # Shallow compare in **React**

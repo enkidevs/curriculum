@@ -11,7 +11,7 @@ category: feature
 
 tags:
 
-  - @media
+  - '@media'
 
   - responsive
 

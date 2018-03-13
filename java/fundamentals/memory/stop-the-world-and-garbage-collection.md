@@ -17,8 +17,7 @@ links:
   - '[stackoverflow.com](http://stackoverflow.com/questions/16695874/why-does-the-jvm-full-gc-need-to-stop-the-world){website}'
   - '[blog.ragozin.info](http://blog.ragozin.info/2011/12/garbage-collection-in-hotspot-jvm.html){website}'
 
-notes: https://insights.enki.com/#/contrib/others/55f4c1d0d7d6642d0011873c?search=khandelwalrinki
-https://insights.enki.com/#/contrib/others/55f4c419ce84ec2100d2bb6a?search=kha
+notes: https://insights.enki.com/#/contrib/others/55f4c1d0d7d6642d0011873c?search=khandelwalrinki https://insights.enki.com/#/contrib/others/55f4c419ce84ec2100d2bb6a?search=kha
 ---
 ## Content
 # Stop-the-world and Garbage Collection

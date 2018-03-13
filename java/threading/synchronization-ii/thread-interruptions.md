@@ -11,13 +11,12 @@ type: normal
 
 category: must-know
 
-
 links:
 
   - '[www.javatpoint.com](http://www.javatpoint.com/interrupting-a-thread){website}'
 
-notes: https://insights.enki.com/insight/55b05687c629433100344a8a
-https://insights.enki.com/insight/55b0539dd457944f00962cd7
+notes: https://insights.enki.com/insight/55b05687c629433100344a8a https://insights.enki.com/insight/55b0539dd457944f00962cd7
+
 ---
 ## Content
 # Thread interruptions
