@@ -12,12 +12,15 @@ sections:
     - streams
   '1':
     - error-handling
+    - operational-vs-programmer-errors
+    - code-style-recommendations
     - express
     - express-ii
+    - best-practices
     - patterns
-    - processes-clustering
-    - quirks
     - tools
+    - quirks
+    - processes-clustering
 
 
 next:
