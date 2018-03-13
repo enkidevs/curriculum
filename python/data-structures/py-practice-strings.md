@@ -9,6 +9,8 @@ levels:
 
 type: exercise
 
+link: https://www.codewars.com/kata/help-the-bookseller
+linkType: codewars
 standards:
 
   py.data-structures-uses.0: 1000
@@ -20,10 +22,11 @@ standards:
 links:
 
   - '[link to official documentation](https://docs.python.org/3/tutorial/datastructures.html){website}'
-link: https://www.codewars.com/kata/help-the-bookseller
-linkType: codewars
+---
+
+# Practice working with strings
+
 ---
 ## Exercise
-# Practice working with strings
 
 Train your skills on using sets of dat and python's `string` type.

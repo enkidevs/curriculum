@@ -9,6 +9,8 @@ levels:
 
 type: exercise
 
+link: http://www.codewars.com/kata/clock-in-mirror
+linkType: codewars
 standards:
 
   py.data-structures-uses.0: 1000
@@ -20,10 +22,11 @@ standards:
 links:
 
   - '[link to official documentation](https://docs.python.org/3/tutorial/datastructures.html){website}'
-link: http://www.codewars.com/kata/clock-in-mirror
-linkType: codewars
+---
+
+# Practice python iterator
+
 ---
 ## Exercise
-# Practice python iterator
 
 Practice working with python `iterator`.

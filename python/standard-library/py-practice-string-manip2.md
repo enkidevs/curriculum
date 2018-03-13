@@ -11,6 +11,8 @@ levels:
 
 type: exercise
 
+link: https://www.codewars.com/kata/two-to-one
+linkType: codewars
 standards:
 
   py.standard-library-data.3: 2000
@@ -21,10 +23,11 @@ links:
 
   - '[link to official documentation](https://docs.python.org/3/library/string.html){website}'
   - '[link to a video](https://www.youtube.com/watch?v=pqmhZcPpTys){video}'
-link: https://www.codewars.com/kata/two-to-one
-linkType: codewars
+---
+
+# Practice python string manipulation
+
 ---
 ## Exercise
-# Practice python string manipulation
 
 Practice `string` manipulation in python.

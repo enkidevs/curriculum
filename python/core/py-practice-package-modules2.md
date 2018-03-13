@@ -9,6 +9,8 @@ levels:
 
 type: exercise
 
+link: https://www.codewars.com/kata/building-an-adaboost-model-with-sklearn-introductory-machine-learning
+linkType: codewars
 standards:
 
   py.modules.0: 1000
@@ -24,10 +26,11 @@ links:
   - '[link to official documentation](https://docs.python.org/3/tutorial/modules.html){website}'
   - '[link to deeper dive blog post](https://docs.python.org/3/tutorial/modules.html){website}'
   - '[link to a video](https://www.youtube.com/watch?v=V-GZxNLOMXs){video}'
-link: https://www.codewars.com/kata/building-an-adaboost-model-with-sklearn-introductory-machine-learning
-linkType: codewars
+---
+
+# Practice package modules
+
 ---
 ## Exercise
-# Practice package modules
 
 Build a machine learning model using python packages.

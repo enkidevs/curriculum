@@ -9,6 +9,8 @@ levels:
 
 type: exercise
 
+link: https://www.codewars.com/kata/numbers-in-strings
+linkType: codewars
 standards:
 
   py.identify-python-syntax.0: 1000
@@ -20,10 +22,11 @@ links:
 
   - '[link to deeper dive blog post](https://www.w3resource.com/python/python-syntax.php){website}'
   - '[link to a video](https://www.youtube.com/watch?v=oy4GOI9vn5M){video}'
-link: https://www.codewars.com/kata/numbers-in-strings
-linkType: codewars
+---
+
+# Practice control statements
+
 ---
 ## Exercise
-# Practice control statements
 
 Identify python `statements`.
