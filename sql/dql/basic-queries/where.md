@@ -89,7 +89,7 @@ question: |
   Consider the `ability` table and the following query:
 
   id   | is_main_series | generation_id |      name      
-  -----|----------------|---------------|---------------
+  =====|================|===============|===============
      1 | t              |             3 | stench
      2 | f              |             3 | drizzle
      3 | t              |             3 | speed-boost

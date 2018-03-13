@@ -106,7 +106,7 @@ question: |
   Consider the `location` table from our pokemon database:
 
   id  | region_id |     name           
-  ----|:----------|:----------------
+  ====|===========|================
     1 |         4 | canalave-city
     2 |         1 | eterna-city
     3 |         3 | pastoria-city

@@ -123,7 +123,7 @@ question: |
   Given the tables called `location_area` and `location`:
 
   id  | game_index | location_id |       name                      
-  ----|------------|-------------|--------------------
+  ====|============|=============|=====================
     1 |          1 |           1 | canalave-city-area
     2 |          2 |           2 | eterna-city-area
     3 |          3 |           3 | pastoria-city-area
@@ -131,7 +131,7 @@ question: |
   (...)
 
   id  | region_id |     name           
-  ----|-----------|---------------
+  ====|===========|===============
     1 |         4 | canalave-city
     2 |         4 | eterna-city
     3 |         4 | pastoria-city
@@ -141,7 +141,7 @@ question: |
   Note that there are 6 regions, but not all locations belong to one of them. Get game_index's region, `NULL` if there is none. The result should look like this:
 
   id  | game_index | region_id
-  ----|------------|-----------
+  ====|============|===========
     1 |          1 |         4
     2 |          2 |         4
     3 |          3 |         4

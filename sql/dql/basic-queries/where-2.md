@@ -122,7 +122,7 @@ question: |
   Consider the `move_name` table:
 
     id  | language_id | move_id |  name       
-  ------|-------------|---------|------------
+  ======|=============|=========|=============
       1 |           1 |       1 | はたく
       2 |           3 |       1 | 막치기
       3 |           5 |       1 | Écras'Face
