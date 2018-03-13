@@ -23,7 +23,7 @@ links:
   - '[link to a video](https://www.youtube.com/watch?v=9DoFs5rjWYE){video}'
 ---
 
-# Practice using classes.
+# Practice using classes
 
 ---
 ## Exercise

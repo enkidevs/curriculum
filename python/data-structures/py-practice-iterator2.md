@@ -22,7 +22,7 @@ links:
   - '[link to official documentation](https://docs.python.org/3/tutorial/datastructures.html){website}'
 ---
 
-# Practice python iterator2
+# Practice python iterator 2
 
 ---
 ## Exercise

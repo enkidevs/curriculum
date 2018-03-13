@@ -24,7 +24,7 @@ links:
   - '[link to a video](https://www.youtube.com/watch?v=xtXexPSfcZg){video}'
 ---
 
-# Practice iterables2
+# Practice iterables 2
 
 ---
 ## Exercise
