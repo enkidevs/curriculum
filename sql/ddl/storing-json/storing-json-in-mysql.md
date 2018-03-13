@@ -23,8 +23,11 @@ tags:
 
 
 ---
-## Content
+
 # Storing JSON in MySQL
+
+---
+## Content
 
 MySQL has only one data type for JSON values: `JSON`.
 

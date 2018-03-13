@@ -23,8 +23,11 @@ tags:
 
 
 ---
-## Content
+
 # Storing JSON in PostgreSQL
+
+---
+## Content
 
 In PostgreSQL, there are two possible ways of storing JSON objects:
 - `json`: stores an exact copy of the string, which is reparsed for every query targeting it

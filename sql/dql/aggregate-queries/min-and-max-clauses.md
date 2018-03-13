@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # MIN and MAX clauses
+
+---
+## Content
 
 The `MIN` clause returns the smallest value in a given column.
 The `MAX` clause returns the biggest value in a given column.

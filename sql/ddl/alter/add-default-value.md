@@ -30,8 +30,11 @@ links:
 
 
 ---
-## Content
+
 # Add Default Value
+
+---
+## Content
 
 In *MS Acccess* and *SQL Servers* we can use the `ALTER TABLE` statement to set default values for desired columns:
 ```

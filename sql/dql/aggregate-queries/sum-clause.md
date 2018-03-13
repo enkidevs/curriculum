@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # SUM clause
+
+---
+## Content
 
 The `SUM` clause comes in handy when we need to perform numerical addition.
 

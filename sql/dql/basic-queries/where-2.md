@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # WHERE (2)
+
+---
+## Content
 
 ### `AND`, `OR`, `NOT`, `BETWEEN`
 

@@ -31,8 +31,11 @@ links:
 parent: avg-clause
 
 ---
-## Content
+
 # INNER JOIN
+
+---
+## Content
 
 The `JOIN` clauses combine multiple columns from one or more **related tables**, creating a new set of data. Joins are a core part of SQL as their existence promotes data singularity.
 

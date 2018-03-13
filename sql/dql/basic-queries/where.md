@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # WHERE
+
+---
+## Content
 
 When added to an SQL `SELECT` statement, `WHERE` allows us to select rows in a table by specifying rules. The WHERE keyword can also be used to insert, update and delete data from tables.
 

@@ -30,8 +30,11 @@ links:
 
 
 ---
-## Content
+
 # When to add Indices
+
+---
+## Content
 
 Indices[1] are meant to help SQL Servers to lookup data *faster*. However we need to pay attention at how often the data will be inserted, updated and deleted. That is because each time we modify data in an indexed table, the index needs to be updated as well. This can lead to *lower performance* in the end.
 

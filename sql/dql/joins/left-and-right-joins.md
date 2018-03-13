@@ -29,8 +29,11 @@ links:
 
 
 ---
-## Content
+
 # LEFT And RIGHT JOINs
+
+---
+## Content
 
 The `LEFT JOIN`, or `LEFT OUTER JOIN`, is a type of join whose result contains **all** rows in the first table, regardless of whether there's a match with the right-hand table. Conversely, the `RIGHT JOIN`, or `RIGHT OUTER JOIN`, returns all rows in the second table. The keyword here is *outer*, which means "preserve the whole table".
 

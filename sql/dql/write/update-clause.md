@@ -21,15 +21,16 @@ tags:
 
   - workout
 
-
 links:
 
   - '[More on UPDATE](http://www.dofactory.com/sql/update){website}'
 
+---
+
+# Update clause
 
 ---
-## Content
-# Update clause
+## Contents
 
 The `UPDATE` clause enables user to modify existing rows in the database. It is often used with the `WHERE` clause to conditionally update data.
 
@@ -165,4 +166,3 @@ We want to update the table such that all genders will be neutral.
 * WHERE
 * DELETE
 * CHANGE
-

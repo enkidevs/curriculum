@@ -23,8 +23,11 @@ tags:
 
 
 ---
-## Content
+
 # Storing JSON in SQL Server
+
+---
+## Content
 
 SQL Server, or Microsoft SQL, has no default JSON data type but provides functional support to query the JSON objects stored as strings:
 ```SQL

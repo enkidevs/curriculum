@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # WHERE (3)
+
+---
+## Content
 
 ### `LIKE`, `IN`
 

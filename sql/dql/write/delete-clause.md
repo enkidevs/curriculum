@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # Delete clause
+
+---
+## Content
 
 The `DELETE` clause enables users to delete data from a table. We can specify which rows to delete using the `WHERE` clause, otherwise all records will be deleted.
 

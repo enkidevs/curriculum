@@ -21,8 +21,11 @@ tags:
 
 
 ---
-## Content
+
 # Encoding and Collation
+
+---
+## Content
 
 When it comes to storing and manipulating string fields, two questions come to mind:
 - What if the characters are not part of the Latin alphabet, e.g. Korean, Russian or even emojis?

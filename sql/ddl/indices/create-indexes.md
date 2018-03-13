@@ -35,8 +35,11 @@ links:
 parent: add-rule
 
 ---
-## Content
+
 # Create Indices
+
+---
+## Content
 
 Indices[1] play a big part in the *performance* of the SQL Server database. Indices are created on **columns** in tables and they provide a fast way to look up data based on the *values*. For example when we index one **column** and want to search a row based on some *values* from that column. Then the SQL Server finds that *value* in the indices and uses it to locate the whole row.
 

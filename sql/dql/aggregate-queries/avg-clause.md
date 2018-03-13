@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # AVG clause
+
+---
+## Content
 
 `AVG` returns the average numerical value of a given column.
 

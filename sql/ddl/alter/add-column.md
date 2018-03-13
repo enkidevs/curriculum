@@ -31,8 +31,11 @@ links:
 parent: create-a-table
 
 ---
-## Content
+
 # Add Column
+
+---
+## Content
 
 If we would like to add a new column to a certain table, we can use the `ALTER TABLE` statement:
 ```

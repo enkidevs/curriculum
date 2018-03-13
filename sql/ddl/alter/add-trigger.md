@@ -30,8 +30,11 @@ links:
 
 
 ---
-## Content
+
 # Add Trigger
+
+---
+## Content
 
 Triggers are defined to let the computer now it has to run a certain set of actions when an event happens. Usually this events mean executing: `UPDATE`, `INSERT` and `DELETE` statements. Basically it's a database object that is bound to a table and executes automatically. Types of triggers:
 - After triggers

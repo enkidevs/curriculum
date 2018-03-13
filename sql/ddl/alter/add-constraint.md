@@ -30,8 +30,11 @@ links:
 
 
 ---
-## Content
+
 # Add Constraint
+
+---
+## Content
 
 Sometimes we need to add ulterior constraints to the table we define. The `ALTER TABLE` statement enables us to do it. There are several types of constraints we can add. If we want to ensure that all values in one or more columns are different:
 ```

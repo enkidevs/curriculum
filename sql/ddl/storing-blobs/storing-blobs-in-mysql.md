@@ -23,8 +23,11 @@ tags:
 
 
 ---
-## Content
+
 # Handling Blobs in SQL
+
+---
+## Content
 
 There are four *BLOB* types in MySQL:
 - `tinyblob`: 1 + 2^8 bytes (0.256 MB)

@@ -21,8 +21,11 @@ tags:
 
 
 ---
-## Content
+
 # Adding Support for Multiple Character Sets
+
+---
+## Content
 
 While vendors' default character encoding might not be `UTF-8`, there are some ways in which it can be set.
 

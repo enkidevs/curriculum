@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # COUNT clause
+
+---
+## Content
 
 The `COUNT` clause returns the total number of entries in a given column.
 

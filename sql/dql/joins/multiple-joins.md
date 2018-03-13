@@ -25,8 +25,11 @@ tags:
 
 
 ---
-## Content
+
 # Multiple JOINs
+
+---
+## Content
 
 Sometimes, a single join might not be enough to get the desired result. In `many-to-many` relationships, when an intermediate table is used to avoid data duplication, such practice is common.
 

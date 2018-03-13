@@ -36,8 +36,11 @@ links:
 
 
 ---
-## Content
+
 # Node Database Packages
+
+---
+## Content
 
 Node is another popular platform (available as a course for premium users) which uses Java Script. As there are lots of packages available for it we will take a look at some of the database packages:
  - mongoose (for MongoDB)

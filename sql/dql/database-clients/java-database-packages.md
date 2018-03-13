@@ -36,8 +36,11 @@ links:
 
 
 ---
-## Content
+
 # Java Database Packages
+
+---
+## Content
 
 In **Java**, Oracle does not provide database connection APIs with the JDK, meaning that we will have to download the necessary library (the *database driver*) and import it into our project manually. These libraries should be provided the database hosts as each *DBMS* is different. The *database driver* or *JDBC (Java Database Connectivity)* for Postgres can be downloaded from Postgres website.
 

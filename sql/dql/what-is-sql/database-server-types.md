@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Database server types
+
+---
+## Content
 
 There are a number of RDBMS servers available, each with different strengths:
 

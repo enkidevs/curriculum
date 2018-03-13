@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # SELECT
+
+---
+## Content
 
 To get all of the data from a table, you can use a `SELECT` statement.
 

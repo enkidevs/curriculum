@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # FULL JOIN
+
+---
+## Content
 
 The `FULL JOIN`, or `FULL OUTER JOIN`, is a type of join that combines the functionality of `RIGHT JOIN` and `LEFT JOIN`. In other words, it returns matching rows, rows that are only in the left-hand table and rows that are only in the right-hand table.
 

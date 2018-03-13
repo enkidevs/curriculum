@@ -27,8 +27,11 @@ tags:
 
 
 ---
-## Content
+
 # UNION
+
+---
+## Content
 
 The **union** of two or more tables means combining their **type-matching rows**. Unlike the `JOIN` operation, which combines columns (containing all entries from either the left, the right or both tables), the `UNION` operation always retrieves every entry in *both tables*.
 

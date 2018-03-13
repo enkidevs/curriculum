@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # Order By clause
+
+---
+## Content
 
 `ORDER BY` clause enables users to order data in ascending or descending order on one or more columns. It comes after `GROUP BY` clause.
 

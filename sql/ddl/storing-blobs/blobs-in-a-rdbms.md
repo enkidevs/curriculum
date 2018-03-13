@@ -23,8 +23,11 @@ tags:
 
 
 ---
-## Content
+
 # Handling Blobs in a RDBMS
+
+---
+## Content
 
 The SQL defines a binary string type called **Binary Large Object**, or **BLOB**. A binary string is a sequence of raw bytes which allows storing values that a normal string would disallow.
 

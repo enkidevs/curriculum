@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # Distinct clause
+
+---
+## Content
 
 The `DISTINCT` keyword enables users to filter the duplicates that result after doing a `SELECT` query.
 

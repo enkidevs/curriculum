@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # Group By clause
+
+---
+## Content
 
 The `GROUP BY` clause is often used with aggregate functions (e.g. `SUM`, `AVG`). Syntactically it comes after the `WHERE` clause and before the `ORDER BY` in the *query*. It enables users to group data by one or more columns.
 
