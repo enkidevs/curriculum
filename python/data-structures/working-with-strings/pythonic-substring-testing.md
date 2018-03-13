@@ -1,4 +1,4 @@
-# Pythonic substring testing
+---
 author: Ricardo
 
 levels:
@@ -17,8 +17,12 @@ tags:
 
   - in
 
+
+
+
 ---
 ## Content
+# Pythonic substring testing
 
 Perform a substring test in a pythonic fashion using the `in` operator:
  
@@ -49,13 +53,14 @@ string = “Hey there”
   print “found it”
 #found it
 ```
-*`if` 
-*`in` 
-*`for` 
-*`is` 
-*`match` 
-*`else` 
-*`try`
+
+* `if` 
+* `in` 
+* `for` 
+* `is` 
+* `match` 
+* `else` 
+* `try`
 
 ---
 ## Revision
@@ -64,8 +69,10 @@ What keyword can be used in Python for substring testing?
 
 ???
 
-*`in` 
-*`for` 
-*`is` 
-*`matches` 
-*`yield`
+
+* `in` 
+* `for` 
+* `is` 
+* `matches` 
+* `yield`
+

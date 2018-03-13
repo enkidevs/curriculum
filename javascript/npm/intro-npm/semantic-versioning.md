@@ -1,17 +1,20 @@
-# Semantic versioning
+---
 author: mihaiberq
 
 levels:
+
   - beginner
 
 type: normal
 
-parent: package-json
-
 category: must-know
 
+
+
+parent: package-json
 ---
 ## Content
+# Semantic versioning
 
 It's almost always better to use the newest version of a package as it often offers fixes or improvements to its functionality. As a package maintainer it is important to communicate any changes made in a release as it may break code[1] depending on the package.
 
@@ -33,6 +36,7 @@ What is a valid syntax for specifying the latest minor release starting off *3.0
 
 ???
 
+
 * ^3.0.3
 * ~3.0.3
 * 3.0.x
@@ -45,12 +49,12 @@ From the perspective of a package maintainer, incrementing the rightmost number 
 
 ???
 
+
 * bug fixes
 * new stable feature
 * new experimental feature
 
 ---
 ## Footnotes
-
 [1: Breaking change]
 The term "breaking change" is usually used to indicate a change to a function or to code that will be incompatible with older code.

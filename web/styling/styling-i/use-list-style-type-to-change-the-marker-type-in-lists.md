@@ -1,4 +1,4 @@
-# Use ```list-style-type``` to change the marker type in lists
+---
 author: priyankinirmal
 
 levels:
@@ -25,13 +25,15 @@ tags:
 
   - list-style
 
+
 links:
 
-  - >-
-    [css-tricks.com](https://css-tricks.com/almanac/properties/l/list-style/){website}
+  - '[css-tricks.com](https://css-tricks.com/almanac/properties/l/list-style/){website}'
+
 
 ---
 ## Content
+# Use ```list-style-type``` to change the marker type in lists
 
 This property will allow you to change the marker of items in an unordered list to different shapes.
 ```css
@@ -68,10 +70,11 @@ ul.specialList {
           url('img.jpg');
 }
 ```
-*`list-style-image` 
-*`list-style-type` 
-*`list-style-font` 
-*`list-style`
+
+* `list-style-image` 
+* `list-style-type` 
+* `list-style-font` 
+* `list-style`
 
 ---
 ## Revision
@@ -88,7 +91,9 @@ ol.b {
 }
 ```
 ???
+
 * Sets the unordered list marker to an image and the ordered list marker to roman numerals.
 * Sets the unordered list marker to roman numerals and the ordered list to an image.
 * This does nothing...
 * Sets the first element of the unordered lists marker to an image and the first element of the ordered lists marker to roman numerals.
+

@@ -1,4 +1,4 @@
-# Page Visibility API
+---
 author: tommarshall
 
 levels:
@@ -15,13 +15,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [www.html5rocks.com](http://www.html5rocks.com/en/tutorials/pagevisibility/intro/){website}
+  - '[www.html5rocks.com](http://www.html5rocks.com/en/tutorials/pagevisibility/intro/){website}'
+
 
 ---
 ## Content
+# Page Visibility API
 
 The *Page Visibility API* allows you to query whether a page is visible or in focus.
 
@@ -51,6 +53,7 @@ function(){
 
 Which of the following is not a visibleState property value? ???
 
+
 * rawview
 * hidden
 * visible
@@ -66,9 +69,11 @@ Complete the following JS code snippet to add an event listener for a visibility
 document.???("???", function() {
 ```
 
+
 * `addEventListener`
 * `visibilitychange`
 * `newEventListener`
 * `newListener`
 * `change`
 * `detectvisibility`
+

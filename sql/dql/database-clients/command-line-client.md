@@ -1,4 +1,4 @@
-# Command-Line Client
+---
 author: Nick Daminov
 
 levels:
@@ -14,15 +14,20 @@ category: feature
 inAlgoPool: false
 
 tags:
+
   - introduction
+
   - workout
+
 
 links:
 
-  - '[PostgreSQL Download](https://www.postgresql.org/download/)'
+  - '[PostgreSQL Download](https://www.postgresql.org/download/){website}'
+
 
 ---
 ## Content
+# Command-Line Client
 
 Some of the Database Tools have command-line interface, meaning that instead of a separate window or a in browser GUI we will interact with the database through the command line by entering various SQL commands. Examples of such tools are:
  - DbVisualizer
@@ -54,6 +59,7 @@ Fill in the connection string with correct arguments:
  port=??? dbname=???
   user=???"
 
+
 * aws-us-east-1-portal.29.dblayer.com
 * 23336
 * pokemon
@@ -69,7 +75,9 @@ Fill in the connection string with correct arguments:
  port=??? dbname=???
  user=???"
 
+
 * aws-us-east-1-portal.29.dblayer.com
 * 23336
 * pokemon
 * ashketchum
+

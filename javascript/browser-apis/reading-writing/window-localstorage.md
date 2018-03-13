@@ -1,4 +1,4 @@
-# `Window.localStorage`
+---
 author: tommarshall
 
 levels:
@@ -11,13 +11,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [www.kirupa.com](http://www.kirupa.com/html5/storing_and_retrieving_an_array_from_local_storage.htm){website}
+  - '[www.kirupa.com](http://www.kirupa.com/html5/storing_and_retrieving_an_array_from_local_storage.htm){website}'
+
 
 ---
 ## Content
+# `Window.localStorage`
 
 *`localStorage`* is a storage object used to store data in without an expiry date. A local storage object can be accessed to add (store), access, and remove data. Data stored in *`localStorage`* will remain there once the current browsing session ends and the browser has been closed.
 
@@ -49,6 +51,7 @@ var localData = ???
                .???("data");
 ```
 
+
 * `localStorage`
 * `getItem`
 * `local`
@@ -67,10 +70,12 @@ Create a `localStorage` item with key `awesome` and value `enki`:
 
 ```
 
-*`localStorage`
-*`setItem`
-*`createItem`
-*`removeItem`
-*`clear`
-*`getItem`
-*`newItem`
+
+* `localStorage`
+* `setItem`
+* `createItem`
+* `removeItem`
+* `clear`
+* `getItem`
+* `newItem`
+

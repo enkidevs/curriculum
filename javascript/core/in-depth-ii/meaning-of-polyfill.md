@@ -1,4 +1,4 @@
-# Meaning of polyfill
+---
 author: pawel
 
 levels:
@@ -17,8 +17,12 @@ tags:
 
   - polyfill
 
+
+
+
 ---
 ## Content
+# Meaning of polyfill
 
 Polyfill (or polyfiller) is downloadable code which provides facilities that are not built into a web browser. It implements technology that a developer expects the browser to provide natively, providing a more uniform API landscape. 
 
@@ -43,6 +47,7 @@ if (!String.prototype.startsWith) {
 
 A polyfill provides... ???
 
+
 * technology that a developer expects the browser to provide natively.
 * new features.
 * all HTML tags.
@@ -54,6 +59,8 @@ A polyfill is a downloadable code that provides
 
 ??? .
 
-*support for older browsers
-*new features
-*all HTML tags
+
+* support for older browsers
+* new features
+* all HTML tags
+

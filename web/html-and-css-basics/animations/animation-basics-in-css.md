@@ -1,4 +1,4 @@
-# Animation basics in CSS
+---
 author: nene
 
 levels:
@@ -17,13 +17,15 @@ tags:
 
   - keyframes
 
+
 links:
 
-  - >-
-    [unmatchedstyle.com](http://unmatchedstyle.com/news/css-animation.php){website}
+  - '[unmatchedstyle.com](http://unmatchedstyle.com/news/css-animation.php){website}'
+
 
 ---
 ## Content
+# Animation basics in CSS
 
 There are two main properties when it comes to animating : `animation` and `keyframes`.
 
@@ -63,17 +65,17 @@ Setting it to _paused_ stops your animation in place, until you change `animatio
 }
 ```
 
-
 ---
 ## Practice
 
 Which keyword determines the actions an element should follow during the animation?
 
 ???
-*`keyframes`
-*`animation`
-*`actions`
-*`move`
+
+* `keyframes`
+* `animation`
+* `actions`
+* `move`
 
 ---
 ## Revision
@@ -84,6 +86,7 @@ There are two main properties when it comes to animating.
 
 ??? is how an element should transition (duration, speed).
 
+
 * keyframes
 * animation
 * sequence
@@ -91,3 +94,4 @@ There are two main properties when it comes to animating.
 * movements
 * frames
 * splits
+

@@ -1,4 +1,4 @@
-# Difference between `initial` and `inherit`
+---
 author: oj14henry
 
 levels:
@@ -15,13 +15,15 @@ tags:
 
   - inherit
 
+
 links:
 
-  - >-
-    [www.quirksmode.org](http://www.quirksmode.org/css/cascading/values.html){website}
+  - '[www.quirksmode.org](http://www.quirksmode.org/css/cascading/values.html){website}'
+
 
 ---
 ## Content
+# Difference between `initial` and `inherit`
 
 `inherit` takes an extra step in checking whether there are other properties it can use in the cascade before using the `initial` value that has been set.
 
@@ -48,6 +50,7 @@ With `inherit`, `h1` is required to `inherit` a color which it takes from `body`
 
 ??? takes an extra step to check if there are other properties which can be used in the cascade before using the ??? value which was set.
 
+
 * `inherit`
 * `initial`
 * `extend`
@@ -57,13 +60,14 @@ With `inherit`, `h1` is required to `inherit` a color which it takes from `body`
 
 ---
 ## Quiz
+### what does the pseudo-class :root refer to?
+```
+In a HTML document, what does the pseudo-class :root refer to?```
 
-headline: what does the pseudo-class :root refer to?
+ ???
 
-question: In a HTML document, what does the pseudo-class :root refer to?
+* <html> element
+* <body> element
+* <root> element
+* highest-level <div> element
 
-answers:
-  - <html> element
-  - <body> element
-  - <root> element
-  - highest-level <div> element

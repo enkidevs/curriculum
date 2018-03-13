@@ -1,4 +1,4 @@
-# Initializing a Git repository
+---
 author: catalin
 
 levels:
@@ -7,17 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [www.atlassian.com](https://www.atlassian.com/git/tutorials/setting-up-a-repository/){website}
+  - '[www.atlassian.com](https://www.atlassian.com/git/tutorials/setting-up-a-repository/){website}'
+
 
 ---
 ## Content
+# Initializing a Git repository
 
 There are two primary ways to include a project under **Git** control:
 1. Bring an existing project/directory on your machine under control of **Git**
@@ -44,6 +46,7 @@ What will running `$ git init` do?
 
 ???
 
+
 * setup **Git** and bring your project under its Source Control
 * upload your project to the **Git** server
 * download a sample project from the web
@@ -56,8 +59,10 @@ What command is used to initialize **Git** for a project?
 
 ???
 
-*`git init`
-*`git start`
-*`git new`
-*`git initalize`
-*`git initalise`
+
+* `git init`
+* `git start`
+* `git new`
+* `git initalize`
+* `git initalise`
+

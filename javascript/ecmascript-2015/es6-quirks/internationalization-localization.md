@@ -1,5 +1,4 @@
-# Internationalization & Localization
-
+---
 author: nene
 
 levels:
@@ -18,12 +17,15 @@ tags:
 
   - locale
 
+
 links:
 
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Collator){website}'
 
+
 ---
 ## Content
+# Internationalization & Localization
 
 `Collator` is an object that provides locale-specific string comparisons. It's  aware of Unicode. 
 
@@ -57,10 +59,12 @@ var i10nDE = new ???.???("de");
 
 ```
 
-*`Intl`
-*`Collator`
-*`Language`
-*`International`
-*`Languages`
-*`String`
-*`Compare`
+
+* `Intl`
+* `Collator`
+* `Language`
+* `International`
+* `Languages`
+* `String`
+* `Compare`
+

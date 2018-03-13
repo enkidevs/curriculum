@@ -1,4 +1,4 @@
-# `System.out` vs `System.err`
+---
 author: pawel
 
 levels:
@@ -11,15 +11,15 @@ type: normal
 
 category: tip
 
-notes: ''
 
 links:
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/3163399/difference-between-system-out-println-and-system-err-println){website}
+  - '[stackoverflow.com](http://stackoverflow.com/questions/3163399/difference-between-system-out-println-and-system-err-println){website}'
 
+notes: 
 ---
 ## Content
+# `System.out` vs `System.err`
 
 `System.out` leads the output to the standard output stream (usually console screen). It should be used for regular program output.
 
@@ -33,7 +33,9 @@ You may redirect both streams to different destinations (e.g files) to create an
 Which stream does `System.err` print to?
 
 ???
-*Error stream
-*Input stream
-*Output stream
-*Music stream
+
+* Error stream
+* Input stream
+* Output stream
+* Music stream
+

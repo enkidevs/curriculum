@@ -1,4 +1,4 @@
-# Use `Locale` class for Internationalisation
+---
 author: adamMontgomerie
 
 levels:
@@ -21,13 +21,15 @@ tags:
 
   - locale
 
+
 links:
 
-  - >-
-    [docs.oracle.com](http://docs.oracle.com/javase/7/docs/api/java/util/Locale.html){website}
+  - '[docs.oracle.com](http://docs.oracle.com/javase/7/docs/api/java/util/Locale.html){website}'
+
 
 ---
 ## Content
+# Use `Locale` class for Internationalisation
 
 The `Locale` class can be used to represent different regions, languages and scripts. We can use `Locale` to format output which is locale-sensitive. 
 
@@ -43,3 +45,4 @@ System.out.format(
 );
 //output: 3,14
 ```
+

@@ -1,4 +1,4 @@
-# Changing a functions context with `fn.call(object)`
+---
 author: tommarshall
 
 levels:
@@ -11,17 +11,16 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [javascriptissexy.com](http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential-for-javascript-professionals/){website}
+  - '[javascriptissexy.com](http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential-for-javascript-professionals/){website}'
+  - '[Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call){website}'
 
-  - >-
-    [Mozilla Developer
-    Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call){website}
 
 ---
 ## Content
+# Changing a functions context with `fn.call(object)`
 
 `fn.call()` allows you to call a function and provide an alternative value for the functions *this* context.
 
@@ -48,3 +47,4 @@ discountCalc
 .getDiscount
 .call({discount: 100},1); //101
 ```
+

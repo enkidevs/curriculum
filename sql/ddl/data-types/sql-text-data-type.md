@@ -1,4 +1,4 @@
-# SQL Text Data Types
+---
 author: mihaiberq
 
 levels:
@@ -12,11 +12,17 @@ type: normal
 category: must-know
 
 tags:
+
   - introduction
+
   - workout
+
+
+
 
 ---
 ## Content
+# SQL Text Data Types
 
 While it is not in the standard SQL, some databases decided to support the `text` data type. Similar to `varchar`, it accepts variable length strings. Below, you can find the differences in vendors implementation.
 
@@ -46,6 +52,7 @@ Which of the following databases accepts the `medium` and `long` modifiers for t
 
 ???
 
+
 * MySQL
 * Microsoft SQL
 * PostgreSQL
@@ -58,7 +65,9 @@ Which of the following vendors discontinued the support for the `text` data type
 
 ???
 
+
 * Microsoft SQL
 * PostgreSQL
 * MySQL
 * All
+

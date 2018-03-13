@@ -1,4 +1,4 @@
-# Complex `set` operations
+---
 author: tommarshall
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# Complex `set` operations
 
 Python has a number of further complex operations which can be carried out on `sets`. 
 
@@ -45,7 +49,6 @@ x >= y
 # True
 ```
 
-
 ---
 ## Revision
 
@@ -57,7 +60,9 @@ x.issuperset(y)
 x.issubset(y)
 # ???
 ```
+
 * `x >= y`
 * `x <= y`
 * `x == y`
 * `y > x`
+

@@ -1,4 +1,4 @@
-# Shortcut for transferring props
+---
 author: catalin
 
 levels:
@@ -13,15 +13,15 @@ type: normal
 
 category: how to
 
-parent: custom-proptype-s-to-be-required
 
 links:
 
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/docs/reusable-components.html#transferring-props-a-shortcut){website}
+  - '[facebook.github.io](https://facebook.github.io/react/docs/reusable-components.html#transferring-props-a-shortcut){website}'
 
+parent: custom-proptype-s-to-be-required
 ---
 ## Content
+# Shortcut for transferring props
 
 With the intention of saving time while typing, the **JSX** *spread syntax* can be used to transfer props.
 
@@ -52,3 +52,4 @@ ReactDOM.render(
 ```
 
 Note how in the component definition we made use of `...this.props`.
+

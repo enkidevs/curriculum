@@ -1,20 +1,26 @@
-# Parsing Reverse Polish Notation
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: how to
 
+
+
 parent: reverse-polish-notation
 ---
 ## Content
+# Parsing Reverse Polish Notation
 
 Postfix notation is used in *stack-based* languages and *pipeline-based* systems, like Unix pipelines.
 
@@ -50,6 +56,7 @@ Stack = []
 What values would be left in the stack after the evaluation of `10 5 * 2 + 3 3`?
 
 ???
+
 * [52,3,3]
 * [55,3]
 * [55]
@@ -62,7 +69,9 @@ What values would be left in the stack after the evaluation of `10 5 * 2 + 3 3`?
 What are the contents of the stack after evaluating a `valid` postfix expression?
 
 ???
+
 * A single value.
 * Two values.
 * A single operator.
 * The stack is empty.
+

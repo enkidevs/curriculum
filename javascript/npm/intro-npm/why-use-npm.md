@@ -1,22 +1,23 @@
-# Why should I use npm?
+---
 author: mihaiberq
 
 levels:
+
   - beginner
 
 type: normal
 
 category: must-know
 
-parent: what-is-npm
 
 links:
 
- - >-
-  [andrewhfarmer.com](http://andrewhfarmer.com/javascript-frontend-package-managers/){website}
+  - '[andrewhfarmer.com](http://andrewhfarmer.com/javascript-frontend-package-managers/){website}'
 
+parent: what-is-npm
 ---
 ## Content
+# Why should I use npm?
 
 There are several options when it comes to JavaScript package managers.
 
@@ -37,7 +38,9 @@ An alternative package manager to npm is
 
 ???.
 
+
 * yarn
 * browserify
 * react
 * node
+

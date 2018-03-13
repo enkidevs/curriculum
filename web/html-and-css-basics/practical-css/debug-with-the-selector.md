@@ -1,4 +1,4 @@
-# Debug with the `*` selector
+---
 author: catalin
 
 levels:
@@ -11,15 +11,17 @@ category: caveats
 
 tags:
 
-  - ''
+  - 
+
 
 links:
 
-  - >-
-    [gist.github.com](https://gist.github.com/sodevious/b87dbedb721624338b04){website}
+  - '[gist.github.com](https://gist.github.com/sodevious/b87dbedb721624338b04){website}'
+
 
 ---
 ## Content
+# Debug with the `*` selector
 
 These three lines of **CSS** will select every element on the page and give them a slightly darker background color with the help of the `*` selector.
 ```css
@@ -43,6 +45,7 @@ Which selector is used to select every element of a page so styles can be applie
 
 ???
 
+
 * `*`
 * `+`
 * `=`
@@ -60,6 +63,7 @@ div * {
 ```
 ???
 
+
 * Selects all elements inside div elements and sets their font family to Arial Narrow.
 * Selects all elements and sets their font family to Arial Narrow.
 * Selects all elements where the font family is Arial Narrow.
@@ -67,14 +71,15 @@ div * {
 
 ---
 ## Quiz
+### which selector is used to select every element on the page?
+```
+??? { background-color: rgba(0,255,0,0.1); }
+```
 
-headline: which selector is used to select every element on the page?
+ ???
 
-question: |
-  ??? { background-color: rgba(0,255,0,0.1); }
+* *
+* -
+* <>
+* html
 
-answers:
-  - "*"
-  - "-"
-  - <>
-  - html

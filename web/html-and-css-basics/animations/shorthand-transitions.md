@@ -1,4 +1,4 @@
-# Shorthand Transitions
+---
 author: nene
 
 levels:
@@ -11,12 +11,15 @@ type: normal
 
 category: feature
 
+
 links:
 
   - '[Codepen example](http://codepen.io/mihaiberq/pen/RGAjpK){website}'
 
+
 ---
 ## Content
+# Shorthand Transitions
 
 Declaring each transition property individually can be intensive, especially using `vendor prefixes`. 
 
@@ -55,6 +58,8 @@ transition: .2s linear background;
 transition: linear background .2s;
 ```
 
+
 * Option A
 * Option B
 * Option C
+

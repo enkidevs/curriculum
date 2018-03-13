@@ -1,4 +1,4 @@
-# Add Constraint
+---
 author: SebaRaba
 
 levels:
@@ -17,16 +17,21 @@ category: must-know
 
 inAlgoPool: false
 
+tags:
+
+  - workout
+
+  - deep
+
+
 links:
 
-  - '[More on ADD CONSTRAINT](https://www.tutorialspoint.com/sql/sql-alter-command.htm)'
+  - '[More on ADD CONSTRAINT](https://www.tutorialspoint.com/sql/sql-alter-command.htm){website}'
 
-tags:
-  - workout
-  - deep
 
 ---
 ## Content
+# Add Constraint
 
 Sometimes we need to add ulterior constraints to the table we define. The `ALTER TABLE` statement enables us to do it. There are several types of constraints we can add. If we want to ensure that all values in one or more columns are different:
 ```
@@ -69,6 +74,7 @@ ADD ??? PK-constraints
 ??? (region_id,name)
 ```
 
+
 * generation
 * CONSTRAINT
 * PRIMARY KEY
@@ -103,6 +109,8 @@ id | version_group_id |      name
 ```
 
 
+
 * ALTER TABLE gender ADD CONSTRAINT check_constraint CHECK (version_group_id <= 10);
 * ALTER TABLE generation ADD PRIMARY KEY (id);
 * ALTER TABLE gender ADD CONSTRAINT check_constraint UNIQUE (version_group_id <= 10);
+

@@ -1,4 +1,4 @@
-# Pause and play CSS animations
+---
 author: Mathieu
 
 levels:
@@ -11,15 +11,16 @@ type: normal
 
 category: how to
 
-notes: 'http://www.sitepoint.com/12-little-known-css-facts/'
 
 links:
 
-  - >-
-    [tympanus.net](http://tympanus.net/codrops/css_reference/animation-play-state/){website}
+  - '[tympanus.net](http://tympanus.net/codrops/css_reference/animation-play-state/){website}'
+
+notes: 'http://www.sitepoint.com/12-little-known-css-facts/'
 
 ---
 ## Content
+# Pause and play CSS animations
 
 You can _pause_ and _play_ CSS animation by changing its `animation-play-state` property.
 
@@ -43,11 +44,12 @@ How do you restart an animation?
   ???:
         ???;
 ```
-*`animation-play-state`
-*`running`
-*`play`
-*`start`
-*`animation-state`
+
+* `animation-play-state`
+* `running`
+* `play`
+* `start`
+* `animation-state`
 
 ---
 ## Revision
@@ -55,7 +57,9 @@ How do you restart an animation?
 What are the two states which can pause or play CSS animations? 
 
 ???
+
 * Paused and running.
 * Start and stop.
 * Paused and playing.
 * Running and stop.
+

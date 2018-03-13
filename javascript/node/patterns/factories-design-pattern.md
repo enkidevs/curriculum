@@ -1,4 +1,4 @@
-# Factories design pattern
+---
 author: catalin
 
 levels:
@@ -11,15 +11,16 @@ type: normal
 
 category: best practice
 
+
 links:
 
-  - >-
-    [blog.risingstack.com](https://blog.risingstack.com/fundamental-node-js-design-patterns/){website}
-
+  - '[blog.risingstack.com](https://blog.risingstack.com/fundamental-node-js-design-patterns/){website}'
   - '[thenodeway.io](http://thenodeway.io/posts/designing-factories/){website}'
+
 
 ---
 ## Content
+# Factories design pattern
 
 In order to avoid custom object creation with different arguments, **factories** can be used instead. Their usage is obvious when working with complex constructors or you want to avoid *copypasta*.
 
@@ -38,3 +39,4 @@ function create (args) {
 
 module.exports.create = create;
 ```
+

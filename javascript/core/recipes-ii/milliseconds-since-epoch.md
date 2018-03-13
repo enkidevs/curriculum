@@ -1,4 +1,4 @@
-# Milliseconds since Epoch
+---
 author: Bruno
 
 levels:
@@ -9,14 +9,16 @@ type: normal
 
 category: tip
 
+
 links:
 
   - '[2ality.com](http://www.2ality.com/2014/02/time-values.html){blog}'
-
   - '[moment.js](http://momentjs.com/){documentation}'
+
 
 ---
 ## Content
+# Milliseconds since Epoch
 
 Standard way:
 ```
@@ -42,6 +44,7 @@ What is missing from the following code snippet for getting the current time in 
 ???new ???();
 ```
 
+
 * `+`
 * `Date`
 * `=`
@@ -56,6 +59,8 @@ Get the current time in milliseconds(since 1 Jan 1970):
 ```
 var time = Date.???;
 ```
-*now();
-*getMillis();
-*getMilliseconds();
+
+* now();
+* getMillis();
+* getMilliseconds();
+

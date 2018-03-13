@@ -1,4 +1,4 @@
-# Python Database Packages
+---
 author: Nick Daminov
 
 levels:
@@ -14,22 +14,30 @@ category: feature
 inAlgoPool: false
 
 tags:
+
   - introduction
+
   - workout
+
   - python
+
   - implementation
+
   - database packages
+
 
 links:
 
-  - '[Psycopg2 package](http://initd.org/psycopg/)'
-  - '[SQLAlchemy package](http://www.sqlalchemy.org/)'
-  - '[Psycopg documentation](http://initd.org/psycopg/docs/index.html)'
-  - '[Psycopg start guide](http://initd.org/psycopg/docs/usage.html)'
-  - '[Using Python to query Postgres video](https://www.youtube.com/watch?v=8gd1DlXwzlY)'
+  - '[Psycopg2 package](http://initd.org/psycopg/){website}'
+  - '[SQLAlchemy package](http://www.sqlalchemy.org/){website}'
+  - '[Psycopg documentation](http://initd.org/psycopg/docs/index.html){website}'
+  - '[Psycopg start guide](http://initd.org/psycopg/docs/usage.html){website}'
+  - '[Using Python to query Postgres video](https://www.youtube.com/watch?v=8gd1DlXwzlY){website}'
+
 
 ---
 ## Content
+# Python Database Packages
 
 **Python** has many libraries which implement various functionalities. Some of those libraries allow the user to operate on databases, these libraries are also called *database drivers*. The examples of such libraries:
  - Psycopg
@@ -96,6 +104,7 @@ If we consider `psycopg2` library what's the correct order of connecting and the
 3 - ???
 4 - ???
 
+
 * import psycopg2
 * establish a connection with the database
 * initialize a cursor
@@ -107,5 +116,7 @@ If we consider `psycopg2` library what's the correct order of connecting and the
 How can you connect to a database with Python?
 ???
 
+
 * By using dedicated libraries
 * Python provides an inbuilt db functionality
+

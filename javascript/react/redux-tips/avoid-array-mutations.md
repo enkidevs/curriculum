@@ -1,4 +1,4 @@
-# Avoid array mutations 
+---
 author: catalin
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: best practice
 
+
 links:
 
-  - >-
-    [egghead.io](https://egghead.io/lessons/javascript-redux-avoiding-array-mutations-with-concat-slice-and-spread){website}
+  - '[egghead.io](https://egghead.io/lessons/javascript-redux-avoiding-array-mutations-with-concat-slice-and-spread){website}'
+
 
 ---
 ## Content
+# Avoid array mutations 
 
 There are different ways of creating a **pure** function needed in **Redux** for generating a new array of items.
 
@@ -53,6 +55,7 @@ Append `enki` to `myArray` using the spread operator in a **pure** fashion:
 return [???myArray, ???];
 ```
 
+
 * `...`
 * `enki`
 * `concat`
@@ -67,8 +70,10 @@ Append `enki` to `myArray` using the spread operator in a **pure** fashion:
 return [???myArray, ???];
 ```
 
+
 * `...`
 * `enki`
 * `concat`
 * `splice`
 * `slice`
+

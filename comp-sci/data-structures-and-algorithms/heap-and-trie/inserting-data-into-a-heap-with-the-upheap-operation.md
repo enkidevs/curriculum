@@ -1,21 +1,26 @@
-# Inserting Data Into a Heap With The `upheap` Operation
+---
 author: jfarmer
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: how to
 
-parent: the-heap-data-structure
 
+
+parent: the-heap-data-structure
 ---
 ## Content
+# Inserting Data Into a Heap With The `upheap` Operation
 
 How do we insert information into a heap efficiently? Consider the following (binary) max-heap:
 
@@ -46,7 +51,6 @@ However, `120` is still greater than `100`, so we must swap those two keys as we
 
 The tree is now a heap again!
 
-
 ---
 ## Practice
 
@@ -60,6 +64,7 @@ Where will the next node be inserted in the heap?
   A     B      
 ???
 ```
+
 * `C`
 * `A`
 * `B`
@@ -71,6 +76,7 @@ Where will the next node be inserted in the heap?
 In a `max-heap`, during upheap operation, the child swaps places with its parent if its value
 
 ???.
+
 * is larger than the parent's
 * is smaller than the parent's
 * is equal to the parent's
@@ -78,6 +84,5 @@ In a `max-heap`, during upheap operation, the child swaps places with its parent
 
 ---
 ## Footnotes
-
 [1: Complete heap]
 Complete means that every level of the underlying binary tree structure is filled, except possibly the last level.

@@ -1,4 +1,4 @@
-# Handling Blobs in a RDBMS
+---
 author: mihaiberq
 
 levels:
@@ -12,12 +12,19 @@ type: normal
 category: how to
 
 tags:
+
   - introduction
+
   - workout
+
   - deep
+
+
+
 
 ---
 ## Content
+# Handling Blobs in a RDBMS
 
 The SQL defines a binary string type called **Binary Large Object**, or **BLOB**. A binary string is a sequence of raw bytes which allows storing values that a normal string would disallow.
 
@@ -42,6 +49,7 @@ In most databases, the maximum allowed size of BLOBs is
 
 ???
 
+
 * GB
 * MB
 * KB
@@ -52,7 +60,9 @@ In most databases, the maximum allowed size of BLOBs is
 
 `BLOB`s are used to store ???
 
+
 * `raw bytes`
 * `bigints`
 * `strings`
 * `images`
+

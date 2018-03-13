@@ -1,4 +1,4 @@
-# Keyed fragments in **React**
+---
 author: catalin
 
 levels:
@@ -13,15 +13,15 @@ type: normal
 
 category: feature
 
-parent: custom-proptype-s-to-be-required
 
 links:
 
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/docs/create-fragment.html){website}
+  - '[facebook.github.io](https://facebook.github.io/react/docs/create-fragment.html){website}'
 
+parent: custom-proptype-s-to-be-required
 ---
 ## Content
+# Keyed fragments in **React**
 
 With two sets of children that need reordering, there is no way of putting a key on each set without adding a wrapper element.
 
@@ -65,6 +65,7 @@ Array<ReactNode ???(
       object ???);
 ```
 
+
 * `createFragment`
 * `children`
 * `create`
@@ -77,5 +78,7 @@ Array<ReactNode ???(
 
 What type of object is returned by `createFragment`? ???
 
+
 * An opaque object.
 * A transparent object.
+

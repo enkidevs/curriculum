@@ -1,4 +1,4 @@
-# Managing branches
+---
 author: rosielowther
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Branch-Management){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Branch-Management){website}'
+
 
 ---
 ## Content
+# Managing branches
 
 If you want to see a list of your branches, you can run `git branch`:
 ```
@@ -49,6 +51,7 @@ Show the last commit on each branch:
 ```
 $ git ??? ???
 ```
+
 * `branch`
 * `-v`
 * `--merged`
@@ -65,6 +68,8 @@ $ git branch
 test
 ```
 ???
+
 * `master` is checked out
 * `test` is merged with `master`
 * `master` has modified files
+

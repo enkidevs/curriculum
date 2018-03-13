@@ -1,4 +1,4 @@
-# Review of dictionaries
+---
 author: SebaRaba
 
 levels:
@@ -11,12 +11,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[More on dictionaries](https://www.digitalocean.com/community/tutorials/understanding-dictionaries-in-python-3)'
+  - '[More on dictionaries](https://www.digitalocean.com/community/tutorials/understanding-dictionaries-in-python-3){website}'
+
 
 ---
 ## Content
+# Review of dictionaries
 
 Dictionaries are used to store data that is related in a way or another. What makes them different from other data types is that they provide a way to map *keys* ( such as an ID ) to *values* ( such as some information associated with that specific ID ).
 
@@ -99,6 +102,7 @@ print(weather)
 
 ```
 
+
 * `{}`
 * `weather`
 * `'bucharest'`
@@ -126,7 +130,9 @@ print(marks.keys())
 ```
 ???
 
+
 * dict_keys(['Amber', 'David'])
 * dict_keys(['David', 'Amber', 'Steve', 'John', 'Amy'])
 * dict_keys(['Steve', 'John', 'Amy'])
 * dict_keys(['Amber', 'David', 'John'])
+

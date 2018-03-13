@@ -1,4 +1,4 @@
-# Thread Synchronization
+---
 author: Nick Daminov
 
 levels:
@@ -9,13 +9,16 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - '[More on Synchronization](http://www.wideskills.com/java-tutorial/java-threads-tutorial/p/0/1)'
-  - '[More on Race Condition](https://en.wikipedia.org/wiki/Race_condition)'
+  - '[More on Synchronization](http://www.wideskills.com/java-tutorial/java-threads-tutorial/p/0/1){website}'
+  - '[More on Race Condition](https://en.wikipedia.org/wiki/Race_condition){website}'
+
 
 ---
 ## Content
+# Thread Synchronization
 
 **Synchronization** is a process of controlling the workflow of the threads regarding the order in which they access shared resources. This is a vital part of *threading* topic as threads often make use of the same resources which may lead to unforeseen results and data corruption due to parallel running. The situation in which the same resources are accessed and/or modified at the same time is called *race condition* and should be avoided to ensure correctness of the program.
 
@@ -60,6 +63,7 @@ Where should `synchronized` be in order for a method to work?
 
 ???
 
+
 * before return type
 * before access type
 * before the name of the method
@@ -71,7 +75,9 @@ What key word provides inbuilt Java synchronization?
 
 ???
 
+
 * `synchronized`
 * `parallel`
 * `sequenced`
 * `ordered`
+

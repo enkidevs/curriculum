@@ -1,4 +1,4 @@
-# Adding Support for Multiple Character Sets
+---
 author: mihaiberq
 
 levels:
@@ -12,11 +12,17 @@ type: normal
 category: must-know
 
 tags:
+
   - introduction
+
   - workout
+
+
+
 
 ---
 ## Content
+# Adding Support for Multiple Character Sets
 
 While vendors' default character encoding might not be `UTF-8`, there are some ways in which it can be set.
 
@@ -46,6 +52,7 @@ Which database has data types that default to `UTF-8` encoding?
 
 ???
 
+
 * Microsoft SQL
 * MySQL
 * PostgreSQL
@@ -57,6 +64,8 @@ Which database `utf8` options stores a maximum of 3 bytes instead of 4?
 
 ???
 
+
 * MySQL
 * PostgreSQL
 * Microsoft SQL
+

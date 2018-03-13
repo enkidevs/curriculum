@@ -1,4 +1,4 @@
-# Make your log output pretty
+---
 author: rosielowther
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History){website}'
+
 
 ---
 ## Content
+# Make your log output pretty
 
 The `--pretty` option makes the log output easier to read. 
 
@@ -51,11 +53,12 @@ $ git ??? ???:
 fe21ab0 - 1 week ago 
 cd4512a - 2 weeks ago 
 ```
-*`log`
-*`--pretty=format`
-*`%h`
-*`--pretty`
-*`oneline`
+
+* `log`
+* `--pretty=format`
+* `%h`
+* `--pretty`
+* `oneline`
 
 ---
 ## Revision
@@ -64,8 +67,10 @@ Print the log output on a single line:
 ```
 $ git ??? ???
 ```
-*`log`
-*`--pretty=oneline`
-*`--pretty`
-*`oneline`
-*`singleline`
+
+* `log`
+* `--pretty=oneline`
+* `--pretty`
+* `oneline`
+* `singleline`
+

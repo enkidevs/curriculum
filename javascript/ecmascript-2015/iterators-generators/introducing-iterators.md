@@ -1,4 +1,4 @@
-# Introducing Iterators
+---
 author: alexjmackey
 
 levels:
@@ -9,18 +9,19 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+
 links:
-  
+
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols){website}'
-  
-  - '[ponyfoo.com](https://ponyfoo.com/articles/es6-iterators-in-depth)'
+  - '[ponyfoo.com](https://ponyfoo.com/articles/es6-iterators-in-depth){website}'
+
+inAlgoPool:
 
 ---
 ## Content
+# Introducing Iterators
 
 An iterator is a special type of object that returns items from a sequence one at a time and remembers its position within the sequence. 
 
@@ -64,3 +65,4 @@ it.next(); //Object {value: 3}
 it.next(); //Object {value: 4}
 it.next(); //Object {value: 5}
 ```
+

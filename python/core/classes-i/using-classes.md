@@ -1,4 +1,4 @@
-# Using Classes
+---
 author: mihaiberq
 
 levels:
@@ -9,8 +9,12 @@ type: normal
 
 category: must-know
 
+
+
+
 ---
 ## Content
+# Using Classes
 
 To use a class, you must create an instance of a class. Take the previous class:
 ```python
@@ -50,7 +54,9 @@ class Car:
     ...
 ```
 ???
+
 * class attribute
 * instance attribute
 * class variable
 * instance variable
+

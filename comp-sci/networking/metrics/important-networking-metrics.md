@@ -1,4 +1,4 @@
-# Important networking metrics
+---
 author: catalin
 
 levels:
@@ -15,16 +15,16 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - 'https://www.techopedia.com/definition/8319/metric-networking'
-
-  - 'http://www.informit.com/articles/article.aspx?p=26129&seqNum=7'
+  - '[www.techopedia.com](https://www.techopedia.com/definition/8319/metric-networking){website}'
+  - '[www.informit.com](http://www.informit.com/articles/article.aspx?p=26129&seqNum=7){website}'
 
 parent: extended-terminologies
-
 ---
 ## Content
+# Important networking metrics
 
 **Metrics** are used to verify desired behaviours of processes in a *quantitative* and *qualitative* manner.
 
@@ -52,6 +52,7 @@ Measuring which of the following has no sense on **TCP** connections?
 
 ???
 
+
 * `packet loss`
 * `jitter`
 * `latency`
@@ -64,6 +65,7 @@ Which of the following metrics define maximum rate that information can be trans
 
 ???
 
+
 * `bandwidth`
 * `jitter`
 * `error rate`
@@ -72,7 +74,6 @@ Which of the following metrics define maximum rate that information can be trans
 
 ---
 ## Footnotes
-
 [1:Measuring performance]
 It's not mandatory to measure performance. Instead it can also be modelled and simulated.
 

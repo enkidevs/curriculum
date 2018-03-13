@@ -1,4 +1,4 @@
-# `String.replace`
+---
 author: jordanfish
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: caveats
 
+
 links:
 
-  - >-
-    [www.standardista.com](http://www.standardista.com/javascript/15-common-javascript-gotchas/){website}
+  - '[www.standardista.com](http://www.standardista.com/javascript/15-common-javascript-gotchas/){website}'
+
 
 ---
 ## Content
+# `String.replace`
 
 The `String.replace` method only changes the first occurrence of a substring, not all possible matches: 
 ```
@@ -43,16 +45,19 @@ var s = 'x+y+z=w';
 s=s.replace(???,'%2B');
 console.log(s); // x%2By%2Bz=w
 ```
-*`/\+/g`
-*`\\+/g`
-*`\+/g`
-*`/\+/`
+
+* `/\+/g`
+* `\\+/g`
+* `\+/g`
+* `/\+/`
 
 ---
 ## Revision
 
 ??? is used to replace one or more occurrences of a substring with another string.
 
-*String.replace()
-*String.change()
-*String.delete()
+
+* String.replace()
+* String.change()
+* String.delete()
+

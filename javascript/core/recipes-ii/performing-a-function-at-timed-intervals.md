@@ -1,4 +1,4 @@
-# Performing a function at timed intervals
+---
 author: pawel
 
 levels:
@@ -17,8 +17,12 @@ tags:
 
   - fundamental
 
+
+
+
 ---
 ## Content
+# Performing a function at timed intervals
 
 To perform functions at regular intervals using `setInterval`:
 
@@ -49,11 +53,12 @@ function hi(){
 var loop = ???
    .???(hi,???);
 ```
-*window
-*setInterval
-*2000
-*200
-*function
+
+* window
+* setInterval
+* 2000
+* 200
+* function
 
 ---
 ## Revision
@@ -66,8 +71,10 @@ function hi(){
 var loop = ???
    .???(hi,???);
 ```
-*window
-*setInterval
-*2000
-*200
-*function
+
+* window
+* setInterval
+* 2000
+* 200
+* function
+

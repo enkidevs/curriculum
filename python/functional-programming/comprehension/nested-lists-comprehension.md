@@ -1,4 +1,4 @@
-# Nested lists comprehension
+---
 author: catalin
 
 levels:
@@ -11,15 +11,16 @@ type: normal
 
 category: how to
 
-parent: list-comprehension
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#nested-list-comprehensions){website}
+  - '[docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#nested-list-comprehensions){website}'
+
+parent: list-comprehension
 
 ---
 ## Content
+# Nested lists comprehension
 
 Since a list comprehension can take any **expression** as its initial expression, it's possible to include another list comprehension at that position, resulting in  a **nested** list comprehension.  
 
@@ -56,3 +57,4 @@ y % 3 == 0 ]
 # (8, 9), (8, 12), (8, 15), (8, 18)]
 
 ```
+

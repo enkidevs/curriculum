@@ -1,4 +1,4 @@
-# What Is Cascading?
+---
 author: mihaiberq
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# What Is Cascading?
 
 Within CSS, multiple style blocks *cascade* from the top of the style sheet to the bottom. Here's an example:
 ```
@@ -53,10 +57,11 @@ p {
 ```
 ???
 
-*green
-*blue
-*red
-*the default one
+
+* green
+* blue
+* red
+* the default one
 
 ---
 ## Revision
@@ -65,7 +70,9 @@ Where should a style block be located in the CSS file for it to be applied last?
 
 ???
 
-*Bottom of the file.
-*Middle of the file.
-*Top of the file.
-*Doesn't matter.
+
+* Bottom of the file.
+* Middle of the file.
+* Top of the file.
+* Doesn't matter.
+

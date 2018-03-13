@@ -1,20 +1,26 @@
-# Bellman-Ford Algorithm Iteration
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
+
 type: normal
 
 category: must-know
 
-parent: bellman-ford-algorithm
 
+
+parent: bellman-ford-algorithm
 ---
 ## Content
+# Bellman-Ford Algorithm Iteration
 
 Let's apply the algorithm on the following graph, with *A* as our starting node. As we would normally do for Dijkstra's, we initalized the distance to *A* to be `0` and every other distance to be a very large number (or `inf`):
 
@@ -49,6 +55,7 @@ Bellman-Ford algorithm uses
 
 ??? approach.
 
+
 * `no specific`
 * `greedy`
 * `dynamic`
@@ -61,6 +68,8 @@ In the worst case, the Bellman-Ford algorithm requires
 
 ???
 
-*`|V-1| iterations`
-*`|V| iterations`
-*`|V+1| iterations`
+
+* `|V-1| iterations`
+* `|V| iterations`
+* `|V+1| iterations`
+

@@ -1,4 +1,4 @@
-# Let (Part 1)
+---
 author: alexjmackey
 
 levels:
@@ -7,16 +7,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: tip
 
+
 links:
-  
+
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let){website}'
+
+inAlgoPool:
 
 ---
 ## Content
+# Let (Part 1)
 
 *let* declares a variable and is used in a similar method to *var*.
 
@@ -46,3 +48,4 @@ let notGlobal="Enki";
 console.log(window.notGlobal);
 //undefined
 ```
+

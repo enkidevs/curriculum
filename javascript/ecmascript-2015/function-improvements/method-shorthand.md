@@ -1,4 +1,4 @@
-# Method Shorthand
+---
 author: alexjmackey
 
 levels:
@@ -7,16 +7,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions){website}'
 
+inAlgoPool:
+
 ---
 ## Content
+# Method Shorthand
 
 ES6 method shorthand allows us remove the function key word and colon making code more succinct. 
 
@@ -39,3 +41,4 @@ return {
     }
 };
 ```
+

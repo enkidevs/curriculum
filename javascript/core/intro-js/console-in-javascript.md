@@ -1,4 +1,4 @@
-# `console.*` in JavaScript
+---
 author: rosielowther
 
 levels:
@@ -11,16 +11,16 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [github.com](https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/ch1.md){website}
+  - '[github.com](https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/ch1.md){website}'
+  - '[developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/API/Console/log){website}'
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/API/Console/log){website}
 
 ---
 ## Content
+# `console.*` in JavaScript
 
 The `console.*` methods output information to a console.
 
@@ -58,6 +58,7 @@ In addition to this, `console.*` can be used to pipe information to `stdout` in 
 
 Which of the following is the correct method for outputting information to the console? ???
 
+
 * `console.log();`
 * `console.write();`
 * `console.print();`
@@ -71,10 +72,12 @@ Log a message in the `console`:
 ???.???("my message");
 ```
 
-*`console`
-*`log`
-*`print`
-*`system`
-*`output`
-*`show`
-*`warn`
+
+* `console`
+* `log`
+* `print`
+* `system`
+* `output`
+* `show`
+* `warn`
+

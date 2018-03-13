@@ -1,4 +1,4 @@
-# Autohiding scrollbars for **IE**
+---
 author: catalin
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: tip
 
+
 links:
 
-  - >-
-    [css-tricks.com](https://css-tricks.com/snippets/css/hide-scrollbar-in-edge-ie-1011/){website}
+  - '[css-tricks.com](https://css-tricks.com/snippets/css/hide-scrollbar-in-edge-ie-1011/){website}'
+
 
 ---
 ## Content
+# Autohiding scrollbars for **IE**
 
 Note this only works in **Edge** and **IE 10/11** .
 Instead of always showing a scrollbar, you can make it only show when needed :
@@ -41,8 +43,10 @@ html {
 }
 ```
 
+
 * `ms-autohiding-scrollbar`
 * `-ms-autohiding-scrollbar`
 * `autohide-scrollbar`
 * `show-hover-scrollbar`
 * `autohiding-scrollbar-style`
+

@@ -1,4 +1,4 @@
-# What is Java?
+---
 author: mihaiberq
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# What is Java?
 
 **Java** is a programming language that follows the *Object-oriented programming paradigm* (also  known as OOP).
 
@@ -33,6 +37,7 @@ What's the latest version of **Java**?
 
 ???
 
+
 * Java 8
 * Java 10
 * Java 9
@@ -47,7 +52,9 @@ What type of programming language is **Java** considered?
 
 ???
 
-*object-oriented
-*functional
-*quantum
-*esoteric
+
+* object-oriented
+* functional
+* quantum
+* esoteric
+

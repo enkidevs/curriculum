@@ -1,4 +1,4 @@
-# Using `flex-grow`
+---
 author: Billiexu
 
 levels:
@@ -15,13 +15,15 @@ tags:
 
   - flexbox
 
+
 links:
 
-  - >-
-    [css-tricks.com](https://css-tricks.com/almanac/properties/f/flex-grow/){website}
+  - '[css-tricks.com](https://css-tricks.com/almanac/properties/f/flex-grow/){website}'
+
 
 ---
 ## Content
+# Using `flex-grow`
 
 `flex-grow` defines the ability for a flex item to grow if necessary. **It accepts a unitless value that serves as a proportion**. It dictates what amount of the available space inside the flex container the item should take up.
 
@@ -59,12 +61,13 @@ Complete the snippet to make `.grow` elements to take three times as much space 
   ??? : ???;
 }
 ```
-*`flex-grow` 
-*`3` 
-*`flex-shrink` 
-*`2` 
-*`1` 
-*`grow-basis`
+
+* `flex-grow` 
+* `3` 
+* `flex-shrink` 
+* `2` 
+* `1` 
+* `grow-basis`
 
 ---
 ## Revision
@@ -73,7 +76,9 @@ What does `flex-grow` accept and what does it serve as?
 
 ???
 
-*A unitless value, which serves as a proportion.
-*A value, which serves as a factor.
-*A string, which serves as a description.
-*A unit, which serves as a multiple.
+
+* A unitless value, which serves as a proportion.
+* A value, which serves as a factor.
+* A string, which serves as a description.
+* A unit, which serves as a multiple.
+

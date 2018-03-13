@@ -1,4 +1,4 @@
-# Subdirectory checkout
+---
 author: Bruno
 
 levels:
@@ -13,8 +13,12 @@ type: normal
 
 category: tip
 
+
+
+
 ---
 ## Content
+# Subdirectory checkout
 
 As of version 1.7, `git` can checkout selected subdirectories, just like `svn`. 
 
@@ -56,6 +60,7 @@ $ git ???
 $ echo ??? >>
        .git/info/sparse-checkout
 ```
+
 * `config`
 * `core`
 * `sparsecheckout`
@@ -68,6 +73,8 @@ $ echo ??? >>
 Directories not specified in the `sparse-checkout` file are
 
 ???
+
 * ignored
 * the only ones pulled
 * immutable
+

@@ -1,4 +1,4 @@
-# `stringprep` module
+---
 author: catalin
 
 levels:
@@ -9,19 +9,20 @@ levels:
 
 type: normal
 
+category: feature
+
 inAlgoPool: false
 
-category: feature
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/2/library/stringprep.html){website}
-
+  - '[docs.python.org](https://docs.python.org/2/library/stringprep.html){website}'
   - '[www.ietf.org](https://www.ietf.org/rfc/rfc3454.txt){website}'
+
 
 ---
 ## Content
+# `stringprep` module
 
 The **RFC 3454** international memo defines the procedure of *preparing* Unicode string as to be suitable for internet protocols. It basically provides a set of specialized tables of code points.
 
@@ -55,10 +56,12 @@ import stringrep
 ???.???(‘x’)
 ```
 
-*`stringrep` 
-*`in_table_c11` 
-*`table_c11` 
-*`table_c_1_1` 
-*`table_c1_1` 
-*`rfc` 
-*`rfc3454``
+
+* `stringrep` 
+* `in_table_c11` 
+* `table_c11` 
+* `table_c_1_1` 
+* `table_c1_1` 
+* `rfc` 
+* `rfc3454``
+

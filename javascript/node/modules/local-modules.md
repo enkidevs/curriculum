@@ -1,4 +1,4 @@
-# Local Modules
+---
 author: tommarshall
 
 levels:
@@ -15,13 +15,15 @@ type: normal
 
 category: must-know
 
-parent: the-http-module-for-servers
 
 links:
-- '[Local Modules](http://www.tutorialsteacher.com/nodejs/nodejs-local-modules)'
 
+  - '[Local Modules](http://www.tutorialsteacher.com/nodejs/nodejs-local-modules){website}'
+
+parent: the-http-module-for-servers
 ---
 ## Content
+# Local Modules
 
 In Node.js a local module is a module created locally to your application. A local module can include different functionalities of the application across different files and folders.
 
@@ -65,5 +67,7 @@ Good news! We're working on Node!
 Which of the following module types must have its path specified when requiring it?
 ???
 
+
 * local
 * core
+

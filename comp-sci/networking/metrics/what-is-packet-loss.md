@@ -1,4 +1,4 @@
-# How does packet loss happen?
+---
 author: catalin
 
 levels:
@@ -15,16 +15,16 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - 'https://en.wikipedia.org/wiki/Packet_loss'
-
-  - 'https://esj.com/articles/2012/12/13/understanding-packet-loss.aspx'
+  - '[en.wikipedia.org](https://en.wikipedia.org/wiki/Packet_loss){website}'
+  - '[esj.com](https://esj.com/articles/2012/12/13/understanding-packet-loss.aspx){website}'
 
 parent: what-are-latency-and-ping
-
 ---
 ## Content
+# How does packet loss happen?
 
 **Packet loss** is a phenomenon that happens when packets sent across a computer network fail to reach their intended destination.
 
@@ -47,6 +47,7 @@ _Packet loss_ is measured
 
 ???
 
+
 * as a percentage
 * in milliseconds
 * in seconds
@@ -54,7 +55,6 @@ _Packet loss_ is measured
 
 ---
 ## Footnotes
-
 [1:Device performance]
 Routers, Switches, Firewalls are typical devices whose **CPU** or **memory** can be maxed out.
 

@@ -1,4 +1,4 @@
-# Symbol Registry
+---
 author: alexjmackey
 
 levels:
@@ -9,16 +9,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){website}'
 
+inAlgoPool:
+
 ---
 ## Content
+# Symbol Registry
 
 As we saw earlier even if you create two symbols with the same description/key JavaScript considers them unique.
 
@@ -47,3 +49,4 @@ You can use the **Symbol.keyFor** method to pass in a symbol and return the desc
 ```
 Symbol.keyFor(sym1); //"Enki"
 ```
+

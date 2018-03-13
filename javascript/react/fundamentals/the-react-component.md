@@ -1,4 +1,4 @@
-# The **React** component
+---
 author: catalin
 
 levels:
@@ -15,17 +15,15 @@ type: normal
 
 category: must-know
 
-parent: the-react-element
 
 links:
 
+  - '[facebook.github.io](https://facebook.github.io/react/docs/components-and-props.html){website}'
 
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/docs/components-and-props.html){website}
-
-
+parent: the-react-element
 ---
 ## Content
+# The **React** component
 
 In **React** a `component` represents a fundamental *class* you can work with to build re-usable and independent `UI` blocks.
 
@@ -71,6 +69,7 @@ Complete the missing gaps such that a `component` is defined using `ES6` syntax:
 }
 ```
 
+
 * `class`
 * `extends`
 * `Component`
@@ -79,7 +78,6 @@ Complete the missing gaps such that a `component` is defined using `ES6` syntax:
 * `Enki`
 * `createClass`
 * `createElement`
-
 
 ---
 ## Revision
@@ -93,6 +91,7 @@ class MyComponent extends React.??? {
 }
 ```
 
+
 * `Component`
 * `render`
 * `return`
@@ -100,10 +99,8 @@ class MyComponent extends React.??? {
 * `createClass`
 * `createElement`
 
-
 ---
 ## Footnotes
-
 [1:ES6 alternative]
 
 If you don't use **React** with `ES6` syntax you can create components with the `React.createClass` helper:

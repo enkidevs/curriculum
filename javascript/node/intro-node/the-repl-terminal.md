@@ -1,4 +1,4 @@
-# The REPL Terminal
+---
 author: tommarshall
 
 levels:
@@ -9,14 +9,15 @@ type: normal
 
 category: must-know
 
-parent: installing-node-js
 
 links:
-- '[tutorialsteacher.com](http://www.tutorialsteacher.com/nodejs/nodejs-console-repl)'
 
+  - '[tutorialsteacher.com](http://www.tutorialsteacher.com/nodejs/nodejs-console-repl){website}'
 
+parent: installing-node-js
 ---
 ## Content
+# The REPL Terminal
 
 REPL stands for Read Eval Print Loop. It represents an environment similar to a Windows console or Linux shell, where commands can be entered and the system would respond with the appropriate output.
 
@@ -54,6 +55,7 @@ What does the following return?
 ```
 ???
 
+
 * `20`
 * `26`
 * `-10`
@@ -64,6 +66,8 @@ What does the following return?
 What does REPL stand for?
 ???
 
+
 * Read, Eval, Print, Loop
 * Read, Equal, Process, Loop
 * Reiterate, Else, Print, Loop
+

@@ -1,4 +1,4 @@
-# Name your callback functions to avoid 'callback hell'
+---
 author: Bruno
 
 levels:
@@ -9,12 +9,15 @@ type: normal
 
 category: best practice
 
+
 links:
 
   - '[callbackhell.com](http://callbackhell.com/){blog}'
 
+
 ---
 ## Content
+# Name your callback functions to avoid 'callback hell'
 
 Instead of:
 ```
@@ -66,5 +69,7 @@ function Hey_again() {
 setTimeout(Hey, 1000);
 ```
 
+
 * Option 2
 * Option 1
+

@@ -1,4 +1,4 @@
-# Equal width table cells
+---
 author: jordanfish
 
 levels:
@@ -13,12 +13,15 @@ type: normal
 
 category: hack
 
+
 links:
 
   - '[github.com](https://github.com/AllThingsSmitty/css-protips){website}'
 
+
 ---
 ## Content
+# Equal width table cells
 
 Use `table-layout: fixed` to keep a table's cells at equal width:
 ```
@@ -41,6 +44,8 @@ What does the following CSS property do? ???
 ```css
 table-layout: fixed;
 ```
+
 * Maintains table cells at an equal width. 
 * Stops the table size from being altered.
 * Stops the table layout from being altered.
+

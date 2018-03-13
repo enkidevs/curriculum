@@ -1,4 +1,4 @@
-# Destructuring (Part 1)
+---
 author: alexjmackey
 
 levels:
@@ -7,16 +7,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: feature
+
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){website}'
 
+inAlgoPool:
+
 ---
 ## Content
+# Destructuring (Part 1)
 
 Destructuring provides a succinct and flexible way to assign values from arrays or objects. 
 
@@ -57,3 +59,4 @@ var y= 2;
 [y, x] = [x, y];
 //x=2, y=1
 ```
+

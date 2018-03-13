@@ -1,4 +1,4 @@
-# Revokable Proxies and Usages
+---
 author: alexjmackey
 
 levels:
@@ -9,16 +9,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy/revocable){website}'
 
+inAlgoPool:
+
 ---
 ## Content
+# Revokable Proxies and Usages
 
 There is a special type of proxy called a **revokable proxy**. 
 
@@ -60,3 +62,4 @@ Some potential usages:
 * Validation & logging
 * Extending constructors
 * As a shim/fallback for older browsers
+

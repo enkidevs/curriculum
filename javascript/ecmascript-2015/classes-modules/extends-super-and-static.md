@@ -1,4 +1,4 @@
-# Extends, Super and Static
+---
 author: alexjmackey
 
 levels:
@@ -9,20 +9,20 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+
 links:
-  
+
   - '[MDN - Extends](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends){website}'
-  
   - '[MDN - Super](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super){website}'
-  
   - '[MDN - Static](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static){website}'
+
+inAlgoPool:
 
 ---
 ## Content
+# Extends, Super and Static
 
 The **extends** keyword allows you to inherit from another class and the **super** keyword allows us to access functionality on the parent. 
 
@@ -65,3 +65,4 @@ Note if you instantiate a class with static methods then you cannot call static 
 var a = new UtilityMethods();
 a.log(); //error
 ```
+

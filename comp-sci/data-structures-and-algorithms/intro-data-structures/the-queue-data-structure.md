@@ -1,4 +1,4 @@
-# The Queue Data Structure
+---
 author: mihaiberq
 
 levels:
@@ -9,9 +9,12 @@ type: normal
 
 category: must-know
 
+
+
 parent: the-stack-data-structure
 ---
 ## Content
+# The Queue Data Structure
 
 The *queue* data structure is a collection of objects which is optimized for adding new objects to the collection and removing the oldest object from the collection. That is, the first object in will be the first object out (*FIFO*).
 
@@ -48,6 +51,7 @@ Q.enqueue(4)
 Q.size()        ???
 Q.dequeue()     ???
 ```
+
 * `null`
 * `2`
 * `3`
@@ -63,7 +67,9 @@ The working principle behind a queue is
 
 ???
 
+
 * FIFO
 * LIFO
 * SASS
 * OOP
+

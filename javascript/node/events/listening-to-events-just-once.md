@@ -1,4 +1,4 @@
-# Listening to events just once
+---
 author: tommarshall
 
 levels:
@@ -15,13 +15,15 @@ type: normal
 
 category: must-know
 
-parent: consuming-events
 
 links:
-- '[Listening to events once](https://blog.yld.io/2015/12/15/using-an-event-emitter/#.WI4gL7aLQy4)'
 
+  - '[Listening to events once](https://blog.yld.io/2015/12/15/using-an-event-emitter/#.WI4gL7aLQy4){website}'
+
+parent: consuming-events
 ---
 ## Content
+# Listening to events just once
 
 If more than one uncaught exception was to be caught, the applications equivalent to a `closedown` method, where the application is shutdown, would be triggered more than once, consequently causing issues with the applications shutdown procedure.
 
@@ -58,6 +60,7 @@ test.once(‘uncaughtException’,
 Which method is used to add a one-time listener function to an event emitter?
 ???
 
+
 * `.once`
 * `.first`
 * `.instance`
@@ -73,6 +76,8 @@ test.???('uncaughtException',
     }
 ```
 
+
 * `once`
 * `on`
 * `catch`
+

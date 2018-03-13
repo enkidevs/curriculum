@@ -1,4 +1,4 @@
-# What is rebasing?
+---
 author: rosielowther
 
 levels:
@@ -11,12 +11,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
   - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Rebasing){website}'
 
+
 ---
 ## Content
+# What is rebasing?
 
 The `git rebase` command is a way to combine branches.
 
@@ -41,10 +44,11 @@ If you look at the history, it will seem like all the changes happened in series
 
 ` git rebase master`
 restores the current branch to the last ??? shared by the two branches, then ??? the changes made on top of master into the current branch.
-*commit
-*merges
-*checkout
-*deletes
+
+* commit
+* merges
+* checkout
+* deletes
 
 ---
 ## Revision
@@ -56,8 +60,10 @@ A way to combine two branches by reapplying the ahead commits of the current bra
 $ git checkout scrollFix 
 $ ??? ??? master
 ```
-*`git`
-*`rebase`
-*`rewind`
-*`redo`
-*`checkout`
+
+* `git`
+* `rebase`
+* `rewind`
+* `redo`
+* `checkout`
+

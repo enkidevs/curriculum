@@ -1,4 +1,4 @@
-# What is **JSX**?
+---
 author: catalin
 
 levels:
@@ -9,18 +9,16 @@ type: normal
 
 category: must-know
 
-parent: what-is-react
 
 links:
 
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/docs/introducing-jsx.html){website}
+  - '[facebook.github.io](https://facebook.github.io/react/docs/introducing-jsx.html){website}'
+  - '[medium.com](https://medium.com/javascript-scene/jsx-looks-like-an-abomination-1c1ec351a918#.amqkpfybp/){website}'
 
-  - >-
-    [medium.com](https://medium.com/javascript-scene/jsx-looks-like-an-abomination-1c1ec351a918#.amqkpfybp/){website}
-
+parent: what-is-react
 ---
 ## Content
+# What is **JSX**?
 
 **JSX** is syntactic sugar that brings an `XML`-like syntax to **JavaScript**.
 
@@ -60,6 +58,7 @@ When rendered, this element will display `"Hey there"` as a `h2`.
 
 
 **React** doesn't require **JSX** usage, but its usage is highly encouraged as well as `Babel` compiling.
+
 ---
 ## Practice
 
@@ -73,6 +72,7 @@ const el = <p><3 JSX</p>
 const el = React.createElement(???,
  ???, ???)
 ```
+
 
 * `'p'`
 * `null`
@@ -88,7 +88,9 @@ const el = React.createElement(???,
 **JSX** expressions after compilation are transformed into
 ??? .
 
+
 * `JavaScript` objects
 * `HTML` elements
 * `JSX` entities
 * `XML` elements
+

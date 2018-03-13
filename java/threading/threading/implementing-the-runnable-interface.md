@@ -1,4 +1,4 @@
-# Implementing the Runnable Interface
+---
 author: Nick Daminov
 
 levels:
@@ -9,14 +9,17 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - '[More on Runnable Interface](https://docs.oracle.com/javase/7/docs/api/java/lang/Runnable.html)'
-  - '[More on the Thread Class](https://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html)'
-  - '[More on Overriding `.start()`](http://www.javamadesoeasy.com/2015/03/what-will-happen-if-we-override-start.html)'
+  - '[More on Runnable Interface](https://docs.oracle.com/javase/7/docs/api/java/lang/Runnable.html){website}'
+  - '[More on the Thread Class](https://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html){website}'
+  - '[More on Overriding `.start()`](http://www.javamadesoeasy.com/2015/03/what-will-happen-if-we-override-start.html){website}'
+
 
 ---
 ## Content
+# Implementing the Runnable Interface
 
 One way of creating a thread is to implement a `Runnable` interface which implies that you have to implement `public void run()` function. As we are implementing an interface, we create a `runnable` object and not a `thread` itself. Meaning that the `counter` object in the following example is not a `thread` and doesn't implement a `start()`. Of course we can call `run()` explicitly on two or more instances of the `CustomRunnable` class but then they will not be concurrent and will run in order specified.     
 
@@ -97,6 +100,7 @@ What is the best practice for `Overriding` the `start()` function?
 
 ???
 
+
 * `run()`
 * `start()`
 * No
@@ -113,5 +117,7 @@ When implementing a `runnable` interface do we create a thread?
 
 ???
 
+
 * No, we create a runnable object that has to be passed to an instance of a Thread
 * Yes, we can call `start()` on it straight away as it is a runnable thread
+

@@ -1,4 +1,4 @@
-# The import statement
+---
 author: SebaRaba
 
 levels:
@@ -9,12 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[More about import](https://www.digitalocean.com/community/tutorials/how-to-import-modules-in-python-3)'
+  - '[More about import](https://www.digitalocean.com/community/tutorials/how-to-import-modules-in-python-3){website}'
+
 
 ---
 ## Content
+# The import statement
 
 You can use any Python source file as a **module** by executing an `import` statement in some *other Python source file*.
 
@@ -71,6 +74,7 @@ counter.increment() # 2
 
 ```
 
+
 * `def`
 * `increment():`
 * `import`
@@ -104,6 +108,7 @@ subtractor.???(10, 2)
 # 10 - 2 is: 8
 ```
 
+
 * `import`
 * `subtractor`
 * `subtract`
@@ -111,9 +116,9 @@ subtractor.???(10, 2)
 * `subtractor()`
 * `print`
 * `subtract()`
+
 ---
 ## Footnotes
-
 [1:adder]
 Consider the previously defined module in `added.py`:
 ```py

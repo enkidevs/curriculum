@@ -1,4 +1,4 @@
-# Images
+---
 author: mihaiberq
 
 levels:
@@ -11,8 +11,12 @@ category: must-know
 
 inAlgoPool: false
 
+
+
+
 ---
 ## Content
+# Images
 
 **Images** are *self-enclosing elements*, which display external pictures.They are delimited by the `<img/>` tag.
 
@@ -41,6 +45,7 @@ Another useful attribute is `alt`, which fills the image with a placeholder in c
 <img src="html/logo.jpg"
   alt="This should be the logo" />
 ```
+
 ---
 ## Revision
 
@@ -49,7 +54,9 @@ Complete the following snippet such that it contains valid code:
 <img ???="example.com/path/dog.jpg"/>
 ```
 
+
 * src
 * href
 * link
 * source
+

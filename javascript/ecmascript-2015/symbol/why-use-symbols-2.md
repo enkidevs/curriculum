@@ -1,4 +1,4 @@
-# Why use Symbols 2
+---
 author: alexjmackey
 
 levels:
@@ -9,16 +9,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){website}'
-  
+
+inAlgoPool:
+
 ---
 ## Content
+# Why use Symbols 2
 
 Probably the primary use of symbols is to introduce changes into EcmaScript. We can this in action with *iterators*.
 
@@ -43,3 +45,4 @@ Symbol.keyFor(Symbol.iterator);
 ```
 
 Symbols can also implement a kind of limited (they are still accessible via other means) privacy – let's discuss this next.
+

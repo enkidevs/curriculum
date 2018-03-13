@@ -1,4 +1,4 @@
-# Distinction between stack and heap memory
+---
 author: adamMontgomerie
 
 levels:
@@ -21,13 +21,15 @@ tags:
 
   - memory
 
+
 links:
 
-  - >-
-    [javarevisited.blogspot.jp](http://javarevisited.blogspot.jp/2013/01/difference-between-stack-and-heap-java.html){website}
+  - '[javarevisited.blogspot.jp](http://javarevisited.blogspot.jp/2013/01/difference-between-stack-and-heap-java.html){website}'
+
 
 ---
 ## Content
+# Distinction between stack and heap memory
 
 Stack and heap memory are both types of memory, but have different purposes and uses within a program:
 - Stack memory is used to store local variables and method calls, while heap memory is used to store objects.
@@ -36,3 +38,4 @@ Stack and heap memory are both types of memory, but have different purposes and 
 
 - A `java.lang.
 StackOverFlowError` will be thrown if there is no available stack memory left. `java.lang.OutOfMemoryError: Java Heap Space` will be thrown if there is a lack of heap space.
+

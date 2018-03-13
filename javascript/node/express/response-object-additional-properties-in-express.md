@@ -1,4 +1,4 @@
-# `response` object additional properties in **Express**
+---
 author: catalin
 
 levels:
@@ -13,14 +13,15 @@ type: normal
 
 category: must-know
 
-parent: easy-way-to-deliver-html-pages-with-express
 
 links:
 
   - '[node-tricks.com](http://node-tricks.com/response-object/){website}'
 
+parent: easy-way-to-deliver-html-pages-with-express
 ---
 ## Content
+# `response` object additional properties in **Express**
 
 **Express** framework adds many useful properties or methods to the `response` object.
  This object is usually passed to a callback (therefore it can take any name) and starts its life as an instance of `http.ServerObject`, a core **Node** object.
@@ -65,12 +66,14 @@ var myJson; // equal to json we want to send
 res.???(???, ???);
 ```
 
-*`json`
-*`status`
-*`myJson`
-*`send`
-*`format`
-*`render`
-*`cookie`
-*`toJSON`
-*`sendJSON`
+
+* `json`
+* `status`
+* `myJson`
+* `send`
+* `format`
+* `render`
+* `cookie`
+* `toJSON`
+* `sendJSON`
+

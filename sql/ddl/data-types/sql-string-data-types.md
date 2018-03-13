@@ -1,4 +1,4 @@
-# SQL String Data Types
+---
 author: mihaiberq
 
 levels:
@@ -12,11 +12,17 @@ type: normal
 category: must-know
 
 tags:
+
   - introduction
+
   - workout
+
+
+
 
 ---
 ## Content
+# SQL String Data Types
 
 In terms of *string data types*, there are less options to be used. However, there are no discrepancies regarding naming conventions between PostgreSQL, MySQL and MSSQL. The three main types are:
 - `char(n)`
@@ -52,6 +58,7 @@ CREATE ??? language(
   iso_code ???
 );
 ```
+
 * `TABLE`
 * `varchar(70)`
 * `char(2)`
@@ -65,7 +72,9 @@ Which of the following string data types are padded to match its maximum size?
 
 ???
 
+
 * `char(size)`
 * `varchar(size)`
 * `text(size)`
 * `text`
+

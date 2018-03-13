@@ -1,4 +1,4 @@
-# Quick way to format integers with a fixed number of digits.
+---
 author: Bruno
 
 levels:
@@ -9,12 +9,15 @@ type: normal
 
 category: tip
 
+
 links:
 
   - '[stackoverflow](http://stackoverflow.com/questions/8043026){discussion}'
 
+
 ---
 ## Content
+# Quick way to format integers with a fixed number of digits.
 
 If we are required to format a number with a particular amount of digits, for example:
 
@@ -45,10 +48,11 @@ Outputs ??? , while
 
 outputs ??? .
 
-*412
-*throws an error
-*10000
-*004
+
+* 412
+* throws an error
+* 10000
+* 004
 
 ---
 ## Revision
@@ -57,6 +61,8 @@ outputs ??? .
 
  outputs ???
 
-*123
-*0123
-*0001
+
+* 123
+* 0123
+* 0001
+

@@ -1,4 +1,4 @@
-# `copy` vs `deepcopy`
+---
 author: mihaiberq
 
 levels:
@@ -9,8 +9,12 @@ type: normal
 
 category: must-know
 
+
+
+
 ---
 ## Content
+# `copy` vs `deepcopy`
 
 Extending the example in the previous insight, we could end up in a situation in which we need to copy a mutable type (list, dictionary) and work on the copy, without modifying the initial object.
 
@@ -95,6 +99,7 @@ b[1].append(3)
 print(a)
 ???
 ```
+
 * `[1, []]`
 * `[1, 3]`
 * `[1, [3]]`
@@ -107,7 +112,9 @@ A `deepcopy` means
 
 ???
 
+
 * making a new copy in memory of every layer of the data structure
 * making a copy in memory of the first layer of the data structure
 * making a copy of the data structure's reference
 * allocating some memory to a data structure
+

@@ -1,16 +1,22 @@
-# The `:in-range` and `:out-of-range` Pseudo-Classes
+---
 author: mihaiberq
 
 levels:
-    - basic
-    - medium
+
+  - basic
+
+  - medium
 
 type: normal
 
 category: feature
 
+
+
+
 ---
 ## Content
+# The `:in-range` and `:out-of-range` Pseudo-Classes
 
 Another set of pseudo-classes that can be applied only to elements that have (and can take) a range limitation, such as `<input>`s, are `:in-range` and `:out-of-range`.
 
@@ -41,6 +47,7 @@ For either `:in-range` and `:out-of-range` pseudo-classes to match, the element 
 
 ???
 
+
 * `min`, `max` or both attributes
 * `range` attribute
 * the type of input
@@ -52,6 +59,8 @@ For either `:in-range` and `:out-of-range` pseudo-classes to match, the element 
 
 ???
 
+
 * `min`, `max` or both attributes
 * `range` attribute
 * the type of input
+

@@ -1,4 +1,4 @@
-# Allow an element to go fullscreen
+---
 author: rosielowther
 
 levels:
@@ -13,12 +13,12 @@ type: normal
 
 category: feature
 
-notes: >-
-  Do I need to give examples of the inconsistencies? The info on this seems
-  pretty vague and it seems like people are mostly using a github work-around.
 
+
+notes: Do I need to give examples of the inconsistencies? The info on this seems pretty vague and it seems like people are mostly using a github work-around.
 ---
 ## Content
+# Allow an element to go fullscreen
 
 The HTML5 Fullscreen API allows an element to be viewed filling the whole screen and hiding everything else. This can be used for example to play a video without distraction. 
 
@@ -38,10 +38,11 @@ How can you view an element in fullscreen with the **HTML Fullscreen API** ?
 
 ???
 
-*`requestFullscreen()`
-*`viewFullScreen()`
-*`viewScreen()`
-*`applyFullscreen()`
+
+* `requestFullscreen()`
+* `viewFullScreen()`
+* `viewScreen()`
+* `applyFullscreen()`
 
 ---
 ## Revision
@@ -50,8 +51,10 @@ How can you view an element in fullscreen with the **HTML Fullscreen API** ?
 
 ???
 
-*`requestFullscreen()`
-*`requestFullScreen()`
-*`fullScreen()`
-*`viewScreen()`
-*`applyFullscreen()`
+
+* `requestFullscreen()`
+* `requestFullScreen()`
+* `fullScreen()`
+* `viewScreen()`
+* `applyFullscreen()`
+

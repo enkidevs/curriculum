@@ -1,4 +1,4 @@
-# `try-catch` only for **sync** code
+---
 author: catalin
 
 levels:
@@ -13,15 +13,16 @@ type: normal
 
 category: best practice
 
+
 links:
 
   - '[nodejs.org](https://nodejs.org/api/errors.html){website}'
+  - '[blog.risingstack.com](https://blog.risingstack.com/node-js-best-practices/){website}'
 
-  - >-
-    [blog.risingstack.com](https://blog.risingstack.com/node-js-best-practices/){website}
 
 ---
 ## Content
+# `try-catch` only for **sync** code
 
 All *JavaScript* errors are handled as exceptions that will **instantly** generate and `throw` and error. To handle them, `try-catch` constructor is used.
 
@@ -80,6 +81,7 @@ try {
 
 ```
 
+
 * Option C
 * Option A
 * Option B
@@ -91,5 +93,7 @@ How must errors happen as to handle them with a `try-catch` block?
 
 ???
 
+
 * `synchronously`
 * `asynchronously`
+

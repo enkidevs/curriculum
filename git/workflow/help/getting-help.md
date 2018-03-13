@@ -1,4 +1,4 @@
-# Getting help
+---
 author: catalin
 
 levels:
@@ -7,16 +7,19 @@ levels:
 
 type: normal
 
+category: how to
+
 inAlgoPool: false
 
-category: how to
 
 links:
 
   - '[irc.freenode.net](irc.freenode.net){website}'
 
+
 ---
 ## Content
+# Getting help
 
 If ever in need, you can easily access the manual pages (**manpage**) of **Git** to get the documentation of specific commands.
 
@@ -72,3 +75,4 @@ $ git clone ???
 * `help`
 * `--man`
 * `--info`
+

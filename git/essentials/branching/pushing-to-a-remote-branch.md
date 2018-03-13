@@ -1,4 +1,4 @@
-# Pushing to a remote branch
+---
 author: rosielowther
 
 levels:
@@ -9,13 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}'
+
 
 ---
 ## Content
+# Pushing to a remote branch
 
 If you want to share a branch, you have to push it to the remote. 
 
@@ -35,6 +37,7 @@ Share a branch `test` with the remote `origin` :
 ```
 $ git ??? ??? ???
 ```
+
 * `push`
 * `origin`
 * `test`
@@ -50,6 +53,8 @@ Push the branch `test` to the remote under the name `fix` :
 $ git push origin
          ???:???
 ```
+
 * `test`
 * `fix`
 * `rename`
+

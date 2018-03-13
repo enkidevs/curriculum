@@ -1,4 +1,4 @@
-# Hyperlinks
+---
 author: mihaiberq
 
 levels:
@@ -11,8 +11,12 @@ category: must-know
 
 inAlgoPool: false
 
+
+
+
 ---
 ## Content
+# Hyperlinks
 
 **Hyperlinks** represent a way to tell the browser to move up or down the page (think of content summaries) or to load other HTML documents.
 
@@ -40,17 +44,21 @@ Complete the following snippet in order for it to be valid:
   My website
 </a>
 ```
+
 * `a`
 * `href`
 * `style`
 * `p`
 * `link`
+
 ---
 ## Revision
 
 The tag denoting a hyperlink is ???.
 
+
 * <a>
 * <p>
 * <body>
 * <div>
+

@@ -1,4 +1,4 @@
-# Change the style of the decoration with `text-decoration-style`
+---
 author: Mathieu
 
 levels:
@@ -13,17 +13,17 @@ type: normal
 
 category: how to
 
-notes: 'https://css-tricks.com/more-control-over-text-decoration/'
 
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-style){website}
-
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-style){website}'
   - '[caniuse.com](http://caniuse.com/#feat=text-decoration){website}'
+
+notes: 'https://css-tricks.com/more-control-over-text-decoration/'
 
 ---
 ## Content
+# Change the style of the decoration with `text-decoration-style`
 
 ```css
 a {
@@ -50,8 +50,10 @@ This is how they are supposed to look:
 ## Revision
 
 Which of the following is *not* a `text-decoration-style` property? ???
+
 * curved
 * solid
 * double
 * wavy
 * dashed
+

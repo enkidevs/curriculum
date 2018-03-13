@@ -1,4 +1,4 @@
-# Drawing with HTML5 `Canvas` API
+---
 author: daniel_adelberg
 
 levels:
@@ -15,15 +15,15 @@ tags:
 
   - canvas
 
-notes: subtopic=browser-APIs
 
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial){website}'
 
+notes: subtopic=browser-APIs
 ---
 ## Content
+# Drawing with HTML5 `Canvas` API
 
 With the `Canvas` object it is possible to draw simple shapes and graphics directly in the browser. 
 
@@ -60,13 +60,14 @@ var context = canvas.getContext("2d");
 ???.fillStyle = "???";
 context.???(20,20,100,200)
 ```
-*`context`
-*`blue`
-*`fillRect`
-*`canvas`
-*`rectangle`
-*`drawRectangle`
-*`document`
+
+* `context`
+* `blue`
+* `fillRect`
+* `canvas`
+* `rectangle`
+* `drawRectangle`
+* `document`
 
 ---
 ## Revision
@@ -82,10 +83,12 @@ var context = canvas.getContext("2d");
 ???.fillStyle = "???";
 context.???(20,20,100,200)
 ```
-*`context`
-*`blue`
-*`fillRect`
-*`canvas`
-*`rectangle`
-*`drawRectangle`
-*`document`
+
+* `context`
+* `blue`
+* `fillRect`
+* `canvas`
+* `rectangle`
+* `drawRectangle`
+* `document`
+

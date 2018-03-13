@@ -1,4 +1,4 @@
-# Specify a single child
+---
 author: catalin
 
 levels:
@@ -13,15 +13,15 @@ type: normal
 
 category: how to
 
-parent: custom-proptype-s-to-be-required
 
 links:
 
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/docs/reusable-components.html#single-child){website}
+  - '[facebook.github.io](https://facebook.github.io/react/docs/reusable-components.html#single-child){website}'
 
+parent: custom-proptype-s-to-be-required
 ---
 ## Content
+# Specify a single child
 
 Making use of the `propTypes` you can enforce a *warning* fired when you pass more than one child to a component as children.
 
@@ -60,6 +60,7 @@ What validator must be used to make sure there is exactly one child passed to `c
 children: React.PropTypes.???.???,
 ```
 
+
 * `element`
 * `isRequired`
 * `node`
@@ -77,6 +78,7 @@ What validator must be used to make sure there is exactly one child passed to `c
 children: React.PropTypes.???.???,
 ```
 
+
 * `element`
 * `isRequired`
 * `node`
@@ -84,3 +86,4 @@ children: React.PropTypes.???.???,
 * `mandatory`
 * `one`
 * `any`
+

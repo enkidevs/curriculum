@@ -1,4 +1,4 @@
-# Set (data structure)
+---
 author: alexjmackey
 
 levels:
@@ -7,16 +7,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Set){website}'
 
+inAlgoPool:
+
 ---
 ## Content
+# Set (data structure)
 
 Set is a new data structure in ES6 that will only store unique values.
  
@@ -35,3 +37,4 @@ mySet.has(1); //true
 ```
 
 Note that iterating through a set will return objects in their insertion order.
+

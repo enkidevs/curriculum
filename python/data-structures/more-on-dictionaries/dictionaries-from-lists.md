@@ -1,4 +1,4 @@
-# Convert lists to dictionaries
+---
 author: SebaRaba
 
 levels:
@@ -9,12 +9,15 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - '[More about creating dictionaries](https://developmentality.wordpress.com/2012/03/30/three-ways-of-creating-dictionaries-in-python/)'
+  - '[More about creating dictionaries](https://developmentality.wordpress.com/2012/03/30/three-ways-of-creating-dictionaries-in-python/){website}'
+
 
 ---
 ## Content
+# Convert lists to dictionaries
 
 Usauly, two lists can be converted into a **dictionary**.
 
@@ -85,6 +88,7 @@ print(new)
 ```
 
 
+
 * `dict`
 * `zip`
 * `pop`
@@ -111,6 +115,7 @@ print(C)
 # {'USA': '28', 'UK': '29', 'SP': '30'}
 ```
 
+
 * `dict`
 * `zip`
 * `A`
@@ -119,3 +124,4 @@ print(C)
 * `pop`
 * `clear`
 * `list`
+

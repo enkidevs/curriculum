@@ -1,4 +1,4 @@
-# Geolocation
+---
 author: tommarshall
 
 levels:
@@ -13,12 +13,15 @@ type: normal
 
 category: feature
 
+
 links:
 
   - '[www.sitepoint.com](http://www.sitepoint.com/html5-geolocation/){website}'
 
+
 ---
 ## Content
+# Geolocation
 
 The Geolocation API provides location information such as the latitude and longitude coordinates. 
 
@@ -59,9 +62,11 @@ Complete the following JS code snippet to allow use of the Geolocation API allow
 ???.geolocation.???(
 ```
 
+
 * `navigator`
 * `watchPosition`
 * `device`
 * `permission`
 * `position`
 * `detect`
+

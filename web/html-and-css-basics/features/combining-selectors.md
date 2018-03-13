@@ -1,4 +1,4 @@
-# Combining selectors
+---
 author: Billiexu
 
 levels:
@@ -11,15 +11,17 @@ category: how to
 
 tags:
 
-  - 'webdevelopment '
+  - webdevelopment 
+
 
 links:
 
-  - >-
-    [code.tutsplus.com](http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048){website}
+  - '[code.tutsplus.com](http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048){website}'
+
 
 ---
 ## Content
+# Combining selectors
 
 Two selectors can be combined to refer to a certain element. The most common ones are '+' and '~'.  
 
@@ -65,8 +67,9 @@ Both of the selectors are used in this example:
 
 Which of the following two selectors is an adjacent selector? ???
 
-*`+` 
-*`~`
+
+* `+` 
+* `~`
 
 ---
 ## Revision
@@ -78,6 +81,8 @@ ul + h {
 }
 ```
 ???
+
 * Only the first header after each unordered list will use the Arial Narrow font.
 * The header before and header after each unordered list will use the Arial Narrow font.
 * All headers will use the Arial Narrow font.
+

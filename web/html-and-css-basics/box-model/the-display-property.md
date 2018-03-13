@@ -1,4 +1,4 @@
-# The `display` Property
+---
 author: mihaiberq
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# The `display` Property
 
 Alongside `box-sizing`, another important property that sets how much space an element should occupy is `display`.
 
@@ -34,10 +38,11 @@ The `none` value of `display` is also worth mentioning. In this case, the browse
 Which of the following elements does not accept top and bottom margin?
 
 ???
-*Inline
-*Block
-*Inline-block
-*Those that have `display:none`
+
+* Inline
+* Block
+* Inline-block
+* Those that have `display:none`
 
 ---
 ## Revision
@@ -45,6 +50,8 @@ Which of the following elements does not accept top and bottom margin?
 How does `display:none` affect the element's descendants?
 
 ???
-*They won't be displayed either.
-*It does not affect them.
-*They will be invisible, but clickable.
+
+* They won't be displayed either.
+* It does not affect them.
+* They will be invisible, but clickable.
+

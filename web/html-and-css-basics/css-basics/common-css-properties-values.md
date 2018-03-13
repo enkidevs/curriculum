@@ -1,4 +1,4 @@
-# Common CSS Properties Values
+---
 author: mihaiberq
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: pattern
+
 inAlgoPool: false
 
-category: pattern
+
+
 
 ---
 ## Content
+# Common CSS Properties Values
 
 We have talked about *selectors* and *specificity* using almost the same CSS properties in every insight: `color`, `background-color`,`font-size` or `font-weight`. Now of course there are a lot of other existing properties, and, more importantly, there are many ways to declare them.
 
@@ -62,13 +66,16 @@ p {
   font-size: 16px;
 }
 ```
+
 ---
 ## Revision
 
 If *purple* is the combination of *red* and *blue*, which of the following is not representing purple?
 
 ???
-*#00ffff
-*#ff00ff
-*rgb(255,0,255)
-*purple
+
+* #00ffff
+* #ff00ff
+* rgb(255,0,255)
+* purple
+

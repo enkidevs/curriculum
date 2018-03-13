@@ -1,4 +1,4 @@
-# Boolean Operators
+---
 author: tommarshall
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# Boolean Operators
 
 Python uses two keywords to allow complex boolean conditions to be created, `and` and `or`.
 
@@ -46,6 +50,7 @@ str = 'python'
 if x == 6 ??? str == 'python':
     print ('true')
 ```
+
 * `and`
 * `or`
 * `both`
@@ -63,7 +68,9 @@ str = 'python'
 if x == 6 ??? str == 'python':
     print ('true')
 ```
+
 * `or`
 * `and`
 * `xor`
 * `either`
+

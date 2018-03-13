@@ -1,4 +1,4 @@
-# Connection strings
+---
 author: SebaRaba
 
 levels:
@@ -14,15 +14,20 @@ category: must-know
 inAlgoPool: false
 
 tags:
+
   - introduction
+
   - workout
+
 
 links:
 
-  - '[More on connection strings](http://www.dofactory.com/reference/connection-strings)'
+  - '[More on connection strings](http://www.dofactory.com/reference/connection-strings){website}'
+
 
 ---
 ## Content
+# Connection strings
 
 *Connection strings* are URLs that point at a database hosted on a server. They use the Uniform Resource Indicator standard to structure the different parts. Abstractly, they look like this:
 
@@ -47,8 +52,6 @@ postgres://ashketchum:iwannabetheverybest
 ?ssl=true
 ```
 
-
-
 ---
 ## Practice
 
@@ -61,6 +64,7 @@ Connect to a different `pokemon` database, this one hosted on MySQL. Use the use
 :???
 /???
 ```
+
 
 * `mysql`
 * `gary`
@@ -87,6 +91,7 @@ Connect to a `puppies` database, this one hosted on Postgres. Use the username `
 :???/???
 ```
 
+
 * `postgres`
 * `spot`
 * `supersecret`
@@ -99,3 +104,4 @@ Connect to a `puppies` database, this one hosted on Postgres. Use the username `
 * `mysql`
 * `?ssl=true`
 * `mssql`
+

@@ -1,4 +1,4 @@
-# Using `super` to access overriden methods
+---
 author: adamMontgomerie
 
 levels:
@@ -17,13 +17,15 @@ tags:
 
   - inheritance
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/super.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/super.html){website}'
+
 
 ---
 ## Content
+# Using `super` to access overriden methods
 
 When a subclass declares a method with a signature that is the same as a method in its superclass, that superclass method is overridden.
 
@@ -52,3 +54,4 @@ public class SubClass extends SuperClass {
 }
 ```
 Calling `super.method()` allows us to use `SuperClass`' `method()`.
+

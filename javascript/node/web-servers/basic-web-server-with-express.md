@@ -1,4 +1,4 @@
-# Basic web server with Express
+---
 author: catalin
 
 levels:
@@ -9,14 +9,15 @@ type: normal
 
 category: how to
 
-notes: This can used as the first insight on Express subtopic
 
 links:
 
   - '[expressjs.com](http://expressjs.com/en/starter/installing.html){website}'
 
+notes: This can used as the first insight on Express subtopic
 ---
 ## Content
+# Basic web server with Express
 
 Express JavaScript is a tiny and flexible Node.js framework, providing robust features for **middleware implementation**,  **routing** and **dynamic rendering** of HTML pages.
 
@@ -52,12 +53,13 @@ app.???('/',
 });
 
 ```
-*`get`
-*`request`
-*`server`
-*`run`
-*`reg`
-*`express`
+
+* `get`
+* `request`
+* `server`
+* `run`
+* `reg`
+* `express`
 
 ---
 ## Revision
@@ -68,8 +70,10 @@ var express = require('???');
 var app = ???;
 ```
 
-*`express`
-*`express()`
-*`get`
-*`use`
-*`request`
+
+* `express`
+* `express()`
+* `get`
+* `use`
+* `request`
+

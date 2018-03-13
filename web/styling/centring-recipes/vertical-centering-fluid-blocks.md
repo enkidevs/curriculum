@@ -1,4 +1,4 @@
-# Vertical centering fluid blocks
+---
 author: Mathieu
 
 levels:
@@ -13,15 +13,17 @@ type: normal
 
 category: pattern
 
-notes: >-
-  http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/
 
 links:
 
   - '[davidwalsh.name](http://davidwalsh.name/css-vertical-center){website}'
 
+notes: >-
+  http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/
+
 ---
 ## Content
+# Vertical centering fluid blocks
 
 To vertically center blocks of unknown height:
 
@@ -53,7 +55,9 @@ What does the following CSS code snippet do? ???
 }
 ```
 
+
 * Vertically centres a fluid block.
 * Vertically flips a fluid block.
 * Sets a blocks top side to be 50% of the way up the document.
 * Sets the blocks position to absolute and flips it vertically.
+

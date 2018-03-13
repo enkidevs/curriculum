@@ -1,4 +1,4 @@
-# HTTPS
+---
 author: catalin
 
 levels:
@@ -11,14 +11,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - 'http://robertheaton.com/2014/03/27/how-does-https-actually-work/'
+  - '[robertheaton.com](http://robertheaton.com/2014/03/27/how-does-https-actually-work/){website}'
 
 parent: verbs-in-http
-
 ---
 ## Content
+# HTTPS
 
 `HTTPS`, short for *HyperText Transport Protocol Secure*, is a protocol for **secure communication** over a computer network.
 
@@ -52,6 +53,7 @@ What type of key is used for encryption and decryption over **HTTPS** ?
 
 ???
 
+
 * symmetric
 * asymmetric
 * private
@@ -66,6 +68,7 @@ What protocol is used by **HTTPS**, but not **HTTP** ?
 
 ???
 
+
 * `TLS`
 * `SMTP`
 * `IMAP`
@@ -74,7 +77,6 @@ What protocol is used by **HTTPS**, but not **HTTP** ?
 
 ---
 ## Footnotes
-
 [1:TLS/SSL]
 The **Transport Layer Security** (TLS), and its out-of-date predecessor **Secure Sockets Layer** (SSL), are cryptographic protocols that provide communication security over a computer network.
 

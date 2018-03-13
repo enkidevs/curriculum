@@ -1,4 +1,4 @@
-# Spread (Part 1)
+---
 author: alexjmackey
 
 levels:
@@ -7,16 +7,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Spread_operator){website}'
 
+inAlgoPool:
+
 ---
 ## Content
+# Spread (Part 1)
 
 The spread operator automatically assigns (or spreads out) the contents of an expression to multiple arguments, elements or variables which can save you some tedious assignment code. 
 
@@ -51,3 +53,4 @@ someFunc(...test, ...test);
 ```
 
 This saves some tedious and potentially error prone assignment code.
+

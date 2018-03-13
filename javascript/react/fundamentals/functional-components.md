@@ -1,4 +1,4 @@
-# Functional components
+---
 author: catalin
 
 levels:
@@ -15,16 +15,15 @@ type: normal
 
 category: must-know
 
-parent: what-is-state
 
 links:
 
+  - '[facebook.github.io](https://facebook.github.io/react/docs/components-and-props.html){website}'
 
- - >-
-   [facebook.github.io](https://facebook.github.io/react/docs/components-and-props.html){website}
-
+parent: what-is-state
 ---
 ## Content
+# Functional components
 
 As stated before, **React** components behave just like functions, taking `props` as input and returning **React elements**. 
 
@@ -69,6 +68,7 @@ Second:
 }
 ```
 
+
 * `function`
 * `props`
 * `return`
@@ -88,7 +88,9 @@ When can a component be written as a `function`?
 
 When it has ???.
 
+
 * no `state` and **lifecycle methods**
 * no `state`
 * no **lifecycle methods**
 * no `props`
+

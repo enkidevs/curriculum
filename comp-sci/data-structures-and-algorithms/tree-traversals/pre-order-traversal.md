@@ -1,20 +1,26 @@
-# Pre-order Traversal
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
+
 parent: depth-first-traversal
 ---
 ## Content
+# Pre-order Traversal
 
 **Pre-order traversal** is a type of *depth-first traversal* in which the visiting order is: root, left child, right child. It only makes sense for **binary trees**.
 
@@ -58,6 +64,7 @@ Chose the sequence that simulates a pre-order traversal of the tree:
 D     F    E
 ```
 ???
+
 * `A,B,D,F,C,E`
 * `D,B,F,A,C,E`
 * `D,F,B,E,C,A`
@@ -75,7 +82,9 @@ Chose the sequence that simulates a pre-order traversal of the tree:
 D     F     E
 ```
 ???
+
 * `A,B,D,F,C,E`
 * `D,B,F,A,C,E`
 * `D,F,B,E,C,A`
 * `A,B,C,D,F,E`
+

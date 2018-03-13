@@ -1,4 +1,4 @@
-# Checkout the previous branch
+---
 author: rosielowther
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [github.com](https://github.com/jbranchaud/til/blob/master/git/checkout-previous-branch.md){website}
+  - '[github.com](https://github.com/jbranchaud/til/blob/master/git/checkout-previous-branch.md){website}'
+
 
 ---
 ## Content
+# Checkout the previous branch
 
 There is a shorthand to checkout the previous branch:
 ```
@@ -40,6 +42,8 @@ What does the next command do?
 $ git checkout -
 ```
 ???
-*Switches to the last branch.
-*Deletes the current branch.
-*Deletes the last branch.
+
+* Switches to the last branch.
+* Deletes the current branch.
+* Deletes the last branch.
+

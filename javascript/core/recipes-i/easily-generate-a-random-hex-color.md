@@ -1,4 +1,4 @@
-# Easily generate a random `HEX` color
+---
 author: catalin
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: tip
 
+
 links:
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/1484506/random-color-generator-in-javascript){website}
+  - '[stackoverflow.com](http://stackoverflow.com/questions/1484506/random-color-generator-in-javascript){website}'
+
 
 ---
 ## Content
+# Easily generate a random `HEX` color
 
 You can easily generate a string containing a random `HEX` color :
 ```javascript
@@ -40,6 +42,7 @@ Create a random `hex` colour:
             .???(16)
             .substr(-6);
 ```
+
 
 * `#`
 * `random`
@@ -62,9 +65,11 @@ Create a random `hex` color:
          .substr(-6);
 ```
 
-*`Math`
-*`random`
-*`hex`
-*`Number`
-*`int`
-*`Hex`
+
+* `Math`
+* `random`
+* `hex`
+* `Number`
+* `int`
+* `Hex`
+

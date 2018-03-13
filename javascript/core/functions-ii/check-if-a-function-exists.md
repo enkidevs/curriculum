@@ -1,4 +1,4 @@
-# Check if a function exists
+---
 author: catalin
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/1042138/javascript-check-if-function-exists){website}
+  - '[stackoverflow.com](http://stackoverflow.com/questions/1042138/javascript-check-if-function-exists){website}'
+
 
 ---
 ## Content
+# Check if a function exists
 
 There are certain scenarios where scripts are shared between different parts of a website. This can result in calling functions that *do not exist*. 
 
@@ -37,6 +39,7 @@ if (typeof myFunction === "function") {
 
 When can a scenario occur where calling functions do not exist? ???
 
+
 * When scripts are shared between different parts of a website.
 * When functions haven't been declared properly.
 * When scripts haven't been passed or imported properly.
@@ -50,8 +53,10 @@ if(??? myFunction === ???){
   myFunction();
 }
 ```
-*typeof
-*”function”
-*function
-*!
-*undefined
+
+* typeof
+* ”function”
+* function
+* !
+* undefined
+

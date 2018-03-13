@@ -1,4 +1,4 @@
-# Add Rule
+---
 author: SebaRaba
 
 levels:
@@ -17,16 +17,21 @@ category: must-know
 
 inAlgoPool: false
 
+tags:
+
+  - workout
+
+  - deep
+
+
 links:
 
-  - '[More on CREATE RULE](https://www.postgresql.org/docs/9.3/static/sql-createrule.html)'
+  - '[More on CREATE RULE](https://www.postgresql.org/docs/9.3/static/sql-createrule.html){website}'
 
-tags:
-  - workout
-  - deep
 
 ---
 ## Content
+# Add Rule
 
 We can also add rules to specific clauses. `CREATE RULE` statement enables us to do it. We will use an example in order to make it easier to understand. What we will do is create a new rule such that each time we `SELECT` something from table1, it will select all from table2 as well.
 ```
@@ -60,9 +65,11 @@ DO ALSO
 
 ````
 
+
 * CREATE RULE
 * SELECT TO
 * id
 * UPDATE
 * FROM
 * region_id
+

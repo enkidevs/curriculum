@@ -1,4 +1,4 @@
-# Upper bounded wildcards
+---
 author: adamMontgomerie
 
 levels:
@@ -23,13 +23,15 @@ tags:
 
   - bounded-wildcars
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/upperBounded.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/upperBounded.html){website}'
+
 
 ---
 ## Content
+# Upper bounded wildcards
 
 Upper bounded wildcards can be used to make a variable less restrictive. For example, say we want to create a class which takes a `List` as a parameter. But we do not know whether the list will be `List<Number>`, `List<Integer>`, `List<Double>` or other subclasses of `Number`.
 
@@ -43,3 +45,4 @@ public void method(
 }
 ```
 This method will now be able to accept lists of any type that is a subclass of `Number`.
+

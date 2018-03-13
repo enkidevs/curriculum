@@ -1,4 +1,4 @@
-# Flow control using _co_
+---
 author: rosielowther
 
 levels:
@@ -9,12 +9,15 @@ type: normal
 
 category: feature
 
+
 links:
 
   - '[github.com](https://github.com/tj/co){website}'
 
+
 ---
 ## Content
+# Flow control using _co_
 
 _co_ is a **flow control program**, which uses **generators** and **promises**. Use it to write non-blocking code more cleanly. It can be used in the browser and with Node.js.
 
@@ -52,6 +55,7 @@ Complete the following JS code snippet where co is used to yield a promise:
 }).catch(onerror);
 ```
 
+
 * `co`
 * `yield`
 * `run`
@@ -67,5 +71,7 @@ Can **generator function** be `yield`ed by `co()`?
 
 ???
 
-*`yes`
-*`no`
+
+* `yes`
+* `no`
+

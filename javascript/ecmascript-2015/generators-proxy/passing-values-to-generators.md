@@ -1,4 +1,4 @@
-# Passing values to Generators
+---
 author: alexjmackey
 
 levels:
@@ -9,16 +9,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+
 links:
-  
+
   - '[MDN - Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}'
-  
+
+inAlgoPool:
+
 ---
 ## Content
+# Passing values to Generators
 
 Generators next method also accepts a parameter.
 
@@ -75,3 +77,4 @@ g.next();
 g.next("a") //a
 g.next("b") // b
 ```
+

@@ -1,4 +1,4 @@
-# Introduction to remote repositories
+---
 author: catalin
 
 levels:
@@ -7,17 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [git-scm.com](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes){website}
+  - '[git-scm.com](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes){website}'
+
 
 ---
 ## Content
+# Introduction to remote repositories
 
 **Remote repositories** in Git represent a copy of the repository that exists elsewhere (remotely).
 
@@ -52,12 +54,12 @@ git@github.com:user/repo.git
 
 You can have ??? remote repositories/repository.
 
+
 * multiple
 * only one
 * up to one hundred
 
 ---
 ## Footnotes
-
 [1:GitHub]
 **GitHub** is the most-known and used web-based Git repository hosting service.

@@ -1,4 +1,4 @@
-# Declaring Functions
+---
 author: alexjmackey
 
 levels:
@@ -7,12 +7,15 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+
+
+inAlgoPool:
 
 ---
 ## Content
+# Declaring Functions
 
 JavaScript supports a number of different ways of declaring functions.
 
@@ -55,11 +58,12 @@ function mult(x, y){
 console.log(mult(2,3));
 ???
 ```
-*`undefined`
-*`4`
-*`9`
-*`6`
-*`error`
+
+* `undefined`
+* `4`
+* `9`
+* `6`
+* `error`
 
 ---
 ## Revision
@@ -73,7 +77,9 @@ function add(x, y){
 console.log(add(2,3));
 ???
 ```
-*`undefined`
-*`5`
-*`false`
-*`error`
+
+* `undefined`
+* `5`
+* `false`
+* `error`
+

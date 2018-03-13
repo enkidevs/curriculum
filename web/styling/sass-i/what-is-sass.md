@@ -1,17 +1,22 @@
-# What Is Sass?
+---
 author: mihaiberq
 
 levels:
 
-    - basic
-    - medium
+  - basic
+
+  - medium
 
 type: normal
 
 category: must-know
 
+
+
+
 ---
 ## Content
+# What Is Sass?
 
 **Sass**, or *Syntactically Awesome StyleSheets*, is a CSS preprocessor which unlocks some features that are yet to have a concrete syntax in CSS. Some of these features are variables, inheritance, nesting and mixins.
 
@@ -91,6 +96,7 @@ div p {
 
 The CSS extensions with indented syntax is ???
 
+
 * Sass
 * SCSS
 * less
@@ -103,8 +109,10 @@ Fill in the gaps such that the following statement becomes true (pick `_` if no 
 ```
 Any ??? CSS file is a valid ??? file.
 ```
+
 * valid
 * SCSS
 * Sass
 * _
 * preprocessed
+

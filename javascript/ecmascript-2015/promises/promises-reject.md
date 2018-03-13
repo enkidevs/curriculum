@@ -1,4 +1,4 @@
-# Promises - Reject
+---
 author: alexjmackey
 
 levels:
@@ -9,17 +9,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
 
 links:
 
   - '[MDN - Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
-  
+
+inAlgoPool:
+
 ---
 ## Content
+# Promises - Reject
 
 When using promises we can indicate something has failed by using the **reject** function instead of **resolve**.
 
@@ -66,3 +67,4 @@ function(result){
  console.log(result);
 }); //enki
 ```
+

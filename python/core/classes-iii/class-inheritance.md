@@ -1,4 +1,4 @@
-# Class inheritance
+---
 author: catalin
 
 levels:
@@ -11,6 +11,11 @@ type: normal
 
 category: must-know
 
+
+links:
+
+  - '[docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#inheritance){website}'
+
 notes: |+
   Code has errors and will not run. See mismatching class names in def and call:
 
@@ -21,13 +26,10 @@ notes: |+
   enki = EnkiExtended()
 
 
-links:
-
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#inheritance){website}
 
 ---
 ## Content
+# Class inheritance
 
 Class inheritance is easily achieved in Python following this syntax:
 ```python
@@ -79,6 +81,7 @@ Make `Maths` inherit `Subject` :
 ???
   credits = 15
 ```
+
 * `class Maths(Subject):`
 * `class Maths(Subject)`
 * `class Maths:Subject`
@@ -91,7 +94,9 @@ Check if `cClass` is a child of `pClass`:
 
 ???
 
+
 * issubclass(cClass,pClass)
 * issubclass(pClass,cClass)
 * ischild(cClass,pClass)
 * ischild(pClass,cClass)
+

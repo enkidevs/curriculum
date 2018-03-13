@@ -1,4 +1,4 @@
-# The from...import statement
+---
 author: SebaRaba
 
 levels:
@@ -9,12 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[from...import in depth](https://www.tutorialspoint.com/python3/python_modules.htm)'
+  - '[from...import in depth](https://www.tutorialspoint.com/python3/python_modules.htm){website}'
+
 
 ---
 ## Content
+# The from...import statement
 
 To refer to specific items of a **module** within your program's **namespace**[1], you can use the `from...import` statement.
 
@@ -67,17 +70,9 @@ q(3) # 27
 ```
 
 To end with, using `from ... import` statement doesn't save memory. It executes and caches the entire module just like regular `import` statement. So there is no consecrated pattern of distinguishing between these two, it depends on the developer's preferences.
----
-## Footnotes
-
-[1: namespace]
-As you already know, in Python, everything (count modules, classes, functions, literals etc.) is an *object*. All these objects are referred to using a name.
-
-**Namespace** is the mapping done between *available objects* and their respective *names*.
 
 ---
 ## Practice
-
 
 Consider the two files below - *main* and the *subtractor* module . Complete the missing gaps such that the code will execute with no problem when running `main.py`.
 
@@ -98,6 +93,7 @@ sub(20, 3)
 # 20 - 3 is: 17
 
 ```
+
 
 * `subtract(a, b):`
 * `from`
@@ -125,6 +121,7 @@ height = 30
 calculate_volume(radius, height)
 ```
 
+
 * `from`
 * `cylinder`
 * `import`
@@ -135,3 +132,10 @@ calculate_volume(radius, height)
 * `__name__`
 * `cylinder:`
 * `def`
+
+---
+## Footnotes
+[1: namespace]
+As you already know, in Python, everything (count modules, classes, functions, literals etc.) is an *object*. All these objects are referred to using a name.
+
+**Namespace** is the mapping done between *available objects* and their respective *names*.

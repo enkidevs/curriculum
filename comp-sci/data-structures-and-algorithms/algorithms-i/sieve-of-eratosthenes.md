@@ -1,24 +1,29 @@
-# Sieve of Eratosthenes
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
 links:
-  - >-
-      [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes){website}
+
+  - '[Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes){website}'
 
 parent: binary-search
 ---
 ## Content
+# Sieve of Eratosthenes
 
 **Sieve of Eratosthenes** is a simple algorithm for finding all the prime numbers smaller than a given value. The algorithm dates way back, to *200BC*.
 
@@ -60,12 +65,14 @@ This is how the algorithm works:
 The unmarked values left are all the prime numbers smaller than *n*.
 
 When implementing the algorithm, you can reduce the memory used to store the values by using a boolean array of *length n* - "marking" a number becomes changing the boolean value at that specific index to *true*.
+
 ---
 ## Practice
 
 What is the algorithm's `memory` complexity when an array is used to store up to `n` values?
 
 ???
+
 
 * O(n)
 * O(n×n)
@@ -79,7 +86,9 @@ You would use the sieve of Eratosthenes for
 
 ???
 
+
 * finding prime numbers between 2 and n
 * testing if a number is prime
 * test if a tree has a binary search tree's properties
 * finding the prime divisors of a number
+

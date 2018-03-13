@@ -1,4 +1,4 @@
-# Default values for props
+---
 author: catalin
 
 levels:
@@ -15,15 +15,15 @@ type: normal
 
 category: how to
 
-parent: validate-for-required-props
 
 links:
 
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#default-prop-values){website}
+  - '[facebook.github.io](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#default-prop-values){website}'
 
+parent: validate-for-required-props
 ---
 ## Content
+# Default values for props
 
 **React** provides a way of defining *default* values for props. This allows the safety usage of props even though they are not specified by the parent component.
 
@@ -57,6 +57,7 @@ Comp.??? = {
   ???: ???,
 };
 ```
+
 * `defaultProps`
 * `value`
 * `'xyz'`
@@ -78,8 +79,10 @@ Comp.??? = {
 };
 ```
 
+
 * `defaultProps`
 * `value`
 * `'xyz'`
 * `default`
 * `getDefaultProps`
+

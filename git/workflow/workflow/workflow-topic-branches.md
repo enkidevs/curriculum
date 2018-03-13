@@ -1,4 +1,4 @@
-# Workflow: topic branches
+---
 author: rosielowther
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows){website}'
+
 
 ---
 ## Content
+# Workflow: topic branches
 
 A topic branch is a branch that you create and use for work on a feature.
 
@@ -49,15 +51,18 @@ Create a new branch :
 ```
 $ git ??? ??? newFeature
 ```
-*`checkout`
-*`-b`
-*`branch`
-*`-d`
+
+* `checkout`
+* `-b`
+* `branch`
+* `-d`
 
 ---
 ## Revision
 
 A way of keeping the master branch clean and safely experimenting is by using ??? .
-*branches 
-*merges
-*IDEs
+
+* branches 
+* merges
+* IDEs
+

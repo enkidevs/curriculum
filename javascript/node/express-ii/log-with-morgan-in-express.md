@@ -1,4 +1,4 @@
-# Log with `morgan` in **Express**
+---
 author: catalin
 
 levels:
@@ -13,14 +13,15 @@ type: normal
 
 category: how to
 
-parent: easy-way-to-deliver-html-pages-with-express
 
 links:
 
   - '[github.com](https://github.com/expressjs/morgan){website}'
 
+parent: easy-way-to-deliver-html-pages-with-express
 ---
 ## Content
+# Log with `morgan` in **Express**
 
 To use the new **HTTP** logger (called `morgan`) from **Express 4.0** you need to install:
 ```bash
@@ -61,11 +62,13 @@ Use `morgan` logger in express with `tiny` format:
 app.???(???('tiny'));
 ```
 
-*`use`
-*`morgan`
-*`skip`
-*`immediate`
-*`express`
-*`install`
-*`make`
-*`logger`
+
+* `use`
+* `morgan`
+* `skip`
+* `immediate`
+* `express`
+* `install`
+* `make`
+* `logger`
+

@@ -1,4 +1,4 @@
-# Async flow in **Redux**
+---
 author: catalin
 
 levels:
@@ -13,21 +13,18 @@ category: how to
 
 tags:
 
-  - ''
+  - 
 
-notes: >-
-  This insight should be given right before or after the specific Middleware
-  insight. ( 56a2137805a87a0600cfa409 )
 
 links:
 
   - '[redux.js.org](http://redux.js.org/docs/advanced/AsyncActions.html){website}'
+  - '[stackoverflow.com](http://stackoverflow.com/questions/34570758/why-do-we-need-middleware-for-async-flow-in-redux){website}'
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/34570758/why-do-we-need-middleware-for-async-flow-in-redux){website}
-
+notes: This insight should be given right before or after the specific Middleware insight. ( 56a2137805a87a0600cfa409 )
 ---
 ## Content
+# Async flow in **Redux**
 
 The default **Redux** store only supports synchronous data flow. However, with the help of `middleware` asynchronous data flow is also possible.
 
@@ -56,3 +53,4 @@ componentWillMount() {
     loadData(this.props.userId)); 
 }
 ```
+

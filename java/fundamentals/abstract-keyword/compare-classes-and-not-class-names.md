@@ -1,4 +1,4 @@
-# Compare classes and not class names
+---
 author: catalin
 
 levels:
@@ -9,13 +9,15 @@ type: normal
 
 category: caveats
 
+
 links:
 
-  - >-
-    [www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/OBJ09-J.+Compare+classes+and+not+class+names){website}
+  - '[www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/OBJ09-J.+Compare+classes+and+not+class+names){website}'
+
 
 ---
 ## Content
+# Compare classes and not class names
 
 In JVM two classes are the same class (and same type) if they are loaded by the same class loader and have the same qualified name. Two classes with the same name but different package names are distinct, as are two classes with the same qualified name loaded by different class loaders.
 
@@ -47,8 +49,10 @@ Depending on the function that the insecure code performs, it could be vulnerabl
 Which two properties make two classes in a JVM the same class? 
 
 ???
-*Loaded by the same class loader, have the same qualified name.
-*Loaded by the same class loader, same methods.
-*Loaded by the same class loader, same fields.
-*Same qualified name, same size.
-*Same qualified name, same compilation times.
+
+* Loaded by the same class loader, have the same qualified name.
+* Loaded by the same class loader, same methods.
+* Loaded by the same class loader, same fields.
+* Same qualified name, same size.
+* Same qualified name, same compilation times.
+

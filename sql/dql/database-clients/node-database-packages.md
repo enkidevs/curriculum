@@ -1,4 +1,4 @@
-# Node Database Packages
+---
 author: Nick Daminov
 
 levels:
@@ -14,21 +14,30 @@ category: feature
 inAlgoPool: false
 
 tags:
+
   - introduction
+
   - workout
+
   - node
+
   - javascript
+
   - implementation
+
   - database packages
+
 
 links:
 
-  - '[Node database packages](https://www.npmjs.com/browse/keyword/database)'
-  - '[pg node package](https://www.npmjs.com/package/pg)'
-  - '[pg video tutorial](https://www.youtube.com/watch?v=hzixG7gFTxY)'
+  - '[Node database packages](https://www.npmjs.com/browse/keyword/database){website}'
+  - '[pg node package](https://www.npmjs.com/package/pg){website}'
+  - '[pg video tutorial](https://www.youtube.com/watch?v=hzixG7gFTxY){website}'
+
 
 ---
 ## Content
+# Node Database Packages
 
 Node is another popular platform (available as a course for premium users) which uses Java Script. As there are lots of packages available for it we will take a look at some of the database packages:
  - mongoose (for MongoDB)
@@ -89,6 +98,7 @@ Considering `var conString ="pg://ashketchum:iwannabetheverybest@aws-us-east-1-p
 ???://???:???
 @???:???/???
 
+
 * pg
 * username
 * password
@@ -102,6 +112,8 @@ Considering `var conString ="pg://ashketchum:iwannabetheverybest@aws-us-east-1-p
 What package is used in order to connect to a Postgres database in nodeJS?
 ???
 
+
 * pg
 * mongoose
 * sqlite3
+

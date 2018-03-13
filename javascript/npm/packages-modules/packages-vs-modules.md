@@ -1,20 +1,26 @@
-# Packages vs Modules
+---
 author: mihaiberq
 
 levels:
+
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
-parent: semantic-versioning
 
+
+parent: semantic-versioning
 ---
 ## Content
+# Packages vs Modules
 
 So far, we've used the terms *package* and *module* somehow interchangeably. However, there is a sensible difference between the two and it has to do with the way in which node works.
 
@@ -46,10 +52,12 @@ For a module to be a package as well, it has to
 
 ???
 
+
 * have a package.json file
 * be published
 * have an index.js file
 * be required
+
 ---
 ## Revision
 
@@ -57,6 +65,8 @@ Node's `require()` looks for code in
 
 ???
 
+
 * node_modules
 * package.json
 * node_packages
+

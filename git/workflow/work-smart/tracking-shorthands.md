@@ -1,4 +1,4 @@
-# Tracking shorthands
+---
 author: rosielowther
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}'
+
 
 ---
 ## Content
+# Tracking shorthands
 
 The following git commands all have the same effect: set up a local branch `sharefix` to track the remote branch `sharefix` from `origin`, then switch to the new branch.
 
@@ -45,10 +47,11 @@ The shorthand command to set up a new branch and track it is:
 $ git ??? --??? 
           origin/sharefix
 ```
-*`checkout`
-*`track`
-*`follow`
-*`branch`
+
+* `checkout`
+* `track`
+* `follow`
+* `branch`
 
 ---
 ## Revision
@@ -58,7 +61,9 @@ The shorthand command to set up a new branch and track it is:
 $ git ??? --??? 
           origin/sharefix
 ```
-*`checkout`
-*`track`
-*`follow`
-*`branch`
+
+* `checkout`
+* `track`
+* `follow`
+* `branch`
+

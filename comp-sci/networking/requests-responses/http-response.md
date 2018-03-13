@@ -1,29 +1,30 @@
-# The HTTP response
+---
 author: SebaRaba
 
 levels:
 
-- beginner
+  - beginner
 
-- basic
+  - basic
 
-- medium
+  - medium
 
-- advanced
+  - advanced
 
 type: normal
 
 category: must-know
 
+
 links:
 
-  - 'https://www.w3.org/Protocols/rfc2616/rfc2616-sec6.html#sec6.2'
-
-  - 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Status'
+  - '[www.w3.org](https://www.w3.org/Protocols/rfc2616/rfc2616-sec6.html#sec6.2){website}'
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status){website}'
 
 parent: a-request-example
 ---
 ## Content
+# The HTTP response
 
 After receiving and interpreting a request, the **server** sends back a response to the **client**. The usual response syntax is:
 ```text
@@ -69,6 +70,7 @@ A resource's specific cached version identifier can be found in the
 
 ??? header field.
 
+
 * ETag
 * Age
 * Location
@@ -81,6 +83,7 @@ The first line in an HTTP response is usually called
 
 ???
 
+
 * Status Line
 * Request Line
 * Response Line
@@ -88,7 +91,6 @@ The first line in an HTTP response is usually called
 
 ---
 ## Footnotes
-
 [1:Cross-site requests]
 A resource makes a cross-origin HTTP request when it requests a resource from a different domain, or port than the one which the first resource itself serves. You might find this process abbreviated as CORS (cross-origin resource sharing).
 

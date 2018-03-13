@@ -1,4 +1,4 @@
-# What are modules?
+---
 author: SebaRaba
 
 levels:
@@ -9,12 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[More on modules](https://docs.python.org/3/tutorial/modules.html)'
+  - '[More on modules](https://docs.python.org/3/tutorial/modules.html){website}'
+
 
 ---
 ## Content
+# What are modules?
 
 When you quit the Python interpreter and open it again, the *functions* and *variables* you defined before are lost.
 
@@ -43,16 +46,11 @@ def add(a, b):
 Note that within each module, its name is dynamically available through the global variable `__name__`.
 
 ---
-## Footnotes
-
-[1:modular programming]
-Modular programming is a software design technique that emphasizes separating the functionality of a program into independent, interchangeable modules, such that each contains everything necessary to execute only one aspect of the desired functionality.
-
----
 ## Practice
 
 What is the extension specific to Python **modules**?
 ???
+
 
 * `.py`
 * `.md`
@@ -67,6 +65,12 @@ What is the extension specific to Python **modules**?
 Which of the following options would better describe a module in Python?
 ???
 
+
 * A file with python code - definitions and statements
 * A library exposing an API
 * A file with functions written in Python
+
+---
+## Footnotes
+[1:modular programming]
+Modular programming is a software design technique that emphasizes separating the functionality of a program into independent, interchangeable modules, such that each contains everything necessary to execute only one aspect of the desired functionality.

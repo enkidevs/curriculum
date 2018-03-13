@@ -1,4 +1,4 @@
-# Positioning Elements
+---
 author: mihaiberq
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# Positioning Elements
 
 Now that you can tell how much space an element takes when rendered based on its properties, the next step is to position it in the page layout. Three *basic* ways to position elements are: *relative positioning*, *absolute positioning* and *floating* them.
 
@@ -70,10 +74,11 @@ The third basic way of position elements, *floating*, will be covered in the nex
 
 An element with `position: absolute` is positioned in relation to ???.
 
-*its first non-static ancestor.
-*its first relative positioned ancestor.
-*its first absolute positioned ancestor.
-*its parent.
+
+* its first non-static ancestor.
+* its first relative positioned ancestor.
+* its first absolute positioned ancestor.
+* its parent.
 
 ---
 ## Revision
@@ -81,6 +86,8 @@ An element with `position: absolute` is positioned in relation to ???.
 For which value of `position` you cannot use box offsets?
 
 ???
-*Static
-*Relative
-*Absolute
+
+* Static
+* Relative
+* Absolute
+

@@ -1,4 +1,4 @@
-# Shuffle an array using `sort` and `random`.
+---
 author: Bruno
 
 levels:
@@ -9,12 +9,15 @@ type: normal
 
 category: hack
 
+
 links:
 
   - '[stackoverflow](http://stackoverflow.com/questions/2450954){discussion}'
 
+
 ---
 ## Content
+# Shuffle an array using `sort` and `random`.
 
 Given the array:
 
@@ -45,6 +48,8 @@ arr.sort(function(){
   return Math.random() - 0.5;
 });
 ```
-*shuffle the array
-*sort the array decreasingly
-*do nothing to the array
+
+* shuffle the array
+* sort the array decreasingly
+* do nothing to the array
+

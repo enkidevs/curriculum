@@ -1,4 +1,4 @@
-# `null` value for *Controlled Components* in **React**
+---
 author: catalin
 
 levels:
@@ -11,10 +11,12 @@ type: normal
 
 category: best practice
 
-parent: custom-proptype-s-to-be-required
 
+
+parent: custom-proptype-s-to-be-required
 ---
 ## Content
+# `null` value for *Controlled Components* in **React**
 
 Using **React**, an `<input>` form element that has a set `value` prop is a *controlled* component.  
 
@@ -45,6 +47,7 @@ Is this a controlled or uncontrolled <input>? ???
 ReactDOM.render(<input value="Enki!" />,
                 node)
 ```
+
 * Controlled
 * Uncontrolled
 
@@ -57,7 +60,9 @@ ReactDOM.render(<input
   value={???} />, node);
 ```
 
-*`null`
-*`uncontrolled`
-*`0`
-*`NaN`
+
+* `null`
+* `uncontrolled`
+* `0`
+* `NaN`
+

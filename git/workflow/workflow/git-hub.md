@@ -1,4 +1,4 @@
-# GitHub
+---
 author: catalin
 
 levels:
@@ -9,12 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
   - '[www.github.com](www.github.com){website}'
 
+
 ---
 ## Content
+# GitHub
 
 **GitHub** is the most popular hosting solution for **Git** repositories. It is used by millions of developers worldwide as it provides reliable solutions and additional tools for working with **Git** repositories.
 
@@ -37,7 +40,9 @@ Founded in `2007` and continuously improving, **GitHub** is the most notable pla
 
 GitHub is just ??? Git repositories.
 
-*`a hosting solution for`
-*`an alternative to`
-*`another name for`
-*`a newer implementation for`
+
+* `a hosting solution for`
+* `an alternative to`
+* `another name for`
+* `a newer implementation for`
+

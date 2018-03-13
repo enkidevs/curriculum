@@ -1,4 +1,4 @@
-# Floating Elements
+---
 author: mihaiberq
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# Floating Elements
 
 Another way to position elements on page is with `floats`. This property allows elements to be positioned to the left or right side of the parent element. All other elements will flow around the floated element.
 
@@ -82,7 +86,9 @@ And the result will be:
 
 Text ??? a floated element.
 
-*surrounds
-*pushes
-*overlaps
-*underlaps
+
+* surrounds
+* pushes
+* overlaps
+* underlaps
+

@@ -1,4 +1,4 @@
-# ES6 dynamic property keys in mongo-like set clauses
+---
 author: Bruno
 
 levels:
@@ -13,12 +13,15 @@ tags:
 
   - ES6
 
+
 links:
 
   - '[Object Literal Computed Property Keys](http://wiki.ecmascript.org/doku.php?id=harmony:object_literals#object_literal_computed_property_keys){documentation}'
 
+
 ---
 ## Content
+# ES6 dynamic property keys in mongo-like set clauses
 
 To update the third element of a nested array `items` you can use:
 ```
@@ -52,12 +55,13 @@ object.???({$set:{
   items:{[???]:{updated: true}}
 }})
 ```
-*`update`
-*`index`
-*`insert`
-*`const`
-*`add`
-*`new`
+
+* `update`
+* `index`
+* `insert`
+* `const`
+* `add`
+* `new`
 
 ---
 ## Revision
@@ -68,9 +72,11 @@ object.???({
   $???:{items:{2:{updated: true}}}
 })
 ```
-*`update`
-*`set`
-*`index`
-*`change`
-*`mod`
-*`value`
+
+* `update`
+* `set`
+* `index`
+* `change`
+* `mod`
+* `value`
+

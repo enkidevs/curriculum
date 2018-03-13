@@ -1,4 +1,4 @@
-# Anonymous functions
+---
 author: rosielowther
 
 levels:
@@ -11,13 +11,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions){website}'
+
 
 ---
 ## Content
+# Anonymous functions
 
 If you use a **function expression** to define a function, you can omit the function's name. The syntax is:
 ```
@@ -49,7 +51,9 @@ var cube = ???(x) {
 };
 ```
 
-*`function`
-*`let`
-*`name`
-*`{}`
+
+* `function`
+* `let`
+* `name`
+* `{}`
+

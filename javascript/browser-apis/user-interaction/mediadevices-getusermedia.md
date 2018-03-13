@@ -1,4 +1,4 @@
-# MediaDevices.getUserMedia()
+---
 author: tommarshall
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices){website}'
+
 
 ---
 ## Content
+# MediaDevices.getUserMedia()
 
 *MediaDevices.getUserMedia()* prompts a user for permission to use video/audio input devices such as webcams/microphones. 
 
@@ -70,6 +72,7 @@ var p = navigator.???.???({
 });
 ```
 
+
 * `mediaDevices`
 * `getUserMedia`
 * `mediaStream`
@@ -83,7 +86,9 @@ var p = navigator.???.???({
 If permission is provided, what is the
 promise returned and resolved with? ???
 
+
 * The MediaStream object.
 * A permission object.
 * A promise object.
 * Constraints for the media device.
+

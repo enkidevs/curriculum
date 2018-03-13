@@ -1,4 +1,4 @@
-# Testing Internet Connectivity
+---
 author: catalin
 
 levels:
@@ -15,16 +15,16 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - https://shapeshed.com/unix-traceroute/
-
-  - http://www.thegeekstuff.com/2009/11/ping-tutorial-13-effective-ping-command-examples
+  - '[shapeshed.com](https://shapeshed.com/unix-traceroute/){website}'
+  - '[www.thegeekstuff.com](http://www.thegeekstuff.com/2009/11/ping-tutorial-13-effective-ping-command-examples){website}'
 
 parent: network-interfaces-tools
-
 ---
 ## Content
+# Testing Internet Connectivity
 
 Possibly the simplest way to test the **connectivity** between your machine and a remote host is via the `ping` utility.
 
@@ -78,6 +78,7 @@ Which of the following commands will check connectivity between you and a remote
 
 ???
 
+
 * ping
 * tracert
 * tracepath
@@ -85,7 +86,6 @@ Which of the following commands will check connectivity between you and a remote
 
 ---
 ## Footnotes
-
 [1:ICMP]
 **The Internet Control Message Protocol** (`ICMP`) is the mechanism used to give feedback about network problems that are preventing packet delivery.
 ICMP packets are specialized packets used for informational and debugging purposes.

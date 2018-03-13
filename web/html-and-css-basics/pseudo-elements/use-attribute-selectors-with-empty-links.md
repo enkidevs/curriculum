@@ -1,4 +1,4 @@
-# Use attribute selectors with empty links
+---
 author: jordanfish
 
 levels:
@@ -11,12 +11,15 @@ type: normal
 
 category: hack
 
+
 links:
 
   - '[github.com](https://github.com/AllThingsSmitty/css-protips){website}'
 
+
 ---
 ## Content
+# Use attribute selectors with empty links
 
 Display links when the `<a>` element has no text value but the `href` attribute has an external link:
 ```
@@ -46,9 +49,11 @@ a[???="http"]:empty::before {
 }
 ```
 
+
 * `href^`
 * `attr`
 * `href`
 * `link`
 * `display`
 * `disp^`
+

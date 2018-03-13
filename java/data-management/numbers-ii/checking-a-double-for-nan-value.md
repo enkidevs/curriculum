@@ -1,4 +1,4 @@
-# Checking a double for `NaN` value
+---
 author: tommarshall
 
 levels:
@@ -11,8 +11,12 @@ type: normal
 
 category: how to
 
+
+
+
 ---
 ## Content
+# Checking a double for `NaN` value
 
 Comparisons of numbers with `NaN` values throw up errors due to the semantics of `NaN`.
 
@@ -26,3 +30,4 @@ if (Double.isNaN(ans)) {
 ```
 
 The `isNaN()` method above is used to check whether the value is equal to `NaN`.
+

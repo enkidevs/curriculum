@@ -1,4 +1,4 @@
-# Disclose file format of links
+---
 author: catalin
 
 levels:
@@ -9,13 +9,15 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - >-
-    [css-tricks.com](https://css-tricks.com/almanac/properties/c/content/){website}
+  - '[css-tricks.com](https://css-tricks.com/almanac/properties/c/content/){website}'
+
 
 ---
 ## Content
+# Disclose file format of links
 
 To indicate what type a download link is (such as a `doc` or a `pdf`) via an image, use the **CSS** `content` property.
 
@@ -38,7 +40,9 @@ A CSS selector that targets links which resolve to a *pdf* file is:
 
 ???
 
+
 * `a[href$=".pdf"]`
 * `a.pdf`
 * `[href="pdf"]`
 * `a[after=".pdf"]`
+

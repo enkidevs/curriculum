@@ -1,4 +1,4 @@
-# JavaScript Basics - Part 2
+---
 author: alexjmackey
 
 levels:
@@ -7,12 +7,15 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+
+
+inAlgoPool:
 
 ---
 ## Content
+# JavaScript Basics - Part 2
 
 Like most programming languages, JavaScript has a number of syntax rules that must be adhered to.
 
@@ -52,9 +55,11 @@ What operator is used to declare a variable in the *current scope*?
 ??? answer = 42;
 ```
 
-*`var`
-*`variable`
-*`const`
-*`string`
-*`int`
-*`double`
+
+* `var`
+* `variable`
+* `const`
+* `string`
+* `int`
+* `double`
+

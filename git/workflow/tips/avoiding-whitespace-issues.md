@@ -1,4 +1,4 @@
-# Avoiding whitespace issues
+---
 author: rosielowther
 
 levels:
@@ -13,13 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration){website}'
+
 
 ---
 ## Content
+# Avoiding whitespace issues
 
 git automatically warns about spaces at the end of a line, blank lines at the end of a file and spaces before tabs at the beginning of a line. 
 
@@ -43,11 +45,12 @@ Configure git to warn you about whitespaces
 $ git ??? ??? 
     ???.??? ???
 ```
-*`config`
-*`--global`
-*`core`
-*`whitespace`
-*`warn`
+
+* `config`
+* `--global`
+* `core`
+* `whitespace`
+* `warn`
 
 ---
 ## Revision
@@ -57,5 +60,7 @@ $ git config --global
            core.whitespace warn
 ```
 Would ??? .
-*highlight the whitespace issues
-*automatically fix whitespace issues
+
+* highlight the whitespace issues
+* automatically fix whitespace issues
+

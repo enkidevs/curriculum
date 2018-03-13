@@ -1,4 +1,4 @@
-# Show history of a function
+---
 author: rosielowther
 
 levels:
@@ -13,8 +13,12 @@ type: normal
 
 category: feature
 
+
+
+
 ---
 ## Content
+# Show history of a function
 
 The line log search tool (`-L`) shows the history of a function or line of code.
 
@@ -36,17 +40,20 @@ Searching for the changes made to *myFunction* can be done using:
 $ git ??? ??? 
       :myFunction:myFile.js
 ```
-*`log`
-*`-L`
-*`-l`
-*`--log`
-*`--1`
+
+* `log`
+* `-L`
+* `-l`
+* `--log`
+* `--1`
 
 ---
 ## Revision
 
 The history of changes made to a function can be seen using the ??? option of `git log`.
-*`-L`
-*`-l`
-*`-history`
-*`--L`
+
+* `-L`
+* `-l`
+* `-history`
+* `--L`
+

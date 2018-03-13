@@ -1,4 +1,4 @@
-# Special attributes of objects and classes
+---
 author: catalin
 
 levels:
@@ -13,16 +13,16 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#special-attributes){website}
+  - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#special-attributes){website}'
+  - '[MRO](http://python-history.blogspot.in/2010/06/method-resolution-order.html){website}'
 
-  - >-
-    [MRO](http://python-history.blogspot.in/2010/06/method-resolution-order.html){website}
 
 ---
 ## Content
+# Special attributes of objects and classes
 
 Python *objects/classes/instances* have several more **read-only** attributes, some of which are not reported by the `dir()` function.
 
@@ -81,10 +81,11 @@ Get all the writable attributes of your object:
 ```
 print(Enki.???)
 ```
-*`__dict__`
-*`dict`
-*`dir()`
-*`__dir__`
+
+* `__dict__`
+* `dict`
+* `dir()`
+* `__dir__`
 
 ---
 ## Revision
@@ -94,7 +95,9 @@ Get the class’s metaclass:
 ```
 print(Enki.???)
 ```
-*`__class__`
-*`class()`
-*`__meta__`
-*`class`
+
+* `__class__`
+* `class()`
+* `__meta__`
+* `class`
+

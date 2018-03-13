@@ -1,9 +1,12 @@
-# INSERT
+---
 author: mihaiberq
 
 levels:
+
   - beginner
+
   - basic
+
   - medium
 
 type: normal
@@ -12,14 +15,19 @@ category: must-know
 
 inAlgoPool: false
 
-parent: union
-
 tags:
+
   - introduction
+
   - workout
+
+
+
+parent: union
 
 ---
 ## Content
+# INSERT
 
 The `INSERT` operation allows new entries to be added to the table. The base syntax is as follows:
 ```SQL
@@ -65,7 +73,6 @@ WHERE item.cost <= 0;
 ```
 Any variant of the specific column insertion is applicable to the last query as well.
 
-
 ---
 ## Practice
 
@@ -80,13 +87,13 @@ RIGHT JOIN pokemon ???
 pokemon.id = pokemon_type.pokemon_id
 ??? type.id = 11) AS water;
 ```
+
 * `INSERT`
 * `INTO`
 * `SELECT`
 * `pokemon_type.type_id`
 * `ON`
 * `WHERE`
-
 
 ---
 ## Revision
@@ -109,6 +116,8 @@ VALUES (value1, 'value2', value3);
 
 ```
 ???
+
 * `B`
 * `A`
 * `C`
+

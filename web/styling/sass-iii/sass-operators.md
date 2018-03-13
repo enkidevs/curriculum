@@ -1,4 +1,4 @@
-# Sass Operators
+---
 author: tommarshall
 
 levels:
@@ -11,13 +11,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [webstandardssherpa.com](http://webstandardssherpa.com/reviews/getting-started-with-sass-part-2/){website}
+  - '[webstandardssherpa.com](http://webstandardssherpa.com/reviews/getting-started-with-sass-part-2/){website}'
+
 
 ---
 ## Content
+# Sass Operators
 
 *Sass* has a number of standard mathematical operators such as the following `+`, `-`, `*`, `/`, and `%`. 
 
@@ -61,6 +63,7 @@ p {
   font: #{???}???#{???};
 }
 ```
+
 * `$font-size`
 * `/`
 * `$line-height`
@@ -79,9 +82,11 @@ p {
   font: #{???}???#{???};
 }
 ```
+
 * `$font-size`
 * `/`
 * `$line-height`
 * `font-size`
 * `line-height`
 * `\`
+

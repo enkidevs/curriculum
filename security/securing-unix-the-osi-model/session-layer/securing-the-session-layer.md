@@ -1,4 +1,4 @@
-# Securing the Session Layer
+---
 author: milesflo
 
 levels:
@@ -15,12 +15,15 @@ category: must-know
 
 inAlgoPool: false
 
+
 links:
 
-  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
+  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}'
+
 
 ---
 ## Content
+# Securing the Session Layer
 
 The Session Layer deals with authentication and privileges on all Layers above. If an account with escalated privileges is compromised, a hacker could wreak havoc on a network. Therefore, the Session Layer among the most appealing to hackers.
 
@@ -31,6 +34,7 @@ One method employed by hackers to gain a target's login credentials is the **bru
 
 What is one control in the Session Layer of the OSI Model?
 ???
+
 
 * Using a strong, unique password
 * Strict use of ports as they are designed
@@ -43,6 +47,7 @@ What is one control in the Session Layer of the OSI Model?
 
 Hackers may use a botnet to guess passwords via ???.
 
+
 * brute-force
 * guessing
 * machine learning
@@ -50,14 +55,15 @@ Hackers may use a botnet to guess passwords via ???.
 
 ---
 ## Quiz
+### What is one control for this OSI model Layer?
+```
+What is one control in the Session Layer of the OSI Model?
+```
 
-headline: What is one control for this OSI model Layer?
+ ???
 
-question: |
-  What is one control in the Session Layer of the OSI Model?
+* Using a strong, unique password
+* Strict use of ports as they are designed
+* Use of a physical firewall
+* Using managed switches prevent topographical loops
 
-answers:
-  - Using a strong, unique password
-  - Strict use of ports as they are designed
-  - Use of a physical firewall
-  - Using managed switches prevent topographical loops

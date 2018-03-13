@@ -1,4 +1,4 @@
-# A Request Example
+---
 author: SebaRaba
 
 levels:
@@ -15,16 +15,16 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - 'https://www.quora.com/What-does-an-HTTP-request-looks-like'
-
-  - 'http://webaim.org/blog/user-agent-string-history/'
+  - '[www.quora.com](https://www.quora.com/What-does-an-HTTP-request-looks-like){website}'
+  - '[webaim.org](http://webaim.org/blog/user-agent-string-history/){website}'
 
 parent: http-request
-
 ---
 ## Content
+# A Request Example
 
 The following is an example of a `POST` request, a consequence of pressing the **Sign in** button to log into our web application:
 ```text
@@ -63,23 +63,12 @@ The payload contains the data specified by the **client**. In this case, the log
 Most modern browsers like **Microsoft Edge** (*F12*), **Mozilla Firefox**(*CTRL/CMD + Shift + J*) or **Chrome** (*CTRL/CMD + Shift + i*) provide a Developer Console accompanied by a *Network* tab where you can take a detailed look on all requests and responses made by your browser.
 
 ---
-## Footnotes
-
-[1: User-Agent]
-It might seem strange that the first browser in the `User-Agent` field list is `Mozilla` and not `Chrome`. If you bookmark this insight, you will receive a link to an article explaining the reason why.
-
-[2: Relative quality factor]
-If this is the first time you encounter the `q=0.8` notation, you should keep in mind that it is used to declare preference (it can take values between *0* and *1*). In this case, we prefer the more specific `en-GB, en-US` (British or American) English variants, rather than a more general English (`en`).
-
-In case `q` isn't present, the option has a default value of `q=1`, equivalent to the most preferred.
-
-
----
 ## Practice
 
 The filetypes that the server should return are specified in the
 
 ??? header field.
+
 
 * Accept
 * User-Agent
@@ -93,7 +82,18 @@ Within a **HTTP request**, details about the browser are contained inside the
 
 ??? header field.
 
+
 * User-Agent
 * Accept
 * Referer
 * Connection
+
+---
+## Footnotes
+[1: User-Agent]
+It might seem strange that the first browser in the `User-Agent` field list is `Mozilla` and not `Chrome`. If you bookmark this insight, you will receive a link to an article explaining the reason why.
+
+[2: Relative quality factor]
+If this is the first time you encounter the `q=0.8` notation, you should keep in mind that it is used to declare preference (it can take values between *0* and *1*). In this case, we prefer the more specific `en-GB, en-US` (British or American) English variants, rather than a more general English (`en`).
+
+In case `q` isn't present, the option has a default value of `q=1`, equivalent to the most preferred.

@@ -1,4 +1,4 @@
-# Pushing tags to a server
+---
 author: rosielowther
 
 levels:
@@ -13,14 +13,16 @@ type: normal
 
 category: must-know
 
-parent: using-tags-for-version-control
 
 links:
 
   - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Tagging){website}'
 
+parent: using-tags-for-version-control
+
 ---
 ## Content
+# Pushing tags to a server
 
 The `git push` command doesn’t automatically transfer your tags to the remote server. 
 
@@ -42,6 +44,7 @@ Transfer all your tags to the remote  `origin` server :
 ```
 $ git ??? ??? ???
 ```
+
 * `push`
 * `origin`
 * `--tags`
@@ -58,6 +61,8 @@ $ git push enki v1.2
  
 ```
 ???
+
 * Pushes tag `v1.2` to the remote `enki`
 * Pushes tag `enki` to the remote `v1.2`
 * Pushes tag ` enki v1.2` to `origin`
+

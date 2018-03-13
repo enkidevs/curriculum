@@ -1,4 +1,4 @@
-# What is HTTP
+---
 author: SebaRaba
 
 levels:
@@ -15,18 +15,17 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - 'https://www.tutorialspoint.com/http/'
-
-  - 'https://techterms.com/definition/http'
-  
-  - 'https://http2.github.io/'
+  - '[www.tutorialspoint.com](https://www.tutorialspoint.com/http/){website}'
+  - '[techterms.com](https://techterms.com/definition/http){website}'
+  - '[http2.github.io](https://http2.github.io/){website}'
 
 parent: test-connectivity
-
 ---
 ## Content
+# What is HTTP
 
 Standing for **Hypertext Transfer Protocol**, *HTTP* is an application-layer protocol that enables communication between two entities in a network.
 
@@ -43,23 +42,12 @@ One fundamental characteristic that made **HTTP** a powerful protocol is that bo
 The currently most used version is `HTTP/1.1`. However, the newest version of HTTP is `HTTP/2`[1], which, at the beginning of `2017`, had a support rate of over `13%`[2].
 
 ---
-## Footnotes
-
-[1: HTTP/2]
-HTTP/2 characteristics:
- - is binary, instead of textual
- - can use a single connection for multiple requests
- - uses header compression to reduce overhead
-
-[2: Statistics]
-https://w3techs.com/technologies/details/ce-http2/all/all
-
----
 ## Practice
 
 The client and the host are aware of each other during the time they're connected only, therefore HTTP is considered to be
 
 ???
+
 
 * stateless
 * consistent
@@ -72,7 +60,19 @@ What is the *default* reserved port for HTTP?
 
 ???
 
+
 * `80`
 * `8000`
 * `443`
 * `500`
+
+---
+## Footnotes
+[1: HTTP/2]
+HTTP/2 characteristics:
+ - is binary, instead of textual
+ - can use a single connection for multiple requests
+ - uses header compression to reduce overhead
+
+[2: Statistics]
+https://w3techs.com/technologies/details/ce-http2/all/all

@@ -1,4 +1,4 @@
-# Format text paragraphs with `textwrap`
+---
 author: catalin
 
 levels:
@@ -11,21 +11,21 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: how to
 
-notes: String manipulation workout
+inAlgoPool: false
+
 
 links:
 
   - '[pymotw.com](https://pymotw.com/2/textwrap/){website}'
+  - '[docs.python.org](https://docs.python.org/3.5/library/textwrap.html){website}'
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/textwrap.html){website}
+notes: String manipulation workout
 
 ---
 ## Content
+# Format text paragraphs with `textwrap`
 
 Python's `textwrap` module is useful for rearranging text, e.g. wrapping and filling lines.
 
@@ -68,13 +68,14 @@ Truncate `text` to `17` characters max:
 ???.???(text, ???=17)
 ```
 
-*`textwrap` 
-*`shorten` 
-*`width` 
-*`fill` 
-*`format` 
-*`length` 
-*`text`
+
+* `textwrap` 
+* `shorten` 
+* `width` 
+* `fill` 
+* `format` 
+* `length` 
+* `text`
 
 ---
 ## Revision
@@ -84,9 +85,11 @@ Wrap the `text`  with a maximum of 30 chars per line:
 textwrap.???(text, ???=30)
 ```
 
-*`wrap` 
-*`width` 
-*`format` 
-*`fill` 
-*`length` 
-*`max`
+
+* `wrap` 
+* `width` 
+* `format` 
+* `fill` 
+* `length` 
+* `max`
+

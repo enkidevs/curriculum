@@ -1,4 +1,4 @@
-# `NaN` is a number
+---
 author: jordanfish
 
 levels:
@@ -13,8 +13,12 @@ type: normal
 
 category: caveats
 
+
+
+
 ---
 ## Content
+# `NaN` is a number
 
 When using the `typeof` operator with `NaN`, an interesting result is observed:
 
@@ -50,6 +54,7 @@ The following code snippet outputs ???
 ```
 console.log(typeof NaN);
 ```
+
 * number
 * NaN
 * false
@@ -57,15 +62,15 @@ console.log(typeof NaN);
 
 ---
 ## Quiz
+### is NaN a number?
+// What is the output of this line?
+console.log(typeof(NaN));
 
-headline: is NaN a number?
 
-question: |
-  // What is the output of this line?
-  console.log(typeof(NaN));
+ ???
 
-answers:
-  - number
-  - object
-  - function
-  - undefined
+* number
+* object
+* function
+* undefined
+

@@ -1,4 +1,4 @@
-# Cache your authentication details to save time
+---
 author: rosielowther
 
 levels:
@@ -13,16 +13,16 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}'
+  - '[git-scm.com](https://git-scm.com/book/tr/v2/Git-Tools-Credential-Storage#_credential_caching){website}'
 
-  - >-
-    [git-scm.com](https://git-scm.com/book/tr/v2/Git-Tools-Credential-Storage#_credential_caching){website}
 
 ---
 ## Content
+# Cache your authentication details to save time
 
 Before you can push to a git server over  HTTP protocol, git will ask for your username and password.
 
@@ -48,11 +48,12 @@ Cache your credentials:
 $ git ??? ???
   ???.??? ???
 ```
-*`config`
-*`--global`
-*`credential`
-*`helper`
-*`cache`
+
+* `config`
+* `--global`
+* `credential`
+* `helper`
+* `cache`
 
 ---
 ## Revision
@@ -62,7 +63,9 @@ To cache your credentials for 15 minutes you would run:
 $ git ??? ??? 
   credential.??? ???
 ```
-*`config`
-*`--global`
-*`helper`
-*`cache`
+
+* `config`
+* `--global`
+* `helper`
+* `cache`
+

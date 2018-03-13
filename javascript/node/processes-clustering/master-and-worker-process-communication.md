@@ -1,4 +1,4 @@
-# Master and Worker Process Communication
+---
 author: tommarshall
 
 levels:
@@ -13,8 +13,12 @@ type: normal
 
 category: tip
 
+
+
+
 ---
 ## Content
+# Master and Worker Process Communication
 
 Messages can be sent between the *master* process and its *worker* processes to assign tasks, return that tasks are completed, and other operations.
 
@@ -58,6 +62,7 @@ Complete the following snippet to listen for messages in the *master* from a *wo
 });
 ```
 
+
 * `worker`
 * `message`
 * `call`
@@ -75,8 +80,10 @@ The following code snippet should send a string message from the **master** proc
 ???.???('From master to worker..');
 ```
 
-*`worker`
-*`send`
-*`on`
-*`master`
-*`process`
+
+* `worker`
+* `send`
+* `on`
+* `master`
+* `process`
+

@@ -1,4 +1,4 @@
-# What is a checksum?
+---
 author: rosielowther
 
 levels:
@@ -9,13 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Getting-Started-Git-Basics){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Getting-Started-Git-Basics){website}'
+
 
 ---
 ## Content
+# What is a checksum?
 
 In git a **checksum** is a **SHA-1 hash**, which is a 40-character string of hexadecimal characters. 
 
@@ -35,6 +37,8 @@ In most places you can use a shorter version which is a 7-character hex string: 
 ## Revision
 
 Git *hashing* is based on the ??? of a file or directory structure .
-*content
-*name
-*date of creation
+
+* content
+* name
+* date of creation
+

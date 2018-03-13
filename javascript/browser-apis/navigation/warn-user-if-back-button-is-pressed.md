@@ -1,4 +1,4 @@
-# Warn user if **Back** button is pressed
+---
 author: catalin
 
 levels:
@@ -11,13 +11,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [viralpatel.net](http://viralpatel.net/blogs/disable-back-button-browser-javascript/){website}
+  - '[viralpatel.net](http://viralpatel.net/blogs/disable-back-button-browser-javascript/){website}'
+
 
 ---
 ## Content
+# Warn user if **Back** button is pressed
 
 As to prevent the loss of data in some cases, you will want to warn the user before pressing the **back** button and leave the current page.
 
@@ -40,6 +42,8 @@ window.??? = function() {
 };
 ```
 
-*`onbeforeunload`
-*`beforeunload`
-*`ifbackpressed`
+
+* `onbeforeunload`
+* `beforeunload`
+* `ifbackpressed`
+

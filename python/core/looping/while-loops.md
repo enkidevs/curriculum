@@ -1,4 +1,4 @@
-# `while` loops
+---
 author: tommarshall
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
 
 ---
 ## Content
+# `while` loops
 
 Python's `while` loops repeatedly loop and execute some code *whilst* a boolean statements evaluates to true.
 
@@ -56,7 +60,9 @@ while (x < 5):
 ```
 ???
 
-*`1 2 3 4 5`
-*`0 1 2 3 4`
-*`1 2 3 4`
-*`0 1 2 3 4 5`
+
+* `1 2 3 4 5`
+* `0 1 2 3 4`
+* `1 2 3 4`
+* `0 1 2 3 4 5`
+

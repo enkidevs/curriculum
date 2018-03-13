@@ -1,4 +1,4 @@
-# Identifying the Data Link Layer
+---
 author: milesflo
 
 levels:
@@ -15,14 +15,16 @@ category: must-know
 
 inAlgoPool: false
 
-parent: securing-the-physical-layer
 
 links:
 
-  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
+  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}'
+
+parent: securing-the-physical-layer
 
 ---
 ## Content
+# Identifying the Data Link Layer
 
 The Data Link Layer (Layer 2) is responsible for data transfer between two physical devices (or **nodes**) in a wide area network (WAN) or local area network (LAN). The Data Link Layer takes the form of both physical ethernet connections and wireless networking and the protocols that facilitate the transfer between them. Devices on this layer are identified by their media access control (MAC) address.
 
@@ -33,6 +35,7 @@ One note-worthy protocol in the Data Link Layer is the Address Resolution Protoc
 
 What role does the Data Link Layer play in the OSI 7 Layer Model?
 ???
+
 
 * Transmitting data between network nodes
 * Routing and transmission over the physical topography of the Internet
@@ -45,6 +48,7 @@ What role does the Data Link Layer play in the OSI 7 Layer Model?
 
 Nodes on the Data Link Layer are identified by their ???
 
+
 * MAC address
 * serial number
 * UUID
@@ -52,14 +56,15 @@ Nodes on the Data Link Layer are identified by their ???
 
 ---
 ## Quiz
+### What role does this Layer play in the OSI 7 Layer Model?
+```
+What role does the Data Link Layer play in the OSI 7 Layer Model?
+```
 
-headline: What role does this Layer play in the OSI 7 Layer Model?
+ ???
 
-question: |
-  What role does the Data Link Layer play in the OSI 7 Layer Model?
+* Transmitting data between network nodes
+* Routing and transmission over the physical topography of the Internet
+* Providing computational power via electronic circuits
+* Packaging data packets into data streams and vice versa for transport
 
-answers:
-  - Transmitting data between network nodes
-  - Routing and transmission over the physical topography of the Internet
-  - Providing computational power via electronic circuits
-  - Packaging data packets into data streams and vice versa for transport

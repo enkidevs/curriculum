@@ -1,4 +1,4 @@
-# Manipulating shapes using CSS: `shape-outside`
+---
 author: oj14henry
 
 levels:
@@ -19,13 +19,15 @@ tags:
 
   - outside
 
+
 links:
 
-  - >-
-    [css-tricks.com](https://css-tricks.com/working-with-shapes-in-web-design/){website}
+  - '[css-tricks.com](https://css-tricks.com/working-with-shapes-in-web-design/){website}'
+
 
 ---
 ## Content
+# Manipulating shapes using CSS: `shape-outside`
 
 You can wrap pieces of text around shapes using `shape-outside`. As of `CSS3`, this property only works on elements that have the property of `float` applied upon it.
 
@@ -51,18 +53,21 @@ However, this property is not supported by IE or Firefox and does not change the
 
 The `shape-outside` property only works on elements with the property of ??? applied onto it.
 
-*float
-*clear
-*fixed
-*shape
-*alter
+
+* float
+* clear
+* fixed
+* shape
+* alter
 
 ---
 ## Revision
 
 For the `shape-outside` property to work, which property must have been applied to it? ???
+
 * `float`
 * `hover`
 * `sticky`
 * `absolute`
 * `relative`
+

@@ -1,4 +1,4 @@
-# Using Proxies
+---
 author: alexjmackey
 
 levels:
@@ -9,16 +9,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+
 links:
-  
+
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy){website}'
+
+inAlgoPool:
 
 ---
 ## Content
+# Using Proxies
 
 Proxies allow you to intercept many different operations and methods:
 
@@ -93,3 +95,4 @@ Some potential usages:
 * Validation & logging
 * Extending constructors
 * As a shim/fallback for older browsers in the future
+

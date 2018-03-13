@@ -1,4 +1,4 @@
-# Const (Part 1)
+---
 author: alexjmackey
 
 levels:
@@ -6,6 +6,8 @@ levels:
   - beginner
 
 type: normal
+
+category: must-know
 
 tags:
 
@@ -15,16 +17,16 @@ tags:
 
   - memory
 
-inAlgoPool: false
-
-category: must-know
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const){website}'
 
+inAlgoPool:
+
 ---
 ## Content
+# Const (Part 1)
 
 The *`const`* (constant) keyword is new to ES6 and creates a variable that cannot be reassigned.
 
@@ -51,3 +53,4 @@ if(1==1){
    const year = 2016; //valid
 }
 ```
+
