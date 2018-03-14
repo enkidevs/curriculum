@@ -11,10 +11,12 @@ category: feature
 
 parent: working-with-set-s
 
+standards:
+  py.native-types-operations.5: 10
+
 notes: >+
   This one should be listed in a workout before the `frozenset` insight (id:
   56c47a58bb514406009a85ec )
-
 
 links:
 
@@ -25,7 +27,7 @@ links:
 ## Content
 
 Apart from set operations such as union and intersection, Python's `set` has other useful operations:
- 
+
 Add an element to a `set` (note: sets only accept **immutable** elements):
 ```python
 >>> enki = set("Enk")

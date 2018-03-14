@@ -9,12 +9,15 @@ type: normal
 
 category: how to
 
+standards:
+  py.native-types-operations.5: 10
+
 ---
 ## Content
 
 
 To perform *in-place set operations*[1], you can stick the `_update` keyword to the end of the set-specific methods call:
-```python 
+```python
 x = set('abc')
 y = set('cbd')
 x.difference_update(y)

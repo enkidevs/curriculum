@@ -11,10 +11,13 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  py.functions.1: 10
+
 ---
 ## Content
 
-To call a function in Python you simply write the functions name followed by some parentheses `()`.
+To call a function in Python you simply write the functions name followed by some brackets `()`.
 
 For example:
 

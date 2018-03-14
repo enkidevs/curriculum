@@ -11,6 +11,9 @@ type: normal
 
 category: best practice
 
+standards:
+  py.native-types-operations.4: 10
+
 links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/bisect.html){website}'

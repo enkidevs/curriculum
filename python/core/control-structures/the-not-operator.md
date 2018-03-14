@@ -9,6 +9,9 @@ type: normal
 
 inAlgoPool: false
 
+standards:
+  py.native-types-operations.0: 10
+
 category: must-know
 
 ---

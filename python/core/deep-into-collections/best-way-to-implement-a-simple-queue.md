@@ -11,6 +11,11 @@ category: best practice
 
 parent: double-ended-queues-with-deque
 
+standards:
+  cs.identify-linear-collection-data-structures-usage.2: 10
+  cs.implement-linear-collection-data-structures.2: 10
+
+
 notes: >-
   Insight content is correct. But the deque class has about 15 methods. Suggest
   adding a few examples of use of other methods.
@@ -45,14 +50,14 @@ A reverse queue can be implemented by opting for `appendleft` instead of `append
 ---
 ## Practice
 
-A queue can be implemented by using ???  and ??? for adding items, and by using ??? and ??? for removing items.
+A reverse queue can be implemented by using ???  instead of ??? for adding items, and by using ??? instead of ??? for removing items.
 
-* appendleft
-* append
-* pop
-* popleft
-* appendright
-* popright
+*appendleft
+*append
+*pop
+*popleft
+*appendright
+*popright
 
 ---
 ## Revision
@@ -68,11 +73,9 @@ queue.???
 queue.???
 print(queue)
 ```
-
-
-* `popleft()`
-* `appendleft("e")`
-* `pop()`
-* `append("e")`
-* `pop-left()`
-* `append-left("e")`
+*`popleft()`
+*`appendleft("e")`
+*`pop()`
+*`append("e")`
+*`pop-left()`
+*`append-left("e")`

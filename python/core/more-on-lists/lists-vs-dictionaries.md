@@ -9,6 +9,12 @@ type: normal
 
 category: must-know
 
+standards:
+  cs.analyze-complexity-search-sort-algorithms.0: 10
+  cs.analyze-complexity-data-structure-access-operations.1: 10
+  cs.analyze-complexity-data-structure-access-operations.5: 10
+
+
 links:
 
   - '[More information here](https://monjurulhabib.wordpress.com/2016/09/22/python-when-to-use-list-vs-tuple-vs-dictionary-vs-set-theory/)'

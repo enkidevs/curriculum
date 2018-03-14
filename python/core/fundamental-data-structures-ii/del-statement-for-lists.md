@@ -1,4 +1,4 @@
-# `del` statement for  lists
+# `del` statement for lists
 author: catalin
 
 levels:
@@ -9,6 +9,9 @@ type: normal
 
 category: must-know
 
+standards:
+  py.native-types-operations.4
+
 links:
 
   - >-
@@ -18,7 +21,7 @@ links:
 ## Content
 
 Python's `del` statement has multiple usages when used on `lists`.
-It differs from the `pop()` method because when using `del`, the element won't be returned when removing it. 
+It differs from the `pop()` method because when using `del`, the element won't be returned when removing it.
 
 Delete the *element* at a given *index*:
 ```python

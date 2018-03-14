@@ -13,6 +13,9 @@ type: normal
 
 category: feature
 
+standards:
+  py.native-types-operations.6: 10
+
 links:
 
   - >-
@@ -35,18 +38,18 @@ Specialized container datatypes are usually `dict` subclasses or wrappers around
 
 Notable implementations are :
 - the `Counter` class used for counting hashable objects.
--  `defaultdict` class used as a faster implementation of a specialised dictionary.
+-  `defaultdict` class used as a faster implementation of a specialized dictionary.
 - `namedtuple` class used for defining a meaning for every position in a tuple, often useful with databases or CSV files.
 
 ---
 ## Practice
 
-Which collections class is used as a faster implementation of a specialised dictionary?
+Which collections class is used as a faster implementation of a specialized dictionary?
 
 ???
 
-*`defaultdict` 
-*`specialdict` 
+*`defaultdict`
+*`specialdict`
 *`implementdict`
 
 ---
@@ -56,6 +59,6 @@ Which collections class is used for defining a meaning for every position in a t
 
 ???
 
-*`namedtuple` 
-*`definetuple` 
+*`namedtuple`
+*`definetuple`
 *`definitiontuple`

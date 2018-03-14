@@ -13,6 +13,9 @@ type: normal
 
 category: tip
 
+standards:
+  py.standard-library-data.0: 10
+
 ---
 ## Content
 
@@ -22,7 +25,7 @@ If you need to randomly select an item from a list:
 ```python
 import random
 items = ['here', 'to', 'one', 'strings']
-rand_item = 
+rand_item =
 items[random.randrange(len(items))]
 ```
 Use `randrange` (or `randint`) to generate a pseudo-random integer from the range indicated by it's arguments.

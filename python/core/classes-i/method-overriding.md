@@ -13,6 +13,9 @@ type: normal
 
 category: tip
 
+standards:
+  py.object-oriented.2: 10
+
 notes: >
   Again, preferably use other names for classes instead of words containing Enki
   all the time. More realistic names would help. E.g. Animal for the parent

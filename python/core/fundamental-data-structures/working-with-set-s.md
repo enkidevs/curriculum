@@ -10,6 +10,9 @@ type: normal
 
 category: must-know
 
+standards:
+  py.native-types-operations.5: 10
+
 links:
 
   - '[more about sets](http://www.python-course.eu/python3_sets_frozensets.php)'
@@ -19,7 +22,7 @@ links:
 
 In **Python**, **sets** have four main characteristics:
 - they are an **unordered collection** of elements;
-- every element is **unique** (no duplicates);
+- every elements is **unique** (no duplicates);
 - and every element must be **immutable**;
 - they can store elements of different **types**.
 

@@ -9,6 +9,10 @@ type: normal
 
 category: must-know
 
+standards:
+  py.identify-python-syntax.2: 10
+  py.object-oriented.0: 10
+
 ---
 ## Content
 

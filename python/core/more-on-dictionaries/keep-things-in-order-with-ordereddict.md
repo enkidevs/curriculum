@@ -11,6 +11,9 @@ type: normal
 
 category: feature
 
+standards:
+  py.native-types-operations.6: 10
+
 notes: >
   Notes by Vasudev:
 
@@ -84,19 +87,19 @@ Complete the code snippet to get the below output:
 
 ```python
 e = ???()  
-e['e'] = 'E' 
-e['n'] = 'N' 
-e['k'] = 'K' 
-e['i'] = 'I' 
-for k, v in e.???(): 
-    print(k, v) 
+e['e'] = 'E'
+e['n'] = 'N'
+e['k'] = 'K'
+e['i'] = 'I'
+for k, v in e.???():
+    print(k, v)
 
-# e E / n N / k K / i I 
+# e E / n N / k K / i I
 ```
-*`OrderedDict` 
-*`items` 
-*`dict` 
-*`print` 
-*`odict` 
-*`dictionary` 
+*`OrderedDict`
+*`items`
+*`dict`
+*`print`
+*`odict`
+*`dictionary`
 *`holds`

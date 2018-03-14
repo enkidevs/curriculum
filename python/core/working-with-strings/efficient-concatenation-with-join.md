@@ -13,6 +13,9 @@ type: normal
 
 category: tip
 
+standards:
+  py.standard-library-data.3: 10
+
 tags:
 
   - speed-up-code

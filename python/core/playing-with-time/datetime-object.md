@@ -13,6 +13,9 @@ inAlgoPool: false
 
 category: feature
 
+standards:
+  py.native-types-operations.8: 10
+
 parent: time-object
 
 links:

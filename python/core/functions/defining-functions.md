@@ -11,6 +11,10 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  py.functions.0: 10
+  py.identify-python-syntax.2: 10
+
 links:
 
   - '[anh.cs.luc.edu](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/functions.html){website}'
