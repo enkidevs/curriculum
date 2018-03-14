@@ -1,4 +1,4 @@
-# Maps and Sets in ES6
+---
 author: rosielowther
 
 levels:
@@ -15,11 +15,15 @@ category: feature
 
 links:
 
-  - '[www.2ality.com](http://www.2ality.com/2015/01/es6-maps-sets.html){website}'
+  - '[www.2ality.com](http://www.2ality.com/2015/01/es6-maps-sets.html)'
 
-  - '[MDN - Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set){website}'
+  - '[MDN - Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)'
 
-  - '[MDN - Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map){website}'
+  - '[MDN - Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)'
+
+---
+
+# Maps and Sets in ES6
 
 ---
 ## Content
@@ -70,5 +74,6 @@ Are **Sets** and **Maps** iterable?
 
 ???
 
-*`yes`
-*`no`
+* `yes`
+* `no`
+

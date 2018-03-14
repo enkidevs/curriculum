@@ -22,8 +22,11 @@ links:
 notes: 'https://css-tricks.com/more-control-over-text-decoration/'
 
 ---
-## Content
+
 # Change the style of the decoration with `text-decoration-style`
+
+---
+## Content
 
 ```css
 a {

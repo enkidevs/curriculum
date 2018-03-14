@@ -19,8 +19,11 @@ category: how to
 
 parent: inserting-data-into-a-heap-with-the-upheap-operation
 ---
-## Content
+
 # Removing Data From a Heap With The `downheap` Operation
+
+---
+## Content
 
 Finding the maximum value in a max-heap (or the minimum value in a min-heap) is easy: it's stored in the root node. However, we also want to be able to remove the maximum.
 

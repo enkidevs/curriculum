@@ -1,4 +1,4 @@
-# Security news delivered via DNS
+---
 author: tuwi.dc
 
 levels:
@@ -28,6 +28,10 @@ tags:
   - terminal
 
 ---
+
+# Security news delivered via DNS
+
+---
 ## Content
 
 The public service `istheinternetonfire.com` provides the latest short security news via DNS.
@@ -52,7 +56,9 @@ You can get security news via DNS from
 
 
 ???.
-*istheinternetonfire.com
-*google.com/security
-*facebook.com/security
-*twitter.com/security/api
+
+* istheinternetonfire.com
+* google.com/security
+* facebook.com/security
+* twitter.com/security/api
+

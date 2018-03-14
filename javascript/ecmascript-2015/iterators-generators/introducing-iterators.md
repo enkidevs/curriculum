@@ -20,8 +20,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Introducing Iterators
+
+---
+## Content
 
 An iterator is a special type of object that returns items from a sequence one at a time and remembers its position within the sequence. 
 

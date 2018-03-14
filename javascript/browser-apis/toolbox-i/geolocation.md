@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Geolocation
+
+---
+## Content
 
 The Geolocation API provides location information such as the latitude and longitude coordinates. 
 

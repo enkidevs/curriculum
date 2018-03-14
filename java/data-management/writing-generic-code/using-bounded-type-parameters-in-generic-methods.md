@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Using bounded type parameters in generic methods
+
+---
+## Content
 
 Sometimes it may be appropriate to write a generic method, however it will not be possible for it to accept *every* type while still maintaining all the necessary functionality.
 

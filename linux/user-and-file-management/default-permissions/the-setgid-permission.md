@@ -1,4 +1,4 @@
-# The `setgid` permission
+---
 author: catalin
 
 levels:
@@ -14,8 +14,14 @@ type: normal
 category: must-know
 
 tags:
+
   - deep
+
   - workout
+
+---
+
+# The `setgid` permission
 
 ---
 ## Content
@@ -76,3 +82,4 @@ $ ??? ??? myfile
 * `u+s`
 * `a-s`
 * `perm`
+

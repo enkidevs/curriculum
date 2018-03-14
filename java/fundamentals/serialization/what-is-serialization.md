@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # What Is Serialization?
+
+---
+## Content
 
 **Serialization** is a way to convert an object's state (i.e. the information about the object) to an array of bytes in *Java*. This information is of course retractable[1] and can be deserialized.
 

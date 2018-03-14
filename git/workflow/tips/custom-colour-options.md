@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Custom colour options
+
+---
+## Content
 
 You can change the default colour options for the console text.
 

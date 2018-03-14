@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Writing JUnit tests using `Assert`
+
+---
+## Content
 
 Making assertions allows us to check that our methods produce the correct outputs and that objects are in the states we expect them to be at run time.
 

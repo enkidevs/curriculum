@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Converting stack trace to a string
+
+---
+## Content
 
 To store stack trace as a string, you can use `Throwable.printStackTrace(...)`  
 For example:

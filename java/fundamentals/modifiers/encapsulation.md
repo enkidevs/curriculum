@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Encapsulation
+
+---
+## Content
 
 The third *Object-Oriented Programming* principle is **encapsulation**. It refers to the process of wrapping the data and the methods using that data together. Encapsulation means keeping the *variables* in a class private, and having methods in that particular class for accessing them. 
 

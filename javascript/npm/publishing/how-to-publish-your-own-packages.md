@@ -19,8 +19,11 @@ category: how to
 
 parent: tests
 ---
-## Content
+
 # How to Publish Your Own Packages
+
+---
+## Content
 
 You've been using *npm* for some time and you have found out that your favorite framework doesn't do something you really need. The beauty of npm is that everyone can publish their own packages. So you decide to give something back and extend the framework's capabilities.
 

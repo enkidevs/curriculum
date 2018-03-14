@@ -1,4 +1,4 @@
-# `Crontab` newline issue
+---
 author: tuwi.dc
 
 levels:
@@ -15,6 +15,8 @@ type: normal
 
 category: caveats
 
+parent: practical-cron
+
 tags:
 
   - linux
@@ -29,7 +31,9 @@ tags:
 
   - trick
 
-parent: practical-cron
+---
+
+# `Crontab` newline issue
 
 ---
 ## Content
@@ -46,7 +50,7 @@ command on the machine we can modify the content of the `crontab` file.
 An example of such file is:
 
 ```
-*/30 * * * * say -v whisper "I can see you"
+* /30 * * * * say -v whisper "I can see you"
 
 # don't forget the newline!
 ```
@@ -60,7 +64,8 @@ Note how after the last command there is an empty line ensuring that the `whispe
 
 is needed for `crontab` to run the last job in the list.
 
-*A newline at the end
-*A newline at the start
-*A comment at the end
-*$
+* A newline at the end
+* A newline at the start
+* A comment at the end
+* $
+

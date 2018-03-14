@@ -1,4 +1,4 @@
-# How to set your username and email
+---
 author: rosielowther
 
 levels:
@@ -11,8 +11,11 @@ category: must-know
 
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)'
+
+---
+
+# How to set your username and email
 
 ---
 ## Content
@@ -36,6 +39,7 @@ Set your username :
 $ git ??? ??? 
       ??? 'my username'
 ```
+
 * `config`
 * `--global`
 * `user.name`
@@ -51,9 +55,11 @@ Set your email :
 $ git ??? ??? 
       ??? 'me@email.com'
 ```
+
 * `config`
 * `--global`
 * `user.email`
 * `email`
 * `-m`
 * `user`
+

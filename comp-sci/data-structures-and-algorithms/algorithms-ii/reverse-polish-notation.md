@@ -22,8 +22,11 @@ links:
 
 parent: trie-data-structure
 ---
-## Content
+
 # Reverse Polish Notation
+
+---
+## Content
 
 **Reverse polish notation**, or *postfix notation*, is a mathematical notation in which the *operators* follow their *operands* (+, Ã— etc. can be found on the right-hand side of their operands).
 ```
@@ -71,7 +74,7 @@ What is the infix equivalent notation of the reverse polish notation `4 3 + 10 Ã
 
 ---
 ## Quiz
-### what is the result of the following expression?
+### What is the result of the following expression?
 // Evaluate the following expression written
 // using the reverse polish notation (postfix notation)
 2 3 * 4 - 5 / 6 + 0.4 -

@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # WHERE
+
+---
+## Content
 
 When added to an SQL `SELECT` statement, `WHERE` allows us to select rows in a table by specifying rules. The WHERE keyword can also be used to insert, update and delete data from tables.
 
@@ -85,16 +88,16 @@ Select all the rows from the `pokemon` table where the name is exactly equal to 
 ---
 ## Quiz
 ### Can you find a particular entry in a table with SQL?
-```
 
+```
 Consider the `ability` table and the following query:
 
-id   | is_main_series | generation_id |      name      
-=====+================+===============+===============
-   1 | t              |             3 | stench
-   2 | f              |             3 | drizzle
-   3 | t              |             3 | speed-boost
-   4 | t              |             3 | battle-armor
+|id | is_main_series | generation_id |     name     |
+|:-:|      :-:       |       :-:     |     :-:      |
+| 1 | t              |             3 | stench       |
+| 2 | f              |             3 | drizzle      |
+| 3 | t              |             3 | speed-boost  |
+| 4 | t              |             3 | battle-armor |
 (...)
 
 SELECT *
@@ -104,7 +107,7 @@ We want to get the record for the ability called "speed-boost". Which of the fol
 have this result when used with the above query?
 ```
 
- ???
+???
 
 * WHERE name='speed-boost';
 * WHERE name IS "speed-boost";

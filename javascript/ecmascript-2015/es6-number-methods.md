@@ -1,4 +1,4 @@
-# ES6 `Number` methods
+---
 author: rosielowther
 
 levels:
@@ -15,9 +15,13 @@ category: tip
 
 links:
 
-  - '[www.2ality.com](http://www.2ality.com/2015/04/numbers-math-es6.html){website}'
-  
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number){website}'
+  - '[www.2ality.com](http://www.2ality.com/2015/04/numbers-math-es6.html)'
+
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)'
+
+---
+
+# ES6 `Number` methods
 
 ---
 ## Content
@@ -62,6 +66,7 @@ Check if a number is a **safe** integer using `Number`:
 
 ???
 
-*`isSafeInteger(number)`
-*`isInteger(number)`
-*`isFinite()`
+* `isSafeInteger(number)`
+* `isInteger(number)`
+* `isFinite()`
+

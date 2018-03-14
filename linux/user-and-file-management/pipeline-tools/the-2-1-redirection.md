@@ -1,4 +1,4 @@
-# The `2>&1` redirection
+---
 author: tuwi.dc
 
 levels:
@@ -14,22 +14,28 @@ type: normal
 category: feature
 
 tags:
+
   - shell
+
   - bash
+
   - linux
+
   - filehandle
+
   - stderr
+
   - stdout
+
   - workout
-
-
-notes: ''
 
 links:
 
-  - >-
-    [More redirection
-    tricks](http://stackoverflow.com/questions/818255/in-the-shell-what-does-21-mean){website}
+  - '[More redirection tricks](http://stackoverflow.com/questions/818255/in-the-shell-what-does-21-mean)'
+
+---
+
+# The `2>&1` redirection
 
 ---
 ## Content
@@ -71,10 +77,11 @@ Redirect stdout to stderr :
 ```
 $ ls -ld ~/ ???
 ```
-*`1>&2`
-*`1>2`
-*`2>&1`
-*`2>1`
+
+* `1>&2`
+* `1>2`
+* `2>&1`
+* `2>1`
 
 ---
 ## Revision
@@ -82,19 +89,21 @@ $ ls -ld ~/ ???
 You can incorporate the error stream into the output stream using
 
 ??? .
-*2>&1
-*1>&2
-*2>&0
+
+* 2>&1
+* 1>&2
+* 2>&0
 
 ---
 ## Quiz
+### How do you merge output streams?
 
-headline: how do you merge output streams?
+Which of the following commands will suppress both stdout and stderr?
 
-question: Which of the following commands will suppress both stdout and stderr?
+???
 
-answers:
-  - ./script.sh &> /dev/null
-  - ./script.sh > /dev/null 1>&0
-  - ./script.sh 2>&1 > /dev/null
-  - ./script.sh 2>&0 > /dev/null
+* ./script.sh &> /dev/null
+* ./script.sh > /dev/null 1>&0
+* ./script.sh 2>&1 > /dev/null
+* ./script.sh 2>&0 > /dev/null
+

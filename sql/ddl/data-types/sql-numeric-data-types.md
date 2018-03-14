@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # SQL Numeric Data Types
+
+---
+## Content
 
 Probably the most used data types in tables are **numeric values**. They can be used for *id*s, *stats*, *damage points* etc. Even **true/false** (`bool`s or `boolean`s) values are considered to be numeric types.
 

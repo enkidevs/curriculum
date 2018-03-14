@@ -42,8 +42,11 @@ notes: >
   to show it.
 
 ---
-## Content
+
 # Method objects
+
+---
+## Content
 
 In Python, functions are seen as *objects* - and there is a clear distinction between a **method call** and a **method object**.
 

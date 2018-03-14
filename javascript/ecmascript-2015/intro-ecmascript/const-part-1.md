@@ -25,8 +25,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Const (Part 1)
+
+---
+## Content
 
 The *`const`* (constant) keyword is new to ES6 and creates a variable that cannot be reassigned.
 

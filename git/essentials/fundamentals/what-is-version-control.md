@@ -19,8 +19,11 @@ links:
 
 
 ---
-## Content
+
 # What is Version Control?
+
+---
+## Content
 
 **Version Control** defines a **system** intended to help software development teams record and manage changes to their source code[1].
 

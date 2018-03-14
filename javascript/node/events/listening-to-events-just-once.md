@@ -22,8 +22,11 @@ links:
 
 parent: consuming-events
 ---
-## Content
+
 # Listening to events just once
+
+---
+## Content
 
 If more than one uncaught exception was to be caught, the applications equivalent to a `closedown` method, where the application is shutdown, would be triggered more than once, consequently causing issues with the applications shutdown procedure.
 

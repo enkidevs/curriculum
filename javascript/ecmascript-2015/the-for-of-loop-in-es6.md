@@ -1,4 +1,4 @@
-# The `for-of` loop in ES6
+---
 author: rosielowther
 
 levels:
@@ -11,9 +11,13 @@ category: feature
 
 links:
 
-  - '[www.2ality.com](http://www.2ality.com/2015/02/es6-iteration.html){website}'
+  - '[www.2ality.com](http://www.2ality.com/2015/02/es6-iteration.html)'
 
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)'
+
+---
+
+# The `for-of` loop in ES6
 
 ---
 ## Content
@@ -58,3 +62,4 @@ Complete the syntax of `for-of` loop in **ES6**:
 * `in`
 * `while`
 * 'const'
+

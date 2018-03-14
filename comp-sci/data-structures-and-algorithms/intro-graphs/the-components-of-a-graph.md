@@ -13,8 +13,11 @@ category: must-know
 
 parent: the-graph-data-structure
 ---
-## Content
+
 # The Components of a Graph
+
+---
+## Content
 
 In a graph, a **path** is a sequence of vertices and edges , such that between two vertices in the path, there is an edge. In a *directed graph*, a **directed path** is a path such that all edges are directed and traversed along their direction. The path below is `[E, C, A, F]`:
 

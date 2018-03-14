@@ -30,8 +30,11 @@ links:
 
 
 ---
-## Content
+
 # Listing a file system's root directories
+
+---
+## Content
 
 Using the **static** `FileSystems` class, you can get the default `FileSystem` (note the missing `s`) through the `getDefault()` method.
 

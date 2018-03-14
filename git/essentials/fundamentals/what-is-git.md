@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # What is Git?
+
+---
+## Content
 
 **Git**[1] is the name of the most widely used *Distributed Version Control System*, and is the standard of version control for both commercial and open source projects.
 

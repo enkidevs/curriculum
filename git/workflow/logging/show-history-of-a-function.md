@@ -17,8 +17,11 @@ category: feature
 
 
 ---
-## Content
+
 # Show history of a function
+
+---
+## Content
 
 The line log search tool (`-L`) shows the history of a function or line of code.
 

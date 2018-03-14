@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Specify a range of commits using double dot syntax
+
+---
+## Content
 
 The double dot syntax specifies all commits that you can reach from one branch but not another, i.e. unmerged commits.
 

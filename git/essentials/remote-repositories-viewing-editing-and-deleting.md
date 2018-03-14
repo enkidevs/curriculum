@@ -1,4 +1,4 @@
-# Remote repositories: viewing, editing and deleting
+---
 author: rosielowther
 
 levels:
@@ -11,13 +11,16 @@ category: must-know
 
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)'
+
+---
+
+# Remote repositories: viewing, editing and deleting
 
 ---
 ## Content
 
-**Viewing**
+* *Viewing**
 
 To list the shortnames of all the remote repositories that you have configured:
 ```
@@ -30,13 +33,13 @@ $ git remote -v
 origin https://git.enki.com (fetch)
 origin https://git.enki.com (push)
 ``` 
-**Editing**
+* *Editing**
 
 To change the name of a remote repository from `ol` to `nu`:
 ```
 git remote rename ol nu
 ```
-**Deleting**
+* *Deleting**
 
 To remove a remote repository:
 ```
@@ -50,6 +53,7 @@ How do you remove the remote repository `enki`?
 ```
 $ ???
 ```
+
 * `git remote rm enki`
 * `git remote --delete enki`
 * `git untrack enki`
@@ -64,6 +68,7 @@ Rename the remote repository `origin` to `enki`
 $ git remote ??? ???
                      ???
 ```
+
 * `rename`
 * `origin`
 * `enki`
@@ -71,3 +76,4 @@ $ git remote ??? ???
 * `old`
 * `new`
 * `rm`
+

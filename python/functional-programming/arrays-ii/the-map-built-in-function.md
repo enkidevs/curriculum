@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # The `map` Built-in Function
+
+---
+## Content
 
 The `map` function is built in to the Python language. Together with the other built-in functions `filter` and `reduce`, `map` allows us to take a functional approach to programming in Python.
 

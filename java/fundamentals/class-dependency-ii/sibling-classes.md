@@ -17,8 +17,11 @@ tags:
 
 notes: 
 ---
-## Content
+
 # Sibling Classes
+
+---
+## Content
 
 Sibling classes cannot be assigned to each other, even with an explicit cast. 
 Because of that property, code below would cause a compile error.

@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Nested Functions
+
+---
+## Content
 
 Functions can be defined within the scope of other functions. Functions defined within other functions are known as *nested functions*.
 

@@ -17,8 +17,11 @@ links:
 notes: https://insights.enki.com/#/contrib/55ba52a4d5e04e4f0066fe2d
 
 ---
-## Content
+
 # Supply `toString()` in all classes
+
+---
+## Content
 
 *Java* `toString()` method is inherited by any object, both user defined or provided by the JDK.
 

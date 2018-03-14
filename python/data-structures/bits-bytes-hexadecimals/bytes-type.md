@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # `bytes` type
+
+---
+## Content
 
 Python uses built-in **core types** for manipulating binary data. Such a type is the `bytes` object  - **immutable** sequences of single bytes.
 

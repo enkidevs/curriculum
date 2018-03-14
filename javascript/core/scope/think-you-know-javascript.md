@@ -1,4 +1,4 @@
-# Think you know Javascript?
+---
 author: jordanfish
 
 levels:
@@ -14,6 +14,10 @@ type: fillTheGap
 category: tip
 
 notes: ''
+
+---
+
+# Think you know Javascript?
 
 ---
 ## Content

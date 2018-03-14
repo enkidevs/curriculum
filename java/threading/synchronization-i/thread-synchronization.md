@@ -17,8 +17,11 @@ links:
 
 
 ---
-## Content
+
 # Thread Synchronization
+
+---
+## Content
 
 **Synchronization** is a process of controlling the workflow of the threads regarding the order in which they access shared resources. This is a vital part of *threading* topic as threads often make use of the same resources which may lead to unforeseen results and data corruption due to parallel running. The situation in which the same resources are accessed and/or modified at the same time is called *race condition* and should be avoided to ensure correctness of the program.
 

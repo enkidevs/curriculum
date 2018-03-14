@@ -1,4 +1,4 @@
-# The Loopback Network Interface `lo`
+---
 author: jfarmer
 
 levels:
@@ -9,9 +9,11 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+---
+
+# The Loopback Network Interface `lo`
 
 ---
 ## Content
@@ -47,10 +49,11 @@ The loopback interface is used for debugging and running machine-internal networ
 You can access the loopback interface by going to 
 
 ???.
-*`http://127.0.0.1`
-*`http://loopback`
-*`http://localarea`
-*`http://l.p`
+
+* `http://127.0.0.1`
+* `http://loopback`
+* `http://localarea`
+* `http://l.p`
 
 ---
 ## Revision
@@ -58,7 +61,9 @@ You can access the loopback interface by going to
 Loopback interface always refers to the 
 
 ???.
-*machine itself
-*ISP address
-*router’s address
-*destination’s address
+
+* machine itself
+* ISP address
+* router’s address
+* destination’s address
+

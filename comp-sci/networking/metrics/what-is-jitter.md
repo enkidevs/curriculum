@@ -22,8 +22,11 @@ links:
 
 parent: what-is-packet-loss
 ---
-## Content
+
 # What is jitter?
+
+---
+## Content
 
 **Jitter** is defined as the variation in the delay of received packets in computer networks.
 

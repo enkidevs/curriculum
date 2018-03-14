@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Anonymous functions
+
+---
+## Content
 
 If you use a **function expression** to define a function, you can omit the function's name. The syntax is:
 ```

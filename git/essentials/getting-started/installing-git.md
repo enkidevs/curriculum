@@ -17,8 +17,11 @@ links:
 
 
 ---
-## Content
+
 # Installing Git
+
+---
+## Content
 
 In order to be able to use **Git**, it first must be available on your machine. You can install **Git** in various ways, depending on your Operating System.
 

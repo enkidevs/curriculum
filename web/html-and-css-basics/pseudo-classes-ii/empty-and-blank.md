@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # `:empty` and `:blank`
+
+---
+## Content
 
 With `:empty` you can select an element based on there being no children in it, whether that be elements, text nodes, or even white space nodes. So with `:empty`, even if the element contains a single space and nothing else, it will not be considered “empty”.
 

@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Inversion of Control
+
+---
+## Content
 
 **Inversion of control** is one of the problems of using **callbacks** for asynchronous programming in JavaScript.
 

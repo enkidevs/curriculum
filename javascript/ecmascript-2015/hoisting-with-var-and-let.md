@@ -1,4 +1,4 @@
-# Hoisting with `var` and `let`
+---
 author: ailiea
 
 levels:
@@ -17,7 +17,11 @@ tags:
 
 links:
 
-  - '[es6-features.org](http://es6-features.org/#BlockScopedVariables){website}'
+  - '[es6-features.org](http://es6-features.org/#BlockScopedVariables)'
+
+---
+
+# Hoisting with `var` and `let`
 
 ---
 ## Content
@@ -77,6 +81,7 @@ console.log(enki());
 // ???
 ```
 
-*`3.14`
-*`10`
-*`undefined`
+* `3.14`
+* `10`
+* `undefined`
+

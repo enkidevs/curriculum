@@ -1,4 +1,4 @@
-# Oh, that was the answer!
+---
 author: mihaiberq
 
 levels:
@@ -12,6 +12,10 @@ type: tetris
 category: must-know
 
 parent: primality-test
+---
+
+# Oh, that was the answer!
+
 ---
 ## Content
 

@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Throwing chained `exceptions`
+
+---
+## Content
 
 It is sometimes useful to be able to throw an exception in response to an exception; this is called _chaining exceptions_.
 

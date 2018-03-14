@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # SassScript Color Operations
+
+---
+## Content
 
 *SassScript's* arithmetic operations are supported for all color values, they perform on each component of a color in order.
 

@@ -28,8 +28,11 @@ notes: >
   and 'u'. 
 
 ---
-## Content
+
 # Immutable sets with `frozenset`
+
+---
+## Content
 
 Even though a `set` can't contain mutable objects, a set itself is in fact **mutable**.
 

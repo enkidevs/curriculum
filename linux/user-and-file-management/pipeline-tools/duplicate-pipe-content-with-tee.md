@@ -1,4 +1,4 @@
-# Duplicate pipe content with `tee`
+---
 author: catalin
 
 levels:
@@ -11,12 +11,18 @@ type: normal
 
 category: how to
 
+tags:
+
+  - workout
+
 links:
 
-  - '[en.wikipedia.org](https://en.wikipedia.org/wiki/Tee_(command)){website}'
+  - '[en.wikipedia.org](https://en.wikipedia.org/wiki/Tee_(command))'
 
-tags:
-  - workout
+---
+
+# Duplicate pipe content with `tee`
+
 ---
 ## Content
 
@@ -44,6 +50,7 @@ Print the output of `ls` command in two files:
 ```
 $ ??? ??? ??? fileone filetwo
 ```
+
 * `ls`
 * `|`
 * `tee`
@@ -60,6 +67,7 @@ Print the output of `ls` command in two files:
 ```
 $ ??? ??? ??? fileone filetwo
 ```
+
 * `ls`
 * `|`
 * `tee`
@@ -68,3 +76,4 @@ $ ??? ??? ??? fileone filetwo
 * `>>`
 * `>`
 * `<`
+

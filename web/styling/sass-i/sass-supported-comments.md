@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Sass Supported Comments
+
+---
+## Content
 
 There are two ways to comment out code in Sass. The first is a single-line comment:
 ```cs

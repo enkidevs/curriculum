@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Java Primitives
+
+---
+## Content
 
 In Java, **primitives** are the most basic data types. To be able to use a variable, it must be declared first, like this:
 ```java

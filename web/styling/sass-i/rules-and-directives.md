@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # @-Rules and Directives
+
+---
+## Content
 
 On top of supporting all CSS3 @-rules, Sass has it's own specific @-rules, known as *`directives`*.
 

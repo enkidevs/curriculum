@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Python versions
+
+---
+## Content
 
 ### Python 2
 

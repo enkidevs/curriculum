@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Closures
+
+---
+## Content
 
 A **closure** is created when you access a  variable outside of the immediate scope. 
 

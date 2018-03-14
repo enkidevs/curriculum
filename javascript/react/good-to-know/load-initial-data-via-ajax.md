@@ -20,8 +20,11 @@ links:
 
 parent: custom-proptype-s-to-be-required
 ---
-## Content
+
 # Load Initial Data via AJAX
+
+---
+## Content
 
 Data is typically fetched in the  `componentDidMount` lifecycle method. When the response has arrived, the data's stored in a state, triggering a render to update your user interface.
 

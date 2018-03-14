@@ -19,8 +19,11 @@ category: how to
 
 parent: reverse-polish-notation
 ---
-## Content
+
 # Parsing Reverse Polish Notation
+
+---
+## Content
 
 Postfix notation is used in *stack-based* languages and *pipeline-based* systems, like Unix pipelines.
 

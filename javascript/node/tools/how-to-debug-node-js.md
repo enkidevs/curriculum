@@ -19,8 +19,11 @@ links:
 
 notes: 
 ---
-## Content
+
 # How to debug Node.js
+
+---
+## Content
 
 There are many options when debugging Node applications.
 

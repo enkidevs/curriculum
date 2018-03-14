@@ -19,8 +19,11 @@ category: must-know
 
 parent: dijkstras-algorithm
 ---
-## Content
+
 # Dijkstra's Algorithm Iteration
+
+---
+## Content
 
 Consider the following undirected, weighted graph, for which **A** is the initial node:
 

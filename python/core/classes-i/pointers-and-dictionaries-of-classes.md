@@ -13,8 +13,11 @@ category: must-know
 
 
 ---
-## Content
+
 # Pointers and Dictionaries of Classes
+
+---
+## Content
 
 When saying two class instances are equal to one another, the instance on the left becomes the class instance on the right.
 

@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Avoid object mutations
+
+---
+## Content
 
 A **pure** function that returns a new object with the needed modifications can easily be implemented in **Redux**. However, if other properties are added later on to the object, you might need to update several pieces of your code. 
 

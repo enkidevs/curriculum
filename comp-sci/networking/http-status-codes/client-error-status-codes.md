@@ -25,8 +25,11 @@ links:
 
 parent: redirection-status-codes
 ---
-## Content
+
 # Client error status codes
+
+---
+## Content
 
 **Client error status codes** mean there has been an error in the request, made by the client.
 

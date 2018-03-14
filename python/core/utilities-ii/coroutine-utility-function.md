@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Coroutine Utility function
+
+---
+## Content
 
 Inside **Python**'s ` types`  module one can find the `coroutine` function since the introduction of **Python 3.5**. 
 

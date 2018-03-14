@@ -18,8 +18,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # EcmaScript 6
+
+---
+## Content
 
 ECMAScript 6 (also referred to as ECMAScript 2015 and ES6) is the latest version of the standard managed by ECMA International that JavaScript now tracks.  
 

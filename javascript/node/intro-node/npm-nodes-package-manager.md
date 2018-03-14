@@ -16,8 +16,11 @@ links:
 
 parent: executing-programs-with-node
 ---
-## Content
+
 # NPM, Node's Package Manager
+
+---
+## Content
 
 NPM is the package manager for JavaScript’s Node.js environment. It allows packages of code, modules, from developers across the world to be found, shared and implemented into your own systems.
 

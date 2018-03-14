@@ -17,8 +17,11 @@ links:
 parent: the-three-states-in-git
 
 ---
-## Content
+
 # How to unstage a staged file
+
+---
+## Content
 
 If you mistakenly stage a file and want to 'undo' this operation, you can use `git reset`.
 

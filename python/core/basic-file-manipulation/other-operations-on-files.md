@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Other operations on files
+
+---
+## Content
 
 **Python** provides more methods to ease `I/O` interactions and **file handling**. Among these we can count:
 - `tell()` which returns the current position in the file

@@ -21,8 +21,11 @@ links:
 
 parent: custom-proptype-s-to-be-required
 ---
-## Content
+
 # componentWillReceiveProps Not Triggered After Mounting
+
+---
+## Content
 
 `componentWillReceiveProps` isn't triggered once the node is added to the scene because of its design.
 

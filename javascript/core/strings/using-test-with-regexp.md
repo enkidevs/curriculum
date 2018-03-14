@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Using `.test()` with RegExp
+
+---
+## Content
 
 The `.test()` method takes a string  and checks it against a RegEx. 
 

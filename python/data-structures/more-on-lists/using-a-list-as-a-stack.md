@@ -17,8 +17,11 @@ links:
 parent: built-in-list-methods
 
 ---
-## Content
+
 # Using a `list` as a `stack`
+
+---
+## Content
 
 The `stack` abstract data type is widely used in all computer science. It basically serves as a collection where elements comes off based on the **LIFO** principle ( **last in**, **first out** ).
 

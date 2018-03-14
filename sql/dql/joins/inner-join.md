@@ -31,8 +31,11 @@ links:
 parent: avg-clause
 
 ---
-## Content
+
 # INNER JOIN
+
+---
+## Content
 
 The `JOIN` clauses combine multiple columns from one or more **related tables**, creating a new set of data. Joins are a core part of SQL as their existence promotes data singularity.
 
@@ -40,30 +43,30 @@ Take, for example, Pokémons and their abilities[1]. Abilities should have a nam
 
 For reference, here are some table entries for the `ability` table:
 ```
-id | is_main_series | generation_id | name
-===+================+===============+======
-1  |      True      |       3       | stench
-2  |      True      |       3       |drizzle
-3  |      True      |       3 | speed-boost
-4  |      True      |       3 | battle-armor
+|id |is_main_series|generation_id|    name    |
+|:-:|      :-:     |      :-:    |     :-:    |
+| 1 |     True     |       3     |stench      |
+| 2 |     True     |       3     |drizzle     |
+| 3 |     True     |       3     |speed-boost |
+| 4 |     True     |       3     |battle-armor|
 ```
 And for the `ability_effect_text`:
 ```
-id |       effect       |   short_effect   |
-   |     ability_id     |   language_id    |
-===+====================+==================+
-1  | This Pokémon's damaging moves have ...
-   | Has 10% chance of making target ...
-   |         1          |        9         |
-2  | The weather changes to rain when ...
-   | Summons rain that lasts indefinitely...
-   |         2          |        9         |
-3  | This Pokémon's Speed rises one stage...
-   | Raises Speed one stage after each turn.
-   |         3          |        9         |
-4  | Moves cannot score critical hits ...
-   | Protects against critical hits.
-   |         4          |        9         |
+|id |       effect       |   short_effect   |
+|   |     ability_id     |   language_id    |
+|:-:|       :-:          |       :-:        |
+| 1 | This Pokémon's damaging moves have ...
+|   | Has 10% chance of making target ...
+|   |         1          |        9         |
+| 2 | The weather changes to rain when ...
+|   | Summons rain that lasts indefinitely...
+|   |         2          |        9         |
+| 3 | This Pokémon's Speed rises one stage...
+|   | Raises Speed one stage after each turn.
+|   |         3          |        9         |
+| 4 | Moves cannot score critical hits ...
+|   | Protects against critical hits.
+|   |         4          |        9         |
 ```
 To match the abilities that can be found in both tables, use the following `INNER JOIN` command:
 ```SQL
@@ -75,16 +78,16 @@ ability.id = ability_effect_text.ability_id;
 ```
 The first 2 rows of the result would be:
 ```
-name    |              effect
-========+==================================
-stench  | This Pokémon's damaging moves
-  have a 10% to make the target flinch with
-  each hit...
-         Overworld: The wild encounter
-  rate is halved while this Pokémon is first
-  in the party.
-drizzle | The weather changes to rain
-  when this Pokémon enters battle...
+| name   |            effect                 |
+|  :-:   |             :-:                   |
+| stench | This Pokémon's damaging moves     |
+|  have a 10% to make the target flinch with |
+|  each hit...                               |
+|         Overworld: The wild encounter      |
+|  rate is halved while this Pokémon is first|
+|  in the party.                             |
+|drizzle | The weather changes to rain       |
+|  when this Pokémon enters battle...        |
 ```
 
 Here's the operation depiction:
@@ -108,7 +111,6 @@ Fill in the blanks such that the following snippet contains a valid JOIN operati
 ??? = item_effect_text.item_id;
 ```
 
-
 * `SELECT`
 * `FROM`
 * `INNER JOIN`
@@ -123,7 +125,6 @@ What's the sets theory equivalent of `INNER JOIN`?
 
 ???
 
-
 * intersection
 * union
 * difference
@@ -132,13 +133,13 @@ What's the sets theory equivalent of `INNER JOIN`?
 ---
 ## Quiz
 ### Can you filter one table based on data in another table in SQL?
-```
 
+```
 Consider `pokemon` and `pokemon_species` tables. The first one has two columns `height` and `weight`. The latter has a boolean valued column `is_baby`. Select the query that will get the name, height and width of
 all pokemons that are babies:
 ```
 
- ???
+???
 
 * SELECT pokemon_species.name,pokemon.height,pokemon.weight FROM pokemon INNER JOIN pokemon_species ON pokemon.pokemon_species_id = pokemon_species.id WHERE pokemon_species.is_baby='t';
 * SELECT pokemon.name,pokemon.height,pokemon.weight FROM pokemon LEFT JOIN pokemon_species ON pokemon.pokemon_species_id = pokemon_species.id WHERE pokemon_species.is_baby='t';

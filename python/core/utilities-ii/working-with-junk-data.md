@@ -19,8 +19,11 @@ links:
 parent: compare-sequences-with-difflib
 
 ---
-## Content
+
 # Working with junk data
+
+---
+## Content
 
 The `SequenceMatcher` class inside `difflib` has its constructor's first argument either defaulted to `None` or a one-argument function that takes a sequence and returns true if the element is **junk** and is to be ignored. 
 

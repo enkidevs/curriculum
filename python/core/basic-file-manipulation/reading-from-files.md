@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Reading from files
+
+---
+## Content
 
 After opening a **file object**, we have three **operations** available in **Python** for reading files:
 - `read()`

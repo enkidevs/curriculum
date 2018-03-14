@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # String Formatting
+
+---
+## Content
 
 Python uses string formatting in a similar way to the language C to create new and formatted strings.
 

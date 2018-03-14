@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # What is SQL?
+
+---
+## Content
 
 A *Query Language*  is a programming language that provides enough functionality in order to operate on a database. We can think of a *Query Language* as a user interface language with particular syntax which acts as a intermediate layer between the user/database administrator and an **RDBMS** (*Relational Database Management System*).
 

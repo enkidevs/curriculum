@@ -1,4 +1,4 @@
-# CSS for when JavaScript is enabled
+---
 author: pawel
 
 levels:
@@ -16,6 +16,10 @@ category: hack
 tags:
 
   - css-javascript
+
+---
+
+# CSS for when JavaScript is enabled
 
 ---
 ## Content
@@ -57,10 +61,11 @@ Add a class to the root `<html>`:
 ???.???.className = "myClass";
 ```
 
-*`document`
-*`documentElement`
-*`root`
-*`html`
-*`parent`
-*`top`
-*`window`
+* `document`
+* `documentElement`
+* `root`
+* `html`
+* `parent`
+* `top`
+* `window`
+

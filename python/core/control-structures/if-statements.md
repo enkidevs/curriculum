@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # `if` statements
+
+---
+## Content
 
 Python uses *booleans* to evaluate conditions. A boolean variable has two values, true and false, and one of these will be returned once a condition has been evaluated.
 

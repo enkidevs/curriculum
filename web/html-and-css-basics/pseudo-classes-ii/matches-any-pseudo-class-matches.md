@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Matches-any pseudo-class `:matches`
+
+---
+## Content
 
 The `:matches` pseudo-class allows the application of rules to groups of selectors.
 

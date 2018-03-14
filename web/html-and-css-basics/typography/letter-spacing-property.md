@@ -17,8 +17,11 @@ category: feature
 
 
 ---
-## Content
+
 # `letter-spacing` property 
+
+---
+## Content
 
 Use `letter-spacing` to increase legibility of the headings and to properly justify the text. 
 

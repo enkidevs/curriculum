@@ -22,8 +22,11 @@ links:
 parent: datetime-module
 
 ---
-## Content
+
 # `date` and `time` in `datetime`
+
+---
+## Content
 
 In the `datetime` module the `time` class is used to represent time values, while the `date` class provides support for calendar date values.
 

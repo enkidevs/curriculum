@@ -19,15 +19,16 @@ tags:
 
   - conditional
 
-
 links:
 
   - '[alvinalexander.com](http://alvinalexander.com/java/edu/pj/pj010018){website}'
 
+---
+
+# Ternary operator
 
 ---
 ## Content
-# Ternary operator
 
 An alternative to using an if/else statement is the use of the ternary operator, whose syntax appears below.
 ```
@@ -89,11 +90,13 @@ int num = x > 2 ??? 2 ??? 0
 ### Which single boolean should be negated for the output to be `true`?
 ```
 
-System.out.println(true?false:true==true?false:true);
-                    1     2    3          4
+System
+.out
+.println(true?false:true==true?false:true);
+          1    2     3          4
 ```
 
- ???
+???
 
 * 2
 * 1

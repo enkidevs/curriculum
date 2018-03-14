@@ -21,13 +21,14 @@ tags:
 
   - workout
 
-
-
 parent: union
 
 ---
-## Content
+
 # INSERT
+
+---
+## Content
 
 The `INSERT` operation allows new entries to be added to the table. The base syntax is as follows:
 ```SQL

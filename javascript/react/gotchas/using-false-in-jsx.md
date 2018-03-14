@@ -18,8 +18,11 @@ links:
 
 parent: custom-proptype-s-to-be-required
 ---
-## Content
+
 # Using `false` in **JSX**
+
+---
+## Content
 
 The usage of the `false` keyword in **JSX** and implicitly **React** is worth mentioning because of its volatile behaviour.
 

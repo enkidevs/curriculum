@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Retention and Inherited Annotations
+
+---
+## Content
 
 *Retention* annotation is a *meta annotation* i.e. it describes other annotations. In this case it used to choose at which stage of development this annotation is seen:
  - Visible in code by programmers only: `RetentionPolicy.SOURCE`

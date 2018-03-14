@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Using `valueOf` to convert strings to numeric values
+
+---
+## Content
 
 The `Number` class and its subclasses, such as `Integer`, all contain the method `valueOf` which can be used to convert strings containing numbers into a numeric format. 
 ```

@@ -22,8 +22,11 @@ links:
 
 parent: packages-vs-modules
 ---
-## Content
+
 # Scoped packages
+
+---
+## Content
 
 Since *npm* started supporting scoping, multiple packages can have the same name while they are under a different **scope** (that acts like a namespace).
 

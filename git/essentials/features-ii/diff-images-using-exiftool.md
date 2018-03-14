@@ -19,8 +19,11 @@ links:
 
 
 ---
-## Content
+
 # Diff images using *ExifTool*
+
+---
+## Content
 
 *ExifTool* can extract the metadata (EXIF) from image files and convert it into text.
 

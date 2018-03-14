@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # The `display` Property
+
+---
+## Content
 
 Alongside `box-sizing`, another important property that sets how much space an element should occupy is `display`.
 

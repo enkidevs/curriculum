@@ -32,8 +32,11 @@ links:
 
 
 ---
-## Content
+
 # Use the `box-shadow` property to create shadow effects on an element
+
+---
+## Content
 
 The required values are the sizes of offset-x and offset-y of the shadow. You can also add `color`, `blur-radius` and `spread-radius`.
 

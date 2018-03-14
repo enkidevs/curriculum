@@ -17,8 +17,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Online Debugging Options
+
+---
+## Content
 
 It can be useful to quickly test a bit of code without having to create HTML and JavaScript files.
 

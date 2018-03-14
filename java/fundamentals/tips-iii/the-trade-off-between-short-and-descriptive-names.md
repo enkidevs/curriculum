@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # The trade-off between short and descriptive names
+
+---
+## Content
 
 Using excessively long names for classes, methods or variables can make code more difficult to write and format. 
 

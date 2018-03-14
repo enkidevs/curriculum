@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Errors and Excpetions
+
+---
+## Content
 
 We can distinguish at least two types of errors in Python: **syntax errors** and **exceptions**.
 

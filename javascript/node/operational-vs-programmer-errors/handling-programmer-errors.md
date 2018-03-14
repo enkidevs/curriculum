@@ -23,8 +23,11 @@ tags:
 
 
 ---
-## Content
+
 # Handling Programmer Errors
+
+---
+## Content
 
 Programmer errors are *bugs*. Hence, they **can't and shouldn't** be handled. The only way to deal with them is to debug and fix the problem. If the error is expected, that makes it operational.
 

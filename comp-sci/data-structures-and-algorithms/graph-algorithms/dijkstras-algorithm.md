@@ -18,12 +18,15 @@ category: must-know
 
 links:
 
-  - '[Step-by-step, interactive Dijkstra's algorithm application](https://www-m9.ma.tum.de/graph-algorithms/spp-dijkstra/index_en.html){website}'
+    - "[Step-by-step, interactive Dijkstra's algorithm application](https://www-m9.ma.tum.de/graph-algorithms/spp-dijkstra/index_en.html){website}"
 
 parent: levenshtein-distance
 ---
-## Content
+
 # Dijkstra's Algorithm
+
+---
+## Content
 
 **Dijkstra's algorithm** is an algorithm for finding the shortest paths between nodes in a *weighted graph*[1].
 

@@ -23,8 +23,11 @@ links:
 
 
 ---
-## Content
+
 # Make text unselectable
+
+---
+## Content
 
 This is a method in CSS to make text in a web page unselectable. 
 

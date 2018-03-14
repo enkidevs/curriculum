@@ -13,8 +13,11 @@ category: how to
 
 
 ---
-## Content
+
 # Mixing sets and frozensets
+
+---
+## Content
 
 To perform *in-place set operations*[1], you can stick the `_update` keyword to the end of the set-specific methods call:
 ```python 

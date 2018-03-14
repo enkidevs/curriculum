@@ -15,8 +15,11 @@ category: feature
 
 parent: check-data-about-a-package
 ---
-## Content
+
 # Abbreviate commands in npm
+
+---
+## Content
 
 `npm` uses `abbrev` program to provide abbreviations for its commands. Shorthands for most common commands are also available.
 

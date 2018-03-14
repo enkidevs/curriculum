@@ -11,7 +11,7 @@ category: feature
 
 tags:
 
-  - @media
+  - '@media'
 
   - responsive
 
@@ -24,8 +24,11 @@ tags:
 notes: The length of the topic might be an issue
 
 ---
-## Content
+
 # Using `@media` rule to create cross platform responsiveness
+
+---
+## Content
 
 The `@media` rule is a way to communicate with the designated device and can be used to change the CSS rules depending on the device properties.
 

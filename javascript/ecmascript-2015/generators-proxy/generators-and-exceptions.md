@@ -20,8 +20,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Generators and Exceptions
+
+---
+## Content
 
 All code inside a generator despite appearances works  synchronously.
 

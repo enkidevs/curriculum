@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Sass Mixins
+
+---
+## Content
 
 A *mixin* is used to allow you to create groups of CSS declarations which you can then reuse throughout your website. A good use for a mixin is for vendor prefixes.
 

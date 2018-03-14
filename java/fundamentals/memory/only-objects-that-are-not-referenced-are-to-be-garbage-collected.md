@@ -20,8 +20,11 @@ links:
 
 notes: https://insights.enki.com/#/contrib/others/55f4be87d7d6642d0011873b?search=kha
 ---
-## Content
+
 # Only objects that are not referenced are to be garbage collected.
+
+---
+## Content
 
 In order for a *Java* object to be automatically garbage collected, all the references to it must be *nullified*.
 

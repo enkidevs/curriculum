@@ -1,4 +1,4 @@
-# List currently logged in users
+---
 author: tuwi.dc
 
 levels:
@@ -25,8 +25,11 @@ tags:
 
 links:
 
-  - >-
-    [www.cyberciti.biz](http://www.cyberciti.biz/faq/unix-linux-w-command-examples-syntax-usage-2/){website}
+  - '[www.cyberciti.biz](http://www.cyberciti.biz/faq/unix-linux-w-command-examples-syntax-usage-2/)'
+
+---
+
+# List currently logged in users
 
 ---
 ## Content
@@ -64,13 +67,13 @@ Find information about a user named `tom`:
 $ ??? ???
 ```
 
-*`w`
-*`tom`
-*`-s`
-*`enki`
-*`ls`
-*`user`
-*`find`
+* `w`
+* `tom`
+* `-s`
+* `enki`
+* `ls`
+* `user`
+* `find`
 
 ---
 ## Revision
@@ -79,20 +82,8 @@ To check if other people are connected to a server you are using, you could run
 
 ??? .
 
-*w
-*ssh users
-*ssh -u
-*ssh -w
+* w
+* ssh users
+* ssh -u
+* ssh -w
 
----
-## Footnotes
-
-[1:Tip]
-Other flags can be used as well:
-- `-h` won't print the header
-- `-u` ignores current process name
-- `-f` shows remote hostname field
-- `-o` will use old style output
-
-[2:Additional Information]
-Other columns printed by `w` command include `JCPU` and `PCPU` time.

@@ -1,4 +1,4 @@
-# `if/else` shortcut `conditional operator`
+---
 author: pawel
 
 levels:
@@ -11,14 +11,13 @@ type: normal
 
 category: pattern
 
-notes: >-
-  It's always struggle for me for now to decide if it's not too simple to put it
-  here, hope I made a right call here :)
-
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Conditional_Operator){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)'
+
+---
+
+# `if/else` shortcut `conditional operator`
 
 ---
 ## Content
@@ -60,10 +59,10 @@ a conditional operator?
 var animal = 'lion';
 var run = (animal === 'lion')? true:???;
 
-*false
-*undefined
-*null
-*true
+* false
+* undefined
+* null
+* true
 ```
 
 ---
@@ -82,8 +81,9 @@ a conditional operator?
 var animal = 'lion';
 var run = (animal === 'lion')? true:???;
 
-*false
-*undefined
-*null
-*true
+* false
+* undefined
+* null
+* true
 ```
+

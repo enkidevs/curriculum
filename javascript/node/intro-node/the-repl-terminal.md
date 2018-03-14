@@ -16,8 +16,11 @@ links:
 
 parent: installing-node-js
 ---
-## Content
+
 # The REPL Terminal
+
+---
+## Content
 
 REPL stands for Read Eval Print Loop. It represents an environment similar to a Windows console or Linux shell, where commands can be entered and the system would respond with the appropriate output.
 

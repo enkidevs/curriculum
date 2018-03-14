@@ -23,8 +23,11 @@ links:
 
 parent: differences-between-bandwidth-and-throughput
 ---
-## Content
+
 # Tools to interact with Networks
+
+---
+## Content
 
 We have witnessed an exponential growth in the size of **computer networks** since their introduction, with more and more people joining them every day.
 

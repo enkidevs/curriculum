@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # The `abstract` keyword
+
+---
+## Content
 
 An `abstract` method is a method that is declared without an implementation.
 ```

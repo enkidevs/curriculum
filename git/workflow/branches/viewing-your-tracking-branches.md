@@ -17,8 +17,11 @@ links:
 parent: managing-branches
 
 ---
-## Content
+
 # Viewing your tracking branches
+
+---
+## Content
 
 You can view your tracking branches by using the `-vv` option.
 

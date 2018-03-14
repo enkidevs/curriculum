@@ -17,8 +17,11 @@ links:
 
 
 ---
-## Content
+
 # Threading
+
+---
+## Content
 
 **Threading** is a concept of splitting a single *process* into concurrent execution of two or more tasks. These tasks or **threads** can be run either asynchronously or synchronously and each of them has its own path of execution within the program. This concept is of course not limited to *Java* only and can be applied to many languages.
 

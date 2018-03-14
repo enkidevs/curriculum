@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # A thread-safe `Queue`
+
+---
+## Content
 
 Python's `queue` (formerly `Queue`) module provides implementations for queues and abstract data structures that are suitable for multi threading. 
 

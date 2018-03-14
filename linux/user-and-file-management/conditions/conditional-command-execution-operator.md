@@ -1,4 +1,4 @@
-# Conditional command execution (`&&` operator)
+---
 author: nene
 
 levels:
@@ -12,8 +12,12 @@ type: normal
 category: must-know
 
 tags:
+
   - chaining operators
 
+---
+
+# Conditional command execution (`&&` operator)
 
 ---
 ## Content
@@ -35,6 +39,7 @@ The above creates *newFolder* and cd into it.
 
 `&&` operator is used to execute a second command if the first one ??? .
 
-*succeeds
-*fails
-*is not found
+* succeeds
+* fails
+* is not found
+

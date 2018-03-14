@@ -31,8 +31,11 @@ links:
 parent: create-a-table
 
 ---
-## Content
+
 # Add Column
+
+---
+## Content
 
 If we would like to add a new column to a certain table, we can use the `ALTER TABLE` statement:
 ```
@@ -51,11 +54,11 @@ DROP COLUMN column_name
 
 Consider the "gender" table. We want to add a new column called "members". This column will store data about how many members each gender has:
 ```
-id |    name    
-===+============
- 1 | female
- 2 | male
- 3 | genderless
+|id |    name    |
+|:-:|    :-:     |
+| 1 | female     |
+| 2 | male       |
+| 3 | genderless |
 (3 rows)
 
 ??? gender
@@ -74,20 +77,18 @@ ADD ??? ???;
 
 Consider the "generation" table. We want to delete the "region_id" column:
 ```
-id | region_id |      name      
-===+===========+===============
- 1 |         1 | generation-i
- 2 |         2 | generation-ii
- 3 |         3 | generation-iii
- 4 |         4 | generation-iv
- 5 |         5 | generation-v
- 6 |         6 | generation-vi
+|id | region_id |      name      |
+|:-:|    :-:    |      :-:       |
+| 1 |         1 | generation-i   |
+| 2 |         2 | generation-ii  |
+| 3 |         3 | generation-iii |
+| 4 |         4 | generation-iv  |
+| 5 |         5 | generation-v   |
+| 6 |         6 | generation-vi  |
 (6 rows)
 
     ???
 ```
-
-
 
 * ALTER TABLE generation DROP COLUMN region_id;
 * ALTER TABLE generation DROP region_id;

@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # `Lambda` Functions
+
+---
+## Content
 
 Python has two tools for building functions, `def` and `lambda`.
 

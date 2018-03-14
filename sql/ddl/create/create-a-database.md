@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # Create a Database
+
+---
+## Content
 
 We will create a PostgreSQL database. Using the terminal we need to enter the following command:
 ```

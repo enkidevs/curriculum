@@ -19,8 +19,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Iterator Usages
+
+---
+## Content
 
 Of course, iterators can work with any sequence of items you want so you could use iterator for: 
 

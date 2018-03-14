@@ -19,12 +19,12 @@ tags:
 
   - deep
 
+---
 
-
+# Storing JSON in SQL Server
 
 ---
 ## Content
-# Storing JSON in SQL Server
 
 SQL Server, or Microsoft SQL, has no default JSON data type but provides functional support to query the JSON objects stored as strings:
 ```SQL
@@ -59,9 +59,9 @@ JSON_VALUE(pokemon, '$.moves[0].level') = 1
 ```
 With the output:
 ```
-  id   |    name
-=======+============
-   1   |  Bulbasaur
+| id  |    name   |
+| :-: |    :-:    |
+|  1  | Bulbasaur |
 ```
 One of the advantages of MSSQL is that it can parse JSON strings as tables on the go.
 

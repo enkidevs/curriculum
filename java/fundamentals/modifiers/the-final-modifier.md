@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # The `final` Modifier
+
+---
+## Content
 
 The `final` modifiers limits the initializations number to *1*. A final variable cannot be reassigned to refer another object.
 
@@ -69,7 +72,7 @@ Variables declared `final` cannot be ???.
 
 ---
 ## Quiz
-### how do final variables work?
+### How do final variables work?
 ```
 public class Person {
   String name = "name";

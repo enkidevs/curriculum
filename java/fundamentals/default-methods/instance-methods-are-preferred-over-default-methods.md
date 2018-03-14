@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # Instance methods are preferred over `default` methods
+
+---
+## Content
 
 When a conflict between an instance method and a `default` method with the same signatures occurs, the Java compiler will use the instance method's implementation.
 

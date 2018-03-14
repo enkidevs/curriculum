@@ -30,8 +30,11 @@ links:
 
 notes: 
 ---
-## Content
+
 # Different types of variables in Java
+
+---
+## Content
 
 Java supports three kinds of variables.  
 

@@ -1,4 +1,4 @@
-# Generators as observers in ES6
+---
 author: rosielowther
 
 levels:
@@ -13,9 +13,13 @@ category: feature
 
 links:
 
-  - '[www.2ality.com](http://www.2ality.com/2015/03/es6-generators.html){website}'
-  
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}'
+  - '[www.2ality.com](http://www.2ality.com/2015/03/es6-generators.html)'
+
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator)'
+
+---
+
+# Generators as observers in ES6
 
 ---
 ## Content
@@ -56,7 +60,8 @@ What statement will terminate a generator?
 
 ???
 
-*`return`
-*`yield`
-*`next`
-*`throw`
+* `return`
+* `yield`
+* `next`
+* `throw`
+

@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Default constructors
+
+---
+## Content
 
 If there is no constructor explicitly defined in a subclass, the Java compiler will automatically add a no-argument constructor of its superclass. 
 

@@ -26,8 +26,11 @@ notes: >-
   character, etc.
 
 ---
-## Content
+
 # Regular expressions 
+
+---
+## Content
 
 **Regular expressions** (re) are everywhere in programming. These text matching patterns are also available in Python via the `re` module.
 

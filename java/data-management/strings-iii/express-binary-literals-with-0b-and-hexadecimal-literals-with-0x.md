@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Express binary literals with `0b` and hexadecimal literals with `0x`
+
+---
+## Content
 
 Binary values can be expressed using the `0b` or `0B` prefix.
 ```

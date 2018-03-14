@@ -20,8 +20,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Multiple Functions in Single Module
+
+---
+## Content
 
 A module always exists in one file but within this file we can declare multiple functions. 
 

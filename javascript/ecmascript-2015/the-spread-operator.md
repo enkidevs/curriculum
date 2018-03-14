@@ -1,4 +1,4 @@
-# The `spread` operator
+---
 author: rosielowther
 
 levels:
@@ -15,13 +15,18 @@ category: must-know
 
 tags:
 
-  - ''
+  - 
 
 links:
 
-  - '[ponyfoo.com](https://ponyfoo.com/articles/es6-spread-and-butter-in-depth){website}'
-  
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Array_destructuring){website}'
+  - '[ponyfoo.com](https://ponyfoo.com/articles/es6-spread-and-butter-in-depth)'
+
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Array_destructuring)'
+
+---
+
+# The `spread` operator
+
 ---
 ## Content
 
@@ -55,6 +60,7 @@ console.log.apply(console, [1, 2, 3, 4, 5])
 // ES6
 console.log(1, ???[2, 3, 4], 5)
 ```
+
 * `...`
 * `spread`
 * `...spread`
@@ -72,3 +78,4 @@ What can be used instead of `.apply` to pass arguments from a dynamic array to a
 * `const`
 * `push`
 * `Object.assign`
+

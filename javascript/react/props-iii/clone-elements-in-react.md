@@ -21,8 +21,11 @@ links:
 
 parent: custom-proptype-s-to-be-required
 ---
-## Content
+
 # Clone Elements in **React**
+
+---
+## Content
 
 **React** provides different ways to clone elements. The `React.cloneElement` method, unlike `React.addons.cloneWithProps` can clone an element whilst keeping the `key` and `ref` of the original one.
 

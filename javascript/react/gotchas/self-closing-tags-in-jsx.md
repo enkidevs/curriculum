@@ -15,8 +15,11 @@ category: must-know
 
 parent: custom-proptype-s-to-be-required
 ---
-## Content
+
 # Self-closing tags in **JSX**
+
+---
+## Content
 
 **JSX** is a JavaScript syntax extension that is widely used together with **React**, even though plain JavaScript can also be used.
 

@@ -19,8 +19,11 @@ category: must-know
 
 parent: parsing-reverse-polish-notation
 ---
-## Content
+
 # Binary Expression tree
+
+---
+## Content
 
 **Binary expression tree** is a specific kind of binary tree that represents a algebraic (*2+3×5*) or boolean (*¬(q ∧ v)∧q*) expressions.
 

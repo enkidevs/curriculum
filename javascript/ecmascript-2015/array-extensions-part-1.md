@@ -1,4 +1,4 @@
-# Array Extensions (Part 1)
+---
 author: alexjmackey
 
 levels:
@@ -7,33 +7,31 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
 links:
 
-  - '[ponyfoo.com](https://ponyfoo.com/articles/es6-array-extensions-in-depth){website}'
-  
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array){website}'
+  - '[ponyfoo.com](https://ponyfoo.com/articles/es6-array-extensions-in-depth)'
+
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)'
+
+---
+
+# Array Extensions (Part 1)
 
 ---
 ## Content
 
 Arrays benefit from a number of extensions in ES6 let's look at these now.
-
-**includes**
-
-*includes* returns a boolean indicating with an array contains a specific value:
+* *includes**
+* includes* returns a boolean indicating with an array contains a specific value:
 
 ```
 var people = ["john", "bob"];
 people.includes("john"); //true
 ```
-
-**find and findIndex**
-
-*find* and *findIndex* return the first value or index that satisfies an input matching function (sometimes called a predicate). 
+* *find and findIndex**
+* find* and *findIndex* return the first value or index that satisfies an input matching function (sometimes called a predicate). 
 
 If no elements match then *undefined* will be returned:
 
@@ -57,8 +55,7 @@ var p = people.findIndex(func);
 //0
 
 ```
-
-**fill**
+* *fill**
 
 Populates an array with a supplied value and optional start & end position and is great for producing test data.
 
@@ -66,3 +63,4 @@ Populates an array with a supplied value and optional start & end position and i
 [1,1,1].fill(5); //[5,5,5]
 [1,1,1,1,1].fill(5,1,3); //[1,5,5,1,1] 
 ```
+

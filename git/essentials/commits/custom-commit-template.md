@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Custom commit template
+
+---
+## Content
 
 You can add a commit message template to git, to help you write clear messages.
 

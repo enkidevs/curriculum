@@ -1,4 +1,4 @@
-# Use `String.link` to create `<a>` tags without messy concatenation
+---
 author: AlexYancey
 
 levels:
@@ -13,7 +13,9 @@ type: normal
 
 category: feature
 
-notes: ''
+---
+
+# Use `String.link` to create `<a>` tags without messy concatenation
 
 ---
 ## Content
@@ -68,8 +70,10 @@ Complete the snippet below to create the element commented:
 // <a href="http.enki.com">Enki</a>
 "Enki".???("http.enki.com");
 ```
-*`link`
-*`write`
-*`to`
-*`document`
-*`url`
+
+* `link`
+* `write`
+* `to`
+* `document`
+* `url`
+

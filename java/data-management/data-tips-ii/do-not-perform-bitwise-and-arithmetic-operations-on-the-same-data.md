@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Do not perform bitwise and arithmetic operations on the same data
+
+---
+## Content
 
 Arithmetic operators are operated on numeric variables, whereas bitwise operators (`<<`, `>>`, `&`, etc.) are operated on bit collections exclusively.
  

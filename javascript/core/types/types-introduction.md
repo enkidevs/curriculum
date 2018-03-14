@@ -14,8 +14,11 @@ category: must-know
 inAlgoPool:
 
 ---
-## Content
+
 # Types - Introduction
+
+---
+## Content
 
 JavaScript has the following primitive types:
 

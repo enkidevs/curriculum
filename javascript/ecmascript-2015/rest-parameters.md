@@ -1,4 +1,4 @@
-# Rest parameters
+---
 author: rosielowther
 
 levels:
@@ -10,9 +10,13 @@ type: normal
 category: feature
 
 links:
-  
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters){website}'
-  
+
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)'
+
+---
+
+# Rest parameters
+
 ---
 ## Content
 
@@ -38,6 +42,7 @@ function(a, b, c, ???) {
   // function code
 }
 ```
+
 * `...rest`
 * `rest`
 * `..rest`
@@ -55,9 +60,9 @@ function(??????) {
 
 ```
 
-
 * `...`
 * `rest`
 * `param`
 * `..`
 * `undefined`
+

@@ -17,8 +17,11 @@ category: tip
 
 
 ---
-## Content
+
 # The Worker Class
+
+---
+## Content
 
 A *worker* object contains all the public information and methods from a worker. 
 

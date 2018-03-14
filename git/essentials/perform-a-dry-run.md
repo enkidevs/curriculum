@@ -1,4 +1,4 @@
-# Perform a dry run
+---
 author: rosielowther
 
 levels:
@@ -11,8 +11,11 @@ category: must-know
 
 links:
 
-  - >-
-    [github.com](https://github.com/jbranchaud/til/blob/master/git/dry-runs-in-git.md){website}
+  - '[github.com](https://github.com/jbranchaud/til/blob/master/git/dry-runs-in-git.md)'
+
+---
+
+# Perform a dry run
 
 ---
 ## Content
@@ -38,6 +41,7 @@ Preview the result of the following command:
 ```
 $ git rm -r resources/ ???
 ```
+
 * `--dry-run`
 * `remove`
 * `delete`
@@ -50,7 +54,9 @@ How do you preview the results of a command?
 ```
 $ git clean -fd ???
 ```
+
 * `--dry-run`
 * `--prev`
 * `after`
 * `reflog`
+

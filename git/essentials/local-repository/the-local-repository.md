@@ -19,8 +19,11 @@ links:
 
 
 ---
-## Content
+
 # The local repository
+
+---
+## Content
 
 Your local **Git** project is made of three main areas:
 

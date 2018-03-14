@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Using buffered streams
+
+---
+## Content
 
 Using unbuffered I/O like `FileReader` can be inefficient because the read requests are handled directly by the operating system.
 

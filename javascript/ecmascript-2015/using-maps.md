@@ -1,4 +1,4 @@
-# Using maps
+---
 author: AlexBroadbent
 
 levels:
@@ -23,17 +23,13 @@ tags:
 
   - array
 
-notes:
-  Might be a bit too basic, an example code could include more actual uses of
-  the map. I left it as a simple example because the text is just describing the
-  concept of the map.
-
-  The tags may need checking, I am just guessing they are the standard ones for
-  this kind of insight.
-
 links:
 
-  - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Map){website}'
+  - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Map)'
+
+---
+
+# Using maps
 
 ---
 ## Content
@@ -73,7 +69,8 @@ console.log(v);
 // ???
 ```
 
-*`1`
-*`0`
-*`undefined`
-*`null`
+* `1`
+* `0`
+* `undefined`
+* `null`
+

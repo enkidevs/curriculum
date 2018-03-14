@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Tracking shorthands
+
+---
+## Content
 
 The following git commands all have the same effect: set up a local branch `sharefix` to track the remote branch `sharefix` from `origin`, then switch to the new branch.
 

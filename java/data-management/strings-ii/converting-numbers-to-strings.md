@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Converting numbers to strings
+
+---
+## Content
 
 One way to convert a number to a string is to create an empty string and append a number to the end of it:
 ```

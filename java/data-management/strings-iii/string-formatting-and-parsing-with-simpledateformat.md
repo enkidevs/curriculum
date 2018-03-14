@@ -18,8 +18,11 @@ links:
 
 notes: https://insights.enki.com/insight/5597e786d07c503200b46e1e
 ---
-## Content
+
 # String formatting and parsing with `SimpleDateFormat`
+
+---
+## Content
 
 `SimpleDateFormat` is a class that provides the user the ability to normalize dates, `format()` `String`s into `Date` objects and vice-versa.
 

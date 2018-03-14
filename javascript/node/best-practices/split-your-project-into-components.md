@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # Split Your Project into Components
+
+---
+## Content
 
 One common practice of overzealous beginner developers is to trade the time spent on structuring the project for time spent coding. This works fine for personal or small projects, but has serious downsides in the long run.
 
@@ -73,10 +76,10 @@ Can you point out the main reason for breaking up big projects into microservice
 
 ---
 ## Quiz
-### can you identify a property of microservices?
+### Can you identify a property of microservices?
 Which of the following properties defines microservices?
 
- ???
+???
 
 * Modularity
 * Tight coupling

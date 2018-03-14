@@ -16,8 +16,11 @@ links:
 
 parent: the-queue-data-structure
 ---
-## Content
+
 # The Graph Data Structure
+
+---
+## Content
 
 **Graphs** are a way of representing relationships between pairs of objects. They consist of objects (called *nodes* or *vertices*) and the pairwise connections between them (called *edges*).
 

@@ -13,8 +13,11 @@ category: how to
 
 notes: 
 ---
-## Content
+
 # How to list all files in a directory that match a filename extension in Java
+
+---
+## Content
 
 Often we want to create a list of all files in a given directory that match a specific filename pattern, or more specifically, match the same filename extension. An elegant solution to this problem is presented below:
 

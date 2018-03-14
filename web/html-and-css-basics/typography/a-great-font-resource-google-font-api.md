@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # A great font resource: Google Font API
+
+---
+## Content
 
 The Google Font API is an easy and useful source for fonts. 
 

@@ -23,8 +23,11 @@ links:
 parent: introducing-the-osi-model
 
 ---
-## Content
+
 # Identifying the Physical Layer
+
+---
+## Content
 
 The Physical Layer (Layer 1) is responsible for physical communication between end devices, via electronic voltage (copper cables) or wavelengths (wireless). It acts as an intermediary between the hardware of the device and the Data Link Layer above it, converting bit streams from the hardware into logical packets for transmit and vice versa.
 
@@ -61,7 +64,7 @@ The Physical Layer converts logical packets from the Data Link Layer into ??? to
 What role does the  Physical Layer play in the OSI 7 Layer Model?
 ```
 
- ???
+???
 
 * Providing transmission between end devices via voltage or wavelengths.
 * Transmitting data between network nodes

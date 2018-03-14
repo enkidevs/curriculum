@@ -19,8 +19,11 @@ category: how to
 
 parent: npm-scripting
 ---
-## Content
+
 # Available Binaries For Scripting
+
+---
+## Content
 
 Scripting is great for compiling and processing. However, not all the modules you have installed can be used for scripting: binaries are required for the packages to be invoked from the command line.
 

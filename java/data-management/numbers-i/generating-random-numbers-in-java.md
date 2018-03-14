@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Generating random numbers
+
+---
+## Content
 
 There are two ways to generate random numbers.
 - The `Math.random` static method can be used to generate a random `double` between 0  (inclusive) and 1 (exclusive).

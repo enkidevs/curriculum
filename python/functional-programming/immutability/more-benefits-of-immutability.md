@@ -21,8 +21,11 @@ links:
 
 
 ---
-## Content
+
 # More Benefits of Immutability
+
+---
+## Content
 
 ### Avoiding identity mutation
 

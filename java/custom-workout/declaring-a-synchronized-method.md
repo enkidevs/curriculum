@@ -1,4 +1,4 @@
-# Declaring a `synchronized` method
+---
 author: adamMontgomerie
 
 levels:
@@ -25,8 +25,11 @@ tags:
 
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html)'
+
+---
+
+# Declaring a `synchronized` method
 
 ---
 ## Content
@@ -41,3 +44,4 @@ public synchronized int getX() {
   return x;
 }
 ```
+

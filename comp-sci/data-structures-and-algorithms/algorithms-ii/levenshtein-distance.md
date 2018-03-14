@@ -22,8 +22,11 @@ links:
 
 parent: exponentiation-by-squaring
 ---
-## Content
+
 # Levenshtein Distance
+
+---
+## Content
 
 The **Levenshtein distance**, or *edit distance*, is the amount by which two strings differ.
 

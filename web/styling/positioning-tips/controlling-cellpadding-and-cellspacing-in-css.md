@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Controlling cellpadding and cellspacing in CSS
+
+---
+## Content
 
 Cellpadding refers to the space between the cell content and the cell wall, while, cellspacing refers to the space between table cells.
 

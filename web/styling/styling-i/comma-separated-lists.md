@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Comma-separated lists
+
+---
+## Content
 
 To make list items look like a real, comma-separated list:
 ```

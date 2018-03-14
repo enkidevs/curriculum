@@ -13,8 +13,11 @@ category: must-know
 
 parent: the-stack-data-structure
 ---
-## Content
+
 # The Queue Data Structure
+
+---
+## Content
 
 The *queue* data structure is a collection of objects which is optimized for adding new objects to the collection and removing the oldest object from the collection. That is, the first object in will be the first object out (*FIFO*).
 

@@ -27,8 +27,11 @@ links:
 parent: unicode-character-database-at-your-hands
 
 ---
-## Content
+
 # Recipe to normalize text
+
+---
+## Content
 
 Using the `unicodedata` Python module it's  easy to normalize any **unicode** data strings (remove accents etc):
 

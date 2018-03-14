@@ -1,4 +1,4 @@
-# Modules in ES6
+---
 author: rosielowther
 
 levels:
@@ -15,11 +15,15 @@ category: feature
 
 links:
 
-  - '[exploringjs.com](http://exploringjs.com/es6/ch_modules.html){website}'
-  
-  - '[MDN - Export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export){website}'
+  - '[exploringjs.com](http://exploringjs.com/es6/ch_modules.html)'
 
-  - '[MDN - Import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import){website}'
+  - '[MDN - Export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export)'
+
+  - '[MDN - Import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)'
+
+---
+
+# Modules in ES6
 
 ---
 ## Content
@@ -87,11 +91,12 @@ Export the `enki` function as default:
 }
 ```
 
-*`export`
-*`default`
-*`function`
-*`import`
-*`from`
-*`fn`
-*`return`
-*`module`
+* `export`
+* `default`
+* `function`
+* `import`
+* `from`
+* `fn`
+* `return`
+* `module`
+

@@ -16,8 +16,11 @@ links:
 
 parent: what-is-an-ip-address
 ---
-## Content
+
 # What is a port?
+
+---
+## Content
 
 In *computer networking*, a **port**[1] is an essential component of the *Internet Protocol*. It is passed as a numerical value that identifies individual services on a networked computer.
 

@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Using aliases for git commands
+
+---
+## Content
 
 To make things more simple and to save time, you can set up an **alias** for git commands that you use frequently. This means that you don't have to type out the whole command each time.
 

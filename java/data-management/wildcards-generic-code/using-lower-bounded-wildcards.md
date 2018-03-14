@@ -30,8 +30,11 @@ links:
 
 
 ---
-## Content
+
 # Using lower bounded wildcards
+
+---
+## Content
 
 Lower bounded wildcards can be used to make a variable less restrictive. For example, the following method will only accept collections of type `List<Integer>`:
 ```

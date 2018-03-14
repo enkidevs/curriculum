@@ -19,8 +19,11 @@ category: must-know
 
 parent: sieve-of-eratosthenes
 ---
-## Content
+
 # Primality test
+
+---
+## Content
 
 **Primality test** is an algorithm for checking if a number is prime.
 

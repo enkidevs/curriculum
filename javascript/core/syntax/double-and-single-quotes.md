@@ -21,8 +21,11 @@ tags:
 
 
 ---
-## Content
+
 # Double and single quotes
+
+---
+## Content
 
 Generally, double and single quotes are handled the same way. 
 

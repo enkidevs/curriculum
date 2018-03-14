@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Writing to files
+
+---
+## Content
 
 **Remember** how `open()` works:
 - if we open an already existing file in mode `w` (writing), it will be overwritten

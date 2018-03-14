@@ -18,8 +18,11 @@ links:
 
 notes: I'm trying to make a Node workout based on security tips. This is one of them.
 ---
-## Content
+
 # Avoid command injection
+
+---
+## Content
 
 Avoiding command injection is highly recommended when the **security** factor of your Node application is taken into consideration.
 

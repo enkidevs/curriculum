@@ -1,4 +1,4 @@
-# Revision control of configuration files with git
+---
 author: tuwi.dc
 
 levels:
@@ -21,7 +21,9 @@ tags:
 
   - backup
 
-notes: ''
+---
+
+# Revision control of configuration files with git
 
 ---
 ## Content
@@ -68,6 +70,7 @@ You can upload your important configuration files to *git* using
 
 ??? .
 
-*auto-commit scripts
-*auto-pull scripts
-*history
+* auto-commit scripts
+* auto-pull scripts
+* history
+

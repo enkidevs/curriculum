@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # The Git working tree
+
+---
+## Content
 
 During the development process, a project can grow to thousands of files.
 

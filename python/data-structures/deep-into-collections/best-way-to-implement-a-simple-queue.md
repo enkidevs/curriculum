@@ -20,8 +20,11 @@ notes: >-
   adding a few examples of use of other methods.
 
 ---
-## Content
+
 # Best way to implement a simple `queue`
+
+---
+## Content
 
 A simple `list` can be easily used and implemented as a **queue** abstract data structure. A queue implies the **first-in, first-out** principle.
 

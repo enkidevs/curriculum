@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Facade Pattern
+
+---
+## Content
 
 Another pattern which is common for the object oriented development is *Facade*. The key idea is to hide the complexity of calculations and multiple method calls from inside the system in order to provide the end user with a clean interface which implements all the necessary functionality.
 

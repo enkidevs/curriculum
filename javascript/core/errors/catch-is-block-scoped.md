@@ -13,8 +13,11 @@ category: caveats
 
 parent: no-block-scope
 ---
-## Content
+
 # `catch` is block scoped
+
+---
+## Content
 
 The `catch` clause of a `try...catch` statement is **block** scoped. This is different to the rest of JavaScript which is **function** scoped.  
 

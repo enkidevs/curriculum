@@ -1,4 +1,4 @@
-# Prevent updating a specific package in Debian systems
+---
 author: tuwi.dc
 
 levels:
@@ -26,13 +26,16 @@ tags:
   - aptitude
 
 ---
+
+# Prevent updating a specific package in Debian systems
+
+---
 ## Content
 
 There are several ways of holding back a package (thus preventing it from update).
 
 Here is how we do it using apt/aptitude.
-
-**Using `apt`**
+* *Using `apt`**
 
 You can hold a package using:
 ```
@@ -42,8 +45,7 @@ and remove the hold with:
 ```
 $ sudo apt-mark un-hold package_name
 ```
-
-**Using `aptitude`**
+* *Using `aptitude`**
 
 You can hold a package using:
 ```
@@ -61,7 +63,9 @@ Using `aptitude`, prevent the `enki` package from updating:
 ```
 $ ??? ??? enki
 ```
-*aptitude
-*hold
-*apt-get
-*stop
+
+* aptitude
+* hold
+* apt-get
+* stop
+

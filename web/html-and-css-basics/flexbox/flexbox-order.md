@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Flexbox `order`
+
+---
+## Content
 
 Flex items are displayed in the same order as they appear in the source document by default. The order property can be used to change this ordering.
 

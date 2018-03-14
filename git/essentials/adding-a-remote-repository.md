@@ -1,4 +1,4 @@
-# Adding a remote repository
+---
 author: rosielowther
 
 levels:
@@ -11,8 +11,11 @@ category: must-know
 
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)'
+
+---
+
+# Adding a remote repository
 
 ---
 ## Content
@@ -44,6 +47,7 @@ $ git remote add test
 
 ```
 ???
+
 * Adds a remote repository `test`
 * Clones a remote repository `origin`
 * Tests the remote repository `enki.com`
@@ -56,9 +60,11 @@ Add the remote repository and give it a shortname `experiment` :
 $ git ??? ??? ???
      https://git.enki.com
 ```
+
 * `remote`
 * `add`
 * `experiment`
 * `clone`
 * `test`
 * `origin`
+

@@ -13,8 +13,11 @@ category: must-know
 
 
 ---
-## Content
+
 # Git Ignore
+
+---
+## Content
 
 You don't normally want every file in a project to be  under version control. Files that control local configuration or compiled code files, for example, should be excluded and **Git** provides the `.gitignore` file.
 

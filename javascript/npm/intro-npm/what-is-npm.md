@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # What is npm?
+
+---
+## Content
 
 **Npm**, or **node package manager**, is a piece of software that facilitates the process of code sharing. Code can be made available as a package and downloaded using npm for use in a project.
 

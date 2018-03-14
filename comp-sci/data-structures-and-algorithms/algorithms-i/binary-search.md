@@ -22,8 +22,11 @@ links:
 
 parent: approximation-methods
 ---
-## Content
+
 # Binary search
+
+---
+## Content
 
 **Binary search** is an efficient algorithm for finding data in **ordered** arrays or lists. Ordering is important because it allows us to split the search space in half after each comparison operation. The principle is simple:
  - Look for the element in the middle of the current data structure

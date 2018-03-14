@@ -17,8 +17,11 @@ links:
 
 
 ---
-## Content
+
 # Synchronization Methods
+
+---
+## Content
 
 **Synchronization** is an important concept when tackling multithreading problems. *Race conditions* can be avoided by using different types of patterns. The four most common are: *Lock*, *Semaphore*, *Monitor* and *Mutex*.
 

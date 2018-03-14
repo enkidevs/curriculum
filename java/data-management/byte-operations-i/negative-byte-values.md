@@ -23,8 +23,11 @@ tags:
 
 notes: Gamified Insight, static workout
 ---
-## Content
+
 # Negative `byte` values
+
+---
+## Content
 
 In Java, the `byte` type is signed. There are 256 values of the `byte` type ranging from -128 to 127.
 

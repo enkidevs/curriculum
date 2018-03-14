@@ -19,8 +19,11 @@ links:
 parent: implementing-weak-references
 
 ---
-## Content
+
 # `weakref` callbacks
+
+---
+## Content
 
 The `ref` constructor for weak references can take another argument, a callback function that is invoked every time the object referenced gets deleted:
 ```python

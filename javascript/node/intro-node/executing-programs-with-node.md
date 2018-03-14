@@ -16,8 +16,11 @@ links:
 
 parent: the-repl-terminal
 ---
-## Content
+
 # Executing programs with Node
+
+---
+## Content
 
 The Node.js interpreter can be used to execute JavaScript files and programs in the terminal. First, create a JavaScript file:
 ```javascript

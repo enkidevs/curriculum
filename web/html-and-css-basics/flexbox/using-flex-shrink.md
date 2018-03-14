@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Using `flex-shrink`
+
+---
+## Content
 
 `flex-shrink` specifies the "flex shrink factor". 
 

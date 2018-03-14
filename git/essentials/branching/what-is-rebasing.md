@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # What is rebasing?
+
+---
+## Content
 
 The `git rebase` command is a way to combine branches.
 

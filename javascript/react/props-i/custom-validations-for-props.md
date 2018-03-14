@@ -22,8 +22,11 @@ links:
 
 parent: enhanced-prop-validation
 ---
-## Content
+
 # Custom validator functions for `props`
+
+---
+## Content
 
 **React** allows  you to define and use custom *validator functions* for your props. These can be used inside `propTypes`.
  

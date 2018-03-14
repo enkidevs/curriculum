@@ -22,8 +22,11 @@ links:
 
 parent: what-i-need-to-use-react
 ---
-## Content
+
 # The **React** element
+
+---
+## Content
 
 An `element` in **React** is the most basic building block for describing your application's `UI`.
 

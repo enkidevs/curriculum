@@ -1,4 +1,4 @@
-# Detect **DO NOT TRACK** status
+---
 author: catalin
 
 levels:
@@ -15,7 +15,11 @@ category: feature
 
 links:
 
-  - '[davidwalsh.name](https://davidwalsh.name/detect-track-javascript){website}'
+  - '[davidwalsh.name](https://davidwalsh.name/detect-track-javascript)'
+
+---
+
+# Detect **DO NOT TRACK** status
 
 ---
 ## Content
@@ -30,9 +34,8 @@ This property returns:
 - `"1"` if **DNT** is enabled
 - `"0"` if **DNT** is disabled
 - `unspecified` otherwise
-
-**IE 9/10** use ` navigator.msDoNotTrack`.
-**IE 11** and **Safari 7.1.3+** use `window.doNotTrack`.
+* *IE 9/10** use ` navigator.msDoNotTrack`.
+* *IE 11** and **Safari 7.1.3+** use `window.doNotTrack`.
 
 Older versions of **Firefox** return `"Yes"` or `"No"`.
 
@@ -45,9 +48,11 @@ if (navigator.??? === ??? ) {
   //handle
 }
 ```
-*`doNotTrack`
-*`0`
-*`1`
-*`dontTrack`
-*`trackStatus`
-*`unspecified`
+
+* `doNotTrack`
+* `0`
+* `1`
+* `dontTrack`
+* `trackStatus`
+* `unspecified`
+

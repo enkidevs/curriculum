@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Cloning a Git repository
+
+---
+## Content
 
 The second way though which you can get your hand on a **Git** repository is by *cloning* it.
 

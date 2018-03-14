@@ -20,8 +20,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Introducing Modules
+
+---
+## Content
 
 A major issue in EcmaScript is lack of a good way to divide up and reuse code. 
 

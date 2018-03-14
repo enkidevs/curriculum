@@ -16,8 +16,11 @@ links:
 
 parent: why-use-react
 ---
-## Content
+
 # **React** dependencies
+
+---
+## Content
 
 Being a truly flexible library, you can create applications from scratch with **React**, but also gradually including it to your code base without having to re-write anything.
 

@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # SELECT
+
+---
+## Content
 
 To get all of the data from a table, you can use a `SELECT` statement.
 
@@ -92,23 +95,23 @@ Get all of the rows and the `id`, `weight`, `name` columns from the `pokemon` ta
 ---
 ## Quiz
 ### What statement gets columns and rows from tables?
-```
 
+```
 Given a table called `ability` from our pokemon database:
 
-id   | is_main_series | generation_id |      name      
-=====+================+===============+===============
-   1 | t              |             3 | stench
-   2 | f              |             3 | drizzle
-   3 | t              |             3 | speed-boost
-   4 | t              |             3 | battle-armor
+|id | is_main_series | generation_id |     name     |
+|:-:|       :-:      |      :-:      |      :-:     |
+| 1 | t              |             3 | stench       |
+| 2 | f              |             3 | drizzle      |
+| 3 | t              |             3 | speed-boost  |
+| 4 | t              |             3 | battle-armor |
 (...)
 
 
 Choose the query that will get all the entries from this table:
 ```
 
- ???
+???
 
 * SELECT * FROM ability;
 * DISPLAY [all] FROM ability;

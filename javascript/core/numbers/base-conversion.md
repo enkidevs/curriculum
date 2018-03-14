@@ -15,8 +15,11 @@ category: how to
 
 
 ---
-## Content
+
 # Base conversion
+
+---
+## Content
 
 Base conversion for `int` data types is easily achievable with the help of `toString` and `parseInt` functions. 
 

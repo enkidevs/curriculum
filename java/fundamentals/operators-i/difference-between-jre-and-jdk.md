@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Difference between JRE and JDK?
+
+---
+## Content
 
 `JRE`: *Java Runtime Environment*. It is basically the Java Virtual Machine where your Java programs run on. It also includes browser plugins for Applet execution. 
 

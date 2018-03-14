@@ -16,8 +16,11 @@ links:
 
 parent: network-models
 ---
-## Content
+
 # What is an IP address?
+
+---
+## Content
 
 An **IP address** is an *unique* identifier assigned to a computer or other similar device when connected to a network.
 

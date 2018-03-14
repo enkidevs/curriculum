@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Undo a committed snapshot
+
+---
+## Content
 
 You might find yourself having made a wrong commit. For this scenario, **Git** provides another useful command - `git revert`.
 

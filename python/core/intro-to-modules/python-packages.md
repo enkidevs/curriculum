@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Python packages
+
+---
+## Content
 
 A **package**[1] is a hierarchical file directory structure that defines a *single* Python application environment. Packages consist of modules and subpackages.
 

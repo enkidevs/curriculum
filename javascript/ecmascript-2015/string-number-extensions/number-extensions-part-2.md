@@ -17,8 +17,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Number Extensions (Part 2)
+
+---
+## Content
 
 **Number.EPSILON**
 

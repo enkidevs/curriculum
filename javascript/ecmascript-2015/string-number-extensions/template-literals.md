@@ -18,8 +18,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Template Literals
+
+---
+## Content
 
 A common task in any programming language is to concatenate and format strings.
 

@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # `border-radius` circle
+
+---
+## Content
 
 Any element can be given rounded corners by applying `border-radius`:
 

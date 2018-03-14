@@ -1,4 +1,4 @@
-# Use hosted scripts to increase performance
+---
 author: pawel
 
 levels:
@@ -22,6 +22,10 @@ tags:
   - server-side
 
 ---
+
+# Use hosted scripts to increase performance
+
+---
 ## Content
 
 Many users already have downloaded scripts from the web. 
@@ -42,6 +46,7 @@ What happens when you visit a webpage that uses a script **with the same host** 
 
 ???
 
-*script is loaded from cache
-*script is downloaded
-*script is not loaded
+* script is loaded from cache
+* script is downloaded
+* script is not loaded
+

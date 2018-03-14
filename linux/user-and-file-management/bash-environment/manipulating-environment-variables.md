@@ -1,4 +1,4 @@
-# Manipulating Environment Variables
+---
 author: jfarmer
 
 levels:
@@ -9,12 +9,16 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
 tags:
+
   - introduction
+
+---
+
+# Manipulating Environment Variables
+
 ---
 ## Content
 
@@ -98,3 +102,4 @@ jesse@host ~ $ echo $FOOD
 
 jesse@host $
 ```
+

@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # MIN and MAX clauses
+
+---
+## Content
 
 The `MIN` clause returns the smallest value in a given column.
 The `MAX` clause returns the biggest value in a given column.
@@ -45,9 +48,9 @@ AS result;
 
 
 --Result:
-   min
-=========
-    0
+| min |
+| :-: |
+|  0  |
 (1 row)
 ```
 
@@ -61,9 +64,9 @@ SELECT MAX(experience) FROM
 AS result;
 
 --Result:
-   max
-========
-  156
+| max |
+| :-: |
+| 156 |
 (1 row)
 ```
 
@@ -74,18 +77,18 @@ We have the table "item". It holds data about each item and it's cost. We want t
 ```
 --item:
 
-id  | cost  |    name       
-====+======+============
-  1 |     0 | master-ball
-  2 |  1200 | ultra-ball
-  3 |   600 | great-ball
-  4 |   200 | poke-ball
+|id | cost  |    name     |
+|:-:|  :-:  |     :-:     |
+| 1 |     0 | master-ball |
+| 2 |  1200 | ultra-ball  |
+| 3 |   600 | great-ball  |
+| 4 |   200 | poke-ball   |
 
 SELECT ???(???) FROM ???
 
 --Result:
-=======
-10000
+| :-: |
+|10000|
 (1 row)
 ```
 
@@ -104,17 +107,17 @@ SELECT ???(???) FROM ???
 Consider the table "move_effect_change". Choose the query that finds the move with the lowest effect:
 ```
 -- "move_effect_change"
-id | move_effect | version_group_id
-===+=============+==================
- 1 |           8 |               11
- 2 |          18 |                3
- 3 |          29 |                3
+|id | move_effect | version_group_id |
+|:-:|     :-:     |        :-:       |
+| 1 |           8 |               11 |
+| 2 |          18 |                3 |
+| 3 |          29 |                3 |
 
     ???
 
 --Result:
-=====
-   8
+|:-:|
+| 8 |
 (1 row)
 ```
 
@@ -131,11 +134,11 @@ We will use the same segment of "experience" table for all aggregate functions:
 ```
 -- experience table:
 
-id  | level | experience | growth_rate_id
-====+=======+============+===============
-  1 |     1 |          0 |              1
-  2 |     2 |         10 |              1
-  3 |     3 |         33 |              1
+|id | level | experience | growth_rate_id|
+|:-:|  :-:  |     :-:    |      :-:      |
+| 1 |     1 |          0 |             1 |
+| 2 |     2 |         10 |             1 |
+| 3 |     3 |         33 |             1 |
 ....
 
 SELECT experience
@@ -143,13 +146,13 @@ FROM experience
 LIMIT 5;
 
 --Result:
-experience
-============
-     0
-    10
-    33
-    80
-   156
+|experience |
+|    :-:    |
+|     0     |
+|    10     |
+|    33     |
+|    80     |
+|   156     |
  (5 rows)
 
 ```

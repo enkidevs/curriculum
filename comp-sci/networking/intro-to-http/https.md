@@ -18,8 +18,11 @@ links:
 
 parent: verbs-in-http
 ---
-## Content
+
 # HTTPS
+
+---
+## Content
 
 `HTTPS`, short for *HyperText Transport Protocol Secure*, is a protocol for **secure communication** over a computer network.
 

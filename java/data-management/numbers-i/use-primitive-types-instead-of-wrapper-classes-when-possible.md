@@ -15,8 +15,11 @@ category: best practice
 
 
 ---
-## Content
+
 # Use primitive types instead of wrapper classes when possible
+
+---
+## Content
 
 Wrapper classes (Integer, Byte, Character...) are great but slow. Primitive types (int, byte, char...) are just values, whereas Wrapper classes store information about the entire object. When this information is not needed, it's better to use primitive data types.
 

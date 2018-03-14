@@ -17,8 +17,11 @@ links:
 parent: check-the-reflog
 
 ---
-## Content
+
 # Recover lost code
+
+---
+## Content
 
 If you have committed or pushed your code anywhere, then in most cases it is not lost for good.
 

@@ -24,8 +24,11 @@ links:
 
 parent: important-networking-metrics
 ---
-## Content
+
 # What are latency and ping?
+
+---
+## Content
 
 **Latency** - also known as **lag** or **delay** is a metric that measures the amount of time it takes to transfer information from one point to another. It is measured in *milliseconds* (ms)[1].
 

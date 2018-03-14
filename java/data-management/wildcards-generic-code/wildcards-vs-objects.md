@@ -23,8 +23,11 @@ links:
 
 
 ---
-## Content
+
 # Wildcards vs Objects
+
+---
+## Content
 
 `Set<?>` can be used to indicate the apparent type of "any" set. The `?` is a wildcard. This wildcard can match any type.
 

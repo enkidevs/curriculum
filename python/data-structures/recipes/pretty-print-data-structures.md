@@ -21,8 +21,11 @@ links:
 notes: ''
 
 ---
-## Content
+
 # Pretty print data structures
+
+---
+## Content
 
 **Python** provides a way of generating eye pleasing representations of data structures when printing by using the `pprint` module.
 

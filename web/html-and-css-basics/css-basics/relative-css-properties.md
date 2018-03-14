@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Relative CSS properties
+
+---
+## Content
 
 Alongside absolute values, CSS allows the use of relative ones: *percentages*, *ems*, and *vw* and *vh*, which scale with container's properties.
 

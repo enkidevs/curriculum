@@ -17,8 +17,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Strict Mode
+
+---
+## Content
 
 EcmaScript **version 5** introduced a feature called **strict mode** that makes the JavaScript interpreter enforce a more stringent set of rules.
 

@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Replace a substring
+
+---
+## Content
 
 `String.replace` can be used to replace a substring with another substring.
 

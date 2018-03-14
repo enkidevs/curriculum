@@ -24,8 +24,11 @@ notes: >
   does.
 
 ---
-## Content
+
 # Implementing **weak** references
+
+---
+## Content
 
 Normal Python references to objects increment the object's reference count thus preventing it from being **garbage collected**. **Weak Reference** points to the object but does not affect **garbage collector** i.e. it does not increment the object's reference count.
 
@@ -110,14 +113,14 @@ r = ???.ref(???)
 
 ---
 ## Quiz
-### how would you check a variable for NoneType?
+### How would you check a variable for NoneType?
 ```
 x = None:
 if ...
   print('x is None')
 ```
 
- ???
+???
 
 * if x is None
 * if x == None

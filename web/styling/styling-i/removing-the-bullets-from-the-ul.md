@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Removing the bullets from the `ul`
+
+---
+## Content
 
 Once you have created your unordered list (`ul`) in HTML, simply add the `list-style-type` property and set it to *none* in your stylesheet.
 ```

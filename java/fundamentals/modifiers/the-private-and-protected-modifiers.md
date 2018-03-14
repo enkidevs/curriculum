@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # The `private` and `protected` Modifiers
+
+---
+## Content
 
 The `private` access modifier makes variables and methods available within their class only. Having a `private` class or interface makes no sense (as they couldn't be used), so they do not accept this modifier. 
 

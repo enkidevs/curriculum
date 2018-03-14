@@ -22,8 +22,11 @@ links:
 
 parent: binary-search
 ---
-## Content
+
 # Sieve of Eratosthenes
+
+---
+## Content
 
 **Sieve of Eratosthenes** is a simple algorithm for finding all the prime numbers smaller than a given value. The algorithm dates way back, to *200BC*.
 

@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Uses of the `final` keyword
+
+---
+## Content
 
 The `final` keyword has different meanings depending on where it is used:
 - If used on a class then it means that the class cannot be extended.
@@ -85,7 +88,7 @@ public class Roadster extends Tesla {
 }
 ```
 
- ???
+???
 
 * Roadster
 * Model S

@@ -1,4 +1,4 @@
-# Short intro to `grep`
+---
 author: tuwi.dc
 
 levels:
@@ -21,7 +21,9 @@ tags:
 
   - intro
 
-notes: ''
+---
+
+# Short intro to `grep`
 
 ---
 ## Content
@@ -64,19 +66,21 @@ What do each of the following flags represent?
 #-c =???
 #default =???
 ```
-*`case-insensitive search`
-*`recursive search in current directory`
-*`count`
-*`case-sensitive search`
+
+* `case-insensitive search`
+* `recursive search in current directory`
+* `count`
+* `case-sensitive search`
 
 ---
 ## Revision
 
 `grep` ??? the input file for lines containing a match to the given ???.
 
-*searches 
-*pattern
-*string
-*script
-*copies
-*deletes
+* searches 
+* pattern
+* string
+* script
+* copies
+* deletes
+

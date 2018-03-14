@@ -27,8 +27,11 @@ links:
 
 
 ---
-## Content
+
 # What is an RDBMS?
+
+---
+## Content
 
 In order to learn **SQL** we must understand what a **RDBMS** is. **RDBMS** stands for *Relational Database Management System*, a *Database Management System* that allows the user to create, update and delete the *Relational Database*.
 

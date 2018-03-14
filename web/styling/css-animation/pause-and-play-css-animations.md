@@ -19,8 +19,11 @@ links:
 notes: 'http://www.sitepoint.com/12-little-known-css-facts/'
 
 ---
-## Content
+
 # Pause and play CSS animations
+
+---
+## Content
 
 You can _pause_ and _play_ CSS animation by changing its `animation-play-state` property.
 

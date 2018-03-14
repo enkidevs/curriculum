@@ -1,4 +1,4 @@
-# How to determine the directory your Java application was started in
+---
 author: pawel
 
 levels:
@@ -17,7 +17,9 @@ tags:
 
   - user-directory
 
-notes: ''
+---
+
+# How to determine the directory your Java application was started in
 
 ---
 ## Content
@@ -28,3 +30,4 @@ If you ever need to figure out the current working directory, you can get this i
 String userDir = 
     System.getProperty("user.dir");
 ```
+

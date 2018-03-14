@@ -1,4 +1,4 @@
-# `else` statements using the `||` operator 
+---
 author: nene
 
 levels:
@@ -12,8 +12,12 @@ type: normal
 category: must-know
 
 tags:
+
   - chaining operators
 
+---
+
+# `else` statements using the `||` operator 
 
 ---
 ## Content
@@ -45,6 +49,7 @@ $ rm enki || echo 'fail'
 
 ??? .
 
-*the first command fails
-*the first command succeeds
-*"enki" is already installed
+* the first command fails
+* the first command succeeds
+* "enki" is already installed
+

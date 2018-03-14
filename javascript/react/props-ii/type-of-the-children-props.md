@@ -24,8 +24,11 @@ links:
 
 parent: custom-proptype-s-to-be-required
 ---
-## Content
+
 # Type of the Children props
+
+---
+## Content
 
 Generally, a components children, `this.props.children`, would be an array of components.
 

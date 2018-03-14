@@ -23,8 +23,11 @@ links:
 
 parent: what-is-jitter
 ---
-## Content
+
 # Differences between bandwidth and throughput
+
+---
+## Content
 
 Both `bandwidth`  and `throughput` are metrics used to describe the performance of data transfer over a network segment (a link from a point `A` to a point `B`).
 

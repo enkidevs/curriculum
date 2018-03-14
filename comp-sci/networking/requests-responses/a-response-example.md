@@ -22,8 +22,11 @@ links:
 
 parent: http-response
 ---
-## Content
+
 # A response example
+
+---
+## Content
 
 Assuming that the dummy password is correct, the server's response to the previous login request looks like this:
 ```text

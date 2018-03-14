@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # System Properties
+
+---
+## Content
 
 Depending on the operating system you are working on (such as *Unix* or *Windows*), its system properties might differ from the others. To be sure your code will also work on other machines, Java's API provides some useful properties that automatically change to fit the running OS.
 

@@ -25,8 +25,11 @@ notes: |
   to show how to print calendar for a year.
 
 ---
-## Content
+
 # Your own Python `calendar` 
+
+---
+## Content
 
 The Python `calendar` module defines the `Calendar` class. This is used for various date calculations as well as `TextCalendar` and `HTMLCalendar` classes with their `local` subclasses, used for rendering pre formatted output.
 

@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Async and defer scripts
+
+---
+## Content
 
 Modern browsers support the `async` and `defer` attributes on scripts. These attributes tell the browser it is safe to continue parsing while the scripts are being downloaded. 
 

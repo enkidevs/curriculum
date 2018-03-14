@@ -17,8 +17,11 @@ links:
 
 parent: types-of-networks
 ---
-## Content
+
 # Network models
+
+---
+## Content
 
 In order to ease the *complexity* of networking engineering, the **networking communication** concept was divided into multiple **layers**.
 

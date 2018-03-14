@@ -21,8 +21,11 @@ tags:
 
 
 ---
-## Content
+
 # Setting the length of an array 
+
+---
+## Content
 
 Given the array:
 

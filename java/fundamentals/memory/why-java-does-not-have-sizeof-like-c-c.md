@@ -24,8 +24,11 @@ links:
 
 notes: 
 ---
-## Content
+
 # Why Java does not have `sizeof` like C/C++
+
+---
+## Content
 
 In C and C++ `sizeof()` allocates bytes for data items. It often varies for different machines or operating systems. For example integer can be stored in 16 or 32 bits. 
 

@@ -22,8 +22,11 @@ links:
 
 parent: approximating-memory-and-time-required-by-data-types
 ---
-## Content
+
 # Approximation methods
+
+---
+## Content
 
 In the last insight, we briefly introduced the `Big-O` notation. However, there are some other approximations used besides it: `Little-o`, `Big-Theta(Θ)` and `Big-Omega(Ω)`.
 

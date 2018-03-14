@@ -22,8 +22,11 @@ links:
 
 parent: the-binary-search-tree-data-structure
 ---
-## Content
+
 # Verifying A Binary Search Tree
+
+---
+## Content
 
 Sometimes we might have a binary tree and want to verify whether it is organized as a binary search tree.  The naive algorithm — traverse the tree, checking at every node whether the node contains a value larger than the value at the left child and smaller than the value on the right child — does not always work. Consider the following tree:
 

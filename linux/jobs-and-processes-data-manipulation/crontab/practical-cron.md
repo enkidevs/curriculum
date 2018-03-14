@@ -1,4 +1,4 @@
-# Practical `cron`
+---
 author: tuwi.dc
 
 levels:
@@ -23,12 +23,13 @@ tags:
 
   - terminal
 
-notes: ''
-
 links:
 
-  - >-
-    [code.tutsplus.com](http://code.tutsplus.com/tutorials/scheduling-tasks-with-cron-jobs--net-8800){website}
+  - '[code.tutsplus.com](http://code.tutsplus.com/tutorials/scheduling-tasks-with-cron-jobs--net-8800)'
+
+---
+
+# Practical `cron`
 
 ---
 ## Content
@@ -81,12 +82,13 @@ Run `myScript.py` every Saturday at 8:00pm and 10:00pm :
 ??? ??? * * 
         ??? myScript.py
 ```
-*`00`
-*`20,22`
-*`6`
-*`00,00`
-*`Saturday`
-*`*`
+
+* `00`
+* `20,22`
+* `6`
+* `00,00`
+* `Saturday`
+* `*`
 
 ---
 ## Revision
@@ -96,25 +98,11 @@ A crontab job’s format is:
 MIN ??? DATE ??? ???
             COMMAND 
 ```
-*`HOUR`
-*`MONTH`
-*`DAY`
-*`YEAR`
-*`SECOND`
-*`WEEK`
 
----
-## Footnotes
+* `HOUR`
+* `MONTH`
+* `DAY`
+* `YEAR`
+* `SECOND`
+* `WEEK`
 
-[1:Example]
-`*` in the Minute field means the command is executed every minute
-[2:Example]
-`1-5` in the Weekday field means the command is executed every day, Monday to Friday
-[3:Example]
-`/9` in the Minute field means the command is executed every 9 minutes
-[4:Example]
-`* * * * * - % a minute has passed` will output *a minute has passed* to the console. Each `%` represents a new line.
-[5:Example]
-`/5 ? * * *` means it will execute every 5 minutes in the hour the Cron has started, every day of every month (i.e. if Cron starts at 10, the command will be changed automatically to `/5 10 * * *`).
-[6:Sunday]
-`Sun` can be both `0` and `7`. *0-6* means Sunday to Saturday, while *1-7* means Monday to Sunday.The same is true for months. The notation depends on the distribution.

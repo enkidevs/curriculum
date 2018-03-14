@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Compiling and Running Java Code
+
+---
+## Content
 
 In the last insight, we talked about the `HelloWorld` class and about its output, but never mentioned how to get from one point to the other. 
 

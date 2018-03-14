@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # ProgressEvent
+
+---
+## Content
 
 The *`ProgressEvent`* interface is used to represent events which measure the progress of underlying processes taking place in the API. For example, an HTTP request or loading an underlying resource such as *<img>*.
 

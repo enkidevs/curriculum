@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Introduction to remote repositories
+
+---
+## Content
 
 **Remote repositories** in Git represent a copy of the repository that exists elsewhere (remotely).
 

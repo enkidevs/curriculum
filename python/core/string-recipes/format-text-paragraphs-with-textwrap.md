@@ -24,8 +24,11 @@ links:
 notes: String manipulation workout
 
 ---
-## Content
+
 # Format text paragraphs with `textwrap`
+
+---
+## Content
 
 Python's `textwrap` module is useful for rearranging text, e.g. wrapping and filling lines.
 

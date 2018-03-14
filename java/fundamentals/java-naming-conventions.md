@@ -1,4 +1,4 @@
-# Java naming conventions
+---
 author: adamMontgomerie
 
 levels:
@@ -17,8 +17,11 @@ tags:
 
 links:
 
-  - >-
-    [javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2014/10/10-java-best-practices-to-name-variables-methods-classes-packages.html){website}
+  - '[javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2014/10/10-java-best-practices-to-name-variables-methods-classes-packages.html)'
+
+---
+
+# Java naming conventions
 
 ---
 ## Content
@@ -36,15 +39,16 @@ There are several conventions that most Java developers follow when choosing nam
 
 Methods which change a classes property should start with ??? and methods which retrieve a classes property should begin with ???.
 
-*set
-*get
-*retrieve
-*change
+* set
+* get
+* retrieve
+* change
 
 ---
 ## Revision
 
 Java naming conventions state that classes should begin with a ??? letter and methods with a ??? letter.
 
-*capital
-*lowercase
+* capital
+* lowercase
+

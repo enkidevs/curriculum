@@ -22,8 +22,11 @@ links:
 
 parent: requiring-and-exporting
 ---
-## Content
+
 # The `http` module for servers
+
+---
+## Content
 
 Node is well suited and frequently used for creating servers which are both lightweight and can handle multiple requests simultaneously. It comes out-of-the-box with the `http` module providing an intuitive, yet powerful API for this purpose.
 

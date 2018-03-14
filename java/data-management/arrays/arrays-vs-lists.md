@@ -17,8 +17,11 @@ links:
 
 
 ---
-## Content
+
 # Arrays vs Lists
+
+---
+## Content
 
 *Arrays* and *ArrayLists* are similar in terms that they both store their elements linearly. The difference thought comes in the implementation concept. While arrays are fixed in size array lists can be increased and decreased in size easily. Both of these data structures have their advantages over one another.
 

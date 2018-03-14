@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Detect or prevent integer overflow
+
+---
+## Content
 
 It is important that programs should not exceed the integer ranges provided by their primitive integer data types (such as, `byte` has a range of
 −128 to 127) because:

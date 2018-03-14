@@ -24,8 +24,11 @@ links:
 
 parent: what-is-an-url
 ---
-## Content
+
 # What are status codes
+
+---
+## Content
 
 **Status codes** are 3-digit integers, part of the server's response in the HTTP protocol.
 

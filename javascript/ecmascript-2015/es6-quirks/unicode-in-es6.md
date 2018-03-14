@@ -21,8 +21,11 @@ links:
 
 
 ---
-## Content
+
 # Unicode in ES6
+
+---
+## Content
 
 JavaScript strings are represented using UTF-16 code units. Each code unit can be used to represent a code point in the `[U+0000, U+FFFF]` range. Code points beyond that range are represented by a surrogate pair.  
 

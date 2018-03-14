@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Be as specific as possible when catching exceptions
+
+---
+## Content
 
 When specifying the type of exception to catch, it is generally preferable to be as specific as possible. For example:
 ```

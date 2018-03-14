@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # What Is a Class?
+
+---
+## Content
 
 In Java, a **class** is a blueprint after which things with similar characteristics can be modeled. An example of a class is: 
 ```

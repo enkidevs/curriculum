@@ -30,8 +30,11 @@ notes: >
   the character limit,
 
 ---
-## Content
+
 # Class definition syntax
+
+---
+## Content
 
 Think of **classes** as *blueprints* for creating objects with data (members) and behaviors (methods). They just define **how** the actual instances are implemented.
 

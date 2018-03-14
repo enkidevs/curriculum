@@ -1,4 +1,4 @@
-# Input And Output Redirection With `<` and `>`
+---
 author: jfarmer
 
 levels:
@@ -9,13 +9,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
 tags:
+
   - introduction
+
   - workout
+
+---
+
+# Input And Output Redirection With `<` and `>`
+
 ---
 ## Content
 
@@ -70,10 +75,11 @@ $ some_command < some_file.txt
 Which of the following can redirect the output of a process to a file? 
 
 ???
-*>
-*<
-*|
-*$
+
+* >
+* <
+* |
+* $
 
 ---
 ## Revision
@@ -86,7 +92,9 @@ Is the same as running:
 ```
 $ ??? ??? ???
 ```
-*`some_command`
-*`<`
-*`some_file.txt`
-*`>`
+
+* `some_command`
+* `<`
+* `some_file.txt`
+* `>`
+

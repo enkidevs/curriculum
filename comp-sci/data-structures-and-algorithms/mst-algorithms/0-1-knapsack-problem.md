@@ -22,8 +22,11 @@ links:
 
 parent: prims-iteration
 ---
-## Content
+
 # (0-1) Knapsack Problem
+
+---
+## Content
 
 **Knapsack(backpack) problem** is a maximization problem in which a set of items, each with a given weight and value, must be stored in a knapsack without exceeding its weight limit.
 

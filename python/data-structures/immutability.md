@@ -1,4 +1,4 @@
-# Immutability
+---
 author: mihaiberq
 
 levels:
@@ -8,6 +8,10 @@ levels:
 type: normal
 
 category: must-know
+
+---
+
+# Immutability
 
 ---
 ## Content
@@ -38,10 +42,8 @@ print(l)
 # [1, 2, 3, 4, 5]
 ```
 Which is tricky! A moment of distraction when writing a function and you could end up with a different data than the one expected.
-
-**Mutable** objects (lists, dictionaries, sets, classes etc.) are containers which, no matter how many times you would add or remove items from, would still reference the same address in memory. In the example above, the assignment `k = l` means *k now references the sequence of bytes in memory that l is also referencing*. Modifying those bytes would cascade to both variables.
-
-**Immutable** objects (ints, floats, strings, tuples, fronzensets) cannot have their content changed without changing the whole memory reference.
+* *Mutable** objects (lists, dictionaries, sets, classes etc.) are containers which, no matter how many times you would add or remove items from, would still reference the same address in memory. In the example above, the assignment `k = l` means *k now references the sequence of bytes in memory that l is also referencing*. Modifying those bytes would cascade to both variables.
+* *Immutable** objects (ints, floats, strings, tuples, fronzensets) cannot have their content changed without changing the whole memory reference.
 
 Immutability helps with internal optimization (which is crucial for big applications) and prevents threading issues. As a beginner, you probably won't have to deal with these problems. But to understand why the following errors might occur might be useful:
 ```python
@@ -68,7 +70,9 @@ s = ''.join(l)
 Which of the following types is immutable in Python?
 
 ???
+
 * tuple
 * list
 * dictionary
 * set
+

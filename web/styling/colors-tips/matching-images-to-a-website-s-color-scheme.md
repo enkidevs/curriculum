@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # Matching images to a website's color scheme
+
+---
+## Content
 
 It's possible to add filters to an image to match the color theme of a website.
 

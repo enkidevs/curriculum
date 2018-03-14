@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Use `border-radius` to style rounded corners of an element
+
+---
+## Content
 
 Use two length or percentage values to define the horizontal and vertical radii of a quarter ellipse separately.
 ```css

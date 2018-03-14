@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # 'From' is included while 'to' is excluded
+
+---
+## Content
 
 As a convention, when specifying a range of values, the first value 'from' is included while the last value 'to' is excluded. 
 

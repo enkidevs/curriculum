@@ -23,8 +23,11 @@ links:
 
 parent: what-are-props
 ---
-## Content
+
 # What is **state**?
+
+---
+## Content
 
 Just like `props`, **React** components' `state` can change their behaviour or how they render.
 

@@ -23,15 +23,16 @@ tags:
 
   - deep
 
-
 links:
 
   - '[More on ADD CONSTRAINT](https://www.tutorialspoint.com/sql/sql-alter-command.htm){website}'
 
+---
+
+# Add Constraint
 
 ---
 ## Content
-# Add Constraint
 
 Sometimes we need to add ulterior constraints to the table we define. The `ALTER TABLE` statement enables us to do it. There are several types of constraints we can add. If we want to ensure that all values in one or more columns are different:
 ```
@@ -59,21 +60,20 @@ PRIMARY KEY (column1, column2, ...)
 
 Consider the "generation" table. We want to add a new constraint called "PK-constraints" in which we state that we want "region_id" and "name" columns to be primary keys:
 ```
-id | region_id |      name      
-===+===========+===============
- 1 |         1 | generation-i
- 2 |         2 | generation-ii
- 3 |         3 | generation-iii
- 4 |         4 | generation-iv
- 5 |         5 | generation-v
- 6 |         6 | generation-vi
+|id | region_id |    name        |
+|:-:|   :-:     |     :-:        |
+| 1 |         1 | generation-i   |
+| 2 |         2 | generation-ii  |
+| 3 |         3 | generation-iii |
+| 4 |         4 | generation-iv  |
+| 5 |         5 | generation-v   |
+| 6 |         6 | generation-vi  |
 (6 rows)
 
 ALTER TABLE ???
 ADD ??? PK-constraints
 ??? (region_id,name)
 ```
-
 
 * generation
 * CONSTRAINT
@@ -88,27 +88,25 @@ ADD ??? PK-constraints
 
 Consider the "version" table. We want to add a `CHECK` constraint to "version_group_id" column. All its entries should not be bigger than 10:
 ```
-id | version_group_id |      name      
-===+==================+===============
-...
- 7 |                5 | ruby
- 8 |                5 | sapphire
- 9 |                6 | emerald
-10 |                7 | firered
-11 |                7 | leafgreen
-12 |                8 | diamond
-13 |                8 | pearl
-14 |                9 | platinum
-15 |               10 | heartgold
-16 |               10 | soulsilver
-17 |               11 | black
-18 |               11 | white
+|id | version_group_id |    name    |
+|:-:|        :-:       |     :-:    |   
+|...
+| 7 |                5 | ruby       |
+| 8 |                5 | sapphire   |
+| 9 |                6 | emerald    |
+|10 |                7 | firered    |
+|11 |                7 | leafgreen  |
+|12 |                8 | diamond    |
+|13 |                8 | pearl      |
+|14 |                9 | platinum   |
+|15 |               10 | heartgold  |
+|16 |               10 | soulsilver |
+|17 |               11 | black      |
+|18 |               11 | white      |
 ...
 
     ???
 ```
-
-
 
 * ALTER TABLE gender ADD CONSTRAINT check_constraint CHECK (version_group_id <= 10);
 * ALTER TABLE generation ADD PRIMARY KEY (id);

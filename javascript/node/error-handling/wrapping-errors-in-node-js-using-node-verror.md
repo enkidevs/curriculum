@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Wrapping errors in Node.js using _node-verror_
+
+---
+## Content
 
 The module `node-verror` can be used to produce useful error messages in Node.js. It has two classes `VError` and `WError`.
 

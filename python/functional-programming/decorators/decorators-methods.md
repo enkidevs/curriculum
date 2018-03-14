@@ -13,8 +13,11 @@ category: must-know
 
 
 ---
-## Content
+
 # Decorators and methods
+
+---
+## Content
 
 There's a distinction to be made regarding *functions* and *methods*. In Python, every *subroutine* is a called a function. **Methods**, on the other hand, are those functions that are part of an object.
 
@@ -130,7 +133,8 @@ def deco(self):
 
 ---
 ## Quiz
-### what is the output of the following snippet?
+### What is the output of the following snippet?
+
 ```
 def foo(a,b,*args,**kwargs):
   print(a, b, args, kwargs)
@@ -138,7 +142,7 @@ x = {'ten': 10}
 foo(1, 2, enki='wow', **x)
 ```
 
- ???
+???
 
 * 1 2 () {'enki': 'wow', 'ten': 10}
 * (1, 2) {'enki': 'wow', 'ten': 10}

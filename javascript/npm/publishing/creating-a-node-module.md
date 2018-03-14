@@ -19,8 +19,11 @@ category: how to
 
 parent: remote-scripts
 ---
-## Content
+
 # Creating a Node Module
+
+---
+## Content
 
 After you have set up the *package.json* file, it's time to start coding. A npm module is a regular JavaScript file that must follow the *CommonJS* module spec.
 

@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Multi-line string variables
+
+---
+## Content
 
 For readability, it may be preferable to write strings over multiple lines:
 

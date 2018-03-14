@@ -17,8 +17,11 @@ category: tip
 
 
 ---
-## Content
+
 # Three ways to substitute a substring of a string
+
+---
+## Content
 
 1) `string.Template`
 ```python

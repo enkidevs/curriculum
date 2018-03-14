@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Merging under the hood
+
+---
+## Content
 
 Using the `git merge` you can combine different development streams (branches) together.
 

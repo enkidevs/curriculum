@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # How to merge two arrays
+
+---
+## Content
 
 `concat` is not always the best approach to merging arrays as it generates a new array. 
 

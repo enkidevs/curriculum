@@ -26,8 +26,11 @@ links:
 parent: connection-strings
 
 ---
-## Content
+
 # What is a database client?
+
+---
+## Content
 
 A **Database Client** is any piece of software (also known as a *Database Management Tool*) that issues queries to a *Database Server*, which holds the data. A Database Client is essential to have access to the database, and there are many types:
  - Software Packages (like pg in Node, or jdbc in Java)

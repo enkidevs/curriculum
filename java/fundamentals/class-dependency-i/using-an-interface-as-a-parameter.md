@@ -21,8 +21,11 @@ links:
 
 notes: https://insights.enki.com/#/contrib/5599d0efef6d014f00958ea6
 ---
-## Content
+
 # Using an interface as a parameter
+
+---
+## Content
 
 You can define methods that take an **interface** as a parameter. Your interface defines a *contract* and your methods will accept as parameter any objects whose class *implements* that **interface**. This is in fact one of the most common and useful ways to use an **interface**.
 

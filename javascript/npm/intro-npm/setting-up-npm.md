@@ -13,8 +13,11 @@ category: must-know
 
 parent: why-use-npm
 ---
-## Content
+
 # Setting up npm
+
+---
+## Content
 
 Now that you have chosen to use **npm**, the next step is to install it: *npm* is included with *Node.js*.
 

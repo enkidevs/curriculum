@@ -22,8 +22,11 @@ links:
 
 parent: what-are-node-modules
 ---
-## Content
+
 # Requiring and Exporting
+
+---
+## Content
 
 To load, cache and use a module you must `require` it into your **Node** application. The keyword `require` is used for loading modules and its return value is normally assigned to a variable, for example:
 

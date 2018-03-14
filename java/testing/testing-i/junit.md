@@ -13,8 +13,11 @@ category: must-know
 
 
 ---
-## Content
+
 # Intro to JUnit
+
+---
+## Content
 
 **JUnit** is one of the main *unit testing frameworks* written for Java. Testing means verifying that the application as a whole or small parts of it (*units*) behave as expected.
 

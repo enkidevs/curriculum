@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Applying CSS
+
+---
+## Content
 
 We talked about CSS and what it can do, but we didn't mention how to actually make the browser use it alongside the HTML file.
 

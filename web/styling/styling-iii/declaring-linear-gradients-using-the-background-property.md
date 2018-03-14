@@ -30,8 +30,11 @@ links:
 
 
 ---
-## Content
+
 # Declaring linear gradients using the `background` property
+
+---
+## Content
 
 Use the shorthand `background` property to declare gradients.
 

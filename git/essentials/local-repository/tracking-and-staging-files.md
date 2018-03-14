@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Tracking and Staging files
+
+---
+## Content
 
 You can easily check the status of your files inside a **Git** project with the `git status` command:
 ```

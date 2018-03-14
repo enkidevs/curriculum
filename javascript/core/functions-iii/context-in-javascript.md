@@ -21,8 +21,11 @@ links:
 
 
 ---
-## Content
+
 # Context in JavaScript
+
+---
+## Content
 
 In JavaScript `this` represents the **context** of a function. The code currently executing belongs to the object that `this` references.
 

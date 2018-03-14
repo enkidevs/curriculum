@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Bulk-Write in **Node** with `cork()`
+
+---
+## Content
 
 Bulk writing/buffering on *writeable* streams is possible in **Node**.
 Using the `cork()`  and `uncork()` API calls, one can specify a range where bulk writes will occur.

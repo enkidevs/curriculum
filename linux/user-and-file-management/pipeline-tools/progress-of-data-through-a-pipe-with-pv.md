@@ -1,4 +1,4 @@
-# Monitor the progress of data through a pipe with `pv`
+---
 author: tuwi.dc
 
 levels:
@@ -14,16 +14,28 @@ type: normal
 category: how to
 
 tags:
+
   - data
+
   - progress
+
   - pipe
+
   - pv
+
   - pipeviewer
+
   - linux
+
   - terminal
+
   - shell
+
   - workout
 
+---
+
+# Monitor the progress of data through a pipe with `pv`
 
 ---
 ## Content
@@ -65,3 +77,4 @@ Using `pv` can prove extremely useful when working with big files or processes t
 ```
 $ pv myFile | nc -w 1 example.com 3000
 ```
+

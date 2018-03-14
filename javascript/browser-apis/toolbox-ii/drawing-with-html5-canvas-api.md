@@ -22,8 +22,11 @@ links:
 
 notes: subtopic=browser-APIs
 ---
-## Content
+
 # Drawing with HTML5 `Canvas` API
+
+---
+## Content
 
 With the `Canvas` object it is possible to draw simple shapes and graphics directly in the browser. 
 

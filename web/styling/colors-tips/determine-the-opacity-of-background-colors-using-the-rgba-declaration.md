@@ -30,8 +30,11 @@ links:
 
 
 ---
-## Content
+
 # Determine the opacity of background-colors using the RGBA declaration
+
+---
+## Content
 
 Setting a background color using *rgba color values*, allows you to change the transparency of the elements' background-color.  
 

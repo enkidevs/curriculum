@@ -30,8 +30,11 @@ links:
 
 
 ---
-## Content
+
 # `final` fields do not need to be read through `synchronized` methods
+
+---
+## Content
 
 Using `synchronized` methods to access an object's fields is a way to prevent thread interference and memory consistency errors.
 

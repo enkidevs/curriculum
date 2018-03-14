@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Manipulating shapes using CSS: `border`
+
+---
+## Content
 
 You can make shapes by defining the properties of the `border`, as seen below:
 

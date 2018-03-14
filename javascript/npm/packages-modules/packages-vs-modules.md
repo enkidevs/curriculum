@@ -19,8 +19,11 @@ category: must-know
 
 parent: semantic-versioning
 ---
-## Content
+
 # Packages vs Modules
+
+---
+## Content
 
 So far, we've used the terms *package* and *module* somehow interchangeably. However, there is a sensible difference between the two and it has to do with the way in which node works.
 

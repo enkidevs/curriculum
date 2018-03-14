@@ -19,12 +19,12 @@ tags:
 
   - mistake
 
+---
 
-
+# Common mistake in switch statements
 
 ---
 ## Content
-# Common mistake in switch statements
 
 One common mistake is not including the `break` keyword in a switch statement.
 
@@ -102,7 +102,7 @@ switch (num) {
 
 ---
 ## Quiz
-### what will be the output of the following switch statement?
+### What will be the output of the following switch statement?
 ```
 // What's the output for x=1?
 switch(x) {
@@ -113,7 +113,7 @@ switch(x) {
 }
 ```
 
- ???
+???
 
 * 12
 * 1

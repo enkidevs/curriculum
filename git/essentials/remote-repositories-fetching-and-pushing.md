@@ -1,4 +1,4 @@
-# Remote repositories: fetching and pushing
+---
 author: rosielowther
 
 levels:
@@ -11,15 +11,17 @@ category: must-know
 
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)'
+
+---
+
+# Remote repositories: fetching and pushing
 
 ---
 ## Content
 
 If you are collaborating on a project stored in a remote repository, you will need to share and receive changes.
-
-**Fetching**
+* *Fetching**
 
 `git fetch` gets all the data on the remote respository that you don't have yet and stores it in your local repository. It doesn't change what you're working on, you have to add the changes in manually with `git merge`.
 
@@ -32,8 +34,7 @@ To fetch from all your remotes:
 ```
 $ git fetch --all
 ```
-
-**Pushing**
+* *Pushing**
 
 `git push` lets you share your changes with the rest of the team. 
 
@@ -63,9 +64,11 @@ Get the data from the remote repository `enki`:
 ```
 $ git ??? ???
 ```
+
 * `fetch`
 * `enki`
 * `origin`
 * `grab`
 * `push`
 * `receive`
+

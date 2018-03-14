@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # What is **React**?
+
+---
+## Content
 
 **React** is a *JavaScript* library[1] (not a framework[2]) created and maintained by **Facebook**. It's used for creating user interfaces. 
 

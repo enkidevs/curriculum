@@ -1,4 +1,4 @@
-# Difference between `redirection` and `pipe`
+---
 author: tuwi.dc
 
 levels:
@@ -26,9 +26,13 @@ tags:
   - files
 
 ---
+
+# Difference between `redirection` and `pipe`
+
+---
 ## Content
 
-**Pipe** and **redirect** are two similar concepts, yet the distinction between them is made in the following way:
+* *Pipe** and **redirect** are two similar concepts, yet the distinction between them is made in the following way:
 
 - `redirect` refers to passing the *output* to a **file** or a **stream**
 - `pipe` refers to passing the *output* to another **program** or **utility**
@@ -57,10 +61,11 @@ Complete the following snippet to redirect or pipe `script.sh` :
 $ script.sh ??? cat -n
 $ script.sh ??? file.txt
 ```
-*`|`
-*`>`
-*`>>`
-*`&&`
+
+* `|`
+* `>`
+* `>>`
+* `&&`
 
 ---
 ## Revision
@@ -69,43 +74,21 @@ _Piping_ refers to passing the output to another program or utility, while _redi
 
 ???.
 
-*passing the output to a stream or file
-*passing the output to a script
-*passing the output to `cat`
-*passing the output to an utility
-
----
-## Footnotes
-
-[1:explanation]
-What happens when running the following line:
-```bash
-$ p1 > myFile
-```
-1. `p1` is executed
-2. *output* of `p1` is put in a file called `myFile`.
-
-If `myFile` already exists, it will be overriden.
-
-[2:explanation]
-What happens when running the line:
-```
-$ p1 > tmp_file && p2 < tmp_file
-```
-
-1. `p1` is executed
-2.  *output* of `p1` is saved in the file called `tmp_file`
-3.  `p2` is executed having as *input* the contents of `tmp_file`
+* passing the output to a stream or file
+* passing the output to a script
+* passing the output to `cat`
+* passing the output to an utility
 
 ---
 ## Quiz
+### Which of the following is not a valid command?
 
-headline: which of the following is not a valid command?
+Pick the option that would throw an error.
 
-question: Pick the option that would throw an error.
+???
 
-answers:
-  - cat enki.txt > grep "enki"
-  - cat enki.txt | grep "enki"
-  - ls -l > enki.txt && cat < enki.txt
-  - grep "enki" < enki.txt
+* cat enki.txt > grep "enki"
+* cat enki.txt | grep "enki"
+* ls -l > enki.txt && cat < enki.txt
+* grep "enki" < enki.txt
+

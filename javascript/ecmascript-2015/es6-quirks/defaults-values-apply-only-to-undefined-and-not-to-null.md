@@ -27,8 +27,11 @@ links:
 
 
 ---
-## Content
+
 # Defaults values apply only to `undefined` (and not to `null`)
+
+---
+## Content
 
 ES6 defaults values in function parameters and object deconstructions work as expected when given `undefined`.
 

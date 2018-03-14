@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Using `else` in loops
+
+---
+## Content
 
 Unlike other programming languages such as C, Python allows the use of `else` statements with loops.
 
@@ -88,7 +91,7 @@ An `else` statement is used in loops when the loops ??? is evaluated to ???.
 
 ---
 ## Quiz
-### what will the following code snippet print?
+### What will the following code snippet print?
 ```
 for i in [1, 2]:
     if i == 1:
@@ -99,7 +102,7 @@ else:
     print("c")
 ```
 
- ???
+???
 
 * a
 * a a

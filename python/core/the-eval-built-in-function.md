@@ -1,4 +1,4 @@
-# The `eval` Built-in Function
+---
 author: stefkn
 
 levels:
@@ -16,7 +16,12 @@ category: must-know
 links:
 
   - '[Python eval()](https://www.programiz.com/python-programming/methods/built-in/eval)'
+
   - '[Eval really is dangerous](https://nedbatchelder.com/blog/201206/eval_really_is_dangerous.html)'
+
+---
+
+# The `eval` Built-in Function
 
 ---
 ## Content
@@ -92,7 +97,7 @@ eval(expression_here,
 {'__builtins__': None})
 ```
 
-However, for reasons outside of the scope of this lesson, this is not always completely secure. For more information on the security risks associated with using `eval` see the 'Eval really is dangerous' link in the Learn More section.  
+However, for reasons outside of the scope of this lesson, this is not always completely secure. For more information on the security risks associated with using `eval` see the 'Eval really is dangerous' link in the Learn More section.
 
 ---
 ## Practice
@@ -130,8 +135,3 @@ print(???(???(9, 3)',
 * `math.gcd`
 * `sqrt`
 
----
-## Footnotes
-
-[1:Scope]
-*To check the available variables and methods in a section of code, use the command `print(eval('dir()'))`, which lists them to the console. We can also see the global and local dictionary currently available using the `globals()` and `locals()` built-in methods, respectively.*

@@ -14,11 +14,12 @@ type: normal
 category: tip
 
 
+---
 
-notes: 
+# Prefix and postfix of increment operators
+
 ---
 ## Content
-# Prefix and postfix of increment operators
 
 Java supports 2 forms of shorter incrementation of variables:
 
@@ -72,7 +73,7 @@ System.out.print(b);
 
 ---
 ## Quiz
-### what is the difference between prefix and postfix increment operators?
+### What is the difference between prefix and postfix increment operators?
 ```
 // What is the output?
 int a = 0;
@@ -81,7 +82,7 @@ int c = ++b;
 System.out.println(b + " and " + c);
 ```
 
- ???
+???
 
 * 1 and 1
 * 1 and 2

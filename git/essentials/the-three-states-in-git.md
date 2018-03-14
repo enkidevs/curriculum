@@ -1,4 +1,4 @@
-# The three states in git
+---
 author: rosielowther
 
 levels:
@@ -8,6 +8,10 @@ levels:
 type: normal
 
 category: must-know
+
+---
+
+# The three states in git
 
 ---
 ## Content
@@ -36,6 +40,7 @@ Go through the basic commit process:
 $ git ??? enki.md
 $ git ??? ??? 'Changed enki.md'
 ```
+
 * `add`
 * `commit`
 * `-m`
@@ -60,8 +65,10 @@ $ git add README.md
 $ git commit -m 'Readme'
 # README.md is ???
 ```
+
 * `modified`
 * `staged`
 * `committed`
 * `shared`
 * `saved`
+

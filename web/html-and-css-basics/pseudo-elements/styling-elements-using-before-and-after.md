@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Styling elements using `::before` and `::after`
+
+---
+## Content
 
 Use the `::before` selector to add and style content just before the first child of an element.
 Similarly, use the `::after` selector to add and style content after the last child of the element.

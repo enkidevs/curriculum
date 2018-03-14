@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Page Visibility API
+
+---
+## Content
 
 The *Page Visibility API* allows you to query whether a page is visible or in focus.
 

@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # The import statement
+
+---
+## Content
 
 You can use any Python source file as a **module** by executing an `import` statement in some *other Python source file*.
 

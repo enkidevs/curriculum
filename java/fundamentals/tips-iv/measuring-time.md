@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Measuring time
+
+---
+## Content
 
 Many applications require a very precise time measurement. 
 

@@ -23,8 +23,11 @@ links:
 
 parent: a-request-example
 ---
-## Content
+
 # The HTTP response
+
+---
+## Content
 
 After receiving and interpreting a request, the **server** sends back a response to the **client**. The usual response syntax is:
 ```text

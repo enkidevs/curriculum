@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Use `String.split()` to split a string using regular expressions
+
+---
+## Content
 
 `split` takes a regular expression and splits the string around occurrences of this expression into an array of strings. 
 ```
@@ -60,12 +63,12 @@ Java’s split method ignores any trailing empty Strings.
 
 ---
 ## Quiz
-### how does string splitting work?
+### How does string splitting work?
 ```
 // What's the value of l?
 int l = "Hi-there-are-you-alright
 ```
 
- ???
+???
 
 

@@ -18,11 +18,16 @@ links:
 
   - '[facebook.github.io](https://facebook.github.io/react/docs/shallow-compare.html){website}'
 
-notes: probably best in the same workout with :
-https://insights.enki.com/#/contrib/56aa0290bd6a4609006eaee3parent: custom-proptype-s-to-be-required
+notes: 
+  probably best in the same workout with https://insights.enki.com/#/contrib/56aa0290bd6a4609006eaee3
+
+parent: custom-proptype-s-to-be-required
+---
+
+# Shallow compare in **React**
+
 ---
 ## Content
-# Shallow compare in **React**
 
 A performance boost can be achieved with the helper function `shallowCompare` when used on a **React** component render function that is *"pure"*.
 

@@ -14,8 +14,11 @@ category: must-know
 inAlgoPool:
 
 ---
-## Content
+
 # JavaScript Basics - Part 2
+
+---
+## Content
 
 Like most programming languages, JavaScript has a number of syntax rules that must be adhered to.
 

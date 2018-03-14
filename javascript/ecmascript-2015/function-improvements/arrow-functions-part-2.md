@@ -29,8 +29,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Arrow Functions (Part 2)
+
+---
+## Content
 
 Arrow Functions(`() => {}`) differ from anonymous keyword functions (`function(){}`) by not changing the value of `this`.
 

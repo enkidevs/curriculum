@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # First-error callbacks in **Node**
+
+---
+## Content
 
 The `"error-first"` callback (also `"errorback"` or `"err-back"`) has become the standard protocol for **Node** as to enable a balanced, non-blocking flow of control and processing power across applications and modules.
 

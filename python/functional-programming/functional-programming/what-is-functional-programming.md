@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # What is functional programming
+
+---
+## Content
 
 In computer science, *functional programming* is a **paradigm**[1] that is based on the evaluation of *mathematical functions*. These functions are called **pure functions** and they have no *side effects*, meaning there are no I/O operations, no state changes and no database interactions. In other words, the output value of a function depends only on the input give ( arguments that are passed to the function ).
 

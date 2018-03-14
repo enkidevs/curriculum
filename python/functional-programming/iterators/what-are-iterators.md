@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # What Are Iterators?
+
+---
+## Content
 
 In the previous insight we encountered `iterable` objects. One of the ways for an object to be considered `iterable` was if it had an implemented `__iter__()` method (*pronounced "dunder iter"[1]*) which returns an `iterator`. But what is an iterator?
 

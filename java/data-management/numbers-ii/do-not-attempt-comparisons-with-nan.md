@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Do not attempt comparisons with NaN
+
+---
+## Content
 
 A NaN or *Not-a-Number* value is used to represent the result of certain invalid operations such as dividing zero by zero. NaN constants of both float and double type are predefined as `Float.NaN` and `Double.NaN`.
 
@@ -82,7 +85,7 @@ double x = Math.tan(1/0.0);
 
 ---
 ## Quiz
-### is NaN equal to NaN?
+### Is NaN equal to NaN?
 ```
 // What will the following snippet print?
 double x = Double.NaN;
@@ -90,7 +93,7 @@ if(x == Double.NaN) { System.out.print(x); }
 System.out.print("false");
 ```
 
- ???
+???
 
 * false
 * NaNfalse

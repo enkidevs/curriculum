@@ -35,8 +35,11 @@ links:
 parent: add-rule
 
 ---
-## Content
+
 # Create Indices
+
+---
+## Content
 
 Indices[1] play a big part in the *performance* of the SQL Server database. Indices are created on **columns** in tables and they provide a fast way to look up data based on the *values*. For example when we index one **column** and want to search a row based on some *values* from that column. Then the SQL Server finds that *value* in the indices and uses it to locate the whole row.
 
@@ -66,14 +69,14 @@ This would create an index on the specified table and columns. The main differen
 
 Create an index on the table called "region", on the "region_id" and "name" columns. It needs to be a non-clustered index:
 ```
-id | region_id |      name      
-===+===========+================
- 1 |         1 | generation-i
- 2 |         2 | generation-ii
- 3 |         3 | generation-iii
- 4 |         4 | generation-iv
- 5 |         5 | generation-v
- 6 |         6 | generation-vi
+|id | region_id |      name      |
+|:-:|    :-:    |     :-:        |
+| 1 |         1 | generation-i   |
+| 2 |         2 | generation-ii  |
+| 3 |         3 | generation-iii |
+| 4 |         4 | generation-iv  |
+| 5 |         5 | generation-v   |
+| 6 |         6 | generation-vi  |
 (6 rows)
 
 ??? ??? test_index
@@ -93,19 +96,18 @@ ON region (???, name);
 
 Consider the "version" table. Suppose no primary key was defined for it. We need to create a clustered index that will order the "version_group_id" column in ascending order:
 ```
-id | version_group_id |      name      
-===+==================+===============
-.....
-4  |                3 | gold
-5  |                3 | silver
-6  |                4 | crystal
-7  |                5 | ruby
-8  |                5 | sapphire
-9  |                6 | emerald
-10 |                7 | firered
-11 |                7 | leafgreen
-12 |                8 | diamond
-13 |                8 | pearl
+| id | version_group_id |  name     |
+| :-:|      :-:         |   :-:     |
+| 4  |                3 | gold      |
+| 5  |                3 | silver    |
+| 6  |                4 | crystal   |
+| 7  |                5 | ruby      |
+| 8  |                5 | sapphire  |
+| 9  |                6 | emerald   |
+| 10 |                7 | firered   |
+| 11 |                7 | leafgreen |
+| 12 |                8 | diamond   |
+| 13 |                8 | pearl     |
 ...
 
     ???
@@ -119,23 +121,23 @@ id | version_group_id |      name
 ---
 ## Quiz
 ### What statement gets columns and rows from tables?
-```
 
+```
 Given a table called `ability` from our pokemon database:
 
-id   | is_main_series | generation_id |      name      
-=====+================+===============+===============
-   1 | t              |             3 | stench
-   2 | f              |             3 | drizzle
-   3 | t              |             3 | speed=boost
-   4 | t              |             3 | battle-armor
+|id | is_main_series | generation_id |     name     |
+|:-:|      :-:       |     :-:       |      :-:     |
+| 1 | t              |             3 | stench       |
+| 2 | f              |             3 | drizzle      |
+| 3 | t              |             3 | speed-boost  |
+| 4 | t              |             3 | battle-armor |
 (...)
 
 
 It doesn't have a `PRIMARY KEY` set so far. Create an index to define `ability`'s primary key.
 ```
 
- ???
+???
 
 * CREATE UNIQUE INDEX ability_pk ON ability(id ASC).
 * CREATE INDEX ability_pk ON ability(id ASC).

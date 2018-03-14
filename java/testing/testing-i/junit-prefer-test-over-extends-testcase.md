@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # JUnit: prefer `@Test` over `extends TestCase`
+
+---
+## Content
 
 Before JUnit 4, test classes needed to be written by extending the `TestCase` class, like this:
 ```

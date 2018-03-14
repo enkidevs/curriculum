@@ -19,8 +19,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Passing values to Generators
+
+---
+## Content
 
 Generators next method also accepts a parameter.
 

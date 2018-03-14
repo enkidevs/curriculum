@@ -14,8 +14,11 @@ category: must-know
 inAlgoPool:
 
 ---
-## Content
+
 # Why Learn JavaScript?
+
+---
+## Content
 
 JavaScript was originally developed to add functionality to web pages but it's now used for much more!
 

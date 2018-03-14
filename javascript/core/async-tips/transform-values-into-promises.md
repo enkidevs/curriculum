@@ -21,8 +21,11 @@ tags:
 
 
 ---
-## Content
+
 # Transform values into promises
+
+---
+## Content
 
 To keep your API consistent, or prototype for testing, it's often useful to return a `Promise` that resolves to a value directly.
 

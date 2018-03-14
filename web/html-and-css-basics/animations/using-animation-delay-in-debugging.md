@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Using animation delay in debugging
+
+---
+## Content
 
 Set `animation-play-state: paused;` and `animation-delay` to different negative times to help with animation debugging:
 

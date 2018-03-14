@@ -18,8 +18,11 @@ links:
 
 notes: https://insights.enki.com/insight/55f433a9da97642e00a7819a
 ---
-## Content
+
 # How to check for static dependencies of applications and libraries from the command line.
+
+---
+## Content
 
 Introduced with JDK 8, the `jdeps` command shows the package-level or class-level dependencies of Java class files (applications or libraries) from within the command line.
 

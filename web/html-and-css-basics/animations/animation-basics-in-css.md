@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Animation basics in CSS
+
+---
+## Content
 
 There are two main properties when it comes to animating : `animation` and `keyframes`.
 

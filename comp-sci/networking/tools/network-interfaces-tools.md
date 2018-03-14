@@ -23,8 +23,11 @@ links:
 
 parent: dns-lookup
 ---
-## Content
+
 # Network Interfaces
+
+---
+## Content
 
 The `ifconfig` command is available on **Linux** and **OS X**. It enables users to configure and view information about network interfaces via the command line.
 

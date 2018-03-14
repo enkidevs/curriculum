@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # The `sum` Built-in Function
+
+---
+## Content
 
 `sum` allows us to find the total of a iterable collection of numbers. It takes the general form:
 

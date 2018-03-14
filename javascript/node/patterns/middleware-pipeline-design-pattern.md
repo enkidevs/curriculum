@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Middleware/pipeline design pattern
+
+---
+## Content
 
 The **middleware** or **pipeline** concept is used everywhere in Node.js. They represent a series of processing units connected subsequently: **the output of one unit is the input for the next one**.
 ```javascript

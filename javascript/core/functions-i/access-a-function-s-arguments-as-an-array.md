@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Access a function's `arguments` as an array
+
+---
+## Content
 
 The arguments of a function can be accessed with the `arguments` keyword, but `arguments` only returns a *pseudo-array*.
 

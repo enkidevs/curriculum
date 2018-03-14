@@ -1,4 +1,4 @@
-# Types - Hoisting
+---
 author: alexjmackey
 
 levels:
@@ -7,15 +7,15 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
 links:
 
-  - >-
-    [Site
-    Point](https://www.sitepoint.com/demystifying-javascript-variable-scope-hoisting/){website}
+  - '[Site Point](https://www.sitepoint.com/demystifying-javascript-variable-scope-hoisting/)'
+
+---
+
+# Types - Hoisting
 
 ---
 ## Content
@@ -48,3 +48,4 @@ What does **hoisting** mean?
 * You must first declare variables before methods
 * A general rule for **linters**
 * You can have multiple variables with the same name
+

@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # The fundamental `tuple`
+
+---
+## Content
 
 `Tuples` are one of the currently implemented **sequence data types** (alongside with `lists`, `ranges` and `dictionaries`).
 
@@ -112,14 +115,14 @@ ex_tuple = ("Python", 1, "Enki", 2)
 
 ---
 ## Quiz
-### how does unpacking work?
+### How does unpacking work?
 ```
 # What will be the value printed by the following code block?
 a, \*b, c = (1, 2, 3, 4, 5)
 print(b)
 ```
 
- ???
+???
 
 * 2,3,4
 * 2

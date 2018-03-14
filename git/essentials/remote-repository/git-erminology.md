@@ -1,4 +1,4 @@
-# Git-erminology
+---
 author: mihaiberq
 
 levels:
@@ -10,6 +10,10 @@ type: fillTheGap
 category: must-know
 
 parent: what-is-git
+
+---
+
+# Git-erminology
 
 ---
 ## Content

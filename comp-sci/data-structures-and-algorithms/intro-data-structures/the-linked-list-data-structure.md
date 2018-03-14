@@ -16,8 +16,11 @@ links:
 
 parent: the-array-data-structure
 ---
-## Content
+
 # The Linked List Data Structure
+
+---
+## Content
 
 A **list**, or a **sequence**, is an *abstract*[1] data type that represents a linear chain of values, where the same value can appear more than once. The *list* has a first element, **head**, and a last element, **tail**.
 

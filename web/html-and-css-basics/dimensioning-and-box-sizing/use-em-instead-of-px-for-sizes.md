@@ -23,8 +23,11 @@ tags:
 
 
 ---
-## Content
+
 # Use `em` instead of `px` for sizes
+
+---
+## Content
 
 `em` is directly proportional to the font size currently in use. This makes it easier to keep the proportions intact for future changes and responsive design.
 

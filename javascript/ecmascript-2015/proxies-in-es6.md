@@ -1,4 +1,4 @@
-# Proxies in ES6
+---
 author: rosielowther
 
 levels:
@@ -15,11 +15,15 @@ category: feature
 
 links:
 
-  - '[github.com](https://github.com/lukehoban/es6features#arrows){website}'
+  - '[github.com](https://github.com/lukehoban/es6features#arrows)'
 
-  - '[www.2ality.com](http://www.2ality.com/2014/12/es6-proxies.html){website}'
-  
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy){website}'
+  - '[www.2ality.com](http://www.2ality.com/2014/12/es6-proxies.html)'
+
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy)'
+
+---
+
+# Proxies in ES6
 
 ---
 ## Content
@@ -27,9 +31,7 @@ links:
 In ES6, you can redefine the semantics of some operations using **proxies**. 
 
 Proxies are special objects, created with two parameters:
-
 * **handler**: for each operation, there is a corresponding handler method (a **trap**) that intercepts the operation on its way to the target and performs that operation. 
-
 * **target**: if the handler doesn’t intercept the operation then the operation is performed on the target.
 
 ```
@@ -69,13 +71,14 @@ Complete the code snippet to create a proxy which can be switched off:
 let {proxy, ???} = 
     Proxy.???(target, handler);
 ```
-*`revoke` 
-*`revocable` 
-*`switchoff` 
-*`switch` 
-*`switchable` 
-*`turn_off` 
-*`end`
+
+* `revoke` 
+* `revocable` 
+* `switchoff` 
+* `switch` 
+* `switchable` 
+* `turn_off` 
+* `end`
 
 ---
 ## Revision
@@ -84,10 +87,10 @@ What two parameters does proxies have?
 
 ???
 
+* handler & target
+* target & host
+* host & handler
+* name & proxy
+* proxy & function
+* request & target
 
-*handler & target
-*target & host
-*host & handler
-*name & proxy
-*proxy & function
-*request & target

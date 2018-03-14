@@ -30,8 +30,11 @@ links:
 
 
 ---
-## Content
+
 # Use _varargs_ when unsure about the number of parameters
+
+---
+## Content
 
 Sometimes, it may be necessary to write a method that can take a variable amount of parameters. A simple example of this could be a method which takes prices and calculates a total cost.
 

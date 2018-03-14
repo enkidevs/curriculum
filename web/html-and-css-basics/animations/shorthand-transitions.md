@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Shorthand Transitions
+
+---
+## Content
 
 Declaring each transition property individually can be intensive, especially using `vendor prefixes`. 
 

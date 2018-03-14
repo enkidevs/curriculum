@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Untrack a directory/file without deleting it
+
+---
+## Content
 
 To delete a file from your project in git you use `git rm`.
 

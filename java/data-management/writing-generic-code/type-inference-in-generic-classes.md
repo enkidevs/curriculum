@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # Type inference in generic classes
+
+---
+## Content
 
 Using generic classes in Java can sometimes result in verbose syntax, for example:
 ```

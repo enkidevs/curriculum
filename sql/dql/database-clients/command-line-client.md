@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Command-Line Client
+
+---
+## Content
 
 Some of the Database Tools have command-line interface, meaning that instead of a separate window or a in browser GUI we will interact with the database through the command line by entering various SQL commands. Examples of such tools are:
  - DbVisualizer

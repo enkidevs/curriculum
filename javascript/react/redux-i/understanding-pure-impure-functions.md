@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Understanding **pure/impure** functions
+
+---
+## Content
 
 As **Redux** is based on the general concept of the *single immutable state tree*, **pure** functions should be used as often as possible as not to alter any state, but to always generate new states (especially for the frontend).
 

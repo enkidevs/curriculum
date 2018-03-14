@@ -1,9 +1,12 @@
-# Use ESLint
+---
 author: mihaiberq
 
 levels:
+
   - beginner
+
   - basic
+
   - medium
 
 type: normal
@@ -11,7 +14,12 @@ type: normal
 category: how to
 
 tags:
+
   - introduction
+
+---
+
+# Use ESLint
 
 ---
 ## Content
@@ -55,4 +63,5 @@ A linter is, among others, ???
 * a set of rules for coding style
 * a set of rules concerning modularity
 * a Node.js extension
-* an offline Node.js compiler  
+* an offline Node.js compiler
+

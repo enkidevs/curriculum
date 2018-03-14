@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # The `enum` collection
+
+---
+## Content
 
 An **enum** (enumeration) is a set of constants that is meant to keep information organized. They are used mostly when a variable should take only a small set of possible values.
 

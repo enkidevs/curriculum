@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Exiting the interpreter
+
+---
+## Content
 
 The interactive interpreter can be closed conventionally using _CTRL-D_. 
 

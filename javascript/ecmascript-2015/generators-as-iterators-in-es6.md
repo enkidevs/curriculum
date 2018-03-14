@@ -1,4 +1,4 @@
-# Generators as iterators in ES6
+---
 author: rosielowther
 
 levels:
@@ -15,9 +15,14 @@ category: feature
 
 links:
 
-  - '[www.2ality.com](http://www.2ality.com/2015/03/es6-generators.html){website}'
-  
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}'
+  - '[www.2ality.com](http://www.2ality.com/2015/03/es6-generators.html)'
+
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator)'
+
+---
+
+# Generators as iterators in ES6
+
 ---
 ## Content
 
@@ -83,6 +88,8 @@ genObj.next();
 console.log(genObj.next().value);
 // ???
 ```
-*`b`
-*`a`
-*`undefined`
+
+* `b`
+* `a`
+* `undefined`
+

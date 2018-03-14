@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Getting time based on time zones
+
+---
+## Content
 
 The `TimeZone` class can be used to retrieve the time zone of a particular location and can also figure out daylight savings. 
 

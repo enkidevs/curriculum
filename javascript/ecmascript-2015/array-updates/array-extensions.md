@@ -27,8 +27,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Array Extensions
+
+---
+## Content
 
 In ES6 the array type is expanded with 3 additional properties: 
 

@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Securing the Data Link Layer
+
+---
+## Content
 
 The Data Link Layer facilitates the transfer of data around a LAN network with protocols like [ARP](https://en.wikipedia.org/wiki/Address_Resolution_Protocol). As a quick reminder, ARP is responsible for identifying and associating IP addresses of network nodes with their MAC addresses. The ARP protocol is critical for ensuring that information anywhere higher up in the OSI Model reaches the correct endpoint, and as such attracts the attention of hackers.
 
@@ -60,11 +63,12 @@ What is one control in the Data Link Layer of the OSI Model?
 ---
 ## Quiz
 ### What is one control for this OSI model Layer?
+
 ```
 What is one control in the Data Link Layer of the OSI Model?
 ```
 
- ???
+???
 
 * Using managed switches prevent topographical loops
 * Locks and secure enclosures

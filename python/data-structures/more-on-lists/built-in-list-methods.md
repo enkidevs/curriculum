@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Built-in `list` methods
+
+---
+## Content
 
 These are some common built-in list methods.
 

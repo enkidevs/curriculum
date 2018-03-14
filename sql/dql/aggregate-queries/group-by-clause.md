@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # Group By clause
+
+---
+## Content
 
 The `GROUP BY` clause is often used with aggregate functions (e.g. `SUM`, `AVG`). Syntactically it comes after the `WHERE` clause and before the `ORDER BY` in the *query*. It enables users to group data by one or more columns.
 
@@ -46,15 +49,15 @@ FROM move_name
 GROUP BY language_id;
 
 --Result:
-count | language_id
-======+============
-  639 |           6
-  639 |           5
-  639 |           8
-  639 |           1
-  639 |           9
-  617 |           3
-  639 |           7
+| count | language_id |
+|  :-:  |     :-:     |
+|  639  |           6 |
+|  639  |           5 |
+|  639  |           8 |
+|  639  |           1 |
+|  639  |           9 |
+|  617  |           3 |
+|  639  |           7 |
 (7 rows)
 
 ```
@@ -72,10 +75,10 @@ FROM pokemon
 ??? is_default;
 
 --Result:
-count | is_default
-======+============
-   90 | f
-  721 | t
+| count | is_default |
+|  :-:  |     :-:    |
+|   90  | f          |
+|  721  | t          |
 (2 rows)
 ```
 
@@ -106,23 +109,22 @@ FROM ???
 ORDER BY item_category_id;
 
 --Result:
-avg      | item_category_id
-=========+==================
-550      |        1
-20       |        2
-20       |        3
-12       |        4
-20       |        5
-20       |        6
-18.88    |        7
-20       |        8
-134.28   |        9
-1810     |        10
+|  avg   | item_category_id|
+|  :-:   |       :-:       |
+| 550    |        1        |
+| 20     |        2        |
+| 20     |        3        |
+| 12     |        4        |
+| 20     |        5        |
+| 20     |        6        |
+| 18.88  |        7        |
+| 20     |        8        |
+| 134.28 |        9        |
+| 1810   |        10       |
 
 ...
 
 ```
-
 
 * AVG
 * item

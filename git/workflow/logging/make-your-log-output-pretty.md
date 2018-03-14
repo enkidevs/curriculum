@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Make your log output pretty
+
+---
+## Content
 
 The `--pretty` option makes the log output easier to read. 
 

@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Writing generic methods
+
+---
+## Content
 
 In this example method:
 ```

@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Using the `@Deprecated` annotation
+
+---
+## Content
 
 The `@Deprecated` annotation can be used to indicate elements which should no longer be used. Any program that uses an element which is marked as `@Deprecated` will produce a compiler warning.
 ```

@@ -14,8 +14,11 @@ category: must-know
 inAlgoPool:
 
 ---
-## Content
+
 # Object - Part 2
+
+---
+## Content
 
 Object's properties can also be functions.
  

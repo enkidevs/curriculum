@@ -22,8 +22,11 @@ links:
 
 parent: what-is-state
 ---
-## Content
+
 # Functional components
+
+---
+## Content
 
 As stated before, **React** components behave just like functions, taking `props` as input and returning **React elements**. 
 

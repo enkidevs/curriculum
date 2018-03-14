@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # SassScript Number Functions
+
+---
+## Content
 
 *SassScript* has a number of implemented number functions which can be used for the manipulation and creation of numeric values.
 

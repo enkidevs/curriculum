@@ -27,8 +27,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Arrow Functions (Part 1)
+
+---
+## Content
 
 **Arrow functions** (called lambda or "fat arrow" functions in some other languages) provide a shorthand syntax to declare function expression.
 

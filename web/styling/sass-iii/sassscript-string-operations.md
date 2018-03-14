@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # SassScript String Operations
+
+---
+## Content
 
 The `+` operation is used in *SassScript* for the concatenation of strings. 
 

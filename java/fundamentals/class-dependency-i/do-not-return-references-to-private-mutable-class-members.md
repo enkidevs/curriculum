@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Do not return *references* to private *mutable* class members
+
+---
+## Content
 
 Returning references to `mutable private class` members allows for the opportunity to **corrupt** the internal state of a class *maliciously* or *accidentally*.
 
@@ -111,7 +114,7 @@ public class Main {
 }
 ```
 
- ???
+???
 
 * 1 and 2
 * 1 and 1

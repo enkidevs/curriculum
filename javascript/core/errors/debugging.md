@@ -14,8 +14,11 @@ category: must-know
 inAlgoPool:
 
 ---
-## Content
+
 # Debugging
+
+---
+## Content
 
 One of the most common debugging options is the **browser tools**. 
 

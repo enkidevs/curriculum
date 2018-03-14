@@ -20,8 +20,11 @@ links:
 
 parent: custom-proptype-s-to-be-required
 ---
-## Content
+
 # Props in getInitialState is an Anti-Pattern
+
+---
+## Content
 
 Passing down props from the parent to generate state in `getInitialState` can lead to duplication of *source of truth*, where the real data is located.
 

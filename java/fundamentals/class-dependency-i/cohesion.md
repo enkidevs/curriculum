@@ -13,8 +13,11 @@ category: must-know
 
 
 ---
-## Content
+
 # Cohesion
+
+---
+## Content
 
 While *coupling* refers to the relationships between different modules, **cohesion** indicates the degree to which elements of *the same module* belong together.
 

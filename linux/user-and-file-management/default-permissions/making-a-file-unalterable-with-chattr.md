@@ -1,4 +1,4 @@
-# Making a file unalterable with `chattr`
+---
 author: tuwi.dc
 
 levels:
@@ -14,13 +14,22 @@ type: normal
 category: how to
 
 tags:
+
   - linux
+
   - chattr
+
   - unalterable
+
   - terminal
+
   - obscura
+
   - workout
 
+---
+
+# Making a file unalterable with `chattr`
 
 ---
 ## Content
@@ -56,8 +65,10 @@ Make `enki`  *file* untouchable:
 ```
 $ ??? ??? enki
 ```
-*`chattr`
-*`+i`
-*`-R`
-*`-Ri`
-*`-i`
+
+* `chattr`
+* `+i`
+* `-R`
+* `-Ri`
+* `-i`
+

@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Name your callback functions to avoid 'callback hell'
+
+---
+## Content
 
 Instead of:
 ```

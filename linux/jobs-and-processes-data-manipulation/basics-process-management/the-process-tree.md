@@ -1,4 +1,4 @@
-# The Process Tree
+---
 author: jfarmer
 
 levels:
@@ -9,9 +9,11 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+---
+
+# The Process Tree
 
 ---
 ## Content
@@ -64,17 +66,20 @@ systemd─┬─ModemManager─┬─{gdbus}
         └─konsole--bash─┬─pstree
                         └─{QXcbEventReader}
 ```
-*bash
-*ModemManager
-*konsole
-*QXcbEventReader
-*systemd
+
+* bash
+* ModemManager
+* konsole
+* QXcbEventReader
+* systemd
 
 ---
 ## Revision
 
 Every process has a common root process named ???.
-*init
-*root
-*systemd
-*bash
+
+* init
+* root
+* systemd
+* bash
+

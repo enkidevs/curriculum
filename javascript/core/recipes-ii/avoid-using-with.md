@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Avoid using `with`
+
+---
+## Content
 
 The `with` statement shortens code by making it unnecessary to repeat object references.
 

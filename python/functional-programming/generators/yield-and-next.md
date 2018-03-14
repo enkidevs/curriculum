@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # yield() and next()
+
+---
+## Content
 
 As we already know, **generators** are a way of creating iterable items in **Python**. The behaviour of a generator is mainly defined by the `yield()` and `next()` methods.
  

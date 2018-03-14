@@ -19,8 +19,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Promise API Methods
+
+---
+## Content
 
 The promise API supplies a number of methods for working with multiple promises.
 

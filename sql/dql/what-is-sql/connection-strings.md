@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Connection strings
+
+---
+## Content
 
 *Connection strings* are URLs that point at a database hosted on a server. They use the Uniform Resource Indicator standard to structure the different parts. Abstractly, they look like this:
 

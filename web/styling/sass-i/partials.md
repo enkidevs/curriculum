@@ -15,8 +15,11 @@ category: how to
 
 
 ---
-## Content
+
 # Partials
+
+---
+## Content
 
 *Sass* allows the creation of **partial** CSS/SCSS files that you can include in other Sass files through imports. This feature promotes modular code, thus keeping files easier to maintaining.
 

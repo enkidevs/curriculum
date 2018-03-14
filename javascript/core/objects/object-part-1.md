@@ -17,8 +17,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Object - Part 1
+
+---
+## Content
 
 JavaScript has a special type called *Object* which is a collection of keys and values.
  

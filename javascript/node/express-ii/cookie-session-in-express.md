@@ -20,8 +20,11 @@ links:
 
 parent: easy-way-to-deliver-html-pages-with-express
 ---
-## Content
+
 # `cookie-session` in **Express**
+
+---
+## Content
 
 By choosing to implement sessions in **Express** with the help of cookies, a `session` object will be added to the `request` object. 
 

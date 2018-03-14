@@ -1,4 +1,4 @@
-# Avoid margin hacks with `flexbox`
+---
 author: jordanfish
 
 levels:
@@ -15,7 +15,11 @@ category: best practice
 
 links:
 
-  - '[github.com](https://github.com/AllThingsSmitty/css-protips){website}'
+  - '[github.com](https://github.com/AllThingsSmitty/css-protips)'
+
+---
+
+# Avoid margin hacks with `flexbox`
 
 ---
 ## Content
@@ -48,10 +52,11 @@ The column gutters in the second row are inside a `flex` container, with `justif
 Which element should have `display: flex` property in order for the gutters to be equally distributed?
 
 ???
-*The container.
-*Every column gutter.
-*Every column gutter but the first.
-*The html document.
+
+* The container.
+* Every column gutter.
+* Every column gutter but the first.
+* The html document.
 
 ---
 ## Revision
@@ -70,3 +75,4 @@ Which `flexbox` property can be used to get rid of `nth-`, `first-` and `last-ch
 * `display-flex`
 * `content-box`
 * `space-flex`
+

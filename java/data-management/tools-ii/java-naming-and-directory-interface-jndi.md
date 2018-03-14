@@ -19,8 +19,11 @@ links:
 notes: https://insights.enki.com/#/contrib/5599b0227d50844e00f804b4
 
 ---
-## Content
+
 # Java Naming and Directory Interface (*JNDI*)
+
+---
+## Content
 
 *Java Naming and Directory Interface* is a Java **API** for a directory service that allows Java software clients to discover and look up data and objects via a name.  
  

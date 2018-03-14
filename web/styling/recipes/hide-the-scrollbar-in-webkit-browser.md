@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Hide the scrollbar in webkit browser
+
+---
+## Content
 
 To hide the scrollbar on a particular element: 
 

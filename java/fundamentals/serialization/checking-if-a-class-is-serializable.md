@@ -18,8 +18,11 @@ links:
 
 notes: 
 ---
-## Content
+
 # Checking if a class is serializable
+
+---
+## Content
 
 To check if a class is serializable you can use the utility that comes with JDK - `serialver`. Try using it in command line:
 

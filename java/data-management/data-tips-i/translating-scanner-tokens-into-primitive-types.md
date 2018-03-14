@@ -31,8 +31,11 @@ links:
 
 
 ---
-## Content
+
 # Translating `Scanner` tokens into primitive types
+
+---
+## Content
 
 The `Scanner` class can be used to break an input into tokens separated by delimiters. `Scanner` also has methods to translate each token into one of Java's primitive types.
 

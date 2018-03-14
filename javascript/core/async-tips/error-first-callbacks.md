@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Error-first Callbacks
+
+---
+## Content
 
 Error-first callbacks have an error as the **first argument** of the callback function. If this value is **non-null** then an error has occurred. 
 

@@ -13,8 +13,11 @@ category: must-know
 
 
 ---
-## Content
+
 # Using Classes
+
+---
+## Content
 
 To use a class, you must create an instance of a class. Take the previous class:
 ```python

@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Retrieving the cause of an exception
+
+---
+## Content
 
 When using chained exceptions, it is useful to be able to find the cause of an exception. This can be done using the `getCause` method. For example:
 ```

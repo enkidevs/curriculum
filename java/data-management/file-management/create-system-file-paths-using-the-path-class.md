@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Create system file paths using the `Path` class
+
+---
+## Content
 
 System file paths can be represented in Java by using the `Path` class. For example, a path can be created using the `Paths.get()` method:
 ```

@@ -1,4 +1,4 @@
-# Use **React** with other libraries
+---
 author: catalin
 
 levels:
@@ -17,8 +17,11 @@ parent: custom-proptype-s-to-be-required
 
 links:
 
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/tips/use-react-with-other-libraries.html){website}
+  - '[facebook.github.io](https://facebook.github.io/react/tips/use-react-with-other-libraries.html)'
+
+---
+
+# Use **React** with other libraries
 
 ---
 ## Content
@@ -36,3 +39,4 @@ The best way to use other libraries with **React** is to make use of the event l
 ```
 
 Custom *event listeners* and *events streams* are usually inserted in the same way, in the same place.
+

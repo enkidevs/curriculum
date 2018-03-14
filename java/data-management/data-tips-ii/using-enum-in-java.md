@@ -19,8 +19,11 @@ tags:
 
 notes: 
 ---
-## Content
+
 # Using `enum` in Java
+
+---
+## Content
 
 In Java `enum` is a type whose fields consist of a fixed set of constants. You should use enum types any time you need to represent a fixed set of constants, e.g. days of the week, cards in a deck or menu item options. 
 

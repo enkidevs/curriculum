@@ -19,12 +19,12 @@ tags:
 
   - deep
 
+---
 
-
+# Storing JSON in MySQL
 
 ---
 ## Content
-# Storing JSON in MySQL
 
 MySQL has only one data type for JSON values: `JSON`.
 
@@ -59,9 +59,9 @@ WHERE pokemon->"$.types[0]" = "poison";
 ```
 And the output is:
 ```
-   id   |     pokemon
-========+===================
-    1   | {"id": 1, "name": "Bulbasaur" ...}
+| id|    pokemon                         |
+|:-:|     :-:                            |
+| 1 | {"id": 1, "name": "Bulbasaur" ...} |
 ```
 There's also `->>` for cases in which a single selected field must be unquoted: `"Bulbasaur" ->> Bulbasaur`.
 
@@ -90,7 +90,6 @@ pokemon ??? ??? = ???;
 MySQL's operator for JSON parsing is
 
 ???
-
 
 * `->`
 * `@>`

@@ -19,8 +19,11 @@ category: how to
 
 parent: how-npm3-handles-dependencies
 ---
-## Content
+
 # Npm Scripting
+
+---
+## Content
 
 `npm` is a lot more than just a package manager for Node. It supports scripting using the `run-script` (or the abbreviated `run`) option.
 

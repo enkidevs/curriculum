@@ -1,4 +1,4 @@
-# Random password generator
+---
 author: tuwi.dc
 
 levels:
@@ -14,17 +14,26 @@ type: normal
 category: hack
 
 tags:
-  - linux
-  - terminal
-  - random
-  - password
-  - generator
-  - workout
 
+  - linux
+
+  - terminal
+
+  - random
+
+  - password
+
+  - generator
+
+  - workout
 
 links:
 
-  - '[Base64 Encoding](https://en.wikipedia.org/wiki/Base64){website}'
+  - '[Base64 Encoding](https://en.wikipedia.org/wiki/Base64)'
+
+---
+
+# Random password generator
 
 ---
 ## Content
@@ -69,11 +78,12 @@ Generate a random 20 chararacters password using `pwgen` :
 ```
 $ ??? ??? ???
 ```
-*`pwgen`
-*`-s`
-*`20`
-*`openssl`
-*`40`
+
+* `pwgen`
+* `-s`
+* `20`
+* `openssl`
+* `40`
 
 ---
 ## Revision
@@ -82,7 +92,9 @@ You can generate a 30 characters password with `openssl` by running:
 ```
 $ ??? ??? -base64 30
 ```
-*`openssl`
-*`rand`
-*`sudo`
-*`genran`
+
+* `openssl`
+* `rand`
+* `sudo`
+* `genran`
+

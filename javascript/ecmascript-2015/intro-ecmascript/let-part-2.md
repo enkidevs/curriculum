@@ -17,8 +17,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Let (Part 2)
+
+---
+## Content
 
 *let* is particularly useful when used with loops and inner functions.
 

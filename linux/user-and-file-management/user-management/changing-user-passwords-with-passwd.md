@@ -1,4 +1,4 @@
-# Changing User Passwords With `passwd`
+---
 author: jfarmer
 
 levels:
@@ -9,12 +9,16 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
 tags:
+
   - workout
+
+---
+
+# Changing User Passwords With `passwd`
+
 ---
 ## Content
 
@@ -41,6 +45,7 @@ Change `enkiUser` ‘s password:
 ```
 $ ??? ??? ???
 ```
+
 * `sudo`
 * `passwd`
 * `enkiUser`
@@ -53,18 +58,20 @@ $ ??? ??? ???
 Do you have to be a root to change your own password using  `passwd` ?  
 
 ???
+
 * No
 * Yes
 
 ---
 ## Quiz
+### Can you identify a security vulnerability?
 
-headline: Can you identify a security vulnerability?
+Which of the following is most likely to cause a lot of problems?
 
-question: Which of the following is most likely to cause a lot of problems?
+???
 
-answers:
-  - Allowing regular users to create new root users without sudo
-  - Forcing expiry and renewal dates for root user's password
-  - Using `sudo passwd` to change someone's password
-  - Using `sudo passwd` to change your own password
+* Allowing regular users to create new root users without sudo
+* Forcing expiry and renewal dates for root user's password
+* Using `sudo passwd` to change someone's password
+* Using `sudo passwd` to change your own password
+

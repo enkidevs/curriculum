@@ -22,8 +22,11 @@ links:
 
 parent: passing-arguments-to-listeners
 ---
-## Content
+
 # Handling event errors
+
+---
+## Content
 
 All events are treated equally as all event types are defined by an arbitrary string. When an event emitter[1] emits an event with no attached listeners the event is ignored.
 

@@ -17,8 +17,11 @@ category: must-know
 
 
 ---
-## Content
+
 # Functions can be declared after use
+
+---
+## Content
 
 Function **declarations** load before other code is executed. This means that the function can be declared after it has been used. 
 

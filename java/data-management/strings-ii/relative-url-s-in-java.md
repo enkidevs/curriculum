@@ -25,8 +25,11 @@ tags:
 
 
 ---
-## Content
+
 # Relative URL's in Java
+
+---
+## Content
 
 A relative URL contains only enough information to reach the resource relative to (or in the context of) another URL.
 

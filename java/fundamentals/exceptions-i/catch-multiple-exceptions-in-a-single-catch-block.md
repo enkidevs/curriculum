@@ -25,8 +25,11 @@ links:
 
 
 ---
-## Content
+
 # Catch multiple exceptions in a single `catch` block
+
+---
+## Content
 
 It is possible to catch multiple types of exception within a single `catch` block. For example:
 ```

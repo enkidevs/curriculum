@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Checkout the previous branch
+
+---
+## Content
 
 There is a shorthand to checkout the previous branch:
 ```

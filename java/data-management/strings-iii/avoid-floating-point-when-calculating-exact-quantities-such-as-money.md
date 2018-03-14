@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Avoid floating-point when calculating exact quantities such as money
+
+---
+## Content
 
 Beware of `float` and `double` when attempting to calculate or represent exact quantities such as money. This is because of the risk of rounding errors.
 

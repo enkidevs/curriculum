@@ -14,8 +14,11 @@ category: must-know
 inAlgoPool:
 
 ---
-## Content
+
 # Types - Undefined and Null
+
+---
+## Content
 
 **undefined**
 

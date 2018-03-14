@@ -1,4 +1,4 @@
-# `let` and `const` in ES6
+---
 author: rosielowther
 
 levels:
@@ -15,13 +15,17 @@ category: feature
 
 links:
 
-  - '[github.com](https://github.com/lukehoban/es6features#arrows){website}'
+  - '[github.com](https://github.com/lukehoban/es6features#arrows)'
 
-  - '[www.2ality.com](http://www.2ality.com/2015/02/es6-scoping.html){website}'
+  - '[www.2ality.com](http://www.2ality.com/2015/02/es6-scoping.html)'
 
-  - '[MDN - Let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let){website}'
-  
-  - '[MDN - Const](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const){website}'
+  - '[MDN - Let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)'
+
+  - '[MDN - Const](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)'
+
+---
+
+# `let` and `const` in ES6
 
 ---
 ## Content
@@ -54,9 +58,9 @@ for (let i=0; i < 3; i++) {
 
 `const` can be used to create ??? variables, whereas `let` can be used to create ??? variables. `const` and `let` can be used to create ???-scoped variables.
 
-*immutable
-*mutable
-*block
+* immutable
+* mutable
+* block
 
 ---
 ## Revision
@@ -65,6 +69,7 @@ What must be used to create a **constant, immutable** variable?
 
 ???
 
-*`const`
-*`var`
-*`let`
+* `const`
+* `var`
+* `let`
+

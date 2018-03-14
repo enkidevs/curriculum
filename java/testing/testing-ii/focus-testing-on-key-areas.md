@@ -27,8 +27,11 @@ links:
 
 
 ---
-## Content
+
 # Focus testing on key areas
+
+---
+## Content
 
 Unless you are working on a fairly simple project, it is unlikely that you will be able to test the outcome of every single operation that occurs in your code. Rather than aiming to test everything, it is more effective to focus on the most important parts of your code. 
 

@@ -23,8 +23,11 @@ links:
 parent: securing-the-session-layer
 
 ---
-## Content
+
 # Identifying the Presentation Layer
+
+---
+## Content
 
 The Presentation Layer (Layer 6), also called the syntax layer, is responsible for taking data from the Application Layer above it and converting it from a system-specific format to a format that can be parsed by the recipient. For example, the Presentation Layer would be responsible for converting Windows line endings (CRLF) in text file to Unix line endings (LF) and vice versa as needed.
 
@@ -60,11 +63,12 @@ The Presentation Layer converts data from the ??? format to a format usable by t
 ---
 ## Quiz
 ### What role does this Layer play in the OSI 7 Layer Model?
+
 ```
 What role does the Presentation Layer play in the OSI 7 Layer Model?
 ```
 
- ???
+???
 
 * Data conversion and encryption/decryption
 * Opening, closing, and managing connections between applications

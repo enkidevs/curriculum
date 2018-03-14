@@ -21,8 +21,11 @@ tags:
 
 
 ---
-## Content
+
 # SQL Text Data Types
+
+---
+## Content
 
 While it is not in the standard SQL, some databases decided to support the `text` data type. Similar to `varchar`, it accepts variable length strings. Below, you can find the differences in vendors implementation.
 

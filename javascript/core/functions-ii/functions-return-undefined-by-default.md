@@ -21,8 +21,11 @@ tags:
 
 notes: 
 ---
-## Content
+
 # Functions return `undefined` by default
+
+---
+## Content
 
 JavaScript is a **dynamic** programming language which means that it is not necessary to define the return type of a function.
 

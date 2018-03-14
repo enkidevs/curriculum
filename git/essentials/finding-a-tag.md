@@ -1,4 +1,4 @@
-# Finding a tag
+---
 author: rosielowther
 
 levels:
@@ -15,7 +15,11 @@ parent: using-tags-for-version-control
 
 links:
 
-  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Tagging){website}'
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Tagging)'
+
+---
+
+# Finding a tag
 
 ---
 ## Content
@@ -43,6 +47,7 @@ Find a tag that includes `"fix"` :
 ```
 $ git tag ??? ???
 ```
+
 * `-l`
 * `"fix"`
 * `--fix`
@@ -55,7 +60,9 @@ Search for all the tags of version 2 :
 ```
 $ git tag ??? ???
 ```
+
 * `-l`
 * `v2*`
 * `2`
 * `-m`
+

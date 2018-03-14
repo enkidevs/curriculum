@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # The `return` statement
+
+---
+## Content
 
 Python's `return` statement exits a function and passes back an expression to the function caller. It's used to return the *flow of control* with an *output result* to the function call.
 

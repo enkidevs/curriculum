@@ -14,8 +14,11 @@ category: must-know
 inAlgoPool:
 
 ---
-## Content
+
 # Loops - Part 2
+
+---
+## Content
 
 *for in* loops allow you to iterate through an objects keys. E.g. the keys below are firstName and lastName:
 

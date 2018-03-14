@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Use descriptive error messages when catching exceptions
+
+---
+## Content
 
 Using descriptive error messages can save a lot of debugging time. Avoid generic error messages like "unexpected error occurred" as these will not help you find the cause of the error. Describing *exactly* what went wrong will allow the programmer to get right to the problem.
 ```

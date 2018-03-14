@@ -19,8 +19,11 @@ links:
 
 
 ---
-## Content
+
 # Factories design pattern
+
+---
+## Content
 
 In order to avoid custom object creation with different arguments, **factories** can be used instead. Their usage is obvious when working with complex constructors or you want to avoid *copypasta*.
 

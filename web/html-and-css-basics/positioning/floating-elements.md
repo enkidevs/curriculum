@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Floating Elements
+
+---
+## Content
 
 Another way to position elements on page is with `floats`. This property allows elements to be positioned to the left or right side of the parent element. All other elements will flow around the floated element.
 

@@ -1,4 +1,4 @@
-# map, set, weakmap, weakset
+---
 author: gregbenner
 
 levels:
@@ -22,6 +22,10 @@ links:
   - '[MDN - Weakmap](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap){website}'
   
   - '[MDN - Weakset](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet){website}'
+
+---
+
+# map, set, weakmap, weakset
 
 ---
 ## Content

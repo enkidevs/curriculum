@@ -26,8 +26,11 @@ links:
 parent: using-media-rule-to-create-cross-platform-responsiveness
 
 ---
-## Content
+
 # Responsive images in a layout
+
+---
+## Content
 
 It's good practice to have conditional breakpoints for responsive images. 
 

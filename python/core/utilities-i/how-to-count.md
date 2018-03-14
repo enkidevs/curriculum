@@ -21,8 +21,11 @@ notes: >-
   like most_common(), elements(), etc.
 
 ---
-## Content
+
 # How to count
+
+---
+## Content
 
 Python's `collection` module provides the `Counter` class - a container used for keeping track of the frequencies or counts of values in some data. It's a dict subclass with more features.
 

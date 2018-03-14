@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Use `short` status to make output more compact
+
+---
+## Content
 
 You can use the option `-s` or `--short` to get a simplified status output.
 

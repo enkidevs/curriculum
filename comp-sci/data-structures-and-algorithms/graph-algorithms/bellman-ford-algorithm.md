@@ -22,8 +22,11 @@ links:
 
 parent: dijkstras-iteration
 ---
-## Content
+
 # Bellman-Ford Algorithm
+
+---
+## Content
 
 **Bellman-Ford algorithm** computes the shortest paths from a single source vertex to all the other vertices in a *weighted graph*. The difference between *Dijkstra's* and *Bellman-Ford* is that the latter, even if it is slower, works for graphs with *negative weighted* edges.
 
@@ -89,7 +92,7 @@ The main difference between Bellman-Ford and Dijkstra's algorithms is that
 
 ---
 ## Quiz
-### which algorithm is to be use in the following scenario?
+### Which algorithm is to be use in the following scenario?
 Suppose we have an undirected, complete, weighted (real numbers) graph.
 Out of the following, which algorithm would work best for finding
 the shortest paths between a source node and every other node?

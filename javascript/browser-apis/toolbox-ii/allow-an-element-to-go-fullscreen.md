@@ -17,8 +17,11 @@ category: feature
 
 notes: Do I need to give examples of the inconsistencies? The info on this seems pretty vague and it seems like people are mostly using a github work-around.
 ---
-## Content
+
 # Allow an element to go fullscreen
+
+---
+## Content
 
 The HTML5 Fullscreen API allows an element to be viewed filling the whole screen and hiding everything else. This can be used for example to play a video without distraction. 
 

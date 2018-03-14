@@ -11,12 +11,12 @@ category: must-know
 
 inAlgoPool: false
 
+---
 
-
+# The `static` Modifier
 
 ---
 ## Content
-# The `static` Modifier
 
 Both `static` and `final` are non-access modifiers. Therefore, they can be used in conjunction with one another or with access modifiers such as `public` or `private`. 
 
@@ -99,7 +99,7 @@ How are static variables also called?
 
 ---
 ## Quiz
-### how do class variables work?
+### How do class variables work?
 ```
 public class Dog {
   String name;

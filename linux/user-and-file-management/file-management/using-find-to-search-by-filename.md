@@ -1,4 +1,4 @@
-# Using `find` To Search By Filename
+---
 author: jfarmer
 
 levels:
@@ -9,17 +9,22 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+tags:
+
+  - introduction
+
+  - workout
 
 links:
 
-  - '[www.tecmint.com](http://www.tecmint.com/35-practical-examples-of-linux-find-command/){website}'
+  - '[www.tecmint.com](http://www.tecmint.com/35-practical-examples-of-linux-find-command/)'
 
-tags:
-  - introduction
-  - workout
+---
+
+# Using `find` To Search By Filename
+
 ---
 ## Content
 
@@ -66,13 +71,14 @@ Search in the home directory for files that contain happy in their title:
 $ ??? ??? -type
         ??? ??? ???
 ```
-*`find`
-*`~/`
-*`f`
-*`-name`
-*`"*happy*"`
-*`"happy"`
-*`d`
+
+* `find`
+* `~/`
+* `f`
+* `-name`
+* `"*happy*"`
+* `"happy"`
+* `d`
 
 ---
 ## Revision
@@ -81,7 +87,8 @@ To look for directories with `find` you need
 
 ??? flag.
 
-*-type d
-*-type f
-*dir
-*-dir
+* -type d
+* -type f
+* dir
+* -dir
+

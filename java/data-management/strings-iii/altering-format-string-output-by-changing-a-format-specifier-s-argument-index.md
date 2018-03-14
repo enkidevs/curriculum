@@ -20,8 +20,11 @@ links:
 
 notes: Gamified insight. Static Workout. 
 ---
-## Content
+
 # Altering format string output by changing a format specifier's `argument_index`
+
+---
+## Content
 
 A format string is a string which can include one or more format specifiers. 
 ```

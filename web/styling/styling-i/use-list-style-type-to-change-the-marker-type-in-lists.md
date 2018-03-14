@@ -32,8 +32,11 @@ links:
 
 
 ---
-## Content
+
 # Use ```list-style-type``` to change the marker type in lists
+
+---
+## Content
 
 This property will allow you to change the marker of items in an unordered list to different shapes.
 ```css

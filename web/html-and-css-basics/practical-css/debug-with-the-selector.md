@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Debug with the `*` selector
+
+---
+## Content
 
 These three lines of **CSS** will select every element on the page and give them a slightly darker background color with the help of the `*` selector.
 ```css
@@ -71,12 +74,11 @@ div * {
 
 ---
 ## Quiz
-### which selector is used to select every element on the page?
-```
-??? { background-color: rgba(0,255,0,0.1); }
-```
+### Which selector is used to select every element on the page?
 
- ???
+??? { 
+  background-color: rgba(0,255,0,0.1); 
+}
 
 * *
 * -

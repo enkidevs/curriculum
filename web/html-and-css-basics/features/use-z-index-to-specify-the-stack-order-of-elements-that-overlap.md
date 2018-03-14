@@ -30,8 +30,11 @@ links:
 
 
 ---
-## Content
+
 # Use `z-index` to specify the stack order of elements that overlap
+
+---
+## Content
 
 This property can only be used for elements which aren't in the normal stack. For example, those with a `position` value which is not `static` (default). 
 

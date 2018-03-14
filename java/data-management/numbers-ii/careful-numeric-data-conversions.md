@@ -11,12 +11,12 @@ type: normal
 
 category: tip
 
+---
 
-
+# Careful Numeric Data Conversions
 
 ---
 ## Content
-# Careful Numeric Data Conversions
 
 Converting a numeric type to a narrower type must be done with care or you could end up with **lost** and/or **misinterpreted data**.
 
@@ -59,7 +59,7 @@ public class Main {
 }
 ```
 
- ???
+???
 
 * a97
 * aa

@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Packages
+
+---
+## Content
 
 **Packages** are a way of organizing Java classes. The Java packages can be stored in files having the *.jar* extension, allowing classes to be imported as a group rather than individually. 
 

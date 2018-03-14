@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # The `sorted` Built-in Function
+
+---
+## Content
 
 `sorted` is Python's built-in function for creating a new sorted list from an iterable object. It is distinct from the `sort` built-in function in that `sort` modifies a list 'in-place', i.e. without creating a new list. The `sorted` function takes the general form:
 

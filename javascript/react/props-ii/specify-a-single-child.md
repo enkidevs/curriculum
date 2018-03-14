@@ -20,8 +20,11 @@ links:
 
 parent: custom-proptype-s-to-be-required
 ---
-## Content
+
 # Specify a single child
+
+---
+## Content
 
 Making use of the `propTypes` you can enforce a *warning* fired when you pass more than one child to a component as children.
 

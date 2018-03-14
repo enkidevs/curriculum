@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Pulling a remote branch
+
+---
+## Content
 
 `git pull` is a command that combines `git fetch` and `git merge`.
 
@@ -58,7 +61,7 @@ $ git ??? origin
 
 ---
 ## Quiz
-### what does the -a flag in the following command stand for?
+### What does the `-a` flag in the following command stand for?
 ```
 # What option related to fetching is `-a` shorthand for in the following command?
 $ git pull -a

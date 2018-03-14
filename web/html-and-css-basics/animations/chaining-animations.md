@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Chaining animations
+
+---
+## Content
 
 It's possible to achieve this by using the `animation-delay` property; it delays the execution of an animation by a specified amount of time.
 

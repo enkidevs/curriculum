@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Manipulating shapes using CSS: `shape-outside`
+
+---
+## Content
 
 You can wrap pieces of text around shapes using `shape-outside`. As of `CSS3`, this property only works on elements that have the property of `float` applied upon it.
 

@@ -19,8 +19,11 @@ category: must-know
 
 parent: verifying-a-binary-search-tree
 ---
-## Content
+
 # Inserting Data Into a Binary Search Tree
+
+---
+## Content
 
 To insert a new key into a BST, we traverse between the left and right children according to how the new key compares to the key at each node, and find the first empty leaf node where the new key fits.
 

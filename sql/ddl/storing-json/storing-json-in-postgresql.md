@@ -23,8 +23,11 @@ tags:
 
 
 ---
-## Content
+
 # Storing JSON in PostgreSQL
+
+---
+## Content
 
 In PostgreSQL, there are two possible ways of storing JSON objects:
 - `json`: stores an exact copy of the string, which is reparsed for every query targeting it
@@ -63,9 +66,9 @@ pokemon @> '{"types": ["poison", "grass"]}';
 ```
 With the output:
 ```
-   id   |     pokemon
-========+===================
-    1   | {"id": 1, "name": "Bulbasaur" ...}
+|id |     pokemon                        |
+|:-:|       :-:                          |
+| 1 | {"id": 1, "name": "Bulbasaur" ...} |
 ```
 
 ---

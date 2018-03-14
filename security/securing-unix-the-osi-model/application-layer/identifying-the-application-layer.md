@@ -23,8 +23,11 @@ links:
 parent: securing-the-presentation-layer
 
 ---
-## Content
+
 # Identifying the Application Layer
+
+---
+## Content
 
 The Application Layer (Layer 7), highest on the stack and __most broad__ in definition, could be considered a catch-all for anything outside of the concerns of the lower Layers. In the Application Layer lives programs using protocols such as naming (DNS), file transfer (HTTP, FTP), messaging (SMTP, IRC), remote access (Telnet, SSH), and countless more. These programs are designed for human interaction (via GUI) and utilize high level functions that interact with the network.
 
@@ -59,11 +62,12 @@ In the Application Layer is ???.
 ---
 ## Quiz
 ### What role does this Layer play in the OSI 7 Layer Model?
+
 ```
 What role does the Application Layer play in the OSI 7 Layer Model?
 ```
 
- ???
+???
 
 * Provide a user interface with high level functions for interacting with the network
 * Opening, closing, and managing connections between applications

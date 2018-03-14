@@ -18,11 +18,13 @@ links:
 
   - '[blog.thilinamb.com](http://blog.thilinamb.com/2008/12/how-to-increase-java-stack-size.html){website}'
 
-notes: https://insights.enki.com/#/contrib/others/55ef1843d2b1123000710e27?search=khandelwalrinki
-https://insights.enki.com/#/contrib/others/55f05f981baba32f002fd31d?search=kha
+notes: https://insights.enki.com/#/contrib/others/55ef1843d2b1123000710e27?search=khandelwalrinki https://insights.enki.com/#/contrib/others/55f05f981baba32f002fd31d?search=kha
+---
+
+# Most common reason behind **stack overflow** error
+
 ---
 ## Content
-# Most common reason behind **stack overflow** error
 
 JVM (Java Virtual Machine) is an implementation of a stack engine. When it compiles a java file, JVM goes through each line of code and pushes (stack equivalent of adding) each variable and method call. 
 

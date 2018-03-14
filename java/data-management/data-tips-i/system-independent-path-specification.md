@@ -19,8 +19,11 @@ tags:
 
 notes: 
 ---
-## Content
+
 # System independent path specification
+
+---
+## Content
 
 Try not to be system-dependent with file paths, e.g.:
 

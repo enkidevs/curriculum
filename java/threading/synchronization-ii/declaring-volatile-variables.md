@@ -32,8 +32,11 @@ links:
 
 
 ---
-## Content
+
 # Declaring `volatile` variables
+
+---
+## Content
 
 The `volatile` modifier guarantees that all threads will always see the most up-to-date value of the variable.
 

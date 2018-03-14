@@ -21,8 +21,11 @@ tags:
 
 
 ---
-## Content
+
 # Prototype methods
+
+---
+## Content
 
 Prototypes are objects with properties that other objects inherit. Therefore, any methods defined by the prototype are also inherited, and can be used by the inheriting object.
 

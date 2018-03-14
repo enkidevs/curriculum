@@ -20,8 +20,11 @@ links:
 
 parent: check-data-about-a-package
 ---
-## Content
+
 # Deprecate npm packages
+
+---
+## Content
 
 Using the simple `npm deprecate` command you can deprecate versions of published packages. This only works if you are the **owner** of the specified package.
 ```bash

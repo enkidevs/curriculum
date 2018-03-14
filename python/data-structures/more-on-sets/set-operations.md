@@ -22,8 +22,11 @@ notes: >+
 
 
 ---
-## Content
+
 # `set` operations
+
+---
+## Content
 
 Apart from set operations such as union and intersection, Python's `set` has other useful operations:
  

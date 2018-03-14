@@ -1,4 +1,4 @@
-# Taming the beast
+---
 author: jordanfish
 
 levels:
@@ -12,6 +12,10 @@ levels:
 type: evaluateThis
 
 category: tip
+
+---
+
+# Taming the beast
 
 ---
 ## Content

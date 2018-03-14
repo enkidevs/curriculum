@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Fetching a remote branch
+
+---
+## Content
 
 If you are working on a local version of a remote branch and someone else updates the remote branch, you might want to synchronise your version.
 

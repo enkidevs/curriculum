@@ -18,12 +18,15 @@ category: must-know
 
 links:
 
-  - '[Step-by-step, interactive Kruskal's algorithm application](https://www-m9.ma.tum.de/graph-algorithms/mst-prim/index_en.html){website}'
+  - "[Step-by-step, interactive Kruskal's algorithm application](https://www-m9.ma.tum.de/graph-algorithms/mst-prim/index_en.html){website}"
 
 parent: kruskals-iteration
 ---
-## Content
+
 # Prim's Algorithm
+
+---
+## Content
 
 As an alternative to Kruskal's algorithm, Prim's algorithm yields the same result: the **minimum spanning tree** of that graph. It is a greedy algorithm which works for **connected, weighted, undirected graphs**.
 
@@ -73,7 +76,7 @@ Prim's algorithm can be applied for
 
 ---
 ## Quiz
-### which algorithm is to be use in the following scenario?
+### Which algorithm is to be use in the following scenario?
 Consider a complete, weighted graph. If we want to compute its minimum spanning tree,
 which starts from a given node we choose, which algorithm should we use?
 

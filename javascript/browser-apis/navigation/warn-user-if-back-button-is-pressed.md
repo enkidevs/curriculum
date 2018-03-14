@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Warn user if **Back** button is pressed
+
+---
+## Content
 
 As to prevent the loss of data in some cases, you will want to warn the user before pressing the **back** button and leave the current page.
 

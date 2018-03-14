@@ -1,4 +1,4 @@
-# Cohesion
+---
 author: mihaiberq
 
 levels:
@@ -8,6 +8,10 @@ levels:
 type: normal
 
 category: must-know
+
+---
+
+# Cohesion
 
 ---
 ## Content
@@ -31,11 +35,9 @@ public class Item {
 }
 ```
 This variable, by no means, ties the `Item` class to a potential `Store` class, as there is no direct link between the two.  However, we delegate `Item` to take care of the number of items that `Store` should rather take care of.
-
-**Low cohesion** usually results in monolithic classes that are difficult to maintain and reduces reusability. Conversely, **high cohesion** results in smaller classes, easier to maintain and extend.
+* *Low cohesion** usually results in monolithic classes that are difficult to maintain and reduces reusability. Conversely, **high cohesion** results in smaller classes, easier to maintain and extend.
 
 For small projects, these two design patterns are not necessarily to be followed. But, in case of larger projects, where you've got multiple modules/classes depending on each other, starting off on the wrong foot might cause enough overhead for them to justify their usage from the beginning.
-
 
 ---
 ## Revision
@@ -48,3 +50,4 @@ Out of the following, which are the two characteristics of good code?
 * tight coupling and low cohesion
 * loose coupling and low cohesion
 * tight coupling and high cohesion
+

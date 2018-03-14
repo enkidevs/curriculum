@@ -21,8 +21,11 @@ links:
 
 
 ---
-## Content
+
 # Manage child processes in **Node**
+
+---
+## Content
 
 **Node** has the ability to externalize *CPU-intensive* processing in order to free the event loop by *spawning* child processes that can communicate seamlessly with their parents.
 

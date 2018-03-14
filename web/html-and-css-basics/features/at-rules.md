@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # At-Rules (`@`)
+
+---
+## Content
 
 The at-rule (`@`) informs CSS with instructions on how to behave.
 

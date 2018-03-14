@@ -19,8 +19,11 @@ category: must-know
 
 parent: depth-first-traversal
 ---
-## Content
+
 # Pre-order Traversal
+
+---
+## Content
 
 **Pre-order traversal** is a type of *depth-first traversal* in which the visiting order is: root, left child, right child. It only makes sense for **binary trees**.
 

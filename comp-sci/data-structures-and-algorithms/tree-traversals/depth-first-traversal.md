@@ -19,8 +19,11 @@ category: must-know
 
 parent: tree-traversals
 ---
-## Content
+
 # Depth-first Traversal
+
+---
+## Content
 
 **Depth-first traversal** (also known as *Depth-first search* or *DFS*) represents the tree traversal in which the left node's grandchildren are prioritized over the right nodes.
 

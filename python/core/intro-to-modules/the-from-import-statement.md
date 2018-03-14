@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # The from...import statement
+
+---
+## Content
 
 To refer to specific items of a **module** within your program's **namespace**[1], you can use the `from...import` statement.
 

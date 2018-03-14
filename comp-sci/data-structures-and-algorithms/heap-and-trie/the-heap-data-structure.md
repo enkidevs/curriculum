@@ -22,8 +22,11 @@ links:
 
 parent: balanced-vs-unbalanced-binary-trees
 ---
-## Content
+
 # The Heap Data Structure
+
+---
+## Content
 
 A *heap* is tree-based data structure designed to support a constant-time `find-max` (or `find-min`) operation in addition to efficient insertion of new elements and efficient removal of the maximum (or minimum) element.  They are frequently used to implement priority queues, where the elements are ordered by priority (or some other factor) rather then their insertion order.
 

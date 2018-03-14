@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # An interface's methods do not need to be declared as `public`
+
+---
+## Content
 
 It is not necessary to declare an interface's methods as `public`. This is because every method defined within an interface is implicitly `public`.
 

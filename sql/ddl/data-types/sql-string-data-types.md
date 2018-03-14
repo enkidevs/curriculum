@@ -21,8 +21,11 @@ tags:
 
 
 ---
-## Content
+
 # SQL String Data Types
+
+---
+## Content
 
 In terms of *string data types*, there are less options to be used. However, there are no discrepancies regarding naming conventions between PostgreSQL, MySQL and MSSQL. The three main types are:
 - `char(n)`

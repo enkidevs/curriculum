@@ -1,4 +1,4 @@
-# On-off
+---
 author: mihaiberq
 
 levels:
@@ -16,6 +16,10 @@ type: tetris
 inAlgoPool: false
 
 category: tip
+
+---
+
+# On-off
 
 ---
 ## Content

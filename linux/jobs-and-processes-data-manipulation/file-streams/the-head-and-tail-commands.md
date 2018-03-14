@@ -1,4 +1,4 @@
-# The `head` And `tail` Commands
+---
 author: jfarmer
 
 levels:
@@ -9,9 +9,11 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+---
+
+# The `head` And `tail` Commands
 
 ---
 ## Content
@@ -61,7 +63,9 @@ $ ls -t | tail -n3
 ## Revision
 
 The flag of `tail` that will make it keep printing lines as they are appended to a file is ???.
-*-f
-*-a
-*-n
-*-r
+
+* -f
+* -a
+* -n
+* -r
+

@@ -27,8 +27,11 @@ tags:
 
 
 ---
-## Content
+
 # UNION
+
+---
+## Content
 
 The **union** of two or more tables means combining their **type-matching rows**. Unlike the `JOIN` operation, which combines columns (containing all entries from either the left, the right or both tables), the `UNION` operation always retrieves every entry in *both tables*.
 
@@ -69,14 +72,14 @@ from language_name;
 ```
 With the output:
 ```
-id |       name       
-===+============
-16 | Chinese
-35 | Englisch
- 2 | roomaji
-29 | 伊語
-9  | en
-26 | Espagnol
+| id |   name   |
+| :-:|   :-:    |
+| 16 | Chinese  |
+| 35 | English  |
+|  2 | roomaji  |
+| 29 | 伊語     |
+|  9 | en       |
+| 26 | Espagnol |
 
 (51 rows)
 ```
@@ -93,17 +96,17 @@ from language_name;
 ```
 And the output:
 ```
-id  |       name       
-====+============
-  1 | ja
-  2 | roomaji
-  3 | ko
-  4 | zh
-  5 | fr
-  6 | de
-  7 | es
-  8 | it
-  9 | en
+|id |  name   |
+|:-:|   :-:   |
+| 1 | ja      |
+| 2 | roomaji |
+| 3 | ko      |
+| 4 | zh      |
+| 5 | fr      |
+| 6 | de      |
+| 7 | es      |
+| 8 | it      |
+| 9 | en      |
 (51 rows)
 ```
 
@@ -150,31 +153,31 @@ WHERE region_name.region_id = 2;
 
 Given the tables called `item_pocket` and `item_category`:
 
-id |   name    
-====+==========
- 1 | misc
- 2 | medicine
- 3 | pokeballs
+|id |   name    |
+|:-:|    :-:    |
+| 1 | misc      |
+| 2 | medicine  |
+| 3 | pokeballs |
 (...)
 
-id   | item_pocket_id |    name       
-=====+================+==============
-   1 |              7 | stat-boosts
-   2 |              5 | effort-drop
-   3 |              5 | medicine
-   4 |              5 | other
-   5 |              5 | in-a-pinch
+|id | item_pocket_id |    name     |
+|:-:|       :-:      |     :-:     |
+| 1 |              7 | stat-boosts |
+| 2 |              5 | effort-drop |
+| 3 |              5 | medicine    |
+| 4 |              5 | other       |
+| 5 |              5 | in-a-pinch  |
 (...)
 
 
 Retrieve `item_category`s' id and names together with `item_pocket`s' names without duplicates.
 The result should look like this:
 
-  id   | pocket_name |   name       
-=======+=============+==============
-     1 | battle      | stat-boosts
-     2 | berries     | effort-drop
-     3 | misc        | medicine
+|id | pocket_name |    name     |
+|:-:|     :-:     |     :-:     |
+| 1 | battle      | stat-boosts |
+| 2 | berries     | effort-drop |
+| 3 | misc        | medicine    |
 ```
 
  ???

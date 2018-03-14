@@ -22,8 +22,11 @@ links:
 
 parent: event-handling-in-react
 ---
-## Content
+
 # Conditional rendering (Part 1)
+
+---
+## Content
 
 **Conditional rendering** is the long-standing technique of `render`ing different `element`s for different scenarios. 
 

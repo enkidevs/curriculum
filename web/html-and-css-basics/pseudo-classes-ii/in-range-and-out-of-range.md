@@ -15,8 +15,11 @@ category: feature
 
 
 ---
-## Content
+
 # The `:in-range` and `:out-of-range` Pseudo-Classes
+
+---
+## Content
 
 Another set of pseudo-classes that can be applied only to elements that have (and can take) a range limitation, such as `<input>`s, are `:in-range` and `:out-of-range`.
 

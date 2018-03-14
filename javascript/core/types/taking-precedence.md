@@ -1,4 +1,4 @@
-# Taking precedence...
+---
 author: jordanfish
 
 levels:
@@ -12,6 +12,10 @@ levels:
 type: fillTheGap
 
 category: tip
+
+---
+
+# Taking precedence...
 
 ---
 ## Content

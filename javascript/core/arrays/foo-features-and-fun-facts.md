@@ -1,4 +1,4 @@
-# Foo, features and fun facts
+---
 author: jordanfish
 
 levels:
@@ -13,6 +13,10 @@ type: fillTheGap
 category: tip
 
 notes: 3 more questions? curr up to 11
+
+---
+
+# Foo, features and fun facts
 
 ---
 ## Content

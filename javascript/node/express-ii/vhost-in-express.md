@@ -20,8 +20,11 @@ links:
 
 parent: easy-way-to-deliver-html-pages-with-express
 ---
-## Content
+
 # `vhost` in **Express**
+
+---
+## Content
 
 Virtual hosting represents the method of hosting multiple domain names (with separate handling for each one) on a single server.
 

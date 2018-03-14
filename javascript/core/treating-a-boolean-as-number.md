@@ -1,4 +1,4 @@
-# Treating a boolean as number
+---
 author: pawel
 
 levels:
@@ -17,12 +17,16 @@ tags:
 
   - type-coercion
 
-  - ''
+  - 
+
+---
+
+# Treating a boolean as number
 
 ---
 ## Content
 
-*Type coercion* converts a boolean to a number. 
+* Type coercion* converts a boolean to a number. 
 
 `true` is evaluated to `1` and `false` is evaluated to `0`.
 
@@ -57,7 +61,8 @@ What does the this code output?
 ```javascript
 console.log(3 + false); // ???
 console.log(3 + true); // ???
-```  
+```
+
 * 3
 * 4
 * undefined
@@ -65,14 +70,15 @@ console.log(3 + true); // ???
 ---
 ## Quiz
 
-headline: how will (5 + true) be evaluated?
+ ### how will (5 + true) be evaluated?
 
-question: |
   // What would the output of the following code snippet be?
-  console.log(5 + true);
+console.log(5 + true);
 
 answers:
+
   - 6
   - 5
-  - True
+  - true
   - SyntaxError
+

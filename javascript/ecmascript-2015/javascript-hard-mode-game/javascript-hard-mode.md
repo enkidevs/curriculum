@@ -1,4 +1,4 @@
-# JavaScript: Hard Mode
+---
 author: jordanfish
 
 levels:
@@ -13,6 +13,10 @@ type: fillTheGap
 category: tip
 
 notes: Kangax
+
+---
+
+# JavaScript: Hard Mode
 
 ---
 ## Content

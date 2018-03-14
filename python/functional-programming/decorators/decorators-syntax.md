@@ -13,8 +13,11 @@ category: feature
 
 
 ---
-## Content
+
 # Decorators syntax
+
+---
+## Content
 
 Now that you are familiar with the concept of decorators, we can talk about ways you'll see them in practice. With regard to syntax, Python specific decorator's symbol is `@`. Looking at the previous example:  
 ```python

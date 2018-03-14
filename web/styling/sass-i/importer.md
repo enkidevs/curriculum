@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Importer
+
+---
+## Content
 
 CSS has an import option that lets you split your CSS into smaller, more maintainable portions.
 

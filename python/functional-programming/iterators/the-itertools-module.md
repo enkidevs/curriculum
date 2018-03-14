@@ -21,8 +21,11 @@ links:
 
 
 ---
-## Content
+
 # The `itertools` Module
+
+---
+## Content
 
 `itertools` implements a number of fast, memory efficient iterator building blocks inspired by languages such as APL, Haskell and SML[1]. `itertools` provides a host of useful methods for working with iterable objects which together form what is called an "iterator algebra" because they can be used in combination or alone to construct specialized iterator tools quickly and succinctly in pure Python.
 

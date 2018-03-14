@@ -17,8 +17,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Math Extensions
+
+---
+## Content
 
 In ES6 the *Math* object has been expanded with a lot of functionality. Many of the additions have very specific use cases so let's discuss those more likely to be used in every day development. 
 

@@ -18,8 +18,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Map (data structure)
+
+---
+## Content
 
 map is a new type of key/value object. 
 

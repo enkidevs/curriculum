@@ -25,8 +25,11 @@ links:
 
 
 ---
-## Content
+
 # FileReader.readAsArrayBuffer()
+
+---
+## Content
 
 The `readAsArrayBuffer();` will read a *file* or *blob* object and produce an *ArrayBuffer*. 
 

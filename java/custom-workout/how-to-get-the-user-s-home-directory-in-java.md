@@ -1,4 +1,4 @@
-# How to get the user's home directory in Java
+---
 author: pawel
 
 levels:
@@ -17,7 +17,9 @@ tags:
 
   - home-directory
 
-notes: ''
+---
+
+# How to get the user's home directory in Java
 
 ---
 ## Content
@@ -28,3 +30,4 @@ When creating Java/Swing GUI applications determining the user's home directory 
 String homeDir = 
     System.getProperty("user.home");
 ```
+

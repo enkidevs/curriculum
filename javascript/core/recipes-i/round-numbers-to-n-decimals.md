@@ -15,8 +15,11 @@ category: how to
 
 
 ---
-## Content
+
 # Round numbers to `N` decimals 
+
+---
+## Content
 
 Two methods that can be useful in rounding numbers.
 - `toFixed(n)`: argument provides the length after the decimal point

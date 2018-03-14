@@ -19,8 +19,11 @@ category: feature
 
 parent: scripts-lifecycle
 ---
-## Content
+
 # Remote Scripts
+
+---
+## Content
 
 Another feature of *npm* is running external scripts. These include shell scripts, Makefiles or other build tools that you are more familiar with.
 

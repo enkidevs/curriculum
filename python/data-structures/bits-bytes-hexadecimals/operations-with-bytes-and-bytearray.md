@@ -22,8 +22,11 @@ parent: bytes-type
 notes: ''
 
 ---
-## Content
+
 # Operations with `bytes` and `bytearray`
+
+---
+## Content
 
 Both `bytes` and `bytearray` support **common** special operations not only with operand of the same type, but with any **bytes-like** objects.
 

@@ -1,4 +1,4 @@
-# Short Introduction to `Wget` 
+---
 author: catalin
 
 levels:
@@ -10,6 +10,10 @@ levels:
 type: normal
 
 category: tip
+
+---
+
+# Short Introduction to `Wget` 
 
 ---
 ## Content
@@ -36,6 +40,7 @@ After the transfer has finished, `wget` goes through the local files to change a
 
 An alternative to `cURL` is ??? .
 
-*Wget
-*which
-*dl
+* Wget
+* which
+* dl
+

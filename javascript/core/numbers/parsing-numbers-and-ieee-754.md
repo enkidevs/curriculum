@@ -18,8 +18,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Parsing Numbers and IEEE-754
+
+---
+## Content
 
 If you want to convert string input to a number type you can use the *parseInt* and *parseFloat* methods.
 

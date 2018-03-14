@@ -21,8 +21,11 @@ links:
 
 
 ---
-## Content
+
 # Battery API
+
+---
+## Content
 
 The Battery API provides information about the system's **battery** status, such as the current charge level, the time left to full charge and the battery time remaining.
 

@@ -29,8 +29,11 @@ tags:
 
 notes: Formatting of the second paragraph may need some tweaking, just to make the code sections a bit tidier.
 ---
-## Content
+
 # Equals operation on different data types
+
+---
+## Content
 
 When comparing objects of different type, use either the ```==``` comparator or the ```.equals()``` method.
 

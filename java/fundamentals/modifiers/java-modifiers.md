@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Java Modifiers
+
+---
+## Content
 
 **Modifiers** are keywords used during declaration that can change the variable/method/class behaviour.
 

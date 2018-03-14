@@ -1,4 +1,4 @@
-# Vertically-center anything
+---
 author: jordanfish
 
 levels:
@@ -15,7 +15,11 @@ category: how to
 
 links:
 
-  - '[github.com](https://github.com/AllThingsSmitty/css-protips){website}'
+  - '[github.com](https://github.com/AllThingsSmitty/css-protips)'
+
+---
+
+# Vertically-center anything
 
 ---
 ## Content
@@ -46,8 +50,10 @@ You can verically-center elements inside a flex container with:
  ??? : ???;
 }
 ```
-*`align-items`
-*`center`
-*`justify-content`
-*`vertical-center`
-*`flex-center`
+
+* `align-items`
+* `center`
+* `justify-content`
+* `vertical-center`
+* `flex-center`
+

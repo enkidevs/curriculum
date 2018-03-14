@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Package naming conventions
+
+---
+## Content
 
 To prevent name conflicts between packages, it it is best to follow the naming convention for Java packages.
 

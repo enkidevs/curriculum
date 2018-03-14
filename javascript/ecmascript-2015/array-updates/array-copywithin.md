@@ -31,8 +31,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Array.copyWithin
+
+---
+## Content
 
 **Array.copyWithin(targetArray, [start, [end]])** shallow copies part of an array into the same array without modifying the original array's size.
 

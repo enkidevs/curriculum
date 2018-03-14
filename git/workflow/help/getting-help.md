@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Getting help
+
+---
+## Content
 
 If ever in need, you can easily access the manual pages (**manpage**) of **Git** to get the documentation of specific commands.
 

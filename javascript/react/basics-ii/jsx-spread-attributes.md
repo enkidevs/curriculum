@@ -22,8 +22,11 @@ links:
 
 parent: the-ref-callback-attribute
 ---
-## Content
+
 # **JSX** Spread attributes
+
+---
+## Content
 
 Props can be passed to **React** components through **JSX** with the help of the **ES6** spread operator (`...`). 
 

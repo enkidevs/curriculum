@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # The `reduce` Built-in Function
+
+---
+## Content
 
 The `reduce` built-in allows us to apply a function sequentially to all items in a given list, but is different from `map` in that it applies the given function cumulatively.
 

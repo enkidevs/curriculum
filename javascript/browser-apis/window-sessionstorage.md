@@ -1,4 +1,4 @@
-# Window.sessionStorage
+---
 author: tommarshall
 
 levels:
@@ -15,13 +15,16 @@ category: must-know
 
 links:
 
-  - >-
-    [www.nczonline.net](https://www.nczonline.net/blog/2009/07/21/introduction-to-sessionstorage/){website}
+  - '[www.nczonline.net](https://www.nczonline.net/blog/2009/07/21/introduction-to-sessionstorage/)'
+
+---
+
+# Window.sessionStorage
 
 ---
 ## Content
 
-*`sessionStorage`* is an object which stores data for just one navigation session. Session storage lasts for as long as the tab is open, it remains when the page is refreshed and or reloaded but terminates once the tab has been closed.
+* `sessionStorage`* is an object which stores data for just one navigation session. Session storage lasts for as long as the tab is open, it remains when the page is refreshed and or reloaded but terminates once the tab has been closed.
 
 Opening a new tab or window will initiate a new session storage object.
 
@@ -71,7 +74,8 @@ When will `sessionStorage` terminate?
 
 ???
 
-*When tab is closed.
-*When page is refreshed.
-*When page is reloaded.
-*When page is scrolled.
+* When tab is closed.
+* When page is refreshed.
+* When page is reloaded.
+* When page is scrolled.
+

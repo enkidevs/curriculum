@@ -19,8 +19,11 @@ category: how to
 
 parent: prepare-your-module-for-publishing
 ---
-## Content
+
 # Tests
+
+---
+## Content
 
 The easiest way to ensure that changes or additions to your module don't break any existing features is to thoroughly **test** them.
 

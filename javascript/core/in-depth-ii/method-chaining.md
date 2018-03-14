@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Method chaining
+
+---
+## Content
 
 Method chaining allows multiple methods to be called one after the other on the same object.
 

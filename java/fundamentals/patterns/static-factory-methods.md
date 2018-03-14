@@ -25,8 +25,11 @@ links:
 
 
 ---
-## Content
+
 # Static factory methods
+
+---
+## Content
 
 Factory methods are static methods which return an instance of a class. Several advantages of this are:
 - able to return a subtype of the return type.

@@ -22,8 +22,11 @@ links:
 
 parent: conditional-rendering-part-1
 ---
-## Content
+
 # Conditional Rendering (Part 2)
+
+---
+## Content
 
 Using **React** with **JSX** gives you more power and convenience when writing code by letting you *embed JS* expressions in **curly braces** (`{expression}`).
 

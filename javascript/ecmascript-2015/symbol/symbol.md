@@ -18,8 +18,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Symbol
+
+---
+## Content
 
 ES 6 introduces a new primitive type - **Symbol**. 
 

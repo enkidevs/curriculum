@@ -18,8 +18,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Spread (Part 2)
+
+---
+## Content
 
 The spread syntax is particularly useful when working with arrays and we can use it to copy an array (previously you would probably have used slice to accomplish this):
 

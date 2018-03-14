@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Doctest
+
+---
+## Content
 
 **Doctest** enable users to test their code by running examples **embedded** in the program comments and verifying that they produce the expected output. 
 

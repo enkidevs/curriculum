@@ -15,8 +15,11 @@ category: how to
 
 notes: 
 ---
-## Content
+
 # Get a random item from an Array
+
+---
+## Content
 
 Given the array:
 

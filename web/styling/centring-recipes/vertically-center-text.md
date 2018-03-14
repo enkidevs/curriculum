@@ -20,8 +20,11 @@ notes: >-
   http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/
 
 ---
-## Content
+
 # Vertically center text
+
+---
+## Content
 
 To vertically center a single line of text within a containing block of fixed height, set the line-height of the text to be the same as the height of the containing block.
 

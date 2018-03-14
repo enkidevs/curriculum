@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Why Should I Learn Java?
+
+---
+## Content
 
 *Java* is one of the most used programming languages in the world, with millions of developers. It runs on PCs, mobile phones and even Blu-ray players. 
 

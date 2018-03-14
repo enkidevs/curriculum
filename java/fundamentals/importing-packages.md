@@ -1,4 +1,4 @@
-# Importing packages
+---
 author: adamMontgomerie
 
 levels:
@@ -6,8 +6,6 @@ levels:
   - beginner
 
 type: normal
-
-inAlgoPool: false
 
 category: must-know
 
@@ -19,8 +17,11 @@ tags:
 
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/package/usepkgs.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/package/usepkgs.html)'
+
+---
+
+# Importing packages
 
 ---
 ## Content
@@ -42,3 +43,4 @@ We can now use `Rectangle` without having to specify its package. If we wanted t
 ```
 import graphics.*;
 ```
+

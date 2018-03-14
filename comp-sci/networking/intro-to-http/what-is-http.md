@@ -24,8 +24,11 @@ links:
 
 parent: test-connectivity
 ---
-## Content
+
 # What is HTTP
+
+---
+## Content
 
 Standing for **Hypertext Transfer Protocol**, *HTTP* is an application-layer protocol that enables communication between two entities in a network.
 

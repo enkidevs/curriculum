@@ -21,8 +21,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Extends, Super and Static
+
+---
+## Content
 
 The **extends** keyword allows you to inherit from another class and the **super** keyword allows us to access functionality on the parent. 
 

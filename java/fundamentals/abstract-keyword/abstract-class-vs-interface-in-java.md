@@ -24,8 +24,11 @@ links:
 
 notes: 
 ---
-## Content
+
 # Abstract class vs interface in Java
+
+---
+## Content
 
 You can only extend one class (abstract or not) whereas you can always implement one or more interfaces. 
 

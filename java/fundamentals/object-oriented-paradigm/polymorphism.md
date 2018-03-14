@@ -11,12 +11,12 @@ category: must-know
 
 inAlgoPool: false
 
+---
 
-
+# Polymorphism
 
 ---
 ## Content
-# Polymorphism
 
 **Polymorphism** is a principle in object-oriented programming that refers to the ability of *child classes* to define their own behavior, while also sharing some functionalities with the *parent class*.
 
@@ -131,7 +131,7 @@ class Main {
 }
 ```
 
- ???
+???
 
 * Lessy
 * Stinky

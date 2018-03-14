@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # What is stored in a commit?
+
+---
+## Content
 
 When you make a commit, git stores a commit object.
 

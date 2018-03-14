@@ -17,8 +17,11 @@ links:
 
 parent: application-layer
 ---
-## Content
+
 # Extended terminologies
+
+---
+## Content
 
 **Computer networking**, constantly evolving, accumulated over time a lot of technical jargon that can be overwhelming.
 

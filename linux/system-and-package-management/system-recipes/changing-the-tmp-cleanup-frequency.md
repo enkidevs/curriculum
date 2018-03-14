@@ -1,4 +1,4 @@
-# Changing the `/tmp` cleanup frequency
+---
 author: tuwi.dc
 
 levels:
@@ -8,6 +8,8 @@ levels:
 type: normal
 
 category: best practice
+
+parent: practical-cron
 
 tags:
 
@@ -21,7 +23,9 @@ tags:
 
   - cleanup
 
-parent: practical-cron
+---
+
+# Changing the `/tmp` cleanup frequency
 
 ---
 ## Content
@@ -33,8 +37,7 @@ The `/tmp` directory is cleared by default at every boot as the `TMPTIME` in `/e
 `TMPTIME=7` would allow files to stay in /tmp until they are a week old, and then be deleted on the next reboot. 
 
 A negative number `TMPTIME=-1` tells the system to never delete anything in /tmp.
-
-*Be careful* as deleting /tmp blindly may also delete files that are being used by running programs.
+* Be careful* as deleting /tmp blindly may also delete files that are being used by running programs.
 
 Yet, for servers that rarely reboot, setting up an entry in the `crontab` may be necessary:
 
@@ -54,10 +57,10 @@ A negative value of `TMPTIME`  tells the system to delete the tmp folder
 
 ??? .
 
-*never
-*every day
-*when a process stops using them
-*after a reboot
+* never
+* every day
+* when a process stops using them
+* after a reboot
 
 ---
 ## Revision
@@ -66,7 +69,8 @@ The default `TMPTIME`  (which clears tmp directory after every reboot) value is
 
 ??? .
 
-*0
-*-1
-*1
-*7
+* 0
+* -1
+* 1
+* 7
+

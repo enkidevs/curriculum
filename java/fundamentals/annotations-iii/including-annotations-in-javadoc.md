@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Including annotations in Javadoc
+
+---
+## Content
 
 By default, annotations are not included in Javadoc generated documentation. However, one can specify that an annotation should be included in Javadoc by using the `@Documented` meta-annotation.
 

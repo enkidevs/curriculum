@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Variables and Types
+
+---
+## Content
 
 There are few things to keep in mind when talking about Python:
 - it's an entirely *object orientated* programming language

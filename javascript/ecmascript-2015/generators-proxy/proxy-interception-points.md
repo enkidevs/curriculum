@@ -19,8 +19,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Using Proxies
+
+---
+## Content
 
 Proxies allow you to intercept many different operations and methods:
 

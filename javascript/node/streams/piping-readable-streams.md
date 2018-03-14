@@ -22,8 +22,11 @@ links:
 
 parent: readable-streams
 ---
-## Content
+
 # Piping Readable Streams
+
+---
+## Content
 
 Piping allows for data to be read from a source, and passed onto a destination without your application having to manage the flow of the data.
 

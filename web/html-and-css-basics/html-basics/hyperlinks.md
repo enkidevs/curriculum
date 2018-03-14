@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Hyperlinks
+
+---
+## Content
 
 **Hyperlinks** represent a way to tell the browser to move up or down the page (think of content summaries) or to load other HTML documents.
 

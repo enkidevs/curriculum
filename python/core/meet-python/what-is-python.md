@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # What is Python?
+
+---
+## Content
 
 Python is a *high-level*, *interpreted*, *interactive* and *object-oriented* programming language.
 

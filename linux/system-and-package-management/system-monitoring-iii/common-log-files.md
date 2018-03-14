@@ -1,4 +1,4 @@
-# Common log files
+---
 author: tuwi.dc
 
 levels:
@@ -20,6 +20,10 @@ tags:
   - terminal
 
   - dmesg
+
+---
+
+# Common log files
 
 ---
 ## Content
@@ -60,7 +64,8 @@ You can check kernel messages log by issuing
 
  ???.
 
-*dmesg
-*dboot
-*log
-*kmesg
+* dmesg
+* dboot
+* log
+* kmesg
+

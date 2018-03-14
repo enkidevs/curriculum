@@ -31,8 +31,11 @@ notes: >
   a class in that module. And it is a subclass of dict.
 
 ---
-## Content
+
 # Keep things in order with `OrderedDict`
+
+---
+## Content
 
 Another class of the `collections` module is the `OrderedDict`, a subclass of `dict`. This class works just like the normal dictionary, but it remembers the order in which elements are added to it.
 

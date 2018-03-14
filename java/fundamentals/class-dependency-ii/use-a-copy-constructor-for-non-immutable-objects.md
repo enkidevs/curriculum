@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Use a copy constructor for mutable objects
+
+---
+## Content
 
 Rather than using `clone`, a simpler way to create a copy of an object is to use a copy constructor. For example, a class 'Person' with this constructor:
 

@@ -17,8 +17,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # String Extensions
+
+---
+## Content
 
 ES6 expands on existing primitives to fix some long time issues and add useful functionality. 
 

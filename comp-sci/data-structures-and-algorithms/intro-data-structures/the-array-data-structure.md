@@ -16,8 +16,11 @@ links:
 
 parent: what-is-a-data-structure
 ---
-## Content
+
 # The Array Data Structure
+
+---
+## Content
 
 An **array** is a data structure organized as a collection of elements, for which **indexes** are used to access its content. The same information may appear in the array more than once, but under different indexes. This is how you could picture it:
 

@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Sass Operators
+
+---
+## Content
 
 *Sass* has a number of standard mathematical operators such as the following `+`, `-`, `*`, `/`, and `%`. 
 

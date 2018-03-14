@@ -1,4 +1,4 @@
-# CPU benchmark with `dd`
+---
 author: tuwi.dc
 
 levels:
@@ -25,7 +25,9 @@ tags:
 
   - checksum
 
-notes: ''
+---
+
+# CPU benchmark with `dd`
 
 ---
 ## Content
@@ -54,7 +56,9 @@ As a hack for bench-testing the computer’s CPU you can use:
 $ ??? if=/dev/zero bs=1M 
          count=1024 | ???
 ```
-*`dd`
-*`md5sum`
-*`db`
-*`md5s`
+
+* `dd`
+* `md5sum`
+* `db`
+* `md5s`
+

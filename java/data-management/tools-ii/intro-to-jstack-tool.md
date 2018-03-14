@@ -18,8 +18,11 @@ links:
 
 notes: https://insights.enki.com/#/contrib/others/55f42bc3da97642e00a78197?search=khandelwalrinki
 ---
-## Content
+
 # Intro to `jstack` tool
+
+---
+## Content
 
 A stack trace of all threads can be useful in diagnosing a number of issues such as deadlocks or hangs.
 

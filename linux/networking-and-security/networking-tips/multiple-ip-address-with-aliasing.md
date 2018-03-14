@@ -1,4 +1,4 @@
-# Multiple IP Address with aliasing 
+---
 author: tuwi.dc
 
 levels:
@@ -26,9 +26,13 @@ tags:
   - eth0
 
 ---
+
+# Multiple IP Address with aliasing 
+
+---
 ## Content
 
-**IP Aliasing** is assigning multiple IP address to a single network interface. This can be useful when hosting multiple SSL sites or to compensate for a host that's down for the moment.
+* *IP Aliasing** is assigning multiple IP address to a single network interface. This can be useful when hosting multiple SSL sites or to compensate for a host that's down for the moment.
 
 Supposing the primary interface is `eth0` we can set up a _temporary alias_ by executing:
 ```
@@ -77,9 +81,11 @@ To temporary alias `eth0` interface as `eth0:1` you would run:
 $ ??? ??? ??? 
      100.100.100.1  ???
 ```
-*`sudo`
-*`ifconfig`
-*`eth0:1`
-*`up`
-*`eth0`
-*`ACTIVE`
+
+* `sudo`
+* `ifconfig`
+* `eth0:1`
+* `up`
+* `eth0`
+* `ACTIVE`
+

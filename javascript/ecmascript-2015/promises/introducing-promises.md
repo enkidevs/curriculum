@@ -19,8 +19,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Introducing Promises
+
+---
+## Content
 
 A **promise** is an object that represents a value that may or may not be obtained in the future and can be passed around like any other object.
 

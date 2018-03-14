@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # GUI Client
+
+---
+## Content
 
 GUI Clients on the other hand appear in a separate window and are more preferred by users because of their user friendly interface. These Database Tools can also work with different DBMS's.
 

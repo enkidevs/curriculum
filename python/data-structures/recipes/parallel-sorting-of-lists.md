@@ -17,8 +17,11 @@ category: tip
 
 
 ---
-## Content
+
 # Parallel sorting of lists
+
+---
+## Content
 
 To sort multiple lists of the same length:
 

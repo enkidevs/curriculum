@@ -23,8 +23,11 @@ links:
 
 parent: http-request
 ---
-## Content
+
 # A Request Example
+
+---
+## Content
 
 The following is an example of a `POST` request, a consequence of pressing the **Sign in** button to log into our web application:
 ```text

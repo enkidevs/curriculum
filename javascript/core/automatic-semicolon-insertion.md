@@ -1,38 +1,46 @@
-# Automatic Semicolon Insertion
+---
 author: mihaiberq
 
 levels:
+
   - beginner
+
   - basic
 
 type: normal
 
 category: must-know
 
-stub: true
-
 tags:
+
   - introduction
 
 ---
+
+# Automatic Semicolon Insertion
+
+---
 ## Content
- 
+
+
+
 ---
 ## Quiz
 
-headline: what will the following snippet output?
+ ### what will the following snippet output?
 
-question: |
   function pi() {
-    return
-    {
-      pi: 3.14
-    }
+  return
+  {
+    pi: 3.14
   }
-  console.log(pi())
+}
+console.log(pi())
 
 answers:
+
   - undefined
-  - {pi: 3.14}
+  - [object Object]
   - SyntaxError
-  - {'pi': 3.14}
+  - [object Object]
+

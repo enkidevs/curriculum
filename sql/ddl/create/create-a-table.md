@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # Create a table
+
+---
+## Content
 
 A table can be created in PostgresSQL using the following query:
 ```

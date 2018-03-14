@@ -21,8 +21,11 @@ links:
 
 
 ---
-## Content
+
 # `stringprep` module
+
+---
+## Content
 
 The **RFC 3454** international memo defines the procedure of *preparing* Unicode string as to be suitable for internet protocols. It basically provides a set of specialized tables of code points.
 

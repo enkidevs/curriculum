@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Securing the Application Layer
+
+---
+## Content
 
 The open-ended and ever-changing nature of the Application Layer means that many vulnerabilities are grouped together in it. Anything developed by a programmer falls under this Layer, and since programmers are human, accidents happen. At the least severe, these errors can cause crashes and unexpected behavior. At worst, software errors can result in stolen/destroyed data, physical damage, and backdoor access being created on the network node.
 
@@ -55,11 +58,12 @@ The Application Layer is ???.
 ---
 ## Quiz
 ### What is one control for this OSI model Layer?
+
 ```
 What is one control in the Application Layer of the OSI Model?
 ```
 
- ???
+???
 
 * Utilizing a testing suite in software development
 * Strict use of ports as they are designed

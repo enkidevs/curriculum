@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # Change the style of borders using `border-style`
+
+---
+## Content
 
 Use right/left/top/bottom to specify which border of the element you want to apply the style to.
 ```css

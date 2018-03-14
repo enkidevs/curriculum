@@ -19,8 +19,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Introducing Generators
+
+---
+## Content
 
 ES6 provides an easier way of working with iterators called **generators**.
 

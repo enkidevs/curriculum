@@ -25,8 +25,11 @@ links:
 notes: ''
 
 ---
-## Content
+
 # Speed up your `for` loop using `map()` or list comprehensions
+
+---
+## Content
 
 The `for` loop interpreter overhead can be huge. So here `map()` functions like a `for` loop in C code.  
 

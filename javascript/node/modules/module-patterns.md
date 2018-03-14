@@ -22,8 +22,11 @@ links:
 
 parent: local-modules
 ---
-## Content
+
 # Module patterns
+
+---
+## Content
 
 Module patterns common practices when developing Node applications in a modular way. Module patterns allow code to be written in a pro-modular way, protecting the context of some modules whilst exposing the necessary modules and variables by attaching them to the global object.
 

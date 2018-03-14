@@ -19,8 +19,11 @@ links:
 
 
 ---
-## Content
+
 # Synchronous File Write/Read in Node.js
+
+---
+## Content
 
 The File System (FS) module provides file I/O. The methods have asynchronous and synchronous forms.
 

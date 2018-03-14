@@ -16,8 +16,11 @@ links:
 
 notes: https://insights.enki.com/#/contrib/others/55c833563f06ab320051aa89?search=kha
 ---
-## Content
+
 # `Autoboxing` and `Unboxing`
+
+---
+## Content
 
 *Java 5* introduced a new concept of auto converting *primitive types* into their corresponding *wrapper* classes and vice-versa.
 
@@ -62,7 +65,6 @@ What is the wrapper class of primitive `int` ?
 ## Quiz
 ### What will be printed by the following code snippet?
 ```
-```
   int x = 5;
   Integer X = new Integer(5);
   Integer Y = new Integer(5);
@@ -73,9 +75,8 @@ What is the wrapper class of primitive `int` ?
     System.out.print("integer5");
   }
 ```
-```
 
- ???
+???
 
 * “int5”
 * “integer5”

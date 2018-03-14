@@ -18,8 +18,11 @@ links:
 
 notes: 
 ---
-## Content
+
 # `System.out` vs `System.err`
+
+---
+## Content
 
 `System.out` leads the output to the standard output stream (usually console screen). It should be used for regular program output.
 

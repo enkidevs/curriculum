@@ -17,8 +17,11 @@ category: caveats
 
 
 ---
-## Content
+
 # Counting the months from zero
+
+---
+## Content
 
 The months of the year in a date object begin counting from zero.
 

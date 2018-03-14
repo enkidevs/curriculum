@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Distinguish the Mutability of Common Types
+
+---
+## Content
 
 Different types, depending on the language, might be mutable or immutable.
 

@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # HyperText Markup Language
+
+---
+## Content
 
 Also known as **HTML**, it is the standard markup language used to create websites.  HTML[1] describes the structure of a web page semantically, using **tags**. A HTML tag syntax is the name of the HTML element, enclosed by the *less than* and *greater than* signs.
 

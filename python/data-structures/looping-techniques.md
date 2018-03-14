@@ -1,4 +1,4 @@
-# Looping techniques
+---
 author: catalin
 
 levels:
@@ -13,34 +13,19 @@ type: normal
 
 category: pattern
 
-notes: >
-  Typo in title - fixed.
-
-
-  This uses sets where not needed, unless want to reducing the list to unique
-  values.
-
-
-  Error: reverse() is used, there is no such 
-
-  function (though there is a list method of that name, but it does not work in
-  this context)
-
-
-  The "reversed()" function (note extra "d" at end of name) should be used
-  instead of "reverse()". Fixed.
-
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#looping-techniques){website}
+  - '[docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#looping-techniques)'
+
+---
+
+# Looping techniques
 
 ---
 ## Content
 
 Python has multiple techniques for looping over data structures.
-
-**Dictionary** looping with both `key` and `value` can be done using the `items()` method:
+* *Dictionary** looping with both `key` and `value` can be done using the `items()` method:
 ```python
 my_dict = {'first': 'a', 'second': 'b'}
 for k, v in my_dict.items():
@@ -97,12 +82,13 @@ list_one = ['one', 'two', 'three']
 for k, v in ???(list_a, list_one):
     print(???) 
 ```
-*`zip` 
-*`k, v` 
-*`f, s` 
-*`pair` 
-*`parallel` 
-*`list_a, list_one`
+
+* `zip` 
+* `k, v` 
+* `f, s` 
+* `pair` 
+* `parallel` 
+* `list_a, list_one`
 
 ---
 ## Revision
@@ -115,9 +101,11 @@ for w in ???(sorted \
             (???(enki_list))): 
   print(w) 
 ```
-*`reversed` 
-*`set` 
-*`reverse` 
-*`orderreverse` 
-*`start` 
-*`list`
+
+* `reversed` 
+* `set` 
+* `reverse` 
+* `orderreverse` 
+* `start` 
+* `list`
+

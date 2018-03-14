@@ -1,4 +1,4 @@
-# `Cron` dot-in-filename issues when using `run-parts`
+---
 author: tuwi.dc
 
 levels:
@@ -26,6 +26,10 @@ tags:
   - cron.daily
 
 ---
+
+# `Cron` dot-in-filename issues when using `run-parts`
+
+---
 ## Content
 
 The script filenames in `cron.d/`, `cron.daily/`, `cron.hourly/`, etc, should not contain a dot(`.`), otherwise run-parts will skip them.
@@ -42,13 +46,9 @@ If there is a cron script `backup.sh` in `cron.daily/` directory, the extension 
 ## Revision
 
 It’s not a good idea to use ??? in a script name when you run it using `run-parts` .
-*. 
-*_ 
-*- 
-*r
 
----
-## Footnotes
+* . 
+* _ 
+* - 
+* r
 
-[1:Run-parts]
-This command will take a directory as an argument and run every script found in it.

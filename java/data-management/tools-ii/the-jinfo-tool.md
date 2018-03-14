@@ -18,8 +18,11 @@ links:
 
 notes: https://insights.enki.com/#/contrib/others/55f423bfd7d6642d00118729?search=khandelwalrinki
 ---
-## Content
+
 # The `jinfo` tool
+
+---
+## Content
 
 `jinfo` prints configuration information for a given Java process or core file or a remote debug server. Configuration information includes Java System properties and Java virtual machine command line flags.
 

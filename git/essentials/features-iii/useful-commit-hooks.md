@@ -17,8 +17,11 @@ links:
 parent: what-is-a-hook
 
 ---
-## Content
+
 # Useful commit hooks
+
+---
+## Content
 
 Two useful hooks which fire during a commit are `pre-commit` and `post-commit`.
 

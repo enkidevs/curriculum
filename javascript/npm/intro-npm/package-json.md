@@ -16,8 +16,11 @@ links:
 
 parent: setting-up-npm
 ---
-## Content
+
 # `package.json`
+
+---
+## Content
 
 The best way to manage locally installed packages is through the **package.json** file. Here are some key points of why you should use one:
  - it serves as documentation for the packages your project is using

@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Java TreeMap and TreeSet overview
+
+---
+## Content
 
 Part of Java's Collections API are the TreeSet and TreeMap classes which provide fast search, insert, update and delete operations for persisting data.
 

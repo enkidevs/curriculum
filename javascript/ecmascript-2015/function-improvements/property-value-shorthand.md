@@ -18,8 +18,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Property Value Shorthand
+
+---
+## Content
 
 It is very common to return an object from a function with a property the same name as a source value declared elsewhere e.g. 
 

@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Trigonometry using the `Math` class
+
+---
+## Content
 
 The `Math` class contains various methods for performing trigonometric functions. For example, it is possible to convert a value in degrees to radians:
 ```

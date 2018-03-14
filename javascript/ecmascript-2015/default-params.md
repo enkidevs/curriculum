@@ -1,4 +1,4 @@
-# Default Params
+---
 author: alexjmackey
 
 levels:
@@ -7,15 +7,17 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
 links:
 
-  - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Default_parameters){website}'
+  - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Default_parameters)'
 
-  - '[SitePoint](https://www.sitepoint.com/es6-default-parameters/){website}'
+  - '[SitePoint](https://www.sitepoint.com/es6-default-parameters/)'
+
+---
+
+# Default Params
 
 ---
 ## Content
@@ -67,3 +69,4 @@ function test(x="1", y=x){
 ```
 
 Default parameters are a great easy to use feature that will result in more succinct and readable code.
+

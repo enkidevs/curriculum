@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # serialVersionUID
+
+---
+## Content
 
 The key component of a receiving and deserializing process is **serialVersionUID**. **serialVersionUID** is a class version number which is used during deserialization to verify that the sender and receiver have the same class structure for the serealized object.
 

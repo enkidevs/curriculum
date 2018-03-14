@@ -13,8 +13,11 @@ category: must-know
 
 
 ---
-## Content
+
 # Creating Classes
+
+---
+## Content
 
 Classes are *templates* which can be used to create objects. They *encapsulate* variables and methods[1] into a single entity, defining a general behavior for that entity (object) to follow.
 

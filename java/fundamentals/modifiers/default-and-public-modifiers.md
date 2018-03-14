@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Default and `public` Modifiers
+
+---
+## Content
 
 The **default** case is the one in which no keyword is present. A variable with no modifier is implicitly accessible by *all the classes* in the *package*.
 

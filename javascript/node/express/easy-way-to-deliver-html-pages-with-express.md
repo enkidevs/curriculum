@@ -19,8 +19,11 @@ links:
 
 
 ---
-## Content
+
 # Easy way to deliver **HTML** pages with **Express**
+
+---
+## Content
 
 Displaying basic **HTML** pages can be achieved in many ways using **Node**'s core API, yet the easiest way is by using the **Express** framework.
 

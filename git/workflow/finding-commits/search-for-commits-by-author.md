@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Search for commits by author
+
+---
+## Content
 
 You can search for commits that were made by a particular author by using the `--author` option. 
 

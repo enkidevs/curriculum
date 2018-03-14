@@ -1,4 +1,4 @@
-# List your IPv6 configuration
+---
 author: tuwi.dc
 
 levels:
@@ -18,6 +18,10 @@ tags:
   - ifconfig
 
   - ip
+
+---
+
+# List your IPv6 configuration
 
 ---
 ## Content
@@ -58,7 +62,9 @@ Check the IPv6 configuration of an interface using `ip` command:
 $ ip  ??? ???
      show ??? ???
 ```
-*`-6`
-*`addr`
-*`dev`
-*`interface_name`
+
+* `-6`
+* `addr`
+* `dev`
+* `interface_name`
+

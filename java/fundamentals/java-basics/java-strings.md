@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Java `Strings`
+
+---
+## Content
 
 What's odd about Java is that *character sequences*, or *strings*, are not *primitives*. However, because they are so often used, `String`s have priority over other classes.
 

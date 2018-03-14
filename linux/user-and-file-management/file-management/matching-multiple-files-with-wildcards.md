@@ -1,4 +1,4 @@
-# Matching Multiple Files With Wildcards
+---
 author: jfarmer
 
 levels:
@@ -9,18 +9,22 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+tags:
+
+  - introduction
+
+  - workout
 
 links:
 
-  - >-
-    [www.tldp.org](http://www.tldp.org/LDP/GNU-Linux-Tools-Summary/html/x11655.htm){website}
+  - '[www.tldp.org](http://www.tldp.org/LDP/GNU-Linux-Tools-Summary/html/x11655.htm)'
 
-tags:
-  - introduction
-  - workout
+---
+
+# Matching Multiple Files With Wildcards
+
 ---
 ## Content
 
@@ -63,10 +67,11 @@ What kind of file would the following expression match?
 ```
 $ mv ??*.[mM]p3
 ```
-*Any file with  a name at least 2 character long and the extension `.mp3` or `.Mp3` .
-*Any file with the extension `.mp3` or `.Mp3` .
-*Any file with a name at least 2 character long and the extension `.mp4` .
-*Any file with a name at least 2 character long.
+
+* Any file with  a name at least 2 character long and the extension `.mp3` or `.Mp3` .
+* Any file with the extension `.mp3` or `.Mp3` .
+* Any file with a name at least 2 character long and the extension `.mp4` .
+* Any file with a name at least 2 character long.
 
 ---
 ## Revision
@@ -74,7 +79,9 @@ $ mv ??*.[mM]p3
 The `?` wildcard matches
 
  ???.
-*any single character
-*any character
-*any capital letter
-*one or more characters
+
+* any single character
+* any character
+* any capital letter
+* one or more characters
+

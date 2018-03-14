@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # GitHub
+
+---
+## Content
 
 **GitHub** is the most popular hosting solution for **Git** repositories. It is used by millions of developers worldwide as it provides reliable solutions and additional tools for working with **Git** repositories.
 

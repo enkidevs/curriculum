@@ -1,4 +1,4 @@
-# Transforming Text With `sed`
+---
 author: jfarmer
 
 levels:
@@ -9,13 +9,15 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
 links:
 
-  - '[Useful sed one-liners](http://sed.sourceforge.net/sed1line.txt){website}'
+  - '[Useful sed one-liners](http://sed.sourceforge.net/sed1line.txt)'
+
+---
+
+# Transforming Text With `sed`
 
 ---
 ## Content
@@ -66,10 +68,11 @@ Replace the first apparition of *apple* in each line by *orange*:
 $ ??? '??? ??? ???'
         fruits.txt
 ```
-*`sed`
-*`s/`
-*`apple/`
-*`orange/`
+
+* `sed`
+* `s/`
+* `apple/`
+* `orange/`
 
 ---
 ## Revision
@@ -77,7 +80,9 @@ $ ??? '??? ??? ???'
 What does `sed` stand for? 
 
 ???
-*stream editor
-*special editor
-*stream edit
-*special stream editor
+
+* stream editor
+* special editor
+* stream edit
+* special stream editor
+

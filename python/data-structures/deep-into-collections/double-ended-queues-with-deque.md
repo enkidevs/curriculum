@@ -18,8 +18,11 @@ links:
 parent: get-more-with-collections
 
 ---
-## Content
+
 # Double ended queues with `deque`
+
+---
+## Content
 
 The `deque` class in the `collections` module makes it easy to create deques or double ended queues. Deques allow you to  **append** and **delete** elements from both ends more efficiently than in lists.
 

@@ -1,4 +1,4 @@
-# Declaring an annotation type
+---
 author: adamMontgomerie
 
 levels:
@@ -23,8 +23,11 @@ tags:
 
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/annotations/declaring.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/annotations/declaring.html)'
+
+---
+
+# Declaring an annotation type
 
 ---
 ## Content
@@ -50,3 +53,4 @@ The annotation type can now be used like this:
 }
 ```
 The purpose of the annotation in this example is to include information in javadoc generated documentation. To make this annotation appear in the javadoc, the `@Documented` annotation needs to be used before `@Introduction`.
+

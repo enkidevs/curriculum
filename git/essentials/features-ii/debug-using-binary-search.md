@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Debug using binary search
+
+---
+## Content
 
 The `bisect` tool helps to identify the commit that introduced a bug.
 

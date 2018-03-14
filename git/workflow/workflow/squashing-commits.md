@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Squashing commits
+
+---
+## Content
 
 If you contribute to an open source project, e.g. by submitting a pull request with a bug fix, it should be presented as one unit of code.
 

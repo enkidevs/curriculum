@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Flexbox `flex-wrap`
+
+---
+## Content
 
 `flex-wrap` defines whether the flex items are forced in a **single line** or can be **flowed into multiple lines**. If set to multiple lines, it also defines the cross-axis which determines the direction new lines are stacked in.
 

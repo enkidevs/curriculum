@@ -17,8 +17,11 @@ links:
 
 parent: what-is-a-computer-network
 ---
-## Content
+
 # What is a packet?
+
+---
+## Content
 
 Think of **packets**[1] as the simplest unit of communication in computer networks.
 

@@ -1,4 +1,4 @@
-# Image manipulation  using `convert`
+---
 author: tuwi.dc
 
 levels:
@@ -27,12 +27,13 @@ tags:
 
   - ImageMagic
 
-notes: |+
-
-
 links:
 
-  - '[www.imagemagick.org](http://www.imagemagick.org/Usage/){website}'
+  - '[www.imagemagick.org](http://www.imagemagick.org/Usage/)'
+
+---
+
+# Image manipulation  using `convert`
 
 ---
 ## Content
@@ -69,12 +70,3 @@ $ ??? enki.png ???
 * `200`
 * `-toJPG`
 
----
-## Footnotes
-
-[1:Where to get it]
-Part of ` imagemagick` suit of tools.
-[2:Size]
-Resizing both width and height requires 250x250, while resizing the width requires only 250.
-[3:Range]
-The strength range depends on the effect type.

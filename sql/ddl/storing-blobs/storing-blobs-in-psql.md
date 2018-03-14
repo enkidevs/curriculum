@@ -23,8 +23,11 @@ tags:
 
 
 ---
-## Content
+
 # Handling Blobs in SQL
+
+---
+## Content
 
 PostgreSQL's native *BLOB* type is `bytea` (1GB per entry). It came two support two types of bytes since it was implemented:
 - `Escape Format`: the legacy format, using ASCII to encode characters.

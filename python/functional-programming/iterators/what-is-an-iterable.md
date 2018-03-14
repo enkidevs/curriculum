@@ -23,8 +23,11 @@ links:
 
 
 ---
-## Content
+
 # What Is an Iterable?
+
+---
+## Content
 
 **Iteration** is the process of taking one element at a time from a collection of elements.
 

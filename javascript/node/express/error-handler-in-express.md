@@ -18,8 +18,11 @@ links:
 
 parent: easy-way-to-deliver-html-pages-with-express
 ---
-## Content
+
 # Error handler in **Express**
+
+---
+## Content
 
 The **Express 4.0** `errorhandler` module is designed as a **development only** error handling middleware. This is because all information passed through this module is also sent back to the client.
 

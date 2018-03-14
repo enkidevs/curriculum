@@ -1,4 +1,4 @@
-# Detect online connection
+---
 author: catalin
 
 levels:
@@ -11,9 +11,13 @@ category: tip
 
 links:
 
-  - '[davidwalsh.name](https://davidwalsh.name/detecting-online){website}'
+  - '[davidwalsh.name](https://davidwalsh.name/detecting-online)'
 
-  - '[caniuse.com](http://caniuse.com/#feat=online-status){website}'
+  - '[caniuse.com](http://caniuse.com/#feat=online-status)'
+
+---
+
+# Detect online connection
 
 ---
 ## Content
@@ -47,11 +51,12 @@ if (???.???) {
   //
 }
 ```
-*`navigator`
-*`onLine`
-*`nav`
-*`window`
-*`connected`
+
+* `navigator`
+* `onLine`
+* `nav`
+* `window`
+* `connected`
 
 ---
 ## Revision
@@ -62,8 +67,10 @@ if (???.???) {
   //
 }
 ```
-*`navigator`
-*`onLine`
-*`nav`
-*`window`
-*`connected`
+
+* `navigator`
+* `onLine`
+* `nav`
+* `window`
+* `connected`
+

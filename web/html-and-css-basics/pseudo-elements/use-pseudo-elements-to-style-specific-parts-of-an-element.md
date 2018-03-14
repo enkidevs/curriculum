@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Use pseudo-elements to style specific parts of an element
+
+---
+## Content
 
 To distinguish them from pseudo-classes, **pseudo-elements** should be preceded by two colons `::`. In some older browser versions the two colon notation might not be supported, so the single colon notation (`:`) must be used.
 

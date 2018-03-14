@@ -21,8 +21,11 @@ links:
 
 notes: https://insights.enki.com/#/contrib/others/55f03bb3f457f33b0062114e?search=khandelwalrinki
 ---
-## Content
+
 # Use `Optional(s)` type in order to avoid `NullPointerException(s)`
+
+---
+## Content
 
 Java 8 comes with a new `Optional` type, a new container type that wraps a single value, if the value is available. It's meant to convey the meaning that the value might be absent.
 

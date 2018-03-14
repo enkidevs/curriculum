@@ -21,8 +21,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Margin and Padding
+
+---
+## Content
 
 Both properties are, alongside `border`, part of the **box model**. They are usually used to help with positioning and visibility.
 

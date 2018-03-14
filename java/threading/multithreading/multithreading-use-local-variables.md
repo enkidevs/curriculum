@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Multithreading: use local variables
+
+---
+## Content
 
 Using local variables rather than class or instance variables can help prevent synchronization problems.
 ```

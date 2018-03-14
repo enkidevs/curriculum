@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Defining Functions
+
+---
+## Content
 
 Functions allow you to split up your code into relevant blocks, they allow code to be ordered and to be more readable.
 

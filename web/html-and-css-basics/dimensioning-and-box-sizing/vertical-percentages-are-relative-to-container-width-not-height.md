@@ -21,8 +21,11 @@ links:
 notes: 'http://www.sitepoint.com/12-little-known-css-facts/'
 
 ---
-## Content
+
 # Vertical percentages are relative to container width, not height
+
+---
+## Content
 
 Width percentage is intuitively calculated based on the width of the container. 
 

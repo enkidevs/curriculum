@@ -1,4 +1,4 @@
-# Ternary operator in Java
+---
 author: pawel
 
 levels:
@@ -17,12 +17,13 @@ tags:
 
   - ternary-operators
 
-notes: ''
-
 links:
 
-  - >-
-    [alvinalexander.com](http://alvinalexander.com/java/edu/pj/pj010018){website}
+  - '[alvinalexander.com](http://alvinalexander.com/java/edu/pj/pj010018)'
+
+---
+
+# Ternary operator in Java
 
 ---
 ## Content
@@ -34,3 +35,4 @@ Sample code for determining max value between two integers is shown below
 ```java
 maxVal = (x > y) ? x : y;
 ```
+

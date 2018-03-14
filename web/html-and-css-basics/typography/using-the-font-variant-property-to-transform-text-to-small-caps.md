@@ -30,8 +30,11 @@ links:
 
 
 ---
-## Content
+
 # Using the `font-variant` property to transform text to small caps
+
+---
+## Content
 
 The `small-caps` keyword forces the use of small capital letters for lower case characters. Some fonts might not support this.
 ```css

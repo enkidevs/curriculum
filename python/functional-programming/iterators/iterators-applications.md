@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Iterators Applications
+
+---
+## Content
 
 Iterators are very practically useful. In many cases, they can achieve the same results with far fewer lines of code and while using less resources than other approaches, since with iterators we can guarantee we will access the next item in the collection without having to keep the entire collection and our position inside it within memory.
 

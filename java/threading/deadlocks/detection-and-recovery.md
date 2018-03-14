@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Detection and Recovery
+
+---
+## Content
 
 Whenever a deadlock has occurred in the system, we can build a graph of process-resource dependencies.
 

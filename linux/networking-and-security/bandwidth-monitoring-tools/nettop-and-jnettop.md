@@ -1,4 +1,4 @@
-# `nettop` and `jnettop`
+---
 author: mihaiberq
 
 levels:
@@ -13,8 +13,11 @@ category: how to
 
 links:
 
-    - '[Nettop](http://www.unix.com/man-page/osx/1/nettop/)'
+  - '[Nettop](http://www.unix.com/man-page/osx/1/nettop/)'
 
+---
+
+# `nettop` and `jnettop`
 
 ---
 ## Content
@@ -78,3 +81,4 @@ The ??? equivalent of `jnettop` is `nettop`.
 * Debian
 * Windows
 * OpenBSD
+

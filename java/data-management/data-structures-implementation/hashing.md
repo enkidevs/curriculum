@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Hashing
+
+---
+## Content
 
 **Hashing** is a process of mapping an arbitrary size data to a fixed size data which satisfies certain properties. In *Java* each object has a hash value defined by `public int hashCode()` function which returns a hash value implemented in the `Object` class. This function has following properties:
  - If two objects are *"equal"*, then they have the same hash value, equality of two objects is provided by `public boolean equals(Object obj)` method.

@@ -1,4 +1,4 @@
-# Computed Properties
+---
 author: alexjmackey
 
 levels:
@@ -9,11 +9,11 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
-links:
+---
+
+# Computed Properties
 
 ---
 ## Content
@@ -37,3 +37,4 @@ var o = {
  ["a" + 1+2]: "c"
 };
 ```
+

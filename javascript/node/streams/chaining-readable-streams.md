@@ -22,8 +22,11 @@ links:
 
 parent: piping-readable-streams
 ---
-## Content
+
 # Chaining Readable Streams
+
+---
+## Content
 
 Chaining is where multiple pipes are used to move (pipe) data along a path where it can be read, written to or modified.
 

@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # What is a database server?
+
+---
+## Content
 
 A database server can mean two different things. First, it can be a computer program that provides database services as specified by *client-server model*[1], or it can be the host (hardware part of a database).
 

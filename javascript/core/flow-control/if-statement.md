@@ -14,8 +14,11 @@ category: must-know
 inAlgoPool:
 
 ---
-## Content
+
 # If Statement
+
+---
+## Content
 
 Like most programming languages JavaScript has a number of flow control statements including the standard *if*, *if else* and *switch* statements.
 

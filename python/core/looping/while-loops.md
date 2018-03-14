@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # `while` loops
+
+---
+## Content
 
 Python's `while` loops repeatedly loop and execute some code *whilst* a boolean statements evaluates to true.
 

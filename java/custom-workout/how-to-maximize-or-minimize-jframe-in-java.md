@@ -1,4 +1,4 @@
-# How to maximize or minimize `JFrame` in Java
+---
 author: pawel
 
 levels:
@@ -19,12 +19,13 @@ tags:
 
   - jframe
 
-notes: ''
-
 links:
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/3965336/how-to-minimize-a-jframe-window-from-java){website}
+  - '[stackoverflow.com](http://stackoverflow.com/questions/3965336/how-to-minimize-a-jframe-window-from-java)'
+
+---
+
+# How to maximize or minimize `JFrame` in Java
 
 ---
 ## Content
@@ -40,3 +41,4 @@ myFrame.setVisible();
 //minimize the jframe
 myFrame.setState(Frame.ICONIFIED);
 ```
+

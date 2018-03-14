@@ -23,8 +23,11 @@ links:
 
 parent: custom-proptype-s-to-be-required
 ---
-## Content
+
 # Children in **React**
+
+---
+## Content
 
 **React** provides an *opaque* data structure backed by a `React.Children` class called `this.props.children`.
 

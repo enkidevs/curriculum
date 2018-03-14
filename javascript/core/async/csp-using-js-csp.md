@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # CSP using _js-csp_
+
+---
+## Content
 
 "**Communicating Sequential Processes**" (CSP) is a method for **concurrent processes** to communicate during processing.
 

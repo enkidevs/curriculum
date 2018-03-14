@@ -22,8 +22,11 @@ links:
 
 parent: https
 ---
-## Content
+
 # The HTTP request
+
+---
+## Content
 
 Whenever a web browser fetches a file from a **web server**, it is using the `HTTP` protocol. `HTTP` is a *request/response* protocol: your machine sends a request to the server, which, in turn returns a response.
 

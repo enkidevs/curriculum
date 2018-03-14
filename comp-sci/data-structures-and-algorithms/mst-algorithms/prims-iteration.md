@@ -19,8 +19,11 @@ category: must-know
 
 parent: prims-algorithm
 ---
-## Content
+
 # Prim's Algorithm Iteration
+
+---
+## Content
 
 Consider the following *weighted, connected graph*:
 

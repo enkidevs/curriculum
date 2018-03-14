@@ -19,8 +19,11 @@ links:
 
 
 ---
-## Content
+
 # Global Objects and Environment Variables in **Node**
+
+---
+## Content
 
 **Node** provides a set of useful objects and environment variables.
 

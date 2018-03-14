@@ -20,8 +20,11 @@ links:
 
 parent: easy-way-to-deliver-html-pages-with-express
 ---
-## Content
+
 # `response` object additional properties in **Express**
+
+---
+## Content
 
 **Express** framework adds many useful properties or methods to the `response` object.
  This object is usually passed to a callback (therefore it can take any name) and starts its life as an instance of `http.ServerObject`, a core **Node** object.

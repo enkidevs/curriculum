@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Using `static` fields
+
+---
+## Content
 
 Marking a field as `static` indicates that it belongs to the class rather than instances of that class. This means that a `static` field will hold the same value for every instance that is created.
 

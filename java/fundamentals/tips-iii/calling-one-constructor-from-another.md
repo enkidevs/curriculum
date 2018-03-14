@@ -15,8 +15,11 @@ category: tip
 
 notes: For experts as it's quite unusual to see it and might confuse beginners?
 ---
-## Content
+
 # Calling one constructor from another
+
+---
+## Content
 
 If a class has more than one constructor, it can be convenient to have the default constructor call another constructor of the same class. 
 

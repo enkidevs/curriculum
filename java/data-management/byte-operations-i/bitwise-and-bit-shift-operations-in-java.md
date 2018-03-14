@@ -22,8 +22,11 @@ links:
 
 notes: 
 ---
-## Content
+
 # Bitwise and Bit Shift operations in Java
+
+---
+## Content
 
 The java programming language provides operators that perform bitwise and bit shift operations on integral types. Using those substantially improves performance.
 

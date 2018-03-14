@@ -17,8 +17,11 @@ links:
 
 parent: one-way-data-binding
 ---
-## Content
+
 # Why use **React**?
+
+---
+## Content
 
 **React** is considered a great choice for building the **UI** of web applications - be it simple *SPAs*[1] or
 large projects with numerous authors due to the **self-containing** nature of its *components*.

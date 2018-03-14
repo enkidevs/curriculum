@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Using `super` to access overriden methods
+
+---
+## Content
 
 When a subclass declares a method with a signature that is the same as a method in its superclass, that superclass method is overridden.
 

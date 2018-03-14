@@ -17,8 +17,11 @@ links:
 
 parent: what-is-react
 ---
-## Content
+
 # What is **JSX**?
+
+---
+## Content
 
 **JSX** is syntactic sugar that brings an `XML`-like syntax to **JavaScript**.
 

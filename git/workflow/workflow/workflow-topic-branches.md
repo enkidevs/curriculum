@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Workflow: topic branches
+
+---
+## Content
 
 A topic branch is a branch that you create and use for work on a feature.
 

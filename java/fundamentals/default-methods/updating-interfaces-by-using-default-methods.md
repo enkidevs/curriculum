@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Updating interfaces by using `default` methods
+
+---
+## Content
 
 Take the following interface:
 ```

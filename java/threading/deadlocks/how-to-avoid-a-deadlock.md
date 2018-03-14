@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # How to Avoid a Deadlock
+
+---
+## Content
 
 There are 4 necessary and sufficient conditions for a **deadlock** to occur:
 

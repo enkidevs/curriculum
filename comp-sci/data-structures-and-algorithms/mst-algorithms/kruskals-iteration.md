@@ -19,8 +19,11 @@ category: must-know
 
 parent: kruskals-algorithm
 ---
-## Content
+
 # Kruskal's Algorithm Iteration
+
+---
+## Content
 
 Consider the following weighted graph:
 

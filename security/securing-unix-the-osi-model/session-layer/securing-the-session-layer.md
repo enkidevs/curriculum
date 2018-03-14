@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Securing the Session Layer
+
+---
+## Content
 
 The Session Layer deals with authentication and privileges on all Layers above. If an account with escalated privileges is compromised, a hacker could wreak havoc on a network. Therefore, the Session Layer among the most appealing to hackers.
 
@@ -56,11 +59,12 @@ Hackers may use a botnet to guess passwords via ???.
 ---
 ## Quiz
 ### What is one control for this OSI model Layer?
+
 ```
 What is one control in the Session Layer of the OSI Model?
 ```
 
- ???
+???
 
 * Using a strong, unique password
 * Strict use of ports as they are designed

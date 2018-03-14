@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Use underscores to separate digits in numeric literals
+
+---
+## Content
 
 In JDK 7+, it is possible to place underscores '_' inside numeric literals in order to make them more readable.
 

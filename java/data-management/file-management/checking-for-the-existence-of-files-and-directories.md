@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Checking for the existence of files and directories
+
+---
+## Content
 
 When performing operations on files, it is useful to be able to check whether expected files or directories actually exist.
 
@@ -75,13 +78,11 @@ How would you check if the file exists?
 ### Can you figure out what check should be included in the following snippet?
 ```
 // What should be checked here such that the below code won't throw errors?
-```
 public static void main(String[] args) {
   String fileName = "home/path/to/file";
   Stream<String> stream = Files.lines(Paths.get(fileName));
   stream.filter(line -> line.endsWith("enki"));
 }
-```
 ```
 
  ???

@@ -18,8 +18,11 @@ links:
 
 notes: https://insights.enki.com/#/contrib/others/55f05ce11baba32f002fd31c?search=khandelwalrinki
 ---
-## Content
+
 # Increase `PermGen` space as to avoid `OutOfMemory` errors
+
+---
+## Content
 
 Java Virtual Machines are allocated a default of `64 MB` of memory. Bigger applications will of course require more memory.
 

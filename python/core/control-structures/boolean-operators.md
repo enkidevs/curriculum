@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Boolean Operators
+
+---
+## Content
 
 Python uses two keywords to allow complex boolean conditions to be created, `and` and `or`.
 

@@ -21,8 +21,11 @@ links:
 
 
 ---
-## Content
+
 # Special attributes of objects and classes
+
+---
+## Content
 
 Python *objects/classes/instances* have several more **read-only** attributes, some of which are not reported by the `dir()` function.
 

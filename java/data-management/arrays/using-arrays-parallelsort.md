@@ -18,8 +18,11 @@ links:
 
 notes: https://insights.enki.com/insight/55c839baae32453400962645
 ---
-## Content
+
 # Using `Arrays.parallelSort` 
+
+---
+## Content
 
 Amongst the new Java8 features includes new methods in the `java.util.Arrays` class.
 

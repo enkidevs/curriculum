@@ -18,8 +18,11 @@ links:
 
 notes: https://insights.enki.com/#/contrib/others/55f02923f457f33b00621148?search=khandelwalrinki
 ---
-## Content
+
 # `Thread.sleep` and `Thread.yield` do not have synchronization mechanisms
+
+---
+## Content
 
 Before a `Thread.sleep` or `Thread.yield` call the Java compiler will not flush writes cached in registers out to shared memory or reload values cached in registers.
 

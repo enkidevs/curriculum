@@ -29,8 +29,11 @@ links:
 
 
 ---
-## Content
+
 # Infix operators are left-associative
+
+---
+## Content
 
 Operator associativity determines the order in which operators of the same type are evaluated. 
 

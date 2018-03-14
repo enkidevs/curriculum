@@ -22,8 +22,11 @@ tags:
 notes: ''
 
 ---
-## Content
+
 # Efficient concatenation with *join()*
+
+---
+## Content
 
 Strings in Python are immutable. The advantage is that strings can be directly used as keys in dictionaries, and string copies can be shared among multiple variable bindings. But the disadvantage is that if you want to amend something in a existing string, then you have to create a new one. This leads to significant inefficiencies:
 

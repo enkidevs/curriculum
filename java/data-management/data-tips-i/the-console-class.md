@@ -19,8 +19,11 @@ links:
 notes: https://insights.enki.com/#/contrib/5597c334d07c503200b46e1a
 
 ---
-## Content
+
 # The `Console` class
+
+---
+## Content
 
 The `Java.io.Console` class provides methods to access the character-based console device, if any, associated with the current *Java Virtual Machine*. This class is attached to the `System` console internally. 
 

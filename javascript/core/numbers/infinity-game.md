@@ -1,4 +1,4 @@
-# Infinity
+---
 author: adamMontgomerie
 
 levels:
@@ -12,6 +12,10 @@ levels:
 type: fillTheGap
 
 category: tip
+
+---
+
+# Infinity
 
 ---
 ## Content

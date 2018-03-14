@@ -22,8 +22,11 @@ links:
 
 parent: conditional-rendering-part-2
 ---
-## Content
+
 # The `ref` callback attribute
+
+---
+## Content
 
 The `ref` is a special *attribute* in **React** that is attachable to any `component` or **DOM** `element`.
 

@@ -32,8 +32,11 @@ links:
 
 
 ---
-## Content
+
 # Binary and octal notation in ES6
+
+---
+## Content
 
 In ES6 you can use **binary** and **octal** notation as well as hexadecimal: 
 ```

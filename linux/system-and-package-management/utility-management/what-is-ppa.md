@@ -1,4 +1,4 @@
-# What is a PPA?
+---
 author: Nick Daminov
 
 levels:
@@ -10,15 +10,23 @@ type: normal
 category: must-know
 
 links:
+
   - '[More on APT](https://en.wikipedia.org/wiki/APT_(Debian))'
+
   - '[More on PPAs](https://launchpad.net/ubuntu/+ppas)'
+
   - '[PPAs with GUI](https://askubuntu.com/questions/4983/what-are-ppas-and-how-do-i-use-them)'
+
   - '[Launchpad](https://launchpad.net/)'
+
+---
+
+# What is a PPA?
 
 ---
 ## Content
 
-**PPA**s, or *Personal Package Archives*, is a software repository for *APT*[1] packages, hosted on `launchpad.net` servers[2]. *PPAs* are used for distributing software written or maintained by a private group or individual (anyone can publish).
+* *PPA**s, or *Personal Package Archives*, is a software repository for *APT*[1] packages, hosted on `launchpad.net` servers[2]. *PPAs* are used for distributing software written or maintained by a private group or individual (anyone can publish).
 
 Packages from those *PPA*s can be downloaded both through a *shell* and a *GUI interface*. As they can be written by anyone in the community, there are a few points to consider:
  - Who created the PPA
@@ -54,11 +62,3 @@ What is a PPA?
 * A piece of software
 * A type of shell
 
----
-## Footnotes
-
-[1: APT]
-Advanced Packaging Tool
-
-[2: Launchpad]
-Launchpad is a software collaboration platform that provides various features for application development, as well as hosting Ubuntu packages and providing the PPA repository.

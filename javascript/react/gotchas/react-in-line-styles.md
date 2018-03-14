@@ -18,8 +18,11 @@ links:
 
 parent: custom-proptype-s-to-be-required
 ---
-## Content
+
 # **React** in-line styles
+
+---
+## Content
 
 In **React** in-line styling is not done by specifying a string, but by creating an object with the needed value for the style.
 

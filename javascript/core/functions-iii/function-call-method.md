@@ -17,8 +17,11 @@ category: must-know
 
 
 ---
-## Content
+
 # Function call method
+
+---
+## Content
 
 The `call` method allows changing the this object of a function from the original context to the context of the new object specified by `thisObj`. 
 

@@ -15,8 +15,11 @@ category: best practice
 
 parent: custom-proptype-s-to-be-required
 ---
-## Content
+
 # `null` value for *Controlled Components* in **React**
+
+---
+## Content
 
 Using **React**, an `<input>` form element that has a set `value` prop is a *controlled* component.  
 

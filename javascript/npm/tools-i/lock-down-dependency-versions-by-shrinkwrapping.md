@@ -18,8 +18,11 @@ links:
 
 parent: check-data-about-a-package
 ---
-## Content
+
 # Lock down dependency versions by shrinkwrapping
+
+---
+## Content
 
 `npm` has great support for semanting versioning because it uses wildcards and expressions for versions of dependencies listed in the `package.json` file:
 ```json

@@ -17,8 +17,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Destructuring (Part 1)
+
+---
+## Content
 
 Destructuring provides a succinct and flexible way to assign values from arrays or objects. 
 

@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Interaction with the user
+
+---
+## Content
 
 Mainly useful for prototyping, there are multiple ways to interact with the user. 
 

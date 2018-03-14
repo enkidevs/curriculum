@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # Metadata: setting a file's owner
+
+---
+## Content
 
 The `UserPrincipalLookupService` can be used to lookup a user name defined as a string and store it as a `UserPrincipal` object:
 ```

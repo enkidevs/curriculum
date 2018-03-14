@@ -26,8 +26,11 @@ links:
 
 
 ---
-## Content
+
 # Hoisting applies only to variable declarations, not initializations
+
+---
+## Content
 
 Variable declarations are moved to the top of the current scope, either the current function or script. This means that variables can be used before they are declared.
 ```

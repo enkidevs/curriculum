@@ -1,4 +1,4 @@
-# Preventing a user from logging into the system
+---
 author: tuwi.dc
 
 levels:
@@ -15,11 +15,15 @@ tags:
 
   - nologin
 
-  - 'false'
+  - false
 
   - shells
 
   - prevent
+
+---
+
+# Preventing a user from logging into the system
 
 ---
 ## Content
@@ -37,8 +41,7 @@ Then set user's shell to *nologin* as root :
 ```
 $ sudo chsh <guestUser> -s /bin/nologin
 ```
-
-**Do not set these for the root user**.
+* *Do not set these for the root user**.
 
 To give the access back, restore the login shell to `bash`:
 ```
@@ -53,12 +56,13 @@ Prevent user `Tom`  from logging into the system :
 $ sudo ??? ??? 
        ??? ???
 ```
-*`chsh`
-*`Tom`
-*`-s`
-*`/bin/nologin`
-*`cshs`
-*`-l`
+
+* `chsh`
+* `Tom`
+* `-s`
+* `/bin/nologin`
+* `cshs`
+* `-l`
 
 ---
 ## Revision
@@ -68,7 +72,9 @@ Restore log-in rights for Tom:
 $ sudo ??? Tom 
         -s ???
 ```
-*`chsh`
-*`/bin/bash`
-*`cshs`
-*`/bin/login`
+
+* `chsh`
+* `/bin/bash`
+* `cshs`
+* `/bin/login`
+

@@ -15,8 +15,11 @@ inAlgoPool: false
 
 
 ---
-## Content
+
 # Python environment
+
+---
+## Content
 
 Python comes pre-installed on most Linux distributions and is available as packages or installers on all others operating systems. Everything you need can be found on:
 ```

@@ -23,8 +23,11 @@ tags:
 
 
 ---
-## Content
+
 # Handling Blobs in SQL
+
+---
+## Content
 
 Similar to MySQL, MSSQL uses `varbinary(n)` to store raw bytes. The maximum number of bytes is `4 + 2^32` (4.2 GB).
 

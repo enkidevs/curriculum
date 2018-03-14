@@ -22,8 +22,11 @@ links:
 
 
 ---
-## Content
+
 # Setting default values with `short circuiting`
+
+---
+## Content
 
 `Short circuiting` returns the value of the second operand based on the value of the first.
 

@@ -31,8 +31,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # Template Strings
+
+---
+## Content
 
 ES6 introduces a new feature called template strings that make it easier to work with strings by adding string interpolation and multi-line strings:
 

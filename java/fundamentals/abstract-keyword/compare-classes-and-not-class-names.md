@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Compare classes and not class names
+
+---
+## Content
 
 In JVM two classes are the same class (and same type) if they are loaded by the same class loader and have the same qualified name. Two classes with the same name but different package names are distinct, as are two classes with the same qualified name loaded by different class loaders.
 

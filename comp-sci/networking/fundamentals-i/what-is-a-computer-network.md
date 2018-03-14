@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # What is a computer network?
+
+---
+## Content
 
 **Computer Networking**'s main purpose is to enable several devices to communicate with each other to share and exchange resources.
 

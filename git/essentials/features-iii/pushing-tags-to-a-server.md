@@ -21,8 +21,11 @@ links:
 parent: using-tags-for-version-control
 
 ---
-## Content
+
 # Pushing tags to a server
+
+---
+## Content
 
 The `git push` command doesn’t automatically transfer your tags to the remote server. 
 

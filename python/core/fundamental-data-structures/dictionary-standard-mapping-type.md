@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # `Dictionary` - standard mapping type
+
+---
+## Content
 
 The **dictionary** (dict) is Python's main mapping type. It maps **hashable** values to arbitrary objects, as long as they provide key integrity (their value cannot be changed after being initialized, e.g. lists will throw an error). Dictionaries are equivalent to Java's HashMap or C's hash tables.
 

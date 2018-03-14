@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Determining string equality
+
+---
+## Content
 
 Using the `==` operator to compare strings actually checks the identity of the strings rather than comparing their content.
 

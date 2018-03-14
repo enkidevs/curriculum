@@ -28,8 +28,11 @@ links:
 
 
 ---
-## Content
+
 # Use lazy initialization to defer creating an object until it's used
+
+---
+## Content
 
 If the creation of an object is expensive or if the object is needed only under some specific condition, *lazy initialization* can be used to optimize performance.
 ```

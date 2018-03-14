@@ -23,8 +23,11 @@ links:
 
 
 ---
-## Content
+
 # Vibration API
+
+---
+## Content
 
 The Vibration API makes a device vibrate with JavaScript. It is intended to be used with mobile devices to provide additional feedback.
 

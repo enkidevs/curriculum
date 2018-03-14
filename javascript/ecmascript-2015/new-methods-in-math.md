@@ -1,4 +1,4 @@
-# New methods in `Math`
+---
 author: rosielowther
 
 levels:
@@ -15,11 +15,15 @@ category: must-know
 
 links:
 
-  - '[www.2ality.com](http://www.2ality.com/2015/04/numbers-math-es6.html){website}'
+  - '[www.2ality.com](http://www.2ality.com/2015/04/numbers-math-es6.html)'
 
-  - '[github.com](https://github.com/lukehoban/es6features#arrows){website}'
+  - '[github.com](https://github.com/lukehoban/es6features#arrows)'
 
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)'
+
+---
+
+# New methods in `Math`
 
 ---
 ## Content
@@ -42,10 +46,8 @@ Math.trunc(-2.4); // -2
 ```
 Math.log2(16); // 4
 ```
-
-**Bitwise operations**, e.g. `.clz32(int)` counts the leading zero bits in the 32 bit integer `int`.
-
-**Trigonometric methods**, e.g. `.acosh(n)` finds the inverse hyperbolic cosine of n.
+* *Bitwise operations**, e.g. `.clz32(int)` counts the leading zero bits in the 32 bit integer `int`.
+* *Trigonometric methods**, e.g. `.acosh(n)` finds the inverse hyperbolic cosine of n.
 
 ---
 ## Practice
@@ -57,11 +59,11 @@ Math.sign(Infinity);
 // ???
 ```
 
-*`1` 
-*`0` 
-*`-1`
-*`NaN` 
-*`Math error`
+* `1` 
+* `0` 
+* `-1`
+* `NaN` 
+* `Math error`
 
 ---
 ## Revision
@@ -81,3 +83,4 @@ Math.trunc(-8.2);
 * `2`
 * `-9`
 * `9`
+

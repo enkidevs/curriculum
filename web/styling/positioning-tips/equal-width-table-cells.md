@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Equal width table cells
+
+---
+## Content
 
 Use `table-layout: fixed` to keep a table's cells at equal width:
 ```

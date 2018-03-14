@@ -16,8 +16,11 @@ links:
 
 
 ---
-## Content
+
 # Pointers and References
+
+---
+## Content
 
 When it comes to variables, one special characteristic of Python stands out: **every data type is an object**. Every *int*, every *string*, every *function*, every user-defined *class* is an object. Consider this example:
 ```python
@@ -87,7 +90,8 @@ b = 3
 
 ---
 ## Quiz
-### what is the result of the following identity check?
+### What is the result of the following identity check?
+
 ```
 # Interactive shell
 >>> a = 256
@@ -100,7 +104,7 @@ b = 3
 ???
 ```
 
- ???
+???
 
 * True and False
 * True and True

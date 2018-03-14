@@ -17,8 +17,11 @@ links:
 parent: what-is-a-hook
 
 ---
-## Content
+
 # Create a global git commit hook
+
+---
+## Content
 
 Set up git templates:
 ```

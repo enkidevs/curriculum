@@ -24,8 +24,11 @@ links:
 
 
 ---
-## Content
+
 # Manipulating shapes using CSS: `clip-path`
+
+---
+## Content
 
 You can use functions that are applied to `shape-outside` to `clip-path`, ie, `inset()`, `polygon()`, `ellipse()`.
 Below is an example of `clip-path` in action:

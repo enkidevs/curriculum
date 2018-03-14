@@ -1,4 +1,4 @@
-# Multiple inheritance of type using interfaces
+---
 author: adamMontgomerie
 
 levels:
@@ -23,8 +23,11 @@ tags:
 
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/multipleinheritance.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/multipleinheritance.html)'
+
+---
+
+# Multiple inheritance of type using interfaces
 
 ---
 ## Content
@@ -44,3 +47,4 @@ public class Implementer implements
 }
 ```
 The class `Implementer` implements both `InterfaceA` and `InterfaceB`. This allows objects of type `Implementer` to be used with parameters and fields expecting either `InterfaceA` or `InterfaceB`.
+

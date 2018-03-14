@@ -20,8 +20,11 @@ links:
 
 
 ---
-## Content
+
 # Prevent `exceptions` while logging Data
+
+---
+## Content
 
 Successful logging can be *prevented* by exceptions thrown while logging is in progress!
 

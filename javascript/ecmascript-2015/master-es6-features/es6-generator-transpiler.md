@@ -21,8 +21,11 @@ links:
 
 
 ---
-## Content
+
 # ES6 Generator Transpiler
+
+---
+## Content
 
 Generators are a new syntax in ES6. Unlike other ES6 features (such as Promises), Generators cannot be simply polyfilled on top of ES5. 
 

@@ -17,8 +17,11 @@ links:
 inAlgoPool:
 
 ---
-## Content
+
 # JavaScript or EcmaScript?
+
+---
+## Content
 
 The language that would become JavaScript was created by **Brendan Eich** in 1995 and then standardized by an organization called ECMA as **EcmaScript-262**. The standardization was needed as two versions of the initial JavaScript (Netscape's JavaScript and Microsoft's JScript) came out, similarly enough to be considered "versions", but different enough to cause confusion.
 

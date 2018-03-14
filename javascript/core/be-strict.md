@@ -1,4 +1,4 @@
-# Be strict.
+---
 author: rosielowther
 
 levels:
@@ -15,6 +15,10 @@ links:
 
   - >-
     [dmitrysoshnikov.com](http://dmitrysoshnikov.com/ecmascript/es5-chapter-2-strict-mode/){website}
+
+---
+
+# Be strict.
 
 ---
 ## Content

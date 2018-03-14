@@ -1,4 +1,4 @@
-# Symbols in ES6
+---
 author: nene
 
 levels:
@@ -15,9 +15,13 @@ category: feature
 
 links:
 
-  - '[www.2ality.com](http://www.2ality.com/2014/12/es6-symbols.html){website}'
-  
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){website}'
+  - '[www.2ality.com](http://www.2ality.com/2014/12/es6-symbols.html)'
+
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol)'
+
+---
+
+# Symbols in ES6
 
 ---
 ## Content
@@ -55,6 +59,7 @@ const key = ???();
 let foo = {};
 ???[???] = 'Enki';
 ```
+
 * `Symbol`
 * `foo`
 * `key`
@@ -72,8 +77,10 @@ Create a symbol with `enki` description:
 let sym = ???(???);
 
 ```
-*`Symbol`
-*`"enki"`
-*`Sym`
-*`Object`
-*`property`
+
+* `Symbol`
+* `"enki"`
+* `Sym`
+* `Object`
+* `property`
+

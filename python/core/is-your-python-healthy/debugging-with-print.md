@@ -18,8 +18,11 @@ links:
 
 
 ---
-## Content
+
 # Debugging
+
+---
+## Content
 
 No matter how experienced programmers are, there will always be mistakes in their **code**. 
 

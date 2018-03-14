@@ -17,8 +17,11 @@ links:
 notes: abc
 
 ---
-## Content
+
 # Get the most of `float`s
+
+---
+## Content
 
 Similar to the `int` data type, `float`s also have several additional methods useful in various scenarios.
 

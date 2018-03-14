@@ -22,8 +22,11 @@ links:
 
 parent: synchronous-event-delivery
 ---
-## Content
+
 # Passing arguments to listeners
+
+---
+## Content
 
 The `eventEmitter.emit()` method allows for a set of arguments to be passed to the listener functions. The `this` keyword, when passed, is set to reference the `EventEmitter` to which the listener is attached.
 

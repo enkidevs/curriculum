@@ -13,8 +13,11 @@ category: tip
 
 
 ---
-## Content
+
 # Diamond Operator
+
+---
+## Content
 
 Since Java 7 it's not necessary to declare the type parameter twice while instantiating objects like Maps, Sets and Lists.
 

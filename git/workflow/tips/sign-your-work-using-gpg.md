@@ -21,8 +21,11 @@ links:
 
 
 ---
-## Content
+
 # Sign your work (using GPG)
+
+---
+## Content
 
 First generate a key using GPG:
 ```

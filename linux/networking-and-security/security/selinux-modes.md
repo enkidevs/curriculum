@@ -1,4 +1,4 @@
-# **SELinux**  modes
+---
 author: catalin
 
 levels:
@@ -10,6 +10,10 @@ levels:
 type: normal
 
 category: feature
+
+---
+
+# **SELinux**  modes
 
 ---
 ## Content
@@ -58,7 +62,8 @@ $ ??? ???
 
 _SELinux_ is a ???.
 
-*kernel security module
-*terminal browser
-*Linux distribution
-*hacker group
+* kernel security module
+* terminal browser
+* Linux distribution
+* hacker group
+
