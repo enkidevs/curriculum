@@ -7,4 +7,4 @@ insights:
   - class-keywords
   - using-classes
   - python-inheritance
-  - pointers-and-dictionaries-of-classes
+  - method-overriding
