@@ -21,11 +21,9 @@ tags:
 
   - workout
 
-
 links:
 
   - '[SQL Tutorial: WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}'
-
 
 ---
 
@@ -124,13 +122,13 @@ Select all the columns from the `pokemon` table, keeping only the rows where the
 ```
 Consider the `move_name` table:
 
-  id  | language_id | move_id |  name       
-======+=============+=========+============
-    1 |           1 |       1 | はたく
-    2 |           3 |       1 | 막치기
-    3 |           5 |       1 | Écras'Face
-    4 |           6 |       1 | Pfund
-    5 |           7 |       1 | Destructor
+|id | language_id | move_id |  name      | 
+|:-:|      :-:    |   :-:   |   :-:      |
+| 1 |           1 |       1 | はたく     |
+| 2 |           3 |       1 | 막치기     |
+| 3 |           5 |       1 | Écras'Face |
+| 4 |           6 |       1 | Pfund      |
+| 5 |           7 |       1 | Destructor |
   (...)
 
 Choose the query that will get all move names with id between 3 and 6. Also, pay attention to select those name that are used in languages with id 5 or 9:

@@ -62,14 +62,14 @@ DEFAULT value;
 
 Consider the "region" table. We want to set default value 1 to all entries under "region_id" column:
 ```
-id | region_id |      name      
-===+===========+===============
- 1 |         1 | generation-i
- 2 |         2 | generation-ii
- 3 |         3 | generation-iii
- 4 |         4 | generation-iv
- 5 |         5 | generation-v
- 6 |         6 | generation-vi
+|id | region_id |      name      |
+|:-:|    :-:    |       :-:      |
+| 1 |         1 | generation-i   |
+| 2 |         2 | generation-ii  |
+| 3 |         3 | generation-iii |
+| 4 |         4 | generation-iv  |
+| 5 |         5 | generation-v   |
+| 6 |         6 | generation-vi  |
 (6 rows)
 
 ??? region
@@ -91,16 +91,16 @@ ALTER ??? ???
 
 We would like to set the default value "ruby" to all entries under column "name" in the "version" table:
 ```
-id | version_group_id |      name      
-===+==================+===============
- 1 |                1 | red
- 2 |                1 | blue
- 3 |                2 | yellow
- 4 |                3 | gold
- 5 |                3 | silver
- 6 |                4 | crystal
- 7 |                5 | ruby
- 8 |                5 | sapphire
+|id | version_group_id |   name   |
+|:-:|       :-:        |    :-:   |
+| 1 |                1 | red      |
+| 2 |                1 | blue     |
+| 3 |                2 | yellow   |
+| 4 |                3 | gold     |
+| 5 |                3 | silver   |
+| 6 |                4 | crystal  |
+| 7 |                5 | ruby     |
+| 8 |                5 | sapphire |
 ...
 
     ???

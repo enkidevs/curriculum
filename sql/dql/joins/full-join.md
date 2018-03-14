@@ -46,12 +46,12 @@ move.type_id = type.id;
 ```
 However, if our **type** table had the extra `wood` type and there was an extra `coolest-move-ever` in the **move** table, both values would get printed, on top of the other 640 rows:
 ```
-id  |        name       |   id   | type_name
-====+===================+========+==========
-1   |        pound      |   1    |  normal
+| id |        name       |   id   | type_name |
+| :-:|         :-:       |  :-:   |   :-:     |
+|  1 |        pound      |   1    |  normal   |
 ...
-1234| coolest-move-ever |  NULL  |   NULL
-NULL|        NULL       |   19   |   wood
+|1234| coolest-move-ever |  NULL  |   NULL    |
+|NULL|        NULL       |   19   |   wood    |
 ```
 
 Here's what a FULL JOIN represents:
@@ -101,35 +101,35 @@ pokemon_type.type_id = type.id
 ```
 Given the tables called `location` and `location_area`:
 
-id  | region_id |     name           
-====+===========+===============
-  1 |         4 | canalave-city
-  2 |         4 | eterna-city
-  3 |         4 | pastoria-city
+|id | region_id |      name      |
+|:-:|     :-:   |      :-:       |
+| 1 |         4 | canalave-city  |
+| 2 |         4 | eterna-city    |
+| 3 |         4 | pastoria-city  |
 (...)
 
-id  | game_index | location_id |       name                      
-====+============+=============+====================
-  1 |          1 |           1 | canalave-city-area
-  2 |          2 |           2 | eterna-city-area
-  3 |          3 |           3 | pastoria-city-area
-  4 |          4 |           4 | sunyshore-city-area
+|id | game_index | location_id |         name        |
+|:-:|     :-:    |     :-:     |         :-:         |
+| 1 |          1 |           1 | canalave-city-area  |
+| 2 |          2 |           2 | eterna-city-area    |
+| 3 |          3 |           3 | pastoria-city-area  |
+| 4 |          4 |           4 | sunyshore-city-area |
 (...)
 
 
 Note that there are 6 regions, but not all locations belong to one of them. Get location id, game index and region id for all records. It doesn't matter whether there is no game index for a region or vice versa. The result should look like this:
 
-id  | game_index | region_id
-====+============+===========
-  1 |          1 |         4
-  2 |          2 |         4
-  3 |          3 |         4
+|id | game_index | region_id |
+|:-:|     :-:    |    :-:    |
+| 1 |          1 |         4 |
+| 2 |          2 |         4 |
+| 3 |          3 |         4 |
   (...)
-  21|          21|          
+| 21|          21|           |
   (...)
-    |          56|         
+|   |          56|           |
   (...)
-  89|            |         6
+| 89|            |         6 |
 ```
 
 ???

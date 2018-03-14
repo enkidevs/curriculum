@@ -40,11 +40,11 @@ Below we will see some examples based on a database (called the pokemon database
 ```
 -- experience table:
 
-id  | level | experience | growth_rate_id
-====+=======+============+===============
-  1 |     1 |          0 |              1
-  2 |     2 |         10 |              1
-  3 |     3 |         33 |              1
+|id | level | experience | growth_rate_id|
+|:-:|  :-:  |    :-:     |      :-:      |
+| 1 |     1 |          0 |             1 |
+| 2 |     2 |         10 |             1 |
+| 3 |     3 |         33 |             1 |
 ....
 
 SELECT experience
@@ -52,13 +52,13 @@ FROM experience
 LIMIT 5;
 
 --Result:
-experience
-============
-     0
-    10
-    33
-    80
-   156
+| experience |
+|     :-:    |
+|      0     |
+|     10     |
+|     33     |
+|     80     |
+|    156     |
  (5 rows)
 
 ```
@@ -72,9 +72,9 @@ SELECT SUM(experience) FROM
   LIMIT 5) as Result;
 
 -- Result:
-  sum
-=======
-  279
+| sum |
+| :-: |
+| 279 |
 (1 row)
 ```
 
@@ -84,17 +84,17 @@ SELECT SUM(experience) FROM
 Considering the "move_effect_change" table, we want to know the total amount of move_effect:
 ```
 -- "move_effect_change"
-id | move_effect | version_group_id
-===+=============+==================
- 1 |           8 |               11
- 2 |          18 |                3
- 3 |          29 |                3
+|id | move_effect | version_group_id |
+|:-:|     :-:     |       :-:        |
+| 1 |           8 |               11 |
+| 2 |          18 |                3 |
+| 3 |          29 |                3 |
 
 SELECT ???(???) FROM move_effect_change;
 
 -Result:
-======
-3884
+|  :-: |
+| 3884 |
 (1 row)
 ```
 
@@ -113,22 +113,21 @@ We have a table called item. It holds data about how much each item costs. We wa
 ```
 --item:
 
-id  | cost  |    name       
-=====+======+============
-  1 |     0 | master-ball
-  2 |  1200 | ultra-ball
-  3 |   600 | great-ball
-  4 |   200 | poke-ball
+|id | cost |    name    |
+|:-:|  :-: |     :-:    |
+| 1 |    0 | master-ball|
+| 2 | 1200 | ultra-ball |
+| 3 |  600 | great-ball |
+| 4 |  200 | poke-ball  |
 
   ???
 
 --Result:   
-========
- 728060
+|   :-:  |
+| 728060 |
 (1 row)
 
 ```
-
 
 * SELECT SUM(cost) FROM item;
 * SELECT AVG(cost) FROM item;

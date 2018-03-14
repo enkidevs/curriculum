@@ -45,9 +45,9 @@ LIMIT 5;
 
 
 --Result:
-  count
-=========
-    5
+|  count |
+|   :-:  |
+|    5   |
 (1 row)
 ```
 No matter how many entries there are in the `experience` table, we limit the output to 5 rows. Hence, the result is *5*.
@@ -58,11 +58,11 @@ No matter how many entries there are in the `experience` table, we limit the out
 We have a table "location". It has data stating the region each location belongs to. How many locations are there in each region? Display the result ordered by regions.
 ```
 -- location
-id  | region_id |      name           
-====+===========+===============
-  1 |         4 | canalave-city
-  2 |         4 | eterna-city
-  3 |         4 | pastoria-city
+|id | region_id |      name      |
+|:-:|   :-:     |       :-:      |
+| 1 |         4 | canalave-city  |
+| 2 |         4 | eterna-city    |
+| 3 |         4 | pastoria-city  |
 ...
 
 SELECT ???(name),???
@@ -71,20 +71,18 @@ FROM location
 ORDER BY region_id;
 
 --Result:
-count | region_id
-======+===========
-   90 |         1
-   64 |         2
-   82 |         3
-  126 |         4
-  121 |         5
-  104 |         6
-   91 |          
+|count| region_id |
+| :-: |    :-:    |
+|  90 |         1 |
+|  64 |         2 |
+|  82 |         3 |
+| 126 |         4 |
+| 121 |         5 |
+| 104 |         6 |
+|  91 |           |
 (7 rows)
 
-
 ```
-
 
 * COUNT
 * region_id
@@ -100,9 +98,9 @@ Knowing that the pokemon db has a table called `item` and a field `name`, count 
 ```
     ???
 --Result:
-  count
-=========
-   746
+| count |
+|  :-:  |
+|  746  |
 (1 row)
 
 ```
@@ -120,11 +118,11 @@ We will use the same segment of "experience" table for all aggregate functions:
 ```
 -- experience table:
 
-id  | level | experience | growth_rate_id
-====+=======+============+===============
-  1 |     1 |          0 |              1
-  2 |     2 |         10 |              1
-  3 |     3 |         33 |              1
+|id | level | experience | growth_rate_id|
+|:-:|  :-:  |    :-:     |      :-:      |
+| 1 |     1 |          0 |              1|
+| 2 |     2 |         10 |              1|
+| 3 |     3 |         33 |              1|
 ....
 
 SELECT experience
@@ -132,13 +130,13 @@ FROM experience
 LIMIT 5;
 
 --Result:
-experience
-============
-     0
-    10
-    33
-    80
-   156
+| experience |
+|     :-:    |
+|      0     |
+|     10     |
+|     33     |
+|     80     |
+|    156     |
  (5 rows)
 
 ```

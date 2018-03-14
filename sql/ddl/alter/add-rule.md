@@ -51,14 +51,14 @@ DO ALSO
 
 Create a rule such that when we `SELECT` from "region" table, it will display the "id" column every time:
 ```
-id | region_id |      name      
-===+===========+===============
- 1 |         1 | generation-i
- 2 |         2 | generation-ii
- 3 |         3 | generation-iii
- 4 |         4 | generation-iv
- 5 |         5 | generation-v
- 6 |         6 | generation-vi
+|id | region_id |      name      |
+|:-:|    :-:    |      :-:       |
+| 1 |         1 | generation-i   |
+| 2 |         2 | generation-ii  |
+| 3 |         3 | generation-iii |
+| 4 |         4 | generation-iv  |
+| 5 |         5 | generation-v   |
+| 6 |         6 | generation-vi  |
 (6 rows)
 
 ??? "include_id"
