@@ -42,9 +42,9 @@ SELECT COUNT(ability_id)
 FROM ability_name;
 
 --Result:
-count
-======
- 1397
+| count |
+|  :-:  |
+|  1397 |
 (1 row)
 ```
 First, we count how many ability ids are there in the ability_name table.
@@ -55,9 +55,9 @@ SELECT COUNT(DISTINCT ability_id)
 FROM ability_name;
 
 --Result:
-count
-======
-  251
+|count|
+| :-: |
+| 251 |
 (1 row)
 ```
 
@@ -69,17 +69,17 @@ We know that the table *pokedex_name* has a field called name with 42 entries. W
 SELECT COUNT(name) FROM pokedex_name;
 
 --Result:
-count
-======
-   42
+|count|
+| :-: |
+|  42 |
 (1 row)
 
 ???
 
 --Result:
-count
-======
-   35
+|count|
+| :-: |
+|  35 |
 (1 row)
 ```
 
@@ -97,7 +97,7 @@ Consider the following table and the following query. Fill the gaps such that we
 --GRADES table:
 
 |   NAME    | GRADES |
-|===========|========|
+|    :-:    |   :-:  |
 | John      | 56%    |
 | Sebastian | 68%    |
 | Doris     | 56%    |

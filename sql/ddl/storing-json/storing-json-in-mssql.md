@@ -19,9 +19,6 @@ tags:
 
   - deep
 
-
-
-
 ---
 
 # Storing JSON in SQL Server
@@ -62,9 +59,9 @@ JSON_VALUE(pokemon, '$.moves[0].level') = 1
 ```
 With the output:
 ```
-  id   |    name
-=======+============
-   1   |  Bulbasaur
+| id  |    name   |
+| :-: |    :-:    |
+|  1  | Bulbasaur |
 ```
 One of the advantages of MSSQL is that it can parse JSON strings as tables on the go.
 

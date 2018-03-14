@@ -66,9 +66,9 @@ pokemon @> '{"types": ["poison", "grass"]}';
 ```
 With the output:
 ```
-   id   |     pokemon
-========+===================
-    1   | {"id": 1, "name": "Bulbasaur" ...}
+|id |     pokemon                        |
+|:-:|       :-:                          |
+| 1 | {"id": 1, "name": "Bulbasaur" ...} |
 ```
 
 ---

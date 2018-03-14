@@ -99,12 +99,12 @@ Get all of the rows and the `id`, `weight`, `name` columns from the `pokemon` ta
 ```
 Given a table called `ability` from our pokemon database:
 
-id   | is_main_series | generation_id |      name      
-=====+================+===============+===============
-   1 | t              |             3 | stench
-   2 | f              |             3 | drizzle
-   3 | t              |             3 | speed-boost
-   4 | t              |             3 | battle-armor
+|id | is_main_series | generation_id |     name     |
+|:-:|       :-:      |      :-:      |      :-:     |
+| 1 | t              |             3 | stench       |
+| 2 | f              |             3 | drizzle      |
+| 3 | t              |             3 | speed-boost  |
+| 4 | t              |             3 | battle-armor |
 (...)
 
 

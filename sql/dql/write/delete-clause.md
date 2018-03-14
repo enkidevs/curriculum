@@ -39,23 +39,23 @@ The `DELETE` clause enables users to delete data from a table. We can specify wh
 Consider the "egg_group" table:
 ```
 --egg_group:
-id |     name      
-===+===============
- 1 | monster
- 2 | water1
- 3 | bug
- 4 | flying
- 5 | ground
- 6 | fairy
- 7 | plant
- 8 | humanshape
- 9 | water3
-10 | mineral
-11 | indeterminate
-12 | water2
-13 | ditto
-14 | dragon
-15 | no-eggs
+|id |     name      |
+|:-:|      :-:      |
+| 1 | monster       |
+| 2 | water1        |
+| 3 | bug           |
+| 4 | flying        |
+| 5 | ground        |
+| 6 | fairy         |
+| 7 | plant         |
+| 8 | humanshape    |
+| 9 | water3        |
+|10 | mineral       |
+|11 | indeterminate |
+|12 | water2        |
+|13 | ditto         |
+|14 | dragon        |
+|15 | no-eggs       |
 (15 rows)
 ```
 
@@ -65,22 +65,22 @@ DELETE FROM egg_group
 WHERE id = 1;
 
 --Result:
-id |     name      
-===+===============
- 2 | water1
- 3 | bug
- 4 | flying
- 5 | ground
- 6 | fairy
- 7 | plant
- 8 | humanshape
- 9 | water3
-10 | mineral
-11 | indeterminate
-12 | water2
-13 | ditto
-14 | dragon
-15 | no-eggs
+|id |     name      |
+|:-:|      :-:      |
+| 2 | water1        |
+| 3 | bug           |
+| 4 | flying        |
+| 5 | ground        |
+| 6 | fairy         |
+| 7 | plant         |
+| 8 | humanshape    |
+| 9 | water3        |
+|10 | mineral       |
+|11 | indeterminate |
+|12 | water2        |
+|13 | ditto         |
+|14 | dragon        |
+|15 | no-eggs       |
 (14 rows)
 ```
 
@@ -95,23 +95,23 @@ DELETE FROM egg_group;
 We want to delete the 15th element of "egg_group" table:
 ```
 --egg_group:
-id |     name      
-===+===============
- 1 | monster
- 2 | water1
- 3 | bug
- 4 | flying
- 5 | ground
- 6 | fairy
- 7 | plant
- 8 | humanshape
- 9 | water3
-10 | mineral
-11 | indeterminate
-12 | water2
-13 | ditto
-14 | dragon
-15 | no-eggs
+|id |     name      |
+|:-:|      :-:      |
+| 1 | monster       |
+| 2 | water1        |
+| 3 | bug           |
+| 4 | flying        |
+| 5 | ground        |
+| 6 | fairy         |
+| 7 | plant         |
+| 8 | humanshape    |
+| 9 | water3        |
+|10 | mineral       |
+|11 | indeterminate |
+|12 | water2        |
+|13 | ditto         |
+|14 | dragon        |
+|15 | no-eggs       |
 (15 rows)
 ```
 ???
@@ -127,23 +127,23 @@ id |     name
 Consider the "egg_group" table. This time we want to delete the first 5 values:
 ```
 --egg_group:
-id |     name      
-===+===============
- 1 | monster
- 2 | water1
- 3 | bug
- 4 | flying
- 5 | ground
- 6 | fairy
- 7 | plant
- 8 | humanshape
- 9 | water3
-10 | mineral
-11 | indeterminate
-12 | water2
-13 | ditto
-14 | dragon
-15 | no-eggs
+|id |     name      |
+|:-:|      :-:      |
+| 1 | monster       |
+| 2 | water1        |
+| 3 | bug           |
+| 4 | flying        |
+| 5 | ground        |
+| 6 | fairy         |
+| 7 | plant         |
+| 8 | humanshape    |
+| 9 | water3        |
+|10 | mineral       |
+|11 | indeterminate |
+|12 | water2        |
+|13 | ditto         |
+|14 | dragon        |
+|15 | no-eggs       |
 (15 rows)
 
 ??? FROM egg_group

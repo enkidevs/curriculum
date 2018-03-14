@@ -69,14 +69,14 @@ This would create an index on the specified table and columns. The main differen
 
 Create an index on the table called "region", on the "region_id" and "name" columns. It needs to be a non-clustered index:
 ```
-id | region_id |      name      
-===+===========+================
- 1 |         1 | generation-i
- 2 |         2 | generation-ii
- 3 |         3 | generation-iii
- 4 |         4 | generation-iv
- 5 |         5 | generation-v
- 6 |         6 | generation-vi
+|id | region_id |      name      |
+|:-:|    :-:    |     :-:        |
+| 1 |         1 | generation-i   |
+| 2 |         2 | generation-ii  |
+| 3 |         3 | generation-iii |
+| 4 |         4 | generation-iv  |
+| 5 |         5 | generation-v   |
+| 6 |         6 | generation-vi  |
 (6 rows)
 
 ??? ??? test_index
@@ -96,19 +96,18 @@ ON region (???, name);
 
 Consider the "version" table. Suppose no primary key was defined for it. We need to create a clustered index that will order the "version_group_id" column in ascending order:
 ```
-id | version_group_id |      name      
-===+==================+===============
-.....
-4  |                3 | gold
-5  |                3 | silver
-6  |                4 | crystal
-7  |                5 | ruby
-8  |                5 | sapphire
-9  |                6 | emerald
-10 |                7 | firered
-11 |                7 | leafgreen
-12 |                8 | diamond
-13 |                8 | pearl
+| id | version_group_id |  name     |
+| :-:|      :-:         |   :-:     |
+| 4  |                3 | gold      |
+| 5  |                3 | silver    |
+| 6  |                4 | crystal   |
+| 7  |                5 | ruby      |
+| 8  |                5 | sapphire  |
+| 9  |                6 | emerald   |
+| 10 |                7 | firered   |
+| 11 |                7 | leafgreen |
+| 12 |                8 | diamond   |
+| 13 |                8 | pearl     |
 ...
 
     ???
@@ -126,12 +125,12 @@ id | version_group_id |      name
 ```
 Given a table called `ability` from our pokemon database:
 
-id   | is_main_series | generation_id |      name      
-=====+================+===============+===============
-   1 | t              |             3 | stench
-   2 | f              |             3 | drizzle
-   3 | t              |             3 | speed=boost
-   4 | t              |             3 | battle-armor
+|id | is_main_series | generation_id |     name     |
+|:-:|      :-:       |     :-:       |      :-:     |
+| 1 | t              |             3 | stench       |
+| 2 | f              |             3 | drizzle      |
+| 3 | t              |             3 | speed-boost  |
+| 4 | t              |             3 | battle-armor |
 (...)
 
 

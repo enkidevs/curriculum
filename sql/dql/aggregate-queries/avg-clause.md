@@ -44,9 +44,9 @@ FROM experience
 LIMIT 5;
 
 --Result:
-   avg         
-==========
-  55.800
+|  avg   |
+|  :-:   |
+| 55.800 |
 (1 row)
 
 ```
@@ -58,12 +58,12 @@ We have a table of items called *item*. This table has a filed called *cost*, in
 ```
 --item:
 
-id  | cost  |    name       
-=====+======+============
-  1 |     0 | master-ball
-  2 |  1200 | ultra-ball
-  3 |   600 | great-ball
-  4 |   200 | poke-ball
+|id | cost |    name     |
+|:-:|  :-: |     :-:     |
+| 1 |    0 | master-ball |
+| 2 | 1200 | ultra-ball  |
+| 3 |  600 | great-ball  |
+| 4 |  200 | poke-ball   |
 
 
 SELECT ???(???)
@@ -90,18 +90,18 @@ We have a table called "contest_combo". It holds info about how much damage each
 ```
 --contest_combo:
 
-id  | first_move | second_move
-====+============+===============
-  1 |          1 |       3
-  2 |          1 |       29
-  3 |          1 |       185
+|id | first_move | second_move |
+|:-:|     :-:    |      :-:    |
+| 1 |          1 |       3     |
+| 2 |          1 |       29    |
+| 3 |          1 |       185   |
 
   ???
 
 --Result:
-  avg          
-======
-161.52
+|  avg  |
+|  :-:  |
+|161.52 |
 (1 row)
 ```
 
@@ -117,11 +117,11 @@ We will use the same segment of "experience" table for all aggregate functions:
 ```
 -- experience table:
 
-id  | level | experience | growth_rate_id
-====+=======+============+===============
-  1 |     1 |          0 |              1
-  2 |     2 |         10 |              1
-  3 |     3 |         33 |              1
+|id | level | experience | growth_rate_id |
+|:-:|  :-:  |     :-:    |       :-:      |
+| 1 |     1 |          0 |              1 |
+| 2 |     2 |         10 |              1 |
+| 3 |     3 |         33 |              1 |
 ....
 
 SELECT experience
@@ -129,12 +129,12 @@ FROM experience
 LIMIT 5;
 
 --Result:
-experience
-==========
-     0
-    10
-    33
-    80
-   156
+| experience |
+|    :-:     |
+|      0     |
+|     10     |
+|     33     |
+|     80     |
+|    156     |
  (5 rows)
 ```

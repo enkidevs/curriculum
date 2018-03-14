@@ -53,9 +53,9 @@ Below, there's a visual representation of what the output of the command should 
 
 The first row of the 640 rows result:
 ```
-id | name  | id | type_name   
-===+=======+====+==========
-1  | pound | 1  | normal
+|id | name  |id | type_name |
+|:-:|  :-:  |:-:|    :-:    |
+| 1 | pound | 1 | normal    |
 ```
 The equivalent `RIGHT OUTER JOIN`:
 ```SQL
@@ -67,9 +67,9 @@ move.type_id = type.id;
 ```
 Yields the same first row (of 640 rows):
 ```
-id | name  | id | type_name   
-===+=======+====+===========
-1  | pound | 1  | normal
+|id | name  |id | type_name |
+|:-:|  :-:  |:-:|    :-:    |
+|1  | pound | 1 |   normal  |
 ```
 Conversely, the `RIGHT JOIN` representation is this:
 
@@ -79,14 +79,14 @@ Conversely, the `RIGHT JOIN` representation is this:
 There shouldn't be any difference between the two outputs as every Pokémon, move, type or item is already in the game and `NULL` entries would probably break everything. However, if there was a move without a type in the DB (for the left join) or a type for which there are no moves (for the right join), the output would look like this:
 ```
 # Left Join
-id  |        name       | id | type_name
-====+===================+====+===========
-1234| coolest-move-ever | NULL  | NULL
+| id  |        name       |  id  |type_name|
+| :-: |        :-:        |  :-: |   :-:   |
+| 1234| coolest-move-ever | NULL |   NULL  |
 
 # Right Join
-id    | name | id  | type_name   
-======+======+=====+============
-NULL  | NULL | 19  | wood
+|  id  | name | id | type_name |
+| :-:  | :-:  |:-: |    :-:    |
+| NULL | NULL | 19 |   wood    |
 ```
 
 ---
@@ -126,32 +126,32 @@ type.id = type_efficacy.target_type_id;
 ```
 Given the tables called `location_area` and `location`:
 
-id  | game_index | location_id |       name                      
-====|============|=============|====================
-  1 |          1 |           1 | canalave-city-area
-  2 |          2 |           2 | eterna-city-area
-  3 |          3 |           3 | pastoria-city-area
-  4 |          4 |           4 | sunyshore-city-area
+|id | game_index | location_id |         name        |
+|:-:|     :-:    |     :-:     |         :-:         |
+| 1 |          1 |           1 | canalave-city-area  |
+| 2 |          2 |           2 | eterna-city-area    |
+| 3 |          3 |           3 | pastoria-city-area  |
+| 4 |          4 |           4 | sunyshore-city-area |
 (...)
 
-id  | region_id |     name           
-====|===========|===============
-  1 |         4 | canalave-city
-  2 |         4 | eterna-city
-  3 |         4 | pastoria-city
+|id | region_id |     name      |
+|:-:|    :-:    |      :-:      |
+| 1 |         4 | canalave-city |
+| 2 |         4 | eterna-city   |
+| 3 |         4 | pastoria-city |
 (...)
 
 
 Note that there are 6 regions, but not all locations belong to one of them. Get game_index's region, `NULL` if there is none. The result should look like this:
 
-id  | game_index | region_id
-====|============|===========
-  1 |          1 |         4
-  2 |          2 |         4
-  3 |          3 |         4
+|id | game_index | region_id |
+|:-:|     :-:    |    :-:    |
+| 1 |          1 |         4 |
+| 2 |          2 |         4 |
+| 3 |          3 |         4 |
   (...)
-  21|          21|          
-  44|          44|
+| 21|          21|           |
+| 44|          44|           |
 ```
 
 ???

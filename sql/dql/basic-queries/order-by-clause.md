@@ -43,15 +43,15 @@ FROM move_name
 GROUP BY language_id;
 
 --Result:
-count | language_id
-======+============
-  639 |           6
-  639 |           5
-  639 |           8
-  639 |           1
-  639 |           9
-  617 |           3
-  639 |           7
+|count| language_id |
+| :-: |     :-:     |
+| 639 |           6 |
+| 639 |           5 |
+| 639 |           8 |
+| 639 |           1 |
+| 639 |           9 |
+| 617 |           3 |
+| 639 |           7 |
 (7 rows)
 ```
 Now using `ORDER BY` clause:
@@ -62,15 +62,15 @@ GROUP BY language_id
 ORDER BY language_id;
 
 --Result:
-count | language_id
-======+============
-  639 |           1
-  617 |           3
-  639 |           5
-  639 |           6
-  639 |           7
-  639 |           8
-  639 |           9
+|count| language_id |
+| :-: |      :-:    |
+| 639 |           1 |
+| 617 |           3 |
+| 639 |           5 |
+| 639 |           6 |
+| 639 |           7 |
+| 639 |           8 |
+| 639 |           9 |
 (7 rows)
 ```
 
@@ -90,15 +90,15 @@ GROUP BY language_id
 ??? language_id ???;
 
 --Result:
-count | language_id
-======+============
-   25 |           9
-   25 |           8
-   25 |           7
-   25 |           6
-   25 |           5
-   25 |           3
-   25 |           1
+|count| language_id |
+| :-: |     :-:     |
+|  25 |           9 |
+|  25 |           8 |
+|  25 |           7 |
+|  25 |           6 |
+|  25 |           5 |
+|  25 |           3 |
+|  25 |           1 |
 (7 rows)
 ```
 
@@ -122,15 +122,15 @@ FROM location
 ORDER BY ???;
 
 --Result:
-count | region_id
-======+===========
-   64 |         2
-   82 |         3
-   90 |         1
-   91 |          
-  104 |         6
-  121 |         5
-  126 |         4
+|count| region_id |
+| :-: |    :-:    |
+|  64 |         2 |
+|  82 |         3 |
+|  90 |         1 |
+|  91 |           |
+| 104 |         6 |
+| 121 |         5 |
+| 126 |         4 |
 (7 rows)
 
 ```
@@ -150,12 +150,12 @@ count | region_id
 ```
 Consider the `experience` table from our pokemon database:
 
-id  | level | experience | growth_rate_id
-====+=======+============+================
-  1 |     1 |          0 |              1
-  2 |     2 |         10 |              1
-  3 |     3 |         33 |              1
-  4 |     4 |         80 |              1
+|id | level | experience | growth_rate_id |
+|:-:|  :-:  |     :-:    |      :-:       |
+| 1 |     1 |          0 |              1 |
+| 2 |     2 |         10 |              1 |
+| 3 |     3 |         33 |              1 |
+| 4 |     4 |         80 |              1 |
   (...)
 
 This table shows how much experience you need to gain in order to get to level 100 based on different growth rates. Choose the query that will get all records that have level 100 and orders them descending on the amount of experience needed:
