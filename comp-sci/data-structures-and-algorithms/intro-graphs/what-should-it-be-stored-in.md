@@ -1,4 +1,4 @@
-# What should it be stored in?
+---
 author: mihaiberq
 
 levels:
@@ -11,6 +11,10 @@ type: fillTheGap
 category: must-know
 
 parent: the-queue-data-structure
+---
+
+# What should it be stored in?
+
 ---
 ## Content
 

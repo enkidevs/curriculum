@@ -1,4 +1,4 @@
-# Thread safe?
+---
 author: catalin
 
 levels:
@@ -18,6 +18,10 @@ notes: >-
 
   Like after this game is unlocked, but the user fails to master it, he might be
   able to request an workout on Threads and Locks for the next day.
+
+---
+
+# Thread safe?
 
 ---
 ## Content

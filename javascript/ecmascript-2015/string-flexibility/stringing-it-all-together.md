@@ -1,4 +1,4 @@
-# Stringing it all together!
+---
 author: rosielowther
 
 levels:
@@ -12,6 +12,10 @@ levels:
 type: fillTheGap
 
 category: must-know
+
+---
+
+# Stringing it all together!
 
 ---
 ## Content

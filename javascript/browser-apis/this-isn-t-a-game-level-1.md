@@ -1,4 +1,4 @@
-# `this` isn't a game! Level 1
+---
 author: rosielowther
 
 levels:
@@ -17,6 +17,10 @@ links:
 
   - >-
     [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this){website}
+
+---
+
+# `this` isn't a game! Level 1
 
 ---
 ## Content

@@ -1,4 +1,4 @@
-# Existential Crisis
+---
 author: jordanfish
 
 levels:
@@ -12,6 +12,10 @@ levels:
 type: tetris
 
 category: tip
+
+---
+
+# Existential Crisis
 
 ---
 ## Content

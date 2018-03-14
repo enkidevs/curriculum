@@ -1,4 +1,4 @@
-# JavaScript Comparators
+---
 author: rosielowther
 
 levels:
@@ -12,6 +12,10 @@ levels:
 type: tetris
 
 category: must-know
+
+---
+
+# JavaScript Comparators
 
 ---
 ## Content

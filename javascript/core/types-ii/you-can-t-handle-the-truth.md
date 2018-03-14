@@ -1,4 +1,4 @@
-# You can't handle the truth!
+---
 author: Bruno
 
 levels:
@@ -16,6 +16,10 @@ category: must-know
 tags:
 
   - gamified
+
+---
+
+# You can't handle the truth!
 
 ---
 ## Content

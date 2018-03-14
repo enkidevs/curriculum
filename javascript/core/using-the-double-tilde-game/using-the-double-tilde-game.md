@@ -1,4 +1,4 @@
-# Using the double tilde ~~
+---
 author: adamMontgomerie
 
 levels:
@@ -12,6 +12,10 @@ levels:
 type: fillTheGap
 
 category: tip
+
+---
+
+# Using the double tilde ~~
 
 ---
 ## Content

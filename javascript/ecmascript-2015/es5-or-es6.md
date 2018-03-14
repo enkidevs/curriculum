@@ -1,4 +1,4 @@
-# ES5 or ES6?
+---
 author: Mathieu
 
 levels:
@@ -12,6 +12,10 @@ levels:
 type: tetris
 
 category: tip
+
+---
+
+# ES5 or ES6?
 
 ---
 ## Content

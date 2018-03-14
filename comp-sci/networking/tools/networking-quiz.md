@@ -1,4 +1,4 @@
-# Networking Fundamentals Quiz
+---
 author: catalin
 
 levels:
@@ -12,6 +12,10 @@ type: fillTheGap
 category: must-know
 
 parent: network-models
+---
+
+# Networking Fundamentals Quiz
+
 ---
 ## Content
 

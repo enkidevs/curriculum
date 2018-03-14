@@ -1,4 +1,4 @@
-# Destructuring assignments
+---
 author: WebReflection
 
 levels:
@@ -16,6 +16,10 @@ category: must-know
 links:
 
   - '[MDN - Destructuring](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){documentation}'
+
+---
+
+# Destructuring assignments
 
 ---
 ## Content

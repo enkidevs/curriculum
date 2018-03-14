@@ -1,4 +1,4 @@
-# Generators and Promises.
+---
 author: gregbenner
 
 levels:
@@ -27,6 +27,10 @@ links:
   
   - '[MDN - Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}'
   
+---
+
+# Generators and Promises.
+
 ---
 ## Content
 
