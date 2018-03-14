@@ -21,9 +21,6 @@ tags:
 
   - deep
 
-
-
-
 ---
 
 # Multiple JOINs
@@ -147,18 +144,18 @@ Given the tables called `pokedex`, `version_group` and `pokedex_version_group`:
 
 (...)
 
-id | order | generation_id |           name            
-===+=======+===============+===========================
- 1 |     1 |             1 | red-blue
- 2 |     2 |             1 | yellow
- 3 |     3 |             2 | gold-silver
+|id | order | generation_id |    name     |
+|:-:|  :-:  |      :-:      |     :-:     |
+| 1 |     1 |             1 | red-blue    |
+| 2 |     2 |             1 | yellow      |
+| 3 |     3 |             2 | gold-silver |
 (...)
 
-id | pokedex_id | version_group_id
-===+============+==================
- 1 |          2 |                1
- 2 |          2 |                2
- 3 |          2 |                7
+|id | pokedex_id | version_group_id |
+|:-:|    :-:     |       :-:        |
+| 1 |          2 |                1 |
+| 2 |          2 |                2 |
+| 3 |          2 |                7 |
 
 Get the names of pokedexes and version_groups using `pokedex_version_group` table. Do not include records that don't have both, pokedex and version_group :
 ```
