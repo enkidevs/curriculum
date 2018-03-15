@@ -1,6 +1,6 @@
 name: NodeJS
 
-description: Node.js is a JavaScript runtime that uses an event-driven, non-blocking I/O model and features built-in OS APIs to let you use JavaScript to write any kind of program.
+description: Node.js is a JavaScript runtime that uses an event-driven, non-blocking I/O model and features built-in OS APIs to let you use JavaScript to write any kind of program. 
 
 sections:
   '0':
