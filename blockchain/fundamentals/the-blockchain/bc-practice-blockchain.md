@@ -24,7 +24,7 @@ links:
   - '[Demo for the website](https://www.youtube.com/watch?v=_160oMzblY8){video}'
 ---
 
-# Blockchain Practice Blocks
+# Blockchain Practice - Blockchain
 
 ---
 ## Exercise
