@@ -50,6 +50,16 @@ In the above example, the key can be brute-forced easily. In the real world, com
 
 On the blockchain, someone's identity is their public key. The private key is the proof of identity. By themselves, neither key can be used to authorize transactions. Combining them, however, yields what is called a "digital signature". The digital signature authorizes the blockchain to record actions as being taken by the signing user.
 
+There are two algorithms, one for signing and one for verifying, that make use of the public and private keys:
+```
+Signature generation S
+S = (message, private key) 
+  -> message signature
+
+Signature verification V
+V = (message, public key, message signature)
+  -> outputs true or false
+```
 The actual protocol for computing it is public for transparency reasons. You can find a link attached to the Bitcoin wiki about the process.
 
 ## Practice
