@@ -7,6 +7,6 @@ description: todo
 section: 1
 
 insights:
- - why-do-we-need-multiple-coins
  - altcoins
+ - why-are-multiple-coins-useful
 
