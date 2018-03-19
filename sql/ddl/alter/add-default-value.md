@@ -17,6 +17,9 @@ category: must-know
 
 inAlgoPool: false
 
+standards:
+  sql.define-columns.2: 10
+
 links:
 
   - '[More on ADD DEFAULT](https://www.w3schools.com/sql/sql_default.asp)'
