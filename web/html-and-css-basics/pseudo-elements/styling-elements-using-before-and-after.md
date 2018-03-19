@@ -42,7 +42,7 @@ Consider the following HTML code:
 ```
 And the following CSS snippet:
 
-``` css
+```css
   p::before{
     content: '#';
     color: red;

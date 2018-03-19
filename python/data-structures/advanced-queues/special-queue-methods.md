@@ -40,7 +40,7 @@ print(q.qsize())
 ``` 
 
 Check if a `queue` is empty or full:
-``` python
+```python
 print(q.empty())
 # output: False
 print(q.full())
