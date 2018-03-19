@@ -24,14 +24,14 @@ In PostgreSQL, there are two possible ways of storing JSON objects:
 - `jsonb`: stores data in binary format, which makes querying faster
 
 In practice, it is recommended to use `jsonb`:
-```SQL
+```sql
 CREATE TABLE poke_json(
   id bigserial PRIMARY KEY,
   pokemon jsonb
 );
 ```
 Inserting new JSON values is done through strings:
-```SQL
+```sql
 INSERT INTO poke_json
 VALUES('{
 	"id": 1,
@@ -49,7 +49,7 @@ VALUES('{
   }]}');
 ```
 And querying object properties is done using `@>` operator:
-```SQL
+```sql
 SELECT *
 FROM poke_json WHERE
 pokemon @> '{"types": ["poison", "grass"]}';
@@ -65,7 +65,7 @@ With the output:
 ## Practice
 
 Querying the JSON `pokemon` field in a PostgreSQL database, select all Pokémon which have evolutions:
-```SQL
+```sql
 ??? pokemon
 ??? poke_json ???
 ??? ??? '{"has_evolution": ???}';
