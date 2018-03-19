@@ -40,7 +40,7 @@ Declaring a new File Reader instance.
 var reader = new FileReader();
 ```
 Reading data as an array buffer and assign it to an array of 8 bit unsigned integers.
-``` JavaScript
+```javascript
 reader.onload = function(e) {
   var chars  = 
   new Uint8Array(reader.result);
