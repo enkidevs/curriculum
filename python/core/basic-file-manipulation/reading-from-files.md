@@ -22,7 +22,7 @@ After opening a **file object**, we have three **operations** available in **Pyt
 - `readlines()`
 
 Suppose we have a file named `test.txt` with the following text inside:
-```txt
+```
 Hello!
 My name is Steve.
 Where is my food?

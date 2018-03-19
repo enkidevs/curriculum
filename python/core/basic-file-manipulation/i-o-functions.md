@@ -49,7 +49,7 @@ print("The input is: ", str);
 ```
 
 Following, the `stdout` will look like:
-```txt
+```
 Please enter your input: Hello
 The input is:  Hello
 ```
@@ -65,7 +65,7 @@ print(colors, type(colors))
 ```
 
 The `stdout` will be as follows:
-```txt
+```
 Favorite colors: ["Green","Blue"]
 ['Green','Blue'] <class `list`>
 ```
@@ -77,7 +77,7 @@ print(age, type(age))
 ```
 The `stdout` will look like this:
 
-```txt
+```
 How old are you? 21
 21 <class `int`>
 ```

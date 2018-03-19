@@ -67,7 +67,7 @@ print(r) # print() is built-in
 ```
 The following output will be generated:
 
-```txt
+```
 A local variable
 An enclosed variable
 A global variable
@@ -77,7 +77,7 @@ A global variable
 
 Consider the following snippet. On which scoping level of hierarchy do you think `z` is?
 
-```
+```python
 def foo(x):
     return x*x
 
@@ -94,7 +94,7 @@ z = foo(4)
 ## Revision
 
 Is the variable `a` still in scope when it is printed?
-```
+```python
 def foo():
     a = "Hello World"
     return a
