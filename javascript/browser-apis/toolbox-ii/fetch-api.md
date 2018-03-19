@@ -30,7 +30,7 @@ The `fetch()` method is used for making requests and fetching resources. It take
 It provides a more powerful and flexible interface than `XMLHttpRequest`.
 
 Example of fetch response handling:
-```JavaScript
+```javascript
 var myHeaders = new Headers();
 
 var myOptions = { method: 'GET',

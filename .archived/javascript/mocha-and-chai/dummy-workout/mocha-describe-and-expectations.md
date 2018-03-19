@@ -26,7 +26,7 @@ links:
 
 The describe function is used to group related test specs together.
 
-```JavaScript
+```javascript
 describe('your string parameter here', 
          function() {
   // inside the describe function
@@ -35,7 +35,7 @@ describe('your string parameter here',
 ```
 A test expectation uses the function `expect`, this functions takes a value to use as the actual, and compares this with the expected value.
 
-```JavaScript
+```javascript
 describe('using an expectation',
          function() {
   it('the it function holds expectations',

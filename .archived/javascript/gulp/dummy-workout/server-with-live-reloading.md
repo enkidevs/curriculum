@@ -27,7 +27,7 @@ To install:
 $ npm install browser-sync
 ```
 In gulpfile.js include the following modules:
-```javaScript
+```javascript
 var gulp = require('gulp');
 var browserSync = require('browser-sync');
 ```

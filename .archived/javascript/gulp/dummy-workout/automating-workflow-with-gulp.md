@@ -33,12 +33,12 @@ npm install gulp
 npm install gulp-sass
 ```
 Next create a file called *gulpfile.js* with the following code to import the *gulp* and *gulp-sass* modules:
-```javaScript
+```javascript
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 ```
 We now need to tell the task runner where to look for the source *Sass* files and where to put the compiled output: 
-```javaScript
+```javascript
 gulp.task('sass', function () {
   return gulp
     // Find all `.scss` files in folder

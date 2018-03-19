@@ -25,7 +25,7 @@ To do this we use the redirection operators `>` and `<`.
 
 To redirect a process's output to a file, use the `>` operator like so:
 
-```console
+```shell
 $ ps aux > ps_output.txt
 ```
 
@@ -33,7 +33,7 @@ This will write the output of `ps aux` to the file `ps_output.txt` in the curren
 
 To have a specific file treated as standard input, use the `<` operator like so:
 
-```console
+```shell
 $ sort < words.txt
 Aardvark
 Advice
@@ -52,7 +52,7 @@ It's relatively rarer for a program to have direct support for an "output filena
 
 You might run into this idiom
 
-```console
+```shell
 $ cat some_file.txt | some_command
 ```
 
@@ -60,7 +60,7 @@ where `some_file.txt` is any old file and `some_command` is used to process the 
 
 Using `cat` and `|`in this way is redundant since one can use `<` like so and bypass the entire "pipe" mechanism:
 
-```console
+```shell
 $ some_command < some_file.txt
 ```
 

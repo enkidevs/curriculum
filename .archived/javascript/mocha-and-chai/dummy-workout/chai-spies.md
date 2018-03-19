@@ -27,25 +27,25 @@ links:
 A *spy* is an object used to mock a function or object method to track and analyse the different calls made during a test.
 
 You can create a spy upon a function.
-```JavaScript
+```javascript
 function toBeWatched () {
   // function code
 }
 var spy = chai.spy(toBeWatched);
 ```
 You can place a spy on an object's method.
-```JavaScript
+```javascript
 var array = [ 1, 2, 3 ];
 chai.spy.on(array, 'push', 'pop');
 ```
 Or create a spy object.
-```JavaScript
+```javascript
 var spyObj = chai.spy.object([ 'push',
                                'pop' ]);
 spyObj(5);
 ```
 A number of assertions can be used with spies.
-```JavaScript
+```javascript
 expect(spy).to.have.been.called();
 expect(spy).to.have.been.called.with('obj');
 expect(spy).to.have.been.called.min(5);

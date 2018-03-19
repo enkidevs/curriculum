@@ -35,7 +35,7 @@ When Jasmine encounters `xdescribe` it will skip over the suite and specificatio
 
 `xdescribe` is useful during development or perhaps during a large refactor to temporarily disable a test suite.
 
-```JavaScript
+```javascript
 xdescribe("A disabled suite", function() {
   it("wont be run", function() {
     expect(true).toEqual(true);

@@ -25,7 +25,7 @@ The package `yargs` makes it easy to use command line arguments in your *gulp* s
 
 The example below assigns the *destination* argument to the variable *dest* and defaults it to *dist* if the argument is not provided:
 
-```javaScript
+```javascript
 var gulp = require('gulp');
 var args = require('yargs').argv;
 

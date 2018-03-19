@@ -28,12 +28,12 @@ To install:
 npm install --save-dev gulp gulp-changed
 ```
 Requiring the *gulp* and *gulp-changed* plugins:
-```javaScript
+```javascript
 var gulp = require('gulp');
 var changed = require('gulp-changed');
 ```
 Defining a *modified-files* task to watch for edited files, and to only pass changed files through the pipe chain.
-```javaScript
+```javascript
 gulp.task('modified-files', function() {
     return gulp.src('dev/*.js')
         .pipe(changed(dist))

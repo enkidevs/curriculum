@@ -31,7 +31,7 @@ To declare a spec as pending, you can use the `xit` function (instead of the usu
 
 A spec is also pending when it is declared without a function body. Both specs in the following suite can be deemed pending.
 
-```JavaScript
+```javascript
 describe("Example of pending specs", () => {
   xit("this spec is pending", () => {
     expect(true).not.toBeEqual(false);

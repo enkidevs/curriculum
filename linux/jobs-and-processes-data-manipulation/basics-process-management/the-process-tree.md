@@ -26,7 +26,7 @@ Similarly, when you see a "log in" prompt, this is actually the `login` command 
 
 The `ps` command displays a flat list of processes, but you can use the `pstree` command if you want to see a tree-like display.  Here's some example output from an Ubuntu web server:
 
-```console
+```shell
 $ pstree
 init─┬─atd
      ├─cron

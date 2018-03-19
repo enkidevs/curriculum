@@ -28,7 +28,7 @@ A *promise object* represents an operation which hasn't been completed yet, but 
 
 A promise represents a proxy for a value when the promise is created. It lets you associate handlers to an asynchronous action's success value or failure reason.
 
-```JavaScript
+```javascript
 var expect = require('chai').expect;
 it('should do something with promises', 
     function() {

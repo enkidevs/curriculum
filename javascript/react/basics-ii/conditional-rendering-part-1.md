@@ -128,7 +128,7 @@ What does **React** use for **conditional rendering**?
 The **conditional** or **ternary** operator is the only `JS` operator taking 3 operands.
 
 Consider the generic syntax:
-```js
+```javascript
 condition ? expression1 : expression2
 ```
 

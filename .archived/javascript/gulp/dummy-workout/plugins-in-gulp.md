@@ -24,7 +24,7 @@ There are over 600 plugins which can be used with *gulp*. They're all listed in 
 
 Most plugins come with good documentation and are ran by piping a stream of file objects to it. They then normally modify the files piped to it, and return the new files to be passed on to the next plugin.
 
-```javaScript
+```javascript
 // declaring multiple plugins
 var gulp = require('gulp'),
     gulp-plugin = require('a-gulp-plugin');

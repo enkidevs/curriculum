@@ -42,7 +42,7 @@ enki(function*() {
 ```
 
 To get rid of the `./node_modules/.bin` parts, you can define a script in `package.json`:
-```json 
+```json
 {
   "scripts": {
     "compile": "browserify mycode.js |

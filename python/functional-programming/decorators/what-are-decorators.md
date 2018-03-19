@@ -23,7 +23,7 @@ def say_hello(name):
   return "Hello, {0}!".format(name)
 ```
 Say you need to wrap the output of the function in *heading tags*, like this:
-```HTML
+```html
 <h2>Hello, Mike!</h2>
 ```
 You could always define another function that makes use of `say_hello`:

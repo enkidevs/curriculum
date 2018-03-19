@@ -23,7 +23,7 @@ links:
 The `contrib-sass` plugin for *`grunt`* can be used to generate source maps when compiling *Sass* stylesheets to *CSS* stylesheets. 
 
 Adding the following code to the configuration will compile the *Sass* code into *CSS* code. Adding `sourceMap: true` means a source map will be created.
-```javaScript
+```javascript
 sass: {
   styles: {
     options: {

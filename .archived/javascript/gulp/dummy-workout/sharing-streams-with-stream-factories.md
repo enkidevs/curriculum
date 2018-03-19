@@ -24,7 +24,7 @@ links:
 When using the same plugins **repeatedly** in different tasks it's possible to create and call a *factory* consisting of these plugins, this helps clean up code. 
 
 First require *gulp*, *gulp-uglify* and *gulp-sass*. Then define tasks like below:
-```javaScript
+```javascript
 gulp.task('enki', function() {
   return gulp.src('enki/scss/*.scss')
     .pipe(gulp-sass())
@@ -39,13 +39,13 @@ gulp.task('dev', function() {
 });
 ```
 The `lazypipe` plugin is used to create a factory:
-```javaScript
+```javascript
 var sassCompile = lazypipe()
   .pipe(gulp-sass)
   .pipe(uglify);
 ```
 Which can be called like this:
-```javaScript
+```javascript
 gulp.task('enki', function() {
   return gulp.src('bootstrap/js/*.js')
     .pipe(sassCompile())

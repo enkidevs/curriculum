@@ -31,7 +31,7 @@ links:
 
  The `afterEach` function is called once after each describe block. 
 
-```JavaScript
+```javascript
 describe("A suite with setup and teardown"),
   function() {
     var int;
@@ -51,7 +51,7 @@ describe("A suite with setup and teardown"),
 
 The `this` keyword is used to share variables between beforeEach, it, and afterEach. Each of these functions have the same `this` object.
 
-```JavaScript
+```javascript
 describe("Using the 'this' keyword",
   function() {
     beforeEach(function() {

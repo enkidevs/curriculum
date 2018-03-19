@@ -35,7 +35,7 @@ In Jasmine a *expectation* is an assertion that's either *true* or *false*.
 
 If all assertions are *true* then the spec passes, if not then the spec fails the test(s).
 
-```JavaScript
+```javascript
 describe("Suites contain specs", 
    function() {
       it("true should equal true", 

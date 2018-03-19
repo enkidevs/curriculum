@@ -45,7 +45,7 @@ If you are aware of a maximum length for those strings, use `varchar(n)` instead
 ## Practice
 
 Create a PostgreSQL table that contains a fixed width column and a variable one, such that minimal space is used to store the table in memory:
-```SQL
+```sql
 CREATE ??? language(
   id bigserial PRIMARY KEY,
   language_name ???,

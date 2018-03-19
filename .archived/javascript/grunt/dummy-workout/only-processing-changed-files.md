@@ -23,7 +23,7 @@ links:
 For efficiency, when running a task which includes file processing, the task only needs to process *modified files* each time it runs, rather than processing every file every time.
 
  This is especially true when there is a large number of files to be processed.
-```javaScript
+```javascript
 watch: {
      jshint: {
         files: ['src/**/*.js'],         

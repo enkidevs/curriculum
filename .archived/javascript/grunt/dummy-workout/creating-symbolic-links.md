@@ -29,7 +29,7 @@ First, install the plugin:
 $ npm install --save grunt-contrib-symlink
 ```
 Load it into the configuration, and create the *symlink* task:
-```javaScript
+```javascript
 module.exports = function (grunt) {
    grunt.initConfig({
      symlink: {

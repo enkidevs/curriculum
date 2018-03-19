@@ -21,13 +21,13 @@ category: tip
 This allows you to have a common file consisting of the most important *JavaScript* and *CSS* modules for your application.
 
 First require the plugin into the *webpack.config* file:
-```javaScript
+```javascript
 var CommonsPlugin = new         
        require("webpack/lib/optimize/
                  CommonsChunkPlugin")
 ```
 Then add a new *common* entry to *plugins*:
-```javaScript
+```javascript
 module.exports = {  
   entry: {
     common: ["jquery"]

@@ -29,7 +29,7 @@ links:
 
 Declaring an array of string in a `beforeEach` function with calls:
 
-```JavaScript
+```javascript
 describe("creating multiple spies", 
          function() {
   var spyArray;
@@ -42,7 +42,7 @@ describe("creating multiple spies",
   });
 ```
 Then using *`expect`* functions comparing the expected and actual values:
-```JavaScript
+```javascript
 it("creates a spy for each function" 
    function() {
    expect(spyArray.one).toBeDefined();

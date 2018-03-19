@@ -28,7 +28,7 @@ Webpack can already add *hashes* for the files to the filename, but it has to be
 - Compute a hash per chunk before adding it.
 
 One single hash per bundle is done by adding `hash` to the *`filename config`* options.
-```javaScript
+```javascript
 {
   output: {
     path: path.join(__dirname, 
