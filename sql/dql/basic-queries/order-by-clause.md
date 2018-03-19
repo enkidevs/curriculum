@@ -15,9 +15,14 @@ category: must-know
 
 inAlgoPool: false
 
+
+standards:
+  sql.read-single-table: 10
+
 tags:
   - introduction
   - workout
+
 
 links:
 
@@ -143,7 +148,7 @@ question: |
   Consider the `experience` table from our pokemon database:
 
   id  | level | experience | growth_rate_id
-  ----|-------|------------|----------------
+  ====|=======|============|================
     1 |     1 |          0 |              1
     2 |     2 |         10 |              1
     3 |     3 |         33 |              1

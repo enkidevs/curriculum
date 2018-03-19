@@ -13,6 +13,9 @@ type: normal
 
 category: must-know
 
+standards:
+  js.functions.5: 10
+
 links:
 
   - >-

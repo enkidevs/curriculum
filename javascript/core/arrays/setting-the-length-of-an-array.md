@@ -13,12 +13,18 @@ type: normal
 
 category: hack
 
-tags:
+standards:
+  js.data-types-structures.3: 10
+  js.data-types-structures.4: 10
 
-  - ''
+tags:
+  - workout
+  - obscura
 
 ---
 ## Content
+
+Have you ever wondered what happens if you manually change the length of an array?
 
 Given the array:
 

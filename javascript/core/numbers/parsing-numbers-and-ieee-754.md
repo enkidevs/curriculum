@@ -11,6 +11,11 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  js.data-types-structures.0: 10
+  js.standard-library.2: 10
+  js.evaluate-expressions.1: 10
+
 links:
 
   - >-

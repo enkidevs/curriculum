@@ -11,6 +11,14 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  js.data-types-structures.2: 10
+  js.data-types-structures.3: 10
+
+tags:
+  - introduction
+  - workout
+
 ---
 ## Content
 

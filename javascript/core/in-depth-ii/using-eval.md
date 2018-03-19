@@ -13,6 +13,10 @@ type: normal
 
 category: best practice
 
+tags:
+  - obscura
+  - workout
+
 links:
 
   - >-

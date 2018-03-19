@@ -13,6 +13,14 @@ type: normal
 
 category: must-know
 
+standards:
+  js.functions.1: 10
+  js.execution-context.1: 10
+
+tags:
+  - introduction
+  - workout
+
 links:
 
   - >-

@@ -13,9 +13,14 @@ type: tetris
 
 category: must-know
 
-tags:
+standards:
+  js.identify-syntax.2: 1000
+  js.evaluate-expressions.3: 1000
+  js.evaluate-expressions.10: 1000
 
-  - gamified
+tags:
+  - introduction
+  - workout
 
 ---
 ## Content

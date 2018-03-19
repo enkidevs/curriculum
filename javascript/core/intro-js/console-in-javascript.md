@@ -11,6 +11,10 @@ type: normal
 
 category: must-know
 
+standards:
+  js.javascript-syntax.1: 10
+  js.standard-library.3: 10
+
 links:
 
   - >-

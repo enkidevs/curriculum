@@ -11,9 +11,17 @@ type: normal
 
 category: must-know
 
-tags:
+standards:
+  js.async.3: 10
+  js.async.2: 10
+  js.use-modules.2: 10
 
-  - languageagnostic
+tags:
+  - workout
+  - deep
+  - async
+  - promises
+  - npm
 
 links:
 

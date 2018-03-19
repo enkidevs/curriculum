@@ -13,6 +13,14 @@ type: normal
 
 category: must-know
 
+standards:
+  js.async.0: 10
+
+tags:
+  - introduction
+  - workout
+  - deep
+
 links:
 
   - >-

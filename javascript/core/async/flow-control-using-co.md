@@ -9,6 +9,20 @@ type: normal
 
 category: feature
 
+standards:
+  js.async.3: 10
+  js.async.2: 10
+  js.use-modules.2: 10
+  js.es6-functions.1: 10
+
+tags:
+  - workout
+  - deep
+  - async
+  - promises
+  - npm
+  - yield
+
 links:
 
   - '[github.com](https://github.com/tj/co){website}'

@@ -13,6 +13,17 @@ type: normal
 
 category: feature
 
+standards:
+  js.functions.1: 10
+  js.functions.5: 10
+  js.functions.6: 10
+  js.execution-context.4: 10
+
+tags:
+  - deep
+  - workout
+  - obscura
+
 ---
 ## Content
 

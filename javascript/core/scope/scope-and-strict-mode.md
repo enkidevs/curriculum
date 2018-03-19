@@ -13,6 +13,16 @@ type: normal
 
 category: must-know
 
+standards:
+  js.functions.5: 10
+
+tags:
+  - workout
+  - scope
+  - deep
+  - variables
+  - obscura
+
 links:
 
   - '[john-dugan.com](https://john-dugan.com/hoisting-in-javascript/){website}'
