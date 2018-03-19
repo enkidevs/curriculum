@@ -20,7 +20,7 @@ category: must-know
 parent: avg-clause
 
 standards:
-  sql.read-multiple-tables: 10
+  sql.read-multiple-tables.0: 10
 
 links:
   - '[Inner join](https://en.wikipedia.org/wiki/Join_(SQL)#Inner_join)'

@@ -17,9 +17,6 @@ category: must-know
 
 inAlgoPool: false
 
-standards:
-  sql.define-sequences-or-default-values: 10
-
 links:
 
   - '[More on CREATE RULE](https://www.postgresql.org/docs/9.3/static/sql-createrule.html)'

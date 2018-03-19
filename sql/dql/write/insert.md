@@ -15,7 +15,7 @@ inAlgoPool: false
 parent: union
 
 standards:
-  sql.write: 10
+  sql.write.0: 10
 
 tags:
   - introduction

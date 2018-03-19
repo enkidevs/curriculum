@@ -15,7 +15,7 @@ inAlgoPool: false
 
 
 standards:
-  sql.connect-client: 5
+  sql.connect-client.2: 5
 
 tags:
   - introduction

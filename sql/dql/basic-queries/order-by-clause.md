@@ -17,7 +17,8 @@ inAlgoPool: false
 
 
 standards:
-  sql.read-single-table: 10
+  sql.read-single-table.0: 10
+  sql.read-single-table.3: 10
 
 tags:
   - introduction
@@ -35,7 +36,7 @@ links:
 
 Considering the following example:
 ```
-SELECT COUNT(name), language_id 
+SELECT COUNT(name), language_id
 FROM move_name
 GROUP BY language_id;
 

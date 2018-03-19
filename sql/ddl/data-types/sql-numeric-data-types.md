@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  sql.choose-sql-datatype.0: 10
+
 tags:
   - introduction
   - workout
