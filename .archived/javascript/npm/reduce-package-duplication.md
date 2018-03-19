@@ -39,7 +39,7 @@ myPackage
 
 ```
 running `npm dedupe` will transform it to:
-```bash 
+```bash
 myPackage
 +-- a
 +-- b

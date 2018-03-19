@@ -35,7 +35,7 @@ Similarly, use the `::after` selector to add and style content after the last ch
 
 Consider the following HTML code:
 
-``` html
+```html
   <p>First</p>
   <p>Second</p>
   <p>Third</p>
