@@ -45,7 +45,7 @@ A very common usage of `ps` is `ps aux`, which displays every process running on
 
 It's also common to use `ps aux` in conjunction with `grep` to search for a specific process.  To see if the SSH server `sshd` is running, one might run the following:
 
-```console
+```shell
 $ ps aux | grep sshd
 root      2848  ... /usr/sbin/sshd -D
 $

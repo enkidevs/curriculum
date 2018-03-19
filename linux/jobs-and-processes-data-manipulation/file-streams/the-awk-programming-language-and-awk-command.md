@@ -30,7 +30,7 @@ The `awk` command implements the AWK language and is a common tool for displayin
 
 Selecting and formatting specific columns of text is probably the most common use of `awk`.  For example, this will print out the 1st and 6th fields from `/etc/passwd` (which are the username and home directory fields, respectively):
 
-```console
+```shell
 $ awk -F':' '{print $1,$6}' /etc/passwd
 user1 /home/user1
 user2 /home/user2

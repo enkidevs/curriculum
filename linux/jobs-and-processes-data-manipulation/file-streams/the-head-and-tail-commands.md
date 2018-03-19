@@ -20,7 +20,7 @@ category: must-know
 
 For example, you can use `tail` to select the last 5 lines from a log file, like so:
 
-```console
+```shell
 $ tail -n5 /usr/share/dict/words
 zythem
 Zythia
@@ -38,7 +38,7 @@ Supplying the `-f` or "follow" option to `tail` causes it to not stop when the e
 
 Try it:
 
-```console
+```shell
 $ tail -f /var/log/messages
 ```
 
@@ -50,7 +50,7 @@ This is called "tailing a log file" or "tailing a file".
 
 It's also common to use `head` and `tail` to filter the output of other programs.  Try these out:
 
-```console
+```shell
 $ ls -t | head -n3
 $ ls -t | tail -n3
 ```
