@@ -33,7 +33,7 @@ In comparison, test-level timeouts are applied to individual test cases.
 
 Invoking `this.timeout(0)` disables timeouts altogether. Mocha uses a default timeout of *2000ms*. 
 
-```JavaScript
+```javascript
 describe('suite level timeouts', () => {
   this.timeout(250);
 
@@ -43,7 +43,7 @@ describe('suite level timeouts', () => {
 })
 ```
 Test-specific timeouts can be applied like in the following example:
-```JavaScript
+```javascript
 describe('test level timeouts', () => {
   it('timeout < 1000ms', (done) => {
     this.timeout(1000);

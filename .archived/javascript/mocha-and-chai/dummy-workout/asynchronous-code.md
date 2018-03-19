@@ -24,7 +24,7 @@ To test *`asynchronous code`* with *Mocha* you simply add in a callback function
 
 Prior to the `done()` function being called Mocha will not continue to the following tests, then once it has been invoked Mocha will continue on to the next test to run.
 
-```JavaScript
+```javascript
 describe('testing asynchronous code', 
           function() {
   it('requires a callback function',   

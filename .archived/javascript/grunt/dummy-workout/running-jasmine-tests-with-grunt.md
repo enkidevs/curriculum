@@ -23,13 +23,13 @@ links:
 The *grunt* plugin `contrib-jasmine` allows *jasmine specs* to be ran with *grunt* in a PhantomJS environment. 
 
 The JavaScript source file, *`main.js`*:
-```javaScript
+```javascript
 function cubeplus2(x) {
   return (x * x * x) + 2;
 }
 ```
 The JavaScript test file, *`test.js`*:
-```javaScript
+```javascript
 describe('testing cubeplus2', function (){
   it('pass 2 return 6', function() {
     expect(cubeplus2(2)).toBe(6);
@@ -44,7 +44,7 @@ Installing the `contrib-jasmine` plugin:
 $ npm install --save contrib-jasmine
 ```
 Loading the plugins and creating the *jasmine* task to run the spec:  
-```javaScript
+```javascript
 module.exports = function (grunt) {
   grunt.initConfig({
     jasmine: {

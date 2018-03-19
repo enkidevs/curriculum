@@ -24,7 +24,7 @@ links:
 *Streams* in *gulp* allow you to pass data through a number of small functions, these functions modify the data and pass it on to the next function in the stream.
 
 A stream would be implemented like follows:
-```javaScript
+```javascript
 gulp.task('js', function () {
    return gulp.src('js/*.js')
       .pipe(jshint())

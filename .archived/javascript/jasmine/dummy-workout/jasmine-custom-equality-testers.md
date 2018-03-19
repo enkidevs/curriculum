@@ -33,7 +33,7 @@ A *custom equality tester* always takes in two arguments (the objects to compare
 
 To create a *custom equality tester* that will return two objects as equal if they are both strings:
 
-```JavaScript
+```javascript
 var custom = 
 function(stringA, stringB) {	
    if (typeof stringA == "string" &&
@@ -44,7 +44,7 @@ function(stringA, stringB) {
 
 ```
 Before we can use our *custom equality tester* it needs to be registered in the *`beforeEach`* function within a *suite*.
-```JavaScript
+```javascript
 describe("custom", function() {
 //equality tester created above
 

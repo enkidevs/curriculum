@@ -24,7 +24,7 @@ links:
 Multiple Entry Points main use case is when an application has multiple application experiences which are isolated, but share a lot of code. For example when you have a user and admin experience, where the user experience has fewer features.
 
 A basic example of declaring entry points: 
-```javaScript
+```javascript
 {
     entry: {
         app: "./app",

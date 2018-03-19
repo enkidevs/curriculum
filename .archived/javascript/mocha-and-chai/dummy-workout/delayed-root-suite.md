@@ -28,7 +28,7 @@ links:
 
 Running *Mocha* with the `--delay` flag provides you with a function `run()` in the global context.
 
-```JavaScript
+```javascript
 setTimeout(function() {
   // set up any test suite pre-conditions
   // here whilst the root suite's delayed

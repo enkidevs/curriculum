@@ -24,14 +24,14 @@ links:
 *browser-sync* supports streams meaning you can reload at specific points during tasks and all browsers will be notified of the change. 
 
 Require *gulp*, *browser-sync* and *gulp-sass* for your gulpfile:
-```javaScript
+```javascript
 var gulp = require('gulp');
 var browserSync = require('browser-sync')
                     .create();
 var sass = require('gulp-sass');
 ```
 Task *serve* runs once task *sass* has completed. It watches Sass and HTML files and calls `browserSync.reload` on change:
-```javaScript
+```javascript
 gulp.task('serve', ['sass'], function() {
    browserSync.init({
        server: "./enki"
@@ -42,7 +42,7 @@ gulp.task('serve', ['sass'], function() {
 });
 ```
 Compiling Sass into CSS code and auto-injecting this into browsers:
-```javaScript
+```javascript
 gulp.task('sass', function() {
     return gulp.src("enki/scss/*.scss")
         .pipe(sass())

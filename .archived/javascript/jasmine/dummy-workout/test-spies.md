@@ -34,7 +34,7 @@ This can be useful to replace external or slow dependencies such as calling a we
 
 The below example checks that the *addTwoAndThree* calls the *add* method:
  
-```JavaScript
+```javascript
 describe("spy example", function() {
     it("add should be called", function() {
         

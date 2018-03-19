@@ -22,7 +22,7 @@ links:
 
 With the following gruntfile, *browserify* will automatically run when `enki/*.js` is modified.
 
-```javaScript
+```javascript
 module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.
@@ -42,7 +42,7 @@ module.exports = function(grunt) {
   })
 ```
 Load and run the tasks:
-```javaScript
+```javascript
   grunt.loadNpmTasks('grunt-contrib-watch')
   grunt.loadNpmTasks('grunt-browserify')
   grunt.registerTask('default', 

@@ -23,7 +23,7 @@ links:
 
 The `new` keyword creates and instantiates  a new instance of the function it was called with.
 
-```JavaScript
+```javascript
 function Test() {
   this.desc = "Enki explains best...";
 }

@@ -36,7 +36,7 @@ describe('pending tests', function() {
 
 You can tell *Mocha* to run a single suite or a single test using `.only()`.
 
-```JavaScript
+```javascript
 describe.only('only this suite will run',
                function(){
   it.only('only this test will run',
@@ -49,7 +49,7 @@ describe.only('only this suite will run',
 });
 ```
 You can also tell *Mocha* to skip suites or tests using `.skip()`.
-```JavaScript
+```javascript
 describe.skip('this suite will be skipped',
                function(){
   it.skip('this it will be skipped',

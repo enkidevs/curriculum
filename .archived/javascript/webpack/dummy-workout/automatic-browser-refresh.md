@@ -33,7 +33,7 @@ Add a script to *`index.html`* to trigger a browser refresh upon a file change:
 </html>
 ```
 And add an entry point to the *`webpack.config.js`* file:
-```javaScript
+```javascript
 var path = require('path');
 
 module.exports = {

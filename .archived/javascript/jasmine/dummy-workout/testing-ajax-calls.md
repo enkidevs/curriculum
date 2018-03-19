@@ -28,7 +28,7 @@ links:
 The *`mock-ajax.js`* plugin file allows ajax calls to be mocked out in tests. 
 
 To mock all ajax calls across a suite the plugin must be installed in a *`beforeEach`* function. Jasmine-ajax stops the global *`XMLHttpRequest`* for the page, uninstalling it after testing allows specs to make real ajax requests.
-```JavaScript
+```javascript
 describe("testing ajax calls" function() {
   beforeEach(function(){
     jasmine.Ajax.install();
@@ -39,7 +39,7 @@ describe("testing ajax calls" function() {
 });
 ```
 Ajax calls can be made as normal:
-```JavaScript
+```javascript
 it("carrying out ajax calls", function() {
   var fnDone =jasmine.createSpy("success");
   var request = new XMLHttpRequest();

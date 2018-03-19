@@ -31,7 +31,7 @@ links:
 
 For example to test an object contains *firstname* equal to "John" and *lastname* equal to "Smith" and ignore the *age* property:
 
-```JavaScript
+```javascript
 describe(".objectContaining",function() {
 
   var obj={

@@ -22,7 +22,7 @@ Loaders are often used to transform files from a different language, or to requi
 
 Specifying loaders in each module can be repetitive, so it's best to specify loaders in your Webpack configuration file like follows.
 
-```javaScript
+```javascript
 {
   module: {
     loaders: [

@@ -25,7 +25,7 @@ Mocha provides four hooks, `before()`, `beforeEach()`, `after()` and `afterEach(
 
 They can be used to set test pre-conditions and and to clean up after tests have been completed.
 
-```JavaScript
+```javascript
 before(function() {
   // runs before all test cases in the suite
 });
@@ -41,7 +41,7 @@ afterEach(function() {
 ```
 
 All hooks are created with a description, this makes it easier to single out errors in your test cases. 
-```JavaScript
+```javascript
 beforeEach("the description goes here",
             function() {
   arr = ['a', 'b', 'c'];

@@ -38,7 +38,7 @@ Imagine this file  structure:
 │       └── styles.css
 ```
 To clean the test folder:
-```javaScript
+```javascript
 var gulp = require('gulp');
 var del = require('del');
 
@@ -53,7 +53,7 @@ gulp.task('clean:test', function () {
 });
 ```
 To run the cleaning task:
-```javaScript
+```javascript
 gulp.task('default', ['clean:test']);
 ```
 

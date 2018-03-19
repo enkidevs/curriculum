@@ -35,7 +35,7 @@ The HTML:
 <img src="" id="wallpaper">
 ```
 And the JavaScript:
-```JavaScript
+```javascript
 function triggerRead() {
   var wallpaper =
     document.getElementById('wallpaper');

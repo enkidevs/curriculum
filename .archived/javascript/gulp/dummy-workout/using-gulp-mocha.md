@@ -28,14 +28,14 @@ $ npm install gulp-mocha
 ```
 
 In *gulpfile.js* add the following modules:
-```javaScript
+```javascript
 var gulp  = require('gulp');
 var mocha = require('gulp-mocha');
 var util  = require('gulp-util');
 ```
 We will run the tests when any file changes in the *src* directory. To do this  we will use *gulp watch* which will call a task called *test*.
 
-```javaScript
+```javascript
 gulp.task('watch-test', function () {
     gulp.watch(['src/**/*.js'], ['test']);
 });
@@ -43,7 +43,7 @@ gulp.task('watch-test', function () {
 ```
 Create a gulp task, *test* to run and report the Mocha test results:
 
-```javaScript
+```javascript
 gulp.task('test', function () {
     return gulp.src(['src/**/*.js'], { 
        read: false 

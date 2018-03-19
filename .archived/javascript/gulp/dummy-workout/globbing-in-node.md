@@ -30,7 +30,7 @@ Examples of *globbing* patterns:
 
 Glob patterns can be used in Gulp as follows:
 
-```javaScript
+```javascript
 gulp.task('glob', function() {
   return gulp.src('./app/scss/**/*.scss') 
     .pipe(gulp.dest('./app/css/'));

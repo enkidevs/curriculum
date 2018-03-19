@@ -25,7 +25,7 @@ An example of a *source transform* would be compiling CoffeeScript into JavaScri
 Below, a *source transform*, `varify`, is used to convert all `const` assignments to `var` assignments. This allows you to have the benefits of immutable variables while staying compatible with older browsers don't support `const`.
 
 Take the following JavaScript:
-```javaScript
+```javascript
 const a = 1;
 var keep = { const: 1 };
 keep.const = 2;
@@ -34,7 +34,7 @@ const foo = function () {
 };
 ```
 Passing in the above file and running Browserify with the `varify` transform:
-```javaScript
+```javascript
 require('browserify')()
   .transform(require('varify'))
   .add('enki/sample.js')
@@ -42,7 +42,7 @@ require('browserify')()
   .pipe(process.stdout);
 ```
 Produces:
-```javaScript
+```javascript
 var a = 1;
 var keep = { const: 1 };
 keep.const = 2;

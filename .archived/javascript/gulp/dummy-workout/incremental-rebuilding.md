@@ -28,7 +28,7 @@ Incremental builds look to limit:
 - file contents processing
 
 An example of an incremental rebuild:
-```javaScript
+```javascript
 var gulp   = require('gulp');
 var jshint = require('gulp-jshint');
 

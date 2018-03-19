@@ -32,7 +32,7 @@ This is useful where you are not interested in an objects specific values  just 
 
 `jasmine.any` takes a constructor or class name as its expected value and is used with standard matchers:
 
-```JavaScript
+```javascript
 describe("jasmine.any",function(){
  it("matches any value",function(){
      expect(1)
@@ -46,7 +46,7 @@ describe("jasmine.any",function(){
 
 `jasmine.any` works by checking the `constructor` property all JavaScript objects inherit from their *prototype*:
 
-```JavaScript
+```javascript
 var num = 10;
 num.constructor===Number; //true
 

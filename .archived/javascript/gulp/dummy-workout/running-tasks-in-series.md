@@ -25,11 +25,11 @@ links:
 - Tell *gulp* when a task is dependent on another task's completion.
 
 Requiring *gulp*:
-```javaScript
+```javascript
 var gulp = require('gulp');
 ```
 Defining task *one*, it takes a *callback* `cb` as a parameter so the task runner knows when it's completed:
-```javaScript
+```javascript
 gulp.task('one', function (cb) {
     // do stuff
     fs.writeFile('filename', 'data', opts, 
@@ -41,13 +41,13 @@ gulp.task('one', function (cb) {
 });
 ```
 Task *two* identifies that a dependent task must have been completed prior to it running:
-```javaScript
+```javascript
 gulp.task('two', ['one'], function() {
     // task 'one' has been completed
 });
 ```
 This task will only run once both *one* and *two* have completed. This could be written as only *two* having completed due to *two* depending on *one*.
-```javaScript
+```javascript
 gulp.task('default', ['one', 'two']);
 ```
 

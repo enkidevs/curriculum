@@ -33,7 +33,7 @@ npm i webpack-dev-server --save-dev
 Then modify your *`package.json  -> dev`* script to include `webpack-dev-server`. 
 
 *`Package.json`*:
-```javaScript
+```javascript
 {
   "scripts": {
     "build": "webpack",

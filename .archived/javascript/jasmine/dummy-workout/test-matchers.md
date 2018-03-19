@@ -29,7 +29,7 @@ links:
 
 A Jasmine matcher does a *boolean comparison* between an expected value and an actual value. Matchers report to Jasmine whether an expectation is true or false, this allowing Jasmine to pass or fail a spec.
 
-```JavaScript
+```javascript
 describe("Jasmine matchers", function() {
   it("'toBe' and 'not.toBe'", function() {
       var x = 31;

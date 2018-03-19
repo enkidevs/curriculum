@@ -32,7 +32,7 @@ A *suite* is used to group tests of related functionality together.
 Suites begin with a call to the global Jasmine function *`describe`* that takes two parameters - a title to describe the tests and a function containing the actual tests. 
 
 
-```JavaScript
+```javascript
 describe("boolean tests", function() {
   it("true should equal true",
      function() {
