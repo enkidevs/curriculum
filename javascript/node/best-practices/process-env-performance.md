@@ -23,7 +23,7 @@ Each process is linked to a set of **environmental variables** that your applica
 **Node.js** supports accessing environment variables out of the box. At boot, the `process` global object is extended through the `.env` propriety.
 
 One way of setting *env* variables is through prefixing the `node` command:
-```sh
+```shell
 $ PORT=8080 node index.js
 ```
 
@@ -68,7 +68,7 @@ What kind of object is `process.env`?
 ## Revision
 
 Which of the followin scenarios do you think would perform better:
-```sh
+```shell
 $ COPY="Enki" node index.js
 ```
 ```javascript
