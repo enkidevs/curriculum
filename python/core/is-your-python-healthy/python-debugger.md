@@ -59,7 +59,7 @@ As the **debugger** is an interactive tool, it provides three commands for navig
 - `next`
 
 Considering the **source code** exemplified above, lets see how `list()` command works:
-```py
+```python
 (Pdb) list
 1  -> num_list = [1, 2]
 2     chars = ['a', 'b']

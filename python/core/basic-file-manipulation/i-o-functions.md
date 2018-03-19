@@ -37,7 +37,7 @@ This is a print statement.
 For managing user input, **Python 3** provides a built-in function called `input()`. When using this **function** the program is **paused** and **waits** until the user finishes his input. You can also pass an **optional** string parameter to this function which will prompt the user with the given message.
 
 Consider the following scenario:
-```py
+```python
 # user input will be assigned to `str`
 str = input('Please enter your input:');
 # program will wait here for user input
@@ -59,7 +59,7 @@ The **input** of the user will be returned as a `string` without any additional 
 - `eval`[3] function (which would interpret `string`s as Python *code* and evaluate it)
 
 Consider we want to know the user's favorite colors and save them in a list, for this `eval()` function can be used:
-```py
+```python
 colors = eval(input('Favorite colors: '))
 print(colors, type(colors))
 ```
@@ -71,7 +71,7 @@ Favorite colors: ["Green","Blue"]
 ```
 
 In the following example, we will use a **casting function** to find out the age of the user by converting the inputted string to an int:
-```py
+```python
 age = int(input('How old are you?'))
 print(age, type(age))
 ```
