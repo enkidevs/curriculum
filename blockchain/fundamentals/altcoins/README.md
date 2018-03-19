@@ -8,5 +8,5 @@ section: 1
 
 insights:
  - altcoins
- - why-are-multiple-coins-useful
+ - why-is-it-worth-having-multiple-coins
 
