@@ -20,7 +20,7 @@ The code below uses global scope variable: `$rootScope` to keep a track of the r
 
 In app.js (or the JS file where you bootstrap your angular application with routing), write a run block with the following code:
 
-```js
+```javascript
 angular.run(function($rootScope) {
 $rootScope.$on('$routeChangeSuccess',
   function(ev, data) {
@@ -48,7 +48,7 @@ This assigns the `$rootScope.controller` object with the current name of the con
 Complete the following HTML code to remove
 the element from the DOM.
 
-```js
+```javascript
 angular.run(function($rootScope) {
 ???.$on('$routeChangeSuccess',
   function(ev, data) {

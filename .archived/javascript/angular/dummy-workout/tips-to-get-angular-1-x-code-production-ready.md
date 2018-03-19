@@ -23,7 +23,7 @@ This mode is useful and is intended to make sure that code will work when minifi
 
 It is recommended to automate the explicit annotation via `ng-annotate` when deploying to production along with strict DI mode.
 
-```js
+```javascript
 angular.bootstrap(document, ['myApp'],
 {
   strictDi: true
@@ -42,7 +42,7 @@ or
 If you are sure that your project only uses element and attribute directives, 
 you can disable the compilation of directives on element classes and comments for the whole application.
 
-```js
+```javascript
 $compileProvider.
     commentDirectivesEnabled(false);
 $compileProvider.
@@ -57,7 +57,7 @@ binding data and CSS class `ng-binding` are attached to the corresponding elemen
 Tools like _Protractor_ and _Batarang_ need this information to run, but you can disable this in 
 production for a significant performance boost with:
 
-```js
+```javascript
 myApp.config(['$compileProvider', 
   function ($compileProvider) {
     $compileProvider.
@@ -66,7 +66,7 @@ myApp.config(['$compileProvider',
 ]);
 ```
 
-```js
+```javascript
 angular.reloadWithDebugInfo();
 ```
 
@@ -91,7 +91,7 @@ What all enables the strict DI mode in angularJS during bootstraping?
 ## Revision
 
 How to disable comments in angularJS App?
-```js
+```javascript
 $compileProvider.
         ???;
 ```

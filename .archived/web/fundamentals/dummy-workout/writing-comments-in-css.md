@@ -41,7 +41,7 @@ p {
 
 Which of the following examples is not how you write comments in CSS? ???
 
-```js
+```javascript
 // Example A
 
 /* Example B */

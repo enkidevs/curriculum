@@ -28,7 +28,7 @@ $ PORT=8080 node index.js
 ```
 
 Then we can access our `PORT` variable like:
-```js
+```javascript
 // index.js
 console.log(process.env.PORT)
 // 8080
@@ -39,7 +39,7 @@ Note `process.env` is a special object which gets the values through the unix `e
 Having lots of calls to this object, which are expensive, throughout your project, might show up in its performance.
 
 If your application **doesn't rely** on *live* environmental variables edits there is a simple hack to overcome some performance issues. You can simply replace the live object with a *plain JavaScript* one:
-```js
+```javascript
 process.env = JSON.parse(
   JSON.stringify(
     progress.env
@@ -71,7 +71,7 @@ Which of the followin scenarios do you think would perform better:
 ```sh
 $ COPY="Enki" node index.js
 ```
-```js
+```javascript
 // index.js
 
 // A

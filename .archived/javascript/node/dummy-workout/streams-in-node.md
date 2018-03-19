@@ -79,7 +79,7 @@ Complete the code so that you read from a stream with a `str` event callback:
 ## Revision
 
 Complete the code such as `myFunction()` is called at the end of a stream:
-```js
+```javascript
 readStream.???(???, myFunction() );
 
 ```

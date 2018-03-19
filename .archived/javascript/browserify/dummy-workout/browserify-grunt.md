@@ -54,7 +54,7 @@ Load and run the tasks:
 ## Revision
 
 Supposing the `grunt-browserify` is installed, what must be added to the `grunt.js` file to load the plugin?
-```js
+```javascript
 grunt.???('???')
 
 ```
