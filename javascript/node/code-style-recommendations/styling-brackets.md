@@ -175,4 +175,4 @@ answers:
   - 'undefined'
   - '{pi: 3.14}'
   - 'SyntaxError'
-  - '{\'pi\': 3.14}'
+  - "{'pi': 3.14}"
