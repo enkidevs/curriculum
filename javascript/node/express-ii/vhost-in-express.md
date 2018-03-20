@@ -30,7 +30,7 @@ $ npm install vhost
 ```
 And imported:
 ```javascript
-var vhost = require('vhost`);
+var vhost = require('vhost');
 ```
 
 The constructor has two parameters: `hostname` and `handler`. The former can be a string or a **RegExp** object. 

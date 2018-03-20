@@ -2,10 +2,9 @@
 author: catalin
 
 levels:
-
   - basic
   - medium
-  - expert
+  - advanced
 
 type: normal
 

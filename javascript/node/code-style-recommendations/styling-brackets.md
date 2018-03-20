@@ -172,7 +172,7 @@ question: |
   console.log(pi())
 
 answers:
-  - undefined
-  - {pi: 3.14}
-  - SyntaxError
-  - {'pi': 3.14}
+  - 'undefined'
+  - '{pi: 3.14}'
+  - 'SyntaxError'
+  - '{\'pi\': 3.14}'
