@@ -1,4 +1,4 @@
-# Use ```list-style-type``` to change the marker type in lists
+# Use `list-style-type` to change the marker type in lists
 author: priyankinirmal
 
 levels:

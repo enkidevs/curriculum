@@ -69,7 +69,7 @@ console.log(os.???());
 ## Revision
 
 Suppose :
-```javasript
+```javascript
 var os = require("os");
 ```
 
