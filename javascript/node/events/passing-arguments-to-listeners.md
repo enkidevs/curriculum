@@ -18,7 +18,7 @@ category: must-know
 parent: synchronous-event-delivery
 
 standards:
-  js.events-asynchronous-operations: 20
+  js.events-asynchronous-operations.2: 20
 
 tags:
   - introduction

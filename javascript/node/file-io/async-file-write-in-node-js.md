@@ -13,6 +13,13 @@ type: normal
 
 category: must-know
 
+standards:
+  js.node-standard-library-os.0: 10
+
+tags:
+  - introduction
+  - workout
+
 links:
 
   - >-
@@ -43,3 +50,32 @@ function (err) {
 Note: The file specified must support writing and the file is overwritten if it already exists.
 
 It is not recommended to use `fs.writeFile` multiple times on the same file without waiting for the callback.  Use `fs.createWriteStream` instead.
+---
+## Practice
+
+Is Node synchronous or asynchronous?
+???
+
+* asynchronous
+* synchronous
+
+---
+## Revision
+
+Complete the snippet to write  
+`'Enki Rulez'` to the file `enki.txt`  
+```
+fs.???(???,
+???,
+function (err) {
+  if (err) throw err;
+});
+```
+
+* writeFile
+* 'Enki Rulez'
+* 'enki.txt'
+* write
+* fileWrite
+* enki.txt
+* process.cwd()

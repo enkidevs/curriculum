@@ -18,7 +18,7 @@ category: must-know
 parent: listening-to-events-just-once
 
 standards:
-  js.events-asynchronous-operations: 20
+  js.events-asynchronous-operations.1: 20
 
 tags:
   - introduction

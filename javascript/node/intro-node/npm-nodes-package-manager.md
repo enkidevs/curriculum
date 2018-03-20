@@ -11,11 +11,11 @@ category: must-know
 
 parent: executing-programs-with-node
 
-standards:
-  js.npm-tasks-and-modules-manager: 10
-
 tags:
   - introduction
+
+standards:
+  js.node-developer-environment.2: 10
 
 links:
 

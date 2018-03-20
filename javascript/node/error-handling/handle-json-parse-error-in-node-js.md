@@ -12,7 +12,7 @@ type: normal
 category: caveats
 
 standards:
-  js.identify-common-design-patterns: 20
+  js.identify-common-design-patterns.3: 10
 
 tags:
   - introduction
@@ -61,7 +61,7 @@ What type of function is `JSON.parse` ?
 
 headline: What do you always have to do when parsing JSON?
 
-question: | 
+question: |
 
   //What is required when you're handling a JSON.parse error in Node?
 

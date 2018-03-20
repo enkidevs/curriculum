@@ -19,6 +19,9 @@ parent: what-is-nodejs
 tags:
   - introduction
 
+standards:
+  js.node-developer-environment.0: 10
+
 links:
 - '[nodejs.org](https://nodejs.org/en/)'
 

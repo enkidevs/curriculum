@@ -12,8 +12,7 @@ type: normal
 category: must-know
 
 standards:
-  js.identify-common-design-patterns: 20
-  js.node-standard-library-os: 20
+  js.node-standard-library-os.0: 10
 
 tags:
   - introduction
@@ -53,12 +52,9 @@ The **callback** can be defined as a function : `function (err, data)` where `da
 
 What type of methods are recommended to be used for file writing/reading so that program execution is never blocked?
 
-1) asynchronous
-2) synchronous
-3) doesn't matter
-
 ???
 
-*`1`
-*`2`
-*`3`
+* asynchronous
+* synchronous
+* executing
+* threaded

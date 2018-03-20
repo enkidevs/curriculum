@@ -14,7 +14,9 @@ type: normal
 category: feature
 
 standards:
-  js.identify-common-design-patterns: 20
+  js.identify-common-design-patterns.5: 10
+  js.use-modules.2: 10
+  js.use-open-source-javascript-packages.6: 10
 
 tags:
   - introduction

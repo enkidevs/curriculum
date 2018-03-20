@@ -14,11 +14,13 @@ type: normal
 category: must-know
 
 standards:
-  js.identify-common-design-patterns: 20
+  js.identify-common-design-patterns.5: 10
 
 tags:
   - introduction
   - workout
+
+
 
 links:
 
@@ -40,7 +42,7 @@ process.on('uncaughtException',
 ```
 An unhandled exception means an application is in an **undefined state**. It is not possible to continue the program safely and should restart.
 
-Note that `uncaughtException` is a crude  mechanism for exception handling and is therefore not recommended in production.
+Note that `uncaughtException` is a crude mechanism for exception handling and is therefore not recommended in production.
 
 ---
 ## Revision

@@ -12,7 +12,7 @@ category: must-know
 parent: the-repl-terminal
 
 standards:
-  js.node-developer-environment: 10
+  js.node-developer-environment.5: 10
 
 tags:
   - introduction

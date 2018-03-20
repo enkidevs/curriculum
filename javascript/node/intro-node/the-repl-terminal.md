@@ -12,14 +12,13 @@ category: must-know
 parent: installing-node-js
 
 standards:
-  js.node-developer-environment: 10
+  js.node-developer-environment.5: 10
 
 tags:
   - introduction
 
 links:
 - '[tutorialsteacher.com](http://www.tutorialsteacher.com/nodejs/nodejs-console-repl)'
-
 
 ---
 ## Content
@@ -42,7 +41,7 @@ $ node
 
 Variables can also be used in the terminal, if the `var` keyword is used then the value is stored but not printed, whereas if the *var* keyword isn’t used the value is both stored and printed.
 
-```
+```bash
 > x = 5
 5
 > var i = 7
@@ -54,13 +53,15 @@ undefined
 ---
 ## Practice
 
-What does the following return?
-```
+What does the following print?
+```bash
+$ node
 > 3 + 7 * 3 - 4
 ```
 ???
 
 * `20`
+* `command not found: 3`
 * `26`
 * `-10`
 

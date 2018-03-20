@@ -18,7 +18,8 @@ category: must-know
 parent: passing-arguments-to-listeners
 
 standards:
-  js.events-asynchronous-operations: 20
+  js.events-asynchronous-operations.1: 20
+  js.identify-common-design-patterns.5: 20
 
 tags:
   - introduction
@@ -34,7 +35,7 @@ All events are treated equally as all event types are defined by an arbitrary st
 
 If the event is called *error* however, the error is thrown into the event loop, then generating an uncaught exception. To stop this from breaking the application, uncaught exceptions can be caught by listening to the `uncaughtException` which the global event emitter object emits. Take `test` as a sample event emitter:
 
-```
+```javascript
 test.on(‘uncaughtException’, function(err)
 {
   console.error(‘uncaught exception: ‘,
@@ -54,6 +55,24 @@ test.on(‘uncaughtException’, function(err)
 
 ---
 ## Practice
+
+```javascript
+test.on(‘uncaughtException’, function(err)
+{
+  console.error(‘uncaught exception: ‘,
+                    err.stack || err);
+
+
+  closeApp(function(err) {
+    if (err)
+      // error closing down
+
+
+    test.exit(1);
+  });
+
+});
+```
 
 What event type is emitted by the `test` event emitter object?
 ???

@@ -18,7 +18,8 @@ category: must-know
 parent: module-patterns
 
 standards:
-  js.events-asynchronous-operations: 20
+  js.events-asynchronous-operations.0: 10
+  js.events-asynchronous-operations.1: 10
 
 tags:
   - introduction

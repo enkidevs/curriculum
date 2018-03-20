@@ -40,16 +40,6 @@ What can Node be used to create?
 * server-side applications
 * client-side applications
 
----
-## Revision
-
-Is Node synchronous or asynchronous?
-???
-
-* asynchronous
-* synchronous
-
-
 
 ---
 ## Footnotes
