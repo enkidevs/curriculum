@@ -1,4 +1,4 @@
-# The `in` operator
+---
 author: tommarshall
 
 levels:
@@ -7,15 +7,19 @@ levels:
 
 type: normal
 
+category: tip
+
 inAlgoPool: false
 
-category: tip
 
 links:
 
-  - >-
-    [Use
-    cases](http://kracekumar.com/post/22512660850/python-in-operator-use-cases){website}
+  - '[Use cases](http://kracekumar.com/post/22512660850/python-in-operator-use-cases){website}'
+
+
+---
+
+# The `in` operator
 
 ---
 ## Content
@@ -44,8 +48,10 @@ else:
 
 The `in` operator evaluates to ??? if it finds the specified variable in the ???.
 
-*true
-*sequence
-*false
-*list
-*map
+
+* true
+* sequence
+* false
+* list
+* map
+

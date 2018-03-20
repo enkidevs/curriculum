@@ -1,4 +1,4 @@
-# `if` statements
+---
 author: tommarshall
 
 levels:
@@ -7,13 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# `if` statements
 
 ---
 ## Content
-
 
 Python uses *booleans* to evaluate conditions. A boolean variable has two values, true and false, and one of these will be returned once a condition has been evaluated.
 
@@ -85,6 +91,7 @@ else:
     print ('big')
 ```
 
+
 * big
 * small
 * error
@@ -102,6 +109,8 @@ else:
     print (‘false’)
 ```
 
+
 * Invalid Syntax
 * True
 * False
+

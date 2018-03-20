@@ -1,4 +1,4 @@
-# Pytest
+---
 author: SebaRaba
 
 levels:
@@ -11,9 +11,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[Learn more about pytest](https://semaphoreci.com/community/tutorials/testing-python-applications-with-pytest)'
+  - '[Learn more about pytest](https://semaphoreci.com/community/tutorials/testing-python-applications-with-pytest){website}'
+
+
+---
+
+# Pytest
 
 ---
 ## Content
@@ -67,21 +73,12 @@ The **output** is split into two main parts. The first half contains information
 If any **test** fails, then pytest will generate the second part. This part shows the line that causes each **test case** to fail, marked by the `>` sign. Furthermore, it gives a detailed explanation of the **assertion** and finally it states what type of **error** was encountered.
 
 ---
-## Footnotes
-
-[1: CLI]
-You have to install `pytest` through Python's package manager, `pip`:
-```bash
-$ pip install --user pytest
-```
-
-
----
 ## Practice
 
 `pytest`'s main assertion function is
 
 ???
+
 * `assert`
 * `assertTrue()`
 * `assert()`
@@ -94,7 +91,16 @@ For `pytest` to collect an assertion function, its name has
 
 ???
 
+
 * to start with `test_`
 * to end in `_test`
 * to contain `assert`
 * either one of these
+
+---
+## Footnotes
+[1: CLI]
+You have to install `pytest` through Python's package manager, `pip`:
+```bash
+$ pip install --user pytest
+```

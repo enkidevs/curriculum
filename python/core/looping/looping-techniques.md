@@ -1,4 +1,4 @@
-# Looping techniques
+---
 author: catalin
 
 levels:
@@ -12,6 +12,11 @@ levels:
 type: normal
 
 category: pattern
+
+
+links:
+
+  - '[docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#looping-techniques){website}'
 
 notes: >
   Typo in title - fixed.
@@ -30,10 +35,9 @@ notes: >
   The "reversed()" function (note extra "d" at end of name) should be used
   instead of "reverse()". Fixed.
 
-links:
+---
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#looping-techniques){website}
+# Looping techniques
 
 ---
 ## Content
@@ -97,12 +101,13 @@ list_one = ['one', 'two', 'three']
 for k, v in ???(list_a, list_one):
     print(???) 
 ```
-*`zip` 
-*`k, v` 
-*`f, s` 
-*`pair` 
-*`parallel` 
-*`list_a, list_one`
+
+* `zip` 
+* `k, v` 
+* `f, s` 
+* `pair` 
+* `parallel` 
+* `list_a, list_one`
 
 ---
 ## Revision
@@ -115,9 +120,11 @@ for w in ???(sorted \
             (???(enki_list))): 
   print(w) 
 ```
-*`reversed` 
-*`set` 
-*`reverse` 
-*`orderreverse` 
-*`start` 
-*`list`
+
+* `reversed` 
+* `set` 
+* `reverse` 
+* `orderreverse` 
+* `start` 
+* `list`
+

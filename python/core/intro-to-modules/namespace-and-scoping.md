@@ -1,4 +1,4 @@
-# Namespace and scoping
+---
 author: SebaRaba
 
 levels:
@@ -9,9 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[More on namespace](https://www.programiz.com/python-programming/namespace)'
+  - '[More on namespace](https://www.programiz.com/python-programming/namespace){website}'
+
+
+---
+
+# Namespace and scoping
 
 ---
 ## Content
@@ -72,6 +78,7 @@ A local variable
 An enclosed variable
 A global variable
 ```
+
 ---
 ## Practice
 
@@ -84,6 +91,7 @@ def foo(x):
 z = foo(4)
 ```
 ???
+
 
 * Global
 * Enclosed
@@ -104,6 +112,8 @@ print(a)
 ```
 ???
 
+
 * No
 * Yes
 * It can't be determined.
+

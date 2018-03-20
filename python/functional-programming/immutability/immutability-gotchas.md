@@ -1,4 +1,4 @@
-# Immutability Gotchas!
+---
 author: stefkn
 
 levels:
@@ -13,9 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[Common Gotchas](http://docs.python-guide.org/en/latest/writing/gotchas/)'
+  - '[Common Gotchas](http://docs.python-guide.org/en/latest/writing/gotchas/){website}'
+
+
+---
+
+# Immutability Gotchas!
 
 ---
 ## Content
@@ -72,12 +78,12 @@ def add_to(object, collection=None):
 ```
 
 ---
-
 ## Practice
 
 How can we prevent a function we define with a mutable default argument from using that same default argument object each time?
 
 ???
+
 
 * Replace the default with an immutable object and check in the function body if it's still there, and if so, create the container.
 * Replace the default with an immutable container.
@@ -85,7 +91,6 @@ How can we prevent a function we define with a mutable default argument from usi
 * Use a lambda function.
 
 ---
-
 ## Revision
 
 What is the result of executing the following code?
@@ -103,6 +108,7 @@ add_to("string")
 
 ???
 
+
 * `[1], [1, 2.5], [1, 2.5, 'string']`
 * `[1], [2.5], ['string']`
 * `[1], [1], [1]`
@@ -111,19 +117,20 @@ add_to("string")
 
 ---
 ## Quiz
+### what is the last line printed?
+```
+def foo(x, k = []):
+    k.append(x)
+    print(k)
+foo(1)
+foo(2, [4, 5])
+foo(3)
+```
 
-headline: what is the last line printed?
+ ???
 
-question: |
-  def foo(x, k = []):
-      k.append(x)
-      print(k)
-  foo(1)
-  foo(2, [4, 5])
-  foo(3)
+* [1, 3]
+* [1]
+* [4, 5, 2]
+* [1, 2, 3]
 
-answers:
-  - "[1, 3]"
-  - "[1]"
-  - "[4, 5, 2]"
-  - "[1, 2, 3]"

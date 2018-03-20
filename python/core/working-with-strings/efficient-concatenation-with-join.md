@@ -1,4 +1,4 @@
-# Efficient concatenation with *join()*
+---
 author: Aaron7Sun
 
 levels:
@@ -17,7 +17,13 @@ tags:
 
   - speed-up-code
 
+
+
 notes: ''
+
+---
+
+# Efficient concatenation with *join()*
 
 ---
 ## Content
@@ -49,3 +55,4 @@ slist = [some_function(elt) \
     for elt in somelist]
 s = "".join(slist)
 ```
+

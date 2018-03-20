@@ -1,4 +1,4 @@
-# Built-in Exceptions
+---
 author: SebaRaba
 
 levels:
@@ -11,9 +11,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[more about built-in exceptions](https://docs.python.org/3/library/exceptions.html)'
+  - '[more about built-in exceptions](https://docs.python.org/3/library/exceptions.html){website}'
+
+
+---
+
+# Built-in Exceptions
 
 ---
 ## Content
@@ -35,16 +41,11 @@ The **built-in exceptions** can be subclassed to define **new** exceptions. User
 - `RuntimeError`     : raised when a generated error does not fall into any of the above categories.
 
 ---
-## Footnotes
-
-[1:AssertionError]
-An AssertionError is an error generated for something that was thought to be impossible to happen. Usually, it is thrown because of a programming error.
-
----
 ## Practice
 
 If we use an undefined variable, what type of exception will the parser rise?
 ???
+
 
 * `NameError`
 * `UnboundLocalError`
@@ -57,7 +58,13 @@ If we use an undefined variable, what type of exception will the parser rise?
 Which of the following is the exception usually thrown by a built-in input function?
 ???
 
+
 * `EOFError`
 * `TypeError`
 * `SyntaxError`
 * `AssertionError`
+
+---
+## Footnotes
+[1:AssertionError]
+An AssertionError is an error generated for something that was thought to be impossible to happen. Usually, it is thrown because of a programming error.

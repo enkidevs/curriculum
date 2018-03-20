@@ -1,4 +1,4 @@
-# Three ways to substitute a substring of a string
+---
 author: Aaron7Sun
 
 levels:
@@ -12,6 +12,13 @@ levels:
 type: normal
 
 category: tip
+
+
+
+
+---
+
+# Three ways to substitute a substring of a string
 
 ---
 ## Content
@@ -54,14 +61,15 @@ print(t
  .???(weather="sunny"))
 ```
 
-*`Template` 
-*`$` 
-*`substitute` 
-*`format` 
-*`%` 
-*`{` 
-*`dict` 
-*`mod`
+
+* `Template` 
+* `$` 
+* `substitute` 
+* `format` 
+* `%` 
+* `{` 
+* `dict` 
+* `mod`
 
 ---
 ## Revision
@@ -73,9 +81,11 @@ print(my_string
   .???(???="evening"))
 ```
 
-*`format` 
-*`time` 
-*`first` 
-*`{time}` 
-*`substitute` 
-*`sub`
+
+* `format` 
+* `time` 
+* `first` 
+* `{time}` 
+* `substitute` 
+* `sub`
+

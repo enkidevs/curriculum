@@ -1,4 +1,4 @@
-# Compare sequences with `difflib`
+---
 author: catalin
 
 levels:
@@ -13,9 +13,15 @@ type: normal
 
 category: feature
 
+
 links:
 
   - '[pymotw.com](https://pymotw.com/2/difflib/){website}'
+
+
+---
+
+# Compare sequences with `difflib`
 
 ---
 ## Content
@@ -67,15 +73,16 @@ diff = d.???(a, b)
 print(‘\n’.join(diff))
 ```
 
-*`Differ`
-*`compare`
-*`diff`
-*`join`
-*`concat`
-*`difflib`
-*`Diff`
-*`HtmlDiff`
-*`ndif`
+
+* `Differ`
+* `compare`
+* `diff`
+* `join`
+* `concat`
+* `difflib`
+* `Diff`
+* `HtmlDiff`
+* `ndif`
 
 ---
 ## Revision
@@ -84,7 +91,9 @@ What class from `difflib` with a `compare` method can be used to see differences
 
 ???
 
-*`Differ`
-*`SequenceMatcher`
-*`ndiff`
-*`HtmlDiff`
+
+* `Differ`
+* `SequenceMatcher`
+* `ndiff`
+* `HtmlDiff`
+

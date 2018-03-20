@@ -1,4 +1,4 @@
-# `stringprep` module
+---
 author: catalin
 
 levels:
@@ -9,16 +9,20 @@ levels:
 
 type: normal
 
+category: feature
+
 inAlgoPool: false
 
-category: feature
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/2/library/stringprep.html){website}
-
+  - '[docs.python.org](https://docs.python.org/2/library/stringprep.html){website}'
   - '[www.ietf.org](https://www.ietf.org/rfc/rfc3454.txt){website}'
+
+
+---
+
+# `stringprep` module
 
 ---
 ## Content
@@ -55,10 +59,12 @@ import stringrep
 ???.???(‘x’)
 ```
 
-*`stringrep` 
-*`in_table_c11` 
-*`table_c11` 
-*`table_c_1_1` 
-*`table_c1_1` 
-*`rfc` 
-*`rfc3454``
+
+* `stringrep` 
+* `in_table_c11` 
+* `table_c11` 
+* `table_c_1_1` 
+* `table_c1_1` 
+* `rfc` 
+* `rfc3454``
+

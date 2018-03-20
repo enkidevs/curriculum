@@ -1,4 +1,4 @@
-# A thread-safe `Queue`
+---
 author: catalin
 
 levels:
@@ -11,9 +11,15 @@ type: normal
 
 category: feature
 
+
 links:
 
   - '[pymotw.com](https://pymotw.com/2/Queue/){website}'
+
+
+---
+
+# A thread-safe `Queue`
 
 ---
 ## Content
@@ -68,13 +74,14 @@ l = queue.LifoQueue()
 f.queue
 l.???
 ```
-*`Queue` 
-*`queue` 
-*`LifoQueue` 
-*`lifoqueue` 
-*`lqueue` 
-*`FifoQueue` 
-*`fifoqueue`
+
+* `Queue` 
+* `queue` 
+* `LifoQueue` 
+* `lifoqueue` 
+* `lqueue` 
+* `FifoQueue` 
+* `fifoqueue`
 
 ---
 ## Revision
@@ -87,9 +94,11 @@ import queue
 fq = queue.???()
 lq = queue.???()
 ```
-*`Queue` 
-*`LifoQueue` 
-*`queue` 
-*`FifoQueue` 
-*`lifoqueue` 
-*`fifoqueue`
+
+* `Queue` 
+* `LifoQueue` 
+* `queue` 
+* `FifoQueue` 
+* `lifoqueue` 
+* `fifoqueue`
+

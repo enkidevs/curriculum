@@ -1,4 +1,4 @@
-# String Operations
+---
 author: tommarshall
 
 levels:
@@ -7,9 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# String Operations
 
 ---
 ## Content
@@ -61,6 +68,7 @@ Complete the code snippet to return the number of occurrences of the letter `p`:
 str = 'laptop'
 print(str.???('p'))
 ```
+
 * `count`
 * `occur`
 * `num`
@@ -75,6 +83,8 @@ str = 'Revision Questions'
 
 words = str.???(' ')
 ```
+
 * `split`
 * `divide`
 * `new`
+

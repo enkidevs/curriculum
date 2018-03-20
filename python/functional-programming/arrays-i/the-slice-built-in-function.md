@@ -1,4 +1,4 @@
-# The `slice` Built-in Function
+---
 author: stefkn
 
 levels:
@@ -13,9 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[Python slice()](https://www.programiz.com/python-programming/methods/built-in/slice)'
+  - '[Python slice()](https://www.programiz.com/python-programming/methods/built-in/slice){website}'
+
+
+---
+
+# The `slice` Built-in Function
 
 ---
 ## Content
@@ -85,6 +91,7 @@ sObject = ???(???)
 print(ourString[sObject])
 ```
 
+
 * slice
 * 4
 * 5
@@ -103,6 +110,7 @@ sObject = ???(???, ???, ???)
 print(nList[sObject])
 ```
 
+
 * slice
 * 1
 * 8
@@ -112,24 +120,22 @@ print(nList[sObject])
 * seq
 
 ---
-## Footnotes
+## Quiz
+### how does slicing work?
+```
+# What will be printed by the following snippet?
+a = 'enki'
+print(a[::-1])
+```
 
-[1:Negative Numbers]
-*Notice how when negative numbers are given as arguments to `slice` its behavior can be made to be analogous to the `reversed` built-in function. Depending on the context, one function may be more suitable than the other in terms of efficiency, legibility or modularity.*
+ ???
+
+* ikne
+* i
+* enki
+* TypeError: str object is not subscriptable
 
 ---
-## Quiz
-
-headline: how does slicing work?
-
-question: |
-  # What will be printed by the following snippet?
-  a = 'enki'
-  print(a[::-1])
-
-
-answers:
-  - 'ikne'
-  - 'i'
-  - 'enki'
-  - "TypeError: str object is not subscriptable"
+## Footnotes
+[1:Negative Numbers]
+*Notice how when negative numbers are given as arguments to `slice` its behavior can be made to be analogous to the `reversed` built-in function. Depending on the context, one function may be more suitable than the other in terms of efficiency, legibility or modularity.*

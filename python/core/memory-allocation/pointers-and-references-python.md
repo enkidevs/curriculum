@@ -1,4 +1,4 @@
-# Pointers and References
+---
 author: mihaiberq
 
 levels:
@@ -9,10 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-    - >-
-        [Memory management in Python](http://deeplearning.net/software/theano/tutorial/python-memory-management.html){website}
+  - '[Memory management in Python](http://deeplearning.net/software/theano/tutorial/python-memory-management.html){website}'
+
+
+---
+
+# Pointers and References
 
 ---
 ## Content
@@ -61,6 +66,7 @@ print(mem_location(c))
 # ???
 ```
 
+
 * The address is not in this list.
 * `0x55a7b928f0a0 + 0x1`
 * `0x55a7b928f0a0 + 0x11`
@@ -76,6 +82,7 @@ b = 3
 ```
 ???
 
+
 * `a` and `b` represent the same object.
 * `a` and `b` have the same value, but different memory location.
 * `a` and `b` are different objects.
@@ -83,23 +90,23 @@ b = 3
 
 ---
 ## Quiz
+### what is the result of the following identity check?
+```
+# Interactive shell
+>>> a = 256
+>>> b = 256
+>>> a is b
+???
+>>> a = 257
+>>> b = 257
+>>> a is b
+???
+```
 
-headline: what is the result of the following identity check?
+ ???
 
-question: |
-  # Interactive shell
-  >>> a = 256
-  >>> b = 256
-  >>> a is b
-  ???
-  >>> a = 257
-  >>> b = 257
-  >>> a is b
-  ???
+* True and False
+* True and True
+* False and True
+* False and False
 
-
-answers:
-  - True and False
-  - True and True
-  - False and True
-  - False and False

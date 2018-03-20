@@ -1,4 +1,4 @@
-# Complex `set` operations
+---
 author: tommarshall
 
 levels:
@@ -7,9 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# Complex `set` operations
 
 ---
 ## Content
@@ -45,7 +52,6 @@ x >= y
 # True
 ```
 
-
 ---
 ## Revision
 
@@ -57,7 +63,9 @@ x.issuperset(y)
 x.issubset(y)
 # ???
 ```
+
 * `x >= y`
 * `x <= y`
 * `x == y`
 * `y > x`
+

@@ -1,4 +1,4 @@
-# I/O Functions
+---
 author: SebaRaba
 
 levels:
@@ -11,9 +11,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[More information about I/O](https://www.tutorialspoint.com/python/python_files_io.htm)'
+  - '[More information about I/O](https://www.tutorialspoint.com/python/python_files_io.htm){website}'
+
+
+---
+
+# I/O Functions
 
 ---
 ## Content
@@ -83,24 +89,6 @@ How old are you? 21
 ```
 
 ---
-## Footnotes
-
-[1: print]
-In Python 2 we had the `print` statement, later in Python 3 that statement was replaced by the function `print()`
-```
-# Python 2
-print 'Hello'
-# Python 3
-print('Hello')
-```
-
-[2: stdout]
-Standard streams are preconnected communication channels between a computer program and its environment when it begins execution. There are 3 main connections standard input (`stdin`), standard output (`stdout`) and standard error (`stderr`).
-
-[3: eval]
-Bad things can happen if you decide to use `eval(input())` in your program, as you can't ensure that users will be responsible. For example one could enter `os.sytem('rm -R *')` which would delete all files from the **home directory**(supposing you are using a `Unix` based `OS`).
-
----
 ## Practice
 
 Suppose we want to print a list containing the first three favorite fruits of some user. Fill the gaps accordingly:
@@ -109,6 +97,7 @@ fruits = ???(input('favorite fruits:'))
 first_three = ???[0:3]
 ???(first_three)
 ```
+
 
 * `eval`
 * `fruits`
@@ -124,12 +113,12 @@ first_three = ???[0:3]
 ---
 ## Revision
 
-
 Suppose we want to add `10` to somebody's age. Fill the gaps accordingly:
 ```
 your_age = ???(input('How old are you?'))
 ???(your_age + 10)
 ```
+
 
 * `int`
 * `print`
@@ -142,3 +131,20 @@ your_age = ???(input('How old are you?'))
 * `cast()`
 * `in()`
 * `string()`
+
+---
+## Footnotes
+[1: print]
+In Python 2 we had the `print` statement, later in Python 3 that statement was replaced by the function `print()`
+```
+# Python 2
+print 'Hello'
+# Python 3
+print('Hello')
+```
+
+[2: stdout]
+Standard streams are preconnected communication channels between a computer program and its environment when it begins execution. There are 3 main connections standard input (`stdin`), standard output (`stdout`) and standard error (`stderr`).
+
+[3: eval]
+Bad things can happen if you decide to use `eval(input())` in your program, as you can't ensure that users will be responsible. For example one could enter `os.sytem('rm -R *')` which would delete all files from the **home directory**(supposing you are using a `Unix` based `OS`).

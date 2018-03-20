@@ -1,4 +1,4 @@
-# Combining multiple lists, item by item
+---
 author: Aaron7Sun
 
 levels:
@@ -12,6 +12,13 @@ levels:
 type: normal
 
 category: tip
+
+
+
+
+---
+
+# Combining multiple lists, item by item
 
 ---
 ## Content
@@ -46,6 +53,8 @@ tuple = ???(letters, values)
 tuple = [('a', 1), ('b', 2), ('c', 3)]
 ```
 
+
 * `zip`
 * `button`
 * `combine`
+

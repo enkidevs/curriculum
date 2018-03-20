@@ -1,4 +1,4 @@
-# String Formatting
+---
 author: tommarshall
 
 levels:
@@ -7,9 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# String Formatting
 
 ---
 ## Content
@@ -49,12 +56,13 @@ str = 'practice'
 print('The best way to learn is to ???'
         ??? str)
 ```
-*`%s`
-*`%`
-*`%d`
-*`%f`
-*`+`
-*`/`
+
+* `%s`
+* `%`
+* `%d`
+* `%f`
+* `+`
+* `/`
 
 ---
 ## Revision
@@ -63,6 +71,8 @@ When you want to use two or more argument specifiers, what must you use in order
 
 ???
 
-*A tuple
-*A function
-*A string
+
+* A tuple
+* A function
+* A string
+

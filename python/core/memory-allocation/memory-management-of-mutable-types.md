@@ -1,4 +1,4 @@
-# Memory Allocation and Mutable Types
+---
 author: mihaiberq
 
 levels:
@@ -8,6 +8,13 @@ levels:
 type: normal
 
 category: must-know
+
+
+
+
+---
+
+# Memory Allocation and Mutable Types
 
 ---
 ## Content
@@ -77,6 +84,7 @@ b['key'] = 'mutable'
 print(a)
 ???
 ```
+
 * `{'key': 'mutable'}`
 * `{'key': 'value'}`
 * `{'key': 'value', 'key': 'mutable'}`
@@ -93,7 +101,9 @@ b.append(5)
 print(a)
 ???
 ```
+
 * `[5]`
 * `5`
 * `[]`
 * `a`
+

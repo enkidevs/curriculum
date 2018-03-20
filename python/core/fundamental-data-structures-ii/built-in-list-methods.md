@@ -1,4 +1,4 @@
-# Built-in `list` methods
+---
 author: catalin
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/functions.html){website}
+  - '[docs.python.org](https://docs.python.org/3.5/library/functions.html){website}'
+
+
+---
+
+# Built-in `list` methods
 
 ---
 ## Content
@@ -69,9 +74,11 @@ Complete the code snippet to return a new sorted list of `ex_list`:
 ex_list.??? (???=None,\
     reverse=False)
 ```
-*`sorted` 
-*`key`
-*`order`
-*`priority`
-*`change`
-*`remove`
+
+* `sorted` 
+* `key`
+* `order`
+* `priority`
+* `change`
+* `remove`
+

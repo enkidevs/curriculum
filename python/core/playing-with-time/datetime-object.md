@@ -1,4 +1,4 @@
-# `datetime` object
+---
 author: catalin
 
 levels:
@@ -9,16 +9,20 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: feature
 
-parent: time-object
+inAlgoPool: false
+
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/datetime.html#datetime-objects){website}
+  - '[docs.python.org](https://docs.python.org/3.5/library/datetime.html#datetime-objects){website}'
+
+parent: time-object
+
+---
+
+# `datetime` object
 
 ---
 ## Content
@@ -79,7 +83,6 @@ print(today.strftime(format))
 
 ---
 ## Footnotes
-
 [1:Current datetime]
 Another way of getting the current time is via the `.now()` method. The difference between the two approaches is that `now()` can take an optional `tzinfo` (**timezone information**) argument.
 
