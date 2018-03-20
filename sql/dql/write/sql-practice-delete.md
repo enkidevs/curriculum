@@ -19,10 +19,9 @@ standards:
   sql.write.5: 1000
 
 links:
-  - '[link to official documentation](https://enki.com)'
-  - '[link to deeper dive blog post](https://enki.com)'
-  - '[link to a video](https://enki.com)'
-  - '[link to a discussion](https://enki.com)'
+  - '[mysql DELETE documentation](https://dev.mysql.com/doc/refman/5.7/en/delete.html){website}'
+  - '[mysql DELETE blog post](https://www.techonthenet.com/mysql/delete.php){website}'
+  - '[video tutorial on DELETE mysql](https://www.youtube.com/watch?v=qb7abQ6ROy4){video}'
 
 ---
 # SQL Practice Delete

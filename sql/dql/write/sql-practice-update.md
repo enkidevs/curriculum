@@ -21,10 +21,9 @@ standards:
   sql.write.3: 1000
 
 links:
-  - '[link to official documentation](https://enki.com)'
-  - '[link to deeper dive blog post](https://enki.com)'
-  - '[link to a video](https://enki.com)'
-  - '[link to a discussion](https://enki.com)'
+  - '[official documentation UPDATE mysql](https://dev.mysql.com/doc/refman/5.7/en/update.html){website}'
+  - '[blog post on UPDATE mysql](https://www.techonthenet.com/mysql/update.php){website}'
+  - '[video tutorial on UPDATE mysql](https://www.youtube.com/watch?v=_lIot7sbTSo){video}'
 
 ---
 # SQL Practice Update

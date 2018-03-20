@@ -18,10 +18,9 @@ standards:
   sql.write.0: 1000
 
 links:
-  - '[link to official documentation](https://enki.com)'
-  - '[link to deeper dive blog post](https://enki.com)'
-  - '[link to a video](https://enki.com)'
-  - '[link to a discussion](https://enki.com)'
+  - '[official documentation for INSERT mysql](https://dev.mysql.com/doc/refman/5.7/en/insert.html){website}'
+  - '[blog post on INSERT mysql](https://chartio.com/resources/tutorials/how-to-insert-if-row-does-not-exist-upsert-in-mysql/){website}'
+  - '[video tutorial on INSERT mysql](https://www.youtube.com/watch?v=qb7abQ6ROy4){video}'
 
 ---
 # SQL Practice Insert

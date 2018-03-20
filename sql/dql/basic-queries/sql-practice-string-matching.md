@@ -19,10 +19,9 @@ standards:
   sql.read-single-table.1: 1000
 
 links:
-  - '[link to official documentation](https://enki.com)'
-  - '[link to deeper dive blog post](https://enki.com)'
-  - '[link to a video](https://enki.com)'
-  - '[link to a discussion](https://enki.com)'
+  - '[mysql string matching functions](https://dev.mysql.com/doc/refman/5.7/en/string-comparison-functions.html){website}'
+  - '[blog post tutorial on SELECT](http://www.dofactory.com/sql/select){website}'
+  - '[video tutorial on mysql SELECT](https://www.youtube.com/watch?v=BgK88mlgA6I){video}'
 
 ---
 # SQL Practice String Matching

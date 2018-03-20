@@ -24,10 +24,9 @@ standards:
   sql.aggregate-single-table.3: 1000
 
 links:
-  - '[link to official documentation](https://enki.com)'
-  - '[link to deeper dive blog post](https://enki.com)'
-  - '[link to a video](https://enki.com)'
-  - '[link to a discussion](https://enki.com)'
+  - '[mysql aggregate queries documentation](https://dev.mysql.com/doc/refman/5.7/en/group-by-functions.html){website}'
+  - '[blog post on mysql aggregate functions](https://www.guru99.com/aggregate-functions.html){website}'
+  - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=sgAvl7ry5jY){video}'
 
 ---
 # SQL Practice Aggregate Group
