@@ -1,4 +1,4 @@
-# Storing JSON in PostgreSQL
+---
 author: mihaiberq
 
 levels:
@@ -12,9 +12,19 @@ type: normal
 category: must-know
 
 tags:
+
   - introduction
+
   - workout
+
   - deep
+
+
+
+
+---
+
+# Storing JSON in PostgreSQL
 
 ---
 ## Content
@@ -70,6 +80,7 @@ Querying the JSON `pokemon` field in a PostgreSQL database, select all Pokémon 
 ??? poke_json ???
 ??? ??? '{"has_evolution": ???}';
 ```
+
 * `SELECT`
 * `FROM`
 * `WHERE`
@@ -86,8 +97,10 @@ PostgreSQL's operator for JSON parsing is
 
 ???
 
+
 * `@>`
 * `->`
 * `->>`
 * `@`
 * `JSON_VALUE`
+

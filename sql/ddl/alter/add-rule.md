@@ -1,4 +1,4 @@
-# Add Rule
+---
 author: SebaRaba
 
 levels:
@@ -18,15 +18,24 @@ category: must-know
 inAlgoPool: false
 
 standards:
-  sql.define-sequences-or-default-values: 10
+
+  - sql.define-sequences-or-default-values: 10
+
+tags:
+
+  - workout
+
+  - deep
+
 
 links:
 
-  - '[More on CREATE RULE](https://www.postgresql.org/docs/9.3/static/sql-createrule.html)'
+  - '[More on CREATE RULE](https://www.postgresql.org/docs/9.3/static/sql-createrule.html){website}'
 
-tags:
-  - workout
-  - deep
+
+---
+
+# Add Rule
 
 ---
 ## Content
@@ -63,9 +72,11 @@ DO ALSO
 
 ````
 
+
 * CREATE RULE
 * SELECT TO
 * id
 * UPDATE
 * FROM
 * region_id
+

@@ -1,4 +1,4 @@
-# SUM clause
+---
 author: SebaRaba
 
 levels:
@@ -17,16 +17,23 @@ category: must-know
 
 inAlgoPool: false
 
-
 standards:
-  sql.aggregate-single-table: 10
+
+  - sql.aggregate-single-table: 10
 
 tags:
+
   - workout
+
 
 links:
 
-  - '[More on aggregate functions](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql)'
+  - '[More on aggregate functions](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql){website}'
+
+
+---
+
+# SUM clause
 
 ---
 ## Content
@@ -95,6 +102,7 @@ SELECT ???(???) FROM move_effect_change;
 (1 row)
 ```
 
+
 * SUM
 * move_effect
 * AVG
@@ -125,13 +133,13 @@ id  | cost  |    name
 
 ```
 
+
 * SELECT SUM(cost) FROM item;
 * SELECT AVG(cost) FROM item;
 * SELECT MAX(cost) FROM item;
 
 ---
 ## Footnotes
-
 [1:LIMIT]
 `LIMIT` number.
 This clause enables users to `SELECT` the first given number of entries

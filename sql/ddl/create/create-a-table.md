@@ -1,4 +1,4 @@
-# Create a table
+---
 author: SebaRaba
 
 levels:
@@ -16,15 +16,24 @@ category: must-know
 inAlgoPool: false
 
 standards:
-  sql.define-tables: 10
+
+  - sql.define-tables: 10
+
+tags:
+
+  - introduction
+
+  - workout
+
 
 links:
 
-  - '[More on creatin a table](https://www.tutorialspoint.com/sql/sql-create-table.htm)'
+  - '[More on creatin a table](https://www.tutorialspoint.com/sql/sql-create-table.htm){website}'
 
-tags:
-  - introduction
-  - workout
+
+---
+
+# Create a table
 
 ---
 ## Content
@@ -42,7 +51,6 @@ First we need to tell the database that we want to create a new table. After thi
 
 You can verify if a table was succesfully created using `\d first_table;` when working with Postgres or `describe first_table` when working with MySQL.
 
-
 ---
 ## Practice
 
@@ -59,6 +67,7 @@ Create a table that:
   PRIMARY KEY(???)
 );
 ```
+
 
 * CREATE
 * NOT NULL
@@ -78,12 +87,12 @@ Which of the following queries would create a table that:
 
 ???
 
+
 * CREATE TABLE employees ( ID char(50), full_name char(50), salary int, PRIMARY KEY(ID));
 * UPDATE TABLE employees ( ID char(50), full_name char(50), salary int, PRIMARY KEY(ID));
 * CREATE TABLE employees ( ID char(50), full_name char(50), salary int, PRIMARY KEY(full_name));
 
 ---
 ## Footnotes
-
 [1:PRIMARY KEY]
 A primary key is a field in a table that identifies each row in a db.

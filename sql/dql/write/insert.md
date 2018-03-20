@@ -1,9 +1,12 @@
-# INSERT
+---
 author: mihaiberq
 
 levels:
+
   - beginner
+
   - basic
+
   - medium
 
 type: normal
@@ -12,14 +15,23 @@ category: must-know
 
 inAlgoPool: false
 
-parent: union
-
 standards:
-  sql.write: 10
+
+  - sql.write: 10
 
 tags:
+
   - introduction
+
   - workout
+
+
+
+parent: union
+
+---
+
+# INSERT
 
 ---
 ## Content
@@ -68,7 +80,6 @@ WHERE item.cost <= 0;
 ```
 Any variant of the specific column insertion is applicable to the last query as well.
 
-
 ---
 ## Practice
 
@@ -83,13 +94,13 @@ RIGHT JOIN pokemon ???
 pokemon.id = pokemon_type.pokemon_id
 ??? type.id = 11) AS water;
 ```
+
 * `INSERT`
 * `INTO`
 * `SELECT`
 * `pokemon_type.type_id`
 * `ON`
 * `WHERE`
-
 
 ---
 ## Revision
@@ -112,6 +123,8 @@ VALUES (value1, 'value2', value3);
 
 ```
 ???
+
 * `B`
 * `A`
 * `C`
+

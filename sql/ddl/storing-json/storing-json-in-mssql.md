@@ -1,4 +1,4 @@
-# Storing JSON in SQL Server
+---
 author: mihaiberq
 
 levels:
@@ -12,9 +12,19 @@ type: normal
 category: must-know
 
 tags:
+
   - introduction
+
   - workout
+
   - deep
+
+
+
+
+---
+
+# Storing JSON in SQL Server
 
 ---
 ## Content
@@ -67,6 +77,7 @@ Querying the JSON `pokemon` field in a SQL Server database, select all Pokémon 
 ??? poke_json ???
 ???(???, ???) = ???;
 ```
+
 * `SELECT`
 * `FROM`
 * `WHERE`
@@ -82,7 +93,9 @@ Microsoft SQL's command that parses JSON fields is
 
 ???
 
+
 * `JSON_VALUE(column,field)`
 * `PARSE_JSON(column,field)`
 * `(column)@>(field)`
 * `(column)->(field)`
+

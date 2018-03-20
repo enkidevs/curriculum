@@ -1,4 +1,4 @@
-# Encoding and Collation
+---
 author: mihaiberq
 
 levels:
@@ -12,8 +12,17 @@ type: normal
 category: must-know
 
 tags:
+
   - introduction
+
   - workout
+
+
+
+
+---
+
+# Encoding and Collation
 
 ---
 ## Content
@@ -50,6 +59,7 @@ As of now, the most recommended character encoding is
 
 ???
 
+
 * UTF-8
 * UTF-16
 * UTF-32
@@ -68,5 +78,7 @@ A function that maps bits to characters.
 ???
 ```
 
+
 * collation
 * encoding
+

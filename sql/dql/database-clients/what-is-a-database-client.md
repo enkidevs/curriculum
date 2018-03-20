@@ -1,4 +1,4 @@
-# What is a database client?
+---
 author: Nick Daminov
 
 levels:
@@ -13,20 +13,25 @@ category: must-know
 
 inAlgoPool: false
 
-parent: connection-strings
-
-
 standards:
-  sql.connect-client: 5
+
+  - sql.connect-client: 5
 
 tags:
+
   - introduction
 
 
 links:
 
-  - '[Top 10 free Database Management Tools](https://techtalk.gfi.com/top-10-free-database-tools-for-sys-admins/)'
-  - '[Comparison of those tools](https://en.wikipedia.org/wiki/Comparison_of_database_tools)'
+  - '[Top 10 free Database Management Tools](https://techtalk.gfi.com/top-10-free-database-tools-for-sys-admins/){website}'
+  - '[Comparison of those tools](https://en.wikipedia.org/wiki/Comparison_of_database_tools){website}'
+
+parent: connection-strings
+
+---
+
+# What is a database client?
 
 ---
 ## Content
@@ -50,6 +55,7 @@ The software through which information in a database is queried is called
 
 ???
 
+
 * Database Client
 * Database Server
 * Server Manager
@@ -62,6 +68,8 @@ What is a Database Client?
 
 ???
 
+
 * The software that queries information from the database server
 * An optional program that a user can install on top of the Database Server
 * The software through which memory is allocated on the server
+

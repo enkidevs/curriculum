@@ -1,4 +1,4 @@
-# Add Constraint
+---
 author: SebaRaba
 
 levels:
@@ -18,15 +18,24 @@ category: must-know
 inAlgoPool: false
 
 standards:
-  sql.define-sequences-or-default-values: 10
+
+  - sql.define-sequences-or-default-values: 10
+
+tags:
+
+  - workout
+
+  - deep
+
 
 links:
 
-  - '[More on ADD CONSTRAINT](https://www.tutorialspoint.com/sql/sql-alter-command.htm)'
+  - '[More on ADD CONSTRAINT](https://www.tutorialspoint.com/sql/sql-alter-command.htm){website}'
 
-tags:
-  - workout
-  - deep
+
+---
+
+# Add Constraint
 
 ---
 ## Content
@@ -72,6 +81,7 @@ ADD ??? PK-constraints
 ??? (region_id,name)
 ```
 
+
 * generation
 * CONSTRAINT
 * PRIMARY KEY
@@ -106,6 +116,8 @@ id | version_group_id |      name
 ```
 
 
+
 * ALTER TABLE gender ADD CONSTRAINT check_constraint CHECK (version_group_id <= 10);
 * ALTER TABLE generation ADD PRIMARY KEY (id);
 * ALTER TABLE gender ADD CONSTRAINT check_constraint UNIQUE (version_group_id <= 10);
+

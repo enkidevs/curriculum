@@ -1,4 +1,4 @@
-# SELECT
+---
 author: lizTheDeveloper
 
 levels:
@@ -11,20 +11,29 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
-tags:
-  - introduction
-  - workout
+inAlgoPool: false
 
 standards:
-  sql.read-single-table: 10
+
+  - sql.read-single-table: 10
+
+tags:
+
+  - introduction
+
+  - workout
+
 
 links:
 
-  - '[SQL Tutorial: SELECT](http://www.sql-tutorial.com/sql-select-sql-tutorial/)'
+  - '[SQL Tutorial: SELECT](http://www.sql-tutorial.com/sql-select-sql-tutorial/){website}'
+
+
+---
+
+# SELECT
 
 ---
 ## Content
@@ -49,10 +58,12 @@ The above command gets only the `id`, `weight`, and `name` columns from the tabl
 
 ---
 ## Practice
+
 Get all of the columns and rows from the `pokemon_form` table.
 
 ??? ???
 ??? ???;
+
 
 * `SELECT`
 * `*`
@@ -72,6 +83,7 @@ Get all of the rows and the `id`, `weight`, `name` columns from the `pokemon` ta
 ??? ??? ??? ???
 ??? ???;
 
+
 * `SELECT`
 * `id, `
 * `weight, `
@@ -86,26 +98,27 @@ Get all of the rows and the `id`, `weight`, `name` columns from the `pokemon` ta
 
 ---
 ## Quiz
+### What statement gets columns and rows from tables?
+```
 
-headline: What statement gets columns and rows from tables?
+Given a table called `ability` from our pokemon database:
 
-question: |
-
-  Given a table called `ability` from our pokemon database:
-
-  id   | is_main_series | generation_id |      name      
-  =====|================|===============|===============
-     1 | t              |             3 | stench
-     2 | f              |             3 | drizzle
-     3 | t              |             3 | speed-boost
-     4 | t              |             3 | battle-armor
-  (...)
+id   | is_main_series | generation_id |      name      
+=====|================|===============|===============
+   1 | t              |             3 | stench
+   2 | f              |             3 | drizzle
+   3 | t              |             3 | speed-boost
+   4 | t              |             3 | battle-armor
+(...)
 
 
-  Choose the query that will get all the entries from this table:
+Choose the query that will get all the entries from this table:
+```
 
-answers:
-  - SELECT * FROM ability;
-  - DISPLAY [all] FROM ability;
-  - SELECT [all] FROM ability;
-  - FIND * FROM ability;
+ ???
+
+* SELECT * FROM ability;
+* DISPLAY [all] FROM ability;
+* SELECT [all] FROM ability;
+* FIND * FROM ability;
+

@@ -1,4 +1,4 @@
-# GUI Client
+---
 author: Nick Daminov
 
 levels:
@@ -13,20 +13,27 @@ category: feature
 
 inAlgoPool: false
 
-
 standards:
-  sql.connect-client: 10
+
+  - sql.connect-client: 10
 
 tags:
+
   - introduction
+
   - workout
 
 
 links:
 
-  - '[Top 10 GUI Database Tools](https://techtalk.gfi.com/top-10-free-database-tools-for-sys-admins/)'
-  - '[pgAdmin Download](https://www.pgadmin.org/download/)'
-  - '[Installing .dmg package](https://apple.stackexchange.com/questions/64845/how-do-i-install-applications-from-a-dmg-file)'
+  - '[Top 10 GUI Database Tools](https://techtalk.gfi.com/top-10-free-database-tools-for-sys-admins/){website}'
+  - '[pgAdmin Download](https://www.pgadmin.org/download/){website}'
+  - '[Installing .dmg package](https://apple.stackexchange.com/questions/64845/how-do-i-install-applications-from-a-dmg-file){website}'
+
+
+---
+
+# GUI Client
 
 ---
 ## Content
@@ -56,6 +63,7 @@ Suppose we have the following connection string:
 
 What is the name of a database???
 What is user name???
+
 * pokemon
 * ashketchum
 
@@ -69,5 +77,7 @@ What is the name of a database?
 ???
 What is user name?
 ???
+
 * pokemon
 * ashketchum
+

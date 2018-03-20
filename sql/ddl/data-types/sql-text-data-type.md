@@ -1,4 +1,4 @@
-# SQL Text Data Types
+---
 author: mihaiberq
 
 levels:
@@ -12,8 +12,17 @@ type: normal
 category: must-know
 
 tags:
+
   - introduction
+
   - workout
+
+
+
+
+---
+
+# SQL Text Data Types
 
 ---
 ## Content
@@ -46,6 +55,7 @@ Which of the following databases accepts the `medium` and `long` modifiers for t
 
 ???
 
+
 * MySQL
 * Microsoft SQL
 * PostgreSQL
@@ -58,7 +68,9 @@ Which of the following vendors discontinued the support for the `text` data type
 
 ???
 
+
 * Microsoft SQL
 * PostgreSQL
 * MySQL
 * All
+

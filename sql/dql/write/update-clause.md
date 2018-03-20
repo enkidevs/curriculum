@@ -1,4 +1,4 @@
-# Update clause
+---
 author: SebaRaba
 
 levels:
@@ -15,18 +15,25 @@ category: must-know
 
 inAlgoPool: false
 
-
 standards:
-  sql.write: 10
+
+  - sql.write: 10
 
 tags:
+
   - introduction
+
   - workout
 
 
 links:
 
-  - '[More on UPDATE](http://www.dofactory.com/sql/update)'
+  - '[More on UPDATE](http://www.dofactory.com/sql/update){website}'
+
+
+---
+
+# Update clause
 
 ---
 ## Content
@@ -128,6 +135,7 @@ WHERE id=???;
 ```
 We would like to update the table contents such that the last generation is generation "vi" instead of "vii".
 
+
 * UPDATE
 * name
 * 6
@@ -157,9 +165,11 @@ id |    name
 ```
 We want to update the table such that all genders will be neutral.
 
+
 * UPDATE
 * SET
 * neutral
 * WHERE
 * DELETE
 * CHANGE
+

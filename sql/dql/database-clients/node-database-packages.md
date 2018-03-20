@@ -1,4 +1,4 @@
-# Node Database Packages
+---
 author: Nick Daminov
 
 levels:
@@ -13,24 +13,35 @@ category: feature
 
 inAlgoPool: false
 
-
 standards:
-  sql.connect-client: 10
+
+  - sql.connect-client: 10
 
 tags:
+
   - introduction
+
   - workout
+
   - node
+
   - javascript
+
   - implementation
+
   - database packages
 
 
 links:
 
-  - '[Node database packages](https://www.npmjs.com/browse/keyword/database)'
-  - '[pg node package](https://www.npmjs.com/package/pg)'
-  - '[pg video tutorial](https://www.youtube.com/watch?v=hzixG7gFTxY)'
+  - '[Node database packages](https://www.npmjs.com/browse/keyword/database){website}'
+  - '[pg node package](https://www.npmjs.com/package/pg){website}'
+  - '[pg video tutorial](https://www.youtube.com/watch?v=hzixG7gFTxY){website}'
+
+
+---
+
+# Node Database Packages
 
 ---
 ## Content
@@ -94,6 +105,7 @@ Considering `var conString ="pg://ashketchum:iwannabetheverybest@aws-us-east-1-p
 ???://???:???
 @???:???/???
 
+
 * pg
 * username
 * password
@@ -107,6 +119,8 @@ Considering `var conString ="pg://ashketchum:iwannabetheverybest@aws-us-east-1-p
 What package is used in order to connect to a Postgres database in nodeJS?
 ???
 
+
 * pg
 * mongoose
 * sqlite3
+

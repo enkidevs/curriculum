@@ -1,4 +1,4 @@
-# SQL String Data Types
+---
 author: mihaiberq
 
 levels:
@@ -12,8 +12,17 @@ type: normal
 category: must-know
 
 tags:
+
   - introduction
+
   - workout
+
+
+
+
+---
+
+# SQL String Data Types
 
 ---
 ## Content
@@ -52,6 +61,7 @@ CREATE ??? language(
   iso_code ???
 );
 ```
+
 * `TABLE`
 * `varchar(70)`
 * `char(2)`
@@ -65,7 +75,9 @@ Which of the following string data types are padded to match its maximum size?
 
 ???
 
+
 * `char(size)`
 * `varchar(size)`
 * `text(size)`
 * `text`
+
