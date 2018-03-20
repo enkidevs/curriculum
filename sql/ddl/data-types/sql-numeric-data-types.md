@@ -87,7 +87,7 @@ https://hackernoon.com/the-night-the-postgresql-ids-ran-out-9430a2dbb895
 ## Practice
 
 Create a table PostgreSQL table with a serial ID column PK that is `bigint`:
-```SQL
+```sql
 ??? ??? gen_100_pokemon(
   id ???,
   name text,

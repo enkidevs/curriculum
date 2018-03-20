@@ -47,7 +47,7 @@ In order to see every file and every process you have to have `root` permission,
 
 If you know the name of a process and want to see which files it has open, you can use the `-p` option, like so:
 
-```console
+```shell
 $ sudo lsof -p 3164
 COMMAND  PID  ...  NAME
 mysqld  3164  ... /var/lib/mysql
@@ -60,7 +60,7 @@ We've truncated the output here for illustration purposes.
 
 If you know the name of a specific file and want to know which processes have it open, you can pass in the name of the file directly, like so:
 
-```console
+```shell
 $ sudo lsof /var/log/syslog
 ```
 

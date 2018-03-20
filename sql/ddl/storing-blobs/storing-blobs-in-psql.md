@@ -24,7 +24,7 @@ PostgreSQL's native *BLOB* type is `bytea` (1GB per entry). It came two support 
 - `Hex Format`: the newer format (PSQL 9+), which encodes binary data as two hexadecimal digits per byte.
 
 There's no choice between the two when defining the column, only when data is inserted:
-```SQL
+```sql
 CREATE TABLE sprite(
   id bigserial PRIMARY KEY,
   pokemon bytea
@@ -40,7 +40,7 @@ Here, the decode function gets a hex string and decodes it into `bytea`.
 ## Practice
 
 In a PostgreSQL database, insert a hex string into a `bytea` field:
-```SQL
+```sql
 ??? INTO sprite
 ???(???('\xBYTESOFPIKACHUSPRITE',
   ???));
@@ -57,7 +57,7 @@ In a PostgreSQL database, insert a hex string into a `bytea` field:
 ## Revision
 
 In a PostgreSQL database, insert a hex string into a `bytea` field:
-```SQL
+```sql
 ??? INTO sprite
 ???(???('\xBYTESOFPIKACHUSPRITE',
   ???));

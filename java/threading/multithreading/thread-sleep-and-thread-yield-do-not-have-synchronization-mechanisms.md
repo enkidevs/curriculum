@@ -37,7 +37,7 @@ Taking all into consideration, the compiler will only read the field `this.done`
 The loop will continue endlessly, even though we assume that the value of `this.done` is changed by another running thread.
 
 You can avoid this scenario by using the `volatile` keyword:
-```java 
+```java
 volatile boolean done;
 ```
 This will prevent the caching of the variable, allowing different threads seeing an updated value. However, keep in mind that `volatile` will not guarantee atomicity.

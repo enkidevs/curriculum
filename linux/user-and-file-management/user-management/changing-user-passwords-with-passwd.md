@@ -24,7 +24,7 @@ To change your own password, simply run `passwd` without any additional argument
 
 To change another user's password, supply a username to the `passwd` command.  You *do* need `root` permission to change another user's password, so it's necessary to use `sudo`, like so:
 
-```console
+```shell
 $ sudo passwd jesse
 ```
 

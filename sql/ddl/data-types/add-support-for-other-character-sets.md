@@ -21,7 +21,7 @@ tags:
 While vendors' default character encoding might not be `UTF-8`, there are some ways in which it can be set.
 
 PostgreSQL accepts database-wide encoding which translates to `UTF8` encoding for all tables:
-```SQL
+```sql
 CREATE DATABASE application
 WITH ENCODING 'UTF8'
 LC_COLLATE='en_US.UTF-8'
@@ -29,7 +29,7 @@ LC_CTYPE='en_US.UTF-8';
 ```
 
 MySQL's `utf8` encoding maps to a subset of the `UTF-8` characters (characters that can be stored in maximum 3 bytes). To include support for the missing characters, use `utf8mb`:
-```SQL
+```sql
 CREATE DATABASE application
 CHARACTER SET utf8mb4
 COLLATE utf8mb4_bin;
