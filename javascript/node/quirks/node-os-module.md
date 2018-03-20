@@ -1,4 +1,4 @@
-# **Node** `os` module
+---
 author: catalin
 
 levels:
@@ -11,9 +11,15 @@ type: normal
 
 category: how to
 
+
 links:
 
   - '[nodejs.org](https://nodejs.org/api/os.html){website}'
+
+
+---
+
+# **Node** `os` module
 
 ---
 ## Content
@@ -60,10 +66,11 @@ Get the total system memory in bytes:
 var os = require(“os”);
 console.log(os.???());
 ```
-*`totalmem`
-*`memory`
-*`bytesmemory`
-*`memorytotal`
+
+* `totalmem`
+* `memory`
+* `bytesmemory`
+* `memorytotal`
 
 ---
 ## Revision
@@ -77,10 +84,12 @@ Log the CPU's architecture:
 ```javascript
 console.log(???.???());
 ```
-*`os`
-*`arch`
-*`platform`
-*`type`
-*`networkInterfaces`
-*`CPU`
-*`cpu`
+
+* `os`
+* `arch`
+* `platform`
+* `type`
+* `networkInterfaces`
+* `CPU`
+* `cpu`
+

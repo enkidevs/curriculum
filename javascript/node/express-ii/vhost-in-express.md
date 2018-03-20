@@ -1,4 +1,4 @@
-# `vhost` in **Express**
+---
 author: catalin
 
 levels:
@@ -13,11 +13,16 @@ type: normal
 
 category: how to
 
-parent: easy-way-to-deliver-html-pages-with-express
 
 links:
 
   - '[github.com](https://github.com/expressjs/vhost){website}'
+
+parent: easy-way-to-deliver-html-pages-with-express
+
+---
+
+# `vhost` in **Express**
 
 ---
 ## Content
@@ -48,6 +53,7 @@ app.use(vhost('ex.example.com', exApp));
 
 Once the host is matched and the request sent to the handler, the `req.vhost` property will be populated with... ???
 
+
 * an object with numeric properties corresponding to every wildcard and hostname.
 * an object for each wildcard and hostname.
 * an object per set of wildcards and hostnames.
@@ -61,9 +67,11 @@ What parameters does the `vhost` parameter need ?
 vhost(???, ???);
 ```
 
+
 * `hostname`
 * `handler`
 * `app`
 * `require`
 * `connect`
 * `req.vhost`
+

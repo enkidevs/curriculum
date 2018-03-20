@@ -1,4 +1,4 @@
-# Multi-line string variables
+---
 author: jordanfish
 
 levels:
@@ -14,19 +14,30 @@ type: normal
 category: how to
 
 standards:
-  js.evaluate-expressions.3: 10
-  js.write-expressions.1: 10
+
+  - js.evaluate-expressions.3: 10
+
+  - js.write-expressions.1: 10
 
 tags:
+
   - strings
+
   - html
+
   - introduction
+
   - workout
+
 
 links:
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/805107/creating-multiline-strings-in-javascript/6247331#6247331){website}
+  - '[stackoverflow.com](http://stackoverflow.com/questions/805107/creating-multiline-strings-in-javascript/6247331#6247331){website}'
+
+
+---
+
+# Multi-line string variables
 
 ---
 ## Content
@@ -62,6 +73,7 @@ string in ES6!`;
 
 What standard is used in ES2015 for multi line string variables? ???
 
+
 * Backticks
 * Single quotes
 * Double quotes
@@ -72,6 +84,8 @@ What standard is used in ES2015 for multi line string variables? ???
 
 The new standard for multi-lined string is using ??? .
 
-*backticks
-*single quotes
-*double quote
+
+* backticks
+* single quotes
+* double quote
+

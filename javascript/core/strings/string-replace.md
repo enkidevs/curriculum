@@ -1,4 +1,4 @@
-# `String.replace`
+---
 author: jordanfish
 
 levels:
@@ -14,19 +14,30 @@ type: normal
 category: caveats
 
 standards:
-  js.evaluate-expressions.3: 10
-  js.write-expressions.1: 10
+
+  - js.evaluate-expressions.3: 10
+
+  - js.write-expressions.1: 10
 
 tags:
+
   - strings
+
   - html
+
   - introduction
+
   - workout
+
 
 links:
 
-  - >-
-    [www.standardista.com](http://www.standardista.com/javascript/15-common-javascript-gotchas/){website}
+  - '[www.standardista.com](http://www.standardista.com/javascript/15-common-javascript-gotchas/){website}'
+
+
+---
+
+# `String.replace`
 
 ---
 ## Content
@@ -53,16 +64,19 @@ var s = 'x+y+z=w';
 s=s.replace(???,'%2B');
 console.log(s); // x%2By%2Bz=w
 ```
-*`/\+/g`
-*`\\+/g`
-*`\+/g`
-*`/\+/`
+
+* `/\+/g`
+* `\\+/g`
+* `\+/g`
+* `/\+/`
 
 ---
 ## Revision
 
 ??? is used to replace one or more occurrences of a substring with another string.
 
-*String.replace()
-*String.change()
-*String.delete()
+
+* String.replace()
+* String.change()
+* String.delete()
+

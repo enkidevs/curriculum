@@ -1,4 +1,4 @@
-# Data type comparison in `switch` statements
+---
 author: jordanfish
 
 levels:
@@ -10,16 +10,26 @@ type: normal
 category: caveats
 
 standards:
-  js.control-flow.2: 10
-  js.data-types-structures.5: 10
+
+  - js.control-flow.2: 10
+
+  - js.data-types-structures.5: 10
 
 tags:
+
   - introduction
+
   - workout
+
 
 links:
 
-  - "[www.standardista.com](http://www.standardista.com/javascript/15-common-javascript-gotchas){website}"
+  - '[www.standardista.com](http://www.standardista.com/javascript/15-common-javascript-gotchas){website}'
+
+
+---
+
+# Data type comparison in `switch` statements
 
 ---
 ## Content
@@ -66,6 +76,7 @@ switch (???) {
 // A
 ```
 
+
 * `x`
 * `case`
 * `1`
@@ -89,6 +100,8 @@ switch(x){
 }
 // ???
 ```
+
 * `nothing`
 * `'Hi!'`
 * `an error`
+

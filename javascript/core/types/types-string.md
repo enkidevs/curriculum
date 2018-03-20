@@ -1,4 +1,4 @@
-# Types - String
+---
 author: alexjmackey
 
 levels:
@@ -7,17 +7,28 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 standards:
-  js.evaluate-expressions.10: 10
-  js.evaluate-expressions.2: 10
+
+  - js.evaluate-expressions.10: 10
+
+  - js.evaluate-expressions.2: 10
 
 tags:
+
   - introduction
+
   - workout
+
+
+
+
+---
+
+# Types - String
 
 ---
 ## Content
@@ -64,12 +75,13 @@ var myString = 'this will ???
        be displayed on two lines';
 ```
 
-*`\n`
-*`+`
-*`"`
-*`\`
-*`\r`
-*`\t`
+
+* `\n`
+* `+`
+* `"`
+* `\`
+* `\r`
+* `\t`
 
 ---
 ## Revision
@@ -82,7 +94,9 @@ var company = 'Enki';
 
 ???
 
-*both
-*first
-*second
-*none
+
+* both
+* first
+* second
+* none
+

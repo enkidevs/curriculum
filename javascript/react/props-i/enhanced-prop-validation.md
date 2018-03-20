@@ -1,4 +1,4 @@
-# Enhanced `props` Validation
+---
 author: catalin
 
 levels:
@@ -15,7 +15,13 @@ type: normal
 
 category: how to
 
+
+
 parent: default-values-for-props
+
+---
+
+# Enhanced `props` Validation
 
 ---
 ## Content
@@ -73,6 +79,7 @@ Test.propTypes = {
               .???(???),
 };
 ```
+
 * `PropTypes`
 * `instanceOf`
 * `Enki`
@@ -96,6 +103,7 @@ Test.propTypes = {
               .???(???),
 };
 ```
+
 * `PropTypes`
 * `instanceOf`
 * `Enki`
@@ -104,3 +112,4 @@ Test.propTypes = {
 * `PropType`
 * `propType`
 * `oneOf`
+

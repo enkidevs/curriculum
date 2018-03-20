@@ -1,4 +1,4 @@
-# Drag and Drop API
+---
 author: tommarshall
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [www.tutorialspoint.com](http://www.tutorialspoint.com/html5/html5_drag_drop.htm){website}
+  - '[www.tutorialspoint.com](http://www.tutorialspoint.com/html5/html5_drag_drop.htm){website}'
+
+
+---
+
+# Drag and Drop API
 
 ---
 ## Content
@@ -50,6 +55,7 @@ This is draggable
 </div>
 ```
 
+
 * `draggable`
 * `ondragstart`
 * `dragstart`
@@ -65,8 +71,10 @@ What global event handler must be added to an element so that it can be dragged 
 
 ???
 
-*`ondragstart`
-*`draggable`
-*`dragstart_handler`
-*`dataTransfer`
-*`dragAndDrop`
+
+* `ondragstart`
+* `draggable`
+* `dragstart_handler`
+* `dataTransfer`
+* `dragAndDrop`
+

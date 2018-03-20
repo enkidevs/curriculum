@@ -1,4 +1,4 @@
-# Exceptions
+---
 author: alexjmackey
 
 levels:
@@ -7,23 +7,33 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 standards:
-  js.control-flow.6: 10
-  js.exceptions.2: 10
-  js.exceptions.3: 10
+
+  - js.control-flow.6: 10
+
+  - js.exceptions.2: 10
+
+  - js.exceptions.3: 10
 
 tags:
+
   - introduction
+
   - workout
+
 
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling){website}'
+
+
+---
+
+# Exceptions
 
 ---
 ## Content
@@ -95,14 +105,15 @@ Complete the following block in the code snippet such that the comments make sen
 }
 ```
 
-*`try`
-*`catch`
-*`finally`
-*`final`
-*`do`
-*`while`
-*`new`
-*`for`
+
+* `try`
+* `catch`
+* `finally`
+* `final`
+* `do`
+* `while`
+* `new`
+* `for`
 
 ---
 ## Revision
@@ -112,8 +123,10 @@ Complete the missing keyword for throwing an exception:
 ??? "my exception"
 ```
 
-*`throw`
-*`raise`
-*`catch`
-*`try`
-*`finally`
+
+* `throw`
+* `raise`
+* `catch`
+* `try`
+* `finally`
+

@@ -1,4 +1,4 @@
-# Blobs
+---
 author: tommarshall
 
 levels:
@@ -13,9 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
   - '[www.javascripture.com](http://www.javascripture.com/Blob){website}'
+
+
+---
+
+# Blobs
 
 ---
 ## Content
@@ -50,6 +56,7 @@ var blob = new ???([
     {type : 'application/json'});
 ```
 
+
 * `Blob`
 * `stringify`
 * `Instance`
@@ -67,8 +74,10 @@ var blob = instanceOfBlob.???([
  start, [, end [, contentType]]
 ]);
 ```
-*`slice`
-*`subset`
-*`splice`
-*`concat`
-*`stringify`
+
+* `slice`
+* `subset`
+* `splice`
+* `concat`
+* `stringify`
+

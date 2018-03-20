@@ -1,4 +1,4 @@
-# Hoisting
+---
 author: AlexYancey
 
 levels:
@@ -14,18 +14,28 @@ type: normal
 category: feature
 
 standards:
-  js.functions: 10
-  js.execution-context: 10
+
+  - js.functions: 10
+
+  - js.execution-context: 10
 
 tags:
+
   - introduction
+
   - workout
+
+
 
 notes: ''
 
 ---
+
+# Hoisting
+
+---
 ## Content
- 
+
 Think fast, what does this snippet print?
 
     var a = 1;
@@ -77,11 +87,12 @@ function calc() {
 calc();
 ```
 
-*`run: undefined, calc: 1` 
-*`run: 1, calc: 1` 
-*`run: 4, calc: 1` 
-*`run: 4, calc: 4` 
-*`run: undefined, calc: undefined`
+
+* `run: undefined, calc: 1` 
+* `run: 1, calc: 1` 
+* `run: 4, calc: 1` 
+* `run: 4, calc: 4` 
+* `run: undefined, calc: undefined`
 
 ---
 ## Revision
@@ -96,6 +107,8 @@ function go(){
 go(); 
 // ???
 ```
-*`undefined`
-*`1`
-*`2`
+
+* `undefined`
+* `1`
+* `2`
+

@@ -1,4 +1,4 @@
-# Quick way to format integers with a fixed number of digits.
+---
 author: Bruno
 
 levels:
@@ -10,19 +10,32 @@ type: normal
 category: tip
 
 standards:
-  js.write-expressions.0: 10
-  js.evaluate-expressions.3: 10
-  js.standard-library.1: 10
-  js.data-types-structures.3: 10
+
+  - js.write-expressions.0: 10
+
+  - js.evaluate-expressions.3: 10
+
+  - js.standard-library.1: 10
+
+  - js.data-types-structures.3: 10
 
 tags:
+
   - introduction
+
   - workout
+
   - slice
+
 
 links:
 
   - '[stackoverflow](http://stackoverflow.com/questions/8043026){discussion}'
+
+
+---
+
+# Quick way to format integers with a fixed number of digits.
 
 ---
 ## Content
@@ -56,10 +69,11 @@ Outputs ??? , while
 
 outputs ??? .
 
-*412
-*throws an error
-*10000
-*004
+
+* 412
+* throws an error
+* 10000
+* 004
 
 ---
 ## Revision
@@ -68,6 +82,8 @@ outputs ??? .
 
  outputs ???
 
-*123
-*0123
-*0001
+
+* 123
+* 0123
+* 0001
+

@@ -1,4 +1,4 @@
-# Format currency in JavaScript
+---
 author: pawel
 
 levels:
@@ -14,19 +14,30 @@ type: normal
 category: how to
 
 standards:
-  js.write-expressions.0: 10
-  js.evaluate-expressions.3: 10
-  js.standard-library.1: 10
+
+  - js.write-expressions.0: 10
+
+  - js.evaluate-expressions.3: 10
+
+  - js.standard-library.1: 10
 
 tags:
+
   - introduction
+
   - deep
+
   - currency-formatting
+
 
 links:
 
-  - >-
-    [css-tricks.com](https://css-tricks.com/snippets/javascript/format-currency/){website}
+  - '[css-tricks.com](https://css-tricks.com/snippets/javascript/format-currency/){website}'
+
+
+---
+
+# Format currency in JavaScript
 
 ---
 ## Content
@@ -55,6 +66,7 @@ console.log(
          currency('10.93719'));
 ```
 
+
 * 10.937
 * 10.9372
 * 10.938
@@ -74,6 +86,8 @@ console.log(currency('1234.567'));
 
 ???
 ```
-*1234.57
-*1234.56
-*12
+
+* 1234.57
+* 1234.56
+* 12
+

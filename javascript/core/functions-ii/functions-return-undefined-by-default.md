@@ -1,4 +1,4 @@
-# Functions return `undefined` by default
+---
 author: rosielowther
 
 levels:
@@ -14,11 +14,21 @@ type: normal
 category: feature
 
 standards:
-  js.functions.1: 10
+
+  - js.functions.1: 10
 
 tags:
+
   - introduction
+
   - workout
+
+
+
+
+---
+
+# Functions return `undefined` by default
 
 ---
 ## Content
@@ -62,9 +72,11 @@ foo(1); // = ???
 foo(2); // = ???
 foo(3) === foo(1); // = ???
 ```
-*undefined
-*Enki
-*true
-*null
-*false
-*NaN
+
+* undefined
+* Enki
+* true
+* null
+* false
+* NaN
+

@@ -1,4 +1,4 @@
-# Transform values into promises
+---
 author: Dral
 
 levels:
@@ -10,15 +10,29 @@ type: normal
 category: how to
 
 standards:
-  js.async.2: 10
+
+  - js.async.2: 10
 
 tags:
+
   - promises
+
   - functional programming
+
   - async
+
   - introduction
+
   - workout
+
   - deep
+
+
+
+
+---
+
+# Transform values into promises
 
 ---
 ## Content
@@ -55,11 +69,12 @@ return Promise.???(
   new ???('Boo! :o') 
 ) 
 ```
-*`reject` 
-*`Error` 
-*`error` 
-*`create` 
-*`exception`
+
+* `reject` 
+* `Error` 
+* `error` 
+* `create` 
+* `exception`
 
 ---
 ## Revision
@@ -69,36 +84,39 @@ Complete the shortcut notation for **Promises** in **ES6**:
 return ???.???('my value');
 ```
 
-*`Promise`
-*`resolve`
-*`reject`
-*`new`
-*`send`
-*`return`
-*`prom`
+
+* `Promise`
+* `resolve`
+* `reject`
+* `new`
+* `send`
+* `return`
+* `prom`
 
 ---
 ## Quiz
+### In what order will these `console.log()` statements occur?
+```
+In what order will these `console.log()` statements occur?
+```
+const element = document.body;
 
-headline: In what order will these `console.log()` statements occur?
-question: |
-  In what order will these `console.log()` statements occur?
-  ```
-  const element = document.body;
+element.addEventListener('click', () => {
+  Promise.resolve().then(() => console.log('Microtask 1'));
+  console.log('Listener 1')
+})
 
-  element.addEventListener('click', () => {
-    Promise.resolve().then(() => console.log('Microtask 1'));
-    console.log('Listener 1')
-  })
+element.addEventListener('click', () => {
+  Promise.resolve().then(() => console.log('Microtask 2'));
+  console.log('Listener 2')
+})
+```
+```
 
-  element.addEventListener('click', () => {
-    Promise.resolve().then(() => console.log('Microtask 2'));
-    console.log('Listener 2')
-  })
-  ```
+ ???
 
-answers:
-  - Listener 1; Microtask 1; Listener 2; Microtask 2;
-  - Listener 1; Listener 2; Microtask 1; Microtask 2;
-  - Microtask 1; Listener 1; Microtask 2; Listener 2;
-  - Microtask 2; Listener 2; Microtask 1; Listener 1;
+* Listener 1; Microtask 1; Listener 2; Microtask 2;
+* Listener 1; Listener 2; Microtask 1; Microtask 2;
+* Microtask 1; Listener 1; Microtask 2; Listener 2;
+* Microtask 2; Listener 2; Microtask 1; Listener 1;
+

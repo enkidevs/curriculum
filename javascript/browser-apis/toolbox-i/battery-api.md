@@ -1,4 +1,4 @@
-# Battery API
+---
 author: rosielowther
 
 levels:
@@ -13,12 +13,16 @@ type: normal
 
 category: feature
 
+
 links:
 
   - '[davidwalsh.name](https://davidwalsh.name/javascript-battery-api){website}'
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API){website}'
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API){website}
+
+---
+
+# Battery API
 
 ---
 ## Content
@@ -62,6 +66,7 @@ navigator.???()
 });
 ```
 
+
 * `getBattery`
 * `then`
 * `battery`
@@ -69,3 +74,4 @@ navigator.???()
 * `now`
 * `run`
 * `start`
+

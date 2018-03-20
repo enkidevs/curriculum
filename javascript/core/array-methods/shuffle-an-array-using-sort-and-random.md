@@ -1,4 +1,4 @@
-# Shuffle an array using `sort` and `random`.
+---
 author: Bruno
 
 levels:
@@ -10,18 +10,30 @@ type: normal
 category: hack
 
 standards:
-  js.data-types-structures.2: 10
-  js.data-types-structures.3: 10
-  js.standard-library.1: 10
-  js.standard-library.4: 10
+
+  - js.data-types-structures.2: 10
+
+  - js.data-types-structures.3: 10
+
+  - js.standard-library.1: 10
+
+  - js.standard-library.4: 10
 
 tags:
+
   - introduction
+
   - workout
+
 
 links:
 
   - '[stackoverflow](http://stackoverflow.com/questions/2450954){discussion}'
+
+
+---
+
+# Shuffle an array using `sort` and `random`.
 
 ---
 ## Content
@@ -55,6 +67,8 @@ arr.sort(function(){
   return Math.random() - 0.5;
 });
 ```
-*shuffle the array
-*sort the array decreasingly
-*do nothing to the array
+
+* shuffle the array
+* sort the array decreasingly
+* do nothing to the array
+

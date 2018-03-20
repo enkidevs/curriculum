@@ -1,4 +1,4 @@
-# `NaN` is a number
+---
 author: jordanfish
 
 levels:
@@ -14,7 +14,15 @@ type: normal
 category: caveats
 
 standards:
-  js.evaluate-expressions.1: 10
+
+  - js.evaluate-expressions.1: 10
+
+
+
+
+---
+
+# `NaN` is a number
 
 ---
 ## Content
@@ -53,6 +61,7 @@ The following code snippet outputs ???
 ```
 console.log(typeof NaN);
 ```
+
 * number
 * NaN
 * false
@@ -60,15 +69,16 @@ console.log(typeof NaN);
 
 ---
 ## Quiz
+### is NaN a number?
+```
+// What is the output of this line?
+console.log(typeof(NaN));
+```
 
-headline: is NaN a number?
+ ???
 
-question: |
-  // What is the output of this line?
-  console.log(typeof(NaN));
+* number
+* object
+* function
+* undefined
 
-answers:
-  - number
-  - object
-  - function
-  - undefined

@@ -1,4 +1,4 @@
-# Warn user if **Back** button is pressed
+---
 author: catalin
 
 levels:
@@ -11,10 +11,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [viralpatel.net](http://viralpatel.net/blogs/disable-back-button-browser-javascript/){website}
+  - '[viralpatel.net](http://viralpatel.net/blogs/disable-back-button-browser-javascript/){website}'
+
+
+---
+
+# Warn user if **Back** button is pressed
 
 ---
 ## Content
@@ -40,6 +45,8 @@ window.??? = function() {
 };
 ```
 
-*`onbeforeunload`
-*`beforeunload`
-*`ifbackpressed`
+
+* `onbeforeunload`
+* `beforeunload`
+* `ifbackpressed`
+

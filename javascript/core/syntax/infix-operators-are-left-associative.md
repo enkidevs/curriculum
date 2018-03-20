@@ -1,4 +1,4 @@
-# Infix operators are left-associative
+---
 author: adamMontgomerie
 
 levels:
@@ -14,24 +14,35 @@ type: normal
 category: tip
 
 standards:
-  js.javascript-syntax.2: 10
-  js.write-expressions.0: 10
-  js.evaluate-expressions.0: 10
+
+  - js.javascript-syntax.2: 10
+
+  - js.write-expressions.0: 10
+
+  - js.evaluate-expressions.0: 10
 
 tags:
+
   - introduction
+
   - obscura
+
   - operators
+
   - infix-operators
+
   - operator-associativity
+
 
 links:
 
-  - >-
-    [learnxinyminutes.com](http://learnxinyminutes.com/docs/javascript/){website}
+  - '[learnxinyminutes.com](http://learnxinyminutes.com/docs/javascript/){website}'
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence){website}'
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence){website}
+
+---
+
+# Infix operators are left-associative
 
 ---
 ## Content
@@ -65,6 +76,7 @@ var x = a - (-b * c);
 console.log(x);
 ```
 
+
 * 68
 * -28
 * 192
@@ -78,6 +90,8 @@ console.log(x);
 
 The processing of operations starts with ??? operator if no brackets are used.
 
-*left-most
-*right-most
-*middle
+
+* left-most
+* right-most
+* middle
+

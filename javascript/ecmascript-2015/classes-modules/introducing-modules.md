@@ -1,4 +1,4 @@
-# Introducing Modules
+---
 author: alexjmackey
 
 levels:
@@ -9,15 +9,20 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
+
 links:
-  
+
   - '[MDN - Import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import){website}'
-  
   - '[MDN - Export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export){website}'
+
+
+---
+
+# Introducing Modules
 
 ---
 ## Content
@@ -61,3 +66,4 @@ Next we declare that we are exporting a function called double using the **expor
 We now want to use this functionality in another file so we use the keyword **import** and say we want to import everything (that's the import * bit) from the module and access this through the object we will call mathFuncs.
 
 Finally we use this functionality with the call mathFuncs.double.
+

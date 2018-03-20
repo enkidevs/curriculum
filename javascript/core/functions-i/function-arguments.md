@@ -1,4 +1,4 @@
-# Function Arguments
+---
 author: alexjmackey
 
 levels:
@@ -7,16 +7,26 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 standards:
-  js.functions.1: 10
+
+  - js.functions.1: 10
 
 tags:
+
   - introduction
+
   - workout
+
+
+
+
+---
+
+# Function Arguments
 
 ---
 ## Content
@@ -49,9 +59,10 @@ console.log(obj.name);//Apple
 
 In JavaScript, variables are ???.
 
-*passed by value
-*passed by reference
-*passed by their object
+
+* passed by value
+* passed by reference
+* passed by their object
 
 ---
 ## Revision
@@ -67,7 +78,9 @@ changeProp(per);
 console.log(per.name);
 // ???
 ```
-*John
-*Alex
-*undefined
-*null
+
+* John
+* Alex
+* undefined
+* null
+

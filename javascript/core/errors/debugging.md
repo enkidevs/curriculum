@@ -1,4 +1,4 @@
-# Debugging
+---
 author: alexjmackey
 
 levels:
@@ -7,16 +7,27 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 standards:
-  js.exceptions.4: 10
+
+  - js.exceptions.4: 10
 
 tags:
+
   - introduction
+
   - workout
+
+
+
+
+---
+
+# Debugging
+
 ---
 ## Content
 
@@ -50,10 +61,11 @@ What statement will make the debugger stop at its line?
 
 ???
 
-*`debugger;`
-*`stop;`
-*`break;`
-*`debug;`
+
+* `debugger;`
+* `stop;`
+* `break;`
+* `debug;`
 
 ---
 ## Revision
@@ -63,8 +75,10 @@ How can you log variables into the console?
 ```
 ???.???(myVar);
 ```
-*`console`
-*`log`
-*`alert`
-*`debugger;`
-*`addVar`
+
+* `console`
+* `log`
+* `alert`
+* `debugger;`
+* `addVar`
+

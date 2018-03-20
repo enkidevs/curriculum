@@ -1,4 +1,4 @@
-# Default function parameters
+---
 author: NomaDube
 
 levels:
@@ -19,9 +19,15 @@ tags:
 
   - functions
 
+
 links:
 
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters){website}'
+
+
+---
+
+# Default function parameters
 
 ---
 ## Content
@@ -52,8 +58,10 @@ function square(a = 1) {
 console.log(square());
 // ???
 ```
-*`1`
-*`2`
-*`error`
-*`undefined`
-*`null`
+
+* `1`
+* `2`
+* `error`
+* `undefined`
+* `null`
+

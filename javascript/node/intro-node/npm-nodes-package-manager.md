@@ -1,4 +1,4 @@
-# NPM, Node's Package Manager
+---
 author: tommarshall
 
 levels:
@@ -9,11 +9,16 @@ type: normal
 
 category: must-know
 
-parent: executing-programs-with-node
 
 links:
 
-- '[npmjs.com](https://www.npmjs.com/)'
+  - '[npmjs.com](https://www.npmjs.com/){website}'
+
+parent: executing-programs-with-node
+
+---
+
+# NPM, Node's Package Manager
 
 ---
 ## Content
@@ -43,6 +48,7 @@ Complete the code snippet to check you're using the latest NPM version:
 npm install npm@???
 ```
 
+
 * `latest -g`
 * `latest`
 * `latest -v`
@@ -56,6 +62,8 @@ Complete the code snippet to install a package from NPM:
 > npm ??? <package>
 ```
 
+
 * `install`
 * `new`
 * `download`
+

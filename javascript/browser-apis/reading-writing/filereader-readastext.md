@@ -1,4 +1,4 @@
-# FileReader.readAsText()
+---
 author: tommarshall
 
 levels:
@@ -11,10 +11,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsText){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsText){website}'
+
+
+---
+
+# FileReader.readAsText()
 
 ---
 ## Content
@@ -46,6 +51,7 @@ reader.onload = function(e) {
 reader.readAsText(file, ???);
 ```
 
+
 * `result`
 * `encoding`
 * `reader`
@@ -68,10 +74,12 @@ reader.onload = function(e) {
 ???.???(file,encoding);
 ```
 
-*`reader`
-*`readAsText`
-*`onload`
-*`read`
-*`readText`
-*`readFile`
-*`file`
+
+* `reader`
+* `readAsText`
+* `onload`
+* `read`
+* `readText`
+* `readFile`
+* `file`
+

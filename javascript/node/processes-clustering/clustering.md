@@ -1,4 +1,4 @@
-# Clustering
+---
 author: catalin
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - >-
-    [codeforgeek.com](https://codeforgeek.com/2014/12/cluster-node-js-performance/){website}
+  - '[codeforgeek.com](https://codeforgeek.com/2014/12/cluster-node-js-performance/){website}'
+
+
+---
+
+# Clustering
 
 ---
 ## Content
@@ -51,6 +56,7 @@ Initiate a new worker process.
 ???.???;
 ```
 
+
 * `cluster`
 * `fork()`
 * `master`
@@ -68,7 +74,9 @@ if(cluster.???){
 };
 ```
 
+
 * `isMaster`
 * `master`
 * `notChild`
 * `child`
+

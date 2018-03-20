@@ -1,4 +1,4 @@
-# Online Debugging Options
+---
 author: alexjmackey
 
 levels:
@@ -7,18 +7,26 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 tags:
+
   - introduction
+
   - obscura
+
 
 links:
 
   - '[jsbin.com](https://jsbin.com/){website}'
   - '[JavaScript Visualizer](http://www.pythontutor.com/javascript.html#mode=edit){website}'
+
+
+---
+
+# Online Debugging Options
 
 ---
 ## Content
@@ -40,3 +48,4 @@ As well as running JavaScript these sites often allow you to reference common ex
 Online debugging options are also great for **sharing** code with others.
 
 This can be very useful when you are posting a question on a forum site - you are much more likely to get a response if you can provide a running example of your issue.
+

@@ -1,4 +1,4 @@
-# Tagged Template Literals
+---
 author: lizTheDeveloper
 
 levels:
@@ -8,6 +8,10 @@ levels:
   - advanced
 
 type: normal
+
+category: feature
+
+inAlgoPool: false
 
 tags:
 
@@ -19,13 +23,15 @@ tags:
 
   - strings
 
-inAlgoPool: false
-
-category: feature
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){website}'
+
+
+---
+
+# Tagged Template Literals
 
 ---
 ## Content
@@ -52,3 +58,4 @@ function price(strings, ...substitution){
 
 }
 ```
+

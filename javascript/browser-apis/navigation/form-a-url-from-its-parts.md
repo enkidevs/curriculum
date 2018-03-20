@@ -1,4 +1,4 @@
-# Form a `URL` from its parts 
+---
 author: pawel
 
 levels:
@@ -16,6 +16,13 @@ category: how to
 tags:
 
   - url
+
+
+
+
+---
+
+# Form a `URL` from its parts 
 
 ---
 ## Content
@@ -47,6 +54,7 @@ var newURL = ???+
          + ???;
 ``` 
 
+
 * `window.location.protocol`
 * `window.location.host`
 * `window.location.pathname`
@@ -64,10 +72,12 @@ Get the host of the url:
 window.???.???;
 ```
 
-*`location`
-*`host`
-*`navigator`
-*`history`
-*`url`
-*`protocol`
-*`pathname`
+
+* `location`
+* `host`
+* `navigator`
+* `history`
+* `url`
+* `protocol`
+* `pathname`
+

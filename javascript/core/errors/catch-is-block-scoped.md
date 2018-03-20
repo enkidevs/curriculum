@@ -1,4 +1,4 @@
-# `catch` is block scoped
+---
 author: rosielowther
 
 levels:
@@ -9,15 +9,25 @@ type: normal
 
 category: caveats
 
-parent: no-block-scope
-
 standards:
-  js.exceptions.2: 10
+
+  - js.exceptions.2: 10
 
 tags:
+
   - workout
+
   - deep
+
   - obscura
+
+
+
+parent: no-block-scope
+
+---
+
+# `catch` is block scoped
 
 ---
 ## Content
@@ -40,6 +50,7 @@ Many linters fail to recognise that it is valid to have multiple  `try...catch` 
 
 What scope is the catch clause of a try/catch statement in? ???
 
+
 * block scoped.
 * function scoped.
 
@@ -48,6 +59,8 @@ What scope is the catch clause of a try/catch statement in? ???
 
 Even though Javascript is function scoped, the variable in ??? is block scoped.
 
-*the catch clause
-*the try clause
-*a for loop
+
+* the catch clause
+* the try clause
+* a for loop
+

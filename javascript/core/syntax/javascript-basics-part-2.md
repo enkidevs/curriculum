@@ -1,4 +1,4 @@
-# JavaScript Basics - Part 2
+---
 author: alexjmackey
 
 levels:
@@ -7,16 +7,26 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 standards:
-  js.functions.5: 10
+
+  - js.functions.5: 10
 
 tags:
+
   - introduction
+
   - workout
+
+
+
+
+---
+
+# JavaScript Basics - Part 2
 
 ---
 ## Content
@@ -59,9 +69,11 @@ What operator is used to declare a variable in the *current scope*?
 ??? answer = 42;
 ```
 
-*`var`
-*`variable`
-*`const`
-*`string`
-*`int`
-*`double`
+
+* `var`
+* `variable`
+* `const`
+* `string`
+* `int`
+* `double`
+

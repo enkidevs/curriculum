@@ -1,4 +1,4 @@
-# Dealing with `this.props.children`
+---
 author: catalin
 
 levels:
@@ -11,12 +11,16 @@ type: normal
 
 category: feature
 
-parent: custom-proptype-s-to-be-required
 
 links:
 
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/docs/top-level-api.html#react.children){website}
+  - '[facebook.github.io](https://facebook.github.io/react/docs/top-level-api.html#react.children){website}'
+
+parent: custom-proptype-s-to-be-required
+
+---
+
+# Dealing with `this.props.children`
 
 ---
 ## Content
@@ -55,6 +59,7 @@ array React.Children.toArray(object
 
 What method is used to invoke a function on every immediate child within children, and returns an array? ???
 
+
 * `map`
 * `forEach`
 * `fn`
@@ -69,7 +74,9 @@ What method is used to invoke a function `fn` on every immediate child, but not 
 
 ???
 
-*`forEach`
-*`map`
-*`count`
-*`only`
+
+* `forEach`
+* `map`
+* `count`
+* `only`
+

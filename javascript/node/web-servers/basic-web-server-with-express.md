@@ -1,4 +1,4 @@
-# Basic web server with Express
+---
 author: catalin
 
 levels:
@@ -9,11 +9,16 @@ type: normal
 
 category: how to
 
-notes: This can used as the first insight on Express subtopic
 
 links:
 
   - '[expressjs.com](http://expressjs.com/en/starter/installing.html){website}'
+
+notes: This can used as the first insight on Express subtopic
+
+---
+
+# Basic web server with Express
 
 ---
 ## Content
@@ -52,12 +57,13 @@ app.???('/',
 });
 
 ```
-*`get`
-*`request`
-*`server`
-*`run`
-*`reg`
-*`express`
+
+* `get`
+* `request`
+* `server`
+* `run`
+* `reg`
+* `express`
 
 ---
 ## Revision
@@ -68,8 +74,10 @@ var express = require('???');
 var app = ???;
 ```
 
-*`express`
-*`express()`
-*`get`
-*`use`
-*`request`
+
+* `express`
+* `express()`
+* `get`
+* `use`
+* `request`
+

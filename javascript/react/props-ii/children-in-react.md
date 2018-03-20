@@ -1,4 +1,4 @@
-# Children in **React**
+---
 author: catalin
 
 levels:
@@ -15,16 +15,17 @@ type: normal
 
 category: feature
 
-parent: custom-proptype-s-to-be-required
 
 links:
 
-- >-
-  [learn.co](https://learn.co/lessons/react-this-props-children){website}
+  - '[learn.co](https://learn.co/lessons/react-this-props-children){website}'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/react-api.html#react.children){website}'
 
-- >-
-  [facebook.github.io](https://facebook.github.io/react/docs/react-api.html#react.children){website}
+parent: custom-proptype-s-to-be-required
 
+---
+
+# Children in **React**
 
 ---
 ## Content
@@ -106,6 +107,7 @@ ReactDOM.render(
 
 `???`
 
+
 * `<h1>Main</h1>`
 * `nothing`
 * `<p>Main</p>`
@@ -120,6 +122,8 @@ What is the minimum number of elements `props.children` can hold?
 
 ???
 
+
 * `zero`
 * `one`
 * `at least two`
+

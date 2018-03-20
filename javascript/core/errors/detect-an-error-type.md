@@ -1,4 +1,4 @@
-# Detect an error type
+---
 author: catalin
 
 levels:
@@ -10,18 +10,28 @@ type: normal
 category: must-know
 
 standards:
-  js.exceptions.0: 10
-  js.exceptions.1: 10
-  js.exceptions.2: 10
+
+  - js.exceptions.0: 10
+
+  - js.exceptions.1: 10
+
+  - js.exceptions.2: 10
 
 tags:
+
   - introduction
+
   - workout
 
 
 links:
 
-  - "[davidwalsh.name](https://davidwalsh.name/detect-error-type-javascript){website}"
+  - '[davidwalsh.name](https://davidwalsh.name/detect-error-type-javascript){website}'
+
+
+---
+
+# Detect an error type
 
 ---
 ## Content
@@ -60,6 +70,7 @@ Complete the following code snippet such that the `try/catch` block will handle 
 }
 ```
 
+
 * `try`
 * `err`
 * `constructor`
@@ -86,10 +97,12 @@ try {
 
 ```
 
-*`catch`
-*`SyntaxError`
-*`name`
-*`EvalError`
-*`try`
-*`syntax`
-*`Error`
+
+* `catch`
+* `SyntaxError`
+* `name`
+* `EvalError`
+* `try`
+* `syntax`
+* `Error`
+

@@ -1,4 +1,4 @@
-# Hoisting applies only to variable declarations, not initializations
+---
 author: adamMontgomerie
 
 levels:
@@ -14,19 +14,30 @@ type: normal
 category: feature
 
 standards:
-  js.functions.5: 10
+
+  - js.functions.5: 10
 
 tags:
+
   - workout
+
   - hoisting
+
   - deep
+
   - variables
+
   - obscura
+
 
 links:
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/3725546/variable-hoisting){website}
+  - '[stackoverflow.com](http://stackoverflow.com/questions/3725546/variable-hoisting){website}'
+
+
+---
+
+# Hoisting applies only to variable declarations, not initializations
 
 ---
 ## Content
@@ -55,9 +66,10 @@ s = "enki";
 console.log(s);
 var s;
 ```
-*enki
-*undefined
-*nothing
+
+* enki
+* undefined
+* nothing
 
 ---
 ## Revision
@@ -67,6 +79,8 @@ The following code outputs ???
 console.log(v);
 var v = "enki";
 ```
-*undefined
-*enki
-*nothing
+
+* undefined
+* enki
+* nothing
+

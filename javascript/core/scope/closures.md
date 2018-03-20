@@ -1,4 +1,4 @@
-# Closures
+---
 author: rosielowther
 
 levels:
@@ -14,12 +14,18 @@ type: normal
 category: must-know
 
 standards:
-  js.functions.5: 10
+
+  - js.functions.5: 10
+
 
 links:
 
-  - >-
-    [ryanmorr.com](http://ryanmorr.com/understanding-scope-and-context-in-javascript/){website}
+  - '[ryanmorr.com](http://ryanmorr.com/understanding-scope-and-context-in-javascript/){website}'
+
+
+---
+
+# Closures
 
 ---
 ## Content
@@ -59,14 +65,17 @@ function foo(){
 }
 foo()();
 ```    
-*will
-*will not
+
+* will
+* will not
 
 ---
 ## Revision
 
 A *closure* is created when you ???.
 
-*nest a function inside another
-*declare a function
-*call a function
+
+* nest a function inside another
+* declare a function
+* call a function
+

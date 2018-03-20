@@ -1,4 +1,4 @@
-# CSP using _async-csp_ and ES7
+---
 author: rosielowther
 
 levels:
@@ -10,20 +10,34 @@ type: normal
 category: feature
 
 standards:
-  js.async.3: 10
-  js.async.2: 10
-  js.use-modules.2: 10
+
+  - js.async.3: 10
+
+  - js.async.2: 10
+
+  - js.use-modules.2: 10
 
 tags:
+
   - workout
+
   - deep
+
   - async
+
   - promises
+
   - npm
+
 
 links:
 
   - '[www.npmjs.com](https://www.npmjs.com/package/async-csp){website}'
+
+
+---
+
+# CSP using _async-csp_ and ES7
 
 ---
 ## Content
@@ -49,6 +63,7 @@ async function puts(channel) {
 
 Which two functions are used to place a value onto a channel and to take a value from a channel? ???
 
+
 * `.put()` and `.take()`
 * `.add()` and `.remove()`
 * `.add()` and `.take()`
@@ -61,8 +76,10 @@ What does a **CSP Channel** use to handle the flow of data?
 
 ???
 
-*Promises
-*Generators
-*`put()`
-*`take()`
-*nothing
+
+* Promises
+* Generators
+* `put()`
+* `take()`
+* nothing
+

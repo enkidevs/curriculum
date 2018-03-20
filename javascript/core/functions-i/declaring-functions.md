@@ -1,4 +1,4 @@
-# Declaring Functions
+---
 author: alexjmackey
 
 levels:
@@ -7,17 +7,28 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 standards:
-  js.functions.0: 10
-  js.functions.1: 10
+
+  - js.functions.0: 10
+
+  - js.functions.1: 10
 
 tags:
+
   - introduction
+
   - workout
+
+
+
+
+---
+
+# Declaring Functions
 
 ---
 ## Content
@@ -63,11 +74,12 @@ function mult(x, y){
 console.log(mult(2,3));
 ???
 ```
-*`undefined`
-*`4`
-*`9`
-*`6`
-*`error`
+
+* `undefined`
+* `4`
+* `9`
+* `6`
+* `error`
 
 ---
 ## Revision
@@ -81,7 +93,9 @@ function add(x, y){
 console.log(add(2,3));
 ???
 ```
-*`undefined`
-*`5`
-*`false`
-*`error`
+
+* `undefined`
+* `5`
+* `false`
+* `error`
+

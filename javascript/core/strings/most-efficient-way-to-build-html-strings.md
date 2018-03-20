@@ -1,4 +1,4 @@
-# Most efficient way to build `HTML` strings
+---
 author: pawel
 
 levels:
@@ -10,18 +10,30 @@ type: normal
 category: best practice
 
 standards:
-  js.evaluate-expressions.3: 10
-  js.write-expressions.1: 10
+
+  - js.evaluate-expressions.3: 10
+
+  - js.write-expressions.1: 10
 
 tags:
+
   - strings
+
   - html
+
   - introduction
+
   - workout
+
 
 links:
 
   - '[jsperf.com](http://jsperf.com/string-concat-vs-array-join-10000){website}'
+
+
+---
+
+# Most efficient way to build `HTML` strings
 
 ---
 ## Content
@@ -59,6 +71,8 @@ What's the more efficient way to build `HTML` strings in modern browsers?
 
 ???
 
-*`1)`
-*`2)`
-*`3)`
+
+* `1)`
+* `2)`
+* `3)`
+

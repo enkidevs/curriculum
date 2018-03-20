@@ -1,4 +1,4 @@
-# Performing a function at timed intervals
+---
 author: pawel
 
 levels:
@@ -12,14 +12,27 @@ type: normal
 category: how to
 
 standards:
-  js.async.0: 10
+
+  - js.async.0: 10
 
 tags:
+
   - workout
+
   - introduction
+
   - deep
+
   - timed-intervals
+
   - fundamental
+
+
+
+
+---
+
+# Performing a function at timed intervals
 
 ---
 ## Content
@@ -53,11 +66,12 @@ function hi(){
 var loop = ???
    .???(hi,???);
 ```
-*window
-*setInterval
-*2000
-*200
-*function
+
+* window
+* setInterval
+* 2000
+* 200
+* function
 
 ---
 ## Revision
@@ -70,8 +84,10 @@ function hi(){
 var loop = ???
    .???(hi,???);
 ```
-*window
-*setInterval
-*2000
-*200
-*function
+
+* window
+* setInterval
+* 2000
+* 200
+* function
+

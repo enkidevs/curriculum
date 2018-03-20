@@ -1,4 +1,4 @@
-# Using **Express 4.0** `router`
+---
 author: catalin
 
 levels:
@@ -11,12 +11,16 @@ type: normal
 
 category: must-know
 
-parent: easy-way-to-deliver-html-pages-with-express
 
 links:
 
-  - >-
-    [scotch.io](https://scotch.io/tutorials/learn-to-use-the-new-router-in-expressjs-4){website}
+  - '[scotch.io](https://scotch.io/tutorials/learn-to-use-the-new-router-in-expressjs-4){website}'
+
+parent: easy-way-to-deliver-html-pages-with-express
+
+---
+
+# Using **Express 4.0** `router`
 
 ---
 ## Content
@@ -70,13 +74,14 @@ Complete the below code snippet:
     ???; 
 }); 
 ```
-*`router` 
-*`next` 
-*`next()` 
-*`callback()` 
-*`done()`  
-*`env` 
-*`app`
+
+* `router` 
+* `next` 
+* `next()` 
+* `callback()` 
+* `done()`  
+* `env` 
+* `app`
 
 ---
 ## Revision
@@ -86,10 +91,12 @@ Create `simple` route:
 app.???('/simple', function(req, res) {
   ???.???('Simple route accessed!');
 ```
-*`get`
-*`res`
-*`send`
-*`use`
-*`req`
-*`app`
-*`router`
+
+* `get`
+* `res`
+* `send`
+* `use`
+* `req`
+* `app`
+* `router`
+

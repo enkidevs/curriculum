@@ -1,4 +1,4 @@
-# No block scope
+---
 author: adamMontgomerie
 
 levels:
@@ -12,22 +12,31 @@ type: normal
 category: tip
 
 standards:
-  js.functions.5: 10
+
+  - js.functions.5: 10
 
 tags:
+
   - workout
+
   - scope
+
   - deep
+
   - variables
+
   - obscura
+
 
 links:
 
-  - >-
-    [learnxinyminutes.com](http://learnxinyminutes.com/docs/javascript/){website}
+  - '[learnxinyminutes.com](http://learnxinyminutes.com/docs/javascript/){website}'
+  - '[stackoverflow.com](http://stackoverflow.com/questions/500431/what-is-the-scope-of-variables-in-javascript){website}'
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/500431/what-is-the-scope-of-variables-in-javascript){website}
+
+---
+
+# No block scope
 
 ---
 ## Content
@@ -70,8 +79,10 @@ function bar() {
   alert(a); // ???
 }
 ```
-*0
-*1
-*2
-*3
-*undefined
+
+* 0
+* 1
+* 2
+* 3
+* undefined
+

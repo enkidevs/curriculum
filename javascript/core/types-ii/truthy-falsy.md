@@ -1,4 +1,4 @@
-# Truthy Falsy
+---
 author: alexjmackey
 
 levels:
@@ -7,18 +7,30 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 standards:
-  js.identify-syntax.2: 10
-  js.evaluate-expressions.3: 10
-  js.evaluate-expressions.10: 10
+
+  - js.identify-syntax.2: 10
+
+  - js.evaluate-expressions.3: 10
+
+  - js.evaluate-expressions.10: 10
 
 tags:
+
   - introduction
+
   - workout
+
+
+
+
+---
+
+# Truthy Falsy
 
 ---
 ## Content
@@ -62,15 +74,18 @@ else {
 
 A null object is ???.
 
-*falsy
-*truthy
-*neither falsy nor truthy.
+
+* falsy
+* truthy
+* neither falsy nor truthy.
 
 ---
 ## Revision
 
 An empty string is ???.
 
-*falsy
-*truthy
-*neither falsy nor truthy
+
+* falsy
+* truthy
+* neither falsy nor truthy
+
