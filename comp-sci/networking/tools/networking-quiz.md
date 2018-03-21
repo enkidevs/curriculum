@@ -1,4 +1,4 @@
-# Networking Fundamentals Quiz
+---
 author: catalin
 
 levels:
@@ -16,6 +16,11 @@ parent: network-models
 ## Content
 
 Brush up on the fundamentals of computer networking with this quick quiz.
+
+---
+
+# Networking Fundamentals Quiz
+
 ---
 ## Game Content
 

@@ -1,4 +1,3 @@
-# What should it be stored in?
 author: mihaiberq
 
 levels:
@@ -15,6 +14,11 @@ parent: the-queue-data-structure
 ## Content
 
 Choose the data structures that would best fit the examples.
+
+---
+
+# What should it be stored in?
+
 ---
 ## Game Content
 
