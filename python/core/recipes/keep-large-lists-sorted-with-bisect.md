@@ -74,12 +74,11 @@ What will the output of `print(bisect.bisect(a, 2))` be? ???
 ---
 ## Revision
 
-`bisect` provides two useful methods:
- - `insort`: ???
- - `bisect`: ???
+`bisect` provides two useful methods:  
+`insort`: ???  
+`bisect`: ???  
 
 
 * inserts a new element into an ordered list
 * returns the position where to insert a new element in a sorted list
 * sorts and returns an unsorted list
-
