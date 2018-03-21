@@ -44,7 +44,8 @@ Read `man passwd` for more details.
 ## Practice
 
 Change `enkiUser` ‘s password:
-```
+
+```bash
 $ ??? ??? ???
 ```
 
@@ -67,9 +68,10 @@ Do you have to be a root to change your own password using  `passwd` ?
 ---
 ## Quiz
 ### Can you identify a security vulnerability?
-```
+
+
 Which of the following is most likely to cause a lot of problems?
-```
+
 
  ???
 

@@ -70,9 +70,8 @@ A pager utility that allows you to scroll and search through a stream of output,
 ## Quiz
 ### are you familiar with Linux pagers?
 
-```
-Is more less or less more?
-```
+Is `more` `less` or `less` `more`?
+
 
 ???
 

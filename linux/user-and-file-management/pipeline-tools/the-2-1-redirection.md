@@ -100,9 +100,10 @@ You can incorporate the error stream into the output stream using
 ---
 ## Quiz
 ### how do you merge output streams?
-```
+
+
 Which of the following commands will suppress both stdout and stderr?
-```
+
 
  ???
 

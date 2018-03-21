@@ -96,15 +96,16 @@ The `command not found` error is thrown if the executable couldn’t be found
 ---
 ## Quiz
 ### Do you know how the $PATH variable is evaluated?
-```
+
 Suppose your $PATH value is:
-```
+
+```bash
 $ echo $PATH
 /bin:/usr/bin:~/Desktop/rm-ext:~/atom
 ```
 What is the next directory the shell will look
 for an executable if no match was found in `/bin`?
-```
+
 
  ???
 
@@ -112,4 +113,3 @@ for an executable if no match was found in `/bin`?
 * none, as /bin is already the last one
 * ~/atom
 * ~/Desktop/rm-ext
-

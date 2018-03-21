@@ -69,9 +69,9 @@ command will tell you what executable your shell would be running after typing a
 ---
 ## Quiz
 ### Do you know how to find the location of an executable?
-```
+
 Which built-in command returns the path to an executable?
-```
+
 
  ???
 
