@@ -1,22 +1,31 @@
-# Dijkstra's Algorithm
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
 links:
-    - >-
-        [Step-by-step, interactive Dijkstra's algorithm application](https://www-m9.ma.tum.de/graph-algorithms/spp-dijkstra/index_en.html){website}
+
+  - '[Step-by-step, interactive Dijkstra's algorithm application](https://www-m9.ma.tum.de/graph-algorithms/spp-dijkstra/index_en.html){website}'
 
 parent: levenshtein-distance
+
+---
+
+# Dijkstra's Algorithm
+
 ---
 ## Content
 
@@ -73,13 +82,13 @@ Swipe to the next insight to see a step by step iteration of the algorithm.
 What does Dijkstra's algorithm compute?
 
 ???
+
 * The shortest path between nodes in an weighted graph.
 * The number of connected components in a graph.
 * The negative cycles in an weighted graph.
 
 ---
 ## Footnotes
-
 [1:Weighted graph]
 A graph in which every edge has numerical values (weight or cost) assigned to it.
 ```text

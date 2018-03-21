@@ -1,18 +1,28 @@
-# In-order Traversal
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
+
 parent: pre-order-traversal
+
+---
+
+# In-order Traversal
+
 ---
 ## Content
 
@@ -59,6 +69,7 @@ Chose the sequence that simulates an in-order traversal of the tree:
       F    E
 ```
 ???
+
 * B,F,A,C,E
 * F,B,E,C,A
 * A,B,F,C,E
@@ -78,6 +89,7 @@ G      F    E
   H       I
 ```
 ???
+
 * G,H,B,F,A,I,E,C
 * F,B,E,C,A,H,I,D
 * A,B,F,C,E,D,I,H
@@ -85,16 +97,16 @@ G      F    E
 
 ---
 ## Quiz
+### which tree traversal is to be use in the following scenario?
+```
+Given a binary search tree (BST), which traversal would print
+its nodes in ascending order?
+```
 
+ ???
 
-headline: which tree traversal is to be use in the following scenario?
+* In-order traversal
+* Breadth first traversal
+* Depth first traversal
+* Post-order traversal
 
-question: |
-  Given a binary search tree (BST), which traversal would print
-  its nodes in ascending order?
-
-answers:
-  - In-order traversal
-  - Breadth first traversal
-  - Depth first traversal
-  - Post-order traversal
