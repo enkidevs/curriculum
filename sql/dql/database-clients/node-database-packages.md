@@ -13,6 +13,11 @@ category: feature
 
 inAlgoPool: false
 
+
+standards:
+  sql.connect-client.0: 10
+  sql.connect-client.1: 10
+
 tags:
   - introduction
   - workout
@@ -20,6 +25,7 @@ tags:
   - javascript
   - implementation
   - database packages
+
 
 links:
 

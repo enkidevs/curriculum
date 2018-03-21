@@ -34,7 +34,7 @@ $ some_command -some_flag
 
 Then it is possible to search your bash history using `Ctrl+R`:
 
-```tex
+```text
 (reverse-i-search)`#useful': 
   some_command -some_flag some_path #useful 
 ```

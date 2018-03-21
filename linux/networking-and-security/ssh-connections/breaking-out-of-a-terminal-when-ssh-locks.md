@@ -31,7 +31,7 @@ Normal key combinations are forwarded over the ssh session, therefore no standar
 Instead, use the escape sequences. To kill the current session hit `↵` and write `~.`.
 
 More of these escape sequences can be listed with `↵` and `~?`:
-```tex
+```shell
 Supported escape sequences:
   ~.  - terminate session
   ~B  - send a BREAK to the remote system

@@ -30,7 +30,7 @@ Before dragging and dropping, an elements attribute must be set so it's allowed 
  ondragstart="dragstart_handler(event);">
 </div>
 ```
-```JavaScript
+```javascript
 function dragstart_handler(ev) {
   console.log("Start dragging...");
   ev.dataTransfer.setData("text/plain", 

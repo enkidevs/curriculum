@@ -18,8 +18,8 @@ links:
 A **memory leak** occurs when a program manages *memory allocation* incorrectly: memory no longer needed is not released. Imagine the memory as a horizontal axis, with an application `A` requesting `512MB` of memory:
 ```bash
       A        B   C
- |---------| |---||-|
- |---------|--------| # available memory
+ |=========| |===||=|
+ |=========|========| # available memory
 0MB      512MB    1024MB
 ```
 Instead of reusing memory already allocated , the program requests more and more memory, hence eating up memory other background programs/processes might be using. This can slow the whole system down due to *thrashing*[1] making the OS to force kill `A` to free up memory.

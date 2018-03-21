@@ -37,7 +37,7 @@ A `final` method cannot be overridden by any subclass. This is particularly usef
 ## Practice
 
 Which of the following lines would give rise to an error?
-```Java
+```java
 1. String DATE = "01-01-2020";
 2. final String ETAD = "2020-01-01";
 3. DATE = ETAD;

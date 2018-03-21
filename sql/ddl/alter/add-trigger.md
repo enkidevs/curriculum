@@ -7,15 +7,14 @@ levels:
 
   - basic
 
-  - medium
-
-  - advanced
-
 type: normal
 
 category: must-know
 
 inAlgoPool: false
+
+standards:
+  sql.define-tables.2: 10
 
 links:
 

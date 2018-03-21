@@ -7,4 +7,3 @@ insights:
   - a-simple-way-to-select-a-random-item-from-a-list-tuple-data-stucture
   - parallel-sorting-of-lists
   - combining-multiple-lists-item-by-item
-  - pretty-print-data-structures
