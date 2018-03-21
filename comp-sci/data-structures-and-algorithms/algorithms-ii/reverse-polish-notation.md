@@ -76,9 +76,11 @@ What is the infix equivalent notation of the reverse polish notation `4 3 + 10 Ã
 ---
 ## Quiz
 ### what is the result of the following expression?
-```
-// Evaluate the following expression written
-// using the reverse polish notation (postfix notation)
+
+Evaluate the following expression written
+using the reverse polish notation (postfix notation)
+
+```bash
 2 3 * 4 - 5 / 6 + 0.4 -
 ```
 
@@ -88,4 +90,3 @@ What is the infix equivalent notation of the reverse polish notation `4 3 + 10 Ã
 * 0
 * 10.04
 * 6.04
-
