@@ -37,6 +37,7 @@ links:
 Create a table called `requests`. This table should contain the following columns, which should store the following values:
 - user_id, for example: "U001", "U002",
 - item_id, for example:  "I001", "I002",
+- request_id, for example:  "R001", "R002",
 - date_from, for example: "12/02/2017",
 - date_until, for example: "12/02/2017",
 - accepted, for example: "true" or "false"
