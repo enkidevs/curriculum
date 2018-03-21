@@ -9,6 +9,9 @@ type: normal
 
 category: must-know
 
+standards:
+  py.object-oriented.0: 10
+
 ---
 ## Content
 

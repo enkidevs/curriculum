@@ -25,6 +25,9 @@ tags:
 
 notes: 'this should be linked to python metaclasses insight'
 
+standards:
+  py.object-oriented.5: 10
+
 links:
 
   - >-

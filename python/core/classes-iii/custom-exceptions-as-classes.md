@@ -11,6 +11,10 @@ type: normal
 
 category: feature
 
+standards:
+  py.object-oriented.1: 10
+  py.object-oriented.5: 10
+
 links:
 
   - >-
