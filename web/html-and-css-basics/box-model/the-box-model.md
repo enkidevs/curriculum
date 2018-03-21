@@ -30,7 +30,7 @@ The dimensions of such a box are calculated by summing the values of the above m
 ```
 div{
   width: 600px;
-  height: 200px; 
+  height: 200px;
   border: 4px solid blue;
   margin: 20px;
   padding: 10px;
@@ -59,7 +59,8 @@ Which is the inside-out order for the *box model* components?
 ## Quiz
 ### are you familiar with the box model?
 ```
-What’s the correct outside-in order of the elements contained by the Box Model?```
+What’s the correct outside-in order of the elements contained by the Box Model?
+```
 
  ???
 
@@ -67,4 +68,3 @@ What’s the correct outside-in order of the elements contained by the Box Model
 * Border/Margin/Padding/Content
 * Margin/Padding/Border/Content
 * Content/Border/Margin/Padding
-
