@@ -11,6 +11,9 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  py.developer-environment.0: 10
+
 ---
 ## Content
 
