@@ -68,7 +68,8 @@ In other words, breaking up mixed code into self-contained components means
 ## Quiz
 ### what is it that you usually use NPM for?
 ```
-What is usually shared on NPM network?```
+What is usually shared on NPM network?
+```
 
  ???
 
@@ -76,4 +77,3 @@ What is usually shared on NPM network?```
 * Cat pictures
 * Bug reports
 * Database keys
-

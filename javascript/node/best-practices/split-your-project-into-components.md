@@ -78,7 +78,8 @@ Can you point out the main reason for breaking up big projects into microservice
 ## Quiz
 ### can you identify a property of microservices?
 ```
-Which of the following properties defines microservices?```
+Which of the following properties defines microservices?
+```
 
  ???
 
@@ -86,4 +87,3 @@ Which of the following properties defines microservices?```
 * Tight coupling
 * Anonymity
 * Low computational power
-

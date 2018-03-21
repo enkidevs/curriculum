@@ -38,7 +38,7 @@ links:
 ---
 ## Content
 
-`concat` is not always the best approach to merging arrays as it generates a new array. 
+`concat` is not always the best approach to merging arrays as it generates a new array.
 
 Since `var`s are passed by reference, `concat` may mess up a reference.
 
@@ -88,8 +88,10 @@ Merge the two arrays in order:
 ---
 ## Quiz
 ### what is the result of the following addition?
+
 ```
-console.log([3, 14] + [2, 71])```
+console.log([3, 14] + [2, 71])
+```
 
  ???
 
@@ -97,4 +99,3 @@ console.log([3, 14] + [2, 71])```
 * 3,14,2,71
 * [3,14,2,71]
 * [5, 85]
-

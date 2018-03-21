@@ -1,4 +1,4 @@
-# Use the `apply` function to get the `min` or `max` of an array
+---
 author: Bruno
 
 levels:
@@ -21,6 +21,10 @@ standards:
 links:
 
   - '[stackoverflow](http://stackoverflow.com/questions/21255138){discussion}'
+
+---
+
+# Use the `apply` function to get the `min` or `max` of an array
 
 ---
 ## Content
@@ -47,7 +51,7 @@ Math.max.apply(Math,[1,3,2])    // 3
 
 ```
 
-The first argument provided to `.apply` is the "context". The value of this context does not matter in this case, but it is common practice when using `.apply` 
+The first argument provided to `.apply` is the "context". The value of this context does not matter in this case, but it is common practice when using `.apply`
 to provide the relevant class as context.
 
 ---
