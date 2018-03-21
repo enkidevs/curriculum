@@ -33,13 +33,13 @@ In the `datetime` module the `time` class is used to represent time values, whil
 The `time` object has attributes for **hours**, **minutes**, **seconds** and **microseconds**, but it can also hold **time-zone** information through the custom `.tzinfo` (also exposed by `datetime` module) attribute.
 
 Its constructor is of the form:
-```py
+```python
 time(hour, minute, second,
               microsecond, tzinfo)
 ```
 
 While all arguments are optional, keep in mind their default value is `0`, so just calling `datetime.time()` will actually create a time object with the earliest possible time representation:
-```py
+```python
 from datetime import time
 my_min = time()
 
@@ -51,7 +51,7 @@ time.min == my_min # True
 ```
 
 On the other hand, the latest representable time is of the form:
-```py
+```python
 my_max = time(23,59,59,999999)
 
 # this is equivalent to
@@ -61,20 +61,20 @@ time.max == my_max # True
 ```
 
 The `date` constructor has all its arguments (**year**, **month**, **day**) mandatory. Keep in mind that if they are not in their respective ranges (e.g. `1 <= month <= 12`) an *error* will be thrown.
-```py
+```python
 from datetime import date
 a_date = date(2017, 6, 26)
 print(a_date) # 2017-6-26
 ```
 
 You can also easily get the current date via the `.today()` method:
-```py
+```python
 current = date.today()
 print(current) # 2017-06-27
 ```
 
 Another way of creating a `date` is from a **timestamp value** (and even from a **proleptic Georgian ordinal value**[1]):
-```py
+```python
 d = date.fromtimestamp(1256953732)
 print(d) # 2009-10-31
 ord = d.toordinal()
@@ -84,7 +84,7 @@ print(ord_date) # 2009-10-31
 ```
 
 Both classes support the `.replace()` method which returns new objects replacing the specified value (in the order they are defined in the constructor).
-```py
+```python
 
 my_time = time(0,2,20)
 print(my_time) # 00:02:20
@@ -98,7 +98,7 @@ print(my_date.replace(1986)) # 1986-06-27
 ## Practice
 
 Complete the following code snippet with the missing gaps such that, by running it, the output will match given comments:
-```py
+```python
 from ??? import date, time
 
 t = time()
@@ -130,7 +130,7 @@ print(d.???) # 727191
 
 Which of the following lines of code can be used to initialize a `date` object of `datetime` module with the **current date**?
 
-```py
+```python
 from datetime import date
 current = ???
 ```

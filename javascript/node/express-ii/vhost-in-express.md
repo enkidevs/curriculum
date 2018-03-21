@@ -30,7 +30,7 @@ $ npm install vhost
 ```
 And imported:
 ```javascript
-var vhost = require('vhost`);
+var vhost = require('vhost');
 ```
 
 The constructor has two parameters: `hostname` and `handler`. The former can be a string or a **RegExp** object. 
@@ -57,7 +57,7 @@ Once the host is matched and the request sent to the handler, the `req.vhost` pr
 ## Revision
 
 What parameters does the `vhost` parameter need ?
-```js
+```javascript
 vhost(???, ???);
 ```
 

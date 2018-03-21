@@ -36,11 +36,11 @@ You cannot work with the data contained in  *ArrayBuffers* directly but must use
 ArrayBuffers can be used to work with raw data containing complex types, convert file formats and when working with the XmlHttpRequest object and binary data.
 
 Declaring a new File Reader instance.
-```JavaScript
+```javascript
 var reader = new FileReader();
 ```
 Reading data as an array buffer and assign it to an array of 8 bit unsigned integers.
-``` JavaScript
+```javascript
 reader.onload = function(e) {
   var chars  = 
   new Uint8Array(reader.result);

@@ -63,7 +63,7 @@ As the **debugger** is an interactive tool, it provides three commands for navig
 - `next`
 
 Considering the **source code** exemplified above, lets see how `list()` command works:
-```py
+```python
 (Pdb) list
 1  -> num_list = [1, 2]
 2     chars = ['a', 'b']
@@ -82,7 +82,7 @@ The current line is indicated by the `->` character. This command is provided wi
 
 The `step` command will **iterate** through the loops showing exactly what the **loop** is doing. The difference between `step` and `next` is that `step` will stop within a called function, while `next` executes called functions to only stop at the next line of the current function.
 
-```sh
+```shell
 (Pdb) step
 > /Users/seba/debug.py(5)<module>()
 -> def nested_loop():
@@ -102,7 +102,7 @@ The `step` command will **iterate** through the loops showing exactly what the *
 
 On the other hand, `next` command executes the next **statement**, without showing everything that happened to evaluate the call.
 
-```sh
+```shell
 (Pdb) next
 > /Users/seba/debug.py(5)<module>()
 -> def nested_loop():

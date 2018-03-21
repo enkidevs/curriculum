@@ -27,13 +27,13 @@ The interactive interpreter can be closed conventionally using _CTRL-D_.
 
 However, this can also be accomplished programmatically:
 
-```python 
+```python
 >>> raise SystemExit
 ```
 
 or
 
-```python 
+```python
 >>> import sys
 >>> sys.exit
 ```

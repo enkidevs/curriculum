@@ -29,8 +29,8 @@ links:
 
 Another useful class provided by `datetime` is called `timedelta`. With this object you can calculate past or future dates along with differences between times.
 
-This object will store an **difference** in time, a delta. Although internally the values are stored only in *days*, *seconds* and *microseconds*, its constructor can accept any argument related to time:
-```py
+This object will store a **difference** in time, a delta. Although internally the values are stored only in *days*, *seconds* and *microseconds*, its constructor can accept any argument related to time:
+```python
 from datetime import timedelta
 from datetime import timedelta
 
@@ -44,7 +44,7 @@ print(minute) # 0:01:00
 ```
 
 You can use standard arithmetic operators to calculate new dates as follows:
-```py
+```python
 from datetime import datetime
 
 today = datetime.today()
@@ -64,7 +64,7 @@ print(day_after_tomorrow)
 ## Practice
 
 Complete the following code snippet such that variable `x` will hold a date exactly 2 weeks from today:
-```py
+```python
 from datetime import datetime, timedelta
 
 today = ???.today()
@@ -95,7 +95,7 @@ x = today ??? delta ???
 ## Revision
 
 Calculate the value of `yesterday`:
-```py
+```python
 from datetime import datetime, timedelta
 
 delta = timedelta(???=???)

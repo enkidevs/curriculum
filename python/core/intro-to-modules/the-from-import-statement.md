@@ -25,7 +25,7 @@ To refer to specific items of a **module** within your program's **namespace**[1
 Using this statement, you basically specify exactly which **definitions** you want to directly reference.
 
 Consider the following module:
-```py
+```python
 # my_functions.py
 
 def hello(what):
@@ -39,7 +39,7 @@ def quad(x):
 
 To access exposed methods of it we could do the following:
 
-```py
+```python
 import my_functions
 
 print(my_functions.cube(3)) # 27
@@ -48,8 +48,8 @@ my_functions.hello('Seba') # Hello, Seba
 
 Instead, we can achieve the same using the `from ... import` statement:
 
-```py
-from my_funcitons import cube, hello
+```python
+from my_functions import cube, hello
 
 cube(3) # 27
 hello('Seba') # Hello, Seba
@@ -58,14 +58,14 @@ hello('Seba') # Hello, Seba
 The main advantage of the `from...import` statement is that it exempts you from using the *dot notation* and thus helps you not repeat yourself.
 
 Note there is one more possible construction available, known as **wildcard imports** - `from..import *`:
-```py
+```python
 from module_name import *
 ```
 
 This simply means, from `module_name` import every item. Keep in mind that wildcard imports should be avoided as they make it unclear which references are present in the current **namespace**, confusing both *readers* and *automated tools*.
 
 You can also rename the item imported to whatever you want using the `as` keyword:
-```py
+```python
 from my_functions import quad as q
 q(3) # 27
 ```
@@ -85,7 +85,7 @@ As you already know, in Python, everything (count modules, classes, functions, l
 
 Consider the two files below - *main* and the *subtractor* module . Complete the missing gaps such that the code will execute with no problem when running `main.py`.
 
-```py
+```python
 # subtractor.py
 def ???
   result = a - b
@@ -93,7 +93,7 @@ def ???
   return result
 ```
 
-```py
+```python
 # main.py
 ??? ??? ??? subtract
             ??? ???
@@ -120,7 +120,7 @@ sub(20, 3)
 ## Revision
 
 How can you specifically import the `calculate_volume` method of `cylinder` module?
-```py
+```python
 ??? ??? ???
     ???
 

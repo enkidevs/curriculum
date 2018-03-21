@@ -29,7 +29,7 @@ links:
 ---
 ## Content
 
-The background image will repeat in both directions by default. Use ```repeat-x``` to repeat the image horizontally and ```repeat-y``` to repeat it vertically.
+The background image will repeat in both directions by default. Use `repeat-x`  to repeat the image horizontally and `repeat-y` to repeat it vertically.
 
 ```css
 body {
@@ -37,7 +37,7 @@ body {
   background-repeat: repeat-x;
 }
 ```
-Use ```no-repeat``` to prevent any background repetition.
+Use `no-repeat` to prevent any background repetition.
 
 ---
 ## Practice
@@ -51,12 +51,12 @@ body {
   background-repeat: ???; 
 } 
 ```
-*`repeat-y` 
-*`y-repeat` 
-*`repeat-x` 
-*`x-repeat` 
-*`vertical` 
-*`horizontal`
+* `repeat-y` 
+* `y-repeat` 
+* `repeat-x` 
+* `x-repeat` 
+* `vertical` 
+* `horizontal`
 
 ---
 ## Revision
