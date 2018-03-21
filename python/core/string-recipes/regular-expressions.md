@@ -1,4 +1,4 @@
-# Regular expressions 
+# Regular expressions
 author: catalin
 
 levels:
@@ -18,6 +18,10 @@ notes: >-
   the various regular expression patterns, such as for matching either pattern1
   or pattern2, matching zero or one of some character, matching 2 to 4 of some
   character, etc.
+
+standards:
+  py.data-structures-uses.5: 10
+  py.native-types-operations.4: 10
 
 links:
 
@@ -46,7 +50,7 @@ text = 'Enki is cool'
 if re.search('Enki', text):
     print("Found it!")
 # output: Found it!
-``` 
+```
 
 To find start and end indexes of your match:
 ```python
@@ -69,12 +73,12 @@ text = “here is abc”
 if ???.???(‘abc’, text)
    print(‘found’)
 ```
-*`re` 
-*`search` 
-*`pattern` 
-*`match` 
-*`find` 
-* `regex` 
+*`re`
+*`search`
+*`pattern`
+*`match`
+*`find`
+* `regex`
 *`reg`
 
 ---
@@ -84,8 +88,8 @@ Which Python module provides text matching patterns using regular expressions?
 
 ???
 
-*`re` 
-*`reg` 
-*`regex` 
-*`matchpat` 
+*`re`
+*`reg`
+*`regex`
+*`matchpat`
 *`RegEx`

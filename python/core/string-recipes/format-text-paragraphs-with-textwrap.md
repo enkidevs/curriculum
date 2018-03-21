@@ -17,6 +17,10 @@ category: how to
 
 notes: String manipulation workout
 
+standards:
+  py.data-structures-uses.5: 10
+  py.native-types-operations.4: 10
+
 links:
 
   - '[pymotw.com](https://pymotw.com/2/textwrap/){website}'
@@ -68,12 +72,12 @@ Truncate `text` to `17` characters max:
 ???.???(text, ???=17)
 ```
 
-*`textwrap` 
-*`shorten` 
-*`width` 
-*`fill` 
-*`format` 
-*`length` 
+*`textwrap`
+*`shorten`
+*`width`
+*`fill`
+*`format`
+*`length`
 *`text`
 
 ---
@@ -84,9 +88,9 @@ Wrap the `text`  with a maximum of 30 chars per line:
 textwrap.???(text, ???=30)
 ```
 
-*`wrap` 
-*`width` 
-*`format` 
-*`fill` 
-*`length` 
+*`wrap`
+*`width`
+*`format`
+*`fill`
+*`length`
 *`max`

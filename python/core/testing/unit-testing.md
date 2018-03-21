@@ -9,6 +9,10 @@ type: normal
 
 category: must-know
 
+standards:
+  py.testing.1: 10
+  py.testing.3: 10
+
 links:
 
   - '[learn more about unit testing](https://docs.python.org/3/library/unittest.html)'
@@ -68,7 +72,7 @@ The full stop displayed above the dashes ('-') indicates how many test have **pa
 - `FAIL` the test fails and rises `AssertionError`;
 - `ERROR` the test fails and doesn't rise `AssertionError`.
 
-For more detailed test results, use the `-v` flag with the command: 
+For more detailed test results, use the `-v` flag with the command:
 ```bash
 $ python -m unittest simple_test.py -v
 ```
