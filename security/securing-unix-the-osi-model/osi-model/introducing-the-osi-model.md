@@ -41,7 +41,8 @@ The following lessons will go into detail about the responsibilities of each lay
 ---
 ## Practice
 
-What is the OSI 7 Layer Model?
+What is the OSI 7 Layer Model?  
+
 ???
 
 
@@ -55,13 +56,13 @@ What is the OSI 7 Layer Model?
 
 The OSI 7 Layer Model is ordered, from bottom to top, in the following order:
 
-1. ???
-2. ???
-3. ???
-4. ???
-5. ???
-6. ???
-7. ???
+??? 1.  
+??? 2.  
+??? 3.  
+??? 4.  
+??? 5.  
+??? 6.  
+??? 7.  
 
 
 * Physical Layer
@@ -79,7 +80,7 @@ The OSI 7 Layer Model is ordered, from bottom to top, in the following order:
 What is the OSI 7 Layer Model?
 ```
 
- ???
+???
 
 * a flexible standard for various network configurations
 * a hard standard for various network configurations
