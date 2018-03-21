@@ -32,7 +32,7 @@ links:
 ---
 ## Content
 
-`split` takes a regular expression and splits the string around occurrences of this expression into an array of strings. 
+`split` takes a regular expression and splits the string around occurrences of this expression into an array of strings.
 ```
 String s = "I ate 6 pancakes, 4
   digestives, 2 boxes of cherries, then
@@ -66,9 +66,13 @@ Java’s split method ignores any trailing empty Strings.
 ### how does string splitting work?
 ```
 // What's the value of l?
-int l = "Hi-there-are-you-alright
+  int l = "Hi-there-are-you-alright---".split("-").length +
+      "---Hi-there-are-you-alright".split("-").length;
 ```
 
  ???
 
-
+* 13
+* 10
+* 16
+* 12
