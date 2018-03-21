@@ -34,7 +34,7 @@ Find a list of all python modules installed on a machine by running the followin
 
 
 ```bash
-$> pydoc modules
+$> pydoc modules 
 ```
 
 or

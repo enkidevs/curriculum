@@ -26,7 +26,7 @@ Every Linux system has a number of *network interfaces*, each of which correspon
 
 The `ifconfig` command will display a list of network interfaces along with their current status and associated information.  Here is some example output (`...` is used in place of some data to ensure the output fits on screen):
 
-```console
+```shell
 $ ifconfig
 eth0
 Link encap:Ethernet  HWaddr ...

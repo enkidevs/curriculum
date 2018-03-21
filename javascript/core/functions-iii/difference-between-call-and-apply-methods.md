@@ -35,7 +35,7 @@ The main difference between the two methods is the way they handle arguments.
 
 **Example**
 
-```c++
+```javascript
 function.call(obj, 1, 2, 3);
 function.apply(obj, [1, 2, 3]);
 ```

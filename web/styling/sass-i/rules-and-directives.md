@@ -26,17 +26,17 @@ On top of supporting all CSS3 @-rules, Sass has it's own specific @-rules, known
 `@import` is extended by Sass to allow SCSS and Sass files to be imported. All imported files are merged together into one CSS file. 
 
 `@import` takes a filename to import, it's default is to look for a *.sass* file to import.
-```CSS
+```css
 // both import the same file
 @import "file.sass";       
 @import "file";
 ```
 `@debug` prints the value of a *SassScript* expression to the output stream. It's used for debugging Sass files which include complicated SassScript code.
-```CSS
+```css
 @debug 6px + 12px;
 ```
 This would output:
-```CSS
+```css
 Line 1 DEBUG: 18px
 ```
 
@@ -61,7 +61,7 @@ Line 1 DEBUG: 42px
 ## Revision
 
 Which of the following lines of SassScript code *wouldn't* produce the following output?
-``` css
+```css
 Line 1 DEBUG: 80%
 ```
 ???

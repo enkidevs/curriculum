@@ -33,7 +33,7 @@ Note that at the time of writing the name for this event and hidden property dif
 
 Detecting visibility changes:
 
-```JavaScript
+```javascript
 document
 .addEventListener("visibilitychange", 
 function(){

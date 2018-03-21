@@ -35,7 +35,7 @@ Each module, in order to be recognized by the interpreter, has to have the `.py`
 
 Consider the python file `my_adder.py`. Plainly, this **module**'s name is `my_adder`.
 
-```py
+```python
 # consider module in adder.py:
 
 def add(a, b):
