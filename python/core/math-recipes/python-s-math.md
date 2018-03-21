@@ -29,6 +29,8 @@ notes: |+
   of modf and also mention fmod and the
   difference between them.
 
+standards:
+  py.standard-library-data.1: 10
 
 links:
 
@@ -64,7 +66,7 @@ Factorial and gamma (factorial for real numbers) operations can be calculated:
 math.factorial(intNr)
 math.gamma(realNr)
 
-``` 
+```
 
 Trigonometric functions:
 ```pyton
@@ -94,10 +96,10 @@ import math
 ???.???(var)
 ```
 
-*`math` 
-*`isinf` 
-*`mathematics` 
-*`is_inf` 
+*`math`
+*`isinf`
+*`mathematics`
+*`is_inf`
 *`infinite`
 
 ---
@@ -108,8 +110,8 @@ Using the `math`  module, assign to `a` the value of `PI` :
 a = ???.???
 ```
 
-*`math` 
-*`pi` 
-*`constants` 
-*`e` 
+*`math`
+*`pi`
+*`constants`
+*`e`
 *`3.14`

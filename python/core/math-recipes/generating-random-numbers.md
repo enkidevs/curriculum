@@ -15,6 +15,9 @@ inAlgoPool: false
 
 category: feature
 
+standards:
+  py.standard-library-data.0: 10
+
 notes: Math modules workout
 
 links:
@@ -74,13 +77,13 @@ Generate a random Integer between `5` and `10` :
 print(???.???(5, 10))
 ```
 
-*`random` 
-*`randint` 
-*`randomint` 
-*`get` 
-*`new` 
-*`randomrange` 
-*`randrange` 
+*`random`
+*`randint`
+*`randomint`
+*`get`
+*`new`
+*`randomrange`
+*`randrange`
 *`uniform`
 
 ---
@@ -91,7 +94,7 @@ Generate a random number between 0 and 1:
 print(random.???())
 ```
 
-*`random` 
-*`new` 
-*`get` 
+*`random`
+*`new`
+*`get`
 *`new_random`

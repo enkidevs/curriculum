@@ -14,6 +14,7 @@ category: must-know
 standards:
   py.store-manipulate-data.0: 10
   py.store-manipulate-data.1: 10
+  py.store-manipulate-data.6 :10
 
 
 links:

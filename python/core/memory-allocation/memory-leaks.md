@@ -9,6 +9,9 @@ type: normal
 
 category: must-know
 
+standards:
+  py.store-manipulate-data.5: 10
+
 links:
     - '(Diagnosing memory leaks)[http://chase-seibert.github.io/blog/2013/08/03/diagnosing-memory-leaks-python.html]'
 
