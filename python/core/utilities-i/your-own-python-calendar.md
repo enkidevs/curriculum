@@ -1,4 +1,4 @@
-# Your own Python `calendar` 
+# Your own Python `calendar`
 author: catalin
 
 levels:
@@ -18,6 +18,9 @@ notes: |
   print(calendar.calendar(2016))
 
   to show how to print calendar for a year.
+
+standards:
+  py.native-types-operations.8: 10
 
 links:
 
@@ -78,12 +81,12 @@ Set the first day of the week of your `calendar` to be Monday:
 
 ```
 calendar.??? \
-  (calendar.MONDAY) 
+  (calendar.MONDAY)
 ```
-*`setfirstweekday` 
-*`setweekday` 
-*`setfirstday` 
-*`firstweekday` 
+*`setfirstweekday`
+*`setweekday`
+*`setfirstday`
+*`firstweekday`
 *`firstday`
 
 ---
@@ -96,7 +99,7 @@ import calendar
 print(calendar.???(2016))
 ```
 
-*`calendar` 
-*`year` 
-*`currentYear` 
+*`calendar`
+*`year`
+*`currentYear`
 *`annum`

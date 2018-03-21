@@ -13,6 +13,11 @@ type: normal
 
 category: feature
 
+standards:
+  py.data-structures-uses.5: 10
+  py.modules.0: 10
+  py.native-types-operations.4: 10
+
 links:
 
   - '[pymotw.com](https://pymotw.com/2/difflib/){website}'
@@ -45,7 +50,7 @@ This will print the whole text once again with differences highlighted by line w
 # -f / -g / -h
 # +i / +j / +k
 ```
-The same result is achieved with `difflib.ndiff`. 
+The same result is achieved with `difflib.ndiff`.
 
 To show only the differences and some context:
 ```python

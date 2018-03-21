@@ -13,6 +13,11 @@ category: how to
 
 parent: compare-sequences-with-difflib
 
+standards:
+  py.native-types-operations.4: 10
+  py.data-structures-uses.5: 10
+  py.modules.0: 10
+
 links:
 
   - >-
@@ -21,7 +26,7 @@ links:
 ---
 ## Content
 
-The `SequenceMatcher` class inside `difflib` has its constructor's first argument either defaulted to `None` or a one-argument function that takes a sequence and returns true if the element is **junk** and is to be ignored. 
+The `SequenceMatcher` class inside `difflib` has its constructor's first argument either defaulted to `None` or a one-argument function that takes a sequence and returns true if the element is **junk** and is to be ignored.
 
 For the sake of the argument we will work with this class' function called `find_longest_match` that will search for the largest match between two sequences[1]:
 ```python

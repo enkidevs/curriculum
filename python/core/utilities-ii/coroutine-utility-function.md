@@ -11,6 +11,10 @@ type: normal
 
 category: feature
 
+standards:
+  py.control-structures.5: 10
+  py.modules.0: 10
+
 links:
 
   - >-
@@ -19,7 +23,7 @@ links:
 ---
 ## Content
 
-Inside **Python**'s ` types`  module one can find the `coroutine` function since the introduction of **Python 3.5**. 
+Inside **Python**'s ` types`  module one can find the `coroutine` function since the introduction of **Python 3.5**.
 
 This function is used to transform a **generator function** into a **coroutine function**, returning a generator-based coroutine.
 
