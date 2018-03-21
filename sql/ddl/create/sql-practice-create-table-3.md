@@ -15,9 +15,9 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/
+link: http://sqlfiddle.com/#!9/9eecb/23009
 
-answer: done
+answer: 0
 
 standards:
   sql.define-tables.0: 1000
@@ -40,3 +40,9 @@ Create a table called `items`. This table should contain the following columns, 
 - pictures_id, for example: "IP001"
 - name, for example: "pink hat"
 - daily_price, for example: 10.43, 11,
+
+In order to check your results:
+- create the table,
+- build the schema,
+- run the provided query,
+- and provide the result in the answer field

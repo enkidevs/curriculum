@@ -15,9 +15,9 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/
+link: http://sqlfiddle.com/#!9/9eecb/23012
 
-answer: done
+answer: 0
 
 standards:
   sql.define-tables.0: 1000
@@ -40,3 +40,9 @@ Create a table called `requests`. This table should contain the following column
 - date_from, for example: "12/02/2017",
 - date_until, for example: "12/02/2017",
 - accepted, for example: "true" or "false"
+
+In order to check your results:
+- create the table,
+- build the schema,
+- run the provided query,
+- and provide the result in the answer field

@@ -15,9 +15,9 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/
+link: http://sqlfiddle.com/#!9/9eecb/23003
 
-answer: done
+answer: 0
 
 standards:
   sql.define-tables.0: 1000
@@ -37,3 +37,9 @@ links:
 Create a table called `item_pictures`. This table should contain the following columns, storing the following values:
 - item, for example: "IP001", "IP002",
 - URL: "https://www.w3schools.com/w3css/img_fjords.jpg"
+
+In order to check your results:
+- create the table,
+- build the schema,
+- run the provided query,
+- and provide the result in the answer field
