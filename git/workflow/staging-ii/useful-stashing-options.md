@@ -1,4 +1,4 @@
-# Useful stashing options
+---
 author: rosielowther
 
 levels:
@@ -19,6 +19,10 @@ links:
 
   - >-
     [git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning){website}
+
+---
+
+# Useful stashing options
 
 ---
 ## Content
