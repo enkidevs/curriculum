@@ -11,13 +11,13 @@ category: must-know
 
 parent: the-queue-data-structure
 ---
+
+# What should it be stored in?
+
+---
 ## Content
 
 Choose the data structures that would best fit the examples.
-
----
-
-# What should it be stored in?
 
 ---
 ## Game Content

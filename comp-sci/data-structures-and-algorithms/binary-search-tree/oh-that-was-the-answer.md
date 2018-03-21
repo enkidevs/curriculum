@@ -12,14 +12,16 @@ type: tetris
 category: must-know
 
 parent: primality-test
----
-## Content
-
-Are the following functions' upper bound (Big-Oh) true?
 
 ---
 
 # Big-Oh, that was the answer!
+
+---
+
+## Content
+
+Are the following functions' upper bound (Big-Oh) true?
 
 ---
 ## Game Content
