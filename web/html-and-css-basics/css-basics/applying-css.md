@@ -1,4 +1,4 @@
-# Applying CSS
+---
 author: mihaiberq
 
 levels:
@@ -7,9 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# Applying CSS
 
 ---
 ## Content
@@ -45,11 +52,12 @@ Complete the HTML snippet to import an external CSS file:
 </head>
 ```
 
-*`link`
-*`rel`
-*`href`
-*`import`
-*`name`
+
+* `link`
+* `rel`
+* `href`
+* `import`
+* `name`
 
 ---
 ## Revision
@@ -57,6 +65,8 @@ Complete the HTML snippet to import an external CSS file:
 What is the recommended way of applying CSS?
 
 ???
-*External file.
-*Internal CSS.
-*Inline CSS.
+
+* External file.
+* Internal CSS.
+* Inline CSS.
+

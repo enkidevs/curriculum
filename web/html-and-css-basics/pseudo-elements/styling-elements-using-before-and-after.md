@@ -1,4 +1,4 @@
-# Styling elements using `::before` and `::after`
+---
 author: ailiea
 
 levels:
@@ -17,15 +17,17 @@ tags:
 
   - after
 
+
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/::after){website}
-
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/%3A%3Abefore){website}
-
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/::after){website}'
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/%3A%3Abefore){website}'
   - '[codepen.io](http://codepen.io/anon/pen/MKgrXB){website}'
+
+
+---
+
+# Styling elements using `::before` and `::after`
 
 ---
 ## Content
@@ -61,6 +63,7 @@ This adds a red __#__ at the start of every `p` element and a blue __?__ at the 
 
 
 Both `::before` and `::after` can be used to display shapes, images or even borders.
+
 ---
 ## Practice
 
@@ -68,10 +71,11 @@ Which CSS property is mandatory to display `::before` and `::after` pseudo-eleme
 
  ???
 
-*`content`
-*`element`
-*`div`
-*`class`
+
+* `content`
+* `element`
+* `div`
+* `class`
 
 ---
 ## Revision
@@ -90,6 +94,8 @@ div::after {
 ```
 ???
 
+
 * Adds a white Hello! before every div element with a black Goodbye! after.
 * Adds a white Hello! after every div element with a black Goodbye! before.
 * It does nothing, improper CSS.
+

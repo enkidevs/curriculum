@@ -1,4 +1,4 @@
-# Making shapes with `transform`
+---
 author: oj14henry
 
 levels:
@@ -15,12 +15,17 @@ category: how to
 
 tags:
 
-  - 'transform '
+  - transform 
+
 
 links:
 
-  - >-
-    [css-tricks.com](https://css-tricks.com/working-with-shapes-in-web-design/){website}
+  - '[css-tricks.com](https://css-tricks.com/working-with-shapes-in-web-design/){website}'
+
+
+---
+
+# Making shapes with `transform`
 
 ---
 ## Content
@@ -63,6 +68,7 @@ What are the missing values required to transform a diamond into a square?
    transform: ???(???);
 }
 ```
+
 * `rotate`
 * `-45deg`
 * `translate`
@@ -70,3 +76,4 @@ What are the missing values required to transform a diamond into a square?
 * `-45%`
 * `90deg`
 * `center`
+

@@ -1,4 +1,4 @@
-# Matching images to a website's color scheme
+---
 author: oj14henry
 
 levels:
@@ -21,10 +21,15 @@ tags:
 
   - image
 
+
 links:
 
-  - >-
-    [carlosmartinezt.com](http://carlosmartinezt.com/2014/04/css-tricks-for-2014/){website}
+  - '[carlosmartinezt.com](http://carlosmartinezt.com/2014/04/css-tricks-for-2014/){website}'
+
+
+---
+
+# Matching images to a website's color scheme
 
 ---
 ## Content
@@ -60,7 +65,9 @@ filter: sepia(1.0)
         ???(250deg);
 ```
 
+
 * `hue-rotate`
 * `hue`
 * `hue-diff`
 * `hue-change`
+

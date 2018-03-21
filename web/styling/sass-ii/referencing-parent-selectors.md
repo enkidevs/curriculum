@@ -1,4 +1,4 @@
-# Referencing Parent Selectors
+---
 author: tommarshall
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: tip
 
+
 links:
 
-  - >-
-    [thesassway.com](http://thesassway.com/intermediate/referencing-parent-selectors-using-ampersand){website}
+  - '[thesassway.com](http://thesassway.com/intermediate/referencing-parent-selectors-using-ampersand){website}'
+
+
+---
+
+# Referencing Parent Selectors
 
 ---
 ## Content
@@ -52,9 +57,11 @@ body.firefox p {
 
 When referencing parent selectors, what symbol is used and what happens to this symbol upon compilation from Sass to CSS? ???
 
+
 * &, it's replaced by the referenced parent selector.
 * &, nothing, it remains there alongside the parent selector.
 * +, it's replaced by the referenced parent selector.
 * +, nothing, it remains there alongside the parent selector.
 * !, it's replaced by the referenced parent selector.
 * !, nothing, it remains there alongside the parent selector.
+

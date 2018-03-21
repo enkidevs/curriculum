@@ -1,4 +1,4 @@
-# Using animation delay in debugging
+---
 author: NomaDube
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: hack
 
+
 links:
 
-  - >-
-    [css-tricks.com](https://css-tricks.com/debugging-css-keyframe-animations/){website}
+  - '[css-tricks.com](https://css-tricks.com/debugging-css-keyframe-animations/){website}'
+
+
+---
+
+# Using animation delay in debugging
 
 ---
 ## Content
@@ -48,13 +53,14 @@ Pause the animation at second 4:
   ???: ???;
   ???: ???;
 ```
-*`animation-play-state`
-*`paused`
-*`animation-delay`
-*`-4`
-*`4`
-*`stop`
-*`animation-time`
+
+* `animation-play-state`
+* `paused`
+* `animation-delay`
+* `-4`
+* `4`
+* `stop`
+* `animation-time`
 
 ---
 ## Revision
@@ -68,6 +74,8 @@ animation-play-state: paused;
 ```
 ???
 
+
 * Line 3
 * Line 2
 * Line 1
+

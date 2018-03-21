@@ -1,4 +1,4 @@
-# Using `@media` rule to create cross platform responsiveness
+---
 author: Demonus
 
 levels:
@@ -11,7 +11,7 @@ category: feature
 
 tags:
 
-  - '@media'
+  - @media
 
   - responsive
 
@@ -19,7 +19,13 @@ tags:
 
   - multidevice
 
+
+
 notes: The length of the topic might be an issue
+
+---
+
+# Using `@media` rule to create cross platform responsiveness
 
 ---
 ## Content
@@ -57,10 +63,11 @@ img {
 }
 ```
 ???
-*Devices with width smaller than 720px.
-*Devices with width larger than 720px.
-*They will look the same.
-*Devices with height smaller than 720px.
+
+* Devices with width smaller than 720px.
+* Devices with width larger than 720px.
+* They will look the same.
+* Devices with height smaller than 720px.
 
 ---
 ## Revision
@@ -79,9 +86,11 @@ Complete the following code snippet to align text to the centre if the device is
 }
 ```
 
-*`@media`
-*`600px`
-*`@inherit`
-*`@device`
-*`600pix`
-*`750px`
+
+* `@media`
+* `600px`
+* `@inherit`
+* `@device`
+* `600pix`
+* `750px`
+

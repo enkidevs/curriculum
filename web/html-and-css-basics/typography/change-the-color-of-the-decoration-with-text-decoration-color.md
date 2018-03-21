@@ -1,4 +1,4 @@
-# Change the color of the decoration with `text-decoration-color`
+---
 author: Mathieu
 
 levels:
@@ -11,14 +11,17 @@ type: normal
 
 category: how to
 
-parent: underline-feature-on-html-elements
-
-notes: 'https://css-tricks.com/more-control-over-text-decoration/'
 
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/fr/docs/Web/CSS/text-decoration){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/fr/docs/Web/CSS/text-decoration){website}'
+
+parent: underline-feature-on-html-elements
+notes: 'https://css-tricks.com/more-control-over-text-decoration/'
+
+---
+
+# Change the color of the decoration with `text-decoration-color`
 
 ---
 ## Content
@@ -37,6 +40,8 @@ The only browser that currently supports this property is `Firefox`.
 ## Revision
 
 What is the default text decoration colour? And with what property can this be changed? ???
+
 * Default colour is the text colour. Changed with `text-decoration-color:`.
 * Default colour is black. Changed with `text-decoration-colour:`.
 * Default colour is white. Cannot be changed.
+

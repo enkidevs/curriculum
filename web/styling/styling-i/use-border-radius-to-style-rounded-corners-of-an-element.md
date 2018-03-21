@@ -1,4 +1,4 @@
-# Use `border-radius` to style rounded corners of an element
+---
 author: priyankinirmal
 
 levels:
@@ -19,9 +19,15 @@ tags:
 
   - borders
 
+
 links:
 
   - '[www.css3.info](http://www.css3.info/preview/rounded-border/){website}'
+
+
+---
+
+# Use `border-radius` to style rounded corners of an element
 
 ---
 ## Content
@@ -57,7 +63,9 @@ Consider the snippet:
 The first number in the two-values syntax of the `border-radius` will shape
 
 ???
-*top-left and bottom-right corners
-*top-left and bottom-left corners
-*top-right and bottom-left corners
-*top-right and bottom-right corners
+
+* top-left and bottom-right corners
+* top-left and bottom-left corners
+* top-right and bottom-left corners
+* top-right and bottom-right corners
+
