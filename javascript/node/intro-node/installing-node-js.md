@@ -11,9 +11,6 @@ inAlgoPool: false
 
 category: must-know
 
-standards:
-  js.node-developer-environment: 10
-
 parent: what-is-nodejs
 
 tags:
