@@ -1,4 +1,4 @@
-# JavaScript: Hard Mode II
+---
 author: jordanfish
 
 levels:
@@ -13,6 +13,10 @@ type: fillTheGap
 category: tip
 
 notes: Kangax quiz
+
+---
+
+# JavaScript: Hard Mode II
 
 ---
 ## Content

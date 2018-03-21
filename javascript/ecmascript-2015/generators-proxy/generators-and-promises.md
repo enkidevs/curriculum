@@ -1,4 +1,4 @@
-# Generators and Promises.
+---
 author: gregbenner
 
 levels:
@@ -24,9 +24,13 @@ tags:
 links:
 
   - '[MDN - Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
-  
+
   - '[MDN - Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}'
-  
+
+---
+
+# Generators and Promises
+
 ---
 ## Content
 
@@ -141,4 +145,3 @@ Promise.???(
 %exp
 The `all()` function returns a single promise that resolves when all promises passed as an array in the arguments have resolved, or rejects with the first rejected promise's error.
 %
-
