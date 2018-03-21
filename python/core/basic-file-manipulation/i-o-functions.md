@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  py.standard-library-operating-system.5: 10
+
 links:
 
   - '[More information about I/O](https://www.tutorialspoint.com/python/python_files_io.htm)'
