@@ -15,6 +15,11 @@ category: how to
 
 parent: easy-way-to-deliver-html-pages-with-express
 
+standards:
+  js.express-server.1: 10
+  js.express-server.4: 10
+  cs.http-request-response.12: 10
+
 links:
 
   - '[github.com](https://github.com/expressjs/cookie-session){website}'
@@ -22,7 +27,7 @@ links:
 ---
 ## Content
 
-By choosing to implement sessions in **Express** with the help of cookies, a `session` object will be added to the `request` object. 
+By choosing to implement sessions in **Express** with the help of cookies, a `session` object will be added to the `request` object.
 
 With the introduction of **Express 4.0**, `cookie-session` is a separate module that must be installed:
 ```bash

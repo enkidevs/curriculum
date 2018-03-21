@@ -11,6 +11,10 @@ type: normal
 
 category: how to
 
+standards:
+  js.express-server.0: 10
+  js.express-server.1: 10
+
 links:
 
   - >-
@@ -51,7 +55,7 @@ Files will be firstly looked for in `/first` then in `/second` as a fallback.
 ---
 ## Practice
 
-Require the requisite module used to deliver  HTML pages: 
+Require the requisite module used to deliver  HTML pages:
 
 ```javascript
 var ??? = require('???');

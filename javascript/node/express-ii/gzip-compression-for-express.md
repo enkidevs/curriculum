@@ -13,6 +13,9 @@ category: must-know
 
 parent: easy-way-to-deliver-html-pages-with-express
 
+standards:
+  js.express-server.4: 10
+
 links:
 
   - '[github.com](https://github.com/expressjs/compression){website}'
@@ -22,7 +25,7 @@ links:
 
 Using **Gzip** compression middleware in **Express** is a must when talking about loading speed optimization for websites/webapps. This practice can reduce more than 70% size of the packets on a certain website.
 
-The web server can compress results before sending a response if the request is made by a **gzip** compatible browser. If this is the case, the browser will be able to decompress the response. 
+The web server can compress results before sending a response if the request is made by a **gzip** compatible browser. If this is the case, the browser will be able to decompress the response.
 
 Browsers that don't support *gzip compression* will receive the original files (bigger than compressed ones).
 

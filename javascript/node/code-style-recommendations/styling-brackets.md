@@ -9,6 +9,9 @@ type: normal
 
 category: tip
 
+standards:
+  js.identify-common-design-patterns.7: 10
+
 tags:
   - introduction
 
@@ -141,7 +144,7 @@ function C()
 ---
 ## Revision
 
-What is the name of the JavaScript property acting upon the following return clause?
+What is the name of the JavaScript language feature acting upon the following return clause?
 ```js
 function tictac() {
   return

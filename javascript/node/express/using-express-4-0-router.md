@@ -13,6 +13,11 @@ category: must-know
 
 parent: easy-way-to-deliver-html-pages-with-express
 
+standards:
+  js.express-server.1: 10
+  js.express-server.2: 10
+  js.express-server.4: 10
+
 links:
 
   - >-
@@ -40,7 +45,7 @@ router.get('/', function(req, res) {
     res.send('first page');  
 });
 router.get('/enki', function(req, res) {
-    res.send('enki page'); 
+    res.send('enki page');
 });
 
 ```
@@ -65,17 +70,17 @@ Complete the below code snippet:
 
 ```
 ???.use(
-  function(req, res, ???) { 
-    console.log(req.method, req.url); 
-    ???; 
-}); 
+  function(req, res, ???) {
+    console.log(req.method, req.url);
+    ???;
+});
 ```
-*`router` 
-*`next` 
-*`next()` 
-*`callback()` 
+*`router`
+*`next`
+*`next()`
+*`callback()`
 *`done()`  
-*`env` 
+*`env`
 *`app`
 
 ---

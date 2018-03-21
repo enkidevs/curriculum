@@ -11,6 +11,9 @@ type: normal
 
 category: hack
 
+standards:
+  js.node-standard-library-os.6: 10
+
 links:
 
   - '[Source](https://github.com/facebook/react/issues/812#issuecomment-172929366){website}'

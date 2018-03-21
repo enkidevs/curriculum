@@ -13,6 +13,10 @@ category: how to
 
 parent: easy-way-to-deliver-html-pages-with-express
 
+standards:
+  js.express-server.1: 10
+  js.express-server.9: 10
+
 links:
 
   - '[github.com](https://github.com/expressjs/errorhandler){website}'
@@ -49,9 +53,9 @@ Which express module is designed as a development only error handling middleware
 
 ???
 
-*`errorhandler` 
-*`error-handler` 
-*`error-handling` 
+*`errorhandler`
+*`error-handler`
+*`error-handling`
 *`error`
 
 ---

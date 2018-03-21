@@ -13,6 +13,9 @@ category: must-know
 
 parent: easy-way-to-deliver-html-pages-with-express
 
+standards:
+  js.express-server.4: 10
+
 links:
 
   - >-
@@ -44,12 +47,12 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
  extended: false }));
 
-``` 
+```
 The most common way to use `body-parser` with `express` is to add it specifically to the routes:
 ```javascript
 var jsonParser = bodyParser.json()
 // POST /myRoute gets JSON bodies
-app.post('/myRoute', jsonParser, 
+app.post('/myRoute', jsonParser,
 function (req, res) {
   //your code here
  };
@@ -63,16 +66,16 @@ Parse `x-ww-form-urlencoded`:
 
 ```
 app.use(
-  bodyParser.???({ 
+  bodyParser.???({
    extended: ???
-})); 
+}));
 ```
-*`urlencoded` 
-*`false` 
+*`urlencoded`
+*`false`
 *`true`
 *`parse`
-*`undefined` 
-*`encoded` 
+*`undefined`
+*`encoded`
 *`json`
 
 ---

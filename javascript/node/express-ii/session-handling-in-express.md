@@ -13,6 +13,10 @@ category: how to
 
 parent: easy-way-to-deliver-html-pages-with-express
 
+standards:
+  js.express-server.4: 10
+  cs.http-request-response.12: 10
+
 links:
 
   - >-
@@ -65,7 +69,7 @@ app.???('/', function(req, ???) {
 * this
 * sess
 * session
-* app 
+* app
 * func
 * run
 

@@ -15,6 +15,11 @@ category: must-know
 
 parent: easy-way-to-deliver-html-pages-with-express
 
+standards:
+  js.express-server.1: 10
+  js.express-server.7: 10
+  js.express-server.8: 10
+
 links:
 
   - '[node-tricks.com](http://node-tricks.com/response-object/){website}'

@@ -15,6 +15,9 @@ category: how to
 
 parent: easy-way-to-deliver-html-pages-with-express
 
+standards:
+  js.express-server.4: 10
+
 links:
 
   - '[github.com](https://github.com/expressjs/morgan){website}'
@@ -40,13 +43,13 @@ app.use(morgan('tiny'));
 The `format` can be a string or a function that will produce a log entry (tokens are of help here). Predefined names include `dev`, `combined`, `short` etc.
 
 Options worth mentioning are:
-- `immediate` that will write log lines on request instead of response (requests will be logged even when server has crashed) 
+- `immediate` that will write log lines on request instead of response (requests will be logged even when server has crashed)
 - `skip` that determines when logging should be skipped.
 
 To only log error responses:
 ```javascript
 morgan('combined', {
-  skip: function (req, res) { 
+  skip: function (req, res) {
     return res.statusCode < 400 }
 });
 
