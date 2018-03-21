@@ -31,7 +31,7 @@ links:
 
 Common idiom:
 
-```
+```javascript
 var nums = [1, 3, 2]
 Math.max.apply(Math,nums) // 3
 Math.min.apply(Math,nums) // 1
@@ -41,7 +41,7 @@ Note that `apply` is required here because `Math.max` does not directly support 
 
 More examples:
 
-```
+```javascript
 Math.max(1,3,2)                 // 3
 Math.max([1,3,2])             // NaN
 Math.max.apply([1,3,2]) // -Infinity
@@ -63,10 +63,10 @@ Math.max.apply(null, [5,8,2]);
 // ???
 ```
 
-*`8`
-*`NaN`
-*`-Infinity`
-*`5`
+* `8`
+* `NaN`
+* `-Infinity`
+* `5`
 
 ---
 ## Revision
@@ -77,7 +77,7 @@ Math.max.apply(null, [5,8,2]);
 // ???
 ```
 
-*`8`
-*`NaN`
-*`-Infinity`
-*`5`
+* `8`
+* `NaN`
+* `-Infinity`
+* `5`
