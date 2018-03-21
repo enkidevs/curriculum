@@ -10,7 +10,7 @@ type: normal
 category: must-know
 
 standards:
-  py.store-manipulate-data.6 :10
+  py.store-manipulate-data.6: 10
 
 ---
 ## Content
