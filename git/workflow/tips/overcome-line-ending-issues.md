@@ -57,12 +57,11 @@ $ git ??? ???
 ## Revision
 
 To enable `core.autocrlf`, its value should be set to:
-- Windows   ???
-- Linux/Mac   ???
+Windows   ???  
+Linux/Mac   ???  
 
 
 * true
 * input
 * start
 * -true
-
