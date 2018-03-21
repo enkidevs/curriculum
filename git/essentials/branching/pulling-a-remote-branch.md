@@ -24,7 +24,7 @@ links:
 
 `git pull` is a command that combines `git fetch` and `git merge`.
 
-For example, to fetch and merge the branch `master` with the current branch: 
+For example, to fetch and merge the branch `master` with the current branch:
 ```
 $ git pull origin
 ```
@@ -61,9 +61,12 @@ $ git ??? origin
 
 ---
 ## Quiz
+
 ### what does the -a flag in the following command stand for?
-```
-# What option related to fetching is `-a` shorthand for in the following command?
+
+What option related to fetching is `-a` shorthand for in the following command?
+
+```bash
 $ git pull -a
 ```
 
@@ -73,4 +76,3 @@ $ git pull -a
 * --amend
 * --all
 * --autostash
-

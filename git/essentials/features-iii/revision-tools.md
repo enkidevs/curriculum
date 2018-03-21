@@ -31,7 +31,7 @@ $ git log ^master tests
 $ git log tests --not master
 # shows commits on the tests
 # branch that are not on master
-``` 
+```
 Triple dots are used to show commits that are in one branch but not in both:
 ```
 $ git log master...tests
@@ -72,11 +72,17 @@ Is equivalent to
 
 ---
 ## Quiz
+
 ### how can you specify a range of commits?
+
+Consider the following git history
+
+```bash
+*--*--*--A--*--*--*--B--*
 ```
-# Consider the following git history *--*--*--A--*--*--*--B--*
-# Which of the following commands should be used to log all commits between A and B (inclusive)?
-```
+
+Which of the following commands should be used to log all commits between A and B (inclusive)?
+
 
  ???
 
@@ -84,4 +90,3 @@ Is equivalent to
 * git log A..B
 * git log A…B
 * git log ^A B
-
