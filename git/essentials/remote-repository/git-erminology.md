@@ -1,4 +1,4 @@
-# Git-erminology
+---
 author: mihaiberq
 
 levels:
@@ -15,6 +15,10 @@ parent: what-is-git
 ## Content
 
 Think you know the right git terminology used for the following concepts?
+
+---
+
+# Git-erminology
 
 ---
 ## Game Content
