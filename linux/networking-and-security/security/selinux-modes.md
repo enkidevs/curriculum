@@ -1,4 +1,4 @@
-# **SELinux**  modes
+---
 author: catalin
 
 levels:
@@ -10,6 +10,13 @@ levels:
 type: normal
 
 category: feature
+
+
+
+
+---
+
+# **SELinux**  modes
 
 ---
 ## Content
@@ -45,6 +52,7 @@ How do you change **SELinux** settings to only *warn* and *log* :
 $ ??? ???
 ```
 
+
 * `setenforce`
 * `permissive`
 * `getenforce`
@@ -58,7 +66,9 @@ $ ??? ???
 
 _SELinux_ is a ???.
 
-*kernel security module
-*terminal browser
-*Linux distribution
-*hacker group
+
+* kernel security module
+* terminal browser
+* Linux distribution
+* hacker group
+

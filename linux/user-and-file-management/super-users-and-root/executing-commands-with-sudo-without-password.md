@@ -1,4 +1,4 @@
-# Executing commands with `sudo` without password
+---
 author: tuwi.dc
 
 levels:
@@ -12,13 +12,22 @@ type: normal
 category: how to
 
 tags:
+
   - linux
+
   - sudo
+
   - password
+
   - workout
 
 
+
 notes: ''
+
+---
+
+# Executing commands with `sudo` without password
 
 ---
 ## Content
@@ -60,7 +69,9 @@ YourUserName ALL=(ALL) NOPASSWD: ALL
 You can disable the `sudo` password by modifying the
 
  ??? file.
+
 * `/etc/sudoers`
 * `/etc/visudo`
 * `/etc/passwd`
 * `~/.bashrc`
+

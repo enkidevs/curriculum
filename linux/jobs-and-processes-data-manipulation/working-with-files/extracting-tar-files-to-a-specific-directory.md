@@ -1,4 +1,4 @@
-# Extracting `tar` files to a specific directory
+---
 author: tuwi.dc
 
 levels:
@@ -23,6 +23,13 @@ tags:
 
   - compress
 
+
+
+
+---
+
+# Extracting `tar` files to a specific directory
+
 ---
 ## Content
 
@@ -36,7 +43,9 @@ $ tar -xf archive.tar -C /target/directory
 
 To extract a tar archive to a different directory than the current one, the ??? flag should be used.
 
-*-C
-*-l
-*-p
-*-L
+
+* -C
+* -l
+* -p
+* -L
+

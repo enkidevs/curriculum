@@ -1,4 +1,4 @@
-# The Basics of Command Substitution
+---
 author: jfarmer
 
 levels:
@@ -9,19 +9,26 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+tags:
+
+  - introduction
+
+  - workout
+
 
 links:
 
-  - >-
-    [More
-    substitutions](http://www.tldp.org/LDP/abs/html/commandsub.html){website}
+  - '[More substitutions](http://www.tldp.org/LDP/abs/html/commandsub.html){website}'
 
-tags:
-  - introduction
-  - workout
+
+---
+
+# The Basics of Command Substitution
+
 ---
 ## Content
 
@@ -83,6 +90,7 @@ Use substitution to pass the content of the file to `curl`:
 ```
 $ ??? ???(???)
 ```
+
 * `curl`
 * `$`
 * `cat websites.txt`
@@ -96,7 +104,9 @@ $ ??? ???(???)
 If you want to use the output of a program as a command line argument, you would have to use
 
 ???.
+
 * $(...) or `...`
 * >
 * |
 * >>
+

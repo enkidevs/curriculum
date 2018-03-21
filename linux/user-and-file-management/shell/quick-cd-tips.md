@@ -1,4 +1,4 @@
-# Quick `cd` tips
+---
 author: tuwi.dc
 
 levels:
@@ -23,7 +23,13 @@ tags:
 
   - terminal
 
+
+
 notes: ''
+
+---
+
+# Quick `cd` tips
 
 ---
 ## Content
@@ -60,6 +66,7 @@ $ cd -
 Directories saved by `pushd` can be seen using
 
 ???
+
 * dirs
 * cd -
 * topd
@@ -71,7 +78,9 @@ Directories saved by `pushd` can be seen using
 `pushd` ,`popd`  and `dirs` are shell built-ins which allow you to manipulate the
 
 ???
+
 * directory stack
 * switch
 * directory queue
 * memory
+

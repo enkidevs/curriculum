@@ -1,4 +1,4 @@
-# What is a *shell*?
+---
 author: jfarmer
 
 levels:
@@ -9,13 +9,20 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+inAlgoPool: false
 
 tags:
 
-  - ''
+  - 
+
+
+
+
+---
+
+# What is a *shell*?
 
 ---
 ## Content
@@ -53,13 +60,13 @@ Every shell has its own syntax for issuing commands, although there is often con
 Which of the following is the most common *shell*? 
 
 ???
-*bash
-*sh
-*zsh
-*fish
+
+* bash
+* sh
+* zsh
+* fish
 
 ---
 ## Footnotes
-
 [1:Command Shell]
 When someone refers to the Linux "command shell" or "command line interface" without any clarification, they're almost always referring to `bash`.

@@ -1,4 +1,4 @@
-# Changing File Permissions With `chmod`
+---
 author: jfarmer
 
 levels:
@@ -9,13 +9,23 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 tags:
+
   - introduction
+
   - workout
+
+
+
+
+---
+
+# Changing File Permissions With `chmod`
+
 ---
 ## Content
 
@@ -72,6 +82,7 @@ Give *full* access to `enki.txt` for the user and its group and remove access of
 ```
 $ ??? ???,o??? ???
 ```
+
 * `chmod`
 * `ug+rwx`
 * `-rwx`
@@ -85,6 +96,7 @@ $ ??? ???,o??? ???
 What does `chmod go+x` do?
 
 ???
+
 * Gives execute permissions to group and others
 * Removes execute permissions from group and others
 * Gives write and read permissions to user
@@ -92,20 +104,21 @@ What does `chmod go+x` do?
 
 ---
 ## Quiz
+### How do you run a script with elevated permissions?
+```
+Suppose you have a sh file named `script.sh`.
+What of the following commands is the most
+likely to successfully run the script?
+```
+$ ./script.sh
+bash: permission denied: ./script.sh
+```
+```
 
-headline: How do you run a script with elevated permissions?
+ ???
 
-question: |
-  Suppose you have a sh file named `script.sh`.
-  What of the following commands is the most
-  likely to successfully run the script?
-  ```
-  $ ./script.sh
-  bash: permission denied: ./script.sh
-  ```
+* chmod +x script.sh && ./script.sh
+* sudo ./script.sh
+* rm ./script.sh
+* echo "#!/bin/sh" > script.sh && ./script.sh
 
-answers:
-  - chmod +x script.sh && ./script.sh
-  - sudo ./script.sh
-  - rm ./script.sh
-  - echo "#!/bin/sh" > script.sh && ./script.sh

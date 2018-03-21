@@ -1,4 +1,4 @@
-# The Basics of The Pipe Operator `|`
+---
 author: jfarmer
 
 levels:
@@ -9,13 +9,23 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 tags:
+
   - introduction
+
   - workout
+
+
+
+
+---
+
+# The Basics of The Pipe Operator `|`
+
 ---
 ## Content
 
@@ -43,8 +53,10 @@ Print the lines which contain `eth0` by pipelining `ifconfig` ‘s output :
 ```
 $ ??? ??? ??? eth0
 ```
-*`ifconfig`
-*`|`
-*`grep`
-*`>`
-*`>>`
+
+* `ifconfig`
+* `|`
+* `grep`
+* `>`
+* `>>`
+

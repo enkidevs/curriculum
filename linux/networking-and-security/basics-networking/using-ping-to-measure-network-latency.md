@@ -1,4 +1,4 @@
-# Using `ping` To Measure Network Latency
+---
 author: jfarmer
 
 levels:
@@ -9,9 +9,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# Using `ping` To Measure Network Latency
 
 ---
 ## Content
@@ -74,10 +81,11 @@ $
 `ping` will send ??? and count the time until the
 
 ???.
-*data
-*server’s response
-*connection fails
-*your public key
+
+* data
+* server’s response
+* connection fails
+* your public key
 
 ---
 ## Revision
@@ -85,6 +93,8 @@ $
 Based on the distance, which server would respond to pings faster?
 
 ???
-*a close one
-*a distant one
-*the distance isn’t relevant
+
+* a close one
+* a distant one
+* the distance isn’t relevant
+

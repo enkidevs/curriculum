@@ -1,18 +1,25 @@
-# The `((` and `[[` Compound Commands
+---
 author: mihaiberq
 
 levels:
-    - basic
-    - medium
+
+  - basic
+
+  - medium
 
 type: normal
 
 category: feature
 
+
 links:
 
-    - '[Bash test and comparison functions](https://www.ibm.com/developerworks/library/l-bash-test/index.html)'
+  - '[Bash test and comparison functions](https://www.ibm.com/developerworks/library/l-bash-test/index.html){website}'
 
+
+---
+
+# The `((` and `[[` Compound Commands
 
 ---
 ## Content
@@ -48,11 +55,11 @@ What type of expression can go between `[[ ]]`?
 
 ???
 
+
 * Any expressions that `test` also accepts
 * Only string comparison expressions
 * Only arithmetic expressions
 * Any type expression
-
 
 ---
 ## Revision
@@ -65,7 +72,9 @@ Which of the following statements about `(( ))` is false?
 ```
 ???
 
+
 * 2
 * 1
 * 3
 * none
+

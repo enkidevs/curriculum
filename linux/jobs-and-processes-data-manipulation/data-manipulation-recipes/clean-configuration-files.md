@@ -1,4 +1,4 @@
-# Clean configuration files
+---
 author: tup
 
 levels:
@@ -19,7 +19,13 @@ tags:
 
   - clean
 
+
+
 notes: 'ARSENY, THIS IS AN EXPERT''S INSIGHT - DO NOT REJECT'
+
+---
+
+# Clean configuration files
 
 ---
 ## Content
@@ -54,7 +60,9 @@ A script to delete comments and empty lines from configuration files would use t
 
 ??? command .
 
-*sed
-*clr
-*del
-*cd
+
+* sed
+* clr
+* del
+* cd
+

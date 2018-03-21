@@ -1,4 +1,4 @@
-# Changing Group Membership With `usermod`
+---
 author: jfarmer
 
 levels:
@@ -9,13 +9,23 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 tags:
+
   - introduction
+
   - workout
+
+
+
+
+---
+
+# Changing Group Membership With `usermod`
+
 ---
 ## Content
 
@@ -41,13 +51,14 @@ Add `john` to the `enki` group:
 $ sudo ??? ??? ???
        ??? ???
 ```
-*`usermod`
-*`-a`
-*`-G`
-*`enki`
-*`john`
-*`-Ag`
-*`-A`
+
+* `usermod`
+* `-a`
+* `-G`
+* `enki`
+* `john`
+* `-Ag`
+* `-A`
 
 ---
 ## Revision
@@ -57,9 +68,11 @@ Make `john` a member of the `enki` group, and of this group only:
 $ sudo ??? ??? 
        ??? ???
 ```
-*`usermod`
-*`-G`
-*`enki`
-*`john`
-*`-aG`
-*`chmod`
+
+* `usermod`
+* `-G`
+* `enki`
+* `john`
+* `-aG`
+* `chmod`
+

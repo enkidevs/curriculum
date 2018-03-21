@@ -1,4 +1,4 @@
-# Appending Output With `>>`
+---
 author: jfarmer
 
 levels:
@@ -9,13 +9,23 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 tags:
+
   - introduction
+
   - workout
+
+
+
+
+---
+
+# Appending Output With `>>`
+
 ---
 ## Content
 
@@ -63,7 +73,9 @@ Note that for appending purposes the use of the `cat` command is recomanded.
 
  whereas `>>`  ??? .
 
+
 * writes the stdout to a file, overwriting its content
 * appends stdout stream to a file
 * creates a new folder
 * deletes a file
+

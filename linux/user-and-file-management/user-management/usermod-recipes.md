@@ -1,4 +1,4 @@
-# `usermod` recipes
+---
 author: catalin
 
 levels:
@@ -14,7 +14,16 @@ type: normal
 category: tip
 
 tags:
+
   - workout
+
+
+
+
+---
+
+# `usermod` recipes
+
 ---
 ## Content
 
@@ -73,6 +82,7 @@ $ ??? ??? ???
       root user
 ```
 
+
 * `usermod`
 * `--append`
 * `--groups`
@@ -89,8 +99,10 @@ Change a user's home directory without moving the files:
 ```
 $ ??? ??? /newHome user
 ```
+
 * `usermod`
 * `--home`
 * `-dm`
 * `--move-home`
 * `chmod`
+

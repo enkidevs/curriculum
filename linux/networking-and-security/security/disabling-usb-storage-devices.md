@@ -1,4 +1,4 @@
-# Disabling **USB** storage devices
+---
 author: catalin
 
 levels:
@@ -11,10 +11,15 @@ type: normal
 
 category: hack
 
+
 links:
 
-  - >-
-    [www.cyberciti.biz](http://www.cyberciti.biz/faq/linux-disable-modprobe-loading-of-usb-storage-driver/){website}
+  - '[www.cyberciti.biz](http://www.cyberciti.biz/faq/linux-disable-modprobe-loading-of-usb-storage-driver/){website}'
+
+
+---
+
+# Disabling **USB** storage devices
 
 ---
 ## Content
@@ -38,6 +43,7 @@ Disable USB storage devices:
 $ echo "install ??? /bin/true"  
   >> /etc/???
 ```
+
 * `usb-storage`
 * `modprobe.d/usb-storage.conf`
 * `usb-disable`
@@ -52,8 +58,10 @@ You can disable USB storage devices by running:
 $ echo "install ??? /bin/true"  
   >> /etc/???
 ```
+
 * `usb-storage`
 * `modprobe.d/usb-storage.conf`
 * `usb-disable`
 * `no-usb`
 * `usb-security`
+
