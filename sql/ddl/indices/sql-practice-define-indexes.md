@@ -17,7 +17,7 @@ linkType: sqlfiddle
 
 link: http://sqlfiddle.com/
 
-answer: done
+answer: BTREE
 
 standards:
   sql.define-indices.0: 1000
@@ -37,4 +37,10 @@ links:
 ---        
 ## Exercise
 
-Consider the `items` table we defined. There is an important thing we didn't cover for this table. We didn't set a primary key constraint ( also known as one of the two types of indexes ). Create on for this table. 
+Consider the `items` table we defined. There is an important thing we didn't cover for this table. We didn't set a primary key constraint ( also known as one of the two types of indexes ). Create on for this table.
+
+In order to check your results:
+- add the index,
+- build the schema,
+- run the provided query,
+- and provide the `Index_type` displayed in the result in the answer field.
