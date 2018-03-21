@@ -29,9 +29,6 @@ tags:
 
   - introduction
 
-
-
-
 ---
 
 # Adding directories to your `$PATH`
@@ -96,8 +93,10 @@ In order to add a new directory to `PATH`, you have to modify the ??? file.
 ---
 ## Quiz
 ### when is the ~/.bashrc file run?
+
 ```
-When is the ~/.bashrc file run?```
+When is the ~/.bashrc file run?
+```
 
  ???
 
@@ -105,4 +104,3 @@ When is the ~/.bashrc file run?```
 * Once every boot
 * Once for every user login
 * Every thirty minutes
-
