@@ -15,9 +15,9 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/
+link: http://sqlfiddle.com/#!9/940e4
 
-answer: done
+answer: db_9_3b626
 
 standards:
   sql.define-relationships.3: 1000
@@ -34,4 +34,5 @@ links:
 ---        
 ## Exercise
 
-Create a table and define foreign key constraints such that we will have a many to many relationship between these two tables.
+Create a table and define foreign key constraints such that we will have a many to many relationship between `items` and `requests` tables.
+In order to check your results, write the query for the relationship and `build schema` again. After that run the query provided and answer with the value in `REFERENCED_TABLE_SCHEMA` column of the result.

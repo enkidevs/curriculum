@@ -15,9 +15,9 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/
+link: http://sqlfiddle.com/#!9/adc158/1
 
-answer: done
+answer: db_9_696521
 
 standards:
   sql.define-relationships.0: 1000
@@ -35,3 +35,4 @@ links:
 ## Exercise
 
 Define a foreign key constraint to obtain a one to many relationship between `user` and `items` tables.
+In order to check your results, write the query for the relationship and `build schema` again. After that run the query provided and answer with the value in `REFERENCED_TABLE_SCHEMA` column of the result.

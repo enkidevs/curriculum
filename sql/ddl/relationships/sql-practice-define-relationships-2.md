@@ -15,9 +15,9 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/
+link: http://sqlfiddle.com/#!9/715078/1
 
-answer: done
+answer: db_9_947f36
 
 standards:
   sql.define-relationships.3: 1000
@@ -34,4 +34,5 @@ links:
 ---        
 ## Exercise
 
-Reference `items` table to itself using foreign key constraints.
+Reference `requests` table to `users` table using foreign key constraint.
+In order to check your results, write the query for the relationship and `build schema` again. After that run the query provided and answer with the value in `REFERENCED_TABLE_SCHEMA` column of the result.
