@@ -1,4 +1,4 @@
-# Move the last commit to a new branch
+---
 author: rosielowther
 
 levels:
@@ -13,9 +13,15 @@ type: normal
 
 category: hack
 
+
 links:
 
   - '[git-scm.com](https://git-scm.com/docs/git-reset){website}'
+
+
+---
+
+# Move the last commit to a new branch
 
 ---
 ## Content
@@ -45,10 +51,11 @@ The order in which you would correct the mistake is :
 ???
 ???
 ```
-*`git branch test`
-*`git reset --hard HEAD~`
-*`git checkout test`
-*`git reset --hard HEAD^^`
+
+* `git branch test`
+* `git reset --hard HEAD~`
+* `git checkout test`
+* `git reset --hard HEAD^^`
 
 ---
 ## Revision
@@ -56,6 +63,8 @@ The order in which you would correct the mistake is :
 A quick hack to revert the changes made to the current branch and move them to another is
 
 ???
-*creating a new branch and resetting HEAD on master
-*deleting the current branch and switching to the master
-*resetting the last commit and moving to a new branch
+
+* creating a new branch and resetting HEAD on master
+* deleting the current branch and switching to the master
+* resetting the last commit and moving to a new branch
+

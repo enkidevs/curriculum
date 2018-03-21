@@ -1,4 +1,4 @@
-# Workflow: long running branches
+---
 author: rosielowther
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows){website}'
+
+
+---
+
+# Workflow: long running branches
 
 ---
 ## Content
@@ -40,6 +45,8 @@ This can be helpful in large, complex projects.
 ## Revision
 
 For complex projects, the best practice is to work on ??? .
-*auxiliary branches        
-*master branch
-*a single other branch
+
+* auxiliary branches        
+* master branch
+* a single other branch
+

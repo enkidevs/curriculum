@@ -1,4 +1,4 @@
-# Revision tools
+---
 author: rosielowther
 
 levels:
@@ -9,10 +9,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Revision-Selection){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Revision-Selection){website}'
+
+
+---
+
+# Revision tools
 
 ---
 ## Content
@@ -44,6 +49,7 @@ Would print commits that
 
 ???
 
+
 * Are in either one of them, but not in both
 * Are in master, but not in myBranch
 * Are in myBranch, but not in master
@@ -59,21 +65,23 @@ Is equivalent to
 
 ???
 
+
 * `git log master..myBranch`
 * `git log master...myBranch`
 * `git log --not master myBranch`
 
 ---
 ## Quiz
+### how can you specify a range of commits?
+```
+# Consider the following git history *--*--*--A--*--*--*--B--*
+# Which of the following commands should be used to log all commits between A and B (inclusive)?
+```
 
-headline: how can you specify a range of commits?
+ ???
 
-question: |
-  # Consider the following git history *--*--*--A--*--*--*--B--*
-  # Which of the following commands should be used to log all commits between A and B (inclusive)?
+* git log A~..B
+* git log A..B
+* git log A…B
+* git log ^A B
 
-answers:
-  - git log A~..B
-  - git log A..B
-  - git log A…B
-  - git log ^A B

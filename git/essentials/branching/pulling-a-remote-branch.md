@@ -1,4 +1,4 @@
-# Pulling a remote branch
+---
 author: rosielowther
 
 levels:
@@ -9,10 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}'
+
+
+---
+
+# Pulling a remote branch
 
 ---
 ## Content
@@ -34,6 +39,7 @@ To `fetch` and `merge` master branch automatically you run :
 ```
 $ ??? ??? ???
 ```
+
 * `git`
 * `pull`
 * `origin`
@@ -47,6 +53,7 @@ To automatically `merge` the commits from the master branch you would use :
 ```
 $ git ??? origin
 ```
+
 * `pull`
 * `push`
 * `get`
@@ -54,15 +61,16 @@ $ git ??? origin
 
 ---
 ## Quiz
+### what does the -a flag in the following command stand for?
+```
+# What option related to fetching is `-a` shorthand for in the following command?
+$ git pull -a
+```
 
-headline: what does the -a flag in the following command stand for?
+ ???
 
-question: |
-  # What option related to fetching is `-a` shorthand for in the following command?
-  $ git pull -a
+* --append
+* --amend
+* --all
+* --autostash
 
-answers:
-  - --append
-  - --amend
-  - --all
-  - --autostash
