@@ -74,8 +74,10 @@ Instead of comparing two floating numbers, the best way to avoid *inaccuracies* 
 ---
 ## Quiz
 ### what is 0.1 + 0.2?
-```
-// What will be the value of x?
+
+What will be the value of x?
+
+```javascript
 var x = 0.2 + 0.1;
 console.log(x);
 ```
@@ -86,4 +88,3 @@ console.log(x);
 * 0.3
 * 0.2999999999999999
 * NaN
-

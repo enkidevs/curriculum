@@ -70,8 +70,10 @@ console.log(typeof NaN);
 ---
 ## Quiz
 ### is NaN a number?
-```
-// What is the output of this line?
+
+What is the output of this line?
+
+```javascript
 console.log(typeof(NaN));
 ```
 
@@ -81,4 +83,3 @@ console.log(typeof(NaN));
 * object
 * function
 * undefined
-

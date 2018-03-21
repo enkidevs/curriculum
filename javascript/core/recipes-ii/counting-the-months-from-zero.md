@@ -72,7 +72,8 @@ console.log(date);
 ---
 ## Quiz
 ### how does JavaScript's Date object work?
-```
+
+```javascript
 console.log(new Date(2016, 5, 31));
 ```
 

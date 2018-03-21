@@ -73,7 +73,7 @@ Merge the two arrays in order:
 ```javascript
 
 ???.prototype.???
-                 .???(arrray1, arrray2);
+.???(arrray1, arrray2);
 ```
 
 * `Array`
@@ -89,7 +89,7 @@ Merge the two arrays in order:
 ## Quiz
 ### what is the result of the following addition?
 
-```
+```javascript
 console.log([3, 14] + [2, 71])
 ```
 

@@ -124,7 +124,8 @@ var firstElement = ??????;
 ---
 ## Quiz
 ### what is the length of the array below?
-```
+
+```javascript
 let arr = [,,,]
 console.log(arr.length)
 ```
@@ -135,4 +136,3 @@ console.log(arr.length)
 * 4
 * 0
 * 1
-

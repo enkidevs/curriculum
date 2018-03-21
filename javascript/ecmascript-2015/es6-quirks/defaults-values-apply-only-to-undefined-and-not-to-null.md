@@ -87,8 +87,10 @@ const {a = 1} = {a: null}
 
 ---
 ## Quiz
+
 ### can you handle optional arguments in ES6?
-```
+
+```javascript
 // given:
 function foo(x = 3) { return x + 4 }
 // evaluate:
@@ -101,4 +103,3 @@ foo(null)
 * null
 * 7
 * NaN
-

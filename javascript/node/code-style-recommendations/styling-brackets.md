@@ -171,8 +171,10 @@ function tictac() {
 
 ---
 ## Quiz
-### what will the following snippet output?
-```
+
+### What will the following snippet output?
+
+```javascript
 function pi() {
   return
   {
@@ -188,4 +190,3 @@ console.log(pi())
 * [object Object]
 * SyntaxError
 * [object Object]
-

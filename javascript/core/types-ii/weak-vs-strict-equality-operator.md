@@ -100,7 +100,8 @@ console.log("\n" == 0);
 ---
 ## Quiz
 ### how familiar are you with weak equality?
-```
+
+```javascript
 // What will this evaluate to?
 "\t\r\\n\" == 0
 ```
@@ -111,4 +112,3 @@ console.log("\n" == 0);
 * false
 * SyntaxError
 * String
-

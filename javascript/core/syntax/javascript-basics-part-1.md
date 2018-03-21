@@ -101,10 +101,11 @@ var 777jackpot = "jackpot";
 ---
 ## Quiz
 ### which of the following is a valid comment?
-```
-1. // first comment
-2. <!-- second comment
-3. /* third comment */
+
+```javascript
+(1. // first comment
+(2. <!-- second comment
+(3. /* third comment */
 ```
 
  ???
@@ -113,4 +114,3 @@ var 777jackpot = "jackpot";
 * 1
 * 1 & 3
 * 2
-

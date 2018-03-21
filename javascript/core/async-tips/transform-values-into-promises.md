@@ -39,7 +39,7 @@ tags:
 
 To keep your API consistent, or prototype for testing, it's often useful to return a `Promise` that resolves to a value directly.
 
-```
+```javascript
 return new Promise(resolve => {
   resolve('my value')
 })
@@ -47,13 +47,13 @@ return new Promise(resolve => {
 
 `Promises` in `ES6` have a shortcut for this common pattern:
 
-```
+```javascript
 return Promise.resolve('my value')
 ```
 
 Or to create a `Promise` representing an error:
 
-```
+```javascript
 return Promise.reject(
   new Error('Boo! :o')
 )
@@ -64,22 +64,23 @@ return Promise.reject(
 
 Create the following promise to represent an error:
 
-```
-return Promise.???( 
-  new ???('Boo! :o') 
-) 
+```javascript
+return Promise.???(
+  new ???('Boo! :o')
+)
 ```
 
-* `reject` 
-* `Error` 
-* `error` 
-* `create` 
+* `reject`
+* `Error`
+* `error`
+* `create`
 * `exception`
 
 ---
 ## Revision
 
 Complete the shortcut notation for **Promises** in **ES6**:
+
 ```javascript
 return ???.???('my value');
 ```
@@ -95,10 +96,11 @@ return ???.???('my value');
 
 ---
 ## Quiz
-### In what order will these `console.log()` statements occur?
-```
+### In what order will these console.log() statements occur?
+
 In what order will these `console.log()` statements occur?
-```
+
+```javascript
 const element = document.body;
 
 element.addEventListener('click', () => {
@@ -111,7 +113,7 @@ element.addEventListener('click', () => {
   console.log('Listener 2')
 })
 ```
-```
+
 
  ???
 
@@ -119,4 +121,3 @@ element.addEventListener('click', () => {
 * Listener 1; Listener 2; Microtask 1; Microtask 2;
 * Microtask 1; Listener 1; Microtask 2; Listener 2;
 * Microtask 2; Listener 2; Microtask 1; Listener 1;
-
