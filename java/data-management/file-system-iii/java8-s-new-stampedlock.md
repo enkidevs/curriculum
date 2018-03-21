@@ -31,7 +31,7 @@ ReadWriteLock lock = new
 
 These locks specify which threads block everyone else (writers) and which ones work with others for consuming content (readers), but they are known for their slowness.
 
-**Java8** introduced a new type of locks, `StampedLock`. In contrast to `ReadWriteLock` the locking methods of a `StampedLock` return a stamp represented by a `long` value. 
+**Java8** introduced a new type of locks, `StampedLock`. In contrast to `ReadWriteLock` the locking methods of a `StampedLock` return a stamp represented by a `long` value.
 
 ```java
 StampedLock lock = new StampedLock();
@@ -44,12 +44,12 @@ Obtaining a read or write lock via `readLock()` or `writeLock()` returns a stamp
 ## Practice
 
 The locking methods of a `StampedLock` return a stamp represented by a `???` value.
- 
 
-* `long` 
-* `int` 
-* `float` 
-* `char` 
+
+* `long`
+* `int`
+* `float`
+* `char`
 * `String`
 
 ---
@@ -57,13 +57,13 @@ The locking methods of a `StampedLock` return a stamp represented by a `???` val
 
 To stop any reading locks from being obtained, you can use the method:
 ```java
-StampedLock lock = 
+StampedLock lock =
              new StampedLock();
-lock.???;```
+lock.???;
+```
 
 
-* `writeLock()` 
-* `readLock()` 
-* `lockReading()` 
+* `writeLock()`
+* `readLock()`
+* `lockReading()`
 * `lockWriting()`
-
