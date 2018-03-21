@@ -16,7 +16,7 @@ category: must-know
 inAlgoPool: false
 
 standards:
-  sql.create-database: 10
+  sql.create-database.0: 10
 
 tags:
   - introduction

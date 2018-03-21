@@ -17,7 +17,7 @@ inAlgoPool: false
 category: must-know
 
 standards:
-  sql.read-multiple-tables: 10
+  sql.read-multiple-tables.0: 10
 
 links:
     - '[Full outer join](https://en.wikipedia.org/wiki/Join_(SQL)#Full_outer_join)'
