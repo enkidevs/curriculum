@@ -11,6 +11,10 @@ type: normal
 
 category: must-know
 
+standards:
+  py.native-types-operations.10: 10
+  py.identify-python-syntax.2: 10
+
 links:
 
   - '[more about exception handling](https://docs.python.org/3/tutorial/errors.html)'
@@ -18,7 +22,7 @@ links:
 ---
 ## Content
 
-If we have a **code snippet** that might rise some **exceptions**, there is a way to **handle** their occurrences: we need to wrap that *problematic* snippet into a `try` block. 
+If we have a **code snippet** that might rise some **exceptions**, there is a way to **handle** their occurrences: we need to wrap that *problematic* snippet into a `try` block.
 
 After the `try` block we need to include an `except` statement followed by a code snippet, which should run if the error rises.
 

@@ -9,6 +9,10 @@ type: normal
 
 category: must-know
 
+standards:
+  py.native-types-operations.10: 10
+  py.identify-python-syntax.2: 10
+
 links:
 
   - '[More about errors and exceptions](http://www.python-course.eu/python3_exception_handling.php)'

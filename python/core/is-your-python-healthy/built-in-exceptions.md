@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  py.native-types-operations.10: 10
+
 links:
 
   - '[more about built-in exceptions](https://docs.python.org/3/library/exceptions.html)'
@@ -18,7 +21,7 @@ links:
 ---
 ## Content
 
-In Python, all exceptions must inherit the `BaseException` class. Usually, **exceptions** have an associated *"value"* indicating the cause of the **error**. This *"value"* is a class variable that could either be a string or a tuple, which is required for the exception to be instantiated. 
+In Python, all exceptions must inherit the `BaseException` class. Usually, **exceptions** have an associated *"value"* indicating the cause of the **error**. This *"value"* is a class variable that could either be a string or a tuple, which is required for the exception to be instantiated.
 
 The **built-in exceptions** can be subclassed to define **new** exceptions. Users are advised to derive from `Exception` or one of its subclasses and not `BaseException`.
 

@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  py.identify-python-syntax.1: 10
+
 links:
 
   - '[More about debugging](https://pythonconquerstheuniverse.wordpress.com/2009/09/10/debugging-in-python/)'
@@ -18,7 +21,7 @@ links:
 ---
 ## Content
 
-No matter how experienced programmers are, there will always be mistakes in their **code**. 
+No matter how experienced programmers are, there will always be mistakes in their **code**.
 
 Debugging means understanding what is going *wrong* with the code. There are many ways to debug a program, but we will focus on the most basic one in this insight: debugging using the `print()` statement.
 

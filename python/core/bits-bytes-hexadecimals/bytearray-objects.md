@@ -15,6 +15,9 @@ category: feature
 
 parent: bytes-type
 
+standards:
+  py.data-structures-uses.3: 10
+
 links:
 
   - >-
@@ -23,14 +26,14 @@ links:
 ---
 ## Content
 
-The **mutable** counterpart of the `bytes` object is the `bytearray` object. 
+The **mutable** counterpart of the `bytes` object is the `bytearray` object.
 
 Create a `bytearray` object:
 ```python
 # empty bytearray
-b = bytearray() 
+b = bytearray()
 # zero-filled of length 2
-b = bytearray(2) 
+b = bytearray(2)
 # from iterable of integers
 b = bytearray(range(3))
  ```
@@ -56,13 +59,13 @@ Because `bytearray` is a **mutable sequence** it supports additional operations 
 Create a bytearray object from the hexadecimal string:
 
 ```
->>> bytearray.???('2ef0f1f2') 
-bytearray(b'.\xf0\xf1\xf2') 
+>>> bytearray.???('2ef0f1f2')
+bytearray(b'.\xf0\xf1\xf2')
 ```
 
-*`fromhex` 
-*`hex` 
-*`fromhexad` 
+*`fromhex`
+*`hex`
+*`fromhexad`
 *`hexadecimal`
 
 ---
@@ -72,13 +75,13 @@ Convert the bytearray object into a hexadecimal string:
 
 ```
 >>> ???(b'\xf0\xf1\xf2') \
-    .???() 
-'f0f1f2' 
+    .???()
+'f0f1f2'
 ```
-*`bytearray` 
-*`hex` 
-*`barray` 
-*`fromhex` 
-*`tohex` 
-*`byte` 
+*`bytearray`
+*`hex`
+*`barray`
+*`fromhex`
+*`tohex`
+*`byte`
 *`array`

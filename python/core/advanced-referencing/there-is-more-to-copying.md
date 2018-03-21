@@ -11,6 +11,11 @@ type: normal
 
 category: must-know
 
+standards:
+  py.store-manipulate-data.0: 10
+  py.store-manipulate-data.1: 10
+
+
 links:
 
   - '[www.python-course.eu](http://www.python-course.eu/deep_copy.php){website}'

@@ -19,6 +19,11 @@ notes: >
   explain the 3 arguments of the __exit__ method and how they can be used in the
   surrounding code.
 
+standards:
+  py.store-manipulate-data.5: 10
+  py.object-oriented.5: 10
+  py.native-types-operations.7: 10
+
 links:
 
   - >-

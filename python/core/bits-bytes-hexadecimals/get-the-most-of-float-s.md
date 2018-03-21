@@ -11,6 +11,9 @@ category: feature
 
 notes: 'abc'
 
+standards:
+  py.data-structures-uses.3: 10
+
 links:
 
   - "[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#additional-methods-on-float)"

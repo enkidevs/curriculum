@@ -18,6 +18,9 @@ notes: |
 
   11 # 1024 in binary is 10000000000
 
+standards:
+  py.data-structures-uses.3: 10
+
 links:
 
   - "https://docs.python.org/3.5/library/stdtypes.html#additional-methods-on-integer-types"

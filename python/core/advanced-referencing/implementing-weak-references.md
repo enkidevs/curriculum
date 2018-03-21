@@ -17,6 +17,9 @@ notes: >
   Insight does not show the benefit of using weak references. Change it so it
   does.
 
+standards:
+  py.store-manipulate-data.5: 10
+
 links:
 
   - '[pymotw.com](https://pymotw.com/2/weakref/){website}'

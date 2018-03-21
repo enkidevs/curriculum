@@ -17,6 +17,9 @@ parent: bytes-type
 
 notes: ''
 
+standards:
+  py.data-structures-uses.3: 10
+
 links:
 
   - >-

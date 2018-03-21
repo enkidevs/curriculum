@@ -11,6 +11,10 @@ type: normal
 
 category: must-know
 
+standards:
+  py.native-types-operations.10: 10
+  py.identify-python-syntax.2: 10
+
 links:
 
   - '[Python debugger](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger)'
@@ -18,7 +22,7 @@ links:
 ---
 ## Content
 
-The **Python debugger** comes as a module called `pdb`, which is part of the **standard Python** distribution. 
+The **Python debugger** comes as a module called `pdb`, which is part of the **standard Python** distribution.
 
 We will consider a program with two **global variables**, a function that creates a **nested loop** and the `if _name_ == '_main_'` statement that calls the nested loop:
 ```python
