@@ -48,9 +48,10 @@ In the latter type of networks, packets are sent over the Internet through *node
 ## Practice
 
 Data transmission over the Internet works in the following way:
-- original data is split into ??? at ???
-- data is transmitted following protocol rules
-- data is ??? at ???
+  
+original data is split into ??? at ???  
+data is transmitted following protocol rules  
+data is ??? at ???  
 
 
 * packets
