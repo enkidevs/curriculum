@@ -37,6 +37,7 @@ links:
 Create a table called `items`. This table should contain the following columns, which should store the following values:
 - item_id, for example:  "I001", "I002",
 - user_id, for example: "U001", "U002",
+- request_id, for example: "R001", "R002",
 - pictures_id, for example: "IP001"
 - name, for example: "pink hat"
 - daily_price, for example: 10.43, 11,
