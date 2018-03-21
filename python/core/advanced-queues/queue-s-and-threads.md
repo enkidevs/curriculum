@@ -11,6 +11,10 @@ category: how to
 
 parent: a-thread-safe-queue
 
+standards:
+  py.control-structures.5: 10
+  cs.implement-linear-collection-data-structures.3: 10
+
 notes: |
   The program does not work as it is. It has a syntax error, in this line:
       print q.get()
