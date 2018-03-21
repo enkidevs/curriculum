@@ -1,4 +1,4 @@
-# `Autoboxing` and `Unboxing`
+---
 author: catalin
 
 levels:
@@ -9,12 +9,16 @@ type: normal
 
 category: must-know
 
-notes: 'https://insights.enki.com/#/contrib/others/55c833563f06ab320051aa89?search=kha'
 
 links:
 
-  - >-
-    [beginnersbook.com](http://beginnersbook.com/2014/09/java-autoboxing-and-unboxing-with-examples/){website}
+  - '[beginnersbook.com](http://beginnersbook.com/2014/09/java-autoboxing-and-unboxing-with-examples/){website}'
+
+notes: 'https://insights.enki.com/#/contrib/others/55c833563f06ab320051aa89?search=kha'
+
+---
+
+# `Autoboxing` and `Unboxing`
 
 ---
 ## Content
@@ -51,6 +55,7 @@ Conversion table :
 What is the wrapper class of primitive `int` ?
 
 ???
+
 * Integer
 * integer
 * Int
@@ -59,25 +64,25 @@ What is the wrapper class of primitive `int` ?
 
 ---
 ## Quiz
+### What will be printed by the following code snippet?
+```
+```
+  int x = 5;
+  Integer X = new Integer(5);
+  Integer Y = new Integer(5);
+  if(x == X) {
+    System.out.print("int5");
+  }
+  if(X == Y) {
+    System.out.print("integer5");
+  }
+```
+```
 
-headline: What will be printed by the following code snippet?
+ ???
 
-question: |
-  ```
-    int x = 5;
-    Integer X = new Integer(5);
-    Integer Y = new Integer(5);
-    if(x == X) {
-      System.out.print("int5");
-    }
-    if(X == Y) {
-      System.out.print("integer5");
-    }
-  ```
+* “int5”
+* “integer5”
+* “int5integer5”
+* Nothing
 
-answers:
-
-  - “int5”
-  - “integer5”
-  - “int5integer5”
-  - Nothing

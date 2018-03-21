@@ -1,4 +1,4 @@
-# Checking for the existence of files and directories
+---
 author: adamMontgomerie
 
 levels:
@@ -19,10 +19,15 @@ tags:
 
   - paths
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/check.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/check.html){website}'
+
+
+---
+
+# Checking for the existence of files and directories
 
 ---
 ## Content
@@ -61,6 +66,7 @@ if( ??? ){
 ```
 
 How would you check if the file exists?
+
 * `f.exists()`
 * `f.Exists()`
 * `!f.isFile()`
@@ -69,21 +75,22 @@ How would you check if the file exists?
 
 ---
 ## Quiz
+### Can you figure out what check should be included in the following snippet?
+```
+// What should be checked here such that the below code won't throw errors?
+```
+public static void main(String[] args) {
+  String fileName = "home/path/to/file";
+  Stream<String> stream = Files.lines(Paths.get(fileName));
+  stream.filter(line -> line.endsWith("enki"));
+}
+```
+```
 
-headline: Can you figure out what check should be included in the following snippet?
+ ???
 
-question: |
-  // What should be checked here such that the below code won't throw errors?
-  ```
-  public static void main(String[] args) {
-    String fileName = "home/path/to/file";
-    Stream<String> stream = Files.lines(Paths.get(fileName));
-    stream.filter(line -> line.endsWith("enki"));
-  }
-  ```
+* If the file exists
+* If the stream is empty
+* If variable 'line' is a string
+* If 'stream.filter()' function exists
 
-answers:
-  - If the file exists
-  - If the stream is empty
-  - If variable 'line' is a string
-  - If 'stream.filter()' function exists

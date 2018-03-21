@@ -1,4 +1,4 @@
-# Diamond Operator
+---
 author: abhavk
 
 levels:
@@ -8,6 +8,13 @@ levels:
 type: normal
 
 category: tip
+
+
+
+
+---
+
+# Diamond Operator
 
 ---
 ## Content
@@ -43,9 +50,10 @@ Map<String, List<Integer>> map =
   new HashMap<>();
 ``` 
 ???
-*Example C
-*Example A
-*Example B
+
+* Example C
+* Example A
+* Example B
 
 ---
 ## Revision
@@ -68,6 +76,8 @@ Map<String, List<Integer>> map =
 
 ???
 
-*Example B
-*Example A
-*Example C
+
+* Example B
+* Example A
+* Example C
+

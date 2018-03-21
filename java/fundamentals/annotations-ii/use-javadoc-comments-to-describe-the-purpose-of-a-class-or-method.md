@@ -1,4 +1,4 @@
-# Use Javadoc comments to describe the purpose of a class or method
+---
 author: fahimrahman
 
 levels:
@@ -21,10 +21,15 @@ tags:
 
   - practices
 
+
 links:
 
-  - >-
-    [www.oracle.com](http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html){website}
+  - '[www.oracle.com](http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html){website}'
+
+
+---
+
+# Use Javadoc comments to describe the purpose of a class or method
 
 ---
 ## Content
@@ -46,3 +51,4 @@ public int getMarks(String surname, int id)
 }
 ```
 The Javadoc is generated in HTML format from the source code and acts as reference for programmers. They are especially helpful when working on large projects.
+

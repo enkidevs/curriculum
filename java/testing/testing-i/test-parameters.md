@@ -1,4 +1,4 @@
-# `@Test` parameters
+---
 author: adamMontgomerie
 
 levels:
@@ -17,13 +17,16 @@ tags:
 
   - testing
 
+
 links:
 
-  - >-
-    [java2novice.com](http://java2novice.com/junit-examples/junit-annotations/){website}
+  - '[java2novice.com](http://java2novice.com/junit-examples/junit-annotations/){website}'
+  - '[javarevisited.blogspot.gr](http://javarevisited.blogspot.gr/2012/06/junit4-annotations-test-examples-and.html){website}'
 
-  - >-
-    [javarevisited.blogspot.gr](http://javarevisited.blogspot.gr/2012/06/junit4-annotations-test-examples-and.html){website}
+
+---
+
+# `@Test` parameters
 
 ---
 ## Content
@@ -57,6 +60,7 @@ Complete the snippet such that the test expects an `IOException`  and has a time
   ??? = 900);
 ```
 
+
 * `Test`
 * `expected`
 * `timeout`
@@ -73,9 +77,11 @@ What two parameters can be used with the `@Test` annotation?
 ???
 ???
 
+
 * `expected`
 * `timeout`
 * `name`
 * `size`
 * `time`
 * `error`
+

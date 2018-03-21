@@ -1,4 +1,4 @@
-# Intro to `jstack` tool
+---
 author: catalin
 
 levels:
@@ -11,13 +11,17 @@ type: normal
 
 category: how to
 
-notes: >-
-  https://insights.enki.com/#/contrib/others/55f42bc3da97642e00a78197?search=khandelwalrinki
 
 links:
 
-  - >-
-    [www.herongyang.com](http://www.herongyang.com/Java-Tools/jstack-JVM-Thread-Dump-Stack-Strace.html){website}
+  - '[www.herongyang.com](http://www.herongyang.com/Java-Tools/jstack-JVM-Thread-Dump-Stack-Strace.html){website}'
+
+notes: >-
+  https://insights.enki.com/#/contrib/others/55f42bc3da97642e00a78197?search=khandelwalrinki
+
+---
+
+# Intro to `jstack` tool
 
 ---
 ## Content
@@ -49,9 +53,10 @@ A `jstack` call also dumps information about non-Java threads running within the
 
 ???
 
-*`Thread.getAllStackTraces()` and `Thread.dumpStack()` 
-*`Thread.getStackTraces()` and `Thread.getDumpStack()` 
-*`Thread.stackTraces()` and `Thread.allDumpStack()`
+
+* `Thread.getAllStackTraces()` and `Thread.dumpStack()` 
+* `Thread.getStackTraces()` and `Thread.getDumpStack()` 
+* `Thread.stackTraces()` and `Thread.allDumpStack()`
 
 ---
 ## Revision
@@ -60,9 +65,11 @@ Print a detailed dump of threads in the app:
 ```
 $ jstack ??? ???
 ```
-*`-l` 
-*`PID` 
-*`-v` 
-*`-d` 
-*`dump` 
-*`VM`
+
+* `-l` 
+* `PID` 
+* `-v` 
+* `-d` 
+* `dump` 
+* `VM`
+

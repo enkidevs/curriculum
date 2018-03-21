@@ -1,4 +1,4 @@
-# Using the `@Deprecated` annotation
+---
 author: adamMontgomerie
 
 levels:
@@ -15,10 +15,15 @@ tags:
 
   - annotations
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/annotations/predefined.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/annotations/predefined.html){website}'
+
+
+---
+
+# Using the `@Deprecated` annotation
 
 ---
 ## Content
@@ -49,17 +54,20 @@ public void two() {};
 
 ???
 
-*`two()`
-*`one()` 
-*`none` 
-*`both`
+
+* `two()`
+* `one()` 
+* `none` 
+* `both`
 
 ---
 ## Revision
 
 Using a `@Deprecated` function will rise a ???.
 
-*compiler warning
-*compiler error
-*run-time error
-*run-time warning
+
+* compiler warning
+* compiler error
+* run-time error
+* run-time warning
+

@@ -1,4 +1,4 @@
-# Most common reason behind **stack overflow** error
+---
 author: catalin
 
 levels:
@@ -13,15 +13,19 @@ type: normal
 
 category: tip
 
+
+links:
+
+  - '[blog.thilinamb.com](http://blog.thilinamb.com/2008/12/how-to-increase-java-stack-size.html){website}'
+
 notes: >-
   https://insights.enki.com/#/contrib/others/55ef1843d2b1123000710e27?search=khandelwalrinki
 
   https://insights.enki.com/#/contrib/others/55f05f981baba32f002fd31d?search=kha
 
-links:
+---
 
-  - >-
-    [blog.thilinamb.com](http://blog.thilinamb.com/2008/12/how-to-increase-java-stack-size.html){website}
+# Most common reason behind **stack overflow** error
 
 ---
 ## Content
@@ -44,3 +48,4 @@ Default stack sizes of java threads differ depending upon whether you are using 
 
 
 For JVM internal threads (i.e. GC, code generation thread) a special "system" stack of size `256 KB` is used.
+

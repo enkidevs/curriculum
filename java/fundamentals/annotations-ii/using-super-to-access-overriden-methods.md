@@ -1,4 +1,4 @@
-# Using `super` to access overriden methods
+---
 author: adamMontgomerie
 
 levels:
@@ -17,10 +17,15 @@ tags:
 
   - inheritance
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/super.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/super.html){website}'
+
+
+---
+
+# Using `super` to access overriden methods
 
 ---
 ## Content
@@ -52,3 +57,4 @@ public class SubClass extends SuperClass {
 }
 ```
 Calling `super.method()` allows us to use `SuperClass`' `method()`.
+
