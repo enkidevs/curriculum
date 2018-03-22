@@ -17,7 +17,7 @@ linkType: sqlfiddle
 
 link: http://sqlfiddle.com/
 
-answer: done
+answer: varchar
 
 standards:
   sql.define-columns.0: 1000
@@ -37,3 +37,4 @@ links:
 ## Exercise
 
 Consider the `items` table. Here we didn't consider what happens when there will be more than 999 items (item_id = 'I999'). Modify `items` table such that it will behave normally and count further after reaching 999 elements.
+In order to check your results, write the query for the relationship and `build schema` again. After that run the query provided and answer with the data type the result prints.

@@ -15,9 +15,9 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/
+link: hhttp://sqlfiddle.com/#!9/715078/2
 
-answer: done
+answer: varchar
 
 standards:
   sql.define-columns.0: 1000
@@ -37,3 +37,4 @@ links:
 ## Exercise
 
 Consider `users` table. Now, we just realized that `facebook_id` is too verbose for a column name. Change the column's name to `fb_id`.
+In order to check your results, write the query for the relationship and `build schema` again. After that run the query provided and answer with the data type the result prints.

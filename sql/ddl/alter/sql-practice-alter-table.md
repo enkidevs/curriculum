@@ -15,9 +15,9 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/
+link: http://sqlfiddle.com/#!9/502b6a/1
 
-answer: done
+answer: varchar
 
 standards:
   sql.define-columns.0: 1000
@@ -35,3 +35,4 @@ links:
 ## Exercise
 
 Consider `item_pictures` table. Now it seems to be a thing we haven't considered while we created this table. That is URLs don't have a fixed length. Modify `item_pictures` table to adapt to the problem presented.
+In order to check your results, write the query for the relationship and `build schema` again. After that run the query provided and answer with the data type the result prints.
