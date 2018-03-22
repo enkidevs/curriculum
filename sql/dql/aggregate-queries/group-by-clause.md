@@ -17,9 +17,14 @@ category: must-know
 
 inAlgoPool: false
 
-tags:
+parent: order-by-clause
 
+standards:
+  sql.aggregate-single-table.3: 10
+
+tags:
   - workout
+
 
 links:
 

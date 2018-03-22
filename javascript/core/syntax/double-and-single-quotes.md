@@ -13,10 +13,13 @@ type: normal
 
 category: best practice
 
+standards:
+  js.javascript-syntax.2: 10
+
 tags:
-
+  - obscura
+  - introduction
   - 'json, readability'
-
 ---
 ## Content
 

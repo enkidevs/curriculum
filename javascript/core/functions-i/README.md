@@ -7,6 +7,7 @@ insights:
   - function-arguments
   - access-a-function-s-arguments-as-an-array
   - functions-can-be-declared-after-use
+  - function-constructor-vs-function-expression
 
 exercises:
   - js-practice-bind
@@ -17,4 +18,3 @@ exercises:
   - js-practice-sort-ii
   - js-practice-default-parameters
   - js-practice-closures
-

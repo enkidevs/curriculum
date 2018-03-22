@@ -13,6 +13,14 @@ type: normal
 
 category: must-know
 
+standards:
+  js.functions.1: 10
+  js.execution-context.1: 10
+
+tags:
+  - introduction
+  - workout
+
 links:
 
   - >-
@@ -27,7 +35,7 @@ The main difference between the two methods is the way they handle arguments.
 
 **Example**
 
-```c++
+```javascript
 function.call(obj, 1, 2, 3);
 function.apply(obj, [1, 2, 3]);
 ```

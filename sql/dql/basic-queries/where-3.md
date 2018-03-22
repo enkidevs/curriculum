@@ -15,8 +15,15 @@ category: must-know
 
 inAlgoPool: false
 
+
+standards:
+  sql.read-single-table.0: 10
+  sql.read-single-table.1: 10
+  sql.read-single-table.2: 10
+
 tags:
   - workout
+
 
 links:
 
@@ -101,7 +108,7 @@ question: |
   Consider the `location` table from our pokemon database:
 
   id  | region_id |     name           
-  ----|:----------|:----------------
+  ====|===========|================
     1 |         4 | canalave-city
     2 |         1 | eterna-city
     3 |         3 | pastoria-city
@@ -114,4 +121,3 @@ answers:
   - SELECT * FROM location WHERE region_id < 3 AND name='%city';
   - SELECT * FROM location WHERE BETWEEN 1 AND 2 AND name='%city';
   - SELECT * FROM location WHERE region_id < 3 AND name LIKE '_city';
-

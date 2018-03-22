@@ -19,6 +19,10 @@ tags:
   - introduction
   - workout
 
+standards:
+  sql.read-single-table.0: 10
+  sql.read-single-table.1: 10
+
 links:
 
   - '[SQL Tutorial: SELECT](http://www.sql-tutorial.com/sql-select-sql-tutorial/)'
@@ -91,7 +95,7 @@ question: |
   Given a table called `ability` from our pokemon database:
 
   id   | is_main_series | generation_id |      name      
-  -----|----------------|---------------|---------------
+  =====|================|===============|===============
      1 | t              |             3 | stench
      2 | f              |             3 | drizzle
      3 | t              |             3 | speed-boost

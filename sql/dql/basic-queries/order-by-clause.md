@@ -15,9 +15,15 @@ category: must-know
 
 inAlgoPool: false
 
+
+standards:
+  sql.read-single-table.0: 10
+  sql.read-single-table.3: 10
+
 tags:
   - introduction
   - workout
+
 
 links:
 
@@ -30,7 +36,7 @@ links:
 
 Considering the following example:
 ```
-SELECT COUNT(name), language_id 
+SELECT COUNT(name), language_id
 FROM move_name
 GROUP BY language_id;
 
@@ -143,7 +149,7 @@ question: |
   Consider the `experience` table from our pokemon database:
 
   id  | level | experience | growth_rate_id
-  ----|-------|------------|----------------
+  ====|=======|============|================
     1 |     1 |          0 |              1
     2 |     2 |         10 |              1
     3 |     3 |         33 |              1

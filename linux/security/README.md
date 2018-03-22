@@ -1,1 +1,0 @@
-Protect yourself!

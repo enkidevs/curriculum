@@ -7,3 +7,4 @@ insights:
   - static-factory-methods
   - facade-pattern
   - don-t-repeat-yourself-dry-principle
+  - hashing

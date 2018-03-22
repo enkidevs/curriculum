@@ -1,0 +1,3 @@
+name: Taking precedence...
+
+description: Precedence decides the order in which operators are evaluated. Higher precedence means earlier evaluation. How well do you know how JavaScript handles precedence?

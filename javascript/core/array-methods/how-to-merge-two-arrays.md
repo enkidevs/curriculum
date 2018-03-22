@@ -11,6 +11,15 @@ type: normal
 
 category: hack
 
+standards:
+  js.data-types-structures.2: 10
+  js.data-types-structures.3: 10
+
+tags:
+  - introduction
+  - workout
+  - arrays
+
 links:
 
   - '[davidwalsh.name](https://davidwalsh.name/merge-arrays-javascript){website}'
@@ -35,7 +44,7 @@ Array.prototype.push.apply(array1, array2);
 ```
 
 Unlike other languages, JavaScript does not support `+` for concatenating arrays. The output of such an operation would be a string:
-```js
+```javascript
 console.log([1, 2] + [3, 4])
 // 1,23,4
 ```

@@ -15,6 +15,9 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  sql.read-multiple-tables.0: 10
+
 links:
   - '[Left outer join](https://en.wikipedia.org/wiki/Join_(SQL)#Left_outer_join)'
   - '[Right outer join](https://en.wikipedia.org/wiki/Join_(SQL)#Right_outer_join)'
@@ -32,7 +35,7 @@ The `LEFT JOIN`, or `LEFT OUTER JOIN`, is a type of join whose result contains *
 In case of a `LEFT JOIN`, if the joined field has no match in the second table, the right-hand table columns values are defaulted to `NULL`. The same rule applies for the `RIGHT JOIN`'s unmatched rows.
 
 A `LEFT JOIN` is performed like this:
-```SQL
+```sql
 SELECT move.id, move.name,
   type.id, type.name AS type_name
 FROM move
@@ -50,7 +53,7 @@ id | name  | id | type_name
 1  | pound | 1  | normal
 ```
 The equivalent `RIGHT OUTER JOIN`:
-```SQL
+```sql
 SELECT move.id, move.name,
   type.id, type.name AS type_name
 FROM move
@@ -98,7 +101,7 @@ The difference between inner join (IJ) and left outer join (LOJ) is that
 ## Revision
 
 Complete the following snippet such that the command is a valid `RIGHT JOIN`:
-```SQL
+```sql
 SELECT *
 ??? type
 ??? type_efficacy ???
@@ -120,7 +123,7 @@ question: |
   Given the tables called `location_area` and `location`:
 
   id  | game_index | location_id |       name                      
-  ----|------------|-------------|--------------------
+  ====|============|=============|=====================
     1 |          1 |           1 | canalave-city-area
     2 |          2 |           2 | eterna-city-area
     3 |          3 |           3 | pastoria-city-area
@@ -128,7 +131,7 @@ question: |
   (...)
 
   id  | region_id |     name           
-  ----|-----------|---------------
+  ====|===========|===============
     1 |         4 | canalave-city
     2 |         4 | eterna-city
     3 |         4 | pastoria-city
@@ -138,7 +141,7 @@ question: |
   Note that there are 6 regions, but not all locations belong to one of them. Get game_index's region, `NULL` if there is none. The result should look like this:
 
   id  | game_index | region_id
-  ----|------------|-----------
+  ====|============|===========
     1 |          1 |         4
     2 |          2 |         4
     3 |          3 |         4

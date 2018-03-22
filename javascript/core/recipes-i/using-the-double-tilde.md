@@ -13,8 +13,12 @@ type: normal
 
 category: hack
 
-tags:
+standards:
+  js.write-expressions.0: 10
+  js.evaluate-expressions.3: 10
+  js.data-types-structures.1: 10
 
+tags:
   - double-tilde
 
 ---
@@ -64,7 +68,7 @@ console.log(~~{}); // ???
 
 The following code will output:
 
-```js
+```javascript
 console.log( ~~12.34 ); // ???
 console.log( ~~"56.78" ); // ???
 console.log( ~~"Sunny" ); // ???

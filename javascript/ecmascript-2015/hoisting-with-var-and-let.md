@@ -23,7 +23,7 @@ links:
 ## Content
 
 Consider the following functions which are using `var` and `let` respectively.
-``` javascript
+```javascript
 function f1(){
   var flag = true;
   var i = 5;

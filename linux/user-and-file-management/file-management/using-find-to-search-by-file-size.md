@@ -23,7 +23,7 @@ The `find` command is used to search for files on your computer.  It's often use
 
 This will find all files at least 50MB or larger in the current directory:
 
-```console
+```shell
 $ find . -type f -size +50M
 ```
 
@@ -31,7 +31,7 @@ The `+` in `+100M` signifies "at least 100MB".  If instead we used `-size 100MB`
 
 The output of this command will be a simple list of filenames without any size information.  To include more useful information you can run the following:
 
-```console
+```shell
 $ find . -size +100M
      -exec ls -lh {} \;
 ```

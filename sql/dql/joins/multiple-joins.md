@@ -15,6 +15,10 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  sql.read-multiple-tables.0: 10
+  sql.read-multiple-tables.1: 10
+
 tags:
    - workout
    - deep
@@ -56,7 +60,7 @@ id   |  name
 12   |  grass
 ```
 The syntax is this:
-```SQL
+```sql
 SELECT pokemon.name, type.name
 FROM pokemon_type
 LEFT JOIN pokemon
@@ -81,7 +85,7 @@ The same result can be achieved by using subqueries.
 ## Practice
 
 Obtain the list of moves a Pokémon learns ordered by game version and level at which it learns the move:
-```SQL
+```sql
 SELECT pokemon.name,
   poke_move_level.level,
   poke_move_level.name,
@@ -129,7 +133,7 @@ question: |
   Given the tables called `pokedex`, `version_group` and `pokedex_version_group`:
 
   id | is_main_series | region_id |       name       
-  ---|----------------|-----------|------------------
+  ===|================|===========|================
    1 | t              |           | national
    2 | t              |         1 | kanto
    3 | t              |         2 | original-johto
@@ -138,14 +142,14 @@ question: |
   (...)
 
   id | order | generation_id |           name            
-  ---|-------|---------------|---------------------------
+  ===|=======|===============|======================
    1 |     1 |             1 | red-blue
    2 |     2 |             1 | yellow
    3 |     3 |             2 | gold-silver
   (...)
 
   id | pokedex_id | version_group_id
-  ---|------------|------------------
+  ===|============|==================
    1 |          2 |                1
    2 |          2 |                2
    3 |          2 |                7

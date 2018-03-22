@@ -15,6 +15,11 @@ category: must-know
 
 inAlgoPool: false
 
+standards:
+  sql.read-single-table.0: 10
+  sql.read-single-table.1: 10
+  sql.read-single-table.2: 10
+
 tags:
   - introduction
   - workout
@@ -86,7 +91,7 @@ question: |
   Consider the `ability` table and the following query:
 
   id   | is_main_series | generation_id |      name      
-  -----|----------------|---------------|---------------
+  =====|================|===============|===============
      1 | t              |             3 | stench
      2 | f              |             3 | drizzle
      3 | t              |             3 | speed-boost
@@ -104,4 +109,3 @@ answers:
   - WHERE name IS "speed-boost";
   - WHERE ability='speed-boost';
   - WHERE id='speed-boost';
-

@@ -15,8 +15,14 @@ inAlgoPool: false
 
 parent: connection-strings
 
+
+standards:
+  sql.connect-client.0: 10
+  sql.connect-client.1: 10
+
 tags:
   - introduction
+
 
 links:
 

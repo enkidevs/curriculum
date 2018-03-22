@@ -24,7 +24,7 @@ links:
 
 **Version Control** defines a **system** intended to help software development teams record and manage changes to their source code[1].
 
-Using a Version Control System, or **VCS**, different versions of a file collection or project can be created or changed; each version representing the exact state of the project at a given time. 
+Using a Version Control System, or **VCS**, different versions of a file collection or project can be created or changed; each version representing the exact state of the project at a given time.
 
 Keeping this in mind, one is able to *revert*, *compare* and even *switch* between the versions of a project's files, which greatly systemizes a team's workflow.
 
@@ -46,27 +46,27 @@ What *type* of VCS **only** makes use of a local database to keep changes of fil
 
 ???
 
-* Local Version Control 
+* Local Version Control
 * Centralised Version Control
 * Distributed Version Control
 
 ---
 ## Revision
 
-What does **CVCS** stand for?
+In order to be considered in the git commit a file must be ?
 
 ???
- 
-* Centralised Version Control System
-* Centralised Versioning Center System
-* Center Version Control System
-* Control Version Center System
+
+* Tracked
+* Untracked
+* Marked
+* Saved
 
 ---
 ## Footnotes
 
 [1:applicability]
-Keep in mind that **Version Control** software is not limited to text files and implicitly source code, but also to different kind of files such as images, making it useful not only for software developers.
+Keep in mind that **Version Control** software is not limited to text files and implicitly source code, but also to different kind of files such as images, making it useful for a wide range of services and not only for software development.
 [2:DVCS]
 DVCS was developed as a response to a vulnerability implied by both local or centralized version control systems.
 

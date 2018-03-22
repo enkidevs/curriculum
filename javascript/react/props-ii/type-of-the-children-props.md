@@ -33,7 +33,7 @@ When there is a single child, `this.props.children` will be the the single child
 
 The example shows both with and without an array allocation:
 
-``` JavaScript
+```javascript
 var Wrapper = React.createClass({
   componentDidMount: function() {
     console.log(

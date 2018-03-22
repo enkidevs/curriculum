@@ -9,6 +9,15 @@ type: normal
 
 category: must-know
 
+standards:
+  js.identify-syntax.2: 10
+  js.evaluate-expressions.3: 10
+  js.evaluate-expressions.10: 10
+
+tags:
+  - introduction
+  - workout
+
 links:
 
   - "[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators){website}"

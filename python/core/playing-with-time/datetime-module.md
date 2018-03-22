@@ -62,7 +62,7 @@ Is `datetime` a module or a class?
 ## Revision
 
 Using `datetime` module get the constant representing the maximum number a year can take:
-```py
+```python
 import datetime
 print(???.???)
 # 9999

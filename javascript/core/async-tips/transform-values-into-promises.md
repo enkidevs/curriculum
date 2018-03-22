@@ -9,13 +9,16 @@ type: normal
 
 category: how to
 
+standards:
+  js.async.2: 10
+
 tags:
-
   - promises
-
   - functional programming
-
   - async
+  - introduction
+  - workout
+  - deep
 
 ---
 ## Content

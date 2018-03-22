@@ -1,4 +1,4 @@
-# Difference between ```HashMap``` and ```Hashtable```
+# Difference between `HashMap` and `Hashtable`
 author: pawel
 
 levels:
@@ -38,10 +38,10 @@ Which one of the following classes is synchronized?
 
 ???
 
-*`Hashtable` 
-*`HashMap` 
-*`both` 
-*`none`
+* `Hashtable` 
+* `HashMap` 
+* `both` 
+* `none`
 
 ---
 ## Revision
@@ -50,7 +50,7 @@ Which one of the following classes allow `null` values as keys?
 
 ???
 
-*`HashMap` 
-*`Hashtable` 
-*`both` 
-*`none`
+* `HashMap` 
+* `Hashtable` 
+* `both` 
+* `none`

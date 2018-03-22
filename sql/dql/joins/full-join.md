@@ -16,6 +16,9 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  sql.read-multiple-tables.0: 10
+
 links:
     - '[Full outer join](https://en.wikipedia.org/wiki/Join_(SQL)#Full_outer_join)'
 
@@ -29,7 +32,7 @@ tags:
 The `FULL JOIN`, or `FULL OUTER JOIN`, is a type of join that combines the functionality of `RIGHT JOIN` and `LEFT JOIN`. In other words, it returns matching rows, rows that are only in the left-hand table and rows that are only in the right-hand table.
 
 If we are to fall back to the previous example of *moves* and *types*, the output won't be different:
-```SQL
+```sql
 SELECT move.id, move.name,
   type.id, type.name AS type_name
 FROM move
@@ -54,7 +57,7 @@ Here's what a FULL JOIN represents:
 ## Practice
 
 Fill in the gaps such that the following snippet becomes a valid `FULL OUTER JOIN`:
-```SQL
+```sql
 ??? *
 FROM ???
 ??? berry_firmness ???
@@ -72,7 +75,7 @@ WHERE berry_firmness.id = 2???
 ## Revision
 
 The correct syntax for fully joining two tables is:
-```SQL
+```sql
 SELECT *
 FROM pokemon_type
 ??? type ???
@@ -94,14 +97,14 @@ question: |
   Given the tables called `location` and `location_area`:
 
   id  | region_id |     name           
-  ----|-----------|---------------
+  ====|===========|===============
     1 |         4 | canalave-city
     2 |         4 | eterna-city
     3 |         4 | pastoria-city
   (...)
 
   id  | game_index | location_id |       name                      
-  ----|------------|-------------|--------------------
+  ====|============|=============|=====================
     1 |          1 |           1 | canalave-city-area
     2 |          2 |           2 | eterna-city-area
     3 |          3 |           3 | pastoria-city-area
@@ -112,7 +115,7 @@ question: |
   Note that there are 6 regions, but not all locations belong to one of them. Get location id, game index and region id for all records. It doesn't matter whether there is no game index for a region or vice versa. The result should look like this:
 
   id  | game_index | region_id
-  ----|------------|-----------
+  ====|============|===========
     1 |          1 |         4
     2 |          2 |         4
     3 |          3 |         4

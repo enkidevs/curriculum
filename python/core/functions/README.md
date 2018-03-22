@@ -6,8 +6,8 @@ insights:
   - defining-functions
   - calling-functions
   - py-function-arguments
-  - nested-functions
   - the-return-statement
+  - nested-functions
   - testing-functions-inline-with-doctest-to-provide-tested-examples-and-make-your-code-easier-to-understand
 
 exercises:
@@ -16,3 +16,4 @@ exercises:
   - py-practice-functions-scope
   - py-practice-ciphers
   - py-more-practice-functions
+

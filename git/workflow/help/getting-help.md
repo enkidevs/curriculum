@@ -37,7 +37,7 @@ $ man git-clone
 
 
 NAME
-git-clone - Clone a repository into a 
+git-clone - Clone a repository into a
             new directory
 ...
 ```
@@ -53,11 +53,11 @@ $ ??? ???-???
 
 ```
 
-*`man`
-*`git`
-*`branch`
-*`help`
-*`--help`
+* `man`
+* `git`
+* `branch`
+* `help`
+* `--help`
 
 ---
 ## Revision
@@ -67,8 +67,8 @@ What flag can you use after a git command to show its documentation?
 $ git clone ???
 ```
 
-*`--help`
-*`--manpage`
-*`help`
-*`--man`
-*`--info`
+* `--help`
+* `--manpage`
+* `help`
+* `--man`
+* `--info`

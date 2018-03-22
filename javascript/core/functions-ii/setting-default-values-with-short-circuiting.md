@@ -11,9 +11,13 @@ type: normal
 
 category: pattern
 
-tags:
+standards:
+  js.write-expressions.5: 10
 
+tags:
   - short-circuiting
+  - introduction
+  - workout 
 
 links:
 

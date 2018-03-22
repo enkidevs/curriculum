@@ -13,6 +13,14 @@ type: normal
 
 category: must-know
 
+standards:
+  js.async.0: 10
+
+tags:
+  - introduction
+  - workout
+  - deep
+
 links:
 
   - >-
@@ -33,7 +41,7 @@ const uid = setTimeout(
 );
 ```
 These methods allow authors to schedule timer-based callbacks.
-```js
+```javascript
 function chrono(start) {
   // same start value is passed each time
   // the scheduled interval runs

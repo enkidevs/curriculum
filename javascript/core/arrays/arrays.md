@@ -11,6 +11,14 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  js.data-types-structures.2: 10
+  js.data-types-structures.3: 10
+
+tags:
+  - introduction
+  - workout
+
 ---
 ## Content
 
@@ -58,7 +66,7 @@ function (item, index, array) {
 );
 ```
 Another cool feature of JavaScript is that you can initialize an array as such:
-```JavaScript
+```javascript
 var myArray = [,,,];
 ```
 What this does is create an *empty* array of *size 3* (not 4, as the last comma is ignored).

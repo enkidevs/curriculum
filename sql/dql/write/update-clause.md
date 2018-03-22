@@ -15,9 +15,14 @@ category: must-know
 
 inAlgoPool: false
 
+
+standards:
+  sql.write.3: 10
+
 tags:
   - introduction
   - workout
+
 
 links:
 

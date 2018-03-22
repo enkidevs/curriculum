@@ -17,6 +17,9 @@ category: must-know
 
 inAlgoPool: false
 
+standards:
+  sql.define-relationships.0: 10
+
 links:
 
   - '[More on ADD CONSTRAINT](https://www.tutorialspoint.com/sql/sql-alter-command.htm)'

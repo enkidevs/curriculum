@@ -29,7 +29,7 @@ System.out.println(hello);
 System.out.println("hello");
 ```
 Whose output will be:
-```console
+```shell
 hi
 hello
 ```

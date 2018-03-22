@@ -20,7 +20,7 @@ links:
 ## Content
 
 Exporting a module in **Node** can be done in different ways. The most common is using the `exports` object:
-``` javascript
+```javascript
 //what is exported (other.js)
 exports.say = function() {
     console.log('Hello from Enki!');
