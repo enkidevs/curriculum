@@ -13,7 +13,7 @@ inAlgoPool: false
 
 standards:
 
-  - js.control-flow.1: 10
+  js.control-flow.1: 10
 
 tags:
 

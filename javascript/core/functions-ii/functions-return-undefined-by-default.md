@@ -15,7 +15,7 @@ category: feature
 
 standards:
 
-  - js.functions.1: 10
+  js.functions.1: 10
 
 tags:
 

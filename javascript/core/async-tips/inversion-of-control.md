@@ -13,7 +13,7 @@ category: must-know
 
 standards:
 
-  - js.async.2: 10
+  js.async.2: 10
 
 tags:
 

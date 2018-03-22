@@ -13,7 +13,7 @@ category: tip
 
 standards:
 
-  - js.functions.5: 10
+  js.functions.5: 10
 
 tags:
 

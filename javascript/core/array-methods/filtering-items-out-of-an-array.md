@@ -15,11 +15,11 @@ category: best practice
 
 standards:
 
-  - js.data-types-structures.2: 10
+  js.data-types-structures.2: 10
 
-  - js.data-types-structures.3: 10
+  js.data-types-structures.3: 10
 
-  - js.functions.4: 10
+  js.functions.4: 10
 
 tags:
 

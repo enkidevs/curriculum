@@ -11,7 +11,7 @@ category: caveats
 
 standards:
 
-  - js.exceptions.2: 10
+  js.exceptions.2: 10
 
 tags:
 

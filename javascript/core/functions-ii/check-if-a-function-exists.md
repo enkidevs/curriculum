@@ -15,13 +15,13 @@ category: feature
 
 standards:
 
-  - js.write-expressions.9: 10
+  js.write-expressions.9: 10
 
-  - js.functions.8: 10
+  js.functions.8: 10
 
-  - js.control-flow.5: 10
+  js.control-flow.5: 10
 
-  - js.control-flow.1: 10
+  js.control-flow.1: 10
 
 
 links:

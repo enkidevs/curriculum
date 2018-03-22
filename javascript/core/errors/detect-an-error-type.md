@@ -11,11 +11,11 @@ category: must-know
 
 standards:
 
-  - js.exceptions.0: 10
+  js.exceptions.0: 10
 
-  - js.exceptions.1: 10
+  js.exceptions.1: 10
 
-  - js.exceptions.2: 10
+  js.exceptions.2: 10
 
 tags:
 

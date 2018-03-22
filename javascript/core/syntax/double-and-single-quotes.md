@@ -15,7 +15,7 @@ category: best practice
 
 standards:
 
-  - js.javascript-syntax.2: 10
+  js.javascript-syntax.2: 10
 
 tags:
 

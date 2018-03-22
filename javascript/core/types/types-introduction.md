@@ -13,7 +13,7 @@ inAlgoPool: false
 
 standards:
 
-  - js.evaluate-expressions.10: 10
+  js.evaluate-expressions.10: 10
 
 tags:
 

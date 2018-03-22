@@ -13,7 +13,7 @@ category: pattern
 
 standards:
 
-  - js.write-expressions.5: 10
+  js.write-expressions.5: 10
 
 tags:
 

@@ -15,9 +15,9 @@ category: feature
 
 standards:
 
-  - js.functions: 10
+  js.functions: 10
 
-  - js.execution-context: 10
+  js.execution-context: 10
 
 tags:
 

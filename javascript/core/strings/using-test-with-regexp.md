@@ -13,11 +13,11 @@ category: feature
 
 standards:
 
-  - js.evaluate-expressions.3: 10
+  js.evaluate-expressions.3: 10
 
-  - js.write-expressions.1: 10
+  js.write-expressions.1: 10
 
-  - js.standard-library.0: 10
+  js.standard-library.0: 10
 
 tags:
 

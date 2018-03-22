@@ -39,7 +39,7 @@ There are many options available but some of the better known sites are:
 
 - codepen.io
 - jsbin.com 
-- js.do
+js.do
 - jsfiddle.net
 - pythontutor.com
 

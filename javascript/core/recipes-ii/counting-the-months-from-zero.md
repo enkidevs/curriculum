@@ -15,7 +15,7 @@ category: caveats
 
 standards:
 
-  - js.standard-library.5: 10
+  js.standard-library.5: 10
 
 tags:
 

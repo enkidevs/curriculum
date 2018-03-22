@@ -13,9 +13,9 @@ category: hack
 
 standards:
 
-  - js.data-types-structures.2: 10
+  js.data-types-structures.2: 10
 
-  - js.data-types-structures.3: 10
+  js.data-types-structures.3: 10
 
 tags:
 

@@ -11,11 +11,11 @@ category: best practice
 
 standards:
 
-  - js.async.0: 10
+  js.async.0: 10
 
-  - js.functions.3: 10
+  js.functions.3: 10
 
-  - js.control-flow.5: 10
+  js.control-flow.5: 10
 
 
 links:

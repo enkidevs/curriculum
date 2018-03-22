@@ -15,7 +15,7 @@ category: must-know
 
 standards:
 
-  - js.async.0: 10
+  js.async.0: 10
 
 tags:
 

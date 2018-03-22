@@ -11,9 +11,9 @@ category: caveats
 
 standards:
 
-  - js.control-flow.2: 10
+  js.control-flow.2: 10
 
-  - js.data-types-structures.5: 10
+  js.data-types-structures.5: 10
 
 tags:
 

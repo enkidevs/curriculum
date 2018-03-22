@@ -13,9 +13,9 @@ inAlgoPool: false
 
 standards:
 
-  - js.control-flow.3: 10
+  js.control-flow.3: 10
 
-  - js.control-flow.4: 10
+  js.control-flow.4: 10
 
 tags:
 

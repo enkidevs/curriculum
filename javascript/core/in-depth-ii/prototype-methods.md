@@ -15,7 +15,7 @@ category: pattern
 
 standards:
 
-  - js.prototype-inherit.0: 10
+  js.prototype-inherit.0: 10
 
 tags:
 

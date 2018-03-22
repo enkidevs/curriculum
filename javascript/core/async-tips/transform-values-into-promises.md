@@ -11,7 +11,7 @@ category: how to
 
 standards:
 
-  - js.async.2: 10
+  js.async.2: 10
 
 tags:
 

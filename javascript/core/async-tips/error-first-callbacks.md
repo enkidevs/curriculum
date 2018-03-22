@@ -13,9 +13,9 @@ category: feature
 
 standards:
 
-  - js.async.0: 10
+  js.async.0: 10
 
-  - js.identify-common-design-patterns.3: 10
+  js.identify-common-design-patterns.3: 10
 
 tags:
 

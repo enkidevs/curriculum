@@ -11,7 +11,7 @@ category: tip
 
 standards:
 
-  - js.standard-library.5: 10
+  js.standard-library.5: 10
 
 
 links:

@@ -15,11 +15,11 @@ category: pattern
 
 standards:
 
-  - js.functions.1: 10
+  js.functions.1: 10
 
-  - js.functions.6: 10
+  js.functions.6: 10
 
-  - js.execution-context.2: 10
+  js.execution-context.2: 10
 
 tags:
 

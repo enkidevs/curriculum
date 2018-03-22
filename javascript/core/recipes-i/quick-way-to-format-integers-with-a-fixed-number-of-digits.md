@@ -11,13 +11,13 @@ category: tip
 
 standards:
 
-  - js.write-expressions.0: 10
+  js.write-expressions.0: 10
 
-  - js.evaluate-expressions.3: 10
+  js.evaluate-expressions.3: 10
 
-  - js.standard-library.1: 10
+  js.standard-library.1: 10
 
-  - js.data-types-structures.3: 10
+  js.data-types-structures.3: 10
 
 tags:
 

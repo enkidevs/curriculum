@@ -13,9 +13,9 @@ category: how to
 
 standards:
 
-  - js.data-types-structures.0: 10
+  js.data-types-structures.0: 10
 
-  - js.standard-library.2: 10
+  js.standard-library.2: 10
 
 
 

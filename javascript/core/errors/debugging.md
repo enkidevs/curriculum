@@ -13,7 +13,7 @@ inAlgoPool: false
 
 standards:
 
-  - js.exceptions.4: 10
+  js.exceptions.4: 10
 
 tags:
 

@@ -15,13 +15,13 @@ category: feature
 
 standards:
 
-  - js.functions.0: 10
+  js.functions.0: 10
 
-  - js.functions.1: 10
+  js.functions.1: 10
 
-  - js.functions.3: 10
+  js.functions.3: 10
 
-  - js.functions.4: 10
+  js.functions.4: 10
 
 tags:
 
