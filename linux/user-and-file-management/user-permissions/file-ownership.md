@@ -52,9 +52,10 @@ Consider the following snippet:
 
 ```bash
 $ ls -l schedule.txt
-  -r-xr-xr-- 10 student students
-     436 Jul 15 13:21 ~/schedule.txt
+-r-xr-xr-- 10 student students
+436 Jul 15 13:21 ~/schedule.txt
 ```
+
 Who has the fewest permissions for this file?
 
 ???
@@ -67,7 +68,7 @@ Who has the fewest permissions for this file?
 ---
 ## Revision
 
-You can use `???` to see which user or group owns a specific *file*.
+You can use `???` to see which user or group owns a specific _file_.
 
 * `ls -l`
 * `ls -a`
