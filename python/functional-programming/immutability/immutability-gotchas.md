@@ -118,7 +118,8 @@ add_to("string")
 ---
 ## Quiz
 ### what is the last line printed?
-```
+
+```python
 def foo(x, k = []):
     k.append(x)
     print(k)
@@ -133,4 +134,3 @@ foo(3)
 * [1]
 * [4, 5, 2]
 * [1, 2, 3]
-

@@ -26,7 +26,7 @@ links:
 ---
 ## Content
 
-Immutability is a concept from object-oriented and functional programming. An **immutable object** is usually defined as an object that cannot be modified after its creation, I.E. it stays the exactly the same throughout its entire life cycle. This is the opposite of a **mutable object**, where modifications after creation are permitted. 
+Immutability is a concept from object-oriented and functional programming. An **immutable object** is usually defined as an object that cannot be modified after its creation, I.E. it stays the exactly the same throughout its entire life cycle. This is the opposite of a **mutable object**, where modifications after creation are permitted.
 
 For example, if we were to create a list of names in a **mutable** fashion, and wanted to add another name, we would do something like this:
 
@@ -97,7 +97,8 @@ How would we get the effect of adding another element to an immutable list?
 ---
 ## Quiz
 ### which of the following snippets prints False?
-```
+
+```python
 # A
 print('hello' is 'hell' + 'o')
 # B

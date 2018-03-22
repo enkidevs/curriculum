@@ -116,7 +116,8 @@ ex_tuple = ("Python", 1, "Enki", 2)
 ---
 ## Quiz
 ### how does unpacking work?
-```
+
+```python
 # What will be the value printed by the following code block?
 a, \*b, c = (1, 2, 3, 4, 5)
 print(b)
@@ -128,4 +129,3 @@ print(b)
 * 2
 * 3,4,5
 * 1,2,3,4,5
-

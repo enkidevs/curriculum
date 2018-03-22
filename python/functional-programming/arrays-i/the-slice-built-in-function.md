@@ -122,8 +122,9 @@ print(nList[sObject])
 ---
 ## Quiz
 ### how does slicing work?
-```
-# What will be printed by the following snippet?
+
+What will be printed by the following snippet?
+```python
 a = 'enki'
 print(a[::-1])
 ```

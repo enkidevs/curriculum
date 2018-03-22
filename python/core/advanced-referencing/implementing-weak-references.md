@@ -114,7 +114,8 @@ r = ???.ref(???)
 ---
 ## Quiz
 ### how would you check a variable for NoneType?
-```
+
+```python
 x = None:
 if ...
   print('x is None')
@@ -126,4 +127,3 @@ if ...
 * if x == None
 * if not x
 * if x is not None
-

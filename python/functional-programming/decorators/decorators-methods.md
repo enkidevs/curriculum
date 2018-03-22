@@ -134,7 +134,8 @@ def deco(self):
 ---
 ## Quiz
 ### what is the output of the following snippet?
-```
+
+```python
 def foo(a,b,*args,**kwargs):
   print(a, b, args, kwargs)
 x = {'ten': 10}

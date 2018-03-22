@@ -91,8 +91,10 @@ b = 3
 ---
 ## Quiz
 ### what is the result of the following identity check?
-```
-# Interactive shell
+
+`> python -i`  
+
+```bash
 >>> a = 256
 >>> b = 256
 >>> a is b
@@ -109,4 +111,3 @@ b = 3
 * True and True
 * False and True
 * False and False
-
