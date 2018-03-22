@@ -2,12 +2,11 @@
 author: catalin
 
 levels:
-
   - basic
 
   - medium
 
-  - expert
+  - advanced
 
 type: normal
 
@@ -15,7 +14,6 @@ category: hack
 
 
 links:
-
   - '[Source](https://github.com/facebook/react/issues/812#issuecomment-172929366){website}'
 
 
@@ -101,4 +99,3 @@ for (y = 0; y < 10; y++) {
 * A
 * B
 * same performance
-
