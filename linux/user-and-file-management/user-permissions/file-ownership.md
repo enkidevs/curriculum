@@ -36,23 +36,26 @@ On Linux, every file and directory is given both a user owner and a group owner.
 
 Here is some example output:
 
-```console
+```bash
 $ ls -ld /var/log
-drwxrwxr-x 10 root syslog 
+drwxrwxr-x 10 root syslog
     4096 Jun 13 06:25 /var/log
 $ ls -l /var/log/syslog
 -rw-r
+
+```
 
 ---
 ## Practice
 
 Consider the following snippet:
-```
+
+```bash
 $ ls -l schedule.txt
   -r-xr-xr-- 10 student students
      436 Jul 15 13:21 ~/schedule.txt
 ```
-Who has the fewest permissions for this file? 
+Who has the fewest permissions for this file?
 
 ???
 
@@ -70,4 +73,3 @@ You can use `???` to see which user or group owns a specific *file*.
 * `ls -a`
 * `ls -o`
 * `ls -d`
-
