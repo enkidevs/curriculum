@@ -34,7 +34,7 @@ tags:
 `vmstat` allows the user to monitor virtual
 memory statistics such as processes, memory,
 paging, block IO, traps , disks and cpu
-activity. 
+activity.
 
 The user can specify a sampling period.
 
@@ -42,16 +42,17 @@ The user can specify a sampling period.
 $ vmstat 1
 procs
 
+```
+
 ---
 ## Revision
 
-Running `vmstat 1`  allows the user to monitor the 
+Running `vmstat 1`  allows the user to monitor the
 
-??? .
+???
 
 
 * virtual memory
 * physical memory
 * network
 * server
-
