@@ -15,9 +15,9 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/
+link: http://sqlfiddle.com/#!9/05b0f8/2
 
-answer: done
+answer: 0
 
 standards:
   sql.define-sequences-or-default-values.0: 1000
@@ -35,3 +35,4 @@ links:
 ## Exercise
 
 ADD primary key to requests table.
+In order to check your results write your `DDL` query, build the schema and run the provided DQL query. Then write in the answer field your the default value for `accepted` column.
