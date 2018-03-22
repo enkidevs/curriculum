@@ -107,9 +107,10 @@ Select all the columns from the `pokemon` table, keeping only the rows where the
 ---
 ## Quiz
 ### Do you know how to match a pattern in SQL?
-```
-
 Consider the `location` table from our pokemon database:
+
+
+```bash
 
 id  | region_id |     name           
 ====|===========|================
@@ -118,8 +119,9 @@ id  | region_id |     name
   3 |         3 | pastoria-city
 (...)
 
-Choose the query that will get all the location records that are based in regions 1, 2. Also, pay attention to include only locations that end in 'city':
 ```
+
+Choose the query that will get all the location records that are based in regions 1, 2. Also, pay attention to include only locations that end in 'city':
 
  ???
 
@@ -127,4 +129,3 @@ Choose the query that will get all the location records that are based in region
 * SELECT * FROM location WHERE region_id < 3 AND name='%city';
 * SELECT * FROM location WHERE BETWEEN 1 AND 2 AND name='%city';
 * SELECT * FROM location WHERE region_id < 3 AND name LIKE '_city';
-

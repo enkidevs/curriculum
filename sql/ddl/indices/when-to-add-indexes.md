@@ -86,7 +86,8 @@ id  | level | experience | growth_rate_id
 ## Revision
 
 Consider the item table:
-```
+
+```bash
 id  | cost  |    name       
 ====+=======+============
   1 |     0 | master-ball
@@ -108,9 +109,11 @@ Suppose that `PRIMARY KEY` isn't set yet. Choose the query that will create a cl
 ---
 ## Quiz
 ### Do you know how to match a pattern in SQL?
-```
 
 Consider the `pokemon` table from our pokemon database:
+
+```bash
+
 
   id   | order | height | weight | base_experience | pokemon_species_id |   name          
 =======|=======|========|========|=================|====================|===========
@@ -119,8 +122,8 @@ Consider the `pokemon` table from our pokemon database:
      3 |     3 |     20 |   1000 |             236 |                  3 | venusaur
 (...)
 
-This table has thousands of entries and querying a pokemon's species is very slow. We need to speed up this common query. We want to create an index that will help us improve the efficiency of this data retrieval.
 ```
+This table has thousands of entries and querying a pokemon's species is very slow. We need to speed up this common query. We want to create an index that will help us improve the efficiency of this data retrieval.
 
  ???
 

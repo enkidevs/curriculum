@@ -126,10 +126,10 @@ id | version_group_id |      name
 ---
 ## Quiz
 ### What statement gets columns and rows from tables?
-```
 
 Given a table called `ability` from our pokemon database:
 
+```bash
 id   | is_main_series | generation_id |      name      
 =====|================|===============|===============
    1 | t              |             3 | stench
@@ -137,10 +137,9 @@ id   | is_main_series | generation_id |      name
    3 | t              |             3 | speed-boost
    4 | t              |             3 | battle-armor
 (...)
-
+```
 
 It doesn't have a `PRIMARY KEY` set so far. Create an index to define `ability`'s primary key.
-```
 
  ???
 

@@ -153,9 +153,10 @@ WHERE region_name.region_id = 2;
 ---
 ## Quiz
 ### Can you use a UNION of SELECTs?
-```
-
 Given the tables called `item_pocket` and `item_category`:
+
+
+```bash
 
 id |   name    
 ===|===========
@@ -173,9 +174,13 @@ id   | item_pocket_id |    name
    5 |              5 | in-a-pinch
 (...)
 
+```
+
 
 Retrieve `item_category`s' id and names together with `item_pocket`s' names without duplicates.
 The result should look like this:
+
+```bash
 
   id   | pocket_name |   name       
 =======|=============|===============
@@ -190,4 +195,3 @@ The result should look like this:
 * SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category FULL JOIN item_pocket ON item_pocket.id = item_category.item_pocket_id UNION ALL SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category RIGHT JOIN item_pocket ON item_pocket.id = item_category.item_pocket_id;
 * SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category RIGHT JOIN item_pocket ON item_pocket.name = item_category.name UNION SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category RIGHT JOIN item_pocket ON item_pocket.name = item_category.name;
 * SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category RIGHT JOIN item_pocket ON item_pocket.id = item_category.item_pocket_id UNION SELECT item_category.id FROM item_category RIGHT JOIN item_pocket ON item_pocket.id = item_category.item_pocket_id;
-

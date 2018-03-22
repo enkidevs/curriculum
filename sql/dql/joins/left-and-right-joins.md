@@ -126,10 +126,10 @@ type.id = type_efficacy.target_type_id;
 ---
 ## Quiz
 ### LEFT OR RIGHT?
-```
 
 Given the tables called `location_area` and `location`:
 
+```bash
 id  | game_index | location_id |       name                      
 ====|============|=============|=====================
   1 |          1 |           1 | canalave-city-area
@@ -144,9 +144,11 @@ id  | region_id |     name
   2 |         4 | eterna-city
   3 |         4 | pastoria-city
 (...)
-
+```
 
 Note that there are 6 regions, but not all locations belong to one of them. Get game_index's region, `NULL` if there is none. The result should look like this:
+
+```bash
 
 id  | game_index | region_id
 ====|============|===========
@@ -164,4 +166,3 @@ id  | game_index | region_id
 * SELECT location.id,location_area.game_index,location.region_id FROM location FULL OUTER JOIN location_area ON location.id = location_area.id;
 * SELECT location.id,location_area.game_index,location.region_id FROM location INNER JOIN location_area ON location.id = location_area.id;
 * SELECT location.id,location_area.game_index,location.region_id FROM location RIGHT JOIN location_area ON location.id = location_area.id;
-

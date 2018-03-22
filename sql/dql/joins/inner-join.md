@@ -139,11 +139,12 @@ What's the sets theory equivalent of `INNER JOIN`?
 ---
 ## Quiz
 ### Can you filter one table based on data in another table in SQL?
-```
 
-Consider `pokemon` and `pokemon_species` tables. The first one has two columns `height` and `weight`. The latter has a boolean valued column `is_baby`. Select the query that will get the name, height and width of
-all pokemons that are babies:
-```
+
+
+Consider `pokemon` and `pokemon_species` tables. The first one has two columns `height` and `weight`. The latter has a boolean valued column `is_baby`.
+Select the query that will get the name, height and width of all pokemon that are babies:
+
 
  ???
 
