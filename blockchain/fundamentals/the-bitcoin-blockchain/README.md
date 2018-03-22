@@ -2,7 +2,7 @@ name: The Bitcoin Blockchain
 
 type: insights-list
 
-description: todo
+description: The first public blockchain - Bitcoin.
 
 section: 0
 
