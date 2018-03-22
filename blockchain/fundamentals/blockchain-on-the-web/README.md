@@ -1,11 +1,11 @@
-name: Wallets
+name: Blockchain on the Web
 
 type: insights-list
 
 description: todo
 
-section: 1
+section: 2
 
 insights:
- - wallets
+  - web3js
 

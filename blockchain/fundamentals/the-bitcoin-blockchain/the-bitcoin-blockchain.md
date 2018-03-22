@@ -2,7 +2,6 @@
 author: mihaiberq
 
 levels:
-
   - beginner
 
   - basic
@@ -13,6 +12,7 @@ category: must-know
 
 tags:
   - introduction
+  - workout
 
 
 ---
@@ -51,7 +51,6 @@ What is the maximum number of transactions per second the Bitcoin network can pr
 * 3
 * 15
 * 5
-
 
 ---
 ## Revision

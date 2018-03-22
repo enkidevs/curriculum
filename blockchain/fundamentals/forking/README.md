@@ -4,9 +4,10 @@ type: insights-list
 
 description: todo
 
-section: 0
+section: 2
 
 insights:
+ - what-are-forks
  - forking-to-create-altcoins
  - forking-to-revert-transactions
 

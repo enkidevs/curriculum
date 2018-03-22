@@ -2,7 +2,6 @@
 author: mihaiberq
 
 levels:
-
   - beginner
 
   - basic
@@ -13,9 +12,11 @@ category: must-know
 
 tags:
   - introduction
+  - workout
 
 ---
 ## Content
+
 
 **Bitcoin** was the first public blockchain which works as a ledger for tracking bitcoin tokens[1] transactions happening between users. A token is a "e-currency based on cryptographic proof"[2]. The first block was mined on the 3rd of January 2009.
 
@@ -54,6 +55,7 @@ Identify the two cryptographic mechanisms that combined produce a `digital signa
 * Private key and full name
 * A photo of your signature and an encryption algorithm
 
+
 ---
 ## Revision
 
@@ -65,3 +67,4 @@ What is the transaction model used by the Bitcoin blockchain?
 * Account model
 * A combination of UTXO and account models
 * A simple transaction
+

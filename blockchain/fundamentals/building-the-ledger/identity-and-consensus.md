@@ -47,6 +47,7 @@ This is also the case for blockchain: there has to be a consensus about what blo
 ---
 ## Practice
 
+
 What is the type of cryptography used for authentication on a distributed network?
 
 ???
@@ -73,4 +74,5 @@ What problem is solved by waiting for consensus before adding new blocks?
 * 51% attack
 * Sybil attack
 * Replay attack
+
 
