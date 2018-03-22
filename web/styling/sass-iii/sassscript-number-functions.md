@@ -24,7 +24,7 @@ links:
 *SassScript* has a number of implemented number functions which can be used for the manipulation and creation of numeric values.
 
 These include:
-```CSS
+```css
 // turning a number into a percentage
 percentage(0.74) => 74%
 percentage(100px / 80px) => 125%

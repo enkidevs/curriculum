@@ -37,7 +37,7 @@ There are many ways to use the `chmod` command, so make sure to read `man chmod`
 
 Start with these three examples:
 
-```console
+```shell
 # Make ~/waffles.txt user writable
 $ chmod u+w ~/waffles.txt
 
@@ -54,7 +54,7 @@ If instead we used `u-w` or `u-r`, we would *remove* the writable (or readable) 
 
 Here we can better see how the changes are reflected in `ls` output:
 
-```console
+```shell
 $ ls -l waffles.txt
 -rw-r--r-- 1 jesse admin
     0 Jun 13 08:45 waffles.txt

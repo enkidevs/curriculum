@@ -27,7 +27,7 @@ The `ping` command will continuously send a tiny bit of internet traffic to a re
 
 Here is an example:
 
-```console
+```shell
 $ ping google.com
 PING google.com (172.217.0.238)
   56(84) bytes of data.
@@ -55,7 +55,7 @@ Keep in mind that latency has to do with both the quality of your connection and
 
 For example, if I ping `www.duma.ru`, the website for the Russian State Parliament (Duma), we get much higher ping times:
 
-```console
+```shell
 $ ping duma.ru
 PING duma.ru (212.11.128.31)
   56(84) bytes of data.

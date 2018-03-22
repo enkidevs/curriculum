@@ -34,7 +34,7 @@ However, restarting the server won't solve bugs and the only permanent solution 
 To make the distinction between the two types is the first step in being able to properly handle them.
 
 Note: You might have also heard of "exceptions". An exception is a "thrown error":
-```js
+```javascript
 if(err){
   throw new Error('exception here');  
 }
@@ -46,7 +46,7 @@ callback(new Error('error here'));
 ## Practice
 
 Can you identify type of error most likely depicted in the following snippet?
-```js
+```javascript
 import http from 'http';
 ...
 // create the request header

@@ -29,7 +29,7 @@ links:
 ---
 ## Content
 
-A Javadoc comment starts with the opening tag ```/**``` and includes a description of a class or method, followed by additional info on what the method takes as parameter, the return type and more. 
+A Javadoc comment starts with the opening tag `/**` and includes a description of a class or method, followed by additional info on what the method takes as parameter, the return type and more. 
 
 For example:
 ```

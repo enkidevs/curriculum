@@ -27,7 +27,7 @@ When you request data over the internet, the traffic doesn't flow directly betwe
 
 To see all the "hops" between your machine and some remote machine we can use the `traceroute` command.  Here is an example of the output:
 
-```console
+```shell
 $ traceroute google.com
 traceroute to google.com (216.58.194.174), 
   64 hops max, 52 byte packets

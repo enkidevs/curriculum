@@ -18,7 +18,7 @@ category: must-know
 inAlgoPool: false
 
 standards:
-  sql.aggregate-single-table: 10
+  sql.aggregate-single-table.1: 10
 
 tags:
   - workout

@@ -41,7 +41,7 @@ On Unix-based operating systems like Linux, most command shells descend from `sh
 
 The "classic" `bash` prompt looks like this:
 
-```session
+```shell
 jesse@dewey data $
 ```
 

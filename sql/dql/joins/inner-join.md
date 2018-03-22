@@ -20,7 +20,7 @@ category: must-know
 parent: avg-clause
 
 standards:
-  sql.read-multiple-tables: 10
+  sql.read-multiple-tables.0: 10
 
 links:
   - '[Inner join](https://en.wikipedia.org/wiki/Join_(SQL)#Inner_join)'
@@ -64,7 +64,7 @@ id |       effect       |   short_effect   |
    |         4          |        9         |
 ```
 To match the abilities that can be found in both tables, use the following `INNER JOIN` command:
-```SQL
+```sql
 SELECT ability.name,
   ability_effect_text.effect
 FROM ability
@@ -104,7 +104,7 @@ A Pokémon's ability is an aura that is passively active and provides benefits t
 ## Practice
 
 Fill in the blanks such that the following snippet contains a valid JOIN operations:
-```SQL
+```sql
 ??? item.id, item.name,
   item_effect_text.short_effect,
   item_effect_text.item_id

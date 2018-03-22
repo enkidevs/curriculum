@@ -32,7 +32,7 @@ The `kill` command expects to be given a process ID (or PID), which can be found
 
 Consider the following output from `ps`:
 
-```console
+```shell
 $ ps
   PID TTY           TIME CMD
 20735 ttys000    0:00.10 -bash

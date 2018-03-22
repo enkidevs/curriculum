@@ -55,7 +55,7 @@ def say_hello(name):
 print(say_hello("Mike"))
 ```
 Both approaches will result in:
-```HTML
+```html
 <div><h2>Hello, Mike!</h2></div>
 ```
 ### Passing arguments

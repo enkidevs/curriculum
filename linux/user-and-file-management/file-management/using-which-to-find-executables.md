@@ -30,7 +30,7 @@ When you type the name of a program at the shell prompt, your shell will use the
 
 This is what the `which` command is for.  Given the name of a program, `which` will return the full path to the executable.  It looks like this:
 
-```console
+```shell
 jesse@host ~ $ which ls
 /bin/ls
 jesse@host ~ $ which ps

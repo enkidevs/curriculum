@@ -42,7 +42,7 @@ First, try running the command in ``sh``.
 
 Wrap the command in a `bash` subshell to make sure it gets run in `bash`:
     
-```bash 
+```bash
 bash -c "mybashcommand"
 ```
 Tell `cron` to run all commands in `bash` by setting the shell at the top of your `crontab`:

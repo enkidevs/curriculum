@@ -25,7 +25,7 @@ inAlgoPool: false
 
 If you run the `ifconfig` command you'll see an interface designated `lo` that doesn't appear to correspond to any physical device:
 
-```console
+```shell
 $ ifconfig
 lo        
 Link encap:Local Loopback  

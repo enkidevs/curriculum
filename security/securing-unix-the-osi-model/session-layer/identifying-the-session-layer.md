@@ -1,4 +1,4 @@
-# Identifying the Session Layer
+---
 author: milesflo
 
 levels:
@@ -15,11 +15,16 @@ category: must-know
 
 inAlgoPool: false
 
-parent: securing-the-transport-layer
 
 links:
 
-  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
+  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}'
+
+parent: securing-the-transport-layer
+
+---
+
+# Identifying the Session Layer
 
 ---
 ## Content
@@ -28,12 +33,12 @@ The Session Layer (Layer 5) is responsible for opening, closing, and managing a 
 
 Session Checkpointing allows information from different streams, perhaps originating from different sources, to be properly combined or synchronized. For example, live TV utilizes session checkpointing to sync audio and video streams to avoid lip-syncing problems.
 
-
 ---
 ## Practice
 
 What roles does The Session Layer play in the OSI 7 Layer Model?
 ???
+
 
 * Opening, closing, and managing connections between applications
 * Maintaining and ensuring a stable connection between two hosts over the Internet
@@ -48,6 +53,7 @@ What roles does The Session Layer play in the OSI 7 Layer Model?
 
 The Session Layer is responsible for ???, as well as authentication, authorization, and session checkpointing.
 
+
 * opening, closing, and managing sessions
 * creating symbolic links
 * transmitting data over LAN
@@ -55,14 +61,15 @@ The Session Layer is responsible for ???, as well as authentication, authorizati
 
 ---
 ## Quiz
+### What role does this Layer play in the OSI 7 Layer Model?
+```
+What role does the Session Layer play in the OSI 7 Layer Model?
+```
 
-headline: What role does this Layer play in the OSI 7 Layer Model?
+ ???
 
-question: |
-  What role does the Session Layer play in the OSI 7 Layer Model?
+* Opening, closing, and managing connections between applications
+* Maintaining and ensuring a stable connection between two hosts over the Internet
+* Routing and transmission over the physical topography of the Internet
+* Packaging data packets into data streams and vice versa
 
-answers:
-  - Opening, closing, and managing connections between applications
-  - Maintaining and ensuring a stable connection between two hosts over the Internet
-  - Routing and transmission over the physical topography of the Internet
-  - Packaging data packets into data streams and vice versa
