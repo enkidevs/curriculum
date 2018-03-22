@@ -89,8 +89,9 @@ int num = x > 2 ??? 2 ??? 0
 
 ---
 ## Quiz
-### Which single boolean should be negated for the output to be `true`?
-```
+### Which single boolean should be negated for the output to be true?
+
+```java
 
 System.out.println(true?false:true==true?false:true);
                     1     2    3          4
@@ -102,4 +103,3 @@ System.out.println(true?false:true==true?false:true);
 * 1
 * 3
 * 4
-

@@ -50,9 +50,11 @@ public static void convert(int i) {
 ---
 ## Quiz
 ### Can you identify how type conversion works in the following example?
-```
-// What is the output of the following snippet?
-```
+
+
+What is the output of the following snippet?
+
+```java
 public class Main {
   public static void main(String[] args) {
       char x = 'a';
@@ -62,7 +64,7 @@ public class Main {
   }
 }
 ```
-```
+
 
  ???
 
@@ -70,4 +72,3 @@ public class Main {
 * aa
 * true
 * false
-

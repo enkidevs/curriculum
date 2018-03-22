@@ -58,7 +58,8 @@ Which of the following is not an advantage of using the `final` keyword:
 ## Revision
 
 Complete the following code snippet to forbid other classes to extend the `Example` class:
-```
+
+```java
 public ??? ??? Example{
 // Revision questions
 }
@@ -73,9 +74,10 @@ public ??? ??? Example{
 ---
 ## Quiz
 ### Can you predict the output of this inheritance example?
-```
-// What would the following snippet output?
-```
+
+What would the following snippet output?
+
+```java
 class Tesla {
     public static final String MODEL = "Model S";
 }
@@ -88,7 +90,7 @@ public class Roadster extends Tesla {
     }
 }
 ```
-```
+
 
  ???
 
@@ -96,4 +98,3 @@ public class Roadster extends Tesla {
 * Model S
 * error: MODEL is final
 * Model SRoadster
-

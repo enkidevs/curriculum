@@ -64,8 +64,10 @@ Java’s split method ignores any trailing empty Strings.
 ---
 ## Quiz
 ### how does string splitting work?
-```
-// What's the value of l?
+
+What's the value of `l`?
+
+```java
   int l = "Hi-there-are-you-alright---".split("-").length +
       "---Hi-there-are-you-alright".split("-").length;
 ```

@@ -23,7 +23,7 @@ inAlgoPool: false
 
 The `final` modifiers limits the initializations number to *1*. A final variable cannot be reassigned to refer another object.
 
-However, the data inside the object can be changed (also called its *state*). 
+However, the data inside the object can be changed (also called its *state*).
 
 For example:
 ```
@@ -73,7 +73,8 @@ Variables declared `final` cannot be ???.
 ---
 ## Quiz
 ### how do final variables work?
-```
+
+```java
 public class Person {
   String name = "name";
   public Person(String name) {
@@ -98,4 +99,3 @@ p.printName();
 * Sam
 * name
 * Exception
-

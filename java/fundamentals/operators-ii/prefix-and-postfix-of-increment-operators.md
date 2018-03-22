@@ -76,9 +76,12 @@ System.out.print(b);
 
 ---
 ## Quiz
+
 ### what is the difference between prefix and postfix increment operators?
-```
-// What is the output?
+
+What is the output?
+
+```java
 int a = 0;
 int b = a++;
 int c = ++b;
@@ -91,4 +94,3 @@ System.out.println(b + " and " + c);
 * 1 and 2
 * 2 and 1
 * 0 and 1
-

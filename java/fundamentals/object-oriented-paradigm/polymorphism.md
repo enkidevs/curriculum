@@ -112,7 +112,8 @@ Polymorphism refers to the ability of an object to ???
 ---
 ## Quiz
 ### What will this output?
-```
+
+```java
 class Main {
   private final String name;
     Main(String name) {
@@ -140,4 +141,3 @@ class Main {
 * Stinky
 * Error: name() has private access
 * Error: cannot find symbol name()
-

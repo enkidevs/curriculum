@@ -84,9 +84,10 @@ Which of the following is a way of preventing mutable private fields from being 
 ---
 ## Quiz
 ### Can you identify a Java security vulnerability?
-```
-// What does this code print?
-```
+
+What does this code print?
+
+```java
 class MutableClass {
   private int[] array;
 
@@ -114,7 +115,6 @@ public class Main {
   }
 }
 ```
-```
 
  ???
 
@@ -122,4 +122,3 @@ public class Main {
 * 1 and 1
 * 2 and 1
 * error: array has private access
-

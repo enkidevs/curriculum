@@ -21,7 +21,7 @@ inAlgoPool: false
 ---
 ## Content
 
-Both `static` and `final` are non-access modifiers. Therefore, they can be used in conjunction with one another or with access modifiers such as `public` or `private`. 
+Both `static` and `final` are non-access modifiers. Therefore, they can be used in conjunction with one another or with access modifiers such as `public` or `private`.
 
 Variables that are declared `static` exist outside instances of the class, with every instance sharing the same variable. Static variables are also known as *class* variables.
 
@@ -103,7 +103,8 @@ How are static variables also called?
 ---
 ## Quiz
 ### how do class variables work?
-```
+
+```java
 public class Dog {
   String name;
   int age;
@@ -130,4 +131,3 @@ System.out.print(d1.getCurrentSum());
 * 2 and 3
 * 2 and 2
 * 5 and 5
-
