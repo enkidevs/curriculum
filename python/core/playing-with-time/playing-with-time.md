@@ -28,7 +28,7 @@ links:
 The `time` module is widely used for time manipulation, representation and conversion.
 
 Keep in mind an `import` is needeed:
-```py
+```python
 import time
 ```
 
@@ -80,7 +80,7 @@ e.g. Thur Jun 22 00:00:00 2017
 
 Complete the gaps with the missing pieces of code.
 
-```py
+```python
 import ???
 
 time_in_seconds = time.???
@@ -108,7 +108,7 @@ The `time` module provides numerous useful function for time manipulation.
 
 Supposing all required `import`s are resolved before, complete the following script such that **current time** is `print`ed as a time tuple (`time.struct_time`).
 
-```py
+```python
 print(???(???())
 ```
 

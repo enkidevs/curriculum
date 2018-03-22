@@ -20,7 +20,7 @@ As briefly mentioned before, the **namespace** is the *mapping* between availabl
 
 We can picture a **namespace** as a Python dictionary structure, where the *keys* represent the **names** and the *values* the **object itself**:
 
-```py
+```python
 namespace={'name_a':object1, ...}
 ```
 
@@ -28,7 +28,7 @@ The key (i.e. name_a) or **identifier** is simply a name given to its mapped **o
 
 The tricky part here, is that Python can have multiple independent namespaces, and names can be reused for different namespaces:
 
-```py
+```python
 a_namespace={'name_a': object_1, ...}
 b_namespace={'name_a': object_5, ...}
 ```
@@ -52,7 +52,7 @@ Where the **arrows** should denote the search order:
 
 To make this easier to understand consider the following example:
 
-```py
+```python
 def f():
     s = 'A local variable'
     print(s) # print() is built-in
@@ -67,7 +67,7 @@ print(r) # print() is built-in
 ```
 The following output will be generated:
 
-```txt
+```
 A local variable
 An enclosed variable
 A global variable
@@ -77,7 +77,7 @@ A global variable
 
 Consider the following snippet. On which scoping level of hierarchy do you think `z` is?
 
-```
+```python
 def foo(x):
     return x*x
 
@@ -94,7 +94,7 @@ z = foo(4)
 ## Revision
 
 Is the variable `a` still in scope when it is printed?
-```
+```python
 def foo():
     a = "Hello World"
     return a

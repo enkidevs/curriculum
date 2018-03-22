@@ -20,7 +20,8 @@ tags:
   - workout
 
 standards:
-  sql.read-single-table: 10
+  sql.read-single-table.0: 10
+  sql.read-single-table.1: 10
 
 links:
 

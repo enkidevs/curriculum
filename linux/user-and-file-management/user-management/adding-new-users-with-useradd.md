@@ -20,7 +20,7 @@ tags:
 
 We can use the `useradd` command to add new user accounts to the system.  The simplest usage is as follows:
 
-```console
+```shell
 $ sudo useradd -m newuser
 ```
 
@@ -28,13 +28,13 @@ Here `newuser` is the username of your choice.  The `-m` options tells `useradd`
 
 By default the new user will have no password assigned and therefore won't be able to log in.  Use the `passwd` command to create a new password for the user, like so:
 
-```console
+```shell
 $ sudo passwd newuser
 ```
 
 If you want the user to be added to specific groups upon creation use the `-G` option, like so:
 
-```console
+```shell
 $ sudo useradd -m -G admin newuser
 ```
 

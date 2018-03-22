@@ -28,7 +28,7 @@ With the introduction of *Java 8*, the *JDK* will be shipped with a new *JavaScr
  **Oracle Nashorn** provides better compliance with the *ECMA* normalised *JavaScript* specification and better runtime performance through *invokedynamic*-bound call sites.
 
 The `jjs` tool can be run from the terminal and accepts *JavaScript* files as argument:
-```cmd
+```shell
 $ jjs MyFile.js
 ```
 
