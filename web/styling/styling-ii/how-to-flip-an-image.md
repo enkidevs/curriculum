@@ -70,9 +70,12 @@ img {
 
 ---
 ## Quiz
+
 ### how will the following line affect an image?
-```
+
 How does the following line affect an image?
+
+```css
 img { transform: scaleX(-1); }
 ```
 
@@ -82,4 +85,3 @@ img { transform: scaleX(-1); }
 * It vertically flips the image
 * It rotates the image 180 degrees
 * The image will look just the same
-

@@ -11,7 +11,7 @@ category: caveats
 
 tags:
 
-  - 
+  -
 
 
 links:
@@ -75,7 +75,8 @@ div * {
 ---
 ## Quiz
 ### which selector is used to select every element on the page?
-```
+
+```css
 ??? { background-color: rgba(0,255,0,0.1); }
 ```
 
@@ -85,4 +86,3 @@ div * {
 * -
 * <>
 * html
-

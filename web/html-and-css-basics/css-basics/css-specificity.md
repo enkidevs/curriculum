@@ -161,7 +161,8 @@ What is the specificity of the following CSS code snippet?
 ---
 ## Quiz
 ### which of the following selectors has the highest specificity?
-```
+
+```css
 #nav .selected > p:hover {} /* 1 */
 #footer #note {} /* 2 */
 div div ul li div div img {} /* 3 */
@@ -173,4 +174,3 @@ div div ul li div div img {} /* 3 */
 * 1
 * 3
 * both 1 and 2
-
