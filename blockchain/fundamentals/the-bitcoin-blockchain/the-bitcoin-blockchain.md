@@ -1,4 +1,4 @@
-# The Bitcoin Foundation
+# The Bitcoin Blockchain
 author: mihaiberq
 
 levels:

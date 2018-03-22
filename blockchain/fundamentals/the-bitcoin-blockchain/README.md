@@ -1,4 +1,4 @@
-name: The Bitcoin Protocol
+name: The Bitcoin Blockchain
 
 type: insights-list
 
@@ -7,7 +7,7 @@ description: todo
 section: 0
 
 insights:
+ - bitcoin
+ - the-bitcoin-blockchain
  - the-bitcoin-ecosystem
- - the-bitcoin-foundation
- - present-and-future-of-bitcoin
 

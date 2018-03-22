@@ -1,4 +1,4 @@
-# Block Reward Algorithms
+# Consensus Algorithms
 author: mihaiberq
 
 levels:

@@ -1,10 +1,10 @@
-name: Cryptocurrencies Value
+name: Cryptoeconomics
 
 type: insights-list
 
 description: todo
 
-section: 0
+section: 2
 
 insights:
  - how-do-cryptocurrencies-acquire-value

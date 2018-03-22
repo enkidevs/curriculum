@@ -1,4 +1,4 @@
-# Present and Future of Bitcoin
+# Bitcoin
 author: mihaiberq
 
 levels:

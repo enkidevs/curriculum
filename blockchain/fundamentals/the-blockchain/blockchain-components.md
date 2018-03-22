@@ -44,6 +44,7 @@ Given the size of the network and transaction happening all over the globe, two 
 ---
 ## Practice
 
+
 Identify the item that `is not` part of a blockchain: 
 
 ???
@@ -54,8 +55,10 @@ Identify the item that `is not` part of a blockchain:
 * Cryptography
 * Reward
 
+
 ---
 ## Revision
+
 
 What is the name of blockchain participants that verify whole blocks validity?
 
@@ -65,3 +68,4 @@ What is the name of blockchain participants that verify whole blocks validity?
 * Miners
 * Traders
 * Verifiers
+
