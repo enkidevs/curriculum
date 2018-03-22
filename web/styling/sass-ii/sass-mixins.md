@@ -30,7 +30,7 @@ A *mixin* is used to allow you to create groups of CSS declarations which you ca
 
 *Mixins* can contain CSS rules, and anything which is allowed in a Sass document. They can take arguments which allows you to produce a large combination of style with only a few mixins.
 
-```CSS
+```css
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
@@ -40,7 +40,7 @@ A *mixin* is used to allow you to create groups of CSS declarations which you ca
 .box { @include border-radius(10px); }
 ```
 Generating your CSS would produce this:
-```CSS
+```css
 .box {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;

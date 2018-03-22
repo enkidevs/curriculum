@@ -27,7 +27,7 @@ The `find` command is used to search for files on your computer.  One of the mos
 
 Here's a quick example that will print out the names of every mp3 file in the current directory:
 
-```console
+```shell
 $ find . -name "*.mp3"
 ./music/Some Album/Cool Song 1.mp3
 ./music/Some Album/Cool Song 2.mp3
@@ -46,7 +46,7 @@ Sometimes you only want to search for files and not directories, or vice versa. 
 
 This will find all files (but not directories) whose name contains the string "user":
 
-```console
+```shell
 $ find . -type f -name "*user*"
 ```
 
@@ -54,7 +54,7 @@ If we instead wanted to find only directories, we would pass `-type d` to `find`
 
 Thus, in the first example, it's slightly more correct to search for mp3 files with the following, since it's possible (though unlikely) for a directory to end with ".mp3"s:
 
-```console
+```shell
 $ find . -type f -name "*.mp3"
 ```
 

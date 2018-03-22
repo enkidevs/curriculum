@@ -25,10 +25,11 @@ links:
 ## Content
 
 There are two ways to comment out code in Sass. The first is a single-line comment:
-```cs
+```css
 // a double forward slash is used for
 // commenting out single lines of code
 ```
+
 The second is a multiline comment:
 ```css
 /*
@@ -53,6 +54,7 @@ Which of the following comments would be preserved when CSS code is generated fr
 * `// Option B`
 * `<!-- Option C -->`
 * `# Option D`
+
 
 ---
 ## Revision

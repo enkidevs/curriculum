@@ -26,7 +26,7 @@ The `PATH` variable itself contains a `:`-delimited list of directories.
 
 See for yourself:
 
-```console
+```shell
 jesse@host ~ $ echo $PATH
 /usr/local/bin:/usr/bin:/bin
 jesse@host ~ $

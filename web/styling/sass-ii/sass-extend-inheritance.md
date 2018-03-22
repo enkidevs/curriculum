@@ -30,7 +30,7 @@ The `@extend` feature of *Sass* is one of its most useful features. Using `@exte
 
 `@extend` is used when there is a case where one class should have all the same styles of another already defined class, plus its own specific styles. 
 
-```CSS
+```css
 .message {
   border: 1px solid #6699ff;
   padding: 10px;
@@ -42,7 +42,7 @@ The `@extend` feature of *Sass* is one of its most useful features. Using `@exte
 }
 ```
 The code in CSS that this generates:
-```CSS
+```css
 .message, .success {
   border: 1px solid #6699ff;
   padding: 10px;
