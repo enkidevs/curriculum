@@ -41,6 +41,7 @@ public class Main{
     //     0101
     //
 
+```
 ---
 ## Practice
 
@@ -67,4 +68,3 @@ What does *OR* operation returns if the input bits are `1` and `0`?
 
 * `0`
 * `1`
-
