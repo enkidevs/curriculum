@@ -1,4 +1,4 @@
-# What is an RDBMS?
+---
 author: Nick Daminov
 
 levels:
@@ -13,19 +13,21 @@ category: must-know
 
 inAlgoPool: false
 
-
-standards:
-  sql: 5
-
 tags:
   - introduction
+
   - workout
 
 
 links:
 
-  - '[What is Relational Database?](http://searchsqlserver.techtarget.com/definition/relational-database)'
-  - '[What is RDBMS?](http://searchsqlserver.techtarget.com/definition/relational-database-management-system)'
+  - '[What is Relational Database?](http://searchsqlserver.techtarget.com/definition/relational-database){website}'
+  - '[What is RDBMS?](http://searchsqlserver.techtarget.com/definition/relational-database-management-system){website}'
+
+
+---
+
+# What is an RDBMS?
 
 ---
 ## Content
@@ -50,6 +52,7 @@ Then the user operates on these RDBMS's with *Query Languages*. The one most com
 What language are RDBMS's usually written in?
 ???
 
+
 * C, C++ or assembly
 * SQL
 * MySQL
@@ -60,6 +63,7 @@ What language are RDBMS's usually written in?
 
 What is RDBMS (Relational Database Management System)?
 ???
+
 
 * It is a piece of software that sits on a server and operates the data using high level language.
 * It is a software system that controls the data and which can be adjusted by the user in order to boost the efficiency of data storage.

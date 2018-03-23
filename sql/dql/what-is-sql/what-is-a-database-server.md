@@ -1,4 +1,4 @@
-# What is a database server?
+---
 author: SebaRaba
 
 levels:
@@ -13,18 +13,21 @@ category: must-know
 
 inAlgoPool: false
 
-
-standards:
-  sql.connect-client: 5
-
 tags:
+
   - introduction
+
   - workout
 
 
 links:
 
-  - '[More on database servers](http://ecomputernotes.com/fundamental/what-is-a-database/what-is-a-database-server)'
+  - '[More on database servers](http://ecomputernotes.com/fundamental/what-is-a-database/what-is-a-database-server){website}'
+
+
+---
+
+# What is a database server?
 
 ---
 ## Content
@@ -49,12 +52,12 @@ In *high-scale applications*, the volume of data transactions can be so big that
 
 A group of database servers (called a **Cluster**) can coordinate to share data across multiple physical pieces of hardware. This is used for very large databases, or for redundancy. For this reason, the term Database Server increasingly refers to the software, instead of the hardware.
 
-
 ---
 ## Revision
 
 Speaking about a Cluster of servers, how many servers do the coordination?
 ???
+
 
 * Just one of them, while the others are hosting
 * All of them do both, host and coordination
@@ -62,6 +65,5 @@ Speaking about a Cluster of servers, how many servers do the coordination?
 
 ---
 ## Footnotes
-
 [1:Client-server model]
 Is a distributed communication framework over the network. It divides the tasks between providers of a resource/service (servers) and the ones that request a service/resource (clients).

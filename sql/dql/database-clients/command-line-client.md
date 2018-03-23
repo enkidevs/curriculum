@@ -1,4 +1,4 @@
-# Command-Line Client
+---
 author: Nick Daminov
 
 levels:
@@ -13,19 +13,25 @@ category: feature
 
 inAlgoPool: false
 
-
 standards:
   sql.connect-client.0: 10
   sql.connect-client.1: 10
 
 tags:
+
   - introduction
+
   - workout
 
 
 links:
 
-  - '[PostgreSQL Download](https://www.postgresql.org/download/)'
+  - '[PostgreSQL Download](https://www.postgresql.org/download/){website}'
+
+
+---
+
+# Command-Line Client
 
 ---
 ## Content
@@ -60,6 +66,7 @@ Fill in the connection string with correct arguments:
  port=??? dbname=???
   user=???"
 
+
 * aws-us-east-1-portal.29.dblayer.com
 * 23336
 * pokemon
@@ -74,6 +81,7 @@ Fill in the connection string with correct arguments:
  host=???
  port=??? dbname=???
  user=???"
+
 
 * aws-us-east-1-portal.29.dblayer.com
 * 23336

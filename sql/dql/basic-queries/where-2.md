@@ -1,4 +1,4 @@
-# WHERE (2)
+---
 author: stefkn
 
 levels:
@@ -15,20 +15,26 @@ category: must-know
 
 inAlgoPool: false
 
-
 standards:
   sql.read-single-table.0: 10
   sql.read-single-table.1: 10
   sql.read-single-table.2: 10
 
 tags:
+
   - introduction
+
   - workout
 
 
 links:
 
-  - '[SQL Tutorial: WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/)'
+  - '[SQL Tutorial: WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}'
+
+
+---
+
+# WHERE (2)
 
 ---
 ## Content
@@ -81,6 +87,7 @@ Select all the columns from the `pokemon` table, keeping the rows where the weig
 `FROM pokemon`
 ??? ??? ??? ???;
 
+
 * WHERE
 * weight > '600'
 * AND
@@ -97,11 +104,13 @@ Select all the columns from the `pokemon` table, keeping the rows where the weig
 
 Select all the columns from the `pokemon` table, keeping only the rows where the name equals either 'bulbasaur', 'ivysaur' or 'venusaur'.
 
-`SELECT * `
-`FROM pokemon`
+```sql
+SELECT *
+FROM pokemon
 ??? ???
 ???
 ???;
+```
 
 * WHERE
 * name = 'bulbasaur' OR
@@ -116,32 +125,25 @@ Select all the columns from the `pokemon` table, keeping only the rows where the
 
 ---
 ## Quiz
+### Can you select rows between two values in SQL?
+Consider the `move_name` table:
 
-headline: Can you select rows between two values in SQL?
+```bash
 
-question: |
+  id  | language_id | move_id |  name       
+======|=============|=========|=============
+    1 |           1 |       1 | はたく
+    2 |           3 |       1 | 막치기
+    3 |           5 |       1 | Écras'Face
+    4 |           6 |       1 | Pfund
+    5 |           7 |       1 | Destructor
+  (...)
+```
+Choose the query that will get all move names with id between 3 and 6. Also, pay attention to select those name that are used in languages with id 5 or 9:
 
-  Consider the `move_name` table:
+ ???
 
-    id  | language_id | move_id |  name       
-  ======|=============|=========|=============
-      1 |           1 |       1 | はたく
-      2 |           3 |       1 | 막치기
-      3 |           5 |       1 | Écras'Face
-      4 |           6 |       1 | Pfund
-      5 |           7 |       1 | Destructor
-    (...)
-
-  Choose the query that will get all move names with id between 3 and 6. Also, pay attention to select those name that are used in languages with id 5 or 9:
-
-answers:
-  - SELECT name FROM move_name
-    WHERE move_id BETWEEN 3 AND 6 AND language_id IN (5,9);
-  - SELECT * FROM move_name
-    WHERE move_id BETWEEN 3 AND 6 AND language_id IN (5,9);
-  - SELECT name FROM move_name
-    WHERE move_id >= 3 AND move_id <= 6
-    AND language_id >= 5 OR language_id <= 9;
-  - SELECT name FROM move_name
-    WHERE move_id IN (3,6)
-    AND language_id >= 5 AND language_id <= 9;
+* SELECT name FROM move_name WHERE move_id BETWEEN 3 AND 6 AND language_id IN (5,9);
+* SELECT * FROM move_name WHERE move_id BETWEEN 3 AND 6 AND language_id IN (5,9);
+* SELECT name FROM move_name WHERE move_id >= 3 AND move_id <= 6 AND language_id >= 5 OR language_id <= 9;
+* SELECT name FROM move_name WHERE move_id IN (3,6) AND language_id >= 5 AND language_id <= 9;
