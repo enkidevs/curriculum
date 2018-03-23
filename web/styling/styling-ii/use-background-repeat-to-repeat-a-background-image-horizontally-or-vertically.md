@@ -74,6 +74,7 @@ body {
    background-repeat: repeat-y;
 }
 ```
+
 ???
 
 * Repeats the background image vertically.
