@@ -1,4 +1,4 @@
-# Mocking objects
+---
 author: SebaRaba
 
 levels:
@@ -11,9 +11,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[More on mocking tests](https://docs.python.org/3/library/unittest.mock.html)'
+  - '[More on mocking tests](https://docs.python.org/3/library/unittest.mock.html){website}'
+
+
+---
+
+# Mocking objects
 
 ---
 ## Content
@@ -65,17 +71,12 @@ OK
 As you can see, the mock function we defined for `multiply` is used during the test. The test finishes almost instantly.
 
 ---
-## Footnotes
-
-[1: patch decorator]
-It makes it easy to mock classes or objects in a module under test. The object you specify will be replaced with a mock (or other object) during the test and restored when the test ends.
-
----
 ## Practice
 
 What are the advantages of using mocks in testing?
 
 ???
+
 
 * Increased speed and side effects avoidance.
 * Simple syntax and increased speed.
@@ -88,6 +89,12 @@ Mock objects are
 
 ???
 
+
 * fake objects that simulate real objects' behavior
 * object instances that appeared in the code
 * any basic object
+
+---
+## Footnotes
+[1: patch decorator]
+It makes it easy to mock classes or objects in a module under test. The object you specify will be replaced with a mock (or other object) during the test and restored when the test ends.

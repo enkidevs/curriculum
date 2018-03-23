@@ -1,4 +1,4 @@
-# `del` statement for  lists
+---
 author: catalin
 
 levels:
@@ -9,10 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#the-del-statement){website}
+  - '[docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#the-del-statement){website}'
+
+
+---
+
+# `del` statement for  lists
 
 ---
 ## Content
@@ -48,6 +53,7 @@ To delete the entire *list*:
 >>> a
 []
 ```
+
 ---
 ## Practice
 
@@ -59,8 +65,10 @@ What’s the output of the following code snippet:
 >>> e
 ???
 ```
-*`[7, 8, 15, 19]`
-*`[7, 8, 19]`
-*`[]`
-*`[7, 11, 15, 19]`
-*`[7, 15, 19]`
+
+* `[7, 8, 15, 19]`
+* `[7, 8, 19]`
+* `[]`
+* `[7, 11, 15, 19]`
+* `[7, 15, 19]`
+

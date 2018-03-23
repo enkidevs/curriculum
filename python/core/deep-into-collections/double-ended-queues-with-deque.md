@@ -1,4 +1,4 @@
-# Double ended queues with `deque`
+---
 author: catalin
 
 levels:
@@ -9,15 +9,17 @@ type: normal
 
 category: must-know
 
-parent: get-more-with-collections
 
 links:
 
-  - >-
-    [pythontips.com](http://pythontips.com/2014/07/02/an-intro-to-deque-module/){website}
+  - '[pythontips.com](http://pythontips.com/2014/07/02/an-intro-to-deque-module/){website}'
+  - '[docs.python.org](https://docs.python.org/3.5/library/collections.html#deque-objects){website}'
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/collections.html#deque-objects){website}
+parent: get-more-with-collections
+
+---
+
+# Double ended queues with `deque`
 
 ---
 ## Content
@@ -75,6 +77,7 @@ from collections import deque
 e = ???(??? = 5)
 ```
 
+
 * `deque`
 * `maxlen`
 * `dqueue`
@@ -97,7 +100,9 @@ a.append("k")
 a.append("i")
 a.???("e")
 ```
+
 * `appendleft`
 * `append`
 * `append.left`
 * `append.start`
+

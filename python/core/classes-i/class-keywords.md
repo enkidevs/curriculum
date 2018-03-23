@@ -1,4 +1,4 @@
-# Class Keywords
+---
 author: mihaiberq
 
 levels:
@@ -8,6 +8,13 @@ levels:
 type: normal
 
 category: must-know
+
+
+
+
+---
+
+# Class Keywords
 
 ---
 ## Content
@@ -38,7 +45,9 @@ class Employee:
 
 Independent functions are called ???
 
+
 * just functions
 * methods
 * attributes
 * objects
+

@@ -1,4 +1,4 @@
-# `Dictionary` view objects
+---
 author: catalin
 
 levels:
@@ -9,12 +9,16 @@ type: normal
 
 category: must-know
 
-parent: dictionary-standard-mapping-type
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#dictionary-view-objects){website}
+  - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#dictionary-view-objects){website}'
+
+parent: dictionary-standard-mapping-type
+
+---
+
+# `Dictionary` view objects
 
 ---
 ## Content
@@ -63,12 +67,13 @@ Complete the code snippet to return the number of entries in the dictionary:
 >>> ???(???) 
 ```
 
-*`len` 
-*`d` 
-*`entries` 
-*`length` 
-*`size` 
-*`keys`
+
+* `len` 
+* `d` 
+* `entries` 
+* `length` 
+* `size` 
+* `keys`
 
 ---
 ## Revision
@@ -81,8 +86,10 @@ Enki = d.keys()
 'python' ??? Enki
 ```
 
-*`in` 
-*`has` 
-*`holds` 
-*`consists` 
-*`belongs`
+
+* `in` 
+* `has` 
+* `holds` 
+* `consists` 
+* `belongs`
+

@@ -1,4 +1,4 @@
-# `break` and `continue` statements
+---
 author: tommarshall
 
 levels:
@@ -7,9 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# `break` and `continue` statements
 
 ---
 ## Content
@@ -63,6 +70,7 @@ Which keyword is used to skip the current code block, and to resume execution at
 
 ???
 
+
 * `continue`
 * `break`
 * `restart`
@@ -74,6 +82,8 @@ Which keyword is used to terminate the current loop, then resuming code executio
 
 ???
 
+
 * `break`
 * `continue`
 * `next`
+

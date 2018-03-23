@@ -1,4 +1,4 @@
-# Python packages
+---
 author: SebaRaba
 
 levels:
@@ -9,9 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[More about packages](https://code.tutsplus.com/tutorials/how-to-use-python-packages--cms-26000)'
+  - '[More about packages](https://code.tutsplus.com/tutorials/how-to-use-python-packages--cms-26000){website}'
+
+
+---
+
+# Python packages
 
 ---
 ## Content
@@ -49,12 +55,6 @@ Hotel.all_rooms(25)
 ```
 
 ---
-## Footnotes
-
-[1:Python packages]
-Speaking about Python versions that are older than Python **3.3**: each **package** is a **directory** that **must** contain a special file called: `_init_.py`. This **file** indicates that the directory it contains is a **Python package**. The `__init__.py` file is usually empty, but can be used to **export** selected portions of the package under more convenient name.
-
----
 ## Practice
 
 Complete the missing that such that the `Hotel` package is imported and used properly:
@@ -65,6 +65,7 @@ def foo(x):
     capacity = ???.all_rooms(x)
     return capacity
 ```
+
 
 
 * `import`
@@ -84,8 +85,14 @@ def foo(x):
     ???
 ```
 
+
 * `from`
 * `available_rooms`
 * `available_rooms(x)`
 * `Hotel.available_rooms(x)`
 * `total_rooms`
+
+---
+## Footnotes
+[1:Python packages]
+Speaking about Python versions that are older than Python **3.3**: each **package** is a **directory** that **must** contain a special file called: `_init_.py`. This **file** indicates that the directory it contains is a **Python package**. The `__init__.py` file is usually empty, but can be used to **export** selected portions of the package under more convenient name.

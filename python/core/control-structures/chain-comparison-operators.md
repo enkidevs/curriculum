@@ -1,4 +1,4 @@
-# Chain comparison operators
+---
 author: Ricardo
 
 levels:
@@ -17,10 +17,15 @@ tags:
 
   - operators
 
+
 links:
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/101268/hidden-features-of-python){website}
+  - '[stackoverflow.com](http://stackoverflow.com/questions/101268/hidden-features-of-python){website}'
+
+
+---
+
+# Chain comparison operators
 
 ---
 ## Content
@@ -51,5 +56,7 @@ What will the following expression evaluate to?
 ???
 ```
 
-*`False` 
-*`True`
+
+* `False` 
+* `True`
+

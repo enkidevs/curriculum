@@ -1,4 +1,4 @@
-# Heap/Priority Queue in Python
+---
 author: catalin
 
 levels:
@@ -11,9 +11,15 @@ type: normal
 
 category: feature
 
+
 links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/heapq.html){website}'
+
+
+---
+
+# Heap/Priority Queue in Python
 
 ---
 ## Content
@@ -47,3 +53,4 @@ heapq.heapreplace(a, 999)
 print(a)
 # [7, 8, 999, 12, 9]
 ```
+

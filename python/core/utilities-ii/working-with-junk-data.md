@@ -1,4 +1,4 @@
-# Working with junk data
+---
 author: catalin
 
 levels:
@@ -11,12 +11,16 @@ type: normal
 
 category: how to
 
-parent: compare-sequences-with-difflib
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/2/library/difflib.html#sequencematcher-objects){website}
+  - '[docs.python.org](https://docs.python.org/2/library/difflib.html#sequencematcher-objects){website}'
+
+parent: compare-sequences-with-difflib
+
+---
+
+# Working with junk data
 
 ---
 ## Content
@@ -64,12 +68,13 @@ s = SequenceMatcher(??? x: x == ???,
     “ abcd”, “abcd abcd”)
 ```
 
-*`lambda`
-*`" "`
-*`null`
-*`()`
-*`if`
-*`?`
+
+* `lambda`
+* `" "`
+* `null`
+* `()`
+* `if`
+* `?`
 
 ---
 ## Revision
@@ -78,17 +83,17 @@ What module contains the SequenceMatcher class?
 
 ???
 
-*`difflib`
-*`difference`
-*`seq`
-*`sequence`
-*`match`
-*`matcher`
-*`seqlib`
-*`matchlib`
+
+* `difflib`
+* `difference`
+* `seq`
+* `sequence`
+* `match`
+* `matcher`
+* `seqlib`
+* `matchlib`
 
 ---
 ## Footnotes
-
 [1:Notation]
 We will refer to the first sequence as `a` and to the second sequence as `b`.

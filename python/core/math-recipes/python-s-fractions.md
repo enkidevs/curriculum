@@ -1,4 +1,4 @@
-# Python's `fractions`
+---
 author: catalin
 
 levels:
@@ -9,16 +9,20 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: feature
 
-notes: Math modules workout
+inAlgoPool: false
+
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/fractions.html){website}
+  - '[docs.python.org](https://docs.python.org/3.5/library/fractions.html){website}'
+
+notes: Math modules workout
+
+---
+
+# Python's `fractions`
 
 ---
 ## Content
@@ -55,12 +59,13 @@ a = ???.???(5,-2)
 print(a) #-5/2
 ```
 
-*`fractions` 
-*`Fraction` 
-*`frac` 
-*`f` 
-*`new` 
-*`new_fraction`
+
+* `fractions` 
+* `Fraction` 
+* `frac` 
+* `f` 
+* `new` 
+* `new_fraction`
 
 ---
 ## Revision
@@ -71,9 +76,11 @@ To calculate the greatest common divisor of ints in Python 3.5, what method from
 ???.???(30, 90)
 ```
 
-*`math` 
-*`gcd` 
-*`fractions` 
-*`greatest_common_divisor` 
-*`cmath` 
-*`g`
+
+* `math` 
+* `gcd` 
+* `fractions` 
+* `greatest_common_divisor` 
+* `cmath` 
+* `g`
+

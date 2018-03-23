@@ -1,4 +1,4 @@
-# Regular expressions 
+---
 author: catalin
 
 levels:
@@ -13,18 +13,21 @@ type: normal
 
 category: feature
 
+
+links:
+
+  - '[pymotw.com](https://pymotw.com/2/re/){website}'
+  - '[docs.python.org](https://docs.python.org/3.5/howto/regex.html#regex-howto){website}'
+
 notes: >-
   Insight contet is right. But should have a few examples that show the use of
   the various regular expression patterns, such as for matching either pattern1
   or pattern2, matching zero or one of some character, matching 2 to 4 of some
   character, etc.
 
-links:
+---
 
-  - '[pymotw.com](https://pymotw.com/2/re/){website}'
-
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/howto/regex.html#regex-howto){website}
+# Regular expressions 
 
 ---
 ## Content
@@ -69,13 +72,14 @@ text = “here is abc”
 if ???.???(‘abc’, text)
    print(‘found’)
 ```
-*`re` 
-*`search` 
-*`pattern` 
-*`match` 
-*`find` 
+
+* `re` 
+* `search` 
+* `pattern` 
+* `match` 
+* `find` 
 * `regex` 
-*`reg`
+* `reg`
 
 ---
 ## Revision
@@ -84,8 +88,10 @@ Which Python module provides text matching patterns using regular expressions?
 
 ???
 
-*`re` 
-*`reg` 
-*`regex` 
-*`matchpat` 
-*`RegEx`
+
+* `re` 
+* `reg` 
+* `regex` 
+* `matchpat` 
+* `RegEx`
+

@@ -1,4 +1,4 @@
-# Dictionary methods
+---
 author: SebaRaba
 
 levels:
@@ -9,9 +9,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - '[Dictionary methods](https://www.programiz.com/python-programming/dictionary)'
+  - '[Dictionary methods](https://www.programiz.com/python-programming/dictionary){website}'
+
+
+---
+
+# Dictionary methods
 
 ---
 ## Content
@@ -107,12 +113,6 @@ print(dict)
 ```
 
 ---
-## Footnotes
-
-[1:shallow copy]
-If we have two objects: `A` and `B`. We say `B` is a shallow copy of `A` if they point to the same location in memory.
-
----
 ## Practice
 
 Suppose we want to create a dictionary having the following keys starting from `1` up to `5` and value `0` assigned to all items. Fill the gaps accordingly:
@@ -121,6 +121,7 @@ new = ???.???(
   [1, 2, 3, 4, 5], ???)
 ```
 ???
+
 
 * `{}`
 * `fromkeys`
@@ -147,6 +148,12 @@ print(my_dict)
 What will the output look like?
 ???
 
+
 * {1:1, 2:4, 3:9, 4:16, 5:25}
 * {1:1, 2:4, 3:9, 4:16}
 * {2:4, 3:9, 4:16, 5:25}
+
+---
+## Footnotes
+[1:shallow copy]
+If we have two objects: `A` and `B`. We say `B` is a shallow copy of `A` if they point to the same location in memory.

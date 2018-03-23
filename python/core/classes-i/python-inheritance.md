@@ -1,4 +1,4 @@
-# Inheritance
+---
 author: mihaiberq
 
 levels:
@@ -8,6 +8,13 @@ levels:
 type: normal
 
 category: must-know
+
+
+
+
+---
+
+# Inheritance
 
 ---
 ## Content
@@ -52,6 +59,7 @@ The concept of *inheritance* refers to a child class receiving parent's class
 
 ???
 
+
 * attributes and methods
 * class name and attributes
 * methods
@@ -75,7 +83,9 @@ class Employee(Person):
   ...
 ```
 ???
+
 * C
 * A
 * B
 * none
+

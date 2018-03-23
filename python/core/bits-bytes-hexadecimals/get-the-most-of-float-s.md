@@ -1,4 +1,4 @@
-# Get the most of `float`s
+---
 author: catalin
 
 levels:
@@ -9,11 +9,16 @@ type: normal
 
 category: feature
 
-notes: 'abc'
 
 links:
 
-  - "[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#additional-methods-on-float)"
+  - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#additional-methods-on-float){website}'
+
+notes: abc
+
+---
+
+# Get the most of `float`s
 
 ---
 ## Content
@@ -62,6 +67,7 @@ The reverse can be achieved with the `fromhex()` class method:
 >>> float.fromhex('0x1.8000000000000p+0')
 1.5
 ```
+
 ---
 ## Practice
 
@@ -74,6 +80,7 @@ Complete the following code snippet such that the outputted values hold:
 >>> ???.???(???)
 1.5
 ```
+
 
 * `(1.5)`
 * `hex`
@@ -99,6 +106,7 @@ How would you convert `2.71` to its **hexadecimal** representation?
 
 ```
 
+
 * `float`
 * `hex`
 * `2.71`
@@ -107,3 +115,4 @@ How would you convert `2.71` to its **hexadecimal** representation?
 * `to_hex`
 * `fromhex`
 * `int`
+

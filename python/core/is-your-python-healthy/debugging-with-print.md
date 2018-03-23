@@ -1,4 +1,4 @@
-# Debugging
+---
 author: SebaRaba
 
 levels:
@@ -11,9 +11,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[More about debugging](https://pythonconquerstheuniverse.wordpress.com/2009/09/10/debugging-in-python/)'
+  - '[More about debugging](https://pythonconquerstheuniverse.wordpress.com/2009/09/10/debugging-in-python/){website}'
+
+
+---
+
+# Debugging
 
 ---
 ## Content
@@ -56,7 +62,6 @@ Now we know that `x` was initialized with value `6` because of `foo()`. The bug 
 ---
 ## Practice
 
-
 What value will be printed by `print("Line 6:", x)`?
 ```
 def counter(x):
@@ -69,6 +74,7 @@ def counter(x):
 counter(3)
 ```
 ???
+
 
 * 0
 * 3
@@ -83,6 +89,8 @@ Which of the following is an ad-hoc debugging method?
 
 ???
 
+
 * print()
 * debugging modules
 * Python doesn't support debugging
+

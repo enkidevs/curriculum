@@ -1,4 +1,4 @@
-# `queue`s and threads
+---
 author: catalin
 
 levels:
@@ -9,20 +9,21 @@ type: normal
 
 category: how to
 
-parent: a-thread-safe-queue
 
+links:
+
+  - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#memory-views){website}'
+  - '[www.troyfawkes.com](http://www.troyfawkes.com/learn-python-multithreading-queues-basics/){website}'
+
+parent: a-thread-safe-queue
 notes: |
   The program does not work as it is. It has a syntax error, in this line:
       print q.get()
   the print should have parentheses since this is for Python 3.  Fixed.
 
-links:
+---
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#memory-views){website}
-
-  - >-
-    [www.troyfawkes.com](http://www.troyfawkes.com/learn-python-multithreading-queues-basics/){website}
+# `queue`s and threads
 
 ---
 ## Content
@@ -77,19 +78,22 @@ for i in range(num_threads):
   worker.setDaemon(True)
   worker.start()
 ```
-*`num_threads`
-*`Thread`
-*`num_thread`
-*`threads`
-*`new_Thread`
-*`start`
+
+* `num_threads`
+* `Thread`
+* `num_thread`
+* `threads`
+* `new_Thread`
+* `start`
 
 ---
 ## Revision
 
 Which methods tells the queue that an operation has finished? ???
 
-*`task_done()`
-*`task.done()`
-*`task-done()`
-*`taskdone()`
+
+* `task_done()`
+* `task.done()`
+* `task-done()`
+* `taskdone()`
+

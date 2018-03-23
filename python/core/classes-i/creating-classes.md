@@ -1,4 +1,4 @@
-# Creating Classes
+---
 author: mihaiberq
 
 levels:
@@ -8,6 +8,13 @@ levels:
 type: normal
 
 category: must-know
+
+
+
+
+---
+
+# Creating Classes
 
 ---
 ## Content
@@ -65,6 +72,7 @@ class Car:
     print("Starting engine!")
 ```
 ???
+
 * B
 * A
 * C
@@ -86,7 +94,9 @@ new empl = Employee("John")
 ```
 ???
 
+
 * A
 * B
 * C
 * neither
+

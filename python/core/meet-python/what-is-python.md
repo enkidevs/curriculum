@@ -1,4 +1,4 @@
-# What is Python?
+---
 author: tommarshall
 
 levels:
@@ -7,13 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[www.python.org](https://www.python.org/doc/essays/comparisons/){website}'
+
+
+---
+
+# What is Python?
 
 ---
 ## Content
@@ -39,22 +45,23 @@ Since Python is an object-orientated programming language, it supports an object
 
 Do Python programs need to be compiled before execution? ???
 
-*`no`
-*`yes`
+
+* `no`
+* `yes`
 
 ---
 ## Revision
 
 What type of keyword does Python use to improve its readability? ???
 
-*`English`
-*`Simple`
-*`Interactive`
-*`Common`
-*`Programming`
+
+* `English`
+* `Simple`
+* `Interactive`
+* `Common`
+* `Programming`
 
 ---
 ## Footnotes
-
 [1:encapsulates]
 Encapsulation is an Object-Oriented Programming concept mechanism which wraps the data, variables, and any code acting on the data, methods, together as a single unit.

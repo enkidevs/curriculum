@@ -1,4 +1,4 @@
-# Nose testing
+---
 author: SebaRaba
 
 levels:
@@ -11,9 +11,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[Node introduction](http://pythontesting.net/framework/nose/nose-introduction/)'
+  - '[Node introduction](http://pythontesting.net/framework/nose/nose-introduction/){website}'
+
+
+---
+
+# Nose testing
 
 ---
 ## Content
@@ -77,6 +83,7 @@ What will be the test label if an `AssertionError` is thrown?
 
 ???
 
+
 * `FAILED`
 * `ERROR`
 * `OK`
@@ -88,6 +95,8 @@ In terms of basic syntax, `nose` and `pytest` are
 
 ???
 
+
 * similar
 * small differences
 * not at all alike
+

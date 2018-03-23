@@ -1,4 +1,4 @@
-# More Complex Arithmetic Operators
+---
 author: tommarshall
 
 levels:
@@ -7,9 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# More Complex Arithmetic Operators
 
 ---
 ## Content
@@ -40,10 +47,11 @@ Complete the following code snippet to execute 3 to the power of 4:
 ```
 3 ??? 4
 ```
-*`**` 
-*`*` 
-*` ***` 
-*`^`
+
+* `**` 
+* `*` 
+* ` ***` 
+* `^`
 
 ---
 ## Revision
@@ -55,8 +63,10 @@ What does the following code snippet return:
 ```
 ???
 
-*`2` 
-*`3` 
-*`4` 
-*`2.5` 
-*`4.66`
+
+* `2` 
+* `3` 
+* `4` 
+* `2.5` 
+* `4.66`
+

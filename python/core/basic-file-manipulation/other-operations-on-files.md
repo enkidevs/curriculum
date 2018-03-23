@@ -1,4 +1,4 @@
-# Other operations on files
+---
 author: SebaRaba
 
 levels:
@@ -9,9 +9,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - '[More operations here](https://www.tutorialspoint.com/python/python_files_io.htm)'
+  - '[More operations here](https://www.tutorialspoint.com/python/python_files_io.htm){website}'
+
+
+---
+
+# Other operations on files
 
 ---
 ## Content
@@ -68,16 +74,6 @@ os.remove('new_file.txt');
 ```
 
 ---
-## Footnotes
-
-[1: file.txt]
-```
-# file.txt
-This is my file
-It has two lines of text
-```
-
----
 ## Practice
 
 Fill the gaps:
@@ -91,6 +87,7 @@ file.???(0)
 print(file.read())
 ```
 ???
+
 
 
 * `r`
@@ -110,7 +107,17 @@ Which method returns the current position of the file pointer within a **file ob
 
 ???
 
+
 * `tell()`
 * `seek()`
 * `open()`
 * `readline()`
+
+---
+## Footnotes
+[1: file.txt]
+```
+# file.txt
+This is my file
+It has two lines of text
+```

@@ -1,4 +1,4 @@
-# Writing to files
+---
 author: SebaRaba
 
 levels:
@@ -9,9 +9,15 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - '[More about writing to files](https://www.digitalocean.com/community/tutorials/how-to-handle-plain-text-files-in-python-3)'
+  - '[More about writing to files](https://www.digitalocean.com/community/tutorials/how-to-handle-plain-text-files-in-python-3){website}'
+
+
+---
+
+# Writing to files
 
 ---
 ## Content
@@ -47,6 +53,7 @@ Remember that all **files** must be **closed** to preserve **resources** after f
 ```
 text.close()
 ```
+
 ---
 ## Practice
 
@@ -62,6 +69,7 @@ print(file.readline())
 file.close()
 ```
 ???
+
 
 * Nothing will be generated
 * JohnChris
@@ -85,6 +93,7 @@ file.close()
 new_file.close()
 ```
 
+
 * `w+`
 * `0`
 * `write`
@@ -93,3 +102,4 @@ new_file.close()
 * `a`
 * `r`
 * `1`
+
