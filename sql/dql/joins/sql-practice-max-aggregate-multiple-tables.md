@@ -1,25 +1,18 @@
 ---
-author: sebaraba
+author: SebaRaba
 
 levels:
-
   - medium
-
   - advanced
 
-
 tags:
-
   - workout
-
   - deep
-
 
 type: exercise
 
-
-
 linkType: sqlfiddle
+
 link: http://sqlfiddle.com/#!9/58d6e/36
 
 standards:
@@ -27,12 +20,14 @@ standards:
   sql.aggregate-multiple-tables.0: 1000
 
 links:
+  - '[mysql documentation on JOINs](https://dev.mysql.com/doc/refman/5.7/en/join.html){website}'
+  - '[find more information on JOINs here](https://www.sitepoint.com/understanding-sql-joins-mysql-database/){website}'
+  - '[video tutorial on JOINs](https://www.youtube.com/watch?v=soK0CeP_aC8){video}'
 
-- '[link to official documentation](https://enki.com)'
-- '[link to deeper dive blog post](https://enki.com)'
-- '[link to a video](https://enki.com)'
-- '[link to a discussion](https://enki.com)'
+---
+# SQL Practice Max Aggregate Multiple Tables
+
 ---        
 ## Exercise
-# SQL Practice Max Aggregate Multiple Tables
+
 Use joins to find the name and the maximum value of all moves.

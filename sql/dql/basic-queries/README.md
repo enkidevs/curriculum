@@ -12,4 +12,8 @@ insights:
 exercises:
   - sql-practice-select
   - sql-practice-order-results
+<<<<<<< HEAD
   - sql-practice-string-matching
+=======
+  - sql-practice-string-matching
+>>>>>>> ex-sql

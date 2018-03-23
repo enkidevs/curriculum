@@ -1,23 +1,17 @@
 ---
-author: sebaraba
+author: SebaRaba
 
 levels:
-
   - beginner
-
   - basic
 
-
 tags:
-
   - introduction
-
 
 type: exercise
 
-
-
 linkType: sqlfiddle
+
 link: http://sqlfiddle.com/#!9/b3fa3a
 
 standards:
@@ -25,12 +19,14 @@ standards:
   sql.read-single-table.1: 1000
 
 links:
+  - '[mysql string matching functions](https://dev.mysql.com/doc/refman/5.7/en/string-comparison-functions.html){website}'
+  - '[blog post tutorial on SELECT](http://www.dofactory.com/sql/select){website}'
+  - '[video tutorial on mysql SELECT](https://www.youtube.com/watch?v=BgK88mlgA6I){video}'
 
-- '[link to official documentation](https://enki.com)'
-- '[link to deeper dive blog post](https://enki.com)'
-- '[link to a video](https://enki.com)'
-- '[link to a discussion](https://enki.com)'
+---
+# SQL Practice String Matching
+
 ---        
 ## Exercise
-# SQL Practice String Matching
+
 Find all pokemon names that start with a vowel
