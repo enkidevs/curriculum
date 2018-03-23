@@ -1,4 +1,4 @@
-# ProgressEvent
+---
 author: tommarshall
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/API/ProgressEvent){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/API/ProgressEvent){website}'
+
+
+---
+
+# ProgressEvent
 
 ---
 ## Content
@@ -62,6 +67,7 @@ Which following property of `ProgressEvent` shows the amount of work already don
 
 ???
 
+
 * `ProgressEvent.loaded;`
 * `ProgressEvent.lengthComputable;`
 * `ProgressEvent.total;`
@@ -79,6 +85,8 @@ Which following property of `ProgressEvent` returns a boolean?
 
 ???
 
-*`2`
-*`1`
-*`3`
+
+* `2`
+* `1`
+* `3`
+

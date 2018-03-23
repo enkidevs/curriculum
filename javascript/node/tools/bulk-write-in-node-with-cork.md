@@ -1,4 +1,4 @@
-# Bulk-Write in **Node** with `cork()`
+---
 author: catalin
 
 levels:
@@ -11,10 +11,15 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - >-
-    [github.com](https://github.com/nodejs/node/wiki/API-changes-between-v0.10-and-v4#writable-streams){website}
+  - '[github.com](https://github.com/nodejs/node/wiki/API-changes-between-v0.10-and-v4#writable-streams){website}'
+
+
+---
+
+# Bulk-Write in **Node** with `cork()`
 
 ---
 ## Content
@@ -40,6 +45,7 @@ Which two API calls can be used to specify a range of where bulk writes will occ
 
 ???
 
+
 * `cork()` and `uncork()`
 * `write()` and `end()`
 * `writable()` and `unwritable()`
@@ -51,6 +57,8 @@ What method is used to flush all buffered data from a stream?
 
 ???
 
+
 * `end()`
 * `uncork()`
 * `cork()`
+

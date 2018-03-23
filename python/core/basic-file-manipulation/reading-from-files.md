@@ -1,4 +1,4 @@
-# Reading from files
+---
 author: SebaRaba
 
 levels:
@@ -14,7 +14,12 @@ standards:
 
 links:
 
-  - '[More about reading from files](http://www.pythonforbeginners.com/files/reading-and-writing-files-in-python)'
+  - '[More about reading from files](http://www.pythonforbeginners.com/files/reading-and-writing-files-in-python){website}'
+
+
+---
+
+# Reading from files
 
 ---
 ## Content
@@ -80,6 +85,7 @@ print(file.???())
 print(???.readline())
 ```
 
+
 * `open`
 * `readline`
 * `file`
@@ -98,6 +104,7 @@ file = open('test.txt', '???')
 
 print(file.???())
 ```
+
 
 * `r`
 * `readlines`

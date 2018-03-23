@@ -1,4 +1,4 @@
-# Memory Allocation and Mutable Types
+---
 author: mihaiberq
 
 levels:
@@ -13,6 +13,10 @@ standards:
   py.store-manipulate-data.0: 10
   py.store-manipulate-data.1: 10
   py.store-manipulate-data.6: 10
+
+---
+
+# Memory Allocation and Mutable Types
 
 ---
 ## Content
@@ -82,6 +86,7 @@ b['key'] = 'mutable'
 print(a)
 ???
 ```
+
 * `{'key': 'mutable'}`
 * `{'key': 'value'}`
 * `{'key': 'value', 'key': 'mutable'}`
@@ -98,6 +103,7 @@ b.append(5)
 print(a)
 ???
 ```
+
 * `[5]`
 * `5`
 * `[]`

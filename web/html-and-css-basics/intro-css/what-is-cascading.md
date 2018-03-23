@@ -1,4 +1,4 @@
-# What Is Cascading?
+---
 author: mihaiberq
 
 levels:
@@ -7,9 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# What Is Cascading?
 
 ---
 ## Content
@@ -53,10 +60,11 @@ p {
 ```
 ???
 
-*green
-*blue
-*red
-*the default one
+
+* green
+* blue
+* red
+* the default one
 
 ---
 ## Revision
@@ -65,7 +73,9 @@ Where should a style block be located in the CSS file for it to be applied last?
 
 ???
 
-*Bottom of the file.
-*Middle of the file.
-*Top of the file.
-*Doesn't matter.
+
+* Bottom of the file.
+* Middle of the file.
+* Top of the file.
+* Doesn't matter.
+

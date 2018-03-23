@@ -1,4 +1,4 @@
-# The golden rule of rebasing
+---
 author: rosielowther
 
 levels:
@@ -11,9 +11,15 @@ type: normal
 
 category: best practice
 
+
 links:
 
   - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Rebasing){website}'
+
+
+---
+
+# The golden rule of rebasing
 
 ---
 ## Content
@@ -36,15 +42,18 @@ How would you make git to recreate a history of commits if someone rebased share
 ```
 $ git ??? ???
 ```
-*`pull`
-*`--rebase`
-*`rebase`
-*`commit`
+
+* `pull`
+* `--rebase`
+* `rebase`
+* `commit`
 
 ---
 ## Revision
 
 The best practice is to only `rebase` commits that exist in your ??? ???.
-*local
-*repository
-*remote
+
+* local
+* repository
+* remote
+

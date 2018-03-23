@@ -1,4 +1,4 @@
-# Unicode character database at your hands
+---
 author: catalin
 
 levels:
@@ -11,9 +11,10 @@ levels:
 
 type: normal
 
+category: feature
+
 inAlgoPool: false
 
-category: feature
 
 standards:
   py.data-structures-uses.5: 10
@@ -23,8 +24,12 @@ standards:
 links:
 
   - '[pymotw.com](https://pymotw.com/2/codecs/){website}'
-
   - '[docs.python.org](https://docs.python.org/3.5/library/codecs.html){website}'
+
+
+---
+
+# Unicode character database at your hands
 
 ---
 ## Content
@@ -68,12 +73,13 @@ Get the category of the specified character:
 #Letter, uppercase
 ```
 
-*`unicodedata`
-*`category`
-*`lookup`
-*`name`
-*`unicode`
-*`data`
+
+* `unicodedata`
+* `category`
+* `lookup`
+* `name`
+* `unicode`
+* `data`
 
 ---
 ## Revision
@@ -84,6 +90,7 @@ Get the name of a character specified:
 ‘TILDE’
 ```
 
-*`name`
-*`lookup`
-*`category`
+
+* `name`
+* `lookup`
+* `category`

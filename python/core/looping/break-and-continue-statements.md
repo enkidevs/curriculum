@@ -1,4 +1,4 @@
-# `break` and `continue` statements
+---
 author: tommarshall
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+inAlgoPool: false
 
 standards:
   py.control-structures.0: 10
+
+---
+
+# `break` and `continue` statements
 
 ---
 ## Content
@@ -66,6 +70,7 @@ Which keyword is used to skip the current code block, and to resume execution at
 
 ???
 
+
 * `continue`
 * `break`
 * `restart`
@@ -76,6 +81,7 @@ Which keyword is used to skip the current code block, and to resume execution at
 Which keyword is used to terminate the current loop, then resuming code execution at the following statement?
 
 ???
+
 
 * `break`
 * `continue`

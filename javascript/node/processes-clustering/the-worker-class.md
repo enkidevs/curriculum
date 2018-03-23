@@ -1,4 +1,4 @@
-# The Worker Class
+---
 author: tommarshall
 
 levels:
@@ -12,6 +12,13 @@ levels:
 type: normal
 
 category: tip
+
+
+
+
+---
+
+# The Worker Class
 
 ---
 ## Content
@@ -47,9 +54,11 @@ if (worker.???()) {
 }
 ```
 
+
 * `isConnected`
 * `process`
 * `connected`
 * `worker`
 * `isIPC`
 * `send`
+

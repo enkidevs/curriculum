@@ -1,4 +1,4 @@
-# Set (data structure)
+---
 author: alexjmackey
 
 levels:
@@ -7,13 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Set){website}'
+
+
+---
+
+# Set (data structure)
 
 ---
 ## Content
@@ -35,3 +41,4 @@ mySet.has(1); //true
 ```
 
 Note that iterating through a set will return objects in their insertion order.
+

@@ -1,4 +1,4 @@
-# Combining multiple lists, item by item
+---
 author: Aaron7Sun
 
 levels:
@@ -15,6 +15,10 @@ standards:
   py.native-types-operations.4: 10
 
 category: tip
+
+---
+
+# Combining multiple lists, item by item
 
 ---
 ## Content
@@ -48,6 +52,7 @@ tuple = ???(letters, values)
 # so that we get
 tuple = [('a', 1), ('b', 2), ('c', 3)]
 ```
+
 
 * `zip`
 * `button`

@@ -1,4 +1,4 @@
-# Arithmetic Operators
+---
 author: tommarshall
 
 levels:
@@ -7,18 +7,22 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 standards:
   py.native-types-operations.2: 10
 
 links:
 
-  - >-
-    [Python
-    division](http://stackoverflow.com/questions/2958684/python-division){website}
+  - '[Python division](http://stackoverflow.com/questions/2958684/python-division){website}'
+
+
+---
+
+# Arithmetic Operators
 
 ---
 ## Content
@@ -61,11 +65,12 @@ What are the outputs to the following code snippet respectively:
 ???
 ???
 
-*`4`
-*`25.75`
-*`5`
-*`6`
-*`3`
-*`26.25`
-*`25`
-*`26`
+
+* `4`
+* `25.75`
+* `5`
+* `6`
+* `3`
+* `26.25`
+* `25`
+* `26`

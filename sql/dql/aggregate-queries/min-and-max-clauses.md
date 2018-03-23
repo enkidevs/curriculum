@@ -1,4 +1,4 @@
-# MIN and MAX clauses
+---
 author: SebaRaba
 
 levels:
@@ -21,12 +21,18 @@ standards:
   sql.aggregate-single-table.1: 10
 
 tags:
+
   - workout
 
 
 links:
 
-  - '[More on MIN and MAX clauses](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql)'
+  - '[More on MIN and MAX clauses](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql){website}'
+
+
+---
+
+# MIN and MAX clauses
 
 ---
 ## Content
@@ -66,6 +72,7 @@ AS result;
   156
 (1 row)
 ```
+
 ---
 ## Practice
 
@@ -87,6 +94,7 @@ SELECT ???(???) FROM ???
 10000
 (1 row)
 ```
+
 
 
 * MAX
@@ -117,13 +125,13 @@ id | move_effect | version_group_id
 ```
 
 
+
 * SELECT MIN(move_effect) FROM move_effect_change;
 * SELECT MAX(move_effect) FROM move_effect_change;
 * SELECT AVG(move_effect) FROM move_effect_change;
 
 ---
 ## Footnotes
-
 [1:Pokemon Db]
 We will use the same segment of "experience" table for all aggregate functions:
 ```

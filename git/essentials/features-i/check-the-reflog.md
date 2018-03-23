@@ -1,4 +1,4 @@
-# Check the reflog
+---
 author: rosielowther
 
 levels:
@@ -11,10 +11,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Revision-Selection){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Revision-Selection){website}'
+
+
+---
+
+# Check the reflog
 
 ---
 ## Content
@@ -45,6 +50,7 @@ View the latest commit on master as of 3 days ago:
 ```
 $ git ??? ???@{3.days.ago}
 ```
+
 * `show`
 * `master`
 * `reflog`
@@ -57,8 +63,10 @@ View the 6th previous value of HEAD:
 ```
 $ git ??? ???@{6}
 ```
+
 * `show`
 * `HEAD`
 * `log`
 * `reflog`
 * `branch`
+

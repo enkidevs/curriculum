@@ -1,4 +1,4 @@
-# Python Debugger
+---
 author: SebaRaba
 
 levels:
@@ -17,7 +17,12 @@ standards:
 
 links:
 
-  - '[Python debugger](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger)'
+  - '[Python debugger](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger){website}'
+
+
+---
+
+# Python Debugger
 
 ---
 ## Content
@@ -140,6 +145,7 @@ def interaction()
 ```
 ???
 
+
 * SyntaxError: invalid syntax
 * ZeroDivisionError: division by 0
 * The code will run with no errors
@@ -151,6 +157,7 @@ def interaction()
 When debugging a python file with `pdb`, which command will show the step-by-step process?
 
 ???
+
 
 * `step`
 * `next`

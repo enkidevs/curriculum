@@ -1,4 +1,4 @@
-# Class Keywords
+---
 author: mihaiberq
 
 levels:
@@ -9,8 +9,14 @@ type: normal
 
 category: must-know
 
+
 standards:
   py.object-oriented.0: 10
+
+---
+
+# Class Keywords
+
 
 ---
 ## Content
@@ -40,6 +46,7 @@ class Employee:
 ## Revision
 
 Independent functions are called ???
+
 
 * just functions
 * methods

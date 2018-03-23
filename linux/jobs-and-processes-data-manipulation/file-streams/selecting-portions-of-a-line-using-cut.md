@@ -1,4 +1,4 @@
-# Selecting Portions of A Line Using `cut`
+---
 author: jfarmer
 
 levels:
@@ -9,9 +9,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# Selecting Portions of A Line Using `cut`
 
 ---
 ## Content
@@ -81,17 +88,20 @@ Print the *subtopic* name using `cut` :
 ```
 $ cut ??? ??? ???
 ```
-*`-d"/"`
-*`-f2`
-*`enki.txt`
-*`-d" "`
-*`-f1`
+
+* `-d"/"`
+* `-f2`
+* `enki.txt`
+* `-d" "`
+* `-f1`
 
 ---
 ## Revision
 
 The flag used to specify the delimiter of the `cut` command is ???.
-*-d
-*-f
-*-a
-*-F
+
+* -d
+* -f
+* -a
+* -F
+

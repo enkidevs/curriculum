@@ -1,4 +1,4 @@
-# Method overriding
+---
 author: catalin
 
 levels:
@@ -13,8 +13,15 @@ type: normal
 
 category: tip
 
+
 standards:
   py.object-oriented.2: 10
+
+
+links:
+
+  - '[lgiordani.com](http://lgiordani.com/blog/2014/05/19/method-overriding-in-python/#.Vsx21JyLRhF){website}'
+
 
 notes: >
   Again, preferably use other names for classes instead of words containing Enki
@@ -26,10 +33,9 @@ notes: >
 
   Made the changes in the insight.
 
-links:
+---
 
-  - >-
-    [lgiordani.com](http://lgiordani.com/blog/2014/05/19/method-overriding-in-python/#.Vsx21JyLRhF){website}
+# Method overriding
 
 ---
 ## Content
@@ -74,8 +80,8 @@ I am a bird
 ---
 ## Practice
 
-
 To extend the functionality of a parent's class method, but not override it, you can use the ??? function.
+
 
 * `super`
 * `yield`
@@ -101,6 +107,7 @@ child.hello()
 # I am child
 ```
 Complete the missing gaps such that the output of running it will match the given comment.
+
 
 * `Child`
 * `Parent`

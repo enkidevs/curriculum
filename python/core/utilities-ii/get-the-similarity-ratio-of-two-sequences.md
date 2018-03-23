@@ -1,4 +1,4 @@
-# Get the similarity ratio of two sequences
+---
 author: catalin
 
 levels:
@@ -20,6 +20,10 @@ standards:
 
 
 parent: compare-sequences-with-difflib
+
+---
+
+# Get the similarity ratio of two sequences
 
 ---
 ## Content
@@ -62,15 +66,16 @@ print(s.???() *100)
 // 50%
 ```
 
-*`difflib`
-*`SequenceMatcher`
-*`ratio`
-*`r`
-*`similarity`
-*`diff`
-*`Sequence`
-*`Matcher`
-*`get_similarity`
+
+* `difflib`
+* `SequenceMatcher`
+* `ratio`
+* `r`
+* `similarity`
+* `diff`
+* `Sequence`
+* `Matcher`
+* `get_similarity`
 
 ---
 ## Revision
@@ -79,9 +84,10 @@ What function of `SequenceMatcher`  can be used to get the similarity of two seq
 
 ???
 
-*`ratio`
-*`sim`
-*`similarity`
-*`r`
-*`s`
-*`get_similarity`
+
+* `ratio`
+* `sim`
+* `similarity`
+* `r`
+* `s`
+* `get_similarity`

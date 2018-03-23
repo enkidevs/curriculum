@@ -1,4 +1,4 @@
-# Using `enum` in Java
+---
 author: pawel
 
 levels:
@@ -15,7 +15,13 @@ tags:
 
   - enum
 
+
+
 notes: ''
+
+---
+
+# Using `enum` in Java
 
 ---
 ## Content
@@ -40,14 +46,15 @@ public ??? MyEnum ???
 ???
 ```
 
+
 * `enum` 
-*`{` 
-*`}` 
-*`enumeration` 
-*`[` 
-*`]` 
-*`(` 
-*`)`
+* `{` 
+* `}` 
+* `enumeration` 
+* `[` 
+* `]` 
+* `(` 
+* `)`
 
 ---
 ## Revision
@@ -59,8 +66,10 @@ public ??? MyEnum {
 }
 ```
 
+
 * `enum` 
-*`enumeration` 
-*`e` 
-*`list` 
-*`array`
+* `enumeration` 
+* `e` 
+* `list` 
+* `array`
+

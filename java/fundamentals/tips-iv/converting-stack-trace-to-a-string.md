@@ -1,4 +1,4 @@
-# Converting stack trace to a string
+---
 author: adamMontgomerie
 
 levels:
@@ -19,10 +19,15 @@ tags:
 
   - strings
 
+
 links:
 
-  - >-
-    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=78){website}
+  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=78){website}'
+
+
+---
+
+# Converting stack trace to a string
 
 ---
 ## Content
@@ -43,3 +48,4 @@ public static String getStackTrace(
 ```
 
 In the above example, `getStackTrace` takes a `Throwable` as a parameter and uses `printStackTrace` to print it to a `PrintWriter` output stream. This output is collected by the `StringWriter` and converted to a string using `StringWriter.toString()`.
+

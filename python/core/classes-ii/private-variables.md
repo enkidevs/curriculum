@@ -1,4 +1,4 @@
-# Private Variables
+---
 author: catalin
 
 levels:
@@ -18,8 +18,12 @@ standards:
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#private-variables){website}
+  - '[docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#private-variables){website}'
+
+
+---
+
+# Private Variables
 
 ---
 ## Content
@@ -64,10 +68,11 @@ print(t.__x)
 ???
 ```
 
-*`AttributeError`
-*`PrivateError`
-*`Hey there`
-*`hey there`
+
+* `AttributeError`
+* `PrivateError`
+* `Hey there`
+* `hey there`
 
 ---
 ## Revision
@@ -77,10 +82,11 @@ Complete the following line such that the `private` variable is considered priva
 ???private = 30
 ```
 
-*`__`
-*`&&`
-*`--`
-*`def`
-*`class`
-*`private`
-*`p_`
+
+* `__`
+* `&&`
+* `--`
+* `def`
+* `class`
+* `private`
+* `p_`

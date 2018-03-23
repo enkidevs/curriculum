@@ -1,4 +1,4 @@
-# Three ways to substitute a substring of a string
+---
 author: Aaron7Sun
 
 levels:
@@ -16,6 +16,10 @@ category: tip
 standards:
   py.standard-library-data.6: 10
   py.data-structures-uses.5: 10
+
+---
+
+# Three ways to substitute a substring of a string
 
 ---
 ## Content
@@ -58,14 +62,15 @@ print(t
  .???(weather="sunny"))
 ```
 
-*`Template`
-*`$`
-*`substitute`
-*`format`
-*`%`
-*`{`
-*`dict`
-*`mod`
+
+* `Template`
+* `$`
+* `substitute`
+* `format`
+* `%`
+* `{`
+* `dict`
+* `mod`
 
 ---
 ## Revision
@@ -77,9 +82,10 @@ print(my_string
   .???(???="evening"))
 ```
 
-*`format`
-*`time`
-*`first`
-*`{time}`
-*`substitute`
-*`sub`
+
+* `format`
+* `time`
+* `first`
+* `{time}`
+* `substitute`
+* `sub`

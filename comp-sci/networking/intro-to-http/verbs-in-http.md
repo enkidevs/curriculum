@@ -1,4 +1,4 @@
-# Verbs in HTTP
+---
 author: SebaRaba
 
 levels:
@@ -15,13 +15,17 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - 'http://www.restapitutorial.com/lessons/httpmethods.html'
-
-  - 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods'
+  - '[www.restapitutorial.com](http://www.restapitutorial.com/lessons/httpmethods.html){website}'
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods){website}'
 
 parent: what-are-status-codes
+
+---
+
+# Verbs in HTTP
 
 ---
 ## Content
@@ -42,26 +46,12 @@ To differentiate actions, HTTP protocol comes with a set of formalized request *
 As HTTP is an application layer protocol, your actions on different web sites will talk to the server in this way. Navigating to your friend's profile page is equivalent to a `GET` action, sharing a song is done via a `POST` request, editing a comment represents a `PUT` request, while deleting an old, embarrassing photo sends a `DELETE` request.
 
 ---
-## Footnotes
-
-[1:POST]
-Usually the payload of the POST request contains or indicates the data of the new resource.
-[2:PUT]
-Similar to the `POST` request, the payload of a `PUT` request carries data necessary for the update.
-[3:specialized POST]
-`PUT` and `DELETE` can be substituted by specialized `POST` requests with different payload content. i.e.: instead of updating only some fields of an old resource, overwrite it with the new updated resource.
-[4:HEAD]
-The `HEAD` verb can sometimes be used to check if the targeted resource has changed over time and if there's any need to request it again.
-This is possible as the header of a request contain timestamps.
-[5:Options]
-For example, in case of the server not being able to understand a `PUT` request, sending a `OPTIONS` request first will help us prevent receiving a `400 Bad Request` error.
-
----
 ## Practice
 
 Which of the following **HTTP verbs** should be used only for debugging purposes?
 
 ???
+
 
 * `TRACE`
 * `OPTIONS`
@@ -76,7 +66,22 @@ Which HTTP verb should be used, by definition, to update an existing resource on
 
 ???
 
+
 * `PUT`
 * `HEAD`
 * `UPDATE`
 * `GET`
+
+---
+## Footnotes
+[1:POST]
+Usually the payload of the POST request contains or indicates the data of the new resource.
+[2:PUT]
+Similar to the `POST` request, the payload of a `PUT` request carries data necessary for the update.
+[3:specialized POST]
+`PUT` and `DELETE` can be substituted by specialized `POST` requests with different payload content. i.e.: instead of updating only some fields of an old resource, overwrite it with the new updated resource.
+[4:HEAD]
+The `HEAD` verb can sometimes be used to check if the targeted resource has changed over time and if there's any need to request it again.
+This is possible as the header of a request contain timestamps.
+[5:Options]
+For example, in case of the server not being able to understand a `PUT` request, sending a `OPTIONS` request first will help us prevent receiving a `400 Bad Request` error.

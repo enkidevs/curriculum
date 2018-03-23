@@ -1,4 +1,4 @@
-# The `not` operator
+---
 author: tommarshall
 
 levels:
@@ -7,12 +7,17 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
+
 
 standards:
   py.native-types-operations.0: 10
 
-category: must-know
+---
+
+# The `not` operator
 
 ---
 ## Content
@@ -46,6 +51,14 @@ print(True == (not True))
 ```
 ???
 
+<<<<<<< HEAD
 *False
 *True
 *Error
+=======
+
+* False
+* True
+* Error
+
+>>>>>>> master

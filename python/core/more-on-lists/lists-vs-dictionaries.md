@@ -1,4 +1,4 @@
-# Lists vs Dictionaries.
+---
 author: SebaRaba
 
 levels:
@@ -17,7 +17,12 @@ standards:
 
 links:
 
-  - '[More information here](https://monjurulhabib.wordpress.com/2016/09/22/python-when-to-use-list-vs-tuple-vs-dictionary-vs-set-theory/)'
+  - '[More information here](https://monjurulhabib.wordpress.com/2016/09/22/python-when-to-use-list-vs-tuple-vs-dictionary-vs-set-theory/){website}'
+
+
+---
+
+# Lists vs Dictionaries.
 
 ---
 ## Content
@@ -62,6 +67,7 @@ print(dict[Name], '\n', dict[Year])
 What complexity is required for a lookup on a list?
 ???
 
+
 * `O(n)`
 * `O(1)`
 * `O(n^2)`
@@ -79,6 +85,7 @@ print(my_dict.__(my_list[__]))
 ```
 We want to access value `5` from the dictionary using one of the list's elements.
 ???
+
 
 * get(), 1
 * get(), 2

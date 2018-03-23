@@ -1,4 +1,4 @@
-# Parallel sorting of lists
+---
 author: Aaron7Sun
 
 levels:
@@ -15,6 +15,10 @@ standards:
   py.native-types-operations.4: 10
 
 category: tip
+
+---
+
+# Parallel sorting of lists
 
 ---
 ## Content

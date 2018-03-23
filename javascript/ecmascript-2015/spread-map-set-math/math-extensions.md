@@ -1,4 +1,4 @@
-# Math Extensions
+---
 author: alexjmackey
 
 levels:
@@ -7,13 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[ponyfoo.com](https://ponyfoo.com/articles/es6-math-additions-in-depth){website}'
+
+
+---
+
+# Math Extensions
 
 ---
 ## Content
@@ -45,3 +51,4 @@ Math.sign returns a value that represents whether a number is positive (1), nega
 Math.sign(1); //1
 Math.sign(-1); //-1
 ```
+

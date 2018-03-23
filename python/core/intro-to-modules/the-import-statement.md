@@ -1,4 +1,4 @@
-# The import statement
+---
 author: SebaRaba
 
 levels:
@@ -15,7 +15,12 @@ standards:
 
 links:
 
-  - '[More about import](https://www.digitalocean.com/community/tutorials/how-to-import-modules-in-python-3)'
+  - '[More about import](https://www.digitalocean.com/community/tutorials/how-to-import-modules-in-python-3){website}'
+
+
+---
+
+# The import statement
 
 ---
 ## Content
@@ -75,6 +80,7 @@ counter.increment() # 2
 
 ```
 
+
 * `def`
 * `increment():`
 * `import`
@@ -108,6 +114,7 @@ subtractor.???(10, 2)
 # 10 - 2 is: 8
 ```
 
+
 * `import`
 * `subtractor`
 * `subtract`
@@ -115,9 +122,9 @@ subtractor.???(10, 2)
 * `subtractor()`
 * `print`
 * `subtract()`
+
 ---
 ## Footnotes
-
 [1:adder]
 Consider the previously defined module in `added.py`:
 ```python

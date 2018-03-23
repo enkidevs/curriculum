@@ -1,4 +1,4 @@
-# Use `list-style-type` to change the marker type in lists
+---
 author: priyankinirmal
 
 levels:
@@ -25,10 +25,15 @@ tags:
 
   - list-style
 
+
 links:
 
-  - >-
-    [css-tricks.com](https://css-tricks.com/almanac/properties/l/list-style/){website}
+  - '[css-tricks.com](https://css-tricks.com/almanac/properties/l/list-style/){website}'
+
+
+---
+
+# Use ```list-style-type``` to change the marker type in lists
 
 ---
 ## Content
@@ -52,7 +57,7 @@ ol.c {
   list-style-type: lower-roman;
 }
 
-``` 
+```
 This is how the lists would look:
 
 
@@ -64,19 +69,20 @@ This is how the lists would look:
 Complete the following snippet to change the default list marker:
 ```
 ul.specialList {
- ???: 
+ ???:
           url('img.jpg');
 }
 ```
-*`list-style-image` 
-*`list-style-type` 
-*`list-style-font` 
-*`list-style`
+
+* `list-style-image`
+* `list-style-type`
+* `list-style-font`
+* `list-style`
 
 ---
 ## Revision
 
-What does the following CSS code snippet do? 
+What does the following CSS code snippet do?
 
 ```css
 ul.a {
@@ -88,6 +94,7 @@ ol.b {
 }
 ```
 ???
+
 * Sets the unordered list marker to an image and the ordered list marker to roman numerals.
 * Sets the unordered list marker to roman numerals and the ordered list to an image.
 * This does nothing...

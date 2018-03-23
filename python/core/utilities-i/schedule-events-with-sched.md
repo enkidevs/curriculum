@@ -1,4 +1,4 @@
-# Schedule events with `sched`
+---
 author: catalin
 
 levels:
@@ -18,6 +18,11 @@ standards:
 links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/sched.html){website}'
+
+
+---
+
+# Schedule events with `sched`
 
 ---
 ## Content

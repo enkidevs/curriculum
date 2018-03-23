@@ -1,22 +1,30 @@
-# Check the details of a package
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: feature
 
-parent: how-to-publish-your-own-packages
 
 links:
 
-  - '[docs.npmjs.com](https://docs.npmjs.com/cli/view)'
+  - '[docs.npmjs.com](https://docs.npmjs.com/cli/view){website}'
+
+parent: how-to-publish-your-own-packages
+
+---
+
+# Check the details of a package
 
 ---
 ## Content
@@ -56,6 +64,7 @@ Complete the command in order to get the dependencies for version `1.2.3` of pac
 $ npm ???
     enki???1.2.3 ???
 ```
+
 * `view`
 * `@`
 * `dependencies`
@@ -70,8 +79,10 @@ Complete the command to retrieve the contributors to the *npm* package:
 ```
 $ ??? ??? npm ???
 ```
+
 * `npm`
 * `view`
 * `contributors`
 * `@contributors`
 * `ls`
+

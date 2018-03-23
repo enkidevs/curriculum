@@ -1,4 +1,4 @@
-# Get the most out of **Git**
+---
 author: catalin
 
 levels:
@@ -9,9 +9,15 @@ type: normal
 
 category: feature
 
+
 links:
 
   - '[webchick.net](http://webchick.net/node/99){website}'
+
+
+---
+
+# Get the most out of **Git**
 
 ---
 ## Content
@@ -46,6 +52,7 @@ $ git cherry-pick 51241js
 
 To just apply a commit without merging or rebase you can use `git ???`.
 
+
 * `cherry-pick`
 * `diff`
 * `commit --amend`
@@ -60,6 +67,7 @@ Complete the code snippet such that the command, if ran, will show the latest co
 $ git ??? ???
 ```
 
+
 * `branch`
 * `-v`
 * `-all`
@@ -70,7 +78,6 @@ $ git ??? ???
 
 ---
 ## Footnotes
-
 [1: diff command]
 Instead of seeing the differences for all the files, you can specify a file the command will target:
 ```

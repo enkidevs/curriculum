@@ -1,4 +1,4 @@
-# Double ended queues with `deque`
+---
 author: catalin
 
 levels:
@@ -9,18 +9,20 @@ type: normal
 
 category: must-know
 
-parent: get-more-with-collections
 
 standards:
   cs.identify-linear-collection-data-structures-usage.2: 10
 
 links:
 
-  - >-
-    [pythontips.com](http://pythontips.com/2014/07/02/an-intro-to-deque-module/){website}
+  - '[pythontips.com](http://pythontips.com/2014/07/02/an-intro-to-deque-module/){website}'
+  - '[docs.python.org](https://docs.python.org/3.5/library/collections.html#deque-objects){website}'
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/collections.html#deque-objects){website}
+parent: get-more-with-collections
+
+---
+
+# Double ended queues with `deque`
 
 ---
 ## Content
@@ -74,13 +76,15 @@ Instantiate a double ended queue with a maximum length of 5:
 ```
 e = ???(??? = 5)
 ```
-*`deque`
-*`maxlen`
-*`dqueue`
-*`dequeue`
-*`length`
-*`maxsize`
-*`size`
+
+
+* `deque`
+* `maxlen`
+* `dqueue`
+* `dequeue`
+* `length`
+* `maxsize`
+* `size`
 
 ---
 ## Revision
@@ -96,7 +100,8 @@ a.append("k")
 a.append("i")
 a.???("e")
 ```
-*`appendleft`
-*`append`
-*`append.left`
-*`append.start`
+
+* `appendleft`
+* `append`
+* `append.left`
+* `append.start`

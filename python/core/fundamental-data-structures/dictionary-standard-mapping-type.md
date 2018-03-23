@@ -1,4 +1,4 @@
-# `Dictionary` - standard mapping type
+---
 author: catalin
 
 levels:
@@ -14,8 +14,12 @@ standards:
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#mapping-types-dict){website}
+  - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#mapping-types-dict){website}'
+
+
+---
+
+# `Dictionary` - standard mapping type
 
 ---
 ## Content
@@ -53,6 +57,7 @@ Which of the following is __not__ a valid syntax for creating a Python dictionar
 ```
 ???
 ```
+
 * `['first':1, 'second':2]`
 * `dict(first=1, second=2)`
 * `dict({'first':1, 'second':2})`

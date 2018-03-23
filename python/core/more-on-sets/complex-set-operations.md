@@ -1,4 +1,4 @@
-# Complex `set` operations
+---
 author: tommarshall
 
 levels:
@@ -7,12 +7,17 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+inAlgoPool: false
 
 standards:
   py.native-types-operations.5: 10
+
+
+---
+
+# Complex `set` operations
 
 ---
 ## Content
@@ -48,7 +53,6 @@ x >= y
 # True
 ```
 
-
 ---
 ## Revision
 
@@ -60,6 +64,7 @@ x.issuperset(y)
 x.issubset(y)
 # ???
 ```
+
 * `x >= y`
 * `x <= y`
 * `x == y`

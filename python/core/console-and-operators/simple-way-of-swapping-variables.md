@@ -1,4 +1,4 @@
-# Simple way of swapping variables
+---
 author: Aaron7Sun
 
 levels:
@@ -15,6 +15,13 @@ standards:
 type: normal
 
 category: tip
+
+
+
+
+---
+
+# Simple way of swapping variables
 
 ---
 ## Content
@@ -40,11 +47,12 @@ Complete the following snippet such that the variables are swapped, using tuple 
 (4, 3)
 ```
 
-*`e`
-*`d`
-*`swap`
-*`switch`
-*`a`
+
+* `e`
+* `d`
+* `swap`
+* `switch`
+* `a`
 
 ---
 ## Revision
@@ -57,6 +65,7 @@ What is the output of the following snippet?
 ???
 ```
 
-*`4, 5`
-*`5, 4`
-*`error`
+
+* `4, 5`
+* `5, 4`
+* `error`

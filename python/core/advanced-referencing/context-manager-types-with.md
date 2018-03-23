@@ -1,4 +1,4 @@
-# Context manager types - `with`
+---
 author: catalin
 
 levels:
@@ -13,6 +13,12 @@ type: normal
 
 category: how to
 
+
+links:
+
+  - '[preshing.com](http://preshing.com/20110920/the-python-with-statement-by-example/){website}'
+  - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#context-manager-types){website}'
+
 notes: >
   The explanation of the custom context manager should preferably have an small
   real-life example (which demonstrates the benefits of the feature), and also
@@ -24,13 +30,10 @@ standards:
   py.object-oriented.5: 10
   py.native-types-operations.7: 10
 
-links:
 
-  - >-
-    [preshing.com](http://preshing.com/20110920/the-python-with-statement-by-example/){website}
+---
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#context-manager-types){website}
+# Context manager types - `with`
 
 ---
 ## Content
@@ -91,6 +94,7 @@ with new_context_manager as custom_name
    # work with resources
 ```
 
+
 * `__enter__`
 * `__exit__`
 * `__close__`
@@ -106,6 +110,7 @@ with new_context_manager as custom_name
 What functionality does `with` carry in a `with context as name` block in Python?
 
 ???
+
 
 * `try/except/finally`
 * It automatically cleans up the `context` resource after use.

@@ -1,4 +1,4 @@
-# Users And Groups On Linux
+---
 author: jfarmer
 
 levels:
@@ -9,13 +9,23 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 tags:
+
   - introduction
+
   - workout
+
+
+
+
+---
+
+# Users And Groups On Linux
+
 ---
 ## Content
 
@@ -52,8 +62,10 @@ You can see the groups a user is in by issuing:
 ```
 $ ??? ???
 ```
-*`groups`
-*`user`
-*`group`
-*`ls -g`
-*`-groups`
+
+* `groups`
+* `user`
+* `group`
+* `ls -g`
+* `-groups`
+

@@ -1,4 +1,4 @@
-# Using Lists as Queues
+---
 author: SebaRaba
 
 levels:
@@ -14,7 +14,12 @@ standards:
 
 links:
 
-  - '[More about lists as queues](https://welcomedata.wordpress.com/2015/07/03/using-lists-as-stacks-and-queues-in-python/)'
+  - '[More about lists as queues](https://welcomedata.wordpress.com/2015/07/03/using-lists-as-stacks-and-queues-in-python/){website}'
+
+
+---
+
+# Using Lists as Queues
 
 ---
 ## Content
@@ -72,6 +77,7 @@ for n in __.items:
 ```
 ???
 
+
 * Queue, 7, 1, 0, 2, my_queue
 * queue, 2, 0, 1, 7, my_queue
 * Queue, 2, 0, 1, 7, my_queue
@@ -97,6 +103,7 @@ for n in temp.items:
     print(n)
 ```
 ???
+
 
 * 5 E U E U Q
 * 5 Q U E U E

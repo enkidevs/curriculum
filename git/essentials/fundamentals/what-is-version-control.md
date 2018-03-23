@@ -1,4 +1,4 @@
-# What is Version Control?
+---
 author: catalin
 
 levels:
@@ -7,17 +7,20 @@ levels:
 
 type: normal
 
+category: thought
+
 inAlgoPool: false
 
-category: thought
 
 links:
 
-  - >-
-    [git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control){website}
+  - '[git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control){website}'
+  - '[www.atlassian.com](https://www.atlassian.com/git/tutorials/what-is-version-control){website}'
 
-  - >-
-    [www.atlassian.com](https://www.atlassian.com/git/tutorials/what-is-version-control){website}
+
+---
+
+# What is Version Control?
 
 ---
 ## Content
@@ -46,6 +49,7 @@ What *type* of VCS **only** makes use of a local database to keep changes of fil
 
 ???
 
+
 * Local Version Control
 * Centralised Version Control
 * Distributed Version Control
@@ -57,6 +61,7 @@ In order to be considered in the git commit a file must be ?
 
 ???
 
+
 * Tracked
 * Untracked
 * Marked
@@ -64,7 +69,6 @@ In order to be considered in the git commit a file must be ?
 
 ---
 ## Footnotes
-
 [1:applicability]
 Keep in mind that **Version Control** software is not limited to text files and implicitly source code, but also to different kind of files such as images, making it useful for a wide range of services and not only for software development.
 [2:DVCS]

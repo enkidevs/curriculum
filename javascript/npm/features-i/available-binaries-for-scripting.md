@@ -1,18 +1,27 @@
-# Available Binaries For Scripting
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: how to
 
+
+
 parent: npm-scripting
+
+---
+
+# Available Binaries For Scripting
 
 ---
 ## Content
@@ -46,11 +55,13 @@ You can find out the exact location of available binaries with:
 $ ??? ???
 ```
 
+
 * `npm`
 * `bin`
 * `ls`
 * `/project/node_modules/.bin`
 * `/usr/local/bin`
+
 ---
 ## Revision
 
@@ -58,7 +69,9 @@ A package binary file is needed for
 
 ???
 
+
 * command line invocation of the module
 * importing the module
 * publishing the module
 * explaining the functionalities of the module
+

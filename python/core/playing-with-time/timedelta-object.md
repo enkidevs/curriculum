@@ -1,4 +1,4 @@
-# Date arithmetics with `timedelta`
+---
 author: catalin
 
 levels:
@@ -9,9 +9,14 @@ levels:
 
 type: normal
 
+category: feature
+
 inAlgoPool: false
 
-category: feature
+
+links:
+
+  - '[docs.python.org](https://docs.python.org/3.5/library/datetime.html#timedelta-objects){website}'
 
 standards:
   py.native-types-operations.8: 10
@@ -19,10 +24,9 @@ standards:
 
 parent: datetime-object
 
-links:
+---
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/datetime.html#timedelta-objects){website}
+# Date arithmetics with `timedelta`
 
 ---
 ## Content
@@ -60,6 +64,7 @@ print(day_after_tomorrow)
 # 2017-06-30 13:12:35.145494
 
 ```
+
 ---
 ## Practice
 
@@ -74,6 +79,7 @@ delta = ???(???=???)
 x = today ??? delta ???
 
 ```
+
 
 * `datetime`
 * `timedelta`
@@ -91,7 +97,6 @@ x = today ??? delta ???
 * `delta`
 
 ---
-
 ## Revision
 
 Calculate the value of `yesterday`:
@@ -103,6 +108,7 @@ today = datetime.today()
 
 yesterday = ??? - ???
 ```
+
 
 * `hours`
 * `24`

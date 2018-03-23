@@ -1,4 +1,4 @@
-# Bash history reverse search
+---
 author: tuwi.dc
 
 levels:
@@ -12,15 +12,26 @@ type: normal
 category: feature
 
 tags:
+
   - bash
+
   - linux
+
   - history
+
   - search
+
   - workout
+
   - workout
+
 
 
 notes: ''
+
+---
+
+# Bash history reverse search
 
 ---
 ## Content
@@ -38,7 +49,9 @@ To cycle through the alternatives, keep pressing `Ctrl+R`.
 ## Revision
 
 Bash reverse search is triggered by ??? .
-*Ctrl+R
-*Ctrl+E
-*search -r
-*search -r
+
+* Ctrl+R
+* Ctrl+E
+* search -r
+* search -r
+

@@ -1,4 +1,4 @@
-# Finding a substring in a string
+---
 author: adamMontgomerie
 
 levels:
@@ -15,10 +15,15 @@ tags:
 
   - strings
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/manipstrings.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/manipstrings.html){website}'
+
+
+---
+
+# Finding a substring in a string
 
 ---
 ## Content
@@ -39,3 +44,4 @@ int indexFirst = s.indexOf("dog");
 int indexLast = s.lastIndexOf("dog");
 //indexLast: 15
 ```
+

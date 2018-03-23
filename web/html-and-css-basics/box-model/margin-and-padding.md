@@ -1,4 +1,4 @@
-# Margin and Padding
+---
 author: mihaiberq
 
 levels:
@@ -13,9 +13,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# Margin and Padding
 
 ---
 ## Content
@@ -83,17 +90,20 @@ padding: 10px 0px 13px 5px;
 ```
 ???
 
-*Fourth 
-*First
-*Second
-*Third
+
+* Fourth 
+* First
+* Second
+* Third
 
 ---
 ## Revision
 
 The ??? property expands the borders of the element, while ??? property pushes it from other adjacent ones.
 
-*padding
-*margin
-*border
-*box
+
+* padding
+* margin
+* border
+* box
+

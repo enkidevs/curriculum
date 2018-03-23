@@ -1,4 +1,4 @@
-# Get more with `collections`!
+---
 author: catalin
 
 levels:
@@ -18,11 +18,13 @@ standards:
 
 links:
 
-  - >-
-    [pymbook.readthedocs.org](http://pymbook.readthedocs.org/en/latest/collections.html){website}
+  - '[pymbook.readthedocs.org](http://pymbook.readthedocs.org/en/latest/collections.html){website}'
+  - '[docs.python.org](https://docs.python.org/3.5/library/collections.html){website}'
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/collections.html){website}
+
+---
+
+# Get more with `collections`!
 
 ---
 ## Content
@@ -48,9 +50,10 @@ Which collections class is used as a faster implementation of a specialized dict
 
 ???
 
-*`defaultdict`
-*`specialdict`
-*`implementdict`
+
+* `defaultdict`
+* `specialdict`
+* `implementdict`
 
 ---
 ## Revision
@@ -59,6 +62,7 @@ Which collections class is used for defining a meaning for every position in a t
 
 ???
 
-*`namedtuple`
-*`definetuple`
-*`definitiontuple`
+
+* `namedtuple`
+* `definetuple`
+* `definitiontuple`

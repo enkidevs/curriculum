@@ -1,4 +1,4 @@
-# Using the `font-variant` property to transform text to small caps
+---
 author: priyankinirmal
 
 levels:
@@ -23,10 +23,15 @@ tags:
 
   - font
 
+
 links:
 
-  - >-
-    [css-tricks.com](https://css-tricks.com/almanac/properties/f/font-variant/){website}
+  - '[css-tricks.com](https://css-tricks.com/almanac/properties/f/font-variant/){website}'
+
+
+---
+
+# Using the `font-variant` property to transform text to small caps
 
 ---
 ## Content
@@ -53,6 +58,8 @@ What must the font-variant property be set to transform the text to small caps?
 
 ???
 
-*`small-caps`
-*`smallcaps`
-*`small_caps`
+
+* `small-caps`
+* `smallcaps`
+* `small_caps`
+

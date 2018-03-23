@@ -1,4 +1,4 @@
-# `for` loops
+---
 author: tommarshall
 
 levels:
@@ -7,9 +7,10 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 standards:
   py.control-structures.2: 10
@@ -17,9 +18,11 @@ standards:
 
 links:
 
-  - >-
-    [Control flow in
-    Python](https://docs.python.org/2/tutorial/controlflow.html){website}
+  - '[Control flow in Python](https://docs.python.org/2/tutorial/controlflow.html){website}'
+
+---
+
+# `for` loops
 
 ---
 ## Content
@@ -72,10 +75,11 @@ for x in [0, 1, 2, 3, 4, 5]:
 ```
 ???
 
-*`0 2 4`
-*`0 1 2 3 4 5`
-*`2 4`
-*`1 3 5`
+
+* `0 2 4`
+* `0 1 2 3 4 5`
+* `2 4`
+* `1 3 5`
 
 ---
 ## Revision
@@ -88,7 +92,8 @@ for letter in 'Python':
 ```
 ???
 
-*`P y t h o n`
-*`letter`
-*`null`
-*`error`
+
+* `P y t h o n`
+* `letter`
+* `null`
+* `error`

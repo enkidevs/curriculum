@@ -1,4 +1,4 @@
-# Generating random numbers
+---
 author: adamMontgomerie
 
 levels:
@@ -15,10 +15,15 @@ tags:
 
   - random
 
+
 links:
 
-  - >-
-    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=62){website}
+  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=62){website}'
+
+
+---
+
+# Generating random numbers
 
 ---
 ## Content
@@ -45,3 +50,4 @@ int x = rand.nextInt((max - min) + 1) + min;
 ```
 
 `Math.random` is appropriate when a `double` is needed, however it is better to use the `Random` class to generate random `int` values.
+

@@ -1,4 +1,4 @@
-# `hasOwnProperty` method
+---
 author: pawel
 
 levels:
@@ -12,13 +12,20 @@ type: normal
 category: feature
 
 standards:
+
   js.data-types-structures.3: 10
+
   js.data-types-structures.4: 10
+
 
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty){website}'
+
+
+---
+
+# `hasOwnProperty` method
 
 ---
 ## Content
@@ -66,6 +73,7 @@ tricky();
 enki.hasOwnProperty('practiceQuestion');
 ```
 
+
 * True, False, False
 * True, False, True
 * True, True, False
@@ -78,6 +86,8 @@ enki.hasOwnProperty('practiceQuestion');
 
  ???
 
-*obj hasn’t got ‘prop’ as property
-*obj has the property
-*obj has the property and its value is null
+
+* obj hasn’t got ‘prop’ as property
+* obj has the property
+* obj has the property and its value is null
+

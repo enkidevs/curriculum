@@ -1,4 +1,4 @@
-# Map (data structure)
+---
 author: alexjmackey
 
 levels:
@@ -7,15 +7,20 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[ponyfoo.com](https://ponyfoo.com/articles/es6-maps-in-depth){website}'
-  
   - '[MDN - Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map){website}'
+
+
+---
+
+# Map (data structure)
 
 ---
 ## Content
@@ -67,3 +72,4 @@ And the map can be emptied using clear:
 ```
 map.clear();
 ```
+

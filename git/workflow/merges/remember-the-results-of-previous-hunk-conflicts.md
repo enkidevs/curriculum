@@ -1,4 +1,4 @@
-# Remember the results of previous hunk conflicts
+---
 author: rosielowther
 
 levels:
@@ -11,9 +11,15 @@ type: normal
 
 category: feature
 
+
 links:
 
   - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Rerere){website}'
+
+
+---
+
+# Remember the results of previous hunk conflicts
 
 ---
 ## Content
@@ -49,19 +55,22 @@ Practice: The command to enable the *Reuse Recorded Resolution* tool is:
 $ ??? ??? ???
   ???.??? ???
 ```
-*`git`
-*`config`
-*`--global`
-*`rerere`
-*`enabled`
-*`true`
+
+* `git`
+* `config`
+* `--global`
+* `rerere`
+* `enabled`
+* `true`
 
 ---
 ## Revision
 
 rerere(“Reuse Recorded Resolution”) ??? the way you ??? a ??? conflict and automatically resolves it for you.
-*saves
-*solved
-*merging
-*shares
-*pulling
+
+* saves
+* solved
+* merging
+* shares
+* pulling
+

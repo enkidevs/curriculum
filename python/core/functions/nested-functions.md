@@ -1,4 +1,4 @@
-# Nested Functions
+---
 author: tommarshall
 
 levels:
@@ -7,13 +7,18 @@ levels:
 
 type: normal
 
+category: tip
+
 inAlgoPool: false
 
-category: tip
 
 standards:
   py.functions.3: 10
 
+
+---
+
+# Nested Functions
 
 ---
 ## Content
@@ -60,6 +65,7 @@ outer(3)
 ```
 ???
 
+
 * `(3, 1)`
 * `(5, 3)`
 * `(3, 3,`
@@ -69,6 +75,7 @@ outer(3)
 ## Revision
 
 A function is nested when it’s defined inside the ??? of another function.
+
 
 * scope
 * parentheses

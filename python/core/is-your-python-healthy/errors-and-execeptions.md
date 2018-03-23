@@ -1,4 +1,4 @@
-# Errors and Excpetions
+---
 author: SebaRaba
 
 levels:
@@ -15,7 +15,12 @@ standards:
 
 links:
 
-  - '[More about errors and exceptions](http://www.python-course.eu/python3_exception_handling.php)'
+  - '[More about errors and exceptions](http://www.python-course.eu/python3_exception_handling.php){website}'
+
+
+---
+
+# Errors and Excpetions
 
 ---
 ## Content
@@ -67,6 +72,7 @@ def sum():
 ```
 ???
 
+
 * TypeError: can't convert int to str implicitly
 * NameError: variable was not defined
 * ZeroDivisionError: devision by 0
@@ -78,6 +84,7 @@ def sum():
 
 Which of the following is an alternative name for compile time errors?
 ???
+
 
 * `exceptions`
 * `bugs`

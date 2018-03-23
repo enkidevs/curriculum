@@ -1,4 +1,4 @@
-# Page breaks for printing
+---
 author: catalin
 
 levels:
@@ -13,9 +13,15 @@ type: normal
 
 category: how to
 
+
 links:
 
   - '[davidwalsh.name](https://davidwalsh.name/css-page-breaks){website}'
+
+
+---
+
+# Page breaks for printing
 
 ---
 ## Content
@@ -44,7 +50,9 @@ Do not forget that the ruling must be preceded by `@media print`.
 
 Which of the following is not a CSS page break? ???
 
+
 * `page-break-prior`
 * `page-break-before`
 * `page-break-after`
 * `page-break-inside`
+

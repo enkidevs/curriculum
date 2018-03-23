@@ -1,4 +1,4 @@
-# Use `background-repeat` to repeat a background image horizontally or vertically
+---
 author: priyankinirmal
 
 levels:
@@ -21,10 +21,15 @@ tags:
 
   - background-image
 
+
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat){website}'
+
+
+---
+
+# Use `background-repeat` to repeat a background image horizontally or vertically
 
 ---
 ## Content
@@ -44,31 +49,34 @@ Use `no-repeat` to prevent any background repetition.
 
 Complete the code snippet to repeat an image vertically:
 
-```
-body { 
+```css
+body {
   background-image: url(
-      'image.jpg'); 
-  background-repeat: ???; 
-} 
+      'image.jpg');
+  background-repeat: ???;
+}
 ```
-* `repeat-y` 
-* `y-repeat` 
-* `repeat-x` 
-* `x-repeat` 
-* `vertical` 
+
+* `repeat-y`
+* `y-repeat`
+* `repeat-x`
+* `x-repeat`
+* `vertical`
 * `horizontal`
 
 ---
 ## Revision
 
-What will the following CSS code do? 
+What will the following CSS code do?
 ```css
 body {
    background-image: url('picture.jpg');
    background-repeat: repeat-y;
 }
 ```
+
 ???
+
 * Repeats the background image vertically.
 * Repeats the background image both horizontally and vertically.
 * Stops the background image from repeating.

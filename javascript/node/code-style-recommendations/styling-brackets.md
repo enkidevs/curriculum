@@ -1,8 +1,10 @@
-# Styling Brackets
+---
 author: mihaiberq
 
 levels:
+
   - beginner
+
   - basic
 
 type: normal
@@ -10,7 +12,15 @@ type: normal
 category: tip
 
 tags:
+
   - introduction
+
+
+
+
+---
+
+# Styling Brackets
 
 ---
 ## Content
@@ -134,6 +144,7 @@ function C()
   };
 }
 ```
+
 * A
 * B
 * C
@@ -152,6 +163,7 @@ function tictac() {
 ```
 ???
 
+
 * Automatic semicolon insertion
 * Scoping
 * Automatic bracket placement
@@ -160,19 +172,22 @@ function tictac() {
 ---
 ## Quiz
 
-headline: what will the following snippet output?
+### What will the following snippet output?
 
-question: |
-  function pi() {
-    return
-    {
-      pi: 3.14
-    }
+```javascript
+function pi() {
+  return
+  {
+    pi: 3.14
   }
-  console.log(pi())
+}
+console.log(pi())
+```
 
-answers:
-  - 'undefined'
-  - '{pi: 3.14}'
-  - 'SyntaxError'
-  - "{'pi': 3.14}"
+ ???
+
+* undefined
+* [object Object]
+* SyntaxError
+* [object Object]
+

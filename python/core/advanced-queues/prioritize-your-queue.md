@@ -1,4 +1,4 @@
-# Prioritize your `queue`
+---
 author: catalin
 
 levels:
@@ -9,7 +9,6 @@ type: normal
 
 category: how to
 
-parent: a-thread-safe-queue
 
 standards:
   cs.identify-linear-collection-data-structures-usage.2: 10
@@ -17,6 +16,12 @@ standards:
 links:
 
   - '[docs.python.org](https://docs.python.org/2/library/queue.htmt){website}'
+
+parent: a-thread-safe-queue
+
+---
+
+# Prioritize your `queue`
 
 ---
 ## Content
@@ -62,14 +67,6 @@ class Enki(object):
  # output is 100 / 55 / 3
 ```
 
-
----
-## Footnotes
-
-[1: Less than]
-The `__lt__` (less than) method is used to override the functionality of the `<` (less than) operator when comparing `Enki` objects. As it is the case in most languages, `a < b` is the shorthand notation of calling `a.__lt__(b)`.
-
-
 ---
 ## Revision
 
@@ -88,6 +85,12 @@ q = queue.PriorityQueue()
 
 ???
 
-*Queue 3
-*Queue 2
-*Queue 1
+
+* Queue 3
+* Queue 2
+* Queue 1
+
+---
+## Footnotes
+[1: Less than]
+The `__lt__` (less than) method is used to override the functionality of the `<` (less than) operator when comparing `Enki` objects. As it is the case in most languages, `a < b` is the shorthand notation of calling `a.__lt__(b)`.

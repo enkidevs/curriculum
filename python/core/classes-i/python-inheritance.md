@@ -1,4 +1,4 @@
-# Inheritance
+---
 author: mihaiberq
 
 levels:
@@ -9,8 +9,14 @@ type: normal
 
 category: must-know
 
+
 standards:
   py.object-oriented.1: 10
+
+---
+
+# Inheritance
+
 
 ---
 ## Content
@@ -68,6 +74,7 @@ The concept of *inheritance* refers to a child class receiving parent's class
 
 ???
 
+
 * attributes and methods
 * class name and attributes
 * methods
@@ -91,6 +98,7 @@ class Employee(Person):
   ...
 ```
 ???
+
 * C
 * A
 * B

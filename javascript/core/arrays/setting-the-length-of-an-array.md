@@ -1,4 +1,4 @@
-# Setting the length of an array 
+---
 author: pawel
 
 levels:
@@ -14,12 +14,23 @@ type: normal
 category: hack
 
 standards:
+
   js.data-types-structures.3: 10
+
   js.data-types-structures.4: 10
 
 tags:
+
   - workout
+
   - obscura
+
+
+
+
+---
+
+# Setting the length of an array 
 
 ---
 ## Content
@@ -61,10 +72,11 @@ var arr = [1,2,3];
 arr.??? = 2; // arr = [1,2]
 arr.length = 4; //arr = ???
 ```
-*length
-*[1,2,undefined,undefined]
-*size
-*[1,2,undefined,undefined,undefined]
+
+* length
+* [1,2,undefined,undefined]
+* size
+* [1,2,undefined,undefined,undefined]
 
 ---
 ## Revision
@@ -77,7 +89,9 @@ names.length = 4;
 names.length = 0;
 // names = ???
 ```
-*["John","Mary","Tom", undefined]
-*[ ]
-*[undefined,undefined,undefined, undefined]
-*["John","Mary","Tom"]
+
+* ["John","Mary","Tom", undefined]
+* [ ]
+* [undefined,undefined,undefined, undefined]
+* ["John","Mary","Tom"]
+

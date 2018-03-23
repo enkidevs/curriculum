@@ -1,4 +1,4 @@
-# **React** in-line styles
+---
 author: catalin
 
 levels:
@@ -11,12 +11,16 @@ type: normal
 
 category: must-know
 
-parent: custom-proptype-s-to-be-required
 
 links:
 
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/tips/inline-styles.html){website}
+  - '[facebook.github.io](https://facebook.github.io/react/tips/inline-styles.html){website}'
+
+parent: custom-proptype-s-to-be-required
+
+---
+
+# **React** in-line styles
 
 ---
 ## Content
@@ -41,3 +45,4 @@ ReactDOM.render(<div style={divStyle}>
   Hello World!</div>, myNode);
 ```
 The style object can also be created from `state` or `props` of a component!
+

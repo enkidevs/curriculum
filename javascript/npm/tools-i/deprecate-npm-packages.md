@@ -1,4 +1,4 @@
-# Deprecate npm packages
+---
 author: catalin
 
 levels:
@@ -13,12 +13,16 @@ type: normal
 
 category: how to
 
-parent: check-data-about-a-package
 
 links:
 
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/deprecate){website}'
 
+parent: check-data-about-a-package
+
+---
+
+# Deprecate npm packages
 
 ---
 ## Content
@@ -52,6 +56,7 @@ How do you un-deprecate `enki` package?
 $ npm ??? enki ???
 ```
 
+
 * `deprecate`
 * `""`
 * `un-deprecate`
@@ -67,8 +72,10 @@ How do you un-deprecate `enki` package?
 $ npm ??? enki ???
 ```
 
+
 * `deprecate`
 * `""`
 * `un-deprecate`
 * `"un-deprecated Enki`
 * `"any message"`
+

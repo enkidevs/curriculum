@@ -1,4 +1,4 @@
-# Custom exceptions as classes
+---
 author: catalin
 
 levels:
@@ -17,8 +17,12 @@ standards:
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#exceptions-are-classes-too){website}
+  - '[docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#exceptions-are-classes-too){website}'
+
+
+---
+
+# Custom exceptions as classes
 
 ---
 ## Content
@@ -79,6 +83,7 @@ With the help of inheritance, create your custom exception:
    print('Wrong username or password')
 ```
 
+
 * `class`
 * `Exception`
 * `inherit`
@@ -90,6 +95,7 @@ With the help of inheritance, create your custom exception:
 ## Revision
 
 Python's `Exception` class is a ??? class.
+
 
 * `built-in`
 * `sub`

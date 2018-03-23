@@ -1,4 +1,4 @@
-# Java Primitives
+---
 author: mihaiberq
 
 levels:
@@ -7,9 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# Java Primitives
 
 ---
 ## Content
@@ -54,7 +61,9 @@ float myFloat = 3.75f;
 
 The default type of `5.30` is ???
 
+
 * double
 * float
 * int
 * long
+

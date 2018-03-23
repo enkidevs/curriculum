@@ -1,4 +1,4 @@
-# Review of dictionaries
+---
 author: SebaRaba
 
 levels:
@@ -16,7 +16,12 @@ standards:
 
 links:
 
-  - '[More on dictionaries](https://www.digitalocean.com/community/tutorials/understanding-dictionaries-in-python-3)'
+  - '[More on dictionaries](https://www.digitalocean.com/community/tutorials/understanding-dictionaries-in-python-3){website}'
+
+
+---
+
+# Review of dictionaries
 
 ---
 ## Content
@@ -102,6 +107,7 @@ print(weather)
 
 ```
 
+
 * `{}`
 * `weather`
 * `'bucharest'`
@@ -128,6 +134,7 @@ marks['Amber'] = 10
 print(marks.keys())
 ```
 ???
+
 
 * dict_keys(['Amber', 'David'])
 * dict_keys(['David', 'Amber', 'Steve', 'John', 'Amy'])

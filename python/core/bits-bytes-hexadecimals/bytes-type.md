@@ -1,4 +1,4 @@
-# `bytes` type
+---
 author: catalin
 
 levels:
@@ -19,8 +19,12 @@ standards:
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#bytes){website}
+  - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#bytes){website}'
+
+
+---
+
+# `bytes` type
 
 ---
 ## Content
@@ -65,6 +69,7 @@ Complete the output of the command run in the Python interactive shell:
 ???'\???\???'
 ```
 
+
 * `b`
 * `x00`
 * `x01`
@@ -76,6 +81,7 @@ Complete the output of the command run in the Python interactive shell:
 ## Revision
 
 Bytes are ??? sequences of single bits.
+
 
 * `immutable`
 * `mutable`

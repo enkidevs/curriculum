@@ -1,4 +1,4 @@
-# Boolean Operators
+---
 author: tommarshall
 
 levels:
@@ -7,12 +7,18 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+inAlgoPool: false
 
 standards:
   py.native-types-operations.0: 10
+
+
+
+---
+
+# Boolean Operators
 
 ---
 ## Content
@@ -49,6 +55,7 @@ str = 'python'
 if x == 6 ??? str == 'python':
     print ('true')
 ```
+
 * `and`
 * `or`
 * `both`
@@ -66,6 +73,7 @@ str = 'python'
 if x == 6 ??? str == 'python':
     print ('true')
 ```
+
 * `or`
 * `and`
 * `xor`

@@ -1,4 +1,4 @@
-# The Basics of Process Ownership
+---
 author: jfarmer
 
 levels:
@@ -9,9 +9,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# The Basics of Process Ownership
 
 ---
 ## Content
@@ -32,6 +39,8 @@ By default only `root` processes can change ownership in this way.
 Other than the owner of the process, who else has access to it? 
 
 ???
-*The root
-*No one else
-*All other users
+
+* The root
+* No one else
+* All other users
+

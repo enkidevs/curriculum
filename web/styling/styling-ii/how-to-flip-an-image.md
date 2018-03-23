@@ -1,4 +1,4 @@
-# How to flip an image
+---
 author: catalin
 
 levels:
@@ -11,10 +11,15 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/28583629/how-to-make-images-flip-rotate-using-css){website}
+  - '[stackoverflow.com](http://stackoverflow.com/questions/28583629/how-to-make-images-flip-rotate-using-css){website}'
+
+
+---
+
+# How to flip an image
 
 ---
 ## Content
@@ -40,6 +45,7 @@ Which method is used to modify the width of an image?
 
 ???
 
+
 * `scaleX`
 * `scaleW`
 * `width-alter`
@@ -54,6 +60,7 @@ img {
    transform: scaleX(???);
 }
 ```
+
 * -1
 * 1
 * 0
@@ -64,14 +71,17 @@ img {
 ---
 ## Quiz
 
-headline: how will the following line affect an image?
+### how will the following line affect an image?
 
-question: |
-  How does the following line affect an image?
-  img { transform: scaleX(-1); }
+How does the following line affect an image?
 
-answers:
-  - It horizontally flips the image
-  - It vertically flips the image
-  - It rotates the image 180 degrees
-  - The image will look just the same
+```css
+img { transform: scaleX(-1); }
+```
+
+ ???
+
+* It horizontally flips the image
+* It vertically flips the image
+* It rotates the image 180 degrees
+* The image will look just the same

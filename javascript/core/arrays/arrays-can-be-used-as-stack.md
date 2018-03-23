@@ -1,4 +1,4 @@
-# Arrays can be used as stack
+---
 author: Bruno
 
 levels:
@@ -9,17 +9,27 @@ type: normal
 
 category: tip
 
+standards:
+
+  js.data-types-structures.2: 10
+
+  js.data-types-structures.3: 10
+
+tags:
+
+  - introduction
+
+  - workout
+
+
 links:
 
   - '[stackoverflow](http://stackoverflow.com/questions/1590247){discussion}'
 
-standards:
-  js.data-types-structures.2: 10
-  js.data-types-structures.3: 10
 
-tags:
-  - introduction
-  - workout
+---
+
+# Arrays can be used as stack
 
 ---
 ## Content
@@ -51,11 +61,12 @@ s.??? ; // s = [1,2,3]
 s.??? ; // s = [1,2,3,4]
 s.??? ; // s = [1,2,3]
 ```
-*push(3)
-*push(4)
-*pop()
-*pop(4)
-*pop(3)
+
+* push(3)
+* push(4)
+* pop()
+* pop(4)
+* pop(3)
 
 ---
 ## Revision
@@ -67,8 +78,10 @@ s.??? ; // s = [1]
 s.??? ; // s = [1,2]
 s.??? ; // s = [1,2,4]
 ```
-*pop()
-*push(2)
-*push(4)
-*pop(2)
-*pop(4)
+
+* pop()
+* push(2)
+* push(4)
+* pop(2)
+* pop(4)
+

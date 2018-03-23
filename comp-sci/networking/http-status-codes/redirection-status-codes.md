@@ -1,21 +1,27 @@
-# Redirection status codes
+---
 author: SebaRaba
 
 levels:
 
-- beginner
+  - beginner
 
-- basic
+  - basic
 
-- medium
+  - medium
 
-- advanced
+  - advanced
 
 type: normal
 
 category: must-know
 
+
+
 parent: successful-status-codes
+
+---
+
+# Redirection status codes
 
 ---
 ## Content
@@ -41,6 +47,7 @@ Which redirection status code indicates that the resource requested hasn't been 
 
 ???
 
+
 * `304`
 * `303`
 * `306`
@@ -52,7 +59,9 @@ The only two methods for which a browser should redirect the user after receivin
 
 ???
 
+
 * HEAD
 * POST
 * DELETE
 * GET
+

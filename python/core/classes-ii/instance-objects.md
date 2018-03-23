@@ -1,4 +1,4 @@
-# Instance objects
+---
 author: catalin
 
 levels:
@@ -11,15 +11,16 @@ type: normal
 
 category: must-know
 
-notes: Multiple issues. Needs to be rewritten. --> was rewritten
-
 standards:
   py.object-oriented.2: 10
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#instance-objects){website}
+  - '[docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#instance-objects){website}'
+
+---
+
+# Instance objects
 
 ---
 ## Content
@@ -81,6 +82,7 @@ enki = ???;
 ???.???;
 ```
 
+
 * `Enki()`
 * `enki`
 * `printEnki()`
@@ -101,5 +103,6 @@ max = Dog()
 max.age = 3
 ```
 ???
-*Yes
-*No
+
+* Yes
+* No

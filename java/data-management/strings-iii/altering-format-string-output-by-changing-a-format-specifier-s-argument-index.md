@@ -1,4 +1,4 @@
-# Altering format string output by changing a format specifier's `argument_index`
+---
 author: adamMontgomerie
 
 levels:
@@ -13,12 +13,16 @@ tags:
 
   - strings
 
-notes: 'Gamified insight. Static Workout. '
 
 links:
 
-  - >-
-    [docs.oracle.com](http://docs.oracle.com/javase/7/docs/api/java/util/Formatter.html){website}
+  - '[docs.oracle.com](http://docs.oracle.com/javase/7/docs/api/java/util/Formatter.html){website}'
+
+notes: 'Gamified insight. Static Workout. '
+
+---
+
+# Altering format string output by changing a format specifier's `argument_index`
 
 ---
 ## Content
@@ -54,8 +58,10 @@ s = String.Format("%2$s %3$s %1$s",
                    "a","b","c");
 // s = ???
 ```
-*`bca` 
-*`abc` 
-*`aaa` 
-*`cab` 
-*`bac`
+
+* `bca` 
+* `abc` 
+* `aaa` 
+* `cab` 
+* `bac`
+

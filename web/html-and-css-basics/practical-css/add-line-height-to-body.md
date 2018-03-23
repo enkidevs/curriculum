@@ -1,4 +1,4 @@
-# Add `line-height` to `body`
+---
 author: jordanfish
 
 levels:
@@ -11,9 +11,15 @@ type: normal
 
 category: how to
 
+
 links:
 
   - '[github.com](https://github.com/AllThingsSmitty/css-protips){website}'
+
+
+---
+
+# Add `line-height` to `body`
 
 ---
 ## Content
@@ -57,7 +63,9 @@ body {
 
 ???
 
+
 * Sets the font family to Arial Narrow for all elements in the body.
 * Sets the font family to Arial Narrow for all elements outside the body.
 * Sets the font family to Arial Narrow for the first element in the body,
 * It does nothing.
+

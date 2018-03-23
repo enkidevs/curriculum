@@ -1,4 +1,4 @@
-# What Are Environment Variables?
+---
 author: jfarmer
 
 levels:
@@ -9,12 +9,21 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 tags:
+
   - introduction
+
+
+
+
+---
+
+# What Are Environment Variables?
+
 ---
 ## Content
 
@@ -69,8 +78,10 @@ Print the value of the environmental variable `HOME` :
 ```
 $ ??? ???
 ```
-*`echo`
-*`$HOME`
-*`home`
-*`$home`
-*`ls`
+
+* `echo`
+* `$HOME`
+* `home`
+* `$home`
+* `ls`
+

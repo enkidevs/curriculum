@@ -1,4 +1,4 @@
-# Convert lists to dictionaries
+---
 author: SebaRaba
 
 levels:
@@ -14,7 +14,12 @@ standards:
 
 links:
 
-  - '[More about creating dictionaries](https://developmentality.wordpress.com/2012/03/30/three-ways-of-creating-dictionaries-in-python/)'
+  - '[More about creating dictionaries](https://developmentality.wordpress.com/2012/03/30/three-ways-of-creating-dictionaries-in-python/){website}'
+
+
+---
+
+# Convert lists to dictionaries
 
 ---
 ## Content
@@ -88,6 +93,7 @@ print(new)
 ```
 
 
+
 * `dict`
 * `zip`
 * `pop`
@@ -113,6 +119,7 @@ C = ???(???(???,???))
 print(C)
 # {'USA': '28', 'UK': '29', 'SP': '30'}
 ```
+
 
 * `dict`
 * `zip`

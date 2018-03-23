@@ -1,4 +1,4 @@
-# Handling Blobs in SQL
+---
 author: mihaiberq
 
 levels:
@@ -15,9 +15,19 @@ standards:
   sql.choose-sql-datatype.2: 10
 
 tags:
+
   - introduction
+
   - workout
+
   - deep
+
+
+
+
+---
+
+# Handling Blobs in SQL
 
 ---
 ## Content
@@ -49,6 +59,7 @@ VALUES((???
 FROM ???(??? ???,
   SINGLE_BLOB)) ??? data);
 ```
+
 * `INSERT`
 * `INTO`
 * `SELECT *`
@@ -59,6 +70,7 @@ FROM ???(??? ???,
 
 ---
 ## Revision
+
 In SQL Server, insert a BLOB into `image` column:
 ```sql
 ??? ??? sprite(image)
@@ -66,9 +78,11 @@ VALUES((???
 FROM OPENROWSET(??? 'pikachu.jpg',
   ???)) ??? data);
 ```
+
 * `INSERT`
 * `INTO`
 * `SELECT *`
 * `BULK`
 * `SINGLE_BLOB`
 * `AS`
+

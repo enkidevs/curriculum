@@ -1,4 +1,4 @@
-# How to count
+---
 author: catalin
 
 levels:
@@ -11,6 +11,11 @@ type: normal
 
 category: how to
 
+
+links:
+
+  - '[pymotw.com](https://pymotw.com/2/collections/counter.html){website}'
+
 notes: >-
   Insight is correct, But should give a few examples of common counter methods
   like most_common(), elements(), etc.
@@ -19,9 +24,9 @@ standards:
   py.store-manipulate-data.5: 10
   py.modules.0: 10
 
-links:
+---
 
-  - '[pymotw.com](https://pymotw.com/2/collections/counter.html){website}'
+# How to count
 
 ---
 ## Content
@@ -77,10 +82,11 @@ Which method is used to find the most common occurrence in a counter?
 
 ???
 
-*`most_common(n)`
-*`most-common(n)`
-*`common(n)`
-*`common-item(n)`
+
+* `most_common(n)`
+* `most-common(n)`
+* `common(n)`
+* `common-item(n)`
 
 ---
 ## Revision
@@ -92,9 +98,10 @@ e = ???()
 e.???(“enki”)
 ```
 
-*`Counter`
-*`update`
-*`new-counter`
-*`new_counter`
-*`add`
-*`add_counter`
+
+* `Counter`
+* `update`
+* `new-counter`
+* `new_counter`
+* `add`
+* `add_counter`

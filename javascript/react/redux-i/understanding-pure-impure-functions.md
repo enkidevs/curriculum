@@ -1,4 +1,4 @@
-# Understanding **pure/impure** functions
+---
 author: catalin
 
 levels:
@@ -9,10 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [www.nicoespeon.com](http://www.nicoespeon.com/en/2015/01/pure-functions-javascript/){website}
+  - '[www.nicoespeon.com](http://www.nicoespeon.com/en/2015/01/pure-functions-javascript/){website}'
+
+
+---
+
+# Understanding **pure/impure** functions
 
 ---
 ## Content
@@ -46,5 +51,7 @@ What type of functions should be used in **Redux** as to preserve the **single i
 
 ???
 
+
 * pure
 * impure
+

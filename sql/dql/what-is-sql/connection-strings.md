@@ -1,4 +1,4 @@
-# Connection strings
+---
 author: SebaRaba
 
 levels:
@@ -13,7 +13,6 @@ category: must-know
 
 inAlgoPool: false
 
-
 standards:
   sql.connect-client.0: 10
   sql.connect-client.1: 10
@@ -21,13 +20,20 @@ standards:
   sql.connect-client.3: 10
 
 tags:
+
   - introduction
+
   - workout
 
 
 links:
 
-  - '[More on connection strings](http://www.dofactory.com/reference/connection-strings)'
+  - '[More on connection strings](http://www.dofactory.com/reference/connection-strings){website}'
+
+
+---
+
+# Connection strings
 
 ---
 ## Content
@@ -55,8 +61,6 @@ postgres://ashketchum:iwannabetheverybest
 ?ssl=true
 ```
 
-
-
 ---
 ## Practice
 
@@ -69,6 +73,7 @@ Connect to a different `pokemon` database, this one hosted on MySQL. Use the use
 :???
 /???
 ```
+
 
 * `mysql`
 * `gary`
@@ -94,6 +99,7 @@ Connect to a `puppies` database, this one hosted on Postgres. Use the username `
 @???
 :???/???
 ```
+
 
 * `postgres`
 * `spot`

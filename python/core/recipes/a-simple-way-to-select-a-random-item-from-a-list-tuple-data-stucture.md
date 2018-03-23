@@ -1,4 +1,4 @@
-# A simple way to select a random item from a `list/tuple` data structure
+---
 author: Aaron7Sun
 
 levels:
@@ -15,6 +15,10 @@ category: tip
 
 standards:
   py.standard-library-data.0: 10
+
+---
+
+# A simple way to select a random item from a `list/tuple` data structure
 
 ---
 ## Content
@@ -56,6 +60,7 @@ Complete the following code snippet to select a random item from a list/tuple da
 rand_item = ???.???(items)
 ```
 
+
 * `random`
 * `choice`
 * `rand`
@@ -72,6 +77,7 @@ Complete the following code snippet to select 2 random items from a list/tuple d
 ```
 rand_items = ???.???(items, 2)
 ```
+
 
 * `random`
 * `sample`

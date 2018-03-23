@@ -1,4 +1,4 @@
-# The `map` Built-in Function
+---
 author: stefkn
 
 levels:
@@ -13,11 +13,17 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[Functional Programming in Python: built-in functions](https://docs.python.org/3/howto/functional.html#built-in-functions)'
-  - '[map, filter, and reduce](http://www.bogotobogo.com/python/python_fncs_map_filter_reduce.php)'
-  - '[Lambda, filter, reduce and map](http://www.python-course.eu/lambda.php)'
+  - '[Functional Programming in Python: built-in functions](https://docs.python.org/3/howto/functional.html#built-in-functions){website}'
+  - '[map, filter, and reduce](http://www.bogotobogo.com/python/python_fncs_map_filter_reduce.php){website}'
+  - '[Lambda, filter, reduce and map](http://www.python-course.eu/lambda.php){website}'
+
+
+---
+
+# The `map` Built-in Function
 
 ---
 ## Content
@@ -64,6 +70,7 @@ promises = ['learn css', 'learn js',
 promises = ???(???, ???)
 ```
 
+
 * `map`
 * `make_good`
 * `promises`
@@ -87,6 +94,7 @@ print(newscores)
 
 ???
 
+
 * [2, 1, 5, 6]
 * [6, 5, 1, 2]
 * [1, 0, 4, 5, 1, 1, 1, 1]
@@ -94,7 +102,6 @@ print(newscores)
 
 ---
 ## Footnotes
-
 [1:input_list]
 As long as our `input_list` argument given to `map` is of type `iterable`, `map` should work. To check this you can use duck typing or type checking of Abstract Base Classes (ABCs)
 

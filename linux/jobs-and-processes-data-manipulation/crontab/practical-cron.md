@@ -1,4 +1,4 @@
-# Practical `cron`
+---
 author: tuwi.dc
 
 levels:
@@ -23,12 +23,16 @@ tags:
 
   - terminal
 
-notes: ''
 
 links:
 
-  - >-
-    [code.tutsplus.com](http://code.tutsplus.com/tutorials/scheduling-tasks-with-cron-jobs--net-8800){website}
+  - '[code.tutsplus.com](http://code.tutsplus.com/tutorials/scheduling-tasks-with-cron-jobs--net-8800){website}'
+
+notes: ''
+
+---
+
+# Practical `cron`
 
 ---
 ## Content
@@ -81,12 +85,13 @@ Run `myScript.py` every Saturday at 8:00pm and 10:00pm :
 ??? ??? * * 
         ??? myScript.py
 ```
-*`00`
-*`20,22`
-*`6`
-*`00,00`
-*`Saturday`
-*`*`
+
+* `00`
+* `20,22`
+* `6`
+* `00,00`
+* `Saturday`
+* `*`
 
 ---
 ## Revision
@@ -96,16 +101,16 @@ A crontab job’s format is:
 MIN ??? DATE ??? ???
             COMMAND 
 ```
-*`HOUR`
-*`MONTH`
-*`DAY`
-*`YEAR`
-*`SECOND`
-*`WEEK`
+
+* `HOUR`
+* `MONTH`
+* `DAY`
+* `YEAR`
+* `SECOND`
+* `WEEK`
 
 ---
 ## Footnotes
-
 [1:Example]
 `*` in the Minute field means the command is executed every minute
 [2:Example]

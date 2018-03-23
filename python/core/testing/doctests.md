@@ -1,4 +1,4 @@
-# Doctest
+---
 author: SebaRaba
 
 levels:
@@ -17,7 +17,12 @@ standards:
 
 links:
 
-  - '[More on doctests](https://docs.python.org/3/library/doctest.html)'
+  - '[More on doctests](https://docs.python.org/3/library/doctest.html){website}'
+
+
+---
+
+# Doctest
 
 ---
 ## Content
@@ -92,19 +97,18 @@ Test passed.
 ```
 
 ---
-## Footnotes
-
-[1: docstring]
-An object's docstring is defined by including a string constant (documentation) as the first
-statement in the object's definition.
-
-
----
 ## Revision
 
 How does `doctest` find a new test case in the documentation?
 ???
 
+
 * It searches for lines that begin with the interpreter prompt (`>>>`).
 * It searches for any strings in the documentation.
 * It knows that tests begin after an empty line.
+
+---
+## Footnotes
+[1: docstring]
+An object's docstring is defined by including a string constant (documentation) as the first
+statement in the object's definition.

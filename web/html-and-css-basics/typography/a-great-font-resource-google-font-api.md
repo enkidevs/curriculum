@@ -1,4 +1,4 @@
-# A great font resource: Google Font API
+---
 author: koenvanlent
 
 levels:
@@ -19,9 +19,15 @@ tags:
 
   - font-family
 
+
 links:
 
   - '[www.google.com](https://www.google.com/fonts){website}'
+
+
+---
+
+# A great font resource: Google Font API
 
 ---
 ## Content
@@ -59,9 +65,11 @@ Voila, you are done!
 
 Once you've chosen a font, add the ??? to your HTML and the ??? to your element in CSS.
 
+
 * stylesheet link
 * font-family
 * font name
 * Google font database
 * Google font API
 * font description
+

@@ -1,4 +1,4 @@
-# Multiple borders with pseudo elements
+---
 author: catalin
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: hack
 
+
 links:
 
-  - >-
-    [css-tricks.com](https://css-tricks.com/snippets/css/multiple-borders/){website}
+  - '[css-tricks.com](https://css-tricks.com/snippets/css/multiple-borders/){website}'
+
+
+---
+
+# Multiple borders with pseudo elements
 
 ---
 ## Content
@@ -58,9 +63,10 @@ Which pseudo-elements can be used to add extra borders to an element?
 
 ???
 
-*::after and ::before
-*::pre and ::post
-*::prior and ::since
+
+* ::after and ::before
+* ::pre and ::post
+* ::prior and ::since
 
 ---
 ## Revision
@@ -69,7 +75,9 @@ Which two pseudo elements can be used to add more borders to an element?
 
 ???
 
+
 * :after and :before
 * :post and :pre
 * :after and :previous
 * :post and :before
+

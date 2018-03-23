@@ -1,4 +1,4 @@
-# Requiring and Exporting
+---
 author: tommarshall
 
 levels:
@@ -15,10 +15,16 @@ type: normal
 
 category: must-know
 
-parent: what-are-node-modules
 
 links:
-- '[Node Modules](https://www.bennadel.com/blog/2169-where-does-node-js-and-require-look-for-modules.htm)'
+
+  - '[Node Modules](https://www.bennadel.com/blog/2169-where-does-node-js-and-require-look-for-modules.htm){website}'
+
+parent: what-are-node-modules
+
+---
+
+# Requiring and Exporting
 
 ---
 ## Content
@@ -54,6 +60,7 @@ Required and exported!
 Which of the following is included in all JavaScript files by default?
 ???
 
+
 * `module.exports`
 * `module.module`
 * `module.object`
@@ -66,6 +73,8 @@ Complete the code snippet to import `module.js`:
 var mod = ???('./module.js');
 ```
 
+
 * `require`
 * `export`
 * `load`
+

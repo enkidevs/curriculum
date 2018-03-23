@@ -1,4 +1,4 @@
-# Unittest
+---
 author: SebaRaba
 
 levels:
@@ -15,7 +15,12 @@ standards:
 
 links:
 
-  - '[learn more about unit testing](https://docs.python.org/3/library/unittest.html)'
+  - '[learn more about unit testing](https://docs.python.org/3/library/unittest.html){website}'
+
+
+---
+
+# Unittest
 
 ---
 ## Content
@@ -85,12 +90,14 @@ Ran 1 tests in 0.000s
 
 OK
 ```
+
 ---
 ## Practice
 
 `setUp()` method defines instructions/code that will be run
 
 ???
+
 
 * before each test method
 * after each test method
@@ -103,6 +110,7 @@ OK
 `assertTrue()` and `assertFalse()` methods are used to check whether
 
 ???
+
 
 * a condition is met
 * an expected result is met

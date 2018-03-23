@@ -1,4 +1,4 @@
-# Dynamic Typing
+---
 author: catalin
 
 levels:
@@ -10,6 +10,13 @@ levels:
 type: normal
 
 category: must-know
+
+
+
+
+---
+
+# Dynamic Typing
 
 ---
 ## Content

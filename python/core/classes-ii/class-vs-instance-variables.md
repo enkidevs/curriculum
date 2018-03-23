@@ -1,4 +1,4 @@
-# **Class** vs. **Instance** variables
+---
 author: catalin
 
 levels:
@@ -11,8 +11,12 @@ type: normal
 
 category: tip
 
-parent: method-objects
 
+links:
+
+  - '[docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#class-and-instance-variables){website}'
+
+parent: method-objects
 notes: >
   Insight needs to be rewritten. There is overuse of the string Enki (caps and
   small) for different things like class name and class level var. Also, the
@@ -20,14 +24,13 @@ notes: >
   meaningless and will be confusing to at least beginners. Simple values like
   'a' and 'b', or 1 and 2 could be used instead. --> updated.
 
+
 standards:
   py.object-oriented.2: 10
   py.object-oriented.3: 10
+---
 
-links:
-
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#class-and-instance-variables){website}
+# **Class** vs. **Instance** variables
 
 ---
 ## Content
@@ -69,5 +72,6 @@ class Test:
    my_var = ‘enki’
 ```
 
-*`class`
-*`instance`
+
+* `class`
+* `instance`

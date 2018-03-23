@@ -1,4 +1,4 @@
-# Will this work on IE8?
+---
 author: jordanfish
 
 levels:
@@ -12,6 +12,10 @@ levels:
 type: tetris
 
 category: feature
+
+---
+
+# Will this work on IE8?
 
 ---
 ## Content

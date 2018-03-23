@@ -1,4 +1,4 @@
-# Enhance your `tuple`s
+---
 author: catalin
 
 levels:
@@ -13,8 +13,12 @@ type: normal
 
 category: feature
 
-parent: get-more-with-collections
 
+links:
+
+  - '[docs.python.org](https://docs.python.org/3.5/library/collections.html#chainmap-examples-and-recipes){website}'
+
+parent: get-more-with-collections
 notes: >+
   Issues found:
 
@@ -59,10 +63,10 @@ notes: >+
 standards:
   py.native-types-operations.6: 10
 
-links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/collections.html#chainmap-examples-and-recipes){website}
+---
+
+# Enhance your `tuple`s
 
 ---
 ## Content
@@ -115,13 +119,14 @@ print(p.???())
 #             ('b', 5), ('c', 2)])
 ```
 
-*`namedtuple`
-*`_asdict`
-*`named_tuple`
-*`tuple_instance`
-*`new`
-*`asOrderedDict`
-*`asDict`
+
+* `namedtuple`
+* `_asdict`
+* `named_tuple`
+* `tuple_instance`
+* `new`
+* `asOrderedDict`
+* `asDict`
 
 ---
 ## Revision
@@ -136,10 +141,11 @@ print(q)
 # Revision(a=10, b=5, c=2)
 ```
 
-*`namedtuple`
-*`question`
-*`Revision`
-*`print`
-*`named_tuple`
-*`new_named_tuple`
-*`tuple_instance`
+
+* `namedtuple`
+* `question`
+* `Revision`
+* `print`
+* `named_tuple`
+* `new_named_tuple`
+* `tuple_instance`

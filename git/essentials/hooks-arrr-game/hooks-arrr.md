@@ -1,4 +1,4 @@
-# Hooks, arrr?
+---
 author: mihaiberq
 
 levels:
@@ -8,6 +8,10 @@ levels:
 type: fillTheGap
 
 category: feature
+
+---
+
+# Hooks, arrr?
 
 ---
 ## Content

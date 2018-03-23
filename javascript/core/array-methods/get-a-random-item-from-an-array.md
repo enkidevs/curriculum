@@ -1,4 +1,4 @@
-# Get a random item from an Array
+---
 author: AlexYancey
 
 levels:
@@ -12,11 +12,20 @@ type: normal
 category: how to
 
 standards:
+
   js.data-types-structures.2: 10
+
   js.data-types-structures.3: 10
+
   js.functions.4: 10
 
+
+
 notes: ''
+
+---
+
+# Get a random item from an Array
 
 ---
 ## Content
@@ -56,9 +65,10 @@ Math.???(Math.random()*
 console.log("the random fruit is"
   +fruits[index]);
 ```
-*floor
-*ceil
-*wall
+
+* floor
+* ceil
+* wall
 
 ---
 ## Revision
@@ -79,6 +89,8 @@ console.log("the random fruit is"
   +fruits[index]);
 ```
 
-*floor
-*ceil
-*wall
+
+* floor
+* ceil
+* wall
+

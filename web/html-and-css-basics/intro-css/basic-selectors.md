@@ -1,4 +1,4 @@
-# Type Selectors
+---
 author: mihaiberq
 
 levels:
@@ -7,14 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [learn.shayhowe.com](http://learn.shayhowe.com/html-css/getting-to-know-css/#combining-selectors){website}
+  - '[learn.shayhowe.com](http://learn.shayhowe.com/html-css/getting-to-know-css/#combining-selectors){website}'
+
+
+---
+
+# Type Selectors
 
 ---
 ## Content
@@ -65,6 +70,7 @@ When applied to an HTML page such as:
 </body>
 ```
 Will set the `font-size` of all `<p>` elements to `20px`. Therefore, the `Hello, Enki` paragraph will also have a size of `20px`.
+
 ---
 ## Revision
 
@@ -72,6 +78,8 @@ The `div` selector targets
 
 ???
 
+
 * all `div` elements
 * all `div` elements within a class
 * all elements with class `div`
+

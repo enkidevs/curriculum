@@ -1,4 +1,4 @@
-# Solving basic merge conflicts
+---
 author: rosielowther
 
 levels:
@@ -8,6 +8,13 @@ levels:
 type: normal
 
 category: must-know
+
+
+
+
+---
+
+# Solving basic merge conflicts
 
 ---
 ## Content
@@ -50,6 +57,7 @@ console.log(b);
 
 $ git ??? testing.js
 ```
+
 * `merge`
 * `add`
 * `rm`
@@ -62,8 +70,10 @@ How do you mark a merge conflict as resolved?
 ```
 $ git ???
 ```
+
 * `add`
 * `merge`
 * `rm`
 * `branch`
 * `commit`
+

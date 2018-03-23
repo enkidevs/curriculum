@@ -1,4 +1,4 @@
-# Your own Python `calendar`
+---
 author: catalin
 
 levels:
@@ -11,6 +11,11 @@ type: normal
 
 category: how to
 
+
+links:
+
+  - '[docs.python.org](https://docs.python.org/3.5/library/calendar.html){website}'
+
 notes: |
   Added:
 
@@ -22,10 +27,10 @@ notes: |
 standards:
   py.native-types-operations.8: 10
 
-links:
+---
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/calendar.html){website}
+
+# Your own Python `calendar`
 
 ---
 ## Content
@@ -83,11 +88,12 @@ Set the first day of the week of your `calendar` to be Monday:
 calendar.??? \
   (calendar.MONDAY)
 ```
-*`setfirstweekday`
-*`setweekday`
-*`setfirstday`
-*`firstweekday`
-*`firstday`
+
+* `setfirstweekday`
+* `setweekday`
+* `setfirstday`
+* `firstweekday`
+* `firstday`
 
 ---
 ## Revision
@@ -99,7 +105,8 @@ import calendar
 print(calendar.???(2016))
 ```
 
-*`calendar`
-*`year`
-*`currentYear`
-*`annum`
+
+* `calendar`
+* `year`
+* `currentYear`
+* `annum`

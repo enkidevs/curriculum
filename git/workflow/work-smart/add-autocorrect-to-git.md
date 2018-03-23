@@ -1,4 +1,4 @@
-# Add autocorrect to git
+---
 author: rosielowther
 
 levels:
@@ -9,10 +9,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration){website}'
+
+
+---
+
+# Add autocorrect to git
 
 ---
 ## Content
@@ -46,7 +51,9 @@ You can enable autocorrect using :
 $ git config --global
           ???.???
 ```
+
 * `help`
 * `autocorrect`
 * `git`
 * `-ac`
+

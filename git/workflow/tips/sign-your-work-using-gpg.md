@@ -1,4 +1,4 @@
-# Sign your work (using GPG)
+---
 author: rosielowther
 
 levels:
@@ -13,12 +13,16 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work){website}
-
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work){website}'
   - '[mikegerwitz.com](https://mikegerwitz.com/papers/git-horror-story){website}'
+
+
+---
+
+# Sign your work (using GPG)
 
 ---
 ## Content
@@ -57,10 +61,11 @@ $ git add .
 $ git commit ??? ???
                “commit signed”
 ```
-*`user.signingkey`
-*`-S`
-*`-m`
-*`-s`
+
+* `user.signingkey`
+* `-S`
+* `-m`
+* `-s`
 
 ---
 ## Revision
@@ -69,6 +74,8 @@ $ git commit ??? ???
 $ gpg --gen-key
 ```
 Generates a ??? used to sign ??? .
-*key
-*commits
-*password
+
+* key
+* commits
+* password
+

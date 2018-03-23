@@ -1,4 +1,4 @@
-# Types - Introduction
+---
 author: alexjmackey
 
 levels:
@@ -7,16 +7,26 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 standards:
+
   js.evaluate-expressions.10: 10
 
 tags:
+
   - introduction
+
   - workout
+
+
+
+
+---
+
+# Types - Introduction
 
 ---
 ## Content
@@ -58,7 +68,9 @@ Which one of the following is **not** a primitive type:
 
 ???
 
-*RegExp
-*Symbol
-*String
-*Number
+
+* RegExp
+* Symbol
+* String
+* Number
+

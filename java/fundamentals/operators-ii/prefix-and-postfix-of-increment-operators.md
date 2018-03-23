@@ -1,4 +1,4 @@
-# Prefix and postfix of increment operators
+---
 author: pawel
 
 levels:
@@ -13,7 +13,13 @@ type: normal
 
 category: tip
 
+
+
 notes: ''
+
+---
+
+# Prefix and postfix of increment operators
 
 ---
 ## Content
@@ -47,6 +53,7 @@ i = i + 1;
 int j = i;
 ```
 ???
+
 * `int j = ++i`
 * `int j = i++`
 * `int j = i + 1`
@@ -61,6 +68,7 @@ int b = a++;
 System.out.print(b);
 // ???
 ```
+
 * 0
 * 1
 * 2
@@ -69,17 +77,20 @@ System.out.print(b);
 ---
 ## Quiz
 
-headline: what is the difference between prefix and postfix increment operators?
+### what is the difference between prefix and postfix increment operators?
 
-question: |
-  // What is the output?
-  int a = 0;
-  int b = a++;
-  int c = ++b;
-  System.out.println(b + " and " + c);
+What is the output?
 
-answers:
-  - 1 and 1
-  - 1 and 2
-  - 2 and 1
-  - 0 and 1
+```java
+int a = 0;
+int b = a++;
+int c = ++b;
+System.out.println(b + " and " + c);
+```
+
+ ???
+
+* 1 and 1
+* 1 and 2
+* 2 and 1
+* 0 and 1

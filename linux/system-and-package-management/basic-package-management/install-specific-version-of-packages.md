@@ -1,4 +1,4 @@
-# Install specific version of packages
+---
 author: tuwi.dc
 
 levels:
@@ -31,7 +31,13 @@ tags:
 
   - debian
 
+
+
 notes: ''
+
+---
+
+# Install specific version of packages
 
 ---
 ## Content
@@ -72,6 +78,8 @@ $ apt-get install firefox=46.0
 ## Revision
 
 `apt-cache showpkg <package_name>`  would work on ??? systems.
-*Debian
-*RPM
-*BSD
+
+* Debian
+* RPM
+* BSD
+

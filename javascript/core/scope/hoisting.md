@@ -1,4 +1,4 @@
-# Hoisting
+---
 author: AlexYancey
 
 levels:
@@ -14,32 +14,40 @@ type: normal
 category: feature
 
 standards:
-  js.functions: 10
-  js.execution-context: 10
+  js.functions.5: 10
 
 tags:
+
   - introduction
+
   - workout
+
+
 
 notes: ''
 
 ---
-## Content
- 
-Think fast, what does this snippet print?
 
+# Hoisting
+
+---
+## Content
+
+Think fast, what does this snippet print?
+```javascript
     var a = 1;
     function go(){
         console.log(a);
         var a = 2;
     }
     go();
+```
 
 If you thought the answer was `1`, you are incorrect!
 
 ` > undefined`
 
-One quirk of JavaScript is *hoisting*. 
+One quirk of JavaScript is *hoisting*.
 
 This default behaviour moves all variable declarations to the top of the current scope.
 
@@ -77,11 +85,12 @@ function calc() {
 calc();
 ```
 
-*`run: undefined, calc: 1` 
-*`run: 1, calc: 1` 
-*`run: 4, calc: 1` 
-*`run: 4, calc: 4` 
-*`run: undefined, calc: undefined`
+
+* `run: undefined, calc: 1`
+* `run: 1, calc: 1`
+* `run: 4, calc: 1`
+* `run: 4, calc: 4`
+* `run: undefined, calc: undefined`
 
 ---
 ## Revision
@@ -93,9 +102,10 @@ function go(){
     console.log(a);
     var a = 2;
 }
-go(); 
+go();
 // ???
 ```
-*`undefined`
-*`1`
-*`2`
+
+* `undefined`
+* `1`
+* `2`

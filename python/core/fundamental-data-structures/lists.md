@@ -1,4 +1,4 @@
-# Lists
+---
 author: tommarshall
 
 levels:
@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+inAlgoPool: false
 
 standards:
   py.native-types-operations.4: 10
+
+---
+
+# Lists
 
 ---
 ## Content
@@ -57,9 +61,10 @@ newList = []
 newList.???(5)
 ```
 
-*`append`
-*`add`
-*`push`
+
+* `append`
+* `add`
+* `push`
 
 ---
 ## Revision
@@ -73,9 +78,10 @@ newList.append(2)
 ???(newList???)
 ```
 
-*`print`
-*`[0]`
-*`{0}`
-*`view`
-*`append`
-*`(0)`
+
+* `print`
+* `[0]`
+* `{0}`
+* `view`
+* `append`
+* `(0)`

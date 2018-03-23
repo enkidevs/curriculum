@@ -1,4 +1,4 @@
-# Python's Garbage Collector
+---
 author: mihaiberq
 
 levels:
@@ -11,6 +11,10 @@ category: must-know
 
 standards:
   py.store-manipulate-data.6: 10
+
+---
+
+# Python's Garbage Collector
 
 ---
 ## Content
@@ -50,13 +54,13 @@ Memory management in Python involves a private heap containing all Python object
 
 CPython's[1] virtual machine keeps a counter for each of objects used by the current running Python program and automatically garbage collects them when there are no more references to it. The formal name for this garbage collection algorithm is **reference counting**.
 
-
 ---
 ## Revision
 
 In Python, the garbage collector is run by
 
 ???
+
 
 * the virtual machine
 * the user
@@ -65,7 +69,6 @@ In Python, the garbage collector is run by
 
 ---
 ## Footnotes
-
 [1: CPython]
 CPython is the default implementation of the Python's language, written in C and the one most of you are probably using nonetheless (as long as you run your Python REPL with the `python` command).
 

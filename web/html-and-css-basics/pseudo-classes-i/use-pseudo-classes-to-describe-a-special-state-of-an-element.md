@@ -1,4 +1,4 @@
-# Use pseudo-classes to describe a special state of an element
+---
 author: priyankinirmal
 
 levels:
@@ -17,12 +17,16 @@ tags:
 
   - links
 
+
 links:
 
-  - >-
-    [www.sitepoint.com](http://www.sitepoint.com/web-foundations/pseudo-classes/){website}
-
+  - '[www.sitepoint.com](http://www.sitepoint.com/web-foundations/pseudo-classes/){website}'
   - '[Code example](http://codepen.io/mihaiberq/pen/wzGvWq){website}'
+
+
+---
+
+# Use pseudo-classes to describe a special state of an element
 
 ---
 ## Content
@@ -46,7 +50,7 @@ a:active  { /* selected link */
   color: red;
 }   
 ```
-If defined in a different order (other than *LVHA*), there's a big chance they will override one another. 
+If defined in a different order (other than *LVHA*), there's a big chance they will override one another.
 
 ---
 ## Practice
@@ -55,18 +59,21 @@ What symbol must a pseudo-class be preceded by?
 
 ???
 
-*`:`
-*`;`
-*`+`
-*`=`
-*`::`
+
+* `:`
+* `;`
+* `+`
+* `=`
+* `::`
 
 ---
 ## Revision
 
 What is the common order of psuedo-classes used for links?
 ??? ??? ??? ???
+
 * ps:link {
 * ps:visited {
 * ps:hover {
 * ps:active {
+

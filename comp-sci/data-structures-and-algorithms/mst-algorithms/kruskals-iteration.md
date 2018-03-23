@@ -1,18 +1,28 @@
-# Kruskal's Algorithm Iteration
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
+
 parent: kruskals-algorithm
+
+---
+
+# Kruskal's Algorithm Iteration
+
 ---
 ## Content
 
@@ -55,6 +65,7 @@ Is the following graph a valid one on which to apply Kruskal's algorithm?
 ???
 ```
 
+
 * No
 * Yes
 
@@ -65,7 +76,9 @@ In order for the Kruskal's algorithm to work, the graph should be
 
 ???.
 
+
 * weighted
 * directed
 * acyclic
 * disconnected
+

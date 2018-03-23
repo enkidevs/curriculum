@@ -1,4 +1,4 @@
-# The difference between null, undefined and NaN
+---
 author: rosielowther
 
 levels:
@@ -12,12 +12,23 @@ type: normal
 category: must-know
 
 standards:
+
   js.identify-syntax.2: 10
+
   js.evaluate-expressions.10: 10
 
 tags:
+
   - introduction
+
   - workout
+
+
+
+
+---
+
+# The difference between null, undefined and NaN
 
 ---
 ## Content
@@ -56,9 +67,10 @@ function foo(num){
 }
 console.log(foo("sum"));
 ```    
-*NaN
-*undefined
-*null
+
+* NaN
+* undefined
+* null
 
 ---
 ## Revision
@@ -70,6 +82,8 @@ console.log(x);
 // ???
 ```
 
-*`NaN`
-*`undefined`
-*`null`
+
+* `NaN`
+* `undefined`
+* `null`
+

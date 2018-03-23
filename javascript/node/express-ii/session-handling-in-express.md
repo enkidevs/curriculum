@@ -1,4 +1,4 @@
-# Session handling in **Express**
+---
 author: catalin
 
 levels:
@@ -11,14 +11,17 @@ type: normal
 
 category: how to
 
-parent: easy-way-to-deliver-html-pages-with-express
 
 links:
 
-  - >-
-    [codeforgeek.com](https://codeforgeek.com/2014/10/express-complete-tutorial-part-4/){website}
-
+  - '[codeforgeek.com](https://codeforgeek.com/2014/10/express-complete-tutorial-part-4/){website}'
   - '[github.com](https://github.com/expressjs/session){website}'
+
+parent: easy-way-to-deliver-html-pages-with-express
+
+---
+
+# Session handling in **Express**
 
 ---
 ## Content
@@ -58,6 +61,7 @@ app.???('/', function(req, ???) {
    sess = ???.session;
 }
 ```
+
 * get
 * res
 * req
@@ -80,9 +84,11 @@ app.get('/', function(req,res) {
 
 }
 ```
+
 * `req`
 * `session`
 * `res`
 * `sess`
 * `mySession`
 * `request`
+
