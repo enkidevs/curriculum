@@ -27,7 +27,7 @@ Do you know how to manipulate Strings in ES6?
 
 ```
 /* Make this
-code print 'Hello Mary Sue!'*/
+code print 'Hello Mary Sue!' */
 var firstName = 'Mary';
 var surname = 'Sue';
 console.log(`Hello ???!`);
