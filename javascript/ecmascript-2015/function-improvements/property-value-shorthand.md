@@ -1,4 +1,4 @@
-# Property Value Shorthand
+---
 author: alexjmackey
 
 levels:
@@ -7,15 +7,21 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[benmvp.com](http://www.benmvp.com/learning-es6-enhanced-object-literals/){website}'
-  
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer){website}'
+
+
+---
+
+# Property Value Shorthand
+
 ---
 ## Content
 
@@ -47,3 +53,4 @@ test(); //{ name: "enki" }
 ```
 
 Note an exception will be thrown at run time if you  specify a value that doesn’t exist in your return object.
+

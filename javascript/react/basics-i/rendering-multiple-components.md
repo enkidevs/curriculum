@@ -1,4 +1,4 @@
-# Rendering multiple components
+---
 author: catalin
 
 levels:
@@ -15,11 +15,16 @@ type: normal
 
 category: must-know
 
-parent: component-lifecycle-methods
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/lists-and-keys.html)'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/lists-and-keys.html){website}'
+
+parent: component-lifecycle-methods
+
+---
+
+# Rendering multiple components
 
 ---
 ## Content
@@ -77,6 +82,7 @@ function Test(props) {
 }
 ```
 
+
 * `props.input`
 * `map`
 * `h2`
@@ -94,8 +100,10 @@ What is the name of the **identity attribute** that must be included when creati
 
 ???
 
+
 * `key`
 * `index`
 * `i`
 * `identity`
 * `ref`
+

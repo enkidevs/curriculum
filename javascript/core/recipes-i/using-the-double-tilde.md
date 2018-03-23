@@ -1,4 +1,4 @@
-# Using the double tilde `~~`
+---
 author: pawel
 
 levels:
@@ -14,12 +14,23 @@ type: normal
 category: hack
 
 standards:
+
   js.write-expressions.0: 10
+
   js.evaluate-expressions.3: 10
+
   js.data-types-structures.1: 10
 
 tags:
+
   - double-tilde
+
+
+
+
+---
+
+# Using the double tilde `~~`
 
 ---
 ## Content
@@ -51,6 +62,7 @@ console.log(~~"-1.92"); // ???
 console.log(~~{}); // ???
 ```
 
+
 * 15
 * 7
 * -1
@@ -74,8 +86,10 @@ console.log( ~~"56.78" ); // ???
 console.log( ~~"Sunny" ); // ???
 ```
 
-*12
-*56
-*0
-*NaN
-*”56”
+
+* 12
+* 56
+* 0
+* NaN
+* ”56”
+

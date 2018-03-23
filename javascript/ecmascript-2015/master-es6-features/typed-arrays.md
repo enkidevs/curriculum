@@ -1,4 +1,4 @@
-# Typed Arrays
+---
 author: nene
 
 levels:
@@ -9,11 +9,16 @@ type: normal
 
 category: how to
 
+
 links:
 
   - '[msdn.microsoft.com](https://msdn.microsoft.com/en-us/library/br212485(v=vs.94).aspx){website}'
-  
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray){website}'
+
+
+---
+
+# Typed Arrays
 
 ---
 ## Content
@@ -44,7 +49,9 @@ What are **Typed Arrays** made of ?
 
 ???
 
-*`buffers and views`
-*`views and streams`
-*`arrays and buffers`
-*`iterators and arrays`
+
+* `buffers and views`
+* `views and streams`
+* `arrays and buffers`
+* `iterators and arrays`
+

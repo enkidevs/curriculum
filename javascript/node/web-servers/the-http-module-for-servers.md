@@ -1,4 +1,4 @@
-# The `http` module for servers
+---
 author: tommarshall
 
 levels:
@@ -15,10 +15,16 @@ type: normal
 
 category: must-know
 
-parent: requiring-and-exporting
 
 links:
-- '[The HTTP Module](https://davidwalsh.name/nodejs-http-request)'
+
+  - '[The HTTP Module](https://davidwalsh.name/nodejs-http-request){website}'
+
+parent: requiring-and-exporting
+
+---
+
+# The `http` module for servers
 
 ---
 ## Content
@@ -63,6 +69,7 @@ server.listen(8000, function() {
 What type of function needs to be defined to respond to all server requests?
 ???
 
+
 * handler
 * named
 * anonymous
@@ -76,6 +83,8 @@ Complete the code snippet to create a new HTTP server object:
 var server = http.???(requestHandler);
 ```
 
+
 * `createServer`
 * `httpServer`
 * `createHTTP`
+

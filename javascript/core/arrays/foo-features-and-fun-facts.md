@@ -1,4 +1,4 @@
-# Foo, features and fun facts
+---
 author: jordanfish
 
 levels:
@@ -21,6 +21,10 @@ standards:
   js.evaluate-expressions.7: 1000
   js.evaluate-expressions.8: 1000
   js.evaluate-expressions.9: 1000
+
+---
+
+# Foo, features and fun facts
 
 ---
 ## Content

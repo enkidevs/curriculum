@@ -1,4 +1,4 @@
-# Tail call optimisation in ES6
+---
 author: rosielowther
 
 levels:
@@ -13,11 +13,16 @@ type: normal
 
 category: feature
 
+
 links:
 
   - '[www.2ality.com](http://www.2ality.com/2015/06/tail-call-optimization.html){website}'
-
   - '[github.com](https://github.com/lukehoban/es6features#arrows){website}'
+
+
+---
+
+# Tail call optimisation in ES6
 
 ---
 ## Content
@@ -56,6 +61,7 @@ Which function in the following JS code snippet is in the *tail position*? ???
 const env = () => foo() && test();
 ```
 
+
 * `test()`
 * `foo()`
 * `env`
@@ -68,5 +74,7 @@ When does the ES6 **tail call optimisation** work?
 
 ???
 
-*in strict mode
-*in non-strict mode
+
+* in strict mode
+* in non-strict mode
+

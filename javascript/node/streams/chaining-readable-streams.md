@@ -1,4 +1,4 @@
-# Chaining Readable Streams
+---
 author: tommarshall
 
 levels:
@@ -15,11 +15,16 @@ type: normal
 
 category: must-know
 
-parent: piping-readable-streams
 
 links:
 
-  - '[Chaining](http://www.naeemrana.com/node-js/node-js-streams-pipe-and-chaining/)'
+  - '[Chaining](http://www.naeemrana.com/node-js/node-js-streams-pipe-and-chaining/){website}'
+
+parent: piping-readable-streams
+
+---
+
+# Chaining Readable Streams
 
 ---
 ## Content
@@ -51,6 +56,7 @@ fs.createReadStream('in.txt')
 
 ```
 
+
 * `pipe`
 * `chain`
 * `stream`
@@ -65,6 +71,8 @@ Which function is used to chain streams together?
 
 ???
 
+
 * `pipe()`
 * `new-pipe()`
 * `chain()`
+

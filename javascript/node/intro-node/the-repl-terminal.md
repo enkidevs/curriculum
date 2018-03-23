@@ -1,4 +1,4 @@
-# The REPL Terminal
+---
 author: tommarshall
 
 levels:
@@ -9,11 +9,16 @@ type: normal
 
 category: must-know
 
-parent: installing-node-js
 
 links:
-- '[tutorialsteacher.com](http://www.tutorialsteacher.com/nodejs/nodejs-console-repl)'
 
+  - '[tutorialsteacher.com](http://www.tutorialsteacher.com/nodejs/nodejs-console-repl){website}'
+
+parent: installing-node-js
+
+---
+
+# The REPL Terminal
 
 ---
 ## Content
@@ -54,6 +59,7 @@ What does the following return?
 ```
 ???
 
+
 * `20`
 * `26`
 * `-10`
@@ -64,6 +70,8 @@ What does the following return?
 What does REPL stand for?
 ???
 
+
 * Read, Eval, Print, Loop
 * Read, Equal, Process, Loop
 * Reiterate, Else, Print, Loop
+

@@ -1,4 +1,4 @@
-# Installing Node.js
+---
 author: tommarshall
 
 levels:
@@ -7,14 +7,20 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+links:
+
+  - '[nodejs.org](https://nodejs.org/en/){website}'
 
 parent: what-is-nodejs
 
-links:
-- '[nodejs.org](https://nodejs.org/en/)'
+---
+
+# Installing Node.js
 
 ---
 ## Content
@@ -30,8 +36,10 @@ You should see a `>` appearing under the `node` command. This means your install
 
 ---
 ## Practice
+
 Which of the following is not an Integrated Development Environment?
 ???
+
 
 * Atom
 * Webstorm
@@ -43,6 +51,8 @@ Which of the following is not an Integrated Development Environment?
 What command is required to start Node?
 ???
 
+
 * `node`
 * `run`
 * `start`
+

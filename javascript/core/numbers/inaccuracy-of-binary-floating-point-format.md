@@ -1,4 +1,4 @@
-# Inaccuracy of binary floating-point format
+---
 author: catalin
 
 levels:
@@ -12,9 +12,19 @@ type: normal
 category: caveats
 
 standards:
+
   js.data-types-structures.0: 10
+
   js.standard-library.2: 10
+
   js.evaluate-expressions.1: 10
+
+
+
+
+---
+
+# Inaccuracy of binary floating-point format
 
 ---
 ## Content
@@ -47,6 +57,7 @@ The output of the following snippet is ???
 ```
 console.log((1.3 + 2.3) == 3.6);
 ```
+
 * false
 * true
 
@@ -55,22 +66,25 @@ console.log((1.3 + 2.3) == 3.6);
 
 Instead of comparing two floating numbers, the best way to avoid *inaccuracies* is to ??? the numbers and compare the result to ???.
 
+
 * substract
 * third expected value
 * sum
 
 ---
 ## Quiz
+### what is 0.1 + 0.2?
 
-headline: what is 0.1 + 0.2?
+What will be the value of x?
 
-question: |
-  // What will be the value of x?
-  var x = 0.2 + 0.1;
-  console.log(x);
+```javascript
+var x = 0.2 + 0.1;
+console.log(x);
+```
 
-answers:
-  - 0.30000000000000004
-  - 0.3
-  - 0.2999999999999999
-  - NaN
+ ???
+
+* 0.30000000000000004
+* 0.3
+* 0.2999999999999999
+* NaN

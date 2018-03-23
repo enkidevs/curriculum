@@ -1,4 +1,4 @@
-# Introducing Proxy
+---
 author: alexjmackey
 
 levels:
@@ -9,14 +9,20 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
+
 links:
-  
+
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy){website}'
-  
+
+
+---
+
+# Introducing Proxy
+
 ---
 ## Content
 
@@ -69,3 +75,4 @@ set: function(obj, prop, value) {
  }
 }}
 ```
+

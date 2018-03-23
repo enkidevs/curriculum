@@ -1,4 +1,4 @@
-# Node and `sudo`
+---
 author: catalin
 
 levels:
@@ -11,14 +11,18 @@ type: normal
 
 category: caveats
 
+
+links:
+
+  - '[stackoverflow.com](http://stackoverflow.com/questions/6109089/how-do-i-run-node-js-on-port-80){website}'
+
 notes: >-
   This insights is also based on security - should be on a security workout I
   guess.
 
-links:
+---
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/6109089/how-do-i-run-node-js-on-port-80){website}
+# Node and `sudo`
 
 ---
 ## Content
@@ -48,5 +52,7 @@ Is running **Node** with `sudo` considered a safe practice?
 
 ???
 
-*`no`
-*`yes`
+
+* `no`
+* `yes`
+

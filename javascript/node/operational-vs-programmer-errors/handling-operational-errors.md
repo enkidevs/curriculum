@@ -1,9 +1,12 @@
-# Handling Operational Errors
+---
 author: mihaiberq
 
 levels:
+
   - beginner
+
   - basic
+
   - medium
 
 type: normal
@@ -11,11 +14,20 @@ type: normal
 category: how to
 
 tags:
+
   - introduction
+
   - workout
 
+
 links:
-  - '[Node JS and Errors](https://www.joyent.com/node-js/production/design/errors)'
+
+  - '[Node JS and Errors](https://www.joyent.com/node-js/production/design/errors){website}'
+
+
+---
+
+# Handling Operational Errors
 
 ---
 ## Content
@@ -84,15 +96,19 @@ main();
 
 ???
 
+
 * No error shown, only the message `reject_example`.
 * An exception with the message `throw_example`.
 * An exception with the message `reject_example`.
 * No error shown, only the message `throw_example`.
+
 ---
 ## Revision
 
 For correctness and consistency, when writing an asynchronous function, errors raised should be ???
 
+
 * returned
 * thrown
 * discarded
+

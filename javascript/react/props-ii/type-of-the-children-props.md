@@ -1,4 +1,4 @@
-# Type of the Children props
+---
 author: tommarshall
 
 levels:
@@ -13,16 +13,20 @@ type: normal
 
 category: tip
 
-parent: custom-proptype-s-to-be-required
-
 tags:
 
-  - ''
+  - 
+
 
 links:
 
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/tips/children-props-type.html){website}
+  - '[facebook.github.io](https://facebook.github.io/react/tips/children-props-type.html){website}'
+
+parent: custom-proptype-s-to-be-required
+
+---
+
+# Type of the Children props
 
 ---
 ## Content
@@ -59,3 +63,4 @@ ReactDOM.render(
 );
 
 ```
+

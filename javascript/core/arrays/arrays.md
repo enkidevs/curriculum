@@ -1,4 +1,4 @@
-# Arrays
+---
 author: alexjmackey
 
 levels:
@@ -7,17 +7,28 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 standards:
+
   js.data-types-structures.2: 10
+
   js.data-types-structures.3: 10
 
 tags:
+
   - introduction
+
   - workout
+
+
+
+
+---
+
+# Arrays
 
 ---
 ## Content
@@ -79,6 +90,7 @@ How would you get the last value in the `myArray` array?
 var myLength = myArray.???
 var last = ???[??? ???];
 ```
+
 * `length`
 * `myArray`
 * `myLength`
@@ -99,6 +111,7 @@ var enkiArray = [1, 2, 3];
 var firstElement = ??????;
 ```
 
+
 * `enkiArray`
 * `[0]`
 * `[1]`
@@ -110,15 +123,16 @@ var firstElement = ??????;
 
 ---
 ## Quiz
+### what is the length of the array below?
 
-headline: what is the length of the array below?
+```javascript
+let arr = [,,,]
+console.log(arr.length)
+```
 
-question: |
-  let arr = [,,,]
-  console.log(arr.length)
+ ???
 
-answers:
-  - 3
-  - 4
-  - 0
-  - 1
+* 3
+* 4
+* 0
+* 1

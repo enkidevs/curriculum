@@ -1,4 +1,4 @@
-# Easy way to deliver **HTML** pages with **Express**
+---
 author: catalin
 
 levels:
@@ -11,12 +11,16 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - >-
-    [node-tricks.com](http://node-tricks.com/express-js-deliver-html-files-1/){website}
-
+  - '[node-tricks.com](http://node-tricks.com/express-js-deliver-html-files-1/){website}'
   - '[github.com](https://github.com/expressjs/serve-static){website}'
+
+
+---
+
+# Easy way to deliver **HTML** pages with **Express**
 
 ---
 ## Content
@@ -57,6 +61,7 @@ Require the requisite module used to deliver  HTML pages:
 var ??? = require('???');
 ```
 
+
 * `serveStatic`
 * `serve-static`
 * `expressHTML`
@@ -71,8 +76,10 @@ var ??? = require('???');
 
 What express module can be used to easily deliver HTML pages?
 ???
-*`serve-static`
-*`express-html`
-*`easy-html`
-*`static-express`
-*`node-html`
+
+* `serve-static`
+* `express-html`
+* `easy-html`
+* `static-express`
+* `node-html`
+

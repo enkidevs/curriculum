@@ -1,4 +1,4 @@
-# `response` object additional properties in **Express**
+---
 author: catalin
 
 levels:
@@ -13,11 +13,16 @@ type: normal
 
 category: must-know
 
-parent: easy-way-to-deliver-html-pages-with-express
 
 links:
 
   - '[node-tricks.com](http://node-tricks.com/response-object/){website}'
+
+parent: easy-way-to-deliver-html-pages-with-express
+
+---
+
+# `response` object additional properties in **Express**
 
 ---
 ## Content
@@ -65,12 +70,14 @@ var myJson; // equal to json we want to send
 res.???(???, ???);
 ```
 
-*`json`
-*`status`
-*`myJson`
-*`send`
-*`format`
-*`render`
-*`cookie`
-*`toJSON`
-*`sendJSON`
+
+* `json`
+* `status`
+* `myJson`
+* `send`
+* `format`
+* `render`
+* `cookie`
+* `toJSON`
+* `sendJSON`
+

@@ -1,4 +1,4 @@
-# Why use symbols?
+---
 author: alexjmackey
 
 levels:
@@ -9,13 +9,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){website}'
+
+
+---
+
+# Why use symbols?
 
 ---
 ## Content
@@ -45,3 +51,4 @@ const anotherDiscountLevel="high";
 ```
 
 Probably Symbols most important purpose is to introduce non-breaking changes to JavaScript let's talk about this next.
+

@@ -1,4 +1,4 @@
-# Meaning of polyfill
+---
 author: pawel
 
 levels:
@@ -14,9 +14,19 @@ type: normal
 category: tip
 
 tags:
+
   - deep
+
   - workout
+
   - polyfill
+
+
+
+
+---
+
+# Meaning of polyfill
 
 ---
 ## Content
@@ -44,6 +54,7 @@ if (!String.prototype.startsWith) {
 
 A polyfill provides... ???
 
+
 * technology that a developer expects the browser to provide natively.
 * new features.
 * all HTML tags.
@@ -55,6 +66,8 @@ A polyfill is a downloadable code that provides
 
 ??? .
 
-*support for older browsers
-*new features
-*all HTML tags
+
+* support for older browsers
+* new features
+* all HTML tags
+

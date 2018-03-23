@@ -1,4 +1,4 @@
-# Ecmascript Time Travel
+---
 author: Mathieu
 
 levels:
@@ -12,6 +12,10 @@ levels:
 type: fillTheGap
 
 category: tip
+
+---
+
+# Ecmascript Time Travel
 
 ---
 ## Content

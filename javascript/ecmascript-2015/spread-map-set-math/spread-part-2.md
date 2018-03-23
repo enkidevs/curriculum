@@ -1,4 +1,4 @@
-# Spread (Part 2)
+---
 author: alexjmackey
 
 levels:
@@ -7,16 +7,21 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[ponyfoo.com](https://ponyfoo.com/articles/es6-spread-and-butter-in-depth){website}'
-  
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Spread_operator){website}'
-  
+
+
+---
+
+# Spread (Part 2)
+
 ---
 ## Content
 
@@ -40,3 +45,4 @@ Or add on the end of an existing array:
 original.push(...copyOfOriginal);
 //[1, 2, 3, 1, 2, 3]
 ```
+

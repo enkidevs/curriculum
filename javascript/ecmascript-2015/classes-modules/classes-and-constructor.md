@@ -1,4 +1,4 @@
-# Classes and Constructor
+---
 author: alexjmackey
 
 levels:
@@ -9,6 +9,10 @@ levels:
 
 type: normal
 
+category: feature
+
+inAlgoPool: false
+
 tags:
 
   - es6
@@ -17,15 +21,16 @@ tags:
 
   - oop
 
-inAlgoPool: false
-
-category: feature
 
 links:
 
   - '[MDN - Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes){webstie}'
-  
   - '[MDN - Constructors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor){website}'
+
+
+---
+
+# Classes and Constructor
 
 ---
 ## Content
@@ -63,3 +68,4 @@ class Person {
 var p = new Person("Enki");
 p.name; //Enki
 ```
+

@@ -1,4 +1,4 @@
-# Geolocation
+---
 author: tommarshall
 
 levels:
@@ -13,9 +13,15 @@ type: normal
 
 category: feature
 
+
 links:
 
   - '[www.sitepoint.com](http://www.sitepoint.com/html5-geolocation/){website}'
+
+
+---
+
+# Geolocation
 
 ---
 ## Content
@@ -59,9 +65,11 @@ Complete the following JS code snippet to allow use of the Geolocation API allow
 ???.geolocation.???(
 ```
 
+
 * `navigator`
 * `watchPosition`
 * `device`
 * `permission`
 * `position`
 * `detect`
+

@@ -1,4 +1,4 @@
-# Asynchronous File Write/Read in Node.js
+---
 author: catalin
 
 levels:
@@ -11,10 +11,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [nodejs.org](https://nodejs.org/api/fs.html#fs_fs_readfile_file_options_callback){website}
+  - '[nodejs.org](https://nodejs.org/api/fs.html#fs_fs_readfile_file_options_callback){website}'
+
+
+---
+
+# Asynchronous File Write/Read in Node.js
 
 ---
 ## Content
@@ -51,6 +56,8 @@ What type of methods are recommended to be used for file writing/reading so that
 
 ???
 
-*`1`
-*`2`
-*`3`
+
+* `1`
+* `2`
+* `3`
+

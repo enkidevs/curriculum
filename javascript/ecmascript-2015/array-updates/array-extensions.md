@@ -1,4 +1,4 @@
-# Array Extensions
+---
 author: alexjmackey
 
 levels:
@@ -7,9 +7,9 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+inAlgoPool: false
 
 tags:
 
@@ -21,9 +21,15 @@ tags:
 
   - iterators
 
-links: 
+
+links:
 
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/values){website}'
+
+
+---
+
+# Array Extensions
 
 ---
 ## Content
@@ -57,3 +63,4 @@ iEntries.next();
 iEntries.next();
 //{value: undefined, done: true}
 ```
+

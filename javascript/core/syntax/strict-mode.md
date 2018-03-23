@@ -1,4 +1,4 @@
-# Strict Mode
+---
 author: alexjmackey
 
 levels:
@@ -7,22 +7,29 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 standards:
+
   js.javascript-syntax.2: 10
 
 tags:
+
   - introduction
+
   - obscura
+
 
 links:
 
-  - >-
-    [Mozilla Developer
-    Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode){website}
+  - '[Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode){website}'
+
+
+---
+
+# Strict Mode
 
 ---
 ## Content
@@ -56,15 +63,16 @@ How do you enable **strict mode** in EcmaScript 5?
 ```
 "??? ???";
 ```
-*`use`
-*`strict`
-*`mode`
-*`str`
-*`let`
-*`var`
-*`strict-mode`
-*`enable`
-*`on`
+
+* `use`
+* `strict`
+* `mode`
+* `str`
+* `let`
+* `var`
+* `strict-mode`
+* `enable`
+* `on`
 
 ---
 ## Revision
@@ -74,12 +82,14 @@ How do you enable **strict mode** in EcmaScript 5?
 ```
 "??? ???";
 ```
-*`use`
-*`strict`
-*`mode`
-*`str`
-*`let`
-*`var`
-*`strict-mode`
-*`enable`
-*`on`
+
+* `use`
+* `strict`
+* `mode`
+* `str`
+* `let`
+* `var`
+* `strict-mode`
+* `enable`
+* `on`
+

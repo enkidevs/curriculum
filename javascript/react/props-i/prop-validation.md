@@ -1,4 +1,4 @@
-# `props` Validation
+---
 author: catalin
 
 levels:
@@ -15,12 +15,16 @@ type: normal
 
 category: best practice
 
-parent: destructuring-arguments
 
 links:
 
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#react.proptypes){website}
+  - '[facebook.github.io](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#react.proptypes){website}'
+
+parent: destructuring-arguments
+
+---
+
+# `props` Validation
 
 ---
 ## Content
@@ -67,6 +71,7 @@ Test.propTypes = {
 };
 ```
 
+
 * `PropTypes`
 * `func`
 * `object`
@@ -91,6 +96,7 @@ Test.propTypes = {
 };
 ```
 
+
 * `PropTypes`
 * `func`
 * `object`
@@ -101,3 +107,4 @@ Test.propTypes = {
 * `method`
 * `Props`
 * `Primitives`
+

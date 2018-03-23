@@ -1,4 +1,4 @@
-# Consuming events
+---
 author: tommarshall
 
 levels:
@@ -15,11 +15,16 @@ type: normal
 
 category: must-know
 
-parent: module-patterns
 
 links:
 
-  - '[Node Events](https://nodesource.com/blog/understanding-the-nodejs-event-loop/)'
+  - '[Node Events](https://nodesource.com/blog/understanding-the-nodejs-event-loop/){website}'
+
+parent: module-patterns
+
+---
+
+# Consuming events
 
 ---
 ## Content
@@ -68,6 +73,7 @@ system.file.???(
   function(fileID, initials) {}
 )
 ```
+
 * `on`
 * `edit`
 * `event`
@@ -80,6 +86,8 @@ system.file.???(
 Which method is called when an event occurs to trigger the callback function?
 ???
 
+
 * `.on`
 * `.event`
 * `.start`
+

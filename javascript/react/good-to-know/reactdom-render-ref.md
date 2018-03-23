@@ -1,4 +1,4 @@
-# `ReactDOM.render` ref
+---
 author: catalin
 
 levels:
@@ -13,12 +13,16 @@ type: normal
 
 category: must-know
 
-parent: custom-proptype-s-to-be-required
 
 links:
 
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/docs/more-about-refs.html#the-ref-returned-from-reactdom.render){website}
+  - '[facebook.github.io](https://facebook.github.io/react/docs/more-about-refs.html#the-ref-returned-from-reactdom.render){website}'
+
+parent: custom-proptype-s-to-be-required
+
+---
+
+# `ReactDOM.render` ref
 
 ---
 ## Content
@@ -49,5 +53,7 @@ What method will return a `ref` to a component?
 
 ???
 
+
 * `ReactDOM.render()`
 * `render()`
+

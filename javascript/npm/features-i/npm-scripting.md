@@ -1,18 +1,27 @@
-# Npm Scripting
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: how to
 
+
+
 parent: how-npm3-handles-dependencies
+
+---
+
+# Npm Scripting
 
 ---
 ## Content
@@ -67,7 +76,9 @@ The `npm run` command is an abbreviation for:
 ```
 ???
 ```
+
 * `npm run-script`
 * `npm run-scripts`
 * `npm run-test`
 * `npm install --script`
+

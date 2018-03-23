@@ -1,4 +1,4 @@
-# Context in JavaScript
+---
 author: rosielowther
 
 levels:
@@ -14,16 +14,21 @@ type: normal
 category: must-know
 
 standards:
+
   js.execution-context.4: 10
+
   js.execution-context.3: 10
+
 
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Window){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Window){website}'
+  - '[ryanmorr.com](http://ryanmorr.com/understanding-scope-and-context-in-javascript/){website}'
 
-  - >-
-    [ryanmorr.com](http://ryanmorr.com/understanding-scope-and-context-in-javascript/){website}
+
+---
+
+# Context in JavaScript
 
 ---
 ## Content
@@ -45,6 +50,7 @@ You can use `bind()` to avoid confusion by specifying the `this` to use when cal
 
 What will the context default to when executing a function in strict mode? ???
 
+
 * undefined
 * this
 * Window
@@ -59,10 +65,12 @@ What represent the **context** of a function in Javascript?
 
 ???
 
-*this
-*undefined
-*Window
-*navigator
-*history
-*bind
-*new
+
+* this
+* undefined
+* Window
+* navigator
+* history
+* bind
+* new
+

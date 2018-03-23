@@ -1,4 +1,4 @@
-# FileReader.readAsArrayBuffer()
+---
 author: tommarshall
 
 levels:
@@ -15,15 +15,18 @@ category: must-know
 
 tags:
 
-  - ''
+  - 
+
 
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsArrayBuffer){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsArrayBuffer){website}'
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays){website}'
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays){website}
+
+---
+
+# FileReader.readAsArrayBuffer()
 
 ---
 ## Content
@@ -58,6 +61,7 @@ var reader = new ???();
 reader.???(file);
 ```
 
+
 * FileReader
 * readAsArrayBuffer
 * fReader
@@ -65,3 +69,4 @@ reader.???(file);
 * read
 * interpret
 * readAsArray
+

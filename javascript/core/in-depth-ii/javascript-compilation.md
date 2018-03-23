@@ -1,4 +1,4 @@
-# JavaScript compilation
+---
 author: rosielowther
 
 levels:
@@ -14,15 +14,29 @@ type: normal
 category: feature
 
 standards:
+
   js.functions.1: 10
+
   js.functions.5: 10
+
   js.functions.6: 10
+
   js.execution-context.4: 10
 
 tags:
+
   - deep
+
   - workout
+
   - obscura
+
+
+
+
+---
+
+# JavaScript compilation
 
 ---
 ## Content
@@ -69,6 +83,7 @@ function test() {
 }
 ```
 
+
 * global
 * test
 * test2
@@ -91,7 +106,9 @@ function foo(){ // foo is in global
   }
 }
 ```
-*global
-*foo
-*fee
-*local
+
+* global
+* foo
+* fee
+* local
+

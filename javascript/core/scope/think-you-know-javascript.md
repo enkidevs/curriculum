@@ -1,4 +1,4 @@
-# Think you know Javascript?
+---
 author: jordanfish
 
 levels:
@@ -17,6 +17,10 @@ standards:
   js.functions.5: 1000
 
 notes: ''
+
+---
+
+# Think you know Javascript?
 
 ---
 ## Content
