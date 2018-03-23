@@ -26,6 +26,7 @@ links:
   - '[video tutorial on UPDATE mysql](https://www.youtube.com/watch?v=_lIot7sbTSo){video}'
 
 ---
+
 # SQL Practice Update
 
 ---
