@@ -9,6 +9,8 @@ levels:
 
   - medium
 
+  - advanced
+
 type: tetris
 
 category: tip
