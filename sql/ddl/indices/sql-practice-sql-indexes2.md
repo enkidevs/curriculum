@@ -15,7 +15,7 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/
+link: http://sqlfiddle.com/#!9/9eecb/23059
 
 answer: BTREE
 

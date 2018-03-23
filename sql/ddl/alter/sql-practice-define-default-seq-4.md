@@ -15,9 +15,7 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/
-
-answer: PRIMARY
+link: http://sqlfiddle.com/#!9/a3e1d
 
 standards:
   sql.define-sequences-or-default-values.1: 1000
@@ -33,5 +31,5 @@ links:
 ---        
 ## Exercise
 
-Add primary key to `requests` table.
-In order to check your results write your `DDL` query, build the schema and run the provided DQL query. Then write in the answer field the `Key_name` indicated in the result.
+Add a primary key to each table.
+In order to check your results write your `DDL` query, build the schema and run the provided DQL query. Then, create an auto incrementing sequence for each primary key.
