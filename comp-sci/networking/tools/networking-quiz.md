@@ -7,6 +7,8 @@ levels:
 
   - basic
 
+  - medium
+
 type: fillTheGap
 
 category: must-know
