@@ -51,14 +51,7 @@ print(True == (not True))
 ```
 ???
 
-<<<<<<< HEAD
-*False
-*True
-*Error
-=======
 
 * False
 * True
 * Error
-
->>>>>>> master
