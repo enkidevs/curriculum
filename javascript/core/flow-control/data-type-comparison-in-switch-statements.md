@@ -36,7 +36,7 @@ links:
 
 The `==` operator does not care for types. Therefore, the following `if` condition will pass:
 
-```js
+```javascript
 var test = 5;
 if (test == '5'){
   console.log('Ay caramba');  
@@ -44,7 +44,7 @@ if (test == '5'){
 // Ay caramba
 ```
 Instead, the `===` operator won't do any type conversion and the `if` condition will be evaluated to `false`:
-```js
+```javascript
 if (test === '5') {
   console.log('Ay caramba');
 } else {
@@ -53,7 +53,7 @@ if (test === '5') {
 // Expected
 ```
 Keep in mind that **JavaScript** uses **strict comparison** for `switch` statements:
-```js
+```javascript
 var test = 5;
 switch (test) {
   case '5':
@@ -67,7 +67,7 @@ Therefore, the code snippet above won't `log` anything.
 ## Practice
 
 Complete the following code snippet such that `A` is logged to the `console`:
-```js
+```javascript
 var x = 1;
 switch (???) {
   ??? ???:

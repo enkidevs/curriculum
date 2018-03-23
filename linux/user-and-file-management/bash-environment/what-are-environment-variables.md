@@ -1,4 +1,4 @@
-# What Are Environment Variables?
+---
 author: jfarmer
 
 levels:
@@ -9,12 +9,21 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 tags:
+
   - introduction
+
+
+
+
+---
+
+# What Are Environment Variables?
+
 ---
 ## Content
 
@@ -34,7 +43,7 @@ On Linux and other Unix-based operating systems, common environment variables in
 
 Use the `env` command to see a list of all current environment variables:
 
-```console
+```shell
 $ env
 USER=jesse
 HOME=/home/jesse
@@ -45,7 +54,7 @@ $
 
 Here the `USER` environment variable has a value of `jesse` while the `HOME` environment variable has a value of `/home/jesse`.  You can use the `echo` command to display the value of a single environment variable:
 
-```console
+```shell
 $ echo $HOME
 /home/jesse
 $
@@ -54,7 +63,7 @@ $
 When referencing the value of a given environment variable you must prefix the name with a `$`.  Compare `echo $HOME` to the following:
 
 
-```console
+```shell
 $ echo HOME
 HOME
 $
@@ -69,8 +78,10 @@ Print the value of the environmental variable `HOME` :
 ```
 $ ??? ???
 ```
-*`echo`
-*`$HOME`
-*`home`
-*`$home`
-*`ls`
+
+* `echo`
+* `$HOME`
+* `home`
+* `$home`
+* `ls`
+

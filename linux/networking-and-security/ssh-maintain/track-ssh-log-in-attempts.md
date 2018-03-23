@@ -1,4 +1,4 @@
-# Track SSH log-in attempts
+---
 author: tuwi.dc
 
 levels:
@@ -22,6 +22,13 @@ tags:
   - bruteforce
 
   - debian
+
+
+
+
+---
+
+# Track SSH log-in attempts
 
 ---
 ## Content
@@ -61,7 +68,9 @@ $ journalctl _COMM=sshd
 `/log/auth.log` can be used to track 
 
 ??? .
-*failed log in attempts
-*packets received
-*packets sent
-*passwords used to log in
+
+* failed log in attempts
+* packets received
+* packets sent
+* passwords used to log in
+

@@ -45,7 +45,7 @@ If `currObj` is not supplied, the `currObj` is set to the global object.
 
 Creating a function to call returning a string of the object and arguments:
 
-```JavaScript
+```javascript
 function callObject(arg1, arg2) {
   var str;
   str += "Object: " + this + ". ";
@@ -59,7 +59,7 @@ function callObject(arg1, arg2) {
 
 Calling the function using the call method:
 
-```JavaScript
+```javascript
 callObject.call(2, 4, 6);
 ```
 

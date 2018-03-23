@@ -1,4 +1,4 @@
-# Using `Printstream.format` to format a string before printing
+---
 author: adamMontgomerie
 
 levels:
@@ -15,10 +15,15 @@ tags:
 
   - formatting
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/numberformat.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/numberformat.html){website}'
+
+
+---
+
+# Using `Printstream.format` to format a string before printing
 
 ---
 ## Content
@@ -50,13 +55,14 @@ System.out.???("The value"+
   "of x is: ??? ", ???);
     
 ```
-*`format` 
-*`%d` 
-*`x` 
-*`print` 
-*`%i` 
-*`%x` 
-*`printFormat`
+
+* `format` 
+* `%d` 
+* `x` 
+* `print` 
+* `%i` 
+* `%x` 
+* `printFormat`
 
 ---
 ## Revision
@@ -65,8 +71,10 @@ Using `System.out.format` , what specifier is used to print `float` s?
 
 ???
 
-*`%f` 
-*`%d` 
-*`%float` 
-*`%decimal` 
-*`%s`
+
+* `%f` 
+* `%d` 
+* `%float` 
+* `%decimal` 
+* `%s`
+

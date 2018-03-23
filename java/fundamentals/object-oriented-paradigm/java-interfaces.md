@@ -1,4 +1,4 @@
-# Java Interfaces
+---
 author: mihaiberq
 
 levels:
@@ -7,15 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [How interfaces impact the
-    code](http://stackoverflow.com/questions/504904/is-there-more-to-an-interface-than-having-the-correct-methods){website}
+  - '[How interfaces impact the code](http://stackoverflow.com/questions/504904/is-there-more-to-an-interface-than-having-the-correct-methods){website}'
+
+
+---
+
+# Java Interfaces
 
 ---
 ## Content
@@ -86,10 +90,11 @@ Which of the following lines of code is not valid?
 ```
 ???
 
-*4
-*1
-*2
-*3
+
+* 4
+* 1
+* 2
+* 3
 
 ---
 ## Revision
@@ -106,7 +111,9 @@ public class FamilyCar implements Car{
    ...
 }
 ```
-*`interface`
-*`//nothing`
-*`class`
-*`System.out.println("The car starts!");
+
+* `interface`
+* `//nothing`
+* `class`
+* `System.out.println("The car starts!");
+

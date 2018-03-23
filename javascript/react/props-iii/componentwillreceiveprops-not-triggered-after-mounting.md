@@ -32,7 +32,7 @@ parent: custom-proptype-s-to-be-required
 
 It handles the logic of comparing with the old props, then acting upon any changes. It doesn't trigger at mounting as there are no old props and this helps define what the methods does.
 
-```JavaScript
+```javascript
 var testingComponent = React.createClass({
   getDefaultProps() {
     return {

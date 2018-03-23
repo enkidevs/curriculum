@@ -57,7 +57,7 @@ But why is it important to know which types in Python are immutable or mutable? 
 
 For example, consider the following code snippet:
 
-```Python
+```python
 string = ""
 for line in file:
     string += str(line)
@@ -67,7 +67,7 @@ In this case, while the code will execute and perform the functionality correctl
 
 With the knowledge of which data types are mutable, you can choose a better data type to carry out the above operation, increasing efficiency for this case:
 
-```Python
+```python
 list = [] # List is mutable!
 for line in file:
     list.append(str(line))

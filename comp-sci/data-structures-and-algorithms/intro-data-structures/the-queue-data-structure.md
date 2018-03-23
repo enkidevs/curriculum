@@ -1,4 +1,4 @@
-# The Queue Data Structure
+---
 author: mihaiberq
 
 levels:
@@ -9,7 +9,14 @@ type: normal
 
 category: must-know
 
+
+
 parent: the-stack-data-structure
+
+---
+
+# The Queue Data Structure
+
 ---
 ## Content
 
@@ -48,6 +55,7 @@ Q.enqueue(4)
 Q.size()        ???
 Q.dequeue()     ???
 ```
+
 * `null`
 * `2`
 * `3`
@@ -63,7 +71,9 @@ The working principle behind a queue is
 
 ???
 
+
 * FIFO
 * LIFO
 * SASS
 * OOP
+

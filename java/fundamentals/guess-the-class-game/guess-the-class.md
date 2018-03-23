@@ -1,4 +1,4 @@
-# Guess the class
+---
 author: catalin
 
 levels:
@@ -14,6 +14,10 @@ levels:
 type: fillTheGap
 
 category: tip
+
+---
+
+# Guess the class
 
 ---
 ## Content

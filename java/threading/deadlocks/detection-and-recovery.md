@@ -1,4 +1,4 @@
-# Detection and Recovery
+---
 author: Nick Daminov
 
 levels:
@@ -9,9 +9,15 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - '[More on Detection and Recovery](http://ecomputernotes.com/database-system/rdbms/deadlock-detect-and-recover)'
+  - '[More on Detection and Recovery](http://ecomputernotes.com/database-system/rdbms/deadlock-detect-and-recover){website}'
+
+
+---
+
+# Detection and Recovery
 
 ---
 ## Content
@@ -33,6 +39,8 @@ What is the key to resolving a deadlock once it occurred?
 
 ???
 
+
 * Break the cycle of process-resource dependency
 * Kill all processes in the system
 * Roll the system back to a boot state
+

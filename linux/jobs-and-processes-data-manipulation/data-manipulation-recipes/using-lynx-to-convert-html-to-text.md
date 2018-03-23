@@ -1,4 +1,4 @@
-# Using `lynx` to convert HTML to text
+---
 author: tuwi.dc
 
 levels:
@@ -26,6 +26,13 @@ tags:
   - html
 
   - strip
+
+
+
+
+---
+
+# Using `lynx` to convert HTML to text
 
 ---
 ## Content
@@ -70,11 +77,12 @@ Strip `index.html` file of tags using `lynx` :
 $ ??? ??? 
         ??? < index.html
 ```
-*`lynx`
-*`-dump`
-*`-stdin`
-*`-input`
-*`stdout`
+
+* `lynx`
+* `-dump`
+* `-stdin`
+* `-input`
+* `stdout`
 
 ---
 ## Revision
@@ -84,8 +92,10 @@ You can dump the text from a html file to shell by using:
 $ cat index.html | 
      ??? ??? ???
 ```
-*`lynx`
-*`-dump`
-*`-stdin`
-*`dump`
-*`-stdout`
+
+* `lynx`
+* `-dump`
+* `-stdin`
+* `dump`
+* `-stdout`
+

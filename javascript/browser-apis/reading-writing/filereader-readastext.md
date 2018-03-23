@@ -28,11 +28,11 @@ The `readAsText()` method is used to read text files. It takes two parameters, t
 
 
 Creating a new instance of File Reader.
-```JavaScript
+```javascript
 var reader = new FileReader();
 ```
 Reading the text file. 
-```Javascript
+```javascript
 reader.onload = function(e) {
   var text = reader.result;
 }

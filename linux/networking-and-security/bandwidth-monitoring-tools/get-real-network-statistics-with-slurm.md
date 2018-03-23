@@ -1,4 +1,4 @@
-# Get real network statistics with `slurm`
+---
 author: tuwi.dc
 
 levels:
@@ -28,6 +28,13 @@ tags:
   - slurm
 
   - statistics
+
+
+
+
+---
+
+# Get real network statistics with `slurm`
 
 ---
 ## Content
@@ -76,7 +83,9 @@ Errors on Transmission: 0
 `slurm` is used as a
 
 ??? .
-*measurement tool for internet speed
-*energy drink
-*measurement tool for cpu usage
-*measurement tool for users access to a server
+
+* measurement tool for internet speed
+* energy drink
+* measurement tool for cpu usage
+* measurement tool for users access to a server
+

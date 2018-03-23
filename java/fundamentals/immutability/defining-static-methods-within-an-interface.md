@@ -1,4 +1,4 @@
-# Defining `static` methods within an `interface`
+---
 author: adamMontgomerie
 
 levels:
@@ -19,10 +19,15 @@ tags:
 
   - static-methods
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html){website}'
+
+
+---
+
+# Defining `static` methods within an `interface`
 
 ---
 ## Content
@@ -56,14 +61,15 @@ public ??? EnkiInterface {
  }
 }
 ```
-*`interface` 
-*`static` 
-*`int` 
-*`long` 
-*`Interface` 
-*`Class` 
-*`long` 
-*`void`
+
+* `interface` 
+* `static` 
+* `int` 
+* `long` 
+* `Interface` 
+* `Class` 
+* `long` 
+* `void`
 
 ---
 ## Revision
@@ -72,5 +78,7 @@ Can `static` methods inside an interface be overridden?
 
 `???`
 
-*`No` 
-*`Yes`
+
+* `No` 
+* `Yes`
+

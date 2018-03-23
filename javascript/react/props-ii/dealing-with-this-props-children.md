@@ -28,7 +28,7 @@ parent: custom-proptype-s-to-be-required
 **React** provides the user with the useful class `React.Children` which provides various utilities for dealing with the opaque data structure `this.props.children`.
 
 `map` invokes a function on every immediate child within `children`, returning an array:
-```javasript
+```javascript
 array React.Children.map(object children,
   function fn[, object thisArg]);
 ```

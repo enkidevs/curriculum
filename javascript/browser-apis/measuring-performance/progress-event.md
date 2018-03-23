@@ -29,16 +29,16 @@ links:
 The *`ProgressEvent`* interface is used to represent events which measure the progress of underlying processes taking place in the API. For example, an HTTP request or loading an underlying resource such as *<img>*.
 
 *ProgressEvent Properties:*
-```JavaScript
+```javascript
 ProgressEvent.lengthComputable;```
 Is a boolean flag returning whether the progress made on the work to be completed is measurable. 
 
-```JavaScript
+```javascript
 ProgressEvent.loaded;```
 
 Is an unsigned long showing the amount of work already done by the underlying process.
 
-```JavaScript
+```javascript
 ProgressEvent.total;```
 
 Is an unsigned long showing the amount of work the underlying process is currently performing.
@@ -46,7 +46,7 @@ Is an unsigned long showing the amount of work the underlying process is current
 
 
 A usage example, measuring the progress of an *`XMLHttpRequest`*. 
-```javaScript
+```javascript
 // progress on transfers - server to client 
 function updateProgress (oEvent) {
   if (oEvent.lengthComputable) {

@@ -1,4 +1,4 @@
-# `Math` vs `StrictMath` in java
+---
 author: pawel
 
 levels:
@@ -13,14 +13,18 @@ category: feature
 
 tags:
 
-  - ''
+  - 
 
-notes: ''
 
 links:
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/4232231/whats-the-difference-between-java-lang-math-and-java-lang-strictmath){website}
+  - '[stackoverflow.com](http://stackoverflow.com/questions/4232231/whats-the-difference-between-java-lang-math-and-java-lang-strictmath){website}'
+
+notes: ''
+
+---
+
+# `Math` vs `StrictMath` in java
 
 ---
 ## Content
@@ -36,8 +40,9 @@ If portability is intended what java class is more reliable?
 
 `???`
 
-*`StrictMath` 
-*`Math`
+
+* `StrictMath` 
+* `Math`
 
 ---
 ## Revision
@@ -46,5 +51,7 @@ What java class related to mathematics have its function not defined to return t
 
 `???`
 
-*`Math` 
-*`StrictMath`
+
+* `Math` 
+* `StrictMath`
+

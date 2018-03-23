@@ -1,4 +1,4 @@
-# Custom colour options
+---
 author: rosielowther
 
 levels:
@@ -9,10 +9,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration){website}'
+
+
+---
+
+# Custom colour options
 
 ---
 ## Content
@@ -36,6 +41,7 @@ Change the colour for `diff.meta` to be *blue* foreground, *black* background an
 $ git ??? ???
       ??? ???
 ```
+
 * `config`
 * `--global`
 * `color.diff.meta`
@@ -46,6 +52,8 @@ $ git ??? ???
 ## Revision
 
 A customisable `color.` option is ??? .
+
 * interactive.
 * git.
-* sources. 
+* sources.
+

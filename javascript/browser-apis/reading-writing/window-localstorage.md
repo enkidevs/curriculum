@@ -27,18 +27,18 @@ links:
 *`localStorage`* is a storage object used to store data in without an expiry date. A local storage object can be accessed to add (store), access, and remove data. Data stored in *`localStorage`* will remain there once the current browsing session ends and the browser has been closed.
 
 To create an item in local storage, pass in the item key and the item value:
-```JavaScript
+```javascript
 localStorage.setItem('country', 'England');
 ``` 
 
 Retrieving data from local storage:
-```JavaScript
+```javascript
 var localData =   
     localStorage.getItem("country");
 console.log(localData); // prints 'England'
 ```
 Removing an item and clearing all data from local storage:
-```JavaScript
+```javascript
 localStorage.removeItem('country');
 localStorage.clear();
 ```

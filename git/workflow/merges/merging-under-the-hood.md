@@ -1,4 +1,4 @@
-# Merging under the hood
+---
 author: catalin
 
 levels:
@@ -9,10 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [www.atlassian.com](https://www.atlassian.com/git/tutorials/using-branches/git-merge){website}
+  - '[www.atlassian.com](https://www.atlassian.com/git/tutorials/using-branches/git-merge){website}'
+
+
+---
+
+# Merging under the hood
 
 ---
 ## Content
@@ -45,8 +50,10 @@ When both branches modify the same part of the same file, conflicts are explicit
 What flag can be used such that fast-forward merge is not used even if its possible?
 ???
 
-*`--no-ff`
-*`-n`
-*`-n-ff`
-*`ff-n`
-*`--twm`
+
+* `--no-ff`
+* `-n`
+* `-n-ff`
+* `ff-n`
+* `--twm`
+

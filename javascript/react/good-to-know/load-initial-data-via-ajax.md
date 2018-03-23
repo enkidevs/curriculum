@@ -31,7 +31,7 @@ Data is typically fetched in the  `componentDidMount` lifecycle method. When the
 
 If processing an asynchronous request response, ensure the component is still mounted prior to updating its state. This can be done by tracking mount and unmount within the component, and checking it hasn't been unmounted before calling `setState`:
 
-```JavaScript
+```javascript
 var loadData = React.createClass({
  componentDidMount() {
     this.mounted = true;   

@@ -1,4 +1,4 @@
-# Trigonometry using the `Math` class
+---
 author: adamMontgomerie
 
 levels:
@@ -19,10 +19,15 @@ tags:
 
   - utility-classes
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/beyondmath.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/beyondmath.html){website}'
+
+
+---
+
+# Trigonometry using the `Math` class
 
 ---
 ## Content
@@ -41,3 +46,4 @@ System.out.format(
 );
 
 ```
+

@@ -1,4 +1,4 @@
-# Java 8 Lambda expressions
+---
 author: alex
 
 levels:
@@ -15,10 +15,15 @@ tags:
 
   - fact
 
+
 links:
 
-  - >-
-    [www.oracle.com](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/Lambda-QuickStart/index.html){website}
+  - '[www.oracle.com](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/Lambda-QuickStart/index.html){website}'
+
+
+---
+
+# Java 8 Lambda expressions
 
 ---
 ## Content
@@ -58,11 +63,12 @@ Create a runnable with the help of lambda expressions:
 Runnable myRunnable = ??? ??? 
    System.out.println(“my runnable”);
 ```
-*`()` 
-*`->` 
-*`<-` 
-*`=>` 
-*`{}`
+
+* `()` 
+* `->` 
+* `<-` 
+* `=>` 
+* `{}`
 
 ---
 ## Revision
@@ -71,7 +77,9 @@ What token is specific to Lambda expressions?
 
 `???`
 
-*`->` 
-*`<-` 
-*`()` 
-*`=>`
+
+* `->` 
+* `<-` 
+* `()` 
+* `=>`
+

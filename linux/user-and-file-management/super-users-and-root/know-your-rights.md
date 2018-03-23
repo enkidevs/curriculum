@@ -1,4 +1,4 @@
-# Know your rights!
+---
 author: mihaiberq
 
 levels:
@@ -12,6 +12,9 @@ levels:
 type: fillTheGap
 
 category: tip
+---
+
+# Know your rights!
 
 ---
 ## Content

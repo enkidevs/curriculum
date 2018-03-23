@@ -1,4 +1,4 @@
-# Using aliases for git commands
+---
 author: rosielowther
 
 levels:
@@ -13,9 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
   - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Git-Aliases){website}'
+
+
+---
+
+# Using aliases for git commands
 
 ---
 ## Content
@@ -45,6 +51,7 @@ Create an alias `pr` for the command:
 $ git ??? ??? ???
     'log --pretty=format:"%h:%an'
 ```
+
 * `config`
 * `--global`
 * `alias.pr`
@@ -61,7 +68,9 @@ Which command can now be used to create an annotated tag?
 $ git config --global alias.ta 'tag -a'
 $ git ???
 ```
+
 * `ta`
 * `alias.ta`
 * `tag`
 * `--global`
+

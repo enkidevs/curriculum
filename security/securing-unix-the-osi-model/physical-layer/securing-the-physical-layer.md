@@ -1,4 +1,4 @@
-# Securing the Physical Layer
+---
 author: milesflo
 
 levels:
@@ -15,9 +15,15 @@ category: must-know
 
 inAlgoPool: false
 
+
 links:
 
-  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
+  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}'
+
+
+---
+
+# Securing the Physical Layer
 
 ---
 ## Content
@@ -32,6 +38,7 @@ Not all Physical Layer vulnerabilities are caused by intruders-- oblivious staff
 What is one control in the Physical Layer?
 ???
 
+
 * Locks and secure enclosures
 * Use a physical firewall
 * Encrypted password exchange and storage
@@ -42,6 +49,7 @@ What is one control in the Physical Layer?
 
 Electronic locks, PIN keypads, and RFID security badges are all example of ???
 
+
 * access control systems
 * surveillance equipment
 * electromagnetic shielding
@@ -49,14 +57,15 @@ Electronic locks, PIN keypads, and RFID security badges are all example of ???
 
 ---
 ## Quiz
+### What is one control for this OSI model Layer?
+```
+What is one control in the Physical Layer of the OSI Model?
+```
 
-headline: What is one control for this OSI model Layer?
+ ???
 
-question: |
-  What is one control in the Physical Layer of the OSI Model?
+* Locks and secure enclosures
+* Use of a physical firewall
+* Encrypted password exchange and storage
+* Using switches to branch off wired connections
 
-answers:
-  - Locks and secure enclosures
-  - Use of a physical firewall
-  - Encrypted password exchange and storage
-  - Using switches to branch off wired connections

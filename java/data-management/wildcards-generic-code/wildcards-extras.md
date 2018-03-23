@@ -1,4 +1,4 @@
-# Wildcards Extras
+---
 author: Nick Daminov
 
 levels:
@@ -9,10 +9,16 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - '[More on Generics](https://docs.oracle.com/javase/tutorial/java/generics/inheritance.html)'
-  - '[More on WildCards](https://docs.oracle.com/javase/tutorial/java/generics/subtyping.html)'
+  - '[More on Generics](https://docs.oracle.com/javase/tutorial/java/generics/inheritance.html){website}'
+  - '[More on WildCards](https://docs.oracle.com/javase/tutorial/java/generics/subtyping.html){website}'
+
+
+---
+
+# Wildcards Extras
 
 ---
 ## Content
@@ -43,6 +49,7 @@ List<? extends Number>  numList = intList;
 
 ---
 ## Revision
+
 What is `<?>` equivalent to?
 
 ???
@@ -52,8 +59,10 @@ Considering the `B` is a subtype of `A`, is `List<B>` a subtype of `List<A>`?
 
 ???
 
+
 * `<? extends Object>`
 * No
 * `<? super Object>`
 * Yes
 * In this case we can not tell
+

@@ -40,7 +40,7 @@ function shareTwitter(url, text) {
 }
 ```
 Share on **Facebook**:
-```javascript 
+```javascript
 function shareFacebook(url, text, image) {
   open(`http://facebook.com/sharer.php?
   s=100&p[url]=` + encodeURIComponent(url)

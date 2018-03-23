@@ -18,7 +18,7 @@ category: must-know
 inAlgoPool: false
 
 standards:
-  sql.define-sequences-or-default-values: 10
+  sql.define-relationships.0: 10
 
 links:
 

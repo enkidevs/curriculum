@@ -37,7 +37,7 @@ There isn't a single place in the application where errors can pop up, so you sh
 For most operational errors, the message will most likely point to what is left to do. For example, trying to access a file that is not yet created will *return* (async) or *throw* (sync) an `ENOENT: no such file or directory` error.
 
 While we're at it, let's focus on the difference between asynchronous and synchronous functions. Consider the following snippet:
-```js
+```javascript
 import fs from 'fs';
 
 function readAndParseFile(path,
@@ -65,7 +65,7 @@ A stricter approach with regard to handling anything that requires non-standardi
 
 Can you identify what will be the stack trace of the following snippet?
 
-```js
+```javascript
 const throw_example = () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
