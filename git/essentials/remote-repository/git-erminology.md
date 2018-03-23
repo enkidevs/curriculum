@@ -2,8 +2,8 @@
 author: mihaiberq
 
 levels:
-
     - beginner
+    - basic
 
 type: fillTheGap
 
