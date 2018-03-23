@@ -14,7 +14,7 @@ type: normal
 category: how to
 
 standards:
-  py.native-types-operations.4
+  py.native-types-operations.4: 10
 
 links:
 
