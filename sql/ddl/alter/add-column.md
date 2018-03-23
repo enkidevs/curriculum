@@ -21,10 +21,6 @@ standards:
   sql.define-columns.0: 10
   sql.define-columns.2: 10
 
-links:
-
-  - sql.define-columns: 10
-
 tags:
 
   - workout

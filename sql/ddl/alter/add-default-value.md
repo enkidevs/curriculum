@@ -20,8 +20,6 @@ inAlgoPool: false
 standards:
   sql.define-columns.2: 10
 
-  - sql.define-sequences-or-default-values: 10
-
 tags:
 
   - workout
