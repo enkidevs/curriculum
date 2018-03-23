@@ -1,4 +1,4 @@
-# Writing JUnit tests using `Assert`
+---
 author: adamMontgomerie
 
 levels:
@@ -15,10 +15,15 @@ tags:
 
   - testing
 
+
 links:
 
-  - >-
-    [junit.sourceforge.net](http://junit.sourceforge.net/javadoc/org/junit/Assert.html){website}
+  - '[junit.sourceforge.net](http://junit.sourceforge.net/javadoc/org/junit/Assert.html){website}'
+
+
+---
+
+# Writing JUnit tests using `Assert`
 
 ---
 ## Content
@@ -52,11 +57,12 @@ To test for a for a `boolean` value, what assertion method should be used?
 
 ???
 
-*`assertTrue` 
-*`assertBool` 
-*`assert` 
-*`assertEquals` 
-*`assertBoolean`
+
+* `assertTrue` 
+* `assertBool` 
+* `assert` 
+* `assertEquals` 
+* `assertBoolean`
 
 ---
 ## Revision
@@ -69,6 +75,8 @@ String[] b = {"a", "b", "c"};
 ???(a, b);
 ```
 
-*`assertArrayEquals` 
-*`assert` 
-*`assertTest`
+
+* `assertArrayEquals` 
+* `assert` 
+* `assertTest`
+

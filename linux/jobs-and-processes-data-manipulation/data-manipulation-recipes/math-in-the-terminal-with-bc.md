@@ -1,4 +1,4 @@
-# Math in the terminal with `bc`
+---
 author: catalin
 
 levels:
@@ -10,6 +10,13 @@ levels:
 type: normal
 
 category: tip
+
+
+
+
+---
+
+# Math in the terminal with `bc`
 
 ---
 ## Content
@@ -52,6 +59,7 @@ Print the result of the following expressions, but only show the first 5 digits:
 $ ??? "???=???; 58/21" 
          | ???
 ```
+
 * `echo`
 * `scale`
 * `5`
@@ -67,7 +75,9 @@ You can compute a mathematical expression in terminal by piping it through:
 ```
 $ echo '(4-2)^3*2` | ???
 ```
-*`bc`
-*`math`
-*`grep`
-*`bo`
+
+* `bc`
+* `math`
+* `grep`
+* `bo`
+

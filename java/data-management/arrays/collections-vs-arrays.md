@@ -1,4 +1,4 @@
-# Collections vs arrays
+---
 author: adamMontgomerie
 
 levels:
@@ -17,10 +17,15 @@ tags:
 
   - arrays
 
+
 links:
 
-  - >-
-    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=39){website}
+  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=39){website}'
+
+
+---
+
+# Collections vs arrays
 
 ---
 ## Content
@@ -39,8 +44,9 @@ Which one of the following has pre-made sorting algorithms?
 
 `???`
 
-*`collections` 
-*`arrays`
+
+* `collections` 
+* `arrays`
 
 ---
 ## Revision
@@ -49,5 +55,7 @@ Which one has dynamic size?
 
 `???`
 
-*`collections` 
-*`arrays`
+
+* `collections` 
+* `arrays`
+

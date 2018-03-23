@@ -1,4 +1,4 @@
-# Counting the months from zero
+---
 author: jordanfish
 
 levels:
@@ -14,11 +14,17 @@ type: normal
 category: caveats
 
 standards:
+
   js.standard-library.5: 10
 
 tags:
-  - workout 
-  
+
+  - workout
+
+---
+
+# Counting the months from zero
+
 ---
 ## Content
 
@@ -26,7 +32,7 @@ The months of the year in a date object begin counting from zero.
 
 ```
 var date = new Date(2015,1,21);
-console.log(date); 
+console.log(date);
 ```
 The date that will not be the 21st of January, but instead this date object represents: `Sat Feb 21 2015 00:00:00 GMT-700`.
 
@@ -56,6 +62,7 @@ console.log(date);
 // 00:00:00 GMT-700
 ```
 
+
 * `Feb`
 * `5`
 * `0`
@@ -64,13 +71,15 @@ console.log(date);
 
 ---
 ## Quiz
+### how does JavaScript's Date object work?
 
-headline: how does JavaScript's Date object work?
+```javascript
+console.log(new Date(2016, 5, 31));
+```
 
-question: console.log(new Date(2016, 5, 31));
+ ???
 
-answers:
-  - July 1 2016
-  - June 31 2016
-  - May 31 2016
-  - June 1 2016
+* July 1 2016
+* June 31 2016
+* May 31 2016
+* June 1 2016

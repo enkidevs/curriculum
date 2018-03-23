@@ -30,32 +30,32 @@ links:
 
 The operation will be performed on the red, blue and green components respectively.
 
-```CSS
+```css
 p {
   color: #080200 + #010501;
 }
 ```
 Would be computed as:
-```CSS
+```css
 08 + 01 = 09
 02 + 05 = 07
 00 + 01 = 01
 ```
 And then compiled to:
-```CSS
+```css
 p {
   color: #090701
 }
 ```
 Colours with an alpha channel must have the same alpha value for color arithmetic to work. The arithmetic operation does not affect the alpha value.
-```CSS
+```css
 p {
   color: rgba(255, 0, 100, 0.75) + 
          rgba(0, 255, 0, 0.75);
 }
 ```
 Compiles to:
-```CSS
+```css
 p {
   color: rgba(255, 255, 100, 0.75); }
 ```

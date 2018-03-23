@@ -1,4 +1,4 @@
-# Changing File Ownership With `chown`
+---
 author: jfarmer
 
 levels:
@@ -9,13 +9,23 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 tags:
+
   - introduction
+
   - workout
+
+
+
+
+---
+
+# Changing File Ownership With `chown`
+
 ---
 ## Content
 
@@ -23,19 +33,19 @@ The `chown` command allows us to change the both the user and group ownership of
 
 To change the user who owns a specific file run the following (`jesse` is just an example username):
 
-```console
+```shell
 $ chown jesse /path/to/some/file
 ```
 
 To change both user and group run the following (again, `new-group` is an example group name):
 
-```console
+```shell
 $ chown jesse:new-group /path/to/some/file
 ```
 
 To change only the group run:
 
-```console
+```shell
 $ chown :new-group /path/to/some/file
 ```
 
@@ -47,7 +57,7 @@ It's sometimes necessary to change the user/group who owns every file and subdir
 
 It would look something like this:
 
-```console
+```shell
 $ chown -R jesse:new-group /some/directory
 ```
 
@@ -59,10 +69,11 @@ This command would not just change the owner of the `/some/directory` directory,
 You can change the owner of a file without having to use `sudo` when 
 
 ???
-*You have write permissions for the file.
-*You have execute permissions for the file.
-*You have read permissions for the file.
-*The file has the sticky bit permission.
+
+* You have write permissions for the file.
+* You have execute permissions for the file.
+* You have read permissions for the file.
+* The file has the sticky bit permission.
 
 ---
 ## Revision
@@ -72,9 +83,11 @@ Change the group for a file:
 $ ??? ??? ??? 
           ???
 ```
-*`sudo`
-*`chown`
-*`:new-group`
-*`enki.txt`
-*`new-group`
-*`chmod`
+
+* `sudo`
+* `chown`
+* `:new-group`
+* `enki.txt`
+* `new-group`
+* `chmod`
+

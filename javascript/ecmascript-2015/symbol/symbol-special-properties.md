@@ -1,4 +1,4 @@
-# Symbol Special Properties
+---
 author: alexjmackey
 
 levels:
@@ -9,13 +9,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){website}'
+
+
+---
+
+# Symbol Special Properties
 
 ---
 ## Content
@@ -60,3 +66,4 @@ Note you can retrieve symbols with **getOwnPropertySymbols**
 ```
 Object.getOwnPropertySymbols(obj);
 ```
+

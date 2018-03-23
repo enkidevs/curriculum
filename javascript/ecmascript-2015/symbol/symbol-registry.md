@@ -1,4 +1,4 @@
-# Symbol Registry
+---
 author: alexjmackey
 
 levels:
@@ -9,13 +9,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){website}'
+
+
+---
+
+# Symbol Registry
 
 ---
 ## Content
@@ -47,3 +53,4 @@ You can use the **Symbol.keyFor** method to pass in a symbol and return the desc
 ```
 Symbol.keyFor(sym1); //"Enki"
 ```
+

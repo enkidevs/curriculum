@@ -1,4 +1,4 @@
-# Object - Part 1
+---
 author: alexjmackey
 
 levels:
@@ -7,23 +7,31 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 standards:
+
   js.data-types-structures.3: 10
+
   js.data-types-structures.4: 10
 
 tags:
+
   - introduction
+
   - workout
+
 
 links:
 
-  - >-
-    [Object-oriented
-    JS](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS){website}
+  - '[Object-oriented JS](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS){website}'
+
+
+---
+
+# Object - Part 1
 
 ---
 ## Content
@@ -86,8 +94,9 @@ Would the following line print "model"?
 ```
 console.log(car.test); // ???
 ```
-*no
-*yes
+
+* no
+* yes
 
 ---
 ## Revision
@@ -100,7 +109,9 @@ var per = {
 };
 ???
 ```
-*`per.age = 40;`
-*`var per.age = 40;`
-*`per[age] = 40;`
-*`per.addNewProperty(age,40);`
+
+* `per.age = 40;`
+* `var per.age = 40;`
+* `per[age] = 40;`
+* `per.addNewProperty(age,40);`
+

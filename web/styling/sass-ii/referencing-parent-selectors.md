@@ -32,7 +32,7 @@ For example, using special styles when the selector is hovered over. To implemen
 
 The `&` is replaced by the parent selector as it appears in the CSS.
 
-```CSS
+```css
 p {
   font-weight: bold;
   &:hover { text-decoration: underline; }
@@ -40,7 +40,7 @@ p {
 }
 ```
 The above sass code example would generate the following CSS code:
-```CSS
+```css
 p {
   font-weight: bold;
 }

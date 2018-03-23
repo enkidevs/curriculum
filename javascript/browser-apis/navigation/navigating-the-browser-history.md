@@ -1,4 +1,4 @@
-# Navigating the browser history
+---
 author: rosielowther
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/History_API#Moving_forward_and_backward){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/History_API#Moving_forward_and_backward){website}'
+
+
+---
+
+# Navigating the browser history
 
 ---
 ## Content
@@ -51,6 +56,7 @@ Move forwards once using the `History API`:
 window.???.???();
 ```
 
+
 * `history`
 * `forward`
 * `navigation`
@@ -66,9 +72,11 @@ Move backwards once using the `History API`:
 window.???.???();
 ```
 
-*`history`
-*`back`
-*`forward`
-*`go`
-*`navigation`
-*`length`
+
+* `history`
+* `back`
+* `forward`
+* `go`
+* `navigation`
+* `length`
+

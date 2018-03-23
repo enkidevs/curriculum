@@ -84,7 +84,7 @@ To extend the functionality of a parent's class method, but not override it, you
 ## Revision
 
 Consider the following snippet:
-```py
+```python
 class Parent():
   def hello(self):
     print('I am parent')

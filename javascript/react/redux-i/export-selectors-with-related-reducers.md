@@ -1,4 +1,4 @@
-# Export selectors with related reducers
+---
 author: catalin
 
 levels:
@@ -11,10 +11,15 @@ type: normal
 
 category: best practice
 
+
 links:
 
-  - >-
-    [twitter.com](https://twitter.com/dan_abramov/status/664581975764766721){website}
+  - '[twitter.com](https://twitter.com/dan_abramov/status/664581975764766721){website}'
+
+
+---
+
+# Export selectors with related reducers
 
 ---
 ## Content
@@ -66,6 +71,7 @@ export default connect(
 
 Selectors are used to compute ???, therefore ensuring that Redux stores the ???.
 
+
 * derived data
 * minimal possible state
 * maximum possible state
@@ -73,3 +79,4 @@ Selectors are used to compute ???, therefore ensuring that Redux stores the ???.
 * exported data
 * exported state
 * selected state
+

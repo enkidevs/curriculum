@@ -1,4 +1,4 @@
-# Notifications API
+---
 author: rosielowther
 
 levels:
@@ -15,10 +15,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/notification){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/notification){website}'
+
+
+---
+
+# Notifications API
 
 ---
 ## Content
@@ -68,7 +73,9 @@ var n = new Notification(title, options);
 
 Which JS call is the call used to request the permission to display notifications, using the Notifications API? ???
 
+
 * `Notification.requestPermission(`
 * `Notification.permission(`
 * `Notification.grantPermission(`
 * `Notification.permissionStatus(`
+

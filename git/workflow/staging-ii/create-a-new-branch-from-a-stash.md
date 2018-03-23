@@ -1,4 +1,4 @@
-# Create a new branch from a stash
+---
 author: rosielowther
 
 levels:
@@ -13,12 +13,16 @@ type: normal
 
 category: feature
 
-parent: stashing-changes
 
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning){website}'
+
+parent: stashing-changes
+
+---
+
+# Create a new branch from a stash
 
 ---
 ## Content
@@ -36,11 +40,12 @@ You can test stashed code using a new branch “testing”:
 ```
 $ git ??? ??? ???
 ```
-*`stash`
-*`branch`
-*`testing`
-*`-stash`
-*`new`
+
+* `stash`
+* `branch`
+* `testing`
+* `-stash`
+* `new`
 
 ---
 ## Revision
@@ -49,7 +54,9 @@ $ git ??? ??? ???
 $ git stash branch newBranch
 ```
 Applies the ??? changes to a new ??? before merging them into the old one.
-*stashed
-*branch
-*commit
-*merged
+
+* stashed
+* branch
+* commit
+* merged
+

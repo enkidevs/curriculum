@@ -1,4 +1,4 @@
-# Passing values to Generators
+---
 author: alexjmackey
 
 levels:
@@ -9,14 +9,20 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
+
 links:
-  
+
   - '[MDN - Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}'
-  
+
+
+---
+
+# Passing values to Generators
+
 ---
 ## Content
 
@@ -75,3 +81,4 @@ g.next();
 g.next("a") //a
 g.next("b") // b
 ```
+

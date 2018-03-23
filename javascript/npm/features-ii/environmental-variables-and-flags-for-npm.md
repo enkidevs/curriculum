@@ -1,4 +1,4 @@
-# Flags for `npm`
+---
 author: catalin
 
 levels:
@@ -11,13 +11,16 @@ type: normal
 
 category: best practice
 
-parent: check-data-about-a-package
 
 links:
 
-  - >-
-    [strongloop.com](https://strongloop.com/strongblog/3-neat-tricks-with-npm-run/){website}
+  - '[strongloop.com](https://strongloop.com/strongblog/3-neat-tricks-with-npm-run/){website}'
 
+parent: check-data-about-a-package
+
+---
+
+# Flags for `npm`
 
 ---
 ## Content
@@ -57,8 +60,10 @@ Complete the start script to support `--harmony` flag in `package.json`:
   }
 }
 ```
-*`start`
-*`node`
-*`npm`
-*`require`
-*`dependencies`
+
+* `start`
+* `node`
+* `npm`
+* `require`
+* `dependencies`
+

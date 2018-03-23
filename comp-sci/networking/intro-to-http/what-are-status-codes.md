@@ -1,4 +1,4 @@
-# What are status codes
+---
 author: SebaRaba
 
 levels:
@@ -15,15 +15,18 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - 'https://www.tutorialspoint.com/http/http_status_codes.htm'
-
-  - 'https://msdn.microsoft.com/en-us/library/windows/desktop/aa383887'
-
-  - 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Status'
+  - '[www.tutorialspoint.com](https://www.tutorialspoint.com/http/http_status_codes.htm){website}'
+  - '[msdn.microsoft.com](https://msdn.microsoft.com/en-us/library/windows/desktop/aa383887){website}'
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status){website}'
 
 parent: what-is-an-url
+
+---
+
+# What are status codes
 
 ---
 ## Content
@@ -51,6 +54,7 @@ What first digit in the status code does imply a **successfully processed reques
 
 ???
 
+
 * `2`
 * `1`
 * `5`
@@ -64,7 +68,9 @@ If the client gets a `5xx` status code, it means that
 
 ???
 
+
 * the server failed to process the request
 * the request was processed successfully
 * the requested resource can be found at another address
 * everything is OK so far
+

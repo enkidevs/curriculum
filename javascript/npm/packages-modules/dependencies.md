@@ -1,17 +1,27 @@
-# Declaring dependencies
+---
 author: mihaiberq
 
 levels:
+
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
+
 parent: private-packages
+
+---
+
+# Declaring dependencies
 
 ---
 ## Content
@@ -58,6 +68,7 @@ Packages that the application is dependent on are specified in
 
 ???
 
+
 * package.json file
 * node_modules directory
 * dependencies.json file
@@ -70,9 +81,11 @@ Install and add *gulp* to the list of dev dependencies from the command line:
 ```
 $ ??? ??? ??? ???
 ```
+
 * `npm`
 * `install`
 * `gulp`
 * `--save-dev`
 * `--save`
 * `node`
+

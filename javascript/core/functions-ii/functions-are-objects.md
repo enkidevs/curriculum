@@ -1,4 +1,4 @@
-# Functions Are Objects
+---
 author: alexjmackey
 
 levels:
@@ -7,19 +7,32 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 standards:
+
   js.functions.4: 10
+
   js.functions.8: 10
 
 tags:
+
   - introduction
+
   - workout
+
   - deep
+
   - obscura
+
+
+
+
+---
+
+# Functions Are Objects
 
 ---
 ## Content
@@ -81,13 +94,14 @@ Complete the function expression in the following code snippet such that it make
 console.log(x(1, 2, 3)); 
 ```
 
-*`var`
-*`function`
-*`return`
-*`console.log`
-*`get`
-*`fn`
-*`()`
+
+* `var`
+* `function`
+* `return`
+* `console.log`
+* `get`
+* `fn`
+* `()`
 
 ---
 ## Revision
@@ -100,10 +114,12 @@ Complete the function expression in the following code snippet such that it make
 console.log(x(1, 2, 3)); 
 ```
 
-*`var`
-*`function`
-*`return`
-*`console.log`
-*`get`
-*`fn`
-*`()`
+
+* `var`
+* `function`
+* `return`
+* `console.log`
+* `get`
+* `fn`
+* `()`
+

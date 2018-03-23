@@ -1,4 +1,4 @@
-# Custom commit template
+---
 author: rosielowther
 
 levels:
@@ -11,10 +11,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration){website}'
+
+
+---
+
+# Custom commit template
 
 ---
 ## Content
@@ -44,11 +49,12 @@ You can add a commit message template using:
 $ git ??? --global
   ???.???  ~/.template.txt
 ```
-*`config`
-*`commit`
-*`template`
-*`-co`
-*`-m`
+
+* `config`
+* `commit`
+* `template`
+* `-co`
+* `-m`
 
 ---
 ## Revision
@@ -58,8 +64,10 @@ You can add a commit message template using:
 $ git ??? --global
   ???.???  ~/.template.txt
 ```
-*`config`
-*`commit`
-*`template`
-*`-co`
-*`-m`
+
+* `config`
+* `commit`
+* `template`
+* `-co`
+* `-m`
+

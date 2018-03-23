@@ -1,4 +1,4 @@
-# Base conversion
+---
 author: catalin
 
 levels:
@@ -12,8 +12,17 @@ type: normal
 category: how to
 
 standards:
+
   js.data-types-structures.0: 10
+
   js.standard-library.2: 10
+
+
+
+
+---
+
+# Base conversion
 
 ---
 ## Content
@@ -49,11 +58,12 @@ Complete the following code snippet:
 // convert "ad23e1" from base 16 to base 10
 console.log(???("ad23e1",???));
 ```
-*2
-*parseInt
-*16
-*10
-*”base 10”
+
+* 2
+* parseInt
+* 16
+* 10
+* ”base 10”
 
 ---
 ## Revision
@@ -65,8 +75,10 @@ console.log((132).toString(???));
 // convert "ead2" from base 15 to base 10
 console.log(???("ef2",???));
 ```
-*16
-*parseInt
-*15
-*10
-*”base 10”
+
+* 16
+* parseInt
+* 15
+* 10
+* ”base 10”
+

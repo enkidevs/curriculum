@@ -1,4 +1,4 @@
-# Transforming Text With `sed`
+---
 author: jfarmer
 
 levels:
@@ -9,13 +9,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[Useful sed one-liners](http://sed.sourceforge.net/sed1line.txt){website}'
+
+
+---
+
+# Transforming Text With `sed`
 
 ---
 ## Content
@@ -31,7 +37,7 @@ If we want to save the output to a file we can use the `>` redirection operator.
 
     This will replace every instance of `apples` with `bananas`.
 
-    ```console
+    ```shell
     $ sed 's/apples/bananas/g' data.txt
     ```
 
@@ -42,7 +48,7 @@ If we want to save the output to a file we can use the `>` redirection operator.
 
     This will remove any trailing whitespace from each line, i.e., any extra spaces or tabs at the end of a line.
 
-    ```console
+    ```shell
     sed 's/[ \t]*$//' data.txt
     ```
 
@@ -50,7 +56,7 @@ If we want to save the output to a file we can use the `>` redirection operator.
 
     Likewise, this will remove any *leading* whitespace from each line, aligning all text flush left:
 
-    ```console
+    ```shell
     sed 's/^[ \t]*//' data.txt
     ```
 
@@ -66,10 +72,11 @@ Replace the first apparition of *apple* in each line by *orange*:
 $ ??? '??? ??? ???'
         fruits.txt
 ```
-*`sed`
-*`s/`
-*`apple/`
-*`orange/`
+
+* `sed`
+* `s/`
+* `apple/`
+* `orange/`
 
 ---
 ## Revision
@@ -77,7 +84,9 @@ $ ??? '??? ??? ???'
 What does `sed` stand for? 
 
 ???
-*stream editor
-*special editor
-*stream edit
-*special stream editor
+
+* stream editor
+* special editor
+* stream edit
+* special stream editor
+

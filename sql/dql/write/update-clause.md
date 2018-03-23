@@ -17,7 +17,7 @@ inAlgoPool: false
 
 
 standards:
-  sql.write: 10
+  sql.write.3: 10
 
 tags:
   - introduction

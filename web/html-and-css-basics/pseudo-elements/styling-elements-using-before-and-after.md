@@ -37,14 +37,14 @@ Similarly, use the `::after` selector to add and style content after the last ch
 
 Consider the following HTML code:
 
-``` html
+```html
   <p>First</p>
   <p>Second</p>
   <p>Third</p>
 ```
 And the following CSS snippet:
 
-``` css
+```css
   p::before{
     content: '#';
     color: red;

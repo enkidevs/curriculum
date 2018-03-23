@@ -1,4 +1,4 @@
-# Control OS `Process`es in `Java8`
+---
 author: catalin
 
 levels:
@@ -9,13 +9,17 @@ type: normal
 
 category: feature
 
-notes: >-
-  https://insights.enki.com/#/contrib/others/55c838333d25fc2e0079a878?search=khandelwalrinki
 
 links:
 
-  - >-
-    [www.infoq.com](http://www.infoq.com/articles/Java-8-Quiet-Features){website}
+  - '[www.infoq.com](http://www.infoq.com/articles/Java-8-Quiet-Features){website}'
+
+notes: >-
+  https://insights.enki.com/#/contrib/others/55c838333d25fc2e0079a878?search=khandelwalrinki
+
+---
+
+# Control OS `Process`es in `Java8`
 
 ---
 ## Content
@@ -51,18 +55,21 @@ What method from the `Process` class, introduced in Java8 should be used to term
 
 `???`
 
-*`destroyForcibly` 
-*`destroy` 
-*`terminate` 
-*`end` 
-*`exit`
+
+* `destroyForcibly` 
+* `destroy` 
+* `terminate` 
+* `end` 
+* `exit`
 
 ---
 ## Revision
 
 In Java8  several methods have been added to the `???` class in order to make easier the management of OS processes.
 
-*`Process` 
-*`OS` 
-*`ExternalProcess` 
-*`Interaction`
+
+* `Process` 
+* `OS` 
+* `ExternalProcess` 
+* `Interaction`
+

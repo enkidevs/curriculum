@@ -1,4 +1,4 @@
-# Deleting properties
+---
 author: pawel
 
 levels:
@@ -9,15 +9,22 @@ type: normal
 
 category: how to
 
-notes: Hope it's not too basics?
-
 standards:
+
   js.data-types-structures.3: 10
+
   js.data-types-structures.4: 10
+
 
 links:
 
-  - "[stackoverflow.com](http://stackoverflow.com/questions/208105/how-to-remove-a-property-from-a-javascript-object){website}"
+  - '[stackoverflow.com](http://stackoverflow.com/questions/208105/how-to-remove-a-property-from-a-javascript-object){website}'
+
+notes: Hope it's not too basics?
+
+---
+
+# Deleting properties
 
 ---
 ## Content
@@ -65,10 +72,11 @@ test.prop1 = ???;
 ??? ;
 ```
 
-*undefined
-*delete test.prop2
-*null
-*delete prop2
+
+* undefined
+* delete test.prop2
+* null
+* delete prop2
 
 ---
 ## Revision
@@ -83,6 +91,8 @@ console.log(obj);
 
 ```
 
-*`{ one: undefined }`
-*`{ one: null }`
-*`{ }`
+
+* `{ one: undefined }`
+* `{ one: null }`
+* `{ }`
+

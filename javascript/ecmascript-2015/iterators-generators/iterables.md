@@ -1,4 +1,4 @@
-# Iterables
+---
 author: alexjmackey
 
 levels:
@@ -9,14 +9,20 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
+
 links:
-  
+
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols){website}'
-  
+
+
+---
+
+# Iterables
+
 ---
 ## Content
 
@@ -74,3 +80,4 @@ We could even use it with the spread operator:
 ```
 console.log([...it]); //[1,2,3,4,5]
 ```
+

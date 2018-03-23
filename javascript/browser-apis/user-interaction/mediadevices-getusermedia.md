@@ -1,4 +1,4 @@
-# MediaDevices.getUserMedia()
+---
 author: tommarshall
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices){website}'
+
+
+---
+
+# MediaDevices.getUserMedia()
 
 ---
 ## Content
@@ -26,7 +31,7 @@ links:
 If permission is provided then the promise returned is resolved with the *MediaStream* object. 
 
 Standard syntax:
-```JavaScript
+```javascript
 navigator.mediaDevices.getUserMedia
                             (constraints)
 .then(function(mediaStream) { ... })
@@ -34,13 +39,13 @@ navigator.mediaDevices.getUserMedia
 ```
 
 A full example getting and returning the *MediaStream* object, using the promise:
-```JavaScript
+```javascript
 var p = navigator.mediaDevices.
            getUserMedia({ audio: true, 
                           video: true });
 ```
 You can do something with the video here.
-```JavaScript
+```javascript
 p.then(function(mediaStream) {
   var video = document.
               querySelector('video');
@@ -52,7 +57,7 @@ p.then(function(mediaStream) {
 });
 ```
 You always check for errors at the end.
-```JavaScript
+```javascript
 p.catch(function(err) { 
      console.log(err.name); 
 }); 
@@ -70,6 +75,7 @@ var p = navigator.???.???({
 });
 ```
 
+
 * `mediaDevices`
 * `getUserMedia`
 * `mediaStream`
@@ -83,7 +89,9 @@ var p = navigator.???.???({
 If permission is provided, what is the
 promise returned and resolved with? ???
 
+
 * The MediaStream object.
 * A permission object.
 * A promise object.
 * Constraints for the media device.
+

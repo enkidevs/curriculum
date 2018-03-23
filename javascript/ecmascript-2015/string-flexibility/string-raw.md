@@ -1,4 +1,4 @@
-# String.raw
+---
 author: alexjmackey
 
 levels:
@@ -9,13 +9,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/raw){website}'
+
+
+---
+
+# String.raw
 
 ---
 ## Content
@@ -41,3 +47,4 @@ However sometimes it is desirable to work with a string template in its raw form
 String.raw `Line1\nLine2`;
 // "Line1\nLine2"
 ```
+

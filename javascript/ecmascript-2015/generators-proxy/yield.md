@@ -1,4 +1,4 @@
-# yield
+---
 author: alexjmackey
 
 levels:
@@ -9,14 +9,20 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield#Examples){website}'
-  
+
+
+---
+
+# yield
+
 ---
 ## Content
 
@@ -49,3 +55,4 @@ it.next();//Object {value: 3, done: false}
 it.next();//Object {value: 4, done: false}
 it.next();//Object {value: 5, done: false}
 ```
+

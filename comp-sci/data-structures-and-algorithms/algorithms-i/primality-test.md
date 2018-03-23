@@ -1,18 +1,28 @@
-# Primality test
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
+
 parent: sieve-of-eratosthenes
+
+---
+
+# Primality test
+
 ---
 ## Content
 
@@ -55,6 +65,7 @@ The size of the generated `sieve` depends on the requirements of the problem. Us
 What is the largest number we should divide *n* by to make sure we took into account all the possible divisors and also ensure optimality of the algorithm?
 
 ???
+
 * √n
 * n/2
 * n
@@ -66,7 +77,9 @@ What is the largest number we should divide *n* by to make sure we took into acc
 What is a prime number?
 
 ???
+
 * Any number whose divisors are only 1 and itself.
 * Any number that has at least 2 divisors.
 * Any number that is not a multiple of 2.
 * Any number that has only 1 as its divisor.
+

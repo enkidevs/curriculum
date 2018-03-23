@@ -1,4 +1,4 @@
-# Function constructor vs. function expression
+---
 author: NomaDube
 
 levels:
@@ -14,19 +14,30 @@ type: normal
 category: feature
 
 standards:
+
   js.functions.0: 10
+
   js.functions.1: 10
+
   js.functions.3: 10
+
   js.functions.4: 10
 
 tags:
+
   - introduction
+
   - workout
+
 
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions#Function_constructor_vs._function_declaration_vs._function_expression){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions#Function_constructor_vs._function_declaration_vs._function_expression){website}'
+
+
+---
+
+# Function constructor vs. function expression
 
 ---
 ## Content
@@ -71,6 +82,7 @@ var multiply = function times(x, y) {
 };
 ```
 
+
 * A function expression of a function named times assigned to the variable multiply.
 * A function times being declared.
 * Function expression of an anonymous function.
@@ -87,8 +99,10 @@ var multiply = function(x, y) {
 
 ???
 
-*function expression of an anonymous function
-*function defined with `function` constructor
-*function expression of a `function` named `mult`
-*all
-*none
+
+* function expression of an anonymous function
+* function defined with `function` constructor
+* function expression of a `function` named `mult`
+* all
+* none
+

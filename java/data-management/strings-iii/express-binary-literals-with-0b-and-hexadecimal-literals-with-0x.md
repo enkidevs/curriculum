@@ -1,4 +1,4 @@
-# Express binary literals with `0b` and hexadecimal literals with `0x`
+---
 author: adamMontgomerie
 
 levels:
@@ -19,10 +19,15 @@ tags:
 
   - jdk-7
 
+
 links:
 
-  - >-
-    [javarevisited.blogspot.jp](http://javarevisited.blogspot.jp/2014/04/10-jdk-7-features-to-revisit-before-you.html){website}
+  - '[javarevisited.blogspot.jp](http://javarevisited.blogspot.jp/2014/04/10-jdk-7-features-to-revisit-before-you.html){website}'
+
+
+---
+
+# Express binary literals with `0b` and hexadecimal literals with `0x`
 
 ---
 ## Content
@@ -36,3 +41,4 @@ In the same way, hexadecimal values can be expressed by adding the prefix `0x` o
 int hex = 0x5A;
 ```
 It is worth noting that in older versions of Java (pre-JDK 7), only the hexadecimal prefix is valid.
+

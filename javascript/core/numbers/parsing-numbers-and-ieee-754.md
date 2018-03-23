@@ -1,4 +1,4 @@
-# Parsing Numbers and IEEE-754
+---
 author: alexjmackey
 
 levels:
@@ -7,22 +7,28 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 standards:
+
   js.data-types-structures.0: 10
+
   js.standard-library.2: 10
+
   js.evaluate-expressions.1: 10
+
 
 links:
 
-  - >-
-    [How numbers are
-    represented](http://steve.hollasch.net/cgindex/coding/ieeefloat.html){website}
-
+  - '[How numbers are represented](http://steve.hollasch.net/cgindex/coding/ieeefloat.html){website}'
   - '[IEEE association](http://standards.ieee.org/){website}'
+
+
+---
+
+# Parsing Numbers and IEEE-754
 
 ---
 ## Content
@@ -71,9 +77,10 @@ console.log(parseInt("abc",10));
 
 ```
 
-*`NaN`
-*`Error`
-*`10`
+
+* `NaN`
+* `Error`
+* `10`
 
 ---
 ## Revision
@@ -82,7 +89,9 @@ What method would you use to parse the following string so that it doesn't retur
 ```
 ???("0.2", 10);
 ```
-*`parseFloat`
-*`parseInt`
-*`parseString`
-*`parseDouble`
+
+* `parseFloat`
+* `parseInt`
+* `parseString`
+* `parseDouble`
+

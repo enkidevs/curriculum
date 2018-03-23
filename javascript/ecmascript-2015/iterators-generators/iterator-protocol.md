@@ -1,4 +1,4 @@
-# Iterator Protocol
+---
 author: alexjmackey
 
 levels:
@@ -9,15 +9,20 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
+
 links:
-  
+
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols){website}'
-  
-  - '[link to learn more](https://enki.com)'
+  - '[link to learn more](https://enki.com){website}'
+
+
+---
+
+# Iterator Protocol
 
 ---
 ## Content
@@ -57,3 +62,4 @@ else{
 }
 };
 ```
+

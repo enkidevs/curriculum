@@ -57,7 +57,7 @@ ol.c {
   list-style-type: lower-roman;
 }
 
-``` 
+```
 This is how the lists would look:
 
 
@@ -69,20 +69,20 @@ This is how the lists would look:
 Complete the following snippet to change the default list marker:
 ```
 ul.specialList {
- ???: 
+ ???:
           url('img.jpg');
 }
 ```
 
-* `list-style-image` 
-* `list-style-type` 
-* `list-style-font` 
+* `list-style-image`
+* `list-style-type`
+* `list-style-font`
 * `list-style`
 
 ---
 ## Revision
 
-What does the following CSS code snippet do? 
+What does the following CSS code snippet do?
 
 ```css
 ul.a {
@@ -99,4 +99,3 @@ ol.b {
 * Sets the unordered list marker to roman numerals and the ordered list to an image.
 * This does nothing...
 * Sets the first element of the unordered lists marker to an image and the first element of the ordered lists marker to roman numerals.
-

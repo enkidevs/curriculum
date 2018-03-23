@@ -29,11 +29,11 @@ links:
 *SassScript's* interactive shell gives you the chance to experiment with SassScript expressions. 
 
 To launch the shell, run the Sass command-line with either the `--interactive` or  `-i` option.
-```CSS
+```css
 $ sass -i 
 ```
 Then at the prompt enter your chosen SassScript expressions and have them evaluated with the results printed to the terminal.
-```CSS
+```css
 >> "Enki insights are best..!"
 "Enki insights are best..!"
 >> 7px + 2px - 4px

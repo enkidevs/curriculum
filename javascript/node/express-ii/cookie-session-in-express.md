@@ -1,4 +1,4 @@
-# `cookie-session` in **Express**
+---
 author: catalin
 
 levels:
@@ -13,11 +13,16 @@ type: normal
 
 category: how to
 
-parent: easy-way-to-deliver-html-pages-with-express
 
 links:
 
   - '[github.com](https://github.com/expressjs/cookie-session){website}'
+
+parent: easy-way-to-deliver-html-pages-with-express
+
+---
+
+# `cookie-session` in **Express**
 
 ---
 ## Content
@@ -64,6 +69,7 @@ Import the needed module for implementing sessions in **Express** with the help 
 ```
 var cookieSess = ???('???');
 ```
+
 * `require`
 * `cookie-session`
 * `cookies`
@@ -79,9 +85,11 @@ Import the needed module for implementing sessions in **Express** with the help 
 ```
 var cookieSess = ???('???');
 ```
+
 * `require`
 * `cookie-session`
 * `cookies`
 * `session`
 * `import`
 * `cookie-express`
+

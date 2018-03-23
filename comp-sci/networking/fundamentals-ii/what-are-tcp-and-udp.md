@@ -1,4 +1,4 @@
-# What are TCP and UDP?
+---
 author: catalin
 
 levels:
@@ -9,13 +9,17 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - https://www.bleepingcomputer.com/tutorials/tcp-and-udp-ports-explained/
-
-  - http://www.diffen.com/difference/TCP_vs_UDP
+  - '[www.bleepingcomputer.com](https://www.bleepingcomputer.com/tutorials/tcp-and-udp-ports-explained/){website}'
+  - '[www.diffen.com](http://www.diffen.com/difference/TCP_vs_UDP){website}'
 
 parent: what-is-a-port
+
+---
+
+# What are TCP and UDP?
 
 ---
 ## Content
@@ -48,18 +52,7 @@ When `datagrams` (packets) are released into the **network** there is no way of 
 
 The simplicity of `UDP` reduces the overhead[2] of other protocols and can be adequate for some applications such as real-time media streams or broadcasts.
 
-Protocols such as **DHCP** and **VOIP** work on top of `UDP`. 
-
----
-## Footnotes
-
-[1:protocol naming convention]
-Protocol acronyms that end with an `s` usually refer to the **secure** (encrypted, authenticated, etc.) version of some protocol.
-
-For example, `HTTPS` refers to the secure extension of `HTTP`.
-
-[2:overhead]
-Overhead, in Computer Science, means any form of excess or indirect computation, time, memory, bandwidth or other resources required to complete a specific task.
+Protocols such as **DHCP** and **VOIP** work on top of `UDP`.
 
 ---
 ## Practice
@@ -67,6 +60,7 @@ Overhead, in Computer Science, means any form of excess or indirect computation,
 Which of the following protocols ensures error-correction of **packets**?
 
 ???
+
 
 * `TCP`
 * `UDP`
@@ -79,6 +73,17 @@ Which of the following protocols prioritizes **speed** over **reliability** ?
 
 ???
 
+
 * `UDP`
 * `TCP`
 * `IP`
+
+---
+## Footnotes
+[1:protocol naming convention]
+Protocol acronyms that end with an `s` usually refer to the **secure** (encrypted, authenticated, etc.) version of some protocol.
+
+For example, `HTTPS` refers to the secure extension of `HTTP`.
+
+[2:overhead]
+Overhead, in Computer Science, means any form of excess or indirect computation, time, memory, bandwidth or other resources required to complete a specific task.

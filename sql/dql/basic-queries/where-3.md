@@ -17,7 +17,9 @@ inAlgoPool: false
 
 
 standards:
-  sql.read-single-table: 10
+  sql.read-single-table.0: 10
+  sql.read-single-table.1: 10
+  sql.read-single-table.2: 10
 
 tags:
   - workout
