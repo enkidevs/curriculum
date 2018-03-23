@@ -1,4 +1,4 @@
-# Deleting files in a secure manner
+---
 author: tuwi.dc
 
 levels:
@@ -14,18 +14,30 @@ type: normal
 category: how to
 
 tags:
+
   - secure delete
+
   - shred
+
   - erase
+
   - terminal
+
   - linux
+
   - forensics
+
   - workout
 
 
 links:
 
   - '[Gutmann Method](https://en.wikipedia.org/wiki/Gutmann_method){website}'
+
+
+---
+
+# Deleting files in a secure manner
 
 ---
 ## Content
@@ -59,13 +71,14 @@ Use shred to delete `old_folder` , in 2 iterations, without hiding the shredding
 $ ??? ??? ??? ??? 
                  ~/old_folder
 ```
-*`sudo`
-*`shred`
-*`-n`
-*`2`
-*`-zn`
-*`-fz`
-*`rm`
+
+* `sudo`
+* `shred`
+* `-n`
+* `2`
+* `-zn`
+* `-fz`
+* `rm`
 
 ---
 ## Revision
@@ -74,12 +87,12 @@ To delete files in a secure manner you can use
 
 ??? .
 
-*`shred`
-*`rm`
-*`del`
+
+* `shred`
+* `rm`
+* `del`
 
 ---
 ## Footnotes
-
 [1:Gutmann Method]
 An algorithm for secure deletion of files. It involves overwriting to-be-deleted data with 35 patterns of bits so it cannot be recovered.

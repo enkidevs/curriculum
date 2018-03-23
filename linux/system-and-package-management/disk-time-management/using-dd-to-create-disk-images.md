@@ -1,4 +1,4 @@
-# Using `dd` To Create Disk Images
+---
 author: jfarmer
 
 levels:
@@ -10,6 +10,13 @@ levels:
 type: normal
 
 category: must-know
+
+
+
+
+---
+
+# Using `dd` To Create Disk Images
 
 ---
 ## Content
@@ -38,9 +45,11 @@ You can create an image of disks by running:
 $ ??? ???=/dev/cdrom 
       ???=~/my_disk.iso
 ```
-*`dd`
-*`if`
-*`of`
-*`-of`
-*`-if`
-*`cp`
+
+* `dd`
+* `if`
+* `of`
+* `-of`
+* `-if`
+* `cp`
+

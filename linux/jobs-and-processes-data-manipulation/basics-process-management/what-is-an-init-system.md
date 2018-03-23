@@ -1,4 +1,4 @@
-# What Is An "Init System"?
+---
 author: jfarmer
 
 levels:
@@ -9,9 +9,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# What Is An "Init System"?
 
 ---
 ## Content
@@ -39,10 +46,11 @@ For example, systemd became the default init system on Ubuntu in v15.04 (release
 Which of the following summarizes the best feature of an `init system`? 
 
 ???
-*It gets all the non-kernel programs and services running.
-*It gets all the kernel services running.
-*It initializes the user interface.
-*It checks for kernel errors.
+
+* It gets all the non-kernel programs and services running.
+* It gets all the kernel services running.
+* It initializes the user interface.
+* It checks for kernel errors.
 
 ---
 ## Revision
@@ -50,7 +58,9 @@ Which of the following summarizes the best feature of an `init system`?
 What is the most commonly used `init system` for Linux distributions? 
 
 ???
-*systemd
-*system V init
-*gentoo
-*launchd
+
+* systemd
+* system V init
+* gentoo
+* launchd
+

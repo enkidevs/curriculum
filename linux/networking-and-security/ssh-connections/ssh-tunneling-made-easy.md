@@ -1,4 +1,4 @@
-# SSH tunneling made easy
+---
 author: tuwi.dc
 
 levels:
@@ -17,7 +17,13 @@ tags:
 
   - proxy
 
+
+
 notes: ''
+
+---
+
+# SSH tunneling made easy
 
 ---
 ## Content
@@ -53,6 +59,7 @@ $ ??? ??? \
     ??? \
     ???
 ```
+
 * `ssh`
 * `-L`
 * `port:host:hostport`
@@ -69,6 +76,7 @@ $ ??? ??? \
   yourport:host:hostport \
   username@ssh_server
 ```
+
 * `ssh`
 * `-L`
 * `-T`
@@ -77,3 +85,4 @@ $ ??? ??? \
 * `--tunnel`
 * `-t`
 * `-l`
+

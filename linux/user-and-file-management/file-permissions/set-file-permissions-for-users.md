@@ -1,4 +1,4 @@
-# Set file permissions for users
+---
 author: nene
 
 levels:
@@ -19,14 +19,17 @@ tags:
 
   - user groups
 
-parent: understanding-umask
 
 links:
 
   - '[linuxcommand.org](http://linuxcommand.org/lts0070.php){website}'
+  - '[www.yolinux.com](http://www.yolinux.com/TUTORIALS/LinuxTutorialManagingGroups.html){website}'
 
-  - >-
-    [www.yolinux.com](http://www.yolinux.com/TUTORIALS/LinuxTutorialManagingGroups.html){website}
+parent: understanding-umask
+
+---
+
+# Set file permissions for users
 
 ---
 ## Content
@@ -86,13 +89,14 @@ Add *read/execute* permissions for *user* and *other* for enki.txt:
 $ ??? ??? ??? 
           ??? enki.txt
 ```
-*`chmod`
-*`uo`
-*`+`
-*`rx`
-*`ug`
-*`a`
-*`-`
+
+* `chmod`
+* `uo`
+* `+`
+* `rx`
+* `ug`
+* `a`
+* `-`
 
 ---
 ## Revision
@@ -100,7 +104,9 @@ $ ??? ??? ???
 You can target all groups when setting permissions with the 
 
 ??? symbol. 
-*`a` 
-*`go` 
-*`all` 
-*`@`
+
+* `a` 
+* `go` 
+* `all` 
+* `@`
+
