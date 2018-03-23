@@ -14,7 +14,7 @@ category: how to
 
 
 To perform *in-place set operations*[1], you can stick the `_update` keyword to the end of the set-specific methods call:
-```python 
+```python
 x = set('abc')
 y = set('cbd')
 x.difference_update(y)

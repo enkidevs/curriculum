@@ -33,7 +33,7 @@ In Unix, every process has three standard streams: `stdin`, `stdout`, and `stder
 
 To do this we use the pipe operator `|`.  Here is a simple example:
 
-```console
+```shell
 $ ps ax | grep mysql
 2922 ?        S      0:00
     /bin/sh /usr/bin/mysqld_safe

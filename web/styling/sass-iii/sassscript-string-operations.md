@@ -24,14 +24,14 @@ links:
 The `+` operation is used in *SassScript* for the concatenation of strings. 
 
 Take note of the quotation marks in these examples:
-```CSS
+```css
 p {
   font-family: "sans-" + serif;
   font-family: Times + " New Roman";
 }
 ```
 Compiles to:
-```CSS
+```css
 p {
   font-family: "sans-serif";
   font-family: Times New Roman;
@@ -40,14 +40,14 @@ p {
 When concatenating, if the first string has quote marks, the concatenated string has quote marks surrounding it. If not, then the string does not have quote marks around it.
 
 Within a text string, *`#{} style interpolation`* can be used to place dynamic values into a string:
-```CSS
+```css
 p:before {
   content: "Dynamic value insertion: 
             #{10 + 10}!";
 }
 ```
 Compiles to:
-```CSS
+```css
 p:before {
   content: "Dynamic value insertion: 20!";
  }

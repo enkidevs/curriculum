@@ -44,7 +44,7 @@ Array.prototype.push.apply(array1, array2);
 ```
 
 Unlike other languages, JavaScript does not support `+` for concatenating arrays. The output of such an operation would be a string:
-```js
+```javascript
 console.log([1, 2] + [3, 4])
 // 1,23,4
 ```

@@ -30,7 +30,7 @@ The `less` command is a "pager", which allows you to scroll and search through s
 
 A simple example:
 
-```console
+```shell
 $ ps aux | less
 ```
 

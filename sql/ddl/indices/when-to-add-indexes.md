@@ -19,7 +19,8 @@ inAlgoPool: false
 
 
 standards:
-  sql.attach-indices: 10
+  sql.define-indices.0: 10
+  sql.define-indices.3: 10
 
 tags:
   - workout

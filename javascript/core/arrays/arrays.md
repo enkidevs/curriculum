@@ -66,7 +66,7 @@ function (item, index, array) {
 );
 ```
 Another cool feature of JavaScript is that you can initialize an array as such:
-```JavaScript
+```javascript
 var myArray = [,,,];
 ```
 What this does is create an *empty* array of *size 3* (not 4, as the last comma is ignored).

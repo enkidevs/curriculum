@@ -28,7 +28,7 @@ On most browsers the debugging features can be brought up with the **F12** key.
 
 **debugger;**
 
-If you want the debugger to stop on a line of code and dont want to add a breakpoint you can add the statement ```debugger;``` in your code. Then if the browser tools are open the debugger will stop when it reaches this statement.
+If you want the debugger to stop on a line of code and dont want to add a breakpoint you can add the statement `debugger;` in your code. Then if the browser tools are open the debugger will stop when it reaches this statement.
 
 **Logging Variables**
 

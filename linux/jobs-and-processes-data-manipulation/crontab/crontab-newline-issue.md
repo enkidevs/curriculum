@@ -45,9 +45,7 @@ If you forget to add a newline at the end of the `crontab` file, it won't run th
 The `crontab` file should always end with an empty line.
 
 
-Running the 
-```crontab -e```
-command on the machine we can modify the content of the `crontab` file.
+Running the `crontab -e` command on the machine we can modify the content of the `crontab` file.
 
 An example of such file is:
 

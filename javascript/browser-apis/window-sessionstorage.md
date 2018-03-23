@@ -26,14 +26,14 @@ links:
 Opening a new tab or window will initiate a new session storage object.
 
 Saving data to session storage and retrieving it:
-```JavaScript
+```javascript
 sessionStorage.setItem('itemName', 'info');
 var data = sessionStorage.
                   getItem('itemName');
 console.log(data); // prints 'info'
 ```
 Example of session storage autosaving the value of a text field and restoring this field if a browser is refreshed:
-```JavaScript
+```javascript
 var test = document.getElementById("input");
 // find autosaved value caused by refresh
 if (sessionStorage.getItem("autosave")) {

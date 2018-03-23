@@ -32,7 +32,7 @@ if 'Hello' in string:
 Instead of:
 
 
-```python 
+```python
 string = 'Hello world'
 if string.find('Hello') != -1:
   print 'Success!'

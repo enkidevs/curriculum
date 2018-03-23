@@ -46,7 +46,7 @@ Use `echo` to print the contents of a variable.  If you reference a variable tha
 
 Here `HOME` contains the full path to the current user's home directory while `FOOD` has not been set.
 
-```console
+```shell
 jesse@host ~ $ echo $HOME
 /home/jesse
 jesse@host ~ $ echo $FOOD
@@ -58,7 +58,7 @@ jesse@host ~ $
 
 You can define a new environment variable using the `=` operator, like so:
 
-```console
+```shell
 jesse@host ~ $ echo $FOOD
 
 jesse@host ~ $ FOOD="waffles"
@@ -69,7 +69,7 @@ jesse@host ~ $
 
 Make sure not to add any spaces around `=` or else `bash` will interpret the name of the variable as a command.  You'll usually see a `command not found` error, but if your variable name happens to be the name of a command you'll see confusing output:
 
-```console
+```shell
 jesse@host ~ $ FOOD = "waffles"
 -bash: FOOD: command not found
 jesse@host ~ $ ls = "giraffe"
@@ -84,7 +84,7 @@ Here, `bash` interprets `=` and `"giraffe"` as arguments to the `ls` command rat
 
 Oftentimes you'll want to modify an existing variable by appending or prepending data.  To do this you can reference an environment variable inside a string, like so:
 
-```console
+```shell
 jesse@host ~ $ FOOD="waffles"
 jesse@host ~ $ echo $FOOD
 waffles
@@ -98,7 +98,7 @@ jesse@host ~ $
 
 To unset or clear an environment variable use `unset`, like so:
 
-```console
+```shell
 jesse@host ~ $ FOOD="waffles"
 jesse@host ~ $ echo $FOOD
 waffles

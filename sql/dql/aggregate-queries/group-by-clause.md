@@ -20,7 +20,7 @@ inAlgoPool: false
 parent: order-by-clause
 
 standards:
-  sql.aggregate-single-table: 10
+  sql.aggregate-single-table.3: 10
 
 tags:
   - workout
