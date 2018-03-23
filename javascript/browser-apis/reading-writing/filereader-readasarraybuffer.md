@@ -1,4 +1,4 @@
-# FileReader.readAsArrayBuffer()
+---
 author: tommarshall
 
 levels:
@@ -15,15 +15,18 @@ category: must-know
 
 tags:
 
-  - ''
+  - 
+
 
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsArrayBuffer){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsArrayBuffer){website}'
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays){website}'
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays){website}
+
+---
+
+# FileReader.readAsArrayBuffer()
 
 ---
 ## Content
@@ -36,11 +39,11 @@ You cannot work with the data contained in  *ArrayBuffers* directly but must use
 ArrayBuffers can be used to work with raw data containing complex types, convert file formats and when working with the XmlHttpRequest object and binary data.
 
 Declaring a new File Reader instance.
-```JavaScript
+```javascript
 var reader = new FileReader();
 ```
 Reading data as an array buffer and assign it to an array of 8 bit unsigned integers.
-``` JavaScript
+```javascript
 reader.onload = function(e) {
   var chars  = 
   new Uint8Array(reader.result);
@@ -58,6 +61,7 @@ var reader = new ???();
 reader.???(file);
 ```
 
+
 * FileReader
 * readAsArrayBuffer
 * fReader
@@ -65,3 +69,4 @@ reader.???(file);
 * read
 * interpret
 * readAsArray
+

@@ -1,4 +1,4 @@
-# Get the most of `float`s
+---
 author: catalin
 
 levels:
@@ -9,11 +9,16 @@ type: normal
 
 category: feature
 
-notes: 'abc'
 
 links:
 
-  - "[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#additional-methods-on-float)"
+  - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#additional-methods-on-float){website}'
+
+notes: abc
+
+---
+
+# Get the most of `float`s
 
 ---
 ## Content
@@ -36,7 +41,7 @@ Integer values might be preferred over floats in some cases and you can convert 
 ```
 
 As `float`s' numbers representation in binary is not really human-friendly and tends to be lengthier with precision, the **hexadecimal** format is preferred. Such hexadecimal representations have the form:
-```py
+```python
 [sign]['0x']int['.' fraction]['p' exponent]
 # e.g 0x1.8000000000000p+0 -> 1.5
 # 1.5 in decimal is 1.8 in hex
@@ -62,11 +67,12 @@ The reverse can be achieved with the `fromhex()` class method:
 >>> float.fromhex('0x1.8000000000000p+0')
 1.5
 ```
+
 ---
 ## Practice
 
 Complete the following code snippet such that the outputted values hold:
-```py
+```python
 
 >>> ???.???()
 0x1.8000000000000p+0
@@ -74,6 +80,7 @@ Complete the following code snippet such that the outputted values hold:
 >>> ???.???(???)
 1.5
 ```
+
 
 * `(1.5)`
 * `hex`
@@ -94,10 +101,11 @@ Complete the following code snippet such that the outputted values hold:
 
 How would you convert `2.71` to its **hexadecimal** representation?
 
-```py
+```python
 >>> ???.???(???)
 
 ```
+
 
 * `float`
 * `hex`
@@ -107,3 +115,4 @@ How would you convert `2.71` to its **hexadecimal** representation?
 * `to_hex`
 * `fromhex`
 * `int`
+

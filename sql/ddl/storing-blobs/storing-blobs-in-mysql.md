@@ -11,6 +11,9 @@ type: normal
 
 category: how to
 
+standards:
+  sql.choose-sql-datatype.2: 10
+  
 tags:
 
   - introduction
@@ -36,14 +39,14 @@ There are four *BLOB* types in MySQL:
 - `longblob`: 4 + 2^32 bytes (4.2 GB)
 
 In MySQL, `blob` is similar to `varbinary(n)` and can be used interchangeably. To create the table:
-```SQL
+```sql
 CREATE TABLE sprite(
   id serial PRIMARY KEY,
   pokemon longblob
 );
 ```
 And to insert values:
-```SQL
+```sql
 INSERT INTO sprite
 VALUES(LOAD_FILE('pikachu.png'));
 -- or
@@ -55,7 +58,7 @@ VALUES('0xBYTESOFPIKACHUSPRITE');
 ## Practice
 
 In a MySQL database, store a BLOB by loading the contents of a file:
-```SQL
+```sql
 ??? ??? sprite(image)
 VALUES(???(???));
 ```
@@ -72,7 +75,7 @@ VALUES(???(???));
 ## Revision
 
 In a MySQL database, store a BLOB as a binary string:
-```SQL
+```sql
 ??? ??? sprite(image)
 VALUES(???);
 ```

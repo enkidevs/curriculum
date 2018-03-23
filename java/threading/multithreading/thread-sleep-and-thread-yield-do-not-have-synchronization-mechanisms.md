@@ -1,4 +1,4 @@
-# `Thread.sleep` and `Thread.yield` do not have synchronization mechanisms
+---
 author: catalin
 
 levels:
@@ -11,13 +11,17 @@ type: normal
 
 category: caveats
 
-notes: >-
-  https://insights.enki.com/#/contrib/others/55f02923f457f33b00621148?search=khandelwalrinki
 
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/specs/jls/se7/html/jls-17.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/specs/jls/se7/html/jls-17.html){website}'
+
+notes: >-
+  https://insights.enki.com/#/contrib/others/55f02923f457f33b00621148?search=khandelwalrinki
+
+---
+
+# `Thread.sleep` and `Thread.yield` do not have synchronization mechanisms
 
 ---
 ## Content
@@ -37,7 +41,7 @@ Taking all into consideration, the compiler will only read the field `this.done`
 The loop will continue endlessly, even though we assume that the value of `this.done` is changed by another running thread.
 
 You can avoid this scenario by using the `volatile` keyword:
-```java 
+```java
 volatile boolean done;
 ```
 This will prevent the caching of the variable, allowing different threads seeing an updated value. However, keep in mind that `volatile` will not guarantee atomicity.
@@ -49,7 +53,9 @@ Take the following code snippet, the loop will run and loop endlessly, despite t
 ```java
 ??? boolean done;
 ```
-*`volatile` 
-*`static` 
-*`finished` 
-*`checker`
+
+* `volatile` 
+* `static` 
+* `finished` 
+* `checker`
+

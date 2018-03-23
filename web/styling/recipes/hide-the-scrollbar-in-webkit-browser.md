@@ -1,4 +1,4 @@
-# Hide the scrollbar in webkit browser
+---
 author: nene
 
 levels:
@@ -19,10 +19,15 @@ tags:
 
   - scrollbar
 
+
 links:
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/3296644/hiding-the-scrollbar-on-an-html-page){website}
+  - '[stackoverflow.com](http://stackoverflow.com/questions/3296644/hiding-the-scrollbar-on-an-html-page){website}'
+
+
+---
+
+# Hide the scrollbar in webkit browser
 
 ---
 ## Content
@@ -51,12 +56,13 @@ Complete the code snippet to hide all scrollbars on a webkit browser page:
     display: ???;  
 } 
 ```
-*`::-webkit-scrollbar` 
-*`none`  
-*`.webkit-scrollbar` 
-*`::webkit-scrollbar` 
-*`hide` 
-*`false`
+
+* `::-webkit-scrollbar` 
+* `none`  
+* `.webkit-scrollbar` 
+* `::webkit-scrollbar` 
+* `hide` 
+* `false`
 
 ---
 ## Revision
@@ -68,7 +74,9 @@ What does the following piece of code do?
 }
 ```
 ???
+
 * Hides all the scrollbars on the page.
 * Hides all the scrollbars of a particular element.
 * Displays all scrollbars on the page.
 * Displays all the scrollbars of a particular element.
+

@@ -1,22 +1,31 @@
-# The Binary Search Tree Data Structure
+---
 author: jfarmer
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
 links:
-    - >-
-        [Binary Search Trees](http://algs4.cs.princeton.edu/32bst/){website}
+
+  - '[Binary Search Trees](http://algs4.cs.princeton.edu/32bst/){website}'
 
 parent: post-order-traversal
+
+---
+
+# The Binary Search Tree Data Structure
+
 ---
 ## Content
 
@@ -50,6 +59,7 @@ Which key prevents the following tree from being a *BST*?
  3    11      20
 ```
 ???
+
 * 11
 * 3
 * 20
@@ -62,7 +72,9 @@ Which key prevents the following tree from being a *BST*?
 Which child has to be larger than the parent for a tree to be a Binary Search Tree?
 
 ???
+
 * Right
 * Left
 * Both
 * None
+

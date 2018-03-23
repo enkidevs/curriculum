@@ -14,8 +14,8 @@ category: feature
 inAlgoPool: false
 
 standards:
-
-  - sql.connect-client: 10
+  sql.connect-client.0: 10
+  sql.connect-client.1: 10
 
 tags:
 
@@ -123,4 +123,3 @@ What package is used in order to connect to a Postgres database in nodeJS?
 * pg
 * mongoose
 * sqlite3
-

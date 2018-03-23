@@ -1,4 +1,4 @@
-# Python environment
+---
 author: tommarshall
 
 levels:
@@ -7,9 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# Python environment
 
 ---
 ## Content
@@ -45,7 +52,9 @@ The process couldn't be simpler!
 
 The Python-specific extension is ???.
 
+
 * `.py`
 * `.pyt`
 * `.pip`
 * `.python`
+

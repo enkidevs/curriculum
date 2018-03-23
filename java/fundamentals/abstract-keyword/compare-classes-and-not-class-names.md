@@ -1,4 +1,4 @@
-# Compare classes and not class names
+---
 author: catalin
 
 levels:
@@ -9,10 +9,15 @@ type: normal
 
 category: caveats
 
+
 links:
 
-  - >-
-    [www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/OBJ09-J.+Compare+classes+and+not+class+names){website}
+  - '[www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/OBJ09-J.+Compare+classes+and+not+class+names){website}'
+
+
+---
+
+# Compare classes and not class names
 
 ---
 ## Content
@@ -47,8 +52,10 @@ Depending on the function that the insecure code performs, it could be vulnerabl
 Which two properties make two classes in a JVM the same class? 
 
 ???
-*Loaded by the same class loader, have the same qualified name.
-*Loaded by the same class loader, same methods.
-*Loaded by the same class loader, same fields.
-*Same qualified name, same size.
-*Same qualified name, same compilation times.
+
+* Loaded by the same class loader, have the same qualified name.
+* Loaded by the same class loader, same methods.
+* Loaded by the same class loader, same fields.
+* Same qualified name, same size.
+* Same qualified name, same compilation times.
+

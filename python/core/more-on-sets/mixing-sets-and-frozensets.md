@@ -1,4 +1,4 @@
-# Mixing sets and frozensets
+---
 author: mihaiberq
 
 levels:
@@ -9,12 +9,18 @@ type: normal
 
 category: how to
 
+
+
+
+---
+
+# Mixing sets and frozensets
+
 ---
 ## Content
 
-
 To perform *in-place set operations*[1], you can stick the `_update` keyword to the end of the set-specific methods call:
-```python 
+```python
 x = set('abc')
 y = set('cbd')
 x.difference_update(y)
@@ -74,6 +80,7 @@ x.difference([1, 3]) # 4
 ```
 ???
 
+
 * 1, 2
 * all of them
 * 2, 3, 4
@@ -91,15 +98,14 @@ c = b.difference(a)
 print(c.pop())
 # ???
 ```
+
 * AttributeError: is immutable
 * 4
 * either 1 or 2
 * 3
 * TypeError: c has no elements
 
-
 ---
 ## Footnotes
-
 [1: In-place operations]
 Instead of returning a new set containing the result with both operands remaining the same, *in-place operations* assign to the left hand operand the value of the result.

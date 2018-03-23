@@ -18,6 +18,7 @@ category: must-know
 inAlgoPool: false
 
 standards:
+  sql.define-relationships.0: 10
 
   - sql.define-sequences-or-default-values: 10
 
@@ -120,4 +121,3 @@ id | version_group_id |      name
 * ALTER TABLE gender ADD CONSTRAINT check_constraint CHECK (version_group_id <= 10);
 * ALTER TABLE generation ADD PRIMARY KEY (id);
 * ALTER TABLE gender ADD CONSTRAINT check_constraint UNIQUE (version_group_id <= 10);
-

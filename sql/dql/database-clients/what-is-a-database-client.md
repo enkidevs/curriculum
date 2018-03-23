@@ -14,8 +14,8 @@ category: must-know
 inAlgoPool: false
 
 standards:
-
-  - sql.connect-client: 5
+  sql.connect-client.0: 10
+  sql.connect-client.1: 10
 
 tags:
 
@@ -72,4 +72,3 @@ What is a Database Client?
 * The software that queries information from the database server
 * An optional program that a user can install on top of the Database Server
 * The software through which memory is allocated on the server
-

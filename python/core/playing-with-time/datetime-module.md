@@ -1,4 +1,4 @@
-# `datetime` module
+---
 author: catalin
 
 levels:
@@ -9,14 +9,19 @@ levels:
 
 type: normal
 
+category: feature
+
 inAlgoPool: false
 
-category: feature
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/datetime.html){website}
+  - '[docs.python.org](https://docs.python.org/3.5/library/datetime.html){website}'
+
+
+---
+
+# `datetime` module
 
 ---
 ## Content
@@ -53,6 +58,7 @@ Is `datetime` a module or a class?
 
 ???
 
+
 * `both`
 * `a module`
 * `a class`
@@ -62,11 +68,12 @@ Is `datetime` a module or a class?
 ## Revision
 
 Using `datetime` module get the constant representing the maximum number a year can take:
-```py
+```python
 import datetime
 print(???.???)
 # 9999
 ```
+
 
 * `datetime`
 * `MAXYEAR`
@@ -75,3 +82,4 @@ print(???.???)
 * `date`
 * `time`
 * `max_year`
+

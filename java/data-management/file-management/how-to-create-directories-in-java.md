@@ -1,4 +1,4 @@
-# How to create directories in Java
+---
 author: pawel
 
 levels:
@@ -11,7 +11,13 @@ type: normal
 
 category: tip
 
+
+
 notes: ''
+
+---
+
+# How to create directories in Java
 
 ---
 ## Content
@@ -44,7 +50,9 @@ Create a new directory using a helper class introduced with the `nio` package:
 Path dir = Paths.get("path");
 ???
 ```
-*`Files.createDirectory(dir);` 
-*`Path.createDirectory(dir);` 
-*`File.createDirectory(dir);` 
-*`Paths.createDirectory("path");`
+
+* `Files.createDirectory(dir);` 
+* `Path.createDirectory(dir);` 
+* `File.createDirectory(dir);` 
+* `Paths.createDirectory("path");`
+

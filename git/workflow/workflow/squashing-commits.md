@@ -1,4 +1,4 @@
-# Squashing commits
+---
 author: rosielowther
 
 levels:
@@ -13,9 +13,15 @@ type: normal
 
 category: best practice
 
+
 links:
 
   - '[ponyfoo.com](https://ponyfoo.com/articles/git-github-hacks){website}'
+
+
+---
+
+# Squashing commits
 
 ---
 ## Content
@@ -41,6 +47,8 @@ Squashing commits means
 
 ??? .
 
-*combining them into one big commit
-*deleting them
-*commiting them
+
+* combining them into one big commit
+* deleting them
+* commiting them
+

@@ -1,4 +1,4 @@
-# Intent to add
+---
 author: rosielowther
 
 levels:
@@ -9,10 +9,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [github.com](https://github.com/jbranchaud/til/blob/master/git/intent-to-add.md){website}
+  - '[github.com](https://github.com/jbranchaud/til/blob/master/git/intent-to-add.md){website}'
+
+
+---
+
+# Intent to add
 
 ---
 ## Content
@@ -30,6 +35,7 @@ Show that you intend to track `enki.md` :
 ```
 $ git ??? ??? enki.md
 ```
+
 * `add`
 * `-N`
 * `-n`
@@ -43,8 +49,10 @@ Which flag specifies the *intention* to add a file in the future?
 ```
 $ git add ???
 ```
+
 * `-N`
 * `-n`
 * `-A`
 * `-a`
 * `-m`
+

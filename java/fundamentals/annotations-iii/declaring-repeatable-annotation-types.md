@@ -1,4 +1,4 @@
-# Declaring `@Repeatable` annotation types
+---
 author: adamMontgomerie
 
 levels:
@@ -21,10 +21,15 @@ tags:
 
   - java-8
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/annotations/repeating.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/annotations/repeating.html){website}'
+
+
+---
+
+# Declaring `@Repeatable` annotation types
 
 ---
 ## Content
@@ -48,3 +53,4 @@ public @interface Contributors {
 }
 ```
 The container has one field which is an array of the type of annotation we wish to store.
+

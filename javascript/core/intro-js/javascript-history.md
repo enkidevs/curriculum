@@ -1,4 +1,4 @@
-# JavaScript History
+---
 author: alexjmackey
 
 levels:
@@ -7,19 +7,27 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 tags:
+
   - introduction
+
   - workout
+
   - obscura
+
 
 links:
 
-  - >-
-    [www.w3.org](https://www.w3.org/community/webed/wiki/A_Short_History_of_JavaScript){website}
+  - '[www.w3.org](https://www.w3.org/community/webed/wiki/A_Short_History_of_JavaScript){website}'
+
+
+---
+
+# JavaScript History
 
 ---
 ## Content
@@ -39,6 +47,7 @@ How is **JavaScript** related to **Java**?
 
 ???
 
+
 * They are not related
 * JavaScript has its origins in Java
 * They are basically the same
@@ -49,7 +58,9 @@ How is **JavaScript** related to **Java**?
 
 The first version of JavaScript was developed by ??? in only 10 days.
 
+
 * Brendan Eich
 * Bjarne Stroustrup
 * James Gosling
 * Linus Torvalds
+

@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  sql.choose-sql-datatype.0: 10
+
 tags:
 
   - introduction
@@ -88,7 +91,7 @@ A data type used to store currency values:
 ## Practice
 
 Create a table PostgreSQL table with a serial ID column PK that is `bigint`:
-```SQL
+```sql
 ??? ??? gen_100_pokemon(
   id ???,
   name text,

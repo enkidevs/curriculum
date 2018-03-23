@@ -1,4 +1,4 @@
-# `vhost` in **Express**
+---
 author: catalin
 
 levels:
@@ -13,11 +13,16 @@ type: normal
 
 category: how to
 
-parent: easy-way-to-deliver-html-pages-with-express
 
 links:
 
   - '[github.com](https://github.com/expressjs/vhost){website}'
+
+parent: easy-way-to-deliver-html-pages-with-express
+
+---
+
+# `vhost` in **Express**
 
 ---
 ## Content
@@ -30,7 +35,7 @@ $ npm install vhost
 ```
 And imported:
 ```javascript
-var vhost = require('vhost`);
+var vhost = require('vhost');
 ```
 
 The constructor has two parameters: `hostname` and `handler`. The former can be a string or a **RegExp** object. 
@@ -48,6 +53,7 @@ app.use(vhost('ex.example.com', exApp));
 
 Once the host is matched and the request sent to the handler, the `req.vhost` property will be populated with... ???
 
+
 * an object with numeric properties corresponding to every wildcard and hostname.
 * an object for each wildcard and hostname.
 * an object per set of wildcards and hostnames.
@@ -57,9 +63,10 @@ Once the host is matched and the request sent to the handler, the `req.vhost` pr
 ## Revision
 
 What parameters does the `vhost` parameter need ?
-```js
+```javascript
 vhost(???, ???);
 ```
+
 
 * `hostname`
 * `handler`
@@ -67,3 +74,4 @@ vhost(???, ???);
 * `require`
 * `connect`
 * `req.vhost`
+

@@ -1,4 +1,4 @@
-# Load Initial Data via AJAX
+---
 author: tommarshall
 
 levels:
@@ -13,12 +13,16 @@ type: normal
 
 category: must-know
 
-parent: custom-proptype-s-to-be-required
 
 links:
 
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/tips/initial-ajax.html){website}
+  - '[facebook.github.io](https://facebook.github.io/react/tips/initial-ajax.html){website}'
+
+parent: custom-proptype-s-to-be-required
+
+---
+
+# Load Initial Data via AJAX
 
 ---
 ## Content
@@ -27,7 +31,7 @@ Data is typically fetched in the  `componentDidMount` lifecycle method. When the
 
 If processing an asynchronous request response, ensure the component is still mounted prior to updating its state. This can be done by tracking mount and unmount within the component, and checking it hasn't been unmounted before calling `setState`:
 
-```JavaScript
+```javascript
 var loadData = React.createClass({
  componentDidMount() {
     this.mounted = true;   
@@ -47,3 +51,4 @@ var loadData = React.createClass({
   }
 });
 ```
+

@@ -1,8 +1,10 @@
-# Styling Brackets
+---
 author: mihaiberq
 
 levels:
+
   - beginner
+
   - basic
 
 type: normal
@@ -10,14 +12,22 @@ type: normal
 category: tip
 
 tags:
+
   - introduction
+
+
+
+
+---
+
+# Styling Brackets
 
 ---
 ## Content
 
 Styling is something that shouldn't influence the performance of the code in any way, and differs from team to team. It's rare that developers agree on camel case syntax versus underscore naming conventions, tabs versus spaces, or brackets position. However, for JavaScript in general and Node in particular, brackets location isn't just a debate. Let's look at  an example:
 
-```js
+```javascript
 function right() {
   return {
     status: 'right',
@@ -34,7 +44,7 @@ function wrong()
 ```
 At the first glance, both functions seem to return the same **object**, which contains the property `status`. However, the output is as follows:
 
-```js
+```javascript
 console.log(right().status);
 // right
 
@@ -42,13 +52,13 @@ console.log(wrong().status);
 // undefined
 ```
 JavaScript's main complex data type is the `Object`. Object instances are created using brackets:
-```js
+```javascript
 const obj = {
   status: 'right',
 };
 ```
 Brackets are also used for separating blocks of code with the same scope (functions, if/else clauses, etc.):
-```js
+```javascript
 function echo() {
   const status = 'right';
 }
@@ -74,7 +84,7 @@ console.log(status);
 
 Wherever you choose to place your brackets limiting scope, the result will be the same: `status` is undefined. However, things are not the same when brackets are used to return an object:
 
-```js
+```javascript
 function wrong()
 {
   return
@@ -85,7 +95,7 @@ function wrong()
 console.log(wrong())
 ```
 Will print `undefined`. This happens because of a JavaScript property called *automatic semicolon insertion* (ASI). This property is what allows you to write JS code without having to add semicolon after each statement. Hence, the function above effectively becomes:
-```js
+```javascript
 function wrong() {
   return; // equivalent to return undefined;
   // this is ignored
@@ -97,7 +107,7 @@ function wrong() {
 In conclusion, having the open bracket on the same line as the function is recommended as it promotes the correct syntax is cases where JS would normally append a semicolon.
 
 *Note:* This is not restricted to brackets only. The following syntax:
-```js
+```javascript
 function wrong() {
   return
     'wrong';
@@ -109,7 +119,7 @@ Will also return undefined.
 ## Practice
 
 In order for the brackets placement to be less prone to error and consistent throughout the project, it is recommended that you use style ??? in your code:
-```js
+```javascript
 // style A
 function A() {
   return {
@@ -134,6 +144,7 @@ function C()
   };
 }
 ```
+
 * A
 * B
 * C
@@ -142,7 +153,7 @@ function C()
 ## Revision
 
 What is the name of the JavaScript property acting upon the following return clause?
-```js
+```javascript
 function tictac() {
   return
   {
@@ -152,6 +163,7 @@ function tictac() {
 ```
 ???
 
+
 * Automatic semicolon insertion
 * Scoping
 * Automatic bracket placement
@@ -160,19 +172,22 @@ function tictac() {
 ---
 ## Quiz
 
-headline: what will the following snippet output?
+### What will the following snippet output?
 
-question: |
-  function pi() {
-    return
-    {
-      pi: 3.14
-    }
+```javascript
+function pi() {
+  return
+  {
+    pi: 3.14
   }
-  console.log(pi())
+}
+console.log(pi())
+```
 
-answers:
-  - undefined
-  - {pi: 3.14}
-  - SyntaxError
-  - {'pi': 3.14}
+ ???
+
+* undefined
+* [object Object]
+* SyntaxError
+* [object Object]
+

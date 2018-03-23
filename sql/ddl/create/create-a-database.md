@@ -16,8 +16,7 @@ category: must-know
 inAlgoPool: false
 
 standards:
-
-  - sql.create-database: 10
+  sql.create-database.0: 10
 
 tags:
 
@@ -86,4 +85,3 @@ Using `createdb` command, create a db called "test_db" and add an initial commen
 * LIST
 * CREATE DATABASE
 * practice_qw
-

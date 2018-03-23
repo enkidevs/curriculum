@@ -18,8 +18,7 @@ category: must-know
 inAlgoPool: false
 
 standards:
-
-  - sql.aggregate-single-table: 10
+  sql.aggregate-single-table.3: 10
 
 tags:
 
@@ -138,4 +137,3 @@ avg      | item_category_id
 * SUM
 * ORDER BY
 * GROUP
-

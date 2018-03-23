@@ -16,8 +16,8 @@ category: must-know
 inAlgoPool: false
 
 standards:
-
-  - sql.define-tables: 10
+  sql.define-tables.0: 10
+  sql.define-tables.1: 10
 
 tags:
 

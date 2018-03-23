@@ -1,4 +1,4 @@
-# Avoid using `with`
+---
 author: rosielowther
 
 levels:
@@ -14,12 +14,18 @@ type: normal
 category: best practice
 
 standards:
+
   js.javascript-syntax.0: 10
+
 
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/with){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/with){website}'
+
+
+---
+
+# Avoid using `with`
 
 ---
 ## Content
@@ -59,16 +65,19 @@ var a, x;
 x = ??? ;
 a = ??? ;
 ```  
-*Math.random()
-*Math.exp(x)
-*Math.exp()
-*Math.random(x)
+
+* Math.random()
+* Math.exp(x)
+* Math.exp()
+* Math.random(x)
 
 ---
 ## Revision
 
 A downside of using `with` is that ???
 
-*you can make global variables by mistake.
-*it shortens code.
-*you don’t have to repeat object references.
+
+* you can make global variables by mistake.
+* it shortens code.
+* you don’t have to repeat object references.
+

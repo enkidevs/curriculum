@@ -14,8 +14,8 @@ category: feature
 inAlgoPool: false
 
 standards:
-
-  - sql.connect-client: 10
+  sql.connect-client.0: 10
+  sql.connect-client.1: 10
 
 tags:
 
@@ -80,4 +80,3 @@ What is user name?
 
 * pokemon
 * ashketchum
-

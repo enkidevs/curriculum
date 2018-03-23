@@ -1,17 +1,23 @@
-# What is npm?
+---
 author: mihaiberq
 
 levels:
+
   - beginner
 
 type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [docs.npmjs.com](https://docs.npmjs.com/getting-started/what-is-npm){website}
+  - '[docs.npmjs.com](https://docs.npmjs.com/getting-started/what-is-npm){website}'
+
+
+---
+
+# What is npm?
 
 ---
 ## Content
@@ -35,6 +41,7 @@ The aim of a package is to
 
 ???
 
+
 * solve specific problems efficiently
 * solve every problem in an application efficiently
 * encapsulate the application
@@ -46,6 +53,8 @@ The aim of a package is to
 
 ???
 
+
 * node package manager
 * new package manager
 * node packet manager
+

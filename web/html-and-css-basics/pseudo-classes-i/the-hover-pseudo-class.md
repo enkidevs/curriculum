@@ -1,13 +1,22 @@
-# The `hover` Pseudo-Class
+---
 author: mihaiberq
 
 levels:
-    - basic
-    - medium
+
+  - basic
+
+  - medium
 
 type: normal
 
 category: feature
+
+
+
+
+---
+
+# The `hover` Pseudo-Class
 
 ---
 ## Content
@@ -33,10 +42,10 @@ The `:hover` pseudo-class can only be applied to `<a>` (link) elements.
 
 ???
 
+
 * False
 * True
 * Partially true, applicable to some browsers
-
 
 ---
 ## Revision
@@ -50,8 +59,10 @@ In which of the following cases, will the `:hover` pseudo-class most likely work
 
 ???
 
+
 * 3
 * 1
 * 2
 * 4
 * None
+

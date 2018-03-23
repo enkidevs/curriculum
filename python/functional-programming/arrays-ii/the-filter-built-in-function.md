@@ -1,4 +1,4 @@
-# The `filter` Built-in Function
+---
 author: stefkn
 
 levels:
@@ -13,11 +13,17 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[map, filter, and reduce](http://www.bogotobogo.com/python/python_fncs_map_filter_reduce.php)'
-  - '[Lambda, filter, reduce and map](http://www.python-course.eu/lambda.php)'
-  - '[9 Python Filter Function and List Comprehension Examples](http://www.thegeekstuff.com/2014/05/python-filter-and-list)'
+  - '[map, filter, and reduce](http://www.bogotobogo.com/python/python_fncs_map_filter_reduce.php){website}'
+  - '[Lambda, filter, reduce and map](http://www.python-course.eu/lambda.php){website}'
+  - '[9 Python Filter Function and List Comprehension Examples](http://www.thegeekstuff.com/2014/05/python-filter-and-list){website}'
+
+
+---
+
+# The `filter` Built-in Function
 
 ---
 ## Content
@@ -78,6 +84,7 @@ print(filter(special_function, customers))
 ???
 ```
 
+
 * The 3-tuples of customers where the associated boolean is `True` and the email includes the substring `'corporate.com'`.
 * The names of customers where their associated boolean is `True` and the email includes the substring `'corporate.com'`.
 * The 3-tuples of customers whose names are longer than zero characters.
@@ -98,13 +105,13 @@ print(filter(mystery_function, numbers))
 
 ???
 
+
 * `[-3, -2, -1]`
 * `[-1, -2, -3]`
 * `[1, 2, 3]`
 
 ---
 ## Footnotes
-
 [1:map]
 *Used alongside the `map` function, filter can be very useful in applying a complex operation on a iterable collection of data, and picking out the members of the collection that meet a certain criteria after the `map` has been applied.*
 

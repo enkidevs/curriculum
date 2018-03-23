@@ -18,6 +18,10 @@ category: must-know
 inAlgoPool: false
 
 standards:
+  sql.define-columns.0: 10
+  sql.define-columns.2: 10
+
+links:
 
   - sql.define-columns: 10
 
@@ -99,4 +103,3 @@ id | region_id |      name
 * ALTER TABLE generation DROP COLUMN region_id;
 * ALTER TABLE generation DROP region_id;
 * ALTER generation DROP COLUMN region_id;
-

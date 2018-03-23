@@ -1,4 +1,4 @@
-# What are Node Modules?
+---
 author: tommarshall
 
 levels:
@@ -15,10 +15,16 @@ type: normal
 
 category: must-know
 
-parent: npm-nodes-package-manager
 
 links:
-- '[Node Modules](http://book.mixu.net/node/ch8.html)'
+
+  - '[Node Modules](http://book.mixu.net/node/ch8.html){website}'
+
+parent: npm-nodes-package-manager
+
+---
+
+# What are Node Modules?
 
 ---
 ## Content
@@ -40,6 +46,8 @@ Using modules when building Node applications give a number of advantages:
 What type of module is the `http` module?
 ???
 
+
 * Core
 * Local
 * Third party
+

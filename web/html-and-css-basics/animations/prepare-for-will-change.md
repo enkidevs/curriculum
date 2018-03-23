@@ -1,4 +1,4 @@
-# Prepare for `will-change`
+---
 author: Mathieu
 
 levels:
@@ -15,14 +15,17 @@ tags:
 
   - future
 
-notes: 'http://www.creativebloq.com/css3/tips-breathe-new-life-your-css-61411880'
 
 links:
 
-  - >-
-    [addyosmani.com](http://addyosmani.com/blog/be-careful-when-using-null-transform-hacks-to-force-gpu-acceleration/){website}
-
+  - '[addyosmani.com](http://addyosmani.com/blog/be-careful-when-using-null-transform-hacks-to-force-gpu-acceleration/){website}'
   - '[dev.w3.org](http://dev.w3.org/csswg/css-will-change/){website}'
+
+notes: 'http://www.creativebloq.com/css3/tips-breathe-new-life-your-css-61411880'
+
+---
+
+# Prepare for `will-change`
 
 ---
 ## Content
@@ -36,6 +39,8 @@ Soon, you'll be able to tell the browser what you plan to change about an elemen
 
 In what way does `will-animate` make your pages run faster? ???
 
+
 * It makes animations run faster.
 * It makes code faster.
 * It helps people read your page faster.
+

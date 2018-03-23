@@ -1,4 +1,4 @@
-# Number Extensions (Part 2)
+---
 author: alexjmackey
 
 levels:
@@ -7,14 +7,20 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number){website}'
-  
+
+
+---
+
+# Number Extensions (Part 2)
+
 ---
 ## Content
 
@@ -45,3 +51,4 @@ Number.isSafeInteger(unsafe); //false
 Number.MIN_SAFE_INTEGER; //-9007199254740991
 Number.MAX_SAFE_INTEGER; //9007199254740991
 ```
+

@@ -1,4 +1,4 @@
-# Let (Part 1)
+---
 author: alexjmackey
 
 levels:
@@ -7,13 +7,19 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: tip
 
+inAlgoPool: false
+
+
 links:
-  
+
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let){website}'
+
+
+---
+
+# Let (Part 1)
 
 ---
 ## Content
@@ -46,3 +52,4 @@ let notGlobal="Enki";
 console.log(window.notGlobal);
 //undefined
 ```
+

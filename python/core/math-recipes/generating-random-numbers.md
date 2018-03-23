@@ -1,4 +1,4 @@
-# Generating `random` numbers
+---
 author: catalin
 
 levels:
@@ -11,17 +11,21 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: feature
 
-notes: Math modules workout
+inAlgoPool: false
+
 
 links:
 
   - '[pymotw.com](https://pymotw.com/2/random/){website}'
-
   - '[docs.python.org](https://docs.python.org/3.5/library/random.html){website}'
+
+notes: Math modules workout
+
+---
+
+# Generating `random` numbers
 
 ---
 ## Content
@@ -74,14 +78,15 @@ Generate a random Integer between `5` and `10` :
 print(???.???(5, 10))
 ```
 
-*`random` 
-*`randint` 
-*`randomint` 
-*`get` 
-*`new` 
-*`randomrange` 
-*`randrange` 
-*`uniform`
+
+* `random` 
+* `randint` 
+* `randomint` 
+* `get` 
+* `new` 
+* `randomrange` 
+* `randrange` 
+* `uniform`
 
 ---
 ## Revision
@@ -91,7 +96,9 @@ Generate a random number between 0 and 1:
 print(random.???())
 ```
 
-*`random` 
-*`new` 
-*`get` 
-*`new_random`
+
+* `random` 
+* `new` 
+* `get` 
+* `new_random`
+

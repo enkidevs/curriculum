@@ -1,4 +1,4 @@
-# Implementing **weak** references
+---
 author: catalin
 
 levels:
@@ -11,17 +11,21 @@ type: normal
 
 category: how to
 
+
+links:
+
+  - '[pymotw.com](https://pymotw.com/2/weakref/){website}'
+  - '[docs.python.org](https://docs.python.org/3.5/library/weakref.html){website}'
+
 notes: >
   Note by Vasudev:
 
   Insight does not show the benefit of using weak references. Change it so it
   does.
 
-links:
+---
 
-  - '[pymotw.com](https://pymotw.com/2/weakref/){website}'
-
-  - '[docs.python.org](https://docs.python.org/3.5/library/weakref.html){website}'
+# Implementing **weak** references
 
 ---
 ## Content
@@ -77,6 +81,7 @@ Check to see if a reference, `e`, exists:
 ```
 if e ??? not ???
 ```
+
 * `is`
 * `None`
 * `equals`
@@ -96,6 +101,7 @@ enki = Python()
 r = ???.ref(???)
 ```
 
+
 * `weakref`
 * `enki`
 * `create`
@@ -107,16 +113,17 @@ r = ???.ref(???)
 
 ---
 ## Quiz
+### how would you check a variable for NoneType?
 
-headline: how would you check a variable for NoneType?
+```python
+x = None:
+if ...
+  print('x is None')
+```
 
-question: |
-  x = None:
-  if ...
-    print('x is None')
+ ???
 
-answers:
-  - if x is None
-  - if x == None
-  - if not x
-  - if x is not None
+* if x is None
+* if x == None
+* if not x
+* if x is not None

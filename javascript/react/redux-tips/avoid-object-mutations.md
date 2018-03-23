@@ -1,4 +1,4 @@
-# Avoid object mutations
+---
 author: catalin
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [egghead.io](https://egghead.io/lessons/javascript-redux-avoiding-object-mutations-with-object-assign-and-spread){website}
+  - '[egghead.io](https://egghead.io/lessons/javascript-redux-avoiding-object-mutations-with-object-assign-and-spread){website}'
+
+
+---
+
+# Avoid object mutations
 
 ---
 ## Content
@@ -48,6 +53,7 @@ return ???.???({}, myObj, {
 });
 
 ```
+
 * `Object`
 * `assign`
 * `...`
@@ -65,9 +71,11 @@ return ???.???({}, myObj, {
 });
 
 ```
+
 * `Object`
 * `assign`
 * `...`
 * `clone`
 * `add`
 * `myObject`
+

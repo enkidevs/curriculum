@@ -1,4 +1,4 @@
-# Responsive images in a layout
+---
 author: nene
 
 levels:
@@ -17,15 +17,17 @@ tags:
 
   - images
 
-parent: using-media-rule-to-create-cross-platform-responsiveness
 
 links:
 
-  - >-
-    [learn.shayhowe.com](http://learn.shayhowe.com/advanced-html-css/responsive-web-design/){website}
+  - '[learn.shayhowe.com](http://learn.shayhowe.com/advanced-html-css/responsive-web-design/){website}'
+  - '[developers.google.com](https://developers.google.com/web/fundamentals/layouts/rwd-fundamentals/use-media-queries?hl=en){website}'
 
-  - >-
-    [developers.google.com](https://developers.google.com/web/fundamentals/layouts/rwd-fundamentals/use-media-queries?hl=en){website}
+parent: using-media-rule-to-create-cross-platform-responsiveness
+
+---
+
+# Responsive images in a layout
 
 ---
 ## Content
@@ -74,11 +76,13 @@ img {
 }
 ```
 
-*`@media`
-*`450px`
-*`max-width`
-*`min-width`
-*`width`
-*`tablet`
-*`screen-size`
-*`@resize`
+
+* `@media`
+* `450px`
+* `max-width`
+* `min-width`
+* `width`
+* `tablet`
+* `screen-size`
+* `@resize`
+

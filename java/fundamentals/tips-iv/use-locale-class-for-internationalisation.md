@@ -1,4 +1,4 @@
-# Use `Locale` class for Internationalisation
+---
 author: adamMontgomerie
 
 levels:
@@ -21,10 +21,15 @@ tags:
 
   - locale
 
+
 links:
 
-  - >-
-    [docs.oracle.com](http://docs.oracle.com/javase/7/docs/api/java/util/Locale.html){website}
+  - '[docs.oracle.com](http://docs.oracle.com/javase/7/docs/api/java/util/Locale.html){website}'
+
+
+---
+
+# Use `Locale` class for Internationalisation
 
 ---
 ## Content
@@ -43,3 +48,4 @@ System.out.format(
 );
 //output: 3,14
 ```
+

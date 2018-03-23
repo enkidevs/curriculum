@@ -1,4 +1,4 @@
-# Java Identifiers
+---
 author: mihaiberq
 
 levels:
@@ -13,9 +13,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# Java Identifiers
 
 ---
 ## Content
@@ -34,7 +41,9 @@ Java is case sensitive, so `myident` and `myIdent` are two different identifiers
 
 An identifier is a variable's ???.
 
-*name
-*value
-*type
-*size
+
+* name
+* value
+* type
+* size
+

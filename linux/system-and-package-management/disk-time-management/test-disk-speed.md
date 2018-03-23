@@ -1,4 +1,4 @@
-# Test disk speed
+---
 author: tuwi.dc
 
 levels:
@@ -29,7 +29,13 @@ tags:
 
   - terminal
 
+
+
 notes: ''
+
+---
+
+# Test disk speed
 
 ---
 ## Content
@@ -65,14 +71,14 @@ What command should be run with the following options to obtain an I/O performan
 $ ??? if=/dev/zero of= ~/testfile
       bs=1G count=1 oflag=direct
 ```
-*`dd`
-*`dw`
-*`sudo`
-*`Dd`
+
+* `dd`
+* `dw`
+* `sudo`
+* `Dd`
 
 ---
 ## Footnotes
-
 [1:Avoiding cache]
 The file system cache (*buffed cache*) stores in memory recently used blocks of data to speed up the future access (the same principle applies to the RAM memory, which the buffer cache may borrow to store more data).
 

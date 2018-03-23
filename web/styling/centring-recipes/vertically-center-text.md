@@ -1,4 +1,4 @@
-# Vertically center text
+---
 author: Mathieu
 
 levels:
@@ -11,13 +11,17 @@ type: normal
 
 category: pattern
 
-notes: >-
-  http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/
 
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height){website}'
+
+notes: >-
+  http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/
+
+---
+
+# Vertically center text
 
 ---
 ## Content
@@ -47,6 +51,7 @@ In the following example, what is the distance between the first and the second 
 ```
 ???
 
+
 * `50px`
 * `25px`
 * `5px`
@@ -75,6 +80,8 @@ Which of the following CSS code snippets will vertically centre a line of text?
 
 ```
 ???
+
 * b
 * a
 * c
+

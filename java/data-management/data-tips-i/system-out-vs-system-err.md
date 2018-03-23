@@ -1,4 +1,4 @@
-# `System.out` vs `System.err`
+---
 author: pawel
 
 levels:
@@ -11,12 +11,16 @@ type: normal
 
 category: tip
 
-notes: ''
 
 links:
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/3163399/difference-between-system-out-println-and-system-err-println){website}
+  - '[stackoverflow.com](http://stackoverflow.com/questions/3163399/difference-between-system-out-println-and-system-err-println){website}'
+
+notes: ''
+
+---
+
+# `System.out` vs `System.err`
 
 ---
 ## Content
@@ -33,7 +37,9 @@ You may redirect both streams to different destinations (e.g files) to create an
 Which stream does `System.err` print to?
 
 ???
-*Error stream
-*Input stream
-*Output stream
-*Music stream
+
+* Error stream
+* Input stream
+* Output stream
+* Music stream
+

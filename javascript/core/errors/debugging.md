@@ -1,4 +1,4 @@
-# Debugging
+---
 author: alexjmackey
 
 levels:
@@ -7,16 +7,27 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 standards:
+
   js.exceptions.4: 10
 
 tags:
+
   - introduction
+
   - workout
+
+
+
+
+---
+
+# Debugging
+
 ---
 ## Content
 
@@ -28,7 +39,7 @@ On most browsers the debugging features can be brought up with the **F12** key.
 
 **debugger;**
 
-If you want the debugger to stop on a line of code and dont want to add a breakpoint you can add the statement ```debugger;``` in your code. Then if the browser tools are open the debugger will stop when it reaches this statement.
+If you want the debugger to stop on a line of code and dont want to add a breakpoint you can add the statement `debugger;` in your code. Then if the browser tools are open the debugger will stop when it reaches this statement.
 
 **Logging Variables**
 
@@ -50,10 +61,11 @@ What statement will make the debugger stop at its line?
 
 ???
 
-*`debugger;`
-*`stop;`
-*`break;`
-*`debug;`
+
+* `debugger;`
+* `stop;`
+* `break;`
+* `debug;`
 
 ---
 ## Revision
@@ -63,8 +75,10 @@ How can you log variables into the console?
 ```
 ???.???(myVar);
 ```
-*`console`
-*`log`
-*`alert`
-*`debugger;`
-*`addVar`
+
+* `console`
+* `log`
+* `alert`
+* `debugger;`
+* `addVar`
+

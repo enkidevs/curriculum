@@ -1,4 +1,4 @@
-# Getting help
+---
 author: catalin
 
 levels:
@@ -7,13 +7,19 @@ levels:
 
 type: normal
 
+category: how to
+
 inAlgoPool: false
 
-category: how to
 
 links:
 
   - '[irc.freenode.net](irc.freenode.net){website}'
+
+
+---
+
+# Getting help
 
 ---
 ## Content
@@ -53,6 +59,7 @@ $ ??? ???-???
 
 ```
 
+
 * `man`
 * `git`
 * `branch`
@@ -67,8 +74,10 @@ What flag can you use after a git command to show its documentation?
 $ git clone ???
 ```
 
+
 * `--help`
 * `--manpage`
 * `help`
 * `--man`
 * `--info`
+

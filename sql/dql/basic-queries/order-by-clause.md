@@ -16,8 +16,8 @@ category: must-know
 inAlgoPool: false
 
 standards:
-
-  - sql.read-single-table: 10
+  sql.read-single-table.0: 10
+  sql.read-single-table.3: 10
 
 tags:
 

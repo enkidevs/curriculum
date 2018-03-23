@@ -1,18 +1,27 @@
-# Preparing Your Module For Publishing
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: how to
 
+
+
 parent: creating-a-node-module
+
+---
+
+# Preparing Your Module For Publishing
 
 ---
 ## Content
@@ -55,5 +64,7 @@ You should now be able to find your package in the npm registry.
 
 Scoped packages are ??? by default.
 
+
 * private
 * public
+

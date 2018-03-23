@@ -18,8 +18,7 @@ category: must-know
 inAlgoPool: false
 
 standards:
-
-  - sql.aggregate-single-table: 10
+  sql.aggregate-single-table.0: 10
 
 tags:
 
@@ -44,7 +43,7 @@ Using `COUNT` function[1]:
 
 ```
 SELECT COUNT(experience) AS count
-FROM experience 
+FROM experience
 LIMIT 5;
 
 

@@ -1,4 +1,4 @@
-# Printing to the console!
+---
 author: tommarshall
 
 levels:
@@ -7,9 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# Printing to the console!
 
 ---
 ## Content
@@ -32,10 +39,11 @@ print('Python 3')
 
 Pythons simplest directive is the ??? directive. It prints out a line and incorporates a ???.
 
-*`print` 
-*`new line` 
-*`python` 
-*`break`
+
+* `print` 
+* `new line` 
+* `python` 
+* `break`
 
 ---
 ## Revision
@@ -45,11 +53,13 @@ Print to the console in Python 3:
 ```
 ??? ??? Python 3! ???
 ```
-*`print` 
-*`('` 
-*`')` 
-*`'` 
-*`'` 
-*`(` 
-*`)` 
-*`write`
+
+* `print` 
+* `('` 
+* `')` 
+* `'` 
+* `'` 
+* `(` 
+* `)` 
+* `write`
+

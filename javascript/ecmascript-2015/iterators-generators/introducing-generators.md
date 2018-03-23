@@ -1,4 +1,4 @@
-# Introducing Generators
+---
 author: alexjmackey
 
 levels:
@@ -9,13 +9,19 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
+
 links:
-  
+
   - '[MDN - Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}'
+
+
+---
+
+# Introducing Generators
 
 ---
 ## Content
@@ -54,3 +60,4 @@ gen.next(); //{value: 4, done: false}
 gen.next(); //{value: 5, done: false}
 gen.next(); //{value: undefined, done: true}
 ```
+

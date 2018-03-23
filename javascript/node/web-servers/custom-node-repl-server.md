@@ -1,4 +1,4 @@
-# Custom Node REPL Server
+---
 author: catalin
 
 levels:
@@ -13,9 +13,15 @@ type: normal
 
 category: how to
 
+
 links:
 
   - '[nodejs.org](https://nodejs.org/api/repl.html){website}'
+
+
+---
+
+# Custom Node REPL Server
 
 ---
 ## Content
@@ -63,10 +69,11 @@ replServer.???(???, function() {
 });
 
 ```
-*`on`
-*`'exit'`
-*`'close'`
-*`'end'`
+
+* `on`
+* `'exit'`
+* `'close'`
+* `'end'`
 
 ---
 ## Revision
@@ -78,7 +85,9 @@ replServer.???(???, function() {
 });
 
 ```
-*`on`
-*`'exit'`
-*`'close'`
-*`'end'`
+
+* `on`
+* `'exit'`
+* `'close'`
+* `'end'`
+

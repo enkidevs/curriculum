@@ -1,4 +1,4 @@
-# Setting default values with `short circuiting`
+---
 author: pawel
 
 levels:
@@ -12,17 +12,26 @@ type: normal
 category: pattern
 
 standards:
+
   js.write-expressions.5: 10
 
 tags:
+
   - short-circuiting
+
   - introduction
-  - workout 
+
+  - workout
+
 
 links:
 
-  - >-
-    [javascriptissexy.com](http://javascriptissexy.com/12-simple-yet-powerful-javascript-tips/){website}
+  - '[javascriptissexy.com](http://javascriptissexy.com/12-simple-yet-powerful-javascript-tips/){website}'
+
+
+---
+
+# Setting default values with `short circuiting`
 
 ---
 ## Content
@@ -55,10 +64,11 @@ function shortCir(name){
   return ??? ??? 'John Doe';
 }
 ```
-*name
-*||
-*&&
-*==
+
+* name
+* ||
+* &&
+* ==
 
 ---
 ## Revision
@@ -70,7 +80,9 @@ function shortCir(name){
   return ??? ??? 'John Doe';
 }
 ```
-*name
-*||
-*&&
-*==
+
+* name
+* ||
+* &&
+* ==
+

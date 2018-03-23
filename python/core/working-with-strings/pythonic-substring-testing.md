@@ -1,4 +1,4 @@
-# Pythonic substring testing
+---
 author: Ricardo
 
 levels:
@@ -17,6 +17,13 @@ tags:
 
   - in
 
+
+
+
+---
+
+# Pythonic substring testing
+
 ---
 ## Content
 
@@ -32,7 +39,7 @@ if 'Hello' in string:
 Instead of:
 
 
-```python 
+```python
 string = 'Hello world'
 if string.find('Hello') != -1:
   print 'Success!'
@@ -49,13 +56,14 @@ string = “Hey there”
   print “found it”
 #found it
 ```
-*`if` 
-*`in` 
-*`for` 
-*`is` 
-*`match` 
-*`else` 
-*`try`
+
+* `if` 
+* `in` 
+* `for` 
+* `is` 
+* `match` 
+* `else` 
+* `try`
 
 ---
 ## Revision
@@ -64,8 +72,10 @@ What keyword can be used in Python for substring testing?
 
 ???
 
-*`in` 
-*`for` 
-*`is` 
-*`matches` 
-*`yield`
+
+* `in` 
+* `for` 
+* `is` 
+* `matches` 
+* `yield`
+

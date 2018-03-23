@@ -1,4 +1,4 @@
-# What are Streams?
+---
 author: tommarshall
 
 levels:
@@ -15,10 +15,16 @@ type: normal
 
 category: must-know
 
-parent: handling-event-errors
 
 links:
-- '[Node Streams](https://maxogden.com/node-streams.html)'
+
+  - '[Node Streams](https://maxogden.com/node-streams.html){website}'
+
+parent: handling-event-errors
+
+---
+
+# What are Streams?
 
 ---
 ## Content
@@ -29,11 +35,11 @@ These special methods define whether a stream is Readable, Writable, or Duplex (
 
 An example use of a Node stream is in a Node based HTTP server, `request` would be a readable stream, and `response` a writable stream. The filesystem, `fs`, module allows readable and writable streams to be implemented.
 
-
 ---
 ## Revision
 
 Streams are ??? allowing data to be read from a source and for data to be piped to a destination.
+
 
 * unix pipes
 * transport methods
@@ -41,6 +47,5 @@ Streams are ??? allowing data to be read from a source and for data to be piped 
 
 ---
 ## Footnotes
-
 [1:unix pipes]
 A `pipe` is a form of redirection that is used in **Linux** and other **Unix**-like operating systems to send the *output* of one program to another program for further processing (as *input*).

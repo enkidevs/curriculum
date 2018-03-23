@@ -1,4 +1,4 @@
-# Deadlock Prevention
+---
 author: Nick Daminov
 
 levels:
@@ -9,9 +9,15 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - '[More on Deadlock Prevention](https://en.wikipedia.org/wiki/Deadlock_prevention_algorithms)'
+  - '[More on Deadlock Prevention](https://en.wikipedia.org/wiki/Deadlock_prevention_algorithms){website}'
+
+
+---
+
+# Deadlock Prevention
 
 ---
 ## Content
@@ -38,7 +44,9 @@ What is a *master* lock?
 
 ???
 
+
 * The key is to prevent a deadlock situation is to avoid one of the conditions necessary for it
 * A general single lock which which is required by every process in order to run
 * Hope it will not occur
 * It is a lock that is acquired by a master process
+

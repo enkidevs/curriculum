@@ -1,22 +1,31 @@
-# The Trie Data Structure
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
 links:
-    - >-
-        [Working with tries](https://medium.com/algorithms/trie-prefix-tree-algorithm-ee7ab3fe3413){website}
+
+  - '[Working with tries](https://medium.com/algorithms/trie-prefix-tree-algorithm-ee7ab3fe3413){website}'
 
 parent: o-logn-operations-for-heaps
+
+---
+
+# The Trie Data Structure
+
 ---
 ## Content
 
@@ -42,7 +51,9 @@ They are also called *prefix trees* because a *pre-order traversal* would visit 
 How long does searching for a word take?
 
 ???
+
 * O(word's length)
 * O(trie's size)
 * O(word's length * trie's size)
 * O(log n)
+

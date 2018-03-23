@@ -16,8 +16,7 @@ category: must-know
 inAlgoPool: false
 
 standards:
-
-  - sql.read-multiple-tables: 10
+  sql.read-multiple-tables.0: 10
 
 tags:
 
@@ -44,7 +43,7 @@ The `LEFT JOIN`, or `LEFT OUTER JOIN`, is a type of join whose result contains *
 In case of a `LEFT JOIN`, if the joined field has no match in the second table, the right-hand table columns values are defaulted to `NULL`. The same rule applies for the `RIGHT JOIN`'s unmatched rows.
 
 A `LEFT JOIN` is performed like this:
-```SQL
+```sql
 SELECT move.id, move.name,
   type.id, type.name AS type_name
 FROM move
@@ -62,7 +61,7 @@ id | name  | id | type_name
 1  | pound | 1  | normal
 ```
 The equivalent `RIGHT OUTER JOIN`:
-```SQL
+```sql
 SELECT move.id, move.name,
   type.id, type.name AS type_name
 FROM move
@@ -110,7 +109,7 @@ The difference between inner join (IJ) and left outer join (LOJ) is that
 ## Revision
 
 Complete the following snippet such that the command is a valid `RIGHT JOIN`:
-```SQL
+```sql
 SELECT *
 ??? type
 ??? type_efficacy ???

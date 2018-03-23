@@ -1,4 +1,4 @@
-# Blobs
+---
 author: tommarshall
 
 levels:
@@ -13,9 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
   - '[www.javascripture.com](http://www.javascripture.com/Blob){website}'
+
+
+---
+
+# Blobs
 
 ---
 ## Content
@@ -23,7 +29,7 @@ links:
 A *blob* object represents an "almost file" object of raw data. It represents data that isn't in JavaScript's standard format. You use *FileReader* to read data from a blob.
 
 To create a blob, use the blob constructor:
-```JavaScript
+```javascript
 var debug = {hello: "world"};
 var blob = new Blob([
   JSON.stringify(debug, null, 2)
@@ -31,7 +37,7 @@ var blob = new Blob([
 ```
 
 To create a subset of a blob, use the *slice()* method:
-```JavaScript
+```javascript
 var blob = instanceOfBlob.slice([
   start [, end [, contentType]]
 ]);
@@ -50,6 +56,7 @@ var blob = new ???([
     {type : 'application/json'});
 ```
 
+
 * `Blob`
 * `stringify`
 * `Instance`
@@ -67,8 +74,10 @@ var blob = instanceOfBlob.???([
  start, [, end [, contentType]]
 ]);
 ```
-*`slice`
-*`subset`
-*`splice`
-*`concat`
-*`stringify`
+
+* `slice`
+* `subset`
+* `splice`
+* `concat`
+* `stringify`
+

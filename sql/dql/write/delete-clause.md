@@ -16,8 +16,7 @@ category: must-know
 inAlgoPool: false
 
 standards:
-
-  - sql.write: 10
+  sql.write.5: 10
 
 tags:
 
@@ -159,4 +158,3 @@ id |     name
 * DELETE FROM egg_group WHERE id= 15;
 * UPDATE egg_group DELETE WHERE id=15;
 * DELETE FROM egg_group;
-

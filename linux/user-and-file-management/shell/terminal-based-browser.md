@@ -1,4 +1,4 @@
-# Terminal based browser
+---
 author: tuwi.dc
 
 levels:
@@ -25,7 +25,14 @@ tags:
 
   - get
 
-  - ''
+  - 
+
+
+
+
+---
+
+# Terminal based browser
 
 ---
 ## Content
@@ -61,6 +68,8 @@ You can browse websites from the terminal using the
 
 ??? .
 
-*lynx package
-*browse package
-*firefox package
+
+* lynx package
+* browse package
+* firefox package
+

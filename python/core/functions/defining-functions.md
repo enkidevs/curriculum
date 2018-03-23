@@ -1,4 +1,4 @@
-# Defining Functions
+---
 author: tommarshall
 
 levels:
@@ -7,13 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[anh.cs.luc.edu](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/functions.html){website}'
+
+
+---
+
+# Defining Functions
 
 ---
 ## Content
@@ -57,6 +63,7 @@ def function 4()
 ```
 ???
 
+
 * `Function 1`
 * `Function 2`
 * `Function 3`
@@ -68,6 +75,8 @@ def function 4()
 What keyword is used to define a new function?
 ???
 
+
 * `def`
 * `new`
 * `func`
+

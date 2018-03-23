@@ -14,8 +14,7 @@ category: must-know
 inAlgoPool: false
 
 standards:
-
-  - sql.define-sequences-or-default-values: 10
+  sql.define-tables.2: 10
 
 tags:
 
@@ -95,4 +94,3 @@ GO;
 * name
 * region_id
 * INSERT
-

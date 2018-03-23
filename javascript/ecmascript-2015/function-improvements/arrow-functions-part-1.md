@@ -1,4 +1,4 @@
-# Arrow Functions (Part 1)
+---
 author: lizTheDeveloper
 
 levels:
@@ -9,9 +9,9 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: feature
+
+inAlgoPool: false
 
 tags:
 
@@ -21,9 +21,15 @@ tags:
 
   - functions
 
+
 links:
 
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions){website}'
+
+
+---
+
+# Arrow Functions (Part 1)
 
 ---
 ## Content
@@ -69,10 +75,12 @@ foo() => {
   return planets.map(??? => ???);
 }
 ```
+
 * `planet`
 * `return planet.length`
 * `planet.length`
 * `{planet}`
+
 ---
 ## Revision
 
@@ -86,8 +94,10 @@ var integers = [1,2,3,4,5,6,7,8,9];
 integers.filter(???);
 ```
 
+
 * `(n) => {return n % 2 == 0}`
 * `n => {n % 2 === 0}`
 * `n => n % 2 !== 0`
 * `{n} => {n % 2 != 0}`
 * `n => [return n % 2 === 0]`
+

@@ -1,4 +1,4 @@
-# The `jhat` tool
+---
 author: catalin
 
 levels:
@@ -11,13 +11,17 @@ type: normal
 
 category: feature
 
-notes: >-
-  https://insights.enki.com/#/contrib/others/55f421b8742fb322000e0d7c?search=khandelwalrinki
 
 links:
 
-  - >-
-    [docs.oracle.com](http://docs.oracle.com/javase/7/docs/technotes/tools/share/jhat.html){website}
+  - '[docs.oracle.com](http://docs.oracle.com/javase/7/docs/technotes/tools/share/jhat.html){website}'
+
+notes: >-
+  https://insights.enki.com/#/contrib/others/55f421b8742fb322000e0d7c?search=khandelwalrinki
+
+---
+
+# The `jhat` tool
 
 ---
 ## Content
@@ -53,10 +57,11 @@ Change the webserver port:
 ```
 $ jhat ??? 8080 enki.hprof
 ```
-*`-port` 
-*`port` 
-*`-p` 
-*`p`
+
+* `-port` 
+* `port` 
+* `-p` 
+* `p`
 
 ---
 ## Revision
@@ -65,6 +70,8 @@ Allow jhat to use extra memory:
 ```
 $ jhat ??? enki.hprof
 ```
-*`-J-mx1024` 
-*`-mx1024` 
-*`-m1024`
+
+* `-J-mx1024` 
+* `-mx1024` 
+* `-m1024`
+

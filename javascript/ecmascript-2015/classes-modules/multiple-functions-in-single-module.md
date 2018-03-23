@@ -1,4 +1,4 @@
-# Multiple Functions in Single Module
+---
 author: alexjmackey
 
 levels:
@@ -9,15 +9,20 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
+
 links:
-  
+
   - '[MDN - Import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import){website}'
-  
   - '[MDN - Export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export){website}'
+
+
+---
+
+# Multiple Functions in Single Module
 
 ---
 ## Content
@@ -75,3 +80,4 @@ if (condition) {
  import 'double'; //error
 }
 ```
+

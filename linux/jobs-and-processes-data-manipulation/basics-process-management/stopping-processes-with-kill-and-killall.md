@@ -1,4 +1,4 @@
-# Stopping Processes With `kill` And `killall`
+---
 author: jfarmer
 
 levels:
@@ -9,15 +9,19 @@ levels:
 
 type: normal
 
+category: tip
+
 inAlgoPool: false
 
-category: tip
 
 links:
 
-  - >-
-    [Kill
-    signals](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_12_01.html){website}
+  - '[Kill signals](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_12_01.html){website}'
+
+
+---
+
+# Stopping Processes With `kill` And `killall`
 
 ---
 ## Content
@@ -28,7 +32,7 @@ The `kill` command expects to be given a process ID (or PID), which can be found
 
 Consider the following output from `ps`:
 
-```console
+```shell
 $ ps
   PID TTY           TIME CMD
 20735 ttys000    0:00.10 -bash
@@ -63,10 +67,11 @@ Match with the correct argument:
 $ kill ???
 $ killall ???
 ```
-*`processID`
-*`processname`
-*`taskID`
-*`username`
+
+* `processID`
+* `processname`
+* `taskID`
+* `username`
 
 ---
 ## Revision
@@ -74,7 +79,9 @@ $ killall ???
 Force killing a process is done by attaching a 
 
 ??? code.
-*-9
-*-2
-*-3
-*-7
+
+* -9
+* -2
+* -3
+* -7
+

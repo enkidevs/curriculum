@@ -13,12 +13,7 @@ category: must-know
 
 inAlgoPool: false
 
-standards:
-
-  - sql: 5
-
 tags:
-
   - introduction
 
   - workout
@@ -61,4 +56,3 @@ What is SQL (Structured Query Language)?
 
 * A user friendly language that allows to operate on a database.
 * A low level/assembly language that is used to store information on a piece of hardware.
-

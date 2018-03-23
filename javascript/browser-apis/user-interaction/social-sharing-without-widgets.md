@@ -1,4 +1,4 @@
-# Social sharing without widgets
+---
 author: catalin
 
 levels:
@@ -11,9 +11,15 @@ type: normal
 
 category: tip
 
+
 links:
 
   - '[davidwalsh.name](https://davidwalsh.name/social-sharing-links){website}'
+
+
+---
+
+# Social sharing without widgets
 
 ---
 ## Content
@@ -34,7 +40,7 @@ function shareTwitter(url, text) {
 }
 ```
 Share on **Facebook**:
-```javascript 
+```javascript
 function shareFacebook(url, text, image) {
   open(`http://facebook.com/sharer.php?
   s=100&p[url]=` + encodeURIComponent(url)
@@ -69,6 +75,7 @@ function shareTwitter(url, text) {
   location=0');  
 }
 ```
+
 * `open`
 * `url`
 * `text`
@@ -77,3 +84,4 @@ function shareTwitter(url, text) {
 * `fetch`
 * `page`
 * `share`
+

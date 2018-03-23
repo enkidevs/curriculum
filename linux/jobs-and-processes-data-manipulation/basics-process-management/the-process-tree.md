@@ -1,4 +1,4 @@
-# The Process Tree
+---
 author: jfarmer
 
 levels:
@@ -9,9 +9,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# The Process Tree
 
 ---
 ## Content
@@ -26,7 +33,7 @@ Similarly, when you see a "log in" prompt, this is actually the `login` command 
 
 The `ps` command displays a flat list of processes, but you can use the `pstree` command if you want to see a tree-like display.  Here's some example output from an Ubuntu web server:
 
-```console
+```shell
 $ pstree
 init─┬─atd
      ├─cron
@@ -64,17 +71,20 @@ systemd─┬─ModemManager─┬─{gdbus}
         └─konsole--bash─┬─pstree
                         └─{QXcbEventReader}
 ```
-*bash
-*ModemManager
-*konsole
-*QXcbEventReader
-*systemd
+
+* bash
+* ModemManager
+* konsole
+* QXcbEventReader
+* systemd
 
 ---
 ## Revision
 
 Every process has a common root process named ???.
-*init
-*root
-*systemd
-*bash
+
+* init
+* root
+* systemd
+* bash
+

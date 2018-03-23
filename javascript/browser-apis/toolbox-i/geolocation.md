@@ -1,4 +1,4 @@
-# Geolocation
+---
 author: tommarshall
 
 levels:
@@ -13,9 +13,15 @@ type: normal
 
 category: feature
 
+
 links:
 
   - '[www.sitepoint.com](http://www.sitepoint.com/html5-geolocation/){website}'
+
+
+---
+
+# Geolocation
 
 ---
 ## Content
@@ -28,7 +34,7 @@ Note that for privacy reasons the user must grant the API permission.
 
 To obtain the devices current position use the **getCurrentPosition** API:
 
-```JavaScript
+```javascript
   navigator.geolocation
   .getCurrentPosition(
     function(pos) {
@@ -41,7 +47,7 @@ To obtain the devices current position use the **getCurrentPosition** API:
 If you want to be informed automatically when the devices position changes you can use the 
 **geolocation.watchPosition** API.
 
-```JavaScript
+```javascript
 navigator.geolocation.watchPosition(
   function(pos) {
      var lat = pos.coords.latitude,
@@ -59,9 +65,11 @@ Complete the following JS code snippet to allow use of the Geolocation API allow
 ???.geolocation.???(
 ```
 
+
 * `navigator`
 * `watchPosition`
 * `device`
 * `permission`
 * `position`
 * `detect`
+

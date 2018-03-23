@@ -1,4 +1,4 @@
-# Recipe to normalize text
+---
 author: catalin
 
 levels:
@@ -11,19 +11,24 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: how to
+
+inAlgoPool: false
 
 tags:
 
-  - ''
+  - 
 
-parent: unicode-character-database-at-your-hands
 
 links:
 
   - '[gist.github.com](https://gist.github.com/j4mie/557354){website}'
+
+parent: unicode-character-database-at-your-hands
+
+---
+
+# Recipe to normalize text
 
 ---
 ## Content
@@ -62,13 +67,14 @@ normal = unicodedata.???\
     ???('ASCII', 'ignore')
 print(normal)
 ```           
-*`normalize` 
-*`encode` 
-*`decode` 
-*`bytes` 
-*`string` 
-*`mod` 
-*`text`
+
+* `normalize` 
+* `encode` 
+* `decode` 
+* `bytes` 
+* `string` 
+* `mod` 
+* `text`
 
 ---
 ## Revision
@@ -77,7 +83,9 @@ What module has the `normalize` method used to normalise unicode data strings?
 
 ???
 
-*`unicodedata` 
-*`unicode` 
-*`normal` 
-*`normalize`
+
+* `unicodedata` 
+* `unicode` 
+* `normal` 
+* `normalize`
+

@@ -1,4 +1,4 @@
-# Introducing Promises
+---
 author: alexjmackey
 
 levels:
@@ -9,13 +9,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[MDN - Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
+
+
+---
+
+# Introducing Promises
 
 ---
 ## Content
@@ -39,3 +45,4 @@ One way of approaching this problem is to use callback functions. A callback fun
 Callbacks work great for simple scenarios but with more complex scenarios things get complex and out of control quickly - for example when you need to handle more complex flow conditions such as multiple callbacks and exceptions.
 
 A better approach is to use promises lets see how to do this next.
+

@@ -1,4 +1,4 @@
-# Exception Handling
+---
 author: SebaRaba
 
 levels:
@@ -11,9 +11,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[more about exception handling](https://docs.python.org/3/tutorial/errors.html)'
+  - '[more about exception handling](https://docs.python.org/3/tutorial/errors.html){website}'
+
+
+---
+
+# Exception Handling
 
 ---
 ## Content
@@ -80,6 +86,7 @@ Can we define a single except clauses that will catch all types of exceptions?
 
 ???
 
+
 * yes
 * no
 * depends on the exception
@@ -90,6 +97,8 @@ Can we define a single except clauses that will catch all types of exceptions?
 What are the two optional clauses of the `try-except` statement?
 ???
 
+
 * `else` and `finally`
 * `if` and `return`
 * `elif` and `break`
+

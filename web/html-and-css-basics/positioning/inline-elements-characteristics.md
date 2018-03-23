@@ -1,4 +1,4 @@
-# Inline Elements Characteristics
+---
 author: Mathieu
 
 levels:
@@ -7,16 +7,20 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
-notes: 'http://www.webcredible.com/blog-reports/css/more-css-tricks.shtml'
+inAlgoPool: false
+
 
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente){website}'
+
+notes: 'http://www.webcredible.com/blog-reports/css/more-css-tricks.shtml'
+
+---
+
+# Inline Elements Characteristics
 
 ---
 ## Content
@@ -47,10 +51,11 @@ Which of the following elements is * not * an inline element?
 
 ???
 
-*`<form>` 
-*`<label>` 
-*`<strong>` 
-*`<input>`
+
+* `<form>` 
+* `<label>` 
+* `<strong>` 
+* `<input>`
 
 ---
 ## Revision
@@ -58,8 +63,10 @@ Which of the following elements is * not * an inline element?
 Which of the following elements is not inline? 
 
 ???
+
 * `<p>`
 * `<em>`
 * `<span>`
 * `<input>`
 * `<img>`
+

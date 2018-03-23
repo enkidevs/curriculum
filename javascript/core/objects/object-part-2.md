@@ -1,4 +1,4 @@
-# Object - Part 2
+---
 author: alexjmackey
 
 levels:
@@ -7,17 +7,28 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 standards:
+
   js.data-types-structures.3: 10
+
   js.data-types-structures.4: 10
 
 tags:
+
   - introduction
+
   - workout
+
+
+
+
+---
+
+# Object - Part 2
 
 ---
 ## Content
@@ -65,6 +76,8 @@ You can even implement inheritance in JavaScript by building on this but this is
 You can invoke an object's method by writing:
 
 ???
-*ob.methodName();
-*ob.methodName;
-*methodName(ob);
+
+* ob.methodName();
+* ob.methodName;
+* methodName(ob);
+

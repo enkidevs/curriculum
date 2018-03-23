@@ -18,6 +18,7 @@ category: must-know
 inAlgoPool: false
 
 standards:
+  sql.define-columns.2: 10
 
   - sql.define-sequences-or-default-values: 10
 
@@ -114,4 +115,3 @@ id | version_group_id |      name
 * ALTER TABLE version ALTER COLUMN name SET DEFAULT 'ruby';
 * ALTER TABLE region ALTER COLUMN name SET DEFAULT 'ruby';
 * ALTER TABLE version ALTER name SET DEFAULT 'ruby';
-

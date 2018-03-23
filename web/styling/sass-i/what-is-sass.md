@@ -1,14 +1,22 @@
-# What Is Sass?
+---
 author: mihaiberq
 
 levels:
 
-    - basic
-    - medium
+  - basic
+
+  - medium
 
 type: normal
 
 category: must-know
+
+
+
+
+---
+
+# What Is Sass?
 
 ---
 ## Content
@@ -91,6 +99,7 @@ div p {
 
 The CSS extensions with indented syntax is ???
 
+
 * Sass
 * SCSS
 * less
@@ -103,8 +112,10 @@ Fill in the gaps such that the following statement becomes true (pick `_` if no 
 ```
 Any ??? CSS file is a valid ??? file.
 ```
+
 * valid
 * SCSS
 * Sass
 * _
 * preprocessed
+

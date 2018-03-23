@@ -1,4 +1,4 @@
-# Sass Extend/Inheritance
+---
 author: tommarshall
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: tip
 
+
 links:
 
-  - >-
-    [sass-lang.com](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#extend){website}
+  - '[sass-lang.com](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#extend){website}'
+
+
+---
+
+# Sass Extend/Inheritance
 
 ---
 ## Content
@@ -25,7 +30,7 @@ The `@extend` feature of *Sass* is one of its most useful features. Using `@exte
 
 `@extend` is used when there is a case where one class should have all the same styles of another already defined class, plus its own specific styles. 
 
-```CSS
+```css
 .message {
   border: 1px solid #6699ff;
   padding: 10px;
@@ -37,7 +42,7 @@ The `@extend` feature of *Sass* is one of its most useful features. Using `@exte
 }
 ```
 The code in CSS that this generates:
-```CSS
+```css
 .message, .success {
   border: 1px solid #6699ff;
   padding: 10px;
@@ -53,7 +58,9 @@ The code in CSS that this generates:
 ## Revision
 
 Which is the correct way to use Sass @extend to extend the class *properties*? ???
+
 * @extend .properties;
 * properties(@extend);
 * @extend(properties);
 * extend .properties;
+

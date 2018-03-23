@@ -1,4 +1,4 @@
-# `while` loops
+---
 author: tommarshall
 
 levels:
@@ -7,9 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# `while` loops
 
 ---
 ## Content
@@ -56,7 +63,9 @@ while (x < 5):
 ```
 ???
 
-*`1 2 3 4 5`
-*`0 1 2 3 4`
-*`1 2 3 4`
-*`0 1 2 3 4 5`
+
+* `1 2 3 4 5`
+* `0 1 2 3 4`
+* `1 2 3 4`
+* `0 1 2 3 4 5`
+

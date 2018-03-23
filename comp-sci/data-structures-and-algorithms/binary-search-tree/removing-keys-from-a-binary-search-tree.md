@@ -1,18 +1,28 @@
-# Removing Keys From a Binary Search Tree
+---
 author: jfarmer
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: how to
 
+
+
 parent: inserting-data-into-a-binary-search-tree
+
+---
+
+# Removing Keys From a Binary Search Tree
+
 ---
 ## Content
 
@@ -61,6 +71,7 @@ Which node in the left sub-tree would replace *10* in case of its removal?
 
 ???
 ```
+
 * `6`
 * `1`
 * `5`
@@ -73,6 +84,8 @@ Which node in the left sub-tree would replace *10* in case of its removal?
 Which BST deletion case does require the most work?
 
 ???
+
 * When the node has two children
 * When the node has one child
 * When the node has no children
+

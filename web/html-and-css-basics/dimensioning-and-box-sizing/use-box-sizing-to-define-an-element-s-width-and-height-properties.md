@@ -1,4 +1,4 @@
-# Use `box-sizing` to define an element's `width` and `height` properties 
+---
 author: priyankinirmal
 
 levels:
@@ -25,9 +25,15 @@ tags:
 
   - border-box
 
+
 links:
 
   - '[css-tricks.com](https://css-tricks.com/box-sizing/){website}'
+
+
+---
+
+# Use `box-sizing` to define an element's `width` and `height` properties 
 
 ---
 ## Content
@@ -49,9 +55,10 @@ Which properties default value is `content-box` ?
 
 ???
 
-*`box-sizing` 
-*`padding-box` 
-*`border-box`
+
+* `box-sizing` 
+* `padding-box` 
+* `border-box`
 
 ---
 ## Revision
@@ -60,8 +67,10 @@ What's the default value for `box-sizing`?
 
 ???
 
+
 * `content-box`
 * 0
 * `undefined`
 * `padding-box`
 * `border-box`
+

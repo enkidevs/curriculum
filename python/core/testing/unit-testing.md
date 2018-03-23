@@ -1,4 +1,4 @@
-# Unittest
+---
 author: SebaRaba
 
 levels:
@@ -9,9 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[learn more about unit testing](https://docs.python.org/3/library/unittest.html)'
+  - '[learn more about unit testing](https://docs.python.org/3/library/unittest.html){website}'
+
+
+---
+
+# Unittest
 
 ---
 ## Content
@@ -81,12 +87,14 @@ Ran 1 tests in 0.000s
 
 OK
 ```
+
 ---
 ## Practice
 
 `setUp()` method defines instructions/code that will be run
 
 ???
+
 
 * before each test method
 * after each test method
@@ -100,6 +108,8 @@ OK
 
 ???
 
+
 * a condition is met
 * an expected result is met
 * a specific exception is raised
+

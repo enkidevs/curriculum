@@ -18,8 +18,7 @@ category: must-know
 inAlgoPool: false
 
 standards:
-
-  - sql.aggregate-single-table: 10
+  sql.aggregate-single-table.0: 10
 
 tags:
 

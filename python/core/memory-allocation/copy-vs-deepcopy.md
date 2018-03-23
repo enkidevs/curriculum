@@ -1,4 +1,4 @@
-# `copy` vs `deepcopy`
+---
 author: mihaiberq
 
 levels:
@@ -8,6 +8,13 @@ levels:
 type: normal
 
 category: must-know
+
+
+
+
+---
+
+# `copy` vs `deepcopy`
 
 ---
 ## Content
@@ -95,6 +102,7 @@ b[1].append(3)
 print(a)
 ???
 ```
+
 * `[1, []]`
 * `[1, 3]`
 * `[1, [3]]`
@@ -107,7 +115,9 @@ A `deepcopy` means
 
 ???
 
+
 * making a new copy in memory of every layer of the data structure
 * making a copy in memory of the first layer of the data structure
 * making a copy of the data structure's reference
 * allocating some memory to a data structure
+

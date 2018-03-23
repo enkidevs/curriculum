@@ -1,4 +1,4 @@
-# Review of Sets
+---
 author: SebaRaba
 
 levels:
@@ -9,9 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[More about sets](http://www.python-course.eu/python3_sets_frozensets.php)'
+  - '[More about sets](http://www.python-course.eu/python3_sets_frozensets.php){website}'
+
+
+---
+
+# Review of Sets
 
 ---
 ## Content
@@ -97,6 +103,7 @@ Is there any difference between the outputs of `x & y` and `y & x`?
 
 ???
 
+
 * No
 * Yes
 * Depending on the sets
@@ -108,6 +115,8 @@ Which operation is performed using `^` operator?
 
 ???
 
+
 * `symmetric difference`
 * `difference`
 * `union`
+

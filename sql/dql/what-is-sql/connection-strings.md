@@ -14,8 +14,10 @@ category: must-know
 inAlgoPool: false
 
 standards:
-
-  - sql.connect-client: 10
+  sql.connect-client.0: 10
+  sql.connect-client.1: 10
+  sql.connect-client.2: 10
+  sql.connect-client.3: 10
 
 tags:
 
@@ -111,4 +113,3 @@ Connect to a `puppies` database, this one hosted on Postgres. Use the username `
 * `mysql`
 * `?ssl=true`
 * `mssql`
-

@@ -14,8 +14,8 @@ category: how to
 inAlgoPool: false
 
 standards:
-
-  - sql.connect-client: 10
+  sql.connect-client.0: 10
+  sql.connect-client.1: 10
 
 tags:
 
@@ -154,4 +154,3 @@ What is a database driver?
 
 * It is a library in a certain language and it is specific to a certain DBMS
 * It is Java specific library which allows the user to connect to the MySQL database
-

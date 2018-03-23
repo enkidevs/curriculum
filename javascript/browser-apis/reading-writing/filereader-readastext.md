@@ -1,4 +1,4 @@
-# FileReader.readAsText()
+---
 author: tommarshall
 
 levels:
@@ -11,10 +11,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsText){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsText){website}'
+
+
+---
+
+# FileReader.readAsText()
 
 ---
 ## Content
@@ -23,11 +28,11 @@ The `readAsText()` method is used to read text files. It takes two parameters, t
 
 
 Creating a new instance of File Reader.
-```JavaScript
+```javascript
 var reader = new FileReader();
 ```
 Reading the text file. 
-```Javascript
+```javascript
 reader.onload = function(e) {
   var text = reader.result;
 }
@@ -45,6 +50,7 @@ reader.onload = function(e) {
 }
 reader.readAsText(file, ???);
 ```
+
 
 * `result`
 * `encoding`
@@ -68,10 +74,12 @@ reader.onload = function(e) {
 ???.???(file,encoding);
 ```
 
-*`reader`
-*`readAsText`
-*`onload`
-*`read`
-*`readText`
-*`readFile`
-*`file`
+
+* `reader`
+* `readAsText`
+* `onload`
+* `read`
+* `readText`
+* `readFile`
+* `file`
+

@@ -14,8 +14,8 @@ category: feature
 inAlgoPool: false
 
 standards:
-
-  - sql.connect-client: 10
+  sql.connect-client.0: 10
+  sql.connect-client.1: 10
 
 tags:
 
@@ -126,4 +126,3 @@ How can you connect to a database with Python?
 
 * By using dedicated libraries
 * Python provides an inbuilt db functionality
-

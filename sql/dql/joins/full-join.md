@@ -16,8 +16,7 @@ category: must-know
 inAlgoPool: false
 
 standards:
-
-  - sql.read-multiple-tables: 10
+  sql.read-multiple-tables.0: 10
 
 tags:
 
@@ -41,7 +40,7 @@ links:
 The `FULL JOIN`, or `FULL OUTER JOIN`, is a type of join that combines the functionality of `RIGHT JOIN` and `LEFT JOIN`. In other words, it returns matching rows, rows that are only in the left-hand table and rows that are only in the right-hand table.
 
 If we are to fall back to the previous example of *moves* and *types*, the output won't be different:
-```SQL
+```sql
 SELECT move.id, move.name,
   type.id, type.name AS type_name
 FROM move
@@ -66,7 +65,7 @@ Here's what a FULL JOIN represents:
 ## Practice
 
 Fill in the gaps such that the following snippet becomes a valid `FULL OUTER JOIN`:
-```SQL
+```sql
 ??? *
 FROM ???
 ??? berry_firmness ???
@@ -85,7 +84,7 @@ WHERE berry_firmness.id = 2???
 ## Revision
 
 The correct syntax for fully joining two tables is:
-```SQL
+```sql
 SELECT *
 FROM pokemon_type
 ??? type ???

@@ -1,4 +1,4 @@
-# Readable Streams
+---
 author: tommarshall
 
 levels:
@@ -15,10 +15,16 @@ type: normal
 
 category: must-know
 
-parent: what-are-streams
 
 links:
-- '[Readable Streams](https://nodejs.org/api/stream.html)'
+
+  - '[Readable Streams](https://nodejs.org/api/stream.html){website}'
+
+parent: what-are-streams
+
+---
+
+# Readable Streams
 
 ---
 ## Content
@@ -56,12 +62,12 @@ Encoding can be set on the stream like follows:
 rstream.setEncoding(‘utf8’);
 ```
 
-
 ---
 ## Practice
 
 Which of the following Node modules needs to be required prior to a readable stream being created?
 ???
+
 
 * File system
 * http
@@ -76,6 +82,8 @@ What method is called to create a static readable stream?
 var stream = fs.???('file.txt');
 ```
 
+
 * `createReadStream`
 * `staticReadableStream`
 * `readableStream`
+

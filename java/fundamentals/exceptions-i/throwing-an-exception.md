@@ -1,4 +1,4 @@
-# Throwing an `exception`
+---
 author: catalin
 
 levels:
@@ -11,13 +11,17 @@ type: normal
 
 category: must-know
 
-notes: |
-  https://insights.enki.com/#/contrib/55a3b45d2a4a89320042e651
 
 links:
 
-  - >-
-    [crunchify.com](http://crunchify.com/better-understanding-on-checked-vs-unchecked-exceptions-how-to-handle-exception-better-way-in-java/){website}
+  - '[crunchify.com](http://crunchify.com/better-understanding-on-checked-vs-unchecked-exceptions-how-to-handle-exception-better-way-in-java/){website}'
+
+notes: |
+  https://insights.enki.com/#/contrib/55a3b45d2a4a89320042e651
+
+---
+
+# Throwing an `exception`
 
 ---
 ## Content
@@ -49,3 +53,4 @@ public void myMethod() throws IOException {
 An `exception` should be thrown when a fundamental assumption of the current code block is found to be false. 
 
 For example, a methods that counts the number of elements from a `List` should `throw` an `exception` if the given parameter is not a `List`.
+

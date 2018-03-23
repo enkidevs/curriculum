@@ -1,22 +1,31 @@
-# Prim's Algorithm
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
 links:
-    - >-
-        [Step-by-step, interactive Kruskal's algorithm application](https://www-m9.ma.tum.de/graph-algorithms/mst-prim/index_en.html){website}
+
+  - '[Step-by-step, interactive Kruskal`s algorithm application](https://www-m9.ma.tum.de/graph-algorithms/mst-prim/index_en.html){website}'
 
 parent: kruskals-iteration
+
+---
+
+# Prim's Algorithm
+
 ---
 ## Content
 
@@ -60,14 +69,29 @@ adjacency list + sorted array:
 Prim's algorithm can be applied for
 
 ???
+
 * connected, weighted undirected graphs
 * any weighted undirected graphs
 * any weighted graphs
 * any weighted connected graphs
 
 ---
-## Footnotes
+## Quiz
+### which algorithm is to be use in the following scenario?
 
+Consider a complete, weighted graph. If we want to compute its minimum spanning tree,
+which starts from a given node we choose, which algorithm should we use?
+
+
+ ???
+
+* Prim’s algorithm
+* Kruskal’s algorithm
+* Knapsack algorithm
+* Dijkstra’s algorithm
+
+---
+## Footnotes
 [1:Dense graphs]
 A dense graph is a graph in which the number of edges is close to a complete graph's number of edges. A complete graph is a graph for which there is an `edge between any two nodes`.
 
@@ -75,19 +99,3 @@ The maximal number of edges of a directed graph is `|V|×|V-1|`, while for an un
 
 [2: Graph Representation]
 If you remember the first Data Structure and Algorithm insight, we said that different data structures are optimized for different types of operations.
-
----
-## Quiz
-
-
-headline: which algorithm is to be use in the following scenario?
-
-question: |
-  Consider a complete, weighted graph. If we want to compute its minimum spanning tree,
-  which starts from a given node we choose, which algorithm should we use?
-
-answers:
-  - Prim’s algorithm
-  - Kruskal’s algorithm
-  - Knapsack algorithm
-  - Dijkstra’s algorithm

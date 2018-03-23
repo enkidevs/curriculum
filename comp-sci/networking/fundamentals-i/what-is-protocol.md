@@ -1,4 +1,4 @@
-# What is a protocol?
+---
 author: catalin
 
 levels:
@@ -9,13 +9,17 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - 'https://www.tutorialspoint.com/internet_technologies/internet_protocols.htm'
-
-  - 'http://www.comptechdoc.org/independent/networking/guide/netcategories.html'
+  - '[www.tutorialspoint.com](https://www.tutorialspoint.com/internet_technologies/internet_protocols.htm){website}'
+  - '[www.comptechdoc.org](http://www.comptechdoc.org/independent/networking/guide/netcategories.html){website}'
 
 parent: what-is-a-packet
+
+---
+
+# What is a protocol?
 
 ---
 ## Content
@@ -43,24 +47,12 @@ However, a single protocol might not be enough. For example, an additional rule 
 In the same way, communication over networks requires multiple **protocols**, organized hierarchically[2].
 
 ---
-## Footnotes
-
-[1:Fun fact]
-`FTP` was firstly published by Abhay Bhushan in **1971**, making it over **45** years old.
-
-[2:Network Layers]
-According to the **OSI model** (used for computer systems communication standardization) there are 7 layers of *networking protocols*.
-
-These layers range from a low-level **Physical Layer** to a high-level **Application Layer**.
-
-Any protocol can be pinpointed to a specific layer. For example, the `HTTP` protocol is situated on the **Session Layer** that manages continuous exchange of information.
-
----
 ## Practice
 
 Which of the following protocols is used solely for file transfer?
 
 ???
+
 
 * FTP
 * SMTP
@@ -72,6 +64,19 @@ Which of the following protocols is used solely for file transfer?
 
 Protocols are ??? that ensure efficient communication between two devices, over a network.
 
+
 * rules
 * privileges
 * properties
+
+---
+## Footnotes
+[1:Fun fact]
+`FTP` was firstly published by Abhay Bhushan in **1971**, making it over **45** years old.
+
+[2:Network Layers]
+According to the **OSI model** (used for computer systems communication standardization) there are 7 layers of *networking protocols*.
+
+These layers range from a low-level **Physical Layer** to a high-level **Application Layer**.
+
+Any protocol can be pinpointed to a specific layer. For example, the `HTTP` protocol is situated on the **Session Layer** that manages continuous exchange of information.

@@ -13,12 +13,7 @@ category: must-know
 
 inAlgoPool: false
 
-standards:
-
-  - sql: 5
-
 tags:
-
   - introduction
 
   - workout
@@ -73,4 +68,3 @@ What is RDBMS (Relational Database Management System)?
 * It is a piece of software that sits on a server and operates the data using high level language.
 * It is a software system that controls the data and which can be adjusted by the user in order to boost the efficiency of data storage.
 * It is a system of servers/supercomputers that manages a Relational Database.
-

@@ -1,4 +1,4 @@
-# Flexbox `flex-wrap`
+---
 author: Billiexu
 
 levels:
@@ -13,10 +13,15 @@ tags:
 
   - flexbox
 
+
 links:
 
-  - >-
-    [css-tricks.com](https://css-tricks.com/almanac/properties/f/flex-wrap/){website}
+  - '[css-tricks.com](https://css-tricks.com/almanac/properties/f/flex-wrap/){website}'
+
+
+---
+
+# Flexbox `flex-wrap`
 
 ---
 ## Content
@@ -62,10 +67,11 @@ Which of the following values will potentially overflow the container?
  flex-wrap: ???;
 }
 ```
-*`nowrap`
-*`wrap`
-*`wrap-reverse`
-*`unset`
+
+* `nowrap`
+* `wrap`
+* `wrap-reverse`
+* `unset`
 
 ---
 ## Revision
@@ -74,6 +80,8 @@ Which of the following Flexbox definitions is the definition for *wrap*?
 
 ???
 
+
 * Multi-lines where the direction is defined by flex-direction.
 * Multi-lines, opposite to the direction defined by flex-direction.
 * Single-line which could cause the container to overflow.
+

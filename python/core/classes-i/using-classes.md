@@ -1,4 +1,4 @@
-# Using Classes
+---
 author: mihaiberq
 
 levels:
@@ -8,6 +8,13 @@ levels:
 type: normal
 
 category: must-know
+
+
+
+
+---
+
+# Using Classes
 
 ---
 ## Content
@@ -50,7 +57,9 @@ class Car:
     ...
 ```
 ???
+
 * class attribute
 * instance attribute
 * class variable
 * instance variable
+
