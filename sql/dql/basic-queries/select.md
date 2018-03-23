@@ -15,10 +15,6 @@ category: must-know
 
 inAlgoPool: false
 
-standards:
-
-  - sql.read-single-table: 10
-
 tags:
 
   - introduction
