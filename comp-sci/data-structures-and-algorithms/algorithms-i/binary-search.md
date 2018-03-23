@@ -1,22 +1,30 @@
-# Binary search
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
 links:
-    - >-
-        [Binary Search](http://quiz.geeksforgeeks.org/binary-search/){website}
+
+  - '[Binary Search](http://quiz.geeksforgeeks.org/binary-search/){website}'
 
 parent: approximation-methods
+
+---
+
+# Binary search
 
 ---
 ## Content
@@ -72,7 +80,9 @@ The Big-O of the binary search algorithm is:
 
 ???
 
+
 * O(log n)
 * O(n)
 * O(nˆ2)
 * O(n*log n)
+
