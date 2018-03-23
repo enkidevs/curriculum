@@ -22,14 +22,14 @@ After opening a **file object**, we have three **operations** available in **Pyt
 - `readlines()`
 
 Suppose we have a file named `test.txt` with the following text inside:
-```txt
+```
 Hello!
 My name is Steve.
 Where is my food?
 ```
 We can read the entire file with `read()`:
 
-```py
+```python
 file = open('test.txt', 'r')
 print(file.read())
 
@@ -70,7 +70,7 @@ However, there's a workaround to this - the `seek()` function which allows you t
 ## Practice
 
 Suppose we have a file containing 5 lines. How do we read the first 2 of them?
-```py
+```python
 file = ???('my_file.txt', 'r')
 
 print(file.???())

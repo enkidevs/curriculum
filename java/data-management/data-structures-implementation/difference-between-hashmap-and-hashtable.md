@@ -42,7 +42,6 @@ Which one of the following classes is synchronized?
 
 ???
 
-
 * `Hashtable` 
 * `HashMap` 
 * `both` 
@@ -54,7 +53,6 @@ Which one of the following classes is synchronized?
 Which one of the following classes allow `null` values as keys?
 
 ???
-
 
 * `HashMap` 
 * `Hashtable` 

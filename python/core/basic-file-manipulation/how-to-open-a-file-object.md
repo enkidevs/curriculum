@@ -74,7 +74,7 @@ Imagine file pointer as a computer cursor that states on which line you are in t
 ## Practice
 
 Suppose we want to append something to a file and print its content. Fill the gaps accordingly:
-```py
+```python
 file = open('practice.py', '???')
 file.write('Append this')
 file.???(0)
@@ -93,7 +93,7 @@ print(file.???())
 ## Revision
 
 Suppose we want to open a file and write something to it. Fill the gaps accordingly:
-```py
+```python
 file = open('practice.txt', '???')
 file.???('this is my new file')
 ```

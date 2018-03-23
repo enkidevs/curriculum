@@ -43,7 +43,7 @@ A shell script accepts comments starting with `#` or `;` . Therefore, this scrip
 
 **Usage:**
 
-```sh
+```shell
 $ sudo clean_file /etc/ntp/conf
 ```
 
