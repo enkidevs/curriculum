@@ -15,9 +15,9 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/
+link: http://sqlfiddle.com/#!9/05b0f8
 
-answer: done
+answer: 1
 
 standards:
   sql.define-sequences-or-default-values.0: 1000
@@ -35,4 +35,4 @@ links:
 ---        
 ## Exercise
 
-Set the AUTO_INCREMENT to start at 100 for all item_ids.
+Set the AUTO_INCREMENT to start at 100 for all `item_id`s.

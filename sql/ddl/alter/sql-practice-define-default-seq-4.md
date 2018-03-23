@@ -15,24 +15,23 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/05b0f8/2
+link: http://sqlfiddle.com/
 
-answer: 0
+answer: PRIMARY
 
 standards:
-  sql.define-sequences-or-default-values.0: 1000
-
+  sql.define-sequences-or-default-values.1: 1000
+  sql.define-sequences-or-default-values.2: 1000
 
 links:
-  - '[mysql modify columns documentation](https://dev.mysql.com/doc/refman/5.7/en/example-auto-increment.html){website}'
-  - '[blog post on mysql define tables](https://www.tutorialspoint.com/mysql/mysql-using-sequences.htm){website}'
-  - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=5KqFoTswr-M){video}'
+  - '[mysql modify columns documentation](https://dev.mysql.com/doc/refman/5.7/en/create-index.html){website}'
+  - '[blog post on mysql define tables](https://atech.blog/viaduct/mysql-indexes-primer){website}'
+  - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=JjNef3tPltU){video}'
 
 ---
-# SQL Practice Aggregate Average
-
+# SQL Practice Alter Table
 ---        
 ## Exercise
 
-ADD primary key to requests table.
-In order to check your results write your `DDL` query, build the schema and run the provided DQL query. Then write in the answer field your the default value for `accepted` column.
+Add primary key to `requests` table.
+In order to check your results write your `DDL` query, build the schema and run the provided DQL query. Then write in the answer field the `Key_name` indicated in the result.
