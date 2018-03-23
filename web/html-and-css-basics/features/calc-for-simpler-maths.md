@@ -1,4 +1,4 @@
-# `calc()` for simpler maths
+---
 author: nene
 
 levels:
@@ -15,10 +15,15 @@ tags:
 
   - layout
 
+
 links:
 
-  - >-
-    [css-tricks.com](https://css-tricks.com/a-couple-of-use-cases-for-calc/){website}
+  - '[css-tricks.com](https://css-tricks.com/a-couple-of-use-cases-for-calc/){website}'
+
+
+---
+
+# `calc()` for simpler maths
 
 ---
 ## Content
@@ -68,6 +73,8 @@ Which of the following `calc()` syntaxes is the correct one?
 }
 ```
 ???
-*both
-*width
-*height
+
+* both
+* width
+* height
+

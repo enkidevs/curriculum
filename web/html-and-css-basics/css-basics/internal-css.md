@@ -1,4 +1,4 @@
-# Internal CSS
+---
 author: mihaiberq
 
 levels:
@@ -7,9 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# Internal CSS
 
 ---
 ## Content
@@ -55,6 +62,8 @@ The CSS code with the highest rendering priority is
 
 ???
 
+
 * inline CSS
 * internal CSS
 * external CSS
+

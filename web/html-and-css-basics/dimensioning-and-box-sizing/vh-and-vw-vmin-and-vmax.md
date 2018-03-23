@@ -1,4 +1,4 @@
-# `vh` and `vw`, `vmin` and `vmax`
+---
 author: Mathieu
 
 levels:
@@ -13,11 +13,16 @@ type: normal
 
 category: feature
 
-notes: ''
 
 links:
 
   - '[caniuse.com](http://caniuse.com/#feat=viewport-units){website}'
+
+notes: ''
+
+---
+
+# `vh` and `vw`, `vmin` and `vmax`
 
 ---
 ## Content
@@ -36,3 +41,4 @@ For example, here is a responsive square:
 The `square` class has the same value for width and height because the viewport might not be a square. For example, on a `1400×900` viewport, `20vw×20vh` would draw a `280×180` rectangle, not a square.
 
 `vmin` is equal to the smallest of `vh` and `vw`, while `vmax` is the largest.
+

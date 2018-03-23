@@ -1,4 +1,4 @@
-# Floating Elements
+---
 author: mihaiberq
 
 levels:
@@ -7,9 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# Floating Elements
 
 ---
 ## Content
@@ -82,7 +89,9 @@ And the result will be:
 
 Text ??? a floated element.
 
-*surrounds
-*pushes
-*overlaps
-*underlaps
+
+* surrounds
+* pushes
+* overlaps
+* underlaps
+

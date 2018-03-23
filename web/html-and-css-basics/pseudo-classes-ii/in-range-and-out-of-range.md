@@ -1,13 +1,22 @@
-# The `:in-range` and `:out-of-range` Pseudo-Classes
+---
 author: mihaiberq
 
 levels:
-    - basic
-    - medium
+
+  - basic
+
+  - medium
 
 type: normal
 
 category: feature
+
+
+
+
+---
+
+# The `:in-range` and `:out-of-range` Pseudo-Classes
 
 ---
 ## Content
@@ -41,6 +50,7 @@ For either `:in-range` and `:out-of-range` pseudo-classes to match, the element 
 
 ???
 
+
 * `min`, `max` or both attributes
 * `range` attribute
 * the type of input
@@ -52,6 +62,8 @@ For either `:in-range` and `:out-of-range` pseudo-classes to match, the element 
 
 ???
 
+
 * `min`, `max` or both attributes
 * `range` attribute
 * the type of input
+

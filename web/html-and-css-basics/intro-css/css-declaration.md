@@ -1,4 +1,4 @@
-# CSS Declaration
+---
 author: mihaiberq
 
 levels:
@@ -7,10 +7,16 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
+
+
+
+---
+
+# CSS Declaration
 
 ---
 ## Content
@@ -45,7 +51,6 @@ p{
 ```
 `p` is a type selector. Whatever CSS rule you apply to `p` in this example, it will affect all instances of `<p>` elements in the HTML document.
 
-
 ---
 ## Practice
 
@@ -55,6 +60,7 @@ Complete the following snippet with the general syntax for a CSS declaration:
   ??? ??? ???;
 }
 ```
+
 * `selector`
 * `property`
 * `:`
@@ -72,6 +78,7 @@ Complete the following snippet with the general syntax for a CSS declaration:
   ??? ??? ???;
 }
 ```
+
 * `selector`
 * `property`
 * `:`
@@ -79,3 +86,4 @@ Complete the following snippet with the general syntax for a CSS declaration:
 * `=`
 * `background-decoration`
 * `red`
+

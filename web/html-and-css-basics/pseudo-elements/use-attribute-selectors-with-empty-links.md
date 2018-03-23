@@ -1,4 +1,4 @@
-# Use attribute selectors with empty links
+---
 author: jordanfish
 
 levels:
@@ -11,9 +11,15 @@ type: normal
 
 category: hack
 
+
 links:
 
   - '[github.com](https://github.com/AllThingsSmitty/css-protips){website}'
+
+
+---
+
+# Use attribute selectors with empty links
 
 ---
 ## Content
@@ -46,9 +52,11 @@ a[???="http"]:empty::before {
 }
 ```
 
+
 * `href^`
 * `attr`
 * `href`
 * `link`
 * `display`
 * `disp^`
+

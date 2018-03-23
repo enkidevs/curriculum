@@ -1,4 +1,4 @@
-# @-Rules and Directives
+---
 author: tommarshall
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: best practice
 
+
 links:
 
-  - >-
-    [sass-lang.com](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#_5){website}
+  - '[sass-lang.com](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#_5){website}'
+
+
+---
+
+# @-Rules and Directives
 
 ---
 ## Content
@@ -50,12 +55,13 @@ Complete the code snippet so that it returns the below output:
 /* Output */
 Line 1 DEBUG: 42px 
 ```
-*`@debug` 
-*`14` 
-*`@run` 
-*`@compile` 
-*`42` 
-*`18`
+
+* `@debug` 
+* `14` 
+* `@run` 
+* `@compile` 
+* `42` 
+* `18`
 
 ---
 ## Revision
@@ -65,6 +71,8 @@ Which of the following lines of SassScript code *wouldn't* produce the following
 Line 1 DEBUG: 80%
 ```
 ???
+
 * `@debug percentage(200px / 120px);`
 * `@debug abs(80);`
 * `@debug round(80.42);`
+
