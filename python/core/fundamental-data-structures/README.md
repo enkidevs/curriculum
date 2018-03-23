@@ -11,7 +11,7 @@ insights:
 
 exercises:
   - py-practice-boolean
-  - py-practice-enumarator
+  - py-practice-enumertor
   - py-practice-sequence
   - py-practice-mapping
   - py-practice-mapping2
