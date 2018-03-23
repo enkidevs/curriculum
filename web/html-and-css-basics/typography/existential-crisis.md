@@ -11,7 +11,7 @@ levels:
 
 type: tetris
 
-category: tip
+category: must-know
 
 ---
 
