@@ -1,4 +1,4 @@
-# Promises - Reject
+---
 author: alexjmackey
 
 levels:
@@ -9,15 +9,20 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+inAlgoPool: false
 
 
 links:
 
   - '[MDN - Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
-  
+
+
+---
+
+# Promises - Reject
+
 ---
 ## Content
 
@@ -66,3 +71,4 @@ function(result){
  console.log(result);
 }); //enki
 ```
+

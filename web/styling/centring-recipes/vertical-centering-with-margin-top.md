@@ -1,4 +1,4 @@
-# Vertical centering with `margin-top`
+---
 author: Mathieu
 
 levels:
@@ -11,12 +11,17 @@ type: normal
 
 category: how to
 
-notes: >-
-  http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/
 
 links:
 
   - '[davidwalsh.name](http://davidwalsh.name/css-vertical-center){website}'
+
+notes: >-
+  http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/
+
+---
+
+# Vertical centering with `margin-top`
 
 ---
 ## Content
@@ -51,7 +56,9 @@ What does the following CSS code snippet do? ???
    margin-top: -200px;
 }
 ```
+
 * Vertically centres a block element with a known height.
 * Vertically centres a block element with unknown height.
 * Horizontally centres a block element with a known height.
 * Horizontally centres a block element with unknown height.
+

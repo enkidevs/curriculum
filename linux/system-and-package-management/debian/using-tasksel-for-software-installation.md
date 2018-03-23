@@ -1,4 +1,4 @@
-# Using `Tasksel` for software installation
+---
 author: tuwi.dc
 
 levels:
@@ -22,6 +22,13 @@ tags:
   - terminal
 
   - server
+
+
+
+
+---
+
+# Using `Tasksel` for software installation
 
 ---
 ## Content
@@ -61,8 +68,10 @@ To list all the packages that would be displayed in the `tasksel` UI, you would 
 ```
 $ ??? ??? ??? 
 ```
-*`sudo`
-*`tasksel`
-*`—list-tasks`
-*`-lt`
-*`taskel`
+
+* `sudo`
+* `tasksel`
+* `—list-tasks`
+* `-lt`
+* `taskel`
+

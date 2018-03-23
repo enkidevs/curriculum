@@ -1,4 +1,4 @@
-# Python versions
+---
 author: tommarshall
 
 levels:
@@ -7,9 +7,17 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+standards:
+  py.developer-environment.0: 10
+
+
+---
+
+# Python versions
 
 ---
 ## Content
@@ -50,7 +58,8 @@ Which of the following code snippets is Python 3 code?
 
 ???
 
-*`print ('Hello world!')`
-*`print 'Hello world!'`
-*`write 'Hello world!'`
-*`write ('Hello world!')`
+
+* `print ('Hello world!')`
+* `print 'Hello world!'`
+* `write 'Hello world!'`
+* `write ('Hello world!')`

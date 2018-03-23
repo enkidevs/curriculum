@@ -1,4 +1,4 @@
-# Using Classes
+---
 author: mihaiberq
 
 levels:
@@ -8,6 +8,13 @@ levels:
 type: normal
 
 category: must-know
+
+standards:
+  py.object-oriented.6: 10
+
+---
+
+# Using Classes
 
 ---
 ## Content
@@ -50,6 +57,7 @@ class Car:
     ...
 ```
 ???
+
 * class attribute
 * instance attribute
 * class variable

@@ -1,4 +1,4 @@
-# What Is Immutability?
+---
 author: stefkn
 
 levels:
@@ -13,14 +13,20 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[Immutability - Wikipedia](https://en.wikipedia.org/wiki/Immutable_object)'
+  - '[Immutability - Wikipedia](https://en.wikipedia.org/wiki/Immutable_object){website}'
+
+
+---
+
+# What Is Immutability?
 
 ---
 ## Content
 
-Immutability is a concept from object-oriented and functional programming. An **immutable object** is usually defined as an object that cannot be modified after its creation, I.E. it stays the exactly the same throughout its entire life cycle. This is the opposite of a **mutable object**, where modifications after creation are permitted. 
+Immutability is a concept from object-oriented and functional programming. An **immutable object** is usually defined as an object that cannot be modified after its creation, I.E. it stays the exactly the same throughout its entire life cycle. This is the opposite of a **mutable object**, where modifications after creation are permitted.
 
 For example, if we were to create a list of names in a **mutable** fashion, and wanted to add another name, we would do something like this:
 
@@ -69,6 +75,7 @@ What is the difference between mutability, strong immutability and weak immutabi
 
 ???
 
+
 * 3
 * 1
 * 4
@@ -81,14 +88,38 @@ How would we get the effect of adding another element to an immutable list?
 
 ???
 
+
 * Create a copy of the list with the new element added during creation.
 * Not possible.
 * use the `.append()` method on the list.
 * use the `+` operator.
 
 ---
-## Footnotes
+## Quiz
+### which of the following snippets prints False?
 
+```python
+# A
+print('hello' is 'hell' + 'o')
+# B
+s1 = 'hello'
+s2 = 'hell'
+print(s1 is s2 + 'o')
+# C
+s1 = 'hello'
+s2 = 'hell'
+print(s1 == s2 + 'o')
+```
+
+ ???
+
+* B
+* C
+* A
+* Neither
+
+---
+## Footnotes
 [1:Waste of Resources?]
 Just because an object is immutable does not mean the object stored in the computer's *memory* is un-rewritable. Depending on implementation, immutable copies of objects will not actually copy the original object in memory and replicate it elsewhere. Instead, the compiler might just copy the *reference*, a 'signpost' to a location in memory where the original object lies, and record only the modification made along with the reference. Some languages even use a feature called *interning*, where references to objects are always used in the place of equal copies, which results in substantial speedup for operations such as equality comparison between objects.
 
@@ -96,27 +127,3 @@ As a result of these techniques, immutability does not necessarily mean that the
 
 [2:Weakly Mutable]
 There are differing levels of immutability: **weak** and **strong**. An object is said to be **strongly immutable** if the entire object cannot be modified after creation. An object is said to be **weakly immutable** if the object contains some fields which *are* able to be modified after creation. I.E., the majority of the object would likely be immutable for the benefits that provides, but for convenience some data is still able to be modified after creation.
-
-
----
-## Quiz
-
-headline: which of the following snippets prints False?
-
-question: |
-  # A
-  print('hello' is 'hell' + 'o')
-  # B
-  s1 = 'hello'
-  s2 = 'hell'
-  print(s1 is s2 + 'o')
-  # C
-  s1 = 'hello'
-  s2 = 'hell'
-  print(s1 == s2 + 'o')
-
-answers:
-  - B
-  - C
-  - A
-  - Neither

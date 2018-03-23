@@ -1,4 +1,4 @@
-# Handling Blobs in SQL
+---
 author: mihaiberq
 
 levels:
@@ -15,9 +15,19 @@ standards:
   sql.choose-sql-datatype.2: 10
   
 tags:
+
   - introduction
+
   - workout
+
   - deep
+
+
+
+
+---
+
+# Handling Blobs in SQL
 
 ---
 ## Content
@@ -52,6 +62,7 @@ In a MySQL database, store a BLOB by loading the contents of a file:
 ??? ??? sprite(image)
 VALUES(???(???));
 ```
+
 * `INSERT`
 * `INTO`
 * `LOAD_FILE`
@@ -68,8 +79,10 @@ In a MySQL database, store a BLOB as a binary string:
 ??? ??? sprite(image)
 VALUES(???);
 ```
+
 * `INSERT`
 * `INTO`
 * `'0xTHISISMYIMAGE'`
 * `0xTHISISMYIMAGE`
 * `LOAD_FILE('pikachu.jpg')`
+

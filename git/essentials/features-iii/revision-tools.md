@@ -1,4 +1,4 @@
-# Revision tools
+---
 author: rosielowther
 
 levels:
@@ -9,10 +9,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Revision-Selection){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Revision-Selection){website}'
+
+
+---
+
+# Revision tools
 
 ---
 ## Content
@@ -26,7 +31,7 @@ $ git log ^master tests
 $ git log tests --not master
 # shows commits on the tests
 # branch that are not on master
-``` 
+```
 Triple dots are used to show commits that are in one branch but not in both:
 ```
 $ git log master...tests
@@ -44,6 +49,7 @@ Would print commits that
 
 ???
 
+
 * Are in either one of them, but not in both
 * Are in master, but not in myBranch
 * Are in myBranch, but not in master
@@ -59,6 +65,7 @@ Is equivalent to
 
 ???
 
+
 * `git log master..myBranch`
 * `git log master...myBranch`
 * `git log --not master myBranch`
@@ -66,14 +73,20 @@ Is equivalent to
 ---
 ## Quiz
 
-headline: how can you specify a range of commits?
+### how can you specify a range of commits?
 
-question: |
-  # Consider the following git history *--*--*--A--*--*--*--B--*
-  # Which of the following commands should be used to log all commits between A and B (inclusive)?
+Consider the following git history
 
-answers:
-  - git log A~..B
-  - git log A..B
-  - git log A…B
-  - git log ^A B
+```bash
+*--*--*--A--*--*--*--B--*
+```
+
+Which of the following commands should be used to log all commits between A and B (inclusive)?
+
+
+ ???
+
+* git log A~..B
+* git log A..B
+* git log A…B
+* git log ^A B

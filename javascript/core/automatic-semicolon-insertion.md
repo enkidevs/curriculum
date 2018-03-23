@@ -16,13 +16,13 @@ tags:
 
 ---
 ## Content
- 
+
 ---
 ## Quiz
 
-headline: what will the following snippet output?
+## What will the following snippet output?
 
-question: |
+```javascript
   function pi() {
     return
     {
@@ -30,9 +30,9 @@ question: |
     }
   }
   console.log(pi())
+```
 
-answers:
-  - undefined
-  - {pi: 3.14}
-  - SyntaxError
-  - {'pi': 3.14}
+* undefined
+* {pi: 3.14}
+* SyntaxError
+* {'pi': 3.14}

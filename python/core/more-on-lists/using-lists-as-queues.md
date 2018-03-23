@@ -1,4 +1,4 @@
-# Using Lists as Queues
+---
 author: SebaRaba
 
 levels:
@@ -9,9 +9,17 @@ type: normal
 
 category: how to
 
+standards:
+  cs.implement-linear-collection-data-structures.2: 10
+
 links:
 
-  - '[More about lists as queues](https://welcomedata.wordpress.com/2015/07/03/using-lists-as-stacks-and-queues-in-python/)'
+  - '[More about lists as queues](https://welcomedata.wordpress.com/2015/07/03/using-lists-as-stacks-and-queues-in-python/){website}'
+
+
+---
+
+# Using Lists as Queues
 
 ---
 ## Content
@@ -65,9 +73,10 @@ my_queue.enqueue(__)
 my_queue.enqueue(__)
 
 for n in __.items:
-print(n)
+    print(n)
 ```
 ???
+
 
 * Queue, 7, 1, 0, 2, my_queue
 * queue, 2, 0, 1, 7, my_queue
@@ -91,9 +100,10 @@ temp.enqueue('E')
 print(temp.size())
 
 for n in temp.items:
-  print(n)
+    print(n)
 ```
 ???
+
 
 * 5 E U E U Q
 * 5 Q U E U E

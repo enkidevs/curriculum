@@ -1,4 +1,4 @@
-# Memory leaks
+---
 author: mihaiberq
 
 levels:
@@ -9,8 +9,17 @@ type: normal
 
 category: must-know
 
+standards:
+  py.store-manipulate-data.5: 10
+
 links:
-    - '(Diagnosing memory leaks)[http://chase-seibert.github.io/blog/2013/08/03/diagnosing-memory-leaks-python.html]'
+
+  - '[chase-seibert.github.io]((Diagnosing memory leaks)[http://chase-seibert.github.io/blog/2013/08/03/diagnosing-memory-leaks-python.html]){website}'
+
+
+---
+
+# Memory leaks
 
 ---
 ## Content
@@ -31,7 +40,6 @@ You can usually assume your Python application has a memory leak if its memory u
 
 There's no generic way to deal with memory leaks, it's more case-specific. Usually, once you've found the leak, fixing it is one Google search away.
 
-
 ---
 ## Revision
 
@@ -39,15 +47,14 @@ A memory usually leak occurs when
 
 ???
 
+
 * memory not used anymore is not released
 * memory usage grows steadily over time
 * there's a key logger
 * system slows down
 
-
 ---
 ## Footnotes
-
 [1: Thrashing]
 **Paging** is a process in which, to run a process/program, the system requests **pages** (block of bytes) from the slow physical memory to be stored in the much faster random-access memory (RAM). This happens mostly on running processes/programs to improve performance
 

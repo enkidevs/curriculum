@@ -1,4 +1,4 @@
-# Installing Git
+---
 author: catalin
 
 levels:
@@ -7,16 +7,18 @@ levels:
 
 type: normal
 
-
 category: must-know
+
 
 links:
 
-  - >-
-    [Git official
-    webiste](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git){website}
-
+  - '[Git official webiste](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git){website}'
   - '[GitHub download](https://desktop.github.com/){website}'
+
+
+---
+
+# Installing Git
 
 ---
 ## Content
@@ -57,7 +59,9 @@ Will **Git** also be installed when you would install **GitHub** ?
 
 ???
 
+
 * Yes
 * No
 * Only on Mac OS X
 * Only on Linux
+

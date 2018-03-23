@@ -1,4 +1,4 @@
-# Namespace and scoping
+---
 author: SebaRaba
 
 levels:
@@ -9,9 +9,18 @@ type: normal
 
 category: must-know
 
+standards:
+  py.functions.3: 10
+
+
 links:
 
-  - '[More on namespace](https://www.programiz.com/python-programming/namespace)'
+  - '[More on namespace](https://www.programiz.com/python-programming/namespace){website}'
+
+
+---
+
+# Namespace and scoping
 
 ---
 ## Content
@@ -59,6 +68,7 @@ def f():
     def g():
         x = 'An enclosed variable'
         print(x) # print() is built-in
+    g()
 
 
 r = 'A global variable'
@@ -72,10 +82,12 @@ A local variable
 An enclosed variable
 A global variable
 ```
+
 ---
 ## Practice
 
 Consider the following snippet. On which scoping level of hierarchy do you think `z` is?
+
 
 ```python
 def foo(x):
@@ -84,6 +96,7 @@ def foo(x):
 z = foo(4)
 ```
 ???
+
 
 * Global
 * Enclosed
@@ -94,6 +107,7 @@ z = foo(4)
 ## Revision
 
 Is the variable `a` still in scope when it is printed?
+
 ```python
 def foo():
     a = "Hello World"
@@ -103,6 +117,7 @@ b = foo()
 print(a)
 ```
 ???
+
 
 * No
 * Yes

@@ -1,4 +1,4 @@
-# Avoid array mutations 
+---
 author: catalin
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: best practice
 
+
 links:
 
-  - >-
-    [egghead.io](https://egghead.io/lessons/javascript-redux-avoiding-array-mutations-with-concat-slice-and-spread){website}
+  - '[egghead.io](https://egghead.io/lessons/javascript-redux-avoiding-array-mutations-with-concat-slice-and-spread){website}'
+
+
+---
+
+# Avoid array mutations 
 
 ---
 ## Content
@@ -53,6 +58,7 @@ Append `enki` to `myArray` using the spread operator in a **pure** fashion:
 return [???myArray, ???];
 ```
 
+
 * `...`
 * `enki`
 * `concat`
@@ -67,8 +73,10 @@ Append `enki` to `myArray` using the spread operator in a **pure** fashion:
 return [???myArray, ???];
 ```
 
+
 * `...`
 * `enki`
 * `concat`
 * `splice`
 * `slice`
+

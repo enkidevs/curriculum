@@ -1,4 +1,4 @@
-# Adding Support for Multiple Character Sets
+---
 author: mihaiberq
 
 levels:
@@ -15,8 +15,17 @@ standards:
   sql.choose-sql-datatype.1: 10
 
 tags:
+
   - introduction
+
   - workout
+
+
+
+
+---
+
+# Adding Support for Multiple Character Sets
 
 ---
 ## Content
@@ -49,6 +58,7 @@ Which database has data types that default to `UTF-8` encoding?
 
 ???
 
+
 * Microsoft SQL
 * MySQL
 * PostgreSQL
@@ -60,6 +70,8 @@ Which database `utf8` options stores a maximum of 3 bytes instead of 4?
 
 ???
 
+
 * MySQL
 * PostgreSQL
 * Microsoft SQL
+

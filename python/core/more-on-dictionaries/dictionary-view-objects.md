@@ -1,4 +1,4 @@
-# `Dictionary` view objects
+---
 author: catalin
 
 levels:
@@ -9,19 +9,26 @@ type: normal
 
 category: must-know
 
-parent: dictionary-standard-mapping-type
+
+standards:
+  py.native-types-operations.6: 10
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#dictionary-view-objects){website}
+  - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#dictionary-view-objects){website}'
+
+parent: dictionary-standard-mapping-type
+
+---
+
+# `Dictionary` view objects
 
 ---
 ## Content
 
 Dictionaries provide the following methods:
 ```python
-dict.keys() 
+dict.keys()
 # returns a new view of dictionary's keys
 dict.values()
 # returns a new view of dictionary's values
@@ -39,10 +46,10 @@ The `len(dictview)` method will return the number of entries in the dictionary:
 >>> len(keys)
 2
 ```
-Dictionary's `iter()` method works on dictionary views, returning an iterator over keys, values or items:
+Dictionary's `iter()` method works on dictionary views, returning an iterator over keys, values, or items:
 ```python
-iter(keys) 
-# iterator over keys is returned 
+iter(keys)
+# iterator over keys is returned
 ```
 In the same fashion, `in` keyword for testing collection membership, can be used both on dictionaries and dictionary views:
 ```python
@@ -56,19 +63,20 @@ False
 ---
 ## Practice
 
-Complete the code snippet to return the number of entries in the dictionary: 
+Complete the code snippet to return the number of entries in the dictionary:
 
 ```
->>> d = {'one':1, 'two':2, 'three':3} 
->>> ???(???) 
+>>> d = {'one':1, 'two':2, 'three':3}
+>>> ???(???)
 ```
 
-*`len` 
-*`d` 
-*`entries` 
-*`length` 
-*`size` 
-*`keys`
+
+* `len`
+* `d`
+* `entries`
+* `length`
+* `size`
+* `keys`
 
 ---
 ## Revision
@@ -76,13 +84,14 @@ Complete the code snippet to return the number of entries in the dictionary:
 Which keyword is used for testing collection memberships?
 
 ```
-d = {'python':1} 
-Enki = d.keys() 
+d = {'python':1}
+Enki = d.keys()
 'python' ??? Enki
 ```
 
-*`in` 
-*`has` 
-*`holds` 
-*`consists` 
-*`belongs`
+
+* `in`
+* `has`
+* `holds`
+* `consists`
+* `belongs`

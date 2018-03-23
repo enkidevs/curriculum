@@ -1,4 +1,4 @@
-# Async and defer scripts
+---
 author: pawel
 
 levels:
@@ -19,10 +19,15 @@ tags:
 
   - defer-scripts
 
+
 links:
 
-  - >-
-    [www.growingwiththeweb.com](http://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html){website}
+  - '[www.growingwiththeweb.com](http://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html){website}'
+
+
+---
+
+# Async and defer scripts
 
 ---
 ## Content
@@ -47,6 +52,7 @@ Scripts with the `defer` attribute are executed in order. Unlike `async` scripts
 
 Scripts with the ??? attribute are executed in order. Unlike ??? scripts, they will only execute when the entire document has been loaded.
 
+
 * defer
 * async
 
@@ -57,7 +63,9 @@ What type of script is executed as soon as it is downloaded, without blocking th
 
 ???
 
-*`async`
-*`defer`
-*`all`
-*`none`
+
+* `async`
+* `defer`
+* `all`
+* `none`
+

@@ -1,4 +1,4 @@
-# Factories design pattern
+---
 author: catalin
 
 levels:
@@ -11,12 +11,16 @@ type: normal
 
 category: best practice
 
+
 links:
 
-  - >-
-    [blog.risingstack.com](https://blog.risingstack.com/fundamental-node-js-design-patterns/){website}
-
+  - '[blog.risingstack.com](https://blog.risingstack.com/fundamental-node-js-design-patterns/){website}'
   - '[thenodeway.io](http://thenodeway.io/posts/designing-factories/){website}'
+
+
+---
+
+# Factories design pattern
 
 ---
 ## Content
@@ -38,3 +42,4 @@ function create (args) {
 
 module.exports.create = create;
 ```
+

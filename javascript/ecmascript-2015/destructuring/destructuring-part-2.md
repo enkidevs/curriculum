@@ -1,4 +1,4 @@
-# Destructuring (Part 2)
+---
 author: alexjmackey
 
 levels:
@@ -7,13 +7,19 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: feature
 
+inAlgoPool: false
+
+
 links:
-  
+
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){website}'
+
+
+---
+
+# Destructuring (Part 2)
 
 ---
 ## Content
@@ -46,3 +52,4 @@ Note how `x`'s default is overwritten as the `x` property exists:
 var {x=1, y=200} = {x:100};
 //x=100, y=200
 ```
+

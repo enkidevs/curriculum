@@ -1,4 +1,4 @@
-# What is **React**?
+---
 author: catalin
 
 levels:
@@ -9,10 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [andrewhfarmer.com](http://andrewhfarmer.com/what-is-react/){website}
+  - '[andrewhfarmer.com](http://andrewhfarmer.com/what-is-react/){website}'
+
+
+---
+
+# What is **React**?
 
 ---
 ## Content
@@ -43,6 +48,7 @@ React manages to keep the DOM in sync with the data model by
 
 ???
 
+
 * rendering necessary changes with the help of the Virtual DOM
 * re-rendering the entire DOM on every change in data
 * using functions to update the DOM
@@ -55,6 +61,7 @@ React is a JavaScript
 
  ???
 
+
 * library
 * framework
 * application
@@ -62,7 +69,6 @@ React is a JavaScript
 
 ---
 ## Footnotes
-
 [1:Library]
 You can think of a **library** as a toolkit consisting of helper functions/objects/modules to optimise the coding experience and provide additional functionality.
 

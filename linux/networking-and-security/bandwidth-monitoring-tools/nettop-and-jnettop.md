@@ -1,4 +1,4 @@
-# `nettop` and `jnettop`
+---
 author: mihaiberq
 
 levels:
@@ -11,10 +11,15 @@ type: normal
 
 category: how to
 
+
 links:
 
-    - '[Nettop](http://www.unix.com/man-page/osx/1/nettop/)'
+  - '[Nettop](http://www.unix.com/man-page/osx/1/nettop/){website}'
 
+
+---
+
+# `nettop` and `jnettop`
 
 ---
 ## Content
@@ -64,6 +69,7 @@ You might need to run them with *sudo* to work.
 
 ???
 
+
 * monitor traffic
 * enable and disable ports
 * verify how the DNS resolves
@@ -74,7 +80,9 @@ You might need to run them with *sudo* to work.
 
 The ??? equivalent of `jnettop` is `nettop`.
 
+
 * MacOS
 * Debian
 * Windows
 * OpenBSD
+

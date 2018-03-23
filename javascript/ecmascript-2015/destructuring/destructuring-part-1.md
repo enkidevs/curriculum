@@ -1,4 +1,4 @@
-# Destructuring (Part 1)
+---
 author: alexjmackey
 
 levels:
@@ -7,13 +7,19 @@ levels:
 
 type: normal
 
+category: feature
+
 inAlgoPool: false
 
-category: feature
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){website}'
+
+
+---
+
+# Destructuring (Part 1)
 
 ---
 ## Content
@@ -57,3 +63,4 @@ var y= 2;
 [y, x] = [x, y];
 //x=2, y=1
 ```
+

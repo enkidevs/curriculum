@@ -1,4 +1,4 @@
-# Quick port test with `netcat`
+---
 author: tuwi.dc
 
 levels:
@@ -21,7 +21,13 @@ tags:
 
   - netcat
 
+
+
 notes: ''
+
+---
+
+# Quick port test with `netcat`
 
 ---
 ## Content
@@ -71,8 +77,10 @@ You can test if a server’s *port 20* is open by issuing:
 $ ??? ??? 
       ??? 20
 ```
-*`nc`
-*`-z`
-*`server_address`
-*`-v`
-*`your_ip`
+
+* `nc`
+* `-z`
+* `server_address`
+* `-v`
+* `your_ip`
+

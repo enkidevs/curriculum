@@ -1,4 +1,4 @@
-# Autohiding scrollbars for **IE**
+---
 author: catalin
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: tip
 
+
 links:
 
-  - >-
-    [css-tricks.com](https://css-tricks.com/snippets/css/hide-scrollbar-in-edge-ie-1011/){website}
+  - '[css-tricks.com](https://css-tricks.com/snippets/css/hide-scrollbar-in-edge-ie-1011/){website}'
+
+
+---
+
+# Autohiding scrollbars for **IE**
 
 ---
 ## Content
@@ -41,8 +46,10 @@ html {
 }
 ```
 
+
 * `ms-autohiding-scrollbar`
 * `-ms-autohiding-scrollbar`
 * `autohide-scrollbar`
 * `show-hover-scrollbar`
 * `autohiding-scrollbar-style`
+

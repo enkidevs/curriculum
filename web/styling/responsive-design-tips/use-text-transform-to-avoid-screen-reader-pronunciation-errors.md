@@ -1,4 +1,4 @@
-# Use `text-transform` to avoid screen-reader pronunciation errors
+---
 author: Mathieu
 
 levels:
@@ -13,12 +13,17 @@ type: normal
 
 category: best practice
 
-notes: >-
-  http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/
 
 links:
 
   - '[24ways.org](http://24ways.org/2007/css-for-accessibility){website}'
+
+notes: >-
+  http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/
+
+---
+
+# Use `text-transform` to avoid screen-reader pronunciation errors
 
 ---
 ## Content
@@ -49,10 +54,11 @@ p.upper{
   ???: uppercase;
 }
 ```
-*`text-transform` 
-*`text-style` 
-*`text-decoration` 
-*`font-style`
+
+* `text-transform` 
+* `text-style` 
+* `text-decoration` 
+* `font-style`
 
 ---
 ## Revision
@@ -60,6 +66,8 @@ p.upper{
 What is the key benefit and use case of `text-transform`?
 
  ???
+
 * It avoids pronunciation errors and preserves styles.
 * It can render text in uppercase.
 * It can render text in lowercase.
+

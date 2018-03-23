@@ -1,4 +1,4 @@
-# Adding New Users With `useradd`
+---
 author: jfarmer
 
 levels:
@@ -9,12 +9,21 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 tags:
+
   - workout
+
+
+
+
+---
+
+# Adding New Users With `useradd`
+
 ---
 ## Content
 
@@ -50,10 +59,11 @@ On Debian systems, it's recommended you use the `adduser` command rather than th
 In which case will the new user *not* be able to login? 
 
 ???
-*It doesn’t have a password set up.
-*It doesn’t have a group assigned.
-*It doesn’t have a home directory. 
-*It doesn’t have an account picture.
+
+* It doesn’t have a password set up.
+* It doesn’t have a group assigned.
+* It doesn’t have a home directory. 
+* It doesn’t have an account picture.
 
 ---
 ## Revision
@@ -62,9 +72,11 @@ Set up a new user with their own home directory:
 ```
 $ ??? ??? ??? ???
 ```
-*`sudo`
-*`useradd`
-*`-m`
-*`newuser`
-*`-G`
-*`root`
+
+* `sudo`
+* `useradd`
+* `-m`
+* `newuser`
+* `-G`
+* `root`
+

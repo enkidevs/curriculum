@@ -1,4 +1,4 @@
-# Using `.test()` with RegExp
+---
 author: fsites
 
 levels:
@@ -12,20 +12,32 @@ type: normal
 category: feature
 
 standards:
+
   js.evaluate-expressions.3: 10
+
   js.write-expressions.1: 10
+
   js.standard-library.0: 10
 
 tags:
+
   - strings
+
   - html
+
   - introduction
+
   - workout
+
 
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test){website}'
+
+
+---
+
+# Using `.test()` with RegExp
 
 ---
 ## Content
@@ -60,6 +72,7 @@ var containsRegExp = /Regular Expressions/i;
 containsRegExp.test(str);
 ```
 
+
 * True, False
 * True, True
 * False, True
@@ -72,6 +85,8 @@ Matching a string with a RegEx is done by
 
 ???
 
-*regex.test(string);
-*regex.match(string);
-*regex.check(string);
+
+* regex.test(string);
+* regex.match(string);
+* regex.check(string);
+

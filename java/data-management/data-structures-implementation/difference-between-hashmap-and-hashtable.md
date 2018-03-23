@@ -1,4 +1,4 @@
-# Difference between `HashMap` and `Hashtable`
+---
 author: pawel
 
 levels:
@@ -15,12 +15,16 @@ tags:
 
   - hashmap-hashtable
 
-notes: ''
 
 links:
 
-  - >-
-    [javahungry.blogspot.com](http://javahungry.blogspot.com/2014/03/hashmap-vs-hashtable-difference-with-example-java-interview-questions.html){website}
+  - '[javahungry.blogspot.com](http://javahungry.blogspot.com/2014/03/hashmap-vs-hashtable-difference-with-example-java-interview-questions.html){website}'
+
+notes: ''
+
+---
+
+# Difference between ```HashMap``` and ```Hashtable```
 
 ---
 ## Content
@@ -54,3 +58,4 @@ Which one of the following classes allow `null` values as keys?
 * `Hashtable` 
 * `both` 
 * `none`
+

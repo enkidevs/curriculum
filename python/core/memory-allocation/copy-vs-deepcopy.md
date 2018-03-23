@@ -1,4 +1,4 @@
-# `copy` vs `deepcopy`
+---
 author: mihaiberq
 
 levels:
@@ -8,6 +8,16 @@ levels:
 type: normal
 
 category: must-know
+
+standards:
+  py.store-manipulate-data.0: 10
+  py.store-manipulate-data.1: 10
+
+
+---
+
+# `copy` vs `deepcopy`
+
 
 ---
 ## Content
@@ -95,6 +105,7 @@ b[1].append(3)
 print(a)
 ???
 ```
+
 * `[1, []]`
 * `[1, 3]`
 * `[1, [3]]`
@@ -106,6 +117,7 @@ print(a)
 A `deepcopy` means
 
 ???
+
 
 * making a new copy in memory of every layer of the data structure
 * making a copy in memory of the first layer of the data structure

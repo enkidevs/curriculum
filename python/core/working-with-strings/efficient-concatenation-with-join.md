@@ -1,4 +1,4 @@
-# Efficient concatenation with *join()*
+---
 author: Aaron7Sun
 
 levels:
@@ -13,11 +13,20 @@ type: normal
 
 category: tip
 
+standards:
+  py.standard-library-data.3: 10
+
 tags:
 
   - speed-up-code
 
+
+
 notes: ''
+
+---
+
+# Efficient concatenation with *join()*
 
 ---
 ## Content
@@ -49,3 +58,4 @@ slist = [some_function(elt) \
     for elt in somelist]
 s = "".join(slist)
 ```
+

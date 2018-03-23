@@ -1,4 +1,4 @@
-# Converting between Unix and Windows text files
+---
 author: tuwi.dc
 
 levels:
@@ -31,9 +31,15 @@ tags:
 
   - unix2dos
 
-  - ''
+  - 
+
+
 
 notes: a bit niche
+
+---
+
+# Converting between Unix and Windows text files
 
 ---
 ## Content
@@ -73,10 +79,11 @@ Complete the `sed` substitute command to convert a DOS file to Unix:
 ```
 $ sed ??? file1 > file2
 ```
-*`’s/^M$//’`
-*`’s/$/^M/’`
-*`’s//M$/’`
-*`’/^M/s/$//’`
+
+* `’s/^M$//’`
+* `’s/$/^M/’`
+* `’s//M$/’`
+* `’/^M/s/$//’`
 
 ---
 ## Revision
@@ -85,14 +92,14 @@ Converting Unix files to DOS or the other way around can be done on *all systems
 
 ???.
 
-*sed
-*dos2unix
-*unix2dos
-*dtou
+
+* sed
+* dos2unix
+* unix2dos
+* dtou
 
 ---
 ## Footnotes
-
 [1:Acronym]
 CR+LF = `/r/n`
 [2:Acronym]

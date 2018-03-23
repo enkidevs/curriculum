@@ -1,4 +1,4 @@
-# Using a `list` as a `stack`
+---
 author: catalin
 
 levels:
@@ -9,12 +9,19 @@ type: normal
 
 category: how to
 
-parent: built-in-list-methods
+
+standards:
+  py.native-types-operations.4: 10
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#using-lists-as-stacks){website}
+  - '[docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#using-lists-as-stacks){website}'
+
+parent: built-in-list-methods
+
+---
+
+# Using a `list` as a `stack`
 
 ---
 ## Content
@@ -53,7 +60,8 @@ stack.pop()
 ```
 
 ???
+
 * `15`
-* `14` 
-* `10` 
+* `14`
+* `10`
 * There’s no output...

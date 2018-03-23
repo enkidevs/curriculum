@@ -1,4 +1,4 @@
-# Anonymous functions
+---
 author: rosielowther
 
 levels:
@@ -12,17 +12,26 @@ type: normal
 category: must-know
 
 standards:
+
   js.functions.4: 10
+
   js.functions.8: 10
 
 tags:
+
   - introduction
+
   - workout
-  
+
+
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions){website}'
+
+
+---
+
+# Anonymous functions
 
 ---
 ## Content
@@ -57,7 +66,9 @@ var cube = ???(x) {
 };
 ```
 
-*`function`
-*`let`
-*`name`
-*`{}`
+
+* `function`
+* `let`
+* `name`
+* `{}`
+

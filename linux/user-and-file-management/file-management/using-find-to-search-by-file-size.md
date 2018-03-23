@@ -1,4 +1,4 @@
-# Using `find` To Search By File Size
+---
 author: jfarmer
 
 levels:
@@ -9,13 +9,23 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 tags:
+
   - introduction
+
   - workout
+
+
+
+
+---
+
+# Using `find` To Search By File Size
+
 ---
 ## Content
 
@@ -50,10 +60,12 @@ Find all the files of at least 1GB in size :
 $ ??? ??? ??? f 
          ??? ??? 
 ```
-*`find`
-*`.`
-*`-type`
-*`-size`
-*`+1G`
-*`+1GB`
-*`sudo`
+
+* `find`
+* `.`
+* `-type`
+* `-size`
+* `+1G`
+* `+1GB`
+* `sudo`
+

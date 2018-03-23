@@ -1,4 +1,4 @@
-# What Are Annotations?
+---
 author: Nick Daminov
 
 levels:
@@ -9,10 +9,16 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - '[Official Annotation Description](https://docs.oracle.com/javase/tutorial/java/annotations/index.html)'
-  - '[More on Annotation Elements](https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1)'
+  - '[Official Annotation Description](https://docs.oracle.com/javase/tutorial/java/annotations/index.html){website}'
+  - '[More on Annotation Elements](https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1){website}'
+
+
+---
+
+# What Are Annotations?
 
 ---
 ## Content
@@ -59,6 +65,7 @@ What is a *marker* annotation?
 ???
 
 
+
 * No
 * Annotation with no elements
 * Annotation with a single element
@@ -71,5 +78,7 @@ What is an annotation?
 
 ???
 
+
 * Metadata about a piece of code which can be understood by a compiler or JVM
 * It is an interface which has to be implemented in order to
+

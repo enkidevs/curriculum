@@ -1,4 +1,4 @@
-# String Formatting
+---
 author: tommarshall
 
 levels:
@@ -7,9 +7,18 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+standards:
+  py.standard-library-data.6: 10
+  py.data-structures-uses.5: 10
+
+
+---
+
+# String Formatting
 
 ---
 ## Content
@@ -37,7 +46,8 @@ app = 'Enki'
 streak = 3
 
 print('''This is Python workout number %d
-       with %s''' % (app, streak))
+       with %s''' % (streak, app))
+# This is Python workout number 3 with Enki
 ```
 
 ---
@@ -49,12 +59,13 @@ str = 'practice'
 print('The best way to learn is to ???'
         ??? str)
 ```
-*`%s`
-*`%`
-*`%d`
-*`%f`
-*`+`
-*`/`
+
+* `%s`
+* `%`
+* `%d`
+* `%f`
+* `+`
+* `/`
 
 ---
 ## Revision
@@ -63,6 +74,7 @@ When you want to use two or more argument specifiers, what must you use in order
 
 ???
 
-*A tuple
-*A function
-*A string
+
+* A tuple
+* A function
+* A string

@@ -1,4 +1,4 @@
-# `border-radius` circle
+---
 author: NomaDube
 
 levels:
@@ -13,9 +13,15 @@ type: normal
 
 category: tip
 
+
 links:
 
   - '[davidwalsh.name](http://davidwalsh.name/css-circles){website}'
+
+
+---
+
+# `border-radius` circle
 
 ---
 ## Content
@@ -39,7 +45,9 @@ From left to right, the `border-radius` values are `25%`, `50%`, `70%`:
 ## Revision
 
 What does the `border-radius` property do to elements? ???
+
 * Gives the element rounded corners.
 * Gives the element square corners.
 * Makes a circular shadow for the element.
 * Defines how far the border surrounding the element is from the actual element.
+

@@ -1,4 +1,4 @@
-# Require custom `propTypes` validators
+---
 author: catalin
 
 levels:
@@ -15,12 +15,16 @@ type: normal
 
 category: how to
 
-parent: custom-validations-for-props
 
 links:
 
-  - >-
-    [ian-thomas.net](http://www.ian-thomas.net/custom-proptype-validation-with-react/){website}
+  - '[ian-thomas.net](http://www.ian-thomas.net/custom-proptype-validation-with-react/){website}'
+
+parent: custom-validations-for-props
+
+---
+
+# Require custom `propTypes` validators
 
 ---
 ## Content
@@ -69,14 +73,15 @@ Is there a way to make a custom `propTypes` validator function implementing the 
 
 ???
 
+
 * Yes
 * No
 * Only in `ES6`
 * Only in `ES5` and `ES6`
 * Only with an external package
+
 ---
 ## Footnotes
-
 [1:code]
 ```jsx
 function textLengthChecker(props, propName,

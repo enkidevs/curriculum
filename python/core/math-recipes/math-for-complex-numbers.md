@@ -1,4 +1,4 @@
-# Math for complex numbers
+---
 author: catalin
 
 levels:
@@ -9,13 +9,22 @@ levels:
 
 type: normal
 
+category: tip
+
 inAlgoPool: false
 
-category: tip
+
+standards:
+  py.standard-library-data.1: 10
 
 links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/cmath.html){website}'
+
+
+---
+
+# Math for complex numbers
 
 ---
 ## Content
@@ -35,7 +44,7 @@ z = 3 + 4j
 
 Imaginary and real parts of complex numbers:
 ```python
-# complex number 
+# complex number
 # z == z.real + z.imag*1j
 print(z.real) # 3.0
 print(z.imag) # 4.0
@@ -71,12 +80,13 @@ import cmath
 z = 7 + 1???
 print(z.???)
 ```
-*`j` 
-*`imag` 
-*`imaginary` 
-*`i` 
-*`cmath` 
-*`complex`
+
+* `j`
+* `imag`
+* `imaginary`
+* `i`
+* `cmath`
+* `complex`
 
 ---
 ## Revision
@@ -87,8 +97,9 @@ import ???
 z = ???(2, 4)
 ```
 
-*`cmath` 
-*`complex` 
-*`c` 
-*`math` 
-*`create`
+
+* `cmath`
+* `complex`
+* `c`
+* `math`
+* `create`

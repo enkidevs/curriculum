@@ -1,4 +1,4 @@
-# Truthy Falsy Gotchas
+---
 author: alexjmackey
 
 levels:
@@ -7,24 +7,33 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 standards:
+
   js.identify-syntax.2: 10
+
   js.evaluate-expressions.3: 10
+
   js.evaluate-expressions.10: 10
 
 tags:
+
   - introduction
+
   - workout
+
 
 links:
 
-  - >-
-    [Mozilla Developer
-    Network](https://developer.mozilla.org/en/docs/Web/JavaScript/Equality_comparisons_and_sameness){website}
+  - '[Mozilla Developer Network](https://developer.mozilla.org/en/docs/Web/JavaScript/Equality_comparisons_and_sameness){website}'
+
+
+---
+
+# Truthy Falsy Gotchas
 
 ---
 ## Content
@@ -56,5 +65,7 @@ What will the following snippet evaluate to?
 null == false 
 // ???
 ```
-*`false`
-*`true`
+
+* `false`
+* `true`
+

@@ -1,4 +1,4 @@
-# Handling Blobs in SQL
+---
 author: mihaiberq
 
 levels:
@@ -15,9 +15,19 @@ standards:
   sql.choose-sql-datatype.2: 10
 
 tags:
+
   - introduction
+
   - workout
+
   - deep
+
+
+
+
+---
+
+# Handling Blobs in SQL
 
 ---
 ## Content
@@ -48,6 +58,7 @@ In a PostgreSQL database, insert a hex string into a `bytea` field:
 ???(???('\xBYTESOFPIKACHUSPRITE',
   ???));
 ```
+
 * `INSERT`
 * `VALUES`
 * `decode`
@@ -65,6 +76,7 @@ In a PostgreSQL database, insert a hex string into a `bytea` field:
 ???(???('\xBYTESOFPIKACHUSPRITE',
   ???));
 ```
+
 * `INSERT`
 * `VALUES`
 * `decode`
@@ -72,3 +84,4 @@ In a PostgreSQL database, insert a hex string into a `bytea` field:
 * `encode`
 * `FROM`
 * `hex`
+

@@ -1,4 +1,4 @@
-# The trade-off between short and descriptive names
+---
 author: adamMontgomerie
 
 levels:
@@ -15,10 +15,15 @@ tags:
 
   - naming-conventions
 
+
 links:
 
-  - >-
-    [javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2014/10/10-java-best-practices-to-name-variables-methods-classes-packages.html){website}
+  - '[javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2014/10/10-java-best-practices-to-name-variables-methods-classes-packages.html){website}'
+
+
+---
+
+# The trade-off between short and descriptive names
 
 ---
 ## Content
@@ -43,7 +48,9 @@ Which of the following methods is best named for finding the age of a person?
 
 ???
 
-*`getAge()` 
-*`age()` 
-*`getAgeOfPerson` 
-*`num()`
+
+* `getAge()` 
+* `age()` 
+* `getAgeOfPerson` 
+* `num()`
+

@@ -1,4 +1,4 @@
-# Props in getInitialState is an Anti-Pattern
+---
 author: tommarshall
 
 levels:
@@ -13,11 +13,16 @@ type: normal
 
 category: tip
 
-parent: custom-proptype-s-to-be-required
 
 links:
 
   - '[facebook.github.io](https://facebook.github.io/react/tips/props-in-getInitialState-as-anti-pattern.html){website}'
+
+parent: custom-proptype-s-to-be-required
+
+---
+
+# Props in getInitialState is an Anti-Pattern
 
 ---
 ## Content
@@ -60,3 +65,4 @@ ReactDOM.render(
 
 
 ```
+

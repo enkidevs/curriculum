@@ -1,4 +1,4 @@
-# Storing JSON in an RDBMS
+---
 author: mihaiberq
 
 levels:
@@ -15,9 +15,19 @@ standards:
   sql.choose-sql-datatype.2: 10
 
 tags:
+
   - introduction
+
   - workout
+
   - deep
+
+
+
+
+---
+
+# Storing JSON in an RDBMS
 
 ---
 ## Content
@@ -47,12 +57,6 @@ While JSON isn't a RDBMS standardized type, vendors took their liberty to implem
 There is, however, a common requirement: tables to include JSON fields must use `UTF-8` encoding, regardless of the SQL implementation.
 
 ---
-## Footnotes
-
-[1:NoSQL]
-Because of JSON's versatility and popularity of JavaScript, a new type of database had been created to better match the needs of developers. They are called NoSQL (non-SQL or non-relational) databases.
-
----
 ## Practice
 
 Which of the following JSON objects is valid?
@@ -78,6 +82,7 @@ Which of the following JSON objects is valid?
 ```
 ???
 
+
 * C
 * A
 * B
@@ -89,7 +94,13 @@ While storing JSON data is possible in most relational databases, the ones that 
 
 ???
 
+
 * NoSQL databases
 * PostgreSQL databases
 * MySQL databases
 * SQL Server databases
+
+---
+## Footnotes
+[1:NoSQL]
+Because of JSON's versatility and popularity of JavaScript, a new type of database had been created to better match the needs of developers. They are called NoSQL (non-SQL or non-relational) databases.

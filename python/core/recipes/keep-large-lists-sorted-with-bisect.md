@@ -1,4 +1,4 @@
-# Keep large lists sorted with `bisect`
+---
 author: catalin
 
 levels:
@@ -11,9 +11,17 @@ type: normal
 
 category: best practice
 
+standards:
+  py.native-types-operations.4: 10
+
 links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/bisect.html){website}'
+
+
+---
+
+# Keep large lists sorted with `bisect`
 
 ---
 ## Content
@@ -60,6 +68,7 @@ a = [0, 1, 2, 2, 2, 3]
 ```
 What will the output of `print(bisect.bisect(a, 2))` be? ???
 
+
 * 5
 * 2
 * 4
@@ -67,9 +76,10 @@ What will the output of `print(bisect.bisect(a, 2))` be? ???
 ---
 ## Revision
 
-`bisect` provides two useful methods:
- - `insort`: ???
- - `bisect`: ???
+`bisect` provides two useful methods:  
+`insort`: ???  
+`bisect`: ???  
+
 
 * inserts a new element into an ordered list
 * returns the position where to insert a new element in a sorted list

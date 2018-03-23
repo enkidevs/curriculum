@@ -1,4 +1,4 @@
-# Copying an array with `System.arraycopy()`
+---
 author: adamMontgomerie
 
 levels:
@@ -19,10 +19,15 @@ tags:
 
   - arrays
 
+
 links:
 
-  - >-
-    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=3){website}
+  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=3){website}'
+
+
+---
+
+# Copying an array with `System.arraycopy()`
 
 ---
 ## Content
@@ -44,3 +49,4 @@ we can use `System.arraycopy()`
 System.arraycopy(src, 0 ,dest, 0, 
   src.length);
 ```
+

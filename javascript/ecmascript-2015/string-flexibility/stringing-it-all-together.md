@@ -1,4 +1,4 @@
-# Stringing it all together!
+---
 author: rosielowther
 
 levels:
@@ -14,6 +14,10 @@ type: fillTheGap
 category: must-know
 
 ---
+
+# Stringing it all together!
+
+---
 ## Content
 
 Do you know how to manipulate Strings in ES6?
@@ -23,7 +27,7 @@ Do you know how to manipulate Strings in ES6?
 
 ```
 /* Make this
-code print 'Hello Mary Sue!'*/
+code print 'Hello Mary Sue!' */
 var firstName = 'Mary';
 var surname = 'Sue';
 console.log(`Hello ???!`);

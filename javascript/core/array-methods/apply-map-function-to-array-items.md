@@ -1,12 +1,9 @@
-# Apply `map` function to array items
+---
 author: Dral
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
@@ -23,6 +20,10 @@ tags:
   - introduction
   - workout
   - deep
+
+---
+
+# Apply `map` function to array items
 
 ---
 ## Content
@@ -54,17 +55,19 @@ Map the following array to return the square of each element:
 var arr = [1,2,3,4,'map'].map(x => ???);
 // the result will be [1,4,9,16,???]
 ```
-*x*x
-*NaN
-*x^2
-*null
-*x+x
+
+* x*x
+* NaN
+* x^2
+* null
+* x+x
 
 ---
 ## Revision
 
 You have to modify the elements of an array after a single,certain rule. The best way to do it is using ??? .
 
-*map()
-*filter()
-*splice()
+
+* map()
+* filter()
+* splice()

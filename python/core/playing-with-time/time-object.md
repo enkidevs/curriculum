@@ -1,4 +1,4 @@
-# `date` and `time` in `datetime`
+---
 author: catalin
 
 levels:
@@ -9,18 +9,22 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: feature
+
+standards:
+  py.native-types-operations.8: 10
 
 parent: datetime-module
 
 
 links:
 
-  - "[docs.python.org](https://docs.python.org/3.5/library/datetime.html#time-objects){website}"
+  - '[docs.python.org](https://docs.python.org/3.5/library/datetime.html#time-objects){website}'
+  - '[pymotw.com](https://pymotw.com/3/datetime/){website}'
 
-  - "[pymotw.com](https://pymotw.com/3/datetime/){website}"
+---
+
+# `date` and `time` in `datetime`
 
 ---
 ## Content
@@ -91,6 +95,7 @@ my_date = date.today()
 print(my_date) # 2017-06-27
 print(my_date.replace(1986)) # 1986-06-27
 ```
+
 ---
 ## Practice
 
@@ -99,7 +104,7 @@ Complete the following code snippet with the missing gaps such that, by running 
 from ??? import date, time
 
 t = time()
-print(t == ???.time) # True
+print(t == time.???) # True
 print(t.???(23,59,59,999999)
                       == time.???) # True
 
@@ -109,8 +114,9 @@ print(d.???) # 727191
 
 ```
 
+
 * `datetime`
-* `datetime`
+* `min`
 * `replace`
 * `max`
 * `date`
@@ -132,6 +138,7 @@ from datetime import date
 current = ???
 ```
 
+
 * `date.today()`
 * `date()`
 * `current()`
@@ -140,6 +147,5 @@ current = ???
 
 ---
 ## Footnotes
-
 [1:proleptic Georgian calendar]
 The proleptic Gregorian calendar is produced by extending the Gregorian calendar backward with negative values to dates preceding its official introduction in **1582**.

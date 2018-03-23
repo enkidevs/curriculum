@@ -1,4 +1,4 @@
-# Java8's new `StampedLock`
+---
 author: catalin
 
 levels:
@@ -9,12 +9,16 @@ type: normal
 
 category: feature
 
-notes: 'https://insights.enki.com/#/contrib/others/55f038e0f457f33b0062114c?search=kha'
 
 links:
 
-  - >-
-    [blog.takipi.com](http://blog.takipi.com/java-8-stampedlocks-vs-readwritelocks-and-synchronized/){website}
+  - '[blog.takipi.com](http://blog.takipi.com/java-8-stampedlocks-vs-readwritelocks-and-synchronized/){website}'
+
+notes: 'https://insights.enki.com/#/contrib/others/55f038e0f457f33b0062114c?search=kha'
+
+---
+
+# Java8's new `StampedLock`
 
 ---
 ## Content
@@ -27,7 +31,7 @@ ReadWriteLock lock = new
 
 These locks specify which threads block everyone else (writers) and which ones work with others for consuming content (readers), but they are known for their slowness.
 
-**Java8** introduced a new type of locks, `StampedLock`. In contrast to `ReadWriteLock` the locking methods of a `StampedLock` return a stamp represented by a `long` value. 
+**Java8** introduced a new type of locks, `StampedLock`. In contrast to `ReadWriteLock` the locking methods of a `StampedLock` return a stamp represented by a `long` value.
 
 ```java
 StampedLock lock = new StampedLock();
@@ -40,23 +44,26 @@ Obtaining a read or write lock via `readLock()` or `writeLock()` returns a stamp
 ## Practice
 
 The locking methods of a `StampedLock` return a stamp represented by a `???` value.
- 
-*`long` 
-*`int` 
-*`float` 
-*`char` 
-*`String`
+
+
+* `long`
+* `int`
+* `float`
+* `char`
+* `String`
 
 ---
 ## Revision
 
 To stop any reading locks from being obtained, you can use the method:
 ```java
-StampedLock lock = 
+StampedLock lock =
              new StampedLock();
-lock.???;```
+lock.???;
+```
 
-*`writeLock()` 
-*`readLock()` 
-*`lockReading()` 
-*`lockWriting()`
+
+* `writeLock()`
+* `readLock()`
+* `lockReading()`
+* `lockWriting()`

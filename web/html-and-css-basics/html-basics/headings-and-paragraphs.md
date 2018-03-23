@@ -1,4 +1,4 @@
-# Headings and Paragraphs
+---
 author: mihaiberq
 
 levels:
@@ -7,9 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# Headings and Paragraphs
 
 ---
 ## Content
@@ -54,6 +61,7 @@ This behavior is specific to **block elements**.
 The smallest sized heading is
 
 ???
+
 * h6
 * h1
 * h2
@@ -66,7 +74,9 @@ The smallest sized heading is
 
 All headings are ??? by default.
 
+
 * bold
 * italic
 * bigger than paragraphs
 * smaller than paragraphs
+

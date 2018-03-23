@@ -1,4 +1,4 @@
-# Functions can be declared after use
+---
 author: rosielowther
 
 levels:
@@ -14,11 +14,21 @@ type: normal
 category: must-know
 
 standards:
+
   js.functions.8: 10
 
 tags:
+
   - introduction
+
   - workout
+
+
+
+
+---
+
+# Functions can be declared after use
 
 ---
 ## Content
@@ -49,8 +59,9 @@ Give the output:
 alert(foo()); // ???
 var foo = function() { return 'Enki'; } 
 ``` 
-*error
-*alerts 'Enki'
+
+* error
+* alerts 'Enki'
 
 ---
 ## Revision
@@ -60,5 +71,7 @@ Give the output:
 alert(foo()); // ???
 function foo() { return 'Enki'; } 
 ``` 
-*alerts 'Enki'
-*error
+
+* alerts 'Enki'
+* error
+

@@ -1,4 +1,4 @@
-# Functions
+---
 author: mihaiberq
 
 levels:
@@ -7,14 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html){website}'
+
+
+---
+
+# Functions
 
 ---
 ## Content
@@ -100,8 +105,10 @@ public ??? test() {
   System.out.println("test");
 }
 ```
-*`void`
-*`String`
-*`int`
-*`empty`
-*`static`
+
+* `void`
+* `String`
+* `int`
+* `empty`
+* `static`
+

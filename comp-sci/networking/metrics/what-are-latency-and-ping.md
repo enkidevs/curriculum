@@ -1,29 +1,32 @@
-# What are latency and ping?
+---
 author: catalin
 
 levels:
 
-- beginner
+  - beginner
 
-- basic
+  - basic
 
-- medium
+  - medium
 
-- advanced
+  - advanced
 
 type: normal
 
 category: must-know
 
+
 links:
 
-  - 'http://whatis.techtarget.com/definition/latency'
-
-  - 'https://www.websitepulse.com/blog/what-is-ping-test'
-
-  - 'https://en.wikipedia.org/wiki/Ping_'
+  - '[whatis.techtarget.com](http://whatis.techtarget.com/definition/latency){website}'
+  - '[www.websitepulse.com](https://www.websitepulse.com/blog/what-is-ping-test){website}'
+  - '[en.wikipedia.org](https://en.wikipedia.org/wiki/Ping_){website}'
 
 parent: important-networking-metrics
+
+---
+
+# What are latency and ping?
 
 ---
 ## Content
@@ -69,6 +72,7 @@ We can talk about **round-trip time** only in:
 
 ???
 
+
 * packet-switched networks
 * complex networks
 * UDP networks
@@ -82,6 +86,7 @@ In the context of computer networks, **RTT** stands for:
 
 ???
 
+
 * round-trip time
 * routed-through-tunnel
 * real-time trip
@@ -89,7 +94,6 @@ In the context of computer networks, **RTT** stands for:
 
 ---
 ## Footnotes
-
 [1:Internet Speed]
 Internet speed is roughly a combination of **bandwidth** and **latency**.
 

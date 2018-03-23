@@ -1,4 +1,4 @@
-# Java 8?
+---
 author: catalin
 
 levels:
@@ -14,6 +14,10 @@ levels:
 type: tetris
 
 category: tip
+
+---
+
+# Java 8?
 
 ---
 ## Content

@@ -1,4 +1,4 @@
-# Sass Mixins
+---
 author: tommarshall
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [sass-lang.com](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#sassscript){website}
+  - '[sass-lang.com](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#sassscript){website}'
+
+
+---
+
+# Sass Mixins
 
 ---
 ## Content
@@ -48,6 +53,8 @@ Generating your CSS would produce this:
 ## Revision
 
 What's the main advantage of Sass Mixins taking arguments? ???
+
 * Large combinations of styles with only a few mixins.
 * Flexible values.
 * Mixins can be reused throughout a site.
+

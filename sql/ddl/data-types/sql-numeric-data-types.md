@@ -1,4 +1,4 @@
-# SQL Numeric Data Types
+---
 author: mihaiberq
 
 levels:
@@ -15,13 +15,22 @@ standards:
   sql.choose-sql-datatype.0: 10
 
 tags:
+
   - introduction
+
   - workout
 
+
 links:
-  - '[PostgreSQL Data Types](https://www.postgresql.org/docs/current/static/datatype.html)'
-  - '[MySQL Data Types](https://dev.mysql.com/doc/refman/5.7/en/data-types.html)'
-  - '[Microsoft SQL Data Types](https://docs.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql)'
+
+  - '[PostgreSQL Data Types](https://www.postgresql.org/docs/current/static/datatype.html){website}'
+  - '[MySQL Data Types](https://dev.mysql.com/doc/refman/5.7/en/data-types.html){website}'
+  - '[Microsoft SQL Data Types](https://docs.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql){website}'
+
+
+---
+
+# SQL Numeric Data Types
 
 ---
 ## Content
@@ -78,14 +87,6 @@ A data type used to store currency values:
 - `money`: 64bit/8 byte - supports 2 decimals for PSQL and 4 decimals for MSSQL
 - MySQL has no currency data type, but `decimal(n, d)` can be used to simulate the behavior
 
-
----
-## Footnotes
-
-[1: Serials]
-https://hackernoon.com/the-night-the-postgresql-ids-ran-out-9430a2dbb895
-
-
 ---
 ## Practice
 
@@ -97,6 +98,7 @@ Create a table PostgreSQL table with a serial ID column PK that is `bigint`:
   PRIMARY KEY(???)  
 );
 ```
+
 * `CREATE`
 * `TABLE`
 * `bigserial`
@@ -113,8 +115,14 @@ Which of the following data types is not a numeric type?
 
 ???
 
+
 * date
 * boolean
 * bool
 * numeric
 * bigserial
+
+---
+## Footnotes
+[1: Serials]
+https://hackernoon.com/the-night-the-postgresql-ids-ran-out-9430a2dbb895

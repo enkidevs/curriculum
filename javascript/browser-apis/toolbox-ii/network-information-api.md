@@ -1,4 +1,4 @@
-# Network Information API
+---
 author: tommarshall
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [code.tutsplus.com](http://code.tutsplus.com/tutorials/html5-network-information-api--cms-21598){website}
+  - '[code.tutsplus.com](http://code.tutsplus.com/tutorials/html5-network-information-api--cms-21598){website}'
+
+
+---
+
+# Network Information API
 
 ---
 ## Content
@@ -59,6 +64,7 @@ var connection = ???.connection ||
 var type = connection.type;
 ```
 
+
 * `navigator`
 * `mozConnection`
 * `webkitConnection`
@@ -77,8 +83,10 @@ connection.addEventListener('???',
   handlingFunction);
 ```
 
-*`typechange`
-*`type`
-*`change`
-*`update`
-*`statusChange`
+
+* `typechange`
+* `type`
+* `change`
+* `update`
+* `statusChange`
+
