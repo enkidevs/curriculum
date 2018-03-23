@@ -1,4 +1,4 @@
-# Suppressing warnings using `@SuppressWarnings`
+---
 author: adamMontgomerie
 
 levels:
@@ -21,10 +21,15 @@ tags:
 
   - deprecation
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/annotations/predefined.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/annotations/predefined.html){website}'
+
+
+---
+
+# Suppressing warnings using `@SuppressWarnings`
 
 ---
 ## Content
@@ -47,13 +52,14 @@ What annotation should be used to suppress warnings about deprecated methods?
 @???(
      "???");
 ```
-*`SuppressWarnings` 
-*`deprecation` 
-*`deprecated` 
-*`Warnings` 
-*`Suppress` 
-*`IgnoreWarnings` 
-*`methods`
+
+* `SuppressWarnings` 
+* `deprecation` 
+* `deprecated` 
+* `Warnings` 
+* `Suppress` 
+* `IgnoreWarnings` 
+* `methods`
 
 ---
 ## Revision
@@ -62,8 +68,10 @@ What annotation is used to suppress warnings?
 
 `???`
 
-*`SuppressWarnings` 
-*`SuppressWarning` 
-*`IgnoreWarnings` 
-*`IgnoreWarning` 
-*`CompilerDeprecate`
+
+* `SuppressWarnings` 
+* `SuppressWarning` 
+* `IgnoreWarnings` 
+* `IgnoreWarning` 
+* `CompilerDeprecate`
+

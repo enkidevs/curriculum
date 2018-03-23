@@ -1,4 +1,4 @@
-# Hashing
+---
 author: Nick Daminov
 
 levels:
@@ -9,11 +9,17 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - '[More on Hashing](https://en.wikipedia.org/wiki/Hash_function)'
-  - '[Java Object HashCode](https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#hashCode())'
-  - '[String Hashcode](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#hashCode())'
+  - '[More on Hashing](https://en.wikipedia.org/wiki/Hash_function){website}'
+  - '[Java Object HashCode](https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#hashCode()){website}'
+  - '[String Hashcode](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#hashCode()){website}'
+
+
+---
+
+# Hashing
 
 ---
 ## Content
@@ -41,6 +47,8 @@ What is hashing?
 
 ???
 
+
 * Concept of encoding an arbitrary data into a fixed size number in a unique way.
 * Concept of rewriting methods in a subclass if they already exist in a parent class.
 * Specific order of inheritance from multiple classes.
+

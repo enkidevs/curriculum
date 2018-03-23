@@ -1,4 +1,4 @@
-# Removing leading or trailing white space from a string
+---
 author: adamMontgomerie
 
 levels:
@@ -19,10 +19,15 @@ tags:
 
   - string-manipulation
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/manipstrings.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/manipstrings.html){website}'
+
+
+---
+
+# Removing leading or trailing white space from a string
 
 ---
 ## Content
@@ -36,3 +41,4 @@ String trimmed = original.trim();
 System.out.println(trimmed);
 ```
 The output printed by the example above will be: `Enki`.
+

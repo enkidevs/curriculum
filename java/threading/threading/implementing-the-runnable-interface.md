@@ -1,4 +1,4 @@
-# Implementing the Runnable Interface
+---
 author: Nick Daminov
 
 levels:
@@ -9,11 +9,17 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - '[More on Runnable Interface](https://docs.oracle.com/javase/7/docs/api/java/lang/Runnable.html)'
-  - '[More on the Thread Class](https://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html)'
-  - '[More on Overriding `.start()`](http://www.javamadesoeasy.com/2015/03/what-will-happen-if-we-override-start.html)'
+  - '[More on Runnable Interface](https://docs.oracle.com/javase/7/docs/api/java/lang/Runnable.html){website}'
+  - '[More on the Thread Class](https://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html){website}'
+  - '[More on Overriding `.start()`](http://www.javamadesoeasy.com/2015/03/what-will-happen-if-we-override-start.html){website}'
+
+
+---
+
+# Implementing the Runnable Interface
 
 ---
 ## Content
@@ -97,6 +103,7 @@ What is the best practice for `Overriding` the `start()` function?
 
 ???
 
+
 * `run()`
 * `start()`
 * No
@@ -113,5 +120,7 @@ When implementing a `runnable` interface do we create a thread?
 
 ???
 
+
 * No, we create a runnable object that has to be passed to an instance of a Thread
 * Yes, we can call `start()` on it straight away as it is a runnable thread
+

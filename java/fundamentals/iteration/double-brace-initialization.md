@@ -1,4 +1,4 @@
-# Double Brace Initialization
+---
 author: abhavk
 
 levels:
@@ -9,9 +9,15 @@ type: normal
 
 category: how to
 
+
 links:
 
   - '[www.c2.com](http://www.c2.com/cgi/wiki?DoubleBraceInitialization){website}'
+
+
+---
+
+# Double Brace Initialization
 
 ---
 ## Content
@@ -49,11 +55,12 @@ new ArrayList<String>() ???
 }};
 ```
 
-*`{{` 
-*`add` 
-*`((` 
-*`{(` 
-*`push`
+
+* `{{` 
+* `add` 
+* `((` 
+* `{(` 
+* `push`
 
 ---
 ## Revision
@@ -78,6 +85,8 @@ newSet(new HashSet<String>() {{
 }});
 ```
 ???
-*Option C
-*Option A
-*Option B
+
+* Option C
+* Option A
+* Option B
+

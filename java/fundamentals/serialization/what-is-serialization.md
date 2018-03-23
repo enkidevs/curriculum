@@ -1,4 +1,4 @@
-# What Is Serialization?
+---
 author: Nick Daminov
 
 levels:
@@ -9,9 +9,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - '[More on Serialization](https://www.tutorialspoint.com/java/java_serialization.htm)'
+  - '[More on Serialization](https://www.tutorialspoint.com/java/java_serialization.htm){website}'
+
+
+---
+
+# What Is Serialization?
 
 ---
 ## Content
@@ -31,6 +37,7 @@ In order to serialize an object you will use tools/classes available in the `jav
 What is serialization?
 ???
 
+
 * The way of converting information about an object into a stream of bytes
 * The way of making a class non extendable
 * The way of making a class abstract
@@ -38,6 +45,5 @@ What is serialization?
 
 ---
 ## Footnotes
-
 [1:retractable]
 In this context this means that the information about this class can be restored back.

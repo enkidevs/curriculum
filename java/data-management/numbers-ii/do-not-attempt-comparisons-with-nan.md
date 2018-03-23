@@ -1,4 +1,4 @@
-# Do not attempt comparisons with NaN
+---
 author: fahimrahman
 
 levels:
@@ -11,10 +11,15 @@ type: normal
 
 category: best practice
 
+
 links:
 
-  - >-
-    [www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/NUM07-J.+Do+not+attempt+comparisons+with+NaN){website}
+  - '[www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/NUM07-J.+Do+not+attempt+comparisons+with+NaN){website}'
+
+
+---
+
+# Do not attempt comparisons with NaN
 
 ---
 ## Content
@@ -55,6 +60,7 @@ double x = 13.0/0;
 ???.???(???);
 ```
 
+
 * `Double`
 * `isNaN`
 * `x`
@@ -70,6 +76,7 @@ What value will `x` have here?
 double x = Math.tan(1/0.0);
 ```
 ???
+
 * `NaN`
 * `0`
 * `pi`
@@ -78,17 +85,18 @@ double x = Math.tan(1/0.0);
 
 ---
 ## Quiz
+### is NaN equal to NaN?
 
-headline: is NaN equal to NaN?
+```java
+// What will the following snippet print?
+double x = Double.NaN;
+if(x == Double.NaN) { System.out.print(x); }
+System.out.print("false");
+```
 
-question: |
-  // What will the following snippet print?
-  double x = Double.NaN;
-  if(x == Double.NaN) { System.out.print(x); }
-  System.out.print("false");
+ ???
 
-answers:
-  - false
-  - NaNfalse
-  - Double.NaNfalse
-  - NaN
+* false
+* NaNfalse
+* Double.NaNfalse
+* NaN

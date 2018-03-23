@@ -1,4 +1,4 @@
-# What Is a Class?
+---
 author: mihaiberq
 
 levels:
@@ -7,15 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [Why OOP makes
-    sense](https://www.quora.com/What-is-the-difference-between-procedural-and-object-oriented-programming){website}
+  - '[Why OOP makes sense](https://www.quora.com/What-is-the-difference-between-procedural-and-object-oriented-programming){website}'
+
+
+---
+
+# What Is a Class?
 
 ---
 ## Content
@@ -71,7 +75,9 @@ The method that creates a new object is called
 
 ???
 
+
 * constructor
 * instantiator
 * class
 * newObject
+

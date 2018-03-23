@@ -1,4 +1,4 @@
-# Using unbounded wildcards
+---
 author: adamMontgomerie
 
 levels:
@@ -23,10 +23,15 @@ tags:
 
   - unbounded-wildcards
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/unboundedWildcards.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/unboundedWildcards.html){website}'
+
+
+---
+
+# Using unbounded wildcards
 
 ---
 ## Content
@@ -40,3 +45,4 @@ public void printList(List<?> list) {
 }
 ```
 The `printList` method can take a `List` containing any type as a parameter. This allows us to print the contents of any `List`.
+
