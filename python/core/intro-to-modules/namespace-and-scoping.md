@@ -9,6 +9,9 @@ type: normal
 
 category: must-know
 
+standards:
+  py.functions.3: 10
+
 
 links:
 
@@ -65,6 +68,7 @@ def f():
     def g():
         x = 'An enclosed variable'
         print(x) # print() is built-in
+    g()
 
 
 r = 'A global variable'
@@ -84,6 +88,7 @@ A global variable
 
 Consider the following snippet. On which scoping level of hierarchy do you think `z` is?
 
+
 ```python
 def foo(x):
     return x*x
@@ -102,6 +107,7 @@ z = foo(4)
 ## Revision
 
 Is the variable `a` still in scope when it is printed?
+
 ```python
 def foo():
     a = "Hello World"
@@ -116,4 +122,3 @@ print(a)
 * No
 * Yes
 * It can't be determined.
-

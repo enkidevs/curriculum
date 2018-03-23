@@ -12,6 +12,8 @@ category: must-know
 inAlgoPool: false
 
 
+standards:
+  py.control-structures.4: 10
 
 
 ---
@@ -27,7 +29,7 @@ A return statement without any arguments is the same as returning `None.none`, w
 
 All Python functions implicitly contain a `return None` statement at the end, unless you've written your own return statement.
 
-Here is an example using a return statement: 
+Here is an example using a return statement:
 
 ```python
 def return_func():
@@ -54,4 +56,3 @@ Python’s return statement exits a function and passes back an ??? to the funct
 * sum
 * instance
 * function instance
-

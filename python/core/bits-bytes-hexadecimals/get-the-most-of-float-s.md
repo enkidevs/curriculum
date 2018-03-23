@@ -10,6 +10,9 @@ type: normal
 category: feature
 
 
+standards:
+  py.data-structures-uses.3: 10
+
 links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#additional-methods-on-float){website}'
@@ -115,4 +118,3 @@ How would you convert `2.71` to its **hexadecimal** representation?
 * `to_hex`
 * `fromhex`
 * `int`
-

@@ -11,6 +11,8 @@ type: normal
 
 category: must-know
 
+standards:
+  py.standard-library-operating-system.5: 10
 
 links:
 

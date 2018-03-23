@@ -9,6 +9,8 @@ type: normal
 
 category: how to
 
+standards:
+  cs.implement-linear-collection-data-structures.2: 10
 
 links:
 
@@ -71,7 +73,7 @@ my_queue.enqueue(__)
 my_queue.enqueue(__)
 
 for n in __.items:
-print(n)
+    print(n)
 ```
 ???
 
@@ -98,7 +100,7 @@ temp.enqueue('E')
 print(temp.size())
 
 for n in temp.items:
-  print(n)
+    print(n)
 ```
 ???
 
@@ -107,4 +109,3 @@ for n in temp.items:
 * 5 Q U E U E
 * Q U E U E
 * E U E U Q
-

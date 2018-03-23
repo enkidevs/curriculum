@@ -41,6 +41,9 @@ notes: >
   It should be connected to some purpose or benefit, otherwise may be better not
   to show it.
 
+standards:
+  py.object-oriented.3: 10
+
 ---
 
 # Method objects
@@ -50,7 +53,7 @@ notes: >
 
 In Python, functions are seen as *objects* - and there is a clear distinction between a **method call** and a **method object**.
 
-Considering the following class and its instantiation: 
+Considering the following class and its instantiation:
 ```python
 class Enki:
     def f(self):
@@ -94,4 +97,3 @@ x = test.???
 * `new`
 * `def`
 * `get`
-

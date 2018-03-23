@@ -10,6 +10,9 @@ type: normal
 category: how to
 
 
+standards:
+  py.native-types-operations.4: 10
+
 links:
 
   - '[docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#using-lists-as-stacks){website}'
@@ -59,7 +62,6 @@ stack.pop()
 ???
 
 * `15`
-* `14` 
-* `10` 
+* `14`
+* `10`
 * There’s no output...
-

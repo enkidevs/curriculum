@@ -21,7 +21,13 @@ links:
 parent: bytes-type
 notes: ''
 
+standards:
+  py.data-structures-uses.3: 10
+  py.native-types-operations.11: 10
+
+
 ---
+
 
 # Operations with `bytes` and `bytearray`
 
@@ -97,4 +103,3 @@ True
 * `isalphanum`
 * `isalpnum`
 * `isnum`
-

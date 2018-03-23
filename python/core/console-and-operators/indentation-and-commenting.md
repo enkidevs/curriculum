@@ -12,6 +12,9 @@ category: must-know
 inAlgoPool: false
 
 
+standards:
+  py.identify-python-syntax.2: 10
+
 links:
 
   - '[Comment conventions](https://www.python.org/dev/peps/pep-0008/#comments){website}'
@@ -88,4 +91,3 @@ Which of the following is a valid Python comment?
 * `Comment C`
 * `Comment B`
 * `Comment A`
-

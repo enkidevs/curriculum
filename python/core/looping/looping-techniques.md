@@ -26,7 +26,7 @@ notes: >
   values.
 
 
-  Error: reverse() is used, there is no such 
+  Error: reverse() is used, there is no such
 
   function (though there is a list method of that name, but it does not work in
   this context)
@@ -34,6 +34,9 @@ notes: >
 
   The "reversed()" function (note extra "d" at end of name) should be used
   instead of "reverse()". Fixed.
+
+standards:
+  py.native-types-operations.3: 10
 
 ---
 
@@ -68,7 +71,7 @@ for f, s in zip(first_list, second_list):
     print(f, s)
 # a one
 # b two
-``` 
+```
 
 To loop in a sorted order, use the `sorted()` function:
 
@@ -97,16 +100,16 @@ Complete the code snippet to pair the sequences in order and loop over them both
 
 ```python
 list_a = ['a', 'b', 'c']
-list_one = ['one', 'two', 'three'] 
+list_one = ['one', 'two', 'three']
 for k, v in ???(list_a, list_one):
-    print(???) 
+    print(???)
 ```
 
-* `zip` 
-* `k, v` 
-* `f, s` 
-* `pair` 
-* `parallel` 
+* `zip`
+* `k, v`
+* `f, s`
+* `pair`
+* `parallel`
 * `list_a, list_one`
 
 ---
@@ -117,14 +120,13 @@ Complete the code snippet to loop through the list in reverse:
 ```
 enki_list = [‘i’, ‘k’, ‘n’, ‘e’]
 for w in ???(sorted \
-            (???(enki_list))): 
-  print(w) 
+            (???(enki_list))):
+  print(w)
 ```
 
-* `reversed` 
-* `set` 
-* `reverse` 
-* `orderreverse` 
-* `start` 
+* `reversed`
+* `set`
+* `reverse`
+* `orderreverse`
+* `start`
 * `list`
-

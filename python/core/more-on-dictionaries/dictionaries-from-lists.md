@@ -9,6 +9,8 @@ type: normal
 
 category: how to
 
+standards:
+  py.native-types-operations.6: 10
 
 links:
 
@@ -22,7 +24,7 @@ links:
 ---
 ## Content
 
-Usauly, two lists can be converted into a **dictionary**.
+Usually, two lists can be converted into a **dictionary**.
 
 Let's consider two lists:
 - one containing some names
@@ -127,4 +129,3 @@ print(C)
 * `pop`
 * `clear`
 * `list`
-

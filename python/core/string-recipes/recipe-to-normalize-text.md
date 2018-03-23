@@ -13,11 +13,14 @@ type: normal
 
 category: how to
 
-inAlgoPool: false
+standards:
+  py.data-structures-uses.5: 10
+  py.native-types-operations.4: 10
+  py.store-manipulate-data.4: 10
 
 tags:
 
-  - 
+  -
 
 
 links:
@@ -68,12 +71,12 @@ normal = unicodedata.???\
 print(normal)
 ```           
 
-* `normalize` 
-* `encode` 
-* `decode` 
-* `bytes` 
-* `string` 
-* `mod` 
+* `normalize`
+* `encode`
+* `decode`
+* `bytes`
+* `string`
+* `mod`
 * `text`
 
 ---
@@ -84,8 +87,7 @@ What module has the `normalize` method used to normalise unicode data strings?
 ???
 
 
-* `unicodedata` 
-* `unicode` 
-* `normal` 
+* `unicodedata`
+* `unicode`
+* `normal`
 * `normalize`
-

@@ -12,6 +12,10 @@ type: normal
 category: how to
 
 
+standards:
+  py.store-manipulate-data.5: 10
+  py.store-manipulate-data.6: 10
+
 links:
 
   - '[pymotw.com](https://pymotw.com/2/weakref/#references){website}'

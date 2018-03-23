@@ -9,6 +9,8 @@ type: normal
 
 category: must-know
 
+standards:
+  py.store-manipulate-data.5: 10
 
 links:
 

@@ -16,6 +16,10 @@ category: how to
 inAlgoPool: false
 
 
+standards:
+  py.data-structures-uses.5: 10
+  py.native-types-operations.4: 10
+
 links:
 
   - '[pymotw.com](https://pymotw.com/2/textwrap/){website}'
@@ -72,12 +76,12 @@ Truncate `text` to `17` characters max:
 ```
 
 
-* `textwrap` 
-* `shorten` 
-* `width` 
-* `fill` 
-* `format` 
-* `length` 
+* `textwrap`
+* `shorten`
+* `width`
+* `fill`
+* `format`
+* `length`
 * `text`
 
 ---
@@ -89,10 +93,9 @@ textwrap.???(text, ???=30)
 ```
 
 
-* `wrap` 
-* `width` 
-* `format` 
-* `fill` 
-* `length` 
+* `wrap`
+* `width`
+* `format`
+* `fill`
+* `length`
 * `max`
-

@@ -20,6 +20,10 @@ notes: >-
   Insight is correct, But should give a few examples of common counter methods
   like most_common(), elements(), etc.
 
+standards:
+  py.store-manipulate-data.5: 10
+  py.modules.0: 10
+
 ---
 
 # How to count
@@ -79,9 +83,9 @@ Which method is used to find the most common occurrence in a counter?
 ???
 
 
-* `most_common(n)` 
-* `most-common(n)` 
-* `common(n)` 
+* `most_common(n)`
+* `most-common(n)`
+* `common(n)`
 * `common-item(n)`
 
 ---
@@ -95,10 +99,9 @@ e.???(“enki”)
 ```
 
 
-* `Counter` 
-* `update` 
-* `new-counter` 
-* `new_counter` 
-* `add` 
+* `Counter`
+* `update`
+* `new-counter`
+* `new_counter`
+* `add`
 * `add_counter`
-

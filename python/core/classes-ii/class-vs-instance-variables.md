@@ -24,6 +24,10 @@ notes: >
   meaningless and will be confusing to at least beginners. Simple values like
   'a' and 'b', or 1 and 2 could be used instead. --> updated.
 
+
+standards:
+  py.object-oriented.2: 10
+  py.object-oriented.3: 10
 ---
 
 # **Class** vs. **Instance** variables
@@ -48,9 +52,9 @@ The difference between the types of variables can be easily seen:
 ```python
 old = Enki('0.2.3')
 new = Enki('0.2.41')
-print(old.class_var) # 'python' 
+print(old.class_var) # 'python'
                      # (shared/class)
-print(new.class_var) # 'python' 
+print(new.class_var) # 'python'
                      # (shared/class)
 print(old.inst) # '0.2.3' (unique/instance)
 print(new.inst) # '0.2.41' (unique/instance)
@@ -69,6 +73,5 @@ class Test:
 ```
 
 
-* `class` 
+* `class`
 * `instance`
-

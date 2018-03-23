@@ -11,7 +11,9 @@ category: must-know
 
 inAlgoPool: false
 
-
+standards:
+  py.control-structures.3: 10
+  py.identify-python-syntax.0: 10
 
 
 ---
@@ -68,4 +70,3 @@ while (x < 5):
 * `0 1 2 3 4`
 * `1 2 3 4`
 * `0 1 2 3 4 5`
-

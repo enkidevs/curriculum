@@ -9,6 +9,8 @@ type: normal
 
 category: must-know
 
+standards:
+  py.native-types-operations.4: 10
 
 links:
 
@@ -22,7 +24,7 @@ links:
 ---
 ## Content
 
-`Tuples` are one of the currently implemented **sequence data types** (alongside with `lists`, `ranges` and `dictionaries`).
+`Tuples` are another one of the three currently implemented **sequence data types** (alongside with `lists` and `ranges`).
 
 Tuples are used to group any number of items into a single compound value regardless of their type (even nested tuples):
 ```python
@@ -35,7 +37,7 @@ print(myTuple[3])
 # 42
 ```
 
-Similar to lists, the index starts at value `0`. If we try to access an index that does not exist in the tuple we will encounter the following error:
+The index used has to be a valid one:
 ```python
 print(myTuple[4])
 # IndexError: tuple index out of range
@@ -47,27 +49,22 @@ myTuple[0] = "ABC"
 # TypeError: ...
 ```
 
-The **tuple assignment** feature allows packing and unpacking of tuples:
+The **tuple assignment** feature allows packing and unpacking of tuples such that a tuple left of the assignment will be assigned all values from the tuple right of the assignment:
 ```python
-flash = ("Barry", "Allen" , 27)
-fname, lname, age = flash
+flash = ("Berry", "Allen" , 27)
+(fname, lname, age) = flash
 print(fname)
-# 'Barry'
+# 'Berry'
 print(age)
 # 27
 ```
-
-When we would like to store more values form the tuple on a single variable we can use `*` ( the spread operator ). Check out the following example:
+In case of tuples with multiple fields, use the `*` unpacking syntax:
 ```python
 a, *b, c = (1, 2, 3, 4, 5)
 print(b)
 # [2, 3, 4]
-print a
-# [1]
-print c
-# [5]
 ```
-Tuples are often used for to store a sequence of heterogeneous values (e.g. fields of a database record or columns from a CSV file). However, it's they are used for other purposes too.
+Tuples are often used for a sequence of values of heterogeneous types (e.g. fields of a database record or columns from a CSV file), while lists are often used for homogeneous items, such as a list of only numbers, or a list of only strings. But this is not a rule, it can be the other way around too.
 
 ---
 ## Practice

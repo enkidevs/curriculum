@@ -24,6 +24,9 @@ notes: |
 
   11 # 1024 in binary is 10000000000
 
+standards:
+  py.data-structures-uses.3: 10
+
 ---
 
 # Converting `int`s to binary data

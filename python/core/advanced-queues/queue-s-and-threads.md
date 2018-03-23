@@ -9,6 +9,9 @@ type: normal
 
 category: how to
 
+standards:
+  py.control-structures.5: 10
+  cs.implement-linear-collection-data-structures.3: 10
 
 links:
 
@@ -16,6 +19,7 @@ links:
   - '[www.troyfawkes.com](http://www.troyfawkes.com/learn-python-multithreading-queues-basics/){website}'
 
 parent: a-thread-safe-queue
+
 notes: |
   The program does not work as it is. It has a syntax error, in this line:
       print q.get()
@@ -23,7 +27,7 @@ notes: |
 
 ---
 
-# `queue`s and threads
+# Queues and threads
 
 ---
 ## Content
@@ -96,4 +100,3 @@ Which methods tells the queue that an operation has finished? ???
 * `task.done()`
 * `task-done()`
 * `taskdone()`
-

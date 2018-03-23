@@ -14,9 +14,14 @@ type: normal
 category: tip
 
 
+standards:
+  py.object-oriented.2: 10
+
+
 links:
 
   - '[lgiordani.com](http://lgiordani.com/blog/2014/05/19/method-overriding-in-python/#.Vsx21JyLRhF){website}'
+
 
 notes: >
   Again, preferably use other names for classes instead of words containing Enki
@@ -113,4 +118,3 @@ Complete the missing gaps such that the output of running it will match the give
 * `child`
 * `super`
 * `hello()`
-

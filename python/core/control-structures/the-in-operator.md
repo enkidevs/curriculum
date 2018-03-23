@@ -12,6 +12,9 @@ category: tip
 inAlgoPool: false
 
 
+standards:
+  py.native-types-operations.0: 10
+
 links:
 
   - '[Use cases](http://kracekumar.com/post/22512660850/python-in-operator-use-cases){website}'
@@ -54,4 +57,3 @@ The `in` operator evaluates to ??? if it finds the specified variable in the ???
 * false
 * list
 * map
-

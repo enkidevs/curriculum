@@ -18,6 +18,10 @@ links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/datetime.html#timedelta-objects){website}'
 
+standards:
+  py.native-types-operations.8: 10
+  py.standard-library-data.2: 10
+
 parent: datetime-object
 
 ---
@@ -27,10 +31,11 @@ parent: datetime-object
 ---
 ## Content
 
-Another useful class provided by `datetime` is called `timedelta`. With this object you can compute past or future dates along with differences between times.
+Another useful class provided by `datetime` is called `timedelta`. With this object you can calculate past or future dates along with differences between times.
 
 This object will store a **difference** in time, a delta. Although internally the values are stored only in *days*, *seconds* and *microseconds*, its constructor can accept any argument related to time:
 ```python
+from datetime import timedelta
 from datetime import timedelta
 
 day = timedelta(days=1)
@@ -71,17 +76,18 @@ today = ???.today()
 
 delta = ???(???=???)
 
-x = today ??? delta
+x = today ??? delta ???
 
 ```
 
 
 * `datetime`
 * `timedelta`
-* `weeks`
-* `2`
+* `days`
+* `7`
 * `+`
 * `* 2`
+* `weeks`
 * `/ 2`
 * `14`
 * `months`
@@ -109,9 +115,9 @@ yesterday = ??? - ???
 * `today`
 * `delta`
 * `timedelta`
+* `days`
 * `2`
 * `delta % 2`
 * `date`
 * `time`
 * `today / 2`
-

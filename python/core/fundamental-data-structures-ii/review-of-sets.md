@@ -9,6 +9,8 @@ type: normal
 
 category: must-know
 
+standards:
+  py.native-types-operations.5: 10
 
 links:
 
@@ -119,4 +121,3 @@ Which operation is performed using `^` operator?
 * `symmetric difference`
 * `difference`
 * `union`
-

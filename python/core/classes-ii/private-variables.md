@@ -13,6 +13,8 @@ type: normal
 
 category: must-know
 
+standards:
+  py.object-oriented.4: 10
 
 links:
 
@@ -21,7 +23,7 @@ links:
 
 ---
 
-# Private Variables 
+# Private Variables
 
 ---
 ## Content
@@ -63,13 +65,13 @@ class Test:
        self.__x = “hey there”
 t = Test()
 print(t.__x)
-??? 
+???
 ```
 
 
-* `AttributeError` 
-* `PrivateError` 
-* `Hey there` 
+* `AttributeError`
+* `PrivateError`
+* `Hey there`
 * `hey there`
 
 ---
@@ -81,11 +83,10 @@ Complete the following line such that the `private` variable is considered priva
 ```
 
 
-* `__` 
-* `&&` 
-* `--` 
-* `def` 
-* `class` 
-* `private` 
+* `__`
+* `&&`
+* `--`
+* `def`
+* `class`
+* `private`
 * `p_`
-

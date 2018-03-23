@@ -18,10 +18,13 @@ inAlgoPool: false
 
 # Printing to the console!
 
+standards:
+  py.identify-python-syntax.1: 10
+
 ---
 ## Content
 
-Python's simplest directive is the `print` directive, it simply prints out a line, and incorporates a new line. 
+Python's simplest directive is the `print` directive, it simply prints out a line, and incorporates a new line.
 
 In Python 2, print is *not* a function and therefore is invoked without parentheses. Therefore, to print in Python 2:
 ```python
@@ -40,9 +43,9 @@ print('Python 3')
 Pythons simplest directive is the ??? directive. It prints out a line and incorporates a ???.
 
 
-* `print` 
-* `new line` 
-* `python` 
+* `print`
+* `new line`
+* `python`
 * `break`
 
 ---
@@ -54,12 +57,11 @@ Print to the console in Python 3:
 ??? ??? Python 3! ???
 ```
 
-* `print` 
-* `('` 
-* `')` 
-* `'` 
-* `'` 
-* `(` 
-* `)` 
+* `print`
+* `('`
+* `')`
+* `'`
+* `'`
+* `(`
+* `)`
 * `write`
-

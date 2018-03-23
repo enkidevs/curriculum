@@ -12,16 +12,19 @@ category: must-know
 inAlgoPool: false
 
 
+standards:
+  py.functions.1: 10
 
 
 ---
 
 # Calling functions
 
+
 ---
 ## Content
 
-To call a function in Python you simply write the functions name followed by some parentheses `()`.
+To call a function in Python you simply write the functions name followed by some brackets `()`.
 
 For example:
 
@@ -81,4 +84,3 @@ num = 5
 * `obj`
 * `var`
 * `function`
-

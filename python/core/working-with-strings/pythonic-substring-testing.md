@@ -11,13 +11,15 @@ type: normal
 
 category: tip
 
+standards:
+  py.standard-library-data.3: 10
+
+
 tags:
 
   - substring
 
   - in
-
-
 
 
 ---
@@ -28,7 +30,7 @@ tags:
 ## Content
 
 Perform a substring test in a pythonic fashion using the `in` operator:
- 
+
 
 ```python
 string = 'Hello world'
@@ -43,7 +45,7 @@ Instead of:
 string = 'Hello world'
 if string.find('Hello') != -1:
   print 'Success!'
-   
+
 ```
 
 ---
@@ -57,12 +59,12 @@ string = “Hey there”
 #found it
 ```
 
-* `if` 
-* `in` 
-* `for` 
-* `is` 
-* `match` 
-* `else` 
+* `if`
+* `in`
+* `for`
+* `is`
+* `match`
+* `else`
 * `try`
 
 ---
@@ -73,9 +75,8 @@ What keyword can be used in Python for substring testing?
 ???
 
 
-* `in` 
-* `for` 
-* `is` 
-* `matches` 
+* `in`
+* `for`
+* `is`
+* `matches`
 * `yield`
-

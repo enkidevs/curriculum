@@ -13,8 +13,9 @@ type: normal
 
 category: tip
 
-
-
+standards:
+  py.standard-library-data.6: 10
+  py.data-structures-uses.5: 10
 
 ---
 
@@ -62,13 +63,13 @@ print(t
 ```
 
 
-* `Template` 
-* `$` 
-* `substitute` 
-* `format` 
-* `%` 
-* `{` 
-* `dict` 
+* `Template`
+* `$`
+* `substitute`
+* `format`
+* `%`
+* `{`
+* `dict`
 * `mod`
 
 ---
@@ -82,10 +83,9 @@ print(my_string
 ```
 
 
-* `format` 
-* `time` 
-* `first` 
-* `{time}` 
-* `substitute` 
+* `format`
+* `time`
+* `first`
+* `{time}`
+* `substitute`
 * `sub`
-

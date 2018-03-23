@@ -11,7 +11,8 @@ category: must-know
 
 inAlgoPool: false
 
-
+standards:
+  py.control-structures.0: 10
 
 
 ---
@@ -75,4 +76,3 @@ How do nested loops work?
 * The outer loop increments once per full cycle of the inner loop.
 * The inner loop increments once per full cycle of the outer loop.
 * The inner and outer loops increment simultaneously.
-

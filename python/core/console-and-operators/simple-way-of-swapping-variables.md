@@ -9,6 +9,9 @@ levels:
 
   - beginner
 
+standards:
+  py.native-types-operations.4: 10
+
 type: normal
 
 category: tip
@@ -45,10 +48,10 @@ Complete the following snippet such that the variables are swapped, using tuple 
 ```
 
 
-* `e` 
-* `d` 
-* `swap` 
-* `switch` 
+* `e`
+* `d`
+* `swap`
+* `switch`
 * `a`
 
 ---
@@ -63,7 +66,6 @@ What is the output of the following snippet?
 ```
 
 
-* `4, 5` 
-* `5, 4` 
+* `4, 5`
+* `5, 4`
 * `error`
-

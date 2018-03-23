@@ -14,6 +14,11 @@ category: feature
 inAlgoPool: false
 
 
+standards:
+  py.data-structures-uses.5: 10
+  py.native-types-operations.4: 10
+  py.store-manipulate-data.3: 10
+
 links:
 
   - '[docs.python.org](https://docs.python.org/2/library/stringprep.html){website}'
@@ -60,11 +65,10 @@ import stringrep
 ```
 
 
-* `stringrep` 
-* `in_table_c11` 
-* `table_c11` 
-* `table_c_1_1` 
-* `table_c1_1` 
-* `rfc` 
+* `stringrep`
+* `in_table_c11`
+* `table_c11`
+* `table_c_1_1`
+* `table_c1_1`
+* `rfc`
 * `rfc3454``
-

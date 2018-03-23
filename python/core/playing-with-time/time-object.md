@@ -11,15 +11,16 @@ type: normal
 
 category: feature
 
-inAlgoPool: false
+standards:
+  py.native-types-operations.8: 10
+
+parent: datetime-module
 
 
 links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/datetime.html#time-objects){website}'
   - '[pymotw.com](https://pymotw.com/3/datetime/){website}'
-
-parent: datetime-module
 
 ---
 
@@ -103,7 +104,7 @@ Complete the following code snippet with the missing gaps such that, by running 
 from ??? import date, time
 
 t = time()
-print(t == ???.time) # True
+print(t == time.???) # True
 print(t.???(23,59,59,999999)
                       == time.???) # True
 
@@ -115,7 +116,7 @@ print(d.???) # 727191
 
 
 * `datetime`
-* `datetime`
+* `min`
 * `replace`
 * `max`
 * `date`

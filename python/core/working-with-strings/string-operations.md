@@ -11,7 +11,9 @@ category: must-know
 
 inAlgoPool: false
 
-
+standards:
+  py.standard-library-data.5: 10
+  py.standard-library-data.3: 10
 
 
 ---
@@ -87,4 +89,3 @@ words = str.???(' ')
 * `split`
 * `divide`
 * `new`
-

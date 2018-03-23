@@ -12,6 +12,8 @@ category: tip
 inAlgoPool: false
 
 
+standards:
+  py.functions.3: 10
 
 
 ---
@@ -78,4 +80,3 @@ A function is nested when it’s defined inside the ??? of another function.
 * scope
 * parentheses
 * enclosing class
-

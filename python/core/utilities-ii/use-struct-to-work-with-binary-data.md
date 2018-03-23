@@ -23,6 +23,11 @@ notes: >-
   useful for reading and writing binary files, and converting between binary
   data and text data formats.
 
+standards:
+  py.native-types-operations.11: 10
+  py.modules.0: 10
+  py.data-structures-uses.3: 10
+
 ---
 
 # Use `struct` to work with Binary Data
@@ -30,7 +35,7 @@ notes: >-
 ---
 ## Content
 
-Python's `struct` module has routines for converting between binary and text data, in both directions. 
+Python's `struct` module has routines for converting between binary and text data, in both directions.
 
 Import the module:
 ```python
@@ -90,4 +95,3 @@ b'\x03\x00\r\x00*\x00\x00\x00'
 * `struct`
 * `bytes`
 * `calcsize`
-

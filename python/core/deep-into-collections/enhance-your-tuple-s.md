@@ -35,17 +35,17 @@ notes: >+
   ValueError: Type names and field names must be valid identifiers: '3DPoint'
 
 
-  Fix it. 
+  Fix it.
 
 
   Should also mention the benefits of named tuples and common / important uses,
 
   such as for dealing with rows in CSV files or from database tables.
 
-  The attribute lookup feature and the helpful ways of printing named tuple 
+  The attribute lookup feature and the helpful ways of printing named tuple
 
   values, should be mentioned (the docstring and the __repr__ method), either in
-  the same insight, or in another 
+  the same insight, or in another
 
   insight if this one becomes too long.
 
@@ -60,7 +60,8 @@ notes: >+
   dictionaries, so they are lightweight and require no more memory than regular
   tuples.
 
-
+standards:
+  py.native-types-operations.6: 10
 
 
 ---
@@ -81,10 +82,10 @@ from collections import namedtuple
 
 Create a `namedtuple` object:
 ```python
-point = namedtuple('3DPoint', 'x y z')
+point = namedtuple('point', 'x y z')
 A = point(x=3, y=5, z=6)
 print(A)
-# 3DPoint(x=3, y=5, z=6)
+# point(x=3, y=5, z=6)
 ```
 
 Access a specific member:
@@ -112,19 +113,19 @@ Convert the `namedtuple` into an `OrderedDict` :
 ```python
 question = ???('Practice', \
                'a b c')
-p = question(a = 10, b = 5, c = 2) 
-print(p.???()) 
-# OrderedDict([('a', 10), \ 
-#             ('b', 5), ('c', 2)]) 
+p = question(a = 10, b = 5, c = 2)
+print(p.???())
+# OrderedDict([('a', 10), \
+#             ('b', 5), ('c', 2)])
 ```
 
 
-* `namedtuple` 
-* `_asdict` 
-* `named_tuple` 
-* `tuple_instance` 
-* `new` 
-* `asOrderedDict` 
+* `namedtuple`
+* `_asdict`
+* `named_tuple`
+* `tuple_instance`
+* `new`
+* `asOrderedDict`
 * `asDict`
 
 ---
@@ -135,17 +136,16 @@ Create a named tuple object:
 ```python
 question = ???('Revision', \
                'a b c')
-q = ???(a = 10, b = 5, c = 2) 
+q = ???(a = 10, b = 5, c = 2)
 print(q)
-# Revision(a=10, b=5, c=2) 
+# Revision(a=10, b=5, c=2)
 ```
 
 
-* `namedtuple` 
-* `question` 
-* `Revision` 
-* `print` 
-* `named_tuple` 
-* `new_named_tuple` 
+* `namedtuple`
+* `question`
+* `Revision`
+* `print`
+* `named_tuple`
+* `new_named_tuple`
 * `tuple_instance`
-

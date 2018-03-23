@@ -9,6 +9,8 @@ type: normal
 
 category: must-know
 
+standards:
+  py.native-types-operations.6: 10
 
 links:
 
@@ -60,4 +62,3 @@ Which of the following is __not__ a valid syntax for creating a Python dictionar
 * `dict(first=1, second=2)`
 * `dict({'first':1, 'second':2})`
 * `dict.fromkeys(('first', 'second'))`
-

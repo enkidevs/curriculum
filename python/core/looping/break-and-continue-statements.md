@@ -11,8 +11,8 @@ category: must-know
 
 inAlgoPool: false
 
-
-
+standards:
+  py.control-structures.0: 10
 
 ---
 
@@ -86,4 +86,3 @@ Which keyword is used to terminate the current loop, then resuming code executio
 * `break`
 * `continue`
 * `next`
-

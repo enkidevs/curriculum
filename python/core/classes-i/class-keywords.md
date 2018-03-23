@@ -10,11 +10,13 @@ type: normal
 category: must-know
 
 
-
+standards:
+  py.object-oriented.0: 10
 
 ---
 
 # Class Keywords
+
 
 ---
 ## Content
@@ -50,4 +52,3 @@ Independent functions are called ???
 * methods
 * attributes
 * objects
-

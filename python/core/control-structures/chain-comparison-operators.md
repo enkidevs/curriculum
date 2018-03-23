@@ -11,6 +11,10 @@ type: normal
 
 category: tip
 
+standards:
+  py.native-types-operations.0: 10
+
+
 tags:
 
   - comparison
@@ -57,6 +61,5 @@ What will the following expression evaluate to?
 ```
 
 
-* `False` 
+* `False`
 * `True`
-

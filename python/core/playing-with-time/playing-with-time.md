@@ -18,6 +18,10 @@ links:
 
   - '[www.tutorialspoint.com](http://www.tutorialspoint.com/python/python_date_time.htm){website}'
 
+standards:
+  py.native-types-operations.8: 10
+
+
 notes: >
   Corrected earlier issue with not saving, and updated the insight with my
   changes.
@@ -126,4 +130,3 @@ print(???(???())
 * `current`
 * `time_struct`
 * `struct_time`
-

@@ -10,6 +10,11 @@ type: normal
 category: best practice
 
 
+
+standards:
+  cs.identify-linear-collection-data-structures-usage.2: 10
+  cs.implement-linear-collection-data-structures.2: 10
+
 links:
 
   - '[docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#using-lists-as-queues){website}'
@@ -48,7 +53,7 @@ A reverse queue can be implemented by opting for `appendleft` instead of `append
 ---
 ## Practice
 
-A queue can be implemented by using ???  and ??? for adding items, and by using ??? and ??? for removing items.
+A reverse queue can be implemented by using ???  instead of ??? for adding items, and by using ??? instead of ??? for removing items.
 
 
 * appendleft
@@ -81,4 +86,3 @@ print(queue)
 * `append("e")`
 * `pop-left()`
 * `append-left("e")`
-

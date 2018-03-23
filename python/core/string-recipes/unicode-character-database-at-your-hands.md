@@ -16,6 +16,11 @@ category: feature
 inAlgoPool: false
 
 
+standards:
+  py.data-structures-uses.5: 10
+  py.native-types-operations.4: 10
+
+
 links:
 
   - '[pymotw.com](https://pymotw.com/2/codecs/){website}'
@@ -51,7 +56,7 @@ Get the category of a character:
 >>> unicodedata.category(u'X')
 'Lu'
 # L = letter, u = uppercase
-``` 
+```
 To get the version of the **Unicode Database** currently used:
 ```python
 >>> unicodedata.unidata_version
@@ -69,11 +74,11 @@ Get the category of the specified character:
 ```
 
 
-* `unicodedata` 
-* `category` 
-* `lookup` 
-* `name` 
-* `unicode` 
+* `unicodedata`
+* `category`
+* `lookup`
+* `name`
+* `unicode`
 * `data`
 
 ---
@@ -86,7 +91,6 @@ Get the name of a character specified:
 ```
 
 
-* `name` 
-* `lookup` 
+* `name`
+* `lookup`
 * `category`
-

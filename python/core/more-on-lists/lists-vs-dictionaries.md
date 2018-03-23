@@ -9,6 +9,11 @@ type: normal
 
 category: must-know
 
+standards:
+  cs.analyze-complexity-search-sort-algorithms.0: 10
+  cs.analyze-complexity-data-structure-access-operations.1: 10
+  cs.analyze-complexity-data-structure-access-operations.5: 10
+
 
 links:
 
@@ -85,4 +90,3 @@ We want to access value `5` from the dictionary using one of the list's elements
 * get(), 1
 * get(), 2
 * getitem(), 0
-

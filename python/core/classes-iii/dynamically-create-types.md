@@ -24,6 +24,9 @@ tags:
   - OOP
 
 
+standards:
+  py.object-oriented.5: 10
+
 links:
 
   - '[docs.python.org](https://docs.python.org/3/library/functions.html#type){website}'

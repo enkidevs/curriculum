@@ -20,6 +20,9 @@ links:
 
 notes: Math modules workout
 
+standards:
+  py.standard-library-data.1: 10
+
 ---
 
 # Python's `fractions`
@@ -60,11 +63,11 @@ print(a) #-5/2
 ```
 
 
-* `fractions` 
-* `Fraction` 
-* `frac` 
-* `f` 
-* `new` 
+* `fractions`
+* `Fraction`
+* `frac`
+* `f`
+* `new`
 * `new_fraction`
 
 ---
@@ -77,10 +80,9 @@ To calculate the greatest common divisor of ints in Python 3.5, what method from
 ```
 
 
-* `math` 
-* `gcd` 
-* `fractions` 
-* `greatest_common_divisor` 
-* `cmath` 
+* `math`
+* `gcd`
+* `fractions`
+* `greatest_common_divisor`
+* `cmath`
 * `g`
-

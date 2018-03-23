@@ -16,6 +16,8 @@ links:
 
   - '[An in-depth analysis of metaclasses](https://blog.ionelmc.ro/2015/02/09/understanding-python-metaclasses/){website}'
 
+standards:
+  py.object-oriented.5: 10
 
 ---
 
@@ -75,4 +77,3 @@ What is the default metaclass of newly defined classes?
 * `type()`
 * `class`
 * `meta()`
-

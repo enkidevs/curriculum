@@ -14,6 +14,9 @@ category: feature
 inAlgoPool: false
 
 
+standards:
+  py.standard-library-data.1: 10
+
 links:
 
   - '[pymotw.com](https://pymotw.com/2/decimal/){website}'
@@ -33,7 +36,7 @@ Python's `decimal` module provides implementation of fixed and floating point ar
 Import the module:
 ```python
 import decimal
-``` 
+```
 
 The constructor can take integers, strings or tuples as arguments:
 ```python
@@ -48,12 +51,12 @@ They support basic arithmetic operations:
 print(d1/d2)
 # 1.592356687898089171974522293
 
-``` 
+```
 Also, logarithms:
 ```python
 print(d2.log10())
 # 0.4969296480732149319752200246
-``` 
+```
 To override the default behaviour settings of the decimal module, the context must be modified:
 ```python
 print(decimal.getcontext())
@@ -74,9 +77,9 @@ print(d.???())
 ```
 
 
-* `log10` 
-* `log` 
-* `logarithm` 
+* `log10`
+* `log`
+* `logarithm`
 * `logarithm_10`
 
 ---
@@ -89,9 +92,8 @@ a = ???.???(“6.42”)
 ```
 
 
-* `decimal` 
-* `Decimal` 
-* `d` 
-* `dec` 
+* `decimal`
+* `Decimal`
+* `d`
+* `dec`
 * `Object`
-

@@ -9,6 +9,8 @@ type: normal
 
 category: how to
 
+standards:
+  py.standard-library-operating-system.0: 10
 
 links:
 
@@ -102,4 +104,3 @@ new_file.close()
 * `a`
 * `r`
 * `1`
-

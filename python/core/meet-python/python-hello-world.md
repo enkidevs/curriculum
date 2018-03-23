@@ -12,6 +12,8 @@ category: must-know
 inAlgoPool: false
 
 
+standards:
+  py.identify-python-syntax.1: 10
 
 
 ---
@@ -48,4 +50,3 @@ Complete the code snippet:
 * `write`
 * `sys.out`
 * `writeln`
-

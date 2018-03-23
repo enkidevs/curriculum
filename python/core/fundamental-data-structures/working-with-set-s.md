@@ -9,6 +9,8 @@ type: normal
 
 category: must-know
 
+standards:
+  py.native-types-operations.5: 10
 
 links:
 
@@ -24,7 +26,7 @@ links:
 
 In **Python**, **sets** have four main characteristics:
 - they are an **unordered collection** of elements;
-- every element is **unique** (no duplicates);
+- every elements is **unique** (no duplicates);
 - and every element must be **immutable**;
 - they can store elements of different **types**.
 
@@ -100,4 +102,3 @@ What happens when you use `remove()` on an element that doesn't exist in the set
 * An error will be thrown.
 * Nothing.
 * The element will be removed.
-

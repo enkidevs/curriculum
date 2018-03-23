@@ -10,6 +10,9 @@ type: normal
 category: how to
 
 
+standards:
+  cs.identify-linear-collection-data-structures-usage.2: 10
+
 links:
 
   - '[docs.python.org](https://docs.python.org/2/library/queue.htmt){website}'
@@ -49,6 +52,9 @@ Having defined the `__lt__` method[1], our `PriorityQueue` knows now how to sort
 If we want to reverse the sorting order (greatest priority first), we would have to replace the `<` operator inside the `__lt__` function:
 ```python
 class Enki(object):
+    def __init__(self, priority):
+       self.priority = priority
+       return
     def __lt__(self, other):
        return self.priority > other.priority
 

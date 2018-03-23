@@ -9,6 +9,8 @@ type: normal
 
 category: feature
 
+standards:
+  py.native-types-operations.6: 10
 
 links:
 
@@ -22,7 +24,7 @@ links:
 ---
 ## Content
 
-Consider the following dicitonary:
+Consider the following dictionary:
 
 ```
 dict = {1:1, 2:4, 3:9, 4:16, 5:25}
@@ -63,7 +65,7 @@ print(dict.items())
 
 # Output: dict_items([(1, 1),
 # (2, 4), (3, 9), (4, 16), (5, 25)])
-``` 
+```
 
 - `keys()` : returns a list of all dictionary `key`s
 
@@ -157,3 +159,4 @@ What will the output look like?
 ## Footnotes
 [1:shallow copy]
 If we have two objects: `A` and `B`. We say `B` is a shallow copy of `A` if they point to the same location in memory.
+>>>>>>> master

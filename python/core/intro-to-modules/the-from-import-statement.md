@@ -9,6 +9,9 @@ type: normal
 
 category: must-know
 
+standards:
+  py.modules.0: 10
+  py.modules.1: 10
 
 links:
 
@@ -135,10 +138,3 @@ calculate_volume(radius, height)
 * `__name__`
 * `cylinder:`
 * `def`
-
----
-## Footnotes
-[1: namespace]
-As you already know, in Python, everything (count modules, classes, functions, literals etc.) is an *object*. All these objects are referred to using a name.
-
-**Namespace** is the mapping done between *available objects* and their respective *names*.

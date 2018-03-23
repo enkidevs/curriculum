@@ -9,6 +9,8 @@ type: normal
 
 category: must-know
 
+standards:
+  py.native-types-operations.5: 10
 
 links:
 
@@ -25,7 +27,7 @@ notes: >
   Frozensets can be used when you know that the elements you are going to put
   into a set, will stay constant, that is, no elements will be added later. E.g.
   a set of lowercase English vowels will only ever contain 'a', 'e', 'i', 'o'
-  and 'u'. 
+  and 'u'.
 
 ---
 
@@ -64,4 +66,3 @@ When are `frozenset` s used in Python? ???
 * When no further elements will be added to the set.
 * When there will be lots of added elements in the set.
 * When the set will contain no elements.
-

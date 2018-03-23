@@ -12,10 +12,13 @@ category: must-know
 inAlgoPool: false
 
 
+standards:
+  py.control-structures.2: 10
+  py.identify-python-syntax.0: 10
+
 links:
 
   - '[Control flow in Python](https://docs.python.org/2/tutorial/controlflow.html){website}'
-
 
 ---
 
@@ -94,4 +97,3 @@ for letter in 'Python':
 * `letter`
 * `null`
 * `error`
-

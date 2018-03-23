@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  py.testing.1: 10
+  py.testing.5: 10
 
 links:
 
@@ -25,8 +28,8 @@ links:
 ## Content
 
 **Nose** is another unit testing framework, which can run both **doctests** and **unittests**.
- 
-**Nose** and **pytest** have a similar synta,x up to the point where you get into advanced features such as *fixtures*, *plugins* or *assert mechanisms*. This is why we'll use the same test we defined for `multiply` method in the **pytest** insight:
+
+**Nose** and **pytest** have a similar syntax up to the point where you get into advanced features such as *fixtures*, *plugins* or *assert mechanisms*. This is why we'll use the same test we defined for `multiply` method in the **pytest** insight:
 ```python
 # multiply_nose.py
 
@@ -99,4 +102,3 @@ In terms of basic syntax, `nose` and `pytest` are
 * similar
 * small differences
 * not at all alike
-

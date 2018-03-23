@@ -25,6 +25,12 @@ notes: >
   explain the 3 arguments of the __exit__ method and how they can be used in the
   surrounding code.
 
+standards:
+  py.store-manipulate-data.5: 10
+  py.object-oriented.5: 10
+  py.native-types-operations.7: 10
+
+
 ---
 
 # Context manager types - `with`
@@ -111,4 +117,3 @@ What functionality does `with` carry in a `with context as name` block in Python
 * It ensures that context object exists and if doesn't the compiler will throw an error.
 * `try/catch`
 * `exceptions`
-

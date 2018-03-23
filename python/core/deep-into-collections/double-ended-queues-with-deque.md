@@ -10,6 +10,9 @@ type: normal
 category: must-know
 
 
+standards:
+  cs.identify-linear-collection-data-structures-usage.2: 10
+
 links:
 
   - '[pythontips.com](http://pythontips.com/2014/07/02/an-intro-to-deque-module/){website}'
@@ -50,7 +53,7 @@ print(d)
 # outputs: deque([])
 ```
 
-You can limit the maximum numbers of elements in a `deque` passing the `maxlen` argument to the constructor. If the limit is exceeded, items from the opposite end will be *removed* as new ones are appended to this end:
+Starting from Python `3.1` you can limit the maximum numbers of elements in a `deque` passing the `maxlen` argument to the constructor. If the limit is exceeded, items from the opposite end will be `popped` as new ones are appended to this end:
 ```python
 d = deque(maxlen=3)
 deque([], maxlen=3)
@@ -65,15 +68,12 @@ deque([0, 1, 2], maxlen=3)
 deque([1, 2, 3], maxlen=3)
 ```
 
-`deques` seem very similar to the previously presented `queues`. The main difference is that `queues` are usually used when we need allow several threads to communicate using queued messages. If a normal data structure is required then it is advised to use `deques`.
-
 ---
 ## Practice
 
 Instantiate a double ended queue with a maximum length of 5:
 
 ```
-from collections import deque
 e = ???(??? = 5)
 ```
 
@@ -105,4 +105,3 @@ a.???("e")
 * `append`
 * `append.left`
 * `append.start`
-

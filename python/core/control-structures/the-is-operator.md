@@ -12,6 +12,9 @@ category: must-know
 inAlgoPool: false
 
 
+standards:
+  py.native-types-operations.0: 10
+
 links:
 
   - '[is operator](http://stackoverflow.com/questions/13650293/understanding-pythons-is-operator){website}'
@@ -76,4 +79,3 @@ numsX is numsY
 * False
 * True
 * Error
-

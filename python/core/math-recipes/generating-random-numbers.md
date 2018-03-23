@@ -13,8 +13,8 @@ type: normal
 
 category: feature
 
-inAlgoPool: false
-
+standards:
+  py.standard-library-data.0: 10
 
 links:
 
@@ -79,13 +79,13 @@ print(???.???(5, 10))
 ```
 
 
-* `random` 
-* `randint` 
-* `randomint` 
-* `get` 
-* `new` 
-* `randomrange` 
-* `randrange` 
+* `random`
+* `randint`
+* `randomint`
+* `get`
+* `new`
+* `randomrange`
+* `randrange`
 * `uniform`
 
 ---
@@ -97,8 +97,7 @@ print(random.???())
 ```
 
 
-* `random` 
-* `new` 
-* `get` 
+* `random`
+* `new`
+* `get`
 * `new_random`
-

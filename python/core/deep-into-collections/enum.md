@@ -9,6 +9,9 @@ type: normal
 
 category: must-know
 
+standards:
+  py.native-types-operations.9: 10
+
 
 links:
 
@@ -126,4 +129,3 @@ print(Car['bmw'])
 * An error, strings and ints cannot be mixed
 * 1
 * bmw
-

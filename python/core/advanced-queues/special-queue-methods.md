@@ -10,6 +10,9 @@ type: normal
 category: feature
 
 
+standards:
+  cs.implement-linear-collection-data-structures.3: 10
+
 links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/queue.html#queue-objects){website}'
@@ -41,7 +44,7 @@ Get the approximate size of the `queue`:
 print(q.qsize())
 # output: 3
 
-``` 
+```
 
 Check if a `queue` is empty or full:
 ```python
@@ -50,12 +53,12 @@ print(q.empty())
 print(q.full())
 # output: True
 
-``` 
+```
 When you want to `put`  an element in the queue but it's full, you can make the method call block for some number of seconds until there is a free slot:
 ```python
 q.put(4, block=True,timeout=None)
 
-``` 
+```
 With `timeout=None` it **blocks** the queue until there is a free slot. If `timeout` is a number it will raise  an `Empty` exception if no free slot was available in that time.
 
 The same syntax and logic applies to the `get()` method too.
@@ -66,12 +69,12 @@ The same syntax and logic applies to the `get()` method too.
 Check if queue `e` is full:
 
 ```
-print(e.???()) 
+print(e.???())
 ```
 
-* `full` 
-* `!space` 
-* `max` 
+* `full`
+* `!space`
+* `max`
 * `complete`
 
 ---
@@ -83,9 +86,8 @@ Declare a queue with a limit of 5 elements:
 q = ???.???(5)
 ```
 
-* `queue` 
-* `Queue` 
-* `new` 
-* `instance` 
+* `queue`
+* `Queue`
+* `new`
+* `instance`
 * `create`
-

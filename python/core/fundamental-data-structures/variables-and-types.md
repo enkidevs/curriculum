@@ -11,8 +11,8 @@ category: must-know
 
 inAlgoPool: false
 
-
-
+standards:
+  py.native-types-operations.2: 10
 
 ---
 
@@ -129,4 +129,3 @@ print(type(c))
 * `int`
 * `integer`
 * `floating`
-

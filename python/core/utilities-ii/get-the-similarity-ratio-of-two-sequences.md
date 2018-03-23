@@ -13,6 +13,10 @@ type: normal
 
 category: how to
 
+standards:
+  py.native-types-operations.4: 10
+  py.data-structures-uses.5: 10
+  py.modules.0: 10
 
 
 parent: compare-sequences-with-difflib
@@ -24,7 +28,7 @@ parent: compare-sequences-with-difflib
 ---
 ## Content
 
-`difflib`'s `SequenceMatcher` class and its ratio method makes it easy to compute  the "similarity" of two sequences. 
+`difflib`'s `SequenceMatcher` class and its ratio method makes it easy to compute  the "similarity" of two sequences.
 
 ```python
 import difflib
@@ -87,4 +91,3 @@ What function of `SequenceMatcher`  can be used to get the similarity of two seq
 * `r`
 * `s`
 * `get_similarity`
-
