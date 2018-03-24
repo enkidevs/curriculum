@@ -8,4 +8,4 @@ insights:
 
 exercises:
   - sql-practice-define-indexes
-  - sql-practice-define-indexes-2
+  - sql-practice-define-indexes2
