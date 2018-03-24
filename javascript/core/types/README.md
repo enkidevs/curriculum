@@ -16,8 +16,8 @@ exercises:
   - js-practice-booleans
   - js-practice-numbers
   - js-practice-strings
-  - js-practice-arrays
-  - js-practice-objects
 
-  
+
+
+
 game: taking-precedence

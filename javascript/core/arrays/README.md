@@ -9,3 +9,9 @@ insights:
   - arrays-can-be-used-as-stack
 
 game: foo-features-and-fun-facts
+
+exercises:
+  - js-practice-arrays
+  - js-practice-array-isarray
+  - js-practice-array-push
+  - js-practice-array-splice
