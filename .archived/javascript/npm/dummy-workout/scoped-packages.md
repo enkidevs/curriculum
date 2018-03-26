@@ -1,4 +1,4 @@
-# Scoped packages
+---
 author: catalin
 
 levels:
@@ -11,6 +11,9 @@ category: feature
 links:
   - >-
     [docs.npmjs.com](https://docs.npmjs.com/getting-started/scoped-packages){website}
+
+---
+# Scoped packages
 
 ---
 ## Content

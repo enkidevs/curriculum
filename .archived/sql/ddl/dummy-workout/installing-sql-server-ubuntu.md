@@ -2,8 +2,7 @@
 author: SebaRaba
 
 levels:
-
-  - familiar
+  - basic
 
 type: normal
 

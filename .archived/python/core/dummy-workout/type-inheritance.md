@@ -30,7 +30,7 @@ The reason for this is that prior to introducing an actual `bool` type, truth va
 
 ### what are booleans instances of?
 
-# What will the following code snippet print?
+What will the following code snippet print?
 x = True
 print(isinstance(x, int))
 

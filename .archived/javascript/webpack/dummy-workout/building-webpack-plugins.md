@@ -14,6 +14,9 @@ type: normal
 category: tip
 
 ---
+# Bulding webpack plugins
+
+---
 ## Content
 
 Webpack plugins allow developers to fulfil Webpack's full potential. Using *staged build callbacks*, developers can introduce their own behaviors into the building process.

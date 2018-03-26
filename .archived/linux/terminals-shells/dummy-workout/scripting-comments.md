@@ -27,10 +27,10 @@ tags:
 
 ### in which cases does # mark the beginning of a comment?
 
-1. echo $(( 2#1001 ))
-2. echo This \# won't begin a comment
-3. name=Johnny; echo ${#name}
-4. name=Johnny; echo ${name##Jo}
+1\. echo $(( 2#1001 ))
+2\. echo This \# won't begin a comment
+3\. name=Johnny; echo ${#name}
+4\. name=Johnny; echo ${name##Jo}
 
 * Neither
 * 1 and 2

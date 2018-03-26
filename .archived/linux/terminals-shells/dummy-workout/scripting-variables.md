@@ -27,7 +27,7 @@ While the snippet won’t throw an error, it own’t echo scripting either but 0
 
 ??? what is to be changed in the following snippet for it to echo 'scripting'?
 
-#!/bin/bash
+\#!/bin/bash
 let "s=scripting"
 echo $s
 

@@ -1,7 +1,9 @@
+name: iOS
+
+description: placeholder
+
 language: undefined
 
-deviconsClass: devicons-swift
+icon: 'placeholer'
 
 color: ''
-
-description: undefined

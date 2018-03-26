@@ -1,4 +1,4 @@
-# Disable SSH password authentication 
+---
 author: tuwi.dc
 
 levels:
@@ -32,6 +32,9 @@ tags:
   - private
 
   - key
+
+---
+# Disable SSH password authentication 
 
 ---
 ## Content
