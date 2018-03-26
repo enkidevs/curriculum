@@ -1,4 +1,4 @@
-# Advanced debugging with `Console` API
+---
 author: catalin
 
 levels:
@@ -23,6 +23,9 @@ links:
 
   - >-
     [blog.mariusschulz.com](https://blog.mariusschulz.com/2013/11/13/advanced-javascript-debugging-with-consoletable){website}
+
+---
+# Advanced debugging with `Console` API
 
 ---
 ## Content
@@ -62,8 +65,8 @@ Assert an object if a condition is false with `Console` API:
 ```javascript
 ???.???(expression, object);
 ```
-*`console`
-*`assert`
-*`trace`
-*`clear`
-*`Console`
+* console
+* assert
+* trace
+* clear
+* Console

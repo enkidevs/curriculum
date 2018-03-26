@@ -1,4 +1,4 @@
-# Importing a CSS file into another CSS file
+---
 author: SeanWalters
 
 levels:
@@ -20,7 +20,11 @@ tags:
 links:
 
   - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/147500/is-it-possible-to-include-one-css-file-in-another){website}
+    [stackoverflow.com](http://stackoverflow.com/questions/147500/is-it-possible-to-include-one-css-file-in-another)
+    {website}
+
+---
+# Importing a CSS file into another CSS file
 
 ---
 ## Content
@@ -38,7 +42,9 @@ If you want to avoid the additional HTTP requests, which can be a drawback, a so
 ---
 ## Revision
 
-What's the drawback of using `@import` in CSS, and how can this be avoided? ???
+What's the drawback of using `@import` in CSS, and how can this be avoided? 
+???
+
 * Each time the `@import` rule is used it creates an HTTP request. Combine your CSS files using copy and paste.
 * The `@import` rule is inefficient when compiling. Combine your CSS files using copy and paste.
 * The `@import` rule slows compilation times considerably. Don't combine your CSS files.

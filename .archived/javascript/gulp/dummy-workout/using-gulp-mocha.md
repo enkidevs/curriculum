@@ -1,4 +1,4 @@
-# Using `gulp-mocha`
+---
 author: tommarshall
 
 levels:
@@ -15,6 +15,9 @@ links:
 
   - >-
     [github.com](https://github.com/gulpjs/gulp/blob/master/docs/recipes/mocha-test-runner-with-gulp.md){website}
+
+---
+# Using `gulp-mocha`
 
 ---
 ## Content

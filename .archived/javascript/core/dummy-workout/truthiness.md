@@ -1,4 +1,4 @@
-# Truthiness
+---
 author: adamMontgomerie
 
 levels:
@@ -30,6 +30,9 @@ links:
 
   - >-
     [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Glossary/Falsy){website}
+
+---
+# Truthiness
 
 ---
 ## Content
@@ -82,7 +85,7 @@ if ([]) ...
 
 `false` ,`null` ,`NaN` are ??? values, while all javascript objects are ??? .
 
-*falsy
-*truthy
-*true
-*false
+* falsy
+* truthy
+* true
+* false

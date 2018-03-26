@@ -1,4 +1,4 @@
-# Explicit setting of `this` using `call` and `apply` methods
+---
 author: pawel
 
 levels:
@@ -17,6 +17,9 @@ links:
 
   - >-
     [yehudakatz.com](http://yehudakatz.com/2011/08/11/understanding-javascript-function-invocation-and-this/){website}
+
+---
+# Explicit setting of `this` using `call` and `apply` methods
 
 ---
 ## Content
@@ -62,8 +65,8 @@ testFunction.call(x, 5);
 
 ???
 
-*`x`
-*`[5]`
-*`a`
-*`[a]`
-*`5`
+* x
+* [5]
+* a
+* [a]
+* 5

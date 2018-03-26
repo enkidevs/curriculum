@@ -1,4 +1,4 @@
-# Infinity
+---
 author: adamMontgomerie
 
 levels:
@@ -21,6 +21,9 @@ standards:
 links:
 
   - '[www.2ality.com](http://www.2ality.com/2012/02/nan-infinity.html)'
+
+---
+# Infinity
 
 ---
 ## Content

@@ -1,4 +1,4 @@
-# The difference between `visibility:hidden` and `display:none`
+---
 author: vbaron
 
 levels:
@@ -21,6 +21,9 @@ links:
     [developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/CSS/visibility){website}
 
 ---
+# The difference between `visibility:hidden` and `display:none`
+
+---
 ## Content
 
 `visibility:hidden` defines that an element is rendered on the page but not visible. Space on the page will be allocated for this element.
@@ -37,10 +40,10 @@ A reflow is a recomputation of the page's layout, calculating positions and dime
 
 Which of the following is the definition for `visibility: hidden` ? ???
 
-*The element is rendered on the page however is invisible. Space on the page is allocated for the element.
-*The element is rendered on the page however is invisible. Space on the page is not allocated for the element.
-*The element is not rendered onto the page. Space on the page is not allocated for the element.
-*The element is not rendered onto the page. Space on the page is allocated for the element.
+* The element is rendered on the page however is invisible. Space on the page is allocated for the element.
+* The element is rendered on the page however is invisible. Space on the page is not allocated for the element.
+* The element is not rendered onto the page. Space on the page is not allocated for the element.
+* The element is not rendered onto the page. Space on the page is allocated for the element.
 
 ---
 ## Revision

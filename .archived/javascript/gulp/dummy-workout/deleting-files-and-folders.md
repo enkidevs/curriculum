@@ -1,4 +1,4 @@
-# Deleting Files and Folders
+---
 author: tommarshall
 
 levels:
@@ -17,6 +17,9 @@ links:
 
   - >-
     [github.com](https://github.com/gulpjs/gulp/blob/master/docs/recipes/delete-files-folder.md){website}
+
+---
+# Deleting Files and Folders
 
 ---
 ## Content
@@ -72,22 +75,23 @@ gulp.task('clean:test', ??? {
 });
 ```
 
-* `function ()`
-* `src`
-* `folder`
-* `run ()`
-* `start ()`
-* `bin`
-* `delete`
-* `clean`
-* `dir`
-* `directory`
+* function ()
+* src
+* folder
+* run ()
+* start ()
+* bin
+* delete
+* clean
+* dir
+* directory
 
 ---
 ## Revision
 
 Fill in the gaps to run the folder cleaning task called *clean:dev*.
 gulp.task('???', ['???']);
+
 * default
 * clean:dev
 * run

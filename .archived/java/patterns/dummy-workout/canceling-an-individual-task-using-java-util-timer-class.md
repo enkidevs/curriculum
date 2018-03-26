@@ -1,4 +1,4 @@
-# Canceling an individual task using `java.util.Timer` class
+---
 author: pawel
 
 levels:
@@ -19,6 +19,9 @@ links:
 
   - >-
     [docs.oracle.com](http://docs.oracle.com/javase/7/docs/api/java/util/TimerTask.html){website}
+
+---
+# Canceling an individual task using `java.util.Timer` class
 
 ---
 ## Content

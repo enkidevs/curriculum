@@ -1,4 +1,4 @@
-# Mocha Hooks
+---
 author: tommarshall
 
 levels:
@@ -17,6 +17,9 @@ links:
 
   - >-
     [medium.com](https://medium.com/@kanyang/hooks-in-mocha-87cb43baa91c#.bo68b4hal){website}
+
+---
+# Mocha Hooks
 
 ---
 ## Content

@@ -1,4 +1,4 @@
-# Using specific exception types in the `throws` clause
+---
 author: adamMontgomerie
 
 levels:
@@ -21,6 +21,9 @@ links:
 
   - >-
     [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=27){website}
+
+---
+# Using specific exception types in the `throws` clause
 
 ---
 ## Content

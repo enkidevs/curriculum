@@ -1,4 +1,4 @@
-# Pros and cons of inline `import`
+---
 author: Aaron7Sun
 
 levels:
@@ -24,6 +24,9 @@ links:
   - '[comp.lang.python](comp.lang.python){website}'
 
   - '[groups.google.com](groups.google.com){website}'
+
+---
+# Pros and cons of inline `import`
 
 ---
 ## Content

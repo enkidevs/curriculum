@@ -1,4 +1,4 @@
-# NaN === NaN?
+---
 author: jordanfish
 
 levels:
@@ -12,6 +12,9 @@ levels:
 type: normal
 
 category: caveats
+
+---
+# NaN === NaN?
 
 ---
 ## Content
@@ -43,20 +46,21 @@ NaN === NaN
 ## Revision
 
 `NaN === NaN` is ???
+
 * false
 * true
 
 ---
 ## Quiz
 
-headline: is NaN equal to itself?
+### is NaN equal to itself?
 
-question: |
-  // What would the following expression evaluate to?
-  NaN === NaN
+// What would the following expression evaluate to?
+NaN === NaN
 
-answers:
-  - false
-  - true
-  - SyntaxError
-  - NaN
+???
+
+* false
+* true
+* SyntaxError
+* NaN

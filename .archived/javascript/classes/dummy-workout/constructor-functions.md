@@ -1,4 +1,4 @@
-# Constructor Functions
+---
 author: adamMontgomerie
 
 levels:
@@ -21,6 +21,9 @@ links:
 
   - >-
     [developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/JavaScript/Inheritance_and_the_prototype_chain#With_a_constructor){website}
+
+---
+# Constructor Functions
 
 ---
 ## Content
@@ -50,11 +53,11 @@ Which keyword is used to call constructor functions?
 
 ???
 
-*`new` 
-*`function` 
-*`constructory` 
-*`construct` 
-*`this`
+* new
+* function
+* constructory
+* construct
+* this
 
 ---
 ## Revision
@@ -68,9 +71,9 @@ function Enki(x) {
 enkiPi = ??? ???("3.14");
 ```
 
-*`new`
-*`Enki`
-*`x`
-*`value`
-*`var`
-*`const`
+* new
+* Enki
+* x
+* value
+* var
+* const
