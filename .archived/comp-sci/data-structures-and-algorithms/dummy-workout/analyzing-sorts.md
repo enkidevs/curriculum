@@ -89,8 +89,6 @@ sort3: initialArray {
   return list;
 }
 
-???
-
 * sort2, sort1, sort3
 * sort1, sort3, sort2
 * sort3, sort1, sort2
