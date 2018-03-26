@@ -15,7 +15,7 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: hhttp://sqlfiddle.com/#!9/715078/2
+link: http://sqlfiddle.com/#!9/715078/2
 
 answer: varchar
 
