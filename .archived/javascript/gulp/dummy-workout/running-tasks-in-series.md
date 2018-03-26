@@ -1,4 +1,4 @@
-# Running tasks in series
+---
 author: tommarshall
 
 levels:
@@ -16,6 +16,9 @@ parent: writing-gulp-tasks
 links:
 
   - '[github.com](https://github.com/OverZealous/run-sequence){website}'
+
+---
+# Running tasks in series
 
 ---
 ## Content
@@ -67,8 +70,11 @@ gulp.task('default', ['Enki1', 'Enki2']);
 ---
 ## Revision
 
-Which of these tasks, run,  requires the task 'init' to have been completed before running? ???
-* `gulp.task('run', ['init'], function() {`
-* `gulp.task('init', 'run', function() {`
-* `gulp.task(['init'],  'run', function() {`
-* `gulp.task('run', function() {`
+Which of these tasks, run,  requires the task 'init' to have been completed before running? 
+
+???
+
+* gulp.task('run', ['init'], function() {
+* gulp.task('init', 'run', function() {
+* gulp.task(['init'],  'run', function() {
+* gulp.task('run', function() {

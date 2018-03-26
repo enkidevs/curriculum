@@ -1,4 +1,4 @@
-# Type Inheritance
+---
 author: mihaiberq
 
 levels:
@@ -16,6 +16,9 @@ tags:
   - deep
 
 ---
+# Type Inheritance
+
+---
 ## Content
 
 Boolean values in Python are represented by two objects - `True` and `False`, used to represent truth values. However, in numerical contexts they behave like integers with values `0` and `1` , respectively. Basically, the `bool`  type is a Numeric type,  a subtype of integers.
@@ -25,15 +28,13 @@ The reason for this is that prior to introducing an actual `bool` type, truth va
 ---
 ## Quiz
 
-headline: what are booleans instances of?
+### what are booleans instances of?
 
-question: |
-  # What will the following code snippet print?
-  x = True
-  print(isinstance(x, int))
+# What will the following code snippet print?
+x = True
+print(isinstance(x, int))
 
-answers:
-  - True
-  - False
-  - "NameError: name 'x' is not defined"
-  - Numeric
+* True
+* False
+* "NameError: name 'x' is not defined"
+* Numeric

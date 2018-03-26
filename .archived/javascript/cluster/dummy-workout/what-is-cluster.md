@@ -1,4 +1,4 @@
-# What is Cluster?
+---
 author: tommarshall
 
 levels:
@@ -12,6 +12,9 @@ levels:
 type: normal
 
 category: tip
+
+---
+# What is Cluster?
 
 ---
 ## Content
@@ -54,9 +57,9 @@ Complete the following JS code snippet to require cluster into your Node.js file
 var cluster = ???('???');
 ```
 
-* `require`
-* `cluster`
-* `node`
-* `use`
-* `clustercore`
-* `node-cluster`
+* require
+* cluster
+* node
+* use
+* clustercore
+* node-cluster

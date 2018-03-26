@@ -1,4 +1,4 @@
-# Building Webpack Plugins
+---
 author: tommarshall
 
 levels:
@@ -56,11 +56,11 @@ What method is placed on the plugins prototype?
 PracticePlugin.prototype.??? = 
                function(compiler) {
 ```
-* `apply`
-* `static`
-* `instance`
-* `run`
-* `change`
+* apply
+* static
+* instance
+* run
+* change
 
 ---
 ## Revision
@@ -69,5 +69,5 @@ What type of objects are webpack plugins?
 
 ???
 
-* `instanceable`
-* `static`
+* instanceable
+* static

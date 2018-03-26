@@ -1,4 +1,4 @@
-# External Configuration Files
+---
 author: tommarshall
 
 levels:
@@ -15,6 +15,9 @@ links:
 
   - >-
     [github.com](https://github.com/gulpjs/gulp/blob/master/docs/recipes/using-external-config-file.md){website}
+
+---
+# External Configuration Files
 
 ---
 ## Content

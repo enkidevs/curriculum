@@ -1,4 +1,4 @@
-# `date` object
+---
 author: catalin
 
 levels:
@@ -39,6 +39,9 @@ links:
 
   - >-
     [docs.python.org](https://docs.python.org/3.5/library/datetime.html#date-objects){website}
+
+---
+# `date` object
 
 ---
 ## Content
@@ -82,12 +85,12 @@ d = ???.date.???()
 print(d)
 ```
 
-*`datetime` 
-*`today` 
-*`dt` 
-*`Date` 
-*`current` 
-*`now`
+* datetime
+* today
+* dt
+* Date
+* current`
+* now
 
 ---
 ## Revision
@@ -100,9 +103,9 @@ d = datetime.???(2016, 08, 12)
 print(d)
 ``` 
 
-*`datetime` 
-*`date` 
-*`dt` 
-*`Date` 
-*`today` 
-*`set`
+* datetime
+* date
+* dt
+* Date
+* today
+* set

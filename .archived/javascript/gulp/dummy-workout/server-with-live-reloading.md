@@ -54,7 +54,7 @@ gulp.task('serve', function() {
 
 Which module is used to allow live-reloading on your server? ???
 
-*`browser-sync`
-*`live-reload`
-*`browserSync`
-*`liveReload`
+* browser-sync
+* live-reload
+* browserSync
+* liveReload

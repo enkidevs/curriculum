@@ -1,4 +1,4 @@
-# Shadowing Properties
+---
 author: rosielowther
 
 levels:
@@ -15,6 +15,9 @@ links:
 
   - >-
     [github.com](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch5.md){website}
+
+---
+# Shadowing Properties
 
 ---
 ## Content
@@ -41,12 +44,12 @@ In these cases `Object.defineProperty()` must be used to shadow a property.
 
 A shadow property won’t be created and the foo value not set if a foo higher on the `[[Prototype]]` chain is marked as ???, or if a foo higher on the `[[Prototype]]` chain is a ???.
 
-*read-only
-*setter
-*getter
-*constructor
-*read/write only
-*read/write/execute only
+* read-only
+* setter
+* getter
+* constructor
+* read/write only
+* read/write/execute only
 
 ---
 ## Revision
@@ -55,6 +58,6 @@ What must be used if a **shadow property** can't be created?
 
 ???
 
-*`Object.defineProperty()`
-*`Object.assign()`
-*`simple assignment`
+* Object.defineProperty()
+* Object.assign()
+* simple assignment

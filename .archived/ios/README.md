@@ -2,6 +2,6 @@ language: undefined
 
 deviconsClass: devicons-swift
 
-color: 
+color: ''
 
 description: undefined

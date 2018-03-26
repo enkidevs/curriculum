@@ -1,4 +1,4 @@
-# Using Jasmine with node.js
+---
 author: tommarshall
 
 levels:
@@ -19,6 +19,9 @@ links:
 
   - >-
     [blog.codeship.com](http://blog.codeship.com/jasmine-node-js-application-testing-tutorial/){website}
+
+---
+# Using Jasmine with node.js
 
 ---
 ## Content
@@ -47,10 +50,10 @@ jasmine
 ## Practice
 
 What file do you customise to get rid of any source or spec files you don't require your Jasmine runner to include? ???
-* `spec/support/jasmine.json`
-* `spec/support/jasmine.txt`
-* `spec/support/jasmine.htm`
-* `spec/support/jasmine.js`
+* spec/support/jasmine.json
+* spec/support/jasmine.txt
+* spec/support/jasmine.htm
+* spec/support/jasmine.js
 
 ---
 ## Revision
@@ -59,9 +62,9 @@ How do you install Jasmine globally as to allow the use of the CLI tool?
 
 ` npm install ??? ???`
 
-*`-g`
-*`jasmine`
-*`-D`
-*`jas`
-*`node-jasmine`
-*`-t`
+* -g
+* jasmine
+* -D
+* jas
+* node-jasmine
+* -t

@@ -1,4 +1,4 @@
-# Pending and Disabling Tests
+---
 author: tommarshall
 
 levels:
@@ -22,6 +22,9 @@ links:
   - '[jaketrent.com](http://jaketrent.com/post/run-single-mocha-test/){website}'
 
   - '[mochajs.org](http://mochajs.org/#hooks){website}'
+
+---
+# Pending and Disabling Tests
 
 ---
 ## Content

@@ -1,4 +1,4 @@
-# Welcome to Mutant High
+---
 author: jordanfish
 
 levels:
@@ -12,6 +12,9 @@ levels:
 type: tetris
 
 category: tip
+
+---
+# Welcome to Mutant High
 
 ---
 ## Content

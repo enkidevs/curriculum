@@ -1,4 +1,4 @@
-# Create a web server with one line of code
+---
 author: Ricardo
 
 levels:
@@ -21,6 +21,9 @@ links:
 
   - >-
     [docs.python.org](https://docs.python.org/2/library/simplehttpserver.html){website}
+
+---
+# Create a web server with one line of code
 
 ---
 ## Content

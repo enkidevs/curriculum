@@ -1,4 +1,4 @@
-# Iterables vs iterators
+---
 author: catalin
 
 levels:
@@ -43,6 +43,9 @@ links:
 
   - >-
     [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#iterator-types){website}
+
+---
+# Iterables vs iterators
 
 ---
 ## Content

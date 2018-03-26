@@ -1,4 +1,4 @@
-# Testing Ajax Calls
+---
 author: tommarshall
 
 levels:
@@ -21,6 +21,9 @@ links:
 
   - >-
     [theaveragedev.com](http://theaveragedev.com/ajax-testing-with-jasmine-2-02/){website}
+
+---
+# Testing Ajax Calls
 
 ---
 ## Content
@@ -84,6 +87,6 @@ What plugin is used to allow ajax calls to be mocked out in tests?
 
 ???
 
-* `mock-ajax.js`
-* `mock-test-ajax.js`
-* `ajax-mock.js`
+* mock-ajax.js
+* mock-test-ajax.js
+* ajax-mock.js

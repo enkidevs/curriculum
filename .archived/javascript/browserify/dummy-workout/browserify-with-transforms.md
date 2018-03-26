@@ -1,4 +1,4 @@
-# Browserify with Transforms
+---
 author: tommarshall
 
 levels:
@@ -14,6 +14,9 @@ category: best practice
 links:
 
   - '[www.youtube.com]((https://www.youtube.com/watch?v=Uk2bgp8OLT8)){website}'
+
+---
+# Browserify with Transforms
 
 ---
 ## Content

@@ -1,4 +1,4 @@
-# Use `try` instead of `if` to speed up your code
+---
 author: Aaron7Sun
 
 levels:
@@ -18,6 +18,9 @@ tags:
   - speed-up-code
 
 notes: ''
+
+---
+# Use `try` instead of `if` to speed up your code
 
 ---
 ## Content

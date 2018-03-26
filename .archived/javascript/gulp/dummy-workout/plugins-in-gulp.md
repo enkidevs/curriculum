@@ -1,4 +1,4 @@
-# Plugins in Gulp
+---
 author: tommarshall
 
 levels:
@@ -16,6 +16,9 @@ parent: writing-gulp-tasks
 links:
 
   - '[gulpjs.com](http://gulpjs.com/plugins/){website}'
+
+---
+# Plugins in Gulp
 
 ---
 ## Content
@@ -45,14 +48,14 @@ Require the 'gulp' plugin into the gulp file:
 ??? gulp = ???('gulp');
 ```
 
-* `var`
-* `require`
-* `variable`
-* `declare`
-* `use`
-* `str`
-* `int`
-* `load`
+* var
+* require
+* variable
+* declare
+* use
+* str
+* int
+* load
 
 ---
 ## Revision

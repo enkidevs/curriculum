@@ -1,4 +1,4 @@
-# Extra function arguments are undefined by default
+---
 author: dean
 
 levels:
@@ -20,6 +20,9 @@ tags:
 links:
 
   - '[javascript.info](http://javascript.info/tutorial/arguments){website}'
+
+---
+# Extra function arguments are undefined by default
 
 ---
 ## Content
@@ -59,9 +62,9 @@ function bar(x) {
 bar(2, "a", "b");
 // ???
 ```
-*`b`
-*`a`
-*`2`
+* b
+* a
+* 2
 
 ---
 ## Revision
@@ -74,6 +77,7 @@ function foo(arg) {
 foo(1, "test");
 // ???
 ```
-*test
-*1
-*undefined
+
+* test
+* 1
+* undefined

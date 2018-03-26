@@ -1,4 +1,4 @@
-# Get query/url variables
+---
 author: catalin
 
 levels:
@@ -15,6 +15,9 @@ links:
 
   - >-
     [css-tricks.com](https://css-tricks.com/snippets/javascript/get-url-variables/){website}
+
+---
+# Get query/url variables
 
 ---
 ## Content
@@ -49,8 +52,6 @@ http://www.myurl.com/index.php?id=5&state=on
 findVariable("id") // returns "5"
 findVariable("state") // returns "on"
 
-
-
 ```
 
 ---
@@ -78,10 +79,10 @@ Complete the code line such that it returns the current **URL** part from the `?
 ```javascript
 return ???.???;
 ```
-*`location`
-*`search`
-*`url`
-*`subURL`
-*`window`
-*`history`
-*`findVariable(?)`
+* location
+* search
+* url
+* subURL
+* window
+* history
+* findVariable(?)

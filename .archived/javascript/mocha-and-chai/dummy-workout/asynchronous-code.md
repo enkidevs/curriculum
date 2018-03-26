@@ -1,4 +1,4 @@
-# Asynchronous Code
+---
 author: tommarshall
 
 levels:
@@ -16,6 +16,9 @@ category: best practice
 links:
 
   - '[mochajs.org](http://mochajs.org/#synchronous-code){website}'
+
+---
+# Asynchronous Code
 
 ---
 ## Content

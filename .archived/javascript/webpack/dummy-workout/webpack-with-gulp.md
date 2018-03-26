@@ -1,4 +1,4 @@
-# Webpack with Gulp
+---
 author: tommarshall
 
 levels:
@@ -18,6 +18,9 @@ links:
   - >-
     [Using Webpack with task
     runners](http://stackoverflow.com/questions/33561272/task-runners-gulp-grunt-etc-and-bundlers-webpack-browserify-why-use-toge){website}
+
+---
+# Webpack with Gulp
 
 ---
 ## Content

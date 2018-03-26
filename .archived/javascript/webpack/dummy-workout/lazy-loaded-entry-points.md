@@ -1,4 +1,4 @@
-# Lazy Loaded Entry Points
+---
 author: tommarshall
 
 levels:
@@ -12,6 +12,9 @@ levels:
 type: normal
 
 category: tip
+
+---
+# Lazy Loaded Entry Points
 
 ---
 ## Content
@@ -63,14 +66,14 @@ if (location.hash === '???') {
 }
 ```
 
-* `#admin`
-* `ensure`
-* `Admin()`
-* `admin`
-* `run()`
-* `hash`
-* `application`
-* `#value`
+* #admin
+* ensure
+* Admin()
+* admin
+* run()
+* hash
+* application
+* #value
 
 ---
 ## Revision

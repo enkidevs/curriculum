@@ -1,5 +1,4 @@
-# Deep copy of objects
-
+---
 author: Ricardo
 
 levels:
@@ -23,6 +22,9 @@ tags:
 links:
 
   - '[docs.python.org](https://docs.python.org/2/library/copy.html){website}'
+
+---
+# Deep copy of objects
 
 ---
 ## Content

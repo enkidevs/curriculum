@@ -1,4 +1,4 @@
-# Test Spies
+---
 author: tommarshall
 
 levels:
@@ -24,6 +24,9 @@ links:
 
   - >-
     [htmlgoodies.com](http://www.htmlgoodies.com/html5/javascript/spy-on-javascript-methods-using-the-jasmine-testing-framework.html#fbid=TZKkKt-dVJs){website}
+
+---
+# Test Spies
 
 ---
 ## Content

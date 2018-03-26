@@ -52,9 +52,9 @@ var gulp = require('???');
 var modified = require('???');
 ```
 
-* `gulp`
-* `gulp-changed`
-* `gulpfile`
-* `gulp-altered`
-* `gulp-modify`
-* `gulp-plugin`
+* gulp
+* gulp-changed
+* gulpfile
+* gulp-altered
+* gulp-modify
+* gulp-plugin
