@@ -15,8 +15,7 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/adc158/1
-http://sqlfiddle.com/#!9/3c80fe
+link: http://sqlfiddle.com/#!9/3c80fe
 
 answer: db_9_696521
 
@@ -25,8 +24,8 @@ standards:
 
 
 links:
-  - '[mysql modify columns documentation](https://dev.mysql.com/doc/refman/5.7/en/create-table-foreign-keys.html){website}'
-  - '[blog post on mysql define tables](http://www.anchor.com.au/hosting/support/CreatingAQuickMySQLRelationalDatabase){website}'
+  - '[mysql create foreign keys](https://dev.mysql.com/doc/refman/5.7/en/create-table-foreign-keys.html){website}'
+  - '[explainer on foreign keys](https://www.w3schools.com/sql/sql_foreignkey.asp){website}'
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=zhk-q4EvV2o){video}'
 
 ---
@@ -36,4 +35,6 @@ links:
 ---        
 ## Exercise
 
-Define a foreign key constraint to ensure a one to many relationship between `user` and `items` tables.
+Add a Foreign Key constraint to the `user_items` and `requests` tables.
+Once you're finished with that, add this insert statement to the end, and check that it **fails**:  
+`INSERT INTO user_items (id, item_id, user_id, daily_price) VALUES (4, 10, 11, 5.2);`

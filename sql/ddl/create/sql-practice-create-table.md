@@ -27,8 +27,8 @@ standards:
 
 links:
   - '[mysql define tables documentation](https://dev.mysql.com/doc/refman/5.7/en/creating-tables.html){website}'
-  - '[blog post on mysql define tables](https://www.tutorialspoint.com/mysql/mysql-create-tables.htm){website}'
-  - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=cQjyBDF2MF4){video}'
+  - '[explainer on how to create tables](https://www.w3schools.com/sql/sql_create_table.asp){website}'
+  - '[video tutorial on creating tables](https://youtu.be/EaRj0S3K32Y?t=58s){video}'
 
 ---
 # SQL Practice Aggregate Average
