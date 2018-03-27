@@ -1,5 +1,5 @@
 # Close all HTML elements
-author: Stefan-Stojanovic
+author: stefan.stojanovic
 
 levels:
   - beginner
