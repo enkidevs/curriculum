@@ -19,10 +19,11 @@ standards:
 
 links:
   - '[official documentation for INSERT mysql](https://dev.mysql.com/doc/refman/5.7/en/insert.html){website}'
-  - '[blog post on INSERT mysql](https://chartio.com/resources/tutorials/how-to-insert-if-row-does-not-exist-upsert-in-mysql/){website}'
+  - '[explainer on INSERT INTO](https://www.w3schools.com/sql/sql_insert.asp){website}'
   - '[video tutorial on INSERT mysql](https://www.youtube.com/watch?v=qb7abQ6ROy4){video}'
 
 ---
+
 # SQL Practice Insert
 
 ---
