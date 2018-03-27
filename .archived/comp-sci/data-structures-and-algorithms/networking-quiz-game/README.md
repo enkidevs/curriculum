@@ -8,5 +8,3 @@ section: 0
 
 parent: tools
 
-insights:
-  - networking-quiz

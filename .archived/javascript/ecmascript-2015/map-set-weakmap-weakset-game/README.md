@@ -8,5 +8,3 @@ section: 1
 
 parent: spread-map-set-math
 
-insights:
-  - map-set-weakmap-weakset

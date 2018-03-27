@@ -8,5 +8,3 @@ section: 3
 
 parent: generators-proxy
 
-insights:
-  - generators-and-promises

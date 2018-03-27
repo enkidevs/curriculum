@@ -8,5 +8,3 @@ section: 0
 
 parent: string-number-extensions
 
-insights:
-  - stringing-it-all-together
