@@ -79,18 +79,18 @@ Create a table that:
 ---
 ## Revision
 
-Which of the following queries would create a table that:
-- is called employees,
-- column1: ID char(50),
-- column2: full_name char(50),
-- column3: salary int,
+Which of the following queries would create a table that is called employees:
+
+column1 -> ID char(50)
+column2 -> full_name char(50)
+column3 -> salary int
 
 ???
-
 
 * CREATE TABLE employees ( ID char(50), full_name char(50), salary int, PRIMARY KEY(ID));
 * UPDATE TABLE employees ( ID char(50), full_name char(50), salary int, PRIMARY KEY(ID));
 * CREATE TABLE employees ( ID char(50), full_name char(50), salary int, PRIMARY KEY(full_name));
+
 
 ---
 ## Footnotes
