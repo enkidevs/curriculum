@@ -1,4 +1,4 @@
-# Get your public IP quickly with `curl`
+---
 author: tuwi.dc
 
 levels:
@@ -14,6 +14,9 @@ type: normal
 category: tip
 
 notes: ''
+
+---
+# Get your public IP quickly with `curl`
 
 ---
 ## Content

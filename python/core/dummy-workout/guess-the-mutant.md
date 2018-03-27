@@ -1,4 +1,4 @@
-# Guess the mutant
+---
 author: catalin
 
 levels:
@@ -14,6 +14,9 @@ levels:
 type: tetris
 
 category: must-know
+
+---
+# Guess the mutant
 
 ---
 ## Content

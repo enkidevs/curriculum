@@ -1,4 +1,4 @@
-# Using `strace` to debug user programs
+---
 author: aakarsh
 
 levels:
@@ -10,6 +10,9 @@ levels:
 type: normal
 
 category: how to
+
+---
+# Using `strace` to debug user programs
 
 ---
 ## Content

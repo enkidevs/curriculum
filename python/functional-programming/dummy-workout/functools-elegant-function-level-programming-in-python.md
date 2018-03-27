@@ -1,4 +1,4 @@
-# Functools: elegant function-level programming in Python.
+---
 author: Bruno
 
 levels:
@@ -16,6 +16,9 @@ links:
   - '[functools](https://docs.python.org/2/library/functools.html){documentation}'
 
   - '[Sorting Mini-HOW TO](https://wiki.python.org/moin/HowTo/Sorting){tutorial}'
+
+---
+# Functools: elegant function-level programming in Python.
 
 ---
 ## Content

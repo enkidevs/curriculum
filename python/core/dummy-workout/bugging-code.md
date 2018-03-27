@@ -1,4 +1,4 @@
-# Bugging code
+---
 author: catalin
 
 levels:
@@ -14,6 +14,9 @@ levels:
 type: bugSpot
 
 category: tip
+
+---
+# Bugging code
 
 ---
 ## Content

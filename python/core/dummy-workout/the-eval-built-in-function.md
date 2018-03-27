@@ -1,4 +1,4 @@
-# The `eval` Built-in Function
+---
 author: stefkn
 
 levels:
@@ -17,6 +17,9 @@ links:
 
   - '[Python eval()](https://www.programiz.com/python-programming/methods/built-in/eval)'
   - '[Eval really is dangerous](https://nedbatchelder.com/blog/201206/eval_really_is_dangerous.html)'
+
+---
+# The `eval` Built-in Function
 
 ---
 ## Content
@@ -105,12 +108,12 @@ print(???('pow(9, 3)',
 {'sqrt': ???, 'pow': ???, '???': None}))
 ```
 
-* `eval`
-* `None`
-* `pow`
-* `__builtins__`
-* `math.sqrt()`
-* `squareRoot()`
+* eval
+* None
+* pow
+* __builtins__
+* math.sqrt()
+* squareRoot()
 
 ---
 ## Revision
@@ -123,12 +126,12 @@ print(???(???(9, 3)',
 {'???': ???}))
 ```
 
-* `eval`
-* `greatestCommonDivisor`
-* `greatestCommonDivisor`
-* `gcd`
-* `math.gcd`
-* `sqrt`
+* eval
+* greatestCommonDivisor
+* greatestCommonDivisor
+* gcd
+* math.gcd
+* sqrt
 
 ---
 ## Footnotes

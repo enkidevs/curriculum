@@ -1,4 +1,4 @@
-# Make `POST` requests with `curl`
+---
 author: tuwi.dc
 
 levels:
@@ -14,6 +14,9 @@ type: normal
 category: how to
 
 notes: ''
+
+---
+# Make `POST` requests with `curl`
 
 ---
 ## Content

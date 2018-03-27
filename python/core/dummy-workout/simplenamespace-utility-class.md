@@ -1,4 +1,4 @@
-# `SimpleNamespace` Utility Class
+---
 author: catalin
 
 levels:
@@ -15,6 +15,9 @@ links:
 
   - >-
     [docs.python.org](https://docs.python.org/3.5/library/types.html#additional-utility-classes-and-functions){website}
+
+---
+# `SimpleNamespace` Utility Class
 
 ---
 ## Content
@@ -59,9 +62,9 @@ What Python module contains the `SimpleNamespace` utility class?
 
 ???
 
-*`types` 
-*`type` 
-*`classes` 
-*`class` 
-*`utility` 
-*`utilities`
+* types
+* type
+* classes
+* class
+* utility
+* utilities
