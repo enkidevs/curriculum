@@ -1,13 +1,15 @@
-# How to change your most recent commit 
+---
 author: rosielowther
 
 levels:
-
   - basic
 
 type: normal
 
 category: must-know
+
+---
+# How to change your most recent commit 
 
 ---
 ## Content
@@ -52,9 +54,9 @@ $ git ???
 # Editor
 'Add new game format'
 ```
-* `commit --amend`
-* `commit --undo`
-* `commit --edit`
+*  commit --amend
+*  commit --undo
+*  commit --edit
 
 ---
 ## Revision
@@ -63,6 +65,6 @@ When would you use `git --amend` ?
 ```
 ??? 
 ```
-* `To edit the most recent commit.`
-* `To change the content of a file.`
-* `To notify other members of the team.`
+* To edit the most recent commit.
+* To change the content of a file.
+* To notify other members of the team.

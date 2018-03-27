@@ -1,8 +1,7 @@
-# Ignore files in git
+---
 author: rosielowther
 
 levels:
-
   - basic
 
 type: normal
@@ -10,8 +9,10 @@ type: normal
 category: must-know
 
 links:
-
   - '[help.github.com](https://help.github.com/articles/ignoring-files/){website}'
+
+---
+# Ignore files in git
 
 ---
 ## Content
@@ -45,15 +46,16 @@ To track the `.gitignore` file you’d run :
 ```
 $ git ??? ???
 ```
-*`add`
-*`.gitignore`
-*`track`
-*`-add`
+* add
+* .gitignore
+* track
+* -add
 
 ---
 ## Revision
 
 To exclude files from your repository, you have to add them to the ??? file .
-*.gitignore
-*hooks
-*.gitexclude
+
+* .gitignore
+* hooks
+* .gitexclude

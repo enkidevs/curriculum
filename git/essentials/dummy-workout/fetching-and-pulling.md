@@ -1,8 +1,7 @@
-# Fetching and Pulling
+---
 author: catalin
 
 levels:
-
   - beginner
 
 type: normal
@@ -15,6 +14,9 @@ links:
 
   - >-
     [git-scm.com](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes#Fetching-and-Pulling-from-Your-Remotes){website}
+
+---
+# Fetching and Pulling
 
 ---
 ## Content
@@ -55,12 +57,12 @@ To get data from a remote repository, and also merge it, you would use:
 $ git ???
 ```
 
-*`pull`
-*`fetch`
-*`clone`
-*`merge`
-*`rebase`
-*`push`
+* pull
+* fetch
+* clone
+* merge
+* rebase
+* push
 
 ---
 ## Revision
@@ -71,9 +73,9 @@ What command is used to **get** new data from a remote Git repository, but not m
 $ git ???
 ```
 
-*`fetch`
-*`pull`
-*`merge`
-*`commit`
-*`add`
-*`clone`
+* fetch
+* pull
+* merge
+* commit
+* add
+* clone

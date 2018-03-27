@@ -1,14 +1,10 @@
-# On-off
+---
 author: mihaiberq
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
-
   - beginner
 
 type: tetris
@@ -16,6 +12,9 @@ type: tetris
 inAlgoPool: false
 
 category: tip
+
+---
+# On-off
 
 ---
 ## Content

@@ -1,4 +1,4 @@
-# Remote repositories: fetching and pushing
+---
 author: rosielowther
 
 levels:
@@ -13,6 +13,9 @@ links:
 
   - >-
     [git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes){website}
+
+---
+# Remote repositories: fetching and pushing
 
 ---
 ## Content
@@ -63,9 +66,9 @@ Get the data from the remote repository `enki`:
 ```
 $ git ??? ???
 ```
-* `fetch`
-* `enki`
-* `origin`
-* `grab`
-* `push`
-* `receive`
+* fetch
+* enki
+* origin
+* grab
+* push
+* receive

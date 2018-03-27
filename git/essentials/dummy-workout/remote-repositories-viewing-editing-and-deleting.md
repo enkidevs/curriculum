@@ -1,4 +1,4 @@
-# Remote repositories: viewing, editing and deleting
+---
 author: rosielowther
 
 levels:
@@ -13,6 +13,9 @@ links:
 
   - >-
     [git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes){website}
+
+---
+# Remote repositories: viewing, editing and deleting
 
 ---
 ## Content
@@ -50,11 +53,11 @@ How do you remove the remote repository `enki`?
 ```
 $ ???
 ```
-* `git remote rm enki`
-* `git remote --delete enki`
-* `git untrack enki`
-* `git remove enki`
-* `git delete enki`
+* git remote rm enki
+* git remote --delete enki
+* git untrack enki
+* git remove enki
+* git delete enki
 
 ---
 ## Revision
@@ -64,10 +67,10 @@ Rename the remote repository `origin` to `enki`
 $ git remote ??? ???
                      ???
 ```
-* `rename`
-* `origin`
-* `enki`
-* `amend`
-* `old`
-* `new`
-* `rm`
+* rename
+* origin
+* enki
+* amend
+* old
+* new
+* rm

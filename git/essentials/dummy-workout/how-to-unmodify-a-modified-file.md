@@ -1,4 +1,4 @@
-# How to unmodify a modified file
+---
 author: rosielowther
 
 levels:
@@ -17,6 +17,9 @@ links:
 
   - >-
     [git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Undoing-Things){website}
+
+---
+# How to unmodify a modified file
 
 ---
 ## Content
@@ -48,6 +51,6 @@ Revert `README.md` to its previous version :
 ```
 $ git ??? -- README.md
 ```
-* `checkout`
-* `revert`
-* `remove`
+* checkout
+* revert
+* remove
