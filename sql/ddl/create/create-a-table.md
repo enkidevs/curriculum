@@ -79,11 +79,12 @@ Create a table that:
 ---
 ## Revision
 
-Which of the following queries would create a table that:
-- is called employees,
-- column1: ID char(50),
-- column2: full_name char(50),
-- column3: salary int,
+Which of the following queries would create this table:  
+
+is called employees  
+column1: ID char(50)  
+column2: full_name char(50)  
+column3: salary int  
 
 ???
 

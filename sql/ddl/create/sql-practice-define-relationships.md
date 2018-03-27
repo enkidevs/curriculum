@@ -16,6 +16,7 @@ type: exercise
 linkType: sqlfiddle
 
 link: http://sqlfiddle.com/#!9/adc158/1
+http://sqlfiddle.com/#!9/3c80fe
 
 answer: db_9_696521
 
@@ -29,10 +30,10 @@ links:
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=zhk-q4EvV2o){video}'
 
 ---
-# SQL Practice Aggregate Average
+
+# SQL Practice Create Relationships
 
 ---        
 ## Exercise
 
-Define a foreign key constraint to obtain a one to many relationship between `user` and `items` tables.
-In order to check your results, write the query for the relationship and `build schema` again. After that run the query provided and answer with the value in `REFERENCED_TABLE_SCHEMA` column of the result.
+Define a foreign key constraint to ensure a one to many relationship between `user` and `items` tables.
