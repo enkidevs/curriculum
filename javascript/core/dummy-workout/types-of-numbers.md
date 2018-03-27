@@ -59,12 +59,9 @@ Unlike other languages, Javascript stores numbers as ???
 ---
 ## Quiz
 
-### Is the following statement true?
+### is the following statement true?
 
-```javascript
 console.log(Number.MIN_VALUE > 0)
-```
-
 
 * true
 * false

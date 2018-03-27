@@ -25,15 +25,14 @@ tags:
 
 ### What will the following snippet output?
 
-```javascript
-  function pi() {
-    return
-    {
-      pi: 3.14
-    }
+
+function pi() {
+  return
+  {
+    pi: 3.14
   }
-  console.log(pi())
-```
+}
+console.log(pi())
 
 * 'undefined'
 * {pi: 3.14}
