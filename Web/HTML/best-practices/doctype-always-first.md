@@ -1,5 +1,5 @@
 # Doctype - always first
-author: mihaiberq
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -19,7 +19,16 @@ tags:
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+In an HTML web page, the very first thing you should write is the `<!DOCTYPE html>` declaration.
+
+This is because the `<!DOCTYPE html>` declaration is used to tell the browser what type of HTML document it is rendering.
+
+For HTML5 the declaration is typed as:
+
+```
+<!DOCTYPE html>
+```
+
 
 ---
 ## Practice
