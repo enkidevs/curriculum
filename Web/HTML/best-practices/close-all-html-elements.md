@@ -1,5 +1,5 @@
-# Close all HTML elements
-author: Stefan-Stojanovic
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -15,7 +15,8 @@ tags:
   - obscura
   - introduction
 
-
+---
+# Close all HTML elements
 ---
 ## Content
 
