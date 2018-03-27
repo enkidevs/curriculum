@@ -79,7 +79,7 @@ Create a table that:
 ---
 ## Revision
 
-Which of the following queries would create a table that is called employees:
+Which of the following queries would create a table that is called employees: 
 
 column1 -> ID char(50)
 column2 -> full_name char(50)
