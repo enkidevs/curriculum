@@ -8,5 +8,3 @@ section: 3
 
 parent: javascript-hard-mode-game
 
-insights:
-  - javascript-hard-mode-ii

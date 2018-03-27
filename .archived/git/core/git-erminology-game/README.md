@@ -7,6 +7,3 @@ description: Think you know the right git terminology used for the following con
 section: 0
 
 parent: remote-repository
-
-insights:
-  - git-erminology

@@ -7,6 +7,3 @@ description: What will be shown on the console?
 section: 1
 
 parent: destructuring
-
-insights:
-  - destructuring-assignments

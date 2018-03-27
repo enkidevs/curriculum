@@ -8,5 +8,3 @@ section: 1
 
 parent: utility-management
 
-insights:
-  - gotta-know-them-all

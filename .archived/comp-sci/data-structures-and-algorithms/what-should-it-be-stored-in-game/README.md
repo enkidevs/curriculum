@@ -8,5 +8,3 @@ section: 0
 
 parent: intro-graphs
 
-insights:
-  - what-should-it-be-stored-in

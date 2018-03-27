@@ -8,5 +8,3 @@ section: 2
 
 parent: classes-modules
 
-insights:
-  - ecmascript-time-travel

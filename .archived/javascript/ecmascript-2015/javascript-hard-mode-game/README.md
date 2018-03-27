@@ -8,5 +8,3 @@ section: 3
 
 parent: master-es6-features
 
-insights:
-  - javascript-hard-mode

@@ -8,5 +8,3 @@ section: 0
 
 parent: user-permissions
 
-insights:
-  - know-your-rights

@@ -8,5 +8,3 @@ section: 1
 
 parent: memory
 
-insights:
-  - guess-the-class

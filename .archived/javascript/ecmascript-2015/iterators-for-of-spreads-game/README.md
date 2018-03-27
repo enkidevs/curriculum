@@ -8,5 +8,3 @@ section: 3
 
 parent: iterators-generators
 
-insights:
-  - iterators-for-of-spreads
