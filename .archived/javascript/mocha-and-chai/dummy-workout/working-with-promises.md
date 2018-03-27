@@ -1,4 +1,4 @@
-# Working with Promises
+---
 author: tommarshall
 
 levels:
@@ -20,6 +20,9 @@ tags:
 links:
 
   - '[mochajs.org](http://mochajs.org){website}'
+
+---
+# Working with Promises
 
 ---
 ## Content

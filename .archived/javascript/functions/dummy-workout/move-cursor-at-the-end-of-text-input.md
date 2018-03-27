@@ -1,4 +1,4 @@
-# Move cursor at the end of text input
+---
 author: catalin
 
 levels:
@@ -14,6 +14,9 @@ category: how to
 links:
 
   - '[davidwalsh.name](https://davidwalsh.name/caret-end){website}'
+
+---
+# Move cursor at the end of text input
 
 ---
 ## Content
@@ -52,9 +55,9 @@ When moving the cursor to the end of the text input, passing element *e* to the 
 e.selectionStart = e.??? = e.value.???;
 ```
 
-* `selectionEnd`
-* `length`
-* `selectionOver`
-* `selectionFinish`
-* `pos`
-* `size`
+* selectionEnd
+* length
+* selectionOver
+* selectionFinish
+* pos
+* size

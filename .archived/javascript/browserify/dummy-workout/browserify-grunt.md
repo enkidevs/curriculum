@@ -1,4 +1,4 @@
-# Browserify + Grunt
+---
 author: tommarshall
 
 levels:
@@ -14,6 +14,9 @@ category: best practice
 links:
 
   - '[www.npmjs.com](https://www.npmjs.com/package/grunt-browserify){website}'
+
+---
+# Browserify + Grunt
 
 ---
 ## Content

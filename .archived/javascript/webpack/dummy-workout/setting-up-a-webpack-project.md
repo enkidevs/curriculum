@@ -1,4 +1,4 @@
-# Setting up a Webpack project
+---
 author: tommarshall
 
 levels:
@@ -10,6 +10,9 @@ levels:
 type: normal
 
 category: tip
+
+---
+# Setting up a Webpack project
 
 ---
 ## Content
@@ -46,13 +49,13 @@ How do you install Webpack?
 ??? i webpack ???
 ```
 
-* `npm`
-* `--save-dev`
-* `env`
-* `-save-dev`
-* `--dev`
-* `install`
-* `run`
+* npm
+* --save-dev
+* env
+* -save-dev
+* --dev
+* install
+* run
 
 ---
 ## Revision
@@ -64,7 +67,7 @@ npm i ??? ???
 ```
 * webpack
 * --save-dev
-*webpack_module
+* webpack_module
 * save-dev
 * save-module
 * web-pack

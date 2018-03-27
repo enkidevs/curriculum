@@ -1,4 +1,4 @@
-# Test Specs
+---
 author: tommarshall
 
 levels:
@@ -21,6 +21,9 @@ links:
 
   - >-
     [www.htmlgoodies.com](http://www.htmlgoodies.com/beyond/javascript/js-ref/testing-dom-events-using-jquery-and-jasmine-2.0.html){website}
+
+---
+# Test Specs
 
 ---
 ## Content
@@ -51,8 +54,8 @@ describe("Suites contain specs",
 
 In Jasmine, specs are created using the ??? keyword, and once created all specs must contain at least one ???.
 
-*`it` 
-*`expectation`  
-*`describe` 
-*`assertion` 
-*`test`
+* it
+* expectation
+* describe
+* assertion
+* test

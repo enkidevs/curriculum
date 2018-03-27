@@ -1,4 +1,4 @@
-# Requiring loaders
+---
 author: tommarshall
 
 levels:
@@ -12,6 +12,9 @@ levels:
 type: normal
 
 category: best practice
+
+---
+# Requiring loaders
 
 ---
 ## Content

@@ -1,4 +1,4 @@
-# Avoid querying the DOM during the `$digest` cycle
+---
 author: urish2
 
 levels:
@@ -16,6 +16,9 @@ category: caveats
 tags:
 
   - Performance
+
+---
+# Avoid querying the DOM during the `$digest` cycle
 
 ---
 ## Content

@@ -1,4 +1,4 @@
-# Class definition syntax
+---
 author: catalin
 
 levels:
@@ -30,6 +30,9 @@ links:
     [docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#a-first-look-at-classes){website}
 
 ---
+# Class definition syntax
+
+---
 ## Content
 
 Think of **classes** as *blueprints* for creating objects with data (members) and behaviors (methods). They just define **how** the actual instances are implemented.
@@ -57,17 +60,17 @@ class Enki:
 
 Method definition in a class is done with the help of ??? keyword.
 
-*`def` 
-*`pass` 
-*`return` 
-*`yield`
+* def
+* pass
+* return
+* yield
 
 ---
 ## Revision
 
 You can create an empty class with the ??? keyword.
 
-*`pass` 
-*`return` 
-*`yield` 
-*`def`
+* pass
+* return 
+* yield
+* def

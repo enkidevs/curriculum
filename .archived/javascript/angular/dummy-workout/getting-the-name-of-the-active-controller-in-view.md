@@ -1,4 +1,4 @@
-# Getting the name of the active controller in view
+---
 author: achatt89
 
 levels:
@@ -8,6 +8,9 @@ levels:
 type: normal
 
 category: how to
+
+---
+# Getting the name of the active controller in view
 
 ---
 ## Content

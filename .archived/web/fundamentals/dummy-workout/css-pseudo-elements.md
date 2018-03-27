@@ -1,4 +1,4 @@
-# CSS pseudo element
+---
 author: SebaRaba
 
 levels:
@@ -12,6 +12,9 @@ category: must-know
 links:
 
   - '[More about pseudo elements](https://www.html5rocks.com/en/tutorials/shapes/getting-started/)'
+
+---
+# CSS pseudo element
 
 ---
 ## Content

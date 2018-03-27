@@ -1,4 +1,4 @@
-# How to play a sound file in Java
+---
 author: pawel
 
 levels:
@@ -19,6 +19,9 @@ links:
 
   - >-
     [stackoverflow.com](http://stackoverflow.com/questions/22031701/sun-audio-player-and-sound-i-o){website}
+
+---
+# How to play a sound file in Java
 
 ---
 ## Content

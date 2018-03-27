@@ -1,4 +1,4 @@
-# Avoid changing `sys.path` dynamically to load libraries. Use `import from` instead.
+---
 author: Bruno
 
 levels:
@@ -15,6 +15,9 @@ links:
 
   - >-
     [tutorialspoint.com](http://www.tutorialspoint.com/python/python_modules.htm){tutorial}
+
+---
+# Avoid changing `sys.path` dynamically to load libraries. Use `import from` instead.
 
 ---
 ## Content

@@ -1,4 +1,4 @@
-# Test Matchers
+---
 author: tommarshall
 
 levels:
@@ -25,6 +25,9 @@ links:
     [jasmine.github.io](http://jasmine.github.io/2.0/custom_matcher.html){website}
 
 ---
+# Test Matchers
+
+---
 ## Content
 
 A Jasmine matcher does a *boolean comparison* between an expected value and an actual value. Matchers report to Jasmine whether an expectation is true or false, this allowing Jasmine to pass or fail a spec.
@@ -40,10 +43,10 @@ describe("Jasmine matchers", function() {
 ```
 
 Jasmine has a large set of matchers including:
-- `toEqual`
-- `toMatch`
-- `toBeDefined`
-- `toBeUndefined`
+- toEqual
+- toMatch
+- toBeDefined
+- toBeUndefined
 
 ---
 ## Practice
@@ -71,7 +74,7 @@ it("practice testing", function() {
 
 Which of these is not a Jasmine matcher?
 ???
-* `toBeBoolean`
-* `toEqual`
-* `toBeUndefined`
-* `toBe`
+* toBeBoolean
+* toEqual
+* toBeUndefined
+* toBe

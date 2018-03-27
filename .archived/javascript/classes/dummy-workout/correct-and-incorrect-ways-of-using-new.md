@@ -1,4 +1,4 @@
-# Correct and incorrect ways of using  `new`
+---
 author: Bruno
 
 levels:
@@ -17,6 +17,9 @@ links:
 
   - >-
     [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new){documentation}
+
+---
+# Correct and incorrect ways of using new
 
 ---
 ## Content
@@ -79,5 +82,5 @@ new test().enki // ???
 new test.enki // ???
 ```
 
-*`yes`
-*`no`
+* yes
+* no

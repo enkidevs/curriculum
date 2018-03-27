@@ -1,4 +1,4 @@
-# Only Passing Through Changed Files
+---
 author: tommarshall
 
 levels:
@@ -15,6 +15,9 @@ links:
 
   - >-
     [stackoverflow.com](http://stackoverflow.com/questions/23890806/how-to-run-a-task-only-on-modified-file-with-gulp-watch){website}
+
+---
+# Only Passing Through Changed Files
 
 ---
 ## Content
@@ -52,9 +55,9 @@ var gulp = require('???');
 var modified = require('???');
 ```
 
-* `gulp`
-* `gulp-changed`
-* `gulpfile`
-* `gulp-altered`
-* `gulp-modify`
-* `gulp-plugin`
+* gulp
+* gulp-changed
+* gulpfile
+* gulp-altered
+* gulp-modify
+* gulp-plugin

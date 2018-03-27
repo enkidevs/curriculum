@@ -1,4 +1,4 @@
-# Multiple Entry Points
+---
 author: tommarshall
 
 levels:
@@ -17,6 +17,9 @@ links:
 
   - >-
     [survivejs.com](http://survivejs.com/webpack/multiple-entry-points/){website}
+
+---
+# Multiple Entry Points
 
 ---
 ## Content

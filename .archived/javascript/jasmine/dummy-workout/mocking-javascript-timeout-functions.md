@@ -1,4 +1,4 @@
-# Mocking JavaScript Timeout functions
+---
 author: tommarshall
 
 levels:
@@ -20,6 +20,9 @@ tags:
 links:
 
   - '[jasmine.github.io](http://jasmine.github.io/2.0/introduction.html){website}'
+
+---
+# Mocking JavaScript Timeout functions
 
 ---
 ## Content

@@ -1,4 +1,4 @@
-# Forgetting to use the `new` keyword
+---
 author: tommarshall
 
 levels:
@@ -17,6 +17,9 @@ links:
 
   - >-
     [javascriptplayground.com](http://javascriptplayground.com/blog/2012/12/the-new-keyword-in-javascript/){website}
+
+---
+# Forgetting to use the `new` keyword
 
 ---
 ## Content
@@ -60,9 +63,10 @@ let e1 = new Enki(); //2
 let e2 = Enki(); //3
 ```
 ???
-* `3`
-* `1`
-* `none`
+
+* 3
+* 1
+* none
 
 ---
 ## Revision
@@ -74,6 +78,7 @@ let e1 = new Enki(); //2
 let e2 = Enki(); //3
 ```
 ???
-* `3`
-* `1`
-* `none`
+
+* 3
+* 1
+* none

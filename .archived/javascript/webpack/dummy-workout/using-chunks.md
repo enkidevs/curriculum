@@ -1,4 +1,4 @@
-# Using Chunks
+---
 author: tommarshall
 
 levels:
@@ -12,6 +12,9 @@ levels:
 type: normal
 
 category: tip
+
+---
+# Using Chunks
 
 ---
 ## Content
