@@ -1,4 +1,4 @@
-# Converting Java object to/from JSON using Gson
+---
 author: pawel
 
 levels:
@@ -21,6 +21,9 @@ links:
 
   - >-
     [sites.google.com](https://sites.google.com/site/gson/gson-user-guide#TOC-Object-Examples){website}
+
+---
+# Converting Java object to/from JSON using Gson
 
 ---
 ## Content

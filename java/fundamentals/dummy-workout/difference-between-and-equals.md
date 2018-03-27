@@ -1,4 +1,4 @@
-# Difference between `==` and `equals()`
+---
 author: pawel
 
 levels:
@@ -17,6 +17,9 @@ links:
 
   - >-
     [www.programmerinterview.com](http://www.programmerinterview.com/index.php/java-questions/java-whats-the-difference-between-equals-and/){website}
+
+---
+# Difference between `==` and `equals()`
 
 ---
 ## Content

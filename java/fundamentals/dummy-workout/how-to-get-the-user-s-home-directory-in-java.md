@@ -1,4 +1,4 @@
-# How to get the user's home directory in Java
+---
 author: pawel
 
 levels:
@@ -18,6 +18,9 @@ tags:
   - home-directory
 
 notes: ''
+
+---
+# How to get the user's home directory in Java
 
 ---
 ## Content

@@ -1,12 +1,9 @@
-# Avoid tab characters
+---
 author: adamMontgomerie
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
@@ -14,13 +11,15 @@ type: normal
 category: tip
 
 tags:
-
   - java-common-practises
 
 links:
 
   - >-
     [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=244){website}
+
+---
+# Avoid tab characters
 
 ---
 ## Content

@@ -1,4 +1,4 @@
-# Ternary operator in Java
+---
 author: pawel
 
 levels:
@@ -23,6 +23,9 @@ links:
 
   - >-
     [alvinalexander.com](http://alvinalexander.com/java/edu/pj/pj010018){website}
+
+---
+# Ternary operator in Java
 
 ---
 ## Content

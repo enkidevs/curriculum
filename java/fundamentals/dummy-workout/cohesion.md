@@ -1,4 +1,4 @@
-# Cohesion
+---
 author: mihaiberq
 
 levels:
@@ -8,6 +8,9 @@ levels:
 type: normal
 
 category: must-know
+
+---
+# Cohesion
 
 ---
 ## Content

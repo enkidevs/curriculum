@@ -1,4 +1,4 @@
-# URL addresses with Special characters in Java
+---
 author: pawel
 
 levels:
@@ -20,6 +20,9 @@ tags:
   - url
 
   - net
+
+---
+# URL addresses with Special characters in Java
 
 ---
 ## Content

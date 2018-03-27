@@ -1,12 +1,9 @@
-# Creating a URL in Java
+---
 author: pawel
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
@@ -14,14 +11,13 @@ type: normal
 category: must-know
 
 tags:
-
   - java-url
-
   - web
-
   - url
-
   - http
+
+---
+# Creating a URL in Java
 
 ---
 ## Content

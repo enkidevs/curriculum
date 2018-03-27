@@ -1,4 +1,4 @@
-# Converting HTML documents to PDF using Java
+---
 author: pawel
 
 levels:
@@ -19,6 +19,9 @@ links:
 
   - >-
     [today.java.net](https://today.java.net/pub/a/today/2007/06/26/generating-pdfs-with-flying-saucer-and-itext.html){website}
+
+---
+# Converting HTML documents to PDF using Java
 
 ---
 ## Content

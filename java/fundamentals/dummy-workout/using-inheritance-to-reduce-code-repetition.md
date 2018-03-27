@@ -1,4 +1,4 @@
-# Using Inheritance to reduce code repetition
+---
 author: adamMontgomerie
 
 levels:
@@ -21,6 +21,9 @@ links:
 
   - >-
     [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/concepts/inheritance.html){website}
+
+---
+# Using Inheritance to reduce code repetition
 
 ---
 ## Content

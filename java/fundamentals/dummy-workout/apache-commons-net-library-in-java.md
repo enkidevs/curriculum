@@ -1,4 +1,4 @@
-# Apache Commons Net library in Java
+---
 author: pawel
 
 levels:
@@ -26,6 +26,9 @@ notes: Decided not to provide any sample code as they're usually quite long
 links:
 
   - '[commons.apache.org](http://commons.apache.org/proper/commons-net/){website}'
+
+---
+# Apache Commons Net library in Java
 
 ---
 ## Content

@@ -1,4 +1,4 @@
-# Importing packages
+---
 author: adamMontgomerie
 
 levels:
@@ -21,6 +21,9 @@ links:
 
   - >-
     [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/package/usepkgs.html){website}
+
+---
+# Importing packages
 
 ---
 ## Content

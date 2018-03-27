@@ -1,4 +1,4 @@
-# Sending `Ctr+Alt+Del` key code to system from a class
+---
 author: pawel
 
 levels:
@@ -17,6 +17,9 @@ links:
 
   - >-
     [www3.ntu.edu.sg](https://www3.ntu.edu.sg/home/ehchua/programming/java/JavaNativeInterface.html){website}
+
+---
+# Sending `Ctr+Alt+Del` key code to system from a class
 
 ---
 ## Content

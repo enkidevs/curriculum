@@ -1,4 +1,4 @@
-# Loose and Tight Coupling
+---
 author: mihaiberq
 
 levels:
@@ -13,6 +13,9 @@ links:
 
     - >-
         [Coupling and Cohesion](https://stackoverflow.com/questions/3085285/cohesion-coupling){website}
+
+---
+# Loose and Tight Coupling
 
 ---
 ## Content

@@ -1,4 +1,4 @@
-# Declaring a `synchronized` method
+---
 author: adamMontgomerie
 
 levels:
@@ -14,19 +14,18 @@ type: normal
 category: tip
 
 tags:
-
   - multithreading
-
   - threads
-
   - synchronization
-
   - interleaving
 
 links:
 
   - >-
     [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html){website}
+
+---
+# Declaring a `synchronized` method
 
 ---
 ## Content

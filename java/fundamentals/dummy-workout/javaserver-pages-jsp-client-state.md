@@ -1,4 +1,4 @@
-# JavaServer Pages (JSP) client state
+---
 author: pawel
 
 levels:
@@ -21,6 +21,9 @@ links:
 
   - >-
     [www.tutorialspoint.com](http://www.tutorialspoint.com/jsp/jsp_session_tracking.htm){website}
+
+---
+# JavaServer Pages (JSP) client state
 
 ---
 ## Content

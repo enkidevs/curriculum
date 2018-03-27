@@ -1,4 +1,4 @@
-# Purpose of `System` class in Java
+---
 author: pawel
 
 levels:
@@ -23,6 +23,9 @@ links:
 
   - >-
     [docs.oracle.com](http://docs.oracle.com/javase/7/docs/api/java/lang/System.html){website}
+
+---
+# Purpose of `System` class in Java
 
 ---
 ## Content

@@ -1,4 +1,4 @@
-# Rhino - Java class which can execute JScripts.
+---
 author: pawel
 
 levels:
@@ -25,6 +25,9 @@ links:
 
   - >-
     [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino){website}
+
+---
+# Rhino - Java class which can execute JScripts.
 
 ---
 ## Content

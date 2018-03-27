@@ -1,4 +1,4 @@
-# `CardLayout` class in Java
+---
 author: pawel
 
 levels:
@@ -25,6 +25,9 @@ links:
 
   - >-
     [docs.oracle.com](https://docs.oracle.com/javase/tutorial/uiswing/layout/card.html){website}
+
+---
+# `CardLayout` class in Java
 
 ---
 ## Content

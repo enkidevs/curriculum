@@ -1,12 +1,9 @@
-# Declaring an annotation type
+---
 author: adamMontgomerie
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
@@ -14,17 +11,17 @@ type: normal
 category: tip
 
 tags:
-
   - annotations
-
   - documentation
-
   - javadoc
 
 links:
 
   - >-
     [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/annotations/declaring.html){website}
+
+---
+# Declaring an annotation type
 
 ---
 ## Content

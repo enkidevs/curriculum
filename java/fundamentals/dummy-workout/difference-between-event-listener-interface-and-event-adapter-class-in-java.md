@@ -1,10 +1,8 @@
-# Difference between `Event Listener` interface  and `Event Adapter` class in Java
+---
 author: pawel
 
 levels:
-
   - advanced
-
   - medium
 
 type: normal
@@ -12,9 +10,7 @@ type: normal
 category: tip
 
 tags:
-
   - event-adapters
-
   - event-listeners
 
 notes: ''
@@ -23,6 +19,9 @@ links:
 
   - >-
     [docs.oracle.com](https://docs.oracle.com/javase/tutorial/uiswing/events/generalrules.html#eventAdapters){website}
+
+---
+# Difference between `Event Listener` interface  and `Event Adapter` class in Java
 
 ---
 ## Content

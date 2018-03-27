@@ -1,12 +1,9 @@
-# Avoid using `!=` to test the end of a range
+---
 author: pawel
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
@@ -14,10 +11,12 @@ type: normal
 category: best practice
 
 tags:
-
   - best-practice
 
 notes: As always - hope it's not to basic
+
+---
+# Avoid using `!=` to test the end of a range
 
 ---
 ## Content

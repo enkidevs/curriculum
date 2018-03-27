@@ -1,4 +1,4 @@
-# Loosely-coupled classes in Java
+---
 author: pawel
 
 levels:
@@ -25,6 +25,9 @@ links:
 
   - >-
     [stackoverflow.com](http://stackoverflow.com/questions/2832017/what-is-the-difference-between-loose-coupling-and-tight-coupling-in-object-orien){website}
+
+---
+# Loosely-coupled classes in Java
 
 ---
 ## Content

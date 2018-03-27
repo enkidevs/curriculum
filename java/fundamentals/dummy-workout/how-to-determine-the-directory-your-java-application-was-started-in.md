@@ -1,4 +1,4 @@
-# How to determine the directory your Java application was started in
+---
 author: pawel
 
 levels:
@@ -18,6 +18,9 @@ tags:
   - user-directory
 
 notes: ''
+
+---
+# How to determine the directory your Java application was started in
 
 ---
 ## Content

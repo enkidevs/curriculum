@@ -1,10 +1,8 @@
-# Fully qualified names in `SQL` query
+---
 author: pawel
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal
@@ -12,12 +10,11 @@ type: normal
 category: best practice
 
 tags:
-
   - databases
-
   - JDBC
 
-  - ''
+---
+# Fully qualified names in `SQL` query
 
 ---
 ## Content

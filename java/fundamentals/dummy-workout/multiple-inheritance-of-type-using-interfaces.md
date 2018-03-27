@@ -1,4 +1,4 @@
-# Multiple inheritance of type using interfaces
+---
 author: adamMontgomerie
 
 levels:
@@ -25,6 +25,9 @@ links:
 
   - >-
     [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/multipleinheritance.html){website}
+
+---
+# Multiple inheritance of type using interfaces
 
 ---
 ## Content
