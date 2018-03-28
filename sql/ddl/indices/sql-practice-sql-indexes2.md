@@ -15,7 +15,7 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/9eecb/23059
+link: http://sqlfiddle.com/#!9/ae6640
 
 answer: BTREE
 
@@ -32,7 +32,8 @@ links:
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=JjNef3tPltU){video}'
 
 ---
-# SQL Practice Aggregate Average
+
+# SQL Practice Define Indexes
 
 ---        
 ## Exercise

@@ -24,6 +24,7 @@ standards:
   sql.define-tables.4: 1000
   sql.choose-sql-datatype.1: 1000
   sql.choose-sql-datatype.2: 1000
+  sql.define-columns.0: 3000
 
 links:
   - '[mysql define tables documentation](https://dev.mysql.com/doc/refman/5.7/en/creating-tables.html){website}'
@@ -31,7 +32,7 @@ links:
   - '[video tutorial on creating tables](https://youtu.be/EaRj0S3K32Y?t=58s){video}'
 
 ---
-# SQL Practice Aggregate Average
+# SQL Practice Create Table
 
 ---        
 ## Exercise

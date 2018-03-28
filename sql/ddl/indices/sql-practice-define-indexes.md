@@ -15,9 +15,9 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/9eecb/23059
+link: http://sqlfiddle.com/#!9/53a66c/1
 
-answer: BTREE
+answer: facebook_id
 
 standards:
   sql.define-indices.0: 1000
@@ -29,18 +29,20 @@ standards:
 links:
   - '[mysql modify columns documentation](https://dev.mysql.com/doc/refman/5.7/en/create-index.html){website}'
   - '[blog post on mysql define tables](https://atech.blog/viaduct/mysql-indexes-primer){website}'
-  - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=JjNef3tPltU){video}'
+  - '[video tutorial on creating indexes](https://youtu.be/19eLh1ZdoLY?t=56s){video}'
+  - '[video tutorial on the differences between clustered and non-clustered index](https://www.youtube.com/watch?v=ITcOiLSfVJQ){video}'
 
 ---
-# SQL Practice Aggregate Average
+
+# SQL Practice Define Indexes
 
 ---        
 ## Exercise
 
-Consider the `items` table we defined. There is an important thing we didn't cover for this table. We didn't set a primary key constraint ( also known as one of the two types of indexes ). Create on for this table.
+Our `users` table has grown so large that lookups based on `facebook_id` take forever! We need to add an index.
+Add an index to the `facebook_id` column.
 
-In order to check your results:
-- add the index,
-- build the schema,
-- run the provided query,
-- and provide the `Index_type` displayed in the result in the answer field.
+Run the query before you create an index, and click "View Execution Plan".
+Run the query after you create the index, and click "View Execution Plan".
+
+Check the `possible_keys` column - what is the value that appears there?

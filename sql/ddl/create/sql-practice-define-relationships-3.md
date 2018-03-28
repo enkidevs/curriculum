@@ -29,7 +29,7 @@ links:
 
 ---
 
-# SQL Practice Aggregate Average
+# SQL Practice Define Relationships
 
 ---        
 ## Exercise

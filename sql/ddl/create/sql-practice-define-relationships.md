@@ -28,7 +28,7 @@ links:
 
 ---
 
-# SQL Practice Create Relationships
+# SQL Practice Define Relationships
 
 ---        
 ## Exercise

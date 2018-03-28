@@ -28,7 +28,7 @@ links:
 
 ---
 
-# SQL Practice Query Relationships
+# SQL Practice Define Relationships
 
 ---        
 ## Exercise

@@ -27,7 +27,7 @@ links:
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=GU_zYgXXOzE){video}'
 
 ---
-# SQL Practice Aggregate Average
+# SQL Practice Define Relationships
 
 ---        
 ## Exercise
