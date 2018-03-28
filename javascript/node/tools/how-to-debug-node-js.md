@@ -2,9 +2,7 @@
 author: rosielowther
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal

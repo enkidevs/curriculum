@@ -2,22 +2,18 @@
 author: catalin
 
 levels:
-
   - beginner
 
 type: normal
 
 category: how to
 
-
 links:
-
   - '[expressjs.com](http://expressjs.com/en/starter/installing.html){website}'
 
 notes: This can used as the first insight on Express subtopic
 
 ---
-
 # Basic web server with Express
 
 ---
@@ -50,7 +46,7 @@ app.get('/', function(request,response){
 ## Practice
 
 Complete the following snippet using routing with express:
-```
+```javascript
 app.???('/',
    function(???,response){
   // code
@@ -58,12 +54,12 @@ app.???('/',
 
 ```
 
-* `get`
-* `request`
-* `server`
-* `run`
-* `reg`
-* `express`
+* get
+* request
+* server
+* run
+* reg
+* express
 
 ---
 ## Revision
@@ -75,9 +71,9 @@ var app = ???;
 ```
 
 
-* `express`
-* `express()`
-* `get`
-* `use`
-* `request`
+* express
+* express()
+* get
+* use
+* request
 

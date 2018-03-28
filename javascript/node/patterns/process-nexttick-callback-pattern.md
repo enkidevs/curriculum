@@ -23,6 +23,9 @@ tags:
   - obscura
 
 ---
+# `process.nextTick()` callback pattern
+
+---
 ## Content
 
 *Event loop* can be viewed as a queue of callbacks that are processed by **Node** on consequent **ticks**.

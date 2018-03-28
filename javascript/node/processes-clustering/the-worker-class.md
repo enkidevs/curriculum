@@ -2,11 +2,8 @@
 author: tommarshall
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
@@ -21,11 +18,7 @@ tags:
   
 category: tip
 
-
-
-
 ---
-
 # The Worker Class
 
 ---
@@ -63,10 +56,10 @@ if (worker.???()) {
 ```
 
 
-* `isConnected`
-* `process`
-* `connected`
-* `worker`
-* `isIPC`
-* `send`
+* isConnected
+* process
+* connected
+* worker
+* isIPC
+* send
 

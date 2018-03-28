@@ -2,13 +2,9 @@
 author: tommarshall
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
-
   - beginner
 
 type: normal
@@ -23,11 +19,7 @@ tags:
 
 category: tip
 
-
-
-
 ---
-
 # Master Processes and Worker Processes
 
 ---
@@ -67,10 +59,10 @@ if (cluster.isMaster) { ... }
 Which method is used by the master process to initiate new worker processes? ???
 
 
-* `cluster.fork();`
-* `master.fork();`
-* `cluster.new();`
-* `master.new();`
-* `cluster.process();`
-* `master.process();`
+* cluster.fork();
+* master.fork();
+* cluster.new();
+* master.new();
+* cluster.process();
+* master.process();
 

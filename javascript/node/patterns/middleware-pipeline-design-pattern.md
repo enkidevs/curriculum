@@ -2,11 +2,8 @@
 author: catalin
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
@@ -20,7 +17,6 @@ tags:
   - workout
 
 links:
-
   - '[www.mariocasciaro.me](http://www.mariocasciaro.me/the-strange-world-of-node-js-design-patterns){website}'
   - '[blog.risingstack.com](https://blog.risingstack.com/fundamental-node-js-design-patterns/){website}'
   - '[through](https://www.npmjs.com/package/through){documentation}'

@@ -2,23 +2,17 @@
 author: catalin
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal
 
 category: must-know
 
-
 links:
-
   - '[ponyfoo.com](https://ponyfoo.com/articles/teach-yourself-nodejs-in-10-steps#http-server){website}'
 
-
 ---
-
 # Http Server in **Node**
 
 ---
@@ -49,7 +43,7 @@ The port on which it should listen was also specified: `.listen(8000)`.
 
 Which method is used to declare a new server with what arguments?
 
-```
+```javascript
 var http = require(‘http’);
 http.???(
     function(req, ???){
@@ -57,14 +51,14 @@ http.???(
  }).listen(port);
 ```
 
-* `createServer`
-* `res`
-* `req`
-* `newServer`
-* `declareServer`
-* `server`
-* `env`
-* `arg`
+* createServer
+* res
+* req
+* newServer
+* declareServer
+* server
+* env
+* arg
 
 ---
 ## Revision
@@ -79,10 +73,10 @@ http.???(function(req, res) {
 ```
 
 
-* `createServer`
-* `listen`
-* `httpServer`
-* `on`
-* `localhost`
-* `require`
+* createServer
+* listen
+* httpServer
+* on
+* localhost
+* require
 

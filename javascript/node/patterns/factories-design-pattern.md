@@ -2,9 +2,7 @@
 author: catalin
 
 levels:
-
   - advanced
-
   - medium
 
 type: normal
@@ -20,7 +18,6 @@ tags:
   - deep
 
 links:
-
   - '[blog.risingstack.com](https://blog.risingstack.com/fundamental-node-js-design-patterns/){website}'
   - '[thenodeway.io](http://thenodeway.io/posts/designing-factories/){website}'
 

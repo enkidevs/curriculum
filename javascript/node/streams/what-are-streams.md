@@ -2,19 +2,14 @@
 author: tommarshall
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
   - advanced
 
 type: normal
 
 category: must-know
-
 
 standards:
   js.read-and-write-streams: 20
@@ -26,7 +21,6 @@ tags:
   - workout
 
 links:
-
   - '[Node Streams](https://maxogden.com/node-streams.html){website}'
 
 parent: handling-event-errors

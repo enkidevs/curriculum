@@ -2,9 +2,7 @@
 author: catalin
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal
@@ -23,7 +21,6 @@ links:
   - '[nodejs.org](https://nodejs.org/api/process.html#process_process_env){website}'
 
 ---
-
 # Global Objects and Environment Variables in **Node**
 
 ---
