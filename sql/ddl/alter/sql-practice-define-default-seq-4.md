@@ -27,7 +27,9 @@ links:
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=JjNef3tPltU){video}'
 
 ---
+
 # SQL Practice Alter Table
+
 ---        
 ## Exercise
 

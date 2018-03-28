@@ -12,7 +12,6 @@ insights:
 exercises:
   - sql-practice-alter-table
   - sql-practice-alter-table-2
-  - sql-practice-alter-table-3
   - sql-practice-define-default-seq
   - sql-practice-define-default-seq-2
   - sql-practice-define-default-seq-3
