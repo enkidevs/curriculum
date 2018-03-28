@@ -17,10 +17,8 @@ linkType: sqlfiddle
 
 link: http://sqlfiddle.com/#!9/3c80fe
 
-answer: db_9_696521
-
 standards:
-  sql.define-relationships.0: 1000
+  sql.define-relationships.1: 1000
 
 
 links:
@@ -36,5 +34,5 @@ links:
 ## Exercise
 
 Add a Foreign Key constraint to the `user_items` and `requests` tables.
-Once you're finished with that, add this insert statement to the end, and check that it **fails**:  
+Once you're finished with that, add this insert statement to the end, and check that it **fails**:    
 `INSERT INTO user_items (id, item_id, user_id, daily_price) VALUES (4, 10, 11, 5.2);`

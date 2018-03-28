@@ -15,12 +15,10 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/715078/1
-
-answer: db_9_947f36
+link: http://sqlfiddle.com/#!9/3c80fe
 
 standards:
-  sql.define-relationships.3: 1000
+  sql.define-relationships.0: 1000
 
 
 links:
@@ -29,10 +27,12 @@ links:
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=zhk-q4EvV2o){video}'
 
 ---
-# SQL Practice Aggregate Average
+
+# SQL Practice Query Relationships
 
 ---        
 ## Exercise
 
-Reference `requests` table to `users` table using foreign key constraint.
-In order to check your results, write the query for the relationship and `build schema` again. After that run the query provided and answer with the value in `REFERENCED_TABLE_SCHEMA` column of the result.
+Create a foreign key constraint to relate the `users` table with the `users_items` table, on the `user_id` column in `users_items`.
+When you are finished, run this query and check that it **fails**:  
+`INSERT INTO user_items (id, item_id, user_id, daily_price) VALUES (4, 10, 11, 5.2);`

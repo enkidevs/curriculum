@@ -15,18 +15,16 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/940e4
-
-answer: db_9_3b626
+link: http://sqlfiddle.com/#!9/ddb15b
 
 standards:
   sql.define-relationships.3: 1000
 
 
 links:
-  - '[mysql modify columns documentation](https://dev.mysql.com/doc/refman/5.7/en/create-table-foreign-keys.html){website}'
-  - '[blog post on mysql define tables](http://www.anchor.com.au/hosting/support/CreatingAQuickMySQLRelationalDatabase){website}'
-  - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=zhk-q4EvV2o){video}'
+  - '[mysql create foreign keys](https://dev.mysql.com/doc/refman/5.7/en/create-table-foreign-keys.html){website}'
+  - '[explainer on foreign keys](https://www.w3schools.com/sql/sql_foreignkey.asp){website}'
+  - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=GU_zYgXXOzE){video}'
 
 ---
 # SQL Practice Aggregate Average
@@ -34,5 +32,4 @@ links:
 ---        
 ## Exercise
 
-Create a table and define foreign key constraints such that we will have a many to many relationship between `items` and `requests` tables.
-In order to check your results, write the query for the relationship and `build schema` again. After that run the query provided and answer with the value in `REFERENCED_TABLE_SCHEMA` column of the result.
+Create a foreign key reference to relate the `users` table to itself. Ensure that the `manager` column only contains references to the `id` field within `users`.

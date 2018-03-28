@@ -24,6 +24,7 @@ standards:
   sql.define-tables.4: 1000
   sql.choose-sql-datatype.1: 1000
   sql.choose-sql-datatype.2: 1000
+  sql.define-columns.0: 6000
 
 links:
   - '[mysql define tables documentation](https://dev.mysql.com/doc/refman/5.7/en/creating-tables.html){website}'

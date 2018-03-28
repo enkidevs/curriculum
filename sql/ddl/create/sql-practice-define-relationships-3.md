@@ -15,12 +15,11 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/05b0f8/1
-
-answer: db_9_99d371
+link: http://sqlfiddle.com/#!9/da282b
 
 standards:
   sql.define-relationships.2: 1000
+  sql.define-columns.2: 1000
 
 
 links:
@@ -29,10 +28,12 @@ links:
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=zhk-q4EvV2o){video}'
 
 ---
+
 # SQL Practice Aggregate Average
 
 ---        
 ## Exercise
 
-Define an one to one relationship using foreign key constraints between `items` and `item_pictures` tables.
-In order to check your results, write the query for the relationship and `build schema` again. After that run the query provided and answer with the value in `REFERENCED_TABLE_SCHEMA` column of the result.
+Create a foreign key reference to the table `user_reports`, relating `user_id` on `user_reports` to `id` on `users`. Add additional constraints to ensure that there is only _one_ report for each user.
+When you are finished, run this query and check that it **fails**:  
+`INSERT INTO user_reports (id, user_id, total_items, max_daily_price) VALUES (110, 99, 58, 900);`
