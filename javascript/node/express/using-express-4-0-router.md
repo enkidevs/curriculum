@@ -2,9 +2,7 @@
 author: catalin
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal
@@ -17,7 +15,6 @@ standards:
   js.express-server.4: 10
 
 links:
-
   - '[scotch.io](https://scotch.io/tutorials/learn-to-use-the-new-router-in-expressjs-4){website}'
 
 parent: easy-way-to-deliver-html-pages-with-express

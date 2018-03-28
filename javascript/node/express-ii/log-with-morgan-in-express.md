@@ -2,29 +2,23 @@
 author: catalin
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
 
 category: how to
 
-
 standards:
   js.express-server.4: 10
 
 links:
-
   - '[github.com](https://github.com/expressjs/morgan){website}'
 
 parent: easy-way-to-deliver-html-pages-with-express
 
 ---
-
 # Log with `morgan` in **Express**
 
 ---

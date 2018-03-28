@@ -2,7 +2,6 @@
 author: tommarshall
 
 levels:
-
   - beginner
 
 type: normal
@@ -16,7 +15,6 @@ tags:
   - introduction
 
 links:
-
   - '[tutorialsteacher.com](http://www.tutorialsteacher.com/nodejs/nodejs-console-repl){website}'
 
 parent: installing-node-js
@@ -75,7 +73,6 @@ $ node
 
 What does REPL stand for?
 ???
-
 
 * Read, Eval, Print, Loop
 * Read, Equal, Process, Loop

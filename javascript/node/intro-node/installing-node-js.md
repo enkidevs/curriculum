@@ -2,7 +2,6 @@
 author: tommarshall
 
 levels:
-
   - beginner
 
 type: normal
@@ -10,10 +9,6 @@ type: normal
 category: must-know
 
 inAlgoPool: false
-
-links:
-
-  - '[nodejs.org](https://nodejs.org/en/){website}'
 
 parent: what-is-nodejs
 
@@ -24,7 +19,7 @@ standards:
   js.node-developer-environment.0: 10
 
 links:
-  - '[nodejs.org](https://nodejs.org/en/)'
+  - '[nodejs.org](https://nodejs.org/en/){website}'
 
 ---
 # Installing Node.js

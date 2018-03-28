@@ -2,28 +2,23 @@
 author: catalin
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal
 
 category: how to
 
-
 standards:
   js.express-server.1: 10
   js.express-server.9: 10
 
 links:
-
   - '[github.com](https://github.com/expressjs/errorhandler){website}'
 
 parent: easy-way-to-deliver-html-pages-with-express
 
 ---
-
 # Error handler in **Express**
 
 ---

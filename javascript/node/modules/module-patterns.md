@@ -2,19 +2,14 @@
 author: tommarshall
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
   - advanced
 
 type: normal
 
 category: must-know
-
 
 standards:
   js.use-modules: 20
@@ -25,7 +20,6 @@ tags:
   - workout
 
 links:
-
   - '[Node Module Patterns](https://darrenderidder.github.io/talks/ModulePatterns/#/5){website}'
 
 parent: local-modules
@@ -43,7 +37,7 @@ There are a number of different Node module patterns, the simplest being the exa
 Other module patterns are:
 
 Exporting an anonymous function:
-```
+```javascript
 // module.js
 module.exports = function() {
 
@@ -57,7 +51,7 @@ func();
 ```
 
 Named functions can be exported in a similar way, however notice differences when defining the function and requiring the module:
-```
+```javascript
 // module.js
 exports.foo = function() {
 
@@ -85,7 +79,7 @@ What must be used when exporting an anonymous function?
 ## Revision
 
 Complete the code snippet to export the named function:
-```
+```javascript
 // module.js
 exports.foo = function() {
 
@@ -97,7 +91,6 @@ exports.foo = function() {
 var foo = require('./module.js'???;
 foo();
 ```
-
 
 * ).foo
 * )

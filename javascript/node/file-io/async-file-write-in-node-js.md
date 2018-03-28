@@ -2,11 +2,8 @@
 author: rosielowther
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
@@ -21,7 +18,6 @@ tags:
   - workout
 
 links:
-
   - '[nodejs.org](https://nodejs.org/api/fs.html#fs_fs_writefile_file_data_options_callback){website}'
 
 ---

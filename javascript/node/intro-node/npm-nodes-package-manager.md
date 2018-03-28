@@ -2,13 +2,11 @@
 author: tommarshall
 
 levels:
-
   - beginner
 
 type: normal
 
 category: must-know
-
 
 tags:
   - introduction
@@ -17,13 +15,11 @@ standards:
   js.node-developer-environment.2: 10
 
 links:
-
   - '[npmjs.com](https://www.npmjs.com/){website}'
 
 parent: executing-programs-with-node
 
 ---
-
 # NPM, Node's Package Manager
 
 ---
@@ -55,9 +51,9 @@ npm install npm@???
 ```
 
 
-* `latest -g`
-* `latest`
-* `latest -v`
+* latest -g
+* latest
+* latest -v
 
 ---
 ## Revision
@@ -68,8 +64,7 @@ Complete the code snippet to install a package from NPM:
 > npm ??? <package>
 ```
 
-
-* `install`
-* `new`
-* `download`
+* install
+* new
+* download
 

@@ -2,19 +2,14 @@
 author: tommarshall
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
   - advanced
 
 type: normal
 
 category: must-know
-
 
 standards:
   js.events-asynchronous-operations.1: 20
@@ -25,13 +20,11 @@ tags:
   - workout
 
 links:
-
   - '[Node Errors](https://nodejs.org/api/errors.html){website}'
 
 parent: passing-arguments-to-listeners
 
 ---
-
 # Handling event errors
 
 ---
@@ -84,9 +77,9 @@ What event type is emitted by the `test` event emitter object?
 ???
 
 
-* `uncaughtException`
-* `eventFailure`
-* `error`
+* uncaughtException
+* eventFailure
+* error
 
 ---
 ## Revision

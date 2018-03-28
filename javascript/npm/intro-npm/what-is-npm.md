@@ -2,7 +2,6 @@
 author: mihaiberq
 
 levels:
-
   - beginner
 
 type: normal

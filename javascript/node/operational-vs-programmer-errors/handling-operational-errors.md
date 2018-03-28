@@ -2,11 +2,8 @@
 author: mihaiberq
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
 
 type: normal
@@ -22,7 +19,6 @@ standards:
   js.identify-common-design-patterns.6: 10
 
 links:
-
   - '[Node JS and Errors](https://www.joyent.com/node-js/production/design/errors){website}'
 
 ---

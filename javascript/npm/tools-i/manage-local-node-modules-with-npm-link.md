@@ -23,7 +23,6 @@ links:
 parent: check-data-about-a-package
 
 ---
-
 # Manage local node modules with `npm link`
 
 ---

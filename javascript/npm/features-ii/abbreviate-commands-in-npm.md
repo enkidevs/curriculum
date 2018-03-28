@@ -2,9 +2,7 @@
 author: catalin
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal

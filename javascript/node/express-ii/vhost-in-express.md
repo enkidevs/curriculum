@@ -2,29 +2,23 @@
 author: catalin
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
 
 category: how to
 
-
 standards:
   js.express-server.4: 10
 
 links:
-
   - '[github.com](https://github.com/expressjs/vhost){website}'
 
 parent: easy-way-to-deliver-html-pages-with-express
 
 ---
-
 # `vhost` in **Express**
 
 ---

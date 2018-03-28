@@ -2,13 +2,9 @@
 author: tommarshall
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
   - advanced
 
 type: normal
@@ -24,7 +20,6 @@ tags:
   - workout
 
 links:
-
   - '[Local Modules](http://www.tutorialsteacher.com/nodejs/nodejs-local-modules){website}'
 
 parent: the-http-module-for-servers
@@ -41,7 +36,7 @@ In Node.js a local module is a module created locally to your application. A loc
 Local modules must be in their own separate JavaScript file.
 Consider the following example of a local module (filename `news.js`):
 
-```
+```javascript
 var news = {
   good: function(good) {
     console.log('Good news! ' + good);
@@ -55,16 +50,16 @@ module.export = news
 
 A local module has to be required into an application in the same way a core module does, the only difference being that the path to the module must be specified as follows in `main.js`:
 
-```
+```javascript
 var newsModule = require(`./news.js`);
 ```
 
 The local module object can now be called with one of its functions:
-```
+```javascript
 newsModule.good('We're working on Node!');
 ```
 To run the module:
-```
+```bash
 $ node main.js
 ```
 Which gives the following output:

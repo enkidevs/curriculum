@@ -9,13 +9,7 @@ type: normal
 
 category: must-know
 
-
-
 parent: package-json
-
----
-
-# Semantic versioning
 
 standards:
   js.npm-tasks-and-modules-manager: 10
@@ -23,6 +17,9 @@ standards:
 
 tags:
   - introduction
+
+---
+# Semantic versioning
 
 ---
 ## Content

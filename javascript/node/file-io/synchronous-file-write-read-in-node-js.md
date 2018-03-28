@@ -2,9 +2,7 @@
 author: rosielowther
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal
@@ -19,7 +17,6 @@ tags:
   - workout
 
 links:
-
   - '[nodejs.org](https://nodejs.org/api/fs.html#fs_fs_writefilesync_file_data_options){website}'
   - '[nodejs.org](https://nodejs.org/api/fs.html#fs_fs_readfilesync_file_options){website}'
 

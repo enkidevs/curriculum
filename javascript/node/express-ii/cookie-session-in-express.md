@@ -2,17 +2,13 @@
 author: catalin
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
 
 category: how to
-
 
 standards:
   js.express-server.1: 10
@@ -20,13 +16,11 @@ standards:
   cs.http-request-response.12: 10
 
 links:
-
   - '[github.com](https://github.com/expressjs/cookie-session){website}'
 
 parent: easy-way-to-deliver-html-pages-with-express
 
 ---
-
 # `cookie-session` in **Express**
 
 ---

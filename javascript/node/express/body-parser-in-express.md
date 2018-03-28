@@ -2,28 +2,23 @@
 author: catalin
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal
 
 category: must-know
 
-
 standards:
   js.express-server.4: 10
 
 links:
-
   - '[medium.com](https://medium.com/@adamzerner/how-bodyparser-works-247897a93b90#.34biejvm1){website}'
   - '[github.com](https://github.com/expressjs/body-parser){website}'
 
 parent: easy-way-to-deliver-html-pages-with-express
 
 ---
-
 # `body-parser` in **Express**
 
 ---
@@ -67,12 +62,13 @@ function (req, res) {
 
 Parse `x-ww-form-urlencoded`:
 
-```
+```javascript
 app.use(
   bodyParser.???({
    extended: ???
 }));
 ```
+
 * urlencoded
 * false
 * true

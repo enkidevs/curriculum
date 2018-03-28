@@ -2,9 +2,7 @@
 author: catalin
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal
@@ -19,12 +17,9 @@ tags:
   - workout
 
 links:
-
   - '[fredkschott.com](http://fredkschott.com/post/2014/03/understanding-error-first-callbacks-in-node-js/){website}'
 
-
 ---
-
 # First-error callbacks in **Node**
 
 ---
@@ -67,9 +62,9 @@ What are the arguments of a `error-first` callback function?
 function(???, ??) { }
 ```
 
-* `err`
-* `data`
-* `fileNotFound`
-* `log`
-* `null`
+* err
+* data
+* fileNotFound
+* log
+* null
 

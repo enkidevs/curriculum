@@ -2,9 +2,7 @@
 author: catalin
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal
@@ -19,11 +17,9 @@ tags:
   - workout
 
 links:
-
   - '[nodejs.org](https://nodejs.org/api/fs.html#fs_fs_readfile_file_options_callback){website}'
 
 ---
-
 # Asynchronous File Write/Read in Node.js
 
 ---

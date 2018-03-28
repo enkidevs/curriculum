@@ -27,7 +27,6 @@ links:
   - '[Peer dependencies](https://nodejs.org/en/blog/npm/peer-dependencies/)'
 
 ---
-
 # Deprecated peer dependencies
 
 ---

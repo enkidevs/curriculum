@@ -79,7 +79,6 @@ In what object of `package.json` can dispensable dependencies be specified?
 
 ???
 
-
 * optionalDependenceis
 * peerDependencies
 * devDependenceis

@@ -2,9 +2,7 @@
 author: catalin
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal
@@ -20,7 +18,6 @@ tags:
   - workout
 
 links:
-
   - '[www.hacksparrow.com](http://www.hacksparrow.com/node-js-exports-vs-module-exports.html){website}'
 
 ---

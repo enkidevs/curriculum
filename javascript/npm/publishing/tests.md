@@ -2,20 +2,14 @@
 author: mihaiberq
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
   - advanced
 
 type: normal
 
 category: how to
-
-
 
 parent: prepare-your-module-for-publishing
 
@@ -27,9 +21,7 @@ tags:
   - introduction
   - workout
 
-
 ---
-
 # Tests
 
 ---
@@ -84,12 +76,12 @@ Complete the following *package.json* file with code that would make `npm run te
 ```
 
 
-* `"scripts"`
-* `"test"`
-* `index.js`
-* `scripts`
-* `test`
-* `script`
+* "scripts"
+* "test"
+* index.js
+* scripts
+* test
+* script
 
 ---
 ## Footnotes

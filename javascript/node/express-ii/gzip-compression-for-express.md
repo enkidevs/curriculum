@@ -2,27 +2,22 @@
 author: catalin
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal
 
 category: must-know
 
-
 standards:
   js.express-server.4: 10
 
 links:
-
   - '[github.com](https://github.com/expressjs/compression){website}'
 
 parent: easy-way-to-deliver-html-pages-with-express
 
 ---
-
 # **GZIP** compression for **Express**
 
 ---

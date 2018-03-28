@@ -68,12 +68,12 @@ $ npm ???
     enki???1.2.3 ???
 ```
 
-* `view`
-* `@`
-* `dependencies`
-* `--json`
-* `list`
-* `npm`
+* view
+* @
+* dependencies
+* --json
+* list
+* npm
 
 ---
 ## Revision

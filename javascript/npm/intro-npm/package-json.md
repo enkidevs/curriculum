@@ -21,7 +21,6 @@ links:
 parent: setting-up-npm
 
 ---
-
 # `package.json`
 
 ---
@@ -77,11 +76,11 @@ $ ??? ??? ???
 Will create the default *package.json* file.
 
 
-* `npm`
-* `init`
-* `-y`
-* `install`
-* `-i`
+* npm
+* init
+* -y
+* install
+* -i
 
 ---
 ## Revision

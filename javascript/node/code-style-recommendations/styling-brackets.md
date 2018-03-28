@@ -2,9 +2,7 @@
 author: mihaiberq
 
 levels:
-
   - beginner
-
   - basic
 
 type: normal
@@ -15,14 +13,10 @@ standards:
   js.identify-common-design-patterns.7: 10
 
 tags:
-
   - introduction
 
 
-
-
 ---
-
 # Styling Brackets
 
 ---

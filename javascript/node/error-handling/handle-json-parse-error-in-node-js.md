@@ -2,9 +2,7 @@
 author: rosielowther
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal
@@ -19,13 +17,10 @@ tags:
   - workout
 
 links:
-
   - '[www.joyent.com](https://www.joyent.com/developers/node/design/errors){website}'
   - '[stackoverflow.com](http://stackoverflow.com/questions/14392110/catch-exception-in-node-during-json-parse?lq=1){website}'
 
-
 ---
-
 # Handle `JSON.parse` error in Node.js
 
 ---

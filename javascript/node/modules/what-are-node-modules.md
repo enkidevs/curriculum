@@ -2,19 +2,14 @@
 author: tommarshall
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
   - advanced
 
 type: normal
 
 category: must-know
-
 
 standards:
   js.use-modules: 10
@@ -25,7 +20,6 @@ tags:
   - workout
 
 links:
-
   - '[Node Modules](http://book.mixu.net/node/ch8.html){website}'
 
 parent: npm-nodes-package-manager

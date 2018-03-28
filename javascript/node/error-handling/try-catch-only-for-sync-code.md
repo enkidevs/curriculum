@@ -2,11 +2,8 @@
 author: catalin
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
@@ -21,13 +18,10 @@ tags:
   - workout
 
 links:
-
   - '[nodejs.org](https://nodejs.org/api/errors.html){website}'
   - '[blog.risingstack.com](https://blog.risingstack.com/node-js-best-practices/){website}'
 
-
 ---
-
 # `try-catch` only for **sync** code
 
 ---
@@ -90,7 +84,6 @@ try {
 
 ```
 
-
 * Option C
 * Option A
 * Option B
@@ -102,7 +95,6 @@ How must errors happen as to handle them with a `try-catch` block?
 
 ???
 
-
-* `synchronously`
-* `asynchronously`
+* synchronously
+* asynchronously
 
