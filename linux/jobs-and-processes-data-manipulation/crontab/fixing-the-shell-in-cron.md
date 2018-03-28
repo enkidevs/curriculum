@@ -1,4 +1,4 @@
-# Fixing the shell in cron
+---
 author: tuwi.dc
 
 levels:
@@ -21,9 +21,15 @@ tags:
 
   - shell
 
-  - ''
+  - 
+
+
 
 parent: practical-cron
+
+---
+
+# Fixing the shell in cron
 
 ---
 ## Content
@@ -54,7 +60,9 @@ If the command is a script, make sure the script contains a shebang:
 ## Revision
 
 You have to modify the ??? variable in the cron file to run all the commands using `/bin/bash`.
-*SHELL
-*RUN
-*COMPILE
-*BASH
+
+* SHELL
+* RUN
+* COMPILE
+* BASH
+

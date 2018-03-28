@@ -1,4 +1,4 @@
-# Class inheritance
+---
 author: catalin
 
 levels:
@@ -25,6 +25,9 @@ links:
 
   - >-
     [docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#inheritance){website}
+
+---
+# Class inheritance
 
 ---
 ## Content
@@ -79,10 +82,10 @@ Make `Maths` inherit `Subject` :
 ???
   credits = 15
 ```
-* `class Maths(Subject):`
-* `class Maths(Subject)`
-* `class Maths:Subject`
-* `class Maths extends Subject:`
+* class Maths(Subject):
+* class Maths(Subject)
+* class Maths:Subject
+* class Maths extends Subject:
 
 ---
 ## Revision

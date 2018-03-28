@@ -1,4 +1,4 @@
-# Binary record packing with `bytearray`
+---
 author: catalin
 
 levels:
@@ -21,6 +21,9 @@ links:
     [dabeaz.blogspot.co.uk](http://dabeaz.blogspot.co.uk/2010/01/few-useful-bytearray-tricks.html){website}
 
   - '[Code example](https://repl.it/Dca2){website}'
+
+---
+# Binary record packing with `bytearray`
 
 ---
 ## Content
@@ -77,6 +80,6 @@ What can be reduced using a `bytearray` when using data written out as a binary 
 
 ???
 
-*Run time
-*Code errors
-*Lines of code
+* Run time
+* Code errors
+* Lines of code

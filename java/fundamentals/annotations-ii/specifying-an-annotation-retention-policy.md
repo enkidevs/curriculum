@@ -1,4 +1,4 @@
-# Specifying an annotation retention policy
+---
 author: adamMontgomerie
 
 levels:
@@ -19,10 +19,15 @@ tags:
 
   - meta-annotations
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/annotations/predefined.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/annotations/predefined.html){website}'
+
+
+---
+
+# Specifying an annotation retention policy
 
 ---
 ## Content
@@ -41,3 +46,4 @@ For example:
 }
 ```
 This annotation will be available at runtime.
+

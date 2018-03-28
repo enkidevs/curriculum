@@ -1,4 +1,4 @@
-# Disable `IPv6`
+---
 author: tuwi.dc
 
 levels:
@@ -30,6 +30,9 @@ tags:
   - sysctl
 
   - ip
+
+---
+# Disable `IPv6`
 
 ---
 ## Content
@@ -66,10 +69,10 @@ $ sysctl -p
 Which of the following is a reason to disable IPv6? 
 
 ???
-*Privacy concerns
-*It slows the internet connection
-*Not all of the websites support IPv6
-*Your ISP doesn’t support IPv6
+* Privacy concerns
+* It slows the internet connection
+* Not all of the websites support IPv6
+* Your ISP doesn’t support IPv6
 
 ---
 ## Footnotes

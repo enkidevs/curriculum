@@ -1,10 +1,8 @@
-# Avoid command injection
+---
 author: catalin
 
 levels:
-
   - advanced
-
   - medium
 
 type: normal
@@ -20,12 +18,13 @@ tags:
   - deep
   - obscura
 
-notes: I'm trying to make a Node workout based on security tips. This is one of them.
+notes: Im trying to make a Node workout based on security tips. This is one of them.
 
 links:
+  - '[blog.liftsecurity.io](https://blog.liftsecurity.io/2014/08/19/Avoid-Command-Injection-Node.js){website}'
 
-  - >-
-    [blog.liftsecurity.io](https://blog.liftsecurity.io/2014/08/19/Avoid-Command-Injection-Node.js){website}
+---
+# Avoid command injection
 
 ---
 ## Content
@@ -49,7 +48,7 @@ The simple way to avoid this threat is by using `child_process.execFile` or `chi
 
 Which method should be used in the following case to retrieve a list of files chosen by a user?
 
-```
+```javascript
 var path = "user input";
 child_process.???('ls', ['-l'
 , path], function (err, data) {
@@ -57,6 +56,7 @@ child_process.???('ls', ['-l'
 });
 ```
 
-* `execFile`
-* `exec`
-* `spawn`
+* execFile
+* exec
+* spawn
+

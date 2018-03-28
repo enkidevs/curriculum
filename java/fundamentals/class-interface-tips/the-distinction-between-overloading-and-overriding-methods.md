@@ -1,4 +1,4 @@
-# The distinction between overloading and overriding methods
+---
 author: adamMontgomerie
 
 levels:
@@ -21,13 +21,16 @@ tags:
 
   - overriding
 
+
 links:
 
-  - >-
-    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=119){website}
+  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=119){website}'
+  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=223){website}'
 
-  - >-
-    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=223){website}
+
+---
+
+# The distinction between overloading and overriding methods
 
 ---
 ## Content
@@ -65,9 +68,10 @@ What’s the name of the process where a method is redefined after being taken f
 
 ???
 
-*Overriding
-*Overloading
-*Inheriting
+
+* Overriding
+* Overloading
+* Inheriting
 
 ---
 ## Revision
@@ -78,7 +82,9 @@ void newField(String name);
 void newField(String name, String country);
 ```
 ???
-*Overloading
-*Overriding
-*Overcomplicating
-*Overwriting
+
+* Overloading
+* Overriding
+* Overcomplicating
+* Overwriting
+

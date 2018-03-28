@@ -1,4 +1,4 @@
-# Tips to get Angular 1.x code production ready
+---
 author: achatt89
 
 levels:
@@ -10,6 +10,9 @@ levels:
 type: normal
 
 category: best practice
+
+---
+# Tips to get Angular 1.x code production ready
 
 ---
 ## Content

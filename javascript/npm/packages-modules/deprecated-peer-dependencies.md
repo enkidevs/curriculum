@@ -1,4 +1,4 @@
-# Deprecated peer dependencies
+---
 author: mihaiberq
 
 levels:
@@ -25,6 +25,10 @@ tags:
 
 links:
   - '[Peer dependencies](https://nodejs.org/en/blog/npm/peer-dependencies/)'
+
+---
+
+# Deprecated peer dependencies
 
 ---
 ## Content
@@ -78,7 +82,7 @@ In which version of npm were *peerDependencies* available?
 ## Revision
 
 Add a peer dependency called `enki` to your package using npm3+:
-```
+```json
 {
   //props
   "???": {
@@ -86,8 +90,9 @@ Add a peer dependency called `enki` to your package using npm3+:
   }
 }
 ```
-* `peerDependencies`
-* `enki`
-* `dependencies`
-* `enki:peer`
-* `devDependencies`
+
+* peerDependencies
+* enki
+* dependencies
+* enki:peer
+* devDependencies

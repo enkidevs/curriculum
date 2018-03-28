@@ -1,4 +1,4 @@
-# Wrapping errors in Node.js using _node-verror_
+---
 author: rosielowther
 
 levels:
@@ -25,6 +25,11 @@ tags:
 links:
 
   - '[github.com](https://github.com/davepacheco/node-verror){website}'
+
+
+---
+
+# Wrapping errors in Node.js using _node-verror_
 
 ---
 ## Content
@@ -65,9 +70,10 @@ To see the whole message (as well as the class associated with each error) use `
 
 ??? is used to combine errors. ??? is used to wrap errors.
 
-* `VError`
-* `WError`
-* `Error`
+
+* VError
+* WError
+* Error
 
 ---
 ## Revision
@@ -76,7 +82,9 @@ What two classes does the `node-verror` provide?
 
 ???
 
-*`VError & WError`
-*`VError & Error`
-*`WError & Error`
-*`VError & WrapError`
+
+* VError & WError
+* VError & Error
+* WError & Error
+* VError & WrapError
+

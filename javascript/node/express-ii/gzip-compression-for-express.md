@@ -1,4 +1,4 @@
-# **GZIP** compression for **Express**
+---
 author: catalin
 
 levels:
@@ -11,7 +11,6 @@ type: normal
 
 category: must-know
 
-parent: easy-way-to-deliver-html-pages-with-express
 
 standards:
   js.express-server.4: 10
@@ -19,6 +18,12 @@ standards:
 links:
 
   - '[github.com](https://github.com/expressjs/compression){website}'
+
+parent: easy-way-to-deliver-html-pages-with-express
+
+---
+
+# **GZIP** compression for **Express**
 
 ---
 ## Content
@@ -48,8 +53,9 @@ Apply *gzip compression* for **Express 3.0**:
 ```javascript
 app.???(express.???());
 ```
-*`use`
-*`compress`
-*`require`
-*`var`
-*`apply`
+
+* use
+* compress
+* require
+* var
+* apply

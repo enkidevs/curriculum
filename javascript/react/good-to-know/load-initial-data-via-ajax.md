@@ -1,4 +1,4 @@
-# Load Initial Data via AJAX
+---
 author: tommarshall
 
 levels:
@@ -13,12 +13,16 @@ type: normal
 
 category: must-know
 
-parent: custom-proptype-s-to-be-required
 
 links:
 
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/tips/initial-ajax.html){website}
+  - '[facebook.github.io](https://facebook.github.io/react/tips/initial-ajax.html){website}'
+
+parent: custom-proptype-s-to-be-required
+
+---
+
+# Load Initial Data via AJAX
 
 ---
 ## Content
@@ -47,3 +51,4 @@ var loadData = React.createClass({
   }
 });
 ```
+

@@ -1,4 +1,4 @@
-# Make use of `netstat`
+---
 author: catalin
 
 levels:
@@ -18,6 +18,9 @@ links:
 
   - >-
     [www-01.ibm.com](https://www-01.ibm.com/support/knowledgecenter/ssw_aix_71/com.ibm.aix.performance/using_netstat.htm){website}
+
+---
+# Make use of `netstat`
 
 ---
 ## Content
@@ -60,18 +63,18 @@ How do you display **RAW** network statistics?
 $ ??? --raw ???
 ```
 
-* `netstat`
-* `--statistics`
-* `awk`
-* `grep`
-* `-stats`
-* `all`
+* netstat
+* --statistics
+* awk
+* grep
+* -stats
+* all
 
 ---
 ## Revision
 
 `netstat` is a ??? .
 
-*network statistics utility
-*terminal browser
-*way to connect to internet
+* network statistics utility
+* terminal browser
+* way to connect to internet

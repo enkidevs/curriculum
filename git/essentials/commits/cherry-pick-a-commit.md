@@ -1,4 +1,4 @@
-# Cherry-pick a commit
+---
 author: rosielowther
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [swsblog.stanford.edu](https://swsblog.stanford.edu/blog/cherry-picking-small-git-lesson){website}
+  - '[swsblog.stanford.edu](https://swsblog.stanford.edu/blog/cherry-picking-small-git-lesson){website}'
+
+
+---
+
+# Cherry-pick a commit
 
 ---
 ## Content
@@ -36,8 +41,9 @@ This is most useful when you are unable to merge the two branches. For example, 
 ## Practice
 
 The commit cherry-picked in the example was applied on ???.
-*master
-*other branch
+
+* master
+* other branch
 
 ---
 ## Revision
@@ -46,6 +52,8 @@ To apply a *single* commit (from another branch) on the current branch, you use
 ```
 $ git ??? a456bd7
 ```
-*`cherry-pick`
-*`pick`
-*`merge`
+
+* `cherry-pick`
+* `pick`
+* `merge`
+

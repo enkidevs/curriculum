@@ -1,4 +1,4 @@
-# Immutability
+---
 author: mihaiberq
 
 levels:
@@ -8,6 +8,9 @@ levels:
 type: normal
 
 category: must-know
+
+---
+# Immutability
 
 ---
 ## Content

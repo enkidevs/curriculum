@@ -1,4 +1,4 @@
-# Mocha Describe and Expectations
+---
 author: tommarshall
 
 levels:
@@ -18,6 +18,9 @@ tags:
 links:
 
   - '[chaijs.com](http://chaijs.com/api/bdd/){website}'
+
+---
+# Mocha Describe and Expectations
 
 ---
 ## Content

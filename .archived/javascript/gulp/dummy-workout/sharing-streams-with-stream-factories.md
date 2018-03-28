@@ -1,4 +1,4 @@
-# Sharing Streams with Stream Factories
+---
 author: tommarshall
 
 levels:
@@ -17,6 +17,9 @@ links:
 
   - >-
     [github.com](https://github.com/gulpjs/gulp/blob/master/docs/recipes/sharing-streams-with-stream-factories.md){website}
+
+---
+# Sharing Streams with Stream Factories
 
 ---
 ## Content
@@ -68,14 +71,14 @@ var factory = ???
    ???(gulp-concat-css)
    ???;
 ```
-* `lazypipe()`
-* `.pipe`
-* `.pipe(gulp-clean-css)`
-* `.stream`
-* `factory()`
-* `create()`
-* `.create`
-* `.create(gulp-clean-css)`
+* lazypipe()
+* .pipe
+* .pipe(gulp-clean-css)
+* .stream
+* factory()
+* create()
+* .create
+* .create(gulp-clean-css)
 
 ---
 ## Revision

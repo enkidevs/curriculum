@@ -1,4 +1,4 @@
-# Method chaining
+---
 author: dean
 
 levels:
@@ -13,23 +13,35 @@ type: normal
 
 category: pattern
 
-
 standards:
+
   js.functions.1: 10
+
   js.functions.6: 10
+
   js.execution-context.2: 10
 
 tags:
+
   - introduction
+
   - workout
+
   - method
+
   - function
+
   - chaining
+
 
 links:
 
-  - >-
-    [schier.co](http://schier.co/blog/2013/11/14/method-chaining-in-javascript.html){website}
+  - '[schier.co](http://schier.co/blog/2013/11/14/method-chaining-in-javascript.html){website}'
+
+
+---
+
+# Method chaining
 
 ---
 ## Content
@@ -71,6 +83,8 @@ How is method chaining typically enabled?
 
 ???
 
-*Implementing methods that return `this`
-*No need for implementation
-*Updating the object to allow this
+
+* Implementing methods that return `this`
+* No need for implementation
+* Updating the object to allow this
+

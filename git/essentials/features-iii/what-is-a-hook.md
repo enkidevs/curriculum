@@ -1,4 +1,4 @@
-# What is a hook?
+---
 author: rosielowther
 
 levels:
@@ -9,10 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks){website}'
+
+
+---
+
+# What is a hook?
 
 ---
 ## Content
@@ -31,6 +36,8 @@ For example, the hook called `post-commit` is useful for sending an email notifi
 ## Revision
 
 A hook is a custom ??? that fires when a certain ??? occurs.
+
 * script
 * action
 * error
+

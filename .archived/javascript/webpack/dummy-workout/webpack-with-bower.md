@@ -1,4 +1,4 @@
-# Webpack with Bower
+---
 author: tommarshall
 
 levels:
@@ -12,6 +12,9 @@ levels:
 type: normal
 
 category: tip
+
+---
+# Webpack with Bower
 
 ---
 ## Content

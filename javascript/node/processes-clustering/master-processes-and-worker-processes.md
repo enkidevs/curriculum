@@ -1,4 +1,4 @@
-# Master Processes and Worker Processes
+---
 author: tommarshall
 
 levels:
@@ -22,6 +22,13 @@ tags:
   - deep
 
 category: tip
+
+
+
+
+---
+
+# Master Processes and Worker Processes
 
 ---
 ## Content
@@ -49,6 +56,7 @@ What does the following line of code do? ???
 if (cluster.isMaster) { ... }
 ```
 
+
 * Identifies the master process.
 * Sets the master process.
 * Sets the master process to null.
@@ -58,9 +66,11 @@ if (cluster.isMaster) { ... }
 
 Which method is used by the master process to initiate new worker processes? ???
 
+
 * `cluster.fork();`
 * `master.fork();`
 * `cluster.new();`
 * `master.new();`
 * `cluster.process();`
 * `master.process();`
+

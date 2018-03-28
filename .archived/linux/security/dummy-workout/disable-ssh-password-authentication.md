@@ -1,4 +1,4 @@
-# Disable SSH password authentication 
+---
 author: tuwi.dc
 
 levels:
@@ -32,6 +32,9 @@ tags:
   - private
 
   - key
+
+---
+# Disable SSH password authentication 
 
 ---
 ## Content
@@ -77,6 +80,6 @@ Brute force attacks are no longer effective because even a correct password gues
 A reason *not* to disable SSH password authentication is 
 
 ???. 
-*to ease logging in from multiple machines
-*to combat brute force attacks
-*to ensure you are the only one who can log
+* to ease logging in from multiple machines
+* to combat brute force attacks
+* to ensure you are the only one who can log

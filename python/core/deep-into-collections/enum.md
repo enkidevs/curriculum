@@ -1,4 +1,4 @@
-# The `enum` collection
+---
 author: SebaRaba
 
 levels:
@@ -9,9 +9,18 @@ type: normal
 
 category: must-know
 
+standards:
+  py.native-types-operations.9: 10
+
+
 links:
 
-  - '[More on Enum](https://docs.python.org/3/library/enum.html)'
+  - '[More on Enum](https://docs.python.org/3/library/enum.html){website}'
+
+
+---
+
+# The `enum` collection
 
 ---
 ## Content
@@ -95,12 +104,12 @@ print(Shade.blue is Shade.green)
 ???
 ```
 
+
 * <enum 'Shade'>
 * False
 * <class 'Shade'>
 * True
 * <enum 'Shade.blue'>
-
 
 ---
 ## Revision
@@ -114,6 +123,7 @@ class Car(Enum):
 print(Car['bmw'])
 ???
 ```
+
 * Car.bmw
 * An error, it should be `Car('bmw')`
 * An error, strings and ints cannot be mixed

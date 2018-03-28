@@ -1,4 +1,4 @@
-# Partial Matching using `jasmine.objectContaining`
+---
 author: tommarshall
 
 levels:
@@ -23,6 +23,9 @@ links:
 
   - >-
     [randycoulman.com](http://randycoulman.com/blog/2015/02/10/more-jasmine-matchers/){website}
+
+---
+# Partial Matching using `jasmine.objectContaining`
 
 ---
 ## Content

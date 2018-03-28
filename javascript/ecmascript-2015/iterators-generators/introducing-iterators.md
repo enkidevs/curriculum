@@ -1,4 +1,4 @@
-# Introducing Iterators
+---
 author: alexjmackey
 
 levels:
@@ -9,15 +9,20 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
+
 links:
-  
+
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols){website}'
-  
-  - '[ponyfoo.com](https://ponyfoo.com/articles/es6-iterators-in-depth)'
+  - '[ponyfoo.com](https://ponyfoo.com/articles/es6-iterators-in-depth){website}'
+
+
+---
+
+# Introducing Iterators
 
 ---
 ## Content
@@ -64,3 +69,4 @@ it.next(); //Object {value: 3}
 it.next(); //Object {value: 4}
 it.next(); //Object {value: 5}
 ```
+

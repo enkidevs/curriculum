@@ -1,21 +1,15 @@
-# The `http` module for servers
+---
 author: tommarshall
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
   - advanced
 
 type: normal
 
 category: must-know
-
-parent: requiring-and-exporting
 
 standards:
   js.use-modules: 20
@@ -25,7 +19,12 @@ tags:
   - workout
 
 links:
-- '[The HTTP Module](https://davidwalsh.name/nodejs-http-request)'
+  - '[The HTTP Module](https://davidwalsh.name/nodejs-http-request){website}'
+
+parent: requiring-and-exporting
+
+---
+# The `http` module for servers
 
 ---
 ## Content
@@ -78,11 +77,11 @@ server.???(???, function() {
 
 ```
 
-* `listen`
-* `2242`
-* `'listener'`
-* `on`
-* `createServer`
+* listen
+* 2242
+* 'listener'
+* on
+* createServer
 
 ---
 ## Revision
@@ -93,6 +92,6 @@ Complete the code snippet to create a new HTTP server object:
 var server = http.???(requestHandler);
 ```
 
-* `createServer`
-* `httpServer`
-* `createHTTP`
+* createServer
+* httpServer
+* createHTTP

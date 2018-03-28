@@ -1,23 +1,30 @@
-# Approximation methods
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
 links:
 
-    - >-
-      [Big O vs Big Theta](http://stackoverflow.com/questions/471199/what-is-the-difference-between-%CE%98n-and-on){website}
+  - '[Big O vs Big Theta](http://stackoverflow.com/questions/471199/what-is-the-difference-between-%CE%98n-and-on){website}'
 
 parent: approximating-memory-and-time-required-by-data-types
+
+---
+
+# Approximation methods
 
 ---
 ## Content
@@ -42,7 +49,6 @@ It is easy to find a function which *grows much faster* than another, but that i
 
 The last function, `little-o`, satisfies `f(n)<c⋅g(n)`, for every `n>=n'`. In other words, `g(n) is o(f(n))` if `g(n) is O(f(n))` **and not** `Θ(f(n))`. We could say that *Big-O* is to *little-o* what **<=** is to **<**.
 
-
 ---
 ## Practice
 
@@ -53,6 +59,7 @@ and
 F(n) is not Θ(f(n))
 ```
 ???
+
 * Little-o
 * Big-O
 * Big-Theta
@@ -64,6 +71,7 @@ F(n) is not Θ(f(n))
 If a function is both Big-O and Big-Omega, it is called
 
 ???
+
 * Big-Theta
 * Little-O
 * Middle bound
@@ -71,7 +79,6 @@ If a function is both Big-O and Big-Omega, it is called
 
 ---
 ## Footnotes
-
 [1:Big O]
 Consider this equation:
 ```text

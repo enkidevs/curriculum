@@ -1,4 +1,4 @@
-# Installing Node.js
+---
 author: tommarshall
 
 levels:
@@ -7,9 +7,13 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+links:
+
+  - '[nodejs.org](https://nodejs.org/en/){website}'
 
 parent: what-is-nodejs
 
@@ -20,7 +24,10 @@ standards:
   js.node-developer-environment.0: 10
 
 links:
-- '[nodejs.org](https://nodejs.org/en/)'
+  - '[nodejs.org](https://nodejs.org/en/)'
+
+---
+# Installing Node.js
 
 ---
 ## Content
@@ -36,12 +43,13 @@ You should see a `>` appearing under the `node` command. This means your install
 
 ---
 ## Practice
+
 What file extension does `node` use?
 ???
 
-* `.js`
-* `.javascript`
-* `.jscript`
+* .js
+* .javascript
+* .jscript
 
 ---
 ## Revision
@@ -49,6 +57,7 @@ What file extension does `node` use?
 What command is required to start Node?
 ???
 
-* `node`
-* `run`
-* `start`
+* node
+* run
+* start
+

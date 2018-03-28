@@ -1,14 +1,21 @@
-# Semantic versioning
+---
 author: mihaiberq
 
 levels:
+
   - beginner
 
 type: normal
 
+category: must-know
+
+
+
 parent: package-json
 
-category: must-know
+---
+
+# Semantic versioning
 
 standards:
   js.npm-tasks-and-modules-manager: 10
@@ -40,6 +47,7 @@ What is a valid syntax for specifying the latest minor release starting off *3.0
 
 ???
 
+
 * ^3.0.3
 * ~3.0.3
 * 3.0.x
@@ -52,12 +60,12 @@ From the perspective of a package maintainer, incrementing the rightmost number 
 
 ???
 
+
 * bug fixes
 * new stable feature
 * new experimental feature
 
 ---
 ## Footnotes
-
 [1: Breaking change]
 The term "breaking change" is usually used to indicate a change to a function or to code that will be incompatible with older code.

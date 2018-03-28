@@ -1,4 +1,4 @@
-# Get hardware stack details with `lspci`
+---
 author: tuwi.dc
 
 levels:
@@ -27,11 +27,16 @@ tags:
 
   - lshw
 
+
 links:
 
   - '[lspci](http://linux.die.net/man/8/lspci){website}'
-
   - '[lshw](http://linux.die.net/man/1/lshw){website}'
+
+
+---
+
+# Get hardware stack details with `lspci`
 
 ---
 ## Content
@@ -65,12 +70,13 @@ How would you retrieve information on audio hardware?
 $ ??? ??? | ??? 
       -A7 -i "audio"
 ```
-*`lspci`
-*`-v`
-*`grep`
-*`-o`
-*`sudo`
-*`regx`
+
+* `lspci`
+* `-v`
+* `grep`
+* `-o`
+* `sudo`
+* `regx`
 
 ---
 ## Revision
@@ -79,13 +85,13 @@ $ ??? ??? | ???
 
 ??? .
 
-*system’s hardware
-*system’s software
-*connected USB devices
-*settings
+
+* system’s hardware
+* system’s software
+* connected USB devices
+* settings
 
 ---
 ## Footnotes
-
 [1:OS specific]
 Some of the Linux distributions might not have `lspci` installed by default. If that is the case, you have to install `pciutils` package.

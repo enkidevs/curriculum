@@ -1,14 +1,10 @@
-# Writable Streams
+---
 author: tommarshall
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
   - advanced
 
 type: normal
@@ -25,10 +21,13 @@ tags:
 
 category: must-know
 
+links:
+  - '[Writable Streams](https://gist.github.com/joyrexus/10026630){website}'
+
 parent: chaining-readable-streams
 
-links:
-- '[Writable Streams](https://gist.github.com/joyrexus/10026630)'
+---
+# Writable Streams
 
 ---
 ## Content
@@ -56,28 +55,28 @@ The `write()` method returns a boolean value acting as an indicator to whether t
 
 Complete the code snippet to write data to the writable stream:
 
-```
+```javascript
 rstream.on('???', function(data) {
   wstream.???(data);
 });
 ```
 
-* `data`
-* `write`
-* `input`
-* `event`
-* `callback`
-* `print`
+* data
+* write
+* input
+* event
+* callback
+* print
 
 ---
 ## Revision
 
 Which method is used when writing data to a writable stream?
 
-```
+```javascript
 stream.???(data);
 ```
 
-* `write`
-* `input`
-* `print`
+* write
+* input
+* print

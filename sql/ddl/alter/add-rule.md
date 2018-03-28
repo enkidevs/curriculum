@@ -1,4 +1,4 @@
-# Add Rule
+---
 author: SebaRaba
 
 levels:
@@ -20,13 +20,21 @@ inAlgoPool: false
 standards:
   sql.define-tables.3: 10
 
+tags:
+
+  - workout
+
+  - deep
+
+
 links:
 
-  - '[More on CREATE RULE](https://www.postgresql.org/docs/9.3/static/sql-createrule.html)'
+  - '[More on CREATE RULE](https://www.postgresql.org/docs/9.3/static/sql-createrule.html){website}'
 
-tags:
-  - workout
-  - deep
+
+---
+
+# Add Rule
 
 ---
 ## Content
@@ -62,6 +70,7 @@ DO ALSO
   SELECT ??? FROM region;
 
 ````
+
 
 * CREATE RULE
 * SELECT TO

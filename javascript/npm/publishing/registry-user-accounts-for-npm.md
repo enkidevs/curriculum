@@ -1,22 +1,14 @@
-# Registry user accounts for npm
+---
 author: catalin
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
 
 category: how to
-
-links:
-
-  - '[docs.npmjs.com](https://docs.npmjs.com/cli/adduser){website}'
-
 
 parent: check-data-about-a-package
 
@@ -27,6 +19,12 @@ standards:
 tags:
   - workout
   - deep
+
+links:
+  - '[docs.npmjs.com](https://docs.npmjs.com/cli/adduser){website}'
+
+---
+# Registry user accounts for npm
 
 ---
 ## Content
@@ -62,10 +60,10 @@ For what command is `npm login` an alias?
 
 ???
 
-* `npm adduser`
-* `npm signup`
-* `npm signin`
-* `npm add`
+* npm adduser
+* npm signup
+* npm signin
+* npm add
 
 ---
 ## Revision
@@ -74,7 +72,7 @@ For what command is `npm login` an alias?
 
 ???
 
-* `npm adduser`
-* `npm signup`
-* `npm signin`
-* `npm add`
+* npm adduser
+* npm signup
+* npm signin
+* npm add

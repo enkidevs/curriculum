@@ -1,4 +1,4 @@
-# Variables and Types
+---
 author: tommarshall
 
 levels:
@@ -7,9 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+standards:
+  py.native-types-operations.2: 10
+
+---
+
+# Variables and Types
 
 ---
 ## Content
@@ -62,6 +69,7 @@ print(type(int_2))
 print(type(complex))
 # <type 'complex'>
 ```
+
 ---
 ## Practice
 
@@ -83,6 +91,7 @@ d = 124124141L
 print(type(d))
 # <type '???'>
 ```
+
 
 * `float`
 * `complex`
@@ -110,6 +119,7 @@ c = '100'
 print(type(c))
 # <type '???'>
 ```
+
 
 * `complex`
 * `long

@@ -1,4 +1,4 @@
-# Incremental Rebuilding
+---
 author: tommarshall
 
 levels:
@@ -17,6 +17,9 @@ links:
 
   - >-
     [github.com](https://github.com/gulpjs/gulp/blob/master/docs/recipes/incremental-builds-with-concatenate.md){website}
+
+---
+# Incremental Rebuilding
 
 ---
 ## Content

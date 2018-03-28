@@ -1,4 +1,4 @@
-# Throwing chained `exceptions`
+---
 author: adamMontgomerie
 
 levels:
@@ -19,10 +19,15 @@ tags:
 
   - chained-exceptions
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/exceptions/chained.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/exceptions/chained.html){website}'
+
+
+---
+
+# Throwing chained `exceptions`
 
 ---
 ## Content
@@ -42,3 +47,4 @@ catch(Exception e) {
 }
 ```
 The new `Exception` object takes two parameters; the first is a message to be displayed, and the second is the `Throwable` object which caused the exception.
+

@@ -1,4 +1,4 @@
-# EcmaScript 6
+---
 author: alexjmackey
 
 levels:
@@ -7,15 +7,20 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[EcmaScript 6 Features](https://github.com/lukehoban/es6features){website}'
-
   - '[Babel](https://babeljs.io/){website}'
+
+
+---
+
+# EcmaScript 6
 
 ---
 ## Content
@@ -29,3 +34,4 @@ We’ll be looking at features such as constants, arrow functions, spread/rest o
 It is important to note that if you intend to use some of the features that we will discuss that support varies widely across browsers and is changing all the time.
 
 If you want to make use of these new features (and you should!) but also want to ensure that your code will run for a wide audience you will probably want to make use of a processor/compiler such as *Babel* that will transform the newer code into code understood by older platforms.
+

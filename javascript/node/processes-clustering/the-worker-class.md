@@ -1,4 +1,4 @@
-# The Worker Class
+---
 author: tommarshall
 
 levels:
@@ -20,6 +20,13 @@ tags:
   - deep
   
 category: tip
+
+
+
+
+---
+
+# The Worker Class
 
 ---
 ## Content
@@ -55,9 +62,11 @@ if (worker.???()) {
 }
 ```
 
+
 * `isConnected`
 * `process`
 * `connected`
 * `worker`
 * `isIPC`
 * `send`
+

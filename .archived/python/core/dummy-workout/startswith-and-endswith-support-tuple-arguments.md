@@ -1,4 +1,4 @@
-# `startswith` and `endswith` support tuple arguments
+---
 author: Aaron7Sun
 
 levels:
@@ -16,6 +16,9 @@ category: tip
 links:
 
   - '[docs.python.org](https://docs.python.org/2/library/stdtypes.html){website}'
+
+---
+# `startswith` and `endswith` support tuple arguments
 
 ---
 ## Content

@@ -1,4 +1,4 @@
-# Oh, that was the answer!
+---
 author: mihaiberq
 
 levels:
@@ -12,7 +12,13 @@ type: tetris
 category: must-know
 
 parent: primality-test
+
 ---
+
+# Big-Oh, that was the answer!
+
+---
+
 ## Content
 
 Are the following functions' upper bound (Big-Oh) true?

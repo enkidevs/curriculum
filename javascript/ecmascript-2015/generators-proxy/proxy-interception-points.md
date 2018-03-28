@@ -1,4 +1,4 @@
-# Using Proxies
+---
 author: alexjmackey
 
 levels:
@@ -9,13 +9,19 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
+
 links:
-  
+
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy){website}'
+
+
+---
+
+# Using Proxies
 
 ---
 ## Content
@@ -93,3 +99,4 @@ Some potential usages:
 * Validation & logging
 * Extending constructors
 * As a shim/fallback for older browsers in the future
+

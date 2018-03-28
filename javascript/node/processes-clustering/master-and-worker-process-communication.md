@@ -1,12 +1,9 @@
-# Master and Worker Process Communication
+---
 author: tommarshall
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
@@ -66,14 +63,14 @@ Complete the following snippet to listen for messages in the *master* from a *wo
 });
 ```
 
-* `worker`
-* `message`
-* `call`
-* `master`
-* `child`
-* `action`
-* `change`
-* `running`
+* worker
+* message
+* call
+* master
+* child
+* action
+* change
+* running
 
 ---
 ## Revision
@@ -83,8 +80,9 @@ The following code snippet should send a string message from the **master** proc
 ???.???('From master to worker..');
 ```
 
-*`worker`
-*`send`
-*`on`
-*`master`
-*`process`
+* worker
+* send
+* on
+* master
+* process
+

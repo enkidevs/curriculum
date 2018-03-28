@@ -1,12 +1,9 @@
-# Custom Node REPL Server
+---
 author: catalin
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
@@ -22,8 +19,11 @@ tags:
   - workout
 
 links:
-
   - '[nodejs.org](https://nodejs.org/api/repl.html){website}'
+
+---
+
+# Custom Node REPL Server
 
 ---
 ## Content
@@ -71,10 +71,11 @@ replServer.???(???, function() {
 });
 
 ```
-* `on`
-* `'exit'`
-* `'close'`
-* `'end'`
+
+* on
+* 'exit'
+* 'close'
+* 'end'
 
 ---
 ## Revision
@@ -86,7 +87,8 @@ replServer.???(???, function() {
 });
 
 ```
-* `on`
-* `'exit'`
-* `'close'`
-* `'end'`
+
+* on
+* 'exit'
+* 'close'
+* 'end'

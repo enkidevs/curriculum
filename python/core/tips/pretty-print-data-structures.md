@@ -1,4 +1,4 @@
-# Pretty print data structures
+---
 author: catalin
 
 levels:
@@ -13,11 +13,16 @@ type: normal
 
 category: feature
 
-notes: ''
 
 links:
 
   - '[pymotw.com](https://pymotw.com/2/pprint/){website}'
+
+notes: ''
+
+---
+
+# Pretty print data structures
 
 ---
 ## Content
@@ -65,6 +70,8 @@ In addition, a `PrettyPrinter` object can be created.
 
 What library provides pretty printing of data structures in *Python*? ???
 
+
 * `pprint`
 * `draw`
 * `superdraw`
+

@@ -1,4 +1,4 @@
-# Intro to `HPROF` 
+---
 author: catalin
 
 levels:
@@ -13,12 +13,16 @@ type: normal
 
 category: feature
 
-notes: 'https://insights.enki.com/#/contrib/others/55f41eef742fb322000e0d7b?search=kha'
 
 links:
 
-  - >-
-    [www.oracle.com](http://www.oracle.com/technetwork/java/javase/tooldescr-136044.html#gblvj){website}
+  - '[www.oracle.com](http://www.oracle.com/technetwork/java/javase/tooldescr-136044.html#gblvj){website}'
+
+notes: 'https://insights.enki.com/#/contrib/others/55f41eef742fb322000e0d7b?search=kha'
+
+---
+
+# Intro to `HPROF` 
 
 ---
 ## Content
@@ -54,13 +58,14 @@ Collect CPU usage information from the compiler using HPROF:
 $ java -agentlib:???
     =cpu=??? example.java
 ```
-*`hprof` 
-*`samples` 
-*`agent` 
-*`alloc` 
-*`heap` 
-*`compiler` 
-*`source`
+
+* `hprof` 
+* `samples` 
+* `agent` 
+* `alloc` 
+* `heap` 
+* `compiler` 
+* `source`
 
 ---
 ## Revision
@@ -70,9 +75,11 @@ Using HPROF, obtain the heap allocation profile:
 $ java ???:hprof=???
          =sites example
 ```
-*`-agentlib` 
-*`heap` 
-*`alloc` 
-*`allocation` 
-*`-a-l` 
-*`-hprof`
+
+* `-agentlib` 
+* `heap` 
+* `alloc` 
+* `allocation` 
+* `-a-l` 
+* `-hprof`
+

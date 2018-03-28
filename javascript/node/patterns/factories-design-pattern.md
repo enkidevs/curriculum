@@ -1,4 +1,4 @@
-# Factories design pattern
+---
 author: catalin
 
 levels:
@@ -21,10 +21,11 @@ tags:
 
 links:
 
-  - >-
-    [blog.risingstack.com](https://blog.risingstack.com/fundamental-node-js-design-patterns/){website}
-
+  - '[blog.risingstack.com](https://blog.risingstack.com/fundamental-node-js-design-patterns/){website}'
   - '[thenodeway.io](http://thenodeway.io/posts/designing-factories/){website}'
+
+---
+# Factories design pattern
 
 ---
 ## Content
@@ -58,12 +59,12 @@ let enki = ???(???)???
 
 ```
 
-* `require`
-* `'./enki.js'`
-* `(args)`
-* `new Enki`
-* `args`
-* `;`
+* require
+* './enki.js'
+* (args)
+* new Enki
+* args
+* ;
 
 
 ---

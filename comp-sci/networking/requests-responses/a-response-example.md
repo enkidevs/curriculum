@@ -1,4 +1,4 @@
-# A response example
+---
 author: SebaRaba
 
 levels:
@@ -15,11 +15,16 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - 'https://www.tutorialspoint.com/http/http_responses.htm'
+  - '[www.tutorialspoint.com](https://www.tutorialspoint.com/http/http_responses.htm){website}'
 
 parent: http-response
+
+---
+
+# A response example
 
 ---
 ## Content
@@ -60,6 +65,7 @@ Which of the following **HTTP response** header fields contains a identifier use
 
 ???
 
+
 * `ETag`
 * `Content-Encoding`
 * `Tag`
@@ -74,7 +80,9 @@ Which of the following **HTTP response** header fields specifies the format of t
 
 ???
 
+
 * Content-Type
 * Content-Encoding
 * Content-Length
 * Content-Format
+

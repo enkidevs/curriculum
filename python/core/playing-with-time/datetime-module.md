@@ -1,4 +1,4 @@
-# `datetime` module
+---
 author: catalin
 
 levels:
@@ -9,14 +9,22 @@ levels:
 
 type: normal
 
+category: feature
+
 inAlgoPool: false
 
-category: feature
+
+standards:
+  py.native-types-operations.8: 10
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/datetime.html){website}
+  - '[docs.python.org](https://docs.python.org/3.5/library/datetime.html){website}'
+
+
+---
+
+# `datetime` module
 
 ---
 ## Content
@@ -53,6 +61,7 @@ Is `datetime` a module or a class?
 
 ???
 
+
 * `both`
 * `a module`
 * `a class`
@@ -67,6 +76,7 @@ import datetime
 print(???.???)
 # 9999
 ```
+
 
 * `datetime`
 * `MAXYEAR`

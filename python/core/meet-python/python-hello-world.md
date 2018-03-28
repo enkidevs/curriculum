@@ -1,4 +1,4 @@
-# Hello World!
+---
 author: tommarshall
 
 levels:
@@ -7,9 +7,18 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+standards:
+  py.identify-python-syntax.1: 10
+
+
+---
+
+# Hello World!
 
 ---
 ## Content
@@ -36,7 +45,8 @@ Complete the code snippet:
 ```
 ???('Python with Enki!')
 ```
-*`print`
-*`write`
-*`sys.out`
-*`writeln`
+
+* `print`
+* `write`
+* `sys.out`
+* `writeln`

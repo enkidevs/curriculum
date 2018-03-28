@@ -1,4 +1,4 @@
-# Prioritize your `queue`
+---
 author: catalin
 
 levels:
@@ -9,11 +9,19 @@ type: normal
 
 category: how to
 
-parent: a-thread-safe-queue
+
+standards:
+  cs.identify-linear-collection-data-structures-usage.2: 10
 
 links:
 
   - '[docs.python.org](https://docs.python.org/2/library/queue.htmt){website}'
+
+parent: a-thread-safe-queue
+
+---
+
+# Prioritize your `queue`
 
 ---
 ## Content
@@ -44,6 +52,9 @@ Having defined the `__lt__` method[1], our `PriorityQueue` knows now how to sort
 If we want to reverse the sorting order (greatest priority first), we would have to replace the `<` operator inside the `__lt__` function:
 ```python
 class Enki(object):
+    def __init__(self, priority):
+       self.priority = priority
+       return
     def __lt__(self, other):
        return self.priority > other.priority
 
@@ -55,14 +66,6 @@ class Enki(object):
      print(q.get().priority)
  # output is 100 / 55 / 3
 ```
-
-
----
-## Footnotes
-
-[1: Less than]
-The `__lt__` (less than) method is used to override the functionality of the `<` (less than) operator when comparing `Enki` objects. As it is the case in most languages, `a < b` is the shorthand notation of calling `a.__lt__(b)`.
-
 
 ---
 ## Revision
@@ -82,6 +85,12 @@ q = queue.PriorityQueue()
 
 ???
 
-*Queue 3
-*Queue 2
-*Queue 1
+
+* Queue 3
+* Queue 2
+* Queue 1
+
+---
+## Footnotes
+[1: Less than]
+The `__lt__` (less than) method is used to override the functionality of the `<` (less than) operator when comparing `Enki` objects. As it is the case in most languages, `a < b` is the shorthand notation of calling `a.__lt__(b)`.

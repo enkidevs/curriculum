@@ -1,4 +1,4 @@
-# Add Trigger
+---
 author: SebaRaba
 
 levels:
@@ -16,13 +16,21 @@ inAlgoPool: false
 standards:
   sql.define-tables.2: 10
 
+tags:
+
+  - workout
+
+  - deep
+
+
 links:
 
-  - '[More on CREATE TRIGGER](https://www.codeproject.com/Articles/25600/Triggers-SQL-Server)'
+  - '[More on CREATE TRIGGER](https://www.codeproject.com/Articles/25600/Triggers-SQL-Server){website}'
 
-tags:
-  - workout
-  - deep
+
+---
+
+# Add Trigger
 
 ---
 ## Content
@@ -61,7 +69,6 @@ GO;
 
 This time we say: If we update table "db_name.table_name", then update "another_table" instead.
 
-
 ---
 ## Revision
 
@@ -77,6 +84,7 @@ AS BEGIN
 ???
 GO;
 ```
+
 
 * CREATE TRIGGER
 * UPDATE

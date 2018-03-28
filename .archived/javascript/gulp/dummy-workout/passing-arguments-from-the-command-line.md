@@ -1,4 +1,4 @@
-# Passing arguments from the command line
+---
 author: tommarshall
 
 levels:
@@ -17,6 +17,9 @@ links:
     [github.com](https://github.com/gulpjs/gulp/blob/master/docs/recipes/pass-arguments-from-cli.md){website}
 
   - '[npmjs.com](https://www.npmjs.com/package/yargs){website}'
+
+---
+# Passing arguments from the command line
 
 ---
 ## Content
@@ -51,9 +54,9 @@ Require in the `yargs` package to make easy use of command line arguments:
 var args = require('???').???;
 ```
 
-*`yargs` 
-*`argv` 
-*`args` 
-*`argc` 
-*`mod-yargs` 
-*`package-yargs`
+* yargs 
+* argv
+* args
+* argc
+* mod-yargs
+* package-yargs

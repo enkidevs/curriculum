@@ -1,4 +1,4 @@
-# Clone Elements in **React**
+---
 author: catalin
 
 levels:
@@ -13,15 +13,17 @@ type: normal
 
 category: how to
 
-parent: custom-proptype-s-to-be-required
 
 links:
 
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/docs/top-level-api.html#react.cloneelement){website}
+  - '[facebook.github.io](https://facebook.github.io/react/docs/top-level-api.html#react.cloneelement){website}'
+  - '[facebook.github.io](https://facebook.github.io/react/blog/2015/03/03/react-v0.13-rc2.html){website}'
 
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/blog/2015/03/03/react-v0.13-rc2.html){website}
+parent: custom-proptype-s-to-be-required
+
+---
+
+# Clone Elements in **React**
 
 ---
 ## Content
@@ -56,6 +58,7 @@ Complete the code snippet below to clone an element and override the ref:
 React.???(child, { ???: 'newRef' })
 ```
 
+
 * `cloneElement`
 * `ref`
 * `newElement`
@@ -69,7 +72,9 @@ React.???(child, { ???: 'newRef' })
 
 Using the `React.cloneElement` method what props will be preserved unlike with the  `cloneWithProps` method. ???
 
+
 * `key` and `ref`
 * `key` and `props`
 * `child` and `ref`
 * `child` and `props`
+

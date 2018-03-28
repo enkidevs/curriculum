@@ -1,4 +1,4 @@
-# Live-Reloading with CSS Injection
+---
 author: tommarshall
 
 levels:
@@ -17,6 +17,9 @@ links:
 
   - >-
     [github.com](https://github.com/gulpjs/gulp/blob/master/docs/recipes/server-with-livereload-and-css-injection.md){website}
+
+---
+# Live-Reloading with CSS Injection
 
 ---
 ## Content
@@ -62,14 +65,14 @@ gulp.watch("enki/src/*.js").???('???',
              browserSync.???);
 ```
 
-* `on`
-* `change`
-* `reload`
-* `detect`
-* `when`
-* `modify`
-* `refresh`
-* `auto-reload`
+* on
+* change
+* reload
+* detect
+* when
+* modify
+* refresh
+* auto-reload
 
 ---
 ## Revision

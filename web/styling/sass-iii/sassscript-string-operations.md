@@ -1,4 +1,4 @@
-# SassScript String Operations
+---
 author: tommarshall
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [sass-lang.com](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#string_operations){website}
+  - '[sass-lang.com](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#string_operations){website}'
+
+
+---
+
+# SassScript String Operations
 
 ---
 ## Content
@@ -64,10 +69,11 @@ p:before {
 } 
 ```
 
-*`#` 
-*`=` 
-*`~` 
-*`[]`
+
+* `#` 
+* `=` 
+* `~` 
+* `[]`
 
 ---
 ## Revision
@@ -80,9 +86,11 @@ h1 {
 }
 ```
 ??? ???
+
 * `string: Hey everyone!;`
 * `content: "From Enki!";`
 * `string: "Hey everyone!";`
 * `content: From Enki!;`
 * `string: Hey "everyone!";`
 * `content: "From "Enki!;`
+

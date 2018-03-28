@@ -1,4 +1,4 @@
-# Flow control using _co_
+---
 author: rosielowther
 
 levels:
@@ -10,22 +10,38 @@ type: normal
 category: feature
 
 standards:
+
   js.async.3: 10
+
   js.async.2: 10
+
   js.use-modules.2: 10
+
   js.es6-functions.1: 10
 
 tags:
+
   - workout
+
   - deep
+
   - async
+
   - promises
+
   - npm
+
   - yield
+
 
 links:
 
   - '[github.com](https://github.com/tj/co){website}'
+
+
+---
+
+# Flow control using _co_
 
 ---
 ## Content
@@ -66,6 +82,7 @@ Complete the following JS code snippet where co is used to yield a promise:
 }).catch(onerror);
 ```
 
+
 * `co`
 * `yield`
 * `run`
@@ -81,5 +98,7 @@ Can **generator function** be `yield`ed by `co()`?
 
 ???
 
-*`yes`
-*`no`
+
+* `yes`
+* `no`
+

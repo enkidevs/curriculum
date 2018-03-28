@@ -1,4 +1,4 @@
-# Storing JSON in MySQL
+---
 author: mihaiberq
 
 levels:
@@ -15,9 +15,19 @@ standards:
   sql.choose-sql-datatype.2: 10
 
 tags:
+
   - introduction
+
   - workout
+
   - deep
+
+
+
+
+---
+
+# Storing JSON in MySQL
 
 ---
 ## Content
@@ -70,6 +80,7 @@ Querying the JSON `pokemon` field in a MySQL database, select all Pokémon which
 ??? poke_json ???
 pokemon ??? ??? = ???;
 ```
+
 * `SELECT`
 * `FROM`
 * `WHERE`
@@ -86,8 +97,10 @@ MySQL's operator for JSON parsing is
 
 ???
 
+
 * `->`
 * `@>`
 * `==`
 * `JSON_VALUE`
 * `$`
+

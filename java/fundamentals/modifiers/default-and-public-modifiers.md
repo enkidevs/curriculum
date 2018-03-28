@@ -1,4 +1,4 @@
-# Default and `public` Modifiers
+---
 author: mihaiberq
 
 levels:
@@ -7,9 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# Default and `public` Modifiers
 
 ---
 ## Content
@@ -67,6 +74,7 @@ Otherwise it couldn't be called by the Java interpreter.
 What do you have to do to use a public class from another package?
 
 ???
+
 * Import that package.
 * Nothing.
 * Extend the class.
@@ -78,8 +86,10 @@ What do you have to do to use a public class from another package?
 Which is the *default* keyword modifier?
 
 ???
+
 * no keyword
 * default
 * public
 * protected
 * modifier
+

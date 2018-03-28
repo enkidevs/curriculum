@@ -1,4 +1,4 @@
-# COUNT clause
+---
 author: SebaRaba
 
 levels:
@@ -17,17 +17,22 @@ category: must-know
 
 inAlgoPool: false
 
-
 standards:
   sql.aggregate-single-table.0: 10
 
 tags:
+
   - workout
 
 
 links:
 
-  - '[More on COUNT clause](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql)'
+  - '[More on COUNT clause](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql){website}'
+
+
+---
+
+# COUNT clause
 
 ---
 ## Content
@@ -83,13 +88,13 @@ count | region_id
 
 ```
 
+
 * COUNT
 * region_id
 * GROUP BY
 * ORDER BY
 * SUM
 * AVG
-
 
 ---
 ## Revision
@@ -105,6 +110,7 @@ Knowing that the pokemon db has a table called `item` and a field `name`, count 
 
 ```
 
+
 * SELECT COUNT(name) FROM item;
 * SELECT COUNT(DISTINCT name) FROM item;
 * SELECT COUNT(item) FROM name;
@@ -112,7 +118,6 @@ Knowing that the pokemon db has a table called `item` and a field `name`, count 
 
 ---
 ## Footnotes
-
 [1:Pokemon Db]
 We will use the same segment of "experience" table for all aggregate functions:
 ```

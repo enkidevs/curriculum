@@ -1,4 +1,4 @@
-# Conditions
+---
 author: tommarshall
 
 levels:
@@ -10,6 +10,9 @@ type: normal
 inAlgoPool: false
 
 category: must-know
+
+---
+# Conditions
 
 ---
 ## Content
@@ -49,10 +52,10 @@ print (x < 5)
 print (x == 5)
 ```
 ???
-*False, True
-*False, False
-*True, False
-*True, True
+* False, True
+* False, False
+* True, False
+* True, True
 
 ---
 ## Revision
@@ -67,7 +70,7 @@ print (x != 4)
 ```
 ???
 
-*True, False
-*True, True
-*False, True
-*False, False
+* True, False
+* True, True
+* False, True
+* False, False

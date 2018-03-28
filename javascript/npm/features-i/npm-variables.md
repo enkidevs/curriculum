@@ -1,11 +1,14 @@
-# Environmental Variables
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
@@ -21,6 +24,9 @@ tags:
   - introduction
   - workout
   - deep
+
+---
+# Environmental Variables
 
 ---
 ## Content
@@ -67,10 +73,11 @@ Keep in mind, however, that the environmental variables in Windows are invoked u
 The prefix needed to invoke preconfigured values is:
 
 ???
-* `$npm_package_config_`
-* `npm_package_config_`
-* `npm_package_config`
-* `$npm_config`
+
+* $npm_package_config_
+* npm_package_config_
+* npm_package_config
+* $npm_config
 
 ---
 ## Revision
@@ -79,8 +86,9 @@ You can override the local value of an environmental variable by running:
 ```
 $ npm ??? ??? ??? newValue
 ```
-* `config`
-* `set`
-* `packageName:property`
-* `property`
-* `-s`
+
+* config
+* set
+* packageName:property
+* property
+* -s

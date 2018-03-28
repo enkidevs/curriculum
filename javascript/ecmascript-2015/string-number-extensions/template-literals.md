@@ -1,4 +1,4 @@
-# Template Literals
+---
 author: alexjmackey
 
 levels:
@@ -7,15 +7,20 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[ponyfoo.com](https://ponyfoo.com/articles/es6-template-strings-in-depth){website}'
-
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){website}'
+
+
+---
+
+# Template Literals
 
 ---
 ## Content
@@ -66,3 +71,4 @@ Note if for some reason you wanted to use a backtick in your expression this can
 ```
 var greeting = `hello \``;
 ```
+

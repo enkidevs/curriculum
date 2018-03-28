@@ -1,4 +1,4 @@
-# Use _varargs_ when unsure about the number of parameters
+---
 author: adamMontgomerie
 
 levels:
@@ -23,10 +23,15 @@ tags:
 
   - arrays
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/javaOO/arguments.html#varargs){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/javaOO/arguments.html#varargs){website}'
+
+
+---
+
+# Use _varargs_ when unsure about the number of parameters
 
 ---
 ## Content
@@ -50,3 +55,4 @@ Here, the price parameter can accept any number of `int`s. This is indicated by 
 int total1 = calculate(2, 54);
 int total2 = calculate(5, 10, 27, 19);
 ```
+

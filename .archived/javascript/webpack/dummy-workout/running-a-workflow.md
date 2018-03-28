@@ -1,4 +1,4 @@
-# Running a workflow
+---
 author: tommarshall
 
 levels:
@@ -19,6 +19,9 @@ links:
 
   - >-
     [christianalfoni.github.io](http://christianalfoni.github.io/javascript/2014/12/13/did-you-know-webpack-and-react-is-awesome.html#runningworkflow){website}
+
+---
+# Running a workflow
 
 ---
 ## Content
@@ -57,11 +60,11 @@ Running `npm run dev` starts up a web service, watches for file changes and auto
 
 Which of the following commands points to the output directory configured when running a workflow? ???
 
-* `--content-base build`
-* `webpack-dev-server`
-* `--devtool eval`
-* `--progress`
-* `--output-dir`
+* --content-base build
+* webpack-dev-server
+* --devtool eval
+* --progress
+* --output-dir
 
 ---
 ## Revision
@@ -70,7 +73,7 @@ What `webpack-dev-server` flag will show the progress of bundling your applicati
 
 ???
 
-*`--progress`
-*`--devtool eval`
-*`webpack-dev-server`
-*`--content-base-build`
+* --progress
+* --devtool eval
+* webpack-dev-server
+* --content-base-build

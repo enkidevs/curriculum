@@ -1,11 +1,14 @@
-# Available Binaries For Scripting
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
@@ -23,6 +26,9 @@ tags:
   - introduction
   - workout
   - deep
+
+---
+# Available Binaries For Scripting
 
 ---
 ## Content
@@ -56,11 +62,13 @@ You can find out the exact location of available binaries with:
 $ ??? ???
 ```
 
-* `npm`
-* `bin`
-* `ls`
-* `/project/node_modules/.bin`
-* `/usr/local/bin`
+
+* npm
+* bin
+* ls
+* /project/node_modules/.bin
+* /usr/local/bin
+
 ---
 ## Revision
 

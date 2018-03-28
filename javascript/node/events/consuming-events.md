@@ -1,4 +1,4 @@
-# Consuming events
+---
 author: tommarshall
 
 levels:
@@ -15,7 +15,6 @@ type: normal
 
 category: must-know
 
-parent: module-patterns
 
 standards:
   js.events-asynchronous-operations.0: 10
@@ -27,7 +26,13 @@ tags:
 
 links:
 
-  - '[Node Events](https://nodesource.com/blog/understanding-the-nodejs-event-loop/)'
+  - '[Node Events](https://nodesource.com/blog/understanding-the-nodejs-event-loop/){website}'
+
+parent: module-patterns
+
+---
+
+# Consuming events
 
 ---
 ## Content
@@ -76,6 +81,7 @@ system.file.???(
   function(fileID, initials) {}
 )
 ```
+
 * `on`
 * `edit`
 * `event`
@@ -88,6 +94,8 @@ system.file.???(
 Which method is called to register a callback function to run when an event is triggered?
 ???
 
+
 * `.on`
 * `.event`
 * `.start`
+

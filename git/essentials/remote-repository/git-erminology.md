@@ -1,9 +1,9 @@
-# Git-erminology
+---
 author: mihaiberq
 
 levels:
-
     - beginner
+    - basic
 
 type: fillTheGap
 
@@ -12,11 +12,16 @@ category: must-know
 parent: what-is-git
 
 ---
+
+# Git-erminology
+
+---
 ## Content
 
 Think you know the right git terminology used for the following concepts?
 
 ---
+
 ## Game Content
 
 ```

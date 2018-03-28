@@ -1,5 +1,5 @@
-# Two ways to compute a dot product
- 
+---
+
 author: Aaron7Sun
 
 levels:
@@ -18,6 +18,9 @@ links:
 
   - >-
     [docs.python.org](https://docs.python.org/2/library/functions.html#zip){website}
+
+---
+# Two ways to compute a dot product
 
 ---
 ## Content

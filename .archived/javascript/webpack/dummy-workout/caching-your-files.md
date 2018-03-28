@@ -1,4 +1,4 @@
-# Caching your files
+---
 author: tommarshall
 
 levels:
@@ -17,6 +17,9 @@ links:
 
   - >-
     [medium.com](https://medium.com/@okonetchnikov/long-term-caching-of-static-assets-with-webpack-1ecb139adb95#.1s7u89qma){website}
+
+---
+# Caching your files
 
 ---
 ## Content
@@ -61,12 +64,12 @@ Compute a hash per chunk by modifying the below code:
 }
 ```
 
-* `[chunkhash]`
-* `chunkhash`
-* `chunk-hash`
-* `hash-chunk`
-* `hash`
-* `chunk`
+* [chunkhash]
+* chunkhash
+* chunk-hash
+* hash-chunk
+* hash
+* chunk
 
 ---
 ## Revision

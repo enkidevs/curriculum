@@ -1,4 +1,4 @@
-# `Object.prototype`
+---
 author: rosielowther
 
 levels:
@@ -18,6 +18,9 @@ links:
 
   - >-
     [github.com](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch5.md){website}
+
+---
+# Object.prototype
 
 ---
 ## Content
@@ -42,8 +45,8 @@ console.log(myObj.toString());
 // ???
 ```
 
-*`[object Enki]`
-*`[Enki]`
-*`[object]`
-*`[[Prototype]]`
-*`Object.prototype`
+* [object Enki]
+* [Enki]
+* [object]
+* [[Prototype]]
+* Object.prototype

@@ -1,4 +1,4 @@
-# Synchronous File Write/Read in Node.js
+---
 author: rosielowther
 
 levels:
@@ -20,11 +20,11 @@ tags:
 
 links:
 
-  - >-
-    [nodejs.org](https://nodejs.org/api/fs.html#fs_fs_writefilesync_file_data_options){website}
+  - '[nodejs.org](https://nodejs.org/api/fs.html#fs_fs_writefilesync_file_data_options){website}'
+  - '[nodejs.org](https://nodejs.org/api/fs.html#fs_fs_readfilesync_file_options){website}'
 
-  - >-
-    [nodejs.org](https://nodejs.org/api/fs.html#fs_fs_readfilesync_file_options){website}
+---
+# Synchronous File Write/Read in Node.js
 
 ---
 ## Content
@@ -53,9 +53,10 @@ Synchronously write data to a file:
 fs.???(file, data)
 ```
 
-*`writeFileSync`
-*`writeSyncFile`
-*`writeSync`
-*`write`
-*`writeFileAsync`
-*`writeFile`
+* writeFileSync
+* writeSyncFile
+* writeSync
+* write
+* writeFileAsync
+* writeFile
+

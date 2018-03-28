@@ -1,4 +1,4 @@
-# Use **Redux** with **React**
+---
 author: catalin
 
 levels:
@@ -13,17 +13,18 @@ type: normal
 
 category: pattern
 
-notes: This can be also placed in the react subtopic
 
 links:
 
   - '[rackt.org](http://rackt.org/redux/docs/basics/UsageWithReact.html){website}'
+  - '[github.com](https://github.com/rackt/react-redux/blob/master/docs/quick-start.md#quick-start){website}'
+  - '[github.com](https://github.com/rackt/react-redux/blob/master/docs/api.md#api){website}'
 
-  - >-
-    [github.com](https://github.com/rackt/react-redux/blob/master/docs/quick-start.md#quick-start){website}
+notes: This can be also placed in the react subtopic
 
-  - >-
-    [github.com](https://github.com/rackt/react-redux/blob/master/docs/api.md#api){website}
+---
+
+# Use **Redux** with **React**
 
 ---
 ## Content
@@ -65,6 +66,7 @@ connect([???], [mapDispatchToProps],
         [???], [options])
 ```
 
+
 * `mapStateToProps`
 * `mergeProps`
 * `connectProps`
@@ -80,6 +82,8 @@ What function must be imported as to turn a presentational container into a comp
 import { ??? } form `react-redux`
 ```
 
+
 * `connect`
 * `container`
 * `dispatch`
+

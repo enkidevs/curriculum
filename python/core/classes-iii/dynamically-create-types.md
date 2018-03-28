@@ -1,4 +1,4 @@
-# Dynamically create types
+---
 author: Ricardo
 
 levels:
@@ -23,12 +23,19 @@ tags:
 
   - OOP
 
-notes: 'this should be linked to python metaclasses insight'
+
+standards:
+  py.object-oriented.5: 10
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3/library/functions.html#type){website}  
+  - '[docs.python.org](https://docs.python.org/3/library/functions.html#type){website}'
+
+notes: this should be linked to python metaclasses insight
+
+---
+
+# Dynamically create types
 
 ---
 ## Content
@@ -89,6 +96,7 @@ Complete the following code in order to declare a `class` using `type` in the co
 
 ExampleClass = type (???, ???, ???)
 
+
 * `Name`
 * `SuperClasses`
 * `Attributes`
@@ -102,12 +110,12 @@ What function should be used to create a class Dynamically?
 
 ???
 
+
 * `type(name, bases, dict)`
 * `instance(name, bases, dict)`
 * `class(name, bases, dict)`
 
 ---
 ## Footnotes
-
 [1:`type` function]
 As python documentation says, `type` is a built-in function which is always accessible. It is actually not a function as we would normally think about it but a class constructor which can take one or three parameters (in this insight we only consider a case where it takes three arguments). Of course it can be considered as a function since from users perspective there is no difference between a built-in class constructor and a function.

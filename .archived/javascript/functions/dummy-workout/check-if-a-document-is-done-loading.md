@@ -1,4 +1,4 @@
-# Check if a document is done loading
+---
 author: catalin
 
 levels:
@@ -16,6 +16,9 @@ category: tip
 links:
 
   - '[davidwalsh.name](https://davidwalsh.name/document-readystate){website}'
+
+---
+# Check if a document is done loading
 
 ---
 ## Content
@@ -53,11 +56,11 @@ var interval = ???(function(){
   } 
 }, 220); 
 ```
-*`setInterval` 
-*`readyState` 
-*`newInterval` 
-*`loadingState` 
-*`documentState`
+* setInterval
+* readyState 
+* newInterval
+* loadingState
+* documentState
 
 ---
 ## Revision
@@ -69,7 +72,7 @@ if (document.??? === 'complete') {
 }
 ```
 
-*`readyState`
-*`loaded`
-*`isLoaded`
-*`state`
+* readyState
+* loaded
+* isLoaded
+* state

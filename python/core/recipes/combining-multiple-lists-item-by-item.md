@@ -1,4 +1,4 @@
-# Combining multiple lists, item by item
+---
 author: Aaron7Sun
 
 levels:
@@ -11,7 +11,14 @@ levels:
 
 type: normal
 
+standards:
+  py.native-types-operations.4: 10
+
 category: tip
+
+---
+
+# Combining multiple lists, item by item
 
 ---
 ## Content
@@ -28,7 +35,7 @@ zipped_list = zip(letters, numbers, squares)
 # zipped_list contains
 # [('a', 1, 1), ('b', 2, 4), ('c', 3, 9)]
 ```
-It is possible to also use this as the iterator of a `for` loop, pulling out all three values at once. 
+It is possible to also use this as the iterator of a `for` loop, pulling out all three values at once.
 ```python
 for letter, number, squares in zipped_list
 ```
@@ -45,6 +52,7 @@ tuple = ???(letters, values)
 # so that we get
 tuple = [('a', 1), ('b', 2), ('c', 3)]
 ```
+
 
 * `zip`
 * `button`

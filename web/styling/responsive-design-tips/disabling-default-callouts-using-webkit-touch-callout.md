@@ -1,4 +1,4 @@
-# Disabling default callouts using `webkit-touch-callout`
+---
 author: SeanWalters
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-touch-callout){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-touch-callout){website}'
+
+
+---
+
+# Disabling default callouts using `webkit-touch-callout`
 
 ---
 ## Content
@@ -40,6 +45,7 @@ Which property is missing in the following CSS code when disabling the defauly c
 ```
 And which browser is this only compatible with? ???
 
+
 * `touch-callout`
 * Safari
 * `touch-held`
@@ -48,3 +54,4 @@ And which browser is this only compatible with? ???
 * Chrome
 * Internet Explorer
 * Firefox
+

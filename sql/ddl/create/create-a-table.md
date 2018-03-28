@@ -1,4 +1,4 @@
-# Create a table
+---
 author: SebaRaba
 
 levels:
@@ -19,13 +19,21 @@ standards:
   sql.define-tables.0: 10
   sql.define-tables.1: 10
 
+tags:
+
+  - introduction
+
+  - workout
+
+
 links:
 
-  - '[More on creatin a table](https://www.tutorialspoint.com/sql/sql-create-table.htm)'
+  - '[More on creatin a table](https://www.tutorialspoint.com/sql/sql-create-table.htm){website}'
 
-tags:
-  - introduction
-  - workout
+
+---
+
+# Create a table
 
 ---
 ## Content
@@ -42,7 +50,6 @@ CREATE TABLE first_table(
 First we need to tell the database that we want to create a new table. After this we must specify each column and the datatype it holds. Finally, we define a `PRIMARY KEY`[1]. Note that we need to set a constraint for the primary key "column1". `NOT NULL` means that this field can't be left empty.
 
 You can verify if a table was succesfully created using `\d first_table;` when working with Postgres or `describe first_table` when working with MySQL.
-
 
 ---
 ## Practice
@@ -61,6 +68,7 @@ Create a table that:
 );
 ```
 
+
 * CREATE
 * NOT NULL
 * char(50)
@@ -71,11 +79,11 @@ Create a table that:
 ---
 ## Revision
 
-Which of the following queries would create a table that:
-- is called employees,
-- column1: ID char(50),
-- column2: full_name char(50),
-- column3: salary int,
+Which of the following queries would create a table that is called employees: 
+
+column1 -> ID char(50)
+column2 -> full_name char(50)
+column3 -> salary int
 
 ???
 
@@ -83,8 +91,8 @@ Which of the following queries would create a table that:
 * UPDATE TABLE employees ( ID char(50), full_name char(50), salary int, PRIMARY KEY(ID));
 * CREATE TABLE employees ( ID char(50), full_name char(50), salary int, PRIMARY KEY(full_name));
 
+
 ---
 ## Footnotes
-
 [1:PRIMARY KEY]
 A primary key is a field in a table that identifies each row in a db.

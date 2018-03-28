@@ -1,4 +1,4 @@
-# Pointers and Dictionaries of Classes
+---
 author: tommarshall
 
 levels:
@@ -8,6 +8,9 @@ levels:
 type: normal
 
 category: must-know
+
+---
+# Pointers and Dictionaries of Classes
 
 ---
 ## Content
@@ -47,7 +50,7 @@ Pick the true statement about the snippet below:
 objA = objB
 ```
 ???
-* `objA` points to `objB`
-* `objB` points to `objA`
-* `objA` is not `objB`
-* `objB` is not `objA`
+* objA points to objB
+* objB points to objA
+* objA is not objB
+* objB is not objA

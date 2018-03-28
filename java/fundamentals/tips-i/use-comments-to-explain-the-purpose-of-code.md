@@ -1,4 +1,4 @@
-# Use comments to explain the purpose of code
+---
 author: adamMontgomerie
 
 levels:
@@ -15,10 +15,15 @@ tags:
 
   - comments
 
+
 links:
 
-  - >-
-    [javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2011/08/code-comments-java-best-practices.html){website}
+  - '[javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2011/08/code-comments-java-best-practices.html){website}'
+
+
+---
+
+# Use comments to explain the purpose of code
 
 ---
 ## Content
@@ -44,3 +49,4 @@ This comment is not very helpful. The method is fairly simple and any programmer
 /*Adds a 20% VAT tax to the product's cost*/
 ```
 This comment is better because it explains the purpose of the method; *why* we are adding 20% to `cost`.
+

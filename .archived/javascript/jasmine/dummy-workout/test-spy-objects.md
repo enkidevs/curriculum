@@ -1,4 +1,4 @@
-# Test Spy Objects
+---
 author: tommarshall
 
 levels:
@@ -21,6 +21,9 @@ links:
 
   - >-
     [stackoverflow.com](http://stackoverflow.com/questions/24321307/what-is-the-difference-between-createspy-and-createspyobj){website}
+
+---
+# Test Spy Objects
 
 ---
 ## Content

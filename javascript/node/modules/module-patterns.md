@@ -1,4 +1,4 @@
-# Module patterns
+---
 author: tommarshall
 
 levels:
@@ -15,7 +15,6 @@ type: normal
 
 category: must-know
 
-parent: local-modules
 
 standards:
   js.use-modules: 20
@@ -27,8 +26,12 @@ tags:
 
 links:
 
-  - '[Node Module Patterns](https://darrenderidder.github.io/talks/ModulePatterns/#/5)'
+  - '[Node Module Patterns](https://darrenderidder.github.io/talks/ModulePatterns/#/5){website}'
 
+parent: local-modules
+
+---
+# Module patterns
 
 ---
 ## Content
@@ -73,9 +76,10 @@ foo();
 What must be used when exporting an anonymous function?
 ???
 
-* `module.exports`
-* `require`
-* `exports`
+
+* module.exports
+* require
+* exports
 
 ---
 ## Revision
@@ -94,7 +98,8 @@ var foo = require('./module.js'???;
 foo();
 ```
 
-* `).foo`
-* `)`
-* `).module`
-* `).exports`
+
+* ).foo
+* )
+* ).module
+* ).exports

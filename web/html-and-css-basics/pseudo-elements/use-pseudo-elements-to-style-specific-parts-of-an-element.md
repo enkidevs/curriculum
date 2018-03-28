@@ -1,4 +1,4 @@
-# Use pseudo-elements to style specific parts of an element
+---
 author: priyankinirmal
 
 levels:
@@ -15,10 +15,15 @@ tags:
 
   - pseudo-elements
 
+
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements){website}'
+
+
+---
+
+# Use pseudo-elements to style specific parts of an element
 
 ---
 ## Content
@@ -49,6 +54,7 @@ Which of the following is NOT a pseudo-element?
 
 ???
 
+
 * `::first-paragraph`
 * `::first-line`
 * `::first-letter`
@@ -61,8 +67,10 @@ Ideally, what should precede all pseudo-elements declaration?
 
 ???
 
+
 * `::`
 * `;;`
 * `:`
 * `-`
 * `;`
+

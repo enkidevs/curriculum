@@ -1,4 +1,4 @@
-# Destroy Events and their uses
+---
 author: achatt89
 
 levels:
@@ -10,6 +10,9 @@ levels:
 type: normal
 
 category: must-know
+
+---
+# Destroy Events and their uses
 
 ---
 ## Content

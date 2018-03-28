@@ -1,4 +1,4 @@
-# Fixed navigation bar
+---
 author: nene
 
 levels:
@@ -18,6 +18,13 @@ tags:
   - navigation
 
   - layout
+
+
+
+
+---
+
+# Fixed navigation bar
 
 ---
 ## Content
@@ -47,10 +54,11 @@ In case you want the navigation bar at the bottom of the page, replace `top: 0;`
 Which of the following properties will “glue” an element to its place?
 
 ???
-*position: fixed;
-*z-index: 9999;
-*position: relative;
-*left:0px;
+
+* position: fixed;
+* z-index: 9999;
+* position: relative;
+* left:0px;
 
 ---
 ## Revision
@@ -68,6 +76,7 @@ For a navigation bar to stay permanently at the bottom of a page when a user scr
    background-color: #00a087;
 }
 ``` 
+
 * `fixed`
 * `bottom`
 * `0`
@@ -76,3 +85,4 @@ For a navigation bar to stay permanently at the bottom of a page when a user scr
 * `top`
 * `100`
 * `50`
+

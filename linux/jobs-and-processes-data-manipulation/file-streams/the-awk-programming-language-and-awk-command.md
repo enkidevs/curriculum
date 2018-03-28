@@ -1,4 +1,4 @@
-# The AWK Programming Language And `awk` Command
+---
 author: jfarmer
 
 levels:
@@ -9,13 +9,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[AWK one-liners](http://www.pement.org/awk/awk1line.txt){website}'
+
+
+---
+
+# The AWK Programming Language And `awk` Command
 
 ---
 ## Content
@@ -57,11 +63,12 @@ $ awk '{??? ???}'
 500.00
 29.99
 ```
-*`print`
-*`($2-$3)*$4`
-*`(&2-&3)*&4`
-*`(&1–&2)*&3`
-*`stdout`
+
+* `print`
+* `($2-$3)*$4`
+* `(&2-&3)*&4`
+* `(&1–&2)*&3`
+* `stdout`
 
 ---
 ## Revision
@@ -69,7 +76,9 @@ $ awk '{??? ???}'
 Which of the following commands cannot be simulated using an `awk` script? 
 
 ???
-*mv
-*sed
-*head
-*cut
+
+* mv
+* sed
+* head
+* cut
+

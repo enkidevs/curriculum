@@ -1,4 +1,4 @@
-# Get more with `collections`!
+---
 author: catalin
 
 levels:
@@ -13,13 +13,18 @@ type: normal
 
 category: feature
 
+standards:
+  py.native-types-operations.6: 10
+
 links:
 
-  - >-
-    [pymbook.readthedocs.org](http://pymbook.readthedocs.org/en/latest/collections.html){website}
+  - '[pymbook.readthedocs.org](http://pymbook.readthedocs.org/en/latest/collections.html){website}'
+  - '[docs.python.org](https://docs.python.org/3.5/library/collections.html){website}'
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/collections.html){website}
+
+---
+
+# Get more with `collections`!
 
 ---
 ## Content
@@ -35,19 +40,20 @@ Specialized container datatypes are usually `dict` subclasses or wrappers around
 
 Notable implementations are :
 - the `Counter` class used for counting hashable objects.
--  `defaultdict` class used as a faster implementation of a specialised dictionary.
+-  `defaultdict` class used as a faster implementation of a specialized dictionary.
 - `namedtuple` class used for defining a meaning for every position in a tuple, often useful with databases or CSV files.
 
 ---
 ## Practice
 
-Which collections class is used as a faster implementation of a specialised dictionary?
+Which collections class is used as a faster implementation of a specialized dictionary?
 
 ???
 
-*`defaultdict` 
-*`specialdict` 
-*`implementdict`
+
+* `defaultdict`
+* `specialdict`
+* `implementdict`
 
 ---
 ## Revision
@@ -56,6 +62,7 @@ Which collections class is used for defining a meaning for every position in a t
 
 ???
 
-*`namedtuple` 
-*`definetuple` 
-*`definitiontuple`
+
+* `namedtuple`
+* `definetuple`
+* `definitiontuple`

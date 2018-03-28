@@ -1,4 +1,4 @@
-# Log with `morgan` in **Express**
+---
 author: catalin
 
 levels:
@@ -13,7 +13,6 @@ type: normal
 
 category: how to
 
-parent: easy-way-to-deliver-html-pages-with-express
 
 standards:
   js.express-server.4: 10
@@ -21,6 +20,12 @@ standards:
 links:
 
   - '[github.com](https://github.com/expressjs/morgan){website}'
+
+parent: easy-way-to-deliver-html-pages-with-express
+
+---
+
+# Log with `morgan` in **Express**
 
 ---
 ## Content
@@ -64,11 +69,11 @@ Use `morgan` logger in express with `tiny` format:
 app.???(???('tiny'));
 ```
 
-*`use`
-*`morgan`
-*`skip`
-*`immediate`
-*`express`
-*`install`
-*`make`
-*`logger`
+* use
+* morgan
+* skip
+* immediate
+* express
+* install
+* make
+* logger

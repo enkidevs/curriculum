@@ -1,4 +1,4 @@
-# Show history of a function
+---
 author: rosielowther
 
 levels:
@@ -12,6 +12,13 @@ levels:
 type: normal
 
 category: feature
+
+
+
+
+---
+
+# Show history of a function
 
 ---
 ## Content
@@ -36,17 +43,20 @@ Searching for the changes made to *myFunction* can be done using:
 $ git ??? ??? 
       :myFunction:myFile.js
 ```
-*`log`
-*`-L`
-*`-l`
-*`--log`
-*`--1`
+
+* `log`
+* `-L`
+* `-l`
+* `--log`
+* `--1`
 
 ---
 ## Revision
 
 The history of changes made to a function can be seen using the ??? option of `git log`.
-*`-L`
-*`-l`
-*`-history`
-*`--L`
+
+* `-L`
+* `-l`
+* `-history`
+* `--L`
+

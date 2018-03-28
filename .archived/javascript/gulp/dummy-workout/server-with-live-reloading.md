@@ -1,4 +1,4 @@
-# Server with Live-Reloading
+---
 author: tommarshall
 
 levels:
@@ -14,6 +14,9 @@ category: tip
 links:
 
   - '[www.browsersync.io](https://www.browsersync.io/docs/gulp/){website}'
+
+---
+# Server with Live-Reloading
 
 ---
 ## Content
@@ -54,7 +57,7 @@ gulp.task('serve', function() {
 
 Which module is used to allow live-reloading on your server? ???
 
-*`browser-sync`
-*`live-reload`
-*`browserSync`
-*`liveReload`
+* browser-sync
+* live-reload
+* browserSync
+* liveReload

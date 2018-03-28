@@ -1,4 +1,4 @@
-# Listening to events just once
+---
 author: tommarshall
 
 levels:
@@ -15,7 +15,6 @@ type: normal
 
 category: must-know
 
-parent: consuming-events
 
 standards:
   js.events-asynchronous-operations.1: 20
@@ -25,7 +24,14 @@ tags:
   - workout
 
 links:
-- '[Listening to events once](https://blog.yld.io/2015/12/15/using-an-event-emitter/#.WI4gL7aLQy4)'
+
+  - '[Listening to events once](https://blog.yld.io/2015/12/15/using-an-event-emitter/#.WI4gL7aLQy4){website}'
+
+parent: consuming-events
+
+---
+
+# Listening to events just once
 
 ---
 ## Content
@@ -65,9 +71,9 @@ test.once(‘uncaughtException’,
 Which method is used to add a one-time listener function to an event emitter?
 ???
 
-* `.once`
-* `.first`
-* `.instance`
+* .once
+* .first
+* .instance
 
 ---
 ## Revision
@@ -80,8 +86,8 @@ test.???('uncaughtException',
     }
 ```
 
-* `once`
-* `on`
-* `catch`
-* `one`
-* `onOnce`
+* once
+* on
+* catch
+* one
+* onOnce

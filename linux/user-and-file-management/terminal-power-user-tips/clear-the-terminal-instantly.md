@@ -1,4 +1,4 @@
-# Clear the terminal instantly
+---
 author: tuwi.dc
 
 levels:
@@ -12,15 +12,26 @@ type: normal
 category: feature
 
 tags:
+
   - linux
+
   - terminal
+
   - reset
+
   - clear
+
   - clenup
+
   - workout
 
 
+
 notes: ''
+
+---
+
+# Clear the terminal instantly
 
 ---
 ## Content
@@ -40,7 +51,9 @@ To *reload* the terminal and *clear* the previous output you would run
 
 ??? .
 
-*reset
-*clear
-*clr
-*sudo --reload
+
+* reset
+* clear
+* clr
+* sudo --reload
+

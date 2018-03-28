@@ -1,4 +1,4 @@
-# Short-circuit evaluation
+---
 author: pawel
 
 levels:
@@ -9,11 +9,16 @@ type: normal
 
 category: must-know
 
-notes: ''
 
 links:
 
   - '[www.grauw.nl](http://www.grauw.nl/blog/entry/510){website}'
+
+notes: ''
+
+---
+
+# Short-circuit evaluation
 
 ---
 ## Content
@@ -37,6 +42,8 @@ Which of the following does short-circulation not prevent?
 
 ???
 
-*Exceptions being thrown
-*Expensive calculations
-*Run-time errors
+
+* Exceptions being thrown
+* Expensive calculations
+* Run-time errors
+

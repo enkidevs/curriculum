@@ -1,4 +1,4 @@
-# Splice
+---
 author: alexjmackey
 
 levels:
@@ -7,14 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/splice){website}
+  - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/splice){website}'
+
+
+---
+
+# Splice
 
 ---
 ## Content
@@ -56,6 +61,7 @@ Remove the `4th` and `5th` elements from the array:
 ```
 myArray.???(3, ???)
 ```
+
 * `splice`
 * `2`
 * `slice`
@@ -74,9 +80,11 @@ How would you remove the first element in the array using `splice`?
 myArray.???(???, ???);
 ```
 
+
 * `splice`
 * `0`
 * `1`
 * `2`
 * `remove`
 * `slice`
+

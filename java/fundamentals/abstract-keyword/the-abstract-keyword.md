@@ -1,4 +1,4 @@
-# The `abstract` keyword
+---
 author: adamMontgomerie
 
 levels:
@@ -19,10 +19,15 @@ tags:
 
   - interface
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html){website}'
+
+
+---
+
+# The `abstract` keyword
 
 ---
 ## Content
@@ -58,9 +63,10 @@ abstract String optionY{String s);
 abstract String optionZ(String s);
 ```
 ???
-*Option Z
-*Option X
-*Option Y
+
+* Option Z
+* Option X
+* Option Y
 
 ---
 ## Revision
@@ -74,6 +80,8 @@ abstract float optionC(float e) {
 }
 ```
 ???
-*Option A
-*Option B
-*Option C
+
+* Option A
+* Option B
+* Option C
+

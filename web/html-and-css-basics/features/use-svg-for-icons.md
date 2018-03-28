@@ -1,4 +1,4 @@
-# Use `SVG` for icons
+---
 author: jordanfish
 
 levels:
@@ -13,11 +13,16 @@ type: normal
 
 category: best practice
 
-notes: ''
 
 links:
 
   - '[github.com](https://github.com/AllThingsSmitty/css-protips){website}'
+
+notes: ''
+
+---
+
+# Use `SVG` for icons
 
 ---
 ## Content
@@ -37,9 +42,10 @@ What does SVG stand for?
 
 ???
 
-*Scalable Vector Graphics
-*System Vector Graphics
-*Scalable Variable Graphics
+
+* Scalable Vector Graphics
+* System Vector Graphics
+* Scalable Variable Graphics
 
 ---
 ## Revision
@@ -47,6 +53,8 @@ What does SVG stand for?
 Why does `SVG` prove to be useful for icons? 
 
 ???
+
 * It scales well for all resolution types.
 * As SVG stands for Small Vector Graphics.
 * As it's supported in all browsers from IE9.
+

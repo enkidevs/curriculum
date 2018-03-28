@@ -1,4 +1,4 @@
-# The *Box Model*
+---
 author: mihaiberq
 
 levels:
@@ -7,14 +7,19 @@ levels:
 
 type: normal
 
+category: tip
+
 inAlgoPool: false
 
-category: tip
 
 links:
 
-  - >-
-    [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model){website}
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model){website}'
+
+
+---
+
+# The *Box Model*
 
 ---
 ## Content
@@ -25,7 +30,7 @@ The dimensions of such a box are calculated by summing the values of the above m
 ```
 div{
   width: 600px;
-  height: 200px; 
+  height: 200px;
   border: 4px solid blue;
   margin: 20px;
   padding: 10px;
@@ -44,6 +49,7 @@ It is important to mention that some elements *do not accept* top and bottom mar
 Which is the inside-out order for the *box model* components?
 
 ???
+
 * Content/Padding/Border/Margin
 * Content/Border/Padding/Margin
 * Padding/Content/Border/Margin
@@ -51,13 +57,13 @@ Which is the inside-out order for the *box model* components?
 
 ---
 ## Quiz
+### are you familiar with the box model?
 
-headline: are you familiar with the box model?
+What’s the correct outside-in order of the elements contained by the Box Model?
 
-question: What’s the correct outside-in order of the elements contained by the Box Model?
+ ???
 
-answers:
-  - Margin/Border/Padding/Content
-  - Border/Margin/Padding/Content
-  - Margin/Padding/Border/Content
-  - Content/Border/Margin/Padding
+* Margin/Border/Padding/Content
+* Border/Margin/Padding/Content
+* Margin/Padding/Border/Content
+* Content/Border/Margin/Padding

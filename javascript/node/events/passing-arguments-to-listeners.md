@@ -1,4 +1,4 @@
-# Passing arguments to listeners
+---
 author: tommarshall
 
 levels:
@@ -15,7 +15,6 @@ type: normal
 
 category: must-know
 
-parent: synchronous-event-delivery
 
 standards:
   js.events-asynchronous-operations.2: 20
@@ -25,7 +24,14 @@ tags:
   - workout
 
 links:
-- '[Passing arguments](https://nodejs.org/api/events.html#events_passing_arguments_and_this_to_listeners)'
+
+  - '[Passing arguments](https://nodejs.org/api/events.html#events_passing_arguments_and_this_to_listeners){website}'
+
+parent: synchronous-event-delivery
+
+---
+
+# Passing arguments to listeners
 
 ---
 ## Content
@@ -63,6 +69,6 @@ What does `this` refer to inside of a callback registered to listen to an event 
 ???
 
 * The instance of `EventEmitter`
-* `global`
-* `event`
-* `window`
+* global
+* event
+* window

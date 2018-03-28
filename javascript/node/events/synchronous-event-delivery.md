@@ -1,4 +1,4 @@
-# Synchronous event delivery
+---
 author: tommarshall
 
 levels:
@@ -15,7 +15,6 @@ type: normal
 
 category: must-know
 
-parent: listening-to-events-just-once
 
 standards:
   js.events-asynchronous-operations.1: 20
@@ -26,8 +25,13 @@ tags:
 
 links:
 
-  - '[Synchronous Event Delivery](https://blog.yld.io/2015/12/15/using-an-event-emitter/#.WI4ybbaLQy4)'
+  - '[Synchronous Event Delivery](https://blog.yld.io/2015/12/15/using-an-event-emitter/#.WI4ybbaLQy4){website}'
 
+parent: listening-to-events-just-once
+
+---
+
+# Synchronous event delivery
 
 ---
 ## Content
@@ -72,6 +76,8 @@ How is the delivery of events treated in Node?
 
 ???
 
+
 * synchronously
 * asynchronously
 * instantly
+* random

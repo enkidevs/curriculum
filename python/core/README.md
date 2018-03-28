@@ -24,6 +24,8 @@ sections:
     - is-your-python-healthy
     - testing
   '2':
+    - math-recipes
+    - string-recipes
     - more-on-lists
     - more-on-sets
     - more-on-dictionaries

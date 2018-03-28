@@ -1,4 +1,4 @@
-# Use ESLint
+---
 author: mihaiberq
 
 levels:
@@ -15,6 +15,10 @@ standards:
 
 tags:
   - introduction
+
+---
+
+# Use ESLint
 
 ---
 ## Content

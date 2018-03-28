@@ -1,4 +1,4 @@
-# The `Console` class
+---
 author: catalin
 
 levels:
@@ -11,12 +11,17 @@ type: normal
 
 category: feature
 
-notes: |
-  https://insights.enki.com/#/contrib/5597c334d07c503200b46e1a
 
 links:
 
   - '[www.javatpoint.com](http://www.javatpoint.com/Console-class){website}'
+
+notes: |
+  https://insights.enki.com/#/contrib/5597c334d07c503200b46e1a
+
+---
+
+# The `Console` class
 
 ---
 ## Content
@@ -47,7 +52,9 @@ Keep in mind that this class does not have a high level of security and it is mo
 ## Revision
 
 If you would want to read a password as input from the user, you could use ??? class.
-*Console
-*Scanner
-*BufferedReader
-*Input
+
+* Console
+* Scanner
+* BufferedReader
+* Input
+

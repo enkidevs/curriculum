@@ -1,4 +1,4 @@
-# Retention and Inherited Annotations
+---
 author: Nick Daminov
 
 levels:
@@ -9,9 +9,15 @@ type: normal
 
 category: pattern
 
+
 links:
 
-  - '[More on Retention Annotation](https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.4.2)'
+  - '[More on Retention Annotation](https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.4.2){website}'
+
+
+---
+
+# Retention and Inherited Annotations
 
 ---
 ## Content
@@ -54,6 +60,7 @@ What should the value of a `RetentionPolicy` be in order for an annotation to be
 
 ???
 
+
 * At runtime
 * RetentionPolicy.SOURCE
 * At compilation time only but not when the program runs
@@ -67,6 +74,8 @@ What is the `retention` annotation used for?
 
 ???
 
+
 * To indicate where the following annotation is visible
 * To include the following annotation in the documentation
 * To indicate that the following annotation can be applied more than once in the same declaration
+

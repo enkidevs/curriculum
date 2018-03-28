@@ -1,7 +1,8 @@
-# What is npm?
+---
 author: mihaiberq
 
 levels:
+
   - beginner
 
 type: normal
@@ -16,9 +17,10 @@ tags:
   - workout
 
 links:
+  - '[docs.npmjs.com](https://docs.npmjs.com/getting-started/what-is-npm){website}'
 
-  - >-
-    [docs.npmjs.com](https://docs.npmjs.com/getting-started/what-is-npm){website}
+---
+# What is npm?
 
 ---
 ## Content
@@ -41,6 +43,7 @@ You can find all the available packages on the npm website. *Npm*, as the name s
 The aim of a package is to
 
 ???
+
 
 * solve specific problems efficiently
 * solve every problem in an application efficiently

@@ -1,4 +1,4 @@
-# Working in the local repository
+---
 author: catalin
 
 levels:
@@ -7,9 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# Working in the local repository
 
 ---
 ## Content
@@ -33,6 +40,7 @@ Files that are not in the staging area and were not included in the last commit 
 
 ???
 
+
 * untracked
 * staged
 * added
@@ -44,7 +52,9 @@ Files that are not in the staging area and were not included in the last commit 
 
 Using the `git add` command you include modified files to the ???.
 
+
 * staging area
 * git repository
 * working tree
 * GitHub
+

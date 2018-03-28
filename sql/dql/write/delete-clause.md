@@ -1,4 +1,4 @@
-# Delete clause
+---
 author: SebaRaba
 
 levels:
@@ -19,13 +19,20 @@ standards:
   sql.write.5: 10
 
 tags:
+
   - introduction
+
   - workout
 
 
 links:
 
-  - '[More on DELETE](http://www.dofactory.com/sql/delete)'
+  - '[More on DELETE](http://www.dofactory.com/sql/delete){website}'
+
+
+---
+
+# Delete clause
 
 ---
 ## Content
@@ -85,7 +92,6 @@ If we wanted to delete all data in this table:
 DELETE FROM egg_group;
 ```
 
-
 ---
 ## Practice
 
@@ -114,6 +120,7 @@ id |     name
 ??? FROM egg_group
 WHERE id ??? 1 and 5;
 ```
+
 
 * DELETE
 * between
@@ -146,6 +153,7 @@ id |     name
 (15 rows)
 ```
 ???
+
 
 * DELETE FROM egg_group WHERE id= 15;
 * UPDATE egg_group DELETE WHERE id=15;

@@ -1,4 +1,4 @@
-# Local Modules
+---
 author: tommarshall
 
 levels:
@@ -15,7 +15,6 @@ type: normal
 
 category: must-know
 
-parent: the-http-module-for-servers
 
 standards:
   js.use-modules: 10
@@ -25,7 +24,14 @@ tags:
   - workout
 
 links:
-- '[Local Modules](http://www.tutorialsteacher.com/nodejs/nodejs-local-modules)'
+
+  - '[Local Modules](http://www.tutorialsteacher.com/nodejs/nodejs-local-modules){website}'
+
+parent: the-http-module-for-servers
+
+---
+
+# Local Modules
 
 ---
 ## Content
@@ -70,6 +76,7 @@ Good news! We're working on Node!
 ## Revision
 
 Which of the following module types must have its path specified when requiring it?
+
 ???
 
 * local

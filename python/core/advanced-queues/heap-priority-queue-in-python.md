@@ -1,4 +1,4 @@
-# Heap/Priority Queue in Python
+---
 author: catalin
 
 levels:
@@ -11,9 +11,17 @@ type: normal
 
 category: feature
 
+standards:
+  py.data-structures-uses.2: 10
+
 links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/heapq.html){website}'
+
+
+---
+
+# Heap/Priority Queue in Python
 
 ---
 ## Content
@@ -31,7 +39,7 @@ Transform a `list` to a `heap`:
 ```python
 a = [8, 4, 5, 12, 9, 7]
 heapq.heapify(a)
- 
+
 ```
 
 Pop (and return) the smallest item:

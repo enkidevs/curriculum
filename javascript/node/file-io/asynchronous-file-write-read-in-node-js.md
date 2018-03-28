@@ -1,4 +1,4 @@
-# Asynchronous File Write/Read in Node.js
+---
 author: catalin
 
 levels:
@@ -20,8 +20,11 @@ tags:
 
 links:
 
-  - >-
-    [nodejs.org](https://nodejs.org/api/fs.html#fs_fs_readfile_file_options_callback){website}
+  - '[nodejs.org](https://nodejs.org/api/fs.html#fs_fs_readfile_file_options_callback){website}'
+
+---
+
+# Asynchronous File Write/Read in Node.js
 
 ---
 ## Content

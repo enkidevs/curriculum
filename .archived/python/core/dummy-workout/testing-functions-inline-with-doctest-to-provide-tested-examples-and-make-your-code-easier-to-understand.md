@@ -1,4 +1,4 @@
-# Testing functions inline with `doctest` to provide (tested) examples and make your code easier to understand
+---
 author: Bruno
 
 levels:
@@ -14,6 +14,9 @@ links:
   - '[PyMOTW](http://pymotw.com/2/doctest/){blog}'
 
   - '[python.org](https://docs.python.org/2/library/doctest.html){documentation}'
+
+---
+# Testing functions inline with `doctest` to provide (tested) examples and make your code easier to understand
 
 ---
 ## Content

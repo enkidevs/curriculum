@@ -1,4 +1,4 @@
-# What is NodeJS?
+---
 author: tommarshall
 
 levels:
@@ -17,7 +17,10 @@ tags:
 
 links:
 
-- '[nodejs.org](https://nodejs.org/en/)'
+  - '[nodejs.org](https://nodejs.org/en/){website}'
+
+---
+# What is NodeJS?
 
 ---
 ## Content
@@ -37,13 +40,22 @@ Node can be used to build a variety of applications including single and multi-p
 What can Node be used to create?
 ???
 
+
 * server-side applications
 * client-side applications
 
+---
+## Revision
+
+Is Node synchronous or asynchronous?
+???
+
+
+* asynchronous
+* synchronous
 
 ---
 ## Footnotes
-
 [1:Asynchronous]
 Even though JavaScript is single threaded, V8 JavaScript engine is not. In order to resolve functions that would be holding back the main thread, Node sends those instructions to the engine through *APIs* and subscribes to an event that marks the end of the computation for that process, through an event loop.
 

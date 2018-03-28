@@ -1,4 +1,4 @@
-# Instance methods are preferred over `default` methods
+---
 author: adamMontgomerie
 
 levels:
@@ -21,10 +21,15 @@ tags:
 
   - default-methods
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/override.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/override.html){website}'
+
+
+---
+
+# Instance methods are preferred over `default` methods
 
 ---
 ## Content
@@ -53,3 +58,4 @@ public class Carrot
 }
 ```
 Both `Vegetable` and `Food` contain an implementation of `describe()`. When `carrot.describe()` is called, it will print `"A vegetable"`. This is because `Food.describe()` is a `default` method, while `Vegetable.describe()` is an instance method.
+

@@ -1,4 +1,4 @@
-# How npm3 handles dependencies
+---
 author: mihaiberq
 
 levels:
@@ -22,6 +22,9 @@ tags:
   - workout
   - deep
   - new
+
+---
+# How npm3 handles dependencies
 
 ---
 ## Content
@@ -79,6 +82,7 @@ What is the main difference between how npm2 and npm3 handles dependencies?
 
 ???
 
+
 * `node_modules` structure depends on the declaration order
 * dependencies are always updated to their latest version
 * dependencies can be locked to at specific version
@@ -87,6 +91,7 @@ What is the main difference between how npm2 and npm3 handles dependencies?
 ## Revision
 
 Flat installing dependencies of dependencies is a feature of ???.
+
 
 * npm3
 * npm2

@@ -1,4 +1,4 @@
-# Shallow compare in **React**
+---
 author: catalin
 
 levels:
@@ -13,16 +13,19 @@ type: normal
 
 category: feature
 
-notes: |-
-  probably best in the same workout with :
-  https://insights.enki.com/#/contrib/56aa0290bd6a4609006eaee3
-
-parent: custom-proptype-s-to-be-required
 
 links:
 
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/docs/shallow-compare.html){website}
+  - '[facebook.github.io](https://facebook.github.io/react/docs/shallow-compare.html){website}'
+
+notes: |-
+  probably best in the same workout with :
+  https://insights.enki.com/#/contrib/56aa0290bd6a4609006eaee3
+parent: custom-proptype-s-to-be-required
+
+---
+
+# Shallow compare in **React**
 
 ---
 ## Content
@@ -59,6 +62,7 @@ A shallow equality check is performed on the current `props` and `nextProps`, bu
 
 A ??? can be achieved with the helper function `shallowCompare` when used on a React component render function that is ???.
 
+
 * performance boost
 * pure
 * successful check
@@ -74,7 +78,9 @@ Import `shallowCompare` into your React code:
 ```javascript
 var shallowCompare = require('???');
 ```
+
 * `react-addons-shallow-compare`
 * `shallow-compare`
 * `s-compare`
 * `shallowcompare`
+

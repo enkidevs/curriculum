@@ -1,4 +1,4 @@
-# Declaring dependencies
+---
 author: mihaiberq
 
 levels:
@@ -22,6 +22,8 @@ tags:
   - workout
   - deep
 
+---
+# Declaring dependencies
 
 ---
 ## Content
@@ -80,9 +82,10 @@ Install and add *gulp* to the list of dev dependencies from the command line:
 ```
 $ ??? ??? ??? ???
 ```
-* `npm`
-* `install`
-* `gulp`
-* `--save-dev`
-* `--save`
-* `node`
+
+* npm
+* install
+* gulp
+* --save-dev
+* --save
+* node

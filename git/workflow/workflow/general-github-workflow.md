@@ -1,4 +1,4 @@
-# General **GitHub** workflow
+---
 author: catalin
 
 levels:
@@ -9,11 +9,16 @@ type: normal
 
 category: how to
 
-parent: git-hub
 
 links:
 
   - '[guides.github.com](https://guides.github.com/introduction/flow/){website}'
+
+parent: git-hub
+
+---
+
+# General **GitHub** workflow
 
 ---
 ## Content
@@ -42,10 +47,10 @@ Is the concept of **pull requests** only used in *GitHub*?
 
 ???
 
-*`no`
-*`yes`
+
+* `no`
+* `yes`
 
 ---
 ## Footnotes
-
 [1:pull request] This occurs automatically when you are **not** a listed 'contributor' on the repository

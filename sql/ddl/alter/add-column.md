@@ -1,4 +1,4 @@
-# Add Column
+---
 author: SebaRaba
 
 levels:
@@ -17,19 +17,26 @@ category: must-know
 
 inAlgoPool: false
 
-parent: create-a-table
-
 standards:
   sql.define-columns.0: 10
   sql.define-columns.2: 10
 
+tags:
+
+  - workout
+
+  - deep
+
+
 links:
 
-  - '[More on ALTER TABLE](https://www.techonthenet.com/sql_server/tables/alter_table.php)'
+  - '[More on ALTER TABLE](https://www.techonthenet.com/sql_server/tables/alter_table.php){website}'
 
-tags:
-  - workout
-  - deep
+parent: create-a-table
+
+---
+
+# Add Column
 
 ---
 ## Content
@@ -62,6 +69,7 @@ id |    name
 ADD ??? ???;
 ```
 
+
 * ALTER TABLE
 * members
 * INT
@@ -85,6 +93,7 @@ id | region_id |      name
 
     ???
 ```
+
 
 
 * ALTER TABLE generation DROP COLUMN region_id;

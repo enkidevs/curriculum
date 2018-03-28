@@ -1,4 +1,4 @@
-# Destructuring (Part 3)
+---
 author: alexjmackey
 
 levels:
@@ -7,14 +7,20 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: feature
 
-links: 
-  
+inAlgoPool: false
+
+
+links:
+
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){website}'
-  
+
+
+---
+
+# Destructuring (Part 3)
+
 ---
 ## Content
 
@@ -44,3 +50,4 @@ Below we will ignore the second (200) value:
 ```
 [x, , z] = f(100,200, 300);
 ```
+

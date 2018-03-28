@@ -1,4 +1,4 @@
-# Const (Part 1)
+---
 author: alexjmackey
 
 levels:
@@ -6,6 +6,10 @@ levels:
   - beginner
 
 type: normal
+
+category: must-know
+
+inAlgoPool: false
 
 tags:
 
@@ -15,13 +19,15 @@ tags:
 
   - memory
 
-inAlgoPool: false
-
-category: must-know
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const){website}'
+
+
+---
+
+# Const (Part 1)
 
 ---
 ## Content
@@ -51,3 +57,4 @@ if(1==1){
    const year = 2016; //valid
 }
 ```
+

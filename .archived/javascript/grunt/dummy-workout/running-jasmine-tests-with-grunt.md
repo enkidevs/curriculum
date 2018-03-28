@@ -1,4 +1,4 @@
-# Running Jasmine tests with Grunt
+---
 author: tommarshall
 
 levels:
@@ -16,6 +16,9 @@ category: tip
 links:
 
   - '[github.com](https://github.com/gruntjs/grunt-contrib-jasmine){website}'
+
+---
+# Running Jasmine tests with Grunt
 
 ---
 ## Content
@@ -69,7 +72,7 @@ Complete the following JS code snippet to load the `contrib-jasmine` plugin:
 grunt.???('contrib-jasmine');
 ```
 
-* `loadNpmTasks`
-* `loadNpmPlugins`
-* `loadPlugin`
-* `runPlugin`
+* loadNpmTasks
+* loadNpmPlugins
+* loadPlugin
+* runPlugin

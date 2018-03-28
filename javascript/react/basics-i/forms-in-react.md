@@ -1,4 +1,4 @@
-# Forms in **React**
+---
 author: catalin
 
 levels:
@@ -15,15 +15,19 @@ type: normal
 
 category: must-know
 
-parent: rendering-multiple-components
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/forms.html)'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/forms.html){website}'
+
+parent: rendering-multiple-components
+
+---
+
+# Forms in **React**
 
 ---
 ## Content
-
 
 While standard *HTML behaviour* of `<input />`, `<textarea />` or `<select />` elements work in **React**, having `JS` functions handling updates and submission is highly advised.
 
@@ -90,6 +94,7 @@ With consistency in mind, *form elements* in **React** work a little differently
   <option value='a'>A</option>
 </select>
 ```
+
 ---
 ## Practice
 
@@ -123,6 +128,7 @@ ReactDOM.render(
 );
 
 ```
+
 * `setState`
 * `value`
 * `onChange`
@@ -134,7 +140,6 @@ ReactDOM.render(
 * `onHandleChange`
 * `selected`
 
-
 ---
 ## Revision
 
@@ -142,7 +147,9 @@ What is a **controlled component**?
 
 A component ???.
 
+
 * whose `state` is the **single source of truth**
 * using **React**-specific *form elements*
 * without `props`
 * with any *HTML form elements*
+

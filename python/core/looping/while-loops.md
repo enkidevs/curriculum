@@ -1,4 +1,4 @@
-# `while` loops
+---
 author: tommarshall
 
 levels:
@@ -7,9 +7,18 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+standards:
+  py.control-structures.3: 10
+  py.identify-python-syntax.0: 10
+
+
+---
+
+# `while` loops
 
 ---
 ## Content
@@ -56,7 +65,8 @@ while (x < 5):
 ```
 ???
 
-*`1 2 3 4 5`
-*`0 1 2 3 4`
-*`1 2 3 4`
-*`0 1 2 3 4 5`
+
+* `1 2 3 4 5`
+* `0 1 2 3 4`
+* `1 2 3 4`
+* `0 1 2 3 4 5`

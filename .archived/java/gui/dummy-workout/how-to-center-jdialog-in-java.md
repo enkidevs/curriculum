@@ -1,4 +1,4 @@
-# How to center `JDialog` in Java
+---
 author: pawel
 
 levels:
@@ -23,6 +23,9 @@ links:
 
   - >-
     [www.coderanch.com](http://www.coderanch.com/t/343686/GUI/java/setLocationRelativeTo){website}
+
+---
+# How to center `JDialog` in Java
 
 ---
 ## Content
