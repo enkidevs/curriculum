@@ -1,4 +1,4 @@
-# Automatic Browser Refresh
+---
 author: tommarshall
 
 levels:
@@ -12,6 +12,9 @@ levels:
 type: normal
 
 category: tip
+
+---
+# Automatic Browser Refresh
 
 ---
 ## Content

@@ -30,7 +30,7 @@ Promises advantages really become apparent when you start working with more comp
 
 We can chain promises together using the **then** function:
 
-```
+```javascript
 var p =
 new Promise(function(resolve, reject){
   setTimeout(function(){resolve("enki")},
@@ -51,3 +51,21 @@ new Promise(function(resolve, reject){
 //finished
 ```
 
+---
+## Quiz
+### How will this Promise evaluate?
+
+Will the two `console.log` statements output the same number, or different numbers?
+
+```javascript
+const p = new Promise(resolve => {
+  resolve(Math.random())
+})
+
+// do these 2 log different or same value?
+p.then(console.log) 
+p.then(console.log)
+```
+
+* Same
+* Different

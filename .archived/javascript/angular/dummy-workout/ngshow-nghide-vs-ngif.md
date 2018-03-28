@@ -1,4 +1,4 @@
-# ngShow/ngHide VS. ngIf
+---
 author: achatt89
 
 levels:
@@ -9,6 +9,9 @@ levels:
 type: normal
 
 category: must-know
+
+---
+# ngShow/ngHide VS. ngIf
 
 ---
 ## Content

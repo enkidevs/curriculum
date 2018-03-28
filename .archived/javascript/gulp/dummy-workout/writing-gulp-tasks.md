@@ -1,4 +1,4 @@
-# Writing Gulp Tasks
+---
 author: tommarshall
 
 levels:
@@ -15,6 +15,9 @@ links:
 
   - >-
     [scotch.io](https://scotch.io/tutorials/automate-your-tasks-easily-with-gulp-js){website}
+
+---
+# Writing Gulp Tasks
 
 ---
 ## Content
@@ -55,12 +58,12 @@ Create a simple task for the name `enki`:
 });
 ```
 
-*`gulp`
-*`task`
-*`console`
-*`log`
-*`grunt`
-*`tasks`
+* gulp
+* task
+* console
+* log
+* grunt
+* tasks
 
 ---
 ## Revision
@@ -72,9 +75,9 @@ Create a simple task for the name `enki`:
 });
 ```
 
-*`gulp`
-*`task`
-*`console`
-*`log`
-*`grunt`
-*`tasks`
+* gulp
+* task
+* console
+* log
+* grunt
+* tasks

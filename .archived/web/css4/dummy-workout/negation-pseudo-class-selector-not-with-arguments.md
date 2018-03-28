@@ -1,4 +1,4 @@
-# Negation pseudo-class selector `:not` with arguments
+---
 author: nene
 
 levels:
@@ -20,6 +20,9 @@ tags:
 links:
 
   - '[css4.rocks](http://css4.rocks/selectors-level-4/){website}'
+
+---
+# Negation pseudo-class selector `:not` with arguments
 
 ---
 ## Content

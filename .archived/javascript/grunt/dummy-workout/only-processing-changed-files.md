@@ -1,4 +1,4 @@
-# Only Processing Changed Files
+---
 author: tommarshall
 
 levels:
@@ -16,6 +16,9 @@ category: best practice
 links:
 
   - '[grunt-tasks.com](http://grunt-tasks.com/grunt-newer/){website}'
+
+---
+# Only Processing Changed Files
 
 ---
 ## Content

@@ -1,4 +1,4 @@
-# Setup and Teardown
+---
 author: tommarshall
 
 levels:
@@ -21,6 +21,9 @@ links:
 
   - >-
     [medium.com](https://medium.com/angularjs-meetup-south-london/angular-unit-testing-with-jasmine-24795a44998e#.pvhiw0667){website}
+
+---
+# Setup and Teardown
 
 ---
 ## Content

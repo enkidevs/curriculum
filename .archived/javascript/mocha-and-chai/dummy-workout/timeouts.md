@@ -1,4 +1,4 @@
-# Timeouts
+---
 author: tommarshall
 
 levels:
@@ -20,6 +20,9 @@ tags:
 links:
 
   - '[mochajs.org](http://mochajs.org/#hooks){website}'
+
+---
+# Timeouts
 
 ---
 ## Content
@@ -73,10 +76,10 @@ How do you disable timeouts altogether?
 ```
 ???.???(???);
 ```
-*`this`
-*`timeout`
-*`0`
-*`destroy`
-*`2000`
-*`stop`
-*`cancel`
+* this
+* timeout
+* 0
+* destroy
+* 2000
+* stop
+* cancel

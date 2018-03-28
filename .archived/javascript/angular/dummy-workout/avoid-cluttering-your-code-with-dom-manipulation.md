@@ -1,4 +1,4 @@
-# Avoid cluttering your code with DOM manipulation
+---
 author: urish2
 
 levels:
@@ -20,6 +20,9 @@ notes: ''
 links:
 
   - '[twitter.com](http://twitter.com/urishaked){website}'
+
+---
+# Avoid cluttering your code with DOM manipulation
 
 ---
 ## Content

@@ -1,4 +1,4 @@
-# Using initializer blocks to minimize code repetition in constructors
+---
 author: adamMontgomerie
 
 levels:
@@ -19,6 +19,9 @@ links:
 
   - >-
     [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/javaOO/initial.html){website}
+
+---
+# Using initializer blocks to minimize code repetition in constructors
 
 ---
 ## Content

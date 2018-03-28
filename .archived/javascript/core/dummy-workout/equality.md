@@ -1,4 +1,4 @@
-# Equality
+---
 author: alexjmackey
 
 levels:
@@ -10,6 +10,9 @@ type: normal
 inAlgoPool: false
 
 category: must-know
+
+---
+# Equality
 
 ---
 ## Content
@@ -45,15 +48,15 @@ The following check will evaluate to:
 // ???
 ```
 
-*`true`
-*`false`
+* true
+* false
 
 ---
 ## Revision
 
 `===` is called ???
 
-*strict equality
-*loose equality
-*triple equality
-*not equal
+* strict equality
+* loose equality
+* triple equality
+* not equal

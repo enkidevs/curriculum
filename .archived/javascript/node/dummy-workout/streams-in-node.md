@@ -1,4 +1,4 @@
-# Streams in **Node**
+---
 author: catalin
 
 levels:
@@ -17,6 +17,9 @@ links:
 
   - >-
     [www.sitepoint.com](http://www.sitepoint.com/basics-node-js-streams/){website}
+
+---
+# Streams in **Node**
 
 ---
 ## Content
@@ -68,12 +71,12 @@ Complete the code so that you read from a stream with a `str` event callback:
 });
 ```
 
-* `readStream`
-* `str`
-* `readable`
-* `streamRead`
-* `data`
-* `argv`
+* readStream
+* str
+* readable
+* streamRead
+* data
+* argv
 
 ---
 ## Revision
@@ -84,7 +87,7 @@ readStream.???(???, myFunction() );
 
 ```
 
-*`on`
-*`'end'`
-*`'data'`
-*`end`
+* on
+* 'end'
+* 'data'
+* end

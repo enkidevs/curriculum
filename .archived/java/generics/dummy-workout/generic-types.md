@@ -1,4 +1,4 @@
-# Generic Types
+---
 author: abhavk
 
 levels:
@@ -14,6 +14,9 @@ category: must-know
 links:
 
   - '[www.oracle.com](www.oracle.com){website}'
+
+---
+# Generic Types
 
 ---
 ## Content

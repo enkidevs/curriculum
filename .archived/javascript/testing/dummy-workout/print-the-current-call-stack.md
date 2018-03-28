@@ -1,4 +1,4 @@
-# Print the current call stack
+---
 author: Bruno
 
 levels:
@@ -14,6 +14,9 @@ category: how to
 links:
 
   - '[stackoverflow](http://stackoverflow.com/questions/280389){discussion}'
+
+---
+# Print the current call stack
 
 ---
 ## Content
@@ -41,11 +44,11 @@ function stack() {
 console.log(stack())
 ```
 
-* `Error()`
-* `e.stack`
-* `Fault()`
-* `Error`
-* `e`
-* `stack`
-* `error.stack`
-* `stack.e`
+* Error()
+* e.stack
+* Fault()
+* Error
+* e
+* stack
+* error.stack
+* stack.e

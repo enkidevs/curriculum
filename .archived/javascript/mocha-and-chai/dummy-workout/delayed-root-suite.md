@@ -1,4 +1,4 @@
-# Delayed Root Suite
+---
 author: tommarshall
 
 levels:
@@ -20,6 +20,9 @@ tags:
 links:
 
   - '[mochajs.org](http://mochajs.org/#hooks){website}'
+
+---
+# Delayed Root Suite
 
 ---
 ## Content
@@ -48,10 +51,10 @@ setTimeout(function() {
 
 What function does the `--delay` flag give you access to? ???
 
-* `run();`
-* `callback();`
-* `execute();`
-* `compile();`
+* run();
+* callback();
+* execute();
+* compile();
 
 ---
 ## Revision
@@ -60,7 +63,7 @@ What flag must be *Mocha* run with to be provided with `run()` function in the g
 
 ???
 
-* `--delay`
-* `--delay-root`
-* `--async`
-* `--run`
+* --delay
+* --delay-root
+* --async
+* --run

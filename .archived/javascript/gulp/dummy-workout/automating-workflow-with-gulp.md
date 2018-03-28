@@ -1,4 +1,4 @@
-# Automating Workflow with Gulp
+---
 author: tommarshall
 
 levels:
@@ -19,6 +19,9 @@ links:
     [github.com](https://github.com/gulpjs/gulp/blob/master/docs/recipes/automate-release-workflow.md){website}
 
   - '[sass-lang.com](http://sass-lang.com/){website}'
+
+---
+# Automating Workflow with Gulp
 
 ---
 ## Content
@@ -67,10 +70,10 @@ gulp.task('sass', function () {
     .pipe(gulp.???('./public/css')); 
 }); 
 ```
-*`pipe` 
-*`dest` 
-*`move` 
-*`pass` 
-*`destination` 
-*`src` 
-*`out`
+* pipe
+* dest
+* move
+* pass
+* destination
+* src
+* out

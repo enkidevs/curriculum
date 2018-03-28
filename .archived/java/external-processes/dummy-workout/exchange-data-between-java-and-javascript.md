@@ -1,4 +1,4 @@
-# Exchange data between Java and JavaScript
+---
 author: pawel
 
 levels:
@@ -14,6 +14,9 @@ type: normal
 category: how to
 
 notes: ''
+
+---
+# Exchange data between Java and JavaScript
 
 ---
 ## Content

@@ -1,4 +1,4 @@
-# Immediately-Invoked Function Expression (IIFE)
+---
 author: alexjmackey
 
 levels:
@@ -17,6 +17,9 @@ links:
     [benalman.com](http://benalman.com/news/2010/11/immediately-invoked-function-expression/){website}
 
   - '[Greg Franko](http://gregfranko.com/blog/i-love-my-iife/){website}'
+
+---
+# Immediately-Invoked Function Expression (IIFE)
 
 ---
 ## Content
@@ -48,8 +51,8 @@ The syntax for declaring an IIFE function is:
  // code
 })???;
 ```
-*`function()`
-*`()`
-*`functionName()`
-*`{}`
-*`apply`
+* function()
+* ()
+* functionName()
+* {}
+* apply

@@ -1,4 +1,4 @@
-# `yield` keyword
+---
 author: catalin
 
 levels:
@@ -18,6 +18,9 @@ links:
 
   - >-
     [pythontips.com](http://pythontips.com/2013/09/29/the-python-yield-keyword-explained/){website}
+
+---
+# `yield` keyword
 
 ---
 ## Content
@@ -72,20 +75,20 @@ print(next(a))
 #output: ???
 ```
 
-*`StopIteration error` 
-*`1` 
-*`2` 
-*`'1'` 
-*`'2'` 
-*`Generator error`
+* StopIteration error
+* 1 
+* 2 
+* "'1'"
+* "'2'"
+* Generator error
 
 ---
 ## Revision
 
 When a generator is iterated over for the first time, the code will be run from the start until ???.
 
-*`the first yield keyword is found` 
-*`the last yield keyword` 
-*`the end of the code` 
-*`all yield keywords are gone through` 
-*`end of time`
+* the first yield keyword is found
+* the last yield keyword
+* the end of the code
+* all yield keywords are gone through
+* end of time

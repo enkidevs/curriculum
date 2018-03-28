@@ -1,4 +1,4 @@
-# `Module`s everywhere!
+---
 author: catalin
 
 levels:
@@ -21,6 +21,9 @@ links:
 
   - >-
     [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#modules){website}
+
+---
+# `Module`s everywhere!
 
 ---
 ## Content
@@ -70,18 +73,18 @@ def favourite(topic):
 python_mod.favourite("Python") 
 ``` 
 
-*`import` 
-*`as` 
-*`inherit` 
-*`declare` 
-*`named` 
-*`new`
+* import 
+* as
+* inherit
+* declare
+* named
+* new
 
 ---
 ## Revision
 
 Modules are files which can be ??? in other modules or in the main module. 
 
-*imported
-*inherited
-*used
+* imported
+* inherited
+* used

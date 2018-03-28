@@ -1,4 +1,4 @@
-# Jasmine Custom Equality Testers
+---
 author: tommarshall
 
 levels:
@@ -23,6 +23,9 @@ links:
 
   - >-
     [books.google.co.uk](https://books.google.co.uk/books?id=WNmtCAAAQBAJ&pg=PA66&lpg=PA66&dq=custom+equality+testers+jasmine&source=bl&ots=PVJUoIkOEp&sig=FlgUdGy2xtn31ucBcLjB_QIc9y0&hl=en&sa=X&ved=0ahUKEwiXjaPAvLjKAhXJfRoKHX9xBQIQ6AEINjAE#v=onepage&q&f=false){website}
+
+---
+# Jasmine Custom Equality Testers
 
 ---
 ## Content
@@ -66,11 +69,11 @@ it("string test", function() {
 
 A custom equality tester must take ??? arguments as parameters, return ??? if the objects are equal, and ??? if they cannot be compared.
 
-*2
-*true
-*undefined
-*1
-*0
-*-1
-*false
-*null
+* 2
+* true
+* undefined
+* 1
+* 0
+* -1
+* false
+* null

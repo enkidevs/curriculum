@@ -1,4 +1,4 @@
-# Hide unparsed view code using `ng-cloak`
+---
 author: urish2
 
 levels:
@@ -10,6 +10,9 @@ levels:
 type: normal
 
 category: how to
+
+---
+# Hide unparsed view code using `ng-cloak`
 
 ---
 ## Content

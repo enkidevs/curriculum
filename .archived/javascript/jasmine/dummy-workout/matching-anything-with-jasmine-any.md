@@ -1,4 +1,4 @@
-# Matching anything with `jasmine.any`
+---
 author: tommarshall
 
 levels:
@@ -22,6 +22,9 @@ links:
   - >-
     [www.joezimjs.com](http://www.joezimjs.com/javascript/javascript-unit-testing-with-jasmine-part-2/
     ){website}
+
+---
+# Matching anything with `jasmine.any`
 
 ---
 ## Content
@@ -70,11 +73,11 @@ describe('jasmine testing', function(){
    });
 });
 ```
-*`not.toEqual` 
-*`any` 
-*`Number` 
-*`int` 
-*`toEqual` 
-*`false` 
-*`notEqual` 
-*`equals`
+* not.toEqual
+* any
+* Number 
+* int
+* toEqual 
+* false
+* notEqual
+* equals

@@ -1,4 +1,4 @@
-# Generating Sourcemaps for Sass
+---
 author: tommarshall
 
 levels:
@@ -16,6 +16,9 @@ category: how to
 links:
 
   - '[github.com](https://github.com/gruntjs/grunt-contrib-sass){website}'
+
+---
+# Generating Sourcemaps for Sass
 
 ---
 ## Content
