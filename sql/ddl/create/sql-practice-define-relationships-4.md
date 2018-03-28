@@ -33,3 +33,5 @@ links:
 ## Exercise
 
 Create a foreign key reference to relate the `users` table to itself. Ensure that the `manager` column only contains references to the `id` field within `users`.
+When you are finished, run this query and check that it **fails**:  
+`UPDATE users SET manager = 46`

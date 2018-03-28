@@ -15,9 +15,7 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/715078/2
-
-answer: varchar
+link: http://sqlfiddle.com/#!9/ae6640/1
 
 standards:
   sql.define-columns.0: 1000
@@ -36,5 +34,17 @@ links:
 ---        
 ## Exercise
 
-Consider `users` table. Now, we just realized that `facebook_id` is too verbose for a column name. Change the column's name to `fb_id`.
-In order to check your results, write the query for the relationship and `build schema` again. After that run the query provided and answer with the data type the result prints.
+We've added a new feature, now we need you to update the database.  
+We've allowed users to use their twitter ID as well as their facebook ID.  
+However, we only allow them to use facebook OR twitter, not both. For reasons.   
+Change the name of the `facebook_id` column to reflect that you can use either ID, change the name to `social_id`.
+We'll also need a new column that indicates whether they used facebook or twitter.  
+Create a new column called `social_type`, and set all the values to `facebook`.  
+Ensure that any new rows that are created default to `facebook`.  
+
+This query should work properly when you've completed your task.
+
+```
+SELECT COUNT(social_type) FROM users
+GROUP BY social_type;
+```

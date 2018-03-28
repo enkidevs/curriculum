@@ -22,9 +22,9 @@ standards:
 
 
 links:
-  - '[mysql modify columns documentation](https://dev.mysql.com/doc/refman/5.7/en/create-table-foreign-keys.html){website}'
-  - '[blog post on mysql define tables](http://www.anchor.com.au/hosting/support/CreatingAQuickMySQLRelationalDatabase){website}'
-  - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=zhk-q4EvV2o){video}'
+  - '[mysql create foreign keys](https://dev.mysql.com/doc/refman/5.7/en/create-table-foreign-keys.html){website}'
+  - '[explainer on foreign keys](https://www.w3schools.com/sql/sql_foreignkey.asp){website}'
+  - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=GU_zYgXXOzE){video}'
 
 ---
 

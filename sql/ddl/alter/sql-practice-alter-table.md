@@ -15,24 +15,26 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/502b6a/1
-
-answer: varchar
+link: http://sqlfiddle.com/#!9/a0bc12
 
 standards:
-  sql.define-columns.0: 1000
   sql.define-columns.1: 1000
+  sql.define-columns.2: 1000
 
 links:
   - '[mysql modify columns documentation](https://dev.mysql.com/doc/refman/5.7/en/alter-table.html){website}'
-  - '[blog post on mysql define tables](https://www.tutorialspoint.com/mysql/mysql-alter-command.htm){website}'
-  - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=Epj5cb5HF9o){video}'
+  - '[blog post on mysql define tables](https://www.w3schools.com/sql/sql_alter.asp){website}'
+  - '[video tutorial on alter table](https://youtu.be/vDr2DZeU5mY?t=50s){video}'
 
 ---
+
 # SQL Practice Aggregate Average
 
 ---        
 ## Exercise
 
-Consider `item_pictures` table. Now it seems to be a thing we haven't considered while we created this table. That is URLs don't have a fixed length. Modify `item_pictures` table to adapt to the problem presented.
-In order to check your results, write the query for the relationship and `build schema` again. After that run the query provided and answer with the data type the result prints.
+Consider the `item_pictures` table. When we originally created the schema, we made the length far too short!  
+Unfortunately, the schema is already in production, so we can't drop the database and re-create it.  
+Write a statement to modify the `item_pictures` table to adapt to the problem presented.  
+Don't directly edit the tables, use a statement to change the tables.  
+To submit, run your SQL and then add the link from SQLFiddle to your submission.  
