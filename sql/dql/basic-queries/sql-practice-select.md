@@ -32,4 +32,8 @@ links:
 ---        
 ## Exercise
 
-Find the accuracy of the move having `id` equal to `10`.
+Follow the link above to SQLFiddle. Run **Build Schema**. This creates and populates the Pokemon database.
+
+In the right-hand window, write a SQL query that answers the following question:
+
+What is the accuracy of the move having `id` equal to `10`?

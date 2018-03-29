@@ -12,7 +12,9 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/b3fa3a
+link: http://sqlfiddle.com/#!9/b3fa3a/53
+
+answer: arbok, ekans, ivysaur
 
 standards:
   sql.read-single-table.0: 1000
@@ -29,4 +31,6 @@ links:
 ---        
 ## Exercise
 
-Find all pokemon names that start with a vowel
+In SQLFiddle, write a SQL query that finds all Pokemon with names that begin with a vowel.
+
+In the answer field, list the names in alphabetical order. 

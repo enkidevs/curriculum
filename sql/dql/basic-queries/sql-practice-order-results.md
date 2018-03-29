@@ -13,7 +13,7 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/b3fa3a
+link: http://sqlfiddle.com/#!9/b3fa3a/51
 
 answer: 'cherish-ball, premier-ball'
 
@@ -33,4 +33,8 @@ links:
 ---        
 ## Exercise
 
-First find names and fling_power all items that cost between 100 and 500. Order them by the fling_power. In the answer field only write the names of the the items with smallest and biggest fling power from the result.
+In SQLFiddle, write a SQL query that executes the following:
+
+Return the `name` and `fling_power` all items that cost between 100 and 500, ordered by the `fling_power`.
+
+In the answer field, write the name of the item with the smallest fling power and the name of the item with the greatest fling power within this range.

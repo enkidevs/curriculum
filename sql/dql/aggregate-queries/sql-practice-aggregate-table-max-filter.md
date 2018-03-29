@@ -31,4 +31,6 @@ links:
 ---        
 ## Exercise
 
-Write a query that finds maximum `cost` for each `fling_effect` group, only if the `fling_power` is smaller than `25`.
+In SQLFiddle, write a SQL query that answers the following question:
+
+Considering only items with `fling_power` less than 25, what is the maximum `cost` of an item in each fling effect group? 
