@@ -18,9 +18,7 @@ link: http://sqlfiddle.com/#!9/b3fa3a
 answer: 'cherish-ball, premier-ball'
 
 standards:
-  sql.read-single-table.0: 1000
-  sql.read-single-table.1: 1000
-  sql.read-single-table.3: 1000
+  cs.analyze-complexity-pathfinding-algorithms.6: 1000
 
 links:
   - '[mysql ORDER BY documentation](https://dev.mysql.com/doc/refman/5.7/en/order-by-optimization.html){website}'
