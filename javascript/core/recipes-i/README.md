@@ -9,4 +9,9 @@ insights:
   - using-the-double-tilde
   - quick-way-to-format-integers-with-a-fixed-number-of-digits
 
+exercises:
+  - js-practice-number-tostring
+  - js-practice-number-tofixed
+  - js-practice-math-round
+
 game: using-the-double-tilde-game

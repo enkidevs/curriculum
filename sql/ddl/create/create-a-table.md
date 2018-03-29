@@ -20,15 +20,14 @@ standards:
   sql.define-tables.1: 10
 
 tags:
-
   - introduction
-
   - workout
 
 
 links:
-
-  - '[More on creatin a table](https://www.tutorialspoint.com/sql/sql-create-table.htm){website}'
+  - '[mysql define tables documentation](https://dev.mysql.com/doc/refman/5.7/en/creating-tables.html){website}'
+  - '[explainer on how to create tables](https://www.w3schools.com/sql/sql_create_table.asp){website}'
+  - '[video tutorial on creating tables](https://youtu.be/EaRj0S3K32Y?t=58s){video}'
 
 
 ---
@@ -79,11 +78,12 @@ Create a table that:
 ---
 ## Revision
 
-Which of the following queries would create a table that is called employees: 
+Which of the following queries would create this table:  
 
-column1 -> ID char(50)
-column2 -> full_name char(50)
-column3 -> salary int
+is called `employees`  
+column1: ID char(50)  
+column2: full_name char(50)  
+column3: salary int  
 
 ???
 
