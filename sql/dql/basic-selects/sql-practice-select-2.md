@@ -17,7 +17,7 @@ answer: bulbasaur, 7, 69
 
 standards:
   sql.read-single-table.0: 1000
-  sql.read-single-table.1: 1000
+  sql.read-single-table.2: 1000
 
 links:
   - '[mysql SELECT documentation](https://dev.mysql.com/doc/mysql-tutorial-excerpt/5.6/en/selecting-rows.html){website}'

@@ -17,7 +17,7 @@ answer: 4, 300, 5, 33, 4, heal-ball
 
 standards:
   sql.read-single-table.0: 1000
-  sql.read-single-table.1: 1000
+
 
 links:
   - '[mysql SELECT documentation](https://dev.mysql.com/doc/mysql-tutorial-excerpt/5.6/en/selecting-rows.html){website}'
