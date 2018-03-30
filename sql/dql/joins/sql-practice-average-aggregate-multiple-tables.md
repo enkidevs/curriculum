@@ -13,9 +13,9 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/58d6e/66
+link: http://sqlfiddle.com/#!9/58d6e/71
 
-answer: /badly-poison/
+answer: /berry-effect/
 
 standards:
   sql.read-multiple-tables.0: 1000
@@ -33,4 +33,4 @@ links:
 
 In SQLFiddle, write a SQL query that uses a join to answer the following question:
 
-What is the `name` of the fling effect with the smallest average `cost` (non-null) across all items with that effect?
+What is the `name` of the fling effect with the smallest average `cost` across all items with that effect?

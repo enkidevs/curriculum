@@ -31,4 +31,5 @@ links:
 ## Exercise
 
 In SQLFiddle, write a SQL query that uses a join to answer the following question:
+
 Use joins to find the name and the maximum value of all moves.
