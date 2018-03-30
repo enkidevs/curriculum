@@ -1,5 +1,5 @@
-# Images
-author: matthew-leach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -11,11 +11,40 @@ category: must-know
 
 tags:
   - introduction
-
+---
+# Images
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+In HTML, images are defined with the `<img>` tag.
+
+Example:
+```
+<img src="URL" alt="Image description"
+width="36px" height="36px"
+>
+```
+or
+```
+<img src="sky.png" alt="Beautiful sunny sky" 
+height="36px" width="36px">
+
+```
+The `src` attribute specifies the URL of the image.
+If for some reason the picture cannot be loaded, the alt attribute specifies the text shown instead.
+
+The most common image formats are `.gif`, `.png`, `.jpg` and `.svg`. 
+
+
+**Note: `.img` files are not image files. They are similar to `.iso` files and are used for keeping a backup copy of a disk in a single file, with information about that file.**
+
+
+It is important to set the image width and height attributes. Setting those attributes reserves space on the page when it is loaded and prevents layout shifts. 
+
+If you do not set those attributes, the browser won't know how much space to leave the image until it starts loading it.
+It is very important to either set both the width and height attributes or neither of them.
+
+For some image formats, this isn't mandatory and won't cause problems. However, for some like the `.svg` which scales differently, it is important to specify both the height and width you want your picture to be. However, if no attribute is set, the image will load in its default values.
 
 ---
 ## Practice
@@ -79,7 +108,7 @@ Why is assigning height & width attributes to an image size more useful than set
 * When image size needs to override the CSS size setting.
 * When the height and width is differen than the default image size.
 
-If a image does not have an assigned height and width using HTML or CSS, how will the image display within a web page?
+If an image does not have an assigned height and width using HTML or CSS, how will the image display within a web page?
 
 ???
 
