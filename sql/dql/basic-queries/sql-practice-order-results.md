@@ -15,7 +15,7 @@ linkType: sqlfiddle
 
 link: http://sqlfiddle.com/#!9/b3fa3a/51
 
-answer: 'cherish-ball, premier-ball'
+answer: /cherish-ball.*premier-ball/
 
 standards:
   sql.read-single-table.0: 1000
