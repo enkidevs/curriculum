@@ -3,11 +3,9 @@ author: SebaRaba
 
 levels:
   - beginner
-  - basic
 
 tags:
   - introduction
-  - workout
 
 type: exercise
 
@@ -34,6 +32,8 @@ links:
 
 Follow the link above to SQLFiddle. Run **Build Schema**. This creates and populates the Pokemon database.
 
-In the right-hand window, write a SQL query that answers the following question:
+Next, click **Run SQL** and observe the output.
 
-What is the accuracy of the move having `id` equal to `10`?
+Now, alter the query (in the right-hand window) to return all columns from the first 5 rows of the `item` table.
+
+Click **Run SQL** again. Then click **link** in the green bar below the output. This will update the URL in the address bar of your browser. Copy the new URL and paste it into the answer field below.

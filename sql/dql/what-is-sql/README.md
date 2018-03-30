@@ -8,3 +8,6 @@ insights:
   - what-is-a-database-server
   - database-server-types
   - connection-strings
+
+  exercises:
+    - sql-practice-what-is-sql

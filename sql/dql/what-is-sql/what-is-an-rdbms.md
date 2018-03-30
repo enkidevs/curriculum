@@ -34,9 +34,9 @@ links:
 
 In order to learn **SQL** we must understand what a **RDBMS** is. **RDBMS** stands for *Relational Database Management System*, a *Database Management System* that allows the user to create, update and delete the *Relational Database*.
 
-*Relational Database* stores data in a form of well-defined tables from which we can request this data in various ways without changing the internal database organisation.
+*Relational Databases* store data in a form of well-defined tables from which we can request this data in various ways without changing the internal database organization.
 
-To clear things out let's take a look at a few most widely spread software implementations of such RDBMS's:
+These are some of the most widely used software implementations of such RDBMS's:
  - Oracle Database (by Oracle Corp.)
  - MySQL (by Oracle Corp.)
  - Microsoft SQL Server (by Microsoft)
@@ -61,10 +61,10 @@ What language are RDBMS's usually written in?
 ---
 ## Revision
 
-What is RDBMS (Relational Database Management System)?
+What is a RDBMS (Relational Database Management System)?
 ???
 
 
-* It is a piece of software that sits on a server and operates the data using high level language.
+* It is a piece of software that sits on a server and operates on the data using high level language.
 * It is a software system that controls the data and which can be adjusted by the user in order to boost the efficiency of data storage.
 * It is a system of servers/supercomputers that manages a Relational Database.
