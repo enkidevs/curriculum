@@ -13,7 +13,7 @@ linkType: sqlfiddle
 
 link: http://sqlfiddle.com/#!9/352b0f1/1
 
-answer: 4, 300, 5, 33, 4, heal-ball
+answer: /4.*300.*5.*33.*4.*heal-ball/
 
 standards:
   sql.read-single-table.0: 1000

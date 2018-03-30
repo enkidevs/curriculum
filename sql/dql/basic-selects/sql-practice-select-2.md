@@ -13,7 +13,7 @@ linkType: sqlfiddle
 
 link: http://sqlfiddle.com/#!9/e76bd6/1
 
-answer: bulbasaur, 7, 69
+answer: /bulbasaur.*7.*69/
 
 standards:
   sql.read-single-table.0: 1000

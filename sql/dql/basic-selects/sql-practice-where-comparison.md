@@ -13,7 +13,7 @@ linkType: sqlfiddle
 
 link: http://sqlfiddle.com/#!9/7af29d/2
 
-answer: 224, 9, 32, Horn Drill
+answer: /224.*9.*32.*Horn Drill/
 
 standards:
   sql.read-single-table.0: 1000

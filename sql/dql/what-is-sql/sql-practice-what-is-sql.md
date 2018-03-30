@@ -16,7 +16,7 @@ link: http://sqlfiddle.com/#!9/b6963e/1
 answer: kermit@thefrog.pond
 
 standards:
-  None
+  sql.read-single-table.2: 1000
 
   links:
 
