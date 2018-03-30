@@ -13,7 +13,7 @@ linkType: sqlfiddle
 
 link: http://sqlfiddle.com/#!9/b3fa3a
 
-answer: 100
+answer: 224, 9, 32, Horn Drill
 
 standards:
   sql.read-single-table.0: 1000
@@ -36,4 +36,6 @@ Write a query that retrieves all columns from the `move_name` table where the mo
 
 Click **Run SQL**. Then click **link** in the green bar below the output. This will update the URL in the address bar of your browser. Copy the new URL to submit with your answer.
 
-In the answer field, enter 
+In the answer field, enter all the values from the top row of the results.
+
+Example: `222, 11, 300,	Fake Move`
