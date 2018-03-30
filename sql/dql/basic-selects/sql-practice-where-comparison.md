@@ -11,7 +11,7 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/b3fa3a
+link: http://sqlfiddle.com/#!9/7af29d/2
 
 answer: 224, 9, 32, Horn Drill
 
