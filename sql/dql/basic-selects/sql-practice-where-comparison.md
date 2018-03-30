@@ -11,9 +11,9 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/352b0f1/1
+link: http://sqlfiddle.com/#!9/b3fa3a
 
-answer: 4, 300, 5, 33, 4, heal-ball
+answer: 100
 
 standards:
   sql.read-single-table.0: 1000
@@ -32,12 +32,8 @@ links:
 
 Follow the link above to SQLFiddle. Run **Build Schema**. This creates and populates the Pokemon database.
 
-Next, click **Run SQL** and observe the output.
+Write a query that retrieves all columns from the `move_name` table where the move's `id` is greater than 5.
 
-Now, alter the query (in the right-hand window) to return all columns from the first 5 rows of the `item` table.
+Click **Run SQL**. Then click **link** in the green bar below the output. This will update the URL in the address bar of your browser. Copy the new URL to submit with your answer.
 
-Click **Run SQL** again. Then click **link** in the green bar below the output. This will update the URL in the address bar of your browser. Copy the new URL to submit with your answer.
-
-In the answer field, enter the values for all columns in the fourth row returned.
-
-Example: `8, 800, 10, 44, 2, fake-ball`
+In the answer field, enter 

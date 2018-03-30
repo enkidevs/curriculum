@@ -1,5 +1,5 @@
 ---
-author: SebaRaba
+author: claremarie
 
 levels:
   - beginner
@@ -11,9 +11,9 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/b3fa3a
+link: http://sqlfiddle.com/#!9/e76bd6/1
 
-answer: 100
+answer: bulbasaur, 7, 69
 
 standards:
   sql.read-single-table.0: 1000
@@ -36,4 +36,8 @@ Next, click **Run SQL** and observe the output.
 
 Now, alter the query (in the right-hand window) to return the `name`, `height` and `weight` of all members of the `pokemon` table.
 
-Click **Run SQL** again. Then click **link** in the green bar below the output. This will update the URL in the address bar of your browser. Copy the new URL and paste it into the answer field below.
+Click **Run SQL** again. Then click **link** in the green bar below the output. This will update the URL in the address bar of your browser. Copy the new URL to submit with your answer.
+
+In the answer field, enter the name, height, and weight of the Pokemon listed in the top row.
+
+Example: `fakemon, 1000, 29`
