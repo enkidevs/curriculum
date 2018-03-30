@@ -18,6 +18,7 @@ tags:
 
 standards:
   sql.read-single-table.0: 10
+  sql.read-single-table.2: 10
 
 
 links:
