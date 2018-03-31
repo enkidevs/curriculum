@@ -37,22 +37,27 @@ Result:
 ```
 In the example above, the `5-minute workouts` is the hyperlink, and by clicking on the text you are taken to the URL provided in the `href="URL"` attribute. 
 
-`href` attribute is the most important part because it specifies the destination.
+The attribute `href` is the most important element because it specifies the destination(URL).
 
 Where the link opens is set with the `_target=""` attribute.
 
-- _self     - Opens the linked document in the same tab or window
-- _top      - Opens the linked document in the full body of the window
-- _parent   - Opens the linked document in the parent frame
-- _blank    - Opens the linked document in a new tab or window
-- framename - Opens the linked document in a named frame
+- _self     - Opens the link in the same tab or window
+- _top      - Opens the link in the full body of the window
+- _parent   - Opens the link in the parent frame
+- _blank    - Opens the link in a new tab or window
+- framename - Opens the link in a named frame
 
-Opening link in another tab:
+Opening the link in a different tab:
 ```
 <a href="https://www.enki.com/" 
   target="_blank"> 5 minute workouts </a> 
 ```
-If no target is set, the linked page or document is opened in current tab.
+**Note:If no target is set, the linked page or document is opened in the current tab.**
+
+You can also create `placeholder` links. These are links that can be clicked, but do nothing.
+```
+<a href="#">Empty href</a>
+```
 
 Next to linking through text, it is also common to link through pictures.
 
