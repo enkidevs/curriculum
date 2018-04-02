@@ -9,7 +9,6 @@ levels:
 tags:
   - introduction
   - workout
-  - deep
 
 type: exercise
 
