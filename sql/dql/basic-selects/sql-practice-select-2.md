@@ -11,7 +11,7 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/e76bd6/1
+link: http://sqlfiddle.com/#!9/e76bd6/2
 
 answer: /bulbasaur.*7.*69/
 
