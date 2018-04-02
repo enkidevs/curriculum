@@ -15,7 +15,7 @@ linkType: sqlfiddle
 
 link: http://sqlfiddle.com/#!9/b3fa3a/53
 
-answer: arbok, ekans, ivysaur
+answer: /arbok.*ekans.*ivysaur/
 
 standards:
   sql.read-single-table.0: 1000
