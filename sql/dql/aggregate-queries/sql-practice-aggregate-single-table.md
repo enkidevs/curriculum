@@ -15,11 +15,12 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/b3fa3a/54
+link: http://sqlfiddle.com/#!9/c535b7/1
 
 answer: 1142
 
 standards:
+  sql.read-single-table.2: 1000
   sql.aggregate-single-table.0: 1000
 
 links:

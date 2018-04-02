@@ -15,7 +15,7 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/58d6e/70
+link: http://sqlfiddle.com/#!9/1a0ba4/1
 
 answer: /flinch/
 

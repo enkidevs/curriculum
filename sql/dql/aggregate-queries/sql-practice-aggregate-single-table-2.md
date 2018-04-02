@@ -15,7 +15,7 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/b3fa3a/58
+link: http://sqlfiddle.com/#!9/810583/1
 
 answer: 92
 
