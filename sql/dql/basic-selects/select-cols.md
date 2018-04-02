@@ -2,7 +2,7 @@
 author: claremarie
 
 levels:
-
+  - basic 
   - beginner
 
 type: normal
@@ -47,6 +47,7 @@ The above command retrieves the `name`, `height` and `weight` information for al
 
 Which of the following queries will retrieve only the `id` and `name` columns for all row of the `move_names` table?
 
+???
 
 * `SELECT *, id, name FROM move_names`
 * `SELECT ONLY id, name FROM move_names`
