@@ -13,7 +13,7 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/b3fa3a
+link: http://sqlfiddle.com/#!9/315b7c/1
 
 answer: 100
 
