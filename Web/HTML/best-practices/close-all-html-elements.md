@@ -45,7 +45,7 @@ Content goes here
 
 In HTML5 there are no strict rules for some tags, however it is best practice to use closing tags. Why?
 
-Because, even though HTML5 assumes a new tag cannot start without the previous one being closed, there are older browsers versions that do not support HTML5. These browsers use XHTML or HTM, both of which have stricter rules.
+Because, even though HTML5 assumes a new tag can start without the previous one being closed, there are older browsers versions that do not support HTML5. These browsers use XHTML or HTM, both of which have stricter rules.
 
 Also, certain tags do not have to have an open tag either, like the `<body>`, `<head>`, `<html>`, etc.. However, for easier readability, it is best to use both the starting and ending tags of an HTML element.
 
