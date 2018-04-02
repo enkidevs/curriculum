@@ -47,6 +47,8 @@ When referring to the *software*, a database server is the program that receives
 
 In the context of database server hardware, what is a *cluster*?
 
+???
+
 * A group of networked machines capable of transacting large amounts of data.
 * A sequence of commands for transforming a dataset.
 * The address that an application uses to access a database.
