@@ -19,8 +19,6 @@ standards:
 
 tags:
 
-  - introduction
-
   - workout
 
   - node
