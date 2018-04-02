@@ -13,7 +13,7 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/b3fa3a/53
+link: http://sqlfiddle.com/#!9/1f5b76/2
 
 answer: /arbok.*ekans.*ivysaur/
 
