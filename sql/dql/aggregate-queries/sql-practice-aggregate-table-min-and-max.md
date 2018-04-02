@@ -14,7 +14,7 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/b3fa3a
+link: http://sqlfiddle.com/#!9/379b8/1
 
 answer: '100, 3000'
 

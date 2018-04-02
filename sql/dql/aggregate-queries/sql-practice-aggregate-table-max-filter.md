@@ -15,7 +15,7 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/58d6e/40
+link: http://sqlfiddle.com/#!9/03be51/1
 
 standards:
   sql.aggregate-single-table.1: 1000
@@ -33,4 +33,4 @@ links:
 
 In SQLFiddle, write a SQL query that answers the following question:
 
-Considering only items with `fling_power` less than 25, what is the maximum `cost` of an item in each fling effect group? 
+Considering only items with `fling_power` less than 25, what is the maximum `cost` of an item in each fling effect group?

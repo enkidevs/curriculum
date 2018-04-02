@@ -7,6 +7,7 @@ levels:
 
 tags:
   - introduction
+  - workout
 
 type: exercise
 
@@ -33,4 +34,4 @@ links:
 
 In SQLFiddle, write a SQL query that finds all Pokemon with names that begin with a vowel.
 
-In the answer field, list the names in alphabetical order. 
+In the answer field, list the names in alphabetical order.
