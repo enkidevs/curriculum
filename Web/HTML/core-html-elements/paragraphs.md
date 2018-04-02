@@ -1,5 +1,5 @@
-# Paragraphs
-author: matthew-leach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -11,11 +11,28 @@ category: must-know
 
 tags:
   - introduction
-
+---
+# Paragraphs
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+In HTML the `<p>` tag defines the start of a paragraph And the `</p>` defines the end.
+
+```
+<p> This is a paragraph </p>
+```
+
+Sometimes you may forget to use the end tag, which the browser can still read properly, however it is best practice to put the end tag because some browsers may not read it properly.
+
+To set a specific size of your paragraph, you would use the `style="font-size:(number)%;"`
+
+```
+<p style="font-size:130%;">This is a paragraph.</p>
+```
+
+You can set the size either with or without the `%`. Although both inputs are correct, they give different sizes.
+
+If you do not set a size for your paragraph, then the default size will be 16px(pixels).
 
 ---
 ## Practice

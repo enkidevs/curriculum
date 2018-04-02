@@ -1,5 +1,5 @@
-# .html vs .htm
-author: mihaiberq
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -13,13 +13,21 @@ stub: true
 
 tags:
   - obscura
-  - obscura
-
-
+---
+# .html vs .htm
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+`.html` and `.htm` are both file extensions for HTML. 
+
+The only difference is that `.htm` was used in the early days when operating systems like DOS did not support file extensions past 3 characters. 
+
+This meant that early DOS users could only use the `.htm` extension.
+
+As for Macintosh users, there was no 3 character limitation, so early Mac users used the `.html` extension.
+
+Later on, when operating systems became stronger, limiting extensions to 3 characters was no longer necessary. Nevertheless, `.htm` extension was still widely used, mostly because people were already used to it.
+
 
 ---
 ## Practice

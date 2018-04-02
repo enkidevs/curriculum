@@ -1,5 +1,5 @@
-# Alt with images
-author: mihaiberq
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -14,12 +14,35 @@ stub: true
 tags:
   - obscura
   - introduction
-
-
+---
+# Alt with images
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+The alt attribute exists to specify an alternate text for an image that cannot be displayed.
+It provides information to the user if for some reason they cannot view the image.
+
+Example:
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<img src="brokenglass.gif" alt="Broken glass">
+
+</body>
+</html>
+
+```
+Here the browsers does not recognize the "brokenglass.gif" file, so instead, the alt property is displayed.
+
+```
+Broken glass
+```
+
+Like in the example above, the alt attribute should describe an image if that image contains information.
+
+However, if the image is only for decoration, then the `alt=""` can be left empty.
 
 ---
 ## Practice
