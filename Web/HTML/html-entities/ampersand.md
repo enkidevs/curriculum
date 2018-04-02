@@ -1,5 +1,6 @@
 # Ampersand
-author: matthewleach
+
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -18,7 +19,40 @@ tags:
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+Some characters in HTML are reserved.  To display these characters you must replace them with character entities.
+
+Character entities are case sensitive and are also used to display characters not present on the keyboard.
+
+An ampersand or the "and" symbol is one of those reserved characters.
+
+To display the ampersand symbol, you can use either the HTML entity *number* or the entity *name*.
+
+HTML Entity Number
+```
+&#38;
+```
+Result:
+```
+&
+```
+
+HTML Entity Name
+```
+&amp;
+```
+Result:
+```
+&
+```
+
+Example:
+```
+<p>Get AT&amp;T free first 3 months!</p>
+```
+Result:
+```
+Get AT&T free first 3 months!
+```
 
 ---
 ## Practice
@@ -53,7 +87,7 @@ What HTML character entity is used to insert an ampersand symbol ("&")?
 
 How much do you know about HTML character entities?
 
-If you have a webpage called “black&white”, what character entitiy is best to use in the following URL:
+If you have a webpage called “black&white”, what character entity is best to use in the following URL:
 
 `<a href="?page=black???white&action=view">Link to B/W</a>`
 

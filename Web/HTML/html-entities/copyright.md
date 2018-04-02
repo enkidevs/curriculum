@@ -1,5 +1,5 @@
 # Copyright
-author: matthewleach
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -18,7 +18,41 @@ tags:
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+Some characters are not easily typed on the keyboard. 
+
+The Copyright (©) is one of those characters. 
+
+To display the Copyright symbol, you can use either the HTML entity *number* or the entity *name*.
+
+HTML Entity Number
+```
+&#169;
+```
+Result:
+```
+©
+```
+
+HTML Entity Name
+```
+&copy;
+```
+Result:
+```
+©
+```
+
+Example:
+```
+<p> Copyright &copy; </p>
+```
+Result:
+```
+Copyright ©
+```
+
+When using the Copyright symbol in your HTML, it is better to use the corresponding HTML entity than typing the symbol. 
+This is because, even if the symbol renders ok on your browser, it may not render the same on other ones. 
 
 ---
 ## Practice
