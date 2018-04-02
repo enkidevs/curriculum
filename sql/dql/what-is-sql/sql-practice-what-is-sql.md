@@ -18,9 +18,9 @@ answer: kermit@thefrog.pond
 standards:
   sql.read-single-table.2: 1000
 
-  links:
+links:
 
-    - '[More Query Languages](https://en.wikipedia.org/wiki/Query_language){website}'
+  - '[More Query Languages](https://en.wikipedia.org/wiki/Query_language){website}'
 
 ---
 # SQL Practice What is SQL
