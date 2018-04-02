@@ -2,7 +2,8 @@
 author: claremarie
 
 levels:
-
+  - basic
+  
   - beginner
 
 type: normal
@@ -82,6 +83,8 @@ FROM move
 ## Revision
 
 Which query will return the `language_id` for the move named `Headbutt`?
+
+???
 
 * `SELECT language_id FROM move_name WHERE name = 'Headbutt';`
 * `FROM 'Headbutt' SELECT language_id;`
