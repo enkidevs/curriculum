@@ -1,5 +1,5 @@
-# Attributes
-author: matthew-leach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -13,9 +13,19 @@ tags:
   - introduction
 
 ---
+# Attributes
+---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+In HTML, elements can have attributes. They are placed in the opening tag and are there to provide extra information. 
+They usually come in name/value pairs and are enclosed in quotation marks.
+
+Example:
+```
+<img src="enki_logo.jpg">
+```
+In the example above the `src="enki_logo.jpg"` is an attribute for the `<img>` tag.
+
 
 ---
 ## Practice
