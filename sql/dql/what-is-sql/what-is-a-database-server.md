@@ -45,10 +45,24 @@ When referring to the *software*, a database server is the program that receives
 ---
 ## Practice
 
-In the context of database server hardware, what is a *cluster*?
+The software on which information in a database is *stored* is called
 
 ???
 
-* A group of networked machines capable of transacting large amounts of data.
-* A sequence of commands for transforming a dataset.
-* The address that an application uses to access a database.
+
+* Database Server
+* Database Client
+* Server Manager
+* Database Application
+
+---
+## Revision
+
+What is a Database Server?
+
+???
+
+* The software that stores information for later retrieval
+* The software that requests information from where it is stored
+* An optional program that a user can install on top of the Database Client
+* The software through which memory is allocated on the server

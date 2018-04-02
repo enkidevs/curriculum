@@ -7,7 +7,7 @@ insights:
   - what-is-an-rdbms
   - what-is-a-database-server
   - database-server-types
-  - connection-strings
+  - what-is-a-database-client
 
 exercises:
   - sql-practice-what-is-sql
