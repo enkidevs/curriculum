@@ -25,6 +25,7 @@ links:
   - '[video tutorial on mysql SELECT](https://www.youtube.com/watch?v=BgK88mlgA6I){video}'
 
 ---
+
 # SQL Practice Select
 
 ---        

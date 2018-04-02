@@ -1,4 +1,4 @@
-name: SELECT
+name: Basic Queries
 
 description: Learn to read data from a SQL Database
 
