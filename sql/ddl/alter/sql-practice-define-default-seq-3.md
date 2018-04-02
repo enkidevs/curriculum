@@ -15,7 +15,7 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/05b0f8/6
+link: http://sqlfiddle.com/#!9/3d4c1
 
 answer: 1
 
@@ -30,9 +30,13 @@ links:
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=5KqFoTswr-M){video}'
 
 ---
-# SQL Practice Aggregate Average
+
+# SQL Practice Sequences
 
 ---        
 ## Exercise
 
-AUTO_INCREMENT starting from 10 instead of 1. On table users. To test your answer run the DQL query provided in the link after you rebuild the schema. In the answer field write the first value in the `AUTO_INCREMENT` table.
+We want to create a new database for our products. We have a lot of products to import- around 10,000 of them. They all already have IDs from our old database, that start at 0. We'll have other associated data that references those IDs as well.
+
+We won't have the data to import for a few weeks, but we know that we want to start adding new products to the database right away.
+Start the auto-incrementing ID at 100,000, just in case there are more than we realized.
