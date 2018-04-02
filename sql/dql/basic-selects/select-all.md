@@ -2,7 +2,8 @@
 author: claremarie
 
 levels:
-
+  - basic
+  
   - beginner
 
 
@@ -48,6 +49,7 @@ The above command gets all of the *columns* and all of the *rows* from the `poke
 
 Which of the following queries will return all columns and all rows from a a table called `item`?
 
+???
 
 * `SELECT * FROM item`
 * `SELECT all FROM item`
@@ -61,6 +63,7 @@ Which of the following queries will return all columns and all rows from a a tab
 
 Which of these symbols is used to denote "all columns" in SQL?
 
+???
 
 * `*`
 * `?`
