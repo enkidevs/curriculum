@@ -15,8 +15,10 @@ inAlgoPool: false
 
 tags:
   - introduction
-
   - workout
+
+standards:
+  sql.define-tables.0: 10
 
 
 links:
@@ -34,37 +36,50 @@ links:
 
 In order to learn **SQL** we must understand what a **RDBMS** is. **RDBMS** stands for *Relational Database Management System*, a *Database Management System* that allows the user to create, update and delete the *Relational Database*.
 
-*Relational Databases* store data in a form of well-defined tables from which we can request this data in various ways without changing the internal database organization.
+*Relational Database* stores data in a form of _tables_, which are similar to a spreadsheet. From these tables, we can request data in various ways, filter it, and store it such that other users can use it. The language we use to do so is called **SQL**. 
 
-These are some of the most widely used software implementations of such RDBMS's:
- - Oracle Database (by Oracle Corp.)
- - MySQL (by Oracle Corp.)
- - Microsoft SQL Server (by Microsoft)
- - PostgreSQL (by PostgreSQL G.D.G)
+In order to query a table, we first have to _define_ it. Here's an example:
+```
+CREATE TABLE users (
+  id INT,
+  name VARCHAR(500)
+);
 
-All of the above solutions are written in *C, C++ and assembly languages*. In short, a **RDBMS** is a program that sits on the server and stores data (in a very efficient way) on a hard drive in some logical order.
-
-Then the user operates on these RDBMS's with *Query Languages*. The one most common and widely used *Query Language* is **SQL**.
+```
 
 ---
 ## Practice
 
-What language are RDBMS's usually written in?
-???
+How do you think we could create a table called `products`?
 
+```
+??? (
+  id INT,
+  name VARCHAR(500),
+  cost FLOAT
+);
+```
 
-* C, C++ or assembly
-* SQL
-* MySQL
-* Java
+* `CREATE TABLE products`
+* `MAKE TABLE products`
+* `rdbms.createTable('products')`
+* `sql.create.table('products')`
 
 ---
 ## Revision
 
-What is a RDBMS (Relational Database Management System)?
-???
+How do you think we could create a table called `coupons`?
 
+```
+??? (
+  id INT,
+  name VARCHAR(500),
+  cost FLOAT
+);
+```
 
-* It is a piece of software that sits on a server and operates on the data using high level language.
-* It is a software system that controls the data and which can be adjusted by the user in order to boost the efficiency of data storage.
-* It is a system of servers/supercomputers that manages a Relational Database.
+* `CREATE TABLE coupons`
+* `MAKE TABLE coupons`
+* `rdbms.createTable('coupons')`
+* `sql.create.table('coupons')`
+
