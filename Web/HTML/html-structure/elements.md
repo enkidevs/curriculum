@@ -41,7 +41,7 @@ In HTML we also have empty elements or **void** elements. These elements don't h
 
 The break `<br>` is one of those elements. 
 
-**Note: Even though the closing tag is optional it is best practice to use the closing tag. 
+**Note: Even though the closing tag is optional in HTML5, it is best practice to use the closing tag. 
 This is especially necessary if you want your document to be readable in either XML or XHTML.**
 
 ---
