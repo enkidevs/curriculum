@@ -9,5 +9,5 @@ insights:
   - database-server-types
   - connection-strings
 
-  exercises:
-    - sql-practice-what-is-sql
+exercises:
+  - sql-practice-what-is-sql
