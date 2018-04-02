@@ -7,12 +7,13 @@ core: true
 sections:
   '0':
     - what-is-sql
-    - database-clients
+    - basic-selects
     - basic-queries    
+    - write
   '1':
     - aggregate-queries
     - joins
-    - write
+    - database-clients
 
 next:
   - sql:ddl
