@@ -1,5 +1,5 @@
-# Comments
-author: matthew-leach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -11,11 +11,31 @@ category: must-know
 
 tags:
   - introduction
-
+---
+# Comments
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+In HTML, you can add comments via a comment tag.
+
+Example:
+```
+<!-- HTML Comment Goes Here -->
+```
+
+HTML comments are very useful. They can be used as reminders for what our code does or help us with adding comments when debugging. Instead of removing a block of code, you can just put it in a comment and later on decide what to do with it.
+
+The good thing about comments is they are not rendered by the browser and are only visible in the source code.
+
+Also, comments can span multiple rows.
+Example:
+```
+<!--
+<h1 Some header</h1>
+<p>Random paragraph.</p>
+<a href="https://www.enki.com">This is a link</a>
+-->
+```
 
 ---
 ## Practice
