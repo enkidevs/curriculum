@@ -13,7 +13,7 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/58d6e/71
+link: http://sqlfiddle.com/#!9/f7b57c/1
 
 answer: /berry-effect/
 
