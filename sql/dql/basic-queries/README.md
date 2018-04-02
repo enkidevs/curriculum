@@ -10,6 +10,6 @@ insights:
   - order-by-clause
 
 exercises:
-  - sql-practice-select
+  - sql-practice-select-1
   - sql-practice-order-results
   - sql-practice-string-matching

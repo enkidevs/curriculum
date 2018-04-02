@@ -14,7 +14,7 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/b3fa3a
+link: http://sqlfiddle.com/#!9/379b8/1
 
 answer: '100, 3000'
 
@@ -32,5 +32,6 @@ links:
 ---        
 ## Exercise
 
-Write a query to find out the minimum and maximum item cost where the fling power is greater than 25. Respond formatted like this:
-min, max
+In SQLFiddle, write a SQL query that answers the following question:
+
+What are the minimum and maximum `cost` for items with `fling_power` greater than 25?

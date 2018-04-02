@@ -14,7 +14,9 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/58d6e/20
+link: http://sqlfiddle.com/#!9/58d6e/56
+
+answer: /Comet Punch, Pound/
 
 standards:
   sql.read-multiple-tables.0: 1000
@@ -31,4 +33,8 @@ links:
 ---
 ## Exercise
 
-Use joins to find the name and the minimum value of accuracy between all moves.
+In SQLFiddle, write a SQL query that uses a join to answer the following question:
+
+What are the names of the two moves with `accuracy` 100?
+
+In the answer field, enter the names in alphabetical order.

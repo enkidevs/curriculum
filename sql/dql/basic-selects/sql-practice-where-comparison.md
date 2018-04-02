@@ -1,21 +1,19 @@
 ---
-author: SebaRaba
+author: claremarie
 
 levels:
   - beginner
-  - basic
 
 tags:
   - introduction
-  - workout
 
 type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/b3fa3a
+link: http://sqlfiddle.com/#!9/7af29d/2
 
-answer: 100
+answer: /224.*9.*32.*Horn Drill/
 
 standards:
   sql.read-single-table.0: 1000
@@ -34,6 +32,10 @@ links:
 
 Follow the link above to SQLFiddle. Run **Build Schema**. This creates and populates the Pokemon database.
 
-In the right-hand window, write a SQL query that answers the following question:
+Write a query that retrieves all columns from the `move_name` table where the move's `id` is greater than 220.
 
-What is the `accuracy` of the move having `id` equal to 10?
+Click **Run SQL**. Then click **link** in the green bar below the output. This will update the URL in the address bar of your browser. Copy the new URL to submit with your answer.
+
+In the answer field, enter all the values from the top row of the results.
+
+Example: `222, 11, 300,	Fake Move`

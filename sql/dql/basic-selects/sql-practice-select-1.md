@@ -1,25 +1,23 @@
 ---
-author: SebaRaba
+author: claremarie
 
 levels:
   - beginner
-  - basic
 
 tags:
   - introduction
-  - workout
 
 type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/b3fa3a
+link: http://sqlfiddle.com/#!9/352b0f1/1
 
-answer: 100
+answer: /4.*300.*5.*33.*4.*heal-ball/
 
 standards:
   sql.read-single-table.0: 1000
-  sql.read-single-table.1: 1000
+
 
 links:
   - '[mysql SELECT documentation](https://dev.mysql.com/doc/mysql-tutorial-excerpt/5.6/en/selecting-rows.html){website}'
@@ -34,6 +32,12 @@ links:
 
 Follow the link above to SQLFiddle. Run **Build Schema**. This creates and populates the Pokemon database.
 
-In the right-hand window, write a SQL query that answers the following question:
+Next, click **Run SQL** and observe the output.
 
-What is the `accuracy` of the move having `id` equal to 10?
+Now, alter the query (in the right-hand window) to return all columns from the first 5 rows of the `item` table.
+
+Click **Run SQL** again. Then click **link** in the green bar below the output. This will update the URL in the address bar of your browser. Copy the new URL to submit with your answer.
+
+In the answer field, enter the values for all columns in the fourth row returned.
+
+Example: `8, 800, 10, 44, 2, fake-ball`

@@ -15,7 +15,7 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/58d6e/44
+link: http://sqlfiddle.com/#!9/1a0ba4/1
 
 answer: /flinch/
 
@@ -34,4 +34,8 @@ links:
 ---        
 ## Exercise
 
-Write a query that counts how many items each `fling_effect` has. What is the name of the `fling_effect` that has `2` items?
+In SQLFiddle, write a series of SQL queries that execute the following:
+
+Count the number of items each fling effect has.
+
+Then, find the `name` of the fling effect with that has exactly 2 items.

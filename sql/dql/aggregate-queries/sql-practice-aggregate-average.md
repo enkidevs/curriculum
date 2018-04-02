@@ -15,7 +15,7 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/58d6e/42
+link: http://sqlfiddle.com/#!9/2eaf6/1
 
 answer: /herb-effect/
 
@@ -34,5 +34,8 @@ links:
 ---        
 ## Exercise
 
-Write a query that will compute the average cost of all items in each `item_fling_effect` group and round the result to an integer.
-What is the name of the group whose average cost is `583`?
+In SQLFiddle, write a SQL query that executes the following:
+
+Compute the average cost of all items in each `item_fling_effect` group and round the result to an integer.
+
+In the answer field, enter the name of the group whose average cost is `583`?

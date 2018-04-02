@@ -15,9 +15,9 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/b3fa3a
+link: http://sqlfiddle.com/#!9/810583/1
 
-answer: 91
+answer: 92
 
 standards:
   sql.aggregate-single-table.0: 1000
@@ -32,4 +32,8 @@ links:
 ---        
 ## Exercise
 
-Compute the average accuracy of `moves` coming from generation `1`.
+In SQLFiddle, write a SQL query that answers the following question:
+
+What is the average accuracy of moves with `generation_id` 1?
+
+Round your answer to the nearest integer.
