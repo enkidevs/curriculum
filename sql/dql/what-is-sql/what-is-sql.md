@@ -33,20 +33,22 @@ links:
 ---
 ## Content
 
-A *Query Language*  is a programming language that provides enough functionality in order to operate on a database. We can think of a *Query Language* as a user interface language with particular syntax which acts as a intermediate layer between the user/database administrator and an **RDBMS** (*Relational Database Management System*).
+*SQL* is a *Query Language*. This means it is a programming language that allows us to ask for data from a database.
 
-The original and the most common query language is **SQL**. **SQL** stands for *Structured Query Language* and was developed in the 1970s. As a user, we do not need to go into detail of how **RDBMS's** work but concentrate on our part of using a relational database. This is why this course will describe **SQL** in all its details.
+*SQL* stands for *Structured Query Language* and was developed in the 1970s. Many databases use it today.
 
-Here's an example:
-```sql
+Here's an example of an SQL Query:
+
+```
 SELECT * FROM users;
 ```
 
 ---
 ## Practice
 
-Let's look at the structure of a SQL query. 
-How do you think you might get all the information from a table called `items`?
+Have you ever used SQL before? Even if you haven't, it's meant to be readable by a human.
+
+See if you can get all the information from a table called `items`:
 
 ???
 

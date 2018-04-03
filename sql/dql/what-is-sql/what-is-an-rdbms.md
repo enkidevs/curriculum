@@ -34,11 +34,14 @@ links:
 ---
 ## Content
 
-In order to learn **SQL** we must understand what a **RDBMS** is. **RDBMS** stands for *Relational Database Management System*, a *Database Management System* that allows the user to create, update and delete the *Relational Database*.
+**RDBMS** stands for *Relational Database Management System*, a *Database Management System* that allows the user to create, update and delete the *Relational Database*.
 
-*Relational Database* stores data in a form of _tables_, which are similar to a spreadsheet. From these tables, we can request data in various ways, filter it, and store it such that other users can use it. The language we use to do so is called **SQL**. 
+*Relational Databases* store data in _tables_, which are similar to a spreadsheet in that they've got rows and columns.
 
-In order to query a table, we first have to _define_ it. Here's an example:
+Using these tables we can query data, and store it such that others can query it. The language we use to _define_ tables is commonly referred to as SQL, but it's real name is DDL, *Data Definition Language*.
+
+Here's an example of how we might define a table:
+
 ```
 CREATE TABLE users (
   id INT,
@@ -82,4 +85,3 @@ How do you think we could create a table called `coupons`?
 * `MAKE TABLE coupons`
 * `rdbms.createTable('coupons')`
 * `sql.create.table('coupons')`
-
