@@ -14,9 +14,9 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/58d6e/56
+link: http://sqlfiddle.com/#!9/7e1cfd/1
 
-answer: /Comet Punch, Pound/
+answer: /Comet Punch.*Pound/
 
 standards:
   sql.read-multiple-tables.0: 1000
