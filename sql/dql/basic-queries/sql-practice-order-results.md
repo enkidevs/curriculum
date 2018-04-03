@@ -13,7 +13,7 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/b3fa3a/51
+link: http://sqlfiddle.com/#!9/a60d72/1
 
 answer: /cherish-ball.*premier-ball/
 

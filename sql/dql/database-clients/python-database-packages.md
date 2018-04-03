@@ -19,7 +19,6 @@ standards:
 
 tags:
 
-  - introduction
 
   - workout
 

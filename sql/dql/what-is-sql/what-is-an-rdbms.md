@@ -49,6 +49,15 @@ CREATE TABLE users (
 );
 
 ```
+This lives in the *Database Server*.
+
+Then we could query it like so:
+
+```
+SELECT * FROM users;
+```
+
+We query from the *Database Client*.
 
 ---
 ## Practice
