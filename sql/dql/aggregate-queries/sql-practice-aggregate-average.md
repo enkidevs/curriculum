@@ -9,7 +9,7 @@ levels:
 tags:
   - introduction
   - workout
-  - deep
+  - deep 
 
 type: exercise
 
@@ -21,7 +21,7 @@ answer: /herb-effect/
 
 standards:
   sql.aggregate-single-table.1: 1000
-  sql.aggregate-single-table.3: 1000
+  sql.aggregate-single-table.3: 1000 
 
 links:
   - '[mysql aggregate queries documentation](https://dev.mysql.com/doc/refman/5.7/en/group-by-functions.html){website}'
@@ -35,4 +35,4 @@ links:
 ## Exercise
 
 Write a query that will compute the average cost of all items in each `item_fling_effect` group and round the result to an integer.
-What is the name of the group whose average cost is `583`?
+What is the name of the group whose average cost is `583`? 
