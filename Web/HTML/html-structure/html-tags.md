@@ -30,7 +30,7 @@ Some tags:
 - `<body>` (Documents body)
 - `<p>` (Paragraph)
 - `<br>` (Single line break)
-- <!--Comment--> (Inserts a comment)
+- `<!--Comment-->` (Inserts a comment)
 - `<!DOCTYPE>`
 
 
