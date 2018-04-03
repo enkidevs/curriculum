@@ -16,8 +16,6 @@ inAlgoPool: false
 tags:
   - introduction
 
-  - workout
-
 standards:
   sql.read-single-table.0: 10
 

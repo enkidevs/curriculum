@@ -15,7 +15,6 @@ inAlgoPool: false
 
 tags:
   - introduction
-  - workout
 
 standards:
   sql.define-tables.0: 10

@@ -17,8 +17,6 @@ tags:
 
   - introduction
 
-  - workout
-
 
 links:
 
