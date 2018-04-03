@@ -141,13 +141,13 @@ WHERE region_name.region_id = 2;
 ---
 ## Revision
 
-??? command retrieves all rows, `even duplicated`, of the union.
+??? command retrieves all rows, _even duplicated`_, of the union.
 
 
 * `UNION ALL`
 * `UNION`
-* `JOIN`
-* `SELECT`
+* `FULL JOIN`
+* `SELECT UNION`
 
 ---
 ## Quiz
