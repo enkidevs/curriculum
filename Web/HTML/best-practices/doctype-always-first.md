@@ -1,4 +1,4 @@
-# Doctype - always first
+---
 author: stefan.stojanovic
 
 levels:
@@ -14,8 +14,8 @@ stub: true
 tags:
   - obscura
   - introduction
-
-
+---
+# Doctype - always first
 ---
 ## Content
 
