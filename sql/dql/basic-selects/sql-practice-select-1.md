@@ -25,12 +25,11 @@ links:
   - '[video tutorial on mysql SELECT](https://www.youtube.com/watch?v=BgK88mlgA6I){video}'
 
 ---
+
 # SQL Practice Select
 
 ---        
 ## Exercise
-
-___________________________________
 
 Follow the link below to SQLFiddle. Run *Build Schema*. This creates and populates the Pokemon database.
 
@@ -43,5 +42,3 @@ Click *Run SQL* again. Then click *link* in the green bar below the output. This
 In the answer field, enter the values for all columns in the fourth row returned.
 
 Example: `8, 800, 10, 44, 2, fake-ball`
-
-____________________________________
