@@ -67,7 +67,7 @@ Complete the following query to retrieve the `id` and `power` for all the rows f
 ```
 SELECT id, power
 FROM move
-??? ???;
+???;
 ```
 
 
