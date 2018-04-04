@@ -1,5 +1,5 @@
-# Image Base
-author: matthew-leach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -12,10 +12,39 @@ category: must-know
 tags:
   - introduction
 
+link:
+  - https://www.w3schools.com/tags/tag_base.asp
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  
+---
+# Image Base
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+The `<base>` element is used to specify a link path for all relative URL attributes. There can be only one `<base>` element per page or document, and it is written inside the `<head>` element. If more than one `<base>` element is present, only the first `href` and `target` values are used, while the others are ignored.
+
+Also, the `<base>` element cannot be empty, it must contain either the target attribute, the href attribute, or both of them.
+
+Example 1:
+```
+<head>
+   <base href="https://www.enki.com" 
+      target="_blank">
+</head>
+```
+
+Example 2:
+```
+<head>
+   <base href="https://www.enki.com">
+</head>
+ ```
+
+
+In the examples above, all links in the web page or document will lead to the `https://www.enki.com` link. The only difference is, in example one, the `target` attribute is used to set all the links to open in a different tab. 
+
+
+**Note: In HTML5 the `<base>` eng tag should be omitted. However, in XHTML it has to be closed.**
 
 ---
 ## Practice
