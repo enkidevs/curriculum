@@ -15,13 +15,15 @@ tags:
 link:
   - https://www.w3schools.com/tags/att_area_coords.asp
   - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map
-  
+  - https://www.w3schools.com/tags/att_img_usemap.asp
+  - https://dev.w3.org/html5/spec-preview/image-maps.html
 ---
 # Image Types
 ---
 ## Content
 
-In HTML, the `<map>` element is used for creating an image map. Which is a clickable area used along side the `<area>` attribute. Both the start and end tags are required when using the `<map>` attribute.
+
+In HTML, the `<map>` element is used for creating an image map. An image map is a clickable area used alongside the `<area>` attribute. With the `<map>` element you can create hyperlinks on selected portions of an image. 
 
 The clickable area has 3 available shapes.
 
@@ -46,9 +48,18 @@ circle: shape="x,y,r"
 poly: shape="x1,y1,x2,y2,x3,y3...xn,yn"
   - (x1,y1),(x2,y2).. pairs specify the coordinates of an edge for the polygon.
   - First and last coordinate pairs must be the same for the polygon to close.
-  - If the first and last coordinate differ, the browsers will add the last coorinate pair.
+  - If the first and last coordinate differ, the browsers will add the last coordinate pair.
   
-<!--**Note: Top left corner coordinates are (0,0)**-->
+ 
+**Note: Each shape has to have a certain number of values inside the `coords` attribute for it to work.**
+  - Circle: Exactly 3
+  - Rectangle: Exactly 4
+  - Polygon: Any even number of values with the minimum number of 6 values
+   
+**Note: 
+  - **(0,0) are the top left corner coordinates of an area.**
+  - **Coordinates are specified in pixels.**
+
 
 Example:
 ```
@@ -78,7 +89,7 @@ Specifies the name of our map.
 name="objects"
 ```
 
-Specifies the shape of our clickable area.
+Specifies the shapes of our clickable area.
 ```
 <area shape="rect" 
 ```
@@ -86,19 +97,44 @@ Specifies the shape of our clickable area.
 Specifies the coordinates for our shape. 
 ```
 coords="10,50,82,126"
-```
+``` 
+In this case a rectangle:
   - left corner = `10`
   - top corner = `50`
   - right corner = `82`
   - bottom corner = `126`
 
+
 Specifies the alternate information.
-`alt=""` 
+```
+alt=""
+``` 
 
 Specifies the URL.
-`href="object1.htm">` 
+```
+href="object1.htm">
+``` 
+
+Specifies the end tag.
+```
+</map>
+```
+
+Creates a relationship between the `<img>` and `<map>` elements.
+```
+usemap="#objects"
+```
 
 
+Usage:
+For instance, you have an image of a dog and a cat alongside each other. You want the portion of the picture with the dog to open one website and the other portion of the picture with the cat to open a different website. You would use the `<map>` attribute and it's `shape` properties to establish hyperlinks on desired parts of the image.
+
+
+
+**Note: **
+ - **Both the start tag and end tags are required when using the `<map>` attribute.**
+ - **When using `usemap`, the value in `usemap="#name"` has to be identical to your `map="name"` value.**
+ 
 
 ---
 ## Practice
