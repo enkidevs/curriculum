@@ -36,7 +36,8 @@ Example 1:
 Example 2:
 ```
 <head>
-   <base href="https://www.enki.com">
+   <base 
+    href="https://www.enki.com">
 </head>
  ```
 
@@ -83,7 +84,8 @@ Complete the code if a `<base>` URL is assigned and image is used within an Open
 ```
 <head>
   <base href="http://enkipro.com/">
-  <meta property='og:image' content='???facebook-image.jpg'>
+  <meta property='og:image'
+    content='???facebook-image.jpg'>
 </head>
 ```
 
