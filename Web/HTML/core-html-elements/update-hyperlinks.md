@@ -140,7 +140,9 @@ When will the cursor change to a pointer with the following code?
 
 ```
 <main>
-  <a href="http://www.enkipro.com">Check out Enki</a>
+  <a href="http://www.enkipro.com">
+    Check out Enki
+  </a>
 </main>
 ```
 
