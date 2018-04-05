@@ -11,6 +11,7 @@ category: must-know
 
 tags:
   - introduction
+  
 ---
 # Hyperlinks
 ---
@@ -130,8 +131,13 @@ How is a placeholder link created, where the link works, but it doesn't open a n
 Which statement about these paragraphs & links is true?
 
 ```
-<p><a href="http://enkipro.com">Click Me</a></p>
-<a href="http://enkipro.com"><p>Click Me</p></a>
+<p><a href="http://enkipro.com">
+      Click Me
+   </a>
+</p>
+<a href="http://enkipro.com">
+  <p>Click Me</p>
+</a>
 ```
 
 ???
@@ -168,6 +174,3 @@ What is the default style of a text link in HTML?
 * There is no visual change to a text link.
 * The cursor changes to pointer when hovered over it.
 * The cursor doesn't change.
-
-
-
