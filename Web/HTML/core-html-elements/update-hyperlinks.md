@@ -41,16 +41,19 @@ The attribute `href` is the most important element because it specifies the dest
 
 Where the link opens is set with the `_target=""` attribute.
 
-- _self     - Opens the link in the same tab or window
-- _top      - Opens the link in the full body of the window
-- _parent   - Opens the link in the parent frame
-- _blank    - Opens the link in a new tab or window
-- framename - Opens the link in a named frame
+- _self     = Opens the link in the same tab or window
+- _top      = Opens the link in the full body of the window
+- _parent   = Opens the link in the parent frame
+- _blank    = Opens the link in a new tab or window
+- framename = Opens the link in a named frame
 
 Opening the link in a different tab:
 ```
-<a href="https://www.enki.com/" 
-  target="_blank"> 5 minute workouts </a> 
+<a 
+  href="https://www.enki.com/" 
+  target="_blank"> 
+  5 minute workouts 
+</a> 
 ```
 **Note:If no target is set, the linked page or document is opened in the current tab.**
 
