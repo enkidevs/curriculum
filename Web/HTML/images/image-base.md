@@ -25,15 +25,16 @@ The `<base>` element is used to specify a link path for all relative URL attribu
 
 Also, the `<base>` element cannot be empty, it must contain either the target attribute, the href attribute, or both of them.
 
-Example 1:
+All links in the web page or document are set to open in a new tab:
+
 ```
 <head>
-   <base href="https://www.enki.com" 
-      target="_blank">
+   <base
+      target="_self">
 </head>
 ```
 
-Example 2:
+All links in the web page or document will lead to the `https://www.enki.com` link:
 ```
 <head>
    <base 
@@ -41,11 +42,15 @@ Example 2:
 </head>
  ```
 
+All links in the web page or document will lead to the `https://www.enki.com` link, and open in a new tab:
+```
+<head>
+   <base href="https://www.enki.com" 
+      target="_blank">
+</head>
+```
 
-In the examples above, all links in the web page or document will lead to the `https://www.enki.com` link. The only difference is, in example one, the `target` attribute is used to set all the links to open in a different tab. 
-
-
-**Note: In HTML5 the `<base>` eng tag should be omitted. However, in XHTML it has to be closed.**
+**Note: In HTML5 the `<base>` end tag has to be omitted. However, in XHTML it has to be closed.**
 
 ---
 ## Practice
