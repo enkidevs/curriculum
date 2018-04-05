@@ -4,4 +4,5 @@ description: Tips for working with file persmissions
 
 insights:
   - set-file-permissions-for-users
-  - sudo-fu
+
+game: sudo-fu
