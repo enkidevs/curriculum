@@ -12,7 +12,7 @@ category: must-know
 tags:
   - introduction
   
-link:
+links:
   - https://www.w3schools.com/tags/att_area_coords.asp
   - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map
   - https://www.w3schools.com/tags/att_img_usemap.asp
@@ -51,14 +51,12 @@ poly: shape="x1,y1,x2,y2,x3,y3...xn,yn"
   - If the first and last coordinate differ, the browsers will add the last coordinate pair.
   
  
-**Note: Each shape has to have a certain number of values inside the `coords` attribute for it to work.**
-  - Circle: Exactly 3
-  - Rectangle: Exactly 4
-  - Polygon: Any even number of values with the minimum number of 6 values
-   
-**Note: 
-  - **(0,0) are the top left corner coordinates of an area.**
-  - **Coordinates are specified in pixels.**
+**Important notes: Each shape has to have a certain number of values inside the `coords` attribute for it to work.**
+  **- Circle: Exactly 3**
+  **- Rectangle: Exactly 4**
+  **- Polygon: Any even number of values with the minimum number of 6 values**
+  **- (0,0) are the top left corner coordinates of an area.**
+  **- `coords` attribute is specified in pixels.**
 
 
 Example:
@@ -125,17 +123,24 @@ Creates a relationship between the `<img>` and `<map>` elements.
 usemap="#objects"
 ```
 
+Specifies the link for the `<img>`, in this case an empty link.
+```
+src="#" 
+```
+
+Specifies the alternate information.
+```
+alt="">
+```
 
 Usage:
 For instance, you have an image of a dog and a cat alongside each other. You want the portion of the picture with the dog to open one website and the other portion of the picture with the cat to open a different website. You would use the `<map>` attribute and it's `shape` properties to establish hyperlinks on desired parts of the image.
 
 
-
-**Note: **
+**Note:**
  - **Both the start tag and end tags are required when using the `<map>` attribute.**
  - **When using `usemap`, the value in `usemap="#name"` has to be identical to your `map="name"` value.**
  
-
 ---
 ## Practice
 
@@ -172,11 +177,14 @@ Add map elements to create clickable areas within a single image.
 
 When using the map element to create clickable areas within a single image, what are the available shapes?
 
-```<map name="imagemap">
-  <area shape="_____" coords="" alt="" href="page.htm">
+```
+<map name="imagemap">
+  <area shape="_____" 
+    coords="" alt="" href="page.htm">
 </map>
 
-<img usemap="#imagemap" src="#" alt="">
+<img usemap="#imagemap" 
+  src="#" alt="">
 ```
 
 + rect
@@ -196,9 +204,15 @@ How much do you know about create clickable image maps?
 Place the shape values within the appropriate locations to create the proper code.
 
 ```<map name="objects">
-  <area shape="???" coords="10,50,82,126" alt="" href="object1.htm">
-  <area shape="???" coords="90,58,3" alt="" href="object2.htm">
-  <area shape="???" coords="19,24,12,32,25,41,34,33,32,25" alt="" href="object3.htm">
+  <area shape="???" 
+    coords="10,50,82,126" 
+      alt="" href="object1.htm">
+  <area shape="???" 
+    coords="90,58,3" 
+      alt="" href="object2.htm">
+  <area shape="???" 
+    coords="19,24,12,32,25,41,34,33,32,25"
+      alt="" href="object3.htm">
 </map>
 
 <img usemap="#objects" src="#" alt="">
