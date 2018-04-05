@@ -66,9 +66,12 @@ Next to linking through text, it is also common to link through pictures.
 <html>
 <body>
 
-<a href="https://www.enki.com/" target="_blank">
- <img src ="http.logo.com/enki.png" alt ="Enki logo"
- style="width:36px;height:36px;"> </a>
+<a href="https://www.enki.com/" 
+    target="_blank">
+ <img src ="http.logo.com/enki.png"
+    alt ="Enki logo"
+ style="width:36px;height:36px;">
+</a>
  
 </body>
 </html>
