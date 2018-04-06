@@ -24,7 +24,8 @@ link:
 The `<img>` elements are used for embedding an image in a web page or a document. 
 The `alt` attribute exists to specify an alternate text for an image that cannot be displayed.
 
-It provides extra information to the user if for some reason they cannot view the image. Whether it is a broken link  n unsupported image format, a poor internet connection, or if the users uses a screen reader.
+It provides extra information to the user if for some reason they cannot view the image. Whether it is a broken link, an unsupported image format, a poor internet connection, or if the users uses a screen reader.
+
 Example:
 ```
 <img src="rainforest.png"
@@ -40,7 +41,7 @@ Using the `alt` attribute is important for every `img` element for page validati
 The `alt` attribute can also be left empty:
 ```
 <img src="rainforest.png"
-    alt="">
+      alt="">
 ```
 
 This is helpful for indicating that the image is not a key part of the content. Meaning, non-graphical browsers, or developers who don't want the picture loaded, can decide to not render it. On the other hand, eliminating the whole alt attribute means the image is a key component of the content, should be loaded and has no equivalent textual representation available.
