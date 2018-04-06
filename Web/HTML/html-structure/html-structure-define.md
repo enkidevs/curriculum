@@ -1,5 +1,5 @@
-# HTML Structure Defined
-author: matthew-leach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -11,6 +11,8 @@ category: must-know
 
 tags:
   - introduction
+---
+# HTML Structure Defined
 
 ---
 ## Content
