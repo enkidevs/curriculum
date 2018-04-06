@@ -59,6 +59,9 @@ Opening the link in a different tab:
 
 You can also create `placeholder` links. These are links that can be clicked, but do nothing.
 
+```
+<a href="#"> Empty href</a>
+```
 
 Next to linking through text, it is also common to link through pictures.
 
