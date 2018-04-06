@@ -15,7 +15,17 @@ tags:
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+When writing in HTML there is a certain structure you must follow.
+
+The structure is:
+(Opening tag)(Element)(Attribute)(Closing tag)
+
+Example:
+```
+<a href="http://enkipro.com/">Enki</a>`
+```
+
+
 
 ---
 ## Practice
@@ -23,9 +33,9 @@ New content to go here. The author must be updated to match a valid Enki account
 Match the terms defining this HTML code:
 
 <!-- A  B      C                        D -->
-<!--<a href="http://enkipro.com/">Enki</a>-->
+`<a href="http://enkipro.com/">Enki</a>`
 
-<!-- IMAGE: html-structure-define.svg -->
+`IMAGE: html-structure-define.svg`
 
 A: ???
 B: ???
