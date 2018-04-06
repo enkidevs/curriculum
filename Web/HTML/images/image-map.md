@@ -199,9 +199,7 @@ When using the map element to create clickable areas within a single image, what
 ---
 ## Quiz
 
-### Image Map
-
-How much do you know about create clickable image maps?
+### How much do you know about create clickable image maps?
 Place the shape values within the appropriate locations to create the proper code.
 
 ```
