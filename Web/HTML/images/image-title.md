@@ -1,5 +1,5 @@
 ---
-author: matthew-leach
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -60,6 +60,7 @@ What adds a visual tooltip when the cursor is over the image?
 ---
 ## Quiz
 
+### Image Title
 Do you know how to create a visual tooltip using just HTML?
 
 When the cursor is over the image, what code will add a visual tooltip?
