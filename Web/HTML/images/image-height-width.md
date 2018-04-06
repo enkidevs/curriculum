@@ -70,7 +70,7 @@ What are the appropriate attributes for setting the image size in HTML?
 
 ### Is it true that setting height & width as attributes will reserve space before the image loads?
 
-  ???
+???
 
-  + Yes
-  - No
+ * Yes
+ 
