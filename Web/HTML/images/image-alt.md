@@ -73,6 +73,8 @@ What is a best way to treat alt tags for images that are used in the interface a
 ---
 ## Quiz
 
+### Image Alt
+
 Do you know best way to write acronyms (like "USA") within image alt attribute?
 
 Hint: The best way helps screen readers read the alt properly as it prevents "ITS in the US" from being read as "It’s in the us".
