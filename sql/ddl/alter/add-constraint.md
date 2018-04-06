@@ -92,7 +92,7 @@ ADD ??? PK-constraints
 ---
 ## Revision
 
-Consider the "version" table. We want to add a `CHECK` constraint to "version_group_id" column. All its entries should not be bigger than 10:
+Consider the `version` table. We want to add a `CHECK` constraint to `version_group_id` column. Any of its entries should not be bigger than 10:
 ```
 id | version_group_id |      name      
 ===+==================+===============
@@ -116,6 +116,6 @@ id | version_group_id |      name
 
 
 
-* ALTER TABLE gender ADD CONSTRAINT check_constraint CHECK (version_group_id <= 10);
-* ALTER TABLE generation ADD PRIMARY KEY (id);
-* ALTER TABLE gender ADD CONSTRAINT check_constraint UNIQUE (version_group_id <= 10);
+* ALTER TABLE version ADD CONSTRAINT check_constraint CHECK (version_group_id <= 10);
+* ALTER TABLE version ADD PRIMARY KEY (version_group_id > 10);
+* ALTER TABLE version ADD CONSTRAINT check_constraint UNIQUE (version_group_id <= 10);

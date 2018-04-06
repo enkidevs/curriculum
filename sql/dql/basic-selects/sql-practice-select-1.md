@@ -13,16 +13,16 @@ linkType: sqlfiddle
 
 link: http://sqlfiddle.com/#!9/352b0f1/1
 
-answer: /4.*300.*5.*33.*4.*heal-ball/
+answer: /heal-ball/
 
 standards:
   sql.read-single-table.0: 1000
 
 
 links:
-  - '[mysql SELECT documentation](https://dev.mysql.com/doc/mysql-tutorial-excerpt/5.6/en/selecting-rows.html){website}'
-  - '[blog post tutorial on SELECT](http://www.dofactory.com/sql/select){website}'
-  - '[video tutorial on mysql SELECT](https://www.youtube.com/watch?v=BgK88mlgA6I){video}'
+  - '[SELECT documentation](https://www.w3schools.com/sql/sql_select.asp){website}'
+  - '[blog post tutorial on SELECT](https://community.modeanalytics.com/sql/tutorial/sql-select-statement/){website}'
+  - '[video tutorial on mysql SELECT](https://youtu.be/JA_92A65pTg?t=16s){video}'
 
 ---
 
@@ -35,10 +35,10 @@ Follow the link below to SQLFiddle. Run *Build Schema*. This creates and populat
 
 Next, click *Run SQL* and observe the output.
 
-Now, alter the query (in the right-hand window) to return all columns from the first 5 rows of the `item` table.
+Now, alter the query (in the right-hand window) to *return all columns from the first 5 rows of the `item` table.*
 
 Click *Run SQL* again. Then click *link* in the green bar below the output. This will update the URL in the address bar of your browser. Copy the new URL to submit with your answer.
 
-In the answer field, enter the values for all columns in the fourth row returned.
+In the answer field, enter the values for the name of the item in the fourth row returned.
 
-Example: `8, 800, 10, 44, 2, fake-ball`
+Example: `fake-ball`

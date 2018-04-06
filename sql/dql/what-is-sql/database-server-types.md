@@ -18,7 +18,6 @@ standards:
 
 tags:
   - introduction
-  - workout
 
 
 links:

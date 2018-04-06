@@ -15,7 +15,6 @@ inAlgoPool: false
 
 tags:
   - introduction
-  - workout
 
 standards:
   sql.define-tables.0: 10
@@ -34,13 +33,13 @@ links:
 ---
 ## Content
 
-In order to learn **SQL** we must understand what a **RDBMS** is. **RDBMS** stands for *Relational Database Management System*, which refers to a system of *Database Servers* and *Database Clients* that interact. Database Servers hold data, while Database Clients store and request data.
+*RDBMS* stands for _Relational Database Management System_, a _Database Management System_ that allows the user to create, update and delete the _Relational Database_.
 
-A *Relational Database* stores data in a form of _tables_, which will seem familiar if you've used a spreadsheet. From these tables, we can request data in various ways, filter it, and store it such that other users can use it. The language we use to do so is called **SQL**.
+_Relational Databases_ store data in _tables_, which are similar to a spreadsheet in that they've got rows and columns.
 
-In order to query a table, we first have to _define_ it with something called a *Schema*.
+Using these tables we can query data, and store it such that others can query it. The language we use to _define_ tables is commonly referred to as SQL, but it's real name is *DDL*, or _Data Definition Language_.
 
-Here's an example:
+Here's an example of how we might define a table:
 
 ```
 CREATE TABLE users (
@@ -49,7 +48,7 @@ CREATE TABLE users (
 );
 
 ```
-This lives in the Database Server.
+This lives in the *Database Server*.
 
 Then we could query it like so:
 
@@ -57,7 +56,7 @@ Then we could query it like so:
 SELECT * FROM users;
 ```
 
-We query from the Database Client.
+We query from the *Database Client*.
 
 ---
 ## Practice
