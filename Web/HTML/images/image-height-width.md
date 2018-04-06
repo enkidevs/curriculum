@@ -72,5 +72,5 @@ What are the appropriate attributes for setting the image size in HTML?
 
   ???
 
-  * Yes
-  * No
+  + Yes
+  - No
