@@ -105,6 +105,8 @@ Complete the code if a `<base>` URL is assigned and image is used within an Open
 ---
 ## Quiz
 
+### Image Base
+
 What code assigns the default of every link within the web page to open a new page?
 
 ???
