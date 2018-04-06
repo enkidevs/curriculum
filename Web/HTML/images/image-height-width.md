@@ -68,9 +68,7 @@ What are the appropriate attributes for setting the image size in HTML?
 ---
 ## Quiz
 
-### Image Height & Width
-
-Which option(s) are true about web images?
+### Which option(s) are true about web images?
 
 + Resizing images smaller in HTML is bad as the images filesize doesn't change.
 + Setting height & width as attributes will reserve space before the image loads. 
