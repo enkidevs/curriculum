@@ -41,12 +41,13 @@ It is important to specify both the `height` and `width` attributes of your imag
 ---
 ## Practice
 
-Which option(s) are true about web images?
+Which option is not true about web images?
 
-+ Resizing images smaller in HTML is bad as the images filesize doesn't change.
-+ Setting height & width as attributes will reserve space before the image loads. 
-+ CSS will override the height & width attributes in the HTML element.
-- Resizing images larger in HTML is good and the image will appear normal.
++ Resizing images larger in HTML is good and the image will appear normal.
+- Resizing images smaller in HTML is bad as the images filesize doesn't change.
+- Setting height & width as attributes will reserve space before the image loads. 
+- CSS will override the height & width attributes in the HTML element.
+
 
 ---
 ## Revision
