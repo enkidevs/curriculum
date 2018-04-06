@@ -113,6 +113,8 @@ Can SVG images be directly inserted into an HTML page as code without linked to 
 ---
 ## Quiz
 
+### Image Types
+
 Which reasons is web image compression important?
 
 + Reducing local hard drive storage
