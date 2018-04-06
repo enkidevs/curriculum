@@ -71,15 +71,16 @@ What is a best way to treat alt tags for images that are used in the interface a
 ---
 ## Revision
 
-Which description(s) of using image alt attributes are true:
+Which description(s) of using image alt attributes is not true:
 
-+ Required on every image for page validation.
-+ Important to help support screen readers. 
-+ Useful for webpage viewer when image path is broken. 
-+ Linked image descriptions should be of the destination and not the image itself.
-- Useful for SEO purposes. 
-- Image will not display properly without an alt.
-- Image rollover tooltips are required for validation. 
+???
+
+* Image will not display properly without an alt.
+* Required on every image for page validation.
+* Important to help support screen readers. 
+* Useful for webpage viewer when image path is broken. 
+* Linked image descriptions should be of the destination and not the image itself.
+
 
 ---
 ## Quiz
