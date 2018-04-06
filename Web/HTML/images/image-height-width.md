@@ -41,13 +41,15 @@ It is important to specify both the `height` and `width` attributes of your imag
 ---
 ## Practice
 
-Which option is not true about web images?
+The main reason height & width are useful attributes to adding to HTML image elements is: 
 
-+ Resizing images larger in HTML is good and the image will appear normal.
-- Resizing images smaller in HTML is bad as the images filesize doesn't change.
-- Setting height & width as attributes will reserve space before the image loads. 
-- CSS will override the height & width attributes in the HTML element.
+???
 
+* Browser reserves appropriate space for it. 
+* Will overright CSS height & width values. 
+* Prevents potential CSS mistakes with image size.
+* Easiest way to set image size.
+* Best way to manage responsive (resizable) images.
 
 ---
 ## Revision
@@ -66,12 +68,9 @@ What are the appropriate attributes for setting the image size in HTML?
 ---
 ## Quiz
 
-### The main reason height & width are useful attributes to adding to HTML image elements is: 
+### Is it true that setting height & width as attributes will reserve space before the image loads?
 
-???
+  ???
 
-* Browser reserves appropriate space for it. 
-* Will overright CSS height & width values. 
-* Prevents potential CSS mistakes with image size.
-* Easiest way to set image size.
-* Best way to manage responsive (resizable) images.
+  * Yes
+  * No
