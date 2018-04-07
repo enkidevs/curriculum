@@ -1,5 +1,5 @@
-# Video
-author: matthewleach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -14,6 +14,12 @@ stub: true
 tags:
   - introduction
 
+links:
+  - https://www.quackit.com/html_5/tags/html_video_tag.cfm
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video
+  
+---
+# Video
 ---
 ## Content
 
@@ -32,7 +38,7 @@ Like so:
 </video>
 ```
 
-In the example above we have added a video player of a 160 to 160 pixel size with a video called `time-lapse` of type `.mp4`. The paragraph part is to provide fallback content for users that do not have browsers that support HTML5 video.
+In the example above we have added a video player of a 160 to 160-pixel size with a video called `time-lapse` of type `.mp4`. The paragraph part is to provide fallback content for users that do not have browsers that support HTML5 video.
 
 You can add one or more subtitles to your videos and set a default one via the `<track>` element. 
 ```
@@ -80,15 +86,16 @@ Adding more file formats is good for when a browser can't play a particular file
 
 Adding the controls attribute allows the browser to offer controls to the user for play/pause playback, increase/decrease volume buttons, and audio playback.
 
-There are many more funcionalities you can add to your videos. Here are some of them:
- - poster = adds a poster for when the video can't play or hasn't loaded yet
- - autoplay = plays the video as soon as it's available
- - muted = sets the default setting for the audio part of the video
-
+There are many more functionalities you can add to your videos with attributes. Here are some of them:
+ - `poster` = adds a poster for when the video can't play or hasn't loaded yet
+ - `autoplay` = plays the video as soon as it's available
+ - `muted` = sets the default setting for the audio part of the video
+ - `loop` = makes the video play again as soon as it finishes
+ 
  
 **Note:**
   - **If your video plays OK on your local computer, but doesn't play on the web server you should add the video types needed on the .htaccess file in your directory where the video is.**
- 
+  
 ---
 ## Practice
 
