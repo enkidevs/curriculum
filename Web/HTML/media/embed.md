@@ -1,5 +1,5 @@
-# Embed
-author: matthewleach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -14,10 +14,32 @@ stub: true
 tags:
   - introduction
  
+ links:
+  - https://www.w3schools.com/tags/tag_embed.asp
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed
+  
+---
+# Embed 
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+In HTML you can use the `<embed>` element to embed an external application or a plug-in to your web page or document.
+
+Example:
+```
+<embed type="video/quicktime" 
+    src="dancing_stick-man.mov" 
+      width="360" height="360">
+```
+
+In the example above we have embedded a dancing stick-man video to our page within a 360-pixel with 360-pixel frame.
+
+The `<embed>` element was introduced in HTML5. It has to have a starting tag and can't have a closing tag.
+
+**Important:**
+  **- Many modern browsers have deprecated and removed the support for plug-ins, so using the `<embed>` element is not that good anymore.**
+  **- For implementing audio you should use the `<audio>` element, and for implementing video you should use the `<video>` element.**
+
 
 ---
 ## Practice
@@ -47,7 +69,7 @@ Which HTML element is used to define the container for an external app or plugin
 ---
 ## Quiz
 
-How much do you know about the HTML `<embed>` element?
+### How much do you know about the HTML `<embed>` element?
 
 The `<embed>` element is new in which version of HTML?
 
