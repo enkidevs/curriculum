@@ -13,8 +13,7 @@ stub: true
 
 tags:
   - introduction
- 
- links:
+links:
   - https://www.w3schools.com/tags/tag_embed.asp
   - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed
   
@@ -38,8 +37,8 @@ In the example above we have embedded a dancing stick-man video to our page with
 The `<embed>` element was introduced in HTML5. It has to have a starting tag and can't have a closing tag.
 
 **Important:**
-  **- Many modern browsers have deprecated and removed the support for plug-ins, so using the `<embed>` element is not that good anymore.**
-  **- For implementing audio you should use the `<audio>` element, and for implementing video you should use the `<video>` element.**
+  - **Many modern browsers have deprecated and removed the support for plug-ins, so using the `<embed>` element is not that good anymore.**
+  - **For implementing audio you should use the `<audio>` element, and for implementing video you should use the `<video>` element.**
 
 
 ---
