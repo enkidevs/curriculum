@@ -43,7 +43,7 @@ It is important to specify both the `height` and `width` attributes of your imag
 
 Fill in the appropriate attributes/values for creating an image in HTML?
 
-`<??? ???="image.svg" ___="200" ___="200">` 
+`<??? ???="image.svg" ???="200" ???="200">` 
 
 + img
 + src
