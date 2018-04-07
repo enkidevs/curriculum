@@ -22,14 +22,16 @@ links:
 ---
 ## Content
 
-Since HTML5 the `<audio>` tag is used to embed audio on a web page or document.
+Since HTML5 the `<audio>` tag is used to embed audio on a web page or document. 
+Both the start and end tags are required for the `<audio>` element.
 
 Like so:
 ```
 <audio src="music/relax.mp3" controls>
-  <p>If you are reading this,
-     it is because your browser
-     does not support the audio element.
+  <p>
+    You're seeing this because
+     your browser does not support
+     the <audio> element.
   </p>
 </audio>
 ```
@@ -43,9 +45,9 @@ Example 1:
 <audio controls>
   <source src="some_song.mp3"
     type="audio/mpeg">
-You're seeing this msg because
-your browser does not support the
-<audio> element.
+     You're seeing this because
+     your browser does not support
+     the <audio> element.
 </audio>
 ```
 
@@ -58,9 +60,9 @@ Example 2:
     type="audio/ogg">
   <source src="some_song"
     type="some_song.wav">
-You're seeing this msg because
-your browser does not support the
-<audio> element.
+     You're seeing this because
+     your browser does not support
+     the <audio> element.
 </audio>
 ```
 
