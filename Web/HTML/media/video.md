@@ -99,14 +99,16 @@ There are many more functionalities you can add to your videos with attributes. 
 ---
 ## Practice
 
-In order for videos today to be supports on all major web browsers, what two video formats are needed?
+Finish the sentence:
 
-+ .mp4
-+ .webm
-- h.246
-- codec
-- .mp3
-- .oog
+In order for videos today to be supports on all major web browsers you should use either the `???` or `???` format.
+
+* .mp4
+* .webm
+* h.246
+* codec
+* .mp3
+* .oog
 
 ---
 ## Revision
@@ -125,7 +127,7 @@ Which HTML element is used to insert a movie clip or video stream into the docum
 ---
 ## Quiz
 
-How much do you know about web videos?
+### How much do you know about web videos?
 
 If your video plays OK on your local computer, but doesn't play on the web server, what can fix this?
 
