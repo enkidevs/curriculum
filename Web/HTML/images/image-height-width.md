@@ -41,15 +41,18 @@ It is important to specify both the `height` and `width` attributes of your imag
 ---
 ## Practice
 
-The main reason height & width are useful attributes to adding to HTML image elements is: 
+Fill in the appropriate attributes/values for creating an image in HTML?
 
-???
+`<??? ???="image.svg" ___="200" ___="200">` 
 
-* Browser reserves appropriate space for it. 
-* Will overright CSS height & width values. 
-* Prevents potential CSS mistakes with image size.
-* Easiest way to set image size.
-* Best way to manage responsive (resizable) images.
++ img
++ src
++ height
++ width
+- length
+- size
+- tall
+- wide
 
 ---
 ## Revision
@@ -68,11 +71,12 @@ What are the appropriate attributes for setting the image size in HTML?
 ---
 ## Quiz
 
-### Setting height & width as attributes will reserve space before the image loads?
+### The main reason height & width are useful attributes to adding to HTML image elements is: 
 
-  Is it true or false? 
-  
-  ???
+???
 
- * T
- * F
+* Browser reserves appropriate space for it. 
+* Will overright CSS height & width values. 
+* Prevents potential CSS mistakes with image size.
+* Easiest way to set image size.
+* Best way to manage responsive (resizable) images.
