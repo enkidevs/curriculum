@@ -23,7 +23,7 @@ links:
 ---
 ## Content
 
-In HTML you can use the `<embed>` element to embed an external application or a plug-in to your web page or document.
+In HTML you can use the `<embed>` element to embed an external application or a plug-in(like Adobe Flash Player) to your web page or document.
 
 Example:
 ```
@@ -37,6 +37,7 @@ In the example above we have embedded a dancing stick-man video to our page with
 The `<embed>` element was introduced in HTML5. It has to have a starting tag and can't have a closing tag.
 
 **Important:**
+  - **Not all mobile devices support plug-ins.**
   - **Many modern browsers have deprecated and removed the support for plug-ins, so using the `<embed>` element is not that good anymore.**
   - **For implementing audio you should use the `<audio>` element, and for implementing video you should use the `<video>` element.**
 
@@ -44,13 +45,15 @@ The `<embed>` element was introduced in HTML5. It has to have a starting tag and
 ---
 ## Practice
 
-Select the statements that are true regarding the `<embed>` element: 
+Select the statement that is not true regarding the `<embed>` element: 
 
-+ No closing tag is used. 
-+ Introducted in HTML5
-+ used for embedding an external application
-+ used for embedding plug-ins
-- Plug-ins are supported on all mobile devices.  
+???
+
+* Plug-ins are supported on all mobile devices.  
+* No closing tag is used. 
+* Introducted in HTML5
+* used for embedding an external application
+* used for embedding plug-ins
 
 ---
 ## Revision
