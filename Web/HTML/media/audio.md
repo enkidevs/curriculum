@@ -38,7 +38,7 @@ In the example above we have added an audio player with a single song called `re
 
 You can also add more songs via the `<source>` element. 
 
-Example1:
+Example 1:
 ```
 <audio controls>
   <source src="some_song.mp3"
@@ -49,7 +49,7 @@ your browser does not support the
 </audio>
 ```
 
-Example2:
+Example 2:
 ```
 <audio controls>
   <source src="some_song.mp3"
@@ -64,16 +64,14 @@ your browser does not support the
 </audio>
 ```
 
-
-In the first example we have added a song and specified a file format through the `source/type` attributes.
+In the first example, we have added a song and specified a file format through the `source/type` attributes.
 
 In the second example above, we have added an audio player with the same song, but 3 different file formats.
-These 3, `.mp3`,`.ogg` and `.wav` are the current supported formats for most browsers. 
+These 3, `.mp3`,`.ogg` and `.wav` are currently the supported formats for most browsers. 
 
 Adding more file formats is good for when a browser can't play a particular file format, so when it can't load it goes down to try the second one, and later the third.
 
-Adding the `controls` attribute allows the browser to offer controlls to the user for play/pause playback, increase/decrease volume buttons and audio playback.
-
+Adding the `controls` attribute allows the browser to offer controls to the user for play/pause playback, increase/decrease volume buttons, and audio playback.
 
 ---
 ## Practice
@@ -118,10 +116,3 @@ When you want to provide fallback content for user's that do not have browsers t
 * CSS can be used to notify the user. 
 * Any browser, regardless of the version, can play HTML5 audio. 
 * Use the attribute "fallback" to provide the appropriate message. 
-
-
-
-
-
-
-
