@@ -86,6 +86,9 @@ There are many more funcionalities you can add to your videos. Here are some of 
  - muted = sets the default setting for the audio part of the video
 
  
+**Note:**
+  - **If your video plays OK on your local computer, but doesn't play on the web server you should add the video types needed on the .htaccess file in your directory where the video is.**
+ 
 ---
 ## Practice
 
