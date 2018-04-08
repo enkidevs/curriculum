@@ -24,7 +24,9 @@ The structure is:
 
 Example:
 ```
-<a href="http://enkipro.com/">Enki</a>`
+<a 
+  href="http://enkipro.com/">Enki
+</a>
 ```
 
 
@@ -75,6 +77,8 @@ D: ???
 
 ---
 ## Quiz
+
+### Do you know how HTML is structured?
 
 Identify the terms defining this HTML code:
 
