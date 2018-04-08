@@ -24,12 +24,16 @@ Hovering over hyperlinks changes the cursor to a pointer.
 
 The hyperlink is defined with the `<a>` tag:
 ```
-<a href="URL">Link text</a>
+<a 
+  href="URL">Link text
+</a>
 ```
 or
 ```
-<a href="https://www.enki.com/"> 
-  5-minute workouts</a>
+<a 
+  href="https://www.enki.com/"> 
+  5-minute workouts
+</a>
 ```
 Result:
 ```
@@ -39,13 +43,13 @@ In the example above, the `5-minute workouts` is the hyperlink, and by clicking 
 
 The attribute `href` is the most important element because it specifies the destination(URL).
 
-Where the link opens is set with the `_target=""` attribute.
+Where the link opens is set with the `_target="???"` attribute.
 
-- _self     = Opens the link in the same tab or window
-- _top      = Opens the link in the full body of the window
-- _parent   = Opens the link in the parent frame
-- _blank    = Opens the link in a new tab or window
-- framename = Opens the link in a named frame
+ - _self     = Opens the link in the same tab or window
+ - _top      = Opens the link in the full body of the window
+ - _parent   = Opens the link in the parent frame
+ - _blank    = Opens the link in a new tab or window
+ - framename = Opens the link in a named frame
 
 Opening the link in a different tab:
 ```
@@ -60,7 +64,9 @@ Opening the link in a different tab:
 You can also create `placeholder` links. These are links that can be clicked, but do nothing.
 
 ```
-<a href="#"> Empty href</a>
+<a 
+  href="#"> Empty href
+</a>
 ```
 
 Next to linking through text, it is also common to link through pictures.
@@ -127,6 +133,8 @@ How is a placeholder link created, where the link works, but it doesn't open a n
 
 ---
 ## Quiz
+
+### How much do you know about HTML hyperlinks?
 
 Which statement about these paragraphs & links is true?
 
