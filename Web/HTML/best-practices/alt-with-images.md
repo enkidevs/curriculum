@@ -28,13 +28,14 @@ Example:
 <html>
 <body>
 
-<img src="brokenglass.gif" alt="Broken glass">
-
+<img src="brokenglass.gif" 
+  alt="Broken glass">
+  
 </body>
 </html>
 
 ```
-Here the browsers does not recognize the "brokenglass.gif" file, so instead, the alt property is displayed.
+If the browsers does not recognize the "brokenglass.gif" file, it will instead display what's in the alt property.
 
 ```
 Broken glass
