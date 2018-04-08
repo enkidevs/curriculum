@@ -110,6 +110,8 @@ What is the difference between an opening and closing HTML tag?
 ---
 ## Quiz
 
+### How much do you know about HTML tags?
+
 Which language requires HTML tags to be written in lowercase and has influenced  developers to continue to write HTML tags that way?
 
 ???
