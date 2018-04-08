@@ -1,5 +1,5 @@
-# Intro code
-author: matthew-leach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -11,16 +11,34 @@ category: must-know
 
 stub: true
 
-
 tags:
   - deep
-
-
+---
+# Intro code
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+In HTML the `<code>` element is used to style the content to display like a fragment of a computer code.
+Both the starting and ending tags are necessary.
 
+Example:
+```
+<p>
+  The function
+  <code>
+    calculateAverage() 
+   </code> 
+  calculates the average
+  of a set of numbers
+</p>
+```
+Result:
+ The funcion <code>calculateAverage()</code> calculates the average of a set of numbers.
+ 
+The default font style for the `<code>` element for most browsers is the monospace font.
+ 
+**Note: It's best to use the `<code>` element to style content for HTML elements, CSS rules, filenames and JS scripts.**
+ 
 ---
 ## Practice
 
@@ -54,18 +72,20 @@ tag = ???
 ---
 ## Quiz
 
-How much do you know about the `<code>` element?
+### How much do you know about the `<code>` element?
 
 Which statement(s) can be considered correct with this code?
 
-```<code>
+```
+<code>
   <table>
     <tr>
-    <td>Data 1</td>
-    <td>Data 2</td>
+      <td>Data 1</td>
+      <td>Data 2</td>
     </tr>
   </table>
-</code>```
+</code>
+```
 
 + Any text within `<code>` will display in monospace font.
 + Only the text "Data 1 Data 2" will be displayed within the page.
