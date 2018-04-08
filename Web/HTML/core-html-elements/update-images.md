@@ -20,14 +20,16 @@ In HTML, images are defined with the `<img>` tag.
 
 Example:
 ```
-<img src="URL" alt="Image description"
-width="36px" height="36px"
->
+<img 
+  src="URL" alt="Image description"
+  width="36px" height="36px">
 ```
 or
 ```
-<img src="sky.png" alt="Beautiful sunny sky" 
-height="36px" width="36px">
+<img 
+  src="sky.png" 
+  alt="Beautiful sunny sky" 
+  height="36px" width="36px">
 
 ```
 The `src` attribute specifies the URL of the image.
@@ -98,6 +100,8 @@ Which of these are not a common web image format:
 
 ---
 ## Quiz
+
+### How much do you know about HTML `<img>` element?
 
 Why is assigning height & width attributes to an image size more useful than setting the image size in CSS?
 
