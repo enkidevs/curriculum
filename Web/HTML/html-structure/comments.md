@@ -28,12 +28,16 @@ HTML comments are very useful. They can be used as reminders for what our code d
 The good thing about comments is they are not rendered by the browser and are only visible in the source code.
 
 Also, comments can span multiple rows.
+
 Example:
 ```
 <!--
 <h1 Some header</h1>
 <p>Random paragraph.</p>
-<a href="https://www.enki.com">This is a link</a>
+<a 
+  href="https://www.enki.com">
+  This is a link
+  </a>
 -->
 ```
 
@@ -66,6 +70,8 @@ Which option is NOT true: "HTML comments using this code `<!-- stuff here -->`, 
 
 ---
 ## Quiz
+
+### How much do you know about HTML comments?
 
 What is happening to this heading text?
 ```
