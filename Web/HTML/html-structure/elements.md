@@ -34,7 +34,8 @@ It is also very common for HTML elements to be nested. This is common even for t
 
 Example:
 ```
-<p>Check out this 
+<p>
+  Check out this 
   <a href="http://www.enkipro.com">
   website.
 </p>
@@ -44,8 +45,8 @@ In HTML we also have empty elements or **void** elements. These elements don't h
 
 The break `<br>` is one of those elements. 
 
-**Note: Even though the closing tag is optional in HTML5, it is best practice to use the closing tag. 
-This is especially necessary if you want your document to be readable in either XML or XHTML.**
+**Note: Even though the closing tag is optional in HTML5, it is best practice to use the closing tag.**
+**This is especially necessary if you want your document to be readable in either XML or XHTML.**
 
 ---
 ## Practice
@@ -74,6 +75,8 @@ Even fairly simple websites are built using various ways of nested HTML elements
 
 ---
 ## Quiz
+
+### How much do you know about HTML elements?
 
 Is it important to prevent nesting HTML elements when creating web pages?
 
