@@ -11,27 +11,46 @@ category: must-know
 
 tags:
   - introduction
+
+link:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements 
+  
 ---
 # Headings (h1-h6)
+
 ---
 ## Content
 
-HTML heading are very important.
+The HTML heading elements are very important.
 
 They are used to determine the structure of your page.
 
 There are 6 headings in HTML5 ranging from `<h1>` to `<h6>`, `<h1>` being the most important and largest, `<h6>` being the least important and smallest.
 
+Each heading has a pre set size. However, they are easily modified.
+
+Example:
+```
+<h1 
+  style="font-size:60px;">Heading 1
+</h1>
+
+<h2 
+  style="font-size:48px;">Heading 2
+</h2>
+```
+Result:
+
+<h1 
+  style="font-size:60px;">Heading 1
+</h1>
+
+<h2 
+  style="font-size:48px;">Heading 2
+</h2>
+
 By default, the `<h4>` heading is the same size as `<p>`.
 
-They increase readability.
-
-Each heading have a pre set size. However, they are easily modified.
-
-```
-<h1 style="font-size:60px;">Heading 1</h1>
-<h2 style="font-size:48px;">Heading 2</h2>
-```
 
 Search engines interpret headings as part of your page. They use them to display imporant info for the user.
 
@@ -41,6 +60,7 @@ An `<h1>` heading provides users with easier access to the main content of the p
 
 It is used in the banner of a web page to describe the website.
 
+Also, it increases readability.
 
 ---
 ## Practice
@@ -69,6 +89,8 @@ Which is the largest text heading?
 
 ---
 ## Quiz
+
+### How much do you know about HTML headings?
 
 Which text heading is the same size as a paragraph by default?
 
