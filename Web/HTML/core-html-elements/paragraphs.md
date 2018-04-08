@@ -19,7 +19,9 @@ tags:
 In HTML the `<p>` tag defines the start of a paragraph And the `</p>` defines the end.
 
 ```
-<p> This is a paragraph </p>
+<p> 
+  This is a paragraph 
+</p>
 ```
 
 Sometimes you may forget to use the end tag, which the browser can still read properly, however it is best practice to put the end tag because some browsers may not read it properly.
@@ -27,7 +29,10 @@ Sometimes you may forget to use the end tag, which the browser can still read pr
 To set a specific size of your paragraph, you would use the `style="font-size:(number)%;"`
 
 ```
-<p style="font-size:130%;">This is a paragraph.</p>
+<p 
+  style="font-size:130%;">
+  This is a paragraph.
+</p>
 ```
 
 You can set the size either with or without the `%`. Although both inputs are correct, they give different sizes.
@@ -63,6 +68,8 @@ The `<p>` tag is used in HTML to do what?
 
 ---
 ## Quiz
+
+### How much do you know about HTML paragraphs?
 
 What is the default HTML text size of a paragraph in a browser?
 
