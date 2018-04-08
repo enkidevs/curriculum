@@ -41,6 +41,9 @@ Example:
 </p>
 ```
 
+**Note: Nested elements are very usefull and every website or document has them.**
+
+
 In HTML we also have empty elements or **void** elements. These elements don't have to be closed because they cannot contain content and are also automatically closed by the parser.
 
 The break `<br>` is one of those elements. 
@@ -51,17 +54,12 @@ The break `<br>` is one of those elements.
 ---
 ## Practice
 
-What two elements are written in this code:
-`<p>Check out this <a href="http://www.enkipro.com">website.</p>`
+Is it important to prevent nesting HTML elements when creating web pages?
 
 ???
-???
 
-* Paragraphs `<p></p>`
-* Anchors `<a>`
-* Opening `<p>`
-* Closing `</p>`
-* Path `href=" "`
+* No
+* Yes
 
 ---
 ## Revision
@@ -78,9 +76,21 @@ Even fairly simple websites are built using various ways of nested HTML elements
 
 ### How much do you know about HTML elements?
 
-Is it important to prevent nesting HTML elements when creating web pages?
+What two elements are written in this code:
+```
+<p>
+  Check out this 
+    <a href="http://www.enkipro.com">
+  website.
+</p>
+```
 
 ???
+???
 
-* No
-* Yes
+* Paragraphs `<p></p>`
+* Anchors `<a>`
+* Opening `<p>`
+* Closing `</p>`
+* Path `href=" "`
+
