@@ -12,7 +12,7 @@ category: must-know
 tags:
   - introduction
 ---
-# Hyperlink
+# Hyperlinks
 ---
 ## Content
 
