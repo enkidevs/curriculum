@@ -31,7 +31,15 @@ In the example above the `src="enki_logo.jpg"` is an attribute for the `<img>` t
 ## Practice
 
 What are the two attributes of this code?
-```<p>This is a <a href="https://www.enkipro.com" target="_blank">link</a></p>```
+```
+<p>
+  This is a 
+  <a 
+   href="https://www.enkipro.com" 
+   target="_blank">link
+  </a>
+</p>
+```
 
 ???
 ???
@@ -77,6 +85,8 @@ Every HTML element requires an attribute.
 
 ---
 ## Quiz
+
+### How much do you know about HTML attributes?
 
 HTML attributes usually come in what format?
 
