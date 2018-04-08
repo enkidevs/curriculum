@@ -54,29 +54,8 @@ The break `<br>` is one of those elements.
 ---
 ## Practice
 
-Is it important to prevent nesting HTML elements when creating web pages?
 
-???
-
-* No
-* Yes
-
----
-## Revision
-
-Even fairly simple websites are built using various ways of nested HTML elements.
-
-???
-
-* True
-* False
-
----
-## Quiz
-
-### How much do you know about HTML elements?
-
-What two elements are written in this code:
+What element is used in this code:
 ```
 <p>
   Check out this 
@@ -94,3 +73,27 @@ What two elements are written in this code:
 * Closing `</p>`
 * Path `href=" "`
 
+---
+## Revision
+
+Even fairly simple websites are built using various ways of nested HTML elements.
+
+???
+
+* True
+* False
+
+---
+## Quiz
+
+### How much do you know about HTML elements?
+
+Identify which element is not a valid HTML element?
+
+???
+
+ * `<paragraph>`
+ * `<p>`
+ * `<a>`
+ * `<img>`
+ * `<br>`
