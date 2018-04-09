@@ -23,7 +23,7 @@ In HTML the `<pre>` element is used to represent preformatted text as it is in t
 **Note:**
   - **pre stands for Preformatted Text Element.**
   - **Both the starting and ending tags are necessary.**
-  - **Whitespace inside the element is displayed as written.
+  - **Whitespace inside the element is displayed as written.**
 
 Example:
 ```
