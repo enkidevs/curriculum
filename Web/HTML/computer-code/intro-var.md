@@ -47,7 +47,8 @@ However, you can edit this by using CSS like so:
 
 ```
 var {
-  font: bold 20px "Times New Roman", Times, serif;
+  font: bold 20px "Times New Roman",
+  Times, serif;
 }
 ```
 
