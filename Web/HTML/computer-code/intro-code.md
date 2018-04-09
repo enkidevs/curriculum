@@ -33,7 +33,7 @@ Example:
 </p>
 ```
 Result:
- The funcion <code>calculateAverage()</code> calculates the average of a set of numbers.
+ The funcion `calculateAverage()` calculates the average of a set of numbers.
  
 The default font style for the `<code>` element for most browsers is the monospace font.
  
