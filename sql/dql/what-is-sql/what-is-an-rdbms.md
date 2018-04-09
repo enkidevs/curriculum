@@ -37,7 +37,7 @@ links:
 
 _Relational Databases_ store data in _tables_, which are similar to a spreadsheet in that they've got rows and columns.
 
-Using these tables we can query data, and store it such that others can query it. The language we use to _define_ tables is commonly referred to as SQL, but it's real name is *DDL*, or _Data Definition Language_.
+Using these tables we can query data, and store it such that others can query it. The language we use to _define_ tables is commonly referred to as SQL, but its real name is *DDL*, or _Data Definition Language_.
 
 Here's an example of how we might define a table:
 
