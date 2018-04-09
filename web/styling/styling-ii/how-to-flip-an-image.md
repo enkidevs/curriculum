@@ -69,7 +69,7 @@ img {
 * -0.5
 
 ---
-## Quiz
+## Quiz 
 
 ### how will the following line affect an image?
 

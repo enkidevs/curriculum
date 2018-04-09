@@ -159,7 +159,7 @@ What is the specificity of the following CSS code snippet?
 * 1-2-1-2
 
 ---
-## Quiz
+## Quiz 
 ### which of the following selectors has the highest specificity?
 
 ```css

@@ -124,7 +124,7 @@ id | version_group_id |      name
 * CREATE INDEX "u_index" ON version (version_group_id ASC);
 
 ---
-## Quiz
+## Quiz 
 ### What statement gets columns and rows from tables?
 
 Given a table called `ability` from our pokemon database:

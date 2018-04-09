@@ -107,7 +107,7 @@ Suppose that `PRIMARY KEY` isn't set yet. Choose the query that will create a cl
 * CREATE INDEX id_clustered ON item(id);
 
 ---
-## Quiz
+## Quiz 
 ### Do you know how to match a pattern in SQL?
 
 Consider the `pokemon` table from our pokemon database:

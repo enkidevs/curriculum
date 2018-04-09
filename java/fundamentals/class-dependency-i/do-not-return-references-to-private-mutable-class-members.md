@@ -82,7 +82,7 @@ Which of the following is a way of preventing mutable private fields from being 
 * Avoid the use of setters.
 
 ---
-## Quiz
+## Quiz 
 ### Can you identify a Java security vulnerability?
 
 What does this code print?

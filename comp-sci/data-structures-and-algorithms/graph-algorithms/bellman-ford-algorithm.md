@@ -92,7 +92,7 @@ The main difference between Bellman-Ford and Dijkstra's algorithms is that
 * Dijkstra's outputs the distance between the source and every other node
 
 ---
-## Quiz
+## Quiz 
 ### which algorithm is to be use in the following scenario?
 
 Suppose we have an undirected, complete, weighted (real numbers) graph.

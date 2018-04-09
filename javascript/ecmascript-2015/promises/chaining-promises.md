@@ -52,7 +52,7 @@ new Promise(function(resolve, reject){
 ```
 
 ---
-## Quiz
+## Quiz 
 ### How will this Promise evaluate?
 
 Will the two `console.log` statements output the same number, or different numbers?

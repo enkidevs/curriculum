@@ -57,7 +57,7 @@ Unlike other languages, Javascript stores numbers as ???
 * bigInt
 
 ---
-## Quiz
+## Quiz 
 
 ### is the following statement true?
 

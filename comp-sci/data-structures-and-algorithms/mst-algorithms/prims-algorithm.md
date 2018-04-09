@@ -76,7 +76,7 @@ Prim's algorithm can be applied for
 * any weighted connected graphs
 
 ---
-## Quiz
+## Quiz 
 ### which algorithm is to be use in the following scenario?
 
 Consider a complete, weighted graph. If we want to compute its minimum spanning tree,

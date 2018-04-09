@@ -33,7 +33,7 @@ The other two for loops we use have complexity O(n). So it sums up to a O (n log
 `sort3` is the least efficient as it eliminates the values that are smaller than 0.5. Afterwards it sorts the bigger initial list and calculates all square values.
 
 ---
-## Quiz
+## Quiz 
 
 ### which of the following functions is the fastest?
 

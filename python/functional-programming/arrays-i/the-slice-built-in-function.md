@@ -120,7 +120,7 @@ print(nList[sObject])
 * seq
 
 ---
-## Quiz
+## Quiz 
 ### how does slicing work?
 
 What will be printed by the following snippet?

@@ -72,7 +72,7 @@ Instead of comparing two floating numbers, the best way to avoid *inaccuracies* 
 * sum
 
 ---
-## Quiz
+## Quiz 
 ### what is 0.1 + 0.2?
 
 What will be the value of x?

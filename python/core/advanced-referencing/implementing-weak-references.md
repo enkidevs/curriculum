@@ -116,7 +116,7 @@ r = ???.ref(???)
 * `pass`
 
 ---
-## Quiz
+## Quiz 
 ### how would you check a variable for NoneType?
 
 ```python

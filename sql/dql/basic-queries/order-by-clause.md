@@ -148,7 +148,7 @@ count | region_id
 * SUM
 
 ---
-## Quiz
+## Quiz 
 ### Can you order a table with SQL?
 Consider the `experience` table from our pokemon database:
 

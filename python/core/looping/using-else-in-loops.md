@@ -90,7 +90,7 @@ An `else` statement is used in loops when the loops ??? is evaluated to ???.
 * parameter
 
 ---
-## Quiz
+## Quiz 
 ### what will the following code snippet print?
 
 ```python

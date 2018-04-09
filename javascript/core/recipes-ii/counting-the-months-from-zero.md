@@ -70,7 +70,7 @@ console.log(date);
 * `Dec`
 
 ---
-## Quiz
+## Quiz 
 ### how does JavaScript's Date object work?
 
 ```javascript

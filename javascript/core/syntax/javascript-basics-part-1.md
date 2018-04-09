@@ -99,7 +99,7 @@ var 777jackpot = "jackpot";
 * `valid`
 
 ---
-## Quiz
+## Quiz 
 ### which of the following is a valid comment?
 
 ```javascript

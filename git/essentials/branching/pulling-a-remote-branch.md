@@ -60,7 +60,7 @@ $ git ??? origin
 * `merge`
 
 ---
-## Quiz
+## Quiz 
 
 ### what does the -a flag in the following command stand for?
 

@@ -96,7 +96,7 @@ Get all of the rows and the `id`, `weight`, `name` columns from the `pokemon` ta
 * `FOR`
 
 ---
-## Quiz
+## Quiz 
 ### What statement gets columns and rows from tables?
 Given a table called `ability` from our pokemon database:
 

@@ -71,7 +71,7 @@ Is equivalent to
 * `git log --not master myBranch`
 
 ---
-## Quiz
+## Quiz 
 
 ### how can you specify a range of commits?
 

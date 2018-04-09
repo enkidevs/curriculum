@@ -103,7 +103,7 @@ What does `chmod go+x` do?
 * Removes write and read permission from group and others
 
 ---
-## Quiz
+## Quiz 
 ### How do you run a script with elevated permissions?
 
 Suppose you have a sh file named `script.sh`.

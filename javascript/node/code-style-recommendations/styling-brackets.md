@@ -170,7 +170,7 @@ function tictac() {
 * Object property creation
 
 ---
-## Quiz
+## Quiz 
 
 ### What will the following snippet output?
 

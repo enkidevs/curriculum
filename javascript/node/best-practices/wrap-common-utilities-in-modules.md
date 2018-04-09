@@ -65,7 +65,7 @@ In other words, breaking up mixed code into self-contained components means
 * designing it
 
 ---
-## Quiz
+## Quiz 
 ### What is it that you usually use NPM for?
 
 

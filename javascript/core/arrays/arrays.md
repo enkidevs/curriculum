@@ -122,7 +122,7 @@ var firstElement = ??????;
 * `pop`
 
 ---
-## Quiz
+## Quiz 
 ### what is the length of the array below?
 
 ```javascript

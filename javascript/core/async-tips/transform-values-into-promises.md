@@ -95,7 +95,7 @@ return ???.???('my value');
 * `prom`
 
 ---
-## Quiz
+## Quiz 
 ### In what order will these console.log() statements occur?
 
 In what order will these `console.log()` statements occur?
