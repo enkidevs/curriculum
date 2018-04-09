@@ -21,7 +21,7 @@ tags:
 ## Content
 
 ---
-## Quiz
+## Quiz 
 
 ### What will the following snippet output?
 

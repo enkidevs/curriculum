@@ -69,7 +69,7 @@ Gets the ??? of commit `42ea31d`.
 * child
 
 ---
-## Quiz
+## Quiz 
 ### how can you access the forth commit in this sequence?
 
 Say you've got the following commit tree:

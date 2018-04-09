@@ -62,7 +62,7 @@ With `inherit`, `h1` is required to `inherit` a color which it takes from `body`
 * `use`
 
 ---
-## Quiz
+## Quiz 
 ### what does the pseudo-class :root refer to?
 
 

@@ -86,7 +86,7 @@ Merge the two arrays in order:
 * `concat`
 
 ---
-## Quiz
+## Quiz 
 ### what is the result of the following addition?
 
 ```javascript

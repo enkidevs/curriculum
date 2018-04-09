@@ -150,7 +150,7 @@ WHERE region_name.region_id = 2;
 * `SELECT UNION`
 
 ---
-## Quiz
+## Quiz 
 ### Can you use a UNION of SELECTs?
 Given the tables called `item_pocket` and `item_category`:
 

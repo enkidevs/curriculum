@@ -26,7 +26,7 @@ Boolean values in Python are represented by two objects - `True` and `False`, us
 The reason for this is that prior to introducing an actual `bool` type, truth values were represented only by integers `1`  and `0` , similar to `C89` version of C language. To make old code  backwards compatible, `bool` needed to work just like numeric types and a decision was made to be a subtype of `int`.
 
 ---
-## Quiz
+## Quiz 
 
 ### what are booleans instances of?
 

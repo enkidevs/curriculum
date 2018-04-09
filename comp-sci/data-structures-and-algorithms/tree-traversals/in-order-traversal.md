@@ -96,7 +96,7 @@ G      F    E
 * B,F,A,E,C,D,H,I
 
 ---
-## Quiz
+## Quiz 
 ### which tree traversal is to be use in the following scenario?
 
 Given a binary search tree (BST), which traversal would print

@@ -84,7 +84,7 @@ double x = Math.tan(1/0.0);
 * `3.14`
 
 ---
-## Quiz
+## Quiz 
 ### is NaN equal to NaN?
 
 ```java

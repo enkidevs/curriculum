@@ -68,7 +68,7 @@ console.log(3 + true); // ???
 * undefined
 
 ---
-## Quiz
+## Quiz 
 
 ### How will (5 + true) be evaluated?
 

@@ -68,7 +68,7 @@ console.log(typeof NaN);
 * Infinite
 
 ---
-## Quiz
+## Quiz 
 ### is NaN a number?
 
 What is the output of this line?

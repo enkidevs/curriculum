@@ -106,7 +106,7 @@ Select all the columns from the `pokemon` table, keeping only the rows where the
 * 'saur%'
 
 ---
-## Quiz
+## Quiz 
 ### Do you know how to match a pattern in SQL?
 Consider the `location` table from our pokemon database:
 

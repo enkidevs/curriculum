@@ -137,7 +137,7 @@ What's the sets theory equivalent of `INNER JOIN`?
 * cartesian product
 
 ---
-## Quiz
+## Quiz 
 ### Can you filter one table based on data in another table in SQL?
 
 

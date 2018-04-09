@@ -95,7 +95,7 @@ How would we get the effect of adding another element to an immutable list?
 * use the `+` operator.
 
 ---
-## Quiz
+## Quiz 
 ### which of the following snippets prints False?
 
 ```python

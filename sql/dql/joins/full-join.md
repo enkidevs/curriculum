@@ -98,7 +98,7 @@ pokemon_type.type_id = type.id
 * `OUTER JOIN`
 
 ---
-## Quiz
+## Quiz 
 ### Can you select data from two related tables in SQL?
 Given the tables called `location` and `location_area`:
 

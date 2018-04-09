@@ -63,7 +63,7 @@ What is the wrapper class of primitive `int` ?
 * long
 
 ---
-## Quiz
+## Quiz 
 ### What will be printed by the following code snippet?
 
 ```java

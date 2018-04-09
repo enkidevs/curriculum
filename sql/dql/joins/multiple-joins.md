@@ -135,7 +135,7 @@ In order to join multiple tables together, subqueries must be used.
 * true
 
 ---
-## Quiz
+## Quiz 
 ### Sometimes one is not enough?
 
 

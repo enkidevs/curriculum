@@ -52,8 +52,7 @@ new Promise(function(resolve, reject){
 ```
 
 ---
-## Quiz
-### How will this Promise evaluate?
+## Revision 
 
 Will the two `console.log` statements output the same number, or different numbers?
 
@@ -63,9 +62,11 @@ const p = new Promise(resolve => {
 })
 
 // do these 2 log different or same value?
-p.then(console.log) 
+p.then(console.log)
 p.then(console.log)
 ```
+
+???
 
 * Same
 * Different

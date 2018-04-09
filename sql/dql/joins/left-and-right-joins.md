@@ -123,7 +123,7 @@ type.id = type_efficacy.target_type_id;
 * `WHERE`
 
 ---
-## Quiz
+## Quiz 
 ### LEFT OR RIGHT?
 
 Given the tables called `location_area` and `location`:

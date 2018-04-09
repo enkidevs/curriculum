@@ -23,7 +23,7 @@ tags:
 
 The sort method in an array does a lexical string sort by default. Meaning it converts the values to strings before comparing.
 ---
-## Quiz
+## Quiz 
 
 ### how does sorting work?
 
