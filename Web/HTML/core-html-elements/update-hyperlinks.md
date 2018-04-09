@@ -125,12 +125,12 @@ How is a placeholder link created, where the link works, but it doesn't open a n
 
 `<a href="???">Empty href</a>`
 
-* #
-* ""
-* *
-* _empty
-* _self
-* Leave empty
+* `#`
+* `""`
+* `*`
+* `_empty`
+* `_self`
+* `Leave empty`
 
 ---
 ## Quiz
