@@ -32,14 +32,17 @@ Unless you are the owner of the addresses, you wouldn't be able to digital sign 
 ---
 ## Practice
 
-Complete the following saying: 
+What is anonimity?
 
-`Anonymity loves ???.`
+???
 
-* company
-* misery
-* secrecy
-* advanced cryptographic techniques
+What is privacy?
+
+???
+
+* The condition in which the real identity of the person is unknown.
+* The condition in which the actions of a person are kept secret.
+* The condition in which both the identity and actions of a person are kept secret.
 
 ---
 ## Revision
@@ -49,6 +52,6 @@ What is the level of anonymity provided by the Bitcoin network?
 ???
 
 * pseudoanonymity
-* strong anonymity
+* complete anonymity
 * no anonymity
 
