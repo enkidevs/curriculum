@@ -31,11 +31,11 @@ It is only used for buttons and images with `type="submit"`.
  ```
 <form action="/action_page.asp" 
  method="post">
-  Name: 
+  Name: 
    <input type="text" name="fname"
     value="Ståle Refsnes"><br>
    <button type="submit">
-    Submit with character encoding
+    Submit with encoding
    </button>
    <button
     type="submit" 
