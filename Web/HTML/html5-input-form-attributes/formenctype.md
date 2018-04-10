@@ -23,9 +23,9 @@ The HTML `formenctype` input form attribute is used to specify how form-data sho
 It is only used for buttons and images with `type="submit"`.
 
 **Note:**
- - **If the attribute is not set, the default value is set to `application/x-www-form-urlencoded`.**
- - **When using `<input>` elements with the attribute `type="file"` it is necessary to set the value as `multipart/form-data`.**
- - **Setting the value to `text/plain` converts every space to a `+`, but no character is encoded.**
+ - **If the attribute is not set, the default value is set to <kbd>application/x-www-form-urlencoded</kbd>.**
+ - **When using `<input>` elements with the attribute <kbd>type="file"</kbd> it is necessary to set the value as <kbd>multipart/form-data</kbd>.**
+ - **Setting the value to <kbd>text/plain</kbd> converts every space to a `+`, but no character is encoded.**
  
  Example:
  ```
@@ -45,6 +45,7 @@ It is only used for buttons and images with `type="submit"`.
     Submit without encoding
    </button>
 </form>
+
 ```
 
 In the example above we have set all the spaces in the form to convert to a `+` with no character encoding.
