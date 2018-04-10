@@ -27,7 +27,7 @@ Example:
     name="fullname" autofocus><br>
   Card number: <input type="number"
     name="ccnumber"><br>
-  Exparation date: <input type="date"
+  Exparation date: <input type="month"
     name="ccdate"><br>
   CV: <input type"number"
     name="cvnumber"><br>
