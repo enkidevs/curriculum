@@ -24,7 +24,7 @@ The HTML input form `type="password"` attribute is used to display each characte
 Example:
 ```
 <form 
-  action="/action_page.php">
+  action="/action.php">
   Username: 
   <input 
     type="text" 
@@ -66,3 +66,18 @@ When sensitive data is input into a text field that should display as "*" in pla
 * hidden
 * secret
 * astrisk
+
+---
+## Quiz
+
+### How much do you know about HTML input form attributes?
+
+Mark which statement is true about the "type=password" attribute: 
+
+???
+
+* Each input character appears as an asterisk or circle.
+* Each input character appears as a square or circle.
+* Each input character appears as an asterisk or square.
+* Each input character does not appear.
+
