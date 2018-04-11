@@ -2,7 +2,6 @@
 author: pawel
 
 levels:
-
   - basic
 
 type: normal
@@ -10,35 +9,25 @@ type: normal
 category: best practice
 
 standards:
-
   js.evaluate-expressions.3: 10
-
   js.write-expressions.1: 10
 
 tags:
-
   - strings
-
   - html
-
   - introduction
-
   - workout
 
-
 links:
-
   - '[jsperf.com](http://jsperf.com/string-concat-vs-array-join-10000){website}'
 
-
 ---
-
 # Most efficient way to build `HTML` strings
 
 ---
 ## Content
 
-On modern browsers, building `HTML` strings with `.join()` is less efficient than concatenating strings with `+`.
+On modern browsers, building **HTML** strings with `.join()` is less efficient than concatenating strings with the `+` operator. This is due to the fact that the plus operator is optimized internally by modern JavaScript egines.
 
 So, adding the values to an array and then joining them at the end:
 
@@ -60,19 +49,44 @@ for(var i=0; i<100; i++) {
 ```
 
 ---
+## Practice
+
+Fill in the gaps of the following snippet such that the `squares` string will contain, one after the other, the square value of all numbers from `1` to `10`:
+
+```javascript
+var squares = '';
+for (var i = 1; i ??? 10; i ++) {
+  squares ??? i*i ??? ' '
+}
+console.log(squares)
+// "1 4 9 16 25 36 49 64 81 100 "
+```
+
+* <=
+* +=
+* +
+* =+
+* <
+* >
+* ++
+* join
+* concat
+* /
+* %
+
+---
 ## Revision
 
 What's the more efficient way to build `HTML` strings in modern browsers?
-```
-1) +
+
+```bash
+1) + (plus operator)
 2) join()
 3) concat()
 ```
 
 ???
 
-
-* `1)`
-* `2)`
-* `3)`
-
+* 1
+* 2
+* 3

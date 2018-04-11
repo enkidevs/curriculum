@@ -2,7 +2,6 @@
 author: alexjmackey
 
 levels:
-
   - beginner
 
 type: normal
@@ -12,22 +11,14 @@ category: must-know
 inAlgoPool: false
 
 standards:
-
   js.javascript-syntax.1: 10
-
   js.javascript-syntax.2: 10
 
 tags:
-
   - introduction
-
   - workout
 
-
-
-
 ---
-
 # JavaScript Basics - Part 1
 
 ---
@@ -35,15 +26,15 @@ tags:
 
 Like most programming languages, JavaScript has a number of rules its code must adhere to.
 
-**Case Sensitivity**
+### Case Sensitivity
 
 Everything in JavaScript is case sensitive.
 
-**Keywords**
+### Keywords
 
 Like most languages there are a number of reserved words in JavaScript that you cannot use to name your functions and variables.
 
-**Identifier naming rules**
+### Identifier naming rules
 
 When naming any function, property or variable, the first character must be a letter, $ sign or underscore.
 
@@ -54,21 +45,22 @@ var name = "Enki"; //valid
 var 2Company = "Enki"; //not valid
 ```
 
-**Comments**
+### Comments
 
 Comments can be created in 2 ways in JavaScript.
 
 As a single line comment:
 
-```//I am a single line comment```
+`//I am a single line comment`
 
 You can also add single line comments to the same line as other code:
 
+```javascript
+var company="enki"; //define company
 ```
-var company="enki"; //define company ```
 
 Or if you have more text you can use a block comment:
-```
+```javascript
 /*
 I am a block comment
 */
@@ -81,25 +73,25 @@ What syntax is used in *JavaScript* for **single line** comments?
 
 ???
 
-
-* `//`
+* //
 * `/* */`
+* `#`
 
 ---
 ## Revision
 
 Is the following line of code **valid**?
-```
+
+```javascript
 var 777jackpot = "jackpot";
 // line is ???
 ```
 
-
-* `not valid`
-* `valid`
+* not valid
+* valid
 
 ---
-## Quiz 
+## Quiz
 ### which of the following is a valid comment?
 
 ```javascript
