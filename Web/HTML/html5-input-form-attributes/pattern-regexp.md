@@ -19,22 +19,10 @@ tags:
 ---
 ## Content
 
-The HTML input form attribute `placeholder` is used to display a short hint that describes the expected value for the selected input field. It is displayed in the input field until the user enters a value.
+The HTML input form attribute `pattern` is used to specify a regular expression, `patternt="regexp"`, that the `<input>` elements value is checked against.
 
-Example:
-```
-<form 
-  action="/action.php">
-  <input 
-    type="text" name="full-name"
-     placeholder="Full name"><br>
-  <input 
-    type="submit" 
-    value="Submit">
-</form> 
-```
-
-The placeholder attribute works for several input types:
+The pattern attribute works for several input types:
+ - `date`
  - `email`
  - `password`
  - `search`
@@ -42,28 +30,26 @@ The placeholder attribute works for several input types:
  - `text`
  - `URL`
 
-In the next example, we use the pattern attribute to set a specific pattern, which in this case means that the value of the input has to be either lower or uppercase letters and can contain from 1-50 characters.
-
 Example:
 ```
 <form 
   action="/action.php">
+  Area dial code: 
   <input 
-    type="text" name="full-name"
-     placeholder="Full name"
-     pattern="[A-Za-z]{1,50}"><br>
-  <input 
-    type="submit" 
-    value="Submit">
+    type="text" name="area_code" 
+  pattern="[0-9]{1,5}" 
+  title="Area dial code">
+  <input type="submit">
 </form> 
 ```
+
+In the example above, we use the `pattern` attribute to set a specific pattern, which in this case means that the value of the input has to be numerical and can contain from 1-5 characters.
 
 You can also add different patterns.
 For instance, if you specify `pattern="[a-zA-Z0-9]{10}"`, the result can be any alphanumerical value ranging from lower and uppercase a-z letters and any number from 0-9 with a maximum of 10 characters. 
 
-The value in the pattern is a regular expression or `regexp`.
 
-Another example, where the pattern is used to force the user to make a more complicated password:
+Another example, where a more complicated pattern is used to force the user to make a more complicated password:
 ```
 <form 
   action="/action.php">
@@ -80,6 +66,8 @@ Another example, where the pattern is used to force the user to make a more comp
   <input type="submit">
 </form>
 ```
+
+In the example above, the user has to have at least one lowercase letter, one uppercase letter, one number and a minimum of 8 characters and a maxium of 20 characters.
 
 ---
 ## Practice
