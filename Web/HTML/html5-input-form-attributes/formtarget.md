@@ -1,5 +1,5 @@
-# Formtarget
-author: matthewleach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -14,21 +14,41 @@ stub: true
 tags:
   - deep
 
-
+---
+# Formtarget
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+The HTML `formtarget` input form attribute is used to indicate where to display the response that is received after submitting the form.
+If the `formtarget` attribute is specified it overrides the `target` attribute.
+
+Heres an example of the formtarget attribute set to open in a different window after it's submitted:
+```
+<form 
+  action="file.php">
+  Name: 
+    <input type="text"
+      name="name"><br>
+  <input type="submit"
+    formtarget="_blank">
+</form>
+```
 
 ---
 ## Practice
 
 Complete the code by adding the appropriate input form attributes to submit the data to a new window.
 
-```<form action="file.php">
-  Name: <input type="text" name="name"><br>
-  <input type="submit" ???="???">
-</form>```
+```
+<form 
+  action="file.php">
+  Name: 
+    <input type="text"
+      name="name"><br>
+  <input type="submit"
+    ???="???">
+</form>
+```
 
 * formtarget 
 * _blank
