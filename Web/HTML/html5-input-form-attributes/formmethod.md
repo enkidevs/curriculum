@@ -57,14 +57,21 @@ Example:
 
 Match the possible values with their description related to the method attribute.
 
-`<form action="file.php" method="___">`
+```
+<form 
+  action="file1.php" method="get">
+</form>
+<form 
+  action="file2.php" method="post">
+</form>
+```
 
-??? : Form data is appended to the URL when submitted. 
-??? : Form data is not appended to the URL.
+get : ???
+post : ???
 
 
-* get
-* post
+* Form data is appended to the URL when submitted. 
+* Form data is not appended to the URL.
 
 ---
 ## Revision
