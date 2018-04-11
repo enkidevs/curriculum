@@ -55,6 +55,8 @@ Note: you must name a function defined by a **function declaration**.
 
 Is the `name` field used in a **function expression** for defining functions mandatory?
 
+???
+
 * no
 * yes
 * only on browsers

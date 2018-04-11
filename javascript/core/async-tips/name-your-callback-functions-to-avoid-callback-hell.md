@@ -55,6 +55,8 @@ This  also allows you to keep your code shallow which makes it more intuitive fo
 
 Which of the following statements about naming you callback functions do you consider false?
 
+???
+
 * they can minimise the memory used by your application
 * they make your code more readable
 * they can help you avoid callback hell

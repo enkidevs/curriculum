@@ -47,6 +47,8 @@ This can be very useful when you are posting a question on a forum site - you ar
 
 Which of the following statements do you consider false?
 
+???
+
 * you need HTML to test JavaScript
 * online JavaScript environments allow the use of external libraries
 * you can share your code easier through online JavaScript environments

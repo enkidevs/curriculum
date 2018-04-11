@@ -74,6 +74,8 @@ var x = 'foo';
 })()
 ```
 
+???
+
 * log 5
 * log 'foo'
 * raise an error
