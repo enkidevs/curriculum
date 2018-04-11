@@ -35,7 +35,7 @@ The most **basic output** function in **Python** is `print()`[1]. The arguments 
 
 The syntax simply is:
 ```
-print('This is a print statement.'')
+print('This is a print statement.')
 ```
 This will produce the following result on your screen:
 ```

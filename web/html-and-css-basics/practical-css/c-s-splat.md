@@ -201,7 +201,7 @@ The correct name of the value for setting the current color is `currentColor`;
   border-radius: 0;
 }
 %exp
-Using the `background` property with just one value argument will act as a a shorthand for `background-color`.
+Using the `background` property with just one value argument will act as a shorthand for `background-color`.
 Hence, simply specifying a size instead of a color will raise an error.
 %
 ​---
