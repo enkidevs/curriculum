@@ -26,9 +26,6 @@ tags:
 
   - deep
 
-
-
-
 ---
 
 # UNION
@@ -141,7 +138,7 @@ WHERE region_name.region_id = 2;
 ---
 ## Revision
 
-??? command retrieves all rows, _even duplicated`_, of the union.
+??? command retrieves all rows, _even duplicated_, of the union.
 
 
 * `UNION ALL`
