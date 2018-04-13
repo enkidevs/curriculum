@@ -34,19 +34,25 @@ Example:
   <option 
     value="orange">Oranges
   </option>
+  <option 
+    value="plum">Plums
+  </option>
+  <option 
+    value="lemon">Lemons
+  </option>
 </select>
 ```
 
-You can also add several attributes to your list. 
-These are:
+You can also add several other attributes to your drop-down list. 
+Some of these are:
  - autofocus
  - disabled
- - form
+ - multiple
  - name
  - required
  - size
 
-You can also define groups of related options from a drop-down list within a `select` element.
+It is also possible to define groups of related options from a drop-down list within a `select` element.
 This is done by adding an `<optgroup>` attribute, like so: 
 
 Example:
