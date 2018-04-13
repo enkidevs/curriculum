@@ -13,11 +13,13 @@ stub: true
 
 tags:
   - deep
-
+link:
+ - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range
 ---
 # Range
 ---
 ## Content
+
 
 The HTML form input type `range` is used to specify any numeric value between two numbers. That value cannot be less than or greater than the two chosen values. It is usually represented by a slider. This kind of value control is not precise, so it should only be used if the exact value is not important.
 
@@ -87,6 +89,43 @@ In this block of code, we have created 2 variables named `slider` and `output`. 
 
 In the next part, we set the variable slider to have an `oninput` function. This `oninput` function prints on the `output` variable as soon as there is an input, or in this case, as soon as the slider moves.
 
+
+Additionally, you can edit your sliders by adding labels or hash marks. This is done with the `list` attribute and the `<datalist>` element.
+
+Example:
+```
+<input 
+  type="range" 
+  list="tickmarks">
+
+<datalist id="tickmarks">
+  <option value="0">
+  <option value="25">
+  <option value="50">
+  <option value="75">
+  <option value="100">
+</datalist>
+```
+
+In the example above, we defined a slider with 5 hash marks, at 0, 25, 50, 75 and 100. This slider has values you can easily set with the hash marks. Each point is represented by the `<option>` element and it's value set to the desired range's value where the hash mark should be.
+
+Moreover, you can also add labels next to your hash marks.
+Example:
+```
+<input 
+  type="range" 
+  list="tickmarks">
+
+<datalist id="tickmarks">
+  <option value="0" label="0">
+  <option value="25">
+  <option value="50" label="50">
+  <option value="75">
+  <option value="100" label="100">
+</datalist>
+```
+
+**Note: Not all browsers support hash marks and labels on sliders. For instance, Chrome only supports tick marks while Firefox doesn't support either of them.**
 
 
 ---
