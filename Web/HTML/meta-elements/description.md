@@ -1,5 +1,5 @@
-# Description
-author: matthew-leach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -11,16 +11,27 @@ category: must-know
 
 tags:
   - introduction
-
+---
+# Description
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+In HTML the `<meta>` tag is used to describe metadata within a document.
+For instance, the meta `description` tag is used to add a short summary of the content of your website. 
+
+Example:
+```
+<meta 
+  name="description" 
+  content="Short summary here">
+```
+
+The description meta tag is useful for search engines and browsers for different reasons. For instance, Firefox uses this description as info for bookmarked pages. Whereas some search engines use descriptions as information to review and see if they should display that web page to the user.
 
 ---
 ## Practice
 
-Complete the code that provides into for search engines to review and display within the results:
+Complete the code that provides info for search engines to review and display within the results:
 
 `<??? ???="???" ???="This would be the write-up.">`
 
@@ -49,7 +60,7 @@ Which line of code shares info about the website for search engines?
 ---
 ## Quiz
 
-What makes a good meta description?
+### What makes a good meta description?
 
 Choose the best option from these:
 
