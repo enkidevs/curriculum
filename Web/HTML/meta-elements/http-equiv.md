@@ -125,10 +125,4 @@ The easiest way to redirect a web page to another is using a meta redirect tag i
 * No
 * Yes
 * There is an error in the sample code.
-
-<!-- 
-Note: The better option is using JS: 
-<script>
-  window.location = "http://new-website.com";
-</script>
--->
+* This way doesn't work at all.
