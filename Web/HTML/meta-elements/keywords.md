@@ -55,6 +55,8 @@ Which tag is the least influential tag for search engines in a web page?
 ---
 ## Quiz
 
+### Answer a quick question about meta element tags!
+
 What is the least influential tag for search engines in a web page?
 
 ???
