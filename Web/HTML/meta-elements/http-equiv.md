@@ -45,7 +45,8 @@ In the second example, we automatically redirect users from one webpage to anoth
 **Note: The better option is using JS: **
 ```
 <script>
-  window.location = "http://new-website.com";
+  window.location = 
+  "http://new-website.com";
 </script>
 ```
 
