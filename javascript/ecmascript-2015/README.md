@@ -4,10 +4,10 @@ description: The sixth edition of Ecmascript. Get up to speed with the new synta
 
 sections:
   '0':
-    - array-updates
-    - function-improvements
     - intro-ecmascript
+    - function-improvements
     - string-number-extensions
+    - array-updates
   '1':
     - destructuring
     - spread-map-set-math
@@ -18,8 +18,8 @@ sections:
     - promises
     - symbol
   '3':
-    - generators-proxy
     - iterators-generators
+    - generators-proxy
     - master-es6-features
 
 next:

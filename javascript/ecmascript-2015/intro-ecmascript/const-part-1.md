@@ -2,7 +2,6 @@
 author: alexjmackey
 
 levels:
-
   - beginner
 
 type: normal
@@ -12,21 +11,14 @@ category: must-know
 inAlgoPool: false
 
 tags:
-
   - introduction
-
   - es6
-
   - memory
 
-
 links:
-
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const){website}'
 
-
 ---
-
 # Const (Part 1)
 
 ---
@@ -39,22 +31,46 @@ will receive an error.
 
 To declare a constant use the *`const`* keyword where you would have used *`var`*:
 
-```
+```javascript
 const year = 2016;
 ```
+
 Once a `const` is declared any attempts to reassign the value will cause an error:
 
-```
+```javascript
 year = 2017; //error
 year = "future"; //error
 ```
+
 `const`s can exist in different scopes for example if we had already declared a `const` variable called `year` it is valid to declare another as long as it exists in another scope:
 
-```
+```javascript
 const year=2015;
 
-if(1==1){
+if (1 == 1) {
    const year = 2016; //valid
 }
 ```
 
+---
+## Practice
+
+---
+## Revision
+
+Is the following code valid? Why?
+
+???
+
+```javascript
+const enki = 'enki';
+
+if (true) {
+   const enki = 'nk';
+}
+```
+
+* yes, because the second assignment is in a different scope
+* yes, because the value is changed
+* no, because you can't redeclare a variable
+* no, because the `if` block doesn't have it's own scope

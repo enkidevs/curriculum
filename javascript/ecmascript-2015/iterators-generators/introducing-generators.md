@@ -2,9 +2,7 @@
 author: alexjmackey
 
 levels:
-
   - medium
-
   - advanced
 
 type: normal
@@ -13,14 +11,11 @@ category: must-know
 
 inAlgoPool: false
 
-
 links:
-
   - '[MDN - Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}'
 
 
 ---
-
 # Introducing Generators
 
 ---
@@ -32,7 +27,7 @@ Mozilla Developer Documentation defines generators as "a special type of functio
 
 Let's rewrite our simple example that iterates through 1 to 5 to use a generator function.
 
-To indicate that a function is a generator function we add an asterix or star after the function keyword.
+To indicate that a function is a generator function we add an asterisk or star after the function keyword.
 
 The positioning of this is not important so it can be next to the function keyword in the middle or next to the name.
 
@@ -44,20 +39,60 @@ When the generator is next called, it will return to the next statement just aft
 
 The below example shows one way to implement our 1-5 iterator as a generator:
 
-```
+```javascript
 function* getGenerator(){
   var currentNumber = 1;
-  while(currentNumber<6){
-  yield currentNumber++;
- }
+  while(currentNumber < 6) {
+    yield currentNumber++;
+  }
 }
 
 var gen = getGenerator();
-gen.next(); //{value: 1, done: false}
-gen.next(); //{value: 2, done: false}
-gen.next(); //{value: 3, done: false}
-gen.next(); //{value: 4, done: false}
-gen.next(); //{value: 5, done: false}
-gen.next(); //{value: undefined, done: true}
+gen.next(); // {value: 1, done: false}
+gen.next(); // {value: 2, done: false}
+gen.next(); // {value: 3, done: false}
+gen.next(); // {value: 4, done: false}
+gen.next(); // {value: 5, done: false}
+gen.next();
+// {value: undefined, done: true}
 ```
 
+---
+## Practice
+
+Fill in the missing gaps of the following generator function:
+
+```javascript
+??? myGenerator() {
+  ??? 5;
+}
+
+const gen = myGenerator();
+gen.next();
+// {value: 5, done: false}
+gen.???;
+// {value: undefined, done: true}
+```
+
+* function*
+* yield
+* next()
+* isDone()
+* return
+* done()
+* function
+* () =>
+* class
+* generator
+
+---
+## Revision
+
+Can generator functions maintain their execution context between method calls?
+
+???
+
+* Yes
+* No, because the memory needed would be to big
+* No, because of the JavaScript memory model
+* Only if the calls are done one after the other
