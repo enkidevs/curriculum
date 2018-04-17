@@ -99,7 +99,7 @@ count | region_id
 ---
 ## Revision
 
-Knowing that the pokemon db has a table called `item` and a field `name`, count all name entries?
+Knowing that the pokemon db has a table called `item` and a field `name`, how do we count all name entries?
 ```
     ???
 --Result:
@@ -114,7 +114,7 @@ Knowing that the pokemon db has a table called `item` and a field `name`, count 
 * SELECT COUNT(name) FROM item;
 * SELECT COUNT(DISTINCT name) FROM item;
 * SELECT COUNT(item) FROM name;
-* SELECT COUNT(name) FROM item
+* SELECT COUNT(all) FROM item;
 
 ---
 ## Footnotes
