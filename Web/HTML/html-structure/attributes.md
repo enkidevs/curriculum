@@ -42,16 +42,13 @@ What are the two attributes of this code?
 ```
 
 ???
-???
 
-* href
-* target
-* `<p>`
-* `<a>`
-* `</p>`
-* `</a>`
-* https://www.enkipro.com
-* _blank
+* `href` and `target`
+* `<p>` and `<a>`
+* `href` and `<p>`
+* `https://www.enkipro.com` and `_blank`
+* `link` and `target`
+
 
 Attribute values should always be enclosed within what symbols?
 
