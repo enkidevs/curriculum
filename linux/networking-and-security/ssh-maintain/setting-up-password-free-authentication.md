@@ -79,7 +79,7 @@ $ ??? -t ???
 * `ssh`
 * `keygen`
 * `sshKeygen`
-* `generatre`
+* `generate`
 * `ssh-rsa`
 * `public`
 * `private`
