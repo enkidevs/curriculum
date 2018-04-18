@@ -64,7 +64,7 @@ INSERT INTO items (id, name, url)
 VALUES (4, "IP002", "http://placehold.it/200/200");
 ```
 
-**In order to check your results:**
+*In order to check your results:*
 
 - create the table
 - build the schema
