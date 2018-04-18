@@ -41,7 +41,8 @@ Use `fs.readFileSync` to **return the contents of a file**:
 
 ```javascript
 // suppose file.txt
-const fileContent = fs.readFileSync('./file.txt')
+const fileContent =
+  fs.readFileSync('./file.txt')
 ```
 
 This is the synchronous version of `fs.readFile`. It returns a string or a buffer.
