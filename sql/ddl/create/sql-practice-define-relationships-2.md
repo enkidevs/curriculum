@@ -34,5 +34,5 @@ links:
 ## Exercise
 
 Create a foreign key constraint to relate the `users` table with the `users_items` table, on the `user_id` column in `users_items`.
-When you are finished, run this query and check that it **fails**:  
+When you are finished, run this query and check that it *fails*:  
 `INSERT INTO user_items (id, item_id, user_id, daily_price) VALUES (4, 10, 11, 5.2);`
