@@ -43,7 +43,6 @@ Example:
 
 **Note: Nested elements are very usefull and every website or document has them.**
 
-
 In HTML we also have empty elements or **void** elements. These elements don't have to be closed because they cannot contain content and are also automatically closed by the parser.
 
 The break `<br>` is one of those elements. 
@@ -54,8 +53,7 @@ The break `<br>` is one of those elements.
 ---
 ## Practice
 
-
-What element is used in this code:
+What elements are used in this code? (Select in the order they appear)
 ```
 <p>
   Check out this 
