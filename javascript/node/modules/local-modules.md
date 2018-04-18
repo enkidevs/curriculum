@@ -2,28 +2,21 @@
 author: tommarshall
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
   - advanced
 
 type: normal
 
 category: must-know
 
-
 links:
-
   - '[Local Modules](http://www.tutorialsteacher.com/nodejs/nodejs-local-modules){website}'
 
 parent: the-http-module-for-servers
 
 ---
-
 # Local Modules
 
 ---
@@ -34,7 +27,7 @@ In Node.js a local module is a module created locally to your application. A loc
 Local modules must be in their own separate JavaScript file.
 Consider the following example of a local module (filename `news.js`):
 
-```
+```javascript
 var news = {
   good: function(good) {
     console.log('Good news! ' + good);
@@ -48,22 +41,56 @@ module.export = news
 
 A local module has to be required into an application in the same way a core module does, the only difference being that the path to the module must be specified as follows in `main.js`:
 
-```
+```javascript
 var newsModule = require(`./news.js`);
 ```
 
 The local module object can now be called with one of its functions:
+
+```javascript
+newsModule.good('We\'re working on Node!');
 ```
-newsModule.good('We're working on Node!');
-```
-To run the module:
-```
+
+To run the module and see its output:
+
+```bash
 $ node main.js
+# Good news! We're working on Node!
 ```
-Which gives the following output:
+
+---
+## Practice
+
+Consider the following local node module:
+
+```javascript
+// myModule.js
+module.exports = {
+  hello: function() {
+    console.log('Hello from Enki')
+  }
+}
 ```
-Good news! We're working on Node!
+
+How would you import and use it in your application?
+
+```javascript
+// main.js
+var myModule = ???('./myModule.js')
+
+???.???
 ```
+
+Running `$ node myModule` should log "Hello from Enki".
+
+* require
+* myModule
+* hello()
+* hello
+* req
+* import
+* myFile
+* myLocalModule
 
 ---
 ## Revision
@@ -71,7 +98,5 @@ Good news! We're working on Node!
 Which of the following module types must have its path specified when requiring it?
 ???
 
-
 * local
 * core
-
