@@ -2,7 +2,7 @@
 author: mihaiberq
 
 levels:
-
+  - beginner
 
 type: normal
 
@@ -35,6 +35,8 @@ Of these options npm is usually seen as the current best-choice.
 ## Practice
 
 Which of the following is not a JavaScript package manger?
+
+???
 
 * webpack
 * npm
