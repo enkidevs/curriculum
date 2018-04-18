@@ -55,15 +55,15 @@ Write the code to insert an image:
 
 `<??? ???="???" ???="Enki Logo">`
 
-* img 
-* src
-* images/logo.svg
-* alt
-* image
-* a
-* href
-* photo
-* images/logo.img
+* `img` 
+* `src`
+* `images/logo.svg`
+* `alt`
+* `image`
+* `a`
+* `href`
+* `photo`
+* `images/logo.img`
 
 ---
 ## Revision
@@ -82,21 +82,30 @@ If an image cannot load properly in a web page, what attribute will display text
 
 ???
 
-* alt
-* src
-* href
-* title
-* desc
+* `alt`
+* `src`
+* `href`
+* `title`
+* `desc`
 
 Which of these are not a common web image format: 
 
 ???
 
-* .img
-* .png
-* .svg
-* .gif
-* .jpg 
+* `.img`
+* `.png`
+* .`svg`
+* `.gif`
+* `.jpg `
+
+If an image does not have an assigned height and width using HTML or CSS, how will the image display within a web page?
+
+???
+
+* At its original image size.
+* Will resize filling the container it is within. 
+* Will resize by default to 100px wide.
+* It will only resize if the image is larger than the viewing area.
 
 ---
 ## Quiz
@@ -111,13 +120,3 @@ Why is assigning height & width attributes to an image size more useful than set
 * Using HTML height & width attributes is never better than CSS.
 * When image size needs to override the CSS size setting.
 * When the height and width is differen than the default image size.
-
-If an image does not have an assigned height and width using HTML or CSS, how will the image display within a web page?
-
-???
-
-* At its original image size.
-* Will resize filling the container it is within. 
-* Will resize by default to 100px wide.
-* It will only resize if the image is larger than the viewing area.
-
