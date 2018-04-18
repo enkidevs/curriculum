@@ -33,7 +33,7 @@ $ npm cache add myTarballUrl
 $ npm cache add myPackage@myVersion
 ```
 
-To show data in the cache, `ls ` can be used:
+To show data in the cache, `ls` can be used:
 
 ```bash
 $ npm cache ls [myPath]

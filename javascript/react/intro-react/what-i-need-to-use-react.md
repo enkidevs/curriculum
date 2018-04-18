@@ -2,22 +2,18 @@
 author: catalin
 
 levels:
-
   - beginner
 
 type: normal
 
 category: must-know
 
-
 links:
-
   - '[facebook.github.io](https://facebook.github.io/react/docs/installation.html){website}'
 
 parent: why-use-react
 
 ---
-
 # **React** dependencies
 
 ---
@@ -25,8 +21,9 @@ parent: why-use-react
 
 Being a truly flexible library, you can create applications from scratch with **React**, but also gradually including it to your code base without having to re-write anything.
 
-To install **React** you can use a *package manager* such as `Yarn` or `npm`:
-```
+To install **React** you can use a *package manager* such as `yarn` or `npm`:
+
+```bash
 // yarn
 $ yarn add react react-dom
 // npm
@@ -45,18 +42,32 @@ Although not required, adopting a modern **build pipeline** is highly recommende
 Using `Babel` compiler will allow you to write your application with both `ES6`[3] and `JSX` syntax. For this, you need to install `babel-preset-react` and `babel-preset-es2015` and enable them in your `.babelrc` config file.
 
 To create a **Single page application** you can use the officially supported package called `create-react-app`:
-```
-npm i -g create-react-app
-create-react-app myAppName
+
+```bash
+$ npm i -g create-react-app
+$ create-react-app myAppName
 ```
 
 This will automatically create a *static application* with no backend logic or databases. However, this will set-up the development environment including all the modern tools specified above.
 
 To run your `create-react-app` app just:
+
+```bash
+$ cd myAppName
+$ npm start
 ```
-cd myAppName
-npm start
-```
+
+---
+## Practice
+
+Which of the following tools can't help the development of a React app?
+
+???
+
+* jsx
+* babel
+* webpack
+* browserify
 
 ---
 ## Revision
@@ -65,7 +76,6 @@ Which tool will automatically set-up the development environment for a simple `R
 
 ???
 
-
 * create-react-app
 * react-dom
 * browserify
@@ -73,12 +83,11 @@ Which tool will automatically set-up the development environment for a simple `R
 
 ---
 ## Footnotes
-[1:bundler]
 
+[1:bundler]
 A `JavaScript` **bundler** is a tool that puts your code and all its dependencies together in one `JS` file. There are many of them out there these days, being the most popular ones `browserify` and `webpack`.
 
 [2:Babel]
-
 `Babel` is a compiler that transforms newer `JS` sytnax (such as `ES6`) into standard `JS` that can run on the browser(or server).
 You can download `Babel` at:
 ```
@@ -86,5 +95,4 @@ https://babeljs.io/
 ```
 
 [3:ES6]
-
 **ECMAScript 6** (`ES6`, often referred to as “Harmony”) is the upcoming sixth major release of the `ECMAScript` language specification. `ECMAScript` is the “proper” name for the language known as `JavaScript`.
