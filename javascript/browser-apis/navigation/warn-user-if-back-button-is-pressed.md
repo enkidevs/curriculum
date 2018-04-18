@@ -33,7 +33,7 @@ window.onbeforeunload = function() {
 ---
 ## Practice
 
-What is the name of the event fired when a user leave the webpage?
+What is the name of the event fired when a user leaves the webpage?
 
 ???
 
