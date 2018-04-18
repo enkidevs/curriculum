@@ -132,6 +132,34 @@ How is a placeholder link created, where the link works, but it doesn't open a n
 * `_self`
 * `Leave empty`
 
+When will the cursor change to a pointer with the following code?
+
+```
+<main>
+  <a 
+    href="http://www.enkipro.com">
+    Check out Enki
+  </a>
+</main>
+```
+
+When the mouse hovers: ???
+
+* over the text within the `<a>` element.
+* anywhere within the `<main>` element.
+* anywhere within the web page.
+* The cursor doesn’t change in this case.
+
+What is the default style of a text link in HTML?
+
+???
+
+* It is blue and underlined. 
+* It is blue and bold.
+* There is no visual change to a text link.
+* The cursor changes to pointer when hovered over it.
+* The cursor doesn't change.
+
 ---
 ## Quiz
 
@@ -157,29 +185,3 @@ Which statement about these paragraphs & links is true?
 * HTML links are required to be placed around entire paragraphs to be valid. 
 * Neither line in this example is valid HTML. 
 
-When will the cursor change to a pointer with the following code?
-
-```
-<main>
-  <a href="http://www.enkipro.com">
-    Check out Enki
-  </a>
-</main>
-```
-
-When the mouse hovers: ???
-
-* over the text within the `<a>` element.
-* anywhere within the `<main>` element.
-* anywhere within the web page.
-* The cursor doesn’t change in this case.
-
-What is the default style of a text link in HTML?
-
-???
-
-* It is blue and underlined. 
-* It is blue and bold.
-* There is no visual change to a text link.
-* The cursor changes to pointer when hovered over it.
-* The cursor doesn't change.
