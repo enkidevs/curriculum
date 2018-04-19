@@ -13,14 +13,17 @@ tags:
   - introduction
 ---
 # HTML Structure Defined
-
 ---
 ## Content
 
 When writing in HTML there is a certain structure you must follow.
 
 The structure is:
-(Opening tag)(Element)(Attribute)(Closing tag)
+```
+(Element's opening tag)
+(Attribute)"(attributes value)"(property)
+(Element's closing tag)
+```
 
 Example:
 ```
@@ -29,30 +32,33 @@ Example:
 </a>
 ```
 
-
-
 ---
 ## Practice
 
-Match the terms defining this HTML code:
+Identify the terms defining this HTML code:
 
-<!-- A  B      C                        D -->
-`<a href="http://enkipro.com/">Enki</a>`
+```
+AB  C      D                    E  F
+<a href="http://enkipro.com/">Enki</a>
 
-`IMAGE: html-structure-define.svg`
+<!--IMAGE: html-structure-define.svg-->
+```
 
 A: ???
 B: ???
 C: ???
 D: ???
+E: ???
+F: ???
 
-* element
-* attribute
-* opening tag
-* closing tag
-* properly
-* value
-* rule
+ * opening tag
+ * element
+ * attribute
+ * attribute's value
+ * property
+ * closing tag
+ * value
+ * rule
 
 
 ---
@@ -60,39 +66,39 @@ D: ???
 
 Match the terms defining this HTML code:
 
-<!-- A  B      C                        D -->
-<!--<a href="http://enkipro.com/">Enki</a>-->
+```
+AB  C      D                    E  F
+<a href="http://enkipro.com/">Enki</a>
 
-<!-- IMAGE: html-structure-define.svg -->
+<!--IMAGE: html-structure-define.svg-->
+```
 
 A: ???
 B: ???
 C: ???
 D: ???
+E: ???
+F: ???
 
-* element
-* attribute
-* opening tag
-* closing tag
-
+ * opening tag
+ * element
+ * attribute
+ * attribute's value
+ * property
+ * closing tag
+ * value
+ * rule
+ 
 ---
 ## Quiz
 
 ### Do you know how HTML is structured?
 
-Identify the terms defining this HTML code:
+How is HTML structured?
 
-<!-- A  B      C                        D -->
-<!--<a href="http://enkipro.com/">Enki</a>-->
+???
 
-<!-- IMAGE: html-structure-define.svg -->
-
-A: ???
-B: ???
-C: ???
-D: ???
-
-* element
-* attribute
-* opening tag
-* closing tag
+ * (Element's open tag)(Attribute)"(attributes value)"(property)(Element's close tag)
+ * (Element's open tag)(Attribute)"(attributes value)"(Element's close tag)(property)
+ * (Element's open tag)(Attribute)(attributes rules)"(attributes value)"(Element's close tag)
+ * (Element's open tag)(Element's close tag)(Attribute)"(attributes value)"(property)
