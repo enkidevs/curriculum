@@ -21,7 +21,7 @@ Some elements:
 - Paragraph:`<p></p>`
 - Anchors: `<a></a>`
 - Headers: `<h3></h3>`
-- Path `href=""`
+- Script: `<script></script>`
 
 Example:
 ```
@@ -53,7 +53,7 @@ The break `<br>` is one of those elements.
 ---
 ## Practice
 
-What elements are used in this code? (Select in the order they appear)
+What elements are used in this code? 
 ```
 <p>
   Check out this 
@@ -63,13 +63,13 @@ What elements are used in this code? (Select in the order they appear)
 ```
 
 ???
-???
 
-* Paragraphs `<p></p>`
-* Anchors `<a>`
-* Opening `<p>`
-* Closing `</p>`
-* Path `href=" "`
+* Paragraphs and Anchors
+* Anchors and Headings
+* Headings and Paragraphs
+* Images and Links
+* Parameters and Anchors
+* Anchors and Headings
 
 ---
 ## Revision
