@@ -38,7 +38,7 @@ In HTML5 only the `<!DOCTYPE>` tag is written in all caps.
 Other tags are not case sensitive. However, they are usually written in lowercase.
 This is because there is a wide range of developers who do not use HTML5, but rather XHTML. Because of that, they were influenced to write tags in lowercase so their HTML can be read by both markup languages.
 
-Also, there are elements which have no ending tag. These are called empty elements.
+Also, there are elements which have no ending tag. These are called self closing.
 
 
 ---
@@ -48,11 +48,11 @@ Which of these characters is used to represent an end tag?
 
 ???
 
-* /
-* ^
-* <
-* >
-* *
+* `/`
+* `^`
+* `<`
+* `>`
+* `*`
 
 HTML tags are recommended to be written in which case?
 
@@ -78,15 +78,15 @@ How many tags are used in this code:
 * 1
 * 6
 
-What is an HTML element called that does not having a closing tag?
+What is an HTML element called that does not have a closing tag?
 
 ???
 
-* empty element
-* tag
-* closed element
-* opening tag
-* < />
+* `self closing`
+* `tag`
+* `closed element`
+* `opening tag`
+* `< />`
 
 ---
 ## Revision
