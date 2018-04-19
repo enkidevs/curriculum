@@ -23,7 +23,7 @@ standards:
 
 
 links:
-  - '[MySQL modify columns documentation](https://dev.mysql.com/doc/refman/5.7/en/alter-table.html){Documentation}'
+  - '[MySQL modify columns documentation](https://dev.mysql.com/doc/refman/5.7/en/alter-table.html){documentation}'
   - '[blog post on MySQL define tables](https://www.tutorialspoint.com/mysql/mysql-alter-command.htm){website}'
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=Epj5cb5HF9o){video}'
 
