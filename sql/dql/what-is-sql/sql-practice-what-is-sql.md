@@ -29,7 +29,7 @@ links:
 ---
 ## Exercise
 
-Follow the link below to SQLFiddle. Run *Build Schema*. This creates and populates a simple user management database.
+Click *Launch Exercise* below to open a SQLFiddle. Run *Build Schema*. This creates and populates a simple user management database.
 
 Next, click *Run SQL* and observe the output.
 

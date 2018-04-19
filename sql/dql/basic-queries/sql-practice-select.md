@@ -33,7 +33,7 @@ links:
 ---        
 ## Exercise
 
-Follow the link above to SQLFiddle. Run *Build Schema*. This creates and populates the Pokemon database.
+Follow the link below to SQLFiddle. Run *Build Schema*. This creates and populates the Pokemon database.
 
 In the right-hand window, write a SQL query that answers the following question:
 
