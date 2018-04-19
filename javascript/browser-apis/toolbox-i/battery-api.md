@@ -47,7 +47,7 @@ Keep in mind that this API is currently available for Opera, Firefox and Chrome(
 ---
 ## Practice
 
-The async `getBattey` method of the Battery API returns a `battery` object. Fill in the gaps in the following snippet such that you log each level change in the device's battery via an event listener:
+The async `getBattery` method of the Battery API returns a `battery` object. Fill in the gaps in the following snippet such that you log each level change in the device's battery via an event listener:
 
 ```javascript
 navigator.???()
