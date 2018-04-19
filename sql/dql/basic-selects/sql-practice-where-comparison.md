@@ -31,7 +31,7 @@ links:
 ---        
 ## Exercise
 
-Follow the link above to SQLFiddle. Run *Build Schema*. This creates and populates the Pokemon database.
+Follow the link below to SQLFiddle. Run *Build Schema*. This creates and populates the Pokemon database.
 
 Write a query that retrieves all columns from the `move_name` table where the move's `id` is greater than 220.
 
