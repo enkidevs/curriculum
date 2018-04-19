@@ -20,7 +20,7 @@ tags:
 ---
 ## Content
 
-HTML elements consist of a start and end tag, with content inbetween the tags.
+HTML elements consist of a start and end tag, with content between the tags.
 
 Example:
 ```
@@ -43,7 +43,7 @@ Result:
 Content goes here
 ```
 
-In HTML5 there are no strict rules for some tags, however it is best practice to use closing tags. Why?
+In HTML5 there are no strict rules for some tags, however, it is best practice to use closing tags. Why?
 
 Because, even though HTML5 assumes a new tag can start without the previous one being closed, there are older browsers versions that do not support HTML5. These browsers use XHTML or HTM, both of which have stricter rules.
 
@@ -52,8 +52,11 @@ Also, certain tags do not have to have an open tag either, like the `<body>`, `<
 ---
 ## Practice
 
-Are all HTML5 elements required to be opened and closed (this isn’t a trick regarding self-closing tags, either)?
+Which statement is incorrect about opening and closing  HTML5 elements?
 
 ???
 
-* No. Although HTML5 isn’t strict about this, it certainly makes the document easier to inspect.
+ * All the elements in HTML5 require both the opening and closing tag otherwise they do not work.
+ * Although HTML5 isn’t strict about using open and close tags, using them certainly does makes the document easier to inspect.
+ * Certain elements like `<body>` or `<head>` don't require the use of either of the tags, however, it helps with readability.
+ * Most HTML elements have to have a closing tag to be displayed properly.
