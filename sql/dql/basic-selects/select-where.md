@@ -41,7 +41,7 @@ Some of the simplest conditional statements involve comparison operators like `=
 
 For example, to retrieve all information in the `pokemon` table about the Pokemon named "caterpie", query:
 
-```
+```sql
 SELECT *
 FROM pokemon
 WHERE name = 'caterpie';
@@ -49,7 +49,7 @@ WHERE name = 'caterpie';
 
 To retrieve the `name` and `cost` of all items with `fling_power` greater than or equal to 30, query:
 
-```
+```sql
 SELECT name, cost
 FROM item
 WHERE fling_power >= 30;
@@ -64,7 +64,7 @@ Note that text needs to be enclosed with quote marks (`'text'`), while integers 
 Complete the following query to retrieve the `id` and `power` for all the rows from the `move` table where `accuracy` is less than 100.
 
 
-```
+```sql
 SELECT id, power
 FROM move
 ???;

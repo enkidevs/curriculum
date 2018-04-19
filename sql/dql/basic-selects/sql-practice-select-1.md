@@ -22,7 +22,7 @@ standards:
 links:
   - '[SELECT documentation](https://www.w3schools.com/sql/sql_select.asp){website}'
   - '[blog post tutorial on SELECT](https://community.modeanalytics.com/sql/tutorial/sql-select-statement/){website}'
-  - '[video tutorial on mysql SELECT](https://youtu.be/JA_92A65pTg?t=16s){video}'
+  - '[video tutorial on MySQL SELECT](https://youtu.be/JA_92A65pTg?t=16s){video}'
 
 ---
 

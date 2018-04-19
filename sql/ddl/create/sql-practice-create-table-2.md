@@ -27,7 +27,7 @@ standards:
   sql.define-columns.0: 5000
 
 links:
-  - '[mysql define tables documentation](https://dev.mysql.com/doc/refman/5.7/en/creating-tables.html){website}'
+  - '[MySQL define tables documentation](https://dev.mysql.com/doc/refman/5.7/en/creating-tables.html){website}'
   - '[explainer on how to create tables](https://www.w3schools.com/sql/sql_create_table.asp){website}'
   - '[video tutorial on creating tables](https://youtu.be/EaRj0S3K32Y?t=58s){video}'
 

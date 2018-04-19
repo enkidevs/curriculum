@@ -27,8 +27,8 @@ standards:
 
 
 links:
-  - '[mysql modify columns documentation](https://dev.mysql.com/doc/refman/5.7/en/create-index.html){website}'
-  - '[blog post on mysql define tables](https://atech.blog/viaduct/mysql-indexes-primer){website}'
+  - '[MySQL modify columns documentation](https://dev.mysql.com/doc/refman/5.7/en/create-index.html){website}'
+  - '[blog post on MySQL define tables](https://atech.blog/viaduct/mysql-indexes-primer){website}'
   - '[video tutorial on creating indexes](https://youtu.be/19eLh1ZdoLY?t=56s){video}'
   - '[video tutorial on the differences between clustered and non-clustered index](https://www.youtube.com/watch?v=ITcOiLSfVJQ){video}'
 

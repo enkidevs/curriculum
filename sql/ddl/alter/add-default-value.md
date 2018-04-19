@@ -39,22 +39,22 @@ links:
 ---
 ## Content
 
-In *MS Acccess* and *SQL Servers* we can use the `ALTER TABLE` statement to set default values for desired columns:
-```
+In *MS Acccess* and *SQL Servers*, we can use the `ALTER TABLE` statement to set default values for desired columns:
+```sql
 ALTER TABLE table_name
 ALTER COLUMN column_name
 SET DEFAULT value;
 ```
 
 In *MySQL* the syntax is a little bit different:
-```
+```sql
 ALTER TABLE table_name
 ALTER column_name
 SET DEFAULT value;
 ```
 
 And if we are using *Oracle*:
-```
+```sql
 ALTER TABLE table_name
 MODIFY column_name
 DEFAULT value;
@@ -79,7 +79,6 @@ id | region_id |      name
 ALTER ??? ???
 ??? 1;
 ```
-
 
 * ALTER TABLE
 * COLUMN
@@ -106,9 +105,8 @@ id | version_group_id |      name
  8 |                5 | sapphire
 ...
 
-    ???
+  ???
 ```
-
 
 * ALTER TABLE version ALTER COLUMN name SET DEFAULT 'ruby';
 * ALTER TABLE region ALTER COLUMN name SET DEFAULT 'ruby';

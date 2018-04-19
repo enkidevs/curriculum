@@ -100,7 +100,7 @@ Get all of the rows and the `id`, `weight`, `name` columns from the `pokemon` ta
 ### What statement gets columns and rows from tables?
 Given a table called `ability` from our pokemon database:
 
-```bash
+```
 id   | is_main_series | generation_id |      name      
 =====|================|===============|===============
    1 | t              |             3 | stench

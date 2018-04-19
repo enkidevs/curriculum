@@ -111,7 +111,7 @@ Select all the columns from the `pokemon` table, keeping only the rows where the
 Consider the `location` table from our pokemon database:
 
 
-```bash
+```
 
 id  | region_id |     name           
 ====|===========|================
