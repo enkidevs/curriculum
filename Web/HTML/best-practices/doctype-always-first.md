@@ -29,7 +29,6 @@ For HTML5 the declaration is typed as:
 <!DOCTYPE html>
 ```
 
-
 ---
 ## Practice
 
@@ -37,4 +36,7 @@ What declaration is always first in an HTML web page?
 
 ???
 
-* Doctype
+* `<!DOCTYPE html>`
+* `<body>`
+* `<html>`
+* `<!HTML document>`
