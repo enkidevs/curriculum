@@ -25,9 +25,8 @@ standards:
   sql.define-indices.2: 1000
   sql.define-indices.3: 1000
 
-
 links:
-  - '[MySQL modify columns documentation](https://dev.mysql.com/doc/refman/5.7/en/create-index.html){website}'
+  - '[MySQL modify columns documentation](https://dev.mysql.com/doc/refman/5.7/en/create-index.html){documentation}'
   - '[blog post on MySQL define tables](https://atech.blog/viaduct/mysql-indexes-primer){website}'
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=JjNef3tPltU){video}'
 

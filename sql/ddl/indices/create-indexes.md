@@ -30,7 +30,7 @@ tags:
 
 links:
 
-  - '[PostgreSQL Create Index](https://www.postgresql.org/docs/9.1/static/sql-createindex.html){website}'
+  - '[PostgreSQL Create Index](https://www.postgresql.org/docs/9.1/static/sql-createindex.html){documentation}'
   - '[MySQL Create Index](https://dev.mysql.com/doc/refman/5.7/en/create-index.html){website}'
   - '[MSSQL Create Index](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-index-transact-sql){website}'
   - '[OracleDB Create Index](https://docs.oracle.com/cd/B28359_01/server.111/b28310/indexes003.htm#ADMIN11722){website}'

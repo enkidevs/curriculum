@@ -20,13 +20,11 @@ inAlgoPool: false
 standards:
   sql.read-multiple-tables.0: 10
 
-
 tags:
 
   - introduction
 
   - workout
-
 
 links:
 

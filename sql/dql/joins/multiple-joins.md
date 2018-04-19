@@ -25,9 +25,6 @@ tags:
 
   - deep
 
-
-
-
 ---
 
 # Multiple JOINs

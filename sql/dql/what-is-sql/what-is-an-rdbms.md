@@ -19,12 +19,10 @@ tags:
 standards:
   sql.define-tables.0: 10
 
-
 links:
 
   - '[What is Relational Database?](http://searchsqlserver.techtarget.com/definition/relational-database){website}'
   - '[What is RDBMS?](http://searchsqlserver.techtarget.com/definition/relational-database-management-system){website}'
-
 
 ---
 

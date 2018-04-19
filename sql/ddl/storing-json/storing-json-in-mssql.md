@@ -22,9 +22,6 @@ tags:
 
   - deep
 
-
-
-
 ---
 
 # Storing JSON in SQL Server

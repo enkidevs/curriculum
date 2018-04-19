@@ -21,9 +21,9 @@ standards:
   sql.write.3: 1000
 
 links:
-  - '[official documentation UPDATE mysql](https://dev.mysql.com/doc/refman/5.7/en/update.html){website}'
-  - '[blog post on UPDATE mysql](https://www.techonthenet.com/mysql/update.php){website}'
-  - '[video tutorial on UPDATE mysql](https://www.youtube.com/watch?v=_lIot7sbTSo){video}'
+  - '[official documentation UPDATE MySQL](https://dev.mysql.com/doc/refman/5.7/en/update.html){documentation}'
+  - '[blog post on UPDATE MySQL](https://www.techonthenet.com/mysql/update.php){website}'
+  - '[video tutorial on UPDATE MySQL](https://www.youtube.com/watch?v=_lIot7sbTSo){video}'
 
 ---
 

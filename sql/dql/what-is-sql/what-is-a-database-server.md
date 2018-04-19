@@ -17,11 +17,9 @@ tags:
 
   - introduction
 
-
 links:
 
   - '[More on database servers](http://ecomputernotes.com/fundamental/what-is-a-database/what-is-a-database-server){website}'
-
 
 ---
 
