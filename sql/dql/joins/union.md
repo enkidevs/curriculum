@@ -51,6 +51,7 @@ FROM language_name;
  LINE 4: SELECT *  */
 
 ```
+
 As well as the next one:
 ```sql
 SELECT id, name
@@ -62,6 +63,7 @@ from language_name;
  cannot be matched
  LINE 4: SELECT id, language_id   */
 ```
+
 Changing `language_id` to `name` fixes the errors:
 ```sql
 SELECT id, name
@@ -70,6 +72,7 @@ UNION
 SELECT id, name
 from language_name;
 ```
+
 With the output:
 ```
 id |       name       
@@ -94,6 +97,7 @@ UNION ALL
 SELECT id, name
 from language_name;
 ```
+
 And the output:
 ```
 id  |       name       
@@ -126,7 +130,6 @@ FROM ???
 WHERE region_name.region_id = 2;
 ```
 
-
 * `FROM`
 * `UNION`
 * `name`
@@ -140,7 +143,6 @@ WHERE region_name.region_id = 2;
 
 ??? command retrieves all rows, _even duplicated_, of the union.
 
-
 * `UNION ALL`
 * `UNION`
 * `FULL JOIN`
@@ -151,8 +153,7 @@ WHERE region_name.region_id = 2;
 ### Can you use a UNION of SELECTs?
 Given the tables called `item_pocket` and `item_category`:
 
-
-```bash
+```
 
 id |   name    
 ===|===========
@@ -176,7 +177,7 @@ id   | item_pocket_id |    name
 Retrieve `item_category`s' id and names together with `item_pocket`s' names without duplicates.
 The result should look like this:
 
-```bash
+```
 
   id   | pocket_name |   name       
 =======|=============|===============

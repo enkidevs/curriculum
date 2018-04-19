@@ -25,8 +25,8 @@ standards:
 
 
 links:
-  - '[mysql modify columns documentation](https://dev.mysql.com/doc/refman/5.7/en/example-auto-increment.html){website}'
-  - '[blog post on mysql define tables](https://www.tutorialspoint.com/mysql/mysql-using-sequences.htm){website}'
+  - '[MySQL modify columns documentation](https://dev.mysql.com/doc/refman/5.7/en/example-auto-increment.html){website}'
+  - '[blog post on MySQL define tables](https://www.tutorialspoint.com/mysql/mysql-using-sequences.htm){website}'
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=5KqFoTswr-M){video}'
 
 ---

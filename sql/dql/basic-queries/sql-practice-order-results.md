@@ -23,9 +23,9 @@ standards:
   sql.read-single-table.3: 1000
 
 links:
-  - '[mysql ORDER BY documentation](https://dev.mysql.com/doc/refman/5.7/en/order-by-optimization.html){website}'
+  - '[MySQL ORDER BY documentation](https://dev.mysql.com/doc/refman/5.7/en/order-by-optimization.html){website}'
   - '[blog post tutorial on SELECT](http://www.dofactory.com/sql/select){website}'
-  - '[video tutorial on mysql SELECT](https://www.youtube.com/watch?v=BgK88mlgA6I){video}'
+  - '[video tutorial on MySQL SELECT](https://www.youtube.com/watch?v=BgK88mlgA6I){video}'
 
 ---
 # SQL Practice Order Results

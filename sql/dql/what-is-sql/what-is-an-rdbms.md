@@ -41,18 +41,18 @@ Using these tables we can query data, and store it such that others can query it
 
 Here's an example of how we might define a table:
 
-```
+```sql
 CREATE TABLE users (
   id INT,
   name VARCHAR(500)
 );
-
 ```
+
 This lives in the *Database Server*.
 
 Then we could query it like so:
 
-```
+```sql
 SELECT * FROM users;
 ```
 
@@ -63,7 +63,7 @@ We query from the *Database Client*.
 
 How do you think we could create a table called `products`?
 
-```
+```sql
 ??? (
   id INT,
   name VARCHAR(500),
@@ -81,7 +81,7 @@ How do you think we could create a table called `products`?
 
 How do you think we could create a table called `coupons`?
 
-```
+```sql
 ??? (
   id INT,
   name VARCHAR(500),

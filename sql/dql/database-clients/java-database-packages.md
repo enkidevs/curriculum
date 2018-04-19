@@ -48,7 +48,7 @@ links:
 In **Java**, Oracle does not provide database connection APIs with the JDK, meaning that we will have to download the necessary library (the *database driver*) and import it into our project manually. These libraries should be provided the database hosts as each *DBMS* is different. The *database driver* or *JDBC (Java Database Connectivity)* for Postgres can be downloaded from Postgres website.
 
 Now after downloading the correct `.jar` file and adding it to our project, we can connect to our database:
-```
+```java
 import java.sql.*;
 
 public class Main {
@@ -149,7 +149,6 @@ c = DriverManager.getConnection
 
 What is a database driver?
 ???
-
 
 * It is a library in a certain language and it is specific to a certain DBMS
 * It is Java specific library which allows the user to connect to the MySQL database

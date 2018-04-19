@@ -37,7 +37,7 @@ links:
 
 Here's an example of an SQL Query:
 
-```
+```sql
 SELECT * FROM users;
 ```
 

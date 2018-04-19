@@ -54,6 +54,7 @@ id | is_main_series | generation_id | name
 3  |      True      |       3 | speed-boost
 4  |      True      |       3 | battle-armor
 ```
+
 And for the `ability_effect_text`:
 ```
 id |       effect       |   short_effect   |
@@ -72,6 +73,7 @@ id |       effect       |   short_effect   |
    | Protects against critical hits.
    |         4          |        9         |
 ```
+
 To match the abilities that can be found in both tables, use the following `INNER JOIN` command:
 ```sql
 SELECT ability.name,
@@ -80,6 +82,7 @@ FROM ability
 INNER JOIN ability_effect_text ON
 ability.id = ability_effect_text.ability_id;
 ```
+
 The first 2 rows of the result would be:
 ```
 name    |              effect
@@ -140,11 +143,8 @@ What's the sets theory equivalent of `INNER JOIN`?
 ## Quiz 
 ### Can you filter one table based on data in another table in SQL?
 
-
-
 Consider `pokemon` and `pokemon_species` tables. The first one has two columns `height` and `weight`. The latter has a boolean valued column `is_baby`.
 Select the query that will get the name, height and width of all pokemon that are babies:
-
 
  ???
 

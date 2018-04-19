@@ -95,8 +95,7 @@ Select all the rows from the `pokemon` table where the name is exactly equal to 
 ### Can you find a particular entry in a table with SQL?
 
 Consider the `ability` table and the following query:
-```bash
-
+```
 
 id   | is_main_series | generation_id |      name      
 =====|================|===============|===============
