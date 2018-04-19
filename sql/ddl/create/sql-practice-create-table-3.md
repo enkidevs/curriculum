@@ -27,7 +27,7 @@ standards:
   sql.define-columns.0: 4000
 
 links:
-  - '[MySQL define tables documentation](https://dev.mysql.com/doc/refman/5.7/en/creating-tables.html){website}'
+  - '[MySQL define tables documentation](https://dev.mysql.com/doc/refman/5.7/en/creating-tables.html){documentation}'
   - '[explainer on how to create tables](https://www.w3schools.com/sql/sql_create_table.asp){website}'
   - '[video tutorial on creating tables](https://youtu.be/EaRj0S3K32Y?t=58s){video}'
 
@@ -48,7 +48,7 @@ This table should contain the following columns, which should store the followin
 
 After you've created that table, add this to your seed data
 
-```
+```sql
 INSERT INTO user_items (id, item_id, user_id, daily_price)
 VALUES (0, 0, 1, 5.2);
 

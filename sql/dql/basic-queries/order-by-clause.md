@@ -25,11 +25,9 @@ tags:
 
   - workout
 
-
 links:
 
   - '[More on ORDER BY](http://www.dofactory.com/sql/order-by){website}'
-
 
 ---
 

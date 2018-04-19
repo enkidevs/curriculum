@@ -14,7 +14,7 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/ae6640/1
+link: http://sqlfiddle.com/#!9/ae6640/5
 
 standards:
   sql.define-columns.0: 1000
@@ -23,7 +23,7 @@ standards:
 
 
 links:
-  - '[MySQL modify columns documentation](https://dev.mysql.com/doc/refman/5.7/en/alter-table.html){website}'
+  - '[MySQL modify columns documentation](https://dev.mysql.com/doc/refman/5.7/en/alter-table.html){documentation}'
   - '[blog post on MySQL define tables](https://www.tutorialspoint.com/mysql/mysql-alter-command.htm){website}'
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=Epj5cb5HF9o){video}'
 
@@ -40,13 +40,5 @@ _However_, we only accept Facebook *OR* Twitter... Not both. For reasons.
 
 First, update the name of the `facebook_id` column to reflect that you can use either ID. Change it to `social_id`.
 
-Once that's done, we'll also need a new column that indicates whether they used Facebook or Twitter.
-Create a new column called `social_type` and set all current values to `facebook`.
+Once that's done, we'll also need a new column that indicates whether they used Facebook or Twitter. Create a new column called `social_type` and set all current values to `facebook`.
 Set the default value for this new column to be `facebook`. For reasons.
-
-
-This query should work properly when you've completed your task:
-```sql
-SELECT COUNT(social_type) FROM users
-GROUP BY social_type;
-```

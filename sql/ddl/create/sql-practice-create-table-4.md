@@ -27,7 +27,7 @@ standards:
   sql.define-columns.0: 6000
 
 links:
-  - '[MySQL define tables documentation](https://dev.mysql.com/doc/refman/5.7/en/creating-tables.html){website}'
+  - '[MySQL define tables documentation](https://dev.mysql.com/doc/refman/5.7/en/creating-tables.html){documentation}'
   - '[explainer on how to create tables](https://www.w3schools.com/sql/sql_create_table.asp){website}'
   - '[explainer on sql dates](https://www.w3schools.com/sql/sql_dates.asp){website}'
   - '[video tutorial on creating tables](https://youtu.be/EaRj0S3K32Y?t=58s){video}'
@@ -49,7 +49,7 @@ Create a table called `requests`. This table should contain the following column
 
 After you've created that table, add this to your seed data
 
-```
+```sql
 INSERT INTO requests (id, user_id, user_item_id, date_from, date_until, accepted)
 VALUES (0, 3, 2, "2017-12-02", "2017-12-15", 1);
 

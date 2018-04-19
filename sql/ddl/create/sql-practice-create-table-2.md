@@ -27,7 +27,7 @@ standards:
   sql.define-columns.0: 5000
 
 links:
-  - '[MySQL define tables documentation](https://dev.mysql.com/doc/refman/5.7/en/creating-tables.html){website}'
+  - '[MySQL define tables documentation](https://dev.mysql.com/doc/refman/5.7/en/creating-tables.html){documentation}'
   - '[explainer on how to create tables](https://www.w3schools.com/sql/sql_create_table.asp){website}'
   - '[video tutorial on creating tables](https://youtu.be/EaRj0S3K32Y?t=58s){video}'
 
@@ -49,7 +49,7 @@ This table should have the following columns, which will store the following val
 
 Once you've created your table, use these INSERT statements to test:
 
-```
+```sql
 INSERT INTO users (id, name, facebook_id, email, email_verified)
 VALUES (0, "John Goose", 33248712993, "john.goose@example.com", 0);
 

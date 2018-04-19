@@ -22,10 +22,12 @@ standards:
   sql.aggregate-multiple-tables.0: 1000
 
 links:
-  - '[MySQL documentation on JOINs](https://dev.mysql.com/doc/refman/5.7/en/join.html){website}'
+  - '[MySQL documentation on JOINs](https://dev.mysql.com/doc/refman/5.7/en/join.html){documentation}'
   - '[find more information on JOINs here](https://www.sitepoint.com/understanding-sql-joins-mysql-database/){website}'
   - '[video tutorial on JOINs](https://www.youtube.com/watch?v=soK0CeP_aC8){video}'
+
 ---
+
 # SQL Practice Average Aggregate Multiple Tables
 
 ---

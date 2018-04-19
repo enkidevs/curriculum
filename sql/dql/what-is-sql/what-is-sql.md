@@ -23,7 +23,6 @@ links:
 
   - '[More Query Languages](https://en.wikipedia.org/wiki/Query_language){website}'
 
-
 ---
 
 # What is SQL?

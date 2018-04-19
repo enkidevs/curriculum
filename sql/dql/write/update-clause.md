@@ -88,12 +88,12 @@ id |     name
 ```
 
 Note that if the `WHERE` clause isn't used all the values in the specified column will be updated:
-```
+```sql
 UPDATE egg_group
 SET name = 'rabbit';
 ```
 *Result:*
-```sql
+```
 id |     name      
 ===+===============
  1 | rabbit

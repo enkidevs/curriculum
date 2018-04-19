@@ -24,18 +24,19 @@ standards:
   sql.aggregate-single-table.3: 1000
 
 links:
-  - '[MySQL aggregate queries documentation](https://dev.mysql.com/doc/refman/5.7/en/group-by-functions.html){website}'
+  - '[MySQL aggregate queries documentation](https://dev.mysql.com/doc/refman/5.7/en/group-by-functions.html){documentation}'
   - '[blog post on MySQL aggregate functions](https://www.guru99.com/aggregate-functions.html){website}'
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=sgAvl7ry5jY){video}'
 
 ---
+
 # SQL Practice Aggregate Average
 
 ---        
 ## Exercise
 
-In SQLFiddle, write a SQL query that executes the following:
+Write a query that does the following:
 
-Compute the average cost of all items in each `item_fling_effect` group and round the result to an integer.
+Find the average cost of all items in each `item_fling_effect` group, and round the result to an integer.
 
-In the answer field, enter the name of the group whose average cost is `583`?
+Which `item_fling_effect` groups' average cost is `583`? Submit your findings in the `Answer` field.

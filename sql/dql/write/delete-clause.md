@@ -24,11 +24,9 @@ tags:
 
   - workout
 
-
 links:
 
   - '[More on DELETE](http://www.dofactory.com/sql/delete){website}'
-
 
 ---
 

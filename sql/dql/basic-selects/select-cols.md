@@ -15,16 +15,13 @@ tags:
 
   - introduction
 
-
 standards:
   sql.read-single-table.0: 10
   sql.read-single-table.2: 10
 
-
 links:
 
   - '[SQL Tutorial: SELECT](http://www.sql-tutorial.com/sql-select-sql-tutorial/){website}'
-
 
 ---
 

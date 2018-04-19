@@ -15,15 +15,14 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/da282b
+link: http://sqlfiddle.com/#!9/46e122/1
 
 standards:
   sql.define-relationships.2: 1000
   sql.define-columns.2: 1000
 
-
 links:
-  - '[MySQL create foreign keys](https://dev.mysql.com/doc/refman/5.7/en/create-table-foreign-keys.html){website}'
+  - '[MySQL create foreign keys](https://dev.mysql.com/doc/refman/5.7/en/create-table-foreign-keys.html){documentation}'
   - '[explainer on foreign keys](https://www.w3schools.com/sql/sql_foreignkey.asp){website}'
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=GU_zYgXXOzE){video}'
 

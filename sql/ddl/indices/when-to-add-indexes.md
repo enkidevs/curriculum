@@ -27,10 +27,9 @@ tags:
 
   - deep
 
-
 links:
 
-  - '[SQLMag Dos and Donts of indices](http://sqlmag.com/database-performance-tuning/indexing-dos-and-don-ts){website}'
+  - '[SQLMag Dos and Donts of indices](http://www.itprotoday.com/microsoft-sql-server/indexing-dos-and-don-ts){website}'
 
 
 ---

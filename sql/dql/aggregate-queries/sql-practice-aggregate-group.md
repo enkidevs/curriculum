@@ -15,7 +15,7 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/1a0ba4/1
+link: http://sqlfiddle.com/#!9/45e84f/1
 
 answer: /flinch/
 
@@ -24,18 +24,19 @@ standards:
   sql.aggregate-single-table.3: 1000
 
 links:
-  - '[MySQL aggregate queries documentation](https://dev.mysql.com/doc/refman/5.7/en/group-by-functions.html){website}'
+  - '[MySQL aggregate queries documentation](https://dev.mysql.com/doc/refman/5.7/en/group-by-functions.html){documentation}'
   - '[blog post on MySQL aggregate functions](https://www.guru99.com/aggregate-functions.html){website}'
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=sgAvl7ry5jY){video}'
 
 ---
+
 # SQL Practice Aggregate Group
 
 ---        
 ## Exercise
 
-In SQLFiddle, write a series of SQL queries that execute the following:
+Write a series of SQL queries that do the following:
 
-Count the number of items each fling effect has.
+For each effect in the `item_fling_effect` table, count the number of `item`s that have that effect.
 
-Then, find the `name` of the fling effect with that has exactly 2 items.
+Then, submit the `name` of the fling effect that has exactly 2 items.

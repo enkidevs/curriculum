@@ -26,11 +26,9 @@ tags:
 
   - workout
 
-
 links:
 
   - '[SQL Tutorial: WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}'
-
 
 ---
 
