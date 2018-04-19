@@ -37,6 +37,9 @@ When was the “.html” extension considered acceptable over “.htm”?
 ???
 
 * When Unix OS removed the 3 character limitation.
+* When Mac OS switched to a 4 character limit.
+* When the `.htm.` extension became deprecated.
+* It was never considered acceptable.
 
 
 ---
@@ -45,4 +48,8 @@ When was the “.html” extension considered acceptable over “.htm”?
 When was the “.htm” extension used?
 
 ???
-* When early DOS limited all extensions to 3 character.
+
+ * When early DOS limited all extensions to 3 characters.
+ * It was never used.
+ * It is still mandatory on MAC OS
+ * When only 3 letter extensions existed.
