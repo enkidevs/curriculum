@@ -32,21 +32,25 @@ Each heading has a pre set size. However, they are easily modified.
 Example:
 ```
 <h1 
-  style="font-size:60px;">Heading 1
+  style="font-size:60px;">
+  Heading 1
 </h1>
 
 <h2 
-  style="font-size:48px;">Heading 2
+  style="font-size:48px;">
+  Heading 2
 </h2>
 ```
 Result:
 
 <h1 
-  style="font-size:60px;">Heading 1
+  style="font-size:60px;">
+  Heading 1
 </h1>
 
 <h2 
-  style="font-size:48px;">Heading 2
+  style="font-size:48px;">
+  Heading 2
 </h2>
 
 By default, the `<h4>` heading is the same size as `<p>`.
