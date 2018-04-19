@@ -77,11 +77,14 @@ Next to linking through text, it is also common to link through pictures.
 <html>
 <body>
 
-<a href="https://www.enki.com/" 
-    target="_blank">
- <img src ="http.logo.com/enki.png"
+<a 
+   href="https://www.enki.com/" 
+   target="_blank">
+  <img 
+    src ="http.logo.com/enki.png"
     alt ="Enki logo"
- style="width:36px;height:36px;">
+    style="width:36px;height:36px;"
+   />
 </a>
  
 </body>
@@ -93,7 +96,7 @@ In the example above, the picture with the URL `http.logo.com/enki.png` becomes 
 ---
 ## Practice
 
-Link text that opens the webpage in a new window:
+Create a hyperlink text that opens a webpage in a new window:
 
 `<??? ???="???" ???="???">Link to Enki<???>`
 
@@ -168,11 +171,14 @@ What is the default style of a text link in HTML?
 Which statement about these paragraphs & links is true?
 
 ```
-<p><a href="http://enkipro.com">
-      Click Me
-   </a>
+<p>
+  <a 
+    href="http://enkipro.com">
+    Click Me
+  </a>
 </p>
-<a href="http://enkipro.com">
+  <a 
+   href="http://enkipro.com">
   <p>Click Me</p>
 </a>
 ```
