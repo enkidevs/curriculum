@@ -27,7 +27,6 @@ links:
 
 The blockchain needs them because, if no majority agrees on the state, there is no single source of truth,and hence, no blockchain. Furthermore, not all nodes in the networks are honest, such that consensus algorithms must account for and hold for adversarial condition. A list of proposed solutions to secure the blockchain is presented below:
 - Proof of work
-- Proof of authority
 - Proof of stake
 - Delegated proof of stake
 - Other solutions to the Byzantine Generals Problem
