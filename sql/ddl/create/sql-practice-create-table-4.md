@@ -49,7 +49,7 @@ Create a table called `requests`. This table should contain the following column
 
 After you've created that table, add this to your seed data
 
-```
+```sql
 INSERT INTO requests (id, user_id, user_item_id, date_from, date_until, accepted)
 VALUES (0, 3, 2, "2017-12-02", "2017-12-15", 1);
 

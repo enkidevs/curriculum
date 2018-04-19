@@ -32,4 +32,4 @@ links:
 ---
 ## Exercise
 
-Update `move` table such that the 14th move will have accuracy equal to 37. In the answer field provide the result of the query that is present in this SQLFiddle link.
+Update `move` table such that the 14th move will have `accuracy` equal to 37. In the answer field, provide the result of the query that has been provided.

@@ -47,7 +47,7 @@ When you have created the table, add these inserts to the Schema section.
 
 Seed Data:  
 
-```
+```sql
 INSERT INTO items (id, name, url)
 VALUES (0, "Pokeball", "http://placehold.it/200/200");
 

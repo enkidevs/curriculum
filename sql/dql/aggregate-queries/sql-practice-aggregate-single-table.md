@@ -29,6 +29,7 @@ links:
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=sgAvl7ry5jY){video}'
 
 ---
+
 # Aggregate Single Table
 
 ---        

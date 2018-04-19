@@ -49,7 +49,7 @@ This table should have the following columns, which will store the following val
 
 Once you've created your table, use these INSERT statements to test:
 
-```
+```sql
 INSERT INTO users (id, name, facebook_id, email, email_verified)
 VALUES (0, "John Goose", 33248712993, "john.goose@example.com", 0);
 

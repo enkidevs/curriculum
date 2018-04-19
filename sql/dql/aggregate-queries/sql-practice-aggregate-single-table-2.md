@@ -26,7 +26,9 @@ links:
   - '[MySQL aggregate queries documentation](https://dev.mysql.com/doc/refman/5.7/en/group-by-functions.html){documentation}'
   - '[blog post on MySQL aggregate functions](https://www.guru99.com/aggregate-functions.html){website}'
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=sgAvl7ry5jY){video}'
+
 ---
+
 # Aggregate Single Table
 
 ---        

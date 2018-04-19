@@ -24,9 +24,10 @@ links:
   - '[video tutorial on DELETE MySQL](https://www.youtube.com/watch?v=qb7abQ6ROy4){video}'
 
 ---
+
 # SQL Practice Delete
 
 ---
 ## Exercise
 
-From `item` table `DELETE` the item having id 10.
+In the `item` table, `DELETE` the item having id 10.

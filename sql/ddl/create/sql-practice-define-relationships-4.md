@@ -15,11 +15,10 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/ddb15b
+link: http://sqlfiddle.com/#!9/4d8636/1
 
 standards:
   sql.define-relationships.3: 1000
-
 
 links:
   - '[MySQL create foreign keys](https://dev.mysql.com/doc/refman/5.7/en/create-table-foreign-keys.html){documentation}'
@@ -33,5 +32,3 @@ links:
 ## Exercise
 
 Create a foreign key reference to relate the `users` table to itself. Ensure that the `manager` column only contains references to the `id` field within `users`.
-When you are finished, run this query and check that it *fails*:  
-`UPDATE users SET manager = 46`

@@ -15,11 +15,10 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/3c80fe
+link: http://sqlfiddle.com/#!9/27115a/1
 
 standards:
   sql.define-relationships.1: 1000
-
 
 links:
   - '[MySQL create foreign keys](https://dev.mysql.com/doc/refman/5.7/en/create-table-foreign-keys.html){documentation}'
@@ -34,5 +33,3 @@ links:
 ## Exercise
 
 Add a Foreign Key constraint to the `user_items` and `requests` tables.
-Once you're finished with that, add this insert statement to the end, and check that it *fails*:    
-`INSERT INTO user_items (id, item_id, user_id, daily_price) VALUES (4, 10, 11, 5.2);`

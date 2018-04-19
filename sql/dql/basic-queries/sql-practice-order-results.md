@@ -28,6 +28,7 @@ links:
   - '[video tutorial on MySQL SELECT](https://www.youtube.com/watch?v=BgK88mlgA6I){video}'
 
 ---
+
 # SQL Practice Order Results
 
 ---        

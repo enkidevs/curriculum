@@ -25,11 +25,12 @@ links:
   - '[video tutorial on JOINs](https://www.youtube.com/watch?v=soK0CeP_aC8){video}'
 
 ---
+
 # SQL Practice Max Aggregate Multiple Tables
 
 ---        
 ## Exercise
 
-In SQLFiddle, write a SQL query that uses a join to answer the following question:
+Write a SQL query that uses a `JOIN` to answer the following question:
 
-Use joins to find the name and the maximum value of all moves.
+What is the `name` and maximum value of all moves?

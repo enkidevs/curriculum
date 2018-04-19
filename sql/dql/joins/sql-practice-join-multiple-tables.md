@@ -28,6 +28,7 @@ links:
   - '[video tutorial on JOINs](https://www.youtube.com/watch?v=soK0CeP_aC8){video}'
 
 ---
+
 # SQL Practice Aggregate Multiple Tables
 
 ---

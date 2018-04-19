@@ -26,9 +26,10 @@ links:
   - '[video tutorial on JOINs](https://www.youtube.com/watch?v=soK0CeP_aC8){video}'
 
 ---
+
 # SQL Practice Min Max Multiple Tables
 
 ---        
 ## Exercise
 
-Find the version group id with minimum average value of accuracy.
+Find the version group id that has the lowest average value of `accuracy`.
