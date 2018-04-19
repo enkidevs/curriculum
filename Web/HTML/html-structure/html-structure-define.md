@@ -18,10 +18,10 @@ tags:
 
 When writing in HTML there is a certain structure you must follow.
 
-The structure is:
+The structure of HTML elements is:
 ```
 (Element's opening tag)
-(Attribute)"(attributes value)"(property)
+(Attribute)"(attributes value)"(content)
 (Element's closing tag)
 ```
 
@@ -38,7 +38,7 @@ Example:
 Identify the terms defining this HTML code:
 
 ```
-AB  C      D                    E  F
+ A  B          C                D  
 <a href="http://enkipro.com/">Enki</a>
 
 <!--IMAGE: html-structure-define.svg-->
@@ -48,15 +48,11 @@ A: ???
 B: ???
 C: ???
 D: ???
-E: ???
-F: ???
 
- * opening tag
  * element
  * attribute
  * attribute's value
- * property
- * closing tag
+ * content
  * value
  * rule
 
@@ -84,7 +80,7 @@ F: ???
  * element
  * attribute
  * attribute's value
- * property
+ * content
  * closing tag
  * value
  * rule
@@ -92,13 +88,13 @@ F: ???
 ---
 ## Quiz
 
-### Do you know how HTML is structured?
+### Do you know how HTML elements are structured?
 
-How is HTML structured?
+Which of these HTML elements is structured properly?
 
 ???
 
- * (Element's open tag)(Attribute)"(attributes value)"(property)(Element's close tag)
- * (Element's open tag)(Attribute)"(attributes value)"(Element's close tag)(property)
- * (Element's open tag)(Attribute)(attributes rules)"(attributes value)"(Element's close tag)
- * (Element's open tag)(Element's close tag)(Attribute)"(attributes value)"(property)
+ * `<a href="http://enkipro.com/">Enki</a>`
+ * `<a></a> href="http://enkipro.com/">Enki`
+ * `<a>Enki</a> href="http://enkipro.com/">`
+ * `<href a="http://enkipro.com/">Enki</href>`
