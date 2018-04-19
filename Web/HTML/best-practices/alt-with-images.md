@@ -35,7 +35,7 @@ Example:
 </html>
 
 ```
-If the browsers does not recognize the "brokenglass.gif" file, it will instead display what's in the alt property.
+If the browser does not recognize the "brokenglass.gif" file, it will instead display what's in the alt property.
 
 ```
 Broken glass
@@ -50,14 +50,24 @@ However, if the image is only for decoration, then the `alt=""` can be left empt
 
 Is an empty alt attribute considered appropriate?
 
-???
-???
-???
-???
+`<img src=”image.png” alt=””>`
+
 ???
 
-* <img src=”image.png” alt=””>
 * Yes, when the image is purely decorative.
 * No, a value is always required.
-* No, as the image will not properly display.
-* …
+* No, as the image will not display properly.
+* Yes, it is always appropriate.
+
+---
+## Revision
+
+Which statement about alt attributes is false?
+
+???
+
+ * Alt attributes are displayed on top of each image.
+ * The alt attribute exists to specify an alternate text for an image that cannot be displayed.
+ * It is used to provide information to the user if they cannot view the image.
+ * Empty alt attributes are appropriate when the image is purely decorative.
+ 
