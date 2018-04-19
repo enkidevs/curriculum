@@ -48,8 +48,7 @@ In regards to HTML comments, which of the following is true?:
 
 ???
 
-* The code `<!--` starts a comment.
-* The code `->` ends a comment.
+* The code `<!--` starts a comment. The code `->` ends a comment.
 * The comment is placed within `<!- xxx ->`. 
 * The comment is placed within `*/ xxx /*`.
 * The comment is placed within `/* xxx */`.
