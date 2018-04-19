@@ -59,13 +59,20 @@ How are conditional comments written for versions of IE prior to IE10?
 
 ???
 
-* <!--[if IE]> HTML CODE HERE <![endif]-->
-
+ * `<!--[if IE]> HTML CODE HERE <![endif]-->`
+ * `<!-[if IE]> HTML CODE HERE <[endif]->`
+ * `<-[if IE]> HTML CODE HERE <![endif]-!>`
+ * `<![if IE]> HTML CODE HERE <![endifIE]!>`
 
 ---
 ## Revision
 
-Conditional comments only work in Internet Explorer, versions prior to IE10.
+Conditional comments only work in Internet Explorer, versions prior to IE10. Which version are these?
 
 ???
-* T
+
+ * versions 5 through 9.
+ * versions 1 through 9.
+ * versions 7 through 9.
+ * versions 8 and 9.
+ 
