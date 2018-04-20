@@ -55,11 +55,11 @@ componentWillMount() {
 ---
 ## Practice
 
-Which of the following packages do you think does not provide support for async flow in your application?
+Which of the following packages do you think does not provide support for async flow in your **React** application?
 
 ???
 
-* async
+* bluebird
 * redux-thunk
 * redux-promise
 
