@@ -53,7 +53,7 @@ This  also allows you to keep your code shallow which makes it more intuitive fo
 ---
 ## Practice
 
-Which of the following statements about naming you callback functions do you consider false?
+Which of the following statements about naming your callback functions do you consider false?
 
 ???
 
