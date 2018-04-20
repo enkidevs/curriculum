@@ -62,7 +62,7 @@ Number.isNaN(Number.NaN); //true
 ---
 ## Practice
 
-WHat is the output of the following two calls?
+What is the output of the following two calls?
 
 ```javascript
 const enki = 'enki';
