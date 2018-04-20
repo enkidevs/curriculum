@@ -37,13 +37,13 @@ It's used to create applications for specific operating systems such as `Android
 ---
 ## Practice
 
-Which of the following statements is false about **React**'s syntax?
+Which of the following statements is false about **React**?
 
 ???
 
-* it's specific to React and prone to changes
-* makes use of standards JavaScript
-* is simple
+* the virtual DOM slows down performance
+* the syntax is simple
+* it can create web *and* mobile applications
 
 ---
 ## Revision
