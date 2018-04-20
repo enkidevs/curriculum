@@ -68,8 +68,8 @@ Suppose the Enki component has a method `sayHello`. Which of the two variables a
 ```
 
 * element instance
-* component instance
 * y
+* component instance
 * x
 * DOM
 * ReactDOM
