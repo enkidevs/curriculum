@@ -62,11 +62,10 @@ INSERT INTO user_items (id, item_id, user_id, daily_price)
 VALUES (3, 3, 1, 94);
 ```
 
-In order to check your results:
+In total, you will need to:
 
-- create the table,
-- add the seed data,
-- build the schema,
-- `SELECT SUM(daily_price) FROM user_items WHERE user_id = 2`
-- run the provided query,
-- and provide the result in the answer field
+- *Create the table*
+- *Add the seed data*
+- *Build the schema*
+- *Run the provided query*
+- *Submit the result as your Answer*

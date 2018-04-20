@@ -33,6 +33,6 @@ Within the SQLFiddle, click *Run SQL* on the right-hand side and observe the out
 
 Now, alter the query to *return one `email` address instead of returning one `name`*.
 
-Click *Run SQL* again. Then click *link* in the green bar below the output. This will update the URL in the address bar of your browser. Copy the new URL to submit with your answer.
+Click *Run SQL* again. Clicking *link* in the green bar below the output will update the URL in your browser. Submit this new URL with your answer.
 
 In the answer field, *enter the email address that was returned*.

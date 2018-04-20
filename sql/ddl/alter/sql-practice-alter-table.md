@@ -32,7 +32,7 @@ links:
 ---        
 ## Exercise
 
-Click *Launch Exercise* below to launch SQLFiddle. Examine the `CREATE` statements in the lefthand window.
+Click *Launch Exercise* to launch SQLFiddle. Examine the `CREATE` statements in the lefthand window.
 
 Consider the `item_pictures` table. It turns out the maxiumum length of the `URL` field is much too short to hold mosts urls. Unfortunately, the schema is *already in production*, so re-creating the database is not an option.
 

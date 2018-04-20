@@ -40,12 +40,10 @@ links:
 Your mission for today is to create a table called `items`.  
 This table should contain the following columns, used for storing these values:  
 - `id`, a unique value to identify an item
-- `name`, for example: "IP001", "IP002",
+- `name`, for example: "IP001", "IP002"
 - `url`, for example "https://www.w3schools.com/w3css/img_fjords.jpg"
 
-When you have created the table, add these inserts to the Schema section.
-
-Seed Data:  
+When you have created the table, append these INSERT statements to the left-hand panel:
 
 ```sql
 INSERT INTO items (id, name, url)
@@ -64,10 +62,9 @@ INSERT INTO items (id, name, url)
 VALUES (4, "IP002", "http://placehold.it/200/200");
 ```
 
-*In order to check your results:*
-
-- create the table
-- build the schema
-- add the seed data
+In total, you will need to:
+- *create the table*
+- *build the schema*
+- *add the seed data*
 - `SELECT count(name) from items;`
-- provide the result of the above query in the answer field
+- *provide the result of the above query in the answer field*

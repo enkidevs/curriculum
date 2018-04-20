@@ -34,8 +34,8 @@ links:
 ---        
 ## Exercise
 
-In SQLFiddle, write a SQL query that executes the following:
+In SQLFiddle, write a SQL query that does the following:
 
-Return the `name` and `fling_power` all items that cost between 100 and 500, ordered by the `fling_power`.
+*Return the `name` and `fling_power` of all items that cost between `100` and `500`, ordered by the `fling_power`.*
 
-In the answer field, write the name of the item with the smallest fling power and the name of the item with the greatest fling power within this range.
+For your answer, write the name of the item with the *least* fling power, followed by the name of the item with the *greatest* fling power within this range.
