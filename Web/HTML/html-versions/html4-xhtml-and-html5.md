@@ -1,5 +1,5 @@
-# HTML4, XHTML, & HTML5
-author: mihaiberq
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -14,11 +14,78 @@ stub: true
 tags:
   - obscura
 
-
+---
+# HTML4, XHTML, & HTML5
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+HTML, which stands for, **Hyper Text Markup Language** has had many versions over the years, however only a few are still used.
+These are HTML5, HTML4 and XHTML. HTML4 is the oldest HTML version still in use.
+
+HTML has a very loose syntax. A lot of closing tags are optional, for some you don't even need the open tag as well. This was good for new developers, however it wasn't good in general, because not using proper syntax can cause your HTML to be read differently by different browsers. Because of this people combined HTML with XML(eXtensible Markup Language) and created XHTML.
+
+XHTML, which stands for **eXtensible HyperText Markup Language** is basicaly HTML defined as XML. It is almost identical to HTML, however it has stricter rules. 
+
+Unlike in HTML, XHTML elements have to be properly nested, always be closed, written in lowercase, and can have only one root element.
+Attributes in XHTML need quotation, cannot be used with minimization and require to be written in lowercase.
+
+The `doctype` declaration is also different.
+
+HTML5 Doctype declaration:
+```
+<!DOCTYPE html>
+```
+
+HTML4 and XHTML each have 3 types of Doctype declarations:
+ - Frameset 
+ - Strict
+ - Transitional
+ 
+HTML4 Frameset: 
+```
+<!DOCTYPE HTML PUBLIC 
+ "-//W3C//DTD HTML 4.01 Frameset//EN" 
+ "http://www.w3.org/TR/html4/frameset.dtd">
+```
+
+HTML4 Strict:
+```
+<!DOCTYPE HTML PUBLIC 
+  "-//W3C//DTD HTML 4.01//EN" 
+  "http://www.w3.org/TR/html4/strict.dtd">
+```
+
+HTML4 Transitional:
+```
+<!DOCTYPE HTML PUBLIC 
+  "-//W3C//DTD HTML 4.01 Transitional//EN" 
+  "http://www.w3.org/TR/html4/loose.dtd">
+```
+
+XHTML Frameset: 
+```
+<!DOCTYPE html PUBLIC 
+  "-//W3C//DTD XHTML 1.0 Frameset//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD
+  /xhtml1-frameset.dtd">
+```
+
+XHTML Strict:
+```
+<!DOCTYPE html PUBLIC 
+  "-//W3C//DTD XHTML 1.0 Strict//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD
+  /xhtml1-strict.dtd">
+```
+
+XHTML Transitional:
+```
+<!DOCTYPE html PUBLIC 
+ "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD
+  /xhtml1-transitional.dtd">
+```
+
 
 ---
 ## Practice
