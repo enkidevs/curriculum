@@ -79,7 +79,7 @@ computeData(myData, logData)
 
 What could happen is that the `computeData` function may forget to your call your `logData` function provided. One other potential problem is that `computeData` may call `logData` without passing the `time` argument. These are some examples of some consequences of a more general problem in async callback programming.
 
-How is this called?
+What is the name of this dynamic?
 
 ???
 
