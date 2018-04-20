@@ -66,7 +66,7 @@ $ ????????? ??? ???
 ---
 ## Revision
 
-From you `package.json`, define a script that runs `node index.js`. Add to it the `--harmony` flag at the end and an env variable called `API_KEY` that's equal to "abc".
+In `package.json`, define a script that runs `node index.js`. Add to it the `--harmony` flag at the end and an env variable called `API_KEY` that's equal to "abc".
 
 ```json
 {
