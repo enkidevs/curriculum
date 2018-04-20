@@ -47,12 +47,12 @@ What will happen when downloading a corrupted npm package?
 ---
 ## Revision
 
-Since version `0.2.9` of npm, **sha1 hashes** are generated automatically when for your NodeJS project compiled with open ssl crypto support?
+To ensure the security of published modules, **sha1 hashes** are generated automatically when for your NodeJS project. When are these hashes created?
 
 ???
 
-* publishing
-* ran
-* opened
-* uploaded
-* compiled
+* on publish
+* when you run it
+* when the folder is accessed
+* When it is uploaded
+* When it is compiled
