@@ -14,7 +14,7 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/a3dff
+link: http://sqlfiddle.com/#!9/a3dff/1
 
 answer: 630209111320
 
@@ -42,12 +42,12 @@ Your mission today is to create a table called `users`.
 
 This table should have the following columns, which will store the following values:
 - `id`, a unique value to identify a user
-- `name`, for example: "John Goose", "Elizabeth Duck",
-- `facebook_id`, for example: "320985721018",
-- `email`, for example: "john_goose@gmail.com",
+- `name`, for example: "John Goose", "Elizabeth Duck"
+- `facebook_id`, for example: "320985721018"
+- `email`, for example: "john_goose@gmail.com"
 - `email_verified`, which will be true or false
 
-Once you've created your table, use these INSERT statements to test:
+Once you've created your table, append these INSERT statements to the left-hand panel:
 
 ```sql
 INSERT INTO users (id, name, facebook_id, email, email_verified)
@@ -66,9 +66,14 @@ INSERT INTO users (id, name, facebook_id, email, email_verified)
 VALUES (4, "Polly Parrot", 630209111320, "p.parrot@example.com", false);
 ```
 
-In order to check your results:
-- create the table,
-- add the seed data,
-- build the schema,
-- run `SELECT MAX(facebook_id) FROM users;`
-- provide the result in the answer field
+Finally, execute the query provided and submit the result
+
+
+In total, you will need to:
+- *Create the table*
+- *Add the seed data*
+- *Build the schema*
+- *Run the provided query*
+- *Submit the result as your Answer*
+
+Good luck! :rocket:

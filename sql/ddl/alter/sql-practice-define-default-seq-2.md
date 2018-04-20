@@ -15,14 +15,13 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/05b0f8
+link: http://sqlfiddle.com/#!9/7cc481/1
 
-answer: 1
+answer: 100
 
 standards:
   sql.define-sequences-or-default-values.0: 1000
   sql.define-sequences-or-default-values.2: 1000
-
 
 links:
   - '[MySQL modify columns documentation](https://dev.mysql.com/doc/refman/5.7/en/example-auto-increment.html){documentation}'
@@ -36,4 +35,10 @@ links:
 ---        
 ## Exercise
 
-Set the AUTO_INCREMENT to start at 100 for all `item_id`s.
+In this SQLFiddle, we need to alter the `items` table.
+
+By default, the `id` field of every entry in this table will increment by 1. Instead, we need the `id` field to increment by *100*. 
+
+*Create an `ALTER TABLE` statement to satisfy this condition*.
+
+Note: When submitting, include the output of the provided query as your answer.

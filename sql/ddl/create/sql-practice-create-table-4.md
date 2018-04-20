@@ -69,11 +69,11 @@ INSERT INTO requests (id, user_id, user_item_id, date_from, date_until, accepted
 VALUES (5, 1, 3, "2018-01-06", "2018-01-15", 1);
 ```
 
-In order to check your results:
-- create the table,
-- add the seed data,
-- build the schema,
+In total, you will need to:
+- *create the table*
+- *add the seed data*
+- *build the schema*
 - `SELECT COUNT(user_item_id), user_item_id FROM requests GROUP BY user_item_id`
-- run the provided query,
+- *run the provided query*
 - *which item is the most requested?*
-- Enter the ID of the most requested item in the answer field
+- *Enter the ID of the most requested item in the answer field*
