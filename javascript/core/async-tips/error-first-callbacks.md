@@ -1,4 +1,4 @@
-# Error-first Callbacks
+---
 author: rosielowther
 
 levels:
@@ -11,10 +11,29 @@ type: normal
 
 category: feature
 
+standards:
+
+  js.async.0: 10
+
+  js.identify-common-design-patterns.3: 10
+
+tags:
+
+  - introduction
+
+  - workout
+
+  - deep
+
+
 links:
 
-  - >-
-    [ruben.verborgh.org](http://ruben.verborgh.org/blog/2012/12/31/asynchronous-error-handling-in-javascript/){website}
+  - '[ruben.verborgh.org](http://ruben.verborgh.org/blog/2012/12/31/asynchronous-error-handling-in-javascript/){website}'
+
+
+---
+
+# Error-first Callbacks
 
 ---
 ## Content
@@ -53,6 +72,8 @@ Which statement is true about `error-first callbacks`:
 
 ???
 
-*First argument of the callback function is an error.
-*First argument of the main function is an error
-*Errors are checked before the actual call
+
+* First argument of the callback function is an error.
+* First argument of the main function is an error
+* Errors are checked before the actual call
+

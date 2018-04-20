@@ -1,4 +1,4 @@
-# Execution Order of Arithmetic Operators
+---
 author: tommarshall
 
 levels:
@@ -7,9 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# Execution Order of Arithmetic Operators
+
+standards:
+  py.native-types-operations.2: 10
 
 ---
 ## Content

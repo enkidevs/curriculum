@@ -1,12 +1,6 @@
 name: File Management
 
-type: insights-list
-
 description: Interact with your file system.
-
-section: 0
-
-parent: arrays
 
 insights:
   - reading-and-writing-text-files

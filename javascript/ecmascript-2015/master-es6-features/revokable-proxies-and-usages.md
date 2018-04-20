@@ -1,4 +1,4 @@
-# Revokable Proxies and Usages
+---
 author: alexjmackey
 
 levels:
@@ -9,13 +9,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy/revocable){website}'
+
+
+---
+
+# Revokable Proxies and Usages
 
 ---
 ## Content
@@ -60,3 +66,4 @@ Some potential usages:
 * Validation & logging
 * Extending constructors
 * As a shim/fallback for older browsers
+

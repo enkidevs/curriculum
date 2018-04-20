@@ -1,4 +1,4 @@
-# Locate a commit by its hash
+---
 author: rosielowther
 
 levels:
@@ -10,6 +10,13 @@ levels:
 type: normal
 
 category: must-know
+
+
+
+
+---
+
+# Locate a commit by its hash
 
 ---
 ## Content
@@ -38,11 +45,12 @@ Run the command to find out the unique abbreviation of a checksum :
 $ git ??? ???
       ???=???
 ```
-*`log`
-*`--abbrev-commit`
-*`--pretty`
-*`oneline`
-*`show`
+
+* `log`
+* `--abbrev-commit`
+* `--pretty`
+* `oneline`
+* `show`
 
 ---
 ## Revision
@@ -55,5 +63,7 @@ d921970aadf03b3cf0e71becdaab3147ba71cdef
 ```
 $ git show d921970
 ```
-*will
-*will not
+
+* will
+* will not
+

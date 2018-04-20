@@ -1,4 +1,4 @@
-# Self-closing tags in **JSX**
+---
 author: catalin
 
 levels:
@@ -11,7 +11,13 @@ type: normal
 
 category: must-know
 
+
+
 parent: custom-proptype-s-to-be-required
+
+---
+
+# Self-closing tags in **JSX**
 
 ---
 ## Content
@@ -45,6 +51,7 @@ Which of the following tags is a self closing tag? ???
 // Option B
 <tag/>
 ```
+
 * Option B
 * Option A
 * Neither of them..
@@ -56,6 +63,8 @@ Does **JSX** support self closing tags?
 
 ???
 
-*`yes`
-*`no`
-*`depends`
+
+* `yes`
+* `no`
+* `depends`
+

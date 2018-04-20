@@ -1,4 +1,4 @@
-# Using JavaScript on a web page
+---
 author: alexjmackey
 
 levels:
@@ -7,9 +7,20 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+standards:
+
+  js.javascript-syntax.2: 10
+
+
+
+
+---
+
+# Using JavaScript on a web page
 
 ---
 ## Content
@@ -69,9 +80,11 @@ console.log("enki");
 ???
 ```
 
-*`<script>`
-*`</script>`
-*`<script/>`
-*`/>`
-*`<script`
-*`src=`
+
+* `<script>`
+* `</script>`
+* `<script/>`
+* `/>`
+* `<script`
+* `src=`
+

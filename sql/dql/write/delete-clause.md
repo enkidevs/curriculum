@@ -1,4 +1,4 @@
-# Delete clause
+---
 author: SebaRaba
 
 levels:
@@ -15,13 +15,22 @@ category: must-know
 
 inAlgoPool: false
 
+standards:
+  sql.write.5: 10
+
 tags:
+
   - introduction
+
   - workout
 
 links:
 
-  - '[More on DELETE](http://www.dofactory.com/sql/delete)'
+  - '[More on DELETE](http://www.dofactory.com/sql/delete){website}'
+
+---
+
+# Delete clause
 
 ---
 ## Content
@@ -52,10 +61,12 @@ id |     name
 ```
 
 Suppose we want to delete the first value of the table:
-```
+```sql
 DELETE FROM egg_group
 WHERE id = 1;
+```
 
+```
 --Result:
 id |     name      
 ===+===============
@@ -81,7 +92,6 @@ If we wanted to delete all data in this table:
 DELETE FROM egg_group;
 ```
 
-
 ---
 ## Practice
 
@@ -106,7 +116,8 @@ id |     name
 14 | dragon
 15 | no-eggs
 (15 rows)
-
+```
+```sql
 ??? FROM egg_group
 WHERE id ??? 1 and 5;
 ```
@@ -141,6 +152,7 @@ id |     name
 15 | no-eggs
 (15 rows)
 ```
+
 ???
 
 * DELETE FROM egg_group WHERE id= 15;

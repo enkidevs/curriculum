@@ -1,4 +1,4 @@
-# Access a function's `arguments` as an array
+---
 author: Bruno
 
 levels:
@@ -9,10 +9,25 @@ type: normal
 
 category: how to
 
+standards:
+
+  js.functions.1: 10
+
+tags:
+
+  - introduction
+
+  - workout
+
+
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments){documentation}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments){documentation}'
+
+
+---
+
+# Access a function's `arguments` as an array
 
 ---
 ## Content
@@ -51,10 +66,12 @@ function myArray() {
   return a;
 ```
 
-*`arguments`
-*`slice`
-*`splice`
-*`argv`
-*`args`
-*`sort`
-*`toArray`
+
+* `arguments`
+* `slice`
+* `splice`
+* `argv`
+* `args`
+* `sort`
+* `toArray`
+

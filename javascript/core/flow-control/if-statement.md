@@ -1,4 +1,4 @@
-# If Statement
+---
 author: alexjmackey
 
 levels:
@@ -7,9 +7,26 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+standards:
+
+  js.control-flow.1: 10
+
+tags:
+
+  - introduction
+
+  - workout
+
+
+
+
+---
+
+# If Statement
 
 ---
 ## Content
@@ -76,13 +93,14 @@ Complete the basic syntax of the following `switch` statement:
 
 ```
 
-*`switch`
-*`case`
-*`default`
-*`break`
-*`if`
-*`else`
-*`if else`
+
+* `switch`
+* `case`
+* `default`
+* `break`
+* `if`
+* `else`
+* `if else`
 
 ---
 ## Revision
@@ -96,12 +114,14 @@ if (condition <= 0) {
 }
 
 ```
-*`else`
-*`if`
-*`case`
-*`break`
-*`if else`
-*`else if`
-*`switch`
-*`case`
-*`==`
+
+* `else`
+* `if`
+* `case`
+* `break`
+* `if else`
+* `else if`
+* `switch`
+* `case`
+* `==`
+

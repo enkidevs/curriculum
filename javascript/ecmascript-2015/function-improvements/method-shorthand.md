@@ -1,4 +1,4 @@
-# Method Shorthand
+---
 author: alexjmackey
 
 levels:
@@ -7,13 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions){website}'
+
+
+---
+
+# Method Shorthand
 
 ---
 ## Content
@@ -39,3 +45,4 @@ return {
     }
 };
 ```
+

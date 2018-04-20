@@ -1,4 +1,4 @@
-# GitHub
+---
 author: catalin
 
 levels:
@@ -9,9 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
   - '[www.github.com](www.github.com){website}'
+
+
+---
+
+# GitHub
 
 ---
 ## Content
@@ -37,7 +43,9 @@ Founded in `2007` and continuously improving, **GitHub** is the most notable pla
 
 GitHub is just ??? Git repositories.
 
-*`a hosting solution for`
-*`an alternative to`
-*`another name for`
-*`a newer implementation for`
+
+* `a hosting solution for`
+* `an alternative to`
+* `another name for`
+* `a newer implementation for`
+

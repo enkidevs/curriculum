@@ -1,4 +1,4 @@
-# What is Python?
+---
 author: tommarshall
 
 levels:
@@ -7,13 +7,18 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[www.python.org](https://www.python.org/doc/essays/comparisons/){website}'
+
+---
+
+# What is Python?
 
 ---
 ## Content
@@ -53,6 +58,5 @@ What type of keyword does Python use to improve its readability? ???
 
 ---
 ## Footnotes
-
 [1:encapsulates]
 Encapsulation is an Object-Oriented Programming concept mechanism which wraps the data, variables, and any code acting on the data, methods, together as a single unit.

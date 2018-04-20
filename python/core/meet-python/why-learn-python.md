@@ -1,4 +1,4 @@
-# Why learn Python?
+---
 author: tommarshall
 
 levels:
@@ -7,9 +7,13 @@ levels:
 
 type: normal
 
+category: tip
+
 inAlgoPool: false
 
-category: tip
+---
+
+# Why learn Python?
 
 ---
 ## Content

@@ -1,4 +1,4 @@
-# `if`-`else` statements in **JSX** and **React**
+---
 author: catalin
 
 levels:
@@ -11,12 +11,16 @@ type: normal
 
 category: how to
 
-parent: custom-proptype-s-to-be-required
 
 links:
 
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/tips/if-else-in-JSX.html){website}
+  - '[facebook.github.io](https://facebook.github.io/react/tips/if-else-in-JSX.html){website}'
+
+parent: custom-proptype-s-to-be-required
+
+---
+
+# `if`-`else` statements in **JSX** and **React**
 
 ---
 ## Content
@@ -49,3 +53,4 @@ Another alternative is that *immediately-invoked function expressions* can be us
   })()}
 </p>
 ```
+

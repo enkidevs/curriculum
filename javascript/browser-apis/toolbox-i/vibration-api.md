@@ -1,4 +1,4 @@
-# Vibration API
+---
 author: rosielowther
 
 levels:
@@ -15,13 +15,16 @@ type: normal
 
 category: feature
 
+
 links:
 
   - '[davidwalsh.name](https://davidwalsh.name/vibration-api){website}'
+  - '[Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/API/Vibration_API){website}'
 
-  - >-
-    [Mozilla Developer
-    Network](https://developer.mozilla.org/en-US/docs/Web/API/Vibration_API){website}
+
+---
+
+# Vibration API
 
 ---
 ## Content
@@ -59,6 +62,7 @@ Fill in the gaps to make the device vibrate for two seconds, pause for a second,
   ???]);
 ```
 
+
 * `navigator`
 * `vibrate`
 * `3000`
@@ -78,9 +82,11 @@ Using the Vibration API, make the device vibrate for half a second:
 navigator.???(???);
 ```
 
+
 * `vibrate`
 * `500`
 * `0.5`
 * `5000`
 * `start`
 * `vibration`
+

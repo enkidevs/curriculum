@@ -1,4 +1,4 @@
-# Group By clause
+---
 author: SebaRaba
 
 levels:
@@ -17,13 +17,23 @@ category: must-know
 
 inAlgoPool: false
 
+standards:
+  sql.aggregate-single-table.3: 10
+
 tags:
 
   - workout
 
+
 links:
 
-  - '[More on GROUP BY](https://www.techonthenet.com/sql/group_by.php)'
+  - '[More on GROUP BY](https://www.techonthenet.com/sql/group_by.php){documentation}'
+
+parent: order-by-clause
+
+---
+
+# Group By clause
 
 ---
 ## Content
@@ -55,6 +65,7 @@ count | language_id
 (7 rows)
 
 ```
+
 ---
 ## Practice
 
@@ -74,6 +85,7 @@ count | is_default
   721 | t
 (2 rows)
 ```
+
 
 * COUNT
 * is_default
@@ -117,6 +129,7 @@ avg      | item_category_id
 ...
 
 ```
+
 
 * AVG
 * item

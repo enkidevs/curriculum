@@ -1,18 +1,28 @@
-# Pre-order Traversal
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
+
 parent: depth-first-traversal
+
+---
+
+# Pre-order Traversal
+
 ---
 ## Content
 
@@ -58,6 +68,7 @@ Chose the sequence that simulates a pre-order traversal of the tree:
 D     F    E
 ```
 ???
+
 * `A,B,D,F,C,E`
 * `D,B,F,A,C,E`
 * `D,F,B,E,C,A`
@@ -75,7 +86,9 @@ Chose the sequence that simulates a pre-order traversal of the tree:
 D     F     E
 ```
 ???
+
 * `A,B,D,F,C,E`
 * `D,B,F,A,C,E`
 * `D,F,B,E,C,A`
 * `A,B,C,D,F,E`
+

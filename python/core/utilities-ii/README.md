@@ -1,12 +1,6 @@
 name: Utilities II
 
-type: insights-list
-
 description: Even more handy Python modules. 
-
-section: 1
-
-parent: utilities-i
 
 insights:
   - use-struct-to-work-with-binary-data

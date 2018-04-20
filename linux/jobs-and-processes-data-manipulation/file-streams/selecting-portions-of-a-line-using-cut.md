@@ -1,4 +1,4 @@
-# Selecting Portions of A Line Using `cut`
+---
 author: jfarmer
 
 levels:
@@ -9,9 +9,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# Selecting Portions of A Line Using `cut`
 
 ---
 ## Content
@@ -24,7 +31,7 @@ Here are some basic examples.
 
 The `-c` option tells `cut` to select specific *characters* from its input.  Take a look:
 
-```console
+```shell
 $ echo "one:two:three" | cut -c2
 n
 $ echo "one:two:three" | cut -c1-5
@@ -58,7 +65,7 @@ One can use `-f` without `-d`, although by default `cut` will assume that the in
 
 The `/etc/passwd` file contains information about every user on the system, including usernames and home directories.  The format is very standard.  The following example will print out all the users alone with their home directories on the system:
 
-```console
+```shell
 $ cut -d":" -f1,6 /etc/passwd
 user1:/home/user1
 user2:/home/user2
@@ -81,17 +88,20 @@ Print the *subtopic* name using `cut` :
 ```
 $ cut ??? ??? ???
 ```
-*`-d"/"`
-*`-f2`
-*`enki.txt`
-*`-d" "`
-*`-f1`
+
+* `-d"/"`
+* `-f2`
+* `enki.txt`
+* `-d" "`
+* `-f1`
 
 ---
 ## Revision
 
 The flag used to specify the delimiter of the `cut` command is ???.
-*-d
-*-f
-*-a
-*-F
+
+* -d
+* -f
+* -a
+* -F
+

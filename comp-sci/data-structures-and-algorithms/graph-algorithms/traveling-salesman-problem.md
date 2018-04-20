@@ -1,22 +1,31 @@
-# Traveling Salesman Problem
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
 links:
-    - >-
-        [Shortcuts for TSP](https://www.wired.com/2013/01/traveling-salesman-problem/){website}
+
+  - '[Shortcuts for TSP](https://www.wired.com/2013/01/traveling-salesman-problem/){website}'
 
 parent: bellman-ford-iteration
+
+---
+
+# Traveling Salesman Problem
+
 ---
 ## Content
 
@@ -57,6 +66,7 @@ TSP can be seen as a/an
 
 ???
 
+
 * optimization problem
 * reduction problem
 * recursive problem
@@ -67,13 +77,13 @@ TSP can be seen as a/an
 
 In the TSP, a greedy approach ??? yields the optimal solution.
 
+
 * sometimes
 * never
 * always
 
 ---
 ## Footnotes
-
 [1: (n-1)!]
 Why are there `(n-1)!` permutations to check and not `n!`?
 

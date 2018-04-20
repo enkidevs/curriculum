@@ -1,4 +1,4 @@
-# Types - Hoisting
+---
 author: alexjmackey
 
 levels:
@@ -11,11 +11,25 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  js.functions.5: 10
+
+tags:
+  - workout
+  - hoisting
+  - deep
+  - variables
+  - obscura
+
 links:
 
   - >-
     [Site
     Point](https://www.sitepoint.com/demystifying-javascript-variable-scope-hoisting/){website}
+
+---
+
+# Types - Hoisting
 
 ---
 ## Content

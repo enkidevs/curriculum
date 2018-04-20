@@ -1,4 +1,4 @@
-# What are modules?
+---
 author: SebaRaba
 
 levels:
@@ -9,9 +9,18 @@ type: normal
 
 category: must-know
 
+standards:
+  py.modules.0: 10
+  py.modules.2: 10
+
 links:
 
-  - '[More on modules](https://docs.python.org/3/tutorial/modules.html)'
+  - '[More on modules](https://docs.python.org/3/tutorial/modules.html){website}'
+
+
+---
+
+# What are modules?
 
 ---
 ## Content
@@ -31,7 +40,7 @@ Each module, in order to be recognized by the interpreter, has to have the `.py`
 
 Consider the python file `my_adder.py`. Plainly, this **module**'s name is `my_adder`.
 
-```py
+```python
 # consider module in adder.py:
 
 def add(a, b):
@@ -43,16 +52,11 @@ def add(a, b):
 Note that within each module, its name is dynamically available through the global variable `__name__`.
 
 ---
-## Footnotes
-
-[1:modular programming]
-Modular programming is a software design technique that emphasizes separating the functionality of a program into independent, interchangeable modules, such that each contains everything necessary to execute only one aspect of the desired functionality.
-
----
 ## Practice
 
 What is the extension specific to Python **modules**?
 ???
+
 
 * `.py`
 * `.md`
@@ -67,6 +71,12 @@ What is the extension specific to Python **modules**?
 Which of the following options would better describe a module in Python?
 ???
 
+
 * A file with python code - definitions and statements
 * A library exposing an API
 * A file with functions written in Python
+
+---
+## Footnotes
+[1:modular programming]
+Modular programming is a software design technique that emphasizes separating the functionality of a program into independent, interchangeable modules, such that each contains everything necessary to execute only one aspect of the desired functionality.

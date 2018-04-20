@@ -1,4 +1,4 @@
-# Loops - Part 1
+---
 author: alexjmackey
 
 levels:
@@ -7,9 +7,28 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+standards:
+
+  js.control-flow.3: 10
+
+  js.control-flow.4: 10
+
+tags:
+
+  - introduction
+
+  - workout
+
+
+
+
+---
+
+# Loops - Part 1
 
 ---
 ## Content
@@ -69,13 +88,14 @@ var i = 0;
   i++;
 } ??? (i < ???)
 ```
-*`do`
-*`while`
-*`10`
-*`if`
-*`else`
-*`9`
-*`for`
+
+* `do`
+* `while`
+* `10`
+* `if`
+* `else`
+* `9`
+* `for`
 
 ---
 ## Revision
@@ -86,9 +106,11 @@ Complete the following `for` loop such that it makes sense:
    console.log(i);
 }
 ```
-*`for`
-*`var`
-*`i++`
-*`while`
-*`do`
-*`i--`
+
+* `for`
+* `var`
+* `i++`
+* `while`
+* `do`
+* `i--`
+

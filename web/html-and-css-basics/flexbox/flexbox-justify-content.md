@@ -1,4 +1,4 @@
-# Flexbox `justify-content`
+---
 author: Billiexu
 
 levels:
@@ -15,9 +15,15 @@ tags:
 
   - flexbox
 
+
 links:
 
   - '[egghead.io](https://egghead.io/lessons/misc-flexbox-fundamentals){website}'
+
+
+---
+
+# Flexbox `justify-content`
 
 ---
 ## Content
@@ -69,10 +75,11 @@ Which of the following `justify-content` values will display items evenly distri
             ???;
 }
 ```
-*`space-between`
-*`space-around`
-*`center`
-*`flex-start`
+
+* `space-between`
+* `space-around`
+* `center`
+* `flex-start`
 
 ---
 ## Revision
@@ -80,7 +87,9 @@ Which of the following `justify-content` values will display items evenly distri
 To give elements the same amount of space between them, as well as the container, `justify-content` values should be
 
 ???
-*space-around
-*space-between
-*flex-start
-*center
+
+* space-around
+* space-between
+* flex-start
+* center
+

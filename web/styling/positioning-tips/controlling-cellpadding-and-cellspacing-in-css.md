@@ -1,4 +1,4 @@
-# Controlling cellpadding and cellspacing in CSS
+---
 author: oj14henry
 
 levels:
@@ -19,10 +19,15 @@ tags:
 
   - cellspacing
 
+
 links:
 
-  - >-
-    [www.htmlcodetutorial.com](http://www.htmlcodetutorial.com/tables/index_famsupp_29.html){website}
+  - '[www.htmlcodetutorial.com](http://www.htmlcodetutorial.com/tables/index_famsupp_29.html){website}'
+
+
+---
+
+# Controlling cellpadding and cellspacing in CSS
 
 ---
 ## Content
@@ -58,11 +63,12 @@ Apply a cellpadding of 15px to a table:
    ??? : 15px;
 }
 ```
-*`td` 
-*`padding` 
-*`table` 
-*`cell-padding` 
-*`tr`
+
+* `td` 
+* `padding` 
+* `table` 
+* `cell-padding` 
+* `tr`
 
 ---
 ## Revision
@@ -76,7 +82,9 @@ table {
 }
 ```
 ???
+
 * Controls the cellpadding and cellspacing of the table.
 * Alters the table.
 * Adds a border to the table without padding.
 * Adds a border to the table with padding.
+

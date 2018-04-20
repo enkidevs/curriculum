@@ -1,4 +1,4 @@
-# Why use Symbols 2
+---
 author: alexjmackey
 
 levels:
@@ -9,14 +9,20 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){website}'
-  
+
+
+---
+
+# Why use Symbols 2
+
 ---
 ## Content
 
@@ -43,3 +49,4 @@ Symbol.keyFor(Symbol.iterator);
 ```
 
 Symbols can also implement a kind of limited (they are still accessible via other means) privacy – let's discuss this next.
+

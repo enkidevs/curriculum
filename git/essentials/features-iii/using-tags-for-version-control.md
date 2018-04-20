@@ -1,4 +1,4 @@
-# Using tags for version control
+---
 author: rosielowther
 
 levels:
@@ -13,9 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
   - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Tagging){website}'
+
+
+---
+
+# Using tags for version control
 
 ---
 ## Content
@@ -60,6 +66,7 @@ Add a `v1.0` annotated tag to the commit `ac32b10`.
 ```
 $ git ??? ??? ??? ac32b10
 ```
+
 * `tag`
 * `-a`
 * `v1.0`
@@ -74,7 +81,9 @@ Complete the command to retrieve all tags that are part of `v2`:
 ```
 $ git tag ??? ???
 ```
+
 * `-l`
 * `v2*`
 * `2`
 * `-m`
+

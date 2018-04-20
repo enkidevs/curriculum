@@ -1,12 +1,6 @@
 name: Memory
 
-type: insights-list
-
 description: How Java handles memory usage.
-
-section: 1
-
-parent: tips-iv
 
 insights:
   - java-memory-management

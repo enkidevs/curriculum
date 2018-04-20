@@ -1,12 +1,6 @@
 name: User Permissions
 
-type: insights-list
-
 description: Check how ownership and permissions are handled on Linux-based operating systems.
-
-section: 0
-
-parent: file-management
 
 insights:
   - users-and-groups-on-linux

@@ -1,4 +1,4 @@
-# Using `eval`
+---
 author: rosielowther
 
 levels:
@@ -13,10 +13,21 @@ type: normal
 
 category: best practice
 
+tags:
+
+  - obscura
+
+  - workout
+
+
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval){website}'
+
+
+---
+
+# Using `eval`
 
 ---
 ## Content
@@ -44,6 +55,7 @@ var flag = false;
 var b = eval(str);
 ```
 
+
 * -16
 * 16
 * undefined
@@ -54,6 +66,8 @@ var b = eval(str);
 
 Evaluating javascript code passed as a string is done by ???
 
-*eval()
-*evil()
-*(string).toJS()
+
+* eval()
+* evil()
+* (string).toJS()
+

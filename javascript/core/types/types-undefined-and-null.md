@@ -1,4 +1,4 @@
-# Types - Undefined and Null
+---
 author: alexjmackey
 
 levels:
@@ -7,9 +7,26 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+standards:
+
+  js.evaluate-expressions.10: 10
+
+tags:
+
+  - introduction
+
+  - workout
+
+
+
+
+---
+
+# Types - Undefined and Null
 
 ---
 ## Content
@@ -51,9 +68,10 @@ null === undefined //false
 
 Not initializing a variable sets its value to ???.
 
-*undefined
-*null
-*the default one
+
+* undefined
+* null
+* the default one
 
 ---
 ## Revision
@@ -63,5 +81,7 @@ What will the following statement evaluate to?
 undefined == null
 // ???
 ```
-*true
-*false
+
+* true
+* false
+

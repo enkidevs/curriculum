@@ -1,4 +1,4 @@
-# Python versions
+---
 author: tommarshall
 
 levels:
@@ -7,9 +7,17 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+standards:
+  py.developer-environment.0: 10
+
+
+---
+
+# Python versions
 
 ---
 ## Content
@@ -49,6 +57,7 @@ As a beginner, your best bet is **Python 3**. This is the standard that's advanc
 Which of the following code snippets is Python 3 code?
 
 ???
+
 
 * `print ('Hello world!')`
 * `print 'Hello world!'`

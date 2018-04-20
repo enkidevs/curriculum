@@ -1,4 +1,4 @@
-# Creating a defensive copy of an object to guarantee immutability
+---
 author: adamMontgomerie
 
 levels:
@@ -17,10 +17,15 @@ tags:
 
   - oop
 
+
 links:
 
-  - >-
-    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=15){website}
+  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=15){website}'
+
+
+---
+
+# Creating a defensive copy of an object to guarantee immutability
 
 ---
 ## Content
@@ -42,3 +47,4 @@ this.dateOfBirth =
   new Date(dateOfBirth.getTime());
 ```
 Rather than assigning the existing `dateOfBirth` object to our new 'Person' object, we create a copy of that object inside the class.
+

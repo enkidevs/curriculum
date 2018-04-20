@@ -1,4 +1,4 @@
-# Why Learn JavaScript?
+---
 author: alexjmackey
 
 levels:
@@ -7,9 +7,20 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+tags:
+
+  - introduction
+
+
+
+
+---
+
+# Why Learn JavaScript?
 
 ---
 ## Content
@@ -32,7 +43,9 @@ Why was **JavaScript** originally developed?
 
 ???
 
-*To add functionality to web pages
-*To create databases
-*To enhance Java
-*To replace HTML
+
+* To add functionality to web pages
+* To create databases
+* To enhance Java
+* To replace HTML
+

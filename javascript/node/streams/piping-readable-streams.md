@@ -1,4 +1,4 @@
-# Piping Readable Streams
+---
 author: tommarshall
 
 levels:
@@ -13,13 +13,18 @@ levels:
 
 type: normal
 
-
 category: must-know
+
+
+links:
+
+  - '[Piping streams](https://www.sandersdenardi.com/readable-writable-transform-streams-node/){website}'
 
 parent: readable-streams
 
-links:
-- '[Piping streams](https://www.sandersdenardi.com/readable-writable-transform-streams-node/)'
+---
+
+# Piping Readable Streams
 
 ---
 ## Content
@@ -44,6 +49,8 @@ The `pipe()` function is used in the above example to write the content of file1
 Which function is used for piping data from a source to a destination?
 ???
 
+
 * `pipe()`
 * `pipeto()`
 * `newpipe()`
+

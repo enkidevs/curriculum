@@ -1,4 +1,4 @@
-# There is no such thing as *pass-by-reference* in Java
+---
 author: fahimrahman
 
 levels:
@@ -17,11 +17,15 @@ tags:
 
   - java
 
+
 links:
 
-  - >-
-    [A more in-depth
-    explanation](http://javadude.com/articles/passbyvalue.htm){website}
+  - '[A more in-depth explanation](http://javadude.com/articles/passbyvalue.htm){website}'
+
+
+---
+
+# There is no such thing as *pass-by-reference* in Java
 
 ---
 ## Content
@@ -81,10 +85,11 @@ foo(p);
 System.out.println(p.getName());
 //???
 ```
-*`Tom` 
-*`John` 
-*`Mike` 
-*`Anna`
+
+* `Tom` 
+* `John` 
+* `Mike` 
+* `Anna`
 
 ---
 ## Revision
@@ -101,7 +106,9 @@ foo(p);
 System.out.println(p.getName());
 //???
 ```
-*`Mike` 
-*`Tom` 
-*`Cat` 
-*`Jordan`
+
+* `Mike` 
+* `Tom` 
+* `Cat` 
+* `Jordan`
+

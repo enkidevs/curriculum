@@ -1,17 +1,27 @@
-# Deprecated peer dependencies
+---
 author: mihaiberq
 
 levels:
+
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: feature
 
+
+
 parent: dependencies
+
+---
+
+# Deprecated peer dependencies
 
 ---
 ## Content
@@ -57,6 +67,7 @@ In which version of npm were *peerDependencies* available?
 
 ???
 
+
 * npm v2
 * npm v3
 * npm v4
@@ -68,8 +79,10 @@ You can find out your npm version with:
 ```
 $ ??? ???
 ```
+
 * npm
 * -v
 * v
 * node
 * -npm
+

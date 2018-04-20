@@ -1,18 +1,27 @@
-# Depth-first Traversal
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
+
 parent: tree-traversals
+
+---
+
+# Depth-first Traversal
 
 ---
 ## Content
@@ -46,7 +55,9 @@ Which node will be prioritized after *B* in a depth-first traversal?
    D     E
 ```
 ???
+
 * D
 * E
 * A
 * C
+

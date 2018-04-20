@@ -1,4 +1,4 @@
-# Writable Streams
+---
 author: tommarshall
 
 levels:
@@ -15,10 +15,16 @@ type: normal
 
 category: must-know
 
-parent: chaining-readable-streams
 
 links:
-- '[Writable Streams](https://gist.github.com/joyrexus/10026630)'
+
+  - '[Writable Streams](https://gist.github.com/joyrexus/10026630){website}'
+
+parent: chaining-readable-streams
+
+---
+
+# Writable Streams
 
 ---
 ## Content
@@ -52,6 +58,7 @@ rstream.on('???', function(data) {
 });
 ```
 
+
 * `data`
 * `write`
 * `input`
@@ -68,6 +75,8 @@ Which method is used when writing data to a writable stream?
 stream.???(data);
 ```
 
+
 * `write`
 * `input`
 * `print`
+

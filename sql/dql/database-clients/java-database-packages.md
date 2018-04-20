@@ -1,4 +1,4 @@
-# Java Database Packages
+---
 author: Nick Daminov
 
 levels:
@@ -13,20 +13,34 @@ category: how to
 
 inAlgoPool: false
 
+standards:
+  sql.connect-client.0: 10
+  sql.connect-client.1: 10
+
 tags:
-  - introduction
+
+
   - workout
+
   - java
+
   - implementation
+
   - database packages
+
 
 links:
 
-  - '[Why JDBC](https://www.progress.com/faqs/datadirect-jdbc-faqs/why-do-we-need-jdbc)'
-  - '[Oracle Statement on JDBCs](http://www.oracle.com/technetwork/java/index-138427.html#13)'
-  - '[Postgres JDBC driver](https://jdbc.postgresql.org/about/about.html)'
-  - '[Java Driver Interface](https://docs.oracle.com/javase/7/docs/api/java/sql/Driver.html)'
-  - '[More Examples](https://www.tutorialspoint.com/postgresql/postgresql_java.htm)'
+  - '[Why JDBC](https://www.progress.com/faqs/datadirect-jdbc-faqs/why-do-we-need-jdbc){website}'
+  - '[Oracle Statement on JDBCs](http://www.oracle.com/technetwork/java/index-138427.html#13){website}'
+  - '[Postgres JDBC driver](https://jdbc.postgresql.org/about/about.html){website}'
+  - '[Java Driver Interface](https://docs.oracle.com/javase/7/docs/api/java/sql/Driver.html){website}'
+  - '[More Examples](https://www.tutorialspoint.com/postgresql/postgresql_java.htm){website}'
+
+
+---
+
+# Java Database Packages
 
 ---
 ## Content
@@ -34,7 +48,7 @@ links:
 In **Java**, Oracle does not provide database connection APIs with the JDK, meaning that we will have to download the necessary library (the *database driver*) and import it into our project manually. These libraries should be provided the database hosts as each *DBMS* is different. The *database driver* or *JDBC (Java Database Connectivity)* for Postgres can be downloaded from Postgres website.
 
 Now after downloading the correct `.jar` file and adding it to our project, we can connect to our database:
-```
+```java
 import java.sql.*;
 
 public class Main {
@@ -120,6 +134,7 @@ c = DriverManager.getConnection
 ("???:???://
 ???:???/???",
  "???", "???");
+
 
 * jdbc
 * postgresql

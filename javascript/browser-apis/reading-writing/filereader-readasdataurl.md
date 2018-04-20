@@ -1,4 +1,4 @@
-# FileReader.readAsDataURL()
+---
 author: tommarshall
 
 levels:
@@ -15,10 +15,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsDataURL){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsDataURL){website}'
+
+
+---
+
+# FileReader.readAsDataURL()
 
 ---
 ## Content
@@ -35,7 +40,7 @@ The HTML:
 <img src="" id="wallpaper">
 ```
 And the JavaScript:
-```JavaScript
+```javascript
 function triggerRead() {
   var wallpaper =
     document.getElementById('wallpaper');
@@ -62,6 +67,7 @@ Which FileReader's function is called after `readAsDataURL()` is completed?
 
 ???
 
+
 * `onload`
 * `onend`
 * `oncomplete`
@@ -74,6 +80,8 @@ The URL returned by the `readAsDataURL` function is
 
 ???
 
+
 * a base64 encoded string
 * an SVG's code
 * a link to file's location
+

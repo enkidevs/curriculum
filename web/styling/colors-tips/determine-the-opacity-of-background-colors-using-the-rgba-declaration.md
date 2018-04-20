@@ -1,4 +1,4 @@
-# Determine the opacity of background-colors using the RGBA declaration
+---
 author: koenvanlent
 
 levels:
@@ -23,9 +23,15 @@ tags:
 
   - opacity
 
+
 links:
 
   - '[css-tricks.com](https://css-tricks.com/rgba-browser-support/){website}'
+
+
+---
+
+# Determine the opacity of background-colors using the RGBA declaration
 
 ---
 ## Content
@@ -54,7 +60,9 @@ For `rgba()` colour values, what do the four values stand for, in order? ???
 /* For example */
 color: rgba(12, 255, 40, 0.3);
 ```
+
 * Red, Green, Blue, Alpha
 * Red, Blue, Green, Alpha
 * Green, Blue, Red, Alpha
 * Blue, Red, Green, Alpha
+

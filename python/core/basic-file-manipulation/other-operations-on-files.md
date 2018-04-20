@@ -1,4 +1,4 @@
-# Other operations on files
+---
 author: SebaRaba
 
 levels:
@@ -9,9 +9,17 @@ type: normal
 
 category: feature
 
+standards:
+  py.standard-library-operating-system.0: 10
+
 links:
 
-  - '[More operations here](https://www.tutorialspoint.com/python/python_files_io.htm)'
+  - '[More operations here](https://www.tutorialspoint.com/python/python_files_io.htm){website}'
+
+
+---
+
+# Other operations on files
 
 ---
 ## Content
@@ -32,7 +40,7 @@ In **Python**, the `tell()` function returns the current position in the **file*
 - `2`: which means at the end of the file.
 
 Let's see how `tell()` and `seek()` work in practice, considering a dummy `file.txt`[1]:
-```py
+```python
 
 file = open('file.txt','r+')
 text = file.read(7);
@@ -60,21 +68,11 @@ Apart from other uses, `os` module helps with **file processing operations**. Tw
 
 As `os` is a **module**, we need to **import** it to be able to use the operations it provides:
 
-```py
+```python
 import os
 
 os.rename('file.txt','new_file.txt');
 os.remove('new_file.txt');
-```
-
----
-## Footnotes
-
-[1: file.txt]
-```
-# file.txt
-This is my file
-It has two lines of text
 ```
 
 ---
@@ -85,6 +83,7 @@ We want to open `file.txt` just for reading purposes. After we want to print it 
 file = open('file.txt','???')
 print(???.readline())
 ```
+
 
 * `r`
 * `file`
@@ -102,6 +101,7 @@ print(???.readline())
 Which method returns the current position of the file pointer within a **file object**?
 
 ???
+
 
 * `tell()`
 * `seek()`

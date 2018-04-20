@@ -1,4 +1,4 @@
-# Check available python modules
+---
 author: Ricardo
 
 levels:
@@ -19,10 +19,17 @@ tags:
 
   - imports
 
+standards:
+  py.modules.6: 10
+
 links:
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/739993/how-can-i-get-a-list-of-locally-installed-python-modules){website}
+  - '[stackoverflow.com](http://stackoverflow.com/questions/739993/how-can-i-get-a-list-of-locally-installed-python-modules){website}'
+
+
+---
+
+# Check available python modules
 
 ---
 ## Content
@@ -30,11 +37,11 @@ links:
 Find a list of all python modules installed on a machine by running the following command in a terminal.
 
 
-```bash 
-$> pydoc modules 
+```bash
+$> pydoc modules
 ```
 
-or 
+or
 
 
 ```python
@@ -51,12 +58,13 @@ Complete the following command such that when used in the Python interactive she
 >>> ???(???)
 ```
 
-*`help` 
-*`'modules'` 
-*`pydoc` 
-*`modules` 
-*`get` 
-*`show`
+
+* `help`
+* `'modules'`
+* `pydoc`
+* `modules`
+* `get`
+* `show`
 
 ---
 ## Revision
@@ -65,7 +73,8 @@ What command/s can be ran in **a terminal*** in order to see all Python modules 
 
 ???
 
-*`pydoc modules` 
-*`help('modules')` 
-*`both` 
-*`neither`
+
+* `pydoc modules`
+* `help('modules')`
+* `both`
+* `neither`

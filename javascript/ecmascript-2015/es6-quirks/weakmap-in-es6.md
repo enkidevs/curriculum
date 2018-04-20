@@ -1,4 +1,4 @@
-# `WeakMap` in ES6
+---
 author: rosielowther
 
 levels:
@@ -13,9 +13,15 @@ type: normal
 
 category: feature
 
+
 links:
 
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/WeakMap){website}'
+
+
+---
+
+# `WeakMap` in ES6
 
 ---
 ## Content
@@ -39,12 +45,13 @@ Complete the syntax for a WeakMap below:
 ```
 new ???([???])
 ```
-*`WeakMap`
-*`iterable`
-*`weakmap`
-*`Weakmap`
-*`iterate`
-*`iterator`
+
+* `WeakMap`
+* `iterable`
+* `weakmap`
+* `Weakmap`
+* `iterate`
+* `iterator`
 
 ---
 ## Revision
@@ -53,5 +60,7 @@ Are `WeakMap`s enumerable?
 
 ???
 
-*`yes`
-*`no`
+
+* `yes`
+* `no`
+

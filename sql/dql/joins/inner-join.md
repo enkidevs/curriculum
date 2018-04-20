@@ -1,4 +1,4 @@
-# INNER JOIN
+---
 author: mihaiberq
 
 levels:
@@ -13,18 +13,28 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+standards:
+  sql.read-multiple-tables.0: 10
+
+tags:
+
+  - introduction
+
+  - workout
+
+links:
+
+  - '[Inner join](https://en.wikipedia.org/wiki/Join_(SQL)#Inner_join){website}'
 
 parent: avg-clause
 
-links:
-  - '[Inner join](https://en.wikipedia.org/wiki/Join_(SQL)#Inner_join)'
+---
 
-tags:
-   - introduction
-   - workout
+# INNER JOIN
 
 ---
 ## Content
@@ -42,6 +52,7 @@ id | is_main_series | generation_id | name
 3  |      True      |       3 | speed-boost
 4  |      True      |       3 | battle-armor
 ```
+
 And for the `ability_effect_text`:
 ```
 id |       effect       |   short_effect   |
@@ -60,14 +71,16 @@ id |       effect       |   short_effect   |
    | Protects against critical hits.
    |         4          |        9         |
 ```
+
 To match the abilities that can be found in both tables, use the following `INNER JOIN` command:
-```SQL
+```sql
 SELECT ability.name,
   ability_effect_text.effect
 FROM ability
 INNER JOIN ability_effect_text ON
 ability.id = ability_effect_text.ability_id;
 ```
+
 The first 2 rows of the result would be:
 ```
 name    |              effect
@@ -91,17 +104,10 @@ An *INNER JOIN* is a type of join that only returns rows for which the joined fi
 There were a total of `191` rows returned by the query versus `251` abilities and `191` text effects.
 
 ---
-## Footnotes
-
-[1: Ability]
-A Pokémon's ability is an aura that is passively active and provides benefits to the Pokemon and, sometimes, its party.
-
-
----
 ## Practice
 
 Fill in the blanks such that the following snippet contains a valid JOIN operations:
-```SQL
+```sql
 ??? item.id, item.name,
   item_effect_text.short_effect,
   item_effect_text.item_id
@@ -110,13 +116,13 @@ Fill in the blanks such that the following snippet contains a valid JOIN operati
 ??? = item_effect_text.item_id;
 ```
 
+
 * `SELECT`
 * `FROM`
 * `INNER JOIN`
 * `item_effect_text`
 * `ON`
 * `item.id`
-
 
 ---
 ## Revision
@@ -125,35 +131,27 @@ What's the sets theory equivalent of `INNER JOIN`?
 
 ???
 
+
 * intersection
 * union
 * difference
 * cartesian product
 
 ---
-## Quiz
+## Quiz 
+### Can you filter one table based on data in another table in SQL?
 
-headline: Can you filter one table based on data in another table in SQL?
+Consider `pokemon` and `pokemon_species` tables. The first one has two columns `height` and `weight`. The latter has a boolean valued column `is_baby`.
+Select the query that will get the name, height and width of all pokemon that are babies:
 
-question: |
+ ???
 
-  Consider `pokemon` and `pokemon_species` tables. The first one has two columns `height` and `weight`. The latter has a boolean valued column `is_baby`. Select the query that will get the name, height and width of
-  all pokemons that are babies:
+* SELECT pokemon_species.name,pokemon.height,pokemon.weight FROM pokemon INNER JOIN pokemon_species ON pokemon.pokemon_species_id = pokemon_species.id WHERE pokemon_species.is_baby='t';
+* SELECT pokemon.name,pokemon.height,pokemon.weight FROM pokemon LEFT JOIN pokemon_species ON pokemon.pokemon_species_id = pokemon_species.id WHERE pokemon_species.is_baby='t';
+* SELECT pokemon.name,pokemon.height,pokemon.weight FROM pokemon RIGHT JOIN pokemon_species ON pokemon.pokemon_species_id = pokemon_species.id WHERE pokemon_species.is_baby='t';
+* SELECT pokemon.name,pokemon.height,pokemon.weight FROM pokemon INNER JOIN pokemon_species ON pokemon.pokemon_species_id = pokemon_species.id WHERE pokemon_species.is_baby='f';
 
-answers:
-  - SELECT pokemon_species.name,pokemon.height,pokemon.weight
-    FROM pokemon INNER JOIN pokemon_species
-    ON pokemon.pokemon_species_id = pokemon_species.id
-    WHERE pokemon_species.is_baby='t';
-  - SELECT pokemon.name,pokemon.height,pokemon.weight
-    FROM pokemon LEFT JOIN pokemon_species
-    ON pokemon.pokemon_species_id = pokemon_species.id
-    WHERE pokemon_species.is_baby='t';
-  - SELECT pokemon.name,pokemon.height,pokemon.weight
-    FROM pokemon RIGHT JOIN pokemon_species
-    ON pokemon.pokemon_species_id = pokemon_species.id
-    WHERE pokemon_species.is_baby='t';
-  - SELECT pokemon.name,pokemon.height,pokemon.weight
-    FROM pokemon INNER JOIN pokemon_species
-    ON pokemon.pokemon_species_id = pokemon_species.id
-    WHERE pokemon_species.is_baby='f';
+---
+## Footnotes
+[1: Ability]
+A Pokémon's ability is an aura that is passively active and provides benefits to the Pokemon and, sometimes, its party.

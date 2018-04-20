@@ -1,4 +1,4 @@
-# Automatic compilation for Node with **Nodemon**
+---
 author: catalin
 
 levels:
@@ -11,9 +11,15 @@ type: normal
 
 category: hack
 
+
 links:
 
   - '[github.com](https://github.com/remy/nodemon){website}'
+
+
+---
+
+# Automatic compilation for Node with **Nodemon**
 
 ---
 ## Content
@@ -52,11 +58,12 @@ Which flag must be used to enable debugging?
 
 ???
 
-*`--debug`
-*`debug`
-*`-debug`
-*`debugging`
-*`--debugger`
+
+* `--debug`
+* `debug`
+* `-debug`
+* `debugging`
+* `--debugger`
 
 ---
 ## Revision
@@ -65,8 +72,10 @@ Which flag must be used to enable debugging?
 
 ???
 
-*`--debug`
-*`debug`
-*`-debug`
-*`debugging`
-*`--debugger`
+
+* `--debug`
+* `debug`
+* `-debug`
+* `debugging`
+* `--debugger`
+

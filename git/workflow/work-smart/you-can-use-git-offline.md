@@ -1,4 +1,4 @@
-# You can use git offline!
+---
 author: rosielowther
 
 levels:
@@ -10,6 +10,13 @@ levels:
 type: normal
 
 category: must-know
+
+
+
+
+---
+
+# You can use git offline!
 
 ---
 ## Content
@@ -39,9 +46,10 @@ $ git checkout testing
 Some of the commands that run just fine while `git` is offline are 
 
 ??? .
-*commit, log, checkout
-*commit, log, push
-*pull, push, status
+
+* commit, log, checkout
+* commit, log, push
+* pull, push, status
 
 ---
 ## Revision
@@ -49,6 +57,8 @@ Some of the commands that run just fine while `git` is offline are
 Some of the commands that run just fine while `git` is offline are
 
  ??? .
-*commit, log, checkout
-*commit, log, push
-*pull, push, status
+
+* commit, log, checkout
+* commit, log, push
+* pull, push, status
+

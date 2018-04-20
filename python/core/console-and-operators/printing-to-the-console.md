@@ -1,4 +1,4 @@
-# Printing to the console!
+---
 author: tommarshall
 
 levels:
@@ -7,9 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# Printing to the console!
+
+standards:
+  py.identify-python-syntax.1: 10
 
 ---
 ## Content
@@ -45,6 +55,7 @@ Print to the console in Python 3:
 ```
 ??? ??? Python 3! ???
 ```
+
 * `print`
 * `('`
 * `')`

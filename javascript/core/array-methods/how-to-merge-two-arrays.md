@@ -1,4 +1,4 @@
-# How to merge two arrays
+---
 author: catalin
 
 levels:
@@ -11,14 +11,34 @@ type: normal
 
 category: hack
 
+standards:
+
+  js.data-types-structures.2: 10
+
+  js.data-types-structures.3: 10
+
+tags:
+
+  - introduction
+
+  - workout
+
+  - arrays
+
+
 links:
 
   - '[davidwalsh.name](https://davidwalsh.name/merge-arrays-javascript){website}'
 
+
+---
+
+# How to merge two arrays
+
 ---
 ## Content
 
-`concat` is not always the best approach to merging arrays as it generates a new array. 
+`concat` is not always the best approach to merging arrays as it generates a new array.
 
 Since `var`s are passed by reference, `concat` may mess up a reference.
 
@@ -35,11 +55,10 @@ Array.prototype.push.apply(array1, array2);
 ```
 
 Unlike other languages, JavaScript does not support `+` for concatenating arrays. The output of such an operation would be a string:
-```js
+```javascript
 console.log([1, 2] + [3, 4])
 // 1,23,4
 ```
-
 
 ---
 ## Revision
@@ -54,26 +73,29 @@ Merge the two arrays in order:
 ```javascript
 
 ???.prototype.???
-                 .???(arrray1, arrray2);
+.???(arrray1, arrray2);
 ```
-*`Array`
-*`push`
-*`apply`
-*`merge`
-*`arrayList`
-*`on`
-*`after`
-*`concat`
+
+* `Array`
+* `push`
+* `apply`
+* `merge`
+* `arrayList`
+* `on`
+* `after`
+* `concat`
 
 ---
-## Quiz
+## Quiz 
+### what is the result of the following addition?
 
-headline: what is the result of the following addition?
+```javascript
+console.log([3, 14] + [2, 71])
+```
 
-question: console.log([3, 14] + [2, 71])
+ ???
 
-answers:
-  - "3,142,71"
-  - "3,14,2,71"
-  - "[3,14,2,71]"
-  - "[5, 85]"
+* 3,142,71
+* 3,14,2,71
+* [3,14,2,71]
+* [5, 85]

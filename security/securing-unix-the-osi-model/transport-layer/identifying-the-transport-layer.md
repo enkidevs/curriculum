@@ -1,4 +1,4 @@
-# Identifying the Transport Layer
+---
 author: milesflo
 
 levels:
@@ -15,11 +15,16 @@ category: must-know
 
 inAlgoPool: false
 
-parent: securing-the-network-layer
 
 links:
 
-  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
+  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}'
+
+parent: securing-the-network-layer
+
+---
+
+# Identifying the Transport Layer
 
 ---
 ## Content
@@ -33,6 +38,7 @@ What roles does The Transport Layer play in the OSI 7 Layer Model?
 
 ???
 
+
 * Maintaining and ensuring a stable connection between two hosts over the Internet
 * Transmitting data between network nodes
 * Routing and transmission over the physical topography of the Internet
@@ -45,20 +51,22 @@ What roles does The Transport Layer play in the OSI 7 Layer Model?
 
 ??? is the foundation for many Internet protocols for its integrity and reliability.
 
+
 * TCP
 * UDP
 * SMTP
 
 ---
-## Quiz
+## Quiz 
+### What role does this Layer play in the OSI 7 Layer Model?
+```
+What role does the Transport Layer play in the OSI 7 Layer Model?
+```
 
-headline: What role does this Layer play in the OSI 7 Layer Model?
+ ???
 
-question: |
-  What role does the Transport Layer play in the OSI 7 Layer Model?
+* Maintaining and ensuring a stable connection between two hosts over the Internet
+* Transmitting data between network nodes
+* Routing and transmission over the physical topography of the Internet
+* Packaging data packets into data streams and vice versa for transport
 
-answers:
-  - Maintaining and ensuring a stable connection between two hosts over the Internet
-  - Transmitting data between network nodes
-  - Routing and transmission over the physical topography of the Internet
-  - Packaging data packets into data streams and vice versa for transport

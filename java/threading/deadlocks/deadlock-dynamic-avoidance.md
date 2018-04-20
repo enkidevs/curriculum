@@ -1,4 +1,4 @@
-# Deadlock Dynamic Avoidance
+---
 author: Nick Daminov
 
 levels:
@@ -9,9 +9,15 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - '[More on Banker`s Algorithm](https://en.wikipedia.org/wiki/Banker%27s_algorithm)'
+  - '[More on Banker`s Algorithm](https://en.wikipedia.org/wiki/Banker%27s_algorithm){website}'
+
+
+---
+
+# Deadlock Dynamic Avoidance
 
 ---
 ## Content
@@ -73,6 +79,7 @@ Free : 3k
 ???
 
 
+
 * A will not run
 * B will not run
 * C will not run
@@ -85,6 +92,8 @@ How does dynamic avoidance work?
 
 ???
 
+
 * Calculating whether it will be safe to grant a resource to a process on every iteration
 * Calculating the overall load an the capacity of the system
 * Ensuring that the will always be more resources that the processes
+

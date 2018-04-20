@@ -1,4 +1,4 @@
-# Default values for unassigned data types
+---
 author: pawel
 
 levels:
@@ -11,12 +11,16 @@ type: normal
 
 category: must-know
 
-notes: ''
 
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html){website}'
+
+notes: ''
+
+---
+
+# Default values for unassigned data types
 
 ---
 ## Content
@@ -40,10 +44,11 @@ What is the default value of an unassigned `float` data type?
 
 `???`
 
-*`0.0f` 
-*`0` 
-*`0.0` 
-*`\u0000`
+
+* `0.0f` 
+* `0` 
+* `0.0` 
+* `\u0000`
 
 ---
 ## Revision
@@ -52,7 +57,9 @@ What is the default value of an unassigned `float` data type?
 
 `???`
 
-*`0.0f` 
-*`0` 
-*`0.0` 
-*`\u0000`
+
+* `0.0f` 
+* `0` 
+* `0.0` 
+* `\u0000`
+

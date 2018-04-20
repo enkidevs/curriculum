@@ -1,4 +1,4 @@
-# Useful ssh client optimizations 
+---
 author: tuwi.dc
 
 levels:
@@ -24,6 +24,13 @@ tags:
   - config
 
   - optimizations
+
+
+
+
+---
+
+# Useful ssh client optimizations 
 
 ---
 ## Content
@@ -52,10 +59,11 @@ $ man ssh_config
 Which of these lines will instruct the machine to send empty packets to keep the connection alive? 
 
 ???
-*`TCPKeepAlive`
-*`ServerAliveInterval`
-*`ServerAliveCountMax`
-*`ServerAlivePackets`
+
+* `TCPKeepAlive`
+* `ServerAliveInterval`
+* `ServerAliveCountMax`
+* `ServerAlivePackets`
 
 ---
 ## Revision
@@ -63,14 +71,14 @@ Which of these lines will instruct the machine to send empty packets to keep the
 You can speed up the connection to a server through 
 
 ???.
-*compression
-*keeping the connection alive
-*tunneling the connection
-*reduce the number of packets sent
+
+* compression
+* keeping the connection alive
+* tunneling the connection
+* reduce the number of packets sent
 
 ---
 ## Footnotes
-
 [1:Keep Connection Alive]
 `TCPKeepAlive` will send an empty TCP packet from time to time in order to keep the connection alive. Might be stopped by firewall.
 

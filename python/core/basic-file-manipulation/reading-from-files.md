@@ -1,4 +1,4 @@
-# Reading from files
+---
 author: SebaRaba
 
 levels:
@@ -9,9 +9,17 @@ type: normal
 
 category: how to
 
+standards:
+  py.standard-library-operating-system.0: 10
+
 links:
 
-  - '[More about reading from files](http://www.pythonforbeginners.com/files/reading-and-writing-files-in-python)'
+  - '[More about reading from files](http://www.pythonforbeginners.com/files/reading-and-writing-files-in-python){website}'
+
+
+---
+
+# Reading from files
 
 ---
 ## Content
@@ -22,14 +30,14 @@ After opening a **file object**, we have three **operations** available in **Pyt
 - `readlines()`
 
 Suppose we have a file named `test.txt` with the following text inside:
-```txt
+```
 Hello!
 My name is Steve.
 Where is my food?
 ```
 We can read the entire file with `read()`:
 
-```py
+```python
 file = open('test.txt', 'r')
 print(file.read())
 
@@ -70,12 +78,13 @@ However, there's a workaround to this - the `seek()` function which allows you t
 ## Practice
 
 Suppose we have a file containing 5 lines. How do we read the first 2 of them?
-```py
+```python
 file = ???('my_file.txt', 'r')
 
 print(file.???())
 print(???.readline())
 ```
+
 
 * `open`
 * `readline`
@@ -95,6 +104,7 @@ file = open('test.txt', '???')
 
 print(file.???())
 ```
+
 
 * `r`
 * `readlines`

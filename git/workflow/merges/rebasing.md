@@ -1,4 +1,4 @@
-# Rebasing
+---
 author: catalin
 
 levels:
@@ -11,9 +11,15 @@ type: normal
 
 category: must-know
 
+
+
+
+---
+
+# Rebasing
+
 ---
 ## Content
-
 
 The `git rebase` command is a way to combine branches.
 
@@ -38,7 +44,6 @@ This will give you the option of modifying individual commits throughout the pro
 
 If you look at the history, it will seem like all the changes happened in series when they were actually made in parallel. Keep in mind that rebasing shouldn't be done to *public* projects as this operation can lead to terrible confusion because history is being overwritten.
 
-
 ---
 ## Practice
 
@@ -46,12 +51,11 @@ If you look at the history, it will seem like all the changes happened in series
 git rebase master
 ```
 restores the current branch to the last ??? shared by the two branches, then ??? the changes made since then to master to the current branch.
+
 * commit
 * applies
 * checkout
 * deletes
-
-
 
 ---
 ## Revision
@@ -62,8 +66,10 @@ Complete the following snippet to achieve rebasing of the `scrollFix` branch:
 $ git checkout scrollFix
 $ ??? ??? master
 ```
+
 * `git`
 * `rebase`
 * `rewind`
 * `redo`
 * `checkout`
+

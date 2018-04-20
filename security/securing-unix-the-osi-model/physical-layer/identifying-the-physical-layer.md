@@ -1,4 +1,4 @@
-# Identifying the Physical Layer
+---
 author: milesflo
 
 levels:
@@ -15,11 +15,16 @@ category: must-know
 
 inAlgoPool: false
 
-parent: introducing-the-osi-model
 
 links:
 
-  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
+  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}'
+
+parent: introducing-the-osi-model
+
+---
+
+# Identifying the Physical Layer
 
 ---
 ## Content
@@ -34,6 +39,7 @@ The Physical Layer encompasses all electronic circuit transmission technologies 
 What role does the Physical Layer play in the OSI 7 Layer Model?
 ???
 
+
 * Providing transmission between end devices via voltage or wavelengths.
 * Transmitting data between network nodes
 * Routing and transmission over the physical topography of the Internet
@@ -45,21 +51,23 @@ What role does the Physical Layer play in the OSI 7 Layer Model?
 
 The Physical Layer converts logical packets from the Data Link Layer into ??? to be used by the device's hardware.
 
+
 * raw bit streams
 * wavelengths
 * packets
 * light
 
 ---
-## Quiz
+## Quiz 
+### What role does this Layer play in the OSI 7 Layer Model?
+```
+What role does the  Physical Layer play in the OSI 7 Layer Model?
+```
 
-headline: What role does this Layer play in the OSI 7 Layer Model?
+ ???
 
-question: |
-  What role does the  Physical Layer play in the OSI 7 Layer Model?
+* Providing transmission between end devices via voltage or wavelengths.
+* Transmitting data between network nodes
+* Routing and transmission over the physical topography of the Internet
+* Packaging data packets into data streams and vice versa for transport
 
-answers:
-  - Providing transmission between end devices via voltage or wavelengths.
-  - Transmitting data between network nodes
-  - Routing and transmission over the physical topography of the Internet
-  - Packaging data packets into data streams and vice versa for transport

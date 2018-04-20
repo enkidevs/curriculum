@@ -1,4 +1,4 @@
-# Avoiding whitespace issues
+---
 author: rosielowther
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration){website}'
+
+
+---
+
+# Avoiding whitespace issues
 
 ---
 ## Content
@@ -43,11 +48,12 @@ Configure git to warn you about whitespaces
 $ git ??? ??? 
     ???.??? ???
 ```
-*`config`
-*`--global`
-*`core`
-*`whitespace`
-*`warn`
+
+* `config`
+* `--global`
+* `core`
+* `whitespace`
+* `warn`
 
 ---
 ## Revision
@@ -57,5 +63,7 @@ $ git config --global
            core.whitespace warn
 ```
 Would ??? .
-*highlight the whitespace issues
-*automatically fix whitespace issues
+
+* highlight the whitespace issues
+* automatically fix whitespace issues
+

@@ -1,4 +1,4 @@
-# Keep useful commands in your shell history with tags
+---
 author: Arseny
 
 levels:
@@ -10,18 +10,28 @@ type: normal
 category: hack
 
 tags:
+
   - bash
+
   - zsh
+
   - history
+
   - search
+
   - reverse-i-search
+
   - workout
 
 
 links:
 
-  - >-
-    [lukas.zapletalovi.com](https://lukas.zapletalovi.com/2013/03/never-lost-your-bash-history-again.html){website}
+  - '[lukas.zapletalovi.com](https://lukas.zapletalovi.com/2013/03/never-lost-your-bash-history-again.html){website}'
+
+
+---
+
+# Keep useful commands in your shell history with tags
 
 ---
 ## Content
@@ -34,7 +44,7 @@ $ some_command -some_flag
 
 Then it is possible to search your bash history using `Ctrl+R`:
 
-```tex
+```text
 (reverse-i-search)`#useful': 
   some_command -some_flag some_path #useful 
 ```
@@ -48,6 +58,8 @@ Command history is saved in *~/.bash_history* file, which is emptied after a his
 
 To reverse search for a tagged command you have to press ???.
 
-*ctrl+r
-*ctrl+h
-*ctrl+c
+
+* ctrl+r
+* ctrl+h
+* ctrl+c
+

@@ -1,16 +1,18 @@
 name: Array Methods
 
-type: insights-list
-
 description: Explore various recipes using arrays' methods.
 
-section: 1
-
-parent: foo-features-and-fun-facts-game
-
 insights:
+  - get-a-random-item-from-an-array
+  - apply-map-function-to-array-items
   - filtering-items-out-of-an-array
   - how-to-merge-two-arrays
-  - setting-the-length-of-an-array
   - shuffle-an-array-using-sort-and-random
-  - quick-way-to-format-integers-with-a-fixed-number-of-digits
+
+exercises:
+  - js-practice-array-reverse
+  - js-practice-array-map
+  - js-practice-array-filter
+  - js-practice-array-every
+  - js-practice-array-concat
+  - js-practice-array-reduce
