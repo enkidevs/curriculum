@@ -24,7 +24,7 @@ The following snippet will add a warning message if the button is pressed:
 
 ```javascript
 window.onbeforeunload = function() {
-  return "Your work will be lost.";
+  alert("Your work will be lost.");
 };
 ```
 
@@ -58,7 +58,7 @@ Fill the missing event listener such that it will be automatically triggered whe
 
 ```javascript
 ???.??? = function() {
-  return "Your work will be lost.";
+  alert("Your work will be lost.");
 };
 ```
 
