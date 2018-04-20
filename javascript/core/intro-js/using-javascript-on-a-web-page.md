@@ -68,7 +68,7 @@ We can even reference scripts hosted on another server – it's common to do thi
 ---
 ## Practice
 
-Compelte the missing gaps in the following HTML snippet such that JavaScript code contained by an `enki.js` file will be ran via a script:
+Complete the missing gaps in the following HTML snippet such that JavaScript code contained by an `enki.js` file will be ran via a script tag:
 
 ```html
 ??? ???="???" ???
