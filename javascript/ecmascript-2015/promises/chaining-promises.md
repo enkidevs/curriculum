@@ -2,9 +2,7 @@
 author: alexjmackey
 
 levels:
-
   - medium
-
   - advanced
 
 type: normal
@@ -13,20 +11,16 @@ category: must-know
 
 inAlgoPool: false
 
-
 links:
-
   - '[MDN - Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
 
-
 ---
-
 # Chaining Promises
 
 ---
 ## Content
 
-Promises advantages really become apparent when you start working with more complex flows and multiple promises. 
+Promises advantages really become apparent when you start working with more complex flows and multiple promises.
 
 We can chain promises together using the **then** function:
 
@@ -52,7 +46,39 @@ new Promise(function(resolve, reject){
 ```
 
 ---
-## Revision 
+## Practice
+
+Fill in the following promise definition such that the logs stand true:
+
+```javascript
+const p = new ???(
+  (resolve, reject) => {
+    ???('enki')
+  })
+  .???(res => console.log(res))
+  .then(res => console.log('says'))
+  .???(err => console.log('hey'))
+  .??? => console.log('hello'))
+// enki
+// says
+// hello
+```
+
+* Promise
+* resolve
+* then
+* catch
+* then (res
+* then()
+* catch()
+* next
+* next(
+* finally
+* res
+* reject
+
+---
+## Revision
 
 Will the two `console.log` statements output the same number, or different numbers?
 

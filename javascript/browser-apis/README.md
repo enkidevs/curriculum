@@ -6,7 +6,6 @@ sections:
   '0':
     - navigation
     - toolbox-i
-    - user-interaction
   '1':
     - measuring-performance
     - reading-writing

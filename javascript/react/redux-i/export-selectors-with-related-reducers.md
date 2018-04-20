@@ -2,23 +2,18 @@
 author: catalin
 
 levels:
-
   - advanced
-
   - medium
 
 type: normal
 
 category: best practice
 
-
 links:
-
   - '[twitter.com](https://twitter.com/dan_abramov/status/664581975764766721){website}'
 
 
 ---
-
 # Export selectors with related reducers
 
 ---
@@ -26,7 +21,8 @@ links:
 
 Selectors are used to compute derived data, thus making Redux store the minimal possible state. Reducers specify how the application's state changes in response to some actions.
 
-A good practice in Redux is to export your **selectors** with the related **reducers**.   Doing so, views and action creators can be decoupled from the state shape tree.
+A good practice in Redux is to export your **selectors** with the related **reducers**.
+Doing so, views and action creators can be decoupled from the state shape tree.
 
 ```javascript
 function visibleIds(state = [], action){
@@ -49,10 +45,11 @@ export function getVisibleProducts(state) {
   return state.visibleIds.map(
     id => getProduct(state,id))
 }
+```
 
-```
 Another example:
-```
+
+```javascript
 function mapStateToProps(state) {
   return {
     products: getVisibleProducts(
@@ -61,16 +58,30 @@ function mapStateToProps(state) {
 }
 export default connect(
   mapStateToProps,
-  { addToCart } 
+  { addToCart }
 )(ProductsContainer)
 
 ```
 
 ---
+## Practice
+
+A good practice in Redux is to export your ??? with the related ???.
+
+* selectors
+* reducers
+* views
+* doms
+* components
+* instances
+* computation functions
+* state
+* props
+
+---
 ## Revision
 
 Selectors are used to compute ???, therefore ensuring that Redux stores the ???.
-
 
 * derived data
 * minimal possible state
@@ -79,4 +90,3 @@ Selectors are used to compute ???, therefore ensuring that Redux stores the ???.
 * exported data
 * exported state
 * selected state
-

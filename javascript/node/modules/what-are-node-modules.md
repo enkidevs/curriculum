@@ -2,13 +2,9 @@
 author: tommarshall
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
   - advanced
 
 type: normal
@@ -17,13 +13,11 @@ category: must-know
 
 
 links:
-
   - '[Node Modules](http://book.mixu.net/node/ch8.html){website}'
 
 parent: npm-nodes-package-manager
 
 ---
-
 # What are Node Modules?
 
 ---
@@ -41,13 +35,23 @@ Using modules when building Node applications give a number of advantages:
 - easier to read and maintain code
 
 ---
+## Practice
+
+Which of the following statements about node modules do you consider false?
+
+???
+
+* using modules will increase the performance of you application
+* using modules can reduce the amount of code per file
+* using modules can make your code easier to maintain and code
+
+---
 ## Revision
 
 What type of module is the `http` module?
-???
 
+???
 
 * Core
 * Local
 * Third party
-
