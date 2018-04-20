@@ -67,7 +67,7 @@ fs.createReadStream("file.gz")
 ---
 ## Practice
 
-Middleware/pipeline design pattern summed up:
+Describe the Middleware/pipeline design pattern:
 
 the ??? of one unit is the ??? for the next one.
 
@@ -79,7 +79,7 @@ the ??? of one unit is the ??? for the next one.
 ---
 ## Revision
 
-Which design patter can you observe in the following snippet which archives `raw.txt`?
+Which design pattern can you observe in the following snippet which archives `raw.txt`?
 
 ```javascript
 fs.createReadStream('raw.txt')
