@@ -69,7 +69,7 @@ What symbol must a pseudo-class be preceded by?
 ---
 ## Revision
 
-What is the common order of psuedo-classes used for links?
+What is the common order of pseudo-classes used for links?
 ??? ??? ??? ???
 
 * ps:link {
