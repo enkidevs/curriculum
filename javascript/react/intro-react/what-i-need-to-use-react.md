@@ -60,7 +60,7 @@ $ npm start
 ---
 ## Practice
 
-Which of the following tools can't help the development of a React app?
+Which of the following is not a bundler for react?
 
 ???
 
