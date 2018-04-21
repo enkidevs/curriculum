@@ -1,5 +1,5 @@
-# Fieldset
-author: matthewleach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -14,7 +14,12 @@ stub: true
 tags:
   - deep
 
+links:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset
+  - https://www.w3schools.com/tags/tag_fieldset.asp
 
+---
+# Fieldset
 ---
 ## Content
 
