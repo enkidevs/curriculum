@@ -14,6 +14,9 @@ stub: true
 tags:
   - deep
 
+link:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp
+  
 ---
 # Intro samp
 ---
@@ -112,13 +115,13 @@ When using the `<samp>` element, which statements are true?
 ???
 ???
 
-* represents sample output from a computer program
-* displayed in the browser's default monospace font 
-* when nested inside `<kbd>`, represents input based on system output.
-* when containing `<kbd>`, represents input echoed by the system. 
-* produces a block element
-* represents preformatted text
-* represents user input
++ represents sample output from a computer program
++ displayed in the browser's default monospace font 
++ when nested inside `<kbd>`, represents input based on system output.
++ when containing `<kbd>`, represents input echoed by the system. 
+- produces a block element
+- represents preformatted text
+- represents user input
 
 
 ---
@@ -139,17 +142,19 @@ What HTML element wraps around sample output text from a computer program to ide
 ---
 ## Quiz
 
-### Do you know which HTML element is best to substitute for "tag" within this code:  
+### Do you know which HTML element is best to substitute for "???" within this code:  
 
-`<p>`My first selection within Enki was wrong as it displayed the alert `<tag`>Oh no... This is a wrong answer`</tag>`.`</p>`
+`<p>`My first selection within Enki was wrong as it displayed the alert `<???>`Oh no... This is a wrong answer`</???>`.`</p>`
 
-tag = ???
+???
 
 * samp
+* /samp
 * code
-* kbd
+* /cod
 * pre
-* var
+* /pre
 * out
+* /out
 * output
-
+* /output
