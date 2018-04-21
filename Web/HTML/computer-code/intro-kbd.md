@@ -50,51 +50,56 @@ Example 1:
 ```
 <p>
   <kbd>
-    Copy the document by pressing 
+    Copy the document by pressing the 
     <kbd>Ctrl</kbd> + 
     <kbd>C</kbd>`
+    keyboard shortcut.
   </kbd>
 </p>
 ```
 Result:<br>
 <kbd> 
-  Copy the document by pressing 
+  Copy the document by pressing the
   <kbd>Ctrl</kbd> + <kbd>C</kbd> 
+  keyboard shortcut.
 </kbd>
 
 Example 2:
 ```
 <p>
-  To paste, press
+  To paste, press the
    <samp>
     <kbd>Ctrl</kbd> +
    </samp>
    <samp>
     <kbd>V</kbd>
    </samp>
+  keyboard shortcut.
 </p>
 ```
 Result:<br>
 <p>
-  To paste, press
+  To paste, press the
    <samp>
     <kbd>Ctrl</kbd> +
    </samp>
    <samp>
     <kbd>V</kbd>
    </samp>
+  keyboard shortcut.
 </p>
 
 Example 3:
 ```
 <p>
-  If you wish to undo, press
+  If you wish to undo, press the
    <kbd>
     <samp>Ctrl</samp> +
    </kbd>
    <kbd>
     <samp>Z</samp>
    </kbd>
+  keyboard shortcut.
 </p>
 ```
 Result:<br>
@@ -106,6 +111,7 @@ Result:<br>
    <kbd>
     <samp>Z</samp>
    </kbd>
+  keyboard shortcut.
 </p>
 
 In the first example, we have two `<kbd>` elements nested inside another `<kbd>` element. Nesting `<kbd>` with itself represents a key or a keystroke. 
@@ -124,13 +130,13 @@ When using the `<kbd>` element, which statements are true?
 ???
 ???
 
-* represents user input
-* displayed in the browser's default monospace font 
-* when nested inside `<samp>`, represents input echoed by the system. 
-* when containing `<samp>`, represents input based on system output.
-* produces a block element
-* represents preformatted text
-* represents sample output
++ represents user input
++ displayed in the browser's default monospace font 
++ when nested inside `<samp>`, represents input echoed by the system. 
++ when containing `<samp>`, represents input based on system output.
+- produces a block element
+- represents preformatted text
+- represents sample output
 
 ---
 ## Revision
@@ -153,7 +159,7 @@ What HTML element wraps around keyboard names to display the text differently th
 
 What does the tag `<kbd>` do here?
 
-`<p>`Save the document by pressing `<kbd>`Ctrl`</kbd>` + `<kbd>`S`</kbd>``</p>`
+`<p>`Save the document by pressing the `<kbd>`Ctrl`</kbd>` + `<kbd>`S`</kbd>` keyboard shortcut.`</p>`
 
 ???
 
