@@ -55,14 +55,14 @@ When using the `<pre>` element, which statements are true?
 ???
 ???
 
-* represents preformatted text
-* typically displayed in the browser's default monospace font 
-* text displayed as typed within the element
-* produces a block element
-* produces an inline element
-* represents user input
-* represents sample output
-* whitespace is removed
++ represents preformatted text
++ typically displayed in the browser's default monospace font 
++ text displayed as typed within the element
++ produces a block element
+- produces an inline element
+- represents user input
+- represents sample output
+- whitespace is removed
 
 ---
 ## Revision
@@ -84,20 +84,19 @@ What HTML element is used to display the text exactly as it is laid out within t
 
 ### How much do you know about HTML elements?
 
-Which HTML element is best used for "tag" to properly display this code within a webpage:  
+Which HTML element is best used for "???" to properly display this code within a webpage:  
 
-`<tag>`
+`<???>`
 .alert {
   color:red;
 }
-`</tag>`
-
-tag = ???
+`<???>`
 
 * pre
-* samp
+* /pre
 * code
-* css
-* style
-* output
-* alert
+* /code
+* perf
+* /perf
+* samp
+* /samp
