@@ -27,7 +27,7 @@ Example:
   The function
   <code>
     calculateAverage() 
-   </code> 
+  </code> 
   calculates the average
   of a set of numbers
 </p>
@@ -49,15 +49,15 @@ What content is best to style when using the `<code>` element?
 ???
 ???
 
-* HTML elements
-* CSS Rules
-* filenames
-* JS scripts
-* keyboard keys
-* output text from computer programs
-* mathematical expressions
-* variables
-* function parameter
++ HTML elements
++ CSS Rules
++ filenames
++ JS scripts
+- keyboard keys
+- output text from computer programs
+- mathematical expressions
+- variables
+- function parameter
 
 ---
 ## Revision
@@ -79,7 +79,7 @@ What HTML element is used in place of "???" to visually highlight the difference
 
 ### How much do you know about the `<code>` element?
 
-Which statement(s) can be considered correct with this code?
+Check out what happens by trying out this code on codepen.io?
 ```
 <code>
   <table>
