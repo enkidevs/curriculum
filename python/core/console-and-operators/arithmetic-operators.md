@@ -62,6 +62,8 @@ Choose the correct result of the following expression:
 >>> 1 + 2 * 3 - 6 / 2
 ```
 
+???
+
 * 4
 * 5
 * 7
