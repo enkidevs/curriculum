@@ -19,7 +19,7 @@ links:
 
 ---
 
-# `del` statement for  lists
+# `del` statement for lists
 
 ---
 ## Content
@@ -73,3 +73,20 @@ What’s the output of the following code snippet:
 * `[]`
 * `[7, 11, 15, 19]`
 * `[7, 15, 19]`
+
+---
+## Revision
+
+Fill in the code snippet such that it will delete the second number in the list:
+
+```python
+list = [1,2,3,4,5]
+
+??? list[???]
+```
+
+* del
+* 1
+* 2
+* 3
+* remove

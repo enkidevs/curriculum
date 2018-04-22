@@ -48,7 +48,24 @@ prefs.update(prefs2)
 print(prefs)
 # {'car': 'Tesla', 'fruit': 'orange'}
 ```
-Be careful when using `update`, as a dictionary cannot have multiple entries with the same key.
+Be careful when using `update`, as a dictionary can not have multiple entries with the same key.
+
+---
+## Practice
+
+Fill in the following snippet, such that it will output the value of key "dog":
+
+```python
+
+dict = {"cat": "persan", "dog": "pug"}
+???(dict???)
+```
+
+* print
+* [dog]
+* [cat]
+* (dog)
+
 
 ---
 ## Revision
