@@ -67,6 +67,24 @@ c
 ```
 
 ---
+## Practice
+
+Choose the correct output for the following snippet:
+
+```python
+for i in [1,2]:
+  print(i)
+  for j in range(0,2):
+    print(0)
+
+```
+
+* 1 0 0 2 0 0
+* 0 0 1 0 0 2
+* 1 0 1 2 0 1
+
+
+---
 ## Revision
 
 How do nested loops work?
