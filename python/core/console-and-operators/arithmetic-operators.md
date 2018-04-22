@@ -54,6 +54,20 @@ In Python 3, division using `/` will return a float. If you are looking for the 
 ```
 
 ---
+## Practice
+
+Choose the correct result of the following expression:
+
+```python
+>>> 1 + 2 * 3 - 6 / 2
+```
+
+* 4
+* 5
+* 7
+* 6
+
+---
 ## Revision
 
 What are the outputs to the following code snippet respectively:
