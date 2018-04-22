@@ -26,7 +26,7 @@ standards:
 
 The final version of Python 2 came out in 2010, and despite Python 3 being the latest generation of the language, many programmers still use this Python version, 2.7.
 
-Another advantage of Python 2 is that it has been around for far longer than Python 3, therefore there's more technical support and help available.
+One advantage of Python 2 is that it has been around for far longer than Python 3, therefore there's more technical support and help available.
 
 One minor difference between Python 2 and 3 is that in Python 2, `print` is treated as a statement instead of a function, therefore there's no need to pass arguments through parentheses; for example:
 
@@ -50,6 +50,16 @@ print ('Python 3')
 Python 3 is considered to be an improved version of Python 2, with fewer mistakes, and easier for beginners to understand and use. Our goal is for you to learn the newest version.
 
 As a beginner, your best bet is **Python 3**. This is the standard that's advancing slightly faster and you don't have to worry at all about porting a whole Python 2 application to Python 3 (the main reason why Python 2 hung around for so long).
+
+---
+## Practice
+
+To print to console in python 3 we use a:
+
+* function
+* statement
+* system call
+
 
 ---
 ## Revision
