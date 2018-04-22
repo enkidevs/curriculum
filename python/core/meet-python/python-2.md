@@ -56,6 +56,8 @@ As a beginner, your best bet is **Python 3**. This is the standard that's advanc
 
 To print to console in python 3 we use a:
 
+???
+
 * function
 * statement
 * system call
