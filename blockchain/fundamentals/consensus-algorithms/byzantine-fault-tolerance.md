@@ -38,7 +38,7 @@ Ripple fundation select the validators themselves, while Stellar allows nodes to
 ---
 ## Practice
 
-In general, which solution to the Byzantine Generals Problem is the fastest (first input) and which is the slowest (second input)?
+In general, which solution to the Byzantine Generals Problem is the fastest (first answer) and which is the slowest (second answer)?
 
 ???
 
