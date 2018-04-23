@@ -66,7 +66,7 @@ if __name__ == '__main__':
 
 Text documentation (`"Test for numbers:"`, `"Test for chars:"`) isn't taken into account by **doctest**. The module looks for lines beginning with the interpreter prompt (`>>>`), which marks the start of a *test case*. Either a blank line or another interpreter prompt end the test case.
 
-Running **doctests** without any flag won't generate any output if the *tests pass*, but if the `-v` flag is passed, a **detailed log** will be printed:
+Running **doctests** without any flag won't generate any output if the *tests pass*. If the flag `-v` is passed as an argument, a **detailed log** will be printed:
 ```bash
 $ python doctest_mock.py -v
 ```
@@ -97,11 +97,34 @@ Test passed.
 ```
 
 ---
+## Practice
+
+Create a `doctest` for the following methods:
+
+```python
+def sum():
+    """
+    Test:
+
+    >>> ??? ???
+    2
+    """
+
+    return ???
+```
+
+* sum
+* (1 + 1)
+* a + b
+* 1 + 1
++ (a + b)
+
+
+---
 ## Revision
 
 How does `doctest` find a new test case in the documentation?
 ???
-
 
 * It searches for lines that begin with the interpreter prompt (`>>>`).
 * It searches for any strings in the documentation.
