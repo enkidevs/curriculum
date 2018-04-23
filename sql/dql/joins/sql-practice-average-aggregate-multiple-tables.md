@@ -35,4 +35,6 @@ links:
 
 In SQLFiddle, write a SQL query that uses a join to answer the following question:
 
-What is the `name` of the fling effect with the smallest average `cost` across all items with that effect?
+What is the `name` of the fling effect (found in the table `item_fling_effect`) which has the smallest average `cost` of all the items that possess it?
+
+Submit the name as your answer.
