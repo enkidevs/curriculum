@@ -19,17 +19,17 @@ tags:
 ---
 ## Content
 
-HTML, which stands for, **Hyper Text Markup Language** has had many versions over the years, however only a few are still used.
+HTML, which stands for, **HyperText Markup Language** has had many versions over the years out of which, only a few are still being used today.
 These are HTML5, HTML4 and XHTML. HTML4 is the oldest HTML version still in use.
 
-HTML has a very loose syntax. A lot of closing tags are optional, for some you don't even need the open tag as well. This was good for new developers, however it wasn't good in general, because not using proper syntax can cause your HTML to be read differently by different browsers. Because of this people combined HTML with XML(eXtensible Markup Language) and created XHTML.
+HTML has a very loose syntax. A lot of closing tags are optional, for some you don't even need the open tag as well. This was good for new developers, however, it wasn't good in general, because not using proper syntax can cause your HTML to be read differently by different browsers. Because of this people combined HTML with XML(eXtensible Markup Language) and created XHTML.
 
-XHTML, which stands for **eXtensible HyperText Markup Language** is basicaly HTML defined as XML. It is almost identical to HTML, however it has stricter rules. 
+XHTML, which stands for **eXtensible HyperText Markup Language** is basically HTML defined as XML. It is almost identical to HTML with stricter rules. 
 
 Unlike in HTML, XHTML elements have to be properly nested, always be closed, written in lowercase, and can have only one root element.
 Attributes in XHTML need quotation, cannot be used with minimization and require to be written in lowercase.
 
-The `doctype` declaration is also different.
+The `doctype` declaration also differs.
 
 HTML5 Doctype declaration:
 ```
@@ -86,6 +86,13 @@ XHTML Transitional:
   /xhtml1-transitional.dtd">
 ```
 
+A lot of elements from HTML4 were deprecated in HTML5. This means that those elements can be used to display HTML but are best edited using CSS. Some of those elements are `<basefont>`, `<center>`, `<font>` and `<strike>`.  The `<basefont>` and `<font>` elements were used to set the default font size and font styles for a web page or document. However, now there are many alternative CSS properties that should be used instead to achieve the same result. These are `font`, `font-family`, `font-size`, `font-style`, etc. The `<center>` element was used to center elements and the `<strike>` element was used to create a strikethrough text. Both of these are edited much easier and more precisely with CSS.
+
+Additionally, HTML5 has many new features that HTML4 doesn't have. Some of these are:
+  - audio and video for multimedia content
+  - track to provide text tracks for the video element
+  - embed for plugin content
+  - new geolocation features
 
 ---
 ## Practice
@@ -94,13 +101,29 @@ Which version of HTML is the oldest still in use today?
 
 ???
 
+ * HTML4
+ * HTML5
+ * HTML1
+ * HTML2
+ * HTML3
+
 What does XHTML stand for?
 
 ???
 
+ * eXtensible Hypertext Markup Language
+ * eXtensive Hypertext Madeup Language
+ * eXpressive Hypertype Markup Language
+ * eXtensible Hypertext Markup Library
+ 
 What is the main difference between HTML4 and XHTML?
 
 ???
+
+ * all tags, once opened, must be closed in XHTML, but not in HTML4
+ * all tags, once opened, must be closed in HTML4, but not in XHTML
+ * all elements must be written in uppercase in XHTML, but not in HTML4
+ * All attribute values have to be written in lowercase in HTML4, but not in XHTML
 
 Which of these HTML elements were removed in HTML5?
 
@@ -108,27 +131,15 @@ Which of these HTML elements were removed in HTML5?
 ???
 ???
 ???
-???
 
-When referring to deprecated HTML tags, what does that mean?
-
-???
-
-HTML5 uses an upgraded extension for form features found in HTML4 and it is called:
-
-???
-
-* HTML4
-* eXtensible Hypertext Markup Language
-* all tags, once opened, must be closed in XHTML, but not in HTML4
-* <basefont>
-* <big>
-* <center>
-* <font>
-* <strike>
-* HTML elements that are not supported by HTML and better handled using CSS.
-* Web Forms 2
-
+ + `<basefont>`
+ + `<center>`
+ + `<font>`
+ + `<strike>`
+ - `<small>`
+ - `<big>`
+ - `<input>`
+ - `<form>`
 
 ---
 ## Revision
@@ -146,3 +157,17 @@ HTML5 supports approx. 50% of of the presentational attributes that were in HTML
 * Play Videos without plugins
 * Websites can locate user’s location.
 * Create graphic using canvas
+
+---
+## Quiz
+
+### Hey there, answer a quick question about HTML?
+
+When referring to deprecated HTML tags, what does that mean?
+
+???
+
+ * HTML elements that are not supported by HTML and better handled using CSS.
+ * HTML elements that are best used with certain features
+ * HTML elements that will never be obsolete
+ * HTML elements that are not appreciated enough
