@@ -43,6 +43,16 @@ class Employee:
 ```
 
 ---
+## Practice
+
+What are classes, variables, lists in python:
+
+* objects
+* methods
+* functions
+* data types
+
+---
 ## Revision
 
 Independent functions are called ???
