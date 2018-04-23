@@ -103,13 +103,11 @@ Create a `doctest` for the following methods:
 
 ```python
 def sum():
+    # Test:
     """
-    Test:
-
     >>> ??? ???
     2
     """
-
     return ???
 ```
 
