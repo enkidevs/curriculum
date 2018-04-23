@@ -56,7 +56,7 @@ The `nodp` value is used to prevent the use of the `Open Directory Project` desc
 
 Write the meta tag that tells search engines not to index you webpage. 
 
-<??? ????="???" ????="???, ???">
+`<??? ????="???" ????="???, ???">`
 
 * meta
 * name
@@ -84,7 +84,9 @@ Which line of code tells search engines not to index or scan your webpage?
 ---
 ## Quiz
 
-What is the default values of the robots meta tag?
+### How much do you know about the HTML robots tag?
+
+What is the default value of the robots meta tag?
 
 ???
 
