@@ -35,7 +35,12 @@ Example:
 ```
 <article>
   <h1>Facebook</h1>
-  <p>Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.</p>
+  <p>
+    Connect with friends, 
+    family and other people you know. 
+    Share photos and videos, 
+    send messages and get updates.
+  </p>
 </article>
 ```
 
@@ -75,6 +80,8 @@ Which HTML container element should be used to hold independent, self-contained 
 
 ---
 ## Quiz
+
+### How much do you know about the HTML sectioning elements?
 
 Which HTML container would be best when used on its own in a feed reader?
 
