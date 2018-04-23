@@ -47,6 +47,8 @@ class Employee:
 
 What are classes, variables, lists in python:
 
+???
+
 * objects
 * methods
 * functions
