@@ -81,20 +81,15 @@ Mark the following strings that would pass this pattern:
   title="">
 ```
 
-???
-???
-???
-???
-
-* enkiCode
-* Colorado
-* 12Num34
-* 8675309
-* http://enki.com
-* Mrs. Mannis
-* 1,2andCounting!
-* (303)422-2280
-* CodeChallenge
++ enkiCode
++ Colorado
++ 12Num34
++ 8675309
+- http://enki.com
+- Mrs. Mannis
+- 1,2andCounting!
+- (303)422-2280
+- CodeChallenge
 
 ---
 ## Revision
