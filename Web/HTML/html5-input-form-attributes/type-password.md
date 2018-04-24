@@ -44,13 +44,12 @@ The only difference is that the password field will replace and display each cha
 ---
 ## Practice
 
-Mark all statements that are true about the "type=password" attributes: 
+Which statement is true about the "type=password" attribute: 
 
 ???
-???
 
-* Similar to a text field.
 * Each input character appears as asterisk.
+* Each input character appears as a dolar sign
 * Each input character does not appear.
 * Must use `width` to adjust input text size vs `font-size`.
 
