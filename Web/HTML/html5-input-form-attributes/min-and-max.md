@@ -58,15 +58,14 @@ Example:
 ---
 ## Practice
 
-Which statements are true regarding min and max attributes within forms?
+Which statement is NOT true regarding min and max attributes within forms?
 
 ???
-???
 
+* `min` & `max` are required to be used together.
 * `<input min="date">` specifies the minimum date allowed.
 * `<input max="number">` specifies the maximum number allowed.
-* `min` & `min` are required to be used together.
-* `min` & `min` attributes only work for the range input type.
+* `min` & `max` attributes work with datetime, month, range, number, week, time and datetime-local.
 
 ---
 ## Revision
