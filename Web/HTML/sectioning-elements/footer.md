@@ -68,12 +68,12 @@ Which container is best to organize the top of a web page or content section?
 
 ???
 
-`<footer>`
-`<foot>`
-`<bottom>`
-`<section>`
-`<main>`
-`<nav>`
+ * `<footer>`
+ * `<foot>`
+ * `<bottom>`
+ * `<section>`
+ * `<main>`
+ * `<nav>`
 
 ---
 ## Quiz
