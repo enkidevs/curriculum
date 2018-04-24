@@ -60,8 +60,6 @@ If no argument is provided, the entire cache will be deleted.
 ```bash
 $ npm config get cache
 ```
-<<<<<<< HEAD
-=======
 
 ---
 ## Practice
@@ -99,4 +97,3 @@ $ ??? ??? ??? ???
 * isAt
 * getPath
 * ls
->>>>>>> master

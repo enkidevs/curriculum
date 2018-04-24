@@ -54,7 +54,7 @@ Which of the following statements about node modules do you consider false?
 
 ---
 ## Revision
-<<<<<<< HEAD
+
 Where are third party Node.js modules installed to?
 ???
 
@@ -62,13 +62,3 @@ Where are third party Node.js modules installed to?
 * local_modules
 * libraries
 * libs
-=======
-
-What type of module is the `http` module?
-
-???
-
-* Core
-* Local
-* Third party
->>>>>>> master
