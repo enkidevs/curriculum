@@ -42,7 +42,6 @@ print('Python 3')
 
 Pythons simplest directive is the ??? directive. It prints out a line and incorporates a ???.
 
-
 * `print`
 * `new line`
 * `python`

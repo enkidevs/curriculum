@@ -29,33 +29,35 @@ links:
 
 Unlike many other programming languages, Python uses indentation (tabs) to separate blocks of code instead of curly braces.
 
-Tabs and spaces are both supported with the standard Python code indentation being four spaces. For example:
+Tabs and spaces are both supported with the standard Python, code indentation being four spaces. For example:
 ```python
-indent = 4
-if indent == 4:
+if True:
     print('Will print this.')
 else:
     print('This will not be printed.')
 print('What about this one?')
 ```
+
 When run from the command line, the above will output:
 ```
 Will print this.
 What about this one?
 ```
+
 If we were to write the above snippet as such:
 ```python
-indent = 4
-if indent == 4:
+if True:
     print('Will print this.')
 else:
     print('This will not be printed.')
     print('What about this one?')
 ```
+
 The output will be:
 ```
 Will print this.
 ```
+
 The indentation the last `print` determines whether it belongs to the `else` clause or it should be invoked independent of the `if-else` conditions.
 
 On the other hand, commented lines do not care about indentation: they won't just be run. To comment out lines of code in Python, you must use a hash, `#`. For example:
@@ -69,7 +71,6 @@ print("This line isn't commented out!")
 
 How many spaces is a standard amount for indentation in Python?
 ???
-
 * `4`
 * `2`
 * `1`
@@ -86,7 +87,6 @@ Which of the following is a valid Python comment?
 #Comment C
 ```
 ???
-
 
 * `Comment C`
 * `Comment B`

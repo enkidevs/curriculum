@@ -31,8 +31,6 @@ It's designed to be easily readable as it frequently uses English keywords and f
 print ('Learning Python with Enki!')
 ```
 
-
-
 Python is processed at `runtime` by the interpreter, which means that Python programs don't need to be compiled pre-execution.
 
 The interactive side to Python means you can use a Python prompt to `interact` with the interpreter directly to create programs!
@@ -44,7 +42,6 @@ Since Python is an object-orientated programming language, it supports an object
 
 Do Python programs need to be compiled before execution? ???
 
-
 * `no`
 * `yes`
 
@@ -52,7 +49,6 @@ Do Python programs need to be compiled before execution? ???
 ## Revision
 
 What type of keyword does Python use to improve its readability? ???
-
 
 * `English`
 * `Simple`

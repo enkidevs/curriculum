@@ -80,8 +80,7 @@ print(e.???())
 ---
 ## Revision
 
-Declare a queue with a limit of 5 elements:
-
+Create a queue of maximum 5 elements:
 ```
 q = ???.???(5)
 ```

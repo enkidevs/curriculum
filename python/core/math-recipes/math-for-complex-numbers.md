@@ -52,7 +52,8 @@ print(z.imag) # 4.0
 ```
 Get the phase of a number:
 ```python
-# equiv to math.atan2(x.imag, x.real)
+# equiv to
+# math.atan2(x.imag, x.real)
 print(cmath.phase(z))
 # 0.9272952180016122
 ```
