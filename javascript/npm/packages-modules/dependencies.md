@@ -2,25 +2,27 @@
 author: mihaiberq
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
   - advanced
 
 type: normal
 
 category: must-know
 
-
-
 parent: private-packages
 
----
+standards:
+  js.use-open-source-javascript-packages.5: 10
+  js.npm-tasks-and-modules-manager.0: 10
 
+tags:
+  - introduction
+  - workout
+  - deep
+
+---
 # Declaring dependencies
 
 ---
@@ -68,7 +70,6 @@ Packages that the application is dependent on are specified in
 
 ???
 
-
 * package.json file
 * node_modules directory
 * dependencies.json file
@@ -82,10 +83,9 @@ Install and add *gulp* to the list of dev dependencies from the command line:
 $ ??? ??? ??? ???
 ```
 
-* `npm`
-* `install`
-* `gulp`
-* `--save-dev`
-* `--save`
-* `node`
-
+* npm
+* install
+* gulp
+* --save-dev
+* --save
+* node

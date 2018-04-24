@@ -11,6 +11,16 @@ type: normal
 
 category: must-know
 
+standards:
+  js.read-and-write-streams.0: 20
+  js.node-standard-library-os.0: 20
+  js.events-asynchronous-operations.1: 20
+
+tags:
+  - introduction
+  - workout
+  - deep
+
 links:
   - '[Piping streams](https://www.sandersdenardi.com/readable-writable-transform-streams-node/){website}'
 

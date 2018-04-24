@@ -13,6 +13,15 @@ category: feature
 
 parent: scripts-lifecycle
 
+standards:
+  js.npm-tasks-and-modules-manager.1: 10
+  js.npm-tasks-and-modules-manager.3: 10
+
+tags:
+  - introduction
+  - workout
+  - deep
+
 ---
 # Remote Scripts
 
@@ -82,7 +91,7 @@ $ ??? ??? ???
 * npm
 * makeFile
 * output
-* add 
+* add
 
 ---
 ## Revision

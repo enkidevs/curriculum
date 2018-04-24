@@ -2,26 +2,23 @@
 author: catalin
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
 
 category: how to
 
+standards:
+  js.express-server.4: 10
 
 links:
-
   - '[github.com](https://github.com/expressjs/vhost){website}'
 
 parent: easy-way-to-deliver-html-pages-with-express
 
 ---
-
 # `vhost` in **Express**
 
 ---
@@ -30,15 +27,18 @@ parent: easy-way-to-deliver-html-pages-with-express
 Virtual hosting represents the method of hosting multiple domain names (with separate handling for each one) on a single server.
 
 The **Express 4.0** middleware module called `vhost` deals with this, handing off requests to `handle` when the incoming host matches `hostname`. Before using it, the module must be installed:
+
 ```bash
 $ npm install vhost
 ```
+
 And imported:
+
 ```javascript
 var vhost = require('vhost');
 ```
 
-The constructor has two parameters: `hostname` and `handler`. The former can be a string or a **RegExp** object. 
+The constructor has two parameters: `hostname` and `handler`. The former can be a string or a **RegExp** object.
 
 After the host is matched and the request is sent to the `handler`, the `req.vhost` property will be populated with an object that will have numeric properties corresponding to every wildcard and `hostname`.
 
@@ -68,10 +68,9 @@ vhost(???, ???);
 ```
 
 
-* `hostname`
-* `handler`
-* `app`
-* `require`
-* `connect`
-* `req.vhost`
-
+* hostname
+* handler
+* app
+* require
+* connect
+* req.vhost

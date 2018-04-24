@@ -11,6 +11,15 @@ type: normal
 
 category: must-know
 
+
+standards:
+  js.use-modules.0: 10
+  js.use-modules.1: 10
+
+tags:
+  - introduction
+  - workout
+
 links:
   - '[Local Modules](http://www.tutorialsteacher.com/nodejs/nodejs-local-modules){website}'
 
@@ -46,13 +55,10 @@ var newsModule = require(`./news.js`);
 ```
 
 The local module object can now be called with one of its functions:
-
 ```javascript
-newsModule.good('We\'re working on Node!');
+newsModule.good('We're working on Node!');
 ```
-
-To run the module and see its output:
-
+To run the module:
 ```bash
 $ node main.js
 # Good news! We're working on Node!
@@ -96,6 +102,7 @@ Running `$ node myModule` should log "Hello from Enki".
 ## Revision
 
 Which of the following module types must have its path specified when requiring it?
+
 ???
 
 * local
