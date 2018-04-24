@@ -13,8 +13,12 @@ stub: true
 
 tags:
   - deep
+  
+links:
+  - '[Code Sample](https://codepen.io/lizthedeveloper/pen/gzrZza){code}'
+  
 ---
-# Intro code
+# code - Display code in HTML
 ---
 ## Content
 
@@ -79,21 +83,17 @@ What HTML element is used in place of "???" to visually highlight the difference
 
 ### How much do you know about the `<code>` element?
 
-Check out what happens by trying out this code on codepen.io?
+What will the effect of wrapping this text in the _code_ element?
 ```
 <code>
-  <table>
-    <tr>
-      <td>Data 1</td>
-      <td>Data 2</td>
-    </tr>
-  </table>
+  var x = 5;
+  y = x == 10
 </code>
 ```
 
 ???
 
-* Any text within `<code>` will display in monospace font.
-* Only the text "Data 1" will be displayed within the page.
-* All text within `<code>`, including the table element, will display.
-* All text within `<code>` will display by default with colors associated with the coding language of the editor.
+* All text within `<code>` will display in monospace font.
+* Only the text "var x = 5;" will be displayed within the page because the other line has no semicolon.
+* All text within `<code>`, will display in arial font.
+* All text within `<code>` will display with syntax highlighting associated with the coding language.
