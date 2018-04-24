@@ -52,17 +52,14 @@ It can also be the string `any` or a positive floating point number. If you do n
 ---
 ## Practice
 
-Which statements are true regarding step attributes within forms?
+Which statement is NOT true regarding step attributes within forms?
 
 ???
-???
-???
 
-+ Specifies the legal number intervals for an `<input>` element.
-+ Can be used with min & max to create range of legal values.
-+ Works with these input types: number, date, & time.
-- Does not accept negative numbers.
-- Works with fractions, like 1/2 written as ".5".
+* Works with fractions, like 1/2 written as ".5".
+* Specifies the legal number intervals for an `<input>` element.
+* Can be used with min & max to create range of legal values.
+* Works with these input types: number, date, & time.
 
 ---
 ## Revision
