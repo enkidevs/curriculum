@@ -13,7 +13,7 @@ inAlgoPool: false
 
 standards:
   js.evaluate-expressions.6: 1000
-  js.evaluate-expressions.7:
+  js.evaluate-expressions.7: 1000
   js.data-types-structures.3: 1000
   js.standard-library.4: 1000
 
