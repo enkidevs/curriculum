@@ -15,10 +15,10 @@ tags:
   - deep
 
 link:
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp
+  - '[MDN Docs for samp](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp){website}'
   
 ---
-# Intro samp
+# samp - Sample Output Element
 ---
 ## Content
 
