@@ -13,11 +13,14 @@ stub: true
 
 tags:
   - deep
+
+links:
+  - '[MDN Docs for var](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var){website}'
+  
 ---
 # Intro var
 ---
 ## Content
-
 
 In HTML the `<var>` element is used to represent a name of a variable in either a programming context or a mathematical expression.
 
@@ -55,21 +58,16 @@ var {
 ---
 ## Practice
 
-When using the `<var>` element, which statements are true?
+Which statement is not true about using the `<var>` element?
 
 ???
-???
-???
-???
 
-* represents a variable in a mathematical expression
-* represents a variable in a programming context
-* produces an inline element
-* Default text style is italic. 
-* produces a block element
-* Default text style is a monospace font. 
-* represents preformatted text
-* represents user input
+ * represents user input
+ * represents a variable in a mathematical expression
+ * represents a variable in a programming context
+ * produces an inline element
+ * Default text style is italic. 
+
 
 ---
 ## Revision
