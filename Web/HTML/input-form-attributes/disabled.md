@@ -15,7 +15,7 @@ tags:
   - deep
 
 link:
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+  - '[MDN docs for disabled](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input){website}'
   
 ---
 # Disabled
@@ -42,17 +42,15 @@ Furthermore, you can use the `disabled` attribute to prevent the use of the `<in
 ---
 ## Practice
 
-Mark all that apply stating what the disabled attribute does in this code.
+What does the disabled attribute do in this code?
 
 `<input type="text" name="company" value="Enki" disabled>`
 
 ???
-???
 
 + Prevents the user from editing the textfield 
-+ The value will not send upon submission
 - Hides the textfield
-- Sends the value upon submission
+- hides the input element
 - Displays as a grey textbox by default
 
 ---
