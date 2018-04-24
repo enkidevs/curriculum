@@ -14,8 +14,9 @@ stub: true
 tags:
   - deep
   
-link:
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd
+links:
+  - '[MDN Docs for kbd](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd){website}'
+  - '[Code Sample](https://codepen.io/lizthedeveloper/pen/NMNeoj){code}'
   
 ---
 # kbd - Keyboard Input Element
