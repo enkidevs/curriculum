@@ -13,6 +13,7 @@ stub: true
 
 tags:
   - deep
+  
 ---
 # Height & width
 ---
@@ -81,7 +82,7 @@ Complete the code by adding the appropriate input form attributes to assign the 
 
 ### How much do you know about HTML input form attributes?
 
-Identify which statement is true regarding the height and width properties?
+Identify which statement is true regarding the use of height and width with input form attributes?
 
 ???
 
