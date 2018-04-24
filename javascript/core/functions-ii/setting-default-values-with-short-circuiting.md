@@ -12,8 +12,8 @@ type: normal
 category: pattern
 
 standards:
-
   js.write-expressions.5: 10
+  js.functions.2: 10
 
 tags:
 
@@ -85,4 +85,3 @@ function shortCir(name){
 * ||
 * &&
 * ==
-

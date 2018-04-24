@@ -15,6 +15,7 @@ category: best practice
 
 standards:
   js.events-asynchronous-operations.2: 10
+  js.async.1: 10
 
 tags:
   - workout
