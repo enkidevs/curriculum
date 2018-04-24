@@ -13,6 +13,10 @@ stub: true
 
 tags:
   - deep
+  
+links:
+  - '[W3S docs for formaction](https://www.w3schools.com/tags/att_formaction.asp){website}'
+  
 ---
 # Formaction
 ---
