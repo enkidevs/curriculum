@@ -72,7 +72,7 @@ In the example above, the user has to have at least one lowercase letter, one up
 ---
 ## Practice
 
-Mark the following strings that would pass this pattern: 
+Mark the string that would NOT pass this pattern: 
 
 ```
 <input 
@@ -81,15 +81,14 @@ Mark the following strings that would pass this pattern:
   title="">
 ```
 
-+ enkiCode
-+ Colorado
-+ 12Num34
-+ 8675309
-- http://enki.com
-- Mrs. Mannis
-- 1,2andCounting!
-- (303)422-2280
-- CodeChallenge
+???
+
+* http://enki.com
+* enkiCode
+* Colorado
+* 12Num34
+* 8675309
+
 
 ---
 ## Revision
