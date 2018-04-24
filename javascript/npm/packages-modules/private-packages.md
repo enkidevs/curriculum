@@ -12,8 +12,8 @@ type: normal
 category: feature
 
 standards:
-  js.npm-publish: 10
-  js.npm-tasks-and-modules-manager: 10
+  js.npm-publish.1: 10
+  js.npm-tasks-and-modules-manager.0: 10
 
 tags:
   - workout

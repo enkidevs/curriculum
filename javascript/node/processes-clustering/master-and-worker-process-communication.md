@@ -11,8 +11,7 @@ type: normal
 category: tip
 
 standards:
-  js.identify-common-design-patterns: 20
-  js.node-standard-library-os: 20
+  js.node-standard-library-os.5: 20
 
 tags:
   - workout
@@ -88,4 +87,3 @@ The following code snippet should send a string message from the **master** proc
 * on
 * master
 * process
-

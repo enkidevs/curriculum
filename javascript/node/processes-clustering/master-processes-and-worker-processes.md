@@ -10,8 +10,7 @@ levels:
 type: normal
 
 standards:
-  js.identify-common-design-patterns: 20
-  js.node-standard-library-os: 20
+  js.node-standard-library-os.5: 20
 
 tags:
   - workout
@@ -65,4 +64,3 @@ Which method is used by the master process to initiate new worker processes? ???
 * master.new();
 * cluster.process();
 * master.process();
-

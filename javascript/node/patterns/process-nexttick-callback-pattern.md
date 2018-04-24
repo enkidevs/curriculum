@@ -14,8 +14,7 @@ type: normal
 category: best practice
 
 standards:
-  js.identify-common-design-patterns: 10
-  js.events-asynchronous-operations: 10
+  js.events-asynchronous-operations.2: 10
 
 tags:
   - workout
@@ -85,4 +84,3 @@ What can be used to replicate the basic behaviour of `setTimeout(fn, 0)`?
 * process.nextTick()
 * process.next()
 * process.nextTick(0)
-
