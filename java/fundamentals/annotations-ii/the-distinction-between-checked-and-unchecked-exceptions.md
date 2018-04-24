@@ -1,4 +1,4 @@
-# The distinction between checked and unchecked exceptions
+---
 author: adamMontgomerie
 
 levels:
@@ -15,13 +15,16 @@ tags:
 
   - exceptions
 
+
 links:
 
-  - >-
-    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=129){website}
+  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=129){website}'
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/exceptions/catchOrDeclare.html){website}'
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/exceptions/catchOrDeclare.html){website}
+
+---
+
+# The distinction between checked and unchecked exceptions
 
 ---
 ## Content
@@ -52,3 +55,4 @@ for (int i = 0; i < arr.length; i++) {
  // will be thrown 
 }
 ```
+

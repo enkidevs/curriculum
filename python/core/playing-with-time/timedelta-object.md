@@ -1,4 +1,4 @@
-# Date arithmetics with `timedelta`
+---
 author: catalin
 
 levels:
@@ -9,24 +9,33 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: feature
 
-parent: datetime-object
+inAlgoPool: false
+
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/datetime.html#timedelta-objects){website}
+  - '[docs.python.org](https://docs.python.org/3.5/library/datetime.html#timedelta-objects){website}'
+
+standards:
+  py.native-types-operations.8: 10
+  py.standard-library-data.2: 10
+
+parent: datetime-object
+
+---
+
+# Date arithmetics with `timedelta`
 
 ---
 ## Content
 
-Another useful class provided by `datetime` is called `timedelta`. With this object you can compute past or future dates along with differences between times.
+Another useful class provided by `datetime` is called `timedelta`. With this object you can calculate past or future dates along with differences between times.
 
 This object will store a **difference** in time, a delta. Although internally the values are stored only in *days*, *seconds* and *microseconds*, its constructor can accept any argument related to time:
-```py
+```python
+from datetime import timedelta
 from datetime import timedelta
 
 day = timedelta(days=1)
@@ -39,7 +48,7 @@ print(minute) # 0:01:00
 ```
 
 You can use standard arithmetic operators to calculate new dates as follows:
-```py
+```python
 from datetime import datetime
 
 today = datetime.today()
@@ -55,27 +64,30 @@ print(day_after_tomorrow)
 # 2017-06-30 13:12:35.145494
 
 ```
+
 ---
 ## Practice
 
 Complete the following code snippet such that variable `x` will hold a date exactly 2 weeks from today:
-```py
+```python
 from datetime import datetime, timedelta
 
 today = ???.today()
 
 delta = ???(???=???)
 
-x = today ??? delta
+x = today ??? delta ???
 
 ```
 
+
 * `datetime`
 * `timedelta`
-* `weeks`
-* `2`
+* `days`
+* `7`
 * `+`
 * `* 2`
+* `weeks`
 * `/ 2`
 * `14`
 * `months`
@@ -85,11 +97,10 @@ x = today ??? delta
 * `delta`
 
 ---
-
 ## Revision
 
 Calculate the value of `yesterday`:
-```py
+```python
 from datetime import datetime, timedelta
 
 delta = timedelta(???=???)
@@ -98,11 +109,13 @@ today = datetime.today()
 yesterday = ??? - ???
 ```
 
+
 * `hours`
 * `24`
 * `today`
 * `delta`
 * `timedelta`
+* `days`
 * `2`
 * `delta % 2`
 * `date`

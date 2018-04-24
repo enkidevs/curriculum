@@ -1,12 +1,9 @@
-# Async File Write in Node.js
+---
 author: rosielowther
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
@@ -21,9 +18,10 @@ tags:
   - workout
 
 links:
+  - '[nodejs.org](https://nodejs.org/api/fs.html#fs_fs_writefile_file_data_options_callback){website}'
 
-  - >-
-    [nodejs.org](https://nodejs.org/api/fs.html#fs_fs_writefile_file_data_options_callback){website}
+---
+# Async File Write in Node.js
 
 ---
 ## Content
@@ -50,6 +48,7 @@ function (err) {
 Note: The file specified must support writing and the file is overwritten if it already exists.
 
 It is not recommended to use `fs.writeFile` multiple times on the same file without waiting for the callback.  Use `fs.createWriteStream` instead.
+
 ---
 ## Practice
 

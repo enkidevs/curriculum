@@ -1,28 +1,26 @@
-# Session handling in **Express**
+---
 author: catalin
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal
 
 category: how to
 
-parent: easy-way-to-deliver-html-pages-with-express
-
 standards:
   js.express-server.4: 10
   cs.http-request-response.12: 10
 
 links:
-
-  - >-
-    [codeforgeek.com](https://codeforgeek.com/2014/10/express-complete-tutorial-part-4/){website}
-
+  - '[codeforgeek.com](https://codeforgeek.com/2014/10/express-complete-tutorial-part-4/){website}'
   - '[github.com](https://github.com/expressjs/session){website}'
+
+parent: easy-way-to-deliver-html-pages-with-express
+
+---
+# Session handling in **Express**
 
 ---
 ## Content
@@ -32,7 +30,7 @@ Prior to handling sessions in **Express 4.0**, the `express-session` middleware 
 $ npm install express-session
 ```
 `Session` can be accessed through the `request` object:
-```
+```javascript
 var sess;
 app.get('/', function(req,res) {
   sess = req.session;
@@ -62,6 +60,7 @@ app.???('/', function(req, ???) {
    sess = ???.session;
 }
 ```
+
 * get
 * res
 * req
@@ -78,15 +77,16 @@ app.???('/', function(req, ???) {
 
 How can you access sessions through the request object?
 
-```
+```javascript
 app.get('/', function(req,res) {
    mySession = ???.???;
 
 }
 ```
-* `req`
-* `session`
-* `res`
-* `sess`
-* `mySession`
-* `request`
+
+* req
+* session
+* res
+* sess
+* mySession
+* request

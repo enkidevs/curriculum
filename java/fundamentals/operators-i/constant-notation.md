@@ -1,4 +1,4 @@
-# Constant notation
+---
 author: Demonus
 
 levels:
@@ -19,6 +19,13 @@ tags:
 
   - java
 
+
+
+
+---
+
+# Constant notation
+
 ---
 ## Content
 
@@ -38,3 +45,4 @@ public final int IMPORTANT_CONSTANT = 200;
 
 
 ```
+

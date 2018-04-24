@@ -2,7 +2,7 @@ name: Operational vs. Programmer Errors
 
 type: insights-list
 
-description: How to distinguish between types of errors.
+description: How to distinguish between types of errors. 
 
 section: 1
 

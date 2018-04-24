@@ -1,4 +1,4 @@
-# Python packages
+---
 author: SebaRaba
 
 levels:
@@ -9,9 +9,18 @@ type: normal
 
 category: must-know
 
+standards:
+  py.modules.0: 10
+  py.modules.2: 10
+
 links:
 
-  - '[More about packages](https://code.tutsplus.com/tutorials/how-to-use-python-packages--cms-26000)'
+  - '[More about packages](https://code.tutsplus.com/tutorials/how-to-use-python-packages--cms-26000){website}'
+
+
+---
+
+# Python packages
 
 ---
 ## Content
@@ -20,7 +29,7 @@ A **package**[1] is a hierarchical file directory structure that defines a *sing
 
 Consider a file `available_rooms.py` in a directory called **Hotel**:
 
-```py
+```python
 # available_rooms.py
 
 def available(rooms):
@@ -28,7 +37,7 @@ def available(rooms):
 ```
 Then, a file `total_rooms.py` in the *same* directory:
 
-```py
+```python
 # total_rooms.py
 
 def all_rooms(total):
@@ -37,7 +46,7 @@ def all_rooms(total):
 
 Now that we have these files defined in out **Hotel package** we can use them in our script by importing this package:
 
-```py
+```python
 # rooms_update.py
 
 import Hotel
@@ -49,22 +58,17 @@ Hotel.all_rooms(25)
 ```
 
 ---
-## Footnotes
-
-[1:Python packages]
-Speaking about Python versions that are older than Python **3.3**: each **package** is a **directory** that **must** contain a special file called: `_init_.py`. This **file** indicates that the directory it contains is a **Python package**. The `__init__.py` file is usually empty, but can be used to **export** selected portions of the package under more convenient name.
-
----
 ## Practice
 
 Complete the missing that such that the `Hotel` package is imported and used properly:
-```py
+```python
 ??? Hotel
 
 def foo(x):
     capacity = ???.all_rooms(x)
     return capacity
 ```
+
 
 
 * `import`
@@ -77,15 +81,21 @@ def foo(x):
 ## Revision
 
 Say the `Hotel` package exposes the `available_rooms()` method. Complete the following code snippet such that only that function will be imported:
-```py
+```python
 ??? Hotel import ???
 
 def foo(x):
     ???
 ```
 
+
 * `from`
 * `available_rooms`
 * `available_rooms(x)`
 * `Hotel.available_rooms(x)`
 * `total_rooms`
+
+---
+## Footnotes
+[1:Python packages]
+Speaking about Python versions that are older than Python **3.3**: each **package** is a **directory** that **must** contain a special file called: `_init_.py`. This **file** indicates that the directory it contains is a **Python package**. The `__init__.py` file is usually empty, but can be used to **export** selected portions of the package under more convenient name.

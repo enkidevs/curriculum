@@ -1,4 +1,4 @@
-# Using references to save repetition
+---
 author: AlexBroadbent
 
 levels:
@@ -21,6 +21,9 @@ links:
 
   - >-
     [www.javaworld.com](http://www.javaworld.com/article/2077473/learn-java/java-tip-11--use-references-and-save-typing-time-.html){website}
+
+---
+# Using references to save repetition
 
 ---
 ## Content

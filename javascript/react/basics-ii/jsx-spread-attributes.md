@@ -1,4 +1,4 @@
-# **JSX** Spread attributes
+---
 author: catalin
 
 levels:
@@ -15,13 +15,16 @@ type: normal
 
 category: how to
 
-parent: the-ref-callback-attribute
 
 links:
 
-  - >-
-    [gist.github.com](https://gist.github.com/sebmarkbage/07bbe37bc42b6d4aef81){website}
+  - '[gist.github.com](https://gist.github.com/sebmarkbage/07bbe37bc42b6d4aef81){website}'
 
+parent: the-ref-callback-attribute
+
+---
+
+# **JSX** Spread attributes
 
 ---
 ## Content
@@ -84,12 +87,12 @@ const test = <Test {...props}
 // test.props.y = ???
 ```
 
+
 * `'cat'`
 * `'dog'`
 * `error`
 * `'dogcat'`
 * `'catdog'`
-
 
 ---
 ## Revision
@@ -111,8 +114,10 @@ const test = <Test {...props}
 // test.props.x = ???
 ```
 
+
 * `'cat'`
 * `'dog'`
 * `error`
 * `'dogcat'`
 * `'catdog'`
+

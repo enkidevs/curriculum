@@ -1,4 +1,4 @@
-# The `itertools` Module
+---
 author: stefkn
 
 levels:
@@ -13,10 +13,16 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[A gentle introduction to itertools](http://jmduke.com/posts/a-gentle-introduction-to-itertools/)'
-  - '[A Demo of APL from 1975](https://www.youtube.com/watch?v=_DTpQ4Kk2wA)'
+  - '[A gentle introduction to itertools](http://jmduke.com/posts/a-gentle-introduction-to-itertools/){website}'
+  - '[A Demo of APL from 1975](https://www.youtube.com/watch?v=_DTpQ4Kk2wA){website}'
+
+
+---
+
+# The `itertools` Module
 
 ---
 ## Content
@@ -33,7 +39,7 @@ More interesting are the iterators which terminate on the shortest input sequenc
 
 Let's start with `chain()`. This method allows us to "glue" the end of one sequence to the start of another, chaining them together. This can be done for multiple sequences at a time. Take a look at this example:
 
-```Python
+```python
 import itertools;
 
 letters = ['a', 'b', 'c', 'd']
@@ -48,7 +54,7 @@ print(
 
 Next, `filterfalse` iterates through a collection of elements, and, given a boolean expression to evaluate with the each element, returns a collection which only contains the elements where the expression evaluated to false.
 
-```Python
+```python
 numbers = [1, 2, 3, 4, 5, 6, 7, 8]
 
 print(
@@ -61,7 +67,7 @@ print(
 
 Finally, `compress()`, which takes two collections, a and b, and returns only the elements in a where the corresponding element in b evaluates to true.
 
-```Python
+```python
 numbers = [1, 2, 3, 4, 5, 6, 7, 8]
 boolean = [1, 0, 1, 0, 1, 0, 1, 0]
 
@@ -79,7 +85,7 @@ Let's say we have three lists. The first is a list of prices for items on an onl
 
 Complete the code below to print a list of the original prices and a list of those same prices with the discount applied.
 
-```Python
+```python
 import itertools;
 
 prices = [120, 300, 90, 200, 60]
@@ -109,6 +115,7 @@ print(
   list(salePrices))
 ```
 
+
 * `compress`
 * `compress`
 * `filterfalse`
@@ -122,7 +129,7 @@ print(
 
 What is the result of the following code execution?
 
-```Python
+```python
 import itertools;
 
 names = ['Tom', 'Sadiq', 'Lars',
@@ -139,6 +146,7 @@ print(
 
 ???
 
+
 * `['Tom', 'Lars', 'Lee', 'Tom', 'Lars', 'Lee']`
 * `['Tom', 'Sadiq', 'Lars', 'Lee', 'Jean', 'Tom']`
 * `['Sadiq', 'Jean', 'Sadiq', 'Jean', 'Sadiq', 'Jean']`
@@ -146,7 +154,6 @@ print(
 
 ---
 ## Footnotes
-
 [1:APL, Haskell and SML]
 Haskell is a widely-used, purely functional, lazy programming language. Because of its purely functional nature, mutations of variables or data structures and I/O are essentially not permitted at all. Therefore it is common to use iteration tools to carry out operations on data where the original object is not modified but a new copy is made with the desired changes already applied to it. Similar mechanics can be found in SML and the other ML family languages such as OCaml (they are not pure, but are still functional) and even in very old languages such as APL. It is from this paradigm that the `itertools` methods get their inspiration.
 

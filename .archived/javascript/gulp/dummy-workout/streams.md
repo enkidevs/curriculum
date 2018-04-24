@@ -1,4 +1,4 @@
-# Streams
+---
 author: tommarshall
 
 levels:
@@ -17,6 +17,9 @@ links:
 
   - >-
     [slicejack.com](http://slicejack.com/introduction-to-gulp-a-streaming-javascript-task-runner/){website}
+
+---
+# Streams
 
 ---
 ## Content
@@ -50,14 +53,14 @@ gulp.???('js', function () {
 });
 ```
 
-* `task`
-* `src`
-* `.pipe`
-* `.pass`
-* `.stream`
-* `run`
-* `dev`
-* `build`
+* task
+* src
+* .pipe
+* .pass
+* .stream
+* run
+* dev
+* build
 
 ---
 ## Revision

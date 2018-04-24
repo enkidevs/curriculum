@@ -1,4 +1,4 @@
-# Do not perform bitwise and arithmetic operations on the same data
+---
 author: fahimrahman
 
 levels:
@@ -17,10 +17,15 @@ tags:
 
   - numeric-operations
 
+
 links:
 
-  - >-
-    [www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/NUM01-J.+Do+not+perform+bitwise+and+arithmetic+operations+on+the+same+data){website}
+  - '[www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/NUM01-J.+Do+not+perform+bitwise+and+arithmetic+operations+on+the+same+data){website}'
+
+
+---
+
+# Do not perform bitwise and arithmetic operations on the same data
 
 ---
 ## Content
@@ -58,9 +63,11 @@ a /= 4;     // a = -5
 What is the arithmetic equivalent of `a >> 3`  ?
 
 ???
-*a/8
-*a/4
-*8a
-*4a
-*3a
-*a/3
+
+* a/8
+* a/4
+* 8a
+* 4a
+* 3a
+* a/3
+

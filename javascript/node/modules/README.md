@@ -1,6 +1,6 @@
 name: Modules
 
-description: Compartmentalize your code.
+description: Compartmentalize your code. 
 
 insights:
   - what-are-node-modules

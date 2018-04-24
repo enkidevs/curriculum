@@ -1,19 +1,14 @@
-# `response` object additional properties in **Express**
+---
 author: catalin
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
 
 category: must-know
-
-parent: easy-way-to-deliver-html-pages-with-express
 
 standards:
   js.express-server.1: 10
@@ -21,8 +16,12 @@ standards:
   js.express-server.8: 10
 
 links:
-
   - '[node-tricks.com](http://node-tricks.com/response-object/){website}'
+
+parent: easy-way-to-deliver-html-pages-with-express
+
+---
+# `response` object additional properties in **Express**
 
 ---
 ## Content
@@ -44,7 +43,7 @@ res.json(status, json);
 ```
 
 Send different content depending on the Accept request header:
-```
+```javascript
 res.format({'text/plain': 'hey',
   'text/html': '<b>hey</b>'});
 ```
@@ -70,12 +69,12 @@ var myJson; // equal to json we want to send
 res.???(???, ???);
 ```
 
-*`json`
-*`status`
-*`myJson`
-*`send`
-*`format`
-*`render`
-*`cookie`
-*`toJSON`
-*`sendJSON`
+* json
+* status
+* myJson
+* send
+* format
+* render
+* cookie
+* toJSON
+* sendJSON

@@ -1,4 +1,4 @@
-# Handling Blobs in a RDBMS
+---
 author: mihaiberq
 
 levels:
@@ -11,10 +11,23 @@ type: normal
 
 category: how to
 
+standards:
+  sql.choose-sql-datatype.2: 10
+
 tags:
+
   - introduction
+
   - workout
+
   - deep
+
+
+
+
+---
+
+# Handling Blobs in a RDBMS
 
 ---
 ## Content
@@ -42,6 +55,7 @@ In most databases, the maximum allowed size of BLOBs is
 
 ???
 
+
 * GB
 * MB
 * KB
@@ -52,7 +66,9 @@ In most databases, the maximum allowed size of BLOBs is
 
 `BLOB`s are used to store ???
 
+
 * `raw bytes`
 * `bigints`
 * `strings`
 * `images`
+

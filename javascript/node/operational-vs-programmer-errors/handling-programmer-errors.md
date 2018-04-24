@@ -1,4 +1,4 @@
-# Handling Programmer Errors
+---
 author: mihaiberq
 
 levels:
@@ -21,6 +21,10 @@ tags:
   - workout
 
 ---
+
+# Handling Programmer Errors
+
+---
 ## Content
 
 Programmer errors are *bugs*. Hence, they **can't and shouldn't** be handled. The only way to deal with them is to debug and fix the problem. If the error is expected, that makes it operational.
@@ -31,7 +35,7 @@ Recovering means allowing the operation to fail but continue handling requests. 
 
 Undoubtedly, the best response is to *crash and restart* the server. This is the fastest way to fully restore the service - or as much as possible, considering the bug - until the problem is fixed for good. Going straight for the cause instead of wasting time treating the symptoms will often reduce the number of times a server crashes.
 
-Remember that programmer errors on the server become operational errors on the client. They are the ones that have to deal with servers crashes and network issues. Most of the times, even just logging the error message for the user to see is better than providing no feedback of what is happening.   
+Remember that programmer errors on the server become operational errors on the client. They are the ones that have to deal with servers crashes and network issues. Most of the times, even just logging the error message for the user to see is better than providing no feedback of what is happening.
 
 ---
 ## Practice
@@ -39,6 +43,7 @@ Remember that programmer errors on the server become operational errors on the c
 Can you identify what a successful system recovery implies?
 
 ???
+
 
 * Allowing a request to fail and reverting the state changes
 * Allowing a request to fail
@@ -50,7 +55,7 @@ Can you identify what a successful system recovery implies?
 ## Revision
 
 Drawing an analogy between a disease and a server crashing, which of the following statements are equivalent?
-```
+```javascript
 Cause
 ???
 
@@ -60,9 +65,11 @@ Symptoms
 Treatment
 ???
 ```
+
 * Programmer error
 * Service outage
 * Fixing the bug
 * Handling the programmer error
 * Operational error
 * Enclosing the code inside a `try/catch` block
+

@@ -1,4 +1,4 @@
-# Best password generation utilities
+---
 author: nene
 
 levels:
@@ -14,14 +14,22 @@ type: normal
 category: how to
 
 tags:
+
   - passwords
+
   - workout
 
+
+
+
+---
+
+# Best password generation utilities
 
 ---
 ## Content
 
-`apg`  displays six somewhat memorable passwords based on your keyboard input. Entirely random ones can be produced with ```apg -a 1```, which contain 8-10 totally randomised characters.
+`apg`  displays six somewhat memorable passwords based on your keyboard input. Entirely random ones can be produced with `apg -a 1`, which contain 8-10 totally randomised characters.
 
 `pwgen` floods your terminal with a set of passwords so you can pick one.
 
@@ -52,7 +60,9 @@ That would create numerical-only, four digit long passwords (think PIN codes).
 Out of the following, the tool that is *not* helpful if you want to generate passwords is 
 
 ???.
-*`xargs`
-*`apg`
-*`pwgen`
-*`makepasswd`
+
+* `xargs`
+* `apg`
+* `pwgen`
+* `makepasswd`
+

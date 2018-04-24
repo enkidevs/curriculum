@@ -1,4 +1,4 @@
-# Three ways to check if a file exists in a directory
+---
 author: Aaron7Sun
 
 levels:
@@ -12,6 +12,9 @@ levels:
 type: normal
 
 category: tip
+
+---
+# Three ways to check if a file exists in a directory
 
 ---
 ## Content

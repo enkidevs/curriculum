@@ -1,4 +1,4 @@
-# The Basics of The Pipe Operator `|`
+---
 author: jfarmer
 
 levels:
@@ -9,13 +9,23 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 tags:
+
   - introduction
+
   - workout
+
+
+
+
+---
+
+# The Basics of The Pipe Operator `|`
+
 ---
 ## Content
 
@@ -23,7 +33,7 @@ In Unix, every process has three standard streams: `stdin`, `stdout`, and `stder
 
 To do this we use the pipe operator `|`.  Here is a simple example:
 
-```console
+```shell
 $ ps ax | grep mysql
 2922 ?        S      0:00
     /bin/sh /usr/bin/mysqld_safe
@@ -43,8 +53,10 @@ Print the lines which contain `eth0` by pipelining `ifconfig` ‘s output :
 ```
 $ ??? ??? ??? eth0
 ```
-*`ifconfig`
-*`|`
-*`grep`
-*`>`
-*`>>`
+
+* `ifconfig`
+* `|`
+* `grep`
+* `>`
+* `>>`
+

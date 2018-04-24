@@ -1,12 +1,9 @@
-# Package distribution tags
+---
 author: catalin
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
@@ -16,7 +13,6 @@ category: how to
 parent: check-data-about-a-package
 
 links:
-
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/dist-tag){website}'
 
 standards:
@@ -26,6 +22,9 @@ standards:
 
 tags:
   - workout
+
+---
+# Package distribution tags
 
 ---
 ## Content
@@ -67,12 +66,12 @@ Complete the code snippet to add a tag to your package:
 $ npm dist-tag ???
     <pkg>@<version> [<???>]
 ```
-*`add`
-*`tag`
-*`new`
-*`version-tag`
-*`0.0.1`
-*`publish`
+* add
+* tag
+* new
+* version-tag
+* 0.0.1
+* publish
 
 ---
 ## Revision
@@ -82,9 +81,9 @@ List all the tags for a package:
 $ npm ??? ??? [<pkg>]
 ```
 
-*`dist-tag`
-*`ls`
-*`rm`
-*`--tag`
-*`add`
-*`tags`
+* dist-tag
+* ls
+* rm
+* --tag
+* add
+* tags

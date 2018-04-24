@@ -1,4 +1,4 @@
-# String Extensions
+---
 author: alexjmackey
 
 levels:
@@ -7,13 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode){website}'
+
+
+---
+
+# String Extensions
 
 ---
 ## Content
@@ -34,3 +40,4 @@ ES6 introduces a new method *fromCodePoint* that can be used to work with all Un
 String.fromCodePoint(65); //A
 String.fromCodePoint(65,66,67); //ABC
 ```
+

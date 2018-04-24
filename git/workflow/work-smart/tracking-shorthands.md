@@ -1,4 +1,4 @@
-# Tracking shorthands
+---
 author: rosielowther
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}'
+
+
+---
+
+# Tracking shorthands
 
 ---
 ## Content
@@ -45,10 +50,11 @@ The shorthand command to set up a new branch and track it is:
 $ git ??? --??? 
           origin/sharefix
 ```
-*`checkout`
-*`track`
-*`follow`
-*`branch`
+
+* `checkout`
+* `track`
+* `follow`
+* `branch`
 
 ---
 ## Revision
@@ -58,7 +64,9 @@ The shorthand command to set up a new branch and track it is:
 $ git ??? --??? 
           origin/sharefix
 ```
-*`checkout`
-*`track`
-*`follow`
-*`branch`
+
+* `checkout`
+* `track`
+* `follow`
+* `branch`
+

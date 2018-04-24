@@ -1,8 +1,7 @@
-# Npm Scripting
+---
 author: mihaiberq
 
 levels:
-
   - beginner
   - basic
   - medium
@@ -21,6 +20,9 @@ tags:
   - introduction
   - workout
   - deep
+
+---
+# Npm Scripting
 
 ---
 ## Content
@@ -85,8 +87,8 @@ Given the following is in your `package.json`, execute the script called `dailyS
 
 ??? ??? ???
 
-* `npm`
-* `run`
-* `dailyStats`
-* `script`
-* `exec`
+* npm
+* run
+* dailyStats
+* script
+* exec

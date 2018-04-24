@@ -1,4 +1,4 @@
-# SassScript Map and List Functions
+---
 author: tommarshall
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [sass-lang.com](http://sass-lang.com/documentation/Sass/Script/Functions.html#list-functions){website}
+  - '[sass-lang.com](http://sass-lang.com/documentation/Sass/Script/Functions.html#list-functions){website}'
+
+
+---
+
+# SassScript Map and List Functions
 
 ---
 ## Content
@@ -26,7 +31,7 @@ In *SassScript* neither maps or lists support any special operations, they're ma
 All list functions work for maps too, maps are seen as a list of pairs.
 
 *Remember*, the first item is index 1 in SassScript, not 0. A few examples of the functions for both maps and lists:
-```CSS
+```css
 // returns the length of a list or map
 length(6px 8px 10px) => 3
 length(loc1: val1, loc2: val2) => 2
@@ -47,5 +52,7 @@ zip(a b c, 1 2 3, x y z)
 
 What's the first item index in **SassScript**?
 ???
-*`1`
-*`0`
+
+* `1`
+* `0`
+

@@ -1,12 +1,9 @@
-# Middleware/pipeline design pattern
+---
 author: catalin
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
@@ -20,14 +17,12 @@ tags:
   - workout
 
 links:
-
-  - >-
-    [www.mariocasciaro.me](http://www.mariocasciaro.me/the-strange-world-of-node-js-design-patterns){website}
-
-  - >-
-    [blog.risingstack.com](https://blog.risingstack.com/fundamental-node-js-design-patterns/){website}
-
+  - '[www.mariocasciaro.me](http://www.mariocasciaro.me/the-strange-world-of-node-js-design-patterns){website}'
+  - '[blog.risingstack.com](https://blog.risingstack.com/fundamental-node-js-design-patterns/){website}'
   - '[through](https://www.npmjs.com/package/through){documentation}'
+
+---
+# Middleware/pipeline design pattern
 
 ---
 ## Content
@@ -75,7 +70,9 @@ fs.createReadStream("file.gz")
 
 Middleware/pipeline design pattern: the ??? of one unit is the ??? for the next one.
 
-*output
-*input
-*error
-*prototype
+
+* output
+* input
+* error
+* prototype
+

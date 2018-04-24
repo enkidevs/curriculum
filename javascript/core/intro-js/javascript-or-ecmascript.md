@@ -1,4 +1,4 @@
-# JavaScript or EcmaScript?
+---
 author: alexjmackey
 
 levels:
@@ -7,19 +7,27 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 tags:
+
   - introduction
+
   - workout
+
   - obscura
+
 
 links:
 
-  - >-
-    [www.ecma-international.org](http://www.ecma-international.org/publications/standards/Ecma-262.htm){website}
+  - '[www.ecma-international.org](http://www.ecma-international.org/publications/standards/Ecma-262.htm){website}'
+
+
+---
+
+# JavaScript or EcmaScript?
 
 ---
 ## Content
@@ -47,6 +55,8 @@ Which came first ?
 
 ???
 
-*`JavaScript`
-*`EcmaScript-262`
-*`EcmaScript 2016`
+
+* `JavaScript`
+* `EcmaScript-262`
+* `EcmaScript 2016`
+

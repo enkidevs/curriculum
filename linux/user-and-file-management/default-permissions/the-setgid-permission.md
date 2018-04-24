@@ -1,4 +1,4 @@
-# The `setgid` permission
+---
 author: catalin
 
 levels:
@@ -14,8 +14,17 @@ type: normal
 category: must-know
 
 tags:
+
   - deep
+
   - workout
+
+
+
+
+---
+
+# The `setgid` permission
 
 ---
 ## Content
@@ -58,6 +67,7 @@ If a user of group `test` creates a new file in that directory, which group will
 
 ???
 
+
 * enki
 * test
 * both groups
@@ -70,9 +80,11 @@ How do you apply `setgid` bit to a file?
 $ ??? ??? myfile
 ```
 
+
 * `chmod`
 * `g+s`
 * `g-s`
 * `u+s`
 * `a-s`
 * `perm`
+

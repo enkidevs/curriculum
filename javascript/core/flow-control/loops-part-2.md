@@ -1,4 +1,4 @@
-# Loops - Part 2
+---
 author: alexjmackey
 
 levels:
@@ -7,16 +7,26 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 standards:
+
   js.control-flow.3: 10
 
 tags:
+
   - introduction
+
   - workout
+
+
+
+
+---
+
+# Loops - Part 2
 
 ---
 ## Content
@@ -102,6 +112,7 @@ var myArray = [1,2,"3","item"];
   console.log(i);
 }
 ```
+
 * `for`
 * `of`
 * `myArray`
@@ -113,7 +124,9 @@ var myArray = [1,2,"3","item"];
 
 To exit a loop, you can use the ??? keyword.
 
+
 * break
 * stop
 * finish
 * end
+

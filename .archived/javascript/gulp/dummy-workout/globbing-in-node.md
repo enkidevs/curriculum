@@ -1,4 +1,4 @@
-# Globbing in Node
+---
 author: tommarshall
 
 levels:
@@ -16,6 +16,9 @@ category: tip
 links:
 
   - '[github.com](https://github.com/isaacs/node-glob){website}'
+
+---
+# Globbing in Node
 
 ---
 ## Content
@@ -49,7 +52,7 @@ gulp.task('compress', function() {
     .pipe(gZip);
 });
 ```
-* `!**/*.+(png|jpg|gif)`
-* `**/*.+(png|jpg|gif)`
-* `*.+(css|sass|txt|js)`
-* `**/*.+(css|sass|txt|js)`
+* !**/*.+(png|jpg|gif)
+* **/*.+(png|jpg|gif)
+* *.+(css|sass|txt|js)
+* **/*.+(css|sass|txt|js)

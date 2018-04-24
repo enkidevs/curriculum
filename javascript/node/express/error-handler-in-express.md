@@ -1,25 +1,25 @@
-# Error handler in **Express**
+---
 author: catalin
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal
 
 category: how to
 
-parent: easy-way-to-deliver-html-pages-with-express
-
 standards:
   js.express-server.1: 10
   js.express-server.9: 10
 
 links:
-
   - '[github.com](https://github.com/expressjs/errorhandler){website}'
+
+parent: easy-way-to-deliver-html-pages-with-express
+
+---
+# Error handler in **Express**
 
 ---
 ## Content
@@ -53,10 +53,10 @@ Which express module is designed as a development only error handling middleware
 
 ???
 
-*`errorhandler`
-*`error-handler`
-*`error-handling`
-*`error`
+* errorhandler
+* error-handler
+* error-handling
+* error
 
 ---
 ## Revision
@@ -67,10 +67,10 @@ app.use(???({
   log: ???});
 ```
 
-*`errorhandler`
-*`errorNotification`
-*`error`
-*`function`
-*`log`
-*`require`
-*`errorHandler`
+* errorhandler
+* errorNotification
+* error
+* function
+* log
+* require
+* errorHandler

@@ -1,4 +1,4 @@
-# Promise API Methods
+---
 author: alexjmackey
 
 levels:
@@ -9,14 +9,20 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[MDN - Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
-  
+
+
+---
+
+# Promise API Methods
+
 ---
 ## Content
 
@@ -57,3 +63,4 @@ var p1 = Promise.reject(
 );
 var p2 = Promise.resolve();
 ```
+

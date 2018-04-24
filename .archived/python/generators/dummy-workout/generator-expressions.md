@@ -1,4 +1,4 @@
-# Generator expressions
+---
 author: catalin
 
 levels:
@@ -19,6 +19,9 @@ links:
 
   - >-
     [pymbook.readthedocs.org](http://pymbook.readthedocs.org/en/latest/igd.html#generator-expressions){website}
+
+---
+# Generator expressions
 
 ---
 ## Content
@@ -76,15 +79,15 @@ gen = ( x ??? x in ???(1, 100) \
    if x ??? 2 != 0)
 ```
 
-* `for`
-* `range`
-* `%`
-* `gen`
-* `*`
-* `/`
-* `square`
-* `yield`
-* `is`
+* for
+* range
+* %
+* gen
+* *
+* /
+* square
+* yield
+* is
 
 ---
 ## Revision
@@ -94,10 +97,10 @@ Complete the generator expression for the square of numbers in the given range:
 gen = ( x ??? x for x ??? range(1, 20))
 ```
 
-* `*`
-* `in`
-* `is`
-* `yield`
-* `generator`
-* `gen`
-* `square`
+* *
+* in
+* is
+* yield
+* generator
+* gen
+* square

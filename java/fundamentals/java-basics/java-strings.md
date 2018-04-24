@@ -1,4 +1,4 @@
-# Java `Strings`
+---
 author: mihaiberq
 
 levels:
@@ -7,9 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# Java `Strings`
 
 ---
 ## Content
@@ -29,7 +36,7 @@ System.out.println(hello);
 System.out.println("hello");
 ```
 Whose output will be:
-```console
+```shell
 hi
 hello
 ```
@@ -54,7 +61,9 @@ System.out.println(concat);
 
 To concatenate two strings, operator ??? is used.
 
-*+
-*++
-*-
-*,
+
+* +
+* ++
+* -
+* ,
+

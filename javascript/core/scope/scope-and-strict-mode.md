@@ -1,4 +1,4 @@
-# Scope and strict mode
+---
 author: rosielowther
 
 levels:
@@ -14,18 +14,30 @@ type: normal
 category: must-know
 
 standards:
+
   js.functions.5: 10
 
 tags:
+
   - workout
+
   - scope
+
   - deep
+
   - variables
+
   - obscura
+
 
 links:
 
   - '[john-dugan.com](https://john-dugan.com/hoisting-in-javascript/){website}'
+
+
+---
+
+# Scope and strict mode
 
 ---
 ## Content
@@ -62,13 +74,16 @@ function bar(foo){
 
 ???
 
-*`non-strict`
-*`strict`
+
+* `non-strict`
+* `strict`
 
 ---
 ## Revision
 
 Non-strict mode allows the automate creation of a variable in ??? scope, while *strict mode* would throw an error if the ??? variable is not declared.
-*global
-*local
-*strict
+
+* global
+* local
+* strict
+

@@ -1,12 +1,9 @@
-# Manage child processes in **Node**
+---
 author: catalin
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
@@ -22,11 +19,11 @@ tags:
   - deep
 
 links:
-
   - '[www.graemeboy.com](http://www.graemeboy.com/node-child-processes){website}'
+  - '[krasimirtsonev.com](http://krasimirtsonev.com/blog/article/Nodejs-managing-child-processes-starting-stopping-exec-spawn){website}'
 
-  - >-
-    [krasimirtsonev.com](http://krasimirtsonev.com/blog/article/Nodejs-managing-child-processes-starting-stopping-exec-spawn){website}
+---
+# Manage child processes in **Node**
 
 ---
 ## Content
@@ -71,12 +68,13 @@ var spawn =
   require('???').???;
 ```
 
-* `child_process`
-* `spawn`
-* `create-child`
-* `create`
-* `new`
-* `new-process`
+
+* child_process
+* spawn
+* create-child
+* create
+* new
+* new-process
 
 ---
 ## Revision
@@ -84,7 +82,9 @@ var spawn =
 What module is required to spawn child processes?
 ???
 
-*`child_process`
-*`child_processes`
-*`spawn_process`
-*`child-cpu`
+
+* child_process
+* child_processes
+* spawn_process
+* child-cpu
+

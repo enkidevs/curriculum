@@ -1,19 +1,14 @@
-# Bump package version in npm
+---
 author: catalin
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
 
 category: must-know
-
-parent: check-data-about-a-package
 
 standards:
   js.npm-publish: 10
@@ -23,9 +18,12 @@ tags:
   - introduction
 
 links:
-
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/version){website}'
 
+parent: check-data-about-a-package
+
+---
+# Bump package version in npm
 
 ---
 ## Content
@@ -72,9 +70,10 @@ $ npm version ???
 # new version will be 3.3.5
 ```
 
-* `minor`
-* `major`
-* `patch`
+
+* minor
+* major
+* patch
 
 ---
 ## Revision
@@ -86,6 +85,7 @@ $ npm version ???
 # new version will be 3.3.5
 ```
 
-* `minor`
-* `major`
-* `patch`
+
+* minor
+* major
+* patch

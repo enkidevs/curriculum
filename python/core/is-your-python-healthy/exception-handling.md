@@ -1,4 +1,4 @@
-# Exception Handling
+---
 author: SebaRaba
 
 levels:
@@ -11,14 +11,23 @@ type: normal
 
 category: must-know
 
+standards:
+  py.native-types-operations.10: 10
+  py.identify-python-syntax.2: 10
+
 links:
 
-  - '[more about exception handling](https://docs.python.org/3/tutorial/errors.html)'
+  - '[more about exception handling](https://docs.python.org/3/tutorial/errors.html){website}'
+
+
+---
+
+# Exception Handling
 
 ---
 ## Content
 
-If we have a **code snippet** that might rise some **exceptions**, there is a way to **handle** their occurrences: we need to wrap that *problematic* snippet into a `try` block. 
+If we have a **code snippet** that might rise some **exceptions**, there is a way to **handle** their occurrences: we need to wrap that *problematic* snippet into a `try` block.
 
 After the `try` block we need to include an `except` statement followed by a code snippet, which should run if the error rises.
 
@@ -80,6 +89,7 @@ Can we define a single except clauses that will catch all types of exceptions?
 
 ???
 
+
 * yes
 * no
 * depends on the exception
@@ -89,6 +99,7 @@ Can we define a single except clauses that will catch all types of exceptions?
 
 What are the two optional clauses of the `try-except` statement?
 ???
+
 
 * `else` and `finally`
 * `if` and `return`

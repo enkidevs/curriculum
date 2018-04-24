@@ -1,4 +1,4 @@
-# Use `contextlib.closing` to automatically call `close` on objects in a `with` statement
+---
 author: abingham
 
 levels:
@@ -23,6 +23,9 @@ links:
 
   - >-
     [docs.python.org](https://docs.python.org/2/library/contextlib.html#contextlib.closing){website}
+
+---
+# Use `contextlib.closing` to automatically call `close` on objects in a `with` statement
 
 ---
 ## Content

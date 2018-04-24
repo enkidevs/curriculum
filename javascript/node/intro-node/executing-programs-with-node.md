@@ -1,15 +1,12 @@
-# Executing programs with Node
+---
 author: tommarshall
 
 levels:
-
   - beginner
 
 type: normal
 
 category: must-know
-
-parent: the-repl-terminal
 
 standards:
   js.node-developer-environment.5: 10
@@ -18,7 +15,12 @@ tags:
   - introduction
 
 links:
-- '[nodeguide.com](http://nodeguide.com/beginner.html#the-interactive-node.js-shell)'
+  - '[nodeguide.com](http://nodeguide.com/beginner.html#the-interactive-node.js-shell){website}'
+
+parent: the-repl-terminal
+
+---
+# Executing programs with Node
 
 ---
 ## Content
@@ -50,6 +52,7 @@ Complete the code snippet to run `main.js`:
 $ ??? main.js
 ```
 
-* `node`
-* `run`
-* `compile`
+* node
+* run
+* compile
+

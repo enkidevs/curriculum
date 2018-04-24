@@ -1,4 +1,4 @@
-# Test Suites
+---
 author: tommarshall
 
 levels:
@@ -21,6 +21,9 @@ links:
 
   - >-
     [www.webdesignermag.co.uk](http://www.webdesignermag.co.uk/how-good-is-your-javscript-test-with-jasmine/){website}
+
+---
+# Test Suites
 
 ---
 ## Content
@@ -57,12 +60,12 @@ Complete the snippet to define a test suite:
   // ...
 });
 ```
-*`describe` 
-*`function` 
-*`suite` 
-*`testsuite` 
-*`func` 
-*`callback`
+* describe
+* function 
+* suite
+* testsuite
+* func
+* callback
 
 ---
 ## Revision

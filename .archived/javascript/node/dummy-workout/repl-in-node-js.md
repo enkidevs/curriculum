@@ -1,4 +1,4 @@
-# REPL in Node.js
+---
 author: rosielowther
 
 levels:
@@ -19,6 +19,9 @@ links:
 
   - >-
     [docs.nodejitsu.com](https://docs.nodejitsu.com/articles/REPL/how-to-use-nodejs-repl){website}
+
+---
+# REPL in Node.js
 
 ---
 ## Content
@@ -46,10 +49,10 @@ What does *REPL* stand for?
 
 ???
 
-*`Read-Eval-Print-Loop`
-*`Read-Print-Loop`
-*`Run-Eval-Print-Loop`
-*`Read-Eval-Process-Load`
+* Read-Eval-Print-Loop
+* Read-Print-Loop
+* Run-Eval-Print-Loop
+* Read-Eval-Process-Load
 
 ---
 ## Revision
@@ -59,7 +62,7 @@ Open **Node**'s REPL:
 $ ???
 ```
 
-*`node`
-*`npm`
-*`repl`
-*`co`
+* node
+* npm
+* repl
+* co

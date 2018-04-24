@@ -1,4 +1,4 @@
-# Debug with the `*` selector
+---
 author: catalin
 
 levels:
@@ -11,12 +11,17 @@ category: caveats
 
 tags:
 
-  - ''
+  -
+
 
 links:
 
-  - >-
-    [gist.github.com](https://gist.github.com/sodevious/b87dbedb721624338b04){website}
+  - '[gist.github.com](https://gist.github.com/sodevious/b87dbedb721624338b04){website}'
+
+
+---
+
+# Debug with the `*` selector
 
 ---
 ## Content
@@ -43,6 +48,7 @@ Which selector is used to select every element of a page so styles can be applie
 
 ???
 
+
 * `*`
 * `+`
 * `=`
@@ -60,6 +66,7 @@ div * {
 ```
 ???
 
+
 * Selects all elements inside div elements and sets their font family to Arial Narrow.
 * Selects all elements and sets their font family to Arial Narrow.
 * Selects all elements where the font family is Arial Narrow.
@@ -67,14 +74,15 @@ div * {
 
 ---
 ## Quiz
+### which selector is used to select every element on the page?
 
-headline: which selector is used to select every element on the page?
+```css
+??? { background-color: rgba(0,255,0,0.1); }
+```
 
-question: |
-  ??? { background-color: rgba(0,255,0,0.1); }
+ ???
 
-answers:
-  - "*"
-  - "-"
-  - <>
-  - html
+* *
+* -
+* <>
+* html

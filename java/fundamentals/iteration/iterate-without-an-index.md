@@ -1,4 +1,4 @@
-# Iterate without an index
+---
 author: adamMontgomerie
 
 levels:
@@ -17,10 +17,15 @@ tags:
 
   - loops
 
+
 links:
 
-  - >-
-    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=88){website}
+  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=88){website}'
+
+
+---
+
+# Iterate without an index
 
 ---
 ## Content
@@ -47,3 +52,4 @@ for(int i=0; i<colors.size(); i++){
 }
 
 ```
+

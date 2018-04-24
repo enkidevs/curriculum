@@ -1,4 +1,4 @@
-# How to open a file object
+---
 author: SebaRaba
 
 levels:
@@ -11,9 +11,17 @@ type: normal
 
 category: how to
 
+standards:
+  py.standard-library-operating-system.0: 10
+
 links:
 
-  - '[More about open() function](https://www.tutorialspoint.com/python3/python_files_io.htm)'
+  - '[More about open() function](https://www.tutorialspoint.com/python3/python_files_io.htm){website}'
+
+
+---
+
+# How to open a file object
 
 ---
 ## Content
@@ -23,14 +31,14 @@ links:
 Consider the following syntax:
 
 ```
-obj = open(file_name, [access_mode],
+obj = open(f_name, [access_mode],
                       [buffering])
 ```
 
 Here's the disambiguation of its arguments:
 - `file_name`: string value that contains the name of the file
 - `access_mode`: it determines the mode in which the file has to be opened: `read`, `write`, `append`
-- `buffering`: there are two important values `0` (means no buffering) or `1` (means line buffering[1] is performed). If the value is greater than `1` then that will be considered the buffer's size
+- `buffering`: there are two important values `0` (means no buffering) or `1` (means line buffering[1] is performed). If the value is grater than `1` then that will be considered the buffer's size
 
 The supported modes for opening a file are:
 
@@ -62,24 +70,16 @@ print("The file mode is: ", obj.mode)
 ```
 
 ---
-## Footnotes
-
-[1:line buffering]
-Characters written to a **line buffered stream** are transmitted to the **file** in blocks when a **new line** character is encountered.
-
-[2:file pointer]
-Imagine file pointer as a computer cursor that states on which line you are in the current file.
-
----
 ## Practice
 
 Suppose we want to append something to a file and print its content. Fill the gaps accordingly:
-```py
+```python
 file = open('practice.py', '???')
 file.write('Append this')
 file.???(0)
 print(file.???())
 ```
+
 
 * `a+`
 * `seek`
@@ -93,10 +93,11 @@ print(file.???())
 ## Revision
 
 Suppose we want to open a file and write something to it. Fill the gaps accordingly:
-```py
+```python
 file = open('practice.txt', '???')
 file.???('this is my new file')
 ```
+
 
 * `w`
 * `write`

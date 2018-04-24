@@ -1,21 +1,15 @@
-# The `http` module for servers
+---
 author: tommarshall
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
   - advanced
 
 type: normal
 
 category: must-know
-
-parent: requiring-and-exporting
 
 standards:
   js.use-modules: 20
@@ -25,7 +19,12 @@ tags:
   - workout
 
 links:
-- '[The HTTP Module](https://davidwalsh.name/nodejs-http-request)'
+  - '[The HTTP Module](https://davidwalsh.name/nodejs-http-request){website}'
+
+parent: requiring-and-exporting
+
+---
+# The `http` module for servers
 
 ---
 ## Content
@@ -50,12 +49,12 @@ function requestHandler(request, response) {
 In the function above, the `.end()` method will `write` the specified content to the `response` and signal the server it was sent. This method **must** be called on each response.
 
 To create the server a new HTTP server object needs to be created with a port number passed to it for it to listen on. First create the server via `createServer`:
-```
+```javascript
 var server = http.createServer
                   (requestHandler);
 ```
 Then assign a port to the server object using `listen`:
-```
+```javascript
 server.listen(8000, function() {
 
   console.log(‘Server listening here:
@@ -68,7 +67,7 @@ server.listen(8000, function() {
 ## Practice
 
 Complete the code snippet to listen for requests on port `2242` with `server`:
-```
+```javascript
 server.???(???, function() {
 
   console.log(‘Server listening here:
@@ -78,21 +77,21 @@ server.???(???, function() {
 
 ```
 
-* `listen`
-* `2242`
-* `'listener'`
-* `on`
-* `createServer`
+* listen
+* 2242
+* 'listener'
+* on
+* createServer
 
 ---
 ## Revision
 
 Complete the code snippet to create a new HTTP server object:
 
-```
+```javascript
 var server = http.???(requestHandler);
 ```
 
-* `createServer`
-* `httpServer`
-* `createHTTP`
+* createServer
+* httpServer
+* createHTTP

@@ -1,4 +1,4 @@
-# Getter and setter methods
+---
 author: adamMontgomerie
 
 levels:
@@ -27,6 +27,9 @@ links:
 
   - >-
     [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects){website}
+
+---
+# Getter and setter methods
 
 ---
 ## Content
@@ -75,8 +78,8 @@ var enki = {
 };
 ```
 
-*`get`
-*`set`
-*`.`
-*`getter`
-*`setter`
+* get
+* set
+* .
+* getter
+* setter

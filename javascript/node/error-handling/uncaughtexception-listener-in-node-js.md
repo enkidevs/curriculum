@@ -1,12 +1,9 @@
-# `uncaughtException` listener in Node.js
+---
 author: rosielowther
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
@@ -20,12 +17,12 @@ tags:
   - introduction
   - workout
 
-
-
 links:
+  - '[nodejs.org](https://nodejs.org/api/process.html#process_event_uncaughtexception){website}'
 
-  - >-
-    [nodejs.org](https://nodejs.org/api/process.html#process_event_uncaughtexception){website}
+
+---
+# `uncaughtException` listener in Node.js
 
 ---
 ## Content
@@ -33,7 +30,7 @@ links:
 Use an `uncaughtException` listener to prevent a program crashing due to an unhandled exception.
 
 For example:
-```
+```javascript
 process.on('uncaughtException',
   function(err) {
      console.log('exception: ' + err);
@@ -57,9 +54,10 @@ process.???('???',
 
 ```
 
-*`on`
-*`uncaughtException`
-*`uncaught`
-*`any`
-*`undefinedState`
-*`listen`
+* on
+* uncaughtException
+* uncaught
+* any
+* undefinedState
+* listen
+

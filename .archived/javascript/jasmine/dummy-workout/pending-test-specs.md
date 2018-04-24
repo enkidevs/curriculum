@@ -1,4 +1,4 @@
-# Pending Test Specs
+---
 author: tommarshall
 
 levels:
@@ -21,6 +21,9 @@ links:
 
   - >-
     [www.safaribooksonline.com](https://www.safaribooksonline.com/library/view/javascript-testing-with/9781449356729/_skipping_specs_and_suites.html){website}
+
+---
+# Pending Test Specs
 
 ---
 ## Content
@@ -66,7 +69,7 @@ it("This is Spec C", () => {
 
 How do you declare a spec as pending?
 ???
-* `xit`
-* `pit`
-* `pend_it`
-* `sit`
+* xit
+* pit
+* pend_it
+* sit

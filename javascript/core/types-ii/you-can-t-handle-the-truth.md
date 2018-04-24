@@ -1,4 +1,4 @@
-# You can't handle the truth!
+---
 author: Bruno
 
 levels:
@@ -21,6 +21,9 @@ standards:
 tags:
   - introduction
   - workout
+---
+
+# You can't handle the truth!
 
 ---
 ## Content

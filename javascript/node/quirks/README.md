@@ -1,6 +1,6 @@
 name: Node Execution Environment
 
-description: Particularities of executing node
+description: Particularities of executing node 
 
 insights:
   - node-and-sudo

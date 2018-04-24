@@ -1,4 +1,4 @@
-# Async: a history
+---
 author: rosielowther
 
 levels:
@@ -10,20 +10,27 @@ type: normal
 category: must-know
 
 standards:
+
   js.async.3: 10
 
 tags:
+
   - introduction
+
   - workout
+
   - obscura
+
 
 links:
 
-  - >-
-    [blog.risingstack.com](https://blog.risingstack.com/asynchronous-javascript/){website}
+  - '[blog.risingstack.com](https://blog.risingstack.com/asynchronous-javascript/){website}'
+  - '[github.com](https://github.com/getify/You-Dont-Know-JS/tree/master/async%20%26%20performance){website}'
 
-  - >-
-    [github.com](https://github.com/getify/You-Dont-Know-JS/tree/master/async%20%26%20performance){website}
+
+---
+
+# Async: a history
 
 ---
 ## Content
@@ -51,6 +58,7 @@ In ES7 it will be possible to use the `async` keyword to create an async functio
 
 In ES7, it'll be possible to use the ??? keyword to create an async function. The ??? keyword works similarly to yield.
 
+
 * async
 * await
 * return
@@ -66,7 +74,9 @@ What keyword is specific to **ES7 Async**?
 
 ???
 
-*`await`
-*`yield`
-*`return`
-*`throw`
+
+* `await`
+* `yield`
+* `return`
+* `throw`
+

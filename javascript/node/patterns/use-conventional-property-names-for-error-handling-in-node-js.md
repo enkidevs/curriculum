@@ -1,10 +1,8 @@
-# Use conventional property names for error handling in Node.js
+---
 author: rosielowther
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal
@@ -20,9 +18,10 @@ tags:
   - deep
 
 links:
+  - '[www.joyent.com](https://www.joyent.com/developers/node/design/errors){website}'
 
-  - >-
-    [www.joyent.com](https://www.joyent.com/developers/node/design/errors){website}
+---
+# Use conventional property names for error handling in Node.js
 
 ---
 ## Content
@@ -48,10 +47,10 @@ When handling errors in Node, which class is it best practice to use?
 
 ???
 
-* `Error`
-* `node-error`
-* `Node-error`
-* `nodeerror`
+* Error
+* node-error
+* Node-error
+* nodeerror
 
 ---
 ## Revision
@@ -60,7 +59,7 @@ Which one would be a conventional property name for error handling?
 
 ???
 
-* `localHostname`
-* `host`
-* `name`
-* `localName`
+* localHostname
+* host
+* name
+* localName

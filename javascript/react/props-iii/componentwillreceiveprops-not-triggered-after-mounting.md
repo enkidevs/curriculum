@@ -1,5 +1,4 @@
-# componentWillReceiveProps Not Triggered After Mounting
-
+---
 author: tommarshall
 
 levels:
@@ -14,16 +13,17 @@ type: normal
 
 category: tip
 
-parent: custom-proptype-s-to-be-required
 
 links:
 
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/docs/component-specs.html
-    ){website}
+  - '[facebook.github.io](https://facebook.github.io/react/docs/component-specs.html ){website}'
+  - '[jaketrent.com](http://jaketrent.com/post/test-react-componentwillreceiveprops/){website}'
 
-  - >-
-    [jaketrent.com](http://jaketrent.com/post/test-react-componentwillreceiveprops/){website}
+parent: custom-proptype-s-to-be-required
+
+---
+
+# componentWillReceiveProps Not Triggered After Mounting
 
 ---
 ## Content
@@ -32,7 +32,7 @@ links:
 
 It handles the logic of comparing with the old props, then acting upon any changes. It doesn't trigger at mounting as there are no old props and this helps define what the methods does.
 
-```JavaScript
+```javascript
 var testingComponent = React.createClass({
   getDefaultProps() {
     return {
@@ -58,3 +58,4 @@ var testingComponent = React.createClass({
 ```
 
 Find a link below to check out other lifecycle methods to find the one you need!
+

@@ -1,19 +1,14 @@
-# Manage local node modules with `npm link`
+---
 author: catalin
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
 
 category: feature
-
-parent: check-data-about-a-package
 
 standards:
   js.npm-tasks-and-modules-manager: 10
@@ -23,8 +18,12 @@ tags:
   - introduction
 
 links:
-
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/link){website}'
+
+parent: check-data-about-a-package
+
+---
+# Manage local node modules with `npm link`
 
 ---
 ## Content

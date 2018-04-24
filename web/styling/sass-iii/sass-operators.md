@@ -1,4 +1,4 @@
-# Sass Operators
+---
 author: tommarshall
 
 levels:
@@ -11,10 +11,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [webstandardssherpa.com](http://webstandardssherpa.com/reviews/getting-started-with-sass-part-2/){website}
+  - '[webstandardssherpa.com](http://webstandardssherpa.com/reviews/getting-started-with-sass-part-2/){website}'
+
+
+---
+
+# Sass Operators
 
 ---
 ## Content
@@ -61,6 +66,7 @@ p {
   font: #{???}???#{???};
 }
 ```
+
 * `$font-size`
 * `/`
 * `$line-height`
@@ -79,9 +85,11 @@ p {
   font: #{???}???#{???};
 }
 ```
+
 * `$font-size`
 * `/`
 * `$line-height`
 * `font-size`
 * `line-height`
 * `\`
+

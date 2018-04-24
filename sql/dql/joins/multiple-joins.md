@@ -1,4 +1,4 @@
-# Multiple JOINs
+---
 author: mihaiberq
 
 levels:
@@ -11,13 +11,26 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
+standards:
+  sql.read-multiple-tables.0: 10
+  sql.read-multiple-tables.1: 10
+
 tags:
-   - workout
-   - deep
+
+  - workout
+
+  - deep
+
+
+
+
+---
+
+# Multiple JOINs
 
 ---
 ## Content
@@ -56,7 +69,7 @@ id   |  name
 12   |  grass
 ```
 The syntax is this:
-```SQL
+```sql
 SELECT pokemon.name, type.name
 FROM pokemon_type
 LEFT JOIN pokemon
@@ -81,7 +94,7 @@ The same result can be achieved by using subqueries.
 ## Practice
 
 Obtain the list of moves a Pokémon learns ordered by game version and level at which it learns the move:
-```SQL
+```sql
 SELECT pokemon.name,
   poke_move_level.level,
   poke_move_level.name,
@@ -98,6 +111,7 @@ ORDER BY pokemon.id,
   LJoinRes.version_group_id,
   LJoinRes.level;
 ```
+
 
 * `FROM`
 * `RIGHT OUTER JOIN`
@@ -116,59 +130,47 @@ Is the following statement true or false?
 In order to join multiple tables together, subqueries must be used.
 
 ???
+
 * false
 * true
 
 ---
 ## Quiz
+### Sometimes one is not enough?
 
-headline: Sometimes one is not enough?
 
-question: |
+Given the tables called `pokedex`, `version_group` and `pokedex_version_group`:
 
-  Given the tables called `pokedex`, `version_group` and `pokedex_version_group`:
+```bash
 
-  id | is_main_series | region_id |       name       
-  ---|----------------|-----------|------------------
-   1 | t              |           | national
-   2 | t              |         1 | kanto
-   3 | t              |         2 | original-johto
-   4 | t              |         3 | hoenn
+id | is_main_series | region_id |       name       
+===|================|===========|================
+ 1 | t              |           | national
+ 2 | t              |         1 | kanto
+ 3 | t              |         2 | original-johto
+ 4 | t              |         3 | hoenn
 
-  (...)
+(...)
 
-  id | order | generation_id |           name            
-  ---|-------|---------------|---------------------------
-   1 |     1 |             1 | red-blue
-   2 |     2 |             1 | yellow
-   3 |     3 |             2 | gold-silver
-  (...)
+id | order | generation_id |           name            
+===|=======|===============|======================
+ 1 |     1 |             1 | red-blue
+ 2 |     2 |             1 | yellow
+ 3 |     3 |             2 | gold-silver
+(...)
 
-  id | pokedex_id | version_group_id
-  ---|------------|------------------
-   1 |          2 |                1
-   2 |          2 |                2
-   3 |          2 |                7
+id | pokedex_id | version_group_id
+===|============|==================
+ 1 |          2 |                1
+ 2 |          2 |                2
+ 3 |          2 |                7
 
-  Get the names of pokedexes and version_groups using `pokedex_version_group` table. Do not include records that don't have both, pokedex and version_group :
+```
+Get the names of pokedexes and version_groups using `pokedex_version_group` table. Do not include records that don't have both, pokedex and version_group :
 
-answers:  
-  - SELECT pokedex.name, version_group.name
-    FROM pokedex_version_group
-    INNER JOIN pokedex ON pokedex_version_group.pokedex_id = pokedex.id
-    INNER JOIN version_group ON pokedex_version_group.version_group_id = version_group.id;
+ ???
 
-  - SELECT pokedex.name, version_group.name
-    FROM pokedex_version_group
-    RIGHT JOIN pokedex ON pokedex_version_group.pokedex_id = pokedex.id
-    LEFT JOIN version_group ON pokedex_version_group.version_group_id = version_group.id;
-
-  - SELECT pokedex.name, version_group.name
-    FROM pokedex_version_group
-    FULL OUTER JOIN pokedex ON pokedex_version_group.pokedex_id = pokedex.id
-    FULL OUTER JOIN version_group ON pokedex_version_group.version_group_id = version_group.id;
-
-  - SELECT pokedex.name, version_group.name
-    FROM pokedex_version_group
-    LEFT JOIN pokedex ON pokedex_version_group.pokedex_id = pokedex.id
-    RIGHT JOIN version_group ON pokedex_version_group.version_group_id = version_group.id;
+* SELECT pokedex.name, version_group.name FROM pokedex_version_group INNER JOIN pokedex ON pokedex_version_group.pokedex_id = pokedex.id INNER JOIN version_group ON pokedex_version_group.version_group_id = version_group.id;
+* SELECT pokedex.name, version_group.name FROM pokedex_version_group RIGHT JOIN pokedex ON pokedex_version_group.pokedex_id = pokedex.id LEFT JOIN version_group ON pokedex_version_group.version_group_id = version_group.id;
+* SELECT pokedex.name, version_group.name FROM pokedex_version_group FULL OUTER JOIN pokedex ON pokedex_version_group.pokedex_id = pokedex.id FULL OUTER JOIN version_group ON pokedex_version_group.version_group_id = version_group.id;
+* SELECT pokedex.name, version_group.name FROM pokedex_version_group LEFT JOIN pokedex ON pokedex_version_group.pokedex_id = pokedex.id RIGHT JOIN version_group ON pokedex_version_group.version_group_id = version_group.id;

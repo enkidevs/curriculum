@@ -1,4 +1,4 @@
-# Creating Symbolic Links
+---
 author: tommarshall
 
 levels:
@@ -16,6 +16,9 @@ category: tip
 links:
 
   - '[github.com](https://github.com/gruntjs/grunt-contrib-symlink){website}'
+
+---
+# Creating Symbolic Links
 
 ---
 ## Content
@@ -57,9 +60,9 @@ Load the plugin used to create symbolic links (references to files or directorie
 grunt.???('???');
 ```
 
-* `loadNpmTasks`
-* `grunt-contrib-symlink`
-* `loadTasks`
-* `symbolic-link`
-* `symlink`
-* `load`
+* loadNpmTasks
+* grunt-contrib-symlink
+* loadTasks
+* symbolic-link
+* symlink
+* load

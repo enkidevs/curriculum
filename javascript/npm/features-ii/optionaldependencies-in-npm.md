@@ -1,24 +1,14 @@
-# `optionalDependencies` in npm
+---
 author: catalin
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
 
 category: feature
-
-parent: check-data-about-a-package
-
-links:
-
-  - >-
-    [docs.npmjs.com](https://docs.npmjs.com/files/package.json#optionaldependencies){website}
 
 standards:
   js.use-open-source-javascript-packages: 10
@@ -28,7 +18,15 @@ tags:
   - workout
   - deep
 
+parent: check-data-about-a-package
 
+links:
+  - '[docs.npmjs.com](https://docs.npmjs.com/files/package.json#optionaldependencies){website}'
+
+
+---
+
+# `optionalDependencies` in npm
 
 ---
 ## Content
@@ -69,6 +67,7 @@ It is better to put a dependency name just in one place as `optionalDependencies
 ## Practice
 
 If *npm* cannot find or fails to install the dependency the installation of the module continues, however what is required from the user? ???
+
 * A try catch to handle the lack of the dependency.
 * A printed error statement.
 * An alternative way for the module to run without said dependency.
@@ -80,7 +79,7 @@ In what object of `package.json` can dispensable dependencies be specified?
 
 ???
 
-* `optionalDependenceis`
-* `peerDependencies`
-* `devDependenceis`
-* `dependencies`
+* optionalDependenceis
+* peerDependencies
+* devDependenceis
+* dependencies

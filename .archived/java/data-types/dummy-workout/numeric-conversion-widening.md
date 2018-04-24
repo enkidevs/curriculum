@@ -1,4 +1,4 @@
-# Numeric Conversion - Widening
+---
 author: tommarshall
 
 levels:
@@ -13,6 +13,9 @@ links:
 
   - >-
     [www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/NUM13-J.+Avoid+loss+of+precision+when+converting+primitive+integers+to+floating-point){website}
+
+---
+# Numeric Conversion - Widening
 
 ---
 ## Content

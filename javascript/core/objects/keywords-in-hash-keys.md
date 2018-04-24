@@ -1,4 +1,4 @@
-# Keywords in hash keys
+---
 author: pawel
 
 levels:
@@ -9,15 +9,22 @@ type: normal
 
 category: best practice
 
-notes: 'Same issue, not sure if it''s not really really basic.'
-
 standards:
+
   js.data-types-structures.3: 10
+
   js.data-types-structures.4: 10
+
 
 links:
 
-  - "[bonsaiden.github.io](http://bonsaiden.github.io/JavaScript-Garden/){website}"
+  - '[bonsaiden.github.io](http://bonsaiden.github.io/JavaScript-Garden/){website}'
+
+notes: 'Same issue, not sure if it''s not really really basic.'
+
+---
+
+# Keywords in hash keys
 
 ---
 ## Content
@@ -58,6 +65,7 @@ var dog = {
   ??? ???
 }
 ```
+
 * `'typeof':`
 * `typeof`
 * `type of`
@@ -67,3 +75,4 @@ var dog = {
 * `name`
 * `'typeof'`
 * `typeof:`
+

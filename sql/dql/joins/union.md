@@ -1,4 +1,4 @@
-# UNION
+---
 author: mihaiberq
 
 levels:
@@ -17,9 +17,21 @@ category: must-know
 
 inAlgoPool: false
 
+standards:
+  sql.read-multiple-tables.0: 10
+
 tags:
+
   - workout
+
   - deep
+
+
+
+
+---
+
+# UNION
 
 ---
 ## Content
@@ -31,7 +43,7 @@ However, there are two necessary conditions for a `UNION` to be performed:
     - every *nth* column must have the same type in all union queries
 
 For example, the following union will fail:
-```SQL
+```sql
 SELECT *
 FROM language
 UNION
@@ -43,7 +55,7 @@ FROM language_name;
 
 ```
 As well as the next one:
-```SQL
+```sql
 SELECT id, name
 FROM language
 UNION
@@ -54,7 +66,7 @@ from language_name;
  LINE 4: SELECT id, language_id   */
 ```
 Changing `language_id` to `name` fixes the errors:
-```SQL
+```sql
 SELECT id, name
 FROM language
 UNION
@@ -78,7 +90,7 @@ id |       name
 ### UNION ALL
 
 By default, `UNION` returns only **distinct** values. If you need all occurrences of the items, use `UNION ALL`. In the above example, the tables won't contain any duplicates: if we were to change the last query to include the `ALL` keyword, the number of total rows will stay the same:
-```SQL
+```sql
 SELECT id, name
 FROM language
 UNION ALL
@@ -108,7 +120,7 @@ For tables where data singularity is not always the case, the results might be d
 
 Retrieve the `UNION` of the `region` and `region_name` tables:
 
-```SQL
+```sql
 SELECT name
 ??? region
 ???
@@ -116,6 +128,7 @@ SELECT ???
 FROM ???
 WHERE region_name.region_id = 2;
 ```
+
 
 * `FROM`
 * `UNION`
@@ -130,6 +143,7 @@ WHERE region_name.region_id = 2;
 
 ??? command retrieves all rows, `even duplicated`, of the union.
 
+
 * `UNION ALL`
 * `UNION`
 * `JOIN`
@@ -137,69 +151,46 @@ WHERE region_name.region_id = 2;
 
 ---
 ## Quiz
-
-headline: Can you use a UNION of SELECTs?
-
-question: |
-
-  Given the tables called `item_pocket` and `item_category`:
-
-  id |   name    
-  ----|:---------
-   1 | misc
-   2 | medicine
-   3 | pokeballs
-  (...)
-
-  id   | item_pocket_id |    name       
-  -----|:---------------|:-------------
-     1 |              7 | stat-boosts
-     2 |              5 | effort-drop
-     3 |              5 | medicine
-     4 |              5 | other
-     5 |              5 | in-a-pinch
-  (...)
+### Can you use a UNION of SELECTs?
+Given the tables called `item_pocket` and `item_category`:
 
 
-  Retrieve `item_category`s' id and names together with `item_pocket`s' names without duplicates.
-  The result should look like this:
+```bash
 
-    id   | pocket_name |   name       
-  -------|:------------|:-------------
-       1 | battle      | stat-boosts
-       2 | berries     | effort-drop
-       3 | misc        | medicine
+id |   name    
+===|===========
+ 1 | misc
+ 2 | medicine
+ 3 | pokeballs
+(...)
+
+id   | item_pocket_id |    name       
+=====|================|=============
+   1 |              7 | stat-boosts
+   2 |              5 | effort-drop
+   3 |              5 | medicine
+   4 |              5 | other
+   5 |              5 | in-a-pinch
+(...)
+
+```
 
 
-answers:
-  - SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name
-    FROM item_category RIGHT JOIN item_pocket
-    ON item_pocket.id = item_category.item_pocket_id
-    UNION
-    SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name
-    FROM item_category LEFT JOIN item_pocket
-    ON item_pocket.id = item_category.item_pocket_id;
+Retrieve `item_category`s' id and names together with `item_pocket`s' names without duplicates.
+The result should look like this:
 
-  - SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name
-    FROM item_category FULL JOIN item_pocket
-    ON item_pocket.id = item_category.item_pocket_id
-    UNION ALL
-    SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name
-    FROM item_category RIGHT JOIN item_pocket
-    ON item_pocket.id = item_category.item_pocket_id;
+```bash
 
-  - SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name
-    FROM item_category RIGHT JOIN item_pocket
-    ON item_pocket.name = item_category.name
-    UNION
-    SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name
-    FROM item_category RIGHT JOIN item_pocket
-    ON item_pocket.name = item_category.name;
+  id   | pocket_name |   name       
+=======|=============|===============
+     1 | battle      | stat-boosts
+     2 | berries     | effort-drop
+     3 | misc        | medicine
+```
 
-  - SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name
-    FROM item_category RIGHT JOIN item_pocket
-    ON item_pocket.id = item_category.item_pocket_id
-    UNION
-    SELECT item_category.id
-    FROM item_category RIGHT JOIN item_pocket
-    ON item_pocket.id = item_category.item_pocket_id;
+ ???
+
+* SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category RIGHT JOIN item_pocket ON item_pocket.id = item_category.item_pocket_id UNION SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category LEFT JOIN item_pocket ON item_pocket.id = item_category.item_pocket_id;
+* SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category FULL JOIN item_pocket ON item_pocket.id = item_category.item_pocket_id UNION ALL SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category RIGHT JOIN item_pocket ON item_pocket.id = item_category.item_pocket_id;
+* SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category RIGHT JOIN item_pocket ON item_pocket.name = item_category.name UNION SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category RIGHT JOIN item_pocket ON item_pocket.name = item_category.name;
+* SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category RIGHT JOIN item_pocket ON item_pocket.id = item_category.item_pocket_id UNION SELECT item_category.id FROM item_category RIGHT JOIN item_pocket ON item_pocket.id = item_category.item_pocket_id;

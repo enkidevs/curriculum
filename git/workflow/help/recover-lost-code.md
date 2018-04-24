@@ -1,4 +1,4 @@
-# Recover lost code
+---
 author: rosielowther
 
 levels:
@@ -9,11 +9,16 @@ type: normal
 
 category: must-know
 
-parent: check-the-reflog
 
 links:
 
   - '[ochronus.com](https://ochronus.com/git-tips-from-the-trenches/){website}'
+
+parent: check-the-reflog
+
+---
+
+# Recover lost code
 
 ---
 ## Content
@@ -43,6 +48,7 @@ Create a `newBranch` that has the `ba23fe1` commit as the starting point:
 ```
 $ git ??? ??? ba23fe1
 ```
+
 * `branch`
 * `newBranch`
 * `temp`
@@ -57,6 +63,7 @@ Check the reflog :
 ```
 $ git ??? ???
 ```
+
 * `reflog`
 * `-g`
 * `-m`
@@ -64,6 +71,5 @@ $ git ??? ???
 
 ---
 ## Footnotes
-
 [1:orphan commits]
 Orphan commits are just commits that get lost in various scenarios. One such example would be running `git reset --hard HEAD^`.

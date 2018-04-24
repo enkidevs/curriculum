@@ -1,4 +1,4 @@
-# The Git working tree
+---
 author: catalin
 
 levels:
@@ -7,14 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics){website}
+  - '[git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics){website}'
+
+
+---
+
+# The Git working tree
 
 ---
 ## Content
@@ -39,10 +44,11 @@ What status does a file have if it was previously committed, but it is not curre
 
 ???
 
-*`Tracked`
-*`Untracked`
-*`Staged`
-*`Modified`
+
+* `Tracked`
+* `Untracked`
+* `Staged`
+* `Modified`
 
 ---
 ## Revision
@@ -51,7 +57,9 @@ How are changes added to a repository?
 
 ???
 
+
 * Through a commit
 * Automatically
 * By staging them
 * By putting them in the **working tree**
+

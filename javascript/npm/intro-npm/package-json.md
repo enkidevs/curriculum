@@ -1,14 +1,13 @@
-# `package.json`
+---
 author: mihaiberq
 
 levels:
+
   - beginner
 
 type: normal
 
 category: must-know
-
-parent: setting-up-npm
 
 standards:
   js.npm-tasks-and-modules-manager: 10
@@ -17,9 +16,12 @@ tags:
   - introduction
 
 links:
+  - '[docs.npmjs.com](https://docs.npmjs.com/getting-started/using-a-package.json){website}'
 
-  - >-
-    [docs.npmjs.com](https://docs.npmjs.com/getting-started/using-a-package.json){website}
+parent: setting-up-npm
+
+---
+# `package.json`
 
 ---
 ## Content
@@ -73,11 +75,12 @@ $ ??? ??? ???
 ```
 Will create the default *package.json* file.
 
-* `npm`
-* `init`
-* `-y`
-* `install`
-* `-i`
+
+* npm
+* init
+* -y
+* install
+* -i
 
 ---
 ## Revision
@@ -85,6 +88,7 @@ Will create the default *package.json* file.
 The *package.json* file serves as
 
 ???
+
 
 * all of the above
 * a list of dependencies

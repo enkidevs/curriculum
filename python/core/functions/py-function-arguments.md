@@ -1,4 +1,4 @@
-# Function arguments
+---
 author: SebaRaba
 
 levels:
@@ -9,9 +9,18 @@ type: normal
 
 category: must-know
 
+standards:
+  py.functions.2: 10
+
+
 links:
 
-  - '[More about arguments](https://www.tutorialspoint.com/python/python_functions.htm)'
+  - '[More about arguments](https://www.tutorialspoint.com/python/python_functions.htm){website}'
+
+
+---
+
+# Function arguments
 
 ---
 ## Content
@@ -121,6 +130,7 @@ foo(name, department);
 ```
 ???
 
+
 * Yes, it will.
 * No, it won't.
 * Yes, but only for some input.
@@ -137,6 +147,7 @@ def foo(product, ???, ???):
 
 foo('Baseball bat', ???)
 ```
+
 * quantity
 * price='$1.00'
 * 150

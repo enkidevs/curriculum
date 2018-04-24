@@ -1,4 +1,4 @@
-# Deleting non-empty directories
+---
 author: tuwi.dc
 
 levels:
@@ -12,14 +12,27 @@ type: normal
 category: must-know
 
 tags:
+
   - linux
+
   - rm
+
   - terminal
+
   - delete
+
   - non empty
+
   - workout
+
   - introduction
 
+
+
+
+---
+
+# Deleting non-empty directories
 
 ---
 ## Content
@@ -69,11 +82,12 @@ Complete the command to remove `old_folder` and print the name of each deleted f
 ```
 $ ??? ??? ~/old_folder
 ```
-*`rm`
-*`-rv`
-*`-r`
-*`-v`
-*`-rm`
+
+* `rm`
+* `-rv`
+* `-r`
+* `-v`
+* `-rm`
 
 ---
 ## Revision
@@ -83,7 +97,9 @@ Recursively force remove `old_folder` :
 $ ??? ???
          ~/old_folder
 ```
-*`rm`
-*`-rf`
-*`-rv`
-*`-rm`
+
+* `rm`
+* `-rf`
+* `-rv`
+* `-rm`
+

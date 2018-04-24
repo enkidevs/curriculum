@@ -1,4 +1,4 @@
-# Sudo-fu
+---
 author: Arseny
 
 levels:
@@ -12,6 +12,10 @@ levels:
 type: tetris
 
 category: tip
+
+---
+
+# Sudo-fu 
 
 ---
 ## Content

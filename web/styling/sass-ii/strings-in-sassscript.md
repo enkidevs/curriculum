@@ -1,4 +1,4 @@
-# Strings in SassScript
+---
 author: tommarshall
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [sass-lang.com](http://sass-lang.com/documentation/Sass/Script/Functions.html#list-functions){website}
+  - '[sass-lang.com](http://sass-lang.com/documentation/Sass/Script/Functions.html#list-functions){website}'
+
+
+---
+
+# Strings in SassScript
 
 ---
 ## Content
@@ -49,6 +54,7 @@ Pick the right index at which you should insert a character as to result in "enk
 str-insert("eki", "n", ???) 
 ```
 
+
 * `2`
 * `1`
 * `3`
@@ -63,8 +69,10 @@ Pick the right index at which you should insert a character as to result in "enk
 str-insert("eki", "n", ???) 
 ```
 
+
 * `2`
 * `1`
 * `3`
 * `4`
 * `0`
+

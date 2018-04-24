@@ -1,4 +1,4 @@
-# Spread (Part 1)
+---
 author: alexjmackey
 
 levels:
@@ -7,13 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Spread_operator){website}'
+
+
+---
+
+# Spread (Part 1)
 
 ---
 ## Content
@@ -51,3 +57,4 @@ someFunc(...test, ...test);
 ```
 
 This saves some tedious and potentially error prone assignment code.
+

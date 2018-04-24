@@ -1,4 +1,4 @@
-# Reset vs. Revert
+---
 author: mihaiberq
 
 levels:
@@ -8,6 +8,13 @@ levels:
 type: normal
 
 category: must-know
+
+
+
+
+---
+
+# Reset vs. Revert
 
 ---
 ## Content
@@ -64,6 +71,7 @@ Reverting a commit means deleting the entire history of commits between that com
 
 ???
 
+
 * False
 * True
 * It depends on the case
@@ -75,7 +83,9 @@ Complete the command that would delete any record of uncommitted changes made si
 ```bash
 $ git ???
 ```
+
 * `reset --hard HEAD`
 * `reset --soft HEAD`
 * `reset HEAD`
 * `reset`
+

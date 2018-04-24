@@ -1,8 +1,7 @@
-# Tests
+---
 author: mihaiberq
 
 levels:
-
   - beginner
   - basic
   - medium
@@ -22,6 +21,8 @@ tags:
   - introduction
   - workout
 
+---
+# Tests
 
 ---
 ## Content
@@ -74,14 +75,15 @@ Complete the following *package.json* file with code that would make `npm run te
 }
 ```
 
-* `"scripts"`
-* `"test"`
-* `index.js`
-* `scripts`
-* `test`
-* `script`
+
+* "scripts"
+* "test"
+* index.js
+* scripts
+* test
+* script
+
 ---
 ## Footnotes
-
 [1:TDD]
 This approach of writing code is called "Test-Driven Development".

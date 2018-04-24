@@ -1,4 +1,4 @@
-# Keeping `/boot` read-only
+---
 author: catalin
 
 levels:
@@ -10,6 +10,9 @@ levels:
 type: normal
 
 category: how to
+
+---
+# Keeping `/boot` read-only
 
 ---
 ## Content
@@ -37,7 +40,7 @@ LABEL=/boot  /boot  ext2  defaults,ro  1 2
 What file would you have to modify to make `/boot` read-only? 
 
 ???
-*/etc/fstab
-*/etc/boot.conf
-*/boot/conf
-*/boot/fstab
+* /etc/fstab
+* /etc/boot.conf
+* /boot/conf
+* /boot/fstab

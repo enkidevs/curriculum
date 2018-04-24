@@ -1,4 +1,4 @@
-# Hyperlinks
+---
 author: mihaiberq
 
 levels:
@@ -10,6 +10,13 @@ type: normal
 category: must-know
 
 inAlgoPool: false
+
+
+
+
+---
+
+# Hyperlinks
 
 ---
 ## Content
@@ -40,17 +47,21 @@ Complete the following snippet in order for it to be valid:
   My website
 </a>
 ```
+
 * `a`
 * `href`
 * `style`
 * `p`
 * `link`
+
 ---
 ## Revision
 
 The tag denoting a hyperlink is ???.
 
+
 * <a>
 * <p>
 * <body>
 * <div>
+

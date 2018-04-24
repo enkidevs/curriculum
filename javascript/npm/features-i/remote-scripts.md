@@ -1,8 +1,7 @@
-# Remote Scripts
+---
 author: mihaiberq
 
 levels:
-
   - beginner
   - basic
   - medium
@@ -22,6 +21,8 @@ tags:
   - workout
   - deep
 
+---
+# Remote Scripts
 
 ---
 ## Content
@@ -48,6 +49,7 @@ dev:
     ENV=development PORT=3000
     node server.js
 ```
+
 ---
 ## Revision
 
@@ -57,7 +59,8 @@ The syntax to add an external script to *package.json* is:
   "external": "???"
 }
 ```
-* `scripts`
-* `./external_script.sh`
-* `script`
-* `external_script.js`
+
+* scripts
+* ./external_script.sh
+* script
+* external_script.js

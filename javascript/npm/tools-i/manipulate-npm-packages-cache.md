@@ -1,19 +1,14 @@
-# Manipulate npm packages cache
+---
 author: catalin
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
 
 category: feature
-
-parent: check-data-about-a-package
 
 standards:
   js.use-open-source-javascript-packages: 10
@@ -25,8 +20,12 @@ tags:
   - new
 
 links:
-
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/cache){website}'
+
+parent: check-data-about-a-package
+
+---
+# Manipulate npm packages cache
 
 ---
 ## Content

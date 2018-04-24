@@ -1,15 +1,12 @@
-# NPM, Node's Package Manager
+---
 author: tommarshall
 
 levels:
-
   - beginner
 
 type: normal
 
 category: must-know
-
-parent: executing-programs-with-node
 
 tags:
   - introduction
@@ -18,8 +15,12 @@ standards:
   js.node-developer-environment.2: 10
 
 links:
+  - '[npmjs.com](https://www.npmjs.com/){website}'
 
-- '[npmjs.com](https://www.npmjs.com/)'
+parent: executing-programs-with-node
+
+---
+# NPM, Node's Package Manager
 
 ---
 ## Content
@@ -30,7 +31,7 @@ The NPM registry is home to over 350,000 packages of code open for use to anyone
 
 NPM comes installed with Node.js, however it is updated more often than Node. To check you’re using the latest NPM version run the following command from your terminal:
 
-``` bash
+```bash
 $ npm install npm@latest -g
 ```
 
@@ -49,9 +50,10 @@ Complete the code snippet to check you're using the latest NPM version:
 npm install npm@???
 ```
 
-* `latest -g`
-* `latest`
-* `latest -v`
+
+* latest -g
+* latest
+* latest -v
 
 ---
 ## Revision
@@ -62,6 +64,7 @@ Complete the code snippet to install a package from NPM:
 > npm ??? <package>
 ```
 
-* `install`
-* `new`
-* `download`
+* install
+* new
+* download
+

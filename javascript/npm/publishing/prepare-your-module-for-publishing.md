@@ -1,8 +1,7 @@
-# Preparing Your Module For Publishing
+---
 author: mihaiberq
 
 levels:
-
   - beginner
   - basic
   - medium
@@ -21,6 +20,10 @@ tags:
   - introduction
   - workout
   - deep
+
+---
+
+# Preparing Your Module For Publishing
 
 ---
 ## Content

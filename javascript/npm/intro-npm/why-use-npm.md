@@ -1,4 +1,4 @@
-# Why should I use npm?
+---
 author: mihaiberq
 
 levels:
@@ -8,19 +8,19 @@ type: normal
 
 category: must-know
 
-parent: what-is-npm
-
 standards:
   js.npm-tasks-and-modules-manager: 20
 
 tags:
   - introduction
 
-
 links:
+  - '[andrewhfarmer.com](http://andrewhfarmer.com/javascript-frontend-package-managers/){website}'
 
- - >-
-  [andrewhfarmer.com](http://andrewhfarmer.com/javascript-frontend-package-managers/){website}
+parent: what-is-npm
+
+---
+# Why should I use npm?
 
 ---
 ## Content

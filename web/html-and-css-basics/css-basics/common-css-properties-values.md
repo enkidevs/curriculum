@@ -1,4 +1,4 @@
-# Common CSS Properties Values
+---
 author: mihaiberq
 
 levels:
@@ -7,9 +7,16 @@ levels:
 
 type: normal
 
+category: pattern
+
 inAlgoPool: false
 
-category: pattern
+
+
+
+---
+
+# Common CSS Properties Values
 
 ---
 ## Content
@@ -62,13 +69,16 @@ p {
   font-size: 16px;
 }
 ```
+
 ---
 ## Revision
 
 If *purple* is the combination of *red* and *blue*, which of the following is not representing purple?
 
 ???
-*#00ffff
-*#ff00ff
-*rgb(255,0,255)
-*purple
+
+* #00ffff
+* #ff00ff
+* rgb(255,0,255)
+* purple
+

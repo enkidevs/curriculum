@@ -1,4 +1,4 @@
-# Setting up npm
+---
 author: mihaiberq
 
 levels:
@@ -16,6 +16,8 @@ standards:
 tags:
   - introduction
 
+---
+# Setting up npm
 
 ---
 ## Content
@@ -45,6 +47,7 @@ If the version of the package is not specified, npm will install its latest vers
 var express = require('express');
 var app = express();
 ```
+
 ---
 ## Revision
 
@@ -52,9 +55,10 @@ Install the *react* package locally:
 ```bash
 $ ??? ??? ??? ???
 ```
-* `npm`
-* `install`
-* `react`
-* `-l`
-* `-g`
-* `node`
+
+* npm
+* install
+* react
+* -l
+* -g
+* node

@@ -1,4 +1,4 @@
-# Order By clause
+---
 author: SebaRaba
 
 levels:
@@ -15,13 +15,25 @@ category: must-know
 
 inAlgoPool: false
 
+standards:
+  sql.read-single-table.0: 10
+  sql.read-single-table.3: 10
+
 tags:
+
   - introduction
+
   - workout
+
 
 links:
 
-  - '[More on ORDER BY](http://www.dofactory.com/sql/order-by)'
+  - '[More on ORDER BY](http://www.dofactory.com/sql/order-by){website}'
+
+
+---
+
+# Order By clause
 
 ---
 ## Content
@@ -30,7 +42,7 @@ links:
 
 Considering the following example:
 ```
-SELECT COUNT(name), language_id 
+SELECT COUNT(name), language_id
 FROM move_name
 GROUP BY language_id;
 
@@ -94,6 +106,7 @@ count | language_id
 (7 rows)
 ```
 
+
 * COUNT
 * nature_name
 * ORDER BY
@@ -126,6 +139,7 @@ count | region_id
 
 ```
 
+
 * COUNT
 * GROUP BY
 * count
@@ -135,25 +149,26 @@ count | region_id
 
 ---
 ## Quiz
+### Can you order a table with SQL?
+Consider the `experience` table from our pokemon database:
 
-headline: Can you order a table with SQL?
+```bash
 
-question: |
+id  | level | experience | growth_rate_id
+====|=======|============|================
+  1 |     1 |          0 |              1
+  2 |     2 |         10 |              1
+  3 |     3 |         33 |              1
+  4 |     4 |         80 |              1
+  (...)
 
-  Consider the `experience` table from our pokemon database:
+```
 
-  id  | level | experience | growth_rate_id
-  ----|-------|------------|----------------
-    1 |     1 |          0 |              1
-    2 |     2 |         10 |              1
-    3 |     3 |         33 |              1
-    4 |     4 |         80 |              1
-    (...)
+This table shows how much experience you need to gain in order to get to level 100 based on different growth rates. Choose the query that will get all records that have level 100 and orders them descending on the amount of experience needed:
 
-  This table shows how much experience you need to gain in order to get to level 100 based on different growth rates. Choose the query that will get all records that have level 100 and orders them descending on the amount of experience needed:
+ ???
 
-answers:
-  - SELECT * FROM experience WHERE level=100 ORDER BY experience DESC;
-  - SELECT * FROM experience WHERE level=100 ORDER BY growth_rate_id DESC;
-  - SELECT * FROM experience WHERE level=100 DESC ORDER BY experience;
-  - SELECT * FROM experience WHERE level=100 ORDER DESC BY experience;
+* SELECT * FROM experience WHERE level=100 ORDER BY experience DESC;
+* SELECT * FROM experience WHERE level=100 ORDER BY growth_rate_id DESC;
+* SELECT * FROM experience WHERE level=100 DESC ORDER BY experience;
+* SELECT * FROM experience WHERE level=100 ORDER DESC BY experience;

@@ -1,4 +1,4 @@
-# Const (Part 2)
+---
 author: alexjmackey
 
 levels:
@@ -6,6 +6,10 @@ levels:
   - beginner
 
 type: normal
+
+category: must-know
+
+inAlgoPool: false
 
 tags:
 
@@ -15,13 +19,15 @@ tags:
 
   - memory
 
-inAlgoPool: false
-
-category: must-know
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const){website}'
+
+
+---
+
+# Const (Part 2)
 
 ---
 ## Content
@@ -59,7 +65,6 @@ If you don’t want anyone to be able modify the object at all be sure to use `O
 
 ---
 ## Footnotes
-
 [1:`Object.freeze`]
 For more information on *Object.freeze* see (MDN)
 [https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze]

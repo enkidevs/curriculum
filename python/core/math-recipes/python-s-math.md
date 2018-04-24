@@ -1,4 +1,4 @@
-# Python's `math`
+---
 author: catalin
 
 levels:
@@ -9,9 +9,14 @@ levels:
 
 type: normal
 
+category: feature
+
 inAlgoPool: false
 
-category: feature
+
+links:
+
+  - '[docs.python.org](https://docs.python.org/3.5/library/math.html){website}'
 
 notes: |+
   Math modules workout.
@@ -29,10 +34,13 @@ notes: |+
   of modf and also mention fmod and the
   difference between them.
 
+standards:
+  py.standard-library-data.1: 10
 
-links:
 
-  - '[docs.python.org](https://docs.python.org/3.5/library/math.html){website}'
+---
+
+# Python's `math`
 
 ---
 ## Content
@@ -64,7 +72,7 @@ Factorial and gamma (factorial for real numbers) operations can be calculated:
 math.factorial(intNr)
 math.gamma(realNr)
 
-``` 
+```
 
 Trigonometric functions:
 ```pyton
@@ -94,11 +102,12 @@ import math
 ???.???(var)
 ```
 
-*`math` 
-*`isinf` 
-*`mathematics` 
-*`is_inf` 
-*`infinite`
+
+* `math`
+* `isinf`
+* `mathematics`
+* `is_inf`
+* `infinite`
 
 ---
 ## Revision
@@ -108,8 +117,9 @@ Using the `math`  module, assign to `a` the value of `PI` :
 a = ???.???
 ```
 
-*`math` 
-*`pi` 
-*`constants` 
-*`e` 
-*`3.14`
+
+* `math`
+* `pi`
+* `constants`
+* `e`
+* `3.14`

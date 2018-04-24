@@ -1,4 +1,4 @@
-# Horizontal centering fluid blocks
+---
 author: Mathieu
 
 levels:
@@ -13,13 +13,17 @@ type: normal
 
 category: pattern
 
-notes: >-
-  http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/
 
 links:
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/618097/how-do-you-easily-horizontally-center-a-div-using-css){website}
+  - '[stackoverflow.com](http://stackoverflow.com/questions/618097/how-do-you-easily-horizontally-center-a-div-using-css){website}'
+
+notes: >-
+  http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/
+
+---
+
+# Horizontal centering fluid blocks
 
 ---
 ## Content
@@ -53,7 +57,9 @@ What does the following CSS code do? ???
    transform: translateX(-50%);
 }
 ```
+
 * Horizontally centres a block with an unknown width.
 * Horizontally flips a block with an unknown width.
 * Sets a blocks left side to be 50% across the document.
 * Sets the blocks position to absolute and flips it horizontally.
+

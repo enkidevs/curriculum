@@ -1,4 +1,4 @@
-# Improving logging in the browser
+---
 author: daniel_adelberg
 
 levels:
@@ -23,6 +23,9 @@ links:
     [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Console){website}
 
   - '[dailyjs.com](http://dailyjs.com/2012/02/02/console/){website}'
+
+---
+# Improving logging in the browser
 
 ---
 ## Content
@@ -57,7 +60,7 @@ What `console` method can be used to view the content of child object of a paren
 console.???([object]);
 ```
 
-*`dir`
-*`info`
-*`warn`
-*`log`
+* dir
+* info
+* warn
+* log

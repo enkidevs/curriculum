@@ -2,7 +2,7 @@ name: Code Structure
 
 type: insights-list
 
-description: Best practices about Node from a curated list
+description: Best practices about Node from a curated list 
 
 section: 1
 

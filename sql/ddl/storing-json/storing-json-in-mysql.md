@@ -1,4 +1,4 @@
-# Storing JSON in MySQL
+---
 author: mihaiberq
 
 levels:
@@ -11,10 +11,23 @@ type: normal
 
 category: must-know
 
+standards:
+  sql.choose-sql-datatype.2: 10
+
 tags:
+
   - introduction
+
   - workout
+
   - deep
+
+
+
+
+---
+
+# Storing JSON in MySQL
 
 ---
 ## Content
@@ -22,7 +35,7 @@ tags:
 MySQL has only one data type for JSON values: `JSON`.
 
 Creating a table and inserting values into it is similar to PostgreSQL syntax:
-```SQL
+```sql
 CREATE TABLE poke_json(
   id serial PRIMARY KEY,
   pokemon JSON
@@ -45,7 +58,7 @@ VALUES('{
   }]}');
 ```
 MySQL's equivalent of `@>` is `->`:
-```SQL
+```sql
 SELECT *
 FROM poke_json
 WHERE pokemon->"$.types[0]" = "poison";
@@ -62,11 +75,12 @@ There's also `->>` for cases in which a single selected field must be unquoted: 
 ## Practice
 
 Querying the JSON `pokemon` field in a MySQL database, select all Pokémon which have evolutions:
-```SQL
+```sql
 ??? pokemon
 ??? poke_json ???
 pokemon ??? ??? = ???;
 ```
+
 * `SELECT`
 * `FROM`
 * `WHERE`
@@ -83,8 +97,10 @@ MySQL's operator for JSON parsing is
 
 ???
 
+
 * `->`
 * `@>`
 * `==`
 * `JSON_VALUE`
 * `$`
+

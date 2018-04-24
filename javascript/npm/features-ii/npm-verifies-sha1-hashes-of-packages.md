@@ -1,12 +1,9 @@
-# `npm` verifies `sha1` hashes of packages
+---
 author: catalin
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
@@ -23,7 +20,8 @@ tags:
   - workout
   - deep
 
-
+---
+# `npm` verifies `sha1` hashes of packages
 
 ---
 ## Content

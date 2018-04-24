@@ -1,4 +1,4 @@
-# Schedule events with `sched`
+---
 author: catalin
 
 levels:
@@ -11,9 +11,18 @@ type: normal
 
 category: how to
 
+standards:
+  py.control-structures.5: 10
+  py.modules.0: 10
+
 links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/sched.html){website}'
+
+
+---
+
+# Schedule events with `sched`
 
 ---
 ## Content
@@ -39,7 +48,7 @@ We can schedule a task with `enter`:
 s.enter(2, 1, print, argument=('first',))
 s.enter(3, 1, print, argument=('second',))
 # first arg is delay, second is priority
-# third is the action and the last is 
+# third is the action and the last is
 # the arguments of the action
 ```
 Then we run our scheduler:

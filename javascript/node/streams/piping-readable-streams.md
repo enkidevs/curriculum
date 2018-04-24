@@ -1,22 +1,15 @@
-# Piping Readable Streams
+---
 author: tommarshall
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
   - advanced
 
 type: normal
 
-
 category: must-know
-
-parent: readable-streams
 
 standards:
   js.read-and-write-streams: 20
@@ -29,14 +22,20 @@ tags:
   - deep
 
 links:
-- '[Piping streams](https://www.sandersdenardi.com/readable-writable-transform-streams-node/)'
+
+  - '[Piping streams](https://www.sandersdenardi.com/readable-writable-transform-streams-node/){website}'
+
+parent: readable-streams
+
+---
+# Piping Readable Streams
 
 ---
 ## Content
 
 Piping allows for data to be read from a source, and passed onto a destination without your application having to manage the flow of the data.
 
-```
+```javascript
 var fs = require(‘fs’);
 var rStream = fs.createReadStream
                           (‘file1.txt’);
@@ -54,6 +53,7 @@ The `pipe()` function is used in the above example to write the content of file1
 Which function is used for piping data from a source to a destination?
 ???
 
-* `pipe()`
-* `pipeto()`
-* `newpipe()`
+
+* pipe()
+* pipeto()
+* newpipe()

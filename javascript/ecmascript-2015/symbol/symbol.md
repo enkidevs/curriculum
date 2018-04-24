@@ -1,4 +1,4 @@
-# Symbol
+---
 author: alexjmackey
 
 levels:
@@ -7,15 +7,20 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - '[ponyfoo](https://ponyfoo.com/articles/es6-symbols-in-depth)'
-  
+  - '[ponyfoo](https://ponyfoo.com/articles/es6-symbols-in-depth){website}'
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){website}'
+
+
+---
+
+# Symbol
 
 ---
 ## Content
@@ -59,3 +64,4 @@ sym1 === sym2; //false
 This probably is not what you would expect but remember Symbols are always unique.
 
 If you want to be able to access the same symbol using a key, we can use the Symbol registry which we will discuss next.
+

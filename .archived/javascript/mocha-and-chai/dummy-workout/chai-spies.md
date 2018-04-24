@@ -1,4 +1,4 @@
-# Chai Spies
+---
 author: tommarshall
 
 levels:
@@ -20,6 +20,9 @@ tags:
 links:
 
   - '[github.com](https://github.com/mochajs/mocha/wiki/Spies){website}'
+
+---
+# Chai Spies
 
 ---
 ## Content
@@ -61,12 +64,12 @@ var arr = [1, 2, 3];
 ???.spy.???(arr, 'push', 'pop');
 ```
 
-* `chai`
-* `on`
-* `object`
-* `obj`
-* `spy`
-* `spyObj`
+* chai
+* on
+* object
+* obj
+* spy
+* spyObj
 
 ---
 ## Revision
@@ -79,9 +82,9 @@ function toBeWatched() {
 var spy = ???.spy.(toBeWatched);
 ```
 
-*`chai`
-*`spy`
-*`on`
-*`spyObj`
-*`expect`
-*`called`
+* chai
+* spy
+* on
+* spyObj
+* expect
+* called

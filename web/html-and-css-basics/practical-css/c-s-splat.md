@@ -1,4 +1,4 @@
-# CSSplat
+---
 author: jordanfish
 
 levels:
@@ -12,6 +12,10 @@ levels:
 type: bugSpot
 
 category: tip
+
+---
+
+# CSSplat
 
 ---
 ## Content

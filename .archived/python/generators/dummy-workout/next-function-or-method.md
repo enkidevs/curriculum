@@ -1,4 +1,4 @@
-# `next` - function or method
+---
 author: catalin
 
 levels:
@@ -15,6 +15,9 @@ links:
 
   - >-
     [sebastianraschka.com](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html#The-next-function-and-next-method){website}
+
+---
+# `next` - function or method
 
 ---
 ## Content
@@ -53,10 +56,10 @@ a = gen()
 print(a.next())
 #???
 ```
-*`AttributeError` 
-*`1` 
-*`'1'` 
-*`GeneratorError`
+* AttributeError 
+* 1
+* "'1'" 
+* GeneratorError
 
 ---
 ## Revision
@@ -65,6 +68,6 @@ In Python 3, what can be used to iterate over a generator?
 
 ???
 
-*`the next() function` 
-*`the .next() method` 
-*`both next() function and method`
+* the next() function 
+* the .next() method
+* both next() function and method

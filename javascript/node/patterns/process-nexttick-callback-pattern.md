@@ -1,4 +1,4 @@
-# `process.nextTick()` callback pattern
+---
 author: catalin
 
 levels:
@@ -21,6 +21,9 @@ tags:
   - workout
   - deep
   - obscura
+
+---
+# `process.nextTick()` callback pattern
 
 ---
 ## Content
@@ -65,12 +68,12 @@ function compute() {
 compute();
 ```
 
-* `nextTick`
-* `compute`
-* `nextProcess`
-* `computation`
-* `calc`
-* `event`
+* nextTick
+* compute
+* nextProcess
+* computation
+* calc
+* event
 
 ---
 ## Revision
@@ -79,6 +82,7 @@ What can be used to replicate the basic behaviour of `setTimeout(fn, 0)`?
 
 ???
 
-*`process.nextTick()`
-*`process.next()`
-*`process.nextTick(0)`
+* process.nextTick()
+* process.next()
+* process.nextTick(0)
+

@@ -1,4 +1,4 @@
-# Linking objects
+---
 author: rosielowther
 
 levels:
@@ -17,6 +17,9 @@ links:
 
   - >-
     [github.com](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch5.md){website}
+
+---
+# Linking objects
 
 ---
 ## Content
@@ -54,11 +57,11 @@ Link `enki`'s internal `[[Prototype]]` to `oldEnki`' (assume **ES5***):
 enki.??? = 
  Object.???(oldEnki.prototype);
 ```
-*`prototype`
-*`create`
-*`props`
-*`assign`
-*`setPrototypeOf`
+* prototype
+* create
+* props
+* assign
+* setPrototypeOf
 
 ---
 ## Revision
@@ -68,8 +71,8 @@ Link `enki`'s internal `[[Prototype]]` to `oldEnki`' (assume **ES5***):
 enki.??? = 
  Object.???(oldEnki.prototype);
 ```
-*`prototype`
-*`create`
-*`props`
-*`assign`
-*`setPrototypeOf`
+* prototype
+* create
+* props
+* assign
+* setPrototypeOf

@@ -1,9 +1,11 @@
-# Increase performance with `PROCESS.ENV`
+---
 author: catalin
 
 levels:
   - basic
+
   - medium
+
   - advanced
 
 type: normal
@@ -14,8 +16,10 @@ standards:
   js.node-standard-library-os.6: 10
 
 links:
-
   - '[Source](https://github.com/facebook/react/issues/812#issuecomment-172929366){website}'
+
+---
+# Increase performance with `PROCESS.ENV`
 
 ---
 ## Content
@@ -25,12 +29,12 @@ Each process is linked to a set of **environmental variables** that your applica
 **Node.js** supports accessing environment variables out of the box. At boot, the `process` global object is extended through the `.env` propriety.
 
 One way of setting *env* variables is through prefixing the `node` command:
-```sh
+```shell
 $ PORT=8080 node index.js
 ```
 
 Then we can access our `PORT` variable like:
-```js
+```javascript
 // index.js
 console.log(process.env.PORT)
 // 8080
@@ -41,7 +45,7 @@ Note `process.env` is a special object which gets the values through the unix `e
 Having lots of calls to this object, which are expensive, throughout your project, might show up in its performance.
 
 If your application **doesn't rely** on *live* environmental variables edits there is a simple hack to overcome some performance issues. You can simply replace the live object with a *plain JavaScript* one:
-```js
+```javascript
 process.env = JSON.parse(
   JSON.stringify(
     progress.env
@@ -52,7 +56,6 @@ process.env = JSON.parse(
 This hack doesn't guarantee a big performance increase, but for servers making use of *React Server Side rendering*, using it increased their **throughput** by up to `50%`.
 
 In a similar fashion, it's better to cache the value of a variable that can be used multiple time instead of accessing `process.env` each time.
-
 
 ---
 ## Practice
@@ -70,10 +73,10 @@ What kind of object is `process.env`?
 ## Revision
 
 Which of the followin scenarios do you think would perform better:
-```sh
+```shell
 $ COPY="Enki" node index.js
 ```
-```js
+```javascript
 // index.js
 
 // A

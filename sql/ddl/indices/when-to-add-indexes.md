@@ -1,4 +1,4 @@
-# When to add Indices
+---
 author: SebaRaba
 
 levels:
@@ -17,13 +17,25 @@ category: must-know
 
 inAlgoPool: false
 
+standards:
+  sql.define-indices.0: 10
+  sql.define-indices.3: 10
+
 tags:
+
   - workout
+
   - deep
+
 
 links:
 
-  - '[SQLMag Dos and Donts of indices](http://sqlmag.com/database-performance-tuning/indexing-dos-and-don-ts)'
+  - '[SQLMag Dos and Donts of indices](http://sqlmag.com/database-performance-tuning/indexing-dos-and-don-ts){website}'
+
+
+---
+
+# When to add Indices
 
 ---
 ## Content
@@ -37,7 +49,6 @@ Thus, we should bear in mind the followings while creating Indices:
 - the more duplicates we have in a column, the lower the performance of the index
 - If we use more columns in a single index, the order is important because the table will be primarily sorted by the first index, and secondarily sorted by the second index, and so on
 - indexing columns is most important when working with exact-match queries
-
 
 ---
 ## Practice
@@ -63,6 +74,7 @@ id  | level | experience | growth_rate_id
 ??? experience (???);
 ```
 
+
 * CREATE
 * ON
 * experience
@@ -74,7 +86,8 @@ id  | level | experience | growth_rate_id
 ## Revision
 
 Consider the item table:
-```
+
+```bash
 id  | cost  |    name       
 ====+=======+============
   1 |     0 | master-ball
@@ -88,40 +101,38 @@ id  | cost  |    name
 
 Suppose that `PRIMARY KEY` isn't set yet. Choose the query that will create a clustered index on the `id` column.
 
+
 * CREATE UNIQUE INDEX id_clustered ON item(id);
 * CREATE UNIQUE INDEX id_clustered ON item(cost);
 * CREATE INDEX id_clustered ON item(id);
 
 ---
-## Footnotes
+## Quiz
+### Do you know how to match a pattern in SQL?
 
-[1:Indices]
-Reasonable people differ when they refer to the plural of Index. Some people use Indices, some use Indexes.
+Consider the `pokemon` table from our pokemon database:
+
+```bash
+
+
+  id   | order | height | weight | base_experience | pokemon_species_id |   name          
+=======|=======|========|========|=================|====================|===========
+     1 |     1 |      7 |     69 |              64 |                  1 | bulbasaur
+     2 |     2 |     10 |    130 |             142 |                  2 | ivysaur
+     3 |     3 |     20 |   1000 |             236 |                  3 | venusaur
+(...)
+
+```
+This table has thousands of entries and querying a pokemon's species is very slow. We need to speed up this common query. We want to create an index that will help us improve the efficiency of this data retrieval.
+
+ ???
+
+* CREATE INDEX species_to_pokemon ON pokemon(pokemon_species_id);
+* CREATE UNIQUE INDEX species_to_pokemon ON pokemon(pokemon_species_id);
+* CREATE UNIQUE INDEX species_to_pokemon ON pokemon(id);
+* CREATE INDEX species_to_pokemon ON pokemon(weight);
 
 ---
-## Quiz
-
-headline: Do you know how to match a pattern in SQL?
-
-question: |
-
-  Consider the `pokemon` table from our pokemon database:
-
-    id   | order | height | weight | base_experience | pokemon_species_id |   name          
-  -------|:------|:-------|:-------|:----------------|:-------------------|:----------
-       1 |     1 |      7 |     69 |              64 |                  1 | bulbasaur
-       2 |     2 |     10 |    130 |             142 |                  2 | ivysaur
-       3 |     3 |     20 |   1000 |             236 |                  3 | venusaur
-  (...)
-
-  This table has thousands of entries and querying a pokemon's species is very slow. We need to speed up this common query. We want to create an index that will help us improve the efficiency of this data retrieval.
-
-answers:
-  - CREATE INDEX species_to_pokemon
-    ON pokemon(pokemon_species_id);
-  - CREATE UNIQUE INDEX species_to_pokemon
-    ON pokemon(pokemon_species_id);
-  - CREATE UNIQUE INDEX species_to_pokemon
-    ON pokemon(id);
-  - CREATE INDEX species_to_pokemon
-    ON pokemon(weight);
+## Footnotes
+[1:Indices]
+Reasonable people differ when they refer to the plural of Index. Some people use Indices, some use Indexes.

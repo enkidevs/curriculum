@@ -1,4 +1,4 @@
-# Basic service management with `systemd`
+---
 author: tuwi.dc
 
 levels:
@@ -22,6 +22,13 @@ tags:
   - reload
 
   - status
+
+
+
+
+---
+
+# Basic service management with `systemd`
 
 ---
 ## Content
@@ -76,18 +83,14 @@ Service-specific actions (enable, stop, restart, reload) can be triggered by
 
 ??? .
 
-*systemctl
-*res
-*nano
-*syserv
+
+* systemctl
+* res
+* nano
+* syserv
 
 ---
 ## Footnotes
-
 [1:Example output]
 ```
-UNIT--------------------------------
-systemd-ask-password-console.service
-LOAD---ACTIVE---SUB--DESCRIPTION---
-loaded inactive dead Dispatch Password
-```
+UNIT

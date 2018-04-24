@@ -1,21 +1,15 @@
-# What are Node Modules?
+---
 author: tommarshall
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
   - advanced
 
 type: normal
 
 category: must-know
-
-parent: npm-nodes-package-manager
 
 standards:
   js.use-modules: 10
@@ -26,7 +20,13 @@ tags:
   - workout
 
 links:
-- '[Node Modules](http://book.mixu.net/node/ch8.html)'
+  - '[Node Modules](http://book.mixu.net/node/ch8.html){website}'
+
+parent: npm-nodes-package-manager
+
+---
+
+# What are Node Modules?
 
 ---
 ## Content
@@ -47,7 +47,7 @@ Using modules when building Node applications give a number of advantages:
 Where are third party Node.js modules installed to?
 ???
 
-* `node_modules`
-* `local_modules`
-* `libraries`
-* `libs`
+* node_modules
+* local_modules
+* libraries
+* libs

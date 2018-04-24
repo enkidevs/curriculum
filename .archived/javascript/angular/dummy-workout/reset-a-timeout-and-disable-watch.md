@@ -1,4 +1,4 @@
-# Reset a `$timeout()` and disable `$watch()`
+---
 author: achatt89
 
 levels:
@@ -10,6 +10,9 @@ levels:
 type: normal
 
 category: must-know
+
+---
+# Reset a `$timeout()` and disable `$watch()`
 
 ---
 ## Content

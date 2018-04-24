@@ -1,15 +1,12 @@
-# The REPL Terminal
+---
 author: tommarshall
 
 levels:
-
   - beginner
 
 type: normal
 
 category: must-know
-
-parent: installing-node-js
 
 standards:
   js.node-developer-environment.5: 10
@@ -18,7 +15,12 @@ tags:
   - introduction
 
 links:
-- '[tutorialsteacher.com](http://www.tutorialsteacher.com/nodejs/nodejs-console-repl)'
+  - '[tutorialsteacher.com](http://www.tutorialsteacher.com/nodejs/nodejs-console-repl){website}'
+
+parent: installing-node-js
+
+---
+# The REPL Terminal
 
 ---
 ## Content
@@ -60,10 +62,11 @@ $ node
 ```
 ???
 
-* `20`
-* `command not found: 3`
-* `26`
-* `-10`
+
+* 20
+* command not found: 3
+* 26
+* -10
 
 ---
 ## Revision
@@ -74,3 +77,4 @@ What does REPL stand for?
 * Read, Eval, Print, Loop
 * Read, Equal, Process, Loop
 * Reiterate, Else, Print, Loop
+

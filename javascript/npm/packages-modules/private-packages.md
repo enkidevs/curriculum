@@ -1,4 +1,4 @@
-# Scoped packages
+---
 author: mihaiberq
 
 levels:
@@ -11,8 +11,6 @@ type: normal
 
 category: feature
 
-parent: packages-vs-modules
-
 standards:
   js.npm-publish: 10
   js.npm-tasks-and-modules-manager: 10
@@ -23,8 +21,13 @@ tags:
   - new
 
 links:
-  - >-
-    [docs.npmjs.com](https://docs.npmjs.com/getting-started/scoped-packages){website}
+  - '[docs.npmjs.com](https://docs.npmjs.com/getting-started/scoped-packages){website}'
+
+parent: packages-vs-modules
+
+---
+
+# Scoped packages
 
 ---
 ## Content
@@ -57,7 +60,7 @@ To initialise a scoped package, the scope must be specified in the package name:
 $ npm init -scope=myscope
 ```
 To use a scoped package you need to `require` it using the scoped name:
-```js
+```javascript
 var scopedPackage =
   require('@myscope/somePackage');
 

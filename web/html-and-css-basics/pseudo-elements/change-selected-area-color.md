@@ -1,4 +1,4 @@
-# Change selected area color
+---
 author: catalin
 
 levels:
@@ -11,10 +11,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/%3A%3Aselection){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/%3A%3Aselection){website}'
+
+
+---
+
+# Change selected area color
 
 ---
 ## Content
@@ -44,18 +49,21 @@ What rule must be added in order for the selection pseudo-element to be supporte
 
 ???
 
-*`::-moz-selection` 
-*`::-support-selection` 
-*`::-sup-selection` 
-*`::-gecko-selection`
+
+* `::-moz-selection` 
+* `::-support-selection` 
+* `::-sup-selection` 
+* `::-gecko-selection`
 
 ---
 ## Revision
 
 Which pseudo element is used to select a text area, for example if you wanted to change its background colour? ???
+
 * `::selection`
 * `:selection`
 * `::select`
 * `:select`
 * `::selector`
 * `:selector`
+

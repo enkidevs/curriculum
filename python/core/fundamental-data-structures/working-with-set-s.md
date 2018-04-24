@@ -1,6 +1,5 @@
-# Sets in Python
+---
 author: SebaRaba
-
 
 levels:
 
@@ -10,16 +9,24 @@ type: normal
 
 category: must-know
 
+standards:
+  py.native-types-operations.5: 10
+
 links:
 
-  - '[more about sets](http://www.python-course.eu/python3_sets_frozensets.php)'
+  - '[more about sets](http://www.python-course.eu/python3_sets_frozensets.php){website}'
+
+
+---
+
+# Sets in Python
 
 ---
 ## Content
 
 In **Python**, **sets** have four main characteristics:
 - they are an **unordered collection** of elements;
-- every element is **unique** (no duplicates);
+- every elements is **unique** (no duplicates);
 - and every element must be **immutable**;
 - they can store elements of different **types**.
 
@@ -71,6 +78,7 @@ print(my_set)
 
 # Output: {2,3,4,9,10,7,11,12}
 ```
+
 ---
 ## Practice
 
@@ -78,10 +86,10 @@ Which of the following pairs are valid set methods?
 
 ???
 
+
 * `update()` and `add()`
 * `update()` and `insert()`
 * `insert()` and `add()`
-
 
 ---
 ## Revision
@@ -89,6 +97,7 @@ Which of the following pairs are valid set methods?
 What happens when you use `remove()` on an element that doesn't exist in the set?
 
 ???
+
 
 * An error will be thrown.
 * Nothing.

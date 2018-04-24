@@ -1,21 +1,15 @@
-# Handling event errors
+---
 author: tommarshall
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
   - advanced
 
 type: normal
 
 category: must-know
-
-parent: passing-arguments-to-listeners
 
 standards:
   js.events-asynchronous-operations.1: 20
@@ -26,7 +20,12 @@ tags:
   - workout
 
 links:
-- '[Node Errors](https://nodejs.org/api/errors.html)'
+  - '[Node Errors](https://nodejs.org/api/errors.html){website}'
+
+parent: passing-arguments-to-listeners
+
+---
+# Handling event errors
 
 ---
 ## Content
@@ -77,9 +76,10 @@ test.on(‘uncaughtException’, function(err)
 What event type is emitted by the `test` event emitter object?
 ???
 
-* `uncaughtException`
-* `eventFailure`
-* `error`
+
+* uncaughtException
+* eventFailure
+* error
 
 ---
 ## Revision
@@ -87,13 +87,13 @@ What event type is emitted by the `test` event emitter object?
 What happens when the event emitter emits an event with no attached listeners?
 ???
 
+
 * Event is ignored.
 * Event is thrown into the event loop.
 * Event causes an error.
 
 ---
 ## Footnotes
-
 [1:Event emitter]
 
 Many objects in Node can **emit** events.

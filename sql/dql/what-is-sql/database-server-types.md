@@ -1,4 +1,4 @@
-# Database server types
+---
 author: SebaRaba
 
 levels:
@@ -13,13 +13,24 @@ category: must-know
 
 inAlgoPool: false
 
+standards:
+  sql.connect-client.2: 5
+
 tags:
+
   - introduction
+
   - workout
+
 
 links:
 
-  - '[More on RDBMS](https://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems)'
+  - '[More on RDBMS](https://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems){website}'
+
+
+---
+
+# Database server types
 
 ---
 ## Content
@@ -77,6 +88,7 @@ It is important you understand which server you use, as commands can differ slig
 Assume we have a huge database with thousands of users sending and retrieving data. If we need to be able to export data in Excel format, what type of RDBMS do you think will best fit our needs?
 ???
 
+
 * MS Access
 * MS SQL server
 * MySQL
@@ -87,13 +99,13 @@ Assume we have a huge database with thousands of users sending and retrieving da
 Suppose you want to learn coding and you decided to build your first web application using LAMP development stack. Which server would you choose for hosting your database?
 ???
 
+
 * MySQL
 * MS Access
 * Oracle
 
 ---
 ## Footnotes
-
 [1:LAMP]
 It is a development stack formed of:
 - Linux

@@ -1,4 +1,4 @@
-# Matches-any pseudo-class `:matches`
+---
 author: nene
 
 levels:
@@ -17,9 +17,15 @@ tags:
 
   - css4
 
+
 links:
 
   - '[css4.rocks](http://css4.rocks/selectors-level-4/){website}'
+
+
+---
+
+# Matches-any pseudo-class `:matches`
 
 ---
 ## Content
@@ -47,13 +53,14 @@ p???(s1, s2, s3){
     ???:red; 
 } 
 ```
-*`:matches` 
-*`color` 
-*`:selects` 
-*`background-color` 
-*`.matches` 
-*`.selects` 
-*`
+
+* `:matches` 
+* `color` 
+* `:selects` 
+* `background-color` 
+* `.matches` 
+* `.selects` 
+* `
 
 ---
 ## Revision
@@ -66,7 +73,9 @@ p:matches(s1, s2, s3) {
 }
 ```
 ???
+
 * Sets the font family and background colour for all elements matching s1, s2 and s3.
 * Sets the font family and background colour for all elements not matching s1, s2 and s3.
 * Sets the font family and background colour for all elements.
 * Does nothing.
+

@@ -1,4 +1,4 @@
-# Function declarations vs function expressions
+---
 author: chrisjstott
 
 levels:
@@ -27,6 +27,9 @@ links:
 
   - >-
     [javascriptweblog.wordpress.com](https://javascriptweblog.wordpress.com/2010/07/06/function-declarations-vs-function-expressions/){website}
+
+---
+# Function declarations vs function expressions
 
 ---
 ## Content
@@ -68,10 +71,10 @@ var example1 = function() {};
 function example2() {};
 ```
 
-* `example1`
-* `example2`
-* `Neither`
-* `Both`
+* example1
+* example2
+* Neither
+* Both
 
 ---
 ## Revision
@@ -85,7 +88,8 @@ var enki2 = function() {};
 ```
 
 ???
-*`enki`
-*`enki2`
-*`none`
-*`both`
+
+* enki
+* enki2
+* none
+* both

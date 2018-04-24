@@ -1,4 +1,4 @@
-# Function call method
+---
 author: tommarshall
 
 levels:
@@ -14,12 +14,23 @@ type: normal
 category: must-know
 
 standards:
+
   js.functions.1: 10
+
   js.execution-context.1: 10
 
 tags:
+
   - introduction
+
   - workout
+
+
+
+
+---
+
+# Function call method
 
 ---
 ## Content
@@ -34,7 +45,7 @@ If `currObj` is not supplied, the `currObj` is set to the global object.
 
 Creating a function to call returning a string of the object and arguments:
 
-```JavaScript
+```javascript
 function callObject(arg1, arg2) {
   var str;
   str += "Object: " + this + ". ";
@@ -48,7 +59,7 @@ function callObject(arg1, arg2) {
 
 Calling the function using the call method:
 
-```JavaScript
+```javascript
 callObject.call(2, 4, 6);
 ```
 
@@ -62,6 +73,7 @@ str = "Object: 2. Arguments: 4 6 "
 ## Practice
 
 If `currObj` is not supplied, what is it set to by default? ???
+
 * The global object.
 * Equal to null.
 * The previous object.
@@ -76,7 +88,9 @@ callObject.call(null, 4, 2);
 ```
 ???
 
+
 * Object: null, Arguments: 4,2
 * Object: 4, Arguments 2
 * Object: 4, Arguments: null, 2
 * This gives an error
+

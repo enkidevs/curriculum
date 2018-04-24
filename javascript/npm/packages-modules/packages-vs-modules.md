@@ -1,4 +1,4 @@
-# Packages vs Modules
+---
 author: mihaiberq
 
 levels:
@@ -21,6 +21,8 @@ tags:
   - workout
   - deep
 
+---
+# Packages vs Modules
 
 ---
 ## Content
@@ -55,10 +57,12 @@ For a module to be a package as well, it has to
 
 ???
 
+
 * have a package.json file
 * be published
 * have an index.js file
 * be required
+
 ---
 ## Revision
 
@@ -66,6 +70,7 @@ Node's `require()` looks for code in
 
 ???
 
-* `node_modules`
-* `package.json`
-* `node_packages`
+* node_modules
+* package.json
+* node_packages
+

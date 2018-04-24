@@ -1,10 +1,8 @@
-# Handle `JSON.parse` error in Node.js
+---
 author: rosielowther
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal
@@ -19,12 +17,11 @@ tags:
   - workout
 
 links:
+  - '[www.joyent.com](https://www.joyent.com/developers/node/design/errors){website}'
+  - '[stackoverflow.com](http://stackoverflow.com/questions/14392110/catch-exception-in-node-during-json-parse?lq=1){website}'
 
-  - >-
-    [www.joyent.com](https://www.joyent.com/developers/node/design/errors){website}
-
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/14392110/catch-exception-in-node-during-json-parse?lq=1){website}
+---
+# Handle `JSON.parse` error in Node.js
 
 ---
 ## Content
@@ -45,6 +42,17 @@ webSocket.on('msg', function (msg) {
 }
 ```
 
+---
+## Practice
+
+What is required when you're handling a `JSON.parse` error in Node? 
+
+???
+
+* a try/catch
+* an if statement
+* a loop
+* an error message
 
 ---
 ## Revision
@@ -55,18 +63,3 @@ What type of function is `JSON.parse` ?
 
 * synchronous
 * asynchronous
-
----
-## Quiz
-
-headline: What do you always have to do when parsing JSON?
-
-question: |
-
-  //What is required when you're handling a JSON.parse error in Node?
-
-answers:
-  - a try/catch
-  - an else condition
-  - a loop
-  - an error message

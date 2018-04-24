@@ -1,4 +1,4 @@
-# Add Default Value
+---
 author: SebaRaba
 
 levels:
@@ -17,13 +17,24 @@ category: must-know
 
 inAlgoPool: false
 
-links:
-
-  - '[More on ADD DEFAULT](https://www.w3schools.com/sql/sql_default.asp)'
+standards:
+  sql.define-columns.2: 10
 
 tags:
+
   - workout
+
   - deep
+
+
+links:
+
+  - '[More on ADD DEFAULT](https://www.w3schools.com/sql/sql_default.asp){website}'
+
+
+---
+
+# Add Default Value
 
 ---
 ## Content
@@ -69,6 +80,7 @@ ALTER ??? ???
 ??? 1;
 ```
 
+
 * ALTER TABLE
 * COLUMN
 * region_id
@@ -96,6 +108,7 @@ id | version_group_id |      name
 
     ???
 ```
+
 
 * ALTER TABLE version ALTER COLUMN name SET DEFAULT 'ruby';
 * ALTER TABLE region ALTER COLUMN name SET DEFAULT 'ruby';

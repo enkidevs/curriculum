@@ -1,4 +1,4 @@
-# Let (Part 2)
+---
 author: alexjmackey
 
 levels:
@@ -7,15 +7,20 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
+
+inAlgoPool: false
 
 
 links:
-  
+
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let){website}'
-  
+
+
+---
+
+# Let (Part 2)
+
 ---
 ## Content
 
@@ -53,3 +58,4 @@ for (let i = 0; i < 5; i++) {
 ```
 
 The code will now run as expected as each loop iteration refers to a different rather than the same instance of *i*.
+

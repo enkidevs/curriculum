@@ -1,10 +1,8 @@
-# Passing through command line arguments in npm scripts
+---
 author: catalin
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal
@@ -12,9 +10,7 @@ type: normal
 category: feature
 
 links:
-
-  - >-
-    [www.marcusoft.net](http://www.marcusoft.net/2015/08/npm-scripting-configs-and-arguments.html#passing-through-command-line-argument){website}
+  - '[www.marcusoft.net](http://www.marcusoft.net/2015/08/npm-scripting-configs-and-arguments.html#passing-through-command-line-argument){website}'
 
 parent: check-data-about-a-package
 
@@ -22,6 +18,10 @@ tags:
   - introduction
   - workout
   - deep
+
+---
+
+# Passing through command line arguments in npm scripts
 
 ---
 ## Content
@@ -45,3 +45,4 @@ Alternatively you can provide `--` when calling a script directly:
 ```bash
 $ npm run someCommand -- --arg=value
 ```
+

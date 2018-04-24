@@ -1,4 +1,4 @@
-# Gotta know them all
+---
 author: catalin
 
 levels:
@@ -14,6 +14,10 @@ levels:
 type: fillTheGap
 
 category: must-know
+
+---
+
+# Gotta know them all
 
 ---
 ## Content

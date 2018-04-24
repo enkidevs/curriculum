@@ -1,4 +1,4 @@
-# What Are Decorators?
+---
 author: mihaiberq
 
 levels:
@@ -9,8 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
-  - "[What are decorators?](https://www.thecodeship.com/patterns/guide-to-python-function-decorators/)"
+
+  - '[What are decorators?](https://www.thecodeship.com/patterns/guide-to-python-function-decorators/){website}'
+
+
+---
+
+# What Are Decorators?
 
 ---
 ## Content
@@ -23,7 +30,7 @@ def say_hello(name):
   return "Hello, {0}!".format(name)
 ```
 Say you need to wrap the output of the function in *heading tags*, like this:
-```HTML
+```html
 <h2>Hello, Mike!</h2>
 ```
 You could always define another function that makes use of `say_hello`:
@@ -68,11 +75,11 @@ The number of similar looking functions that can be decorated using the same dec
 
 ???
 
+
 * as many as needed
 * one
 * two
 * none
-
 
 ---
 ## Revision
@@ -93,7 +100,9 @@ def hello_heading(func):
   return func_wrapper
 ```
 ???
+
 * B
 * A
 * both
 * neither
+
