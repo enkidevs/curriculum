@@ -22,9 +22,6 @@ tags:
 
   - deep
 
-
-
-
 ---
 
 # Handling Blobs in a RDBMS
@@ -51,24 +48,21 @@ In the next insights you will learn about different BLOB implementations, depend
 ---
 ## Practice
 
-In most databases, the maximum allowed size of BLOBs is
+In most databases, the maximum allowed size of BLOBs are in the order of
 
 ???
 
-
-* GB
-* MB
-* KB
-* TB
+* GBs
+* MBs
+* KBs
+* TBs
 
 ---
 ## Revision
 
 `BLOB`s are used to store ???
 
-
 * `raw bytes`
 * `bigints`
 * `strings`
 * `images`
-

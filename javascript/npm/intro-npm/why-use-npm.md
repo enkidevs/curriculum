@@ -9,7 +9,7 @@ type: normal
 category: must-know
 
 standards:
-  js.npm-tasks-and-modules-manager: 20
+  js.npm-tasks-and-modules-manager.0: 20
 
 tags:
   - introduction
@@ -38,9 +38,22 @@ The latest package manager released is **Yarn**. One of the main differences bet
 Of these options npm is usually seen as the current best-choice.
 
 ---
+## Practice
+
+Which of the following is not a JavaScript package manger?
+
+???
+
+* webpack
+* npm
+* yarn
+* duo
+* bower
+
+---
 ## Revision
 
-An alternative package manager to npm is
+A faster alternative package manager to npm is
 
 ???.
 

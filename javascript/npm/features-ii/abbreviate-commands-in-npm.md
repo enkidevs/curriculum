@@ -12,7 +12,7 @@ category: feature
 parent: check-data-about-a-package
 
 standards:
-  js.npm-tasks-and-modules-manager: 10
+  js.npm-tasks-and-modules-manager.3: 10
 
 tags:
   - obscura

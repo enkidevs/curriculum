@@ -13,7 +13,9 @@ category: how to
 parent: check-data-about-a-package
 
 standards:
-  js.npm-publish: 10
+  js.npm-publish.0: 10
+  js.npm-publish.1: 10
+  js.npm-publish.9: 10
   js.npm-tasks-and-modules-manager: 10
 
 tags:

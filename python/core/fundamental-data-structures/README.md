@@ -8,3 +8,10 @@ insights:
   - the-fundamental-tuples
   - working-with-set-s
   - dictionary-standard-mapping-type
+
+exercises:
+  - py-practice-boolean
+  - py-practice-enumertor
+  - py-practice-sequence
+  - py-practice-mapping
+  - py-practice-mapping2

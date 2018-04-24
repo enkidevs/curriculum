@@ -7,4 +7,8 @@ insights:
   - the-difference-between-parallel-asynchronous-and-concurrent
   - csp-using-js-csp
   - csp-using-async-csp-and-es7
-  - flow-control-using-co 
+  - flow-control-using-co
+
+exercises:
+  - js-practice-async
+  - js-practice-event-loop

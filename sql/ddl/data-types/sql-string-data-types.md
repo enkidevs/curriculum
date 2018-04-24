@@ -20,9 +20,6 @@ tags:
 
   - workout
 
-
-
-
 ---
 
 # SQL String Data Types

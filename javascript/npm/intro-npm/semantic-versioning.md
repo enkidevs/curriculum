@@ -12,8 +12,8 @@ category: must-know
 parent: package-json
 
 standards:
-  js.npm-tasks-and-modules-manager: 10
-  js.use-open-source-javascript-packages: 10
+  js.npm-tasks-and-modules-manager.3: 10
+  js.use-open-source-javascript-packages.1: 10
 
 tags:
   - introduction

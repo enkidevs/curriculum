@@ -6,3 +6,8 @@ insights:
   - insert
   - update-clause
   - delete-clause
+
+exercises:
+  - sql-practice-insert
+  - sql-practice-update
+  - sql-practice-delete

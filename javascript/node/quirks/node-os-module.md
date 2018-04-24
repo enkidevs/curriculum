@@ -10,8 +10,7 @@ type: normal
 category: how to
 
 standards:
-  js.node-standard-library-os: 20
-  js.use-modules: 20
+  js.node-standard-library-os.7: 20
 
 tags:
   - introduction

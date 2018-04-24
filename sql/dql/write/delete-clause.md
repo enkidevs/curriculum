@@ -24,11 +24,9 @@ tags:
 
   - workout
 
-
 links:
 
   - '[More on DELETE](http://www.dofactory.com/sql/delete){website}'
-
 
 ---
 
@@ -63,10 +61,12 @@ id |     name
 ```
 
 Suppose we want to delete the first value of the table:
-```
+```sql
 DELETE FROM egg_group
 WHERE id = 1;
+```
 
+```
 --Result:
 id |     name      
 ===+===============
@@ -116,11 +116,11 @@ id |     name
 14 | dragon
 15 | no-eggs
 (15 rows)
-
+```
+```sql
 ??? FROM egg_group
 WHERE id ??? 1 and 5;
 ```
-
 
 * DELETE
 * between
@@ -152,8 +152,8 @@ id |     name
 15 | no-eggs
 (15 rows)
 ```
-???
 
+???
 
 * DELETE FROM egg_group WHERE id= 15;
 * UPDATE egg_group DELETE WHERE id=15;

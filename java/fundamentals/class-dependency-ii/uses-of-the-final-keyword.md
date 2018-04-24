@@ -72,7 +72,7 @@ public ??? ??? Example{
 * `String`
 
 ---
-## Quiz
+## Quiz 
 ### Can you predict the output of this inheritance example?
 
 What would the following snippet output?

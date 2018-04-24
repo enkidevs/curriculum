@@ -88,7 +88,7 @@ int num = x > 2 ??? 2 ??? 0
 * `+`
 
 ---
-## Quiz
+## Quiz 
 ### Which single boolean should be negated for the output to be true?
 
 ```java

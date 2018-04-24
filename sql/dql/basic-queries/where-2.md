@@ -26,11 +26,9 @@ tags:
 
   - workout
 
-
 links:
 
   - '[SQL Tutorial: WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}'
-
 
 ---
 
@@ -124,7 +122,7 @@ FROM pokemon
 * 'venusaur'
 
 ---
-## Quiz
+## Quiz 
 ### Can you select rows between two values in SQL?
 Consider the `move_name` table:
 

@@ -14,7 +14,7 @@ category: must-know
 parent: semantic-versioning
 
 standards:
-  js.npm-publish: 10
+  js.npm-publish.3: 10
 
 tags:
   - introduction
@@ -73,4 +73,3 @@ Node's `require()` looks for code in
 * node_modules
 * package.json
 * node_packages
-

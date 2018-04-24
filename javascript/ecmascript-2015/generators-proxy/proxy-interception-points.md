@@ -2,9 +2,7 @@
 author: alexjmackey
 
 levels:
-
   - medium
-
   - advanced
 
 type: normal
@@ -13,14 +11,10 @@ category: must-know
 
 inAlgoPool: false
 
-
 links:
-
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy){website}'
 
-
 ---
-
 # Using Proxies
 
 ---
@@ -41,11 +35,11 @@ Proxies allow you to intercept many different operations and methods:
 * ownKeys
 * apply
 
-Of course you only need to specify those you want to intercept otherwise the default behaviour will occur.
+Of course you only need to specify those you want to intercept otherwise the default behavior will occur.
 
 Here is an example of intercepting delete calls:
 
-```
+```javascript
 var handler = {
  deleteProperty (target, key) {
   console.log("ignoring delete");
@@ -59,7 +53,7 @@ delete proxy.x; //ignoring delete
 console.log(obj.x); //y
 ```
 
-**Revokable Proxy**
+### Revokable Proxy
 
 There is a special type of proxy called a **revokable proxy**.
 
@@ -67,27 +61,27 @@ This allows you to later deny access to the proxy by calling the revoke method.
 
 First we use **Proxy.revocable** to obtain a revokable proxy:
 
-```
+```javascript
 var rev = Proxy.revocable({}, {
   get: function(target, name) {
-  console.log('accessed ' + target);
+    console.log('accessed ' + target);
   }
 });
 
 var p = rev.proxy;
-p.a; //a accessed
+p.a; // accessed a
 ```
 
 Then we can deny access to the proxy by calling the revoke method:
 
-```
+```javascript
 p.revoke();
 p.a;
 // VM181:1 Uncaught TypeError:
 // p.revoke is not a function(...)
 ```
 
-**Potential Usages**
+### Potential Usages
 
 Proxies have a number of potential usages and we will probably see library and framework authors coming up with some exciting usages.
 
@@ -100,3 +94,64 @@ Some potential usages:
 * Extending constructors
 * As a shim/fallback for older browsers in the future
 
+---
+## Practice
+
+Fill in the gaps such that log statements hold true:
+
+```javascript
+const revocable = ???.???({}, {
+  ???: () => 42
+});
+
+const proxy = revocable.???;
+console.log(proxy.enki)
+// 42
+
+???.???()
+console.log(proxy.enki)
+// TypeError
+```
+
+* Proxy
+* revokable
+* get
+* proxy
+* revokable
+* revoke
+* throw
+* catch
+* try
+* new Proxy
+* get()
+
+---
+## Revision
+
+Fill in the gaps of the following snippet such that, using a Proxy, the proprieties of `pObj` cannot be deleted via `delete` keyword:
+
+```javascript
+const obj = {
+  enki: 42
+}
+
+const proxyFn = {
+  ???: (obj, prop) => true
+}
+const pObj = new ???(???, ???)
+delete pObj.enki
+console.log(pObj)
+// { enki: 42 }
+```
+
+* deleteProperty
+* Proxy
+* obj
+* proxyFn
+* enki
+* 42
+* delete
+* deleteOwnProperty
+* proxy
+* function
+* function*

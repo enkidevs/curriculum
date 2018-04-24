@@ -56,7 +56,7 @@ print(file.read())
 file.close()
 
 # Output:
-# This is
+# Input is:
 # Current pos: 7
 # After seek: 0
 # This is my file
@@ -78,18 +78,11 @@ os.remove('new_file.txt');
 ---
 ## Practice
 
-Fill the gaps:
+We want to open `file.txt` just for reading purposes. After we want to print it line by line and print the content.
 ```
 file = open('file.txt','???')
 print(???.readline())
-print(file.tell())
-
-file.???(0)
-
-print(file.read())
 ```
-???
-
 
 
 * `r`

@@ -8,6 +8,10 @@ type: normal
 
 category: how to
 
+standards:
+  js.express-server.0: 10
+  js.express-server.1: 10
+
 links:
   - '[expressjs.com](http://expressjs.com/en/starter/installing.html){website}'
 
@@ -76,4 +80,3 @@ var app = ???;
 * get
 * use
 * request
-

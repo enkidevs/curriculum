@@ -13,7 +13,8 @@ category: must-know
 
 
 standards:
-  js.use-modules: 10
+  js.use-modules.0: 10
+  js.use-modules.1: 10
 
 tags:
   - introduction
@@ -25,7 +26,6 @@ links:
 parent: the-http-module-for-servers
 
 ---
-
 # Local Modules
 
 ---
@@ -61,11 +61,42 @@ newsModule.good('We're working on Node!');
 To run the module:
 ```bash
 $ node main.js
+# Good news! We're working on Node!
 ```
-Which gives the following output:
+
+---
+## Practice
+
+Consider the following local node module:
+
+```javascript
+// myModule.js
+module.exports = {
+  hello: function() {
+    console.log('Hello from Enki')
+  }
+}
 ```
-Good news! We're working on Node!
+
+How would you import and use it in your application?
+
+```javascript
+// main.js
+var myModule = ???('./myModule.js')
+
+???.???
 ```
+
+Running `$ node myModule` should log "Hello from Enki".
+
+* require
+* myModule
+* hello()
+* hello
+* req
+* import
+* myFile
+* myLocalModule
 
 ---
 ## Revision
@@ -76,4 +107,3 @@ Which of the following module types must have its path specified when requiring 
 
 * local
 * core
-* registry

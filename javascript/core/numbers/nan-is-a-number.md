@@ -2,11 +2,8 @@
 author: jordanfish
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
@@ -14,14 +11,9 @@ type: normal
 category: caveats
 
 standards:
-
   js.evaluate-expressions.1: 10
 
-
-
-
 ---
-
 # `NaN` is a number
 
 ---
@@ -29,7 +21,7 @@ standards:
 
 When using the `typeof` operator with `NaN`, an interesting result is observed:
 
-```
+```javascript
 var x = typeof NaN;
 console.log(x);
 // 'number'
@@ -37,7 +29,7 @@ console.log(x);
 
 To distinguish `NaN` from other numbers, use `Number.isNaN`:
 
-```
+```javascript
 Number.isNaN(5) // false
 Number.isNaN(true) // false
 Number.isNaN('') // false
@@ -48,17 +40,37 @@ Number.isNaN(Number.NaN) // true
 
 Beware that using `=== NaN` instead of `isNaN` would not work because `NaN` is not equal to itself:
 
-```
+```javascript
 1 === NaN  // false
 NaN === NaN // false
 Infinity === NaN // false
 ```
 
 ---
+## Practice
+
+Complete the code to check if variable `z` is *not a number*.
+
+```javascript
+var z = NaN
+???.???(z) // true
+```
+
+* Number
+* isNaN
+* isNotNaN
+* Math
+* validate
+* NaN
+* check
+* is
+
+---
 ## Revision
 
 The following code snippet outputs ???
-```
+
+```javascript
 console.log(typeof NaN);
 ```
 
@@ -77,7 +89,7 @@ What is the output of this line?
 console.log(typeof(NaN));
 ```
 
- ???
+???
 
 * number
 * object

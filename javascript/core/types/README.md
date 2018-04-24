@@ -1,5 +1,7 @@
 name: Types
 
+type: insights-list
+
 description: Types of JavaScript.
 
 insights:
@@ -8,5 +10,14 @@ insights:
   - types-boolean-and-number
   - types-string
   - be-careful-when-using-typeof
+
+
+exercises:
+  - js-practice-booleans
+  - js-practice-numbers
+  - js-practice-strings
+
+
+
 
 game: taking-precedence

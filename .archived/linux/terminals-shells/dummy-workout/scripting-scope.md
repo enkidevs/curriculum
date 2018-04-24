@@ -23,7 +23,7 @@ tags:
 Normally, the value `echo`d would be 2. However, the last command inside brackets (`{ }`), must end in a `;`. Otherwise, an EOF (end of file) error is thrown.
 
 ---
-## Quiz
+## Quiz 
 
 ### what is the output of the following script?
 

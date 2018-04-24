@@ -19,7 +19,7 @@ standards:
 
 tags:
 
-  - introduction
+
 
   - workout
 
@@ -53,7 +53,7 @@ In order to connect to Enki "Pokemon" click "Add new Server" in " Quick Links", 
 
 Now the connection has been established, for further information please refer to the *pgAdmin* documentation.
 
-**NOTE: Bookmark this insight, and try connecting to the databae on your own!**
+**NOTE: Bookmark this insight, and try connecting to the database on your own!**
 
 ---
 ## Practice

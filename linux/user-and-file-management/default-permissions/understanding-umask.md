@@ -111,7 +111,7 @@ What `umask` value makes the new files only accessible to the user who created t
 * 000
 
 ---
-## Quiz
+## Quiz 
 ### how does umask work?
 
 What is the umask value, if the permission of a newly created file is `224`?

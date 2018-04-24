@@ -98,7 +98,7 @@ console.log("\n" == 0);
 * `false false`
 
 ---
-## Quiz
+## Quiz 
 ### how familiar are you with weak equality?
 
 ```javascript

@@ -105,7 +105,7 @@ is used to give a “false name” to other commands.
 * ctrl+k
 
 ---
-## Quiz
+## Quiz 
 ### Can you figure out what a command does given only its output?
 
 Consider the following command and its output:

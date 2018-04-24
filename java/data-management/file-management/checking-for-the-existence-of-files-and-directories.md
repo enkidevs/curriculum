@@ -74,7 +74,7 @@ How would you check if the file exists?
 * `f.toFile()`
 
 ---
-## Quiz
+## Quiz 
 ### Can you figure out what check should be included in the following snippet?
 
 What should be checked here such that the below code won't throw errors?

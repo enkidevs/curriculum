@@ -12,9 +12,9 @@ type: normal
 category: must-know
 
 standards:
-  js.read-and-write-streams: 20
-  js.node-standard-library-os: 20
-  js.events-asynchronous-operations: 20
+  js.read-and-write-streams.0: 20
+  js.node-standard-library-os.0: 20
+  js.events-asynchronous-operations.1: 20
 
 tags:
   - introduction

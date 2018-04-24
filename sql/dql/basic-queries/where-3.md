@@ -24,11 +24,9 @@ tags:
 
   - workout
 
-
 links:
 
   - '[SQL Tutorial: WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}'
-
 
 ---
 
@@ -106,12 +104,12 @@ Select all the columns from the `pokemon` table, keeping only the rows where the
 * 'saur%'
 
 ---
-## Quiz
+## Quiz 
 ### Do you know how to match a pattern in SQL?
 Consider the `location` table from our pokemon database:
 
 
-```bash
+```
 
 id  | region_id |     name           
 ====|===========|================

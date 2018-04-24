@@ -73,7 +73,7 @@ div * {
 * Selects all elements inside div elements where the font family is Arial Narrow.
 
 ---
-## Quiz
+## Quiz 
 ### which selector is used to select every element on the page?
 
 ```css

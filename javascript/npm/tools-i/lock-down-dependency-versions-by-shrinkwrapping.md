@@ -10,9 +10,9 @@ type: normal
 category: feature
 
 standards:
-  js.use-open-source-javascript-packages: 10
-  js.npm-publish: 10
-  js.npm-tasks-and-modules-manager: 10
+  js.use-open-source-javascript-packages.1: 10
+  js.npm-publish.2: 10
+  js.npm-tasks-and-modules-manager.0: 10
 
 tags:
   - workout

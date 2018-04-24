@@ -2,11 +2,8 @@
 author: rosielowther
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
@@ -14,21 +11,14 @@ type: normal
 category: feature
 
 standards:
-
   js.functions.1: 10
 
 tags:
-
   - introduction
-
   - workout
 
-
-
-
 ---
-
-# Functions return `undefined` by default
+# Functions return undefined by default
 
 ---
 ## Content
@@ -56,9 +46,34 @@ doSomething(3) // undefined
 ```
 
 ---
+## Practice
+
+Fill in the gaps such that the `naturalHalf` function, given an input number, will return `undefined` for every odd number and the number's half for each even number:
+
+```javascript
+function naturalHalf(number) {
+  if (number ??? 2 == 0) {
+    ???
+  }
+  ???
+}
+```
+
+* %
+* return number/2
+* return
+* return NaN
+* return number%2
+* return null
+* returns undefined
+* /
+* number
+
+---
 ## Revision
 
-Complete the following code snippet:
+Fill in the output of the following `foo` calls:
+
 ```javascript
 function foo(num) {
   if (num === 1) {
@@ -79,4 +94,3 @@ foo(3) === foo(1); // = ???
 * null
 * false
 * NaN
-

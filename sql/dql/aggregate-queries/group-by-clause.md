@@ -27,7 +27,7 @@ tags:
 
 links:
 
-  - '[More on GROUP BY](https://www.techonthenet.com/sql/group_by.php){website}'
+  - '[More on GROUP BY](https://www.techonthenet.com/sql/group_by.php){documentation}'
 
 parent: order-by-clause
 

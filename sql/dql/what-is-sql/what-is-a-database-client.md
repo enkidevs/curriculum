@@ -36,17 +36,15 @@ parent: connection-strings
 ---
 ## Content
 
-A **Database Client** is any piece of software (also known as a *Database Management Tool*) that issues queries to a *Database Server*, which holds the data. A Database Client is essential to have access to the database, and there are many types:
- - Software Packages (like pg in Node, or jdbc in Java)
- - Command Line Applications
- - GUI Interfaces
-
-
-As a client we do not need to know how data gets allocated on the storage device and how the server configuration gets set up. So let's forget the backend part (server) of using a database and look at Database Client.
+A **Database Client** is any piece of software that issues queries to a *Database Server*, which holds the data.
+There are many types:
+ - Software Packages (like `pg` in Node, or `jdbc` in Java, `psycopg2` in Python)
+ - Command Line Applications, like `psql`
+ - Graphical Interfaces, like SQL Server Management Studio
 
 Some of the Database Clients can act as one or both of the following things:
  - The end user GUI/command line database management system which is connected to the database server.
- - When used as a software package, it can act as an intermediary between other applications and the database that holds the data.
+ - When used as a software package, it can act as an intermediary between other applications and the database that holds the data (such as web servers)
 
 ---
 ## Practice

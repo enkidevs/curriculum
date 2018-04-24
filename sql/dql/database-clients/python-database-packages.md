@@ -19,7 +19,6 @@ standards:
 
 tags:
 
-  - introduction
 
   - workout
 
@@ -55,7 +54,7 @@ As an example we will take *Psycopg on MacOS X*, you can run the following comma
 After installation of the *Psycopg* package we can run python by typing `python` in the terminal.
 
 Now let's connect to the Pokemon database:
-```
+```python
 # Import the library
 >>> import psycopg2
 # Connect to the database
@@ -66,8 +65,9 @@ Now let's connect to the Pokemon database:
   host=aws-us-east-1-portal.29.dblayer.com
   port=23336")
 ```
+
 In order to execute a query we must use the cursor class:
-```
+```python
 # Creating a cursor instance
 >>> cur = conn.cursor()                    
 # Execute a command
@@ -75,18 +75,20 @@ In order to execute a query we must use the cursor class:
   FROM pokemon_color;")
 >>> cur.fetchall()
 ```
+
 This will should list all the colors in an array of pairs.
 
 **NOTE: you are granted a read-only access so executing writing commands will have no effect.**
 
 As `cur` is now a Python list object we can iterate through the query result simply by:
-```
+```python
 >>> for row in cur:
 ...     print (row)
 ...
 ```
+
 Which should print:
-```
+```python
 (1, 'black')
 (2, 'blue')
 (3, 'brown')
@@ -111,7 +113,6 @@ If we consider `psycopg2` library what's the correct order of connecting and the
 3 - ???
 4 - ???
 
-
 * import psycopg2
 * establish a connection with the database
 * initialize a cursor
@@ -122,7 +123,6 @@ If we consider `psycopg2` library what's the correct order of connecting and the
 
 How can you connect to a database with Python?
 ???
-
 
 * By using dedicated libraries
 * Python provides an inbuilt db functionality

@@ -10,9 +10,9 @@ levels:
 type: normal
 
 standards:
-  js.read-and-write-streams: 20
-  js.node-standard-library-os: 20
-  js.events-asynchronous-operations: 20
+  js.read-and-write-streams.1: 20
+  js.node-standard-library-os.0: 20
+  js.events-asynchronous-operations.1: 20
 
 tags:
   - introduction
@@ -33,19 +33,21 @@ parent: chaining-readable-streams
 ## Content
 
 The `write()`  method is used to write data to a writable stream. Take the following example:
- ```
- var fs = require(‘fs’);
- var rstream = fs.createReadStream
-                          (‘file.txt’);
- var wstream = fs.createWriteStream
-                          (‘output.txt’);
 
- rstream.on(‘data’, function(data) {
+```javascript
+var fs = require(‘fs’);
+var rstream = fs.createReadStream
+                        (‘file.txt’);
+var wstream = fs.createWriteStream
+                        (‘output.txt’);
 
-   wstream.write(data);
+rstream.on(‘data’, function(data) {
 
- });
- ```
+ wstream.write(data);
+
+});
+```
+
 The above example initiates both a readable stream and a writable stream. A callback function is then created which is called when data is read from the readable stream, this data is then written to `output.txt` using the writable stream.
 
 The `write()` method returns a boolean value acting as an indicator to whether the write operation was successful. If the write was successful and more data can now be written then `true`  is returned. If the write operation was unsuccessful then `false` is returned.

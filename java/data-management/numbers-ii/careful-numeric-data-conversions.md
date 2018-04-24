@@ -48,7 +48,7 @@ public static void convert(int i) {
 ```
 
 ---
-## Quiz
+## Quiz 
 ### Can you identify how type conversion works in the following example?
 
 

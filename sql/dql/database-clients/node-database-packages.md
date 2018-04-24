@@ -19,8 +19,6 @@ standards:
 
 tags:
 
-  - introduction
-
   - workout
 
   - node
@@ -52,7 +50,7 @@ Node is another popular platform (available as a course for premium users) which
  - pg (for postgres)
 
 We will create a node app and use a `pg` package in order to connect to a *Pokemon* database and output the results to the console:
-```
+```js
 //require the correct package
 var pg = require("pg");
 //use a correct connection string
@@ -83,7 +81,7 @@ client.connect((err)=> {
 });
 ```
 The result of the following code should be similar to:
-```
+```js
 [ anonymous { id: '1', name: 'black' },
   anonymous { id: '2', name: 'blue' },
   anonymous { id: '3', name: 'brown' },

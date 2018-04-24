@@ -9,3 +9,8 @@ insights:
   - the-in-operator
   - the-is-operator
   - the-not-operator
+
+exercises:
+  - py-practice-control-structures
+  - py-practice-flow-control
+  - py-practice-flow-control-sudoku

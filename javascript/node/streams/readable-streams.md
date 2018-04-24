@@ -12,9 +12,9 @@ type: normal
 category: must-know
 
 standards:
-  js.read-and-write-streams: 20
-  js.node-standard-library-os: 20
-  js.events-asynchronous-operations: 20
+  js.read-and-write-streams.0: 20
+  js.node-standard-library-os.0: 20
+  js.events-asynchronous-operations.1: 20
 
 tags:
   - introduction
@@ -37,7 +37,7 @@ A readable stream reads data from a source. A source could be a file on a system
 
 The most efficient way of reading data from a stream is to add a *listener* to the *data* event and attach a callback. When data is available to be read, the (readable) stream will emit a data event causing the callback to run, for example:
 
-```
+```javascript
 // require file system
 var fs = require(‘fs’);
 var rstream = fs.createReadStream
@@ -53,7 +53,7 @@ rstream.on(‘data’, function(avail) {
 Calling `fs.createReadStream` creates a readable stream, this stream then beings to flow once a callback has been attached.
 
 A callback also needs to be added for when the stream has reached the end of the data:
-```
+```javascript
 rstream.on(‘end’, function() {
 
   console.log(data);
@@ -62,7 +62,7 @@ rstream.on(‘end’, function() {
 ```
 
 Encoding can be set on the stream like follows:
-```
+```javascript
 rstream.setEncoding(‘utf8’);
 ```
 

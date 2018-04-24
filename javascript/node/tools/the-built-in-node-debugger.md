@@ -10,8 +10,7 @@ type: normal
 category: must-know
 
 standards:
-  js.node-developer-environment: 20
-  js.use-modules: 20
+  js.node-developer-environment.6: 20
 
 tags:
   - introduction

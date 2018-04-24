@@ -11,9 +11,9 @@ type: normal
 category: how to
 
 standards:
-  js.node-developer-environment: 20
-  js.use-modules: 20
-  js.identify-common-design-patterns: 10
+  js.express-server.0: 10
+  js.express-server.1: 10
+  js.use-modules.3: 10
 
 tags:
   - workout

@@ -12,7 +12,7 @@ type: normal
 category: must-know
 
 standards:
-  js.use-modules: 20
+  js.node-standard-library-os.2: 10
 
 tags:
   - introduction

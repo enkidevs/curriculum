@@ -9,3 +9,9 @@ insights:
   - using-else-in-loops
   - nested-loops
   - looping-techniques
+
+exercises:
+  - py-practice-loops
+  - py-practice-iterable
+  - py-practice-iterable2
+  - py-practice-next-iter

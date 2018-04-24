@@ -7,4 +7,3 @@ insights:
   - handling-click-events
   - drag-and-drop-api
   - mediadevices-getusermedia
-  - social-sharing-without-widgets

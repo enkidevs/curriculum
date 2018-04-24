@@ -11,8 +11,8 @@ type: normal
 category: feature
 
 standards:
-  js.use-open-source-javascript-packages: 10
-  js.npm-publish: 10
+  js.use-open-source-javascript-packages.0: 10
+  js.npm-publish.0: 10
 
 tags:
   - workout

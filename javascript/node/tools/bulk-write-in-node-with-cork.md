@@ -10,8 +10,8 @@ type: normal
 category: how to
 
 standards:
-  js.node-standard-library-os: 20
-  js.read-and-write-streams: 20
+  js.node-standard-library-os.0: 20
+  js.read-and-write-streams.1: 20
 
 tags:
   - introduction

@@ -18,7 +18,7 @@ links:
 parent: easy-way-to-deliver-html-pages-with-express
 
 ---
-# **GZIP** compression for **Express**
+# GZIP compression for **Express**
 
 ---
 ## Content
@@ -30,21 +30,47 @@ The web server can compress results before sending a response if the request is 
 Browsers that don't support *gzip compression* will receive the original files (bigger than compressed ones).
 
 Apply *gzip compression* for **Express 3.0**:
+
 ```javascript
 app.use(express.compress());
 ```
 
 Apply *gzip compression* for **Express 4.0**:
+
 ```javascript
 var compress = require('compression');
 app.use(compress());
 ```
+
 Please be a good citizen and apply gzip compression on your app.
+
+---
+## Practice
+
+How would you enable GZIP compression for express 4.0?
+
+```javascript
+const compress = require(???)
+const express = require(???)
+
+// ...
+app.???(???)
+```
+
+* 'compression'
+* 'express'
+* use
+* compress()
+* compress
+* 'compress'
+* enable
+* allow
 
 ---
 ## Revision
 
 Apply *gzip compression* for **Express 3.0**:
+
 ```javascript
 app.???(express.???());
 ```

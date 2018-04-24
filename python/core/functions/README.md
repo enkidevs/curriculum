@@ -7,4 +7,12 @@ insights:
   - calling-functions
   - py-function-arguments
   - the-return-statement
-  - nested-functions 
+  - nested-functions
+
+exercises:
+  - py-practice-functions
+  - py-practice-functions2
+  - py-practice-functions-scope
+  - py-practice-ciphers
+  - py-more-practice-functions
+

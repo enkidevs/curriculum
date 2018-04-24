@@ -27,10 +27,9 @@ tags:
 
   - deep
 
-
 links:
 
-  - '[SQLMag Dos and Donts of indices](http://sqlmag.com/database-performance-tuning/indexing-dos-and-don-ts){website}'
+  - '[SQLMag Dos and Donts of indices](http://www.itprotoday.com/microsoft-sql-server/indexing-dos-and-don-ts){website}'
 
 
 ---
@@ -107,7 +106,7 @@ Suppose that `PRIMARY KEY` isn't set yet. Choose the query that will create a cl
 * CREATE INDEX id_clustered ON item(id);
 
 ---
-## Quiz
+## Quiz 
 ### Do you know how to match a pattern in SQL?
 
 Consider the `pokemon` table from our pokemon database:

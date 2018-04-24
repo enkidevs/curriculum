@@ -4,7 +4,6 @@ description: In depth features of ES6.
 
 insights:
   - es6-generator-transpiler
-  - revokable-proxies-and-usages
   - reflect-api-in-es6
   - tail-call-optimisation-in-es6
   - typed-arrays

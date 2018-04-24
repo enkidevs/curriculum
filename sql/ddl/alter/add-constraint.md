@@ -40,21 +40,21 @@ links:
 ## Content
 
 Sometimes we need to add ulterior constraints to the table we define. The `ALTER TABLE` statement enables us to do it. There are several types of constraints we can add. If we want to ensure that all values in one or more columns are different:
-```
+```sql
 ALTER TABLE table_name
 ADD CONSTRAINT constraint_name
 UNIQUE (column1, column2, ...)
 ```
 
 If we want to limit the value range that can be stored in a column:
-```
+```sql
 ALTER TABLE table_name
 ADD CONSTRAINT constraint_name
 CHECK (CONDITION)
 ```
 
 If we want to add a primary key constraint:
-```
+```sql
 ALTER TABLE table_name
 ADD CONSTRAINT constraint_name
 PRIMARY KEY (column1, column2, ...)
@@ -92,7 +92,7 @@ ADD ??? PK-constraints
 ---
 ## Revision
 
-Consider the "version" table. We want to add a `CHECK` constraint to "version_group_id" column. All its entries should not be bigger than 10:
+Consider the `version` table. We want to add a `CHECK` constraint to `version_group_id` column. Any of its entries should not be bigger than 10:
 ```
 id | version_group_id |      name      
 ===+==================+===============
@@ -111,11 +111,9 @@ id | version_group_id |      name
 18 |               11 | white
 ...
 
-    ???
+  ???
 ```
 
-
-
-* ALTER TABLE gender ADD CONSTRAINT check_constraint CHECK (version_group_id <= 10);
-* ALTER TABLE generation ADD PRIMARY KEY (id);
-* ALTER TABLE gender ADD CONSTRAINT check_constraint UNIQUE (version_group_id <= 10);
+* ALTER TABLE version ADD CONSTRAINT check_constraint CHECK (version_group_id <= 10);
+* ALTER TABLE version ADD PRIMARY KEY (version_group_id > 10);
+* ALTER TABLE version ADD CONSTRAINT check_constraint UNIQUE (version_group_id <= 10);

@@ -26,7 +26,7 @@ Among the possible answers, `repack` is the only command not recognized by `git`
 - `merge-base` finds best common ancestor(s) between two commits to use in a three-way merge.
 
 ---
-## Quiz
+## Quiz 
 
 ### how familiar are you with git commands?
 

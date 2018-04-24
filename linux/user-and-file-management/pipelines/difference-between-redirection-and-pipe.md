@@ -84,7 +84,7 @@ _Piping_ refers to passing the output to another program or utility, while _redi
 * passing the output to an utility
 
 ---
-## Quiz
+## Quiz 
 ### which of the following is not a valid command?
 
 Pick the option that would throw an error.

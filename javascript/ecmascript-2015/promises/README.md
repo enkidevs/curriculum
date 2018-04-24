@@ -1,6 +1,6 @@
 name: Promises
 
-description: Promises 101 
+description: Promises 101
 
 insights:
   - introducing-promises
@@ -8,3 +8,7 @@ insights:
   - promises-reject
   - chaining-promises
   - promise-api-methods
+
+exercises:
+  - js-practice-promises
+  - js-practice-async-await

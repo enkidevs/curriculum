@@ -60,7 +60,7 @@ The Session Layer is responsible for ???, as well as authentication, authorizati
 * ensuring the integrity of data streams
 
 ---
-## Quiz
+## Quiz 
 ### What role does this Layer play in the OSI 7 Layer Model?
 ```
 What role does the Session Layer play in the OSI 7 Layer Model?

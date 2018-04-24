@@ -12,8 +12,8 @@ type: normal
 category: must-know
 
 standards:
-  js.use-modules: 20
-  js.identify-common-design-patterns: 10
+  js.use-modules.1: 20
+  js.identify-common-design-patterns.6: 10
 
 tags:
   - introduction

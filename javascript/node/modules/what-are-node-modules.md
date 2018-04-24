@@ -12,8 +12,8 @@ type: normal
 category: must-know
 
 standards:
-  js.use-modules: 10
-  js.node-developer-environment: 10
+  js.use-modules.0: 10
+  js.node-developer-environment.2: 10
 
 tags:
   - introduction
@@ -25,7 +25,6 @@ links:
 parent: npm-nodes-package-manager
 
 ---
-
 # What are Node Modules?
 
 ---
@@ -43,7 +42,19 @@ Using modules when building Node applications give a number of advantages:
 - easier to read and maintain code
 
 ---
+## Practice
+
+Which of the following statements about node modules do you consider false?
+
+???
+
+* using modules will increase the performance of you application
+* using modules can reduce the amount of code per file
+* using modules can make your code easier to maintain and code
+
+---
 ## Revision
+<<<<<<< HEAD
 Where are third party Node.js modules installed to?
 ???
 
@@ -51,3 +62,13 @@ Where are third party Node.js modules installed to?
 * local_modules
 * libraries
 * libs
+=======
+
+What type of module is the `http` module?
+
+???
+
+* Core
+* Local
+* Third party
+>>>>>>> master
