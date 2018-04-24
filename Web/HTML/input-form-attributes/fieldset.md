@@ -15,8 +15,8 @@ tags:
   - deep
 
 links:
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset
-  - https://www.w3schools.com/tags/tag_fieldset.asp
+  - '[MDN docs for fieldset](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset){website}'
+  - '[W3S docs for fieldset](https://www.w3schools.com/tags/tag_fieldset.asp){website}'
 
 ---
 # Fieldset
@@ -48,17 +48,14 @@ In the example, we have a few of elements grouped in a sort of `box`, that the u
 ---
 ## Practice
 
-Mark all statements that apply about the purpose of the fieldset element.
+Which statement is not true about the purpose of the fieldset element?
 
 ???
-???
-???
 
-+ Useful to be used with `<legend>` to make form more readable.
-+ Used to group form controls.
-+ Can use the disabled attribute to disable all form controls within it.
-- Visually creates a 1px black border around the `<fieldset>` element.
-- Not intended for use with screen readers.
+* Visually creates a 1px black border around the `<fieldset>` element.
+* Useful to be used with `<legend>` to make form more readable.
+* Used to group form controls.
+* Can use the disabled attribute to disable all form controls within it.
 
 ---
 ## Revision
