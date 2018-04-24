@@ -1,5 +1,5 @@
-# Footer
-author: matthew-leach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -12,20 +12,48 @@ category: must-know
 tags:
   - introduction
 
+links:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer
+  - https://www.w3schools.com/html/html5_semantic_elements.asp
+
+---
+# Footer
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+The HTML `<footer>` element is used to represent a footer for a whole document or a section. It is also possible to have multiple `<footer>` elements, one for each section. This element should contain some information about its containing element. That can be the author, some copyright information, a link to the terms of use, contact info, link back to the top of the page, a link to related documents, a sitemap, etc.
+
+Using `<footer>` for contact information:
+```
+<footer>
+  <p>
+    Author: Jane Doe
+  </p>
+  <p>
+  Contact: 
+    <a 
+      href="mailto:janedoe@example.com">
+      janedoe@example.com
+    </a>.
+  </p>
+</footer>
+```
 
 ---
 ## Practice
 
 The `<footer>` element is encourage to contain which of the following?
 
+???
+???
+???
+???
+???
+
 + copyright information
 + contact information
 + links to related pages
-+ link back to top of page
++ link back to the top of the page
 + sitemap
 - additional `<footer>` elements
 - display one or more heading (h1-h6) elements
@@ -36,7 +64,7 @@ The `<footer>` element is encourage to contain which of the following?
 ---
 ## Revision
 
-Which container is best to organize the bottom of a web page or content section? 
+Which container is best to organize the top of a web page or content section? 
 
 ???
 
@@ -50,14 +78,19 @@ Which container is best to organize the bottom of a web page or content section?
 ---
 ## Quiz
 
-The HTML `<footer>` element should contain what?
+### How much do you know about the `<footer>` HTML element?
 
-+ copyright information
-+ contact information
-+ links to related pages
-+ link back to top of page
-+ sitemap
-- crucial information
-- over-optimizing for SEO
+The HTML `<footer>` element should NOT contain what?
+
+???
+
+* crucial information
+* copyright information
+* contact information
+* links to related pages
+* link back to top of page
+* sitemap
+
+
 
 
