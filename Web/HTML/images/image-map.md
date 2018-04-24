@@ -200,19 +200,14 @@ When using the map element to create clickable areas within a single image, what
 ## Quiz
 
 ### How much do you know about create clickable image maps?
-Place the shape values within the appropriate locations to create the proper code.
+
+Place the shape value within the appropriate location to create the proper code.
 
 ```
 <map name="objects">
  <area shape="???" 
    coords="10,50,82,126" 
-    alt="" href="object1.htm">
- <area shape="???" 
-   coords="90,58,3" 
-    alt="" href="object2.htm">
- <area shape="???" 
-   coords="19,24,12,32,25,41,34,33,32,25"
-    alt="" href="object3.htm">
+   alt="" href="object.htm">
 </map>
 
 <img usemap="#objects" src="#" alt="">
