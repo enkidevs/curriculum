@@ -16,7 +16,7 @@ type: exercise
 link: http://www.codewars.com/kata/571edd157e8954bab500032d
 linkType: codewars
 standards:
-
+  js.evaluate-expressions.5: 1000
   js.data-types-structures.2: 1000
   js.data-types-structures.3: 1000
   js.evaluate-expressions.4: 1000
