@@ -15,8 +15,7 @@ tags:
   - deep
 
 links:
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend
-  -
+  - '[MDN docs for legend](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend){website}'
  
 ---
 # Legend
@@ -47,15 +46,15 @@ Example:
 ---
 ## Practice
 
-Mark all statements that apply to the `<legend>` element.
+Which statement is true regarding the `<legend>` element?
 
 ???
-???
 
-+ Sets a caption for the fieldset element
-+ Needs to be the first child within a `<fieldset>` element
-- Needs to be written directed before a `<fieldset>` element
-- Visually creates a 1px black border around the `<fieldset>` element.
+
+* Needs to be the first child within a `<fieldset>` element
+* Can't be the first child within a `<fieldset>` element
+* Needs to be written directed before a `<fieldset>` element
+* Visually creates a 1px black border around the `<fieldset>` element.
  
 ---
 ## Revision
