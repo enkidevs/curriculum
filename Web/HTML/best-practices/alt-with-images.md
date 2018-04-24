@@ -41,7 +41,7 @@ If the browser does not recognize the "brokenglass.gif" file, it will instead di
 Broken glass
 ```
 
-Like in the example above, the alt attribute should describe an image if that image contains information.
+Like in the example above, the `alt` attribute should describe an image if that image contains information.
 
 However, if the image is only for decoration, then the `alt=""` can be left empty.
 
@@ -50,7 +50,9 @@ However, if the image is only for decoration, then the `alt=""` can be left empt
 
 Is an empty alt attribute considered appropriate?
 
-`<img src=”image.png” alt=””>`
+```
+<img src=”image.png” alt=””>
+```
 
 ???
 
