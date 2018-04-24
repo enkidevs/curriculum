@@ -12,9 +12,8 @@ category: must-know
 inAlgoPool: false
 
 standards:
-
+  js.control-flow.0: 10
   js.control-flow.3: 10
-
   js.control-flow.4: 10
 
 tags:
@@ -53,7 +52,7 @@ for (var i = 9; i >-1; i--) {
 
 **while Loops**
 
-The *while* loop continues to run as long as the expression in brackets is true. 
+The *while* loop continues to run as long as the expression in brackets is true.
 
 Note that the loop will never run if the expression is never true:
 ```
@@ -113,4 +112,3 @@ Complete the following `for` loop such that it makes sense:
 * `while`
 * `do`
 * `i--`
-
