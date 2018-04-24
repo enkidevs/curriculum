@@ -13,10 +13,11 @@ stub: true
 
 tags:
   - introduction
-links:
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio
-  - https://www.w3schools.com/html/html5_audio.asp
   
+links:
+  - '[MDN Docs for audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio){website}'
+  - '[W3S Docs for audio](https://www.w3schools.com/html/html5_audio.asp){website}'
+
 ---
 # Audio
 ---
