@@ -41,17 +41,14 @@ In the example above we have allowed to user to input multiple pictures at once,
 ---
 ## Practice
 
-Which statements are true regarding min and max attributes within forms?
+Which statement is not true regarding the `multiple` attribute within forms?
 
 ???
-???
-???
 
+* Works with min and max range input type, separated by |.
 * When present, more than one value can be added in the `<input>` element.
 * Works with email input type, separated by commas.
 * Works with file input type, by holding down CTRL or SHIFT keys while selecting.
-* Works with data input type, separated by semicolons.
-* Works with min and max range input type, separated by |
 
 ---
 ## Revision
