@@ -78,20 +78,7 @@ Select the web image formats that support transparency:
 - PSD
 - AIF
 
-If you don’t need transparency or animation for a photograph, which image format should you use?
-
-???
-
-* JPG 
-* PNG
-* GIF
-* SVG
-* PDF
-
----
-## Revision
-
-Graphics that are created in SVG format are defined by?
+Graphics that are created in the SVG format are defined by?
 
 ???
 
@@ -101,21 +88,10 @@ Graphics that are created in SVG format are defined by?
 * SVX
 * Graphical data
 
-Can SVG images be directly inserted into an HTML page as code without linked to a standalone image file?
-
-???
-
-* Yes
-* Yes, but the web page will not validate.
-* Yes, but not without numerous limitations.
-* No
-
 ---
-## Quiz
+## Revision
 
-### How much do you know about image compression?
-
-Which reasons is web image compression important?
+Which reason(s) is web image compression important?
 
 + Reducing local hard drive storage
 + Reducing service disk space
@@ -132,3 +108,26 @@ Are GIF images the only image format that can be animated using CSS on a web pag
 * No images can be animated using CSS.
 * Yes
 
+Can SVG images be directly inserted into an HTML page as code without linked to a standalone image file?
+
+???
+
+* Yes
+* Yes, but the web page will not validate.
+* Yes, but not without numerous limitations.
+* No
+
+---
+## Quiz
+
+### How much do you know about HTML image types?
+
+If you don’t need transparency or animation for a photograph, which image format should you use?
+
+???
+
+* JPG 
+* PNG
+* GIF
+* SVG
+* PDF
