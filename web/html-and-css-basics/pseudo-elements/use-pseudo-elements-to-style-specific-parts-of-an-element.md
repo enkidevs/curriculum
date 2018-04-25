@@ -18,7 +18,7 @@ tags:
 
 links:
 
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements){documentation}'
 
 
 ---

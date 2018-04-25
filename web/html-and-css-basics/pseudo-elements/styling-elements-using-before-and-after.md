@@ -20,8 +20,8 @@ tags:
 
 links:
 
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/::after){website}'
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/%3A%3Abefore){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/::after){documentation}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/%3A%3Abefore){documentation}'
   - '[codepen.io](http://codepen.io/anon/pen/MKgrXB){website}'
 
 

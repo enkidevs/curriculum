@@ -27,6 +27,7 @@ tags:
 links:
 
   - '[css-tricks.com](https://css-tricks.com/almanac/properties/f/font-variant/){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/font-variant){documentation}'
 
 
 ---

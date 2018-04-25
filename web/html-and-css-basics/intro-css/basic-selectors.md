@@ -15,6 +15,7 @@ inAlgoPool: false
 links:
 
   - '[learn.shayhowe.com](http://learn.shayhowe.com/html-css/getting-to-know-css/#combining-selectors){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors){documentation}'
 
 
 ---

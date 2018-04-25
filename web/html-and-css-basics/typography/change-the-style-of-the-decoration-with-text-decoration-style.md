@@ -16,7 +16,7 @@ category: how to
 
 links:
 
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-style){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-style){documentation}'
   - '[caniuse.com](http://caniuse.com/#feat=text-decoration){website}'
 
 notes: 'https://css-tricks.com/more-control-over-text-decoration/'
