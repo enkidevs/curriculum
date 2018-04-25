@@ -1,4 +1,4 @@
-# Anonymity
+---
 author: mihaiberq
 
 levels:
@@ -11,11 +11,18 @@ type: normal
 
 category: must-know
 
+standards:
+  - bc.identify-blockchain-applications.2: 10
+  - bc.identify-blockchain-applications.3: 10
+
 tags:
 
   - introduction
 
   - deep
+
+---
+# Anonymity
 
 ---
 ## Content

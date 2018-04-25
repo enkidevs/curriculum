@@ -1,4 +1,4 @@
-# How to De-Anonymize Bitcoin
+---
 author: mihaiberq
 
 levels:
@@ -11,6 +11,11 @@ type: normal
 
 category: must-know
 
+standards:
+  - bc.identify-blockchain-applications.2: 10
+  - bc.identify-blockchain-applications.3: 10
+  - bc.analyze-network-security-policy.8: 10
+
 tags:
 
   - introduction
@@ -19,6 +24,9 @@ tags:
 
 links:
   - '[Bitcoin transactions are not that anonymous.](https://www.technologyreview.com/s/608716/bitcoin-transactions-arent-as-anonymous-as-everyone-hoped/)'
+
+---
+# How to De-Anonymize Bitcoin
 
 ---
 ## Content
