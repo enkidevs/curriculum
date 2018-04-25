@@ -7,5 +7,6 @@ description: todo
 section: 1
 
 insights:
+ - identity
  - wallets
 
