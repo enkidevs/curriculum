@@ -78,6 +78,7 @@ def d():
 
 print(type(d))
 ```
+???
 
 * function
 * type
