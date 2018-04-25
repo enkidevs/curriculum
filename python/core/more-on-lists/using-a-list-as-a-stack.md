@@ -46,8 +46,28 @@ By definition, we don't access the elements of a stack by index, we only use met
 - `append()`, which adds an element at the back of the stack ( on the last position )
 - `pop()`, which removes the element at the back of the stack ( most recently added )
 
+
 ---
 ## Practice
+
+Given the following stack (implemented using lists), remove the last element and add a new element with value 20:
+
+```python
+stack = [11, 15, 16, 18]
+
+stack.???
+???.???
+
+```
+
+* pop()
+* stack
+* append(20)
+* append()
+* push(20)
+
+---
+## Revision
 
 What’s the output of the following code snippet:
 
@@ -64,3 +84,4 @@ stack.pop()
 * `14`
 * `10`
 * There’s no output...
+

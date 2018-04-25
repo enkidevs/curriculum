@@ -54,6 +54,24 @@ x >= y
 ```
 
 ---
+## Practice
+
+Complete the following code snippet such that it will have the desired output (marked in the comment):
+
+```python
+
+x = {'user1', 'user2', 'user3'}
+y = {'user3'}
+
+x.???(???)
+
+```
+* issuperset
+* y
+* x
+* issubset
+
+---
 ## Revision
 
 Match each set method with its shorthand syntax:
