@@ -43,9 +43,21 @@ class Employee:
 ```
 
 ---
+## Practice
+
+What do classes, variables, lists in python have in common?
+
+they are all ???
+
+* objects
+* methods
+* functions
+* data types
+
+---
 ## Revision
 
-Independent functions are called ???
+Functions without an enclosing class are called ???
 
 
 * just functions
