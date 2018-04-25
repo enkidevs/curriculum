@@ -64,7 +64,6 @@ x = {'user1', 'user2', 'user3'}
 y = {'user3'}
 
 x.???(???)
-
 ```
 * issuperset
 * y

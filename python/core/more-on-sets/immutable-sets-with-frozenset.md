@@ -63,7 +63,6 @@ Frozensets can be used when you know that the elements you are going to put into
 Will the following snippet work?
 
 ```python
-
 s = frozenset('Frozen')
 s.add('set')
 ```
