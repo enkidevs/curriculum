@@ -1,4 +1,4 @@
-# Blockchain Components
+---
 author: mihaiberq
 
 levels:
@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  - bc.analyze-blockchain-components.4: 40
+
 tags:
 
   - introduction
@@ -18,30 +21,57 @@ tags:
   - workout
 
 ---
+# Blockchain Components
+
+---
 ## Content
 
+A blockchain is a type of network. Just like any other network, it has to follow a  **protocol**. **Nodes** are required to acknowledge, verify and append information. This time, however, information is not converging towards a single source of truth (e.g. central database), but is brodcasted between nodes. This property is called **decentralization**. 
 
+After a certain period of time (dependant on internet speed and latency) and a number of comfirmation from other verifying nodes, the set of data (**block**) is confirmed as part of the blockchain.
+
+A distinction can also be made between nodes: there are **full nodes** and **mining nodes**. In short, mining nodes, or simply *miners*, are the ones that verify and bundle the valid, available[1] transactions into a new block. They also make sure to include a reference to the previous block in the chain. Full nodes are the ones that receive the bundled blocks from miners and verify its *integrity*. If everything is in order, they then append the block to their copy of the blockchain and send the block and a confirmation message forward.
+
+To prevent nodes for turning against the network, they *are rewarded* whenever they find a valid block - but more on this later. 
+
+The high-level components of the blockchain can be enumerated as follows:
+- `Protocol`: The set of rules on which the network runs
+- `Full Node`: A node that validates transactions and blocks
+- `Miner`: A node that gathers transactions and bundles them up in a block
+- `Block`: A set of transactions available to the miner at some point in time
+- `User`: The human component behind other participants in the network
+
+---
+## Footnotes
+
+[1: Availability]
+Given the size of the network and transaction happening all over the globe, two nodes might not be aware of the same transactions at the same time.
 
 ---
 ## Practice
 
-Which of the following are properties of a blockchain?
+
+Identify the item that `is not` part of a blockchain: 
 
 ???
 
-* Anonymity and Decentralization
-* Decentralization and Fast Processing
-* Anonymity and Centralization
+* Central database
+* Set of transactions
+* Miner
+* Cryptography
+* Reward
+
 
 ---
 ## Revision
 
-Which of the following was the first public ledger?
+
+What is the name of blockchain participants that verify whole blocks validity?
 
 ???
 
-* Bitcoin
-* Blockchain
-* Etherum
-* e-Estonia
+* Full nodes
+* Miners
+* Traders
+* Verifiers
 

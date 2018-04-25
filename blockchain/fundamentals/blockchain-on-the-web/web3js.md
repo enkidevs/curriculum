@@ -1,4 +1,4 @@
-# Web3.js
+---
 author: mihaiberq
 
 levels:
@@ -16,6 +16,9 @@ tags:
   - introduction
 
   - workout
+
+---
+# Web3.js
 
 ---
 ## Content

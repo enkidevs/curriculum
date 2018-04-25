@@ -1,4 +1,4 @@
-# What Does Ethereum Do Differently?
+---
 author: mihaiberq
 
 levels:
@@ -16,6 +16,9 @@ tags:
   - introduction
 
   - deep
+
+---
+# What Does Ethereum Do Differently?
 
 ---
 ## Content
