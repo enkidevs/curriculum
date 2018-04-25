@@ -43,7 +43,7 @@ for letter, number, squares in zipped_list
 ---
 ## Practice
 
-Combine the following two lists:
+Combine the following two lists into a list of tuples:
 
 ```python
 a = [1,2,3,4,5]
