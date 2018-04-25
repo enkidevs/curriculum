@@ -1,4 +1,4 @@
-# Verifying the Ledger
+---
 author: mihaiberq
 
 levels:
@@ -11,6 +11,15 @@ type: normal
 
 category: must-know
 
+standards:
+  - bc.analyze-blockchain-components.0: 10
+  - bc.analyze-blockchain-components.1: 10
+  - bc.identify-blockchain-applications.0: 10
+  - bc.identify-blockchain-applications.1: 10
+  - bc.identify-blockchain-applications.2: 10
+  - bc.analyze-network-security-policy.0: 20
+  - bc.analyze-network-security-policy.8: 10
+
 tags:
 
   - introduction
@@ -19,6 +28,9 @@ tags:
 
 links:
   - '[Full list of block checks](https://en.bitcoin.it/wiki/Protocol_rules#.22block.22_messages)'
+
+---
+# Verifying the Ledger
 
 ---
 ## Content

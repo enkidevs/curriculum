@@ -1,4 +1,4 @@
-# Blockchain Components
+---
 author: mihaiberq
 
 levels:
@@ -11,11 +11,17 @@ type: normal
 
 category: must-know
 
+standards:
+  - bc.analyze-blockchain-components.4: 40
+
 tags:
 
   - introduction
 
   - workout
+
+---
+# Blockchain Components
 
 ---
 ## Content

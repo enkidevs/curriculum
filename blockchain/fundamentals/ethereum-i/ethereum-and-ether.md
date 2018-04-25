@@ -1,4 +1,4 @@
-# Ethereum and Ether
+---
 author: mihaiberq
 
 levels:
@@ -16,6 +16,9 @@ tags:
   - introduction
 
   - deep
+
+---
+# Ethereum and Ether
 
 ---
 ## Content

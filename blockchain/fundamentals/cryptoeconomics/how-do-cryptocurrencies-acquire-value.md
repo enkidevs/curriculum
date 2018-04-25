@@ -1,4 +1,4 @@
-# How Do Cryptocurrencies Acquire Value?
+---
 author: mihaiberq
 
 levels:
@@ -12,8 +12,10 @@ type: normal
 category: must-know
 
 tags:
-
   - deep
+
+---
+# How Do Cryptocurrencies Acquire Value?
 
 ---
 ## Content

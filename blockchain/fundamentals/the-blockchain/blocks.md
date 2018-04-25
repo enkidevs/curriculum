@@ -1,4 +1,4 @@
-# Blocks
+---
 author: mihaiberq
 
 levels:
@@ -11,6 +11,13 @@ type: normal
 
 category: must-know
 
+standards:
+  - bc.analyze-blockchain-components.0: 20
+  - bc.analyze-blockchain-components.1: 10
+  - bc.analyze-blockchain-components.2: 10
+  - bc.analyze-blockchain-components.3: 10
+  - bc.analyze-blockchain-components.4: 20
+
 tags:
 
   - introduction
@@ -19,6 +26,9 @@ tags:
 
 links:
   - '[Interactive tutorial of how blocks are built](https://anders.com/blockchain/)'
+
+---
+# Blocks
 
 ---
 ## Content

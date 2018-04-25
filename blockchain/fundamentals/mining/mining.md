@@ -1,4 +1,4 @@
-# Mining
+---
 author: mihaiberq
 
 levels:
@@ -11,9 +11,21 @@ type: normal
 
 category: must-know
 
+standards:
+  - bc.analyze-blockchain-components.0: 10
+  - bc.analyze-blockchain-components.1: 10
+  - bc.analyze-network-security-policy.0: 30
+  - bc.analyze-network-security-policy.1: 40
+  - bc.analyze-network-security-policy.2: 40
+  - bc.analyze-network-security-policy.3: 20
+  - bc.analyze-network-security-policy.7: 20
+
 tags:
 
   - introduction
+
+---
+# Mining
 
 ---
 ## Content

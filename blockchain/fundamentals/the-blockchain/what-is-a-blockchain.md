@@ -1,4 +1,4 @@
-# What Is a Blockchain?
+---
 author: mihaiberq
 
 levels:
@@ -11,6 +11,12 @@ type: normal
 
 category: must-know
 
+standards:
+  - bc.analyze-blockchain-components.4: 30
+  - bc.identify-blockchain-applications.0: 10
+  - bc.identify-blockchain-applications.3: 10
+  - bc.identify-blockchain-applications.4: 20
+
 tags:
 
   - introduction
@@ -21,6 +27,9 @@ links:
   - '[The authoritative guide to blockchain development](https://medium.freecodecamp.org/the-authoritative-guide-to-blockchain-development-855ab65b58bc)'
 
   - '[Ethereum\'s inventor, Vitalik Buterin, about blockchains and Ethereum](https://www.youtube.com/watch?v=WSN5BaCzsbo)'
+
+---
+# What Is a Blockchain?
 
 ---
 ## Content

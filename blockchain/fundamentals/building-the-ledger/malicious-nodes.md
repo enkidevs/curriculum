@@ -1,4 +1,4 @@
-# Malicious Nodes
+---
 author: mihaiberq
 
 levels:
@@ -11,11 +11,18 @@ type: normal
 
 category: must-know
 
+standards:
+  - bc.analyze-network-security-policy.8: 40
+  - bc.identify-blockchain-applications.2: 20
+
 tags:
 
   - introduction
 
   - workout
+
+---
+# Malicious Nodes
 
 ---
 ## Content

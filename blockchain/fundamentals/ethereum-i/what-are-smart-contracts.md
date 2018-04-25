@@ -1,4 +1,4 @@
-# What are Smart Contracts?
+---
 author: mihaiberq
 
 levels:
@@ -16,6 +16,9 @@ tags:
   - introduction
 
   - deep
+
+---
+# What are Smart Contracts?
 
 ---
 ## Content
