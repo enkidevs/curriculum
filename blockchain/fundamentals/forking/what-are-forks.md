@@ -1,4 +1,4 @@
-# What Are Forks?
+---
 author: mihaiberq
 
 levels:
@@ -11,11 +11,20 @@ type: normal
 
 category: must-know
 
+standards:
+  - bc.analyze-blockchain-components.0: 10
+  - bc.analyze-blockchain-components.2: 10
+  - bc.identify-blockchain-applications.2: 10
+  - bc.analyze-network-security-policy.0: 10
+
 tags:
 
   - introduction
 
   - deep
+
+---
+# What Are Forks?
 
 ---
 ## Content
