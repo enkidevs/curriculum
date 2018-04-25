@@ -79,7 +79,6 @@ stack.append(15)
 stack.pop()
 ```
 
-???
 
 * `15`
 * `14`
