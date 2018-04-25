@@ -91,6 +91,8 @@ Which container is best to organize the top of a web page or content section?
 
 The HTML `<header>` element cannot what?
 
+???
+
 * be added within a `<footer>` element.
 * contain website navigation
 * display one or more heading (h1-h6) elements
