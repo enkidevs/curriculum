@@ -65,7 +65,7 @@ s = "".join(slist)
 ---
 ## Practice
 
-Fill in the following code snippet such that it will concatenate all strings in the lis:
+Fill in the following code snippet such that it will concatenate all strings in the list:
 
 ```python
 a = ["This", "is", "a", "list"]
@@ -77,6 +77,8 @@ a = ???.???
 * ""
 * join(a)
 * concatenate(a)
+* list
+* a
 
 ---
 ## Revision
