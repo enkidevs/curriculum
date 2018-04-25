@@ -87,7 +87,7 @@ print(today.strftime(format))
 ---
 ## Practice
 
-Check if `date_one` is more close to the present than `date_two`:
+Check if `date_one` is closer to the present than `date_two`:
 
 ```python
 import datetime
