@@ -70,6 +70,8 @@ stack.???
 
 What’s the output of the following code snippet:
 
+???
+
 ```python
 stack = [‘10’, ‘11’, ‘12’, ‘13’]
 stack.append(14)
