@@ -20,8 +20,8 @@ inAlgoPool: false
 
 links:
 
-  - '[MDN margin](https://developer.mozilla.org/en-US/docs/Web/CSS/margin){website}'
-  - '[MDN padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding){website}'
+  - '[MDN margin](https://developer.mozilla.org/en-US/docs/Web/CSS/margin){documentation}'
+  - '[MDN padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding){documentation}'
 
 
 ---

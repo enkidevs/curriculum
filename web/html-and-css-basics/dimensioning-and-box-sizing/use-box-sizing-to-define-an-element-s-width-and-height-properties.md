@@ -29,7 +29,7 @@ tags:
 links:
 
   - '[css-tricks.com](https://css-tricks.com/box-sizing/){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing){documentation}'
 
 
 ---

@@ -15,7 +15,7 @@ category: best practice
 links:
 
   - '[github.com](https://github.com/AllThingsSmitty/css-protips){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing){documentation}'
 
 parent: use-box-sizing-to-define-an-element-s-width-and-height-properties
 

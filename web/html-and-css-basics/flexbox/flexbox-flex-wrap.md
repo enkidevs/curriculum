@@ -17,7 +17,7 @@ tags:
 links:
 
   - '[css-tricks.com](https://css-tricks.com/almanac/properties/f/flex-wrap/){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap){documentation}'
 
 
 ---

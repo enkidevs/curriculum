@@ -15,7 +15,7 @@ inAlgoPool: false
 links:
 
   - '[First web page](http://info.cern.ch/hypertext/WWW/TheProject.html){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Glossary/HTML){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Glossary/HTML){documentation}'
 
 
 ---

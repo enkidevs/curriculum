@@ -13,7 +13,7 @@ inAlgoPool: false
 
 
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks){documentation}'
 
 
 ---

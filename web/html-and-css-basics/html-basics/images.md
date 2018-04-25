@@ -13,7 +13,7 @@ inAlgoPool: false
 
 
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img){documentation}'
 
 
 ---

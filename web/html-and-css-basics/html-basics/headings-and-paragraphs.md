@@ -13,8 +13,8 @@ inAlgoPool: false
 
 
 links:
-  - '[MDN paragraphs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p){website}'
-  - '[MDN headings](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements){website}'
+  - '[MDN paragraphs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p){documentation}'
+  - '[MDN headings](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements){documentation}'
   
 
 ---

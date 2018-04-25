@@ -19,7 +19,7 @@ tags:
 links:
 
   - '[css-tricks.com](https://css-tricks.com/a-couple-of-use-cases-for-calc/){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/calc){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/calc){documentation}'
 
 
 ---

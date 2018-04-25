@@ -19,7 +19,7 @@ tags:
 links:
 
   - '[egghead.io](https://egghead.io/lessons/misc-flexbox-fundamentals){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content){documentation}'
 
 
 ---

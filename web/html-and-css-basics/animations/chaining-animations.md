@@ -23,7 +23,7 @@ tags:
 links:
 
   - '[www.tutorialspark.com](http://www.tutorialspark.com/css3/CSS3_Animation_Keyframes.php){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes){documentation}'
 
 
 ---

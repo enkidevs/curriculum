@@ -21,7 +21,7 @@ tags:
 links:
 
   - '[unmatchedstyle.com](http://unmatchedstyle.com/news/css-animation.php){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/animation){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/animation){documentation}'
 
 
 ---

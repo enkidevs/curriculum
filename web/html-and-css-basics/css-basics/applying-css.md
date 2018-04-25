@@ -13,7 +13,7 @@ inAlgoPool: false
 
 links:
 
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS){documentation}'
 
 
 ---
