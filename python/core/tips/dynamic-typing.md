@@ -50,7 +50,6 @@ greeting = 'hey'
 
 What will the type of the `n` variable will be eventually?
 
-
 ```python
 n = 'hello'
 n = 9
@@ -85,7 +84,3 @@ print(type(d))
 * int
 * string
 * char
-
-
-
-```
