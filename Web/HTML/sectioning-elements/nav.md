@@ -15,9 +15,9 @@ tags:
 links:
   - '[MDN docs for nav](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav){website}'
   - '[W3S docs for nav](https://www.w3schools.com/tags/tag_nav.asp){website}'
-  
 ---
 # Nav
+
 ---
 ## Content
 
@@ -33,6 +33,7 @@ Example:
   <a href="/page10/">Page10</a>
 </nav>
 ```
+
 **Note: Not all links should be inside a `<nav>` element. The `<nav>` element is indented for major blocks of navigational links. For instance, the footer element can contain links that don't go in the `<nav>` element.**
 
 You can also have multiple `<nav>` elements in your web page or document. One for the website navigation and one for page navigation.
@@ -46,11 +47,11 @@ Select the items that would be useful placing within a `<nav>` container.
 
 ???
 
-* Navigational links 
-* Link to Email
-* Links within main content
-* Tags in a blog post
-* Image Links
+ * Navigational links 
+ * Link to Email
+ * Links within main content
+ * Tags in a blog post
+ * Image Links
 
 ---
 ## Revision
@@ -63,12 +64,12 @@ Should all links within a webpage be placed within a `<nav>` element?
 
 ???
 
-* Yes
-* No
-* Yes, but it will fail validation.
-* No
-* Yes
-* No, but it will fail validation.
+ * Yes
+ * No
+ * Yes, but it will fail validation.
+ * No
+ * Yes
+ * No, but it will fail validation.
 
 
 ---
