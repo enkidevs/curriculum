@@ -20,7 +20,7 @@ links:
 
   - '[addyosmani.com](http://addyosmani.com/blog/be-careful-when-using-null-transform-hacks-to-force-gpu-acceleration/){website}'
   - '[dev.w3.org](http://dev.w3.org/csswg/css-will-change/){website}'
-
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/will-change){website}'
 notes: 'http://www.creativebloq.com/css3/tips-breathe-new-life-your-css-61411880'
 
 ---

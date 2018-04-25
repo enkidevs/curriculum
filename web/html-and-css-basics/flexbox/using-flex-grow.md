@@ -19,7 +19,7 @@ tags:
 links:
 
   - '[css-tricks.com](https://css-tricks.com/almanac/properties/f/flex-grow/){website}'
-
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow){website}'
 
 ---
 
