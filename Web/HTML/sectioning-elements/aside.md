@@ -14,7 +14,7 @@ tags:
 
 links:
   - '[MDN docs for aside](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside){website}'
-  -'[W3S docs for aside](https://www.w3schools.com/tags/tag_aside.asp){website}'
+  - '[W3S docs for aside](https://www.w3schools.com/tags/tag_aside.asp){website}'
   
 --- 
 # Aside 
