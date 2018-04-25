@@ -1,4 +1,4 @@
-# Proof of Work (PoW)
+---
 author: mihaiberq
 
 levels:
@@ -11,11 +11,23 @@ type: normal
 
 category: must-know
 
+standards:
+  - bc.analyze-network-security-policy.0: 10
+  - bc.analyze-network-security-policy.1: 20
+  - bc.analyze-network-security-policy.2: 20
+  - bc.analyze-network-security-policy.3: 20
+  - bc.analyze-network-security-policy.6: 10
+  - bc.analyze-network-security-policy.7: 10
+  - bc.analyze-network-security-policy.8: 10
+
 tags:
 
   - introduction
 
   - deep
+
+---
+# Proof of Work (PoW)
 
 ---
 ## Content

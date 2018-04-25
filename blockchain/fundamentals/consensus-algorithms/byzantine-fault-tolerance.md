@@ -1,4 +1,4 @@
-# Byzantine Fault Tolerance (BFT)
+---
 author: mihaiberq
 
 levels:
@@ -11,6 +11,12 @@ type: normal
 
 category: must-know
 
+standards:
+  - bc.analyze-network-security-policy.0: 10
+  - bc.analyze-network-security-policy.6: 20
+  - bc.analyze-network-security-policy.7: 10
+  - bc.analyze-network-security-policy.8: 10
+
 tags:
 
   - introduction
@@ -20,6 +26,9 @@ tags:
 links:
   - '[The research paper in which the Byzantine Generals Problem was first discussed](https://people.eecs.berkeley.edu/~luca/cs174/byzantine.pdf){article}'
   - '[Byzantine fault tolerance](https://medium.com/loom-network/understanding-blockchain-fundamentals-part-1-byzantine-fault-tolerance-245f46fe8419){article}'
+
+---
+# Byzantine Fault Tolerance (BFT)
 
 ---
 ## Content

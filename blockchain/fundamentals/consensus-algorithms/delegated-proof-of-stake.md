@@ -1,4 +1,4 @@
-# Delegated Proof of Stake (DPoS)
+---
 author: mihaiberq
 
 levels:
@@ -11,12 +11,21 @@ type: normal
 
 category: must-know
 
+standards:
+  - bc.analyze-network-security-policy.0: 10
+  - bc.analyze-network-security-policy.5: 20
+  - bc.analyze-network-security-policy.6: 20
+  - bc.analyze-network-security-policy.7: 10
+  - bc.analyze-network-security-policy.8: 10
+
 tags:
 
   - introduction
 
   - deep
 
+---
+# Delegated Proof of Stake (DPoS)
 
 ---
 ## Content

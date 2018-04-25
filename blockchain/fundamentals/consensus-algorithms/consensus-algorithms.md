@@ -1,4 +1,4 @@
-# Consensus Algorithms
+---
 author: mihaiberq
 
 levels:
@@ -11,6 +11,16 @@ type: normal
 
 category: must-know
 
+standards:
+  - bc.analyze-network-security-policy.0: 20
+  - bc.analyze-network-security-policy.6: 10
+  - bc.analyze-network-security-policy.7: 10
+  - bc.identify-blockchain-applications.1: 10
+  - bc.identify-blockchain-applications.2: 10
+  - bc.analyze-blockchain-components.0: 10
+  - bc.analyze-blockchain-components.1: 10
+  - bc.analyze-blockchain-components.4: 20
+
 tags:
 
   - introduction
@@ -19,6 +29,9 @@ tags:
 
 links:
   - '[A Hitchiker's Guide to Consensus Algorithms](https://hackernoon.com/a-hitchhikers-guide-to-consensus-algorithms-d81aae3eb0e3){article}'
+
+---
+# Consensus Algorithms
 
 ---
 ## Content
