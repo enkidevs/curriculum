@@ -2,7 +2,7 @@ name: Ethereum I
 
 type: insights-list
 
-description: todo
+description: An introduction to Ethereum, and what it can do.
 
 section: 2
 
