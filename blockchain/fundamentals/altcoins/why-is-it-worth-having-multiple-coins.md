@@ -1,4 +1,4 @@
-# Why Is It Worth Having Multiple Coins?
+---
 author: mihaiberq
 
 levels:
@@ -11,9 +11,19 @@ type: normal
 
 category: must-know
 
+standards:
+  - bc.compare-altcoins.0: 10
+  - bc.compare-altcoins.1: 10
+  - bc.compare-altcoins.2: 40
+  - bc.compare-altcoins.3: 10
+  - bc.compare-altcoins.4: 20
+
 tags:
 
   - introduction
+
+---
+# Why Is It Worth Having Multiple Coins?
 
 ---
 ## Content

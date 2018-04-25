@@ -1,4 +1,4 @@
-# Altcoins
+---
 author: mihaiberq
 
 levels:
@@ -11,9 +11,18 @@ type: normal
 
 category: must-know
 
+standards:
+  - bc.compare-altcoins.0: 30
+  - bc.compare-altcoins.1: 20
+  - bc.compare-altcoins.3: 10
+  - bc.compare-altcoins.4: 10
+
 tags:
 
   - introduction
+
+---
+# Altcoins
 
 ---
 ## Content
