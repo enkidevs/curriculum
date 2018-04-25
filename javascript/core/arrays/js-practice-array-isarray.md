@@ -15,6 +15,7 @@ standards:
 
   js.standard-library.4: 1000
   js.write-expressions.0: 1000
+  js.evaluate-expressions.10: 1000
 
 links:
 

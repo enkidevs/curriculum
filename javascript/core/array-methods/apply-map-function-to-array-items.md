@@ -13,6 +13,7 @@ category: must-know
 standards:
   js.data-types-structures.2: 10
   js.data-types-structures.3: 10
+  js.data-types-structures.6: 10
   js.functions.4: 10
 
 tags:

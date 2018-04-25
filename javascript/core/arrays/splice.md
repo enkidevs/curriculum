@@ -11,6 +11,11 @@ category: must-know
 
 inAlgoPool: false
 
+standards:
+  js.evaluate-expressions.6: 1000
+  js.evaluate-expressions.7: 1000
+  js.data-types-structures.3: 1000
+  js.standard-library.4: 1000
 
 links:
 
@@ -42,7 +47,7 @@ console.log(myArray.splice(2, 1));
 console.log(myArray);
 // [1, 2]
 ```
-As you can see, the function returns the elements removed in case you need them. 
+As you can see, the function returns the elements removed in case you need them.
 
 You can also replace a sequence of elements:
 ```
@@ -87,4 +92,3 @@ myArray.???(???, ???);
 * `2`
 * `remove`
 * `slice`
-

@@ -10,6 +10,13 @@ type: normal
 
 category: must-know
 
+standards:
+  js.identify-common-design-patterns.5: 10
+
+tags:
+  - introduction
+  - workout
+
 links:
   - '[nodejs.org](https://nodejs.org/api/process.html#process_event_uncaughtexception){website}'
 
@@ -72,11 +79,9 @@ process.???('???',
 
 ```
 
-
-* `on`
-* `uncaughtException`
-* `uncaught`
-* `any`
-* `undefinedState`
-* `listen`
-
+* on
+* uncaughtException
+* uncaught
+* any
+* undefinedState
+* listen

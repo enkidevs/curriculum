@@ -26,7 +26,7 @@ standards:
 
 The final version of Python 2 came out in 2010, and despite Python 3 being the latest generation of the language, many programmers still use this Python version, 2.7.
 
-Another advantage of Python 2 is that it has been around for far longer than Python 3, therefore there's more technical support and help available.
+One big advantage of Python 2 is that it has been around for far longer than Python 3, therefore there's more technical support and help available. However, support for Python 2 will end on 2020.
 
 One minor difference between Python 2 and 3 is that in Python 2, `print` is treated as a statement instead of a function, therefore there's no need to pass arguments through parentheses; for example:
 

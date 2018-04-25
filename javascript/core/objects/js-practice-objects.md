@@ -21,6 +21,8 @@ standards:
   js.data-types-structures.3: 1000
   js.data-types-structures.4: 1000
   js.write-expressions.0: 1000
+  js.evaluate-expressions.6: 10
+  js.evaluate-expressions.7: 10
 
 links:
 

@@ -10,6 +10,14 @@ type: normal
 
 category: feature
 
+standards:
+  js.npm-tasks-and-modules-manager.0: 10
+
+tags:
+  - workout
+  - deep
+  - new
+
 links:
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/cache){website}'
 

@@ -85,6 +85,47 @@ print(today.strftime(format))
 ```
 
 ---
+## Practice
+
+Check if `date_one` is closer to the present than `date_two`:
+
+```python
+import datetime
+
+if ??? ??? ???:
+  print(True)
+else:
+  print(False)
+
+```
+
+* date_one
+* > 
+* date_two
+* <
+* Equals()
+
+---
+## Revision
+
+Complete the following code snippet such that it will print the current date and time:
+
+```python
+import datetime
+
+???(???)
+```
+
+* print
+* today
+* now
+* atm
+* time
+
+
+
+
+---
 ## Footnotes
 [1:Current datetime]
 Another way of getting the current time is via the `.now()` method. The difference between the two approaches is that `now()` can take an optional `tzinfo` (**timezone information**) argument.

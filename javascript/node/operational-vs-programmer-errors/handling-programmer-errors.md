@@ -2,25 +2,23 @@
 author: mihaiberq
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
 
 type: normal
 
 category: how to
 
+standards:
+  js.identify-common-design-patterns.4: 10
+  js.identify-common-design-patterns.5: 10
+  js.identify-common-design-patterns.6: 10
+  js.identify-common-design-patterns.8: 10
+
 tags:
-
   - introduction
-
   - workout
-
-
-
 
 ---
 
@@ -57,7 +55,7 @@ Can you identify what a successful system recovery implies?
 ## Revision
 
 Drawing an analogy between a disease and a server crashing, which of the following statements are equivalent?
-```
+```javascript
 Cause
 ???
 

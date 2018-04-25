@@ -13,6 +13,13 @@ category: how to
 
 parent: tests
 
+standards:
+  js.npm-publish.0: 10
+
+tags:
+  - introduction
+  - workout
+
 ---
 # How to Publish Your Own Packages
 

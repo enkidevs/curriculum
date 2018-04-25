@@ -9,6 +9,13 @@ type: normal
 
 category: how to
 
+standards:
+  js.identify-common-design-patterns.5: 10
+
+tags:
+  - introduction
+  - workout
+
 links:
   - '[fredkschott.com](http://fredkschott.com/post/2014/03/understanding-error-first-callbacks-in-node-js/){website}'
 
@@ -95,4 +102,9 @@ function(???, ??) {
 * data
 * fileNotFound
 * log
+<<<<<<< HEAD
 * null
+
+=======
+* null
+>>>>>>> master

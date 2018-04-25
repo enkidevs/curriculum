@@ -2,24 +2,21 @@
 author: mihaiberq
 
 levels:
-
   - beginner
-
   - basic
 
 type: normal
 
 category: tip
 
-tags:
+standards:
+  js.identify-common-design-patterns.7: 10
 
+tags:
   - introduction
 
 
-
-
 ---
-
 # Styling Brackets
 
 ---
@@ -152,8 +149,8 @@ function C()
 ---
 ## Revision
 
-What is the name of the JavaScript property acting upon the following return clause?
-```javascript
+What is the name of the JavaScript language feature acting upon the following return clause?
+```js
 function tictac() {
   return
   {

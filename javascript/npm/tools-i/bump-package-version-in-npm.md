@@ -2,26 +2,27 @@
 author: catalin
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
 
 category: must-know
 
+standards:
+  js.npm-publish.3: 10
+
+tags:
+  - workout
+  - introduction
 
 links:
-
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/version){website}'
 
 parent: check-data-about-a-package
 
 ---
-
 # Bump package version in npm
 
 ---
@@ -70,9 +71,9 @@ $ npm version ???
 ```
 
 
-* `minor`
-* `major`
-* `patch`
+* minor
+* major
+* patch
 
 ---
 ## Revision
@@ -85,7 +86,6 @@ $ npm version ???
 ```
 
 
-* `minor`
-* `major`
-* `patch`
-
+* minor
+* major
+* patch

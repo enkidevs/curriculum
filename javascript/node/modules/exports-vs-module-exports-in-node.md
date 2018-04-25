@@ -2,23 +2,25 @@
 author: catalin
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal
 
 category: must-know
 
+standards:
+  js.use-modules.0: 10
+  js.use-modules.1: 10
+
+tags:
+  - introduction
+  - workout
 
 links:
-
   - '[www.hacksparrow.com](http://www.hacksparrow.com/node-js-exports-vs-module-exports.html){website}'
 
-
 ---
-
 # `exports` vs. `module.exports` in **Node**
 
 ---
@@ -82,8 +84,7 @@ console.log(test[1]);
 `exports` is a helper for?
 ???
 
-* `module.exports`
-* `module.imports`
-* `module`
-* `imports`
-
+* module.exports
+* module.imports
+* module
+* imports

@@ -13,6 +13,15 @@ category: how to
 
 parent: creating-a-node-module
 
+standards:
+  js.npm-publish.6: 10
+  js.npm-publish.0: 10
+
+tags:
+  - introduction
+  - workout
+  - deep
+
 ---
 # Preparing Your Module For Publishing
 

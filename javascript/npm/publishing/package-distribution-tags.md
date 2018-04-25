@@ -2,11 +2,8 @@
 author: catalin
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
@@ -16,8 +13,15 @@ category: how to
 parent: check-data-about-a-package
 
 links:
-
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/dist-tag){website}'
+
+standards:
+  js.use-open-source-javascript-packages.9: 10
+  js.npm-publish.0: 10
+  js.npm-tasks-and-modules-manager.0: 10
+
+tags:
+  - workout
 
 ---
 # Package distribution tags

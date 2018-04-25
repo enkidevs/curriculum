@@ -14,6 +14,11 @@ links:
 
 parent: check-data-about-a-package
 
+tags:
+  - introduction
+  - workout
+  - deep
+
 ---
 # Passing through command line arguments in npm scripts
 

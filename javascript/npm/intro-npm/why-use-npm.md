@@ -8,6 +8,12 @@ type: normal
 
 category: must-know
 
+standards:
+  js.npm-tasks-and-modules-manager.0: 20
+
+tags:
+  - introduction
+
 links:
   - '[andrewhfarmer.com](http://andrewhfarmer.com/javascript-frontend-package-managers/){website}'
 
