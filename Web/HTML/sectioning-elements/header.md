@@ -77,15 +77,17 @@ Which container is best to organize the top of a web page or content section?
 
 ???
 
-`<header>`
-`<head>`
-`<top>`
-`<section>`
-`<main>`
-`<nav>`
+ * `<header>`
+ * `<head>`
+ * `<top>`
+ * `<section>`
+ * `<main>`
+ * `<nav>`
 
 ---
 ## Quiz
+
+### Anwer a quick question about the `<header>` element!
 
 The HTML `<header>` element cannot what?
 
