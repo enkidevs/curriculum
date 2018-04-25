@@ -71,7 +71,7 @@ heapq.???(h)
 # 1
 ```
 
-* heapifyh
+* heapify
 * heapq
 * heapreplace
 * h
