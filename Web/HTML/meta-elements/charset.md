@@ -70,6 +70,8 @@ Which line of code provides the necessary HTML5 character set?
 ---
 ## Quiz
 
+### Answer a quick question about character encoding!
+
 The `<meta charset="utf-8">` will best help the browser understand which line of code?
 
 ???
