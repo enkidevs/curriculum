@@ -2,11 +2,8 @@
 author: mihaiberq
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
 
 type: normal
@@ -14,19 +11,17 @@ type: normal
 category: how to
 
 tags:
-
   - introduction
-
   - workout
 
+standards:
+  js.identify-common-design-patterns.8: 10
+  js.identify-common-design-patterns.6: 10
 
 links:
-
   - '[Node JS and Errors](https://www.joyent.com/node-js/production/design/errors){website}'
 
-
 ---
-
 # Handling Operational Errors
 
 ---

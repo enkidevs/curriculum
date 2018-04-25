@@ -9,6 +9,14 @@ type: normal
 
 category: best practice
 
+standards:
+  js.identify-common-design-patterns.0: 20
+  js.use-modules.0: 20
+
+tags:
+  - workout
+  - deep
+
 links:
   - '[blog.risingstack.com](https://blog.risingstack.com/fundamental-node-js-design-patterns/){website}'
   - '[thenodeway.io](http://thenodeway.io/posts/designing-factories/){website}'
@@ -26,6 +34,7 @@ Factories will create objects for you so *you don't have to*.
 Basic factories pattern:
 
 ```javascript
+//enki.js
 function Enki (args) {
   this.args = args;
 }

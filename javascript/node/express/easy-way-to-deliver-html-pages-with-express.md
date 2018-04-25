@@ -2,21 +2,21 @@
 author: catalin
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal
 
 category: how to
 
+standards:
+  js.express-server.0: 10
+  js.express-server.1: 10
 
 links:
 
   - '[node-tricks.com](http://node-tricks.com/express-js-deliver-html-files-1/){website}'
   - '[github.com](https://github.com/expressjs/serve-static){website}'
-
 
 ---
 
@@ -55,21 +55,21 @@ Files will be firstly looked for in `/first` then in `/second` as a fallback.
 ---
 ## Practice
 
-Require the requisite module used to deliver  HTML pages: 
+Require the requisite module used to deliver  HTML pages:
 
 ```javascript
 var ??? = require('???');
 ```
 
 
-* `serveStatic`
-* `serve-static`
-* `expressHTML`
-* `express-html`
-* `staticExpress`
-* `static-express`
-* `nodeHTML`
-* `node-html`
+* serveStatic
+* serve-static
+* expressHTML
+* express-html
+* staticExpress
+* static-express
+* nodeHTML
+* node-html
 
 ---
 ## Revision
@@ -77,9 +77,8 @@ var ??? = require('???');
 What express module can be used to easily deliver HTML pages?
 ???
 
-* `serve-static`
-* `express-html`
-* `easy-html`
-* `static-express`
-* `node-html`
-
+* serve-static
+* express-html
+* easy-html
+* static-express
+* node-html

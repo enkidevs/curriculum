@@ -28,6 +28,7 @@ The final version of Python 2 came out in 2010, and despite Python 3 being the l
 
 One advantage of Python 2 is that it has been around for far longer than Python 3, therefore there's more technical support and help available.
 
+
 One minor difference between Python 2 and 3 is that in Python 2, `print` is treated as a statement instead of a function, therefore there's no need to pass arguments through parentheses; for example:
 
 ```python

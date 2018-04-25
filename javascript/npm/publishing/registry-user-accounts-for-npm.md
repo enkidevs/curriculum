@@ -2,23 +2,27 @@
 author: catalin
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
 
 category: how to
 
-links:
-
-  - '[docs.npmjs.com](https://docs.npmjs.com/cli/adduser){website}'
-
-
 parent: check-data-about-a-package
+
+standards:
+  js.npm-publish.0: 10
+  js.npm-publish.1: 10
+  js.npm-publish.9: 10
+
+tags:
+  - workout
+  - deep
+
+links:
+  - '[docs.npmjs.com](https://docs.npmjs.com/cli/adduser){website}'
 
 ---
 # Registry user accounts for npm

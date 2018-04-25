@@ -12,7 +12,7 @@ category: tip
 standards:
 
   js.data-types-structures.2: 10
-
+  js.evaluate-expressions.6: 10
   js.data-types-structures.3: 10
 
 tags:
@@ -36,7 +36,7 @@ links:
 
 Using the following array:
 ```
-var stack = []; 
+var stack = [];
 ```
 We can `push` items to the stack:
 ```
@@ -84,4 +84,3 @@ s.??? ; // s = [1,2,4]
 * push(4)
 * pop(2)
 * pop(4)
-

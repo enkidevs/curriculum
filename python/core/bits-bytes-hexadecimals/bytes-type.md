@@ -29,9 +29,10 @@ links:
 ---
 ## Content
 
-Python uses built-in **core types** for manipulating binary data. Such a type is the `bytes` object  - **immutable** sequences of single bytes.
+Python features a built-in `bytes` type for manipulating binary data, which represents an **immutable** sequence of individual bytes. This is useful for working with binary data that must be stored accurately and without compression, such as a compiled program, a digital signal, or for working with bytes in cryptographic algorithms.
 
-Even though a `bytes` object behaves like a sequence of integers, some of its methods  work only with **ASCII** data. It is similar to  the string type in some ways.
+
+`bytes()` can produce a binary sequence from other datatypes, here are some examples below.
 
 Create a **zero-filled** bytes object of specified `length`:
 ```python
@@ -46,6 +47,7 @@ Create a bytes object from a iterable of integers:
 >>> c
 b'\x00\x01\x02\x03'
 ```
+
 Create a bytes object from a **hexadecimal** string:
 ```python
 >>> bytes.fromhex('2Ef0 F1f2')

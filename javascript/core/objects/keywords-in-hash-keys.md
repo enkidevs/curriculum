@@ -11,6 +11,8 @@ category: best practice
 standards:
   js.data-types-structures.3: 10
   js.data-types-structures.4: 10
+  js.evaluate-expressions.6: 10
+  js.evaluate-expressions.7: 10
 
 links:
   - '[bonsaiden.github.io](http://bonsaiden.github.io/JavaScript-Garden/){website}'

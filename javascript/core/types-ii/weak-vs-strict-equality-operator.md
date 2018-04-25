@@ -10,11 +10,10 @@ type: normal
 category: must-know
 
 standards:
-
+  js.evaluate-expressions.5: 10
+  js.evaluate-expressions.4: 10
   js.identify-syntax.2: 10
-
   js.evaluate-expressions.3: 10
-
   js.evaluate-expressions.10: 10
 
 tags:
@@ -98,7 +97,7 @@ console.log("\n" == 0);
 * `false false`
 
 ---
-## Quiz 
+## Quiz
 ### how familiar are you with weak equality?
 
 ```javascript

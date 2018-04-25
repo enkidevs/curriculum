@@ -2,21 +2,22 @@
 author: tommarshall
 
 levels:
-
   - beginner
 
 type: normal
 
 category: must-know
 
+standards:
+  js.node-developer-environment.0: 10
+
+tags:
+  - introduction
 
 links:
-
   - '[nodejs.org](https://nodejs.org/en/){website}'
 
-
 ---
-
 # What is NodeJS?
 
 ---
@@ -53,6 +54,7 @@ Is Node synchronous or asynchronous?
 
 ---
 ## Footnotes
+
 [1:Asynchronous]
 Even though JavaScript is single threaded, V8 JavaScript engine is not. In order to resolve functions that would be holding back the main thread, Node sends those instructions to the engine through *APIs* and subscribes to an event that marks the end of the computation for that process, through an event loop.
 

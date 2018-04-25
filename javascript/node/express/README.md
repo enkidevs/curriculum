@@ -1,6 +1,6 @@
 name: express
 
-description: The Node.js web application server framework.
+description: The Node.js web application server framework.  
 
 insights:
   - easy-way-to-deliver-html-pages-with-express

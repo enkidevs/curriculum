@@ -9,12 +9,18 @@ type: normal
 
 category: caveats
 
-links:
-  - '[stackoverflow.com](http://stackoverflow.com/questions/6109089/how-do-i-run-node-js-on-port-80){website}'
 
-notes: >-
-  This insights is also based on security - should be on a security workout I
-  guess.
+standards:
+  js.node-standard-library-os.5: 20
+
+tags:
+  - introduction
+  - workout
+  - obscura
+  - deep
+
+
+notes: This insights is also based on security - should be on a security workout I guess.
 
 ---
 # Node and `sudo`

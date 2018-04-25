@@ -20,6 +20,7 @@ inAlgoPool: false
 
 Python was designed in a way that is easy to understand and read. It uses English keywords and doesn't require long variable declarations or the use of curly brackets for functions and classes.
 
+
 For example, a `for` loop in Python using self-explained English keywords:
 
 ```python
@@ -48,7 +49,6 @@ What is the *pythonic* way to write a for loop?
 ## Revision
 
 How much Python code is usually required compared to the C++ code for the same task? ???
-
 
 * `Up to 10 times less`
 * `Up to 5 times less`

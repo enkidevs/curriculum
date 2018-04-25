@@ -12,6 +12,15 @@ category: feature
 
 parent: check-data-about-a-package
 
+standards:
+  js.use-open-source-javascript-packages.2: 10
+  js.npm-publish.0: 10
+  js.npm-publish.2: 10
+
+tags:
+  - workout
+  - deep
+
 ---
 # `npm` verifies `sha1` hashes of packages
 
