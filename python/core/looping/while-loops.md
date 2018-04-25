@@ -55,7 +55,7 @@ Gives the following output:
 ---
 ## Practice
 
-Print the first all numbers in (0, 10) inclusive:
+Print the  all numbers in 0..10 _inclusive_:
 ```python
 x = 0
 while x < ???:
