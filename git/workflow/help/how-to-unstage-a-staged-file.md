@@ -1,4 +1,4 @@
-# How to unstage a staged file
+---
 author: rosielowther
 
 levels:
@@ -9,12 +9,16 @@ type: normal
 
 category: must-know
 
-parent: the-three-states-in-git
 
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Undoing-Things){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Undoing-Things){website}'
+
+parent: the-three-states-in-git
+
+---
+
+# How to unstage a staged file
 
 ---
 ## Content
@@ -40,6 +44,7 @@ $ git reset
 ```
  ???
 
+
 * Unstage `enki.md` and `games.md`
 * Unstage `games.md`
 * Delete `enki.md` and `games.md`
@@ -52,6 +57,8 @@ Undo the command that staged `index.html` :
 $ git add index.html
 $ git ??? HEAD index.html
 ```
+
 * `reset`
 * `remove`
 * `amend`
+

@@ -1,4 +1,4 @@
-# Borders
+---
 author: mihaiberq
 
 levels:
@@ -7,9 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# Borders
 
 ---
 ## Content
@@ -47,9 +54,10 @@ In the shorthand declaration, where is the style of the border located?
 border: 1 2 3;
 ```
 ???
-*2
-*1
-*3
+
+* 2
+* 1
+* 3
 
 ---
 ## Revision
@@ -59,6 +67,8 @@ In the shorthand declaration, where is the color of the border located?
 border: 1 2 3;
 ```
 ???
-*3
-*1
-*2
+
+* 3
+* 1
+* 2
+

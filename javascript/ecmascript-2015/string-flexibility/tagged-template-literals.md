@@ -1,33 +1,31 @@
-# Template Strings
+---
 author: lizTheDeveloper
 
 levels:
-
   - medium
-
   - advanced
 
 type: normal
 
-tags:
-
-  - new
-
-  - workout
-
-  - introduction
-
-  - strings
-
-  - es6
+category: feature
 
 inAlgoPool: false
 
-category: feature
+tags:
+  - new
+  - workout
+  - introduction
+  - strings
+  - es6
+
 
 links:
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){website}'
 
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)'
+
+---
+
+# Template Strings
 
 ---
 ## Content
@@ -87,6 +85,7 @@ let who = "Scotty";
 let line = `??? me up ???!`;
 
 ```
+
 * `${what}`
 * `${who}`
 * `#{who}`
@@ -110,6 +109,7 @@ let attr2 = "Foolish";
 let line = `Stay ??? Stay ???`;
 
 ```
+
 * `${attr}`
 * `${attr2}`
 * `#{attr}`
@@ -120,3 +120,4 @@ let line = `Stay ??? Stay ???`;
 * `%s`
 * `$(attr2)`
 * `#(attr2)`
+

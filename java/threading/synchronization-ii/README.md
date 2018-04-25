@@ -1,12 +1,6 @@
 name: Synchronization II
 
-type: insights-list
-
 description: More on synchronization.
-
-section: 0
-
-parent: synchronization-i
 
 insights:
   - more-on-synchronization

@@ -1,15 +1,20 @@
-# Why Learn JavaScript?
+---
 author: alexjmackey
 
 levels:
-
   - beginner
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+tags:
+  - introduction
+
+---
+# Why Learn JavaScript?
 
 ---
 ## Content
@@ -26,13 +31,24 @@ Let's start with some reasons to learn JavaScript:
 - JavaScript is easy to learn. But beware - it’s **hard to master!**
 
 ---
+## Practice
+
+Can a server's backend be written in JavaScript?
+
+???
+
+* yes
+* no
+* depends on the operating system
+
+---
 ## Revision
 
 Why was **JavaScript** originally developed?
 
 ???
 
-*To add functionality to web pages
-*To create databases
-*To enhance Java
-*To replace HTML
+* To add functionality to web pages
+* To create databases
+* To enhance Java
+* To replace HTML

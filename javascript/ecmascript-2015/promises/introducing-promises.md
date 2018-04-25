@@ -1,17 +1,21 @@
-# Introducing Promises
+---
 author: alexjmackey
 
 levels:
-
   - medium
-
   - advanced
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+links:
+  - '[MDN - Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
+
+---
+# Introducing Promises
 
 links:
 
@@ -39,3 +43,27 @@ One way of approaching this problem is to use callback functions. A callback fun
 Callbacks work great for simple scenarios but with more complex scenarios things get complex and out of control quickly - for example when you need to handle more complex flow conditions such as multiple callbacks and exceptions.
 
 A better approach is to use promises lets see how to do this next.
+
+---
+## Practice
+
+Which of the following statements about promises do you consider false?
+
+???
+
+* Promises will block the execution thread of your application
+* Promises tend to be more useful in complex scenarios where callback get out of control
+* Promises were available before standard JavaScript implementation via third-party libraries
+* Promises are used for asynchronous operations
+
+---
+## Revision
+
+What problem do Promises try to solve?
+
+???
+
+* callbacks getting out of control in complex scenarios
+* asynchronous calls stopping thread execution
+* lack of any kind of support for asynchronous operation
+* too many libraries doing the same thing

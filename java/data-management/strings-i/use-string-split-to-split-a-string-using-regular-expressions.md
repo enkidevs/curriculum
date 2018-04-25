@@ -1,4 +1,4 @@
-# Use `String.split()` to split a string using regular expressions
+---
 author: adamMontgomerie
 
 levels:
@@ -19,15 +19,20 @@ tags:
 
   - substrings
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/manipstrings.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/manipstrings.html){website}'
+
+
+---
+
+# Use `String.split()` to split a string using regular expressions
 
 ---
 ## Content
 
-`split` takes a regular expression and splits the string around occurrences of this expression into an array of strings. 
+`split` takes a regular expression and splits the string around occurrences of this expression into an array of strings.
 ```
 String s = "I ate 6 pancakes, 4
   digestives, 2 boxes of cherries, then
@@ -56,20 +61,20 @@ Splitting on `\d`:
 ```
 Java’s split method ignores any trailing empty Strings.
 
-
 ---
-## Quiz
+## Quiz 
+### how does string splitting work?
 
-headline: how does string splitting work?
+What's the value of `l`?
 
-question: |
-  // What's the value of l?
+```java
   int l = "Hi-there-are-you-alright---".split("-").length +
       "---Hi-there-are-you-alright".split("-").length;
+```
 
-answers:
+ ???
 
-  - 13
-  - 10
-  - 16
-  - 12
+* 13
+* 10
+* 16
+* 12

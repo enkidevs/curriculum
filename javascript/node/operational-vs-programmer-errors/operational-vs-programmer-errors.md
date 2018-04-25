@@ -1,4 +1,4 @@
-# Operational vs. Programmer Errors
+---
 author: mihaiberq
 
 levels:
@@ -13,8 +13,14 @@ category: must-know
 tags:
   - introduction
 
+standards:
+  js.identify-common-design-patterns.8: 10
+
 links:
-   - '[Distinguish operational from programmatic errors](https://github.com/i0natan/nodebestpractices/blob/master/sections/errorhandling/operationalvsprogrammererror.md)'
+  - '[Distinguish operational from programmatic errors](https://github.com/i0natan/nodebestpractices/blob/master/sections/errorhandling/operationalvsprogrammererror.md){website}'
+
+---
+# Operational vs. Programmer Errors
 
 ---
 ## Content
@@ -34,7 +40,7 @@ However, restarting the server won't solve bugs and the only permanent solution 
 To make the distinction between the two types is the first step in being able to properly handle them.
 
 Note: You might have also heard of "exceptions". An exception is a "thrown error":
-```js
+```javascript
 if(err){
   throw new Error('exception here');  
 }
@@ -46,7 +52,7 @@ callback(new Error('error here'));
 ## Practice
 
 Can you identify type of error most likely depicted in the following snippet?
-```js
+```javascript
 import http from 'http';
 ...
 // create the request header
@@ -63,6 +69,7 @@ http.request({host: test.com,
 ```
 ???
 
+
 * Handled operational error
 * Unhandled operational error
 * Handled programmer error
@@ -75,8 +82,10 @@ A programmer error is
 
 ???
 
+
 * a problem where the program unexpectedly crashes
 * a problem where the program expectedly crashes
 * a problem with the server configuration
 * a problem on the client
 * an unhandled exception
+

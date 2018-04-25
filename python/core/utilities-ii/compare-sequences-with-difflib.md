@@ -1,4 +1,4 @@
-# Compare sequences with `difflib`
+---
 author: catalin
 
 levels:
@@ -13,9 +13,19 @@ type: normal
 
 category: feature
 
+standards:
+  py.data-structures-uses.5: 10
+  py.modules.0: 10
+  py.native-types-operations.4: 10
+
 links:
 
   - '[pymotw.com](https://pymotw.com/2/difflib/){website}'
+
+
+---
+
+# Compare sequences with `difflib`
 
 ---
 ## Content
@@ -45,7 +55,7 @@ This will print the whole text once again with differences highlighted by line w
 # -f / -g / -h
 # +i / +j / +k
 ```
-The same result is achieved with `difflib.ndiff`. 
+The same result is achieved with `difflib.ndiff`.
 
 To show only the differences and some context:
 ```python
@@ -67,15 +77,16 @@ diff = d.???(a, b)
 print(‘\n’.join(diff))
 ```
 
-*`Differ`
-*`compare`
-*`diff`
-*`join`
-*`concat`
-*`difflib`
-*`Diff`
-*`HtmlDiff`
-*`ndif`
+
+* `Differ`
+* `compare`
+* `diff`
+* `join`
+* `concat`
+* `difflib`
+* `Diff`
+* `HtmlDiff`
+* `ndif`
 
 ---
 ## Revision
@@ -84,7 +95,8 @@ What class from `difflib` with a `compare` method can be used to see differences
 
 ???
 
-*`Differ`
-*`SequenceMatcher`
-*`ndiff`
-*`HtmlDiff`
+
+* `Differ`
+* `SequenceMatcher`
+* `ndiff`
+* `HtmlDiff`

@@ -1,8 +1,7 @@
-# Available Binaries For Scripting
+---
 author: mihaiberq
 
 levels:
-
   - beginner
   - basic
   - medium
@@ -13,6 +12,18 @@ type: normal
 category: how to
 
 parent: npm-scripting
+
+standards:
+  js.npm-publish.0: 10
+  js.npm-tasks-and-modules-manager.0: 10
+
+tags:
+  - introduction
+  - workout
+  - deep
+
+---
+# Available Binaries For Scripting
 
 ---
 ## Content
@@ -46,11 +57,13 @@ You can find out the exact location of available binaries with:
 $ ??? ???
 ```
 
-* `npm`
-* `bin`
-* `ls`
-* `/project/node_modules/.bin`
-* `/usr/local/bin`
+
+* npm
+* bin
+* ls
+* /project/node_modules/.bin
+* /usr/local/bin
+
 ---
 ## Revision
 

@@ -1,4 +1,4 @@
-# Comma-separated lists
+---
 author: jordanfish
 
 levels:
@@ -13,9 +13,15 @@ type: normal
 
 category: hack
 
+
 links:
 
   - '[github.com](https://github.com/AllThingsSmitty/css-protips){website}'
+
+
+---
+
+# Comma-separated lists
 
 ---
 ## Content
@@ -38,11 +44,12 @@ ul > ??? :not(???)
   /* code */
 }
 ```
-*`li` 
-*`:last-child` 
-*`:nth-child(last)` 
-*`:li` 
-*`:not(:first-child)`
+
+* `li` 
+* `:last-child` 
+* `:nth-child(last)` 
+* `:li` 
+* `:not(:first-child)`
 
 ---
 ## Revision
@@ -54,6 +61,8 @@ ul > li:not(:last-child)::after {
 }
 ```
 ???
+
 * Adds // after each item in the list except for after the final item.
 * Changes the list so it's just a list of forward slashes.
 * Changes the content of the last child to //.
+

@@ -1,4 +1,4 @@
-# Positioning Elements
+---
 author: mihaiberq
 
 levels:
@@ -7,9 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# Positioning Elements
 
 ---
 ## Content
@@ -70,10 +77,11 @@ The third basic way of position elements, *floating*, will be covered in the nex
 
 An element with `position: absolute` is positioned in relation to ???.
 
-*its first non-static ancestor.
-*its first relative positioned ancestor.
-*its first absolute positioned ancestor.
-*its parent.
+
+* its first non-static ancestor.
+* its first relative positioned ancestor.
+* its first absolute positioned ancestor.
+* its parent.
 
 ---
 ## Revision
@@ -81,6 +89,8 @@ An element with `position: absolute` is positioned in relation to ???.
 For which value of `position` you cannot use box offsets?
 
 ???
-*Static
-*Relative
-*Absolute
+
+* Static
+* Relative
+* Absolute
+

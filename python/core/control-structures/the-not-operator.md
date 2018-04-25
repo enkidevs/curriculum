@@ -1,4 +1,4 @@
-# The `not` operator
+---
 author: tommarshall
 
 levels:
@@ -7,9 +7,17 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+standards:
+  py.native-types-operations.0: 10
+
+---
+
+# The `not` operator
 
 ---
 ## Content
@@ -33,6 +41,25 @@ print(True == (not True))
 # prints False
 ```
 
+--- 
+## Practice
+
+Check if `x` does not exist in the `nums` sequnece:
+
+```python
+x = 10
+nums = [1,2,3,4]
+
+??? x ??? in nums:
+    print(False)
+```
+
+* if
+* not
+* is
+* while
+* for
+
 ---
 ## Revision
 
@@ -43,6 +70,7 @@ print(True == (not True))
 ```
 ???
 
-*False
-*True
-*Error
+
+* False
+* True
+* Error

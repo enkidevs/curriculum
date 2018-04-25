@@ -1,12 +1,6 @@
 name: Numbers II
 
-type: insights-list
-
 description: Exploring numbers in Java.
-
-section: 0
-
-parent: numbers-i
 
 insights:
   - using-valueof-to-convert-strings-to-numeric-values

@@ -1,10 +1,6 @@
 name: File Streams
 
-type: insights-list
-
 description: Working with file stream via various tooling.
-
-section: 0
 
 insights:
   - the-head-and-tail-commands

@@ -1,1 +1,0 @@
-Learn how to be a ninja by mastering terminals.

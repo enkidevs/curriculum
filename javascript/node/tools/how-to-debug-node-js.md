@@ -1,47 +1,55 @@
-# How to debug Node.js
+---
 author: rosielowther
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal
 
 category: feature
 
-notes: ''
+standards:
+  js.node-developer-environment.6: 20
+  js.use-modules.2: 20
+
+tags:
+  - introduction
+  - workout
+  - deep
 
 links:
-
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/1911015/how-do-i-debug-node-js-applications/31502652#31502652){website}
-
+  - '[stackoverflow.com](http://stackoverflow.com/questions/1911015/how-do-i-debug-node-js-applications/31502652#31502652){website}'
   - '[github.com](https://github.com/s-a/iron-node){website}'
 
 ---
-## Content
+# How to debug Node.js
 
+---
+## Content
+ß
 There are many options when debugging Node applications.
 
-**Built-in debugger**
+### Built-in debugger
 
 Debug by putting a `debugger` statement in your code.
 Run by:
+
 ```bash
 node debug app.js
 ```
-**Browser interface**
+
+### Browser interface
 
 More sophisticated debugging can be done using **Node Inspector**, which allows debugging via an interface inside of a browser.
 Run by:
+
 ```bash
 npm install -g node-inspector
 node-debug app.js
 ```
-**REPL**
 
+### REPL
 **Iron Node** also has sophisticated debugging for Linux, Windows and OS X.
 
 ```bash
@@ -50,14 +58,28 @@ iron-node app.js
 ```
 
 ---
+## Practice
+
+Which of the following cannot be used to debug a node application?
+
+???
+
+* webpack
+* node debug
+* node-inspector
+* iron-node
+
+---
 ## Revision
 
 Start node with its built-in debugger:
+
 ```bash
 $ ??? ??? app.js
 ```
-*`node`
-*`debug`
-*`debugger`
-*`node-debug`
-*`iron-node`
+
+* node
+* debug
+* debugger
+* node-debug
+* iron-node

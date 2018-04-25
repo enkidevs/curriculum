@@ -1,4 +1,4 @@
-# The Standard Streams: `stdin`, `stdout`, and `stderr`
+---
 author: jfarmer
 
 levels:
@@ -9,13 +9,23 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 tags:
+
   - introduction
+
   - workout
+
+
+
+
+---
+
+# The Standard Streams: `stdin`, `stdout`, and `stderr`
+
 ---
 ## Content
 
@@ -36,10 +46,11 @@ stdin - ???
 stdout - ???
 stderr - ???
 ```
-*`standard input`
-*`standard output`
-*`standard error`
-*`standard stream`
+
+* `standard input`
+* `standard output`
+* `standard error`
+* `standard stream`
 
 ---
 ## Revision
@@ -47,7 +58,9 @@ stderr - ???
 How would a program know who is the source of the input received through `stdin` ?
 
 ???
-*It wouldn’t be able to find out
-*By `stdin.source` 
-*By `stdin -s` 
-*By the type of input received
+
+* It wouldn’t be able to find out
+* By `stdin.source` 
+* By `stdin -s` 
+* By the type of input received
+

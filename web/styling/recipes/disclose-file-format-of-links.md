@@ -1,4 +1,4 @@
-# Disclose file format of links
+---
 author: catalin
 
 levels:
@@ -9,10 +9,15 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - >-
-    [css-tricks.com](https://css-tricks.com/almanac/properties/c/content/){website}
+  - '[css-tricks.com](https://css-tricks.com/almanac/properties/c/content/){website}'
+
+
+---
+
+# Disclose file format of links
 
 ---
 ## Content
@@ -38,7 +43,9 @@ A CSS selector that targets links which resolve to a *pdf* file is:
 
 ???
 
+
 * `a[href$=".pdf"]`
 * `a.pdf`
 * `[href="pdf"]`
 * `a[after=".pdf"]`
+

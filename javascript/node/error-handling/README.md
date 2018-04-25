@@ -1,12 +1,6 @@
 name: Error Handling
 
-type: insights-list
-
-description: How to handle various errors.
-
-section: 1
-
-parent: operational-vs-programmer-errors
+description: How to handle various errors. 
 
 insights:
   - try-catch-only-for-sync-code

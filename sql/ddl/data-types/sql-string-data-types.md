@@ -1,4 +1,4 @@
-# SQL String Data Types
+---
 author: mihaiberq
 
 levels:
@@ -11,9 +11,18 @@ type: normal
 
 category: must-know
 
+standards:
+  sql.choose-sql-datatype.1: 10
+
 tags:
+
   - introduction
+
   - workout
+
+---
+
+# SQL String Data Types
 
 ---
 ## Content
@@ -45,13 +54,14 @@ If you are aware of a maximum length for those strings, use `varchar(n)` instead
 ## Practice
 
 Create a PostgreSQL table that contains a fixed width column and a variable one, such that minimal space is used to store the table in memory:
-```SQL
+```sql
 CREATE ??? language(
   id bigserial PRIMARY KEY,
   language_name ???,
   iso_code ???
 );
 ```
+
 * `TABLE`
 * `varchar(70)`
 * `char(2)`
@@ -65,7 +75,9 @@ Which of the following string data types are padded to match its maximum size?
 
 ???
 
+
 * `char(size)`
 * `varchar(size)`
 * `text(size)`
 * `text`
+

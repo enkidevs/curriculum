@@ -1,4 +1,4 @@
-# Arrow Functions (Part 2)
+---
 author: lizTheDeveloper
 
 levels:
@@ -8,6 +8,10 @@ levels:
   - basic
 
 type: normal
+
+category: feature
+
+inAlgoPool: false
 
 tags:
 
@@ -19,17 +23,22 @@ tags:
 
   - functions
 
-inAlgoPool: false
 
-category: feature
+links:
+
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions){website}'
+
 
 links:
   
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions){website}'
   
 ---
-## Content
 
+# Arrow Functions (Part 2)
+
+---
+## Content
 
 Arrow Functions(`() => {}`) differ from anonymous keyword functions (`function(){}`) by not changing the value of `this`.
 
@@ -71,6 +80,7 @@ let count = new Counter();
 ```
 
 
+
 * `() => {this.counter++;}`
 * `() => {this.counter--;}`
 * `function() {this.counter++;}`
@@ -94,7 +104,9 @@ let count = new Counter();
 ```
 
 
+
 * `() => {this.counter++;}`
 * `() => {this.counter--;}`
 * `function() {this.counter++;}`
 * `function() {this.counter--;}`
+

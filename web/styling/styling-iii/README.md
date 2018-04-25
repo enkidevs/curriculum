@@ -1,12 +1,6 @@
 name: Styling III
 
-type: insights-list
-
 description: Styling recipes. 
-
-section: 0
-
-parent: styling-ii
 
 insights:
   - border-radius-circle

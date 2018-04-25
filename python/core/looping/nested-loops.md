@@ -1,4 +1,4 @@
-# Nested Loops
+---
 author: tommarshall
 
 levels:
@@ -7,9 +7,17 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+standards:
+  py.control-structures.0: 10
+
+
+---
+
+# Nested Loops
 
 ---
 ## Content
@@ -59,10 +67,31 @@ c
 ```
 
 ---
+## Practice
+
+Choose the correct output for the following snippet:
+
+```python
+for i in [1,2]:
+  print(i)
+  for j in range(0,2):
+    print(0)
+
+```
+
+???
+
+* 1 0 0 2 0 0
+* 0 0 1 0 0 2
+* 1 0 1 2 0 1
+
+
+---
 ## Revision
 
 How do nested loops work?
 ???
+
 
 * The outer loop increments once per full cycle of the inner loop.
 * The inner loop increments once per full cycle of the outer loop.

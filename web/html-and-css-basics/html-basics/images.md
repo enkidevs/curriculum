@@ -1,4 +1,4 @@
-# Images
+---
 author: mihaiberq
 
 levels:
@@ -10,6 +10,13 @@ type: normal
 category: must-know
 
 inAlgoPool: false
+
+
+
+
+---
+
+# Images
 
 ---
 ## Content
@@ -41,6 +48,7 @@ Another useful attribute is `alt`, which fills the image with a placeholder in c
 <img src="html/logo.jpg"
   alt="This should be the logo" />
 ```
+
 ---
 ## Revision
 
@@ -49,7 +57,9 @@ Complete the following snippet such that it contains valid code:
 <img ???="example.com/path/dog.jpg"/>
 ```
 
+
 * src
 * href
 * link
 * source
+

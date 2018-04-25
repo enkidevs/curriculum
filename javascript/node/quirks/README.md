@@ -1,17 +1,8 @@
-name: Quirks
+name: Node Execution Environment
 
-type: insights-list
-
-description: Particularities of Node.
-
-section: 1
-
-parent: tools
+description: Particularities of executing node 
 
 insights:
   - node-and-sudo
-  - exports-vs-module-exports-in-node
   - avoid-command-injection
   - node-os-module
-  - asynchronous-file-write-read-in-node-js
-  - process-env-performance

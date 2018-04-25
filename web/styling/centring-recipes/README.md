@@ -1,10 +1,6 @@
 name: Centring Recipes
 
-type: insights-list
-
 description: Different techniques to centre elements.
-
-section: 0
 
 insights:
   - horizontal-centering-fluid-blocks
@@ -12,3 +8,4 @@ insights:
   - vertical-centering-fluid-blocks
   - vertical-centering-with-margin-top
   - vertically-center-text
+  - vertically-center-anything

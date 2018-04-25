@@ -1,4 +1,4 @@
-# At-Rules (`@`)
+---
 author: oj14henry
 
 levels:
@@ -15,12 +15,17 @@ category: tip
 
 tags:
 
-  - '#@ #rules'
+  - #@ #rules
+
 
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule){website}'
+
+
+---
+
+# At-Rules (`@`)
 
 ---
 ## Content
@@ -72,6 +77,8 @@ Or you want different image scaling depending on screen size:
 ## Revision
 
 Which of the following is the regular form for an @ rule? ???
+
 * `@[KEYWORD] (RULE);`
 * `@[KEYWORD];`
 * `@[KEYWORD-RULE];`
+

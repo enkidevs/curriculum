@@ -1,4 +1,4 @@
-# CSS Specificity
+---
 author: Mathieu
 
 levels:
@@ -11,19 +11,22 @@ levels:
 
 type: normal
 
+category: feature
+
 inAlgoPool: false
 
-category: feature
+
+links:
+
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity){website}'
+  - '[standardista.com](http://standardista.com/css3/css-specificity/){website}'
 
 notes: >-
   http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/
 
-links:
+---
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity){website}
-
-  - '[standardista.com](http://standardista.com/css3/css-specificity/){website}'
+# CSS Specificity
 
 ---
 ## Content
@@ -122,6 +125,7 @@ There are three other factors that influence the specificity of a selector. Howe
   font-size: 60px !important;
 }
 ```
+
 ---
 ## Practice
 
@@ -131,6 +135,7 @@ p#myParagraph .class1 div.class2 {}
 ```
 
 ???
+
 * 0-1-2-2
 * 0-1-2-1
 * 1-1-1-2
@@ -145,6 +150,7 @@ What is the specificity of the following CSS code snippet?
 ```
 
 ???
+
 * 0-1-1-1
 * 0-0-2-1
 * 1-1-2-1
@@ -153,17 +159,18 @@ What is the specificity of the following CSS code snippet?
 * 1-2-1-2
 
 ---
-## Quiz
+## Quiz 
+### which of the following selectors has the highest specificity?
 
-headline: which of the following selectors has the highest specificity?
+```css
+#nav .selected > p:hover {} /* 1 */
+#footer #note {} /* 2 */
+div div ul li div div img {} /* 3 */
+```
 
-question: |
-  #nav .selected > p:hover {} /* 1 */
-  #footer #note {} /* 2 */
-  div div ul li div div img {} /* 3 */
+ ???
 
-answers:
-  - 2
-  - 1
-  - 3
-  - both 1 and 2
+* 2
+* 1
+* 3
+* both 1 and 2

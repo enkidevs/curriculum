@@ -1,4 +1,4 @@
-# Debugging
+---
 author: SebaRaba
 
 levels:
@@ -11,14 +11,22 @@ type: normal
 
 category: must-know
 
+standards:
+  py.identify-python-syntax.1: 10
+
 links:
 
-  - '[More about debugging](https://pythonconquerstheuniverse.wordpress.com/2009/09/10/debugging-in-python/)'
+  - '[More about debugging](https://pythonconquerstheuniverse.wordpress.com/2009/09/10/debugging-in-python/){website}'
+
+
+---
+
+# Debugging
 
 ---
 ## Content
 
-No matter how experienced programmers are, there will always be mistakes in their **code**. 
+No matter how experienced programmers are, there will always be mistakes in their **code**.
 
 Debugging means understanding what is going *wrong* with the code. There are many ways to debug a program, but we will focus on the most basic one in this insight: debugging using the `print()` statement.
 
@@ -56,7 +64,6 @@ Now we know that `x` was initialized with value `6` because of `foo()`. The bug 
 ---
 ## Practice
 
-
 What value will be printed by `print("Line 6:", x)`?
 ```
 def counter(x):
@@ -70,6 +77,7 @@ counter(3)
 ```
 ???
 
+
 * 0
 * 3
 * 1
@@ -82,6 +90,7 @@ counter(3)
 Which of the following is an ad-hoc debugging method?
 
 ???
+
 
 * print()
 * debugging modules

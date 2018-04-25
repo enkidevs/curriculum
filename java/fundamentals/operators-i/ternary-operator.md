@@ -1,4 +1,4 @@
-# Ternary operator
+---
 author: kld14
 
 levels:
@@ -19,10 +19,15 @@ tags:
 
   - conditional
 
+
 links:
 
-  - >-
-    [alvinalexander.com](http://alvinalexander.com/java/edu/pj/pj010018){website}
+  - '[alvinalexander.com](http://alvinalexander.com/java/edu/pj/pj010018){website}'
+
+
+---
+
+# Ternary operator
 
 ---
 ## Content
@@ -58,6 +63,7 @@ if (flag > 5) {
 }
 ```
 ???
+
 * int count = flag > 5 ? 2:5;
 * int flag = count > 5 ? 5:2;
 * int count = flag > 5 ? 5:2;
@@ -72,6 +78,7 @@ Complete the following ternary operator syntax with the correct symbols:
 int num = x > 2 ??? 2 ??? 0
 ```
 
+
 * `?`
 * `:`
 * `>`
@@ -81,17 +88,18 @@ int num = x > 2 ??? 2 ??? 0
 * `+`
 
 ---
-## Quiz
+## Quiz 
+### Which single boolean should be negated for the output to be true?
 
-headline: Which single boolean should be negated for the output to be `true`?
+```java
 
-question: |
+System.out.println(true?false:true==true?false:true);
+                    1     2    3          4
+```
 
-  System.out.println(true?false:true==true?false:true);
-                      1     2    3          4
+ ???
 
-answers:
-  - 2
-  - 1
-  - 3
-  - 4
+* 2
+* 1
+* 3
+* 4

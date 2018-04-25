@@ -1,12 +1,6 @@
 name: Styling II
 
-type: insights-list
-
 description: Styling recipes. 
-
-section: 0
-
-parent: styling-i
 
 insights:
   - underline-feature-on-html-elements

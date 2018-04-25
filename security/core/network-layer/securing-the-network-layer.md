@@ -1,4 +1,4 @@
-# Securing the Network Layer
+---
 author: milesflo
 
 levels:
@@ -17,7 +17,12 @@ inAlgoPool: false
 
 links:
 
-  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
+  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}'
+
+
+---
+
+# Securing the Network Layer
 
 ---
 ## Content
@@ -30,6 +35,7 @@ The Network Layer is most vulnerable to malicious **packets** coming in to your 
 What is one control in the Network Layer of the OSI Model?
 ???
 
+
 * Use of a physical firewall
 * Using managed switches prevent topographical loops
 * Locks and secure enclosures
@@ -40,21 +46,23 @@ What is one control in the Network Layer of the OSI Model?
 
 The Network Layer is most vulnerable to malicious ??? from the Internet.
 
+
 * packets
 * frames
 * bits
 * sessions
 
 ---
-## Quiz
+## Quiz 
+### What is one control for this OSI model Layer?
+```
+What is one control in the Network Layer of the OSI Model?
+```
 
-headline: What is one control for this OSI model Layer?
+ ???
 
-question: |
-  What is one control in the Network Layer of the OSI Model?
+* Use of a physical firewall
+* Using managed switches prevent topographical loops
+* Locks and secure enclosures
+* Encrypted password exchange and storage
 
-answers:
-  - Use of a physical firewall
-  - Using managed switches prevent topographical loops
-  - Locks and secure enclosures
-  - Encrypted password exchange and storage

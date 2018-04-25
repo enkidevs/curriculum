@@ -1,4 +1,4 @@
-# Securing the Data Link Layer
+---
 author: milesflo
 
 levels:
@@ -17,7 +17,12 @@ inAlgoPool: false
 
 links:
 
-  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
+  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}'
+
+
+---
+
+# Securing the Data Link Layer
 
 ---
 ## Content
@@ -36,6 +41,7 @@ Another critical vulnerability to the Data Link Layer is the __packet storm__. A
 What is one control in the Data Link Layer of the OSI Model?
 ???
 
+
 * Using managed switches prevent topographical loops
 * Locks and secure enclosures
 * Use of a physical firewall
@@ -46,6 +52,7 @@ What is one control in the Data Link Layer of the OSI Model?
 
 ??? involves changing a device's MAC address to impersonate another node on a network.
 
+
 * ARP spoofing
 * Van Eck phreaking
 * Packet sniffing
@@ -53,15 +60,15 @@ What is one control in the Data Link Layer of the OSI Model?
 * ARP sniping
 
 ---
-## Quiz
+## Quiz 
+### What is one control for this OSI model Layer?
+```
+What is one control in the Data Link Layer of the OSI Model?
+```
 
-headline: What is one control for this OSI model Layer?
+ ???
 
-question: |
-  What is one control in the Data Link Layer of the OSI Model?
-
-answers:
-  - Using managed switches prevent topographical loops
-  - Locks and secure enclosures
-  - Use of a physical firewall
-  - Encrypted password exchange and storage
+* Using managed switches prevent topographical loops
+* Locks and secure enclosures
+* Use of a physical firewall
+* Encrypted password exchange and storage

@@ -1,17 +1,24 @@
-# What is NodeJS?
+---
 author: tommarshall
 
 levels:
-
   - beginner
 
 type: normal
 
 category: must-know
 
-links:
+standards:
+  js.node-developer-environment.0: 10
 
-- '[nodejs.org](https://nodejs.org/en/)'
+tags:
+  - introduction
+
+links:
+  - '[nodejs.org](https://nodejs.org/en/){website}'
+
+---
+# What is NodeJS?
 
 ---
 ## Content
@@ -31,6 +38,7 @@ Node can be used to build a variety of applications including single and multi-p
 What can Node be used to create?
 ???
 
+
 * server-side applications
 * client-side applications
 
@@ -40,10 +48,9 @@ What can Node be used to create?
 Is Node synchronous or asynchronous?
 ???
 
+
 * asynchronous
 * synchronous
-
-
 
 ---
 ## Footnotes

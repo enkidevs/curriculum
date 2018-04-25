@@ -1,4 +1,4 @@
-# Calling functions
+---
 author: tommarshall
 
 levels:
@@ -7,9 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+standards:
+  py.functions.1: 10
+
+
+---
+
+# Calling functions
+
 
 ---
 ## Content
@@ -53,6 +63,28 @@ In the example, variable `x` will take the value of `num`, therefore the output 
 ```
 
 ---
+## Practice
+
+Find the arithmetic mean of `x` and `y`:
+
+```python
+x = 4
+y = 2
+??? mean(a, b):
+    print((a + b) / 2)
+
+???(???)
+mean(x, y)
+```
+
+* def
+* mean
+* (x, y)
+* (a, b)
+
+
+
+---
 ## Revision
 
 Complete the code snippet to define and call the function with the correct parameter:
@@ -65,6 +97,7 @@ Complete the code snippet to define and call the function with the correct param
 num = 5
 ???(???)
 ```
+
 * `def`
 * `cube`
 * `num`

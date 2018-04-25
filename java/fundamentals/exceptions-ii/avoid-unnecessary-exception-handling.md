@@ -1,4 +1,4 @@
-# Avoid unnecessary exception handling
+---
 author: adamMontgomerie
 
 levels:
@@ -17,13 +17,16 @@ tags:
 
   - exceptions
 
+
 links:
 
-  - >-
-    [javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2013/03/0-exception-handling-best-practices-in-Java-Programming.html){website}
+  - '[javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2013/03/0-exception-handling-best-practices-in-Java-Programming.html){website}'
+  - '[codereview.stackexchange.com](http://codereview.stackexchange.com/questions/11724/is-it-better-practice-to-have-void-method-throw-an-exception-or-to-have-the-meth){website}'
 
-  - >-
-    [codereview.stackexchange.com](http://codereview.stackexchange.com/questions/11724/is-it-better-practice-to-have-void-method-throw-an-exception-or-to-have-the-meth){website}
+
+---
+
+# Avoid unnecessary exception handling
 
 ---
 ## Content
@@ -59,3 +62,4 @@ private boolean isValid(Object p) {
   return //true/false
 }
 ```
+

@@ -1,4 +1,4 @@
-# Nested lists comprehension
+---
 author: catalin
 
 levels:
@@ -11,12 +11,16 @@ type: normal
 
 category: how to
 
-parent: list-comprehension
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#nested-list-comprehensions){website}
+  - '[docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#nested-list-comprehensions){website}'
+
+parent: list-comprehension
+
+---
+
+# Nested lists comprehension
 
 ---
 ## Content
@@ -56,3 +60,4 @@ y % 3 == 0 ]
 # (8, 9), (8, 12), (8, 15), (8, 18)]
 
 ```
+

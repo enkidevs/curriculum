@@ -1,12 +1,6 @@
 name: CSS Basics
 
-type: insights-list
-
 description: How CSS works
-
-section: 0
-
-parent: intro-css
 
 insights:
   - applying-css
@@ -14,3 +8,5 @@ insights:
   - css-specificity
   - common-css-properties-values
   - relative-css-properties
+
+game: will-this-work-on-ie8

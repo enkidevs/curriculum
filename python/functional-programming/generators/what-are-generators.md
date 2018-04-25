@@ -1,4 +1,4 @@
-# What are generators
+---
 author: catalin
 
 levels:
@@ -11,6 +11,8 @@ type: normal
 
 category: must-know
 
+
+
 notes: >-
   Should always be the first insight presented within this topic?
 
@@ -22,6 +24,9 @@ notes: >-
   try/except, or to call it in a for loop, in which case the for statement
   handles the StopIteration and uses it to terminate the loop.
 
+---
+
+# What are generators
 
 ---
 ## Content
@@ -57,7 +62,9 @@ What statement is specific to generators instead of `return` ?
 
 ???
 
-*`yield`
-*`for`
-*`await`
-*`return`
+
+* `yield`
+* `for`
+* `await`
+* `return`
+

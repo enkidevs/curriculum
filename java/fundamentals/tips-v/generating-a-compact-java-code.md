@@ -1,4 +1,4 @@
-# Generating a compact Java code
+---
 author: pawel
 
 levels:
@@ -11,12 +11,16 @@ type: normal
 
 category: tip
 
-notes: ''
 
 links:
 
-  - >-
-    [www.excelsior-usa.com](http://www.excelsior-usa.com/articles/java-obfuscators.html){website}
+  - '[www.excelsior-usa.com](http://www.excelsior-usa.com/articles/java-obfuscators.html){website}'
+
+notes: ''
+
+---
+
+# Generating a compact Java code
 
 ---
 ## Content
@@ -25,3 +29,4 @@ If you're trying to make your code more compact the obvious step would be to JAR
 (for example: CalculatingNumberOfThreads) by shorter, just 2-3 characters.
 
 Use it only on final step, before delivery to customer, as it makes code less readable.
+

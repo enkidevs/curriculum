@@ -1,4 +1,4 @@
-# Listing a file system's root directories
+---
 author: adamMontgomerie
 
 levels:
@@ -23,10 +23,15 @@ tags:
 
   - root-directory
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/dirs.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/dirs.html){website}'
+
+
+---
+
+# Listing a file system's root directories
 
 ---
 ## Content
@@ -56,7 +61,9 @@ Iterable<Path> myDir = ???
   .getDefault().getRootDirectories();
 
 ```
-*FileSystems
-*FileSystem
-*System
-*FileSystemUtils
+
+* FileSystems
+* FileSystem
+* System
+* FileSystemUtils
+

@@ -1,19 +1,28 @@
-# How Do Binary Heaps Enable O(log(n)) Insertion and Removal?
-
+---
 author: jfarmer
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
+
 parent: removing-data-from-a-heap-with-the-downheap-operation
+
+---
+
+# How Do Binary Heaps Enable O(log(n)) Insertion and Removal?
+
 ---
 ## Content
 
@@ -34,8 +43,10 @@ For insertion to take O(log n) time, the underlying structure used to implement 
 
 ???.
 
+
 * complete binary tree
 * binary tree
 * complete graph
 * stack
 * tree
+

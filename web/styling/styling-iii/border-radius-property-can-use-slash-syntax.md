@@ -1,4 +1,4 @@
-# `Border-radius` property can use `slash syntax(/)`
+---
 author: oj14henry
 
 levels:
@@ -15,10 +15,15 @@ tags:
 
   - border-radius
 
+
 links:
 
-  - >-
-    [www.techonthenet.com](http://www.techonthenet.com/css/properties/border_radius.php){website}
+  - '[www.techonthenet.com](http://www.techonthenet.com/css/properties/border_radius.php){website}'
+
+
+---
+
+# `Border-radius` property can use `slash syntax(/)`
 
 ---
 ## Content
@@ -55,6 +60,8 @@ border-radius: 80px 70px 60px 50px/
 
 What syntax can be used with the `border-radius` property for setting the horizontal and vertical radius'? ???
 
+
 * slash syntax (/)
 * equal syntax (=)
 * double slash syntax (//)
+

@@ -1,4 +1,4 @@
-# Decorators and methods
+---
 author: mihaiberq
 
 levels:
@@ -8,6 +8,13 @@ levels:
 type: normal
 
 category: must-know
+
+
+
+
+---
+
+# Decorators and methods
 
 ---
 ## Content
@@ -64,8 +71,86 @@ print(temp.get_temp(3, extra2 = 1))
 ```
 
 ---
-## Footnotes
+## Practice
 
+When defining a decorator, the most general syntax you can use is:
+```python
+# A
+def deco(func):
+  def wrapper(*args, **kwargs):
+    ...
+# B
+def deco(func):
+  def wrapper(**args, *kwargs):
+    ...
+# C
+def deco(func):
+  def wrapper(self):
+    ...
+# D
+def deco(func):
+  def wrapper(self, args, kwargs):
+    ...
+```
+???
+
+* A
+* B
+* C
+* D
+
+---
+## Revision
+
+In case of a decorator that targets `methods`, which is a valid declaration?
+```python
+# A
+def deco(method):
+  def wrapper():
+    return method(1) + method(2)
+  return wrapper
+# B
+def deco(method):
+  def wrapper(self):
+    return method(self, 1) + method(self, 2)
+  return wrapper
+# C
+def deco(self):
+  def wrapper(method):
+    return method(self, 1) + method(self, 2)
+  return wrapper
+```
+
+???
+
+
+* B
+* C
+* A
+* A and C
+* A and B
+* they are all valid
+
+---
+## Quiz 
+### what is the output of the following snippet?
+
+```python
+def foo(a,b,*args,**kwargs):
+  print(a, b, args, kwargs)
+x = {'ten': 10}
+foo(1, 2, enki='wow', **x)
+```
+
+ ???
+
+* 1 2 () {'enki': 'wow', 'ten': 10}
+* (1, 2) {'enki': 'wow', 'ten': 10}
+* 1 2 [] {'enki': 'wow', 'ten': 10}
+* 1 2 ('enki', 'wow') {'ten': 10}
+
+---
+## Footnotes
 [1: &#42;args]
 The asterisk symbol (`*`) allows you to pass multiple arguments at once through a list or tuple:
 ```python
@@ -108,81 +193,3 @@ A dictionary like this will raise an error:
 mydict = {"a":1, "b":2,"c":3}
 # TypeError: unexpected keyword argument c
 ```
-
----
-## Practice
-
-When defining a decorator, the most general syntax you can use is:
-```python
-# A
-def deco(func):
-  def wrapper(*args, **kwargs):
-    ...
-# B
-def deco(func):
-  def wrapper(**args, *kwargs):
-    ...
-# C
-def deco(func):
-  def wrapper(self):
-    ...
-# D
-def deco(func):
-  def wrapper(self, args, kwargs):
-    ...
-```
-???
-* A
-* B
-* C
-* D
-
----
-## Revision
-
-
-In case of a decorator that targets `methods`, which is a valid declaration?
-```python
-# A
-def deco(method):
-  def wrapper():
-    return method(1) + method(2)
-  return wrapper
-# B
-def deco(method):
-  def wrapper(self):
-    return method(self, 1) + method(self, 2)
-  return wrapper
-# C
-def deco(self):
-  def wrapper(method):
-    return method(self, 1) + method(self, 2)
-  return wrapper
-```
-
-???
-
-* B
-* C
-* A
-* A and C
-* A and B
-* they are all valid
-
-
----
-## Quiz
-
-headline: what is the output of the following snippet?
-
-question: |
-  def foo(a,b,*args,**kwargs):
-    print(a, b, args, kwargs)
-  x = {'ten': 10}
-  foo(1, 2, enki='wow', **x)
-
-answers:
- - "1 2 () {'enki': 'wow', 'ten': 10}"
- - "(1, 2) {'enki': 'wow', 'ten': 10}"
- - "1 2 [] {'enki': 'wow', 'ten': 10}"
- - "1 2 ('enki', 'wow') {'ten': 10}"

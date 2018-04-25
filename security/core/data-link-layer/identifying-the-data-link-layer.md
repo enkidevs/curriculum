@@ -1,4 +1,4 @@
-# Identifying the Data Link Layer
+---
 author: milesflo
 
 levels:
@@ -15,11 +15,14 @@ category: must-know
 
 inAlgoPool: false
 
-parent: securing-the-physical-layer
-
 links:
 
-  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
+  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}'
+
+parent: securing-the-physical-layer
+
+---
+# Identifying the Data Link Layer
 
 ---
 ## Content
@@ -34,6 +37,7 @@ One note-worthy protocol in the Data Link Layer is the Address Resolution Protoc
 What role does the Data Link Layer play in the OSI 7 Layer Model?
 ???
 
+
 * Transmitting data between network nodes
 * Routing and transmission over the physical topography of the Internet
 * Providing computational power via electronic circuits
@@ -45,21 +49,22 @@ What role does the Data Link Layer play in the OSI 7 Layer Model?
 
 Nodes on the Data Link Layer are identified by their ???
 
+
 * MAC address
 * serial number
 * UUID
 * LAN number
 
 ---
-## Quiz
+## Quiz 
+### What role does this Layer play in the OSI 7 Layer Model?
+```
+What role does the Data Link Layer play in the OSI 7 Layer Model?
+```
 
-headline: What role does this Layer play in the OSI 7 Layer Model?
+ ???
 
-question: |
-  What role does the Data Link Layer play in the OSI 7 Layer Model?
-
-answers:
-  - Transmitting data between network nodes
-  - Routing and transmission over the physical topography of the Internet
-  - Providing computational power via electronic circuits
-  - Packaging data packets into data streams and vice versa for transport
+* Transmitting data between network nodes
+* Routing and transmission over the physical topography of the Internet
+* Providing computational power via electronic circuits
+* Packaging data packets into data streams and vice versa for transport

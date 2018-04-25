@@ -1,4 +1,4 @@
-# `while` loops
+---
 author: tommarshall
 
 levels:
@@ -7,9 +7,18 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+standards:
+  py.control-structures.3: 10
+  py.identify-python-syntax.0: 10
+
+
+---
+
+# `while` loops
 
 ---
 ## Content
@@ -29,7 +38,7 @@ For example:
 
 ```python
 counter = 0
-while (counter < 5):
+while counter < 5:
     print(counter)
     counter = counter + 1
 ```
@@ -44,19 +53,37 @@ Gives the following output:
 ```
 
 ---
+## Practice
+
+Print the  all numbers in 0..10 _inclusive_:
+```python
+x = 0
+while x < ???:
+  ???
+  ???
+```
+
+* 11
+* print(x)
+* x += 1
+* x++
+* ++x
+
+---
 ## Revision
 
 What’s the output of the following code snippet:
 
 ```python
 x = 0
-while (x < 5):
+while x < 5:
      x = x + 1
      print(x)
 ```
 ???
 
-*`1 2 3 4 5`
-*`0 1 2 3 4`
-*`1 2 3 4`
-*`0 1 2 3 4 5`
+
+* `1 2 3 4 5`
+* `0 1 2 3 4`
+* `1 2 3 4`
+* `0 1 2 3 4 5`

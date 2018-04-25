@@ -1,4 +1,4 @@
-# Securing the Transport Layer
+---
 author: milesflo
 
 levels:
@@ -17,9 +17,12 @@ inAlgoPool: false
 
 links:
 
-  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
+  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}'
+  - '[Common Ports Cheatsheet](http://packetlife.net/media/library/23/common_ports.pdf){website}'
 
-  - '[Common Ports Cheatsheet](http://packetlife.net/media/library/23/common_ports.pdf)'
+---
+
+# Securing the Transport Layer
 
 ---
 ## Content
@@ -32,6 +35,7 @@ Vulnerabilities in the Transport Layer are usually brought about by misuse of po
 What is one control in the Transport Layer of the OSI Model?
 ???
 
+
 * Strict use of ports as they are designed
 * Use of a physical firewall
 * Using managed switches prevent topographical loops
@@ -43,6 +47,7 @@ What is one control in the Transport Layer of the OSI Model?
 
 In order to have the most control over how traffic flows to a hosted web server, the service should be hosted on port ??? (with secure connections on port ???).
 
+
 * 80
 * 443
 * 22
@@ -50,15 +55,15 @@ In order to have the most control over how traffic flows to a hosted web server,
 * 25
 
 ---
-## Quiz
+## Quiz 
+### What is one control for this OSI model Layer?
+```
+What is one control in the Transport Layer of the OSI Model?
+```
 
-headline: What is one control for this OSI model Layer?
+ ???
 
-question: |
-  What is one control in the Transport Layer of the OSI Model?
-
-answers:
-  - Strict use of ports as they are designed
-  - Use of a physical firewall
-  - Using managed switches prevent topographical loops
-  - Locks and secure enclosures
+* Strict use of ports as they are designed
+* Use of a physical firewall
+* Using managed switches prevent topographical loops
+* Locks and secure enclosures

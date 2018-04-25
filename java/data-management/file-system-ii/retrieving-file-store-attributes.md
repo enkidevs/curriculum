@@ -1,4 +1,4 @@
-# Retrieving file store attributes
+---
 author: adamMontgomerie
 
 levels:
@@ -21,10 +21,15 @@ tags:
 
   - filestore
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/fileAttr.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/fileAttr.html){website}'
+
+
+---
+
+# Retrieving file store attributes
 
 ---
 ## Content
@@ -50,8 +55,10 @@ The returned values  stored in `total`, `used` and `available` are measured in b
 Which class has a method that returns the `FileStore` of a file (`getFileStore(path)`)?
 
 ???
-*Files
-*File
-*FileStore
-*Storage
-*FileMetaData
+
+* Files
+* File
+* FileStore
+* Storage
+* FileMetaData
+

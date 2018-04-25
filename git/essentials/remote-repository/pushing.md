@@ -1,4 +1,4 @@
-# Pushing
+---
 author: catalin
 
 levels:
@@ -7,14 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [git-scm.com](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes#Pushing-to-Your-Remotes){website}
+  - '[git-scm.com](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes#Pushing-to-Your-Remotes){website}'
+
+
+---
+
+# Pushing
 
 ---
 ## Content
@@ -53,13 +58,14 @@ What flag is used to set the upstream tracking branch on your current branch?
 $ git push ??? origin feature
 ```
 
-*`--set-upstream`
-*`-set-upstream`
-*`-a`
-*`-m`
-*`-up`
-*`-upstream`
-*`-up-branch`
+
+* `--set-upstream`
+* `-set-upstream`
+* `-a`
+* `-m`
+* `-up`
+* `-upstream`
+* `-up-branch`
 
 ---
 ## Revision
@@ -68,11 +74,13 @@ Complete the basic syntax for pushing in git:
 ```
 $ git ??? ??? ???
 ```
-*`push`
-*`[remote-name]`
-*`[branch-name]`
-*`[local-repository]`
-*`--set-upstream`
-*`origin`
-*`master`
-*`pull`
+
+* `push`
+* `[remote-name]`
+* `[branch-name]`
+* `[local-repository]`
+* `--set-upstream`
+* `origin`
+* `master`
+* `pull`
+

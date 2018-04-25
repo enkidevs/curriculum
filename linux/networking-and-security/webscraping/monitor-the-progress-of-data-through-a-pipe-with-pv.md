@@ -1,4 +1,4 @@
-# Monitor the progress of data through a pipe with `pv`
+---
 author: tuwi.dc
 
 levels:
@@ -31,6 +31,13 @@ tags:
 
   - bash
 
+
+
+
+---
+
+# Monitor the progress of data through a pipe with `pv`
+
 ---
 ## Content
 
@@ -57,6 +64,8 @@ The progress and speed of copying a file can be measured using the
 
 ??? command .
 
-*`pv`
-*`cp`
-*`ls`
+
+* `pv`
+* `cp`
+* `ls`
+

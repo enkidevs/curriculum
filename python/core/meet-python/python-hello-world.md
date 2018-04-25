@@ -1,4 +1,4 @@
-# Hello World!
+---
 author: tommarshall
 
 levels:
@@ -7,9 +7,18 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+standards:
+  py.identify-python-syntax.1: 10
+
+
+---
+
+# Hello World!
 
 ---
 ## Content
@@ -20,6 +29,12 @@ To do this, in our Python interpreter (REPL), we can use Python's print method a
 
 ```python
 >>> print('Hello World!')
+```
+
+Note that `print` as a method whom you pass arguments to is specific syntax to Python 3.x. In Python 2.x `print` is a statement and it can be used as follows:
+
+```python
+>>> print 'Hello World!'
 ```
 
 This produces the following output:
@@ -36,7 +51,8 @@ Complete the code snippet:
 ```
 ???('Python with Enki!')
 ```
-*`print`
-*`write`
-*`sys.out`
-*`writeln`
+
+* `print`
+* `write`
+* `sys.out`
+* `writeln`

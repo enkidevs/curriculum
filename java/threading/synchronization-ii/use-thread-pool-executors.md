@@ -1,4 +1,4 @@
-# Use thread pool executors
+---
 author: adamMontgomerie
 
 levels:
@@ -19,13 +19,16 @@ tags:
 
   - server-side
 
+
 links:
 
-  - >-
-    [javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2015/05/top-10-java-multithreading-and.html){website}
+  - '[javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2015/05/top-10-java-multithreading-and.html){website}'
+  - '[javarevisited.blogspot.sg](http://javarevisited.blogspot.sg/2013/07/how-to-create-thread-pools-in-java-executors-framework-example-tutorial.html){website}'
 
-  - >-
-    [javarevisited.blogspot.sg](http://javarevisited.blogspot.sg/2013/07/how-to-create-thread-pools-in-java-executors-framework-example-tutorial.html){website}
+
+---
+
+# Use thread pool executors
 
 ---
 ## Content
@@ -65,6 +68,8 @@ To avoid creating threads which can be expensive, what framework can be used to 
 
 ???
 
-*Java Executor Framework
-*Java Thread Manager Framework
-*Java Process Framework
+
+* Java Executor Framework
+* Java Thread Manager Framework
+* Java Process Framework
+

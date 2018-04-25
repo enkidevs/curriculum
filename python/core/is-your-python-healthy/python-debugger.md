@@ -1,4 +1,4 @@
-# Python Debugger
+---
 author: SebaRaba
 
 levels:
@@ -11,14 +11,23 @@ type: normal
 
 category: must-know
 
+standards:
+  py.native-types-operations.10: 10
+  py.identify-python-syntax.2: 10
+
 links:
 
-  - '[Python debugger](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger)'
+  - '[Python debugger](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger){website}'
+
+
+---
+
+# Python Debugger
 
 ---
 ## Content
 
-The **Python debugger** comes as a module called `pdb`, which is part of the **standard Python** distribution. 
+The **Python debugger** comes as a module called `pdb`, which is part of the **standard Python** distribution.
 
 We will consider a program with two **global variables**, a function that creates a **nested loop** and the `if _name_ == '_main_'` statement that calls the nested loop:
 ```python
@@ -59,7 +68,7 @@ As the **debugger** is an interactive tool, it provides three commands for navig
 - `next`
 
 Considering the **source code** exemplified above, lets see how `list()` command works:
-```py
+```python
 (Pdb) list
 1  -> num_list = [1, 2]
 2     chars = ['a', 'b']
@@ -78,7 +87,7 @@ The current line is indicated by the `->` character. This command is provided wi
 
 The `step` command will **iterate** through the loops showing exactly what the **loop** is doing. The difference between `step` and `next` is that `step` will stop within a called function, while `next` executes called functions to only stop at the next line of the current function.
 
-```sh
+```shell
 (Pdb) step
 > /Users/seba/debug.py(5)<module>()
 -> def nested_loop():
@@ -98,7 +107,7 @@ The `step` command will **iterate** through the loops showing exactly what the *
 
 On the other hand, `next` command executes the next **statement**, without showing everything that happened to evaluate the call.
 
-```sh
+```shell
 (Pdb) next
 > /Users/seba/debug.py(5)<module>()
 -> def nested_loop():
@@ -136,6 +145,7 @@ def interaction()
 ```
 ???
 
+
 * SyntaxError: invalid syntax
 * ZeroDivisionError: division by 0
 * The code will run with no errors
@@ -147,6 +157,7 @@ def interaction()
 When debugging a python file with `pdb`, which command will show the step-by-step process?
 
 ???
+
 
 * `step`
 * `next`

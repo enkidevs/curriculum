@@ -1,10 +1,8 @@
-# Abbreviate commands in npm
+---
 author: catalin
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal
@@ -13,7 +11,14 @@ category: feature
 
 parent: check-data-about-a-package
 
+standards:
+  js.npm-tasks-and-modules-manager.3: 10
 
+tags:
+  - obscura
+
+---
+# Abbreviate commands in npm
 
 ---
 ## Content
@@ -49,11 +54,11 @@ What's the equivalent abbreviated command of `npm link`?
 
 ???
 
-*`npm ln`
-*`npm lk`
-*`npm l`
-*`npm k`
-*`npm n`
+* npm ln
+* npm lk
+* npm l
+* npm k
+* npm n
 
 ---
 ## Revision
@@ -62,8 +67,8 @@ What's the equivalent abbreviated command of `npm link`?
 
 ???
 
-*`npm ln`
-*`npm lk`
-*`npm l`
-*`npm k`
-*`npm n`
+* npm ln
+* npm lk
+* npm l
+* npm k
+* npm n

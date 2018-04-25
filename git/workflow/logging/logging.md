@@ -1,4 +1,4 @@
-# Logging
+---
 author: catalin
 
 levels:
@@ -8,6 +8,13 @@ levels:
 type: normal
 
 category: how to
+
+
+
+
+---
+
+# Logging
 
 ---
 ## Content
@@ -62,16 +69,17 @@ Log 5 commits:
 ```
 $ git ??? ??? ???
 ```
-*`log`
-*`-n`
-*`5`
-*`--stat`
-*`--show`
-*`--commits`
-*`all`
-*`just`
-*`show`
-*`status`
+
+* `log`
+* `-n`
+* `5`
+* `--stat`
+* `--show`
+* `--commits`
+* `all`
+* `just`
+* `show`
+* `status`
 
 ---
 ## Revision
@@ -82,8 +90,10 @@ What flag of `git log` would you use to show commits on one line?
 $ git log ???
 ```
 
-*`--oneline`
-*`one`
-*`-o`
-*`--pretty`
-*`-n`
+
+* `--oneline`
+* `one`
+* `-o`
+* `--pretty`
+* `-n`
+

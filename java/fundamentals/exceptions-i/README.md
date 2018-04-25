@@ -1,12 +1,6 @@
 name: Exceptions I
 
-type: insights-list
-
 description: How to handle errors through exceptions.
-
-section: 1
-
-parent: class-dependency-ii
 
 insights:
   - catch-multiple-exceptions-in-a-single-catch-block

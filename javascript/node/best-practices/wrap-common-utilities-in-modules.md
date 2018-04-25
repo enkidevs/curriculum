@@ -1,4 +1,4 @@
-# Wrap Common Utilities in NPM Packages
+---
 author: mihaiberq
 
 levels:
@@ -13,8 +13,15 @@ category: how to
 tags:
   - introduction
 
+standards:
+  js.npm-publish.0: 10
+  js.identify-common-design-patterns.6: 10
+
 links:
-  - '[Use NPM to distribute your code](https://github.com/i0natan/nodebestpractices/blob/master/sections/projectstructre/wraputilities.md)'
+  - '[Use NPM to distribute your code](https://github.com/i0natan/nodebestpractices/blob/master/sections/projectstructre/wraputilities.md){website}'
+
+---
+# Wrap Common Utilities in NPM Packages
 
 ---
 ## Content
@@ -34,6 +41,7 @@ You can easily share common code between repositories by using
 
 ???
 
+
 * npm
 * USB stick
 * Dropbox
@@ -46,6 +54,7 @@ In other words, breaking up mixed code into self-contained components means
 
 ???
 
+
 * modularizing it
 * fixing bugs
 * encapsulating it
@@ -54,12 +63,13 @@ In other words, breaking up mixed code into self-contained components means
 ---
 ## Quiz
 
-headline: what is it that you usually use NPM for?
+### What is it that you usually use NPM for?
 
-question: What is usually shared on NPM network?
+What is usually shared on NPM?
 
-answers:
-  - Bundled code
-  - Cat pictures
-  - Bug reports
-  - Database keys
+???
+
+* Bundled code
+* Cat pictures
+* Bug reports
+* Database keys

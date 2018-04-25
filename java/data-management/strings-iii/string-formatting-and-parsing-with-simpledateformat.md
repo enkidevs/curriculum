@@ -1,4 +1,4 @@
-# String formatting and parsing with `SimpleDateFormat`
+---
 author: catalin
 
 levels:
@@ -11,11 +11,16 @@ type: normal
 
 category: how to
 
-notes: 'https://insights.enki.com/insight/5597e786d07c503200b46e1e'
 
 links:
 
   - '[5597e786d07c503200b46e1e](5597e786d07c503200b46e1e){website}'
+
+notes: 'https://insights.enki.com/insight/5597e786d07c503200b46e1e'
+
+---
+
+# String formatting and parsing with `SimpleDateFormat`
 
 ---
 ## Content
@@ -62,12 +67,13 @@ Date date = new
 .???(dateString);
 ```
 
-*`SimpleDateFormat` 
-*`parse` 
-*`Date` 
-*`NewDate` 
-*`format` 
-*`DateFormat`
+
+* `SimpleDateFormat` 
+* `parse` 
+* `Date` 
+* `NewDate` 
+* `format` 
+* `DateFormat`
 
 ---
 ## Revision
@@ -82,9 +88,11 @@ String convert =
      .???(date);
 ``` 
 
-*`getInstance` 
-*`format` 
-*`getDate` 
-*`getDay` 
-*`parse` 
-*`thread`
+
+* `getInstance` 
+* `format` 
+* `getDate` 
+* `getDay` 
+* `parse` 
+* `thread`
+

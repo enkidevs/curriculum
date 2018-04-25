@@ -1,30 +1,32 @@
-# Chaining Promises
+---
 author: alexjmackey
 
 levels:
-
   - medium
-
   - advanced
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 links:
+  - '[MDN - Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
+
+---
+# Chaining Promises
 
   - '[MDN - Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
 
 ---
 ## Content
 
-Promises advantages really become apparent when you start working with more complex flows and multiple promises. 
+Promises advantages really become apparent when you start working with more complex flows and multiple promises.
 
 We can chain promises together using the **then** function:
 
-```
+```javascript
 var p =
 new Promise(function(resolve, reject){
   setTimeout(function(){resolve("enki")},
@@ -44,3 +46,55 @@ new Promise(function(resolve, reject){
 //then 2
 //finished
 ```
+
+---
+## Practice
+
+Fill in the following promise definition such that the logs stand true:
+
+```javascript
+const p = new ???(
+  (resolve, reject) => {
+    ???('enki')
+  })
+  .???(res => console.log(res))
+  .then(res => console.log('says'))
+  .???(err => console.log('hey'))
+  .??? => console.log('hello'))
+// enki
+// says
+// hello
+```
+
+* Promise
+* resolve
+* then
+* catch
+* then (res
+* then()
+* catch()
+* next
+* next(
+* finally
+* res
+* reject
+
+---
+## Revision
+
+Will the two `console.log` statements output the same number, or different numbers?
+
+```javascript
+const p = new Promise(resolve => {
+  resolve(Math.random())
+})
+
+// do these 2 log different or same value?
+p.then(console.log)
+p.then(console.log)
+```
+
+???
+
+* Same
+* Different

@@ -1,4 +1,4 @@
-# Using timers with extra arguments
+---
 author: WebReflection
 
 levels:
@@ -13,11 +13,27 @@ type: normal
 
 category: must-know
 
+standards:
+
+  js.async.0: 10
+
+tags:
+
+  - introduction
+
+  - workout
+
+  - deep
+
+
 links:
 
-  - >-
-    [W3C HTML5
-    Timers](https://dev.w3.org/html5/spec-LC/timers.html#timers){documentation}
+  - '[W3C HTML5 Timers](https://dev.w3.org/html5/spec-LC/timers.html#timers){documentation}'
+
+
+---
+
+# Using timers with extra arguments
 
 ---
 ## Content
@@ -33,7 +49,7 @@ const uid = setTimeout(
 );
 ```
 These methods allow authors to schedule timer-based callbacks.
-```js
+```javascript
 function chrono(start) {
   // same start value is passed each time
   // the scheduled interval runs
@@ -61,6 +77,7 @@ if (confirm('cancel shutdown?')) {
   ???
 }
 ```
+
 * `clearTimeout(task)`
 * `task = null;`
 * `delete task;`
@@ -81,7 +98,9 @@ let t = setInterval(
   10    // b
 );
 ```
+
 * `always 11`
 * `10 then 11 then 12`
 * `NaN`
 * `11 then 12 then 13`
+

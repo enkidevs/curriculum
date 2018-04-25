@@ -1,4 +1,4 @@
-# Identifying the Network Layer
+---
 author: milesflo
 
 levels:
@@ -15,12 +15,15 @@ category: must-know
 
 inAlgoPool: false
 
-parent: securing-the-data-link-layer
-
 links:
 
-  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
+  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}'
 
+parent: securing-the-data-link-layer
+
+---
+
+# Identifying the Network Layer
 
 ---
 ## Content
@@ -33,6 +36,7 @@ The Network Layer (Layer 3) is the physical infrastructure that allows the trans
 What role does the Network Layer play in the OSI 7 Layer Model?
 ???
 
+
 * Routing and transmission over the physical topography of the Internet
 * Providing computational power via electronic circuits
 * Transmitting data between two directly connected mediums
@@ -44,21 +48,22 @@ What role does the Network Layer play in the OSI 7 Layer Model?
 
 One part of the Network Layer is ???, responsible for identifying stations both locally and externally with IP addresses.
 
+
 * routing tables
 * next-hops
 * routers
 * ethernet cables
 
 ---
-## Quiz
+## Quiz 
+### What role does this Layer play in the OSI 7 Layer Model?
+```
+What role does the Network Layer play in the OSI 7 Layer Model?
+```
 
-headline: What role does this Layer play in the OSI 7 Layer Model?
+ ???
 
-question: |
-  What role does the Network Layer play in the OSI 7 Layer Model?
-
-answers:
-  - Routing and transmission over the physical topography of the Internet
-  - Providing computational power via electronic circuits
-  - Transmitting data between two directly connected mediums
-  - Packaging data packets into data streams and vice versa for transport
+* Routing and transmission over the physical topography of the Internet
+* Providing computational power via electronic circuits
+* Transmitting data between two directly connected mediums
+* Packaging data packets into data streams and vice versa for transport

@@ -1,4 +1,4 @@
-# Create Indices
+---
 author: SebaRaba
 
 levels:
@@ -15,21 +15,32 @@ type: normal
 
 category: must-know
 
-parent: add-rule
-
 inAlgoPool: false
 
+standards:
+  sql.define-indices.0: 10
+  sql.define-indices.2: 10
+
 tags:
+
   - workout
+
   - deep
+
 
 links:
 
-  - '[PostgreSQL Create Index](https://www.postgresql.org/docs/9.1/static/sql-createindex.html)'
-  - '[MySQL Create Index](https://dev.mysql.com/doc/refman/5.7/en/create-index.html)'
-  - '[MSSQL Create Index](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-index-transact-sql)'
-  - '[OracleDB Create Index](https://docs.oracle.com/cd/B28359_01/server.111/b28310/indexes003.htm#ADMIN11722)'
-  - '[Create Index W3Schools](https://www.w3schools.com/sql/sql_create_index.asp)'
+  - '[PostgreSQL Create Index](https://www.postgresql.org/docs/9.1/static/sql-createindex.html){documentation}'
+  - '[MySQL Create Index](https://dev.mysql.com/doc/refman/5.7/en/create-index.html){website}'
+  - '[MSSQL Create Index](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-index-transact-sql){website}'
+  - '[OracleDB Create Index](https://docs.oracle.com/cd/B28359_01/server.111/b28310/indexes003.htm#ADMIN11722){website}'
+  - '[Create Index W3Schools](https://www.w3schools.com/sql/sql_create_index.asp){website}'
+
+parent: add-rule
+
+---
+
+# Create Indices
 
 ---
 ## Content
@@ -55,7 +66,7 @@ If we want to create a **clustered** index:
 CREATE UNIQUE INDEX index_name
 ON table_name (col1 DESC, col2 ASC, ...)
 ```
-This would create an index on the specified table and columns. The main difference between **non-clustered** and **clustered** indices is that for the latter we need to specify the order in which we wand the entries to be ordered.
+This would create an index on the specified table and columns. The main difference between **non-clustered** and **clustered** indices is that for the latter we need to specify the order in which we want the entries to be ordered.
 
 ---
 ## Practice
@@ -77,12 +88,12 @@ ON region (???, name);
 
 ```
 
+
 * CREATE
 * INDEX
 * region_id
 * UNIQUE
 * region
-
 
 ---
 ## Revision
@@ -107,41 +118,37 @@ id | version_group_id |      name
     ???
 ```
 
+
 * CREATE UNIQUE INDEX "u_index" ON version (version_group_id ASC);
 * CREATE UNIQUE INDEX "u_index" ON version (version ASC);
 * CREATE INDEX "u_index" ON version (version_group_id ASC);
+
+---
+## Quiz 
+### What statement gets columns and rows from tables?
+
+Given a table called `ability` from our pokemon database:
+
+```bash
+id   | is_main_series | generation_id |      name      
+=====|================|===============|===============
+   1 | t              |             3 | stench
+   2 | f              |             3 | drizzle
+   3 | t              |             3 | speed-boost
+   4 | t              |             3 | battle-armor
+(...)
+```
+
+It doesn't have a `PRIMARY KEY` set so far. Create an index to define `ability`'s primary key.
+
+ ???
+
+* CREATE UNIQUE INDEX ability_pk ON ability(id ASC).
+* CREATE INDEX ability_pk ON ability(id ASC).
+* CREATE UNIQUE INDEX ability_pk ON ability(ability_id ASC).
+* CREATE INDEX ability_pk ON ability(name ASC).
+
 ---
 ## Footnotes
-
 [1:Indices]
 Reasonable people differ when they refer to the plural of Index. Some people use Indices, some use Indexes.
-
----
-## Quiz
-
-headline: What statement gets columns and rows from tables?
-
-question: |
-
-  Given a table called `ability` from our pokemon database:
-
-  id   | is_main_series | generation_id |      name      
-  -----|----------------|---------------|---------------
-     1 | t              |             3 | stench
-     2 | f              |             3 | drizzle
-     3 | t              |             3 | speed-boost
-     4 | t              |             3 | battle-armor
-  (...)
-
-
-  It doesn't have a `PRIMARY KEY` set so far. Create an index to define `ability`'s primary key.
-
-answers:
-  - CREATE UNIQUE INDEX ability_pk
-    ON ability(id ASC).
-  - CREATE INDEX ability_pk
-    ON ability(id ASC).
-  - CREATE UNIQUE INDEX ability_pk
-    ON ability(ability_id ASC).
-  - CREATE INDEX ability_pk
-    ON ability(name ASC).

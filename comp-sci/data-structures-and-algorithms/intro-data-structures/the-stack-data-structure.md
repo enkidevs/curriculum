@@ -1,4 +1,4 @@
-# The Stack Data Structure
+---
 author: mihaiberq
 
 levels:
@@ -9,11 +9,17 @@ type: normal
 
 category: must-know
 
+
 links:
-    - >-
-        [Stacks and Queues](https://en.wikibooks.org/wiki/Data_Structures/Stacks_and_Queues){website}
+
+  - '[Stacks and Queues](https://en.wikibooks.org/wiki/Data_Structures/Stacks_and_Queues){website}'
 
 parent: the-linked-list-data-structure
+
+---
+
+# The Stack Data Structure
+
 ---
 ## Content
 
@@ -51,6 +57,7 @@ These are the available stack implementations in different programming languages
 What is the working principle behind a stack?
 
 ???
+
 * Last-in, first-out
 * First-in, first-out
 * Last-in, last-out
@@ -62,8 +69,10 @@ Which of the following methods can be called on a `stack`?
 
 ???
 
+
 * `push(e)`
 * `dequeue()`
 * `first()`
 * `none`
 * `all`
+

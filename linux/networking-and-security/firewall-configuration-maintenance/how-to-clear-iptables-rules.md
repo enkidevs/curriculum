@@ -1,4 +1,4 @@
-# How to clear `iptables` rules
+---
 author: tuwi.dc
 
 levels:
@@ -27,7 +27,13 @@ tags:
 
   - allow
 
+
+
 notes: ''
+
+---
+
+# How to clear `iptables` rules
 
 ---
 ## Content
@@ -67,7 +73,9 @@ In practice, you might not want to wipe the state clean since it will leave your
 ## Revision
 
 On a Debian system, to stop the firewall you have to ??? the rules.
-*clear
-*stop
-*target
-*add
+
+* clear
+* stop
+* target
+* add
+

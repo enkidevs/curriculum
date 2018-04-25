@@ -1,4 +1,4 @@
-# **SELinux**  modes
+---
 author: catalin
 
 levels:
@@ -10,6 +10,10 @@ levels:
 type: normal
 
 category: feature
+
+---
+
+# **SELinux**  modes
 
 ---
 ## Content
@@ -24,16 +28,18 @@ This compulsory access mechanism provides three basic modes that dictate how it 
 - `disabled`
 
 Check the current status of **SELinux**:
-```
+
+```bash
 $ sestatus
 
 $ getenforce
 
 $ system-config-selinux
 ```
+
 If it is `disabled` you can easily turn it on as it is recommended:
 
-```
+```bash
 $ setenforce enforcing
 ```
 
@@ -44,6 +50,7 @@ How do you change **SELinux** settings to only *warn* and *log* :
 ```
 $ ??? ???
 ```
+
 
 * `setenforce`
 * `permissive`
@@ -56,9 +63,11 @@ $ ??? ???
 ---
 ## Revision
 
-_SELinux_ is a ???.
+_SELinux_ is a
 
-*kernel security module
-*terminal browser
-*Linux distribution
-*hacker group
+???
+
+* kernel security module
+* terminal browser
+* Linux distribution
+* hacker group

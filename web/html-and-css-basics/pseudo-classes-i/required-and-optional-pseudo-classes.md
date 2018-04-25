@@ -1,4 +1,4 @@
-# `:required` and `:optional` pseudo classes
+---
 author: catalin
 
 levels:
@@ -11,12 +11,17 @@ category: must-know
 
 tags:
 
-  - ''
+  - 
+
 
 links:
 
-  - >-
-    [css-tricks.com](https://css-tricks.com/almanac/selectors/r/required/){website}
+  - '[css-tricks.com](https://css-tricks.com/almanac/selectors/r/required/){website}'
+
+
+---
+
+# `:required` and `:optional` pseudo classes
 
 ---
 ## Content
@@ -73,8 +78,10 @@ What does the following CSS code do? ???
    border: 2px dotted blue;
 }
 ```
+
 * Sets the border of compulsory fields solid and black. Sets the border of optional fields dotted and blue.
 * Sets the border of compulsory fields dotted and blue. Sets the border of optional fields solid and black.
 * Returns an error.
 * Makes the border of all fields solid and black.
 * Makes the border of all fields dotted and blue.
+

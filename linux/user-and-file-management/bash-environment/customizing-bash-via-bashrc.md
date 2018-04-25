@@ -1,4 +1,4 @@
-# Customizing `bash` via `.bashrc`
+---
 author: jfarmer
 
 levels:
@@ -9,20 +9,25 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
-parent: what-is-a-shell
+inAlgoPool: false
+
+tags:
+
+  - introduction
+
 
 links:
 
-  - >-
-    [.bashrc vs.
-    .bash_profile](http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html){website}
+  - '[.bashrc vs. .bash_profile](http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html){website}'
 
-tags:
-  - introduction
+parent: what-is-a-shell
+
+---
+
+# Customizing `bash` via `.bashrc`
+
 ---
 ## Content
 
@@ -51,7 +56,9 @@ If you bookmark this insight, you'll get an email with a link to a "bashrc vs ba
 ## Revision
 
 Two common files that are used for bash customization are `.bash_profile` and ???.
-*.bashrc
-*.bash
-*.bashst
-*.bash_settings
+
+* .bashrc
+* .bash
+* .bashst
+* .bash_settings
+

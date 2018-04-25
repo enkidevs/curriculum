@@ -1,4 +1,4 @@
-# Divisions and Spans
+---
 author: mihaiberq
 
 levels:
@@ -7,9 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# Divisions and Spans
 
 ---
 ## Content
@@ -46,6 +53,8 @@ Knowing this, you are now one step closer to writing CSS: by giving `<div>`s and
 
 span`s are seen as ??? elements.
 
+
 * stylistic
 * structural
 * not
+

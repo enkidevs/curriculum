@@ -1,12 +1,6 @@
 name: Work Smart  
 
-type: insights-list
-
 description: Tips and tricks!
-
-section: 1
-
-parent: logging
 
 insights:
   - you-can-use-git-offline

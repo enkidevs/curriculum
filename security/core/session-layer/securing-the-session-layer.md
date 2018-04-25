@@ -1,4 +1,4 @@
-# Securing the Session Layer
+---
 author: milesflo
 
 levels:
@@ -17,7 +17,12 @@ inAlgoPool: false
 
 links:
 
-  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309)'
+  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}'
+
+
+---
+
+# Securing the Session Layer
 
 ---
 ## Content
@@ -32,6 +37,7 @@ One method employed by hackers to gain a target's login credentials is the **bru
 What is one control in the Session Layer of the OSI Model?
 ???
 
+
 * Using a strong, unique password
 * Strict use of ports as they are designed
 * Use of a physical firewall
@@ -43,21 +49,23 @@ What is one control in the Session Layer of the OSI Model?
 
 Hackers may use a botnet to guess passwords via ???.
 
+
 * brute-force
 * guessing
 * machine learning
 * social engineering
 
 ---
-## Quiz
+## Quiz 
+### What is one control for this OSI model Layer?
+```
+What is one control in the Session Layer of the OSI Model?
+```
 
-headline: What is one control for this OSI model Layer?
+ ???
 
-question: |
-  What is one control in the Session Layer of the OSI Model?
+* Using a strong, unique password
+* Strict use of ports as they are designed
+* Use of a physical firewall
+* Using managed switches prevent topographical loops
 
-answers:
-  - Using a strong, unique password
-  - Strict use of ports as they are designed
-  - Use of a physical firewall
-  - Using managed switches prevent topographical loops

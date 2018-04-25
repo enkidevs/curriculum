@@ -1,4 +1,4 @@
-# Filtering items out of an array
+---
 author: Dral
 
 levels:
@@ -13,9 +13,28 @@ type: normal
 
 category: best practice
 
+standards:
+  js.data-types-structures.2: 10
+  js.data-types-structures.3: 10
+  js.data-types-structures.6: 10
+  js.functions.4: 10
+
 tags:
 
-  - functional-programming arrays
+  - introduction
+
+  - workout
+
+  - functional-programming
+
+  - arrays
+
+
+
+
+---
+
+# Filtering items out of an array
 
 ---
 ## Content
@@ -47,7 +66,7 @@ let activated = persons.filter(
 // => [2,4]
 
 
-  
+
 ```
 
 ---
@@ -61,16 +80,18 @@ var numbers = [0,1,2,3,4,5,6,7];
 var div3 = numbers.???( num =>
   num%3 ???);
 ```
-*filter
-*== 0
-*!= 0
-*get
+
+* filter
+* == 0
+* != 0
+* get
 
 ---
 ## Revision
 
 `.filter`  can be used instead of ??? .
 
-*for and if
-*if
-*for and alert
+
+* for and if
+* if
+* for and alert

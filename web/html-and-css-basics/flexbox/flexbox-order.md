@@ -1,4 +1,4 @@
-# Flexbox `order`
+---
 author: Billiexu
 
 levels:
@@ -13,10 +13,15 @@ tags:
 
   - flexbox
 
+
 links:
 
-  - >-
-    [css-tricks.com](https://css-tricks.com/almanac/properties/o/order/){website}
+  - '[css-tricks.com](https://css-tricks.com/almanac/properties/o/order/){website}'
+
+
+---
+
+# Flexbox `order`
 
 ---
 ## Content
@@ -60,11 +65,12 @@ If `order` accepts negative values,  for the same 5 list items, with the followi
 .flex-item:nth-of-type(5) {order: 2;}
 ```
 ???
-*Box 2
-*Box 1
-*Box 3
-*Box 4
-*Box 5
+
+* Box 2
+* Box 1
+* Box 3
+* Box 4
+* Box 5
 
 ---
 ## Revision
@@ -79,9 +85,11 @@ Take 6 boxes originally ordered 1, 2, 3, 4, 5 and 6. What order are the boxes af
 .flex-item:nth-of-type(6) { order: 1; )
 ```
 ???
+
 * 6, 1, 4, 2, 5, 3
 * 6, 1, 2, 4, 5, 3
 * 6, 2, 1, 4, 5, 3
 * 6, 1, 4, 5, 2, 3
 * 6, 1, 4, 2, 3, 5
 * 6, 1, 4, 2, 5, 0
+

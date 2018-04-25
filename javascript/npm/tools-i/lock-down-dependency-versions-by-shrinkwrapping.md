@@ -1,23 +1,32 @@
-# Lock down dependency versions by shrinkwrapping
+---
 author: catalin
 
 levels:
-
   - advanced
-
   - medium
 
 type: normal
 
 category: feature
 
-parent: check-data-about-a-package
+standards:
+  js.use-open-source-javascript-packages.1: 10
+  js.npm-publish.2: 10
+  js.npm-tasks-and-modules-manager.0: 10
+
+tags:
+  - workout
+  - deep
+  - new
 
 links:
 
-  - >-
-    [nodejs.org](https://nodejs.org/en/blog/npm/managing-node-js-dependencies-with-shrinkwrap/){website}
+  - '[nodejs.org](https://nodejs.org/en/blog/npm/managing-node-js-dependencies-with-shrinkwrap/){website}'
 
+parent: check-data-about-a-package
+
+---
+# Lock down dependency versions by shrinkwrapping
 
 ---
 ## Content
@@ -50,12 +59,12 @@ What command do you need to run as to generate a snapshot of the current depende
 $ ??? ???
 ```
 
-* `npm`
-* `shrinkwrap`
-* `lock`
-* `dependencies`
-* `package.json`
-* `npm-shrinkwrap`
+* npm
+* shrinkwrap
+* lock
+* dependencies
+* package.json
+* npm-shrinkwrap
 
 ---
 ## Revision
@@ -66,9 +75,9 @@ What command do you need to run as to generate a snapshot of the current depende
 $ ??? ???
 ```
 
-* `npm`
-* `shrinkwrap`
-* `lock`
-* `dependencies`
-* `package.json`
-* `npm-shrinkwrap`
+* npm
+* shrinkwrap
+* lock
+* dependencies
+* package.json
+* npm-shrinkwrap

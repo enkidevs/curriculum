@@ -1,4 +1,4 @@
-# The Loopback Network Interface `lo`
+---
 author: jfarmer
 
 levels:
@@ -9,16 +9,23 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# The Loopback Network Interface `lo`
 
 ---
 ## Content
 
 If you run the `ifconfig` command you'll see an interface designated `lo` that doesn't appear to correspond to any physical device:
 
-```console
+```shell
 $ ifconfig
 lo        
 Link encap:Local Loopback  
@@ -47,10 +54,11 @@ The loopback interface is used for debugging and running machine-internal networ
 You can access the loopback interface by going to 
 
 ???.
-*`http://127.0.0.1`
-*`http://loopback`
-*`http://localarea`
-*`http://l.p`
+
+* `http://127.0.0.1`
+* `http://loopback`
+* `http://localarea`
+* `http://l.p`
 
 ---
 ## Revision
@@ -58,7 +66,9 @@ You can access the loopback interface by going to
 Loopback interface always refers to the 
 
 ???.
-*machine itself
-*ISP address
-*router’s address
-*destination’s address
+
+* machine itself
+* ISP address
+* router’s address
+* destination’s address
+

@@ -1,18 +1,22 @@
-# The fundamental `tuple`
+---
 author: catalin
 
 levels:
-
   - basic
 
 type: normal
 
 category: must-know
 
+standards:
+  py.native-types-operations.4: 10
+
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#tuples-and-sequences){website}
+  - '[docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#tuples-and-sequences){website}'
+
+---
+# The fundamental `tuple`
 
 ---
 ## Content
@@ -85,6 +89,7 @@ ex_tuple = ["Enki",
                1, "Python", 2]
 ```
 
+
 * `Tuple 2`
 * `Tuple 3`
 * `Tuple 1`
@@ -99,6 +104,7 @@ ex_tuple = ("Python", 1, "Enki", 2)
 ???[???]
 ```
 
+
 * `ex_tuple`
 * `2`
 * `ex_tuple.find`
@@ -107,17 +113,18 @@ ex_tuple = ("Python", 1, "Enki", 2)
 * `1`
 
 ---
-## Quiz
+## Quiz 
+### how does unpacking work?
 
-headline: how does unpacking work?
+```python
+# What will be the value printed by the following code block?
+a, \*b, c = (1, 2, 3, 4, 5)
+print(b)
+```
 
-question: |
-  # What will be the value printed by the following code block?
-  a, \*b, c = (1, 2, 3, 4, 5)
-  print(b)
+???
 
-answers:
-  - [2, 3, 4]
-  - [2]
-  - [3, 4, 5]
-  - [1, 2, 3, 4, 5]
+* 2,3,4
+* 2
+* 3,4,5
+* 1,2,3,4,5

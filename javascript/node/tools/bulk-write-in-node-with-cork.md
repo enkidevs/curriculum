@@ -1,20 +1,27 @@
-# Bulk-Write in **Node** with `cork()`
+---
 author: catalin
 
 levels:
-
   - advanced
-
   - medium
 
 type: normal
 
 category: how to
 
-links:
+standards:
+  js.node-standard-library-os.0: 20
+  js.read-and-write-streams.1: 20
 
-  - >-
-    [github.com](https://github.com/nodejs/node/wiki/API-changes-between-v0.10-and-v4#writable-streams){website}
+tags:
+  - introduction
+  - workout
+
+links:
+  - '[github.com](https://github.com/nodejs/node/wiki/API-changes-between-v0.10-and-v4#writable-streams){website}'
+
+---
+# Bulk-Write in **Node** with `cork()`
 
 ---
 ## Content
@@ -51,6 +58,7 @@ What method is used to flush all buffered data from a stream?
 
 ???
 
-* `end()`
-* `uncork()`
-* `cork()`
+
+* end()
+* uncork()
+* cork()

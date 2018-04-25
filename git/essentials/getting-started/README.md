@@ -1,12 +1,6 @@
 name: Getting Started
 
-type: insights-list
-
 description: Get started with git!
-
-section: 0
-
-parent: fundamentals
 
 insights:
   - installing-git

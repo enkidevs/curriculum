@@ -1,4 +1,4 @@
-# Get file permissions in octal form
+---
 author: tuwi.dc
 
 levels:
@@ -14,16 +14,28 @@ type: normal
 category: how to
 
 tags:
+
   - linux
+
   - permissions
+
   - file
+
   - terminal
+
   - ssh
+
   - stat
+
   - introduction
 
 
+
 parent: understanding-umask
+
+---
+
+# Get file permissions in octal form
 
 ---
 ## Content
@@ -57,8 +69,10 @@ You can use `stat` to get file permissions in octal form as:
 ```
 $ stat ??? ??? ???
 ```
-*`-c`
-*`”%a %n”`
-*`filename`
-*`”%c %n”`
-*`-oc`
+
+* `-c`
+* `”%a %n”`
+* `filename`
+* `”%c %n”`
+* `-oc`
+

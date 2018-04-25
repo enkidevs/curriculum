@@ -1,4 +1,4 @@
-# Retrieve previous arguments
+---
 author: catalin
 
 levels:
@@ -14,7 +14,16 @@ type: normal
 category: tip
 
 tags:
+
   - workout
+
+
+
+
+---
+
+# Retrieve previous arguments
+
 ---
 ## Content
 
@@ -57,16 +66,19 @@ $ cat chapter1.txt chapter2.txt
 
 $ rm ???
 ```
-*`/documents/enki`
-*`chapter2.txt`
-*`chapter1.txt`
-*`chapter1.txt chapter2.txt`
+
+* `/documents/enki`
+* `chapter2.txt`
+* `chapter1.txt`
+* `chapter1.txt chapter2.txt`
 
 ---
 ## Revision
 
 You can use ??? syntax to repeat the last command's argument.
 
-*!$
-*!!
-*!1
+
+* !$
+* !!
+* !1
+

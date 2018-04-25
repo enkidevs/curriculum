@@ -1,4 +1,4 @@
-# The `in` operator
+---
 author: tommarshall
 
 levels:
@@ -7,15 +7,22 @@ levels:
 
 type: normal
 
+category: tip
+
 inAlgoPool: false
 
-category: tip
+
+standards:
+  py.native-types-operations.0: 10
 
 links:
 
-  - >-
-    [Use
-    cases](http://kracekumar.com/post/22512660850/python-in-operator-use-cases){website}
+  - '[Use cases](http://kracekumar.com/post/22512660850/python-in-operator-use-cases){website}'
+
+
+---
+
+# The `in` operator
 
 ---
 ## Content
@@ -40,12 +47,34 @@ else:
 ```
 
 ---
+## Practice
+
+Complete the following code snippet such that it checks the existance of `x` in the nums `sequence`:
+
+```python
+x = 12
+nums = [1, 2, 100, 11, 5]
+
+if x ??? nums:
+    print(???)
+else:
+    print(???)
+```
+
+* in
+* True
+* False
+* is
+* find
+
+---
 ## Revision
 
 The `in` operator evaluates to ??? if it finds the specified variable in the ???.
 
-*true
-*sequence
-*false
-*list
-*map
+
+* true
+* sequence
+* false
+* list
+* map

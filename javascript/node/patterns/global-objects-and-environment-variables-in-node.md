@@ -1,22 +1,27 @@
-# Global Objects and Environment Variables in **Node**
+---
 author: catalin
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal
 
 category: must-know
 
+standards:
+  js.identify-common-design-patterns.2: 10
+
+tags:
+  - introduction
+  - workout
+
 links:
-
   - '[nodejs.org](https://nodejs.org/docs/latest/api/globals.html){website}'
+  - '[nodejs.org](https://nodejs.org/api/process.html#process_process_env){website}'
 
-  - >-
-    [nodejs.org](https://nodejs.org/api/process.html#process_process_env){website}
+---
+# Global Objects and Environment Variables in **Node**
 
 ---
 ## Content
@@ -62,12 +67,12 @@ Get the path of the code being executed:
 console.log(???);
 ```
 
-* `__filename`
-* `__dirname`
-* `dirname`
-* `filename`
-* `pathname`
-* `__pathname`
+* __filename
+* __dirname
+* dirname
+* filename
+* pathname
+* __pathname
 
 ---
 ## Revision
@@ -77,11 +82,11 @@ Get command line arguments:
 console.log(???.???);
 ```
 
-*`process`
-*`argv`
-*`env`
-*`platform`
-*`__filename`
-*`args`
-*`node`
-*`console`
+* process
+* argv
+* env
+* platform
+* __filename
+* args
+* node
+* console
