@@ -20,7 +20,7 @@ standards:
 
 links:
 
-  - '[More Query Languages](https://en.wikipedia.org/wiki/Query_language){website}'
+  - '[SQL: Select and Where](https://www.w3schools.com/sql/sql_where.asp){website}'
 
 ---
 
