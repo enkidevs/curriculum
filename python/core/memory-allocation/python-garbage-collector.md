@@ -55,6 +55,17 @@ Memory management in Python involves a private heap containing all Python object
 CPython's[1] virtual machine keeps a counter for each of objects used by the current running Python program and automatically garbage collects them when there are no more references to it. The formal name for this garbage collection algorithm is **reference counting**.
 
 ---
+## Practice
+
+What does the garbage collector actually do?
+
+???
+
+* steps in and marks the memory address as free
+* delets variables
+* removes values from variables
+
+---
 ## Revision
 
 In Python, the garbage collector is run by

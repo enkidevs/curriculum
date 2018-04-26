@@ -14,7 +14,7 @@ inAlgoPool: false
 
 links:
 
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente){documentation}'
 
 notes: 'http://www.webcredible.com/blog-reports/css/more-css-tricks.shtml'
 

@@ -17,6 +17,7 @@ tags:
 links:
 
   - '[code.tutsplus.com](http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Selectors){documentation}'
 
 
 ---

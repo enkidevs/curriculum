@@ -17,6 +17,7 @@ tags:
 links:
 
   - '[css-tricks.com](https://css-tricks.com/almanac/properties/o/order/){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Ordering_Flex_Items){documentation}'
 
 
 ---

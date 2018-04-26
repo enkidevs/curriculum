@@ -47,6 +47,7 @@ Note that you need to assume **ECMAScript** 3rd edition. In addition, all `Error
 %exp
 The tricky part at this questions is that if there is a **parameter** with the same name as a local **variable**, then the local binding isn't **initialized** with `undefined`, but with the **value** of that parameter, `1` in this case.
 %
+
 ---
 ```
 (function() {
@@ -63,6 +64,7 @@ The tricky part at this questions is that if there is a **parameter** with the s
 %exp
 Arrow functions have lexical `this`, it **inherits** value from the context they are **defined** in. In this case both `this` calls are made within the context of `{x: outer}`. The fact that `.bind({x: 'inner'})` is applied on the first function doesn't change its **value**.
 %
+
 ---
 ```
 let x, { x: y = 1 } = { x }; y;
@@ -74,6 +76,7 @@ let x, { x: y = 1 } = { x }; y;
 %exp
 The first `let x` defines `x` with `undefined` value. `{x: y = 1} = {x}` is a **destructuring assingment**, it take **variable** `y` from **property** `x`. In the end, because `x` is `undefined` default value `1` is assigned to `y`.
 %
+
 ---
 ```
 (function() {
@@ -91,6 +94,7 @@ The first `let x` defines `x` with `undefined` value. `{x: y = 1} = {x}` is a **
 %exp
 In this situation as the **function** is executed with no explicit value of `this`. `let f` will be **assigned** `class h{ }`. `f`'s `typeof` is **function** and h as it is defined in the **expression position** has its `typeof` **undefined**.
 %
+
 ---
 ```
 (typeof (new (class { class () {} })))
@@ -111,6 +115,7 @@ new class{
 ```
 Now, the result of `typeof` on a default class is a simple `object`.
 %
+
 ---
 ```
 typeof (new (class F extends
@@ -128,6 +133,7 @@ The tricky part here is that the **grouping operator**  always returns the last 
 
 Now, we know that `Array`s don't have `.substring` method, so the result is `undefined`.
 %
+
 ---
 ```
 [...[...'...']].length

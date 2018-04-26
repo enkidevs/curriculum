@@ -14,7 +14,7 @@ inAlgoPool: false
 
 links:
 
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model){documentation}'
 
 
 ---

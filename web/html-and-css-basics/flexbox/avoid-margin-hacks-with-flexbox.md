@@ -17,6 +17,7 @@ category: best practice
 links:
 
   - '[github.com](https://github.com/AllThingsSmitty/css-protips){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox){documentation}'
 
 
 ---

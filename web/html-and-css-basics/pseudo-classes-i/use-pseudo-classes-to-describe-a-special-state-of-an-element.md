@@ -22,6 +22,7 @@ links:
 
   - '[www.sitepoint.com](http://www.sitepoint.com/web-foundations/pseudo-classes/){website}'
   - '[Code example](http://codepen.io/mihaiberq/pen/wzGvWq){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover){documentation}'
 
 
 ---
