@@ -97,9 +97,9 @@ What are the two optional clauses of the `try-except` statement?
 ---
 ## Quiz
 
-headline: Do you know how exception handling works?
+### Do you know how exception handling works?
 
-question: |
+
 // Here is an exception-handling block. Let's say a StopIteration is raised. How is it executed? 
 ```python
 try:
@@ -114,7 +114,7 @@ else:
 finally:
     # do D here...
 ```
-answers:
+
 - It will do A and D
 - It will do A, B and D
 - It will do A, B, C and D
