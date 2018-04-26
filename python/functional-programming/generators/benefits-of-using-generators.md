@@ -41,6 +41,14 @@ Generators are functions which behave like iterators, but can have better perfor
 However, the set of generated values can only be used once.
 
 ---
+## Practice
+
+When using generators ??? wait for all the values to be generated before using them.
+
+* we don't have to
+* we have to
+
+---
 ## Revision
 
 Because generators create values on demand, this results in ??? memory consumption.

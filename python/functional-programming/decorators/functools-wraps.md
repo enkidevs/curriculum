@@ -58,6 +58,17 @@ print(say_hello.__doc__)
 ```
 
 ---
+## Practice
+
+What is an improtant drawback of `decorators`?
+
+???
+
+* hard to debug
+* unfeasible
+* memory leaking
+
+---
 ## Revision
 
 The `wraps` function of `functools` module works like any other
