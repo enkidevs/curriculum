@@ -73,10 +73,11 @@ A function is nested when it’s defined inside the ??? of another function.
 ---
 ## Quiz
 
-headline: Do you know how the scope of nested functions works?  
+### Do you know how the scope of nested functions works?  
 
-question: |
-// We've defined a nested function here. What will the following code output?  
+
+We've defined a nested function here. What will the following code output?  
+
 ```python
 def some_function(num):
     def nested_func(num):
@@ -94,8 +95,8 @@ def some_new_function(num):
 some_new_function(1)
 ```
 
-answers:
-- `NameError: global name 'nested_func' is not defined`
-- `NameError: global name 'nested_func_new' is not defined`
-- `AttributeError: 'super' object has no attribute '__getattr__'`
-- 1 `NameError: global name 'nested_func' is not defined`
+
+- NameError: global name 'nested_func' is not defined
+- NameError: global name 'nested_func_new' is not defined
+- AttributeError: 'super' object has no attribute '__getattr__'
+- 1 NameError: global name 'nested_func' is not defined
