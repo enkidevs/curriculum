@@ -12,6 +12,9 @@ category: must-know
 inAlgoPool: false
 
 
+links:
+  - '[MDN divisions](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div){documentation}'
+  - '[MDN spans](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span){documentation}'
 
 
 ---

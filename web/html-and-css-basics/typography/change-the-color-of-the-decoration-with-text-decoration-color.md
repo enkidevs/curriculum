@@ -14,7 +14,7 @@ category: how to
 
 links:
 
-  - '[developer.mozilla.org](https://developer.mozilla.org/fr/docs/Web/CSS/text-decoration){website}'
+  - '[MDN](https://developer.mozilla.org/fr/docs/Web/CSS/text-decoration){documentation}'
 
 parent: underline-feature-on-html-elements
 notes: 'https://css-tricks.com/more-control-over-text-decoration/'

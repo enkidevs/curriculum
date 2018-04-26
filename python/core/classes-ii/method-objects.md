@@ -51,7 +51,7 @@ standards:
 ---
 ## Content
 
-In Python, functions are seen as *objects* - and there is a clear distinction between a **method call** and a **method object**.
+Methods are seen as functions called on *objects* -- and there is a clear distinction between a **method call** and a **method object**.
 
 Considering the following class and its instantiation:
 ```python
@@ -78,10 +78,32 @@ print(ef()) # prints 'Python'
 Note that under the hood, `enki.f()` is **exactly equivalent** to `Enki.f(enki)`.
 
 ---
+## Practice
+
+Store a method object of class `Hello` in the variable `temp` and call it afterwards:
+
+```python
+class Hello:
+  def greet(self):
+    print('Hello everyone')
+
+temp = ???
+???
+```
+
+* Hello.greet
+* temp()
+* temp.greet()
+* Hello()
+* Hello.greet()
+
+
+---
 ## Revision
 
 Store in variable `x` a method object from the `Test` class:
-```
+
+```python
 class Test:
    def p(self):
        return “p method”

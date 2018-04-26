@@ -55,13 +55,35 @@ print(stringprep.in_table_c11(' '))
 ```
 
 ---
+## Practice
+
+Check if `tab` is in the table `C.1.1` of RFC 3454:
+
+```python
+import stringprep
+
+???(stringprep.???('  '))
+
+```
+
+* print
+* in_table_c11
+* ' '
+* in_table_a1
+* in_c11
+* zip
+
+
+
+---
 ## Revision
 
 Check if the given character is in table `C.1.1` of RFC 3454:
-```
+
+```python
 import stringrep
 
-???.???(‘x’)
+???.???('x')
 ```
 
 

@@ -86,7 +86,7 @@ Note that the ascending order is set as default. If we want to display the resul
 ---
 ## Practice
 
-The nature_name table has data about the nature name in multiple languages. We have the fields:
+The `nature_name` table has data about the nature name in multiple languages. We have the fields:
 `name`, for nature name and `language_id` to reflect the given language.
 Count how many names we have for each language and order the result in descending order:
 ```sql

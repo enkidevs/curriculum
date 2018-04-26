@@ -14,6 +14,7 @@ inAlgoPool: false
 
 links:
 
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Glossary/CSS){documentation}'
   - '[www.theodinproject.com](http://www.theodinproject.com/courses/web-development-101#section-the-front-end){website}'
 
 
