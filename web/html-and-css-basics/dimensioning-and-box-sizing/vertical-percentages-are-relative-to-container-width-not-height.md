@@ -17,7 +17,7 @@ category: caveats
 links:
 
   - '[www.impressivewebs.com](http://www.impressivewebs.com/vertical-percentages-css/){website}'
-  -'[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/percentage){documentation}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/percentage){documentation}'
 notes: 'http://www.sitepoint.com/12-little-known-css-facts/'
 
 ---
