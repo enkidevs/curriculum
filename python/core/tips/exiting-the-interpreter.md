@@ -40,7 +40,7 @@ or
 
 ```python
 >>> import sys
->>> sys.exit
+>>> sys.exit()
 ```
 
 or
@@ -49,3 +49,31 @@ or
 >>> quit()
 ```
 
+---
+## Practice
+
+Fill in the snippet such that it will exit the interpreter:
+
+```python
+
+import ???
+sys.???
+```
+
+* sys
+* exit()
+* system
+* close()
+* quit()
+
+---
+## Revision
+
+What is the key stroke for exiting python interpreter (REPL)?
+
+???
+
+* "CTRL-D"
+* "Esc"
+* "CTRL-E"
+* exit()
