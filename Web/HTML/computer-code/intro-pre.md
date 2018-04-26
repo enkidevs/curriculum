@@ -1,5 +1,5 @@
-# Intro pre
-author: matthewleach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -11,20 +11,49 @@ category: must-know
 
 stub: true
 
-
 tags:
   - deep
-
-
+---
+# pre - Preformatted Text
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+In HTML the `<pre>` element is used to represent preformatted text as it is in the HTML file.
+
+**Note:**
+  - **pre stands for Preformatted Text Element.**
+  - **Both the starting and ending tags are necessary.**
+  - **Whitespace inside the element is displayed as written.**
+
+Example:
+```
+<pre>
+ body {
+  color: blue;
+ }
+</pre>
+```
+
+Result:
+```
+body {
+ color: blue;
+}
+```
+ 
+In the example above, the `<pre>` element is used to produce a block element of an output from a computer program.
+
+The default font style for the `<samp>` element for most browsers is the monospace font.
 
 ---
 ## Practice
 
 When using the `<pre>` element, which statements are true?
+
+???
+???
+???
+???
 
 + represents preformatted text
 + typically displayed in the browser's default monospace font 
@@ -53,20 +82,21 @@ What HTML element is used to display the text exactly as it is laid out within t
 ---
 ## Quiz
 
-Which HTML element is best used for "tag" to properly display this code within a webpage:  
+### How much do you know about HTML elements?
 
-`<tag>`
+Which HTML element is best used for "???" to properly display this code within a webpage:  
+
+`<???>`
 .alert {
   color:red;
 }
-`</tag>`
-
-tag = ???
+`<???>`
 
 * pre
-* samp
+* /pre
 * code
-* css
-* style
-* output
-* alert
+* /code
+* perf
+* /perf
+* samp
+* /samp
