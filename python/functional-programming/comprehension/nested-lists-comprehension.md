@@ -61,3 +61,37 @@ y % 3 == 0 ]
 
 ```
 
+---
+## Practice
+
+Use nested list comprehension to generate a list of tuples, where the first element must always be odd. 
+Ex: (1,1),(1,2),(1,3),...(9,7),(9,8),(9,9).
+
+```python
+
+l = [??? for x in range(10)\
+    if ??? for y in ???]
+```
+
+* (x,y)
+* x % 2
+* range(10)
+* x % 2 == 0
+* range(11)
+
+---
+## Revision
+
+What will the output of the following snippet be?
+
+```python
+
+l = [(x, y) for x in range(10) if x % 2 /
+    for y in range(10) if y % 2 == 0]
+print(l[2])
+```
+
+* (1,4)
+* (1,2)
+* (1,3)
+* (1,6)

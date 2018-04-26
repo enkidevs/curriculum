@@ -90,7 +90,6 @@ if square(i) < 50 ]
 Use list comprehension to add one and divide by two [(x + 1) / 2] for all elements [x] that are not even:
 
 ```python 
-
 l = [1,2,3,4,5]
 x = [((x+1)/2) ??? x % 2 ??? x ??? x in ???]
 ```
@@ -108,10 +107,8 @@ x = [((x+1)/2) ??? x % 2 ??? x ??? x in ???]
 What will the list `x` look like after the following snippet is run?
 
 ```python
-
 l = [1,2,3,4,5]
 x = [x if x % 2 for x in l]
-
 ```
 
 ???
