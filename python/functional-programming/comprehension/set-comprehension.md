@@ -62,7 +62,8 @@ Fill in the following code snippet. It creates a new set that contains elements 
 ```python
 
 l = [10, 11, 13, 14, 18, 19]
-new_set = {x ??? x % 2 == 0 else ??? for x ??? l}
+new_set = {x ??? x % 2 == 0 else/
+          ??? for x ??? l}
 ```
 
 * if
