@@ -14,7 +14,7 @@ category: feature
 
 links:
 
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/%3A%3Aselection){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/%3A%3Aselection){documentation}'
 
 
 ---

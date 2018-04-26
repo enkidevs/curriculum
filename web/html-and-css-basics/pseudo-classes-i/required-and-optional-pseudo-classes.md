@@ -17,6 +17,7 @@ tags:
 links:
 
   - '[css-tricks.com](https://css-tricks.com/almanac/selectors/r/required/){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)[documentation}'
 
 
 ---
