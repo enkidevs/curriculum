@@ -24,4 +24,4 @@ standards:
 ---
 ## Exercise
 ### Question
-Practice `pure` functions in python.
+Practice writing a pure function in Python
