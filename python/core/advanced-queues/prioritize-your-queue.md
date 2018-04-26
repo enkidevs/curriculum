@@ -73,14 +73,14 @@ To give an example of when it is advised to use `PriorityQueue`, we can thing of
 ---
 ## Practice
 
-Fill the following code snippet such taht it will sort elements added in the queue in descending order:
+Fill the following code snippet such that it will sort elements added in the queue in descending order:
 
 ```python
 
 def Order():
   def __init__(self, ???):
     self.priority = priority
-  def ???(slef, other):
+  def ???(self, other):
     return self.priority ??? other.priority
 
 temp = queue.???
