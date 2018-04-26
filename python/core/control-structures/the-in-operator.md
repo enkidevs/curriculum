@@ -47,6 +47,27 @@ else:
 ```
 
 ---
+## Practice
+
+Complete the following code snippet such that it checks the existance of `x` in the nums `sequence`:
+
+```python
+x = 12
+nums = [1, 2, 100, 11, 5]
+
+if x ??? nums:
+    print(???)
+else:
+    print(???)
+```
+
+* in
+* True
+* False
+* is
+* find
+
+---
 ## Revision
 
 The `in` operator evaluates to ??? if it finds the specified variable in the ???.
