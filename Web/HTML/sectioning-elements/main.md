@@ -35,7 +35,8 @@ Example of the main content of a page, in this case, a page describing vehicles:
 <main>
   <h1>Vehicles</h1>
   <p>
-    Vehicles are ways of transports humans made of ease of transport.
+    Vehicles are ways of transports
+    humans made of ease of transport.
   </p>
   
  <article>
