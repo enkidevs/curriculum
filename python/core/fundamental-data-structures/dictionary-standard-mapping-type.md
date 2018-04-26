@@ -58,7 +58,26 @@ print(prefs)
 # "animal": "dog"}
 ```
 
-**apple** was removed because it was overwritten by the value with the same key from the second dictionary.
+Be careful when using `update`, as a dictionary can not have multiple entries with the same key.
+
+---
+## Practice
+
+Fill in the following snippet, such that it will output the value of key "dog":
+
+```python
+
+dict = {"cat": "persan", "dog": "pug"}
+???(dict???)
+```
+
+* print
+* [dog]
+* [cat]
+* (dog)
+
+
+
 
 ---
 ## Revision
