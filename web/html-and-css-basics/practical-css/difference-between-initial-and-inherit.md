@@ -17,7 +17,8 @@ tags:
 
 
 links:
-
+  - '[MDN initial](https://developer.mozilla.org/en-US/docs/Web/CSS/initial){documentation}'
+  - '[MDN inherit](https://developer.mozilla.org/en-US/docs/Web/CSS/inherit){documentation}'
   - '[www.quirksmode.org](http://www.quirksmode.org/css/cascading/values.html){website}'
 
 

@@ -11,7 +11,10 @@ category: pattern
 
 inAlgoPool: false
 
+links:
 
+- '[MDN colors](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value){documentation}'
+- '[MDN lengths](https://developer.mozilla.org/en-US/docs/Web/CSS/length){documentation}'
 
 
 ---

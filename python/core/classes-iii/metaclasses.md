@@ -65,6 +65,30 @@ metaclass -> class -> instance
 ```
 
 ---
+## Practice
+
+Create a new class of default type, instantiate it and print its type:
+
+```python
+
+class Enki???:
+  pass
+
+enki = ???
+print(???(???))
+
+```
+
+* ()
+* Enki()
+* type
+* enki
+* Enki
+* typeof
+* (metaclass=Meta)
+
+
+---
 ## Revision
 
 What is the default metaclass of newly defined classes?

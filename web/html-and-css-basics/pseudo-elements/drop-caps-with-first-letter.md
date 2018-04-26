@@ -16,7 +16,7 @@ category: how to
 
 links:
 
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter){documentation}'
 
 notes: >-
   http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/

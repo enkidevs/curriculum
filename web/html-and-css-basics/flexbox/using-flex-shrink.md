@@ -23,7 +23,7 @@ tags:
 links:
 
   - '[css-tricks.com](https://css-tricks.com/almanac/properties/f/flex-shrink/){website}'
-
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink){documentation}'
 
 ---
 

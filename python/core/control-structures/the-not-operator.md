@@ -41,6 +41,25 @@ print(True == (not True))
 # prints False
 ```
 
+--- 
+## Practice
+
+Check if `x` does not exist in the `nums` sequnece:
+
+```python
+x = 10
+nums = [1,2,3,4]
+
+??? x ??? in nums:
+    print(False)
+```
+
+* if
+* not
+* is
+* while
+* for
+
 ---
 ## Revision
 

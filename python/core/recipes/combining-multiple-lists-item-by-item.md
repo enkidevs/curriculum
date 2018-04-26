@@ -41,11 +41,32 @@ for letter, number, squares in zipped_list
 ```
 
 ---
+## Practice
+
+Combine the following two lists into a list of tuples:
+
+```python
+a = [1,2,3,4,5]
+b = [0.1,0.2,0.3,0.4,0.5]
+
+temp = ???(???)
+
+```
+
+* zip
+* a,b
+* a
+* b
+* concatenate
+
+
+
+---
 ## Revision
 
 How would we get the `tuple` array from putting the `letters` and `values` arrays together?
 
-```
+```python
 letters = ['a', 'b', 'c']
 values = [1, 2, 3]
 tuple = ???(letters, values)

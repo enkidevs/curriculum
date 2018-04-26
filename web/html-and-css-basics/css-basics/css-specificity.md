@@ -18,7 +18,7 @@ inAlgoPool: false
 
 links:
 
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity){documentation}'
   - '[standardista.com](http://standardista.com/css3/css-specificity/){website}'
 
 notes: >-

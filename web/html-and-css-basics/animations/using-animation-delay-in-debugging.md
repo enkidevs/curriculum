@@ -17,6 +17,7 @@ category: hack
 links:
 
   - '[css-tricks.com](https://css-tricks.com/debugging-css-keyframe-animations/){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay){documentation}'
 
 
 ---

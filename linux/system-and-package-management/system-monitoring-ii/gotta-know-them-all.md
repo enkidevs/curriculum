@@ -40,6 +40,7 @@ authentication token?
 %exp
 `passwd`  is the utility used for updating authentication tokens. The password entered by the user is run through a key derivation function such that a hashed version of the new password is created and saved.
 %
+
 ---
 
 ```

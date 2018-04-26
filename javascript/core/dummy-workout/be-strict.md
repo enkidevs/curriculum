@@ -33,6 +33,7 @@ let x = 42;
 %exp
 The right syntax for strict mode in **JavaScript** is `use strict` not `useStrict`.
 %
+
 ---
 function foo() {
   "use strict";
@@ -43,6 +44,7 @@ foo();
 %exp
 `eval` doesn't have the same meaning in strict mode as it does normally.
 %
+
 ---
 (function foo() {
   "use strict";
@@ -54,6 +56,7 @@ foo();
 
 All attempts to do so will result in syntax errors.
 %
+
 ---
 (function foo() {
   "use strict";
@@ -64,6 +67,7 @@ All attempts to do so will result in syntax errors.
 %exp
 `let` is a keyword in **JavaScript**. It can’t be used to name a variable.
 %
+
 ---
 "use strict";
 function foo() {
@@ -75,6 +79,7 @@ foo();
 %exp
 `y` wasn't declared, so `y*4` can’t be evaluated.
 %
+
 ---
 "use strict";
 
@@ -92,6 +97,7 @@ foo.bar = 24;
 
 This means we can not change its value anywhere else in the program.
 %
+
 ---
 "use strict";
 with ({f: 24}) {
@@ -102,6 +108,7 @@ with ({f: 24}) {
 `with` rises some problems here because any variable name inside the block could map either to a property of the object passed as an argument, or to a variable in surrounding (or even global) scope.
 At runtime: it's impossible to know which beforehand.
 %
+
 ---
 "use strict";
 

@@ -51,6 +51,18 @@ True
 ```
 
 ---
+## Practice
+
+Check if `x` is at least 2 and maximum 10:
+
+???
+
+* >>> 1 < x < 11
+* >>> 2 < x < 10
+* >>> 2 < x < 11
+* >>> 1 < x < 10
+
+---
 ## Revision
 
 What will the following expression evaluate to?

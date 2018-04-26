@@ -15,6 +15,7 @@ category: feature
 links:
 
   - '[Codepen example](http://codepen.io/mihaiberq/pen/RGAjpK){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions){documentation}'
 
 
 ---
