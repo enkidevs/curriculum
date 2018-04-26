@@ -116,7 +116,7 @@ TAG: ???
 ---
 ## Quiz
 
-If you come across a website that uses this code, which statement is most appropriate?
+### If you come across a website that uses this code, which statement is most appropriate?
 
 ```
 <div class="nav">...</nav>
