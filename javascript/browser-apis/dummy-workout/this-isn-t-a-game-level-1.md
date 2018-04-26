@@ -38,6 +38,7 @@ console.log(this);
 %exp
 In global execution context(outside any function), `this` refers to the **global object**. In **web browsers**, the **window** object is also the **global object**.
 %
+
 ---
 ```
 function f(){
@@ -51,6 +52,7 @@ f();
 %exp
 Since the following **code** is not in **strict mode**, and because the value of `this` is not set by the call, `this` will default to the **global object**, in this case **window**.
 %
+
 ---
 ```
 function f(){
@@ -65,6 +67,7 @@ f();
 %exp
 In **strict mode** if `this` was not defined by the execution context, it remains **undefined**.
 %
+
 ---
 ```
 var user = {
@@ -83,6 +86,7 @@ user.showName();
 %exp
 When a **function** is called as a method of an object, its `this` is set to the object that the **method** was called on.
 %
+
 ---
 ```
 var obj = {add: function(){
@@ -99,6 +103,7 @@ console.log(sum.add());
 %exp
 An intersting feature of **JavaScript**'s prototype inheritance is how `this`, since the function `add` was called as method the object `sum`, refers to `sum`.
 %
+
 ---
 ```
 function user(){

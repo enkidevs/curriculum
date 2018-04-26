@@ -37,6 +37,7 @@ sub, sup {
 %exp
 Here we face a typo. `height` is misspelled.
 %
+
 ​---
 .list .opt:nth-child(m-1) {
 //.list .opt:nth-child(n-1) {
@@ -50,6 +51,7 @@ The `.nth-child` pseudo-selector can take as argument either a number, a keyword
 
 However, when stating a formula, the unknown variable must be `n`.
 %
+
 ​---
 .insight .link-name {
   position: absolute;
@@ -65,6 +67,7 @@ However, when stating a formula, the unknown variable must be `n`.
 %exp
 When using the `+` and `-` operators within the `calc` function keep in mind they must be padded by whitespaces.
 %
+
 ​---
 .insight-container < div {
 //  .insight-container > div {
@@ -78,6 +81,7 @@ When using the `+` and `-` operators within the `calc` function keep in mind the
 There is no `<` operator in CSS, but `>`.
 In our case, all `div` elements with a parent of class `insight-container` will be selected.
 %
+
 ​---
 .workout-end-container {
   letter-spacing: -4px;
@@ -91,6 +95,7 @@ To specify the font in CSS, one must use the `font-family` property.
 
 There is no such thing as `text-font`.
 %
+
 ​---
 .workout-feedback-container {
   color: #FF6F31;
@@ -102,6 +107,7 @@ There is no such thing as `text-font`.
 %exp
 Here we have another typo. Padding is correctly spelt with double `d`.
 %
+
 ​---
 .top-bar {
   position: fixed;
@@ -119,6 +125,7 @@ Here we have another typo. Padding is correctly spelt with double `d`.
 %exp
 The right syntax to specify the stack order of an element is `z-index: x`.
 %
+
 ​---​
 .navigationbar .location {
   font-family: "Roboto";
@@ -133,6 +140,7 @@ The right syntax to specify the stack order of an element is `z-index: x`.
 %exp
 `upper` doesn’t mean anything in CSS. However, `uppercase` can be used to transform all characters as intended.
 %
+
 ​---
 .insight .link-type-icon {
   color: #FFF;
@@ -148,6 +156,7 @@ The right syntax to specify the stack order of an element is `z-index: x`.
 %exp
 "width" in `min-widht` is misspelled here.
 %
+
 ​---
 .navigationbar .back {
   padding: 30px 50px 10px 15px;
@@ -162,6 +171,7 @@ The right syntax to specify the stack order of an element is `z-index: x`.
 %exp
 There is no `length` property in CSS. `width` should be used instead.
 %
+
 ​---
 .autoscroll-container {
   overflow: hidden;
@@ -174,6 +184,7 @@ There is no `length` property in CSS. `width` should be used instead.
 %exp
 There is a missing semicolon (`;`) near the `height` property. This will rise an error.
 %
+
 ​---
 .drop {
   color: #34495C;
@@ -189,6 +200,7 @@ There is a missing semicolon (`;`) near the `height` property. This will rise an
 %exp
 The correct name of the value for setting the current color is `currentColor`;
 %
+
 ---
 .field .input-field {
   color: #FFF;
@@ -204,6 +216,7 @@ The correct name of the value for setting the current color is `currentColor`;
 Using the `background` property with just one value argument will act as a shorthand for `background-color`.
 Hence, simply specifying a size instead of a color will raise an error.
 %
+
 ​---
 .insight-controls {
   line-height: 21px;
@@ -220,6 +233,7 @@ Hence, simply specifying a size instead of a color will raise an error.
 %exp
 CSS uses `:` for assigning values and not `=`.
 %
+
 ​---
 .password-field .eye {
   position: absolute;
@@ -236,6 +250,7 @@ CSS uses `:` for assigning values and not `=`.
 %exp
 The correct syntax for aligning text horizontally in CSS is `text-align` and not `align`.
 %
+
 ​---
 .share .share-view {
   background: #7F8C8D;
@@ -251,6 +266,7 @@ The correct syntax for aligning text horizontally in CSS is `text-align` and not
 %exp
 Overflow can be `hidden` but not `stack`.
 %
+
 ​---
 .share .share-view > h1 {
   text-transform: uppercase;
@@ -264,6 +280,7 @@ Overflow can be `hidden` but not `stack`.
 %exp
 CSS doesn't provide any `min-margin` property, but a `margin` one.
 %
+
 ​---
 .tabBar .tabBar-element {
   width: 25%;
@@ -281,6 +298,7 @@ CSS doesn't provide any `min-margin` property, but a `margin` one.
 The `font-size` property won't accept `12ms` as a correct value because it doesn't represent a size.
 Instead, `12px` wouldn't raise any errors.
 %
+
 ​---
 .segmented-control .label {
   width: 33%;
@@ -299,6 +317,7 @@ The `font-variant` can't take `uppercase` as value, but `small-caps`.
 
 The latter will also transform all letters of the text to uppercase, but will also decrease the their font size.
 %
+
 ---​
 .tabBar .tabBar-icon {
   display: block;
