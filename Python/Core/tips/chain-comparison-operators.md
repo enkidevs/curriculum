@@ -57,17 +57,18 @@ What will the following expression evaluate to?
 ---
 ## Quiz
 
-headline: Do you know how to use chained comparison operators?
+### Do you know how to use chained comparison operators?
 
-question: |
-  // How would we use chained comparison operators to express this conditional statement? 
+
+How would we use chained comparison operators to express this conditional statement? 
+
 ```python
 if var >= startvar and var <= endvar:
     ...
 ```
 
-answers:
- - `if startvar <= var <= endvar:`
- - `if startvar <= and var <= endvar:`
- - `if (startvar <= and var <= endvar):`
- - `if startvar >= var <= endvar:`
+
+- `if startvar <= var <= endvar:`
+- `if startvar <= and var <= endvar:`
+- `if (startvar <= and var <= endvar):`
+- `if startvar >= var <= endvar:`
