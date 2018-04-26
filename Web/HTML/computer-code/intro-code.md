@@ -49,19 +49,12 @@ The default font style for the `<code>` element for most browsers is the monospa
 What content is best to style when using the `<code>` element?
 
 ???
-???
-???
-???
 
-+ HTML elements
-+ CSS Rules
-+ filenames
-+ JS scripts
-- keyboard keys
-- output text from computer programs
-- mathematical expressions
-- variables
-- function parameter
+ * All 4
+ * HTML elements
+ * CSS Rules
+ * filenames
+ * JS scripts
 
 ---
 ## Revision
@@ -72,11 +65,11 @@ What HTML element is used in place of "???" to visually highlight the difference
 
 ???
 
-* code
-* kbd
-* samp
-* pre
-* var
+ * code
+ * kbd
+ * samp
+ * pre
+ * var
 
 ---
 ## Quiz
