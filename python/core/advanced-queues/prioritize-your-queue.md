@@ -77,13 +77,13 @@ Fill the following code snippet such that it will sort elements added in the que
 
 ```python
 
-def Order():
-  def __init__(self, ???):
+class Order(object):
+  def __init__(self, priority):
     self.priority = priority
-  def ???(self, other):
-    return self.priority ??? other.priority
+  def __lt__(self, other):
+    return self.priority > other.priority
 
-temp = queue.???
+temp = queue.PriorityQueue()
 
 temp.put(Order(1))
 temp.put(Order(10))

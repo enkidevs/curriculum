@@ -17,6 +17,8 @@ standards:
 links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/heapq.html){website}'
+  - '[Replace element using heapq exampel](https://goo.gl/Djrs8h)'
+  - '[Using heapq example](https://goo.gl/QTLPK6)'
 
 
 ---
@@ -91,7 +93,7 @@ import heapq
 h = [1030, 239, 304, 320]
 heapq.heapify(h)
 
-heapq.replace(h, 100)
+heapq.heapreplace(h, 100)
 ???
 
 ```
