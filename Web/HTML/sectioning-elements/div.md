@@ -22,6 +22,7 @@ links:
 ## Content
 
 The HTML `<div>` element is used for content division. It is a generic container for flow content.
+
 **Note: Flow content is a category of elements which typically contain text or embedded content.**
 
 Some flow content:
@@ -75,7 +76,7 @@ In this example, we have added that text in a box with a gray shadow and a 5px s
 
 **Notes:**
  -  **The div element should NOT be used when there is a more appropriate semantic element(like `<nav>` or `<article>`).**
-- **Before HTML5 there was no `<nav>` element, and in it's place people used the `<div>` element. If you encouter code like this `<div class="nav">...</nav>`, know that it is not semantic and follows older HTML4 layouts. **
+- **Before HTML5 there was no `<nav>` element, and in it's place people used the `<div>` element. If you encouter code like this `<div class="nav">...</nav>`, know that it is not semantic and follows older HTML4 layouts.**
 
 
 ---
