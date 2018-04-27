@@ -47,7 +47,7 @@ This produces the following output:
 
 ## Practice
 
-Complete the following code snippet such that it respects python3 syntax:
+Update the following code snippet to be compatible with python3:
 
 ```python
 print ???

@@ -38,12 +38,12 @@ As we know, Python is an *object oriented* programming language, therefore becau
 ---
 ## Practice
 
-What is the *pythonic* way to write a for loop? 
+I python more economic than most of the other languages? 
 ???
 
-* `for i in myArray:`
-* `for i=0, i <= len(myArray), i++:`
-* `for(i in range(1, 10)){}`
+* yes
+* no
+* not applicable
 
 ---
 ## Revision

@@ -55,13 +55,13 @@ As a beginner, your best bet is **Python 3**. This is the standard that's advanc
 ---
 ## Practice
 
-To print to console in python 3 we use a:
+What was one of the main focuses of the third version of Python:
 
 ???
 
-* function
-* statement
-* system call
+* ease string handling functionality
+* enable python to be used as a functional language
+* enable python to do system calls
 
 
 ---

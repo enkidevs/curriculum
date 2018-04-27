@@ -51,10 +51,12 @@ The process couldn't be simpler!
 ---
 ## Practice
 
-What is python shell called like and what does the acronym stand for?
+When you run python3 this is called?
+
 ???
 
 * REPL [Read Eval Print Loop]
+* REPL [Read Eval Print Language]
 * REPL [Real Evaluation Print Loop]
 * RELP [Read Evaluate Loop Print]
 
