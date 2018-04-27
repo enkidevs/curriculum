@@ -78,12 +78,12 @@ Fill the following code snippet such that it will sort elements added in the que
 ```python
 
 class Order(object):
-  def __init__(self, priority):
+  def __init__(self, ???):
     self.priority = priority
-  def __lt__(self, other):
-    return self.priority > other.priority
+  def ???(self, other):
+    return self.priority ??? other.priority
 
-temp = queue.PriorityQueue()
+temp = queue.???
 
 temp.put(Order(1))
 temp.put(Order(10))
@@ -95,8 +95,8 @@ temp.put(Order(1000))
 
 * priority
 * `__lt__`
-* PriorityQueue()
 * >
+* PriorityQueue()
 * <
 * queue
 * `__order__`
