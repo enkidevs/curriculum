@@ -95,7 +95,7 @@ Furthermore, you can only have one `<main>` element per web page or document if 
 
 There is a way for 2 or more `<main>` elements to be present in your document, however, all except one `<main>` element have to have a `hidden` attribute specified.
 
-**Note: Even though the `<main>` element has headings it doesn't contribute the documents outline. Those headings and other outlines within the `<main>` element are only for that `<main>` element. You should use `<body>` or `<h1>`-`<h6>`, and such as the structure of your page.
+**Note: Even though the `<main>` element has headings it doesn't contribute the documents outline. Those headings and other outlines within the `<main>` element are only for that `<main>` element. You should use `<body>` or `<h1>`-`<h6>`, and such as the structure of your page.**
 
 ---
 ## Practice
