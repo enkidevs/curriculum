@@ -1,1 +1,0 @@
-An extension of CSS that adds power and elegance to the basic language. It allows the usage of variables, nested rules, mixins, inline imports, and more.

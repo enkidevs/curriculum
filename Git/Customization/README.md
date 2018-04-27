@@ -1,1 +1,0 @@
-Everything is personalized nowadays, so why not customize the tool you use on a daily basis? Learn how to make your git setup feel like home!

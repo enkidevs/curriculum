@@ -1,1 +1,0 @@
-Java Platform, the Standard Edition. This provides the core functionality of the Java programming language.

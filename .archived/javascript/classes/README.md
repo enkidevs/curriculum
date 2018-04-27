@@ -1,0 +1,3 @@
+name: Classes
+
+description: Classes are new to Javascript in ES6, but prototype-based inheritance isn't...

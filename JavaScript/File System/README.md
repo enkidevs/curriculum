@@ -1,1 +1,0 @@
-File System, fs, the Node.js core module providing simple wrappers for accessing and playing around with files.
