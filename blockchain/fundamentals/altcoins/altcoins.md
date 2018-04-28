@@ -1,4 +1,4 @@
-# Altcoins
+---
 author: mihaiberq
 
 levels:
@@ -14,6 +14,9 @@ category: must-know
 tags:
 
   - introduction
+
+---
+# Altcoins
 
 ---
 ## Content

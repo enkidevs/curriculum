@@ -1,4 +1,4 @@
-# Wallets
+---
 author: mihaiberq
 
 levels:
@@ -11,6 +11,12 @@ type: normal
 
 category: must-know
 
+standards:
+  - bc.analyze-blockchain-components.1: 20
+  - bc.analyze-blockchain-components.4: 20
+  - bc.compare-altcoins.4: 10
+  - bc.compare-altcoins.5: 10
+
 tags:
 
   - introduction
@@ -19,6 +25,9 @@ links:
 
   - >-
     [Generating a Bitcoin address on your own](http://procbits.com/2013/08/27/generating-a-bitcoin-address-with-javascript)
+
+---
+# Wallets
 
 ---
 ## Content

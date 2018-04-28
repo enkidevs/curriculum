@@ -1,4 +1,4 @@
-# Initial Coin Offerings
+---
 author: mihaiberq
 
 levels:
@@ -14,6 +14,9 @@ category: must-know
 tags:
 
   - introduction
+
+---
+# Initial Coin Offerings
 
 ---
 ## Content

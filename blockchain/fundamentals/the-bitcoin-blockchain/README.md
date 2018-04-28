@@ -9,5 +9,5 @@ section: 0
 insights:
  - bitcoin
  - the-bitcoin-blockchain
- - the-bitcoin-ecosystem
+ - the-bitcoin-block
 

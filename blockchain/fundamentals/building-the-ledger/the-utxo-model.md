@@ -1,4 +1,4 @@
-# The UTXO Model
+---
 author: mihaiberq
 
 levels:
@@ -11,11 +11,20 @@ type: normal
 
 category: must-know
 
+standards:
+  - bc.identify-blockchain-applications.0: 10
+  - bc.identify-blockchain-applications.1: 10
+  - bc.analyze-blockchain-components.2: 20
+  - bc.analyze-blockchain-components.3: 30
+
 tags:
 
   - introduction
 
   - workout
+
+---
+# The UTXO Model
 
 ---
 ## Content

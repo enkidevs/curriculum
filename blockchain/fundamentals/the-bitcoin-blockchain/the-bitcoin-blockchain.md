@@ -1,4 +1,4 @@
-# The Bitcoin Blockchain
+---
 author: mihaiberq
 
 levels:
@@ -10,10 +10,20 @@ type: normal
 
 category: must-know
 
+standards:
+  - bc.analyze-blockchain-components.3: 10
+  - bc.identify-blockchain-applications.0: 30
+  - bc.identify-blockchain-applications.1: 10
+  - bc.identify-blockchain-applications.2: 10
+  - bc.analyze-network-security-policy.0: 10
+  - bc.analyze-network-security-policy.1: 10
+
 tags:
   - introduction
   - workout
 
+---
+# The Bitcoin Blockchain
 
 ---
 ## Content

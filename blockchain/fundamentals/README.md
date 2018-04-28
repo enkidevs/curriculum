@@ -8,7 +8,7 @@ sections:
   '1':
     - mining
     - wallets
-    - identity-and-anonimity
+    - anonimity
     - altcoins
     - consensus-algorithms
   '2':

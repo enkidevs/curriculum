@@ -1,4 +1,4 @@
-# The Bitcoin Block
+---
 author: mihaiberq
 
 levels:
@@ -11,11 +11,20 @@ type: normal
 
 category: must-know
 
+standards:
+  - bc.analyze-blockchain-components.0: 20
+  - bc.analyze-blockchain-components.1: 20
+  - bc.analyze-blockchain-components.2: 20
+  - bc.analyze-blockchain-components.3: 20
+
 tags:
   - introduction
 
 links:
   - '[First block mined](https://blockchain.info/block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f)'
+
+---
+# The Bitcoin Block
 
 ---
 ## Content

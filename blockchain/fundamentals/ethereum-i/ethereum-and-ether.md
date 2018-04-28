@@ -1,4 +1,4 @@
-# Ethereum and Ether
+---
 author: edgarbarrantes
 
 levels:
@@ -22,8 +22,9 @@ tags:
 links:
 
   - [Ethereum](https://www.ethereum.org/){website}
+
 ---
-# What are Ethereum and Ether?
+# Ethereum and Ether
 
 ---
 ## Content

@@ -1,4 +1,4 @@
-# Why do we need multiple coins?
+---
 author: mihaiberq
 
 levels:
@@ -14,6 +14,9 @@ category: must-know
 tags:
 
   - introduction
+
+---
+# Why Do We Need Multiple Coins?
 
 ---
 ## Content

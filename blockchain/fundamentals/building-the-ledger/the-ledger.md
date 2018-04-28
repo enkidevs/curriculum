@@ -1,4 +1,4 @@
-# The Ledger
+---
 author: mihaiberq
 
 levels:
@@ -11,11 +11,20 @@ type: normal
 
 category: must-know
 
+standards:
+  - bc.analyze-blockchain-components.2: 10
+  - bc.identify-blockchain-applications.0: 20
+  - bc.identify-blockchain-applications.0: 10
+  - bc.analyze-network-security-policy.0: 10
+
 tags:
 
   - introduction
 
   - workout
+
+---
+# The Ledger
 
 ---
 ## Content

@@ -1,4 +1,4 @@
-# Mining Pools
+---
 author: mihaiberq
 
 levels:
@@ -11,9 +11,17 @@ type: normal
 
 category: must-know
 
+standards:
+  - bc.analyze-network-security-policy.0: 10
+  - bc.analyze-network-security-policy.2: 10
+  - bc.analyze-network-security-policy.7: 10
+
 tags:
 
   - introduction
+
+---
+# Mining Pools
 
 ---
 ## Content

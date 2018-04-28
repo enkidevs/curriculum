@@ -1,4 +1,4 @@
-# Identity
+---
 author: mihaiberq
 
 levels:
@@ -11,6 +11,10 @@ type: normal
 
 category: must-know
 
+standards:
+  - bc.analyze-blockchain-components.1: 20
+  - bc.analyze-blockchain-components.4: 20
+
 tags:
 
   - introduction
@@ -19,6 +23,9 @@ links:
 
   - '[Protocol for generating the public address](https://en.bitcoin.it/wiki/Technical_background_of_version_1_Bitcoin_addresses)'
   - '[Simpler explanation](https://bitcoin.stackexchange.com/questions/25024/how-do-you-get-a-bitcoin-public-key-from-a-private-key)'
+
+---
+# Identity
 
 ---
 ## Content

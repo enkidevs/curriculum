@@ -1,4 +1,4 @@
-# Energy Consumption and Ecology
+---
 author: mihaiberq
 
 levels:
@@ -11,9 +11,16 @@ type: normal
 
 category: must-know
 
+standards:
+  - bc.analyze-network-security-policy.1: 20
+  - bc.analyze-network-security-policy.3: 20
+
 tags:
 
   - introduction
+
+---
+# Energy Consumption and Ecology
 
 ---
 ## Content

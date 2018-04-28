@@ -1,4 +1,4 @@
-# ERC20-Tokens
+---
 author: mihaiberq
 
 levels:
@@ -14,6 +14,9 @@ category: must-know
 tags:
 
   - introduction
+
+---
+# ERC20-Tokens
 
 ---
 ## Content
