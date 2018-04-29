@@ -17,7 +17,7 @@ links:
   - '[W3S docs for div](https://www.w3schools.com/tags/tag_div.asp){website}'
 
 ---
-# Div
+# Div element
 ---
 ## Content
 
