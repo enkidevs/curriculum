@@ -44,7 +44,7 @@ The `<nav>` element is also used with screen readers who target disabled users. 
 ---
 ## Practice
 
-Select the items that would be useful placing within a `<nav>` container.
+Select the item that would be useful placing within a `<nav>` container.
 
 ???
 
