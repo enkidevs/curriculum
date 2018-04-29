@@ -17,7 +17,7 @@ links:
   - '[W3S docs for nav](https://www.w3schools.com/tags/tag_nav.asp){website}'
   
 ---
-# Nav
+# Nav element
 
 ---
 ## Content
