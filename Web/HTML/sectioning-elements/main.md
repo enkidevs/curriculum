@@ -17,7 +17,7 @@ links:
   - '[W3S docs for main](https://www.w3schools.com/tags/tag_main.asp){website}'
   
 ---
-# Main 
+# Main element
 ---
 ## Content
 
