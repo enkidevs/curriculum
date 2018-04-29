@@ -24,11 +24,10 @@ links:
 When describing semantic elements or containers, in HTML, the term `semantic` refers to when both the developer and the browser clearly understand the meaning of the element.
 
 
-Semantic elements introduced in HTML5:
+Some new semantic elements introduced in HTML5:
  - `<article>`
  - `<aside>`
  - `<details>`
- - `<figute>`
  - `<footer>`
  - `<header>`
  - `<main>`
@@ -37,17 +36,19 @@ Semantic elements introduced in HTML5:
  - `<summary>`
  - `<time>`
 
+
 Short explanation of each element:
-`<article>` = self-contained content that is distributable and reusable.
-`<aside>`= content only slightly related to the main content.
-`<details>` = widget that appears only when toggled with a `<summary>` or `<label>`
-`<footer>` = represents a root element
-`<header>` = represents introductory content
-`<main>` = represents dominant or main content
-`<nav>` = represents a section of the page for navigational links
-`<section>` = represents a standalone section
-`<summary>` = specifies a summary or caption for a `<details>` element
-`<time>` = represents a specific period in time
+
+ - `<article>` = self-contained content that is distributable and reusable.
+ - `<aside>`= content only slightly related to the main content.
+ - `<details>` = widget that appears only when toggled with a `<summary>` or `<label>`
+ - `<footer>` = represents a root element
+ - `<header>` = represents introductory content
+ - `<main>` = represents dominant or main content
+ - `<nav>` = represents a section of the page for navigational links
+ - `<section>` = represents a standalone section
+ - `<summary>` = specifies a summary or caption for a `<details>` element
+ - `<time>` = represents a specific period in time
 
 
 For some of the elements above, the equivalent way of writting in HTML4 was:
@@ -61,7 +62,12 @@ For some of the elements above, the equivalent way of writting in HTML4 was:
 
 The `<div>` and `<span>` elements are HTML containers, however, they are not semantic elements.
 
-  
+ALso, there are elements which are containers, however, they are not semantic elements.
+These are:
+ - `<div>` defines a division or section
+ - `<span>` used to group inline elements 
+ 
+ 
 ---
 ## Practice
 
