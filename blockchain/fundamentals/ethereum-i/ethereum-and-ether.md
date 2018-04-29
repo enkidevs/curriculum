@@ -21,7 +21,8 @@ tags:
 
 links:
 
-  - [Ethereum](https://www.ethereum.org/){website}
+  - >-
+    [Ethereum](https://www.ethereum.org/){website}
 
 ---
 # Ethereum and Ether
