@@ -54,6 +54,8 @@ Furthermore, if you decide to omit the `value` attribute, the default value for 
 On the other hand, if no checkbox is ticked/checked upon form submission, the name/value pair is `value=unchecked` and the value won't be submitted to the server at all.
 
 
+You can also include CSS to improve the styling. 
+
 ---
 ## Practice
 
