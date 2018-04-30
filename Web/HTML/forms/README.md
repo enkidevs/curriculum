@@ -14,6 +14,7 @@ insights:
   - text-area
   - radio-buttons
   - check-boxes
+  - checkbox-groups
   - dropdown-list
   - submit-and-reset
   - image-button
