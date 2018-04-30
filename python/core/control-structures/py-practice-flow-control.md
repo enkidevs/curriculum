@@ -35,8 +35,6 @@ links:
 ---
 ## Exercise
 
-Practice `flow control` in python. What you need to do is to press 
-
 Click *Launch Exercise* to open Codewars.
 
 On the website you will find a description of the exercise. Read this description carefully. 
