@@ -12,11 +12,13 @@ category: must-know
 parent: package-json
 
 standards:
-  js.npm-tasks-and-modules-manager.3: 10
+  js.npm-publish.3: 10
   js.use-open-source-javascript-packages.1: 10
 
 tags:
   - introduction
+  - workout
+  - deep
 
 ---
 # Semantic versioning

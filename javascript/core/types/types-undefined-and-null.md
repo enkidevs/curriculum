@@ -19,11 +19,6 @@ tags:
 
   - introduction
 
-  - workout
-
-
-
-
 ---
 
 # Types - Undefined and Null
@@ -84,4 +79,3 @@ undefined == null
 
 * true
 * false
-

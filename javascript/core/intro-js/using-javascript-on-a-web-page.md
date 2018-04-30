@@ -13,6 +13,9 @@ inAlgoPool: false
 standards:
   js.javascript-syntax.2: 10
 
+tags:
+  - introduction
+
 ---
 # Using JavaScript on a web page
 

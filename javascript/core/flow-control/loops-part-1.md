@@ -20,11 +20,6 @@ tags:
 
   - introduction
 
-  - workout
-
-
-
-
 ---
 
 # Loops - Part 1

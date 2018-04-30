@@ -21,11 +21,6 @@ tags:
 
   - introduction
 
-  - workout
-
-
-
-
 ---
 
 # Types - String
@@ -47,7 +42,7 @@ var longerText = "abc" +
 		"ghi";
 ```
 
-You can also use the backslash character to continue writing text on multiple lines (make sure nothing is after the backslash). 
+You can also use the backslash character to continue writing text on multiple lines (make sure nothing is after the backslash).
 
 ```
 var longerText = "abc\
@@ -99,4 +94,3 @@ var company = 'Enki';
 * first
 * second
 * none
-

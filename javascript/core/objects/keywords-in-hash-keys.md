@@ -14,6 +14,9 @@ standards:
   js.evaluate-expressions.6: 10
   js.evaluate-expressions.7: 10
 
+tags:
+  - introduction
+
 links:
   - '[bonsaiden.github.io](http://bonsaiden.github.io/JavaScript-Garden/){website}'
 

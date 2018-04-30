@@ -27,9 +27,6 @@ tags:
 
   - introduction
 
-  - workout
-
-
 links:
 
   - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions#Function_constructor_vs._function_declaration_vs._function_expression){website}'
@@ -42,7 +39,7 @@ links:
 ---
 ## Content
 
-The concepts of constructors, declaration and expressions are often misused. Here is the official terminology according to MDN: 
+The concepts of constructors, declaration and expressions are often misused. Here is the official terminology according to MDN:
 
 Function defined with the `function` *constructor* assigned to the variable `multiply`:
 
@@ -105,4 +102,3 @@ var multiply = function(x, y) {
 * function expression of a `function` named `mult`
 * all
 * none
-

@@ -15,9 +15,8 @@ standards:
   js.functions.5: 10
 
 tags:
-  - workout
+  - introduction
   - hoisting
-  - deep
   - variables
   - obscura
 

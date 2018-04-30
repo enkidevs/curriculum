@@ -16,7 +16,6 @@ standards:
 
 tags:
   - introduction
-  - workout
 
 ---
 # JavaScript Basics - Part 1

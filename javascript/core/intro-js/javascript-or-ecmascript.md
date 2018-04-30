@@ -12,7 +12,6 @@ inAlgoPool: false
 
 tags:
   - introduction
-  - workout
   - obscura
 
 links:

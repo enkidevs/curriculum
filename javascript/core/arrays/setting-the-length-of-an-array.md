@@ -19,12 +19,9 @@ standards:
 
 tags:
 
-  - workout
+  - introduction
 
   - obscura
-
-
-
 
 ---
 

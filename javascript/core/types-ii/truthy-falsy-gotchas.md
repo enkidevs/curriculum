@@ -20,7 +20,6 @@ standards:
 
 tags:
   - introduction
-  - workout
 
 links:
   - '[Mozilla Developer Network](https://developer.mozilla.org/en/docs/Web/JavaScript/Equality_comparisons_and_sameness){website}'
