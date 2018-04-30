@@ -21,11 +21,6 @@ tags:
 
   - introduction
 
-  - workout
-
-
-
-
 ---
 
 # The difference between null, undefined and NaN
@@ -86,4 +81,3 @@ console.log(x);
 * `NaN`
 * `undefined`
 * `null`
-

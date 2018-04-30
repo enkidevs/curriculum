@@ -19,11 +19,6 @@ tags:
 
   - introduction
 
-  - workout
-
-
-
-
 ---
 
 # Loops - Part 2

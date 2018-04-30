@@ -18,7 +18,6 @@ standards:
 
 tags:
   - introduction
-  - workout
 
 ---
 # Types - Boolean and Number

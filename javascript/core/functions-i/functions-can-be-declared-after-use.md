@@ -21,11 +21,6 @@ tags:
 
   - introduction
 
-  - workout
-
-
-
-
 ---
 
 # Functions can be declared after use
@@ -33,21 +28,21 @@ tags:
 ---
 ## Content
 
-Function **declarations** load before other code is executed. This means that the function can be declared after it has been used. 
+Function **declarations** load before other code is executed. This means that the function can be declared after it has been used.
 
 For example:
 ```
 alert(foo()); // Alerts 'Enki'.
 // Function declaration
-function foo() { return 'Enki'; } 
+function foo() { return 'Enki'; }
 ```
 
 If however a function **expression** is used rather than a function **declaration** an error will be produced:
 
 ```
-alert(foo()); // Error! 
+alert(foo()); // Error!
 // Function expression
-var foo = function() { return 'Enki'; } 
+var foo = function() { return 'Enki'; }
 ```  
 This is because function **expressions** are evaluated from the top-down as normal.
 
@@ -57,8 +52,8 @@ This is because function **expressions** are evaluated from the top-down as norm
 Give the output:
 ```
 alert(foo()); // ???
-var foo = function() { return 'Enki'; } 
-``` 
+var foo = function() { return 'Enki'; }
+```
 
 * error
 * alerts 'Enki'
@@ -69,9 +64,8 @@ var foo = function() { return 'Enki'; }
 Give the output:
 ```
 alert(foo()); // ???
-function foo() { return 'Enki'; } 
-``` 
+function foo() { return 'Enki'; }
+```
 
 * alerts 'Enki'
 * error
-

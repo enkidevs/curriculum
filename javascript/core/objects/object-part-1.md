@@ -23,8 +23,6 @@ tags:
 
   - introduction
 
-  - workout
-
 
 links:
 

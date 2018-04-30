@@ -22,11 +22,6 @@ tags:
 
   - introduction
 
-  - workout
-
-
-
-
 ---
 
 # Arrays

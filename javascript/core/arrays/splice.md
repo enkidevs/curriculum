@@ -17,6 +17,9 @@ standards:
   js.data-types-structures.3: 1000
   js.standard-library.4: 1000
 
+tags:
+  - introduction
+
 links:
 
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/splice){website}'

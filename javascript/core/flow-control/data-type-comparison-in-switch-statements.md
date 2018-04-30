@@ -19,8 +19,6 @@ tags:
 
   - introduction
 
-  - workout
-
 
 links:
 
@@ -104,4 +102,3 @@ switch(x){
 * `nothing`
 * `'Hi!'`
 * `an error`
-
