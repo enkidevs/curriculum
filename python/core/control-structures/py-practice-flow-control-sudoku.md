@@ -35,7 +35,7 @@ links:
 ---
 ## Exercise
 
-Practice flow control `structures` in python. What you need to do is to press 
+Practice flow control `structures` in python.
 
 Click *Launch Exercise* to open Codewars.
 
