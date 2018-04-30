@@ -1,5 +1,5 @@
-# Semantic Containers
-author: matthew-leach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -12,55 +12,108 @@ category: must-know
 tags:
   - introduction
 
+links:
+  - '[MDN docs for semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics){website}'
+  - '[W3s docs for semantics](https://www.w3schools.com/html/html5_semantic_elements.asp){website}'
+  
+---
+# Semantic Containers
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+When describing semantic elements or containers, in HTML, the term `semantic` refers to when both the developer and the browser clearly understand the meaning of the element.
 
+
+Some new semantic elements introduced in HTML5:
+ - `<article>`
+ - `<aside>`
+ - `<details>`
+ - `<footer>`
+ - `<header>`
+ - `<main>`
+ - `<nav>`
+ - `<section>`
+ - `<summary>`
+ - `<time>`
+
+
+Short explanation of each element:
+
+ - `<article>` = self-contained content that is distributable and reusable.
+ - `<aside>`= content only slightly related to the main content.
+ - `<details>` = widget that appears only when toggled with a `<summary>` or `<label>`
+ - `<footer>` = represents a root element
+ - `<header>` = represents introductory content
+ - `<main>` = represents dominant or main content
+ - `<nav>` = represents a section of the page for navigational links
+ - `<section>` = represents a standalone section
+ - `<summary>` = specifies a summary or caption for a `<details>` element
+ - `<time>` = represents a specific period in time
+
+
+For some of the elements above, the equivalent way of writting in HTML4 was:
+ - `<div class="article">`
+ - `<div class="aside">`
+ - `<div class="footer">`
+ - `<div class="header">`
+ - `<div class="main">`
+ - `<div class="nav">`
+ - `<div class="section">`
+
+The `<div>` and `<span>` elements are HTML containers, however, they are not semantic elements.
+
+Also, there are elements which are containers, however, they are not semantic elements.
+
+These are:
+ - `<div>` defines a division or section
+ - `<span>` used to group inline elements 
+
+ 
 ---
 ## Practice
 
-Select the semantic container elements in HTML5?
+Select which is not a semantic container element in HTML5?
 
-+ header
-+ footer
-+ nav
-+ main
-- side
-- span
-- div
-- container
+???
+
+ * container
+ * header
+ * footer
+ * nav
+ * main
 
 ---
 ## Revision
 
-Header, footer, nav, main are best described as what in HTML?
+`<header>`, `<footer>`, `<nav>`, `<main>`, `<article>`, `<aside>`, `<section>` are best described as what in HTML?
 
 ???
 
-* semantic elements
-* container attributes
-* division blocks
-* tangentially related
-* generic containers
-* layout boxes
-* articulated profiles
+ * semantic elements
+ * container attributes
+ * division blocks
+ * tangentially related
+ * generic containers
+ * layout boxes
+ * articulated profiles
 
 ---
 ## Quiz
+
+### How much do you know about sectioning elements?
 
 What is the term that refers to "when both developers and search engines understand the organization of the page content"?
 
 ???
 
-* semantic
-* curated
-* embedded
-* impressionistic
-* influenced
-* organic
-* affiliated
-* optimized
+ * semantic
+ * curated
+ * embedded
+ * impressionistic
+ * influenced
+ * organic
+ * affiliated
+ * optimized
 
 ## Game
 

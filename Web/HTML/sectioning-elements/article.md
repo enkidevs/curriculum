@@ -1,5 +1,5 @@
-# Article
-author: matthew-leach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -12,21 +12,56 @@ category: must-know
 tags:
   - introduction
 
+links:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article
+  - https://www.w3schools.com/tags/tag_article.asp
+  
+---
+# Article
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+The HTML `<article>` element is used to represent independent, self-contained content in a document, page, website or an application. This content is independently reusable and shared outside or within a web page.
+The `<article>` element can contain:
+  - a forum post
+  - a magazine
+  - a newspaper article
+  - blog entry
+
+The `<article>` element belongs to the group **Semantic Elements**. 
+Semantic elements are elements that clearly define their content both for the browser and developer.
+
+Example:
+```
+<article>
+  <h1>Facebook</h1>
+  <p>
+    Connect with friends, 
+    family and other people you know. 
+    Share photos and videos, 
+    send messages and get updates.
+  </p>
+</article>
+```
+
+Additionally, each `<article>` element should be properly identified by adding a heading element(`<h1>`-`<h6>`) as it's child.
+
+You can also nest `<article>` elements. When nested within another `<article>` element, the inner `<article>` element represents an article related to the outer element. For instance, comments on a social media post can be `<article>` elements nested within the `<article>` element representing that social media post.
+
+Adding the author to the `<article>` element will only work if that `<article>` element is not nested.
 
 ---
 ## Practice
 
-The `<article>` element is encouraged to contain which of the following?
+The `<article>` element can contain which of the following?
 
-+ Contact Form
-- Forum post
-- Blog post
-- News story
-- Comment
+???
+
+* All 4
+* Forum post
+* Blog post
+* News story
+* Magazine
 
 ---
 ## Revision
@@ -45,6 +80,8 @@ Which HTML container element should be used to hold independent, self-contained 
 
 ---
 ## Quiz
+
+### How much do you know about the HTML sectioning elements?
 
 Which HTML container would be best when used on its own in a feed reader?
 
