@@ -62,11 +62,12 @@ For some of the elements above, the equivalent way of writting in HTML4 was:
 
 The `<div>` and `<span>` elements are HTML containers, however, they are not semantic elements.
 
-ALso, there are elements which are containers, however, they are not semantic elements.
+Also, there are elements which are containers, however, they are not semantic elements.
+
 These are:
  - `<div>` defines a division or section
  - `<span>` used to group inline elements 
- 
+
  
 ---
 ## Practice
