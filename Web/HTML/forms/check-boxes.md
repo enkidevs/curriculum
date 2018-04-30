@@ -35,10 +35,14 @@ Example with one checkbox:
       name="report" 
       value="bankaccount">
     <label 
-    for="reportProblem">Report a problem</label>
+      for="reportProblem">
+      Report a problem
+    </label>
   </div>
   <div>
-    <button type="submit">Report</button>
+    <button type="submit">
+      Report
+    </button>
   </div>
 </form>
 ```
@@ -55,7 +59,9 @@ On the other hand, if no checkbox is ticked/checked upon form submission, the na
 
 Write the form code that creates a checkbox.
 
-`<??? ???="???">`
+```
+<??? ???="???">
+```
 
 * input
 * type
@@ -70,8 +76,8 @@ Which line creates an HTML form’s checkbox?
 
 ???
 
-`<input type="checkbox">`
-`<input type="check">`
-`<form input="check">`
-`<form input="checkbox">`
+* `<input type="checkbox">`
+* `<input type="check">`
+* `<form input="check">`
+* `<form input="checkbox">`
 
