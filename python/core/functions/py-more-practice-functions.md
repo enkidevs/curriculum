@@ -8,11 +8,7 @@ levels:
   - basic
 
 tags:
-
   - workout
-
-tags:
-  - introduction
 
 type: exercise
 
