@@ -13,13 +13,8 @@ insights:
   - text-field
   - text-area
   - radio-buttons
- - check-boxes 
+  - check-boxes 
   - checkbox-groups
   - dropdown-list
   - submit-and-reset
   - image-button
-
-
-
-
-
