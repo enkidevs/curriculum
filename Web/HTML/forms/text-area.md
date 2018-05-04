@@ -1,5 +1,5 @@
-# Text Area
-author: matthewleach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -11,15 +11,51 @@ category: must-know
 
 stub: true
 
-
 tags:
   - workout
 
-
+links:
+  - '[MDN docs for textarea](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea){website}'
+  
+---
+# Text Area
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+
+The HTML `<textarea>` element is used to represent a multi-line input text area.
+
+Simple example:
+```
+<textarea 
+  name="textbox">
+</textarea>
+```
+
+The `<textarea>` element has many attributes. Some of them:
+  - `autocomplete` enables autocomplete for text area
+  - `autofocus` sets focus on text area upon page load
+  - `cols`  
+  - `maxlength`
+  - `minlength`
+  - `readonly` 
+  - `placeholder` 
+  - `rows`
+  
+  
+Example with attributes:
+```
+<textarea 
+   name="textarea" rows="10" 
+   cols="30" 
+   placeholder="Enter text here">
+</textarea>
+```
+
+In the example above, `rows="10"` specifies the number of visible text lines for the control,  `cols="30"` specifies the average characters width and the `placeholder` attribute presents a hint which disappears after the user types something and reappears if there is no input.
+
+
+
 
 ---
 ## Practice
@@ -51,7 +87,7 @@ Which element creates a multi-line input field that is 10 lines of text in heigh
 ---
 ## Quiz
 
-How much do you know about text fields?
+### How much do you know about text fields?
 
 In this code, how are rows and columns measured?
 
