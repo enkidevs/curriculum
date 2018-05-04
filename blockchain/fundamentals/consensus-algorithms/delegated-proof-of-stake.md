@@ -12,11 +12,11 @@ type: normal
 category: must-know
 
 standards:
-  - bc.analyze-network-security-policy.0: 10
-  - bc.analyze-network-security-policy.5: 20
-  - bc.analyze-network-security-policy.6: 20
-  - bc.analyze-network-security-policy.7: 10
-  - bc.analyze-network-security-policy.8: 10
+  bc.analyze-network-security-policy.0: 10
+  bc.analyze-network-security-policy.5: 20
+  bc.analyze-network-security-policy.6: 20
+  bc.analyze-network-security-policy.7: 10
+  bc.analyze-network-security-policy.8: 10
 
 tags:
 
@@ -39,7 +39,14 @@ Having nodes collaborate rather than compete for publishing blocks (specific to 
 ---
 ## Practice
 
-What is the d
+Why is DPoS more centralized than PoS?
+
+???
+
+* Only a limited number of nodes can propose blocks
+* Only nodes with more tokens than average can propose blocks
+* On the contrary, PoS is more centralized
+* Because it is faster
 
 ---
 ## Revision
