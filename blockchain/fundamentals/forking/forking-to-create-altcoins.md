@@ -12,9 +12,9 @@ type: normal
 category: must-know
 
 standards:
-  - bc.architect-blockchain.0: 10
-  - bc.compare-altcoins.1: 10
-  - bc.compare-altcoins.4: 10
+  bc.architect-blockchain.0: 10
+  bc.compare-altcoins.1: 10
+  bc.compare-altcoins.4: 10
 
 tags:
 
