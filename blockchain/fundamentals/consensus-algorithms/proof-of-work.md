@@ -72,13 +72,13 @@ Who does PoW scheme usually advantage?
 ---
 ## Quiz
 
-headline: Identify the resource intensive consensus algorithm.
+### Identify the resource intensive consensus algorithm.
 
-question: Which mining validation technique is the most resource intensive for miners?
+Which mining validation technique is the most resource intensive for miners?
 
-answers:
-  - Proof of work
-  - Proof of stake
-  - Proof of burn
-  - Proof of sweat
+
+- Proof of work
+- Proof of stake
+- Proof of burn
+- Proof of sweat
 
