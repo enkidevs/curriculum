@@ -12,11 +12,11 @@ type: normal
 category: must-know
 
 standards:
-  - bc.compare-altcoins.0: 10
-  - bc.compare-altcoins.1: 10
-  - bc.compare-altcoins.2: 40
-  - bc.compare-altcoins.3: 10
-  - bc.compare-altcoins.4: 20
+  bc.compare-altcoins.0: 10
+  bc.compare-altcoins.1: 10
+  bc.compare-altcoins.2: 40
+  bc.compare-altcoins.3: 10
+  bc.compare-altcoins.4: 20
 
 tags:
 
@@ -53,12 +53,10 @@ Identify one way of creating new cryptocurrencies:
 ---
 ## Revision
 
-Evaluate the following statement: "Some altcoins are created solely to be scams."
-
-Is it true or false?
+Blockchain-based projects, as any other start-ups, are more likely to fail than succeed. Therefore, is an altcoin guaranteed to be valuable in the future? 
 
 ???
 
-* True
 * False
+* True
 
