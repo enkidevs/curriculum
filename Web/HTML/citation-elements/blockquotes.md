@@ -31,7 +31,7 @@ Example:
  evoke three stages of reaction. <br>
  They may be summed up by the phrases:<br>
  It's completely impossible.<br>
- It's possible, but it's not worth doing.<br>
+ It's possible, but not worth doing.<br>
  I said it was a good idea all along.<br>
 - Arthur C. Clarke
 </blockquote> 
