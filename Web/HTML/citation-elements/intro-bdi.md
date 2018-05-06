@@ -1,5 +1,5 @@
-# bdi Element
-author: matthewleach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -11,26 +11,74 @@ category: must-know
 
 stub: true
 
-
 tags:
   - obscura
 
-
+links:
+  - '[MDN docs for bdi](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdi){website}'
+  
+---
+# bdi Element
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+The HTML `<bdi>`, or **The Bidirectional Isolation element** is used to isolate a span of text that might be formatted in a different direction than other text.
+
+This element is also useful for text whose direction is unknown.
+
+For instance, you can use this on a text that is in English(written left-right), to present it in Arabic (written right-left). The '[user agent](https://developer.mozilla.org/en-US/docs/Glossary/user_agent)'  detects then detects that the text should be rendered differently and adjusts accordingly.
+
+Also, if you want numbers displayed properly with, for instance, Arabic, you have to use the `<bdi>` element:
+
+Example:
+```
+<p>
+  User: 
+  <bdi>ماثيو</bdi> 
+  428 points.
+</p>
+
+```
+Result:
+```
+  User: 
+  ماثيو 
+  428 points.
+```
+On the other hand, if you don't use the `<bdi>` element, like so:
+```
+<p>
+  User: 
+  ماثيو 
+  428 points.
+</p>
+```
+The result would be:
+```
+  User: 
+  428 
+  ماثيو  
+  points.
+```
+  
+**Note: The `<dir>` attribute doesn't behave normally like other attributes. When nesting with `<bdi>` it defaults to`auto`, meaning the value is never inherited from the parent. So, unless you specify an `rtl` or `ltr` attribute for `dir`, the user agent will determine the correct directionality from the content of the `<bdi>` element.**
+
+By using the `unicode-bidi : isolate` CSS rule you can achieve the same effect as with the `<bdi>` element. Nevertheless, it is always better to use the `<bdi>` because it provides important semantic meaning, whereas the CSS rule is only presentational.
+
+This is also important because browsers can ignore CSS styling. So using `<bdi>` displays text correctly, whereas with the CSS `unicode-bidi: isolate` styling would render the text backward due to loss of styling.
+
 
 ---
 ## Practice
 
-Which statements about the `<bdi>` element are correct?
+Which statement about the `<bdi>` element is correct?
 
-+ used on a span of text
-+ preserves unknown text direction
-- displays the letters backwards. 
-- displays the letters mirrored.
-- helps search engines understand the directory of text.
+???
+
+* preserves unknown text direction
+* displays the letters backwards. 
+* displays the letters mirrored.
+* helps search engines understand the directory of text.
 
 ---
 ## Revision
@@ -49,11 +97,15 @@ Which HTML element is used to isolate a span of text that might be formatted in 
 ---
 ## Quiz
 
-How much do you know about citation elements in HTML?
+### How much do you know about citation elements in HTML?
 
 Without the `<bdi>` element, what would happen to the Arabic username and the points?
 
-```<p>User: <bdi>ماثيو</bdi> 428 points.</p>```
+```
+<p>
+  User: <bdi>ماثيو</bdi> 428 points.
+</p>
+```
 
 * The points will display before the name.
 * The name will not display at all.
