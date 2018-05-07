@@ -67,8 +67,8 @@ Create a new schedule and set it to enter second with priority = 1 and delay = 4
 import sched
 import time
 
-start = 2018-03-23 21:55:19.629694
-stop = 2018-03-24 21:55:19.629694
+start = '2018-03-23 21:55:19.629694'
+stop = '2018-03-24 21:55:19.629694'
 sc=???.scheduler(???.start,???.stop)
 
 sc.enter(???,???,print,???)
