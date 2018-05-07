@@ -43,10 +43,31 @@ However, the set of generated values can only be used once.
 ---
 ## Practice
 
-When using generators ??? wait for all the values to be generated before using them.
+What will the output of the following code snippet be?
 
-* we don't have to
-* we have to
+```python
+
+def my_gen(number):
+  number -= 1
+  yield number
+  yield number
+  number += 1
+  yield number
+
+temp = my_gen(10)
+print(next(temp))
+print(next(temp))
+```
+
+???
+
+* 9 9
+* 9 8
+* 9 10
+* 10 9
+* 10 10
+* 10 8
+
 
 ---
 ## Revision
