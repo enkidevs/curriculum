@@ -23,6 +23,8 @@ tags:
 links:
 
   - '[www.jeffknupp.com](https://www.jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/){website}'
+  - '[Python oficial documentation](https://www.python-course.eu/python3_generators.php){website}'
+  - '[A blog post talking about generators](http://book.pythontips.com/en/latest/generators.html){website}'
 
 
 ---
