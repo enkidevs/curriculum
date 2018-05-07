@@ -64,6 +64,10 @@ new = filter(??? x: ???, ???)
 * lambda
 * x > 0
 * l
+* x < 0
+* map
+* list
+
 
 ---
 ## Revision
@@ -86,5 +90,4 @@ square = ??? ???: x * x
 * `new`
 * `instance`
 * `function`
-lamb
 
