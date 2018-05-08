@@ -31,11 +31,7 @@ links:
 ---        
 ## Exercise
 
-Click *Launch Exercise* to open SQLFiddle. Run *Build Schema*. This creates and populates the Pokemon database.
-
 Write a query that retrieves all columns from the `move_name` table where the move's `id` is greater than 220.
-
-Click *Run SQL*. Then click *link* in the green bar below the output. This will update the URL in the address bar of your browser. Copy the new URL to submit with your answer.
 
 In the answer field, enter all the values from the top row of the results.
 
