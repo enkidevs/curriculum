@@ -18,11 +18,22 @@ tags:
 ---
 # Why Is the Price Fluctuating so Much?
 
-
 ---
 ## Content
 
+forex market
 
+currency represents economy of a country
+
+5 trillions vs 26 billion traded
+
+Adoption is still low
+
+whales exist
+
+the higher the traded volume, the more they will fluctuate 
+
+bull/bear
 
 ---
 ## Practice
