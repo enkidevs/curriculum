@@ -1,5 +1,5 @@
-# Intro q
-author: matthewleach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -11,31 +11,70 @@ category: must-know
 
 stub: true
 
-
 tags:
   - deep
 
-
+links:
+  - '[MDN docs for q](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q){website}'
+  
+---
+# Intro q
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+The HTML `<q>`, or **The Inline Quotation element** is used for indicating short quotations. This element is displayed as an inline element and is typically used for short quotations that don't require paragraph breaks. On the other hand, if you need a larger quotation, you should use the `<blockquote>` element.
+
+Furthermore, most browsers implement the `<q>` element by placing quotation marks. 
+
+Example:
+```
+<p>
+  <cite>
+    Carrie Bradshaw
+  </cite> 
+  said 
+  <q cite="#">
+    Shopping is my cardio
+  </q> 
+  and that is pretty awesome.
+</p>
+```
+
+Result:
+```
+  Carrie Bradshaw
+  said 
+  " Shopping is my cardio " 
+  and that is pretty awesome.
+```
+
+Even though most modern browsers automatically add quotations for the `<q>` element, some older browsers may require a style rule to be added for quotation marks to appear.
 
 ---
 ## Practice
 
-Which statements about the `<q>` element are correct?
+Which statements about the `<q>` element is not correct?
 
-```<p><cite>Carrie Bradshaw</cite> said <q cite="#">Shopping is my cardio</q> and that is pretty awesome.</p>```
+```
+<p>
+  <cite>
+    Carrie Bradshaw
+  </cite> 
+  said 
+  <q cite="#">
+    Shopping is my cardio
+  </q> 
+  and that is pretty awesome.
+</p>
+```
 
-+ used for indicating short quotations
-+ used within non-quoted paragraphs
-+ quotation marks usually added around text by browsers
-+ displays as an inline element
-+ used for indicating long quotations
-- used when quotation spans multiple lines
-- typically displayed as italic text by default
-- displays as a block element
+???
+
+* used when quotation spans multiple lines
+* used for indicating short quotations
+* quotation marks usually added around text by browsers
+* displays as an inline element
+
 
 ---
 ## Revision
@@ -55,11 +94,22 @@ Which HTML element is best to indicate short quotations?
 ---
 ## Quiz
 
-How much do you know about quotes in web pages?
+### How much do you know about quotes in web pages?
 
 What is the most appropriate HTML element to use here?
 
-```<p>As <cite>Ron Burgundy</cite> shouted <tag cite="#">I'm not a baby! I'm a man! An ANCHORMAN!</tag></p>```
+```
+<p> As 
+  <cite>Ron Burgundy</cite> 
+  shouted 
+  <tag cite="#">
+    I'm not a baby!
+    I'm a man! 
+    An ANCHORMAN!
+  </tag>
+</p>
+
+```
 
 tag = ???
 
