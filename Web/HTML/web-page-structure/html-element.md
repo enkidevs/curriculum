@@ -1,5 +1,5 @@
-# The `html` Element
-author: matthew-leach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -12,10 +12,39 @@ category: must-know
 tags:
   - introduction
 
+links:
+  - '[MDN docs for html](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html){website}'
+
+---
+# The `html` Element
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+The HTML `<html>`, or, **The HTML Document/Root Element** is used to represent the root of an HTML document.
+
+The `<html>` element is called the `root` element because it has to be on the top of a document. Also, it is the single HTML element that contains every other HTML element. This means all other elements have to be descendants of the `<html>` element.
+
+Example:
+```
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>...</head>
+  <body>...</body>
+</html>
+```
+
+Adding the `lang` attribute with a valid language tag is very important for helping screen readers determine the proper language. Also, the `lang` attributes value should describe a language which is used in the majority of the content of the page. On the other hand, if you do not include the `lang` attribute, screen readers will use the operating system's set language, which is not good, because it can cause mispronunciations.
+
+Furthermore, if you include a valid `lang` in the `<html>` element, you ensure all metadata will be announced properly.
+
+The `<html>` is modifiable with CSS by using the `:root` selector. 
+For instance, by adding:
+```
+:root { 
+    background: #ff0000;
+}
+```
+we change the color of the html page into red.
 
 ---
 ## Practice
@@ -55,6 +84,8 @@ What HTML element is best to assign the document’s primary language?
 
 ---
 ## Quiz
+
+### How much do you know about using CSS with HTML?
 
 Using a `:root` selector in CSS will target which HTML element?
 
