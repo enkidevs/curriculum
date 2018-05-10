@@ -1,5 +1,5 @@
-# The `head` Element
-author: matthew-leach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -12,10 +12,63 @@ category: must-know
 tags:
   - introduction
 
+links:
+  - '[MDC docs for Metadata](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)(website)'
+  - '[MDN docs for head](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head){website}'
+
+---
+# The `head` Element
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+The HTML `<head>`, or, **The Document Metadata Element** is used to provide metadata about the document. The `<head>` elements content is never displayed on the page, unlike the content of the `<body>` element. 
+
+Example of metadata:
+  - character set
+  - document title
+  - links
+  - styles
+  - scripts
+  - etc.
+  
+Simple example:
+```
+<html>
+  <head>
+    meta charset="utf-8">
+    <title>Enki</title>
+  </head>
+  <body>
+    <p>Enki page</p>
+  </body>
+</html>
+```
+
+In the example above, we have a simple head element with character encoding and a title of the page. 
+
+The `<head>` element can also contain a page description for search engines or links to CSS and JS files. On the other hand, the `<head>` element should never contain the web page's logo, the primary heading of the page nor the documents primary language.
+
+Larger example:
+```
+<html>
+  <head>
+    meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="description"  
+      content="Free Web tutorials">
+    <meta name="keywords" 
+      content="HTML,CSS,JavaScript">
+    <meta name="author"
+      content="Authors Name">
+    <title>Enki</title>
+  </head>
+  <body>
+    <p>Enki page</p>
+  </body>
+</html>
+```
+
+**Note: WHen it comes to ordering CSS and JS, always add CSS first. Explanation on '[StackOverflow](https://stackoverflow.com/questions/9271276/is-the-recommendation-to-include-css-before-javascript-invalid)'.**
 
 ---
 ## Practice
@@ -49,6 +102,8 @@ The `<head>` of web pages should not contain what?
 
 ---
 ## Quiz
+
+### How much do you know about the `<head>` HTML elemet?
 
 What order is recommended for adding CSS & JS in the `<head>` of an HTML page?
 
