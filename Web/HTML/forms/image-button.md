@@ -73,14 +73,25 @@ The `formtarget` specifies where the response is displayed once the form is subm
   - `_top` open in the top-level browsing content, if no top level, same as `_self`
   
 
----------------->ADD EXAMPLE WITH IMAGE HERE<-------------
+
+Example with big play button image:
+```
+<input 
+  id="image" type="image" 
+  alt="Black Play button image"
+  src="playbutton-image.jpeg">
+```
+Result
+![Play logo](%3Csvg%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20x%3D%220px%22%20y%3D%220px%22%20viewBox%3D%220%200%20459%20459%22%20style%3D%22enable-background%3Anew%200%200%20459%20459%3B%22%3E%3Cg%3E%3Cg%3E%3Cpath%20d%3D%22M229.5%2C0C102.751%2C0%2C0%2C102.751%2C0%2C229.5S102.751%2C459%2C229.5%2C459S459%2C356.249%2C459%2C229.5S356.249%2C0%2C229.5%2C0z%20M310.292%2C239.651%0D%0A%09%09%09l-111.764%2C76.084c-3.761%2C2.56-8.63%2C2.831-12.652%2C0.704c-4.022-2.128-6.538-6.305-6.538-10.855V153.416%0D%0A%09%09%09c0-4.55%2C2.516-8.727%2C6.538-10.855c4.022-2.127%2C8.891-1.857%2C12.652%2C0.704l111.764%2C76.084c3.359%2C2.287%2C5.37%2C6.087%2C5.37%2C10.151%0D%0A%09%09%09C315.662%2C233.564%2C313.652%2C237.364%2C310.292%2C239.651z%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+
+
 
 ---
 ## Practice
 
 Write the form code that creates an image button.
 
-`<??? ???="???" ???="button.png" ???="Send" />`
+`<??? ???="???" ???="button.png" ???="Send" >`
 
 * input
 * type
@@ -97,11 +108,24 @@ What code is used to replace an image with a form's submit button?
 
 ???
     
-* `<input type="image" src="button.png" />`
-* `<img type="submit" src="button.png" />`
-* `<input type="submit" src="button.png" />`
-* `<img type="image" src="button.png" />`
+* `<input type="image" src="button.png" >`
+* `<img type="submit" src="button.png" >`
+* `<input type="submit" src="button.png" >`
+* `<img type="image" src="button.png" >`
 
 
+---
+## Quiz
 
+### How much do you know about image buttons?
 
+Which attribute is not a valid image button attribute for overriding default form behaviors?
+
+???
+
+* formoverride
+* formaction
+* formmethod
+* formnovalidate
+* formtarget
+* formenctype
