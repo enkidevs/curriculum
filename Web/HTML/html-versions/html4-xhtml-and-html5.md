@@ -14,6 +14,11 @@ stub: true
 tags:
   - obscura
 
+links:
+  - '[MDN docs for HTML](https://developer.mozilla.org/en-US/docs/Web/HTML){website}'
+  - '[MDN docs for HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5){website}'
+  - '[W3 docs for HTML5 vs HTML4](https://www.w3.org/TR/html5-diff/){website}'
+  
 ---
 # HTML4, XHTML, & HTML5
 ---
@@ -29,9 +34,9 @@ XHTML, which stands for **eXtensible HyperText Markup Language** is basically HT
 Unlike in HTML, XHTML elements have to be properly nested, always be closed, written in lowercase, and can have only one root element.
 Attributes in XHTML need quotation, cannot be used with minimization and require to be written in lowercase.
 
-The `doctype` declaration also differs.
+The `doctype` declaration also differs for each version.
 
-HTML5 Doctype declaration:
+HTML5 has 1 Doctype declaration:
 ```
 <!DOCTYPE html>
 ```
@@ -86,13 +91,16 @@ XHTML Transitional:
   /xhtml1-transitional.dtd">
 ```
 
-A lot of elements from HTML4 were deprecated in HTML5. This means that those elements can be used to display HTML but are best edited using CSS. Some of those elements are `<basefont>`, `<center>`, `<font>` and `<strike>`.  The `<basefont>` and `<font>` elements were used to set the default font size and font styles for a web page or document. However, now there are many alternative CSS properties that should be used instead to achieve the same result. These are `font`, `font-family`, `font-size`, `font-style`, etc. The `<center>` element was used to center elements and the `<strike>` element was used to create a strikethrough text. Both of these are edited much easier and more precisely with CSS.
+A lot of elements from HTML4 were deprecated and made obsolete in HTML5. Deprecated means that even though these elements can be used to style how HTML is displayed, it's better to use CSS instead. Some of these elements are `<basefont>`, `<center>`, `<font>` and `<strike>`.  The `<basefont>` and `<font>` elements were used to set the default font size and font styles for a web page or document. However, now there are many alternative CSS properties that should be used instead for achieving the same result. These are `font`, `font-family`, `font-size`, `font-style`, etc. The `<center>` element was used to center elements and the `<strike>` element was used to create a strikethrough text. Both of these are edited much easier and more precisely with CSS. 
 
-Additionally, HTML5 has many new features that HTML4 doesn't have. Some of these are:
+Additionally, HTML5 has none of the presentational attributes which were used in HTML4. This is because handling those functionalities is much better with CSS.
+
+Also, HTML5 has many new features that HTML4 doesn't have. Some of these are:
   - audio and video for multimedia content
   - track to provide text tracks for the video element
   - embed for plugin content
   - new geolocation features
+
 
 ---
 ## Practice
@@ -101,62 +109,50 @@ Which version of HTML is the oldest still in use today?
 
 ???
 
- * HTML4
- * HTML5
- * HTML1
- * HTML2
- * HTML3
-
 What does XHTML stand for?
 
 ???
-
- * eXtensible Hypertext Markup Language
- * eXtensive Hypertext Madeup Language
- * eXpressive Hypertype Markup Language
- * eXtensible Hypertext Markup Library
  
 What is the main difference between HTML4 and XHTML?
 
 ???
 
- * all tags, once opened, must be closed in XHTML, but not in HTML4
- * all tags, once opened, must be closed in HTML4, but not in XHTML
- * all elements must be written in uppercase in XHTML, but not in HTML4
- * All attribute values have to be written in lowercase in HTML4, but not in XHTML
-
-Which of these HTML elements were removed in HTML5?
+Which of these HTML elements was not removed in HTML5?
 
 ???
-???
-???
-???
 
- + `<basefont>`
- + `<center>`
- + `<font>`
- + `<strike>`
- - `<small>`
- - `<big>`
- - `<input>`
- - `<form>`
+* HTML4
+* eXtensible Hypertext Markup Language
+* all tags, once opened, must be closed in XHTML, but not in HTML4
+* `<form>`
+* HTML5
+* HTML1
+* HTML2
+* HTML3
+* eXtensive Hypertext Madeup Language
+* eXpressive Hypertype Markup Language
+* eXtensible Hypertext Markup Library
+* all tags, once opened, must be closed in HTML4, but not in XHTML
+* all elements must be written in uppercase in XHTML, but not in HTML4
+* All attribute values have to be written in lowercase in HTML4, but not in XHTML
+* `<basefont>`
+* `<center>`
+* `<font>`
+* `<strike>`
+
 
 ---
 ## Revision
 
-All the tags used in XHTML are the same in HTML4.
-Which of the following was not considered the biggest new features in HTML5?
+Is this statement true?
+HTML5 supports approx. 50% of the presentational attributes that were in HTML4?
 
 ???
 
-HTML5 supports approx. 50% of of the presentational attributes that were in HTML4?
-
-???
-* 
-* F (none - all using CSS)
-* Play Videos without plugins
-* Websites can locate user’s location.
-* Create graphic using canvas
+* No because there are no presentational attributes from HTML4 that are supported in HTML5.
+* No, because all presentational attributes from HTML4 are supported in HTML5.
+* Yes.
+* No, because presentational attributes only existed in HTML1.
 
 ---
 ## Quiz
@@ -167,7 +163,7 @@ When referring to deprecated HTML tags, what does that mean?
 
 ???
 
- * HTML elements that are not supported by HTML and better handled using CSS.
- * HTML elements that are best used with certain features
- * HTML elements that will never be obsolete
- * HTML elements that are not appreciated enough
+* HTML elements which are no longer supported and are replaced with better and more functional CSS alternatives.
+* HTML elements that are best used with certain features.
+* HTML elements that will never be obsolete.
+* HTML elements that are not appreciated enough.
