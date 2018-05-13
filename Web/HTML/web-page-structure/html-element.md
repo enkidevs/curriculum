@@ -37,14 +37,14 @@ Adding the `lang` attribute with a valid language tag is very important for help
 
 Furthermore, if you include a valid `lang` in the `<html>` element, you ensure all metadata will be announced properly.
 
-The `<html>` is modifiable with CSS by using the `:root` selector. 
-For instance, by adding:
+Also, the `<html>` element is easily modifiable with CSS by using the `:root` selector. 
+For instance, by adding the CSS:
 ```
 :root { 
     background: #ff0000;
 }
 ```
-we change the color of the html page into red.
+we change the background color of the whole html page into red.
 
 ---
 ## Practice
@@ -69,17 +69,17 @@ What HTML element is best to assign the document’s primary language?
 
 `<??? lang="en-GB">`
 
-* html
-* html
-* head
-* body
-* title
-* root
-* tree
-* head
-* body
-* type
-* doc
+* `<html>`
+* `html`
+* `<head>`
+* `<body>`
+* `<title>`
+* `<root>`
+* `tree`
+* `head`
+* `body`
+* `type`
+* `doc`
 
 ---
 ## Quiz
