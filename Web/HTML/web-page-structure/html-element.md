@@ -73,13 +73,10 @@ What HTML element is best to assign the document’s primary language?
 * `html`
 * `<head>`
 * `<body>`
-* `<title>`
 * `<root>`
 * `tree`
 * `head`
 * `body`
-* `type`
-* `doc`
 
 ---
 ## Quiz
