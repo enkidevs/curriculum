@@ -15,6 +15,7 @@ tags:
 links:
   - '[MDC docs for Metadata](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)(website)'
   - '[MDN docs for head](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head){website}'
+  - '[StackOverflow CSS before JS explanationn](https://stackoverflow.com/questions/9271276/is-the-recommendation-to-include-css-before-javascript-invalid){website}'
 
 ---
 # The `head` Element
@@ -68,20 +69,16 @@ Larger example:
 </html>
 ```
 
-**Note: WHen it comes to ordering CSS and JS, always add CSS first. Explanation on '[StackOverflow](https://stackoverflow.com/questions/9271276/is-the-recommendation-to-include-css-before-javascript-invalid)'.**
+**Note: WHen it comes to ordering CSS and JS, always add CSS first. For an explanation check the `learn more` links section of this insight.**
 
 ---
 ## Practice
 
-Which (3) items should NOT be contained in the `<head>` element?
+Which item should NOT be contained in the `<head>` element?
 
-1) ??? 
-2) ???
-3) ??? 
+??? 
 
-* Web page logo
-* Primary heading of page
-* Document’s primary language
+* Primary heading of a page
 * Web page title
 * Character encoding language
 * Page descriptions for search engines
@@ -90,7 +87,7 @@ Which (3) items should NOT be contained in the `<head>` element?
 ---
 ## Revision
 
-The `<head>` of web pages should not contain what?
+The `<head>` of web pages can contain all but one of these, which one?
 
 ???
 
@@ -103,7 +100,7 @@ The `<head>` of web pages should not contain what?
 ---
 ## Quiz
 
-### How much do you know about the `<head>` HTML elemet?
+### How much do you know about the `<head>` HTML element?
 
 What order is recommended for adding CSS & JS in the `<head>` of an HTML page?
 
@@ -113,8 +110,3 @@ What order is recommended for adding CSS & JS in the `<head>` of an HTML page?
 * JS first, then CSS
 * CSS only, never JS
 * JS only, never CSS
-
-
-
-
-
