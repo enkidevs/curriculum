@@ -33,7 +33,7 @@ links:
   - '[link to a video](https://www.youtube.com/watch?v=pqmhZcPpTys){video}'
 ---
 
-# Practice python string manipulation
+# Practice using strings in python
 
 ---
 ## Exercise
