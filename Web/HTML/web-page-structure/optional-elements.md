@@ -99,6 +99,8 @@ What are optional elements?
 ---
 ## Quiz
 
+### How much do you know about how HTML5 should be structured?
+
 Which page structure is recommended by Google for HTML5 pages today?
 
 ```
