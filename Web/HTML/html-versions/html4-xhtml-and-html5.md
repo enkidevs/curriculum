@@ -125,18 +125,11 @@ Which of these HTML elements was not removed in HTML5?
 * eXtensible Hypertext Markup Language
 * all tags, once opened, must be closed in XHTML, but not in HTML4
 * `<form>`
-* HTML5
-* HTML1
 * HTML2
 * HTML3
-* eXtensive Hypertext Madeup Language
-* eXpressive Hypertype Markup Language
 * eXtensible Hypertext Markup Library
 * all tags, once opened, must be closed in HTML4, but not in XHTML
 * all elements must be written in uppercase in XHTML, but not in HTML4
-* All attribute values have to be written in lowercase in HTML4, but not in XHTML
-* `<basefont>`
-* `<center>`
 * `<font>`
 * `<strike>`
 
@@ -157,7 +150,7 @@ HTML5 supports approx. 50% of the presentational attributes that were in HTML4?
 ---
 ## Quiz
 
-### Hey there, answer a quick question about HTML?
+### Test your HTML knowledge.
 
 When referring to deprecated HTML tags, what does that mean?
 
