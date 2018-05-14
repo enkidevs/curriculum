@@ -9,13 +9,13 @@ levels:
 
   - medium
 
-type: exercise
-
 tags:
 
   - introduction
 
   - workout
+  
+type: exercise
 
 linkType: codewars
 

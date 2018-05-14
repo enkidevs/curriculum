@@ -9,11 +9,11 @@ levels:
 
   - medium
 
-type: exercise
-
 tags:
 
   - introduction
+
+type: exercise
 
 linkType: codewars
 
