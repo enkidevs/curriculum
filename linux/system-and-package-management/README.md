@@ -17,7 +17,7 @@ sections:
 
 standards:
   external-packages:
-    name: Use external packages to add capabilities to your machine
+    name: Use external packages to add capabilities to your system
     description: This standard covers use of package managers to install tools on your system.
     objectives:
       0: Use built-in package managers to check the packages on your system
