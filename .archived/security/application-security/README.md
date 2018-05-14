@@ -1,6 +1,6 @@
 name: Application Security
 
-description: placeholder
+description: '; DROP TABLE Topics;
 
 standards:
   sql-injection:
