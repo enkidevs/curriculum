@@ -1,5 +1,5 @@
-# Doctype
-author: matthew-leach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -12,10 +12,30 @@ category: must-know
 tags:
   - introduction
 
+links:
+  - '[MDN docs for Doctype](https://developer.mozilla.org/en-US/docs/Glossary/Doctype){website}'
+  
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+In HTML, every page, no matter the version of HTML it is written in, requires a doctype declaration. The purpose of the doctype declaration is to tell the browser how to render the document and to prevent it from rendering it in a way that may either produce errors or not display the content correctly.
+
+Furthermore, the doctype declaration always has to be the very first thing in your HTML document and is used to tell the browser in which version the page/document is written on because each HTML version has a different doctype declaration.
+
+The doctype declaration for HTML5 is:
+```
+<!DOCTYPE html>
+```
+
+The doctype declaration can be written both in lower and uppercase letters, like so:
+```
+<!doctype html>
+<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!DoCtYpE hTmL>
+```
+
+Nevertheless, if you want to convert your code to any other markup language like XHTML or XML which have stricter rules, you should write the doctype declaration in uppercase like `<!DOCTYPE html>`.
 
 ---
 ## Practice
@@ -24,11 +44,11 @@ Which DOCTYPE is needed for viewing HTML5 webpages?
 
 ???
 
-* <!DOCTYPE html>
-* <!DOCTYPE html5>
-* <!DOCTYPE HTML5>
-* <!DOCTYPE "html">
-* <!DOCTYPE html en>
+* `<!DOCTYPE html>`
+* `<!DOCTYPE html5>`
+* `<!DOCTYPE HTML5>`
+* `<!DOCTYPE "html">`
+* `<!DOCTYPE html en>`
 
 ---
 ## Revision
@@ -56,6 +76,3 @@ What is required on the first line of every HTML5 document?
 * Opening `<head>` element
 * Page title
 * The doc's charset
-
-
-
