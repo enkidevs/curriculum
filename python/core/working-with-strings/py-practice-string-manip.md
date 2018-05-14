@@ -32,7 +32,7 @@ links:
   - '[Interesting video tutorial](https://www.youtube.com/watch?v=pqmhZcPpTys){video}'
 ---
 
-# Practice python string manipulation
+# Practice using strings
 
 ---
 ## Exercise
