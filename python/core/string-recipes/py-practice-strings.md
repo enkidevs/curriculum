@@ -34,7 +34,7 @@ links:
   
 ---
 
-# Practice working with strings
+# Practice working with string recipies
 
 ---
 ## Exercise
