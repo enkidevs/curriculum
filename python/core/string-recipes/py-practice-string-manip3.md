@@ -33,12 +33,12 @@ links:
   - '[Video tutorial on stirng type](https://www.youtube.com/watch?v=pqmhZcPpTys){video}'
 ---
 
-# Practice python string manipulation
+# Practice python string recipies
 
 ---
 ## Exercise
 
-Practice `strings` in python.
+Practice `string recipies` in python.
 
 Click *Launch Exercise* to open Codewars.
 
