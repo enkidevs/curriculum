@@ -87,23 +87,10 @@ Which one of these elements is implied even if the string is not located in the 
 ---
 ## Revision 
 
-What are optional elements?
-
-???
-
-* Elements where either the starting, ending or both tags can be omitted.
-* Elements that are always there, even if the code for them isn't.
-* Elements that have different options within them.
-* Optional elements is just a name for HTML elements.
-
----
-## Quiz
-
-### How much do you know about how HTML5 should be structured?
-
 Which page structure is recommended by Google for HTML5 pages today?
 
 ```
+---------Option #1--------------
 <!DOCTYPE html>
 <html>
   <head>
@@ -113,9 +100,8 @@ Which page structure is recommended by Google for HTML5 pages today?
     <p>Hello.</p>
   </body>
 </html>
-```
 
-```
+---------Option #2--------------
 <!DOCTYPE html>
 <title>Option #2</title>
 <p>Hello.
@@ -125,4 +111,18 @@ Which page structure is recommended by Google for HTML5 pages today?
 
 * Option #1
 * Option #2
+
+---
+## Quiz
+
+### How much do you know about optional elements?
+
+What are optional elements?
+
+???
+
+* Elements where either the starting, ending or both tags may be omitted.
+* Elements that are always there, even if the code for them isn't.
+* Elements that have different options within them.
+* Optional elements is just a name for HTML elements.
 
