@@ -49,34 +49,52 @@ For more elements and their condition check the learn more links section of this
 
 Furthermore, as for the benefits of omitting tags, they are not high. You can save a little time on building the page and a little on bandwidth. On the other hand, not omitting tags is a very good practice because it makes the HTML code more consistent, easier to read, and also, the code becomes easier to convert to another Markup Languages like XHTML.
 
+
+Example where no tag is omitted:
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Option #1</title>
+  </head>
+  <body>
+    <p>Hello.</p>
+  </body>
+</html>
+```
+
+Example with same output where tags are omitted:
+```
+<!DOCTYPE html>
+<title>Option #2</title>
+<p>Hello.
+```
+
+Even though both examples produce the same output on most browsers, some old ones may not interpret the second example properly. Also, the first example is what Google recommends for HTML5 pages today.  Because of this and for consistency, you should always structure your HTML like it is in the first example.
+
 ---
 ## Practice
 
-Select the only code required for valid HTML5 web pages today: 
+Which one of these elements is implied even if the string is not located in the markup?
 
 ???
 
-* `<!DOCTYPE html>`
 * `<html>`
-* `<head>`
-* `<body>`
-* `<main>`
-* `<p>`
+* `<audio>`
+* `<link>`
+* `<mainelement>`
 
 ---
 ## Revision 
 
-What is the only HTML5 tag required for valid web pages today? 
+What are optional elements?
 
 ???
 
-* `<!DOCTYPE html>`
-* `<html>`
-* `<head>`
-* `<body>`
-* `<main>`
-* `<p>`
-
+* Elements where either the starting, ending or both tags can be omitted.
+* Elements that are always there, even if the code for them isn't.
+* Elements that have different options within them.
+* Optional elements is just a name for HTML elements.
 
 ---
 ## Quiz
