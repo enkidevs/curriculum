@@ -1,6 +1,6 @@
 ---
 
-author: Stefan-Stojanovic
+author: stefan.stojanovic
 
 levels:
   - beginner
