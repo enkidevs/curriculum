@@ -1,4 +1,4 @@
-# Copyright
+---
 author: Stefan-Stojanovic
 
 levels:
@@ -14,13 +14,14 @@ stub: true
 tags:
   - workout
 
-
+---
+# Copyright
 ---
 ## Content
 
-Some characters are not easily typed on the keyboard. 
+Some characters are not easily typed on the keyboard.
 
-The Copyright (©) is one of those characters. 
+The Copyright (©) is one of those characters.
 
 To display the Copyright symbol, you can use either the HTML entity *number* or the entity *name*.
 
@@ -51,8 +52,8 @@ Result:
 Copyright ©
 ```
 
-When using the Copyright symbol in your HTML, it is better to use the corresponding HTML entity than typing the symbol. 
-This is because, even if the symbol renders ok on your browser, it may not render the same on other ones. 
+When using the Copyright symbol in your HTML, it is better to use the corresponding HTML entity than typing the symbol.
+This is because, even if the symbol renders ok on your browser, it may not render the same on other ones.
 
 ---
 ## Practice
@@ -78,7 +79,7 @@ What HTML character entity is used to insert a copyright symbol into a document?
 * ©
 * &copyright
 * @c
-  
+
 ---
 ## Quiz
 
@@ -94,4 +95,3 @@ What does &copy; display in this line of code?
 * symbol
 * &copy;
 * Copyright [current year]
-

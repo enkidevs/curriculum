@@ -14,7 +14,9 @@ tags:
 
 links:
   - '[MDN docs for Doctype](https://developer.mozilla.org/en-US/docs/Glossary/Doctype){website}'
-  
+
+---
+# Doctype
 ---
 ## Content
 
@@ -70,7 +72,7 @@ What is required on the first line of every HTML5 document?
 
 ???
 
-* The doctype 
+* The doctype
 * Link to the CSS document
 * Opening `<html>` element
 * Opening `<head>` element

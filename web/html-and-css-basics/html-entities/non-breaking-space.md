@@ -1,4 +1,4 @@
-# Non-breaking Space
+---
 
 author: Stefan-Stojanovic
 
@@ -14,7 +14,8 @@ stub: true
 
 tags:
   - workout
-
+---
+# Non-breaking Space
 
 ---
 ## Content
@@ -90,7 +91,7 @@ Non-breaking space should not be used to indent a paragraph. This is because som
 ---
 ## Practice
 
-What statements are true regarding a non-breaking space: 
+What statements are true regarding a non-breaking space:
 
 + The HTML code is written as "&nbsp;"
 + Prevents line break between words.
@@ -128,4 +129,4 @@ What does the "&nbsp;" within this line of code do?
 * Adds an empty character of space between the images.
 * Prevents the images from starting on new line like word wrap.
 * Removes any space between the images.
-* Useful when pulling image files from a database. 
+* Useful when pulling image files from a database.
