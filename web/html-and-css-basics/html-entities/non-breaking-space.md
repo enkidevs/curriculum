@@ -118,13 +118,12 @@ What HTML character entity is used to prevent the browser from breaking the line
 ---
 ## Quiz
 
-How much do you know about displaying images?
+### How much do you know about displaying images?
 
 What does the "&nbsp;" within this line of code do?
 
 `<img src="image1.png" alt="">&nbsp;<img src="image2.png" alt="">`
 
-???
 
 * Adds an empty character of space between the images.
 * Prevents the images from starting on new line like word wrap.

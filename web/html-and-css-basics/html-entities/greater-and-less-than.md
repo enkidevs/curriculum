@@ -79,15 +79,13 @@ In HTML the browser always assumes *<* and *>* represent the start and end of an
 ---
 ## Quiz
 
-How much do you know about HTML character entities?
+### How much do you know about HTML character entities?
 
 What will be displayed in this line of code:
-" `<p> 1 &lt; 3 &lt;/p&gt;` "
+`<p> 1 &lt; 3 &lt;/p&gt;`
 
-???
 
 * <p> 1 < 3 &lt;/p&gt;
 * &lt;p&gt; 1 < 3 &lt;/p&gt;
 * <p> 1 < 3 </p>
 * <p> 1 &lt; 3 </p>
-* <p> 1 &lt; 3 &lt;/p&gt;

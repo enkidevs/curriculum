@@ -15,9 +15,9 @@ sections:
     - forms
     - html-5-input-form-attributes
     - media
+    - sectioning-elements
   '2':
     - citation-elements
-    - sectioning-elements
     - computer-code
     - best-practices
     - html-entities

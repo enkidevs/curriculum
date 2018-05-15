@@ -83,13 +83,12 @@ What HTML character entity is used to insert a copyright symbol into a document?
 ---
 ## Quiz
 
-How much do you know about HTML character entities?
+### How much do you know about HTML character entities?
 
 What does &copy; display in this line of code?
 
 `<p>The symbol "&copy;" should be pretty easy to recognize.</p>`
 
-???
 
 * ©
 * symbol

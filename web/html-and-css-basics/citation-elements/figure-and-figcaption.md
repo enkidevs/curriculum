@@ -17,7 +17,7 @@ tags:
 links:
   - '[MDN docs for figure](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure){website}'
   - '[MDN docs for figcaption](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption){website}'
-  
+
 ---
 # Figure & Figcaption
 ---
@@ -27,7 +27,7 @@ The HTML `<figure>` element is used to represent self-contained content. Also, t
 
 The `<figcaption>` element is used to represent a caption that relates to a `<figure>` element and must be either the first or last child of the `<figure>` element.
 
-The `<figure>` element is usually an image, code snippet, diagram, illustration, etc., which is referenced in the main flow of the document. Also, the `<figure>` elements content can also be moved to another part of the document without having any effect on the main flow. 
+The `<figure>` element is usually an image, code snippet, diagram, illustration, etc., which is referenced in the main flow of the document. Also, the `<figure>` elements content can also be moved to another part of the document without having any effect on the main flow.
 
 Example with a poem:
 ```
@@ -54,16 +54,16 @@ Match the code with the tags to properly define a caption for the photo.
 
 ```
 <tag1>
-  <img src="waterfall.jpg" 
+  <img src="waterfall.jpg"
   alt="Seljalandsfoss waterfall
        in Iceland">
   <tag2>
     The Seljalandsfoss waterfall
-    in Iceland. 
-  Original by 
+    in Iceland.
+  Original by
     <a href="http://www.flickr.com
-            /photos/enki/"> 
-       Enki Pro 
+            /photos/enki/">
+       Enki Pro
     </a>
   </tag2>
 </tag1>
@@ -83,25 +83,26 @@ tag2 = ???
 ---
 ## Revision
 
-What HTML element best defines a caption or legend for a figure?
+Use ??? when the content is related, but not required to follow along.
+Use ??? when the content is required to follow along, but it can be placed anywhere in the flow of the content.
+Use ??? when the content is required and the position is important in the context of the content.
 
-???
-
-* `<figcaption>`
-* `<caption>`
-* `<legend>`
-* `<fig>`
-* `<figtitle>`
+* `<aside>`
+* `<figure>`
+* `<div>`
+* `<content>`
+* `<article>`
 
 ---
 ## Quiz
 
 ### How much do you know about `<figure>`, `<aside>` & `<div>`?
 
-Use ??? when the content is related, but not required to follow along. 
-Use ??? when the content is required to follow along, but it can be placed anywhere in the flow of the content. 
-Use ??? when the content is required and the position is important in the context of the content.
+What HTML element best defines a caption or legend for a figure?
 
-* `<aside>`
-* `<figure>`
-* `<div>`
+
+* `<figcaption>`
+* `<caption>`
+* `<legend>`
+* `<fig>`
+* `<figtitle>`
