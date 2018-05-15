@@ -161,13 +161,13 @@ standards:
     name: Effectively store and manipulate data using Python standard data structures
     description: This standard deals with the ability to access and transform data effectively. It is intended to measure the use of python data structures.
     objectives:
-      1: Access deeply nested data structures
-      2: Store data in deeply nested data structures
-      3: Transform arbitrarily formatted data into another format
-      4: Format data for transport across a network
-      5: Encode data in a standard data carrying format (json, xml, csv, etc)
-      6: Load data into a data structure to support an algorithm's efficient execution
-      7: Recognize the rules respective to references in data structures, and their effects on garbage collection
+      0: Access deeply nested data structures
+      1: Store data in deeply nested data structures
+      2: Transform arbitrarily formatted data into another format
+      3: Format data for transport across a network
+      4: Encode data in a standard data carrying format (json, xml, csv, etc)
+      5: Load data into a data structure to support an algorithm's efficient execution
+      6: Recognize the rules respective to references in data structures, and their effects on garbage collection
   data-structures-uses:
     name: Accurately describe a wide range of data structures and relevant uses
     description: This standard deals with the use of data structures in python. It intends to measure the proper choice of data structure, in terms of efficiency of access and suitability for the problem. It also intends to measure the accurate use of these data structures to solve problems, where accuracy is defined by using the most efficient and direct access operations and methods of the given data structure for the problem.
@@ -189,7 +189,6 @@ standards:
       4: Use open-source python testing tools
       5: Create a mock to isolate unit tests
       6: Create a spy to verify the behavior of a function
-
 
 next:
   - python:functional-programming
