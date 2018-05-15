@@ -1,6 +1,6 @@
 name: Application Security
 
-description: '; DROP TABLE Topics;
+description: "'; DROP TABLE Topics;"
 
 standards:
   sql-injection:
