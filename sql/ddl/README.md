@@ -66,3 +66,4 @@ standards:
       0: Distinguish and choose between numeric types based on the desired behavior of the column
       1: Distinguish and choose between string types based on the desired behavior of the column
       2: Distinguish and choose between large content types based on the desired behavior of the column
+      
