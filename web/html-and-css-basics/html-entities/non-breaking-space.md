@@ -91,15 +91,14 @@ Non-breaking space should not be used to indent a paragraph. This is because som
 ---
 ## Practice
 
-What statements are true regarding a non-breaking space:
+Which statement is true regarding a non-breaking space:
 
-+ The HTML code is written as "&nbsp;"
-+ Prevents line break between words.
-+ Prevents an empty cell in a table from collapsing in some browsers.
-+ Same width as a word space
-+ `100&nbsp;km` will display as "100 km".
-- Useful for creating indented paragraphs.
-- Long strings of them are good ways of creating gaps of space.
+???
+
+* Prevents an empty cell in a table from collapsing in some browsers.
+* Useful for creating indented paragraphs.
+* Long strings of them are good ways of creating gaps of space.
+* They are easier to read than a space character.
 
 ---
 ## Revision

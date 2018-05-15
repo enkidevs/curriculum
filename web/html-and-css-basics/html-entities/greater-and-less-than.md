@@ -68,13 +68,14 @@ Write the code that will display this HTML tag properly: "`<p>` is an HTML parag
 ---
 ## Revision
 
-In HTML the browser always assumes *<* and *>* represent the start and end of an HTML tag. Identify the correct ways of displaying these two characters?
+In HTML the browser always assumes *<* and *>* represent the start and end of an HTML tag. What is one of the correct ways of displaying these two characters?
 
-+ Using their character entity numbers(`&#60;`,`&#62;`)
-- Using the designated (<) and (>) buttons on the keyboard
-+ Using their character entity name(`&lt;`,`&gt;`)
-+ Using either their character entity name or number
-- Enclosing the characters in single quoatation '<','>'
+???
+
+* Using their character entity name(`&lt;`,`&gt;`)
+* Using the designated (<) and (>) buttons on the keyboard
+* Enclosing the characters in single quotation '<','>'
+* Escape them like so: `\<` and `\>`
 
 ---
 ## Quiz
