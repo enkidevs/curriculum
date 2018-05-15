@@ -7,10 +7,15 @@ levels:
 
   - basic
 
+tags:
+  - introduction
+
 type: exercise
 
-link: https://www.codewars.com/kata/convert-a-linked-list-to-a-string
 linkType: codewars
+
+link: https://www.codewars.com/kata/convert-a-linked-list-to-a-string
+
 standards:
 
   py.use-iteration-protocol.0: 1000
@@ -20,9 +25,9 @@ standards:
 
 links:
 
-  - '[link to official documentation](https://www.python-course.eu/python3_for_loop.php){website}'
-  - '[link to deeper dive blog post](https://www.tutorialspoint.com/python/python_loops.htm){website}'
-  - '[link to a video](https://www.youtube.com/watch?v=xtXexPSfcZg){video}'
+  - '[Official docummentation for loops](https://www.python-course.eu/python3_for_loop.php){website}'
+  - '[More insight on loops](https://www.tutorialspoint.com/python/python_loops.htm){website}'
+  - '[A video tutorial of loops](https://www.youtube.com/watch?v=xtXexPSfcZg){video}'
 ---
 
 # Practice loops
@@ -30,4 +35,13 @@ links:
 ---
 ## Exercise
 
-Iterate without a `loop` in python.
+Practice `loops` in python.
+
+Click *Launch Exercise* to open Codewars.
+
+On the website you will find a description of the exercise. Read this description carefully. 
+
+When you are ready to give it a try press the blue *Train* button and write your solution. 
+
+To test your solution press the blue *Attempt* button.
+

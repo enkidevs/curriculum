@@ -7,10 +7,15 @@ levels:
 
   - basic
 
+tags:
+  - workout
+
 type: exercise
 
-link: https://www.codewars.com/kata/count-of-positives-slash-sum-of-negatives
 linkType: codewars
+
+link: https://www.codewars.com/kata/count-of-positives-slash-sum-of-negatives
+
 standards:
 
   py.use-iteration-protocol.0: 1000
@@ -19,9 +24,9 @@ standards:
 
 links:
 
-  - '[link to official documentation](https://www.python-course.eu/python3_for_loop.php){website}'
-  - '[link to deeper dive blog post](https://www.tutorialspoint.com/python/python_loops.htm){website}'
-  - '[link to a video](https://www.youtube.com/watch?v=xtXexPSfcZg){video}'
+  - '[Official documentation for iterables](https://www.python-course.eu/python3_for_loop.php){website}'
+  - '[A blog about iterables](https://www.tutorialspoint.com/python/python_loops.htm){website}'
+  - '[A video tutorial for iterables](https://www.youtube.com/watch?v=xtXexPSfcZg){video}'
 ---
 
 # Practice iterables 2
@@ -30,3 +35,12 @@ links:
 ## Exercise
 
 Practice `iterables` in python.
+
+Click *Launch Exercise* to open Codewars.
+
+On the website you will find a description of the exercise. Read this description carefully. 
+
+When you are ready to give it a try press the blue *Train* button and write your solution. 
+
+To test your solution press the blue *Attempt* button.
+
