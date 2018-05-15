@@ -12,5 +12,4 @@ insights:
   - doctype
   - html-element
   - head-element
-  - body-element
   - optional-elements
