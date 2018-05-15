@@ -1,5 +1,5 @@
-# Maxlength
-author: matthewleach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -14,11 +14,67 @@ stub: true
 tags:
   - deep
 
-
+links:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+  - https://www.w3schools.com/tags/att_input_maxlength.asp
+  
+---
+# Maxlength
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+The HTML input form `maxlength` attribute is used to specify a maximum number of characters a user can enter in an `<input>` field.
+This attribute works with several `<input>` types:
+  - `email`
+  - `password`
+  - `search`
+  - `tel`
+  - `text`
+  - `url`
+  
+Example:
+```
+<form 
+  action="/action.php">
+Input password:<br>
+<input 
+  type="text" 
+  name="Password" 
+  maxlength="12"><br>
+  <input type="submit">
+</form>
+
+```
+
+This attribute can also work for the `<textarea>` element.
+
+Example:
+```
+<textarea 
+  maxlength="50">
+Input text here
+</textarea>
+```
+
+Furthermore, this attribute does not provide feedback on its own. Meaning the user won't know how many characters are left as he is typing. To solve this, you would have to add some JavaScript code to your webpage.
+
+However, if you do not wish to do so, you can simply add a label on top of or next to, your password field to indicate to the user what the maximum possible length is.
+
+Example:
+```
+<form 
+  action="/action.php">
+Input password:<br>
+<input 
+  type="text" 
+  name="Password" 
+  maxlength="20">
+  <label>
+ Maximum 20 characters
+</label><br>
+  <input type="submit">
+</form>
+```
 
 ---
 ## Practice

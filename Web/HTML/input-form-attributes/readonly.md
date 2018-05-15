@@ -1,5 +1,5 @@
-# Readonly
-author: matthewleach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -14,12 +14,41 @@ stub: true
 tags:
   - deep
 
-
+links:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+  - https://www.w3schools.com/tags/att_input_readonly.asp
+  
+---
+# Readonly
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+The HTML input form `readonly` attribute is used to indicate that the user cannot modify the value. When this attribute is specified, the value of the input field will display, it can be submitted, and is uneditable.
 
+Even though the input field cannot be modified, the user can still highlight it, tab to it, and copy the value from it.
+
+Example:
+```
+<form 
+  action="/page.php">
+  Phone Number: 
+  <input 
+    type="number" 
+    name="contact" 
+    value="7863341212" 
+    readonly><br>
+</form>
+```
+
+The `readonly` attribute can also be applied to the `<textarea>` element.
+
+Example:
+```
+Phone Number: 
+<textarea readonly>
+  7863341212 
+</textarea>
+```
 ---
 ## Practice
 

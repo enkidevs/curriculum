@@ -1,5 +1,5 @@
-# Author
-author: matthew-leach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -13,9 +13,19 @@ tags:
   - introduction
 
 ---
+# Author
+---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+In HTML the `<meta>` tag is used to describe metadata within a document.
+For instance, if you want to add information about who the author of the web page is, you would write:
+```
+<meta 
+  name="author" 
+  content="John Doe">
+```
+
+The author metadata has no effect on search engine optimization or SEO.
 
 ---
 ## Practice
@@ -48,6 +58,8 @@ Which line of code shares info about the creator of the web page?
 
 ---
 ## Quiz 
+
+### How much do you know about meta-elements?
 
 What is the least influential tag for search engines in a web page?
 

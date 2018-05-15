@@ -1,5 +1,5 @@
-# Disabled
-author: mihaiberq
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -14,25 +14,43 @@ stub: true
 tags:
   - deep
 
-
+link:
+  - '[MDN docs for disabled](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input){website}'
+  
+---
+# Disabled
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+The HTML input form `disabled` attribute is used to indicate that a certain form control is unavailable for interaction. This attribute is used to allow an input field to display a value that the user cannot change. Also, this default value is not sent upon submission of the form.
+
+The attribute is of type boolean.
+
+Example:
+```
+<input 
+  type="text" 
+  name="company" 
+  value="Enki" 
+  disabled>
+```
+
+In the example above, we have prevented the user from editing the input text field and the value of the input won't be sent upon submission.
+
+Furthermore, you can use the `disabled` attribute to prevent the use of the `<input>` element until a certain condition is satisfied. After the condition is met, you can use JavaScript to remove the disabled value and make the `<input>` usable.
 
 ---
 ## Practice
 
-Mark all that apply stating what the disabled attribute does in this code.
+What does the disabled attribute do in this code?
 
 `<input type="text" name="company" value="Enki" disabled>`
 
 ???
 
 + Prevents the user from editing the textfield 
-+ The value will not send upon submission
 - Hides the textfield
-- Sends the value upon submission
+- hides the input element
 - Displays as a grey textbox by default
 
 ---

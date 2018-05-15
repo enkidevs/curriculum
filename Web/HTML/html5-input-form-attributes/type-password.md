@@ -1,5 +1,5 @@
-# Type=password
-author: matthewleach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -14,21 +14,44 @@ stub: true
 tags:
   - deep
 
-
+---
+# Type=password
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+The HTML input form `type="password"` attribute is used to display each character either as an asterisk or a circle. This attribute is very similar to the `type="text"` attribute.
+
+Example:
+```
+<form 
+  action="/action.php">
+  Username: 
+  <input 
+    type="text" 
+    name="usrname"><br>
+  <input
+    type"password"
+    name"password"><br>
+  <input 
+    type="submit" 
+    value="Submit">
+</form>
+```
+
+In the example above we have two input fields that look the same, but behave slightly differently.
+The only difference is that the password field will replace and display each character with either an asterisk or a circle.
 
 ---
 ## Practice
 
-Mark all statements that are true about the "type=password" attributes: 
+Which statement is true about the "type=password" attribute: 
 
-+ Similar to a text field.
-+ Each input character appears as asterisk.
-- Each input character does not appear.
-- Must use `width` to adjust input text size vs `font-size`.
+???
+
+* Each input character appears as asterisk.
+* Each input character appears as a dolar sign
+* Each input character does not appear.
+* Must use `width` to adjust input text size vs `font-size`.
 
 ---
 ## Revision
@@ -42,3 +65,18 @@ When sensitive data is input into a text field that should display as "*" in pla
 * hidden
 * secret
 * astrisk
+
+---
+## Quiz
+
+### How much do you know about HTML input form attributes?
+
+Mark which statement is true about the "type=password" attribute: 
+
+???
+
+* Each input character appears as an asterisk or circle.
+* Each input character appears as a square or circle.
+* Each input character appears as an asterisk or square.
+* Each input character does not appear.
+
