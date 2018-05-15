@@ -10,10 +10,12 @@ sections:
     - html-structure
     - core-html-elements
     - web-page-structure
+  '1':
     - meta-elements
     - forms
     - html-5-input-form-attributes
     - media
+  '2':
     - citation-elements
     - sectioning-elements
     - computer-code
