@@ -10,13 +10,19 @@ sections:
     - styling-i
     - styling-ii
     - styling-iii
+    - pseudo-classes-i
+    - pseudo-classes-ii
+    - pseudo-elements
   '1':
+    - features
     - recipes
     - responsive-design-tips
     - sass-i
     - sass-ii
     - sass-iii
   '2':
+    - flexbox
+    - animations
     - css-animation
 
 
