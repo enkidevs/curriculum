@@ -6,10 +6,11 @@ core: true
 
 sections:
   '0':
-    - box-model
-    - css-basics
     - html-basics
+    - core-html-elements
     - intro-css
+    - css-basics
+    - box-model
     - positioning
   '1':
     - dimensioning-and-box-sizing
