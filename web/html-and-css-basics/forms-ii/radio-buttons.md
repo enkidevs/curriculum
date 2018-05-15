@@ -9,20 +9,22 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.html-forms.5: 10
 
-tags:
+aspects:
+  - introduction
   - workout
 
 links:
   - '[MDN docs for radio buttons](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio){website}'
-  
+
 ---
 # Radio Buttons
 ---
 ## Content
 
-The HTML input form of type `radio` is used to create radio buttons, which are usually held in radio groups. These buttons are rendered as small empty circles that fill up upon selection. 
+The HTML input form of type `radio` is used to create radio buttons, which are usually held in radio groups. These buttons are rendered as small empty circles that fill up upon selection.
 
 Unlike checkboxes, `radio` buttons can have only one element selected per group. When one button is selected, any button selected before it will immediately get deselected. Of course, this only applies to the radio group where the `radio` button was selected.
 
@@ -37,29 +39,29 @@ Example:
    Please select your gender:
  </p>
   <div>
-   <input 
+   <input
       type="radio" id="gender1"
       name="gender" value="male">
-   <label 
+   <label
       for="gender1">Male
    </label>
 
-   <input 
+   <input
       type="radio" id="gender2"
       name="gender" value="female">
-   <label 
+   <label
       for="gender2">Female
    </label>
 
-   <input 
+   <input
       type="radio" id="gender3"
       name="gender" value="other">
-   <label 
+   <label
       for="gender3">Other
    </label>
   </div>
   <div>
-    <button 
+    <button
       type="submit">Submit
     </button>
   </div>
@@ -84,29 +86,29 @@ Same example with `checked` added:
    Please select your gender:
  </p>
   <div>
-   <input 
+   <input
       type="radio" id="gender1"
       name="gender" value="male" checked>
-   <label 
+   <label
       for="gender1">Male
    </label>
 
-   <input 
+   <input
       type="radio" id="gender2"
       name="gender" value="female">
-   <label 
+   <label
       for="gender2">Female
    </label>
 
-   <input 
+   <input
       type="radio" id="gender3"
       name="gender" value="other">
-   <label 
+   <label
       for="gender3">Other
    </label>
   </div>
   <div>
-    <button 
+    <button
       type="submit">Submit
     </button>
   </div>
@@ -115,21 +117,21 @@ Same example with `checked` added:
 
 Furthermore, you can also have as many radio groups as you require per web page or document. The only thing you need to do is give each radio group a unique `name`.
 
-You can also style your radio groups with CSS. For instance, you can modify the colors of the radio buttons, add a fade-out effect when one button is selected, etc. 
+You can also style your radio groups with CSS. For instance, you can modify the colors of the radio buttons, add a fade-out effect when one button is selected, etc.
 
 ---
 ## Practice
 
 Write the form code that creates a radio button.
 
-`<??? ???="???" ???="topic" ???="item"> Item <???>`
+`<??? ???="???" name="topic" value="item"> Item <???>`
 
 * input
 * type
 * radio
+* /input
 * name
 * value
-* /input
 
 ---
 ## Revision
@@ -151,11 +153,7 @@ Which line creates an HTML form’s radio buttons?
 
 Which statement is true?
 
-???
-
 * Radio buttons within one radio group can have only one option selected at a time.
 * Radio buttons within one radio group can have many options selected at a time.
 * You can have multiple radio button groups with the same `name` in a webpage.
 * Radio buttons can't work without applying CSS to them
-
-

@@ -9,15 +9,17 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.html-forms.4: 10
 
-tags:
+aspects:
+  - introduction
   - workout
 
 links:
   - '[MDN docs for checkboxes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox){website}'
   - '[](){}'
-  
+
 ---
 # Checkbox Groups
 ---
@@ -34,63 +36,63 @@ Example with multiple checkboxes:
     Choose favorite music genre/s
   </legend>
     <div>
-     <input 
-        type="checkbox" id="rock" 
+     <input
+        type="checkbox" id="rock"
         name="genre" value="rock">
-     <label 
+     <label
         for="rock">Rock
      </label>
     </div>
     <div>
-     <input 
-        type="checkbox" id="country" 
+     <input
+        type="checkbox" id="country"
         name="genre" value="country">
-     <label 
+     <label
         for="country">Country
      </label>
     </div>
     <div>
-      <input 
-          type="checkbox" id="jazz" 
+      <input
+          type="checkbox" id="jazz"
           name="genre" value="jazz">
-      <label 
+      <label
           for="jazz">Jazz
       </label>
     </div>
     <div>
-      <input 
-        type="checkbox" id="house" 
+      <input
+        type="checkbox" id="house"
         name="genre" value="house">
-      <label 
+      <label
         for="house">House
       </label>
     </div>
     <div>
-      <input 
-        type="checkbox" id="blues" 
+      <input
+        type="checkbox" id="blues"
         name="genre" value="blues">
-      <label 
+      <label
         for="blues">Blues
       </label>
     </div>
     <div>
-      <input 
-          type="checkbox" id="reggae" 
+      <input
+          type="checkbox" id="reggae"
           name="genre" value="reggae">
-      <label 
+      <label
           for="reggae">Reggae
       </label>
     </div>
     <div>
-      <input 
+      <input
           type="checkbox" id="folk"
           name="genre" value="folk">
-      <label 
+      <label
           for="folk">Folk
       </label>
     </div>
     <div>
-      <button 
+      <button
         type="submit">Submit
       </button>
     </div>
@@ -114,22 +116,22 @@ Example:
 ```
 <form>
  <div>
-    <input 
+    <input
        type="checkbox" id="folk"
        name="genre" value="folk" checked>
-    <label 
+    <label
        for="folk">Folk
     </label>
  </div>
  <div>
-    <input 
-       type="checkbox" id="other" 
+    <input
+       type="checkbox" id="other"
        name="genre" value="other">
     <label
        for="other">Other
     </label>
-    <input 
-       type="text" id="otherValue" 
+    <input
+       type="text" id="otherValue"
        name="other">
    </div>
 </form>
@@ -137,7 +139,7 @@ Example:
 
 Along with the `checked` and `unchecked` state, checkboxes have a third state called `indeterminate`. In this state, you can't tell if the checkbox is toggled on or off. Checkboxes in this state have a horizontal line in the box. The most common use for this is when a checkbox option has multiple checkbox sub-options within it. If all sub-options are selected, then the parent checkbox is also selected. On the other hand, if any of the sub-options have a different state from one another the parent checkbox is in the indeterminate state.
 
-This `indeterminate` state is shown with CSS styling and CSS Tricks. More on this: '[Indeterminate state checkboxes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)' 
+This `indeterminate` state is shown with CSS styling and CSS Tricks. More on this: '[Indeterminate state checkboxes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)'
 
 
 ---
@@ -164,18 +166,18 @@ Create a checkbox group with two checkboxes and larger clickable area
     Choose favorite meal
   </legend>
     <div>
-     <??? 
-        type="???" id="soup" 
+     <???
+        type="???" id="soup"
         name="meal" value="soup" ???>
-     <??? 
+     <???
         for="soup">Soup
      <???>
     </div>
     <div>
-     <??? 
-        type="???" id="burgers" 
+     <???
+        type="???" id="burgers"
         name="meal" value="burgers">
-     <??? 
+     <???
         for="burgers">Burgers
      </???>
     </div
@@ -212,5 +214,3 @@ How are checkboxes styled?
 * Can't be styled
 * With proper HTML
 * Using the `style` menu each browser provides for HTML editting
-
-

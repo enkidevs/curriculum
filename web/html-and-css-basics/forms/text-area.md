@@ -9,14 +9,17 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.html-forms.0: 10
+  web.layout-html.2: 10
 
-tags:
+aspects:
+  - introduction
   - workout
 
 links:
   - '[MDN docs for textarea](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea){website}'
-  
+
 ---
 # Text Area
 ---
@@ -27,7 +30,7 @@ The HTML `<textarea>` element is used to represent a multi-line input text area.
 
 Simple example:
 ```
-<textarea 
+<textarea
   name="textbox">
 </textarea>
 ```
@@ -38,16 +41,16 @@ The `<textarea>` element has many attributes. Some of them:
   - `cols`  
   - `maxlength`
   - `minlength`
-  - `readonly` 
-  - `placeholder` 
+  - `readonly`
+  - `placeholder`
   - `rows`
-  
-  
+
+
 Example with attributes:
 ```
-<textarea 
-   name="textarea" rows="10" 
-   cols="30" 
+<textarea
+   name="textarea" rows="10"
+   cols="30"
    placeholder="Enter text here">
 </textarea>
 ```
@@ -74,7 +77,7 @@ Write the form code that creates a multi-line input for text.
 ---
 ## Revision
 
-Which element creates a multi-line input field that is 10 lines of text in height and 50 average characters in width. 
+Which element creates a multi-line input field that is 10 lines of text in height and 50 average characters in width.
 
 ???
 
@@ -102,5 +105,3 @@ Columns: ???
 * Table Row
 * Unicode code points
 * Number of characters
-
-

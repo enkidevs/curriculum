@@ -9,14 +9,17 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.html-forms.2: 10
+  web.embed-media.0: 10
 
-tags:
+aspects:
+  - introduction
   - workout
 
 links:
   - '[MDN docs for image buttons](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/image){website}'
-  - 
+  -
 
 ---
 # Image Button
@@ -27,28 +30,28 @@ The HTML input form of type `image` is used to create a submit button with a gra
 
 Example:
 ```
-<input 
-  type="image" 
-  src="https://enkidevs.github.io/svgomg/" 
+<input
+  type="image"
+  src="https://enkidevs.github.io/svgomg/"
   alt="play">
 ```
 
 **Note: The input type `image` element doesn't accept `value` attributes. You must specify a path to the image with the `src` attribute.**
 
-This element is a replaced element,'[MDN docs for Replaced Element](https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element)', which means an element whose content isn't directly managed by CSS layer. Also, this element works just like the `<img>` element, however, it has the capabilities of the submit button. 
+This element is a replaced element,'[MDN docs for Replaced Element](https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element)', which means an element whose content isn't directly managed by CSS layer. Also, this element works just like the `<img>` element, however, it has the capabilities of the submit button.
 
 Image button attributes:
-  - src
-  - alt
-  - width
-  - height
-  
-  
+- src
+- alt
+- width
+- height
+
+
 Example with attributes:
 ```
-<input 
-  id="image" type="image" 
-  width="150" height="50" 
+<input
+  id="image" type="image"
+  width="150" height="50"
   alt="Play button image"
   src="playbutton.png">
 ```
@@ -71,13 +74,13 @@ The `formtarget` specifies where the response is displayed once the form is subm
   - `_blank` new window
   - `_parent` open in parent browsing content, if no parent, same as `_self`
   - `_top` open in the top-level browsing content, if no top level, same as `_self`
-  
+
 
 
 Example with big play button image:
 ```
-<input 
-  id="image" type="image" 
+<input
+  id="image" type="image"
   alt="Black Play button image"
   src="playbutton-image.jpeg">
 ```
@@ -91,7 +94,7 @@ Result
 
 Write the form code that creates an image button.
 
-`<??? ???="???" ???="button.png" ???="Send" >`
+`<??? ???="???" ???="button.png" alt="Send" >`
 
 * input
 * type
@@ -104,10 +107,10 @@ Write the form code that creates an image button.
 ---
 ## Revision
 
-What code is used to replace an image with a form's submit button?
+What code is used to replace a form's submit button with an image?
 
 ???
-    
+
 * `<input type="image" src="button.png" >`
 * `<img type="submit" src="button.png" >`
 * `<input type="submit" src="button.png" >`
@@ -120,8 +123,6 @@ What code is used to replace an image with a form's submit button?
 ### How much do you know about image buttons?
 
 Which attribute is not a valid image button attribute for overriding default form behaviors?
-
-???
 
 * formoverride
 * formaction

@@ -9,14 +9,16 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.html-forms.4: 10
 
-tags:
+aspects:
+  - introduction
   - workout
 
 links:
   - '[MDN docs for checkboxes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox){website}'
-  
+
 ---
 # Check Boxes
 ---
@@ -30,11 +32,11 @@ Example with one checkbox:
 ```
 <form>
   <div>
-    <input type="checkbox" 
-      id="reportProblem" 
-      name="report" 
+    <input type="checkbox"
+      id="reportProblem"
+      name="report"
       value="bankaccount">
-    <label 
+    <label
       for="reportProblem">
       Report a problem
     </label>
@@ -54,7 +56,7 @@ Furthermore, if you decide to omit the `value` attribute, the default value for 
 On the other hand, if no checkbox is ticked/checked upon form submission, the name/value pair is `value=unchecked` and the value won't be submitted to the server at all.
 
 
-You can also include CSS to improve the styling. 
+You can also include CSS to improve the styling.
 
 ---
 ## Practice
@@ -82,4 +84,3 @@ Which line creates an HTML form’s checkbox?
 * `<input type="check">`
 * `<form input="check">`
 * `<form input="checkbox">`
-

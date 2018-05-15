@@ -9,16 +9,17 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.html-forms.2: 10
 
-
-tags:
+aspects:
+  - introduction
   - workout
 
 links:
   - '[MDN docs for reset](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset){website}'
   - '[MDN docs for submit](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit){website}'
-  
+
 ---
 # Submit & Reset
 ---
@@ -28,15 +29,15 @@ The HTML inputs of type `submit` and `reset` are rendered as buttons with `onCli
 
 Example submit:
 ```
-<input 
-  type="submit" 
+<input
+  type="submit"
   value="Submit">
 ```
 
 Example reset:
 ```
-<input 
-  type="reset" 
+<input
+  type="reset"
   value="Reset data">
 ```
 
@@ -46,22 +47,22 @@ The `type="submit"` button is used to submit a form.
 
 Example submit and reset with one text field:
 ```
-<form> 
+<form>
   <div>
-    <label 
+    <label
       for="name">Name:
     </label>
-    <input 
-      id="name" type="text" 
+    <input
+      id="name" type="text"
       name="text">
   </div>
   <div>
-    <input 
-      type="submit" 
+    <input
+      type="submit"
       value="Next">
   </div>
-  <input 
-    type="reset" 
+  <input
+    type="reset"
     value="Reset name">
 </form>
 ```
@@ -69,24 +70,24 @@ Example submit and reset with one text field:
 Furthermore, you can add shortcuts both to the `submit` and `reset` buttons via the `accesskey` attribute:
 Previous example with shortcuts added:
 ```
-<form> 
+<form>
   <div>
-    <label 
+    <label
       for="name">Name:
     </label>
-    <input 
-      id="name" type="text" 
+    <input
+      id="name" type="text"
       name="text">
   </div>
   <div>
-    <input 
-      type="submit" 
-      value="Next" 
+    <input
+      type="submit"
+      value="Next"
       accesskey="s">
   </div>
-  <input 
-    type="reset" 
-    value="Reset name" 
+  <input
+    type="reset"
+    value="Reset name"
     accesskey="r">
 </form>
 ```
@@ -146,8 +147,5 @@ If values are not assigned to reset and submit buttons stating what text the but
 
 * "Submit" & "Reset" text is added by default.
 * Nothing is added to the HTML page.
-* They display as buttons without text. 
+* They display as buttons without text.
 * The page breaks
-
-
-

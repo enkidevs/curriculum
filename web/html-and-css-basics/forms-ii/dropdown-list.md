@@ -9,10 +9,11 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.html-forms.6: 10
 
-
-tags:
+aspects:
+  - introduction
   - workout
 
 links:
@@ -30,14 +31,14 @@ The `<select>` element is used to create a control with a menu of options/items 
 
 Example:
 ```
-<select name="apples"> 
- <option 
+<select name="apples">
+ <option
   value="green">Green
- </option> 
- <option 
+ </option>
+ <option
   value="red">Red
  </option>
- <option 
+ <option
   value="yellow">Yellow
  </option>
 </select>
@@ -46,14 +47,14 @@ Example:
 In the example above, we have a dropdown menu with 3 possible options.
 You can also select which option item will be displayed/selected first, with the `selected` attribute:
 ```
-<select name="apples"> 
- <option 
+<select name="apples">
+ <option
   value="green">Green
- </option> 
- <option 
+ </option>
+ <option
   value="red">Red
  </option>
- <option 
+ <option
   value="yellow" selected>Yellow
  </option>
 </select>
@@ -66,16 +67,15 @@ Write the form code that creates an item of a dropdown.
 
 ```
 <???>
-  <??? ???="???">DropDown Item #1<???>
+  <??? value="a value">DropDown Item #1<???>
 <???>
 ```
 
 * select
 * option
-* value
-* value name
 * /option
 * /select
+* value
 * input
 * type
 * dropdown
@@ -98,14 +98,14 @@ Which line of code creates form’s dropdown list with a single item?
 ---
 ## Quiz
 
-### How much do you know about form dropdowns?
+### How much do you know about dropdowns?
 
 When a form’s drop-down has an option other than the first item that needs to display by default, what attribute is used?
 
 ```
 <select>
-  <option 
-    value="item#1" ???>
+  <option
+    value="item1" ???>
     Item #1
    </option>
 </select>
@@ -116,6 +116,3 @@ When a form’s drop-down has an option other than the first item that needs to 
 * preselected
 * default
 * select
-
-
-
