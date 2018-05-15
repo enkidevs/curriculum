@@ -11,6 +11,12 @@ category: must-know
 
 inAlgoPool: false
 
+standards:
+  web.syntax-html.0: 10
+  web.syntax-html.4: 10
+
+aspects:
+  - introduction
 
 links:
 

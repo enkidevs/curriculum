@@ -9,13 +9,18 @@ type: normal
 
 category: must-know
 
-tags:
+standards:
+  web.syntax-html.3: 10
+  web.syntax-html.4: 10
+  web.syntax-html.5: 10
+
+aspects:
   - introduction
 
 links:
   - '[w3 documents on all Optional Elements](https://www.w3.org/TR/html5/syntax.html#optional-tags){website}'
   - '[Google docs for Optional Elements](https://google.github.io/styleguide/htmlcssguide.html#Optional_Tags){website}'
-  
+
 ---
 # Optional Elements
 ---
@@ -85,12 +90,12 @@ Which one of these elements is implied even if the string is not located in the 
 * `<mainelement>`
 
 ---
-## Revision 
+## Revision
 
 Which page structure is recommended by Google for HTML5 pages today?
 
 ```
----------Option #1--------------
+---------Option 1--------------
 <!DOCTYPE html>
 <html>
   <head>
@@ -101,7 +106,7 @@ Which page structure is recommended by Google for HTML5 pages today?
   </body>
 </html>
 
----------Option #2--------------
+---------Option 2--------------
 <!DOCTYPE html>
 <title>Option #2</title>
 <p>Hello.
@@ -109,8 +114,8 @@ Which page structure is recommended by Google for HTML5 pages today?
 
 ???
 
-* Option #1
-* Option #2
+* Option 1
+* Option 2
 
 ---
 ## Quiz
@@ -125,4 +130,3 @@ What are optional elements?
 * Elements that are always there, even if the code for them isn't.
 * Elements that have different options within them.
 * Optional elements is just a name for HTML elements.
-

@@ -9,7 +9,10 @@ type: normal
 
 category: must-know
 
-tags:
+standards:
+  web.syntax-html.0: 10
+
+aspects:
   - introduction
 ---
 # Comments
@@ -34,7 +37,7 @@ Example:
 <!--
 <h1 Some header</h1>
 <p>Random paragraph.</p>
-<a 
+<a
   href="https://www.enki.com">
   This is a link
   </a>
@@ -49,7 +52,7 @@ In regards to HTML comments, which of the following is true?:
 ???
 
 * The code `<!--` starts a comment. The code `->` ends a comment.
-* The comment is placed within `<!- xxx ->`. 
+* The comment is placed within `<!- xxx ->`.
 * The comment is placed within `*/ xxx /*`.
 * The comment is placed within `/* xxx */`.
 * HTML does not support comments.
@@ -82,4 +85,4 @@ What is happening to this heading text?
 * It is not displayed in the browser.
 * It is displayed larger than normal.
 * It is displayed as a Heading 1 in the web page.
-* It is removed from the HTML code. 
+* It is removed from the HTML code.

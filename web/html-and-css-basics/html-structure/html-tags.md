@@ -9,8 +9,13 @@ type: normal
 
 category: must-know
 
-tags:
+standards:
+  web.syntax-html.0: 10
+  web.syntax-html.2: 10
+
+aspects:
   - introduction
+
 ---
 # Tags in HTML
 ---
@@ -78,16 +83,6 @@ How many tags are used in this code:
 * 1
 * 6
 
-What is an HTML element called that does not have a closing tag?
-
-???
-
-* `self closing`
-* `tag`
-* `closed element`
-* `opening tag`
-* `< />`
-
 ---
 ## Revision
 
@@ -102,10 +97,10 @@ What is the difference between an opening and closing HTML tag?
 
 ???
 
-* closing tag has a / within it. 
+* closing tag has a / within it.
 * there is no different between opening & closing tags.
 * opening tag has a / within it.
-* closing tag is an empty element. 
+* closing tag is an empty element.
 
 ---
 ## Quiz

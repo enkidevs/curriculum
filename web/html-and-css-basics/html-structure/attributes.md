@@ -9,7 +9,11 @@ type: normal
 
 category: must-know
 
-tags:
+standards:
+  web.syntax-html.0: 10
+  web.syntax-html.1: 10
+
+aspects:
   - introduction
 
 ---
@@ -17,7 +21,7 @@ tags:
 ---
 ## Content
 
-In HTML, elements can have attributes. They are placed in the opening tag and are there to provide extra information. 
+In HTML, elements can have attributes. They are placed in the opening tag and are there to provide extra information.
 They usually come in name/value pairs and are enclosed in quotation marks.
 
 Example:
@@ -33,9 +37,9 @@ In the example above the `src="enki_logo.jpg"` is an attribute for the `<img>` t
 What are the two attributes of this code?
 ```
 <p>
-  This is a 
-  <a 
-   href="https://www.enkipro.com" 
+  This is a
+  <a
+   href="https://www.enkipro.com"
    target="_blank">link
   </a>
 </p>
@@ -67,10 +71,10 @@ HTML attributes are required to be placed where?
 
 ???
 
-* Within the opening tag. 
+* Within the opening tag.
 * Within the closing tag.
-* Between the opening and closing tags. 
-* Before the opening tag. 
+* Between the opening and closing tags.
+* Before the opening tag.
 * After the closing tag.
 
 Every HTML element requires an attribute.
@@ -86,8 +90,6 @@ Every HTML element requires an attribute.
 ### How much do you know about HTML attributes?
 
 HTML attributes usually come in what format?
-
-???
 
 * pairs like: name="value"
 * styles like: font-size

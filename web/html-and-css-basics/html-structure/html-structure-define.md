@@ -9,8 +9,13 @@ type: normal
 
 category: must-know
 
-tags:
+standards:
+  web.syntax-html.0: 10
+  web.syntax-html.2: 10
+
+aspects:
   - introduction
+
 ---
 # HTML Structure Defined
 ---
@@ -27,7 +32,7 @@ The structure of HTML elements is:
 
 Example:
 ```
-<a 
+<a
   href="http://enkipro.com/">Enki
 </a>
 ```
@@ -84,7 +89,7 @@ F: ???
  * closing tag
  * value
  * rule
- 
+
 ---
 ## Quiz
 

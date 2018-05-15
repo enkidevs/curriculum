@@ -9,8 +9,17 @@ type: normal
 
 category: must-know
 
-tags:
+aspects:
   - introduction
+
+standards:
+  web.syntax-html.3: 10
+  web.syntax-html.4: 10
+  web.syntax-html.5: 10
+  web.metadata.0: 10
+  web.metadata.1: 10
+  web.metadata.2: 10
+  web.metadata.4: 10
 
 links:
   - '[MDC docs for Metadata](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)(website)'
@@ -22,7 +31,7 @@ links:
 ---
 ## Content
 
-The HTML `<head>`, or, **The Document Metadata Element** is used to provide metadata about the document. The `<head>` elements content is never displayed on the page, unlike the content of the `<body>` element. 
+The HTML `<head>`, or, **The Document Metadata Element** is used to provide metadata about the document. The `<head>` elements content is never displayed on the page, unlike the content of the `<body>` element.
 
 Example of metadata:
   - character set
@@ -31,7 +40,7 @@ Example of metadata:
   - styles
   - scripts
   - etc.
-  
+
 Simple example:
 ```
 <html>
@@ -45,7 +54,7 @@ Simple example:
 </html>
 ```
 
-In the example above, we have a simple head element with character encoding and a title of the page. 
+In the example above, we have a simple head element with character encoding and a title of the page.
 
 The `<head>` element can also contain a page description for search engines or links to CSS and JS files. On the other hand, the `<head>` element should never contain the web page's logo, the primary heading of the page nor the documents primary language.
 
@@ -57,7 +66,7 @@ Larger example:
     <meta charset="UTF-8">
     <meta name="description"  
       content="Free Web tutorials">
-    <meta name="keywords" 
+    <meta name="keywords"
       content="HTML,CSS,JavaScript">
     <meta name="author"
       content="Authors Name">
@@ -76,7 +85,7 @@ Larger example:
 
 Which item should NOT be contained in the `<head>` element?
 
-??? 
+???
 
 * Primary heading of a page
 * Web page title

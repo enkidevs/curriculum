@@ -9,8 +9,13 @@ type: normal
 
 category: must-know
 
-tags:
+standards:
+  web.syntax-html.0: 10
+  web.markup-text.2: 10
+
+aspects:
   - introduction
+
 ---
 # Paragraphs
 ---
@@ -19,8 +24,8 @@ tags:
 In HTML the `<p>` tag defines the start of a paragraph And the `</p>` defines the end.
 
 ```
-<p> 
-  This is a paragraph 
+<p>
+  This is a paragraph
 </p>
 ```
 
@@ -29,7 +34,7 @@ Sometimes you may forget to use the end tag, which the browser can still read pr
 To set a specific size of your paragraph, you would use the `style="font-size:(number)%;"`
 
 ```
-<p 
+<p
   style="font-size:130%;">
   This is a paragraph.
 </p>
@@ -81,7 +86,3 @@ What is the default HTML text size of a paragraph in a browser?
 * 4 em
 * 12 pixels
 * 14 pixels
-
-
-
-

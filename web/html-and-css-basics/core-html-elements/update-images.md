@@ -9,7 +9,12 @@ type: normal
 
 category: must-know
 
-tags:
+standards:
+  web.syntax-html.0: 10
+  web.syntax-html.1: 10
+  web.embed-media.0: 10
+
+aspects:
   - introduction
 ---
 # Images
@@ -20,28 +25,28 @@ In HTML, images are defined with the `<img>` tag.
 
 Example:
 ```
-<img 
+<img
   src="URL" alt="Image description"
   width="36px" height="36px">
 ```
 or
 ```
-<img 
-  src="sky.png" 
-  alt="Beautiful sunny sky" 
+<img
+  src="sky.png"
+  alt="Beautiful sunny sky"
   height="36px" width="36px">
 
 ```
 The `src` attribute specifies the URL of the image.
 If for some reason the picture cannot be loaded, the alt attribute specifies the text shown instead.
 
-The most common image formats are `.gif`, `.png`, `.jpg` and `.svg`. 
+The most common image formats are `.gif`, `.png`, `.jpg` and `.svg`.
 
 
 **Note: `.img` files are not image files. They are similar to `.iso` files and are used for keeping a backup copy of a disk in a single file, with information about that file.**
 
 
-It is important to set the image width and height attributes. Setting those attributes reserves space on the page when it is loaded and prevents layout shifts. 
+It is important to set the image width and height attributes. Setting those attributes reserves space on the page when it is loaded and prevents layout shifts.
 
 If you do not set those attributes, the browser won't know how much space to leave the image until it starts loading it.
 It is very important to either set both the width and height attributes or neither of them.
@@ -55,7 +60,7 @@ Write the code to insert an image:
 
 `<??? ???="???" ???="Enki Logo">`
 
-* `img` 
+* `img`
 * `src`
 * `images/logo.svg`
 * `alt`
@@ -88,7 +93,7 @@ If an image cannot load properly in a web page, what attribute will display text
 * `title`
 * `desc`
 
-Which of these are not a common web image format: 
+Which of these are not a common web image format:
 
 ???
 
@@ -103,7 +108,7 @@ If an image does not have an assigned height and width using HTML or CSS, how wi
 ???
 
 * At its original image size.
-* Will resize filling the container it is within. 
+* Will resize filling the container it is within.
 * Will resize by default to 100px wide.
 * It will only resize if the image is larger than the viewing area.
 
@@ -116,7 +121,7 @@ Why is assigning height & width attributes to an image size more useful than set
 
 ???
 
-* Page loads with assigned space for images preventing layout shifts. 
+* Page loads with assigned space for images preventing layout shifts.
 * Using HTML height & width attributes is never better than CSS.
 * When image size needs to override the CSS size setting.
 * When the height and width is differen than the default image size.

@@ -9,29 +9,34 @@ type: normal
 
 category: must-know
 
-tags:
+standards:
+  web.syntax-html.0: 10
+  web.markup-text.0: 10
+  web.markup-text.2: 10
+
+aspects:
   - introduction
 ---
 # Hyperlinks
 ---
 ## Content
 
-Hyperlinks are links in HTML. They are very useful for navigating from one document to another.
-By default, unclicked links are blue, highlighted and underlined. 
+Hyperlinks are links in HTML. They are very useful for navigating from one document to another. 
+By default, un-visited links are blue, highlighted and underlined.
 Whereas links you have already clicked on at least once are red.
 
 Hovering over hyperlinks changes the cursor to a pointer.
 
 The hyperlink is defined with the `<a>` tag:
 ```
-<a 
+<a
   href="URL">Link text
 </a>
 ```
 or
 ```
-<a 
-  href="https://www.enki.com/"> 
+<a
+  href="https://www.enki.com/">
   5-minute workouts
 </a>
 ```
@@ -40,7 +45,7 @@ Result:
 5-minute workouts
 ```
 
-In the example above, the `5-minute workouts` is the hyperlink, and by clicking on the text you are taken to the URL provided in the `href="URL"` attribute. 
+In the example above, the `5-minute workouts` is the hyperlink, and by clicking on the text you are taken to the URL provided in the `href="URL"` attribute.
 
 The attribute `href` is the most important element because it specifies the destination(URL).
 
@@ -54,18 +59,18 @@ Where the link opens is set with the `_target="???"` attribute.
 
 Opening the link in a different tab:
 ```
-<a 
-  href="https://www.enki.com/" 
-  target="_blank"> 
-  5 minute workouts 
-</a> 
+<a
+  href="https://www.enki.com/"
+  target="_blank">
+  5 minute workouts
+</a>
 ```
 **Note:If no target is set, the linked page or document is opened in the current tab.**
 
 You can also create `placeholder` links. These are links that can be clicked, but do nothing.
 
 ```
-<a 
+<a
   href="#"> Empty href
 </a>
 ```
@@ -77,16 +82,16 @@ Next to linking through text, it is also common to link through pictures.
 <html>
 <body>
 
-<a 
-   href="https://www.enki.com/" 
+<a
+   href="https://www.enki.com/"
    target="_blank">
-  <img 
+  <img
     src ="http.logo.com/enki.png"
     alt ="Enki logo"
     style="width:36px;height:36px;"
    />
 </a>
- 
+
 </body>
 </html>
 ```
@@ -100,7 +105,7 @@ Create a hyperlink text that opens a webpage in a new window:
 
 `<??? ???="???" ???="???">Link to Enki<???>`
 
-* a 
+* a
 * href
 * http://enkipro.com
 * target
@@ -139,7 +144,7 @@ When will the cursor change to a pointer with the following code?
 
 ```
 <main>
-  <a 
+  <a
     href="http://www.enkipro.com">
     Check out Enki
   </a>
@@ -157,7 +162,7 @@ What is the default style of a text link in HTML?
 
 ???
 
-* It is blue and underlined. 
+* It is blue and underlined.
 * It is blue and bold.
 * There is no visual change to a text link.
 * The cursor changes to pointer when hovered over it.
@@ -172,12 +177,12 @@ Which statement about these paragraphs & links is true?
 
 ```
 <p>
-  <a 
+  <a
     href="http://enkipro.com">
     Click Me
   </a>
 </p>
-  <a 
+  <a
    href="http://enkipro.com">
   <p>Click Me</p>
 </a>
@@ -187,7 +192,6 @@ Which statement about these paragraphs & links is true?
 
 * Both options are valid, although best to place links within paragraphs.  
 * Both options are valid, although best to place paragraphs within links.  
-* HTML links are required to be placed within paragraphs to be valid. 
-* HTML links are required to be placed around entire paragraphs to be valid. 
-* Neither line in this example is valid HTML. 
-
+* HTML links are required to be placed within paragraphs to be valid.
+* HTML links are required to be placed around entire paragraphs to be valid.
+* Neither line in this example is valid HTML.

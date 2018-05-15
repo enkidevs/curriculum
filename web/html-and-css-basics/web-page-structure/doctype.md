@@ -9,8 +9,14 @@ type: normal
 
 category: must-know
 
-tags:
+aspects:
   - introduction
+
+standards:
+  web.syntax-html.3: 10
+  web.syntax-html.4: 10
+  web.syntax-html.5: 10
+  web.metadata.4: 10
 
 links:
   - '[MDN docs for Doctype](https://developer.mozilla.org/en-US/docs/Glossary/Doctype){website}'

@@ -9,7 +9,12 @@ type: normal
 
 category: must-know
 
-tags:
+standards:
+  web.syntax-html.3: 10
+  web.syntax-html.4: 10
+  web.syntax-html.5: 10
+
+aspects:
   - introduction
 
 links:
@@ -37,10 +42,10 @@ Adding the `lang` attribute with a valid language tag is very important for help
 
 Furthermore, if you include a valid `lang` in the `<html>` element, you ensure all metadata will be announced properly.
 
-Also, the `<html>` element is easily modifiable with CSS by using the `:root` selector. 
+Also, the `<html>` element is easily modifiable with CSS by using the `:root` selector.
 For instance, by adding the CSS:
 ```
-:root { 
+:root {
     background: #ff0000;
 }
 ```
@@ -93,9 +98,3 @@ Using a `:root` selector in CSS will target which HTML element?
 * `<main>`
 * `<root>`
 * every HTML element
-
-
-
-
-
-
