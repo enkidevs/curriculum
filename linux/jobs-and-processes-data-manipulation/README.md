@@ -17,7 +17,7 @@ sections:
 standards:
   sysadmin-tools-processes:
     name: Use system administration tools to manage processes in Linux
-    description: This standard covers the use of common built-in tools to linux such as ps and top to
+    description: This standard covers the use of common built-in tools to linux such as ps and top to manage processes.
     objectives:
       0: Use built-in tools like top and ps to view processes in linux
       1: Use built-in tools like kill to end processes
@@ -25,7 +25,7 @@ standards:
       3: Use built-in tools like vmstat, iostat, mpstat, iotop to monitor the resource requirements by process
   scheduling-utilities:
     name: Use scheduling utilities to automate processes
-    description: placeholder
+    description: This standard covers the scheduling of automated processes using utilities such as crontab.
     objectives:
       0: Accurately analyze crontab scheduling sequences and predict the schedule of their execution
       1: Use crontab to schedule recurring commands
