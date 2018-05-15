@@ -190,6 +190,5 @@ standards:
       5: Create a mock to isolate unit tests
       6: Create a spy to verify the behavior of a function
 
-
 next:
   - python:functional-programming
