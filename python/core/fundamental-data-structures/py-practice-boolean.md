@@ -7,12 +7,15 @@ levels:
 
   - basic
 
-  - medium
+tags: 
+  - introduction
 
 type: exercise
 
-link: https://www.codewars.com/kata/you-only-need-one-beginner
 linkType: codewars
+
+link: https://www.codewars.com/kata/you-only-need-one-beginner
+
 standards:
 
   py.data-structures-uses.0: 1000
@@ -21,9 +24,9 @@ standards:
 
 links:
 
-  - '[link to official documentation](https://docs.python.org/3/library/stdtypes.html){website}'
-  - '[link to deeper dive blog post](http://www.diveintopython3.net/native-datatypes.html){website}'
-  - '[link to a video](https://www.youtube.com/watch?v=TkpNMvBrEUw){video}'
+  - '[Official documentation of Boolean type](https://docs.python.org/3/library/stdtypes.html){website}'
+  - '[More insight on boolean type](http://www.diveintopython3.net/native-datatypes.html){website}'
+  - '[A video tutorial on boolean type](https://www.youtube.com/watch?v=TkpNMvBrEUw){video}'
 ---
 
 # Practice python booleans
@@ -31,4 +34,13 @@ links:
 ---
 ## Exercise
 
-Practice using python's `boolean` and `numeric` types on Code Wars.
+Practice `boolean` in python.
+
+Click *Launch Exercise* to open Codewars.
+
+On the website you will find a description of the exercise. Read this description carefully. 
+
+When you are ready to give it a try press the blue *Train* button and write your solution. 
+
+To test your solution press the blue *Attempt* button.
+
