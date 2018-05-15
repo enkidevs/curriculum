@@ -9,21 +9,27 @@ type: normal
 
 category: must-know
 
-tags:
+standards:
+  web.metadata.0: 10
+  web.metadata.4: 10
+
+aspects:
   - introduction
+  - workout
+  
 ---
 # Charset
 ---
 ## Content
 
-The HTML5 meta `charset` attribute is used to declare the character encoding of that particular page. This attribute must contain a standard IANA MIME name for character encodings. There is no specific standard encoding, however, authors are recommended to use `UTF-8`. 
+The HTML5 meta `charset` attribute is used to declare the character encoding of that particular page. This attribute must contain a standard IANA MIME name for character encodings. There is no specific standard encoding, however, authors are recommended to use `UTF-8`.
 
-As a best practice, the `charset` attribute should be the first line of code within the `<head>` element. 
+As a best practice, the `charset` attribute should be the first line of code within the `<head>` element.
 If you choose not to put the charset in the first place you need to place it within the first 1024 bytes of the HTML because some browsers only look within that first KB before choosing the encoding.
 
 Example:
 ```
-<meta 
+<meta
   charset="UTF-8">
 ```
 
@@ -32,7 +38,7 @@ For security reasons, authors should not use any encoding that is ASCII-incompat
 ---
 ## Practice
 
-Write the meta tag for the necessary HTML5 character set. 
+Write the meta tag for the necessary HTML5 character set.
 
 `<??? ???="???">`
 
@@ -80,6 +86,3 @@ The `<meta charset="utf-8">` will best help the browser understand which line of
 * `<p><sup>1 tsp.</sup> sugar<p>`
 * `<h3>The total cost was $24.50</h3>`
 * `<p>Bunt cake takes 3 c. flour<p>`
-
-
-

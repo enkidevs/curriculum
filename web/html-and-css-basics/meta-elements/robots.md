@@ -9,8 +9,15 @@ type: normal
 
 category: must-know
 
+standards:
+  web.metadata.0: 10
+  web.metadata.3: 10
+  web.metadata.4: 10
+
 tags:
+  - workout
   - deep
+
 ---
 # Robots
 ---
@@ -54,7 +61,7 @@ The `nodp` value is used to prevent the use of the `Open Directory Project` desc
 ---
 ## Practice
 
-Write the meta tag that tells search engines not to index you webpage. 
+Write the meta tag that tells search engines not to index you webpage.
 
 `<??? ????="???" ????="???, ???">`
 

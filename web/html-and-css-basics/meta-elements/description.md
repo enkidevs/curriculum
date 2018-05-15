@@ -9,20 +9,28 @@ type: normal
 
 category: must-know
 
-tags:
+standards:
+  web.metadata.0: 10
+  web.metadata.1: 10
+  web.metadata.3: 10
+
+
+aspects:
   - introduction
+  - workout
+  
 ---
 # Description
 ---
 ## Content
 
 In HTML the `<meta>` tag is used to describe metadata within a document.
-For instance, the meta `description` tag is used to add a short summary of the content of your website. 
+For instance, the meta `description` tag is used to add a short summary of the content of your website.
 
 Example:
 ```
-<meta 
-  name="description" 
+<meta
+  name="description"
   content="Short summary here">
 ```
 
@@ -70,5 +78,3 @@ Choose the best option from these:
 * `<meta name="description" content="puppy dogs rescue local shelters adoption">`
 * `<meta name="description" content="http://www.puppyrescue.com">`
 * `<meta name="description" content="Austin, Texas">`
-    
-    

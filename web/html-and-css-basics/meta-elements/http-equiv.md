@@ -9,7 +9,13 @@ type: normal
 
 category: must-know
 
-tags:
+standards:
+  web.metadata.0: 10
+  web.metadata.1: 10
+  web.metadata.3: 10
+
+aspects:
+  - obscura
   - deep
 ---
 # Http-equiv
@@ -23,8 +29,8 @@ The value of `http-equiv` is defined inside the `content` attribute.
 Example 1:
 ```
 <head>
-  <meta 
-    http-equiv="refresh" 
+  <meta
+    http-equiv="refresh"
     content="30">
 </head>
 ```
@@ -32,29 +38,29 @@ Example 1:
 Example 2:
 ```
 <head>
-  <meta 
-    http-equiv="refresh" 
-    content="30; 
+  <meta
+    http-equiv="refresh"
+    content="30;
     URL=redirectedpage.html">
 </head>
 ```
 
 In the first example, we have set the document to refresh every 30 seconds.
-In the second example, we automatically redirect users from one webpage to another after 30 seconds. 
+In the second example, we automatically redirect users from one webpage to another after 30 seconds.
 
-**Note: The better option is using JS: **
+**Note: The better option is using JS:**
 ```
 <script>
-  window.location = 
+  window.location =
   "http://new-website.com";
 </script>
 ```
 
 Next to the `refresh` attribute we have:
-  - `content-language`
-  - `content-security-policy`
-  - `content-type`
-  - `set-cookie`
+- `content-language`
+- `content-security-policy`
+- `content-type`
+- `set-cookie`
 
 Attributes explanation:
 
@@ -64,7 +70,7 @@ The `content-security-policy` allows authors to define a content policy for the 
 
 Before HTML5 you would use the `http-equiv="content-type` attribute to specify the character set of an HTML document. Like so:
 ```
-<meta 
+<meta
   http-equiv="content-type"
   content="text/html;
   charset=UTF-8">
@@ -80,7 +86,7 @@ The `set-cookie` attribute is used to define a `cookie` for the page. However, y
 ---
 ## Practice
 
-Write the meta tag that automatically redirects users from one webpage to another after 30 seconds. 
+Write the meta tag that automatically redirects users from one webpage to another after 30 seconds.
 
 `<??? ????="???" ???="??? ???">`
 
@@ -114,9 +120,9 @@ Which line of code automatically redirect users from one webpage to another afte
 The easiest way to redirect a web page to another is using a meta redirect tag in the `<head>`, but is it the best way?
 
 ```
-<meta 
-  http-equiv="refresh" 
-  content="0; 
+<meta
+  http-equiv="refresh"
+  content="0;
   URL=redirectedpage.html">
 ```
 
