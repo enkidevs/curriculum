@@ -10,7 +10,7 @@ type: normal
 category: how to
 
 standards:
-  javascript.node-standard-library-os.7: 20
+  javascript.node-standard-library-os.6: 20
 
 tags:
   - introduction

@@ -10,7 +10,7 @@ type: normal
 category: feature
 
 standards:
-  javascript.node-developer-environment.6: 20
+  javascript.node-developer-environment.5: 20
   javascript.use-modules.2: 20
 
 tags:
