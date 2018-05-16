@@ -16,7 +16,7 @@ tags:
   - deep
 
 standards:
-  js.identify-common-design-patterns.6: 10
+  javascript.identify-common-design-patterns.6: 10
 
 links:
   - '[Modularize your solutions](https://github.com/i0natan/nodebestpractices/blob/master/sections/projectstructre/breakintcomponents.md){website}'

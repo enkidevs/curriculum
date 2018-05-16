@@ -11,7 +11,7 @@ category: tip
 
 standards:
 
-  js.evaluate-expressions.10: 10
+  javascript.evaluate-expressions.10: 10
 
 tags:
 

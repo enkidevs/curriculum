@@ -15,11 +15,11 @@ category: tip
 
 standards:
 
-  js.javascript-syntax.2: 10
+  javascript.javascript-syntax.2: 10
 
-  js.write-expressions.0: 10
+  javascript.write-expressions.0: 10
 
-  js.evaluate-expressions.0: 10
+  javascript.evaluate-expressions.0: 10
 
 tags:
 

@@ -16,7 +16,7 @@ tags:
   - introduction
 
 standards:
-  js.node-developer-environment.0: 10
+  javascript.node-developer-environment.0: 10
 
 links:
   - '[nodejs.org](https://nodejs.org/en/){website}'
