@@ -13,10 +13,10 @@ link: https://www.codewars.com/kata/unique-sum
 linkType: codewars
 standards:
 
-  py.control-structures.0: 1000
-  py.control-structures.1: 2000
-  py.control-structures.2: 2000
-  py.control-structures.4: 5000
+  python.control-structures.0: 1000
+  python.control-structures.1: 2000
+  python.control-structures.2: 2000
+  python.control-structures.4: 5000
 
 links:
 

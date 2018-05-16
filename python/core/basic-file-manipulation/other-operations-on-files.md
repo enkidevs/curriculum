@@ -10,7 +10,7 @@ type: normal
 category: feature
 
 standards:
-  py.standard-library-operating-system.0: 10
+  python.standard-library-operating-system.0: 10
 
 links:
 

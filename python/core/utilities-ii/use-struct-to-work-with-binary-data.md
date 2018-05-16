@@ -24,9 +24,9 @@ notes: >-
   data and text data formats.
 
 standards:
-  py.native-types-operations.11: 10
-  py.modules.0: 10
-  py.data-structures-uses.3: 10
+  python.native-types-operations.11: 10
+  python.modules.0: 10
+  python.data-structures-uses.3: 10
 
 ---
 

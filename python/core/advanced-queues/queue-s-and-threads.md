@@ -10,8 +10,8 @@ type: normal
 category: how to
 
 standards:
-  py.control-structures.5: 10
-  cs.implement-linear-collection-data-structures.3: 10
+  python.control-structures.5: 10
+  comp-sci.implement-linear-collection-data-structures.3: 10
 
 links:
 

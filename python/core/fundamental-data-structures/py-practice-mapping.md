@@ -15,12 +15,12 @@ link: https://www.codewars.com/kata/sum-of-two-lowest-positive-integers
 linkType: codewars
 standards:
 
-  py.native-types-operations.1: 1000
-  py.native-types-operations.2: 1000
-  py.native-types-operations.3: 2000
-  py.native-types-operations.4: 4000
-  py.native-types-operations.6: 4000
-  py.native-types-operations.8: 4000
+  python.native-types-operations.1: 1000
+  python.native-types-operations.2: 1000
+  python.native-types-operations.3: 2000
+  python.native-types-operations.4: 4000
+  python.native-types-operations.6: 4000
+  python.native-types-operations.8: 4000
 
 links:
 

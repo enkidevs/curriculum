@@ -10,7 +10,7 @@ type: normal
 category: must-know
 
 standards:
-  py.native-types-operations.9: 10
+  python.native-types-operations.9: 10
 
 
 links:

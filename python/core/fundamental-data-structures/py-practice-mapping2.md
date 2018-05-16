@@ -15,11 +15,11 @@ link: https://www.codewars.com/kata/self-closing-cookie-jar
 linkType: codewars
 standards:
 
-  py.native-types-operations.1: 1000
-  py.native-types-operations.2: 2000
-  py.native-types-operations.4: 4000
-  py.native-types-operations.7: 4000
-  py.native-types-operations.8: 4000
+  python.native-types-operations.1: 1000
+  python.native-types-operations.2: 2000
+  python.native-types-operations.4: 4000
+  python.native-types-operations.7: 4000
+  python.native-types-operations.8: 4000
 
 links:
 

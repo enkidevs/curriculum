@@ -12,7 +12,7 @@ levels:
 type: normal
 
 standards:
-  py.native-types-operations.4: 10
+  python.native-types-operations.4: 10
 
 category: tip
 

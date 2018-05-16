@@ -11,8 +11,8 @@ category: must-know
 
 
 standards:
-  py.identify-python-syntax.2: 10
-  py.object-oriented.0: 10
+  python.identify-python-syntax.2: 10
+  python.object-oriented.0: 10
 
 ---
 

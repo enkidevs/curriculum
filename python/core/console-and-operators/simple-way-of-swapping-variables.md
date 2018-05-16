@@ -10,7 +10,7 @@ levels:
   - beginner
 
 standards:
-  py.native-types-operations.4: 10
+  python.native-types-operations.4: 10
 
 type: normal
 

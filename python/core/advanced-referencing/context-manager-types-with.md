@@ -26,9 +26,9 @@ notes: >
   surrounding code.
 
 standards:
-  py.store-manipulate-data.5: 10
-  py.object-oriented.5: 10
-  py.native-types-operations.7: 10
+  python.store-manipulate-data.5: 10
+  python.object-oriented.5: 10
+  python.native-types-operations.7: 10
 
 
 ---

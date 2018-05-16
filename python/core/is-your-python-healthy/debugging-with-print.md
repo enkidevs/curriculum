@@ -12,7 +12,7 @@ type: normal
 category: must-know
 
 standards:
-  py.identify-python-syntax.1: 10
+  python.identify-python-syntax.1: 10
 
 links:
 

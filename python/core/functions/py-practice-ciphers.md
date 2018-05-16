@@ -13,10 +13,10 @@ link: https://www.codewars.com/kata/digital-cypher
 linkType: codewars
 standards:
 
-  py.functions.0: 1000
-  py.functions.1: 2000
-  py.functions.2: 3000
-  py.functions.3: 3000
+  python.functions.0: 1000
+  python.functions.1: 2000
+  python.functions.2: 3000
+  python.functions.3: 3000
 
 links:
 
