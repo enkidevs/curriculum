@@ -70,4 +70,3 @@ What is the output of the following snippet?
 * `5, 4`
 * `error`
  
- 

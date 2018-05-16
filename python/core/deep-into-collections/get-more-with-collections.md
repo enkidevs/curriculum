@@ -67,4 +67,3 @@ Which collections class is used for defining a meaning for every position in a t
 * `definetuple`
 * `definitiontuple`
  
- 

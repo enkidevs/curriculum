@@ -112,4 +112,3 @@ some_new_function(1)
 - AttributeError: 'super' object has no attribute '__getattr__'
 - 1 NameError: global name 'nested_func' is not defined
  
- 
