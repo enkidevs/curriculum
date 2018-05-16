@@ -75,3 +75,4 @@ class Test:
 
 * `class`
 * `instance`
+ 

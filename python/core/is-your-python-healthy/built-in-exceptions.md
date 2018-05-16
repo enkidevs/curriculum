@@ -70,3 +70,4 @@ Which of the following is the exception usually thrown by a built-in input funct
 ## Footnotes
 [1:AssertionError]
 An AssertionError is an error generated for something that was thought to be impossible to happen. Usually, it is thrown because of a programming error.
+ 

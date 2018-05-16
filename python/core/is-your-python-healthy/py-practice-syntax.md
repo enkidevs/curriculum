@@ -31,3 +31,4 @@ links:
 ## Exercise
 
 Practice python syntax `validity`.
+ 

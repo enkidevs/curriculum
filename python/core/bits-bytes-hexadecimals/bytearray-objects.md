@@ -92,3 +92,4 @@ Convert the bytearray object into a hexadecimal string:
 * `tohex`
 * `byte`
 * `array`
+ 
