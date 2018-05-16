@@ -92,4 +92,3 @@ Which of the following is a valid Python comment?
 * `Comment B`
 * `Comment A`
  
- 

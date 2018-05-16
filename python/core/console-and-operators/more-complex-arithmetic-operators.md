@@ -70,4 +70,3 @@ What does the following code snippet return:
 * `2.5`
 * `4.66`
  
- 
