@@ -15,12 +15,12 @@ category: tip
 notes: 3 more questions? curr up to 11
 
 standards:
-  js.evaluate-expressions.1: 1000
-  js.evaluate-expressions.3: 1000
-  js.evaluate-expressions.5: 1000
-  js.evaluate-expressions.7: 1000
-  js.evaluate-expressions.8: 1000
-  js.evaluate-expressions.9: 1000
+  javascript.evaluate-expressions.1: 1000
+  javascript.evaluate-expressions.3: 1000
+  javascript.evaluate-expressions.5: 1000
+  javascript.evaluate-expressions.7: 1000
+  javascript.evaluate-expressions.8: 1000
+  javascript.evaluate-expressions.9: 1000
 
 ---
 

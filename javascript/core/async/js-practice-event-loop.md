@@ -13,7 +13,7 @@ link: https://www.codewars.com/kata/an-eventful-bus
 linkType: codewars
 standards:
 
-  js.async.1: 1000
+  javascript.async.1: 1000
 
 links:
 

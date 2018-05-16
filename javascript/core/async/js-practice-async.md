@@ -13,7 +13,7 @@ link: https://www.codewars.com/kata/node-dot-js-async-i-slash-o/train/javascript
 linkType: codewars
 standards:
 
-  js.async.0: 1000
+  javascript.async.0: 1000
 
 links:
 
