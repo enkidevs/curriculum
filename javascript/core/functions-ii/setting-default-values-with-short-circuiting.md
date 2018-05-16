@@ -12,8 +12,8 @@ type: normal
 category: pattern
 
 standards:
-  js.write-expressions.5: 10
-  js.functions.2: 10
+  javascript.write-expressions.5: 10
+  javascript.functions.2: 10
 
 tags:
 

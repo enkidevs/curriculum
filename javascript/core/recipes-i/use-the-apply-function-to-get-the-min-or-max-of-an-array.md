@@ -14,9 +14,9 @@ type: normal
 category: pattern
 
 standards:
-  js.write-expressions.0: 10
-  js.write-expressions.5: 10
-  js.data-types-structures.6: 10
+  javascript.write-expressions.0: 10
+  javascript.write-expressions.5: 10
+  javascript.data-types-structures.6: 10
 
 links:
 
