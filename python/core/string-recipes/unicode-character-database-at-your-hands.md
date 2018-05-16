@@ -95,4 +95,3 @@ Get the name of a character specified:
 * `lookup`
 * `category`
  
- 

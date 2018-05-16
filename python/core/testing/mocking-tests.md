@@ -102,4 +102,3 @@ Mock objects are
 [1: patch decorator]
 It makes it easy to mock classes or objects in a module under test. The object you specify will be replaced with a mock (or other object) during the test and restored when the test ends.
  
- 

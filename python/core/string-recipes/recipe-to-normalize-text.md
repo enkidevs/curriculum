@@ -92,4 +92,3 @@ What module has the `normalize` method used to normalise unicode data strings?
 * `normal`
 * `normalize`
  
- 
