@@ -11,11 +11,11 @@ category: feature
 
 standards:
 
-  js.async.3: 10
+  javascript.async.3: 10
 
-  js.async.2: 10
+  javascript.async.2: 10
 
-  js.use-modules.2: 10
+  javascript.use-modules.2: 10
 
 tags:
 
