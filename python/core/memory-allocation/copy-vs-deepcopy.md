@@ -13,11 +13,8 @@ standards:
   python.store-manipulate-data.0: 10
   python.store-manipulate-data.1: 10
 
-
 ---
-
 # `copy` vs `deepcopy`
-
 
 ---
 ## Content
@@ -25,6 +22,7 @@ standards:
 Extending the example in the previous insight, we could end up in a situation in which we need to copy a mutable type (list, dictionary) and work on the copy, without modifying the initial object.
 
 We've seen that the assignment only won't work:
+
 ```python
 m = [1 ]
 n = m
@@ -32,7 +30,9 @@ n.append(2)
 print(m)
 # [1, 2]
 ```
+
 Python *3.3* introduced a new list method to achieve a **shallow copy**:
+
 ```python
 m = [1 ]
 n = m.copy()
@@ -42,7 +42,9 @@ print(m)
 print(n)
 # [1, 2]
 ```
+
 A shallow copy is a first-layer only copy of the container: any reference to a mutable object contained is kept.
+
 ```python
 m = [1, []]
 n = m.copy()
@@ -53,7 +55,9 @@ print(n)
 print(m)
 # [1, [3 ]]
 ```
+
 An all levels copy is called a **deep copy**. We can use the `deepcopy()` method inside the `copy` module to do that:
+
 ```python
 import copy
 
@@ -66,7 +70,9 @@ print(n)
 print(m)
 # [1, []]
 ```
+
 It's worth noting the overhead time it takes to make a deepcopy:
+
 ```python
 import copy
 import timeit
@@ -80,23 +86,30 @@ print('k copy:',
   timeit.timeit(lambda: k.copy()))
 
 print('l deepcopy:',
-  timeit.timeit(lambda: copython.deepcopy(l)))
+  timeit.timeit(
+    lambda: copython.deepcopy(l)))
+
 print('k deepcopy:',
-  timeit.timeit(lambda: copython.deepcopy(k)))
+  timeit.timeit(
+    lambda: copython.deepcopy(k)))
 ```
+
 They all ran for the default `1000000` number of times:
+
 ```bash
 l copy: 0.3196120499924291
 k copy: 0.22795158099324908
 l deepcopy: 41.75681215700751
 k deepcopy: 61.87346560800506
 ```
+
 You can see how, even for a linear list, the required time for **deepcopy** grows exponentially.
 
 ---
 ## Practice
 
 What should be the output of the following snippet?
+
 ```python
 import copy
 a = [1, []]
@@ -117,7 +130,6 @@ print(a)
 A `deepcopy` means
 
 ???
-
 
 * making a new copy in memory of every layer of the data structure
 * making a copy in memory of the first layer of the data structure
