@@ -9,9 +9,13 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.html-forms.7: 10
+  web.html-forms.8: 10
 
-tags:
+aspects:
+  - introduction
+  - workout
   - deep
 
 ---
@@ -23,10 +27,10 @@ When setting HTML input form attributes, you can set the `multiple` attribute. W
 
 Example:
 ```
-<form 
+<form
    action="/action_page.php">
-  Select images: 
-    <input type="file" 
+  Select images:
+    <input type="file"
       name="img" multiple>
   <input type="submit">
 </form>
@@ -34,10 +38,10 @@ Example:
 
 In the example above we have allowed to user to input multiple pictures at once, instead of one by one.
 
-**Notes:**
-  - **If the input type is set to `email` the user can enter multiple emails by separating them with a comma. Like so: firstmail@example.com, secondmail@example.com, thirdmail@example.com, etc.**
-  - **If the input type is set to `file` the user can select multiple files by pressing down ctrl or shit when selecting.**
-  
+If the input type is set to `email` the user can enter multiple emails by separating them with a comma. Like so: firstmail@example.com, secondmail@example.com, thirdmail@example.com, etc.
+
+If the input type is set to `file` the user can select multiple files by pressing down ctrl or shit when selecting.
+
 ---
 ## Practice
 
@@ -57,8 +61,8 @@ Which form attribute is used to allow the user the option to enter more than one
 
 ```
 <form action="file.php">
- Select images: 
-  <input type="file" 
+ Select images:
+  <input type="file"
     name="img" ???>
  <input type="submit">
 </form>
@@ -77,8 +81,6 @@ Which form attribute is used to allow the user the option to enter more than one
 ### How much do you know about HTML input form attributes?
 
 Which statement is not true regarding the `multiple` input form attribute?
-
-???
 
 * Works with data input type, separated by semicolons.
 * When present, more than one value can be added in the `<input>` element.

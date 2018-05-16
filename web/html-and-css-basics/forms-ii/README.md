@@ -1,12 +1,12 @@
-name: Forms II
+name: Advanced Input Controls
 
 type: insights-list
 
-description: Collect more advanced input with HTML forms!
+description: Collect bounded input with HTML forms!
 
 insights:
-  - radio-buttons
   - check-boxes
   - checkbox-groups
+  - radio-buttons
+  - html-select
   - dropdown-list
-  - image-button

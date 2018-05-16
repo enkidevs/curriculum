@@ -9,10 +9,15 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.html-forms.9: 10
+  javascript.dom.3: 10
 
-tags:
+aspects:
+  - introduction
+  - workout
   - deep
+
 ---
 # Autofocus
 ---
@@ -72,8 +77,6 @@ Which input form attribute sets a selected input as active when the page loads?
 ### How much do you know about HTML form input attributes?
 
 Which statement regarding autofocus is not true?
-
-???
 
 * It should be assigned to every control in the form.
 * Automatically sets focus to assigned control when the page loads.

@@ -9,12 +9,17 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.html-forms.0: 10
+  web.html-forms.7: 10
 
-tags:
+aspects:
+  - introduction
+  - workout
   - deep
-link:
- - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range
+
+links:
+  - '[Range elements on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range){documentation}'
 ---
 # Range
 ---
@@ -27,15 +32,15 @@ The HTML form input type `range` is used to specify any numeric value between tw
 
 Example:
 ```
-<input 
-  type="range" 
-  min="1" 
-  max="100" 
-  value="50" 
+<input
+  type="range"
+  min="1"
+  max="100"
+  value="50"
   id="myRange">
 <p>
-  Value: 
-  <span 
+  Value:
+  <span
     id="demo">
   </span>
 </p>
@@ -43,10 +48,10 @@ Example:
 <script>
  var slider =
   document.getElementById("myRange");
- var output = 
+ var output =
   document.getElementById("demo");
  output.innerHTML = slider.value;
- 
+
  slider.oninput = function() {
   output.innerHTML = this.value;
  }
@@ -55,17 +60,17 @@ Example:
 
 Breaking down the example:
 ```
-<input 
-  type="range" 
-  min="1" 
-  max="100" 
-  value="50" 
+<input
+  type="range"
+  min="1"
+  max="100"
+  value="50"
   id="myRange">
 ```
 
 With this block of code, we have set the input to type `range`. The initial value is set to 50 or the middle of the slider. The `id` is set as `myRange` and will be used later with the `document.getElementbyId()` method.
 
-**Notes:** 
+**Notes:**
  - **If the values of min and max are not specified, the default value of min is 0 and the default value of max is 100.**
  - **You can also set negative numbers, ex, min = -5 and max =5**
  - **You can also edit the values granularity with the `step="value"` attribute. For instance setting step="0.1" makes the value increase in increments of 0.1 instead of the default value which is 1. On the other hand, if you want to accept any value regardless of how many decimal places, you can set the `step` value as `any`.**
@@ -75,10 +80,10 @@ With this block of code, we have set the input to type `range`. The initial valu
 <script>
  var slider =
   document.getElementById("myRange");
- var output = 
+ var output =
   document.getElementById("demo");
  output.innerHTML = slider.value;
- 
+
  slider.oninput = function() {
   output.innerHTML = this.value;
  }
@@ -94,8 +99,8 @@ Additionally, you can edit your sliders by adding labels or hash marks. This is 
 
 Example:
 ```
-<input 
-  type="range" 
+<input
+  type="range"
   list="tickmarks">
 
 <datalist id="tickmarks">
@@ -112,8 +117,8 @@ In the example above, we defined a slider with 5 hash marks, at 0, 25, 50, 75 an
 Moreover, you can also add labels next to your hash marks.
 Example:
 ```
-<input 
-  type="range" 
+<input
+  type="range"
   list="tickmarks">
 
 <datalist id="tickmarks">
@@ -134,21 +139,21 @@ Example:
 Complete this code where the range slider is between 1 and 100 and starts in the middle at 50 with the appropriate ID.
 
 ```
-<input 
-  type="???" 
-  ???="1" 
-  ???="100" 
-  ???="50" 
+<input
+  type="???"
+  ???="1"
+  ???="100"
+  ???="50"
   ???="myRange">
 <p>Value: <span id="demo"></span></p>
 
 <script>
- var slider = 
+ var slider =
   document.getElementById("myRange");
- var output = 
+ var output =
   document.getElementById("demo");
  output.innerHTML = slider.value;
- 
+
  slider.oninput = function() {
   output.innerHTML = this.value;
  }

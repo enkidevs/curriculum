@@ -9,10 +9,14 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.html-forms.2: 10
 
-tags:
+aspects:
+  - workout
   - deep
+  - obscura
+
 ---
 # Formnovalidate & novalidate
 ---
@@ -26,10 +30,10 @@ It can be used with the `type"submit"` and `type"image"` attributes.
 Example:
 
 ```
-<form 
+<form
  action="/action_page.php" novalidate >
- E-mail: 
- <input type="email" 
+ E-mail:
+ <input type="email"
   name="user_email">
  <input type="submit" formnovalidate >
 </form>
@@ -41,18 +45,18 @@ Example:
 Complete the code by adding the appropriate input form attributes to disable the validation within the form element and in the submit button.
 
 ```
-<form 
+<form
  action="/action_page.php" ??? >
- E-mail: 
- <input type="email" 
+ E-mail:
+ <input type="email"
   name="user_email">
  <input type="submit" ??? >
 </form>
 ```
 
-* novalidate 
+* novalidate
 * formnovalidate
-* validate 
+* validate
 * form-data
 * datavalidate
 
@@ -62,17 +66,18 @@ Complete the code by adding the appropriate input form attributes to disable the
 Complete the code by adding the appropriate input form attributes to disable the validation within the form element and in the submit button.
 
 ```
-<form 
+<form
  action="/action_page.php" ??? >
- E-mail: 
- <input type="email" 
+ E-mail:
+ <input type="email"
   name="user_email">
  <input type="submit" ??? >
 </form>
 ```
-* novalidate 
+* novalidate
 * formnovalidate
 * validate
+* formvalidate="false"
 
 
 ---
@@ -82,11 +87,7 @@ Complete the code by adding the appropriate input form attributes to disable the
 
 Which statement is not true regarding the `novalidate` attribute?
 
-???
-
-  * The `novalidate` attribute overrides the `formnovalidate` attribute.
-  * The HTML `novalidate` form input attribute is used to specify that the input should not be validated when submitted.
-  * When specified, the `formnovalidate` attribute overrides the `novalidate` attribute.
-  * It can be used with the `type"submit"` and `type"image"` attributes.
-  
-
+* The `novalidate` attribute overrides the `formnovalidate` attribute.
+* The HTML `novalidate` form input attribute is used to specify that the input should not be validated when submitted.
+* When specified, the `formnovalidate` attribute overrides the `novalidate` attribute.
+* It can be used with the `type"submit"` and `type"image"` attributes.

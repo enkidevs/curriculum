@@ -9,9 +9,13 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.html-forms.0: 10
+  web.html-forms.7: 10
 
-tags:
+aspects:
+  - introduction
+  - workout
   - deep
 
 ---
@@ -22,16 +26,16 @@ tags:
 The input form HTML `step` attribute is used to specify a legal number interval for the `<input>` element.
 
 For instance, if you set `step="4"`, the legal numbers could be -4, 0, 4, 8, etc.
- 
+
 Example:
 ```
-<form 
+<form
   action="/action.php">
-  <input 
-    type="number" 
-    name="points" 
+  <input
+    type="number"
+    name="points"
     step="4">
-  <input 
+  <input
     type="submit">
 </form>
 ```
@@ -45,7 +49,7 @@ The `step` attribute works with several input types. These are:
  - `range`
  - `time`
  - `week`
- 
+
 The `step` attribute can work together with `min` a `max` attributes to create a range of legal values.
 It can also be the string `any` or a positive floating point number. If you do not set it to `any`, the control will only accept values as multiples of the set step value which are greater than the minimum.
 
@@ -67,13 +71,13 @@ Which statement is NOT true regarding step attributes within forms?
 Which form attribute allows a number to be entered in a specified interval, such as (-5, 0, 5, 10, etc)?
 
 ```
-<form 
+<form
   action="file.php">
- <input 
-  type="number" 
-  name="points" 
+ <input
+  type="number"
+  name="points"
   ???="5">
-  <input 
+  <input
   type="submit">
 </form>
 ```
@@ -92,13 +96,13 @@ Which form attribute allows a number to be entered in a specified interval, such
 Which values would be accepted by this input field?
 
 ```
-<form 
+<form
   action="file.php">
- <input 
-  type="number" 
-  name="points" 
+ <input
+  type="number"
+  name="points"
   step="5">
- <input 
+ <input
   type="submit">
 </form>
 ```
@@ -109,4 +113,3 @@ Which values would be accepted by this input field?
 * `1, 2, 3, 4, 5`
 * `0, 1, 2, 3, 4, 5`
 * `5, 6, 7, 8, 9`
-

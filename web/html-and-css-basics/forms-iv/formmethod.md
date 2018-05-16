@@ -9,10 +9,13 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.html-forms.2: 10
 
-tags:
+aspects:
+  - workout
   - deep
+  - obscura
 
 ---
 # Method
@@ -37,16 +40,16 @@ The `method="post"` does not append to the URL, but rather sends the form data a
 
 Example:
 ```
-<form 
-  action="/action.php" 
+<form
+  action="/action.php"
    method="get">
-  Full name: 
-   <input type="text" 
+  Full name:
+   <input type="text"
      name="fname"><br>
-  <input 
+  <input
     type="submit" value="Submit">
-  <input 
-    type="submit" formmethod="post" 
+  <input
+    type="submit" formmethod="post"
     value="Submit using POST">
 </form>
 ```
@@ -58,10 +61,10 @@ Example:
 Match the possible values with their description related to the method attribute.
 
 ```
-<form 
+<form
   action="file1.php" method="get">
 </form>
-<form 
+<form
   action="file2.php" method="post">
 </form>
 ```
@@ -70,7 +73,7 @@ get : ???
 post : ???
 
 
-* Form data is appended to the URL when submitted. 
+* Form data is appended to the URL when submitted.
 * Form data is not appended to the URL.
 
 ---
@@ -93,9 +96,7 @@ Which input form attribute specifies the HTTP method to use when the form is sub
 
 Which statement is not true regarding the `formmethod` attribute?
 
-???
-
- * It can only be used with the `type="submit"` attribute
- * It can be used with `type"submit"` and `type"image"` attributes.
- * The `method="get"` appends form data to the URL when submitted.
- * The `method="post"` does not append to the URL, but rather sends the form data as an HTTP post transaction.
+* It can only be used with the `type="submit"` attribute
+* It can be used with `type"submit"` and `type"image"` attributes.
+* The `method="get"` appends form data to the URL when submitted.
+* The `method="post"` does not append to the URL, but rather sends the form data as an HTTP post transaction.

@@ -9,9 +9,13 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.html-forms.0: 10
+  web.html-forms.3: 10
 
-tags:
+aspects:
+  - introduction
+  - workout
   - deep
 
 ---
@@ -33,15 +37,15 @@ The placeholder attribute works for several input types:
 
 Example:
 ```
-<form 
+<form
   action="/action.php">
-  <input 
+  <input
     type="text" name="full-name"
      placeholder="Full name"><br>
-  <input 
-    type="submit" 
+  <input
+    type="submit"
     value="Submit">
-</form> 
+</form>
 ```
 
 ---
@@ -62,7 +66,7 @@ Which statement is true regarding placeholder?
 Which form attribute shares a short hint that describes the expected value of an input field and will be overwritten by their input?
 
 ```
-<input 
+<input
   type="text" name="fname"
   ???="Full name">
 ```

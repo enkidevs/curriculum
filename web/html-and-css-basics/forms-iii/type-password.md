@@ -9,9 +9,13 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.html-forms.0: 10
+  web.html-forms.7: 10
 
-tags:
+aspects:
+  - introduction
+  - workout
   - deep
 
 ---
@@ -23,17 +27,17 @@ The HTML input form `type="password"` attribute is used to display each characte
 
 Example:
 ```
-<form 
+<form
   action="/action.php">
-  Username: 
-  <input 
-    type="text" 
+  Username:
+  <input
+    type="text"
     name="usrname"><br>
   <input
     type"password"
     name"password"><br>
-  <input 
-    type="submit" 
+  <input
+    type="submit"
     value="Submit">
 </form>
 ```
@@ -44,19 +48,19 @@ The only difference is that the password field will replace and display each cha
 ---
 ## Practice
 
-Which statement is true about the "type=password" attribute: 
+Which statement is true about the "type=password" attribute:
 
 ???
 
 * Each input character appears as asterisk.
-* Each input character appears as a dolar sign
+* Each input character appears as a dollar sign
 * Each input character does not appear.
 * Must use `width` to adjust input text size vs `font-size`.
 
 ---
 ## Revision
 
-When sensitive data is input into a text field that should display as "*" in place of characters, which form attribute is used?
+When sensitive data is input into a text field that should display as `*` in place of characters, which form attribute is used?
 
 ???
 
@@ -71,12 +75,9 @@ When sensitive data is input into a text field that should display as "*" in pla
 
 ### How much do you know about HTML input form attributes?
 
-Mark which statement is true about the "type=password" attribute: 
-
-???
+Mark which statement is true about the "type=password" attribute:
 
 * Each input character appears as an asterisk or circle.
-* Each input character appears as a square or circle.
-* Each input character appears as an asterisk or square.
+* Each input character appears with the strikethrough style.
+* Each input character appears as normal but autocomplete is disabled.
 * Each input character does not appear.
-

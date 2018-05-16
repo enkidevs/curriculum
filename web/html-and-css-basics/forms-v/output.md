@@ -9,10 +9,17 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  javascript.dom.3: 10
 
-tags:
+aspects:
+  - introduction
+  - workout
   - deep
+
+links:
+  - '[Code Example on CodePen](https://codepen.io/lizthedeveloper/pen/MGqBYK){code}'
+
 ---
 # Output
 ---
@@ -25,8 +32,8 @@ The `output` element has three attributes:
  - `for`
  - `form`
  - `name`
- 
-The `for` attribute, which has a value of `element_id`, specifies an explicit relationship between the result of a calculation and the elements that represent the values. 
+
+The `for` attribute, which has a value of `element_id`, specifies an explicit relationship between the result of a calculation and the elements that represent the values.
 
 The `form` attribute, which has a value of `form_id`, associates the output with a form. The value of the attribute must equal the `id` of the form element in the same document
 
@@ -34,23 +41,23 @@ The `name` attribute, which has a value of `name`, specifies the name of this el
 
 Example:
 ```
-<form 
+<form
   oninput="result.value=parseInt(a.value)
     +parseInt(b.value)">
-  <input 
-    type="number" 
-    name="b" 
+  <input
+    type="number"
+    name="b"
     value="0" /> +
-  <input 
-    type="number" 
-    name="a" 
+  <input
+    type="number"
+    name="a"
     value="5" /> =
-  <output 
+  <output
   name="result">5
   </output>
 </form>
 ```
- 
+
 In the example above, there are two input fields and one output field. The input fields have pre-set values of 0 and 5. The two numbers are added together and displayed in the result `output` element which has a pre-set value of 5.
 
 Any time the user changes the value in either of the input fields, the result will change accordingly.
@@ -93,4 +100,3 @@ Which attribute does not go with the `output` element?
  * form
  * name
  * for
- 

@@ -9,10 +9,15 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.html-forms.6: 10
+  web.html-forms.9: 10
 
-tags:
+aspects:
+  - introduction
+  - workout
   - deep
+  - obscura
 
 ---
 # Intro list

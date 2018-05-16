@@ -9,10 +9,13 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.html-forms.2: 10
 
-tags:
+aspects:
+  - workout
   - deep
+  - obscura
 
 ---
 # Formtarget
@@ -24,9 +27,9 @@ If the `formtarget` attribute is specified it overrides the `target` attribute.
 
 Heres an example of the formtarget attribute set to open in a different window after it's submitted:
 ```
-<form 
+<form
   action="file.php">
-  Name: 
+  Name:
     <input type="text"
       name="name"><br>
   <input type="submit"
@@ -40,17 +43,18 @@ Heres an example of the formtarget attribute set to open in a different window a
 Complete the code by adding the appropriate input form attributes to submit the data to a new window.
 
 ```
-<form 
+<form
   action="file.php">
-  Name: 
+  Name:
     <input type="text"
-      name="name"><br>
+      name="name">
+    <br>
   <input type="submit"
     ???="???">
 </form>
 ```
 
-* formtarget 
+* formtarget
 * _blank
 * target
 * _new

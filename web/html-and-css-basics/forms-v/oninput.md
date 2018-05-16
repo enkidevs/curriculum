@@ -9,9 +9,12 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  javascript.dom.3: 10
 
-tags:
+aspects:
+  - introduction
+  - workout
   - deep
 
 ---
@@ -19,12 +22,12 @@ tags:
 ---
 ## Content
 
-The HTML `oninput` event occurs immediately after the value of an element has changed. 
+The HTML `oninput` event occurs immediately after the value of an element has changed.
 
 Here's an example of the `oninput` event executing a java function after the user puts in a value:
 ```
-<input 
-  type="text" 
+<input
+  type="text"
   oninput="jsFunction()">
 ```
 
@@ -50,8 +53,8 @@ onchange: ???
 Which form attribute is used to call a JavaScript when a user writes something within an `<input>` field?
 
 ```
-<input 
-  type="text" 
+<input
+  type="text"
   ???="jsFunction()">
 ```
 

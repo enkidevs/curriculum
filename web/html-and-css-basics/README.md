@@ -14,10 +14,12 @@ sections:
     - meta-elements
     - forms
     - forms-ii
-    - html-5-input-form-attributes
     - media
     - sectioning-elements
   '2':
+    - forms-iii
+    - forms-iv
+    - forms-v
     - citation-elements
     - computer-code
     - best-practices

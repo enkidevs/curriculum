@@ -9,9 +9,13 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.html-forms.0: 10
+  web.html-forms.7: 10
 
-tags:
+aspects:
+  - introduction
+  - workout
   - deep
 
 ---
@@ -29,26 +33,26 @@ This works for several input types:
  - range
  - time
  - week
- 
+
 Example:
 ```
-<form 
+<form
   action="/action.php">
    Enter a date before 2000-01-01:
-  <input 
-    type="date" name="bday" 
+  <input
+    type="date" name="bday"
       max="1999-12-31">
 
   Enter a date after 1999-12-31:
-  <input 
+  <input
     type="date" name="bday"
       min="2000-01-02">
 
   Rate your experience from 1-5:
-  <input 
-    type="number" name="rating" 
+  <input
+    type="number" name="rating"
       min="1" max="5">
-      
+
   <input type="submit">
 </form>
 ```
@@ -73,11 +77,11 @@ Which statement is NOT true regarding min and max attributes within forms?
 Which form attributes are used within an input to set low and high values?
 
 ```
-<form 
-  action="/action.php"> 
+<form
+  action="/action.php">
  Rate your experience from 1-5:
-  <input 
-   type="number" name="rating" 
+  <input
+   type="number" name="rating"
     ???="1" ???="5">  
  <input type="submit">
 </form>
@@ -103,4 +107,3 @@ Which statement is not true regarding the min and max attributes?
  * When setting the min value it cannot be greater than the max value, and vice-versa.
  * `<input min="date">` specifies the minimum date allowed.
  * `<input max="number">` specifies the maximum number allowed.
- 

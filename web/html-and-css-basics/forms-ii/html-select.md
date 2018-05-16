@@ -9,10 +9,12 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.html-forms.6: 10
 
-tags:
-  - deep
+aspects:
+  - introduction
+  - workout
 
 ---
 # Select
@@ -25,25 +27,25 @@ The available options in the `<select>` list are created with the `<option>` tag
 Example:
 ```
 <select>
-  <option 
+  <option
     value="apple">Apples
   </option>
-  <option 
+  <option
    value="banana">Bananas
   </option>
-  <option 
+  <option
     value="orange">Oranges
   </option>
-  <option 
+  <option
     value="plum">Plums
   </option>
-  <option 
+  <option
     value="lemon">Lemons
   </option>
 </select>
 ```
 
-You can also add several other attributes to your drop-down list. 
+You can also add several other attributes to your drop-down list.
 Some of these are:
  - autofocus
  - disabled
@@ -53,13 +55,13 @@ Some of these are:
  - size
 
 It is also possible to define groups of related options from a drop-down list within a `select` element.
-This is done by adding an `<optgroup>` attribute, like so: 
+This is done by adding an `<optgroup>` attribute, like so:
 
 Example:
 ```
 <select>
   <optgroup label="Fav Fruit">
-   <option 
+   <option
     value="apple">Apples
     </option>
    <option
@@ -70,10 +72,10 @@ Example:
    </option>
   </optgroup
   <optgroup label="Fav Veggie">
-   <option 
+   <option
     value="carrot">Carrots
    </option>
-   <option 
+   <option
     value="cucumber">Cucumbers
    </option>
    <option
@@ -108,18 +110,18 @@ Which form attribute is used to define groups of related option of a drop-down l
 ```
 <select>
  <__ label="Fav Fruit">
-   <option 
+   <option
      value="apple">Apples
    </option>
-   <option 
+   <option
      value="banana">Bananas
    </option>
  </__>
  <__ label="Fav Veggie">
-  <option 
+  <option
    value=”carrot">Carrot
   </option>
-  <option 
+  <option
    value="broccoli">Broccoli
   </option>
  </__>
