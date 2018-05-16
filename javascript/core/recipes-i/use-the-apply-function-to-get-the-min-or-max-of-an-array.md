@@ -15,7 +15,7 @@ category: pattern
 
 standards:
   javascript.write-expressions.0: 10
-  javascript.write-expressions.5: 10
+  javascript.evaluate-expressions.5: 10
   javascript.data-types-structures.6: 10
 
 links:

@@ -12,7 +12,7 @@ type: normal
 category: pattern
 
 standards:
-  javascript.write-expressions.5: 10
+  javascript.evaluate-expressions.5: 10
   javascript.functions.2: 10
 
 tags:

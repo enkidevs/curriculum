@@ -15,7 +15,7 @@ category: feature
 
 standards:
 
-  javascript.write-expressions.9: 10
+  javascript.evaluate-expressions.9: 10
 
   javascript.functions.8: 10
 
