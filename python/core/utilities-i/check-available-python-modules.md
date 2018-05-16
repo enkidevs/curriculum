@@ -20,7 +20,7 @@ tags:
   - imports
 
 standards:
-  py.modules.6: 10
+  python.modules.6: 10
 
 links:
 

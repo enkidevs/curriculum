@@ -10,7 +10,7 @@ type: normal
 category: feature
 
 standards:
-  py.native-types-operations.6: 10
+  python.native-types-operations.6: 10
 
 links:
 

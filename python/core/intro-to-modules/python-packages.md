@@ -10,8 +10,8 @@ type: normal
 category: must-know
 
 standards:
-  py.modules.0: 10
-  py.modules.2: 10
+  python.modules.0: 10
+  python.modules.2: 10
 
 links:
 

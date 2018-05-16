@@ -10,8 +10,8 @@ type: normal
 category: must-know
 
 standards:
-  py.store-manipulate-data.0: 10
-  py.store-manipulate-data.1: 10
+  python.store-manipulate-data.0: 10
+  python.store-manipulate-data.1: 10
 
 
 ---
@@ -58,7 +58,7 @@ An all levels copy is called a **deep copy**. We can use the `deepcopy()` method
 import copy
 
 m = [1, []]
-n = copy.deepcopy(m)
+n = copython.deepcopy(m)
 n.append(2)
 n[1].append(3) # access the list inside
 print(n)
@@ -80,9 +80,9 @@ print('k copy:',
   timeit.timeit(lambda: k.copy()))
 
 print('l deepcopy:',
-  timeit.timeit(lambda: copy.deepcopy(l)))
+  timeit.timeit(lambda: copython.deepcopy(l)))
 print('k deepcopy:',
-  timeit.timeit(lambda: copy.deepcopy(k)))
+  timeit.timeit(lambda: copython.deepcopy(k)))
 ```
 They all ran for the default `1000000` number of times:
 ```bash
@@ -100,7 +100,7 @@ What should be the output of the following snippet?
 ```python
 import copy
 a = [1, []]
-b = copy.deepcopy(a)
+b = copython.deepcopy(a)
 b[1].append(3)
 print(a)
 ???

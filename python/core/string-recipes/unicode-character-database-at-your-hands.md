@@ -17,8 +17,8 @@ inAlgoPool: false
 
 
 standards:
-  py.data-structures-uses.5: 10
-  py.native-types-operations.4: 10
+  python.data-structures-uses.5: 10
+  python.native-types-operations.4: 10
 
 
 links:

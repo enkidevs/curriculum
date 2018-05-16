@@ -11,7 +11,7 @@ category: must-know
 
 
 standards:
-  py.object-oriented.1: 10
+  python.object-oriented.1: 10
 
 ---
 

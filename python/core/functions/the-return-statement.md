@@ -13,7 +13,7 @@ inAlgoPool: false
 
 
 standards:
-  py.control-structures.4: 10
+  python.control-structures.4: 10
 
 
 ---

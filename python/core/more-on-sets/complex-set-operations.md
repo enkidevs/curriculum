@@ -12,7 +12,7 @@ category: must-know
 inAlgoPool: false
 
 standards:
-  py.native-types-operations.5: 10
+  python.native-types-operations.5: 10
 
 
 ---

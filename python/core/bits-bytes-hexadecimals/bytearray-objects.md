@@ -15,8 +15,8 @@ category: feature
 
 
 standards:
-  py.data-structures-uses.3: 10
-  py.native-types-operations.11: 10
+  python.data-structures-uses.3: 10
+  python.native-types-operations.11: 10
 
 links:
 

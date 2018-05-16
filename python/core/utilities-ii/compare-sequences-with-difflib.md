@@ -14,9 +14,9 @@ type: normal
 category: feature
 
 standards:
-  py.data-structures-uses.5: 10
-  py.modules.0: 10
-  py.native-types-operations.4: 10
+  python.data-structures-uses.5: 10
+  python.modules.0: 10
+  python.native-types-operations.4: 10
 
 links:
 

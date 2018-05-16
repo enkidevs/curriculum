@@ -15,11 +15,11 @@ link: https://www.codewars.com/kata/fibonacci-tribonacci-and-friends
 linkType: codewars
 standards:
 
-  py.native-types-operations.2: 2000
-  py.native-types-operations.3: 2000
-  py.native-types-operations.4: 4000
-  py.native-types-operations.5: 4000
-  py.native-types-operations.8: 4000
+  python.native-types-operations.2: 2000
+  python.native-types-operations.3: 2000
+  python.native-types-operations.4: 4000
+  python.native-types-operations.5: 4000
+  python.native-types-operations.8: 4000
 
 links:
 

@@ -13,8 +13,8 @@ category: how to
 
 
 standards:
-  py.store-manipulate-data.5: 10
-  py.store-manipulate-data.6: 10
+  python.store-manipulate-data.5: 10
+  python.store-manipulate-data.6: 10
 
 links:
 

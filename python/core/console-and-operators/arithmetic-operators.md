@@ -13,7 +13,7 @@ inAlgoPool: false
 
 
 standards:
-  py.native-types-operations.2: 10
+  python.native-types-operations.2: 10
 
 links:
 

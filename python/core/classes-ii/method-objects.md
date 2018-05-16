@@ -42,7 +42,7 @@ notes: >
   to show it.
 
 standards:
-  py.object-oriented.3: 10
+  python.object-oriented.3: 10
 
 ---
 

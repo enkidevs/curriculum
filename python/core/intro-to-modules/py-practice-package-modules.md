@@ -13,13 +13,13 @@ link: https://www.codewars.com/kata/the-enigma-machine-part-1-the-plugboard
 linkType: codewars
 standards:
 
-  py.modules.0: 1000
-  py.modules.1: 1000
-  py.modules.3: 1000
-  py.modules.4: 2000
-  py.modules.5: 3000
-  py.modules.6: 3000
-  py.modules.7: 3000
+  python.modules.0: 1000
+  python.modules.1: 1000
+  python.modules.3: 1000
+  python.modules.4: 2000
+  python.modules.5: 3000
+  python.modules.6: 3000
+  python.modules.7: 3000
 
 links:
 

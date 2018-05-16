@@ -11,7 +11,7 @@ category: feature
 
 
 standards:
-  py.data-structures-uses.3: 10
+  python.data-structures-uses.3: 10
 
 links:
 

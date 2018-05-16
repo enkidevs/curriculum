@@ -14,9 +14,9 @@ type: normal
 category: how to
 
 standards:
-  py.data-structures-uses.5: 10
-  py.native-types-operations.4: 10
-  py.store-manipulate-data.4: 10
+  python.data-structures-uses.5: 10
+  python.native-types-operations.4: 10
+  python.store-manipulate-data.4: 10
 
 tags:
 

@@ -12,8 +12,8 @@ type: normal
 category: must-know
 
 standards:
-  py.testing.1: 10
-  py.testing.4: 10
+  python.testing.1: 10
+  python.testing.4: 10
 
 links:
 

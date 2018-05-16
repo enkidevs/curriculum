@@ -19,7 +19,7 @@ links:
   - '[www.tutorialspoint.com](http://www.tutorialspoint.com/python/python_date_time.htm){website}'
 
 standards:
-  py.native-types-operations.8: 10
+  python.native-types-operations.8: 10
 
 
 notes: >

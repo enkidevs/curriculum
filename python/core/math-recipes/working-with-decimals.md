@@ -15,7 +15,7 @@ inAlgoPool: false
 
 
 standards:
-  py.standard-library-data.1: 10
+  python.standard-library-data.1: 10
 
 links:
 
