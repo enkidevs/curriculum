@@ -32,3 +32,4 @@ links:
 ## Exercise
 
 Practice using python's `boolean` and `numeric` types on Code Wars.
+ 

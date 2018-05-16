@@ -103,3 +103,4 @@ True
 * `isalphanum`
 * `isalpnum`
 * `isnum`
+ 

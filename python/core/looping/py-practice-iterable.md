@@ -30,3 +30,4 @@ links:
 ## Exercise
 
 Practice working with `for loops` and `iterables` in python.
+ 

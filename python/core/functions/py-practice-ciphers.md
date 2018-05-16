@@ -32,3 +32,4 @@ links:
 ## Exercise
 
 Solve ciphers and train your skills with python `functions`.
+ 
