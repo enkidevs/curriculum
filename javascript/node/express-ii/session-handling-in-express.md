@@ -11,7 +11,7 @@ category: how to
 
 standards:
   javascript.express-server.4: 10
-  cs.http-request-response.12: 10
+  comp-sci.http-request-response.12: 10
 
 links:
   - '[codeforgeek.com](https://codeforgeek.com/2014/10/express-complete-tutorial-part-4/){website}'

@@ -13,7 +13,7 @@ category: how to
 standards:
   javascript.express-server.1: 10
   javascript.express-server.4: 10
-  cs.http-request-response.12: 10
+  comp-sci.http-request-response.12: 10
 
 links:
   - '[github.com](https://github.com/expressjs/cookie-session){website}'

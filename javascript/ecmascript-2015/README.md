@@ -109,8 +109,5 @@ standards:
       1: Use a Proxy to handle function invocation
       2: Use Reflect to use the internal default behavior of proxy methods
 
-
-
-
 next:
   - javascript:browser-apis

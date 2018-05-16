@@ -14,7 +14,7 @@ type: tetris
 category: must-know
 
 standards:
-  javascript.identify-syntax.2: 1000
+  javascript.javascript-syntax.2: 1000
   javascript.evaluate-expressions.3: 1000
   javascript.evaluate-expressions.5: 1000
   javascript.evaluate-expressions.4: 1000
