@@ -110,4 +110,3 @@ for n in temp.items:
 * Q U E U E
 * E U E U Q
  
- 

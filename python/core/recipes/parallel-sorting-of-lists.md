@@ -89,4 +89,3 @@ cities, temps = zip(*sorted(zipped))
 * [12, 16, 17, 21]
 * [12, 16, 21, 16]
  
- 

@@ -110,4 +110,3 @@ print(c.pop())
 [1: In-place operations]
 Instead of returning a new set containing the result with both operands remaining the same, *in-place operations* assign to the left hand operand the value of the result.
  
- 

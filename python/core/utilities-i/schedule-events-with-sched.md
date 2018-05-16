@@ -57,4 +57,3 @@ s.run()
 ```
 `first` is printed after 2 seconds while `second` is printed after 3 seconds.
  
- 

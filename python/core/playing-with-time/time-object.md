@@ -150,4 +150,3 @@ current = ???
 [1:proleptic Georgian calendar]
 The proleptic Gregorian calendar is produced by extending the Gregorian calendar backward with negative values to dates preceding its official introduction in **1582**.
  
- 

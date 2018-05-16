@@ -108,4 +108,3 @@ You have to install `pytest` through Python's package manager, `pip`:
 $ pip install --user pytest
 ```
  
- 
