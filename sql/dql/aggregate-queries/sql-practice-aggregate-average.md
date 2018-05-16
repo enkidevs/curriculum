@@ -40,3 +40,4 @@ Write a query that does the following:
 Find the average cost of all items in each `item_fling_effect` group, and round the result to an integer.
 
 Which `item_fling_effect` groups' average cost is `583`? Submit your findings in the `Answer` field.
+ 
