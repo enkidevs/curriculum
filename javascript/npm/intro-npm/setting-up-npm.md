@@ -11,8 +11,8 @@ category: must-know
 parent: why-use-npm
 
 standards:
-  js.npm-tasks-and-modules-manager.0: 10
-  js.node-developer-environment.2: 10
+  javascript.npm-tasks-and-modules-manager.0: 10
+  javascript.node-developer-environment.2: 10
 
 tags:
   - introduction

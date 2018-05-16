@@ -11,7 +11,7 @@ type: normal
 category: must-know
 
 standards:
-  js.npm-publish.3: 10
+  javascript.npm-publish.3: 10
 
 tags:
   - workout
