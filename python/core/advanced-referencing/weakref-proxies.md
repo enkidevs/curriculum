@@ -82,4 +82,3 @@ What’s the difference between using `ref` and `proxy` from `weakref`?
 * Ref can be used without calling the proxy first to access the object.
 
  
- 

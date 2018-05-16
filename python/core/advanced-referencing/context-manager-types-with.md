@@ -118,4 +118,3 @@ What functionality does `with` carry in a `with context as name` block in Python
 * `try/catch`
 * `exceptions`
  
- 
