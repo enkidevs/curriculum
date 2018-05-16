@@ -10,7 +10,7 @@ type: normal
 category: how to
 
 standards:
-  js.express-server.4: 10
+  javascript.express-server.4: 10
   cs.http-request-response.12: 10
 
 links:

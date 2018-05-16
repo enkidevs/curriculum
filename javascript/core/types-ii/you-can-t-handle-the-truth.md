@@ -14,11 +14,11 @@ type: tetris
 category: must-know
 
 standards:
-  js.identify-syntax.2: 1000
-  js.evaluate-expressions.3: 1000
-  js.evaluate-expressions.5: 1000
-  js.evaluate-expressions.4: 1000
-  js.evaluate-expressions.10: 1000
+  javascript.identify-syntax.2: 1000
+  javascript.evaluate-expressions.3: 1000
+  javascript.evaluate-expressions.5: 1000
+  javascript.evaluate-expressions.4: 1000
+  javascript.evaluate-expressions.10: 1000
 
 tags:
   - introduction

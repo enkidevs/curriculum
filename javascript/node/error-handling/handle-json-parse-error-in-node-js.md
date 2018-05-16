@@ -10,7 +10,7 @@ type: normal
 category: caveats
 
 standards:
-  js.identify-common-design-patterns.3: 10
+  javascript.identify-common-design-patterns.3: 10
 
 tags:
   - introduction

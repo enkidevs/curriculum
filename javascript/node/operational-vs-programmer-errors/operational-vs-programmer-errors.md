@@ -14,7 +14,7 @@ tags:
   - introduction
 
 standards:
-  js.identify-common-design-patterns.8: 10
+  javascript.identify-common-design-patterns.8: 10
 
 links:
   - '[Distinguish operational from programmatic errors](https://github.com/i0natan/nodebestpractices/blob/master/sections/errorhandling/operationalvsprogrammererror.md){website}'
