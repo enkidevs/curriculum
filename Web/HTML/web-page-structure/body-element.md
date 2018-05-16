@@ -1,5 +1,5 @@
-# The `body` Element
-author: matthew-leach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -12,10 +12,41 @@ category: must-know
 tags:
   - introduction
 
+links:
+  - '[MDN docs for body](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body){website}'
+  
+---
+# The `body` Element
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+In HTML, the `<body>`, or **The Document Body element** is used to represent the body of an HTML document. It is also the element which holds all the content of an HTML page.
+
+**Note: There can be only one `<body>` element per web page or document.**
+
+The `<body>` element is an optional element, which means, under certain conditions, one or more of its tags can be omitted. The starting tag can be omitted if the first thing inside the `<body>` element is not a comment or a space character, nor a `<script>` or `<style>` element. Whereas the ending tag can be omitted if the `<body>` element has a starting tag, some content, or if it isn't immediately followed by a comment.
+
+
+Example of a simple HTML document:
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document title</title>
+  </head>
+  <body>
+    <h1>Enki</h1>
+    <p>This is a paragraph</p>
+  </body>
+</html>
+```
+
+
+**Notes:**
+ - `<!DOCTYPE html>`: Required first line for every HTML page.
+ - `<body>`: Holds all the page content.
+ - `<head>`: Holds the doc title, scripts, styles, & meta information.
+
 
 ---
 ## Practice
@@ -45,7 +76,6 @@ Organize the structure of a simple HTML web page:
 * `</body>`
 * `</html>`
 
-
 ---
 ## Revision
 
@@ -67,9 +97,8 @@ Match the HTML elements with their descriptions:
 ---
 ## Quiz
 
-headline: How much do you know about default settings of HTML pages?
+### How much do you know about default settings of HTML pages?
 
-question: |
 Which element has a default margin (usually around 8px) that creates space around the border of the entire page?
 
 
