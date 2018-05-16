@@ -16,6 +16,8 @@ links:
   - '[MDN docs for Doctype](https://developer.mozilla.org/en-US/docs/Glossary/Doctype){website}'
   
 ---
+# Doctype
+---
 ## Content
 
 In HTML, every page, no matter the version of HTML it is written in, requires a doctype declaration. The purpose of the doctype declaration is to tell the browser how to render the document and to prevent it from rendering it in a way that may either produce errors or not display the content correctly.
@@ -67,7 +69,6 @@ Which of these statements is not correct about the `<!DOCTYPE html>`?
 ## Quiz
 
 ### How much do you know about HTML?
-
 What is required on the first line of every HTML5 document?
 
 ???
@@ -76,5 +77,3 @@ What is required on the first line of every HTML5 document?
 * Link to the CSS document
 * Opening `<html>` element
 * Opening `<head>` element
-* Page title
-* The doc's charset
