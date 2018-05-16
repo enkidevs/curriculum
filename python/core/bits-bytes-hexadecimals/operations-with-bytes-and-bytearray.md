@@ -104,4 +104,3 @@ True
 * `isalpnum`
 * `isnum`
  
- 

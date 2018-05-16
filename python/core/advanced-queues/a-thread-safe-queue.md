@@ -110,4 +110,3 @@ lq = queue.???()
 * `lifoqueue`
 * `fifoqueue`
  
- 

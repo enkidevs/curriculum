@@ -154,4 +154,3 @@ In **big endian**, you store the *most* significant `bit` in the **smallest** ad
 
 If you wish to learn more about this subject, bookmark this insight and check its "Learn more" links section.
  
- 

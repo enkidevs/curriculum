@@ -86,4 +86,3 @@ What functionality does `callback` carry in `r = weakref.ref(enki, callback)`?
 * In this case `callback` is a proxy to `enki`.
 
  
- 
