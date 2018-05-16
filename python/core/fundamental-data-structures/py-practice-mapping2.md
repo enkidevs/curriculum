@@ -35,4 +35,3 @@ links:
 
 Use python's `mapping` types.
  
- 

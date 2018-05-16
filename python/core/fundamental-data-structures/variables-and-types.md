@@ -122,4 +122,3 @@ print(type(c))
 * `integer`
 * `floating`
  
- 

@@ -32,4 +32,3 @@ links:
 
 Practice your skills with `next` and `iter`.
  
- 
