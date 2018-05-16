@@ -39,3 +39,4 @@ links:
 We need to alter our `users` table so that the `user_id` property increments by *10* instead of 1. For reasons. Thankfully, this schema is _not_ in production, so you can alter it as much as you want.
 
 Alter the schema in the lefthand panel. To test your answer, run the DQL query provided after pressing *Build Schema*. When you are fininshed, write the first value returned in the submission doc.
+ 

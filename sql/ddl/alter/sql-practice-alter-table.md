@@ -41,3 +41,4 @@ Write a statement to modify the `item_pictures`, changing the maximum length of 
 *Note:* Don't directly edit the `CREATE` statements; instead, write a new statement to alter the table.
 
 To submit, run your SQL and then add the link from SQLFiddle to your submission.  
+ 
