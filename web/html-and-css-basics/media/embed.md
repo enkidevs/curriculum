@@ -15,6 +15,7 @@ standards:
 aspects:
   - introduction
   - workout
+  - deep
 
 links:
   - '[A walkthrough on w3schools](https://www.w3schools.com/tags/tag_embed.asp){documentation}'

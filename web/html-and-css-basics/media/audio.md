@@ -15,6 +15,7 @@ standards:
 aspects:
   - introduction
   - workout
+  - deep
 
 links:
   - '[MDN Docs for audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio){website}'

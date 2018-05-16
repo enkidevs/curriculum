@@ -15,6 +15,7 @@ standards:
 aspects:
   - introduction
   - workout
+  - deep
 
 links:
   - '[a walkthrough](https://www.quackit.com/html_5/tags/html_video_tag.cfm){website}'
