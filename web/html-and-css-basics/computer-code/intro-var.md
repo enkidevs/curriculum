@@ -9,14 +9,21 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.semantic-html.0: 10
+  web.semantic-html.1: 10
+  web.semantic-html.3: 10
+  web.markup-text.2: 10
+  web.layout-html.3: 10
 
-tags:
+aspects:
+  - introduction
+  - workout
   - deep
 
 links:
   - '[MDN Docs for var](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var){website}'
-  
+
 ---
 # Intro var
 ---
@@ -41,7 +48,7 @@ Result:
  <var>X</var> &gt;
  Y
 </p>
- 
+
 In the example above, the `<var>` element is used to create an inline element and to denote variable names in a mathematical expression.
 
 The default text style for the `<var>` element for most browsers is monospace and <i>italic</i>.
@@ -66,7 +73,7 @@ Which statement is not true about using the `<var>` element?
  * represents a variable in a mathematical expression
  * represents a variable in a programming context
  * produces an inline element
- * Default text style is italic. 
+ * Default text style is italic.
 
 
 ---

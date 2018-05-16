@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic 
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -9,14 +9,21 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.semantic-html.0: 10
+  web.semantic-html.1: 10
+  web.semantic-html.3: 10
+  web.markup-text.2: 10
+  web.layout-html.3: 10
 
-tags:
+aspects:
+  - introduction
+  - workout
   - deep
 
 link:
   - '[MDN Docs for samp](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp){website}'
-  
+
 ---
 # samp - Sample Output Element
 ---
@@ -38,8 +45,8 @@ Example:
 ```
 
 Result:<br>
-Instalation failed, press <samp>Retry</samp> to try again. 
- 
+Instalation failed, press <samp>Retry</samp> to try again.
+
 In the example above, the `<samp>` element is used to produce an output from a computer program.
 
 The default font style for the `<samp>` element for most browsers is the monospace font.
@@ -92,7 +99,7 @@ Result:<br>
    </kbd>
 </p>
 
-In the first example, we have the `<kbd>` element nested inside the `<samp>` element. When nesting inside `<samp>`, it represents input echoed by the system. 
+In the first example, we have the `<kbd>` element nested inside the `<samp>` element. When nesting inside `<samp>`, it represents input echoed by the system.
 
 And in the second example, we have a `<samp>` element nested inside a `<kbd>` element. This represents input based on system output. Like a menu item.
 
@@ -116,9 +123,9 @@ When using the `<samp>` element, which statements are true?
 ???
 
 + represents sample output from a computer program
-+ displayed in the browser's default monospace font 
++ displayed in the browser's default monospace font
 + when nested inside `<kbd>`, represents input based on system output.
-+ when containing `<kbd>`, represents input echoed by the system. 
++ when containing `<kbd>`, represents input echoed by the system.
 - produces a block element
 - represents preformatted text
 - represents user input

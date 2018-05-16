@@ -9,14 +9,21 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.semantic-html.0: 10
+  web.semantic-html.1: 10
+  web.semantic-html.3: 10
+  web.markup-text.2: 10
+  web.layout-html.4: 10
 
-tags:
+aspects:
+  - introduction
+  - workout
   - deep
-  
+
 links:
   - '[Code Sample](https://codepen.io/lizthedeveloper/pen/gzrZza){code}'
-  
+
 ---
 # code - Display code in HTML
 ---
@@ -30,19 +37,19 @@ Example:
 <p>
   The function
   <code>
-    calculateAverage() 
-  </code> 
+    calculateAverage()
+  </code>
   calculates the average
   of a set of numbers
 </p>
 ```
 Result:
  The funcion `calculateAverage()` calculates the average of a set of numbers.
- 
+
 The default font style for the `<code>` element for most browsers is the monospace font.
- 
+
 **Note: It's best to use the `<code>` element to style content for HTML elements, CSS rules, filenames and JS scripts.**
- 
+
 ---
 ## Practice
 

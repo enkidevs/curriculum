@@ -53,6 +53,8 @@ standards:
       0: Use sectioning elements to arrange elements vertically
       1: Use tables to arrange text fields and other elements vertically and horizontally
       2: Use semantic elements to arrange and visually distinguish elements
+      3: Use inline elements to affect the presentation of text
+      4: Use block elements to affect the presentation of text
   embed-media:
     name: Embed media with HTML elements
     description: This standard deals with embedding external media, such as images, video, audio, or iFrames, into an HTML document.

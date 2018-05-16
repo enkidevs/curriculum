@@ -9,9 +9,16 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.semantic-html.0: 10
+  web.semantic-html.1: 10
+  web.semantic-html.3: 10
+  web.markup-text.2: 10
+  web.layout-html.4: 10
 
-tags:
+aspects:
+  - introduction
+  - workout
   - deep
 ---
 # pre - Preformatted Text
@@ -40,7 +47,7 @@ body {
  color: blue;
 }
 ```
- 
+
 In the example above, the `<pre>` element is used to produce a block element of an output from a computer program.
 
 The default font style for the `<samp>` element for most browsers is the monospace font.
@@ -56,7 +63,7 @@ When using the `<pre>` element, which statements are true?
 ???
 
 + represents preformatted text
-+ typically displayed in the browser's default monospace font 
++ typically displayed in the browser's default monospace font
 + text displayed as typed within the element
 + produces a block element
 - produces an inline element
