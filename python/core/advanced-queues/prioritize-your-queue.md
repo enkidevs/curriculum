@@ -9,9 +9,8 @@ type: normal
 
 category: how to
 
-
 standards:
-  cs.identify-linear-collection-data-structures-usage.2: 10
+  comp-sci.identify-linear-collection-data-structures-usage.2: 10
 
 links:
 

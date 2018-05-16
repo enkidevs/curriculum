@@ -12,8 +12,8 @@ category: best practice
 
 
 standards:
-  cs.identify-linear-collection-data-structures-usage.2: 10
-  cs.implement-linear-collection-data-structures.2: 10
+  comp-sci.identify-linear-collection-data-structures-usage.2: 10
+  comp-sci.implement-linear-collection-data-structures.2: 10
 
 links:
 

@@ -10,7 +10,7 @@ type: normal
 category: how to
 
 standards:
-  cs.implement-linear-collection-data-structures.2: 10
+  comp-sci.implement-linear-collection-data-structures.2: 10
 
 links:
 

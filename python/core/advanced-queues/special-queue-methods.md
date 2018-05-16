@@ -11,7 +11,7 @@ category: feature
 
 
 standards:
-  cs.implement-linear-collection-data-structures.3: 10
+  comp-sci.implement-linear-collection-data-structures.3: 10
 
 links:
 
