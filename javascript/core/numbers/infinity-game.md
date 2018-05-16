@@ -14,9 +14,9 @@ type: fillTheGap
 category: tip
 
 standards:
-  js.data-types-structures.0: 1000
-  js.standard-library.2: 1000
-  js.evaluate-expressions.1: 1000
+  javascript.data-types-structures.0: 1000
+  javascript.standard-library.2: 1000
+  javascript.evaluate-expressions.1: 1000
 
 ---
 
