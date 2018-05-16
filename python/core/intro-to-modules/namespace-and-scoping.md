@@ -123,4 +123,3 @@ print(a)
 * Yes
 * It can't be determined.
  
- 

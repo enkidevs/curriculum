@@ -31,4 +31,3 @@ links:
 
 Practice `iterables` in python.
  
- 

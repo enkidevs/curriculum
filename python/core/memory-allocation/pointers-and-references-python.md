@@ -114,4 +114,3 @@ b = 3
 * False and True
 * False and False
  
- 

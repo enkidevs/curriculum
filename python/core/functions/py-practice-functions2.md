@@ -38,4 +38,3 @@ links:
 
 Make use of `scope` effectively.
  
- 

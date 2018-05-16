@@ -122,4 +122,3 @@ Which operation is performed using `^` operator?
 * `difference`
 * `union`
  
- 
