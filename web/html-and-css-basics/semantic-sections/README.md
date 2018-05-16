@@ -9,3 +9,4 @@ insights:
   - section
   - article
   - aside
+  - figure-and-figcaption

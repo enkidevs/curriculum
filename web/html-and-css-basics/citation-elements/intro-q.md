@@ -9,14 +9,19 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.semantic-html.0: 10
+  web.semantic-html.1: 10
+  web.semantic-html.3: 10
 
-tags:
+aspects:
+  - introduction
+  - workout
   - deep
 
 links:
   - '[MDN docs for q](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q){website}'
-  
+
 ---
 # Intro q
 ---
@@ -24,18 +29,18 @@ links:
 
 The HTML `<q>`, or **The Inline Quotation element** is used for indicating short quotations. This element is displayed as an inline element and is typically used for short quotations that don't require paragraph breaks. On the other hand, if you need a larger quotation, you should use the `<blockquote>` element.
 
-Furthermore, most browsers implement the `<q>` element by placing quotation marks. 
+Furthermore, most browsers implement the `<q>` element by placing quotation marks.
 
 Example:
 ```
 <p>
   <cite>
     Carrie Bradshaw
-  </cite> 
-  said 
+  </cite>
+  said
   <q cite="#">
     Shopping is my cardio
-  </q> 
+  </q>
   and that is pretty awesome.
 </p>
 ```
@@ -43,8 +48,8 @@ Example:
 Result:
 ```
   Carrie Bradshaw
-  said 
-  " Shopping is my cardio " 
+  said
+  " Shopping is my cardio "
   and that is pretty awesome.
 ```
 
@@ -59,11 +64,11 @@ Which statements about the `<q>` element is not correct?
 <p>
   <cite>
     Carrie Bradshaw
-  </cite> 
-  said 
+  </cite>
+  said
   <q cite="#">
     Shopping is my cardio
-  </q> 
+  </q>
   and that is pretty awesome.
 </p>
 ```
@@ -79,32 +84,15 @@ Which statements about the `<q>` element is not correct?
 ---
 ## Revision
 
-Which HTML element is best to indicate short quotations?
-
-???
-
-* `<q>`
-* `<quote>`
-* `<blockquote>`
-* `<quot>`
-* `<mark>`
-* `<cite>`
-* `<sq>`
-
----
-## Quiz
-
-### How much do you know about quotes in web pages?
-
 What is the most appropriate HTML element to use here?
 
 ```
-<p> As 
-  <cite>Ron Burgundy</cite> 
-  shouted 
+<p> As
+  <cite>Ron Burgundy</cite>
+  shouted
   <tag cite="#">
     I'm not a baby!
-    I'm a man! 
+    I'm a man!
     An ANCHORMAN!
   </tag>
 </p>
@@ -121,4 +109,14 @@ tag = ???
 * cite
 * sq
 
+---
+## Quiz
 
+### How much do you know about semantic HTML?
+
+Which HTML element is best to indicate short quotations?
+
+* `<q>`
+* `<quote>`
+* `<blockquote>`
+* `<cite>`

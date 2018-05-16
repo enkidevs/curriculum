@@ -2,15 +2,13 @@ name: Citation Elements
 
 type: insights-list
 
-description: TODO
+description: Check out these semantic elements for specific data
 
-section: 0
 
 insights:
+  - intro-cite
   - intro-q
   - blockquotes
   - address
-  - intro-cite
   - intro-bdo
   - intro-bdi
-  - figure-and-figcaption

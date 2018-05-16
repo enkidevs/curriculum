@@ -11,13 +11,19 @@ category: must-know
 
 stub: true
 
+standards:
+  web.semantic-html.0: 10
+  web.semantic-html.1: 10
+  web.semantic-html.3: 10
 
-tags:
+aspects:
+  - introduction
+  - workout
   - deep
 
 links:
   - '[MDN docs for address](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address){website}'
-  
+
 ---
 # Address
 ---
@@ -81,21 +87,3 @@ Which HTML element is used to contain contact information for its nearest `<arti
 * `<info>`
 * `<postal>`
 * `<authorship>`
-
----
-## Quiz
-
-### How much do you know about contact info and addresses in HTML?
-
-To represent an arbitrary address (such as postal addresses), one that is not related to the contact information, use the ??? element rather than the `<address>` element.
-
-???
-
-* `<p>`
-* `<cite>`
-* `<info>`
-* `<location>`
-* `<footer>`
-* `<postal>`
-
-

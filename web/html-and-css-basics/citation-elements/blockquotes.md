@@ -9,14 +9,20 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.semantic-html.0: 10
+  web.semantic-html.1: 10
+  web.semantic-html.3: 10
 
-tags:
+aspects:
   - introduction
+  - workout
+  - deep
+
 
 links:
   - '[MDN docs for blockquotes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote){website}'
-  - 
+  -
 ---
 # Blockquotes
 ---
@@ -34,7 +40,7 @@ Example:
  It's possible, but not worth doing.<br>
  I said it was a good idea all along.<br>
 - Arthur C. Clarke
-</blockquote> 
+</blockquote>
 ```
 
 If you wish to add a short quote to your web page or document, you should use the `<q>` or the **Quotation element**.
@@ -54,7 +60,7 @@ Which statement about the `<blockquote>` element is correct?
 ```
 <blockquote>
   The best thing about a boolean
-  is even if you are wrong, 
+  is even if you are wrong,
   you are only off by a bit.
 </blockquote>
 ```
@@ -84,17 +90,11 @@ Select the default CSS style that is not typically associated with the `<blockqu
 ---
 ## Quiz
 
-### How much do you know about quoting in HTML?
+### How much do you know about semantic HTML?
 
 Which HTML element is used to create a section that is quoted from another source?
-
-???
 
 * `<blockquote>`
 * `<q>`
 * `<quote>`
-* `<quot>`
-* `<mark>`
 * `<cite>`
-* `<source>`
-

@@ -21,6 +21,7 @@ sections:
     - forms-iii
     - forms-iv
     - forms-v
+    - semantic-sections
     - citation-elements
     - computer-code
     - best-practices

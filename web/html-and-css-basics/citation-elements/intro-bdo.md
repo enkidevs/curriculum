@@ -9,14 +9,22 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.semantic-html.0: 10
+  web.semantic-html.1: 10
+  web.semantic-html.3: 10
+  web.markup-text.2: 10
+  web.layout-html.3: 10
 
-tags:
+aspects:
+  - introduction
+  - workout
+  - deep
   - obscura
 
 links:
   - '[MDN docs for bdo](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdo){website}'
-  
+
 ---
 # bdo Element
 ---
@@ -35,7 +43,7 @@ Example with one word:
   Play
 </p>
 <p>
-  <bdo 
+  <bdo
     dir="rtl">Play
   </bdo>
 </p>
@@ -52,7 +60,7 @@ Example with a sentence:
   The sun is shining.
 </p>
 <p>
-  <bdo 
+  <bdo
     dir="rtl">The sun is shining.
   </bdo>
 </p>
@@ -68,14 +76,14 @@ Using this element is very useful for content presented in multiple languages. F
 ---
 ## Practice
 
-Write the code to display the word "backwards" backwards. 
+Write the code to display the word "backwards" backwards.
 
 `<p>`This is such a `<??? ???="???">`backwards`</???>` thing to do!`</p>`
 
-* bdo 
+* bdo
 * dir
 * rtl
-* /bdo 
+* /bdo
 * ltr
 * mld
 * lang
@@ -107,10 +115,9 @@ What does the `<bdo>` element do in this code?
 
 ???
 
-* displays the letters backwards. 
+* displays the letters backwards.
 * displays the letters upside down.
 * displays the letters mirrored.
 * displays the letters flipped.
 * helps search engines understand the directory of text.
-* doesn't do anything without CSS styles. 
-
+* doesn't do anything without CSS styles.

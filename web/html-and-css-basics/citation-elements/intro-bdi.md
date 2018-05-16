@@ -9,14 +9,22 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.semantic-html.0: 10
+  web.semantic-html.1: 10
+  web.semantic-html.3: 10
+  web.markup-text.2: 10
+  web.layout-html.3: 10
 
-tags:
+aspects:
+  - introduction
+  - workout
+  - deep
   - obscura
 
 links:
   - '[MDN docs for bdi](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdi){website}'
-  
+
 ---
 # bdi Element
 ---
@@ -33,34 +41,34 @@ Also, if you want numbers displayed properly with, for instance, Arabic, you hav
 Example:
 ```
 <p>
-  User: 
-  <bdi>ماثيو</bdi> 
+  User:
+  <bdi>ماثيو</bdi>
   428 points.
 </p>
 
 ```
 Result:
 ```
-  User: 
-  ماثيو 
+  User:
+  ماثيو
   428 points.
 ```
 On the other hand, if you don't use the `<bdi>` element, like so:
 ```
 <p>
-  User: 
-  ماثيو 
+  User:
+  ماثيو
   428 points.
 </p>
 ```
 The result would be:
 ```
-  User: 
-  428 
+  User:
+  428
   ماثيو  
   points.
 ```
-  
+
 **Note: The `<dir>` attribute doesn't behave normally like other attributes. When nesting with `<bdi>` it defaults to`auto`, meaning the value is never inherited from the parent. So, unless you specify an `rtl` or `ltr` attribute for `dir`, the user agent will determine the correct directionality from the content of the `<bdi>` element.**
 
 By using the `unicode-bidi : isolate` CSS rule you can achieve the same effect as with the `<bdi>` element. Nevertheless, it is always better to use the `<bdi>` because it provides important semantic meaning, whereas the CSS rule is only presentational.
@@ -76,7 +84,7 @@ Which statement about the `<bdi>` element is correct?
 ???
 
 * preserves unknown text direction
-* displays the letters backwards. 
+* displays the letters backwards.
 * displays the letters mirrored.
 * helps search engines understand the directory of text.
 
@@ -97,7 +105,7 @@ Which HTML element is used to isolate a span of text that might be formatted in 
 ---
 ## Quiz
 
-### How much do you know about citation elements in HTML?
+### How much do you know about text formatting in HTML?
 
 Without the `<bdi>` element, what would happen to the Arabic username and the points?
 
@@ -109,8 +117,5 @@ Without the `<bdi>` element, what would happen to the Arabic username and the po
 
 * The points will display before the name.
 * The name will not display at all.
-* The numbers will not display at all.
-* The name will display in front of the points. 
+* The name will display in front of the points.
 * Nothing without CSS styles added.
-
-
