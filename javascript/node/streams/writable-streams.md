@@ -10,9 +10,9 @@ levels:
 type: normal
 
 standards:
-  js.read-and-write-streams.1: 20
-  js.node-standard-library-os.0: 20
-  js.events-asynchronous-operations.1: 20
+  javascript.read-and-write-streams.1: 20
+  javascript.node-standard-library-os.0: 20
+  javascript.events-asynchronous-operations.1: 20
 
 tags:
   - introduction

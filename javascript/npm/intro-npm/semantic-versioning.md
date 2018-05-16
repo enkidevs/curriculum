@@ -12,8 +12,8 @@ category: must-know
 parent: package-json
 
 standards:
-  js.npm-publish.3: 10
-  js.use-open-source-javascript-packages.1: 10
+  javascript.npm-publish.3: 10
+  javascript.use-open-source-javascript-packages.1: 10
 
 tags:
   - introduction

@@ -14,8 +14,8 @@ category: how to
 parent: how-npm3-handles-dependencies
 
 standards:
-  js.npm-tasks-and-modules-manager.0: 30
-  js.npm-tasks-and-modules-manager.3: 30
+  javascript.npm-tasks-and-modules-manager.0: 30
+  javascript.npm-tasks-and-modules-manager.3: 30
 
 tags:
   - introduction

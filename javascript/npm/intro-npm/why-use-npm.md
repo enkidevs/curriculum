@@ -9,7 +9,7 @@ type: normal
 category: must-know
 
 standards:
-  js.npm-tasks-and-modules-manager.0: 20
+  javascript.npm-tasks-and-modules-manager.0: 20
 
 tags:
   - introduction

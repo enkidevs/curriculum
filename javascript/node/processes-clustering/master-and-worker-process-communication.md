@@ -11,7 +11,7 @@ type: normal
 category: tip
 
 standards:
-  js.node-standard-library-os.5: 20
+  javascript.node-standard-library-os.5: 20
 
 tags:
   - workout

@@ -10,7 +10,7 @@ type: normal
 category: must-know
 
 standards:
-  js.node-standard-library-os.2: 10
+  javascript.node-standard-library-os.2: 10
 
 links:
   - '[ponyfoo.com](https://ponyfoo.com/articles/teach-yourself-nodejs-in-10-steps#http-server){website}'
