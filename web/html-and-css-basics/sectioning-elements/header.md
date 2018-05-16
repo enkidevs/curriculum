@@ -9,8 +9,14 @@ type: normal
 
 category: must-know
 
-tags:
+standards:
+  web.layout-html.0: 10
+  web.semantic-html.0: 10
+  web.semantic-html.1: 10
+
+aspects:
   - introduction
+  - workout
 
 links:
   - '[MDN docs for header](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header){website}'
@@ -20,7 +26,7 @@ links:
 ---
 ## Content
 
-The HTML `<header>` element is used to represent some introductory content. 
+The HTML `<header>` element is used to represent some introductory content.
 
 This can be an introduction, some navigational aid, a graphical logo, the authors' name, a search form, display one or more heading (h1-h6) elements, and more.
 
@@ -30,7 +36,7 @@ Example Main page Title and Logo within a `<header>`:
 ```
 <header>
   <h1>Pizza Place!!</h1>
-  <img src="pizza-logo.png" 
+  <img src="pizza-logo.png"
        alt="Pizza logo">
 </header>
 ```
@@ -73,7 +79,7 @@ The `<header>` element is encouraged to do which of the following?
 ---
 ## Revision
 
-Which container is best to organize the top of a web page or content section? 
+Which container is best to organize the top of a web page or content section?
 
 ???
 
@@ -99,5 +105,3 @@ The HTML `<header>` element cannot what?
 * hold a graphical logo
 * display authorship information
 * have multiple `<header>` elements within the same doc.
-
-

@@ -10,11 +10,12 @@ sections:
     - html-structure
     - core-html-elements
     - web-page-structure
+    - images
   '1':
-    - meta-elements
+    - media
     - forms
     - forms-ii
-    - media
+    - meta-elements
     - sectioning-elements
   '2':
     - forms-iii
@@ -58,7 +59,7 @@ standards:
       0: Embed images into an HTML document
       1: Embed video into an HTML document
       2: Embed audio into an HTML document
-      3: Embed arbitrary external content with an iFrame
+      3: Embed arbitrary external content
       4: Use attributes to configure embedded media
   html-forms:
     name: Use HTML forms to collect user input

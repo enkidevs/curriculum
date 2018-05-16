@@ -1,12 +1,8 @@
-name: Images
+name: Advanced Images
 
 type: insights-list
 
-description: TODO
-
-section: 0
-
-parent: 
+description: Advanced image attributes help you make advanced images
 
 insights:
   - image-types

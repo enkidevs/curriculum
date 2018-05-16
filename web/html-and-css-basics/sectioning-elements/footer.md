@@ -9,8 +9,14 @@ type: normal
 
 category: must-know
 
-tags:
+standards:
+  web.layout-html.0: 10
+  web.semantic-html.0: 10
+  web.semantic-html.1: 10
+
+aspects:
   - introduction
+  - workout
 
 links:
   - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer
@@ -30,8 +36,8 @@ Using `<footer>` for contact information:
     Author: Jane Doe
   </p>
   <p>
-  Contact: 
-    <a 
+  Contact:
+    <a
       href="mailto:janedoe@example.com">
       janedoe@example.com
     </a>.
@@ -48,13 +54,13 @@ The `<footer>` element is encouraged to contain which of the following?
 
 * copyright or contact information, links to related or to the top of the page and sitemap
 * additional `<footer>` elements and to be added within `<header>` element.
-* display one or more heading (h1-h6) elements be used only once in a page for validation. 
+* display one or more heading (h1-h6) elements be used only once in a page for validation.
 * hold a graphical logo or an image, passwords and/or other sensitive data
 
 ---
 ## Revision
 
-Which container is best to organize the top of a web page or content section? 
+Which container is best to organize the top of a web page or content section?
 
 ???
 
@@ -80,7 +86,3 @@ The HTML `<footer>` element should NOT contain what?
 * links to related pages
 * link back to top of page
 * sitemap
-
-
-
-

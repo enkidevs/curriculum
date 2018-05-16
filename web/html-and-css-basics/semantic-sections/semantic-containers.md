@@ -9,13 +9,21 @@ type: normal
 
 category: must-know
 
-tags:
+standards:
+  web.layout-html.0: 10
+  web.semantic-html.0: 10
+  web.semantic-html.1: 10
+  web.semantic-html.3: 10
+
+aspects:
   - introduction
+  - workout
+  - deep
 
 links:
   - '[MDN docs for semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics){website}'
   - '[W3s docs for semantics](https://www.w3schools.com/html/html5_semantic_elements.asp){website}'
-  
+
 ---
 # Semantic Containers
 ---
@@ -66,9 +74,9 @@ Also, there are elements which are containers, however, they are not semantic el
 
 These are:
  - `<div>` defines a division or section
- - `<span>` used to group inline elements 
+ - `<span>` used to group inline elements
 
- 
+
 ---
 ## Practice
 
@@ -154,7 +162,7 @@ Although <form> is a HTML5 container, it was also commonly used in HTML4.
 
 <navigation>
 %exp
-<navigation> is not a valid HTML4 or HTML5 element, although the <nav> element is a new HTML5 element specific for site navigation. 
+<navigation> is not a valid HTML4 or HTML5 element, although the <nav> element is a new HTML5 element specific for site navigation.
 %
 ```
 
@@ -162,37 +170,37 @@ Although <form> is a HTML5 container, it was also commonly used in HTML4.
 
 <header>
 %exp
-<header> is new HTML5 element. In HTML4, techniques like <div class="header"> had to be used. 
+<header> is new HTML5 element. In HTML4, techniques like <div class="header"> had to be used.
 %
 
 <footer>
 %exp
-<footer> is new HTML5 element. In HTML4, techniques like <div class="footer"> had to be used. 
+<footer> is new HTML5 element. In HTML4, techniques like <div class="footer"> had to be used.
 %
 
 <nav>
 %exp
-<nav> is new HTML5 element. In HTML4, techniques like <div class="nav"> had to be used. 
+<nav> is new HTML5 element. In HTML4, techniques like <div class="nav"> had to be used.
 %
 
 <main>
 %exp
-<main> is new HTML5 element. In HTML4, techniques like <div class="main"> had to be used. 
+<main> is new HTML5 element. In HTML4, techniques like <div class="main"> had to be used.
 %
 
 <aside>
 %exp
-<aside> is new HTML5 element. In HTML4, techniques like <div class="aside"> had to be used. 
+<aside> is new HTML5 element. In HTML4, techniques like <div class="aside"> had to be used.
 %
 
 <section>
 %exp
-<section> is new HTML5 element. In HTML4, techniques like <div class="section"> had to be used. 
+<section> is new HTML5 element. In HTML4, techniques like <div class="section"> had to be used.
 %
 
 <article>
 %exp
-<article> is new HTML5 element. In HTML4, techniques like <div class="article"> had to be used. 
+<article> is new HTML5 element. In HTML4, techniques like <div class="article"> had to be used.
 %
 
 ```

@@ -9,9 +9,13 @@ type: normal
 
 category: must-know
 
-tags:
+standards:
+  web.embed-media.0: 10
+
+aspects:
   - introduction
-  
+  - workout
+
 ---
 # Image Title
 
@@ -25,7 +29,7 @@ Tooltips appear to the user when they hover their mouse over the image.
 
 Example:
 ```
-<img src="logo.svg" 
+<img src="logo.svg"
   title="Tooltip Text Here">
 ```
 ---

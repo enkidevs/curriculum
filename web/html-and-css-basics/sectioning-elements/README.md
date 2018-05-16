@@ -1,20 +1,12 @@
-name: Lists
+name: Sectioning Elements
 
 type: insights-list
 
-description: TODO
-
-section: 0
-
-parent: 
+description: Divide your content up with these elements
 
 insights:
-  - semantic-containers
-  - header
-  - footer
-  - nav
-  - main
-  - section
-  - article
-  - aside
   - div
+  - header
+  - main
+  - nav
+  - footer

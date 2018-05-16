@@ -9,21 +9,23 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.embed-media.1: 10
 
-tags:
+aspects:
   - introduction
+  - workout
 
 links:
-  - https://www.quackit.com/html_5/tags/html_video_tag.cfm
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video
-  
+  - '[a walkthrough](https://www.quackit.com/html_5/tags/html_video_tag.cfm){website}'
+  - '[Documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video){documentation}'
+
 ---
 # Video
 ---
 ## Content
 
-Since HTML5 the `<video>` tag is used to embed videos on a web page or document. 
+Since HTML5 the `<video>` tag is used to embed videos on a web page or document.
 Both the start and end tags are required for the `<video>` element.
 
 Like so:
@@ -40,15 +42,15 @@ Like so:
 
 In the example above we have added a video player of a 160 to 160-pixel size with a video called `time-lapse` of type `.mp4`. The paragraph part is to provide fallback content for users that do not have browsers that support HTML5 video.
 
-You can add one or more subtitles to your videos and set a default one via the `<track>` element. 
+You can add one or more subtitles to your videos and set a default one via the `<track>` element.
 ```
 <video src="/video/bugs-bunny.mp4"
   width="160" height="160" controls>
-  <track kind="subtitles" srclang="en" 
-    src="bugs-bunny-en.vtt" 
+  <track kind="subtitles" srclang="en"
+    src="bugs-bunny-en.vtt"
      label="English" default>
-  <track kind="subtitles" srclang="es" 
-    src="bugs-bunny-es.vtt" 
+  <track kind="subtitles" srclang="es"
+    src="bugs-bunny-es.vtt"
      label="Español">
   <p>
     You're seeing this because
@@ -91,11 +93,11 @@ There are many more functionalities you can add to your videos with attributes. 
  - `autoplay` = plays the video as soon as it's available
  - `muted` = sets the default setting for the audio part of the video
  - `loop` = makes the video play again as soon as it finishes
- 
- 
+
+
 **Note:**
   - **If your video plays OK on your local computer, but doesn't play on the web server you should add the video types needed on the .htaccess file in your directory where the video is.**
-  
+
 ---
 ## Practice
 
@@ -138,7 +140,3 @@ If your video plays OK on your local computer, but doesn't play on the web serve
 * The video will be viewable by others, just not you.
 * The video file needs to be converted properly to be posted online.
 * Close the browser, reopen it, and test the video again.
-
-
-
-

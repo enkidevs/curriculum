@@ -9,14 +9,17 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.embed-media.3: 10
 
-tags:
+aspects:
   - introduction
+  - workout
+
 links:
-  - https://www.w3schools.com/tags/tag_embed.asp
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed
-  
+  - '[A walkthrough on w3schools](https://www.w3schools.com/tags/tag_embed.asp){documentation}'
+  - '[Official documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed){documentation}'
+
 ---
 # Embed
 
@@ -27,8 +30,8 @@ In HTML you can use the `<embed>` element to embed an external application or a 
 
 Example:
 ```
-<embed type="video/quicktime" 
-    src="dancing_stick-man.mov" 
+<embed type="video/quicktime"
+    src="dancing_stick-man.mov"
       width="360" height="360">
 ```
 
@@ -45,12 +48,12 @@ The `<embed>` element was introduced in HTML5. It has to have a starting tag and
 ---
 ## Practice
 
-Select the statement that is not true regarding the `<embed>` element: 
+Select the statement that is not true regarding the `<embed>` element:
 
 ???
 
 * Plug-ins are supported on all mobile devices.  
-* No closing tag is used. 
+* No closing tag is used.
 * Introducted in HTML5
 * used for embedding an external application
 * used for embedding plug-ins
@@ -76,9 +79,7 @@ Which HTML element is used to define the container for an external app or plugin
 
 The `<embed>` element is new in which version of HTML?
 
-???
-
 * HTML5
 * HTML4
 * XHTML
-* HTML1
+* DHTML

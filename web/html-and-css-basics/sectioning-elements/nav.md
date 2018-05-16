@@ -9,20 +9,28 @@ type: normal
 
 category: must-know
 
-tags:
+standards:
+  web.layout-html.0: 10
+  web.semantic-html.0: 10
+  web.semantic-html.1: 10
+  web.semantic-html.3: 10
+
+aspects:
   - introduction
+  - workout
+  - deep
 
 links:
   - '[MDN docs for nav](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav){website}'
   - '[W3S docs for nav](https://www.w3schools.com/tags/tag_nav.asp){website}'
-  
+
 ---
 # Nav element
 
 ---
 ## Content
 
-The HTML `<nav>` element is used to represent a section of the page. The purpose of this section is to provide navigational links, table of contents, previous/next buttons or breadcrumbs. 
+The HTML `<nav>` element is used to represent a section of the page. The purpose of this section is to provide navigational links, table of contents, previous/next buttons or breadcrumbs.
 
 Example:
 ```
@@ -48,7 +56,7 @@ Select the item that would be useful placing within a `<nav>` container.
 
 ???
 
- * Navigational links 
+ * Navigational links
  * Link to Email
  * Links within main content
  * Tags in a blog post
@@ -61,7 +69,7 @@ Can a webpage contain more than one `<nav>` container?
 
 ???
 
-Should all links within a webpage be placed within a `<nav>` element? 
+Should all links within a webpage be placed within a `<nav>` element?
 
 ???
 
@@ -78,7 +86,7 @@ Should all links within a webpage be placed within a `<nav>` element?
 
 ### Quick question about organizing buttons in HTML?
 
-Which container is best to organize the buttons that link the primary pages of the website? 
+Which container is best to organize the buttons that link the primary pages of the website?
 
 ???
 
@@ -89,4 +97,3 @@ Which container is best to organize the buttons that link the primary pages of t
  * `<navi>`
  * `<menu>`
  * `<buttons>`
-

@@ -9,13 +9,21 @@ type: normal
 
 category: must-know
 
-tags:
+standards:
+  web.layout-html.0: 10
+  web.semantic-html.0: 10
+  web.semantic-html.1: 10
+  web.semantic-html.3: 10
+
+aspects:
   - introduction
+  - workout
+  - deep
 
 links:
   - '[MDN docs for main](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main){website}'
   - '[W3S docs for main](https://www.w3schools.com/tags/tag_main.asp){website}'
-  
+
 ---
 # Main element
 ---
@@ -38,15 +46,15 @@ Example of the main content of a page, in this case, a page describing vehicles:
     Vehicles are ways of transports
     humans made of ease of transport.
   </p>
-  
+
  <article>
     <h2>Cars</h2>
     <p>
-      This is a ground vehicle 
-      which has 4 tires, 
+      This is a ground vehicle
+      which has 4 tires,
       is very stable and is
-      perfect for driving 
-      small groups 
+      perfect for driving
+      small groups
       like family or friends,
       between 4-6 people.
     </p>
@@ -56,25 +64,25 @@ Example of the main content of a page, in this case, a page describing vehicles:
  <article>
     <h2>Bus</h2>
     <p>
-      This is also a ground vehicle 
+      This is also a ground vehicle
       which has 8-12 tires,
-      is also very stable, 
-      and is used to transport 
+      is also very stable,
+      and is used to transport
       large groups of people
       at once(80 max).
     </p>
     <p>... </p>
   </article>
-  
+
  <article>
     <h2>Aeroplane</h2>
     <p>
-      This is a flying vehicle, 
+      This is a flying vehicle,
       which is used to transport
       large amounts of people
       (up to 200 people),
       usualy to places that
-      ground vehicles can't 
+      ground vehicles can't
       get too easily, or
       can't get fast enough.
     </p>
@@ -83,7 +91,7 @@ Example of the main content of a page, in this case, a page describing vehicles:
 </main>
 ```
 
-As you can see in the example above, we have added `<article>` within our `<main>` element to clearly separate each type of vehicle. As for the other way around, you cannot put a `<main>` element as a descendant of the `<article>` element. 
+As you can see in the example above, we have added `<article>` within our `<main>` element to clearly separate each type of vehicle. As for the other way around, you cannot put a `<main>` element as a descendant of the `<article>` element.
 
 Also, the `<main>` element can never be a decendant of a few more elements. These are:
  - `<aside>`
@@ -91,7 +99,7 @@ Also, the `<main>` element can never be a decendant of a few more elements. Thes
  - `<header>`
  - `<nav>`
 
-Furthermore, you can only have one `<main>` element per web page or document if you want your web page or document to validate. 
+Furthermore, you can only have one `<main>` element per web page or document if you want your web page or document to validate.
 
 There is a way for 2 or more `<main>` elements to be present in your document, however, all except one `<main>` element have to have a `hidden` attribute specified.
 

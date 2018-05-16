@@ -9,9 +9,17 @@ type: normal
 
 category: must-know
 
-tags:
+standards:
+  web.layout-html.0: 10
+  web.semantic-html.0: 10
+  web.semantic-html.1: 10
+  web.semantic-html.3: 10
+
+aspects:
   - introduction
-  
+  - workout
+  - deep
+
 links:
   - '[MDN docs for section](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section){website}'
   - '[W3S docs for section](https://www.w3schools.com/tags/tag_section.asp){website}'
@@ -21,8 +29,8 @@ links:
 ---
 ## Content
 
-The HTML `<section>` element is used to represent a standalone section. Usually, This is a section which doesn't have a better element to represent it within that HTML document. 
-Note: Each `<section>` element should be properly identified, usually with a heading `<h1>`-`<h6>`. 
+The HTML `<section>` element is used to represent a standalone section. Usually, This is a section which doesn't have a better element to represent it within that HTML document.
+Note: Each `<section>` element should be properly identified, usually with a heading `<h1>`-`<h6>`.
 
 Example:
 ```

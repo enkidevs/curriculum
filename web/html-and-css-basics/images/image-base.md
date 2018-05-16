@@ -9,13 +9,18 @@ type: normal
 
 category: must-know
 
-tags:
-  - introduction
+standards:
+  web.embed-media.0: 10
 
-link:
-  - https://www.w3schools.com/tags/tag_base.asp
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-  
+aspects:
+  - introduction
+  - workout
+  - obscura
+
+links:
+  - '[w3schools on tags](https://www.w3schools.com/tags/tag_base.asp){website}'
+  - '[Documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base){documentation}'
+
 ---
 # Image Base
 ---
@@ -37,7 +42,7 @@ All links in the web page or document are set to open in a new tab:
 All links in the web page or document will lead to the `https://www.enki.com` link:
 ```
 <head>
-   <base 
+   <base
     href="https://www.enki.com">
 </head>
  ```
@@ -45,7 +50,7 @@ All links in the web page or document will lead to the `https://www.enki.com` li
 All links in the web page or document will lead to the `https://www.enki.com` link, and open in a new tab:
 ```
 <head>
-   <base href="https://www.enki.com" 
+   <base href="https://www.enki.com"
       target="_blank">
 </head>
 ```
@@ -113,4 +118,3 @@ Complete the code if a `<base>` URL is assigned and image is used within an Open
 * `<link target="_blank">`
 * `<a target="_blank">`
 * `<* target="_blank">`
-

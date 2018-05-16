@@ -9,15 +9,23 @@ type: normal
 
 category: must-know
 
-tags:
+standards:
+  web.layout-html.0: 10
+  web.semantic-html.0: 10
+  web.semantic-html.1: 10
+  web.semantic-html.3: 10
+
+aspects:
   - introduction
+  - workout
+  - deep
 
 links:
   - '[MDN docs for aside](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside){website}'
   - '[W3S docs for aside](https://www.w3schools.com/tags/tag_aside.asp){website}'
-  
---- 
-# Aside 
+
+---
+# Aside
 ---
 ## Content
 
@@ -62,7 +70,7 @@ Which HTML container element represents a section of a page that consists of con
 
 ???
 
-An `<aside>` should usually contain a navigation list on either the left- or right-hand side of the webpage. 
+An `<aside>` should usually contain a navigation list on either the left- or right-hand side of the webpage.
 
 ???
 
@@ -104,7 +112,3 @@ TAG: ???
 * `<block>`
 * `<article>`
 * `<section>`
-
-
-
-

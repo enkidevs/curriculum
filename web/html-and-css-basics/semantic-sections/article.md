@@ -9,13 +9,21 @@ type: normal
 
 category: must-know
 
-tags:
-  - introduction
+standards:
+  web.layout-html.0: 10
+  web.semantic-html.0: 10
+  web.semantic-html.1: 10
+  web.semantic-html.3: 10
 
+aspects:
+  - introduction
+  - workout
+  - deep
+  
 links:
   - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article
   - https://www.w3schools.com/tags/tag_article.asp
-  
+
 ---
 # Article
 ---
@@ -28,7 +36,7 @@ The `<article>` element can contain:
   - a newspaper article
   - blog entry
 
-The `<article>` element belongs to the group **Semantic Elements**. 
+The `<article>` element belongs to the group **Semantic Elements**.
 Semantic elements are elements that clearly define their content both for the browser and developer.
 
 Example:
@@ -36,9 +44,9 @@ Example:
 <article>
   <h1>Facebook</h1>
   <p>
-    Connect with friends, 
-    family and other people you know. 
-    Share photos and videos, 
+    Connect with friends,
+    family and other people you know.
+    Share photos and videos,
     send messages and get updates.
   </p>
 </article>
