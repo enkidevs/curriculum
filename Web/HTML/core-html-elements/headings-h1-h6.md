@@ -13,7 +13,7 @@ tags:
   - introduction
 
 link:
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements 
+  - '[MDN docs for headings](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements){website}'
   
 ---
 # Headings (h1-h6)
