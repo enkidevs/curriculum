@@ -1,5 +1,5 @@
-# bdo Element
-author: matthewleach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -11,15 +11,59 @@ category: must-know
 
 stub: true
 
-
 tags:
   - obscura
 
-
+links:
+  - '[MDN docs for bdo](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdo){website}'
+  
+---
+# bdo Element
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+The HTML `<bdo>`, or **The Bidirectional Text Override element** is used to override the current directionality of text. This means that you can have a text written in one direction, render and display in the opposite direction.
+
+This element has 2 element related attributes, `ltr` and `rtl`.
+ - `ltr` sets text direction to Left-to-Right.
+ - `rtl` sets text direction to Right-to-Left.
+
+
+Example with one word:
+```
+<p>
+  Play
+</p>
+<p>
+  <bdo 
+    dir="rtl">Play
+  </bdo>
+</p>
+```
+Result:
+```
+  Play
+  yalP
+```
+
+Example with a sentence:
+```
+<p>
+  The sun is shining.
+</p>
+<p>
+  <bdo 
+    dir="rtl">The sun is shining.
+  </bdo>
+</p>
+```
+Result:
+```
+The sun is shining.
+.gninihs si nus ehT
+```
+
+Using this element is very useful for content presented in multiple languages. For instance, if you have a text that you want to be displayed in Arabic or Hebrew, next to translating the text, you would also use the `<bdo>` element along with its `rtl` attribute to make the text go Right-To-Left and become readable.
 
 ---
 ## Practice
@@ -55,11 +99,13 @@ Which HTML element is used to change the direction of specific sections of text 
 ---
 ## Quiz
 
-How much do you know about typography effects in HTML?
+### How much do you know about typography effects in HTML?
 
-What does the `<bdo>` element do?
+What does the `<bdo>` element do in this code?
 
-`<p>`Have you watched `<bdo dir="rtl">`Stranger Things`</bdo>` on Netflix!`</p>`
+`<p>`Have you watched `<bdo dir="rtl">`Stranger Things`</bdo>` on Netflix?`</p>`
+
+???
 
 * displays the letters backwards. 
 * displays the letters upside down.
