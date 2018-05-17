@@ -201,7 +201,7 @@ When using the map element to create clickable areas within a single image, what
 
 ### How much do you know about create clickable image maps?
 
-Place the shape value within the appropriate location to create the proper code.
+Place the appropriate shape value within the marked location to create the proper code.
 
 ```
 <map name="objects">
