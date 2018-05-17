@@ -45,7 +45,7 @@ Example with a poem:
 </figure>
 ```
 
-More examples '[Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)'
+For more examples, check the more info section at the bottom of this insight.
 
 ---
 ## Practice
@@ -96,7 +96,7 @@ What HTML element best defines a caption or legend for a figure?
 ---
 ## Quiz
 
-### How much do you know about `<figure>`, `<aside>` & `<div>`?
+### Can you define which elements does what? 
 
 Use ??? when the content is related, but not required to follow along. 
 Use ??? when the content is required to follow along, but it can be placed anywhere in the flow of the content. 
@@ -105,3 +105,4 @@ Use ??? when the content is required and the position is important in the contex
 * `<aside>`
 * `<figure>`
 * `<div>`
+* `<navigation>`
