@@ -72,39 +72,29 @@ Which line of code will place an image into the HTML page?
 
 ???
 
-* `<img src="image.jpg" alt="Image Description">`
-* `<image src="image.jpg" alt="Image Description">`
-* `<img href="image.jpg" alt="Image Description">`
-* `<img alt="image.jpg" src="Image Description">`
-* `<img alt="image.jpg" desc="Image Description">`
-
 If an image cannot load properly in a web page, what attribute will display text in its place?
 
 ???
-
-* `alt`
-* `src`
-* `href`
-* `title`
-* `desc`
 
 Which of these are not a common web image format: 
 
 ???
 
-* `.img`
-* `.png`
-* .`svg`
-* `.gif`
-* `.jpg `
-
 If an image does not have an assigned height and width using HTML or CSS, how will the image display within a web page?
 
 ???
 
+* `<img src="image.jpg" alt="Image Description">`
+* `alt`
+* `.img`
 * At its original image size.
+* `<image src="image.jpg" alt="Image Description">`
+* `<img href="image.jpg" alt="Image Description">`
+* `src`
+* `desc`
+* `.png`
+* .`svg`
 * Will resize filling the container it is within. 
-* Will resize by default to 100px wide.
 * It will only resize if the image is larger than the viewing area.
 
 ---
