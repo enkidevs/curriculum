@@ -119,21 +119,9 @@ Which line of code will link text to open a new window?
 
 ???
 
-* `<a href="http://enkipro.com" target="_blank">Link to Enki</a>`
-* `<link href="http://enkipro.com" target="_blank">Link to Enki</link>`
-* `<a src="http://enkipro.com" target="_blank">Link to Enki</a>`
-* `<a href="http://enkipro.com" target="_new">Link to Enki</a>`
-
 How is a placeholder link created, where the link works, but it doesn't open a new page?
 
 `<a href="???">Empty href</a>`
-
-* `#`
-* `""`
-* `*`
-* `_empty`
-* `_self`
-* `Leave empty`
 
 When will the cursor change to a pointer with the following code?
 
@@ -148,20 +136,22 @@ When will the cursor change to a pointer with the following code?
 
 When the mouse hovers: ???
 
-* over the text within the `<a>` element.
-* anywhere within the `<main>` element.
-* anywhere within the web page.
-* The cursor doesn’t change in this case.
-
 What is the default style of a text link in HTML?
 
 ???
 
+* `<a href="http://enkipro.com" target="_blank">Link to Enki</a>`
+* `#`
+* over the text within the `<a>` element.
 * It is blue and underlined. 
+* `<link href="http://enkipro.com" target="_blank">Link to Enki</link>`
+* `<a src="http://enkipro.com" target="_blank">Link to Enki</a>`
+* `*`
+* `Leave empty`
+* anywhere within the `<main>` element.
+* The cursor doesn’t change in this case.
 * It is blue and bold.
-* There is no visual change to a text link.
 * The cursor changes to pointer when hovered over it.
-* The cursor doesn't change.
 
 ---
 ## Quiz
