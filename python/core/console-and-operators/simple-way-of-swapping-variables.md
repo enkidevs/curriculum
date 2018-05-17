@@ -10,7 +10,7 @@ levels:
   - beginner
 
 standards:
-  py.native-types-operations.4: 10
+  python.native-types-operations.4: 10
 
 type: normal
 
@@ -69,3 +69,4 @@ What is the output of the following snippet?
 * `4, 5`
 * `5, 4`
 * `error`
+ 

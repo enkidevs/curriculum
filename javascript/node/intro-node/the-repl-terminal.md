@@ -9,7 +9,7 @@ type: normal
 category: must-know
 
 standards:
-  js.node-developer-environment.5: 10
+  javascript.node-developer-environment.5: 10
 
 tags:
   - introduction

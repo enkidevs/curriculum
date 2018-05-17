@@ -13,10 +13,10 @@ link: https://www.codewars.com/kata/default-plus-rest-plus-spread
 linkType: codewars
 standards:
 
-  js.functions.0: 1000
-  js.functions.1: 1000
-  js.functions.2: 1000
-  js.functions.3: 1000
+  javascript.functions.0: 1000
+  javascript.functions.1: 1000
+  javascript.functions.2: 1000
+  javascript.functions.3: 1000
 
 links:
 

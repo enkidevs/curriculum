@@ -39,3 +39,4 @@ In SQLFiddle, write a SQL query that uses a join to answer the following questio
 What are the names of the two moves with `accuracy` 100?
 
 In the answer field, enter the names in alphabetical order.
+ 

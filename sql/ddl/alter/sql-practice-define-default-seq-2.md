@@ -42,3 +42,4 @@ By default, the `id` field of every entry in this table will increment by 1. Ins
 *Create an `ALTER TABLE` statement to satisfy this condition*.
 
 Note: When submitting, include the output of the provided query as your answer.
+ 

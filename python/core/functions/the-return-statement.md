@@ -13,7 +13,7 @@ inAlgoPool: false
 
 
 standards:
-  py.control-structures.4: 10
+  python.control-structures.4: 10
 
 
 ---
@@ -77,3 +77,4 @@ Python’s return statement exits a function and passes back an ??? to the funct
 * sum
 * instance
 * function instance
+ 

@@ -15,10 +15,10 @@ link: https://www.codewars.com/kata/categorize-new-member
 linkType: codewars
 standards:
 
-  py.native-types-operations.1: 1000
-  py.native-types-operations.5: 2000
-  py.native-types-operations.9: 2000
-  py.data-structures-uses.0: 1000
+  python.native-types-operations.1: 1000
+  python.native-types-operations.5: 2000
+  python.native-types-operations.9: 2000
+  python.data-structures-uses.0: 1000
 
 links:
 
@@ -33,3 +33,4 @@ links:
 ## Exercise
 
 Practice using python's `enumerator` and `set` data types.
+ 

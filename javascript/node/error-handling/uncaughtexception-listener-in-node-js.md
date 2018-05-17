@@ -11,7 +11,7 @@ type: normal
 category: must-know
 
 standards:
-  js.identify-common-design-patterns.5: 10
+  javascript.identify-common-design-patterns.5: 10
 
 tags:
   - introduction

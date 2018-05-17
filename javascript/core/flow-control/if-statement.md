@@ -12,8 +12,8 @@ category: must-know
 inAlgoPool: false
 
 standards:
-  js.control-flow.0: 10
-  js.control-flow.1: 10
+  javascript.control-flow.0: 10
+  javascript.control-flow.1: 10
 
 tags:
 

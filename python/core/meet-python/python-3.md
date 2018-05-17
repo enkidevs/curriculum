@@ -12,8 +12,8 @@ category: must-know
 inAlgoPool: false
 
 standards:
-  py.developer-environment.0: 10
-  py.developer-environment.1: 10
+  python.developer-environment.0: 10
+  python.developer-environment.1: 10
 
 ---
 
@@ -58,3 +58,4 @@ The Python-specific extension is ???.
 * `.pyt`
 * `.pip`
 * `.python`
+ 

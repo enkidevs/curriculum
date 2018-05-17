@@ -9,11 +9,11 @@ type: normal
 category: hack
 
 standards:
-  js.data-types-structures.2: 10
-  js.data-types-structures.3: 10
-  js.data-types-structures.6: 10
-  js.standard-library.1: 10
-  js.standard-library.4: 10
+  javascript.data-types-structures.2: 10
+  javascript.data-types-structures.3: 10
+  javascript.data-types-structures.6: 10
+  javascript.standard-library.1: 10
+  javascript.standard-library.4: 10
 
 tags:
   - introduction
