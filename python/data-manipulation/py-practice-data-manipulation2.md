@@ -7,10 +7,18 @@ levels:
 
   - basic
 
+tags:
+
+  - introduction
+
+  - workout
+
 type: exercise
 
-link: http://www.codewars.com/kata/pick-peaks
 linkType: codewars
+
+link: http://www.codewars.com/kata/pick-peaks
+
 standards:
 
   py.store-manipulate-data.0: 3000
@@ -21,8 +29,8 @@ standards:
 
 links:
 
-  - '[link to deeper dive blog post](https://www.analyticsvidhya.com/blog/2016/01/12-pandas-techniques-python-data-manipulation/){website}'
-  - '[link to a video](https://www.youtube.com/watch?v=Iqjy9UqKKuo){video}'
+  - '[Deeper dive blog post on data manipulation](https://www.analyticsvidhya.com/blog/2016/01/12-pandas-techniques-python-data-manipulation/){website}'
+  - '[A video tutorial on data manipulation](https://www.youtube.com/watch?v=Iqjy9UqKKuo){video}'
 ---
 
 # Practice data manipulation
@@ -31,3 +39,11 @@ links:
 ## Exercise
 
 Train your skill on `data manipulation` in python.
+
+Click *Launch Exercise* to open Codewars.
+
+On the website you will find a description of the exercise. Read this description carefully. 
+
+When you are ready to give it a try press the blue *Train* button and write your solution. 
+
+To test your solution press the blue *Attempt* button.
