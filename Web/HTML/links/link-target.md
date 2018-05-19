@@ -36,8 +36,8 @@ Example of opening the link in a different tab:
 ```
 
 **Notes:**
-  **- If no target is set, the linked page or document is opened in the current tab.**
-  **- `_self` is only needed to open within the same tab/window when overriding conflicting code.**
+  - **If no target is set, the linked page or document is opened in the current tab.**
+  - **`_self` is only needed to open within the same tab/window when overriding conflicting code.**
 
 ---
 ## Practice
