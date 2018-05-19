@@ -1,5 +1,5 @@
-# Target Link
-author: matthew-leach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -13,9 +13,31 @@ tags:
   - introduction
 
 ---
+# Target Link
+---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+When opening links in HTML, where the link opens is determined with the `target="value"` attribute.
+
+Possible values for the `target` attribute:
+ - _self     = Opens the link in the same tab or window
+ - _top      = Opens the link in the full body of the window
+ - _parent   = Opens the link in the parent frame
+ - _blank    = Opens the link in a new tab or window
+ - framename = Opens the link in a named frame
+
+Example of opening the link in a different tab:
+```
+<a 
+  href="https://www.enki.com/" 
+  target="_blank"> 
+  5 minute workouts 
+</a> 
+```
+
+**Notes:**
+  **- If no target is set, the linked page or document is opened in the current tab.**
+  **- `_self` is only needed to open within the same tab/window when overriding conflicting code.**
 
 ---
 ## Practice
@@ -24,27 +46,21 @@ Create a link that will open the linked page within a new tab or browser window.
 
 `<??? ???="http://enkipro.com" ???="???">`
 
+Which of these is not a valid target value?
+
+`<a href="http://enkipro.com" target="___">`
+
+???
+
 * a
 * href
 * target
 * _blank
-* link
+* `_new`
 * src
-* _new
-* _tab
-
-Which of these are valid target values?
-
-`<a href="http://enkipro.com" target="___">`
-
-+ `_blank`
-+ `_parent`
-+ `_self`
-+ `_top`
-- `_new`
-- `_son`
-- `_other`
-- `_empty`
+* `_blank`
+* `_parent`
+* `_self`
 
 ---
 ## Revision
@@ -63,6 +79,8 @@ Which line of code opens the linked page in the existing browser window?
 
 Why is it rare to use this code: 
 `<a href="http://enkipro.com" target="_self">`
+
+???
    
 * _self is only needed to open within the same tab/window when overriding conflicting code. 
 * It isn't common to allow users to download your entire webpage.
