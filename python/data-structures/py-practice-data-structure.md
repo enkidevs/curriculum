@@ -7,10 +7,16 @@ levels:
 
   - basic
 
+tags:
+
+  - workout
+
 type: exercise
 
-link: http://www.codewars.com/kata/bad-apples/python
 linkType: codewars
+
+link: http://www.codewars.com/kata/bad-apples/python
+
 standards:
 
   py.data-structures-uses.0: 2000
@@ -20,7 +26,7 @@ standards:
 
 links:
 
-  - '[link to official documentation](https://docs.python.org/3/tutorial/datastructures.html){website}'
+  - '[Official documentation on data structures](https://docs.python.org/3/tutorial/datastructures.html){website}'
 ---
 
 # Practice data structures
@@ -29,3 +35,11 @@ links:
 ## Exercise
 
 Practice using `data structures` in python.
+
+Click *Launch Exercise* to open Codewars.
+
+On the website you will find a description of the exercise. Read this description carefully. 
+
+When you are ready to give it a try press the blue *Train* button and write your solution. 
+
+To test your solution press the blue *Attempt* button.
