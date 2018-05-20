@@ -13,7 +13,7 @@ inAlgoPool: false
 
 
 standards:
-  py.native-types-operations.0: 10
+  python.native-types-operations.0: 10
 
 links:
 
@@ -79,3 +79,4 @@ numsX is numsY
 * False
 * True
 * Error
+ 

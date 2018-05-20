@@ -17,9 +17,9 @@ link: http://www.codewars.com/kata/571edd157e8954bab500032d
 linkType: codewars
 standards:
 
-  js.data-types-structures.0: 1000
-  js.data-types-structures.1: 6000
-  js.write-expressions.0: 6000
+  javascript.data-types-structures.0: 1000
+  javascript.data-types-structures.1: 6000
+  javascript.write-expressions.0: 6000
 
 links:
 

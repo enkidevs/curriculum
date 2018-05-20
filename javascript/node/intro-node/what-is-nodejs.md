@@ -9,13 +9,13 @@ type: normal
 category: must-know
 
 standards:
-  js.node-developer-environment.0: 10
+  javascript.node-developer-environment.0: 10
 
 tags:
   - introduction
 
 links:
-  - '[nodejs.org](https://nodejs.org/en/){website}'
+  - '[nodejavascript.org](https://nodejs.org/en/){website}'
 
 ---
 # What is NodeJS?

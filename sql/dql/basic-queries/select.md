@@ -118,3 +118,4 @@ Choose the query that will get all the entries from this table:
 * DISPLAY [all] FROM ability;
 * SELECT [all] FROM ability;
 * FIND * FROM ability;
+ 

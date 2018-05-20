@@ -126,3 +126,4 @@ How can you connect to a database with Python?
 
 * By using dedicated libraries
 * Python provides an inbuilt db functionality
+ 

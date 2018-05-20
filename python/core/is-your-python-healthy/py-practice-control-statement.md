@@ -13,10 +13,10 @@ link: https://www.codewars.com/kata/numbers-in-strings
 linkType: codewars
 standards:
 
-  py.identify-python-syntax.0: 1000
-  py.identify-python-syntax.1: 2000
-  py.store-manipulate-data.0: 2000
-  py.data-structures-uses.5: 2000
+  python.identify-python-syntax.0: 1000
+  python.identify-python-syntax.1: 2000
+  python.store-manipulate-data.0: 2000
+  python.data-structures-uses.5: 2000
 
 links:
 
@@ -30,3 +30,4 @@ links:
 ## Exercise
 
 Identify python `statements`.
+ 

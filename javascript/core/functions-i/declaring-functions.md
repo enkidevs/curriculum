@@ -13,9 +13,9 @@ inAlgoPool: false
 
 standards:
 
-  js.functions.0: 10
+  javascript.functions.0: 10
 
-  js.functions.1: 10
+  javascript.functions.1: 10
 
 tags:
 

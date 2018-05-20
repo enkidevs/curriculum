@@ -40,3 +40,4 @@ Write a series of SQL queries that do the following:
 For each effect in the `item_fling_effect` table, count the number of `item`s that have that effect.
 
 Then, submit the `name` of the fling effect that has exactly 2 items.
+ 

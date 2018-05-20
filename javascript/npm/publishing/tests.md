@@ -14,9 +14,9 @@ category: how to
 parent: prepare-your-module-for-publishing
 
 standards:
-  js.npm-publish.7: 10
-  js.npm-publish.8: 10
-  js.npm-tasks-and-modules-manager.1: 10
+  javascript.npm-publish.7: 10
+  javascript.npm-publish.8: 10
+  javascript.npm-tasks-and-modules-manager.1: 10
 
 tags:
   - introduction

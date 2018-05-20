@@ -10,8 +10,8 @@ type: normal
 category: feature
 
 standards:
-  js.async.0: 10
-  js.identify-common-design-patterns.3: 10
+  javascript.async.0: 10
+  javascript.identify-common-design-patterns.3: 10
 
 tags:
   - introduction

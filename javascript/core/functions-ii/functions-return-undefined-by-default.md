@@ -11,7 +11,7 @@ type: normal
 category: feature
 
 standards:
-  js.functions.1: 10
+  javascript.functions.1: 10
 
 tags:
   - introduction

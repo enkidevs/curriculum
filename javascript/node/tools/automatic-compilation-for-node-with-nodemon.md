@@ -10,8 +10,8 @@ type: normal
 category: hack
 
 standards:
-  js.node-developer-environment.5: 20
-  js.use-modules.2: 20
+  javascript.node-developer-environment.5: 20
+  javascript.use-modules.2: 20
 
 links:
   - '[github.com](https://github.com/remy/nodemon){website}'

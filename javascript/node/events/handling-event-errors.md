@@ -12,8 +12,8 @@ type: normal
 category: must-know
 
 standards:
-  js.events-asynchronous-operations.1: 20
-  js.identify-common-design-patterns.5: 20
+  javascript.events-asynchronous-operations.1: 20
+  javascript.identify-common-design-patterns.5: 20
 
 tags:
   - introduction

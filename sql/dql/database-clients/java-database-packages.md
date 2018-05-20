@@ -152,3 +152,4 @@ What is a database driver?
 
 * It is a library in a certain language and it is specific to a certain DBMS
 * It is Java specific library which allows the user to connect to the MySQL database
+ 

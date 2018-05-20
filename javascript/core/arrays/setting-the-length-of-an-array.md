@@ -14,8 +14,8 @@ type: normal
 category: hack
 
 standards:
-  js.data-types-structures.3: 10
-  js.data-types-structures.4: 10
+  javascript.data-types-structures.3: 10
+  javascript.data-types-structures.4: 10
 
 tags:
 

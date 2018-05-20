@@ -13,9 +13,9 @@ link: https://www.codewars.com/kata/find-out-whether-the-shape-is-a-cube
 linkType: codewars
 standards:
 
-  py.modules.0: 1000
-  py.modules.1: 2000
-  py.modules.2: 1000
+  python.modules.0: 1000
+  python.modules.1: 2000
+  python.modules.2: 1000
 
 links:
 
@@ -30,3 +30,4 @@ links:
 ## Exercise
 
 Practice using modules in python.
+ 

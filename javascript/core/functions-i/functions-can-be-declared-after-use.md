@@ -15,7 +15,7 @@ category: must-know
 
 standards:
 
-  js.functions.8: 10
+  javascript.functions.8: 10
 
 tags:
 

@@ -11,7 +11,7 @@ category: how to
 
 
 standards:
-  py.native-types-operations.4: 10
+  python.native-types-operations.4: 10
 
 links:
 
@@ -85,3 +85,4 @@ stack.pop()
 * `10`
 * There’s no output...
 
+ 

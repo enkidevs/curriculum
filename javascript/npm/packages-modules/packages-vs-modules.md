@@ -14,7 +14,7 @@ category: must-know
 parent: semantic-versioning
 
 standards:
-  js.npm-publish.3: 10
+  javascript.npm-publish.3: 10
 
 tags:
   - introduction

@@ -12,7 +12,7 @@ category: must-know
 inAlgoPool: false
 
 standards:
-  py.control-structures.0: 10
+  python.control-structures.0: 10
 
 ---
 
@@ -131,3 +131,4 @@ else:
 * a a
 * b a
 * a c
+ 
