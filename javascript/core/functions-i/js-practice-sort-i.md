@@ -13,9 +13,9 @@ link: http://www.codewars.com/kata/descending-order
 linkType: codewars
 standards:
 
-  js.functions.0: 1000
-  js.functions.1: 1000
-  js.functions.3: 1000
+  javascript.functions.0: 1000
+  javascript.functions.1: 1000
+  javascript.functions.3: 1000
 
 links:
 

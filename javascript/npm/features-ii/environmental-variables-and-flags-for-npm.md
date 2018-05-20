@@ -13,8 +13,8 @@ category: best practice
 parent: check-data-about-a-package
 
 standards:
-  js.npm-tasks-and-modules-manager.1: 10
-  js.npm-tasks-and-modules-manager.3: 10
+  javascript.npm-tasks-and-modules-manager.1: 10
+  javascript.npm-tasks-and-modules-manager.3: 10
 
 tags:
   - workout

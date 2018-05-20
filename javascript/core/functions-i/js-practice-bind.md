@@ -13,7 +13,7 @@ link: https://www.codewars.com/kata/power-bind
 linkType: codewars
 standards:
 
-  js.execution-context.0: 1000
+  javascript.execution-context.0: 1000
 
 links:
 

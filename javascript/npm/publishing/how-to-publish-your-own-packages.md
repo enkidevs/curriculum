@@ -14,7 +14,7 @@ category: how to
 parent: tests
 
 standards:
-  js.npm-publish.0: 10
+  javascript.npm-publish.0: 10
 
 tags:
   - introduction

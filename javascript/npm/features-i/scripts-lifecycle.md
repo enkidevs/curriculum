@@ -14,7 +14,7 @@ category: must-know
 parent: npm-variables
 
 standards:
-  js.npm-tasks-and-modules-manager.3: 10
+  javascript.npm-tasks-and-modules-manager.3: 10
 
 tags:
   - introduction

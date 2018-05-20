@@ -14,8 +14,8 @@ tags:
   - introduction
 
 standards:
-  js.npm-publish.0: 10
-  js.identify-common-design-patterns.6: 10
+  javascript.npm-publish.0: 10
+  javascript.identify-common-design-patterns.6: 10
 
 links:
   - '[Use NPM to distribute your code](https://github.com/i0natan/nodebestpractices/blob/master/sections/projectstructre/wraputilities.md){website}'

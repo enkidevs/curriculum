@@ -10,7 +10,7 @@ type: normal
 category: must-know
 
 standards:
-  js.express-server.4: 10
+  javascript.express-server.4: 10
 
 links:
   - '[medium.com](https://medium.com/@adamzerner/how-bodyparser-works-247897a93b90#.34biejvm1){website}'

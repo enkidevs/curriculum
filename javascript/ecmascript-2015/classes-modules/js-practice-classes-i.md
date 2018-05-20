@@ -13,8 +13,8 @@ link: https://www.codewars.com/kata/fun-with-es6-classes-number-1-people-people-
 linkType: codewars
 standards:
 
-  js.prototype-class.0: 1000
-  js.prototype-class.1: 1000
+  javascript.prototype-class.0: 1000
+  javascript.prototype-class.1: 1000
 
 links:
 

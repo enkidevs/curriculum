@@ -11,15 +11,12 @@ category: must-know
 
 inAlgoPool: false
 
-
-
+standards:
+  python.native-types-operations.2: 10
 
 ---
 
 # More Complex Arithmetic Operators
-
-standards:
-  py.native-types-operations.2: 10
 
 ---
 ## Content
@@ -72,3 +69,4 @@ What does the following code snippet return:
 * `4`
 * `2.5`
 * `4.66`
+ 

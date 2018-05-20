@@ -13,8 +13,8 @@ category: must-know
 
 
 standards:
-  js.use-modules.0: 10
-  js.use-modules.1: 10
+  javascript.use-modules.0: 10
+  javascript.use-modules.1: 10
 
 tags:
   - introduction

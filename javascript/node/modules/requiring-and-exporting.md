@@ -12,8 +12,8 @@ type: normal
 category: must-know
 
 standards:
-  js.use-modules.0: 20
-  js.use-modules.1: 20
+  javascript.use-modules.0: 20
+  javascript.use-modules.1: 20
 
 tags:
   - introduction
