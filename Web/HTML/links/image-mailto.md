@@ -75,6 +75,8 @@ Create a text link that opens the user's default email program.
 
 What code is used to create a link that when clicked opens the user’s default email program with an auto-loaded email address?
 
+???
+
 * `<a href="mailto:me@enkipro.com">Email Me</a>`
 * `<a href="mail:me@enkipro.com">Email Me</a>`
 * `<a href="address:me@enkipro.com">Email Me</a>`
