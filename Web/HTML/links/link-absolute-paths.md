@@ -13,7 +13,7 @@ tags:
   - introduction
 
 links:
-  - '[](){website}'
+  - '[Article for absolute vs relative link paths](https://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/){website}'
   
 ---
 # Absolute Paths
