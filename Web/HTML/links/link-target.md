@@ -77,6 +77,8 @@ Which line of code opens the linked page in the existing browser window?
 ---
 ## Quiz
 
+### How much do you know about the HTML `target=""` attribute?
+
 Why is it rare to use this code: 
 `<a href="http://enkipro.com" target="_self">`
 
