@@ -9,18 +9,18 @@ type: normal
 
 category: must-know
 
-stub: true
-
-tags:
+aspects:
+  - introduction
   - obscura
+
 ---
 # .html vs .htm
 ---
 ## Content
 
-`.html` and `.htm` are both file extensions for HTML. 
+`.html` and `.htm` are both file extensions for HTML.
 
-The only difference is that `.htm` was used in the early days when operating systems like DOS did not support file extensions past 3 characters. 
+The only difference is that `.htm` was used in the early days when operating systems like DOS did not support file extensions past 3 characters.
 
 This meant that early DOS users could only use the `.htm` extension.
 

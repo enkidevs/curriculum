@@ -9,10 +9,17 @@ type: normal
 
 category: must-know
 
-stub: true
-
-tags:
+aspects:
+  - introduction
+  - workout
+  - obscura
   - deep
+
+standards:
+  web.syntax-html.2: 10
+  web.syntax-html.3: 10
+
+
 ---
 # Conditional Comments (ie9)
 ---
@@ -42,12 +49,12 @@ HTML comment syntax:
 <!-- Comment goes here -->
 ```
 
-This means that only browsers which support conditional comments won't ignore them as simple HTML comments and execute what's inside. 
+This means that only browsers which support conditional comments won't ignore them as simple HTML comments and execute what's inside.
 
 Downlevel-revealed will be revealed for IE versions 5-9 plus every non IE browsers. However, for them do be executable HTMl code, they have to be written as:
 
 ```
-<!--[if expression]><!--> 
+<!--[if expression]><!-->
 HTML goes here
 <!--<![endif]-->
 ```
@@ -75,4 +82,3 @@ Conditional comments only work in Internet Explorer, versions prior to IE10. Whi
  * versions 1 through 9.
  * versions 7 through 9.
  * versions 8 and 9.
- 

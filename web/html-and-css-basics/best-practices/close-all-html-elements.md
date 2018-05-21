@@ -17,6 +17,7 @@ standards:
   web.syntax-html.2: 10
   web.syntax-html.4: 10
   web.syntax-html.5: 10
+  web.syntax-html.6: 10
 
 ---
 # Close all HTML elements

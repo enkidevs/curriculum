@@ -9,11 +9,13 @@ type: normal
 
 category: must-know
 
-stub: true
-
-tags:
-  - obscura
+aspects:
   - introduction
+  - obscura
+
+standards:
+  web.syntax-html.6: 10
+
 ---
 # Lowercase element names
 ---

@@ -9,11 +9,13 @@ type: normal
 
 category: must-know
 
-stub: true
-
-tags:
-  - obscura
+aspects:
   - introduction
+  - obscura
+
+standards:
+  web.syntax-html.6: 10
+  
 ---
 # Quote attribute values
 ---
@@ -58,7 +60,7 @@ Click Me
 Click Me
 ```
 
-In the example above, both the unquoted and quoted attributes are read properly. 
+In the example above, both the unquoted and quoted attributes are read properly.
 
 However, if in the first attribute which contains a space you decide to omit the quotations, you might run into a problem.
 This is because the browsers can read "md" and "btn" seperatly, like so:
@@ -114,5 +116,4 @@ Which statement about quoting attributes is correct?
  * Quoting attribute values is optional
  * Quoting attribute values is mandatory
  * Attribute values can only work with single quotation
- * Attribute values are harder to read with quotation 
- 
+ * Attribute values are harder to read with quotation
