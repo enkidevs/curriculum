@@ -72,26 +72,24 @@ What HTML element is used in place of "???" to visually highlight the difference
 
 ???
 
- * code
- * kbd
- * samp
- * pre
- * var
+* code
+* kbd
+* samp
+* pre
+* var
 
 ---
 ## Quiz
 
 ### How much do you know about the `<code>` element?
 
-What will the effect of wrapping this text in the _code_ element?
+What will be the effect of wrapping this text in the _code_ element?
 ```
 <code>
   var x = 5;
   y = x == 10
 </code>
 ```
-
-???
 
 * All text within `<code>` will display in monospace font.
 * Only the text "var x = 5;" will be displayed within the page because the other line has no semicolon.

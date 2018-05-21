@@ -169,9 +169,7 @@ What does the tag `<kbd>` do here?
 
 `<p>`Save the document by pressing the `<kbd>`Ctrl`</kbd>` + `<kbd>`S`</kbd>` keyboard shortcut.`</p>`
 
-???
-
 * Produces inline element representing user input.
 * Produces block element representing user input.
-* Produces preformatted text representing user input.
+* Produces pre-formatted text representing user input.
 * Produces sample output representing user input.

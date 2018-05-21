@@ -9,11 +9,14 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.embed-media.4: 10
 
-tags:
-  - obscura
+aspects:
   - introduction
+  - workout
+  - deep
+
 ---
 # Alt with images
 ---
@@ -28,9 +31,9 @@ Example:
 <html>
 <body>
 
-<img src="brokenglass.gif" 
+<img src="brokenglass.gif"
   alt="Broken glass">
-  
+
 </body>
 </html>
 
@@ -72,4 +75,3 @@ Which statement about alt attributes is false?
  * The alt attribute exists to specify an alternate text for an image that cannot be displayed.
  * It is used to provide information to the user if they cannot view the image.
  * Empty alt attributes are appropriate when the image is purely decorative.
- 

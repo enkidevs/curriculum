@@ -10,9 +10,6 @@ type: normal
 category: must-know
 
 standards:
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-  web.semantic-html.3: 10
   web.markup-text.2: 10
   web.layout-html.4: 10
 
@@ -25,7 +22,7 @@ aspects:
 ---
 ## Content
 
-In HTML the `<pre>` element is used to represent preformatted text as it is in the HTML file.
+In HTML the `<pre>` element is used to represent pre-formatted text as it is in the HTML file.
 
 **Note:**
   - **pre stands for Preformatted Text Element.**
@@ -55,21 +52,15 @@ The default font style for the `<samp>` element for most browsers is the monospa
 ---
 ## Practice
 
-When using the `<pre>` element, which statements are true?
+Which is true about the `<pre>` element?
 
 ???
-???
-???
-???
 
-+ represents preformatted text
-+ typically displayed in the browser's default monospace font
-+ text displayed as typed within the element
-+ produces a block element
-- produces an inline element
-- represents user input
-- represents sample output
-- whitespace is removed
+* Shows the content exactly as it is formatted, including whitespace and line breaks
+* produces an inline element
+* represents user input
+* represents sample output
+* whitespace is removed
 
 ---
 ## Revision
@@ -89,7 +80,7 @@ What HTML element is used to display the text exactly as it is laid out within t
 ---
 ## Quiz
 
-### How much do you know about HTML elements?
+### How much do you know about text formatting with HTML elements?
 
 Which HTML element is best used for "???" to properly display this code within a webpage:  
 
@@ -100,10 +91,6 @@ Which HTML element is best used for "???" to properly display this code within a
 `<???>`
 
 * pre
-* /pre
 * code
-* /code
 * perf
-* /perf
 * samp
-* /samp
