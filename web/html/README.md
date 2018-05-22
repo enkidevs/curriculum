@@ -6,27 +6,22 @@ core: true
 
 sections:
   '0':
+    - box-model
+    - css-basics
     - html-basics
-    - html-structure
-    - core-html-elements
-    - web-page-structure
-    - images
+    - intro-css
+    - positioning
   '1':
-    - media
-    - forms
-    - forms-ii
-    - meta-elements
-    - sectioning-elements
+    - dimensioning-and-box-sizing
+    - features
+    - practical-css
+    - pseudo-classes-i
+    - pseudo-classes-ii
+    - pseudo-elements
+    - typography
   '2':
-    - forms-iii
-    - forms-iv
-    - forms-v
-    - semantic-sections
-    - citation-elements
-    - computer-code
-    - best-practices
-    - html-entities
-    - html-versions
+    - animations
+    - flexbox
 
 standards:
   syntax-html:
@@ -95,7 +90,6 @@ standards:
       1: Choose the correct HTML tag to communicate about the content of text
       2: Choose the correct HTML tag to communicate about the content of embedded media
       3: Structure an HTML document using the most relevant semantic HTML tags
-
 
 next:
   - web:styling

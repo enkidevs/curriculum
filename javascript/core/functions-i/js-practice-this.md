@@ -13,9 +13,9 @@ link: https://www.codewars.com/kata/classy-classes
 linkType: codewars
 standards:
 
-  js.execution-context.2: 1000
-  js.execution-context.3: 1000
-  js.execution-context.4: 1000
+  javascript.execution-context.2: 1000
+  javascript.execution-context.3: 1000
+  javascript.execution-context.4: 1000
 
 links:
 

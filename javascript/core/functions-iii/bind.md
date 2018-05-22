@@ -15,9 +15,9 @@ category: must-know
 
 standards:
 
-  js.functions.5: 10
+  javascript.functions.5: 10
 
-  js.execution-context.0: 10
+  javascript.execution-context.0: 10
 
 tags:
 

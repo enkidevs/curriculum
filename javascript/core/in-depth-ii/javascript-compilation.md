@@ -15,13 +15,13 @@ category: feature
 
 standards:
 
-  js.functions.1: 10
+  javascript.functions.1: 10
 
-  js.functions.5: 10
+  javascript.functions.5: 10
 
-  js.functions.6: 10
+  javascript.functions.6: 10
 
-  js.execution-context.4: 10
+  javascript.execution-context.4: 10
 
 tags:
 

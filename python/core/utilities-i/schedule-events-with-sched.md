@@ -12,8 +12,8 @@ type: normal
 category: how to
 
 standards:
-  py.control-structures.5: 10
-  py.modules.0: 10
+  python.control-structures.5: 10
+  python.modules.0: 10
 
 links:
 
@@ -56,3 +56,4 @@ Then we run our scheduler:
 s.run()
 ```
 `first` is printed after 2 seconds while `second` is printed after 3 seconds.
+ 

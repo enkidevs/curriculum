@@ -44,3 +44,4 @@ Add an index to the `facebook_id` column.
 Run the query before you create an index, and click "View Execution Plan", then run the query after you create the index, and *click "View Execution Plan"*.
 
 Check the `possible_keys` column - what is the value that appears there?
+ 

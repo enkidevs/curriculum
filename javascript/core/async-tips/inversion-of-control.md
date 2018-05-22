@@ -9,7 +9,7 @@ type: normal
 category: must-know
 
 standards:
-  js.async.2: 10
+  javascript.async.2: 10
 
 tags:
   - workout

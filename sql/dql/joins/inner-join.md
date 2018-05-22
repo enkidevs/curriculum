@@ -155,3 +155,4 @@ Select the query that will get the name, height and width of all pokemon that ar
 ## Footnotes
 [1: Ability]
 A Pokémon's ability is an aura that is passively active and provides benefits to the Pokemon and, sometimes, its party.
+ 

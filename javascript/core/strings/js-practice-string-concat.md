@@ -13,8 +13,8 @@ link: http://www.codewars.com/kata/57280481e8118511f7000ffa
 linkType: codewars
 standards:
 
-  js.standard-library.0: 1000
-  js.write-expressions.0: 1000
+  javascript.standard-library.0: 1000
+  javascript.write-expressions.0: 1000
 
 links:
 

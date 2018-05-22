@@ -14,7 +14,7 @@ type: fillTheGap
 category: tip
 
 standards:
-  js.functions.5: 1000
+  javascript.functions.5: 1000
 
 ---
 

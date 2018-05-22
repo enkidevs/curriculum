@@ -150,3 +150,4 @@ This clause enables users to `SELECT` the first given number of entries
 We need to use nested queries to be able to `SELECT SUM()` only on the first 5 entries.
 In this particular case we say: Compute the `SUM` on the experience column, taking into acount only the 5 entries of the table. `AS` must be specifiend when using nested queries.
 You can find out more about nested quries here: https://www.tutorialspoint.com/sql/sql-sub-queries.htm
+ 

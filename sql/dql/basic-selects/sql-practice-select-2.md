@@ -36,3 +36,4 @@ Change the query (in the right-hand window) to return the `name`, `height` and `
 In the answer field, enter the name, height, and weight of the Pokemon listed in the top row.
 
 Example: `fakemon, 1000, 29`
+ 

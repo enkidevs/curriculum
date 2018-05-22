@@ -13,8 +13,8 @@ category: tip
 
 
 standards:
-  py.store-manipulate-data.5: 10
-  py.store-manipulate-data.6: 10
+  python.store-manipulate-data.5: 10
+  python.store-manipulate-data.6: 10
 
 links:
 
@@ -81,3 +81,4 @@ What’s the difference between using `ref` and `proxy` from `weakref`?
 * Ref must be dereferenced in order to access the object while Proxies don't have to be.
 * Ref can be used without calling the proxy first to access the object.
 
+ 

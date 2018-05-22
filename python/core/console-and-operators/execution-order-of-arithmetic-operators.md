@@ -19,7 +19,7 @@ inAlgoPool: false
 # Execution Order of Arithmetic Operators
 
 standards:
-  py.native-types-operations.2: 10
+  python.native-types-operations.2: 10
 
 ---
 ## Content
@@ -69,3 +69,4 @@ What’s the output of the following command:
 * `6.0`
 * `5`
 * `7.0`
+ 

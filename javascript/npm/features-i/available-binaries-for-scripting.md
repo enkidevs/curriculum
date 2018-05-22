@@ -14,8 +14,8 @@ category: how to
 parent: npm-scripting
 
 standards:
-  js.npm-publish.0: 10
-  js.npm-tasks-and-modules-manager.0: 10
+  javascript.npm-publish.0: 10
+  javascript.npm-tasks-and-modules-manager.0: 10
 
 tags:
   - introduction

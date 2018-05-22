@@ -21,8 +21,8 @@ links:
 
 
 standards:
-  py.data-structures-uses.5: 10
-  py.native-types-operations.4: 10
+  python.data-structures-uses.5: 10
+  python.native-types-operations.4: 10
 
 
 ---
@@ -94,3 +94,4 @@ Which Python module provides text matching patterns using regular expressions?
 * `regex`
 * `matchpat`
 * `RegEx`
+ 

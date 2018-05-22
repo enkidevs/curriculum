@@ -12,7 +12,7 @@ type: normal
 category: best practice
 
 standards:
-  py.native-types-operations.4: 10
+  python.native-types-operations.4: 10
 
 links:
 
@@ -84,3 +84,4 @@ What will the output of `print(bisect.bisect(a, 2))` be? ???
 * inserts a new element into an ordered list
 * returns the position where to insert a new element in a sorted list
 * sorts and returns an unsorted list
+ 

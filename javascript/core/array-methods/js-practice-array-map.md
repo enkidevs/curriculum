@@ -13,9 +13,9 @@ link: http://www.codewars.com/kata/572fdeb4380bb703fc00002c
 linkType: codewars
 standards:
 
-  js.standard-library.4: 1000
-  js.write-expressions.0: 1000
-  js.data-types-structures.6: 1000
+  javascript.standard-library.4: 1000
+  javascript.write-expressions.0: 1000
+  javascript.data-types-structures.6: 1000
 
 links:
 
