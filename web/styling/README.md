@@ -34,8 +34,4 @@ sections:
     - css-animation
 
 prerequisites:
-<<<<<<< HEAD
-  - web:html-and-css-basics
-=======
   - web:html
->>>>>>> master
