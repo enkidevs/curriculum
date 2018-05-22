@@ -21,7 +21,7 @@ links:
 ---
 ## Content
 
-The HTML `<ul>` element is used to represent an unordered list of items. This means that the items in the list have no special order and their order is meaningless. This list is displayed as a block element usually rendered as a bulleted list and the items in the `<ul>` elements list are represented with the `<li>` element. Also, by default, each item in the list is indented with a 40px padding to the left.
+The HTML `<ul>`, or **The Ordered List element** is used to represent an unordered list of items. This means that the items in the list have no special order and their order is meaningless. This list is displayed as a block element usually rendered as a bulleted list and the items in the `<ul>` elements list are represented with the `<li>` element. Also, by default, each item in the list is indented with a 40px padding to the left.
 
 The `<ul>` element has a `type` and `compact` attribute. Nevertheless, these attributes are deprecated and for achieving the same effect you should use CSS styling.
 
