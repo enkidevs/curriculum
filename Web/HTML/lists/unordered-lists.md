@@ -25,6 +25,12 @@ The HTML `<ul>` element is used to represent an unordered list of items. This me
 
 The `<ul>` element has a `type` and `compact` attribute. Nevertheless, these attributes are deprecated and for achieving the same effect you should use CSS styling.
 
+CSS styling for list elements: 
+  - style="list-style-type:disc"
+  - style="list-style-type:circle"
+  - style="list-style-type:square"
+  - style="list-style-type:none"
+
 Example of a simple list:
 ```
 <ul>
