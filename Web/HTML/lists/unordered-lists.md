@@ -15,6 +15,7 @@ tags:
 links:
   - '[MDN docs for unordered lists](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul){website}'
   - '[Example on codepen.io](https://codepen.io/stefan-stojanovic/pen/GdeaLg?editors=1000#){website}'
+  - '[CSS list style type Property](https://www.w3schools.com/cssref/pr_list-style-type.asp){website}'
   
 ---
 # Unordered Lists
@@ -25,7 +26,7 @@ The HTML `<ul>`, or **The Ordered List element** is used to represent an unorder
 
 The `<ul>` element has a `type` and `compact` attribute. Nevertheless, these attributes are deprecated and for achieving the same effect you should use CSS styling.
 
-CSS styling for list elements: 
+CSS styling for the `<ul>` list element: 
   - style="list-style-type:disc"
   - style="list-style-type:circle"
   - style="list-style-type:square"
@@ -107,6 +108,7 @@ The same result, this time how it looks without notes:
   * Item C
 ```
 
+The `<ul>` element is best used for things like a grocery list or any other list that doesn't require a specific order.
 
 ---
 ## Practice
