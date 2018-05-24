@@ -9,16 +9,19 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.metadata.4: 10
 
-tags:
-  - obscura
+aspects:
+  - introduction
+  - workout
+  - deep
 
 links:
   - '[MDN docs for HTML](https://developer.mozilla.org/en-US/docs/Web/HTML){website}'
   - '[MDN docs for HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5){website}'
   - '[W3 docs for HTML5 vs HTML4](https://www.w3.org/TR/html5-diff/){website}'
-  
+
 ---
 # HTML4, XHTML, & HTML5
 ---
@@ -29,7 +32,7 @@ These are HTML5, HTML4 and XHTML. HTML4 is the oldest HTML version still in use.
 
 HTML has a very loose syntax. A lot of closing tags are optional, for some you don't even need the open tag as well. This was good for new developers, however, it wasn't good in general, because not using proper syntax can cause your HTML to be read differently by different browsers. Because of this people combined HTML with XML(eXtensible Markup Language) and created XHTML.
 
-XHTML, which stands for **eXtensible HyperText Markup Language** is basically HTML defined as XML. It is almost identical to HTML with stricter rules. 
+XHTML, which stands for **eXtensible HyperText Markup Language** is basically HTML defined as XML. It is almost identical to HTML with stricter rules.
 
 Unlike in HTML, XHTML elements have to be properly nested, always be closed, written in lowercase, and can have only one root element.
 Attributes in XHTML need quotation, cannot be used with minimization and require to be written in lowercase.
@@ -42,56 +45,56 @@ HTML5 has 1 Doctype declaration:
 ```
 
 HTML4 and XHTML each have 3 types of Doctype declarations:
- - Frameset 
+ - Frameset
  - Strict
  - Transitional
- 
-HTML4 Frameset: 
+
+HTML4 Frameset:
 ```
-<!DOCTYPE HTML PUBLIC 
- "-//W3C//DTD HTML 4.01 Frameset//EN" 
+<!DOCTYPE HTML PUBLIC
+ "-//W3C//DTD HTML 4.01 Frameset//EN"
  "http://www.w3.org/TR/html4/frameset.dtd">
 ```
 
 HTML4 Strict:
 ```
-<!DOCTYPE HTML PUBLIC 
-  "-//W3C//DTD HTML 4.01//EN" 
+<!DOCTYPE HTML PUBLIC
+  "-//W3C//DTD HTML 4.01//EN"
   "http://www.w3.org/TR/html4/strict.dtd">
 ```
 
 HTML4 Transitional:
 ```
-<!DOCTYPE HTML PUBLIC 
-  "-//W3C//DTD HTML 4.01 Transitional//EN" 
+<!DOCTYPE HTML PUBLIC
+  "-//W3C//DTD HTML 4.01 Transitional//EN"
   "http://www.w3.org/TR/html4/loose.dtd">
 ```
 
-XHTML Frameset: 
+XHTML Frameset:
 ```
-<!DOCTYPE html PUBLIC 
-  "-//W3C//DTD XHTML 1.0 Frameset//EN" 
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Frameset//EN"
   "http://www.w3.org/TR/xhtml1/DTD
   /xhtml1-frameset.dtd">
 ```
 
 XHTML Strict:
 ```
-<!DOCTYPE html PUBLIC 
-  "-//W3C//DTD XHTML 1.0 Strict//EN" 
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Strict//EN"
   "http://www.w3.org/TR/xhtml1/DTD
   /xhtml1-strict.dtd">
 ```
 
 XHTML Transitional:
 ```
-<!DOCTYPE html PUBLIC 
- "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+<!DOCTYPE html PUBLIC
+ "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD
   /xhtml1-transitional.dtd">
 ```
 
-A lot of elements from HTML4 were deprecated and made obsolete in HTML5. Deprecated means that even though these elements can be used to style how HTML is displayed, it's better to use CSS instead. Some of these elements are `<basefont>`, `<center>`, `<font>` and `<strike>`.  The `<basefont>` and `<font>` elements were used to set the default font size and font styles for a web page or document. However, now there are many alternative CSS properties that should be used instead for achieving the same result. These are `font`, `font-family`, `font-size`, `font-style`, etc. The `<center>` element was used to center elements and the `<strike>` element was used to create a strikethrough text. Both of these are edited much easier and more precisely with CSS. 
+A lot of elements from HTML4 were deprecated and made obsolete in HTML5. Deprecated means that even though these elements can be used to style how HTML is displayed, it's better to use CSS instead. Some of these elements are `<basefont>`, `<center>`, `<font>` and `<strike>`.  The `<basefont>` and `<font>` elements were used to set the default font size and font styles for a web page or document. However, now there are many alternative CSS properties that should be used instead for achieving the same result. These are `font`, `font-family`, `font-size`, `font-style`, etc. The `<center>` element was used to center elements and the `<strike>` element was used to create a strikethrough text. Both of these are edited much easier and more precisely with CSS.
 
 Additionally, HTML5 has none of the presentational attributes which were used in HTML4. This is because handling those functionalities is much better with CSS.
 
@@ -112,7 +115,7 @@ Which version of HTML is the oldest still in use today?
 What does XHTML stand for?
 
 ???
- 
+
 What is the main difference between HTML4 and XHTML?
 
 ???

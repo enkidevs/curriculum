@@ -10,10 +10,13 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.markup-text.2: 10
 
-tags:
+aspects:
+  - introduction
   - workout
+  - deep
 
 ---
 

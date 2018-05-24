@@ -2,11 +2,7 @@ name: HTML Versions
 
 type: insights-list
 
-description: TODO
-
-section: 0
-
-parent: html5-input-form-attributes
+description: Distinguish between versions of HTML
 
 insights:
   - html4-xhtml-and-html5
