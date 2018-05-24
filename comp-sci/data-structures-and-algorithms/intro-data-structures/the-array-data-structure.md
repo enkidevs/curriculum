@@ -56,7 +56,7 @@ int[] myArray = new int[3];
 //c++
 int myArray[3];
 //javascript
-var myArray = [];
+var myArray = new Array(3);
 
 ```
 The advantage of an array is that you have immediate access to its elements. All you have to do is specify the index of the element you are looking for:
