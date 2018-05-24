@@ -13,11 +13,11 @@ inAlgoPool: false
 
 standards:
 
-  js.control-flow.6: 10
+  javascript.control-flow.6: 10
 
-  js.exceptions.2: 10
+  javascript.exceptions.2: 10
 
-  js.exceptions.3: 10
+  javascript.exceptions.3: 10
 
 tags:
 

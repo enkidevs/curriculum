@@ -9,7 +9,7 @@ type: normal
 category: how to
 
 standards:
-  js.functions.1: 10
+  javascript.functions.1: 10
 
 tags:
   - introduction

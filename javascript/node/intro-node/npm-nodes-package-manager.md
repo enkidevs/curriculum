@@ -12,7 +12,7 @@ tags:
   - introduction
 
 standards:
-  js.node-developer-environment.2: 10
+  javascript.node-developer-environment.2: 10
 
 links:
   - '[npmjs.com](https://www.npmjs.com/){website}'

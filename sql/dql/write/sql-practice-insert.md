@@ -40,3 +40,4 @@ Insert into `pokemon` a new record with the following field values:
   - name: nidoqueen
 
 Make sure to submit the SQLFiddle link, to show that you've completed the exercise.Make sure to submit the SQLFiddle link, to show that you've completed the exercise.
+ 

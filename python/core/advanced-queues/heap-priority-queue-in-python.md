@@ -12,7 +12,7 @@ type: normal
 category: feature
 
 standards:
-  py.data-structures-uses.2: 10
+  python.data-structures-uses.2: 10
 
 links:
 
@@ -55,3 +55,4 @@ heapq.heapreplace(a, 999)
 print(a)
 # [7, 8, 999, 12, 9]
 ```
+ 

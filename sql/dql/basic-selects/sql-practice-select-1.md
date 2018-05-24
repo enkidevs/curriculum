@@ -35,3 +35,4 @@ Change the query (in the right-hand window) to *return all columns from the firs
 In the answer field, enter the values for the name of the item in the fourth row returned.
 
 Example: `fake-ball`
+ 

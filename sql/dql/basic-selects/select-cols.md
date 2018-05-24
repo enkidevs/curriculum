@@ -51,3 +51,4 @@ Which of the following queries will retrieve only the `id` and `name` columns fo
 * `SELECT ONLY id, name FROM move_names`
 * `SELECT id, SELECT name, FROM move_names`
 * `SELECT id AND name FROM move_names`
+ 

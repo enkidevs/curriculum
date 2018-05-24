@@ -13,9 +13,9 @@ category: must-know
 
 standards:
 
-  js.javascript-syntax.1: 10
+  javascript.javascript-syntax.1: 10
 
-  js.standard-library.3: 10
+  javascript.standard-library.3: 10
 
 tags:
   - introduction

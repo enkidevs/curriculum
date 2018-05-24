@@ -15,9 +15,9 @@ category: how to
 
 standards:
 
-  js.evaluate-expressions.3: 10
+  javascript.evaluate-expressions.3: 10
 
-  js.write-expressions.1: 10
+  javascript.write-expressions.1: 10
 
 tags:
 

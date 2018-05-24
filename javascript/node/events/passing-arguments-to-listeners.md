@@ -12,7 +12,7 @@ type: normal
 category: must-know
 
 standards:
-  js.events-asynchronous-operations.2: 20
+  javascript.events-asynchronous-operations.2: 20
 
 tags:
   - introduction

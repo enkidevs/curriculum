@@ -11,7 +11,7 @@ type: normal
 category: best practice
 
 standards:
-  js.identify-common-design-patterns.1: 20
+  javascript.identify-common-design-patterns.1: 20
 
 tags:
   - workout

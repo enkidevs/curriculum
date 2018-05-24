@@ -11,7 +11,7 @@ type: normal
 category: how to
 
 standards:
-  js.identify-common-design-patterns.7: 10
+  javascript.identify-common-design-patterns.7: 10
 
 tags:
   - introduction

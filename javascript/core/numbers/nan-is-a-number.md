@@ -11,7 +11,7 @@ type: normal
 category: caveats
 
 standards:
-  js.evaluate-expressions.1: 10
+  javascript.evaluate-expressions.1: 10
 
 ---
 # `NaN` is a number

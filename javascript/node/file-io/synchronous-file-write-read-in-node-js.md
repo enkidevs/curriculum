@@ -10,7 +10,7 @@ type: normal
 category: must-know
 
 standards:
-  js.node-standard-library-os.0: 10
+  javascript.node-standard-library-os.0: 10
 
 tags:
   - introduction

@@ -14,8 +14,8 @@ category: feature
 parent: scripts-lifecycle
 
 standards:
-  js.npm-tasks-and-modules-manager.1: 10
-  js.npm-tasks-and-modules-manager.3: 10
+  javascript.npm-tasks-and-modules-manager.1: 10
+  javascript.npm-tasks-and-modules-manager.3: 10
 
 tags:
   - introduction

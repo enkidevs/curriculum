@@ -97,6 +97,5 @@ standards:
       2: Choose the correct HTML tag to communicate about the content of embedded media
       3: Structure an HTML document using the most relevant semantic HTML tags
 
-
 next:
   - web:styling

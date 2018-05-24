@@ -10,7 +10,7 @@ type: normal
 category: tip
 
 standards:
-  js.identify-common-design-patterns.7: 10
+  javascript.identify-common-design-patterns.7: 10
 
 tags:
   - introduction

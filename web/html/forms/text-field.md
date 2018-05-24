@@ -18,7 +18,7 @@ standards:
   
 links:
   - '[MDN docs for text](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text){website}'
-  '[Example on codepen.io](https://codepen.io/stefan-stojanovic/pen/GdyOKm?editors=1100){code}'
+  - '[Example on codepen.io](https://codepen.io/stefan-stojanovic/pen/GdyOKm?editors=1100){code}'
 
 ---
 # Text Field

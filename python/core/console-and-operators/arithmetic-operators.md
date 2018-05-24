@@ -13,7 +13,7 @@ inAlgoPool: false
 
 
 standards:
-  py.native-types-operations.2: 10
+  python.native-types-operations.2: 10
 
 links:
 
@@ -90,3 +90,4 @@ What are the outputs to the following code snippet respectively:
 * `26.25`
 * `25`
 * `26`
+ 

@@ -33,6 +33,5 @@ sections:
     - animations
     - css-animation
 
-
 prerequisites:
-  - web:html-and-css-basics
+  - web:html

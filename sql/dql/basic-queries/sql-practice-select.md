@@ -36,3 +36,4 @@ links:
 Write a query in SQLFiddle that answers the following question:
 
 What is the `accuracy` of the move having `id` equal to 10?
+ 

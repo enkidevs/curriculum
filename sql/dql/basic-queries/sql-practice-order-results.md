@@ -39,3 +39,4 @@ In SQLFiddle, write a SQL query that does the following:
 *Return the `name` and `fling_power` of all items that cost between `100` and `500`, ordered by the `fling_power`.*
 
 For your answer, write the name of the item with the *least* fling power, followed by the name of the item with the *greatest* fling power within this range.
+ 

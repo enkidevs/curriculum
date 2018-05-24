@@ -10,8 +10,8 @@ type: normal
 category: best practice
 
 standards:
-  js.identify-common-design-patterns.0: 20
-  js.use-modules.0: 20
+  javascript.identify-common-design-patterns.0: 20
+  javascript.use-modules.0: 20
 
 tags:
   - workout
