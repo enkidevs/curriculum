@@ -13,18 +13,14 @@ inAlgoPool: false
 
 standards:
 
-  js.data-types-structures.2: 10
-
-  js.data-types-structures.3: 10
+  javascript.data-types-structures.2: 10
+  javascript.evaluate-expressions.6: 10
+  javascript.data-types-structures.3: 10
+  javascript.data-types-structures.5: 10
 
 tags:
 
   - introduction
-
-  - workout
-
-
-
 
 ---
 
@@ -122,7 +118,7 @@ var firstElement = ??????;
 * `pop`
 
 ---
-## Quiz 
+## Quiz
 ### what is the length of the array below?
 
 ```javascript

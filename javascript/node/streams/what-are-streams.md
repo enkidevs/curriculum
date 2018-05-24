@@ -11,6 +11,15 @@ type: normal
 
 category: must-know
 
+standards:
+  javascript.read-and-write-streams.0: 20
+  javascript.node-standard-library-os.0: 20
+  javascript.events-asynchronous-operations.1: 20
+
+tags:
+  - introduction
+  - workout
+
 links:
   - '[Node Streams](https://maxogden.com/node-streams.html){website}'
 

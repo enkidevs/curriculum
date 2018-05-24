@@ -38,6 +38,7 @@ x.equalsIgnoreCase('ABC'); //true
 %exp
 The only class in Java that supports both the `equals` and `equalsIgnoreCase` methods is `String`.
 %
+
 ---
 ```
 ???
@@ -56,6 +57,7 @@ Among the given answers, `Stack` is the only one which supports both `.push()`  
 `.pop()` - returns the last element in the stack
 
 %
+
 ---
 ```
 ???.out.print("Enki");
@@ -69,6 +71,7 @@ Among the given answers, `Stack` is the only one which supports both `.push()`  
 Calling `System.out`'s `print` method will output the given argument in the console.
 
 %
+
 ---
 ```
 ???
@@ -85,6 +88,7 @@ The `java.io.File` class provides both the `.canWrite()` and `.getAbsolutePath()
 
 `.getAbsolutePath()` - returns the absolute path of the denoted file
 %
+
 ---
 ```
 double x = 5;
@@ -100,6 +104,7 @@ Class `math` supports `.floor()` method.
 
 `.floor()` method returns an approximate value to the nearest bigger `int` number.
 %
+
 ---
 ```
 ???

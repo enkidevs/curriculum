@@ -11,6 +11,13 @@ type: normal
 
 category: must-know
 
+standards:
+  javascript.use-modules.0: 10
+  javascript.node-developer-environment.2: 10
+
+tags:
+  - introduction
+  - workout
 
 links:
   - '[Node Modules](http://book.mixu.net/node/ch8.html){website}'
@@ -25,7 +32,7 @@ parent: npm-nodes-package-manager
 
 A module encapsulates an amount of code into one single code unit. Node has a module system implemented which allows for other JavaScript files to be included and used in your application. A substantial amount of Node’s core functionality was implemented using JavaScript modules.
 
-Node incorporates 3 different module types, modules can either be core modules, local modules or third party modules. An example of a core Node module is the `http` module.
+Node incorporates 3 different module types, modules can either be core modules, local modules or third party modules. An example of a core Node module is the `http` module. Local modules are Node.js files in your project that have an `exports` object declared. Third party modules usually have a `package.json` and are installed from a remote host into your `node_modules/` folder.
 
 Using modules when building Node applications give a number of advantages:
 
@@ -48,10 +55,10 @@ Which of the following statements about node modules do you consider false?
 ---
 ## Revision
 
-What type of module is the `http` module?
-
+Where are third party Node.js modules installed to?
 ???
 
-* Core
-* Local
-* Third party
+* node_modules
+* local_modules
+* libraries
+* libs

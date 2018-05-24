@@ -19,6 +19,5 @@ sections:
   '2':
     - css-animation
 
-
 prerequisites:
-  - web:html-and-css-basics
+  - web:html

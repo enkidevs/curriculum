@@ -2,25 +2,31 @@
 author: mihaiberq
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
   - advanced
 
 type: normal
 
 category: feature
 
-
-
 parent: dependencies
 
----
+standards:
+  javascript.use-open-source-javascript-packages.1: 10
+  javascript.npm-publish.0: 10
+  javascript.npm-tasks-and-modules-manager.0: 10
 
+tags:
+  - workout
+  - deep
+  - new
+
+links:
+  - '[Peer dependencies](https://nodejs.org/en/blog/npm/peer-dependencies/)'
+
+---
 # Deprecated peer dependencies
 
 ---
@@ -67,7 +73,6 @@ In which version of npm were *peerDependencies* available?
 
 ???
 
-
 * npm v2
 * npm v3
 * npm v4
@@ -75,14 +80,18 @@ In which version of npm were *peerDependencies* available?
 ---
 ## Revision
 
-You can find out your npm version with:
-```
-$ ??? ???
+Add a peer dependency called `enki` to your package using npm3+:
+```json
+{
+  //props
+  "???": {
+    "???": "1.0.0"
+  }
+}
 ```
 
-* npm
-* -v
-* v
-* node
-* -npm
-
+* peerDependencies
+* enki
+* dependencies
+* enki:peer
+* devDependencies

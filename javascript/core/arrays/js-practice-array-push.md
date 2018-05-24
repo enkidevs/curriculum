@@ -12,9 +12,10 @@ type: exercise
 link: http://www.codewars.com/kata/572af273a3af3836660014a1
 linkType: codewars
 standards:
-
-  js.standard-library.4: 1000
-  js.write-expressions.0: 1000
+  javascript.evaluate-expressions.6: 1000
+  javascript.evaluate-expressions.7: 1000
+  javascript.standard-library.4: 1000
+  javascript.write-expressions.0: 1000
 
 links:
 

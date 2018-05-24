@@ -12,17 +12,12 @@ category: must-know
 inAlgoPool: false
 
 standards:
-
-  js.control-flow.1: 10
+  javascript.control-flow.0: 10
+  javascript.control-flow.1: 10
 
 tags:
 
   - introduction
-
-  - workout
-
-
-
 
 ---
 
@@ -64,7 +59,7 @@ Sometimes code can be more readable using the switch statement although some dev
 
 ```
 switch (customerType){
-   case: "normal" : 
+   case: "normal" :
          ...
          break;
    case: "vip":
@@ -124,4 +119,3 @@ if (condition <= 0) {
 * `switch`
 * `case`
 * `==`
-

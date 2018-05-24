@@ -10,6 +10,9 @@ type: normal
 
 category: how to
 
+standards:
+  javascript.express-server.4: 10
+
 links:
   - '[github.com](https://github.com/expressjs/morgan){website}'
 
@@ -50,7 +53,7 @@ To only log error responses:
 
 ```javascript
 morgan('combined', {
-  skip: function (req, res) { 
+  skip: function (req, res) {
     return res.statusCode < 400 }
 });
 ```

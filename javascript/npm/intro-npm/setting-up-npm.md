@@ -10,6 +10,13 @@ category: must-know
 
 parent: why-use-npm
 
+standards:
+  javascript.npm-tasks-and-modules-manager.0: 10
+  javascript.node-developer-environment.2: 10
+
+tags:
+  - introduction
+
 ---
 # Setting up npm
 

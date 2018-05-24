@@ -12,8 +12,8 @@ type: normal
 category: how to
 
 standards:
-  py.control-structures.5: 10
-  py.modules.0: 10
+  python.control-structures.5: 10
+  python.modules.0: 10
 
 links:
 

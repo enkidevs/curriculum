@@ -9,10 +9,20 @@ type: normal
 
 category: best practice
 
-links:
-  - '[strongloop.com](https://strongloop.com/strongblog/3-neat-tricks-with-npm-run/){website}'
 
 parent: check-data-about-a-package
+
+standards:
+  javascript.npm-tasks-and-modules-manager.1: 10
+  javascript.npm-tasks-and-modules-manager.3: 10
+
+tags:
+  - workout
+  - deep
+
+
+links:
+  - '[strongloop.com](https://strongloop.com/strongblog/3-neat-tricks-with-npm-run/){website}'
 
 ---
 # Flags for `npm`

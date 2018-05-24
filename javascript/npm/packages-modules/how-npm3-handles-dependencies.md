@@ -2,25 +2,28 @@
 author: mihaiberq
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
   - advanced
 
 type: normal
 
 category: feature
 
-
-
 parent: deprecated-peer-dependencies
 
----
+standards:
+  javascript.use-open-source-javascript-packages.1: 10
+  javascript.npm-publish.0: 10
+  javascript.npm-tasks-and-modules-manager.0: 10
 
+tags:
+  - workout
+  - deep
+  - new
+
+---
 # How npm3 handles dependencies
 
 ---
@@ -93,4 +96,3 @@ Flat installing dependencies of dependencies is a feature of ???.
 * npm3
 * npm2
 * npm1
-

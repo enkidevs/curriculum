@@ -2,25 +2,25 @@
 author: catalin
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
 
 category: how to
 
+standards:
+  javascript.node-standard-library-os.5: 20
+
+tags:
+  - workout
+  - deep
 
 links:
-
   - '[codeforgeek.com](https://codeforgeek.com/2014/12/cluster-node-js-performance/){website}'
 
-
 ---
-
 # Clustering
 
 ---
@@ -57,12 +57,12 @@ Initiate a new worker process.
 ```
 
 
-* `cluster`
-* `fork()`
-* `master`
-* `init()`
-* `worker`
-* `worker()`
+* cluster
+* fork()
+* master
+* init()
+* worker
+* worker()
 
 ---
 ## Revision
@@ -75,8 +75,7 @@ if(cluster.???){
 ```
 
 
-* `isMaster`
-* `master`
-* `notChild`
-* `child`
-
+* isMaster
+* master
+* notChild
+* child

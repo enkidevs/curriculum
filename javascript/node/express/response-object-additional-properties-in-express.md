@@ -10,6 +10,11 @@ type: normal
 
 category: must-know
 
+standards:
+  javascript.express-server.1: 10
+  javascript.express-server.7: 10
+  javascript.express-server.8: 10
+
 links:
   - '[node-tricks.com](http://node-tricks.com/response-object/){website}'
 

@@ -8,6 +8,13 @@ levels:
 
 type: normal
 
+standards:
+  javascript.node-standard-library-os.5: 20
+
+tags:
+  - workout
+  - deep
+
 category: tip
 
 ---

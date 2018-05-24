@@ -14,9 +14,9 @@ type: fillTheGap
 category: tip
 
 standards:
-  js.write-expressions.0: 1000
-  js.evaluate-expressions.3: 1000
-  js.data-types-structures.1: 1000
+  javascript.write-expressions.0: 1000
+  javascript.evaluate-expressions.3: 1000
+  javascript.data-types-structures.1: 1000
 
 ---
 
@@ -40,6 +40,7 @@ console.log(~~x); //prints ???
 %exp
 The double tilde syntax is just shorthand for truncating numbers to integers. It is used as a shorthand for `Math.floor()` although it has a key difference in that it just removes any numbers after the decimal place. Therefore 3.5 becomes 3.
 %
+
 ---
 ```
 var x = -7.394;
@@ -51,6 +52,7 @@ console.log(~~x); //prints ???
 %exp
 Double tilde just removes any numbers after the decimal place, retaining any positive or negative.
 %
+
 ---
 ```
 var x = true;
@@ -62,6 +64,7 @@ console.log(~~x); //prints ???
 %exp
 Double tilde `true` evaluates to 1 since the double tilde is technically a *double NOT bitwise operator*. `True` evaluates to `1` and `False` evaluates to `0`.
 %
+
 ---
 ```
 var x = "Enki";
@@ -73,6 +76,7 @@ console.log(~~x); //prints ???
 %exp
 Double tilde never returns `NaN`, but if a check fails it simply returns `0`.
 %
+
 ---
 ```
 var x = "";
@@ -84,6 +88,7 @@ console.log(~~x); //prints ???
 %exp
 Double tilde never returns `NaN`, but if a check fails it simply returns `0`.
 %
+
 ---
 ```
 var x = false;

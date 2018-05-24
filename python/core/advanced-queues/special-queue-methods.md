@@ -11,7 +11,7 @@ category: feature
 
 
 standards:
-  cs.implement-linear-collection-data-structures.3: 10
+  comp-sci.implement-linear-collection-data-structures.3: 10
 
 links:
 
@@ -80,8 +80,7 @@ print(e.???())
 ---
 ## Revision
 
-Declare a queue with a limit of 5 elements:
-
+Create a queue of maximum 5 elements:
 ```
 q = ???.???(5)
 ```
@@ -91,3 +90,4 @@ q = ???.???(5)
 * `new`
 * `instance`
 * `create`
+ 

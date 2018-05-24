@@ -15,13 +15,13 @@ category: best practice
 
 standards:
 
-  js.functions.4: 10
+  javascript.functions.4: 10
 
-  js.functions.5: 10
+  javascript.functions.5: 10
 
-  js.functions.6: 10
+  javascript.functions.6: 10
 
-  js.functions.7: 10
+  javascript.functions.7: 10
 
 tags:
 

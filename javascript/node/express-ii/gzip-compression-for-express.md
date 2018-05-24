@@ -9,6 +9,9 @@ type: normal
 
 category: must-know
 
+standards:
+  javascript.express-server.4: 10
+
 links:
   - '[github.com](https://github.com/expressjs/compression){website}'
 

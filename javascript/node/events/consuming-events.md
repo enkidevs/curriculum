@@ -2,28 +2,29 @@
 author: tommarshall
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
   - advanced
 
 type: normal
 
 category: must-know
 
+standards:
+  javascript.events-asynchronous-operations.0: 10
+  javascript.events-asynchronous-operations.1: 10
+
+tags:
+  - introduction
+  - workout
 
 links:
-
   - '[Node Events](https://nodesource.com/blog/understanding-the-nodejs-event-loop/){website}'
 
 parent: module-patterns
 
 ---
-
 # Consuming events
 
 ---
@@ -74,20 +75,19 @@ system.file.???(
 )
 ```
 
-* `on`
-* `edit`
-* `event`
-* `event=edit`
-* `callback`
+* on
+* edit
+* event
+* event=edit
+* callback
 
 ---
 ## Revision
 
-Which method is called when an event occurs to trigger the callback function?
+Which method is called to register a callback function to run when an event is triggered?
 ???
 
 
-* `.on`
-* `.event`
-* `.start`
-
+* .on
+* .event
+* .start

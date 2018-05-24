@@ -9,10 +9,20 @@ type: normal
 
 category: best practice
 
+
+standards:
+  javascript.node-standard-library-os.5: 20
+
+tags:
+  - workout
+  - deep
+  - obscura
+
+notes: Im trying to make a Node workout based on security tips. This is one of them.
+
+
 links:
   - '[blog.liftsecurity.io](https://blog.liftsecurity.io/2014/08/19/Avoid-Command-Injection-Node.js){website}'
-
-notes: I'm trying to make a Node workout based on security tips. This is one of them.
 
 ---
 # Avoid command injection

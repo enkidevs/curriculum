@@ -10,18 +10,15 @@ type: normal
 category: must-know
 
 standards:
-
-  js.identify-syntax.2: 10
-
-  js.evaluate-expressions.3: 10
-
-  js.evaluate-expressions.10: 10
+  javascript.evaluate-expressions.5: 10
+  javascript.evaluate-expressions.4: 10
+  javascript.javascript-syntax.2: 10
+  javascript.evaluate-expressions.3: 10
+  javascript.evaluate-expressions.10: 10
 
 tags:
 
   - introduction
-
-  - workout
 
 
 links:
@@ -98,15 +95,11 @@ console.log("\n" == 0);
 * `false false`
 
 ---
-## Quiz 
+## Quiz
 ### how familiar are you with weak equality?
 
-```javascript
 // What will this evaluate to?
-"\t\r\\n\" == 0
-```
-
- ???
+"\t\r\n\ " == 0
 
 * true
 * false

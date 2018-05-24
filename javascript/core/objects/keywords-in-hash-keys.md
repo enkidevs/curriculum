@@ -9,8 +9,13 @@ type: normal
 category: best practice
 
 standards:
-  js.data-types-structures.3: 10
-  js.data-types-structures.4: 10
+  javascript.data-types-structures.3: 10
+  javascript.data-types-structures.4: 10
+  javascript.evaluate-expressions.6: 10
+  javascript.evaluate-expressions.7: 10
+
+tags:
+  - introduction
 
 links:
   - '[bonsaiden.github.io](http://bonsaiden.github.io/JavaScript-Garden/){website}'

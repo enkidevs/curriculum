@@ -41,6 +41,7 @@ finally:
 %exp
 Here `else` is missing the colon(:) sign.
 %
+
 ---
 de square(x):
 //def square(x):
@@ -51,6 +52,7 @@ print(square(a))
 %exp
 The keyword used to define functions is `def`, not `de`.
 %
+
 ---
 class A:
     def printPi(self):
@@ -63,6 +65,7 @@ a.printPi
 %exp
 In order to call a function, apart from the name of the function we need to use `()`.
 %
+
 ---
 for i in [1,2,3]:
 	print(i)
@@ -74,6 +77,7 @@ for k in {"x"= 1, "y"= 2}:
 %exp
 The correct syntax requres `:` instead of  `=`.
 %
+
 ---
 class Enki:
 	def one(self):
@@ -86,6 +90,7 @@ class Enki:
 %exp
 There is a typo here: it is `return`, not `retrun`.
 %
+
 ---
 def gcd(x, y):
     while y !== 0:
@@ -96,6 +101,7 @@ print(gcd(20,30))
 %exp
 To check whether if two things are not equal we use `!=`, not `!==`.
 %
+
 ---
 def gcd(a, b):
     if (b == 0)
@@ -107,6 +113,7 @@ print(gcd(45,90))
 %exp
 In order to get the greatest common divisor using `gcd` function we define, the condition checked by `if`  statement must be `(b==a)` not `(b==0)`.
 %
+
 ---
 def exp(x, n):
     if n == 0:
@@ -120,6 +127,7 @@ print(exp(2,3))
 %exp
 The correct syntax for `else if` in Python is `elif`.
 %
+
 ---
 from math import PI
 // from math import pi

@@ -2,19 +2,24 @@
 author: tommarshall
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
   - advanced
 
 type: normal
 
 category: must-know
 
+standards:
+  javascript.read-and-write-streams.0: 20
+  javascript.node-standard-library-os.0: 20
+  javascript.events-asynchronous-operations.1: 20
+
+tags:
+  - introduction
+  - workout
+  - deep
 
 links:
 
@@ -23,7 +28,6 @@ links:
 parent: piping-readable-streams
 
 ---
-
 # Chaining Readable Streams
 
 ---
@@ -48,7 +52,7 @@ Here, a readable stream is created which is piped into a second stream, `zlib.cr
 
 Complete the following snippet such that the output of the first stream is used as input for the second one:
 
-```
+```javascript
 var fs = require("fs");
 
 fs.createReadStream('in.txt')
@@ -56,13 +60,12 @@ fs.createReadStream('in.txt')
 
 ```
 
-
-* `pipe`
-* `chain`
-* `stream`
-* `feed`
-* `input`
-* `output`
+* pipe
+* chain
+* stream
+* feed
+* input
+* output
 
 ---
 ## Revision
@@ -72,7 +75,6 @@ Which function is used to chain streams together?
 ???
 
 
-* `pipe()`
-* `new-pipe()`
-* `chain()`
-
+* pipe()
+* new-pipe()
+* chain()

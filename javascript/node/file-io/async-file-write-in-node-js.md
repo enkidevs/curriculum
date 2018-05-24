@@ -10,6 +10,13 @@ type: normal
 
 category: must-know
 
+standards:
+  javascript.node-standard-library-os.0: 10
+
+tags:
+  - introduction
+  - workout
+
 links:
   - '[nodejs.org](https://nodejs.org/api/fs.html#fs_fs_writefile_file_data_options_callback){website}'
 

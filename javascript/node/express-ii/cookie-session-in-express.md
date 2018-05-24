@@ -2,32 +2,31 @@
 author: catalin
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
 
 category: how to
 
+standards:
+  javascript.express-server.1: 10
+  javascript.express-server.4: 10
+  comp-sci.http-request-response.12: 10
 
 links:
-
   - '[github.com](https://github.com/expressjs/cookie-session){website}'
 
 parent: easy-way-to-deliver-html-pages-with-express
 
 ---
-
 # `cookie-session` in **Express**
 
 ---
 ## Content
 
-By choosing to implement sessions in **Express** with the help of cookies, a `session` object will be added to the `request` object. 
+By choosing to implement sessions in **Express** with the help of cookies, a `session` object will be added to the `request` object.
 
 With the introduction of **Express 4.0**, `cookie-session` is a separate module that must be installed:
 ```bash
@@ -70,12 +69,12 @@ Import the needed module for implementing sessions in **Express** with the help 
 var cookieSess = ???('???');
 ```
 
-* `require`
-* `cookie-session`
-* `cookies`
-* `session`
-* `import`
-* `cookie-express`
+* require
+* cookie-session
+* cookies
+* session
+* import
+* cookie-express
 
 ---
 ## Revision
@@ -86,10 +85,9 @@ Import the needed module for implementing sessions in **Express** with the help 
 var cookieSess = ???('???');
 ```
 
-* `require`
-* `cookie-session`
-* `cookies`
-* `session`
-* `import`
-* `cookie-express`
-
+* require
+* cookie-session
+* cookies
+* session
+* import
+* cookie-express

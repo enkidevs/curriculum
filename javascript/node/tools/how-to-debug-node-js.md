@@ -9,6 +9,15 @@ type: normal
 
 category: feature
 
+standards:
+  javascript.node-developer-environment.5: 20
+  javascript.use-modules.2: 20
+
+tags:
+  - introduction
+  - workout
+  - deep
+
 links:
   - '[stackoverflow.com](http://stackoverflow.com/questions/1911015/how-do-i-debug-node-js-applications/31502652#31502652){website}'
   - '[github.com](https://github.com/s-a/iron-node){website}'
@@ -18,7 +27,7 @@ links:
 
 ---
 ## Content
-
+ß
 There are many options when debugging Node applications.
 
 ### Built-in debugger

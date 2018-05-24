@@ -10,6 +10,13 @@ type: normal
 
 category: feature
 
+standards:
+  javascript.npm-tasks-and-modules-manager.0: 10
+
+tags:
+  - workout
+  - introduction
+
 links:
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/link){website}'
 

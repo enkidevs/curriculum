@@ -13,6 +13,15 @@ category: how to
 
 parent: how-npm3-handles-dependencies
 
+standards:
+  javascript.npm-tasks-and-modules-manager.0: 30
+  javascript.npm-tasks-and-modules-manager.3: 30
+
+tags:
+  - introduction
+  - workout
+  - deep
+
 ---
 # Npm Scripting
 
@@ -107,14 +116,22 @@ Fill in the following `package.json` file such that it has 2 scripts:
 ---
 ## Revision
 
-The `npm run` command is an abbreviation for:
 
-```bash
-???
+Given the following is in your `package.json`, execute the script called `dailyStats`
+```javascript
+{
+  "name": "enki",
+  // ...
+  "scripts": {
+    "dailyStats": "node ./bin/stats.js"
+  }
+}
 ```
 
-* npm run-script
-* npm run-scripts
-* npm run-test
-* npm install --script
+??? ??? ???
 
+* npm
+* run
+* dailyStats
+* script
+* exec

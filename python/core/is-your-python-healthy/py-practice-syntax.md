@@ -13,11 +13,11 @@ link: https://www.codewars.com/kata/regex-validate-pin-code
 linkType: codewars
 standards:
 
-  py.identify-python-syntax.1: 1000
-  py.identify-python-syntax.2: 3000
-  py.store-manipulate-data.0: 2000
-  py.store-manipulate-data.2: 2000
-  py.data-structures-uses.5: 2000
+  python.identify-python-syntax.1: 1000
+  python.identify-python-syntax.2: 3000
+  python.store-manipulate-data.0: 2000
+  python.store-manipulate-data.2: 2000
+  python.data-structures-uses.5: 2000
 
 links:
 
@@ -31,3 +31,4 @@ links:
 ## Exercise
 
 Practice python syntax `validity`.
+ 

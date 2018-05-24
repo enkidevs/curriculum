@@ -14,7 +14,7 @@ type: normal
 category: feature
 
 standards:
-  js.functions.5: 10
+  javascript.functions.5: 10
 
 tags:
 

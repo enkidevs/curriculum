@@ -9,11 +9,10 @@ type: normal
 category: how to
 
 standards:
-  js.functions.1: 10
+  javascript.functions.1: 10
 
 tags:
   - introduction
-  - workout
 
 links:
   - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments){documentation}'
@@ -86,4 +85,3 @@ function myArray() {
 * args
 * sort
 * toArray
-

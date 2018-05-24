@@ -12,7 +12,7 @@ category: must-know
 inAlgoPool: false
 
 standards:
-  py.native-types-operations.4: 10
+  python.native-types-operations.4: 10
 
 ---
 
@@ -85,3 +85,4 @@ newList.append(2)
 * `view`
 * `append`
 * `(0)`
+ 

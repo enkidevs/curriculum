@@ -2,11 +2,8 @@
 author: mihaiberq
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
 
 type: normal
@@ -14,17 +11,16 @@ type: normal
 category: how to
 
 tags:
-
   - introduction
 
+standards:
+  javascript.npm-publish.0: 10
+  javascript.identify-common-design-patterns.6: 10
 
 links:
-
   - '[Use NPM to distribute your code](https://github.com/i0natan/nodebestpractices/blob/master/sections/projectstructre/wraputilities.md){website}'
 
-
 ---
-
 # Wrap Common Utilities in NPM Packages
 
 ---
@@ -65,14 +61,13 @@ In other words, breaking up mixed code into self-contained components means
 * designing it
 
 ---
-## Quiz 
-### What is it that you usually use NPM for?
+## Quiz
 
+### What is it that you usually use NPM for?
 
 What is usually shared on NPM?
 
-
- ???
+???
 
 * Bundled code
 * Cat pictures

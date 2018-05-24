@@ -8,6 +8,12 @@ type: normal
 
 category: must-know
 
+standards:
+  javascript.node-developer-environment.5: 10
+
+tags:
+  - introduction
+
 links:
   - '[nodeguide.com](http://nodeguide.com/beginner.html#the-interactive-node.js-shell){website}'
 

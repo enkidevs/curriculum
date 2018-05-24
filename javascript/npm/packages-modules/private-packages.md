@@ -11,6 +11,15 @@ type: normal
 
 category: feature
 
+standards:
+  javascript.npm-publish.1: 10
+  javascript.npm-tasks-and-modules-manager.0: 10
+
+tags:
+  - workout
+  - deep
+  - new
+
 links:
   - '[docs.npmjs.com](https://docs.npmjs.com/getting-started/scoped-packages){website}'
 

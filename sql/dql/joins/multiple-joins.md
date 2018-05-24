@@ -175,3 +175,4 @@ Get the names of pokedexes and version_groups using `pokedex_version_group` tabl
 * SELECT pokedex.name, version_group.name FROM pokedex_version_group RIGHT JOIN pokedex ON pokedex_version_group.pokedex_id = pokedex.id LEFT JOIN version_group ON pokedex_version_group.version_group_id = version_group.id;
 * SELECT pokedex.name, version_group.name FROM pokedex_version_group FULL OUTER JOIN pokedex ON pokedex_version_group.pokedex_id = pokedex.id FULL OUTER JOIN version_group ON pokedex_version_group.version_group_id = version_group.id;
 * SELECT pokedex.name, version_group.name FROM pokedex_version_group LEFT JOIN pokedex ON pokedex_version_group.pokedex_id = pokedex.id RIGHT JOIN version_group ON pokedex_version_group.version_group_id = version_group.id;
+ 

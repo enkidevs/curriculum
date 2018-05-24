@@ -13,6 +13,15 @@ category: how to
 
 parent: prepare-your-module-for-publishing
 
+standards:
+  javascript.npm-publish.7: 10
+  javascript.npm-publish.8: 10
+  javascript.npm-tasks-and-modules-manager.1: 10
+
+tags:
+  - introduction
+  - workout
+
 ---
 # Tests
 
@@ -90,6 +99,7 @@ Complete the following *package.json* file with code that would make `npm run te
   }
 }
 ```
+
 
 * "scripts"
 * "test"

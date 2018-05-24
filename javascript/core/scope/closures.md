@@ -15,7 +15,7 @@ category: must-know
 
 standards:
 
-  js.functions.5: 10
+  javascript.functions.5: 10
 
 
 links:

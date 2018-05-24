@@ -13,7 +13,7 @@ inAlgoPool: false
 
 standards:
 
-  js.javascript-syntax.2: 10
+  javascript.javascript-syntax.2: 10
 
 tags:
 
@@ -92,4 +92,3 @@ How do you enable **strict mode** in EcmaScript 5?
 * `strict-mode`
 * `enable`
 * `on`
-

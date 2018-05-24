@@ -2,21 +2,23 @@
 author: mihaiberq
 
 levels:
-
   - beginner
 
 type: normal
 
 category: must-know
 
+standards:
+  javascript.npm-tasks-and-modules-manager.0: 10
+
+tags:
+  - introduction
+  - workout
 
 links:
-
   - '[docs.npmjs.com](https://docs.npmjs.com/getting-started/what-is-npm){website}'
 
-
 ---
-
 # What is npm?
 
 ---
@@ -53,8 +55,6 @@ The aim of a package is to
 
 ???
 
-
 * node package manager
 * new package manager
 * node packet manager
-

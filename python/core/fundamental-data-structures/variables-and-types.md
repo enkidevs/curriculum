@@ -12,7 +12,7 @@ category: must-know
 inAlgoPool: false
 
 standards:
-  py.native-types-operations.2: 10
+  python.native-types-operations.2: 10
 
 ---
 
@@ -50,20 +50,21 @@ Longs (long integers) are also available - as integers of infinite size and foll
 ```python
 long = 0122L
 ```
+Note that `long` and `int` are **unified** in Python 3.x and you don't need to worry about long integers anymore.  
 
 Floating point numbers are also easily defined:
 ```python
-float = 7.0
+float_value = 7.0
 ```
 
 Last, but not least, Python also provides support for complex numbers of form `a + b*j`, where `a` and `b` are float numbers and `J` represents the square root of `-1`:
 ```python
-complex = 3 + 5J
+complex_value = 3 + 5J
 ```
 
 Using the built-in `type()` function we can find out what type a variable has:
 ```python
-print(type(int_2))
+print(type(integer_2))
 # <type 'int'>
 
 print(type(complex))
@@ -86,10 +87,6 @@ print(type(b))
 c = '"3.14"'
 print(type(c))
 # <type '???'>
-
-d = 124124141L
-print(type(d))
-# <type '???'>
 ```
 
 
@@ -111,10 +108,6 @@ b = 100J
 print(type(b))
 # <type '???'>
 
-d = 100L
-print(type(d))
-# <type '???'>
-
 c = '100'
 print(type(c))
 # <type '???'>
@@ -122,10 +115,10 @@ print(type(c))
 
 
 * `complex`
-* `long
 * `str`
 * `float`
 * `string`
 * `int`
 * `integer`
 * `floating`
+ 
