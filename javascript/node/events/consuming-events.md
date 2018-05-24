@@ -12,8 +12,8 @@ type: normal
 category: must-know
 
 standards:
-  js.events-asynchronous-operations.0: 10
-  js.events-asynchronous-operations.1: 10
+  javascript.events-asynchronous-operations.0: 10
+  javascript.events-asynchronous-operations.1: 10
 
 tags:
   - introduction

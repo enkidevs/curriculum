@@ -15,9 +15,9 @@ inAlgoPool: false
 
 
 standards:
-  py.data-structures-uses.5: 10
-  py.native-types-operations.4: 10
-  py.store-manipulate-data.3: 10
+  python.data-structures-uses.5: 10
+  python.native-types-operations.4: 10
+  python.store-manipulate-data.3: 10
 
 links:
 
@@ -55,13 +55,35 @@ print(stringprep.in_table_c11(' '))
 ```
 
 ---
+## Practice
+
+Check if `tab` is in the table `C.1.1` of RFC 3454:
+
+```python
+import stringprep
+
+???(stringprep.???('  '))
+
+```
+
+* print
+* in_table_c11
+* ' '
+* in_table_a1
+* in_c11
+* zip
+
+
+
+---
 ## Revision
 
 Check if the given character is in table `C.1.1` of RFC 3454:
-```
+
+```python
 import stringrep
 
-???.???(‘x’)
+???.???('x')
 ```
 
 
@@ -72,3 +94,4 @@ import stringrep
 * `table_c1_1`
 * `rfc`
 * `rfc3454`
+ 

@@ -12,7 +12,7 @@ type: normal
 category: tip
 
 standards:
-  py.native-types-operations.0: 10
+  python.native-types-operations.0: 10
 
 
 tags:
@@ -51,6 +51,18 @@ True
 ```
 
 ---
+## Practice
+
+Check if `x` is at least 2 and maximum 10:
+
+???
+
+* >>> 1 < x < 11
+* >>> 2 < x < 10
+* >>> 2 < x < 11
+* >>> 1 < x < 10
+
+---
 ## Revision
 
 What will the following expression evaluate to?
@@ -60,6 +72,25 @@ What will the following expression evaluate to?
 ???
 ```
 
+*`False`
+*`True`
 
-* `False`
-* `True`
+---
+## Quiz
+
+### Do you know how to use chained comparison operators?
+
+
+How would we use chained comparison operators to express this conditional statement?
+
+```python
+if var >= startvar and var <= endvar:
+    ...
+```
+
+
+- `if startvar <= var <= endvar:`
+- `if startvar <= and var <= endvar:`
+- `if (startvar <= and var <= endvar):`
+- `if startvar >= var <= endvar:`
+ 

@@ -13,16 +13,11 @@ inAlgoPool: false
 
 standards:
 
-  js.evaluate-expressions.10: 10
+  javascript.evaluate-expressions.10: 10
 
 tags:
 
   - introduction
-
-  - workout
-
-
-
 
 ---
 
@@ -84,4 +79,3 @@ undefined == null
 
 * true
 * false
-

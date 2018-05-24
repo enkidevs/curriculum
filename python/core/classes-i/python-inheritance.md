@@ -11,7 +11,7 @@ category: must-know
 
 
 standards:
-  py.object-oriented.1: 10
+  python.object-oriented.1: 10
 
 ---
 
@@ -103,3 +103,35 @@ class Employee(Person):
 * A
 * B
 * none
+
+---
+## Quiz
+
+### Do you know how inheritance affects variables defined in the parent class? 
+
+Square is a child class of the Shape class. What is the output from the following code snippet? 
+
+```
+class Shape:
+    def __init__(self, x, y):
+    self.name = "shape"
+    self.color = "red"
+    self.x = x
+    self.y = y
+
+class Square(Shape):
+    def __init__(self, x):
+    self.name = "square"
+    self.x = x
+    self.y = x
+
+sq = Square(3)
+print(sq.name)
+print(sq.color)
+```
+
+- square AttributeError: Square instance has no attribute 'color'
+- square red
+- AttributeError: 'super' object has no attribute '__getattr__'
+- AttributeError: 'super' object has no attribute '__setattr__'
+ 

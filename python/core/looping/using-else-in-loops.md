@@ -12,7 +12,7 @@ category: must-know
 inAlgoPool: false
 
 standards:
-  py.control-structures.0: 10
+  python.control-structures.0: 10
 
 ---
 
@@ -76,6 +76,28 @@ With the output:
 a
 ```
 
+--- 
+## Practice
+
+Fill in the following snippet such that it will return *"Computation Done"* when the while terminates:
+
+```python
+x = 0
+while x ??? 3
+    print("running")
+    x += 1
+???:
+    ???("Computation Done")
+```
+
+* <
+* else
+* print
+* >
+* if
+* elif
+
+
 ---
 ## Revision
 
@@ -109,3 +131,4 @@ else:
 * a a
 * b a
 * a c
+ 

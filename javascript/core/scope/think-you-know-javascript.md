@@ -14,9 +14,7 @@ type: fillTheGap
 category: tip
 
 standards:
-  js.functions.5: 1000
-
-notes: ''
+  javascript.functions.5: 1000
 
 ---
 
@@ -103,3 +101,4 @@ a.call(null);
 %exp
 The `this` keyword always refers to the owner of the function. In this case, we define the function `a` in a page, which is contained inside the JavaScript's global object, `window`. For reference, if you were to console log `this` inside a button's `click` function, the button would be logged.
 %
+

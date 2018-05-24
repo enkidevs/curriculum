@@ -12,20 +12,15 @@ category: must-know
 inAlgoPool: false
 
 standards:
-  js.identify-syntax.2: 10
-  js.evaluate-expressions.5: 10
-  js.evaluate-expressions.4: 10
-  js.evaluate-expressions.3: 10
-  js.evaluate-expressions.10: 10
+  javascript.javascript-syntax.2: 10
+  javascript.evaluate-expressions.5: 10
+  javascript.evaluate-expressions.4: 10
+  javascript.evaluate-expressions.3: 10
+  javascript.evaluate-expressions.10: 10
 
 tags:
 
   - introduction
-
-  - workout
-
-
-
 
 ---
 

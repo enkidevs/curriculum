@@ -12,7 +12,7 @@ type: normal
 category: feature
 
 standards:
-  py.data-structures-uses.2: 10
+  python.data-structures-uses.2: 10
 
 links:
 
@@ -101,4 +101,5 @@ heapq.heapreplace(h, 100)
 * 239
 * 304
 * 320
-* the following snippet won't work
+* the following snippet won't wor
+ 

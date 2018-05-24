@@ -38,3 +38,6 @@ Insert into `pokemon` a new record with the following field values:
   - is_default: true
   - pokemon_species_id: 31
   - name: nidoqueen
+
+Make sure to submit the SQLFiddle link, to show that you've completed the exercise.Make sure to submit the SQLFiddle link, to show that you've completed the exercise.
+ 

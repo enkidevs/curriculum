@@ -13,7 +13,7 @@ inAlgoPool: false
 
 
 standards:
-  py.functions.1: 10
+  python.functions.1: 10
 
 
 ---
@@ -63,6 +63,27 @@ In the example, variable `x` will take the value of `num`, therefore the output 
 ```
 
 ---
+## Practice
+
+Find the arithmetic mean of `x` and `y`:
+
+```python
+x = 4
+y = 2
+??? mean(a, b):
+    print((a + b) / 2)
+
+???(???)
+```
+
+* def
+* mean
+* x, y
+* a, b
+
+
+
+---
 ## Revision
 
 Complete the code snippet to define and call the function with the correct parameter:
@@ -84,3 +105,4 @@ num = 5
 * `obj`
 * `var`
 * `function`
+ 

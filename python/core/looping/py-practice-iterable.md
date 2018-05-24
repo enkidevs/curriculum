@@ -13,9 +13,9 @@ link: https://www.codewars.com/kata/thinkful-list-drills-longest-word
 linkType: codewars
 standards:
 
-  py.use-iteration-protocol.0: 1000
-  py.use-iteration-protocol.3: 2000
-  py.data-structures-uses.5: 2000
+  python.use-iteration-protocol.0: 1000
+  python.use-iteration-protocol.3: 2000
+  python.data-structures-uses.5: 2000
 
 links:
 
@@ -30,3 +30,4 @@ links:
 ## Exercise
 
 Practice working with `for loops` and `iterables` in python.
+ 

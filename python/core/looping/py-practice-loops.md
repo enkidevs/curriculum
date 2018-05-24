@@ -13,10 +13,10 @@ link: https://www.codewars.com/kata/convert-a-linked-list-to-a-string
 linkType: codewars
 standards:
 
-  py.use-iteration-protocol.0: 1000
-  py.use-iteration-protocol.1: 2000
-  py.use-iteration-protocol.2: 2000
-  py.use-iteration-protocol.3: 3000
+  python.use-iteration-protocol.0: 1000
+  python.use-iteration-protocol.1: 2000
+  python.use-iteration-protocol.2: 2000
+  python.use-iteration-protocol.3: 3000
 
 links:
 
@@ -31,3 +31,4 @@ links:
 ## Exercise
 
 Iterate without a `loop` in python.
+ 

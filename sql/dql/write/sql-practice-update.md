@@ -15,8 +15,6 @@ linkType: sqlfiddle
 
 link: http://sqlfiddle.com/#!9/58d6e/5
 
-answer: 37
-
 standards:
   sql.write.3: 1000
 
@@ -32,4 +30,7 @@ links:
 ---
 ## Exercise
 
-Update `move` table such that the 14th move will have `accuracy` equal to 37. In the answer field, provide the result of the query that has been provided.
+Update `move` table such that the 14th move will have `accuracy` equal to 37.
+
+Make sure to submit the SQLFiddle link, to show that you've completed the exercise.
+ 

@@ -13,11 +13,11 @@ category: caveats
 
 standards:
 
-  js.data-types-structures.0: 10
+  javascript.data-types-structures.0: 10
 
-  js.standard-library.2: 10
+  javascript.standard-library.2: 10
 
-  js.evaluate-expressions.1: 10
+  javascript.evaluate-expressions.1: 10
 
 
 

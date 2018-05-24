@@ -81,3 +81,4 @@ Which of the following string data types are padded to match its maximum size?
 * `text(size)`
 * `text`
 
+ 

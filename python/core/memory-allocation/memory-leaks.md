@@ -10,7 +10,7 @@ type: normal
 category: must-know
 
 standards:
-  py.store-manipulate-data.5: 10
+  python.store-manipulate-data.5: 10
 
 links:
 
@@ -41,6 +41,18 @@ You can usually assume your Python application has a memory leak if its memory u
 There's no generic way to deal with memory leaks, it's more case-specific. Usually, once you've found the leak, fixing it is one Google search away.
 
 ---
+## Practice
+
+What is a common sign of a memory leak in your python program?
+
+???
+
+* if its memory usage grows steadily over time
+* if you get a compile time error
+* if you get a run time error
+
+
+---
 ## Revision
 
 A memory usually leak occurs when
@@ -59,3 +71,4 @@ A memory usually leak occurs when
 **Paging** is a process in which, to run a process/program, the system requests **pages** (block of bytes) from the slow physical memory to be stored in the much faster random-access memory (RAM). This happens mostly on running processes/programs to improve performance
 
 **Thrashing** is the phenomenon during which multiple processes require *pages* that are not available in RAM, over and over again. The RAM is limited and in case a process requires too much memory (a memory-leaking one, for instance), the free RAM, as well as the number of maximum pages that would be available for the system to use decreases.
+ 

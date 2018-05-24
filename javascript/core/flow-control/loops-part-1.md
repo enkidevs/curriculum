@@ -12,18 +12,13 @@ category: must-know
 inAlgoPool: false
 
 standards:
-  js.control-flow.0: 10
-  js.control-flow.3: 10
-  js.control-flow.4: 10
+  javascript.control-flow.0: 10
+  javascript.control-flow.3: 10
+  javascript.control-flow.4: 10
 
 tags:
 
   - introduction
-
-  - workout
-
-
-
 
 ---
 

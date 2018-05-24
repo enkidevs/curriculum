@@ -11,15 +11,13 @@ category: tip
 
 standards:
 
-  js.data-types-structures.2: 10
-  js.evaluate-expressions.6: 10
-  js.data-types-structures.3: 10
+  javascript.data-types-structures.2: 10
+  javascript.evaluate-expressions.6: 10
+  javascript.data-types-structures.3: 10
 
 tags:
 
   - introduction
-
-  - workout
 
 
 links:

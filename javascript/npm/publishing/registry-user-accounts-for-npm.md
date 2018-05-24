@@ -13,9 +13,9 @@ category: how to
 parent: check-data-about-a-package
 
 standards:
-  js.npm-publish.0: 10
-  js.npm-publish.1: 10
-  js.npm-publish.9: 10
+  javascript.npm-publish.0: 10
+  javascript.npm-publish.1: 10
+  javascript.npm-publish.9: 10
 
 tags:
   - workout

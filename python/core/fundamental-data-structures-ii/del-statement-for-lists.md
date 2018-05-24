@@ -10,7 +10,7 @@ type: normal
 category: must-know
 
 standards:
-  py.native-types-operations.4: 10
+  python.native-types-operations.4: 10
 
 links:
 
@@ -19,7 +19,7 @@ links:
 
 ---
 
-# `del` statement for  lists
+# `del` statement for lists
 
 ---
 ## Content
@@ -61,16 +61,35 @@ To delete the entire *list*:
 
 What’s the output of the following code snippet:
 
-```
+```python
 >>> e = [7, 8, 9, 11, 15, 19]
 >>> del e[2:4]
 >>> e
 
 ???
-
 ```
+
 * [7, 8, 15, 19]
 * [7, 8, 19]
 * []
 * [7, 11, 15, 19]
 * [7, 15, 19]
+
+---
+## Revision
+
+Fill in the code snippet such that it will delete the second number in the list:
+
+```python
+list = [1,2,3,4,5]
+
+??? list[???]
+```
+
+* del
+* 1
+* 2
+* 3
+* remove
+
+ 
