@@ -74,6 +74,8 @@ Which of these statements is not correct about the `<!DOCTYPE html>`?
 ---
 ## Quiz
 
+### How much do you know about HTML Versioning?
+
 What is required on the first line of every HTML5 document?
 
 * The doctype
