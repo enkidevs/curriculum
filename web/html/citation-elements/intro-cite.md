@@ -73,9 +73,19 @@ Which statement about the `<cite>` element is not correct?
 What HTML element is best to use in this example?
 
 ```
-<p>The 1939 movie <tag>The Wizard of Oz</tag> was originally filmed in both sepia-toned black-and-white and Technicolor.</p>
+<p>
+The 1939 movie
+<tag>The Wizard of Oz</tag>
+was originally filmed in both
+sepia-toned black-and-white
+and Technicolor.
+</p>
 
-<p><tag>The Wonderful Wizard of Oz</tag> was written by L. Frank Baum and published in 1900.</p>
+<p>
+  <tag>The Wonderful Wizard of Oz</tag>
+   was written by L. Frank Baum
+   and published in 1900.
+</p>
 ```
 
 tag = ???
@@ -94,11 +104,7 @@ tag = ???
 
 Which HTML element is used to reference the title of a body of work (like a book, song, movie, painting, etc.)?
 
-???
-
 * `<cite>`
 * `<quote>`
 * `<blockquote>`
 * `<q>`
-* `<define>`
-* `<title>`
