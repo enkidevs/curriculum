@@ -1,5 +1,5 @@
-# Image Title
-author: matthew-leach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -11,12 +11,23 @@ category: must-know
 
 tags:
   - introduction
+  
+---
+# Image Title
 
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+The `title` attribute is used for representing helpful information about the element it belongs to.
+Usually via a tooltip.
 
+Tooltips appear to the user when they hover their mouse over the image.
+
+Example:
+```
+<img src="logo.svg" 
+  title="Tooltip Text Here">
+```
 ---
 ## Practice
 
@@ -49,7 +60,7 @@ What adds a visual tooltip when the cursor is over the image?
 ---
 ## Quiz
 
-Do you know how to create a visual tooltip using just HTML?
+### Do you know how to create a visual tooltip using just HTML?
 
 When the cursor is over the image, what code will add a visual tooltip?
 
