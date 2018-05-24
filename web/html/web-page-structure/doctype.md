@@ -76,11 +76,7 @@ Which of these statements is not correct about the `<!DOCTYPE html>`?
 
 What is required on the first line of every HTML5 document?
 
-???
-
 * The doctype
 * Link to the CSS document
 * Opening `<html>` element
 * Opening `<head>` element
-* Page title
-* The doc's charset
