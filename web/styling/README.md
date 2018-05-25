@@ -4,6 +4,12 @@ description: Recipes, techniques and even more tips on how to enhance your CSS w
 
 sections:
   '0':
+    - intro-css
+    - css-basics
+    - box-model
+    - positioning
+    - dimensioning-and-box-sizing
+    - practical-css
     - centring-recipes
     - colors-tips
     - positioning-tips
