@@ -4,19 +4,33 @@ description: Recipes, techniques and even more tips on how to enhance your CSS w
 
 sections:
   '0':
+    - intro-css
+    - css-basics
+    - box-model
+    - positioning
+    - dimensioning-and-box-sizing
+    - practical-css
+    - typography
     - centring-recipes
     - colors-tips
     - positioning-tips
+  '1':
     - styling-i
     - styling-ii
     - styling-iii
-  '1':
+    - pseudo-classes-i
+    - pseudo-classes-ii
+    - pseudo-elements
+  '2':
+    - flexbox
+    - features
     - recipes
     - responsive-design-tips
+  '3':
     - sass-i
     - sass-ii
     - sass-iii
-  '2':
+    - animations
     - css-animation
 
 prerequisites:

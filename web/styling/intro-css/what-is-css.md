@@ -25,7 +25,13 @@ links:
 ---
 ## Content
 
-**CSS**, also known as **Cascading Style Sheets**, is a styling language that can be applied to HTML, XML or SVG documents.
+**CSS**, also known as **Cascading Style Sheets**, is a styling language that can be applied to HTML, XML or SVG documents. Here's an example:
+
+```css
+p {
+  color: orange;
+}
+```
 
 CSS is very important to get to know about, because pretty much every website nowadays uses it to customize HTML elements.
 
@@ -66,4 +72,3 @@ What does *CSS* stand for?
 * Cross Site Scripting
 * Customer Service Site
 * Computer Styling Sheets
-
