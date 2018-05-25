@@ -28,6 +28,7 @@ sections:
     - html-entities
     - html-versions
 
+
 standards:
   syntax-html:
     name: Identify and evaluate the syntax of HTML
