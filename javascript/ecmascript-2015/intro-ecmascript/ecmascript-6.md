@@ -37,7 +37,7 @@ Which of the following statements about ES6 do you consider false?
 
 ???
 
-* ES6 is fully supported by out-of-the-box by all browsers
+* ES6 is fully supported out-of-the-box by all browsers
 * ES6 can be compiled to ES5
 * ES6 introduces arrow functions
 * ES6 can help write more succint code
