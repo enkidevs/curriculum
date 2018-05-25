@@ -1,4 +1,41 @@
-## Image registries
+---
+author: nem035
+
+levels:
+
+  - beginner
+
+  - basic
+
+
+tags:
+
+  - introduction
+
+  - workout
+
+
+type: normal
+
+category: must-know
+
+
+
+standards:
+  cs.identify-linear-collection-data-structures-usage.0: 1000
+  cs.identify-linear-collection-data-structures-usage.3: 1000
+
+links:
+
+- '[link to official documentation](https://enki.com)'
+- '[link to deeper dive blog post](https://enki.com)'
+- '[link to a video](https://enki.com)'
+- '[link to a discussion](https://enki.com)'
+---
+# Image Registries
+---
+## Content
+
 
 Docker platforms comes with an image registry called Docker Hub on which anybody can store public images.
 

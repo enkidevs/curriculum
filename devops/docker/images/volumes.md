@@ -1,4 +1,42 @@
-## Volumes
+---
+author: nem035
+
+levels:
+
+  - beginner
+
+  - basic
+
+
+tags:
+
+  - introduction
+
+  - workout
+
+  - deep
+
+
+type: normal
+
+category: must-know
+
+
+
+standards:
+  cs.identify-linear-collection-data-structures-usage.0: 1000
+  cs.identify-linear-collection-data-structures-usage.3: 1000
+
+links:
+
+- '[link to official documentation](https://enki.com)'
+- '[link to deeper dive blog post](https://enki.com)'
+- '[link to a video](https://enki.com)'
+- '[link to a discussion](https://enki.com)'
+---
+# Volumes
+---
+## Content
 
 Although containers are immutable and their data gets removed when they do, it is still useful sometimes to persist data through a container(s) lifecycle.
 
@@ -45,14 +83,37 @@ We can specify usage of `--tmpfs` in the `docker run` command:
 
 Using `docker volume create` is the only way we could change the driver for a volume.
 
-Q: Volume data is still available when we remove the container.
-Ans: T, F
-Correct: T
+---
+## Practice
 
-Q: Multiple containers can share the same volume.
-Answers: T, F
-Correct: T
+Volume data is still available when we remove the container.
 
-Q: Volumes increase the size of the container.
-Answers: T, F
-Correct: F
+???
+
+* true
+* false
+* true, but only with a safe exit
+* true, but the data cannot be altered
+
+---
+## Revision
+
+Multiple containers can share the same volume.
+
+???
+
+* true
+* false
+* true, but the data cannot be altered
+
+--
+## Quiz
+
+### How much do you know about volumes in Docker containers?
+
+Can Volumes increase the size of the container?
+
+* No
+* Yes
+* Yes, if the container shares a volume with another container
+* Yes, but only during the build process

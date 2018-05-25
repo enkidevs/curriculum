@@ -1,4 +1,41 @@
-## What is Docker
+---
+author: nem035
+
+levels:
+
+  - beginner
+
+  - basic
+
+
+tags:
+
+  - introduction
+
+  - workout
+
+
+type: normal
+
+category: must-know
+
+
+
+standards:
+  cs.identify-linear-collection-data-structures-usage.0: 1000
+  cs.identify-linear-collection-data-structures-usage.3: 1000
+
+links:
+
+- '[link to official documentation](https://enki.com)'
+- '[link to deeper dive blog post](https://enki.com)'
+- '[link to a video](https://enki.com)'
+- '[link to a discussion](https://enki.com)'
+---
+# What is Docker?
+---
+
+## Content
 
 Docker is an open-source tool designed to make it easier to create, run and deploy applications by using containers.
 
@@ -8,10 +45,22 @@ Using Docker we can package our application with all of its dependencies into a 
 
 Docker enables us to separate our applications from our infrastructure so we can deliver software quickly. Developers can focus on writing the application code without worrying a lot about the system that it will ultimately be running on.
 
-PQ: Docker allows us to easily run and deploy our applications using ???.
-Answers: containers, virtual machines, databases, networks
-Correct: containers
+---
+## Practice
 
-RQ: Docker allows us to develop our application ??? and run it ???
-Answers: once, anywhere, quickly, always
-Correct: once, anywhere
+Docker allows us to easily run and deploy our applications using ???.
+
+* containers
+* virtual machines
+* databases
+* networks
+
+---
+## Revision
+
+Docker allows us to develop our application ??? and run it ??? ?
+
+* once
+* anywhere
+* quickly
+* always

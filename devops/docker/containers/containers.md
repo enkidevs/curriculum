@@ -1,8 +1,40 @@
-## Containers
+---
+author: nem035
 
-Read more link: https://www.docker.com/what-container
+levels:
 
-Containers are a way of isolating an application with its own environment. It's alightweight alternative to full-blown virtualization.
+  - beginner
+
+  - basic
+
+
+tags:
+
+  - introduction
+
+  - workout
+
+
+type: normal
+
+category: must-know
+
+
+
+standards:
+  cs.identify-linear-collection-data-structures-usage.0: 1000
+  cs.identify-linear-collection-data-structures-usage.3: 1000
+
+links:
+
+- '[official Docker documentation](https://www.docker.com/what-container)'
+
+---
+# Containers
+---
+
+
+Containers are a way of isolating an application with its own environment. It's a lightweight alternative to full-blown virtualization.
 
 They are the fundamental building blocks of the Docker toolkit and effectively represent runtime instances of Docker images (more on Docker images later).
 
@@ -46,10 +78,22 @@ In essence: `docker run = docker container create + docker container start`
 ❯ docker run --name webserver -p 8080:80 -it nginx
 ```
 
-PQ: Docker container is more ??? than a VM which allows it to be started, stopped and replicated more ???
-Answers: light-weight, efficiently, isolated, frequently
-Correct: light-weight, efficiently
+---
+## Practice
 
-RQ: To create and start a container in a single command, we use ???:
-Answers: `docker run`, `docker go`, `docker container create+start`, `docker begin`
-Correct: `docker run`
+Docker container is more ??? than a VM which allows it to be started, stopped and replicated more ???
+
+* light-weight
+* efficiently
+* isolated
+* frequently
+
+---
+## Revision
+
+To create and start a container in a single command, we use ???:
+
+* `docker run`
+* `docker go`
+* `docker container create+start`
+* `docker begin`

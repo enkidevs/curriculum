@@ -1,4 +1,39 @@
-## Images
+---
+author: nem035
+
+levels:
+
+  - beginner
+
+  - basic
+
+
+tags:
+
+  - introduction
+  - workout
+
+
+type: normal
+
+category: must-know
+
+
+
+standards:
+  cs.identify-linear-collection-data-structures-usage.0: 1000
+  cs.identify-linear-collection-data-structures-usage.3: 1000
+
+links:
+
+- '[link to official documentation](https://enki.com)'
+- '[link to deeper dive blog post](https://enki.com)'
+- '[link to a video](https://enki.com)'
+- '[link to a discussion](https://enki.com)'
+---
+# Images
+---
+## Content
 
 A Docker image represents a blueprint for creating containers.
 
@@ -45,10 +80,22 @@ An image that doesn't extend any other image is known as the base image.
 
 Images are built using a special configuration file (usually) named Dockerfile and the `docker build` command.
 
-PQ: Docker images are composed of ???
-Answers: layers, containers, pixels, fragments
-Correct: layers
+---
+## Practice
 
-RQ: A Docker image can be modified.
-Answers: T, F
-Correct: F
+Docker images are composed of ???
+
+* layers
+* containers
+* pixels
+* fragments
+
+---
+## Revision
+
+A Docker image can be modified.
+
+???
+
+* false
+* true

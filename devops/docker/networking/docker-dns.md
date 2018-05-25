@@ -1,4 +1,42 @@
-### Docker Network DNS
+---
+author: nem035
+
+levels:
+
+  - beginner
+
+  - basic
+
+
+tags:
+
+  - introduction
+
+  - workout
+
+  - deep
+
+
+type: normal
+
+category: must-know
+
+
+
+standards:
+  cs.identify-linear-collection-data-structures-usage.0: 1000
+  cs.identify-linear-collection-data-structures-usage.3: 1000
+
+links:
+
+- '[link to official documentation](https://enki.com)'
+- '[link to deeper dive blog post](https://enki.com)'
+- '[link to a video](https://enki.com)'
+- '[link to a discussion](https://enki.com)'
+---
+# Docker DNS
+---
+## Content
 
 We can't really rely on IP addresses in a dynamic system like Docker.
 Using static IPs for talking to containers is an anti-pattern and should be avoided.

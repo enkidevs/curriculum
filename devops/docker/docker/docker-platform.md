@@ -1,4 +1,39 @@
-## Docker Platform
+---
+author: nem035
+
+levels:
+
+  - beginner
+
+  - basic
+
+
+tags:
+
+  - introduction
+
+  - workout
+
+
+type: normal
+
+category: must-know
+
+
+
+standards:
+  cs.identify-linear-collection-data-structures-usage.0: 1000
+  cs.identify-linear-collection-data-structures-usage.3: 1000
+
+links:
+
+- '[link to official documentation](https://enki.com)'
+- '[link to deeper dive blog post](https://enki.com)'
+- '[link to a video](https://enki.com)'
+- '[link to a discussion](https://enki.com)'
+---
+# Docker Platform
+---
 
 Docker uses a client-server architecture consisting of 2 parts.
 
@@ -12,10 +47,23 @@ The Docker platform also has public registries (Docker Hub and Docker Cloud) tha
 
 Any Docker container can run on any server that has the Docker daemon installed, regardless of the underlying operating system.
 
-PQ: What do the Docker daemon and Docker CLI use to communicate?
-Answers: Docker REST API, Docker SOAP API, Docker channels, Docker Objects
-Correct: Docker REST API
 
-RQ: The two main parts of the Docker architecture are the ??? and the ???
-Answers: Docker CLI, Docker daemon, Docker Object, Docker container
-Correct: Docker CLI, Docker daemon
+---
+## Practice
+
+What do the Docker daemon and Docker CLI use to communicate? ???
+
+* Docker REST API
+* Docker SOAP API
+* Docker channels
+* Docker Objects
+
+---
+## Revision
+
+The two main parts of the Docker architecture are the ??? and the ???
+
+* Docker CLI
+* Docker daemon
+* Docker Object
+* Docker container

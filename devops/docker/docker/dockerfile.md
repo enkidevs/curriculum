@@ -1,4 +1,41 @@
-## Dockerfile
+---
+author: nem035
+
+levels:
+
+  - beginner
+
+  - basic
+
+
+tags:
+
+  - introduction
+
+  - workout
+
+
+type: normal
+
+category: must-know
+
+
+
+standards:
+  cs.identify-linear-collection-data-structures-usage.0: 1000
+  cs.identify-linear-collection-data-structures-usage.3: 1000
+
+links:
+
+- '[link to official documentation](https://enki.com)'
+- '[link to deeper dive blog post](https://enki.com)'
+- '[link to a video](https://enki.com)'
+- '[link to a discussion](https://enki.com)'
+---
+# Dockerfile
+---
+
+## Content
 
 A Dockerfile represents an image creation spec.
 
@@ -54,11 +91,21 @@ Whenever we change a line in the Dockerfile, the cached result for every line af
 
 Due to this, a good convention is to keep the things that change the least at the top of the Dockerfile and things that change the most at the bottom.
 
-PQ: A Dockerfile contains instructions the Docker daemon uses to build containers.
-Answers: T, F
-Correct: F
+---
+## Practice
 
-RQ: The result of each Dockerfile instruction is cached and dependent on the cached result of the instruction before it.
+A Dockerfile contains instructions the Docker daemon uses to build containers.
+???
 
-Answers: cached, cached, computed, computed.
-Correct: cached, cached.
+* true
+* false
+
+---
+## Revision
+
+The result of each Dockerfile instruction is cached and dependent on the cached result of the instruction before it.
+
+???
+
+* true
+* false

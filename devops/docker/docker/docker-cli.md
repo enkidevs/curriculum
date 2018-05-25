@@ -1,4 +1,40 @@
-## Docker CLI
+---
+author: nem035
+
+levels:
+
+  - beginner
+
+  - basic
+
+
+tags:
+
+  - introduction
+
+  - workout
+
+
+type: normal
+
+category: must-know
+
+
+
+standards:
+  cs.identify-linear-collection-data-structures-usage.0: 1000
+  cs.identify-linear-collection-data-structures-usage.3: 1000
+
+links:
+
+- '[link to official documentation](https://enki.com)'
+- '[link to deeper dive blog post](https://enki.com)'
+- '[link to a video](https://enki.com)'
+- '[link to a discussion](https://enki.com)'
+---
+# Docker CLI
+---
+## Content
 
 Docker comes with a command-line interface (CLI) that uses the Docker REST API to control or interact with the Docker daemon. This gives us a fine-grain control to manipulate containers, images, networks, services and other Docker Objects.
 
@@ -53,9 +89,25 @@ Docker CLI (and Docker in general) has a concept of "_batteries included but rem
 
 This essentially means that the default configurations in Docker are setup to be easy to use and solve the most common problems but that we can change most of the options under the hood. Defaults work well in many cases, but it's easy to overwrite them when needed.
 
-Q: To inspect a Docker `nginx` image, we'd run the command:
-Answers: `docker image inspect nginx`, `docker inspect image nginx`, `docker image nginx inspect`, `docker inspect nginx image`
+---
+## Practice
 
-PQ: To fetch the logs for a Docker container named `webserver`, we'd run:
-Answers: `docker container logs webserver`, `docker logs container webserver`, `docker show logs webserver`, `docker container-logs`
-Correct: `docker container logs webserver`
+To inspect a Docker `nginx` image, we'd run the command:
+???
+
+* `docker image inspect nginx`
+* `docker inspect image nginx`
+* `docker image nginx inspect`
+* `docker inspect nginx image`
+
+---
+## Revision
+
+To fetch the logs for a Docker container named `webserver`, we'd run:
+
+???
+
+* `docker container logs webserver`
+* `docker logs container webserver`
+* `docker show logs webserver`
+* `docker container-logs`
