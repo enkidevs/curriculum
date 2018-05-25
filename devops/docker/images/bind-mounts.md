@@ -21,8 +21,6 @@ type: normal
 
 category: must-know
 
-
-
 standards:
   cs.identify-linear-collection-data-structures-usage.0: 1000
   cs.identify-linear-collection-data-structures-usage.3: 1000
@@ -52,42 +50,3 @@ Similarly to volumes, a bind mount is done with the `-v` flag but we pass in a f
 TEXT TO USE TO EXTRACT QUESTION:
 
 > Bind mounts have limited functionality compared to volumes. When you use a bind mount, a file or directory on the host machine is mounted into a container. The file or directory is referenced by its full or relative path on the host machine. By contrast, when you use a volume, a new directory is created within Docker’s storage directory on the host machine, and Docker manages that directory’s contents.
-
-
----
-## Practice
-
-This question will be shown with the insight, and users will have just read the content.
-It's best to use a code example here.
-
-example:
-Given this directory structure, change directories **from** `www/css` **to** `www/images/promo`:
-```
-- www
-  - css
-  - images
-    - promo
-  - js
-
-```
-
-`cd ???/???/???`
-
-* ..
-* images
-* promo
-* www
-* js
-* .
-* ^
-
----
-## Revision
-
-Revision questions are shown without the insight, and users may never have seen the content. Use a code example or multiple choice question.
-
-???
-
-* right answer
-* wrong answer
-* wrong answer 2

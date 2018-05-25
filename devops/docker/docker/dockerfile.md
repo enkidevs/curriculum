@@ -19,11 +19,16 @@ type: normal
 
 category: must-know
 
-
-
 standards:
-  cs.identify-linear-collection-data-structures-usage.0: 1000
-  cs.identify-linear-collection-data-structures-usage.3: 1000
+  devops.identify-docker.0: 10
+  devops.identify-docker.1: 10
+  devops.dockerfiles.0: 10
+  devops.dockerfiles.1: 10
+  devops.dockerfiles.3: 10
+  devops.dockerfiles.4: 10
+  devops.dockerfiles.5: 10
+  devops.dockerfiles.6: 10
+
 
 links:
 

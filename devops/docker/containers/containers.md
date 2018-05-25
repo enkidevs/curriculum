@@ -19,11 +19,8 @@ type: normal
 
 category: must-know
 
-
-
 standards:
-  cs.identify-linear-collection-data-structures-usage.0: 1000
-  cs.identify-linear-collection-data-structures-usage.3: 1000
+  devops.identify-docker.1: 10
 
 links:
 
@@ -32,7 +29,7 @@ links:
 ---
 # Containers
 ---
-
+## Content
 
 Containers are a way of isolating an application with its own environment. It's a lightweight alternative to full-blown virtualization.
 
