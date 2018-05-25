@@ -132,7 +132,7 @@ Another way of getting the current time is via the `.now()` method. The differen
 
 Since `tzinfo` is an *abstract base class*, you need to define a subclass and provide appropriate implementations for a few methods to make it useful. Unfortunately, `datetime` does not include ready-to-use implementations for this.
 
-However, with now arguments passed, both functions behave the same:
+However, with no arguments passed, both functions behave the same:
 ```python
 from datetime import datetime
 print(datetime.today())
