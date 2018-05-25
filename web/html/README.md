@@ -17,6 +17,10 @@ sections:
     - forms-ii
     - meta-elements
     - sectioning-elements
+  '2':
+    - forms-iii
+    - forms-iv
+    - forms-v
 
 standards:
   syntax-html:
