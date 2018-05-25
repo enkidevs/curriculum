@@ -7,7 +7,6 @@ levels:
   - medium
 
 tags:
-  - introduction
   - workout
 
 type: exercise
