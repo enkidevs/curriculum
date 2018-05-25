@@ -1,6 +1,6 @@
 name: HTML
 
-description: Fundamentals of HTML and CSS.
+description: HyperText Markup Language, the most commonly used markup on the web!
 
 core: true
 
