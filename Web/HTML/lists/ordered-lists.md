@@ -31,12 +31,9 @@ The `<ol>` element has 4 attributes:
   
 The `reversed` attribute is of type boolean and is used to specify that the items in the list are in the reversed order.
 
-The `type` attribute is used to indicate a numbering type:
-  - 
-
 The `start` attribute was deprecated in HTML4 but reintroduced back in HTML5. This attribute is used to specify which number/value the list starts counting. Even if your numbering type is set to letters or anything else different than a number you still have to set the value in numbers: `<ol start="5">`.
 
-The `type` attribute is used to specify a type for the entire list:
+The `type` attribute is used to specify a numbering type for the entire list:
   - `a` specifies lowercase letters
   - `A` specifies uppercase letters
   - `i` specifies lowercase Roman numerals
