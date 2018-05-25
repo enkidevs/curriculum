@@ -19,7 +19,7 @@ links:
   - '[docs.python.org](https://docs.python.org/3.5/library/datetime.html#datetime-objects){website}'
 
 standards:
-  py.native-types-operations.8: 10
+  python.native-types-operations.8: 10
 
 parent: time-object
 
@@ -85,13 +85,54 @@ print(today.strftime(format))
 ```
 
 ---
+## Practice
+
+Check if `date_one` is closer to the present than `date_two`:
+
+```python
+import datetime
+
+if ??? ??? ???:
+  print(True)
+else:
+  print(False)
+
+```
+
+* date_one
+* > 
+* date_two
+* <
+* Equals()
+
+---
+## Revision
+
+Complete the following code snippet such that it will print the current date and time:
+
+```python
+import datetime
+
+???(???)
+```
+
+* print
+* today
+* now
+* atm
+* time
+
+
+
+
+---
 ## Footnotes
 [1:Current datetime]
 Another way of getting the current time is via the `.now()` method. The difference between the two approaches is that `now()` can take an optional `tzinfo` (**timezone information**) argument.
 
 Since `tzinfo` is an *abstract base class*, you need to define a subclass and provide appropriate implementations for a few methods to make it useful. Unfortunately, `datetime` does not include ready-to-use implementations for this.
 
-However, with now arguments passed, both functions behave the same:
+However, with no arguments passed, both functions behave the same:
 ```python
 from datetime import datetime
 print(datetime.today())
@@ -116,3 +157,4 @@ Here are few special date formatting characters supported by the method:
 - `%S`: second (e.g `57`)
 
 The full list is actually the one implemented by **C standard** (1989 version)
+ 

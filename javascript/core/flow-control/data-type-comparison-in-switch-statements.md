@@ -11,15 +11,13 @@ category: caveats
 
 standards:
 
-  js.control-flow.2: 10
+  javascript.control-flow.2: 10
 
-  js.data-types-structures.5: 10
+  javascript.data-types-structures.5: 10
 
 tags:
 
   - introduction
-
-  - workout
 
 
 links:
@@ -104,4 +102,3 @@ switch(x){
 * `nothing`
 * `'Hi!'`
 * `an error`
-

@@ -10,7 +10,7 @@ type: normal
 category: must-know
 
 standards:
-  py.object-oriented.6: 10
+  python.object-oriented.6: 10
 
 ---
 
@@ -47,6 +47,33 @@ emily.print_idnum()
 ```
 
 ---
+## Practice
+
+Create an instance of the previousely defined class `Employee`. It should have "Steve" as an argument:
+
+```python
+class Employee:
+  count = 0
+  def __init__(self, name):
+    Employee.count += 1
+    self.name = name
+    self.idnum = Employee.count
+  def print_idnum(self):
+    print("{0} is employee no. {1}"
+      .format(self.name, self.idnum))
+
+steve = ???(???)
+```
+
+* Employee
+* 'Steve'
+* Steve
+* Employer
+* employee
+
+
+
+---
 ## Revision
 
 The most specific syntagm used to define the `count` variable below is:
@@ -62,3 +89,4 @@ class Car:
 * instance attribute
 * class variable
 * instance variable
+ 

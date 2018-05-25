@@ -98,7 +98,7 @@ You can incorporate the error stream into the output stream using
 * 2>&0
 
 ---
-## Quiz
+## Quiz 
 ### how do you merge output streams?
 
 

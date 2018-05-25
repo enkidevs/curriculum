@@ -26,11 +26,9 @@ tags:
 
   - workout
 
-
 links:
 
   - '[SQL Tutorial: WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}'
-
 
 ---
 
@@ -91,12 +89,11 @@ Select all the rows from the `pokemon` table where the name is exactly equal to 
 * IS
 
 ---
-## Quiz
+## Quiz 
 ### Can you find a particular entry in a table with SQL?
 
 Consider the `ability` table and the following query:
-```bash
-
+```
 
 id   | is_main_series | generation_id |      name      
 =====|================|===============|===============
@@ -119,3 +116,4 @@ have this result when used with the above query?
 * WHERE name IS "speed-boost";
 * WHERE ability='speed-boost';
 * WHERE id='speed-boost';
+ 

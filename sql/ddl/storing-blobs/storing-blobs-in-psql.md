@@ -22,9 +22,6 @@ tags:
 
   - deep
 
-
-
-
 ---
 
 # Handling Blobs in SQL
@@ -85,3 +82,4 @@ In a PostgreSQL database, insert a hex string into a `bytea` field:
 * `FROM`
 * `hex`
 
+ 

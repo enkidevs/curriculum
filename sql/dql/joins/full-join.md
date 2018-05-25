@@ -47,6 +47,7 @@ FROM move
 FULL OUTER JOIN type ON
 move.type_id = type.id;
 ```
+
 However, if our **type** table had the extra `wood` type and there was an extra `coolest-move-ever` in the **move** table, both values would get printed, on top of the other 640 rows:
 ```
 id  |        name       |   id   | type_name
@@ -98,13 +99,12 @@ pokemon_type.type_id = type.id
 * `OUTER JOIN`
 
 ---
-## Quiz
+## Quiz 
 ### Can you select data from two related tables in SQL?
+
 Given the tables called `location` and `location_area`:
 
-
-
-```bash
+```
 id  | region_id |     name           
 ====|===========|===============
   1 |         4 | canalave-city
@@ -124,7 +124,7 @@ id  | game_index | location_id |       name
 
 Note that there are 6 regions, but not all locations belong to one of them. Get location id, game index and region id for all records. It doesn't matter whether there is no game index for a region or vice versa. The result should look like this:
 
-```bash
+```
 
 id  | game_index | region_id
 ====|============|===========
@@ -145,3 +145,4 @@ id  | game_index | region_id
 * SELECT location.id,location_area.game_index,location.region_id FROM location INNER JOIN location_area ON location.id = location_area.id;
 * SELECT location.id,location_area.game_index,location.region_id FROM location LEFT JOIN location_area ON location.id = location_area.id;
 * SELECT location.id,location_area.game_index,location.region_id FROM location RIGHT JOIN location_area ON location.id = location_area.id;
+ 

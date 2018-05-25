@@ -2,25 +2,26 @@
 author: mihaiberq
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
   - advanced
 
 type: normal
 
 category: must-know
 
-
-
 parent: npm-variables
 
----
+standards:
+  javascript.npm-tasks-and-modules-manager.3: 10
 
+tags:
+  - introduction
+  - workout
+  - deep
+
+---
 # Hook Scripts
 
 ---
@@ -61,8 +62,7 @@ What command does `npm start` run by default?
 $ ???
 ```
 
-* `node server.js`
-* `gulp`
-* `node -v`
-* `npm install`
-
+* node server.js
+* gulp
+* node -v
+* npm install

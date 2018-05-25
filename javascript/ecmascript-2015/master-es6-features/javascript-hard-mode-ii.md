@@ -52,6 +52,7 @@ g.next(); // {value: f, done: false}
 The mistake here is that only **generator** objects have `next()` method implemented. If we try to call `next()` as a chain, the second one will be applied to the **return value** of the first `next()` and not on the **generator** object.
 That is why `Error` is the right answer.
 %
+
 ---
 ```
 typeof (new class f()
@@ -64,6 +65,7 @@ typeof (new class f()
 %exp
 The above example results in **SyntaxError** because `class name f()` is not syntactically correct in JavaScript.
 %
+
 ---
 ```
 typeof `${{Object}}`.prototype
@@ -79,6 +81,7 @@ Here **ES6**'s short notation for **object literals** which states that `{Object
 
  In the end we use `prototype` property on the string '[Object Object]', this results in `undefined`.
 %
+
 ---
 ```
 ((...x, xs)=>x)(1,2,3)
@@ -90,6 +93,7 @@ Here **ES6**'s short notation for **object literals** which states that `{Object
 %exp
 Rest parameters can only appear on the last position. Here `...x` is used first, this results in `Error`.
 %
+
 ---
 ```
 let arr = [ ];
@@ -105,6 +109,7 @@ arr;
 %exp
 The variable `y` is in **scope**, but since it's never initialized it stays in **Temporal Dead Zone**, so it can't accessed.
 %
+
 ---
 ```
 (function() {

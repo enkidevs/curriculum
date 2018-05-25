@@ -11,10 +11,14 @@ category: how to
 
 standards:
 
-  js.data-types-structures.3: 10
+  javascript.data-types-structures.3: 10
 
-  js.data-types-structures.4: 10
+  javascript.data-types-structures.4: 10
+  javascript.evaluate-expressions.6: 10
+  javascript.evaluate-expressions.7: 10
 
+tags:
+  - introduction
 
 links:
 
@@ -29,7 +33,7 @@ notes: Hope it's not too basics?
 ---
 ## Content
 
-Setting the property to `null` or `undefined` only removes the value associated with given property. It does not remove the key. 
+Setting the property to `null` or `undefined` only removes the value associated with given property. It does not remove the key.
 
 ```
 var obj = { one: 1 }
@@ -95,4 +99,3 @@ console.log(obj);
 * `{ one: undefined }`
 * `{ one: null }`
 * `{ }`
-

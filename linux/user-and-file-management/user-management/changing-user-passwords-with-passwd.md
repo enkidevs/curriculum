@@ -66,7 +66,7 @@ Do you have to be a root to change your own password using  `passwd` ?
 * Yes
 
 ---
-## Quiz
+## Quiz 
 ### Can you identify a security vulnerability?
 
 

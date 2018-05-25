@@ -132,7 +132,7 @@ def deco(self):
 * they are all valid
 
 ---
-## Quiz
+## Quiz 
 ### what is the output of the following snippet?
 
 ```python

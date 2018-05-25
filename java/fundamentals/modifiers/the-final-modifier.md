@@ -71,7 +71,7 @@ Variables declared `final` cannot be ???.
 * referenced
 
 ---
-## Quiz
+## Quiz 
 ### how do final variables work?
 
 ```java

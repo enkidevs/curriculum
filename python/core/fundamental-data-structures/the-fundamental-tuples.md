@@ -10,7 +10,7 @@ type: normal
 category: must-know
 
 standards:
-  py.native-types-operations.4: 10
+  python.native-types-operations.4: 10
 
 links:
 
@@ -111,7 +111,7 @@ ex_tuple = ("Python", 1, "Enki", 2)
 * `1`
 
 ---
-## Quiz
+## Quiz 
 ### how does unpacking work?
 
 ```python
@@ -126,3 +126,4 @@ print(b)
 * 2
 * 3,4,5
 * 1,2,3,4,5
+ 

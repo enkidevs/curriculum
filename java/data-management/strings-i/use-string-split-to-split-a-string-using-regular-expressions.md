@@ -62,7 +62,7 @@ Splitting on `\d`:
 Java’s split method ignores any trailing empty Strings.
 
 ---
-## Quiz
+## Quiz 
 ### how does string splitting work?
 
 What's the value of `l`?

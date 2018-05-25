@@ -2,11 +2,8 @@
 author: dean
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
@@ -14,33 +11,21 @@ type: normal
 category: pattern
 
 standards:
-
-  js.functions.1: 10
-
-  js.functions.6: 10
-
-  js.execution-context.2: 10
+  javascript.functions.1: 10
+  javascript.functions.6: 10
+  javascript.execution-context.2: 10
 
 tags:
-
   - introduction
-
   - workout
-
   - method
-
   - function
-
   - chaining
 
-
 links:
-
   - '[schier.co](http://schier.co/blog/2013/11/14/method-chaining-in-javascript.html){website}'
 
-
 ---
-
 # Method chaining
 
 ---
@@ -77,14 +62,64 @@ Bar.prototype.setLast = function(last)
 ```
 
 ---
+## Practice
+
+Complete the missing gaps such that the log statements on the last lines will print the commented output.
+
+```javascript
+
+var Rectangle = function() {
+  this.??? = null
+  this.length = null
+}
+
+Rectangle.???
+  .??? = function(width) {
+    this.width = width
+    ???
+ }
+
+???.prototype
+  .setLength = function(length)  {
+    this.??? = length
+    return ???
+  }
+
+const r = (new Rectangle())
+  .setWidth(20)
+  .setLength(30)
+
+console.log(r.length) // 30
+console.log(r.width) //20
+
+```
+
+* width
+* prototype
+* setWidth
+* return this
+* Rectangle
+* length
+* this
+* new
+* setLength
+* new
+* return r
+* r
+* return
+* return null
+* return undefined
+* return width
+
+
+
+---
 ## Revision
 
 How is method chaining typically enabled?
 
 ???
 
-
 * Implementing methods that return `this`
 * No need for implementation
 * Updating the object to allow this
-

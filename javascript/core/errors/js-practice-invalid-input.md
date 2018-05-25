@@ -13,9 +13,9 @@ link: https://www.codewars.com/kata/invalid-input-error-handling-number-1
 linkType: codewars
 standards:
 
-  js.exceptions.0: 1000
-  js.exceptions.1: 1000
-  js.exceptions.2: 1000
+  javascript.exceptions.0: 1000
+  javascript.exceptions.1: 1000
+  javascript.exceptions.2: 1000
 
 links:
 

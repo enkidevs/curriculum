@@ -25,7 +25,7 @@ tags:
 
 
 links:
-  - '[mysql define tables documentation](https://dev.mysql.com/doc/refman/5.7/en/creating-tables.html){website}'
+  - '[MySQL define tables documentation](https://dev.mysql.com/doc/refman/5.7/en/creating-tables.html){website}'
   - '[explainer on how to create tables](https://www.w3schools.com/sql/sql_create_table.asp){website}'
   - '[video tutorial on creating tables](https://youtu.be/EaRj0S3K32Y?t=58s){video}'
 
@@ -96,3 +96,4 @@ column3: salary int
 ## Footnotes
 [1:PRIMARY KEY]
 A primary key is a field in a table that identifies each row in a db.
+ 

@@ -2,23 +2,27 @@
 author: catalin
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
 
 category: feature
 
+standards:
+  javascript.use-open-source-javascript-packages.0: 10
+  javascript.npm-publish.0: 10
 
-links:
-
-  - '[docs.npmjs.com](https://docs.npmjs.com/files/package.json#optionaldependencies){website}'
+tags:
+  - workout
+  - deep
 
 parent: check-data-about-a-package
+
+links:
+  - '[docs.npmjs.com](https://docs.npmjs.com/files/package.json#optionaldependencies){website}'
+
 
 ---
 
@@ -75,9 +79,7 @@ In what object of `package.json` can dispensable dependencies be specified?
 
 ???
 
-
-* `optionalDependenceis`
-* `peerDependencies`
-* `devDependenceis`
-* `dependencies`
-
+* optionalDependenceis
+* peerDependencies
+* devDependenceis
+* dependencies

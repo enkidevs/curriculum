@@ -10,7 +10,7 @@ type: normal
 category: must-know
 
 standards:
-  py.store-manipulate-data.6: 10
+  python.store-manipulate-data.6: 10
 
 links:
 
@@ -91,7 +91,7 @@ b = 3
 * None is true.
 
 ---
-## Quiz
+## Quiz 
 ### what is the result of the following identity check?
 
 `> python -i`  
@@ -113,3 +113,4 @@ b = 3
 * True and True
 * False and True
 * False and False
+ 

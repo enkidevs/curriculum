@@ -10,7 +10,7 @@ insights:
   - union
 
 exercises:
-  - sql-practice-aggregate-multiple-tables
+  - sql-practice-join-multiple-tables
   - sql-practice-average-aggregate-multiple-tables
   - sql-practice-max-aggregate-multiple-tables
   - sql-practice-min-max-multiple-tables

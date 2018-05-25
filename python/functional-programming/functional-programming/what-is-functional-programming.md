@@ -61,7 +61,7 @@ calc_square = square
 
 # Passing a function as an argument:
 def calculate(x, func):
-  return funct(x)
+  return func(x)
 
 result = calculate(2, calc_square)
 print(result)

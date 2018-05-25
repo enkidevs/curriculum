@@ -37,7 +37,7 @@ CTRL+Z  # pauses an application
 fg # returns you to the
    # most recent application
 
-bg # sends a paused process process
+bg # sends a paused process
    # to run in the background
 ```
 Let's say you've opened a file in `nano` (terminal text editor) like this :

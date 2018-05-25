@@ -2,11 +2,8 @@
 author: mihaiberq
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
 
 type: normal
@@ -14,21 +11,17 @@ type: normal
 category: best practice
 
 tags:
-
   - introduction
-
   - new
-
   - deep
 
+standards:
+  javascript.identify-common-design-patterns.6: 10
 
 links:
-
   - '[Modularize your solutions](https://github.com/i0natan/nodebestpractices/blob/master/sections/projectstructre/breakintcomponents.md){website}'
 
-
 ---
-
 # Split Your Project into Components
 
 ---
@@ -75,7 +68,7 @@ Can you point out the main reason for breaking up big projects into microservice
 * To hire more developers.
 
 ---
-## Quiz
+## Quiz 
 ### Can you identify a property of microservices?
 
 ```javascript

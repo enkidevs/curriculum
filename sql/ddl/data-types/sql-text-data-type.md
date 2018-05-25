@@ -20,9 +20,6 @@ tags:
 
   - workout
 
-
-
-
 ---
 
 # SQL Text Data Types
@@ -77,3 +74,4 @@ Which of the following vendors discontinued the support for the `text` data type
 * MySQL
 * All
 
+ 

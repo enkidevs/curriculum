@@ -8,7 +8,6 @@ insights:
   - py-function-arguments
   - the-return-statement
   - nested-functions
-  - testing-functions-inline-with-doctest-to-provide-tested-examples-and-make-your-code-easier-to-understand
 
 exercises:
   - py-practice-functions

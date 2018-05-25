@@ -24,12 +24,10 @@ tags:
 
   - workout
 
-
 links:
 
   - '[Left outer join](https://en.wikipedia.org/wiki/Join_(SQL)#Left_outer_join){website}'
   - '[Right outer join](https://en.wikipedia.org/wiki/Join_(SQL)#Right_outer_join){website}'
-
 
 ---
 
@@ -60,6 +58,7 @@ id | name  | id | type_name
 ===+=======+====+==========
 1  | pound | 1  | normal
 ```
+
 The equivalent `RIGHT OUTER JOIN`:
 ```sql
 SELECT move.id, move.name,
@@ -68,6 +67,7 @@ FROM move
 RIGHT OUTER JOIN type ON
 move.type_id = type.id;
 ```
+
 Yields the same first row (of 640 rows):
 ```
 id | name  | id | type_name   
@@ -123,12 +123,12 @@ type.id = type_efficacy.target_type_id;
 * `WHERE`
 
 ---
-## Quiz
+## Quiz 
 ### LEFT OR RIGHT?
 
 Given the tables called `location_area` and `location`:
 
-```bash
+```
 id  | game_index | location_id |       name                      
 ====|============|=============|=====================
   1 |          1 |           1 | canalave-city-area
@@ -147,7 +147,7 @@ id  | region_id |     name
 
 Note that there are 6 regions, but not all locations belong to one of them. Get game_index's region, `NULL` if there is none. The result should look like this:
 
-```bash
+```
 
 id  | game_index | region_id
 ====|============|===========
@@ -165,3 +165,4 @@ id  | game_index | region_id
 * SELECT location.id,location_area.game_index,location.region_id FROM location FULL OUTER JOIN location_area ON location.id = location_area.id;
 * SELECT location.id,location_area.game_index,location.region_id FROM location INNER JOIN location_area ON location.id = location_area.id;
 * SELECT location.id,location_area.game_index,location.region_id FROM location RIGHT JOIN location_area ON location.id = location_area.id;
+ 

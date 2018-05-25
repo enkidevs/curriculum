@@ -12,7 +12,7 @@ type: normal
 category: must-know
 
 standards:
-  py.standard-library-operating-system.5: 10
+  python.standard-library-operating-system.5: 10
 
 links:
 
@@ -35,7 +35,7 @@ The most **basic output** function in **Python** is `print()`[1]. The arguments 
 
 The syntax simply is:
 ```
-print('This is a print statement.'')
+print('This is a print statement.')
 ```
 This will produce the following result on your screen:
 ```
@@ -150,3 +150,4 @@ Standard streams are preconnected communication channels between a computer prog
 
 [3: eval]
 Bad things can happen if you decide to use `eval(input())` in your program, as you can't ensure that users will be responsible. For example one could enter `os.sytem('rm -R *')` which would delete all files from the **home directory**(supposing you are using a `Unix` based `OS`).
+ 

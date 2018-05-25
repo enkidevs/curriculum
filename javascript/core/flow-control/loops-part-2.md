@@ -12,17 +12,12 @@ category: must-know
 inAlgoPool: false
 
 standards:
-
-  js.control-flow.3: 10
+  javascript.control-flow.0: 10
+  javascript.control-flow.3: 10
 
 tags:
 
   - introduction
-
-  - workout
-
-
-
 
 ---
 
@@ -129,4 +124,3 @@ To exit a loop, you can use the ??? keyword.
 * stop
 * finish
 * end
-

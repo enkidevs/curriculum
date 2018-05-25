@@ -19,14 +19,16 @@ standards:
   sql.write.5: 1000
 
 links:
-  - '[mysql DELETE documentation](https://dev.mysql.com/doc/refman/5.7/en/delete.html){website}'
-  - '[mysql DELETE blog post](https://www.techonthenet.com/mysql/delete.php){website}'
-  - '[video tutorial on DELETE mysql](https://www.youtube.com/watch?v=qb7abQ6ROy4){video}'
+  - '[MySQL DELETE documentation](https://dev.mysql.com/doc/refman/5.7/en/delete.html){documentation}'
+  - '[MySQL DELETE blog post](https://www.techonthenet.com/mysql/delete.php){website}'
+  - '[video tutorial on DELETE MySQL](https://www.youtube.com/watch?v=qb7abQ6ROy4){video}'
 
 ---
+
 # SQL Practice Delete
 
 ---
 ## Exercise
 
-From `item` table `DELETE` the item having id 10.
+In the `item` table, `DELETE` the item having id 10. Make sure to submit the SQLFiddle link, to show that you've completed the exercise.
+ 

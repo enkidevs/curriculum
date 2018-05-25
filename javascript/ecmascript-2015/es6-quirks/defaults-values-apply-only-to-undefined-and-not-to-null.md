@@ -86,7 +86,7 @@ const {a = 1} = {a: null}
 * `1`
 
 ---
-## Quiz
+## Quiz 
 
 ### can you handle optional arguments in ES6?
 

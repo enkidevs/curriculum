@@ -2,28 +2,30 @@
 author: mihaiberq
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
   - advanced
 
 type: normal
 
 category: feature
 
+standards:
+  javascript.use-open-source-javascript-packages.3: 10
+  javascript.npm-tasks-and-modules-manager.0: 10
+
+tags:
+  - introduction
+  - workout
+  - deep
 
 links:
-
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/view){website}'
 
 parent: how-to-publish-your-own-packages
 
 ---
-
 # Check the details of a package
 
 ---
@@ -65,12 +67,12 @@ $ npm ???
     enki???1.2.3 ???
 ```
 
-* `view`
-* `@`
-* `dependencies`
-* `--json`
-* `list`
-* `npm`
+* view
+* @
+* dependencies
+* --json
+* list
+* npm
 
 ---
 ## Revision
@@ -80,9 +82,8 @@ Complete the command to retrieve the contributors to the *npm* package:
 $ ??? ??? npm ???
 ```
 
-* `npm`
-* `view`
-* `contributors`
-* `@contributors`
-* `ls`
-
+* npm
+* view
+* contributors
+* @contributors
+* ls

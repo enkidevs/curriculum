@@ -15,20 +15,24 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/58d6e/40
+link: http://sqlfiddle.com/#!9/03be51/1
 
 standards:
   sql.aggregate-single-table.1: 1000
 
 links:
-  - '[mysql aggregate queries documentation](https://dev.mysql.com/doc/refman/5.7/en/group-by-functions.html){website}'
-  - '[blog post on mysql aggregate functions](https://www.guru99.com/aggregate-functions.html){website}'
+  - '[MySQL aggregate queries documentation](https://dev.mysql.com/doc/refman/5.7/en/group-by-functions.html){documentation}'
+  - '[blog post on MySQL aggregate functions](https://www.guru99.com/aggregate-functions.html){website}'
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=sgAvl7ry5jY){video}'
 
 ---
+
 # SQL Practice Aggregate Table Max Filter
 
 ---        
 ## Exercise
 
-Write a query that finds maximum `cost` for each `fling_effect` group, only if the `fling_power` is smaller than `25`.
+In SQLFiddle, write a SQL query that answers the following question:
+
+Considering only items with `fling_power` less than 25, what is the maximum `cost` of an item in each fling effect group?
+ 

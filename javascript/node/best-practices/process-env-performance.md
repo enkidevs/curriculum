@@ -12,13 +12,13 @@ type: normal
 
 category: hack
 
+standards:
+  javascript.node-standard-library-os.6: 10
 
 links:
   - '[Source](https://github.com/facebook/react/issues/812#issuecomment-172929366){website}'
 
-
 ---
-
 # Increase performance with `PROCESS.ENV`
 
 ---
@@ -64,7 +64,6 @@ What kind of object is `process.env`?
 
 ???
 
-
 * live
 * plain JavaScript
 * static
@@ -94,7 +93,6 @@ for (y = 0; y < 10; y++) {
 // both will print 'I am Enki' 9 times
 ```
 ???
-
 
 * A
 * B

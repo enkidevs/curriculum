@@ -24,8 +24,8 @@ notes: >
   does.
 
 standards:
-  py.store-manipulate-data.5: 10
-  py.store-manipulate-data.6: 10
+  python.store-manipulate-data.5: 10
+  python.store-manipulate-data.6: 10
 
 ---
 
@@ -116,7 +116,7 @@ r = ???.ref(???)
 * `pass`
 
 ---
-## Quiz
+## Quiz 
 ### how would you check a variable for NoneType?
 
 ```python
@@ -131,3 +131,4 @@ if ...
 * if x == None
 * if not x
 * if x is not None
+ 

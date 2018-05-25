@@ -2,24 +2,23 @@
 author: tommarshall
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
-
   - beginner
 
 type: normal
 
+standards:
+  javascript.node-standard-library-os.5: 20
+
+tags:
+  - workout
+  - deep
+
 category: tip
 
-
-
-
 ---
-
 # Master Processes and Worker Processes
 
 ---
@@ -33,9 +32,9 @@ The master process is the process which a user initiates, there is only one mast
 ```javascript
 cluster.fork();
 ```
-There can be as many or as few worker processes as required, all sharing the same server port handling incoming requests to the server. 
+There can be as many or as few worker processes as required, all sharing the same server port handling incoming requests to the server.
 
-A *Worker* object contains all the worker's public information and methods. 
+A *Worker* object contains all the worker's public information and methods.
 
 In the master this can be obtained using the command `cluster.workers`. In a worker this can be obtained using `cluster.worker`.
 
@@ -59,10 +58,9 @@ if (cluster.isMaster) { ... }
 Which method is used by the master process to initiate new worker processes? ???
 
 
-* `cluster.fork();`
-* `master.fork();`
-* `cluster.new();`
-* `master.new();`
-* `cluster.process();`
-* `master.process();`
-
+* cluster.fork();
+* master.fork();
+* cluster.new();
+* master.new();
+* cluster.process();
+* master.process();

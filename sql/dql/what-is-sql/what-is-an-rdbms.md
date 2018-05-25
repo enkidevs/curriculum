@@ -16,14 +16,13 @@ inAlgoPool: false
 tags:
   - introduction
 
-  - workout
-
+standards:
+  sql.define-tables.0: 10
 
 links:
 
   - '[What is Relational Database?](http://searchsqlserver.techtarget.com/definition/relational-database){website}'
   - '[What is RDBMS?](http://searchsqlserver.techtarget.com/definition/relational-database-management-system){website}'
-
 
 ---
 
@@ -32,39 +31,64 @@ links:
 ---
 ## Content
 
-In order to learn **SQL** we must understand what a **RDBMS** is. **RDBMS** stands for *Relational Database Management System*, a *Database Management System* that allows the user to create, update and delete the *Relational Database*.
+*RDBMS* stands for _Relational Database Management System_, a _Database Management System_ that allows the user to create, update and delete the _Relational Database_.
 
-*Relational Database* stores data in a form of well-defined tables from which we can request this data in various ways without changing the internal database organisation.
+_Relational Databases_ store data in _tables_, which are similar to a spreadsheet in that they've got rows and columns.
 
-To clear things out let's take a look at a few most widely spread software implementations of such RDBMS's:
- - Oracle Database (by Oracle Corp.)
- - MySQL (by Oracle Corp.)
- - Microsoft SQL Server (by Microsoft)
- - PostgreSQL (by PostgreSQL G.D.G)
+Using these tables we can query data, and store it such that others can query it. The language we use to _define_ tables is commonly referred to as SQL, but its real name is *DDL*, or _Data Definition Language_.
 
-All of the above solutions are written in *C, C++ and assembly languages*. In short, a **RDBMS** is a program that sits on the server and stores data (in a very efficient way) on a hard drive in some logical order.
+Here's an example of how we might define a table:
 
-Then the user operates on these RDBMS's with *Query Languages*. The one most common and widely used *Query Language* is **SQL**.
+```sql
+CREATE TABLE users (
+  id INT,
+  name VARCHAR(500)
+);
+```
+
+This lives in the *Database Server*.
+
+Then we could query it like so:
+
+```sql
+SELECT * FROM users;
+```
+
+We query from the *Database Client*.
 
 ---
 ## Practice
 
-What language are RDBMS's usually written in?
-???
+How do you think we could create a table called `products`?
 
+```sql
+??? (
+  id INT,
+  name VARCHAR(500),
+  cost FLOAT
+);
+```
 
-* C, C++ or assembly
-* SQL
-* MySQL
-* Java
+* `CREATE TABLE products`
+* `MAKE TABLE products`
+* `rdbms.createTable('products')`
+* `sql.create.table('products')`
 
 ---
 ## Revision
 
-What is RDBMS (Relational Database Management System)?
-???
+How do you think we could create a table called `coupons`?
 
+```sql
+??? (
+  id INT,
+  name VARCHAR(500),
+  cost FLOAT
+);
+```
 
-* It is a piece of software that sits on a server and operates the data using high level language.
-* It is a software system that controls the data and which can be adjusted by the user in order to boost the efficiency of data storage.
-* It is a system of servers/supercomputers that manages a Relational Database.
+* `CREATE TABLE coupons`
+* `MAKE TABLE coupons`
+* `rdbms.createTable('coupons')`
+* `sql.create.table('coupons')`
+ 

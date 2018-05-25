@@ -11,7 +11,7 @@ category: must-know
 
 standards:
 
-  js.async.3: 10
+  javascript.async.3: 10
 
 tags:
 

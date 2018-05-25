@@ -27,7 +27,7 @@ tags:
 
 links:
 
-  - '[More on DISTINCT](https://www.tutorialspoint.com/sql/sql-distinct-keyword.htm){website}'
+  - '[More on DISTINCT](https://www.tutorialspoint.com/sql/sql-distinct-keyword.htm){documentation}'
 
 
 ---
@@ -119,3 +119,4 @@ FROM ???
 * `ORDER`
 * `EMPLOYEES`
 * `*`
+ 

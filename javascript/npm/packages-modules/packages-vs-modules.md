@@ -2,25 +2,26 @@
 author: mihaiberq
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
   - advanced
 
 type: normal
 
 category: must-know
 
-
-
 parent: semantic-versioning
 
----
+standards:
+  javascript.npm-publish.3: 10
 
+tags:
+  - introduction
+  - workout
+  - deep
+
+---
 # Packages vs Modules
 
 ---
@@ -69,8 +70,6 @@ Node's `require()` looks for code in
 
 ???
 
-
 * node_modules
 * package.json
 * node_packages
-

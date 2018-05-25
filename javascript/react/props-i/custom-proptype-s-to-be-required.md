@@ -2,43 +2,39 @@
 author: catalin
 
 levels:
-
   - beginner
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
 
 category: how to
 
-
 links:
-
   - '[ian-thomas.net](http://www.ian-thomas.net/custom-proptype-validation-with-react/){website}'
 
 parent: custom-validations-for-props
 
 ---
-
 # Require custom `propTypes` validators
 
 ---
 ## Content
 
-There is a way of creating your own *`propTypes` validator function* that can also be suffixed with `.isRequired`. This is done by  using chained validators and the `bind()` function.
+There is a way of creating your own `propTypes` validator function that can also be suffixed with `.isRequired`. This is done by using chained validators and the `bind()` function.
 
 Suppose we have a basic *validator function* for length check. [1]
 
 The *validator function* that will be used will be called `lengthChecker`:
+
 ```jsx
 let lengthChecker = createChainableChecker(
   textLengthChecker);
 ```
+
 The `createChainableChecker` should look like:
+
 ```jsx
 function createChainableChecker(validate) {
   function checkType(isRequired, props,
@@ -61,18 +57,31 @@ function createChainableChecker(validate) {
 }
 
 ```
+
 Now we can use it like:
+
 ```jsx
 text = lengthChecker.isRequired,
 ```
 
 ---
-## Revision
+## Practice
 
-Is there a way to make a custom `propTypes` validator function implementing the `.isRquired` behaviour of normal `propTypes` ?
+Consider you need to implement a custom `propTypes` validator. What should you code do if the validator is used like: `myValidator.isRequired`, but no prop is passed to it?
 
 ???
 
+* throw an error
+* send a notification to the user
+* crash the webpage
+* don't allow the component to render again
+
+---
+## Revision
+
+Is there a way to make a custom `propTypes` validator function implementing the `.isRquired` behavior of normal `propTypes` ?
+
+???
 
 * Yes
 * No
@@ -83,6 +92,7 @@ Is there a way to make a custom `propTypes` validator function implementing the 
 ---
 ## Footnotes
 [1:code]
+
 ```jsx
 function textLengthChecker(props, propName,
   componentName) {

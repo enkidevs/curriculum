@@ -30,7 +30,7 @@ tags:
 
 links:
 
-  - '[PostgreSQL Create Index](https://www.postgresql.org/docs/9.1/static/sql-createindex.html){website}'
+  - '[PostgreSQL Create Index](https://www.postgresql.org/docs/9.1/static/sql-createindex.html){documentation}'
   - '[MySQL Create Index](https://dev.mysql.com/doc/refman/5.7/en/create-index.html){website}'
   - '[MSSQL Create Index](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-index-transact-sql){website}'
   - '[OracleDB Create Index](https://docs.oracle.com/cd/B28359_01/server.111/b28310/indexes003.htm#ADMIN11722){website}'
@@ -66,7 +66,7 @@ If we want to create a **clustered** index:
 CREATE UNIQUE INDEX index_name
 ON table_name (col1 DESC, col2 ASC, ...)
 ```
-This would create an index on the specified table and columns. The main difference between **non-clustered** and **clustered** indices is that for the latter we need to specify the order in which we wand the entries to be ordered.
+This would create an index on the specified table and columns. The main difference between **non-clustered** and **clustered** indices is that for the latter we need to specify the order in which we want the entries to be ordered.
 
 ---
 ## Practice
@@ -124,7 +124,7 @@ id | version_group_id |      name
 * CREATE INDEX "u_index" ON version (version_group_id ASC);
 
 ---
-## Quiz
+## Quiz 
 ### What statement gets columns and rows from tables?
 
 Given a table called `ability` from our pokemon database:
@@ -152,3 +152,4 @@ It doesn't have a `PRIMARY KEY` set so far. Create an index to define `ability`'
 ## Footnotes
 [1:Indices]
 Reasonable people differ when they refer to the plural of Index. Some people use Indices, some use Indexes.
+ 

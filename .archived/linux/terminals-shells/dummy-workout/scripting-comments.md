@@ -23,7 +23,7 @@ tags:
  `#` doesn't mark the beginning of a comment in none of the examples. In the first case, it will trigger a base 10 conversion of the binary `1001`, echoing 9. On the second line `#` is escaped, losing its special meaning. The third echo will print the length of the variable, which is 6. Lastly, double `##` is short-hand for stripping the longest substring of `name` matching the expression 'Jo', outputting `hnny`. 
 
 ---
-## Quiz
+## Quiz 
 
 ### in which cases does # mark the beginning of a comment?
 

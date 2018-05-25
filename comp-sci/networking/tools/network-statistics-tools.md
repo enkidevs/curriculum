@@ -106,4 +106,4 @@ $ netstat ???
 ## Footnotes
 [1:kernel routing table]
 This is the same as the **IP routing table**, mentioned in the previous insight.
-On **Linux** the same information can be retrieved form the table using `route` command.
+On **Linux** the same information can be retrieved from the table using `route` command.

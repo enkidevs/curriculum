@@ -13,10 +13,10 @@ link: https://www.codewars.com/kata/classy-extentions
 linkType: codewars
 standards:
 
-  py.object-oriented.1: 1000
-  py.object-oriented.2: 2000
-  py.object-oriented.4: 2000
-  py.object-oriented.5: 2000
+  python.object-oriented.1: 1000
+  python.object-oriented.2: 2000
+  python.object-oriented.4: 2000
+  python.object-oriented.5: 2000
 
 links:
 
@@ -31,3 +31,4 @@ links:
 ## Exercise
 
 Practice using classes in python.
+ 

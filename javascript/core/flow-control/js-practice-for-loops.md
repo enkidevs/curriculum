@@ -12,11 +12,10 @@ type: exercise
 link: http://www.codewars.com/kata/5721a78c283129e416000999
 linkType: codewars
 standards:
-
-  js.control-flow.0: 1000
-  js.control-flow.3: 1000
-  js.control-flow.5: 1000
-  js.write-expressions.0: 1000
+  javascript.control-flow.0: 1000
+  javascript.control-flow.3: 1000
+  javascript.control-flow.5: 1000
+  javascript.write-expressions.0: 1000
 
 links:
 

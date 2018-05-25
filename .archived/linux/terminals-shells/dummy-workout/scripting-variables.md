@@ -23,7 +23,7 @@ tags:
 While the snippet won’t throw an error, it own’t echo scripting either but 0. The let keyword is equivalent to (( )) and it only works for arithmetic expressions. The output is 0 because let will evaluate strings as 0.
 
 ---
-## Quiz
+## Quiz 
 
 ### what is to be changed in the following snippet for it to echo 'scripting'?
 

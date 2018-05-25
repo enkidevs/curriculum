@@ -2,24 +2,24 @@
 author: catalin
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal
 
 category: must-know
 
+standards:
+  javascript.express-server.1: 10
+  javascript.express-server.2: 10
+  javascript.express-server.4: 10
 
 links:
-
   - '[scotch.io](https://scotch.io/tutorials/learn-to-use-the-new-router-in-expressjs-4){website}'
 
 parent: easy-way-to-deliver-html-pages-with-express
 
 ---
-
 # Using **Express 4.0** `router`
 
 ---
@@ -44,7 +44,7 @@ router.get('/', function(req, res) {
     res.send('first page');  
 });
 router.get('/enki', function(req, res) {
-    res.send('enki page'); 
+    res.send('enki page');
 });
 
 ```
@@ -69,19 +69,18 @@ Complete the below code snippet:
 
 ```
 ???.use(
-  function(req, res, ???) { 
-    console.log(req.method, req.url); 
-    ???; 
-}); 
+  function(req, res, ???) {
+    console.log(req.method, req.url);
+    ???;
+});
 ```
-
-* `router` 
-* `next` 
-* `next()` 
-* `callback()` 
-* `done()`  
-* `env` 
-* `app`
+* router
+* next
+* next()
+* callback()
+* done()`
+* env
+* app
 
 ---
 ## Revision
@@ -92,11 +91,10 @@ app.???('/simple', function(req, res) {
   ???.???('Simple route accessed!');
 ```
 
-* `get`
-* `res`
-* `send`
-* `use`
-* `req`
-* `app`
-* `router`
-
+* get
+* res
+* send
+* use
+* req
+* app
+* router

@@ -22,9 +22,6 @@ tags:
 
   - deep
 
-
-
-
 ---
 
 # Storing JSON in SQL Server
@@ -102,3 +99,4 @@ Microsoft SQL's command that parses JSON fields is
 * `(column)@>(field)`
 * `(column)->(field)`
 
+ 

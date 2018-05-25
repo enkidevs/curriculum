@@ -22,9 +22,6 @@ tags:
 
   - deep
 
-
-
-
 ---
 
 # Handling Blobs in SQL
@@ -86,3 +83,4 @@ VALUES(???);
 * `0xTHISISMYIMAGE`
 * `LOAD_FILE('pikachu.jpg')`
 
+ 

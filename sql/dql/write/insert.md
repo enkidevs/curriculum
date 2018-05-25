@@ -24,8 +24,6 @@ tags:
 
   - workout
 
-
-
 parent: union
 
 ---
@@ -40,12 +38,14 @@ The `INSERT` operation allows new entries to be added to the table. The base syn
 INSERT INTO table
 VALUES (value1, value2, value3 ...);
 ```
+
 For example, to insert a new item in the `item` table, where every value other than *name* (which is `text`) is `bigint`:
 ```sql
 INSERT INTO item
 VALUES (1230, 2500, 50, 33, DEFAULT,
   'bug-ball');
 ```
+
 The column ordering in the schema is as follows:
 ```
 id | cost | fling_power |
@@ -62,6 +62,7 @@ INSERT INTO item (id, fling_power,
   item_category_id, name)
 VALUES (1230, 50, 33, 'bug-ball');
 ```
+
 This would effectively skip the `item_fling_effect_id` value. If the field *is not required* by the DB, this should work just fine.
 
 Multiple insertion is done by adding multiple parentheses:
@@ -71,12 +72,14 @@ INSERT INTO item (id, fling_power,
   (1230, 50, 33, 'bug-ball'),
   (1231, 50, 33, 'storm-ball');
 ```
+
 You can also insert the results of a whole query:
 ```sql
 INSERT INTO costless_item
 SELECT * FROM item
 WHERE item.cost <= 0;
 ```
+
 Any variant of the specific column insertion is applicable to the last query as well.
 
 ---
@@ -119,10 +122,11 @@ VALUES (value1, 'value2', value3);
 /* Syntax C */
 INSERT INTO table
 VALUES (value1, 'value2', value3);
-
 ```
+
 ???
 
 * `B`
 * `A`
 * `C`
+ 

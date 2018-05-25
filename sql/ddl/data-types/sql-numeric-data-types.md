@@ -23,7 +23,7 @@ tags:
 
 links:
 
-  - '[PostgreSQL Data Types](https://www.postgresql.org/docs/current/static/datatype.html){website}'
+  - '[PostgreSQL Data Types](https://www.postgresql.org/docs/current/static/datatype.html){documentation}'
   - '[MySQL Data Types](https://dev.mysql.com/doc/refman/5.7/en/data-types.html){website}'
   - '[Microsoft SQL Data Types](https://docs.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql){website}'
 
@@ -35,7 +35,7 @@ links:
 ---
 ## Content
 
-Probably the most used data types in tables are **numeric values**. They can be used for *id*s, *stats*, *damage points* etc. Even **true/false** (`bool`s or `boolean`s) values are considered to be numeric types.
+Probably the most used data types in tables are *numeric values*. They can be used for `id`s, `stats`, `damage points` etc. Even *true/false* (`bool`s or `boolean`s) values are considered to be numeric types.
 
 Most SQL implementations (PostgreSQL, MySQL, Microsoft SQL) have numeric types with the same capabilities, but under different names.
 
@@ -126,3 +126,4 @@ Which of the following data types is not a numeric type?
 ## Footnotes
 [1: Serials]
 https://hackernoon.com/the-night-the-postgresql-ids-ran-out-9430a2dbb895
+ 

@@ -14,7 +14,7 @@ type: normal
 category: how to
 
 standards:
-  py.native-types-operations.4: 10
+  python.native-types-operations.4: 10
 
 links:
 
@@ -30,7 +30,7 @@ links:
 
 These are some common built-in list methods.
 
-To extend one list with the contents of another list::
+To extend one list with the contents of another list:
 ```python
 list_a.extend(list_b)
 ```
@@ -44,12 +44,12 @@ list_a.remove(item)
 # will remove only the first
 # occurrence of the `item`
 ```
-Remove and return an element at a given *index* (if no `index` is specified, it will remove and return the last item in the *list*:
+Remove and return an element at a given *index* (if no `index` is specified, it will remove and return the last item in the *list*):
 ```python
 list_a.pop([index])
 ```
 
-Return a new sorted list:
+Return a new sorted *list*:
 ```python
 list_a.sort(key=None,reverse=False)
 ```
@@ -83,3 +83,22 @@ ex_list.??? (???=None,\
 * `priority`
 * `change`
 * `remove`
+
+---
+## Revision
+
+Extend `pos` list with the `neg` list:
+
+```python
+pos = [1,2,3,4]
+neg = [-1,-2,-3,-4]
+
+???.???(???)
+```
+
+* pos
+* extend
+* neg
+* concatenate
+* append
+ 

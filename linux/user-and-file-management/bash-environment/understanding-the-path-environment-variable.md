@@ -94,7 +94,7 @@ The `command not found` error is thrown if the executable couldn’t be found
 * in the list of folders contained in the EXE variable.
 
 ---
-## Quiz
+## Quiz 
 ### Do you know how the $PATH variable is evaluated?
 
 Suppose your $PATH value is:

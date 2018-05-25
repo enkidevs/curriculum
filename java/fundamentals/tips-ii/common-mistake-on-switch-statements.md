@@ -104,7 +104,7 @@ switch (num) {
 * `3`
 
 ---
-## Quiz
+## Quiz 
 ### what will be the output of the following switch statement?
 
 What's the output for `x=1`?

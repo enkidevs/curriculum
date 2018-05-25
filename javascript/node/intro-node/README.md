@@ -1,6 +1,6 @@
 name: Intro to NodeJS
 
-description: See what's all the fuss is about. 
+description: See what's all the fuss is about.  
 
 insights:
   - what-is-nodejs

@@ -51,7 +51,7 @@ NaN === NaN
 * true
 
 ---
-## Quiz
+## Quiz 
 
 ### is NaN equal to itself?
 

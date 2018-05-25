@@ -12,21 +12,15 @@ category: must-know
 inAlgoPool: false
 
 standards:
-
-  js.identify-syntax.2: 10
-
-  js.evaluate-expressions.3: 10
-
-  js.evaluate-expressions.10: 10
+  javascript.javascript-syntax.2: 10
+  javascript.evaluate-expressions.5: 10
+  javascript.evaluate-expressions.4: 10
+  javascript.evaluate-expressions.3: 10
+  javascript.evaluate-expressions.10: 10
 
 tags:
 
   - introduction
-
-  - workout
-
-
-
 
 ---
 
@@ -46,11 +40,11 @@ The following are always considered false or falsy values:
 - undefined
 - NaN (Not A Number)
 
-Every other value is considered to have a value of true. 
+Every other value is considered to have a value of true.
 
 This includes some things you might not expect such as:
 
-- Empty objects 
+- Empty objects
 - The string version of zero e.g. "0"
 - Empty arrays and functions
 
@@ -88,4 +82,3 @@ An empty string is ???.
 * falsy
 * truthy
 * neither falsy nor truthy
-

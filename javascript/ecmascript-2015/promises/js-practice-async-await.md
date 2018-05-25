@@ -13,7 +13,7 @@ link: https://www.codewars.com/kata/jokes-youve-been-awaiting-for-dot-dot-dot-pr
 linkType: codewars
 standards:
 
-  js.async.3: 1000
+  javascript.async.3: 1000
 
 links:
 

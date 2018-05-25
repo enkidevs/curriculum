@@ -11,7 +11,7 @@ category: how to
 
 standards:
 
-  js.async.2: 10
+  javascript.async.2: 10
 
 tags:
 
@@ -95,7 +95,7 @@ return ???.???('my value');
 * `prom`
 
 ---
-## Quiz
+## Quiz 
 ### In what order will these console.log() statements occur?
 
 In what order will these `console.log()` statements occur?

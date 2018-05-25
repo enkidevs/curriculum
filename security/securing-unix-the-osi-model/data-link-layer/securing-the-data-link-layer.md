@@ -61,7 +61,7 @@ What is one control in the Data Link Layer of the OSI Model?
 * ARP sniping
 
 ---
-## Quiz
+## Quiz 
 ### What is one control for this OSI model Layer?
 ```
 What is one control in the Data Link Layer of the OSI Model?

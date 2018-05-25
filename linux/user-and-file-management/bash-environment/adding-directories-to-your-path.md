@@ -91,7 +91,7 @@ In order to add a new directory to `PATH`, you have to modify the ??? file.
 * .bashpath
 
 ---
-## Quiz
+## Quiz 
 ### when is the ~/.bashrc file run?
 
 

@@ -24,11 +24,9 @@ tags:
 
   - workout
 
-
 links:
 
-  - '[More on AVG clause](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql){website}'
-
+  - '[More on AVG clause](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql){documentation}'
 
 ---
 
@@ -141,3 +139,4 @@ experience
    156
  (5 rows)
 ```
+ 

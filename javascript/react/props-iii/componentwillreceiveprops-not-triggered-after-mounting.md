@@ -2,17 +2,13 @@
 author: tommarshall
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
 
 category: tip
-
 
 links:
 
@@ -22,7 +18,6 @@ links:
 parent: custom-proptype-s-to-be-required
 
 ---
-
 # componentWillReceiveProps Not Triggered After Mounting
 
 ---
@@ -59,3 +54,30 @@ var testingComponent = React.createClass({
 
 Find a link below to check out other lifecycle methods to find the one you need!
 
+---
+## Practice
+
+Which is the argument of the `componentWillReceiveProps` function?
+
+```javascript
+componentWillReceiveProps(???) {
+  // ...
+}
+```
+
+* nextProps
+* currentProps
+* oldProps
+* nothing
+
+---
+## Revision
+
+Which of the following statements is false about `componentWillReceiveProps` lifecylce method?
+
+???
+
+* will only be run once
+* isn't triggered once the node is mounted
+* can be used to listen to changes in props
+* can be triggered after the initial rendering

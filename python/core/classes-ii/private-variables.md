@@ -14,7 +14,7 @@ type: normal
 category: must-know
 
 standards:
-  py.object-oriented.4: 10
+  python.object-oriented.4: 10
 
 links:
 
@@ -82,11 +82,33 @@ Complete the following line such that the `private` variable is considered priva
 ???private = 30
 ```
 
+<<<<<<< HEAD:Python/Core/classes-ii/private-variables.md
+*`__`
+*`&&`
+*`--`
+*`def`
+*`class`
+*`private`
+*`p_`
 
-* `__`
-* `&&`
-* `--`
-* `def`
-* `class`
-* `private`
-* `p_`
+---
+## Quiz
+
+### Do you know how private variables work?
+
+We've defined a pythonic private variable in this class. Is it really private?  
+```python
+class Secret:
+    def __init__(self):
+        self.__supersecret = "the earth is not flat"
+        print(self.__supersecret)
+
+topsecret = Secret()
+```
+
+
+- No, you can access the private variable via 'topsecret._Secret__supersecret'
+- No, you can access the private variable via 'topsecret.__Secret.__supersecret'
+- No, you can access the private variable via 'topsecret._private__supersecret'
+- Yup, your secret is safe forever!
+ 

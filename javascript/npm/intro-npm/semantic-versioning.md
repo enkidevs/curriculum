@@ -9,12 +9,18 @@ type: normal
 
 category: must-know
 
-
-
 parent: package-json
 
----
+standards:
+  javascript.npm-publish.3: 10
+  javascript.use-open-source-javascript-packages.1: 10
 
+tags:
+  - introduction
+  - workout
+  - deep
+
+---
 # Semantic versioning
 
 ---

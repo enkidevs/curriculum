@@ -10,11 +10,13 @@ type: normal
 
 category: how to
 
+standards:
+  javascript.identify-common-design-patterns.7: 10
+
 tags:
   - introduction
 
 ---
-
 # Use ESLint
 
 ---

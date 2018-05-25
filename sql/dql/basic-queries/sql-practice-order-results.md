@@ -13,9 +13,9 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/b3fa3a
+link: http://sqlfiddle.com/#!9/a60d72/1
 
-answer: 'cherish-ball, premier-ball'
+answer: /cherish-ball.*premier-ball/
 
 standards:
   sql.read-single-table.0: 1000
@@ -23,14 +23,20 @@ standards:
   sql.read-single-table.3: 1000
 
 links:
-  - '[mysql ORDER BY documentation](https://dev.mysql.com/doc/refman/5.7/en/order-by-optimization.html){website}'
+  - '[MySQL ORDER BY documentation](https://dev.mysql.com/doc/refman/5.7/en/order-by-optimization.html){documentation}'
   - '[blog post tutorial on SELECT](http://www.dofactory.com/sql/select){website}'
-  - '[video tutorial on mysql SELECT](https://www.youtube.com/watch?v=BgK88mlgA6I){video}'
+  - '[video tutorial on MySQL SELECT](https://www.youtube.com/watch?v=BgK88mlgA6I){video}'
 
 ---
+
 # SQL Practice Order Results
 
 ---        
 ## Exercise
 
-First find names and fling_power all items that cost between 100 and 500. Order them by the fling_power. In the answer field only write the names of the the items with smallest and biggest fling power from the result.
+In SQLFiddle, write a SQL query that does the following:
+
+*Return the `name` and `fling_power` of all items that cost between `100` and `500`, ordered by the `fling_power`.*
+
+For your answer, write the name of the item with the *least* fling power, followed by the name of the item with the *greatest* fling power within this range.
+ 

@@ -29,7 +29,6 @@ links:
 
   - '[SQL Tutorial: SELECT](http://www.sql-tutorial.com/sql-select-sql-tutorial/){website}'
 
-
 ---
 
 # SELECT
@@ -96,11 +95,11 @@ Get all of the rows and the `id`, `weight`, `name` columns from the `pokemon` ta
 * `FOR`
 
 ---
-## Quiz
+## Quiz 
 ### What statement gets columns and rows from tables?
 Given a table called `ability` from our pokemon database:
 
-```bash
+```
 id   | is_main_series | generation_id |      name      
 =====|================|===============|===============
    1 | t              |             3 | stench
@@ -119,3 +118,4 @@ Choose the query that will get all the entries from this table:
 * DISPLAY [all] FROM ability;
 * SELECT [all] FROM ability;
 * FIND * FROM ability;
+ 

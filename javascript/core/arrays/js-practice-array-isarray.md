@@ -13,8 +13,9 @@ link: http://www.codewars.com/kata/5732b0351eb838d03300101d
 linkType: codewars
 standards:
 
-  js.standard-library.4: 1000
-  js.write-expressions.0: 1000
+  javascript.standard-library.4: 1000
+  javascript.write-expressions.0: 1000
+  javascript.evaluate-expressions.10: 1000
 
 links:
 

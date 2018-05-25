@@ -52,7 +52,7 @@ To open the line you have written so far in the shell into a text editor, you wo
 * ctrl-r
 
 ---
-## Quiz
+## Quiz 
 ### which option does not belong?
 
 Choose the odd one out in the following list.

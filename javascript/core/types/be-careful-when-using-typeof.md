@@ -11,13 +11,11 @@ category: tip
 
 standards:
 
-  js.evaluate-expressions.10: 10
+  javascript.evaluate-expressions.10: 10
 
 tags:
 
   - introduction
-
-  - workout
 
 
 links:
@@ -32,7 +30,7 @@ links:
 ---
 ## Content
 
-`typeof` returns "object" for all objects, and nothing more specific. 
+`typeof` returns "object" for all objects, and nothing more specific.
 
 Examples:
 
@@ -67,4 +65,3 @@ typeof new Date();
 * null
 * var
 * Array()
-

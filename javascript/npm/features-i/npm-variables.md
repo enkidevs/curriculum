@@ -15,12 +15,18 @@ type: normal
 
 category: feature
 
-
-
 parent: available-binaries-for-scripting
 
----
+standards:
+  javascript.npm-tasks-and-modules-manager.0: 10
+  javascript.npm-tasks-and-modules-manager.1: 10
 
+tags:
+  - introduction
+  - workout
+  - deep
+
+---
 # Environmental Variables
 
 ---
@@ -69,10 +75,10 @@ The prefix needed to invoke preconfigured values is:
 
 ???
 
-* `$npm_package_config_`
-* `npm_package_config_`
-* `npm_package_config`
-* `$npm_config`
+* $npm_package_config_
+* npm_package_config_
+* npm_package_config
+* $npm_config
 
 ---
 ## Revision
@@ -82,9 +88,8 @@ You can override the local value of an environmental variable by running:
 $ npm ??? ??? ??? newValue
 ```
 
-* `config`
-* `set`
-* `packageName:property`
-* `property`
-* `-s`
-
+* config
+* set
+* packageName:property
+* property
+* -s

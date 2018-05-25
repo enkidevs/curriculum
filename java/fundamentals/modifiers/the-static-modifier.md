@@ -101,7 +101,7 @@ How are static variables also called?
 * Class constants.
 
 ---
-## Quiz
+## Quiz 
 ### how do class variables work?
 
 ```java
