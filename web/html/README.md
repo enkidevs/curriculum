@@ -1,6 +1,6 @@
 name: HTML
 
-description: Fundamentals of HTML and CSS.
+description: Learn HyperText Markup Language
 
 core: true
 
