@@ -1,6 +1,6 @@
 name: HTML
 
-description: HyperText Markup Language, the most commonly used markup in the world
+description: HyperText Markup Language, the most commonly used markup in the world!
 
 core: true
 
