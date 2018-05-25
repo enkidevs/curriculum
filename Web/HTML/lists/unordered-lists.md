@@ -73,8 +73,8 @@ Example of a nested list(Some tags have an explanation):
 </ul>
 ```
 **Notes:**
-	- The closing `</li>` tag for `Item B` is placed after all the sub-items/lists for that item are listed which is right before the start of the third item(`Item C`) in the first list.
-	- The closing `</li>` tag for `Item B2` is placed after all the sub-items/lists for that item are listed which is right before the start of the third item(`Item B3`) in the sublist of item B.
+  - The closing `</li>` tag for `Item B` is placed after all the sub-items/lists for that item are listed which is right before the start of the third item(`Item C`) in the first list.
+  - The closing `</li>` tag for `Item B2` is placed after all the sub-items/lists for that item are listed which is right before the start of the third item(`Item B3`) in the sublist of item B.
 
 The result of the above list with the notes:
 ```
