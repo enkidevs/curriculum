@@ -6,22 +6,15 @@ core: true
 
 sections:
   '0':
-    - box-model
-    - css-basics
     - html-basics
-    - intro-css
-    - positioning
+    - html-structure
+    - core-html-elements
+    - web-page-structure
+    - images
   '1':
-    - dimensioning-and-box-sizing
-    - features
-    - practical-css
-    - pseudo-classes-i
-    - pseudo-classes-ii
-    - pseudo-elements
-    - typography
-  '2':
-    - animations
-    - flexbox
+    - media
+    - forms
+    - forms-ii
 
 standards:
   syntax-html:
