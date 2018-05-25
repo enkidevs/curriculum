@@ -1,6 +1,6 @@
 name: HTML
 
-description: Fundamentals of HTML and CSS.
+description: Learn HyperText Markup Language
 
 core: true
 
@@ -15,6 +15,18 @@ sections:
     - media
     - forms
     - forms-ii
+    - meta-elements
+    - sectioning-elements
+  '2':
+    - forms-iii
+    - forms-iv
+    - forms-v
+    - semantic-sections
+    - citation-elements
+    - computer-code
+    - best-practices
+    - html-entities
+    - html-versions
 
 standards:
   syntax-html:
@@ -27,6 +39,7 @@ standards:
       3: Distinguish valid HTML from invalid HTML
       4: Identify the structure of a valid HTML document
       5: Distinguish valid from invalid HTML documents based on their structure
+      6: Identify and use commonly-held industry best practices
   markup-text:
     name: Markup Text with HTML
     description: Use HTML to markup text
