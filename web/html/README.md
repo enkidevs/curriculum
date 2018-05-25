@@ -15,6 +15,8 @@ sections:
     - media
     - forms
     - forms-ii
+    - meta-elements
+    - sectioning-elements
 
 standards:
   syntax-html:
