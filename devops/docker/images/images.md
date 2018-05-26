@@ -18,6 +18,8 @@ type: normal
 
 category: must-know
 
+standards:
+  devops.identify-docker.1: 10
 
 
 standards:

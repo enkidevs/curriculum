@@ -19,12 +19,6 @@ type: normal
 
 category: must-know
 
-
-
-standards:
-  cs.identify-linear-collection-data-structures-usage.0: 1000
-  cs.identify-linear-collection-data-structures-usage.3: 1000
-
 links:
 
 - '[link to official documentation](https://enki.com)'

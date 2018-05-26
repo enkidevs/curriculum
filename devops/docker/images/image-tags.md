@@ -21,8 +21,7 @@ category: must-know
 
 
 standards:
-  cs.identify-linear-collection-data-structures-usage.0: 1000
-  cs.identify-linear-collection-data-structures-usage.3: 1000
+  devops.run-docker.4: 10
 
 links:
 
