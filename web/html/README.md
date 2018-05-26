@@ -1,6 +1,6 @@
 name: HTML
 
-description: Fundamentals of HTML and CSS.
+description: Learn HyperText Markup Language
 
 core: true
 
@@ -21,6 +21,12 @@ sections:
     - forms-iii
     - forms-iv
     - forms-v
+    - semantic-sections
+    - citation-elements
+    - computer-code
+    - best-practices
+    - html-entities
+    - html-versions
 
 standards:
   syntax-html:

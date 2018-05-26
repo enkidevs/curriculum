@@ -10,19 +10,27 @@ sections:
     - positioning
     - dimensioning-and-box-sizing
     - practical-css
+    - typography
     - centring-recipes
     - colors-tips
     - positioning-tips
+  '1':
     - styling-i
     - styling-ii
     - styling-iii
-  '1':
+    - pseudo-classes-i
+    - pseudo-classes-ii
+    - pseudo-elements
+  '2':
+    - flexbox
+    - features
     - recipes
     - responsive-design-tips
+  '3':
     - sass-i
     - sass-ii
     - sass-iii
-  '2':
+    - animations
     - css-animation
 
 prerequisites:
