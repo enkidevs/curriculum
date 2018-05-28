@@ -40,13 +40,26 @@ $
 ```
 **REPL** stands for *Read-Eval-Print Loop* which evaluates each line of code you write and outputs the result. Even though it may sound like something new, it is not: you just invoked the Python REPL from another REPL application - the shell inside the terminal.
 
-You won't use the REPL interpreter for longer snippets of code, however. It is much easier to write Python code using a text editor. There are a lot of options here: Atom, Emacs, Vim, Sublime, each with its advantages and disadvantages. We are going to recommend you to use Atom, as it is simple to use and highly customizable.
+You won't use the REPL interpreter for longer snippets of code, however. It is much easier to write Python code using a text editor. There are a lot of options here: Atom, Emacs, Vim, Sublime or Visual Studio Code each with its advantages and disadvantages. We are going to recommend you to use Visual Studio Code, as it was build on top of Atom's architecture, but avoids lots of overheads Atom doesn't. It is still highly costumisable and much more responsive than the latter mentiond Atom. 
 
 To run Python file, it should firstly have the `.py` extension. Then, invoke a new terminal inside the directory and write:
 ```bash
 $ python3 myNewPython.py
 ```
 The process couldn't be simpler!
+
+---
+## Practice
+
+When you run python3 this is called?
+
+???
+
+* REPL [Read Eval Print Loop]
+* REPL [Read Eval Print Language]
+* REPL [Real Evaluation Print Loop]
+* RELP [Read Evaluate Loop Print]
+
 
 ---
 ## Revision
