@@ -1,4 +1,4 @@
----
+# More Benefits of Immutability
 author: stefkn
 
 levels:
@@ -13,16 +13,10 @@ type: normal
 
 category: must-know
 
-
 links:
 
-  - '[Dictionaries Basics](https://bdhacker.wordpress.com/20){website}'
-  - '[How to override comparison operators in Python](http://jcalderone.livejournal.com/32837.html){website}'
-
-
----
-
-# More Benefits of Immutability
+  - '[Dictionaries Basics](https://bdhacker.wordpress.com/20)'
+  - '[How to override comparison operators in Python](http://jcalderone.livejournal.com/32837.html)'
 
 ---
 ## Content
@@ -111,7 +105,6 @@ r2 = conn.request("", "text=hello")
 
 ???
 
-
 * Temporal coupling
 * Atomicity of failure
 * Identity mutation
@@ -124,7 +117,6 @@ In what kind of data structures are immutable objects ideal to be used as keys?
 
 ???
 
-
 * Dictionaries
 * List
 * Integers
@@ -133,6 +125,7 @@ In what kind of data structures are immutable objects ideal to be used as keys?
 
 ---
 ## Footnotes
+
 [1:Identity based on Internal State]
 The ability to compare two objects not based on their identity but based on their internal state can be achieved by overloading the comparison operators implemented by the object class. In the case of Python, this would be by customizing the `__eq__` method to check inside the state of the object being compared to and checking that state against the current object's own state. This should not be done lightly, however, as many parts of the runtime and standard library rely on these operators and this could cause more trouble than it saves time without careful consideration. See the link in the 'Learn More' section for more information.
 

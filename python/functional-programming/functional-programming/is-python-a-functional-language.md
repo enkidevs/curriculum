@@ -1,4 +1,4 @@
----
+# Is Python a Functional Language?
 author: stefkn
 
 levels:
@@ -13,16 +13,10 @@ type: normal
 
 category: must-know
 
-
 links:
 
-  - '[The fate of reduce() in Python 3000](http://www.artima.com/weblogs/viewpost.jsp?thread=98196){website}'
-  - '[Is Python a functional language?](https://www.quora.com/Is-Python-a-functional-language){website}'
-
-
----
-
-# Is Python a Functional Language?
+  - '[The fate of reduce() in Python 3000](http://www.artima.com/weblogs/viewpost.jsp?thread=98196)'
+  - '[Is Python a functional language?](https://www.quora.com/Is-Python-a-functional-language)'
 
 ---
 ## Content
@@ -50,7 +44,6 @@ What two adjectives describe a function which causes no side-effects and has a v
 
 ???
 
-
 * Pure & Total
 * Pure & Partial
 * Partial & Pure
@@ -64,12 +57,12 @@ Is Python considered a functional language?
 
 ???
 
-
 * No
 * Yes
 * Sometimes
 
 ---
 ## Footnotes
+
 [1:How Python got Functional]
 Python only acquired the functional methods `reduce()` `filter()` and `map()` (allegedly) after a Lisp hacker who missed them from that language submitted working patches. Additionally, Guido van van Rossum, the creator of Python also known as the BDFL (Benevolent Dictator For Life) once called for their removal from Python 3 in 2005. While the foundations may have been rocky, the `functools` module is well-used and presents an easy way for anyone new to functional programming concepts to introduce themselves to the idea before jumping to more functionally-focused languages such as Haskell.

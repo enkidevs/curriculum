@@ -1,4 +1,4 @@
----
+# List comprehension
 author: catalin
 
 levels:
@@ -11,15 +11,10 @@ type: normal
 
 category: how to
 
-
 links:
 
-  - '[docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#list-comprehensions){website}'
-
-
----
-
-# List comprehension
+  - >-
+    [docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#list-comprehensions){website}
 
 ---
 ## Content
@@ -83,38 +78,3 @@ if square(i) < 50 ]
 [0, 1, 2, 3, 4, 5, 6, 7]
 
 ```
-
----
-## Practice
-
-Use list comprehension to add one and divide by two [(x + 1) / 2] for all elements [x] that are not even:
-
-```python 
-l = [1,2,3,4,5]
-x = [((x+1)/2) ??? x % 2 /
-    ??? x ??? x in ???]
-```
-
-* if
-* else
-* for 
-* l
-* x
-* while
-
----
-## Revision
-
-What will the list `x` look like after the following snippet is run?
-
-```python
-l = [1,2,3,4,5]
-x = [x if x % 2 for x in l]
-```
-
-???
-
-* [1,3,5]
-* [1,3]
-* [2, 4]
-* [1,2,3,4,5]

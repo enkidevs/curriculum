@@ -1,4 +1,4 @@
----
+# What Are Higher-Order Functions?
 author: mihaiberq
 
 levels:
@@ -9,16 +9,11 @@ type: normal
 
 category: feature
 
+notes: 'prerequisites: scoping'
 
 links:
 
-  - '[More about higher-order functions](http://www.composingprograms.com/pages/16-higher-order-functions.html){website}'
-
-notes: 'prerequisites: scoping'
-
----
-
-# What Are Higher-Order Functions?
+  - "[More about higher-order functions](http://www.composingprograms.com/pages/16-higher-order-functions.html)"
 
 ---
 ## Content
@@ -44,12 +39,17 @@ Following this approach, all variables that where within the inner scope when `i
 As long as the function reference exists, the variables inside the function will continue to persist as well.
 
 ---
+## Footnotes
+
+[1: Higher-Order Function]
+A higher-order function is somewhat similar to a *time capsule*. You put together a bunch of stuff relevant for a moment in time (code block), store it and open it whenever you feel like reminiscing those times (using that particular block/function).
+
+---
 ## Practice
 
 Alongside the function definition, a closure contains the function's
 
 ???
-
 
 * scoped variables
 * class members
@@ -78,13 +78,7 @@ def foo():
     print(myname)
 ```
 ???
-
 * C
 * A
 * B
 * neither
-
----
-## Footnotes
-[1: Higher-Order Function]
-A higher-order function is somewhat similar to a *time capsule*. You put together a bunch of stuff relevant for a moment in time (code block), store it and open it whenever you feel like reminiscing those times (using that particular block/function).

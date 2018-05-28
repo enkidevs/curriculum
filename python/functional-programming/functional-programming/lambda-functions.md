@@ -1,4 +1,4 @@
----
+# `Lambda` Functions
 author: tommarshall
 
 levels:
@@ -7,16 +7,9 @@ levels:
 
 type: normal
 
-category: tip
-
 inAlgoPool: false
 
-
-
-
----
-
-# `Lambda` Functions
+category: tip
 
 ---
 ## Content
@@ -64,12 +57,10 @@ With lambda:
 square = ??? ???: x * x
 ```
 
-
-* `lambda`
-* `x`
-* `def`
-* `new`
-* `instance`
-* `function`
+*`lambda`
+*`x`
+*`def`
+*`new`
+*`instance`
+*`function`
 lamb
-

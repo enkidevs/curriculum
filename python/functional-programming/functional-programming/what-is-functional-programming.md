@@ -1,4 +1,4 @@
----
+# What is functional programming
 author: SebaRaba
 
 levels:
@@ -11,15 +11,9 @@ type: normal
 
 category: feature
 
-
 links:
 
-  - '[More on functional programming](https://codesachin.wordpress.com/2016/04/03/a-practical-introduction-to-functional-programming-for-python-coders/){website}'
-
-
----
-
-# What is functional programming
+  - '[More on functional programming](https://codesachin.wordpress.com/2016/04/03/a-practical-introduction-to-functional-programming-for-python-coders/)'
 
 ---
 ## Content
@@ -61,7 +55,7 @@ calc_square = square
 
 # Passing a function as an argument:
 def calculate(x, func):
-  return func(x)
+  return funct(x)
 
 result = calculate(2, calc_square)
 print(result)
@@ -81,7 +75,6 @@ result = ???(sum(2, 3),4)
 
 # Output: ???
 ```
-
 
 * lambda
 * multiply
@@ -110,12 +103,12 @@ print(result)
 
 ???
 
-
 * [2]
 * [2, 4, 6, 8]
 * [2, 4, 6, 8, 10]
 
 ---
 ## Footnotes
+
 [1: paradigm]
 A programming paradigm is a "style" of doing something. Basically they define a way to classify programming languages based on their features.

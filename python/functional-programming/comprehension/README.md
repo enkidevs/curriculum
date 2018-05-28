@@ -1,6 +1,12 @@
 name: Comprehension
 
+type: insights-list
+
 description: Generate collections on the go with comprehension 
+
+section: 0
+
+parent: iterators
 
 insights:
   - list-comprehension

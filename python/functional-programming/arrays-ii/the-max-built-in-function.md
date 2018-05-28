@@ -1,4 +1,4 @@
----
+# The `max` Built-in Function
 author: stefkn
 
 levels:
@@ -13,16 +13,10 @@ type: normal
 
 category: must-know
 
-
 links:
 
-  - '[Python max()](https://www.programiz.com/python-programming/methods/built-in/max){website}'
-  - '[Python 3.3 Documentation](https://docs.python.org/3.3/library/functions.html#max){website}'
-
-
----
-
-# The `max` Built-in Function
+  - '[Python max()](https://www.programiz.com/python-programming/methods/built-in/max)'
+  - '[Python 3.3 Documentation](https://docs.python.org/3.3/library/functions.html#max)'
 
 ---
 ## Content
@@ -93,7 +87,6 @@ print(???(queue1,
           key=lambda x: ???/???))
 ```
 
-
 * max
 * sum(x)
 * len(x)
@@ -113,7 +106,6 @@ print(max(list3))
 
 ???
 
-
 * TypeError
 * 'xyz'
 * 'zzz'
@@ -121,5 +113,6 @@ print(max(list3))
 
 ---
 ## Footnotes
+
 [1:Key]
 *This is exactly the same as the way keys are used in other built-in functions such as `sort` etc. For more information see the lesson on the `sorted` and `sort` functions.*

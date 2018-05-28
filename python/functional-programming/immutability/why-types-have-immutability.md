@@ -1,4 +1,4 @@
----
+# Why Types Have Immutability
 author: stefkn
 
 levels:
@@ -13,16 +13,10 @@ type: normal
 
 category: must-know
 
-
 links:
 
-  - '[Python Reference: Data Model](https://docs.python.org/3/reference/datamodel.html){website}'
-  - '[Blog post: Objects Should be Immutable](http://www.yegor256.com/2014/06/09/objects-should-be-immutable.html){website}'
-
-
----
-
-# Why Types Have Immutability
+  - '[Python Reference: Data Model](https://docs.python.org/3/reference/datamodel.html)'
+  - '[Blog post: Objects Should be Immutable](http://www.yegor256.com/2014/06/09/objects-should-be-immutable.html)'
 
 ---
 ## Content
@@ -78,7 +72,6 @@ Which of the following is not a benefit of using immutable objects?
 
 ???
 
-
 * 7
 * 1
 * 2
@@ -110,7 +103,6 @@ class Connection(object):
 
 ???
 
-
 * Side effects
 * Temporal coupling
 * Atomicity of failure
@@ -118,5 +110,6 @@ class Connection(object):
 
 ---
 ## Footnotes
+
 [1:Advantages of Immutability]
 Some programmers even advocate that in a perfectly object-oriented system, all objects should be immutable, although in reality this would be infeasible due to technical limitations in most mainstream programming languages. However, some functional languages provide rich support for a totally immutable environment, such as the less well-known but highly-regarded languages Scala and Haskell.

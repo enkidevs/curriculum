@@ -1,4 +1,4 @@
----
+# The `zip` Built-in Function
 author: stefkn
 
 levels:
@@ -13,16 +13,10 @@ type: normal
 
 category: must-know
 
-
 links:
 
-  - '[Python 3.3 Documentation - zip](https://docs.python.org/3.3/library/functions.html#zip){website}'
-  - '[Python zip()](https://www.programiz.com/python-programming/methods/built-in/zip){website}'
-
-
----
-
-# The `zip` Built-in Function
+  - '[Python 3.3 Documentation - zip](https://docs.python.org/3.3/library/functions.html#zip)'
+  - '[Python zip()](https://www.programiz.com/python-programming/methods/built-in/zip)'
 
 ---
 ## Content
@@ -113,7 +107,6 @@ result2 = zip(???, ???)
 print(result2)
 ```
 
-
 * `fnames`
 * `lnames`
 * `result`
@@ -137,7 +130,6 @@ print(zip(dates, values))
 ???
 ```
 
-
 * `[('9/16', 200), ('12/16', 150), ('2/17', 122)]`
 * `{('9/16', 200), ('12/16', 150), ('2/17', 122)}`
 * `[['9/16', 200], ['12/16', 150], ['2/17', 122]]`
@@ -146,6 +138,7 @@ print(zip(dates, values))
 
 ---
 ## Footnotes
+
 [1:Different length inputs to `zip`]
 *`zip` should only be used when you don’t care about trailing, unmatched values from the longer iterables, since the iterator stops after n iterations, where n is the size of the shortest input iterable. If those values are important, another variant of `zip` is built-in called  `itertools.zip_longest()` which automatically extends any shorter input lists with `fillvalue`, which by default is a `None` object.*
 

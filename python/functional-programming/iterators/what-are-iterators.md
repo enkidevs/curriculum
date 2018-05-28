@@ -1,4 +1,4 @@
----
+# What Are Iterators?
 author: stefkn
 
 levels:
@@ -9,15 +9,9 @@ type: normal
 
 category: must-know
 
-
 links:
 
-  - '[Iterators vs. Generators](http://nvie.com/posts/iterators-vs-generators/){website}'
-
-
----
-
-# What Are Iterators?
+  - '[Iterators vs. Generators](http://nvie.com/posts/iterators-vs-generators/)'
 
 ---
 ## Content
@@ -47,7 +41,6 @@ Which method(s) need to be implemented for an object to be classed as an iterato
 
 ???
 
-
 * `__next__()`
 * `__next__()`, `__iter__()`
 * `__iter__()`, `__getitem__()`
@@ -60,9 +53,7 @@ Which method is called to retrieve a value from an iterator?
 
 ???
 
-
 * `__next__()`
 * `__getitem__()`
 * `__iter__()`
 * `__child__()`
-

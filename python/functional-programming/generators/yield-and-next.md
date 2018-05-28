@@ -1,4 +1,4 @@
----
+# yield() and next()
 author: SebaRaba
 
 levels:
@@ -9,15 +9,9 @@ type: normal
 
 category: must-know
 
-
 links:
 
-  - '[More about yield and next](https://jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/){website}'
-
-
----
-
-# yield() and next()
+  - '[More about yield and next](https://jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/)'
 
 ---
 ## Content
@@ -77,7 +71,6 @@ def countdown(num):
 ```
 ???
 
-
 * `5`
 * `0`
 * `1`
@@ -100,7 +93,6 @@ print(next???)
 Suppose we want to print the doubled value for the first 2 numbers in the list. Fill the gaps accordingly.
 
 
-
 * `L`
 * `yield`
 * `next`
@@ -109,4 +101,3 @@ Suppose we want to print the doubled value for the first 2 numbers in the list. 
 * `next()`
 * `yield()`
 * `T`
-

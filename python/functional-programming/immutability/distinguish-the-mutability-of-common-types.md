@@ -1,4 +1,4 @@
----
+# Distinguish the Mutability of Common Types
 author: stefkn
 
 levels:
@@ -13,15 +13,9 @@ type: normal
 
 category: must-know
 
-
 links:
 
-  - '[PYTHON OBJECTS: MUTABLE VS. IMMUTABLE](https://codehabitude.com/2013/12/24/python-objects-mutable-vs-immutable/){website}'
-
-
----
-
-# Distinguish the Mutability of Common Types
+  - '[PYTHON OBJECTS: MUTABLE VS. IMMUTABLE](https://codehabitude.com/2013/12/24/python-objects-mutable-vs-immutable/)'
 
 ---
 ## Content
@@ -63,7 +57,7 @@ But why is it important to know which types in Python are immutable or mutable? 
 
 For example, consider the following code snippet:
 
-```python
+```Python
 string = ""
 for line in file:
     string += str(line)
@@ -73,7 +67,7 @@ In this case, while the code will execute and perform the functionality correctl
 
 With the knowledge of which data types are mutable, you can choose a better data type to carry out the above operation, increasing efficiency for this case:
 
-```python
+```Python
 list = [] # List is mutable!
 for line in file:
     list.append(str(line))
@@ -91,7 +85,6 @@ Which of the following types are immutable?
 
 ???
 
-
 * `tuple`, `complex`, `range`, `frozenset`
 * `tuple`, `complex`, `set`, `range`, `frozenset`
 * `tuple`, `complex`, `set`, `dict`, `range`, `frozenset`
@@ -105,14 +98,14 @@ What is the default mutability of user-defined custom classes that have not had 
 
 ???
 
-
 * Mutable
 * Strongly Immutable
 * Weakly Immutable
 * Immutable
-* Neither
+* Neither 
 
 ---
 ## Footnotes
+
 [1:Scalar Data Types]
 In programming languages, data types are said to be **scalar** or **base** data types when they hold only one item of data each. This is in contrast to **collections** or **containers** which are the family of data types that have the ability to encapsulate multiple separate items of data, each of which will be of one of the language's scalar types.
