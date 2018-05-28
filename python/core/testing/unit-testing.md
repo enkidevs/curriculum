@@ -10,8 +10,8 @@ type: normal
 category: must-know
 
 standards:
-  python.testing.1: 10
-  python.testing.3: 10
+  py.testing.1: 10
+  py.testing.3: 10
 
 links:
 
@@ -115,4 +115,3 @@ OK
 * a condition is met
 * an expected result is met
 * a specific exception is raised
- 

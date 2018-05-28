@@ -12,7 +12,7 @@ category: must-know
 inAlgoPool: false
 
 standards:
-  python.native-types-operations.0: 10
+  py.native-types-operations.0: 10
 
 
 
@@ -78,4 +78,3 @@ if x == 6 ??? str == 'python':
 * `and`
 * `xor`
 * `either`
- 

@@ -35,7 +35,7 @@ notes: |+
   difference between them.
 
 standards:
-  python.standard-library-data.1: 10
+  py.standard-library-data.1: 10
 
 
 ---
@@ -123,4 +123,3 @@ a = ???.???
 * `constants`
 * `e`
 * `3.14`
- 

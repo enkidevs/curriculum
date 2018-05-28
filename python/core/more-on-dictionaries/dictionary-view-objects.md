@@ -11,7 +11,7 @@ category: must-know
 
 
 standards:
-  python.native-types-operations.6: 10
+  py.native-types-operations.6: 10
 
 links:
 
@@ -99,4 +99,3 @@ Enki = d.keys()
 * holds
 * consists
 * belongs
- 

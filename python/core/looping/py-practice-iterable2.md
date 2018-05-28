@@ -13,9 +13,9 @@ link: https://www.codewars.com/kata/count-of-positives-slash-sum-of-negatives
 linkType: codewars
 standards:
 
-  python.use-iteration-protocol.0: 1000
-  python.use-iteration-protocol.2: 2000
-  python.use-iteration-protocol.3: 2000
+  py.use-iteration-protocol.0: 1000
+  py.use-iteration-protocol.2: 2000
+  py.use-iteration-protocol.3: 2000
 
 links:
 
@@ -30,4 +30,3 @@ links:
 ## Exercise
 
 Practice `iterables` in python.
- 

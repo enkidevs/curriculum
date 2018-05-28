@@ -10,7 +10,7 @@ type: normal
 category: must-know
 
 standards:
-  python.store-manipulate-data.6: 10
+  py.store-manipulate-data.6: 10
 
 links:
 
@@ -113,4 +113,3 @@ b = 3
 * True and True
 * False and True
 * False and False
- 

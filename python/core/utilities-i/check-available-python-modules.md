@@ -20,7 +20,7 @@ tags:
   - imports
 
 standards:
-  python.modules.6: 10
+  py.modules.6: 10
 
 links:
 
@@ -78,4 +78,3 @@ What command/s can be ran in **a terminal*** in order to see all Python modules 
 * `help('modules')`
 * `both`
 * `neither`
- 

@@ -13,8 +13,8 @@ category: how to
 
 
 standards:
-  python.store-manipulate-data.5: 10
-  python.store-manipulate-data.6: 10
+  py.store-manipulate-data.5: 10
+  py.store-manipulate-data.6: 10
 
 links:
 
@@ -85,4 +85,3 @@ What functionality does `callback` carry in `r = weakref.ref(enki, callback)`?
 * `callback` function is invoked when `enki` is deleted.
 * In this case `callback` is a proxy to `enki`.
 
- 

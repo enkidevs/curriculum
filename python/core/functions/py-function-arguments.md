@@ -10,7 +10,7 @@ type: normal
 category: must-know
 
 standards:
-  python.functions.2: 10
+  py.functions.2: 10
 
 
 links:
@@ -151,4 +151,3 @@ foo('Baseball bat', ???)
 * quantity
 * price='$1.00'
 * 150
- 

@@ -25,7 +25,7 @@ notes: |
   to show how to print calendar for a year.
 
 standards:
-  python.native-types-operations.8: 10
+  py.native-types-operations.8: 10
 
 ---
 
@@ -110,4 +110,3 @@ print(calendar.???(2016))
 * `year`
 * `currentYear`
 * `annum`
- 

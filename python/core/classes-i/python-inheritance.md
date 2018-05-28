@@ -11,7 +11,7 @@ category: must-know
 
 
 standards:
-  python.object-oriented.1: 10
+  py.object-oriented.1: 10
 
 ---
 
@@ -134,4 +134,3 @@ print(sq.color)
 - square red
 - AttributeError: 'super' object has no attribute '__getattr__'
 - AttributeError: 'super' object has no attribute '__setattr__'
- 

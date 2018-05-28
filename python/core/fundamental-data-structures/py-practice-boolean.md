@@ -15,9 +15,9 @@ link: https://www.codewars.com/kata/you-only-need-one-beginner
 linkType: codewars
 standards:
 
-  python.data-structures-uses.0: 1000
-  python.native-types-operations.0: 1000
-  python.native-types-operations.2: 2000
+  py.data-structures-uses.0: 1000
+  py.native-types-operations.0: 1000
+  py.native-types-operations.2: 2000
 
 links:
 
@@ -32,4 +32,3 @@ links:
 ## Exercise
 
 Practice using python's `boolean` and `numeric` types on Code Wars.
- 

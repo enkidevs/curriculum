@@ -10,8 +10,8 @@ type: normal
 category: must-know
 
 standards:
-  python.modules.0: 10
-  python.modules.1: 10
+  py.modules.0: 10
+  py.modules.1: 10
 
 links:
 
@@ -138,4 +138,3 @@ calculate_volume(radius, height)
 * `__name__`
 * `cylinder:`
 * `def`
- 

@@ -10,7 +10,7 @@ type: normal
 category: how to
 
 standards:
-  python.native-types-operations.6: 10
+  py.native-types-operations.6: 10
 
 links:
 
@@ -129,4 +129,3 @@ print(C)
 * `pop`
 * `clear`
 * `list`
- 

@@ -10,7 +10,7 @@ type: normal
 category: feature
 
 standards:
-  python.native-types-operations.6: 10
+  py.native-types-operations.6: 10
 
 links:
 
@@ -160,4 +160,3 @@ What will the output look like?
 [1:shallow copy]
 If we have two objects: `A` and `B`. We say `B` is a shallow copy of `A` if they point to the same location in memory.
 >>>>>>> master
- 

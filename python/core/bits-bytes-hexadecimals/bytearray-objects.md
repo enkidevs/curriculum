@@ -15,8 +15,8 @@ category: feature
 
 
 standards:
-  python.data-structures-uses.3: 10
-  python.native-types-operations.11: 10
+  py.data-structures-uses.3: 10
+  py.native-types-operations.11: 10
 
 links:
 
@@ -92,4 +92,3 @@ Convert the bytearray object into a hexadecimal string:
 * `tohex`
 * `byte`
 * `array`
- 

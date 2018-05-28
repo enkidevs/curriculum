@@ -14,8 +14,8 @@ type: normal
 category: feature
 
 standards:
-  python.data-structures-uses.3: 10
-  python.native-types-operations.11: 10
+  py.data-structures-uses.3: 10
+  py.native-types-operations.11: 10
 
 links:
 
@@ -87,4 +87,3 @@ Bytes are ??? sequences of single bits.
 
 * `immutable`
 * `mutable`
- 

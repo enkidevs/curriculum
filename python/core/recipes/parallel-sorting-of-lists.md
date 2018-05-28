@@ -12,7 +12,7 @@ levels:
 type: normal
 
 standards:
-  python.native-types-operations.4: 10
+  py.native-types-operations.4: 10
 
 category: tip
 
@@ -88,4 +88,3 @@ cities, temps = zip(*sorted(zipped))
 * [12, 17, 16, 21]
 * [12, 16, 17, 21]
 * [12, 16, 21, 16]
- 

@@ -12,7 +12,7 @@ type: normal
 category: tip
 
 standards:
-  python.standard-library-data.3: 10
+  py.standard-library-data.3: 10
 
 
 tags:
@@ -80,4 +80,3 @@ What keyword can be used in Python for substring testing?
 * `is`
 * `matches`
 * `yield`
- 

@@ -13,9 +13,9 @@ link: https://www.codewars.com/kata/number-of-people-in-the-bus
 linkType: codewars
 standards:
 
-  python.functions.0: 1000
-  python.functions.1: 2000
-  python.functions.3: 3000
+  py.functions.0: 1000
+  py.functions.1: 2000
+  py.functions.3: 3000
 
 links:
 
@@ -31,4 +31,3 @@ links:
 ## Exercise
 
 Practice python `functions`.
- 

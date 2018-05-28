@@ -25,7 +25,7 @@ notes: |
   11 # 1024 in binary is 10000000000
 
 standards:
-  python.data-structures-uses.3: 10
+  py.data-structures-uses.3: 10
 
 ---
 
@@ -153,4 +153,3 @@ When specified, the integer value will be represented in `length` bytes. If thes
 In **big endian**, you store the *most* significant `bit` in the **smallest** address, while in **little endian** you store the *least* significant one.
 
 If you wish to learn more about this subject, bookmark this insight and check its "Learn more" links section.
- 

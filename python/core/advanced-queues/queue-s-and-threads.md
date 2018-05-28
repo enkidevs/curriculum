@@ -10,8 +10,8 @@ type: normal
 category: how to
 
 standards:
-  python.control-structures.5: 10
-  comp-sci.implement-linear-collection-data-structures.3: 10
+  py.control-structures.5: 10
+  cs.implement-linear-collection-data-structures.3: 10
 
 links:
 
@@ -101,4 +101,3 @@ Which methods tells the queue that an operation has finished? ???
 * `task.done()`
 * `task-done()`
 * `taskdone()`
- 

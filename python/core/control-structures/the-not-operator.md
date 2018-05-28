@@ -13,7 +13,7 @@ inAlgoPool: false
 
 
 standards:
-  python.native-types-operations.0: 10
+  py.native-types-operations.0: 10
 
 ---
 
@@ -74,4 +74,3 @@ print(True == (not True))
 * False
 * True
 * Error
- 

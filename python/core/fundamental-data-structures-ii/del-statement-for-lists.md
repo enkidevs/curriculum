@@ -10,7 +10,7 @@ type: normal
 category: must-know
 
 standards:
-  python.native-types-operations.4: 10
+  py.native-types-operations.4: 10
 
 links:
 
@@ -92,4 +92,3 @@ list = [1,2,3,4,5]
 * 3
 * remove
 
- 

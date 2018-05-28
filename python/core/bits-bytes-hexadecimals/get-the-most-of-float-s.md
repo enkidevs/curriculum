@@ -11,7 +11,7 @@ category: feature
 
 
 standards:
-  python.data-structures-uses.3: 10
+  py.data-structures-uses.3: 10
 
 links:
 
@@ -118,4 +118,3 @@ How would you convert `2.71` to its **hexadecimal** representation?
 * `to_hex`
 * `fromhex`
 * `int`
- 

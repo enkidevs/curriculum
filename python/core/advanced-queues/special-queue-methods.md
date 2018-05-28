@@ -11,7 +11,7 @@ category: feature
 
 
 standards:
-  comp-sci.implement-linear-collection-data-structures.3: 10
+  cs.implement-linear-collection-data-structures.3: 10
 
 links:
 
@@ -90,4 +90,3 @@ q = ???.???(5)
 * `new`
 * `instance`
 * `create`
- 

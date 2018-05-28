@@ -13,7 +13,7 @@ inAlgoPool: false
 
 
 standards:
-  python.identify-python-syntax.1: 10
+  py.identify-python-syntax.1: 10
 
 
 ---
@@ -56,4 +56,3 @@ Complete the code snippet:
 * `write`
 * `sys.out`
 * `writeln`
- 

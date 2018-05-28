@@ -12,7 +12,7 @@ type: normal
 category: must-know
 
 standards:
-  python.native-types-operations.6: 10
+  py.native-types-operations.6: 10
 
 links:
 
@@ -140,4 +140,3 @@ print(marks.keys())
 * dict_keys(['David', 'Amber', 'Steve', 'John', 'Amy'])
 * dict_keys(['Steve', 'John', 'Amy'])
 * dict_keys(['Amber', 'David', 'John'])
- 

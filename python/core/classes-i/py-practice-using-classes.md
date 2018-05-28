@@ -13,8 +13,8 @@ link: https://www.codewars.com/kata/ordered-count-of-characters
 linkType: codewars
 standards:
 
-  python.object-oriented.0: 1000
-  python.object-oriented.3: 2000
+  py.object-oriented.0: 1000
+  py.object-oriented.3: 2000
 
 links:
 
@@ -29,4 +29,3 @@ links:
 ## Exercise
 
 Practice using classes together with your networking skills.
- 

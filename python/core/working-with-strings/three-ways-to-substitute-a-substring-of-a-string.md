@@ -14,8 +14,8 @@ type: normal
 category: tip
 
 standards:
-  python.standard-library-data.6: 10
-  python.data-structures-uses.5: 10
+  py.standard-library-data.6: 10
+  py.data-structures-uses.5: 10
 
 ---
 
@@ -89,4 +89,3 @@ print(my_string
 * `{time}`
 * `substitute`
 * `sub`
- 

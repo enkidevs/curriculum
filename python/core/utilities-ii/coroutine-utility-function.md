@@ -12,8 +12,8 @@ type: normal
 category: feature
 
 standards:
-  python.control-structures.5: 10
-  python.modules.0: 10
+  py.control-structures.5: 10
+  py.modules.0: 10
 
 links:
 
@@ -88,4 +88,3 @@ What function from the `types` module can be used to transform a generator into 
 * `generator`
 * `await`
 * `gen_to_co`
- 

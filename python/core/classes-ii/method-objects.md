@@ -42,7 +42,7 @@ notes: >
   to show it.
 
 standards:
-  python.object-oriented.3: 10
+  py.object-oriented.3: 10
 
 ---
 
@@ -119,4 +119,3 @@ x = test.???
 * `new`
 * `def`
 * `get`
- 

@@ -13,7 +13,7 @@ inAlgoPool: false
 
 
 standards:
-  python.functions.1: 10
+  py.functions.1: 10
 
 
 ---
@@ -106,4 +106,3 @@ num = 5
 * `obj`
 * `var`
 * `function`
- 

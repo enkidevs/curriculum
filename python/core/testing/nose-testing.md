@@ -12,8 +12,8 @@ type: normal
 category: must-know
 
 standards:
-  python.testing.1: 10
-  python.testing.5: 10
+  py.testing.1: 10
+  py.testing.5: 10
 
 links:
 
@@ -102,4 +102,3 @@ In terms of basic syntax, `nose` and `pytest` are
 * similar
 * small differences
 * not at all alike
- 

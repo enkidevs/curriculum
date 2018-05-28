@@ -10,7 +10,7 @@ type: normal
 category: must-know
 
 standards:
-  python.modules.0: 10
+  py.modules.0: 10
 
 
 links:
@@ -133,4 +133,3 @@ def add(a, b):
     print("The sum is: ", sum)
     return sum
 ```
- 

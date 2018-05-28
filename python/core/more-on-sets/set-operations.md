@@ -10,7 +10,7 @@ type: normal
 category: feature
 
 standards:
-  python.native-types-operations.5: 10
+  py.native-types-operations.5: 10
 
 links:
 
@@ -103,4 +103,3 @@ enki.???()
 * `empty`
 * `delete`
 * `list`
- 

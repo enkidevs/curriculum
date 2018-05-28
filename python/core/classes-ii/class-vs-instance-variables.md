@@ -26,8 +26,8 @@ notes: >
 
 
 standards:
-  python.object-oriented.2: 10
-  python.object-oriented.3: 10
+  py.object-oriented.2: 10
+  py.object-oriented.3: 10
 ---
 
 # **Class** vs. **Instance** variables
@@ -75,4 +75,3 @@ class Test:
 
 * `class`
 * `instance`
- 

@@ -13,7 +13,7 @@ inAlgoPool: false
 
 
 standards:
-  python.native-types-operations.0: 10
+  py.native-types-operations.0: 10
 
 links:
 
@@ -78,4 +78,3 @@ The `in` operator evaluates to ??? if it finds the specified variable in the ???
 * false
 * list
 * map
- 

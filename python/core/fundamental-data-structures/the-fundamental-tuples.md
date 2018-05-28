@@ -10,7 +10,7 @@ type: normal
 category: must-know
 
 standards:
-  python.native-types-operations.4: 10
+  py.native-types-operations.4: 10
 
 links:
 
@@ -126,4 +126,3 @@ print(b)
 * 2
 * 3,4,5
 * 1,2,3,4,5
- 

@@ -12,7 +12,7 @@ type: normal
 category: feature
 
 standards:
-  python.native-types-operations.6: 10
+  py.native-types-operations.6: 10
 
 links:
   - '[pymotw.com](https://pymotw.com/2/collections/ordereddict.html){website}'
@@ -107,4 +107,3 @@ for k, v in e.???():
 * `odict`
 * `dictionary`
 * `holds`
- 

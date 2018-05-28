@@ -12,7 +12,7 @@ levels:
 type: normal
 
 standards:
-  python.native-types-operations.4: 10
+  py.native-types-operations.4: 10
 
 category: tip
 
@@ -78,4 +78,3 @@ tuple = [('a', 1), ('b', 2), ('c', 3)]
 * `zip`
 * `button`
 * `combine`
- 

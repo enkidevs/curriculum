@@ -36,7 +36,7 @@ notes: >
   instead of "reverse()". Fixed.
 
 standards:
-  python.native-types-operations.3: 10
+  py.native-types-operations.3: 10
 
 ---
 
@@ -130,4 +130,3 @@ for w in ???(sorted \
 * `orderreverse`
 * `start`
 * `list`
- 

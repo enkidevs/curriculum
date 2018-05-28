@@ -13,10 +13,10 @@ link: https://www.codewars.com/kata/circle-area-inside-square
 linkType: codewars
 standards:
 
-  python.modules.0: 1000
-  python.modules.1: 1000
-  python.modules.2: 2000
-  python.modules.5: 2000
+  py.modules.0: 1000
+  py.modules.1: 1000
+  py.modules.2: 2000
+  py.modules.5: 2000
 
 links:
 
@@ -31,4 +31,3 @@ links:
 ## Exercise
 
 Practice using python modules.
- 

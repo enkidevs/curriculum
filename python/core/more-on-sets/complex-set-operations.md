@@ -12,7 +12,7 @@ category: must-know
 inAlgoPool: false
 
 standards:
-  python.native-types-operations.5: 10
+  py.native-types-operations.5: 10
 
 
 ---
@@ -86,4 +86,3 @@ x.issubset(y)
 * `x <= y`
 * `x == y`
 * `y > x`
- 

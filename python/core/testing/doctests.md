@@ -12,8 +12,8 @@ type: normal
 category: must-know
 
 standards:
-  python.testing.1: 10
-  python.testing.4: 10
+  py.testing.1: 10
+  py.testing.4: 10
 
 links:
 
@@ -112,4 +112,3 @@ How does `doctest` find a new test case in the documentation?
 [1: docstring]
 An object's docstring is defined by including a string constant (documentation) as the first
 statement in the object's definition.
- 

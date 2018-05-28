@@ -13,7 +13,7 @@ inAlgoPool: false
 
 
 standards:
-  python.identify-python-syntax.2: 10
+  py.identify-python-syntax.2: 10
 
 links:
 
@@ -91,4 +91,3 @@ Which of the following is a valid Python comment?
 * `Comment C`
 * `Comment B`
 * `Comment A`
- 

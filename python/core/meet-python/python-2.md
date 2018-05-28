@@ -12,7 +12,7 @@ category: must-know
 inAlgoPool: false
 
 standards:
-  python.developer-environment.0: 10
+  py.developer-environment.0: 10
 
 
 ---
@@ -63,4 +63,3 @@ Which of the following code snippets is Python 3 code?
 * `print 'Hello world!'`
 * `write 'Hello world!'`
 * `write ('Hello world!')`
- 

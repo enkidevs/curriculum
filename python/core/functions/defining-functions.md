@@ -13,8 +13,8 @@ inAlgoPool: false
 
 
 standards:
-  python.functions.0: 10
-  python.identify-python-syntax.2: 10
+  py.functions.0: 10
+  py.identify-python-syntax.2: 10
 
 links:
 
@@ -83,4 +83,3 @@ What keyword is used to define a new function?
 * `def`
 * `new`
 * `func`
- 

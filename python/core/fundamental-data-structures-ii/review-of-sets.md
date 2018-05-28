@@ -10,7 +10,7 @@ type: normal
 category: must-know
 
 standards:
-  python.native-types-operations.5: 10
+  py.native-types-operations.5: 10
 
 links:
 
@@ -121,4 +121,3 @@ Which operation is performed using `^` operator?
 * `symmetric difference`
 * `difference`
 * `union`
- 

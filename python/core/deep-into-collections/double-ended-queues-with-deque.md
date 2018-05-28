@@ -11,7 +11,7 @@ category: must-know
 
 
 standards:
-  comp-sci.identify-linear-collection-data-structures-usage.2: 10
+  cs.identify-linear-collection-data-structures-usage.2: 10
 
 links:
 
@@ -105,4 +105,3 @@ a.???("e")
 * `append`
 * `append.left`
 * `append.start`
- 

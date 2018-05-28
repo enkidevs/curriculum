@@ -14,9 +14,9 @@ type: normal
 category: feature
 
 standards:
-  python.data-structures-uses.5: 10
-  python.modules.0: 10
-  python.native-types-operations.4: 10
+  py.data-structures-uses.5: 10
+  py.modules.0: 10
+  py.native-types-operations.4: 10
 
 links:
 
@@ -100,4 +100,3 @@ What class from `difflib` with a `compare` method can be used to see differences
 * `SequenceMatcher`
 * `ndiff`
 * `HtmlDiff`
- 

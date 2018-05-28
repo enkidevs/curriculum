@@ -12,8 +12,8 @@ type: normal
 category: feature
 
 standards:
-  comp-sci.identify-linear-collection-data-structures-usage.2: 10
-  comp-sci.implement-linear-collection-data-structures.2: 10
+  cs.identify-linear-collection-data-structures-usage.2: 10
+  cs.implement-linear-collection-data-structures.2: 10
 
 links:
 
@@ -109,4 +109,3 @@ lq = queue.???()
 * `FifoQueue`
 * `lifoqueue`
 * `fifoqueue`
- 

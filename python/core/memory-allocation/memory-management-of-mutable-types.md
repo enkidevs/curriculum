@@ -10,9 +10,9 @@ type: normal
 category: must-know
 
 standards:
-  python.store-manipulate-data.0: 10
-  python.store-manipulate-data.1: 10
-  python.store-manipulate-data.6: 10
+  py.store-manipulate-data.0: 10
+  py.store-manipulate-data.1: 10
+  py.store-manipulate-data.6: 10
 
 ---
 
@@ -108,4 +108,3 @@ print(a)
 * `5`
 * `[]`
 * `a`
- 

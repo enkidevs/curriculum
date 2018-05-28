@@ -14,7 +14,7 @@ type: normal
 category: must-know
 
 standards:
-  python.object-oriented.4: 10
+  py.object-oriented.4: 10
 
 links:
 
@@ -105,4 +105,3 @@ print(Enki.???)
 * `class()`
 * `__meta__`
 * `class`
- 

@@ -13,10 +13,10 @@ link: https://www.codewars.com/kata/my-head-is-at-the-wrong-end
 linkType: codewars
 standards:
 
-  python.use-iteration-protocol.0: 1000
-  python.use-iteration-protocol.1: 2000
-  python.use-iteration-protocol.2: 2000
-  python.use-iteration-protocol.4: 3000
+  py.use-iteration-protocol.0: 1000
+  py.use-iteration-protocol.1: 2000
+  py.use-iteration-protocol.2: 2000
+  py.use-iteration-protocol.4: 3000
 
 links:
 
@@ -31,4 +31,3 @@ links:
 ## Exercise
 
 Practice your skills with `next` and `iter`.
- 

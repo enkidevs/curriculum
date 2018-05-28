@@ -10,7 +10,7 @@ type: normal
 category: how to
 
 standards:
-  comp-sci.implement-linear-collection-data-structures.2: 10
+  cs.implement-linear-collection-data-structures.2: 10
 
 links:
 
@@ -109,4 +109,3 @@ for n in temp.items:
 * 5 Q U E U E
 * Q U E U E
 * E U E U Q
- 

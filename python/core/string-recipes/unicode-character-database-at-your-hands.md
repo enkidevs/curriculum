@@ -17,8 +17,8 @@ inAlgoPool: false
 
 
 standards:
-  python.data-structures-uses.5: 10
-  python.native-types-operations.4: 10
+  py.data-structures-uses.5: 10
+  py.native-types-operations.4: 10
 
 
 links:
@@ -94,4 +94,3 @@ Get the name of a character specified:
 * `name`
 * `lookup`
 * `category`
- 

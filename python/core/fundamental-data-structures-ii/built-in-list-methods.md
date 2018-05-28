@@ -14,7 +14,7 @@ type: normal
 category: how to
 
 standards:
-  python.native-types-operations.4: 10
+  py.native-types-operations.4: 10
 
 links:
 
@@ -101,4 +101,3 @@ neg = [-1,-2,-3,-4]
 * neg
 * concatenate
 * append
- 

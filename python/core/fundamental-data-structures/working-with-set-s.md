@@ -10,7 +10,7 @@ type: normal
 category: must-know
 
 standards:
-  python.native-types-operations.5: 10
+  py.native-types-operations.5: 10
 
 links:
 
@@ -102,4 +102,3 @@ What happens when you use `remove()` on an element that doesn't exist in the set
 * An error will be thrown.
 * Nothing.
 * The element will be removed.
- 

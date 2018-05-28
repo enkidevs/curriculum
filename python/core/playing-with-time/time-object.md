@@ -12,7 +12,7 @@ type: normal
 category: feature
 
 standards:
-  python.native-types-operations.8: 10
+  py.native-types-operations.8: 10
 
 parent: datetime-module
 
@@ -149,4 +149,3 @@ current = ???
 ## Footnotes
 [1:proleptic Georgian calendar]
 The proleptic Gregorian calendar is produced by extending the Gregorian calendar backward with negative values to dates preceding its official introduction in **1582**.
- 

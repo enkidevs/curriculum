@@ -14,7 +14,7 @@ type: normal
 category: tip
 
 standards:
-  python.standard-library-data.3: 10
+  py.standard-library-data.3: 10
 
 tags:
 
@@ -97,4 +97,3 @@ l = "".join(l)
 * Enki
 * E n k i
 * E,n,k,i
- 

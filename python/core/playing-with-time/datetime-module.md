@@ -15,7 +15,7 @@ inAlgoPool: false
 
 
 standards:
-  python.native-types-operations.8: 10
+  py.native-types-operations.8: 10
 
 links:
 
@@ -85,4 +85,3 @@ print(???.???)
 * `date`
 * `time`
 * `max_year`
- 

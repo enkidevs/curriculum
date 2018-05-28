@@ -19,8 +19,8 @@ links:
   - '[docs.python.org](https://docs.python.org/3.5/library/datetime.html#timedelta-objects){website}'
 
 standards:
-  python.native-types-operations.8: 10
-  python.standard-library-data.2: 10
+  py.native-types-operations.8: 10
+  py.standard-library-data.2: 10
 
 parent: datetime-object
 
@@ -121,4 +121,3 @@ yesterday = ??? - ???
 * `date`
 * `time`
 * `today / 2`
- 

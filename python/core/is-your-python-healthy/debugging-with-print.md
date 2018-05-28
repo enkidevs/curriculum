@@ -12,7 +12,7 @@ type: normal
 category: must-know
 
 standards:
-  python.identify-python-syntax.1: 10
+  py.identify-python-syntax.1: 10
 
 links:
 
@@ -95,4 +95,3 @@ Which of the following is an ad-hoc debugging method?
 * print()
 * debugging modules
 * Python doesn't support debugging
- 

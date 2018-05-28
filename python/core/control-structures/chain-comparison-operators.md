@@ -12,7 +12,7 @@ type: normal
 category: tip
 
 standards:
-  python.native-types-operations.0: 10
+  py.native-types-operations.0: 10
 
 
 tags:
@@ -93,4 +93,3 @@ if var >= startvar and var <= endvar:
 - `if startvar <= and var <= endvar:`
 - `if (startvar <= and var <= endvar):`
 - `if startvar >= var <= endvar:`
- 
