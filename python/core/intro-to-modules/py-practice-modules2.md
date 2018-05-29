@@ -7,8 +7,10 @@ levels:
 
   - basic
 
-tags: 
-  - introduciton
+tags:
+  - introduction
+  
+  - workout
 
 type: exercise
 
@@ -18,15 +20,15 @@ link: https://www.codewars.com/kata/find-out-whether-the-shape-is-a-cube
 
 standards:
 
-  py.modules.0: 1000
-  py.modules.1: 2000
-  py.modules.2: 1000
+  python.modules.0: 1000
+  python.modules.1: 2000
+  python.modules.2: 1000
 
 links:
 
-  - '[Official documentation](https://docs.python.org/3/tutorial/modules.html){website}'
-  - '[A blog post on packages](https://docs.python.org/3/tutorial/modules.html){website}'
-  - '[A video tutorial on python packages](https://www.youtube.com/watch?v=V-GZxNLOMXs){video}'
+  - '[Official documentation for modules](https://docs.python.org/3/tutorial/modules.html){website}'
+  - '[Blog post on modules](https://docs.python.org/3/tutorial/modules.html){website}'
+  - '[A video tutorial on modules](https://www.youtube.com/watch?v=V-GZxNLOMXs){video}'
 ---
 
 # Practice python modules
@@ -34,7 +36,7 @@ links:
 ---
 ## Exercise
 
-Practice using modules in python.
+Practice using `modules` in python.
 
 Click *Launch Exercise* to open Codewars.
 

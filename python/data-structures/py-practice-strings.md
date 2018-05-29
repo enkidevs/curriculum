@@ -7,10 +7,15 @@ levels:
 
   - basic
 
+tags:
+  - introduction
+
 type: exercise
 
-link: https://www.codewars.com/kata/help-the-bookseller
 linkType: codewars
+
+link: https://www.codewars.com/kata/help-the-bookseller
+
 standards:
 
   py.data-structures-uses.0: 1000
@@ -30,3 +35,11 @@ links:
 ## Exercise
 
 Train your skills on using sets of dat and python's `string` type.
+
+Click *Launch Exercise* to open Codewars.
+
+On the website you will find a description of the exercise. Read this description carefully. 
+
+When you are ready to give it a try press the blue *Train* button and write your solution. 
+
+To test your solution press the blue *Attempt* button.
