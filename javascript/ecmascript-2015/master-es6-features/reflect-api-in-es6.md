@@ -47,15 +47,6 @@ Reflect.get
     (target, propertyKey, receiver?)
 ```
 
-**Shorten apply**
-
-Produce a cleaner and shorter version of `.apply`.
-```
-Function.prototype.apply.call
-    (func, thisArg, args) // ES5
-Reflect.apply(func, thisArg, args) // ES6
-```
-
 ---
 ## Practice
 
