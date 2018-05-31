@@ -99,6 +99,28 @@ Nevertheless, even though we provide the access key, there is no way for the use
 ---
 ## Practice
 
+Write the form code that creates a reset button.
+
+`<??? ???="???" ???="Reset">`
+
+Which line of code defines the button that sends the data when clicked?
+
+???
+
+* input
+* type
+* reset
+* value
+* `<input type="submit" value="Send">`
+* send
+* data
+* `<submit value="Send">`
+* `<input submit="Send">`
+* `<input value="submit" type="Send">`
+
+---
+## Revision
+
 Write the form code that creates a submit button.
 
 `<??? ???="???" ???="Send">`
@@ -109,29 +131,6 @@ Write the form code that creates a submit button.
 * value
 * send
 * data
-
-Write the form code that creates a reset button.
-
-`<??? ???="???" ???="Reset">`
-
-* input
-* type
-* reset
-* value
-* send
-* data
-
----
-## Revision
-
-Which line of code defines the button that sends the data when clicked?
-
-???
-
-* `<input type="submit" value="Send">`
-* `<submit value="Send">`
-* `<input submit="Send">`
-* `<input value="submit" type="Send">`
 
 ---
 ## Quiz
