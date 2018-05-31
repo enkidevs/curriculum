@@ -25,12 +25,12 @@ In Java, **primitives** are the most basic data types. To be able to use a varia
 ```java
 int myIntVariable = 3;
 ```
-This tells the program that a field name `myIntVariable` exists, is of type `int` and has an intial value of `3`. As you might have guessed already, `int` is a primitive type.
+This line tells the program that a field name `myIntVariable` exists, is of type `int` and has an initial value of `3`. As you might have guessed already, `int` is a primitive type.
 
 By type of data held, some of the other existing primitives are:
  - Numerical
   - `long`: unlike `int` which can hold values up to 10 digits long, `long` values can be as long as 19 digits.
-  - `float` and `double`, which both store floating point numbers.
+  - `float` and `double`, which both stores floating point numbers.
  - Characters
   - `char`: stores Unicode characters (or numerical values associated with letters, signs or numbers)
  - Booleans
@@ -66,4 +66,3 @@ The default type of `5.30` is ???
 * float
 * int
 * long
-
