@@ -33,9 +33,10 @@ tags:
 # Get disk space usage with `df`
 
 ---
+
 ## Content
 
-The `df` (disk free) command provides the `-h` flag as an option to display sizes in human readable formats. 
+The `df` (disk free) command provides the `-h` flag as an option to display sizes in human readable formats.
 
 ```
 $ df -h
@@ -45,17 +46,15 @@ udev        1.9G  4.0K  1.9G   1% /dev
 tmpfs       392M  884K  391M   1% /run
 none        5.0M     0  5.0M   0% /run/lock
 none        2.0G   39M  1.9G   2% /run/shm
-
 ```
 
 ---
+
 ## Revision
 
-You can get the free disk status with ???. 
+You can get the free disk status with ???.
 
-
-* `df`
-* `du`
-* `touch`
-* `dd`
-
+- `df`
+- `du`
+- `touch`
+- `dd`

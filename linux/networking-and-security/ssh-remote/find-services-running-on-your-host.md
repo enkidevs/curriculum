@@ -36,9 +36,11 @@ notes: ''
 # Find services running on your host
 
 ---
+
 ## Content
 
 We can get a detailed information of the services that are running on our host by issuing:
+
 ```
 $ ss -tulpn
 ```
@@ -50,14 +52,16 @@ $ ss -tulpn
 Netid        tcp
 State 	   Listen
 Recv-Q 	  0
-Send-Q 	  5      
+Send-Q 	  5
 Local Address:Port     127.0.1.1:53
 Peer Address:Port      *:*
 users:(("dnsmask', pid=728, fd=5))
 ```
-This means that *TCP port 53* was opened by *dnsmask* process having *PID 728*.
+
+This means that _TCP port 53_ was opened by _dnsmask_ process having _PID 728_.
 
 Flags:
+
 - `-t` : display TCP sockets
 - `-u` : display UDP sockets
 - `-l` : display listening sockets
@@ -67,17 +71,18 @@ Flags:
 The `ss` command is the alternative to `netstat`, which is deprecated.
 
 ---
+
 ## Revision
 
 You can get the process ID of services that are Listening to TCP ports by issuing the non deprecated command:
+
 ```
 $ ??? ??? ???
 ```
 
-* `sudo`
-* `ss`
-* `-tlp`
-* `-ulp`
-* `-tl`
-* `netstat`
-
+- `sudo`
+- `ss`
+- `-tlp`
+- `-ulp`
+- `-tl`
+- `netstat`

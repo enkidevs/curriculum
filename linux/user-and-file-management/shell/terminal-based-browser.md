@@ -35,6 +35,7 @@ tags:
 # Terminal based browser
 
 ---
+
 ## Content
 
 It is possible to browse websites from the terminal using `lynx`.
@@ -57,19 +58,19 @@ $ lynx https://google.com
 ```
 
 To get lynx, install the `lynx-cur` package (on Debian systems): as follows:
+
 ```
 sudo apt-get install lynx-cur
 ```
 
 ---
+
 ## Revision
 
-You can browse websites from the terminal using the 
+You can browse websites from the terminal using the
 
 ??? .
 
-
-* lynx package
-* browse package
-* firefox package
-
+- lynx package
+- browse package
+- firefox package

@@ -29,6 +29,7 @@ tags:
 # Monitor System Memory using `vmstat`
 
 ---
+
 ## Content
 
 `vmstat` allows the user to monitor virtual
@@ -41,18 +42,17 @@ The user can specify a sampling period.
 ```bash
 $ vmstat 1
 procs
-
 ```
 
 ---
+
 ## Revision
 
-Running `vmstat 1`  allows the user to monitor the
+Running `vmstat 1` allows the user to monitor the
 
 ???
 
-
-* virtual memory
-* physical memory
-* network
-* server
+- virtual memory
+- physical memory
+- network
+- server

@@ -38,6 +38,7 @@ notes: ''
 # Execute a command without saving it in history
 
 ---
+
 ## Content
 
 Adding one or more spaces before your command will result in `history` not recording it.
@@ -45,6 +46,7 @@ Adding one or more spaces before your command will result in `history` not recor
 This is useful for passwords (those long mysql connections) on the command-line.
 
 For example:
+
 ```
 $ echo 1
 1
@@ -58,17 +60,18 @@ $ history
   502  echo 3
   503  history
 ```
-This might not work *by default* on some shell setups.
+
+This might not work _by default_ on some shell setups.
 
 ---
+
 ## Revision
 
 Depending on your setup, adding ???
 
 at the beginning of a command will make `history` not record it.
 
-
-* space
-* @
-* !
-* ?
+- space
+- @
+- !
+- ?

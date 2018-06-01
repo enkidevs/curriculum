@@ -36,10 +36,11 @@ notes: ''
 # How to clear `iptables` rules
 
 ---
+
 ## Content
 
-Although it is not a good idea, often we need to make sure that nothing is blocking our 
-data from/to a specific host. This can mean the *firewall* needs to be 'disabled'.
+Although it is not a good idea, often we need to make sure that nothing is blocking our
+data from/to a specific host. This can mean the _firewall_ needs to be 'disabled'.
 
 On Debian systems, we can issue the following commands as root:
 
@@ -61,7 +62,7 @@ Here:
 
 `-X` flag will attempt to delete every non-builtin chain in the table
 
-`-F` flag is equivalent  to deleting all the rules 
+`-F` flag is equivalent to deleting all the rules
 
 `-t` option targets the table passed as an argument
 
@@ -70,12 +71,12 @@ Here:
 In practice, you might not want to wipe the state clean since it will leave your machine vulnerable.
 
 ---
+
 ## Revision
 
 On a Debian system, to stop the firewall you have to ??? the rules.
 
-* clear
-* stop
-* target
-* add
-
+- clear
+- stop
+- target
+- add

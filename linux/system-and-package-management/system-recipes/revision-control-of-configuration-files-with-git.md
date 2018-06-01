@@ -30,12 +30,14 @@ notes: ''
 # Revision control of configuration files with git
 
 ---
+
 ## Content
 
-It is always considered good practice to keep track of your important configuration files 
-and `git` is a great tool for this. 
+It is always considered good practice to keep track of your important configuration files
+and `git` is a great tool for this.
 
 Create a repository on your git server and initialize it locally:
+
 ```bash
 cd path/to/config/file/
 git init
@@ -55,10 +57,13 @@ cd /path_to_git_repo
 git commit -a -m "Auto Git Update $DDDD"
 git push
 ```
+
 And make the file executable:
+
 ```
 chmod +x git_updater.sh
 ```
+
 Finally, set a crontab entry that will run at an interval of your liking:
 
 ```
@@ -68,14 +73,13 @@ Finally, set a crontab entry that will run at an interval of your liking:
 ```
 
 ---
+
 ## Revision
 
-You can upload your important configuration files to *git* using 
+You can upload your important configuration files to _git_ using
 
 ??? .
 
-
-* auto-commit scripts
-* auto-pull scripts
-* history
-
+- auto-commit scripts
+- auto-pull scripts
+- history

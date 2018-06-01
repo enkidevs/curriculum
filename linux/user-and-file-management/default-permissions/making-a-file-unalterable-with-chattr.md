@@ -35,25 +35,31 @@ tags:
 # Making a file unalterable with `chattr`
 
 ---
+
 ## Content
 
 You can make a file unalterable so that it cannot be changed or deleted even by root:
+
 ```
 $ chattr +i /path/to/file
 ```
 
-After that the file becomes *untouchable*.
+After that the file becomes _untouchable_.
 
 To update the file, remove the attribute using `-i` flag:
+
 ```
 $ chattr -i /path/to/file
 ```
+
 Use `-R` flag to unlock a directory.
+
 ```
 $ chattr -R -i directory/
 ```
 
 The Mac equivalent is:
+
 ```
 #to "lock" the file
 $ chflags uchg /path/to/file
@@ -62,16 +68,17 @@ $ chflags nouchg /path/to/file
 ```
 
 ---
+
 ## Revision
 
-Make `enki`  *file* untouchable:
+Make `enki` _file_ untouchable:
+
 ```
 $ ??? ??? enki
 ```
 
-* `chattr`
-* `+i`
-* `-R`
-* `-Ri`
-* `-i`
-
+- `chattr`
+- `+i`
+- `-R`
+- `-Ri`
+- `-i`

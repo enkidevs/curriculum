@@ -37,6 +37,7 @@ tags:
 # Get real network statistics with `slurm`
 
 ---
+
 ## Content
 
 `slurm` is a command line tool that displays real-time data
@@ -55,13 +56,14 @@ $ slurm -i eth0
 ```
 
 An example output would be:
+
 ```
-Active Interface: wlo1   
+Active Interface: wlo1
 
 Current RX Speed: 2.70 KB/s
 Graph Top RX Speed: 8.60 KB/s  
-Overall Top RX Speed: 8.60 KB/s   
-Received Packets: 253624     
+Overall Top RX Speed: 8.60 KB/s
+Received Packets: 253624
 MBytes Received: 319.855 MB
 Errors on Receiving: 0
 
@@ -70,7 +72,7 @@ Errors on Receiving: 0
 Interface Speed: unknown
 
 Current TX Speed: 0.05 KB/s
-Graph Top TX Speed: 4.04 KB/s     
+Graph Top TX Speed: 4.04 KB/s
 Overall Top TX Speed: 4.04 KB/s
 Transmitted Packets: 147949
 MBytes Transmitted: 15.595 MB
@@ -78,14 +80,14 @@ Errors on Transmission: 0
 ```
 
 ---
+
 ## Revision
 
 `slurm` is used as a
 
 ??? .
 
-* measurement tool for internet speed
-* energy drink
-* measurement tool for cpu usage
-* measurement tool for users access to a server
-
+- measurement tool for internet speed
+- energy drink
+- measurement tool for cpu usage
+- measurement tool for users access to a server

@@ -21,15 +21,16 @@ inAlgoPool: false
 # Diagnosing Network Problems With `traceroute`
 
 ---
+
 ## Content
 
-When you request data over the internet, the traffic doesn't flow directly between your machine and the machine you're requesting data from.  Rather, the traffic makes a sequence of "hops" between many machines along the way.  The specific route the traffic takes can vary from request to request.  The failure of any link in this chain might cause your internet connection to appear slow or unreliable.
+When you request data over the internet, the traffic doesn't flow directly between your machine and the machine you're requesting data from. Rather, the traffic makes a sequence of "hops" between many machines along the way. The specific route the traffic takes can vary from request to request. The failure of any link in this chain might cause your internet connection to appear slow or unreliable.
 
-To see all the "hops" between your machine and some remote machine we can use the `traceroute` command.  Here is an example of the output:
+To see all the "hops" between your machine and some remote machine we can use the `traceroute` command. Here is an example of the output:
 
 ```shell
 $ traceroute google.com
-traceroute to google.com (216.58.194.174), 
+traceroute to google.com (216.58.194.174),
   64 hops max, 52 byte packets
  1  192.168.1.254 (192.168.1.254)
     6.081 ms  3.963 ms  6.136 ms
@@ -57,41 +58,42 @@ traceroute to google.com (216.58.194.174),
     14.963 ms
  8  64.233.175.249 (64.233.175.249)
     19.212 ms  18.240 ms  15.194 ms
- 9  sfo07s13-in-f14.1e100.net 
+ 9  sfo07s13-in-f14.1e100.net
     (216.58.194.174)
     15.199 ms  16.632 ms  14.472 ms
 $
 ```
 
-Each line corresponds to one "hop."  By default `traceroute` sends out three packets per hop and displays the round trip time for each of the three packets, corresponding to the three times displayed.
+Each line corresponds to one "hop." By default `traceroute` sends out three packets per hop and displays the round trip time for each of the three packets, corresponding to the three times displayed.
 
-The first few hops correspond to your home network and your ISP's network.  Eventually the packets reach the highest-level networks and find their way down into the destination's network.
+The first few hops correspond to your home network and your ISP's network. Eventually the packets reach the highest-level networks and find their way down into the destination's network.
 
-If a particular website or service is slow you can use `traceroute` to determine which hop in the chain is at fault.  You will see a sudden jump in latency, say, from `13ms` to `100ms`.
+If a particular website or service is slow you can use `traceroute` to determine which hop in the chain is at fault. You will see a sudden jump in latency, say, from `13ms` to `100ms`.
 
-If the "bad hop" is internal to your network you know that it's a problem with your own network.  If it's between your computer and your ISP you know it's a problem with your internet connection or possibly your ISP itself.  If it's between some farther-out hops then it might be a problem with the *destination*'s network (e.g., the site in question is actually down).
+If the "bad hop" is internal to your network you know that it's a problem with your own network. If it's between your computer and your ISP you know it's a problem with your internet connection or possibly your ISP itself. If it's between some farther-out hops then it might be a problem with the _destination_'s network (e.g., the site in question is actually down).
 
 ---
+
 ## Practice
 
-If there is a *bad hop* right at the beginning, the most likely to blame is 
+If there is a _bad hop_ right at the beginning, the most likely to blame is
 
 ???.
 
-* your network
-* your ISP
-* destination’s server
-* destination’s ISP
+- your network
+- your ISP
+- destination’s server
+- destination’s ISP
 
 ---
+
 ## Revision
 
-If a particular connection is slow, you can check the *hops* of the packets between your machine and the destination’s machine using 
+If a particular connection is slow, you can check the _hops_ of the packets between your machine and the destination’s machine using
 
 ??? .
 
-* traceroute
-* netstat
-* ls
-* packetroute
-
+- traceroute
+- netstat
+- ls
+- packetroute

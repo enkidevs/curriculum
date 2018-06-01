@@ -39,6 +39,7 @@ tags:
 # Find any Unix / Linux command
 
 ---
+
 ## Content
 
 It's possible to perform keyword searches under linux using the `apropos` command.
@@ -46,10 +47,13 @@ It's possible to perform keyword searches under linux using the `apropos` comman
 Each manual page has a short description available within it and `apropos` searches the descriptions for instances of the keyword.
 
 How to search all the user related administrative commands:
+
 ```
 $ apropos "user*"
 ```
+
 Outputs:
+
 ```
 addgroup - add a user/group to the system
 adduser  - add a user/group to the system
@@ -57,9 +61,11 @@ adduser  - add a user/group to the system
 ```
 
 ---
+
 ## Practice
 
 Complete the following snippet to obtain the output :
+
 ```
 $ ??? ???
 ...
@@ -73,21 +79,20 @@ install-sgmlcatalog (8) - maintain
  ...
 ```
 
-* `apropos`
-* `"install*"`
-* `"to"`
-* `"user"`
-* `apropo`
+- `apropos`
+- `"install*"`
+- `"to"`
+- `"user"`
+- `apropo`
 
 ---
+
 ## Revision
 
-`apropos`  allows you to search through
+`apropos` allows you to search through
 
 ??? .
 
-
-* commands’ description
-* users
-* servers
-
+- commands’ description
+- users
+- servers

@@ -28,6 +28,7 @@ notes: ''
 # Logging dropped firewall packets
 
 ---
+
 ## Content
 
 If you want to determine what sort of traffic is being blocked, a way of doing so is by logging the dropped packets with a logdrop chain.
@@ -40,10 +41,11 @@ $ iptables -N LOGDROP
 ```
 
 Set the logging burst and the syslog prefix:
+
 ```
 $ iptables -A LOGDROP -m limit \
 --limit 60/min -j LOG  \
---log-prefix "IPTables-Dropped: " 
+--log-prefix "IPTables-Dropped: "
 ```
 
 Set the last action to `DROP`:
@@ -51,19 +53,25 @@ Set the last action to `DROP`:
 ```
 $ iptables -A LOGDROP -j DROP
 ```
-Instead of dropping in the usual way: 
+
+Instead of dropping in the usual way:
+
 ```
 $ iptables -A INPUT -j DROP
 ```
+
 Use:
+
 ```
 $ iptables -A INPUT -j LOGDROP
 ```
 
 ---
+
 ## Revision
 
 The action flow to log dropped packets is:
+
 ```
 1. ???
 2. ???
@@ -71,8 +79,7 @@ The action flow to log dropped packets is:
 4. ???
 ```
 
-* `Create a new chain`
-* `Set the number of logged packets`
-* `Set the last action of the chain to DROP`
-* `Use the new chain as target`
-
+- `Create a new chain`
+- `Set the number of logged packets`
+- `Set the last action of the chain to DROP`
+- `Use the new chain as target`

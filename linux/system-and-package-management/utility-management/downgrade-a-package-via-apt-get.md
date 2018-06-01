@@ -35,12 +35,14 @@ tags:
 # Downgrade a package via `apt-get`
 
 ---
+
 ## Content
 
 You can downgrade a package via apt-get.
-If you have the version number, or the target release, apt-get allows you to make a selection. 
+If you have the version number, or the target release, apt-get allows you to make a selection.
 
 Use either:
+
 ```
 $ apt-get install <pkg-name>=<pkg-version>
 # apt-get install firefox='45.0.*'
@@ -49,31 +51,38 @@ Selected version '45.0.2+build1-0ubuntu1'
 The following packages will be DOWNGRADED:
           firefox
 ```
+
 Or:
+
 ```
 $ apt-get -t=<release> install <pkg-name>
 ```
+
 You can list all available versions with:
+
 ```
-$ apt-cache showpkg <package-name> 
+$ apt-cache showpkg <package-name>
 ```
+
 In addition, you can 'hold' a package at the current version and prevent automatic updates using:
+
 ```
-$ apt-mark hold <package-name> 
+$ apt-mark hold <package-name>
 ```
 
 ---
+
 ## Revision
 
 You can downgrade a package on Debian systems using:
+
 ```
-$ ??? install 
+$ ??? install
       ???=???
 ```
 
-* `apt-get`
-* `package_name`
-* `desired_package_version`
-* `apt-mark`
-* `current_packate_version`
-
+- `apt-get`
+- `package_name`
+- `desired_package_version`
+- `apt-mark`
+- `current_packate_version`

@@ -36,16 +36,20 @@ links:
 # Getting the connection speed from the terminal
 
 ---
+
 ## Content
 
 To get your internet speed from the terminal there is a tool called `speedtest-cli`
 and we can set it up as below:
+
 ```
 $ pip install speedtest-cli
 ```
+
 `pip` is part of the `python-pip` package and it requires a valid Python install to use it.
 
 We should get something like this:
+
 ```
 $ speedtest-cli
 Retrieving speedtest.net configuration..
@@ -60,14 +64,14 @@ Upload: 5.18 Mbit/s
 ```
 
 ---
+
 ## Revision
 
-A tool to test your internet connection using the terminal is 
+A tool to test your internet connection using the terminal is
 
 ???.
 
-* speedtest-cli
-* internetspeed-cli
-* internetTest-cli
-* testspeed-cli
-
+- speedtest-cli
+- internetspeed-cli
+- internetTest-cli
+- testspeed-cli

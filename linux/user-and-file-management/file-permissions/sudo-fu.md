@@ -15,9 +15,10 @@ category: tip
 
 ---
 
-# Sudo-fu 
+# Sudo-fu
 
 ---
+
 ## Content
 
 Does the command need to be run under root user, or can the command be run with regular user permissions?
@@ -25,11 +26,12 @@ Does the command need to be run under root user, or can the command be run with 
 Assume all default or conventional unix directories have default set of permissions.
 
 ---
+
 ## Game Content
 
 sudo:no sudo
-```true
 
+```true
 ls /usr
 %exp
 This command lists existing files in /usr directory. It doesn't require `sudo`.
@@ -84,7 +86,6 @@ shutdown -r now
 %exp
 Shutdown sets a time when the pc should be shut down. It is specified that the computer should be shutdown immediately. The latest versions of unix like OSs don't require sudo for this action anymore.
 %
-
 ```
 
 ```false
@@ -142,5 +143,4 @@ rm -rf /usr/bin/*
 %exp
 In order to remove everything from /usr/bin directory you need to have sudo access.
 %
-
 ```

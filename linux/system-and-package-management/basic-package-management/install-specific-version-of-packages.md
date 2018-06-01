@@ -40,11 +40,13 @@ notes: ''
 # Install specific version of packages
 
 ---
+
 ## Content
 
 Often it's necessary to install a specific version of a package. To do so, a complete version of the package is required.
 
 This will be displayed when we run:
+
 ```
 #debian
 $ apt-cache showpkg <package_name>
@@ -56,30 +58,34 @@ Versions:
 #rpm
 $ yum --showduplicates list
                     <package_name>
-Available Packages   
+Available Packages
 firefox   46.0   fedora
 firefox   47.0   updates
 ```
+
 This will output different versions that our sources provide.
 
 To install the specific version simply run:
+
 ```
 #debian
 $ apt-get install <package_name>=<version>
 #rpm
 $ yum install <package_name>-<version>
 ```
+
 For example:
+
 ```
 $ apt-get install firefox=46.0
 ```
 
 ---
+
 ## Revision
 
-`apt-cache showpkg <package_name>`  would work on ??? systems.
+`apt-cache showpkg <package_name>` would work on ??? systems.
 
-* Debian
-* RPM
-* BSD
-
+- Debian
+- RPM
+- BSD
