@@ -32,14 +32,14 @@ links:
 
 # SQL Practice Aggregate Average
 
----        
+---
+
 ## Exercise
 
 In this SQLFiddle, we need to alter the `items` table.
 
-By default, the `id` field of every entry in this table will increment by 1. Instead, we need the `id` field to increment by *100*. 
+By default, the `id` field of every entry in this table will increment by 1. Instead, we need the `id` field to increment by _100_.
 
-*Create an `ALTER TABLE` statement to satisfy this condition*.
+_Create an `ALTER TABLE` statement to satisfy this condition_.
 
 Note: When submitting, include the output of the provided query as your answer.
- 

@@ -27,12 +27,12 @@ links:
 
 # SQL Practice Select
 
----        
+---
+
 ## Exercise
 
-Change the query (in the right-hand window) to *return all columns from the first 5 rows of the `item` table.*
+Change the query (in the right-hand window) to _return all columns from the first 5 rows of the `item` table._
 
 In the answer field, enter the values for the name of the item in the fourth row returned.
 
 Example: `fake-ball`
- 

@@ -29,6 +29,7 @@ links:
 # WHERE
 
 ---
+
 ## Content
 
 When added to a SQL `SELECT` statement, `WHERE` allows us to select rows in a table by specifying conditions.
@@ -55,12 +56,11 @@ WHERE fling_power >= 30;
 
 Note that text needs to be enclosed with quote marks (`'text'`), while integers (and other numerical types) should not have quotes.
 
-
 ---
+
 ## Practice
 
 Complete the following query to retrieve the `id` and `power` for all the rows from the `move` table where `accuracy` is less than 100.
-
 
 ```sql
 SELECT id, power
@@ -68,25 +68,23 @@ FROM move
 ???;
 ```
 
-
-* `WHERE accuracy < 100`
-* `WHEN accuracy < 100`
-* `WHERE accuracy less than 100`
-* `IF col accuracy < 100`
-* `WHEN accuracy IN move < 100`
-* `IF accuracy < 100`
-
+- `WHERE accuracy < 100`
+- `WHEN accuracy < 100`
+- `WHERE accuracy less than 100`
+- `IF col accuracy < 100`
+- `WHEN accuracy IN move < 100`
+- `IF accuracy < 100`
 
 ---
+
 ## Revision
 
 Which query will return the `language_id` for the move named `Headbutt`?
 
 ???
 
-* `SELECT language_id FROM move_name WHERE name = 'Headbutt';`
-* `FROM 'Headbutt' SELECT language_id;`
-* `WHERE name IS 'Headbutt' SELECT language_id;`
-* `SELECT language_id FROM 'Headbutt' WHERE name = move_name;`
-* `SELECT language_id FROM move_name WHERE 'Headbutt';`
- 
+- `SELECT language_id FROM move_name WHERE name = 'Headbutt';`
+- `FROM 'Headbutt' SELECT language_id;`
+- `WHERE name IS 'Headbutt' SELECT language_id;`
+- `SELECT language_id FROM 'Headbutt' WHERE name = move_name;`
+- `SELECT language_id FROM move_name WHERE 'Headbutt';`

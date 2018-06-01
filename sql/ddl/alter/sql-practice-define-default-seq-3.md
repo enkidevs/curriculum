@@ -33,7 +33,8 @@ links:
 
 # SQL Practice Sequences
 
----        
+---
+
 ## Exercise
 
 We want to create a new database for our products. We have a lot of products to import- around 10,000 of them. They all already have IDs from our old database, that start at 0. We'll have other associated data that references those IDs as well.

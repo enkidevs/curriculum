@@ -28,11 +28,12 @@ links:
 # What is SQL?
 
 ---
+
 ## Content
 
-*SQL* is a *Query Language*. This means it is a programming language that allows us to ask for data from a database.
+_SQL_ is a _Query Language_. This means it is a programming language that allows us to ask for data from a database.
 
-*SQL* stands for *Structured Query Language* and was developed in the 1970s. Many databases use it today.
+_SQL_ stands for _Structured Query Language_ and was developed in the 1970s. Many databases use it today.
 
 Here's an example of an SQL Query:
 
@@ -41,6 +42,7 @@ SELECT * FROM users;
 ```
 
 ---
+
 ## Practice
 
 Have you ever used SQL before? Even if you haven't, it's meant to be readable by a human.
@@ -49,22 +51,20 @@ See if you can get all the information from a table called `items`:
 
 ???
 
-
-* `SELECT * FROM items;`
-* `GO GET ALL ITEMS`
-* `SELECT EVERYTHING FROM items`
-* `SELECT * from users`
+- `SELECT * FROM items;`
+- `GO GET ALL ITEMS`
+- `SELECT EVERYTHING FROM items`
+- `SELECT * from users`
 
 ---
+
 ## Revision
 
 How do you select all the rows and columns from a table called `products`?
 
 ???
 
-
-* `SELECT * FROM products;`
-* `GO GET ALL PRODUCTS`
-* `SELECT EVERYTHING FROM products`
-* `SELECT * FROM items`
- 
+- `SELECT * FROM products;`
+- `GO GET ALL PRODUCTS`
+- `SELECT EVERYTHING FROM products`
+- `SELECT * FROM items`

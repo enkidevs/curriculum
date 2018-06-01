@@ -34,6 +34,7 @@ links:
 # SELECT
 
 ---
+
 ## Content
 
 To get all of the data from a table, you can use a `SELECT` statement.
@@ -43,9 +44,9 @@ SELECT *
 FROM pokemon;
 ```
 
-The above command gets all of the *columns* and all of the *rows* from the `pokemon` table.
+The above command gets all of the _columns_ and all of the _rows_ from the `pokemon` table.
 
-We can also use the `SELECT` statement to specify the exact *columns* we want to keep from the table, and to discard the others.
+We can also use the `SELECT` statement to specify the exact _columns_ we want to keep from the table, and to discard the others.
 
 ```sql
 SELECT id, weight, name
@@ -55,6 +56,7 @@ FROM pokemon;
 The above command gets only the `id`, `weight`, and `name` columns from the table, but keeps all of the rows of the `pokemon` table. Remember, the information is not deleted, you're simply **querying** the database, but doing so in a way where you only receive the information contained in the specified columns.
 
 ---
+
 ## Practice
 
 Get all of the columns and rows from the `pokemon_form` table.
@@ -62,18 +64,18 @@ Get all of the columns and rows from the `pokemon_form` table.
 ??? ???
 ??? ???;
 
-
-* `SELECT`
-* `*`
-* `FROM`
-* `pokemon_form`
-* `GET`
-* `FIND`
-* `id`
-* `FOR`
-* `pokemon`
+- `SELECT`
+- `*`
+- `FROM`
+- `pokemon_form`
+- `GET`
+- `FIND`
+- `id`
+- `FOR`
+- `pokemon`
 
 ---
+
 ## Revision
 
 Get all of the rows and the `id`, `weight`, `name` columns from the `pokemon` table.
@@ -81,41 +83,41 @@ Get all of the rows and the `id`, `weight`, `name` columns from the `pokemon` ta
 ??? ??? ??? ???
 ??? ???;
 
-
-* `SELECT`
-* `id, `
-* `weight, `
-* `name`
-* `FROM`
-* `pokemon`
-* `moves`
-* `GET`
-* `FIND`
-* `order`
-* `FOR`
+- `SELECT`
+- `id,`
+- `weight,`
+- `name`
+- `FROM`
+- `pokemon`
+- `moves`
+- `GET`
+- `FIND`
+- `order`
+- `FOR`
 
 ---
-## Quiz 
+
+## Quiz
+
 ### What statement gets columns and rows from tables?
+
 Given a table called `ability` from our pokemon database:
 
 ```
-id   | is_main_series | generation_id |      name      
+id   | is_main_series | generation_id |      name
 =====|================|===============|===============
    1 | t              |             3 | stench
    2 | f              |             3 | drizzle
    3 | t              |             3 | speed-boost
    4 | t              |             3 | battle-armor
 (...)
-
 ```
 
 Choose the query that will get all the entries from this table:
 
- ???
+???
 
-* SELECT * FROM ability;
-* DISPLAY [all] FROM ability;
-* SELECT [all] FROM ability;
-* FIND * FROM ability;
- 
+- SELECT \* FROM ability;
+- DISPLAY [all] FROM ability;
+- SELECT [all] FROM ability;
+- FIND \* FROM ability;

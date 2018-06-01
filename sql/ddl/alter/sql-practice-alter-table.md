@@ -28,16 +28,16 @@ links:
 
 # SQL Practice Aggregate Average
 
----        
+---
+
 ## Exercise
 
-Click *Launch Exercise* to launch SQLFiddle. Examine the `CREATE` statements in the lefthand window.
+Click _Launch Exercise_ to launch SQLFiddle. Examine the `CREATE` statements in the lefthand window.
 
-Consider the `item_pictures` table. It turns out the maxiumum length of the `URL` field is much too short to hold mosts urls. Unfortunately, the schema is *already in production*, so re-creating the database is not an option.
+Consider the `item_pictures` table. It turns out the maxiumum length of the `URL` field is much too short to hold mosts urls. Unfortunately, the schema is _already in production_, so re-creating the database is not an option.
 
-Write a statement to modify the `item_pictures`, changing the maximum length of the `URL` field 100 to 250 characters. 
+Write a statement to modify the `item_pictures`, changing the maximum length of the `URL` field 100 to 250 characters.
 
-*Note:* Don't directly edit the `CREATE` statements; instead, write a new statement to alter the table.
+_Note:_ Don't directly edit the `CREATE` statements; instead, write a new statement to alter the table.
 
-To submit, run your SQL and then add the link from SQLFiddle to your submission.  
- 
+To submit, run your SQL and then add the link from SQLFiddle to your submission.

@@ -28,13 +28,15 @@ tags:
 # Encoding and Collation
 
 ---
+
 ## Content
 
 When it comes to storing and manipulating string fields, two questions come to mind:
+
 - What if the characters are not part of the Latin alphabet, e.g. Korean, Russian or even emojis?
 - When sorting results alphabetically, should 'é' come before 'f' or after 'z'? What about 'カ' or '😊'?
 
-Internationalization and localization are important aspects of database design which require more and more attention. Luckily, these problems can be prevented by using the right *encoding* and *collation*.
+Internationalization and localization are important aspects of database design which require more and more attention. Luckily, these problems can be prevented by using the right _encoding_ and _collation_.
 
 ### Encoding
 
@@ -42,7 +44,8 @@ You can see the **encoding** of a system as a function that maps groups of bits 
 
 As you can imagine, 255 characters isn't nowhere near enough to map every symbol of every alphabet in the world. For reference, only in the first emoji tab ('Smileys and People') there are around 180 emoticons. This was an issue that had to be dealt with quickly.
 
-And it was. The current standard is *Unicode* (*Universal Coded Character Set*) which includes close to 137,000 characters, stored using 1 to 4 bytes. There are three types of Unicode encodings:
+And it was. The current standard is _Unicode_ (_Universal Coded Character Set_) which includes close to 137,000 characters, stored using 1 to 4 bytes. There are three types of Unicode encodings:
+
 - UTF-8: 1-4 bytes encoding which maximizes compatibility with ASCII
 - UTF-16: 1-2 groups of 2 bytes (hence the 16)
 - UTF-32: 4 bytes encoding
@@ -56,22 +59,24 @@ While all three encodings are viable, the one that over 90% of all web pages are
 For this reason, each language has its own collation rules. Most of the time, the table default collation rule is deduced based on the locale settings (`en_US`, `fr_FR`, etc.). However, specific ones can be set for columns and even operations.
 
 ---
+
 ## Practice
 
 As of now, the most recommended character encoding is
 
 ???
 
-
-* UTF-8
-* UTF-16
-* UTF-32
-* ASCII
+- UTF-8
+- UTF-16
+- UTF-32
+- ASCII
 
 ---
+
 ## Revision
 
 Match the description to the term it refers to:
+
 ```
 Used to group accented characters with
 their base character.
@@ -81,8 +86,5 @@ A function that maps bits to characters.
 ???
 ```
 
-
-* collation
-* encoding
-
- 
+- collation
+- encoding

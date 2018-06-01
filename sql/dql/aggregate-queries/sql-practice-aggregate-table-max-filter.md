@@ -29,10 +29,10 @@ links:
 
 # SQL Practice Aggregate Table Max Filter
 
----        
+---
+
 ## Exercise
 
 In SQLFiddle, write a SQL query that answers the following question:
 
 Considering only items with `fling_power` less than 25, what is the maximum `cost` of an item in each fling effect group?
- 

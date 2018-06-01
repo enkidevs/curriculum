@@ -32,13 +32,16 @@ links:
   - '[video tutorial on creating tables](https://youtu.be/EaRj0S3K32Y?t=58s){video}'
 
 ---
+
 # SQL Practice Create Table
 
----        
+---
+
 ## Exercise
 
 Your mission for today is to create a table called `items`.  
-This table should contain the following columns, used for storing these values:  
+This table should contain the following columns, used for storing these values:
+
 - `id`, a unique value to identify an item
 - `name`, for example: "IP001", "IP002"
 - `url`, for example "https://www.w3schools.com/w3css/img_fjords.jpg"
@@ -63,9 +66,9 @@ VALUES (4, "IP002", "http://placehold.it/200/200");
 ```
 
 In total, you will need to:
-- *create the table*
-- *build the schema*
-- *add the seed data*
+
+- _create the table_
+- _build the schema_
+- _add the seed data_
 - `SELECT count(name) from items;`
-- *provide the result of the above query in the answer field*
- 
+- _provide the result of the above query in the answer field_

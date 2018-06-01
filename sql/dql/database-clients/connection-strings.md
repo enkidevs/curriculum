@@ -35,9 +35,10 @@ links:
 # Connection strings
 
 ---
+
 ## Content
 
-*Connection strings* are URLs that point at a database hosted on a server. They use the Uniform Resource Indicator standard to structure the different parts. Abstractly, they look like this:
+_Connection strings_ are URLs that point at a database hosted on a server. They use the Uniform Resource Indicator standard to structure the different parts. Abstractly, they look like this:
 
 ```
 dbprotocol://username:password
@@ -61,6 +62,7 @@ postgres://ashketchum:iwannabetheverybest
 ```
 
 ---
+
 ## Practice
 
 Connect to a different `pokemon` database, this one hosted on MySQL. Use the username `gary`, password `rival`, to our database on `aws-us-west-1-portal.29.dblayer.com`. The port is `23336`.
@@ -73,21 +75,21 @@ Connect to a different `pokemon` database, this one hosted on MySQL. Use the use
 /???
 ```
 
-
-* `mysql`
-* `gary`
-* `rival`
-* `aws-us-west-1-portal.29.dblayer.com`
-* `23336`
-* `pokemon`
-* `postgres`
-* `dbprotocol`
-* `hostname`
-* `aws-us-east-1-portal.29.dblayer.com`
-* `?ssl=true`
-* `mssql`
+- `mysql`
+- `gary`
+- `rival`
+- `aws-us-west-1-portal.29.dblayer.com`
+- `23336`
+- `pokemon`
+- `postgres`
+- `dbprotocol`
+- `hostname`
+- `aws-us-east-1-portal.29.dblayer.com`
+- `?ssl=true`
+- `mssql`
 
 ---
+
 ## Revision
 
 Connect to a `puppies` database, this one hosted on Postgres. Use the username `spot`, password `supersecret`, to our database on `aws-us-east-1-portal.42.dblayer.com`. The port is `23336`.
@@ -99,17 +101,15 @@ Connect to a `puppies` database, this one hosted on Postgres. Use the username `
 :???/???
 ```
 
-
-* `postgres`
-* `spot`
-* `supersecret`
-* `aws-us-east-1-portal.42.dblayer.com`
-* `23336`
-* `pokemon`
-* `dbprotocol`
-* `hostname`
-* `aws-us-east-1-portal.29.dblayer.com`
-* `mysql`
-* `?ssl=true`
-* `mssql`
- 
+- `postgres`
+- `spot`
+- `supersecret`
+- `aws-us-east-1-portal.42.dblayer.com`
+- `23336`
+- `pokemon`
+- `dbprotocol`
+- `hostname`
+- `aws-us-east-1-portal.29.dblayer.com`
+- `mysql`
+- `?ssl=true`
+- `mssql`

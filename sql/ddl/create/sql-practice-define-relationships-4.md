@@ -26,10 +26,11 @@ links:
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=GU_zYgXXOzE){video}'
 
 ---
+
 # SQL Practice Define Relationships
 
----        
+---
+
 ## Exercise
 
 Create a foreign key reference to relate the `users` table to itself. Ensure that the `manager` column only contains references to the `id` field within `users`.
- 

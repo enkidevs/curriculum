@@ -33,16 +33,18 @@ links:
   - '[video tutorial on creating tables](https://youtu.be/EaRj0S3K32Y?t=58s){video}'
 
 ---
+
 # SQL Practice Create Join Table
 
----        
+---
+
 ## Exercise
 
 Create a table called `requests`. This table should contain the following columns, which should store the following values:
 
 - `id`, a unique value to identify a request
 - `user_id`, the ID of the requestor, for example: "1", "2",
-- `user_item_id`, The ID of the user_item being requested, for example:  "1", "2",
+- `user_item_id`, The ID of the user_item being requested, for example: "1", "2",
 - `date_from`, for example: "12-02-2017",
 - `date_until`, for example: "12-02-2017",
 - `accepted`, for example: "true" or "false"
@@ -70,11 +72,11 @@ VALUES (5, 1, 3, "2018-01-06", "2018-01-15", 1);
 ```
 
 In total, you will need to:
-- *create the table*
-- *add the seed data*
-- *build the schema*
+
+- _create the table_
+- _add the seed data_
+- _build the schema_
 - `SELECT COUNT(user_item_id), user_item_id FROM requests GROUP BY user_item_id`
-- *run the provided query*
-- *which item is the most requested?*
-- *Enter the ID of the most requested item in the answer field*
- 
+- _run the provided query_
+- _which item is the most requested?_
+- _Enter the ID of the most requested item in the answer field_

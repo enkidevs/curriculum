@@ -43,17 +43,20 @@ links:
 # Python Database Packages
 
 ---
+
 ## Content
 
-**Python** has many libraries which implement various functionalities. Some of those libraries allow the user to operate on databases, these libraries are also called *database drivers*. The examples of such libraries:
- - Psycopg
- - db.py (requires Psycopg installed)
- - SQLAlchemy
+**Python** has many libraries which implement various functionalities. Some of those libraries allow the user to operate on databases, these libraries are also called _database drivers_. The examples of such libraries:
 
-As an example we will take *Psycopg on MacOS X*, you can run the following commands straight from the command line or from the python scripts.
-After installation of the *Psycopg* package we can run python by typing `python` in the terminal.
+- Psycopg
+- db.py (requires Psycopg installed)
+- SQLAlchemy
+
+As an example we will take _Psycopg on MacOS X_, you can run the following commands straight from the command line or from the python scripts.
+After installation of the _Psycopg_ package we can run python by typing `python` in the terminal.
 
 Now let's connect to the Pokemon database:
+
 ```python
 # Import the library
 >>> import psycopg2
@@ -67,9 +70,10 @@ Now let's connect to the Pokemon database:
 ```
 
 In order to execute a query we must use the cursor class:
+
 ```python
 # Creating a cursor instance
->>> cur = conn.cursor()                    
+>>> cur = conn.cursor()
 # Execute a command
 >>> cur.execute("SELECT *
   FROM pokemon_color;")
@@ -81,6 +85,7 @@ This will should list all the colors in an array of pairs.
 **NOTE: you are granted a read-only access so executing writing commands will have no effect.**
 
 As `cur` is now a Python list object we can iterate through the query result simply by:
+
 ```python
 >>> for row in cur:
 ...     print (row)
@@ -88,6 +93,7 @@ As `cur` is now a Python list object we can iterate through the query result sim
 ```
 
 Which should print:
+
 ```python
 (1, 'black')
 (2, 'blue')
@@ -104,6 +110,7 @@ Which should print:
 **NOTE: Bookmark this insight, and try connecting to the database on your own!**
 
 ---
+
 ## Practice
 
 If we consider `psycopg2` library what's the correct order of connecting and then using it?
@@ -113,17 +120,17 @@ If we consider `psycopg2` library what's the correct order of connecting and the
 3 - ???
 4 - ???
 
-* import psycopg2
-* establish a connection with the database
-* initialize a cursor
-* execute a query with the cursor
+- import psycopg2
+- establish a connection with the database
+- initialize a cursor
+- execute a query with the cursor
 
 ---
+
 ## Revision
 
 How can you connect to a database with Python?
 ???
 
-* By using dedicated libraries
-* Python provides an inbuilt db functionality
- 
+- By using dedicated libraries
+- Python provides an inbuilt db functionality

@@ -33,14 +33,16 @@ links:
 # Delete clause
 
 ---
+
 ## Content
 
 The `DELETE` clause enables users to delete data from a table. We can specify which rows to delete using the `WHERE` clause, otherwise all records will be deleted.
 
 Consider the "egg_group" table:
+
 ```
 --egg_group:
-id |     name      
+id |     name
 ===+===============
  1 | monster
  2 | water1
@@ -61,6 +63,7 @@ id |     name
 ```
 
 Suppose we want to delete the first value of the table:
+
 ```sql
 DELETE FROM egg_group
 WHERE id = 1;
@@ -68,7 +71,7 @@ WHERE id = 1;
 
 ```
 --Result:
-id |     name      
+id |     name
 ===+===============
  2 | water1
  3 | bug
@@ -88,17 +91,20 @@ id |     name
 ```
 
 If we wanted to delete all data in this table:
+
 ```
 DELETE FROM egg_group;
 ```
 
 ---
+
 ## Practice
 
 Consider the "egg_group" table. This time we want to delete the first 5 values:
+
 ```
 --egg_group:
-id |     name      
+id |     name
 ===+===============
  1 | monster
  2 | water1
@@ -117,23 +123,26 @@ id |     name
 15 | no-eggs
 (15 rows)
 ```
+
 ```sql
 ??? FROM egg_group
 WHERE id ??? 1 and 5;
 ```
 
-* DELETE
-* between
-* =
-* UPDATE
+- DELETE
+- between
+- =
+- UPDATE
 
 ---
+
 ## Revision
 
 We want to delete the 15th element of "egg_group" table:
+
 ```
 --egg_group:
-id |     name      
+id |     name
 ===+===============
  1 | monster
  2 | water1
@@ -155,7 +164,6 @@ id |     name
 
 ???
 
-* DELETE FROM egg_group WHERE id= 15;
-* UPDATE egg_group DELETE WHERE id=15;
-* DELETE FROM egg_group;
- 
+- DELETE FROM egg_group WHERE id= 15;
+- UPDATE egg_group DELETE WHERE id=15;
+- DELETE FROM egg_group;
