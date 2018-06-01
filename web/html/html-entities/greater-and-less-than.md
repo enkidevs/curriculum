@@ -54,7 +54,6 @@ Result:
 5 > 3
 ```
 
-
 ---
 ## Practice
 
@@ -62,16 +61,16 @@ Write the code that will display this HTML tag properly: "`<p>` is an HTML parag
 
 ???p??? is an HTML paragraph tag.
 
-* &lt;
-* &gt;
-* &rt;
-* <
-* >
+* `&lt;`
+* `&gt;`
+* `&rt;`
+* `<`
+* `>`
 
 ---
 ## Revision
 
-In HTML the browser always assumes *<* and *>* represent the start and end of an HTML tag. What is one of the correct ways of displaying these two characters?
+In HTML the browser always assumes `<` and `>` represent the start and end of an HTML tag. What is one of the correct ways of displaying these two characters?
 
 ???
 
@@ -88,8 +87,8 @@ In HTML the browser always assumes *<* and *>* represent the start and end of an
 What will be displayed in this line of code:
 `<p> 1 &lt; 3 &lt;/p&gt;`
 
+* `1 < 3 </p>`
+* `<p> 1 < 3 &lt;/p&gt;`
+* `&lt;p&gt; 1 < 3 &lt;/p&gt;`
+* `<p> 1 < 3 </p>`
 
-* <p> 1 < 3 &lt;/p&gt;
-* &lt;p&gt; 1 < 3 &lt;/p&gt;
-* <p> 1 < 3 </p>
-* <p> 1 &lt; 3 </p>
