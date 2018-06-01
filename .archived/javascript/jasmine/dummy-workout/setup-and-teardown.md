@@ -23,18 +23,16 @@ links:
     [medium.com](https://medium.com/angularjs-meetup-south-london/angular-unit-testing-with-jasmine-24795a44998e#.pvhiw0667){website}
 
 ---
-
 # Setup and Teardown
 
 ---
-
 ## Content
 
-`beforeEach` and `afterEach` are Jasmine globals to prevent duplicated setup and teardown code.
+`beforeEach` and `afterEach` are Jasmine globals to prevent duplicated setup and teardown code. 
 
 `beforeEach` function is called once before each spec in the describe block.
 
-The `afterEach` function is called once after each describe block.
+ The `afterEach` function is called once after each describe block. 
 
 ```JavaScript
 describe("A suite with setup and teardown"),
@@ -75,7 +73,6 @@ describe("Using the 'this' keyword",
 ```
 
 ---
-
 ## Practice
 
 Which of these is declared properly? ???
@@ -97,19 +94,17 @@ before({
 });
 ```
 
-- Option A
-- Option B
-- Option C
+* Option A
+* Option B
+* Option C
 
 ---
-
 ## Revision
 
-Which of the two following methods are _not_ Jasmine globals? ??? ???
-
-- before()
-- after()
-- beforeEach()
-- afterEach()
-- beforeAll()
-- afterAll()
+Which of the two following methods are *not* Jasmine globals? ??? ???
+* before()
+* after()
+* beforeEach()
+* afterEach()
+* beforeAll()
+* afterAll()

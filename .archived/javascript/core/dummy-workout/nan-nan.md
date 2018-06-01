@@ -14,54 +14,44 @@ type: normal
 category: caveats
 
 ---
-
 # NaN === NaN?
 
 ---
-
 ## Content
 
 `NaN` is not equal to itself.
-
 ```
 NaN === NaN; //false
 ```
-
 In order to check for a `NaN` result, use the `isNaN` function:
-
 ```
 isNaN("Enki"); //true
 ```
 
 ---
-
 ## Practice
 
 What does the following code snippet return?
-
 ```
 NaN === NaN
 ```
-
 ???
 
-- false
-- true
-- undefined
-- syntax error
+* false
+* true
+* undefined
+* syntax error
 
 ---
-
 ## Revision
 
 `NaN === NaN` is ???
 
-- false
-- true
+* false
+* true
 
 ---
-
-## Quiz
+## Quiz 
 
 ### is NaN equal to itself?
 
@@ -70,7 +60,7 @@ NaN === NaN
 
 ???
 
-- false
-- true
-- SyntaxError
-- NaN
+* false
+* true
+* SyntaxError
+* NaN

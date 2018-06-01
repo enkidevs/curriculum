@@ -17,33 +17,30 @@ tags:
 
 
 ---
-
 # Writing comments in CSS
 
 ---
-
 ## Content
 
-Single-line comments:
+Single-line comments: 
 
 ```
-body {
+body { 
   font-size: 1em; /*single-line comment*/
 }
-```
 
+``` 
 Multiline comments:
 
 ```
-p {
+p { 
   color: red;
-  /*comments may also
+  /*comments may also 
    cover multiple lines */
 }
 ```
 
 ---
-
 ## Revision
 
 Which of the following examples is not how you write comments in CSS? ???
@@ -55,8 +52,8 @@ Which of the following examples is not how you write comments in CSS? ???
 
 /* Example
    C */
-```
 
-- A
-- B
-- C
+```
+* A
+* B
+* C

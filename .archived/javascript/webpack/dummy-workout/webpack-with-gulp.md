@@ -20,19 +20,16 @@ links:
     runners](http://stackoverflow.com/questions/33561272/task-runners-gulp-grunt-etc-and-bundlers-webpack-browserify-why-use-toge){website}
 
 ---
-
 # Webpack with Gulp
 
 ---
-
 ## Content
 
-Webpack can be ran as a stream, allowing it to be integrated into _Gulp_.
+Webpack can be ran as a stream, allowing it to be integrated into *Gulp*. 
 
 Using Webpack with Gulp allows an application's functionality to be extended, for example the Webpack config file can be customised for different environments, with Gulp ensuring the right tasks are ran at the right time.
 
 Below, we handle multiple entry points using Webpack and Gulp.
-
 ```javascript
 // Require in Gulp and Webpack
 var gulp = require('gulp');

@@ -16,15 +16,12 @@ links:
   - '[python.org](https://docs.python.org/2/library/doctest.html){documentation}'
 
 ---
-
 # Testing functions inline with `doctest` to provide (tested) examples and make your code easier to understand
 
 ---
-
 ## Content
 
 Example:
-
 ```
 def multiply(a, b):
     """

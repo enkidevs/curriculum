@@ -19,17 +19,14 @@ links:
     [survivejs.com](http://survivejs.com/webpack/multiple-entry-points/){website}
 
 ---
-
 # Multiple Entry Points
 
 ---
-
 ## Content
 
 Multiple Entry Points main use case is when an application has multiple application experiences which are isolated, but share a lot of code. For example when you have a user and admin experience, where the user experience has fewer features.
 
-A basic example of declaring entry points:
-
+A basic example of declaring entry points: 
 ```javaScript
 {
     entry: {
@@ -42,7 +39,6 @@ A basic example of declaring entry points:
     }
 }
 ```
-
-_`app`_ and _`admin`_ are both declared as entry points as they're all passed to _entry_ with the key representing the entry point name.
+*`app`* and *`admin`* are both declared as entry points as they're all passed to *entry* with the key representing the entry point name.
 
 These will result as separate files with the application _key_ being the prefix of the output filename, replacing the `[name]` part defined in the `output.filename`.

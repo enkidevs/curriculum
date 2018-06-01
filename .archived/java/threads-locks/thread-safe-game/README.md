@@ -9,5 +9,4 @@ section: 0
 parent: deadlocks
 
 insights:
-
-- thread-safe
+  - thread-safe

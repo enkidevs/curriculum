@@ -30,17 +30,14 @@ links:
     [docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#a-first-look-at-classes){website}
 
 ---
-
 # Class definition syntax
 
 ---
-
 ## Content
 
-Think of **classes** as _blueprints_ for creating objects with data (members) and behaviors (methods). They just define **how** the actual instances are implemented.
+Think of **classes** as *blueprints* for creating objects with data (members) and behaviors (methods). They just define **how** the actual instances are implemented.
 
 To define a class, use the keyword `class`:
-
 ```python
 class Enki:
   [statement]
@@ -48,36 +45,32 @@ class Enki:
   .
   [statement]
 ```
-
 Method definitions in a class (`def` statements) only define the method, they do not execute its body when encountered. Methods are only executed when they are invoked on a created class instance.
 
 A **class object** is created when a class defition ends; it is a wrapper around the contents of the class.
 
 You can create an empty class object using the `pass` keyword:
-
 ```python
 class Enki:
   pass
 ```
 
 ---
-
 ## Practice
 
 Method definition in a class is done with the help of ??? keyword.
 
-- def
-- pass
-- return
-- yield
+* def
+* pass
+* return
+* yield
 
 ---
-
 ## Revision
 
 You can create an empty class with the ??? keyword.
 
-- pass
-- return
-- yield
-- def
+* pass
+* return 
+* yield
+* def

@@ -25,14 +25,12 @@ links:
     [jasmine.github.io](http://jasmine.github.io/2.0/custom_matcher.html){website}
 
 ---
-
 # Test Matchers
 
 ---
-
 ## Content
 
-A Jasmine matcher does a _boolean comparison_ between an expected value and an actual value. Matchers report to Jasmine whether an expectation is true or false, this allowing Jasmine to pass or fail a spec.
+A Jasmine matcher does a *boolean comparison* between an expected value and an actual value. Matchers report to Jasmine whether an expectation is true or false, this allowing Jasmine to pass or fail a spec.
 
 ```JavaScript
 describe("Jasmine matchers", function() {
@@ -45,42 +43,38 @@ describe("Jasmine matchers", function() {
 ```
 
 Jasmine has a large set of matchers including:
-
 - toEqual
 - toMatch
 - toBeDefined
 - toBeUndefined
 
 ---
-
 ## Practice
 
 What will the following test results be? ???
 
 ```javascript
-it('practice testing', function() {
-  var x = 7;
-  var y = x;
+it("practice testing", function() {
+   var x = 7;
+   var y = x;
 
-  expect(x).not.toBe(y);
-  expect(x).toBe(y);
-  expect(y).toBe(null);
+   expect(x).not.toBe(y);
+   expect(x).toBe(y);
+   expect(y).toBe(null);
 });
 ```
 
-- False, True, False
-- False, False, True
-- True, False, False
-- True, True, False
+* False, True, False
+* False, False, True
+* True, False, False
+* True, True, False
 
 ---
-
 ## Revision
 
 Which of these is not a Jasmine matcher?
 ???
-
-- toBeBoolean
-- toEqual
-- toBeUndefined
-- toBe
+* toBeBoolean
+* toEqual
+* toBeUndefined
+* toBe

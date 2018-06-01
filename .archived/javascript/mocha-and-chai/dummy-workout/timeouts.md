@@ -22,20 +22,19 @@ links:
   - '[mochajs.org](http://mochajs.org/#hooks){website}'
 
 ---
-
 # Timeouts
 
 ---
-
 ## Content
 
-Timeouts can be applied at both _suite level_ and _test level_.
+Timeouts can be applied at both *suite level* and *test level*. 
 
-Suite-level timeouts can be applied to entire test suites. All nested suites and test cases will inherit this.
+Suite-level timeouts can be applied to entire test suites. All nested suites and test cases will inherit this. 
 
 In comparison, test-level timeouts are applied to individual test cases.
 
-Invoking `this.timeout(0)` disables timeouts altogether. Mocha uses a default timeout of _2000ms_.
+
+Invoking `this.timeout(0)` disables timeouts altogether. Mocha uses a default timeout of *2000ms*. 
 
 ```JavaScript
 describe('suite level timeouts', () => {
@@ -46,9 +45,7 @@ describe('suite level timeouts', () => {
   });
 })
 ```
-
 Test-specific timeouts can be applied like in the following example:
-
 ```JavaScript
 describe('test level timeouts', () => {
   it('timeout < 1000ms', (done) => {
@@ -59,21 +56,19 @@ describe('test level timeouts', () => {
 ```
 
 ---
-
 ## Practice
 
 Suite-level timeouts can be applied to ???. All nested suites and test cases will ??? this. Test-level timeouts are applied to ???.
 
-- entire test suites
-- inherit
-- individual test cases
-- everything
-- forget
-- functions
-- some test cases
+* entire test suites
+* inherit
+* individual test cases
+* everything
+* forget
+* functions
+* some test cases
 
 ---
-
 ## Revision
 
 How do you disable timeouts altogether?
@@ -81,11 +76,10 @@ How do you disable timeouts altogether?
 ```
 ???.???(???);
 ```
-
-- this
-- timeout
-- 0
-- destroy
-- 2000
-- stop
-- cancel
+* this
+* timeout
+* 0
+* destroy
+* 2000
+* stop
+* cancel

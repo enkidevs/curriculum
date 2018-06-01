@@ -32,23 +32,20 @@ links:
     [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Glossary/Falsy){website}
 
 ---
-
 # Truthiness
 
 ---
-
 ## Content
 
-In JavaScript, a _Truthy_ value is any value which, when evaluated in a boolean context, is `true`. Similarly, a _Falsy_ value is any value which evaluates to `false` in a boolean context.
+In JavaScript, a *Truthy* value is any value which, when evaluated in a boolean context, is `true`. Similarly, a *Falsy* value is any value which evaluates to `false` in a boolean context.
 
 Here are some examples of Falsy values:
-
 ```
 if (false) ...      // Falsy
 if (null) ...       // Falsy
 if (undefined) ...  // Falsy
-if (0) ...          // Falsy
-if (NaN) ...        // Falsy
+if (0) ...          // Falsy 
+if (NaN) ...        // Falsy 
 if ('') ...         // Falsy
 ```
 
@@ -58,17 +55,17 @@ Note that this is not the case for the following values:
 
 ```
 if ({}) ...            // Truthy
-if ([]) ...            // Truthy
+if ([]) ...            // Truthy   
 if (new Number(0)) ... // Truthy
+
 ```
 
 If the above feels counter-intuitive, just remember that all JavaScript objects (even empty ones) are Truthy.
 
 ---
-
 ## Practice
 
-Which of the following are _truthy_ and which are _falsy_? T for truthy, F for falsy... ???
+Which of the following are *truthy* and which are *falsy*? T for truthy, F for falsy... ???
 
 ```javascript
 if (false) ...
@@ -78,18 +75,17 @@ if (NaN) ...
 if ([]) ...
 ```
 
-- F T F F T
-- F T F T T
-- T F T T F
-- T T T F F
+* F T F F T
+* F T F T T
+* T F T T F
+* T T T F F
 
 ---
-
 ## Revision
 
 `false` ,`null` ,`NaN` are ??? values, while all javascript objects are ??? .
 
-- falsy
-- truthy
-- true
-- false
+* falsy
+* truthy
+* true
+* false

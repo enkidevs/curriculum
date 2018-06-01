@@ -20,29 +20,24 @@ links:
     [www-01.ibm.com](https://www-01.ibm.com/support/knowledgecenter/ssw_aix_71/com.ibm.aix.performance/using_netstat.htm){website}
 
 ---
-
 # Make use of `netstat`
 
 ---
-
 ## Content
 
 `netstat` command line tool is one of the most basic network service debugging tools.
 
 Listing the state of all sockets ( TCP + UDP) :
-
 ```
 $ netstat -a
 ```
 
-Listing TCP ports connections:
-
+Listing TCP ports connections: 
 ```
 $ netstat -at
 ```
 
 Displaying RAW network statistics:
-
 ```
 $ netstat --statistics --raw
 ```
@@ -55,35 +50,31 @@ $ netstat -lantp | grep -i stab |
 ```
 
 List the number and type of active network connections:
-
 ```
 $ netstat -ant | awk '{print $NF}' |
  grep -v '[a-z]' | sort | uniq -c
 ```
 
 ---
-
 ## Practice
 
 How do you display **RAW** network statistics?
-
 ```
 $ ??? --raw ???
 ```
 
-- netstat
-- --statistics
-- awk
-- grep
-- -stats
-- all
+* netstat
+* --statistics
+* awk
+* grep
+* -stats
+* all
 
 ---
-
 ## Revision
 
 `netstat` is a ??? .
 
-- network statistics utility
-- terminal browser
-- way to connect to internet
+* network statistics utility
+* terminal browser
+* way to connect to internet

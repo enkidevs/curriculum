@@ -22,23 +22,21 @@ links:
   - '[mochajs.org](http://mochajs.org/#hooks){website}'
 
 ---
-
 # Delayed Root Suite
 
 ---
-
 ## Content
 
-_Mocha_ allows you to carry out asynchronous operations before your tests suites are run by _delaying the root suite_.
+*Mocha* allows you to carry out asynchronous operations before your tests suites are run by *delaying the root suite*. 
 
-Running _Mocha_ with the `--delay` flag provides you with a function `run()` in the global context.
+Running *Mocha* with the `--delay` flag provides you with a function `run()` in the global context.
 
 ```JavaScript
 setTimeout(function() {
   // set up any test suite pre-conditions
   // here whilst the root suite's delayed
 
-  describe('add tests inside the describe',
+  describe('add tests inside the describe', 
             function() {
   });
 
@@ -49,25 +47,23 @@ setTimeout(function() {
 ```
 
 ---
-
 ## Practice
 
 What function does the `--delay` flag give you access to? ???
 
-- run();
-- callback();
-- execute();
-- compile();
+* run();
+* callback();
+* execute();
+* compile();
 
 ---
-
 ## Revision
 
-What flag must be _Mocha_ run with to be provided with `run()` function in the global context?
+What flag must be *Mocha* run with to be provided with `run()` function in the global context?
 
 ???
 
-- --delay
-- --delay-root
-- --async
-- --run
+* --delay
+* --delay-root
+* --async
+* --run

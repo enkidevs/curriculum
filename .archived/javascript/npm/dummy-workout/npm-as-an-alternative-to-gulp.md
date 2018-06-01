@@ -19,37 +19,33 @@ links:
     [strongloop.com](https://strongloop.com/strongblog/3-neat-tricks-with-npm-run/){website}
 
 ---
-
-# `npm` as an alternative to Gulp
+# `npm`  as an alternative to Gulp
 
 ---
-
 ## Content
 
-Instead of using _Gulp_, the powerful streaming build system for parallel compilation, the `npm run` command can also be used. Consider using the latter in scenarios where _Gulp_ is a clear overkill.
+Instead of using *Gulp*, the powerful streaming build system for parallel compilation, the `npm run` command can also be used. Consider using the latter in scenarios where *Gulp* is a clear overkill.
 
-Suppose you have some **ES2015** code in `mycode.js` that needs transpiling with `babel` then piping into `browserify`.
+Suppose you have some **ES2015** code in `mycode.js`  that needs transpiling with `babel` then piping into `browserify`.
 
 ```javascript
 //mycode.js
 'use strict';
-const enki = require('enki');
+const enki= require('enki');
 enki(function*() {
   console.log('Enki was here!');
 });
-```
+``` 
 
-`gulp-babel` and `gulp-browserify` modules would be needed for _Gulp_ to compile this. Instead, babel and browserify command line interfaces can be used.
-
+`gulp-babel` and `gulp-browserify` modules would be needed for *Gulp* to compile this. Instead, babel and browserify command line interfaces can be used.
 ```bash
 ./node_modules/.bin/browserify mycode.js |
-   ./node_modules/.bin/babel >
+   ./node_modules/.bin/babel > 
       ./bin/mycode.js
 ```
 
 To get rid of the `./node_modules/.bin` parts, you can define a script in `package.json`:
-
-```json
+```json 
 {
   "scripts": {
     "compile": "browserify mycode.js |

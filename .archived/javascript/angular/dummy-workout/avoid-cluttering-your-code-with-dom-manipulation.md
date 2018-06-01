@@ -22,11 +22,9 @@ links:
   - '[twitter.com](http://twitter.com/urishaked){website}'
 
 ---
-
 # Avoid cluttering your code with DOM manipulation
 
 ---
-
 ## Content
 
 Interacting with the DOM inside your controllers or services is considered bad practice.
@@ -53,16 +51,15 @@ $http.get('/users/current')
 Then reference the `userName` variable within your view by enclosing it with double braces: `{{userName}}`.
 
 ---
-
 ## Revision
 
 With what you should not interact inside controllers or services as it is considered a bad practice?
 
 ???
 
-_`the DOM`
-_`other controllers`
-_`data`
-_`css`
-_`JQuery`
-_`ng-click`
+*`the DOM`
+*`other controllers`
+*`data`
+*`css`
+*`JQuery`
+*`ng-click`

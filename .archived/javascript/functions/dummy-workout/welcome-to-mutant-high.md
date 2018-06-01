@@ -14,11 +14,9 @@ type: tetris
 category: tip
 
 ---
-
 # Welcome to Mutant High
 
 ---
-
 ## Content
 
 Is the function pure, or does it mutate?
@@ -28,11 +26,9 @@ A function is pure if it returns a new entity without modifying any existing dat
 A function mutates if it modifies an existing entity, rather than returning a new one.
 
 ---
-
 ## Game Content
 
 mutate:pure
-
 ```true
 arr.length
 %exp
@@ -135,9 +131,11 @@ obj.name
 %exp
 Accessing an object's property (e.g. `name`) will not mutate it.
 %
+
 ```
 
 ```false
+
 arr[0] = 0
 %exp
 Setting a new value for an object's property (`0`) will mutate it.

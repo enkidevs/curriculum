@@ -19,22 +19,20 @@ links:
   - '[npmjs.com](https://www.npmjs.com/package/yargs){website}'
 
 ---
-
 # Passing arguments from the command line
 
 ---
-
 ## Content
 
-The package `yargs` makes it easy to use command line arguments in your _gulp_ scripts by providing a hash of command argument values.
+The package `yargs` makes it easy to use command line arguments in your *gulp* scripts by providing a hash of command argument values.
 
-The example below assigns the _destination_ argument to the variable _dest_ and defaults it to _dist_ if the argument is not provided:
+The example below assigns the *destination* argument to the variable *dest* and defaults it to *dist* if the argument is not provided:
 
 ```javaScript
 var gulp = require('gulp');
 var args = require('yargs').argv;
 
-var dest = args.destination ?
+var dest = args.destination ? 
            args.destination : 'dist';
 
 gulp.task('show-arg',function(){
@@ -43,13 +41,11 @@ gulp.task('show-arg',function(){
 ```
 
 Calling the gulp task:
-
 ```
 gulp show-arg --destination "other"
 ```
 
 ---
-
 ## Practice
 
 Require in the `yargs` package to make easy use of command line arguments:
@@ -58,9 +54,9 @@ Require in the `yargs` package to make easy use of command line arguments:
 var args = require('???').???;
 ```
 
-- yargs
-- argv
-- args
-- argc
-- mod-yargs
-- package-yargs
+* yargs 
+* argv
+* args
+* argc
+* mod-yargs
+* package-yargs

@@ -21,11 +21,9 @@ links:
     [docs.nodejitsu.com](https://docs.nodejitsu.com/articles/REPL/how-to-use-nodejs-repl){website}
 
 ---
-
 # REPL in Node.js
 
 ---
-
 ## Content
 
 In Node.js you can use a **Read-Eval-Print-Loop (REPL)** to interactively run JavaScript and print the results. You can use this for debugging, testing, or experimenting with your code.
@@ -36,9 +34,7 @@ You can access the REPL by executing `node` without any arguments from the comma
 $ node
 >
 ```
-
 You can now type in and run JavaScript commands, for example:
-
 ```
 > console.log('Hello!');
 Hello!
@@ -47,29 +43,26 @@ Hello!
 The Node REPL has similar controls to most consoles/shells. You can press _tab_ to autocomplete variables and use the up and down _arrow keys_ to scroll through your previous commands.
 
 ---
-
 ## Practice
 
-What does _REPL_ stand for?
+What does *REPL* stand for?
 
 ???
 
-- Read-Eval-Print-Loop
-- Read-Print-Loop
-- Run-Eval-Print-Loop
-- Read-Eval-Process-Load
+* Read-Eval-Print-Loop
+* Read-Print-Loop
+* Run-Eval-Print-Loop
+* Read-Eval-Process-Load
 
 ---
-
 ## Revision
 
 Open **Node**'s REPL:
-
 ```
 $ ???
 ```
 
-- node
-- npm
-- repl
-- co
+* node
+* npm
+* repl
+* co

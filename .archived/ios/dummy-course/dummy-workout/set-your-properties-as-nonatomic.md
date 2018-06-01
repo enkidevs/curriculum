@@ -20,13 +20,11 @@ links:
     [stackoverflow.com](http://stackoverflow.com/questions/588866/whats-the-difference-between-the-atomic-and-nonatomic-attributes){website}
 
 ---
-
 # Set your properties as `nonatomic`
 
 ---
-
 ## Content
 
-They're `atomic` by default and upon synthesis, semaphore code will be created to prevent multi-threading problems.
+They're `atomic` by default and upon synthesis, semaphore code will be created to prevent multi-threading problems. 
 
 99% of you probably don't need to worry about this and the code is much less bloated and more memory-efficient when set to `nonatomic`.

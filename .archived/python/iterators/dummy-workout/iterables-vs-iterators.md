@@ -45,16 +45,14 @@ links:
     [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#iterator-types){website}
 
 ---
-
 # Iterables vs iterators
 
 ---
-
 ## Content
 
-The concept of **Iteration** over sequences, and hence of iterators, pervades Python (`for` loops, `maps` , or comprehensions, ...). Most container data types (list, tuples, strings, dicts, etc.) support iteration.
+The concept of **Iteration** over sequences, and hence of iterators, pervades Python (`for` loops,  `maps` , or comprehensions, ...). Most container data types (list, tuples, strings, dicts, etc.) support iteration.
 
-An **ITERABLE** object must define either an `__iter__` function (that returns an **ITERATOR**) or a `__getitem__` function (suitable for index lookup).
+An **ITERABLE** object must define either an  `__iter__` function (that returns an **ITERATOR**) or a `__getitem__` function (suitable for index lookup).
 
 An **ITERATOR** object must define a `__next__` method (called `next` before Python 3.0) that will return the next value of the iteration.
 
@@ -69,4 +67,6 @@ An **ITERATOR** object must define a `__next__` method (called `next` before Pyt
 3
 >>> next(i)
 # error StopIteration
+
+
 ```

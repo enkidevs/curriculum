@@ -23,19 +23,17 @@ links:
     [stackoverflow.com](http://stackoverflow.com/questions/24321307/what-is-the-difference-between-createspy-and-createspyobj){website}
 
 ---
-
 # Test Spy Objects
 
 ---
-
 ## Content
 
-`jasmine.createSpyObj` is a function used to create spies when an array of strings is passed to it. It returns an object with the property for each string which is a _spy_.
+`jasmine.createSpyObj` is a function used to create spies when an array of strings is passed to it. It returns an object with the property for each string which is a *spy*.
 
 Declaring an array of string in a `beforeEach` function with calls:
 
 ```JavaScript
-describe("creating multiple spies",
+describe("creating multiple spies", 
          function() {
   var spyArray;
 
@@ -46,11 +44,9 @@ describe("creating multiple spies",
     spyArray.three(3);
   });
 ```
-
-Then using _`expect`_ functions comparing the expected and actual values:
-
+Then using *`expect`* functions comparing the expected and actual values:
 ```JavaScript
-it("creates a spy for each function"
+it("creates a spy for each function" 
    function() {
    expect(spyArray.one).toBeDefined();
    expect(spyArray.two).toBeDefined();
@@ -69,23 +65,20 @@ it("tracks if spies were called and any \
 ```
 
 ---
-
 ## Practice
 
 What must be passed to `jasmine.createSpyObj` for it return the spy? ???
 
-- An array of strings.
-- An int value representing the number of spies to create.
-- A boolean flag of whether to create a spy or not.
+* An array of strings.
+* An int value representing the number of spies to create.
+* A boolean flag of whether to create a spy or not.
 
 ---
-
 ## Revision
 
 Which of these correctly creates a spy object?
 ???
-
-- spyArr = jasmine.createSpyObj('spyArr', ['a', 'b', 'c']);
-- spyArr = createSpyObj('spyArr', ['a', 'b', 'c']);
-- spyArr = jas.createSpyObj('spyArr, ['one', two', 'three']);
-- spyArr = jasmine.createSpyObj();
+* spyArr = jasmine.createSpyObj('spyArr', ['a', 'b', 'c']);
+* spyArr = createSpyObj('spyArr', ['a', 'b', 'c']);
+* spyArr = jas.createSpyObj('spyArr, ['one', two', 'three']);
+* spyArr = jasmine.createSpyObj();

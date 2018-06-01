@@ -14,14 +14,12 @@ links:
   - '[More about pseudo elements](https://www.html5rocks.com/en/tutorials/shapes/getting-started/)'
 
 ---
-
 # CSS pseudo element
 
 ---
-
 ## Content
 
-_Pseudo elements_ are used in CSS to style specified parts of an element.
+*Pseudo elements* are used in CSS to style specified parts of an element.
 
 The `::first-letter` pseudo element styles the first letter of any text element. For example, we can style the first letter of all `<p>` elements:
 
@@ -53,7 +51,6 @@ p.first_paragraph::first-line{
 Pseudo elements can also be used to add content before and after any CSS element.
 
 Consider the following situation: We have two `<div>` elements containing the first name and surname of some person. If we want to point out which is the surname and which one is the first name we can use the `::before` pseudo element:
-
 ```
 <div class="firstname"> John </div>
 <div class="surname"> Fischer </div>
@@ -69,7 +66,6 @@ Consider the following situation: We have two `<div>` elements containing the fi
 ```
 
 We can also use `::before` and `::after` to add images where we need them:
-
 ```
 <div class="circle"> Circle: </div>
 
@@ -82,14 +78,11 @@ We can also use `::before` and `::after` to add images where we need them:
 Note the difference between inserting an image on a web page using an `<img>` html tag and using a CSS pseudo element is that, when using pseudo elements the dimensions of the image can't be adjusted.
 
 ---
-
 ## Practice
 
 Consider the following `<div>` element. We need to do the following edits:
-
-- first letter of the paragraph _red_ and _large_
+- first letter of the paragraph *red* and *large*
 - the first line must be in capital letters
-
 ```
 <div class="text">
 Sample text row 1
@@ -108,22 +101,20 @@ new line
 }
 ```
 
-- first-letter
-- color
-- large
-- first-line
-- variant
-- size
-- small
-- medium
-- before
+* first-letter
+* color
+* large
+* first-line
+* variant
+* size
+* small
+* medium
+* before
 
 ---
-
 ## Revision
 
 Suppose we have a web page meant to teach children different kinds of shapes. We need to exemplify a square shape by adding an image after the text, fill the gaps accordingly:
-
 ```
 <div class="square"> Square: </div>
 
@@ -131,14 +122,13 @@ Suppose we have a web page meant to teach children different kinds of shapes. We
   ???: url(square_img.png);
 }
 ```
-
 Can we adjusted the size of the image to properly fit on the page?
 ???
 
-- square
-- after
-- content
-- no
-- yes
-- before
-- square_class
+* square
+* after
+* content
+* no
+* yes
+* before
+* square_class

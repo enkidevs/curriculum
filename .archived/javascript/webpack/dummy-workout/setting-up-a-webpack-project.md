@@ -12,21 +12,17 @@ type: normal
 category: tip
 
 ---
-
 # Setting up a Webpack project
 
 ---
-
 ## Content
 
 To install Webpack:
-
 ```bash
 npm i webpack --save-dev
 ```
 
 Set up a directory structure as follows:
-
 ```bash
 /app
   - main.js
@@ -38,43 +34,40 @@ package.json
 webpack.config.js
 ```
 
-Once some functionality has been added to the _`app/component.js`_ and _`app/main.js`_, `webpack` can be run in the terminal and the application will be built.
+Once some functionality has been added to the *`app/component.js`* and *`app/main.js`*, `webpack` can be run in the terminal and the application will be built.
 
-A _`bundle.js`_ file will appear in your _/build_ folder.
+A *`bundle.js`* file will appear in your */build* folder. 
 
-The application can be opened by double clicking the _index.html_ file.
+The application can be opened by double clicking the *index.html* file.
 
 ---
-
 ## Practice
 
-How do you install Webpack?
+How do you install Webpack? 
 
 ```
 ??? i webpack ???
 ```
 
-- npm
-- --save-dev
-- env
-- -save-dev
-- --dev
-- install
-- run
+* npm
+* --save-dev
+* env
+* -save-dev
+* --dev
+* install
+* run
 
 ---
-
 ## Revision
 
-How do you install Webpack?
+How do you install Webpack? 
 
 ```
 npm i ??? ???
 ```
-
-- webpack
-- --save-dev
-- webpack_module
-- save-dev
-- save-module
-- web-pack
+* webpack
+* --save-dev
+* webpack_module
+* save-dev
+* save-module
+* web-pack

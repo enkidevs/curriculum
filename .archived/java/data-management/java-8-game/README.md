@@ -9,5 +9,4 @@ section: 1
 parent: data-structures-implementation
 
 insights:
-
-- java-8
+  - java-8

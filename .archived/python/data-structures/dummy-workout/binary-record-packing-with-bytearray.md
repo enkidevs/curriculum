@@ -23,15 +23,12 @@ links:
   - '[Code example](https://repl.it/Dca2){website}'
 
 ---
-
 # Binary record packing with `bytearray`
 
 ---
-
 ## Content
 
 Take a large list of integer coordinate pairs:
-
 ```python
 import time
 
@@ -39,8 +36,7 @@ points = [ (i, j) for i in \
   range(1000) for j in range(1000) ]
 ```
 
-The data can be written out as a binary file with a `32-bit` integer header field, then the points as `32-bit` integers, using the `struct` module:
-
+The data can be written out as a binary  file with a `32-bit` integer header field, then the points as `32-bit` integers, using the `struct` module:
 ```python
 import struct
 
@@ -78,13 +74,12 @@ print("bytearray time: {}".\
 For `1000×1000` elements, the difference will be around `0.05` seconds.
 
 ---
-
 ## Revision
 
-What can be reduced using a `bytearray` when using data written out as a binary file?
+What can be reduced using a `bytearray` when using data written out as a binary file? 
 
 ???
 
-- Run time
-- Code errors
-- Lines of code
+* Run time
+* Code errors
+* Lines of code

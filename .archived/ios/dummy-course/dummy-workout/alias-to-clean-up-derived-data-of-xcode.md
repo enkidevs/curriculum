@@ -24,17 +24,14 @@ links:
     [realm.io](http://realm.io/news/favorite-swift-tips-and-tricks-of-2014/){website}
 
 ---
-
 # Alias to clean up Derived Data of XCode
 
 ---
-
 ## Content
 
-When having a problem in Xcode, begin by removing the Derived Data of Xcode.
+When having a problem in Xcode, begin by removing the Derived Data of Xcode. 
 
 There is even an alias (to put in your .alias) for that:
-
 ```bash
 alias sourcekitsad='rm -rf  \
 ~/Library/Developer/Xcode/DerivedData'

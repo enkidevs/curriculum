@@ -19,11 +19,9 @@ links:
     [iosdevtips.co](http://iosdevtips.co/post/71775969426/monitor-changes-to-an-property-with-this-simple){website}
 
 ---
-
 # Monitor changes to a @property
 
 ---
-
 ## Content
 
 Just put a breakpoint on the line where you have declared your @property.

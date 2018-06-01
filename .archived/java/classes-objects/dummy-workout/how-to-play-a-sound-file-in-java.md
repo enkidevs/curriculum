@@ -21,11 +21,9 @@ links:
     [stackoverflow.com](http://stackoverflow.com/questions/22031701/sun-audio-player-and-sound-i-o){website}
 
 ---
-
 # How to play a sound file in Java
 
 ---
-
 ## Content
 
 Playing simple audio file in Java can be handled by the Library `sun.audio`:
@@ -35,45 +33,39 @@ import sun.audio.*;
 
 public class AudioExample{
   String mFile = "/Users/music.au";
-  InputStream in =
+  InputStream in = 
       new FileInputStream(mFile);
-  AudioStream as =
+  AudioStream as = 
       new AudioStream(in);
   AudioPlayer.player.start(as);
 }
 ```
 
 ---
-
 ## Practice
 
-Using the `sun.audio` library, play the file referred by the `au AudioStream`:
-
+Using the `sun.audio` library,  play the file referred by the `au AudioStream`:
 ```
 // AudioStream au
 ???.player.???(au);
 ```
-
-_`AudioPlayer`
-_`start`
-_`play`
-_`music`
-_`Play`
-_`Audio`
+*`AudioPlayer` 
+*`start` 
+*`play` 
+*`music` 
+*`Play` 
+*`Audio`
 
 ---
-
 ## Revision
 
 Complete the code snippet such that the `AudioStream` au is played:
-
 ```
 AudioPlayer.???.???(au);
 ```
-
-_`player`
-_`start`
-_`audio`
-_`play`
-_`music`
-_`stream`
+*`player`
+*`start`
+*`audio`
+*`play`
+*`music`
+*`stream`

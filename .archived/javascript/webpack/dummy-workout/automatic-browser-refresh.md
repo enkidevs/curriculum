@@ -14,17 +14,14 @@ type: normal
 category: tip
 
 ---
-
 # Automatic Browser Refresh
 
 ---
-
 ## Content
 
 `webpack-dev-server` watches file for changes and rebuilds the project upon change, it also notifies browsers listening to refresh.
 
-Add a script to _`index.html`_ to trigger a browser refresh upon a file change:
-
+Add a script to *`index.html`* to trigger a browser refresh upon a file change:
 ```html
 <!DOCTYPE html>
 <html>
@@ -38,9 +35,7 @@ Add a script to _`index.html`_ to trigger a browser refresh upon a file change:
   </body>
 </html>
 ```
-
-And add an entry point to the _`webpack.config.js`_ file:
-
+And add an entry point to the *`webpack.config.js`* file:
 ```javaScript
 var path = require('path');
 
@@ -61,5 +56,4 @@ module.exports = {
     ]
 };
 ```
-
 The browser will now automatically refresh when a file change is detected in your application.

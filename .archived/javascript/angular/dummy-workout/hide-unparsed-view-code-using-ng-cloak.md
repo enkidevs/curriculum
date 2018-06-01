@@ -12,11 +12,9 @@ type: normal
 category: how to
 
 ---
-
 # Hide unparsed view code using `ng-cloak`
 
 ---
-
 ## Content
 
 While Angular loads users will see bunch of un-parsed view code such as `{{user.name}}`.
@@ -24,15 +22,11 @@ While Angular loads users will see bunch of un-parsed view code such as `{{user.
 Use the `ng-cloak` CSS class to hide your view's content until Angular has loaded.
 
 In your CSS:
-
 ```css
-.ng-cloak {
-  display: none;
-}
+.ng-cloak { display: none; }
 ```
 
 In your view:
-
 ```html
 <div class="ng-cloak">...</div>
 ```
@@ -40,7 +34,6 @@ In your view:
 Angular will automatically remove this class once the application has been loaded.
 
 ---
-
 ## Revision
 
 Complete the following CSS code snippet using the `ng-cloak` class to hide the views content until Angular has loaded:
@@ -49,9 +42,9 @@ Complete the following CSS code snippet using the `ng-cloak` class to hide the v
 ??? {display: ???; }
 ```
 
-- `.ng-cloak`
-- `none`
-- `hidden`
-- `ng-cloak`
-- `.ngcloak`
-- `invisible`
+* `.ng-cloak`
+* `none`
+* `hidden`
+* `ng-cloak`
+* `.ngcloak`
+* `invisible`

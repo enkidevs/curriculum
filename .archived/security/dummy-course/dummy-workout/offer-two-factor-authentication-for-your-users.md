@@ -25,11 +25,9 @@ links:
     [alexgaynor.net](https://alexgaynor.net/2015/jun/08/tips-for-improving-your-companys-security/){website}
 
 ---
-
-# Offer two factor authentication for your users
+# Offer two factor authentication for your users 
 
 ---
-
 ## Content
 
 The most practical way to strengthen authentication is to require a second factor after the username/password stage.

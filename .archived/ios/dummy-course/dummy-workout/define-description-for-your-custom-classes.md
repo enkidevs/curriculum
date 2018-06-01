@@ -19,11 +19,9 @@ links:
     [stackoverflow.com](http://stackoverflow.com/questions/1104746/what-is-the-objective-c-equivalent-for-tostring-for-use-with-nslog){website}
 
 ---
-
 # Define description for your custom classes
 
 ---
-
 ## Content
 
 ```
@@ -31,5 +29,4 @@ links:
     return self.name;
 }
 ```
-
 Now when you log them with NSLog they’ll return a sensible string, instead of nil.

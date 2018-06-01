@@ -16,11 +16,9 @@ type: tetris
 category: must-know
 
 ---
-
 # Built-in
 
 ---
-
 ## Content
 
 Think of Python's Standard Library as an efficient toolbox. However, not all types provided by it are built-in and they require an `import`.
@@ -28,11 +26,9 @@ Think of Python's Standard Library as an efficient toolbox. However, not all typ
 Can you guess which types are built-in and which are not?
 
 ---
-
 ## Game Content
 
 built-in:imported
-
 ```false
 int
 %exp
@@ -149,4 +145,5 @@ time
 %exp
 Time related functions can be found in this module. `import time` is required.
 %
+
 ```

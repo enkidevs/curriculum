@@ -19,17 +19,14 @@ links:
     [slicejack.com](http://slicejack.com/introduction-to-gulp-a-streaming-javascript-task-runner/){website}
 
 ---
-
 # Streams
 
 ---
-
 ## Content
 
-_Streams_ in _gulp_ allow you to pass data through a number of small functions, these functions modify the data and pass it on to the next function in the stream.
+*Streams* in *gulp* allow you to pass data through a number of small functions, these functions modify the data and pass it on to the next function in the stream.
 
 A stream would be implemented like follows:
-
 ```javaScript
 gulp.task('js', function () {
    return gulp.src('js/*.js')
@@ -39,16 +36,14 @@ gulp.task('js', function () {
       .pipe(gulp.dest('build'));
 });
 ```
-
 Data would be passed through each function in order with each function modifying the data in its own way.
 
 Note: To run this, you would need to have installed the plugins gulp, gulp-jshint, gulp-uglify and gulp-concat.
 
 ---
-
 ## Practice
 
-Implement the following stream:
+Implement the following stream: 
 
 ```javascript
 gulp.???('js', function () {
@@ -58,26 +53,24 @@ gulp.???('js', function () {
 });
 ```
 
-- task
-- src
-- .pipe
-- .pass
-- .stream
-- run
-- dev
-- build
+* task
+* src
+* .pipe
+* .pass
+* .stream
+* run
+* dev
+* build
 
 ---
-
 ## Revision
 
-Which two lines of code are required to pass a stream of data through the _gulpLess_ function then the _gulpMinifyCSS_ function respectively. ??? ???
-
-- .pipe(gulpLess())
-- .pipe(gulpMinifyCSS())
-- .stream(gulpLess())
-- .stream(gulpMinifyCSS())
-- .pass(gulpLess())
-- .pass(gulpMinifyCSS())
-- .gulp(gulpLess())
-- .gulp(gulpMinifyCSS())
+Which two lines of code are required to pass a stream of data through the *gulpLess* function then the *gulpMinifyCSS* function respectively. ??? ???
+* .pipe(gulpLess())
+* .pipe(gulpMinifyCSS())
+* .stream(gulpLess())
+* .stream(gulpMinifyCSS())
+* .pass(gulpLess())
+* .pass(gulpMinifyCSS())
+* .gulp(gulpLess())
+* .gulp(gulpMinifyCSS())

@@ -19,23 +19,19 @@ links:
     [github.com](https://github.com/gulpjs/gulp/blob/master/docs/recipes/delete-files-folder.md){website}
 
 ---
-
 # Deleting Files and Folders
 
 ---
-
 ## Content
 
-The `del` module supports _multiple files_ and _globbing_ so is ideally suited to deleting files/folders before running your build.
+The `del` module supports *multiple files* and *globbing* so is ideally suited to deleting files/folders before running your build.
 
 To install:
-
 ```bash
 $ npm install --save-dev gulp del
 ```
 
-Imagine this file structure:
-
+Imagine this file  structure:
 ```bash
 ├── enki
 │   ├── dev
@@ -44,9 +40,7 @@ Imagine this file structure:
 │       ├── toRun.json
 │       └── styles.css
 ```
-
 To clean the test folder:
-
 ```javaScript
 var gulp = require('gulp');
 var del = require('del');
@@ -61,15 +55,12 @@ gulp.task('clean:test', function () {
   ]);
 });
 ```
-
 To run the cleaning task:
-
 ```javaScript
 gulp.task('default', ['clean:test']);
 ```
 
 ---
-
 ## Practice
 
 Create a task to clean the src folder of everything but the `enkiApp.js` file:
@@ -84,29 +75,28 @@ gulp.task('clean:test', ??? {
 });
 ```
 
-- function ()
-- src
-- folder
-- run ()
-- start ()
-- bin
-- delete
-- clean
-- dir
-- directory
+* function ()
+* src
+* folder
+* run ()
+* start ()
+* bin
+* delete
+* clean
+* dir
+* directory
 
 ---
-
 ## Revision
 
-Fill in the gaps to run the folder cleaning task called _clean:dev_.
+Fill in the gaps to run the folder cleaning task called *clean:dev*.
 gulp.task('???', ['???']);
 
-- default
-- clean:dev
-- run
-- clean
-- dev
-- folder:dev
-- clean:folder
-- task:clean-dev
+* default
+* clean:dev
+* run
+* clean
+* dev
+* folder:dev
+* clean:folder
+* task:clean-dev

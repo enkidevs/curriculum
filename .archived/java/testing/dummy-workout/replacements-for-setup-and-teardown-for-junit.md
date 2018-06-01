@@ -17,17 +17,14 @@ notes: |
   https://insights.enki.com/#/contrib/5594adacabc92e3300233c3b
 
 ---
-
 # Replacements for `setUp()` and `tearDown()` for **JUnit**
 
 ---
-
 ## Content
 
 After the version 4 of the Java testing framework JUnit, instead of using the methods `setUp()` and `tearDown()` for managing testing resources, the `@Before` and `@After` annotations have been introduced. In addition, `@Test` annotation can be used for the testing methods.
 
 Instead of :
-
 ```java
 VirtualMachine vm;
 public void setUp() {
@@ -39,7 +36,6 @@ public void tearDown() {
 ```
 
 you can use :
-
 ```java
 VirtualMachine vm;
 @Before
@@ -57,14 +53,12 @@ Before each `@Test` method, the `@Before` method will be called. Consequently, a
 If there are multiple methods marked with `@Before` or `@After` their order of execution is arbitrary.
 
 `@BeforeClass` and `@AfterClass` methods
-will be called only once - either _before_ all tests are started or _after_ they are all ran. This proves useful when you want to prevent multiple server connections or disconnects.
+will be called only once - either *before* all tests are started or *after* they are all ran. This proves useful when you want to prevent multiple server connections or disconnects.
 
 ---
-
 ## Practice
 
 Complete the following code snippet with the required annotations:
-
 ```
 VirtualMachine vm;
 @???
@@ -78,20 +72,21 @@ public void shutDown() {
 }
 ```
 
-_`Before`
-_`After`
-*S`etUp`
-*T`earDown` \*`Test`
+*`Before` 
+*`After` 
+*S`etUp` 
+*T`earDown` 
+*`Test`
 
 ---
-
 ## Revision
 
 What method will be called only once, before all tests are done?
 
 `???`
 
-_`@BeforeClass`
-_`@BeforeAll`
-_`@AfterAll`
-_`@After` \*`@Test`
+*`@BeforeClass` 
+*`@BeforeAll` 
+*`@AfterAll` 
+*`@After` 
+*`@Test`

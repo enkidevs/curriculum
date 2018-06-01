@@ -18,54 +18,43 @@ links:
   - '[github.com](https://github.com/OverZealous/run-sequence){website}'
 
 ---
-
 # Running tasks in series
 
 ---
-
 ## Content
 
-_Gulp_ normally runs all tasks at once without waiting. To create a _series_ for your tasks to run in order you need to:
+*Gulp* normally runs all tasks at once without waiting. To create a *series* for your tasks to run in order you need to:
+- Tell *gulp* when a task is done.
+- Tell *gulp* when a task is dependent on another task's completion.
 
-- Tell _gulp_ when a task is done.
-- Tell _gulp_ when a task is dependent on another task's completion.
-
-Requiring _gulp_:
-
+Requiring *gulp*:
 ```javaScript
 var gulp = require('gulp');
 ```
-
-Defining task _one_, it takes a _callback_ `cb` as a parameter so the task runner knows when it's completed:
-
+Defining task *one*, it takes a *callback* `cb` as a parameter so the task runner knows when it's completed:
 ```javaScript
 gulp.task('one', function (cb) {
     // do stuff
-    fs.writeFile('filename', 'data', opts,
+    fs.writeFile('filename', 'data', opts, 
        function (err) {
-        // if err is not null then two
+        // if err is not null then two 
         // will not run
         cb(err);
     });
 });
 ```
-
-Task _two_ identifies that a dependent task must have been completed prior to it running:
-
+Task *two* identifies that a dependent task must have been completed prior to it running:
 ```javaScript
 gulp.task('two', ['one'], function() {
     // task 'one' has been completed
 });
 ```
-
-This task will only run once both _one_ and _two_ have completed. This could be written as only _two_ having completed due to _two_ depending on _one_.
-
+This task will only run once both *one* and *two* have completed. This could be written as only *two* having completed due to *two* depending on *one*.
 ```javaScript
 gulp.task('default', ['one', 'two']);
 ```
 
 ---
-
 ## Practice
 
 When will the following task run? ???
@@ -74,19 +63,18 @@ When will the following task run? ???
 gulp.task('default', ['Enki1', 'Enki2']);
 ```
 
-- Once tasks Enki1 and Enki2 have both finished.
-- Before either Enki1 or Enki2 have been ran.
-- Once either Enki1 or Enki2 have been finished.
+* Once tasks Enki1 and Enki2 have both finished.
+* Before either Enki1 or Enki2 have been ran.
+* Once either Enki1 or Enki2 have been finished.
 
 ---
-
 ## Revision
 
-Which of these tasks, run, requires the task 'init' to have been completed before running?
+Which of these tasks, run,  requires the task 'init' to have been completed before running? 
 
 ???
 
-- gulp.task('run', ['init'], function() {
-- gulp.task('init', 'run', function() {
-- gulp.task(['init'], 'run', function() {
-- gulp.task('run', function() {
+* gulp.task('run', ['init'], function() {
+* gulp.task('init', 'run', function() {
+* gulp.task(['init'],  'run', function() {
+* gulp.task('run', function() {

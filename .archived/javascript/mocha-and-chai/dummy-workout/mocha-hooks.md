@@ -19,14 +19,12 @@ links:
     [medium.com](https://medium.com/@kanyang/hooks-in-mocha-87cb43baa91c#.bo68b4hal){website}
 
 ---
-
 # Mocha Hooks
 
 ---
-
 ## Content
 
-Mocha provides four hooks, `before()`, `beforeEach()`, `after()` and `afterEach()`.
+Mocha provides four hooks, `before()`, `beforeEach()`, `after()` and `afterEach()`.  
 
 They can be used to set test pre-conditions and and to clean up after tests have been completed.
 
@@ -45,8 +43,7 @@ afterEach(function() {
 });
 ```
 
-All hooks are created with a description, this makes it easier to single out errors in your test cases.
-
+All hooks are created with a description, this makes it easier to single out errors in your test cases. 
 ```JavaScript
 beforeEach("the description goes here",
             function() {
@@ -55,7 +52,6 @@ beforeEach("the description goes here",
 ```
 
 ---
-
 ## Practice
 
 Which of the following is not declared properly? ???
@@ -63,32 +59,29 @@ Which of the following is not declared properly? ???
 ```javascript
 // Option A
 beforeAll(function() {
-  x++;
+   x++;
 });
 
 // Option B
 beforeEach(function() {
-  x--;
+   x--;
 });
 
 // Option C
 after(function() {
-  x++;
+   x++;
 });
 ```
-
-- Option A
-- Option B
-- Option C
+* Option A
+* Option B
+* Option C
 
 ---
-
 ## Revision
 
 Which of these is not a Mocha hook?
 ???
-
-- beforeAll()
-- beforeEach()
-- afterEach()
-- before()
+* beforeAll()
+* beforeEach()
+* afterEach()
+* before()

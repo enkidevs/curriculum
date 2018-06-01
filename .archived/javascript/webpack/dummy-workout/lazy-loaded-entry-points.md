@@ -14,38 +14,33 @@ type: normal
 category: tip
 
 ---
-
 # Lazy Loaded Entry Points
 
 ---
-
 ## Content
 
-Having multiple lazy loaded entry points allows part of an application to be loaded when it's _requested_, and not automatically.
+Having multiple lazy loaded entry points allows part of an application to be loaded when it's *requested*, and not automatically. 
 
-Take an application with a home and admin page. Upon the home page being opened the _JavaScript_ and _CSS_ for the admin page do not require loading.
+Take an application with a home and admin page. Upon the home page being opened the *JavaScript* and *CSS* for the admin page do not require loading.
 
 Require react:
-
 ```javaScript
 var React = require('react');
 ```
-
 Create a `getRoute` function to require either page depending on the hash. If there's no hash, home is loaded.
-
 ```
 var getRoute = function () {
-  if (!location.hash ||
+  if (!location.hash || 
       location.hash.length === 1) {
     require.ensure([], function () {
       var Home = require('./Home.js');
-      React.render(Home(),
+      React.render(Home(), 
         document.getElementById('app'));
     });
   } else if (location.hash === '#admin') {
     require.ensure([], function () {
       var Admin = require('./Admin.js');
-      React.render(Admin(),
+      React.render(Admin(), 
         document.getElementById('app'));
     });
   }
@@ -57,7 +52,6 @@ getRoute();
 ```
 
 ---
-
 ## Practice
 
 Load the admin page of an application using lazy loaded entry points.
@@ -66,30 +60,28 @@ Load the admin page of an application using lazy loaded entry points.
 if (location.hash === '???') {
    require.???([], function () {
       var Admin = require('./Admin.js');
-      React.render(???,
+      React.render(???, 
          document.getElementById('app'));
    });
 }
 ```
 
-- #admin
-- ensure
-- Admin()
-- admin
-- run()
-- hash
-- application
-- #value
+* #admin
+* ensure
+* Admin()
+* admin
+* run()
+* hash
+* application
+* #value
 
 ---
-
 ## Revision
 
 How do you determine which entry point to be loaded when using Lazy Loaded Entry Points?
 ???
-
-- a getRoute function and a hash value.
-- a getRoute function and a flag value.
-- a direction function and a boolean value.
-- a direction function and a hash value.
-- a getRoute function and a int value.
+* a getRoute function and a hash value.
+* a getRoute function and a flag value.
+* a direction function and a boolean value.
+* a direction function and a hash value.
+* a getRoute function and a int value.
