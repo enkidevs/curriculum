@@ -55,25 +55,27 @@ All links in the web page or document will lead to the `https://www.enki.com` li
 </head>
 ```
 
-**Note: In HTML5 the `<base>` end tag has to be omitted. However, in XHTML it has to be closed.**
+**Note: In HTML5 the `<base>` end tag has to be omitted. On the other hand, in XHTML it has to be closed.**
 
 ---
 ## Practice
 
 Assign the link path for every image on the webpage:
 
+```
 <???>
   <??? ???>
 <???>
+```
 
-* head
-* base
-* href="http://www.enkipro.com/images/"
-* /head
-* img
-* src
-* nav
-* /nav
+* `head`
+* `base`
+* `href="http://www.enkipro.com/images/"`
+* `/head`
+* `img`
+* `src`
+* `nav`
+* `/nav`
 
 ---
 ## Revision
@@ -82,14 +84,7 @@ The link path to every image on the webpage can be assigned using what HTML elem
 
 ???
 
-* base
-* image
-* img
-* path
-* link
-* target
-
-Complete the code if a `<base>` URL is assigned and image is used within an OpenGraph meta-tag.
+Complete the code if a `<base>` URL is assigned and an image is used within an OpenGraph meta-tag.
 
 ```
 <head>
@@ -101,11 +96,14 @@ Complete the code if a `<base>` URL is assigned and image is used within an Open
 
 ???
 
-* http://enkipro.com/
-* [no path is needed]
-* enkipro.com/
-* base
-* path
+* `base`
+* `http://enkipro.com/`
+* `image`
+* `link`
+* `target`
+* `[no path is needed]`
+* `enkipro.com/`
+* `path`
 
 ---
 ## Quiz
