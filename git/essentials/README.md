@@ -5,9 +5,17 @@ description: Give yourself an edge by learning how to use git like a pro. Master
 core: true
 
 sections:
-'0': - getting-started - commits - fundamentals - local-repository - remote-repository - branching
-'1': - features-i - features-ii - features-iii
+  '0':
+    - getting-started
+    - commits
+    - fundamentals
+    - local-repository
+    - remote-repository
+    - branching
+  '1':
+    - features-i
+    - features-ii
+    - features-iii
 
 next:
-
-- git:workflow
+  - git:workflow
