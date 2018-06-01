@@ -27,6 +27,7 @@ links:
 # Practice working with strings
 
 ---
+
 ## Exercise
 
 Train your skills on using sets of dat and python's `string` type.

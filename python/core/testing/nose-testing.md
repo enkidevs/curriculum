@@ -25,11 +25,13 @@ links:
 # Nose testing
 
 ---
+
 ## Content
 
 **Nose** is another unit testing framework, which can run both **doctests** and **unittests**.
 
-**Nose** and **pytest** have a similar syntax up to the point where you get into advanced features such as *fixtures*, *plugins* or *assert mechanisms*. This is why we'll use the same test we defined for `multiply` method in the **pytest** insight:
+**Nose** and **pytest** have a similar syntax up to the point where you get into advanced features such as _fixtures_, _plugins_ or _assert mechanisms_. This is why we'll use the same test we defined for `multiply` method in the **pytest** insight:
+
 ```python
 # multiply_nose.py
 
@@ -44,10 +46,13 @@ def test_two():
 ```
 
 For this example we'll **run** the test with `-v` (verbose) flag:
+
 ```bash
 $ nosetests -v multiply.py
 ```
+
 The following **output** will be produced:
+
 ```bash
 multiply_nose.test_one ... ok
 multiply_nose.test_two ... FAIL
@@ -75,31 +80,31 @@ FAILED (failures=1)
 As you can see **nose**'s output is similar to the one produced by **unittests**. There are two main parts. The one above the equal signs, which gives detailed information on how each test was evaluated.
 
 The one below the equal signs which states the number of test that ran and a final label which can mean:
+
 - `OK` test passes;
 - `FAILED` the test fails and rises `AssertionError`
 - `ERROR` the test fails and doesn't rise `AssertionError`
 
 ---
+
 ## Practice
 
 What will be the test label if an `AssertionError` is thrown?
 
 ???
 
-
-* `FAILED`
-* `ERROR`
-* `OK`
+- `FAILED`
+- `ERROR`
+- `OK`
 
 ---
+
 ## Revision
 
 In terms of basic syntax, `nose` and `pytest` are
 
 ???
 
-
-* similar
-* small differences
-* not at all alike
- 
+- similar
+- small differences
+- not at all alike

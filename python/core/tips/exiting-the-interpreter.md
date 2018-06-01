@@ -26,9 +26,10 @@ links:
 # Exiting the interpreter
 
 ---
+
 ## Content
 
-The interactive interpreter can be closed conventionally using _CTRL-D_. 
+The interactive interpreter can be closed conventionally using _CTRL-D_.
 
 However, this can also be accomplished programmatically:
 
@@ -50,30 +51,31 @@ or
 ```
 
 ---
+
 ## Practice
 
 Fill in the snippet such that it will exit the interpreter:
 
 ```python
-
 import ???
 sys.???
 ```
 
-* sys
-* exit()
-* system
-* close()
-* quit()
+- sys
+- exit()
+- system
+- close()
+- quit()
 
 ---
+
 ## Revision
 
 What is the key stroke for exiting python interpreter (REPL)?
 
 ???
 
-* "CTRL-D"
-* "Esc"
-* "CTRL-E"
-* exit()
+- "CTRL-D"
+- "Esc"
+- "CTRL-E"
+- exit()

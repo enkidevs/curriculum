@@ -14,9 +14,11 @@ standards:
   python.store-manipulate-data.1: 10
 
 ---
+
 # `copy` vs `deepcopy`
 
 ---
+
 ## Content
 
 Extending the example in the previous insight, we could end up in a situation in which we need to copy a mutable type (list, dictionary) and work on the copy, without modifying the initial object.
@@ -31,7 +33,7 @@ print(m)
 # [1, 2]
 ```
 
-Python *3.3* introduced a new list method to achieve a **shallow copy**:
+Python _3.3_ introduced a new list method to achieve a **shallow copy**:
 
 ```python
 m = [1 ]
@@ -106,6 +108,7 @@ k deepcopy: 61.87346560800506
 You can see how, even for a linear list, the required time for **deepcopy** grows exponentially.
 
 ---
+
 ## Practice
 
 What should be the output of the following snippet?
@@ -119,20 +122,20 @@ print(a)
 ???
 ```
 
-* `[1, []]`
-* `[1, 3]`
-* `[1, [3]]`
-* `[1, [], 3]`
+- `[1, []]`
+- `[1, 3]`
+- `[1, [3]]`
+- `[1, [], 3]`
 
 ---
+
 ## Revision
 
 A `deepcopy` means
 
 ???
 
-* making a new copy in memory of every layer of the data structure
-* making a copy in memory of the first layer of the data structure
-* making a copy of the data structure's reference
-* allocating some memory to a data structure
- 
+- making a new copy in memory of every layer of the data structure
+- making a copy in memory of the first layer of the data structure
+- making a copy of the data structure's reference
+- allocating some memory to a data structure

@@ -28,7 +28,7 @@ links:
 # Practice functions
 
 ---
+
 ## Exercise
 
 Practice python `functions`.
- 

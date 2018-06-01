@@ -19,6 +19,7 @@ standards:
 # Using `else` in loops
 
 ---
+
 ## Content
 
 Unlike other programming languages such as C, Python allows the use of `else` statements with loops.
@@ -26,6 +27,7 @@ Unlike other programming languages such as C, Python allows the use of `else` st
 They are implemented so once a `for` or `while` loops condition evaluates to false, the `else` is executed. In other words, the `else` statement is called **once** when loops exit naturally.
 
 For example, an `else` statement integrated into a `while` loop:
+
 ```python
 x = 0
 while (x < 3):
@@ -34,6 +36,7 @@ while (x < 3):
 else:
     print(x, "is too big!")
 ```
+
 Gives the following output:
 
 ```python
@@ -51,7 +54,9 @@ for x in range(0, 5):
 else:
     print(x, "is range's upper limit")
 ```
+
 Gives the following output:
+
 ```python
 0
 1
@@ -62,6 +67,7 @@ Gives the following output:
 ```
 
 If loops exit because of a `break` clause, the `else` clause will be skipped:
+
 ```python
 for i in range(0, 2):
     if i == 1:
@@ -71,15 +77,18 @@ for i in range(0, 2):
 else:
     print("c")
 ```
+
 With the output:
+
 ```python
 a
 ```
 
---- 
+---
+
 ## Practice
 
-Fill in the following snippet such that it will return *"Computation Done"* when the while terminates:
+Fill in the following snippet such that it will return _"Computation Done"_ when the while terminates:
 
 ```python
 x = 0
@@ -90,29 +99,30 @@ while x ??? 3
     ???("Computation Done")
 ```
 
-* <
-* else
-* print
-* >
-* if
-* elif
-
+- <
+- else
+- print
+- >
+- if
+- elif
 
 ---
+
 ## Revision
 
 An `else` statement is used in loops when the loops ??? is evaluated to ???.
 
-
-* condition
-* false
-* null
-* true
-* statement
-* parameter
+- condition
+- false
+- null
+- true
+- statement
+- parameter
 
 ---
-## Quiz 
+
+## Quiz
+
 ### what will the following code snippet print?
 
 ```python
@@ -125,10 +135,9 @@ else:
     print("c")
 ```
 
- ???
+???
 
-* a
-* a a
-* b a
-* a c
- 
+- a
+- a a
+- b a
+- a c

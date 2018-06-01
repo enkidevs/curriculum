@@ -25,9 +25,10 @@ links:
 # The `in` operator
 
 ---
+
 ## Content
 
-Python's `in` operator is a *membership operator* and is used to check whether an object exists inside an iterable object container.
+Python's `in` operator is a _membership operator_ and is used to check whether an object exists inside an iterable object container.
 
 It evaluates to true if it finds the specified variable in the sequence, and false if it doesn't.
 
@@ -42,11 +43,10 @@ if x in nums:
     print('Found!')
 else:
     print('Not found!')
-
-
 ```
 
 ---
+
 ## Practice
 
 Complete the following code snippet such that it checks the existance of `x` in the nums `sequence`:
@@ -61,21 +61,20 @@ else:
     print(???)
 ```
 
-* in
-* True
-* False
-* is
-* find
+- in
+- True
+- False
+- is
+- find
 
 ---
+
 ## Revision
 
 The `in` operator evaluates to ??? if it finds the specified variable in the ???.
 
-
-* true
-* sequence
-* false
-* list
-* map
- 
+- true
+- sequence
+- false
+- list
+- map

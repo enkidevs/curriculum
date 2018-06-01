@@ -34,7 +34,7 @@ links:
 # Python functions exercises
 
 ---
+
 ## Exercise
 
 Make use of `scope` effectively.
- 

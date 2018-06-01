@@ -31,7 +31,7 @@ links:
 # Practice python sequence with fibonacci
 
 ---
+
 ## Exercise
 
 Play with Fibonacci's `sequence` in python.
- 

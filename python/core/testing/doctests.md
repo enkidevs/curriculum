@@ -25,11 +25,13 @@ links:
 # Doctest
 
 ---
+
 ## Content
 
 **Doctest** enable users to test their code by running examples **embedded** in the program comments and verifying that they produce the expected output.
 
-We begin by importing the *doctest* module and defining a function:
+We begin by importing the _doctest_ module and defining a function:
+
 ```python
 # doctest_mock.py
 import doctest
@@ -37,7 +39,9 @@ import doctest
 def multiply(a, b):
     return a * b
 ```
+
 Then, define the tests inside the function's docstring[1]:
+
 ```python
 # doctest_mock.py
 import doctest
@@ -61,16 +65,18 @@ def multiply(a, b):
 
 if __name__ == '__main__':
     doctest.testmod()
-
 ```
 
-Text documentation (`"Test for numbers:"`, `"Test for chars:"`) isn't taken into account by **doctest**. The module looks for lines beginning with the interpreter prompt (`>>>`), which marks the start of a *test case*. Either a blank line or another interpreter prompt end the test case.
+Text documentation (`"Test for numbers:"`, `"Test for chars:"`) isn't taken into account by **doctest**. The module looks for lines beginning with the interpreter prompt (`>>>`), which marks the start of a _test case_. Either a blank line or another interpreter prompt end the test case.
 
-Running **doctests** without any flag won't generate any output if the *tests pass*. If the flag `-v` is passed as an argument, a **detailed log** will be printed:
+Running **doctests** without any flag won't generate any output if the _tests pass_. If the flag `-v` is passed as an argument, a **detailed log** will be printed:
+
 ```bash
 $ python doctest_mock.py -v
 ```
+
 The output:
+
 ```python
 Trying:
     multiply(3, 3)
@@ -97,6 +103,7 @@ Test passed.
 ```
 
 ---
+
 ## Practice
 
 Create a `doctest` for the following methods:
@@ -111,26 +118,27 @@ def sum():
     return ???
 ```
 
-* sum
-* (1 + 1)
-* a + b
-* 1 + 1
-* (a + b)
-
+- sum
+- (1 + 1)
+- a + b
+- 1 + 1
+- (a + b)
 
 ---
+
 ## Revision
 
 How does `doctest` find a new test case in the documentation?
 ???
 
-* It searches for lines that begin with the interpreter prompt (`>>>`).
-* It searches for any strings in the documentation.
-* It knows that tests begin after an empty line.
+- It searches for lines that begin with the interpreter prompt (`>>>`).
+- It searches for any strings in the documentation.
+- It knows that tests begin after an empty line.
 
 ---
+
 ## Footnotes
+
 [1: docstring]
 An object's docstring is defined by including a string constant (documentation) as the first
 statement in the object's definition.
- 

@@ -26,6 +26,7 @@ links:
 # The `map` Built-in Function
 
 ---
+
 ## Content
 
 The `map` function is built in to the Python language. Together with the other built-in functions `filter` and `reduce`, `map` allows us to take a functional approach to programming in Python.
@@ -53,16 +54,17 @@ scores = [1, 0, 4, 5]
 newscores = list(map(lambda x: x+2, scores))
 ```
 
-Notice we use the `list` built-in function here, which takes any iterable argument and returns a list of items in the same order. Since we pass `map` to `list`, and `map` already returns a list, `list` creates a copy of this list and returns that. Notice also our use of a *lambda function* which takes any number and adds 2 to it.
+Notice we use the `list` built-in function here, which takes any iterable argument and returns a list of items in the same order. Since we pass `map` to `list`, and `map` already returns a list, `list` creates a copy of this list and returns that. Notice also our use of a _lambda function_ which takes any number and adds 2 to it.
 
 Finally, it's good to know that we can pass more than one iterable `input_list` to `map` at once, and&mdash;if the function can take as many arguments at once as there are `input_list`s&mdash;the function is applied to the items from all inputs in parallel. If one input is shorter than the other, it is assumed to be extended to the same length with `None` items. Alternatively, if the function is `None`, then the identity function is assumed.
 
-*Remember, in functional programming, functions can take functions. So, instead of a list of data, `map` may take a list of functions, and output a list of new functions. This gives a sense of how versatile and useful the `map` function can be.*
+_Remember, in functional programming, functions can take functions. So, instead of a list of data, `map` may take a list of functions, and output a list of new functions. This gives a sense of how versatile and useful the `map` function can be._
 
 ---
+
 ## Practice
 
-Let's say we have a list, called `promises`. We want to `make_good` on all our promises, where `make_good` is a previously-defined function that takes a string. Fill in the blanks in the code below to apply `make_good` to all elements in `promises`.  
+Let's say we have a list, called `promises`. We want to `make_good` on all our promises, where `make_good` is a previously-defined function that takes a string. Fill in the blanks in the code below to apply `make_good` to all elements in `promises`.
 
 ```python
 promises = ['learn css', 'learn js',
@@ -70,16 +72,16 @@ promises = ['learn css', 'learn js',
 promises = ???(???, ???)
 ```
 
-
-* `map`
-* `make_good`
-* `promises`
-* lambda x: x*2
-* list
-* reduce
-* filter
+- `map`
+- `make_good`
+- `promises`
+- lambda x: x\*2
+- list
+- reduce
+- filter
 
 ---
+
 ## Revision
 
 We are using the map function on two lists of integers at the same time. What is the output from the following code snippet?
@@ -94,14 +96,15 @@ print(newscores)
 
 ???
 
-
-* [2, 1, 5, 6]
-* [6, 5, 1, 2]
-* [1, 0, 4, 5, 1, 1, 1, 1]
-* [1, 1, 1, 1, 1, 0, 4, 5]
+- [2, 1, 5, 6]
+- [6, 5, 1, 2]
+- [1, 0, 4, 5, 1, 1, 1, 1]
+- [1, 1, 1, 1, 1, 0, 4, 5]
 
 ---
+
 ## Footnotes
+
 [1:input_list]
 As long as our `input_list` argument given to `map` is of type `iterable`, `map` should work. To check this you can use duck typing or type checking of Abstract Base Classes (ABCs)
 
@@ -111,4 +114,4 @@ Imperative programming, as opposed to declarative programming (of which function
 An easy rule of thumb is that imperative programming specifies **how** (what steps are taken during execution) a program should operate. This is in contrast to declarative languages which focus on **what** is to be computed instead.
 
 [3:Functional Programming]
-As explained in the above footnote, functional programming is a type of declarative language, which focus on **what** is to be computed. Functional programming eschews the idea of state from imperative programming and instead reduces a program down into functions applied on immutable data (data that cannot be directly modified). Notice how in the code example, we use `map` to apply our lambda function to each element in the list, but the items in the original list itself are **not** modified. We take each output from the lambda function and create a new copy of the original list with our new answers. This is the essence of *immutability*, one of the most important concepts of functional languages.
+As explained in the above footnote, functional programming is a type of declarative language, which focus on **what** is to be computed. Functional programming eschews the idea of state from imperative programming and instead reduces a program down into functions applied on immutable data (data that cannot be directly modified). Notice how in the code example, we use `map` to apply our lambda function to each element in the list, but the items in the original list itself are **not** modified. We take each output from the lambda function and create a new copy of the original list with our new answers. This is the essence of _immutability_, one of the most important concepts of functional languages.

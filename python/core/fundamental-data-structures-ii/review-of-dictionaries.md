@@ -24,21 +24,24 @@ links:
 # Review of dictionaries
 
 ---
+
 ## Content
 
-Dictionaries are used to store data that is related in a way or another. What makes them different from other data types is that they provide a way to map *keys* ( such as an ID ) to *values* ( such as some information associated with that specific ID ).
+Dictionaries are used to store data that is related in a way or another. What makes them different from other data types is that they provide a way to map _keys_ ( such as an ID ) to _values_ ( such as some information associated with that specific ID ).
 
-We are not allowed to have two identical *keys* in the same dictionary  and they must be of an **immutable data type** ( such as: *strings*, *numbers* or *tuples* ), but you can map the same *values* to different keys.
+We are not allowed to have two identical _keys_ in the same dictionary and they must be of an **immutable data type** ( such as: _strings_, _numbers_ or _tuples_ ), but you can map the same _values_ to different keys.
 
 Consider the following dictionary:
+
 ```
 weather = {'London': 23, 'Barcelona': 28,
            'Bucharest': 35}
 ```
 
-A dictionary is represented by a series of tuples ( key: value ) wrapped in curly braces ( {} ). Another property worth mentioning at this stage is that dictionaries are *unordered data types*, meaning that the order in which tuples are stored and displayed is arbitrary.
+A dictionary is represented by a series of tuples ( key: value ) wrapped in curly braces ( {} ). Another property worth mentioning at this stage is that dictionaries are _unordered data types_, meaning that the order in which tuples are stored and displayed is arbitrary.
 
 Being an unordered data type, makes it impossible for elements to be accessed via some index. However, we can retrieve any stored value by referencing the related key:
+
 ```
 print(weather['Barcelona'])
 
@@ -46,8 +49,8 @@ print(weather['Barcelona'])
 ```
 
 Another way of accessing elements in a dictionary is using one of the following built-in functions:
-```python
 
+```python
 # 1. dict.keys()
 print(weather.keys())
 # dict.keys(['London', 'Barcelona',
@@ -65,8 +68,8 @@ print(weather.items())'
 ```
 
 We can update a dictionary by updating an existing entry, adding a new entry or deleting an existing one:
-```python
 
+```python
 # Updating an existing entry:
 weather['London'] = 30
 print(weather['London'])
@@ -88,6 +91,7 @@ del weather
 ```
 
 ---
+
 ## Practice
 
 Fill in the gaps such as the commented states of the `weather` dictionary stand true:
@@ -104,25 +108,25 @@ print(weather)
 
 print(weather)
 # {'barcelona': 23}
-
 ```
 
-
-* `{}`
-* `weather`
-* `'bucharest'`
-* `del`
-* `weather()`
-* `clear`
-* `add`
-* `'barcelona'`
-* `weather['bucharest']`
-* `del weather`
+- `{}`
+- `weather`
+- `'bucharest'`
+- `del`
+- `weather()`
+- `clear`
+- `add`
+- `'barcelona'`
+- `weather['bucharest']`
+- `del weather`
 
 ---
+
 ## Revision
 
 What output will the following snippet generate:
+
 ```
 marks = {'John': 8, 'Steve': 9.3,
          'Amy': 9.8}
@@ -133,11 +137,10 @@ marks['Amber'] = 10
 
 print(marks.keys())
 ```
+
 ???
 
-
-* dict_keys(['Amber', 'David'])
-* dict_keys(['David', 'Amber', 'Steve', 'John', 'Amy'])
-* dict_keys(['Steve', 'John', 'Amy'])
-* dict_keys(['Amber', 'David', 'John'])
- 
+- dict_keys(['Amber', 'David'])
+- dict_keys(['David', 'Amber', 'Steve', 'John', 'Amy'])
+- dict_keys(['Steve', 'John', 'Amy'])
+- dict_keys(['Amber', 'David', 'John'])

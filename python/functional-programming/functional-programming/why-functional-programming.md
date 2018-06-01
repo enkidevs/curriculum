@@ -25,6 +25,7 @@ links:
 # Why Functional Programming?
 
 ---
+
 ## Content
 
 In this insight, we'll go a little deeper into the concept of functional programming by analyzing the benefits and drawbacks it can provide. Most of these points are applicable to functional programming in general and not specifically to functional programming within Python.
@@ -33,13 +34,13 @@ In order to get the full picture of what it means to program in a functional way
 
 ### Pure Functions
 
-One sure-fire way of making your programs more easy to reason about (and to avoid bugs) is to follow the **KISS** approach. (*Keep It Simple, Stupid*) Using only pure functions is a way of ensuring you follow this mantra.
+One sure-fire way of making your programs more easy to reason about (and to avoid bugs) is to follow the **KISS** approach. (_Keep It Simple, Stupid_) Using only pure functions is a way of ensuring you follow this mantra.
 
 Pure functions are functions which abide by a strict set of three rules:
 
- - **Given the same input, they will always return the same output.** (They will never return something different for the same input based on something else, such as the time or the weather or how it feels on that day).
- - **They produce no side effects.** (They will not change some other external object (a state object), the change can only be in the new returned value).
- - **They rely on no external mutable state.** (They are standalone units which work entirely independently of any external state. This is linked to the first point).
+- **Given the same input, they will always return the same output.** (They will never return something different for the same input based on something else, such as the time or the weather or how it feels on that day).
+- **They produce no side effects.** (They will not change some other external object (a state object), the change can only be in the new returned value).
+- **They rely on no external mutable state.** (They are standalone units which work entirely independently of any external state. This is linked to the first point).
 
 ### Eschewing Shared State
 
@@ -49,7 +50,7 @@ Why? While this approach will work, issues will eventually arise without great c
 
 ### Using Immutable Data
 
-As you might remember from the insights on *immutability*, there are a number of advantages to using immutable data instead of mutable state objects.
+As you might remember from the insights on _immutability_, there are a number of advantages to using immutable data instead of mutable state objects.
 
 To recap: an **immutable** object is an object which cannot be modified after its creation. In order to make changes to state using immutable obejcts, a new copy of the state object needs to be created, with the desired modifications added at the time of the creation of the copy.
 
@@ -66,35 +67,37 @@ Common side effects found in OOP-style software include seemingly-innocuous acti
 Removing side effects (or at least minimizing them) makes our program easier to understand for debugging or just to spot design inefficiencies.
 
 ---
+
 ## Practice
 
 Which of the below is a main concept of functional programming?
 
 ???
 
-
-* Using pure functions
-* Using mutable data
-* Using lambda functions
-* Avoiding explicit dependencies
+- Using pure functions
+- Using mutable data
+- Using lambda functions
+- Avoiding explicit dependencies
 
 ---
+
 ## Revision
 
 Which of the following statements about pure functions is true?
 
 ???
 
-
-* Given the same input, they will always return the same output
-* They are easier to code than normal functions
-* They can use system calls
-* They are faster
+- Given the same input, they will always return the same output
+- They are easier to code than normal functions
+- They can use system calls
+- They are faster
 
 ---
+
 ## Footnotes
+
 [1:Designing away Bugs]
 For example, a shopping website might have a "basket" object which is passed as a parameter to various scopes. The objects within that basket and the data about which user the basket belongs to would be mutated by various sections of code in these different scopes. If there was some temporal dependency between functions being called on the basket, altering or removing one function may accidentally (and not obviously) ripple out and break other functionality. Withtout shared state, you can ensure an entire class of bugs cannot manifest in our program.
 
 [2:Side Effects & Pure Functions]
-Purely-functional languages such as Haskell often encapsulate and isolate these kinds of side effects from pure functions using *monads*, which are another long topic too complex to be covered in this insight. In this case you can see a slight shortcoming in the functional programming paradigm in that a *real* purely-functional program shouldn't be able to do many of the things modern programs do, as many of those actions technically count as side effects. Functional frameworks need to provide ways to do these things for utility but they technically break compliance with pure functional style.
+Purely-functional languages such as Haskell often encapsulate and isolate these kinds of side effects from pure functions using _monads_, which are another long topic too complex to be covered in this insight. In this case you can see a slight shortcoming in the functional programming paradigm in that a _real_ purely-functional program shouldn't be able to do many of the things modern programs do, as many of those actions technically count as side effects. Functional frameworks need to provide ways to do these things for utility but they technically break compliance with pure functional style.

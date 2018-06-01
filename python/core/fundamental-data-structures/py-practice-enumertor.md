@@ -30,7 +30,7 @@ links:
 # Practice python enumerator type
 
 ---
+
 ## Exercise
 
 Practice using python's `enumerator` and `set` data types.
- 

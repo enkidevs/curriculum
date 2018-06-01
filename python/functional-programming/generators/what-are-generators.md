@@ -29,15 +29,17 @@ notes: >-
 # What are generators
 
 ---
+
 ## Content
 
-Generators are special **functions** that implement or generate **iterators**. 
+Generators are special **functions** that implement or generate **iterators**.
 
 Generators look like normal functions, but instead of the **return statement** they make use of the **yield statement**.
 
 The `yield` statement tells the interpreter to store local variables and record the current position in the generator, so when another call is made to the generator, it **will resume from that saved location** and with the previous values of local variables intact.
 
 Consider this generator:
+
 ```python
 def test_generator():
     yield 1
@@ -45,9 +47,10 @@ def test_generator():
     yield 3
 
 g = test_generator()
-
 ```
+
 We can now iterate over `g` using the `next()` function:
+
 ```python
 print(next(g)) # 1
 print(next(g)) # 2
@@ -56,15 +59,14 @@ print(next(g)) # StopIteration error
 ```
 
 ---
+
 ## Revision
 
 What statement is specific to generators instead of `return` ?
 
 ???
 
-
-* `yield`
-* `for`
-* `await`
-* `return`
-
+- `yield`
+- `for`
+- `await`
+- `return`

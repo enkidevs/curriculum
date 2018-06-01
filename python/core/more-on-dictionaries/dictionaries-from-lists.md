@@ -22,11 +22,13 @@ links:
 # Convert lists to dictionaries
 
 ---
+
 ## Content
 
 Usually, two lists can be converted into a **dictionary**.
 
 Let's consider two lists:
+
 - one containing some names
 - the other one containing each ones occupation
 
@@ -75,9 +77,11 @@ print(dict(list(names_jobs)))
 ```
 
 ---
+
 ## Practice
 
 Suppose we have the following lists. We want to know the temperature in UK. Fill the gaps accordingly:
+
 ```
 countries = ['USA','UK','SP']
 temp = ['28','29','30']
@@ -89,27 +93,26 @@ new.pop('SP')
 
 print(new)
 # {'UK': '29'}
-
 ```
 
-
-
-* `dict`
-* `zip`
-* `pop`
-* `push`
-* `popitem`
-* `fromkeys`
-* `ip`
-* `list`
-* `list()`
-* `dict()`
-* `pop()`
+- `dict`
+- `zip`
+- `pop`
+- `push`
+- `popitem`
+- `fromkeys`
+- `ip`
+- `list`
+- `list()`
+- `dict()`
+- `pop()`
 
 ---
+
 ## Revision
 
 Convert the given two lists to a dictionary where `A` will contain the keys and `B` will give the values of the dictionary:
+
 ```
 A = ['USA','UK','SP']
 B = ['28','29','30']
@@ -120,13 +123,11 @@ print(C)
 # {'USA': '28', 'UK': '29', 'SP': '30'}
 ```
 
-
-* `dict`
-* `zip`
-* `A`
-* `B`
-* `C`
-* `pop`
-* `clear`
-* `list`
- 
+- `dict`
+- `zip`
+- `A`
+- `B`
+- `C`
+- `pop`
+- `clear`
+- `list`

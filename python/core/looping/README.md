@@ -1,17 +1,19 @@
 name: Looping
 
-description: How to loop  
+description: How to loop
 
 insights:
-  - for-loops
-  - while-loops
-  - break-and-continue-statements
-  - using-else-in-loops
-  - nested-loops
-  - looping-techniques
+
+- for-loops
+- while-loops
+- break-and-continue-statements
+- using-else-in-loops
+- nested-loops
+- looping-techniques
 
 exercises:
-  - py-practice-loops
-  - py-practice-iterable
-  - py-practice-iterable2
-  - py-practice-next-iter
+
+- py-practice-loops
+- py-practice-iterable
+- py-practice-iterable2
+- py-practice-next-iter

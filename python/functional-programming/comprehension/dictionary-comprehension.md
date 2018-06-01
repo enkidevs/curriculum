@@ -28,24 +28,27 @@ notes: >
 # Dictionary comprehension
 
 ---
+
 ## Content
 
 Python provides a way of creating dictionaries using **dictionary comprehensions**.
 
 The syntax is similar to the one used for **set comprehension** - using curly braces (`{}`), but the user must define an expression for both the key and the value.
 
-
 Take the list:
+
 ```python
 num_list = [1, 2, 3, 4, 5]
 ```
+
 To get a dict with its keys equal to the numbers in the list, and the corresponding values being the cubes of the keys:
+
 ```python
 cube_dict = {x: x ** 3 for x in num_list}
-
 ```
 
 Now if we print cube_dict, we get:
+
 ```python
 for k, v in cube_dict.items():
     print(k, v)
@@ -58,7 +61,6 @@ for k, v in cube_dict.items():
 ```
 
 If we want to initialize the counters to zero in a dict to count frequencies of lower case letters in some input:
-
 
 ```python
 lcase_freqs = { chr(c): 0 \
@@ -81,6 +83,4 @@ print(lfk)
 'm', 'n', 'o', 'p','q', 'r', \
 's', 't', 'u', 'v', 'w', 'x', \
 'y', 'z']
-
 ```
-

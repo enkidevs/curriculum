@@ -16,9 +16,11 @@ type: tetris
 category: must-know
 
 ---
+
 # Guess the mutant
 
 ---
+
 ## Content
 
 Objects which values can change are considered **mutable** objects. This property is really important and quite deterministic when talking performance.
@@ -26,9 +28,11 @@ Objects which values can change are considered **mutable** objects. This propert
 Can you guess which of the following types are immutable and which are not?
 
 ---
+
 ## Game Content
 
 immutable:mutable
+
 ```false
 int
 %exp

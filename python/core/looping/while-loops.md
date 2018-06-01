@@ -21,9 +21,10 @@ standards:
 # `while` loops
 
 ---
+
 ## Content
 
-Python's `while` loops repeatedly loop and execute some code *whilst* a boolean statements evaluates to true.
+Python's `while` loops repeatedly loop and execute some code _whilst_ a boolean statements evaluates to true.
 
 The standard `while` loop syntax is:
 
@@ -32,7 +33,7 @@ while condition:
     doSomething()
 ```
 
-Whilst the condition evaluates to *true*, the code inside the loop is executed, as soon as the condition evaluates to *false* the loop is exited and the code immediately following the loop is executed.
+Whilst the condition evaluates to _true_, the code inside the loop is executed, as soon as the condition evaluates to _false_ the loop is exited and the code immediately following the loop is executed.
 
 For example:
 
@@ -42,6 +43,7 @@ while counter < 5:
     print(counter)
     counter = counter + 1
 ```
+
 Gives the following output:
 
 ```python
@@ -53,9 +55,11 @@ Gives the following output:
 ```
 
 ---
+
 ## Practice
 
-Print the  all numbers in 0..10 _inclusive_:
+Print the all numbers in 0..10 _inclusive_:
+
 ```python
 x = 0
 while x < ???:
@@ -63,13 +67,14 @@ while x < ???:
   ???
 ```
 
-* 11
-* print(x)
-* x += 1
-* x++
-* ++x
+- 11
+- print(x)
+- x += 1
+- x++
+- ++x
 
 ---
+
 ## Revision
 
 What’s the output of the following code snippet:
@@ -80,11 +85,10 @@ while x < 5:
      x = x + 1
      print(x)
 ```
+
 ???
 
-
-* `1 2 3 4 5`
-* `0 1 2 3 4`
-* `1 2 3 4`
-* `0 1 2 3 4 5`
- 
+- `1 2 3 4 5`
+- `0 1 2 3 4`
+- `1 2 3 4`
+- `0 1 2 3 4 5`

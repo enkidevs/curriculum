@@ -24,11 +24,13 @@ category: tip
 # Simple way of swapping variables
 
 ---
+
 ## Content
 
-In most languages, swapping two variables requires a third variable or  arithmetic manipulations.
+In most languages, swapping two variables requires a third variable or arithmetic manipulations.
 
 But in Python you can use tuple assignment:
+
 ```
 >>> a, b = 1, 2
 >>> a, b = b, a
@@ -37,9 +39,11 @@ But in Python you can use tuple assignment:
 ```
 
 ---
+
 ## Practice
 
 Complete the following snippet such that the variables are swapped, using tuple assignment:
+
 ```
 >>> d, e = 3, 4
 >>> d, e  = ???, ???
@@ -47,17 +51,18 @@ Complete the following snippet such that the variables are swapped, using tuple 
 (4, 3)
 ```
 
-
-* `e`
-* `d`
-* `swap`
-* `switch`
-* `a`
+- `e`
+- `d`
+- `swap`
+- `switch`
+- `a`
 
 ---
+
 ## Revision
 
 What is the output of the following snippet?
+
 ```
 >>>  x, y = 5, 4
 >>>  x, y = y, x
@@ -65,8 +70,6 @@ What is the output of the following snippet?
 ???
 ```
 
-
-* `4, 5`
-* `5, 4`
-* `error`
- 
+- `4, 5`
+- `5, 4`
+- `error`

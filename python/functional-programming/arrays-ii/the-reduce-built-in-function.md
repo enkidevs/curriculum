@@ -22,13 +22,14 @@ links:
 # The `reduce` Built-in Function
 
 ---
+
 ## Content
 
 The `reduce` built-in allows us to apply a function sequentially to all items in a given list, but is different from `map` in that it applies the given function cumulatively.
 
 'Cumulatively' means it takes a two-argument (binary) function and an iterable sequence and applies the function to the first and second elements in iterable. Once this is done, the result obtained will then be used as the first argument to the function and the third element will be the second argument. This result is then, again, the first argument with the fourth element as the second argument, et cetera.
 
-This continues until no elements are left in the iterable list and all elements in the list have effectively been *reduced* into a single value.
+This continues until no elements are left in the iterable list and all elements in the list have effectively been _reduced_ into a single value.
 
 For example, consider using `reduce` with a simple lambda function which adds the two arguments given together: `lambda x, y: x+y`
 
@@ -42,7 +43,7 @@ then,
 
 would effectively calculate:
 
-`((((5 + 2) + 8) + 3) + 9) `
+`((((5 + 2) + 8) + 3) + 9)`
 
 The general syntax for the `reduce` function is of the form:
 
@@ -55,6 +56,7 @@ where `function` is the binary function to be applied to all of the elements in 
 The functionality afforded by `reduce` can be replicated with a for loop, but the for loop implementation generally tends to be less legible and sometimes slightly slower.[1]
 
 ---
+
 ## Practice
 
 The binary function supplied to `reduce` does not have to be a numerical operation. Let's say we've defined a custom class, `Storage` which describes a storage device, with an integer for its size in gigabytes and a string for its filesystem, such as NTFS, FAT32 or APFS.
@@ -91,19 +93,19 @@ collection.add(drive1, drive2,
 print(???(???, ???))
 ```
 
-
-* `int(totalStorage)`
-* `storage.size`
-* `reduce`
-* `totalUsableSpace`
-* `collection`
-* `drive1`
-* `collection`
-* `Storage.size`
-* `map`
-* `totalStorage`
+- `int(totalStorage)`
+- `storage.size`
+- `reduce`
+- `totalUsableSpace`
+- `collection`
+- `drive1`
+- `collection`
+- `Storage.size`
+- `map`
+- `totalStorage`
 
 ---
+
 ## Revision
 
 What is calculated as a result of the following code execution?
@@ -112,15 +114,17 @@ What is calculated as a result of the following code execution?
 numbers = [100, 2, 2, 5]
 print(reduce(lambda x, y: x / y, numbers))
 ```
+
 ???
 
-
-* `(((100 / 2) / 2) / 5) = 5.0`
-* `(((100 / 2) / 2) / 5) = 5`
-* `(100 / 2 / 2 / 5) = 5.0`
-* `2`
+- `(((100 / 2) / 2) / 5) = 5.0`
+- `(((100 / 2) / 2) / 5) = 5`
+- `(100 / 2 / 2 / 5) = 5.0`
+- `2`
 
 ---
+
 ## Footnotes
+
 [1:Functional Programming]
-*The style of programming that eschews imperative loops such as for loops is called functional programming. For more information about functional programming and Python, see the related workout, since the topic is too broad to cover in one lesson.*
+_The style of programming that eschews imperative loops such as for loops is called functional programming. For more information about functional programming and Python, see the related workout, since the topic is too broad to cover in one lesson._

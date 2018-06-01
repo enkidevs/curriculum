@@ -28,7 +28,7 @@ links:
 # Practice python modules
 
 ---
+
 ## Exercise
 
 Practice using python modules.
- 

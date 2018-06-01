@@ -22,6 +22,7 @@ links:
 # Dictionary methods
 
 ---
+
 ## Content
 
 Consider the following dictionary:
@@ -115,30 +116,34 @@ print(dict)
 ```
 
 ---
+
 ## Practice
 
 Suppose we want to create a dictionary having the following keys starting from `1` up to `5` and value `0` assigned to all items. Fill the gaps accordingly:
+
 ```
 new = ???.???(
   [1, 2, 3, 4, 5], ???)
 ```
+
 ???
 
-
-* `{}`
-* `fromkeys`
-* `0`
-* `dict`
-* `1`
-* `fromKeys`
-* `values`
-* `popitem`
-* `clear`
+- `{}`
+- `fromkeys`
+- `0`
+- `dict`
+- `1`
+- `fromKeys`
+- `values`
+- `popitem`
+- `clear`
 
 ---
+
 ## Revision
 
 Consider the following scenario:
+
 ```
 my_dict = {1:1, 2:4, 3:9, 4:16, 5:25}
 
@@ -147,17 +152,19 @@ new_dict.popitem()
 
 print(my_dict)
 ```
+
 What will the output look like?
 ???
 
-
-* {1:1, 2:4, 3:9, 4:16, 5:25}
-* {1:1, 2:4, 3:9, 4:16}
-* {2:4, 3:9, 4:16, 5:25}
+- {1:1, 2:4, 3:9, 4:16, 5:25}
+- {1:1, 2:4, 3:9, 4:16}
+- {2:4, 3:9, 4:16, 5:25}
 
 ---
+
 ## Footnotes
+
 [1:shallow copy]
 If we have two objects: `A` and `B`. We say `B` is a shallow copy of `A` if they point to the same location in memory.
->>>>>>> master
- 
+
+> > > > > > > master

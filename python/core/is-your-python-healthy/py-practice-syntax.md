@@ -28,7 +28,7 @@ links:
 # Practice python syntax
 
 ---
+
 ## Exercise
 
 Practice python syntax `validity`.
- 

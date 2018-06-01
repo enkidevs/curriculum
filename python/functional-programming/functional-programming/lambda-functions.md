@@ -19,6 +19,7 @@ inAlgoPool: false
 # `Lambda` Functions
 
 ---
+
 ## Content
 
 Python has two tools for building functions, `def` and `lambda`.
@@ -51,6 +52,7 @@ In this case, we are passing the lambda function `x % 3 == 0` to `filter()` to b
 Note: Lambda should only be used when a function will be used in one location in your code, and won't be used again after that. In all other cases, it is better to use `def` to avoid unnecessary confusion.
 
 ---
+
 ## Revision
 
 Complete the bottom code snippet to define the following function but with lambda:
@@ -59,17 +61,17 @@ Complete the bottom code snippet to define the following function but with lambd
 def square(x):
     return x * x
 ```
+
 With lambda:
+
 ```python
 square = ??? ???: x * x
 ```
 
-
-* `lambda`
-* `x`
-* `def`
-* `new`
-* `instance`
-* `function`
-lamb
-
+- `lambda`
+- `x`
+- `def`
+- `new`
+- `instance`
+- `function`
+  lamb

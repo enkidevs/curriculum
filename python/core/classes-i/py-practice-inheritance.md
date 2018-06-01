@@ -28,7 +28,7 @@ links:
 # Practice using classes
 
 ---
+
 ## Exercise
 
 Practice using classes in python.
- 

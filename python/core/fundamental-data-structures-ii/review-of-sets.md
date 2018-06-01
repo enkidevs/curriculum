@@ -22,25 +22,30 @@ links:
 # Review of Sets
 
 ---
+
 ## Content
 
-**Sets** can be used to carry out **mathematical** set operations like:  
+**Sets** can be used to carry out **mathematical** set operations like:
+
 - union
 - intersection
 - difference
 - symmetric difference
 
 Consider the following two sets:
+
 ```
 x = {1,2,3,4,5}
 y = {3,5,4,8,9}
 ```
 
-The **Union** of these results in a set containing *all elements* from both sets. There are two ways to calculate the union of two sets:
+The **Union** of these results in a set containing _all elements_ from both sets. There are two ways to calculate the union of two sets:
+
 - using `|` operator
 - using `union()` method
 
 Consider the following example:
+
 ```
 print(x | y, '\n')
 print(x.union(y), '\n')
@@ -53,11 +58,13 @@ print(y.union(x))
 # {1,2,3,4,5,8,9}
 ```
 
-We define **Intersection** of two sets, as a resulting set that contains only elements that are *in both sets*. Intersection is performed using:
+We define **Intersection** of two sets, as a resulting set that contains only elements that are _in both sets_. Intersection is performed using:
+
 - the `&` operator
 - the `intersection()` method
 
 Consider the following example:
+
 ```
 print(x & y, '\n')
 print(x.intersection(y), '\n')
@@ -69,11 +76,13 @@ print(y.intersection(x))
 # {3,4,5}
 ```
 
-**Difference** of `x` and `y` (`x- y`), is the set of elements that are *only in `x` and not in `y`*. Difference is performed using:
+**Difference** of `x` and `y` (`x- y`), is the set of elements that are _only in `x` and not in `y`_. Difference is performed using:
+
 - `-` operator
 - `difference()` method
 
 Consider the following example:
+
 ```
 print(x - y, '\n')
 print(y.difference(x))
@@ -83,12 +92,14 @@ print(y.difference(x))
 # {8,9}
 ```
 
-**Symmetric difference** of `x` and `y` means all elements that are either in `x` or `y` but *not in both*.
+**Symmetric difference** of `x` and `y` means all elements that are either in `x` or `y` but _not in both_.
 Symmetric difference is performed using:
+
 - `^` operator
 - `symmetric_difference()` method
 
 Consider the following example:
+
 ```
 print(x ^ y, '\n')
 print(y.symmetric_difference(x))
@@ -99,26 +110,25 @@ print(y.symmetric_difference(x))
 ```
 
 ---
+
 ## Practice
 
 Is there any difference between the outputs of `x & y` and `y & x`?
 
 ???
 
-
-* No
-* Yes
-* Depending on the sets
+- No
+- Yes
+- Depending on the sets
 
 ---
+
 ## Revision
 
 Which operation is performed using `^` operator?
 
 ???
 
-
-* `symmetric difference`
-* `difference`
-* `union`
- 
+- `symmetric difference`
+- `difference`
+- `union`

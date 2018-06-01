@@ -30,20 +30,23 @@ standards:
 # Regular expressions
 
 ---
+
 ## Content
 
 **Regular expressions** (re) are everywhere in programming. These text matching patterns are also available in Python via the `re` module.
 
 Import the module:
+
 ```python
 import re
 ```
 
-Regular expressions make use of **special characters** that stand either for classes of normal chars or affect the interpretation of the *RE*.
+Regular expressions make use of **special characters** that stand either for classes of normal chars or affect the interpretation of the _RE_.
 
-For example the `ab?` re will match either `a`  or ` ab` while `ab*` will match `a`, `ab` or `a` followed by any numbers of `b`s.
+For example the `ab?` re will match either `a` or `ab` while `ab*` will match `a`, `ab` or `a` followed by any numbers of `b`s.
 
 The most common use of the `re` module is to search texts for specified patterns.
+
 ```python
 text = 'Enki is cool'
 if re.search('Enki', text):
@@ -52,6 +55,7 @@ if re.search('Enki', text):
 ```
 
 To find start and end indexes of your match:
+
 ```python
 text = 'Enki is cool'
 match = re.search('Enki', text)
@@ -62,6 +66,7 @@ print(match.end())
 ```
 
 ---
+
 ## Practice
 
 Search the given text for the `abc` pattern:
@@ -73,25 +78,24 @@ if ???.???(‘abc’, text)
    print(‘found’)
 ```
 
-* `re`
-* `search`
-* `pattern`
-* `match`
-* `find`
-* `regex`
-* `reg`
+- `re`
+- `search`
+- `pattern`
+- `match`
+- `find`
+- `regex`
+- `reg`
 
 ---
+
 ## Revision
 
 Which Python module provides text matching patterns using regular expressions?
 
 ???
 
-
-* `re`
-* `reg`
-* `regex`
-* `matchpat`
-* `RegEx`
- 
+- `re`
+- `reg`
+- `regex`
+- `matchpat`
+- `RegEx`

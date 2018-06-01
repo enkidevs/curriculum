@@ -28,7 +28,7 @@ links:
 # Practice loops
 
 ---
+
 ## Exercise
 
 Iterate without a `loop` in python.
- 

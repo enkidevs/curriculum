@@ -28,6 +28,7 @@ links:
 # Practice using binary data
 
 ---
+
 ## Exercise
 
 Practice using binary data in python.

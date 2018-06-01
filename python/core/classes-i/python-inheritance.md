@@ -17,15 +17,16 @@ standards:
 
 # Inheritance
 
-
 ---
+
 ## Content
 
 Inheritance in Python allows you to define a class which is based on another existing class.
 
-The new class *inherits* all the methods and attributes from the *parent* class, and also allows extra methods to be defined.
+The new class _inherits_ all the methods and attributes from the _parent_ class, and also allows extra methods to be defined.
 
 Consider the following class:
+
 ```python
 class Shape:
   def __init__(self, x, y):
@@ -35,7 +36,9 @@ class Shape:
   def getArea(self):
     return self.x * self.y
 ```
+
 To inherit the `Shape` class into the class `Square`, pass `Shape` as a parameter to `Square` like follows:
+
 ```python
 class Square(Shape):
   def __init__(self, x):
@@ -45,7 +48,9 @@ class Square(Shape):
   def getPerimeter(self):
     return self.x * 4
 ```
+
 We can now create new methods, as well as use old ones:
+
 ```python
 sq = Square(3)
 print(sq.getPerimeter())
@@ -55,6 +60,7 @@ print(sq.getArea())
 ```
 
 To check the inheritance:
+
 ```python
 print(isinstance(sq, Square))
 # True
@@ -64,26 +70,25 @@ print(issubclass(Square, Shape))
 # True
 ```
 
-
-
-
 ---
+
 ## Practice
 
-The concept of *inheritance* refers to a child class receiving parent's class
+The concept of _inheritance_ refers to a child class receiving parent's class
 
 ???
 
-
-* attributes and methods
-* class name and attributes
-* methods
-* attributes
+- attributes and methods
+- class name and attributes
+- methods
+- attributes
 
 ---
+
 ## Revision
 
 Pick the right class inheritance syntax:
+
 ```python
 class Person:
   ...
@@ -97,19 +102,21 @@ class Employee = Person:
 class Employee(Person):
   ...
 ```
+
 ???
 
-* C
-* A
-* B
-* none
+- C
+- A
+- B
+- none
 
 ---
+
 ## Quiz
 
-### Do you know how inheritance affects variables defined in the parent class? 
+### Do you know how inheritance affects variables defined in the parent class?
 
-Square is a child class of the Shape class. What is the output from the following code snippet? 
+Square is a child class of the Shape class. What is the output from the following code snippet?
 
 ```
 class Shape:
@@ -132,6 +139,5 @@ print(sq.color)
 
 - square AttributeError: Square instance has no attribute 'color'
 - square red
-- AttributeError: 'super' object has no attribute '__getattr__'
-- AttributeError: 'super' object has no attribute '__setattr__'
- 
+- AttributeError: 'super' object has no attribute '**getattr**'
+- AttributeError: 'super' object has no attribute '**setattr**'

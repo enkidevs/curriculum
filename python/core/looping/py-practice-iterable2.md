@@ -27,7 +27,7 @@ links:
 # Practice iterables 2
 
 ---
+
 ## Exercise
 
 Practice `iterables` in python.
- 

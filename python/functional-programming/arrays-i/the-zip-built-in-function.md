@@ -25,13 +25,14 @@ links:
 # The `zip` Built-in Function
 
 ---
+
 ## Content
 
 The `zip` built-in allows us to create tuples from multiple iterable collections of objects. Tuples are finite ordered lists of n elements, which is referred to as an n-tuple. In Python, tuples are represented with rounded brackets, such as: `('hello', 'good day', 'good morning')` which is a 3-tuple of greetings.
 
 If we pass three lists into a `zip` function, it returns an iterator of tuples. If our three lists have 10 elements each, then the tuples returned by the iterator are 3-tuples, where the first tuple returned contains the first element of each input list. The second returned contains the second element of each input list, etc.
 
-*If one of our lists is shorter than the other, then the iterator only has as many tuples as the shortest list, and will not continue further.[1]* If no parameters are passed, then an empty iterator is returned.
+_If one of our lists is shorter than the other, then the iterator only has as many tuples as the shortest list, and will not continue further.[1]_ If no parameters are passed, then an empty iterator is returned.
 
 The syntax of `zip` is of the form:
 
@@ -83,14 +84,12 @@ print(z)
 ```
 
 ---
+
 ## Practice
 
 We have three lists, `fnames`, `lnames`, `locations`, which are ordered so that each index represents the same person, i.e. `fnames[3]`, `lnames[3]` and `locations[3]` all refer to the same person. We want to create 2-tuples of the first and last name of each person and have these inside 2-tuples which match first+last name tuples with locations, such that the result looks like:
 
-`[(('italo', 'calvino'), 'IT'),
-  (('jean', 'micheal'), 'FR'),
-  (('emily', 'rambert'), 'FR'),
-  (('katya', 'sokolov'), 'RU')]`
+`[(('italo', 'calvino'), 'IT'), (('jean', 'micheal'), 'FR'), (('emily', 'rambert'), 'FR'), (('katya', 'sokolov'), 'RU')]`
 
 Fill in the gaps in the code below to achieve this.
 
@@ -113,15 +112,15 @@ result2 = zip(???, ???)
 print(result2)
 ```
 
-
-* `fnames`
-* `lnames`
-* `result`
-* `locations`
-* `result2`
-* `names`
+- `fnames`
+- `lnames`
+- `result`
+- `locations`
+- `result2`
+- `names`
 
 ---
+
 ## Revision
 
 What would be the output of applying the `zip` built-in function to these arguments?
@@ -137,17 +136,18 @@ print(zip(dates, values))
 ???
 ```
 
-
-* `[('9/16', 200), ('12/16', 150), ('2/17', 122)]`
-* `{('9/16', 200), ('12/16', 150), ('2/17', 122)}`
-* `[['9/16', 200], ['12/16', 150], ['2/17', 122]]`
-* `[('9/16', 200), ('12/16', 150), ('2/17', 122), (0, 90), (0, 220)]`
-* `[('9/16', 200), ('12/16', 150), ('2/17', 122), (90), (220)]`
+- `[('9/16', 200), ('12/16', 150), ('2/17', 122)]`
+- `{('9/16', 200), ('12/16', 150), ('2/17', 122)}`
+- `[['9/16', 200], ['12/16', 150], ['2/17', 122]]`
+- `[('9/16', 200), ('12/16', 150), ('2/17', 122), (0, 90), (0, 220)]`
+- `[('9/16', 200), ('12/16', 150), ('2/17', 122), (90), (220)]`
 
 ---
+
 ## Footnotes
+
 [1:Different length inputs to `zip`]
-*`zip` should only be used when you don’t care about trailing, unmatched values from the longer iterables, since the iterator stops after n iterations, where n is the size of the shortest input iterable. If those values are important, another variant of `zip` is built-in called  `itertools.zip_longest()` which automatically extends any shorter input lists with `fillvalue`, which by default is a `None` object.*
+_`zip` should only be used when you don’t care about trailing, unmatched values from the longer iterables, since the iterator stops after n iterations, where n is the size of the shortest input iterable. If those values are important, another variant of `zip` is built-in called `itertools.zip_longest()` which automatically extends any shorter input lists with `fillvalue`, which by default is a `None` object._
 
 [2:Uneven length = loss of information]
-*Obviously, any information discarded in the initial `zip` step because of input iterables being of uneven length is not recovered when we unzip the result again; the information has already been discarded at the `zip` step.*
+_Obviously, any information discarded in the initial `zip` step because of input iterables being of uneven length is not recovered when we unzip the result again; the information has already been discarded at the `zip` step._

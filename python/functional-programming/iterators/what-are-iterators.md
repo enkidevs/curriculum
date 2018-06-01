@@ -20,9 +20,10 @@ links:
 # What Are Iterators?
 
 ---
+
 ## Content
 
-In the previous insight we encountered `iterable` objects. One of the ways for an object to be considered `iterable` was if it had an implemented `__iter__()` method (*pronounced "dunder iter"[1]*) which returns an `iterator`. But what is an iterator?
+In the previous insight we encountered `iterable` objects. One of the ways for an object to be considered `iterable` was if it had an implemented `__iter__()` method (_pronounced "dunder iter"[1]_) which returns an `iterator`. But what is an iterator?
 
 An iterator is a stateful, helper object which returns each element in an iterable object one by one, sequentially, until none remain. Some iterators will continue indefinitely. The implementation (how the iterator produces values) is different for each specific one, and is therefore not important, for now.
 
@@ -41,28 +42,27 @@ print(next(newCounter)) # result: 44
 Counter is a simple numerical iterator which counts up from a given value infinitely. Others include `cycle`, which iterates infinitely through a given finite list, and `islice` which creates a given finite length iterator from an infinite iterator.
 
 ---
+
 ## Practice
 
 Which method(s) need to be implemented for an object to be classed as an iterator?
 
 ???
 
-
-* `__next__()`
-* `__next__()`, `__iter__()`
-* `__iter__()`, `__getitem__()`
-* `__iter__()`, `__getitem__()`, `__next__()`
+- `__next__()`
+- `__next__()`, `__iter__()`
+- `__iter__()`, `__getitem__()`
+- `__iter__()`, `__getitem__()`, `__next__()`
 
 ---
+
 ## Revision
 
 Which method is called to retrieve a value from an iterator?
 
 ???
 
-
-* `__next__()`
-* `__getitem__()`
-* `__iter__()`
-* `__child__()`
-
+- `__next__()`
+- `__getitem__()`
+- `__iter__()`
+- `__child__()`

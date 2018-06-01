@@ -18,22 +18,27 @@ standards:
 
 # Creating Classes
 
-
 ---
+
 ## Content
 
-Classes are *templates* which can be used to create objects. They *encapsulate* variables and methods[1] into a single entity, defining a general behavior for that entity (object) to follow.
+Classes are _templates_ which can be used to create objects. They _encapsulate_ variables and methods[1] into a single entity, defining a general behavior for that entity (object) to follow.
 
 Classes also use Python's block structure and are defined using the `class` keyword:
+
 ```python
 class Employee:
    count = 0
 ```
+
 You can then create (instantiate) a class object using the syntax:
+
 ```python
 empty_empl = Employee()
 ```
-However, our blueprint of the *Employee* class is empty. The newly instantiated object can't do anything. We can define a first method, `__init__`: it's called the *initialization method* and it's called when you create a new instance of the class:
+
+However, our blueprint of the _Employee_ class is empty. The newly instantiated object can't do anything. We can define a first method, `__init__`: it's called the _initialization method_ and it's called when you create a new instance of the class:
+
 ```python
 class Employee:
   count = 0
@@ -42,11 +47,15 @@ class Employee:
     self.name = name
     self.idnum = Employee.count
 ```
+
 We can now pass some information when creating a new Employee:
+
 ```python
 basic_employee = Employee("John Doe")
 ```
+
 Once the `__init__` method has been taken care of, other methods can be defined normally. However, the first argument of those functions must always be `self` (a circular reference to the created object):
+
 ```python
 class Employee:
   # the code above
@@ -54,12 +63,15 @@ class Employee:
     print("{0} is employee no. {1}"
       .format(self.name, self.idnum))
 ```
+
 Note: When calling methods, you do not need to pass `self` as a parameter, Python does that for you automatically.
 
 ---
+
 ## Practice
 
-Which of the following is __not__ a correct definition of a new class?
+Which of the following is **not** a correct definition of a new class?
+
 ```python
 # A
 class Car:
@@ -74,17 +86,20 @@ class Car:
   def start_car(self):
     print("Starting engine!")
 ```
+
 ???
 
-* B
-* A
-* C
-* all
+- B
+- A
+- C
+- all
 
 ---
+
 ## Revision
 
 Pick the correct syntax for instantiating a class:
+
 ```python
 # A
 empl = Employee("John")
@@ -95,11 +110,10 @@ empl = new Employee("John")
 # C
 new empl = Employee("John")
 ```
+
 ???
 
-
-* A
-* B
-* C
-* neither
- 
+- A
+- B
+- C
+- neither
