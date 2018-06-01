@@ -17,14 +17,7 @@ aspects:
   - introduction
   - workout
 ---
-
-# The 
-
-`http`
-
- module for servers
-
-
+# The `http` module for servers
 ---
 
 ## Content
