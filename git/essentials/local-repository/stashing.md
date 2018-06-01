@@ -24,7 +24,7 @@ links:
 ---
 ## Content
 
-Another highly useful feature of **Git** allows you to _set aside_ current work; usually in order to switch branches without losing uncommitted changes.
+Another highly useful feature of **Git** allows you to _set aside_ current work; usually to switch branches without losing uncommitted changes.
 
 Stashing is the action of saving all your dirty files (modified **tracked** files and **staged** changes) in a special *stack*[1] of commits. Any of the commits in **the stash**  can be later popped, restoring the state of the working tree.
 
@@ -77,7 +77,7 @@ You can also remove from the stash stack:
 $ git stash drop stash@{0}
 ```
 
-To both `apply` and `drop` the stash, the `pop` command can be used:
+To both `apply,` and `drop` the stash, the `pop` command can be used:
 ```
 $ git stash pop
 ```
