@@ -1,40 +1,31 @@
 ---
 author: stefkn
-
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 standards:
   sql.read-single-table.0: 10
   sql.read-single-table.1: 10
   sql.read-single-table.2: 10
-
-tags:
-
-  - introduction
-
-  - workout
-
+tags: []
 links:
-
-  - '[SQL Tutorial: WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}'
-
+  - >-
+    [SQL Tutorial:
+    WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}
+aspects:
+  - introduction
+  - workout
 ---
 
 # WHERE (2)
 
+
 ---
+
 ## Content
 
 ### `AND`, `OR`, `NOT`, `BETWEEN`
@@ -76,15 +67,16 @@ WHERE weight BETWEEN '10000' AND '8000';
 
 This shows only the rows with weight values between 10,000 and 8,000.
 
+
 ---
+
 ## Practice
 
 Select all the columns from the `pokemon` table, keeping the rows where the weight is greater than 600 and height is greater than 15.
 
-`SELECT * `
+`SELECT *`
 `FROM pokemon`
 ??? ??? ??? ???;
-
 
 * WHERE
 * weight > '600'
@@ -97,7 +89,9 @@ Select all the columns from the `pokemon` table, keeping the rows where the weig
 * 600
 * 15
 
+
 ---
+
 ## Revision
 
 Select all the columns from the `pokemon` table, keeping only the rows where the name equals either 'bulbasaur', 'ivysaur' or 'venusaur'.
@@ -121,13 +115,17 @@ FROM pokemon
 * 'bulbasaur'
 * 'venusaur'
 
+
 ---
-## Quiz 
+
+## Quiz
+
 ### Can you select rows between two values in SQL?
+
+
 Consider the `move_name` table:
 
 ```bash
-
   id  | language_id | move_id |  name       
 ======|=============|=========|=============
     1 |           1 |       1 | はたく
@@ -137,12 +135,13 @@ Consider the `move_name` table:
     5 |           7 |       1 | Destructor
   (...)
 ```
+
 Choose the query that will get all move names with id between 3 and 6. Also, pay attention to select those name that are used in languages with id 5 or 9:
 
  ???
 
 * SELECT name FROM move_name WHERE move_id BETWEEN 3 AND 6 AND language_id IN (5,9);
-* SELECT * FROM move_name WHERE move_id BETWEEN 3 AND 6 AND language_id IN (5,9);
-* SELECT name FROM move_name WHERE move_id >= 3 AND move_id <= 6 AND language_id >= 5 OR language_id <= 9;
-* SELECT name FROM move_name WHERE move_id IN (3,6) AND language_id >= 5 AND language_id <= 9;
- 
+* SELECT \* FROM move_name WHERE move_id BETWEEN 3 AND 6 AND language_id IN (5,9);
+* SELECT name FROM move_name WHERE move_id >= 3 AND move_id &lt;= 6 AND language_id >= 5 OR language_id &lt;= 9;
+* SELECT name FROM move_name WHERE move_id IN (3,6) AND language_id >= 5 AND language_id &lt;= 9;
+

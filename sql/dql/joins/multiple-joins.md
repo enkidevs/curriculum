@@ -1,35 +1,26 @@
 ---
 author: mihaiberq
-
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 standards:
   sql.read-multiple-tables.0: 10
   sql.read-multiple-tables.1: 10
-
-tags:
-
+tags: []
+aspects:
   - workout
-
   - deep
-
 ---
 
 # Multiple JOINs
 
+
 ---
+
 ## Content
 
 Sometimes, a single join might not be enough to get the desired result. In `many-to-many` relationships, when an intermediate table is used to avoid data duplication, such practice is common.
@@ -37,7 +28,8 @@ Sometimes, a single join might not be enough to get the desired result. In `many
 In the Pokémon database you can find multiple intermediate tables, usually named `table1_table2`: for the `pokemon` and `type` tables, the intermediate one is named `pokemon_type`. Same goes for `pokemon`, `move` and `pokemon_move`.
 
 These are some table entries which contain only the columns relevant to the query. The `pokemon` table:
-```
+
+```bash
 id   |   name
 =====+============
 1    |  bulbasaur
@@ -46,7 +38,8 @@ id   |   name
 ```
 
 The `pokemon_type` table:
-```
+
+```bash
 id   |  slot  | pokemon_id | type_id
 =====+========+============+===========
 1    |   1    |      1     |     12
@@ -58,7 +51,8 @@ id   |  slot  | pokemon_id | type_id
 ```
 
 And the `type` table:
-```
+
+```bash
 id   |  name
 =====+=========
 1    |  normal
@@ -69,6 +63,7 @@ id   |  name
 ```
 
 The syntax is this:
+
 ```sql
 SELECT pokemon.name, type.name
 FROM pokemon_type
@@ -81,7 +76,8 @@ ON pokemon_type.type_id = type.id;
 This is effectively join the first two tables (*pokemon_type* and *pokemon*) and then join the resulting table with the *type* table.
 
 These are the first four rows of output (out of 1225):
-```
+
+```bash
 name        | name
 ============+==========
 bulbasaur   | grass
@@ -92,10 +88,13 @@ ivysaur     | poison
 
 The same result can be achieved by using subqueries.
 
+
 ---
+
 ## Practice
 
 Obtain the list of moves a Pokémon learns ordered by game version and level at which it learns the move:
+
 ```sql
 SELECT pokemon.name,
   poke_move_level.level,
@@ -123,7 +122,9 @@ ORDER BY pokemon.id,
 * `SELECT`
 * `ORDER BY`
 
+
 ---
+
 ## Revision
 
 Is the following statement true or false?
@@ -135,14 +136,17 @@ In order to join multiple tables together, subqueries must be used.
 * false
 * true
 
+
 ---
-## Quiz 
+
+## Quiz
+
 ### Sometimes one is not enough?
+
 
 Given the tables called `pokedex`, `version_group` and `pokedex_version_group`:
 
-```
-
+```bash
 id | is_main_series | region_id |       name       
 ===|================|===========|================
  1 | t              |           | national
@@ -164,7 +168,6 @@ id | pokedex_id | version_group_id
  1 |          2 |                1
  2 |          2 |                2
  3 |          2 |                7
-
 ```
 
 Get the names of pokedexes and version_groups using `pokedex_version_group` table. Do not include records that don't have both, pokedex and version_group :
@@ -175,4 +178,4 @@ Get the names of pokedexes and version_groups using `pokedex_version_group` tabl
 * SELECT pokedex.name, version_group.name FROM pokedex_version_group RIGHT JOIN pokedex ON pokedex_version_group.pokedex_id = pokedex.id LEFT JOIN version_group ON pokedex_version_group.version_group_id = version_group.id;
 * SELECT pokedex.name, version_group.name FROM pokedex_version_group FULL OUTER JOIN pokedex ON pokedex_version_group.pokedex_id = pokedex.id FULL OUTER JOIN version_group ON pokedex_version_group.version_group_id = version_group.id;
 * SELECT pokedex.name, version_group.name FROM pokedex_version_group LEFT JOIN pokedex ON pokedex_version_group.pokedex_id = pokedex.id RIGHT JOIN version_group ON pokedex_version_group.version_group_id = version_group.id;
- 
+

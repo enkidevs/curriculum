@@ -1,33 +1,27 @@
 ---
 author: claremarie
-
 levels:
   - basic
-  
   - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-tags:
-
-  - introduction
-
+tags: []
 standards:
   sql.read-single-table.0: 10
-
 links:
-
-  - '[SQL Tutorial: SELECT](http://www.sql-tutorial.com/sql-select-sql-tutorial/){website}'
-
+  - >-
+    [SQL Tutorial:
+    SELECT](http://www.sql-tutorial.com/sql-select-sql-tutorial/){website}
+aspects:
+  - introduction
 ---
 
 # SELECT
 
+
 ---
+
 ## Content
 
 To get all of the data from a table, use a `SELECT *` statement.
@@ -41,6 +35,7 @@ The above command gets all of the *columns* and all of the *rows* from the `poke
 
 
 ---
+
 ## Practice
 
 Which of the following queries will return all columns and all rows from a a table called `item`?
@@ -54,7 +49,9 @@ Which of the following queries will return all columns and all rows from a a tab
 * `CHOOSE * TABLE item`
 * `SELECT col, row FROM item`
 
+
 ---
+
 ## Revision
 
 Which of these symbols is used to denote "all columns" in SQL?
@@ -65,4 +62,4 @@ Which of these symbols is used to denote "all columns" in SQL?
 * `?`
 * `%`
 * `#`
- 
+

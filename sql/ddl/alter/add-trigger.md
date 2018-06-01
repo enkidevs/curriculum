@@ -1,43 +1,37 @@
 ---
 author: SebaRaba
-
 levels:
-
   - beginner
-
   - basic
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 standards:
   sql.define-tables.2: 10
-
-tags:
-
-  - workout
-
-  - deep
-
+tags: []
 links:
-
-  - '[More on CREATE TRIGGER](https://www.codeproject.com/Articles/25600/Triggers-SQL-Server){website}'
-
+  - >-
+    [More on CREATE
+    TRIGGER](https://www.codeproject.com/Articles/25600/Triggers-SQL-Server){website}
+aspects:
+  - workout
+  - deep
 ---
 
 # Add Trigger
 
+
 ---
+
 ## Content
 
 *Triggers* are defined to let the computer know it has to run a certain set of actions when an event happens. Usually this events mean executing: `UPDATE`, `INSERT` and `DELETE` statements. Basically it's a database object that is bound to a table and executes automatically. Types of triggers:
-- After triggers
-- Instead of triggers
+
+* After triggers
+* Instead of triggers
 
 After triggers run after an `INSERT`, `UPDATE` or `DELETE`:
+
 ```sql
 CREATE TRIGGER afterInsert
 ON db_name.table_name
@@ -53,6 +47,7 @@ GO;
 What this trigger does is: it updates "another_table" with the value that has just been deleted from "db_name.table_name".
 
 Instead of triggers specify what statement to run instead of the `INSERT`, `UPDATE` or `DELETE` statements:
+
 ```sql
 CREATE TRIGGER insteadUpdate
 ON db_name.table_name
@@ -67,10 +62,13 @@ GO;
 
 This time we say: If we update table "db_name.table_name", then update "another_table" instead.
 
+
 ---
+
 ## Revision
 
 Create trigger such that each time we update something to the "region" table under the "name" column, it will insert the same entry to our "region_backup" table on the "name_backup" column:
+
 ```sql
 ??? afterInsertRegion
 ON pokemon.region
@@ -91,4 +89,4 @@ GO;
 * name
 * region_id
 * INSERT
- 
+

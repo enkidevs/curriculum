@@ -1,44 +1,34 @@
 ---
 author: SebaRaba
-
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 standards:
   sql.write.5: 10
-
-tags:
-
-  - introduction
-
-  - workout
-
+tags: []
 links:
-
   - '[More on DELETE](http://www.dofactory.com/sql/delete){website}'
-
+aspects:
+  - introduction
+  - workout
 ---
 
 # Delete clause
 
+
 ---
+
 ## Content
 
 The `DELETE` clause enables users to delete data from a table. We can specify which rows to delete using the `WHERE` clause, otherwise all records will be deleted.
 
 Consider the "egg_group" table:
-```
+
+```bash
 --egg_group:
 id |     name      
 ===+===============
@@ -61,12 +51,13 @@ id |     name
 ```
 
 Suppose we want to delete the first value of the table:
+
 ```sql
 DELETE FROM egg_group
 WHERE id = 1;
 ```
 
-```
+```bash
 --Result:
 id |     name      
 ===+===============
@@ -88,15 +79,19 @@ id |     name
 ```
 
 If we wanted to delete all data in this table:
-```
+
+```bash
 DELETE FROM egg_group;
 ```
 
+
 ---
+
 ## Practice
 
 Consider the "egg_group" table. This time we want to delete the first 5 values:
-```
+
+```bash
 --egg_group:
 id |     name      
 ===+===============
@@ -117,6 +112,7 @@ id |     name
 15 | no-eggs
 (15 rows)
 ```
+
 ```sql
 ??? FROM egg_group
 WHERE id ??? 1 and 5;
@@ -127,11 +123,14 @@ WHERE id ??? 1 and 5;
 * =
 * UPDATE
 
+
 ---
+
 ## Revision
 
 We want to delete the 15th element of "egg_group" table:
-```
+
+```bash
 --egg_group:
 id |     name      
 ===+===============
@@ -158,4 +157,4 @@ id |     name
 * DELETE FROM egg_group WHERE id= 15;
 * UPDATE egg_group DELETE WHERE id=15;
 * DELETE FROM egg_group;
- 
+
