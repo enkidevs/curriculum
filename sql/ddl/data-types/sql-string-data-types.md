@@ -1,36 +1,30 @@
 ---
 author: mihaiberq
-
 levels:
-
   - beginner
-
   - basic
-
 type: normal
-
 category: must-know
-
 standards:
   sql.choose-sql-datatype.1: 10
-
-tags:
-
+tags: []
+aspects:
   - introduction
-
   - workout
-
 ---
 
 # SQL String Data Types
 
+
 ---
+
 ## Content
 
 In terms of *string data types*, there are less options to be used. However, there are no discrepancies regarding naming conventions between PostgreSQL, MySQL and MSSQL. The three main types are:
-- `char(n)`
-- `varchar(n)`
-- `text`
+
+* `char(n)`
+* `varchar(n)`
+* `text`
 
 ### char(n)
 
@@ -50,10 +44,13 @@ Use `varchar` when you have to store data of unknown length. Usually names, prof
 
 If you are aware of a maximum length for those strings, use `varchar(n)` instead. Note that in most databases inserting a string longer than *n* characters would either give rise to an error or simply remove any additional characters.
 
+
 ---
+
 ## Practice
 
 Create a PostgreSQL table that contains a fixed width column and a variable one, such that minimal space is used to store the table in memory:
+
 ```sql
 CREATE ??? language(
   id bigserial PRIMARY KEY,
@@ -68,17 +65,17 @@ CREATE ??? language(
 * `char(70)`
 * `varchar(2)`
 
+
 ---
+
 ## Revision
 
 Which of the following string data types are padded to match its maximum size?
 
 ???
 
-
 * `char(size)`
 * `varchar(size)`
 * `text(size)`
 * `text`
 
- 

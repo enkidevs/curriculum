@@ -1,40 +1,31 @@
 ---
 author: stefkn
-
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 standards:
   sql.read-single-table.0: 10
   sql.read-single-table.1: 10
   sql.read-single-table.2: 10
-
-tags:
-
-  - introduction
-
-  - workout
-
+tags: []
 links:
-
-  - '[SQL Tutorial: WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}'
-
+  - >-
+    [SQL Tutorial:
+    WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}
+aspects:
+  - introduction
+  - workout
 ---
 
 # WHERE
 
+
 ---
+
 ## Content
 
 When added to an SQL `SELECT` statement, `WHERE` allows us to select rows in a table by specifying rules. The WHERE keyword can also be used to insert, update and delete data from tables.
@@ -53,32 +44,34 @@ WHERE name = 'charmander';
 
 This query will keep only the `id`, `weight` and `name` columns from the `pokemon` table, and only include the row where the value in the `name` column exactly equals `charmander`. Since there is only one row with this property—because there is only one Pokemon called 'Charmander'—we expect the result to have only one row.
 
+
 ---
+
 ## Practice
 
 Select all the rows from the `pokemon` table where the weight is less than 500.
 
-`SELECT * `
+`SELECT *`
 `FROM pokemon`
 ??? ???;
 
-
 * WHERE
-* weight < '500'
+* weight &lt; '500'
 * FROM
 * pokemon
 * IS
 * weight IS GREATER THAN 500
 
+
 ---
+
 ## Revision
 
 Select all the rows from the `pokemon` table where the name is exactly equal to `braixen`.
 
-`SELECT * `
+`SELECT *`
 `FROM pokemon`
 ??? ??? ??? ???;
-
 
 * WHERE
 * name
@@ -88,13 +81,17 @@ Select all the rows from the `pokemon` table where the name is exactly equal to 
 * pokemon
 * IS
 
+
 ---
-## Quiz 
+
+## Quiz
+
 ### Can you find a particular entry in a table with SQL?
 
-Consider the `ability` table and the following query:
-```
 
+Consider the `ability` table and the following query:
+
+```bash
 id   | is_main_series | generation_id |      name      
 =====|================|===============|===============
    1 | t              |             3 | stench
@@ -105,8 +102,8 @@ id   | is_main_series | generation_id |      name
 
 SELECT *
 FROM ability
-
 ```
+
 We want to get the record for the ability called "speed-boost". Which of the following `WHERE` clauses will
 have this result when used with the above query?
 
@@ -116,4 +113,4 @@ have this result when used with the above query?
 * WHERE name IS "speed-boost";
 * WHERE ability='speed-boost';
 * WHERE id='speed-boost';
- 
+

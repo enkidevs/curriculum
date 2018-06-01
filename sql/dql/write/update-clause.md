@@ -1,44 +1,34 @@
 ---
 author: SebaRaba
-
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 standards:
   sql.write.3: 10
-
-tags:
-
-  - introduction
-
-  - workout
-
+tags: []
 links:
-
   - '[More on UPDATE](http://www.dofactory.com/sql/update){website}'
-
+aspects:
+  - introduction
+  - workout
 ---
 
 # Update clause
 
+
 ---
+
 ## Content
 
 The `UPDATE` clause enables user to modify existing rows in the database. It is often used with the `WHERE` clause to conditionally update data.
 
 Consider the `egg_group` table:
-```
+
+```bash
 id |     name      
 ===+===============
  1 | monster
@@ -60,13 +50,16 @@ id |     name
 ```
 
 If we want to change the value "ditto" to "rabbit", we use `SET`:
+
 ```sql
 UPDATE egg_group
 SET name = 'rabbit'
 WHERE ID= 13;
 ```
+
 *Result:*
-```
+
+```bash
 id |     name      
 ===+===============
  1 | monster
@@ -88,12 +81,15 @@ id |     name
 ```
 
 Note that if the `WHERE` clause isn't used all the values in the specified column will be updated:
+
 ```sql
 UPDATE egg_group
 SET name = 'rabbit';
 ```
+
 *Result:*
-```
+
+```bash
 id |     name      
 ===+===============
  1 | rabbit
@@ -114,11 +110,14 @@ id |     name
 (15 rows)
 ```
 
+
 ---
+
 ## Practice
 
 Consider the `generation` table:
-```
+
+```bash
 id | region_id |      name      
 ===+===========+===============
  1 |         1 | generation-i
@@ -148,11 +147,14 @@ We would like to update the table contents such that the last generation is gene
 * NEW
 * region_id
 
+
 ---
+
 ## Revision
 
 Consider the following table:
-```
+
+```bash
 --gender
 id |    name    
 ===+============
@@ -166,6 +168,7 @@ id |    name
 ??? gender
 ??? name = '???'
 ```
+
 We want to update the table such that all genders will be neutral.
 
 * UPDATE
@@ -174,4 +177,4 @@ We want to update the table such that all genders will be neutral.
 * WHERE
 * DELETE
 * CHANGE
- 
+

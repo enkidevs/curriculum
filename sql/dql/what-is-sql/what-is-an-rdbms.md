@@ -1,41 +1,37 @@
 ---
 author: Nick Daminov
-
 levels:
-
   - beginner
-
   - basic
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-tags:
-  - introduction
-
+tags: []
 standards:
   sql.define-tables.0: 10
-
 links:
-
-  - '[What is Relational Database?](http://searchsqlserver.techtarget.com/definition/relational-database){website}'
-  - '[What is RDBMS?](http://searchsqlserver.techtarget.com/definition/relational-database-management-system){website}'
-
+  - >-
+    [What is Relational
+    Database?](http://searchsqlserver.techtarget.com/definition/relational-database){website}
+  - >-
+    [What is
+    RDBMS?](http://searchsqlserver.techtarget.com/definition/relational-database-management-system){website}
+aspects:
+  - introduction
 ---
 
 # What is an RDBMS?
 
+
 ---
+
 ## Content
 
-*RDBMS* stands for _Relational Database Management System_, a _Database Management System_ that allows the user to create, update and delete the _Relational Database_.
+*RDBMS* stands for *Relational Database Management System*, a *Database Management System* that allows the user to create, update and delete the *Relational Database*.
 
-_Relational Databases_ store data in _tables_, which are similar to a spreadsheet in that they've got rows and columns.
+*Relational Databases* store data in *tables*, which are similar to a spreadsheet in that they've got rows and columns.
 
-Using these tables we can query data, and store it such that others can query it. The language we use to _define_ tables is commonly referred to as SQL, but its real name is *DDL*, or _Data Definition Language_.
+Using these tables we can query data, and store it such that others can query it. The language we use to *define* tables is commonly referred to as SQL, but its real name is *DDL*, or *Data Definition Language*.
 
 Here's an example of how we might define a table:
 
@@ -56,7 +52,9 @@ SELECT * FROM users;
 
 We query from the *Database Client*.
 
+
 ---
+
 ## Practice
 
 How do you think we could create a table called `products`?
@@ -74,7 +72,9 @@ How do you think we could create a table called `products`?
 * `rdbms.createTable('products')`
 * `sql.create.table('products')`
 
+
 ---
+
 ## Revision
 
 How do you think we could create a table called `coupons`?
@@ -91,4 +91,4 @@ How do you think we could create a table called `coupons`?
 * `MAKE TABLE coupons`
 * `rdbms.createTable('coupons')`
 * `sql.create.table('coupons')`
- 
+

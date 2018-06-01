@@ -1,44 +1,39 @@
 ---
 author: SebaRaba
-
 levels:
-
   - beginner
-
   - basic
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 standards:
   sql.connect-client.2: 5
-
-tags:
-  - introduction
-
+tags: []
 links:
-
-  - '[More on RDBMS](https://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems){website}'
-
+  - >-
+    [More on
+    RDBMS](https://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems){website}
+aspects:
+  - introduction
 ---
 
 # Database server types
 
+
 ---
+
 ## Content
 
 There are a number of RDBMS servers available, developed by different companies or open-source foundations. All of these databases can be interfaced with through SQL, though there are slight variations between them.
 
 All SQL databases have the following features:
-- ACID (Atomicity, Consistency, Isolation, Durability)
-- transactions
-- referential integrity
-- unicode
-- multi-version concurrency
-- fine-grained locking
+
+* ACID (Atomicity, Consistency, Isolation, Durability)
+* transactions
+* referential integrity
+* unicode
+* multi-version concurrency
+* fine-grained locking
 
 *Postgres* is a powerful free and open-source RDBMS developed and maintained by developers around the world. It does not require licensing fees to use, so it's market share has grown considerably recently. It is suitable for small-to-large applications.
 
@@ -52,7 +47,9 @@ All SQL databases have the following features:
 
 It is important you understand know server you are using, as commands can differ slightly between them.
 
+
 ---
+
 ## Practice
 
 Which of the following is not a type of database server?
@@ -64,10 +61,12 @@ Which of the following is not a type of database server?
 * MySQL
 * Postgres
 
+
 ---
+
 ## Revision
 
-Which database is open-source, _and_ does not require a license for commercial use?
+Which database is open-source, *and* does not require a license for commercial use?
 
 ???
 
@@ -76,4 +75,4 @@ Which database is open-source, _and_ does not require a license for commercial u
 * MS Access
 * Oracle
 * MS SQL Server
- 
+
