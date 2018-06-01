@@ -1,61 +1,59 @@
 ---
 author: rosielowther
-
 levels:
-
   - basic
-
   - beginner
-
 type: normal
-
 category: must-know
-
 standards:
-
   javascript.javascript-syntax.1: 10
-
   javascript.standard-library.3: 10
-
-tags:
-  - introduction
-
-
+tags: []
 links:
+  - >-
+    [github.com](https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/ch1.md){website}
+  - >-
+    [developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/API/Console/log){website}
+aspects:
+  - introduction
+---
 
-  - '[github.com](https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/ch1.md){website}'
-  - '[developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/API/Console/log){website}'
+# `console.*`
+
+ in JavaScript
 
 
 ---
 
-# `console.*` in JavaScript
-
----
 ## Content
 
 The `console.*` methods output information to a console.
 
 For example, `console.log` can print out a message or show details of an object:
-```
+
+```bash
 console.log("Username: " + username);
 // Username: enkilondon
 ```
 
 A few other useful console methods include:
 Sending a warning to the console.
-```
+
+```bash
 console.warn("Resource not changed")
 ```
+
 Sending an error message to the console.
-```
+
+```bash
 console.error("File not found!")
 ```
+
 Viewing the current stack trace.
-```
+
+```bash
 console.trace()
 ```
-
 
 In JavaScript there is no specification for how `console.*` methods behave. Each environment adds its own methods and behaviour.
 
@@ -65,25 +63,28 @@ In addition to this, `console.*` can be used to pipe information to `stdout` in 
 
 **It is considered best practice to not include any `console.*` methods in production code.**
 
+
 ---
+
 ## Practice
 
 Which of the following is the correct method for outputting information to the console? ???
-
 
 * `console.log();`
 * `console.write();`
 * `console.print();`
 * `console.println();`
 
+
 ---
+
 ## Revision
 
 Log a message in the `console`:
+
 ```javascript
 ???.???("my message");
 ```
-
 
 * `console`
 * `log`
@@ -92,3 +93,4 @@ Log a message in the `console`:
 * `output`
 * `show`
 * `warn`
+

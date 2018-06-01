@@ -1,31 +1,28 @@
 ---
 author: mihaiberq
-
 levels:
   - beginner
   - basic
   - medium
   - advanced
-
 type: normal
-
 category: how to
-
 parent: how-npm3-handles-dependencies
-
 standards:
   javascript.npm-tasks-and-modules-manager.0: 30
   javascript.npm-tasks-and-modules-manager.3: 30
-
-tags:
+tags: []
+aspects:
   - introduction
   - workout
   - deep
-
 ---
+
 # Npm Scripting
 
+
 ---
+
 ## Content
 
 `npm` is a lot more than just a package manager for Node. It supports scripting using the `run-script` (or the abbreviated `run`) option.
@@ -81,13 +78,15 @@ Another cool thing about scripting is that you can combine multiple sub-scripts 
 
 This will speed up the process as two subshells will be invoked to resolve each build command (asynchronously) because of the `&` token.
 
+
 ---
+
 ## Practice
 
 Fill in the following `package.json` file such that it has 2 scripts:
 
-- one called `test` which will run `jest`
-- second called `test:ci` which will run the first script with `-- --runInBand` option:
+* one called `test` which will run `jest`
+* second called `test:ci` which will run the first script with `-- --runInBand` option:
 
 ```json
 {
@@ -104,7 +103,7 @@ Fill in the following `package.json` file such that it has 2 scripts:
 * jest
 * test:ci
 * npm run test
-* -- runInBand
+* \-- runInBand
 * script
 * node-scripts
 * testing
@@ -113,11 +112,13 @@ Fill in the following `package.json` file such that it has 2 scripts:
 * run test
 * npm
 
+
 ---
+
 ## Revision
 
-
 Given the following is in your `package.json`, execute the script called `dailyStats`
+
 ```javascript
 {
   "name": "enki",
@@ -135,3 +136,4 @@ Given the following is in your `package.json`, execute the script called `dailyS
 * dailyStats
 * script
 * exec
+

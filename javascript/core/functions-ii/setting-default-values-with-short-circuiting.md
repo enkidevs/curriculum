@@ -1,39 +1,30 @@
 ---
 author: pawel
-
 levels:
-
   - basic
-
   - beginner
-
 type: normal
-
 category: pattern
-
 standards:
   javascript.evaluate-expressions.5: 10
   javascript.functions.2: 10
-
 tags:
-
   - short-circuiting
-
-  - introduction
-
-  - workout
-
-
 links:
+  - >-
+    [javascriptissexy.com](http://javascriptissexy.com/12-simple-yet-powerful-javascript-tips/){website}
+aspects:
+  - introduction
+  - workout
+---
 
-  - '[javascriptissexy.com](http://javascriptissexy.com/12-simple-yet-powerful-javascript-tips/){website}'
+# Setting default values with 
+
+`short circuiting`
 
 
 ---
 
-# Setting default values with `short circuiting`
-
----
 ## Content
 
 `Short circuiting` returns the value of the second operand based on the value of the first.
@@ -47,6 +38,7 @@ function document(theTitle) {
  }
 }
 ```
+
 We can use:
 
 ```javascript
@@ -55,10 +47,13 @@ function documentTitle(theTitle) {
 }
 ```
 
+
 ---
+
 ## Practice
 
 `Short circuit` the following code:
+
 ```javascript
 function shortCir(name){
   return ??? ??? 'John Doe';
@@ -66,11 +61,13 @@ function shortCir(name){
 ```
 
 * name
-* ||
+* \|\|
 * &&
 * ==
 
+
 ---
+
 ## Revision
 
 Complete the following code to return a *valid* String as name or a default value:
@@ -82,6 +79,7 @@ function shortCir(name){
 ```
 
 * name
-* ||
+* \|\|
 * &&
 * ==
+

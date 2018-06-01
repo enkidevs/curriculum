@@ -1,31 +1,28 @@
 ---
 author: mihaiberq
-
 levels:
   - beginner
   - basic
   - medium
   - advanced
-
 type: normal
-
 category: feature
-
 parent: scripts-lifecycle
-
 standards:
   javascript.npm-tasks-and-modules-manager.1: 10
   javascript.npm-tasks-and-modules-manager.3: 10
-
-tags:
+tags: []
+aspects:
   - introduction
   - workout
   - deep
-
 ---
+
 # Remote Scripts
 
+
 ---
+
 ## Content
 
 Another feature of *npm* is running external scripts. These include shell scripts, Makefiles or other build tools that you are more familiar with.
@@ -56,7 +53,9 @@ dev:
     node server.js
 ```
 
+
 ---
+
 ## Practice
 
 Consider there is a Makefile in the `output` directory of your project. You want to run this with `prod` argument via an npm script called `makeOutput`:
@@ -86,14 +85,16 @@ $ ??? ??? ???
 * npm run
 * makeOutput
 * prod
-* ||
+* \|\|
 * and
 * npm
 * makeFile
 * output
 * add
 
+
 ---
+
 ## Revision
 
 The syntax to add an `external_script.sh` to *package.json* is:
@@ -108,3 +109,4 @@ The syntax to add an `external_script.sh` to *package.json* is:
 * ./external_script.sh
 * script
 * external_script.js
+

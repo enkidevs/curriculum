@@ -1,31 +1,28 @@
 ---
 author: Bruno
-
 levels:
   - beginner
-
 type: normal
-
 category: hack
-
 standards:
   javascript.data-types-structures.2: 10
   javascript.data-types-structures.3: 10
   javascript.data-types-structures.6: 10
   javascript.standard-library.1: 10
   javascript.standard-library.4: 10
-
-tags:
-  - introduction
-  - workout
-
+tags: []
 links:
   - '[stackoverflow](http://stackoverflow.com/questions/2450954){discussion}'
-
+aspects:
+  - introduction
+  - workout
 ---
+
 # Shuffle an array using sort and random
 
+
 ---
+
 ## Content
 
 Given the array:
@@ -50,7 +47,9 @@ An example result:
 array = [4,3,1,2,9,5,6,8,7]
 ```
 
+
 ---
+
 ## Practice
 
 Complete the code such that it will shuffle an array using `sort` and `random`.
@@ -76,10 +75,12 @@ arr.???(???() {
 * Array
 * call
 * apply
-* +=
-* -0.5
+* \+=
+* \-0.5
+
 
 ---
+
 ## Revision
 
 The following code will ???
@@ -94,3 +95,4 @@ arr.sort(function(){
 * shuffle the array
 * sort the array decreasingly
 * do nothing to the array
+

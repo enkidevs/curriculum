@@ -1,30 +1,22 @@
 ---
 author: alexjmackey
-
 levels:
-
   - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 standards:
-
   javascript.functions.1: 10
-
-tags:
-
+tags: []
+aspects:
   - introduction
-
-
 ---
 
 # Function Arguments
 
+
 ---
+
 ## Content
 
 When we pass primitive variables (such as numbers and strings) to functions in JavaScript they are *passed by value* which means that if we manipulate the argument value inside the function, changes will not be reflected outside the function.
@@ -32,7 +24,8 @@ When we pass primitive variables (such as numbers and strings) to functions in J
 However if we were to pass an object then changes *are* reflected on the object itself.
 
 For example:
-```
+
+```bash
 function changeVal(x){
     x=1000;
 }
@@ -50,32 +43,35 @@ changeObj(obj);
 console.log(obj.name);//Apple
 ```
 
+
 ---
+
 ## Practice
 
 In JavaScript, variables are ???.
-
 
 * passed by value
 * passed by reference
 * passed by their object
 
+
 ---
+
 ## Revision
 
 What will the following snippet output?
-```
-function changeProp(obj){
-  obj.name = "John";
-}
 
-var per = { name : "Alex"};
-changeProp(per);
-console.log(per.name);
-// ???
-```
+    function changeProp(obj){
+      obj.name = "John";
+    }
+
+    var per = { name : "Alex"};
+    changeProp(per);
+    console.log(per.name);
+    // ???
 
 * John
 * Alex
 * undefined
 * null
+

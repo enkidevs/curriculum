@@ -1,34 +1,28 @@
 ---
 author: alexjmackey
-
 levels:
-
   - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 standards:
   javascript.control-flow.0: 10
   javascript.control-flow.1: 10
-
-tags:
-
+tags: []
+aspects:
   - introduction
-
 ---
 
 # If Statement
 
+
 ---
+
 ## Content
 
 Like most programming languages JavaScript has a number of flow control statements including the standard *if*, *if else* and *switch* statements.
 
-```
+```bash
 var isNewCustomer=true;
 
 if(isNewCustomer===true){
@@ -38,13 +32,13 @@ if(isNewCustomer===true){
 if(invalidLogins > 3){
    ...
 }
-
 ```
+
 **If else**
 
 We can test multiple conditions using if else. The first expression that is found to be true will be executed and if none of them are true then the else condition (if it exists):
 
-```
+```bash
 if(isNewCustomer){
  ..
 }
@@ -55,9 +49,10 @@ else {
 ...
 }
 ```
+
 Sometimes code can be more readable using the switch statement although some developers feel this can be a bad idea as can lead to hard to maintain code:
 
-```
+```bash
 switch (customerType){
    case: "normal" :
          ...
@@ -70,24 +65,23 @@ switch (customerType){
 }
 ```
 
+
 ---
+
 ## Practice
 
 Complete the basic syntax of the following `switch` statement:
-```
-??? (checker) {
-   ???: "1" :
-        ...
-        break;
-   case: "2" :
-        ...
-        break;
-   ???:
-        ...
-}
 
-```
-
+    ??? (checker) {
+       ???: "1" :
+            ...
+            break;
+       case: "2" :
+            ...
+            break;
+       ???:
+            ...
+    }
 
 * `switch`
 * `case`
@@ -97,18 +91,18 @@ Complete the basic syntax of the following `switch` statement:
 * `else`
 * `if else`
 
+
 ---
+
 ## Revision
 
 How would you write an `if/else` statement?
-```
-if (condition <= 0) {
-  ...
-} ??? ??? (condition > 0) {
-  ...
-}
 
-```
+    if (condition <= 0) {
+      ...
+    } ??? ??? (condition > 0) {
+      ...
+    }
 
 * `else`
 * `if`
@@ -119,3 +113,4 @@ if (condition <= 0) {
 * `switch`
 * `case`
 * `==`
+

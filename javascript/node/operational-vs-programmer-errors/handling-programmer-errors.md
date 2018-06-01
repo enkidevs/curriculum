@@ -1,30 +1,27 @@
 ---
 author: mihaiberq
-
 levels:
   - beginner
   - basic
   - medium
-
 type: normal
-
 category: how to
-
 standards:
   javascript.identify-common-design-patterns.4: 10
   javascript.identify-common-design-patterns.5: 10
   javascript.identify-common-design-patterns.6: 10
   javascript.identify-common-design-patterns.8: 10
-
-tags:
+tags: []
+aspects:
   - introduction
   - workout
-
 ---
 
 # Handling Programmer Errors
 
+
 ---
+
 ## Content
 
 Programmer errors are *bugs*. Hence, they **can't and shouldn't** be handled. The only way to deal with them is to debug and fix the problem. If the error is expected, that makes it operational.
@@ -37,13 +34,14 @@ Undoubtedly, the best response is to *crash and restart* the server. This is the
 
 Remember that programmer errors on the server become operational errors on the client. They are the ones that have to deal with servers crashes and network issues. Most of the times, even just logging the error message for the user to see is better than providing no feedback of what is happening.
 
+
 ---
+
 ## Practice
 
 Can you identify what a successful system recovery implies?
 
 ???
-
 
 * Allowing a request to fail and reverting the state changes
 * Allowing a request to fail
@@ -51,10 +49,13 @@ Can you identify what a successful system recovery implies?
 * Fixing the programmer error
 * Handling the programmer error properly
 
+
 ---
+
 ## Revision
 
 Drawing an analogy between a disease and a server crashing, which of the following statements are equivalent?
+
 ```javascript
 Cause
 ???

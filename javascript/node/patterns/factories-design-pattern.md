@@ -1,30 +1,28 @@
 ---
 author: catalin
-
 levels:
   - advanced
   - medium
-
 type: normal
-
 category: best practice
-
 standards:
   javascript.identify-common-design-patterns.0: 20
   javascript.use-modules.0: 20
-
-tags:
+tags: []
+links:
+  - >-
+    [blog.risingstack.com](https://blog.risingstack.com/fundamental-node-js-design-patterns/){website}
+  - '[thenodeway.io](http://thenodeway.io/posts/designing-factories/){website}'
+aspects:
   - workout
   - deep
-
-links:
-  - '[blog.risingstack.com](https://blog.risingstack.com/fundamental-node-js-design-patterns/){website}'
-  - '[thenodeway.io](http://thenodeway.io/posts/designing-factories/){website}'
-
 ---
+
 # Factories design pattern
 
+
 ---
+
 ## Content
 
 In order to avoid custom object creation with different arguments, **factories** can be used instead. Their usage is obvious when working with complex constructors or you want to avoid *copypasta*.
@@ -47,7 +45,9 @@ function create (args) {
 module.exports.create = create;
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the gaps of the following snippets. First you need to define you `Enki` factory which exposes `createWithNumber` and `createWithString`:
@@ -98,7 +98,9 @@ const e2 = ???.???('55')
 * factory
 * init
 
+
 ---
+
 ## Revision
 
 Which of the following statements about the factory design pattern do you consider false?
@@ -109,3 +111,4 @@ Which of the following statements about the factory design pattern do you consid
 * factories begin to be useful when working with complex constructors
 * specific methods will create objects instead of the constructor
 * factory methods will call the constructor themselves
+

@@ -1,32 +1,28 @@
 ---
 author: catalin
-
 levels:
   - basic
   - advanced
   - medium
-
 type: normal
-
 category: feature
-
 standards:
   javascript.npm-tasks-and-modules-manager.0: 10
-
-tags:
+tags: []
+links:
+  - '[docs.npmjs.com](https://docs.npmjs.com/cli/cache){website}'
+parent: check-data-about-a-package
+aspects:
   - workout
   - deep
   - new
-
-links:
-  - '[docs.npmjs.com](https://docs.npmjs.com/cli/cache){website}'
-
-parent: check-data-about-a-package
-
 ---
+
 # Manipulate npm packages cache
 
+
 ---
+
 ## Content
 
 The `npm cache` utility is used to **add**, **list** or **clear** the npm cache folder.
@@ -61,7 +57,9 @@ If no argument is provided, the entire cache will be deleted.
 $ npm config get cache
 ```
 
+
 ---
+
 ## Practice
 
 How can you clear your npm cache?
@@ -78,7 +76,9 @@ $ ??? ??? ???
 * config
 * cache-clean
 
+
 ---
+
 ## Revision
 
 How can you get the path to your npm cache?
@@ -97,3 +97,4 @@ $ ??? ??? ??? ???
 * isAt
 * getPath
 * ls
+

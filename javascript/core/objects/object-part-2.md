@@ -1,28 +1,25 @@
 ---
 author: alexjmackey
-
 levels:
   - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 standards:
   javascript.data-types-structures.3: 10
   javascript.data-types-structures.4: 10
   javascript.evaluate-expressions.6: 10
   javascript.evaluate-expressions.7: 10
-
-tags:
+tags: []
+aspects:
   - introduction
-
 ---
+
 # Object - Part 2
 
+
 ---
+
 ## Content
 
 Object's properties can also be functions.
@@ -65,7 +62,9 @@ var p2 = new Person("joe","smith");
 
 You can even implement inheritance in JavaScript by building on this but this is a more advanced technique.
 
+
 ---
+
 ## Practice
 
 Fill in the gaps of the following constructor function such that the code below it works as intended:
@@ -98,7 +97,9 @@ flash.superpowers.greet()
 * superhero
 * powers
 
+
 ---
+
 ## Revision
 
 You can invoke an object's method by writing:
@@ -108,3 +109,4 @@ You can invoke an object's method by writing:
 * ob.methodName();
 * ob.methodName;
 * methodName(ob);
+

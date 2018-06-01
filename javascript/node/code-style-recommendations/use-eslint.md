@@ -1,25 +1,23 @@
 ---
 author: mihaiberq
-
 levels:
   - beginner
   - basic
   - medium
-
 type: normal
-
 category: how to
-
 standards:
   javascript.identify-common-design-patterns.7: 10
-
-tags:
+tags: []
+aspects:
   - introduction
-
 ---
+
 # Use ESLint
 
+
 ---
+
 ## Content
 
 While you can get away with not being too consistent in small, personal projects, the lack of attention to details may be the cause for a lot of problems. Details like *semicolons*, *spacing* and even *anti-patterns* are hard to keep track of when trying to meet a deadline.
@@ -31,6 +29,7 @@ The standard is `ESLint`. It can be installed through *npm* and integrated with 
 A lot of customization can go on with `ESLint`. You can abide by open-source, community supported set of rules or you can write your own. Usually, the best idea is to customize open-source ones. One of the most known is `eslint-config-airbnb`.
 
 Any configuration goes into the `.eslintrc` file that is created after running `eslint --init` in the main folder, as `JSON` objects. For example, here's how rules are defined:
+
 ```json
 {
     "rules": {
@@ -39,9 +38,12 @@ Any configuration goes into the `.eslintrc` file that is created after running `
     }
 }
 ```
+
 You can also have different rules for different types of files: `.css`, `.js`, or `.html`.
 
+
 ---
+
 ## Practice
 
 Is the following statement true or false?
@@ -53,7 +55,9 @@ ESLint can be integrated with text editors and IDEs.
 * True
 * False
 
+
 ---
+
 ## Revision
 
 A linter is, among others, ???
@@ -62,3 +66,4 @@ A linter is, among others, ???
 * a set of rules concerning modularity
 * a Node.js extension
 * an offline Node.js compiler  
+

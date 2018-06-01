@@ -1,35 +1,29 @@
 ---
 author: jordanfish
-
 levels:
-
   - basic
-
 type: normal
-
 category: caveats
-
 standards:
-
   javascript.control-flow.2: 10
-
   javascript.data-types-structures.5: 10
-
-tags:
-
-  - introduction
-
-
+tags: []
 links:
+  - >-
+    [www.standardista.com](http://www.standardista.com/javascript/15-common-javascript-gotchas){website}
+aspects:
+  - introduction
+---
 
-  - '[www.standardista.com](http://www.standardista.com/javascript/15-common-javascript-gotchas){website}'
+# Data type comparison in 
+
+`switch`
+
+ statements
 
 
 ---
 
-# Data type comparison in `switch` statements
-
----
 ## Content
 
 The `==` operator does not care for types. Therefore, the following `if` condition will pass:
@@ -41,7 +35,9 @@ if (test == '5'){
 }
 // Ay caramba
 ```
+
 Instead, the `===` operator won't do any type conversion and the `if` condition will be evaluated to `false`:
+
 ```javascript
 if (test === '5') {
   console.log('Ay caramba');
@@ -50,7 +46,9 @@ if (test === '5') {
 }
 // Expected
 ```
+
 Keep in mind that **JavaScript** uses **strict comparison** for `switch` statements:
+
 ```javascript
 var test = 5;
 switch (test) {
@@ -61,10 +59,13 @@ switch (test) {
 
 Therefore, the code snippet above won't `log` anything.
 
+
 ---
+
 ## Practice
 
 Complete the following code snippet such that `A` is logged to the `console`:
+
 ```javascript
 var x = 1;
 switch (???) {
@@ -73,7 +74,6 @@ switch (???) {
 }
 // A
 ```
-
 
 * `x`
 * `case`
@@ -86,10 +86,13 @@ switch (???) {
 * `A`
 * `'A'`
 
+
 ---
+
 ## Revision
 
 What will the following snippet output?
+
 ```javascript
 var x = 10;
 switch(x){
@@ -102,3 +105,4 @@ switch(x){
 * `nothing`
 * `'Hi!'`
 * `an error`
+

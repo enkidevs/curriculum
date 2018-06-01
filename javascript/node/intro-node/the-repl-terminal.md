@@ -1,28 +1,25 @@
 ---
 author: tommarshall
-
 levels:
   - beginner
-
 type: normal
-
 category: must-know
-
 standards:
   javascript.node-developer-environment.5: 10
-
-tags:
-  - introduction
-
+tags: []
 links:
-  - '[tutorialsteacher.com](http://www.tutorialsteacher.com/nodejs/nodejs-console-repl){website}'
-
+  - >-
+    [tutorialsteacher.com](http://www.tutorialsteacher.com/nodejs/nodejs-console-repl){website}
 parent: installing-node-js
-
+aspects:
+  - introduction
 ---
+
 # The REPL Terminal
 
+
 ---
+
 ## Content
 
 REPL stands for Read Eval Print Loop. It represents an environment similar to a Windows console or Linux shell, where commands can be entered and the system would respond with the appropriate output.
@@ -35,6 +32,7 @@ REPL stands for Read Eval Print Loop. It represents an environment similar to a 
 A key benefit of using Node's REPL terminal is that it helps iron out any irregularities found in an application, meaning that there are no side effects when the code is ran in the application.
 
 The REPL terminal can be used for simple expressions as follows:
+
 ```bash
 $ node
 > 4 + 2 * 9 - 6
@@ -52,23 +50,28 @@ undefined
 35
 ```
 
+
 ---
+
 ## Practice
 
 What does the following print?
+
 ```bash
 $ node
 > 3 + 7 * 3 - 4
 ```
-???
 
+???
 
 * 20
 * command not found: 3
 * 26
-* -10
+* \-10
+
 
 ---
+
 ## Revision
 
 What does REPL stand for?

@@ -1,61 +1,52 @@
 ---
 author: rosielowther
-
 levels:
-
   - basic
-
   - advanced
-
   - medium
-
 type: normal
-
 category: best practice
-
 standards:
-
   javascript.functions.4: 10
-
   javascript.functions.5: 10
-
   javascript.functions.6: 10
-
   javascript.functions.7: 10
-
-tags:
-
-  - introduction
-
-  - workout
-
-
+tags: []
 links:
-
-  - '[benalman.com](http://benalman.com/news/2010/11/immediately-invoked-function-expression/){website}'
-  - '[stackoverflow.com](http://stackoverflow.com/questions/592396/what-is-the-purpose-of-a-self-executing-function-in-javascript){website}'
-  - '[markdalgleish.com](http://markdalgleish.com/2011/03/self-executing-anonymous-functions/){website}'
-
-
+  - >-
+    [benalman.com](http://benalman.com/news/2010/11/immediately-invoked-function-expression/){website}
+  - >-
+    [stackoverflow.com](http://stackoverflow.com/questions/592396/what-is-the-purpose-of-a-self-executing-function-in-javascript){website}
+  - >-
+    [markdalgleish.com](http://markdalgleish.com/2011/03/self-executing-anonymous-functions/){website}
+aspects:
+  - introduction
+  - workout
 ---
 
 # IIFE pattern
 
+
 ---
+
 ## Content
 
 The **Immediately Invoked Function Expression pattern** (**IIFE** or "iffy") is a function expression (either named or anonymous) that is immediately called. 
 
 The syntax is:
-```
+
+```bash
 (function(){
     // do something
 }());
 ```
+
 It is an alternative to:
-```
+
+```bash
 // do something
 ```
+
 You can use self-executing functions to maintain a **clean scope**, as variables declared within the function are not available outside it.
 
 Two possible uses are:
@@ -66,7 +57,7 @@ Two possible uses are:
 
 For example:
 
-```
+```bash
 (function(global){
   function fun(){
       return "Hello World!";
@@ -75,11 +66,12 @@ For example:
 }(window)); // reference to window object
 ```
 
+
 ---
+
 ## Practice
 
 A use case of the IIFE pattern is to wrap the whole code in an IIFE and pass in the ??? object. This could be given an alias of ???. Global public properties could then be made accessible.
-
 
 * `window` 
 * `global` 
@@ -87,7 +79,9 @@ A use case of the IIFE pattern is to wrap the whole code in an IIFE and pass in 
 * `new` 
 * `returned`
 
+
 ---
+
 ## Revision
 
 What's the syntax of an **IIFE** ?
@@ -96,7 +90,6 @@ What's the syntax of an **IIFE** ?
 (??? () {
 }???);
 ```
-
 
 * `function`
 * `()`

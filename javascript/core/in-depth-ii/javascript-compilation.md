@@ -1,44 +1,28 @@
 ---
 author: rosielowther
-
 levels:
-
   - basic
-
   - advanced
-
   - medium
-
 type: normal
-
 category: feature
-
 standards:
-
   javascript.functions.1: 10
-
   javascript.functions.5: 10
-
   javascript.functions.6: 10
-
   javascript.execution-context.4: 10
-
-tags:
-
+tags: []
+aspects:
   - deep
-
   - workout
-
   - obscura
-
-
-
-
 ---
 
 # JavaScript compilation
 
+
 ---
+
 ## Content
 
 A common **misconception** is that JavaScript is **not compiled**.
@@ -50,7 +34,8 @@ The compiler looks for variable and function **declarations** and registers them
 JavaScript is **function** scoped.
 
 For example:
-```
+
+```bash
 var a = 2; // a is in global
 var b = 3; // b is in global
 function fun(){ // fun is in global
@@ -59,15 +44,15 @@ function fun(){ // fun is in global
         var b = 3; // b is in yes
     }
 }
-
-
-
 ```
+
 Then the code is executed.
 
 There are many sophisticated compilation techniques such as **jit** compilation, which only compiles a function if it reads a call to that function in the code.
 
+
 ---
+
 ## Practice
 
 Find the variable scopes in the following code:
@@ -83,7 +68,6 @@ function test() {
 }
 ```
 
-
 * global
 * test
 * test2
@@ -92,10 +76,13 @@ function test() {
 * var
 * project
 
+
 ---
+
 ## Revision
 
 Find each variable scope in the following code:
+
 ```javascript
 var a = 1; // a is in global
 var b = 2; // b is in ???
