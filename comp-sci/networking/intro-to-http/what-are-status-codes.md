@@ -29,15 +29,16 @@ parent: what-is-an-url
 # What are status codes
 
 ---
+
 ## Content
 
 **Status codes** are 3-digit integers, part of the server's response in the HTTP protocol.
 
-By using URLs and HTTP verbs (more on these in a future workout), a client can make requests to the server, which sends back a response containing the *status* of the request and a message *payload*.
+By using URLs and HTTP verbs (more on these in a future workout), a client can make requests to the server, which sends back a response containing the _status_ of the request and a message _payload_.
 
-The *status code* indicates whether the request has been successfully processed or not. The codes are grouped into *five* classes:
+The _status code_ indicates whether the request has been successfully processed or not. The codes are grouped into _five_ classes:
 
- - **Informational messages** (`1xx`): This class was introduced in `HTTP/1.1` and indicates that everything is OK so far and that the client can continue with the request.
+- **Informational messages** (`1xx`): This class was introduced in `HTTP/1.1` and indicates that everything is OK so far and that the client can continue with the request.
 
 - **Success messages** (`2xx`): These ones tell the client that the request was acknowledged and successfully processed.
 
@@ -48,29 +49,28 @@ The *status code* indicates whether the request has been successfully processed 
 - **Server-error messages** (`5xx`): They show that the server failed to process the request.
 
 ---
+
 ## Practice
 
 What first digit in the status code does imply a **successfully processed request**?
 
 ???
 
-
-* `2`
-* `1`
-* `5`
-* `3`
-* `4`
+- `2`
+- `1`
+- `5`
+- `3`
+- `4`
 
 ---
+
 ## Revision
 
 If the client gets a `5xx` status code, it means that
 
 ???
 
-
-* the server failed to process the request
-* the request was processed successfully
-* the requested resource can be found at another address
-* everything is OK so far
-
+- the server failed to process the request
+- the request was processed successfully
+- the requested resource can be found at another address
+- everything is OK so far

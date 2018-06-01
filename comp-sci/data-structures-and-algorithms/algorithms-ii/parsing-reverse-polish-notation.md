@@ -24,21 +24,24 @@ parent: reverse-polish-notation
 # Parsing Reverse Polish Notation
 
 ---
+
 ## Content
 
-Postfix notation is used in *stack-based* languages and *pipeline-based* systems, like Unix pipelines.
+Postfix notation is used in _stack-based_ languages and _pipeline-based_ systems, like Unix pipelines.
 
 For calculators, an advantage of using this notation comes from the fact that fewer operations are required to analyse an expression, since there is no need to take parentheses into consideration.
 
 The algorithm to calculate a RPN expression is as follows:
+
 - Starting with the left-most token, while there is input left:
   - Read the next token.
   - If the token is a value, push it onto the stack.
-  - If the token is an operator, pop *n* values (required by the operator) from the stack, evaluate the expression then push the result back. Return an *error* if there aren't sufficient items in stack
-- If there is more than one value left in the stack after reading all the input, return an *error*.
-- Else, return the *value*.
+  - If the token is an operator, pop _n_ values (required by the operator) from the stack, evaluate the expression then push the result back. Return an _error_ if there aren't sufficient items in stack
+- If there is more than one value left in the stack after reading all the input, return an _error_.
+- Else, return the _value_.
 
 `2 5 + 3 ×` would be evaluated as:
+
 ```
 Stack = []
 2 - operand: push(2); Stack = [2]
@@ -55,27 +58,28 @@ Stack = []
 ```
 
 ---
+
 ## Practice
 
 What values would be left in the stack after the evaluation of `10 5 * 2 + 3 3`?
 
 ???
 
-* [52,3,3]
-* [55,3]
-* [55]
-* [58]
-* [23,3]
+- [52,3,3]
+- [55,3]
+- [55]
+- [58]
+- [23,3]
 
 ---
+
 ## Revision
 
 What are the contents of the stack after evaluating a `valid` postfix expression?
 
 ???
 
-* A single value.
-* Two values.
-* A single operator.
-* The stack is empty.
-
+- A single value.
+- Two values.
+- A single operator.
+- The stack is empty.
