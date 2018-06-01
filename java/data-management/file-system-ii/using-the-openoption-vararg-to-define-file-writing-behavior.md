@@ -32,11 +32,13 @@ links:
 # Using the `OpenOption...` vararg to define file writing behavior
 
 ---
+
 ## Content
 
 The `OpenOption` parameter is an optional argument which can take one or more values which define file writing behavior.
 
 The `Files.newOutputStream` method can take one or more `CopyOption` arguments:
+
 ```
 OutputStream out = new BufferedOutputStream(
   Files.newOutputStream(
@@ -46,7 +48,7 @@ OutputStream out = new BufferedOutputStream(
   )
 );
 ```
+
 `CREATE` specifies that a file is to be created if it does not already exist, and `APPEND` specifies that if a file already exists then the new data will be appended to the end of it.
 
 There are several other available `CopyOption` arguments such as `DELETE_ON_CLOSE`.
-

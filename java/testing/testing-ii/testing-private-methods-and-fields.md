@@ -17,13 +17,15 @@ category: tip
 # Testing Private Methods and Fields
 
 ---
+
 ## Content
 
-Times may come when you will have to test **private** methods. As using *inner classes* to write tests is *not advisable* (as tests would likely end up in production), three other methods are to be considered.
+Times may come when you will have to test **private** methods. As using _inner classes_ to write tests is _not advisable_ (as tests would likely end up in production), three other methods are to be considered.
 
 The least intrusive method is to test **the contract** that class has with other objects: is every other object for which the private method was used behaving properly? If they do, then you can assume the code works as expected.
 
-Another option is to use **reflection**.  Reflection can be used for observing and modifying program execution. It allows for instantiation of objects and invocation of methods that would otherwise be private:
+Another option is to use **reflection**. Reflection can be used for observing and modifying program execution. It allows for instantiation of objects and invocation of methods that would otherwise be private:
+
 ```java
 import java.lang.reflect.Method;
 
@@ -50,30 +52,32 @@ public class User {
     }
 }
 ```
-The last option would be to **refactor** said class. Maybe the class to be tested does too much and some functionality can be moved inside another class. This, again, is a matter of *software design*.
+
+The last option would be to **refactor** said class. Maybe the class to be tested does too much and some functionality can be moved inside another class. This, again, is a matter of _software design_.
 
 ---
+
 ## Practice
 
 Is the following statement true?
+
 ```
 JUnit can test private methods by itself.
 ???
 ```
 
-* False
-* True
+- False
+- True
 
 ---
+
 ## Revision
 
 The least intrusive method of unit testing private methods and fields is to
 
 ???
 
-
-* test the contract between the classes
-* use reflection to gain access to the private methods
-* refactor the class
-* define an inner testing class
-
+- test the contract between the classes
+- use reflection to gain access to the private methods
+- refactor the class
+- define an inner testing class

@@ -19,9 +19,11 @@ links:
     [www.programmerinterview.com](http://www.programmerinterview.com/index.php/java-questions/java-whats-the-difference-between-equals-and/){website}
 
 ---
+
 # Difference between `==` and `equals()`
 
 ---
+
 ## Content
 
 Using `==` with a primitive `int` , `double`, `char` checks if values are identical. However using it with objects checks if they are stored in the same **memory location**.

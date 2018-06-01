@@ -27,54 +27,58 @@ notes: >-
 # Stop-the-world and Garbage Collection
 
 ---
+
 ## Content
 
-`Java` features automatic memory management also known as *garbage collection* (GC). Once an instance of an object becomes unreachable from the executing program, it's classified as garbage and the memory it takes up should eventually be freed.
+`Java` features automatic memory management also known as _garbage collection_ (GC). Once an instance of an object becomes unreachable from the executing program, it's classified as garbage and the memory it takes up should eventually be freed.
 
-*Stop-the-world* (STW) means that the *JVM* is stopping the application from running to execute a *GC*.
+_Stop-the-world_ (STW) means that the _JVM_ is stopping the application from running to execute a _GC_.
 
-When *GC* occurs every thread, except the ones used by it, will stop and will only resume after the *GC* task finishes.
+When _GC_ occurs every thread, except the ones used by it, will stop and will only resume after the _GC_ task finishes.
 
-You can enable *GC* logging before running an application:
+You can enable _GC_ logging before running an application:
+
 ```java
 $ java -XX:+PrintGCDetails MyApplication
 ```
 
-A common *GC* algorithm is **Mark Sweep Compact** (MSC) that HotSpot tend to use by default, being implemented with a *STW* approach.
+A common _GC_ algorithm is **Mark Sweep Compact** (MSC) that HotSpot tend to use by default, being implemented with a _STW_ approach.
 
-**Concurrent Mark Sweep** (CMS) is an other *GC* algorithm. It does not use *STW* pauses.
+**Concurrent Mark Sweep** (CMS) is an other _GC_ algorithm. It does not use _STW_ pauses.
 
-You can enable *CMS* :
+You can enable _CMS_ :
 
 ```java
 $ java -XX:+UseConcMarkSweepGC MyApplication
 ```
-It's designed to minimize *GC* pauses and thus keep the application responsive.
+
+It's designed to minimize _GC_ pauses and thus keep the application responsive.
 
 ---
+
 ## Practice
 
 Enable **GC** logging when running the java application:
-```
-$ java -XX:+??? 
-              Enki
-````
 
-* `PrintGCDetails` 
-* `GCLog` 
-* `GCLogging` 
-* `PrintGarbageCollection`
+```
+$ java -XX:+???
+              Enki
+```
+
+- `PrintGCDetails`
+- `GCLog`
+- `GCLogging`
+- `PrintGarbageCollection`
 
 ---
+
 ## Revision
 
 What does **Stop-the-world** mean?
 
 ???
 
-
-* `program is stopped so GC can execute` 
-* `GC is stopped` 
-* `program terminates` 
-* `main thread is stopped`
-
+- `program is stopped so GC can execute`
+- `GC is stopped`
+- `program terminates`
+- `main thread is stopped`

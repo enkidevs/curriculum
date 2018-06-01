@@ -21,11 +21,12 @@ links:
 # Thread Synchronization
 
 ---
+
 ## Content
 
-**Synchronization** is a process of controlling the workflow of the threads regarding the order in which they access shared resources. This is a vital part of *threading* topic as threads often make use of the same resources which may lead to unforeseen results and data corruption due to parallel running. The situation in which the same resources are accessed and/or modified at the same time is called *race condition* and should be avoided to ensure correctness of the program.
+**Synchronization** is a process of controlling the workflow of the threads regarding the order in which they access shared resources. This is a vital part of _threading_ topic as threads often make use of the same resources which may lead to unforeseen results and data corruption due to parallel running. The situation in which the same resources are accessed and/or modified at the same time is called _race condition_ and should be avoided to ensure correctness of the program.
 
-*Java* provides us with inbuilt synchronization functionality. It is possible to either synchronize a concrete method or a block of code.
+_Java_ provides us with inbuilt synchronization functionality. It is possible to either synchronize a concrete method or a block of code.
 
 - In order to synchronize on a method `synchronized` is written before the return type of a method. In the example below, `printSeq` is a synchronized method which means that if two or more thread instances call it they will have to wait until the previous thread finishes executing it.
 
@@ -40,7 +41,7 @@ class synchExample {
       catch(Exception e) {
         System.out.println(e);
       }  
-    }    
+    }
   }  
 }  
 ```
@@ -60,27 +61,26 @@ Where `object reference` is whatever object your class has access to.
 More general approaches will be discussed in further insights.
 
 ---
+
 ## Practice
 
 Where should `synchronized` be in order for a method to work?
 
 ???
 
-
-* before return type
-* before access type
-* before the name of the method
+- before return type
+- before access type
+- before the name of the method
 
 ---
+
 ## Revision
 
 What key word provides inbuilt Java synchronization?
 
 ???
 
-
-* `synchronized`
-* `parallel`
-* `sequenced`
-* `ordered`
-
+- `synchronized`
+- `parallel`
+- `sequenced`
+- `ordered`

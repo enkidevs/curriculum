@@ -20,15 +20,18 @@ links:
 # Serializing
 
 ---
+
 ## Content
 
 **NOTE:** whenever an object is serialized to a file, conventionally this file is given a `.ser` extension although it can be any other type of file such as `.txt`.
 
 In order for the object to be serializable two conditions must be held:
+
 - It has to implement `java.io.Serializable` interface
 - Fields of an objects must be serializable, otherwise they must be marked as `transient`[1]
 
 For example, let's say we want to store a copy of `Car` object on a local machine:
+
 ```
 import java.io.*;
 public class carSerialization {
@@ -69,12 +72,13 @@ class Pair<L extends Serializable,
 ```
 
 ---
+
 ## Practice
 
 Consider the following:
 
 ```
-class Engine { //not serializable    
+class Engine { //not serializable
     private int numberOfCilinders;
     private int volumeInLitres;
     private String model;
@@ -97,16 +101,16 @@ What could be done to Car in order to avoid the above problem?
 
 ???
 
-
-* No, Car has a non serializable field
-* Engine should be marked as `transient`
-* Yes, Car is serializable
-* No, Car doesn't implement the necessary interface
-* No, Car doesn't inherit form a serializable class
-* Engine should be marked as `public`
-* Car should implement `clonable` interface
+- No, Car has a non serializable field
+- Engine should be marked as `transient`
+- Yes, Car is serializable
+- No, Car doesn't implement the necessary interface
+- No, Car doesn't inherit form a serializable class
+- Engine should be marked as `public`
+- Car should implement `clonable` interface
 
 ---
+
 ## Revision
 
 What interface should a class implement in order to be serializable?
@@ -121,15 +125,16 @@ What is the conventional extension of a file that the information about the clas
 
 ???
 
-
-* serializable
-* `transient`
-* `.ser`
-* clonable
-* `.txt`
-* `public`
+- serializable
+- `transient`
+- `.ser`
+- clonable
+- `.txt`
+- `public`
 
 ---
+
 ## Footnotes
+
 [1:`transient`]
 We mark fields with `transient` if this field will not be serialized and the information about this field will not be transferred. The motivation for this may be that this particular piece of information is redundant for the receiver or is too risky to transfer (i.e. passwords or other private data).

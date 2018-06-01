@@ -30,15 +30,17 @@ links:
 # Removing leading or trailing white space from a string
 
 ---
+
 ## Content
 
 Sometimes strings will contain unnecessary white space at the beginning or end. This is often due to user input. Unnecessary white space can be removed by using `String.trim()`.
 
 For example:
+
 ```
 String original = "    Enki    ";
 String trimmed = original.trim();
 System.out.println(trimmed);
 ```
-The output printed by the example above will be: `Enki`.
 
+The output printed by the example above will be: `Enki`.

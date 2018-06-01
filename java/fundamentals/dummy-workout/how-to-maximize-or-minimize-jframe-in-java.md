@@ -27,9 +27,11 @@ links:
     [stackoverflow.com](http://stackoverflow.com/questions/3965336/how-to-minimize-a-jframe-window-from-java){website}
 
 ---
+
 # How to maximize or minimize `JFrame` in Java
 
 ---
+
 ## Content
 
 It turns out that it is quite a straightforward task involving only a few lines of code.

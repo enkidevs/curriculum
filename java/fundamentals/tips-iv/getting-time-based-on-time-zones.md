@@ -30,9 +30,10 @@ links:
 # Getting time based on time zones
 
 ---
+
 ## Content
 
-The `TimeZone` class can be used to retrieve the time zone of a particular location and can also figure out daylight savings. 
+The `TimeZone` class can be used to retrieve the time zone of a particular location and can also figure out daylight savings.
 
 The `getDefault()` method can be used to get the time zone where the program is running.
 
@@ -58,41 +59,40 @@ public class TimeZoneTest {
 
 	System.out.printf("Time in New York is:
 		 %02d:%02d:%02d", hour, minute, second);
-	
+
 	}
 }
 
 /*
-Output: 
+Output:
 Time in New York is: 19:18:31
 */
 ```
 
 ---
+
 ## Practice
 
 What method can be used to get the timezone of the location where the program is running?
 
 `???`
 
-
-* `TimeZone.getDefault()` 
-* `TimeZone.getStandard()` 
-* `TimeZone.getLocalTimeZone()` 
-* `TimeZone.getTimeZone()`
+- `TimeZone.getDefault()`
+- `TimeZone.getStandard()`
+- `TimeZone.getLocalTimeZone()`
+- `TimeZone.getTimeZone()`
 
 ---
+
 ## Revision
 
 What library can be used to determine the timezone of a specific location, but also figure out daylight saving?
 
 `???`
 
-
-* `TimeZone` 
-* `GeorgianCalendar` 
-* `Time` 
-* `Timezone` 
-* `Calendar` 
-* `Date`
-
+- `TimeZone`
+- `GeorgianCalendar`
+- `Time`
+- `Timezone`
+- `Calendar`
+- `Date`

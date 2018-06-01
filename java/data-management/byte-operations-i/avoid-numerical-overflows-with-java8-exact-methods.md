@@ -18,30 +18,35 @@ notes: 'https://insights.enki.com/#/contrib/others/55f03d0d1baba32f002fd319?sear
 
 ---
 
-# Avoid numerical overflows with *Java8* `exact` methods.
+# Avoid numerical overflows with _Java8_ `exact` methods.
 
 ---
+
 ## Content
 
-In order to avoid *numerical overflows* or *underflows* (that is assigning a value to a variable whose type size does not allow it) a certain set of methods have been added with **Java 8**.
-
+In order to avoid _numerical overflows_ or _underflows_ (that is assigning a value to a variable whose type size does not allow it) a certain set of methods have been added with **Java 8**.
 
 The `Math` class has been enhanced with the release of **Java 8**, adding a new set of `exact` methods.
 
 Adding two numbers:
+
 ```java
 Math.addExact(a,b);
 ```
 
 Multiplying two numbers:
+
 ```java
 Math.multiplyExact(a,b);
 ```
+
 Incrementing a number:
+
 ```java
 Math.incrementExact(a);
 ```
- If an *overflow* or *underflow* occurs, then the methods will throw an `ArithmeticException` exception:
+
+If an _overflow_ or _underflow_ occurs, then the methods will throw an `ArithmeticException` exception:
 
 ```java
 System.out.println(100000 * 100000);
@@ -52,29 +57,28 @@ System.out.println(
 ```
 
 ---
+
 ## Practice
 
 What exception will be thrown when an overflow or an underflow occurs using **exact** methods of the `Math` class?
 
 `???`
 
-
-* `ArithmeticException` 
-* `FileNotFoundException` 
-* `ArrayIndexOutOfBoundsException` 
-* `ExactArithmeticException` 
-* `OverflowlowException`
+- `ArithmeticException`
+- `FileNotFoundException`
+- `ArrayIndexOutOfBoundsException`
+- `ExactArithmeticException`
+- `OverflowlowException`
 
 ---
+
 ## Revision
 
 What method can be used from the `Math` class such that numerical overflows and underflows are avoided during addition?
 
 `???`
 
-
-* `addExact` 
-* `incrementExact` 
-* `add` 
-* `exactAdd`
-
+- `addExact`
+- `incrementExact`
+- `add`
+- `exactAdd`

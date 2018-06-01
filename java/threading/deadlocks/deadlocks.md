@@ -22,12 +22,12 @@ links:
 # Deadlocks
 
 ---
+
 ## Content
 
 **Deadlock** is a situation in which two or more processes/threads are accessing same resources in a mutually exclusive fashion.
 
 A simple example:
-
 
 ```
 Thread1:
@@ -37,7 +37,6 @@ Thread1:
 4: release(lock2);//releases locks
 5: release(lock1);
 ```
-
 
 ```
 Thread2:
@@ -50,29 +49,28 @@ Thread2:
 
 If we consider a situation in which `Thread1` acquires `lock1` and then `Thread2` acquires `lock2` (this can happen as these actions are not synchronized), then we end up in a **deadlock** situation as none of the two threads can proceed further.
 
-**Deadlock** is not limited to two threads only, for example *dining philosophers* problem.
+**Deadlock** is not limited to two threads only, for example _dining philosophers_ problem.
 
 ---
+
 ## Practice
 
-What lines in `Thread2` should we swap to avoid a *deadlock* situation?
+What lines in `Thread2` should we swap to avoid a _deadlock_ situation?
 
 ???
 
-
-* lines 2 & 1
-* lines 4 & 5
-* lines 3 & 2
+- lines 2 & 1
+- lines 4 & 5
+- lines 3 & 2
 
 ---
+
 ## Revision
 
-What is a *deadlock*?
+What is a _deadlock_?
 
 ???
 
-
-* A situation in which processes fail to acquire resources due to mutual exclusion
-* A situation in which a process does not free it's resources after execution
-* A situation when all resources are acquired by the processes
-
+- A situation in which processes fail to acquire resources due to mutual exclusion
+- A situation in which a process does not free it's resources after execution
+- A situation when all resources are acquired by the processes

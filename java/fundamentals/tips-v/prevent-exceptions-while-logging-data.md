@@ -24,11 +24,12 @@ links:
 # Prevent `exceptions` while logging Data
 
 ---
+
 ## Content
 
-Successful logging can be *prevented* by exceptions thrown while logging is in progress!
+Successful logging can be _prevented_ by exceptions thrown while logging is in progress!
 
-This allows potential attackers to *conceal* *security vulnerabilities* by preventing them from being logged.
+This allows potential attackers to _conceal_ _security vulnerabilities_ by preventing them from being logged.
 
 ```java
 try {
@@ -39,13 +40,12 @@ try {
 }
 ```
 
-This is erroneous, as **firstly**, the error stream can be *closed*, preventing any more exceptions from being *recorded*. 
+This is erroneous, as **firstly**, the error stream can be _closed_, preventing any more exceptions from being _recorded_.
 **Secondly**, while writing the `SecurityException`, an `I/O Exception` could be thrown, overwriting the previous `SecurityException`.
 
 Better practice is to use the `java.util.logging.Logger` API to record Exceptions:
 
 ```java
-
 try {
   // ...
 } catch(SecurityException se) {
@@ -55,4 +55,3 @@ try {
 ```
 
 Only one logger is required for the entire program.
-

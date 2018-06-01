@@ -23,14 +23,16 @@ links:
     [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/concepts/inheritance.html){website}
 
 ---
+
 # Using Inheritance to reduce code repetition
 
 ---
+
 ## Content
 
-The properties and behaviour of one class can be *inherited* by another class. This allows us to limit code repetition, as repeated behaviour only needs to be defined in one class, and can then be inherited by others.
+The properties and behaviour of one class can be _inherited_ by another class. This allows us to limit code repetition, as repeated behaviour only needs to be defined in one class, and can then be inherited by others.
 
-All animals have certain behaviour in common, for example, therefore we can define an `Animal` class which implements this common behaviour. 
+All animals have certain behaviour in common, for example, therefore we can define an `Animal` class which implements this common behaviour.
 
 Any further animal classes we write can then extend `Animal` and inherit the common behaviour.
 
@@ -51,9 +53,10 @@ public class Dog extends Animal {
 ```
 
 ---
+
 ## Practice
 
-Which keyword is used when inheriting another classes methods? 
+Which keyword is used when inheriting another classes methods?
 
 ???
 
@@ -63,12 +66,13 @@ Which keyword is used when inheriting another classes methods?
 *inherits
 
 ---
+
 ## Revision
 
-What’s the main advantage of using class inheritance in your code? 
+What’s the main advantage of using class inheritance in your code?
 
 ???
 
 *It prevents code repetition.
 *It reduces compilation time.
-*It increases your codes readability.
+\*It increases your codes readability.

@@ -19,19 +19,22 @@ category: tip
 # Careful Numeric Data Conversions
 
 ---
+
 ## Content
 
 Converting a numeric type to a narrower type must be done with care or you could end up with **lost** and/or **misinterpreted data**.
 
 Here are the numeric data types and what types they can be converted to:
-- *short*  -> byte, char
-- *char*   -> byte, short
-- *int* -> byte, short, char
-- *long* -> byte, short, char, int
-- *float* -> byte, short, char, int, long
-- *double* -> byte, short, char, int, long, float
+
+- _short_ -> byte, char
+- _char_ -> byte, short
+- _int_ -> byte, short, char
+- _long_ -> byte, short, char, int
+- _float_ -> byte, short, char, int, long
+- _double_ -> byte, short, char, int, long, float
 
 Here is an example of a safe, checked conversion narrowing an `int` to a `byte`:
+
 ```java
 public static void convert(int i) {
   // check i's value
@@ -48,9 +51,10 @@ public static void convert(int i) {
 ```
 
 ---
-## Quiz 
-### Can you identify how type conversion works in the following example?
 
+## Quiz
+
+### Can you identify how type conversion works in the following example?
 
 What is the output of the following snippet?
 
@@ -65,10 +69,9 @@ public class Main {
 }
 ```
 
+???
 
- ???
-
-* a97
-* aa
-* true
-* false
+- a97
+- aa
+- true
+- false

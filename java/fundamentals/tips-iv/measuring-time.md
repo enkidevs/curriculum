@@ -28,35 +28,36 @@ links:
 # Measuring time
 
 ---
+
 ## Content
 
-Many applications require a very precise time measurement. 
+Many applications require a very precise time measurement.
 
 `currentTimeMillis()` returns current time in milliseconds since Epoch Time, as a `long` variable:
 
 ```
 long startTime = System.currentTimeMillis();
-long estimatedTime 
+long estimatedTime
   = System.currentTimeMillis() - startTime;
 ```
 
-`nanoTime()` returns the current value of the most precise available system timer, in nanoseconds, in `long` form. `nanoTime()` is meant for measuring relative time intervals                   instead of providing absolute timing.
+`nanoTime()` returns the current value of the most precise available system timer, in nanoseconds, in `long` form. `nanoTime()` is meant for measuring relative time intervals instead of providing absolute timing.
 
 ```
 long startTime = System.nanoTime();
-long estimatedTime 
+long estimatedTime
   = System.nanoTime() - startTime;
 ```
 
 ---
+
 ## Revision
 
 Which method is more precise than `currentTimeMillis()` when calculating absolute timing?
 
 ???
 
-* nanoTime()
-* nanoMillis()
-* currentNanoMillis()
-* timeMillis()
-
+- nanoTime()
+- nanoMillis()
+- currentNanoMillis()
+- timeMillis()

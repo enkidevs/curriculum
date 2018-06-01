@@ -28,20 +28,25 @@ links:
 # Always specify type parameter
 
 ---
+
 ## Content
 
-A *parameterized type* would look like:
+A _parameterized type_ would look like:
+
 ```
 List<String> oceans = Arrays.asList(
    "Pacific", "Atlantic", "Indian");
 ```
-Whereas, a *raw type* would look like:
+
+Whereas, a _raw type_ would look like:
+
 ```
 List oceans = Arrays.asList(
    "Pacific", "Atlantic", "Indian");
 ```
-Although Java allows the use of raw types, they should be avoided since:
-* Using a parameterized type allows compile time checks - less chances of errors.
-* Raw types usually require casts to convert to a suitable type.
-* They only exist to maintain backward compatibility with older versions of Java.
 
+Although Java allows the use of raw types, they should be avoided since:
+
+- Using a parameterized type allows compile time checks - less chances of errors.
+- Raw types usually require casts to convert to a suitable type.
+- They only exist to maintain backward compatibility with older versions of Java.

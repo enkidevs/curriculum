@@ -26,9 +26,10 @@ notes: 'https://insights.enki.com/#/contrib/5599d0efef6d014f00958ea6'
 # Using an interface as a parameter
 
 ---
+
 ## Content
 
-You can define methods that take an **interface** as a parameter. Your interface defines a *contract* and your methods will accept as parameter any objects whose class *implements* that **interface**. This is in fact one of the most common and useful ways to use an **interface**.
+You can define methods that take an **interface** as a parameter. Your interface defines a _contract_ and your methods will accept as parameter any objects whose class _implements_ that **interface**. This is in fact one of the most common and useful ways to use an **interface**.
 
 ```java
  interface Test {
@@ -36,10 +37,11 @@ You can define methods that take an **interface** as a parameter. Your interface
 }
  class Tester {
   public void runTest(Test t) {
-    t.test(); 
+    t.test();
   } // method with interface as param
 }
 ```
+
 `MyTest` class will implement this interface:
 
 ```java
@@ -49,22 +51,24 @@ class MyTest implements Test {
 ```
 
 Now the `runTest` method will take as a parameter any object that implements the `Test` Interface:
+
 ```java
 Tester tester = new Tester();
 Test test1 = new MyTest();
 tester.runTest(test1);
 ```
-The *collection framework* from the standard Java API frequently uses this procedure. For example, `Collections.sort()` can sort any class that implements the `List` interface and whose contents implement the `Comparable` interface.
+
+The _collection framework_ from the standard Java API frequently uses this procedure. For example, `Collections.sort()` can sort any class that implements the `List` interface and whose contents implement the `Comparable` interface.
 
 ---
+
 ## Revision
 
 Which of the following is an example of a method that takes an interface as argument?
 
 ???
 
-* Collections.sort()
-* Arrays.sort()
-* UserDefinedFileAttributeView.read() 
-* List.add()
-
+- Collections.sort()
+- Arrays.sort()
+- UserDefinedFileAttributeView.read()
+- List.add()

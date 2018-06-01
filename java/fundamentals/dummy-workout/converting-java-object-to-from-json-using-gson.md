@@ -23,9 +23,11 @@ links:
     [sites.google.com](https://sites.google.com/site/gson/gson-user-guide#TOC-Object-Examples){website}
 
 ---
+
 # Converting Java object to/from JSON using Gson
 
 ---
+
 ## Content
 
 Gson is a Java library that can be used to convert Java objects into their JSON representation and vice-versa. An example is shown below:

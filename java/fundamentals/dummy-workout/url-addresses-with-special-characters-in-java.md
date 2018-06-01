@@ -22,9 +22,11 @@ tags:
   - net
 
 ---
+
 # URL addresses with Special characters in Java
 
 ---
+
 ## Content
 
 Sometimes URLs might contain special characters, we need to encode to make them legal.

@@ -30,31 +30,35 @@ links:
 # Uses of the `final` keyword
 
 ---
+
 ## Content
 
 The `final` keyword has different meanings depending on where it is used:
+
 - If used on a class then it means that the class cannot be extended.
 - If used on a method then it means that the method cannot be overriden.
 - If used on a local variable, field or parameter then it means that the value cannot be changed after it has been set.
 
 The advantages of using `final` are that:
+
 - The programmer's intent is clearly communicated.
 - The values of variables and fields cannot be accidentally changed.
 - Allows the compiler and virtual machine to optimize your code.
 
 ---
+
 ## Practice
 
 Which of the following is not an advantage of using the `final` keyword:
 
 ???
 
-
-* It allows classes, where final has been used, to be extended to prevent code repetition.
-* The values of final variables cannot be accidentally changed.
-* The compiler and VM can optimize the code.
+- It allows classes, where final has been used, to be extended to prevent code repetition.
+- The values of final variables cannot be accidentally changed.
+- The compiler and VM can optimize the code.
 
 ---
+
 ## Revision
 
 Complete the following code snippet to forbid other classes to extend the `Example` class:
@@ -65,14 +69,16 @@ public ??? ??? Example{
 }
 ```
 
-* `final`
-* `class`
-* `static`
-* `void`
-* `String`
+- `final`
+- `class`
+- `static`
+- `void`
+- `String`
 
 ---
-## Quiz 
+
+## Quiz
+
 ### Can you predict the output of this inheritance example?
 
 What would the following snippet output?
@@ -91,10 +97,9 @@ public class Roadster extends Tesla {
 }
 ```
 
+???
 
- ???
-
-* Roadster
-* Model S
-* error: MODEL is final
-* Model SRoadster
+- Roadster
+- Model S
+- error: MODEL is final
+- Model SRoadster

@@ -28,11 +28,13 @@ links:
 # Use strings in a `switch` statement
 
 ---
+
 ## Content
 
 In Java 7+, it is possible to use a string as a selector in a `switch` statement.
 
-For example: 
+For example:
+
 ```
 String colorString;
 switch(color) {
@@ -45,16 +47,16 @@ switch(color) {
 }
 System.out.println("It's %s", colorString);
 ```
+
 This promotes a more concise code, rather than using `if/else` statements.
 
 The string comparisons are case sensitive.
 
 ---
+
 ## Revision
 
 String comparisons in switch statements ??? case sensitive.
 
-
-* are
-* aren't
-
+- are
+- aren't

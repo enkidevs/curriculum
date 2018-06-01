@@ -22,9 +22,11 @@ links:
 # Functions
 
 ---
+
 ## Content
 
 We return to the `HelloWorld` example for this part:
+
 ```
 public class HelloWorld {
    public static void main() {
@@ -32,14 +34,17 @@ public class HelloWorld {
    }
 }
 ```
-In Java, every function has to be inside a class. In this case, our class is `HelloWorld`, and the function is `main()`. We call these functions *methods*. 
+
+In Java, every function has to be inside a class. In this case, our class is `HelloWorld`, and the function is `main()`. We call these functions _methods_.
 
 The syntax of the example function is:
- - `public static`: modifier
- - `void`: return type
- - `main`: identifier(name) of the method
+
+- `public static`: modifier
+- `void`: return type
+- `main`: identifier(name) of the method
 
 The next snippet shows general declaration of a method:
+
 ```java
 modifier returnType name(parameters){
    // method body
@@ -53,6 +58,7 @@ We will discuss **modifiers** in a future insight. For now, we will focus on wha
 A `void` function is a method that doesn't return anything. In our case, it prints something to the console, but its `return` statement is `void`.
 
 Another example of a function that takes a name as a parameter and prints it to the console:
+
 ```
 public class Example {
   public static void heyName(String name) {
@@ -67,9 +73,11 @@ public class Example {
 }
 // Output: Hey, Sam!;
 ```
+
 ### Non-void Functions
 
 Instead of `void`, we could use primitive names if we want our function to return the result of a numbers multiplication or strings concatenation:
+
 ```
 public class NonVoidExample {
 
@@ -81,7 +89,7 @@ public class NonVoidExample {
 
   public static String concat(
                 String d,String e) {
-    String f = d + e;    
+    String f = d + e;
     return f;
   }
 
@@ -94,21 +102,23 @@ public class NonVoidExample {
 // 5
 // John Doe
 ```
+
 In this case, we designate the methods to do the job for us, which helps with keeping the `main` method simple. If somehow there's an error, this way of breaking the code into smaller snippets will help with debugging.
 
 ---
+
 ## Revision
 
 Complete the snippet with the function's correct type:
+
 ```
 public ??? test() {
   System.out.println("test");
 }
 ```
 
-* `void`
-* `String`
-* `int`
-* `empty`
-* `static`
-
+- `void`
+- `String`
+- `int`
+- `empty`
+- `static`

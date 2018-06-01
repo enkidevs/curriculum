@@ -21,11 +21,12 @@ links:
 # Synchronization Methods
 
 ---
+
 ## Content
 
-**Synchronization** is an important concept when tackling multithreading problems. *Race conditions* can be avoided by using different types of patterns. The four most common are: *Lock*, *Semaphore*, *Monitor* and *Mutex*.
+**Synchronization** is an important concept when tackling multithreading problems. _Race conditions_ can be avoided by using different types of patterns. The four most common are: _Lock_, _Semaphore_, _Monitor_ and _Mutex_.
 
-**Locks** are the most simple structure to implement. Their key idea is that only one thread can enter the *critical section*[1].    
+**Locks** are the most simple structure to implement. Their key idea is that only one thread can enter the _critical section_[1].
 
 ```
 public class Lock{
@@ -48,17 +49,19 @@ public class Lock{
   }
 }
 ```
+
 Using `Lock` is sometimes necessary to guarantee thread safety. However, overusing `Lock` will limit the performance of a program. This is because any code that operates under a `Lock` must be executed sequentially, as opposed to other areas of the program which will be able to execute concurrently.
 
 To maximize performance, a good idea is to reduce the scope of `Lock`s to only apply to critical sections of code.
 
 **Mutex** has the same concept as a lock but can be accessed between the processes (i.e. a wider range lock).
 
-Java also provides predefined *lock* interfaces in their `java.util.concurrent` library.
+Java also provides predefined _lock_ interfaces in their `java.util.concurrent` library.
 
-**NOTE:** It is important to remember to use the same *lock* when working with sensitive data in multiple threads, as acquiring different *locks* will lose the purpose of synchronization.
+**NOTE:** It is important to remember to use the same _lock_ when working with sensitive data in multiple threads, as acquiring different _locks_ will lose the purpose of synchronization.
 
 ---
+
 ## Revision
 
 What is a lock?
@@ -69,15 +72,16 @@ What is the difference between a lock and a mutex?
 
 ???
 
-
-* synchronization mechanism that allows a single thread to enter a critical section
-* mutex can be accesses by processes while lock can only be accessed by threads
-* synchronization mechanism that allows multiple thread to enter a critical section
-* mutex can be accesses by threads while lock can only be accessed by processes
-* mutex allows multiple processes to enter critical section
-* lock pauses execution of a program for a certain time in order for the system to free up the resources
+- synchronization mechanism that allows a single thread to enter a critical section
+- mutex can be accesses by processes while lock can only be accessed by threads
+- synchronization mechanism that allows multiple thread to enter a critical section
+- mutex can be accesses by threads while lock can only be accessed by processes
+- mutex allows multiple processes to enter critical section
+- lock pauses execution of a program for a certain time in order for the system to free up the resources
 
 ---
+
 ## Footnotes
+
 [1:Critical Section]
 Section of a code which can only be accessed by a certain number of threads/processes (usually no more than one).

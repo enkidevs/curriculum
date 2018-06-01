@@ -33,16 +33,18 @@ links:
 # The distinction between overloading and overriding methods
 
 ---
+
 ## Content
 
 In Java, methods can be both overloaded and overridden.
+
 - Overloading refers to creating two or more methods with the same names but a different number or type of parameters. For example:
 
 ```
 void addPerson(String name, int age){}
-void addPerson(String name){} 
-
+void addPerson(String name){}
 ```
+
 - Overriding refers to redefining a method that has been inherited from a superclass. The new method should have the same name, return type, as well as the same number and type of parameters. However definition of the method will be different. For example:
 
 ```
@@ -52,39 +54,41 @@ public class Parent{
   }
 }
 public class Child extends Parent{
-  @Override 
+  @Override
   int method(int parameter){
     return parameter * 3;
   }
 }
-
 ```
+
 Note: it is good practice to explicitly declare overridden methods using `@Override`.
 
 ---
+
 ## Practice
 
 What’s the name of the process where a method is redefined after being taken from a parent class?
 
 ???
 
-
-* Overriding
-* Overloading
-* Inheriting
+- Overriding
+- Overloading
+- Inheriting
 
 ---
+
 ## Revision
 
 What is the following code snippet an example of?
+
 ```
 void newField(String name);
 void newField(String name, String country);
 ```
+
 ???
 
-* Overloading
-* Overriding
-* Overcomplicating
-* Overwriting
-
+- Overloading
+- Overriding
+- Overcomplicating
+- Overwriting

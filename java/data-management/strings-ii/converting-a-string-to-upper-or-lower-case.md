@@ -28,22 +28,23 @@ links:
 # Converting a string to upper or lower case
 
 ---
+
 ## Content
 
 A string can be converted from lower case to upper case or vice versa by using the `String` class' `toUpper()` or `toLower()` methods.
 
 To make uppercase:
+
 ```
 String lowerEnki = "enki";
 System.out.println(lowerEnki.toUpper());
 //output: "ENKI"
-
 ```
 
 Or, to make lowercase:
+
 ```
 String upperEnki = "ENKI";
 System.out.println(upperEnki.toLower());
 //output: "enki"
 ```
-

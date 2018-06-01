@@ -32,11 +32,13 @@ links:
 # Use Javadoc comments to describe the purpose of a class or method
 
 ---
+
 ## Content
 
-A Javadoc comment starts with the opening tag `/**` and includes a description of a class or method, followed by additional info on what the method takes as parameter, the return type and more. 
+A Javadoc comment starts with the opening tag `/**` and includes a description of a class or method, followed by additional info on what the method takes as parameter, the return type and more.
 
 For example:
+
 ```
 /**
  * Returns the marks scored by a student.
@@ -50,5 +52,5 @@ public int getMarks(String surname, int id)
     return marks;
 }
 ```
-The Javadoc is generated in HTML format from the source code and acts as reference for programmers. They are especially helpful when working on large projects.
 
+The Javadoc is generated in HTML format from the source code and acts as reference for programmers. They are especially helpful when working on large projects.

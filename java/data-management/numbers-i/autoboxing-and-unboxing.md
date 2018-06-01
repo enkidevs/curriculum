@@ -21,20 +21,23 @@ notes: 'https://insights.enki.com/#/contrib/others/55c833563f06ab320051aa89?sear
 # `Autoboxing` and `Unboxing`
 
 ---
+
 ## Content
 
-*Java 5* introduced a new concept of auto converting *primitive types* into their corresponding *wrapper* classes and vice-versa.
+_Java 5_ introduced a new concept of auto converting _primitive types_ into their corresponding _wrapper_ classes and vice-versa.
 
-`Autoboxing` represents automatic conversion of *primitive type*  to the object of their corresponding *wrapper* classes.
+`Autoboxing` represents automatic conversion of _primitive type_ to the object of their corresponding _wrapper_ classes.
+
 ```
 // the conversion is automatic
 Integer num1 = 3;
 Double num2 = 2.3;
 ```
 
-`Unboxing` represents the reverse. It converts an object of a *wrapper* class to the corresponding *primitive type*.
+`Unboxing` represents the reverse. It converts an object of a _wrapper_ class to the corresponding _primitive type_.
 
 Conversion table :
+
 ```
   Primitive type | Wrapper class
         boolean  |  Boolean
@@ -47,23 +50,26 @@ Conversion table :
          double  |  Double
 ```
 
-*primitives* and *objects* should not be mixed when doing comparisons. Instead, compare objects with objects (using `equals()` method) and compare primitive with primitives (using logical operators such as “`==`”, “`<`” etc).
+_primitives_ and _objects_ should not be mixed when doing comparisons. Instead, compare objects with objects (using `equals()` method) and compare primitive with primitives (using logical operators such as “`==`”, “`<`” etc).
 
 ---
+
 ## Revision
 
 What is the wrapper class of primitive `int` ?
 
 ???
 
-* Integer
-* integer
-* Int
-* Long
-* long
+- Integer
+- integer
+- Int
+- Long
+- long
 
 ---
-## Quiz 
+
+## Quiz
+
 ### What will be printed by the following code snippet?
 
 ```java
@@ -78,10 +84,9 @@ What is the wrapper class of primitive `int` ?
   }
 ```
 
+???
 
- ???
-
-* “int5”
-* “integer5”
-* “int5integer5”
-* Nothing
+- “int5”
+- “integer5”
+- “int5integer5”
+- Nothing

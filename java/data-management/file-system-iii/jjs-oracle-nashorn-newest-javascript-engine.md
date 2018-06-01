@@ -21,20 +21,23 @@ notes: 'https://insights.enki.com/#/contrib/others/55f43787ce84ec2100d2bb5e?sear
 # `JJS` - Oracle Nashorn, newest JavaScript Engine
 
 ---
+
 ## Content
 
-With the introduction of *Java 8*, the *JDK* will be shipped with a new *JavaScript* scripting engine, a replacement for the old one based on *Mozilla Rhino*. 
+With the introduction of _Java 8_, the _JDK_ will be shipped with a new _JavaScript_ scripting engine, a replacement for the old one based on _Mozilla Rhino_.
 
- **Oracle Nashorn** provides better compliance with the *ECMA* normalised *JavaScript* specification and better runtime performance through *invokedynamic*-bound call sites.
+**Oracle Nashorn** provides better compliance with the _ECMA_ normalised _JavaScript_ specification and better runtime performance through _invokedynamic_-bound call sites.
 
-The `jjs` tool can be run from the terminal and accepts *JavaScript* files as argument:
+The `jjs` tool can be run from the terminal and accepts _JavaScript_ files as argument:
+
 ```shell
 $ jjs MyFile.js
 ```
 
-While **Oracle Nashorn** runs *ECMA*-compliant *JavaScript*, it is important to note that objects normally accessible in a web browser are not available, for example, `console`, `window`, and so on.
+While **Oracle Nashorn** runs _ECMA_-compliant _JavaScript_, it is important to note that objects normally accessible in a web browser are not available, for example, `console`, `window`, and so on.
 
 In order to get a list of all jjs commands:
+
 ```
 $ jjs -help
 ```
@@ -47,30 +50,31 @@ A few interesting features of Oracle Nashorn:
 - The scripting mode mainly consists of heredocs and shell invocations.
 
 ---
+
 ## Practice
 
 Using Java 8’s Oracle Nashorn engine run `enki.js`:
+
 ```
 ??? ???
 ```
 
-* `jjs` 
-* `enki.js` 
-* `enki` 
-* `enki-js` 
-* `jss` 
-* `jdb`
+- `jjs`
+- `enki.js`
+- `enki`
+- `enki-js`
+- `jss`
+- `jdb`
 
 ---
+
 ## Revision
 
 What tool shipped with Java 8 should be used to run `.js` files?
 
 ???
 
-
-* `jjs` 
-* `javaScript` 
-* `jss` 
-* `jdb`
-
+- `jjs`
+- `javaScript`
+- `jss`
+- `jdb`

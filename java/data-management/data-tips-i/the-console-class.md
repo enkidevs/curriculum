@@ -24,24 +24,25 @@ notes: |
 # The `Console` class
 
 ---
+
 ## Content
 
-The `Java.io.Console` class provides methods to access the character-based console device, if any, associated with the current *Java Virtual Machine*. This class is attached to the `System` console internally. 
+The `Java.io.Console` class provides methods to access the character-based console device, if any, associated with the current _Java Virtual Machine_. This class is attached to the `System` console internally.
 
 `Console` class provide means to read text and passwords from the console.
 
 To read a line as a `String`:
+
 ```java
 Console console = System.console();
 String myString = console.readLine();
-
 ```
 
 To read a password as an array of `char`s:
+
 ```java
 Console console = System.console();
 char[] pw = console.readPassword();
-
 ```
 
 If you read passwords using `Console` class, it will not be displayed to the user.
@@ -49,12 +50,12 @@ If you read passwords using `Console` class, it will not be displayed to the use
 Keep in mind that this class does not have a high level of security and it is mostly used at development stage.
 
 ---
+
 ## Revision
 
 If you would want to read a password as input from the user, you could use ??? class.
 
-* Console
-* Scanner
-* BufferedReader
-* Input
-
+- Console
+- Scanner
+- BufferedReader
+- Input

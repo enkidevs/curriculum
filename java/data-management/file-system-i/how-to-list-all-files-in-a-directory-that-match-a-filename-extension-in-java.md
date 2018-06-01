@@ -18,6 +18,7 @@ notes: ''
 # How to list all files in a directory that match a filename extension in Java
 
 ---
+
 ## Content
 
 Often we want to create a list of all files in a given directory that match a specific filename pattern, or more specifically, match the same filename extension. An elegant solution to this problem is presented below:
@@ -26,29 +27,31 @@ Often we want to create a list of all files in a given directory that match a sp
 Collection getConfigFiles(String dirName)
 {
   File dir = new File(dirName);
-  return FileUtils.listFiles(dir, 
+  return FileUtils.listFiles(dir,
       new WildcardFileFilter("*cfg"),
       null);
 
 }
 ```
-The third argument specifies in which subdirectories to extend the search. Pass `TrueFileFilter.INSTANCE` instead of **null** to search through *all* subdirectories.
 
-*FileUtils* and *WildcardFileFilter* classes can be found in the `Apache Commons` package.
+The third argument specifies in which subdirectories to extend the search. Pass `TrueFileFilter.INSTANCE` instead of **null** to search through _all_ subdirectories.
+
+_FileUtils_ and _WildcardFileFilter_ classes can be found in the `Apache Commons` package.
 
 ---
+
 ## Revision
 
 Complete the method to get all the files that contain `enki` in their name, on Desktop and in all other directories on Desktop:
+
 ```
-FileUtils.listFiles("~/Desktop", new 
+FileUtils.listFiles("~/Desktop", new
 ???,
 ???);
 ```
 
-* `WildcardFileFilter("*enki*")` 
-* `TrueFileFilter.INSTANCE` 
-* `WildcardDirectoryFilter("*")` 
-* `TrueFilter.ALL` 
-* `WildcardFileFilter("enki")`
-
+- `WildcardFileFilter("*enki*")`
+- `TrueFileFilter.INSTANCE`
+- `WildcardDirectoryFilter("*")`
+- `TrueFilter.ALL`
+- `WildcardFileFilter("enki")`

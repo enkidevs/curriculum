@@ -34,22 +34,25 @@ links:
 # Metadata: creating a user-defined file attribute
 
 ---
+
 ## Content
 
 It is possible to create user-defined file attributes, besides default ones. This comes in handy if you need a way to verify if the file was proofread or encrypted.
 
-
 To do this, we first need to create a `UserDefinedFileAttributeView`:
+
 ```
-Path file = Paths.get("home" 
+Path file = Paths.get("home"
    + File.separator + "file.txt");
-UserDefinedFileAttributeView view = 
+UserDefinedFileAttributeView view =
   Files.getFileAttributeView(
     file,
     UserDefinedFileAttributeView.class
   );
 ```
+
 `view` can then be used to define a new file attribute:
+
 ```
 String attrName = "encrypted";
 String attrVal = "yes";
@@ -58,43 +61,49 @@ view.write(
   Charset.defaultCharset()
          .encode(attrVal));
 ```
+
 Above, the method `write` takes a `ByteBuffer` as the second argument, so we have to convert the value string.
 
 You can then read the attribute value:
+
 ```
- ByteBuffer readBuffer = 
+ ByteBuffer readBuffer =
   ByteBuffer.allocate(view.size(attrName));
 
  view.read(attrName, readBuffer);
  readBuffer.flip();
 
- String val = 
+ String val =
   new String(readBuffer.array(), "UTF-8");
 
  System.out.println(attrName+":"+ val);
 ```
 
 ---
+
 ## Practice
 
 Write the attribute/value pair (both expressed as Strings) to the `view` object:
+
 ```
 view.???(???,
    Charset.defaultCharset()
           .???);
 ```
 
-* `write` 
-* `attr` 
-* `encode(val)` 
-* `encode` 
-* `val` 
-* `encode(attr)`
+- `write`
+- `attr`
+- `encode(val)`
+- `encode`
+- `val`
+- `encode(attr)`
 
 ---
+
 ## Revision
 
 Complete the code snippet to instantiate `view` variable:
+
 ```
 Path p = Paths.get("path");
 UserDefinedFileAttributeView view =
@@ -103,9 +112,8 @@ UserDefinedFileAttributeView view =
  UserDefinedFileAttributeView.Class);
 ```
 
-* `Files.getFileAttributeView` 
-* `p` 
-* `file` 
-* `File.getFileAttributeView` 
-* `view`
-
+- `Files.getFileAttributeView`
+- `p`
+- `file`
+- `File.getFileAttributeView`
+- `view`

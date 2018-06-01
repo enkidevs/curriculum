@@ -28,28 +28,32 @@ notes: >-
 # Intro to `JConsole`
 
 ---
+
 ## Content
 
-`JConsole` is a graphical monitoring tool to monitor *Java Virtual Machine* and *Java *applications both on a local or remote machine.
+`JConsole` is a graphical monitoring tool to monitor _Java Virtual Machine_ and *Java *applications both on a local or remote machine.
 
 It is useful for high-level diagnosis on problems such as memory leaks, excessive class loading, and running threads.
 
 It can also be useful for tuning and heap sizing as it lets dynamically change several parameters in the running system.
 
 Starting `JConsole` if the JDK is in the system path:
+
 ```java
 $ jconsole
-
 ```
+
 When JConsole starts, you will be given a choice of all the Java applications that are running locally that `JConsole` can connect to.
 Output includes, over time, heap memory usage, number of threads, number of classes, and CPU usage.
 
 Starting `JConsole` on a specific application:
+
 ```java
 $ jconsole PID
 ```
 
 Setting up Remote Monitoring:
+
 ```java
 $ jconsole hostname:port
 ```
@@ -57,31 +61,35 @@ $ jconsole hostname:port
 If you do not specify a host name/port number combination, then `JConsole` will display a connection dialog box to enable you to enter a host name and port number.
 
 ---
+
 ## Practice
 
 Set up remote monitoring with JConsole:
+
 ```
 $ jconsole ???:???
 ```
 
-* `hostname` 
-* `port` 
-* `PID` 
-* `-J-d64` 
-* `-J-d32` 
-* `-system` 
-* `gate`
+- `hostname`
+- `port`
+- `PID`
+- `-J-d64`
+- `-J-d32`
+- `-system`
+- `gate`
 
 ---
+
 ## Revision
 
 What does the following piece of code do?
+
 ```
 $ jconsole PID
 ```
+
 ???
 
-* Starts JConsole on a specific application
-* Starts JConsole at a specific time
-* Starts JConsole on a private port
-
+- Starts JConsole on a specific application
+- Starts JConsole at a specific time
+- Starts JConsole on a private port

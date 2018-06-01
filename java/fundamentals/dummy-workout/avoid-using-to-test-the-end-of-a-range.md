@@ -16,17 +16,18 @@ tags:
 notes: As always - hope it's not to basic
 
 ---
+
 # Avoid using `!=` to test the end of a range
 
 ---
+
 ## Content
 
 Consider the loop:
 
 ```java
-for (i = 1; i != nyear; i++) 
+for (i = 1; i != nyear; i++)
   {  ...  }
-
 ```
 
 This is considered bad practice. The program might find itself in an infinite loop if value of `nyear` is negative for some reason.
@@ -36,15 +37,13 @@ Another reason not to use `!=` is the roundoff errors when dealing with floating
 ```java
 for (rate = 2; rate != 5; rate = rate + 0.1)
   { ...  }
-
 ```
 
-The number 0.1 is exactly representable in the decimal system, but the computer represents floating-point number in binary. 
+The number 0.1 is exactly representable in the decimal system, but the computer represents floating-point number in binary.
 
 Use `<` instead:
 
 ```java
 for (rate = 2; rate < 5; rate = rate + 0.1)
   { ... }
-
 ```

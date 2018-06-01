@@ -29,6 +29,7 @@ links:
 # `@Test` parameters
 
 ---
+
 ## Content
 
 The JUnit `@Test` annotation is used to indicate that a method should be called to run a test. `@Test` can contain two types of parameter:
@@ -41,18 +42,21 @@ When the test is expected to throw an exception, we can indicate this by adding 
 //fail if IOException is not thrown
 @Test(expected = IOException.class)
 ```
+
 **Time-out**
 
 When a test needs to complete within a specific time period, we can add a parameter to `@Test` to fail if the test takes too long. The value in the parameter is measured in milliseconds.
+
 ```
 //timeout after 500ms
 @Test(timeout = 500)
 ```
 
 ---
+
 ## Practice
 
-Complete the snippet such that the test expects an `IOException`  and has a timeout of `900ms` :
+Complete the snippet such that the test expects an `IOException` and has a timeout of `900ms` :
 
 ```
 @???(
@@ -60,16 +64,16 @@ Complete the snippet such that the test expects an `IOException`  and has a time
   ??? = 900);
 ```
 
-
-* `Test`
-* `expected`
-* `timeout`
-* `error`
-* `TestCase`
-* `expects`
-* `time`
+- `Test`
+- `expected`
+- `timeout`
+- `error`
+- `TestCase`
+- `expects`
+- `time`
 
 ---
+
 ## Revision
 
 What two parameters can be used with the `@Test` annotation?
@@ -77,11 +81,9 @@ What two parameters can be used with the `@Test` annotation?
 ???
 ???
 
-
-* `expected`
-* `timeout`
-* `name`
-* `size`
-* `time`
-* `error`
-
+- `expected`
+- `timeout`
+- `name`
+- `size`
+- `time`
+- `error`

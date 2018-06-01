@@ -32,6 +32,7 @@ links:
 # List contents of a directory with `newDirectoryStream`
 
 ---
+
 ## Content
 
 ```
@@ -39,7 +40,9 @@ Path dir = Paths.get("home/dir");
 DirectoryStream<Path> stream =
   Files.newDirectoryStream(dir);
 ```
+
 The object that is returned implements the `Iterable` interface, which allows us to iterate over the contents of the directory:
+
 ```
 for(Path file: stream) {
   System.out.println(file.getFileName());
@@ -47,9 +50,11 @@ for(Path file: stream) {
 ```
 
 ---
+
 ## Revision
 
 Obtain a `DirectoryStream` collection:
+
 ```
 Path dir = Paths.("path/dir");
 ???<Path> stream =
@@ -57,9 +62,8 @@ Path dir = Paths.("path/dir");
   .???;
 ```
 
-* `DirectoryStream` 
-* `Files` 
-* `newDirectoryStream(dir)` 
-* `newDirectoryStream()` 
-* `File`
-
+- `DirectoryStream`
+- `Files`
+- `newDirectoryStream(dir)`
+- `newDirectoryStream()`
+- `File`

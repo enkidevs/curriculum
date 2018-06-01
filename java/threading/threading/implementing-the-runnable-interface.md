@@ -22,11 +22,13 @@ links:
 # Implementing the Runnable Interface
 
 ---
+
 ## Content
 
-One way of creating a thread is to implement a `Runnable` interface which implies that you have to implement `public void run()` function. As we are implementing an interface, we create a `runnable` object and not a `thread` itself. Meaning that the `counter` object in the following example is not a `thread` and doesn't implement a `start()`. Of course we can call `run()` explicitly on two or more instances of the `CustomRunnable` class but then they will not be concurrent and will run in order specified.     
+One way of creating a thread is to implement a `Runnable` interface which implies that you have to implement `public void run()` function. As we are implementing an interface, we create a `runnable` object and not a `thread` itself. Meaning that the `counter` object in the following example is not a `thread` and doesn't implement a `start()`. Of course we can call `run()` explicitly on two or more instances of the `CustomRunnable` class but then they will not be concurrent and will run in order specified.
 
 The most simple example would be:
+
 ```
 public class CustomRunnable implements
                               Runnable{
@@ -39,12 +41,12 @@ public class CustomRunnable implements
     System.out.println("Finished");
   }
 }
-
 ```
 
 In order to create a thread out of a runnable object we must pass it to the instance of the `Thread` object so that we can `start()` our `run()` contents concurrently. Of course it is possible to `@Override` the `start()` function inside our `CustomRunnable` class but then all the magic of concurrency will disappear as it will do exactly what is stated in the `start()` method so this should not be done.
 
 Then in the `main` function:
+
 ```
 public class Main {
   public static void main(String[] args) {
@@ -61,6 +63,7 @@ public class Main {
   }
 }
 ```
+
 **NOTE:** it makes no difference whether we start new threads inline or declare them beforehand.
 
 The output of the above program is always different as concurrency is in most cases implemented by the operating system. One example could be like this:
@@ -81,6 +84,7 @@ Finished!
 ```
 
 ---
+
 ## Practice
 
 What function holds the functionality of a thread?
@@ -103,24 +107,22 @@ What is the best practice for `Overriding` the `start()` function?
 
 ???
 
-
-* `run()`
-* `start()`
-* No
-* Yes
-* Not overriding it at all
-* Override it with the intended functionality of a thread
-* It does not matter
-* `create()`
+- `run()`
+- `start()`
+- No
+- Yes
+- Not overriding it at all
+- Override it with the intended functionality of a thread
+- It does not matter
+- `create()`
 
 ---
+
 ## Revision
 
 When implementing a `runnable` interface do we create a thread?
 
 ???
 
-
-* No, we create a runnable object that has to be passed to an instance of a Thread
-* Yes, we can call `start()` on it straight away as it is a runnable thread
-
+- No, we create a runnable object that has to be passed to an instance of a Thread
+- Yes, we can call `start()` on it straight away as it is a runnable thread

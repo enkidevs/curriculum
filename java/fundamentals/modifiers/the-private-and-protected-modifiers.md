@@ -19,13 +19,15 @@ inAlgoPool: false
 # The `private` and `protected` Modifiers
 
 ---
+
 ## Content
 
-The `private` access modifier makes variables and methods available within their class only. Having a `private` class or interface makes no sense (as they couldn't be used), so they do not accept this modifier. 
+The `private` access modifier makes variables and methods available within their class only. Having a `private` class or interface makes no sense (as they couldn't be used), so they do not accept this modifier.
 
 The `private` modifier is the most restrictive one. It should be used as it helps with **encapsulation** of the data and prevents it from being modified unwittingly. Encapsulation is another principle of OOP and we will talk about it in a bit.
 
 If the variables are private, getters and setters are required to access them. These are functions that help move data from one class to another:
+
 ```
 public class Car{
   private String model;
@@ -41,13 +43,14 @@ public class Car{
 }
 ```
 
-A *getter* is a function that returns the value of the field, while a *setter* is a function that updates the value of a field. Other classes wouldn't be able to access the data without these methods.
+A _getter_ is a function that returns the value of the field, while a _setter_ is a function that updates the value of a field. Other classes wouldn't be able to access the data without these methods.
 
-The `protected` access modifier makes variables, methods and constructors accessible only by the *subclasses* in other packages and by every class within its package.
+The `protected` access modifier makes variables, methods and constructors accessible only by the _subclasses_ in other packages and by every class within its package.
 
-Again, classes and interfaces cannot be *protected*. Because it applies to inheritance (that means only class extension), methods and fields in an interface cannot be *protected* either.
+Again, classes and interfaces cannot be _protected_. Because it applies to inheritance (that means only class extension), methods and fields in an interface cannot be _protected_ either.
 
 Consider this example:
+
 ```
 public class Car{
   protected void start(){
@@ -61,12 +64,15 @@ public class FamilyCar{
   }
 }
 ```
-If the `start()` method was declared private, it wouldn't be accessible from any other class other than `Car`. Making it *protected*, we can ensure its availability for subclasses.
+
+If the `start()` method was declared private, it wouldn't be accessible from any other class other than `Car`. Making it _protected_, we can ensure its availability for subclasses.
 
 ---
+
 ## Practice
 
 Complete the following snippet to make the method usable only in its initial class:
+
 ```
 ??? class Car{
   private int noDoors;
@@ -82,19 +88,18 @@ public class TestClass{
 }
 ```
 
-* `public`
-* `private`
-* `protected`
-* ``
+- `public`
+- `private`
+- `protected`
+- ``
 
 ---
+
 ## Revision
 
 A ??? field can only be accessed by the subclasses.
 
-
-* protected
-* private
-* public
-* static
-
+- protected
+- private
+- public
+- static

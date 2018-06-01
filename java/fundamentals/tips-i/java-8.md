@@ -20,14 +20,17 @@ category: tip
 # Java 8?
 
 ---
+
 ## Content
 
 With the introduction of Java8, numerous classes and interfaces have been added to the languages as to help users program easier and in a more efficient fashion.
 
 ---
+
 ## Game Content
 
 not java 8: java 8
+
 ```false
 NavigableMap
 %exp
@@ -95,7 +98,6 @@ CopyOnWriteArrayList
 %exp
 A **thread-safe** variant of **ArrayList** in which all mutative operations (add, set, and so on) are implemented by making a fresh **copy** of the underlying **array**. It exists since **Java 5**.
 %
-
 ```
 
 ```true
@@ -147,5 +149,4 @@ UncheckedIOException
 %exp
 This class is used to wrap **IOExceptions** with an **unchecked exception**. **Java 8** introduced it.
 %
-
 ```

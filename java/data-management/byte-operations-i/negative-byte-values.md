@@ -28,6 +28,7 @@ notes: 'Gamified Insight, static workout'
 # Negative `byte` values
 
 ---
+
 ## Content
 
 In Java, the `byte` type is signed. There are 256 values of the `byte` type ranging from -128 to 127.
@@ -40,5 +41,4 @@ byte b = (byte)next;
 if (b == é) { ... }
 ```
 
-This test is *never* true even if `next` was equal to the Unicode value for the `é` character. That unicode happens to be 233 which is not in a "safe" range (1-127)
-
+This test is _never_ true even if `next` was equal to the Unicode value for the `é` character. That unicode happens to be 233 which is not in a "safe" range (1-127)
