@@ -99,7 +99,6 @@ iv) item_category_id
 v) item_fling_effect_id
 vi) name : item's name
   
-  
 We would like to get the average cost of each item category.
 
 ```sql
