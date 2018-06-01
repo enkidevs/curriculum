@@ -55,10 +55,10 @@ You can verify if a table was succesfully created using `\d first_table;` when w
 
 Create a table that:
 
-  - is called "student"
-  - first column: id, char(50)
-  - second column: full_name, char(50)
-  - third column: year_of_study, smallint
+i)is called "student"
+ii)first column: id, char(50)
+iii)second column: full_name, char(50)
+iv)third column: year_of_study, smallint
 
     ??? TABLE student(
       id char(50) ???,
