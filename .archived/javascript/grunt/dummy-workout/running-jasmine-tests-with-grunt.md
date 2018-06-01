@@ -18,20 +18,25 @@ links:
   - '[github.com](https://github.com/gruntjs/grunt-contrib-jasmine){website}'
 
 ---
+
 # Running Jasmine tests with Grunt
 
 ---
+
 ## Content
 
-The *grunt* plugin `contrib-jasmine` allows *jasmine specs* to be ran with *grunt* in a PhantomJS environment. 
+The _grunt_ plugin `contrib-jasmine` allows _jasmine specs_ to be ran with _grunt_ in a PhantomJS environment.
 
-The JavaScript source file, *`main.js`*:
+The JavaScript source file, _`main.js`_:
+
 ```javaScript
 function cubeplus2(x) {
   return (x * x * x) + 2;
 }
 ```
-The JavaScript test file, *`test.js`*:
+
+The JavaScript test file, _`test.js`_:
+
 ```javaScript
 describe('testing cubeplus2', function (){
   it('pass 2 return 6', function() {
@@ -42,11 +47,15 @@ describe('testing cubeplus2', function (){
   });
 });
 ```
+
 Installing the `contrib-jasmine` plugin:
+
 ```bash
 $ npm install --save contrib-jasmine
 ```
-Loading the plugins and creating the *jasmine* task to run the spec:  
+
+Loading the plugins and creating the _jasmine_ task to run the spec:
+
 ```javaScript
 module.exports = function (grunt) {
   grunt.initConfig({
@@ -61,9 +70,11 @@ module.exports = function (grunt) {
   grunt.registerTask('default', 'jasmine');
 };
 ```
+
 Running this would produce 0 failures.
 
 ---
+
 ## Revision
 
 Complete the following JS code snippet to load the `contrib-jasmine` plugin:
@@ -72,7 +83,7 @@ Complete the following JS code snippet to load the `contrib-jasmine` plugin:
 grunt.???('contrib-jasmine');
 ```
 
-* loadNpmTasks
-* loadNpmPlugins
-* loadPlugin
-* runPlugin
+- loadNpmTasks
+- loadNpmPlugins
+- loadPlugin
+- runPlugin

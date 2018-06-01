@@ -15,18 +15,21 @@ links:
     [www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/NUM13-J.+Avoid+loss+of+precision+when+converting+primitive+integers+to+floating-point){website}
 
 ---
+
 # Numeric Conversion - Widening
 
 ---
+
 ## Content
 
 Primitive types can be widened as well as narrowed. Here are the widening primitive conventions:
-- *byte* to short, int, long, float, or double
-- *short* to int, long, float, or double
-- *char* to int, long, float, or double
-- *int* to long, float, or double
-- *long* to float or double
-- *float* to double
+
+- _byte_ to short, int, long, float, or double
+- _short_ to int, long, float, or double
+- _char_ to int, long, float, or double
+- _int_ to long, float, or double
+- _long_ to float or double
+- _float_ to double
 
 An example of converting an integer value to a float value:
 
@@ -38,24 +41,25 @@ public float intToFloat(int x) {
 ```
 
 ---
+
 ## Practice
 
 A `float` primitive can be widened to:
 
 `???`
 
-*`double` 
-*`int` 
-*`short` 
-*`char` 
-*`float`
+_`double`
+_`int`
+_`short`
+_`char` \*`float`
 
 ---
+
 ## Revision
 
 An `int` primitive can be widened to `int` , `???`, `float` and `double`.
 
-*`long` 
-*`short` 
-*`byte` 
-*`char`
+_`long`
+_`short`
+_`byte`
+_`char`

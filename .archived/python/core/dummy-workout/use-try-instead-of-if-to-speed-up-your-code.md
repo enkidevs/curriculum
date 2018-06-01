@@ -20,14 +20,17 @@ tags:
 notes: ''
 
 ---
+
 # Use `try` instead of `if` to speed up your code
 
 ---
+
 ## Content
 
 Example:
 
 If you need to count different words' frequencies within a corpus, then you probably will do:
+
 ```
 wdict = {}
 for word in corpus:
@@ -35,7 +38,9 @@ for word in corpus:
         wdict[word] = 0
     wdict[word] += 1
 ```
+
 However, if the corpus is large enough, this signle line can cost your code hours to run. So, instead, I suggest:
+
 ```
 wdict = {}
 for word in corpus:
@@ -44,4 +49,5 @@ for word in corpus:
     except KeyError:
         wdict[word] = 1
 ```
+
 It's important to catch the expected `KeyError exception`, and not have a default except clause to avoid trying to recover from an exception you really can't handle by the statement(s) in the try clause.

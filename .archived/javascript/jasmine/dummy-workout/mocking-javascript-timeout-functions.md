@@ -22,12 +22,14 @@ links:
   - '[jasmine.github.io](http://jasmine.github.io/2.0/introduction.html){website}'
 
 ---
+
 # Mocking JavaScript Timeout functions
 
 ---
+
 ## Content
 
-Jasmine's clock gives test suites the ability to implement `setTimeout` and `setInterval` callbacks. 
+Jasmine's clock gives test suites the ability to implement `setTimeout` and `setInterval` callbacks.
 
 Timer callbacks are synchronous, functions are executed once the clock has moved forwards in time.
 
@@ -62,13 +64,14 @@ function() {
 ```
 
 ---
+
 ## Practice
 
 What test results will the following piece of code produce? ???
 
 ```javascript
 setTimeout(function() {
-   timer();
+  timer();
 }, 8000);
 
 // Test 1
@@ -80,21 +83,21 @@ expect(timer).toHaveBeenCalled();
 jasmine.clock().tick(8000);
 
 // Test 3
-expect(timer).toHaveBeenCalled()
-
+expect(timer).toHaveBeenCalled();
 ```
 
-* Test 1: *True*, Test 2: *False*, Test 3: *True*
-* Test 1: *False*, Test 2: *True*, Test 3: *False*
-* Test 1: *False*, Test 2: *False*, Test 3: *False*
-* Test 1: *True*, Test 2: *True*, Test 3: *True*
+- Test 1: _True_, Test 2: _False_, Test 3: _True_
+- Test 1: _False_, Test 2: _True_, Test 3: _False_
+- Test 1: _False_, Test 2: _False_, Test 3: _False_
+- Test 1: _True_, Test 2: _True_, Test 3: _True_
 
 ---
+
 ## Revision
 
 Are timer callbacks synchronous or asynchronous?
 
 ???
 
-* synchronous
-* asynchronous
+- synchronous
+- asynchronous

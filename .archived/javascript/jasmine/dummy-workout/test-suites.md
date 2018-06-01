@@ -23,17 +23,18 @@ links:
     [www.webdesignermag.co.uk](http://www.webdesignermag.co.uk/how-good-is-your-javscript-test-with-jasmine/){website}
 
 ---
+
 # Test Suites
 
 ---
+
 ## Content
 
-All tests in Jasmine must be contained within a *suite*. 
+All tests in Jasmine must be contained within a _suite_.
 
-A *suite* is used to group tests of related functionality together.
+A _suite_ is used to group tests of related functionality together.
 
-Suites begin with a call to the global Jasmine function *`describe`* that takes two parameters - a title to describe the tests and a function containing the actual tests. 
-
+Suites begin with a call to the global Jasmine function _`describe`_ that takes two parameters - a title to describe the tests and a function containing the actual tests.
 
 ```JavaScript
 describe("boolean tests", function() {
@@ -50,6 +51,7 @@ describe("boolean tests", function() {
 ```
 
 ---
+
 ## Practice
 
 Complete the snippet to define a test suite:
@@ -60,19 +62,22 @@ Complete the snippet to define a test suite:
   // ...
 });
 ```
-* describe
-* function 
-* suite
-* testsuite
-* func
-* callback
+
+- describe
+- function
+- suite
+- testsuite
+- func
+- callback
 
 ---
+
 ## Revision
 
 How do you define a test suite?
 ???
-* describe('like this...', function() {
-* describe(function(), 'like this...' {
-* suite('like this...', function() {
-* it(' like this...', function() {
+
+- describe('like this...', function() {
+- describe(function(), 'like this...' {
+- suite('like this...', function() {
+- it(' like this...', function() {

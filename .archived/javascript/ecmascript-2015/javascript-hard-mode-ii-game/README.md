@@ -7,4 +7,3 @@ description: Test you JavaScript knowledge with some questions taken from `Kanga
 section: 3
 
 parent: javascript-hard-mode-game
-

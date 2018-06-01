@@ -18,28 +18,33 @@ links:
   - '[package.json.is](http://package.json.is/){website}'
 
 ---
+
 # Niceties for your npm package
 
 ---
+
 ## Content
 
-When publishing your packages to the npm registry, or anywhere publicly, it's good practice and important to let users know about your project by specifying some *package niceties*.
+When publishing your packages to the npm registry, or anywhere publicly, it's good practice and important to let users know about your project by specifying some _package niceties_.
 
 These things, if not present, are presented to the user as **warnings** when typing `npm install`.
 
 First of all, it's recommended to provide a description - be it short or long in the `package.json` file:
+
 ```json
 {
   //fields
-  "description": "Sample description",
+  "description": "Sample description"
   //fields
 }
 ```
+
 In addition to this, a repository link should be listed in this file:
+
 ```json
 {
   //fields
-  "repository": "myLinkToMyRep.com",
+  "repository": "myLinkToMyRep.com"
   //fields
 }
 ```

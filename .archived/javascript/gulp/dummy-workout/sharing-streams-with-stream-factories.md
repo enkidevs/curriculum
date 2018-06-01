@@ -19,14 +19,17 @@ links:
     [github.com](https://github.com/gulpjs/gulp/blob/master/docs/recipes/sharing-streams-with-stream-factories.md){website}
 
 ---
+
 # Sharing Streams with Stream Factories
 
 ---
+
 ## Content
 
-When using the same plugins **repeatedly** in different tasks it's possible to create and call a *factory* consisting of these plugins, this helps clean up code. 
+When using the same plugins **repeatedly** in different tasks it's possible to create and call a _factory_ consisting of these plugins, this helps clean up code.
 
-First require *gulp*, *gulp-uglify* and *gulp-sass*. Then define tasks like below:
+First require _gulp_, _gulp-uglify_ and _gulp-sass_. Then define tasks like below:
+
 ```javaScript
 gulp.task('enki', function() {
   return gulp.src('enki/scss/*.scss')
@@ -41,13 +44,17 @@ gulp.task('dev', function() {
     .pipe(gulp.dest('public/js'));
 });
 ```
+
 The `lazypipe` plugin is used to create a factory:
+
 ```javaScript
 var sassCompile = lazypipe()
   .pipe(gulp-sass)
   .pipe(uglify);
 ```
+
 Which can be called like this:
+
 ```javaScript
 gulp.task('enki', function() {
   return gulp.src('bootstrap/js/*.js')
@@ -62,6 +69,7 @@ gulp.task('dev', function() {
 ```
 
 ---
+
 ## Practice
 
 How do you create a factory consisting of the `gulp-concat-css` and the `gulp-clean-css` plugins?
@@ -71,21 +79,24 @@ var factory = ???
    ???(gulp-concat-css)
    ???;
 ```
-* lazypipe()
-* .pipe
-* .pipe(gulp-clean-css)
-* .stream
-* factory()
-* create()
-* .create
-* .create(gulp-clean-css)
+
+- lazypipe()
+- .pipe
+- .pipe(gulp-clean-css)
+- .stream
+- factory()
+- create()
+- .create
+- .create(gulp-clean-css)
 
 ---
+
 ## Revision
 
 Which Gulp plugin is used to create a factory?
 ???
-* lazypipe()
-* uglify()
-* factory()
-* factpipe()
+
+- lazypipe()
+- uglify()
+- factory()
+- factpipe()

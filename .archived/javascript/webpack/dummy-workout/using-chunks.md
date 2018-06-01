@@ -14,22 +14,27 @@ type: normal
 category: tip
 
 ---
+
 # Using Chunks
 
 ---
+
 ## Content
 
-*Webpack* defines each module in your code as a *chunk*. The *`CommonsChunk`* plugin decided which *chunks* are used most often, and pulls these into a separate file. 
+_Webpack_ defines each module in your code as a _chunk_. The _`CommonsChunk`_ plugin decided which _chunks_ are used most often, and pulls these into a separate file.
 
-This allows you to have a common file consisting of the most important *JavaScript* and *CSS* modules for your application.
+This allows you to have a common file consisting of the most important _JavaScript_ and _CSS_ modules for your application.
 
-First require the plugin into the *webpack.config* file:
+First require the plugin into the _webpack.config_ file:
+
 ```javaScript
-var CommonsPlugin = new         
+var CommonsPlugin = new
        require("webpack/lib/optimize/
                  CommonsChunkPlugin")
 ```
-Then add a new *common* entry to *plugins*:
+
+Then add a new _common_ entry to _plugins_:
+
 ```javaScript
 module.exports = {  
   entry: {
@@ -43,4 +48,5 @@ module.exports = {
   ]
 };
 ```
-The *`common`* entry means *jquery* code will be pulled. The *`minChunks`* option specifies the number of times a module must be used before it is pulled.
+
+The _`common`_ entry means _jquery_ code will be pulled. The _`minChunks`_ option specifies the number of times a module must be used before it is pulled.

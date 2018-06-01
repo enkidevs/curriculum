@@ -25,9 +25,11 @@ links:
     [www.coderanch.com](http://www.coderanch.com/t/343686/GUI/java/setLocationRelativeTo){website}
 
 ---
+
 # How to center `JDialog` in Java
 
 ---
+
 ## Content
 
 The simplest way of make `JDialog` appear in the centre of the screen is to use code similar to the one below:

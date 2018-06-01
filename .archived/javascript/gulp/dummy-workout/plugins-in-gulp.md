@@ -18,12 +18,14 @@ links:
   - '[gulpjs.com](http://gulpjs.com/plugins/){website}'
 
 ---
+
 # Plugins in Gulp
 
 ---
+
 ## Content
 
-There are over 600 plugins which can be used with *gulp*. They're all listed in the plugins page.
+There are over 600 plugins which can be used with _gulp_. They're all listed in the plugins page.
 
 Most plugins come with good documentation and are ran by piping a stream of file objects to it. They then normally modify the files piped to it, and return the new files to be passed on to the next plugin.
 
@@ -40,6 +42,7 @@ gulp.task('multiple-plugins', function () {
 ```
 
 ---
+
 ## Practice
 
 Require the 'gulp' plugin into the gulp file:
@@ -48,20 +51,22 @@ Require the 'gulp' plugin into the gulp file:
 ??? gulp = ???('gulp');
 ```
 
-* var
-* require
-* variable
-* declare
-* use
-* str
-* int
-* load
+- var
+- require
+- variable
+- declare
+- use
+- str
+- int
+- load
 
 ---
+
 ## Revision
 
 How do you declare the 'gulp' plugin into your gulp file? ???
-* var gulp = require('gulp');
-* var gulp = use('gulp');
-* gulp = require('gulp');
-* var gulp = require('gulp')
+
+- var gulp = require('gulp');
+- var gulp = use('gulp');
+- gulp = require('gulp');
+- var gulp = require('gulp')

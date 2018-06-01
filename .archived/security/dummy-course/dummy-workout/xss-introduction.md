@@ -17,9 +17,11 @@ links:
     [owasp.org](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)){website}
 
 ---
+
 # XSS (Cross-Site Scripting) Introduction
 
 ---
+
 ## Content
 
 Cross-Site Scripting (abbreviated as XSS) is a malicious attack on a web form.
@@ -27,6 +29,7 @@ Cross-Site Scripting (abbreviated as XSS) is a malicious attack on a web form.
 A malicious user embeds HTML/JavaScript in a form (such as a search bar or comment form), and that code is executed when the plaintext is rendered.
 
 Take for example the mockup form I've create below...
+
 ```javascript
 Add a Comment Below:
 ===
@@ -38,21 +41,24 @@ window.location="http://www.mysite.com/"
 ===
 [SEND]
 ```
+
 Upon sending this comment, any users that then visit this page will be redirected to my website.
 
 This method can be used to steal cookies-- a chunk of data used in authenticating a user.
 
 ---
+
 ## Practice
 
 Cross Site Scripting can be used to steal ???-- a chunk of data used in authenticating a user.
 
-* cookies
-* usernames
-* passwords
-* cupcakes
+- cookies
+- usernames
+- passwords
+- cupcakes
 
 ---
+
 ## Revision
 
 Embed malicious code in my comment form:
@@ -67,8 +73,9 @@ Hi, great site. Too bad I hacked it!
 ===
 [SEND]
 ```
-* script
-* window
-* global
-* blink
-* h1
+
+- script
+- window
+- global
+- blink
+- h1

@@ -14,14 +14,17 @@ type: normal
 category: tip
 
 ---
+
 # Function argument unpacking
 
 ---
+
 ## Content
 
 Unpack a list or a dictionary as function arguments with `*` and `**`.
 
 Example:
+
 ```python
 def draw_point(x, y):
     # do some magic

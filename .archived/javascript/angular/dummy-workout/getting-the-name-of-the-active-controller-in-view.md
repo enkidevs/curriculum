@@ -10,9 +10,11 @@ type: normal
 category: how to
 
 ---
+
 # Getting the name of the active controller in view
 
 ---
+
 ## Content
 
 If you ever wanted to get the name of the active controller in the view, here's a neat way to do it:
@@ -25,20 +27,25 @@ In app.js (or the JS file where you bootstrap your angular application with rout
 
 ```js
 angular.run(function($rootScope) {
-$rootScope.$on('$routeChangeSuccess',
-  function(ev, data) {
-    if (data.$$route && 
-          data.$$route.controller)
-       {
-          $rootScope.controller = 
-               data.$$route.controller;
-       }
-   });
-})
+  $rootScope.$on(
+    "$routeChangeSuccess",
+    function(ev, data) {
+      if (
+        data.$$route &&
+        data.$$route.controller
+      ) {
+        $rootScope.controller =
+          data.$$route.controller;
+      }
+    }
+  );
+});
 ```
-This assigns the `$rootScope.controller` object with the current name of the controller, which later can be retrieved in the view to use it as seemed fit. 
+
+This assigns the `$rootScope.controller` object with the current name of the controller, which later can be retrieved in the view to use it as seemed fit.
 
 **Example**:
+
 ```html
 <div>
     Active Controller Name: {{controller}}
@@ -46,6 +53,7 @@ This assigns the `$rootScope.controller` object with the current name of the con
 ```
 
 ---
+
 ## Revision
 
 Complete the following HTML code to remove
@@ -55,18 +63,18 @@ the element from the DOM.
 angular.run(function($rootScope) {
 ???.$on('$routeChangeSuccess',
   function(ev, data) {
-    if (data.??? && 
+    if (data.??? &&
           data.$$route.controller)
        {
-          $rootScope.controller = 
+          $rootScope.controller =
                data.$$route.controller;
        }
    });
 })
 ```
 
-* `$rootScope`
-* `$$route`
-* `$rootscope`
-* `$route`
-* `$scope`
+- `$rootScope`
+- `$$route`
+- `$rootscope`
+- `$route`
+- `$scope`

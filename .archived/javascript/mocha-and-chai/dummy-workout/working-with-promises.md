@@ -22,18 +22,20 @@ links:
   - '[mochajs.org](http://mochajs.org){website}'
 
 ---
+
 # Working with Promises
 
 ---
+
 ## Content
 
-A *promise object* represents an operation which hasn't been completed yet, but is expected to be completed in the future. 
+A _promise object_ represents an operation which hasn't been completed yet, but is expected to be completed in the future.
 
 A promise represents a proxy for a value when the promise is created. It lets you associate handlers to an asynchronous action's success value or failure reason.
 
 ```JavaScript
 var expect = require('chai').expect;
-it('should do something with promises', 
+it('should do something with promises',
     function() {
   var line = 'Enki!';
 
@@ -50,11 +52,12 @@ it('should do something with promises',
 If a promise fails, then using Mocha's built in support for promises, then the test will automatically be returned as failed.
 
 ---
+
 ## Revision
 
 What is a promise object? ???
 
-* an operation which hasn't currently been completed, but is expected to be completed in the future.
-* a promise to add some functionality to a program.
-* a function with no body which is yet to be completed.
-* a test case with no body which is yet to be completed.
+- an operation which hasn't currently been completed, but is expected to be completed in the future.
+- a promise to add some functionality to a program.
+- a function with no body which is yet to be completed.
+- a test case with no body which is yet to be completed.

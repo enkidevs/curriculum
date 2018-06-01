@@ -26,23 +26,26 @@ links:
   - '[groups.google.com](groups.google.com){website}'
 
 ---
+
 # Pros and cons of inline `import`
 
 ---
+
 ## Content
 
-*import* statement can be executed almost everywhere. 
+_import_ statement can be executed almost everywhere.
 
-Pros: It will be useful to put them inside functions to restrict their visibility or reduce the *init* time. 
+Pros: It will be useful to put them inside functions to restrict their visibility or reduce the _init_ time.
 
-Cons: Putting inline *import* can cause significant overhead.
+Cons: Putting inline _import_ can cause significant overhead.
 
 Experiment:
 
 case 1:
+
 ```
 def doit1():
-    import string 
+    import string
     ###### import statement inside function
     string.lower('Python')
 
@@ -51,8 +54,9 @@ for num in range(100000):
 ```
 
 case 2:
+
 ````
-import string 
+import string
 ###### import statement outside function
 def doit2():
     string.lower('Python')
@@ -76,3 +80,4 @@ stmt='doit2()')
 ```
 
 *doit2()* runs much faster than *doit1()*.
+````

@@ -21,21 +21,25 @@ links:
     [christianalfoni.github.io](http://christianalfoni.github.io/javascript/2014/12/13/did-you-know-webpack-and-react-is-awesome.html#runningworkflow){website}
 
 ---
+
 # Running a workflow
 
 ---
+
 ## Content
 
-Instead of setting up a workflow in *Webpack* using `npm run build` which would have to be run after every change, it's best to set up `webpack-dev-server`.
+Instead of setting up a workflow in _Webpack_ using `npm run build` which would have to be run after every change, it's best to set up `webpack-dev-server`.
 
 To install:
+
 ```bash
 npm i webpack-dev-server --save-dev
 ```
 
-Then modify your *`package.json  -> dev`* script to include `webpack-dev-server`. 
+Then modify your _`package.json -> dev`_ script to include `webpack-dev-server`.
 
-*`Package.json`*:
+_`Package.json`_:
+
 ```javaScript
 {
   "scripts": {
@@ -46,34 +50,38 @@ Then modify your *`package.json  -> dev`* script to include `webpack-dev-server`
   }
 }
 ```
-Now, running `npm run dev` will execute commands stated on the `dev` value. 
+
+Now, running `npm run dev` will execute commands stated on the `dev` value.
 In this case:
-- *`webpack-dev-server`* starts a web service on *localhost:8080*.
-- *`--devtool eval`* creates source URLs for your code.
-- *`--progress`* shows the progress of bundling your application.
-- *`--content-base build`* points to the output directory configured.
+
+- _`webpack-dev-server`_ starts a web service on _localhost:8080_.
+- _`--devtool eval`_ creates source URLs for your code.
+- _`--progress`_ shows the progress of bundling your application.
+- _`--content-base build`_ points to the output directory configured.
 
 Running `npm run dev` starts up a web service, watches for file changes and automatically re-bundles the application when any changes are found.
 
 ---
+
 ## Practice
 
 Which of the following commands points to the output directory configured when running a workflow? ???
 
-* --content-base build
-* webpack-dev-server
-* --devtool eval
-* --progress
-* --output-dir
+- --content-base build
+- webpack-dev-server
+- --devtool eval
+- --progress
+- --output-dir
 
 ---
+
 ## Revision
 
 What `webpack-dev-server` flag will show the progress of bundling your application:
 
 ???
 
-* --progress
-* --devtool eval
-* webpack-dev-server
-* --content-base-build
+- --progress
+- --devtool eval
+- webpack-dev-server
+- --content-base-build

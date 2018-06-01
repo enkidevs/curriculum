@@ -7,4 +7,3 @@ description: Can you fill in the gaps in the following code snippets such that t
 section: 3
 
 parent: generators-proxy
-

@@ -12,9 +12,11 @@ type: normal
 category: must-know
 
 ---
+
 # Reset a `$timeout()` and disable `$watch()`
 
 ---
+
 ## Content
 
 `$timeout()` is the **Angular** version of **JavaScript**'s `setTimeout()` function. [1]
@@ -41,11 +43,11 @@ $timeout.cancel(customTimeout);
 
 The same applies to `$interval()`.
 
-To *disable a watch*, you can just call the method object assigned to the `$watch`.
+To _disable a watch_, you can just call the method object assigned to the `$watch`.
 
 ```
-var deregisterWatchFn = 
-  $rootScope.$watch(‘someProperty’, 
+var deregisterWatchFn =
+  $rootScope.$watch(‘someProperty’,
   function (newVal) {
     if (newVal) {
     // we invoke that deregistration
@@ -57,6 +59,7 @@ var deregisterWatchFn =
 ```
 
 ---
+
 ## Revision
 
 Complete the code to cancel the timeout:
@@ -69,16 +72,17 @@ var timeoutFn = $timeout(function() {
 $timeout.???;
 ```
 
-* `cancel(timeoutFn)`
-* `cancel()`
-* `cancel`
-* `stop(timoutFn)`
+- `cancel(timeoutFn)`
+- `cancel()`
+- `cancel`
+- `stop(timoutFn)`
 
 ---
+
 ## Footnotes
 
 [1:`$timeout()` & `$interval()`]
 `$timeout()` is used to execute a task after a certain time period, where as `$interval()` repeats a set of code
-repeatedly after every set time-frame until it is cancelled. 
+repeatedly after every set time-frame until it is cancelled.
 
 `$interval()` is similar to `setInterval()` in **JavaScript**.

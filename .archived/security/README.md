@@ -1,7 +1,7 @@
-language: 
+language:
 
-deviconsClass: 
+deviconsClass:
 
-color: 
+color:
 
 description: undefined

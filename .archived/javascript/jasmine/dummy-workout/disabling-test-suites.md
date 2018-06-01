@@ -27,12 +27,14 @@ links:
     [www.safaribooksonline.com](https://www.safaribooksonline.com/library/view/javascript-testing-with/9781449356729/_skipping_specs_and_suites.html){website}
 
 ---
+
 # Disabling Test Suites
 
 ---
+
 ## Content
 
-You can disable a *test suite* in Jasmine by changing `describe` to `xdescribe`. 
+You can disable a _test suite_ in Jasmine by changing `describe` to `xdescribe`.
 
 When Jasmine encounters `xdescribe` it will skip over the suite and specifications contained within and these will not contribute to the test execution count.
 

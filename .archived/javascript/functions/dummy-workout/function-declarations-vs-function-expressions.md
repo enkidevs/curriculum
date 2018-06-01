@@ -29,19 +29,25 @@ links:
     [javascriptweblog.wordpress.com](https://javascriptweblog.wordpress.com/2010/07/06/function-declarations-vs-function-expressions/){website}
 
 ---
+
 # Function declarations vs function expressions
 
 ---
+
 ## Content
 
 What is the difference between:
+
 ```
 function example1() {};
 ```
+
 and
+
 ```
 var example2 = function() {};
 ```
+
 The answer is that they are hoisted differently.
 
 `example1` is a function declaration, and is hoisted entirely. You could call `example1()` in a line that precedes the declaration.
@@ -57,39 +63,41 @@ The answer is that they are hoisted differently.
     var example4 = function() {};
   }
 ```
+
 Because function declarations are always hoisted, `example3` will be defined, despite the if-statement evaluating false.
 
- `example4` will hoist the variable declaration only, and will remain `undefined` unless it is defined elsewhere.
+`example4` will hoist the variable declaration only, and will remain `undefined` unless it is defined elsewhere.
 
 ---
+
 ## Practice
 
-Which function is *not* hoisted entirely? ???
+Which function is _not_ hoisted entirely? ???
 
 ```javascript
 var example1 = function() {};
-function example2() {};
+function example2() {}
 ```
 
-* example1
-* example2
-* Neither
-* Both
+- example1
+- example2
+- Neither
+- Both
 
 ---
+
 ## Revision
 
 Which function is hoisted entirely?
 
 ```javascript
-function enki() {};
+function enki() {}
 var enki2 = function() {};
-
 ```
 
 ???
 
-* enki
-* enki2
-* none
-* both
+- enki
+- enki2
+- none
+- both

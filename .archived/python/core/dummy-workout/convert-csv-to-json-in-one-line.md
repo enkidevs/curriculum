@@ -14,14 +14,17 @@ type: normal
 category: tip
 
 ---
+
 # Convert CSV to JSON in one line
 
 ---
+
 ## Content
 
-JSON and CSV are two of the most common used data storage forms in programming. 
+JSON and CSV are two of the most common used data storage forms in programming.
 
 To convert CSV to JSON:
+
 ```python
 import csv,json
 print json.dumps( \

@@ -29,9 +29,11 @@ links:
     [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects){website}
 
 ---
+
 # Getter and setter methods
 
 ---
+
 ## Content
 
 Getter and setter methods return or set the value of a property of an object respectively.
@@ -63,9 +65,11 @@ o.val     //> getting 3
 ```
 
 ---
+
 ## Revision
 
 Complete the getter/setter pattern in the code below:
+
 ```javascript
 var enki = {
   _val = 0,
@@ -78,8 +82,8 @@ var enki = {
 };
 ```
 
-* get
-* set
-* .
-* getter
-* setter
+- get
+- set
+- .
+- getter
+- setter
