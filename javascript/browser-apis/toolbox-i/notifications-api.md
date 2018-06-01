@@ -41,7 +41,7 @@ To request permission to display notifications use _Notification.requestPermissi
 Notification.requestPermission(function(
   permission
 ) {
-  if (permission === "granted") {
+  if (permission === 'granted') {
     //notification logic
   }
 });
@@ -51,7 +51,7 @@ Once permission is granted you can create notifications:
 
 ```javascript
 var notification = new Notification(
-  "Hello"
+  'Hello'
 );
 ```
 

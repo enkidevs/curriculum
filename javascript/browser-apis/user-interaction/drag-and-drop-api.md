@@ -39,9 +39,9 @@ Before dragging and dropping, an elements attribute must be set so it's allowed 
 
 ```javascript
 function dragstart_handler(ev) {
-  console.log("Start dragging...");
+  console.log('Start dragging...');
   ev.dataTransfer.setData(
-    "text/plain",
+    'text/plain',
     ev.target.id
   );
 }

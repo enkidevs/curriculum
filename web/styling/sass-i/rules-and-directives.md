@@ -35,8 +35,8 @@ On top of supporting all CSS3 @-rules, Sass has it's own specific @-rules, known
 
 ```css
 // both import the same file
-@import "file.sass";
-@import "file";
+@import 'file.sass';
+@import 'file';
 ```
 
 `@debug` prints the value of a _SassScript_ expression to the output stream. It's used for debugging Sass files which include complicated SassScript code.
@@ -48,7 +48,7 @@ On top of supporting all CSS3 @-rules, Sass has it's own specific @-rules, known
 This would output:
 
 ```css
-line1 DEBUG: 18px;
+line1debug: 18px;
 ```
 
 ---
@@ -77,7 +77,7 @@ Line 1 DEBUG: 42px
 Which of the following lines of SassScript code _wouldn't_ produce the following output?
 
 ```css
-line1 DEBUG: 80%;
+line1debug: 80%;
 ```
 
 ???

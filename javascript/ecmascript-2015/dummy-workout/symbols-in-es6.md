@@ -48,7 +48,6 @@ const A_KEY = Symbol(); // unique key
 let obj = {};
 obj[A_KEY] = 'Enki';
 console.log(obj[A_KEY]); // 'Enki'
-
 ```
 
 ---

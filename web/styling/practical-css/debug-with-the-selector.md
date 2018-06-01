@@ -65,7 +65,7 @@ What does the following CSS code do?
 
 ```css
 div * {
-  font-family: "Arial Narrow";
+  font-family: 'Arial Narrow';
 }
 ```
 

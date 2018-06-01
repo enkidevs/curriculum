@@ -57,7 +57,6 @@ Complete the code snippet, printing the `int` decimal provided:
 int x = 5;
 System.out.???("The value"+
   "of x is: ??? ", ???);
-
 ```
 
 - `format`

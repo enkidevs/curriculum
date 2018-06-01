@@ -39,13 +39,13 @@ Example:
 
 ```css
 @font-face {
-  font-family: "MyCustomFont";
-  src: /* Firefox, Chrome, Opera, Edge*/ url("webfont.woff2")
-      format("woff2"), url("webfont.woff")
-      format("woff"),
+  font-family: 'MyCustomFont';
+  src: /* Firefox, Chrome, Opera, Edge*/ url('webfont.woff2')
+      format('woff2'), url('webfont.woff')
+      format('woff'),
     /* Supported by all browsers
-       but Opera Mini */ url("webfont.ttf") format(
-        "truetype"
+       but Opera Mini */ url('webfont.ttf') format(
+        'truetype'
       );
 }
 ```
@@ -54,7 +54,7 @@ Style elements using:
 
 ```css
 a {
-  font-family: "MyCustomFont", sans-serif;
+  font-family: 'MyCustomFont', sans-serif;
 }
 ```
 
@@ -81,7 +81,7 @@ Consider the following snippet:
 
 ```css
 p {
-  font-family: "enkiFont", sans-serif;
+  font-family: 'enkiFont', sans-serif;
 }
 ```
 

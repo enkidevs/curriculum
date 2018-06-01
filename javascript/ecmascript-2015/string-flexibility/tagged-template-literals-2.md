@@ -37,11 +37,11 @@ function currency(strings, priceValue) {
   const str0 = strings[0]; // $ or €
   const str1 = strings[1]; //.00
 
-  let currencyName = "";
-  if (str0.indexOf("$") !== -1) {
-    currencyName = " USD";
-  } else if (str0.indexOf("€") !== -1) {
-    currencyName = " EUR";
+  let currencyName = '';
+  if (str0.indexOf('$') !== -1) {
+    currencyName = ' USD';
+  } else if (str0.indexOf('€') !== -1) {
+    currencyName = ' EUR';
   }
   return (
     str0 + priceValue + str1 + currencyName
@@ -113,9 +113,9 @@ Given the following function:
 function processNumber(strings, value) {
   let ret = strings[0] + value;
   if (value % 2 === 0) {
-    ret += " is even";
+    ret += ' is even';
   } else {
-    ret += " is odd";
+    ret += ' is odd';
   }
   return ret;
 }

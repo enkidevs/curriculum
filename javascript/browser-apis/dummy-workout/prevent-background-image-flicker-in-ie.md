@@ -38,7 +38,7 @@ catch(e) {};
 However, on **IE 10** this won't solve the problem. This version of the browser won't load cached images via **CSS**. As to solve this you need to force load the image:
 
 ```css
-background-image: url("background1.jpg");
+background-image: url('background1.jpg');
 ```
 
 In **HTML**:

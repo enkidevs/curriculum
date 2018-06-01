@@ -71,9 +71,9 @@ You are relying on a third-party asynchronous function named `computeData` which
 
 ```javascript
 function logData(data, time) {
-  console.log("computed data:");
+  console.log('computed data:');
   console.log(data);
-  console.log("time taken:");
+  console.log('time taken:');
   console.log(time);
 }
 

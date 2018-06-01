@@ -37,7 +37,7 @@ You can return the **nested function** `bar()` and maintain access to the local 
 
 ```javascript
 function foo() {
-  var localVariable = "private variable";
+  var localVariable = 'private variable';
   return function bar() {
     return localVariable;
   };
@@ -62,7 +62,7 @@ This code ??? run:
 
 ```javascript
 function foo() {
-  var localVariable = "lVar";
+  var localVariable = 'lVar';
   return function bar() {
     return localVariable;
   };

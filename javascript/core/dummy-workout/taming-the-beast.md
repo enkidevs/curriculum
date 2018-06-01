@@ -99,7 +99,7 @@ enki == undefined;
 ---
 
 ```javascript
-undefined = "Hello world";
+undefined = 'Hello world';
 var enki;
 enki == undefined;
 ```
@@ -147,7 +147,7 @@ alert(x === false);
   delete x;
   var a = x;
   return a;
-})("Enki");
+})('Enki');
 ```
 
 - "Enki"
@@ -161,7 +161,7 @@ alert(x === false);
 
 ```javascript
 var a = function b() {
-  return "Hi World";
+  return 'Hi World';
 };
 typeof b();
 ```

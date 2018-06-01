@@ -36,7 +36,7 @@ navigator
   .then(function(battery) {
     LogBatteryLevel();
     battery.addEventListener(
-      "levelchange",
+      'levelchange',
       LogBatteryLevel
     );
 

@@ -35,13 +35,13 @@ In a simple **Node** _HTTP server_ `response` and `request` are specialized stre
 Create a readable stream:
 
 ```javascript
-readable = fs.createReadStream("file.txt");
+readable = fs.createReadStream('file.txt');
 ```
 
 Read from a stream with a `data` event callback:
 
 ```javascript
-readStream.on("data", function(chunk) {
+readStream.on('data', function(chunk) {
   data += chunk;
 });
 ```
@@ -49,22 +49,22 @@ readStream.on("data", function(chunk) {
 `End` event to notify the end of a stream:
 
 ```javascript
-readStream.on("end", function() {});
+readStream.on('end', function() {});
 ```
 
 Create a writeable stream:
 
 ```javascript
 writeable = fs.createWriteStream(
-  "file.txt"
+  'file.txt'
 );
 ```
 
 Write to a writeable Stream and end it:
 
 ```javascript
-writeable.write("data");
-writeable.end("Ended.");
+writeable.write('data');
+writeable.end('Ended.');
 ```
 
 Pair input and output with `pipe()`:

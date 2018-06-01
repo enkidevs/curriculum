@@ -52,7 +52,7 @@ The static keyword creates a method on the class type itself and is often used f
 ```javascript
 class UtilityMethods {
   static log() {
-    console.log("hello enki");
+    console.log('hello enki');
   }
 }
 
@@ -77,7 +77,7 @@ class Utils {
   static NotFound404() {
     return new Error({
       statusCode: 404,
-      message: "not found"
+      message: 'not found'
     });
   }
 }

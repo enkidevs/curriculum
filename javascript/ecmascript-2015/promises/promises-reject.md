@@ -32,10 +32,10 @@ var p = new Promise(function(
   reject
 ) {
   setTimeout(function() {
-    reject("enki");
+    reject('enki');
   }, 2000);
 }).then(function(result) {
-  console.log("success");
+  console.log('success');
 });
 //Exception - Uncaught (in promise) enki
 ```
@@ -50,14 +50,14 @@ var p = new Promise(function(
   reject
 ) {
   setTimeout(function() {
-    reject("enki");
+    reject('enki');
   }, 2000);
 })
   .then(function(result) {
-    console.log("then called");
+    console.log('then called');
   })
   .catch(function(error) {
-    console.log("error " + error);
+    console.log('error ' + error);
   });
 //logs error enki
 ```

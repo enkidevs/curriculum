@@ -42,17 +42,17 @@ Additionally note that modifying a property of an object referenced by a constan
 Objects can also be declared as `const`.
 
 ```javascript
-const p = { first: "john", last: "smith" };
+const p = { first: 'john', last: 'smith' };
 
 //below will cause errors:
 p = 5;
-p = { first: "bob", last: "smith" };
+p = { first: 'bob', last: 'smith' };
 ```
 
 It is important to note however that the values of the object can be modified so the below is valid:
 
 ```javascript
-p.first = "bob"; //valid
+p.first = 'bob'; //valid
 ```
 
 If you don’t want anyone to be able modify the object at all be sure to use `Object.freeze`[1] function.
@@ -96,9 +96,9 @@ What will happen when running this code?
 
 ```javascript
 const foo = {
-  bar: "baz"
+  bar: 'baz'
 };
-foo.bar = "enki";
+foo.bar = 'enki';
 console.log(foo.bar);
 ```
 

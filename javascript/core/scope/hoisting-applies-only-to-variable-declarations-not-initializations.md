@@ -67,7 +67,7 @@ This alert will produce `undefined` because, although `var x` is hoisted to the 
 The following code will output ???
 
 ```javascript
-s = "enki";
+s = 'enki';
 console.log(s);
 var s;
 ```
@@ -84,7 +84,7 @@ The following code outputs ???
 
 ```javascript
 console.log(v);
-var v = "enki";
+var v = 'enki';
 ```
 
 - undefined

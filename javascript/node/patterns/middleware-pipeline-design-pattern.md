@@ -92,9 +92,9 @@ the ??? of one unit is the ??? for the next one.
 Which design pattern can you observe in the following snippet which archives `raw.txt`?
 
 ```javascript
-fs.createReadStream("raw.txt")
+fs.createReadStream('raw.txt')
   .pipe(zlib.createGzip())
-  .pipe(fs.createWriteStream("raw.gz"));
+  .pipe(fs.createWriteStream('raw.gz'));
 ```
 
 ???

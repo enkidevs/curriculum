@@ -32,11 +32,11 @@ For example we might add a function to our person object to print out a greeting
 
 ```javascript
 var per = {
-  firstName: "alex",
-  lastName: "smith",
+  firstName: 'alex',
+  lastName: 'smith',
 
   sayHi: function() {
-    console.log("hello");
+    console.log('hello');
   }
 };
 ```
@@ -60,8 +60,8 @@ function Person(firstName, lastName) {
   this.lastName = lastName;
 }
 
-var p1 = new Person("john", "smith");
-var p2 = new Person("joe", "smith");
+var p1 = new Person('john', 'smith');
+var p2 = new Person('joe', 'smith');
 ```
 
 You can even implement inheritance in JavaScript by building on this but this is a more advanced technique.

@@ -51,7 +51,7 @@ Use `fs.readFileSync` to **return the contents of a file**:
 ```javascript
 // suppose file.txt
 const fileContent = fs.readFileSync(
-  "./file.txt"
+  './file.txt'
 );
 ```
 

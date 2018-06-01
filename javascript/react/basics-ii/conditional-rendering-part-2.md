@@ -120,7 +120,7 @@ function Exercise(props) {
 
 ReactDOM.render(
   <Exercise not={false} x={true} />,
-  document.getElementById("root")
+  document.getElementById('root')
 );
 ```
 

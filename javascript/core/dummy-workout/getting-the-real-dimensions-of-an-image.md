@@ -31,10 +31,10 @@ Keep in mind that these properties are _read-only_.
 An `img`'s `onload()`event must be loaded first as you can't check the dimensions prior to loading it.[1]
 
 ```javascript
-myImg.addEventListener("load", function() {
-  console.log("Width: ", this.naturalWidth);
+myImg.addEventListener('load', function() {
+  console.log('Width: ', this.naturalWidth);
   console.log(
-    "Height: ",
+    'Height: ',
     this.naturalHeight
   );
 });
@@ -44,9 +44,9 @@ The same result can be achieved by defining the `.onload` property of an image:
 
 ```javascript
 myImg.onload = function() {
-  console.log("Width: ", this.naturalWidth);
+  console.log('Width: ', this.naturalWidth);
   console.log(
-    "Height: ",
+    'Height: ',
     this.naturalHeight
   );
 };

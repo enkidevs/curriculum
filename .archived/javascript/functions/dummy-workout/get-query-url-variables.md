@@ -31,9 +31,9 @@ function findVariable(variable) {
   var query = window.location.search.substring(
     1
   );
-  var vars = query.split("&");
+  var vars = query.split('&');
   for (var i = 0; i < vars.length; i++) {
-    var pair = vars[i].split("=");
+    var pair = vars[i].split('=');
     if (pair[0] == variable) {
       return pair[1];
     }
@@ -54,8 +54,8 @@ For example:
 
 ```javascript
 //www.myurl.com/index.php?id=5&state=on
-http: findVariable("id"); // returns "5"
-findVariable("state"); // returns "on"
+http: findVariable('id'); // returns "5"
+findVariable('state'); // returns "on"
 ```
 
 ---
@@ -67,8 +67,8 @@ What does the following JS code return? ???
 ```javascript
 //www.enki.com/here.php?pQ=1&ans=true
 
-http: findVariable("pQ");
-findVariable("ans");
+http: findVariable('pQ');
+findVariable('ans');
 ```
 
 - 1, true

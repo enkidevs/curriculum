@@ -35,8 +35,8 @@ React.createElement("div",
 Instead, ternary expressions can be used:
 
 ```jsx
-<div id={condition ? "msg" : null}>
-  {" "}
+<div id={condition ? 'msg' : null}>
+  {' '}
   Hello
 </div>
 ```
@@ -49,12 +49,12 @@ Another alternative is that _immediately-invoked function expressions_ can be us
 <p>
   {(() => {
     switch (this.state.somestate) {
-      case "one":
-        return "enki";
-      case "two":
-        return "enki2";
-      case "three":
-        return "enki3";
+      case 'one':
+        return 'enki';
+      case 'two':
+        return 'enki2';
+      case 'three':
+        return 'enki3';
     }
   })()}
 </p>

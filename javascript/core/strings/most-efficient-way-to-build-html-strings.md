@@ -35,17 +35,17 @@ So, adding the values to an array and then joining them at the end:
 ```javascript
 var html = [];
 for (var i = 0; i < 100; i++) {
-  html.push("<p>", i, "</p>");
+  html.push('<p>', i, '</p>');
 }
-html = html.join("");
+html = html.join('');
 ```
 
 Runs slower than the straightforward method of building `HTML` strings using `+=`:
 
 ```javascript
-var html = "";
+var html = '';
 for (var i = 0; i < 100; i++) {
-  html += "<p>" + i + "</p>";
+  html += '<p>' + i + '</p>';
 }
 ```
 

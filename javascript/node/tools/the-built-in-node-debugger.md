@@ -63,9 +63,9 @@ When running the following code snippet in the debugger, which line of code will
 for (var i = 0; i < 10; i++) {
   // line 0
   debugger; // line 1
-  console.log("hello " + i); // line 2
+  console.log('hello ' + i); // line 2
 } // line 3
-console.log("end"); // line 4
+console.log('end'); // line 4
 ```
 
 - Line 1

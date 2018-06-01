@@ -42,7 +42,7 @@ The general paradigm is that only top level components (e.g. route handlers) sho
 To turn a presentational container into a component, the `connect` function must be imported:
 
 ```javascript
-import { connect } from "react-redux";
+import { connect } from 'react-redux';
 ```
 
 Canonical form of `connect()` function:

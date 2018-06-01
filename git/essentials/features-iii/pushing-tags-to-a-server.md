@@ -69,7 +69,6 @@ What does this command do?
 
 ```
 $ git push enki v1.2
-
 ```
 
 ???

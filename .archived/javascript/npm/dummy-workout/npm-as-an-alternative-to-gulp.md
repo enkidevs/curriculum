@@ -32,10 +32,10 @@ Suppose you have some **ES2015** code in `mycode.js` that needs transpiling with
 
 ```javascript
 //mycode.js
-"use strict";
-const enki = require("enki");
+'use strict';
+const enki = require('enki');
 enki(function*() {
-  console.log("Enki was here!");
+  console.log('Enki was here!');
 });
 ```
 

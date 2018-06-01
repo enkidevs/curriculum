@@ -41,13 +41,13 @@ With the `Canvas` object it is possible to draw simple shapes and graphics direc
 
 ```javascript
 var canvas = document.getElementById(
-  "canvas"
+  'canvas'
 );
 // get the 2d context to draw in 2d
-var context = canvas.getContext("2d");
+var context = canvas.getContext('2d');
 
 // color and draw
-context.fillStyle = "red";
+context.fillStyle = 'red';
 context.fillRect(20, 20, 100, 200);
 ```
 

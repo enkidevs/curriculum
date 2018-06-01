@@ -45,10 +45,10 @@ Creating a function to call returning a string of the object and arguments:
 ```javascript
 function callObject(arg1, arg2) {
   var str;
-  str += "Object: " + this + ". ";
-  str += "Arguments: ";
+  str += 'Object: ' + this + '. ';
+  str += 'Arguments: ';
   for (i in callObject.arguments) {
-    str += callObject.arguments[i] + " ";
+    str += callObject.arguments[i] + ' ';
   }
   return str;
 }
@@ -63,7 +63,7 @@ callObject.call(2, 4, 6);
 The current object would be changed to 2, and the string generated and returned would be:
 
 ```javascript
-str = "Object: 2. Arguments: 4 6 ";
+str = 'Object: 2. Arguments: 4 6 ';
 ```
 
 ---

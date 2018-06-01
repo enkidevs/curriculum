@@ -47,9 +47,9 @@ And the JavaScript:
 ```javascript
 function triggerRead() {
   var wallpaper = document.getElementById(
-    "wallpaper"
+    'wallpaper'
   );
-  var file = document.getElementById("file")
+  var file = document.getElementById('file')
     .files[0];
   var reader = new FileReader();
 

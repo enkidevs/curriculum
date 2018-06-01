@@ -60,8 +60,8 @@ console.log([1, 2] + [3, 4]);
 Suppose:
 
 ```javascript
-var array1 = ["a", "b", "c"];
-var array2 = ["d", "e", "f"];
+var array1 = ['a', 'b', 'c'];
+var array2 = ['d', 'e', 'f'];
 ```
 
 Merge the two arrays in order:

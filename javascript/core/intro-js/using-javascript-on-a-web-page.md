@@ -52,7 +52,7 @@ It is generally better to put our JavaScript code in another file.
 We can put our code in a file called _hello.js_ (note we remove the script tags when we put JavaScript in another file):
 
 ```javascript
-console.log("hello");
+console.log('hello');
 ```
 
 This script can then be referenced with the src attribute of the script tag:

@@ -28,12 +28,12 @@ Here is how to define a JavaScript function to move a user's cursor to the end o
 ```javascript
 function moveCursorToEnd(el) {
   if (
-    typeof el.selectionStart == "number"
+    typeof el.selectionStart == 'number'
   ) {
     el.selectionStart = el.selectionEnd =
       el.value.length;
   } else if (
-    typeof el.createTextRange != "undefined"
+    typeof el.createTextRange != 'undefined'
   ) {
     el.focus();
     var range = el.createTextRange();

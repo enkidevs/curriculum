@@ -48,7 +48,7 @@ children = [
 This can be done like:
 
 ```javascript
-var createFragment = require("react-addons-create-fragment");
+var createFragment = require('react-addons-create-fragment');
 
 children = createFragment({
   right: this.props.rightChildren,

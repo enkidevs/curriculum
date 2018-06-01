@@ -46,8 +46,8 @@ const component = (
 
 ```jsx
 const props = {
-  name: "enki",
-  content: "cool content"
+  name: 'enki',
+  content: 'cool content'
 };
 ```
 
@@ -90,8 +90,8 @@ function Test(props) {
 }
 
 const props = {
-  x: "dog",
-  y: "dog"
+  x: 'dog',
+  y: 'dog'
 };
 
 const test = <Test {...props} x="cat" />;
@@ -118,8 +118,8 @@ function Test(props) {
 }
 
 const props = {
-  x: "dog",
-  y: "cat"
+  x: 'dog',
+  y: 'cat'
 };
 
 const test = <Test {...props} x="cat" />;

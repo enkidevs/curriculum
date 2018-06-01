@@ -55,7 +55,7 @@ class Hello extends React.Component {
     // props aren't used now
     super(props);
     // set the initial state
-    this.state = { text: "Hello" };
+    this.state = { text: 'Hello' };
   }
   // render() ...
 }
@@ -72,7 +72,7 @@ class Hello extends React.Component {
     // ...set initial state
 
     setTimeout(() => {
-      this.setState({ text: "World" });
+      this.setState({ text: 'World' });
     }, 1000);
   }
 }

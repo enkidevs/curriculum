@@ -30,8 +30,8 @@ _for in_ loops allow you to iterate through an objects keys. E.g. the keys below
 
 ```javascript
 var obj = {
-  firstName: "John",
-  lastName: "Smith"
+  firstName: 'John',
+  lastName: 'Smith'
 };
 ```
 

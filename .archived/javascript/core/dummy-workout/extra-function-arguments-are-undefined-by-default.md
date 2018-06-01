@@ -45,11 +45,11 @@ function foo(amount) {
 foo(); // undefined
 
 // Output the extra argument
-foo(1, "lol"); // "lol"
+foo(1, 'lol'); // "lol"
 
 // Output the extra argument after
 // the extra argument set
-foo(2, "lol"); // undefined
+foo(2, 'lol'); // undefined
 ```
 
 ---
@@ -63,7 +63,7 @@ function bar(x) {
   console.log(arguments[x]);
 }
 
-bar(2, "a", "b");
+bar(2, 'a', 'b');
 // ???
 ```
 
@@ -81,7 +81,7 @@ A function can be called using any number of arguments, but they are set to _und
 function foo(arg) {
   console.log(arguments[arg]);
 }
-foo(1, "test");
+foo(1, 'test');
 // ???
 ```
 

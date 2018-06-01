@@ -47,8 +47,8 @@ For example, the variable `baz` is undeclared in the scope of the function `bar(
 
 ```javascript
 function bar(foo) {
-  foo = "hello"; // local scope
-  baz = "world"; // global scope
+  foo = 'hello'; // local scope
+  baz = 'world'; // global scope
 }
 ```
 
@@ -70,8 +70,8 @@ Assuming the scopes specified in the comments, does the snippet use **non-strict
 
 ```javascript
 function bar(foo) {
-  foo = "hello"; // local scope
-  baz = "world"; // global scope
+  foo = 'hello'; // local scope
+  baz = 'world'; // global scope
 }
 ```
 

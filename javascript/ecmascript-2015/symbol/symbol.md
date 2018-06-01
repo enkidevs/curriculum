@@ -39,7 +39,7 @@ Be sure not to use the new operator when creating a symbol otherwise you will ge
 During creation you can also set a description for the symbol which is useful mainly for debugging purposes:
 
 ```javascript
-var sym = Symbol("Enki");
+var sym = Symbol('Enki');
 console.log(sym);
 // Symbol(Enki)
 ```
@@ -55,8 +55,8 @@ typeof Symbol(); //"symbol"
 When you create a symbol it is unique even if you create symbols with the same names:
 
 ```javascript
-var sym1 = Symbol("Enki");
-var sym2 = Symbol("Enki");
+var sym1 = Symbol('Enki');
+var sym2 = Symbol('Enki');
 sym1 === sym2; //false
 ```
 
@@ -71,14 +71,14 @@ If you want to be able to access the same symbol using a key, we can use the Sym
 What will be the output of the following statements ?
 
 ```javascript
-const sym1 = Symbol("enki");
+const sym1 = Symbol('enki');
 console.log(sym1);
 // ???
 
 console.log(typeof sym1);
 // ???
 
-const sym2 = Symbol("enki");
+const sym2 = Symbol('enki');
 console.log(sym1 === sym2);
 // ???
 ```
@@ -102,16 +102,16 @@ How do you create a `Symbol` in ES6?
 
 ```javascript
 // a
-const sym = new Symbol("enki");
+const sym = new Symbol('enki');
 
 // b
-const sym = Symbol.create("enki");
+const sym = Symbol.create('enki');
 
 // c
-const sym = Symbol("enki");
+const sym = Symbol('enki');
 
 // d
-const sym = Symbol.new("enki");
+const sym = Symbol.new('enki');
 ```
 
 ???

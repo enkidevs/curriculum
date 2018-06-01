@@ -28,7 +28,7 @@ The **Redux** store is simply an object with few _methods_ that holds the whole 
 To create your store you need to pass your main `reducer` to the `createStore` function :
 
 ```javascript
-import { createStore } from "redux";
+import { createStore } from 'redux';
 let store = createStore(reducer, initState);
 ```
 

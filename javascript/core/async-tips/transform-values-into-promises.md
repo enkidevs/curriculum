@@ -38,20 +38,20 @@ To keep your API consistent, or prototype for testing, it's often useful to retu
 
 ```javascript
 return new Promise(resolve => {
-  resolve("my value");
+  resolve('my value');
 });
 ```
 
 `Promises` in `ES6` have a shortcut for this common pattern:
 
 ```javascript
-return Promise.resolve("my value");
+return Promise.resolve('my value');
 ```
 
 Or to create a `Promise` representing an error:
 
 ```javascript
-return Promise.reject(new Error("Boo! :o"));
+return Promise.reject(new Error('Boo! :o'));
 ```
 
 ---
@@ -101,18 +101,18 @@ In what order will these `console.log()` statements occur?
 ```javascript
 const element = document.body;
 
-element.addEventListener("click", () => {
+element.addEventListener('click', () => {
   Promise.resolve().then(() =>
-    console.log("Microtask 1")
+    console.log('Microtask 1')
   );
-  console.log("Listener 1");
+  console.log('Listener 1');
 });
 
-element.addEventListener("click", () => {
+element.addEventListener('click', () => {
   Promise.resolve().then(() =>
-    console.log("Microtask 2")
+    console.log('Microtask 2')
   );
-  console.log("Listener 2");
+  console.log('Listener 2');
 });
 ```
 

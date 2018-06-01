@@ -88,7 +88,7 @@ The anchor part of a `URL` is a internal page reference, it usually appears at t
 ```javascript
 // For https://enki.com/#contact
 var obj = {};
-history.pushState(obj, "greet", "hi");
+history.pushState(obj, 'greet', 'hi');
 console.log(window.location);
 ```
 

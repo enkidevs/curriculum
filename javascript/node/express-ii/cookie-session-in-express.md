@@ -39,7 +39,7 @@ npm install cookie-session
 Then imported:
 
 ```javascript
-var cookieSess = require("cookie-session");
+var cookieSess = require('cookie-session');
 ```
 
 Initialize cookie sessions:
@@ -47,8 +47,8 @@ Initialize cookie sessions:
 ```javascript
 app.use(
   cookieSess({
-    name: "session",
-    keys: ["key1", "key2"]
+    name: 'session',
+    keys: ['key1', 'key2']
     //other options
   })
 );

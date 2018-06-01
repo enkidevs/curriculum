@@ -26,7 +26,7 @@ The following snippet will add a warning message if the button is pressed:
 
 ```javascript
 window.onbeforeunload = function() {
-  alert("Your work will be lost.");
+  alert('Your work will be lost.');
 };
 ```
 

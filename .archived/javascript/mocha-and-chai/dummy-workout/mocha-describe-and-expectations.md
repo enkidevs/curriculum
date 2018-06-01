@@ -59,9 +59,9 @@ describe('using an expectation',
 What are the test results from the following piece of code? ???
 
 ```javascript
-describe("Practice your testing knowledge", function() {
-  it("test case", function() {
-    expect(12).to.be.a("number");
+describe('Practice your testing knowledge', function() {
+  it('test case', function() {
+    expect(12).to.be.a('number');
   });
 });
 ```

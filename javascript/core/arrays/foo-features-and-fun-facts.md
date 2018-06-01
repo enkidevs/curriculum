@@ -84,7 +84,7 @@ Which does not return the object as you would expect, and results in the type of
 ---
 
 ```javascript
-Number("1") - 1 == 0;
+Number('1') - 1 == 0;
 ```
 
 - `true`
@@ -114,7 +114,7 @@ function bar() {
   return foo;
   foo = 10;
   function foo() {}
-  var foo = "11";
+  var foo = '11';
 }
 console.log(typeof bar());
 ```
@@ -131,7 +131,7 @@ console.log(typeof bar());
 ---
 
 ```javascript
-"1" - -"1";
+'1' - -'1';
 ```
 
 - 2
@@ -144,7 +144,7 @@ console.log(typeof bar());
 ---
 
 ```javascript
-[] + [] + "foo".split("");
+[] + [] + 'foo'.split('');
 ```
 
 - "f,o,o"
@@ -170,9 +170,9 @@ new Array(5).toString();
 ---
 
 ```javascript
-var myArr = ["foo", "bar", "baz"];
+var myArr = ['foo', 'bar', 'baz'];
 myArr.length = 0;
-myArr.push("bin");
+myArr.push('bin');
 console.log(myArr);
 ```
 

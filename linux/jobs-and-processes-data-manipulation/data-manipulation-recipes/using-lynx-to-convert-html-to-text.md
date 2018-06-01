@@ -70,8 +70,6 @@ The output will look like:
 
 References
   1. http://enki.com
-
-
 ```
 
 Lynx is a terminal-based browser that often proves useful for testing.

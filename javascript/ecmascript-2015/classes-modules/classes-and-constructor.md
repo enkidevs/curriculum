@@ -57,7 +57,7 @@ class Person {
   }
 }
 
-var p = new Person("Enki");
+var p = new Person('Enki');
 p.name; //Enki
 ```
 

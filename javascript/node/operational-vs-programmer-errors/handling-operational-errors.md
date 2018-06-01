@@ -36,7 +36,7 @@ For most operational errors, the message will most likely point to what is left 
 While we're at it, let's focus on the difference between asynchronous and synchronous functions. Consider the following snippet:
 
 ```javascript
-import fs from "fs";
+import fs from 'fs';
 
 function readAndParseFile(
   path,
@@ -70,7 +70,7 @@ Can you identify what will be the stack trace of the following snippet?
 const throw_example = () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      throw new Error("throw_example");
+      throw new Error('throw_example');
     }, 0);
   });
 };
@@ -78,7 +78,7 @@ const throw_example = () => {
 const reject_example = () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      reject(new Error("reject_example"));
+      reject(new Error('reject_example'));
     }, 0);
   });
 };

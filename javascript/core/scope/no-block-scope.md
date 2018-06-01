@@ -67,7 +67,7 @@ The only exception is the case of `catch` blocks, which also have their own scop
 What will the following snippet do?
 
 ```javascript
-var x = "foo";
+var x = 'foo';
 (function bar() {
   {
     var x = 5;

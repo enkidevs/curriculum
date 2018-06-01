@@ -89,12 +89,12 @@ $ COPY="Enki" node index.js
 // A
 const copy = process.env.COPY;
 for (x = 0; i < 10; i++) {
-  console.log("I am ", copy);
+  console.log('I am ', copy);
 }
 
 // B
 for (y = 0; y < 10; y++) {
-  console.log("I am ", process.env.COPY);
+  console.log('I am ', process.env.COPY);
 }
 
 // both will print 'I am Enki' 9 times

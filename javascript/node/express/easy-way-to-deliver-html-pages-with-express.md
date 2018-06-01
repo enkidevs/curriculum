@@ -31,8 +31,8 @@ Displaying basic **HTML** pages can be achieved in many ways using **Node**'s co
 The `serve-static` module will be used to deliver the page:
 
 ```javascript
-var express = require("express");
-var serveStatic = require("serve-static");
+var express = require('express');
+var serveStatic = require('serve-static');
 
 var app = express();
 ```
@@ -41,8 +41,8 @@ Display `index.html`:
 
 ```javascript
 app.use(
-  serveStatic("public/", {
-    index: ["index.html", `index.htm`]
+  serveStatic('public/', {
+    index: ['index.html', `index.htm`]
   })
 );
 app.listen(3000);
@@ -51,8 +51,8 @@ app.listen(3000);
 Multiple roots:
 
 ```javascript
-app.use(serveStatic(__dirname + "/first"));
-app.use(serveStatic(__dirname + "/second"));
+app.use(serveStatic(__dirname + '/first'));
+app.use(serveStatic(__dirname + '/second'));
 ```
 
 Files will be firstly looked for in `/first` then in `/second` as a fallback.

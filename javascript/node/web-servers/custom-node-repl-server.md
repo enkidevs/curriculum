@@ -43,13 +43,13 @@ repl.start(prompt, stream);
 **REPL** exposed with `net` module - available with `telnet` :
 
 ```javascript
-var net = require("net"),
-  repl = require("repl");
+var net = require('net'),
+  repl = require('repl');
 
 net
   .createServer(function(socket) {
     var replServer = repl.start(
-      "remote> ",
+      'remote> ',
       socket
     );
   })
@@ -59,7 +59,7 @@ net
 Listen to `exit` event:
 
 ```javascript
-replServer.on("exit", function() {
+replServer.on('exit', function() {
   console.log('Got "exit" event !');
   process.exit();
 });

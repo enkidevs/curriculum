@@ -38,17 +38,17 @@ The `hasOwnProperty` method returns a boolean indicating whether the object has 
 
 ```javascript
 client = new Object();
-client.connect = "true";
+client.connect = 'true';
 
 function foo() {
   client.newConnect = client.connect;
   delete client.connect;
 }
 
-client.hasOwnProperty("connect");
+client.hasOwnProperty('connect');
 // returns true
 foo();
-client.hasOwnProperty("connect");
+client.hasOwnProperty('connect');
 // returns false
 ```
 
@@ -64,17 +64,17 @@ What does the following JS code return? ???
 
 ```javascript
 enki = new Object();
-enki.practiceQuestion = "true";
+enki.practiceQuestion = 'true';
 
 function tricky() {
   enki.newQuestion = enki.practiceQuestion;
   delete enki.practiceQuestion;
 }
 
-enki.hasOwnProperty("practiceQuestion");
-enki.hasOwnProperty("magicPowers");
+enki.hasOwnProperty('practiceQuestion');
+enki.hasOwnProperty('magicPowers');
 tricky();
-enki.hasOwnProperty("practiceQuestion");
+enki.hasOwnProperty('practiceQuestion');
 ```
 
 - True, False, False

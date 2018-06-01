@@ -30,7 +30,7 @@ Do you know what is allowed and not allowed in `strict mode` in JavaScript? Can 
 ## Game Content
 
 ```javascript
-"useStrict";
+'useStrict';
 //"use strict";
 let x = 42;
 ```
@@ -43,7 +43,7 @@ The right syntax for strict mode in **JavaScript** is `use strict` not `useStric
 
 ```javascript
 function foo() {
-  "use strict";
+  'use strict';
   eval(42);
   // eval not allowed in strict
 }
@@ -58,7 +58,7 @@ foo();
 
 ```javascript
 (function foo() {
-  "use strict";
+  'use strict';
   console.log(arguments);
   // arguments not allowed in strict
 })();
@@ -88,7 +88,7 @@ console.log(let);
 ---
 
 ```javascript
-"use strict";
+'use strict';
 function foo() {
   var x = 0;
   x = y * 4;
@@ -104,7 +104,7 @@ foo();
 ---
 
 ```javascript
-"use strict";
+'use strict';
 
 var foo = Object.defineProperties(
   {},
@@ -144,7 +144,7 @@ At runtime: it's impossible to know which beforehand.
 ---
 
 ```javascript
-"use strict";
+'use strict';
 
 function F(x) {
   this.x = x;

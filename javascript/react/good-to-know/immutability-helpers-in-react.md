@@ -41,7 +41,7 @@ myData.a.b.push(9);
 Using the immutability helper:
 
 ```javascript
-var update = require("react-addons-update");
+var update = require('react-addons-update');
 var newData = update(myData, {
   x: { y: { z: { $set: 7 } } },
   a: { b: { $push: [9] } }

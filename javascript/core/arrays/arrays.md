@@ -35,7 +35,7 @@ Declaring an array:
 
 ```javascript
 var myArray = [1, 2, 3];
-var anotherArray = ["a", "b", "c"];
+var anotherArray = ['a', 'b', 'c'];
 ```
 
 Array's are _zero based/indexed_ so if you want to retrieve the first value you use 0 as the index parameter:

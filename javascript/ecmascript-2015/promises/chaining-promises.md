@@ -32,17 +32,17 @@ var p = new Promise(function(
   reject
 ) {
   setTimeout(function() {
-    resolve("enki");
+    resolve('enki');
   }, 2000);
 })
   .then(function(result) {
-    console.log("then 1");
+    console.log('then 1');
   })
   .then(function(result) {
-    console.log("then 2");
+    console.log('then 2');
   })
   .then(function(result) {
-    console.log("finished");
+    console.log('finished');
   });
 
 //then 1

@@ -51,7 +51,7 @@ var OnTheFly = React.createClass({
   render: function() {
     return (
       <div>
-        {"Country: " + this.props.country}
+        {'Country: ' + this.props.country}
       </div>
     );
   }
@@ -59,7 +59,7 @@ var OnTheFly = React.createClass({
 
 ReactDOM.render(
   <OnTheFly country="England" />,
-  document.getElementByID("foo")
+  document.getElementByID('foo')
 );
 ```
 

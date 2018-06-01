@@ -71,7 +71,7 @@ $ npm init -scope=myscope
 To use a scoped package you need to `require` it using the scoped name:
 
 ```javascript
-var scopedPackage = require("@myscope/somePackage");
+var scopedPackage = require('@myscope/somePackage');
 ```
 
 ---

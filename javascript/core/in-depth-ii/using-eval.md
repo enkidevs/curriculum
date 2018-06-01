@@ -34,7 +34,7 @@ links:
 `eval` ("evil") evaluates the string passed to it as Javascript code:
 
 ```javascript
-var str = "if(a){1+2;} else{1+3;}";
+var str = 'if(a){1+2;} else{1+3;}';
 var a = true;
 var b = eval(str); // returns 3
 ```
@@ -52,7 +52,7 @@ Third party code can access the scope in which `eval()` was called and this can 
 What does the following JS code return when ran? ???
 
 ```javascript
-var str = "if(flag){2*8;} else{-2*8;}";
+var str = 'if(flag){2*8;} else{-2*8;}';
 var flag = false;
 var b = eval(str);
 ```

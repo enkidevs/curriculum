@@ -62,7 +62,6 @@ What does this code do?
 
 ```
 $ git log --pretty=oneline --grep=enki
-
 ```
 
 ???

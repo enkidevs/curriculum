@@ -27,7 +27,7 @@ A common task in any programming language is to concatenate and format strings.
 You have probably found yourself writing code similar to the following many times:
 
 ```javascript
-var greeting = "Hi " + name;
+var greeting = 'Hi ' + name;
 ```
 
 Template Literals provide a more succinct and readable form allowing us to specify values to be replaced within the string by surrounding it with curly braces and a dollar sign.
@@ -35,7 +35,7 @@ Template Literals provide a more succinct and readable form allowing us to speci
 Note how the string itself is also enclosed with the _backtick_ characters instead of ' or ":
 
 ```javascript
-var name = "Enki";
+var name = 'Enki';
 var greeting = `Hello ${name}`;
 // "Hello Enki"
 ```
@@ -43,7 +43,7 @@ var greeting = `Hello ${name}`;
 We can also use template literals to spread our declaration across multiple lines:
 
 ```javascript
-var name = "User";
+var name = 'User';
 var greeting = `Hello ${name}
 Line1
 Line2`;
@@ -113,7 +113,7 @@ Thursday
 Fill in the template literal syntax:
 
 ```javascript
-var name = "Enki";
+var name = 'Enki';
 console.log(`Hello from ???`);
 ```
 

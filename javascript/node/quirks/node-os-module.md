@@ -32,7 +32,7 @@ Basic operating system related utility functions are available through **Node**'
 Firstly, the module must be imported:
 
 ```javascript
-var os = require("os");
+var os = require('os');
 ```
 
 Get operating system name:
@@ -94,7 +94,7 @@ console.log(os.???());
 Suppose :
 
 ```javascript
-var os = require("os");
+var os = require('os');
 ```
 
 Log the CPU's architecture:

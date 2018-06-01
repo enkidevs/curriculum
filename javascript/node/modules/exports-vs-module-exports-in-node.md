@@ -33,19 +33,19 @@ Exporting a module in **Node** can be done in different ways. The most common is
 ```javascript
 //what is exported (other.js)
 exports.say = function() {
-  console.log("Hello from Enki!");
+  console.log('Hello from Enki!');
 };
 //how to import
-var sample = require("./other.js");
+var sample = require('./other.js');
 sample.say(); // 'Hello from Enki!'
 ```
 
 However, `exports` is just a helper for `module.exports`. The latter is ultimately returned by your module when called. `exports` only collects properties and attaches them to `module.exports` if and only if it doesn't have something on it already.
 
 ```javascript
-module.exports = "Oops!";
+module.exports = 'Oops!';
 exports.say = function() {
-  console.log("Hello from Enki!");
+  console.log('Hello from Enki!');
 };
 ```
 
@@ -53,9 +53,9 @@ If we import it the same way as above, this will result in a `TypeError` because
 Export an array with `module.exports`:
 
 ```javascript
-module.exports = ["A", "B", "C"];
+module.exports = ['A', 'B', 'C'];
 
-var sample = require("./other.js");
+var sample = require('./other.js');
 console.log(sample[2]); // 'C'
 ```
 
@@ -66,9 +66,9 @@ console.log(sample[2]); // 'C'
 What is the output of the following JavaScript code? ???
 
 ```javascript
-module.exports = ["a", "k", "K", "y", "a"];
+module.exports = ['a', 'k', 'K', 'y', 'a'];
 
-var test = require("./other.js");
+var test = require('./other.js');
 
 console.log(test[2]);
 console.log(test[4]);

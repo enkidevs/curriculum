@@ -59,10 +59,10 @@ What's the output of the following JS code snippet? ???
 
 ```javascript
 function* genFunc() {
-  yield "E";
-  yield "C";
-  yield "M";
-  yield "A";
+  yield 'E';
+  yield 'C';
+  yield 'M';
+  yield 'A';
 }
 
 let genObj = genFunc();
@@ -85,8 +85,8 @@ What's the output of the following snippet?
 
 ```javascript
 function* genFunc() {
-  yield "a";
-  yield "b";
+  yield 'a';
+  yield 'b';
 }
 
 let genObj = genFunc();

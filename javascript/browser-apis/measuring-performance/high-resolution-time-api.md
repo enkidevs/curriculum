@@ -41,9 +41,9 @@ var start = performance.now();
 // do something
 var end = performance.now();
 console.log(
-  "do something took " +
+  'do something took ' +
     (end - start) +
-    " milliseconds"
+    ' milliseconds'
 );
 ```
 

@@ -74,7 +74,7 @@ console.log(~~x); //prints ???
 ---
 
 ```javascript
-var x = "Enki";
+var x = 'Enki';
 console.log(~~x); //prints ???
 ```
 
@@ -88,7 +88,7 @@ console.log(~~x); //prints ???
 ---
 
 ```javascript
-var x = "";
+var x = '';
 console.log(~~x); //prints ???
 ```
 

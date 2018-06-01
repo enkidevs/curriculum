@@ -36,7 +36,7 @@ function EnkiPlugin(options) {
 EnkiPlugin.prototype.apply = function(
   compiler
 ) {
-  compiler.plugin("done", function() {
+  compiler.plugin('done', function() {
     console.log("Enki's Webpack Workout!");
   });
 };
@@ -47,7 +47,7 @@ module.exports = EnkiPlugin;
 To install the plugin, include an instance in your Webpack _`config plugins`_ array.
 
 ```javascript
-var EnkiPlugin = require("enki-webpack");
+var EnkiPlugin = require('enki-webpack');
 
 var webpackConfig = {
   plugins: [

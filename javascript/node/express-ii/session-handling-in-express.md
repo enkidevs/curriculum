@@ -46,8 +46,8 @@ app.get('/', function(req,res) {
 Creating session variables:
 
 ```javascript
-sess.id = "100";
-sess.myVar = "myValue";
+sess.id = '100';
+sess.myVar = 'myValue';
 ```
 
 Destroying sessions:

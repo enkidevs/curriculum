@@ -30,14 +30,14 @@ _`localStorage`_ is a storage object used to store data in without an expiry dat
 To create an item in local storage, pass in the item key and the item value:
 
 ```javascript
-localStorage.setItem("country", "England");
+localStorage.setItem('country', 'England');
 ```
 
 Retrieving data from local storage:
 
 ```javascript
 var localData = localStorage.getItem(
-  "country"
+  'country'
 );
 console.log(localData); // prints 'England'
 ```
@@ -45,7 +45,7 @@ console.log(localData); // prints 'England'
 Removing an item and clearing all data from local storage:
 
 ```javascript
-localStorage.removeItem("country");
+localStorage.removeItem('country');
 localStorage.clear();
 ```
 

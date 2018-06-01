@@ -31,7 +31,7 @@ First we will create a handler to perform this logic:
 ```javascript
 var loggerHandler = {
   get: function(obj, prop) {
-    console.info(prop + " was accessed");
+    console.info(prop + ' was accessed');
     return obj[prop];
   }
 };
@@ -40,7 +40,7 @@ var loggerHandler = {
 Next we'll create an object to use with this:
 
 ```javascript
-var x = { someProp: "enki" };
+var x = { someProp: 'enki' };
 ```
 
 Then we will wrap our object with a Proxy and pass in the logger handler:
@@ -66,8 +66,8 @@ Proxies can also be used to intercept set calls. Maybe for example we want to va
 ```javascript
 var setWrapper = {
   set: function(obj, prop, value) {
-    if (prop === "company") {
-      if (value != "enki") {
+    if (prop === 'company') {
+      if (value != 'enki') {
         return;
       }
     }
@@ -116,7 +116,7 @@ Fill in the missing outputs of the `console.log` calls:
 
 ```javascript
 const proxyFn = {
-  get: (obj, prop) => "enki"
+  get: (obj, prop) => 'enki'
 };
 const obj = {
   number: 42

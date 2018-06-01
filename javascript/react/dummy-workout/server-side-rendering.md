@@ -34,16 +34,16 @@ JS **isomorphic** (or universal) app proved useful especially on user performanc
 The server renders the React app to a string and generate the first view of the webapp. The user doesn't have to wait for the JS to be fetched before seeing something.
 
 ```javascript
-var React = require("react");
+var React = require('react');
 ReactApp = React.createFactory(
-  require("../components/ReactApp")
+  require('../components/ReactApp')
 );
 module.exports = function(app) {
-  app.get("/", function(req, res) {
+  app.get('/', function(req, res) {
     var reactHtml = React.renderToString(
       ReactApp({})
     );
-    res.render("index.ejs", {
+    res.render('index.ejs', {
       reactOutput: reactHtml
     });
   });
@@ -62,10 +62,10 @@ Inside `index.ejs`:
 On the **client** side (`main.js`):
 
 ```javascript
-var React = require("react");
-var ReactApp = require("./components/ReactApp");
+var React = require('react');
+var ReactApp = require('./components/ReactApp');
 var mountNode = document.getElementById(
-  "react-main-mount"
+  'react-main-mount'
 );
 React.render(new ReactApp({}), mountNode);
 ```

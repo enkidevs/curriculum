@@ -34,7 +34,7 @@ links:
 The `child_process` module is required for any operation of this sort:
 
 ```javascript
-var child = require("child_process");
+var child = require('child_process');
 ```
 
 The `exec(command,callback)` can be used to to run **UNIX** commands:
@@ -50,11 +50,11 @@ child.exec('ls',function
 This method does not provide any mean of communicating with the parent and gives a buffered output. The `spawn()` method is an improved version of the first:
 
 ```javascript
-var spawn = require("child_process").spawn;
+var spawn = require('child_process').spawn;
 // Create a child process
-var child = spawn("tail", [
-  "-f",
-  "/var/log/system.log"
+var child = spawn('tail', [
+  '-f',
+  '/var/log/system.log'
 ]);
 // "tail" command is run in the argument
 ```
@@ -62,7 +62,7 @@ var child = spawn("tail", [
 Listeners to `stdout` and `stderr` streams can be added:
 
 ```javascript
-child.stdout.on("data", function(data) {
+child.stdout.on('data', function(data) {
   console.log(data);
 });
 ```

@@ -62,7 +62,7 @@ The following code outputs ???
 function foo(num) {
   return num / 2;
 }
-console.log(foo("sum"));
+console.log(foo('sum'));
 ```
 
 - NaN

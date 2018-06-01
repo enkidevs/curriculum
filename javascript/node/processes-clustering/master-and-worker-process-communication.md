@@ -32,7 +32,7 @@ An event listener for the message event must be set up in both the master and it
 To listen for messages in the _master_ from a _worker_:
 
 ```javascript
-worker.on("message", function(message) {
+worker.on('message', function(message) {
   console.log(message);
 });
 ```
@@ -40,7 +40,7 @@ worker.on("message", function(message) {
 To listen for messages in a _worker_ from the _master_:
 
 ```javascript
-process.on("message", function(message) {
+process.on('message', function(message) {
   console.log(message);
 });
 ```
@@ -49,7 +49,7 @@ Messages can be sent as strings or serializable objects.
 To send a message from the _master_ to a _worker_:
 
 ```javascript
-worker.send("From master to worker...");
+worker.send('From master to worker...');
 // or
 worker.send({ data: [1, 2, 3] });
 ```
@@ -58,8 +58,8 @@ To send a message from a _worker_ to a _master_:
 
 ```javascript
 process.send(
-  "From worker to master..., \
-             with ID num: " + process.pid
+  'From worker to master..., \
+             with ID num: ' + process.pid
 );
 ```
 

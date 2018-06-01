@@ -40,7 +40,6 @@ For example, if you try to run `mkdir newFolder` when the folder already exists,
 mkdir: cannot create directory 'newFolder':
                         File exists
 user@pc:~/newFolder$ #cd'd into it
-
 ```
 
 ---

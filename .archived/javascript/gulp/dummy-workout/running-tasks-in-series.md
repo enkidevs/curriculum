@@ -71,7 +71,7 @@ gulp.task('default', ['one', 'two']);
 When will the following task run? ???
 
 ```javascript
-gulp.task("default", ["Enki1", "Enki2"]);
+gulp.task('default', ['Enki1', 'Enki2']);
 ```
 
 - Once tasks Enki1 and Enki2 have both finished.

@@ -72,7 +72,7 @@ For example:
 ```javascript
 (function(global) {
   function fun() {
-    return "Hello World!";
+    return 'Hello World!';
   }
   global.fun = fun;
 })(window); // reference to window object

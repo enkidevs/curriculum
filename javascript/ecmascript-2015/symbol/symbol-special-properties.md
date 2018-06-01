@@ -28,8 +28,8 @@ Lets imagine for this section we declare the following object:
 
 ```javascript
 var obj = {};
-obj["company"] = "Enki";
-obj[Symbol()] = "You wont see me";
+obj['company'] = 'Enki';
+obj[Symbol()] = 'You wont see me';
 ```
 
 You will find symbols are ignored in **for..in** loops:
@@ -76,7 +76,7 @@ Consider the following object:
 
 ```javascript
 const obj = {};
-obj[Symbol("enki")] = "hello";
+obj[Symbol('enki')] = 'hello';
 ```
 
 Which of the following code snippets will return the symbol key when called?
@@ -113,7 +113,7 @@ What will be returned by the following call?
 
 ```javascript
 const obj = {};
-obj[Symbol("enki")] = 1;
+obj[Symbol('enki')] = 1;
 obj[Symbol()] = 2;
 
 console.log(

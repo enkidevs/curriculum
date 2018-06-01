@@ -33,8 +33,8 @@ Take note of the quotation marks in these examples:
 
 ```css
 p {
-  font-family: "sans-" + serif;
-  font-family: Times + " New Roman";
+  font-family: 'sans-' + serif;
+  font-family: Times + ' New Roman';
 }
 ```
 
@@ -42,7 +42,7 @@ Compiles to:
 
 ```css
 p {
-  font-family: "sans-serif";
+  font-family: 'sans-serif';
   font-family: Times New Roman;
 }
 ```
@@ -53,8 +53,8 @@ Within a text string, _`#{} style interpolation`_ can be used to place dynamic v
 
 ```css
 p:before {
-  content: "Dynamic value insertion: 
-            #{10 + 10}!";
+  content: 'Dynamic value insertion: 
+            #{10 + 10}!';
 }
 ```
 
@@ -62,7 +62,7 @@ Compiles to:
 
 ```css
 p:before {
-  content: "Dynamic value insertion: 20!";
+  content: 'Dynamic value insertion: 20!';
 }
 ```
 
@@ -74,7 +74,7 @@ Complete the code snippet to dynamically insert a value:
 
 ```css
 p:before {
-  content: "Here we go: ???{1 + 13}";
+  content: 'Here we go: ???{1 + 13}';
 }
 ```
 
@@ -91,8 +91,8 @@ What do the two following CSS lines of code compile to? Please answer in the ord
 
 ```css
 h1 {
-  string: Hey + "everyone!";
-  content: "From " + Enki!;
+  string: Hey + 'everyone!';
+  content: 'From ' + Enki!;
 }
 ```
 

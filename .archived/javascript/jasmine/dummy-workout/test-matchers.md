@@ -58,7 +58,7 @@ Jasmine has a large set of matchers including:
 What will the following test results be? ???
 
 ```javascript
-it("practice testing", function() {
+it('practice testing', function() {
   var x = 7;
   var y = x;
 

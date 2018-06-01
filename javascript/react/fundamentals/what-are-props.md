@@ -63,7 +63,7 @@ You can also define **default props** in the following manner:
 
 ```jsx
 Greeting.defaultProps = {
-  name: "User"
+  name: 'User'
 };
 ```
 

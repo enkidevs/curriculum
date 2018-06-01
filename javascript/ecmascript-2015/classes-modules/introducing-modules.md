@@ -49,7 +49,7 @@ export function double(x) {
 Next when we want to use this code we tell JavaScript we want to import it:
 
 ```javascript
-import * as mathFuncs from "mathFuncs";
+import * as mathFuncs from 'mathFuncs';
 console.log(mathFuncs.double(4)); //8
 ```
 

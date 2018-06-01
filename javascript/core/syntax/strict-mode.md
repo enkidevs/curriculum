@@ -49,7 +49,7 @@ Strict mode is an opt in feature to avoid breaking existing code.
 To enable strict mode, simply add the following string literal:
 
 ```javascript
-"use strict";
+'use strict';
 ```
 
 Warning! This will apply strict mode to code in the current scope. So you probably don’t want to do this outside code you own as it may impact some older code and third party scripts.
@@ -61,7 +61,7 @@ Warning! This will apply strict mode to code in the current scope. So you probab
 How do you enable **strict mode** in EcmaScript 5?
 
 ```javascript
-"??? ???";
+'??? ???';
 ```
 
 - `use`
@@ -81,7 +81,7 @@ How do you enable **strict mode** in EcmaScript 5?
 How do you enable **strict mode** in EcmaScript 5?
 
 ```javascript
-"??? ???";
+'??? ???';
 ```
 
 - `use`

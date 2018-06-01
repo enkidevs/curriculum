@@ -37,7 +37,7 @@ The same functionality of `PureRenderMixin` can be achieved while using **ES6** 
 Import `shallowCompare`:
 
 ```javascript
-var shallowCompare = require("react-addons-shallow-compare");
+var shallowCompare = require('react-addons-shallow-compare');
 ```
 
 Use shallow compare:
@@ -86,7 +86,7 @@ A ??? can be achieved with the helper function `shallowCompare` when used on a R
 Import `shallowCompare` into your React code:
 
 ```javascript
-var shallowCompare = require("???");
+var shallowCompare = require('???');
 ```
 
 - `react-addons-shallow-compare`

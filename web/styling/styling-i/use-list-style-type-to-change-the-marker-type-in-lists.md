@@ -51,7 +51,7 @@ Use `list-style-image` to change the marker to an image of your choice.
 
 ```css
 ul.b {
-  list-style-image: url("image.jpg");
+  list-style-image: url('image.jpg');
 }
 ```
 
@@ -93,7 +93,7 @@ What does the following CSS code snippet do?
 
 ```css
 ul.a {
-  list-style-image: url("list-pic.jpg");
+  list-style-image: url('list-pic.jpg');
 }
 
 ol.b {

@@ -52,7 +52,7 @@ The standard way of writing a unit test is:
 
 - `import unittest`
 - define a class derived from `unittest.TestCase`
-- define test methods, their _name starting with the keyword `test_`_
+- define test methods, their _name starting with the keyword `test_`\_
 - place `unittest.main()` in your new class to be able to run the **tests**
 
 Each **test case** can make use of the following methods:

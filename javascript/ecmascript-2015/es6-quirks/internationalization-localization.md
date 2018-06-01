@@ -29,16 +29,16 @@ links:
 To sort through a list of letters in two different languages:
 
 ```javascript
-var list = ["ä", "a", "z"];
-var i10nDE = new Intl.Collator("de");
-var i10nSV = new Intl.Collator("sv");
+var list = ['ä', 'a', 'z'];
+var i10nDE = new Intl.Collator('de');
+var i10nSV = new Intl.Collator('sv');
 ```
 
 In German, `ä` sorts with `a`. In Swedish, `ä` sorts after `z`.
 
 ```javascript
-i10nDE.compare("ä", "z") === -1;
-i10nSV.compare("ä", "z") === +1;
+i10nDE.compare('ä', 'z') === -1;
+i10nSV.compare('ä', 'z') === +1;
 
 console.log(list.sort(i10nDE.compare));
 // [ "a", "ä", "z" ]

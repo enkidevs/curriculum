@@ -65,7 +65,7 @@ Our component will render nothing but the enclosed `<div>` in the following scen
 ```jsx
 ReactDOM.render(
   <Wrapper />,
-  document.getElementById("root")
+  document.getElementById('root')
 );
 ```
 
@@ -77,7 +77,7 @@ ReactDOM.render(
     <h1>Hello</h1>
     <h2>World</h2>
   </Wrapper>,
-  document.getElementById("root")
+  document.getElementById('root')
 );
 ```
 
@@ -100,7 +100,7 @@ ReactDOM.render(
   <Exercise>
     <h1>Main</h1>
   </Exercise>,
-  document.getElementById("root")
+  document.getElementById('root')
 );
 ```
 

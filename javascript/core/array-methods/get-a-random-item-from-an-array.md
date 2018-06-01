@@ -31,7 +31,7 @@ notes: ''
 Given the array:
 
 ```javascript
-var food = ["Sushi", "Pizza", "Tacos"];
+var food = ['Sushi', 'Pizza', 'Tacos'];
 ```
 
 Select an item using `Math.random()` with a range of `food.length`.

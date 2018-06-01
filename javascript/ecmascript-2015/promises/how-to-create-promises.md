@@ -52,9 +52,9 @@ var p = new Promise(function(
   resolve,
   reject
 ) {
-  console.log("run immediately");
+  console.log('run immediately');
   setTimeout(function() {
-    resolve("enki");
+    resolve('enki');
   }, 2000);
 }).then(function(result) {
   console.log(result);

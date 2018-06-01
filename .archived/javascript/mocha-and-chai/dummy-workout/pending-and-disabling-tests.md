@@ -73,26 +73,26 @@ describe.skip('this suite will be skipped',
 Which of the following tests will run? ???
 
 ```javascript
-describe.skip("Mocha?", function() {
-  it.only("Test 1", function() {
+describe.skip('Mocha?', function() {
+  it.only('Test 1', function() {
     // Test code here
   });
 
-  it.skip("Test 2", function() {
+  it.skip('Test 2', function() {
     // Test code here
   });
 });
 
-describe("Chai?", function() {
-  it.skip("Test 3", function() {
+describe('Chai?', function() {
+  it.skip('Test 3', function() {
     // Test code here
   });
 
-  it.only("Test 4", function() {
+  it.only('Test 4', function() {
     // Test code here
   });
 
-  it("Test 5");
+  it('Test 5');
 });
 ```
 

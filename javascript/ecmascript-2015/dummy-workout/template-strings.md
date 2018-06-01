@@ -78,7 +78,7 @@ console.log('Time ???{???()} Python!');
 Using string templating print the value of `a`:
 
 ```javascript
-var a = "enki";
+var a = 'enki';
 console.log(`cool thing -> ???{???} `);
 ```
 

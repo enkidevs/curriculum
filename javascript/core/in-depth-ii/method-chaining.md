@@ -36,7 +36,7 @@ Method chaining allows multiple methods to be called one after the other on the 
 
 ```javascript
 var foo = new Bar();
-foo.setFirst("Fizz").setLast("Buzz");
+foo.setFirst('Fizz').setLast('Buzz');
 // Two functions, called with one line
 ```
 
@@ -44,8 +44,8 @@ Method chaining is typically enabled by implementing methods that return `this` 
 
 ```javascript
 var Bar = function() {
-  this.first = "Not";
-  this.last = "FizzBuzz";
+  this.first = 'Not';
+  this.last = 'FizzBuzz';
 };
 
 Bar.prototype.setFirst = function(first) {

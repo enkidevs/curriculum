@@ -47,7 +47,7 @@ Listener for a change to the user's connection.
 
 ```javascript
 connection.addEventListener(
-  "typechange",
+  'typechange',
   updateConnectionStatus
 );
 ```
@@ -57,10 +57,10 @@ Function to output for any change to the user's connection if called by the list
 ```javascript
 function updateConnectionStatus() {
   console.log(
-    "Connection type is change \
-  from " +
+    'Connection type is change \
+  from ' +
       type +
-      " to " +
+      ' to ' +
       connection.type
   );
 }
@@ -96,7 +96,7 @@ Listen for a change in the user connection:
 ```javascript
 // assume connection is initialised
 connection.addEventListener(
-  "???",
+  '???',
   handlingFunction
 );
 ```

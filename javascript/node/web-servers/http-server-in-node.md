@@ -26,12 +26,12 @@ links:
 Create a `http` server with Node:
 
 ```javascript
-var http = require("http");
+var http = require('http');
 
 http
   .createServer(function(req, res) {
-    res.end("Hello Node", 200);
-    console.log("Request made");
+    res.end('Hello Node', 200);
+    console.log('Request made');
   })
   .listen(8000);
 ```
@@ -41,7 +41,7 @@ Going to `http://localhost:8000`, the text specified in the program should appea
 To do this the `http` module is needed:
 
 ```javascript
-var http = require("http");
+var http = require('http');
 ```
 
 The server was created (`createServer`) with a callback function as an argument. This function has 2 parameters (`req` - request and `res`- response) and acts like a gate to the application, handling all incoming _requests_ accordingly.

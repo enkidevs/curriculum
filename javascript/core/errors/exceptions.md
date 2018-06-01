@@ -57,7 +57,7 @@ try {
 } finally {
   /*finally block will always be run
    whether errors or not*/
-  console.log("all done");
+  console.log('all done');
 }
 ```
 
@@ -83,7 +83,7 @@ function BadException(message) {
   this.message = message;
 }
 
-throw new BadException("something bad");
+throw new BadException('something bad');
 ```
 
 ---

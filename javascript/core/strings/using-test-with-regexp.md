@@ -46,7 +46,7 @@ The `.test()` method takes a string and checks it against a RegEx.
 The returned value is boolean. `true` if there is a match, `false` if there is no match.
 
 ```javascript
-var str = "I learned a new tip with Enki.";
+var str = 'I learned a new tip with Enki.';
 
 var containsEnki = /Enki/i;
 containsEnki.test(str); // true
@@ -62,7 +62,7 @@ containsAtSchool.test(str); // false
 What does the following code snippet return? ???
 
 ```javascript
-var str = "Practicing my RegExp with Enki!";
+var str = 'Practicing my RegExp with Enki!';
 
 var containsEnki = /Enki/i;
 containsEnki.test(str);

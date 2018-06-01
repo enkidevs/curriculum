@@ -45,10 +45,10 @@ Note: You might have also heard of "exceptions". An exception is a "thrown error
 
 ```javascript
 if (err) {
-  throw new Error("exception here");
+  throw new Error('exception here');
 }
 
-callback(new Error("error here"));
+callback(new Error('error here'));
 ```
 
 ---

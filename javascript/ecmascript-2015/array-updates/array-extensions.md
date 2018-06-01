@@ -40,7 +40,7 @@ If you haven't used one before, you can think of an iterator as a special collec
 The below code uses `Array`'s **entries** method to get an iterator and then logs `arr`'s _keys_ and _values_:
 
 ```javascript
-var arr = ["a", "b", "c"];
+var arr = ['a', 'b', 'c'];
 
 var iEntries = arr.entries();
 
@@ -64,7 +64,7 @@ iEntries.next();
 What will the following code do?
 
 ```javascript
-var enki = ["e", "n", "k", "i"];
+var enki = ['e', 'n', 'k', 'i'];
 
 var enkiIterator = enki.keys();
 

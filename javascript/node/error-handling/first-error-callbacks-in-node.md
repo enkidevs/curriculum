@@ -40,12 +40,12 @@ The first argument is an error object. If the response is successful `err` will 
 Implementing an "error-first" callback:
 
 ```javascript
-fs.readFile("/text.txt", function(
+fs.readFile('/text.txt', function(
   err,
   data
 ) {
   if (err) {
-    console.log("error");
+    console.log('error');
     console.log(err);
   } else {
     console.log(data);

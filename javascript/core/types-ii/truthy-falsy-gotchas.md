@@ -36,8 +36,8 @@ You should be aware that JavaScript has a complex set of rules that contain a fe
 For example:
 
 ```javascript
-false == "0"; // true
-false == ""; // true
+false == '0'; // true
+false == ''; // true
 ```
 
 ### Null

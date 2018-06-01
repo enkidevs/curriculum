@@ -51,7 +51,7 @@ $ npm install express
 If the version of the package is not specified, npm will install its latest version by default. Once the package is inside the _node_modules_ directory, you can require it in your project:
 
 ```javascript
-var express = require("express");
+var express = require('express');
 var app = express();
 ```
 

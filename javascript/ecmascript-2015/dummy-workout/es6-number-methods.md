@@ -54,7 +54,7 @@ What does the following JS code snippet return? ???
 ```javascript
 console.log(Number.isFinite(Infinity));
 console.log(Number.isFinite(0.01));
-console.log(Number.isFinite("Enki!"));
+console.log(Number.isFinite('Enki!'));
 ```
 
 - False, True, False

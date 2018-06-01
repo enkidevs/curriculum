@@ -36,11 +36,11 @@ The `offline` and `online` events can also be used with a listener.
 
 ```javascript
 window.addEventListener(
-  "online",
+  'online',
   myFunction
 );
 window.addEventListener(
-  "offline",
+  'offline',
   myFunction
 );
 ```

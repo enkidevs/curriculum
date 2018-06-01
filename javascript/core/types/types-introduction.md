@@ -37,14 +37,14 @@ There are also a few special types - `Array`, `Date`, `RegExp` - that are types 
 Unlike some other languages you do not need to tell JavaScript what type a variable is when declaring it as the interpreter will work it out for you:
 
 ```javascript
-var name = "john smith";
+var name = 'john smith';
 ```
 
 You can also change a variable's type at any time:
 
 ```javascript
 var x = 1; //number
-x = "blah"; //reassign to string
+x = 'blah'; //reassign to string
 ```
 
 ### typeof
@@ -52,7 +52,7 @@ x = "blah"; //reassign to string
 You can check the type of value by using the typeof operator e.g.
 
 ```javascript
-var company = "enki";
+var company = 'enki';
 typeof company; //string
 ```
 

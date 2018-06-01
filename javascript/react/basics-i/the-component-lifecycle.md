@@ -41,7 +41,7 @@ Suppose you want to `log` a message when a component **will** be mounted[1] (bef
 ```jsx
 class Spawn extends React.Component {
   componentWillMount() {
-    console.log("I will spawn");
+    console.log('I will spawn');
   }
   render() {
     return <p>I'm basic</p>;

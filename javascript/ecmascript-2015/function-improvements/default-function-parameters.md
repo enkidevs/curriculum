@@ -28,12 +28,12 @@ links:
 As of ES6, Functions can be defined with default values. These values will be used if no argument (or `undefined`) is passed.
 
 ```javascript
-function setColor(element, color = "pink") {
+function setColor(element, color = 'pink') {
   element.style.backgroundColor = color;
 }
 setColor(divA);
 setColor(divB, undefined);
-setColor(divC, "blue");
+setColor(divC, 'blue');
 ```
 
 Here, `divA` and `divB` will both be `pink` and `divC` will be `blue`.

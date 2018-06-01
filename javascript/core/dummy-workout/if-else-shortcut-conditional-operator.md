@@ -53,7 +53,7 @@ var stop = count > 100 ? true : false;
 ## Practice
 
 ```javascript
-if (animal === "lion") {
+if (animal === 'lion') {
   run = true;
 } else {
   run = false;
@@ -78,7 +78,7 @@ var run = (animal === 'lion')? true:???;
 ## Revision
 
 ```javascript
-if (animal === "lion") {
+if (animal === 'lion') {
   run = true;
 } else {
   run = false;

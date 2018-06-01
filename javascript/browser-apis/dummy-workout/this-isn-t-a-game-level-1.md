@@ -62,7 +62,7 @@ f();
 
 ```javascript
 function f() {
-  "use strict";
+  'use strict';
   console.log(this);
 }
 f();
@@ -79,11 +79,11 @@ f();
 
 ```javascript
 var user = {
-  firstName: "Anne",
-  lastName: "Boleyn",
+  firstName: 'Anne',
+  lastName: 'Boleyn',
   showName: function() {
     console.log(
-      this.firstName + " " + this.lastName
+      this.firstName + ' ' + this.lastName
     );
   }
 };
@@ -122,7 +122,7 @@ console.log(sum.add());
 
 ```javascript
 function user() {
-  this.type = "user";
+  this.type = 'user';
   console.log(this);
 }
 

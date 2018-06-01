@@ -31,7 +31,7 @@ Use `splice` instead of using `delete` to erase an item from an array. Using `de
 Instead of:
 
 ```javascript
-var items = [12, 548, "a", 2];
+var items = [12, 548, 'a', 2];
 items.length; // returns 4
 delete items[3]; // return true
 items.length; // returns 4
@@ -41,7 +41,7 @@ items.length; // returns 4
 Use `splice(startPos, length)`:
 
 ```javascript
-var items = [12, 548, "a", 2];
+var items = [12, 548, 'a', 2];
 items.length; // returns 4
 items.splice(3, 1);
 items.length; // returns 3
@@ -57,7 +57,7 @@ The delete method should _only_ be used to delete an object property.
 Complete the following snippet:
 
 ```javascript
-var ar = [1, 2, 3, "5"];
+var ar = [1, 2, 3, '5'];
 delete ar[2]; // ar = ???
 // splice(startingPos,deleteCount)
 ar.splice(2, 2); // ar = ???

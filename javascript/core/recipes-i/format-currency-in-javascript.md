@@ -61,7 +61,7 @@ function currency(n) {
   n = parseFloat(n);
   return isNaN(n) ? false : n.toFixed(3);
 }
-console.log(currency("10.93719"));
+console.log(currency('10.93719'));
 ```
 
 - 10.937

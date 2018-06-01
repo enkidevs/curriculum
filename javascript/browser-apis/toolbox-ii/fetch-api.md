@@ -41,13 +41,13 @@ Example of fetch response handling:
 var myHeaders = new Headers();
 
 var myOptions = {
-  method: "GET",
+  method: 'GET',
   headers: myHeaders,
-  mode: "cors",
-  cache: "default"
+  mode: 'cors',
+  cache: 'default'
 };
 
-fetch("/the/url", myOptions)
+fetch('/the/url', myOptions)
   .then(function(response) {
     return; // ...
   })
@@ -56,7 +56,7 @@ fetch("/the/url", myOptions)
   })
   .catch(function(error) {
     console.log(
-      "Problem occurred: " + error.message
+      'Problem occurred: ' + error.message
     );
   });
 ```

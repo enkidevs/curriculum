@@ -32,7 +32,7 @@ It's a quick test for real understanding of JavaScript core beyond closures and 
 ## Game Content
 
 ```javascript
-if (!("a" in window)) {
+if (!('a' in window)) {
   var a = 1;
 }
 alert(a);

@@ -29,7 +29,7 @@ Probably the primary use of symbols is to introduce changes into EcmaScript. We 
 Don't worry too much about what the below code does just understand we are using a special inbuilt (referred to as well known) symbol to access the iterator functionality:
 
 ```javascript
-let p = ["alex", "bill", "john"];
+let p = ['alex', 'bill', 'john'];
 let it = p[Symbol.iterator]();
 it.next().value; //alex
 it.next().value; //bill

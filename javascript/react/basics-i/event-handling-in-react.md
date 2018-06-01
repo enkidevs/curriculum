@@ -166,7 +166,7 @@ Then you can define the handler function which will be automatically `bind`ed li
 
 ```jsx
 myListener = e => {
-  console.log("button clicked");
+  console.log('button clicked');
   console.log(this.props.test);
 };
 ```

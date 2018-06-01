@@ -46,7 +46,7 @@ Keep in mind that using:
 
 ```jsx
 React.cloneElement(child, {
-  ref: "newRef"
+  ref: 'newRef'
 });
 ```
 

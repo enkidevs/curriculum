@@ -35,7 +35,7 @@ In order to avoid processing power bottlenecks the `cluster` module can be used 
 Import the cluster module:
 
 ```javascript
-var cluster = require("cluster");
+var cluster = require('cluster');
 ```
 
 As a cluster module executes the same **Node** process multiple times, you need to find what portion of the code is executed by the children or master.

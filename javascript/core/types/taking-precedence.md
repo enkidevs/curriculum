@@ -36,7 +36,7 @@ How well do you know how JavaScript handles precedence?
 ## Game Content
 
 ```javascript
-1 + 2 + "3" + 4;
+1 + 2 + '3' + 4;
 ```
 
 - "334"

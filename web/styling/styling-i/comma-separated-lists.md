@@ -64,7 +64,7 @@ What does the following CSS code do?
 
 ```css
 ul > li:not(:last-child)::after {
-  content: "//";
+  content: '//';
 }
 ```
 

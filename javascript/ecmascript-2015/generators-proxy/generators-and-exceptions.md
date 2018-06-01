@@ -33,10 +33,10 @@ The example below will catch and log out any exceptions:
 function* getGenerator() {
   while (true) {
     try {
-      console.log("normal");
+      console.log('normal');
       yield;
     } catch (err) {
-      console.log("something bad: " + err);
+      console.log('something bad: ' + err);
     }
   }
 }
@@ -49,7 +49,7 @@ We can use generators **throw** method to create an exception.
 The exception occurs at the point where the generator is paused from the previous yield statement.
 
 ```javascript
-g.throw("bad error");
+g.throw('bad error');
 ```
 
 ---
@@ -62,9 +62,9 @@ What will be the output of the following generator calls?
 function* myGen() {
   while (true) {
     try {
-      yield "enki";
+      yield 'enki';
     } catch (err) {
-      console.log("Error");
+      console.log('Error');
     }
   }
 }
@@ -72,7 +72,7 @@ function* myGen() {
 const g = myGen();
 g.next();
 // { value: 'enki', done: false }
-g.throw("abc");
+g.throw('abc');
 // ???
 // ???
 ```

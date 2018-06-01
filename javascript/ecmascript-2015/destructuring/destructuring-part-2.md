@@ -30,8 +30,8 @@ Sometimes when using destructuring you will want to specify where values should 
 
 ```javascript
 var source = {
-  company: "Enki",
-  topic: "js"
+  company: 'Enki',
+  topic: 'js'
 };
 
 var { company: v1, topic: v2 } = source;
@@ -60,10 +60,10 @@ What will be the value of `a` at the end of the code execution?
 
 ```javascript
 const obj = {
-  a: "b"
+  a: 'b'
 };
 
-const { a: b, c = "a" } = obj;
+const { a: b, c = 'a' } = obj;
 // a = ???
 ```
 

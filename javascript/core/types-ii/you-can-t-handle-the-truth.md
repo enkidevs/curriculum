@@ -37,7 +37,7 @@ This mean that
 
 ```javascript
 if (v) {
-  console.log("yes");
+  console.log('yes');
 }
 ```
 

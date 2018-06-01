@@ -41,9 +41,9 @@ From this, we can construct the full `URL` path:
 ```javascript
 var newURL =
   window.location.protocol +
-  "//" +
+  '//' +
   window.location.host +
-  "/" +
+  '/' +
   window.location.pathname;
 ```
 

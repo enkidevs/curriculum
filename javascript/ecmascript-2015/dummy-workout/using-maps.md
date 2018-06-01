@@ -50,8 +50,8 @@ An iterable object can be passed into the `Map` on creation, after which each ke
 ```javascript
 var map = new Map();
 
-map.set(0, "zero");
-map.set(1, "one");
+map.set(0, 'zero');
+map.set(1, 'one');
 
 // Get the size of the map
 map.size; // 2
@@ -72,8 +72,8 @@ What's the output of the following snippet?
 
 ```javascript
 var map = new Map();
-map.set(0, "1");
-map.set(1, "0");
+map.set(0, '1');
+map.set(1, '0');
 
 var v = map.get(0);
 console.log(v);

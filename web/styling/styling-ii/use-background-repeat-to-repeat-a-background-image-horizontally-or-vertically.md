@@ -39,7 +39,7 @@ The background image will repeat in both directions by default. Use `repeat-x` t
 
 ```css
 body {
-  background-image: url("image.jpg");
+  background-image: url('image.jpg');
   background-repeat: repeat-x;
 }
 ```
@@ -54,7 +54,7 @@ Complete the code snippet to repeat an image vertically:
 
 ```css
 body {
-  background-image: url("image.jpg");
+  background-image: url('image.jpg');
   background-repeat: ???;
 }
 ```
@@ -74,7 +74,7 @@ What will the following CSS code do?
 
 ```css
 body {
-  background-image: url("picture.jpg");
+  background-image: url('picture.jpg');
   background-repeat: repeat-y;
 }
 ```

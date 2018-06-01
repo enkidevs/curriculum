@@ -39,7 +39,6 @@ The `package.json` file has the `peerDependencies` object that fits these exact 
       "needed-plugin": "3.x"
    }
 }
-
 ```
 
 This practice will ensure that your package can be installed along with the host package. `npm install my-module` can yield the dependency graph:

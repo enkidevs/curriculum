@@ -53,7 +53,7 @@ We can use `slice()` to achieve the desired result.
 
 ```javascript
 var digits = 4;
-var prefix = "0000";
+var prefix = '0000';
 var myNum = 16;
 (prefix + myNum).slice(-digits);
 // "0016"

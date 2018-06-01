@@ -48,12 +48,12 @@ And the following CSS snippet:
 
 ```css
 p::before {
-  content: "#";
+  content: '#';
   color: red;
 }
 
 p::after {
-  content: "?";
+  content: '?';
   color: aqua;
 }
 ```
@@ -87,11 +87,11 @@ Using the `::before` and `::after` selectors, what does the following CSS code d
 
 ```css
 div::before {
-  content: "Hello!";
+  content: 'Hello!';
   color: white;
 }
 div::after {
-  content: "Goodbye!";
+  content: 'Goodbye!';
   color: black;
 }
 ```

@@ -29,7 +29,7 @@ This mode is useful and is intended to make sure that code will work when minifi
 It is recommended to automate the explicit annotation via `ng-annotate` when deploying to production along with strict DI mode.
 
 ```js
-angular.bootstrap(document, ["myApp"], {
+angular.bootstrap(document, ['myApp'], {
   strictDi: true
 });
 ```
@@ -66,7 +66,7 @@ production for a significant performance boost with:
 
 ```js
 myApp.config([
-  "$compileProvider",
+  '$compileProvider',
   function($compileProvider) {
     $compileProvider.debugInfoEnabled(
       false

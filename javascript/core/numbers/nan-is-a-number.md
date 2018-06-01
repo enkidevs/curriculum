@@ -33,7 +33,7 @@ To distinguish `NaN` from other numbers, use `Number.isNaN`:
 ```javascript
 Number.isNaN(5); // false
 Number.isNaN(true); // false
-Number.isNaN(""); // false
+Number.isNaN(''); // false
 Number.isNaN(NaN); // true
 Number.isNaN(Infinite); // false
 Number.isNaN(Number.NaN); // true

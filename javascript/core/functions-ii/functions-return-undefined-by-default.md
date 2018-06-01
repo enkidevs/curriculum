@@ -36,7 +36,7 @@ function doSomething(num) {
     return;
   }
   if (num === 2) {
-    return "Enki";
+    return 'Enki';
   }
 }
 
@@ -82,7 +82,7 @@ function foo(num) {
     return;
   }
   if (num === 2) {
-    return "Enki";
+    return 'Enki';
   }
 }
 foo(1); // = ???

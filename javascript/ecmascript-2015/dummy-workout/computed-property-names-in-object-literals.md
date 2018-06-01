@@ -54,7 +54,7 @@ var pig = {
 var x = 3.14;
 var enki = new Object();
 enki.x = x;
-enki[x + "y"] = 2;
+enki[x + 'y'] = 2;
 ```
 
 Convert the code snippet above using the extended **ES6** object literal syntax:
@@ -84,7 +84,7 @@ var enki  = {
 var x = 3.14;
 var enki = new Object();
 enki.x = x;
-ekni[x + "y"] = 2;
+ekni[x + 'y'] = 2;
 ```
 
 Convert the code snippet above using the extended **ES6** object literal syntax:

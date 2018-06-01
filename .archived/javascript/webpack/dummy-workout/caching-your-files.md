@@ -52,7 +52,7 @@ A hash per chunk is done by adding `[chunkhash]` to the chunk _`filename config`
 ```javascript
 {
   output: {
-    chunkFilename: "[chunkhash].bundle.js";
+    chunkFilename: '[chunkhash].bundle.js';
   }
 }
 ```
@@ -66,7 +66,7 @@ Compute a hash per chunk by modifying the below code:
 ```javascript
 {
   output: {
-    chunkFilename: "???.bundle.js";
+    chunkFilename: '???.bundle.js';
   }
 }
 ```

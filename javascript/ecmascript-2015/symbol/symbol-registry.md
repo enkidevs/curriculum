@@ -25,8 +25,8 @@ links:
 As we saw earlier even if you create two symbols with the same description/key JavaScript considers them unique.
 
 ```javascript
-var sym1 = Symbol("Enki");
-var sym2 = Symbol("Enki");
+var sym1 = Symbol('Enki');
+var sym2 = Symbol('Enki');
 sym1 === sym2; //false
 ```
 
@@ -37,8 +37,8 @@ If you want to refer to symbols via a keys use the **Symbol.for** method to work
 **Symbol.for** will create a symbol if it does not exist already and return the same symbol if it has already been defined.
 
 ```javascript
-let sym1 = Symbol.for("Enki");
-let sym2 = Symbol.for("Enki");
+let sym1 = Symbol.for('Enki');
+let sym2 = Symbol.for('Enki');
 sym1 === sym2; //true
 ```
 
@@ -88,8 +88,8 @@ console.log(Symbol.???(sym1))
 What will be the output of the following expressions?
 
 ```javascript
-const sym1 = Symbol.for("enki");
-const sym2 = Symbol.for("enki");
+const sym1 = Symbol.for('enki');
+const sym2 = Symbol.for('enki');
 
 console.log(sym1 === sym2);
 // ???

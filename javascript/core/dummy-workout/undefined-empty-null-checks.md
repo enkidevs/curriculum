@@ -29,18 +29,18 @@ var msg;
 if (
   name !== null &&
   name !== undefined &&
-  name !== ""
+  name !== ''
 ) {
-  msg = "Hello " + name;
+  msg = 'Hello ' + name;
 } else {
-  msg = "Hello friend";
+  msg = 'Hello friend';
 }
 ```
 
 A shorter alternative is:
 
 ```javascript
-msg = "Hello " + (name || "friend");
+msg = 'Hello ' + (name || 'friend');
 ```
 
 ---
@@ -50,7 +50,7 @@ msg = "Hello " + (name || "friend");
 The following code checks for ??? .
 
 ```javascript
-msg = "Hello " + (name || "friend");
+msg = 'Hello ' + (name || 'friend');
 ```
 
 - All 3 of them

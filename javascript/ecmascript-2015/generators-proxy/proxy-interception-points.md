@@ -44,12 +44,12 @@ Here is an example of intercepting delete calls:
 ```javascript
 var handler = {
   deleteProperty(target, key) {
-    console.log("ignoring delete");
+    console.log('ignoring delete');
     return true;
   }
 };
 
-var obj = { x: "y" };
+var obj = { x: 'y' };
 var proxy = new Proxy(obj, handler);
 delete proxy.x; //ignoring delete
 console.log(obj.x); //y
@@ -68,7 +68,7 @@ var rev = Proxy.revocable(
   {},
   {
     get: function(target, name) {
-      console.log("accessed " + target);
+      console.log('accessed ' + target);
     }
   }
 );

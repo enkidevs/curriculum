@@ -31,23 +31,23 @@ tags:
 You can declare a string value in JavaScript using either single or double quotes - JavaScript will accept either:
 
 ```javascript
-var company = "Enki";
-var company = "Enki";
+var company = 'Enki';
+var company = 'Enki';
 ```
 
 If you have longer text you can wrap multiple lines by using the + operator:
 
 ```javascript
-var longerText = "abc" + "def" + "ghi";
+var longerText = 'abc' + 'def' + 'ghi';
 ```
 
 You can also use the backslash character to continue writing text on multiple lines (make sure nothing is after the backslash).
 
 ```javascript
 var longerText =
-  "abc\
+  'abc\
 def\
-ghi";
+ghi';
 ```
 
 There are also special characters that can be used by preceding the character with a backslash. Here are some common ones:
@@ -86,8 +86,8 @@ var myString = 'this will ???
 Which one of the following is correct ?
 
 ```javascript
-var company = "Enki";
-var company = "Enki";
+var company = 'Enki';
+var company = 'Enki';
 ```
 
 ???

@@ -33,8 +33,8 @@ Object properties can either be presented as strings or plain characters.
 
 ```javascript
 var testObject = {
-  case: "Random string",
-  delete: "Another random string"
+  case: 'Random string',
+  delete: 'Another random string'
 };
 ```
 
@@ -44,8 +44,8 @@ Instead, you can use quotes:
 
 ```javascript
 var testObject = {
-  case: "Random string",
-  delete: "Another random string"
+  case: 'Random string',
+  delete: 'Another random string'
 };
 ```
 

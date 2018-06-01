@@ -36,7 +36,7 @@ links:
 You can easily generate a string containing a random `HEX` color :
 
 ```javascript
-"#" +
+'#' +
   Math.random()
     .toString(16)
     .substr(-6);

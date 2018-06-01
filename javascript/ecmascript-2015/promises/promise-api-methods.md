@@ -54,7 +54,7 @@ Promise.race([p1, p2, p3])
 Creates immediately rejected or resolved promises which could be useful for testing scenarios for example:
 
 ```javascript
-var p1 = Promise.reject(new Error("fail"));
+var p1 = Promise.reject(new Error('fail'));
 var p2 = Promise.resolve();
 ```
 
@@ -66,13 +66,13 @@ Given the following code snippet, what do you think will be the output of each m
 
 ```javascript
 const p1 = new Promise(resolve =>
-  setTimeout(() => resolve("a"), 5000)
+  setTimeout(() => resolve('a'), 5000)
 );
 const p2 = new Promise(resolve =>
-  setTimeout(() => resolve("b"), 500)
+  setTimeout(() => resolve('b'), 500)
 );
 const p3 = new Promise(resolve =>
-  setTimeout(() => resolve("c"), 4000)
+  setTimeout(() => resolve('c'), 4000)
 );
 
 Promise.all([p1, p2, p3]).then(res =>

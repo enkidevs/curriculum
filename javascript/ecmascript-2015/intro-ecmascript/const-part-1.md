@@ -41,7 +41,7 @@ Once a `const` is declared any attempts to reassign the value will cause an erro
 
 ```javascript
 year = 2017; //error
-year = "future"; //error
+year = 'future'; //error
 ```
 
 `const`s can exist in different scopes for example if we had already declared a `const` variable called `year` it is valid to declare another as long as it exists in another scope:
@@ -94,10 +94,10 @@ Is the following code valid? Why?
 ???
 
 ```javascript
-const enki = "enki";
+const enki = 'enki';
 
 if (true) {
-  const enki = "nk";
+  const enki = 'nk';
 }
 ```
 

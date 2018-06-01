@@ -51,7 +51,7 @@ Before ES6 it was difficult to test if a value was equal to _NaN_ (Not a number)
 Whilst a global _isNaN_ function has existed in previous versions it has the issue that it converts values which makes it hard to test if something is really _NaN_:
 
 ```javascript
-isNaN("Enki") == true; //true
+isNaN('Enki') == true; //true
 ```
 
 Number.isNaN allows you to easily test if a number really is NaN:
@@ -68,7 +68,7 @@ Number.isNaN(Number.NaN); //true
 What is the output of the following two calls?
 
 ```javascript
-const enki = "enki";
+const enki = 'enki';
 
 isNaN(enki);
 Number.isNaN(enki);

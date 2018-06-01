@@ -31,7 +31,7 @@ The Node.js interpreter can be used to execute JavaScript files and programs in 
 
 ```javascript
 /* main.js */
-console.log("Node.js with Enki!");
+console.log('Node.js with Enki!');
 ```
 
 To run any JavaScript program using Node use the following generic command:
@@ -57,7 +57,7 @@ Consider the file `enki.js`:
 
 ```javascript
 // enki.js
-console.log("Hello, Enki!");
+console.log('Hello, Enki!');
 ```
 
 How would you run from the terminal interface the code in the file, using the NodeJS interpreter:

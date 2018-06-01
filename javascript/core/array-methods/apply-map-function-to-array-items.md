@@ -39,7 +39,7 @@ Using `.map` will apply a function to every element in the array, and return an 
 This is not limited to simple transformations. Any features of functions can be used within a `mapper function`.
 
 ```javascript
-["Jake", "Jack", "Mike"].map(
+['Jake', 'Jack', 'Mike'].map(
   name => `Hello ${name}`
 );
 

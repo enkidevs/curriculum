@@ -48,15 +48,15 @@ _parseFloat_ accepts just one argument:
 The below example shows how to use _parseInt_ and _parseFloat_:
 
 ```javascript
-parseInt("10", 10); //base 10, 10
-parseInt("011", 2); //binary, 3
-parseFloat("0.1"); // 0.1
+parseInt('10', 10); //base 10, 10
+parseInt('011', 2); //binary, 3
+parseFloat('0.1'); // 0.1
 ```
 
 If we try to parse a value that cannot be converted, then JavaScript will return a special value called NaN (not a number):
 
 ```javascript
-parseInt("abc", 10); //NaN
+parseInt('abc', 10); //NaN
 ```
 
 **IEEE-754**

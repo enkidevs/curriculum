@@ -47,8 +47,8 @@ Probably the most common is with the object initializer method:
 
 ```javascript
 var per = {
-  firstName: "john",
-  lastName: "smith"
+  firstName: 'john',
+  lastName: 'smith'
 };
 ```
 
@@ -69,15 +69,15 @@ We can also access properties using the array syntax.
 This can be useful when you don’t know the name of the property you want and want to dynamically change it at runtime.
 
 ```javascript
-var propName = "firstName";
+var propName = 'firstName';
 console.log(per[propName]);
 ```
 
 We can even add properties anytime we want to our objects:
 
 ```javascript
-per.age = "40";
-per["homeTown"] = "London";
+per.age = '40';
+per['homeTown'] = 'London';
 ```
 
 ---
@@ -88,11 +88,11 @@ Consider the following object:
 
 ```javascript
 var car = {
-  model: "AwsomeCar",
-  color: "blue",
+  model: 'AwsomeCar',
+  color: 'blue',
   noDoors: 4
 };
-var test = "model";
+var test = 'model';
 ```
 
 Would the following line print "model"?

@@ -37,7 +37,7 @@ Avoiding command injection is highly recommended when the **security** factor of
 Take the following example:
 
 ```javascript
-child_process.exec("ls", function(
+child_process.exec('ls', function(
   err,
   data
 ) {

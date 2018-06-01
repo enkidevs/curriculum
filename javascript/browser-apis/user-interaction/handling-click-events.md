@@ -44,11 +44,11 @@ Add a listener to these events:
 
 ```javascript
 myVar.addEventListener(
-  "click",
+  'click',
   myClickFunction
 );
 myVar.addEventListener(
-  "dblclick",
+  'dblclick',
   myDoubleClickFunction
 );
 ```

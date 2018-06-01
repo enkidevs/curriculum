@@ -36,7 +36,7 @@ For example:
 alert(foo()); // Alerts 'Enki'.
 // Function declaration
 function foo() {
-  return "Enki";
+  return 'Enki';
 }
 ```
 
@@ -46,7 +46,7 @@ If however a function **expression** is used rather than a function **declaratio
 alert(foo()); // Error!
 // Function expression
 var foo = function() {
-  return "Enki";
+  return 'Enki';
 };
 ```
 
@@ -61,7 +61,7 @@ Give the output:
 ```javascript
 alert(foo()); // ???
 var foo = function() {
-  return "Enki";
+  return 'Enki';
 };
 ```
 
@@ -77,7 +77,7 @@ Give the output:
 ```javascript
 alert(foo()); // ???
 function foo() {
-  return "Enki";
+  return 'Enki';
 }
 ```
 

@@ -53,7 +53,7 @@ function Animal(name) {
 
 // Inherited prototype method
 Animal.prototype.sayName = function() {
-  console.log("My name is " + this.name);
+  console.log('My name is ' + this.name);
 };
 
 function Cat(name) {
@@ -63,7 +63,7 @@ function Cat(name) {
 // Cat becomes a subclass of Animal
 // and inherits its properties/methods
 Cat.prototype = new Animal();
-var Kitty = new Cat("Kitty");
+var Kitty = new Cat('Kitty');
 
 Kitty.sayName();
 // "My name is Kitty"

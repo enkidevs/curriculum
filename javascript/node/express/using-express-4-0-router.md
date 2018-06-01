@@ -34,8 +34,8 @@ The router in **Express** acts like a mini express application that doesn't brin
 Creating a simple route:
 
 ```javascript
-app.get("/simple", function(req, res) {
-  res.send("Simple route accessed!");
+app.get('/simple', function(req, res) {
+  res.send('Simple route accessed!');
 });
 ```
 
@@ -43,18 +43,18 @@ Creating multiple routes:
 
 ```javascript
 var router = express.Router();
-router.get("/", function(req, res) {
-  res.send("first page");
+router.get('/', function(req, res) {
+  res.send('first page');
 });
-router.get("/enki", function(req, res) {
-  res.send("enki page");
+router.get('/enki', function(req, res) {
+  res.send('enki page');
 });
 ```
 
 Applying the routes:
 
 ```javascript
-app.use("/", router);
+app.use('/', router);
 ```
 
 `router.use()` is used to define middleware:

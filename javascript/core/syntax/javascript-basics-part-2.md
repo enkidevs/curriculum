@@ -30,7 +30,7 @@ Like most programming languages, JavaScript has a number of syntax rules that mu
 In EcmaScript it is best practice to add a semicolon at the end of a statement:
 
 ```javascript
-var company = "enki";
+var company = 'enki';
 ```
 
 It’s not strictly necessary to do this as the parser will try to determine the end of a statement automatically. However, it will help you be sure that the code runs as expected.
@@ -43,7 +43,7 @@ For example, if this is used inside a function then the variable will exist only
 
 ```javascript
 function hello() {
-  var company = "enki";
+  var company = 'enki';
 }
 // variable out of scope
 ```

@@ -48,8 +48,8 @@ Keep in mind that is still the user's responsibility to handle the lack of the d
 
 ```javascript
 try {
-  var enki = require("enki");
-  var enkiVer = require("enki/package.json")
+  var enki = require('enki');
+  var enkiVer = require('enki/package.json')
     .version;
 } catch (error) {
   enki = null;

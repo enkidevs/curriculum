@@ -26,7 +26,7 @@ It is very common to return an object from a function with a property the same n
 
 ```javascript
 function test() {
-  var name = "Enki";
+  var name = 'Enki';
 
   return {
     name: name
@@ -38,7 +38,7 @@ ES6 provides a convenient shortcut to do this that allows you to drop the proper
 
 ```javascript
 function test() {
-  var name = "enki";
+  var name = 'enki';
 
   return {
     name
@@ -58,8 +58,8 @@ What will be logged by the following snippet:
 
 ```javascript
 function bar() {
-  var foo = "b";
-  this.foo = "a";
+  var foo = 'b';
+  this.foo = 'a';
   return {
     foo
   };

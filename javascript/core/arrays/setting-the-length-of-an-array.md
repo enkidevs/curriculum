@@ -35,7 +35,7 @@ Have you ever wondered what happens if you manually change the length of an arra
 Given the array:
 
 ```javascript
-var a = ["one", "two", "three"];
+var a = ['one', 'two', 'three'];
 ```
 
 You can manually set the length of the array to truncate or extend it. To truncate:
@@ -84,7 +84,7 @@ arr.length = 4; //arr = ???
 Complete the following snippet:
 
 ```javascript
-var names = ["John", "Mary", "Tom"];
+var names = ['John', 'Mary', 'Tom'];
 names.length = 4;
 // names = ???
 names.length = 0;

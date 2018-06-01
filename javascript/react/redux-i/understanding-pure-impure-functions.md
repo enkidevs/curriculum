@@ -51,12 +51,12 @@ Are the following functions pure or impure?
 
 ```javascript
 function a(x) {
-  x = "enki";
+  x = 'enki';
   return x;
 }
 
 function b(x) {
-  return "enki";
+  return 'enki';
 }
 ```
 

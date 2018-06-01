@@ -27,7 +27,7 @@ Do you know how JavaScript comparisons work?
 ## Game Content
 
 ```javascript
-"1" == 1;
+'1' == 1;
 ```
 
 %exp
@@ -54,7 +54,7 @@ These are identical here, the expression being `true`.
 %
 
 ```javascript
-1 !== "1";
+1 !== '1';
 ```
 
 %exp

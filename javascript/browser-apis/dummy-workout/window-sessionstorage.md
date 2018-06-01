@@ -32,9 +32,9 @@ Opening a new tab or window will initiate a new session storage object.
 Saving data to session storage and retrieving it:
 
 ```javascript
-sessionStorage.setItem("itemName", "info");
+sessionStorage.setItem('itemName', 'info');
 var data = sessionStorage.getItem(
-  "itemName"
+  'itemName'
 );
 console.log(data); // prints 'info'
 ```
@@ -42,17 +42,17 @@ console.log(data); // prints 'info'
 Example of session storage autosaving the value of a text field and restoring this field if a browser is refreshed:
 
 ```javascript
-var test = document.getElementById("input");
+var test = document.getElementById('input');
 // find autosaved value caused by refresh
-if (sessionStorage.getItem("autosave")) {
+if (sessionStorage.getItem('autosave')) {
   test.value = sessionStorage.getItem(
-    "autosave"
+    'autosave'
   );
 }
 // listen for text field changes
-test.addEventListener("change", function() {
+test.addEventListener('change', function() {
   sessionStorage.setItem(
-    "autosave",
+    'autosave',
     test.value
   );
 });

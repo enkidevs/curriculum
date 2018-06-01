@@ -72,7 +72,7 @@ What does the following CSS code snippet do?
 
 ```css
 p:matches(s1, s2, s3) {
-  font-family: "Arial Narrow";
+  font-family: 'Arial Narrow';
   background-color: red;
 }
 ```

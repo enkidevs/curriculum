@@ -56,7 +56,7 @@ As a single line comment:
 You can also add single line comments to the same line as other code:
 
 ```javascript
-var company = "enki"; //define company
+var company = 'enki'; //define company
 ```
 
 Or if you have more text you can use a block comment:

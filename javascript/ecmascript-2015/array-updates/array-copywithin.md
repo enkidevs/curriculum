@@ -44,7 +44,7 @@ links:
 Look at the following array:
 
 ```javascript
-var alphabet = ["a", "b", "c", "d", "e"];
+var alphabet = ['a', 'b', 'c', 'd', 'e'];
 ```
 
 To copy the first two characters into the 2nd index we could use **Array.copyWithin** as follows:

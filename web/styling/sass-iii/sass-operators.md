@@ -36,7 +36,7 @@ h1 {
   // compatibility error
   font-size: 3px + 8em;
   // generated as 3px + 8em
-  font-size: unquote("3px + 8em");
+  font-size: unquote('3px + 8em');
   // generated as 9px
   font-size: 7px + 2px;
 }

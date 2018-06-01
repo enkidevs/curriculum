@@ -36,7 +36,7 @@ npm install express --save
 Import and use express in your Node.js app:
 
 ```javascript
-var express = require("express");
+var express = require('express');
 var app = express();
 ```
 
@@ -45,7 +45,7 @@ An express application makes use of **callback** functions with `request` and `r
 Using the `get` method, routing can be easily achieved:
 
 ```javascript
-app.get("/", function(request, response) {
+app.get('/', function(request, response) {
   //your code
 });
 ```

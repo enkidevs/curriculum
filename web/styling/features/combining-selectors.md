@@ -83,7 +83,7 @@ Describe the following CSS code snippet in one line?
 
 ```css
 ul + h {
-  font-family: "Arial Narrow";
+  font-family: 'Arial Narrow';
 }
 ```
 

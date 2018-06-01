@@ -87,8 +87,8 @@ and I would like to purchase :
 Complete the following code snippet to assemble a template string that says "Beam me up Scotty!"
 
 ```javascript
-let what = "Beam";
-let who = "Scotty";
+let what = 'Beam';
+let who = 'Scotty';
 
 let line = `??? me up ???!`;
 ```
@@ -111,8 +111,8 @@ let line = `??? me up ???!`;
 Complete the following code snippet to assemble a template string that says `"Stay Hungry Stay Foolish"`.
 
 ```javascript
-let attr = "Hungry";
-let attr2 = "Foolish";
+let attr = 'Hungry';
+let attr2 = 'Foolish';
 
 let line = `Stay ??? Stay ???`;
 ```

@@ -38,7 +38,7 @@ The `console.*` methods output information to a console.
 For example, `console.log` can print out a message or show details of an object:
 
 ```javascript
-console.log("Username: " + username);
+console.log('Username: ' + username);
 // Username: enkilondon
 ```
 
@@ -46,13 +46,13 @@ A few other useful console methods include:
 Sending a warning to the console.
 
 ```javascript
-console.warn("Resource not changed");
+console.warn('Resource not changed');
 ```
 
 Sending an error message to the console.
 
 ```javascript
-console.error("File not found!");
+console.error('File not found!');
 ```
 
 Viewing the current stack trace.

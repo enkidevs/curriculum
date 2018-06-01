@@ -32,10 +32,10 @@ A _blob_ object represents an "almost file" object of raw data. It represents da
 To create a blob, use the blob constructor:
 
 ```javascript
-var debug = { hello: "world" };
+var debug = { hello: 'world' };
 var blob = new Blob(
   [JSON.stringify(debug, null, 2)],
-  { type: "application/json" }
+  { type: 'application/json' }
 );
 ```
 

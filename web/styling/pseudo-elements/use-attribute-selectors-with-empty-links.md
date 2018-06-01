@@ -55,7 +55,7 @@ http://anysite.com
 Complete the code snippet to display links when the `<a>` element has no text value yet the `href` attribute has an external link:
 
 ```css
-a[???="http"]:empty::before {
+a[???='http']:empty::before {
   content: ???(href);
 }
 ```

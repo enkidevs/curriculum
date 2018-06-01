@@ -35,13 +35,13 @@ npm install morgan
 And import it:
 
 ```javascript
-var morgan = require("morgan");
+var morgan = require('morgan');
 ```
 
 When creating a new `morgan` logger middleware a `format` must be specified, followed by desired `options` (which are optional) :
 
 ```javascript
-app.use(morgan("tiny"));
+app.use(morgan('tiny'));
 ```
 
 The `format` can be a string or a function that will produce a log entry (tokens are of help here). Predefined names include `dev`, `combined`, `short` etc.
@@ -54,7 +54,7 @@ Options worth mentioning are:
 To only log error responses:
 
 ```javascript
-morgan("combined", {
+morgan('combined', {
   skip: function(req, res) {
     return res.statusCode < 400;
   }

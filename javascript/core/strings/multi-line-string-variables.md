@@ -55,9 +55,9 @@ To preserve both readability and functionality, use string concatenation:
 
 ```javascript
 var stringOfHTML =
-  "<div>" +
-  "  This is a better example." +
-  "</div>";
+  '<div>' +
+  '  This is a better example.' +
+  '</div>';
 ```
 
 Or, ES2015 makes it possible to use backticks, in this form:

@@ -61,7 +61,7 @@ When passing an array called `input` as a `prop`, this component will return a `
 ```jsx
 ReactDOM.render(
   <MyList input={[7, 13, 42]} />,
-  document.getElementById("root")
+  document.getElementById('root')
 );
 
 // output in the DOM is:

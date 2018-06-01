@@ -56,7 +56,7 @@ JavaScript's main complex data type is the `Object`. Object instances are create
 
 ```javascript
 const obj = {
-  status: "right"
+  status: 'right'
 };
 ```
 
@@ -64,17 +64,17 @@ Brackets are also used for separating blocks of code with the same scope (functi
 
 ```javascript
 function echo() {
-  const status = "right";
+  const status = 'right';
 }
 // or
 function echoNew() {
-  const status = "right";
+  const status = 'right';
 }
 // or even
 function echoNewNew() {
   if (true) {
-    const status = "right";
-    console.log("Please stop.");
+    const status = 'right';
+    console.log('Please stop.');
   } else {
     console.log("I'm serious.");
   }
@@ -104,7 +104,7 @@ function wrong() {
   return; // equivalent to return undefined;
   // this is ignored
   {
-    status: "wrong";
+    status: 'wrong';
   }
 }
 ```
@@ -116,7 +116,7 @@ _Note:_ This is not restricted to brackets only. The following syntax:
 ```javascript
 function wrong() {
   return;
-  ("wrong");
+  ('wrong');
 }
 ```
 

@@ -27,9 +27,9 @@ Instead of:
 
 ```javascript
 setTimeout(function() {
-  console.log("greeting 1");
+  console.log('greeting 1');
   setTimeout(function() {
-    console.log("greeting 2");
+    console.log('greeting 2');
   }, 1000);
 }, 1000);
 ```
@@ -38,11 +38,11 @@ Prefer:
 
 ```javascript
 function greeting1() {
-  console.log("greeting 1");
+  console.log('greeting 1');
   setTimeout(greeting2, 1000);
 }
 function greeting2() {
-  console.log("greeting 2");
+  console.log('greeting 2');
 }
 setTimeout(greeting1, 1000);
 ```
@@ -75,19 +75,19 @@ Which of the following pieces of code is the better piece of code, in terms of r
 ```javascript
 // Option 1
 setTimeout(function() {
-  console.log("Hey!");
+  console.log('Hey!');
   setTimeout(function() {
-    console.log("Hey, again!");
+    console.log('Hey, again!');
   }, 1500);
 }, 1500);
 
 // Option 2
 function Hey() {
-  console.log("Hey!");
+  console.log('Hey!');
   setTimeout(Hey_again, 1000);
 }
 function Hey_again() {
-  console.log("Hey, again!");
+  console.log('Hey, again!');
 }
 setTimeout(Hey, 1000);
 ```

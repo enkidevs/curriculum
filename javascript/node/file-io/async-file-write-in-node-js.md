@@ -44,8 +44,8 @@ For example:
 
 ```javascript
 fs.writeFile(
-  "msg.txt",
-  "Hello enki",
+  'msg.txt',
+  'Hello enki',
   function(err) {
     if (err) throw err;
     console.log("it's ok");

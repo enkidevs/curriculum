@@ -39,10 +39,10 @@ _Weak Typing_
 The operator `==` coerces (converts) types before comparing the terms:
 
 ```javascript
-"" == "0"; // false
-0 == ""; // true
-false == "0"; // true
-" \t\r\n" == 0; // true
+'' == '0'; // false
+0 == ''; // true
+false == '0'; // true
+' \t\r\n' == 0; // true
 ```
 
 Using `==` is generally considered bad practice as it often leads to difficult-to-locate bugs due to unintuitive conversion rules.
@@ -52,10 +52,10 @@ _Strict Typing_
 The strict equality operator is expressed as `===`. It works as `==`, but without type coercion:
 
 ```javascript
-"" === "0"; // false
-0 === ""; // false
-false === "0"; // false
-" \t\r\n" === 0; // false
+'' === '0'; // false
+0 === ''; // false
+false === '0'; // false
+' \t\r\n' === 0; // false
 ```
 
 Note: `\t\r\n` are special characters that you might see in strings. All of them are whitespace, under one for or another. `\t` represents a tab (multiple space characters), while `\n` - carriage return - and `\s` - line feed - are new line characters (they are not exactly the same and are even used together - CRLF).
@@ -67,9 +67,9 @@ Note: `\t\r\n` are special characters that you might see in strings. All of them
 What is the output of the following code?
 
 ```javascript
-console.log("" == "0");
-console.log("" === "0");
-console.log(" \t\r\n" == 0);
+console.log('' == '0');
+console.log('' === '0');
+console.log(' \t\r\n' == 0);
 // ???
 ```
 
@@ -87,8 +87,8 @@ console.log(" \t\r\n" == 0);
 What will the following code output?
 
 ```javascript
-console.log(0 == "");
-console.log("\n" == 0);
+console.log(0 == '');
+console.log('\n' == 0);
 // ???
 ```
 

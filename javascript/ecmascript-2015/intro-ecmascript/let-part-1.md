@@ -30,11 +30,11 @@ This means you can do things like this:
 ```javascript
 function test() {
   //scope
-  let company = "Enki";
+  let company = 'Enki';
 
   if (1 == 1) {
     //another scope
-    let company = "Apple";
+    let company = 'Apple';
     console.log(company); //Apple
   }
   console.log(company); //Enki
@@ -44,11 +44,11 @@ function test() {
 When _let_ is used outside a function it also will not create a global variable, contrary to `var`s behavior:
 
 ```javascript
-var global = "enki";
+var global = 'enki';
 console.log(window.global);
 // enki
 
-let notGlobal = "Enki";
+let notGlobal = 'Enki';
 console.log(window.notGlobal);
 // undefined
 ```
@@ -82,7 +82,7 @@ console.log(year);
 What is the output of the log statement (considering it's run in a browser):
 
 ```javascript
-let enki = "enki";
+let enki = 'enki';
 console.log(window.enki);
 // ???
 ```

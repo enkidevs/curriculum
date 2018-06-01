@@ -62,8 +62,8 @@ However, the first value we pass in will be ignored!
 
 ```javascript
 var g = getGenerator();
-g.next("a"); //ignored
-g.next("b"); // b
+g.next('a'); //ignored
+g.next('b'); // b
 ```
 
 This is because the first time we get our generator we are at the beginning of the function and there is nothing to log from the yield statement.
@@ -73,8 +73,8 @@ The solution is to simply call the generators next method once:
 ```javascript
 var g = getGenerator();
 g.next();
-g.next("a"); //a
-g.next("b"); // b
+g.next('a'); //a
+g.next('b'); // b
 ```
 
 ---

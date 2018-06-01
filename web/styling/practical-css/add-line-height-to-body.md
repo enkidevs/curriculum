@@ -58,7 +58,7 @@ What does the following piece of code do?
 
 ```css
 body {
-  font-family: "Arial Narrow";
+  font-family: 'Arial Narrow';
 }
 ```
 

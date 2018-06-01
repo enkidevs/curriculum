@@ -41,10 +41,10 @@ Consider the following example of a local module (filename `news.js`):
 ```javascript
 var news = {
   good: function(good) {
-    console.log("Good news! " + good);
+    console.log('Good news! ' + good);
   },
   bad: function(bad) {
-    console.log("Bad news... " + bad);
+    console.log('Bad news... ' + bad);
   }
 };
 module.export = news;
@@ -79,7 +79,7 @@ Consider the following local node module:
 // myModule.js
 module.exports = {
   hello: function() {
-    console.log("Hello from Enki");
+    console.log('Hello from Enki');
   }
 };
 ```

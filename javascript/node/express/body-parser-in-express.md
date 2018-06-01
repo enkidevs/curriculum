@@ -39,7 +39,7 @@ npm install body-parser
 Then imported:
 
 ```javascript
-var bodyParser = require("body-parser");
+var bodyParser = require('body-parser');
 ```
 
 `body-parser` will parse the data depending on the format that is specified:

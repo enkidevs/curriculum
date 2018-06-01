@@ -41,12 +41,12 @@ Detecting visibility changes:
 
 ```javascript
 document.addEventListener(
-  "visibilitychange",
+  'visibilitychange',
   function() {
     if (document.hidden) {
-      console.log("hidden");
+      console.log('hidden');
     } else {
-      console.log("shown");
+      console.log('shown');
     }
   },
   false

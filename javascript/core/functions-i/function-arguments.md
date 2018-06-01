@@ -42,10 +42,10 @@ changeVal(x);
 console.log(x); //still 5
 
 function changeObj(x) {
-  x.name = "Apple";
+  x.name = 'Apple';
 }
 
-var obj = { name: "Enki" };
+var obj = { name: 'Enki' };
 changeObj(obj);
 console.log(obj.name); //Apple
 ```
@@ -68,10 +68,10 @@ What will the following snippet output?
 
 ```javascript
 function changeProp(obj) {
-  obj.name = "John";
+  obj.name = 'John';
 }
 
-var per = { name: "Alex" };
+var per = { name: 'Alex' };
 changeProp(per);
 console.log(per.name);
 // ???

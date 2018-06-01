@@ -39,7 +39,6 @@ To pipe the result of a script to another use the `|` character:
       app/js/index.js | uglifyjs -mc > \
       static/bundle.js"
   }
-
 ```
 
 Supposing `browserify`, `reactify` and `uglify-js` are provided in **devDependencies**, this script above will pipe the result of bundling the JavaScript files to `uglifyjs` .

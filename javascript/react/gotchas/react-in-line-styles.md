@@ -29,9 +29,9 @@ Create the style object:
 
 ```javascript
 var divStyle = {
-  color: "white",
-  WebkitTransition: "all",
-  msTransition: "all"
+  color: 'white',
+  WebkitTransition: 'all',
+  msTransition: 'all'
 };
 ```
 
@@ -57,7 +57,7 @@ Consider the following style object:
 ```javascript
 var pStyle = {
   fontSize: 15,
-  color: "black"
+  color: 'black'
 };
 ```
 

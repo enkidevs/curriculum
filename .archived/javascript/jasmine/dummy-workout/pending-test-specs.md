@@ -52,13 +52,13 @@ describe("Example of pending specs", () => {
 Which of the following specs is not declared as pending?
 
 ```javascript
-it("This is Spec A");
+it('This is Spec A');
 
-xit("This is Spec B", () => {
+xit('This is Spec B', () => {
   expect(false).toBeEqual(false);
 });
 
-it("This is Spec C", () => {
+it('This is Spec C', () => {
   expect(true).not.toBeEqual(true);
 });
 ```

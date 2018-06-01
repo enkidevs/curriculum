@@ -32,18 +32,18 @@ It handles the logic of comparing with the old props, then acting upon any chang
 var testingComponent = React.createClass({
   getDefaultProps() {
     return {
-      currentProp: "to change"
+      currentProp: 'to change'
     };
   },
   getInitialState() {
     return {
-      change: "no change"
+      change: 'no change'
     };
   },
   componentWillReceiveProps(nextProps) {
     this.setState({
       modified:
-        nextProps.currentProp + "changed"
+        nextProps.currentProp + 'changed'
     });
   },
   render() {

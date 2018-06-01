@@ -61,7 +61,9 @@ $ ??? ??? ??? ??? ???
 - npm
 - run
 - doSomething
-- --
+
+---
+
 - "enki"
 - add
 - runWithArgs
@@ -77,7 +79,8 @@ How would you pass to the following npm script call a "test" argument?
 $ npm run myScript ??? ???
 ```
 
-- --
+---
+
 - "test"
 - add
 - argvs

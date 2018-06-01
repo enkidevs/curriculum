@@ -69,7 +69,6 @@ By using the `-y` option we can tell `pwgen` to also include symbols in the pass
 $ pwgen -s -y 40
 i^^iAa5o^oc["+43[G]{62&S!&Mt:L]ny7qbR~g0
 $
-
 ```
 
 ---

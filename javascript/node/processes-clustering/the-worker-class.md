@@ -43,7 +43,7 @@ To check if a _worker_ is connected to its master via its _IPC_ channel. The fun
 
 ```javascript
 if (worker.isConnected()) {
-  process.send("Worker connected!");
+  process.send('Worker connected!');
 }
 ```
 

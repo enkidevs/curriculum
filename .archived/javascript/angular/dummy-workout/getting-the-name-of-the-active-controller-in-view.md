@@ -28,7 +28,7 @@ In app.js (or the JS file where you bootstrap your angular application with rout
 ```js
 angular.run(function($rootScope) {
   $rootScope.$on(
-    "$routeChangeSuccess",
+    '$routeChangeSuccess',
     function(ev, data) {
       if (
         data.$$route &&

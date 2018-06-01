@@ -27,10 +27,10 @@ When manipulating the `DOM` in JavaScript, it is often useful to create your own
 Instead of:
 
 ```javascript
-var text = "Click";
-var url = "http://test.com";
+var text = 'Click';
+var url = 'http://test.com';
 document.write(
-  '<a href="' + url + '">' + text + "</a>"
+  '<a href="' + url + '">' + text + '</a>'
 );
 // <a href="http://test.com">Click</a>
 ```
@@ -39,7 +39,7 @@ Use:
 
 ```javascript
 document.write(
-  "Click".link("http://test.com")
+  'Click'.link('http://test.com')
 );
 // <a href="http://test.com">Click</a>
 ```

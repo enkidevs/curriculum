@@ -28,8 +28,8 @@ It is common to use an object to store a set of keys and values:
 
 ```javascript
 var obj = {
-  firstName: "John",
-  lastName: "Smith"
+  firstName: 'John',
+  lastName: 'Smith'
 };
 ```
 
@@ -41,13 +41,13 @@ Let's create a map and assign keys and values:
 
 ```javascript
 var map = new Map();
-var str = "A",
+var str = 'A',
   func = function(x) {
     return x * 2;
   };
 
-map.set(str, "a");
-map.set(func, "b");
+map.set(str, 'a');
+map.set(func, 'b');
 ```
 
 We can then use the keys to retrieve values:

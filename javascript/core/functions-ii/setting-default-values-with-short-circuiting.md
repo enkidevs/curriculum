@@ -42,7 +42,7 @@ Instead of setting default values as below:
 ```javascript
 function document(theTitle) {
   if (!theTitle) {
-    theTitle = "Untitled Doc";
+    theTitle = 'Untitled Doc';
   }
 }
 ```
@@ -51,7 +51,7 @@ We can use:
 
 ```javascript
 function documentTitle(theTitle) {
-  theTitle = theTitle || "Untitled Doc";
+  theTitle = theTitle || 'Untitled Doc';
 }
 ```
 

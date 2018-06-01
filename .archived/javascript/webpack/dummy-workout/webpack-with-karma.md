@@ -33,13 +33,13 @@ module.exports = function(config) {
     // standard Karma config
     files: [
       // all files ending in "_test"
-      "enkiTest/*_test.js",
-      "test/**/*_test.js"
+      'enkiTest/*_test.js',
+      'test/**/*_test.js'
     ],
     preprocessors: {
       // add webpack as preprocessor
-      "enkiTest/*_test.js": ["webpack"],
-      "test/**/*_test.js": ["webpack"]
+      'enkiTest/*_test.js': ['webpack'],
+      'test/**/*_test.js': ['webpack']
     }
   });
 };
@@ -48,19 +48,19 @@ module.exports = function(config) {
 It's likely that you'll need to provide some kind of Webpack config, this is done by setting the `webpack` property of the Karma config. It can either be an existing Webpack config (such as your application uses) or a special one for your tests:
 
 ```javascript
-const webpackCfg = require("./webpack.config");
+const webpackCfg = require('./webpack.config');
 module.exports = function(config) {
   config.set({
     // standard Karma config
     files: [
       // all files ending in "_test"
-      "enkiTest/*_test.js",
-      "test/**/*_test.js"
+      'enkiTest/*_test.js',
+      'test/**/*_test.js'
     ],
     preprocessors: {
       // add webpack as preprocessor
-      "enkiTest/*_test.js": ["webpack"],
-      "test/**/*_test.js": ["webpack"]
+      'enkiTest/*_test.js': ['webpack'],
+      'test/**/*_test.js': ['webpack']
     },
     webpack: webpackCfg
   });

@@ -44,18 +44,18 @@ links:
 The `String.replace` method only changes the first occurrence of a substring, not all possible matches:
 
 ```javascript
-var testString = "An example string for us";
-testString = testString.replace(/ /, "%20");
+var testString = 'An example string for us';
+testString = testString.replace(/ /, '%20');
 // testString = "An%20example string for us"
 ```
 
 To replace all occurrences, you need to set the global modifier:
 
 ```javascript
-var testString = "An example string for us";
+var testString = 'An example string for us';
 testString = testString.replace(
   / /g,
-  "%20"
+  '%20'
 );
 // "An%20example%20string%20for%20us"
 ```

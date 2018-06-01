@@ -47,7 +47,7 @@ To disable some `textarea` elements, do the following:
 note the textarea with the name, foo,
 is  what will be disabled 
 */
-textarea[name="foo"] {
+textarea[name='foo'] {
   resize: none;
 }
 ```

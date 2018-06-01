@@ -35,7 +35,7 @@ links:
 For example, when attempting to parse a string that does not contain a number value:
 
 ```javascript
-Number("Enki"); //NaN
+Number('Enki'); //NaN
 ```
 
 `"Enki"` cannot be converted into a valid number so `NaN` is returned.
@@ -70,8 +70,8 @@ NaN === NaN;
 What will each of these output?
 
 ```javascript
-console.log(Number("enki")); // ???
-console.log(0 / 0 === Number("five")); // ???
+console.log(Number('enki')); // ???
+console.log(0 / 0 === Number('five')); // ???
 ```
 
 - NaN

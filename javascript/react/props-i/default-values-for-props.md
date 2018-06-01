@@ -39,7 +39,7 @@ function MyComponent(props) {
 }
 
 MyComponent.defaultProps = {
-  text: "Bonjour le monde!"
+  text: 'Bonjour le monde!'
 };
 ```
 

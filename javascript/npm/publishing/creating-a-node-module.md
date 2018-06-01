@@ -49,7 +49,7 @@ Whenever you import the module in another file using the `require` function, it 
 
 ```javascript
 // app.js
-var math = require("./math");
+var math = require('./math');
 console.log(math.pow(3, 4));
 ```
 

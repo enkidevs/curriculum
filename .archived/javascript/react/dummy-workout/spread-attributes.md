@@ -41,8 +41,8 @@ var component = (
 
 ```jsx
 var props = {
-  name: "enki",
-  content: "cool content"
+  name: 'enki',
+  content: 'cool content'
 };
 ```
 

@@ -40,7 +40,7 @@ For example:
 
 ```javascript
 try {
-  eval("5 + / 3");
+  eval('5 + / 3');
 } catch (e) {
   if (e.constructor == SyntaxError) {
     //handle if is SyntaxError

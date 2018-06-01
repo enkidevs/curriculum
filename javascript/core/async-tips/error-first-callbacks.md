@@ -39,7 +39,7 @@ function pay(order, cardNo, callback) {
     callback(null, order.paid());
   } else {
     callback(
-      "Card " + cardNo + " invalid."
+      'Card ' + cardNo + ' invalid.'
     );
   }
 }
@@ -54,10 +54,10 @@ pay(myOrder, myCard, function(
 ) {
   if (errorMsg) {
     return console.error(
-      "Error: " + errorMsg
+      'Error: ' + errorMsg
     );
   }
-  console.log("Paid " + paidMsg);
+  console.log('Paid ' + paidMsg);
 });
 ```
 

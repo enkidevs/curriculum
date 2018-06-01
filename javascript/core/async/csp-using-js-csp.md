@@ -54,7 +54,7 @@ For example:
 ```javascript
 var ch = csp.chan(); // new channel
 csp.takeAsync(ch, function(value) {
-  return console.log("Yay ", value);
+  return console.log('Yay ', value);
 });
 csp.putAsync(ch, 100);
 // puts 100 ... takes 100, "Yay 100"

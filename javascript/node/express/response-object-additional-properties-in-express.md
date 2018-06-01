@@ -51,8 +51,8 @@ Send different content depending on the Accept request header:
 
 ```javascript
 res.format({
-  "text/plain": "hey",
-  "text/html": "<b>hey</b>"
+  'text/plain': 'hey',
+  'text/html': '<b>hey</b>'
 });
 ```
 

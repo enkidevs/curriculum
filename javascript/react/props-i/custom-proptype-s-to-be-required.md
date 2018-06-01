@@ -47,7 +47,7 @@ function createChainableChecker(validate) {
   ) {
     if (props[propName] == null) {
       if (isRequired) {
-        return new Error("missing prop");
+        return new Error('missing prop');
       }
       return null;
     } else {
@@ -117,10 +117,10 @@ function textLengthChecker(
 ) {
   if (props[propName]) {
     let text = props[propName];
-    if (typeof text === "string") {
+    if (typeof text === 'string') {
       return text.length < 200
         ? null
-        : new Error(propName + "too long");
+        : new Error(propName + 'too long');
     }
   }
   //assume everything is ok

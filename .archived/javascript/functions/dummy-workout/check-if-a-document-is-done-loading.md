@@ -30,7 +30,7 @@ Check if a document is loaded in your page via the `document.readyState` propert
 Basic check:
 
 ```javascript
-if (document.readyState === "complete") {
+if (document.readyState === 'complete') {
   // document is loaded
 }
 ```
@@ -39,7 +39,7 @@ Repeating this check at a certain interval :
 
 ```javascript
 var interval = setInterval(function() {
-  if (document.readyState === "complete") {
+  if (document.readyState === 'complete') {
     clearInterval(interval);
     // document is loaded
   }

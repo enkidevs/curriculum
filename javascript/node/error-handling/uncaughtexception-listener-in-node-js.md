@@ -34,10 +34,10 @@ Use an `uncaughtException` listener to prevent a program crashing due to an unha
 For example:
 
 ```javascript
-process.on("uncaughtException", function(
+process.on('uncaughtException', function(
   err
 ) {
-  console.log("exception: " + err);
+  console.log('exception: ' + err);
 });
 ```
 
