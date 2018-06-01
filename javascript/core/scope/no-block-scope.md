@@ -23,11 +23,12 @@ tags:
 links:
   - '[learnxinyminutes.com](http://learnxinyminutes.com/docs/javascript/){website}'
   - '[stackoverflow.com](http://stackoverflow.com/questions/500431/what-is-the-scope-of-variables-in-javascript){website}'
-
 ---
+
 # No block scope
 
 ---
+
 ## Content
 
 Functions have their own scopes, however most other blocks do not.
@@ -60,28 +61,30 @@ However, despite `a = 3` being contained within an `if` block, the `foo` functio
 The only exception is the case of `catch` blocks, which also have their own scope.
 
 ---
+
 ## Practice
 
 What will the following snippet do?
 
 ```javascript
-var x = 'foo';
+var x = "foo";
 (function bar() {
- {
-   var x = 5
- }
- console.log(x)
-})()
+  {
+    var x = 5;
+  }
+  console.log(x);
+})();
 ```
 
 ???
 
-* log 5
-* log 'foo'
-* raise an error
-* can't be compiled
+- log 5
+- log 'foo'
+- raise an error
+- can't be compiled
 
 ---
+
 ## Revision
 
 What's the output of the `alert()` method?
@@ -89,15 +92,15 @@ What's the output of the `alert()` method?
 ```javascript
 var a = 1;
 function bar() {
-  if(2 === 2) {
+  if (2 === 2) {
     var a = 0;
   }
   alert(a); // ???
 }
 ```
 
-* 0
-* 1
-* 2
-* 3
-* undefined
+- 0
+- 1
+- 2
+- 3
+- undefined

@@ -29,6 +29,7 @@ links:
 # JS Practice Closures
 
 ---
+
 ## Exercise
 
 Write a specialized function called a `Closure`.

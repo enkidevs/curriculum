@@ -19,9 +19,11 @@ links:
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const){website}'
 
 ---
+
 # Const (Part 2)
 
 ---
+
 ## Content
 
 Assigning a `const` to another variable and then changing the source variable will not change the value of the `const`:
@@ -40,11 +42,11 @@ Additionally note that modifying a property of an object referenced by a constan
 Objects can also be declared as `const`.
 
 ```javascript
-const p = {first: "john", last: "smith"};
+const p = { first: "john", last: "smith" };
 
 //below will cause errors:
 p = 5;
-p = {first: "bob", last: "smith"};
+p = { first: "bob", last: "smith" };
 ```
 
 It is important to note however that the values of the object can be modified so the below is valid:
@@ -56,6 +58,7 @@ p.first = "bob"; //valid
 If you don’t want anyone to be able modify the object at all be sure to use `Object.freeze`[1] function.
 
 ---
+
 ## Practice
 
 Fill in the gaps of the following code such that the output of the log statements make sense:
@@ -77,36 +80,39 @@ console.log(???)
 // 3.141
 ```
 
-* special
-* piExtended
-* e
-* pi
-* special.piExtended
-* special.pi
-* special.e
+- special
+- piExtended
+- e
+- pi
+- special.piExtended
+- special.pi
+- special.e
 
 ---
+
 ## Revision
 
 What will happen when running this code?
 
 ```javascript
 const foo = {
-  bar: 'baz'
-}
-foo.bar = 'enki'
-console.log(foo.bar)
+  bar: "baz"
+};
+foo.bar = "enki";
+console.log(foo.bar);
 ```
 
 ???
 
-* will log 'enki'
-* will log 'baz'
-* will raise an error
-* will log `null`
+- will log 'enki'
+- will log 'baz'
+- will raise an error
+- will log `null`
 
 ---
+
 ## Footnotes
+
 [1:`Object.freeze`]
-For more information on *Object.freeze* see (MDN)
+For more information on _Object.freeze_ see (MDN)
 [https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze]

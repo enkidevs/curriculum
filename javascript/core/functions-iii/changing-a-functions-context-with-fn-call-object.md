@@ -22,61 +22,61 @@ links:
 
   - '[javascriptissexy.com](http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential-for-javascript-professionals/){website}'
   - '[Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call){website}'
-
-
 ---
 
 # Changing a functions context with `fn.call(object)`
 
 ---
+
 ## Content
 
-`fn.call()` allows you to call a function and provide an alternative value for the functions *this* context.
+`fn.call()` allows you to call a function and provide an alternative value for the functions _this_ context.
 
-The first argument `fn.call()` accepts is the alternative *this* context and any following arguments are passed as parameters. 
+The first argument `fn.call()` accepts is the alternative _this_ context and any following arguments are passed as parameters.
 
-The code below defines a *discount* of *10* that will be retrieved within *getDiscount* via a call to `this.discount`:
+The code below defines a _discount_ of _10_ that will be retrieved within _getDiscount_ via a call to `this.discount`:
 
 ```javascript
-var discountCalc= {
-    discount: 10,
-    getDiscount: function(input){
-      return this.discount + input;
-    }
-}
+var discountCalc = {
+  discount: 10,
+  getDiscount: function(input) {
+    return this.discount + input;
+  }
+};
 
 discountCalc.getDiscount(1); //11
 ```
 
-Imagine we want to supply a bigger discount. 
+Imagine we want to supply a bigger discount.
 
-We can use `fn.call` to override discountCalculators *discount* by supplying an alternative *this* context:
-```
-discountCalc
-.getDiscount
-.call({discount: 100},1); //101
+We can use `fn.call` to override discountCalculators _discount_ by supplying an alternative _this_ context:
+
+```javascript
+discountCalc.getDiscount.call(
+  { discount: 100 },
+  1
+); //101
 ```
 
 ---
+
 ## Practice
 
 Which method will change the `this` context of a JavaScript function call?
 ???
 
-
-* `.call(obj)`
-* `.context(obj)`
-* `.this = ___`
-* `.object()`
+- `.call(obj)`
+- `.context(obj)`
+- `.this = ___`
+- `.object()`
 
 ---
+
 ## Revision
 
 Using the .???() method will change the ??? context of a JavaScript function call
 
-
-* `call`
-* `this`
-* `context`
-* `scope`
-
+- `call`
+- `this`
+- `context`
+- `scope`

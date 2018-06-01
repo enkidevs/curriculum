@@ -12,20 +12,24 @@ levels:
 type: tetris
 
 category: must-know
-
 ---
+
 # JavaScript Comparators
 
 ---
+
 ## Content
 
 Do you know how JavaScript comparisons work?
 
 ---
+
 ## Game Content
 
-```true
-"1" == 1
+```javascript
+"1" == 1;
+```
+
 %exp
 The types in this comparison are coerced (automatic type conversion) because the abstract comparison (i.e. `==`) was used.
 
@@ -39,30 +43,49 @@ Both `null` and `undefined` in **JavaScript** indicate absence of value.
 The specifications for the "loose" equality operator (`==`) is defined such that this expression return `true`.
 %
 
-1 === 1
+```javascript
+1 === 1;
+```
+
 %exp
 The strict equality operator (`===`) checks for both the type and value of the operands.
 
 These are identical here, the expression being `true`.
 %
-1 !== '1'
+
+```javascript
+1 !== "1";
+```
+
 %exp
 The negated strict equality operator (`!==`) will check for the operands' types (which are different) and value, returning the opposite value (`true` in our case as the types are different).
 %
-2 >= 1
+
+```javascript
+2 >= 1;
+```
+
 %exp
 Here, `2` is clearly **greater than or equal to** `1`.
 %
 
-0 == false
+```javascript
+0 == false;
+```
+
 %exp
 Here, automatic type conversion is done, `false` being converted to a number (specifically `0`), the expression being `true`.
 %
-1 != false
+
+```javascript
+1 != false;
+```
+
 %exp
 `false` is automatically converted to `0`, the expression evaluated in the end begin `1 != 0`, which is `true`.
 %
-```
+
+````
 ```false
 NaN == NaN
 %exp
@@ -98,4 +121,4 @@ The expression is clearly false as `2` is bigger than `1`.
 %exp
 This expression is false, `1` being **equal** to `1` and not **less than**.
 %
-```
+````

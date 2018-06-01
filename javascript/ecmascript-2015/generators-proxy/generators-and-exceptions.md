@@ -16,9 +16,11 @@ links:
   - '[MDN - Exception Handling](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator/throw){website}'
 
 ---
+
 # Generators and Exceptions
 
 ---
+
 ## Content
 
 All code inside a generator despite appearances works synchronously.
@@ -29,14 +31,12 @@ The example below will catch and log out any exceptions:
 
 ```javascript
 function* getGenerator() {
-  while(true) {
+  while (true) {
     try {
-      console.log("normal")
+      console.log("normal");
       yield;
-    } catch(err) {
-    console.log(
-      "something bad: " + err
-      );
+    } catch (err) {
+      console.log("something bad: " + err);
     }
   }
 }
@@ -53,44 +53,46 @@ g.throw("bad error");
 ```
 
 ---
+
 ## Practice
 
 What will be the output of the following generator calls?
 
 ```javascript
 function* myGen() {
-  while(true) {
+  while (true) {
     try {
-      yield 'enki'
-    } catch(err) {
-      console.log('Error')
+      yield "enki";
+    } catch (err) {
+      console.log("Error");
     }
   }
 }
 
-const g = myGen()
-g.next()
+const g = myGen();
+g.next();
 // { value: 'enki', done: false }
-g.throw('abc')
+g.throw("abc");
 // ???
 // ???
 ```
 
-* Error
-* { value: 'enki', done: false}
-* nothing
-* Error('abc')
-* abc
+- Error
+- { value: 'enki', done: false}
+- nothing
+- Error('abc')
+- abc
 
 ---
+
 ## Revision
 
 What syntax should be used to catch errors within generators?
 
 ???
 
-* try/catch
-* throw new Error
-* gen.catch()
-* gen.throw()
-* if/else
+- try/catch
+- throw new Error
+- gen.catch()
+- gen.throw()
+- if/else

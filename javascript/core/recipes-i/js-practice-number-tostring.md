@@ -26,6 +26,7 @@ links:
 # JS Practice Number `toString` and `toLocaleString`
 
 ---
+
 ## Exercise
 
 Practice using the JavaScript Numbers methods `toString()` and `toLocaleString()`

@@ -20,48 +20,50 @@ standards:
 tags:
 
   - introduction
-
 ---
 
 # Declaring Functions
 
 ---
+
 ## Content
 
 JavaScript supports a number of different ways of declaring functions.
 
-The most common is the *function declaration*:
+The most common is the _function declaration_:
 
-```
-//function to add 2 parameters
-function add(x, y){
-	return x + y;
+```javascript
+// function to add 2 parameters
+function add(x, y) {
+  return x + y;
 }
 
-add(1,2);//3
+add(1, 2); //3
 ```
 
 **Return Values**
 
 In the above example we specified that we would return the function argument x plus argument y.
 
-If we did not specify a return value in the above example then the function would return *undefined* e.g.
+If we did not specify a return value in the above example then the function would return _undefined_ e.g.
 
-```
-function add(x, y){
-	x + y;
+```javascript
+function add(x, y) {
+  x + y;
 }
 
-add(1,2);//undefined
+add(1, 2); // undefined
 ```
 
-Note that there are some more complex cases where a function will not return *undefined* when no return is specified.
+Note that there are some more complex cases where a function will not return _undefined_ when no return is specified.
 
 ---
+
 ## Practice
 
 What would the following snippet print?
-```
+
+```javascript
 function mult(x, y){
   var z = x * x;
 }
@@ -70,17 +72,19 @@ console.log(mult(2,3));
 ???
 ```
 
-* `undefined`
-* `4`
-* `9`
-* `6`
-* `error`
+- `undefined`
+- `4`
+- `9`
+- `6`
+- `error`
 
 ---
+
 ## Revision
 
 What would the following snippet print?
-```
+
+```javascript
 function add(x, y){
   var sum = x + y;
 }
@@ -89,7 +93,7 @@ console.log(add(2,3));
 ???
 ```
 
-* `undefined`
-* `5`
-* `false`
-* `error`
+- `undefined`
+- `5`
+- `false`
+- `error`

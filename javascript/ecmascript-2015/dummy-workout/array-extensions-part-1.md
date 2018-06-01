@@ -18,16 +18,18 @@ links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array){website}'
 
 ---
+
 # Array Extensions (Part 1)
 
 ---
+
 ## Content
 
 Arrays benefit from a number of extensions in ES6 let's look at these now.
 
 **includes**
 
-*includes* returns a boolean indicating with an array contains a specific value:
+_includes_ returns a boolean indicating with an array contains a specific value:
 
 ```
 var people = ["john", "bob"];
@@ -36,9 +38,9 @@ people.includes("john"); //true
 
 **find and findIndex**
 
-*find* and *findIndex* return the first value or index that satisfies an input matching function (sometimes called a predicate). 
+_find_ and _findIndex_ return the first value or index that satisfies an input matching function (sometimes called a predicate).
 
-If no elements match then *undefined* will be returned:
+If no elements match then _undefined_ will be returned:
 
 ```
 var people= [
@@ -48,9 +50,9 @@ var people= [
 ];
 
 function func(
-element, 
-index, 
-source) { 
+element,
+index,
+source) {
     return element.age>=18;
 }
 
@@ -58,7 +60,6 @@ var p = people.find(func);
 //Alex
 var p = people.findIndex(func);
 //0
-
 ```
 
 **fill**
@@ -67,5 +68,5 @@ Populates an array with a supplied value and optional start & end position and i
 
 ```
 [1,1,1].fill(5); //[5,5,5]
-[1,1,1,1,1].fill(5,1,3); //[1,5,5,1,1] 
+[1,1,1,1,1].fill(5,1,3); //[1,5,5,1,1]
 ```

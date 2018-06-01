@@ -21,16 +21,17 @@ tags:
   - introduction
   - workout
   - deep
-
 ---
+
 # Npm Scripting
 
 ---
+
 ## Content
 
 `npm` is a lot more than just a package manager for Node. It supports scripting using the `run-script` (or the abbreviated `run`) option.
 
-Scripts can be specified inside *package.json*:
+Scripts can be specified inside _package.json_:
 
 ```javascript
 {
@@ -49,7 +50,7 @@ $ npm run myScript
 firstScript
 ```
 
-Why is this great? Say you are using CSS preprocessors like *LESS* or *SASS* and you have to compile them into *CSS* files. All you have to do is specify `less` as a *devDependency* and include this script:
+Why is this great? Say you are using CSS preprocessors like _LESS_ or _SASS_ and you have to compile them into _CSS_ files. All you have to do is specify `less` as a _devDependency_ and include this script:
 
 ```json
 "scripts": {
@@ -64,7 +65,7 @@ Running:
 $ npm run build-less
 ```
 
-Will produce the *.css* file.
+Will produce the _.css_ file.
 
 Another cool thing about scripting is that you can combine multiple sub-scripts into a single one like so:
 
@@ -82,6 +83,7 @@ Another cool thing about scripting is that you can combine multiple sub-scripts 
 This will speed up the process as two subshells will be invoked to resolve each build command (asynchronously) because of the `&` token.
 
 ---
+
 ## Practice
 
 Fill in the following `package.json` file such that it has 2 scripts:
@@ -99,25 +101,26 @@ Fill in the following `package.json` file such that it has 2 scripts:
 }
 ```
 
-* scripts
-* test
-* jest
-* test:ci
-* npm run test
-* -- runInBand
-* script
-* node-scripts
-* testing
-* test --
-* runInBand
-* run test
-* npm
+- scripts
+- test
+- jest
+- test:ci
+- npm run test
+- -- runInBand
+- script
+- node-scripts
+- testing
+- test --
+- runInBand
+- run test
+- npm
 
 ---
+
 ## Revision
 
-
 Given the following is in your `package.json`, execute the script called `dailyStats`
+
 ```javascript
 {
   "name": "enki",
@@ -130,8 +133,8 @@ Given the following is in your `package.json`, execute the script called `dailyS
 
 ??? ??? ???
 
-* npm
-* run
-* dailyStats
-* script
-* exec
+- npm
+- run
+- dailyStats
+- script
+- exec

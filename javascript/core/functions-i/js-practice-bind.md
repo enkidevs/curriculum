@@ -23,6 +23,7 @@ links:
 # JS Practice `bind`
 
 ---
+
 ## Exercise
 
 Explore `bind` in JavaScript on Code Wars

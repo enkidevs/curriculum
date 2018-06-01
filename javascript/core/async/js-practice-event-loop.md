@@ -24,6 +24,7 @@ links:
 # JS Practice Event Loop
 
 ---
+
 ## Exercise
 
 Explore the JavaScript Event Loop on Code Wars

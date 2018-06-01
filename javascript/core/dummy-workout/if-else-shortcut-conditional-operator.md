@@ -19,46 +19,48 @@ links:
 
   - >-
     [developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Conditional_Operator){website}
-
 ---
+
 # `if/else` shortcut `conditional operator`
 
 ---
+
 ## Content
 
 Rather than using standard `if/else` notation such as:
 
-```
+```javascript
 var count = 101;
 var stop;
 if (count > 100) {
   stop = true;
-}
-else {
+} else {
   stop = false;
 }
 // stop = true
 ```
+
 It is possible to use a `Condition (ternary)` operator:
 
-```
+```javascript
 var count = 99;
-var stop = (count > 100) ? true : false;
+var stop = count > 100 ? true : false;
 // stop = false
 ```
 
 ---
+
 ## Practice
 
 ```javascript
-if(animal==='lion'){
-   run = true;
-}else{
-   run = false;
+if (animal === "lion") {
+  run = true;
+} else {
+  run = false;
 }
 ```
 
-How would you express this using 
+How would you express this using
 a conditional operator?
 
 ```javascript
@@ -66,23 +68,24 @@ var animal = 'lion';
 var run = (animal === 'lion')? true:???;
 ```
 
-* 'false'
-* 'undefined'
-* 'null'
-* true
+- 'false'
+- 'undefined'
+- 'null'
+- true
 
 ---
+
 ## Revision
 
 ```javascript
-if(animal==='lion'){
-   run = true;
-}else{
-   run = false;
+if (animal === "lion") {
+  run = true;
+} else {
+  run = false;
 }
 ```
 
-How would you express this using 
+How would you express this using
 a conditional operator?
 
 ```javascript
@@ -90,7 +93,7 @@ var animal = 'lion';
 var run = (animal === 'lion')? true:???;
 ```
 
-* 'false'
-* 'undefined'
-* 'null'
-* true
+- 'false'
+- 'undefined'
+- 'null'
+- true

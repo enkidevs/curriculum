@@ -27,6 +27,7 @@ links:
 # JS Practice Array `splice` and `slice`
 
 ---
+
 ## Exercise
 
 Practice using the JavaScript Array methods `splice()` and `slice()`

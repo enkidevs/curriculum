@@ -27,6 +27,7 @@ links:
 # JS Practice While Loop
 
 ---
+
 ## Exercise
 
 Practice using JavaScript While-Loops on Code Wars

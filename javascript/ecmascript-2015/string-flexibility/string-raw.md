@@ -15,9 +15,11 @@ links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/raw){website}'
 
 ---
+
 # String.raw
 
 ---
+
 ## Content
 
 `String.raw` is used to work with template strings and is best explained with an example:
@@ -45,6 +47,7 @@ String.raw`Line1\nLine2`;
 ```
 
 ---
+
 ## Practice
 
 Fill in the gaps such that the `log` statement makes sense:
@@ -56,21 +59,22 @@ console.log(
 // A\nB
 ```
 
-* raw
-* `
-* raw(
-* `;
-* )
+- raw
+- `
+- raw(
+- `;
+- )
 
 ---
+
 ## Revision
 
 Which `String` method is used to get the literal value of the string (without applying characters such as `\n`)?
 
 ???
 
-* raw
-* literal
-* format
-* rawLiteral
-* unformat
+- raw
+- literal
+- format
+- rawLiteral
+- unformat

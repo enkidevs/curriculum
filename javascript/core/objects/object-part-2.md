@@ -18,11 +18,12 @@ standards:
 
 tags:
   - introduction
-
 ---
+
 # Object - Part 2
 
 ---
+
 ## Content
 
 Object's properties can also be functions.
@@ -31,12 +32,12 @@ For example we might add a function to our person object to print out a greeting
 
 ```javascript
 var per = {
-    firstName: "alex",
-    lastName: "smith",
+  firstName: "alex",
+  lastName: "smith",
 
-    sayHi: function(){
-       console.log("hello");
-    }
+  sayHi: function() {
+    console.log("hello");
+  }
 };
 ```
 
@@ -54,18 +55,19 @@ It is common to use functions to create new objects.
 This allows you to encapsulate object creation similar to a class constructor:
 
 ```javascript
-function Person(firstName,lastName){
+function Person(firstName, lastName) {
   this.firstName = firstName;
   this.lastName = lastName;
 }
 
-var p1 = new Person("john","smith");
-var p2 = new Person("joe","smith");
+var p1 = new Person("john", "smith");
+var p2 = new Person("joe", "smith");
 ```
 
 You can even implement inheritance in JavaScript by building on this but this is a more advanced technique.
 
 ---
+
 ## Practice
 
 Fill in the gaps of the following constructor function such that the code below it works as intended:
@@ -85,26 +87,27 @@ flash.superpowers.greet()
 // Hello there
 ```
 
-* Superhero
-* name
-* superpowers
-* greet
-* function
-* hello
-* console
-* log
-* Flash
-* new
-* superhero
-* powers
+- Superhero
+- name
+- superpowers
+- greet
+- function
+- hello
+- console
+- log
+- Flash
+- new
+- superhero
+- powers
 
 ---
+
 ## Revision
 
 You can invoke an object's method by writing:
 
 ???
 
-* ob.methodName();
-* ob.methodName;
-* methodName(ob);
+- ob.methodName();
+- ob.methodName;
+- methodName(ob);

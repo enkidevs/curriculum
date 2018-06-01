@@ -28,20 +28,27 @@ tags:
 # You can't handle the truth!
 
 ---
+
 ## Content
 
-A value `v` is called *truthy* if it converts to `true` when used in an `if` clause.
+A value `v` is called _truthy_ if it converts to `true` when used in an `if` clause.
 
 This mean that
+
+```javascript
+if (v) {
+  console.log("yes");
+}
 ```
-if (v) { console.log('yes'); }
-```
+
 will print `yes` if and only if `v` is truthy.
 
 ---
+
 ## Game Content
 
 Falsy:Truthy
+
 ```true
 true
 %exp
@@ -97,7 +104,6 @@ Any array in JavaScript, being it empty or not, will always be true.
 %exp
 Any object will be evaluated to truthy.
 %
-
 ```
 
 ```false
@@ -150,5 +156,4 @@ The length of an empty array will be undefined, so the expression will evaluate 
 %exp
 This expression is undefined in JavaScript, so it will evaluate to false.
 %
-
 ```

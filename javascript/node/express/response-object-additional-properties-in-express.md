@@ -21,9 +21,11 @@ links:
 parent: easy-way-to-deliver-html-pages-with-express
 
 ---
+
 # response object additional properties in **Express**
 
 ---
+
 ## Content
 
 **Express** framework adds many useful properties or methods to the `response` object.
@@ -34,7 +36,7 @@ Send a response to the client:
 
 ```javascript
 res.send(body);
-res.send(status,body);
+res.send(status, body);
 //default content type is "text/html"
 ```
 
@@ -48,24 +50,27 @@ res.json(status, json);
 Send different content depending on the Accept request header:
 
 ```javascript
-res.format({'text/plain': 'hey',
-  'text/html': '<b>hey</b>'});
+res.format({
+  "text/plain": "hey",
+  "text/html": "<b>hey</b>"
+});
 ```
 
-Using `res.locals` one can get an object containing the default context for rendering views.  Rendering a view using the configured templating engine can be done using:
+Using `res.locals` one can get an object containing the default context for rendering views. Rendering a view using the configured templating engine can be done using:
 
 ```javascript
-res.render(view,[locals],callback);
+res.render(view, [locals], callback);
 ```
 
 If middleware support is present, client cookies can be set/cleared:
 
 ```javascript
-res.cookie(name,value,[options]);
-res.clearCookie(name,[options]);
+res.cookie(name, value, [options]);
+res.clearCookie(name, [options]);
 ```
 
 ---
+
 ## Practice
 
 Consider the response object proposed by the Express library.
@@ -82,21 +87,22 @@ If an error happened we would like to send a "There is an error" message to the 
 res.???(???, ???)
 ```
 
-* clearCookie
-* 'my-rogue-cookie'
-* send
-* 'There is an error'
-* 503
-* 404
-* eraseCookie
-* emptyCookie
-* cookie
-* myRogueCookie
-* back
-* respond
-* error
+- clearCookie
+- 'my-rogue-cookie'
+- send
+- 'There is an error'
+- 503
+- 404
+- eraseCookie
+- emptyCookie
+- cookie
+- myRogueCookie
+- back
+- respond
+- error
 
 ---
+
 ## Revision
 
 Send the given JSON file back to the client user Express's `response` object:
@@ -107,12 +113,12 @@ var myJson; // equal to json we want to send
 res.???(???);
 ```
 
-* json
-* myJson
-* status
-* send
-* format
-* render
-* cookie
-* toJSON
-* sendJSON
+- json
+- myJson
+- status
+- send
+- format
+- render
+- cookie
+- toJSON
+- sendJSON

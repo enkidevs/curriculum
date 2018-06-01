@@ -15,19 +15,21 @@ links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){website}'
 
 ---
+
 # Why use Symbols 2
 
 ---
+
 ## Content
 
-Probably the primary use of symbols is to introduce changes into EcmaScript. We can this in action with *iterators*.
+Probably the primary use of symbols is to introduce changes into EcmaScript. We can this in action with _iterators_.
 
-**Symbol.iterator** is used to identify something that can be iterated over. It is used by language features such as *for of* loops to understand how to work with an object.
+**Symbol.iterator** is used to identify something that can be iterated over. It is used by language features such as _for of_ loops to understand how to work with an object.
 
 Don't worry too much about what the below code does just understand we are using a special inbuilt (referred to as well known) symbol to access the iterator functionality:
 
 ```javascript
-let p = ["alex","bill","john"];
+let p = ["alex", "bill", "john"];
 let it = p[Symbol.iterator]();
 it.next().value; //alex
 it.next().value; //bill
@@ -45,6 +47,7 @@ Symbol.keyFor(Symbol.iterator);
 Symbols can also implement a kind of limited (they are still accessible via other means) privacy – let's discuss this next.
 
 ---
+
 ## Practice
 
 What special `Symbol` is used internally to implement the iteration protocol?
@@ -58,31 +61,30 @@ console.log(it.next().value)
 // b
 ```
 
-* Symbol
-* iterator
-* match
-* new
-* it
-* iterate
-* symbol
-* Symbol(Symbol
-* iterator)
-* iterate)
+- Symbol
+- iterator
+- match
+- new
+- it
+- iterate
+- symbol
+- Symbol(Symbol
+- iterator)
+- iterate)
 
 ---
+
 ## Revision
 
 What will the following call to the Symbol Registry return?
 
 ```javascript
-console.log(
-  Symbol.keyFor(Symbol.iterator)
-)
+console.log(Symbol.keyFor(Symbol.iterator));
 // ???
 ```
 
-* undefined
-* null
-* "Iterator"
-* "iterate"
-* "internalIterator"
+- undefined
+- null
+- "Iterator"
+- "iterate"
+- "internalIterator"

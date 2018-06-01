@@ -14,14 +14,15 @@ links:
   - '[facebook.github.io](https://facebook.github.io/react/tips/props-in-getInitialState-as-anti-pattern.html){website}'
 
 parent: custom-proptype-s-to-be-required
-
 ---
+
 # Props in getInitialState
 
 ---
+
 ## Content
 
-Passing down props from the parent to generate state in `getInitialState` can lead to duplication of *source of truth*, where the real data is located. This is considered an "anti-pattern".
+Passing down props from the parent to generate state in `getInitialState` can lead to duplication of _source of truth_, where the real data is located. This is considered an "anti-pattern".
 
 An example of a duplication of source of truth:
 
@@ -48,31 +49,35 @@ Computing values on-the-fly ensures that values don't get out of sync later and 
 ```javascript
 var OnTheFly = React.createClass({
   render: function() {
-    return <div>{
-      'Country: ' + this.props.country
-    }</div>;
+    return (
+      <div>
+        {"Country: " + this.props.country}
+      </div>
+    );
   }
 });
 
 ReactDOM.render(
   <OnTheFly country="England" />,
-  document.getElementByID('foo')
+  document.getElementByID("foo")
 );
 ```
 
 ---
+
 ## Revision
 
 What do you think about generating state from props in `getInitialState`?
 
 ???
 
-* it's an anti-pattern
-* it's a good practice
-* can cause application crashes
-* it's useful when working with many props
+- it's an anti-pattern
+- it's a good practice
+- can cause application crashes
+- it's useful when working with many props
 
 ---
+
 ## Practice
 
 Which of the following two components do you think employs the best practice for passing props?
@@ -98,13 +103,11 @@ var B = React.createClass({
     }</div>;
   }
 });
-
 ```
 
 ???
 
-* A
-* B
-* both
-* neither
-
+- A
+- B
+- both
+- neither

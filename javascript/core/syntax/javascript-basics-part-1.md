@@ -16,11 +16,12 @@ standards:
 
 tags:
   - introduction
-
 ---
+
 # JavaScript Basics - Part 1
 
 ---
+
 ## Content
 
 Like most programming languages, JavaScript has a number of rules its code must adhere to.
@@ -40,8 +41,8 @@ When naming any function, property or variable, the first character must be a le
 After the first character you are free to use numbers, letters, dollar signs or underscores.
 
 ```javascript
-var name = "Enki"; //valid
-var 2Company = "Enki"; //not valid
+var name = "Enki"; // valid
+var 2Company = "Enki"; // not valid
 ```
 
 ### Comments
@@ -55,10 +56,11 @@ As a single line comment:
 You can also add single line comments to the same line as other code:
 
 ```javascript
-var company="enki"; //define company
+var company = "enki"; //define company
 ```
 
 Or if you have more text you can use a block comment:
+
 ```javascript
 /*
 I am a block comment
@@ -66,17 +68,19 @@ I am a block comment
 ```
 
 ---
+
 ## Practice
 
-What syntax is used in *JavaScript* for **single line** comments?
+What syntax is used in _JavaScript_ for **single line** comments?
 
 ???
 
-* //
-* `/* */`
-* `#`
+- //
+- `/* */`
+- `#`
 
 ---
+
 ## Revision
 
 Is the following line of code **valid**?
@@ -86,11 +90,13 @@ var 777jackpot = "jackpot";
 // line is ???
 ```
 
-* not valid
-* valid
+- not valid
+- valid
 
 ---
+
 ## Quiz
+
 ### which of the following is a valid comment?
 
 ```javascript
@@ -99,9 +105,9 @@ var 777jackpot = "jackpot";
 (3. /* third comment */
 ```
 
- ???
+???
 
-* 1, 2 & 3
-* 1
-* 1 & 3
-* 2
+- 1, 2 & 3
+- 1
+- 1 & 3
+- 2

@@ -24,9 +24,11 @@ links:
 parent: listening-to-events-just-once
 
 ---
+
 # Synchronous event delivery
 
 ---
+
 ## Content
 
 Node is asynchronous, however as no I/O is involved in emitting events, the delivery of events is treated synchronously. Therefore:
@@ -54,22 +56,25 @@ console.log(‘post hi’);
 ```
 
 Gives the following output:
+
 ```bash
 pre hi
 hi
 hi again
 post hi
 ```
+
 Remember that when emitting events, listeners will be called before `emitter.emit` returns.
 
 ---
+
 ## Revision
 
 How is the delivery of events treated in Node?
 
 ???
 
-* synchronously
-* asynchronously
-* instantly
-* random
+- synchronously
+- asynchronously
+- instantly
+- random

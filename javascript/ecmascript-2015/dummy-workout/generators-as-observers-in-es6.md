@@ -18,48 +18,56 @@ links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}'
 
 ---
+
 # Generators as observers in ES6
 
 ---
+
 ## Content
 
 A generator can pause at a `yield` point until it receives input. This is described as an **observer**:
+
 ```
 function* observer() {
-       console.log(`1. ${yield}`); 
+       console.log(`1. ${yield}`);
        console.log(`2. ${yield}`);
        return 'result';
     }
 ```
+
 `next()` is used to send values:
+
 ```
 // create generator object
-let genObj = observer(); 
+let genObj = observer();
 genObj.next(); // starts the observer
 genObj.next('E'); // 1. E
 genObj.next('n'); // 2. n
 // returns: { value: 'result', done: true }
 ```
+
 `return()` terminates the generator and `throw()` signals an error.
 
 ---
+
 ## Practice
 
 Which of the following statements is used to send a value? ???
 
-* next
-* return
-* throw
-* yield
+- next
+- return
+- throw
+- yield
 
 ---
+
 ## Revision
 
 What statement will terminate a generator?
 
 ???
 
-* return
-* yield
-* next
-* throw
+- return
+- yield
+- next
+- throw

@@ -17,9 +17,11 @@ links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Collator){website}'
 
 ---
+
 # Internationalization & Localization
 
 ---
+
 ## Content
 
 `Collator` is an object that provides locale-specific string comparisons. It's aware of Unicode.
@@ -27,7 +29,7 @@ links:
 To sort through a list of letters in two different languages:
 
 ```javascript
-var list = [ "ä", "a", "z" ];
+var list = ["ä", "a", "z"];
 var i10nDE = new Intl.Collator("de");
 var i10nSV = new Intl.Collator("sv");
 ```
@@ -45,23 +47,25 @@ console.log(list.sort(i10nSV.compare));
 ```
 
 ---
+
 ## Practice
 
-Create a `Collator` based on *German* language:
+Create a `Collator` based on _German_ language:
 
 ```javascript
 var i10nDE = new ???.???("de");
 ```
 
-* Intl
-* Collator
-* Language
-* International
-* Languages
-* String
-* Compare
+- Intl
+- Collator
+- Language
+- International
+- Languages
+- String
+- Compare
 
 ---
+
 ## Revision
 
 Which method can you use to compare the ordering of two characters in a specific language, using the `Collator` class?
@@ -75,10 +79,10 @@ console.log(
 // + 1
 ```
 
-* Collator
-* compare
-* check
-* sort
-* sign
-* after
-* before
+- Collator
+- compare
+- check
+- sort
+- sign
+- after
+- before

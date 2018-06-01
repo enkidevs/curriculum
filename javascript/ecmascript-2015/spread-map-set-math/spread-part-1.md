@@ -14,9 +14,11 @@ links:
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Spread_operator){website}'
 
 ---
+
 # Spread (Part 1)
 
 ---
+
 ## Content
 
 The spread operator automatically assigns (or spreads out) the contents of an expression to multiple arguments, elements or variables which can save you some tedious assignment code.
@@ -33,7 +35,7 @@ function func(x, y, z){
 We could of course call the function with values from the array as follows:
 
 ```javascript
-func(test[0],test[1],test[2]);
+func(test[0], test[1], test[2]);
 ```
 
 However we can use the spread operator to assign (or spread out) these values to the x, y and z parameters without explicitly defining where they should be assigned:
@@ -55,6 +57,7 @@ someFunc(...test, ...test);
 This saves some tedious and potentially error prone assignment code.
 
 ---
+
 ## Practice
 
 Consider the function:
@@ -68,8 +71,8 @@ function compute(a, b, c, d) {
 If you have two arrays:
 
 ```javascript
-const arr1 = [2, 5]
-const arr2 = [10, 30]
+const arr1 = [2, 5];
+const arr2 = [10, 30];
 ```
 
 Complete the following function call such that the outputted value is correct:
@@ -81,16 +84,17 @@ console.log(
 // 82
 ```
 
-* ...
-* arr1
-* ...arr2
-* arr2
-* ...arr1
-* ,
-* [arr1]
-* [arr2]
+- ...
+- arr1
+- ...arr2
+- arr2
+- ...arr1
+- ,
+- [arr1]
+- [arr2]
 
 ---
+
 ## Revision
 
 Complete the following code snippet such that the log statements are correct:
@@ -105,16 +109,15 @@ const arr2 = [5, 6]
 console.log(??? ??? ???)
 // 9
 console.log(??? ???)
-
 ```
 
-* addNumbers(
-* ...
-* arr1)
-* addNumbers
-* (...arr2)
-* arr2)
-* addNumbers(...)
-* addNumbers(arr1)
-* arr2
-* arr1
+- addNumbers(
+- ...
+- arr1)
+- addNumbers
+- (...arr2)
+- arr2)
+- addNumbers(...)
+- addNumbers(arr1)
+- arr2
+- arr1

@@ -26,6 +26,7 @@ links:
 # JS Practice Error Throwing
 
 ---
+
 ## Exercise
 
 Practice throwing JavaScript Errors on Code Wars

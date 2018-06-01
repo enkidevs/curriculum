@@ -20,16 +20,18 @@ links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/values){website}'
 
 ---
+
 # Array Extensions
 
 ---
+
 ## Content
 
 In ES6 the array type is expanded with 3 additional properties:
 
-* keys (the indexes)
-* values
-* entries
+- keys (the indexes)
+- values
+- entries
 
 These properties return a special type of object called an **iterator**.
 
@@ -56,25 +58,29 @@ iEntries.next();
 ```
 
 ---
+
 ## Practice
 
 What will the following code do?
 
 ```javascript
-var enki = ["e", "n", "k", "i"]
+var enki = ["e", "n", "k", "i"];
 
-var enkiIterator = enki.keys()
+var enkiIterator = enki.keys();
 
-console.log(enki[enkiIterator.next().value])
+console.log(
+  enki[enkiIterator.next().value]
+);
 // ???
 ```
 
-* log e
-* log en
-* raise an error
-* log undefined
+- log e
+- log en
+- raise an error
+- log undefined
 
 ---
+
 ## Revision
 
 Fill in the gaps such that an iterator will be created from the given array and the code won't raise any errors. The last gap should be completed with the right output of the expression above:
@@ -94,19 +100,19 @@ console.log(???.value)
 // ???
 ```
 
-* entries
-* next
-* value
-* 1
-* second
-* [1, 1]
-* [1, 4]
-* [0, 1]
-* first
-* keys
-* iterator
-* toIterator
-* key
-* 2
-* 3
-* 0
+- entries
+- next
+- value
+- 1
+- second
+- [1, 1]
+- [1, 4]
+- [0, 1]
+- first
+- keys
+- iterator
+- toIterator
+- key
+- 2
+- 3
+- 0

@@ -16,9 +16,11 @@ links:
 
 
 ---
+
 # Introducing Generators
 
 ---
+
 ## Content
 
 ES6 provides an easier way of working with iterators called **generators**.
@@ -40,9 +42,9 @@ When the generator is next called, it will return to the next statement just aft
 The below example shows one way to implement our 1-5 iterator as a generator:
 
 ```javascript
-function* getGenerator(){
+function* getGenerator() {
   var currentNumber = 1;
-  while(currentNumber < 6) {
+  while (currentNumber < 6) {
     yield currentNumber++;
   }
 }
@@ -58,6 +60,7 @@ gen.next();
 ```
 
 ---
+
 ## Practice
 
 Fill in the missing gaps of the following generator function:
@@ -74,25 +77,26 @@ gen.???;
 // {value: undefined, done: true}
 ```
 
-* function*
-* yield
-* next()
-* isDone()
-* return
-* done()
-* function
-* () =>
-* class
-* generator
+- function\*
+- yield
+- next()
+- isDone()
+- return
+- done()
+- function
+- () =>
+- class
+- generator
 
 ---
+
 ## Revision
 
 Can generator functions maintain their execution context between method calls?
 
 ???
 
-* Yes
-* No, because the memory needed would be to big
-* No, because of the JavaScript memory model
-* Only if the calls are done one after the other
+- Yes
+- No, because the memory needed would be to big
+- No, because of the JavaScript memory model
+- Only if the calls are done one after the other

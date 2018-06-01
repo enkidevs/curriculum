@@ -28,6 +28,7 @@ links:
 # JS Practice Sort 2
 
 ---
+
 ## Exercise
 
 Write a JavaScript function that will sort Strings by their last character

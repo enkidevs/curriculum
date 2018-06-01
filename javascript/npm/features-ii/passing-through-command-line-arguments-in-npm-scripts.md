@@ -18,11 +18,12 @@ tags:
   - introduction
   - workout
   - deep
-
 ---
+
 # Passing through command line arguments in npm scripts
 
 ---
+
 ## Content
 
 `npm` package manager provides a feature that lets users pass in command line arguments using the `--` characters. Note that there is a blank space after the two dashes.
@@ -37,7 +38,7 @@ For example, if we have the following scripts:
 }
 ```
 
-When running either `start:test`  or `start:stage` scripts, the first command line argument provided will be `4000` or `5000` depending on our choice.
+When running either `start:test` or `start:stage` scripts, the first command line argument provided will be `4000` or `5000` depending on our choice.
 
 To access these arguments the `process.argv` array can be used. In our case `process.argv[2]` represents the first argument provided as `[0 ]` is `node` and `[1 ]` is the path to the `.js` file.
 
@@ -48,6 +49,7 @@ $ npm run someCommand -- --arg=value
 ```
 
 ---
+
 ## Practice
 
 Consider an npm script called `doSomething`. Run it via npm, passing 'enki' as an argument to it:
@@ -56,16 +58,17 @@ Consider an npm script called `doSomething`. Run it via npm, passing 'enki' as a
 $ ??? ??? ??? ??? ???
 ```
 
-* npm
-* run
-* doSomething
-* --
-* "enki"
-* add
-* runWithArgs
-* process.argv[0]
+- npm
+- run
+- doSomething
+- --
+- "enki"
+- add
+- runWithArgs
+- process.argv[0]
 
 ---
+
 ## Revision
 
 How would you pass to the following npm script call a "test" argument?
@@ -74,9 +77,9 @@ How would you pass to the following npm script call a "test" argument?
 $ npm run myScript ??? ???
 ```
 
-* --
-* "test"
-* add
-* argvs
-* arg
-* process.argv[0]
+- --
+- "test"
+- add
+- argvs
+- arg
+- process.argv[0]

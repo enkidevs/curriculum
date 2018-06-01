@@ -15,9 +15,11 @@ links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){website}'
 
 ---
+
 # Symbol
 
 ---
+
 ## Content
 
 ES 6 introduces a new primitive type - **Symbol**.
@@ -38,7 +40,7 @@ During creation you can also set a description for the symbol which is useful ma
 
 ```javascript
 var sym = Symbol("Enki");
-console.log(sym)
+console.log(sym);
 // Symbol(Enki)
 ```
 
@@ -63,56 +65,58 @@ This probably is not what you would expect but remember Symbols are always uniqu
 If you want to be able to access the same symbol using a key, we can use the Symbol registry which we will discuss next.
 
 ---
+
 ## Practice
 
 What will be the output of the following statements ?
 
 ```javascript
-const sym1 = Symbol('enki')
-console.log(sym1)
+const sym1 = Symbol("enki");
+console.log(sym1);
 // ???
 
-console.log(typeof sym1)
+console.log(typeof sym1);
 // ???
 
-const sym2 = Symbol('enki')
-console.log(sym1 === sym2)
+const sym2 = Symbol("enki");
+console.log(sym1 === sym2);
 // ???
 ```
 
-* Symbol(enki)
-* "symbol"
-* false
-* true
-* error
-* Enki
-* "enki"
-* Symbol("Enki")
-* "number"
-* "primitive"
+- Symbol(enki)
+- "symbol"
+- false
+- true
+- error
+- Enki
+- "enki"
+- Symbol("Enki")
+- "number"
+- "primitive"
 
 ---
+
 ## Revision
 
 How do you create a `Symbol` in ES6?
 
 ```javascript
 // a
-const sym = new Symbol('enki')
+const sym = new Symbol("enki");
 
 // b
-const sym = Symbol.create('enki')
+const sym = Symbol.create("enki");
 
 // c
-const sym = Symbol('enki')
+const sym = Symbol("enki");
 
 // d
-const sym = Symbol.new('enki')
+const sym = Symbol.new("enki");
 ```
 
 ???
 
-* c
-* a
-* b
-* d
+- c
+- a
+- b
+- d

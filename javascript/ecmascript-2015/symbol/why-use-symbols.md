@@ -15,16 +15,18 @@ links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){website}'
 
 ---
+
 # Why use symbols?
 
 ---
+
 ## Content
 
 As symbols are always unique they are great for library authors to defining values without fear of overwriting anything existing e.g.
 
 ```javascript
 var companyKey = Symbol();
-var obj = {}
+var obj = {};
 window[companyKey] = "Enki";
 ```
 
@@ -47,24 +49,26 @@ const anotherDiscountLevel = "high";
 Probably Symbols most important purpose is to introduce non-breaking changes to JavaScript let's talk about this next.
 
 ---
+
 ## Practice
 
 Which of the following statements is false about Symbols?
 
 ???
 
-* Symbols can be overwritten
-* Symbols can be used as constants
-* Symbols are immutable
+- Symbols can be overwritten
+- Symbols can be used as constants
+- Symbols are immutable
 
 ---
+
 ## Revision
 
 Which of the following is true about Symbols?
 
 ???
 
-* Symbols are unique and immutable
-* Symbols can be overwritten
-* Symbols can't be used by libraries
-* Symbols are unique and mutable
+- Symbols are unique and immutable
+- Symbols can be overwritten
+- Symbols can't be used by libraries
+- Symbols are unique and mutable

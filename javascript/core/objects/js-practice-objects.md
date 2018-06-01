@@ -35,6 +35,7 @@ links:
 # JS Practice Objects
 
 ---
+
 ## Exercise
 
 Practice using JavaScript Objects on Code Wars

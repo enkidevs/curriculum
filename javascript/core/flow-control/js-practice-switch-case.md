@@ -26,6 +26,7 @@ links:
 # JS Practice Switch Case
 
 ---
+
 ## Exercise
 
 Practice using JavaScript Switch-Cases on Code Wars

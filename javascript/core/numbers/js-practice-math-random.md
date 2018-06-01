@@ -25,6 +25,7 @@ links:
 # JS Practice Math `random`
 
 ---
+
 ## Exercise
 
 Practice using the JavaScript Math method `random()`

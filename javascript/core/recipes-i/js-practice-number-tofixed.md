@@ -27,6 +27,7 @@ links:
 # JS Practice Number `toFixed`, `toExponential` and `toPrecision`
 
 ---
+
 ## Exercise
 
 Practice using the JavaScript Numbers methods `toFixed()`, `toExponential()` and `toPrecision()`

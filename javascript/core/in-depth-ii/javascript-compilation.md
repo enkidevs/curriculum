@@ -30,15 +30,12 @@ tags:
   - workout
 
   - obscura
-
-
-
-
 ---
 
 # JavaScript compilation
 
 ---
+
 ## Content
 
 A common **misconception** is that JavaScript is **not compiled**.
@@ -50,24 +47,26 @@ The compiler looks for variable and function **declarations** and registers them
 JavaScript is **function** scoped.
 
 For example:
-```
+
+```javascript
 var a = 2; // a is in global
 var b = 3; // b is in global
-function fun(){ // fun is in global
-    var a = 2; // a is in fun
-    function yes(){ // yes is in fun
-        var b = 3; // b is in yes
-    }
+function fun() {
+  // fun is in global
+  var a = 2; // a is in fun
+  function yes() {
+    // yes is in fun
+    var b = 3; // b is in yes
+  }
 }
-
-
-
 ```
+
 Then the code is executed.
 
 There are many sophisticated compilation techniques such as **jit** compilation, which only compiles a function if it reads a call to that function in the code.
 
 ---
+
 ## Practice
 
 Find the variable scopes in the following code:
@@ -76,39 +75,42 @@ Find the variable scopes in the following code:
 var flag = true; //flag is ???
 
 function test() {
-   var x;
-   function test2() { // test2 is in ???
-      var y;
-   }
-}
-```
-
-
-* global
-* test
-* test2
-* document
-* inline
-* var
-* project
-
----
-## Revision
-
-Find each variable scope in the following code:
-```javascript
-var a = 1; // a is in global
-var b = 2; // b is in ???
-function foo(){ // foo is in global
-  var a = 2; // a is in foo
-  function fee(){ // fee is in ???
-  var b = 3; // b is in ???
+  var x;
+  function test2() {
+    // test2 is in ???
+    var y;
   }
 }
 ```
 
-* global
-* foo
-* fee
-* local
+- global
+- test
+- test2
+- document
+- inline
+- var
+- project
 
+---
+
+## Revision
+
+Find each variable scope in the following code:
+
+```javascript
+var a = 1; // a is in global
+var b = 2; // b is in ???
+function foo() {
+  // foo is in global
+  var a = 2; // a is in foo
+  function fee() {
+    // fee is in ???
+    var b = 3; // b is in ???
+  }
+}
+```
+
+- global
+- foo
+- fee
+- local

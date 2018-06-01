@@ -27,6 +27,7 @@ links:
 # JS Practice Math `round`, `ceil` and `floor`
 
 ---
+
 ## Exercise
 
 Practice using the JavaScript Math methods `round()`, `ceil()` and `floor()`

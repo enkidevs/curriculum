@@ -22,24 +22,26 @@ links:
   - '[thenodeway.io](http://thenodeway.io/posts/designing-factories/){website}'
 
 ---
+
 # Factories design pattern
 
 ---
+
 ## Content
 
-In order to avoid custom object creation with different arguments, **factories** can be used instead. Their usage is obvious when working with complex constructors or you want to avoid *copypasta*.
+In order to avoid custom object creation with different arguments, **factories** can be used instead. Their usage is obvious when working with complex constructors or you want to avoid _copypasta_.
 
-Factories will create objects for you so *you don't have to*.
+Factories will create objects for you so _you don't have to_.
 
 Basic factories pattern:
 
 ```javascript
 //enki.js
-function Enki (args) {
+function Enki(args) {
   this.args = args;
 }
 
-function create (args) {
+function create(args) {
   //args should be modified here
   return new Enki(args);
 }
@@ -48,6 +50,7 @@ module.exports.create = create;
 ```
 
 ---
+
 ## Practice
 
 Fill in the gaps of the following snippets. First you need to define you `Enki` factory which exposes `createWithNumber` and `createWithString`:
@@ -86,26 +89,27 @@ const e1 = ???(42)
 const e2 = ???.???('55')
 ```
 
-* new Enki
-* return new Enki
-* Enki.createWithNumber
-* Enki
-* createWithNumberString
-* Enki.createWithNumberString
-* return new
-* Enki()
-* create
-* factory
-* init
+- new Enki
+- return new Enki
+- Enki.createWithNumber
+- Enki
+- createWithNumberString
+- Enki.createWithNumberString
+- return new
+- Enki()
+- create
+- factory
+- init
 
 ---
+
 ## Revision
 
 Which of the following statements about the factory design pattern do you consider false?
 
 ???
 
-* factory methods need to return multiple instances of the object in one call
-* factories begin to be useful when working with complex constructors
-* specific methods will create objects instead of the constructor
-* factory methods will call the constructor themselves
+- factory methods need to return multiple instances of the object in one call
+- factories begin to be useful when working with complex constructors
+- specific methods will create objects instead of the constructor
+- factory methods will call the constructor themselves

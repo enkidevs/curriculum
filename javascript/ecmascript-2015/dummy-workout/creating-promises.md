@@ -37,9 +37,11 @@ links:
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
 
 ---
+
 # Creating promises
 
 ---
+
 ## Content
 
 The ES6 way to create promises is with the `new Promise()` constructor and two callbacks, `resolve` and `reject`, used to alter the promise state.
@@ -83,6 +85,7 @@ myRequestionFn('/my-api').then(data => {
 ```
 
 ---
+
 ## Revision
 
 What are the `Promise()` callbacks?
@@ -91,10 +94,9 @@ What are the `Promise()` callbacks?
 
 ???
 
-*`resolve`
-*`reject`
-*`response`
-*`request`
-*`url`
-*`pass`
-*`fail`
+_`resolve`
+_`reject`
+_`response`
+_`request`
+_`url`
+_`pass` \*`fail`

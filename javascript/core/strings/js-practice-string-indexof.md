@@ -27,6 +27,7 @@ links:
 # JS Practice String `indexOf`, `lastIndexOf` and `search`
 
 ---
+
 ## Exercise
 
 Practice using the JavaScript String methods `indexOf()`, `lastIndexOf()` and `search()`

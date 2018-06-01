@@ -27,6 +27,7 @@ links:
 # JS Practice Array `reverse` and `sort`
 
 ---
+
 ## Exercise
 
 Practice using the JavaScript Array methods `reverse()` and `sort()`

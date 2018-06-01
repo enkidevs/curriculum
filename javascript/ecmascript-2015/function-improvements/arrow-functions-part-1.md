@@ -32,6 +32,7 @@ links:
 # Arrow Functions (Part 1)
 
 ---
+
 ## Content
 
 **Arrow functions** (called lambda or "fat arrow" functions in some other languages) provide a shorthand syntax to declare function expression.
@@ -60,9 +61,11 @@ add(2,4); //6
 ```
 
 ---
+
 ## Practice
 
 Write a function that will take the array `planets` and output `[5, 6, 5, 7]`:
+
 ```
 foo() => {
   var planets = [
@@ -76,12 +79,13 @@ foo() => {
 }
 ```
 
-* `planet`
-* `return planet.length`
-* `planet.length`
-* `{planet}`
+- `planet`
+- `return planet.length`
+- `planet.length`
+- `{planet}`
 
 ---
+
 ## Revision
 
 Filter out all of the odd numbers,
@@ -94,10 +98,8 @@ var integers = [1,2,3,4,5,6,7,8,9];
 integers.filter(???);
 ```
 
-
-* `(n) => {return n % 2 == 0}`
-* `n => {n % 2 === 0}`
-* `n => n % 2 !== 0`
-* `{n} => {n % 2 != 0}`
-* `n => [return n % 2 === 0]`
-
+- `(n) => {return n % 2 == 0}`
+- `n => {n % 2 === 0}`
+- `n => n % 2 !== 0`
+- `{n} => {n % 2 != 0}`
+- `n => [return n % 2 === 0]`

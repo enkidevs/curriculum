@@ -13,9 +13,11 @@ links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray){website}'
 
 ---
+
 # Typed Arrays
 
 ---
+
 ## Content
 
 Typed arrays are array-like objects providing a mechanism for accessing raw binary data. Usually they're used to implement network protocols, cryptography algorithms, file format manipulations, and so on.
@@ -45,6 +47,7 @@ for (var i = 0; i < int32View.length; i++) {
 ```
 
 ---
+
 ## Practice
 
 What object is used to create a buffer for a typed array?
@@ -55,21 +58,22 @@ What object is used to create a view configured for 32-bit signed integers for a
 
 ???
 
-* ArrayBuffer
-* Int32Array
-* Int32
-* I32Arr
-* Array
-* Buffer
+- ArrayBuffer
+- Int32Array
+- Int32
+- I32Arr
+- Array
+- Buffer
 
 ---
+
 ## Revision
 
 What are **Typed Arrays** made of ?
 
 ???
 
-* buffers and views
-* views and streams
-* arrays and buffers
-* iterators and arrays
+- buffers and views
+- views and streams
+- arrays and buffers
+- iterators and arrays

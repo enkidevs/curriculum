@@ -24,6 +24,7 @@ links:
 # JS Practice `call` and `apply`
 
 ---
+
 ## Exercise
 
 Explore JavaScript `call` and `apply` statements

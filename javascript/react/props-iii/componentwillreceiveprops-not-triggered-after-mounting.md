@@ -16,11 +16,12 @@ links:
   - '[jaketrent.com](http://jaketrent.com/post/test-react-componentwillreceiveprops/){website}'
 
 parent: custom-proptype-s-to-be-required
-
 ---
+
 # componentWillReceiveProps Not Triggered After Mounting
 
 ---
+
 ## Content
 
 `componentWillReceiveProps` isn't triggered once the node is added to the scene because of its design.
@@ -31,7 +32,7 @@ It handles the logic of comparing with the old props, then acting upon any chang
 var testingComponent = React.createClass({
   getDefaultProps() {
     return {
-     currentProp: "to change"
+      currentProp: "to change"
     };
   },
   getInitialState() {
@@ -41,13 +42,16 @@ var testingComponent = React.createClass({
   },
   componentWillReceiveProps(nextProps) {
     this.setState({
-         modified: nextProps.currentProp
-         + "changed"
+      modified:
+        nextProps.currentProp + "changed"
     });
   },
   render() {
-    return <div class="displayed">
-           {this.state.change}</div>
+    return (
+      <div class="displayed">
+        {this.state.change}
+      </div>
+    );
   }
 });
 ```
@@ -55,6 +59,7 @@ var testingComponent = React.createClass({
 Find a link below to check out other lifecycle methods to find the one you need!
 
 ---
+
 ## Practice
 
 Which is the argument of the `componentWillReceiveProps` function?
@@ -65,19 +70,20 @@ componentWillReceiveProps(???) {
 }
 ```
 
-* nextProps
-* currentProps
-* oldProps
-* nothing
+- nextProps
+- currentProps
+- oldProps
+- nothing
 
 ---
+
 ## Revision
 
 Which of the following statements is false about `componentWillReceiveProps` lifecylce method?
 
 ???
 
-* will only be run once
-* isn't triggered once the node is mounted
-* can be used to listen to changes in props
-* can be triggered after the initial rendering
+- will only be run once
+- isn't triggered once the node is mounted
+- can be used to listen to changes in props
+- can be triggered after the initial rendering

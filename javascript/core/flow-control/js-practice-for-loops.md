@@ -26,6 +26,7 @@ links:
 # JS Practice For Loops
 
 ---
+
 ## Exercise
 
 Practice using JavaScript For-Loops on Code Wars

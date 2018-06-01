@@ -20,14 +20,17 @@ links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number){website}'
 
 ---
+
 # ES6 `Number` methods
 
 ---
+
 ## Content
 
 ES6 introduces several methods to `Number`.
 
 The method `.isFinite()` is false if the number is +/- infinity or NaN.
+
 ```
 Number.isFinite(Infinity) //false
 Number.isFinite(10) // true
@@ -43,6 +46,7 @@ Number.isFinite('10') // false
 `.isSafeInteger(number)` returns true if `number` is in the range **−2^53 < i < 2^53**. The result of applying an integer operator is only guaranteed to be correct if **all** operands and the result are safe.
 
 ---
+
 ## Practice
 
 What does the following JS code snippet return? ???
@@ -50,21 +54,22 @@ What does the following JS code snippet return? ???
 ```javascript
 console.log(Number.isFinite(Infinity));
 console.log(Number.isFinite(0.01));
-console.log((Number.isFinite('Enki!')));
+console.log(Number.isFinite("Enki!"));
 ```
 
-* False, True, False
-* True, True, False
-* False, False, True
-* True, False, False
+- False, True, False
+- True, True, False
+- False, False, True
+- True, False, False
 
 ---
+
 ## Revision
 
 Check if a number is a **safe** integer using `Number`:
 
 ???
 
-* isSafeInteger(number)
-* isInteger(number)
-* isFinite()
+- isSafeInteger(number)
+- isInteger(number)
+- isFinite()

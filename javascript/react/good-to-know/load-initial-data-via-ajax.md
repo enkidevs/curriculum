@@ -14,14 +14,15 @@ links:
   - '[facebook.github.io](https://facebook.github.io/react/tips/initial-ajax.html){website}'
 
 parent: custom-proptype-s-to-be-required
-
 ---
+
 # Load Initial Data via AJAX
 
 ---
+
 ## Content
 
-Data is typically fetched in the  `componentDidMount` lifecycle method.
+Data is typically fetched in the `componentDidMount` lifecycle method.
 When the response has arrived, the data is stored in a state, triggering a render to update your user interface.
 
 If processing an asynchronous request response, ensure the component is still mounted prior to updating its state. This can be done by tracking mount and unmount within the component, and checking it hasn't been unmounted before calling `setState`:
@@ -48,6 +49,7 @@ var loadData = React.createClass({
 ```
 
 ---
+
 ## Practice
 
 Suppose you want to load some data via an ajax call to your component after it was mounted. Fill in the gaps such that you make sure you won't update the state with your ajax call login if the component is unmounted:
@@ -75,18 +77,19 @@ const component = React.createClass({
 })
 ```
 
-* componentDidMount
-* mounted
-* true
-* this.mounted
-* componentWillUnmount
-* componentDidUnMount
-* render
-* false
-* isMounted
-* componentWillReceiveProps
+- componentDidMount
+- mounted
+- true
+- this.mounted
+- componentWillUnmount
+- componentDidUnMount
+- render
+- false
+- isMounted
+- componentWillReceiveProps
 
 ---
+
 ## Revision
 
 Suppose you need to load some data via an ajax call to your component, after it was mounted.
@@ -103,9 +106,9 @@ const component = React.createClass({
 })
 ```
 
-* componentDidMount()
-* componentDidUnmount()
-* componentDidRender()
-* render()
-* component()
-* componentWillReceiveProps()
+- componentDidMount()
+- componentDidUnmount()
+- componentDidRender()
+- render()
+- component()
+- componentWillReceiveProps()

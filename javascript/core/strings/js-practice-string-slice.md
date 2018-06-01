@@ -27,6 +27,7 @@ links:
 # JS Practice String `slice`, `substring`, and `substr`
 
 ---
+
 ## Exercise
 
 Practice using the JavaScript String methods `slice()`, `substring()` and `substr()`

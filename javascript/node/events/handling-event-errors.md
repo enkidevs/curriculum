@@ -25,14 +25,16 @@ links:
 parent: passing-arguments-to-listeners
 
 ---
+
 # Handling event errors
 
 ---
+
 ## Content
 
 All events are treated equally as all event types are defined by an arbitrary string. When an event emitter[1] emits an event with no attached listeners the event is ignored.
 
-If the event is called *error* however, the error is thrown into the event loop, then generating an uncaught exception. To stop this from breaking the application, uncaught exceptions can be caught by listening to the `uncaughtException` which the global event emitter object emits. Take `test` as a sample event emitter:
+If the event is called _error_ however, the error is thrown into the event loop, then generating an uncaught exception. To stop this from breaking the application, uncaught exceptions can be caught by listening to the `uncaughtException` which the global event emitter object emits. Take `test` as a sample event emitter:
 
 ```javascript
 test.on(‘uncaughtException’, function(err)
@@ -53,6 +55,7 @@ test.on(‘uncaughtException’, function(err)
 ```
 
 ---
+
 ## Practice
 
 ```javascript
@@ -76,24 +79,25 @@ test.on(‘uncaughtException’, function(err)
 What event type is emitted by the `test` event emitter object?
 ???
 
-
-* uncaughtException
-* eventFailure
-* error
+- uncaughtException
+- eventFailure
+- error
 
 ---
+
 ## Revision
 
 What happens when the event emitter emits an event with no attached listeners?
 ???
 
-
-* Event is ignored.
-* Event is thrown into the event loop.
-* Event causes an error.
+- Event is ignored.
+- Event is thrown into the event loop.
+- Event causes an error.
 
 ---
+
 ## Footnotes
+
 [1:Event emitter]
 
 Many objects in Node can **emit** events.

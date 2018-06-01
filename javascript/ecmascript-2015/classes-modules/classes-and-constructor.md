@@ -21,24 +21,25 @@ links:
   - '[MDN - Constructors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor){website}'
 
 ---
+
 # Classes and Constructor
 
 ---
+
 ## Content
 
 It has always been possible to simulate classical inheritance in JavaScript, however it comes with a number of gotchas and caveats, and is widely regarded as "not nice to work with".
 
 ES6 introduces classes and inheritance to JavaScript with the addition of `class` keyword. It is important to note a few things:
 
-* These changes don't change JavaScript's prototype model, they are merely syntactic sugar.
-* `Class`es in JavaScript support only one level of inheritance (although there is an approach called _mixins_ for getting around this.)
-* `Class`es are not hoisted (moved up to the beginning of a scope block) so must always be declared before they are used.
+- These changes don't change JavaScript's prototype model, they are merely syntactic sugar.
+- `Class`es in JavaScript support only one level of inheritance (although there is an approach called _mixins_ for getting around this.)
+- `Class`es are not hoisted (moved up to the beginning of a scope block) so must always be declared before they are used.
 
 We can create a `class` in JavaScript with the following syntax:
 
 ```javascript
-class Person {
-}
+class Person {}
 
 var p = new Person();
 ```
@@ -54,13 +55,14 @@ class Person {
   constructor(name) {
     this.name = name;
   }
-};
+}
 
 var p = new Person("Enki");
 p.name; //Enki
 ```
 
 ---
+
 ## Practice
 
 Fill in the class definition below such that the log statements at the end of the snippet hold true.
@@ -80,22 +82,23 @@ console.log(myRec.length)
 // 30
 ```
 
-* class
-* Rectangle
-* constructor
-* this
-* width
-* this.length
-* new
-* super
-* this.width
-* myClass
-* new Class
-* inherit
-* inheritance
-* data
+- class
+- Rectangle
+- constructor
+- this
+- width
+- this.length
+- new
+- super
+- this.width
+- myClass
+- new Class
+- inherit
+- inheritance
+- data
 
 ---
+
 ## Revision
 
 How would you assign a variable passed to the constructor to a class?
@@ -109,6 +112,6 @@ class Sphere() {
 }
 ```
 
-* this.volume
-* const volume
-* let volume
+- this.volume
+- const volume
+- let volume

@@ -27,6 +27,7 @@ links:
 # JS Practice Class Inheritance 2
 
 ---
+
 ## Exercise
 
 Apply your knowledge of JavaScript Class Inheritance in this Code Wars challenge!

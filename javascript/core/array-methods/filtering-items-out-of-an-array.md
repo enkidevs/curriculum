@@ -28,20 +28,17 @@ tags:
   - functional-programming
 
   - arrays
-
-
-
-
 ---
 
 # Filtering items out of an array
 
 ---
+
 ## Content
 
 A common pattern to filter items from an array is the following:
 
-```
+```javascript
 let persons = [...];
 let activated = [];
 for(let person of persons) {
@@ -50,9 +47,10 @@ for(let person of persons) {
   }
 }
 ```
+
 However, using the `Array::filter` method is generally more concise and readable:
 
-```
+```javascript
 let persons = [...];
 let activated = persons.filter(
   person => person.isActived
@@ -61,18 +59,17 @@ let activated = persons.filter(
 
 `.filter` can be applied to any array. It takes a predicate which should return a boolean, depending on whether or not the item should be preserved in the array.
 
-```
-[1,2,3,4].filter(x => x % 2);
+```javascript
+[1, 2, 3, 4].filter(x => x % 2);
 // => [2,4]
-
-
-
 ```
 
 ---
+
 ## Practice
 
 Complete the following snippet:
+
 ```javascript
 var numbers = [0,1,2,3,4,5,6,7];
 // div3 contains all numbers
@@ -81,17 +78,17 @@ var div3 = numbers.???( num =>
   num%3 ???);
 ```
 
-* filter
-* == 0
-* != 0
-* get
+- filter
+- == 0
+- != 0
+- get
 
 ---
+
 ## Revision
 
-`.filter`  can be used instead of ??? .
+`.filter` can be used instead of ??? .
 
-
-* for and if
-* if
-* for and alert
+- for and if
+- if
+- for and alert

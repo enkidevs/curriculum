@@ -16,9 +16,11 @@ category: must-know
 links:
 
 ---
+
 # Computed Properties
 
 ---
+
 ## Content
 
 You have probably used array syntax to access an objects properties before e.g.

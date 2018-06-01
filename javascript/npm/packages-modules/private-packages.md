@@ -26,12 +26,14 @@ links:
 parent: packages-vs-modules
 
 ---
+
 # Scoped packages
 
 ---
+
 ## Content
 
-Since *npm* started supporting scoping, multiple packages can have the same name while they are under a different **scope** (that acts like a namespace).
+Since _npm_ started supporting scoping, multiple packages can have the same name while they are under a different **scope** (that acts like a namespace).
 
 The naming convention for scopes is the same as with package names: **url-safe characters**, **no leading dots or underscores**. Scopes are prefixed by the `@` symbol, followed by a `/` and the whole construct precedes the package name:
 
@@ -39,7 +41,7 @@ The naming convention for scopes is the same as with package names: **url-safe c
 @myscope/mypackagename
 ```
 
-This syntax must be used when trying to `install` a package or specify a package in *package.json*:
+This syntax must be used when trying to `install` a package or specify a package in _package.json_:
 
 ```bash
 $ npm install @myscope/mypackagename
@@ -69,11 +71,11 @@ $ npm init -scope=myscope
 To use a scoped package you need to `require` it using the scoped name:
 
 ```javascript
-var scopedPackage =
-  require('@myscope/somePackage');
+var scopedPackage = require("@myscope/somePackage");
 ```
 
 ---
+
 ## Practice
 
 How would you initialize an npm project within the `@enki` scope?
@@ -82,22 +84,23 @@ How would you initialize an npm project within the `@enki` scope?
 $ ??? ??? ???=???
 ```
 
-* npm
-* init
-* -scope
-* enki
-* install
-* --global
-* @enki
-* -s
-* node
+- npm
+- init
+- -scope
+- enki
+- install
+- --global
+- @enki
+- -s
+- node
 
 ---
+
 ## Revision
 
 A scoped package's name is preceded by ???.
 
-* @scope/
-* scope/
-* @/
-* nothing
+- @scope/
+- scope/
+- @/
+- nothing

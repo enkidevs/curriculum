@@ -24,43 +24,44 @@ notes: >-
 # Allow an element to go fullscreen
 
 ---
+
 ## Content
 
-The HTML5 Fullscreen API allows an element to be viewed filling the whole screen and hiding everything else. This can be used for example to play a video without distraction. 
+The HTML5 Fullscreen API allows an element to be viewed filling the whole screen and hiding everything else. This can be used for example to play a video without distraction.
 
 To view the element in fullscreen use:
 
 ```
 requestFullscreen()
 ```
-Users can leave fullscreen mode by pressing the *ESC* button and will be prompted to do so by an automatic alert. 
+
+Users can leave fullscreen mode by pressing the _ESC_ button and will be prompted to do so by an automatic alert.
 
 There are inconsistencies in the implementation of this API between browsers and specific browsers may require identifiers.
 
 ---
+
 ## Practice
 
 How can you view an element in fullscreen with the **HTML Fullscreen API** ?
 
 ???
 
-
-* `requestFullscreen()`
-* `viewFullScreen()`
-* `viewScreen()`
-* `applyFullscreen()`
+- `requestFullscreen()`
+- `viewFullScreen()`
+- `viewScreen()`
+- `applyFullscreen()`
 
 ---
+
 ## Revision
 
 How can you view an element in fullscreen with the **HTML Fullscreen API** ?
 
 ???
 
-
-* `requestFullscreen()`
-* `requestFullScreen()`
-* `fullScreen()`
-* `viewScreen()`
-* `applyFullscreen()`
-
+- `requestFullscreen()`
+- `requestFullScreen()`
+- `fullScreen()`
+- `viewScreen()`
+- `applyFullscreen()`

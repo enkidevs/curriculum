@@ -17,9 +17,11 @@ links:
 
 
 ---
+
 # High Resolution Time API
 
 ---
+
 ## Content
 
 The High Resolution Time API allows you to perform precise timing measurements.
@@ -38,13 +40,17 @@ You can use the High Resolution Time API to measure the **performance** of your 
 var start = performance.now();
 // do something
 var end = performance.now();
-console.log("do something took " +
-           (end - start) + " milliseconds");
+console.log(
+  "do something took " +
+    (end - start) +
+    " milliseconds"
+);
 ```
 
 The API could also be used for precise timing in game, animation or audio logic.
 
 ---
+
 ## Practice
 
 Which method call of the High Resolution Time API returns the current time?
@@ -55,26 +61,27 @@ The returned value by the method above is represented in ???, with ??? precision
 
 The measurement is ??? exact than the one accessible via `Date.now()`
 
-* performance.now()
-* milliseconds
-* microsecond
-* more
-* less
-* nanosecond
-* resolution.start()
-* highres.run()
-* resolution.time()
-* second
-* day
+- performance.now()
+- milliseconds
+- microsecond
+- more
+- less
+- nanosecond
+- resolution.start()
+- highres.run()
+- resolution.time()
+- second
+- day
 
 ---
+
 ## Revision
 
 What is the correct call of the High Resolution Time API that returns the current time in milliseconds, with microseconds precision?
 
 ???
 
-* performance.now()
-* resolution.start()
-* highres.run()
-* resolution.time()
+- performance.now()
+- resolution.start()
+- highres.run()
+- resolution.time()

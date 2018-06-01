@@ -15,11 +15,12 @@ standards:
 
 tags:
   - introduction
-
 ---
+
 # Types - Introduction
 
 ---
+
 ## Content
 
 JavaScript has the following primitive types:
@@ -42,8 +43,8 @@ var name = "john smith";
 You can also change a variable's type at any time:
 
 ```javascript
-var x=1; //number
-x="blah"; //reassign to string
+var x = 1; //number
+x = "blah"; //reassign to string
 ```
 
 ### typeof
@@ -51,29 +52,31 @@ x="blah"; //reassign to string
 You can check the type of value by using the typeof operator e.g.
 
 ```javascript
-var company="enki";
+var company = "enki";
 typeof company; //string
 ```
 
 ---
+
 ## Practice
 
 Can you change a variable's type in JavaScript?
 
 ???
 
-* yes
-* no
-* only be declaring it again
+- yes
+- no
+- only be declaring it again
 
 ---
+
 ## Revision
 
 Which one of the following is **not** a primitive type:
 
 ???
 
-* RegExp
-* Symbol
-* String
-* Number
+- RegExp
+- Symbol
+- String
+- Number

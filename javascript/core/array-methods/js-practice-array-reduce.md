@@ -27,6 +27,7 @@ links:
 # JS Practice Array `reduce` and `reduceRight`
 
 ---
+
 ## Exercise
 
 Practice using the JavaScript Array methods `reduce()` and `reduceRight()`

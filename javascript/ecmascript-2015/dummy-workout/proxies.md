@@ -20,9 +20,11 @@ links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy){website}'
 
 ---
-# Proxies 
+
+# Proxies
 
 ---
+
 ## Content
 
 Proxies enable custom behaviors for fundamental operations (e.g., property lookup, assignment, enumeration, function invocation...).
@@ -48,6 +50,7 @@ console.log(obj.c) // NaN
 `obj.c` evaluates to `NaN` (instead of the usual `undefined`) because of the special behavior defined in the Proxy's handler.
 
 ---
+
 ## Revision
 
 What is the output of the following logs?
@@ -61,12 +64,12 @@ var handler = {
 var obj = new Proxy({}, handler);
 obj.a = 5;
 
-console.log(obj.a) // ???
-console.log(obj.enki) // ???
+console.log(obj.a); // ???
+console.log(obj.enki); // ???
 ```
 
-* 5
-* -4
-* NaN
-* undefined
-* -Infinity
+- 5
+- -4
+- NaN
+- undefined
+- -Infinity

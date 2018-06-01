@@ -18,9 +18,11 @@ links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){website}'
 
 ---
+
 # Tagged Template Literals 3
 
 ---
+
 ## Content
 
 With access to literals and replacement values you can use Tagged Template Literals to perform additional processing logic on a string and even replace the string entirely - for example:

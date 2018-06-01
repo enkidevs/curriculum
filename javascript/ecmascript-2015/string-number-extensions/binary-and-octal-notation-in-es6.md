@@ -36,9 +36,11 @@ links:
 # Binary and octal notation in ES6
 
 ---
+
 ## Content
 
-In ES6 you can use **binary** and **octal** notation as well as hexadecimal: 
+In ES6 you can use **binary** and **octal** notation as well as hexadecimal:
+
 ```
 0x1 // hex '1'
 0xFF // hex '255'
@@ -57,29 +59,29 @@ You can use the method `.toString(r)` to convert numbers to hex/bin/oct:
 ```
 
 ---
+
 ## Practice
 
 Use the new ES6 notation to write the binary number for `2` with the correct prefix:
 ??? ??? ???
 
-
-* `b`
-* `0`
-* `1`
-* `o`
-* `2`
+- `b`
+- `0`
+- `1`
+- `o`
+- `2`
 
 ---
+
 ## Revision
 
 What method can be used to convert numbers to hex/bin/oct ?
+
 ```javascript
 (3.14).???(8) //octal
 ```
 
-
-* `toString`
-* `convert`
-* `parse`
-* `rebase`
-
+- `toString`
+- `convert`
+- `parse`
+- `rebase`

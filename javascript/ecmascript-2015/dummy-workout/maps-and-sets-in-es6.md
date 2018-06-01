@@ -22,20 +22,25 @@ links:
   - '[MDN - Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map){website}'
 
 ---
+
 # Maps and Sets in ES6
 
 ---
+
 ## Content
 
 ES6 introduces useful new data structures `Map` and `Set`.
 
 The `Map` data structure lets you **map** values to values. You can use arbitrary values, including objects, as keys:
+
 ```
 let map = new Map();
 const KEY1 = {};
 map.set(KEY1, 'Enki'); // key = 'Enki'
 ```
+
 The `Set` data structure:
+
 ```
 let set = new Set();
 set.add('Enki')
@@ -47,6 +52,7 @@ Sets and Maps are **iterable** so can be processed using the `for...of` loop and
 You can't `map()` or `filter()` Maps or Sets. A workaround is to convert the Map/Set into an array, perform the operation and convert back.
 
 ---
+
 ## Practice
 
 Complete the following code snippet to create a set, to add 'question' and to check whether the set consists of 'question':
@@ -57,21 +63,22 @@ set.???('Question');
 set.???('Question');
 ```
 
-* let
-* add
-* has
-* var
-* new
-* addItem
-* hasItem
-* holds
+- let
+- add
+- has
+- var
+- new
+- addItem
+- hasItem
+- holds
 
 ---
+
 ## Revision
 
 Are **Sets** and **Maps** iterable?
 
 ???
 
-* yes
-* no
+- yes
+- no

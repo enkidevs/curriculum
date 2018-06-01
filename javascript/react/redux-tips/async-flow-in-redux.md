@@ -16,11 +16,12 @@ links:
 notes: >-
   This insight should be given right before or after the specific Middleware
   insight. ( 56a2137805a87a0600cfa409 )
-
 ---
+
 # Async flow in **Redux**
 
 ---
+
 ## Content
 
 The default **Redux** store only supports synchronous data flow. However, with the help of `middleware`s, asynchronous data flow is also possible.
@@ -35,7 +36,7 @@ Code sample for using `redux-thunk`:
 // action creator
 function loadData(userId) {
   return dispatch => fetch(
-`http://data.com/${userId}`) 
+`http://data.com/${userId}`)
 // Redux Thunk handles these
     .then(res => res.json())
     .then(
@@ -53,24 +54,26 @@ componentWillMount() {
 ```
 
 ---
+
 ## Practice
 
 Which of the following packages do you think does not provide support for async flow in your **React** application?
 
 ???
 
-* bluebird
-* redux-thunk
-* redux-promise
+- bluebird
+- redux-thunk
+- redux-promise
 
 ---
+
 ## Revision
 
 Does the default Redux store support asynchronous data flow?
 
 ???
 
-* no
-* yes
-* only if used with React
-* only with ES6
+- no
+- yes
+- only if used with React
+- only with ES6

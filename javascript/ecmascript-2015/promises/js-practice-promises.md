@@ -23,6 +23,7 @@ links:
 # JS Practice Promises
 
 ---
+
 ## Exercise
 
 Practice using JavaScript Promises on Code Wars

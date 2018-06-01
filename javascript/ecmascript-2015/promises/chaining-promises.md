@@ -15,9 +15,11 @@ links:
   - '[MDN - Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
 
 ---
+
 # Chaining Promises
 
 ---
+
 ## Content
 
 Promises advantages really become apparent when you start working with more complex flows and multiple promises.
@@ -25,20 +27,23 @@ Promises advantages really become apparent when you start working with more comp
 We can chain promises together using the **then** function:
 
 ```javascript
-var p =
-new Promise(function(resolve, reject){
-  setTimeout(function(){resolve("enki")},
-  2000);
+var p = new Promise(function(
+  resolve,
+  reject
+) {
+  setTimeout(function() {
+    resolve("enki");
+  }, 2000);
 })
-.then(function(result){
- console.log("then 1");
-})
-.then(function(result){
- console.log("then 2");
-})
-.then(function(result){
- console.log("finished");
-});
+  .then(function(result) {
+    console.log("then 1");
+  })
+  .then(function(result) {
+    console.log("then 2");
+  })
+  .then(function(result) {
+    console.log("finished");
+  });
 
 //then 1
 //then 2
@@ -46,6 +51,7 @@ new Promise(function(resolve, reject){
 ```
 
 ---
+
 ## Practice
 
 Fill in the following promise definition such that the logs stand true:
@@ -64,35 +70,36 @@ const p = new ???(
 // hello
 ```
 
-* Promise
-* resolve
-* then
-* catch
-* then (res
-* then()
-* catch()
-* next
-* next(
-* finally
-* res
-* reject
+- Promise
+- resolve
+- then
+- catch
+- then (res
+- then()
+- catch()
+- next
+- next(
+- finally
+- res
+- reject
 
 ---
+
 ## Revision
 
 Will the two `console.log` statements output the same number, or different numbers?
 
 ```javascript
 const p = new Promise(resolve => {
-  resolve(Math.random())
-})
+  resolve(Math.random());
+});
 
 // do these 2 log different or same value?
-p.then(console.log)
-p.then(console.log)
+p.then(console.log);
+p.then(console.log);
 ```
 
 ???
 
-* Same
-* Different
+- Same
+- Different

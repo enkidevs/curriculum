@@ -20,22 +20,19 @@ tags:
   - introduction
 
   - workout
-
-
-
-
 ---
 
 # Debugging
 
 ---
+
 ## Content
 
-One of the most common debugging options is the **browser tools**. 
+One of the most common debugging options is the **browser tools**.
 
 Each browsers tools are slightly different but all will contain a debugger and console where you can add breakpoints, inspect variables etc.
 
-On most browsers the debugging features can be brought up with the **F12** key. 
+On most browsers the debugging features can be brought up with the **F12** key.
 
 **debugger;**
 
@@ -43,42 +40,45 @@ If you want the debugger to stop on a line of code and dont want to add a breakp
 
 **Logging Variables**
 
-It can be useful to find out the values of variables when debugging code. 
+It can be useful to find out the values of variables when debugging code.
 
 Some developers will use an alert statement to do this:
-```
+
+```javascript
 alert(myVar);
 ```
+
 A better way is to use the console.log statement to write the variables value out to the console:
-```
-console.log(myVar); 
+
+```javascript
+console.log(myVar);
 ```
 
 ---
+
 ## Practice
 
 What statement will make the debugger stop at its line?
 
 ???
 
-
-* `debugger;`
-* `stop;`
-* `break;`
-* `debug;`
+- `debugger;`
+- `stop;`
+- `break;`
+- `debug;`
 
 ---
+
 ## Revision
 
 How can you log variables into the console?
 
-```
+```javascript
 ???.???(myVar);
 ```
 
-* `console`
-* `log`
-* `alert`
-* `debugger;`
-* `addVar`
-
+- `console`
+- `log`
+- `alert`
+- `debugger;`
+- `addVar`

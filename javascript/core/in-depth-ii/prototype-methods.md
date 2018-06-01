@@ -32,15 +32,12 @@ tags:
   - class
 
   - object
-
-
-
-
 ---
 
 # Prototype methods
 
 ---
+
 ## Content
 
 Prototypes are objects with properties that other objects inherit. Therefore, any methods defined by the prototype are also inherited, and can be used by the inheriting object.
@@ -56,8 +53,8 @@ function Animal(name) {
 
 // Inherited prototype method
 Animal.prototype.sayName = function() {
-  console.log("My name is " +this.name);
-}
+  console.log("My name is " + this.name);
+};
 
 function Cat(name) {
   this.name = name;
@@ -73,9 +70,11 @@ Kitty.sayName();
 ```
 
 ---
+
 ## Practice
 
 Complete the following snippet to output “I enjoy studying”:
+
 ```javascript
 function Hobby(hobby){
    this.hobby = hobby;
@@ -83,29 +82,28 @@ function Hobby(hobby){
 Hobby.???.??? = function(){
    console.log("I enjoy " + this.hobby);
 }
- 
+
 function MyHobby(hobby){
    this.hobby = hobby;
 }
-   
+
 ???.prototype = new Hobby();
 var student = new MyHobby("studying");
 student.sayHobby();
 ```
 
-* prototype
-* sayHobby
-* MyHobby
-* studying
-* printHobby
+- prototype
+- sayHobby
+- MyHobby
+- studying
+- printHobby
 
 ---
+
 ## Revision
 
 An object in JavaScript that can be inherited from is called ???.
 
-
-* prototype
-* variable
-* function
-
+- prototype
+- variable
+- function

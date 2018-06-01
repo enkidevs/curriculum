@@ -15,9 +15,11 @@ links:
   - '[MDN - Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
 
 ---
+
 # Promises - Reject
 
 ---
+
 ## Content
 
 When using promises we can indicate something has failed by using the **reject** function instead of **resolve**.
@@ -25,14 +27,15 @@ When using promises we can indicate something has failed by using the **reject**
 Let's try this with our previous example:
 
 ```javascript
-var p =
-new Promise(
- function(resolve, reject){
- setTimeout(function(){reject("enki")},
- 2000);
-})
-.then(function(result){
- console.log("success");
+var p = new Promise(function(
+  resolve,
+  reject
+) {
+  setTimeout(function() {
+    reject("enki");
+  }, 2000);
+}).then(function(result) {
+  console.log("success");
 });
 //Exception - Uncaught (in promise) enki
 ```
@@ -42,16 +45,20 @@ Uh oh - note how the **then** method was not called and how we now have an uncau
 But don't worry as we can use the **catch** handler to define logic to be called when errors occur:
 
 ```javascript
-var p = new Promise(
-   function(resolve, reject) {
-   setTimeout(function(){reject("enki")},
-   2000);
+var p = new Promise(function(
+  resolve,
+  reject
+) {
+  setTimeout(function() {
+    reject("enki");
+  }, 2000);
 })
-.then(function(result){
- console.log("then called");
-})
-.catch(function(error){
- console.log("error " + error)});
+  .then(function(result) {
+    console.log("then called");
+  })
+  .catch(function(error) {
+    console.log("error " + error);
+  });
 //logs error enki
 ```
 
@@ -67,23 +74,24 @@ function(error){
 ```
 
 ---
+
 ## Practice
 
 What is the second argument the `.then` method can take?
 
 ???
 
-* a function that is triggered if there is an error in the promise
-* a number, which represents in `ms` how long the `.then` should wait before executing
-* a number, which represents in `ms` how long the `.then` should wait before returning 
+- a function that is triggered if there is an error in the promise
+- a number, which represents in `ms` how long the `.then` should wait before executing
+- a number, which represents in `ms` how long the `.then` should wait before returning
 
 ---
+
 ## Revision
 
 Fill in the following Promise definition:
 
 ```javascript
-
 const p = new ???(
   (resolve, reject) => {
     // do async operation
@@ -97,11 +105,11 @@ const p = new ???(
   })
 ```
 
-* Promise
-* then
-* catch
-* next
-* await
-* try
-* resolve
-* reject
+- Promise
+- then
+- catch
+- next
+- await
+- try
+- resolve
+- reject

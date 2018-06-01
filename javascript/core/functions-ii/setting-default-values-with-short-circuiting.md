@@ -27,13 +27,12 @@ tags:
 links:
 
   - '[javascriptissexy.com](http://javascriptissexy.com/12-simple-yet-powerful-javascript-tips/){website}'
-
-
 ---
 
 # Setting default values with `short circuiting`
 
 ---
+
 ## Content
 
 `Short circuiting` returns the value of the second operand based on the value of the first.
@@ -42,11 +41,12 @@ Instead of setting default values as below:
 
 ```javascript
 function document(theTitle) {
- if (!theTitle) {
-   theTitle = "Untitled Doc";
- }
+  if (!theTitle) {
+    theTitle = "Untitled Doc";
+  }
 }
 ```
+
 We can use:
 
 ```javascript
@@ -56,24 +56,27 @@ function documentTitle(theTitle) {
 ```
 
 ---
+
 ## Practice
 
 `Short circuit` the following code:
+
 ```javascript
 function shortCir(name){
   return ??? ??? 'John Doe';
 }
 ```
 
-* name
-* ||
-* &&
-* ==
+- name
+- ||
+- &&
+- ==
 
 ---
+
 ## Revision
 
-Complete the following code to return a *valid* String as name or a default value:
+Complete the following code to return a _valid_ String as name or a default value:
 
 ```javascript
 function shortCir(name){
@@ -81,7 +84,7 @@ function shortCir(name){
 }
 ```
 
-* name
-* ||
-* &&
-* ==
+- name
+- ||
+- &&
+- ==

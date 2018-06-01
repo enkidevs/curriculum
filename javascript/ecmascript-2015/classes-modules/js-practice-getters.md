@@ -25,6 +25,7 @@ links:
 # JS Practice `getters`
 
 ---
+
 ## Exercise
 
 Practice using JavaScript Class `getters` on Code Wars

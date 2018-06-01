@@ -13,28 +13,31 @@ stub: true
 
 tags:
   - introduction
-
 ---
+
 # Automatic Semicolon Insertion
 
 ---
+
 ## Content
 
 ---
-## Quiz 
+
+## Quiz
 
 ### What will the following snippet output?
 
-
+```javascript
 function pi() {
-  return
+  return;
   {
-    pi: 3.14
+    pi: 3.14;
   }
 }
-console.log(pi())
+console.log(pi());
+```
 
-* 'undefined'
-* {pi: 3.14}
-* SyntaxError
-* {'pi': 3.14}
+- 'undefined'
+- {pi: 3.14}
+- SyntaxError
+- {'pi': 3.14}

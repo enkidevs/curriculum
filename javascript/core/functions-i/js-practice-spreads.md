@@ -23,6 +23,7 @@ links:
 # JS Practice Spreads
 
 ---
+
 ## Exercise
 
 Practice unpacking function arguments with spreads

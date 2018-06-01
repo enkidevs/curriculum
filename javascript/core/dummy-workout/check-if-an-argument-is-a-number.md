@@ -18,22 +18,24 @@ notes: 'Check how this works with bruno '
 links:
 
   - '[2ality.com](http://www.2ality.com/2014/05/is-integer.html){blog}'
-
 ---
+
 # Check if an argument is a number
 
 ---
+
 ## Content
 
-```
-function isNumber(n){
-  var float  = !isNaN(parseFloat(n));
+```javascript
+function isNumber(n) {
+  var float = !isNaN(parseFloat(n));
   var finite = isFinite(n);
   return float && finite;
 }
 ```
 
 ---
+
 ## Practice
 
 Complete the code to check if the argument is a number:
@@ -46,23 +48,25 @@ function isNumber(x) {
 }
 ```
 
-* parseFloat
-* isFinite
-* &&
-* finite
-* isInfinte
-* ++
-* &
-* +
-* parse
-* 'null'
-* typeof
-* var
+- parseFloat
+- isFinite
+- &&
+- finite
+- isInfinte
+- ++
+- &
+- +
+- parse
+- 'null'
+- typeof
+- var
 
 ---
+
 ## Revision
 
 Complete the code in order to check if the input is a number or not:
+
 ```javascript
 function isNumber(n){
   var float  = ! ???(???(n));
@@ -70,10 +74,11 @@ function isNumber(n){
   return float && finite;
 }
 ```
-* isNaN
-* parseFloat
-* isFinite
-* isInfinite
-* typeof
-* isNum
-* isValud
+
+- isNaN
+- parseFloat
+- isFinite
+- isInfinite
+- typeof
+- isNum
+- isValud

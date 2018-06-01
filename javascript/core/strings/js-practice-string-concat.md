@@ -27,6 +27,7 @@ links:
 # JS Practice String `concat`, `split` and `join`
 
 ---
+
 ## Exercise
 
 Practice using the JavaScript String methods `concat()`, `split()` and `join()`

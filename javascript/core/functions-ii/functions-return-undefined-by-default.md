@@ -16,11 +16,12 @@ standards:
 tags:
   - introduction
   - workout
-
 ---
+
 # Functions return undefined by default
 
 ---
+
 ## Content
 
 JavaScript is a **dynamic** programming language which means that it is not necessary to define the return type of a function.
@@ -35,17 +36,17 @@ function doSomething(num) {
     return;
   }
   if (num === 2) {
-    return 'Enki';
+    return "Enki";
   }
 }
 
-doSomething(1) // undefined
-doSomething(2) // 'Enki'
-doSomething(3) // undefined
-
+doSomething(1); // undefined
+doSomething(2); // 'Enki'
+doSomething(3); // undefined
 ```
 
 ---
+
 ## Practice
 
 Fill in the gaps such that the `naturalHalf` function, given an input number, will return `undefined` for every odd number and the number's half for each even number:
@@ -59,17 +60,18 @@ function naturalHalf(number) {
 }
 ```
 
-* %
-* return number/2
-* return
-* return NaN
-* return number%2
-* return null
-* returns undefined
-* /
-* number
+- %
+- return number/2
+- return
+- return NaN
+- return number%2
+- return null
+- returns undefined
+- /
+- number
 
 ---
+
 ## Revision
 
 Fill in the output of the following `foo` calls:
@@ -80,7 +82,7 @@ function foo(num) {
     return;
   }
   if (num === 2) {
-    return 'Enki';
+    return "Enki";
   }
 }
 foo(1); // = ???
@@ -88,9 +90,9 @@ foo(2); // = ???
 foo(3) === foo(1); // = ???
 ```
 
-* undefined
-* Enki
-* true
-* null
-* false
-* NaN
+- undefined
+- Enki
+- true
+- null
+- false
+- NaN

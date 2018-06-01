@@ -27,6 +27,7 @@ links:
 # JS Practice Sort 1
 
 ---
+
 ## Exercise
 
 Write a JavaScript function that will sort Strings in descending order

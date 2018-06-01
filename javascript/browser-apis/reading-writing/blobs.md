@@ -24,19 +24,23 @@ links:
 # Blobs
 
 ---
+
 ## Content
 
-A *blob* object represents an "almost file" object of raw data. It represents data that isn't in JavaScript's standard format. You use *FileReader* to read data from a blob.
+A _blob_ object represents an "almost file" object of raw data. It represents data that isn't in JavaScript's standard format. You use _FileReader_ to read data from a blob.
 
 To create a blob, use the blob constructor:
+
 ```javascript
-var debug = {hello: "world"};
-var blob = new Blob([
-  JSON.stringify(debug, null, 2)
-], {type : 'application/json'});
+var debug = { hello: "world" };
+var blob = new Blob(
+  [JSON.stringify(debug, null, 2)],
+  { type: "application/json" }
+);
 ```
 
-To create a subset of a blob, use the *slice()* method:
+To create a subset of a blob, use the _slice()_ method:
+
 ```javascript
 var blob = instanceOfBlob.slice([
   start [, end [, contentType]]
@@ -44,9 +48,10 @@ var blob = instanceOfBlob.slice([
 ```
 
 ---
+
 ## Practice
 
-Use the blob constructor to create a blob: 
+Use the blob constructor to create a blob:
 
 ```javascript
 var debug = {hello: "Enki"};
@@ -56,28 +61,28 @@ var blob = new ???([
     {type : 'application/json'});
 ```
 
-
-* `Blob`
-* `stringify`
-* `Instance`
-* `slice`
-* `start`
-* `config`
-* `Class`
+- `Blob`
+- `stringify`
+- `Instance`
+- `slice`
+- `start`
+- `config`
+- `Class`
 
 ---
+
 ## Revision
 
 What method should be used to create a subset of a blob?
+
 ```javascript
 var blob = instanceOfBlob.???([
  start, [, end [, contentType]]
 ]);
 ```
 
-* `slice`
-* `subset`
-* `splice`
-* `concat`
-* `stringify`
-
+- `slice`
+- `subset`
+- `splice`
+- `concat`
+- `stringify`

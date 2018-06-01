@@ -26,6 +26,7 @@ links:
 # JS Practice Invalid Input
 
 ---
+
 ## Exercise
 
 Practice Error Handling on Code Wars
