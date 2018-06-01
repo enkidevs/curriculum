@@ -9,8 +9,9 @@ section: 0
 parent: formatting-text-elements
 
 insights:
-  - intro-code
-  - intro-kbd
-  - intro-samp
-  - intro-pre
-  - intro-var
+
+- intro-code
+- intro-kbd
+- intro-samp
+- intro-pre
+- intro-var

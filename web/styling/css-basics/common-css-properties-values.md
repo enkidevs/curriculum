@@ -22,12 +22,15 @@ links:
 # Common CSS Properties Values
 
 ---
+
 ## Content
 
-We have talked about *selectors* and *specificity* using almost the same CSS properties in every insight: `color`, `background-color`,`font-size` or `font-weight`. Now of course there are a lot of other existing properties, and, more importantly, there are many ways to declare them.
+We have talked about _selectors_ and _specificity_ using almost the same CSS properties in every insight: `color`, `background-color`,`font-size` or `font-weight`. Now of course there are a lot of other existing properties, and, more importantly, there are many ways to declare them.
 
 ### Colors
+
 Each of these CSS declarations specifies the same thing: that a every `div` tag should have a white background by default.
+
 ```
 .div-hex {
 /* hexadecimal value */
@@ -41,11 +44,13 @@ background-color: rgb(255,255,255);
 /* color name */
 background-color: white;
 ```
-All the `divs` above will be white, as the values are equivalent: `ff` is the *hexadecimal* representation of `255` and `white` is self-explanatory.
 
-Keeping this in mind, it should be easier to understand how *hex* values work: there are **6** characters slots to fill (which can take values from `0` to `f`). Each **two** characters represent the intensity of `red`, `green`, `blue`, in this order.
+All the `divs` above will be white, as the values are equivalent: `ff` is the _hexadecimal_ representation of `255` and `white` is self-explanatory.
+
+Keeping this in mind, it should be easier to understand how _hex_ values work: there are **6** characters slots to fill (which can take values from `0` to `f`). Each **two** characters represent the intensity of `red`, `green`, `blue`, in this order.
 
 Here is the representation of some basic colors:
+
 ```javascript
 /* black */
 #000000   rgb(0,0,0)   black
@@ -64,9 +69,10 @@ You can obtain all kinds of colors and shades from mixing the values together, a
 
 ### Lengths
 
-Like colors, there are different types of values for *lengths*. The most popular value is the *pixel*, `px`.
+Like colors, there are different types of values for _lengths_. The most popular value is the _pixel_, `px`.
 
 Each pixel is a unit of absolute length. That means they are the same size on all devices: a `16px` font-size should have the same apparent dimension on a printed sheet of paper, on a computer screen or on a mobile screen.
+
 ```css
 p {
   font-size: 16px;
@@ -74,14 +80,14 @@ p {
 ```
 
 ---
+
 ## Revision
 
-If *purple* is the combination of *red* and *blue*, which of the following is not representing purple?
+If _purple_ is the combination of _red_ and _blue_, which of the following is not representing purple?
 
 ???
 
-* #00ffff
-* #ff00ff
-* rgb(255,0,255)
-* purple
-
+- #00ffff
+- #ff00ff
+- rgb(255,0,255)
+- purple

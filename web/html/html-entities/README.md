@@ -7,7 +7,8 @@ description: TODO
 section: 0
 
 insights:
-  - non-breaking-space
-  - greater-and-less-than
-  - copyright
-  - ampersand
+
+- non-breaking-space
+- greater-and-less-than
+- copyright
+- ampersand

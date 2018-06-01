@@ -18,14 +18,18 @@ aspects:
   - obscura
 
 ---
+
 # Formtarget
+
 ---
+
 ## Content
 
 The HTML `formtarget` input form attribute is used to indicate where to display the response that is received after submitting the form.
 If the `formtarget` attribute is specified it overrides the `target` attribute.
 
 Heres an example of the formtarget attribute set to open in a different window after it's submitted:
+
 ```
 <form
   action="file.php">
@@ -38,6 +42,7 @@ Heres an example of the formtarget attribute set to open in a different window a
 ```
 
 ---
+
 ## Practice
 
 Complete the code by adding the appropriate input form attributes to submit the data to a new window.
@@ -54,22 +59,23 @@ Complete the code by adding the appropriate input form attributes to submit the 
 </form>
 ```
 
-* formtarget
-* _blank
-* target
-* _new
-* frame
-* frameset
+- formtarget
+- \_blank
+- target
+- \_new
+- frame
+- frameset
 
 ---
+
 ## Revision
 
-Which input form attribute, with values such as “_blank” and “framename”, indicates where to display the response that is received after submitting the form?
+Which input form attribute, with values such as “\_blank” and “framename”, indicates where to display the response that is received after submitting the form?
 
 ???
 
-* formtarget
-* target
-* _target
-* frame
-* frameset
+- formtarget
+- target
+- \_target
+- frame
+- frameset

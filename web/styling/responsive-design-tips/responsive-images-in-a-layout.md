@@ -30,11 +30,12 @@ parent: using-media-rule-to-create-cross-platform-responsiveness
 # Responsive images in a layout
 
 ---
+
 ## Content
 
-It's good practice to have conditional breakpoints for responsive images. 
+It's good practice to have conditional breakpoints for responsive images.
 
-This way, they're displayed in columns so that when they get too small, the columns will collapse. 
+This way, they're displayed in columns so that when they get too small, the columns will collapse.
 
 To do this, make use of media queries.
 
@@ -61,28 +62,28 @@ img {
 In this example, the images will show up in one column on smartphones, two columns on tablets, and four columns on larger screens.
 
 ---
+
 ## Revision
 
 Complete the following snippets such that the `max-width` of your `img`s is set to `50%` on devices with a screen size at least 450px:
+
 ```css
 img {
-   max-width: 70%;
+  max-width: 70%;
 }
 
 ??? (min-width: ???) {
-   img {
-     ???: 50%
-   }
+  img {
+    ???: 50%;
+  }
 }
 ```
 
-
-* `@media`
-* `450px`
-* `max-width`
-* `min-width`
-* `width`
-* `tablet`
-* `screen-size`
-* `@resize`
-
+- `@media`
+- `450px`
+- `max-width`
+- `min-width`
+- `width`
+- `tablet`
+- `screen-size`
+- `@resize`

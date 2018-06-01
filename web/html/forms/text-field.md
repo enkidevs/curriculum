@@ -21,19 +21,24 @@ links:
   - '[Example on codepen.io](https://codepen.io/stefan-stojanovic/pen/GdyOKm?editors=1100){code}'
 
 ---
+
 # Text Field
+
 ---
+
 ## Content
 
 The HTML input element of type `text` is used to create basic single line text fields.
 
 Example:
+
 ```
 <input type="text">
 ```
 
 These text fields are useful for instance when you need single line inputs.
 Example with placeholders:
+
 ```
 Name:
 <input type="text"
@@ -51,6 +56,7 @@ placeholder="Enter Last Name"><br>
 **Note: If you have a single line input whose value should contain a date, URL or an email, you should provide a more suitable input type than the `input="text"`.**
 
 More complex example:
+
 ```
 <form>
   <div>
@@ -89,6 +95,7 @@ Furthermore, you can control the physical size of your input fields with the `si
 When the size is set to, for instance, 20, the input character width cannot exceed that number. The `size` attribute sets the width limit in terms of characters rather than pixels.
 
 Example:
+
 ```
 <input type="text" size="10>
 ```
@@ -96,6 +103,7 @@ Example:
 Also, if for instance, you have a form where you don't want to allow the user the user to submit until certain fields have value, you can accomplish that with the `required` attribute.
 Setting this attribute makes the form not submittable until a user enters a value. This is very common on most websites, for instance, when creating a new account:
 Example new account:
+
 ```
 <form>
   <div>
@@ -141,9 +149,9 @@ Simple CSS style where the input lines that the user has to enter upon submit ha
 
 '[Example on codepen.io](https://codepen.io/stefan-stojanovic/pen/GdyOKm?editors=1100)'
 
-
 Furthermore, the text input can have a `minlength` and `maxlength` attribute as well. These attributes are used to set the minimum and maximum length in characters for the input element.
 Example:
+
 ```
 <form>
   <div>
@@ -191,6 +199,7 @@ Last but not least, your text inputs can have a specific pattern, or a regular e
 In this example, we set the input requirements to either upper and lowercase letters and a 4-12 character length limit. If the user tries to submit the form without following the pattern they would get an error message saying something like "Please match the requested format".
 
 ---
+
 ## Practice
 
 Write the form code that creates a single line input for text.
@@ -199,25 +208,27 @@ Write the form code that creates a single line input for text.
 <??? ???="???">
 ```
 
-* input
-* type
-* text
-* form
-* text
+- input
+- type
+- text
+- form
+- text
 
 ---
+
 ## Revision
 
 Which line creates a HTML form’s input text field?
 
 ???
 
-* `<input type="text">`
-* `<textfield type="input">`
-* `<form input="textfield">`
-* `<textinput type="text">`
+- `<input type="text">`
+- `<textfield type="input">`
+- `<form input="textfield">`
+- `<textinput type="text">`
 
 ---
+
 ## Quiz
 
 ### How much do you know about the HTML input `type="text"`?
@@ -244,7 +255,7 @@ What does the required attribute do in this code?
 
 ???
 
-* Makes the form not submittable without a value
-* Standard when creating any input type
-* makes the text turn blue
-* Makes the user type only text as input, no numbers allowed
+- Makes the form not submittable without a value
+- Standard when creating any input type
+- makes the text turn blue
+- Makes the user type only text as input, no numbers allowed

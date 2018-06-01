@@ -25,21 +25,26 @@ links:
   - https://www.w3schools.com/tags/tag_article.asp
 
 ---
+
 # Article
+
 ---
+
 ## Content
 
 The HTML `<article>` element is used to represent independent, self-contained content in a document, page, website or an application. This content is independently reusable and shared outside or within a web page.
 The `<article>` element can contain:
-  - a forum post
-  - a magazine
-  - a newspaper article
-  - blog entry
+
+- a forum post
+- a magazine
+- a newspaper article
+- blog entry
 
 The `<article>` element belongs to the group **Semantic Elements**.
 Semantic elements are elements that clearly define their content both for the browser and developer.
 
 Example:
+
 ```
 <article>
   <h1>Facebook</h1>
@@ -59,34 +64,37 @@ You can also nest `<article>` elements. When nested within another `<article>` e
 Adding the author to the `<article>` element will only work if that `<article>` element is not nested.
 
 ---
+
 ## Practice
 
 The `<article>` element can contain which of the following?
 
 ???
 
-* All 4
-* Forum post
-* Blog post
-* News story
-* Magazine
+- All 4
+- Forum post
+- Blog post
+- News story
+- Magazine
 
 ---
+
 ## Revision
 
 Which HTML container element should be used to hold independent, self-contained content that is possible to share on its own outside the website?
 
 ???
 
-* `<article>`
-* `<section>`
-* `<blog>`
-* `<comment>`
-* `<news>`
-* `<record>`
-* `<forum>`
+- `<article>`
+- `<section>`
+- `<blog>`
+- `<comment>`
+- `<news>`
+- `<record>`
+- `<forum>`
 
 ---
+
 ## Quiz
 
 ### How much do you know about the HTML sectioning elements?
@@ -95,10 +103,10 @@ Which HTML container would be best when used on its own in a feed reader?
 
 ???
 
-* `<article>`
-* `<section>`
-* `<main>`
-* `<comment>`
-* `<news>`
-* `<aside>`
-* `<forum>`
+- `<article>`
+- `<section>`
+- `<main>`
+- `<comment>`
+- `<news>`
+- `<aside>`
+- `<forum>`

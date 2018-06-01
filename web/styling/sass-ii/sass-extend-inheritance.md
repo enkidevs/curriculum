@@ -24,11 +24,12 @@ links:
 # Sass Extend/Inheritance
 
 ---
+
 ## Content
 
-The `@extend` feature of *Sass* is one of its most useful features. Using `@extend` allows you to share a set of CSS properties between different selectors.
+The `@extend` feature of _Sass_ is one of its most useful features. Using `@extend` allows you to share a set of CSS properties between different selectors.
 
-`@extend` is used when there is a case where one class should have all the same styles of another already defined class, plus its own specific styles. 
+`@extend` is used when there is a case where one class should have all the same styles of another already defined class, plus its own specific styles.
 
 ```css
 .message {
@@ -36,14 +37,17 @@ The `@extend` feature of *Sass* is one of its most useful features. Using `@exte
   padding: 10px;
   color: #ffff66;
 }
-.success { 
+.success {
   @extend .message;
   border-color: green;
 }
 ```
+
 The code in CSS that this generates:
+
 ```css
-.message, .success {
+.message,
+.success {
   border: 1px solid #6699ff;
   padding: 10px;
   color: #ffff66;
@@ -55,12 +59,12 @@ The code in CSS that this generates:
 ```
 
 ---
+
 ## Revision
 
-Which is the correct way to use Sass @extend to extend the class *properties*? ???
+Which is the correct way to use Sass @extend to extend the class _properties_? ???
 
-* @extend .properties;
-* properties(@extend);
-* @extend(properties);
-* extend .properties;
-
+- @extend .properties;
+- properties(@extend);
+- @extend(properties);
+- extend .properties;

@@ -24,11 +24,13 @@ links:
 # SassScript Number Functions
 
 ---
+
 ## Content
 
-*SassScript* has a number of implemented number functions which can be used for the manipulation and creation of numeric values.
+_SassScript_ has a number of implemented number functions which can be used for the manipulation and creation of numeric values.
 
 These include:
+
 ```css
 // turning a number into a percentage
 percentage(0.74) => 74%
@@ -45,47 +47,49 @@ round(9.2px) => 9px
 // returns a random number between 0 and 1
 random => 0 <= num < 1
 
-// returns a random number between 1 and 
+// returns a random number between 1 and
 // the limit
 random(3) => 1 <= num <= 3
-
 ```
 
 ---
+
 ## Practice
 
 What are the outputs to the following Sass code:
+
 ```css
 percentage(100px / 50px); /* ??? */
 abs(-2px); /* ??? */
 ```
 
-
-* `200%` 
-* `2px` 
-* `2%` 
-* `-2px` 
-* `0.2px` 
-* `20%`
+- `200%`
+- `2px`
+- `2%`
+- `-2px`
+- `0.2px`
+- `20%`
 
 ---
+
 ## Revision
 
 What do the following number functions return? Answer in order of the question.
+
 ```css
 percentage(120px / 80px);
 abs(-1px);
 random(2);
 ```
+
 ??? ??? ???
 
-* 150%
-* 1px
-* random value : `1 <= x <= 2`
-* 120%
-* 1.2%
-* -1px
-* 0px
-* random value : `0 <= x <= 2`
-* random value : `x < 2`
-
+- 150%
+- 1px
+- random value : `1 <= x <= 2`
+- 120%
+- 1.2%
+- -1px
+- 0px
+- random value : `0 <= x <= 2`
+- random value : `x < 2`

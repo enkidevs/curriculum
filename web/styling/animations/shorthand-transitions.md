@@ -23,14 +23,14 @@ links:
 # Shorthand Transitions
 
 ---
+
 ## Content
 
-Declaring each transition property individually can be intensive, especially using `vendor prefixes`. 
+Declaring each transition property individually can be intensive, especially using `vendor prefixes`.
 
-Instead, try the shorthand property `transition` that supports all the different values. 
+Instead, try the shorthand property `transition` that supports all the different values.
 
 Using only this alone it is possible to set every transition value in order of `transition-property`, `transition-duration`, `transition-timing-function`, and lastly `transition-delay`.
-
 
 ```
 .box {
@@ -47,23 +47,22 @@ Using only this alone it is possible to set every transition value in order of `
 For setting many transitions at once, set every individual group of transition values, then use a comma to separate each group of additional ones.
 
 ---
+
 ## Revision
 
 Which of the following examples are using the CSS `transition` property with the transition values in the correct order? ???
 
 ```css
 // Option A
-transition: background .2s linear;
+transition: background 0.2s linear;
 
 // Option B
-transition: .2s linear background;
+transition: 0.2s linear background;
 
 // Option C
-transition: linear background .2s;
+transition: linear background 0.2s;
 ```
 
-
-* Option A
-* Option B
-* Option C
-
+- Option A
+- Option B
+- Option C

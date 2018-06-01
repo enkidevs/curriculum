@@ -31,6 +31,7 @@ links:
 # Chaining animations
 
 ---
+
 ## Content
 
 It's possible to achieve this by using the `animation-delay` property; it delays the execution of an animation by a specified amount of time.
@@ -41,14 +42,25 @@ If the first one takes 1 second to complete, a chain can be created by using the
 
 ```css
 @keyframes first {
-	from { left: 0; }
-	to { left: 100px; }
+  from {
+    left: 0;
+  }
+  to {
+    left: 100px;
+  }
 }
 @keyframes second {
-	from { left: 0; }
-	to { left: 200px; }
+  from {
+    left: 0;
+  }
+  to {
+    left: 200px;
+  }
 }
-#first, #second { position: relative; }
+#first,
+#second {
+  position: relative;
+}
 #first {
   animation: first 1s linear both;
 }
@@ -59,27 +71,27 @@ If the first one takes 1 second to complete, a chain can be created by using the
 ```
 
 ---
+
 ## Practice
 
 What property is used to chain animations?
 
 ???
 
-* animation-delay
-* animation-chained
-* delay
-* animation-chain
+- animation-delay
+- animation-chained
+- delay
+- animation-chain
 
 ---
+
 ## Revision
 
 Which CSS property can be used to chain animations together?
 
 ???
 
-
-* `animation-delay`
-* `animation-chain`
-* `animation-hold`
-* `animation-pause`
-
+- `animation-delay`
+- `animation-chain`
+- `animation-hold`
+- `animation-pause`

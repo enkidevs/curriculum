@@ -17,8 +17,11 @@ aspects:
   - introduction
 
 ---
+
 # Paragraphs
+
 ---
+
 ## Content
 
 In HTML the `<p>` tag defines the start of a paragraph And the `</p>` defines the end.
@@ -45,33 +48,36 @@ You can set the size either with or without the `%`. Although both inputs are co
 If you do not set a size for your paragraph, then the default size will be 16px(pixels).
 
 ---
+
 ## Practice
 
 Which HTML tags create a paragraph of text?
 
 ???
 
-* `<p>Text Here</p>`
-* `<para>Text Here</para>`
-* `<p>Text Here<p>`
-* `</p>Text Here</p>`
-* `<paragraph>Text Here</paragraph>`
+- `<p>Text Here</p>`
+- `<para>Text Here</para>`
+- `<p>Text Here<p>`
+- `</p>Text Here</p>`
+- `<paragraph>Text Here</paragraph>`
 
 ---
+
 ## Revision
 
 The `<p>` tag is used in HTML to do what?
 
 ???
 
-* Start a paragraph
-* End a paragraph
-* Adds passcode
-* Start a page
-* Represents pixel
-* Adds portal
+- Start a paragraph
+- End a paragraph
+- Adds passcode
+- Start a page
+- Represents pixel
+- Adds portal
 
 ---
+
 ## Quiz
 
 ### How much do you know about HTML paragraphs?
@@ -80,9 +86,9 @@ What is the default HTML text size of a paragraph in a browser?
 
 ???
 
-* 16 pixels
-* 10 em
-* 8 em
-* 4 em
-* 12 pixels
-* 14 pixels
+- 16 pixels
+- 10 em
+- 8 em
+- 4 em
+- 12 pixels
+- 14 pixels

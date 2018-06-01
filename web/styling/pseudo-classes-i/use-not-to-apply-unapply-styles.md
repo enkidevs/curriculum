@@ -18,9 +18,10 @@ links:
 
 ---
 
-# Use `:not()` to apply/unapply styles 
+# Use `:not()` to apply/unapply styles
 
 ---
+
 ## Content
 
 Rather than adding a border to a navigation bar, and then removing it for the last element:
@@ -36,6 +37,7 @@ Rather than adding a border to a navigation bar, and then removing it for the la
   border-right: none;
 }
 ```
+
 Use the `:not()` pseudo-class to only apply to the elements you want:
 
 ```
@@ -45,33 +47,35 @@ Use the `:not()` pseudo-class to only apply to the elements you want:
 ```
 
 ---
+
 ## Practice
 
 Complete the code snippet:
 
 ```
-.nav li???(:last-child) { 
-  border-left: 5px dashed #FFF; 
-} 
-```
-
-* `:not` 
-* `.not` 
-* `::not` 
-* `not`
-
----
-## Revision
-
-What does the following CSS code do? 
-```css
-.div li:not(:last-child) {
-
+.nav li???(:last-child) {
+  border-left: 5px dashed #FFF;
 }
 ```
+
+- `:not`
+- `.not`
+- `::not`
+- `not`
+
+---
+
+## Revision
+
+What does the following CSS code do?
+
+```css
+.div li:not(:last-child) {
+}
+```
+
 ???
 
-* Allows styles to be applied to all elements except for the final element.
-* Allows styles to be applied specifically to the final element.
-* Allows styles to be applied to every other element.
-
+- Allows styles to be applied to all elements except for the final element.
+- Allows styles to be applied specifically to the final element.
+- Allows styles to be applied to every other element.

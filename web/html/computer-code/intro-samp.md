@@ -25,17 +25,22 @@ link:
   - '[MDN Docs for samp](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp){website}'
 
 ---
+
 # samp - Sample Output Element
+
 ---
+
 ## Content
 
 In HTML the `<samp>` element is used to represent a sample output from a computer program.
 
 **Note:**
-  - **samp stands for Sample Output Element.**
-  - **Both the starting and ending tags are necessary.**
+
+- **samp stands for Sample Output Element.**
+- **Both the starting and ending tags are necessary.**
 
 Example:
+
 ```
 <p>
   Instalation failed, press
@@ -54,6 +59,7 @@ The default font style for the `<samp>` element for most browsers is the monospa
 You can nest the `<kbd>` element with the `<samp>` element, or vice versa, for different representations.
 
 Example 1:
+
 ```
 <p>
   To paste, press
@@ -65,7 +71,9 @@ Example 1:
    </samp>
 </p>
 ```
+
 Result:<br>
+
 <p>
   To paste, press
    <samp>
@@ -77,6 +85,7 @@ Result:<br>
 </p>
 
 Example 2:
+
 ```
 <p>
   If you wish to undo, press
@@ -88,7 +97,9 @@ Example 2:
    </kbd>
 </p>
 ```
+
 Result:<br>
+
 <p>
   If you wish to undo, press
    <kbd>
@@ -104,6 +115,7 @@ In the first example, we have the `<kbd>` element nested inside the `<samp>` ele
 And in the second example, we have a `<samp>` element nested inside a `<kbd>` element. This represents input based on system output. Like a menu item.
 
 You can also use CSS to change the font or any other property of the `<samp>` element like so:
+
 ```
 samp {
   border-radius: 4px;
@@ -113,6 +125,7 @@ samp {
 ```
 
 ---
+
 ## Practice
 
 When using the `<samp>` element, which statements are true?
@@ -122,46 +135,48 @@ When using the `<samp>` element, which statements are true?
 ???
 ???
 
-+ represents sample output from a computer program
-+ displayed in the browser's default monospace font
-+ when nested inside `<kbd>`, represents input based on system output.
-+ when containing `<kbd>`, represents input echoed by the system.
-- produces a block element
-- represents preformatted text
-- represents user input
+- represents sample output from a computer program
+- displayed in the browser's default monospace font
+- when nested inside `<kbd>`, represents input based on system output.
+- when containing `<kbd>`, represents input echoed by the system.
 
+* produces a block element
+* represents preformatted text
+* represents user input
 
 ---
+
 ## Revision
 
 What HTML element wraps around sample output text from a computer program to identify it differently?
 
 ???
 
-* samp
-* code
-* kbd
-* pre
-* var
-* out
-* output
+- samp
+- code
+- kbd
+- pre
+- var
+- out
+- output
 
 ---
+
 ## Quiz
 
-### Do you know which HTML element is best to substitute for "???" within this code:  
+### Do you know which HTML element is best to substitute for "???" within this code:
 
 `<p>`My first selection within Enki was wrong as it displayed the alert `<???>`Oh no... This is a wrong answer`</???>`.`</p>`
 
 ???
 
-* samp
-* /samp
-* code
-* /cod
-* pre
-* /pre
-* out
-* /out
-* output
-* /output
+- samp
+- /samp
+- code
+- /cod
+- pre
+- /pre
+- out
+- /out
+- output
+- /output

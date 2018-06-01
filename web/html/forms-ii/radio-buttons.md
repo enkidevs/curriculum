@@ -20,8 +20,11 @@ links:
   - '[MDN docs for radio buttons](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio){website}'
 
 ---
+
 # Radio Buttons
+
 ---
+
 ## Content
 
 The HTML input form of type `radio` is used to create radio buttons, which are usually held in radio groups. These buttons are rendered as small empty circles that fill up upon selection.
@@ -33,6 +36,7 @@ Unlike checkboxes, `radio` buttons can have only one element selected per group.
 When creating radio buttons, each button within the same radio group is given the same `name`.
 
 Example:
+
 ```
 <form>
  <p>
@@ -67,6 +71,7 @@ Example:
   </div>
 </form>
 ```
+
 '[View results on codepen:](https://codepen.io/stefan-stojanovic/pen/MGoYVL){website}'
 
 In the example above, we have 3 `radio` buttons, each with the same name - `gender` and each with a unique `value` that is used to identify each button. Also, each button has an `id`. This `id` is used with the `<label>` element's `for` attribute to link the label to the radio button.
@@ -80,6 +85,7 @@ On the other hand, if no value is specified, and the user selects the same butto
 Additionally, if you want your form with radio buttons to have a default value, you should add the `check` attribute.
 
 Same example with `checked` added:
+
 ```
 <form>
  <p>
@@ -120,40 +126,42 @@ Furthermore, you can also have as many radio groups as you require per web page 
 You can also style your radio groups with CSS. For instance, you can modify the colors of the radio buttons, add a fade-out effect when one button is selected, etc.
 
 ---
+
 ## Practice
 
 Write the form code that creates a radio button.
 
 `<??? ???="???" name="topic" value="item"> Item <???>`
 
-* input
-* type
-* radio
-* /input
-* name
-* value
+- input
+- type
+- radio
+- /input
+- name
+- value
 
 ---
+
 ## Revision
 
 Which line creates an HTML form’s radio buttons?
 
 ???
 
-* `<input type="radio" name="topic" value="item"> Item </input>`
-* `<radio name="topic" value="item"> Item </radio>`
-* `<input radio="topic" value="item"> Item </input>`
-* `<input type="radio" value="topic" name="item"> Item </input>`
-
+- `<input type="radio" name="topic" value="item"> Item </input>`
+- `<radio name="topic" value="item"> Item </radio>`
+- `<input radio="topic" value="item"> Item </input>`
+- `<input type="radio" value="topic" name="item"> Item </input>`
 
 ---
+
 ## Quiz
 
 ### Test your knowledge on input `type="radio"` buttons?
 
 Which statement is true?
 
-* Radio buttons within one radio group can have only one option selected at a time.
-* Radio buttons within one radio group can have many options selected at a time.
-* You can have multiple radio button groups with the same `name` in a webpage.
-* Radio buttons can't work without applying CSS to them
+- Radio buttons within one radio group can have only one option selected at a time.
+- Radio buttons within one radio group can have many options selected at a time.
+- You can have multiple radio button groups with the same `name` in a webpage.
+- Radio buttons can't work without applying CSS to them

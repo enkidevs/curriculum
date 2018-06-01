@@ -20,8 +20,11 @@ standards:
   web.syntax-html.6: 10
 
 ---
+
 # Doctype - always first
+
 ---
+
 ## Content
 
 In an HTML web page, the very first thing you should write is the `<!DOCTYPE html>` declaration.
@@ -35,13 +38,14 @@ For HTML5 the declaration is typed as:
 ```
 
 ---
+
 ## Practice
 
 What declaration is always first in an HTML web page?
 
 ???
 
-* `<!DOCTYPE html>`
-* `<body>`
-* `<html>`
-* `<!HTML document>`
+- `<!DOCTYPE html>`
+- `<body>`
+- `<html>`
+- `<!HTML document>`

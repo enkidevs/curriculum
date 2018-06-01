@@ -23,13 +23,17 @@ links:
   - '[MDN docs for cite](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite){website}'
 
 ---
+
 # Cite Element
+
 ---
+
 ## Content
 
 The HTML `<cite>` element is used to describing a reference to a cited `creative work`. This element has to contain either the title or the URL of the cited work.
 
 What falls under creative work:
+
 - Any online content
 - Any book
 - Any computer program
@@ -41,6 +45,7 @@ What falls under creative work:
 - Any research paper
 
 Example:
+
 ```
 <p>
   More information about enki
@@ -53,21 +58,22 @@ Example:
 The cited URL under the `<cite>` element will, by default, display in <i>italic</i>. However, this is easily editable by adding the `font-style` CSS property to the `<cite>` element.
 
 ---
+
 ## Practice
 
 Which statement about the `<cite>` element is not correct?
 
 ???
 
-* displays as a block element
-* used for indicating a citation
-* default font style is italic
-* works such as book, essay, poem, & script
-* works such as movie, play, song, & TV show.
-* displays as an inline element
-
+- displays as a block element
+- used for indicating a citation
+- default font style is italic
+- works such as book, essay, poem, & script
+- works such as movie, play, song, & TV show.
+- displays as an inline element
 
 ---
+
 ## Revision
 
 What HTML element is best to use in this example?
@@ -90,21 +96,22 @@ and Technicolor.
 
 tag = ???
 
-* `<cite>`
-* `<quote>`
-* `<blockquote>`
-* `<q>`
-* `<movie>`
-* `<title>`
+- `<cite>`
+- `<quote>`
+- `<blockquote>`
+- `<q>`
+- `<movie>`
+- `<title>`
 
 ---
+
 ## Quiz
 
 ### How much do you know about semantic HTML elements?
 
 Which HTML element is used to reference the title of a body of work (like a book, song, movie, painting, etc.)?
 
-* `<cite>`
-* `<quote>`
-* `<blockquote>`
-* `<q>`
+- `<cite>`
+- `<quote>`
+- `<blockquote>`
+- `<q>`

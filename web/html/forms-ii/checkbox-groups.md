@@ -21,8 +21,11 @@ links:
   - '[](){}'
 
 ---
+
 # Checkbox Groups
+
 ---
+
 ## Content
 
 The HTML input forms of type `checkbox` are square boxes that can be ticked or checked to be activated. They allow you to either select none, a single or more values at once.
@@ -30,6 +33,7 @@ The HTML input forms of type `checkbox` are square boxes that can be ticked or c
 **Note: A similar input form type is `radio`. This input type is also clickable, however, unlike with checkboxes, if multiple options are present, the radio buttons can have only one option checked at a time.**
 
 Example with multiple checkboxes:
+
 ```
 <form>
   <legend>
@@ -109,10 +113,10 @@ When this data is submitted and sent to the server, it can be captured as an arr
 
 Handling multiple checkboxes with a single server variable: '[Check out Here](https://stackoverflow.com/questions/18745456/handle-multiple-checkboxes-with-a-single-serverside-variable)'
 
-
 Furthermore, you can add a `checked` attribute to make a checkbox checked by default. Additionally, if the answers you provided are not enough, you can add an `other` checkbox with a `textfield` for the user to type an answer themselves.
 
 Example:
+
 ```
 <form>
  <div>
@@ -141,67 +145,69 @@ Along with the `checked` and `unchecked` state, checkboxes have a third state ca
 
 This `indeterminate` state is shown with CSS styling and CSS Tricks. More on this: '[Indeterminate state checkboxes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)'
 
-
 ---
+
 ## Practice
 
 Checkboxes have three possible states, these are `checked`, `unchecked` and:
 
 ???
 
-* `indeterminate`
-* `on`
-* `off`
-* `intermidiate`
-* There is no third state
+- `indeterminate`
+- `on`
+- `off`
+- `intermidiate`
+- There is no third state
 
 ---
+
 ## Revision
 
 Create a checkbox group with two checkboxes and larger clickable area
 
- ```
+```
 <???>
-  <legend>
-    Choose favorite meal
-  </legend>
-    <div>
-     <???
-        type="???" id="soup"
-        name="meal" value="soup" ???>
-     <???
-        for="soup">Soup
-     <???>
-    </div>
-    <div>
-     <???
-        type="???" id="burgers"
-        name="meal" value="burgers">
-     <???
-        for="burgers">Burgers
-     </???>
-    </div
+ <legend>
+   Choose favorite meal
+ </legend>
+   <div>
+    <???
+       type="???" id="soup"
+       name="meal" value="soup" ???>
+    <???
+       for="soup">Soup
+    <???>
+   </div>
+   <div>
+    <???
+       type="???" id="burgers"
+       name="meal" value="burgers">
+    <???
+       for="burgers">Burgers
+    </???>
+   </div
 <???>
 ```
 
-* form
-* input
-* checkbox
-* checked
-* label
-* /label
-* input
-* checkbox
-* label
-* /label
-* /form
-* squarebox
-* /squarebox
-* button
-* /button
-* userInput
+- form
+- input
+- checkbox
+- checked
+- label
+- /label
+- input
+- checkbox
+- label
+- /label
+- /form
+- squarebox
+- /squarebox
+- button
+- /button
+- userInput
 
 ---
+
 ## Quiz
 
 ### How much do you know about checkboxes?
@@ -210,7 +216,7 @@ How are checkboxes styled?
 
 ???
 
-* With CSS
-* Can't be styled
-* With proper HTML
-* Using the `style` menu each browser provides for HTML editting
+- With CSS
+- Can't be styled
+- With proper HTML
+- Using the `style` menu each browser provides for HTML editting

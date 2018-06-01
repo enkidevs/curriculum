@@ -24,6 +24,7 @@ links:
 # Vertically-center anything
 
 ---
+
 ## Content
 
 Use `flexbox` to center anything vertically:
@@ -34,7 +35,7 @@ html, body {
   margin: 0;
 }
 
-body { 
+body {
   align-items: center;
   display: flex;
 }
@@ -43,9 +44,11 @@ body {
 There may be some unwanted behaviour in IE11.
 
 ---
+
 ## Revision
 
 You can verically-center elements inside a flex container with:
+
 ```
 .container{
  display: flex;
@@ -53,9 +56,8 @@ You can verically-center elements inside a flex container with:
 }
 ```
 
-* `align-items`
-* `center`
-* `justify-content`
-* `vertical-center`
-* `flex-center`
-
+- `align-items`
+- `center`
+- `justify-content`
+- `vertical-center`
+- `flex-center`
