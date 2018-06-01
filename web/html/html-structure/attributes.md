@@ -30,7 +30,6 @@ Example:
 ```
 In the example above the `src="enki_logo.jpg"` is an attribute for the `<img>` tag.
 
-
 ---
 ## Practice
 
@@ -47,22 +46,18 @@ What are the two attributes of this code?
 
 ???
 
-* `href` and `target`
-* `<p>` and `<a>`
-* `href` and `<p>`
-* `https://www.enkipro.com` and `_blank`
-* `link` and `target`
-
-
 Attribute values should always be enclosed within what symbols?
 
 ???
 
+* `href` and `target`
 * Quotation marks
+* `<p>` and `<a>`
+* `href` and `<p>`
+* `https://www.enkipro.com` and `_blank`
 * Parenthesis
 * Commas
 * Periods
-* Greater & lesser signs
 
 ---
 ## Revision
@@ -71,17 +66,15 @@ HTML attributes are required to be placed where?
 
 ???
 
-* Within the opening tag.
-* Within the closing tag.
-* Between the opening and closing tags.
-* Before the opening tag.
-* After the closing tag.
-
-Every HTML element requires an attribute.
+True or False? `Every HTML element requires an attribute.`
 
 ???
 
+* Within the opening tag.
 * False
+* Within the closing tag.
+* Between the opening and closing tags.
+* Before the opening tag.
 * True
 
 ---
@@ -90,6 +83,8 @@ Every HTML element requires an attribute.
 ### How much do you know about HTML attributes?
 
 HTML attributes usually come in what format?
+
+???
 
 * pairs like: name="value"
 * styles like: font-size
