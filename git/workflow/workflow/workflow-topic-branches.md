@@ -24,6 +24,7 @@ links:
 # Workflow: topic branches
 
 ---
+
 ## Content
 
 A topic branch is a branch that you create and use for work on a feature.
@@ -31,41 +32,48 @@ A topic branch is a branch that you create and use for work on a feature.
 The idea is to work on a fix or an experiment separately from the `master` branch. This makes it easier to review changes, as all the commits relate to one topic.
 
 For example, you could work on solving an issue:
+
 ```
 $ git checkout -b iss14
 # checkout as a new branch "iss14"
 # fix the issue
 ```
+
 Once you have solved the problem you can merge it into the master branch:
+
 ```
 $ git checkout master
 $ git merge iss14
 # merge the fix
 ```
+
 Then you can delete the topic branch:
+
 ```
 $ git branch -d iss14
 ```
 
 ---
+
 ## Practice
 
 Create a new branch :
+
 ```
 $ git ??? ??? newFeature
 ```
 
-* `checkout`
-* `-b`
-* `branch`
-* `-d`
+- `checkout`
+- `-b`
+- `branch`
+- `-d`
 
 ---
+
 ## Revision
 
 A way of keeping the master branch clean and safely experimenting is by using ??? .
 
-* branches 
-* merges
-* IDEs
-
+- branches
+- merges
+- IDEs

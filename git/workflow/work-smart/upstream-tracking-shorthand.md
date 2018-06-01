@@ -24,15 +24,18 @@ links:
 # Upstream (tracking) shorthand
 
 ---
+
 ## Content
 
-You can reference an upstream tracked branch with the `@{upstream}` or `@{u}` shorthand. 
+You can reference an upstream tracked branch with the `@{upstream}` or `@{u}` shorthand.
 
 For example:
+
 ```
 $ git checkout master
 $ git merge origin/master
 ```
+
 can be replaced by:
 
 ```
@@ -41,27 +44,29 @@ git merge @{u}
 ```
 
 ---
+
 ## Practice
 
 `@{u}` refers to ??? in the following snippet:
+
 ```
 $ git checkout myBranch
 $ git merge @{u}
 #upstream equivalent of myBranch
 ```
 
-* origin/myBranch
-* myBranch
-* origin/master
+- origin/myBranch
+- myBranch
+- origin/master
 
 ---
+
 ## Revision
 
-`@{u}` is used to reference the 
+`@{u}` is used to reference the
 
 ???
 
-* upstream tracked branch
-* downstream tracked branch
-* master branch
-
+- upstream tracked branch
+- downstream tracked branch
+- master branch

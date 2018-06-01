@@ -20,47 +20,55 @@ links:
 # Pulling a remote branch
 
 ---
+
 ## Content
 
 `git pull` is a command that combines `git fetch` and `git merge`.
 
 For example, to fetch and merge the branch `master` with the current branch:
+
 ```
 $ git pull origin
 ```
+
 The merge is automatic and you are unable to review the commits. For this reason, sometimes you can use `git fetch` and `git merge` instead.
 
 There's also the `-a` (shorthand for `--append`) flag targeting the fetch part of pulling. It tells git to append new branch HEADs to the `.git/FETCH_HEAD` file instead of overwriting everything with what's remote.
 
 ---
+
 ## Practice
 
 To `fetch` and `merge` master branch automatically you run :
+
 ```
 $ ??? ??? ???
 ```
 
-* `git`
-* `pull`
-* `origin`
-* `merge`
-* `checkout`
+- `git`
+- `pull`
+- `origin`
+- `merge`
+- `checkout`
 
 ---
+
 ## Revision
 
 To automatically `merge` the commits from the master branch you would use :
+
 ```
 $ git ??? origin
 ```
 
-* `pull`
-* `push`
-* `get`
-* `merge`
+- `pull`
+- `push`
+- `get`
+- `merge`
 
 ---
-## Quiz 
+
+## Quiz
 
 ### what does the -a flag in the following command stand for?
 
@@ -70,9 +78,9 @@ What option related to fetching is `-a` shorthand for in the following command?
 $ git pull -a
 ```
 
- ???
+???
 
-* --append
-* --amend
-* --all
-* --autostash
+- --append
+- --amend
+- --all
+- --autostash

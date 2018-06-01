@@ -20,6 +20,7 @@ links:
 # What is a hook?
 
 ---
+
 ## Content
 
 A hook is a custom script that automatically fires when certain actions occur.
@@ -33,11 +34,11 @@ If you run `git init` git will add examples to the hooks directory `.git/hooks`.
 For example, the hook called `post-commit` is useful for sending an email notification when there has been a new commit.
 
 ---
+
 ## Revision
 
 A hook is a custom ??? that fires when a certain ??? occurs.
 
-* script
-* action
-* error
-
+- script
+- action
+- error

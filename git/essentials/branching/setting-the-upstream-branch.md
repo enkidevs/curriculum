@@ -23,6 +23,7 @@ links:
 # Setting the upstream branch
 
 ---
+
 ## Content
 
 When you use the `git clone` or `git checkout` commands on a remote repository, a tracking branch is set up automatically.
@@ -30,32 +31,35 @@ When you use the `git clone` or `git checkout` commands on a remote repository, 
 Instead, you can explicitly set the upstream branch by using the `-u` or `--set-upstream-to` options.
 
 For example, to set the current branch to track the remote branch `scrollFix`:
+
 ```
 $ git branch -u origin/scrollFix
 ```
 
 ---
+
 ## Practice
 
 ```
-$ git ??? ??? 
+$ git ??? ???
         ???/???
-``` 
-is used to set the current branch to follow the remote branch *newFeature*.
+```
 
-* `branch`
-* `-u`
-* `origin`
-* `newFeature`
-* `checkout`
-* `-upstream`
+is used to set the current branch to follow the remote branch _newFeature_.
+
+- `branch`
+- `-u`
+- `origin`
+- `newFeature`
+- `checkout`
+- `-upstream`
 
 ---
+
 ## Revision
 
 `git clone` and `git checkout` commands on a remote repository set up a ??? branch automatically.
 
-* tracking
-* single
-* false
-
+- tracking
+- single
+- false

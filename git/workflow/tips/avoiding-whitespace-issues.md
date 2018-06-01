@@ -24,46 +24,54 @@ links:
 # Avoiding whitespace issues
 
 ---
+
 ## Content
 
-git automatically warns about spaces at the end of a line, blank lines at the end of a file and spaces before tabs at the beginning of a line. 
+git automatically warns about spaces at the end of a line, blank lines at the end of a file and spaces before tabs at the beginning of a line.
 
 To get warnings about whitespace when you use `git diff`, add the following to your `.gitconfig` file:
+
 ```
 [core]
       whitespace = warn
 ```
+
 Alternatively, execute the command to do exactly the same:
+
 ```
-$ git config --global 
+$ git config --global
              core.whitespace warn
 ```
+
 Now git will highlight the whitespace issues so you can fix them.
 
 ---
+
 ## Practice
 
 Configure git to warn you about whitespaces
+
 ```
-$ git ??? ??? 
+$ git ??? ???
     ???.??? ???
 ```
 
-* `config`
-* `--global`
-* `core`
-* `whitespace`
-* `warn`
+- `config`
+- `--global`
+- `core`
+- `whitespace`
+- `warn`
 
 ---
+
 ## Revision
 
 ```
-$ git config --global 
+$ git config --global
            core.whitespace warn
 ```
+
 Would ??? .
 
-* highlight the whitespace issues
-* automatically fix whitespace issues
-
+- highlight the whitespace issues
+- automatically fix whitespace issues

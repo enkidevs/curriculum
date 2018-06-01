@@ -24,31 +24,32 @@ links:
 # Squashing commits
 
 ---
+
 ## Content
 
 If you contribute to an open source project, e.g. by submitting a pull request with a bug fix, it should be presented as one unit of code.
 
 You should **squash** your commits together. For example, if you have three commits:
+
 ```
 git reset HEAD~3
 git add .
 git commit -am "Fix bug #14"
 git push --force
 ```
-The `--force` option is needed if the commits have already been pushed, in order for them to be replaced. **Beware** that this overwrites previous history so always avoid when possible.
 
+The `--force` option is needed if the commits have already been pushed, in order for them to be replaced. **Beware** that this overwrites previous history so always avoid when possible.
 
 By squashing you can get rid of `"fix typo"` commits and have all your changes grouped in just one commit. This will keep the maintainer happy!
 
 ---
+
 ## Revision
 
-Squashing commits means 
+Squashing commits means
 
 ??? .
 
-
-* combining them into one big commit
-* deleting them
-* commiting them
-
+- combining them into one big commit
+- deleting them
+- commiting them
