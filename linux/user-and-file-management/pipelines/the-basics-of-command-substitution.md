@@ -1,35 +1,26 @@
 ---
 author: jfarmer
-
 levels:
-
   - basic
-
   - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-tags:
-
-  - introduction
-
-  - workout
-
-
+tags: []
 links:
-
-  - '[More substitutions](http://www.tldp.org/LDP/abs/html/commandsub.html){website}'
-
-
+  - >-
+    [More
+    substitutions](http://www.tldp.org/LDP/abs/html/commandsub.html){website}
+aspects:
+  - introduction
+  - workout
 ---
 
 # The Basics of Command Substitution
 
+
 ---
+
 ## Content
 
 Using `|`, we can glue the standard output of one program to the standard input of another program.  Using `>` we can redirect standard output to a file.  However, there are times when we want to store whatever the program sends to standard output into a shell variable or use it as a command line argument for another program.
@@ -77,19 +68,22 @@ Dec  2  2015 /usr/bin/curl*
 $
 ```
 
+
 ---
+
 ## Practice
 
 You have the following file `websites.txt`:
-```
+
+```bash
 google.com
 twitter.com
 enki.com
 ```
+
 Use substitution to pass the content of the file to `curl`:
-```
-$ ??? ???(???)
-```
+
+    $ ??? ???(???)
 
 * `curl`
 * `$`
@@ -98,7 +92,9 @@ $ ??? ???(???)
 * `<`
 * `websites.txt`
 
+
 ---
+
 ## Revision
 
 If you want to use the output of a program as a command line argument, you would have to use
@@ -107,6 +103,6 @@ If you want to use the output of a program as a command line argument, you would
 
 * $(...) or `...`
 * >
-* |
-* >>
+* \|
+* > >
 

@@ -1,47 +1,31 @@
 ---
 author: tuwi.dc
-
 levels:
-
   - basic
-
   - advanced
-
   - medium
-
 type: normal
-
 category: hack
-
 tags:
-
   - linux
-
   - terminal
-
   - random
-
   - password
-
   - generator
-
-  - workout
-
-
 links:
-
   - '[Base64 Encoding](https://en.wikipedia.org/wiki/Base64){website}'
-
-
+aspects:
+  - workout
 ---
 
 # Random password generator
 
+
 ---
+
 ## Content
 
 You can generate passwords in the terminal in many ways. Two of them are listed below.
-
 
 Using `openssl`:
 
@@ -63,7 +47,6 @@ $
 
 By default `pwgen` generates pronounceable passwords.  The `-s` option tells `pwgen` to generate completely random, secure password instead (containing only letters and numbers).  `40` is the length of password to generate.
 
-
 By using the `-y` option we can tell `pwgen` to also include symbols in the password:
 
 ```shell
@@ -73,13 +56,14 @@ $
  
 ```
 
+
 ---
+
 ## Practice
 
 Generate a random 20 chararacters password using `pwgen` :
-```
-$ ??? ??? ???
-```
+
+    $ ??? ??? ???
 
 * `pwgen`
 * `-s`
@@ -87,13 +71,14 @@ $ ??? ??? ???
 * `openssl`
 * `40`
 
+
 ---
+
 ## Revision
 
 You can generate a 30 characters password with `openssl` by running:
-```
-$ ??? ??? -base64 30
-```
+
+    $ ??? ??? -base64 30
 
 * `openssl`
 * `rand`

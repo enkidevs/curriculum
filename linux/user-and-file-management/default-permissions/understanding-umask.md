@@ -1,37 +1,28 @@
 ---
 author: tuwi.dc
-
 levels:
-
   - basic
-
 type: normal
-
 category: must-know
-
 tags:
-
   - linux
-
   - permissions
-
   - umask
-
   - terminal
-
   - files
-
+aspects:
   - obscura
-
   - workout
-
   - deep
+---
+
+# Understanding 
+
+`umask`
+
 
 ---
 
-# Understanding `umask`
-
----
 ## Content
 
 Every file or directory gets some default permissions when created. These values can be set using `umask`[1].
@@ -41,19 +32,24 @@ As its name states, the value itself is a *mask* that *takes away* permissions. 
 The default permission for new **files** is 666 (rw-rw-rw-), which gets masked by the `umask` value.
 
 Masking is equivalent to turning off permission bits - if the permission does not already exist[2], the `umask` will end up doing nothing. For example, creating a new file while the `umask` is set to *111* does not change permissions:
+
 ```bash
 rw-rw-rw-
 # masking x bit still yields
 rw-rw-rw-
 ```
+
 However, this is not the case for a `umask` value of *333*, in which both *w* and *x* bits are switched off:
+
 ```bash
 rw-rw-rw-
 # masking w and x bits
 r--r--r--
 ```
+
 You can check the current `umask` value with:
-```
+
+```bash
 $ umask
 0022
 #these would be the permissions
@@ -66,10 +62,11 @@ $ ls -l new-file
 $ mkdir new-dir
 $ ls -l new-dir
 drwxr-xr-x 2 user group 4096 ./
+```
 
-```
 To change the umask of current session to `077`, run:
-```
+
+```bash
 $ umask 077
 #or
 $ umask u+rwx,g-rwx,o-rwx
@@ -86,7 +83,9 @@ $ umask
 
 To apply this for all the users of the system you should add this in `/etc/profile` file or their specific `~/.bashrc` file.
 
+
 ---
+
 ## Practice
 
 What default permission would a *new file* have if the `umask` is `314` (which translates to `-wx--xr--`)?
@@ -95,10 +94,12 @@ What default permission would a *new file* have if the `umask` is `314` (which t
 
 * r--rw--w-
 * r--r--r--
-* -wx-wx-w-
-* --x--x-wx
+* \-wx-wx-w-
+* \--x--x-wx
+
 
 ---
+
 ## Revision
 
 What `umask` value makes the new files only accessible to the user who created them?
@@ -110,13 +111,15 @@ What `umask` value makes the new files only accessible to the user who created t
 * 777
 * 000
 
+
 ---
-## Quiz 
+
+## Quiz
+
 ### how does umask work?
 
+
 What is the umask value, if the permission of a newly created file is `224`?
-
-
 
  ???
 
@@ -125,8 +128,11 @@ What is the umask value, if the permission of a newly created file is `224`?
 * 552
 * 443
 
+
 ---
+
 ## Footnotes
+
 [1:Permissions]
 The *mask* represents a 4 digit value, and it is a valid octal number. If fewer digits are passed as an argument, leading zeros are assumed.
 
@@ -134,3 +140,4 @@ The 3 rightmost digits represent the permissions granted to the user, user's gro
 
 [2:Files]
 In case of files, for which the x (or execute) permission is turned off by default.
+

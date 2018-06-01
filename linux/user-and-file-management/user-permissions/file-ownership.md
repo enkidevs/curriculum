@@ -1,35 +1,25 @@
 ---
 author: jfarmer
-
 levels:
-
   - basic
-
   - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-tags:
-
-  - introduction
-
-  - workout
-
-
+tags: []
 links:
-
-  - '[Permissions](https://wiki.archlinux.org/index.php/File_permissions_and_attributes){website}'
-
-
+  - >-
+    [Permissions](https://wiki.archlinux.org/index.php/File_permissions_and_attributes){website}
+aspects:
+  - introduction
+  - workout
 ---
 
 # File Ownership
 
+
 ---
+
 ## Content
 
 On Linux, every file and directory is given both a user owner and a group owner.  You can use `ls -l` or `ls -ld` to see which user and group owns a specific file or directory (respectively).
@@ -42,10 +32,11 @@ drwxrwxr-x 10 root syslog
     4096 Jun 13 06:25 /var/log
 $ ls -l /var/log/syslog
 -rw-r
-
 ```
 
+
 ---
+
 ## Practice
 
 Consider the following snippet:
@@ -65,12 +56,15 @@ Who has the fewest permissions for this file?
 * Group
 * They all have the same permissions
 
+
 ---
+
 ## Revision
 
-You can use `???` to see which user or group owns a specific _file_.
+You can use `???` to see which user or group owns a specific *file*.
 
 * `ls -l`
 * `ls -a`
 * `ls -o`
 * `ls -d`
+

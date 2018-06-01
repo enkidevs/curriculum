@@ -1,30 +1,21 @@
 ---
 author: jfarmer
-
 levels:
-
   - basic
-
   - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-tags:
-
+tags: []
+aspects:
   - introduction
-
-
-
-
 ---
 
 # Manipulating Environment Variables
 
+
 ---
+
 ## Content
 
 There are four things you might want to do to an environment variable, which we'll refer to as "variable" from here on out:

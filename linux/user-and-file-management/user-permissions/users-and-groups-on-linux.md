@@ -1,32 +1,22 @@
 ---
 author: jfarmer
-
 levels:
-
   - basic
-
   - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-tags:
-
+tags: []
+aspects:
   - introduction
-
   - workout
-
-
-
-
 ---
 
 # Users And Groups On Linux
 
+
 ---
+
 ## Content
 
 Linux is a multiuser operating system.  Like any multiuser operating system, it has a notion of "permissions", since by default one doesn't want one user to be able to edit another user's files (or edit system files without proving they're an administrator).  There are two concepts central to Linux's permissions: users and groups.
@@ -55,13 +45,14 @@ $
 
 Here we can see that the user `jesse` belongs to three groups: `admin`, `www-data`, and `rvm`.
 
+
 ---
+
 ## Revision
 
 You can see the groups a user is in by issuing:
-```
-$ ??? ???
-```
+
+    $ ??? ???
 
 * `groups`
 * `user`

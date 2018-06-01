@@ -1,32 +1,24 @@
 ---
 author: jfarmer
-
 levels:
-
   - basic
-
   - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-tags:
-
+tags: []
+aspects:
   - introduction
-
   - workout
+---
 
+# The Basics of The Pipe Operator 
 
+`|`
 
 
 ---
 
-# The Basics of The Pipe Operator `|`
-
----
 ## Content
 
 In Unix, every process has three standard streams: `stdin`, `stdout`, and `stderr`.  By default anything a process writes to `stdout` will appear as text on the console.  However, we can make it so that one process's `stdout` is attached to another process's `stdin` to produce a "pipeline."
@@ -46,13 +38,14 @@ On its own, the `ps ax` command writes a list of currently-running processes to 
 
 Together, we get a single "pipeline" that lists all currently-running processes whose names contain "mysql".  The key thing is that `ps` is unaware that `grep` is involved and `grep` is unaware that `ps` involved — both processes are only thinking in terms of reading from `stdin` and writing to `stdout`.  The operating system glues the two processes together using the `|` operator.
 
+
 ---
+
 ## Revision
 
 Print the lines which contain `eth0` by pipelining `ifconfig` ‘s output :
-```
-$ ??? ??? ??? eth0
-```
+
+    $ ??? ??? ??? eth0
 
 * `ifconfig`
 * `|`
