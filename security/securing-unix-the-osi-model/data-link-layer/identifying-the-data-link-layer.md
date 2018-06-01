@@ -27,6 +27,7 @@ parent: securing-the-physical-layer
 # Identifying the Data Link Layer
 
 ---
+
 ## Content
 
 The Data Link Layer (Layer 2) is responsible for data transfer between two physical devices (or **nodes**) in a wide area network (WAN) or local area network (LAN). The Data Link Layer takes the form of both physical ethernet connections and wireless networking and the protocols that facilitate the transfer between them. Devices on this layer are identified by their media access control (MAC) address.
@@ -34,40 +35,42 @@ The Data Link Layer (Layer 2) is responsible for data transfer between two physi
 One note-worthy protocol in the Data Link Layer is the Address Resolution Protocol(ARP), responsible for mapping IP Addresses to MAC addresses on the link layer, and ensures that data transfered over the network reaches the correct destination.
 
 ---
+
 ## Practice
 
 What role does the Data Link Layer play in the OSI 7 Layer Model?
 ???
 
-
-* Transmitting data between network nodes
-* Routing and transmission over the physical topography of the Internet
-* Providing computational power via electronic circuits
-* Packaging data packets into data streams and vice versa for transport
-* Providing a user interface
+- Transmitting data between network nodes
+- Routing and transmission over the physical topography of the Internet
+- Providing computational power via electronic circuits
+- Packaging data packets into data streams and vice versa for transport
+- Providing a user interface
 
 ---
+
 ## Revision
 
 Nodes on the Data Link Layer are identified by their ???
 
-
-* MAC address
-* serial number
-* UUID
-* LAN number
+- MAC address
+- serial number
+- UUID
+- LAN number
 
 ---
-## Quiz 
+
+## Quiz
+
 ### What role does this Layer play in the OSI 7 Layer Model?
+
 ```
 What role does the Data Link Layer play in the OSI 7 Layer Model?
 ```
 
- ???
+???
 
-* Transmitting data between network nodes
-* Routing and transmission over the physical topography of the Internet
-* Providing computational power via electronic circuits
-* Packaging data packets into data streams and vice versa for transport
-
+- Transmitting data between network nodes
+- Routing and transmission over the physical topography of the Internet
+- Providing computational power via electronic circuits
+- Packaging data packets into data streams and vice versa for transport
