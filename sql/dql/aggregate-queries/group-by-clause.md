@@ -19,10 +19,7 @@ parent: order-by-clause
 aspects:
   - workout
 ---
-
 # Group By clause
-
-
 ---
 
 ## Content
@@ -31,13 +28,14 @@ The `GROUP BY` clause is often used with aggregate functions (e.g. `SUM`, `AVG`)
 
 In our Pokemon db, we have a table called *move_name* with the following cloumns:
 
-* id - unique move name id
-* language_id - id of the language name is spelled in
-* move_id
-* name - how each move is called in each language
-  `GROUP BY` will help us count how many move_names are there for each langauge:
+i) id : unique move name id
+ii) language_id : id of the language name is spelled in
+iii) move_id
+iv) name : how each move is called in each language
 
-```bash
+`GROUP BY` will help us count how many move_names are there for each langauge:
+
+```sql
 SELECT COUNT(name), language_id
 FROM move_name
 GROUP BY language_id;
@@ -62,20 +60,23 @@ count | language_id
 
 We have a table called pokemon. Two of its fields are:
 
-* is_default - it can be either true or false
-* name
-  We want to know how many pokemon are (not) default:
+i) is_default - it can be either true or false
+ii) name
 
-    SELECT ???(name),???
-    FROM pokemon
-    ??? is_default;
+We want to know how many pokemon are (not) default:
 
-    --Result:
-    count | is_default
-    ======+============
-       90 | f
-      721 | t
-    (2 rows)
+```sql
+SELECT ???(name),???
+FROM pokemon
+??? is_default;
+
+--Result:
+count | is_default
+======+============
+    90 | f
+  721 | t
+(2 rows)
+```
 
 * COUNT
 * is_default
@@ -91,34 +92,37 @@ We have a table called pokemon. Two of its fields are:
 
 In our pokemon db item is a table with the following columns:
 
-* id - unique id of the item
-* cost - item's cost
-* fling_power - "Dark type move"[1]
-* item_category_id
-* item_fling_effect_id
-* name - item's name
-  We would like to get the average cost of each item category.
+i) id : unique id of the item
+ii) cost : item's cost
+iii) fling_power : "Dark type move"[1]
+iv) item_category_id
+v) item_fling_effect_id
+vi) name : item's name
+  
+  
+We would like to get the average cost of each item category.
 
-    SELECT ???(cost),item_category_id
-    FROM ???
-    ??? item_category_id
-    ORDER BY item_category_id;
+```sql
+SELECT ???(cost),item_category_id
+FROM ???
+??? item_category_id
+ORDER BY item_category_id;
 
-    --Result:
-    avg      | item_category_id
-    =========+==================
-    550      |        1
-    20       |        2
-    20       |        3
-    12       |        4
-    20       |        5
-    20       |        6
-    18.88    |        7
-    20       |        8
-    134.28   |        9
-    1810     |        10
-
-    ...
+--Result:
+avg      | item_category_id
+=========+==================
+550      |        1
+20       |        2
+20       |        3
+12       |        4
+20       |        5
+20       |        6
+18.88    |        7
+20       |        8
+134.28   |        9
+1810     |        10
+...
+```
 
 * AVG
 * item
