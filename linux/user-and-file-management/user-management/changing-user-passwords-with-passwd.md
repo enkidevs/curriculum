@@ -1,27 +1,23 @@
 ---
 author: jfarmer
-
 levels:
-
   - basic
-
   - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-tags:
-
+tags: []
+aspects:
   - workout
+---
+
+# Changing User Passwords With 
+
+`passwd`
+
 
 ---
 
-# Changing User Passwords With `passwd`
-
----
 ## Content
 
 To change a user's password, including your own, use the `passwd` command.
@@ -40,7 +36,9 @@ There are many options available to `passwd`, like requiring a user to change it
 
 Read `man passwd` for more details.
 
+
 ---
+
 ## Practice
 
 Change `enkiUser` ‘s password:
@@ -55,7 +53,9 @@ $ ??? ??? ???
 * `changepass`
 * `enki`
 
+
 ---
+
 ## Revision
 
 Do you have to be a root to change your own password using  `passwd` ?  
@@ -65,13 +65,15 @@ Do you have to be a root to change your own password using  `passwd` ?
 * No
 * Yes
 
+
 ---
-## Quiz 
+
+## Quiz
+
 ### Can you identify a security vulnerability?
 
 
 Which of the following is most likely to cause a lot of problems?
-
 
  ???
 
@@ -79,3 +81,4 @@ Which of the following is most likely to cause a lot of problems?
 * Forcing expiry and renewal dates for root user's password
 * Using `sudo passwd` to change someone's password
 * Using `sudo passwd` to change your own password
+

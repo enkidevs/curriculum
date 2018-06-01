@@ -1,32 +1,32 @@
 ---
 author: jfarmer
-
 levels:
-
   - basic
-
   - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-tags:
-
+tags: []
+aspects:
   - introduction
-
   - workout
+---
 
+# The Standard Streams: 
 
+`stdin`
+
+, 
+
+`stdout`
+
+, and 
+
+`stderr`
 
 
 ---
 
-# The Standard Streams: `stdin`, `stdout`, and `stderr`
-
----
 ## Content
 
 In Unix, when a program wants to open a file for reading or writing it must obtain a "file descriptor" from the operating system.  The operating system keeps track of which file descriptor references which file.
@@ -37,22 +37,25 @@ Historically, "standard input" meant a physical keyboard and the two output stre
 
 These abstractions form the basis for Unix pipelines, where the standard output of one program is fed to the standard input of another program.  Together, the result is behavior that neither program could produce on its own.
 
+
 ---
+
 ## Practice
 
 Match the file descriptors with their names:
-```
-stdin - ???
-stdout - ???
-stderr - ???
-```
+
+    stdin - ???
+    stdout - ???
+    stderr - ???
 
 * `standard input`
 * `standard output`
 * `standard error`
 * `standard stream`
 
+
 ---
+
 ## Revision
 
 How would a program know who is the source of the input received through `stdin` ?

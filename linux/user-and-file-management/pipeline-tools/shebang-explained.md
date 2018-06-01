@@ -1,38 +1,30 @@
 ---
 author: tuwi.dc
-
 levels:
-
   - advanced
-
   - medium
-
 type: normal
-
 category: must-know
-
 tags:
-
   - linux
-
   - bash
-
   - shebang
-
   - interpreter
-
-  - workout
-
-
-
 parent: set-file-permissions-for-users
 notes: Approved by Jordan
+aspects:
+  - workout
+---
+
+# Shebang 
+
+`#!`
+
+ explained
+
 
 ---
 
-# Shebang `#!` explained 
-
----
 ## Content
 
 The shebang (`#!`) at the head of a script tells your system that this file is a set of commands to be fed to the indicated command interpreter. 
@@ -54,36 +46,44 @@ Depending on the situation, we might need to run a script with a different versi
 #!/usr/bin/python 
 #!/usr/bin/python3
 ```
+
 Or :
+
 ```perl
 #!/usr/bin/perl
 #!/usr/bin/perl -w
 ```
+
 To ensure the script is run using the first interpreter in `PATH` use `/usr/bin/env`:
+
 ```python
 #!/usr/bin/env python
 #!/usr/bin/env node
 ```
 
+
 ---
+
 ## Practice
 
 What should be added to the script in order for the system to use the first `node` interpreter in `PATH` ?
-```
-#! ???
-```
+
+    #! ???
 
 * `/usr/bin/env node`
 * `/usr/bin/node`
 * `/bin/sh`
 * `/usr/bin/env node4`
 
+
 ---
+
 ## Revision
 
-```
+```bash
 #!/usr/bin/python3
 ```
+
 Is used to tell the system what ??? 
 
 should be used for that particular file.
@@ -92,7 +92,11 @@ should be used for that particular file.
 * script
 * path
 
+
 ---
+
 ## Footnotes
+
 [1:Directory permision]
 The `+x` bit for a directory allows the user to `cd` into it and access its inner files.
+

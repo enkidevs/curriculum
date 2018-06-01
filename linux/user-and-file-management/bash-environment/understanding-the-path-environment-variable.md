@@ -1,30 +1,25 @@
 ---
 author: jfarmer
-
 levels:
-
   - basic
-
   - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-tags:
-
+tags: []
+aspects:
   - introduction
+---
 
+# Understanding The 
 
+`PATH`
+
+ Environment Variable
 
 
 ---
 
-# Understanding The `PATH` Environment Variable
-
----
 ## Content
 
 Understanding the `PATH` environment variable and how to manipulate it is one of the most important things a beginner can master.  The contents of `PATH` tell your shell where to look for executables.  It is therefore central to understanding what happens when you type a command at the command prompt.
@@ -51,22 +46,26 @@ Let's say you type a command like `ls` at the command prompt.  How does `bash` k
 
 Internally, when you type `ls` and hit enter, `bash` does the following (assuming the contents of `PATH` are as above):
 
-- Is `/usr/local/bin/ls` a valid executable?  If yes, run it.
-- If no, is `/usr/bin/ls` a valid executable?  If yes, run it.
-- If no, is `/bin/ls` a valid executable?  If yes, run it.
+* Is `/usr/local/bin/ls` a valid executable?  If yes, run it.
+* If no, is `/usr/bin/ls` a valid executable?  If yes, run it.
+* If no, is `/bin/ls` a valid executable?  If yes, run it.
 
 Here, `bash` will continue down the list until it finds `/bin/ls` and then execute that.  If `bash` reaches the end of the list without finding a valid executable it will display a `command not found` error.
 
 If you're ever dealing with unexpected `command not found` errors then your first thought should be "Is there something wrong with my `PATH` environment variable?"
 
+
 ---
+
 ## Practice
 
 If the `PATH` variable looks like this:
-```
+
+```bash
 $ echo $PATH
 /usr/bin:/bin:/local/binaries
 ```
+
 In what order will the shell visit the folders in `PATH` to find a valid executable for `somecommand`?
 
 ???
@@ -81,7 +80,9 @@ In what order will the shell visit the folders in `PATH` to find a valid executa
 * /bin/local/binaries
 * somecommand
 
+
 ---
+
 ## Revision
 
 The `command not found` error is thrown if the executable couldn’t be found
@@ -93,9 +94,13 @@ The `command not found` error is thrown if the executable couldn’t be found
 * in the local folder.
 * in the list of folders contained in the EXE variable.
 
+
 ---
-## Quiz 
+
+## Quiz
+
 ### Do you know how the $PATH variable is evaluated?
+
 
 Suppose your $PATH value is:
 
@@ -103,9 +108,9 @@ Suppose your $PATH value is:
 $ echo $PATH
 /bin:/usr/bin:~/Desktop/rm-ext:~/atom
 ```
+
 What is the next directory the shell will look
 for an executable if no match was found in `/bin`?
-
 
  ???
 
@@ -113,3 +118,4 @@ for an executable if no match was found in `/bin`?
 * none, as /bin is already the last one
 * ~/atom
 * ~/Desktop/rm-ext
+

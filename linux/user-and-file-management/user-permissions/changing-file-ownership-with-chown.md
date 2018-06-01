@@ -1,32 +1,24 @@
 ---
 author: jfarmer
-
 levels:
-
   - basic
-
   - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-tags:
-
+tags: []
+aspects:
   - introduction
-
   - workout
+---
 
+# Changing File Ownership With 
 
+`chown`
 
 
 ---
 
-# Changing File Ownership With `chown`
-
----
 ## Content
 
 The `chown` command allows us to change the both the user and group ownership of files and directories.  The user running this command must have write permission to the file in question.
@@ -63,7 +55,9 @@ $ chown -R jesse:new-group /some/directory
 
 This command would not just change the owner of the `/some/directory` directory, but every file and subdirectory therein.
 
+
 ---
+
 ## Practice
 
 You can change the owner of a file without having to use `sudo` when 
@@ -75,14 +69,15 @@ You can change the owner of a file without having to use `sudo` when
 * You have read permissions for the file.
 * The file has the sticky bit permission.
 
+
 ---
+
 ## Revision
 
 Change the group for a file:
-```
-$ ??? ??? ??? 
-          ???
-```
+
+    $ ??? ??? ??? 
+              ???
 
 * `sudo`
 * `chown`

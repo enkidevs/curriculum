@@ -1,35 +1,25 @@
 ---
 author: jfarmer
-
 levels:
-
   - basic
-
   - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-tags:
-
-  - introduction
-
-  - workout
-
-
+tags: []
 links:
-
-  - '[www.tldp.org](http://www.tldp.org/LDP/GNU-Linux-Tools-Summary/html/x11655.htm){website}'
-
-
+  - >-
+    [www.tldp.org](http://www.tldp.org/LDP/GNU-Linux-Tools-Summary/html/x11655.htm){website}
+aspects:
+  - introduction
+  - workout
 ---
 
 # Matching Multiple Files With Wildcards
 
+
 ---
+
 ## Content
 
 When referencing files from the command line, you can use wildcard characters like `*` and `?` to refer to groups of files (called *globs*).
@@ -48,7 +38,7 @@ The `?` wildcard matches any single character.  For example, `???` would match e
 
 ### The `[...]` Wildcard
 
-You can also match specific characters by using the `[...]` wild card.  For example, ***.mp&#91;34&#93;** would match any file that ends with either `.mp3` or `.mp4`.  The wildcard `[CcBb]at` would match `Cat`, `cat`, `Bat`, and `bat`.
+You can also match specific characters by using the `[...]` wild card.  For example, **\*.mp\[34]** would match any file that ends with either `.mp3` or `.mp4`.  The wildcard `[CcBb]at` would match `Cat`, `cat`, `Bat`, and `bat`.
 
 ### Be Careful With Spaces!
 
@@ -62,13 +52,16 @@ This would move all files matching `*` and a file named `.mp3` to the `~/music` 
 
 Likewise, imagine the difference between `rm *.mp3` (which removes every `.mp3` file) and `rm * .mp3` (which inadvertently removes *every* file).
 
+
 ---
+
 ## Practice
 
 What kind of file would the following expression match? 
 
 ???
-```
+
+```bash
 $ mv ??*.[mM]p3
 ```
 
@@ -77,7 +70,9 @@ $ mv ??*.[mM]p3
 * Any file with a name at least 2 character long and the extension `.mp4` .
 * Any file with a name at least 2 character long.
 
+
 ---
+
 ## Revision
 
 The `?` wildcard matches
