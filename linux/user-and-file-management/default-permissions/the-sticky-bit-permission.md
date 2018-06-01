@@ -14,13 +14,7 @@ aspects:
   - workout
 ---
 
-# The 
-
-`sticky bit`
-
- permission
-
-
+# The `sticky bit` permission
 ---
 
 ## Content

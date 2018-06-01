@@ -12,13 +12,7 @@ aspects:
   - workout
 ---
 
-# The 
-
-`setgid`
-
- permission
-
-
+# The `setgid` permission
 ---
 
 ## Content

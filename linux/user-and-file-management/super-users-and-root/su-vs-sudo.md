@@ -9,13 +9,7 @@ aspects:
   - introduction
 ---
 
-# `su`
-
- vs 
-
-`sudo`
-
-
+# `su` vs `sudo`
 ---
 
 ## Content

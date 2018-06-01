@@ -22,12 +22,7 @@ aspects:
   - workout
 ---
 
-# The 
-
-`2>&1`
-
- redirection
-
+# The `2>&1` redirection
 
 ---
 

@@ -16,13 +16,7 @@ aspects:
   - workout
 ---
 
-# The 
-
-`setuid`
-
- permission
-
-
+# The `setuid` permission
 ---
 
 ## Content
