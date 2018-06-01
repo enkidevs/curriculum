@@ -27,15 +27,13 @@ aspects:
 ---
 
 # Create a table
-
-
 ---
 
 ## Content
 
 A table can be created in PostgresSQL using the following query:
 
-```bash
+```sql
 CREATE TABLE first_table(
   column1 datatype NOT NULL,
   column2 datatype,
@@ -55,17 +53,19 @@ You can verify if a table was succesfully created using `\d first_table;` when w
 
 Create a table that:
 
-i)is called "student"
-ii)first column: id, char(50)
-iii)second column: full_name, char(50)
-iv)third column: year_of_study, smallint
+i) is called "student"
+ii) first column: id, char(50)
+iii) second column: full_name, char(50)
+iv) third column: year_of_study, smallint
 
+```sql
     ??? TABLE student(
       id char(50) ???,
       full_name ???,
       year_of_study smallint,
       PRIMARY KEY(???)
     );
+```
 
 * CREATE
 * NOT NULL
@@ -81,17 +81,16 @@ iv)third column: year_of_study, smallint
 
 Which of the following queries would create this table:  
 
-is called `employees`  
-column1: ID char(50)  
-column2: full_name char(50)  
-column3: salary int  
+i) is called `employees`  
+ii) column1: ID char(50)  
+iii) column2: full_name char(50)  
+iv) column3: salary int  
 
 ???
 
 * CREATE TABLE employees ( ID char(50), full_name char(50), salary int, PRIMARY KEY(ID));
 * UPDATE TABLE employees ( ID char(50), full_name char(50), salary int, PRIMARY KEY(ID));
 * CREATE TABLE employees ( ID char(50), full_name char(50), salary int, PRIMARY KEY(full_name));
-
 
 ---
 
