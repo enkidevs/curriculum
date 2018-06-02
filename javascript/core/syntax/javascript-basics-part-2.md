@@ -1,25 +1,22 @@
 ---
 author: alexjmackey
-
 levels:
   - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 standards:
   javascript.functions.5: 10
-
-tags:
+tags: []
+aspects:
   - introduction
-
 ---
+
 # JavaScript Basics - Part 2
 
+
 ---
+
 ## Content
 
 Like most programming languages, JavaScript has a number of syntax rules that must be adhered to.
@@ -51,7 +48,9 @@ If you omit the `var` keyword and are not in strict mode then a variable will st
 
 Not using `var` is a very bad idea as it is easy for variables to overwrite (sometimes called clobber) other variables.
 
+
 ---
+
 ## Practice
 
 Which scope are `var`s defind in?
@@ -63,7 +62,9 @@ Which scope are `var`s defind in?
 * window
 * strict
 
+
 ---
+
 ## Revision
 
 What operator is used to declare a variable in the *current scope*?
@@ -78,3 +79,4 @@ What operator is used to declare a variable in the *current scope*?
 * string
 * int
 * double
+

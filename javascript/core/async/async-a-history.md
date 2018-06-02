@@ -1,38 +1,28 @@
 ---
 author: rosielowther
-
 levels:
-
   - advanced
-
 type: normal
-
 category: must-know
-
 standards:
-
   javascript.async.3: 10
-
-tags:
-
-  - introduction
-
-  - workout
-
-  - obscura
-
-
+tags: []
 links:
-
-  - '[blog.risingstack.com](https://blog.risingstack.com/asynchronous-javascript/){website}'
-  - '[github.com](https://github.com/getify/You-Dont-Know-JS/tree/master/async%20%26%20performance){website}'
-
-
+  - >-
+    [blog.risingstack.com](https://blog.risingstack.com/asynchronous-javascript/){website}
+  - >-
+    [github.com](https://github.com/getify/You-Dont-Know-JS/tree/master/async%20%26%20performance){website}
+aspects:
+  - introduction
+  - workout
+  - obscura
 ---
 
 # Async: a history
 
+
 ---
+
 ## Content
 
 There are several ways of programming **asynchronously** in JavaScript. Each method was introduced as an improvement over the existing method. 
@@ -53,11 +43,12 @@ Pause and continue a generator function from a `yield` point. This is designed f
 
 In ES7 it will be possible to use the `async` keyword to create an async function. The `await` keyword works similarly to `yield`.
 
+
 ---
+
 ## Practice
 
 In ES7, it'll be possible to use the ??? keyword to create an async function. The ??? keyword works similarly to yield.
-
 
 * async
 * await
@@ -67,13 +58,14 @@ In ES7, it'll be possible to use the ??? keyword to create an async function. Th
 * apply
 * generator
 
+
 ---
+
 ## Revision
 
 What keyword is specific to **ES7 Async**?
 
 ???
-
 
 * `await`
 * `yield`

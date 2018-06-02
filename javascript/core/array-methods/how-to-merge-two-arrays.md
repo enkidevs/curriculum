@@ -1,31 +1,28 @@
 ---
 author: catalin
-
 levels:
   - basic
   - beginner
-
 type: normal
-
 category: hack
-
 standards:
   javascript.data-types-structures.2: 10
   javascript.data-types-structures.3: 10
   javascript.data-types-structures.6: 10
-
 tags:
-  - introduction
-  - workout
   - arrays
-
 links:
   - '[davidwalsh.name](https://davidwalsh.name/merge-arrays-javascript){website}'
-
+aspects:
+  - introduction
+  - workout
 ---
+
 # How to merge two arrays
 
+
 ---
+
 ## Content
 
 `concat` is not always the best approach to merging arrays as it generates a new array.
@@ -52,7 +49,9 @@ console.log([1, 2] + [3, 4])
 // 1,23,4
 ```
 
+
 ---
+
 ## Practice
 
 Suppose:
@@ -65,7 +64,6 @@ var array2 = ['d', 'e', 'f'];
 Merge the two arrays in order:
 
 ```javascript
-
 ???.prototype.???
 .???(arrray1, arrray2);
 ```
@@ -79,7 +77,9 @@ Merge the two arrays in order:
 * after
 * concat
 
+
 ---
+
 ## Revision
 
 What is the output of the following snippet?
@@ -94,12 +94,16 @@ console.log(a + b)
 
 * 3,1,42,7,1
 * [3, 1, 4, 2, 7, 1]
-* [[3, 1, 4], [2, 7, 1]]
+* \[[3, 1, 4], [2, 7, 1]]
 * 3, 1, 4, 2, 7, 1
 
+
 ---
+
 ## Quiz
+
 ### what is the result of the following addition?
+
 
 ```javascript
 console.log([3, 14] + [2, 71])
@@ -111,3 +115,4 @@ console.log([3, 14] + [2, 71])
 * 3,14,2,71
 * [3,14,2,71]
 * [5, 85]
+

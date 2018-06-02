@@ -1,30 +1,29 @@
 ---
 author: catalin
-
 levels:
   - basic
   - advanced
   - medium
-
 type: normal
-
 category: best practice
-
 standards:
   javascript.identify-common-design-patterns.1: 20
-
-tags:
-  - workout
-
+tags: []
 links:
-  - '[www.mariocasciaro.me](http://www.mariocasciaro.me/the-strange-world-of-node-js-design-patterns){website}'
-  - '[blog.risingstack.com](https://blog.risingstack.com/fundamental-node-js-design-patterns/){website}'
+  - >-
+    [www.mariocasciaro.me](http://www.mariocasciaro.me/the-strange-world-of-node-js-design-patterns){website}
+  - >-
+    [blog.risingstack.com](https://blog.risingstack.com/fundamental-node-js-design-patterns/){website}
   - '[through](https://www.npmjs.com/package/through){documentation}'
-
+aspects:
+  - workout
 ---
+
 # Middleware/pipeline design pattern
 
+
 ---
+
 ## Content
 
 The **middleware** or **pipeline** concept is used everywhere in Node.js. They represent a series of processing units connected subsequently: **the output of one unit is the input for the next one**.
@@ -70,7 +69,9 @@ fs.createReadStream("file.gz")
   .pipe(fs.createWritableStream("out.txt"));
 ```
 
+
 ---
+
 ## Practice
 
 Describe the Middleware/pipeline design pattern:
@@ -82,7 +83,9 @@ the ??? of one unit is the ??? for the next one.
 * error
 * prototype
 
+
 ---
+
 ## Revision
 
 Which design pattern can you observe in the following snippet which archives `raw.txt`?
@@ -102,3 +105,4 @@ fs.createReadStream('raw.txt')
 * singleton
 * prototype
 * waterfall
+

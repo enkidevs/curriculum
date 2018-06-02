@@ -1,43 +1,35 @@
 ---
 author: pawel
-
 levels:
-
   - advanced
-
   - medium
-
 type: normal
-
 category: feature
-
 standards:
-
   javascript.data-types-structures.3: 10
-
   javascript.data-types-structures.4: 10
   javascript.evaluate-expressions.6: 10
   javascript.evaluate-expressions.7: 10
-
-tags:
-  - introduction
-
-
+tags: []
 links:
+  - >-
+    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty){website}
+aspects:
+  - introduction
+---
 
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty){website}'
+# `hasOwnProperty`
+
+ method
 
 
 ---
 
-# `hasOwnProperty` method
-
----
 ## Content
 
 The `hasOwnProperty` method returns a boolean indicating whether the object has the specified property.
 
-```
+```bash
 client = new Object();
 client.connect = 'true';
 
@@ -51,14 +43,15 @@ client.hasOwnProperty('connect');
 foo();
 client.hasOwnProperty('connect');
 // returns false
-
 ```
 
 Using `hasOwnProperty` is a reliable method of checking for the existence of a property of an object.
 
 It is considered a good practice to use `hasOwnProperty` in every `for in loop` to avoid errors from extended native prototypes.
 
+
 ---
+
 ## Practice
 
 What does the following JS code return? ???
@@ -78,20 +71,21 @@ tricky();
 enki.hasOwnProperty('practiceQuestion');
 ```
 
-
 * True, False, False
 * True, False, True
 * True, True, False
 * False, True, True
 
+
 ---
+
 ## Revision
 
 `obj.hasOwnProperty('prop')` returns false if
 
  ???
 
-
 * obj hasn’t got ‘prop’ as property
 * obj has the property
 * obj has the property and its value is null
+

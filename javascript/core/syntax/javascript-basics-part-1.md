@@ -1,26 +1,23 @@
 ---
 author: alexjmackey
-
 levels:
   - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 standards:
   javascript.javascript-syntax.1: 10
   javascript.javascript-syntax.2: 10
-
-tags:
+tags: []
+aspects:
   - introduction
-
 ---
+
 # JavaScript Basics - Part 1
 
+
 ---
+
 ## Content
 
 Like most programming languages, JavaScript has a number of rules its code must adhere to.
@@ -59,13 +56,16 @@ var company="enki"; //define company
 ```
 
 Or if you have more text you can use a block comment:
+
 ```javascript
 /*
 I am a block comment
 */
 ```
 
+
 ---
+
 ## Practice
 
 What syntax is used in *JavaScript* for **single line** comments?
@@ -76,7 +76,9 @@ What syntax is used in *JavaScript* for **single line** comments?
 * `/* */`
 * `#`
 
+
 ---
+
 ## Revision
 
 Is the following line of code **valid**?
@@ -89,9 +91,13 @@ var 777jackpot = "jackpot";
 * not valid
 * valid
 
+
 ---
+
 ## Quiz
+
 ### which of the following is a valid comment?
+
 
 ```javascript
 (1. // first comment
@@ -105,3 +111,4 @@ var 777jackpot = "jackpot";
 * 1
 * 1 & 3
 * 2
+

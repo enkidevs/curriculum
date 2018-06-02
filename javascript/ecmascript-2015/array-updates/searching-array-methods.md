@@ -1,42 +1,30 @@
 ---
 author: lizTheDeveloper
-
 levels:
-
   - beginner
-
   - basic
-
 type: normal
-
 category: feature
-
 inAlgoPool: false
-
 tags:
-
-  - introduction
-
-  - workout
-
   - arrays
-
-  - new
-
   - es6
-
-
 links:
-
-  - '[ponyfoo.com](https://ponyfoo.com/articles/es6-array-extensions-in-depth){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array){website}'
-
-
+  - >-
+    [ponyfoo.com](https://ponyfoo.com/articles/es6-array-extensions-in-depth){website}
+  - >-
+    [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array){website}
+aspects:
+  - introduction
+  - workout
+  - new
 ---
 
 # Searching Arrays
 
+
 ---
+
 ## Content
 
 Arrays added a number of prototype methods in ES6 for improved ease of searching Arrays.
@@ -45,7 +33,7 @@ Arrays added a number of prototype methods in ES6 for improved ease of searching
 
 *includes* returns a boolean indicating with an array contains a specific value:
 
-```
+```bash
 var people = ["john", "bob"];
 people.includes("john"); //true
 ```
@@ -57,7 +45,7 @@ people.includes("john"); //true
 
 If no elements match then *undefined* will be returned:
 
-```
+```bash
 var people = [
     {name: 'Alex', age: 36},
     {name: 'John', age: 20},
@@ -74,43 +62,23 @@ people.findIndex(function (e, i, src) {
            element.age < 30;
 });
 //returns 1
-
 ```
 
-**Array.prototype.fill(value, [start, [end]])**
+**Array.prototype.fill(value, \[start, [end]])**
 
 Populates an array with a supplied value and optional start & end position and is great for producing test data.
 
-```
+```bash
 [1,1,1].fill(5); //[5,5,5]
 [1,1,1,1,1].fill(5,1,3); //[1,5,5,1,1]
 ```
-## Practice
-Find the first number divisible by `4`:
 
-```
-let ints = ['6','2','5','6','5','8'];
-ints.???(???)
-```
-* `find`
-* `findIndex`
-* `fill`
-* `includes`
-* `get`
-* `filter`
-* `function (e) {return e % 4}`
-* `function (e) {return e = 4}`
-* `function (e) {return e == 4}`
-
----
 ## Practice
 
 Find the first number divisible by `4`:
 
-```
-let ints = ['6','2','5','6','5','8'];
-ints.???(???)
-```
+    let ints = ['6','2','5','6','5','8'];
+    ints.???(???)
 
 * `find`
 * `findIndex`
@@ -122,15 +90,35 @@ ints.???(???)
 * `function (e) {return e = 4}`
 * `function (e) {return e == 4}`
 
+
 ---
+
+## Practice
+
+Find the first number divisible by `4`:
+
+    let ints = ['6','2','5','6','5','8'];
+    ints.???(???)
+
+* `find`
+* `findIndex`
+* `fill`
+* `includes`
+* `get`
+* `filter`
+* `function (e) {return e % 4}`
+* `function (e) {return e = 4}`
+* `function (e) {return e == 4}`
+
+
+---
+
 ## Revision
 
 Fill the array with the first number divisible by `2` and `3`:
 
-```
-let ints = []'2','5','4','5','6','5','8'];
-ints.???(ints.???(???))
-```
+    let ints = []'2','5','4','5','6','5','8'];
+    ints.???(ints.???(???))
 
 * `find`
 * `findIndex`

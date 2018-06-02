@@ -1,29 +1,27 @@
 ---
 author: rosielowther
-
 levels:
   - basic
   - beginner
-
 type: normal
-
 category: best practice
-
 standards:
   javascript.identify-common-design-patterns.2: 10
-
-tags:
+tags: []
+links:
+  - >-
+    [www.joyent.com](https://www.joyent.com/developers/node/design/errors){website}
+aspects:
   - introduction
   - workout
   - deep
-
-links:
-  - '[www.joyent.com](https://www.joyent.com/developers/node/design/errors){website}'
-
 ---
+
 # Use conventional property names for error handling in Node.js
 
+
 ---
+
 ## Content
 
 When you handle errors in Node.js, it is best practice to use the standard `Error` class.
@@ -40,7 +38,9 @@ For example:
 * `propertyName` an object property name, or an argument name
 * `propertyValue` an object property value
 
+
 ---
+
 ## Practice
 
 When handling errors in Node, which class is it best practice to use?
@@ -52,7 +52,9 @@ When handling errors in Node, which class is it best practice to use?
 * Node-error
 * nodeerror
 
+
 ---
+
 ## Revision
 
 Which one would be a conventional property name for error handling?
@@ -63,3 +65,4 @@ Which one would be a conventional property name for error handling?
 * host
 * name
 * localName
+

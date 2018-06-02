@@ -1,35 +1,32 @@
 ---
 author: alexjmackey
-
 levels:
   - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 standards:
   javascript.evaluate-expressions.10: 10
-
-tags:
+tags: []
+aspects:
   - introduction
-
 ---
+
 # Types - Introduction
 
+
 ---
+
 ## Content
 
 JavaScript has the following primitive types:
 
-- undefined
-- null
-- boolean
-- number
-- string
-- symbol (new to EcmaScript 6)
+* undefined
+* null
+* boolean
+* number
+* string
+* symbol (new to EcmaScript 6)
 
 There are also a few special types - `Array`, `Date`, `RegExp` - that are types of `Object` but included out of the box.
 
@@ -55,7 +52,9 @@ var company="enki";
 typeof company; //string
 ```
 
+
 ---
+
 ## Practice
 
 Can you change a variable's type in JavaScript?
@@ -66,7 +65,9 @@ Can you change a variable's type in JavaScript?
 * no
 * only be declaring it again
 
+
 ---
+
 ## Revision
 
 Which one of the following is **not** a primitive type:
@@ -77,3 +78,4 @@ Which one of the following is **not** a primitive type:
 * Symbol
 * String
 * Number
+

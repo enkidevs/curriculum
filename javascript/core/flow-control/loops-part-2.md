@@ -1,29 +1,23 @@
 ---
 author: alexjmackey
-
 levels:
-
   - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 standards:
   javascript.control-flow.0: 10
   javascript.control-flow.3: 10
-
-tags:
-
+tags: []
+aspects:
   - introduction
-
 ---
 
 # Loops - Part 2
 
+
 ---
+
 ## Content
 
 *for in* loops allow you to iterate through an objects keys. E.g. the keys below are firstName and lastName:
@@ -36,6 +30,7 @@ var obj = {
 ```
 
 The keys can be used to get the value:
+
 ```javascript
 for (var i in obj) {
    console.log(i); //key  
@@ -71,12 +66,12 @@ for (var i in iterable) {
 for (var i of iterable) {
    console.log(i); //10 20 30
 }
-
 ```
 
 **break and continue**
 
 The break statement exits out of a loop and continue will go to the next iteration:
+
 ```javascript
 var i = 0;
 do {
@@ -93,13 +88,15 @@ do {
   console.log(i);    
 } while (i<10);
 //1 3 4
-
 ```
 
+
 ---
+
 ## Practice
 
 Iterate through the elements of myArray:
+
 ```javascript
 var myArray = [1,2,"3","item"];
 
@@ -114,13 +111,15 @@ var myArray = [1,2,"3","item"];
 * `Array`
 * `do`
 
+
 ---
+
 ## Revision
 
 To exit a loop, you can use the ??? keyword.
-
 
 * break
 * stop
 * finish
 * end
+

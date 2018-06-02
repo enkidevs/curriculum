@@ -1,28 +1,26 @@
 ---
 author: rosielowther
-
 levels:
   - basic
   - beginner
-
 type: normal
 category: must-know
-
 standards:
   javascript.async.2: 10
-
-tags:
+tags: []
+links:
+  - '[blog.getify.com](http://blog.getify.com/promises-part-2/){website}'
+aspects:
   - workout
   - deep
   - obscura
-
-links:
-  - '[blog.getify.com](http://blog.getify.com/promises-part-2/){website}'
-
 ---
+
 # Inversion of Control
 
+
 ---
+
 ## Content
 
 **Inversion of control** is one of the problems of using **callbacks** for asynchronous programming in JavaScript.
@@ -47,7 +45,9 @@ This requires trust that the third party doesn't:
 
 New async options such as **Promises** un-invert the control.
 
+
 ---
+
 ## Practice
 
 What can **Promises** do compared to callbacks?
@@ -59,7 +59,9 @@ What can **Promises** do compared to callbacks?
 * call your callback earlier
 * call your callback more frequently
 
+
 ---
+
 ## Revision
 
 Consider the following scenario:
@@ -88,3 +90,4 @@ What is the name of this dynamic?
 * un-inversion of control
 * callback hell
 * callback trust
+

@@ -1,28 +1,25 @@
 ---
 author: alexjmackey
-
 levels:
   - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 standards:
   javascript.evaluate-expressions.0: 10
   javascript.evaluate-expressions.2: 10
   javascript.evaluate-expressions.4: 10
   javascript.standard-library.1: 10
-
-tags:
+tags: []
+aspects:
   - introduction
-
 ---
+
 # Types - Boolean and Number
 
+
 ---
+
 ## Content
 
 ### Boolean
@@ -59,7 +56,9 @@ More math functionality is available via the `Math` object e.g.
 Math.round(5.7);//6
 ```
 
+
 ---
+
 ## Practice
 
 One the first line declare a **boolean** variable named `a` that's true.
@@ -84,7 +83,9 @@ var ??? = ???
 * '3.14'
 * 'true'
 
+
 ---
+
 ## Revision
 
 Which of the following statements is considered true?
@@ -95,3 +96,4 @@ Which of the following statements is considered true?
 * Boolean type has three options
 * You need the `Math` object to add numbers
 * Boolean types use **Upper case**
+

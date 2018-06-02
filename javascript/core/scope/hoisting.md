@@ -1,39 +1,29 @@
 ---
 author: AlexYancey
-
 levels:
-
   - basic
-
   - medium
-
   - beginner
-
 type: normal
-
 category: feature
-
 standards:
   javascript.functions.5: 10
-
-tags:
-
-  - introduction
-
-  - workout
-
-
-
+tags: []
 notes: ''
-
+aspects:
+  - introduction
+  - workout
 ---
 
 # Hoisting
 
+
 ---
+
 ## Content
 
 Think fast, what does this snippet print?
+
 ```javascript
     var a = 1;
     function go(){
@@ -45,7 +35,7 @@ Think fast, what does this snippet print?
 
 If you thought the answer was `1`, you are incorrect!
 
-` > undefined`
+`> undefined`
 
 One quirk of JavaScript is *hoisting*.
 
@@ -53,23 +43,27 @@ This default behaviour moves all variable declarations to the top of the current
 
 This is how the snippet is actually executed, in order:
 
+```bash
+var a;
+a = 1;
+function go(){
     var a;
-    a = 1;
-    function go(){
-        var a;
-        console.log(a);
-        a = 2;
-    }
-    go();
+    console.log(a);
+    a = 2;
+}
+go();
+```
 
 In this case, `a` is redeclared and reset to `undefined` before it is logged.
 
+
 ---
+
 ## Practice
 
 What will the following functions print? ???
 
-```
+```bash
 var e = 1;
 function run(){
     console.log(e);
@@ -85,17 +79,19 @@ function calc() {
 calc();
 ```
 
-
 * `run: undefined, calc: 1`
 * `run: 1, calc: 1`
 * `run: 4, calc: 1`
 * `run: 4, calc: 4`
 * `run: undefined, calc: undefined`
 
+
 ---
+
 ## Revision
 
 What will this print
+
 ```javascript
 var a = 1;
 function go(){
@@ -109,3 +105,4 @@ go();
 * `undefined`
 * `1`
 * `2`
+

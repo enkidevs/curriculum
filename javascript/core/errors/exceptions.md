@@ -1,41 +1,28 @@
 ---
 author: alexjmackey
-
 levels:
-
   - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 standards:
-
   javascript.control-flow.6: 10
-
   javascript.exceptions.2: 10
-
   javascript.exceptions.3: 10
-
-tags:
-
-  - introduction
-
-  - workout
-
-
+tags: []
 links:
-
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling){website}'
-
-
+  - >-
+    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling){website}
+aspects:
+  - introduction
+  - workout
 ---
 
 # Exceptions
 
+
 ---
+
 ## Content
 
 Some operations in our programs can potentially fail due to no fault of the developer. 
@@ -48,7 +35,7 @@ As a general guideline exceptions should be used for *exceptional* situations su
 
 The below example shows how to use try/catch to handle any errors that occur in *dangerousFunction*:
 
-```
+```bash
 try{
  //put code that might fail in try block
  dangerousFunction();
@@ -70,7 +57,7 @@ Let's pretend **dangerousFunction** needs to read a file. We might want to test 
 
 The below code shows how to do this:
 
-```
+```bash
 function dangerousFunction(){
  if(!fileExists()){
   throw "file does not exist";
@@ -81,7 +68,7 @@ function dangerousFunction(){
 
 You can create your own exception types which you may do to represent specific situations or hold useful data:
 
-```
+```bash
 function BadException(message) {
   this.message = message;
 }
@@ -90,21 +77,20 @@ throw new
 BadException("something bad");
 ```
 
+
 ---
+
 ## Practice
 
 Complete the following block in the code snippet such that the comments make sense:
 
-```
-??? {
-   throw "my error";
-} ??? (e) {
-   //exception is caught here
-} ??? {
-   // will always run
-}
-```
-
+    ??? {
+       throw "my error";
+    } ??? (e) {
+       //exception is caught here
+    } ??? {
+       // will always run
+    }
 
 * `try`
 * `catch`
@@ -115,14 +101,14 @@ Complete the following block in the code snippet such that the comments make sen
 * `new`
 * `for`
 
+
 ---
+
 ## Revision
 
 Complete the missing keyword for throwing an exception:
-```
-??? "my exception"
-```
 
+    ??? "my exception"
 
 * `throw`
 * `raise`

@@ -1,33 +1,31 @@
 ---
 author: adamMontgomerie
-
 levels:
   - basic
   - beginner
-
 type: normal
-
 category: tip
-
 standards:
-
   javascript.functions.5: 10
-
 tags:
-  - workout
   - scope
-  - deep
   - variables
-  - obscura
-
 links:
-  - '[learnxinyminutes.com](http://learnxinyminutes.com/docs/javascript/){website}'
-  - '[stackoverflow.com](http://stackoverflow.com/questions/500431/what-is-the-scope-of-variables-in-javascript){website}'
-
+  - >-
+    [learnxinyminutes.com](http://learnxinyminutes.com/docs/javascript/){website}
+  - >-
+    [stackoverflow.com](http://stackoverflow.com/questions/500431/what-is-the-scope-of-variables-in-javascript){website}
+aspects:
+  - workout
+  - deep
+  - obscura
 ---
+
 # No block scope
 
+
 ---
+
 ## Content
 
 Functions have their own scopes, however most other blocks do not.
@@ -59,7 +57,9 @@ However, despite `a = 3` being contained within an `if` block, the `foo` functio
 
 The only exception is the case of `catch` blocks, which also have their own scope.
 
+
 ---
+
 ## Practice
 
 What will the following snippet do?
@@ -81,7 +81,9 @@ var x = 'foo';
 * raise an error
 * can't be compiled
 
+
 ---
+
 ## Revision
 
 What's the output of the `alert()` method?
@@ -101,3 +103,4 @@ function bar() {
 * 2
 * 3
 * undefined
+

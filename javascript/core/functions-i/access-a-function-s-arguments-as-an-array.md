@@ -1,26 +1,28 @@
 ---
 author: Bruno
-
 levels:
   - beginner
-
 type: normal
-
 category: how to
-
 standards:
   javascript.functions.1: 10
-
-tags:
-  - introduction
-
+tags: []
 links:
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments){documentation}'
+  - >-
+    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments){documentation}
+aspects:
+  - introduction
+---
+
+# Access a function's 
+
+`arguments`
+
+ as an array
+
 
 ---
-# Access a function's `arguments` as an array
 
----
 ## Content
 
 The arguments of a function can be accessed with the `arguments` keyword, but `arguments` only returns a *pseudo-array*.
@@ -45,13 +47,14 @@ sortedArgs(3,1,2)
 // [1,2,3]
 ```
 
+
 ---
+
 ## Practice
 
 The following `returnArgs` function should an array containing the arguments with which it is called. Complete the missing gaps such that it works as intended:
 
 ```javascript
-
 function returnArgs() {
   return ???.prototype
     .slice.call(???)
@@ -66,7 +69,9 @@ function returnArgs() {
 * array
 * new Array
 
+
 ---
+
 ## Revision
 
 Turn the arguments of a method into a array:
@@ -85,3 +90,4 @@ function myArray() {
 * args
 * sort
 * toArray
+

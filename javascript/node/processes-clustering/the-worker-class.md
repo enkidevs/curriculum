@@ -1,26 +1,24 @@
 ---
 author: tommarshall
-
 levels:
   - basic
   - advanced
   - medium
-
 type: normal
-
 standards:
   javascript.node-standard-library-os.5: 20
-
-tags:
+tags: []
+category: tip
+aspects:
   - workout
   - deep
-
-category: tip
-
 ---
+
 # The Worker Class
 
+
 ---
+
 ## Content
 
 Given NodeJS works on a single thread, you can still make use of all processing-power of multi-core systems by spawning **workers**.
@@ -45,7 +43,9 @@ if (worker.isConnected()) {
 }
 ```
 
+
 ---
+
 ## Practice
 
 Considering `cluster` to be the master cluster, how would you get all child worker objects?
@@ -63,7 +63,9 @@ var workers = ???.???
 * getWorkers()
 * allWorkers()
 
+
 ---
+
 ## Revision
 
 Complete the following JS code snippet to check if a worked is connected to its master via its IPC channel:
@@ -80,3 +82,4 @@ if (worker.???()) {
 * worker
 * isIPC
 * send
+

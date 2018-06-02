@@ -1,25 +1,22 @@
 ---
 author: alexjmackey
-
 levels:
   - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 standards:
   javascript.javascript-syntax.2: 10
-
-tags:
+tags: []
+aspects:
   - introduction
-
 ---
+
 # Using JavaScript on a web page
 
+
 ---
+
 ## Content
 
 JavaScript is an interpreted language and needs a *host environment* such as a web browser to run (or in Node’s case, Google’s *v8 engine*).
@@ -68,7 +65,9 @@ We can even reference scripts hosted on another server – it's common to do thi
 />
 ```
 
+
 ---
+
 ## Practice
 
 Complete the missing gaps in the following HTML snippet such that JavaScript code contained by an `enki.js` file will be ran via a script tag:
@@ -85,7 +84,9 @@ Complete the missing gaps in the following HTML snippet such that JavaScript cod
 * `</script>`
 * `<script>`
 
+
 ---
+
 ## Revision
 
 Complete the missing HTML tags to make the JavaScript code run directly on the web page.
@@ -102,3 +103,4 @@ console.log("enki");
 * />
 * `<script`
 * src=
+

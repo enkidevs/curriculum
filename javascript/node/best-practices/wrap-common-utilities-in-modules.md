@@ -1,29 +1,28 @@
 ---
 author: mihaiberq
-
 levels:
   - beginner
   - basic
   - medium
-
 type: normal
-
 category: how to
-
-tags:
-  - introduction
-
+tags: []
 standards:
   javascript.npm-publish.0: 10
   javascript.identify-common-design-patterns.6: 10
-
 links:
-  - '[Use NPM to distribute your code](https://github.com/i0natan/nodebestpractices/blob/master/sections/projectstructre/wraputilities.md){website}'
-
+  - >-
+    [Use NPM to distribute your
+    code](https://github.com/i0natan/nodebestpractices/blob/master/sections/projectstructre/wraputilities.md){website}
+aspects:
+  - introduction
 ---
+
 # Wrap Common Utilities in NPM Packages
 
+
 ---
+
 ## Content
 
 A monolith is built around some code shared by all the components. If you decide to break up the monolith, every new module would require some part of the shared code. Database models, helper functions, constants, wrappers, etc. are some examples of shared resources.
@@ -34,36 +33,41 @@ If this is not enough, you can further split the common code into multiple modul
 
 `npm` is installed with Node by default and publishing your own packages is a piece of cake. If you want to learn more about `npm`, you can subscribe to the course on Enki.
 
+
 ---
+
 ## Practice
 
 You can easily share common code between repositories by using
 
 ???
 
-
 * npm
 * USB stick
 * Dropbox
 * git
 
+
 ---
+
 ## Revision
 
 In other words, breaking up mixed code into self-contained components means
 
 ???
 
-
 * modularizing it
 * fixing bugs
 * encapsulating it
 * designing it
 
+
 ---
+
 ## Quiz
 
 ### What is it that you usually use NPM for?
+
 
 What is usually shared on NPM?
 
@@ -73,3 +77,4 @@ What is usually shared on NPM?
 * Cat pictures
 * Bug reports
 * Database keys
+

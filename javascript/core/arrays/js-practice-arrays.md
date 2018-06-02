@@ -1,19 +1,11 @@
 ---
 author: milesflo
-
 levels:
-
   - beginner
-
   - basic
-
-tags:
-
-  - introduction
-
+tags: []
 type: exercise
-
-link: http://www.codewars.com/kata/571effabb625ed9b0600107a
+link: 'http://www.codewars.com/kata/571effabb625ed9b0600107a'
 linkType: codewars
 standards:
   javascript.evaluate-expressions.6: 1000
@@ -23,18 +15,29 @@ standards:
   javascript.data-types-structures.4: 5000
   javascript.data-types-structures.6: 3000
   javascript.write-expressions.0: 5000
-
 links:
-
-  - '[MDN - Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)'
-  - '[Eloquent JavaScript - Arrays and Objects](https://eloquentjavascript.net/04_data.html)'
-  - '[YouTube - Common Array Methods](https://www.youtube.com/watch?v=MeZVVxLn26E)'
-  - '[Stack Overflow - Array of Arrays](https://stackoverflow.com/questions/38192388/list-of-arrays-in-javascript)'
+  - >-
+    [MDN -
+    Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array){website}
+  - >-
+    [Eloquent JavaScript - Arrays and
+    Objects](https://eloquentjavascript.net/04_data.html){website}
+  - >-
+    [YouTube - Common Array
+    Methods](https://www.youtube.com/watch?v=MeZVVxLn26E){website}
+  - >-
+    [Stack Overflow - Array of
+    Arrays](https://stackoverflow.com/questions/38192388/list-of-arrays-in-javascript){website}
+aspects:
+  - introduction
 ---
 
 # JS Practice Arrays
 
+
 ---
+
 ## Exercise
 
 Practice using JavaScript Arrays on Code Wars
+
