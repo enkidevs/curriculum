@@ -5,8 +5,9 @@ type: insights-list
 description: Divide your content up with these elements
 
 insights:
-  - div
-  - header
-  - main
-  - nav
-  - footer
+
+- div
+- header
+- main
+- nav
+- footer

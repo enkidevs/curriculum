@@ -26,17 +26,21 @@ links:
 # Finding a substring in a string
 
 ---
+
 ## Content
 
 In order to confirm if a string contains a specific substring, we can simply use the `contains` method in the `String` class.
 
-The `contains` method takes a `CharSequence` as an input. `CharSequence` is an interface which is implemented by `String`, so it will also accept strings as inputs. 
+The `contains` method takes a `CharSequence` as an input. `CharSequence` is an interface which is implemented by `String`, so it will also accept strings as inputs.
+
 ```
 String s = "Hello, this is dog.";
 bool dog = s.contains("dog");
 //dog: true
 ```
-If simply confirming that a substring is present is not enough, and we also need to find *where* it is in the string, we can use the `indexOf` or `lastIndexOf` methods:
+
+If simply confirming that a substring is present is not enough, and we also need to find _where_ it is in the string, we can use the `indexOf` or `lastIndexOf` methods:
+
 ```
 String s = "This dog is my dog";
 int indexFirst = s.indexOf("dog");
@@ -44,4 +48,3 @@ int indexFirst = s.indexOf("dog");
 int indexLast = s.lastIndexOf("dog");
 //indexLast: 15
 ```
-

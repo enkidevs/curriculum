@@ -17,67 +17,73 @@ category: tip
 # Diamond Operator
 
 ---
+
 ## Content
 
 Since Java 7 it's not necessary to declare the type parameter twice while instantiating objects like Maps, Sets and Lists.
 
 Consider the following code:
+
 ```java
-Map<String, List<Integer>> phoneBook = new 
+Map<String, List<Integer>> phoneBook = new
 HashMap<String, List<Integer>>();
 ```
-The type parameter for HashMap in the right hand side of the expression seems redundant. This can be shortened using an empty "Diamond Operator" to give: 
+
+The type parameter for HashMap in the right hand side of the expression seems redundant. This can be shortened using an empty "Diamond Operator" to give:
+
 ```java
-Map<String, List<Integer>> phoneBook = new 
+Map<String, List<Integer>> phoneBook = new
 HashMap<>();
 ```
 
 ---
+
 ## Practice
 
-Which of the following Java code snippets is most efficient and illustrates the correct use of a Diamond Operator? 
+Which of the following Java code snippets is most efficient and illustrates the correct use of a Diamond Operator?
+
 ```
 // Example A
-Map<String, List<Integer>> map = 
- new HashMap<String, List<Integer>>(); 
-
-// Example B 
-Map<String, List<Integer>> map = 
- new HashMap<()>; 
-
-// Example C 
 Map<String, List<Integer>> map =
-  new HashMap<>();
-``` 
-???
-
-* Example C
-* Example A
-* Example B
-
----
-## Revision
-
-Which of the following Java code snippets is most efficient and illustrates the correct use of a Diamond Operator? 
-
-```
-//Example A
-Map<String, List<Integer>> map = 
  new HashMap<String, List<Integer>>();
 
 // Example B
-Map<String, List<Integer>> map = 
+Map<String, List<Integer>> map =
+ new HashMap<()>;
+
+// Example C
+Map<String, List<Integer>> map =
+  new HashMap<>();
+```
+
+???
+
+- Example C
+- Example A
+- Example B
+
+---
+
+## Revision
+
+Which of the following Java code snippets is most efficient and illustrates the correct use of a Diamond Operator?
+
+```
+//Example A
+Map<String, List<Integer>> map =
+ new HashMap<String, List<Integer>>();
+
+// Example B
+Map<String, List<Integer>> map =
  new HashMap<>();
 
-// Example C 
-Map<String, List<Integer>> map = 
+// Example C
+Map<String, List<Integer>> map =
  new HashMap<()>;
 ```
 
 ???
 
-
-* Example B
-* Example A
-* Example C
-
+- Example B
+- Example A
+- Example C

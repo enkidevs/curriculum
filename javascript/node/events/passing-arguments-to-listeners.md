@@ -24,9 +24,11 @@ links:
 parent: synchronous-event-delivery
 
 ---
+
 # Passing arguments to listeners
 
 ---
+
 ## Content
 
 The `eventEmitter.emit()` method allows for a set of arguments to be passed to the listener functions. The `this` keyword, when passed, is set to reference the `EventEmitter` to which the listener is attached.
@@ -37,16 +39,15 @@ class MyEmitter extends EventEmitter {}
 const emitter = new MyEmitter();
 
 emitter.on('event', function(x, y) {
-
   console.log(x, y, this);
-
 });
 
 // emit event
 emitter.emit('event', 'En', 'ki');
-
 ```
+
 Gives the following output:
+
 ```javascript
 En ki MyEmitter {
   domain: null,
@@ -56,12 +57,13 @@ En ki MyEmitter {
 ```
 
 ---
+
 ## Revision
 
 What does `this` refer to inside of a callback registered to listen to an event on an `EventEmitter`?
 ???
 
-* The instance of `EventEmitter`
-* global
-* event
-* window
+- The instance of `EventEmitter`
+- global
+- event
+- window

@@ -27,17 +27,18 @@ links:
 # SQL Practice Insert
 
 ---
+
 ## Exercise
 
 Insert into `pokemon` a new record with the following field values:
-  - id:  31
-  - order:  44
-  - height: 13
-  - weight: 600
-  - base_experience: 227
-  - is_default: true
-  - pokemon_species_id: 31
-  - name: nidoqueen
+
+- id: 31
+- order: 44
+- height: 13
+- weight: 600
+- base_experience: 227
+- is_default: true
+- pokemon_species_id: 31
+- name: nidoqueen
 
 Make sure to submit the SQLFiddle link, to show that you've completed the exercise.Make sure to submit the SQLFiddle link, to show that you've completed the exercise.
- 

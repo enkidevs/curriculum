@@ -29,23 +29,27 @@ links:
 # Catch multiple exceptions in a single `catch` block
 
 ---
+
 ## Content
 
 It is possible to catch multiple types of exception within a single `catch` block. For example:
+
 ```
 try {
   ...
-} 
+}
 catch(IOException e) {
   //do something
-} 
+}
 catch(SQLException e) {
   //do the same thing
 }
 ```
-If we want to do the same thing whether we catch an `IOException` or an `SQLException`, such as print out a stack trace, then we will have repeated code. 
+
+If we want to do the same thing whether we catch an `IOException` or an `SQLException`, such as print out a stack trace, then we will have repeated code.
 
 In JDK 7+ we can condense the code into a single catch block using `|`:
+
 ```
 try {
   ...
@@ -54,4 +58,3 @@ catch(IOException | SQLException e) {
   //do something
 }
 ```
-

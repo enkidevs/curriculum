@@ -27,9 +27,9 @@ links:
 # SQL Practice What is SQL
 
 ---
+
 ## Exercise
 
 Change the query in SQLFiddle to **return one `email` address instead of returning one `name`**.
 
-In the answer field, *enter the email address that was returned*.
- 
+In the answer field, _enter the email address that was returned_.

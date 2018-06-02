@@ -20,9 +20,11 @@ links:
   - '[fredkschott.com](http://fredkschott.com/post/2014/03/understanding-error-first-callbacks-in-node-js/){website}'
 
 ---
+
 # First-error callbacks in **Node**
 
 ---
+
 ## Content
 
 The `"error-first"` callback (also "errorback" or "err-back") has become the standard protocol for **Node** as to enable a balanced, non-blocking flow of control and processing power across applications and modules.
@@ -38,14 +40,16 @@ The first argument is an error object. If the response is successful `err` will 
 Implementing an "error-first" callback:
 
 ```javascript
-fs.readFile('/text.txt',
- function(err, data) {
-   if (err) {
-     console.log('error')
-     console.log(err)
-   } else {
-     console.log(data);
-   }
+fs.readFile('/text.txt', function(
+  err,
+  data
+) {
+  if (err) {
+    console.log('error');
+    console.log(err);
+  } else {
+    console.log(data);
+  }
 });
 ```
 
@@ -58,10 +62,10 @@ function(err, data) {
     console.log('wrong source')
   }
 }
-
 ```
 
 ---
+
 ## Practice
 
 Implement a simple error-first callback function that will log the `err` if there is an error. Otherwise, it should log the data:
@@ -76,18 +80,19 @@ doSomethingWithCallback(???(???, ???) {
 })
 ```
 
-* function
-* err
-* data
-* if(err)
-* else
-* err
-* data
-* er
-* myData
-* fn
+- function
+- err
+- data
+- if(err)
+- else
+- err
+- data
+- er
+- myData
+- fn
 
 ---
+
 ## Revision
 
 What are the parameters of an error-first callback function?
@@ -98,13 +103,14 @@ function(???, ??) {
 }
 ```
 
-* err
-* data
-* fileNotFound
-* log
-<<<<<<< HEAD
-* null
+- err
+- data
+- fileNotFound
+- log
+  <<<<<<< HEAD
+- null
 
 =======
-* null
->>>>>>> master
+
+- null
+  > > > > > > > master

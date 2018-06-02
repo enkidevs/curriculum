@@ -21,6 +21,7 @@ links:
 # More on Synchronization
 
 ---
+
 ## Content
 
 Another way of ensuring mutual exclusion without using synchronization patters or `synchronized` is using atomic variables provided in `java.util.concurrent.atomic` library. It has to be noted that this approach is specific to Java and will only work if you are working with single variables.
@@ -51,14 +52,13 @@ class Counter {
 There are also `booleans`, arrays, references and many other variables worth knowing about.
 
 ---
+
 ## Revision
 
 What is a thread safe way of accessing and updating variables without using locks or `synchronized`?
 
 ???
 
-
-* atomic variables
-* electronic variables
-* instant variables
-
+- atomic variables
+- electronic variables
+- instant variables

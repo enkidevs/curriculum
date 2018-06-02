@@ -20,6 +20,7 @@ standards:
 # The `not` operator
 
 ---
+
 ## Content
 
 Using Python's `not` operator pre boolean expression will simply negate it.
@@ -41,7 +42,8 @@ print(True == (not True))
 # prints False
 ```
 
---- 
+---
+
 ## Practice
 
 Check if `x` does not exist in the `nums` sequnece:
@@ -54,13 +56,14 @@ nums = [1,2,3,4]
     print(False)
 ```
 
-* if
-* not
-* is
-* while
-* for
+- if
+- not
+- is
+- while
+- for
 
 ---
+
 ## Revision
 
 What does the following code snippet return:
@@ -68,10 +71,9 @@ What does the following code snippet return:
 ```python
 print(True == (not True))
 ```
+
 ???
 
-
-* False
-* True
-* Error
- 
+- False
+- True
+- Error

@@ -24,11 +24,12 @@ tags:
 
 links:
   - '[schier.co](http://schier.co/blog/2013/11/14/method-chaining-in-javascript.html){website}'
-
 ---
+
 # Method chaining
 
 ---
+
 ## Content
 
 Method chaining allows multiple methods to be called one after the other on the same object.
@@ -47,27 +48,25 @@ var Bar = function() {
   this.last = 'FizzBuzz';
 };
 
-Bar.prototype.setFirst = function(first)
-{
+Bar.prototype.setFirst = function(first) {
   this.first = first;
   // Returns the object
   return this;
 };
 
-Bar.prototype.setLast = function(last)
-{
+Bar.prototype.setLast = function(last) {
   this.last = last;
   return this;
 };
 ```
 
 ---
+
 ## Practice
 
 Complete the missing gaps such that the log statements on the last lines will print the commented output.
 
 ```javascript
-
 var Rectangle = function() {
   this.??? = null
   this.length = null
@@ -91,35 +90,33 @@ const r = (new Rectangle())
 
 console.log(r.length) // 30
 console.log(r.width) //20
-
 ```
 
-* width
-* prototype
-* setWidth
-* return this
-* Rectangle
-* length
-* this
-* new
-* setLength
-* new
-* return r
-* r
-* return
-* return null
-* return undefined
-* return width
-
-
+- width
+- prototype
+- setWidth
+- return this
+- Rectangle
+- length
+- this
+- new
+- setLength
+- new
+- return r
+- r
+- return
+- return null
+- return undefined
+- return width
 
 ---
+
 ## Revision
 
 How is method chaining typically enabled?
 
 ???
 
-* Implementing methods that return `this`
-* No need for implementation
-* Updating the object to allow this
+- Implementing methods that return `this`
+- No need for implementation
+- Updating the object to allow this

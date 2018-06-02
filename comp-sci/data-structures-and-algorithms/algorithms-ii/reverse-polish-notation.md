@@ -27,9 +27,11 @@ parent: trie-data-structure
 # Reverse Polish Notation
 
 ---
+
 ## Content
 
-**Reverse polish notation**, or *postfix notation*, is a mathematical notation in which the *operators* follow their *operands* (+, × etc. can be found on the right-hand side of their operands).
+**Reverse polish notation**, or _postfix notation_, is a mathematical notation in which the _operators_ follow their _operands_ (+, × etc. can be found on the right-hand side of their operands).
+
 ```
 // Infix notation
 (2+5)×3
@@ -40,7 +42,9 @@ parent: trie-data-structure
 (2+5) -> 2 5 +
 (2+5)×3 -> 2 5 + 3 ×
 ```
-An advantage of RPN is that it doesn't need parentheses required by the *infix notation*:
+
+An advantage of RPN is that it doesn't need parentheses required by the _infix notation_:
+
 ```
 // 5+(4×3)
 5 4 3 × +
@@ -50,31 +54,35 @@ An advantage of RPN is that it doesn't need parentheses required by the *infix n
 ```
 
 ---
+
 ## Practice
 
 What is the reverse polish notation equivalent of `(2+10)/4+3`?
 
 ???
 
-* 2 10 + 4 / 3 +
-* 2 10 + 4 3 + /
-* 4 + 3 / 2 + 10
-* 2 10 4 3 + / +
+- 2 10 + 4 / 3 +
+- 2 10 + 4 3 + /
+- 4 + 3 / 2 + 10
+- 2 10 4 3 + / +
 
 ---
+
 ## Revision
 
 What is the infix equivalent notation of the reverse polish notation `4 3 + 10 ×`?
 
 ???
 
-* (4+3)×10
-* 4+3×10
-* 10×4+3
-* 10+3×4
+- (4+3)×10
+- 4+3×10
+- 10×4+3
+- 10+3×4
 
 ---
-## Quiz 
+
+## Quiz
+
 ### what is the result of the following expression?
 
 Evaluate the following expression written
@@ -84,9 +92,9 @@ using the reverse polish notation (postfix notation)
 2 3 * 4 - 5 / 6 + 0.4 -
 ```
 
- ???
+???
 
-* 6
-* 0
-* 10.04
-* 6.04
+- 6
+- 0
+- 10.04
+- 6.04

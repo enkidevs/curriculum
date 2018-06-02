@@ -28,6 +28,7 @@ parent: differences-between-bandwidth-and-throughput
 # Tools to interact with Networks
 
 ---
+
 ## Content
 
 We have witnessed an exponential growth in the size of **computer networks** since their introduction, with more and more people joining them every day.
@@ -39,7 +40,7 @@ Luckily, most operating systems, counting **Linux**, **OSX**, **Windows** and ev
 
 These will prove extremely useful when having to troubleshoot, optimize or get various information about **networks**.
 
-In addition, getting to know how the *tools of the trade* work will give you a better insight on how **networks** work.
+In addition, getting to know how the _tools of the trade_ work will give you a better insight on how **networks** work.
 
 Some of the most known and used networking utilities include:
 
@@ -51,6 +52,7 @@ Some of the most known and used networking utilities include:
 - `route` - shows and manipulates the **IP Routing Table**[1]
 
 ---
+
 ## Revision
 
 Which of the following tools can be used to echo a packet to remote host?
@@ -59,15 +61,16 @@ Which of the following tools can be used to echo a packet to remote host?
 $ ??? google.com
 ```
 
-
-* `ping`
-* `ipconfig`
-* `nslookup`
-* `netstat`
-* `route`
+- `ping`
+- `ipconfig`
+- `nslookup`
+- `netstat`
+- `route`
 
 ---
+
 ## Footnotes
+
 [1:IP Routing Table]
 A routing table is a set of rules, often viewed in table format, that is used to determine where data packets traveling over an Internet Protocol (`IP`) network will be directed.
 

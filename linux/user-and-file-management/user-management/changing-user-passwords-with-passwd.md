@@ -22,13 +22,14 @@ tags:
 # Changing User Passwords With `passwd`
 
 ---
+
 ## Content
 
 To change a user's password, including your own, use the `passwd` command.
 
-To change your own password, simply run `passwd` without any additional arguments.  You will be asked to enter your current password and then type a new password twice to confirm it.  You do *not* need to have `root` permissions to change your own password, so it's not necessary to use `sudo`.
+To change your own password, simply run `passwd` without any additional arguments. You will be asked to enter your current password and then type a new password twice to confirm it. You do _not_ need to have `root` permissions to change your own password, so it's not necessary to use `sudo`.
 
-To change another user's password, supply a username to the `passwd` command.  You *do* need `root` permission to change another user's password, so it's necessary to use `sudo`, like so:
+To change another user's password, supply a username to the `passwd` command. You _do_ need `root` permission to change another user's password, so it's necessary to use `sudo`, like so:
 
 ```shell
 $ sudo passwd jesse
@@ -41,6 +42,7 @@ There are many options available to `passwd`, like requiring a user to change it
 Read `man passwd` for more details.
 
 ---
+
 ## Practice
 
 Change `enkiUser` ‘s password:
@@ -49,33 +51,34 @@ Change `enkiUser` ‘s password:
 $ ??? ??? ???
 ```
 
-* `sudo`
-* `passwd`
-* `enkiUser`
-* `changepass`
-* `enki`
+- `sudo`
+- `passwd`
+- `enkiUser`
+- `changepass`
+- `enki`
 
 ---
+
 ## Revision
 
-Do you have to be a root to change your own password using  `passwd` ?  
+Do you have to be a root to change your own password using `passwd` ?
 
 ???
 
-* No
-* Yes
+- No
+- Yes
 
 ---
-## Quiz 
-### Can you identify a security vulnerability?
 
+## Quiz
+
+### Can you identify a security vulnerability?
 
 Which of the following is most likely to cause a lot of problems?
 
+???
 
- ???
-
-* Allowing regular users to create new root users without sudo
-* Forcing expiry and renewal dates for root user's password
-* Using `sudo passwd` to change someone's password
-* Using `sudo passwd` to change your own password
+- Allowing regular users to create new root users without sudo
+- Forcing expiry and renewal dates for root user's password
+- Using `sudo passwd` to change someone's password
+- Using `sudo passwd` to change your own password

@@ -24,6 +24,7 @@ notes: >-
 # Thread safe?
 
 ---
+
 ## Content
 
 Multi threading is a common practice and a necessity in nowadays applications (either large or small). Certain classes trade thread safety for performance boosts.
@@ -31,6 +32,7 @@ Multi threading is a common practice and a necessity in nowadays applications (e
 Can you guess which classes enforce safe use in multi threading and which are not to be used in this scenario?
 
 ---
+
 ## Game Content
 
 thread safe:not safe
@@ -94,7 +96,6 @@ It is a thread-safe interface in which all mutative operations are implemented b
 ```
 
 ```true
-
 HashMap
 %exp
 Hash table based implementation of the Map interface. This implementation provides all
@@ -152,5 +153,4 @@ Boolean
 %exp
 `Boolean` is not thread safe in `Java`.
 %
-
 ```

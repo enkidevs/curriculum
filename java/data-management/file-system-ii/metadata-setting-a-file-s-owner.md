@@ -32,9 +32,11 @@ links:
 # Metadata: setting a file's owner
 
 ---
+
 ## Content
 
 The `UserPrincipalLookupService` can be used to lookup a user name defined as a string and store it as a `UserPrincipal` object:
+
 ```
 UserPrincipal owner =
   file.getFileSystem()
@@ -43,25 +45,27 @@ UserPrincipal owner =
 ```
 
 Once a `UserPrincipal` object has been acquired, it can be used to set the owner of a file by calling the `Files.setOwner` method:
+
 ```
 Path file = Paths.get("home/file.txt");
 Files.setOwner(file, owner);
 ```
 
 ---
+
 ## Revision
 
-Create a new instance of  `UserPrincipal` for the username `tom`:
+Create a new instance of `UserPrincipal` for the username `tom`:
+
 ```
-UserPrincipal owner = 
+UserPrincipal owner =
  path.???
 .???
 .???;
 ```
 
-* getFileSystem()` 
-* getUserPrincipalLookupService() 
-* lookupPrincipalByName("tom")
-* lookupPrincipalByName()
-* getUserPrincipalLookupService("tom")
-
+- getFileSystem()`
+- getUserPrincipalLookupService()
+- lookupPrincipalByName("tom")
+- lookupPrincipalByName()
+- getUserPrincipalLookupService("tom")

@@ -20,9 +20,11 @@ links:
 parent: executing-programs-with-node
 
 ---
+
 # NPM, Node's Package Manager
 
 ---
+
 ## Content
 
 NPM is the package manager for JavaScript’s Node.js environment. It allows packages of code, modules, from developers across the world to be found, shared and implemented into your own systems.
@@ -42,6 +44,7 @@ $ npm install <package>
 ```
 
 ---
+
 ## Practice
 
 Complete the code snippet to check you're using the latest NPM version:
@@ -50,12 +53,12 @@ Complete the code snippet to check you're using the latest NPM version:
 npm install npm@???
 ```
 
-
-* latest -g
-* latest
-* latest -v
+- latest -g
+- latest
+- latest -v
 
 ---
+
 ## Revision
 
 Complete the code snippet to install a package from NPM:
@@ -64,7 +67,6 @@ Complete the code snippet to install a package from NPM:
 > npm ??? <package>
 ```
 
-* install
-* new
-* download
-
+- install
+- new
+- download

@@ -25,6 +25,7 @@ links:
 # The `itertools` Module
 
 ---
+
 ## Content
 
 `itertools` implements a number of fast, memory efficient iterator building blocks inspired by languages such as APL, Haskell and SML[1]. `itertools` provides a host of useful methods for working with iterable objects which together form what is called an "iterator algebra" because they can be used in combination or alone to construct specialized iterator tools quickly and succinctly in pure Python.
@@ -79,6 +80,7 @@ print(
 ```
 
 ---
+
 ## Practice
 
 Let's say we have three lists. The first is a list of prices for items on an online shop. The second is a list of proposed discounts, to be subtracted from those prices. Finally, the third list is a list of booleans which indicate which products (assume one product per index) are included in the sale.
@@ -115,15 +117,15 @@ print(
   list(salePrices))
 ```
 
-
-* `compress`
-* `filterfalse`
-* `cycle`
-* `chain`
-* `izip`
-* `islice`
+- `compress`
+- `filterfalse`
+- `cycle`
+- `chain`
+- `izip`
+- `islice`
 
 ---
+
 ## Revision
 
 What is the result of the following code execution?
@@ -145,14 +147,15 @@ print(
 
 ???
 
-
-* `['Tom', 'Lars', 'Lee', 'Tom', 'Lars', 'Lee']`
-* `['Tom', 'Sadiq', 'Lars', 'Lee', 'Jean', 'Tom']`
-* `['Sadiq', 'Jean', 'Sadiq', 'Jean', 'Sadiq', 'Jean']`
-* `<itertools.islice object at 0x????????>`
+- `['Tom', 'Lars', 'Lee', 'Tom', 'Lars', 'Lee']`
+- `['Tom', 'Sadiq', 'Lars', 'Lee', 'Jean', 'Tom']`
+- `['Sadiq', 'Jean', 'Sadiq', 'Jean', 'Sadiq', 'Jean']`
+- `<itertools.islice object at 0x????????>`
 
 ---
+
 ## Footnotes
+
 [1:APL, Haskell and SML]
 Haskell is a widely-used, purely functional, lazy programming language. Because of its purely functional nature, mutations of variables or data structures and I/O are essentially not permitted at all. Therefore it is common to use iteration tools to carry out operations on data where the original object is not modified but a new copy is made with the desired changes already applied to it. Similar mechanics can be found in SML and the other ML family languages such as OCaml (they are not pure, but are still functional) and even in very old languages such as APL. It is from this paradigm that the `itertools` methods get their inspiration.
 

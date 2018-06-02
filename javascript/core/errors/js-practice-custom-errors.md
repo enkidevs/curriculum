@@ -27,6 +27,7 @@ links:
 # JS Practice Custom Errors
 
 ---
+
 ## Exercise
 
 Practice creating custom JavaScript Errors on Code Wars

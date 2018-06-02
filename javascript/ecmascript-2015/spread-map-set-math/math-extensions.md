@@ -15,16 +15,18 @@ links:
 
 
 ---
+
 # Math Extensions
 
 ---
+
 ## Content
 
-In ES6 the *Math* object has been expanded with a lot of functionality. Many of the additions have very specific use cases so let's discuss those more likely to be used in every day development. 
+In ES6 the _Math_ object has been expanded with a lot of functionality. Many of the additions have very specific use cases so let's discuss those more likely to be used in every day development.
 
-### Math.trunc**
+### Math.trunc\*\*
 
-*Math.trunc* will drop any numbers after the decimal point whether the number is positive or negative.
+_Math.trunc_ will drop any numbers after the decimal point whether the number is positive or negative.
 
 ```javascript
 Math.trunc(1.2343); //1
@@ -49,40 +51,42 @@ Math.sign(-1); //-1
 ```
 
 ---
+
 ## Practice
 
 What will the following function calls return?
 
 ```javascript
-console.log(Math.cbrt(27))
+console.log(Math.cbrt(27));
 // ???
 
-console.log(Math.sign(-22))
+console.log(Math.sign(-22));
 // ???
 
-console.log(Math.trunc(4.522))
+console.log(Math.trunc(4.522));
 // ???
 ```
 
-* 3
-* -1
-* 4
-* 1
-* 9
-* 7
-* 8
-* 2
-* -2
-* -22
+- 3
+- -1
+- 4
+- 1
+- 9
+- 7
+- 8
+- 2
+- -2
+- -22
 
 ---
+
 ## Revision
 
 What `Math` method introduced in ES6 can be used to find the cubic root of a number?
 
 `Math.???`
 
-* cbrt
-* cubicRoot
-* cbRoot
-* cubicrt
+- cbrt
+- cubicRoot
+- cbRoot
+- cubicrt

@@ -25,6 +25,7 @@ links:
 # Creating new Exceptions
 
 ---
+
 ## Content
 
 Creating your own exceptions allows you to differentiate exceptions thrown by your own classes from those thrown by others. It also allows you to differentiate between similar, related exceptions. You may also occasionally come across exceptions which are not already represented.
@@ -40,5 +41,5 @@ public class NewException
   ...
 }
 ```
-New exceptions should only be created when necessary, as there is a variety of standard exceptions which can be used instead.
 
+New exceptions should only be created when necessary, as there is a variety of standard exceptions which can be used instead.

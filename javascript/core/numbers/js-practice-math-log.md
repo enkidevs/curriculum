@@ -25,6 +25,7 @@ links:
 # JS Practice Math `log`
 
 ---
+
 ## Exercise
 
 Practice using the JavaScript Math method `log()`

@@ -20,6 +20,7 @@ standards:
 # Python versions
 
 ---
+
 ## Content
 
 ### Python 2
@@ -43,6 +44,7 @@ The goal of this new Python version was to also change the way the language hand
 Python 3 is the first Python release which is incompatible with previous Python versions, which is why some people still use Python 2, as they find some packages and libraries not working for the latest Python version!
 
 One difference is that in Python 3, you must pass the items you want to print explicitly to the function in parentheses as follows:
+
 ```python
 print ('Python 3')
 ```
@@ -52,15 +54,14 @@ Python 3 is considered to be an improved version of Python 2, with fewer mistake
 As a beginner, your best bet is **Python 3**. This is the standard that's advancing slightly faster and you don't have to worry at all about porting a whole Python 2 application to Python 3 (the main reason why Python 2 hung around for so long).
 
 ---
+
 ## Revision
 
 Which of the following code snippets is Python 3 code?
 
 ???
 
-
-* `print ('Hello world!')`
-* `print 'Hello world!'`
-* `write 'Hello world!'`
-* `write ('Hello world!')`
- 
+- `print ('Hello world!')`
+- `print 'Hello world!'`
+- `write 'Hello world!'`
+- `write ('Hello world!')`

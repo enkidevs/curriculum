@@ -27,9 +27,11 @@ parent: implementing-weak-references
 # `weakref` callbacks
 
 ---
+
 ## Content
 
 The `ref` constructor for weak references can take another argument, a callback function that is invoked every time the object referenced gets deleted:
+
 ```python
 import weakref
 
@@ -45,6 +47,7 @@ del enki # callback is invoked
 ```
 
 The output is:
+
 ```python
 callback <weakref at 0x01554E40; dead>
 ```
@@ -52,6 +55,7 @@ callback <weakref at 0x01554E40; dead>
 These callbacks can be useful for example to remove dead references from a cache.
 
 ---
+
 ## Practice
 
 Complete the following code snippet (supposing a callback function is defined):
@@ -60,29 +64,24 @@ Complete the following code snippet (supposing a callback function is defined):
  r = weakref.???(enki, ???)
 ```
 
-
-* `ref`
-* `callback`
-* `call`
-* `run`
-* `flag`
-* `bool`
-
-
+- `ref`
+- `callback`
+- `call`
+- `run`
+- `flag`
+- `bool`
 
 * `flag`
 * `boolean`
 * `return`
 
 ---
+
 ## Revision
 
 What functionality does `callback` carry in `r = weakref.ref(enki, callback)`?
 
 ???
 
-
-* `callback` function is invoked when `enki` is deleted.
-* In this case `callback` is a proxy to `enki`.
-
- 
+- `callback` function is invoked when `enki` is deleted.
+- In this case `callback` is a proxy to `enki`.

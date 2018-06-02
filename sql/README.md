@@ -1,6 +1,6 @@
 name: SQL
 
-description: All about SQL! 
+description: All about SQL!
 
 color: 008bb9
 

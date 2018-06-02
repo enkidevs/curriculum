@@ -31,11 +31,13 @@ links:
 # Use thread pool executors
 
 ---
+
 ## Content
 
 Creating threads is expensive. Rather than creating and discarding a new thread every time we need to process a request, we can use the Java Executor Framework.
 
 The Executor Framework can be used to create a pool of threads, usually when the application starts. These threads can then be re-used to handle requests, preventing us from having to manually create threads on a per-request basis.
+
 ```
 public class ThreadPoolExample {
   public static void main(String args[]) {
@@ -56,20 +58,18 @@ final class Task implements Runnable{
     // do stuff
   }
 }
-
 ```
 
 This can improve server response time; as we do not have to wait for a thread to be created before we can process a request.
 
 ---
+
 ## Revision
 
 To avoid creating threads which can be expensive, what framework can be used to process create and discard requests?
 
 ???
 
-
-* Java Executor Framework
-* Java Thread Manager Framework
-* Java Process Framework
-
+- Java Executor Framework
+- Java Thread Manager Framework
+- Java Process Framework

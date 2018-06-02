@@ -25,20 +25,25 @@ links:
   - '[W3S docs for main](https://www.w3schools.com/tags/tag_main.asp){website}'
 
 ---
+
 # Main element
+
 ---
+
 ## Content
 
 The HTML `<main>` element is used to specify the main content of a web page, document or an application. It usually consists of content that is directly related to the central topic, or the central functionality of an application. Also, the `<main>` element should not contain content that is repeated throughout the whole website, or across multiple documents, such as:
- - copyright information
- - navigational links
- - search forms
- - sidebars
- - site logo
+
+- copyright information
+- navigational links
+- search forms
+- sidebars
+- site logo
 
 **Note: The `<main>` element can have a search form as it's content. However, this is only true for when a search form is the main function of the page.**
 
 Example of the main content of a page, in this case, a page describing vehicles:
+
 ```
 <main>
   <h1>Vehicles</h1>
@@ -94,10 +99,11 @@ Example of the main content of a page, in this case, a page describing vehicles:
 As you can see in the example above, we have added `<article>` within our `<main>` element to clearly separate each type of vehicle. As for the other way around, you cannot put a `<main>` element as a descendant of the `<article>` element.
 
 Also, the `<main>` element can never be a decendant of a few more elements. These are:
- - `<aside>`
- - `<footer>`
- - `<header>`
- - `<nav>`
+
+- `<aside>`
+- `<footer>`
+- `<header>`
+- `<nav>`
 
 Furthermore, you can only have one `<main>` element per web page or document if you want your web page or document to validate.
 
@@ -106,33 +112,34 @@ There is a way for 2 or more `<main>` elements to be present in your document, h
 **Note: Even though the `<main>` element has headings it doesn't contribute the documents outline. Those headings and other outlines within the `<main>` element are only for that `<main>` element. You should use `<body>` or `<h1>`-`<h6>`, and such as the structure of your page.**
 
 ---
+
 ## Practice
 
 Which HTML container element should only be used once within a page layout?
 
 ???
 
- * `<main>`
- * `<nav>`
- * `<head>`
- * `<footer>`
- * `<one>`
- * `<solo>`
-
+- `<main>`
+- `<nav>`
+- `<head>`
+- `<footer>`
+- `<one>`
+- `<solo>`
 
 ---
+
 ## Revision
 
 Can a webpage contain more than one `<main>` container?
 
 ???
 
-* Yes, but it will fail validation.
-* Yes
-* No
-
+- Yes, but it will fail validation.
+- Yes
+- No
 
 ---
+
 ## Quiz
 
 ### How much do you know about the HTML `<main>` element?
@@ -141,8 +148,8 @@ Select which of the following items should be contained within a `<main>` contai
 
 ???
 
- * body content
- * webpage logo
- * navigation links
- * copyright information
- * search forms
+- body content
+- webpage logo
+- navigation links
+- copyright information
+- search forms

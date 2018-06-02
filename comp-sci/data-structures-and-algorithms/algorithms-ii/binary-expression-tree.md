@@ -24,9 +24,10 @@ parent: parsing-reverse-polish-notation
 # Binary Expression tree
 
 ---
+
 ## Content
 
-**Binary expression tree** is a specific kind of binary tree that represents a algebraic (*2+3×5*) or boolean (*¬(q ∧ v)∧q*) expressions.
+**Binary expression tree** is a specific kind of binary tree that represents a algebraic (_2+3×5_) or boolean (_¬(q ∧ v)∧q_) expressions.
 
 Each node of the tree will hence have zero, one or two children.
 
@@ -36,15 +37,16 @@ The BET of **(5×10+9)/(3-2)** is:
 
 The leaves of the tree are operands, while the internal nodes contain operators. A node has one child its value is either unary minus operator (-7) or logical negation (¬).
 
-
 In-order traversal[1] of the tree will return the infix notation. It is worth mentioning that each subtree should be enclosed in parentheses.
 
 Pre-order traversal[2] will output the Polish notation, or prefix notation, of the expression, while the post-order traversal[3] will result in the Reverse Polish Notation, or postfix notation.
 
 ---
+
 ## Revision
 
 The following binary expression tree evaluates to:
+
 ```
      ÷
    /   \
@@ -52,15 +54,18 @@ The following binary expression tree evaluates to:
  / \    |
 3   9   3
 ```
+
 ???
 
-* `-4`
-* `4`
-* `-3`
-* `3`
+- `-4`
+- `4`
+- `-3`
+- `3`
 
 ---
+
 ## Footnotes
+
 [1:In-order traversal]
 Depth-first traversal in which the parent node is visited after the left child and before right child.
 

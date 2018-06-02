@@ -30,6 +30,7 @@ links:
 # Template methods in abstract classes
 
 ---
+
 ## Content
 
 Template methods are methods in an abstract base class which define the general format of a method but leave the specific implementation to a subclass.
@@ -65,19 +66,22 @@ public class SubClass extends BaseClass{
 ```
 
 ---
+
 ## Practice
 
 Template methods are a good way to prevent
 ???.
 
-* code repetition
-* compilation issues
-* spelling mistakes
+- code repetition
+- compilation issues
+- spelling mistakes
 
 ---
+
 ## Revision
 
 Complete the following Java code snippet implementing the use of a base class:
+
 ```
 public abstract class bigClass {
   abstract void render();
@@ -92,13 +96,11 @@ public class smallerClass
 }
 ```
 
-
-* `extends`
-* `@Override`
-* `creates`
-* `override`
-* `implements`
-* `@Implement`
-* `@Create`
-* `@Extends`
-
+- `extends`
+- `@Override`
+- `creates`
+- `override`
+- `implements`
+- `@Implement`
+- `@Create`
+- `@Extends`

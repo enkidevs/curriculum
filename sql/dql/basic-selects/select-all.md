@@ -28,6 +28,7 @@ links:
 # SELECT
 
 ---
+
 ## Content
 
 To get all of the data from a table, use a `SELECT *` statement.
@@ -37,32 +38,32 @@ SELECT *
 FROM pokemon;
 ```
 
-The above command gets all of the *columns* and all of the *rows* from the `pokemon` table.
-
+The above command gets all of the _columns_ and all of the _rows_ from the `pokemon` table.
 
 ---
+
 ## Practice
 
 Which of the following queries will return all columns and all rows from a a table called `item`?
 
 ???
 
-* `SELECT * FROM item`
-* `SELECT all FROM item`
-* `CHOOSE * FROM item`
-* `SELECT * TABLE item`
-* `CHOOSE * TABLE item`
-* `SELECT col, row FROM item`
+- `SELECT * FROM item`
+- `SELECT all FROM item`
+- `CHOOSE * FROM item`
+- `SELECT * TABLE item`
+- `CHOOSE * TABLE item`
+- `SELECT col, row FROM item`
 
 ---
+
 ## Revision
 
 Which of these symbols is used to denote "all columns" in SQL?
 
 ???
 
-* `*`
-* `?`
-* `%`
-* `#`
- 
+- `*`
+- `?`
+- `%`
+- `#`

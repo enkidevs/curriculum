@@ -20,9 +20,11 @@ tags:
 notes: ''
 
 ---
+
 # Computed property names in object literals
 
 ---
+
 ## Content
 
 When using dynamically computed property names, we have traditionally been forced to use the more awkward imperative syntax:
@@ -33,6 +35,7 @@ var pig = new Object();
 pig.color = color;
 pig[color + "ness"]  = 10;
 ```
+
 Since ES6, object literal syntax has been extended and we can now write direclty:
 
 ```
@@ -44,15 +47,18 @@ var pig = {
 ```
 
 ---
+
 ## Practice
 
 ```javascript
 var x = 3.14;
 var enki = new Object();
 enki.x = x;
-enki[x + "y"] = 2;
+enki[x + 'y'] = 2;
 ```
+
 Convert the code snippet above using the extended **ES6** object literal syntax:
+
 ```javascript
 var x = 3.14;
 var enki  = {
@@ -61,25 +67,28 @@ var enki  = {
 }
 ```
 
-* x
-* "y"
-* y
-* "x"
-* 3.14
-* new
-* Object
-* {}
+- x
+- "y"
+- y
+- "x"
+- 3.14
+- new
+- Object
+- {}
 
 ---
+
 ## Revision
 
 ```javascript
 var x = 3.14;
 var enki = new Object();
 enki.x = x;
-ekni[x + "y"] = 2;
+ekni[x + 'y'] = 2;
 ```
+
 Convert the code snippet above using the extended **ES6** object literal syntax:
+
 ```javascript
 var x = 3.14;
 var enki  = {
@@ -88,11 +97,11 @@ var enki  = {
 }
 ```
 
-* x
-* "y"
-* y
-* "x"
-* 3.14
-* new
-* Object
-* {}
+- x
+- "y"
+- y
+- "x"
+- 3.14
+- new
+- Object
+- {}

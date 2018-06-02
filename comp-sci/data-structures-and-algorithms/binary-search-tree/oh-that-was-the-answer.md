@@ -24,6 +24,7 @@ parent: primality-test
 Are the following functions' upper bound (Big-Oh) true?
 
 ---
+
 ## Game Content
 
 false:true
@@ -66,7 +67,6 @@ n log n = O(n^2)
 The linear function `n` is greater than the constant `6`.
 %
 ```
-
 
 ```false
 n^2 = O(n log n)

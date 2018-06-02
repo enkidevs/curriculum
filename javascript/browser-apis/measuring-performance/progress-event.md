@@ -24,14 +24,16 @@ links:
 # ProgressEvent
 
 ---
+
 ## Content
 
-The *`ProgressEvent`* interface is used to represent events which measure the progress of underlying processes taking place in the API. For example, an HTTP request or loading an underlying resource such as *<img>*.
+The _`ProgressEvent`_ interface is used to represent events which measure the progress of underlying processes taking place in the API. For example, an HTTP request or loading an underlying resource such as _<img>_.
 
-*ProgressEvent Properties:*
-```javascript
+_ProgressEvent Properties:_
+
+````javascript
 ProgressEvent.lengthComputable;```
-Is a boolean flag returning whether the progress made on the work to be completed is measurable. 
+Is a boolean flag returning whether the progress made on the work to be completed is measurable.
 
 ```javascript
 ProgressEvent.loaded;```
@@ -45,9 +47,9 @@ Is an unsigned long showing the amount of work the underlying process is current
 
 
 
-A usage example, measuring the progress of an *`XMLHttpRequest`*. 
+A usage example, measuring the progress of an *`XMLHttpRequest`*.
 ```javascript
-// progress on transfers - server to client 
+// progress on transfers - server to client
 function updateProgress (oEvent) {
   if (oEvent.lengthComputable) {
     var percentDone = oEvent.loaded /
@@ -58,35 +60,34 @@ function updateProgress (oEvent) {
      as size unknown */
   }
 }
-```
+````
 
 ---
+
 ## Practice
 
-Which following property of `ProgressEvent` shows the amount of work already done by the underlying process? 
+Which following property of `ProgressEvent` shows the amount of work already done by the underlying process?
 
 ???
 
-
-* `ProgressEvent.loaded;`
-* `ProgressEvent.lengthComputable;`
-* `ProgressEvent.total;`
+- `ProgressEvent.loaded;`
+- `ProgressEvent.lengthComputable;`
+- `ProgressEvent.total;`
 
 ---
+
 ## Revision
 
 Which following property of `ProgressEvent` returns a boolean?
 
-1) `ProgressEvent.loaded`
+1.  `ProgressEvent.loaded`
 
-2) `ProgressEvent.lengthComputable`
+2.  `ProgressEvent.lengthComputable`
 
-3) `ProgressEvent.total`
+3.  `ProgressEvent.total`
 
 ???
 
-
-* `2`
-* `1`
-* `3`
-
+- `2`
+- `1`
+- `3`

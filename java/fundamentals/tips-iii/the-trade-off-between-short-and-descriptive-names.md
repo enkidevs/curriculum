@@ -26,9 +26,10 @@ links:
 # The trade-off between short and descriptive names
 
 ---
+
 ## Content
 
-Using excessively long names for classes, methods or variables can make code more difficult to write and format. 
+Using excessively long names for classes, methods or variables can make code more difficult to write and format.
 
 On the other hand, using names that are too short can make code harder to understand in the case that the name does not adequately describe its purpose.
 
@@ -39,18 +40,18 @@ public String n();
 public String retrieveFirstAndLastName();
 public String getName();
 ```
+
 For example, the first and second method names above are poor because it is not explanatory at all, or unnecessarily long. The third name strikes a good balance between length and descriptiveness.
 
 ---
+
 ## Practice
 
-Which of the following methods is best named for finding the age of a person? 
+Which of the following methods is best named for finding the age of a person?
 
 ???
 
-
-* `getAge()` 
-* `age()` 
-* `getAgeOfPerson` 
-* `num()`
-
+- `getAge()`
+- `age()`
+- `getAgeOfPerson`
+- `num()`

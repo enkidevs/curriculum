@@ -34,40 +34,42 @@ parent: connection-strings
 # What is a database client?
 
 ---
+
 ## Content
 
-A **Database Client** is any piece of software that issues queries to a *Database Server*, which holds the data.
+A **Database Client** is any piece of software that issues queries to a _Database Server_, which holds the data.
 There are many types:
- - Software Packages (like `pg` in Node, or `jdbc` in Java, `psycopg2` in Python)
- - Command Line Applications, like `psql`
- - Graphical Interfaces, like SQL Server Management Studio
+
+- Software Packages (like `pg` in Node, or `jdbc` in Java, `psycopg2` in Python)
+- Command Line Applications, like `psql`
+- Graphical Interfaces, like SQL Server Management Studio
 
 Some of the Database Clients can act as one or both of the following things:
- - The end user GUI/command line database management system which is connected to the database server.
- - When used as a software package, it can act as an intermediary between other applications and the database that holds the data (such as web servers)
+
+- The end user GUI/command line database management system which is connected to the database server.
+- When used as a software package, it can act as an intermediary between other applications and the database that holds the data (such as web servers)
 
 ---
+
 ## Practice
 
 The software through which information in a database is queried is called
 
 ???
 
-
-* Database Client
-* Database Server
-* Server Manager
-* Database Application
+- Database Client
+- Database Server
+- Server Manager
+- Database Application
 
 ---
+
 ## Revision
 
 What is a Database Client?
 
 ???
 
-
-* The software that queries information from the database server
-* An optional program that a user can install on top of the Database Server
-* The software through which memory is allocated on the server
- 
+- The software that queries information from the database server
+- An optional program that a user can install on top of the Database Server
+- The software through which memory is allocated on the server

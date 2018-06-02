@@ -25,9 +25,11 @@ links:
 # Tail call optimisation in ES6
 
 ---
+
 ## Content
 
-A **tail call** is a function call that is in the **tail position** (the last action in a function). Here `t()` is in the tail position: 
+A **tail call** is a function call that is in the **tail position** (the last action in a function). Here `t()` is in the tail position:
+
 ```
 const a = () => h() && t();
 ```
@@ -44,7 +46,9 @@ function factorial(n, acc = 1) {
     // recursive call is in tail position.
 }
 ```
+
 Note: in this example `b()` is not in a tail position because functions implicitly return `undefined`:
+
 ```
 function a() {
     b();
@@ -53,28 +57,27 @@ function a() {
 ```
 
 ---
+
 ## Practice
 
-Which function in the following JS code snippet is in the *tail position*? ???
+Which function in the following JS code snippet is in the _tail position_? ???
 
 ```javascript
 const env = () => foo() && test();
 ```
 
-
-* `test()`
-* `foo()`
-* `env`
-* None of them...
+- `test()`
+- `foo()`
+- `env`
+- None of them...
 
 ---
+
 ## Revision
 
 When does the ES6 **tail call optimisation** work?
 
 ???
 
-
-* in strict mode
-* in non-strict mode
-
+- in strict mode
+- in non-strict mode

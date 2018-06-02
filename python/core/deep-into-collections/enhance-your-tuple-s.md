@@ -69,6 +69,7 @@ standards:
 # Enhance your `tuple`s
 
 ---
+
 ## Content
 
 Standard Python `tuples` are lightweight sequences of immutable objects, yet their implementation may prove inconvenient in some scenarios.
@@ -76,11 +77,13 @@ Standard Python `tuples` are lightweight sequences of immutable objects, yet the
 Instead, the `collections` module provides an enhanced version of a tuple, `namedtuple`, that makes member access more natural (rather than using integer indexes).
 
 Import `namedtuple`:
+
 ```python
 from collections import namedtuple
 ```
 
 Create a `namedtuple` object:
+
 ```python
 point = namedtuple('point', 'x y z')
 A = point(x=3, y=5, z=6)
@@ -89,23 +92,28 @@ print(A)
 ```
 
 Access a specific member:
+
 ```python
 print(A.x)
 # 3
 ```
+
 Because `namedtuple`s are **backwards compatible** with normal `tuple`s, member access can be also done with indexes:
+
 ```python
 print(A[0])
 # 3
 ```
 
 To convert a `namedtuple` to a `dict` (Actually a `OrderedDict`):
+
 ```python
 print(A._asdict())
 #OrderedDict([('x', 3), ('y', 5), ('z', 6)])
 ```
 
 ---
+
 ## Practice
 
 Convert the `namedtuple` into an `OrderedDict` :
@@ -119,16 +127,16 @@ print(p.???())
 #             ('b', 5), ('c', 2)])
 ```
 
-
-* `namedtuple`
-* `_asdict`
-* `named_tuple`
-* `tuple_instance`
-* `new`
-* `asOrderedDict`
-* `asDict`
+- `namedtuple`
+- `_asdict`
+- `named_tuple`
+- `tuple_instance`
+- `new`
+- `asOrderedDict`
+- `asDict`
 
 ---
+
 ## Revision
 
 Create a named tuple object:
@@ -141,12 +149,10 @@ print(q)
 # Revision(a=10, b=5, c=2)
 ```
 
-
-* `namedtuple`
-* `question`
-* `Revision`
-* `print`
-* `named_tuple`
-* `new_named_tuple`
-* `tuple_instance`
- 
+- `namedtuple`
+- `question`
+- `Revision`
+- `print`
+- `named_tuple`
+- `new_named_tuple`
+- `tuple_instance`

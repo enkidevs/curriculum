@@ -25,17 +25,22 @@ links:
   - '[MDN Docs for var](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var){website}'
 
 ---
+
 # Intro var
+
 ---
+
 ## Content
 
 In HTML the `<var>` element is used to represent a name of a variable in either a programming context or a mathematical expression.
 
 **Note:**
-  - **var stands for The Variable element.**
-  - **Both the starting and ending tags are necessary.**
+
+- **var stands for The Variable element.**
+- **Both the starting and ending tags are necessary.**
 
 Example:
+
 ```
 <p>
  <var>X</var> >
@@ -44,6 +49,7 @@ Example:
 ```
 
 Result:
+
 <p>
  <var>X</var> &gt;
  Y
@@ -63,49 +69,51 @@ var {
 ```
 
 ---
+
 ## Practice
 
 Which statement is not true about using the `<var>` element?
 
 ???
 
- * represents user input
- * represents a variable in a mathematical expression
- * represents a variable in a programming context
- * produces an inline element
- * Default text style is italic.
-
+- represents user input
+- represents a variable in a mathematical expression
+- represents a variable in a programming context
+- produces an inline element
+- Default text style is italic.
 
 ---
+
 ## Revision
 
 What HTML element is best to display mathematical expressions or a programming context differently than the surrounding text?
 
 ???
 
-* var
-* samp
-* code
-* kbd
-* pre
-* math
-* output
+- var
+- samp
+- code
+- kbd
+- pre
+- math
+- output
 
 ---
+
 ## Quiz
 
 ### How much do you know about HTML elements?
 
-Which HTML element is best to substitute for "tag" within this code:  
+Which HTML element is best to substitute for "tag" within this code:
 
 `<p>`A simple equation: `<tag>`x`</tag>` = `<tag>`y`</tag>` + 2`</p>`
 
 ???
 
-* var
-* samp
-* code
-* kbd
-* pre
-* math
-* output
+- var
+- samp
+- code
+- kbd
+- pre
+- math
+- output

@@ -29,7 +29,7 @@ links:
 # Exercises control structures solving a sudoku
 
 ---
+
 ## Exercise
 
 Practice flow control `structures` in python.
- 

@@ -29,11 +29,12 @@ notes: >-
 # Best way to implement a simple `queue`
 
 ---
+
 ## Content
 
 A simple `list` can be easily used and implemented as a **queue** abstract data structure. A queue implies the **first-in, first-out** principle.
 
-However, this approach will prove inefficient because *inserts* and *pops* from the beginning of a list are slow (all elements need shifting by one).
+However, this approach will prove inefficient because _inserts_ and _pops_ from the beginning of a list are slow (all elements need shifting by one).
 
 It's recommended to implement **queues** using the `collections.deque` module as it was designed with fast appends and pops from both ends.
 
@@ -51,19 +52,20 @@ print(queue)
 A reverse queue can be implemented by opting for `appendleft` instead of `append` and `pop` instead of `popleft`.
 
 ---
+
 ## Practice
 
-A reverse queue can be implemented by using ???  instead of ??? for adding items, and by using ??? instead of ??? for removing items.
+A reverse queue can be implemented by using ??? instead of ??? for adding items, and by using ??? instead of ??? for removing items.
 
-
-* appendleft
-* append
-* pop
-* popleft
-* appendright
-* popright
+- appendleft
+- append
+- pop
+- popleft
+- appendright
+- popright
 
 ---
+
 ## Revision
 
 Complete the code snippet so that the queue reads Enki:
@@ -78,12 +80,9 @@ queue.???
 print(queue)
 ```
 
-
-
-* `popleft()`
-* `appendleft("e")`
-* `pop()`
-* `append("e")`
-* `pop-left()`
-* `append-left("e")`
- 
+- `popleft()`
+- `appendleft("e")`
+- `pop()`
+- `append("e")`
+- `pop-left()`
+- `append-left("e")`

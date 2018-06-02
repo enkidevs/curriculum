@@ -30,15 +30,19 @@ links:
 # Express binary literals with `0b` and hexadecimal literals with `0x`
 
 ---
+
 ## Content
 
 Binary values can be expressed using the `0b` or `0B` prefix.
+
 ```
 int binary = 0b0101110101;
 ```
+
 In the same way, hexadecimal values can be expressed by adding the prefix `0x` or `0X`.
+
 ```
 int hex = 0x5A;
 ```
-It is worth noting that in older versions of Java (pre-JDK 7), only the hexadecimal prefix is valid.
 
+It is worth noting that in older versions of Java (pre-JDK 7), only the hexadecimal prefix is valid.

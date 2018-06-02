@@ -29,8 +29,8 @@ links:
 
 # SQL Practice Define Relationships
 
----        
+---
+
 ## Exercise
 
 Create a foreign key constraint to relate the `users` table with the `users_items` table, on the `user_id` column in `users_items`.
- 

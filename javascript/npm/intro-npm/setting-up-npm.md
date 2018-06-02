@@ -16,14 +16,15 @@ standards:
 
 tags:
   - introduction
-
 ---
+
 # Setting up npm
 
 ---
+
 ## Content
 
-Now that you have chosen to use **npm**, the next step is to install it: *npm* is included with *Node.js*.
+Now that you have chosen to use **npm**, the next step is to install it: _npm_ is included with _Node.js_.
 
 As npm gets updated more often than node, you can update it to its most recent version like follows:
 
@@ -39,15 +40,15 @@ $ npm install package-name@version (-g)
 $ npm i package-name@version (-g)
 ```
 
-When you install a package globally, by appending the `-g` flag to the command , every project that relies on it would use the same *version* of the package, which may cause problems with dependencies.
+When you install a package globally, by appending the `-g` flag to the command , every project that relies on it would use the same _version_ of the package, which may cause problems with dependencies.
 
-The safest way to install packages is in the project folder, or locally. For example, to check whether the installation was successful, look for the *express* folder inside the *node_modules* directory:
+The safest way to install packages is in the project folder, or locally. For example, to check whether the installation was successful, look for the _express_ folder inside the _node_modules_ directory:
 
 ```bash
 $ npm install express
 ```
 
-If the version of the package is not specified, npm will install its latest version by default. Once the package is inside the *node_modules* directory, you can require it in your project:
+If the version of the package is not specified, npm will install its latest version by default. Once the package is inside the _node_modules_ directory, you can require it in your project:
 
 ```javascript
 var express = require('express');
@@ -55,6 +56,7 @@ var app = express();
 ```
 
 ---
+
 ## Practice
 
 How would you update npm to the latest version? Place the flag at the end of the command.
@@ -63,27 +65,28 @@ How would you update npm to the latest version? Place the flag at the end of the
 $ npm ??? ??? ???
 ```
 
-* install
-* npm
-* -g
-* latest
-* -l
-* add
-* remove
-* --latest
+- install
+- npm
+- -g
+- latest
+- -l
+- add
+- remove
+- --latest
 
 ---
+
 ## Revision
 
-Install the *react* package locally:
+Install the _react_ package locally:
 
 ```bash
 $ ??? ??? ???
 ```
 
-* npm
-* install
-* react
-* -l
-* -g
-* node
+- npm
+- install
+- react
+- -l
+- -g
+- node

@@ -31,17 +31,21 @@ tags:
 # Using `Tasksel` for software installation
 
 ---
+
 ## Content
 
-`Tasksel` is a software installation application that is an integral part of the Debian installer and works under Ubuntu Linux too. 
+`Tasksel` is a software installation application that is an integral part of the Debian installer and works under Ubuntu Linux too.
 
 It groups some packages by tasks and offers the user an easy way to install the packages for that task. It provides the same functionality as using conventional meta-packages.
 
 The option `--list-tasks` lists on screen the tasks (packages) that would be displayed in the `tasksel` text user interface.
+
 ```
 $ sudo tasksel --list-tasks
-```	
+```
+
 The output:
+
 ```
 u server	Basic Ubuntu server
 u dns-server	DNS server
@@ -54,24 +58,27 @@ u postgresql-server	PostgreSQL database
 ...
 u virt-host	Virtual Machine host
 ```
+
 You can issue the `tasksel` command directly and check the services that you need to be installed, or use the caret (`^`)
 with `apt-get`:
+
 ```
-$ sudo apt-get install 
+$ sudo apt-get install
                 openssh-server^
 ```
 
 ---
+
 ## Revision
 
 To list all the packages that would be displayed in the `tasksel` UI, you would run:
+
 ```
-$ ??? ??? ??? 
+$ ??? ??? ???
 ```
 
-* `sudo`
-* `tasksel`
-* `—list-tasks`
-* `-lt`
-* `taskel`
-
+- `sudo`
+- `tasksel`
+- `—list-tasks`
+- `-lt`
+- `taskel`

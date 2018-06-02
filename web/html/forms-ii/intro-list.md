@@ -20,8 +20,11 @@ aspects:
   - obscura
 
 ---
+
 # Intro list
+
 ---
+
 ## Content
 
 With the HTML input form `<list>` attribute and the `<datalist>` element you can specify a list of pre-defined options for the `<input>` element.
@@ -29,6 +32,7 @@ The `<datalist>` element is used to provide the `<input>` element with the `auto
 
 The value of `<list>` must be the `id` of the `<datalist>` element within the same document.
 Example:
+
 ```
 <form
   action="file.php"
@@ -51,8 +55,8 @@ Example:
 </form>
 ```
 
-
 ---
+
 ## Practice
 
 Complete the code so that the input field displays a dropdown list.
@@ -77,13 +81,14 @@ Complete the code so that the input field displays a dropdown list.
 `[D]`: ???
 `[E]`: ???
 
-* list
-* name
-* datalist
-* id
-* option
+- list
+- name
+- datalist
+- id
+- option
 
 ---
+
 ## Revision
 
 Which form attribute is used to connect pre-defined options of a datalist as an input dropdown?
@@ -104,9 +109,9 @@ Which form attribute is used to connect pre-defined options of a datalist as an 
 </form>
 ```
 
-* list
-* formlist
-* datalistid
-* options
-* listoptions
-* dataoptions
+- list
+- formlist
+- datalistid
+- options
+- listoptions
+- dataoptions

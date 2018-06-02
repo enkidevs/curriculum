@@ -28,41 +28,49 @@ notes: Math modules workout
 # Generating `random` numbers
 
 ---
+
 ## Content
 
-The Python `random` module provides random (pseudo-random) number generators based on the *Mersenne Twister* algorithm.
+The Python `random` module provides random (pseudo-random) number generators based on the _Mersenne Twister_ algorithm.
 
 Import the module:
+
 ```python
 import random
 ```
+
 Generate a random number (`0 <= x < 1.0`):
+
 ```python
 print(random.random())
 # 0.9104148523071307
 ```
+
 Generate a random number in a specified range:
+
 ```python
 print(random.uniform(1,50))
 # 2.3772939038992495
-
 ```
 
 Generate a random integer from a range:
+
 ```python
 print(random.randint(1,50))
 # 32
 ```
+
 Generate a random integer from a range, but with a `step` (of the lower bound):
+
 ```python
 print(random.randrange(0, 101, 5))
 print(random.randrange(0, 101, 5))
 # 50
 # 95
-
 ```
 
 Pick a random element from a sequence:
+
 ```python
 t = (4, 5, 6, 10, 23)
 print(random.choice(t))
@@ -70,6 +78,7 @@ print(random.choice(t))
 ```
 
 ---
+
 ## Practice
 
 Generate a random Integer between `5` and `10` :
@@ -78,27 +87,26 @@ Generate a random Integer between `5` and `10` :
 print(???.???(5, 10))
 ```
 
-
-* `random`
-* `randint`
-* `randomint`
-* `get`
-* `new`
-* `randomrange`
-* `randrange`
-* `uniform`
+- `random`
+- `randint`
+- `randomint`
+- `get`
+- `new`
+- `randomrange`
+- `randrange`
+- `uniform`
 
 ---
+
 ## Revision
 
 Generate a random number between 0 and 1:
+
 ```
 print(random.???())
 ```
 
-
-* `random`
-* `new`
-* `get`
-* `new_random`
- 
+- `random`
+- `new`
+- `get`
+- `new_random`

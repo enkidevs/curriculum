@@ -21,17 +21,17 @@ links:
   - '[facebook.github.io](https://facebook.github.io/react/docs/react-component.html#the-component-lifecycle){website}'
 
 parent: the-component-lifecycle
-
 ---
 
 # Component **lifecycle methods**
 
 ---
+
 ## Content
 
-As discussed before, **lifecycle methods** can be used to target a specific point in the *life* of a `component`.
+As discussed before, **lifecycle methods** can be used to target a specific point in the _life_ of a `component`.
 
-We can split them into three broader categories by the *type of event* that will trigger them:
+We can split them into three broader categories by the _type of event_ that will trigger them:
 
 ### 1. Mounting
 
@@ -44,13 +44,11 @@ constructor(props) {
     time: new Date();
   }
 }
-
 ```
 
 - `componentWillMount()` - is invoked **just before** `render`. Modifying the `state` here won't trigger a **re-render**.
 
 - `componentDidMount()` - is invoked **after** `render`. Useful for initialisations that require `DOM` nodes.
-
 
 ### 2. Updating
 
@@ -67,30 +65,29 @@ constructor(props) {
 - `componentWillUnmount()` - is invoked immediately **before** a `component` is unmounted and destroyed. Useful for resource cleanup.
 
 ---
+
 ## Practice
 
 What of the following methods is called **after** rendering, but not after the first one.
 
 ???
 
-
-* `componentDidUpdate`
-* `componentDidMount`
-* `componentWillUpdate`
-* `componentWillMount`
-* `componentWillUnmount`
-* `constructor`
+- `componentDidUpdate`
+- `componentDidMount`
+- `componentWillUpdate`
+- `componentWillMount`
+- `componentWillUnmount`
+- `constructor`
 
 ---
+
 ## Revision
 
 What method is the first being called in the **component lifecycle**?
 
 ???
 
-
-* `constructor`
-* `componentWillMount`
-* `shouldComponentUpdate`
-* `componentDidMount`
-
+- `constructor`
+- `componentWillMount`
+- `shouldComponentUpdate`
+- `componentDidMount`

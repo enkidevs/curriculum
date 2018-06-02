@@ -30,11 +30,13 @@ links:
 # Throwing chained `exceptions`
 
 ---
+
 ## Content
 
 It is sometimes useful to be able to throw an exception in response to an exception; this is called _chaining exceptions_.
 
 A new chained exception can be created by using the following syntax:
+
 ```
 try {
   //code which might throw an exception
@@ -43,8 +45,8 @@ catch(Exception e) {
   throw new Exception(
     "chained exception", //message
     e  //Throwable object
-  ); 
+  );
 }
 ```
-The new `Exception` object takes two parameters; the first is a message to be displayed, and the second is the `Throwable` object which caused the exception.
 
+The new `Exception` object takes two parameters; the first is a message to be displayed, and the second is the `Throwable` object which caused the exception.

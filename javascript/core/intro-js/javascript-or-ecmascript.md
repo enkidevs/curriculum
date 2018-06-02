@@ -16,11 +16,12 @@ tags:
 
 links:
   - '[www.ecma-international.org](http://www.ecma-international.org/publications/standards/Ecma-262.htm){website}'
-
 ---
+
 # JavaScript or EcmaScript?
 
 ---
+
 ## Content
 
 The language that would become JavaScript was created by **Brendan Eich** in 1995 and then standardized by an organization called ECMA as **EcmaScript-262**. The standardization was needed as two versions of the initial JavaScript (Netscape's JavaScript and Microsoft's JScript) came out, similarly enough to be considered "versions", but different enough to cause confusion.
@@ -40,24 +41,26 @@ When people use the word JavaScript they are usually referring to EcmaScript and
 In conclusion, JavaScript and EcmaScript are not exactly the same, but the development of the JavaScript language is driven by the new standards introduced in revised versions of EcmaScript.
 
 ---
+
 ## Practice
 
 What is EcmaScipt?
 
 ???
 
-* a standard that drives JavaScript development
-* a JavaScript dialect
-* the same as JavaScript
-* a JavaScript extension
+- a standard that drives JavaScript development
+- a JavaScript dialect
+- the same as JavaScript
+- a JavaScript extension
 
 ---
+
 ## Revision
 
 Which one of the following came first ?
 
 ???
 
-* JavaScript
-* EcmaScript-262
-* EcmaScript 2016
+- JavaScript
+- EcmaScript-262
+- EcmaScript 2016

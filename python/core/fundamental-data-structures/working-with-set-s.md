@@ -22,9 +22,11 @@ links:
 # Sets in Python
 
 ---
+
 ## Content
 
 In **Python**, **sets** have four main characteristics:
+
 - they are an **unordered collection** of elements;
 - every elements is **unique** (no duplicates);
 - and every element must be **immutable**;
@@ -33,6 +35,7 @@ In **Python**, **sets** have four main characteristics:
 Even though elements stored in **sets** must be **immutable** the set itself is **mutable**.
 
 There are two ways to create a **set**:
+
 - by placing all items inside `{}`, separated by commas;
 - or by using the **built in function** `set()`.
 
@@ -49,10 +52,12 @@ my_set = set([1,2,3,4,5])
 ```
 
 **Sets** updating is done using two **methods**:
+
 - `add()` -> adds one single element to the **set**;
 - `update()` -> adds more elements at a time to the **set**;
 
 Suppose we have the set created above:
+
 ```
 my_set.add(9)
 print(my_set)
@@ -68,6 +73,7 @@ print(my_set)
 As you can see, if we try to add **duplicate values** to the **set**, it wouldn't consider them.
 
 **Sets** have two methods for removing items as well:
+
 - `discard()` -> which removes an element if it exists and does nothing if it doesn't.
 - `remove()` -> which does the same thing if the element exists, but would raise an error if it doesn't exist.
 
@@ -80,26 +86,25 @@ print(my_set)
 ```
 
 ---
+
 ## Practice
 
 Which of the following pairs are valid set methods?
 
 ???
 
-
-* `update()` and `add()`
-* `update()` and `insert()`
-* `insert()` and `add()`
+- `update()` and `add()`
+- `update()` and `insert()`
+- `insert()` and `add()`
 
 ---
+
 ## Revision
 
 What happens when you use `remove()` on an element that doesn't exist in the set?
 
 ???
 
-
-* An error will be thrown.
-* Nothing.
-* The element will be removed.
- 
+- An error will be thrown.
+- Nothing.
+- The element will be removed.

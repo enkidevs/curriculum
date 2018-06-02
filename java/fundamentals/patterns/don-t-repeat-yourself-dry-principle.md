@@ -37,13 +37,15 @@ notes: 'static workout '
 # Don't repeat yourself (DRY) principle
 
 ---
+
 ## Content
 
-Code written should be made easy to maintain by following the *don’t repeat yourself* principle. 
+Code written should be made easy to maintain by following the _don’t repeat yourself_ principle.
 
-The principle suggests avoiding duplications or copying and pasting blocks of code from one place to another, by moving similar or repetitive code into reusable units like methods or sometimes an entire class. 
+The principle suggests avoiding duplications or copying and pasting blocks of code from one place to another, by moving similar or repetitive code into reusable units like methods or sometimes an entire class.
 
 For example:
+
 ```
 public class University {
   public void addStudent() {
@@ -56,7 +58,9 @@ public class University {
 	}
 }
 ```
+
 A better implementation would be:
+
 ```
 public class University {
   public void addStudent() {
@@ -72,4 +76,3 @@ public class University {
   }
 }
 ```
-

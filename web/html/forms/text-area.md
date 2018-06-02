@@ -21,14 +21,17 @@ links:
   - '[MDN docs for textarea](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea){website}'
 
 ---
-# Text Area
----
-## Content
 
+# Text Area
+
+---
+
+## Content
 
 The HTML `<textarea>` element is used to represent a multi-line input text area.
 
 Simple example:
+
 ```
 <textarea
   name="textbox">
@@ -36,17 +39,18 @@ Simple example:
 ```
 
 The `<textarea>` element has many attributes. Some of them:
-  - `autocomplete` enables autocomplete for text area
-  - `autofocus` sets focus on text area upon page load
-  - `cols`  
-  - `maxlength`
-  - `minlength`
-  - `readonly`
-  - `placeholder`
-  - `rows`
 
+- `autocomplete` enables autocomplete for text area
+- `autofocus` sets focus on text area upon page load
+- `cols`
+- `maxlength`
+- `minlength`
+- `readonly`
+- `placeholder`
+- `rows`
 
 Example with attributes:
+
 ```
 <textarea
    name="textarea" rows="10"
@@ -55,12 +59,10 @@ Example with attributes:
 </textarea>
 ```
 
-In the example above, `rows="10"` specifies the number of visible text lines for the control,  `cols="30"` specifies the average characters width and the `placeholder` attribute presents a hint which disappears after the user types something and reappears if there is no input.
-
-
-
+In the example above, `rows="10"` specifies the number of visible text lines for the control, `cols="30"` specifies the average characters width and the `placeholder` attribute presents a hint which disappears after the user types something and reappears if there is no input.
 
 ---
+
 ## Practice
 
 Write the form code that creates a multi-line input for text.

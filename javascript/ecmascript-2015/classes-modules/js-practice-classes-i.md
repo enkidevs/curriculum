@@ -24,6 +24,7 @@ links:
 # JS Practice Classes 1
 
 ---
+
 ## Exercise
 
 Implement a basic JavaScript Class on Code Wars

@@ -22,6 +22,7 @@ links:
 # Thread Sleep
 
 ---
+
 ## Content
 
 Sometimes you might want to put a thread to `sleep` (i.e. stop its execution for some time) or `join` it (i.e. wait until it terminates). This is a very basic concept but can have many uses.
@@ -29,6 +30,7 @@ Sometimes you might want to put a thread to `sleep` (i.e. stop its execution for
 `sleep()` is implemented as a `static` method in the `Thread` class described earlier so it can be called directly on it or on any other custom thread from inside your program.
 
 An example of using `sleep()`:
+
 ```
 public class SleepingThread {
   public static void main(String args[])
@@ -41,32 +43,30 @@ public class SleepingThread {
     }
   }
 }
-
 ```
 
 ---
+
 ## Practice
 
 What does `sleep()` method do?
 
 ???
 
-
-* It pauses the execution of a thread for a certain time
-* It waits until a thread finished executing
-* It pauses all the threads in a queue
-* It frees all the resources that the current thread is holding
+- It pauses the execution of a thread for a certain time
+- It waits until a thread finished executing
+- It pauses all the threads in a queue
+- It frees all the resources that the current thread is holding
 
 ---
+
 ## Revision
 
 What method stops executing for a specified time and continues running afterwards?
 
 ???
 
-
-* sleep()
-* join()
-* wait()
-* combine()
-
+- sleep()
+- join()
+- wait()
+- combine()

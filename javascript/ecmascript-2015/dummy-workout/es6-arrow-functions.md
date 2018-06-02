@@ -20,21 +20,27 @@ links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions){website}'
 
 ---
+
 # ES6 Arrow Functions
 
 ---
+
 ## Content
 
-ES6 **arrow** functions (`=>`) represent function **expressions** in shorter syntax. Arrow functions turn 
+ES6 **arrow** functions (`=>`) represent function **expressions** in shorter syntax. Arrow functions turn
+
 ```
 function(arguments){expression}
 ```
-into 
+
+into
+
 ```
 arguments => expression
-``` 
+```
 
 For example:
+
 ```
 // with ES5
 var evens = odds.map(
@@ -46,9 +52,11 @@ var evens = odds.map(n => n + 1);
 ```
 
 ---
+
 ## Practice
 
 Give the equivalent using **ES6 Arrow Functions**:
+
 ```
 // with ES5
 var evens = odds.map(
@@ -59,18 +67,20 @@ var evens = odds.map(
 ??? evens = odds.map(n ??? n + 1);
 ```
 
-* var
-* =>
-* return
-* ()
-* {}
-* =
-* \>
+- var
+- =>
+- return
+- ()
+- {}
+- =
+- \>
 
 ---
+
 ## Revision
 
 Give the equivalent using **ES6 Arrow Functions**:
+
 ```
 // with ES5
 var evens = odds.map(
@@ -81,10 +91,10 @@ var evens = odds.map(
 ??? evens = odds.map(n ??? n + 1);
 ```
 
-* var
-* =>
-* return
-* ()
-* {}
-* =
-* \>
+- var
+- =>
+- return
+- ()
+- {}
+- =
+- \>

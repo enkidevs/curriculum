@@ -29,6 +29,7 @@ links:
 # Practice encryption
 
 ---
+
 ## Exercise
 
 Encrypt/Decrypt data with python.

@@ -26,6 +26,7 @@ links:
 # Practice your math skills
 
 ---
+
 ## Exercise
 
 Train your math skills with python.

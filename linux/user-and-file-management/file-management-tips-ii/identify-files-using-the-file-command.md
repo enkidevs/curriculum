@@ -38,6 +38,7 @@ notes: >-
 # Identify files using the `file` command
 
 ---
+
 ## Content
 
 Quickly identify the type of a file using the `file` command:
@@ -51,20 +52,21 @@ $ file zte.py
 zte.py: ASCII text executable
 
 $ file messaggi.zip
-messaggi.zip: Zip archive data, at least 
+messaggi.zip: Zip archive data, at least
  v1.0 to extract
 ```
 
 ---
+
 ## Revision
 
 A valid output of the `file` command is:
+
 ```
 $ file script.py
 ???
 ```
 
-* `script.py: ASCII text`
-* `-rw-rw-r-- 1 owner group 2048 19 Nov 2014 script.py
-* `# script.py content`
-
+- `script.py: ASCII text`
+- `-rw-rw-r-- 1 owner group 2048 19 Nov 2014 script.py
+- `# script.py content`

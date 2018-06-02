@@ -23,11 +23,12 @@ links:
 # Namespace and scoping
 
 ---
+
 ## Content
 
-As briefly mentioned before, the **namespace** is the *mapping* between available objects and their referencing names.
+As briefly mentioned before, the **namespace** is the _mapping_ between available objects and their referencing names.
 
-We can picture a **namespace** as a Python dictionary structure, where the *keys* represent the **names** and the *values* the **object itself**:
+We can picture a **namespace** as a Python dictionary structure, where the _keys_ represent the **names** and the _values_ the **object itself**:
 
 ```python
 namespace={'name_a':object1, ...}
@@ -44,7 +45,7 @@ b_namespace={'name_a': object_5, ...}
 
 For example, every time we call a `for-loop` or define a function, an independent namespace is created.
 
-The fact that namespaces can exist *independently* from each other and the fact that they are structured in a certain **hierarchy** brings us to the concept of **scope**.
+The fact that namespaces can exist _independently_ from each other and the fact that they are structured in a certain **hierarchy** brings us to the concept of **scope**.
 
 In computer programming, the **scope** of a **name binding** is the region of a program where the **binding** is valid: where the **name** can be used to refer to the **entity**.
 
@@ -53,11 +54,13 @@ The **scope** defines on which hierarchy level should the interpreter search for
 ```
 LOCAL->ENCLOSED->GLOBAL->BUILT IN
 ```
+
 Where the **arrows** should denote the search order:
-- *Local* can be inside a function or a class
-- *Enclosed* can be inside the *enclosed* function
-- *Global* refers to the **uppermost** level of the executing script
-- *Built in* are special names that Python reserves for itself
+
+- _Local_ can be inside a function or a class
+- _Enclosed_ can be inside the _enclosed_ function
+- _Global_ refers to the **uppermost** level of the executing script
+- _Built in_ are special names that Python reserves for itself
 
 To make this easier to understand consider the following example:
 
@@ -75,6 +78,7 @@ r = 'A global variable'
 f()
 print(r) # print() is built-in
 ```
+
 The following output will be generated:
 
 ```
@@ -84,10 +88,10 @@ A global variable
 ```
 
 ---
+
 ## Practice
 
 Consider the following snippet. On which scoping level of hierarchy do you think `z` is?
-
 
 ```python
 def foo(x):
@@ -95,15 +99,16 @@ def foo(x):
 
 z = foo(4)
 ```
+
 ???
 
-
-* Global
-* Enclosed
-* Local
-* Built-in
+- Global
+- Enclosed
+- Local
+- Built-in
 
 ---
+
 ## Revision
 
 Is the variable `a` still in scope when it is printed?
@@ -116,10 +121,9 @@ def foo():
 b = foo()
 print(a)
 ```
+
 ???
 
-
-* No
-* Yes
-* It can't be determined.
- 
+- No
+- Yes
+- It can't be determined.

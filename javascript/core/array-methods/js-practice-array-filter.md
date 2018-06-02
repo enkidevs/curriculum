@@ -26,6 +26,7 @@ links:
 # JS Practice Array `filter`
 
 ---
+
 ## Exercise
 
 Practice using the JavaScript Array method `filter()`

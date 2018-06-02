@@ -29,9 +29,10 @@ links:
 # Avoid unnecessary exception handling
 
 ---
+
 ## Content
 
-Throwing and catching exceptions is costly in terms of performance. Avoiding unnecessary exception handling can speed up your code. 
+Throwing and catching exceptions is costly in terms of performance. Avoiding unnecessary exception handling can speed up your code.
 
 Another disadvantage of overusing exception handling is that frequent use of `try` and `catch` blocks can make code less readable by obfuscating the control flow of a program.
 
@@ -50,11 +51,12 @@ private void validator(Object p)
   }
 }
 ```
+
 Rather than using `throw` and `catch` like in the above example, we could change the validation method to return `boolean` like this:
 
 ```
 public void method() {
-  if(!isValid(p)) 
+  if(!isValid(p))
     throw new Exception();
 }
 private boolean isValid(Object p) {
@@ -62,4 +64,3 @@ private boolean isValid(Object p) {
   return //true/false
 }
 ```
-

@@ -9,7 +9,8 @@ section: 0
 parent: meta-elements
 
 insights:
-  - paragraphs
-  - headings-h1-h6
-  - update-images
-  - update-hyperlinks
+
+- paragraphs
+- headings-h1-h6
+- update-images
+- update-hyperlinks

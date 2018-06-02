@@ -16,9 +16,11 @@ links:
   - '[link to learn more](https://enki.com){website}'
 
 ---
+
 # Iterator Protocol
 
 ---
+
 ## Content
 
 In our previous example above we have not implemented all of the iterator protocol or agreement.
@@ -40,23 +42,23 @@ Let’s modify our return statement to use this:
 ```javascript
 //code omitted
 return {
-
- next: function() {
-  if (nextIndex < num.length) {
-  var valueToReturn = num[nextIndex];
-  nextIndex++;
-  return {
-    value: valueToReturn,
-    done: false
-  }
-  } else {
-      return {done: true}
+  next: function() {
+    if (nextIndex < num.length) {
+      var valueToReturn = num[nextIndex];
+      nextIndex++;
+      return {
+        value: valueToReturn,
+        done: false
+      };
+    } else {
+      return { done: true };
     }
   }
 };
 ```
 
 ---
+
 ## Practice
 
 Fill in the following code expressing the iteration protocol in JavaScript:
@@ -67,23 +69,24 @@ Iterator {
 }
 ```
 
-* next
-* value, done
-* done
-* value
-* getAll
-* get
-* show
-* advance
-* isFinished
+- next
+- value, done
+- done
+- value
+- getAll
+- get
+- show
+- advance
+- isFinished
 
 ---
+
 ## Revision
 
 Which of the following is not part of the iteration protocol?
 
 ???
 
-* a method to get all the items at once (getAll)
-* a method to advance the iteration (next)
-* a way of telling when the iteration is done (done)
+- a method to get all the items at once (getAll)
+- a method to advance the iteration (next)
+- a way of telling when the iteration is done (done)

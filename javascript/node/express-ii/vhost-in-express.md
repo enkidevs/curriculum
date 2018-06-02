@@ -19,9 +19,11 @@ links:
 parent: easy-way-to-deliver-html-pages-with-express
 
 ---
+
 # `vhost` in **Express**
 
 ---
+
 ## Content
 
 Virtual hosting represents the method of hosting multiple domain names (with separate handling for each one) on a single server.
@@ -49,28 +51,29 @@ app.use(vhost('ex.example.com', exApp));
 ```
 
 ---
+
 ## Practice
 
 Once the host is matched and the request sent to the handler, the `req.vhost` property will be populated with... ???
 
-
-* an object with numeric properties corresponding to every wildcard and hostname.
-* an object for each wildcard and hostname.
-* an object per set of wildcards and hostnames.
-* a single hostname and a single wildcard.
+- an object with numeric properties corresponding to every wildcard and hostname.
+- an object for each wildcard and hostname.
+- an object per set of wildcards and hostnames.
+- a single hostname and a single wildcard.
 
 ---
+
 ## Revision
 
 What parameters does the `vhost` parameter need ?
+
 ```javascript
 vhost(???, ???);
 ```
 
-
-* hostname
-* handler
-* app
-* require
-* connect
-* req.vhost
+- hostname
+- handler
+- app
+- require
+- connect
+- req.vhost

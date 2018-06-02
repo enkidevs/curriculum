@@ -24,9 +24,10 @@ links:
 # Revokable Proxies and Usages
 
 ---
+
 ## Content
 
-There is a special type of proxy called a **revokable proxy**. 
+There is a special type of proxy called a **revokable proxy**.
 
 This allows you to later deny access to the proxy by calling the revoke method.
 
@@ -60,10 +61,9 @@ Proxies have a number of potential usages and we will probably see library and f
 
 Some potential usages:
 
-* Block access to values
-* Return different values
-* Stop people setting certain values
-* Validation & logging
-* Extending constructors
-* As a shim/fallback for older browsers
-
+- Block access to values
+- Return different values
+- Stop people setting certain values
+- Validation & logging
+- Extending constructors
+- As a shim/fallback for older browsers

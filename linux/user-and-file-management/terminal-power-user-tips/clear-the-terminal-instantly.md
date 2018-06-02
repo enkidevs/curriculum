@@ -34,26 +34,28 @@ notes: ''
 # Clear the terminal instantly
 
 ---
+
 ## Content
 
 We can clear the terminal instantly by pressing `ctrl + L` . This will achieve the same as issuing `clear` command.
 
-To reinitialize the terminal and clear the previous outputs, it's possible to run: 
+To reinitialize the terminal and clear the previous outputs, it's possible to run:
+
 ```
 $ reset
 ```
+
 This won't, however, reinstantiate the shell, meaning you will still be logged as sudo.
 
 ---
+
 ## Revision
 
-To *reload* the terminal and *clear* the previous output you would run 
+To _reload_ the terminal and _clear_ the previous output you would run
 
 ??? .
 
-
-* reset
-* clear
-* clr
-* sudo --reload
-
+- reset
+- clear
+- clr
+- sudo --reload

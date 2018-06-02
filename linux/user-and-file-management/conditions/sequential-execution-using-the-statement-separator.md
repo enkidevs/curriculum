@@ -23,9 +23,10 @@ tags:
 # Sequential execution using the `;` statement separator
 
 ---
+
 ## Content
 
-The `;` separator makes it possible to specify several commands all at once, the shell executing them sequentially: 
+The `;` separator makes it possible to specify several commands all at once, the shell executing them sequentially:
 
 ```
 $ date ; uname ; clear
@@ -36,25 +37,26 @@ Linux
 ```
 
 ---
+
 ## Practice
 
 Run the following commands one after the other :
+
 ```
 $ date ??? who am i
 ```
 
-* `;`
-* `\n`
-* `||`
+- `;`
+- `\n`
+- `||`
 
 ---
+
 ## Revision
 
 You can sequentially run commands using the ??? statement separator.
 
-
-* ;
-* ’’
-* &
-* &&
-
+- ;
+- ’’
+- &
+- &&

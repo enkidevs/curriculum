@@ -29,12 +29,11 @@ links:
 
 # SQL Practice Define Relationships
 
----        
+---
+
 ## Exercise
 
-Click *Launch Exercise* to launch SQLFiddle.
+Click _Launch Exercise_ to launch SQLFiddle.
 Add Foreign Key constraints to the `user_items` and `requests` tables where appropriate.
 
-
 **Hint:** According to SQL naming convention, if a column has `id` as _part_ of its name, it communicates to other developers that is a foreign key.
- 

@@ -22,13 +22,16 @@ links:
 # Writing to files
 
 ---
+
 ## Content
 
 **Remember** how `open()` works:
+
 - if we open an already existing file in mode `w` (writing), it will be overwritten
 - if the file doesn't exist, it will be created
 
 Let's start by creating a **file** at the given **path**. Note that we use mode `w+` to open the file as later we'll need to **read** some lines from it:
+
 ```
 path = '/usr/seba/new_file.txt'
 text = open(path, 'w+')
@@ -57,9 +60,11 @@ text.close()
 ```
 
 ---
+
 ## Practice
 
 What will the output look like?
+
 ```
 file = open('name.txt', 'w+')
 
@@ -70,18 +75,20 @@ print(file.readline())
 
 file.close()
 ```
+
 ???
 
-
-* Nothing will be generated
-* JohnChris
-* Chris
-* John
+- Nothing will be generated
+- JohnChris
+- Chris
+- John
 
 ---
+
 ## Revision
 
 Suppose we want to read the content of a file and copy it into another. Fill the gaps:
+
 ```
 file = open('name.txt', '???')
 file.write("John")
@@ -95,13 +102,11 @@ file.close()
 new_file.close()
 ```
 
-
-* `w+`
-* `0`
-* `write`
-* `read`
-* `seek`
-* `a`
-* `r`
-* `1`
- 
+- `w+`
+- `0`
+- `write`
+- `read`
+- `seek`
+- `a`
+- `r`
+- `1`

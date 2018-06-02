@@ -14,18 +14,21 @@ inAlgoPool: false
 category: tip
 
 ---
+
 # On-off
 
 ---
+
 ## Content
 
-Git, by being a distributed version control system, has its local repository with the same functionality as the remote ones. 
+Git, by being a distributed version control system, has its local repository with the same functionality as the remote ones.
 
 However, certain commands are more specific to the remotes, while other to the local repository.
 
 Can you guess which ones are those?
 
 ---
+
 ## Game Content
 
 remote:local
@@ -45,7 +48,6 @@ git reset
 git revert
 git clean
 git diff
-
 ```
 
 ```false
@@ -56,4 +58,4 @@ git fetch
 git rebase <remote-url>
 git remote add <url>
 git remote rm myRemote
- ```
+```

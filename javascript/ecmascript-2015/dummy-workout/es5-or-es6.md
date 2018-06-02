@@ -14,9 +14,11 @@ type: tetris
 category: tip
 
 ---
+
 # ES5 or ES6?
 
 ---
+
 ## Content
 
 The falling blocks will belong to the
@@ -26,6 +28,7 @@ Categorize them into the correct version
 of Ecmascript before they reach the ground.
 
 ---
+
 ## Game Content
 
 ES5:ES6
@@ -143,11 +146,9 @@ Prevents new properties from being added to the object, prevents existing proper
 
 It was introduced in ES6.
 %
-
 ```
 
 ```true
-
 undefined
 %exp
 In **JavaScript**, variables which have never been assigned a value are `undefined` variables.
@@ -212,5 +213,4 @@ Returns the instance of the checked object.
 
 ES3 was the first version to support it.
 %
-
 ```

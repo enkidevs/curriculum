@@ -29,13 +29,13 @@ links:
 # Use standard exceptions when possible
 
 ---
+
 ## Content
 
-It is best to avoid creating your own exceptions if there are already existing standard exceptions which serve the same purpose. Most Java developers will be familiar with standard exceptions; so using them will make your code easier to understand for other people. 
+It is best to avoid creating your own exceptions if there are already existing standard exceptions which serve the same purpose. Most Java developers will be familiar with standard exceptions; so using them will make your code easier to understand for other people.
 
-Another advantage to standard exceptions is consistency; if the same type of exceptional circumstance arises, then the same type of exception should be thrown. 
+Another advantage to standard exceptions is consistency; if the same type of exceptional circumstance arises, then the same type of exception should be thrown.
 
-For example, creating an exception called  `UnusableArgumentException` when there is already a standard `IllegalArgumentException` will confuse anyone who is already familiar with standard exceptions; is an unusable argument the same as an illegal one, or is it something different?
+For example, creating an exception called `UnusableArgumentException` when there is already a standard `IllegalArgumentException` will confuse anyone who is already familiar with standard exceptions; is an unusable argument the same as an illegal one, or is it something different?
 
 In general it is best to use standard exceptions whenever an appropriate exception exists.
-

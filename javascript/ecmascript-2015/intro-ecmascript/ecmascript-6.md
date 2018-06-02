@@ -15,9 +15,11 @@ links:
   - '[Babel](https://babeljs.io/){website}'
 
 ---
+
 # EcmaScript 6
 
 ---
+
 ## Content
 
 ECMAScript 6 (also referred to as ECMAScript 2015 and ES6) is the latest version of the standard managed by ECMA International that JavaScript now tracks.
@@ -28,27 +30,29 @@ We’ll be looking at features such as constants, arrow functions, spread/rest o
 
 It is important to note that if you intend to use some of the features that we will discuss that support varies widely across browsers and is changing all the time.
 
-If you want to make use of these new features (and you should!) but also want to ensure that your code will run for a wide audience you will probably want to make use of a processor/compiler such as *Babel* that will transform the newer code into code understood by older platforms.
+If you want to make use of these new features (and you should!) but also want to ensure that your code will run for a wide audience you will probably want to make use of a processor/compiler such as _Babel_ that will transform the newer code into code understood by older platforms.
 
 ---
+
 ## Practice
 
 Which of the following statements about ES6 do you consider false?
 
 ???
 
-* ES6 is fully supported out-of-the-box by all browsers
-* ES6 can be compiled to ES5
-* ES6 introduces arrow functions
-* ES6 can help write more succint code
+- ES6 is fully supported out-of-the-box by all browsers
+- ES6 can be compiled to ES5
+- ES6 introduces arrow functions
+- ES6 can help write more succint code
 
 ---
+
 ## Revision
 
 Do browsers have support for ES6?
 
 ???
 
-* Modern browsers only. A minority of older versions don't support it
-* ES6 is supported by any browser
-* Not at all. You need to compile your code
+- Modern browsers only. A minority of older versions don't support it
+- ES6 is supported by any browser
+- Not at all. You need to compile your code

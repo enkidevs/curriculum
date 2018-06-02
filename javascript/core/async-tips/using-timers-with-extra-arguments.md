@@ -29,26 +29,27 @@ tags:
 links:
 
   - '[W3C HTML5 Timers](https://dev.w3.org/html5/spec-LC/timers.html#timers){documentation}'
-
-
 ---
 
 # Using timers with extra arguments
 
 ---
+
 ## Content
 
 Both `setTimeout` and `setInterval` are a _W3C HTML5_ specification, available as global methods in both client and server engines.
 
-```
+```javascript
 // signature for both methods
 const uid = setTimeout(
-  handler,    // Function
+  handler, // Function
   optMsDelay, // usually a number
-  ...optArgs  // any value
+  ...optArgs // any value
 );
 ```
+
 These methods allow authors to schedule timer-based callbacks.
+
 ```javascript
 function chrono(start) {
   // same start value is passed each time
@@ -57,8 +58,10 @@ function chrono(start) {
 }
 let t = setInterval(chrono, 0, Date.now());
 ```
+
 It is possible to cancel a scheduled interval or timeout using respectively `clearInterval` or `clearTimeout`
-```
+
+```javascript
 // to stop previous chronometer
 clearInterval(t);
 ```
@@ -68,25 +71,29 @@ Please note this API does not guarantee that timers will fire exactly on schedul
 Delays due to CPU load, other tasks, etc, are to be expected.
 
 ---
+
 ## Practice
 
 How to prevent the `shutdown` to happen?
-```
+
+```javascript
 let task = setTimeout(shutdown, 5000);
 if (confirm('cancel shutdown?')) {
   ???
 }
 ```
 
-* `clearTimeout(task)`
-* `task = null;`
-* `delete task;`
+- `clearTimeout(task)`
+- `task = null;`
+- `delete task;`
 
 ---
+
 ## Revision
 
 What log is shown each second?
-```
+
+```javascript
 let t = setInterval(
   (a, b) => {
     ++a;
@@ -94,13 +101,12 @@ let t = setInterval(
     // ???
   },
   1000, // delay
-  0,    // a
-  10    // b
+  0, // a
+  10 // b
 );
 ```
 
-* `always 11`
-* `10 then 11 then 12`
-* `NaN`
-* `11 then 12 then 13`
-
+- `always 11`
+- `10 then 11 then 12`
+- `NaN`
+- `11 then 12 then 13`

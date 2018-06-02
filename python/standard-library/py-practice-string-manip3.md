@@ -28,6 +28,7 @@ links:
 # Practice python string manipulation
 
 ---
+
 ## Exercise
 
 Practice `strings` in python.

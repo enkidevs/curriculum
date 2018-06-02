@@ -16,12 +16,12 @@ links:
   - '[facebook.github.io](https://facebook.github.io/react/docs/two-way-binding-helpers.html){website}'
 
 parent: what-is-jsx
-
 ---
 
 # One way data binding
 
 ---
+
 ## Content
 
 **React** encourages **unidirectional data flow** by design, making it the canonical example of this approach nowadays.
@@ -30,36 +30,35 @@ Along with two-way data binding, these approaches describe the way your applicat
 
 In two-way data binding the `model` is dynamically bound to the `view` such that one can change the other and vice-versa.
 
-In **one-way data binding** the `model` is the *single source of truth*.
+In **one-way data binding** the `model` is the _single source of truth_.
 
-Instead of changing the `model` directly when a **UI field** changes, the `model` is notified by the intended change and updates the *state* itself. Afterwards, the `view` is updated to match the change.
+Instead of changing the `model` directly when a **UI field** changes, the `model` is notified by the intended change and updates the _state_ itself. Afterwards, the `view` is updated to match the change.
 
-This technique is often seen as *cleaner* and it's preferred because it gives better control over the **data flow**.
+This technique is often seen as _cleaner_ and it's preferred because it gives better control over the **data flow**.
 
 Note that you can still implement two-way data binding in **React**, but this require some extra effort.
 
 ---
+
 ## Practice
 
 What type of data flow needs to be used if we want the `view` to directly update the data `model`?
 
 ???
 
-
-* two-way
-* one-way
-* both
-* neither
+- two-way
+- one-way
+- both
+- neither
 
 ---
+
 ## Revision
 
 Can **two-way data binding** be implemented in **React**?
 
 ???
 
-
-* yes
-* no
-* only in **React 14** and above
-
+- yes
+- no
+- only in **React 14** and above

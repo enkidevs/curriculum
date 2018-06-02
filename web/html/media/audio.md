@@ -22,14 +22,18 @@ links:
   - '[W3S Docs for audio](https://www.w3schools.com/html/html5_audio.asp){website}'
 
 ---
+
 # Audio
+
 ---
+
 ## Content
 
 Since HTML5 the `<audio>` tag is used to embed audio on a web page or document.
 Both the start and end tags are required for the `<audio>` element.
 
 Like so:
+
 ```
 <audio src="music/relax.mp3" controls>
   <p>
@@ -45,6 +49,7 @@ In the example above we have added an audio player with a single song called `re
 You can also add more songs via the `<source>` element.
 
 Example 1:
+
 ```
 <audio controls>
   <source src="some_song.mp3"
@@ -56,6 +61,7 @@ Example 1:
 ```
 
 Example 2:
+
 ```
 <audio controls>
   <source src="some_song.mp3"
@@ -80,9 +86,11 @@ Adding more file formats is good for when a browser can't play a particular file
 Adding the `controls` attribute allows the browser to offer controls to the user for play/pause playback, increase/decrease volume buttons, and audio playback.
 
 ---
+
 ## Practice
 
 Add an audio player with controls for a single song:
+
 ```
 <??? ???=??? ???>
   <p>
@@ -93,35 +101,37 @@ Add an audio player with controls for a single song:
 <???>
 ```
 
-* audio
-* src
-* "/music/good_enough.mp3"
-* controls
-* /audio
-* href
-* alt
+- audio
+- src
+- "/music/good_enough.mp3"
+- controls
+- /audio
+- href
+- alt
 
 ---
+
 ## Revision
 
 Which HTML element is used to insert an audio file into the document?
 
 ???
 
-* `<audio>`
-* `<mp3>`
-* `<sound>`
-* `<music>`
-* `<itunes>`
+- `<audio>`
+- `<mp3>`
+- `<sound>`
+- `<music>`
+- `<itunes>`
 
 ---
+
 ## Quiz
 
 ### How much do you know about the HTML audio element?
 
 When you want to provide fallback content for user's that do not have browsers that support HTML5 audio, what do you need to do?
 
-* Add any content between the start and end `<audio>` tags.
-* CSS can be used to notify the user.
-* Any browser, regardless of the version, can play HTML5 audio.
-* Use the attribute "fallback" to provide the appropriate message.
+- Add any content between the start and end `<audio>` tags.
+- CSS can be used to notify the user.
+- Any browser, regardless of the version, can play HTML5 audio.
+- Use the attribute "fallback" to provide the appropriate message.

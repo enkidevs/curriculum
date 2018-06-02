@@ -38,12 +38,13 @@ parent: list-currently-logged-in-users
 # Finding Open Files With `lsof`
 
 ---
+
 ## Content
 
-The `lsof`[1] command displays a list of currently open files and the program that has opened it.  There are two common scenarios where `lsof` is incredibly useful:
+The `lsof`[1] command displays a list of currently open files and the program that has opened it. There are two common scenarios where `lsof` is incredibly useful:
 
-1. You have a specific program in mind and want to know what files it's using, e.g., you're not sure where a program's configuration files live.
-2. You have a specific file in mind and want to know what programs are using it, e.g., some program is overwriting a file but you don't know which one.
+1.  You have a specific program in mind and want to know what files it's using, e.g., you're not sure where a program's configuration files live.
+2.  You have a specific file in mind and want to know what programs are using it, e.g., some program is overwriting a file but you don't know which one.
 
 In order to see every file and every process you have to have `root` permission, otherwise you will only be able to see files opened by processes you've started or have permission to see.
 
@@ -69,33 +70,37 @@ $ sudo lsof /var/log/syslog
 ```
 
 ---
+
 ## Practice
 
 ???
 
 flag is required to find files used by a specific process.
 
-
-* -p
-* -f
-* -r
-* -pr
+- -p
+- -f
+- -r
+- -pr
 
 ---
+
 ## Revision
 
-You can find *all* the processes that are using a file by issuing:
+You can find _all_ the processes that are using a file by issuing:
+
 ```
 $ ??? ??? ???
 ```
 
-* `sudo`
-* `lsof`
-* `filename`
-* `proc`
-* `ls -apl`
+- `sudo`
+- `lsof`
+- `filename`
+- `proc`
+- `ls -apl`
 
 ---
+
 ## Footnotes
+
 [1:lsof]
-You can think of `lsof` as ls + of ,standing for **list** *open files*.
+You can think of `lsof` as ls + of ,standing for **list** _open files_.

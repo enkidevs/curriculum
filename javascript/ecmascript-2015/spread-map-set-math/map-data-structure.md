@@ -15,9 +15,11 @@ links:
   - '[MDN - Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map){website}'
 
 ---
+
 # Map (data structure)
 
 ---
+
 ## Content
 
 Map is a new type of key/value object.
@@ -26,24 +28,26 @@ It is common to use an object to store a set of keys and values:
 
 ```javascript
 var obj = {
-   firstName: "John",
-   lastName: "Smith"
-}
+  firstName: 'John',
+  lastName: 'Smith'
+};
 ```
 
 Using this approach however the "key" values can only ever be strings, it is not as easy as it could be to iterate over all the values and you end up having to exclude inbuilt object properties such as toString.
 
-Maps allow keys and values to be other objects (yes even DOM elements!) and you can iterate over the items with constructs such as *for of* loops.
+Maps allow keys and values to be other objects (yes even DOM elements!) and you can iterate over the items with constructs such as _for of_ loops.
 
 Let's create a map and assign keys and values:
 
 ```javascript
 var map = new Map();
-var str = "A",
-    func = function (x) {return x*2};
+var str = 'A',
+  func = function(x) {
+    return x * 2;
+  };
 
-map.set(str, "a");
-map.set(func, "b");
+map.set(str, 'a');
+map.set(func, 'b');
 ```
 
 We can then use the keys to retrieve values:
@@ -71,6 +75,7 @@ map.clear();
 ```
 
 ---
+
 ## Practice
 
 Complete the missing method calls in the following snippets such that the logs hold:
@@ -86,17 +91,18 @@ console.log(myMap.???(4))
 // true
 ```
 
-* set
-* get
-* has
-* add
-* push
-* contains
-* contain
-* delete
-* clear
+- set
+- get
+- has
+- add
+- push
+- contains
+- contain
+- delete
+- clear
 
 ---
+
 ## Revision
 
 Complete the missing method calls in the following snippets such that the logs hold:
@@ -114,17 +120,16 @@ console.log(myMap.???(4))
 myMap.???
 console.log(myMap)
 // Map(0) {}
-
 ```
 
-* set
-* 4
-* has
-* clear()
-* delete()
-* add
-* push
-* contains
-* empty()
-* set()
-* add()
+- set
+- 4
+- has
+- clear()
+- delete()
+- add
+- push
+- contains
+- empty()
+- set()
+- add()

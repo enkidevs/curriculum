@@ -26,24 +26,23 @@ tags:
 links:
 
   - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty){website}'
-
-
 ---
 
 # `hasOwnProperty` method
 
 ---
+
 ## Content
 
 The `hasOwnProperty` method returns a boolean indicating whether the object has the specified property.
 
-```
+```javascript
 client = new Object();
 client.connect = 'true';
 
 function foo() {
-  client.newConnect = client.connect
-  delete client.connect
+  client.newConnect = client.connect;
+  delete client.connect;
 }
 
 client.hasOwnProperty('connect');
@@ -51,7 +50,6 @@ client.hasOwnProperty('connect');
 foo();
 client.hasOwnProperty('connect');
 // returns false
-
 ```
 
 Using `hasOwnProperty` is a reliable method of checking for the existence of a property of an object.
@@ -59,6 +57,7 @@ Using `hasOwnProperty` is a reliable method of checking for the existence of a p
 It is considered a good practice to use `hasOwnProperty` in every `for in loop` to avoid errors from extended native prototypes.
 
 ---
+
 ## Practice
 
 What does the following JS code return? ???
@@ -68,8 +67,8 @@ enki = new Object();
 enki.practiceQuestion = 'true';
 
 function tricky() {
-   enki.newQuestion = enki.practiceQuestion;
-   delete enki.practiceQuestion;
+  enki.newQuestion = enki.practiceQuestion;
+  delete enki.practiceQuestion;
 }
 
 enki.hasOwnProperty('practiceQuestion');
@@ -78,20 +77,19 @@ tricky();
 enki.hasOwnProperty('practiceQuestion');
 ```
 
-
-* True, False, False
-* True, False, True
-* True, True, False
-* False, True, True
+- True, False, False
+- True, False, True
+- True, True, False
+- False, True, True
 
 ---
+
 ## Revision
 
 `obj.hasOwnProperty('prop')` returns false if
 
- ???
+???
 
-
-* obj hasn’t got ‘prop’ as property
-* obj has the property
-* obj has the property and its value is null
+- obj hasn’t got ‘prop’ as property
+- obj has the property
+- obj has the property and its value is null

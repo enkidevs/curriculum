@@ -25,8 +25,11 @@ links:
   - '[W3S docs for aside](https://www.w3schools.com/tags/tag_aside.asp){website}'
 
 ---
+
 # Aside
+
 ---
+
 ## Content
 
 The HTML `<aside>` element is a container element used to represent a section of a page that consists of content that is tangentially related to the content around the `<aside>` element. This content is held separate from the page content and frequently presented as sidebars or call-out boxes.
@@ -34,6 +37,7 @@ The HTML `<aside>` element is a container element used to represent a section of
 The `<aside>` element can contain a sidebar, pull quotes, advertising, groups of navigational `<nav>` elements and more.
 
 Example:
+
 ```
 <p>
   My family and I visited
@@ -51,19 +55,21 @@ Example:
 The `<aside>` element can never be a descendant of the `<address>` element.
 
 ---
+
 ## Practice
 
 What content would be well placed within an aside?
 
 ???
 
-* all 4
-* pull quotes
-* sidebar
-* advertising
-* groups of `<nav>` elements
+- all 4
+- pull quotes
+- sidebar
+- advertising
+- groups of `<nav>` elements
 
 ---
+
 ## Revision
 
 Which HTML container element represents a section of a page that consists of content that is tangentially related to the content around the aside element, and which could be considered separate from that content?
@@ -74,17 +80,18 @@ An `<aside>` should usually contain a navigation list on either the left- or rig
 
 ???
 
-* `<aside>`
-* `<article>`
-* `<section>`
-* `<comment>`
-* `<news>`
-* `<record>`
-* `<forum>`
-* False
-* True
+- `<aside>`
+- `<article>`
+- `<section>`
+- `<comment>`
+- `<news>`
+- `<record>`
+- `<forum>`
+- False
+- True
 
 ---
+
 ## Quiz
 
 ### How much do you know about HTML container elements?
@@ -107,8 +114,8 @@ What container element would best be used here?
 
 TAG: ???
 
-* `<aside>`
-* `<main>`
-* `<block>`
-* `<article>`
-* `<section>`
+- `<aside>`
+- `<main>`
+- `<block>`
+- `<article>`
+- `<section>`

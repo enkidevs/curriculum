@@ -27,9 +27,10 @@ tags:
 # Appending Output With `>>`
 
 ---
+
 ## Content
 
-Using `>` to redirect the output of a command to a file will cause the entire contents of the file to be overwritten.  Consider this example, which will write the directory contents of your home directory to a file named `homedir_contents.txt`:
+Using `>` to redirect the output of a command to a file will cause the entire contents of the file to be overwritten. Consider this example, which will write the directory contents of your home directory to a file named `homedir_contents.txt`:
 
 ```shell
 $ ls -l ~ > homedir_contents.txt
@@ -37,7 +38,7 @@ $ ls -l ~ > homedir_contents.txt
 
 If `homedir_contents.txt` already exists then the `>` redirection will overwrite its contents.
 
-In some cases, we want to append any output to the contents of an existing file rather than overwrite it.  We can use the `>>` redirection to do this instead.
+In some cases, we want to append any output to the contents of an existing file rather than overwrite it. We can use the `>>` redirection to do this instead.
 
 Consider the following extended example (`cat` will print the contents of a file to standard out):
 
@@ -67,15 +68,14 @@ As you can see, the contents of `file1.txt` are overwritten when we use `>`, whe
 Note that for appending purposes the use of the `cat` command is recomanded.
 
 ---
+
 ## Revision
 
 `>` ??? ,
 
- whereas `>>`  ??? .
+whereas `>>` ??? .
 
-
-* writes the stdout to a file, overwriting its content
-* appends stdout stream to a file
-* creates a new folder
-* deletes a file
-
+- writes the stdout to a file, overwriting its content
+- appends stdout stream to a file
+- creates a new folder
+- deletes a file

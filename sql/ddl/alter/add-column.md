@@ -39,26 +39,31 @@ parent: create-a-table
 # Add Column
 
 ---
+
 ## Content
 
 If we would like to add a new column to a certain table, we can use the `ALTER TABLE` statement:
+
 ```sql
 ALTER TABLE table_name
 ADD column_name datatype;
 ```
 
 To delete a column from our table, we can use the following statement:
+
 ```sql
 ALTER TABLE table_name
 DROP COLUMN column_name
 ```
 
 ---
+
 ## Practice
 
 Consider the "gender" table. We want to add a new column called "members". This column will store data about how many members each gender has:
+
 ```
-id |    name    
+id |    name
 ===+============
  1 | female
  2 | male
@@ -69,19 +74,20 @@ id |    name
 ADD ??? ???;
 ```
 
-
-* ALTER TABLE
-* members
-* INT
-* UPDATE
-* string
+- ALTER TABLE
+- members
+- INT
+- UPDATE
+- string
 
 ---
+
 ## Revision
 
 Consider the "generation" table. We want to delete the "region_id" column:
+
 ```
-id | region_id |      name      
+id | region_id |      name
 ===+===========+===============
  1 |         1 | generation-i
  2 |         2 | generation-ii
@@ -94,7 +100,6 @@ id | region_id |      name
     ???
 ```
 
-* ALTER TABLE generation DROP COLUMN region_id;
-* ALTER TABLE generation DROP region_id;
-* ALTER generation DROP COLUMN region_id;
- 
+- ALTER TABLE generation DROP COLUMN region_id;
+- ALTER TABLE generation DROP region_id;
+- ALTER generation DROP COLUMN region_id;

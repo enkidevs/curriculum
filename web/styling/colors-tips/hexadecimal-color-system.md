@@ -28,12 +28,12 @@ links:
 # Hexadecimal color system
 
 ---
+
 ## Content
 
 Hexadecimal color system starts with `#` and is case-insensitive.
 
 `#FFC125` displays the same color as `#ffc125`.
-
 
 `#RRGGBB` is the standard format for hexadecimal.
 `RR` relates to the degree of red.
@@ -46,26 +46,26 @@ Hexadecimal runs from `0` to `F`
 (`0`, `1`, `2`, ..., `9`, `A`, `B`, ..., `F`)
 
 ---
+
 ## Practice
 
 Hexadecimal numbers run from 0 to ???, and from A to ???.
 
-
-* `9`
-* `F`
-* `10`
-* `1`
-* `G`
-* `Z`
+- `9`
+- `F`
+- `10`
+- `1`
+- `G`
+- `Z`
 
 ---
+
 ## Revision
 
 Which of these hexadecimal colors are not the same?
 
 ???
 
-* #FFFFF and #FFF
-* #FFF and #FFFFFF
-* #FFC125 and #ffc125
-
+- #FFFFF and #FFF
+- #FFF and #FFFFFF
+- #FFC125 and #ffc125

@@ -25,6 +25,7 @@ links:
 # The `is` operator
 
 ---
+
 ## Content
 
 Python's `is` operator is used to match instances of variables, instead of matching the values of variables like the `==` operator.
@@ -40,6 +41,7 @@ istr = str
 istr is str
 # prints true
 ```
+
 Whereas:
 
 ```python
@@ -54,16 +56,17 @@ numsY is numsX
 ```
 
 ---
+
 ## Practice
 
 The `is` operator is used to match ??? instead of variables.
 
-
-* instances
-* objects
-* lists
+- instances
+- objects
+- lists
 
 ---
+
 ## Revision
 
 What does the following code snippet return:
@@ -74,9 +77,9 @@ numsY = [2, 4, 6]
 
 numsX is numsY
 ```
+
 ???
 
-* False
-* True
-* Error
- 
+- False
+- True
+- Error

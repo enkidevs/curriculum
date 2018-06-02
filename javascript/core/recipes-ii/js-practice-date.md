@@ -24,6 +24,7 @@ links:
 # JS Practice Date
 
 ---
+
 ## Exercise
 
 Practice using the JavaScript `Date` object

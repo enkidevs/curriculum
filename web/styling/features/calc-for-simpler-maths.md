@@ -27,9 +27,11 @@ links:
 # `calc()` for simpler maths
 
 ---
+
 ## Content
 
 For styling a 7-column grid you may use something like :
+
 ```
 .column-1-7 {
    width: 14.2857%;
@@ -43,6 +45,7 @@ For styling a 7-column grid you may use something like :
 ```
 
 Use the calc() function instead to make the maths behind the layout easier to understand :
+
 ```
 .column-1-7 {
    width: calc(100% / 7);
@@ -56,26 +59,28 @@ Use the calc() function instead to make the maths behind the layout easier to un
 ```
 
 You can also mix units!
+
 ```
 .mixing {
    width: calc(50% + 30px);
 }
-
 ```
 
 ---
+
 ## Revision
 
 Which of the following `calc()` syntaxes is the correct one?
+
 ```css
 .generate {
-   width: calc(30% - 21px);
-   height: calc(100% / 3 * 4);
+  width: calc(30% - 21px);
+  height: calc(100% / 3 * 4);
 }
 ```
+
 ???
 
-* both
-* width
-* height
-
+- both
+- width
+- height

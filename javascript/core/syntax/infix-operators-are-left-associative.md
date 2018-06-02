@@ -38,31 +38,36 @@ links:
 
   - '[learnxinyminutes.com](http://learnxinyminutes.com/docs/javascript/){website}'
   - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence){website}'
-
-
 ---
 
 # Infix operators are left-associative
 
 ---
+
 ## Content
 
-Operator associativity determines the order in which operators of the same type are evaluated. 
+Operator associativity determines the order in which operators of the same type are evaluated.
 
 Operations are processed from the left-hand side of an equation:
-```
+
+```javascript
 var x = a - b - c;
 ```
+
 The example is evaluated in the following way:
+
+```javascript
+var x = a - b - c;
 ```
-var x = (a - b) - c;
-```
+
 These brackets can be safely omitted without effecting the outcome of the equation. However, if you wish to evaluate the right-hand side of the equation first, then brackets must be used:
-```
+
+```javascript
 var x = a - (b - c);
 ```
 
 ---
+
 ## Practice
 
 What does the following JS code output? ???
@@ -72,26 +77,24 @@ var a = 20;
 var b = 4;
 var c = 12;
 
-var x = a - (-b * c);
+var x = a - -b * c;
 console.log(x);
 ```
 
-
-* 68
-* -28
-* 192
-* 0
-* undefined
-* -68
-* -192
+- 68
+- -28
+- 192
+- 0
+- undefined
+- -68
+- -192
 
 ---
+
 ## Revision
 
 The processing of operations starts with ??? operator if no brackets are used.
 
-
-* left-most
-* right-most
-* middle
-
+- left-most
+- right-most
+- middle

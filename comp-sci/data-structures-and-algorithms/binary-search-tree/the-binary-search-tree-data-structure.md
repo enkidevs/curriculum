@@ -27,11 +27,12 @@ parent: post-order-traversal
 # The Binary Search Tree Data Structure
 
 ---
+
 ## Content
 
-A *binary search tree* (or BST) is a tree-based data structure designed for efficient insertion, deletion, and searching. BSTs are in many ways the most important search-optimized data structure — although the most basic version of BST described here is rarely used in practice, many search-optimized data structures are based on it.
+A _binary search tree_ (or BST) is a tree-based data structure designed for efficient insertion, deletion, and searching. BSTs are in many ways the most important search-optimized data structure — although the most basic version of BST described here is rarely used in practice, many search-optimized data structures are based on it.
 
-Recall that a binary tree is a tree in which each node has at most two children.  The value stored in each node is called a *key*.
+Recall that a binary tree is a tree in which each node has at most two children. The value stored in each node is called a _key_.
 
 Here is a picture of a binary search tree containing numbers:
 
@@ -43,14 +44,16 @@ There is one key property that makes searching BSTs efficient:
 
 - For a every key, the children to the left have smaller keys and the children to the right have larger keys
 
-Therefore, to search a BST we ask "Is the key I'm searching for greater than or less than the current key?". If it is less, then we know the key we're searching for is in the left sub-tree and if it is greater, then we know the key we're searching for is in the right sub-tree.  Thus, at each stage, we effectively cut the search space in half.
+Therefore, to search a BST we ask "Is the key I'm searching for greater than or less than the current key?". If it is less, then we know the key we're searching for is in the left sub-tree and if it is greater, then we know the key we're searching for is in the right sub-tree. Thus, at each stage, we effectively cut the search space in half.
 
 This structure also makes for efficient `min` and `max` operations; to find the minimum key in a BST we follow the left branch and to find the maximum key in a BST we follow the right branch.
 
 ---
+
 ## Practice
 
-Which key prevents the following tree from being a *BST*?
+Which key prevents the following tree from being a _BST_?
+
 ```
        10
      /    \
@@ -58,23 +61,24 @@ Which key prevents the following tree from being a *BST*?
   /   \      \
  3    11      20
 ```
+
 ???
 
-* 11
-* 3
-* 20
-* 9
-* 15
+- 11
+- 3
+- 20
+- 9
+- 15
 
 ---
+
 ## Revision
 
 Which child has to be larger than the parent for a tree to be a Binary Search Tree?
 
 ???
 
-* Right
-* Left
-* Both
-* None
-
+- Right
+- Left
+- Both
+- None

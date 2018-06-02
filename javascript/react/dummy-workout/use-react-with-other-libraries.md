@@ -19,17 +19,17 @@ links:
 
   - >-
     [facebook.github.io](https://facebook.github.io/react/tips/use-react-with-other-libraries.html){website}
-
 ---
+
 # Use **React** with other libraries
 
 ---
+
 ## Content
 
 The best way to use other libraries with **React** is to make use of the event life cycle of a component.
 
- `componentDidMount()` and `componentDidUpdate()` methods are the best places to insert the logic of other libraries:
-
+`componentDidMount()` and `componentDidUpdate()` methods are the best places to insert the logic of other libraries:
 
 ```
  componentDidMount: function() {
@@ -38,4 +38,4 @@ The best way to use other libraries with **React** is to make use of the event l
   },
 ```
 
-Custom *event listeners* and *events streams* are usually inserted in the same way, in the same place.
+Custom _event listeners_ and _events streams_ are usually inserted in the same way, in the same place.

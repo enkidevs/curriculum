@@ -29,17 +29,19 @@ parent: network-statistics-tools
 # DNS Lookup
 
 ---
+
 ## Content
 
 **DNS** (Domain Name System) is used to map common domain names such as: `www.enki.com` to IP addresses.
 
 This is most often desired as human-readable domain names are much more memorable than **IP addresses** - be them static or dynamic.
 
-Traditionally, the **DNS lookup** was done with the help of `nslookup` command. At some point, this was deprecated on Unix systems in favour of the `dig` command. However, *BIND*, the company that maintains and distributes `nslookup`, resurrected it.
+Traditionally, the **DNS lookup** was done with the help of `nslookup` command. At some point, this was deprecated on Unix systems in favour of the `dig` command. However, _BIND_, the company that maintains and distributes `nslookup`, resurrected it.
 
 The `dig` tool can also be installed on **Windows**. By bookmarking this insight you will find detailed installation instructions in the "Curriculum" section.
 
-You can use `dig`, short for *Domain Information Groper*, to:
+You can use `dig`, short for _Domain Information Groper_, to:
+
 - perform **DNS** lookups
 - find host addresses, IP addresses, mail exchanges etc.
 - verify ISP DNS server or internet connectivity
@@ -74,19 +76,20 @@ enki.com. 59 IN A 54.192.197.152
 ```
 
 Pretty straight-forward:
+
 - `QUESTION SECTION` shows details about our query (useful for more complicated ones)
 - `ANSWER SECTIONS` shows us the mapped IP addresses
 
 ---
+
 ## Revision
 
 How would you find the IP address behind the enki.com DNS?
+
 ```bash
 $ ???
 ```
 
-
-* `nslookup enki.com`
-* `nslookup enki`
-* `nslookup 52.85.178.44`
-
+- `nslookup enki.com`
+- `nslookup enki`
+- `nslookup 52.85.178.44`

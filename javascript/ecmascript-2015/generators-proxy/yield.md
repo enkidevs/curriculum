@@ -15,22 +15,24 @@ links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield#Examples){website}'
 
 ---
+
 # yield
 
 ---
+
 ## Content
 
-We can actually make our number example even more succinct by using **yield***:
+We can actually make our number example even more succinct by using **yield\***:
 
 ```javascript
-function* genShort(){
-  yield* [1,2,3,4,5];
+function* genShort() {
+  yield* [1, 2, 3, 4, 5];
 }
 ```
 
 When we use `yield*` it iterates over values supplied to the expression (in this case the array).
 
-yield* could also be used to split work between two generators:
+yield\* could also be used to split work between two generators:
 
 ```javascript
 function* gen1() {
@@ -44,14 +46,15 @@ function* gen2() {
   yield 4;
 }
 var it = gen1();
-it.next();//Object {value: 1, done: false}
-it.next();//Object {value: 2, done: false}
-it.next();//Object {value: 3, done: false}
-it.next();//Object {value: 4, done: false}
-it.next();//Object {value: 5, done: false}
+it.next(); //Object {value: 1, done: false}
+it.next(); //Object {value: 2, done: false}
+it.next(); //Object {value: 3, done: false}
+it.next(); //Object {value: 4, done: false}
+it.next(); //Object {value: 5, done: false}
 ```
 
 ---
+
 ## Practice
 
 Fill in the missing gaps such that the `next()` calls' output stand true:
@@ -73,19 +76,20 @@ x.next()
 // { value: undefined, done: true}
 ```
 
-* function*
-* yield
-* yield*
-* return
-* return*
-* myGen
-* function
-* done
-* next
-* await
-* Promise.all
+- function\*
+- yield
+- yield\*
+- return
+- return\*
+- myGen
+- function
+- done
+- next
+- await
+- Promise.all
 
 ---
+
 ## Revision
 
 Fill in the missing gaps such that the `next()` calls' output stand true:
@@ -112,16 +116,16 @@ x.next()
 // { value: undefined, done: true}
 ```
 
-* function*
-* yield
-* yield*
-* gen2()
-* yield 3
-* yield 2
-* yield 5
-* yield 4
-* return 2
-* return 3
-* function
-* gen2
-* return*
+- function\*
+- yield
+- yield\*
+- gen2()
+- yield 3
+- yield 2
+- yield 5
+- yield 4
+- return 2
+- return 3
+- function
+- gen2
+- return\*

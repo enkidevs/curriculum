@@ -23,6 +23,7 @@ notes: 'https://insights.enki.com/insight/55f433a9da97642e00a7819a'
 # How to check for static dependencies of applications and libraries from the command line.
 
 ---
+
 ## Content
 
 Introduced with JDK 8, the `jdeps` command shows the package-level or class-level dependencies of Java class files (applications or libraries) from within the command line.
@@ -30,52 +31,56 @@ Introduced with JDK 8, the `jdeps` command shows the package-level or class-leve
 Basic syntax:
 
 ```java
-$ jdeps myApplication.jar 
-
+$ jdeps myApplication.jar
 ```
 
-The input class can be a path name to a `.class` file, a directory, a `JAR` file, or it can be a fully qualified class name to analyze all class files. 
+The input class can be a path name to a `.class` file, a directory, a `JAR` file, or it can be a fully qualified class name to analyze all class files.
 
 Prints all class-level dependencies:
+
 ```java
 $ jdeps -v myApplication.jar
 ```
 
 Write the output in `.dot` files :
-```java
-$ jdeps -v myApplication.jar 
--dotoutput LOCATION
 
+```java
+$ jdeps -v myApplication.jar
+-dotoutput LOCATION
 ```
+
 There are a few more useful options available for use with `jdeps`. You can always check them by running`jdeps -help`.
 
 ---
+
 ## Practice
 
 Print all class-level dependencies of `enki.jar` application:
+
 ```
 ??? ??? enki.jar
 ```
 
-* `jdeps` 
-* `-v` 
-* `-c` 
-* `-d` 
-* `jdb` 
-* `deps`
+- `jdeps`
+- `-v`
+- `-c`
+- `-d`
+- `jdb`
+- `deps`
 
 ---
+
 ## Revision
 
 Print all class-level dependencies of `enki.jar` application:
+
 ```
 ??? ??? enki.jar
 ```
 
-* `jdeps` 
-* `-v` 
-* `-c` 
-* `-d` 
-* `jdb` 
-* `deps`
-
+- `jdeps`
+- `-v`
+- `-c`
+- `-d`
+- `jdb`
+- `deps`

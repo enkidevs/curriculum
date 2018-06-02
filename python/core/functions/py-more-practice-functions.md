@@ -34,7 +34,7 @@ links:
 # Python functions exercises
 
 ---
+
 ## Exercise
 
 More practice on python `functions` and `scoping`.
- 

@@ -33,13 +33,15 @@ standards:
 # **Class** vs. **Instance** variables
 
 ---
+
 ## Content
 
 The difference between **class** and **instance** variables:
 
-**Class variables** are used for *attributes* and *methods* shared by all instances of a class. **Instance variables** are used for data unique to each *instance*.
+**Class variables** are used for _attributes_ and _methods_ shared by all instances of a class. **Instance variables** are used for data unique to each _instance_.
 
 Suppose we have the class definition:
+
 ```python
 class Enki:
     class_var = 'python'  # class var
@@ -49,6 +51,7 @@ class Enki:
 ```
 
 The difference between the types of variables can be easily seen:
+
 ```python
 old = Enki('0.2.3')
 new = Enki('0.2.41')
@@ -61,9 +64,10 @@ print(new.inst) # '0.2.41' (unique/instance)
 ```
 
 ---
+
 ## Revision
 
-Is `my_var`  a class or instance variable?
+Is `my_var` a class or instance variable?
 
 ???
 
@@ -72,7 +76,5 @@ class Test:
    my_var = ‘enki’
 ```
 
-
-* `class`
-* `instance`
- 
+- `class`
+- `instance`

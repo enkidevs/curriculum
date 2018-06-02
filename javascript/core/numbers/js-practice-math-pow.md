@@ -27,6 +27,7 @@ links:
 # JS Practice Math `pow`, `sqrt` and `cbrt`
 
 ---
+
 ## Exercise
 
 Practice using the JavaScript Math methods `pow()`, `sqrt()` and `cbrt()`

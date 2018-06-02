@@ -27,6 +27,7 @@ parent: implementing-weak-references
 # `weakref` proxies
 
 ---
+
 ## Content
 
 To implement weak references to objects in Python, one can use the `ref` or the `proxy` constructors.
@@ -60,25 +61,23 @@ If the proxy is accessed after the referenced object is deleted, `ReferenceError
 Keep in mind that proxies can't be used as Dictionary keys as they are not **hashable**.
 
 ---
+
 ## Practice
 
 Which error is raised if the proxy is accessed after the reference object is deleted? ???
 
-
-* `ReferenceError`
-* `AccessError`
-* `ObjectError`
-* `ProxyError`
+- `ReferenceError`
+- `AccessError`
+- `ObjectError`
+- `ProxyError`
 
 ---
+
 ## Revision
 
 What’s the difference between using `ref` and `proxy` from `weakref`?
 
 ???
 
-
-* Ref must be dereferenced in order to access the object while Proxies don't have to be.
-* Ref can be used without calling the proxy first to access the object.
-
- 
+- Ref must be dereferenced in order to access the object while Proxies don't have to be.
+- Ref can be used without calling the proxy first to access the object.

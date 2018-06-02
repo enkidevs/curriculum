@@ -23,10 +23,13 @@ links:
   - '[github.com](https://github.com/s-a/iron-node){website}'
 
 ---
+
 # How to debug Node.js
 
 ---
+
 ## Content
+
 ß
 There are many options when debugging Node applications.
 
@@ -50,6 +53,7 @@ node-debug app.js
 ```
 
 ### REPL
+
 **Iron Node** also has sophisticated debugging for Linux, Windows and OS X.
 
 ```bash
@@ -58,18 +62,20 @@ iron-node app.js
 ```
 
 ---
+
 ## Practice
 
 Which of the following cannot be used to debug a node application?
 
 ???
 
-* webpack
-* node debug
-* node-inspector
-* iron-node
+- webpack
+- node debug
+- node-inspector
+- iron-node
 
 ---
+
 ## Revision
 
 Start node with its built-in debugger:
@@ -78,8 +84,8 @@ Start node with its built-in debugger:
 $ ??? ??? app.js
 ```
 
-* node
-* debug
-* debugger
-* node-debug
-* iron-node
+- node
+- debug
+- debugger
+- node-debug
+- iron-node

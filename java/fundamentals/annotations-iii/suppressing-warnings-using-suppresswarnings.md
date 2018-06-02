@@ -32,9 +32,11 @@ links:
 # Suppressing warnings using `@SuppressWarnings`
 
 ---
+
 ## Content
 
-It is occasionally appropriate to suppress a compiler warning. For example, if some legacy code needs to be integrated with a new system, and a deprecated method needs to be used to achieve this, we can use `@SuppressWarnings`: 
+It is occasionally appropriate to suppress a compiler warning. For example, if some legacy code needs to be integrated with a new system, and a deprecated method needs to be used to achieve this, we can use `@SuppressWarnings`:
+
 ```
 @SuppressWarnings("deprecation")
 public void method() {
@@ -42,36 +44,38 @@ public void method() {
   ...
 }
 ```
+
 Compiler warnings are divided into categories. Deprecated methods fall under the `deprecation` category, so we can use `@SuppressWarnings("deprecation")` to suppress the compiler warning about using the deprecated method.
 
 ---
+
 ## Practice
 
 What annotation should be used to suppress warnings about deprecated methods?
+
 ```
 @???(
      "???");
 ```
 
-* `SuppressWarnings` 
-* `deprecation` 
-* `deprecated` 
-* `Warnings` 
-* `Suppress` 
-* `IgnoreWarnings` 
-* `methods`
+- `SuppressWarnings`
+- `deprecation`
+- `deprecated`
+- `Warnings`
+- `Suppress`
+- `IgnoreWarnings`
+- `methods`
 
 ---
+
 ## Revision
 
 What annotation is used to suppress warnings?
 
 `???`
 
-
-* `SuppressWarnings` 
-* `SuppressWarning` 
-* `IgnoreWarnings` 
-* `IgnoreWarning` 
-* `CompilerDeprecate`
-
+- `SuppressWarnings`
+- `SuppressWarning`
+- `IgnoreWarnings`
+- `IgnoreWarning`
+- `CompilerDeprecate`

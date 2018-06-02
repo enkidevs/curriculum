@@ -27,9 +27,10 @@ links:
 # `datetime` module
 
 ---
+
 ## Content
 
-Python's `datetime` module provides a toolkit of *classes* and *functions* for **date** and **time** manipulation - be it for simple or complex problems.
+Python's `datetime` module provides a toolkit of _classes_ and _functions_ for **date** and **time** manipulation - be it for simple or complex problems.
 
 Notable is the fact that objects exposed by this module can be either **naive** or **aware**.
 
@@ -37,6 +38,7 @@ Unlike **naive** objects, **aware** objects have enough knowledge to locate them
 They represent specific points in time that aren't open to interpretation.
 
 The `datetime` module itself exports the constants:
+
 ```python
 datetime.MINYEAR # 1
 # smallest year of date/datetime objects
@@ -45,6 +47,7 @@ datetime.MAXYEAR # 9999
 ```
 
 Keep in mind that in the `datetime` **module** there is also a `datetime` **class** and they shouldn't be confused.
+
 ```python
 # printing the current date and time
 # with datetime class
@@ -55,34 +58,34 @@ print (datetime.datetime.today())
 ```
 
 ---
+
 ## Practice
 
 Is `datetime` a module or a class?
 
 ???
 
-
-* `both`
-* `a module`
-* `a class`
-* `neither`
+- `both`
+- `a module`
+- `a class`
+- `neither`
 
 ---
+
 ## Revision
 
 Using `datetime` module get the constant representing the maximum number a year can take:
+
 ```python
 import datetime
 print(???.???)
 # 9999
 ```
 
-
-* `datetime`
-* `MAXYEAR`
-* `year`
-* `MAX_YEAR`
-* `date`
-* `time`
-* `max_year`
- 
+- `datetime`
+- `MAXYEAR`
+- `year`
+- `MAX_YEAR`
+- `date`
+- `time`
+- `max_year`

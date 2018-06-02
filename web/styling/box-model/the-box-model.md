@@ -19,14 +19,16 @@ links:
 
 ---
 
-# The *Box Model*
+# The _Box Model_
 
 ---
+
 ## Content
 
 According to the **box model**, every element on the page is a rectangular box that may have `width`, `height`, `margin`, `padding` or `border`.
 
 The dimensions of such a box are calculated by summing the values of the above mentioned properties. To better understand the formula, consider this example:
+
 ```
 div{
   width: 600px;
@@ -41,29 +43,32 @@ div{
 
 The total width of the whole element will be **20+4+10+600+10+4+20=668p**, which is the sum of the content width and left and right `margins`, `borders` and `paddings`.
 
-It is important to mention that some elements *do not accept* top and bottom margin and padding. We will talk about these in more detail in a future workout.
+It is important to mention that some elements _do not accept_ top and bottom margin and padding. We will talk about these in more detail in a future workout.
 
 ---
+
 ## Revision
 
-Which is the inside-out order for the *box model* components?
+Which is the inside-out order for the _box model_ components?
 
 ???
 
-* Content/Padding/Border/Margin
-* Content/Border/Padding/Margin
-* Padding/Content/Border/Margin
-* Content/Padding/Margin/Border
+- Content/Padding/Border/Margin
+- Content/Border/Padding/Margin
+- Padding/Content/Border/Margin
+- Content/Padding/Margin/Border
 
 ---
-## Quiz 
+
+## Quiz
+
 ### are you familiar with the box model?
 
 What’s the correct outside-in order of the elements contained by the Box Model?
 
- ???
+???
 
-* Margin/Border/Padding/Content
-* Border/Margin/Padding/Content
-* Margin/Padding/Border/Content
-* Content/Border/Margin/Padding
+- Margin/Border/Padding/Content
+- Border/Margin/Padding/Content
+- Margin/Padding/Border/Content
+- Content/Border/Margin/Padding

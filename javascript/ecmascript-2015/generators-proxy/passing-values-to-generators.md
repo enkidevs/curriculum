@@ -15,9 +15,11 @@ links:
   - '[MDN - Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}'
 
 ---
+
 # Passing values to Generators
 
 ---
+
 ## Content
 
 Generators next method also accepts a parameter.
@@ -27,21 +29,21 @@ When you pass in a parameter it is assigned to the result of the **yield** state
 We could for example use this functionality to reset our number sequence when 0 is passed in:
 
 ```javascript
-function* getGenerator(){
- var currentNumber = 1;
+function* getGenerator() {
+  var currentNumber = 1;
 
- while(currentNumber < 6){
-  var input = yield currentNumber++;
-  if (input==0) currentNumber = 1;
- }
+  while (currentNumber < 6) {
+    var input = yield currentNumber++;
+    if (input == 0) currentNumber = 1;
+  }
 }
 
 var g = getGenerator();
 
-g.next().value //1
-g.next().value //2
-g.next().value //3
-g.next(0).value //1
+g.next().value; //1
+g.next().value; //2
+g.next().value; //3
+g.next(0).value; //1
 ```
 
 There is however also a gotcha to watch out for when passing values to generators.
@@ -49,10 +51,10 @@ There is however also a gotcha to watch out for when passing values to generator
 This is best implemented with an example - the below function simply logs to the console any values passed in:
 
 ```javascript
-function* getGenerator(){
- while(true){
-  console.log(yield);
- }
+function* getGenerator() {
+  while (true) {
+    console.log(yield);
+  }
 }
 ```
 
@@ -60,8 +62,8 @@ However, the first value we pass in will be ignored!
 
 ```javascript
 var g = getGenerator();
-g.next("a") //ignored
-g.next("b") // b
+g.next('a'); //ignored
+g.next('b'); // b
 ```
 
 This is because the first time we get our generator we are at the beginning of the function and there is nothing to log from the yield statement.
@@ -71,50 +73,52 @@ The solution is to simply call the generators next method once:
 ```javascript
 var g = getGenerator();
 g.next();
-g.next("a") //a
-g.next("b") // b
+g.next('a'); //a
+g.next('b'); // b
 ```
 
 ---
+
 ## Practice
 
 Fill in the missing output of the following code snippet:
 
 ```javascript
 function* myGen() {
-  let toYield = 2
-  while(true) {
-    const i = yield toYield
+  let toYield = 2;
+  while (true) {
+    const i = yield toYield;
     if (i) {
-      toYield = i
+      toYield = i;
     }
   }
 }
 
-let z = myGen()
-z.next()
+let z = myGen();
+z.next();
 // { value: ???, done: false}
-z.next(4)
+z.next(4);
 // { value: ???, done: false}
-z.next(3)
+z.next(3);
 // { value: ???, done: false}
 ```
 
-* 2
-* 4
-* 3
-* undefined
-* 5
-* null
+- 2
+- 4
+- 3
+- undefined
+- 5
+- null
 
 ---
+
 ## Revision
 
 What happens when you pass a value to the `next` call of a generator?
 
 ???
 
-* it is assigned to the result of the `yield` statement
-* nothing
-* it instantly returns an object of the form `{value: input, done: false}`
-* it will throw an error
+- it is assigned to the result of the `yield` statement
+- nothing
+- it instantly returns an object of the form `{value: input, done: false}`
+- it will throw an error

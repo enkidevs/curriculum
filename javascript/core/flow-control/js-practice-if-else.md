@@ -26,6 +26,7 @@ links:
 # JS Practice If...Else
 
 ---
+
 ## Exercise
 
 Practice using JavaScript if..else Conditionals on Code Wars

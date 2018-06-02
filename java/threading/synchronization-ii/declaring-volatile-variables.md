@@ -36,6 +36,7 @@ links:
 # Declaring `volatile` variables
 
 ---
+
 ## Content
 
 The `volatile` modifier guarantees that all threads will always see the most up-to-date value of the variable.
@@ -55,18 +56,20 @@ public void run() {
   }
 }
 ```
+
 However, `volatile` is not necessarily a replacement for `synchronized` statements as memory inconsistency errors are still possible and `volatile` does not guarantee atomicity.
 
 ---
+
 ## Revision
 
 Take the following code snippet, the loop will run and loop endlessly, despite the assumption that the value of `this.done` is changed by another thread. To avoid this scenario, what keyword is used?
+
 ```java
 ??? boolean done;
 ```
 
-* `volatile`
-* `static`
-* `finished`
-* `checker`
-
+- `volatile`
+- `static`
+- `finished`
+- `checker`

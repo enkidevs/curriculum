@@ -20,11 +20,12 @@ links:
 # Monitors
 
 ---
+
 ## Content
 
 Unlike the two previous patters **monitors** are higher class synchronization mechanisms. **Monitor** functionality can be accessed by multiple threads.
 
-We can think of a **monitor** as being is a class instance which methods are mutually exclusive so that only one thread can execute a particular method of this object at a time. **Monitors** make use of lower class synchronization patterns such as *locks* and *semaphores* in order to achieve this functionality.
+We can think of a **monitor** as being is a class instance which methods are mutually exclusive so that only one thread can execute a particular method of this object at a time. **Monitors** make use of lower class synchronization patterns such as _locks_ and _semaphores_ in order to achieve this functionality.
 
 Example of such class implementation:
 
@@ -51,19 +52,20 @@ class MonitorExample {
 ```
 
 ---
+
 ## Practice
 
 What is the highest class synchronization pattern?
 
 ???
 
-
-* Monitor
-* Lock
-* Mutex
-* Semaphore
+- Monitor
+- Lock
+- Mutex
+- Semaphore
 
 ---
+
 ## Revision
 
 What is a monitor?
@@ -74,10 +76,8 @@ What is the key concept of a monitor?
 
 ???
 
-
-* A high class structure that provides synchronized functionality accessible by many threads
-* To provide synchronized functionality by mutually exclusive methods
-* To provide more fancy output unlike punchcards and LEDs
-* A pattern that allows multiple threads to use certain functionality at a single time
-* A piece of hardware used to display information from a computer to the user
-
+- A high class structure that provides synchronized functionality accessible by many threads
+- To provide synchronized functionality by mutually exclusive methods
+- To provide more fancy output unlike punchcards and LEDs
+- A pattern that allows multiple threads to use certain functionality at a single time
+- A piece of hardware used to display information from a computer to the user

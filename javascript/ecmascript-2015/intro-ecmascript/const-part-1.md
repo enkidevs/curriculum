@@ -19,17 +19,19 @@ links:
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const){website}'
 
 ---
+
 # Const (Part 1)
 
 ---
+
 ## Content
 
-The *`const`* (constant) keyword is new to ES6 and creates a variable that cannot be reassigned.
+The _`const`_ (constant) keyword is new to ES6 and creates a variable that cannot be reassigned.
 
 When declaring a constant variable you must assign an initial value otherwise you
 will receive an error.
 
-To declare a constant use the *`const`* keyword where you would have used *`var`*:
+To declare a constant use the _`const`_ keyword where you would have used _`var`_:
 
 ```javascript
 const year = 2016;
@@ -39,7 +41,7 @@ Once a `const` is declared any attempts to reassign the value will cause an erro
 
 ```javascript
 year = 2017; //error
-year = "future"; //error
+year = 'future'; //error
 ```
 
 `const`s can exist in different scopes for example if we had already declared a `const` variable called `year` it is valid to declare another as long as it exists in another scope:
@@ -48,11 +50,12 @@ year = "future"; //error
 const year = 2015;
 
 if (1 == 1) {
-   const year = 2016; //valid
+  const year = 2016; //valid
 }
 ```
 
 ---
+
 ## Practice
 
 Consider the assignment:
@@ -77,12 +80,13 @@ if (true) {
 }
 ```
 
-* throw an error
-* assign 22 to enki within the if's scope
-* also throw an error
-* re-assign 22 to enki
+- throw an error
+- assign 22 to enki within the if's scope
+- also throw an error
+- re-assign 22 to enki
 
 ---
+
 ## Revision
 
 Is the following code valid? Why?
@@ -93,11 +97,11 @@ Is the following code valid? Why?
 const enki = 'enki';
 
 if (true) {
-   const enki = 'nk';
+  const enki = 'nk';
 }
 ```
 
-* yes, because the second assignment is in a different scope
-* yes, because the value is changed
-* no, because you can't redeclare a variable
-* no, because the `if` block doesn't have it's own scope
+- yes, because the second assignment is in a different scope
+- yes, because the value is changed
+- no, because you can't redeclare a variable
+- no, because the `if` block doesn't have it's own scope

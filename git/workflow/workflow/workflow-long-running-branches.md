@@ -24,6 +24,7 @@ links:
 # Workflow: long running branches
 
 ---
+
 ## Content
 
 Long running branches are branches that you create to work on for the long-term.
@@ -31,22 +32,24 @@ Long running branches are branches that you create to work on for the long-term.
 For example, the branch `master` could be for stable code and `develop` for testing.
 
 You could create a fix to a new issue on the topic branch `iss14`. You could merge this with `develop` and test its stability:
+
 ```
 $ git checkout develop
 $ git merge iss14
 # merge into develop
 # test the stability
 ```
+
 If the fix proves to be stable, you could then merge with `master`.
 
 This can be helpful in large, complex projects.
 
 ---
+
 ## Revision
 
 For complex projects, the best practice is to work on ??? .
 
-* auxiliary branches        
-* master branch
-* a single other branch
-
+- auxiliary branches
+- master branch
+- a single other branch

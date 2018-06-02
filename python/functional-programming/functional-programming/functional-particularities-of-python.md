@@ -24,6 +24,7 @@ links:
 # Functional Particularities of Python
 
 ---
+
 ## Content
 
 In this insight we'll explore some of the paradigms of functional programming as applied to Python, specifically.
@@ -32,7 +33,7 @@ One of the most common constructs to employ in a functional-style Python program
 
 When we call a function, a new space in memory is allocated to hold all of the variables that function is concerned with, as well as other data. When that function reaches a `return` statement, all of that is destroyed (or, more accurately, marked for garbage collection) and the return value is given back to the caller. Calling that function again restarts the entire process.
 
-Generators allow us to make functions which essentially keep these variables from being destroyed after returning a value, and allow the execution to be paused and resumed where the function left off. Generators basically provide *resumable functions*. For example:
+Generators allow us to make functions which essentially keep these variables from being destroyed after returning a value, and allow the execution to be paused and resumed where the function left off. Generators basically provide _resumable functions_. For example:
 
 ```python
 def generate_ints(N):
@@ -67,35 +68,37 @@ As you can clearly see, our code instantly becomes much more legible and compreh
 Finally, Python is also lucky to have an avid user base which is constantly providing new third-party libraries to extend Python's usability as a functional language. Although we can't cover them in detail in order to keep the insight short, some highlights include `pyrsistent`, `toolz`, `hypothesis` and `more_itertools`.[2]
 
 ---
+
 ## Practice
 
 What keyword makes a function a generator?
 
 ???
 
-
-* `yield`
-* `return`
-* `break`
-* `gen`
-* `__next__`
+- `yield`
+- `return`
+- `break`
+- `gen`
+- `__next__`
 
 ---
+
 ## Revision
 
 What are some of the key functional features of Python?
 
 ???
 
-
-* Generators & Comprehensions
-* Pure Functions & High-Level
-* Interpreted & Object-Oriented
-* Immutability & Extensibility
-* Generators & Dynamic Typing
+- Generators & Comprehensions
+- Pure Functions & High-Level
+- Interpreted & Object-Oriented
+- Immutability & Extensibility
+- Generators & Dynamic Typing
 
 ---
+
 ## Footnotes
+
 [1:Iterators]
 Iterators are objects which return one value at a time from a collection of values. For example, an iterator traversing a list will return one element of the list at a time until it reaches the end of the list and throws a `StopIteration` exception. For more information, see the related insights relating to Python iteration.
 

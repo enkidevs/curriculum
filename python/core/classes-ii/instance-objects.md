@@ -23,11 +23,13 @@ links:
 # Instance objects
 
 ---
+
 ## Content
 
-Instances are individual objects of a specific *Class*. For example, we might have the class `Coordinate`, but with different instances.  
+Instances are individual objects of a specific _Class_. For example, we might have the class `Coordinate`, but with different instances.
 
 **Instance** objects are created by instantiation:
+
 ```python
 class Coordinate:
   def __init__(self, x, y):
@@ -44,15 +46,18 @@ c2 = Coordinate(4,5)
 ```
 
 Instance objects only understand **attribute references** as operations:
+
 - data attributes
 - methods
 
-Data attributes act like local variables and *don't need to* be defined in the class namespace. They spring into existence at the first assignment.
+Data attributes act like local variables and _don't need to_ be defined in the class namespace. They spring into existence at the first assignment.
+
 ```python
 c1.quadrant = "first"
 print(c1.quadrant)
 # "first"
 ```
+
 Methods are different. Basically a **method** is a function that belongs to a `class`.
 
 Theoretically, all attributes of a class that are function objects define corresponding instance methods.
@@ -67,9 +72,11 @@ Coordinate.dist(c1,c2) # 5.0
 ```
 
 ---
+
 ## Practice
 
 Consider the following class:
+
 ```python
 class Enki:
   def printEnki(self):
@@ -77,33 +84,35 @@ class Enki:
 ```
 
 Complete the following snippet such that an **instance object** of the **class** above is created, but also the corresponding method of `Enki.printEnki` function object is called:
+
 ```
 enki = ???;
 ???.???;
 ```
 
-
-* `Enki()`
-* `enki`
-* `printEnki()`
-* `Enki`
-* `printEnki`
-* `printenki`
-* `pass`
-* `class`
+- `Enki()`
+- `enki`
+- `printEnki()`
+- `Enki`
+- `printEnki`
+- `printenki`
+- `pass`
+- `class`
 
 ---
+
 ## Revision
 
 Is the following snippet valid?
+
 ```
 class Dog:
   pass
 max = Dog()
 max.age = 3
 ```
+
 ???
 
-* Yes
-* No
- 
+- Yes
+- No

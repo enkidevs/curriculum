@@ -36,16 +36,18 @@ parent: order-by-clause
 # Group By clause
 
 ---
+
 ## Content
 
-The `GROUP BY` clause is often used with aggregate functions (e.g. `SUM`, `AVG`). Syntactically it comes after the `WHERE` clause and before the `ORDER BY` in the *query*. It enables users to group data by one or more columns.
+The `GROUP BY` clause is often used with aggregate functions (e.g. `SUM`, `AVG`). Syntactically it comes after the `WHERE` clause and before the `ORDER BY` in the _query_. It enables users to group data by one or more columns.
 
-In our Pokemon db, we have a table called *move_name* with the following cloumns:
+In our Pokemon db, we have a table called _move_name_ with the following cloumns:
+
 - id - unique move name id
 - language_id - id of the language name is spelled in
 - move_id
 - name - how each move is called in each language
-`GROUP BY` will help us count how many move_names are there for each langauge:
+  `GROUP BY` will help us count how many move_names are there for each langauge:
 
 ```
 SELECT COUNT(name), language_id
@@ -63,16 +65,18 @@ count | language_id
   617 |           3
   639 |           7
 (7 rows)
-
 ```
 
 ---
+
 ## Practice
 
 We have a table called pokemon. Two of its fields are:
+
 - is_default - it can be either true or false
 - name
-We want to know how many pokemon are (not) default:
+  We want to know how many pokemon are (not) default:
+
 ```
 SELECT ???(name),???
 FROM pokemon
@@ -86,25 +90,26 @@ count | is_default
 (2 rows)
 ```
 
-
-* COUNT
-* is_default
-* GROUP BY
-* AVG
-* SUM
-* name
+- COUNT
+- is_default
+- GROUP BY
+- AVG
+- SUM
+- name
 
 ---
+
 ## Revision
 
 In our pokemon db item is a table with the following columns:
+
 - id - unique id of the item
 - cost - item's cost
 - fling_power - "Dark type move"[1]
 - item_category_id
 - item_fling_effect_id
 - name - item's name
-We would like to get the average cost of each item category.
+  We would like to get the average cost of each item category.
 
 ```
 SELECT ???(cost),item_category_id
@@ -127,14 +132,11 @@ avg      | item_category_id
 1810     |        10
 
 ...
-
 ```
 
-
-* AVG
-* item
-* GROUP BY
-* SUM
-* ORDER BY
-* GROUP
- 
+- AVG
+- item
+- GROUP BY
+- SUM
+- ORDER BY
+- GROUP

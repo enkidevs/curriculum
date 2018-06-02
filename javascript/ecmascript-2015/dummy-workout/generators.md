@@ -16,9 +16,11 @@ links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}'
 
 ---
+
 # Generators
 
 ---
+
 ## Content
 
 Generators are functions that can be paused and resumed at a `yield` point.
@@ -32,38 +34,43 @@ Generators can play three roles:
 **Coroutines**: the dual data producing and consuming properties of generators can be combined into a multitasking routine.
 
 There are various ways of creating a generator, for example by a generator function declaration:
+
 ```
 function* genFunc() { ··· }
 let genObj = genFunc();
 ```
+
 Note the `*` that indicates `genFunc()` is a generator.
 
 ---
+
 ## Practice
 
 Create a generator using generator function declaration:
 
 ```
-??? generator() { ··· } 
-let genObj = ???(); 
+??? generator() { ··· }
+let genObj = ???();
 ```
-* function*
-* generator
-* function
-* func
-* newgenerator`
-* new
+
+- function\*
+- generator
+- function
+- func
+- newgenerator`
+- new
 
 ---
+
 ## Revision
 
-What syntax is used to pause and resume a *generator function* ?
+What syntax is used to pause and resume a _generator function_ ?
 
 ???
 
-* yield
-* next()
-* pause
-* stop
-* getFunc()
-* *
+- yield
+- next()
+- pause
+- stop
+- getFunc()
+- \*

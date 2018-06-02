@@ -15,9 +15,11 @@ links:
 
 
 ---
+
 # Number Extensions (Part 1)
 
 ---
+
 ## Content
 
 Number benefits from a number of new methods saving you from writing your own potentially error prone implementation.
@@ -44,12 +46,12 @@ Number.isInteger(0.1); //false
 
 ### Number.isNaN
 
-Before ES6 it was difficult to test if a value was equal to *NaN* (Not a number). This is because NaN == NaN evaluates to false.
+Before ES6 it was difficult to test if a value was equal to _NaN_ (Not a number). This is because NaN == NaN evaluates to false.
 
-Whilst a global *isNaN* function has existed in previous versions it has the issue that it converts values which makes it hard to test if something is really *NaN*:
+Whilst a global _isNaN_ function has existed in previous versions it has the issue that it converts values which makes it hard to test if something is really _NaN_:
 
 ```javascript
-isNaN("Enki") == true; //true
+isNaN('Enki') == true; //true
 ```
 
 Number.isNaN allows you to easily test if a number really is NaN:
@@ -60,6 +62,7 @@ Number.isNaN(Number.NaN); //true
 ```
 
 ---
+
 ## Practice
 
 What is the output of the following two calls?
@@ -67,34 +70,34 @@ What is the output of the following two calls?
 ```javascript
 const enki = 'enki';
 
-isNaN(enki)
-Number.isNaN(enki)
+isNaN(enki);
+Number.isNaN(enki);
 // ???
 ```
 
-* true, false
-* false, true
-* false, false
-* true, true
+- true, false
+- false, true
+- false, false
+- true, true
 
 ---
+
 ## Revision
 
 Complete the missing calls with methods introduced in ES6 such that all the statements are true:
 
 ```javascript
-
 Number.???(5) == true
 ???.???(2.71) == false
 Number.???(Number.NaN) == true
 ```
 
-* isFinite
-* Number
-* isInteger
-* isNaN
-* isReal
-* String
-* isRatio
-* NaN
-* isNotNaN
+- isFinite
+- Number
+- isInteger
+- isNaN
+- isReal
+- String
+- isRatio
+- NaN
+- isNotNaN

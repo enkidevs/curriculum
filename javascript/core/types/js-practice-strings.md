@@ -31,6 +31,7 @@ links:
 # JS Practice Strings
 
 ---
+
 ## Exercise
 
 Practice using JavaScript Strings on Code Wars

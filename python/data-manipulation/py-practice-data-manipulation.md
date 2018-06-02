@@ -28,6 +28,7 @@ links:
 # Python Data manipulation Exercises
 
 ---
+
 ## Exercise
 
 Practice working with `nested data` and `data structures` in python.

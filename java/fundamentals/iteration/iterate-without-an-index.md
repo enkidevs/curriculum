@@ -28,14 +28,14 @@ links:
 # Iterate without an index
 
 ---
+
 ## Content
 
-Using a for-each or an Iterator instead of a traditional for-loop is a more concise and less error-prone solution. 
+Using a for-each or an Iterator instead of a traditional for-loop is a more concise and less error-prone solution.
 
-Traditional for-loops use an explicit loop index, which can, for example, lead to off-by-one errors. 
+Traditional for-loops use an explicit loop index, which can, for example, lead to off-by-one errors.
 
 For-each loops avoid this problem as they do not have an explicit index.
-
 
 ```
 List<String> colors = Arrays.asList(
@@ -50,6 +50,4 @@ for(String color: colors){
 for(int i=0; i<colors.size(); i++){
   System.out.println(colors.get(i));
 }
-
 ```
-

@@ -27,17 +27,21 @@ parent: binary-expression-tree
 # Exponentiation By Squaring
 
 ---
+
 ## Content
 
-The concept of **exponentiation by squaring** refers to a method to fast compute large powers of a number. Some other names for it are *square-and-multiply algorithm* or *binary exponentiation*.
+The concept of **exponentiation by squaring** refers to a method to fast compute large powers of a number. Some other names for it are _square-and-multiply algorithm_ or _binary exponentiation_.
 
 The most basic way to exponentiate is multiplying the number by itself:
+
 ```
 3^20 = 3*3* ... *3 (20 times)
 ```
-This will have to do `O(n)` (i.e. *O(20)* ) operations to calculate the result.
 
-Instead of multiplying the number itself, *exponentiation by squaring* works by halving the power each time:
+This will have to do `O(n)` (i.e. _O(20)_ ) operations to calculate the result.
+
+Instead of multiplying the number itself, _exponentiation by squaring_ works by halving the power each time:
+
 ```
 3^20 = (3^10)^2 = [(3^5)^2]^2
      = {[3*(3^4)]^2}^2
@@ -46,9 +50,11 @@ Instead of multiplying the number itself, *exponentiation by squaring* works by 
 # 5 multiplications
 #    and squarings to compute
 ```
+
 This algorithm uses `O(log n)` squarings[1] **and** at most `O(log n)` multiplications. Together they would take at most `2*O(log n)`, which is still faster than `O(n)` multiplications.
 
-The implementation using a *recursive algorithm* is as follows:
+The implementation using a _recursive algorithm_ is as follows:
+
 ```
 // where b is the base
 // and x is the exponent
@@ -65,10 +71,10 @@ expBySqr(b,x)
     return b * expBySqr(b*b, (x-1)/2)
 ```
 
-
 It is worth noting that after each squaring, the new value would almost double the number of digits of the previous one.
 
 ---
+
 ## Practice
 
 For small exponent values, squaring might need more operations than straight-forward approach.
@@ -77,24 +83,27 @@ For small exponent values, squaring might need more operations than straight-for
 
 ??? operations(decompose+multiply).
 
-* 2+3
-* 3+3
-* 3+2
-* 3+1
+- 2+3
+- 3+3
+- 3+2
+- 3+1
 
 ---
+
 ## Revision
 
 For an exponent of `350`, what's the upper-bound of the number of operations required to compute the result using the exponentation by squaring method?
 
 ???
 
-* O(log 350)
-* O(350^2)
-* O(350)
-* O(log log 350)
+- O(log 350)
+- O(350^2)
+- O(350)
+- O(log log 350)
 
 ---
+
 ## Footnotes
+
 [1:Improvement]
-For an exponent of `20`, it takes *9 operations* to do the same what it would otherwise take *19 operations*.
+For an exponent of `20`, it takes _9 operations_ to do the same what it would otherwise take _19 operations_.

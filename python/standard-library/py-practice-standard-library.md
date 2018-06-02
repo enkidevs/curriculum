@@ -28,6 +28,7 @@ links:
 # Python standard library
 
 ---
+
 ## Exercise
 
 Make effective use of python's `standard library`.

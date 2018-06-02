@@ -25,25 +25,28 @@ links:
 # Schedule events with `sched`
 
 ---
+
 ## Content
 
 Another useful **Python** module is `sched` and it's used for general purpose event scheduling.
 
 Import the module:
+
 ```python
 import sched
 import time # we will use this
 ```
 
 Every operation is done with the help of a `scheduler` class that needs two time functions. The first one to determine the current time and the second to wait for a specific period of time. (e.g. `time.time` and `time.sleep`)
+
 ```python
 s = sched.scheduler(time.time, time.sleep)
-
 ```
 
 Since **Python 3.3** the `scheduler` class is safe for multi-threading.
 
 We can schedule a task with `enter`:
+
 ```python
 s.enter(2, 1, print, argument=('first',))
 s.enter(3, 1, print, argument=('second',))
@@ -51,19 +54,22 @@ s.enter(3, 1, print, argument=('second',))
 # third is the action and the last is
 # the arguments of the action
 ```
+
 Then we run our scheduler:
+
 ```python
 s.run()
 ```
+
 `first` is printed after 2 seconds while `second` is printed after 3 seconds.
 
 ---
+
 ## Practice
 
 Create a new schedule and set it to enter second with priority = 1 and delay = 4.
 
 ```python
-
 import sched
 import time
 
@@ -74,14 +80,13 @@ sc=???.scheduler(???.start,???.stop)
 sc.enter(???,???,print,???)
 ```
 
-* sched
-* time
-* time
-* 4
-* 1
-* argument=('second')
-* sc
-
+- sched
+- time
+- time
+- 4
+- 1
+- argument=('second')
+- sc
 
 ---
 
@@ -90,11 +95,10 @@ sc.enter(???,???,print,???)
 What is the priority ??? and what is the delay ??? of the following scheduler:
 
 ```python
-
 sched.enter(3,2,print,argument=('second'))
 ```
 
-* 2
-* 3
-* second
-* first
+- 2
+- 3
+- second
+- first

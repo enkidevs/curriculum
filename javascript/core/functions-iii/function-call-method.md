@@ -24,18 +24,15 @@ tags:
   - introduction
 
   - workout
-
-
-
-
 ---
 
 # Function call method
 
 ---
+
 ## Content
 
-The `call` method allows changing the this object of a function from the original context to the context of the new object specified by `thisObj`. 
+The `call` method allows changing the this object of a function from the original context to the context of the new object specified by `thisObj`.
 
 `currObj` is the object to be used as the current object.
 
@@ -48,10 +45,10 @@ Creating a function to call returning a string of the object and arguments:
 ```javascript
 function callObject(arg1, arg2) {
   var str;
-  str += "Object: " + this + ". ";
-  str += "Arguments: "
-  for (i in callObject.arguments){
-    str += callObject.arguments[i] + " ";
+  str += 'Object: ' + this + '. ';
+  str += 'Arguments: ';
+  for (i in callObject.arguments) {
+    str += callObject.arguments[i] + ' ';
   }
   return str;
 }
@@ -65,32 +62,34 @@ callObject.call(2, 4, 6);
 
 The current object would be changed to 2, and the string generated and returned would be:
 
-```
-str = "Object: 2. Arguments: 4 6 "
+```javascript
+str = 'Object: 2. Arguments: 4 6 ';
 ```
 
 ---
+
 ## Practice
 
 If `currObj` is not supplied, what is it set to by default? ???
 
-* The global object.
-* Equal to null.
-* The previous object.
-* The boolean false.
+- The global object.
+- Equal to null.
+- The previous object.
+- The boolean false.
 
 ---
+
 ## Revision
 
 What is the object and the arguments of the function?
+
 ```javascript
 callObject.call(null, 4, 2);
 ```
+
 ???
 
-
-* Object: null, Arguments: 4,2
-* Object: 4, Arguments 2
-* Object: 4, Arguments: null, 2
-* This gives an error
-
+- Object: null, Arguments: 4,2
+- Object: 4, Arguments 2
+- Object: 4, Arguments: null, 2
+- This gives an error

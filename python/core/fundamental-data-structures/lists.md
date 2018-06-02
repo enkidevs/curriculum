@@ -19,21 +19,26 @@ standards:
 # Lists
 
 ---
+
 ## Content
 
 Lists are not so different from arrays, they can contain any variable type, and as many different variables as you'd like.
 
 To build a list:
+
 ```python
 pyList = []
 ```
+
 To add to a list:
+
 ```python
 pyList.append(11)
 pyList.append(4)
 ```
 
 To view items in a list:
+
 ```python
 print(pyList[0])
 # prints 11
@@ -52,6 +57,7 @@ for x in pyList:
 ```
 
 ---
+
 ## Practice
 
 Complete the code snippet to add a value to the list:
@@ -61,12 +67,12 @@ newList = []
 newList.???(5)
 ```
 
-
-* `append`
-* `add`
-* `push`
+- `append`
+- `add`
+- `push`
 
 ---
+
 ## Revision
 
 Complete the code snippet to view item 0 in the list:
@@ -78,11 +84,9 @@ newList.append(2)
 ???(newList???)
 ```
 
-
-* `print`
-* `[0]`
-* `{0}`
-* `view`
-* `append`
-* `(0)`
- 
+- `print`
+- `[0]`
+- `{0}`
+- `view`
+- `append`
+- `(0)`

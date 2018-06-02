@@ -27,6 +27,7 @@ links:
 # JS Practice String `charAt`, `charCodeAt` and `fromCharCode`
 
 ---
+
 ## Exercise
 
 Practice using the JavaScript String methods `charAt()`, `charCodeAt()` and `fromCharCode()`

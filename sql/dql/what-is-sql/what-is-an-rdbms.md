@@ -29,13 +29,14 @@ links:
 # What is an RDBMS?
 
 ---
+
 ## Content
 
-*RDBMS* stands for _Relational Database Management System_, a _Database Management System_ that allows the user to create, update and delete the _Relational Database_.
+_RDBMS_ stands for _Relational Database Management System_, a _Database Management System_ that allows the user to create, update and delete the _Relational Database_.
 
 _Relational Databases_ store data in _tables_, which are similar to a spreadsheet in that they've got rows and columns.
 
-Using these tables we can query data, and store it such that others can query it. The language we use to _define_ tables is commonly referred to as SQL, but its real name is *DDL*, or _Data Definition Language_.
+Using these tables we can query data, and store it such that others can query it. The language we use to _define_ tables is commonly referred to as SQL, but its real name is _DDL_, or _Data Definition Language_.
 
 Here's an example of how we might define a table:
 
@@ -46,7 +47,7 @@ CREATE TABLE users (
 );
 ```
 
-This lives in the *Database Server*.
+This lives in the _Database Server_.
 
 Then we could query it like so:
 
@@ -54,9 +55,10 @@ Then we could query it like so:
 SELECT * FROM users;
 ```
 
-We query from the *Database Client*.
+We query from the _Database Client_.
 
 ---
+
 ## Practice
 
 How do you think we could create a table called `products`?
@@ -69,12 +71,13 @@ How do you think we could create a table called `products`?
 );
 ```
 
-* `CREATE TABLE products`
-* `MAKE TABLE products`
-* `rdbms.createTable('products')`
-* `sql.create.table('products')`
+- `CREATE TABLE products`
+- `MAKE TABLE products`
+- `rdbms.createTable('products')`
+- `sql.create.table('products')`
 
 ---
+
 ## Revision
 
 How do you think we could create a table called `coupons`?
@@ -87,8 +90,7 @@ How do you think we could create a table called `coupons`?
 );
 ```
 
-* `CREATE TABLE coupons`
-* `MAKE TABLE coupons`
-* `rdbms.createTable('coupons')`
-* `sql.create.table('coupons')`
- 
+- `CREATE TABLE coupons`
+- `MAKE TABLE coupons`
+- `rdbms.createTable('coupons')`
+- `sql.create.table('coupons')`

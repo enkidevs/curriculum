@@ -24,38 +24,40 @@ notes: ''
 
 ---
 
-# Difference between ```HashMap``` and ```Hashtable```
+# Difference between `HashMap` and `Hashtable`
 
 ---
+
 ## Content
 
-Both `HashMap` and `Hashtable` implement Map interface but there are some significant differences between them. 
+Both `HashMap` and `Hashtable` implement Map interface but there are some significant differences between them.
 
 `HashMap` class is non synchronized and permits null values as key and value, whereas `Hashtable` does not allow nulls.
 
 `Hashtable` is also **synchronized** which means it is thread-safe and `Hashtable` instances can be accessed by multiple threads.
 
 ---
+
 ## Practice
 
 Which one of the following classes is synchronized?
 
 ???
 
-* `Hashtable` 
-* `HashMap` 
-* `both` 
-* `none`
+- `Hashtable`
+- `HashMap`
+- `both`
+- `none`
 
 ---
+
 ## Revision
 
 Which one of the following classes allow `null` values as keys?
 
 ???
 
-* `HashMap` 
-* `Hashtable` 
-* `both` 
-* `none`
-
+- `HashMap`
+- `Hashtable`
+- `both`
+- `none`

@@ -28,27 +28,28 @@ links:
 # SELECT
 
 ---
+
 ## Content
 
-If you only want to see *some* of the columns in a table, use a `SELECT` statement followed by a comma-separated list of the columns you wish to retrieve:
+If you only want to see _some_ of the columns in a table, use a `SELECT` statement followed by a comma-separated list of the columns you wish to retrieve:
 
 ```sql
 SELECT name, height, weight
 FROM pokemon;
 ```
 
-The above command retrieves the `name`, `height` and `weight` information for all of the *rows* in the `pokemon` table.
+The above command retrieves the `name`, `height` and `weight` information for all of the _rows_ in the `pokemon` table.
 
 ---
+
 ## Practice
 
 Which of the following queries will retrieve only the `id` and `name` columns for all row of the `move_names` table?
 
 ???
 
-* `SELECT id, name FROM move_names`
-* `SELECT *, id, name FROM move_names`
-* `SELECT ONLY id, name FROM move_names`
-* `SELECT id, SELECT name, FROM move_names`
-* `SELECT id AND name FROM move_names`
- 
+- `SELECT id, name FROM move_names`
+- `SELECT *, id, name FROM move_names`
+- `SELECT ONLY id, name FROM move_names`
+- `SELECT id, SELECT name, FROM move_names`
+- `SELECT id AND name FROM move_names`

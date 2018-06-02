@@ -25,6 +25,7 @@ links:
 # JS Practice Classes 2
 
 ---
+
 ## Exercise
 
 Apply your knowledge of JavaScript Classes in this Code Wars challenge!

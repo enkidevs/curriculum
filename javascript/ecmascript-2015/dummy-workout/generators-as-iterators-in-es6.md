@@ -20,14 +20,17 @@ links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}'
 
 ---
+
 # Generators as iterators in ES6
 
 ---
+
 ## Content
 
 Generators can return a value via `next()` at each `yield` point to produce a sequence of values. This sequence is known as an **iterable** and the generator function as an **iterator**.
 
 For example:
+
 ```
 // generator function 'E' 'n' 'k' 'i'
 function* genFunc() {
@@ -39,6 +42,7 @@ function* genFunc() {
 ```
 
 The yielded values can be obtained one-by-one using `next()`:
+
 ```
 let genObj = genFunc();
 genObj.next(); //{value:'E', done:false}
@@ -48,6 +52,7 @@ genObj.next(); //{value:undefined,done:true}
 ```
 
 ---
+
 ## Practice
 
 What's the output of the following JS code snippet? ???
@@ -66,16 +71,18 @@ genObj.next();
 console.log(genObj.next().value);
 ```
 
-* M
-* A
-* E
-* C
-* undefined
+- M
+- A
+- E
+- C
+- undefined
 
 ---
+
 ## Revision
 
 What's the output of the following snippet?
+
 ```javascript
 function* genFunc() {
   yield 'a';
@@ -87,6 +94,7 @@ genObj.next();
 console.log(genObj.next().value);
 // ???
 ```
-* b
-* a
-* undefine
+
+- b
+- a
+- undefine

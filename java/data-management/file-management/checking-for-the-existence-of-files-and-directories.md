@@ -30,20 +30,24 @@ links:
 # Checking for the existence of files and directories
 
 ---
+
 ## Content
 
 When performing operations on files, it is useful to be able to check whether expected files or directories actually exist.
 
 We can check that a file or directory exists by using the `exists` method:
+
 ```
 File f = new File("path/to/file");
 if(f.exists()) {
   ...
 }
 ```
+
 However, `exists` returns `true` for both files and directories. This can cause a problem if we are expecting to be able to open a file and instead are met with a directory.
 
 To solve this, `isFile` and `isDirectory` can be used to check specifically for files and directories respectively:
+
 ```
 File f = new File("path/to/file");
 if(f.isFile()) {
@@ -52,9 +56,11 @@ if(f.isFile()) {
 ```
 
 ---
+
 ## Revision
 
 You have the following code snippet:
+
 ```
 File f = new File("usr/home/enki");
 if( ??? ){
@@ -67,14 +73,16 @@ if( ??? ){
 
 How would you check if the file exists?
 
-* `f.exists()`
-* `f.Exists()`
-* `!f.isFile()`
-* `!f.isDirectory()`
-* `f.toFile()`
+- `f.exists()`
+- `f.Exists()`
+- `!f.isFile()`
+- `!f.isDirectory()`
+- `f.toFile()`
 
 ---
-## Quiz 
+
+## Quiz
+
 ### Can you figure out what check should be included in the following snippet?
 
 What should be checked here such that the below code won't throw errors?
@@ -87,10 +95,9 @@ public static void main(String[] args) {
 }
 ```
 
+???
 
- ???
-
-* If the file exists
-* If the stream is empty
-* If variable 'line' is a string
-* If 'stream.filter()' function exists
+- If the file exists
+- If the stream is empty
+- If variable 'line' is a string
+- If 'stream.filter()' function exists

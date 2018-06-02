@@ -21,15 +21,16 @@ inAlgoPool: false
 # Selecting Portions of A Line Using `cut`
 
 ---
+
 ## Content
 
-The `cut` command allows us to "cut out" specified portions of each line of a file.  You can either pass the name of a file to `cut` directly or pass it output from another program via the `|` operator.
+The `cut` command allows us to "cut out" specified portions of each line of a file. You can either pass the name of a file to `cut` directly or pass it output from another program via the `|` operator.
 
 Here are some basic examples.
 
 ### Cutting Characters
 
-The `-c` option tells `cut` to select specific *characters* from its input.  Take a look:
+The `-c` option tells `cut` to select specific _characters_ from its input. Take a look:
 
 ```shell
 $ echo "one:two:three" | cut -c2
@@ -39,13 +40,13 @@ one:t
 $
 ```
 
- In this case `-c2` tells `cut` to select the second character while `-c1-5` tells `cut` to select a range of characters (the first to the fifth).
+In this case `-c2` tells `cut` to select the second character while `-c1-5` tells `cut` to select a range of characters (the first to the fifth).
 
- One can also select specific characters by using `,` instead of `-`.  For example, `-c1,3,5` would select the first, third, and fifth characters from each line of input.
+One can also select specific characters by using `,` instead of `-`. For example, `-c1,3,5` would select the first, third, and fifth characters from each line of input.
 
 ### Cutting Fields
 
-We can cut out specific columns or fields, too.  Take a look:
+We can cut out specific columns or fields, too. Take a look:
 
 ```
 $ echo "one:two:three" | cut -d":" -f1
@@ -57,13 +58,13 @@ one two
 $
 ```
 
-The `-d":"` option tells cut to expect input where the fields are delimited by a `:` character.  `-f1` tells `cut` to select the first field (delimited by `:`), `-f2` the second field, and `-f1-2` the first and second field.
+The `-d":"` option tells cut to expect input where the fields are delimited by a `:` character. `-f1` tells `cut` to select the first field (delimited by `:`), `-f2` the second field, and `-f1-2` the first and second field.
 
 One can use `-f` without `-d`, although by default `cut` will assume that the input fields are delimited by tab characters.
 
 ### Practical Example
 
-The `/etc/passwd` file contains information about every user on the system, including usernames and home directories.  The format is very standard.  The following example will print out all the users alone with their home directories on the system:
+The `/etc/passwd` file contains information about every user on the system, including usernames and home directories. The format is very standard. The following example will print out all the users alone with their home directories on the system:
 
 ```shell
 $ cut -d":" -f1,6 /etc/passwd
@@ -76,32 +77,36 @@ $
 The fields in `/etc/passwd` are `:`-delimited with the first field containing the username and the second sixth field containing the user's home directory.
 
 ---
+
 ## Practice
 
 Consider `enki.txt` file:
+
 ```
 Linux/Data Manipulation/cut command
 Javascript/Core/Prototype
 Java/Fundamentals/Inheritance
 ```
-Print the *subtopic* name using `cut` :
+
+Print the _subtopic_ name using `cut` :
+
 ```
 $ cut ??? ??? ???
 ```
 
-* `-d"/"`
-* `-f2`
-* `enki.txt`
-* `-d" "`
-* `-f1`
+- `-d"/"`
+- `-f2`
+- `enki.txt`
+- `-d" "`
+- `-f1`
 
 ---
+
 ## Revision
 
 The flag used to specify the delimiter of the `cut` command is ???.
 
-* -d
-* -f
-* -a
-* -F
-
+- -d
+- -f
+- -a
+- -F

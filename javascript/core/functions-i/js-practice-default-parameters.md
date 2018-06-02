@@ -28,6 +28,7 @@ links:
 # JS Practice Default Parameters
 
 ---
+
 ## Exercise
 
 Write a JavaScript function with default parameters

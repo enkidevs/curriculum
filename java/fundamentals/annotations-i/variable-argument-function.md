@@ -20,9 +20,11 @@ links:
 # Variable Argument Function
 
 ---
+
 ## Content
 
 **VarArgs** allows a function to accept a variable number of arguments in multiple forms. For example, assume that our function takes `Strings` as arguments:
+
 ```java
 public static void
   varArgsFunc(String... args) {
@@ -30,7 +32,8 @@ public static void
 }
 ```
 
-`VarArgs` were introduced with *Java 1.5*. The key difference between accepting an array and this method is that this one is more general, i.e:
+`VarArgs` were introduced with _Java 1.5_. The key difference between accepting an array and this method is that this one is more general, i.e:
+
 ```java
 String[] args = {"Enki", "eNki", "enKi"};
 //both method calls work
@@ -39,6 +42,7 @@ varArgsFunc("Enki", "eNki", "enKi");
 ```
 
 Of course the arguments still have to be passed as "array", and the collection should be the last in the order of arguments, otherwise a compile time error will be raised, this is because the compiler assumes unlimited number of elements in the collection:
+
 ```java
 varArgsFunc(int A, String... stringArray){
     //doEnki
@@ -55,26 +59,25 @@ varArgsFunc(5, "Enki", "eNki");
 Until Java 7, programmers had to implicitly specify `@SafeVarargs` to ensure that the compiler would throw a proper error. As of now, most compilers throw this error by themselves.
 
 ---
+
 ## Practice
 
 If we pass a collection as well as other arguments to a function, where should the collection argument be passed?
 
 ???
 
-
-* At the end of the argument list.
-* It should be the first argument to be passed.
-* The order of the arguments does not matter.
+- At the end of the argument list.
+- It should be the first argument to be passed.
+- The order of the arguments does not matter.
 
 ---
+
 ## Revision
 
-What is *VarArgs*?
+What is _VarArgs_?
 
 ???
 
-
-* It is a concept of passing an unlimited number of arguments to a function.
-* It is a concept of unlimited array with variable number of arguments.
-* It is a concept of passing arguments of various types to a function.
-
+- It is a concept of passing an unlimited number of arguments to a function.
+- It is a concept of unlimited array with variable number of arguments.
+- It is a concept of passing arguments of various types to a function.

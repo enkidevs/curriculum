@@ -31,11 +31,13 @@ notes: >
 # Playing with `time`
 
 ---
+
 ## Content
 
 The `time` module is widely used for time manipulation, representation and conversion.
 
 Keep in mind an `import` is needeed:
+
 ```python
 import time
 ```
@@ -51,7 +53,7 @@ print("Seconds since Unix Epoch: ",
 #              1498231656.509076)
 ```
 
-This time expressed in seconds can be *parsed* with the help of `time.localtime` which will return a tuple with all time-relevant information:
+This time expressed in seconds can be _parsed_ with the help of `time.localtime` which will return a tuple with all time-relevant information:
 
 ```python
 time_struct = time.localtime(cur_time)
@@ -72,6 +74,7 @@ print(time.asctime(time_struct))
 ```
 
 Another useful function of this module sis `time.sleep(n)` which can be used to make your program sleep for `n` seconds:
+
 ```python
 print("good night")
 time.sleep(5)
@@ -80,6 +83,7 @@ print("good morning")
 ```
 
 ---
+
 ## Practice
 
 The following python script should print the current time in the following format:
@@ -96,21 +100,20 @@ time_struct = time.???(time_in_seconds)
 formatted = time.???(time_struct)
 
 print(formatted)
-
 ```
 
-
-* `time`
-* `time()`
-* `localtime`
-* `asctime`
-* `sleep`
-* `localTime`
-* `asciitime`
-* `now()`
-* `current()`
+- `time`
+- `time()`
+- `localtime`
+- `asctime`
+- `sleep`
+- `localTime`
+- `asciitime`
+- `now()`
+- `current()`
 
 ---
+
 ## Revision
 
 The `time` module provides numerous useful function for time manipulation.
@@ -121,13 +124,11 @@ Supposing all required `import`s are resolved before, complete the following scr
 print(???(???())
 ```
 
-
-* `localtime`
-* `time`
-* `asctime`
-* `sleep`
-* `now`
-* `current`
-* `time_struct`
-* `struct_time`
- 
+- `localtime`
+- `time`
+- `asctime`
+- `sleep`
+- `now`
+- `current`
+- `time_struct`
+- `struct_time`

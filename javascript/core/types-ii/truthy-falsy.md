@@ -21,15 +21,15 @@ standards:
 tags:
 
   - introduction
-
 ---
 
 # Truthy Falsy
 
 ---
+
 ## Content
 
-All values in JavaScript have a special inherit *boolean* value of either *true* or *false*.
+All values in JavaScript have a special inherit _boolean_ value of either _true_ or _false_.
 
 The following are always considered false or falsy values:
 
@@ -52,33 +52,32 @@ This includes some things you might not expect such as:
 
 This is often used as a shortcut for conditional logic such as testing if an object is null.
 
-For example as *null* or *undefined* objects have an inherent value of *false* we can use this with an if statement to perform different logic:
+For example as _null_ or _undefined_ objects have an inherent value of _false_ we can use this with an if statement to perform different logic:
 
-```
-if (myObj){
-   //object exists
-}
-else {
-   //object does not exist
+```javascript
+if (myObj) {
+  // object exists
+} else {
+  // object does not exist
 }
 ```
 
 ---
+
 ## Practice
 
 A null object is ???.
 
-
-* falsy
-* truthy
-* neither falsy nor truthy.
+- falsy
+- truthy
+- neither falsy nor truthy.
 
 ---
+
 ## Revision
 
 An empty string is ???.
 
-
-* falsy
-* truthy
-* neither falsy nor truthy
+- falsy
+- truthy
+- neither falsy nor truthy

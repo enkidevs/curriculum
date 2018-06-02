@@ -28,52 +28,55 @@ parent: what-are-status-codes
 # Verbs in HTTP
 
 ---
+
 ## Content
 
-While *URLs* indicate the location to which an HTTP request is sent, the action to be performed by the server is specified by the **HTTP verbs**.
+While _URLs_ indicate the location to which an HTTP request is sent, the action to be performed by the server is specified by the **HTTP verbs**.
 
-To differentiate actions, HTTP protocol comes with a set of formalized request *verbs*:
+To differentiate actions, HTTP protocol comes with a set of formalized request _verbs_:
 
-- `GET`: *fetches* a specific resource indicated by the *URL*.
-- `POST`: *creates* a new resource at the specified *URL*[1].
-- `PUT`: *updates* an existing resource indicated by the *URL*[2].
-- `DELETE`: *removes* a resource pointed by the *URL*[3].
+- `GET`: _fetches_ a specific resource indicated by the _URL_.
+- `POST`: _creates_ a new resource at the specified _URL_[1].
+- `PUT`: _updates_ an existing resource indicated by the _URL_[2].
+- `DELETE`: _removes_ a resource pointed by the _URL_[3].
 - `HEAD`: similar to `GET`, but transfers only the header and the status of the page[4].
 - `OPTIONS`: asks the server to return the available communication methods, without initiating any other actions[5].
 - `TRACE`: used for diagnostic purposes, it returns the hops between the client and the server.
-- `PATCH`: used as well to *update/modify* an existing resource, but with a specialized set of instructions
+- `PATCH`: used as well to _update/modify_ an existing resource, but with a specialized set of instructions
 
 As HTTP is an application layer protocol, your actions on different web sites will talk to the server in this way. Navigating to your friend's profile page is equivalent to a `GET` action, sharing a song is done via a `POST` request, editing a comment represents a `PUT` request, while deleting an old, embarrassing photo sends a `DELETE` request.
 
 ---
+
 ## Practice
 
 Which of the following **HTTP verbs** should be used only for debugging purposes?
 
 ???
 
-
-* `TRACE`
-* `OPTIONS`
-* `GET`
-* `DELETE`
-* `PUT`
+- `TRACE`
+- `OPTIONS`
+- `GET`
+- `DELETE`
+- `PUT`
 
 ---
+
 ## Revision
 
 Which HTTP verb should be used, by definition, to update an existing resource on the server?
 
 ???
 
-
-* `PUT`
-* `HEAD`
-* `UPDATE`
-* `GET`
+- `PUT`
+- `HEAD`
+- `UPDATE`
+- `GET`
 
 ---
+
 ## Footnotes
+
 [1:POST]
 Usually the payload of the POST request contains or indicates the data of the new resource.
 [2:PUT]

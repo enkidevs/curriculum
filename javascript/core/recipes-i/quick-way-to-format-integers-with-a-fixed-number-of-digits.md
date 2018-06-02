@@ -31,13 +31,12 @@ tags:
 links:
 
   - '[stackoverflow](http://stackoverflow.com/questions/8043026){discussion}'
-
-
 ---
 
 # Quick way to format integers with a fixed number of digits.
 
 ---
+
 ## Content
 
 If we are required to format a number with a particular amount of digits, for example:
@@ -49,18 +48,21 @@ If we are required to format a number with a particular amount of digits, for ex
 0345
 1483
 ```
+
 We can use `slice()` to achieve the desired result.
 
-```
+```javascript
 var digits = 4;
-var prefix = "0000";
+var prefix = '0000';
 var myNum = 16;
-(prefix+myNum).slice(-digits);
+(prefix + myNum).slice(-digits);
 // "0016"
 ```
-Pay attention though, as `slice()` will throw an error if called by a *number*, not a *string*.
+
+Pay attention though, as `slice()` will throw an error if called by a _number_, not a _string_.
 
 ---
+
 ## Practice
 
 `console.log(("0044742323412").slice(-3));`  
@@ -69,21 +71,19 @@ Outputs ??? , while
 
 outputs ??? .
 
-
-* 412
-* throws an error
-* 10000
-* 004
+- 412
+- throws an error
+- 10000
+- 004
 
 ---
+
 ## Revision
 
-`console.log(("123").slice(-4));` 
+`console.log(("123").slice(-4));`
 
- outputs ???
+outputs ???
 
-
-* 123
-* 0123
-* 0001
-
+- 123
+- 0123
+- 0001

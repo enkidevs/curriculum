@@ -17,11 +17,12 @@ tags:
 
 links:
   - '[docs.npmjs.com](https://docs.npmjs.com/getting-started/what-is-npm){website}'
-
 ---
+
 # What is npm?
 
 ---
+
 ## Content
 
 **Npm**, or **node package manager**, is a piece of software that facilitates the process of code sharing. Code can be made available as a package and downloaded using npm for use in a project.
@@ -30,31 +31,32 @@ The principle behind packages is a simple, yet effective one: solving problems a
 
 However, as the developers' expertise level may differ, some applications will be prone to errors others won't struggle with. These bits of working, reusable code are grouped into packages (or modules), to which others have free access.
 
-A *package* is a directory containing the actual code that can be split into multiple files. **package.json** is one of the important files in the directory; it contains metadata about the package as well as specifying any dependencies on other packages. Yes, packages can rely on other packages as well.
+A _package_ is a directory containing the actual code that can be split into multiple files. **package.json** is one of the important files in the directory; it contains metadata about the package as well as specifying any dependencies on other packages. Yes, packages can rely on other packages as well.
 
-A large application can be built on tens or hundreds of these small packages. Think of them as building blocks that you can put together to obtain something nice. For example, *enki* relies on approximately 175 packages or modules.
+A large application can be built on tens or hundreds of these small packages. Think of them as building blocks that you can put together to obtain something nice. For example, _enki_ relies on approximately 175 packages or modules.
 
-You can find all the available packages on the npm website. *Npm*, as the name states, started off as the package manager for the *Node.js* environment, so most of the earlier packages are server-side oriented. Recently, due to its popularity, npm became the go-to package manager for *JavaScript* in general, be it front-end or back-end.
+You can find all the available packages on the npm website. _Npm_, as the name states, started off as the package manager for the _Node.js_ environment, so most of the earlier packages are server-side oriented. Recently, due to its popularity, npm became the go-to package manager for _JavaScript_ in general, be it front-end or back-end.
 
 ---
+
 ## Practice
 
 The aim of a package is to
 
 ???
 
-
-* solve specific problems efficiently
-* solve every problem in an application efficiently
-* encapsulate the application
+- solve specific problems efficiently
+- solve every problem in an application efficiently
+- encapsulate the application
 
 ---
+
 ## Revision
 
 `npm` stands for
 
 ???
 
-* node package manager
-* new package manager
-* node packet manager
+- node package manager
+- new package manager
+- node packet manager

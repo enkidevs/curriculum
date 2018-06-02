@@ -18,6 +18,7 @@ category: feature
 # Will this work on IE8?
 
 ---
+
 ## Content
 
 Will the falling bits of `HTML`, `JavaScript` and `CSS` work on world-famous, popular web browser Internet Explorer 8?
@@ -25,9 +26,11 @@ Will the falling bits of `HTML`, `JavaScript` and `CSS` work on world-famous, po
 Let's find out.
 
 ---
+
 ## Game Content
 
 no way...:it works!
+
 ```true
 position:fixed;
 %exp
@@ -139,5 +142,4 @@ resize: both;
 The `resize` property controls if and how an element can be resized by the user by clicking and dragging the bottom right corner of the element.
 This property isn't compatible with any version of IE.
 %
-
 ```

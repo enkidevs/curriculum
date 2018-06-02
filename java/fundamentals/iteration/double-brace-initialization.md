@@ -20,19 +20,19 @@ links:
 # Double Brace Initialization
 
 ---
+
 ## Content
 
 Instead of having to always initialize a set, list or map to contain elements by manually initializing a set and adding elements to it (for example to pass to a function), Java provides a way to do it all in one go. It's called Double Brace Initialization. For example the following code:
 
 ```java
-public Set<String> mySet = new 
+public Set<String> mySet = new
 HashSet<String>();
 mySet.add("one");
 mySet.add("two");
 mySet.add("three");
 
 someFunction(mySet);
-
 ```
 
 becomes:
@@ -46,47 +46,49 @@ someFunction(new HashSet<String>() {{
 ```
 
 ---
+
 ## Practice
 
 Complete the following code snippet using double brace initialization to create an anonymous class derived from the initial specified class:
+
 ```
 new ArrayList<String>() ???
       ???("Enki!");
 }};
 ```
 
-
-* `{{` 
-* `add` 
-* `((` 
-* `{(` 
-* `push`
+- `{{`
+- `add`
+- `((`
+- `{(`
+- `push`
 
 ---
+
 ## Revision
 
-Which of the following Java code snippets uses Double Brace Initialization properly to create a new HashSet? 
+Which of the following Java code snippets uses Double Brace Initialization properly to create a new HashSet?
 
 ```
 // Option A
 newSet(new HashSet<String>() {
   add("Enki");
   add("Revising!");
-}   
+}
 // Option B
 newSet(new HashSet<String>{} {{
   add("Enki"),
   add("Revising!")
-}}); 
+}});
 // Option C
 newSet(new HashSet<String>() {{
   add("Enki");
   add("Revising!");
 }});
 ```
+
 ???
 
-* Option C
-* Option A
-* Option B
-
+- Option C
+- Option A
+- Option B

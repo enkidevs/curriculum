@@ -15,9 +15,11 @@ links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){website}'
 
 ---
+
 # Template Literals
 
 ---
+
 ## Content
 
 A common task in any programming language is to concatenate and format strings.
@@ -25,15 +27,15 @@ A common task in any programming language is to concatenate and format strings.
 You have probably found yourself writing code similar to the following many times:
 
 ```javascript
-var greeting = "Hi " + name;
+var greeting = 'Hi ' + name;
 ```
 
 Template Literals provide a more succinct and readable form allowing us to specify values to be replaced within the string by surrounding it with curly braces and a dollar sign.
 
-Note how the string itself is also enclosed with the *backtick* characters instead of ' or ":
+Note how the string itself is also enclosed with the _backtick_ characters instead of ' or ":
 
 ```javascript
-var name = "Enki";
+var name = 'Enki';
 var greeting = `Hello ${name}`;
 // "Hello Enki"
 ```
@@ -41,7 +43,7 @@ var greeting = `Hello ${name}`;
 We can also use template literals to spread our declaration across multiple lines:
 
 ```javascript
-var name = "User";
+var name = 'User';
 var greeting = `Hello ${name}
 Line1
 Line2`;
@@ -56,8 +58,8 @@ Line2"
 We can even use expressions within the placeholders:
 
 ```javascript
-var x=1;
-var y=2;
+var x = 1;
+var y = 2;
 var test = `Hello ${x + y}`;
 //Hello 3
 ```
@@ -69,12 +71,12 @@ var greeting = `hello \``;
 ```
 
 ---
+
 ## Practice
 
 Complete the gaps such that the log is correct:
 
 ```javascript
-
 const dayName = 'Thursday'
 const dayNumber = '12';
 const year = '2018'
@@ -94,30 +96,31 @@ Thursday
 */
 ```
 
-* ${
-* dayName
-* }
-* ${dayNumber}
-* year
-* dayNumber
-* ${dayName}
-* ${year}
-* ${dayNumber
+- ${
+- dayName
+- }
+- ${dayNumber}
+- year
+- dayNumber
+- ${dayName}
+- ${year}
+- ${dayNumber
 
 ---
+
 ## Revision
 
 Fill in the template literal syntax:
 
 ```javascript
-var name = 'Enki'
-console.log(`Hello from ???`)
+var name = 'Enki';
+console.log(`Hello from ???`);
 ```
 
-* ${name}
-* {name}
-* $name
-* &{name}
-* %{name}
-* %name
-* &name
+- ${name}
+- {name}
+- $name
+- &{name}
+- %{name}
+- %name
+- &name

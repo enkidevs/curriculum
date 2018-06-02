@@ -24,35 +24,50 @@ links:
 # Network Information API
 
 ---
+
 ## Content
 
-The *Network Information API* provides information about the system's connection. It's used to choose either high definition or low definition content for a user, dependent on their connection. 
+The _Network Information API_ provides information about the system's connection. It's used to choose either high definition or low definition content for a user, dependent on their connection.
 
-The API has a *`NetworkInformation`* interface and a single property to the Navigator interface: *`Navigator.connection`*.
+The API has a _`NetworkInformation`_ interface and a single property to the Navigator interface: _`Navigator.connection`_.
 
 This example watches for changes to the user's connection.
 
 Declaring the connection and type.
+
 ```javascript
-var connection = navigator.connection || 
-              navigator.mozConnection || 
-              navigator.webkitConnection;
+var connection =
+  navigator.connection ||
+  navigator.mozConnection ||
+  navigator.webkitConnection;
 var type = connection.type;
 ```
+
 Listener for a change to the user's connection.
+
 ```javascript
-connection.addEventListener('typechange', 
-           updateConnectionStatus);
+connection.addEventListener(
+  'typechange',
+  updateConnectionStatus
+);
 ```
+
 Function to output for any change to the user's connection if called by the listener.
+
 ```javascript
 function updateConnectionStatus() {
-  console.log("Connection type is change \
-  from " + type + " to " + connection.type);
+  console.log(
+    'Connection type is change \
+  from ' +
+      type +
+      ' to ' +
+      connection.type
+  );
 }
 ```
 
 ---
+
 ## Practice
 
 Declare the connection and type:
@@ -64,29 +79,30 @@ var connection = ???.connection ||
 var type = connection.type;
 ```
 
-
-* `navigator`
-* `mozConnection`
-* `webkitConnection`
-* `connection`
-* `apiConnection`
-* `statusConnection`
-* `eventConnection`
+- `navigator`
+- `mozConnection`
+- `webkitConnection`
+- `connection`
+- `apiConnection`
+- `statusConnection`
+- `eventConnection`
 
 ---
+
 ## Revision
 
 Listen for a change in the user connection:
+
 ```javascript
 // assume connection is initialised
-connection.addEventListener('???',
-  handlingFunction);
+connection.addEventListener(
+  '???',
+  handlingFunction
+);
 ```
 
-
-* `typechange`
-* `type`
-* `change`
-* `update`
-* `statusChange`
-
+- `typechange`
+- `type`
+- `change`
+- `update`
+- `statusChange`

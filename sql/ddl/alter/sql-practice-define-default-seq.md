@@ -33,15 +33,16 @@ links:
 # SQL Practice Aggregate Average
 
 ---
+
 ## Exercise
 
 Our database has no default values in it! If someone messes up a query, things could get weird...
 Fix all of the errors by creating defaults.
 
 In order to do this properly, you will need to satisfy the following conditions:
-- *ID fields should autoincrement*
-- *The `email_verified` and `accepted` fields should default to `false`*
-- *The `daily_price` field should default to `0`*
+
+- _ID fields should autoincrement_
+- _The `email_verified` and `accepted` fields should default to `false`_
+- _The `daily_price` field should default to `0`_
 
 After that is done, the seed script should run properly.
- 

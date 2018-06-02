@@ -22,12 +22,12 @@ links:
   - '[facebook.github.io](https://facebook.github.io/react/docs/react-component.html#the-component-lifecycle){website}'
 
 parent: functional-components
-
 ---
 
 # The **component** lifecycle
 
 ---
+
 ## Content
 
 **Lifecycle methods** are special methods that can be overridden by a **React** `component` to run code at a particular point in time.
@@ -37,6 +37,7 @@ These methods correspond to exact points in the **component's lifecycle**.
 A **lifecycle hook** is the `constructor(props)` which is commonly used to set the initial `state` of your component, but not only.
 
 Suppose you want to `log` a message when a component **will** be mounted[1] (before being `render`ed). For this, you can use the `componentWillMount` method:
+
 ```jsx
 class Spawn extends React.Component {
   componentWillMount() {
@@ -51,6 +52,7 @@ class Spawn extends React.Component {
 This `component` can be dynamically **mounted** multiple times in an application, when this happens we'll see the `log` in console.
 
 If you also want to mark the **un-mounting**, you can use the `componentWillUnmount()`:
+
 ```jsx
 // ...
   componentWillUnmount() {
@@ -64,33 +66,35 @@ By convention, methods starting with `will` are run **before** an event happens 
 Making use of **lifecycle methods** grants you improved control over the `component`, letting you perform optimisations, free up resources, integrate third-party libraries or even handle `props` and `state` better.
 
 ---
+
 ## Practice
 
 What **lifecycle method** is used to target the point in time **before** `render`ing?
 
 ???
 
-
-* `componentWillMount`
-* `componentDidMount`
-* `componentWillUnmount`
-* `render`
+- `componentWillMount`
+- `componentDidMount`
+- `componentWillUnmount`
+- `render`
 
 ---
+
 ## Revision
 
 Is `React.Component`'s `constructor(props)` method considered a **lifecycle hook**?
 
 ???
 
-
-* yes
-* no
-* only when setting `state`
-* if only accompanied by other **lifecycle methods**
+- yes
+- no
+- only when setting `state`
+- if only accompanied by other **lifecycle methods**
 
 ---
+
 ## Footnotes
+
 [1:mounting]
 
 **Mounting** refers to the initial insertion of a **React** `component` into the **DOM**.

@@ -19,9 +19,11 @@ links:
 parent: easy-way-to-deliver-html-pages-with-express
 
 ---
+
 # Log with `morgan` in **Express**
 
 ---
+
 ## Content
 
 To use the new **HTTP** logger (called `morgan`) from **Express 4.0** you need to install:
@@ -53,14 +55,16 @@ To only log error responses:
 
 ```javascript
 morgan('combined', {
-  skip: function (req, res) {
-    return res.statusCode < 400 }
+  skip: function(req, res) {
+    return res.statusCode < 400;
+  }
 });
 ```
 
 Custom `token`s can be also defined using `morgan.token` function.
 
 ---
+
 ## Practice
 
 Which are the two parameters allowed in the `morgan` constructor?
@@ -72,15 +76,16 @@ const morgan = require('morgan')
 app.use(morgan(???, ???))
 ```
 
-* format
-* options
-* name
-* string
-* etc
-* expressVersion
-* version
+- format
+- options
+- name
+- string
+- etc
+- expressVersion
+- version
 
 ---
+
 ## Revision
 
 Use `morgan` logger in express with `tiny` format:
@@ -89,11 +94,11 @@ Use `morgan` logger in express with `tiny` format:
 app.???(???('tiny'));
 ```
 
-* use
-* morgan
-* skip
-* immediate
-* express
-* install
-* make
-* logger
+- use
+- morgan
+- skip
+- immediate
+- express
+- install
+- make
+- logger

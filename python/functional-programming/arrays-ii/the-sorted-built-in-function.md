@@ -28,6 +28,7 @@ links:
 # The `sorted` Built-in Function
 
 ---
+
 ## Content
 
 `sorted` is Python's built-in function for creating a new sorted list from an iterable object. It is distinct from the `sort` built-in function in that `sort` modifies a list 'in-place', i.e. without creating a new list. The `sorted` function takes the general form:
@@ -37,9 +38,10 @@ sorted(iterable [, key] [, reverse])
 ```
 
 Where:
- - `iterable` is the iterable object to be sorted. This argument in mandatory.
- - `key` is the function which serves as the comparison the sort will be based on. The default is `None`, so the input is directly compared. This argument is *optional*.
- - `reverse` is a boolean which, if True, reverses the result of the sort. This argument is *optional*.
+
+- `iterable` is the iterable object to be sorted. This argument in mandatory.
+- `key` is the function which serves as the comparison the sort will be based on. The default is `None`, so the input is directly compared. This argument is _optional_.
+- `reverse` is a boolean which, if True, reverses the result of the sort. This argument is _optional_.
 
 The simplest use of sorted is in the ordering of numbers. Consider the code below:
 
@@ -65,7 +67,7 @@ this returns the reversed numerically-sorted list:
 [5, 4, 3, 2, 1]
 ```
 
-Behind the scenes, Python calls a derivative of merge-sort on the list (*Timsort*[1]), a recursive sorting algorithm which is efficient because it only requires the calling of the comparison function once per element in the input `iterable`. Being able to use the `sorted` function whenever we need to order a large data set is very useful since we don't need to worry about the efficiency of our algorithm when we use a readily-available, efficient and popular feature of the language.
+Behind the scenes, Python calls a derivative of merge-sort on the list (_Timsort_[1]), a recursive sorting algorithm which is efficient because it only requires the calling of the comparison function once per element in the input `iterable`. Being able to use the `sorted` function whenever we need to order a large data set is very useful since we don't need to worry about the efficiency of our algorithm when we use a readily-available, efficient and popular feature of the language.
 
 We can also use `sorted` on strings, where Python lexicographically orders individual characters by comparing the Unicode code point number.
 
@@ -105,13 +107,14 @@ print(sorted(list, key=getNum))
 #  (bob, 55), (sam, 60)]
 ```
 
-*N.B. The `__repr__` override is only there so that the `print` function outputs a reader-friendly result, as opposed to memory addresses of objects.*
+_N.B. The `__repr__` override is only there so that the `print` function outputs a reader-friendly result, as opposed to memory addresses of objects._
 
-*Finally, there are some caveats it's good to be familiar with.* Some comparison mechanisms have changed in the jump from Python 2 to Python 3[2]. Before Python 3, the sort function called during comparison is the built-in `__cmp__`. After Python 3, the documentation recommends that you pretend `__cmp__` does not exist, and the `__cmp__` special method is not supported.
+_Finally, there are some caveats it's good to be familiar with._ Some comparison mechanisms have changed in the jump from Python 2 to Python 3[2]. Before Python 3, the sort function called during comparison is the built-in `__cmp__`. After Python 3, the documentation recommends that you pretend `__cmp__` does not exist, and the `__cmp__` special method is not supported.
 
 This means if you try to use `sorted` on a list of custom class objects where you have overridden the `__cmp__` function and rely on this for your sort, you might encounter `TypeError`s. However, for most cases, including the examples above, there is no difference in version 2 or 3. The details are beyond the scope of this lesson, but see the Learn More section for extra material.
 
 ---
+
 ## Practice
 
 Let us try and sort a list of custom `Resident` objects to get an ordered list of residents for a block of apartments. Fill in the missing blocks of code to achieve an ordering based on the floor the resident lives on.
@@ -134,15 +137,15 @@ def getFloor(resident):
 print(sorted(???, ???))
 ```
 
-
-* `resident.floor`
-* `list`
-* `key=getFloor`
-* `resident`
-* `floor`
-* `True`
+- `resident.floor`
+- `list`
+- `key=getFloor`
+- `resident`
+- `floor`
+- `True`
 
 ---
+
 ## Revision
 
 What is the result of the execution of the following code snippet?
@@ -154,17 +157,18 @@ print(sorted([0, 2, 3, 1,
 
 ???
 
-
-* `[0, 1, 2, 3, 'A', 'B', 'a', 'b']`
-* `['A', 'B', 'a', 'b', 0, 1, 2, 3,]`
-* `[0, 1, 2, 3, 'a', 'b', 'A', 'B']`
+- `[0, 1, 2, 3, 'A', 'B', 'a', 'b']`
+- `['A', 'B', 'a', 'b', 0, 1, 2, 3,]`
+- `[0, 1, 2, 3, 'a', 'b', 'A', 'B']`
 
 ---
+
 ## Footnotes
+
 [1:Timsort]
-*Technically, the sort algorithm in Python since version 2.3 has been Timsort, named after creator Tim Peters. It is derived from a hybrid approach of merge sort and insertion sort. Timsort finds subsequences of the data that are already sorted and uses the information found there to sort the rest of the list more effectively. For more information, see the Wikipedia page in the Learn More section titled 'Timsort'.*
+_Technically, the sort algorithm in Python since version 2.3 has been Timsort, named after creator Tim Peters. It is derived from a hybrid approach of merge sort and insertion sort. Timsort finds subsequences of the data that are already sorted and uses the information found there to sort the rest of the list more effectively. For more information, see the Wikipedia page in the Learn More section titled 'Timsort'._
 
 [2:Python 3]
-*On December 3, 2008, Python moved from version 2 to version 3, which caused a lot of debate and discussion. This was because the aim of the update was to rectify certain fundamental design flaws in the original language; many of the changes made it impossible to maintain compatibility with version 2. From their documentation (PEP 3000): "A general goal is to reduce feature duplication by removing old ways of doing things".
+\*On December 3, 2008, Python moved from version 2 to version 3, which caused a lot of debate and discussion. This was because the aim of the update was to rectify certain fundamental design flaws in the original language; many of the changes made it impossible to maintain compatibility with version 2. From their documentation (PEP 3000): "A general goal is to reduce feature duplication by removing old ways of doing things".
 
-Today, Python 3 is widely recommended and used, and still very similar for most cases, except in some niche scenarios. See PEP 3000 in the Learn More section for further information.*
+Today, Python 3 is widely recommended and used, and still very similar for most cases, except in some niche scenarios. See PEP 3000 in the Learn More section for further information.\*

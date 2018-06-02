@@ -17,9 +17,11 @@ standards:
 # Mixing sets and frozensets
 
 ---
+
 ## Content
 
-To perform *in-place set operations*[1], you can stick the `_update` keyword to the end of the set-specific methods call:
+To perform _in-place set operations_[1], you can stick the `_update` keyword to the end of the set-specific methods call:
+
 ```python
 x = set('abc')
 y = set('cbd')
@@ -33,9 +35,11 @@ y.intersection_update(x)
 print(y)
 # {'a'}
 ```
-Notice that there's no `union_update()`, as the `update()` method already has the functionality of an in-place union. The above methods won't be available for *frozensets* since they are immutable.
+
+Notice that there's no `union_update()`, as the `update()` method already has the functionality of an in-place union. The above methods won't be available for _frozensets_ since they are immutable.
 
 Moreover, set operations performed through methods, not operators (`^`, `|` etc.), accept any iterable as argument:
+
 ```python
 x = set('abc')
 print(x.union('bd'))
@@ -48,9 +52,11 @@ print(x | 'bd')
 # TypeError: unsupported operand type(s)
 #  for |: 'set' and 'str'
 ```
-Unless you perform in-place operations, the same applies for *frozensets*.
+
+Unless you perform in-place operations, the same applies for _frozensets_.
 
 Also, binary operations that mix sets and frozensets will return the type of the first operand:
+
 ```python
 x = set('abc')
 y = frozenset('cbd')
@@ -67,9 +73,11 @@ fs.clear()
 ```
 
 ---
+
 ## Practice
 
 Which of the following operations would raise errors?
+
 ```python
 x = set('Kba')
 y = frozenset('bSs')
@@ -78,19 +86,21 @@ y | [1, 3] # 2
 y <= x # 3
 x.difference([1, 3]) # 4
 ```
+
 ???
 
-
-* 1, 2
-* all of them
-* 2, 3, 4
-* 2, 4
-* 1, 2, 3
+- 1, 2
+- all of them
+- 2, 3, 4
+- 2, 4
+- 1, 2, 3
 
 ---
+
 ## Revision
 
 What's the output of the following snippet?
+
 ```python
 a = {1, 2, 3}
 b = frozenset([3, 4])
@@ -99,14 +109,15 @@ print(c.pop())
 # ???
 ```
 
-* AttributeError: is immutable
-* 4
-* either 1 or 2
-* 3
-* TypeError: c has no elements
+- AttributeError: is immutable
+- 4
+- either 1 or 2
+- 3
+- TypeError: c has no elements
 
 ---
+
 ## Footnotes
+
 [1: In-place operations]
-Instead of returning a new set containing the result with both operands remaining the same, *in-place operations* assign to the left hand operand the value of the result.
- 
+Instead of returning a new set containing the result with both operands remaining the same, _in-place operations_ assign to the left hand operand the value of the result.

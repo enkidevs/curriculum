@@ -17,9 +17,11 @@ links:
   - '[MDN - Static](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static){website}'
 
 ---
+
 # Extends, Super and Static
 
 ---
+
 ## Content
 
 The **extends** keyword allows you to inherit from another class and the **super** keyword allows us to access functionality on the parent.
@@ -50,9 +52,9 @@ The static keyword creates a method on the class type itself and is often used f
 ```javascript
 class UtilityMethods {
   static log() {
-    console.log("hello enki");
+    console.log('hello enki');
   }
-};
+}
 
 UtilityMethods.log();
 ```
@@ -65,6 +67,7 @@ a.log(); //error
 ```
 
 ---
+
 ## Practice
 
 Given the class:
@@ -75,7 +78,7 @@ class Utils {
     return new Error({
       statusCode: 404,
       message: 'not found'
-    })
+    });
   }
 }
 ```
@@ -83,20 +86,21 @@ class Utils {
 Which of the following method calls do you think is correct?
 
 ```javascript
-throw Utils.NotFound404() //1
-throw (new Utils()).NotFound404() // 2
-throw new Utils().NotFound404() // 3
-throw Utils().NotFound404() // 4
+throw Utils.NotFound404(); //1
+throw new Utils().NotFound404(); // 2
+throw new Utils().NotFound404(); // 3
+throw Utils().NotFound404(); // 4
 ```
 
 ???
 
-* 1
-* 2
-* 3
-* 4
+- 1
+- 2
+- 3
+- 4
 
 ---
+
 ## Revision
 
 Consider the following ES6 class:
@@ -104,7 +108,7 @@ Consider the following ES6 class:
 ```javascript
 class Animal {
   constructor(name) {
-    this.name = name
+    this.name = name;
   }
 }
 ```
@@ -123,19 +127,19 @@ Fill in the next snippet such that the `Dog` class is a child of the `Animal` cl
 }
 ```
 
-* class
-* Dog
-* extends
-* Animal
-* constructor
-* super
-* static
-* bark()
-* barks
-* bark(name)
-* bark:
-* extend
-* Bark
-* super()
-* parent
-* childOf
+- class
+- Dog
+- extends
+- Animal
+- constructor
+- super
+- static
+- bark()
+- barks
+- bark(name)
+- bark:
+- extend
+- Bark
+- super()
+- parent
+- childOf

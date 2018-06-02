@@ -26,6 +26,7 @@ links:
 # Defining Functions
 
 ---
+
 ## Content
 
 Functions allow you to split up your code into relevant blocks, they allow code to be ordered and to be more readable.
@@ -46,6 +47,7 @@ def new_function():
 ```
 
 ---
+
 ## Practice
 
 Which of the following syntaxes is correct for defining Python functions:
@@ -65,22 +67,21 @@ def function 3(
 def function 4()
     # function code…
 ```
+
 ???
 
-
-* `Function 1`
-* `Function 2`
-* `Function 3`
-* `Function 4`
+- `Function 1`
+- `Function 2`
+- `Function 3`
+- `Function 4`
 
 ---
+
 ## Revision
 
 What keyword is used to define a new function?
 ???
 
-
-* `def`
-* `new`
-* `func`
- 
+- `def`
+- `new`
+- `func`

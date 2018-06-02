@@ -26,6 +26,7 @@ links:
 # JS Practice Array `map`
 
 ---
+
 ## Exercise
 
 Practice using the JavaScript Array method `map()`

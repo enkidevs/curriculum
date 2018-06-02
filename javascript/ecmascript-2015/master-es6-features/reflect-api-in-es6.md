@@ -21,6 +21,7 @@ links:
 # Reflect API in ES6
 
 ---
+
 ## Content
 
 ES6 has a global object called `Reflect` that has methods to implement all interceptable operations of the JavaScript **meta object** protocol.
@@ -32,6 +33,7 @@ Reflect can also be useful for:
 **Indicating success**
 
 Some Reflect methods return booleans indicating whether the operation succeeded.
+
 ```
 Reflect.defineProperty
   (target, propertyKey, propDesc)
@@ -42,6 +44,7 @@ Reflect.defineProperty
 **Implementing operator functionality**
 
 Some Reflect methods implement functionality that is otherwise only available via operators:
+
 ```
 Reflect.get
     (target, propertyKey, receiver?)
@@ -50,6 +53,7 @@ Reflect.get
 **Shorten apply**
 
 Produce a cleaner and shorter version of `.apply`.
+
 ```
 Function.prototype.apply.call
     (func, thisArg, args) // ES5
@@ -57,6 +61,7 @@ Reflect.apply(func, thisArg, args) // ES6
 ```
 
 ---
+
 ## Practice
 
 Complete the missing code bits to implement functionality that is otherwise only available via operators:
@@ -65,28 +70,27 @@ Complete the missing code bits to implement functionality that is otherwise only
 Reflect.???(target, propertyKey, ???)
 ```
 
-
-* `get`
-* `receiver?`
-* `Reflect`
-* `initProp`
-* `propDesc`
-* `defineProperty`
-* `flag`
+- `get`
+- `receiver?`
+- `Reflect`
+- `initProp`
+- `propDesc`
+- `defineProperty`
+- `flag`
 
 ---
+
 ## Revision
 
 Complete the missing code bits as to indicate success of an operation using ES6's `Reflect` object:
+
 ```
 Reflect.???(???,  
   propertyKey, propDesc);
 ```
 
-
-* `defineProperty`
-* `target`
-* `Reflect`
-* `bool`
-* `initProp`
-
+- `defineProperty`
+- `target`
+- `Reflect`
+- `bool`
+- `initProp`

@@ -33,13 +33,15 @@ links:
 # Update clause
 
 ---
+
 ## Content
 
 The `UPDATE` clause enables user to modify existing rows in the database. It is often used with the `WHERE` clause to conditionally update data.
 
 Consider the `egg_group` table:
+
 ```
-id |     name      
+id |     name
 ===+===============
  1 | monster
  2 | water1
@@ -60,14 +62,17 @@ id |     name
 ```
 
 If we want to change the value "ditto" to "rabbit", we use `SET`:
+
 ```sql
 UPDATE egg_group
 SET name = 'rabbit'
 WHERE ID= 13;
 ```
-*Result:*
+
+_Result:_
+
 ```
-id |     name      
+id |     name
 ===+===============
  1 | monster
  2 | water1
@@ -88,13 +93,16 @@ id |     name
 ```
 
 Note that if the `WHERE` clause isn't used all the values in the specified column will be updated:
+
 ```sql
 UPDATE egg_group
 SET name = 'rabbit';
 ```
-*Result:*
+
+_Result:_
+
 ```
-id |     name      
+id |     name
 ===+===============
  1 | rabbit
  2 | rabbit
@@ -115,11 +123,13 @@ id |     name
 ```
 
 ---
+
 ## Practice
 
 Consider the `generation` table:
+
 ```
-id | region_id |      name      
+id | region_id |      name
 ===+===========+===============
  1 |         1 | generation-i
  2 |         2 | generation-ii
@@ -138,23 +148,25 @@ WHERE id=???;
 
 We would like to update the table contents such that the last generation is generation "vi" instead of "vii".
 
-* UPDATE
-* name
-* 6
-* 'generation-vi'
-* CHANGE
-* WHERE
-* SET
-* NEW
-* region_id
+- UPDATE
+- name
+- 6
+- 'generation-vi'
+- CHANGE
+- WHERE
+- SET
+- NEW
+- region_id
 
 ---
+
 ## Revision
 
 Consider the following table:
+
 ```
 --gender
-id |    name    
+id |    name
 ===+============
  1 | female
  2 | male
@@ -166,12 +178,12 @@ id |    name
 ??? gender
 ??? name = '???'
 ```
+
 We want to update the table such that all genders will be neutral.
 
-* UPDATE
-* SET
-* neutral
-* WHERE
-* DELETE
-* CHANGE
- 
+- UPDATE
+- SET
+- neutral
+- WHERE
+- DELETE
+- CHANGE

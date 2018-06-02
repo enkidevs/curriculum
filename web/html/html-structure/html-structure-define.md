@@ -17,13 +17,17 @@ aspects:
   - introduction
 
 ---
+
 # HTML Structure Defined
+
 ---
+
 ## Content
 
 When writing in HTML there is a certain structure you must follow.
 
 The structure of HTML elements is:
+
 ```
 (Element's opening tag)
 (Attribute)"(attributes value)"(content)
@@ -31,6 +35,7 @@ The structure of HTML elements is:
 ```
 
 Example:
+
 ```
 <a
   href="http://enkipro.com/">Enki
@@ -38,6 +43,7 @@ Example:
 ```
 
 ---
+
 ## Practice
 
 Identify the terms defining this HTML code:
@@ -54,15 +60,15 @@ B: ???
 C: ???
 D: ???
 
- * element
- * attribute
- * attribute's value
- * content
- * value
- * rule
-
+- element
+- attribute
+- attribute's value
+- content
+- value
+- rule
 
 ---
+
 ## Revision
 
 Match the terms defining this HTML code:
@@ -81,16 +87,17 @@ D: ???
 E: ???
 F: ???
 
- * opening tag
- * element
- * attribute
- * attribute's value
- * content
- * closing tag
- * value
- * rule
+- opening tag
+- element
+- attribute
+- attribute's value
+- content
+- closing tag
+- value
+- rule
 
 ---
+
 ## Quiz
 
 ### Do you know how HTML elements are structured?
@@ -99,7 +106,7 @@ Which of these HTML elements is structured properly?
 
 ???
 
- * `<a href="http://enkipro.com/">Enki</a>`
- * `<a></a> href="http://enkipro.com/">Enki`
- * `<a>Enki</a> href="http://enkipro.com/">`
- * `<href a="http://enkipro.com/">Enki</href>`
+- `<a href="http://enkipro.com/">Enki</a>`
+- `<a></a> href="http://enkipro.com/">Enki`
+- `<a>Enki</a> href="http://enkipro.com/">`
+- `<href a="http://enkipro.com/">Enki</href>`

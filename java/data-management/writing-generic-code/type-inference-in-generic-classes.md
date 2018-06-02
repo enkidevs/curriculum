@@ -32,17 +32,21 @@ links:
 # Type inference in generic classes
 
 ---
+
 ## Content
 
 Using generic classes in Java can sometimes result in verbose syntax, for example:
+
 ```
-Map<Integer, List<String>> hashMap = 
+Map<Integer, List<String>> hashMap =
   new HashMap<Integer, List<String>>();
 ```
+
 In Java 7+, we can simplify this by using the compiler's ability to infer the type arguments from context. This allows us to avoid specifying the same type arguments multiple times. The previous example now becomes:
+
 ```
 Map<Integer, List<String>> hashMap =
   new HashMap<>();
 ```
-We now only have to state the type arguments once. The compiler will be able to infer from this assignment statement that the type of the `new HashMap<>()` should be `<Integer, List<String>>`.
 
+We now only have to state the type arguments once. The compiler will be able to infer from this assignment statement that the type of the `new HashMap<>()` should be `<Integer, List<String>>`.

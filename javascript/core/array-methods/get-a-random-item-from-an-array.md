@@ -20,41 +20,45 @@ standards:
 
 
 notes: ''
-
 ---
 
 # Get a random item from an Array
 
 ---
+
 ## Content
 
 Given the array:
 
-```
-var food = ["Sushi", "Pizza", "Tacos"];
+```javascript
+var food = ['Sushi', 'Pizza', 'Tacos'];
 ```
 
 Select an item using `Math.random()` with a range of `food.length`.
-```
-var randIndex =
-  Math.floor(Math.random() * food.length);
+
+```javascript
+var randIndex = Math.floor(
+  Math.random() * food.length
+);
 ```
 
 Now, print out the result.
-```
+
+```javascript
 console.log("Let's get " + food[randIndex]);
 ```
 
 ---
+
 ## Practice
 
 If you have an array:
-```
-var fruits =[oranges, apples, banana];
 
+```javascript
+var fruits = [oranges, apples, banana];
 
-How would you select a fruit at random
-from the array fruits?
+// How would you select a fruit at random
+// from the array fruits?
 
 var index =
 Math.???(Math.random()*
@@ -64,20 +68,21 @@ console.log("the random fruit is"
   +fruits[index]);
 ```
 
-* floor
-* ceil
-* wall
+- floor
+- ceil
+- wall
 
 ---
+
 ## Revision
 
 If you have an array:
-```
-var fruits =[oranges, apples, banana];
 
+```javascript
+var fruits = [oranges, apples, banana];
 
-How would you select a fruit at random
-from the array fruits?
+// How would you select a fruit at random
+// from the array fruits?
 
 var index =
 Math.???(Math.random()*
@@ -87,7 +92,6 @@ console.log("the random fruit is"
   +fruits[index]);
 ```
 
-
-* floor
-* ceil
-* wall
+- floor
+- ceil
+- wall

@@ -32,10 +32,10 @@ links:
 
 # Aggregate Single Table
 
----        
+---
+
 ## Exercise
 
 In SQLFiddle, write a SQL query that answers the following question:
 
 What is the sum of `base_experience` for all Pokemon with `height` greater than or equal to 15 units?
- 

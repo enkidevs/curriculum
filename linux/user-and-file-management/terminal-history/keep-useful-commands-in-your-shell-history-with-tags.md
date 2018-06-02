@@ -34,9 +34,11 @@ links:
 # Keep useful commands in your shell history with tags
 
 ---
+
 ## Content
 
 Tag commands for future reference:
+
 ```
 $ some_command -some_flag
        some_path # useful
@@ -45,21 +47,20 @@ $ some_command -some_flag
 Then it is possible to search your bash history using `Ctrl+R`:
 
 ```text
-(reverse-i-search)`#useful': 
-  some_command -some_flag some_path #useful 
+(reverse-i-search)`#useful':
+  some_command -some_flag some_path #useful
 ```
 
-Because `# useful` is just a comment in bash you are not limited to this word. Therefore, creative use of tags can save you time. 
+Because `# useful` is just a comment in bash you are not limited to this word. Therefore, creative use of tags can save you time.
 
-Command history is saved in *~/.bash_history* file, which is emptied after a history limit is reached. In order to preserve the tag collection, a backup of the file is needed.
+Command history is saved in _~/.bash_history_ file, which is emptied after a history limit is reached. In order to preserve the tag collection, a backup of the file is needed.
 
 ---
+
 ## Revision
 
 To reverse search for a tagged command you have to press ???.
 
-
-* ctrl+r
-* ctrl+h
-* ctrl+c
-
+- ctrl+r
+- ctrl+h
+- ctrl+c

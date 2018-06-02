@@ -16,9 +16,11 @@ links:
   - '[ponyfoo.com](https://ponyfoo.com/articles/es6-iterators-in-depth){website}'
 
 ---
+
 # Introducing Iterators
 
 ---
+
 ## Content
 
 An iterator is a special type of object that returns items from a sequence one at a time and remembers its position within the sequence.
@@ -26,25 +28,25 @@ An iterator is a special type of object that returns items from a sequence one a
 A sequence can be anything but for simplicity let's imagine we have an array of numbers from 1 to 5:
 
 ```javascript
-[1,2,3,4,5];
+[1, 2, 3, 4, 5];
 ```
 
 Whilst we could easily write a loop to iterate through these numbers let's write a function to return an iterator to do this.
 
 ```javascript
-function getIterator(){
- var num = [1,2,3,4,5];
- var nextIndex = 0;
+function getIterator() {
+  var num = [1, 2, 3, 4, 5];
+  var nextIndex = 0;
 
- return {
-  next: function(){
-   var x = num[nextIndex];
-   nextIndex++;
-   return {
-    value: x
-   }
-  }
- };
+  return {
+    next: function() {
+      var x = num[nextIndex];
+      nextIndex++;
+      return {
+        value: x
+      };
+    }
+  };
 }
 ```
 
@@ -66,26 +68,28 @@ it.next(); //Object {value: 5}
 ```
 
 ---
+
 ## Practice
 
 Which of the following statements is false about iterators?
 
 ???
 
-* Iterators work only on arrays
-* Iterators are special objects that go over a collection
-* Iterators can be manually implemented
-* Iterators remember the position while iterating
+- Iterators work only on arrays
+- Iterators are special objects that go over a collection
+- Iterators can be manually implemented
+- Iterators remember the position while iterating
 
 ---
+
 ## Revision
 
 What method do iterators canonically make use of to advance the iteration?
 
 ???
 
-* iterator.next()
-* iterator.pop()
-* iterator.get()
-* iterator.advance()
-* iterator.step()
+- iterator.next()
+- iterator.pop()
+- iterator.get()
+- iterator.advance()
+- iterator.step()

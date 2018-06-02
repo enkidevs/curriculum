@@ -20,17 +20,17 @@ links:
 # How to Avoid a Deadlock
 
 ---
+
 ## Content
 
 There are 4 necessary and sufficient conditions for a **deadlock** to occur:
 
- - Mutual Exclusion: only one process at a time can use the resource.
- - Hold and Wait: process that is holding a resource can acquire further resources.
- - No Preemption: resources are only freed after a process has finished executing.
- - Circular Wait: there are at least two processes each waiting for each others resources.
+- Mutual Exclusion: only one process at a time can use the resource.
+- Hold and Wait: process that is holding a resource can acquire further resources.
+- No Preemption: resources are only freed after a process has finished executing.
+- Circular Wait: there are at least two processes each waiting for each others resources.
 
-
-The four main strategies on how to tackle *deadlocks* are:
+The four main strategies on how to tackle _deadlocks_ are:
 
 - "Ostrich Algorithm" i.e. do nothing and hope that deadlocks never occur and if they happen kill processes one by one or reboot the system.
 - Deadlock Detection and Recovery i.e. after system happened to be deadlocked we detect it and fix the issue.
@@ -40,28 +40,27 @@ The four main strategies on how to tackle *deadlocks* are:
 The latter three will be discussed in detail in the next insights.
 
 ---
+
 ## Practice
 
 What condition is not necessary for a deadlock to occur?
 
 ???
 
-
-* none of the options listed
-* only one process at a time can use the resource
-* process that is holding a resource can acquire further resources
-* resources are only freed after a process has finished executing
-* at least two processes each waiting for each others resources
+- none of the options listed
+- only one process at a time can use the resource
+- process that is holding a resource can acquire further resources
+- resources are only freed after a process has finished executing
+- at least two processes each waiting for each others resources
 
 ---
+
 ## Revision
 
 What is "Ostrich Algorithm"?
 
 ???
 
-
-* Ignoring deadlock problem
-* Solving a deadlock by running a an ostrich class
-* Running an ostrich thread in a process-resource cycle
-
+- Ignoring deadlock problem
+- Solving a deadlock by running a an ostrich class
+- Running an ostrich thread in a process-resource cycle

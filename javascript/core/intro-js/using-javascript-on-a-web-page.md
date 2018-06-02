@@ -15,14 +15,15 @@ standards:
 
 tags:
   - introduction
-
 ---
+
 # Using JavaScript on a web page
 
 ---
+
 ## Content
 
-JavaScript is an interpreted language and needs a *host environment* such as a web browser to run (or in Node’s case, Google’s *v8 engine*).
+JavaScript is an interpreted language and needs a _host environment_ such as a web browser to run (or in Node’s case, Google’s _v8 engine_).
 
 There are a number of ways to use JavaScript on a web page.
 
@@ -48,10 +49,10 @@ Whilst these are valid approaches, both of them lead to HTML which is hard to ma
 
 It is generally better to put our JavaScript code in another file.
 
-We can put our code in a file called *hello.js* (note we remove the script tags when we put JavaScript in another file):
+We can put our code in a file called _hello.js_ (note we remove the script tags when we put JavaScript in another file):
 
 ```javascript
-console.log("hello");
+console.log('hello');
 ```
 
 This script can then be referenced with the src attribute of the script tag:
@@ -69,6 +70,7 @@ We can even reference scripts hosted on another server – it's common to do thi
 ```
 
 ---
+
 ## Practice
 
 Complete the missing gaps in the following HTML snippet such that JavaScript code contained by an `enki.js` file will be ran via a script tag:
@@ -77,15 +79,16 @@ Complete the missing gaps in the following HTML snippet such that JavaScript cod
 ??? ???="???" ???
 ```
 
-* `<script`
-* src
-* enki.js
-* />
-* `<script />`
-* `</script>`
-* `<script>`
+- `<script`
+- src
+- enki.js
+- />
+- `<script />`
+- `</script>`
+- `<script>`
 
 ---
+
 ## Revision
 
 Complete the missing HTML tags to make the JavaScript code run directly on the web page.
@@ -96,9 +99,9 @@ console.log("enki");
 ???
 ```
 
-* `<script>`
-* `</script>`
-* `<script/>`
-* />
-* `<script`
-* src=
+- `<script>`
+- `</script>`
+- `<script/>`
+- />
+- `<script`
+- src=

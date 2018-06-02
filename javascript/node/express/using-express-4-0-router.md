@@ -20,15 +20,16 @@ links:
 parent: easy-way-to-deliver-html-pages-with-express
 
 ---
+
 # Using **Express 4.0** `router`
 
 ---
+
 ## Content
 
 The router in **Express** acts like a mini express application that doesn't bring in views, settings and so on, yet provides us with routing APIs.
 
-
- **Express 4.0** introduces a new `Router` whose API looks like this:
+**Express 4.0** introduces a new `Router` whose API looks like this:
 
 Creating a simple route:
 
@@ -37,32 +38,36 @@ app.get('/simple', function(req, res) {
   res.send('Simple route accessed!');
 });
 ```
+
 Creating multiple routes:
+
 ```javascript
 var router = express.Router();
 router.get('/', function(req, res) {
-    res.send('first page');  
+  res.send('first page');
 });
 router.get('/enki', function(req, res) {
-    res.send('enki page');
+  res.send('enki page');
 });
-
 ```
+
 Applying the routes:
+
 ```javascript
 app.use('/', router);
 ```
 
 `router.use()` is used to define middleware:
+
 ```javascript
-router.use(function(req,res,next) {
+router.use(function(req, res, next) {
   console.log(req.method, req.url);
   next();
 });
-
 ```
 
 ---
+
 ## Practice
 
 Complete the below code snippet:
@@ -74,27 +79,30 @@ Complete the below code snippet:
     ???;
 });
 ```
-* router
-* next
-* next()
-* callback()
-* done()`
-* env
-* app
+
+- router
+- next
+- next()
+- callback()
+- done()`
+- env
+- app
 
 ---
+
 ## Revision
 
 Create `simple` route:
+
 ```javascript
 app.???('/simple', function(req, res) {
   ???.???('Simple route accessed!');
 ```
 
-* get
-* res
-* send
-* use
-* req
-* app
-* router
+- get
+- res
+- send
+- use
+- req
+- app
+- router

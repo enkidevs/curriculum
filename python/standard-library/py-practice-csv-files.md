@@ -28,6 +28,7 @@ links:
 # Manage CSV files
 
 ---
+
 ## Exercise
 
 Manage `csv` files in python.

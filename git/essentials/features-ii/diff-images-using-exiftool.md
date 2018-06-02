@@ -20,22 +20,28 @@ links:
 
 ---
 
-# Diff images using *ExifTool*
+# Diff images using _ExifTool_
 
 ---
+
 ## Content
 
-*ExifTool* can extract the metadata (EXIF) from image files and convert it into text.
+_ExifTool_ can extract the metadata (EXIF) from image files and convert it into text.
 
 Add this to your `.gitattributes` file:
+
 ```
 *.png diff=exif
 ```
+
 Configure git to use `exif`:
+
 ```
 $ git config diff.exif.textconv exiftool
 ```
+
 If you run `git diff` you will see changes in the metadata between the images, for example in their file sizes:
+
 ```
 -File Size                     : 40 kB
 +File Size                     : 50 kB
@@ -44,23 +50,23 @@ If you run `git diff` you will see changes in the metadata between the images, f
 Note that `exiftool` may not be present on your machine. You can install it with your system package manager.
 
 ---
+
 ## Practice
 
-`*.png diff=exif`  should be added to
+`*.png diff=exif` should be added to
 
 ??? file.
 
-* .gitattributes
-* .git/config
-* .gitignore
+- .gitattributes
+- .git/config
+- .gitignore
 
 ---
+
 ## Revision
 
 `ExifTool` can be used to ??? from a photo and convert it into text.
 
-
-* extract metadata
-* extract pixels
-* extract color codes
-
+- extract metadata
+- extract pixels
+- extract color codes

@@ -18,6 +18,7 @@ category: must-know
 # Existential Crisis
 
 ---
+
 ## Content
 
 Does the CSS actually exist?
@@ -25,9 +26,11 @@ Does the CSS actually exist?
 Categorize the falling properties based on whether or not they are existing, legal CSS.
 
 ---
+
 ## Game Content
 
 it doesn't exist:it's real
+
 ```true
 background-attachment
 %exp
@@ -180,7 +183,6 @@ z-index
 %exp
 The `z-index` property in CSS controls the vertical stacking order of elements that overlap, as in which one should appear closer to the user.
 %
-
 ```
 
 ```false

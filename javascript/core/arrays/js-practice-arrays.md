@@ -35,6 +35,7 @@ links:
 # JS Practice Arrays
 
 ---
+
 ## Exercise
 
 Practice using JavaScript Arrays on Code Wars

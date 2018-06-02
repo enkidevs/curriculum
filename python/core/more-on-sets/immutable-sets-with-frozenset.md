@@ -34,18 +34,22 @@ notes: >
 # Immutable sets with `frozenset`
 
 ---
+
 ## Content
 
 Even though a `set` can't contain mutable objects, a set itself is in fact **mutable**.
 
 This can be seen from the existence of methods such as `add` which mutates the `set`:
+
 ```python
 >>> s = set("Enk")
 >>> s.add('i')
 >>> s
 {'E', 'n', 'k', 'i'}
 ```
+
 Python provides a way of creating an **immutable** set - the type is called `frozenset`:
+
 ```python
 >>> s = frozenset("Enk")
 >>> s.add('i')
@@ -53,11 +57,12 @@ Python provides a way of creating an **immutable** set - the type is called `fro
 #   File "<input>", line 1, in <module>
 #   AttributeError: 'frozenset' object
 #   has no attribute 'add'
-
 ```
+
 Frozensets can be used when you know that the elements you are going to put into a set, will stay constant, that is, no elements will be added later. E.g. a set of lowercase English vowels will only ever contain 'a', 'e', 'i', 'o' and 'u'.
 
 ---
+
 ## Practice
 
 Will the following snippet work?
@@ -69,17 +74,16 @@ s.add('set')
 
 ???
 
-* no, because s is a `frozenset`
-* no, because we add `string` not a `char`
-* yes
+- no, because s is a `frozenset`
+- no, because we add `string` not a `char`
+- yes
 
 ---
+
 ## Revision
 
 When are `frozenset` s used in Python? ???
 
-
-* When no further elements will be added to the set.
-* When there will be lots of added elements in the set.
-* When the set will contain no elements.
- 
+- When no further elements will be added to the set.
+- When there will be lots of added elements in the set.
+- When the set will contain no elements.

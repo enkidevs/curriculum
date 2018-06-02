@@ -22,11 +22,13 @@ links:
 # `nettop` and `jnettop`
 
 ---
+
 ## Content
 
 `nettop` (MacOS) and its Debian/OpedBSD equivalent `jnettop` are command line tools for monitoring network traffic. They both display the traffic going in and out of the machine and the ports used.
 
-The output you'll see is *jnettop's* (the utilities have rather similar outputs). After running the command:
+The output you'll see is _jnettop's_ (the utilities have rather similar outputs). After running the command:
+
 ```bash
 $ jnettop
 Local <-> Remote
@@ -49,9 +51,11 @@ Mihai <-> 162.125.18.133
  2.71K/s  304K/s   306K/s
  50.4M    2.24G    2.29G
 ```
-You'll get live updates of in-and-out traffic. Interpreting the output is simple: you've got your IP, port and port type, the remote's IP, port and port type and the upload speed (*TX/transmit*), download speed (*RX/receive*), and the total used for that remote.
+
+You'll get live updates of in-and-out traffic. Interpreting the output is simple: you've got your IP, port and port type, the remote's IP, port and port type and the upload speed (_TX/transmit_), download speed (_RX/receive_), and the total used for that remote.
 
 You can also sort or filter the output using the flags:
+
 ```bash
 # only tcp ports, similar to -x
 $ jnettop --filter tcp
@@ -60,29 +64,29 @@ $ jnettop --interface eth0
 # run for 10 seconds
 $ jnettop --display text -t 10
 ```
-You might need to run them with *sudo* to work.
+
+You might need to run them with _sudo_ to work.
 
 ---
+
 ## Practice
 
 `jnettop` and `nettop` are tools used to
 
 ???
 
-
-* monitor traffic
-* enable and disable ports
-* verify how the DNS resolves
-* count hops to the remote
+- monitor traffic
+- enable and disable ports
+- verify how the DNS resolves
+- count hops to the remote
 
 ---
+
 ## Revision
 
 The ??? equivalent of `jnettop` is `nettop`.
 
-
-* MacOS
-* Debian
-* Windows
-* OpenBSD
-
+- MacOS
+- Debian
+- Windows
+- OpenBSD

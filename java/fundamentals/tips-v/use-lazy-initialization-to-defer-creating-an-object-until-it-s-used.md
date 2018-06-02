@@ -32,16 +32,18 @@ links:
 # Use lazy initialization to defer creating an object until it's used
 
 ---
+
 ## Content
 
-If the creation of an object is expensive or if the object is needed only under some specific condition, *lazy initialization* can be used to optimize performance.
+If the creation of an object is expensive or if the object is needed only under some specific condition, _lazy initialization_ can be used to optimize performance.
+
 ```
 public class Carpenter {
   // Declaring the object
   private myTools myHammer;
   ...
   public myTools getMyHammer() {
-    // Create the object when 
+    // Create the object when
     // the method is called
     if (myHammer == null) {
       myHammer = new myTools();
@@ -49,8 +51,9 @@ public class Carpenter {
     ...
 }
 ```
-This has several advantages, such as 
-1. Avoiding the initialization of a component in an application up front, thus helping the app to launch much quicker.
 
-2. While working with low memory resources and computing power such as in embedded systems, one needs to be resource conscious.
+This has several advantages, such as
 
+1.  Avoiding the initialization of a component in an application up front, thus helping the app to launch much quicker.
+
+2.  While working with low memory resources and computing power such as in embedded systems, one needs to be resource conscious.

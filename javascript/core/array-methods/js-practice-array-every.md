@@ -27,6 +27,7 @@ links:
 # JS Practice Array `every` and `some`
 
 ---
+
 ## Exercise
 
 Practice using the JavaScript Array methods `every()` and `some()`

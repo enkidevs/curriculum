@@ -18,9 +18,11 @@ links:
   - '[nodejavascript.org](https://nodejs.org/en/){website}'
 
 ---
+
 # What is NodeJS?
 
 ---
+
 ## Content
 
 Node.js is an extremely powerful JavaScript framework which was built upon Google Chrome’s V8 JavaScript engine. It provides an asynchronous[1], event driven, I/O based cross-platform runtime environment for the development of server-side JavaScript applications.
@@ -33,29 +35,30 @@ Node can be used to build a variety of applications including single and multi-p
 - It’s a cross-platform framework which runs on Windows, Mac and Linux.
 
 ---
+
 ## Practice
 
 What can Node be used to create?
 ???
 
-
-* server-side applications
-* client-side applications
+- server-side applications
+- client-side applications
 
 ---
+
 ## Revision
 
 Is Node synchronous or asynchronous?
 ???
 
-
-* asynchronous
-* synchronous
+- asynchronous
+- synchronous
 
 ---
+
 ## Footnotes
 
 [1:Asynchronous]
-Even though JavaScript is single threaded, V8 JavaScript engine is not. In order to resolve functions that would be holding back the main thread, Node sends those instructions to the engine through *APIs* and subscribes to an event that marks the end of the computation for that process, through an event loop.
+Even though JavaScript is single threaded, V8 JavaScript engine is not. In order to resolve functions that would be holding back the main thread, Node sends those instructions to the engine through _APIs_ and subscribes to an event that marks the end of the computation for that process, through an event loop.
 
-The result is then reintroduced into the JavaScript main runtime stack. This whole process is what makes the Node environment *asynchronous*.
+The result is then reintroduced into the JavaScript main runtime stack. This whole process is what makes the Node environment _asynchronous_.

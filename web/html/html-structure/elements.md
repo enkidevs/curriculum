@@ -16,18 +16,23 @@ standards:
 aspects:
   - introduction
 ---
+
 # Elements
+
 ---
+
 ## Content
 
 HTML elements consist of a start and end tag with content in-between.
 Some elements:
+
 - Paragraph:`<p></p>`
 - Anchors: `<a></a>`
 - Headers: `<h3></h3>`
 - Script: `<script></script>`
 
 Example:
+
 ```
 <h1>
   Text in a header element
@@ -37,6 +42,7 @@ Example:
 It is also very common for HTML elements to be nested. This is common even for the most simple websites.
 
 Example:
+
 ```
 <p>
   Check out this
@@ -56,9 +62,11 @@ The break `<br>` is one of those elements.
 **This is especially necessary if you want your document to be readable in either XML or XHTML.**
 
 ---
+
 ## Practice
 
 What elements are used in this code?
+
 ```
 <p>
   Check out this
@@ -69,34 +77,36 @@ What elements are used in this code?
 
 ???
 
-* Paragraphs and Anchors
-* Anchors and Headings
-* Headings and Paragraphs
-* Images and Links
-* Parameters and Anchors
-* Anchors and Headings
+- Paragraphs and Anchors
+- Anchors and Headings
+- Headings and Paragraphs
+- Images and Links
+- Parameters and Anchors
+- Anchors and Headings
 
 ---
+
 ## Revision
 
 What is an HTML element called that does not have a closing tag?
 
 ???
 
-* `self closing`
-* `tag`
-* `closed element`
-* `opening tag`
-* `< />`
+- `self closing`
+- `tag`
+- `closed element`
+- `opening tag`
+- `< />`
 
 ---
+
 ## Quiz
 
 ### How much do you know about HTML elements?
 
 Identify which element is not a valid HTML element?
 
-* `<paragraph>`
-* `<p>`
-* `<a>`
-* `<img>`
+- `<paragraph>`
+- `<p>`
+- `<a>`
+- `<img>`

@@ -30,14 +30,15 @@ tags:
 
 ---
 
-# Get to know  your commands with `type`
+# Get to know your commands with `type`
 
 ---
+
 ## Content
 
-The `type` command is used to differentiate between *builtin* commands and *external binaries*.
+The `type` command is used to differentiate between _builtin_ commands and _external binaries_.
 
-Subsequently, you can find different *types* of commands[1].
+Subsequently, you can find different _types_ of commands[1].
 
 Find an **alias**:
 
@@ -45,23 +46,29 @@ Find an **alias**:
 $ type ls
 ls is aliased to `ls --color=auto'
 ```
+
 Find a **file**:
+
 ```bash
 $ type rm
 rm is /bin/rm
 ```
+
 Find a **builtin**:
+
 ```bash
 $ type cd
 cd is a shell builtin
 ```
+
 Find a **function**:
+
 ```bash
 $ type psgrep
 psgrep is a function
-psgrep () 
-{ 
-    ps -ef | { 
+psgrep ()
+{
+    ps -ef | {
         read -r;
         echo "$REPLY";
         grep --color=auto "$@"
@@ -70,25 +77,28 @@ psgrep ()
 ```
 
 You can also check the type of `type`:
+
 ```
 $ type type
 type is a shell builtin
 ```
 
 ---
+
 ## Revision
 
-You can call ??? 
+You can call ???
 
 alongside another command to find out its alias, functions, builtins and keywords.
 
-
-* type
-* desc
-* -type
-* —desc
+- type
+- desc
+- -type
+- —desc
 
 ---
+
 ## Footnotes
+
 [1:info]
-`type` can find whether the targeted command is an *alias*, a *keyword*, a *function*, a *builtin* or a *file*.
+`type` can find whether the targeted command is an _alias_, a _keyword_, a _function_, a _builtin_ or a _file_.

@@ -19,11 +19,12 @@ tags:
 
 links:
   - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions){website}'
-
 ---
+
 # Anonymous functions
 
 ---
+
 ## Content
 
 If you use a **function expression** to define a function, you can omit the function's name. The syntax is:
@@ -38,7 +39,7 @@ An example of an **anonymous** function:
 
 ```javascript
 var square = function(x) {
-   return x * x;
+  return x * x;
 };
 ```
 
@@ -51,30 +52,31 @@ The downsides to anonymous function expressions are:
 Note: you must name a function defined by a **function declaration**.
 
 ---
+
 ## Practice
 
 Is the `name` field used in a **function expression** for defining functions mandatory?
 
 ???
 
-* no
-* yes
-* only on browsers
-* only in older JavaScript versions
+- no
+- yes
+- only on browsers
+- only in older JavaScript versions
 
 ---
+
 ## Revision
 
 Complete the following anonymous function:
 
 ```javascript
-
 var cube = ???(x) {
    return x * x * x;
 };
 ```
 
-* function
-* let
-* name
-* {}
+- function
+- let
+- name
+- {}

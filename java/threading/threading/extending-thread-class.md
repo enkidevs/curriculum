@@ -20,11 +20,13 @@ links:
 # Extending Thread Class
 
 ---
+
 ## Content
 
 The easier way of creating a thread is by extending the `Thread` class since we inherit a lot of functionality from it:
 
 Simply:
+
 ```
 public class ThisIsThread
            extends Thread {
@@ -56,9 +58,10 @@ public class Main {
 
 The result of running the above program would be the same as in the previous one.
 
-**NOTE:** for better understanding of *threads* please read the *More on the Thread Class* section below.
+**NOTE:** for better understanding of _threads_ please read the _More on the Thread Class_ section below.
 
 ---
+
 ## Practice
 
 What function should be `Overridden` in a custom thread?
@@ -73,22 +76,20 @@ Should a thread object be passed to an instance of a `Thread` class?
 
 ???
 
-
-* `run()`
-* `start()`
-* No
-* Yes
-* It does not matter
-* `create()`
+- `run()`
+- `start()`
+- No
+- Yes
+- It does not matter
+- `create()`
 
 ---
+
 ## Revision
 
 When we create an object which extends `Thread` do we need to pass this object to an instance of a `Thread` class?
 
 ???
 
-
-* No, as it is a thread itself
-* Yes, as it is only a runnable object
-
+- No, as it is a thread itself
+- Yes, as it is only a runnable object

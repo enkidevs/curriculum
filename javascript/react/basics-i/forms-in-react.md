@@ -21,21 +21,22 @@ links:
   - '[facebook.github.io](https://facebook.github.io/react/docs/forms.html){website}'
 
 parent: rendering-multiple-components
-
 ---
 
 # Forms in **React**
 
 ---
+
 ## Content
 
-While standard *HTML behaviour* of `<input />`, `<textarea />` or `<select />` elements work in **React**, having `JS` functions handling updates and submission is highly advised.
+While standard _HTML behaviour_ of `<input />`, `<textarea />` or `<select />` elements work in **React**, having `JS` functions handling updates and submission is highly advised.
 
-**HTML form** elements keep an **internal state** in sync with the user's *input*. Coupling this with components' `state` can result in a **controlled component**.
+**HTML form** elements keep an **internal state** in sync with the user's _input_. Coupling this with components' `state` can result in a **controlled component**.
 
 A controlled component means having the component's `state` as **single source of truth**.
 
 Consider the following `render`ing of a component:
+
 ```jsx
 // set initial state in constructor
 constructor(props) {
@@ -63,10 +64,9 @@ handle(e) {
 }
 ```
 
-With consistency in mind, *form elements* in **React** work a little differently:
+With consistency in mind, _form elements_ in **React** work a little differently:
 
 - for `<textarea />` the text is specified with `value` attribute instead of having it as a child:
-
 
 ```html
 <!-- standard HTML -->
@@ -74,13 +74,13 @@ With consistency in mind, *form elements* in **React** work a little differently
   Text goes here
 </textarea>
 ```
+
 ```jsx
 // React
-<textarea value='Text goes here' />
+<textarea value="Text goes here" />
 ```
 
 - for `<select />`, instead of using `selected` attribute on an `<option />` to specify the default selection, you can specify the `<option />`'s `value` in the root `<select />`:
-
 
 ```html
 <!-- standard HTML -->
@@ -88,33 +88,36 @@ With consistency in mind, *form elements* in **React** work a little differently
   <option selected value='a'>A</option>
 </select>
 ```
+
 ```jsx
 // React
-<select value='a'>
-  <option value='a'>A</option>
+<select value="a">
+  <option value="a">A</option>
 </select>
 ```
 
 ---
+
 ## Practice
 
 Complete the following snippet such that the rendered **controlled component** makes sense and works:
+
 ```jsx
 class Control extends React.Component {
-	constructor(props) {
-  	super(props);
+  constructor(props) {
+    super(props);
     this.state = {in: ''};
   }
 
   handle(e) {
-  	this.???({
-    	in: e.target.value
+    this.???({
+      in: e.target.value
     });
   }
 
   render() {
-  	return (
-     <input type="text"
+    return (
+      <input type="text"
         ???={this.state.in}
       	???={(???) =>
           this.???(e)} />
@@ -126,30 +129,28 @@ ReactDOM.render(
   <Control />,
   document.getElementById('root')
 );
-
 ```
 
-* `setState`
-* `value`
-* `onChange`
-* `e`
-* `handle`
-* `handleChange`
-* `state`
-* `event`
-* `onHandleChange`
-* `selected`
+- `setState`
+- `value`
+- `onChange`
+- `e`
+- `handle`
+- `handleChange`
+- `state`
+- `event`
+- `onHandleChange`
+- `selected`
 
 ---
+
 ## Revision
 
 What is a **controlled component**?
 
 A component ???.
 
-
-* whose `state` is the **single source of truth**
-* using **React**-specific *form elements*
-* without `props`
-* with any *HTML form elements*
-
+- whose `state` is the **single source of truth**
+- using **React**-specific _form elements_
+- without `props`
+- with any _HTML form elements_

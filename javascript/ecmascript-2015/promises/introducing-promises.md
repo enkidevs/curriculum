@@ -15,9 +15,11 @@ links:
   - '[MDN - Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
 
 ---
+
 # Introducing Promises
 
 ---
+
 ## Content
 
 A **promise** is an object that represents a value that may or may not be obtained in the future and can be passed around like any other object.
@@ -41,25 +43,27 @@ Callbacks work great for simple scenarios but with more complex scenarios things
 A better approach is to use promises lets see how to do this next.
 
 ---
+
 ## Practice
 
 Which of the following statements about promises do you consider false?
 
 ???
 
-* Promises will block the execution thread of your application
-* Promises tend to be more useful in complex scenarios where callback get out of control
-* Promises were available before standard JavaScript implementation via third-party libraries
-* Promises are used for asynchronous operations
+- Promises will block the execution thread of your application
+- Promises tend to be more useful in complex scenarios where callback get out of control
+- Promises were available before standard JavaScript implementation via third-party libraries
+- Promises are used for asynchronous operations
 
 ---
+
 ## Revision
 
 What problem do Promises try to solve?
 
 ???
 
-* callbacks getting out of control in complex scenarios
-* asynchronous calls stopping thread execution
-* lack of any kind of support for asynchronous operation
-* too many libraries doing the same thing
+- callbacks getting out of control in complex scenarios
+- asynchronous calls stopping thread execution
+- lack of any kind of support for asynchronous operation
+- too many libraries doing the same thing

@@ -1,10 +1,11 @@
-name: Algorithms II 
+name: Algorithms II
 
 description: Even more on algorithms!
 
 insights:
-  - reverse-polish-notation
-  - parsing-reverse-polish-notation
-  - binary-expression-tree
-  - exponentiation-by-squaring
-  - levenshtein-distance
+
+- reverse-polish-notation
+- parsing-reverse-polish-notation
+- binary-expression-tree
+- exponentiation-by-squaring
+- levenshtein-distance

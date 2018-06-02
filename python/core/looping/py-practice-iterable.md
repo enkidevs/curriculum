@@ -27,7 +27,7 @@ links:
 # Practice iterable data types
 
 ---
+
 ## Exercise
 
 Practice working with `for loops` and `iterables` in python.
- 

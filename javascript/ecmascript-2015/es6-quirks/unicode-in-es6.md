@@ -25,9 +25,10 @@ links:
 # Unicode in ES6
 
 ---
+
 ## Content
 
-JavaScript strings are represented using UTF-16 code units. Each code unit can be used to represent a code point in the `[U+0000, U+FFFF]` range. Code points beyond that range are represented by a surrogate pair.  
+JavaScript strings are represented using UTF-16 code units. Each code unit can be used to represent a code point in the `[U+0000, U+FFFF]` range. Code points beyond that range are represented by a surrogate pair.
 
 In ES6 the notation has been simplified:
 
@@ -35,11 +36,15 @@ In ES6 the notation has been simplified:
 \\ represents U+1F332 (EVERGREEN TREE)
 "\u{1F332}"=="🌲"=="\uD83C\uDF32"
 ```
+
 As with ES5, having multiple code units per code point means that `.length` is not reliable:
+
 ```
 '🌲🌲🌲'.length // length is 6
 ```
+
 However in ES6 the string iterator can be used to loop over code **points** rather than code **units**:
+
 ```
 for (let codePoint of '🌲✈❤') {
   console.log(codePoint);
@@ -48,6 +53,7 @@ for (let codePoint of '🌲✈❤') {
 // '✈'
 // '❤'
 ```
+
 Use `.codePointAt` to get the base-10 numeric representation of a code point at a given position in a string (indexed by code unit).
 
 ```
@@ -62,6 +68,7 @@ for (let codePoint of '🌲✈❤') {
 ```
 
 ---
+
 ## Practice
 
 What method is used to get the base-10 numeric representation of a code point at a given position in a string?
@@ -72,21 +79,20 @@ for (let codePoint of '🌲🌲') {
 }
 ```
 
-* `codePointAt`
-* `codePoint`
-* `codePointRep`
-* `base10point`
+- `codePointAt`
+- `codePoint`
+- `codePointRep`
+- `base10point`
 
 ---
+
 ## Revision
 
 How are Javascript strings represented?
 
 ???
 
-
-* UTF-16
-* UTF-8
-* UTF-32
-* US-ASCII
-
+- UTF-16
+- UTF-8
+- UTF-32
+- US-ASCII

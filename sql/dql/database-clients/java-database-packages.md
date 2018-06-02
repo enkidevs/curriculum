@@ -43,11 +43,13 @@ links:
 # Java Database Packages
 
 ---
+
 ## Content
 
-In **Java**, Oracle does not provide database connection APIs with the JDK, meaning that we will have to download the necessary library (the *database driver*) and import it into our project manually. These libraries should be provided the database hosts as each *DBMS* is different. The *database driver* or *JDBC (Java Database Connectivity)* for Postgres can be downloaded from Postgres website.
+In **Java**, Oracle does not provide database connection APIs with the JDK, meaning that we will have to download the necessary library (the _database driver_) and import it into our project manually. These libraries should be provided the database hosts as each _DBMS_ is different. The _database driver_ or _JDBC (Java Database Connectivity)_ for Postgres can be downloaded from Postgres website.
 
 Now after downloading the correct `.jar` file and adding it to our project, we can connect to our database:
+
 ```java
 import java.sql.*;
 
@@ -97,7 +99,9 @@ public class Main {
   }
 }
 ```
+
 The result of the following code should be similar to:
+
 ```
 Opened database successfully
 ID = 1
@@ -126,6 +130,7 @@ Operation done successfully
 **NOTE: Bookmark this insight, and try connecting to the database on your own!**
 
 ---
+
 ## Practice
 
 Considering `c = DriverManager.getConnection("jdbc:postgresql://aws-us-east-1-portal.29.dblayer.com:23336/pokemon", "ashketchum", "iwannabetheverybest");`, form a connection string:
@@ -133,23 +138,22 @@ Considering `c = DriverManager.getConnection("jdbc:postgresql://aws-us-east-1-po
 c = DriverManager.getConnection
 ("???:???://
 ???:???/???",
- "???", "???");
+"???", "???");
 
-
-* jdbc
-* postgresql
-* URLaddress
-* port
-* databaseName
-* username
-* password
+- jdbc
+- postgresql
+- URLaddress
+- port
+- databaseName
+- username
+- password
 
 ---
+
 ## Revision
 
 What is a database driver?
 ???
 
-* It is a library in a certain language and it is specific to a certain DBMS
-* It is Java specific library which allows the user to connect to the MySQL database
- 
+- It is a library in a certain language and it is specific to a certain DBMS
+- It is Java specific library which allows the user to connect to the MySQL database

@@ -18,9 +18,11 @@ links:
   - '[SitePoint](https://www.sitepoint.com/es6-default-parameters/){website}'
 
 ---
+
 # Default Params
 
 ---
+
 ## Content
 
 In EcmaScript if a function with parameters is called without supplying arguments then any arguments are undefined:
@@ -42,11 +44,12 @@ function test(x,y){
    }
 
    y = y || "default";
-   
+
    console.log(x); //1
    console.log(y); //"default"
 }
 ```
+
 Default parameters allow you to declare a default to be used if an argument is not supplied.
 
 To declare a default parameter simply specify the default value next to the argument in the function signature:

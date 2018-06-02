@@ -24,9 +24,11 @@ links:
 parent: check-data-about-a-package
 
 ---
+
 # Manipulate npm packages cache
 
 ---
+
 ## Content
 
 The `npm cache` utility is used to **add**, **list** or **clear** the npm cache folder.
@@ -62,6 +64,7 @@ $ npm config get cache
 ```
 
 ---
+
 ## Practice
 
 How can you clear your npm cache?
@@ -70,15 +73,16 @@ How can you clear your npm cache?
 $ ??? ??? ???
 ```
 
-* npm
-* cache
-* clean
-* clear
-* get
-* config
-* cache-clean
+- npm
+- cache
+- clean
+- clear
+- get
+- config
+- cache-clean
 
 ---
+
 ## Revision
 
 How can you get the path to your npm cache?
@@ -87,13 +91,13 @@ How can you get the path to your npm cache?
 $ ??? ??? ??? ???
 ```
 
-* npm
-* config
-* get
-* cache
-* path
-* local
-* pathTo
-* isAt
-* getPath
-* ls
+- npm
+- config
+- get
+- cache
+- path
+- local
+- pathTo
+- isAt
+- getPath
+- ls

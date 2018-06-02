@@ -35,6 +35,7 @@ links:
 # COUNT clause
 
 ---
+
 ## Content
 
 The `COUNT` clause returns the total number of entries in a given column.
@@ -53,15 +54,18 @@ LIMIT 5;
     5
 (1 row)
 ```
-No matter how many entries there are in the `experience` table, we limit the output to 5 rows. Hence, the result is *5*.
+
+No matter how many entries there are in the `experience` table, we limit the output to 5 rows. Hence, the result is _5_.
 
 ---
+
 ## Practice
 
 We have a table "location". It has data stating the region each location belongs to. How many locations are there in each region? Display the result ordered by regions.
+
 ```
 -- location
-id  | region_id |      name           
+id  | region_id |      name
 ====+===========+===============
   1 |         4 | canalave-city
   2 |         4 | eterna-city
@@ -82,24 +86,23 @@ count | region_id
   126 |         4
   121 |         5
   104 |         6
-   91 |          
+   91 |
 (7 rows)
-
-
 ```
 
-
-* COUNT
-* region_id
-* GROUP BY
-* ORDER BY
-* SUM
-* AVG
+- COUNT
+- region_id
+- GROUP BY
+- ORDER BY
+- SUM
+- AVG
 
 ---
+
 ## Revision
 
 Knowing that the pokemon db has a table called `item` and a field `name`, how do we count all name entries?
+
 ```
     ???
 --Result:
@@ -107,19 +110,20 @@ Knowing that the pokemon db has a table called `item` and a field `name`, how do
 =========
    746
 (1 row)
-
 ```
 
-
-* SELECT COUNT(name) FROM item;
-* SELECT COUNT(DISTINCT name) FROM item;
-* SELECT COUNT(item) FROM name;
-* SELECT COUNT(all) FROM item;
+- SELECT COUNT(name) FROM item;
+- SELECT COUNT(DISTINCT name) FROM item;
+- SELECT COUNT(item) FROM name;
+- SELECT COUNT(all) FROM item;
 
 ---
+
 ## Footnotes
+
 [1:Pokemon Db]
 We will use the same segment of "experience" table for all aggregate functions:
+
 ```
 -- experience table:
 
@@ -143,6 +147,4 @@ experience
     80
    156
  (5 rows)
-
 ```
- 

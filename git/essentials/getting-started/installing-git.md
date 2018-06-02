@@ -21,23 +21,23 @@ links:
 # Installing Git
 
 ---
+
 ## Content
 
 In order to be able to use **Git**, it first must be available on your machine. You can install **Git** in various ways, depending on your Operating System.
 
-**Git** is available for downloading together with installing instructions from the official **Git** website for *Linux* , *Windows* or *Mac OSX*.
-
+**Git** is available for downloading together with installing instructions from the official **Git** website for _Linux_ , _Windows_ or _Mac OSX_.
 
 ### Mac OS X
 
-
 You can install **Git** by:
-- running `git` from the terminal will prompt you to the installation if your OS version is at least `10.9`
 
+- running `git` from the terminal will prompt you to the installation if your OS version is at least `10.9`
 
 ### Linux
 
 Depending on your Linux distribution and package management tool you can install **Git**:
+
 - using `yum` on Fedora/Red Hat:
 
 ```bash
@@ -50,18 +50,17 @@ sudo yum install git
 sudo apt-get install git
 ```
 
-If you install the *GitHub* client application (repository hosting service), which is available on all main operating systems, **Git** will also be installed on your machine.
+If you install the _GitHub_ client application (repository hosting service), which is available on all main operating systems, **Git** will also be installed on your machine.
 
 ---
+
 ## Revision
 
 Will **Git** also be installed when you would install **GitHub** ?
 
 ???
 
-
-* Yes
-* No
-* Only on Mac OS X
-* Only on Linux
-
+- Yes
+- No
+- Only on Mac OS X
+- Only on Linux

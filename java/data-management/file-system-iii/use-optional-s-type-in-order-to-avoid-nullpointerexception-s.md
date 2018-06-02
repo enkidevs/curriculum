@@ -27,71 +27,76 @@ notes: >-
 # Use `Optional(s)` type in order to avoid `NullPointerException(s)`
 
 ---
+
 ## Content
 
 Java 8 comes with a new `Optional` type, a new container type that wraps a single value, if the value is available. It's meant to convey the meaning that the value might be absent.
 
 Create an `Optional`:
-```java
-Optional<String> 
-   myName = Optional.ofNullable( null );
 
+```java
+Optional<String>
+   myName = Optional.ofNullable( null );
 ```
 
 Check if the instance is not null with `isPresent()` method:
-```java
-System.out.println( "Name is set? " 
-   + fullName.isPresent() ); 
-//output: False
 
+```java
+System.out.println( "Name is set? "
+   + fullName.isPresent() );
+//output: False
 ```
+
 The `orElseGet()` method will provide a default value in case `Optional` is null.
 
 ```java
-System.out.println( "Name: " 
+System.out.println( "Name: "
    + myName.orElseGet( () -> "[none]" ) )
 //output: Name: [none]
-
 ```
 
-The `map()` method transforms the current `Optional`’s value and returns the new `Optional` instance. The `orElse()` method  accepts a default value if the `optional` is null.
+The `map()` method transforms the current `Optional`’s value and returns the new `Optional` instance. The `orElse()` method accepts a default value if the `optional` is null.
 
 ```java
-System.out.println( myName.map( s -> 
+System.out.println( myName.map( s ->
     "Hey " + s + "!" ).
     orElse( "Hey Stranger!" ) );
 //output: Hey Stranger!
 ```
+
 Optional should be used as the return type of functions that might not return a value.
 
 ---
+
 ## Practice
 
 Check if an optional’s instance is not `null`:
+
 ```
-Optional<String> 
-   myName = Optional.ofNullable( null );    
-myName.???(); 
+Optional<String>
+   myName = Optional.ofNullable( null );
+myName.???();
 ```
 
-* `isPresent` 
-* `isNull` 
-* `isEmpty` 
-* `isNotNull`
+- `isPresent`
+- `isNull`
+- `isEmpty`
+- `isNotNull`
 
 ---
+
 ## Revision
 
 Create an empty `Optional` of type `String`:
+
 ```
 ???<???> op =
        Optional.empty();
 ```
 
-* `Optional` 
-* `String` 
-* `Op` 
-* `string` 
-* `EmptyOptional` 
-* `null`
-
+- `Optional`
+- `String`
+- `Op`
+- `string`
+- `EmptyOptional`
+- `null`

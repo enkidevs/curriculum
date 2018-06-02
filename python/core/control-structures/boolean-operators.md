@@ -21,6 +21,7 @@ standards:
 # Boolean Operators
 
 ---
+
 ## Content
 
 Python uses two keywords to allow complex boolean conditions to be created, `and` and `or`.
@@ -36,6 +37,7 @@ str = 'boolean'
 if str == 'boolean' and num == 1:
     print('Success!')
 ```
+
 The `or` operator:
 
 ```python
@@ -44,6 +46,7 @@ if str == 'boolean' or num > 2:
 ```
 
 ---
+
 ## Practice
 
 Complete the code snippet so that both conditions must be evaluated to true:
@@ -56,12 +59,13 @@ if x == 6 ??? str == 'python':
     print ('true')
 ```
 
-* `and`
-* `or`
-* `both`
-* `plus`
+- `and`
+- `or`
+- `both`
+- `plus`
 
 ---
+
 ## Revision
 
 Complete the code snippet so that either of the conditions must be evaluated to true:
@@ -74,8 +78,7 @@ if x == 6 ??? str == 'python':
     print ('true')
 ```
 
-* `or`
-* `and`
-* `xor`
-* `either`
- 
+- `or`
+- `and`
+- `xor`
+- `either`

@@ -30,20 +30,22 @@ links:
 # Trigonometry using the `Math` class
 
 ---
+
 ## Content
 
 The `Math` class contains various methods for performing trigonometric functions. For example, it is possible to convert a value in degrees to radians:
+
 ```
 double degrees = 45;
 double radians = Math.toRadians(degrees);
 ```
+
 Then find the sine of this value:
+
 ```
 System.out.format(
   "The sine of %.1f degrees is %.4f%n",
-  degrees, 
+  degrees,
   Math.sin(radians)
 );
-
 ```
-

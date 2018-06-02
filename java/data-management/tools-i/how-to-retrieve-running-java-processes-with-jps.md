@@ -27,11 +27,13 @@ notes: >-
 # How to retrieve running java processes with `jps`
 
 ---
+
 ## Content
 
 The Java Virtual Machine has a `jps` tool used in order to list all the running java processes of the current user from within the command line terminal.
 
 Basic syntax / lists all java processes:
+
 ```java
 $ jps
 
@@ -47,54 +49,55 @@ $ jps -l
 ```
 
 Listing arguments:
+
 ```java
 $ jps -m
 
 8909 Jps -m
-
 ```
+
 When running several Java Web Start applications on a system, they tend to look the same, in which case, you can use `jps -m` to know their source.
 
 To display Java VM parameters: `jps -v`
+
 ```java
 $ jps -v
 
 8994 Jps -Dapplication.home=/usr/lib/jvm/
 java-8-oracle -Xms8m
-
-
 ```
 
-
-
-If remote system is running `jstatd`,  `jps` can also list processes on a remote system.
+If remote system is running `jstatd`, `jps` can also list processes on a remote system.
 
 ---
+
 ## Practice
 
 Display all Java VM parameters:
+
 ```
 $ ??? ???
 ```
 
-* `jps` 
-* `-v` 
-* `javavm` 
-* `-p` 
-* `-vm` 
-* `-vmp`
+- `jps`
+- `-v`
+- `javavm`
+- `-p`
+- `-vm`
+- `-vmp`
 
 ---
+
 ## Revision
 
 Long list all Java processes using `jps`:
+
 ```
 $ ???
 ```
 
-* `jps -l` 
-* `jps` 
-* `jps list` 
-* `jps -list` 
-* `jps -long`
-
+- `jps -l`
+- `jps`
+- `jps list`
+- `jps -list`
+- `jps -long`

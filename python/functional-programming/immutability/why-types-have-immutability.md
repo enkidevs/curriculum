@@ -25,6 +25,7 @@ links:
 # Why Types Have Immutability
 
 ---
+
 ## Content
 
 Over the next insights we'll explore further into the conceptual and tangible benefits to using a type system that supports mutable and immutable objects, specifically with respect to the type system implemented in Python.
@@ -37,20 +38,20 @@ The only attribute of an object that may change is its value, and as we know, ob
 
 What advantages does this system inherently provide over a system where all objects are mutable?[1] We have encountered some of the advantages that can be enjoyed to varying extents in previous insights. You might remember some:
 
- - Atomicity of failure modes
-   - Errors don't break objects and instead are restricted to occurring only when objects are being constructed.
- - Thread safety
-   - Freedom from concurrecncy errors.
- - Prevention of `None` references
-   - Not accidentally encountering `None` where we expected data.
- - Easier to reason about object lifecycle
-   - Since we know objects don't change, there is very little to worry about in this regard. 
- - Fewer side-effects in usage
-   - Immutability discourages causing side-effects (See below.)
- - Easier to cache
-   - We don't have to worry about keeping our cache up to date (as much) as the objects do not change.
- - Easier to test immutable objects
-   - We can assume certain baseline facts about the objects our program will be working with and therefore it is easier to verify correctness.
+- Atomicity of failure modes
+  - Errors don't break objects and instead are restricted to occurring only when objects are being constructed.
+- Thread safety
+  - Freedom from concurrecncy errors.
+- Prevention of `None` references
+  - Not accidentally encountering `None` where we expected data.
+- Easier to reason about object lifecycle
+  - Since we know objects don't change, there is very little to worry about in this regard.
+- Fewer side-effects in usage
+  - Immutability discourages causing side-effects (See below.)
+- Easier to cache
+  - We don't have to worry about keeping our cache up to date (as much) as the objects do not change.
+- Easier to test immutable objects
+  - We can assume certain baseline facts about the objects our program will be working with and therefore it is easier to verify correctness.
 
 Let's visit each point and quickly understand the concepts behind each; we've already encountered thread safety, temporal coupling and object lifecycles briefly in previous insights.
 
@@ -63,33 +64,34 @@ Immutable objects help with this as they automatically rule out a whole class of
 In the next insight we will consider avoiding identity mutation and atomicity of failure.
 
 ---
+
 ## Practice
 
 Which of the following is not a benefit of using immutable objects?
 
-1. Thread safety
-2. Easier to test
-3. Easier to reason about object lifecycle
-4. Fewer side-effects in usage
-5. Atomicity of failure
-6. Easier to cache
-7. Fewer lines of code to write
-8. Prevention of `None` references
+1.  Thread safety
+2.  Easier to test
+3.  Easier to reason about object lifecycle
+4.  Fewer side-effects in usage
+5.  Atomicity of failure
+6.  Easier to cache
+7.  Fewer lines of code to write
+8.  Prevention of `None` references
 
 ???
 
-
-* 7
-* 1
-* 2
-* 3
-* 4
-* 5
-* 6
-* 7
-* 8
+- 7
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
 
 ---
+
 ## Revision
 
 What is the code snippet below an example of?
@@ -110,13 +112,14 @@ class Connection(object):
 
 ???
 
-
-* Side effects
-* Temporal coupling
-* Atomicity of failure
-* Identity mutation
+- Side effects
+- Temporal coupling
+- Atomicity of failure
+- Identity mutation
 
 ---
+
 ## Footnotes
+
 [1:Advantages of Immutability]
 Some programmers even advocate that in a perfectly object-oriented system, all objects should be immutable, although in reality this would be infeasible due to technical limitations in most mainstream programming languages. However, some functional languages provide rich support for a totally immutable environment, such as the less well-known but highly-regarded languages Scala and Haskell.

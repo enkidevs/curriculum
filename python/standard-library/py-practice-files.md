@@ -28,6 +28,7 @@ links:
 # Working with files in python
 
 ---
+
 ## Exercise
 
 Work with files in python.

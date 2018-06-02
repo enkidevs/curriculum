@@ -9,8 +9,9 @@ section: 0
 parent: web-introduction
 
 insights:
-  - html-structure-define
-  - elements
-  - html-tags
-  - attributes
-  - comments
+
+- html-structure-define
+- elements
+- html-tags
+- attributes
+- comments

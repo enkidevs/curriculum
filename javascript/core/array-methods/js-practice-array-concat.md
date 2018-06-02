@@ -25,6 +25,7 @@ links:
 # JS Practice Array `concat` and `join`
 
 ---
+
 ## Exercise
 
 Practice using the JavaScript Array methods `concat()` and `join()`

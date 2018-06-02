@@ -20,9 +20,10 @@ links:
 # Generator of generators
 
 ---
+
 ## Content
 
-Last insight, we've seen how **recursion** and **generators** can work together. Now, let's see how we can combine two **generators**.  
+Last insight, we've seen how **recursion** and **generators** can work together. Now, let's see how we can combine two **generators**.
 
 Consider the following example:
 
@@ -44,10 +45,11 @@ print(list(firstn(fibonacci(), 10)))
 Because the condition present in the `while` loop will never be `False`, the first **generator** will compute indefinitely. Now, we won't ever need an **infinite sequence**. what we would need instead is the first `n` **elements** of the sequence or the `n`th **element** of the sequence.
 
 This is why we define the second **generator** called `firstn` which accepts two **parameters**:
+
 - `g` which is a generator;
 - `n` which defines the number of **elements** our sequence will contain.
 
-Finally, we print a list containing the first 10 *elements* of the *Fibonacci sequence*:
+Finally, we print a list containing the first 10 _elements_ of the _Fibonacci sequence_:
 
 ```
 # Output:
@@ -55,6 +57,7 @@ Finally, we print a list containing the first 10 *elements* of the *Fibonacci se
 ```
 
 ---
+
 ## Practice
 
 We want to generate the first `n` perfect squares. Fill the gaps accordingly:
@@ -70,19 +73,20 @@ def first_n(g,n):
       ??? next(g)
 ```
 
-
-* True
-* range
-* yield
-* for
-* False
-* yeild
-* if
+- True
+- range
+- yield
+- for
+- False
+- yeild
+- if
 
 ---
+
 ## Revision
 
 What will the output be?
+
 ```
 def power_of_two():
     x = 2
@@ -96,10 +100,9 @@ def n_power(g,n):
 print(list(n_power(
   power_of_two(), 4)))
 ```
+
 ???
 
-
-* `[2, 4, 8, 16]`
-* `[1, 2, 4, 8]`
-* `[2, 4, 8, 16, 32]`
-
+- `[2, 4, 8, 16]`
+- `[1, 2, 4, 8]`
+- `[2, 4, 8, 16, 32]`

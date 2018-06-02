@@ -22,26 +22,30 @@ links:
 # `sort` lines in a text file
 
 ---
+
 ## Content
 
 The Linux and Unix `sort` command is used to sort content in text files line by line.
 
 Let's say we have the file `enki.txt` with the content:
+
 ```
 we
-are 
+are
 enki
 ```
 
 The `sort` command will sort lines alphabetically and output the result:
+
 ```
 $ sort enki.txt
-are 
-enki 
+are
+enki
 we
 ```
 
 Using the `-o` we can specify an output file:
+
 ```
 $ sort -o enki_sorted.txt enki.txt
 $ cat enki_sorted.txt
@@ -51,6 +55,7 @@ we
 ```
 
 To sort in reverse use the the `-r` flag:
+
 ```
 $ sort -r enki.txt
 we
@@ -61,33 +66,35 @@ are
 Other flags are available such as `-c` that will only check if the file is sorted.
 
 ---
+
 ## Practice
 
 Sort the file `enki` in reverse and output it to `output_enki`:
+
 ```
-$ ??? ??? ??? 
+$ ??? ??? ???
           output_enki enki
 ```
 
-
-* `sort`
-* `-r`
-* `-o`
-* `-re`
-* `-f`
-* `-to`
+- `sort`
+- `-r`
+- `-o`
+- `-re`
+- `-f`
+- `-to`
 
 ---
+
 ## Revision
 
 Check if the `enki` file is sorted:
+
 ```
 $ ??? ??? enki.txt
 ```
 
-* `sort`
-* `-c`
-* `-r`
-* `awk`
-* `nl`
-
+- `sort`
+- `-c`
+- `-r`
+- `awk`
+- `nl`

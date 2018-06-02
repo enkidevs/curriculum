@@ -25,6 +25,7 @@ links:
 # JS Practice `this`
 
 ---
+
 ## Exercise
 
 Explore the `this` operator in JavaScript with Constructor functions

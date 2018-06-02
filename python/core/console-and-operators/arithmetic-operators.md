@@ -25,6 +25,7 @@ links:
 # Arithmetic Operators
 
 ---
+
 ## Content
 
 Similar to other programming languages, Python allows the use of standard arithmetic operators with numbers.
@@ -45,15 +46,17 @@ Here they are in use:
 
 >>> 62 / 9
 6.888888888888889
-
 ```
+
 In Python 3, division using `/` will return a float. If you are looking for the floor division, the `//` operator should be used:
+
 ```
 >>> 62 // 9
 6
 ```
 
 ---
+
 ## Practice
 
 Choose the correct result of the following expression:
@@ -64,12 +67,13 @@ Choose the correct result of the following expression:
 
 ???
 
-* 4
-* 5
-* 7
-* 6
+- 4
+- 5
+- 7
+- 6
 
 ---
+
 ## Revision
 
 What are the outputs to the following code snippet respectively:
@@ -78,16 +82,15 @@ What are the outputs to the following code snippet respectively:
 25 // 6
 5 * 5.15
 ```
+
 ???
 ???
 
-
-* `4`
-* `25.75`
-* `5`
-* `6`
-* `3`
-* `26.25`
-* `25`
-* `26`
- 
+- `4`
+- `25.75`
+- `5`
+- `6`
+- `3`
+- `26.25`
+- `25`
+- `26`

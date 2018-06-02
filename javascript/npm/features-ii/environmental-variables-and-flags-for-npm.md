@@ -23,14 +23,15 @@ tags:
 
 links:
   - '[strongloop.com](https://strongloop.com/strongblog/3-neat-tricks-with-npm-run/){website}'
-
 ---
+
 # Flags for `npm`
 
 ---
+
 ## Content
 
-Configuration options such as **environment variables** and **command line flags** that are used for *Node.js* are also available for the `npm` package manager.
+Configuration options such as **environment variables** and **command line flags** that are used for _Node.js_ are also available for the `npm` package manager.
 
 In particular the `npm run` and `npm start` commands let you set required **flags** (like the old `--harmony`) before running.
 
@@ -54,6 +55,7 @@ Suppose your application relies on the `env NODE_PATH ./` trick, but also on oth
 ```
 
 ---
+
 ## Practice
 
 How would you add an environmental variable called `API_KEY` that's equal to `xyz` at the runtime of you node application? Suppose the main file of you application is `index.js`
@@ -62,18 +64,19 @@ How would you add an environmental variable called `API_KEY` that's equal to `xy
 $ ????????? ??? ???
 ```
 
-* API_KEY
-* =
-* xyz
-* node
-* index.js
-* &&
-* API
-* ENVS
-* =[
-* API_KEY("xyz")]
+- API_KEY
+- =
+- xyz
+- node
+- index.js
+- &&
+- API
+- ENVS
+- =[
+- API_KEY("xyz")]
 
 ---
+
 ## Revision
 
 In `package.json`, define a script that runs `node index.js`. Add to it the `--harmony` flag at the end and an env variable called `API_KEY` that's equal to "abc".
@@ -87,15 +90,15 @@ In `package.json`, define a script that runs `node index.js`. Add to it the `--h
 }
 ```
 
-* API_KEY
-* abc
-* node
-* index.js
-* --harmony
-* add
-* run
-* scripts
-* npm
-* --har
-* -h
-* "abc"
+- API_KEY
+- abc
+- node
+- index.js
+- --harmony
+- add
+- run
+- scripts
+- npm
+- --har
+- -h
+- "abc"

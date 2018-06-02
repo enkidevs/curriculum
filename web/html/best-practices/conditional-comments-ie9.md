@@ -21,8 +21,11 @@ standards:
 
 
 ---
+
 # Conditional Comments (ie9)
+
 ---
+
 ## Content
 
 Conditional comments are conditional statements used in Internet Explorer versions 5 through 9.
@@ -30,12 +33,15 @@ Conditional comments are conditional statements used in Internet Explorer versio
 There are two types of conditional comments. They are written as:
 
 downlevel-hidden:
+
 ```
 <!--[if expression]>
 HTML goes here
 <![endif]-->
 ```
+
 downlevel-revealed
+
 ```
 <![if expression]>
 HTML goes here
@@ -45,6 +51,7 @@ HTML goes here
 Downlevel-hidden will be revealed only for IE versions 5-9. This is because the syntax is similar to HTML comment syntax.
 
 HTML comment syntax:
+
 ```
 <!-- Comment goes here -->
 ```
@@ -60,25 +67,27 @@ HTML goes here
 ```
 
 ---
+
 ## Practice
 
 How are conditional comments written for versions of IE prior to IE10?
 
 ???
 
- * `<!--[if IE]> HTML CODE HERE <![endif]-->`
- * `<!-[if IE]> HTML CODE HERE <[endif]->`
- * `<-[if IE]> HTML CODE HERE <![endif]-!>`
- * `<![if IE]> HTML CODE HERE <![endifIE]!>`
+- `<!--[if IE]> HTML CODE HERE <![endif]-->`
+- `<!-[if IE]> HTML CODE HERE <[endif]->`
+- `<-[if IE]> HTML CODE HERE <![endif]-!>`
+- `<![if IE]> HTML CODE HERE <![endifIE]!>`
 
 ---
+
 ## Revision
 
 Conditional comments only work in Internet Explorer, versions prior to IE10. Which version are these?
 
 ???
 
- * versions 5 through 9.
- * versions 1 through 9.
- * versions 7 through 9.
- * versions 8 and 9.
+- versions 5 through 9.
+- versions 1 through 9.
+- versions 7 through 9.
+- versions 8 and 9.

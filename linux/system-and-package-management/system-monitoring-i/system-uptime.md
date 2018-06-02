@@ -22,11 +22,13 @@ links:
 # System uptime
 
 ---
+
 ## Content
 
 In Linux, the `uptime` standard command shows information regarding how long your system is running, but also how many users are currently logged in.
 
 Run uptime:
+
 ```
 $ uptime
 12:59  up  2:26, 2 users, \
@@ -39,24 +41,28 @@ $ uptime
 - The load averages for the past 1, 5 and 15 minutes are `1.19`, `2.45` and `4.34`.
 
 To display just the uptime:
+
 ```
 $ uptime -p
 ```
+
 Display last time the system restarted:
+
 ```
 $ uptime -s
 ```
 
 ---
+
 ## Revision
 
-Check for how long your system is running: 
+Check for how long your system is running:
+
 ```
 $ ???
 ```
 
-* `uptime`
-* `whoami`
-* `who am i`
-* `stats`
-
+- `uptime`
+- `whoami`
+- `who am i`
+- `stats`

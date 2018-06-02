@@ -1,0 +1,10 @@
+{
+  "name": "curriculum",
+  "private": true,
+  "scripts": {
+    "prettier": "./node_modules/.bin/prettier --write '**/*.{js,json,scss,md,ts}'"
+  },
+  "devDependencies": {
+    "prettier": "1.13.4"
+  }
+}

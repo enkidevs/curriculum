@@ -17,11 +17,13 @@ category: feature
 # Functools' `wraps`
 
 ---
+
 ## Content
 
-As useful as decorators can be, they prove hard to debug. One important reason for that is the wrapping mechanism: the decorator overrides the wrapped function's properties, such as the name or the documentation (*docstrings*[1]).   
+As useful as decorators can be, they prove hard to debug. One important reason for that is the wrapping mechanism: the decorator overrides the wrapped function's properties, such as the name or the documentation (_docstrings_[1]).
 
 For example, for the code below:
+
 ```python
 def h2_decorate(string_function):
   def func_wrapper(name):
@@ -35,13 +37,17 @@ def say_hello(name):
   return "Hello, {0}!".format(name)
 print(say_hello.__name__)
 ```
+
 Outputs:
+
 ```python
 func_wrapper
 # instead of expected
 say_hello
 ```
-This is, most of time, not helpful, even though it makes sense. However, `functools` module provides an useful *decorator*, `wraps`, that acts as a middleware between the two functions and which transfers the metadata. Considering the same `say_hello` function:
+
+This is, most of time, not helpful, even though it makes sense. However, `functools` module provides an useful _decorator_, `wraps`, that acts as a middleware between the two functions and which transfers the metadata. Considering the same `say_hello` function:
+
 ```python
 from functools import wraps
 
@@ -58,19 +64,21 @@ print(say_hello.__doc__)
 ```
 
 ---
+
 ## Revision
 
 The `wraps` function of `functools` module works like any other
 
 ???
 
-
-* decorator
-* method
-* module
-* class method
+- decorator
+- method
+- module
+- class method
 
 ---
+
 ## Footnotes
+
 [1: Docstring]
 Python docstrings are a way of documenting code. The docstring for an object should be the first statement of that object, after the definition. They are recognized by the Python compiler and can be accessed via `__doc__` property of the object.

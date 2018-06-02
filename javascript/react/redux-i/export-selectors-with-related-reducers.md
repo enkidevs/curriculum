@@ -11,12 +11,12 @@ category: best practice
 
 links:
   - '[twitter.com](https://twitter.com/dan_abramov/status/664581975764766721){website}'
-
-
 ---
+
 # Export selectors with related reducers
 
 ---
+
 ## Content
 
 Selectors are used to compute derived data, thus making Redux store the minimal possible state. Reducers specify how the application's state changes in response to some actions.
@@ -25,25 +25,27 @@ A good practice in Redux is to export your **selectors** with the related **redu
 Doing so, views and action creators can be decoupled from the state shape tree.
 
 ```javascript
-function visibleIds(state = [], action){
+function visibleIds(state = [], action) {
   switch (action.type) {
     case RECEIVE_PRODUCTS:
       return action.products.map(
-        product => product.id)
+        product => product.id
+      );
     default:
-      return state
+      return state;
   }
 }
 export default combineReducers({
   byId,
   visibleIds
-})
-export function getProduct(state,id) {
-  return state.byId[id]
+});
+export function getProduct(state, id) {
+  return state.byId[id];
 }
 export function getVisibleProducts(state) {
-  return state.visibleIds.map(
-    id => getProduct(state,id))
+  return state.visibleIds.map(id =>
+    getProduct(state, id)
+  );
 }
 ```
 
@@ -53,40 +55,42 @@ Another example:
 function mapStateToProps(state) {
   return {
     products: getVisibleProducts(
-      state.products)
-  }
+      state.products
+    )
+  };
 }
 export default connect(
   mapStateToProps,
   { addToCart }
-)(ProductsContainer)
-
+)(ProductsContainer);
 ```
 
 ---
+
 ## Practice
 
 A good practice in Redux is to export your ??? with the related ???.
 
-* selectors
-* reducers
-* views
-* doms
-* components
-* instances
-* computation functions
-* state
-* props
+- selectors
+- reducers
+- views
+- doms
+- components
+- instances
+- computation functions
+- state
+- props
 
 ---
+
 ## Revision
 
 Selectors are used to compute ???, therefore ensuring that Redux stores the ???.
 
-* derived data
-* minimal possible state
-* maximum possible state
-* selected data
-* exported data
-* exported state
-* selected state
+- derived data
+- minimal possible state
+- maximum possible state
+- selected data
+- exported data
+- exported state
+- selected state

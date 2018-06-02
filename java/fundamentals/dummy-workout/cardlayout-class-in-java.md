@@ -27,9 +27,11 @@ links:
     [docs.oracle.com](https://docs.oracle.com/javase/tutorial/uiswing/layout/card.html){website}
 
 ---
+
 # `CardLayout` class in Java
 
 ---
+
 ## Content
 
 A `CardLayout` object is a layout manager for a container. It treats each component in the container as a card. The elements of a `CardLayout` are stacked, one on top of the other like a deck of cards.

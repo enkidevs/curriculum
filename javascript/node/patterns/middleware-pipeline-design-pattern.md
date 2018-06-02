@@ -22,9 +22,11 @@ links:
   - '[through](https://www.npmjs.com/package/through){documentation}'
 
 ---
+
 # Middleware/pipeline design pattern
 
 ---
+
 ## Content
 
 The **middleware** or **pipeline** concept is used everywhere in Node.js. They represent a series of processing units connected subsequently: **the output of one unit is the input for the next one**.
@@ -71,18 +73,20 @@ fs.createReadStream("file.gz")
 ```
 
 ---
+
 ## Practice
 
 Describe the Middleware/pipeline design pattern:
 
 the ??? of one unit is the ??? for the next one.
 
-* output
-* input
-* error
-* prototype
+- output
+- input
+- error
+- prototype
 
 ---
+
 ## Revision
 
 Which design pattern can you observe in the following snippet which archives `raw.txt`?
@@ -90,15 +94,15 @@ Which design pattern can you observe in the following snippet which archives `ra
 ```javascript
 fs.createReadStream('raw.txt')
   .pipe(zlib.createGzip())
-  .pipe(fs.createWriteStream('raw.gz'))
+  .pipe(fs.createWriteStream('raw.gz'));
 ```
 
 ???
 
-* middleware/pipeline
-* factory
-* process-nexttick
-* builder
-* singleton
-* prototype
-* waterfall
+- middleware/pipeline
+- factory
+- process-nexttick
+- builder
+- singleton
+- prototype
+- waterfall

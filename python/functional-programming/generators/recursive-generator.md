@@ -20,11 +20,13 @@ links:
 # Recursive generator
 
 ---
+
 ## Content
 
-Before the release of Python 3, **recursive generators** were implemented by calling the **generator function** in a `for` loop.  
+Before the release of Python 3, **recursive generators** were implemented by calling the **generator function** in a `for` loop.
 
 Consider the following example:
+
 ```
 def infinity(start):
     yield start
@@ -37,6 +39,7 @@ We defined a **generator** that counts up to infinity. During the first evaluati
 To achieve the same result, **Python 3** introduced a new construct, called `yield from`. This allows users to `yield` over a generator inside another generator - in other words, creating a **recursive generator**.
 
 Let's check out the example above implemented using `yield from`:
+
 ```
 def infinity(start):
     yield start
@@ -47,11 +50,12 @@ print(next(gen)) # 20
 print(next(gen)) # 21
 ```
 
-One common use of **recursive generators** is traversing *non-linear data structures* like binary trees.
+One common use of **recursive generators** is traversing _non-linear data structures_ like binary trees.
 
 **N.B.** a recursive generator will throw `StopIteration` once it is consumed.
 
 ---
+
 ## Practice
 
 Can you spot which of the following generators are recursive?
@@ -66,16 +70,15 @@ def list_gen(l):
 def cubic_generator(n):
 	for i in range(n):
 		yield i ** 3
-
 ```
 
-
-* `list_gen`
-* `cubic_generator`
-* both
-* neither
+- `list_gen`
+- `cubic_generator`
+- both
+- neither
 
 ---
+
 ## Revision
 
 Complete the missing Python 3 specific syntax of the following recursive generator:
@@ -88,18 +91,15 @@ def countdown(start):
 c = countdown(30)
 print(???(c)) # 30
 print(next(c)) # 29
-
 ```
 
-
-* `start`
-* `yield`
-* `from`
-* `countdown`
-* `next`
-* `form`
-* `next()`
-* `yield()`
-* `yield from`
-* `.next`
-
+- `start`
+- `yield`
+- `from`
+- `countdown`
+- `next`
+- `form`
+- `next()`
+- `yield()`
+- `yield from`
+- `.next`

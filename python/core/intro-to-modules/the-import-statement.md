@@ -23,9 +23,10 @@ links:
 # The import statement
 
 ---
+
 ## Content
 
-You can use any Python source file as a **module** by executing an `import` statement in some *other Python source file*.
+You can use any Python source file as a **module** by executing an `import` statement in some _other Python source file_.
 
 Importing is achieved through the provided `import` statement whose syntax looks like:
 
@@ -35,9 +36,9 @@ import module1[, module2[, ... moduleN]
 # note that [] refers to optional arguments
 ```
 
-When the *interpreter* encounters an `import` statement, it **imports** that specific module inside, as long as it exists in the search path. A **search path** is simply the list of directories where the interpreter searches for the specified module.
+When the _interpreter_ encounters an `import` statement, it **imports** that specific module inside, as long as it exists in the search path. A **search path** is simply the list of directories where the interpreter searches for the specified module.
 
-We will `import` and use a *method* exposed by the `adder` module[1] we defined in the previous insight ("What are modules?"):
+We will `import` and use a _method_ exposed by the `adder` module[1] we defined in the previous insight ("What are modules?"):
 
 ```python
 # we need to import the module first
@@ -50,10 +51,10 @@ print(result)
 # This will be the output: 7
 ```
 
-
 Note that a module is imported just **once**, regardless of the times it's used as argument for the `import` statement.
 
 ---
+
 ## Practice
 
 We have defined the `counter` module that's supposed to `increment` its state with every function call.
@@ -68,7 +69,6 @@ count = 0
   count += 1
   print(x)
   return count
-
 ```
 
 ```python
@@ -77,26 +77,26 @@ count = 0
 
 counter.increment() # 1
 counter.increment() # 2
-
 ```
 
-
-* `def`
-* `increment():`
-* `import`
-* `counter`
-* `increment()`
-* `increment:`
-* `as`
-* `counter`
-* `count`
-* `print`
-* `counter;`
+- `def`
+- `increment():`
+- `import`
+- `counter`
+- `increment()`
+- `increment:`
+- `as`
+- `counter`
+- `count`
+- `print`
+- `counter;`
 
 ---
+
 ## Revision
 
 Fill in the gaps such that the defined module is successfully imported and run:
+
 ```python
 # subtractor.py
 
@@ -114,23 +114,24 @@ subtractor.???(10, 2)
 # 10 - 2 is: 8
 ```
 
-
-* `import`
-* `subtractor`
-* `subtract`
-* `subtractor;`
-* `subtractor()`
-* `print`
-* `subtract()`
+- `import`
+- `subtractor`
+- `subtract`
+- `subtractor;`
+- `subtractor()`
+- `print`
+- `subtract()`
 
 ---
+
 ## Footnotes
+
 [1:adder]
 Consider the previously defined module in `added.py`:
+
 ```python
 def add(a, b):
     sum = a + b
     print("The sum is: ", sum)
     return sum
 ```
- 

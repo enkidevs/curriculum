@@ -29,6 +29,7 @@ links:
 # Practice python string manipulation
 
 ---
+
 ## Exercise
 
 Train your math skills with python.

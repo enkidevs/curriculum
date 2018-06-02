@@ -19,9 +19,11 @@ links:
     [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=244){website}
 
 ---
+
 # Avoid tab characters
 
 ---
+
 ## Content
 
 The use of tab characters for indentation purposes should be avoided because tab characters are ambiguous; they can be represented in different ways by different systems. This means that code that appears well formatted in one editor, may be difficult to read in another.

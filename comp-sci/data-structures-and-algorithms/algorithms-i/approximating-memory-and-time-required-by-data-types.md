@@ -28,15 +28,16 @@ parent: node-height-and-depth
 # Approximating Memory and Time required by Data Types
 
 ---
+
 ## Content
 
-One of the main reasons of having multiple data structures is specialization. In the case of an *Array*, inserting an element requires all the elements to the right of the new one to be moved (**shifted**) one position.
+One of the main reasons of having multiple data structures is specialization. In the case of an _Array_, inserting an element requires all the elements to the right of the new one to be moved (**shifted**) one position.
 
-In contrast, inserting an element into a *LinkedList* requires changes to the nodes next to the new one only.
+In contrast, inserting an element into a _LinkedList_ requires changes to the nodes next to the new one only.
 
-The question comes to mind: "What data structure works best if the *main* operation I will perform is *insertion*?"
+The question comes to mind: "What data structure works best if the _main_ operation I will perform is _insertion_?"
 
-Intuitively, the answer would be *LinkedList*, which is also the correct one.
+Intuitively, the answer would be _LinkedList_, which is also the correct one.
 
 Using an Array, I would potentially need to shift **n elements** to the right, if I insert a new element at **index 0**. Here's an example:
 
@@ -55,45 +56,50 @@ And the list afterwards:
 ![listafter](%3Csvg%20width%3D%22100%25%22%20width%3D%22700%22%20height%3D%22auto%22%20viewBox%3D%220%200%20700%20300%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ctitle%3EArtboard%3C%2Ftitle%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20stroke%3D%22currentColor%22%20stroke-width%3D%222%22%20d%3D%22M33%2057h100v100H33z%22%2F%3E%3Cpath%20d%3D%22M61%2058v98m44-97v97%22%20stroke%3D%22currentColor%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22square%22%2F%3E%3Ctext%20font-family%3D%22RobotoMono-Light%2C%20Roboto%20Mono%22%20font-size%3D%2240%22%20font-weight%3D%22300%22%20letter-spacing%3D%22-3%22%20fill%3D%22currentColor%22%3E%3Ctspan%20x%3D%2270.0898438%22%20y%3D%22118%22%3EX%3C%2Ftspan%3E%3C%2Ftext%3E%3Cpath%20stroke%3D%22currentColor%22%20stroke-width%3D%222%22%20d%3D%22M174%2057h100v100H174z%22%2F%3E%3Cpath%20d%3D%22M202%2058v98m44-97v97%22%20stroke%3D%22currentColor%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22square%22%2F%3E%3Ctext%20font-family%3D%22RobotoMono-Light%2C%20Roboto%20Mono%22%20font-size%3D%2240%22%20font-weight%3D%22300%22%20letter-spacing%3D%22-3%22%20fill%3D%22currentColor%22%3E%3Ctspan%20x%3D%22214.089844%22%20y%3D%22118%22%3EZ%3C%2Ftspan%3E%3C%2Ftext%3E%3Cpath%20stroke%3D%22currentColor%22%20stroke-width%3D%222%22%20d%3D%22M300%2057h100v100H300zm126-1h100v100H426z%22%2F%3E%3Cpath%20d%3D%22M452%2057v98m46-97v97%22%20stroke%3D%22currentColor%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22square%22%2F%3E%3Ctext%20font-family%3D%22RobotoMono-Light%2C%20Roboto%20Mono%22%20font-size%3D%2240%22%20font-weight%3D%22300%22%20letter-spacing%3D%22-3%22%20fill%3D%22currentColor%22%3E%3Ctspan%20x%3D%22466.089844%22%20y%3D%22117%22%3EM%3C%2Ftspan%3E%3C%2Ftext%3E%3Cpath%20stroke%3D%22currentColor%22%20stroke-width%3D%222%22%20d%3D%22M566%2056h100v100H566z%22%2F%3E%3Cpath%20d%3D%22M594%2057v98m44-97v97%22%20stroke%3D%22currentColor%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22square%22%2F%3E%3Ctext%20font-family%3D%22RobotoMono-Light%2C%20Roboto%20Mono%22%20font-size%3D%2240%22%20font-weight%3D%22300%22%20letter-spacing%3D%22-3%22%20fill%3D%22currentColor%22%3E%3Ctspan%20x%3D%22606.089844%22%20y%3D%22117%22%3ER%3C%2Ftspan%3E%3C%2Ftext%3E%3Cpath%20d%3D%22M256%2084h60m-10.8%203l10.8-3-10.8-3%22%20stroke%3D%22%23FFF%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22square%22%2F%3E%3Cpath%20d%3D%22M119%2085h70m-10.8%203l10.8-3-10.8-3%22%20stroke%3D%22currentColor%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22square%22%2F%3E%3Cpath%20d%3D%22M382%20127h60m-49.2%203l-10.8-3%2010.8-3%22%20stroke%3D%22%23FFF%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22square%22%2F%3E%3Cpath%20d%3D%22M119%20128h70m-59.2%203l-10.8-3%2010.8-3M328%2058v98m44-97v97%22%20stroke%3D%22currentColor%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22square%22%2F%3E%3Ctext%20font-family%3D%22RobotoMono-Light%2C%20Roboto%20Mono%22%20font-size%3D%2240%22%20font-weight%3D%22300%22%20letter-spacing%3D%22-3%22%20fill%3D%22currentColor%22%3E%3Ctspan%20x%3D%22340.089844%22%20y%3D%22120%22%3EA%3C%2Ftspan%3E%3C%2Ftext%3E%3Cpath%20d%3D%22M382%2084h60m-10.8%203l10.8-3-10.8-3M256%20127h60m-49.2%203l-10.8-3%2010.8-3%22%20stroke%3D%22%23FFF%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22square%22%2F%3E%3Cpath%20d%3D%22M13%20128h35m-24.2%203L13%20128l10.8-3m487.2%202h70m-59.2%203l-10.8-3%2010.8-3M511%2084h70m-10.8%203l10.8-3-10.8-3m81.8%203h35m-10.8%203l10.8-3-10.8-3%22%20stroke%3D%22currentColor%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22square%22%2F%3E%3Ctext%20font-family%3D%22RobotoMono-Light%2C%20Roboto%20Mono%22%20font-size%3D%2230%22%20font-weight%3D%22300%22%20letter-spacing%3D%22-2.25%22%20fill%3D%22currentColor%22%3E%3Ctspan%20x%3D%22170.463379%22%20y%3D%22227%22%3E4%20references%20changed%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
 We can say that:
-- *For an Array* with n elements, the worst-case insertion scenario requires `n operations` to complete.
-- *For a LinkedList* with n elements, the worst-case insertion scenario takes approximately `1 operation` to finish.
 
-This **worst-case** approximation is expressed using the `Big O`[1] notation. In other words, *Big O* is a relative representation of the complexity of an algorithm or of performing operations on a data structure.
+- _For an Array_ with n elements, the worst-case insertion scenario requires `n operations` to complete.
+- _For a LinkedList_ with n elements, the worst-case insertion scenario takes approximately `1 operation` to finish.
 
-For example, when talking about moving from end to end within an array, it makes sense to say that the number of operations is bounded by the number of items in the array, or `O(n)`. Moreover, the insertion operation is bounded by the same function, `O(n)`, as inserting at index 0 means performing additional *n* operations for moving all of the items to the right.
+This **worst-case** approximation is expressed using the `Big O`[1] notation. In other words, _Big O_ is a relative representation of the complexity of an algorithm or of performing operations on a data structure.
+
+For example, when talking about moving from end to end within an array, it makes sense to say that the number of operations is bounded by the number of items in the array, or `O(n)`. Moreover, the insertion operation is bounded by the same function, `O(n)`, as inserting at index 0 means performing additional _n_ operations for moving all of the items to the right.
 
 For comparison, visiting every node in a linked list is also a linear operation (`O(n)`). Inserting, however, does not depend on the size of the list, but on the number of the immediate neighbors, which is a constant relative to the size[2]. Therefore, the insertion operation is bounded by the constant function, `O(1)`.
 
 ---
+
 ## Practice
 
 In an array, how many operations are required for the worst-case scenario deletion (removal of the element with index 0)?
 
 ???
 
-* n
-* 1
-* log n
-* n×n
+- n
+- 1
+- log n
+- n×n
 
 ---
+
 ## Revision
 
 Which of the following operations is bounded by the constant function?
 
 ???
 
-* LinkedList insertion
-* Array insertion
-* Array searching
-* LinkedList searching
+- LinkedList insertion
+- Array insertion
+- Array searching
+- LinkedList searching
 
 ---
+
 ## Footnotes
+
 [1:Big O]
 Pronounced Big-Oh.
 
 [2:LinkedList]
 The number of nodes depends on the type of LinkedList used and on how many references each node holds.
 
-For example, in a *SinglyLinkedList* you have to change 2 references, in a *DoublyLinkedList* you have to change 4 references, but, in the end, it **does not** depend on *the total number of nodes* in the list.
+For example, in a _SinglyLinkedList_ you have to change 2 references, in a _DoublyLinkedList_ you have to change 4 references, but, in the end, it **does not** depend on _the total number of nodes_ in the list.

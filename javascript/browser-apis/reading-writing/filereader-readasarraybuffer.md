@@ -15,14 +15,16 @@ links:
   - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays){website}'
 
 ---
+
 # FileReader.readAsArrayBuffer()
 
 ---
+
 ## Content
 
-The `readAsArrayBuffer()` method will read a *file* or *blob* object and produce an *ArrayBuffer*.
+The `readAsArrayBuffer()` method will read a _file_ or _blob_ object and produce an _ArrayBuffer_.
 
-You cannot work with the data contained in *ArrayBuffers* directly, but can access it via a `DataView` object. The buffer and the view make together a **typed array**.
+You cannot work with the data contained in _ArrayBuffers_ directly, but can access it via a `DataView` object. The buffer and the view make together a **typed array**.
 
 ArrayBuffers can be used to work with raw data containing complex types, convert file formats and when working with the `XmlHttpRequest` object and binary data.
 
@@ -36,13 +38,13 @@ Reading data as an array buffer and assign it to an array of 8 bit unsigned inte
 
 ```javascript
 reader.onload = function(e) {
-  var chars  =
-    new Uint8Array(reader.result);
-}
+  var chars = new Uint8Array(reader.result);
+};
 reader.readAsArrayBuffer(file);
 ```
 
 ---
+
 ## Practice
 
 Complete the following code snippet such that the `file` object is read as an array buffer?
@@ -52,15 +54,16 @@ var reader = new ???();
 reader.???(file);
 ```
 
-* FileReader
-* readAsArrayBuffer
-* fReader
-* file-reader
-* read
-* interpret
-* readAsArray
+- FileReader
+- readAsArrayBuffer
+- fReader
+- file-reader
+- read
+- interpret
+- readAsArray
 
 ---
+
 ## Revision
 
 Which method of the `FileReader` class can be used to read data as an array buffer?
@@ -70,9 +73,8 @@ const reader = new FileReader()
 reader.???()
 ```
 
-* readAsArrayBuffer
-* readAsBuffer
-* readTypedArray
-* readArray
-* readBuffer
-
+- readAsArrayBuffer
+- readAsBuffer
+- readTypedArray
+- readArray
+- readBuffer

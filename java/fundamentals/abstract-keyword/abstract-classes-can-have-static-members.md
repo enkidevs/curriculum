@@ -30,11 +30,12 @@ links:
 # `abstract` classes can have `static` members
 
 ---
+
 ## Content
 
-An `abstract` class cannot be instantiated, so any instance methods that have been implemented cannot be called. 
+An `abstract` class cannot be instantiated, so any instance methods that have been implemented cannot be called.
 
-However, it is possible to also declare `static` methods within an `abstract` class.  Because `static` methods belong to a class rather than an instance of that class, it is possible to call these `static` methods from an `abstract` class.
+However, it is possible to also declare `static` methods within an `abstract` class. Because `static` methods belong to a class rather than an instance of that class, it is possible to call these `static` methods from an `abstract` class.
 
 ```
 abstract class AClass {
@@ -44,9 +45,11 @@ abstract class AClass {
   }
 }
 ```
+
 The `abstract` class above contains a `static` method. It can be called like this:
+
 ```
 int x = AClass.staticMethod(2);
 ```
-An `abstract` class can also have `static` fields.
 
+An `abstract` class can also have `static` fields.

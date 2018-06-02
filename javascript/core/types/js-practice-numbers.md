@@ -31,6 +31,7 @@ links:
 # JS Practice Numbers
 
 ---
+
 ## Exercise
 
 Practice using JavaScript Numbers on Code Wars

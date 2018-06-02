@@ -20,6 +20,7 @@ links:
 # Merging under the hood
 
 ---
+
 ## Content
 
 Using the `git merge` you can combine different development streams (branches) together.
@@ -40,20 +41,19 @@ This option is used to preserve historical information when merging.
 
 ### 3. Three way merge
 
-Three way merging is used when fast-forwarding is not applicable - when they diverge by too much. **Git** will combine the two histories of the merging branches into a new *snapshot* and then point to that new commit.
+Three way merging is used when fast-forwarding is not applicable - when they diverge by too much. **Git** will combine the two histories of the merging branches into a new _snapshot_ and then point to that new commit.
 
 When both branches modify the same part of the same file, conflicts are explicitly revealed.
 
 ---
+
 ## Revision
 
 What flag can be used such that fast-forward merge is not used even if its possible?
 ???
 
-
-* `--no-ff`
-* `-n`
-* `-n-ff`
-* `ff-n`
-* `--twm`
-
+- `--no-ff`
+- `-n`
+- `-n-ff`
+- `ff-n`
+- `--twm`

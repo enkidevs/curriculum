@@ -25,9 +25,11 @@ links:
     [alvinalexander.com](http://alvinalexander.com/java/edu/pj/pj010018){website}
 
 ---
+
 # Ternary operator in Java
 
 ---
+
 ## Content
 
 In a single line of code, the Java ternary operator allows us to assign a value to a variable based on a boolean expression. At its most basic, the ternary operator can be used as an alternative to the if/then/else syntax.

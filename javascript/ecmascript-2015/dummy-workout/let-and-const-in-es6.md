@@ -24,50 +24,55 @@ links:
   - '[MDN - Const](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const){website}'
 
 ---
+
 # `let` and `const` in ES6
 
 ---
+
 ## Content
 
 ES6 introduces `let` and `const`. You can use these to create variables that are **block-scoped**.
 
 In ES5 `var` variables are **function-scoped**.
 
-You can use `const` to create **constant**  variables:
+You can use `const` to create **constant** variables:
+
 ```
 'use strict'; // needed
 const c = 'Enki';
 c = 'Noki'; // Error
 ```
 
-This does not mean the variable is *immutable*, just that it cannot be reassigned.
+This does not mean the variable is _immutable_, just that it cannot be reassigned.
 
 In a loop the `const` variable is created again in each iteration, so it can be given a different value each time.
 
 You can use `let` to create **mutable** variables. If you declare a variable in a loop using `let`, you get a new binding for each iteration. This can be used in `for`, `for-in` and `for-of` loops:
+
 ```
 for (let i=0; i < 3; i++) {
     ...
 }
-
 ```
 
 ---
+
 ## Practice
 
 `const` can be used to create ??? variables, whereas `let` can be used to create ??? variables. `const` and `let` can be used to create ???-scoped variables.
 
-* immutable
-* mutable
-* block
+- immutable
+- mutable
+- block
 
 ---
+
 ## Revision
 
 What must be used to create a **constant, immutable** variable?
 
 ???
 
-* const
-* var
-* let
+- const
+- var
+- let

@@ -26,6 +26,7 @@ links:
 # Practice data structures
 
 ---
+
 ## Exercise
 
 Practice using `data structures` in python.

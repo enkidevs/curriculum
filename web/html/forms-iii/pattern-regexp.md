@@ -19,22 +19,27 @@ aspects:
   - deep
 
 ---
+
 # Pattern (regexp)
+
 ---
+
 ## Content
 
 The HTML input form attribute `pattern` is used to specify a regular expression, `patternt="regexp"`, that the `<input>` elements value is checked against.
 
 The pattern attribute works for several input types:
- - `date`
- - `email`
- - `password`
- - `search`
- - `tel`
- - `text`
- - `URL`
+
+- `date`
+- `email`
+- `password`
+- `search`
+- `tel`
+- `text`
+- `URL`
 
 Example:
+
 ```
 <form
   action="/action.php">
@@ -52,8 +57,8 @@ In the example above, we use the `pattern` attribute to set a specific pattern, 
 You can also add different patterns.
 For instance, if you specify `pattern="[a-zA-Z0-9]{10}"`, the result can be any alphanumerical value ranging from lower and uppercase a-z letters and any number from 0-9 with a maximum of 10 characters.
 
-
 Another example, where a more complicated pattern is used to force the user to make a more complicated password:
+
 ```
 <form
   action="/action.php">
@@ -74,6 +79,7 @@ Another example, where a more complicated pattern is used to force the user to m
 In the example above, the user has to have at least one lowercase letter, one uppercase letter, one number and a minimum of 8 characters and a maxium of 20 characters.
 
 ---
+
 ## Practice
 
 Mark the string that would NOT pass this pattern:
@@ -87,14 +93,14 @@ Mark the string that would NOT pass this pattern:
 
 ???
 
-* http://enki.com
-* enkiCode
-* Colorado
-* 12Num34
-* 8675309
-
+- http://enki.com
+- enkiCode
+- Colorado
+- 12Num34
+- 8675309
 
 ---
+
 ## Revision
 
 Which form attribute is used to only allow a value that follows a unique expression?
@@ -111,12 +117,13 @@ Which form attribute is used to only allow a value that follows a unique express
 </form>
 ```
 
-* pattern
-* expression
-* compare
-* limitation
+- pattern
+- expression
+- compare
+- limitation
 
 ---
+
 ## Quiz
 
 ### How much do you know about forms and accepting certain data?
@@ -137,7 +144,7 @@ When you look at the title, which regular expression do you think should be set 
 </form>
 ```
 
-* `[A-Za-z0-9_]{1,15}`
-* `[A-Za-z0-9_]{1-15}`
-* `[a-zA-Z0-9_]{15}`
-* `[A-Z-a-z-0-9_]{1-15}`
+- `[A-Za-z0-9_]{1,15}`
+- `[A-Za-z0-9_]{1-15}`
+- `[a-zA-Z0-9_]{15}`
+- `[A-Z-a-z-0-9_]{1-15}`

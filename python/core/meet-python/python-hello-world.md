@@ -21,6 +21,7 @@ standards:
 # Hello World!
 
 ---
+
 ## Content
 
 We can write our first Python program, and print Hello World to the console!
@@ -44,6 +45,7 @@ This produces the following output:
 ```
 
 ---
+
 ## Revision
 
 Complete the code snippet:
@@ -52,8 +54,7 @@ Complete the code snippet:
 ???('Python with Enki!')
 ```
 
-* `print`
-* `write`
-* `sys.out`
-* `writeln`
- 
+- `print`
+- `write`
+- `sys.out`
+- `writeln`

@@ -20,14 +20,16 @@ tags:
 notes: ''
 
 ---
+
 # How to determine the directory your Java application was started in
 
 ---
+
 ## Content
 
 If you ever need to figure out the current working directory, you can get this information from the system properties.
 
 ```java
-String userDir = 
+String userDir =
     System.getProperty("user.dir");
 ```

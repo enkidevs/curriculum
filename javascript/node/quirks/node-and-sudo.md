@@ -23,9 +23,11 @@ tags:
 notes: This insights is also based on security - should be on a security workout I guess.
 
 ---
+
 # Node and `sudo`
 
 ---
+
 ## Content
 
 ```bash
@@ -47,23 +49,25 @@ $ sudo setcap cap_net_bind_service=+ep
 ```
 
 ---
+
 ## Practice
 
 Should you give your node process permissions to your whole system?
 
 ???
 
-* no
-* yes
-* only if you need port `80` for http
-* only if you need port `443` for http
+- no
+- yes
+- only if you need port `80` for http
+- only if you need port `443` for http
 
 ---
+
 ## Revision
 
 Is running **Node** with `sudo` considered a safe practice?
 
 ???
 
-* no
-* yes
+- no
+- yes

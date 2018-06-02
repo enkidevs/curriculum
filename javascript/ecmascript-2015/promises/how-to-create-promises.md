@@ -15,9 +15,11 @@ links:
   - '[MDN - Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
 
 ---
+
 # How To Create Promises
 
 ---
+
 ## Content
 
 Promises are easy to create.
@@ -46,14 +48,16 @@ Let's pretend we want to call an external service to get a value and on successf
 Instead of actually calling an external service we will use the **setTimeout** method to delay the return 2 seconds simulating making a remote call.
 
 ```javascript
-var p =
-new Promise(function(resolve, reject) {
- console.log("run immediately");
- setTimeout(function(){
-   resolve("enki")}, 2000);
-})
-.then(function(result){
- console.log(result)
+var p = new Promise(function(
+  resolve,
+  reject
+) {
+  console.log('run immediately');
+  setTimeout(function() {
+    resolve('enki');
+  }, 2000);
+}).then(function(result) {
+  console.log(result);
 });
 // logs run immediately
 // waits 2 seconds
@@ -71,6 +75,7 @@ It is important to note that you cannot cancel a promise once it's being process
 Next let's look at how to indicate something went wrong..
 
 ---
+
 ## Practice
 
 Complete the missing words in the code such that the commented scenario stands true:
@@ -92,19 +97,20 @@ const p = new ???(
 // log '..from Enki!'
 ```
 
-* Promise
-* (resolve, reject)
-* resolve
-* then
-* catch
-* reject
-* (reject)
-* await
-* async
-* wait
-* try
+- Promise
+- (resolve, reject)
+- resolve
+- then
+- catch
+- reject
+- (reject)
+- await
+- async
+- wait
+- try
 
 ---
+
 ## Revision
 
 Promises take as input a function with two arguments. How are they called?
@@ -117,10 +123,10 @@ const p = new Promise(
 )
 ```
 
-* resolve
-* reject
-* return
-* error
-* throw
-* catch
-* then
+- resolve
+- reject
+- return
+- error
+- throw
+- catch
+- then

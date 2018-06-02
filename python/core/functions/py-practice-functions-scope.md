@@ -30,7 +30,7 @@ links:
 # Python scope
 
 ---
+
 ## Exercise
 
 Make use of `scope` effectively.
- 
