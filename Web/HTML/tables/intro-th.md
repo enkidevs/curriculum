@@ -17,6 +17,7 @@ tags:
 
 links:
   - '[MDN docs for th](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th){website}'
+  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
   
 ---
 # Intro th
@@ -49,7 +50,7 @@ Matthew    Leach
 Liz        Howard
 ```
 
-The `<th>` elements attributes:
+The `<th>` elements element-specific attributes:
   1/ `abbr`
   2. `colspan`
   3. `headers`
@@ -57,8 +58,10 @@ The `<th>` elements attributes:
   5. `scope`
 
 Also, there are a few more deprecated attributes, to see them and their definitions/explanations check the `MDN docs for th` in the more info section at the bottom of this insight.
+
+The `<th>` element also supports global attributes, to read up on them, visit the more info section at the bottom of this insight.
   
-As for the attributes that are not deprecated and are still in use:
+As for the attributes mentioned above:
 
 1. The `abbr` attribute is used to add an abbreviated description for the content of a cell and speech readers may present this description rather than the content of the cell.
 
