@@ -74,43 +74,16 @@ A: ???
 B: ???
 C: ???
 
-* ol
-* li
-* ul
-* dl
-* il
-* bl
-* ll
+* `ol`
+* `li`
+* `ul`
+* `dl`
+* `il`
+* `bl`
+* `ll`
 
 ---
 ## Revision
-
-What does this code create? 
-
-```
-<ol>
-  <li>Gather Ingredients:</li>
-    <ul>
-      <li>1 1/4 cup Nutella</li>
-      <li>2 large eggs</li>
-      <li>1/2 cup flour</li>
-    </ul>
-  <li>Mix Ingredients</li>
-  <li>Bake 15 mins at 350F</li>
-</ol>
-```
-
-???
-
-* bulleted list within a numbered list
-* 6 items within a numbered list
-* numbered list within a bulleted list
-* ungrouped list within an organic list
-
----
-## Quiz
-
-### How much do you know about nested HTML lists?
 
 Which code block will create this nested list?
 
@@ -122,11 +95,6 @@ Which code block will create this nested list?
 2. Mix Ingredients
 3. Bake 15 mins at 350F
 ```
-
-???
-
-* Option #1
-* Option #2
 
 Option #1: 
 ```
@@ -157,3 +125,35 @@ Option #2:
   <li>Bake 15 mins at 350F</li>
 </ol>
 ```
+
+???
+
+* Option #1
+* Option #2
+
+---
+## Quiz
+
+### How much do you know about nested HTML lists?
+
+What does this code create? 
+
+```
+<ol>
+  <li>Gather Ingredients:</li>
+    <ul>
+      <li>1 1/4 cup Nutella</li>
+      <li>2 large eggs</li>
+      <li>1/2 cup flour</li>
+    </ul>
+  <li>Mix Ingredients</li>
+  <li>Bake 15 mins at 350F</li>
+</ol>
+```
+
+???
+
+* bulleted list within a numbered list
+* 6 items within a numbered list
+* numbered list within a bulleted list
+* ungrouped list within an organic list
