@@ -166,6 +166,7 @@ What does this code create? Choose the appropriate option.
 ## Quiz
 
 ### What does this code create? 
+
 Choose the appropriate option:
 
 ```
@@ -176,43 +177,36 @@ Choose the appropriate option:
 </ol>   
 ```
 
-???
-
-* Option 1
-```
-iii. Coffee
-v. Tea
-iv. Milk
-```
-* Option 2
+A)
 ```
 iii. Milk
 v. Tea
 iv. Coffee
 ```
-* Option 3
+B)
+```
+iii. Coffee
+v. Tea
+iv. Milk
+```
+C)
 ```
 3. Coffee
 5. Tea
 4. Milk
 ```
-* Option 4
+D)
 ```
 3. Coffee
 2. 5
 1. Milk
 ```
-* Option 5
-```
-i. Coffee
-ii. 5
-iii. Milk
-```
-* Option 6 
-```
-iii. Coffee
-ii. 5
-i. Milk
-```
+
+???
+
+* Option B
+* Option A
+* Option C
+* Option D
 
 
