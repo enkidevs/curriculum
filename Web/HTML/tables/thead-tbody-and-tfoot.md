@@ -20,6 +20,7 @@ links:
   - '[MDN docs for tbody](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody){website}'
   - '[MDN docs for tfoot](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot){website}'
   - '[Codepen Example](https://codepen.io/stefan-stojanovic/pen/jKbJgQ){website}'
+  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
   
 ---
 # Thead, tbody, & tfoot
@@ -36,7 +37,11 @@ The `<tfoot>` element is used to set a set of `<tr>` elements as the footer of a
 
 Using these elements provides useful semantic information for screen readers, printers and other accessibility purposes. 
 
-The `<thead>`, `<tbody>`, and `<tfoot>` elements have no default visual effects. Also, the `<thead>`, `<tbody>` and `<tfoot>` elements attributes are all deprecated and if you wish to add any visual effects, you should style them with the appropriate CSS properties.
+The `<thead>`, `<tbody>`, and `<tfoot>` elements have no default visual effects. Additionally, the `<thead>`, `<tbody>` and `<tfoot>` element styling attributes are all deprecated and if you wish to add any visual effects, you should style them with the appropriate CSS properties.
+
+**Note**
+The `<thead>`, `<tbody>`, and `<tfoot>` elements still support global attributes.
+If you wish to know more about global atributes, check the `more info` section at the bottom of this insight.
 
 Some CSS properties for styling `<thead>` `<tbody>` and `<tfoot>`:
   - `text-align`
