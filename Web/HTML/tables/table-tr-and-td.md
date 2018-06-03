@@ -19,6 +19,7 @@ links:
   - '[MDN Docs for The Table element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table){website}'
   - '[MDN docs for The Table Row element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr){website}'
   - '[MDN docs for The Table Data element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td){website}'
+  - '[MDN docs for Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
   
 ---
 # Table, tr, & td
@@ -79,9 +80,17 @@ Matthew Denver        Colorado
 Liz     San Francisco California
 ```
 
-The `<table>` element has had many attributes, nevertheless they are all deprecated and for achieving the same effects you should use appropriate CSS properties.
+The `<table>` element has many deprecated attributes and for achieving a similar effects as those attributes used to provide you should use appropriate CSS properties.
 
-Deprecated attributes:
+**Important note!**
+The `<table>`, `<tr>` and `<td>` elements still support all the global attributes.
+  - `style`
+  - `id`
+  - `lang`
+  - etc..
+  - To see all the global attributes visit the link in the more info section at the bottom of this insight.
+
+Deprecated `<table>` attributes:
   1. `align`
   2. `bgcolor`
   3. `border`
@@ -127,7 +136,9 @@ Next, the `<td>` elements attributes (not depricated):
 2. The `headers` attribute is used to indicate a space-separated list/string which contains information about a cell. The value of the header needs to correlate with the `id` attribute of the header cell. 
 
 3. The `rowspan` attribute is used to indicate how many rows the cell extends. The default and minimum value is `1` and the maximum value is 65534. If you add a number higher than 65534 the value is reverted back to 65534, and if you set the value as 0, the rows will extend until the end of the table section(`<thead>`, `<tbody>`,`<tfoot>`), that the cell belongs to.
-  
+
+**(More examples with these attributes in later insights)**
+
 As for the deprecated `<td>` and `<tr>` elements attributes, check the more info section at the bottom of this insight.
 
 
