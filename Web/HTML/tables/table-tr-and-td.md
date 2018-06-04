@@ -240,3 +240,81 @@ Pencil 2.99 495 Pen 1.49 223
 * Option B
 * Option C
 * Option D
+
+
+--- 
+## Game
+
+Play the game determining which attribue is deprecated or obsolete and which is still in use:
+
+For `<table>` and `<tr>`.
+
+Valid Attributes:Deprecated Attributes 
+
+```false
+
+align
+%exp
+This is a deprecated attribute
+%
+
+bgcolor
+%exp
+This is a deprecated attribute
+%
+
+border
+%exp
+This is a deprecated attribute
+%
+
+cellpadding
+%exp
+This is a deprecated attribute
+%
+
+rules
+%exp
+This is a deprecated attribute
+%
+
+width
+%exp
+This is a deprecated attribute
+%
+
+```
+
+```true
+
+rowspan
+%exp
+rowspan is a valid td attribute
+%
+
+colspan
+%exp
+colspan is a valid td attribute
+%
+
+style
+%exp
+style is a valid global attribute
+%
+
+id
+%exp
+id is a valid global attribute
+%
+
+lang
+%exp
+lang is a valid global attribute
+%
+
+headers
+%exp
+headers is a valid global attribute
+%
+```
+
