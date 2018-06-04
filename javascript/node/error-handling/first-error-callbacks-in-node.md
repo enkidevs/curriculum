@@ -76,16 +76,16 @@ doSomethingWithCallback(???(???, ???) {
 })
 ```
 
-* function
-* err
-* data
-* if(err)
-* else
-* err
-* data
-* er
-* myData
-* fn
+* `function`
+* `err`
+* `data`
+* `if (err)`
+* `else`
+* `err`
+* `data`
+* `er`
+* `myData`
+* `fn`
 
 ---
 ## Revision
@@ -98,8 +98,8 @@ function(???, ??) {
 }
 ```
 
-* err
-* data
-* fileNotFound
-* log
-* null
+* `err`
+* `data`
+* `fileNotFound`
+* `log`
+* `null`

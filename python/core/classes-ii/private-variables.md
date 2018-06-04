@@ -59,7 +59,7 @@ print(enki._Enki__private)
 ## Practice
 
 What is the output of the following snippet?
-```
+```python
 class Test:
    def __init__(self):
        self.__x = “hey there”
@@ -78,17 +78,17 @@ print(t.__x)
 ## Revision
 
 Complete the following line such that the `private` variable is considered private considering Python conventions:
-```
+```python
 ???private = 30
 ```
 
-*`__`
-*`&&`
-*`--`
-*`def`
-*`class`
-*`private`
-*`p_`
+* `__`
+* `&&`
+* `--`
+* `def`
+* `class`
+* `private`
+* `p_`
 
 ---
 ## Quiz
