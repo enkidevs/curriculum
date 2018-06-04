@@ -82,7 +82,6 @@ Complete the following line such that the `private` variable is considered priva
 ???private = 30
 ```
 
-<<<<<<< HEAD:Python/Core/classes-ii/private-variables.md
 *`__`
 *`&&`
 *`--`

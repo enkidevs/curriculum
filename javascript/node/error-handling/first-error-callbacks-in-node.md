@@ -102,9 +102,4 @@ function(???, ??) {
 * data
 * fileNotFound
 * log
-<<<<<<< HEAD
 * null
-
-=======
-* null
->>>>>>> master
