@@ -62,7 +62,7 @@ What is the output of the following snippet?
 ```python
 class Test:
    def __init__(self):
-       self.__x = “hey there”
+       self.__x = "hey there"
 t = Test()
 print(t.__x)
 ???
