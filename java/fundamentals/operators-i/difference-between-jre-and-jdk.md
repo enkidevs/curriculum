@@ -24,11 +24,11 @@ links:
 ---
 ## Content
 
-`JRE`: *Java Runtime Environment*. It is basically the Java Virtual Machine where your Java programs run on. It also includes browser plugins for Applet execution. 
+`JRE`: *Java Runtime Environment*. It is the Java Virtual Machine where your Java programs run on. It also includes browser plugins for Applet execution. 
 
-`JDK`: It's the full featured *Java Software Development Kit*, including `JRE`, and the compilers and tools (like JavaDoc, and Java Debugger) to create and compile programs.
+`JDK`: It is the full-featured *Java Software Development Kit*, including `JRE`, and the compilers and tools (like JavaDoc, and Java Debugger) to create and compile programs.
 
-If you only care about running Java programs on your browser or computer you will only install JRE.
+If you only care about running Java programs on your browser or computer, you will only install JRE.
 
 On the other hand, if you are planning to do some Java programming, you will also need JDK.
 
