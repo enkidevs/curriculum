@@ -11,7 +11,7 @@ levels:
 
 type: normal
 
-category: hack
+category: hack-a-thon
 
 standards:
   javascript.data-types-structures.3: 10
