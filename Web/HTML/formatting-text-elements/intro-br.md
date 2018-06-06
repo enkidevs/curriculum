@@ -37,9 +37,9 @@ bla bla
 ```
 
 **Notes:**
-  1.) **This element doesn't have a closing tag.**
-  2.) **Line breaks should never be used to separate paragraphs**
-  3.) **Line breaks should never be used to create larger gaps between lines of text.**
+  1) **This element doesn't have a closing tag.**
+  2) **Line breaks should never be used to separate paragraphs**
+  3) **Line breaks should never be used to create larger gaps between lines of text.**
 
 3.1) **This is especially important for users who use screen reading technology. Screen readers may read the elements but not the content in between those elements.**
   
