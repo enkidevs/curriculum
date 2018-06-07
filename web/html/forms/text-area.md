@@ -80,7 +80,7 @@ Write the form code that creates a multi-line input for text.
 ---
 ## Revision
 
-Which element creates a multi-line input field that is 10 lines of text in height and 50 average characters in width.
+Which element creates a multi-line input field that is 10 lines of text in height and 30 average characters in width.
 
 ???
 
