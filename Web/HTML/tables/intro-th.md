@@ -51,7 +51,7 @@ Liz        Howard
 ```
 
 The `<th>` elements element-specific attributes:
-  1/ `abbr`
+  1. `abbr`
   2. `colspan`
   3. `headers`
   4. `rowspan`
@@ -73,16 +73,19 @@ As for the attributes mentioned above:
 
 5. The `scope` attribute is used to define the cells that the header(`<th>`) element relates to.
 Possible values are:
-  a) `auto`
-  b) `col `
-  c) `colgroup`
-  d) `row`
-  e) `rowgroup`
+  1) `auto`
+  2) `col `
+  3) `colgroup`
+  4) `row`
+  5) `rowgroup`
   
-b) Setting the `col` value relates the header to all the cells of the column it belongs to.
-c) `colgroup` value says the header belongs to a `colgroup` and relates to all of its cells.
-d) Setting the `row` value relates the header to all the cells of the row it belongs to.
-e) `rowgroup` value says the header belongs to a `rowgroup` and relates to all of its cells.
+Setting the `col` value relates the header to all the cells of the column it belongs to.
+
+`colgroup` value says the header belongs to a `colgroup` and relates to all of its cells.
+
+Setting the `row` value relates the header to all the cells of the row it belongs to.
+
+`rowgroup` value says the header belongs to a `rowgroup` and relates to all of its cells.
 
 
 Also, the `<th>` element has a default CSS styling:
