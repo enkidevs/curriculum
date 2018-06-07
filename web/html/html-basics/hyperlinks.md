@@ -22,7 +22,6 @@ aspects:
 links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks){documentation}'
 
-
 ---
 
 # Anchor Tags
@@ -54,22 +53,24 @@ Complete the following snippet in order for it to be valid:
 ```html
 <??? ???="www.mywebsite.com">
   My website
-</a>
+<???>
 ```
 
 * `a`
 * `href`
+* `/a`
 * `style`
 * `p`
+* `/p`
 * `link`
+* `/link`
 
 ---
 ## Revision
 
 The tag denoting a hyperlink is ???.
 
-
-* <a>
-* <p>
-* <body>
-* <div>
+* `<a>`
+* `<p>`
+* `<body>`
+* `<div>`
