@@ -51,19 +51,18 @@ The default placeholder for the `href` attribute is `#`. In this case, after cli
 
 Complete the following snippet in order for it to be valid:
 ```html
-<??? ???="www.mywebsite.com">
+<tag ???="www.mywebsite.com">
   My website
-<???>
+</tag>
 ```
+tag = ???
 
-* `a`
 * `href`
-* `/a`
+* `a`
 * `style`
 * `p`
-* `/p`
 * `link`
-* `/link`
+
 
 ---
 ## Revision
