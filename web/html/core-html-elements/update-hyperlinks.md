@@ -104,29 +104,21 @@ In the example above, the picture with the URL `http.logo.com/enki.png` becomes 
 Create a hyperlink text that opens a webpage in a new window:
 
 ```
-<??? ???="???"
+<tag ???="???"
 ???="???">
   Link to Enki
-<???>
+</tag>
 ```
 
-Which line of code will link text to open a new window?
+tag = ???
 
-???
-
-* `a`
 * `href`
 * `http://enkipro.com`
 * `target`
 * `_blank`
-* `/a`
-* `<a href="http://enkipro.com" target="_blank">Link to Enki</a>`
-* `<link href="http://enkipro.com" target="_blank">Link to Enki</link>`
-* `<a src="http://enkipro.com" target="_blank">Link to Enki</a>`
-* `<a href="http://enkipro.com" target="_new">Link to Enki</a>`
+* `a`
 * `img`
 * `link`
-* `/link`
 * `src`
 * `_new`
 
@@ -169,30 +161,17 @@ What is the default style of a text link in HTML?
 * It is blue and bold.
 * There is no visual change to a text link.
 
+
 ---
 ## Quiz
 
 ### How much do you know about HTML hyperlinks?
 
-Which statement about these paragraphs & links is true?
-
-```
-<p>
-  <a
-    href="http://enkipro.com">
-    Click Me
-  </a>
-</p>
-  <a
-   href="http://enkipro.com">
-  <p>Click Me</p>
-</a>
-```
+Which line of code will link text to open a new window?
 
 ???
 
-* Both options are valid, although best to place links within paragraphs.  
-* Both options are valid, although best to place paragraphs within links.  
-* HTML links are required to be placed within paragraphs to be valid.
-* HTML links are required to be placed around entire paragraphs to be valid.
-* Neither line in this example is valid HTML.
+* `<a href="http://enkipro.com" target="_blank">Link to Enki</a>`
+* `<link href="http://enkipro.com" open="new">Link to Enki</link>`
+* `<a src="http://enkipro.com" window="_new">Link to Enki</a>`
+* `<a href="http://enkipro.com" target="_new">Link to Enki</a>`
