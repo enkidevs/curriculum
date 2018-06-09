@@ -44,11 +44,14 @@ Both `<col>` and `<colgroup>` elements support global attributes. If you wish to
 Example with both elements:
 ```
 <table>
-  <colgroup>
-    <col span="2" style="background-color:lightblue">
-    <col style="background-color:hotpink">
-    <col span="3" style="background-color:mediumpurple">
-  </colgroup>
+ <colgroup>
+  <col span="2" 
+    style="background-color:lightblue">
+  <col 
+    style="background-color:hotpink">
+  <col span="3" 
+    style="background-color:mediumpurple">
+ </colgroup>
   <tr>
     <td>col 1</td>
     <td>col 2</td>
