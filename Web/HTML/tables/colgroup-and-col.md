@@ -1,5 +1,5 @@
-# Colgroup & col
-author: matthewleach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -11,57 +11,102 @@ category: must-know
 
 stub: true
 
-
 tags:
   - workout
   - deep
 
-
+---
+# Colgroup & col
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+The HTML self-closing `<col>` element is used to define a column and the `<colgroup>` element is used to define a group of columns for an HTML table.
+
+The `<col>` element provides common semantics and is usually located within the `<colgroup>` element.
+
+The `<col>` element has one element-specific attribute; `span`. All other element specific attributes are obsolete since HTML5.
+
+The `span` attribute is used to specify how many columns does the `<col>` element extend. If the attribute is not provided, the default value is `1`.
+
+This element can also be used to define unique styles within columns.
+
+You can edit the `<col>` element by using the appropriate CSS properties, for instance:
+  - `width`
+  - `text-align`
+
+As for the `<colgroup>` element, just like with the `<col>` element, all element-specific attributes except the `span` attribute are obsolete. Additionally, you shouldn't use the `span` attribute on the `<colgroup>` element if there are one or more `<col>` elements present within the `<colgroup>` element.
+
+The `<colgroup>` element is useful for applying styles to entire columns, rather than repeating styles for each cell in every row.
+
+**Note**
+Both `<col>` and `<colgroup>` elements support global attributes. If you wish to know more about global attributes, visit the more info section at the bottom of this insights.
+
+Example with both elements:
+```
+<table>
+ <colgroup>
+  <col span="2" 
+    style="background-color:lightblue">
+  <col 
+    style="background-color:hotpink">
+  <col span="3" 
+    style="background-color:mediumpurple">
+ </colgroup>
+  <tr>
+    <td>col 1</td>
+    <td>col 2</td>
+    <td>col 3</td>
+    <td>col 4</td>
+    <td>col 5</td>
+    <td>col 6</td>
+  </tr>
+</table>
+```
+
+In the example above, the `<colgroup>` element is used to create a group of 3 `<col>` elements and the `<tr>` element is used to create a single row with 6 `<td>` elements. Each col element spans differently and has a different style; first `<col>` spans 2 columns and is `lightblue`, 2nd `<col>` spans 1 column and is `hotpink` and the third and last `<col>` spans 3 columns and is `mediumpurple`.  
 
 ---
 ## Practice
 
 Write the code to create the following table:
 
-![alt description](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22274%22%20height%3D%2226%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20fill%3D%22%23ADD8E6%22%20d%3D%22M0%200h44v26H0z%22%2F%3E%3Cpath%20fill%3D%22%239270DB%22%20d%3D%22M138%200h44v26h-44zm46%200h44v26h-44zm46%200h44v26h-44z%22%2F%3E%3Cpath%20fill%3D%22%23ADD8E6%22%20d%3D%22M46%200h44v26H46z%22%2F%3E%3Cpath%20fill%3D%22%23FF69B3%22%20d%3D%22M92%200h44v26H92z%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22TimesNewRomanPSMT%2C%20Times%20New%20Roman%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2218%22%20y%3D%2218%22%3E1%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22TimesNewRomanPSMT%2C%20Times%20New%20Roman%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%22110%22%20y%3D%2218%22%3E3%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22TimesNewRomanPSMT%2C%20Times%20New%20Roman%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%22202%22%20y%3D%2218%22%3E5%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22TimesNewRomanPSMT%2C%20Times%20New%20Roman%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%22248%22%20y%3D%2218%22%3E6%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22TimesNewRomanPSMT%2C%20Times%20New%20Roman%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%22156%22%20y%3D%2218%22%3E4%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22TimesNewRomanPSMT%2C%20Times%20New%20Roman%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2264%22%20y%3D%2218%22%3E2%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
-
-`<table>`
-  `<tag1>`
-    `<tag2 span="2" style="background-color:lightblue">`
-    `<tag2 style="background-color:hotpink">`
-    `<tag2 span="3" style="background-color:mediumpurple">`
-  `</tag1>`
-  `<tr>`
-    `<td>`col 1`</td>`
-    `<td>`col 2`</td>`
-    `<td>`col 3`</td>`
-    `<td>`col 4`</td>`
-    `<td>`col 5`</td>`
-    `<td>`col 6`</td>`
-  `</tr>`
-`</table>`
+```
+<table>
+ <tag1>
+  <tag2 span="2" 
+   style="background-color:lightblue">
+  <tag2 
+   style="background-color:hotpink">
+  <tag2 span="3" 
+   style="background-color:mediumpurple">
+  </tag1>
+  <tr>
+   <td>col 1</td>
+   <td>col 2</td>
+   <td>col 3</td>
+   <td>col 4</td>
+   <td>col 5</td>
+   <td>col 6</td>
+  </tr>
+</table>
+```
 
 tag1 = ???
 tag2 = ???
 
-* colgroup
-* col
-* colstyle
-* colspan
-* column
+When using the `<colgroup>` element, which statements is not true?
 
+???
 
-When using the `<colgroup>` element, which statements are true?
-
-+ must be used as a child of a `<table>` element. 
-+ must be placed after any `<caption>` elements
-+ must be placed before any `<thead>`, `<tbody>`, `<tfoot>`, & `<tr>` elements.
-- is used to specify properties for a group of rows within a table.
-- must be placed before any `<caption>` elements
+* `colgroup`
+* `col`
+* must be placed before any `<caption>` elements
+* `colstyle`
+* `colspan`
+* `column`
+* must be used as a child of a `<table>` element. 
+* must be placed after any `<caption>` elements
+* must be placed before any `<thead>`, `<tbody>`, `<tfoot>`, & `<tr>` elements.
 
 ---
 ## Revision
@@ -79,7 +124,7 @@ Which HTML element is useful for applying styles to entire columns, rather than 
 ---
 ## Quiz
 
-How much do you know about tables?
+### How much do you know about tables in HTML?
 
 What self-closing element can be used within `<colgroup>` to define unique styles within columns of an HTML table?
 
