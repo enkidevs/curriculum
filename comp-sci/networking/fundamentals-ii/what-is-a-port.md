@@ -30,7 +30,7 @@ A *web server* and a *mail server* can be hosted by the same machine, but they n
 While the **IP address** identifies a single machine, the combination of **IP address** and **port number** identifies a specific service running on that machine.
 
 If you think of the IP address as the equivalent of a postcode, then the port number represents the house number
-A building located at *249 Oak St.* might have a café at *249 Oak **#1***, a bookshop at *249 Oak **#2***, and a so on.
+A building located at *249 Oak St.* might have a café at *249 Oak* ***#1***, a bookshop at *249 Oak* ***#2***, and a so on.
 
 The syntax used to specify ports is `ip:port`. If our machine is located at `13.0.0.0`, we can have a *mail server* running at:
 ```
