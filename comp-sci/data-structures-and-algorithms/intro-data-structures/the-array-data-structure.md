@@ -45,7 +45,7 @@ int[] myArray = {1,2,3};
 int myArray[] = {1,2,3};
 //python
 from array import array
-myAr = array('i', [1,2,3,4])
+myArray = array('i', [1,2,3])
 //javascript
 var myArray = [1,2,'enki'];
 ```
