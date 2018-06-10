@@ -35,8 +35,8 @@ parent: what-is-http
 An URL can be broken down into several key components:
 ```
 http://www.enki.com:80/path/res?q=x
-|___| |_______________||______||___|
-protocol      host       path  query
+|__|   |_____________||_______||__|
+protocol     host        path  query
 ```
 
 - the **protocol**, usually `http` or `https`. This part states how the data pointed at by the whole URL should be processed
