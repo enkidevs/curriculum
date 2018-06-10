@@ -86,7 +86,7 @@ nˆ3 >= 3nˆ2 + 10n,
 true for any n >= 5
 ```
 In this case:
-```
+```text
 f(n) = 3nˆ2 + 10n
 g(n) = nˆ3
 c = 1
@@ -95,6 +95,6 @@ n' = 5
 
 [2:Big Theta]
 Here, the following axiom is used:
-```
+```text
 if a>=b and b>=a, then a=b.
 ```
