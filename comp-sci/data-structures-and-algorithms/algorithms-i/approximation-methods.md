@@ -54,9 +54,9 @@ The last function, `little-o`, satisfies `f(n)<c⋅g(n)`, for every `n>=n'`. In 
 
 Which bound is defined as:
 ```text
-F(n) is O(f(n))
+g(n) is O(f(n))
 and
-F(n) is not Θ(f(n))
+g(n) is not Θ(f(n))
 ```
 ???
 
@@ -87,8 +87,8 @@ true for any n >= 5
 ```
 In this case:
 ```
-F(n) = 3nˆ2+10n
-f(n) = nˆ3
+f(n) = 3nˆ2 + 10n
+g(n) = nˆ3
 c = 1
 n' = 5
 ```
