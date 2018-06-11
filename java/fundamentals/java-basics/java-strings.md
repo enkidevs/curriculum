@@ -21,7 +21,7 @@ inAlgoPool: false
 ---
 ## Content
 
-What's odd about Java is that *character sequences*, or *strings*, are not *primitives*. However, because they are often used, `Strings have priority over other classes.
+What's odd about Java is that *character sequences*, or *strings*, are not *primitives*. However, because they are often used, `String`s have priority over other classes.
 
 In other words, a `String` is not a primitive, but an `Object`, and one of the simplest. A `String` is initialized as such:
 ```java
