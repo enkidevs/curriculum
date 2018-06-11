@@ -37,7 +37,7 @@ For example, this is not clear:
 public String ga(String n) {
 ...
 ```
-but this makes it obvious that this is a method which takes a name parameter and returns an address as a `String`.
+However, this makes it obvious that this is a method which takes a name parameter and returns an address as a `String`.
 ```
 public String getAddress(String name) {
 ...

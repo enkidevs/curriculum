@@ -7,7 +7,7 @@ levels:
 
 type: normal
 
-category: must-know
+category: must-knowles
 
 inAlgoPool: false
 
@@ -32,7 +32,7 @@ links:
 ---
 ## Content
 
-Splice is a very useful array function that allows you to add and remove items to an array.
+Splice is a handy array function that allows you to add and remove items to an array.
 
 It accepts 3 arguments with the 3rd being optional:
 

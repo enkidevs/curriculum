@@ -7,7 +7,7 @@ levels:
 
 type: normal
 
-category: must-know
+category: must-knowles
 
 inAlgoPool: false
 
@@ -29,7 +29,7 @@ tags:
 ---
 ## Content
 
-Arrays are an important concept in JavaScript and used frequently.
+Arrays are an essential concept in JavaScript and used frequently.
 
 Declaring an array:
 ```

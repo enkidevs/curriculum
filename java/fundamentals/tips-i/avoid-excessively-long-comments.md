@@ -9,7 +9,7 @@ levels:
 
 type: normal
 
-category: tip
+category: tipjar
 
 tags:
 
@@ -35,5 +35,5 @@ It is often necessary to explain what a piece of code does by writing a comment;
 
 If you find yourself regularly having to write long explanations for the code you write, it may be a sign that your code is poorly written.
 
-Following code formatting and variable naming conventions, i.e. writing *self-documenting* code, can reduce the amount of comments required.
+Following code formatting and variable naming conventions, i.e., writing *self-documenting* code can reduce the reduce of comments required.
 
