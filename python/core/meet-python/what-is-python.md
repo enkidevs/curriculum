@@ -5,7 +5,7 @@ levels:
 
   - beginner
   
-aspects:
+tags:
 
   - introduction
 
