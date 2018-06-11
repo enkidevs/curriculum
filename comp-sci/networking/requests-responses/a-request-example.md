@@ -88,10 +88,10 @@ Within a **HTTP request**, details about the browser are contained inside the
 ??? header field.
 
 
-* User-Agent
-* Accept
-* Referer
-* Connection
+* `User-Agent`
+* `Accept`
+* `Referer`
+* `Connection`
 
 ---
 ## Footnotes
