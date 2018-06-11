@@ -7,7 +7,7 @@ levels:
 
 type: normal
 
-category: tipjar
+category: tip
 
 standards:
 
