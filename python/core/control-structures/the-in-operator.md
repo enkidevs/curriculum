@@ -1,6 +1,10 @@
 ---
 author: tommarshall
 
+tags: 
+
+  - introduction
+
 levels:
 
   - beginner
@@ -27,17 +31,17 @@ links:
 ---
 ## Content
 
-Python's `in` operator is a *membership operator* and is used to check whether an object exists inside an iterable object container.
+Python's `in` operator is a *membership operator* and is used to check whether an object exists inside a container of objects--for example, a list. 
 
-It evaluates to true if it finds the specified variable in the sequence, and false if it doesn't.
+It evaluates to true if it finds the specified variable in the container, and false if it doesn't.
 
-An example of an iterable object container is a list. Here's an example of the `in` operator in use searching for a value in a list:
+Here's an example of the `in` operator searching for a value in a list:
 
 ```python
 x = 5
 nums = [1, 2, 3, 4]
 
-# membership operator check using in
+# membership operator check using *in*
 if x in nums:
     print('Found!')
 else:
@@ -46,16 +50,18 @@ else:
 
 ```
 
+Other iterable sequence types include tuples and strings. When Python iterates over a string, it goes character-by-character.
+
 ---
 ## Practice
 
-Complete the following code snippet such that it checks the existance of `x` in the nums `sequence`:
+Complete the following code snippet to check for the existence of the `letter` 'p' in `my_string`, returning True is the string contains the letter p and False if it does not:
 
 ```python
-x = 12
-nums = [1, 2, 100, 11, 5]
+letter = 'p'
+my_string = 'stop, collaborate and listen'
 
-if x ??? nums:
+if letter ??? my_string:
     print(???)
 else:
     print(???)
@@ -76,5 +82,5 @@ The `in` operator evaluates to ??? if it finds the specified variable in the ???
 * true
 * sequence
 * false
-* list
+* tuple
 * map
