@@ -26,7 +26,7 @@ links:
 
 During the development process, a project can grow to thousands of files.
 
-Those files you are currently working on - and changes that may not be committed as part of a **Git** repository - constitute the **working tree**.  Some of these files may be part of a previous commit, but in a different form.
+Those files you are currently working on - and changes that may not be committed as part of a **Git** repository - constitute the **working tree**.  Some of these files _may be_ part of a previous commit, but in a different form.
 
 The **working tree** represents files that have been **created**, **updated** or **modified** and diverge from the contents of the most recent commit.
 
