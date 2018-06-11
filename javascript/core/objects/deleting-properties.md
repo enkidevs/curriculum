@@ -18,7 +18,7 @@ standards:
   javascript.evaluate-expressions.7: 10
 
 tags:
-  - introductionist
+  - introduction
 
 links:
 
