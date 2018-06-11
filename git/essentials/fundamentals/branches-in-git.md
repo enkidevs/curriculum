@@ -32,8 +32,8 @@ Understanding and mastering this is paramount to proficiency and expertise with 
 
 Conceptually, a branch is divergence at a specific point from your working tree[1]
 
-Changes (technically commits) are added to history of the current branch, resulting in a fork[2] in the project history.
-In practice a branch is merely a **pointer** to a specific commit object.
+Changes (technically commits) are added to the history of the current branch, resulting in a fork[2] in the project history.
+In practice, a branch is merely a **pointer** to a specific commit object.
 
 With the `git branch` command you can create, edit, rename and remove branches.
 
@@ -65,7 +65,7 @@ To rename the current branch:
 $ git branch -m new-branch-name
 
 ```
-Thinking of a branch as a pointer to a specific state of the repository. We can visualise how changing to a different branch actually takes us to a different stage of the same project project. Basically different changes of the same project are stored on different branches. To change the branch we are on we can use `git checkout`[4]:
+Thinking of a branch as a pointer to a specific state of the repository, We can visualize how changing to a different branch takes us to a different stage of the same project. different changes of the same project are stored on different branches. To change the branch, we are on we can use `git checkout`[4]:
 ```
 $ git checkout my-branch
 ```
