@@ -38,12 +38,12 @@ $ git push origin master
 
 You can also run `git push` without arguments to push to the upstream of your current local branch. 
 
-If, for example, you are on `feature` branch and you want to set its upstream you need to use the `--set-upstream` flag:
+If, for example, you are on `feature` branch and you want to set it's upstream you need to use the `--set-upstream` flag:
 
 ```
 $ git push --set-upstream origin feature
 ```
-This will create, if it doesn't already exist, a new remote branch called `feature`, and push all your changes there.
+This will create if it doesn't already exist, a new remote branch called `feature`, and push all your changes there.
 
 Keep in mind that the `git push` command only works if you have **write** permissions to the remote repository.
 
