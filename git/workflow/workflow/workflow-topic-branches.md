@@ -11,7 +11,7 @@ levels:
 
 type: normal
 
-category: must-knowles
+category: must-know
 
 
 links:
