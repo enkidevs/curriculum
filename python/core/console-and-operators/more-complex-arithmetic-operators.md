@@ -71,8 +71,8 @@ What does the following code snippet return:
 ???
 
 
-* `3`
 * `2`
+* `3`
 * `7`
 * `2.5`
 * `2.75`
