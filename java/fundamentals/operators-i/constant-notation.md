@@ -29,7 +29,7 @@ tags:
 ---
 ## Content
 
-When creating constants (variables with only one value), it's good practice to write them in full-capital letters.  
+When creating constants (variables with only one value), it is good practice to write them in full-capital letters.  
 
 This is a common practice within the Java community and makes your code more understandable to other programmers.
 

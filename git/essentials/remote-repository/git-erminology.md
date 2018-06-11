@@ -45,7 +45,7 @@ the latest version.
 * Distributed Version Control
 * Local Version Control
 %exp
-Users of Distributed Version Control can access the whole history of the project and and Local Version Control stores files locally.
+Users of Distributed Version Control can access the whole history of the project and Local Version Control stores files locally.
 %
 
 ---

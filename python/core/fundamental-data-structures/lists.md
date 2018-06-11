@@ -21,7 +21,7 @@ standards:
 ---
 ## Content
 
-Lists are not so different from arrays, they can contain any variable type, and as many different variables as you'd like.
+Lists are not so different from arrays; they can contain any variable type and as many different variables as you would like.
 
 To build a list:
 ```python
@@ -42,7 +42,7 @@ print(pyList[1])
 # prints 4
 ```
 
-It's also very simple to iterate over lists, here is a `for` loop printing out the values held in a list:
+It is also very simple to iterate over lists, here is a `for` loop printing out the values held in a list:
 
 ```python
 for x in pyList:
