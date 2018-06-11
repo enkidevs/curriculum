@@ -9,3 +9,7 @@ insights:
   - execution-order-of-arithmetic-operators
   - simple-way-of-swapping-variables
   - indentation-and-commenting
+
+
+exercises:
+  - py-practice-arithmetic-operations.md
