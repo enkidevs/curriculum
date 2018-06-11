@@ -46,6 +46,7 @@ Connection: keep-alive
 ```
 
 As you probably noticed, the request was successful, its **header** containing:
+
 1. On the status line you can find the protocol version, `HTTP/1.1`, the status code, `200`, and the code description, `OK`.
 2. The `*` in the `Access-Control-Allow-Origin` states that the request could be sent from any domain and the server would still respond.
 3. The `Content-Encoding` header contains one of the accepted encodings, specified by the request (`gzip`).

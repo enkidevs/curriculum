@@ -51,6 +51,7 @@ Content-Length: 62
 ```
 
 This is a line-by-line analysis of the request header:
+
 1. The request line states that this is a `POST` request, which targets the relative path `/api/auth/login` on the server. The request makes use of the the `HTTP/1.1` standard.
 2. The `Host` contains the server's address: `enkipro.com`.
 3. The `Connection` field ensures that the connection won't be closed after the first request/response exchange (which speeds up the process by not having to reconnect for each new request).
