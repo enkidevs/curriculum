@@ -105,7 +105,7 @@ else:
 
 * big
 * small
-* this is invalid syntax and will not run
+* this syntax is invalid and will not run
 
 ---
 ## Revision
@@ -121,6 +121,6 @@ else:
 ```
 
 
-* this is invalid syntax and will not run
+* this syntax is invalid and will not run
 * true
 * false
