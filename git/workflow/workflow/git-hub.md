@@ -32,11 +32,11 @@ In addition to **Git**'s distributed version control and source code management 
  - wiki pages for all projects
  - static website hosting etc.
 
-Any repository on your account (**public** or **private**) can be cloned  through the action called a `fork`.
+Any repository on your account (**public** or **private**) can be cloned through the action called a `fork`.
 
-Because projects uploaded to **GitHub** are not required to meet the **Open Source Definition**, users are advised to choose the license of every project individually to  meet their needs.
+Because projects uploaded to, **GitHub** are not required to meet the **Open Source Definition**, and users are advised to choose the license of every project individually to meet their needs.
 
-Founded in `2007` and continuously improving, **GitHub** is the most notable place for hosting users' work and enhancing their workflow. It is the Hub of Open Source collaboration and technology learning.
+Founded in `2007` and continuously improving **GitHub** is the most notable place for hosting users' work and enhancing their workflow. It is the Hub of Open Source collaboration and technology learning.
 
 ---
 ## Revision

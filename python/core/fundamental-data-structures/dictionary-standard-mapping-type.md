@@ -25,13 +25,13 @@ links:
 ## Content
 
 The **dictionary** (dict) is Python's main mapping type. It maps **hashable** values to arbitrary objects.
-They behave similar to *lists*, being easily grown or shrunk by adding or removing elements. The two important differences are that items stored in **dictionaries** can only be accessed using their key, and each key can only point to a single value. We call this **key integrity**. Python dictionaries's corespondent in Java is the *HashMap*, in C they are called *hash tables*, and in JavaScript they are called *objects*..
+They behave similar to *lists*, being easily grown or shrunk by adding or removing elements. The two critical differences are that items stored in **dictionaries** can only be accessed using their key, and each key can only point to a single value. We call this **key integrity**. Python dictionaries correspondent in Java is the *HashMap*, in C they are called *hash tables*, and in JavaScript, they are called *objects*..
 
 
 There are several ways to create a *dictionary*:
 - using the `{key: value}` syntax
-- also we can use the `dict` constructor
-- and finally we can use both the above syntax and constructor together
+- also, we can use the `dict` constructor
+- so finally, we can use both the above syntax and constructor together
 
 ```python
 d1 = {'first':1, 'second':2}

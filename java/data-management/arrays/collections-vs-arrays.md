@@ -30,11 +30,11 @@ links:
 ---
 ## Content
 
-Collections are more feature-rich than arrays so are preferable in most cases. for example: 
+Collections are more feature-rich than arrays so are preferable in most cases. For example: 
 
 - Arrays are fixed size, while collections are dynamic.
-- The immutability of a collection can easily be controlled, e.g. using Java's immutable collections.
-- References to collections can be generic, allowing implementation to be easily changed.
+- The immutability of a collection can easily be controlled, e.g., using Java's immutable collections.
+- References to collections can be generic, allowing the implementation to be easily changed.
 - Collections have pre-made sorting algorithms.
 
 ---
