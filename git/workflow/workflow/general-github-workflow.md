@@ -32,7 +32,7 @@ However, public **collaboration** is not the single use case for this workflow. 
  To add a feature or an improvement to an existing codebase:
 
 - clone the repository
-- check out the `HEAD` of the development branch - usually `master` or `develop.`
+- check out the `HEAD` of the development branch - usually `master` or `develop`.
 - make your changes and  `commit` them
 - `push` the branch to **GitHub**
 - generate a **pull request** with the development target branch[1]
