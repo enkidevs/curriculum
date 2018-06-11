@@ -66,13 +66,13 @@ Complete the following code snippet to execute 3 to the power of 4:
 What does the following code snippet return:
 
 ```
-8 % 3
+11 % 4
 ```
 ???
 
 
-* `2`
 * `3`
-* `4`
+* `2`
+* `7`
 * `2.5`
-* `4.66`
+* `2.75`
