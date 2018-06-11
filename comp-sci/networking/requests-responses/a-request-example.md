@@ -63,7 +63,7 @@ This is a line-by-line analysis of the request header:
 9. `Content-Type` field tells the server the payload content's type and how to decode it.
 10. Our last field in this example, `Content-length` represents the length, in octets (1 octet = 1 byte = 8 bits), of the message payload. A character requires one octet to be represented, making the value the actual length of the message.
 
-The payload contains the data specified by the **client**. In this case, the login input fields, formatted as a *JSON* file were added. By reading the header, the server will be able to also understand the payload and return an appropriate response.
+The payload contains the data specified by the **client**. In this example, the login input fields are included, formatted as a *JSON* string. By reading the header, the server will be able to understand the payload and return an appropriate response.
 
 Most modern browsers like **Microsoft Edge** (*F12*), **Mozilla Firefox** (*CTRL/CMD + Shift + J*) or **Chrome** (*CTRL/CMD + Shift + i*) provide a Developer Console accompanied by a *Network* tab where you can take a detailed look on all requests and responses made by your browser.
 
@@ -83,9 +83,9 @@ The filetypes that the server should return are specified in the
 ---
 ## Revision
 
-Within a **HTTP request**, details about the browser are contained inside the
+Within an **HTTP request**, details about the browser are provided by which header field?
 
-??? header field.
+???
 
 
 * `User-Agent`

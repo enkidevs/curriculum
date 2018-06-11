@@ -39,14 +39,14 @@ http://www.enki.com:80/path/res?q=x
 protocol     host        path  query
 ```
 
-- the **protocol**, usually `http` or `https`. This part states how the data pointed at by the whole URL should be processed
-- the **host** address contains a *subdomain* (`www`), a *domain* (`enki.com`) and a *port* number (`80`), usually hidden in modern browsers
-- the resource **path** represents the resource's location on the server
-- a **query string**, beginning with `?`, that contains different `field=value&` pairs[1] (more on this in a later insight)
+- The **protocol**, usually `http` or `https`, defines how the data that is exchanged using this URL should be processed.
+- The **host** address can contain a *subdomain* (`www`), a *domain* (`enki.com`) and a *port* number (`80`). In modern browsers, the port number is usually hidden when using the default port for the given protocol.
+- The resource **path** generally represents the resource's location in the server's file system.
+- A **query string**, beginning with `?`, contains `key=value` pairs[1]. These pairs are separated by `&` characters if there is more than one of them (more on this in a later insight).
 
 A **URL** is not specific to the `HTTP` protocol, but is a generic and standardised way of locating resources on a network.
 
-In fact, a **URL** is subtype of **URI** (Uniform Resource Identifier), but accompanied by a "access mechanism" or "network locator" (`http://`).
+In fact, a **URL** is subtype of **URI** (Uniform Resource Identifier), but accompanied by an "access mechanism" or "network locator" (`http://`).
 While all **URL**s are **URI**s, not all **URI**s are **URL**s.
 
 ---
@@ -82,8 +82,10 @@ The substring of an URL containing a subdomain, a domain and a port number is ca
 ---
 ## Footnotes
 [1: Query string]
-This is usually used for additional operations that should be done server-side: filtering, searching etc. :
+The information in a query string is usually used for additional operations that are done on the server-side, such as filtering or searching:
+
 ```
 www.myapp.com/users?name=John
 ```
-Would make sense to return the users whose name is *John*.
+
+It would make sense for the above URL to return any users with the name *John*.
