@@ -40,7 +40,7 @@ You can then get `master` to point at the final commit:
 $ git checkout master
 $ git merge scrollFix
 ```
-Now if you look at the history, it will seem like all the changes happened in series when they were made in parallel.
+Now if you look at the history, it will seem like all the changes happened in series, when they were made in parallel.
 
 ---
 ## Practice
