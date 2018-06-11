@@ -27,7 +27,7 @@ tags:
 
 Object's properties can also be functions.
 
-For example we might add a function to our person object to print out a greeting message to the console:
+For example, we might add a function to our person object to print out a greeting message to the console:
 
 ```javascript
 var per = {
@@ -63,7 +63,7 @@ var p1 = new Person("john","smith");
 var p2 = new Person("joe","smith");
 ```
 
-You can even implement inheritance in JavaScript by building on this but this is a more advanced technique.
+You can even implement inheritance in JavaScript by building on this, but this is a more advanced technique.
 
 ---
 ## Practice
