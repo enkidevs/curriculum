@@ -44,8 +44,9 @@ Example:
 </p>
 ```
 
-Result:<br>
-Instalation failed, press <samp>Retry</samp> to try again.
+Result:
+
+Instalation failed, press `Retry` to try again.
 
 In the example above, the `<samp>` element is used to produce an output from a computer program.
 
@@ -65,16 +66,9 @@ Example 1:
    </samp>
 </p>
 ```
-Result:<br>
-<p>
-  To paste, press
-   <samp>
-    <kbd>Ctrl</kbd> +
-   </samp>
-   <samp>
-    <kbd>V</kbd>
-   </samp>
-</p>
+Result:
+
+To paste, press `Ctrl` + `V`
 
 Example 2:
 ```
@@ -88,16 +82,9 @@ Example 2:
    </kbd>
 </p>
 ```
-Result:<br>
-<p>
-  If you wish to undo, press
-   <kbd>
-    <samp>Ctrl</samp> +
-   </kbd>
-   <kbd>
-    <samp>Z</samp>
-   </kbd>
-</p>
+Result:
+  If you wish to undo, press `Ctrl` + `Z`
+
 
 In the first example, we have the `<kbd>` element nested inside the `<samp>` element. When nesting inside `<samp>`, it represents input echoed by the system.
 
@@ -115,21 +102,15 @@ samp {
 ---
 ## Practice
 
-When using the `<samp>` element, which statements are true?
+When using the `<samp>` element, which statement is not true?
 
 ???
-???
-???
-???
 
-+ represents sample output from a computer program
-+ displayed in the browser's default monospace font
-+ when nested inside `<kbd>`, represents input based on system output.
-+ when containing `<kbd>`, represents input echoed by the system.
-- produces a block element
-- represents preformatted text
-- represents user input
-
+* represents preformatted text
+* represents sample output from a computer program
+* displayed in the browser's default monospace font
+* when nested inside `<kbd>`, represents input based on system output.
+* when containing `<kbd>`, represents input echoed by the system.
 
 ---
 ## Revision
@@ -138,13 +119,13 @@ What HTML element wraps around sample output text from a computer program to ide
 
 ???
 
-* samp
-* code
-* kbd
-* pre
-* var
-* out
-* output
+* `<samp>`
+* `<code>`
+* `<kbd>`
+* `<pre>`
+* `<var>`
+* `<out>`
+* `<output>`
 
 ---
 ## Quiz
@@ -155,13 +136,13 @@ What HTML element wraps around sample output text from a computer program to ide
 
 ???
 
-* samp
-* /samp
-* code
-* /cod
-* pre
-* /pre
-* out
-* /out
-* output
-* /output
+* `samp`
+* `/samp`
+* `code`
+* `/cod`
+* `pre`
+* `/pre`
+* `out`
+* `/out`
+* `output`
+* `/output`

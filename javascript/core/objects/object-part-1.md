@@ -36,9 +36,9 @@ links:
 ---
 ## Content
 
-JavaScript has a special type called *Object* which is a collection of keys and values.
+JavaScript has a particular type called *Object* which is a collection of keys and values.
 
-Pretty much everything apart from primitive values inherit from this special type.
+Pretty much everything apart from primitive values inherit from this unique type.
 
 **Creating objects**
 
@@ -65,7 +65,7 @@ console.log(per.firstName); //john
 
 We can also access properties using the array syntax.
 
-This can be useful when you don’t know the name of the property you want and want to dynamically change it at runtime.
+This can be useful when you do not know the name of the property you want to change it at runtime dynamically .
 ```
 var propName="firstName";
 console.log(per[propName]);

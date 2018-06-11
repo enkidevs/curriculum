@@ -57,27 +57,30 @@ Example with attributes:
 
 In the example above, `rows="10"` specifies the number of visible text lines for the control,  `cols="30"` specifies the average characters width and the `placeholder` attribute presents a hint which disappears after the user types something and reappears if there is no input.
 
-
-
-
 ---
 ## Practice
 
 Write the form code that creates a multi-line input for text.
 
+```
 <??? ???="???">
+<???>
+```
 
-* textarea
-* name
-* textbox
-* form
-* input
-* textarea
+* `textarea`
+* `name`
+* `textbox`
+* `/textarea`
+* `form`
+* `input`
+* `textinput`
+* `/textinput`
+* `value`
 
 ---
 ## Revision
 
-Which element creates a multi-line input field that is 10 lines of text in height and 50 average characters in width.
+Which element creates a multi-line input field that is 10 lines of text in height and 30 average characters in width.
 
 ???
 
