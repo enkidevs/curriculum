@@ -37,10 +37,10 @@ It is important for a team member to know how to manage (*add*, *remove*, etc.) 
   
 Remote repositories can be a GitHub repository, a user's fork on a server or just another computer on your local network.
 
+**Pushing** and **Pulling** to/from remote repositories can be accomplished with HTTP and SSH protocols.
 
-**Pushing** and **Pulling** to/from remote repositories can be accomplished with any of Many protocols.
+**GitHub**[1], for example:
 
-**GitHub**[1], for example, supports the two most common:
 - `SSL` like 
 
 ```
