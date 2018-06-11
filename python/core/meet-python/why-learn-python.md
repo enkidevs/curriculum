@@ -18,10 +18,10 @@ inAlgoPool: false
 ---
 ## Content
 
-Python was designed in a way that is easy to understand and read. It uses English keywords and doesn't require long variable declarations or the use of curly brackets for functions and classes.
+Python was designed to be understand and read. It uses English keywords and meaningful white space and does not require typed variable declarations.
 
 
-For example, a `for` loop in Python using self-explained English keywords:
+For example, a `for` loop in Python uses self-explanatory English keywords:
 
 ```python
 items = [1, 2, 3]
@@ -33,17 +33,16 @@ for i in items:
 
 Python is also an economical programming language. For similar tasks, Python can often require *3-5* times less code than Java, and up to *10* times less code than C++.
 
-As we know, Python is an *object oriented* programming language, therefore because of Python's object oriented nature it can act as a stepping stone to learning new object oriented languages, and can help you adapt to other programming environments. Nonetheless, Python is also used as functional programming language in certain conditions. 
+As a highly readable, object-oriented programming language, Python can act as a stepping-stone to learning other object-oriented languages. 
 
 ---
 ## Practice
 
-I python more economic than most of the other languages? 
-???
+Python typically requires ??? code than C++ to achieve the same task.
 
-* yes
-* no
-* not applicable
+* less
+* more
+* about the same
 
 ---
 ## Revision
