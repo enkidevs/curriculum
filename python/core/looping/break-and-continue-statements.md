@@ -7,7 +7,7 @@ levels:
 
 type: normal
 
-category: must-know-it-all
+category: must-know
 
 inAlgoPool: false
 
