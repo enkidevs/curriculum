@@ -65,7 +65,7 @@ This is a line-by-line analysis of the request header:
 
 The payload contains the data specified by the **client**. In this case, the login input fields, formatted as a *JSON* file were added. By reading the header, the server will be able to also understand the payload and return an appropriate response.
 
-Most modern browsers like **Microsoft Edge** (*F12*), **Mozilla Firefox**(*CTRL/CMD + Shift + J*) or **Chrome** (*CTRL/CMD + Shift + i*) provide a Developer Console accompanied by a *Network* tab where you can take a detailed look on all requests and responses made by your browser.
+Most modern browsers like **Microsoft Edge** (*F12*), **Mozilla Firefox** (*CTRL/CMD + Shift + J*) or **Chrome** (*CTRL/CMD + Shift + i*) provide a Developer Console accompanied by a *Network* tab where you can take a detailed look on all requests and responses made by your browser.
 
 ---
 ## Practice

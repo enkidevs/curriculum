@@ -24,7 +24,7 @@ parent: http-response
 
 ---
 
-# A response example
+# A Response Example
 
 ---
 ## Content
