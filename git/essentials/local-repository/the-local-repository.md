@@ -29,7 +29,7 @@ Your local **Git** project is made of three main areas:
 
 - working directory 
 - staging area (also known as **Index**)
-- the `.git.` directory (the repository)
+- the `.git` directory (the repository)
 
 #### Working tree
 
