@@ -71,21 +71,20 @@ doSomethingWithCallback(???(???, ???) {
   ??? {
     console.log(err)
   } ??? {
-    console.log(???)
+    console.???
   }
 })
 ```
 
-* function
-* err
-* data
-* if(err)
-* else
-* err
-* data
-* er
-* myData
-* fn
+* `function`
+* `err`
+* `data`
+* `if (err)`
+* `else`
+* `log(data)`
+* `er`
+* `myData`
+* `fn`
 
 ---
 ## Revision
@@ -93,18 +92,13 @@ doSomethingWithCallback(???(???, ???) {
 What are the parameters of an error-first callback function?
 
 ```javascript
-function(???, ??) {
+function(???, ???) {
   // ...
 }
 ```
 
-* err
-* data
-* fileNotFound
-* log
-<<<<<<< HEAD
-* null
-
-=======
-* null
->>>>>>> master
+* `err`
+* `data`
+* `fileNotFound`
+* `log`
+* `null`
