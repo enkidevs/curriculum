@@ -23,7 +23,7 @@ standards:
 ---
 ## Content
 
-Python's `while` loops repeatedly loop and execute some code *whilst* a boolean statements evaluates to true.
+Python's `while` loops repeatedly loop and execute some code *while* a boolean statement evaluates to true.
 
 The standard `while` loop syntax is:
 
@@ -32,7 +32,7 @@ while condition:
     doSomething()
 ```
 
-Whilst the condition evaluates to *true*, the code inside the loop is executed, as soon as the condition evaluates to *false* the loop is exited and the code immediately following the loop is executed.
+While the condition evaluates to *true*, the code inside the loop is executed, as soon as the condition evaluates to *false* the loop is exited and the code immediately following the loop is executed.
 
 For example:
 
