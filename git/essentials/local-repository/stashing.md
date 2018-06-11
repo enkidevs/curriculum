@@ -77,7 +77,7 @@ You can also remove from the stash stack:
 $ git stash drop stash@{0}
 ```
 
-To both `apply,` and `drop` the stash, the `pop` command can be used:
+To both _apply_ and _drop_ the stash, the `pop` command can be used:
 ```
 $ git stash pop
 ```
