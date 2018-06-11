@@ -1,6 +1,10 @@
 ---
 author: Aaron7Sun
 
+tags:
+
+  - introduction
+
 levels:
 
   - basic
@@ -26,7 +30,7 @@ category: tip
 ---
 ## Content
 
-In most languages, swapping two variables requires a third variable or  arithmetic manipulations.
+In most languages, swapping two variables requires a third variable or arithmetic manipulations.
 
 But in Python you can use tuple assignment:
 ```
