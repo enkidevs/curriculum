@@ -47,7 +47,7 @@ The `HEAD` is usually a reference to the last commit in the branch currently in 
 
 ### Tag
 
-A `tag` is a pointer to a specific commit which uniquely identifies a repository version. Tags are used to revert to old versions when in need easily.
+A `tag` is a pointer to a specific commit which uniquely identifies a repository version. Tags are used to easily revert to old versions when in need.
 
 ### Staging area
 
