@@ -1,6 +1,10 @@
 ---
 author: Ricardo
 
+tags:
+
+  - introduction
+
 levels:
 
   - basic
@@ -43,17 +47,17 @@ Python provides a syntactic shortcut for chaining comparison operators.
 True
 ```
 
-Is the equivalent of:
+is the equivalent of:
 ```python
 >>> x = 10
->>> 1 < x  && x < 15
+>>> 1 < x  and x < 15
 True
 ```
 
 ---
 ## Practice
 
-Check if `x` is at least 2 and maximum 10:
+Check whether the value of the integer `x` is at least 2 and no more than 10:
 
 ???
 
