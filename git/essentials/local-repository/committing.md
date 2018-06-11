@@ -24,7 +24,7 @@ links:
 ---
 ## Content
 
-Committing is the action which permanently stores changes in a file as part of the **Git** repository. For this operation all you have to do is issue the `git commit` command.
+Committing is the action which permanently stores changes in a file as part of the **Git** repository. For this operation, all you have to do is issue the `git commit` command.
 
 Generally, **Git** will never change the contents of a commit, making **commits** permanent and representative for the state of the project at that time.
 

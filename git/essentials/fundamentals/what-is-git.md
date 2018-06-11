@@ -24,7 +24,7 @@ links:
 ---
 ## Content
 
-**Git**[1] is the name of the most widely used *Distributed Version Control System*, and is the standard of version control for both commercial and open source projects.
+**Git**[1] is the name of the most widely used *Distributed Version Control System* and is the standard of version control for both commercial and open source projects.
 
 Fundamental to the Git nature, being a *DVCS*, is the fact that people working on a project will always have a local copy of the project, the repository, containing the full history of changes. This remote backup of the codebase entails a good layer of protection against data loss.
 
@@ -32,7 +32,7 @@ One other characteristic of **Git** that helps it differentiate from other versi
 
 Different from some *VCS*s, **Git** versioning (the way it keeps track of different versions of a file) is not based on the names of the files, but on the content of the file itself.
 
-As a result of great raw performance from its specialized algorithms, as well as being smart and flexible, **Git** has become the de facto standard of version control.
+As a result of high raw performance from its specialized algorithms, as well as being smart and flexible, **Git** has become the de facto standard of version control.
 
 ---
 ## Practice

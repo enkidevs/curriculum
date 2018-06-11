@@ -64,7 +64,7 @@ a, *b, c = (1, 2, 3, 4, 5)
 print(b)
 # [2, 3, 4]
 ```
-Tuples are often used for a sequence of values of heterogeneous types (e.g. fields of a database record or columns from a CSV file), while lists are often used for homogeneous items, such as a list of only numbers, or a list of only strings. But this is not a rule, it can be the other way around too.
+Tuples are often used for a sequence of values of heterogeneous types (e.g., fields of a database record or columns from a CSV file), while lists are often used for homogeneous items, such as a list of only numbers, or a list of only strings. However, this is not a rule, and it can be the other way around too.
 
 ---
 ## Practice

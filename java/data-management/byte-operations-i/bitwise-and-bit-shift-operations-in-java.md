@@ -29,7 +29,7 @@ notes: ''
 ---
 ## Content
 
-The java programming language provides operators that perform bitwise and bit shift operations on integral types. Using those substantially improves performance.
+The Java programming language provides operators that perform bitwise and bit shift operations on integral types. Using those substantially improves performance.
 
 ```java
 a = 300 * 4 // standard multiplication
