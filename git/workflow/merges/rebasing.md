@@ -32,7 +32,7 @@ The base argument can be any one of:
  - commit ID
  - branch name
  - a tag
- -a relative reference to `HEAD`
+ - a relative reference to `HEAD`
 
 This works by 'rewinding' `scrollFix` to the commit shared by the two branches and saving the changes in a temporary file. The `scrollFix` reference is then set to the same as `master` and the changes are applied.
 
