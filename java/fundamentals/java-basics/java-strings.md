@@ -29,7 +29,7 @@ String sequence = "This is a string";
 ```
 Notice how the **S** in `String` has to be capitalized, while primitives have a lower-case first letter.
 
-Double quotes are also worth mentioning when talking about `Strings. They are used to differentiate a literal sequence of characters from real variables. Consider this example:
+Double quotes are also worth mentioning when talking about `String`s. They are used to differentiate a literal sequence of characters from real variables. Consider this example:
 ```java
 String hello = "hi";
 System.out.println(hello);
