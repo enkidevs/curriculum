@@ -1,7 +1,7 @@
 ---
 author: tommarshall
 
-aspects:
+tags:
 
   - introduction
 
