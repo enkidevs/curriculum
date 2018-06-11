@@ -1,6 +1,10 @@
 ---
 author: tommarshall
 
+tags:
+
+  - introduction
+
 levels:
 
   - beginner
@@ -27,9 +31,9 @@ links:
 ---
 ## Content
 
-Unlike many other programming languages, Python uses indentation (tabs) to separate blocks of code instead of curly braces.
+Unlike many other programming languages, Python uses indentation (tabs) to separate blocks of code instead of containing them with curly braces.
 
-Tabs and spaces are both supported with the standard Python, code indentation being four spaces. For example:
+Tabs and spaces are both supported with the standard Python. One indentation has four spaces. For example:
 ```python
 if True:
     print('Will print this.')
@@ -58,9 +62,9 @@ The output will be:
 Will print this.
 ```
 
-The indentation the last `print` determines whether it belongs to the `else` clause or it should be invoked independent of the `if-else` conditions.
+The indentation of the last call to `print` determines whether it belongs to the `else` clause or should be invoked independent of the `if-else` conditions.
 
-On the other hand, commented lines do not care about indentation: they won't just be run. To comment out lines of code in Python, you must use a hash, `#`. For example:
+On the other hand, commented lines don't have any requirements for indentation: they just won't be run. To comment out lines of code in Python, use the hash symbol, `#`. For example:
 ```python
 # print("This line is commented out.")
 print("This line isn't commented out!")
@@ -69,7 +73,7 @@ print("This line isn't commented out!")
 ---
 ## Practice
 
-How many spaces is a standard amount for indentation in Python?
+How many spaces is the standard number for indentation in Python?
 ???
 * `4`
 * `2`
@@ -84,7 +88,7 @@ Which of the following is a valid Python comment?
 ```
 // Comment A
 /* Comment B */
-#Comment C
+# Comment C
 ```
 ???
 
