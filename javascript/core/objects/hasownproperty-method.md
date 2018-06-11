@@ -56,7 +56,7 @@ client.hasOwnProperty('connect');
 
 Using `hasOwnProperty` is a reliable method of checking for the existence of a property of an object.
 
-It is considered a good practice to use `hasOwnProperty` in every `for in loop` to avoid errors from extended native prototypes.
+It is considered the right practice to use `hasOwnProperty` in every `for in loop` to avoid errors from extended native prototypes.
 
 ---
 ## Practice

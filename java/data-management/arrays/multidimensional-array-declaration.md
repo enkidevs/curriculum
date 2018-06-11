@@ -29,7 +29,7 @@ int array[][] = new int[10][7];
 ```
 
 The following code declares a 3D array - an array of 10 
-arrays each containing 7 arrays. The 7 arrays are of length 3.
+Arrays each containing 7 arrays. The 7 arrays are of length 3.
 
 ```
 int array[][][] = new int[10][7][3];

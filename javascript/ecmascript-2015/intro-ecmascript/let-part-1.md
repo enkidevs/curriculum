@@ -21,7 +21,7 @@ links:
 
 *let* declares a variable and is used in a similar method to *var*.
 
-However a variable declared using let has the important difference that the variable **exists only in block scope**.
+However, a variable declared using let has the critical difference that the variable **exists only in block scope**.
 
 This means you can do things like this:
 
