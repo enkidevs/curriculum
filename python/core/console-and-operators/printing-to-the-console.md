@@ -1,6 +1,10 @@
 ---
 author: tommarshall
 
+tags: 
+
+  - introduction
+
 levels:
 
   - beginner
@@ -24,14 +28,14 @@ standards:
 ---
 ## Content
 
-Python's simplest directive is the `print` directive, it simply prints out a line, and incorporates a new line.
+Python's simplest directive is the `print` directive. It simply prints out a line, and incorporates a new line.
 
 In Python 2, print is *not* a function and therefore is invoked without parentheses. Therefore, to print in Python 2:
 ```python
 print 'Python 2'
 ```
 
-To print in Python 3, you must use parentheses as print is a function:
+To print in Python 3, use parentheses,d as print is a function:
 
 ```python
 print('Python 3')
@@ -50,7 +54,7 @@ Pythons simplest directive is the ??? directive. It prints out a line and incorp
 ---
 ## Revision
 
-Print to the console in Python 3:
+Print to the string 'Python 3!' the console in Python 3:
 
 ```
 ??? ??? Python 3! ???
