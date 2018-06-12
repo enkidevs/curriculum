@@ -32,7 +32,7 @@ links:
 ---
 ## Content
 
-Python's `in` operator is a *membership operator* and is used to check whether an object exists inside a container of objects--for example, a list. 
+Python's `in` operator is a *membership operator* and can be used to check whether an object exists inside a container of objects--for example, a list. 
 
 It evaluates to true if it finds the specified variable in the container, and false if it doesn't.
 
