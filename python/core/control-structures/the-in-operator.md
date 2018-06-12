@@ -22,7 +22,7 @@ standards:
 links:
 
   - '[Use cases](http://kracekumar.com/post/22512660850/python-in-operator-use-cases){website}'
-  - '[Sequence types](https://docs.python.org/2.4/lib/typesseq.html){website}'
+  - '[Sequence types](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range){website}'
 
 
 ---
