@@ -22,6 +22,7 @@ standards:
 links:
 
   - '[Use cases](http://kracekumar.com/post/22512660850/python-in-operator-use-cases){website}'
+  - '[Sequence types](https://docs.python.org/2.4/lib/typesseq.html){website}'
 
 
 ---
@@ -50,7 +51,7 @@ else:
 
 ```
 
-Other iterable sequence types include tuples and strings. When Python iterates over a string, it goes character-by-character.
+Other iterable sequence types include tuples and strings. When the `in` keyword is used with a string, Python will check for any sequence of matching consecutive characters (called a substring). So, `'p' in 'poppy'` evaluates to true, and so does `'py' in 'poppy'`, but `'ppp' in 'poppy'` evaluates to false, because there is no matching consecutive sequence of characters. 
 
 ---
 ## Practice
