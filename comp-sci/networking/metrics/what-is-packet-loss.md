@@ -47,7 +47,7 @@ The causes of packet loss vary, yet the most common ones are:
 ---
 ## Revision
 
-#### *Packet loss* is measured
+### *Packet loss* is measured
 
 ???
 
