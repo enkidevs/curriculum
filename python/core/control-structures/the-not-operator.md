@@ -26,7 +26,7 @@ standards:
 ---
 ## Content
 
-Using Python's `not` operator before a boolean expression negates the expression. In other words, if the expression evaluates to true, placing a `not` in front of it means the phrase as a whole will evaluate to false, and vice versa. 
+Using Python's `not` operator before a boolean expression negates the expression. In other words, if the original expression evaluates to true, placing a `not` in front of it means the phrase as a whole will evaluate to false, and vice versa. 
 
 For example:
 
