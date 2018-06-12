@@ -1,6 +1,11 @@
 ---
 author: SebaRaba
 
+tags:
+
+  - introduction
+  - workout
+
 levels:
 
   - beginner
