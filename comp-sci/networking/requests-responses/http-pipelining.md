@@ -25,7 +25,7 @@ parent: a-response-example
 
 ---
 
-# Http pipelining
+# HTTP pipelining
 
 ---
 ## Content
