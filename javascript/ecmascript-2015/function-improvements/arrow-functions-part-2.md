@@ -55,7 +55,7 @@ let count = new Counter();
 
 ```
 
-In the `countUp` counter, `window.counter` is modified, because keyword functions use the same .
+In the `countUp` counter, `window.counter` is modified, because keyword functions use the same.
 In the `countDown` counter, `Counter.counter` because the `this` value is preserved.
 
 ---

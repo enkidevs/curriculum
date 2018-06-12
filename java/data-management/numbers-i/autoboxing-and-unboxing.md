@@ -23,7 +23,7 @@ notes: 'https://insights.enki.com/#/contrib/others/55c833563f06ab320051aa89?sear
 ---
 ## Content
 
-*Java 5* introduced a new concept of auto converting *primitive types* into their corresponding *wrapper* classes and vice-versa.
+*Java 5* introduced a new concept of auto-converting *primitive types* into their corresponding *wrapper* classes and vice-versa.
 
 `Autoboxing` represents automatic conversion of *primitive type*  to the object of their corresponding *wrapper* classes.
 ```
@@ -47,7 +47,7 @@ Conversion table :
          double  |  Double
 ```
 
-*primitives* and *objects* should not be mixed when doing comparisons. Instead, compare objects with objects (using `equals()` method) and compare primitive with primitives (using logical operators such as “`==`”, “`<`” etc).
+*primitives* and *objects* should not be mixed when making comparisons. Instead, compare objects with objects (using `equals()` method) and compare primitive with primitives (using logical operators such as “`==`”, “`<`” etc).
 
 ---
 ## Revision

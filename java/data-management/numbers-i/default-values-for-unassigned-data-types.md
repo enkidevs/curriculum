@@ -25,7 +25,7 @@ notes: ''
 ---
 ## Content
 
-It's not always necessary to assign a value when a field is declared. Fields that are declared, but not initialized, will be set to a reasonable default by the compiler (usually `zero` or `null`). Below are some automatically assigned default values
+It is not always necessary to assign a value when a field is declared. Fields that are declared, but not initialized, will be set to a reasonable default by the compiler (usually `zero` or `null`). Below are some automatically assigned default values
 
 ```
 byte - 0

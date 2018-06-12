@@ -30,14 +30,14 @@ links:
 ---
 ## Content
 
-In JDK 7+, it is possible to place underscores '_' inside numeric literals in order to make them more readable.
+In JDK 7+, it is possible to place underscores '_' inside numeric literals to make them more readable.
 
-One example use of this is to break a long series of digits such as a phone number into several sub-sections, by for example, separating the area code:
+One example use of this is to break a long series of digits such as a phone number into several sub-sections, for example, separating the area code:
 ```
 int phoneNumber = 1234567890;
 int phoneNumber = 12345_67890;
 ```
-This can also be used break very large integer values to make them more readable; using underscores instead of commas. So 1,000,000,000 would become:
+This can also be used to break an enormous integer value to make them more readable; using underscores instead of commas. So 1,000,000,000 would become:
 ```
 int billion = 1_000_000_000;
 ```

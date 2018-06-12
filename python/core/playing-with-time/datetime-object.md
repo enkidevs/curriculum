@@ -30,7 +30,7 @@ parent: time-object
 ---
 ## Content
 
-The `datetime` class combines in a single object all the information contained by both previously discussed `date` and `time` classes.
+The `datetime` class combines in a single object all the information contained by both previously discussed `date` and `time` classes. 
 
 As a consequence, the `datetime` object is **aware** - recording a specific point in time that is not open to interpretations.
 

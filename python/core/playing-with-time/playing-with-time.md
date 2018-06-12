@@ -33,9 +33,9 @@ notes: >
 ---
 ## Content
 
-The `time` module is widely used for time manipulation, representation and conversion.
+The `time` module is widely used for time manipulation, representation, and conversion.
 
-Keep in mind an `import` is needeed:
+Keep in mind an `import` is needed:
 ```python
 import time
 ```

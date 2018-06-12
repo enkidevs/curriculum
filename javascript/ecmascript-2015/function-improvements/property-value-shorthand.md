@@ -20,7 +20,7 @@ links:
 ---
 ## Content
 
-It is very common to return an object from a function with a property the same name as a source value declared elsewhere e.g.
+It is very common to return an object from a function with property the same name as a source value declared elsewhere e.g.
 
 ```javascript
 function test(){
@@ -47,7 +47,7 @@ function test(){
 test(); // { name: "enki" }
 ```
 
-Note an exception will be thrown at run time if you specify a value that doesn’t exist in your return object.
+Note an exception will be thrown at runtime if you specify a value that doesn’t exist in your return object.
 
 ---
 ## Practice

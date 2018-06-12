@@ -39,7 +39,7 @@ time(hour, minute, second,
               microsecond, tzinfo)
 ```
 
-While all arguments are optional, keep in mind their default value is `0`, so just calling `datetime.time()` will actually create a time object with the earliest possible time representation:
+While all arguments are optional, keep in mind their default value is `0`, so just calling `datetime.time()` will create a time object with the earliest possible time representation:
 ```python
 from datetime import time
 my_min = time()

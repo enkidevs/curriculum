@@ -33,7 +33,7 @@ Python's `datetime` module provides a toolkit of *classes* and *functions* for *
 
 Notable is the fact that objects exposed by this module can be either **naive** or **aware**.
 
-Unlike **naive** objects, **aware** objects have enough knowledge to locate themselves relative to other **aware** objects. (i.e. time zone/daylight saving time information is included).
+Unlike **naive** objects, **aware** objects have enough knowledge to locate themselves relative to other **aware** objects. (i.e., time zone/daylight saving time information is included).
 They represent specific points in time that aren't open to interpretation.
 
 The `datetime` module itself exports the constants:
@@ -44,7 +44,7 @@ datetime.MAXYEAR # 9999
 ## largest year of date/datetime objects
 ```
 
-Keep in mind that in the `datetime` **module** there is also a `datetime` **class** and they shouldn't be confused.
+Keep in mind that in the `DateTime` **module** there is also a `DateTime` **class** and they should not be confused.
 ```python
 # printing the current date and time
 # with datetime class

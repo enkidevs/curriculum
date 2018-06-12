@@ -21,7 +21,7 @@ category: best practice
 ---
 ## Content
 
-Wrapper classes (Integer, Byte, Character...) are great but slow. Primitive types (int, byte, char...) are just values, whereas Wrapper classes store information about the entire object. When this information is not needed, it's better to use primitive data types.
+Wrapper classes (Integer, Byte, Character...) are great but slow. Primitive types (int, byte, char...) are just values, whereas Wrapper classes store information about the entire object. When this information is not needed, it is better to use primitive data types.
 
 E.g:
 
@@ -37,7 +37,7 @@ boolean wrapComp =
  myAgeInt.equals(hisAgeInt);
 ```
 
-The first comparison is faster than the second, as the first just compares values but the second has additional checks about the objects being instances of Integer.
+The first comparison is faster than the second, as the first compare values but the second has additional checks about the objects being instances of Integer.
 
 ---
 ## Practice
