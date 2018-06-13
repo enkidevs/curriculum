@@ -38,7 +38,7 @@ You can connect, usually called concat, two strong together with the '+' operato
 
 ```javascript
 var longText = "abc" + "def" + "ghi";
-//longerText is equal to "abcdefghi"
+//longText is equal to "abcdefghi"
 ```
 
 You can also use the backslash character to continue writing text on multiple lines (make sure nothing is after the backslash).
