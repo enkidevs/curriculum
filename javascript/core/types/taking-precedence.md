@@ -40,7 +40,7 @@ How well do you know how JavaScript handles precedence?
 * "1234"
 * "37"
 %exp
-The expression is read from left to right: integer addition is done first (`3`), then string concatenation (`33`) and then another string concatenation, resulting in `334`.
+The expression is read from left to right: integer addition is done first 1+2 = (`3`), then string concatenation 3+'3' = (`33`) and then another string concatenation, '33'+4 resulting in `334`.
 %
 
 ---
@@ -231,4 +231,3 @@ The expression can be converted to `0 == (1 >= 2)` as `>=` has higher priority t
 
 `0 == (1 >=2)` => `0 == false` => `false` (as `0` is falsy)
 %
- 
