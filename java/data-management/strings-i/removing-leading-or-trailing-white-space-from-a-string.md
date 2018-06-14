@@ -32,7 +32,7 @@ links:
 ---
 ## Content
 
-Sometimes strings will contain unnecessary white space at the beginning or end. This is often due to user input. Unnecessary white space can be removed by using `String.trim()`.
+Sometimes strings will contain unnecessary white space at the beginning or end. This is often due to user input. Unnecessary white space can be removed by using `String.trim()`. 
 
 For example:
 ```

@@ -32,7 +32,7 @@ links:
 ---
 ## Content
 
-`split` takes a regular expression and splits the string around occurrences of this expression into an array of strings.
+`Split` takes a regular expression and splits the string around occurrences of this expression into an array of strings.
 ```
 String s = "I ate 6 pancakes, 4
   digestives, 2 boxes of cherries, then

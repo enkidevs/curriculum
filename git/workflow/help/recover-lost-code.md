@@ -30,7 +30,7 @@ To check the reflog:
 $ git reflog
 ```
 If the lost commit is there, you can retrieve it using its checksum:
-```
+``` 
 $ git branch myBranch ca3df45
 ```
 Then you can merge this into your current branch.

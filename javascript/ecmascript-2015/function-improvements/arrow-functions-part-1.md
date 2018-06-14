@@ -72,7 +72,7 @@ foo() => {
     'Jupiter'
   ];
 
-  return planets.map(??? => ???);
+  return planets.map(??? => ???); 
 }
 ```
 

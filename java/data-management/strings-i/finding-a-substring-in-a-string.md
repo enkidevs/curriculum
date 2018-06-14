@@ -28,7 +28,7 @@ links:
 ---
 ## Content
 
-In order to confirm if a string contains a specific substring, we can simply use the `contains` method in the `String` class.
+To confirm if a string contains a specific substring, we can use the `contains` method in the `String` class.
 
 The `contains` method takes a `CharSequence` as an input. `CharSequence` is an interface which is implemented by `String`, so it will also accept strings as inputs. 
 ```

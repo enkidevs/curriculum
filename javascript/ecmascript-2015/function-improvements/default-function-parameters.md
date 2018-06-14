@@ -34,7 +34,7 @@ setColor(divB, undefined);
 setColor(divC, 'blue');
 ```
 
-Here, `divA` and `divB` will both be `pink`  and `divC` will be `blue`.
+Here, `divA` and `divB` will both be `pink`  and `divC` will be `blue`. 
 
 ---
 ## Practice

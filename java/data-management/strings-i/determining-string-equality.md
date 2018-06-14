@@ -30,9 +30,9 @@ links:
 ---
 ## Content
 
-Using the `==` operator to compare strings actually checks the identity of the strings rather than comparing their content.
+Using the `==` operator to compare strings checks the identity of the strings rather than comparing their content.
 
-In order to check whether two strings have the same value, use the `.equals()` method instead.
+To check whether two strings have the same value, use the `.equals()` method instead.
 
 Given two strings `string1` and `string2`:
 ```

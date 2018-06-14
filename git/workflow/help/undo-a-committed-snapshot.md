@@ -29,7 +29,7 @@ Basic syntax for reverting:
 $ git revert <commit>
 ```
 
-This generates a new commit with all the changes introduced in `<commit>` afterwards applying it to the current branch. Suppose this is your most recent commit:
+This generates a new commit with all the changes introduced in `<commit>` afterward applying it to the current branch. Suppose this is your most recent commit:
 ```
 $ git commit -m "might be buggy"
 ```
@@ -37,7 +37,7 @@ You can revert the last commit in the branch with:
 ```
 $ git revert HEAD
 ```
-Since `HEAD` is a pointer to the most recent  commit, that one is used to create a **new** commit.
+Since `HEAD` is a pointer to the most recent commit, that one is used to create a **new** commit.
 
 Reverting won't change a project's *history*, making it a **safe** operation.
 

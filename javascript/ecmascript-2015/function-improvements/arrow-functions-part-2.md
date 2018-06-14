@@ -51,7 +51,7 @@ function Counter () {
   }, 1000)
 }
 
-let count = new Counter();
+let count = new Counter(); 
 
 ```
 
