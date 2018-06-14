@@ -55,7 +55,10 @@ else {
 ...
 }
 ```
-Sometimes code can be more readable using the switch statement although some developers feel this can be a bad idea as can lead to hard to maintain code:
+
+**Switch Statements**
+
+Code can be more readable using the switch statement if there are many cases for a single value.
 
 ```
 switch (customerType){

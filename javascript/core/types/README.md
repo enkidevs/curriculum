@@ -9,7 +9,8 @@ insights:
   - types-undefined-and-null
   - types-boolean-and-number
   - types-string
-  - be-careful-when-using-typeof
+  - weak-vs-strict-equality-operator
+
 
 
 exercises:
