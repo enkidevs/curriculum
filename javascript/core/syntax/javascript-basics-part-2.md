@@ -59,16 +59,35 @@ console.log(company); // undefined
 ---
 ## Practice
 
-Define a variable in the global scope:
+Which will define a variable in the global scope?
 
-```javascript
-??? answer = 42;
+```
+// Option A
+var answer = 42;
 ```
 
-* var
-* global
-* function
-* int
+```
+// Option B
+function globalFunction() {
+  var answer = 42;
+}
+```
+
+```
+// Option C
+function answer() {
+  var answer = 42;
+  return answer;
+}
+```
+
+
+???
+
+* Option A
+* Option B
+* Option C
+* None of these
 
 ---
 ## Revision
@@ -82,7 +101,9 @@ function getAnswers(){
 console.log(answer)
 ```
 
+???
+
+* undefined
 * 42
 * answer
-* undefined
 * local
