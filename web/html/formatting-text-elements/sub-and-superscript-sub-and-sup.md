@@ -1,5 +1,5 @@
-# Sub- & superscript (sub & sup)
-author: matthew-leach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -14,20 +14,52 @@ stub: true
 tags:
   - deep
 
-
+---
+# Sub- & superscript (sub & sup)
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+The HTML `<sub>`, or **The Subscript element** is used to display some text as subscript(written or printed below the line), whereas the `<sup>`, or **The Superscript element** is used to display some text as superscript(written or printed above the line).
+
+Both elements are only used for typographical reasons and neither should be used for styling and/or appearance only. If you want to style your text sub or superscript, you can use the appropriate CSS properties:
+  - `vertical-align: sub`
+  - `vertical-align: -25%`
+  - `vertical-align: super`
+  - `vertical-align: 50%`
+
+For instance, you can use the subscript for properly display the 2 in H20 and you can use the superscript to properly display the 2 in E = mc2.
+
+Example:
+```
+<p>
+  Both 
+  H<sub>2</sub>O 
+  and 
+  E = mc<sup>2</sup>
+  are fun to learn about.
+</p>
+```
+
+Furthermore, the most common `<sup>` elements uses are to display exponents(x^2) or ordinal numbers(3rd,4th,5th). On the other hand, the most common use for the `<sub>` element is marking footnotes, variable numbers(X1, X2...Xn) and denoting numbers in chemical formulas.
+
+**Note, you cannot use both `<sup>` and `<sub>` at the same time to make a subscript appear directly below a superscript number and vice versa, to do so, you need to use the MathML(Mathematical Markup Language).**
+**The MathML elements: `<msub>`, `<msup>` and `<msubsup>`.**
+
 
 ---
 ## Practice
 
-Write the code to properly display the text like this:
+Write the code to properly display the text above and below the usual line of writing/printing:
 
-<p>Both H<sub>2</sub>O and E = mc<sup>2</sup> are fun to learn about.</p>
-
-`<p>`Both H`<tag1>`2`</tag1>`O and E = mc`<tag2>`2`</tag2>` are fun to learn about.`</p>`
+```
+<p>
+  Both 
+  H<tag1>2</tag1>O 
+  and 
+  E=mc<tag2>2</tag2>
+  are fun to learn about.
+</p>
+```
 
 tag1 = ???
 tag2 = ???
@@ -41,22 +73,16 @@ tag2 = ???
 ---
 ## Revision
 
-What element should be used to change the "2" in chemical formulas, like H<sub>2</sub>O)?
+What element should be used to change the "2" in chemical formulas, like H2O?
+
+???
+
+What element should be used to change the "2" in formulas, like E = mc2?
 
 ???
 
 * sub
 * sup
-* sum
-* sud
-* sos
-
-What element should be used to change the "2" in formulas, like E = mc<sup>2</sup>?
-
-???
-
-* sup
-* sub
 * sum
 * sud
 * sos
@@ -64,20 +90,13 @@ What element should be used to change the "2" in formulas, like E = mc<sup>2</su
 ---
 ## Quiz
 
-How much do you know about text in HTML?
+### How much do you know about text in HTML?
 
-Write the code to properly display the text like this:
+Which of these is not a proper MathML formula for sub and superscript?
 
-<p>I learned about E = mc<sup>2</sup> and H<sub>2</sub>O in school.</p>
+???
 
-`<p>`I learned about E = mc`<tag1>`2`</tag1>` and H`<tag2>`2`</tag2>`O in school.`</p>`
-
-tag1 = ???
-tag2 = ???
-
-* sub
-* sup
-* upper
-* lower
-* ubase
-* lbase
+* `<msubsuper>`
+* `<msub>`
+* `<msup>`
+* `<msubsup>`
