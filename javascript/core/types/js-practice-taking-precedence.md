@@ -13,7 +13,7 @@ tags:
 
 type: exercise
 
-link: https://jsfiddle.net/elliehoward/wf31p4hq/3/
+link: https://jsfiddle.net/elliehoward/wf31p4hq/
 linkType: jsfiddle
 standards:
   javascript.evaluate-expressions.5: 1000

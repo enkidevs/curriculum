@@ -12,7 +12,7 @@ type: exercise
 
 linkType: jsfiddle
 
-link: https://jsfiddle.net/elliehoward/9v4ma06q/3/
+link: https://jsfiddle.net/elliehoward/9v4ma06q/
 
 standards:
   javascript.javascript-syntax.2: 10

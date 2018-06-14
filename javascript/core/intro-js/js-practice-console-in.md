@@ -13,7 +13,7 @@ type: exercise
 
 linkType: jsfiddle
 
-link: https://jsfiddle.net/elliehoward/uw19xmkv/5/
+link: https://jsfiddle.net/elliehoward/uw19xmkv/
 
 standards:
   javascript.javascript-syntax.1: 10
