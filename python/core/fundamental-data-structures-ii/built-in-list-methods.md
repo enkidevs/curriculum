@@ -31,7 +31,7 @@ links:
 These are some common built-in list methods.
 
 To extend one list with the contents of another list:
-```python
+```python 
 list_a.extend(list_b)
 ```
 Reverse the items in a *list*:

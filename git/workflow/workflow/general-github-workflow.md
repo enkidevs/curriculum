@@ -29,16 +29,16 @@ This set a standard for **contributing** to software projects revolving around t
 
 However, public **collaboration** is not the single use case for this workflow. Many private teams employ it to simplify their code review process.
 
-In order to add a feature or an improvement to an existing codebase:
+ To add a feature or an improvement to an existing codebase:
 
 - clone the repository
-- check out the `HEAD` of the development branch - usually `master` or `develop`
+- check out the `HEAD` of the development branch - usually `master` or `develop`.
 - make your changes and  `commit` them
 - `push` the branch to **GitHub**
 - generate a **pull request** with the development target branch[1]
 - work with the team to review the pull request (if changes are needed, more `commit`s can be made)
 - when the project owner is ready to accept your proposed changes it can be merged
-- this closes the pull request
+- this closes the pull request 
 
 ---
 ## Revision
