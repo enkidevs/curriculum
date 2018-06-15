@@ -40,3 +40,4 @@ We want to create a new database for our products. We have a lot of products to 
 
 We won't have the data to import for a few weeks, but we know that we want to start adding new products to the database right away.
 Start the auto-incrementing ID at 100,000, just in case there are more than we realized.
+ 

@@ -45,3 +45,4 @@ Run the query before you create an index, and click "View Execution Plan", then 
 
 Check the `possible_keys` column - what is the value that appears there?
  
+ 

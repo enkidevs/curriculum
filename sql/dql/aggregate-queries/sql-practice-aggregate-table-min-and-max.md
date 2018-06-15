@@ -37,3 +37,4 @@ In SQLFiddle, write a SQL query that answers the following question:
 
 What are the minimum and maximum `cost` for items with `fling_power` greater than 25?
  
+ 
