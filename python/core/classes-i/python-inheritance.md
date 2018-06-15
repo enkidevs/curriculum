@@ -134,3 +134,4 @@ print(sq.color)
 - square red
 - AttributeError: 'super' object has no attribute '__getattr__'
 - AttributeError: 'super' object has no attribute '__setattr__'
+ 
