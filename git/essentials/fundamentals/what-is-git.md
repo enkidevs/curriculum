@@ -68,3 +68,4 @@ Tovarld once said: "I'm an egotistical bastard, and I name all my projects after
 
 [2:SHA1]
 SHA-1 (Secure Hash Algorithm 1) was designed by the United States National Security Agency, having been the standard for hashing algorithm in IT.
+ 

@@ -122,3 +122,4 @@ has the right format.
 %exp
 `post-rewrite` hook is run by commands that replace or update commits.
 %
+ 

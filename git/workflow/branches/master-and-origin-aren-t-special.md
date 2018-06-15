@@ -59,3 +59,4 @@ The default name for the remote is `origin`.
 * new branches’ default name
 * local folder name
 
+ 
