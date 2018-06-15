@@ -8,3 +8,4 @@ insights:
   - using-printstream-format-to-format-a-string-before-printing
   - use-strings-in-a-switch-statement
   - relative-url-s-in-java
+ 

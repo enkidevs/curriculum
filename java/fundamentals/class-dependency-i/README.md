@@ -8,3 +8,4 @@ insights:
   - do-not-return-references-to-private-mutable-class-members
   - using-an-interface-as-a-parameter
   - default-constructors
+ 

@@ -8,3 +8,4 @@ insights:
   - custom-commit-template
   - cherry-pick-a-commit
   - what-is-a-checksum
+ 

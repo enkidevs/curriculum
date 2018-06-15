@@ -8,3 +8,4 @@ insights:
   - using-bounded-type-parameters-in-generic-methods
   - writing-generic-classes
   - type-inference-in-generic-classes
+ 
