@@ -17,3 +17,5 @@ exercises:
   - sql-practice-aggregate-table-max-filter
   - sql-practice-aggregate-group
   - sql-practice-aggregate-average
+ 
+ 
