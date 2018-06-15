@@ -18,11 +18,11 @@ link: https://www.codewars.com/kata/duplicate-encoder
 
 standards:
 
-  py.functions.0: 1000
-  py.functions.1: 2000
-  py.functions.2: 3000
-  py.functions.4: 4000
-  py.functions.5: 5000
+  python.functions.0: 1000
+  python.functions.1: 2000
+  python.functions.2: 3000
+  python.functions.4: 4000
+  python.functions.5: 5000
 
 links:
 

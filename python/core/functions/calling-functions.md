@@ -13,7 +13,7 @@ inAlgoPool: false
 
 
 standards:
-  py.functions.1: 10
+  python.functions.1: 10
 
 
 ---

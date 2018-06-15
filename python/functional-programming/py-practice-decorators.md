@@ -21,8 +21,8 @@ links:
 linkType: codewars
 link: https://www.codewars.com/kata/modular-multiplicative-inverse
 standards:
-    py.functional-programming-features.2: 3000
-    py.functional-programming-features.3: 4000
+    python.functional-programming-features.2: 3000
+    python.functional-programming-features.3: 4000
 
 ---
 ## Exercise

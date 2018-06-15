@@ -18,8 +18,8 @@ link: https://www.codewars.com/kata/replace-with-alphabet-position
 
 standards:
 
-    py.use-comprehensions.0: 1000
-    py.use-comprehensions.2: 3000
+    python.use-comprehensions.0: 1000
+    python.use-comprehensions.2: 3000
 
 links:
 

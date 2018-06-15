@@ -21,9 +21,9 @@ link: https://www.codewars.com/kata/binary-representation-of-an-integer
 
 standards:
 
-  py.standard-library-data.3: 2000
-  py.standard-library-data.4: 2000
-  py.standard-library-data.8: 3000
+  python.standard-library-data.3: 2000
+  python.standard-library-data.4: 2000
+  python.standard-library-data.8: 3000
 
 links:
 

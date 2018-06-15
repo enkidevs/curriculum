@@ -15,7 +15,7 @@ inAlgoPool: false
 
 
 standards:
-  py.native-types-operations.8: 10
+  python.native-types-operations.8: 10
 
 links:
 

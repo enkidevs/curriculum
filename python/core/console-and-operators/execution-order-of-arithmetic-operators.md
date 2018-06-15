@@ -23,7 +23,7 @@ inAlgoPool: false
 # Execution Order of Arithmetic Operators
 
 standards:
-  py.native-types-operations.2: 10
+  python.native-types-operations.2: 10
 
 ---
 ## Content

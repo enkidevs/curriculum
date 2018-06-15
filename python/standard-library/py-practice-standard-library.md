@@ -22,8 +22,8 @@ link: https://www.codewars.com/kata/extract-file-name
 
 standards:
 
-  py.standard-library-operating-system.0: 2000
-  py.standard-library-operating-system.1: 2000
+  python.standard-library-operating-system.0: 2000
+  python.standard-library-operating-system.1: 2000
 
 links:
 

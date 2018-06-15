@@ -14,7 +14,7 @@ type: normal
 category: must-know
 
 standards:
-  py.object-oriented.4: 10
+  python.object-oriented.4: 10
 
 links:
 

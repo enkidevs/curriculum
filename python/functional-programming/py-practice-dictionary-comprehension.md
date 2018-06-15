@@ -18,8 +18,8 @@ link: https://www.codewars.com/kata/thinkful-dictionary-drills-multiple-modes
 
 standards:
 
-    py.use-comprehensions.0: 1000
-    py.use-comprehensions.3: 3000
+    python.use-comprehensions.0: 1000
+    python.use-comprehensions.3: 3000
 
 links:
 

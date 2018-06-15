@@ -21,11 +21,11 @@ link: http://www.codewars.com/kata/pick-peaks
 
 standards:
 
-  py.store-manipulate-data.0: 3000
-  py.store-manipulate-data.1: 5000
-  py.store-manipulate-data.3: 4000
-  py.store-manipulate-data.2: 2000
-  py.data-structures-uses.5: 4000
+  python.store-manipulate-data.0: 3000
+  python.store-manipulate-data.1: 5000
+  python.store-manipulate-data.3: 4000
+  python.store-manipulate-data.2: 2000
+  python.data-structures-uses.5: 4000
 
 links:
 

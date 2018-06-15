@@ -18,9 +18,9 @@ link: https://www.codewars.com/kata/first-non-repeating-character
 
 standards:
 
-    py.use-comprehensions.0: 1000
-    py.use-comprehensions.4: 3000
-    py.use-comprehensions.5: 3000
+    python.use-comprehensions.0: 1000
+    python.use-comprehensions.4: 3000
+    python.use-comprehensions.5: 3000
 
 links:
 

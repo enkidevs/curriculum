@@ -25,7 +25,7 @@ notes: |
   to show how to print calendar for a year.
 
 standards:
-  py.native-types-operations.8: 10
+  python.native-types-operations.8: 10
 
 ---
 

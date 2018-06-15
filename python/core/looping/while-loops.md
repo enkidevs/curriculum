@@ -12,8 +12,8 @@ category: must-know
 inAlgoPool: false
 
 standards:
-  py.control-structures.3: 10
-  py.identify-python-syntax.0: 10
+  python.control-structures.3: 10
+  python.identify-python-syntax.0: 10
 
 
 ---

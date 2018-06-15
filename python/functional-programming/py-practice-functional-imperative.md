@@ -19,8 +19,8 @@ links:
 linkType: codewars
 link: https://www.codewars.com/kata/binary-representation-of-an-integer
 standards:
-    py.contrast-functional-imperative.0: 1000
-    py.contrast-functional-imperative.1: 1000
+    python.contrast-functional-imperative.0: 1000
+    python.contrast-functional-imperative.1: 1000
 
 ---
 ## Exercise

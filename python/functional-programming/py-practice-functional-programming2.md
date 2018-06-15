@@ -19,8 +19,8 @@ links:
 linkType: codewars
 link: https://www.codewars.com/kata/calculate-average
 standards:
-    py.contrast-functional-imperative.0: 1000
-    py.contrast-functional-imperative.0: 2000
+    python.contrast-functional-imperative.0: 1000
+    python.contrast-functional-imperative.0: 2000
 
 ---
 ## Exercise

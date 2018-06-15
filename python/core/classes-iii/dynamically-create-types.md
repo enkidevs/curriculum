@@ -25,7 +25,7 @@ tags:
 
 
 standards:
-  py.object-oriented.5: 10
+  python.object-oriented.5: 10
 
 links:
 

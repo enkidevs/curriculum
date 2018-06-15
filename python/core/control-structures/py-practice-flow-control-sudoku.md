@@ -18,10 +18,10 @@ link: https://www.codewars.com/kata/did-i-finish-my-sudoku
 
 standards:
 
-  py.control-structures.0: 1000
-  py.control-structures.1: 2000
-  py.control-structures.3: 3000
-  py.control-structures.4: 5000
+  python.control-structures.0: 1000
+  python.control-structures.1: 2000
+  python.control-structures.3: 3000
+  python.control-structures.4: 5000
 
 links:
 

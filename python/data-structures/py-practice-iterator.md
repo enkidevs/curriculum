@@ -21,11 +21,11 @@ link: http://www.codewars.com/kata/clock-in-mirror
 
 standards:
 
-  py.data-structures-uses.0: 1000
-  py.data-structures-uses.5: 4000
-  py.data-structures-uses.3: 3000
-  py.data-structures-uses.4: 4000
-  py.native-types-operations.3: 4000
+  python.data-structures-uses.0: 1000
+  python.data-structures-uses.5: 4000
+  python.data-structures-uses.3: 3000
+  python.data-structures-uses.4: 4000
+  python.native-types-operations.3: 4000
 
 links:
 

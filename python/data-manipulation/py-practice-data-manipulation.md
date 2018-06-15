@@ -18,11 +18,11 @@ link: https://www.codewars.com/kata/help-the-bookseller
 
 standards:
 
-  py.store-manipulate-data.0: 3000
-  py.store-manipulate-data.1: 2000
-  py.store-manipulate-data.2: 3000
-  py.data-structures-uses.5: 5000
-  py.data-structures-uses.4: 6000
+  python.store-manipulate-data.0: 3000
+  python.store-manipulate-data.1: 2000
+  python.store-manipulate-data.2: 3000
+  python.data-structures-uses.5: 5000
+  python.data-structures-uses.4: 6000
 
 links:
 

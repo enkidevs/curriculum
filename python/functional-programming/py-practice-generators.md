@@ -21,7 +21,7 @@ links:
 linkType: codewars
 link: https://www.codewars.com/kata/directions-reduction
 standards:
-    py.functional-programming-features.4: 5000
+    python.functional-programming-features.4: 5000
 
 ---
 ## Exercise

@@ -10,7 +10,7 @@ type: normal
 category: must-know
 
 standards:
-  py.functions.3: 10
+  python.functions.3: 10
 
 
 links:

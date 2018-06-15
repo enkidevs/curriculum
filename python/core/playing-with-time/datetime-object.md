@@ -19,7 +19,7 @@ links:
   - '[docs.python.org](https://docs.python.org/3.5/library/datetime.html#datetime-objects){website}'
 
 standards:
-  py.native-types-operations.8: 10
+  python.native-types-operations.8: 10
 
 parent: time-object
 

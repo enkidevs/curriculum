@@ -21,7 +21,7 @@ links:
 linkType: codewars
 link: https://www.codewars.com/kata/stop-gninnips-my-sdrow
 standards:
-    py.functional-programming-features.0: 3000
+    python.functional-programming-features.0: 3000
 
 ---
 ## Exercise

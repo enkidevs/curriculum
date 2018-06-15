@@ -19,7 +19,7 @@ links:
 linkType: codewars
 link: https://www.codewars.com/kata/geometry-a-2-length-of-a-vector
 standards:
-    py.contrast-functional-imperative.0: 1000
+    python.contrast-functional-imperative.0: 1000
 
 ---
 ## Exercise

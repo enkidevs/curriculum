@@ -18,8 +18,8 @@ link: https://www.codewars.com/kata/number-of-people-in-the-bus
 
 standards:
 
-    py.pure-functions.1: 1000
-    py.pure-functions.2: 1000
+    python.pure-functions.1: 1000
+    python.pure-functions.2: 1000
 
 links:
 

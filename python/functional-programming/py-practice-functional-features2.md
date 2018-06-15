@@ -21,7 +21,7 @@ links:
 linkType: codewars
 link: hhttps://www.codewars.com/kata/keypad-horror
 standards:
-    py.functional-programming-features.1: 3000
+    python.functional-programming-features.1: 3000
 
 ---
 ## Exercise

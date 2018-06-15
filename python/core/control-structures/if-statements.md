@@ -16,9 +16,9 @@ category: must-know
 inAlgoPool: false
 
 standards:
-  py.identify-python-syntax.0: 10
-  py.native-types-operations.0: 10
-  py.control-structures.1: 10
+  python.identify-python-syntax.0: 10
+  python.native-types-operations.0: 10
+  python.control-structures.1: 10
 
 
 ---

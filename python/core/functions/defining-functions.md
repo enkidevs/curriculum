@@ -13,8 +13,8 @@ inAlgoPool: false
 
 
 standards:
-  py.functions.0: 10
-  py.identify-python-syntax.2: 10
+  python.functions.0: 10
+  python.identify-python-syntax.2: 10
 
 links:
 

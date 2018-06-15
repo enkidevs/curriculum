@@ -23,9 +23,9 @@ link: https://www.codewars.com/kata/create-phone-number
 
 standards:
 
-  py.standard-library-data.3: 2000
-  py.standard-library-data.5: 2000
-  py.standard-library-data.6: 3000
+  python.standard-library-data.3: 2000
+  python.standard-library-data.5: 2000
+  python.standard-library-data.6: 3000
 
 links:
 

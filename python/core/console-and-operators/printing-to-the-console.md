@@ -23,7 +23,7 @@ inAlgoPool: false
 # Printing to the console!
 
 standards:
-  py.identify-python-syntax.1: 10
+  python.identify-python-syntax.1: 10
 
 ---
 ## Content

@@ -17,7 +17,7 @@ inAlgoPool: false
 
 
 standards:
-  py.identify-python-syntax.1: 10
+  python.identify-python-syntax.1: 10
 
 
 ---

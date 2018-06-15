@@ -15,7 +15,7 @@ category: tip
 
 
 standards:
-  py.object-oriented.2: 10
+  python.object-oriented.2: 10
 
 
 links:
