@@ -112,3 +112,4 @@ The `IPv4` format, using `32` bits, allows the existence of `2^32` (4 294 967 29
 Its name comes from the most famous protocols in use within the stack:
  - `TCP` short for **Transmission Control Protocol**
  - `IP` short for **Internet Protocol**
+ 

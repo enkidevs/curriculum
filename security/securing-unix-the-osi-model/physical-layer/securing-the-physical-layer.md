@@ -69,3 +69,4 @@ What is one control in the Physical Layer of the OSI Model?
 * Encrypted password exchange and storage
 * Using switches to branch off wired connections
 
+ 
