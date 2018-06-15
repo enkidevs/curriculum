@@ -146,3 +146,4 @@ Choose the query that will get all move names with id between 3 and 6. Also, pay
 * SELECT name FROM move_name WHERE move_id >= 3 AND move_id <= 6 AND language_id >= 5 OR language_id <= 9;
 * SELECT name FROM move_name WHERE move_id IN (3,6) AND language_id >= 5 AND language_id <= 9;
  
+ 

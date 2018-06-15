@@ -43,3 +43,4 @@ First, update the name of the `facebook_id` column to reflect that you can use e
 Once that's done, we'll also need a new column that indicates whether they used Facebook or Twitter. Create a new column called `social_type` and set all current values to `facebook`.
 Set the default value for this new column to be `facebook`. For reasons.
  
+ 

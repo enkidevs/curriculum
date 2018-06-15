@@ -136,3 +136,4 @@ This table has thousands of entries and querying a pokemon's species is very slo
 [1:Indices]
 Reasonable people differ when they refer to the plural of Index. Some people use Indices, some use Indexes.
  
+ 

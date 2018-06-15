@@ -98,3 +98,4 @@ id | region_id |      name
 * ALTER TABLE generation DROP region_id;
 * ALTER generation DROP COLUMN region_id;
  
+ 

@@ -71,3 +71,4 @@ What is a Database Client?
 * An optional program that a user can install on top of the Database Server
 * The software through which memory is allocated on the server
  
+ 

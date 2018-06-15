@@ -68,3 +68,4 @@ How do you select all the rows and columns from a table called `products`?
 * `SELECT EVERYTHING FROM products`
 * `SELECT * FROM items`
  
+ 

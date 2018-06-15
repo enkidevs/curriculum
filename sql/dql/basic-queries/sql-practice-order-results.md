@@ -40,3 +40,4 @@ In SQLFiddle, write a SQL query that does the following:
 
 For your answer, write the name of the item with the *least* fling power, followed by the name of the item with the *greatest* fling power within this range.
  
+ 
