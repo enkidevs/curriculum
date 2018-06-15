@@ -8,3 +8,4 @@ insights:
   - quick-cd-tips
   - terminal-based-browser
   - rapidly-invoke-an-editor-to-write-a-long-complex-or-tricky-command
+ 

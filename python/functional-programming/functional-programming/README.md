@@ -8,3 +8,4 @@ insights:
   - is-python-a-functional-language
   - functional-particularities-of-python
   - lambda-functions
+ 
