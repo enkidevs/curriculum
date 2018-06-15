@@ -131,3 +131,4 @@ Commits in the **stash** are counted from index `0`; more recent commits, with a
 $ git stash --index
 ```
 The `apply` and `pop` can be used within **any** branch.  In this way you can move changes to another branch
+ 

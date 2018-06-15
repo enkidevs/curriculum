@@ -99,3 +99,4 @@ What `Git` command is used to change various configuration options?
 ## Footnotes
 [1:global]
 The `--global` flag applies changes to all projects. It's possible to change variables for specific projects by running the command without the flag.
+ 

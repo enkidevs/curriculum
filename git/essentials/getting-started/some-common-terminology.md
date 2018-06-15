@@ -69,3 +69,4 @@ What other name does the **staging area** have?
 * tag
 * stage
 
+ 

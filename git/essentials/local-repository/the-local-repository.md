@@ -63,3 +63,4 @@ The area where 'to be committed' changes are placed is called ??? .
 * the repository
 * the working directory
 
+ 
