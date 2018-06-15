@@ -97,3 +97,4 @@ How do nested loops work?
 * The inner loop increments once per full cycle of the outer loop.
 * The inner and outer loops increment simultaneously.
  
+ 

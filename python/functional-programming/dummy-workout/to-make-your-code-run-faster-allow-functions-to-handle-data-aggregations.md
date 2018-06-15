@@ -59,3 +59,4 @@ print "%.3f" % (time.time()-t)
 # 0.204
 ```
 `doit2` runs about 4 times faster!
+ 
