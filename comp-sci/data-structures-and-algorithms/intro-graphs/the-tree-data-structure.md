@@ -88,3 +88,4 @@ Which of the following statements does apply to Tree data structures?
 * The root node cannot have more than 2 children.
 * There is no relation between the nodes of a tree.
 
+ 

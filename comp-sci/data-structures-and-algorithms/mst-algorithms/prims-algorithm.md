@@ -99,3 +99,4 @@ The maximal number of edges of a directed graph is `|V|×|V-1|`, while for an un
 
 [2: Graph Representation]
 If you remember the first Data Structure and Algorithm insight, we said that different data structures are optimized for different types of operations.
+ 

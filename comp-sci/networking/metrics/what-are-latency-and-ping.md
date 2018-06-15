@@ -109,3 +109,4 @@ There are some factors that directly influence the network latency:
 **Congestion** goes hand in hand with **bandwidth**. The smaller your bandwidth is, the more likely are you to experience congestion with low latency.
 
 All the information gets to you fast enough, but it does not have enough space on the bandwidth to get through and will slow down.
+ 
