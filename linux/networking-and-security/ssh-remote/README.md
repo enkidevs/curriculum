@@ -8,3 +8,4 @@ insights:
   - proxifying-ssh-connections
   - play-sounds-remotely
   - block-ips-using-fail2ban
+ 
