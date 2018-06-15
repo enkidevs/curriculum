@@ -26,14 +26,14 @@ standards:
 ## Content
 
 There are few things to keep in mind when talking about Python:
-- it's an entirely *object orientated* programming language
+- it is an entirely *object oriented* programming language
 - each variable is an *object*
 - variables and their types **don't** need to be declared before assigning them values
 
 To define a string (`str` type), you can either use single or double quotes:
 ```python
-str = 'enki'
-str_2 = "enki"
+str = 'Enki'
+str_2 = "Enki"
 ```
 
 Using single quotes will allow unescaped embedding of double quotes and vice-versa:
@@ -42,13 +42,19 @@ single = 'I can use "these" '
 double = "I can use 'these' "
 ```
 
-It's most Pythonic[1] to use single quotes until you need double quotes.
+It is most Pythonic[1] to use single quotes until you need double quotes.
 
 To define integers (keep in mind these are signed):
 ```python
 int = 23
 int_2 = -3
 ```
+
+Longs (long integers) are also available - as integers of infinite size and followed by the letter `L`:
+```python
+long = 0122L
+```
+Note that `long` and `int` are **unified** in Python 3.x and you do not need to worry about long integers anymore.  
 
 Floating point numbers are also easily defined:
 ```python

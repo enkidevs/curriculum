@@ -60,7 +60,7 @@ A `WLAN` is a type of `LAN` that uses wireless technology (nearly always Wi-Fi) 
 ---
 ## Practice
 
-Which of the following network types describes a local area network that uses **wireless** technologies to connect its devices ?
+Which of the following network types describes a local area network that uses **wireless** technologies to connect its devices?
 
 ???
 

@@ -22,8 +22,11 @@ links:
 ---
 ## Content
 
-Within CSS, multiple style blocks *cascade* from the top of the style sheet to the bottom. Here's an example:
-```
+When we talk about "Cascading Style Sheets", what do we mean by *cascade*?
+Style blocks *cascade* from the top of the style sheet to the bottom, like a waterfall.
+
+Here's an example:
+```css
 p {
   color: red;
   font-weight: bold;
@@ -32,12 +35,13 @@ p {
   color: green;
 }
 ```
-In the above, we first select all paragraphs on the page and set their font color to `red` and their style to `bold`. Then we select the all paragraphs again and set their font color to `green`.
+
+First, select all paragraphs on the page, then set their font color to `red` and their style to `bold`. Then, we select the all paragraphs again and set their font color to `green`.
 
 Because the selector that sets their color to `green` comes after the selector that sets their color to `red`, it will *override* the initial value. Paragraphs will still be `bold` as the second selector doesn't specify another value for the `font-weight` property.
 
 The same cascading property works for declaring different values in the same selector:
-```
+```css
 /* paragraphs will be green */
 p {
   color: red;
@@ -79,4 +83,3 @@ Where should a style block be located in the CSS file for it to be applied last?
 * Middle of the file.
 * Top of the file.
 * Doesn't matter.
-

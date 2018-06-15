@@ -53,7 +53,7 @@ print(y.union(x))
 # {1,2,3,4,5,8,9}
 ```
 
-We define **Intersection** of two sets, as a resulting set that contains only elements that are *in both sets*. Intersection is performed using:
+We define **Intersection** of two sets, as a resulting set that contains only elements that are *in both sets*. An Intersection is performed using:
 - the `&` operator
 - the `intersection()` method
 
@@ -69,7 +69,7 @@ print(y.intersection(x))
 # {3,4,5}
 ```
 
-**Difference** of `x` and `y` (`x- y`), is the set of elements that are *only in `x` and not in `y`*. Difference is performed using:
+**Difference** of `x` and `y` (`x- y`), is the set of elements that are *only in `x` and not in `y`*. The Difference is performed using:
 - `-` operator
 - `difference()` method
 

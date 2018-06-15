@@ -32,14 +32,14 @@ public class HelloWorld {
    }
 }
 ```
-In Java, every function has to be inside a class. In this case, our class is `HelloWorld`, and the function is `main()`. We call these functions *methods*. 
+In Java, every function has to be inside a class. In this case, our class is `HelloWorld`, and the function is `main()`. We call these functions *methods*.
 
 The syntax of the example function is:
  - `public static`: modifier
  - `void`: return type
  - `main`: identifier(name) of the method
 
-The next snippet shows general declaration of a method:
+The next snippet shows the general declaration of a method:
 ```java
 modifier returnType name(parameters){
    // method body
@@ -111,4 +111,3 @@ public ??? test() {
 * `int`
 * `empty`
 * `static`
-

@@ -45,22 +45,20 @@ Keep in mind that processing and decoding time of the `packet` is not taken into
 
 To calculate **RTT**, one can use the `ping` command line utility, available on most systems, including **Windows**:
 
-```
+```bash
 ping enki.com
 ```
 
 A general output would be:
-```
+```text
 64 bytes from 52.85.178.222:
    icmp_seq=1 ttl=55 time=55.9 ms
 64 bytes from 52.85.178.222:
    icmp_seq=2 ttl=55 time=55.6 ms
 64 bytes from 52.85.178.222:
-  icmp_seq=3 ttl=55 time=56.2 ms
-
-
+   icmp_seq=3 ttl=55 time=56.2 ms
 ```
-You can see that the average time is around `55 -56` ms.
+You can see that the average time is around `55-56` ms.
 
 In the majority of cases the **ping rate** is equivalent to the **effective latency** between a device and a server, but factors such as throttling and congestion[4] might affect the results.
 The terms are roughly synonymous and many games and applications report the **latency** as **ping rate**.

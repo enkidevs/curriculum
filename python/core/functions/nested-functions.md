@@ -47,7 +47,7 @@ When calling `out_func`, this is the output:
 out_func(5)
 # (5, 6)
 ```
-This shows that the outer function is called with the parameter, that parameter is then passed into the inner function with a value being returned back to the outer function call.
+This shows that the outer function is called with the parameter, that parameter is then passed into the inner function with a value being returned to the outer function call.
 
 ---
 ## Practice

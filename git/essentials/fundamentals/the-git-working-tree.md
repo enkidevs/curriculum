@@ -32,7 +32,7 @@ The **working tree** represents files that have been **created**, **updated** or
 
 **Tracked** files in the working tree are represented in **Git** based on different statuses:
   - `modified` or `dirty` : the file is changed, but Git has yet to calculate the differences and label the versions.
-  - `staged` : differences are calculated and the new structure of the project can be saved.
+  - `staged` : the differences are calculated, and the new structure of the project can be saved.
   - `committed` : the new version is safely stored in the repository.
 
 A user can add the changes to a repository at any point through **commits**, but also **revert** those changes.

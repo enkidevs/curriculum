@@ -32,7 +32,7 @@ links:
 The standard Python for loop syntax is:
 ```python
 for iterating_num in sequence:
-    doSomething()
+    doSomething() 
 ```
 
 An example `for` loop:

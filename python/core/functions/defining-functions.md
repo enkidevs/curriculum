@@ -28,7 +28,7 @@ links:
 ---
 ## Content
 
-Functions allow you to split up your code into relevant blocks, they allow code to be ordered and to be more readable.
+Functions allow you to split up your code into relevant blocks, and they allow code to be ordered and to be more readable.
 
 Functions in Python use Python's standard block syntax:
 

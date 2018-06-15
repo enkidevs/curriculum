@@ -1,27 +1,32 @@
 name: HTML
 
-description: Fundamentals of HTML and CSS.
+description: Learn HyperText Markup Language
 
 core: true
 
 sections:
   '0':
-    - box-model
-    - css-basics
     - html-basics
-    - intro-css
-    - positioning
+    - html-structure
+    - core-html-elements
+    - web-page-structure
+    - images
   '1':
-    - dimensioning-and-box-sizing
-    - features
-    - practical-css
-    - pseudo-classes-i
-    - pseudo-classes-ii
-    - pseudo-elements
-    - typography
+    - media
+    - forms
+    - forms-ii
+    - meta-elements
+    - sectioning-elements
   '2':
-    - animations
-    - flexbox
+    - forms-iii
+    - forms-iv
+    - forms-v
+    - semantic-sections
+    - citation-elements
+    - computer-code
+    - best-practices
+    - html-entities
+    - html-versions
 
 standards:
   syntax-html:

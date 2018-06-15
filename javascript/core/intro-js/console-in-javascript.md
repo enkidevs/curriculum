@@ -36,7 +36,13 @@ links:
 
 The `console.*` methods output information to a console.
 
-For example, `console.log` can print out a message or show details of an object:
+For example, `console.log` can print out a message:
+```
+console.log("This is my message");
+// This is my message
+```
+
+ More commonly it is used to show the current value of a variable when debugging. In this example we are logging the value of a variable called username:
 ```
 console.log("Username: " + username);
 // Username: enkilondon

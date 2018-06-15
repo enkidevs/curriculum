@@ -39,9 +39,9 @@ Even though elements stored in **sets** must be **immutable** the set itself is 
 
 There are two ways to create a **set**:
 - by placing all items inside `{}`, separated by commas;
-- or by using the **built in function** `set()`.
+- or by using the **built-in function** `set()`.
 
-There is no constraint regarding which **method** to use, but you have to know that an **empty set** can't be created using the following **syntax**: `my_set = {}`. It is because, **empty curly braces** create an **empty dictionary in Python**.
+There is no constraint regarding which **method** to use, but you have to know that an **empty set** cannot be created using the following **syntax**: `my_set = {}`. It is because **empty curly braces** create an **empty dictionary in Python**.
 
 Consider the following example:
 
@@ -70,11 +70,11 @@ print(my_set)
 # Output: {1,2,3,4,5,9,10,7,11,12}
 ```
 
-As you can see, if we try to add **duplicate values** to the **set**, it wouldn't consider them.
+As you can see, if we try to add **duplicate values** to the **set**, it would not consider them.
 
 **Sets** have two methods for removing items as well:
-- `discard()` -> which removes an element if it exists and does nothing if it doesn't.
-- `remove()` -> which does the same thing if the element exists, but would raise an error if it doesn't exist.
+- `discard()` -> which removes an element if it exists and does nothing if it does not.
+- `remove()` -> which does the same thing if the element exists, but would raise an error if it does not exist.
 
 ```
 my_set.remove(1)

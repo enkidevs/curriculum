@@ -115,7 +115,7 @@ ex_tuple = ("Python", 1, "Enki", 2)
 * `1`
 
 ---
-## Quiz 
+## Quiz
 ### how does unpacking work?
 
 ```python

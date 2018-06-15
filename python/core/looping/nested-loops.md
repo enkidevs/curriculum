@@ -22,7 +22,7 @@ standards:
 ---
 ## Content
 
-A nested loop in Python is where you have one loop inside of another loop. The inner loop will complete an entire sequence whilst the outer loop will increment once.
+A nested loop in Python is where you have one loop inside of another loop. The inner loop will complete an entire sequence while the outer loop will increment once.
 
 Here is the standard syntax whilst using `for` loops:
 

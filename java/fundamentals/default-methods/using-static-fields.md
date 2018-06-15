@@ -40,7 +40,7 @@ public class Countable {
   ...
 }
 ```
-The `count` field is `static` so only one instance of it exists across all instances of `Countable`. Whenever a new instance is created, `count` is incremented by one. This means that `count` will store the number of instances that have been created.
+The `count` field is `static`, so only one instance of it exists across all instances of `Countable`. Whenever a new instance is created, `count` is incremented by one. This means that `count` will store the number of instances that have been created.
 
 ---
 ## Practice
