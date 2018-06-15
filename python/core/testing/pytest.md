@@ -107,3 +107,4 @@ You have to install `pytest` through Python's package manager, `pip`:
 ```bash
 $ pip install --user pytest
 ```
+ 
