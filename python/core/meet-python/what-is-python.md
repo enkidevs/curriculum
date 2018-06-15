@@ -60,3 +60,4 @@ What type of keyword does Python use to improve its readability? ???
 ## Footnotes
 [1:encapsulates]
 Encapsulation is an Object-Oriented Programming concept mechanism which wraps the data, variables, and any code acting on the data, methods, together as a single unit.
+ 
