@@ -88,3 +88,4 @@ $ ???
 ## Footnotes
 [1:32-bit of Context]
 i386 means you are running a 32-bit kernel supporting codes compatible with the Intel 80386 processor - which is from 1985. The same principle applies for every other `iXXX` output, all being 32-bit.
+ 
