@@ -8,3 +8,4 @@ insights:
   - self-closing-tags-in-jsx
   - using-false-in-jsx
   - react-in-line-styles
+ 

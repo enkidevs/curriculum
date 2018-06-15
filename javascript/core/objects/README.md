@@ -12,3 +12,4 @@ insights:
 
 exercises:
   - js-practice-objects
+ 

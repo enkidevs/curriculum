@@ -10,3 +10,4 @@ insights:
 
 exercises:
   - js-practice-date
+ 

@@ -10,3 +10,4 @@ insights:
   - check-data-about-a-package
   - package-distribution-tags
   - registry-user-accounts-for-npm
+ 
