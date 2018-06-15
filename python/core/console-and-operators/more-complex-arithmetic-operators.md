@@ -15,15 +15,12 @@ category: must-know
 
 inAlgoPool: false
 
-
-
+standards:
+  python.native-types-operations.2: 10
 
 ---
 
 # More Complex Arithmetic Operators
-
-standards:
-  python.native-types-operations.2: 10
 
 ---
 ## Content
