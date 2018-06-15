@@ -8,3 +8,4 @@ insights:
   - fetch-api
   - permission-api
   - network-information-api
+ 

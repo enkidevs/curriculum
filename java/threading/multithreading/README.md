@@ -9,3 +9,4 @@ insights:
   - why-use-volatile-long-or-double
 
 game: thread-safe
+ 
