@@ -8,3 +8,4 @@ insights:
   - locate-a-commit-by-its-hash
   - specify-a-commit-by-its-ancestry
   - specify-a-range-of-commits-using-double-dot-syntax
+ 

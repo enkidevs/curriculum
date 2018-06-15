@@ -8,3 +8,4 @@ insights:
   - upper-bounded-wildcards
   - using-lower-bounded-wildcards
   - wildcards-extras
+ 

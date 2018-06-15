@@ -8,3 +8,4 @@ insights:
   - java-versions
   - java-hello-world
   - compiling-and-running-java-code
+ 

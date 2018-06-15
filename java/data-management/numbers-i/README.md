@@ -8,3 +8,4 @@ insights:
   - use-primitive-types-instead-of-wrapper-classes-when-possible
   - generating-random-numbers-in-java
   - use-underscores-to-separate-digits-in-numeric-literals
+ 

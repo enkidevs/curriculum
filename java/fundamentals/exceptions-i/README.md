@@ -8,3 +8,4 @@ insights:
   - creating-new-exceptions
   - throwing-an-exception
   - the-distinction-between-checked-and-unchecked-exceptions
+ 

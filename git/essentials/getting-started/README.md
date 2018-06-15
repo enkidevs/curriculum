@@ -8,3 +8,4 @@ insights:
   - initializing-a-git-repository
   - cloning-a-git-repository
   - some-common-terminology
+ 
