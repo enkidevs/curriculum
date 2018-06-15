@@ -96,3 +96,4 @@ p.then(console.log)
 
 * Same
 * Different
+ 

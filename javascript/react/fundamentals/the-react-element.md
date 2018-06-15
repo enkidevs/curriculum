@@ -107,3 +107,4 @@ npm install --save react-dom
 
 `ReactDOM` uses a `root` **node** as an entry point into the **DOM**.
 Application only built with **React** will have just one `root` node, but when you integrate **React** into an existing app, you can have multiple `root`s.
+ 

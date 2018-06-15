@@ -65,3 +65,4 @@ typeof new Date();
 * null
 * var
 * Array()
+ 

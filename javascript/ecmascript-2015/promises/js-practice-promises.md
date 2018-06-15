@@ -26,3 +26,4 @@ links:
 ## Exercise
 
 Practice using JavaScript Promises on Code Wars
+ 

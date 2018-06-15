@@ -154,3 +154,4 @@ typeof(b());
 %exp
 The result of this code is a `ReferenceError: b is not defined` as the variable name of function `b()` is actually `a`, and there is nothing in scope called `b` which we can reference. However, if we were to call `typeof(a())` then we would get `string`. If we called `typeof(b())` within the declaration of the function, `b` would be in scope and there would be no error.
 %
+ 

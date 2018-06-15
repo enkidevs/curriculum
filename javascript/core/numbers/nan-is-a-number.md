@@ -95,3 +95,4 @@ console.log(typeof(NaN));
 * object
 * function
 * undefined
+ 

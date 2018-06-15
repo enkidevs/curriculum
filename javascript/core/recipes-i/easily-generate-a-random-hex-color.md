@@ -84,3 +84,4 @@ Create a random `hex` color:
 * `int`
 * `Hex`
 
+ 

@@ -112,3 +112,4 @@ function foo(){ // foo is in global
 * fee
 * local
 
+ 
