@@ -57,3 +57,4 @@ To *reload* the terminal and *clear* the previous output you would run
 * clr
 * sudo --reload
 
+ 

@@ -80,3 +80,4 @@ Output from the `find` will substitute for every file found both `{}` occurrence
 To make sure empty files are treated correctly, pass the `-0` flag to `xargs` to split the lists at **null** chars together with `-print0` flag of the `find` command.
 [2:example explanation]
 The command below will find all `.bak` files in the current directory then move them to `~/old.files`.
+ 
