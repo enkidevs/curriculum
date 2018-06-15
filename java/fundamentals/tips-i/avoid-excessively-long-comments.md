@@ -37,3 +37,4 @@ If you find yourself regularly having to write long explanations for the code yo
 
 Following code formatting and variable naming conventions, i.e., writing *self-documenting* code can reduce the reduce of comments required.
 
+ 

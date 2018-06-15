@@ -38,3 +38,4 @@ As its name suggests, an interface defines a class' public interface; that is th
 
 `private` methods, by definition, are not part of a class' interface because external callers cannot access them. Therefore there would be no purpose in defining `private` methods within an interface.
 
+ 
