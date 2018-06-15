@@ -74,3 +74,4 @@ What type of functions should be used in **Redux** as to preserve the **single i
 
 * pure
 * impure
+ 

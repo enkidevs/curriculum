@@ -32,3 +32,4 @@ links:
 ## Exercise
 
 Write a specialized function called a `Closure`.
+ 

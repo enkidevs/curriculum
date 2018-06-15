@@ -89,3 +89,4 @@ names.length = 0;
 * [ ]
 * [undefined,undefined,undefined, undefined]
 * ["John","Mary","Tom"]
+ 

@@ -108,3 +108,4 @@ The syntax to add an `external_script.sh` to *package.json* is:
 * ./external_script.sh
 * script
 * external_script.js
+ 

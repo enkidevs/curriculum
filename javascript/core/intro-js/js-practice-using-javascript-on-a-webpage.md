@@ -31,3 +31,4 @@ In the JS fiddle there is a script tag provided. Use the src attribute on the sc
 
 
 Make sure to submit the JSFiddle link, to show that you've completed the exercise.
+ 

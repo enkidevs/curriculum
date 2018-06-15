@@ -107,3 +107,4 @@ Which of the following module types must have its path specified when requiring 
 
 * local
 * core
+ 

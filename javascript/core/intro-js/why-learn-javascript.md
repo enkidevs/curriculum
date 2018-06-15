@@ -52,3 +52,4 @@ Why was **JavaScript** originally developed?
 * To create databases
 * To enhance Java
 * To replace HTML
+ 

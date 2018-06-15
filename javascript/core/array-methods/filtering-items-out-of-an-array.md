@@ -95,3 +95,4 @@ var div3 = numbers.???( num =>
 * for and if
 * if
 * for and alert
+ 

@@ -78,3 +78,4 @@ When will `sessionStorage` terminate?
 * When page is refreshed.
 * When page is reloaded.
 * When page is scrolled.
+ 

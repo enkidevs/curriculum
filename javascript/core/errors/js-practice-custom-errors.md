@@ -30,3 +30,4 @@ links:
 ## Exercise
 
 Practice creating custom JavaScript Errors on Code Wars
+ 

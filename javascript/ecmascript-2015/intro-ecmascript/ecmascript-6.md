@@ -52,3 +52,4 @@ Do browsers have support for ES6?
 * Modern browsers only. A minority of older versions don't support it
 * ES6 is supported by any browser
 * Not at all. You need to compile your code
+ 

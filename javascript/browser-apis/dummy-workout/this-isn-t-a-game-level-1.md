@@ -119,3 +119,4 @@ var user1 = new user();
 %exp
 When a **function** is used as a **constructor**(with the **new** keyword), it is bound to the **new object** being constructed.
 %
+ 
