@@ -72,3 +72,4 @@ What’s the main advantage of using class inheritance in your code?
 *It prevents code repetition.
 *It reduces compilation time.
 *It increases your codes readability.
+ 

@@ -32,3 +32,4 @@ c:\> serialver -show
 ```
 This will display a simple user interface that allows you to enter a full class name and then press Enter key or click Show button to display the `serialVersionUID` number.
 
+ 

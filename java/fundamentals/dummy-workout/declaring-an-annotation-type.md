@@ -47,3 +47,4 @@ The annotation type can now be used like this:
 }
 ```
 The purpose of the annotation in this example is to include information in javadoc generated documentation. To make this annotation appear in the javadoc, the `@Documented` annotation needs to be used before `@Introduction`.
+ 

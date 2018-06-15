@@ -120,3 +120,4 @@ Class `Pattern` has the `.matcher()` method implemented.
 
 It checks whether the string given as parameter matches the given regular expression.
 %
+ 

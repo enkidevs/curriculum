@@ -133,3 +133,4 @@ What is the conventional extension of a file that the information about the clas
 ## Footnotes
 [1:`transient`]
 We mark fields with `transient` if this field will not be serialized and the information about this field will not be transferred. The motivation for this may be that this particular piece of information is redundant for the receiver or is too risky to transfer (i.e. passwords or other private data).
+ 
