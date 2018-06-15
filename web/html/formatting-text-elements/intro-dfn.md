@@ -113,7 +113,7 @@ Result:
 
 ...later in the document...
 
-After a few hours, I was finally able to understand [HTML]()!
+After a few hours, I was finally able to understand [HTML](#)!
 
 ---
 ## Practice
