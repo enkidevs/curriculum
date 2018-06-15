@@ -16,3 +16,4 @@ insights:
   - quote-attribute-values
   - alt-with-images
   - conditional-comments-ie9
+ 
