@@ -1,12 +1,6 @@
 name: Analyzing Arrays
 
-type: insights-list
-
 description: Built-in functions for analyzing arrays.
-
-section: 0
-
-parent: arrays-i
 
 insights:
   - the-map-built-in-function

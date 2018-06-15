@@ -1,4 +1,4 @@
-# Nested lists comprehension
+---
 author: catalin
 
 levels:
@@ -11,12 +11,16 @@ type: normal
 
 category: how to
 
-parent: list-comprehension
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#nested-list-comprehensions){website}
+  - '[docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#nested-list-comprehensions){website}'
+
+parent: list-comprehension
+
+---
+
+# Nested lists comprehension
 
 ---
 ## Content
@@ -56,3 +60,39 @@ y % 3 == 0 ]
 # (8, 9), (8, 12), (8, 15), (8, 18)]
 
 ```
+
+---
+## Practice
+
+Use nested list comprehension to generate a list of tuples, where the first element must always be odd. 
+Ex: (1,1),(1,2),(1,3),...(9,7),(9,8),(9,9).
+
+```python
+
+l = [??? for x in range(10)\
+    if ??? for y in ???]
+```
+
+* (x,y)
+* x % 2
+* range(10)
+* x % 2 == 0
+* range(11)
+
+---
+## Revision
+
+What will the output of the following snippet be?
+
+```python
+
+l = [(x, y) for x in range(10) if x % 2 /
+    for y in range(10) if y % 2 == 0]
+print(l[2])
+```
+???
+
+* (1,4)
+* (1,2)
+* (1,3)
+* (1,6)
