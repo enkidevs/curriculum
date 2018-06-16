@@ -8,4 +8,6 @@ insights:
   - bytes-type
   - bytearray-objects
   - operations-with-bytes-and-bytearray
- 
+
+exercises:
+  - py-practice-binary-data

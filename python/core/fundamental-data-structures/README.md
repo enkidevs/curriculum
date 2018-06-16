@@ -12,5 +12,6 @@ insights:
 exercises:
   - py-practice-control-structures
   - py-practice-control-structures2
+  - py-practice-string-manip3
   - py-practice-mapping
   - py-practice-sequence

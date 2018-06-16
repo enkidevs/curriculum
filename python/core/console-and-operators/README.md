@@ -14,3 +14,4 @@ insights:
 exercises:
   - py-practice-arithmetic-operations
   - py-practice-data-operations
+  - py-practice-string-manip
