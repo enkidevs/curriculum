@@ -1,4 +1,4 @@
-# Py practice generators
+---
 author: SebaRaba
 
 levels:
@@ -25,6 +25,8 @@ standards:
     comp-sci.identify-linear-collection-data-structures-usage.1: 1000
     comp-sci.identify-linear-collection-data-structures-usage.5: 1000
 
+---
+# Use the stack, luke
 ---
 ## Exercise
 
