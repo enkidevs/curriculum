@@ -1,9 +1,9 @@
 name: Meet Python
- 
+
 description: Discover the Python language’s versions and its programming environment.
 
 insights:
-  - what-is-python 
+  - what-is-python
   - why-learn-python
   - python-2
   - python-3

@@ -8,3 +8,4 @@ insights:
   - rebasing
   - the-golden-rule-of-rebasing
   - remember-the-results-of-previous-hunk-conflicts
+ 

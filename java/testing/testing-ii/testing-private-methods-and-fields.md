@@ -77,3 +77,4 @@ The least intrusive method of unit testing private methods and fields is to
 * refactor the class
 * define an inner testing class
 
+ 

@@ -36,3 +36,4 @@ links:
 ## Exercise
 
 Practice using JavaScript Booleans on Code Wars
+ 

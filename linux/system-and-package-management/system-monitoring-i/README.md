@@ -8,3 +8,4 @@ insights:
   - system-uptime
   - commands-to-shutdown-or-restart-the-system
   - cancel-a-system-shutdown
+ 

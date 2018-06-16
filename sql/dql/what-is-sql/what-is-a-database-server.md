@@ -62,3 +62,4 @@ What is a Database Server?
 * The software that requests information from where it is stored
 * An optional program that a user can install on top of the Database Client
 * The software through which memory is allocated on the server
+ 

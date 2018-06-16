@@ -66,3 +66,4 @@ You can have ??? remote repositories/repository.
 ## Footnotes
 [1:GitHub]
 **GitHub** is the most-known and used web-based Git repository hosting service.
+ 

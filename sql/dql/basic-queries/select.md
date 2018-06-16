@@ -119,3 +119,4 @@ Choose the query that will get all the entries from this table:
 * SELECT [all] FROM ability;
 * FIND * FROM ability;
  
+ 

@@ -37,3 +37,4 @@ Add a primary key to each table.
 
 In order to check your results, write your `DDL` query, build the schema and run the provided DQL query. Then, create an auto incrementing sequence for each primary key.
  
+ 

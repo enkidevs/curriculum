@@ -49,3 +49,4 @@ Default stack sizes of java threads differ depending upon whether you are using 
 
 For JVM internal threads (i.e. GC, code generation thread) a special "system" stack of size `256 KB` is used.
 
+ 

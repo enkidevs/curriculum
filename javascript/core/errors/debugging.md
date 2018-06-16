@@ -82,3 +82,4 @@ How can you log variables into the console?
 * `debugger;`
 * `addVar`
 
+ 

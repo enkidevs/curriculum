@@ -42,9 +42,9 @@ $ python3
 >>> quit()
 $
 ```
-**REPL** stands for *Read-Eval-Print Loop*. This process evaluates each line of code you write and outputs the result. 
+**REPL** stands for *Read-Eval-Print Loop*. This process evaluates each line of code you write and outputs the result.
 
-You shouldn't use the REPL interpreter for longer snippets of code, however. It is much easier to write Python code using a text editor. There are a lot of options here, such as Atom, Emacs, Vim, Sublime or Visual Studio Code, each with its advantages and disadvantages. Visual Studio Code is a good option, as it was built on top of Atom's architecture, but avoids lots of overheads Atom doesn't. It is still highly customizable and much more responsive than Atom. 
+You shouldn't use the REPL interpreter for longer snippets of code, however. It is much easier to write Python code using a text editor. There are a lot of options here, such as Atom, Emacs, Vim, Sublime or Visual Studio Code, each with its advantages and disadvantages. Visual Studio Code is a good option, as it was built on top of Atom's architecture, but avoids lots of overheads Atom doesn't. It is still highly customizable and much more responsive than Atom.
 
 To run a Python file, which must have a `.py` extension, invoke a new terminal inside the directory that contains the file and write:
 ```bash
@@ -72,3 +72,4 @@ The Python-specific file extension is ???.
 * `.pyt`
 * `.pip`
 * `.python`
+ 

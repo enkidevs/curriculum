@@ -1,7 +1,7 @@
 ---
 author: tommarshall
 
-tags: 
+tags:
 
   - introduction
 
@@ -72,4 +72,4 @@ What does the following code snippet return:
 * `3`
 * `7`
 * `2.5`
-* `2.75`
+* `4.66`

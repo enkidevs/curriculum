@@ -74,3 +74,4 @@ One of the initial steps in applying Dijkstra's algorithm is
 ## Footnotes
 [1:Paths]
 If there is a path between A and C and one between C and, say, X, it means that there is also a path between A and X.
+ 

@@ -8,3 +8,4 @@ insights:
   - intro-to-hprof
   - the-jhat-tool
   - intro-to-jconsole
+ 

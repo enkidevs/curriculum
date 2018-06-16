@@ -97,3 +97,4 @@ column3: salary int
 [1:PRIMARY KEY]
 A primary key is a field in a table that identifies each row in a db.
  
+ 

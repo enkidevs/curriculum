@@ -86,3 +86,4 @@ What `Math` method introduced in ES6 can be used to find the cubic root of a num
 * cubicRoot
 * cbRoot
 * cubicrt
+ 

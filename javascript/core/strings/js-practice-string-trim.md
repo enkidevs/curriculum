@@ -28,3 +28,4 @@ links:
 ## Exercise
 
 Practice using the JavaScript String method `trim()` and the String template
+ 

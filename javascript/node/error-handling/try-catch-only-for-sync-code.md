@@ -98,3 +98,4 @@ How must errors happen as to handle them with a `try-catch` block?
 * synchronously
 * asynchronously
 
+ 

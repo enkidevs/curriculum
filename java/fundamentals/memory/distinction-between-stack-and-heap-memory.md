@@ -42,3 +42,4 @@ Stack and heap memory are both types of memory, but have different purposes and 
 - A `java.lang.
 StackOverFlowError` will be thrown if there is no available stack memory left. `java.lang.OutOfMemoryError: Java Heap Space` will be thrown if there is a lack of heap space.
 
+ 

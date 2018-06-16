@@ -100,3 +100,4 @@ When verifying a **certificate**, the client will check if either it:
 
 [4:man-in-the-middle]
 A **man-in-the-middle attack** is a type of cyberattack where a malicious actor inserts themself into a conversation between two parties, impersonates both parties and gains access to information that the two parties were trying to send to each other.
+ 

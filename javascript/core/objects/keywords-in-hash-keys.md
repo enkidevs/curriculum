@@ -86,3 +86,4 @@ var dog = {
 * name
 * 'typeof'
 * typeof:
+ 

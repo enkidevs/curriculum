@@ -1,7 +1,7 @@
 ---
 author: tommarshall
 
-tags: 
+tags:
 
   - introduction
 
@@ -32,7 +32,7 @@ links:
 ---
 ## Content
 
-Python's `in` operator is a *membership operator* and can be used to check whether an object exists inside a container of objects--for example, a list. 
+Python's `in` operator is a *membership operator* and can be used to check whether an object exists inside a container of objects--for example, a list.
 
 It evaluates to true if it finds the specified variable in the container, and false if it doesn't.
 
@@ -51,7 +51,7 @@ else:
 
 ```
 
-Other iterable sequence types include tuples and strings. When the `in` keyword is used with a string, Python will check for any sequence of matching consecutive characters (called a substring). So, `'p' in 'poppy'` evaluates to true, and so does `'py' in 'poppy'`, but `'ppp' in 'poppy'` evaluates to false, because there is no matching consecutive sequence of characters. 
+Other iterable sequence types include tuples and strings. When the `in` keyword is used with a string, Python will check for any sequence of matching consecutive characters (called a substring). So, `'p' in 'poppy'` evaluates to true, and so does `'py' in 'poppy'`, but `'ppp' in 'poppy'` evaluates to false, because there is no matching consecutive sequence of characters.
 
 ---
 ## Practice

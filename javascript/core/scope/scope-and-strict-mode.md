@@ -87,3 +87,4 @@ Non-strict mode allows the automate creation of a variable in ??? scope, while *
 * local
 * strict
 
+ 

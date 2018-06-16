@@ -35,3 +35,4 @@ In C and C++ `sizeof()` allocates bytes for data items. It often varies for diff
 
 Java stores precisely the same sizes on all machines, portability is the part of this language and we should not worry about it.
 
+ 

@@ -63,3 +63,4 @@ How are changes added to a repository?
 * By staging them
 * By putting them in the **working tree**
 
+ 

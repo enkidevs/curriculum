@@ -40,3 +40,4 @@ c1 = c2; // Compile error
 ```
 To avoid such problems you can explicitly cast given class, however `ClassCastException` will be thrown at run-time.
 
+ 

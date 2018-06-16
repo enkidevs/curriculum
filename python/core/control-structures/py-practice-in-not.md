@@ -7,7 +7,7 @@ levels:
 
   - basic
 
-tags: 
+tags:
 
   - introduction
 
@@ -33,15 +33,7 @@ standards:
 
 Click *Launch Exercise* to open a Python Tutor page.
 
-In the code window, you will see the following code:
-**this is a link to Clare's personal DropBox right now** https://www.dropbox.com/s/c49zsciinxbsrop/Screenshot%202018-06-12%2009.55.35.png?dl=0
-
-This exercise introduces the `for` keyword. Execute the code to get a feel for how a `for` loop works on a list. 
+This exercise introduces the `for` keyword. Execute the code to get a feel for how a `for` loop works on a list.
 
 Read the instructions and edit the code so that the program prints 'Awesome day!!!' if Spot has more than 15 awesome points at the end of the day,
 'We can do better' if she has less than 15 but at least 5 points, and 'Bummer' if she has less than 5 points.
-
-
-**What should they do now?**
-
-

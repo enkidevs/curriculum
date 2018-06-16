@@ -30,14 +30,14 @@ standards:
 
 Python uses *booleans* to evaluate conditions. A boolean variable has two values, true and false, and one of these values is after a condition has been evaluated.
 
-Using *comparison operators* is one way to create conditions in Python. Comparison operators include 
+Using *comparison operators* is one way to create conditions in Python. Comparison operators include
 
 - `==`, meaning "is equal to"
-- `!=`, meaning "is not equal to" 
+- `!=`, meaning "is not equal to"
 - `<` and `<=` meaning "is less than" and "is less than or equal to"
 - `>` and `>=` meaning "is greater than" and "is greater than or equal to"
 
-The single `=` is used for assigning values to variables, not for comparison. 
+The single `=` is used for assigning values to variables, not for comparison.
 
 For example:
 
@@ -121,6 +121,6 @@ else:
 ```
 
 
-* this syntax is invalid and will not run
-* true
-* false
+* Invalid Syntax
+* True
+* False

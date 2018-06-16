@@ -69,3 +69,4 @@ In total, you will need to:
 - `SELECT count(name) from items;`
 - *provide the result of the above query in the answer field*
  
+ 

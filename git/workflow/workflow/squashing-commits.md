@@ -52,3 +52,4 @@ Squashing commits means
 * deleting them
 * commiting them
 
+ 

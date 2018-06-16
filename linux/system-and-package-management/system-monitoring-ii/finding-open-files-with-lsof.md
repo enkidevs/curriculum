@@ -99,3 +99,4 @@ $ ??? ??? ???
 ## Footnotes
 [1:lsof]
 You can think of `lsof` as ls + of ,standing for **list** *open files*.
+ 

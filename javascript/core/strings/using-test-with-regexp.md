@@ -90,3 +90,4 @@ Matching a string with a RegEx is done by
 * regex.match(string);
 * regex.check(string);
 
+ 

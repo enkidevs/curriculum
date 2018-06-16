@@ -111,3 +111,4 @@ In case the destination node is known.
 
 [4:Full traversal]
 In case the algorithm computes a full traversal, value of `infinity` tells that the particular node is not reachable.
+ 

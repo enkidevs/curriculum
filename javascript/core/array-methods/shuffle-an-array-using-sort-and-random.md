@@ -94,3 +94,4 @@ arr.sort(function(){
 * shuffle the array
 * sort the array decreasingly
 * do nothing to the array
+ 
