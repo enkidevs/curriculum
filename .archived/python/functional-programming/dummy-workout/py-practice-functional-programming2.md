@@ -20,10 +20,8 @@ linkType: codewars
 link: https://www.codewars.com/kata/calculate-average
 standards:
     python.contrast-functional-imperative.0: 1000
-    python.contrast-functional-imperative.0: 2000
 ---
 # Py practice functional imperative
 ---
 ## Exercise
-
-Practice using `functional programming` in python.
+Try to solve this challenge both functionally, and imperatively. Save both results in the same response, and submit your answer. Then, explain which is functional and what makes it functional, and which is imperative and what makes it imperative. 
