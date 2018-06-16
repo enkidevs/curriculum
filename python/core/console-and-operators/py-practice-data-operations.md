@@ -17,7 +17,7 @@ type: exercise
 
 linkType: codewars
 
-link: http://www.codewars.com/kata/clock-in-mirror
+link: http://www.codewars.com/kata/clock-in-mirror/python
 
 standards:
 
@@ -34,17 +34,16 @@ links:
   - '[Video tutorial on iterator](https://www.youtube.com/watch?v=x0zbvyX7XQM){video}'
 ---
 
-# Practice python iterator
+# Practice python data transformations
 
 ---
 ## Exercise
 
-Practice working with python `iterator`.
 
 Click *Launch Exercise* to open Codewars.
 
-On the website you will find a description of the exercise. Read this description carefully. 
+On the website you will find a description of the exercise. Read this description carefully.
 
-When you are ready to give it a try press the blue *Train* button and write your solution. 
+When you are ready to give it a try press the blue *Train* button and write your solution.
 
 To test your solution press the blue *Attempt* button.

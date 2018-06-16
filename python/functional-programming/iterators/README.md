@@ -8,3 +8,6 @@ insights:
   - the-iteration-protocol
   - the-itertools-module
   - iterators-applications
+
+exercises:
+  - py-practice-next-iter

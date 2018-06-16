@@ -7,3 +7,6 @@ insights:
   - special-attributes-of-objects-and-classes
   - custom-exceptions-as-classes
   - dynamically-create-types
+
+exercises:
+  - py-practice-abstract-class

@@ -9,14 +9,14 @@ levels:
 
   - medium
 
-tags: 
+tags:
   - introduction
 
 type: exercise
 
 linkType: codewars
 
-link: https://www.codewars.com/kata/sum-of-two-lowest-positive-integers
+link: https://www.codewars.com/kata/sum-of-two-lowest-positive-integers/python
 
 standards:
 
@@ -34,17 +34,15 @@ links:
   - '[A video tutorial of data structures](https://www.youtube.com/watch?v=TkpNMvBrEUw){video}'
 ---
 
-# Python native types exercises
+# Python Numbers and Lists
 
 ---
 ## Exercise
 
-Practice `native types` in python.
-
 Click *Launch Exercise* to open Codewars.
 
-On the website you will find a description of the exercise. Read this description carefully. 
+On the website you will find a description of the exercise. Read this description carefully.
 
-When you are ready to give it a try press the blue *Train* button and write your solution. 
+When you are ready to give it a try press the blue *Train* button and write your solution.
 
 To test your solution press the blue *Attempt* button.

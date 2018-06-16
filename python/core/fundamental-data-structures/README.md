@@ -10,9 +10,7 @@ insights:
   - dictionary-standard-mapping-type
 
 exercises:
-  - py-practice-control-and-dicts
-  - py-practice-boolean
-  - py-practice-enumertor
-  - py-practice-sequence
+  - py-practice-control-structures
+  - py-practice-control-structures2
   - py-practice-mapping
-  - py-practice-mapping2
+  - py-practice-sequence

@@ -30,17 +30,17 @@ links:
   - '[Video tutorial on iterator](https://www.youtube.com/watch?v=x0zbvyX7XQM){video}'
 ---
 
-# Practice python iterator 2
+# Practice python map and filter
 
 ---
 ## Exercise
 
-Practice working with python `iterator`.
+Practice working with python's `map` and `filter` functions.
 
 Click *Launch Exercise* to open Codewars.
 
-On the website you will find a description of the exercise. Read this description carefully. 
+On the website you will find a description of the exercise. Read this description carefully.
 
-When you are ready to give it a try press the blue *Train* button and write your solution. 
+When you are ready to give it a try press the blue *Train* button and write your solution.
 
 To test your solution press the blue *Attempt* button.

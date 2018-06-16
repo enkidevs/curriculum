@@ -9,7 +9,7 @@ levels:
 
   - medium
 
-tags: 
+tags:
   - workout
 
 type: exercise
@@ -19,7 +19,6 @@ linkType: codewars
 link: https://www.codewars.com/kata/categorize-new-member
 
 standards:
-
   python.native-types-operations.1: 1000
   python.native-types-operations.5: 2000
   python.native-types-operations.9: 2000
@@ -32,7 +31,7 @@ links:
   - '[A video tutorial of data structures](https://www.youtube.com/watch?v=TkpNMvBrEUw){video}'
 ---
 
-# Practice python enumerator type
+# Practice Control Structures
 
 ---
 ## Exercise
@@ -41,9 +40,8 @@ Practice `enumeration` in python.
 
 Click *Launch Exercise* to open Codewars.
 
-On the website you will find a description of the exercise. Read this description carefully. 
+On the website you will find a description of the exercise. Read this description carefully.
 
-When you are ready to give it a try press the blue *Train* button and write your solution. 
+When you are ready to give it a try press the blue *Train* button and write your solution.
 
 To test your solution press the blue *Attempt* button.
-

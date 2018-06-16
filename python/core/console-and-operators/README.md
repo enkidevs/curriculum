@@ -12,4 +12,5 @@ insights:
 
 
 exercises:
-  - py-practice-arithmetic-operations.md
+  - py-practice-arithmetic-operations
+  - py-practice-data-operations
