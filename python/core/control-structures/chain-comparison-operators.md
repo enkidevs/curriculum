@@ -1,10 +1,6 @@
 ---
 author: Ricardo
 
-tags:
-
-  - introduction
-
 levels:
 
   - basic
@@ -20,6 +16,8 @@ standards:
 
 
 tags:
+
+  - introduction
 
   - comparison
 
