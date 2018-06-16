@@ -34,3 +34,4 @@ Using `Lock` is sometimes necessary to guarantee thread safety. However, overusi
 
 So in order to maximize performance, it is a good idea to reduce the scope of `Lock`s to only apply to critical sections of code.
 
+ 

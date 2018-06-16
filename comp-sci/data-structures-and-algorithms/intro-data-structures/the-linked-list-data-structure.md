@@ -94,3 +94,4 @@ Also known as *Josephus permutation*, it is a *count-out* game. The game starts 
 After the *nth* person is kicked out, the ones left close the circle and start again.
 
 The game ends when there is a single person remaining.
+ 

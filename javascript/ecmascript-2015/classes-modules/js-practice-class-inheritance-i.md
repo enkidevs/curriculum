@@ -28,3 +28,4 @@ links:
 ## Exercise
 
 Practice JavaScript Class Inheritance on Code Wars
+ 

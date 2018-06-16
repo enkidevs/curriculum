@@ -63,3 +63,4 @@ What type of function is `JSON.parse` ?
 
 * synchronous
 * asynchronous
+ 

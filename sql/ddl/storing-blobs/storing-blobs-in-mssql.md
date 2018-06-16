@@ -84,3 +84,4 @@ FROM OPENROWSET(??? 'pikachu.jpg',
 * `AS`
 
  
+ 

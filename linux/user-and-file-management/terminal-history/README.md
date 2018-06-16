@@ -8,3 +8,4 @@ insights:
   - execute-a-command-without-saving-it-in-history
   - terminal-incognito-mode
   - clear-bash-history
+ 

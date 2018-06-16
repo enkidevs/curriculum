@@ -97,3 +97,4 @@ How does dynamic avoidance work?
 * Calculating the overall load an the capacity of the system
 * Ensuring that the will always be more resources that the processes
 
+ 

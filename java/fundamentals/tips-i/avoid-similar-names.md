@@ -34,3 +34,4 @@ For example, if you have two variables, one called `customer` and another called
 
 Even if no bugs are created, the code will be much harder to read when you or another programmer returns to maintain it.
 
+ 

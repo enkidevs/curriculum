@@ -41,3 +41,4 @@ Write a statement to modify the `item_pictures`, changing the maximum length of 
 
 To submit, run your SQL and then add the link from SQLFiddle to your submission.  
  
+ 

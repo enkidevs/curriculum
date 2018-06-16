@@ -65,3 +65,4 @@ To ensure the security of published modules, **sha1 hashes** are generated autom
 * when the folder is accessed
 * When it is uploaded
 * When it is compiled
+ 

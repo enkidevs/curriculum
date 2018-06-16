@@ -8,3 +8,4 @@ insights:
   - upstream-tracking-shorthand
   - using-aliases-for-git-commands
   - add-autocorrect-to-git
+ 

@@ -114,3 +114,4 @@ var per = {
 * `var per.age = 40;`
 * `per[age] = 40;`
 * `per.addNewProperty(age,40);`
+ 

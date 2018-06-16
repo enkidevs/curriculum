@@ -98,3 +98,4 @@ Number.???(Number.NaN) == true
 * isRatio
 * NaN
 * isNotNaN
+ 

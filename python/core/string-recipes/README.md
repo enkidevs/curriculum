@@ -8,3 +8,4 @@ insights:
   - format-text-paragraphs-with-textwrap
   - stringprep-module
   - unicode-character-database-at-your-hands
+ 

@@ -34,3 +34,4 @@ Update `move` table such that the 14th move will have `accuracy` equal to 37.
 
 Make sure to submit the SQLFiddle link, to show that you've completed the exercise.
  
+ 

@@ -13,3 +13,4 @@ exercises:
   - js-practice-console-in
   - js-practice-using-javascript-on-a-webpage
   - js-practice-using-javascript-on-a-webpage-inline
+ 

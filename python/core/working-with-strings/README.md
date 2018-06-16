@@ -8,3 +8,4 @@ insights:
   - three-ways-to-substitute-a-substring-of-a-string
   - pythonic-substring-testing
   - efficient-concatenation-with-join
+ 

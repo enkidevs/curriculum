@@ -30,3 +30,4 @@ links:
 ## Exercise
 
 Practice using the JavaScript Array methods `every()` and `some()`
+ 

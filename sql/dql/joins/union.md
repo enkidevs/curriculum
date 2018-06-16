@@ -193,3 +193,4 @@ The result should look like this:
 * SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category RIGHT JOIN item_pocket ON item_pocket.name = item_category.name UNION SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category RIGHT JOIN item_pocket ON item_pocket.name = item_category.name;
 * SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category RIGHT JOIN item_pocket ON item_pocket.id = item_category.item_pocket_id UNION SELECT item_category.id FROM item_category RIGHT JOIN item_pocket ON item_pocket.id = item_category.item_pocket_id;
  
+ 

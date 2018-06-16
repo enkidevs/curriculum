@@ -8,3 +8,4 @@ insights:
   - set-comprehension
   - dictionary-comprehension
   - speed-up-your-for-loop-using-map-or-list-comprehensions
+ 

@@ -8,3 +8,5 @@ insights:
   - sql-text-data-type
   - encoding-and-collation
   - add-support-for-other-character-sets
+ 
+ 

@@ -8,3 +8,4 @@ insights:
   - move-the-last-commit-to-a-new-branch
   - master-and-origin-aren-t-special
   - prune-remote-tracking-references
+ 

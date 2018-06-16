@@ -94,3 +94,4 @@ Number.???(Math.pow(2, 53))
 * isValid
 * isFinite
 * isInteger
+ 

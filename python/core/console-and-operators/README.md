@@ -9,3 +9,4 @@ insights:
   - execution-order-of-arithmetic-operators
   - simple-way-of-swapping-variables
   - indentation-and-commenting
+ 

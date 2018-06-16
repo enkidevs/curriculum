@@ -8,3 +8,4 @@ insights:
   - how-to-avoid-a-deadlock
   - deadlock-dynamic-avoidance
   - detection-and-recovery  
+ 

@@ -57,3 +57,4 @@ $ rm enki || echo 'fail'
 * the first command succeeds
 * "enki" is already installed
 
+ 

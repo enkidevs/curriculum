@@ -127,3 +127,4 @@ Which of the following data types is not a numeric type?
 [1: Serials]
 https://hackernoon.com/the-night-the-postgresql-ids-ran-out-9430a2dbb895
  
+ 

@@ -83,3 +83,4 @@ What method can be used to convert numbers to hex/bin/oct ?
 * `parse`
 * `rebase`
 
+ 

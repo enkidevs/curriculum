@@ -43,3 +43,4 @@ By default, the `id` field of every entry in this table will increment by 1. Ins
 
 Note: When submitting, include the output of the provided query as your answer.
  
+ 

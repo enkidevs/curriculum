@@ -67,3 +67,4 @@ Some potential usages:
 * Extending constructors
 * As a shim/fallback for older browsers
 
+ 

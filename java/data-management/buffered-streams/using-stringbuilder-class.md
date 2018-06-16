@@ -54,3 +54,4 @@ new StringBuffer("Good");
 - `append` attaches the parameter to the end of the string.
 - `insert` inserts the parameter at the specified index.
 
+ 

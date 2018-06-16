@@ -23,9 +23,6 @@ tags:
 
   - status
 
-
-
-
 ---
 
 # Basic service management with `systemd`
@@ -45,7 +42,8 @@ $ systemctl list-units --type service
 Use the following to start a service. Does not persist after reboot:
 
 ``` 
-$ systemctl start SERVICE.service```
+$ systemctl start SERVICE.service
+```
 
 Use this to stop a service. Does not persist after reboot:
 ```
@@ -94,3 +92,4 @@ Service-specific actions (enable, stop, restart, reload) can be triggered by
 [1:Example output]
 ```
 UNIT
+```

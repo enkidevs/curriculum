@@ -34,3 +34,4 @@ Even if you think the naming convention you usually use is better, or the existi
 
 A consistent naming convention will guarantee that the project is intelligible and easy to maintain. An inconsistent naming convention will inevitably cause confusion.
 
+ 

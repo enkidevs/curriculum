@@ -38,3 +38,4 @@ Add Foreign Key constraints to the `user_items` and `requests` tables where appr
 
 **Hint:** According to SQL naming convention, if a column has `id` as _part_ of its name, it communicates to other developers that is a foreign key.
  
+ 

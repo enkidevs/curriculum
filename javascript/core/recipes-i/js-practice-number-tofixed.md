@@ -30,3 +30,4 @@ links:
 ## Exercise
 
 Practice using the JavaScript Numbers methods `toFixed()`, `toExponential()` and `toPrecision()`
+ 

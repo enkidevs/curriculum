@@ -92,3 +92,4 @@ How do you think we could create a table called `coupons`?
 * `rdbms.createTable('coupons')`
 * `sql.create.table('coupons')`
  
+ 

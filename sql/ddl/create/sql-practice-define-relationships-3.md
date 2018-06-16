@@ -37,3 +37,4 @@ Create a foreign key reference to the table `user_reports`, relating `user_id` o
 When you are finished, run this query and check that it *fails*:  
 `INSERT INTO user_reports (id, user_id, total_items, max_daily_price) VALUES (110, 99, 58, 900);`
  
+ 
