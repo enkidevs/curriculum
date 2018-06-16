@@ -23,6 +23,7 @@ standards:
     python.contrast-functional-imperative.1: 1000
 
 ---
+# Practice Functional Programming
+---
 ## Exercise
-### Question
 Is functional programming required here?

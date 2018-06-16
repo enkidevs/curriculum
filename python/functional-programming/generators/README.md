@@ -11,3 +11,4 @@ insights:
 
 exercises:
   - py-practice-generators
+  - py-practice-pure-functions2

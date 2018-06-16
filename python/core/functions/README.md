@@ -15,5 +15,4 @@ exercises:
   - py-practice-functions-scope
   - py-practice-ciphers
   - py-more-practice-functions
-
- 
+  - py-practice-pure-functions3

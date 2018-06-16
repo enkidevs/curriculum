@@ -17,9 +17,9 @@ linkType: codewars
 link: https://www.codewars.com/kata/returning-strings
 
 standards:
-
-    python.pure-functions.1: 1000
-    python.pure-functions.2: 1000
+    python.functions.0: 1000
+    python.functions.1: 1000
+    python.functions.3: 1000
 
 links:
 
@@ -27,15 +27,15 @@ links:
   - '[Python Functions Video Tutorial](https://www.youtube.com/watch?v=NE97ylAnrz4){video}'
 
 ---
-# Practice writing pure functions in Python
+# Practice returning from functions in Python
 ---
 ## Exercise
-Practice `pure functions` in python.
+
 
 Click *Launch Exercise* to open Codewars.
 
-On the website you will find a description of the exercise. Read this description carefully. 
+On the website you will find a description of the exercise. Read this description carefully.
 
-When you are ready to give it a try press the blue *Train* button and write your solution. 
+When you are ready to give it a try press the blue *Train* button and write your solution.
 
 To test your solution press the blue *Attempt* button.

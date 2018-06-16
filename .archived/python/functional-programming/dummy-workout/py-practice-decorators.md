@@ -1,16 +1,16 @@
-# Py practice decorators
+---
 author: SebaRaba
 
 levels:
-
-  - beginner
-
-  - basic
 
   - medium
 
 
 type: exerciseList
+
+tags:
+  - workout
+  - deep
 
 links:
 
@@ -25,6 +25,7 @@ standards:
     python.functional-programming-features.3: 4000
 
 ---
+# Practice decorators
+---
 ## Exercise
-### Question
-Practice python `decorators`.
+Use a decorator to solve this common math problem

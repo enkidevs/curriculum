@@ -1,4 +1,4 @@
-# Py practice functional features
+---
 author: SebaRaba
 
 levels:
@@ -19,11 +19,13 @@ links:
 
 
 linkType: codewars
-link: https://www.codewars.com/kata/stop-gninnips-my-sdrow
+link: hhttps://www.codewars.com/kata/keypad-horror
 standards:
-    python.functional-programming-features.0: 3000
+    python.functional-programming-features.1: 3000
 
 ---
+# Python Data Translation
+---
 ## Exercise
-### Question
-Practice list comprehensions in python.
+
+Practice writing a data-translation function in a functional format 

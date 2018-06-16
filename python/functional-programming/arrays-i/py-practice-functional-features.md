@@ -1,4 +1,4 @@
-# Py practice functional features iterator
+---
 author: SebaRaba
 
 levels:
@@ -19,11 +19,12 @@ links:
 
 
 linkType: codewars
-link: hhttps://www.codewars.com/kata/keypad-horror
+link: https://www.codewars.com/kata/stop-gninnips-my-sdrow
 standards:
-    python.functional-programming-features.1: 3000
+    python.functional-programming-features.0: 3000
 
 ---
+# Functional Features
+---
 ## Exercise
-### Question
-Practice build in libraries and iterator protocol in python.
+Use the `map` and `filter` functions (along with others) to practice array manipulation using functional means.

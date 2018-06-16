@@ -32,12 +32,4 @@ links:
 ---
 ## Exercise
 
-Practice using dictionary comprehension in python.
-
-Click *Launch Exercise* to open Codewars.
-
-On the website you will find a description of the exercise. Read this description carefully. 
-
-When you are ready to give it a try press the blue *Train* button and write your solution. 
-
-To test your solution press the blue *Attempt* button.
+Practice using dictionary comprehension in python. This exercise can be solved *without* dictionary comprehension, but try using it in order to practice.

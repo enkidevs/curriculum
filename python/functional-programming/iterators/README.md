@@ -10,4 +10,5 @@ insights:
   - iterators-applications
 
 exercises:
+  - py-practice-functional-libraries
   - py-practice-next-iter

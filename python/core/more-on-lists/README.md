@@ -9,3 +9,4 @@ insights:
 
 exercises:
   - py-practice-data-manipulation
+  - py-practice-stacks

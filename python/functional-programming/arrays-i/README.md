@@ -8,4 +8,6 @@ insights:
   - the-zip-built-in-function
   - the-sum-built-in-function
   - the-all-built-in-function
- 
+
+exercises:
+  - py-practice-functinal-features

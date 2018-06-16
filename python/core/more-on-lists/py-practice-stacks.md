@@ -21,9 +21,11 @@ links:
 linkType: codewars
 link: https://www.codewars.com/kata/directions-reduction
 standards:
-    python.functional-programming-features.4: 5000
+    python.native-types-operations.3: 1000
+    comp-sci.identify-linear-collection-data-structures-usage.1: 1000
+    comp-sci.identify-linear-collection-data-structures-usage.5: 1000
 
 ---
 ## Exercise
-### Question
-Practice python `generators`.
+
+Practice using stacks to solve this challenge
