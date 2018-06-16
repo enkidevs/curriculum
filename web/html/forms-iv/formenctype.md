@@ -84,6 +84,8 @@ Which input form attribute is used to specify an encoding type for your form?
 
 Which statement is not true regarding `enctype`?
 
+???
+
 * The values `application/x-www-form-urlencoded` and `text/plain` convert spaces into "-" symbols.
 * specifies how the form-data should be encoded when submitted to server.
 * The default value is `application/x-www-form-urlencoded`.
