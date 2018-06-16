@@ -74,6 +74,7 @@ Complete the code by adding the appropriate input form attributes to disable the
  <input type="submit" ??? >
 </form>
 ```
+
 * novalidate
 * formnovalidate
 * validate
@@ -86,6 +87,8 @@ Complete the code by adding the appropriate input form attributes to disable the
 ### How much do you know about HTML form input attributes?
 
 Which statement is not true regarding the `novalidate` attribute?
+
+???
 
 * The `novalidate` attribute overrides the `formnovalidate` attribute.
 * The HTML `novalidate` form input attribute is used to specify that the input should not be validated when submitted.
