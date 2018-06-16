@@ -1,4 +1,4 @@
-# Py practice functional imperative
+
 author: SebaRaba
 
 levels:
@@ -21,8 +21,9 @@ link: https://www.codewars.com/kata/calculate-average
 standards:
     python.contrast-functional-imperative.0: 1000
     python.contrast-functional-imperative.0: 2000
-
+---
+# Py practice functional imperative
 ---
 ## Exercise
-### Question
+
 Practice using `functional programming` in python.

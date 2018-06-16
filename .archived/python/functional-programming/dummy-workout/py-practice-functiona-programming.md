@@ -1,4 +1,4 @@
-# Py practice functional imperative
+---
 author: SebaRaba
 
 levels:
@@ -20,8 +20,8 @@ linkType: codewars
 link: https://www.codewars.com/kata/geometry-a-2-length-of-a-vector
 standards:
     python.contrast-functional-imperative.0: 1000
-
+---
+# Py practice functional imperative
 ---
 ## Exercise
-### Question
 Practice using `functional programming` in python.
