@@ -96,6 +96,8 @@ Which input form attribute specifies the HTTP method to use when the form is sub
 
 Which statement is not true regarding the `formmethod` attribute?
 
+???
+
 * It can only be used with the `type="submit"` attribute
 * It can be used with `type"submit"` and `type"image"` attributes.
 * The `method="get"` appends form data to the URL when submitted.
