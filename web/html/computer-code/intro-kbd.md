@@ -131,20 +131,16 @@ And in the third example, we have a `<samp>` element nested inside a `<kbd>` ele
 ---
 ## Practice
 
-When using the `<kbd>` element, which statements are true?
+Which statement is not true about using the `<kbd>` element?
 
 ???
-???
-???
-???
 
-+ represents user input
-+ displayed in the browser's default monospace font
-+ when nested inside `<samp>`, represents input echoed by the system.
-+ when containing `<samp>`, represents input based on system output.
-- produces a block element
-- represents preformatted text
-- represents sample output
+* represents preformatted text
+* represents user input
+* displayed in the browser's default monospace font
+* when nested inside `<samp>`, represents input echoed by the system.
+* when containing `<samp>`, represents input based on system output.
+
 
 ---
 ## Revision
@@ -168,6 +164,8 @@ What HTML element wraps around keyboard names to display the text differently th
 What does the tag `<kbd>` do here?
 
 `<p>`Save the document by pressing the `<kbd>`Ctrl`</kbd>` + `<kbd>`S`</kbd>` keyboard shortcut.`</p>`
+
+???
 
 * Produces inline element representing user input.
 * Produces block element representing user input.
