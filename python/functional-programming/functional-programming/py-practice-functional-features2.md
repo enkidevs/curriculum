@@ -10,7 +10,8 @@ levels:
   - medium
 
 
-type: exerciseList
+type: exercise
+category: good practice
 
 links:
 
@@ -28,4 +29,4 @@ standards:
 ---
 ## Exercise
 
-Practice writing a data-translation function in a functional format 
+Practice writing a data-translation function in a functional format

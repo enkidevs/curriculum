@@ -11,6 +11,8 @@ levels:
 
 type: exerciseList
 
+category: good practice
+
 links:
 
   - '[link to deeper dive blog post](https://www.vinta.com.br/blog/2015/functional-programming-python/){website}'

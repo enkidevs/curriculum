@@ -9,7 +9,9 @@ levels:
 
   - medium
 
-type: exerciseList
+type: exercise
+
+category: good practice
 
 links:
 
