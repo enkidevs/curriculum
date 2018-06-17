@@ -37,11 +37,12 @@ not (x > y) # is True if
 
 ```python
 print(not False)
-# prints True, because True is the negation of False
-
-print(True == (not True))
-# prints False, because (not True) evaluates to False, and True does not equal False
 ```
+Prints `True`, because `True` is the negation of `False`.
+```python
+print(True == (not True))
+```
+Prints `False`, because (`not` `True`) evaluates to `False`, and True does not equal False
 
 ---
 ## Practice
@@ -53,7 +54,7 @@ x = 10
 nums = [1,2,3,4]
 
 ??? x ??? in nums:
-    print('The value of x is not in this list!')
+    print('x is not in this list!')
 ```
 
 * if
