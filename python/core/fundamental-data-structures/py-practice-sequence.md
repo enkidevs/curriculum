@@ -22,7 +22,7 @@ standards:
 
   python.native-types-operations.2: 2000
   python.native-types-operations.3: 2000
-  python.native-types-operations.8: 4000
+  python.native-types-operations.6: 4000
 
 links:
 
@@ -36,7 +36,7 @@ links:
 ---
 ## Exercise
 
-Play with Fibonacci's sequence in python.
+Play with Fibonacci's sequence in python, by using Lists.
 
 Click *Launch Exercise* to open Codewars.
 

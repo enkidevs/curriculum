@@ -18,8 +18,6 @@ inAlgoPool: false
 standards:
   python.native-types-operations.0: 10
 
-
-
 ---
 
 # Boolean Operators

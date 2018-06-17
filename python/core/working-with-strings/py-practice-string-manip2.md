@@ -8,7 +8,7 @@ levels:
   - basic
 
   - medium
-  
+
 tags:
 
   - introduction
@@ -29,21 +29,21 @@ standards:
 
 links:
 
-  - '[link to official documentation](https://docs.python.org/3/library/string.html){website}'
-  - '[link to a video](https://www.youtube.com/watch?v=pqmhZcPpTys){video}'
+  - '[Official documentation on strings](https://docs.python.org/3/library/string.html){website}'
+  - '[A video tutorial on strings](https://www.youtube.com/watch?v=pqmhZcPpTys){video}'
 ---
 
-# Practice using strings in python
+# Practice python string manipulation
 
 ---
 ## Exercise
 
-Practice `string` manipulation in python.
+Practice string manipulation in Python. 
 
 Click *Launch Exercise* to open Codewars.
 
-On the website you will find a description of the exercise. Read this description carefully. 
+On the website you will find a description of the exercise. Read this description carefully.
 
-When you are ready to give it a try press the blue *Train* button and write your solution. 
+When you are ready to give it a try press the blue *Train* button and write your solution.
 
 To test your solution press the blue *Attempt* button.

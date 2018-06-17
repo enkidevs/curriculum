@@ -10,4 +10,4 @@ insights:
   - the-all-built-in-function
 
 exercises:
-  - py-practice-functinal-features
+  - py-practice-functional-features

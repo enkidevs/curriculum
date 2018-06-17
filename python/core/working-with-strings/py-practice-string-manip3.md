@@ -11,10 +11,10 @@ levels:
 
 tags:
 
-  - introduction
-
   - workout
-  
+
+  - deep
+
 type: exercise
 
 linkType: codewars
@@ -30,21 +30,20 @@ standards:
 links:
 
   - '[Official documentation on strings](https://docs.python.org/3/library/string.html){website}'
-  - '[Video tutorial on stirng type](https://www.youtube.com/watch?v=pqmhZcPpTys){video}'
+  - '[A video tutorial on strings](https://www.youtube.com/watch?v=pqmhZcPpTys){video}'
 ---
 
-# Practice python string recipies
+# Practice python string manipulation
 
 ---
 ## Exercise
 
-Practice `string recipies` in python.
+Practice using Python to transform data between different types.
 
 Click *Launch Exercise* to open Codewars.
 
-On the website you will find a description of the exercise. Read this description carefully. 
+On the website you will find a description of the exercise. Read this description carefully.
 
-When you are ready to give it a try press the blue *Train* button and write your solution. 
+When you are ready to give it a try press the blue *Train* button and write your solution.
 
 To test your solution press the blue *Attempt* button.
-

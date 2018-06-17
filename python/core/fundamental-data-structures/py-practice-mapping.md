@@ -24,8 +24,6 @@ standards:
   python.native-types-operations.2: 1000
   python.native-types-operations.3: 2000
   python.native-types-operations.4: 4000
-  python.native-types-operations.6: 4000
-  python.native-types-operations.8: 4000
 
 links:
 
@@ -38,6 +36,8 @@ links:
 
 ---
 ## Exercise
+
+Let's practice solving problems involving keeping track of numbers in lists!
 
 Click *Launch Exercise* to open Codewars.
 
