@@ -7,7 +7,7 @@ levels:
 
   - basic
 
-tags: 
+tags:
 
   - introduction
 
@@ -32,13 +32,7 @@ standards:
 
 Click *Launch Exercise* to open a Python Tutor page.
 
-In the code window, you will see the following code:
-**this is a link to Clare's personal DropBox right now** https://www.dropbox.com/s/kz059e65ffxsdum/Screenshot%202018-06-11%2015.01.43.png?dl=0
 
-This exercise introduces the `elif` keyword. In this construction, if the `if` statement evaluates to false, the executor will next check the condition of the `elif` statement. Any number of `elif`s can be chained together; the code block will continue to execute until a true condition is found. Once the code associated with the true condition is executed, the program will skip the rest of the `if/else` block. 
+This exercise introduces the `elif` keyword. In this construction, if the `if` statement evaluates to false, the executor will next check the condition of the `elif` statement. Any number of `elif`s can be chained together; the code block will continue to execute until a true condition is found. Once the code associated with the true condition is executed, the program will skip the rest of the `if/else` block.
 
 After you have executed the Python Tutor code once (it should print `elif!`), change the value of `x` so that the program prints `else!` instead.
-
-**What should they do now?**
-
-
