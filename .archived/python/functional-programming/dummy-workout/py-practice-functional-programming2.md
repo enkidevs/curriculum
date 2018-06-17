@@ -20,10 +20,9 @@ linkType: codewars
 link: https://www.codewars.com/kata/calculate-average
 standards:
     python.contrast-functional-imperative.0: 1000
-    python.contrast-functional-imperative.0: 2000
 ---
 # Py practice functional imperative
 ---
 ## Exercise
 
-Practice using `functional programming` in python.
+Solve this exercise using a list comprehension
