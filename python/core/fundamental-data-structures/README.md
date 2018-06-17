@@ -12,5 +12,4 @@ exercises:
   - py-practice-control-structure
   - py-practice-control-structures2
   - py-practice-mapping
-  - py-practice-mapping2
   - py-practice-sequence
