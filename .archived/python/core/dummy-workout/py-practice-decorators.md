@@ -6,12 +6,12 @@ levels:
   - medium
 
 
-type: exerciseList
+type: exercise
 
 tags:
   - workout
   - deep
-category: good practice
+category: best practice
 links:
 
   - '[link to official documentation](http://python-3-patterns-idioms-test.readthedocs.io/en/latest/Comprehensions.html) {website}'
