@@ -1,5 +1,5 @@
-# CSS Defined
-author: matthewleach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -13,43 +13,32 @@ tags:
   - introduction
 
 ---
+# CSS Defined
+---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+`CSS` or **Cascading Style Sheets** is a `stylesheet` language used to describe the presentation of an HTML, XML or XHTML document. It is used to provide styling for text, images, & links. 
+
+Basically, CSS is used for creating Responsive Layouts and Animations, Styling text and Positioning containers. 
+By applying CSS, you add a nice and more beautiful look and feel to your websites.
+
+On the other hand, CSS is not good for inserting media, creating links, doesn't allow math expressions and database storage.
 
 ---
 ## Practice
 
-What four things does CSS primarily achieve (in no particular order)?
+Match the answers to the question
 
-CSS does well.
----
-???
-???
-???
-???
+CSS does well: ???
+CSS does not do well: ???
 
-CSS does not do well.
----
-???
-???
-???
-???
-
-
-* Responsive Layouts
-* Styles Text 
-* Creates Animations
-* Positions Containers
-* Inserts Media
-* Creates Links
-* Database Storage
-* Allows Math Expression
+* Responsive Layouts, Styles Text, Creates Animations, Positions Containers
+* Inserts Media, Creates Links, Database Storage, Allows Math Expression
 
 ---
 ## Revision
 
-What does CSS provide in a web page? 
+What does CSS provide on a web page? 
 
 ???
 
@@ -61,13 +50,13 @@ What does CSS provide in a web page?
 ---
 ## Quiz 
 
-headline: How well do you know the basics of CSS?
+### How well do you know the basics of CSS?
 
-question: |
-What does CSS provide in a web page? 
+What does CSS provide on a web page? 
 
-Answers:
-- Styling for such content as text, images, & links. 
-- Content such as text, images, & links. 
-- Interactive elements of the page
-- Web hosting
+???
+
+* Styling for such content as text, images, & links. 
+* Content such as text, images, & links. 
+* Interactive elements of the page
+* Web hosting
