@@ -12,4 +12,3 @@ insights:
 exercises:
   - py-practice-strings
   - py-practice-standard-library
-  - py-practice-string-manip3

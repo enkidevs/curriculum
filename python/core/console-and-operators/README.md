@@ -9,8 +9,6 @@ insights:
   - execution-order-of-arithmetic-operators
   - simple-way-of-swapping-variables
 
-
-
 exercises:
   - py-practice-arithmetic-operations
   - py-practice-data-operations

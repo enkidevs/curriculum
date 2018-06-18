@@ -8,5 +8,5 @@ insights:
   - lists-vs-dictionaries
 
 exercises:
-  - py-practice-data-manipulation
+  - py-practice-data-manipulation2
   - py-practice-stacks
