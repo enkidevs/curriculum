@@ -9,3 +9,6 @@ insights:
   - writing-files
   - other-operations-on-files
  
+exercises:
+  - py-practice-files
+  - py-practice-csv-files
