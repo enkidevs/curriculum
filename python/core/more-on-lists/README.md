@@ -7,3 +7,5 @@ insights:
   - using-a-list-as-a-stack
   - lists-vs-dictionaries
  
+exercises:
+  - py-practice-data-manipulation2

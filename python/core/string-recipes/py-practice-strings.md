@@ -13,11 +13,11 @@ link: https://www.codewars.com/kata/help-the-bookseller
 linkType: codewars
 standards:
 
-  py.data-structures-uses.0: 1000
-  py.data-structures-uses.5: 5000
-  py.data-structures-uses.2: 2000
-  py.data-structures-uses.4: 4000
-  py.native-types-operations.3: 4000
+  python.data-structures-uses.0: 1000
+  python.data-structures-uses.5: 5000
+  python.data-structures-uses.2: 2000
+  python.data-structures-uses.4: 4000
+  python.native-types-operations.3: 4000
 
 links:
 

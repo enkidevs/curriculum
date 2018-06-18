@@ -8,3 +8,5 @@ insights:
   - parallel-sorting-of-lists
   - combining-multiple-lists-item-by-item
  
+exercises:
+  - py-practice-data-manipulation

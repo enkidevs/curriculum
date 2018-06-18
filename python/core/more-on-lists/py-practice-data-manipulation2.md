@@ -9,15 +9,15 @@ levels:
 
 type: exercise
 
-link: https://www.codewars.com/kata/help-the-bookseller
+link: http://www.codewars.com/kata/pick-peaks
 linkType: codewars
 standards:
 
-  py.store-manipulate-data.0: 3000
-  py.store-manipulate-data.1: 2000
-  py.store-manipulate-data.2: 3000
-  py.data-structures-uses.5: 5000
-  py.data-structures-uses.4: 6000
+  python.store-manipulate-data.0: 3000
+  python.store-manipulate-data.1: 5000
+  python.store-manipulate-data.3: 4000
+  python.store-manipulate-data.2: 2000
+  python.data-structures-uses.5: 4000
 
 links:
 
@@ -25,9 +25,9 @@ links:
   - '[link to a video](https://www.youtube.com/watch?v=Iqjy9UqKKuo){video}'
 ---
 
-# Python Data manipulation Exercises
+# Practice data manipulation
 
 ---
 ## Exercise
 
-Practice working with `nested data` and `data structures` in python.
+Train your skill on `data manipulation` in python.

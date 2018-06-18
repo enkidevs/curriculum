@@ -11,12 +11,12 @@ levels:
 
 type: exercise
 
-link: https://www.codewars.com/kata/sort-the-columns-of-a-csv-file
+link: https://www.codewars.com/kata/find-the-files-then-read-them
 linkType: codewars
 standards:
 
-  py.standard-library-operating-system.0: 2000
-  py.standard-library-operating-system.1: 2000
+  python.standard-library-operating-system.0: 2000
+  python.standard-library-operating-system.1: 2000
 
 links:
 
@@ -25,9 +25,9 @@ links:
   - '[link to a video](https://www.youtube.com/watch?v=CqvZ3vGoGs0){video}'
 ---
 
-# Manage CSV files
+# Working with files in python
 
 ---
 ## Exercise
 
-Manage `csv` files in python.
+Work with files in python.

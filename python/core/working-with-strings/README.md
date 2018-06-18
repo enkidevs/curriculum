@@ -9,3 +9,5 @@ insights:
   - pythonic-substring-testing
   - efficient-concatenation-with-join
  
+exercises:
+  - py-practice-string-manip3

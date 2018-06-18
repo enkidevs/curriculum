@@ -11,5 +11,5 @@ insights:
 
 
 exercises:
+  - py-practice-math-modules
   - py-practice-encryption
- 

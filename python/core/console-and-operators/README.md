@@ -10,3 +10,5 @@ insights:
   - simple-way-of-swapping-variables
   - indentation-and-commenting
  
+exercises:
+  - py-practice-string-manip

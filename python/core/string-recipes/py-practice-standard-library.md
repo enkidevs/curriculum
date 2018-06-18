@@ -11,12 +11,12 @@ levels:
 
 type: exercise
 
-link: https://www.codewars.com/kata/find-the-files-then-read-them
+link: https://www.codewars.com/kata/extract-file-name
 linkType: codewars
 standards:
 
-  py.standard-library-operating-system.0: 2000
-  py.standard-library-operating-system.1: 2000
+  python.standard-library-operating-system.0: 2000
+  python.standard-library-operating-system.1: 2000
 
 links:
 
@@ -25,9 +25,9 @@ links:
   - '[link to a video](https://www.youtube.com/watch?v=CqvZ3vGoGs0){video}'
 ---
 
-# Working with files in python
+# Python standard library
 
 ---
 ## Exercise
 
-Work with files in python.
+Make effective use of python's `standard library`.
