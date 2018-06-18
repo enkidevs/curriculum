@@ -33,7 +33,7 @@ In ES6 the array type is expanded with 3 additional properties:
 
 These properties return a special type of object called an **iterator**.
 
-If you haven't used one before, you can think of an iterator as a special collection that you can move through that will maintain its position.
+If you haven't used one before, you can think of an iterator as a special collection that you can move through that will maintain it's position.
 
 The below code uses `Array`'s **entries** method to get an iterator and then logs `arr`'s _keys_ and _values_:
 

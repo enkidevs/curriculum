@@ -39,7 +39,7 @@ links:
 ---
 ## Content
 
-Arrays added a number of prototype methods in ES6 for improved ease of searching Arrays.
+Arrays added a number of prototype methods in ES6 for  ease of searching Arrays.
 
 **Array.prototype.includes(expr)**
 
