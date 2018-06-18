@@ -7,10 +7,16 @@ levels:
 
   - basic
 
+tags:
+  - introduction
+  - workout
+
 type: exercise
 
-link: https://www.codewars.com/kata/numbers-in-strings
 linkType: codewars
+
+link: https://www.codewars.com/kata/numbers-in-strings
+
 standards:
 
   python.identify-python-syntax.0: 1000
@@ -29,5 +35,10 @@ links:
 ---
 ## Exercise
 
-Identify python `statements`.
- 
+Click *Launch Exercise* to open Codewars.
+
+On the website you will find a description of the exercise. Read this description carefully.
+
+When you are ready to give it a try press the blue *Train* button and write your solution.
+
+To test your solution press the blue *Attempt* button.

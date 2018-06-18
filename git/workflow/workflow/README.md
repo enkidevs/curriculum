@@ -8,3 +8,4 @@ insights:
   - squashing-commits
   - git-hub
   - general-github-workflow
+ 

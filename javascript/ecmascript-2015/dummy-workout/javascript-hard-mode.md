@@ -145,3 +145,4 @@ Now, we know that `Array`s don't have `.substring` method, so the result is `und
 %exp
 Spread operator enables us to iterate over any **iterable object** and spread its elements into an **array**. So here `'...'` represents a **String**(which is iterable in **JavaScript**), this means it results in an array like this: `['.','.','.']`. The second **spread operator** does the exact same thing so the length will be `3`.
 %
+ 

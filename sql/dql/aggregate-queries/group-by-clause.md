@@ -69,9 +69,10 @@ count | language_id
 ---
 ## Practice
 
-We have a table called pokemon. Two of its fields are:
-- is_default - it can be either true or false
-- name
+We have a table called pokemon. Two of its fields are:  
+`is_default` - it can be either true or false  
+`name`  
+
 We want to know how many pokemon are (not) default:
 ```
 SELECT ???(name),???
@@ -97,13 +98,14 @@ count | is_default
 ---
 ## Revision
 
-In our pokemon db item is a table with the following columns:
-- id - unique id of the item
-- cost - item's cost
-- fling_power - "Dark type move"[1]
-- item_category_id
-- item_fling_effect_id
-- name - item's name
+In our pokemon db item is a table with the following columns:  
+`id` - unique id of the item  
+`cost` - item's cost  
+`fling_power` - "Dark type move"[1]  
+`item_category_id`  
+`item_fling_effect_id`  
+`name` - item's name  
+
 We would like to get the average cost of each item category.
 
 ```
@@ -137,4 +139,5 @@ avg      | item_category_id
 * SUM
 * ORDER BY
 * GROUP
+ 
  

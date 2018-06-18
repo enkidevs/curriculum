@@ -47,7 +47,7 @@ The causes of packet loss vary, yet the most common ones are:
 ---
 ## Revision
 
-_Packet loss_ is measured
+### *Packet loss* is measured
 
 ???
 
@@ -74,3 +74,4 @@ Therefore, it's highly recommended to always update drivers and such software to
 **TCP** will detect packet loss and will *resend* packets that don't get to their destination to ensure reliable communication and avoid congestion.
 
 However, media streaming, VoIP or video games don't use **TCP**, but **UDP** that doesn't handle packet loss.
+ 

@@ -55,3 +55,4 @@ In addition, `static` variables are bad for **security**, **re-entrancy** and **
 
 Keep in mind though that `static` constants are not considered a bad practice.
 
+ 

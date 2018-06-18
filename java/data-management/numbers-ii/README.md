@@ -8,3 +8,4 @@ insights:
   - careful-numeric-data-conversions
   - do-not-attempt-comparisons-with-nan
   - trigonometry-using-the-math-class
+ 

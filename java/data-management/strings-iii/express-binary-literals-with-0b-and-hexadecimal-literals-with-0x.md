@@ -42,3 +42,4 @@ int hex = 0x5A;
 ```
 It is worth noting that in older versions of Java (pre-JDK 7), only the hexadecimal prefix is valid.
 
+ 

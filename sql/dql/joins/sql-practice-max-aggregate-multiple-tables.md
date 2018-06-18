@@ -35,3 +35,4 @@ Write a SQL query that uses a `JOIN` to answer the following question:
 
 What is the `name` and maximum value of all moves?
  
+ 

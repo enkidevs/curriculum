@@ -29,3 +29,4 @@ links:
 ## Exercise
 
 Practice using JavaScript Switch-Cases on Code Wars
+ 

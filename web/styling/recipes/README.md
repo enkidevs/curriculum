@@ -8,3 +8,4 @@ insights:
    - fixed-navigation-bar
    - hide-the-scrollbar-in-webkit-browser
    - autohiding-scrollbars-for-ie
+ 

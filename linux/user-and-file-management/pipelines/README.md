@@ -9,3 +9,4 @@ insights:
   - the-basics-of-command-substitution
   - appending-output-with
   - difference-between-redirection-and-pipe
+ 

@@ -26,3 +26,4 @@ links:
 ## Exercise
 
 Explore `bind` in JavaScript on Code Wars
+ 

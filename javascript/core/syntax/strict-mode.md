@@ -92,3 +92,4 @@ How do you enable **strict mode** in EcmaScript 5?
 * `strict-mode`
 * `enable`
 * `on`
+ 

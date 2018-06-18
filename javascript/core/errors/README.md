@@ -8,3 +8,4 @@ insights:
   - detect-an-error-type
   - catch-is-block-scoped
   - online-debugging-options
+ 

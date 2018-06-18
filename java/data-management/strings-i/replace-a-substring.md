@@ -41,3 +41,4 @@ car = car.replace(oldColor, newColor);
 ```
 In the above example, `replace` searches the string `car` for the value of `oldColor`, which is "blue". Any instances of "blue" are then replaced with `newColor`, which is "red". The final value of `car` is "red car".
 
+ 

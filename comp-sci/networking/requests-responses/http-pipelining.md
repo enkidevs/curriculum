@@ -25,7 +25,7 @@ parent: a-response-example
 
 ---
 
-# Http pipelining
+# HTTP pipelining
 
 ---
 ## Content
@@ -68,3 +68,4 @@ HTTP pipelining means exchanging multiple messages on the same
 ## Footnotes
 [1:idempotent]
 In Computer Science, the term **idempotent** is used to describe an operation that will produce the same result if executed once or multiple times.
+ 

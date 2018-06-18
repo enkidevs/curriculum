@@ -70,3 +70,4 @@ Which of the following is the most common *shell*?
 ## Footnotes
 [1:Command Shell]
 When someone refers to the Linux "command shell" or "command line interface" without any clarification, they're almost always referring to `bash`.
+ 

@@ -15,3 +15,4 @@ exercises:
   - js-practice-math-pow
   - js-practice-math-log
   - js-practice-math-random
+ 

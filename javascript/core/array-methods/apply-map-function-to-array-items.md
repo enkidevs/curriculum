@@ -72,3 +72,4 @@ You have to modify the elements of an array after a single,certain rule. The bes
 * map()
 * filter()
 * splice()
+ 

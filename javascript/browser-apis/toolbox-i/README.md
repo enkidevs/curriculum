@@ -8,3 +8,4 @@ insights:
   - vibration-api
   - battery-api
   - page-visibility-api
+ 

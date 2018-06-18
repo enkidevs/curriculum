@@ -8,3 +8,4 @@ insights:
   - type-of-the-children-props
   - specify-a-single-child
   - props-in-getinitialstate-is-an-anti-pattern
+ 

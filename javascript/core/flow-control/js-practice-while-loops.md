@@ -30,3 +30,4 @@ links:
 ## Exercise
 
 Practice using JavaScript While-Loops on Code Wars
+ 

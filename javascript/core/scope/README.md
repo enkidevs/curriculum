@@ -11,3 +11,4 @@ insights:
   - closures
 
 game: think-you-know-javascript
+ 

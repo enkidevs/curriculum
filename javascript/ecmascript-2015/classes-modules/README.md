@@ -15,3 +15,4 @@ exercises:
   - js-practice-setters
   - js-practice-class-inheritance-ii
   - js-practice-classes-ii
+ 

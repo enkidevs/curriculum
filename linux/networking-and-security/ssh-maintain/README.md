@@ -8,3 +8,4 @@ insights:
   - track-ssh-log-in-attempts
   - ssh-pipes
   - debugging-ssh-client-issues
+ 

@@ -32,7 +32,7 @@ links:
 ---
 ## Content
 
-It is important that programs should not exceed the integer ranges provided by their primitive integer data types (such as, `byte` has a range of
+It is vital that programs should not exceed the integer ranges provided by their primitive integer data types (such as, `byte` has a range of
 −128 to 127) because:
 
 * The built-in integer operators in Java do not indicate integer overflow or underflow.
@@ -42,7 +42,7 @@ It is important that programs should not exceed the integer ranges provided by t
 Few techniques for detecting integer overflow:
 1. Precondition testing: Check the inputs to each arithmetic operator to ensure that overflow cannot occur - throw an `ArithmeticException` when the operation would overflow.
 
-2. Upcasting: Cast the inputs to the next larger primitive integer type and perform the arithmetic in the larger size. Note: Not applicable for `long` as it's the largest integer type.
+2. Upcasting: Cast the inputs to the next larger primitive integer type and perform the arithmetic in the larger size. Note: Not applicable for `long` as it is the largest integer type.
 3. `BigInteger` class: Convert the inputs into objects of type `BigInteger` and perform all arithmetic using the class methods.
 
 ---
@@ -69,3 +69,4 @@ Which of the following primitives does not allow upcasting to prevent overflow?
 * byte
 * float
 
+ 

@@ -41,3 +41,4 @@ For each effect in the `item_fling_effect` table, count the number of `item`s th
 
 Then, submit the `name` of the fling effect that has exactly 2 items.
  
+ 

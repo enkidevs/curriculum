@@ -80,3 +80,4 @@ In addition to what a library provides, a **Framework** will dictate the structu
 The **HTML** of a webpage is used to create the **DOM**, which is a in-memory representation of the webpage.
 Even though the **HTML** and **DOM** are closely related, they are not the same thing.
 Languages such as *CSS* or *JavaScript** manipulate the **DOM** and not the **HTML**.
+ 

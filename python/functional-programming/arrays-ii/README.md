@@ -8,3 +8,6 @@ insights:
   - the-reduce-built-in-function
   - the-max-built-in-function
   - the-sorted-built-in-function
+
+exercise:
+  - py-practice-map-and-filter

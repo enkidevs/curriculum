@@ -41,7 +41,7 @@ links:
 
 The concepts of constructors, declaration and expressions are often misused. Here is the official terminology according to MDN:
 
-Function defined with the `function` *constructor* assigned to the variable `multiply`:
+A function defined with the `function` *constructor* assigned to the variable `multiply`:
 
 ```
 function multiply(x, y) {
@@ -102,3 +102,4 @@ var multiply = function(x, y) {
 * function expression of a `function` named `mult`
 * all
 * none
+ 

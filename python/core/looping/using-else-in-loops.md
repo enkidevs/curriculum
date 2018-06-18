@@ -43,7 +43,7 @@ Gives the following output:
 3 is too big!
 ```
 
-And an `else` statement integrated into a `for` loop in a similar example:
+Also, an `else` statement integrated into a `for` loop in a similar example:
 
 ```python
 for x in range(0, 5):
@@ -131,4 +131,5 @@ else:
 * a a
 * b a
 * a c
+ 
  

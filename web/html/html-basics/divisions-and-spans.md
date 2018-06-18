@@ -11,6 +11,12 @@ category: must-know
 
 inAlgoPool: false
 
+standards:
+  web.syntax-html.0: 10
+  web.layout-html.0: 10
+
+aspects:
+  - introduction
 
 links:
   - '[MDN divisions](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div){documentation}'
@@ -60,4 +66,3 @@ span`s are seen as ??? elements.
 * stylistic
 * structural
 * not
-

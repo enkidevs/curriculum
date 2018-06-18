@@ -34,3 +34,4 @@ links:
 ## Exercise
 
 Practice using JavaScript Numbers on Code Wars
+ 

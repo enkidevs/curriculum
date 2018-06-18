@@ -24,7 +24,7 @@ standards:
 ---
 ## Content
 
-To call a function in Python you simply write the functions name followed by some brackets `()`.
+To call a function in Python, you write the functions name followed by some brackets `()`.
 
 For example:
 
@@ -52,7 +52,7 @@ def func(x):
     ans = x * x
     print(ans)
 ```
-So to call this function, you must pass a parameter into your function call like follows:
+So to call this function, you must pass a parameter into your function call as follows:
 ```python
 num = 5
 func(num)
@@ -74,12 +74,13 @@ y = 2
     print((a + b) / 2)
 
 ???(???)
+mean(x, y)
 ```
 
 * def
 * mean
-* x, y
-* a, b
+* (x, y)
+* (a, b)
 
 
 

@@ -57,3 +57,4 @@ This version of the Singleton class is not the most efficient one, however it is
 
 A reason to use a Singleton class is to log other classes in the application. Because a logger is heavily accessed, it makes sense to have a single instance to track the output.
 
+ 

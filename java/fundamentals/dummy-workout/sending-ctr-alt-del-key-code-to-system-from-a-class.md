@@ -26,3 +26,4 @@ links:
 
 Problem with above key combination comes from it's being served differently on hardware level. When you press those three buttons an interrupt of processor occurs. When an interrupt occu processor executes special program in specific memory location. 
 To use this key combination access to proper windows library and using it through Java Native Interface (JNI) is needed.
+ 

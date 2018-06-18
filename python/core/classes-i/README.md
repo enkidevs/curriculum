@@ -8,3 +8,7 @@ insights:
   - using-classes
   - python-inheritance
   - method-overriding
+
+exercises:
+  - py-practice-using-classes
+  - py-practice-inheritance

@@ -51,3 +51,4 @@ int x = rand.nextInt((max - min) + 1) + min;
 
 `Math.random` is appropriate when a `double` is needed, however it is better to use the `Random` class to generate random `int` values.
 
+ 

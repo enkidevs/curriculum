@@ -26,7 +26,7 @@ links:
 
 The *`const`* (constant) keyword is new to ES6 and creates a variable that cannot be reassigned.
 
-When declaring a constant variable you must assign an initial value otherwise you
+When declaring a constant variable, you must assign an initial value otherwise you
 will receive an error.
 
 To declare a constant use the *`const`* keyword where you would have used *`var`*:
@@ -101,3 +101,4 @@ if (true) {
 * yes, because the value is changed
 * no, because you can't redeclare a variable
 * no, because the `if` block doesn't have it's own scope
+ 

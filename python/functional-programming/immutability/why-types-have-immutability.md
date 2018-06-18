@@ -120,3 +120,4 @@ class Connection(object):
 ## Footnotes
 [1:Advantages of Immutability]
 Some programmers even advocate that in a perfectly object-oriented system, all objects should be immutable, although in reality this would be infeasible due to technical limitations in most mainstream programming languages. However, some functional languages provide rich support for a totally immutable environment, such as the less well-known but highly-regarded languages Scala and Haskell.
+ 
