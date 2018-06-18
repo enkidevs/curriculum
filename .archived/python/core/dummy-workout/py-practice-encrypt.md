@@ -10,7 +10,7 @@ type: exercise
 
 link: https://www.codewars.com/kata/simple-encryption-number-1-alternating-split
 
-linkType: codewars
+linkType: codewars 
 
 standards:
   python.standard-library-data.3: 2000

@@ -10,7 +10,7 @@ type: exercise
 link: http://www.codewars.com/kata/clock-in-mirror
 
 linkType: codewars
-
+ 
 standards:
   python.data-structures-uses.0: 1000
   python.data-structures-uses.5: 4000
