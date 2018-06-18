@@ -9,7 +9,7 @@ type: exercise
 
 link: https://www.codewars.com/kata/map-and-filter-to-get-a-special-sequence-of-integers/python
 
-linkType: codewars
+linkType: codewars 
 
 standards:
   python.data-structures-uses.0: 1000

@@ -9,7 +9,7 @@ type: exercise
 
 link: https://www.codewars.com/kata/building-an-adaboost-model-with-sklearn-introductory-machine-learning
 
-linkType: codewars
+linkType: codewars 
 
 standards:
   python.modules.0: 1000

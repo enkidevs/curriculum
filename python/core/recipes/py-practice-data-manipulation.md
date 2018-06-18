@@ -4,7 +4,7 @@ author: SebaRaba
 levels:
 
   - beginner
-
+ 
   - basic
 
 type: exercise

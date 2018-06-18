@@ -8,7 +8,7 @@ levels:
   - basic
 
   - medium
-
+ 
 type: exercise
 
 link: https://www.codewars.com/kata/folding-your-way-to-the-moon

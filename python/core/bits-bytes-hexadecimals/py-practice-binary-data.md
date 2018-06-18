@@ -9,7 +9,7 @@ levels:
 
   - medium
 
-type: exercise
+type: exercise 
 
 link: https://www.codewars.com/kata/binary-representation-of-an-integer
 linkType: codewars
