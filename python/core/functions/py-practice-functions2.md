@@ -8,7 +8,13 @@ levels:
   - basic
 
 tags:
+  - introduction
   - workout
+  
+aspects:
+  - introduction
+  - workout
+
 
 type: exercise
 
