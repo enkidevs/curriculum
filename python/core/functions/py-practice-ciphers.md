@@ -9,7 +9,10 @@ levels:
 
 tags:
   - workout
-
+  - deep
+aspects:
+  - workout
+  - deep
 type: exercise
 
 linkType: codewars
