@@ -11,6 +11,9 @@ tags:
 
   - introduction
 
+aspects:
+  - introduction
+
 type: exercise
 
 linkType: website
