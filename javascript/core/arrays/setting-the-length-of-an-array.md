@@ -21,14 +21,9 @@ tags:
   - introduction
   - obscura
 
-tags:
-  - introduction
-  - obscura
-
 aspects:
   - introduction
   - obscura
-
 
 ---
 

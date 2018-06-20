@@ -25,7 +25,7 @@ tags:
 aspects:
   - introduction
   - workout
-  - workout
+
 parent: union
 
 ---
