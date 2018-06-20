@@ -11,6 +11,12 @@ levels:
 
 tags:
   - introduction
+  - workout
+  -  deep
+aspects:
+  - introduction
+  - workout
+  - deep
 
 type: exercise
 
