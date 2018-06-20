@@ -24,7 +24,7 @@ aspects:
 
 The HTML `oninput` event occurs immediately after the value of an element has changed.
 
-Here's an example of the `oninput` event executing a java function after the user puts in a value:
+Here's an example of the `oninput` event executing a JavaScript function after the user puts in a value:
 ```
 <input
   type="text"
