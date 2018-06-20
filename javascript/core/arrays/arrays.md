@@ -19,7 +19,9 @@ standards:
   javascript.data-types-structures.5: 10
 
 tags:
+  - introduction
 
+aspects:
   - introduction
 
 ---
@@ -132,4 +134,5 @@ console.log(arr.length)
 * 4
 * 0
 * 1
+ 
  

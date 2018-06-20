@@ -25,6 +25,11 @@ tags:
 
   - deep
 
+aspects:
+  - workout
+  - deep
+
+
 ---
 
 # Multiple JOINs

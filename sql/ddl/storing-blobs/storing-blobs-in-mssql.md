@@ -22,6 +22,12 @@ tags:
 
   - deep
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 
 # Handling Blobs in SQL

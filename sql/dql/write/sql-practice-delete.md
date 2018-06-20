@@ -8,6 +8,10 @@ levels:
 tags:
   - introduction
   - workout
+  
+aspects:
+  - introduction
+  - workout
 
 type: exercise
 
@@ -31,5 +35,7 @@ links:
 ## Exercise
 
 In the `item` table, `DELETE` the item having id 10. Make sure to submit the SQLFiddle link, to show that you've completed the exercise.
+ 
+ 
  
  

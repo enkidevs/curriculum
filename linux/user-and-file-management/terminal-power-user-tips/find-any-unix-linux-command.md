@@ -34,6 +34,10 @@ tags:
 
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Find any Unix / Linux command

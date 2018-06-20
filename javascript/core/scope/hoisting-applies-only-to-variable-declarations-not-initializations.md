@@ -35,6 +35,12 @@ links:
   - '[stackoverflow.com](http://stackoverflow.com/questions/3725546/variable-hoisting){website}'
 
 
+aspects:
+  - workout
+  - deep
+  - obscura
+
+
 ---
 
 # Hoisting applies only to variable declarations, not initializations

@@ -26,6 +26,12 @@ links:
 
 parent: check-data-about-a-package
 
+aspects:
+  - workout
+  - deep
+  - introduction
+
+
 ---
 # Deprecate npm packages
 

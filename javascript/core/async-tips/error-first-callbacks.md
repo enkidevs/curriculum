@@ -18,6 +18,11 @@ tags:
   - workout
   - deep
 
+aspects:
+  - introduction
+  - workout
+  - deep
+  
 links:
   - '[ruben.verborgh.org](http://ruben.verborgh.org/blog/2012/12/31/asynchronous-error-handling-in-javascript/){website}'
 
@@ -89,4 +94,8 @@ Which statement is true about *error-first callbacks*:
 * First argument of the callback function is an error.
 * First argument of the main function is an error
 * Errors are checked before the actual call
+ 
+ 
+ 
+ 
  

@@ -19,6 +19,10 @@ standards:
 links:
   - '[Distinguish operational from programmatic errors](https://github.com/i0natan/nodebestpractices/blob/master/sections/errorhandling/operationalvsprogrammererror.md){website}'
 
+aspects:
+  - introduction
+
+
 ---
 # Operational vs. Programmer Errors
 

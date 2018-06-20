@@ -26,6 +26,11 @@ tags:
 
   - deep
 
+aspects:
+  - workout
+  - deep
+
+
 ---
 
 # UNION

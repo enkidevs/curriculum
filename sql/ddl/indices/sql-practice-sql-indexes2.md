@@ -30,6 +30,12 @@ links:
   - '[blog post on MySQL define tables](https://atech.blog/viaduct/mysql-indexes-primer){website}'
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=JjNef3tPltU){video}'
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 
 # SQL Practice Define Indexes

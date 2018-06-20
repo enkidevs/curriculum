@@ -21,6 +21,11 @@ tags:
   - workout
   - deep
 
+aspects:
+  - workout
+  - deep
+
+
 ---
 # `npm` verifies `sha1` hashes of packages
 

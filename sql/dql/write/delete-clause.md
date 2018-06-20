@@ -19,11 +19,13 @@ standards:
   sql.write.5: 10
 
 tags:
-
   - introduction
-
   - workout
 
+aspects:
+  - introduction
+  - workout
+  
 links:
 
   - '[More on DELETE](http://www.dofactory.com/sql/delete){website}'
@@ -158,5 +160,7 @@ id |     name
 * DELETE FROM egg_group WHERE id= 15;
 * UPDATE egg_group DELETE WHERE id=15;
 * DELETE FROM egg_group;
+ 
+ 
  
  

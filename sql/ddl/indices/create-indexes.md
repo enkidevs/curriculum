@@ -38,6 +38,11 @@ links:
 
 parent: add-rule
 
+aspects:
+  - workout
+  - deep
+
+
 ---
 
 # Create Indices

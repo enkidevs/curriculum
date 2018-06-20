@@ -38,6 +38,10 @@ links:
   - '[Using Python to query Postgres video](https://www.youtube.com/watch?v=8gd1DlXwzlY){website}'
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Python Database Packages

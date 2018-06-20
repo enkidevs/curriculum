@@ -20,6 +20,11 @@ tags:
 links:
   - '[github.com](https://github.com/nodejs/node/wiki/API-changes-between-v0.10-and-v4#writable-streams){website}'
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # Bulk-Write in **Node** with `cork()`
 

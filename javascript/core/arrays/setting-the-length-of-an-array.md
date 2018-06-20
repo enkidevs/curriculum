@@ -18,10 +18,17 @@ standards:
   javascript.data-types-structures.4: 10
 
 tags:
-
   - introduction
-
   - obscura
+
+tags:
+  - introduction
+  - obscura
+
+aspects:
+  - introduction
+  - obscura
+
 
 ---
 
@@ -89,4 +96,5 @@ names.length = 0;
 * [ ]
 * [undefined,undefined,undefined, undefined]
 * ["John","Mary","Tom"]
+ 
  

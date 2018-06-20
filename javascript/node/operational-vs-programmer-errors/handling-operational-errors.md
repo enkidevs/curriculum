@@ -21,6 +21,11 @@ standards:
 links:
   - '[Node JS and Errors](https://www.joyent.com/node-js/production/design/errors){website}'
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # Handling Operational Errors
 

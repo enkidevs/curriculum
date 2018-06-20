@@ -22,6 +22,10 @@ tags:
 
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Using `xargs` to build commands.

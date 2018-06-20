@@ -24,6 +24,11 @@ links:
 
 parent: what-are-node-modules
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # Requiring and Exporting
 

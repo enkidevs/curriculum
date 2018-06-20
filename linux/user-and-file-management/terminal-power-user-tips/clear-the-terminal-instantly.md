@@ -29,6 +29,10 @@ tags:
 
 notes: ''
 
+aspects:
+  - workout
+
+
 ---
 
 # Clear the terminal instantly

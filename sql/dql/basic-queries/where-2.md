@@ -30,6 +30,11 @@ links:
 
   - '[SQL Tutorial: WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}'
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # WHERE (2)

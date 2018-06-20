@@ -35,6 +35,11 @@ links:
   - '[css-tricks.com](https://css-tricks.com/snippets/javascript/format-currency/){website}'
 
 
+aspects:
+  - introduction
+  - deep
+
+
 ---
 
 # Format currency in JavaScript

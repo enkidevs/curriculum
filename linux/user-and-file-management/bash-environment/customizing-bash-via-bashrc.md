@@ -24,6 +24,10 @@ links:
 
 parent: what-is-a-shell
 
+aspects:
+  - introduction
+
+
 ---
 
 # Customizing `bash` via `.bashrc`

@@ -30,6 +30,11 @@ tags:
 
 
 
+aspects:
+  - workout
+  - introduction
+
+
 ---
 
 # Deleting non-empty directories

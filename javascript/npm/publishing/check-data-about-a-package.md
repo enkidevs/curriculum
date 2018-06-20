@@ -25,6 +25,12 @@ links:
 
 parent: how-to-publish-your-own-packages
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 # Check the details of a package
 

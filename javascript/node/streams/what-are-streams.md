@@ -25,6 +25,11 @@ links:
 
 parent: handling-event-errors
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # What are Streams?
 

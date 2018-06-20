@@ -32,6 +32,10 @@ links:
   - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions#Function_constructor_vs._function_declaration_vs._function_expression){website}'
 
 
+aspects:
+  - introduction
+
+
 ---
 
 # Function constructor vs. function expression

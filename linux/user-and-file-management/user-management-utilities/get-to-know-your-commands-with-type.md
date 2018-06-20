@@ -28,6 +28,10 @@ tags:
 
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Get to know  your commands with `type`

@@ -25,6 +25,12 @@ links:
   - '[blog post on MySQL aggregate functions](https://www.guru99.com/aggregate-functions.html){website}'
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=sgAvl7ry5jY){video}'
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 
 # SQL Practice Aggregate Table Max Filter

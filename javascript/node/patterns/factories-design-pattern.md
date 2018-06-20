@@ -21,6 +21,11 @@ links:
   - '[blog.risingstack.com](https://blog.risingstack.com/fundamental-node-js-design-patterns/){website}'
   - '[thenodeway.io](http://thenodeway.io/posts/designing-factories/){website}'
 
+aspects:
+  - workout
+  - deep
+
+
 ---
 # Factories design pattern
 

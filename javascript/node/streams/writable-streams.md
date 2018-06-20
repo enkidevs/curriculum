@@ -26,6 +26,12 @@ links:
 
 parent: chaining-readable-streams
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 # Writable Streams
 

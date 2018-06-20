@@ -22,6 +22,10 @@ tags:
 
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Best password generation utilities

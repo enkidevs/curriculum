@@ -34,6 +34,10 @@ tags:
 
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Terminal incognito mode

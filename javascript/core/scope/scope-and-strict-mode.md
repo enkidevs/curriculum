@@ -35,6 +35,12 @@ links:
   - '[john-dugan.com](https://john-dugan.com/hoisting-in-javascript/){website}'
 
 
+aspects:
+  - workout
+  - deep
+  - obscura
+
+
 ---
 
 # Scope and strict mode

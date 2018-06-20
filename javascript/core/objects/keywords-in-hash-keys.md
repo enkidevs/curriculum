@@ -22,6 +22,10 @@ links:
 
 notes: 'Same issue, not sure if it''s not really really basic.'
 
+aspects:
+  - introduction
+
+
 ---
 # Keywords in hash keys
 

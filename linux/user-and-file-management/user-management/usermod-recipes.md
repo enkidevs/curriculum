@@ -20,6 +20,10 @@ tags:
 
 
 
+aspects:
+  - workout
+
+
 ---
 
 # `usermod` recipes

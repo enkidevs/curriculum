@@ -17,6 +17,11 @@ tags:
 
 category: tip
 
+aspects:
+  - workout
+  - deep
+
+
 ---
 # The Worker Class
 

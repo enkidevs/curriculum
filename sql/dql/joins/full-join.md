@@ -30,6 +30,11 @@ links:
   - '[Full outer join](https://en.wikipedia.org/wiki/Join_(SQL)#Full_outer_join){website}'
 
 
+aspects:
+  - deep
+  - workout
+
+
 ---
 
 # FULL JOIN

@@ -20,6 +20,11 @@ tags:
 
   - workout
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # SQL Text Data Types

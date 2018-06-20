@@ -32,6 +32,11 @@ links:
   - '[More on ADD DEFAULT](https://www.w3schools.com/sql/sql_default.asp){website}'
 
 
+aspects:
+  - workout
+  - deep
+
+
 ---
 
 # Add Default Value

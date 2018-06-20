@@ -22,6 +22,11 @@ tags:
   - introduction
   - workout
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # Tests
 

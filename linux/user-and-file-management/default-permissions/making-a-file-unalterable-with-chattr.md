@@ -30,6 +30,11 @@ tags:
 
 
 
+aspects:
+  - obscura
+  - workout
+
+
 ---
 
 # Making a file unalterable with `chattr`

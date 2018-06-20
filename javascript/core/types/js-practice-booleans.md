@@ -28,6 +28,10 @@ links:
   - '[link to deeper dive blog post](https://enki.com)'
   - '[Youtube - "Operators Boolean"](https://www.youtube.com/watch?v=1MlBHs0t1pY)'
   - '[Stack Overflow - Declaring Booleans](https://stackoverflow.com/questions/653921/declaring-a-boolean-in-javascript-using-just-var)'
+
+aspects:
+  - introduction
+
 ---
 
 # JS Practice Booleans

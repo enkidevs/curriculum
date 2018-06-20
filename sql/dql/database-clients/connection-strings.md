@@ -30,6 +30,10 @@ links:
   - '[More on connection strings](http://www.dofactory.com/reference/connection-strings){website}'
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Connection strings

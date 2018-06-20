@@ -22,6 +22,12 @@ tags:
   - deep
   - obscura
 
+aspects:
+  - workout
+  - deep
+  - obscura
+
+
 ---
 # `process.nextTick()` callback pattern
 

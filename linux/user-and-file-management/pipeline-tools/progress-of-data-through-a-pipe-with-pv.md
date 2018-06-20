@@ -36,6 +36,10 @@ tags:
 
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Monitor the progress of data through a pipe with `pv`

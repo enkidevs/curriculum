@@ -23,6 +23,10 @@ links:
   - '[www.tutorialspoint.com](http://www.tutorialspoint.com/unix_commands/fold.htm){website}'
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Wrap text with `fold`

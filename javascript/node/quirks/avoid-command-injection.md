@@ -24,6 +24,12 @@ notes: Im trying to make a Node workout based on security tips. This is one of t
 links:
   - '[blog.liftsecurity.io](https://blog.liftsecurity.io/2014/08/19/Avoid-Command-Injection-Node.js){website}'
 
+aspects:
+  - workout
+  - deep
+  - obscura
+
+
 ---
 # Avoid command injection
 
