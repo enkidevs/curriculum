@@ -10,7 +10,13 @@ levels:
   - medium
 
 tags:
+  - introduction
   - workout
+  
+aspects:
+  - introduction
+  - workout
+
 
 type: exercise
 
