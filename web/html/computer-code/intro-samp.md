@@ -118,17 +118,13 @@ samp {
 When using the `<samp>` element, which statements are true?
 
 ???
-???
-???
-???
 
-+ represents sample output from a computer program
-+ displayed in the browser's default monospace font
-+ when nested inside `<kbd>`, represents input based on system output.
-+ when containing `<kbd>`, represents input echoed by the system.
-- produces a block element
-- represents preformatted text
-- represents user input
+* represents user input
+* represents sample output from a computer program
+* displayed in the browser's default monospace font
+* when nested inside `<kbd>`, represents input based on system output.
+* when containing `<kbd>`, represents input echoed by the system.
+
 
 
 ---
