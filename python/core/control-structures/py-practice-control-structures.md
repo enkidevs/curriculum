@@ -10,6 +10,9 @@ levels:
 tags:
 
   - introduction
+  
+aspects:
+  - introduction
 
 type: exercise
 
