@@ -33,11 +33,6 @@ links:
   - '[Deeper dive blog post on functions](https://www.digitalocean.com/community/tutorials/how-to-define-functions-in-python-3){website}'
   - '[Video tutorial for functions](https://www.youtube.com/watch?v=9Os0o3wzS_I){video}'
 
-
-aspects:
-  - introduction
-  - workout
-
 ---
 
 # Python functions exercises
