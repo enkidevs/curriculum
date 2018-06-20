@@ -5,6 +5,9 @@ tags:
 
   - introduction
 
+aspects:
+  - introduction
+
 levels:
 
   - beginner
