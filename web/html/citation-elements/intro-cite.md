@@ -50,7 +50,7 @@ Example:
 </p>
 ```
 
-The cited URL under the `<cite>` element will, by default, display in <i>italic</i>. However, this is easily editable by adding the `font-style` CSS property to the `<cite>` element.
+The cited URL under the `<cite>` element will, by default, display in <i>italic</i>. However, this is easily editable by adding the `font-style` CSS property to the `<cite>` element. Also, the `<cite>` element displays as an inline element.
 
 ---
 ## Practice
