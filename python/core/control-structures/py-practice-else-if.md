@@ -22,6 +22,8 @@ standards:
   python.native-types-operations.0: 1000
   python.control-structures.1: 1000
 
+links:
+  - '[Control Structures in Python](http://interactivepython.org/runestone/static/pythonds/Introduction/ControlStructures.html){website}'
 
 ---
 

@@ -21,6 +21,9 @@ standards:
 
   python.native-types-operations.2: 1000
 
+links:
+  - '[Operators in Python](http://interactivepython.org/runestone/static/CS152f17/SimplePythonData/OperatorsandOperands.html){website}'
+
 ---
 
 # Python Arithmetic Operations Exercise

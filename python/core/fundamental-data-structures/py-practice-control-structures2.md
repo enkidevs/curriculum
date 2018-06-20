@@ -21,6 +21,12 @@ standards:
   python.native-types-operations.6: 1000
   python.control-structures.1: 1000
 
+links:
+
+  - '[Official documentation on data structures](https://docs.python.org/3/library/stdtypes.html){website}'
+  - '[A blog about data structures](http://www.diveintopython3.net/native-datatypes.html){website}'
+  - '[A video tutorial of data structures](https://www.youtube.com/watch?v=TkpNMvBrEUw){video}'
+
 ---
 
 # Practice With Python Control Structures
