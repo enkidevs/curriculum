@@ -38,6 +38,10 @@ tags:
 
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Other User Management Recipes

@@ -19,6 +19,10 @@ tags:
   - introduction
   - workout
 
+aspects:
+  - introduction
+  - workout
+
 links:
   - '[stackoverflow](http://stackoverflow.com/questions/2450954){discussion}'
 
@@ -94,4 +98,5 @@ arr.sort(function(){
 * shuffle the array
 * sort the array decreasingly
 * do nothing to the array
+ 
  

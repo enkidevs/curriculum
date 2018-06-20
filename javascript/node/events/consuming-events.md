@@ -24,6 +24,11 @@ links:
 
 parent: module-patterns
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # Consuming events
 

@@ -20,6 +20,12 @@ tags:
 links:
   - '[spin.atomicobject.com](http://spin.atomicobject.com/2015/09/25/debug-node-js/){website}'
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 # The built-in Node debugger
 

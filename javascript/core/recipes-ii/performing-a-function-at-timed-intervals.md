@@ -30,6 +30,12 @@ tags:
 
 
 
+aspects:
+  - workout
+  - introduction
+  - deep
+
+
 ---
 
 # Performing a function at timed intervals

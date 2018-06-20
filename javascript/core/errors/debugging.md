@@ -24,6 +24,11 @@ tags:
 
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # Debugging

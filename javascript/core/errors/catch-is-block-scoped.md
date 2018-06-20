@@ -25,6 +25,12 @@ tags:
 
 parent: no-block-scope
 
+aspects:
+  - workout
+  - deep
+  - obscura
+
+
 ---
 
 # `catch` is block scoped

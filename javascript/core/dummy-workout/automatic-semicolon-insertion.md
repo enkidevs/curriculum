@@ -14,6 +14,10 @@ stub: true
 tags:
   - introduction
 
+aspects:
+  - introduction
+
+
 ---
 # Automatic Semicolon Insertion
 

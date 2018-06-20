@@ -24,6 +24,11 @@ links:
 
 parent: passing-arguments-to-listeners
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # Handling event errors
 

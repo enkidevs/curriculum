@@ -33,6 +33,10 @@ tags:
 
   - yield
 
+aspects:
+  - workout
+  - deep
+
 
 links:
 
@@ -102,4 +106,6 @@ Can **generator function** be `yield`ed by `co()`?
 * `yes`
 * `no`
 
+ 
+ 
  

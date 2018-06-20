@@ -24,6 +24,11 @@ links:
   - '[docs.npmjs.com](https://docs.npmjs.com/files/package.json#optionaldependencies){website}'
 
 
+aspects:
+  - workout
+  - deep
+
+
 ---
 
 # `optionalDependencies` in npm

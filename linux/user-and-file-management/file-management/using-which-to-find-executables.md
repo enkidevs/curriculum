@@ -19,6 +19,11 @@ tags:
 
   - workout
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # Using `which` To Find Executables

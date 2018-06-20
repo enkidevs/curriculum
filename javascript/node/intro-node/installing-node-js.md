@@ -21,6 +21,10 @@ standards:
 links:
   - '[nodejs.org](https://nodejs.org/en/){website}'
 
+aspects:
+  - introduction
+
+
 ---
 # Installing Node.js
 

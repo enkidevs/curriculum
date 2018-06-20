@@ -29,6 +29,11 @@ tags:
 
 notes: ''
 
+aspects:
+  - workout
+  - workout
+
+
 ---
 
 # Bash history reverse search

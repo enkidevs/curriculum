@@ -33,6 +33,10 @@ tags:
 
 notes: ''
 
+aspects:
+  - workout
+
+
 ---
 
 # Execute a command without saving it in history

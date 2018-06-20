@@ -24,6 +24,10 @@ links:
   - '[blog post on MySQL define tables](https://www.w3schools.com/sql/sql_alter.asp){website}'
   - '[video tutorial on alter table](https://youtu.be/vDr2DZeU5mY?t=50s){video}'
 
+aspects:
+  - workout
+
+
 ---
 
 # SQL Practice Aggregate Average

@@ -35,6 +35,10 @@ links:
   - '[Gutmann Method](https://en.wikipedia.org/wiki/Gutmann_method){website}'
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Deleting files in a secure manner

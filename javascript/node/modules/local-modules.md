@@ -25,6 +25,11 @@ links:
 
 parent: the-http-module-for-servers
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # Local Modules
 

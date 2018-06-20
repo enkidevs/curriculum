@@ -19,6 +19,10 @@ standards:
 tags:
   - introduction
 
+aspects:
+  - introduction
+
+
 ---
 # Types - Boolean and Number
 

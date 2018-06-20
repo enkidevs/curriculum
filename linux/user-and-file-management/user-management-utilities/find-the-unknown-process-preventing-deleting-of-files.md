@@ -25,6 +25,10 @@ links:
   - '[linux.die.net](http://linux.die.net/man/1/fuser){website}'
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Find the unknown process preventing deleting of files

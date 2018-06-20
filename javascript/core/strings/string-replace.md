@@ -35,6 +35,11 @@ links:
   - '[www.standardista.com](http://www.standardista.com/javascript/15-common-javascript-gotchas/){website}'
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # `String.replace`

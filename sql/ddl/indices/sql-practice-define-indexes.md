@@ -31,6 +31,12 @@ links:
   - '[video tutorial on creating indexes](https://youtu.be/19eLh1ZdoLY?t=56s){video}'
   - '[video tutorial on the differences between clustered and non-clustered index](https://www.youtube.com/watch?v=ITcOiLSfVJQ){video}'
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 
 # SQL Practice Define Indexes

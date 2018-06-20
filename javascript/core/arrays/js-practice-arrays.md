@@ -8,7 +8,10 @@ levels:
   - basic
 
 tags:
+  - introduction
 
+
+aspects:
   - introduction
 
 type: exercise

@@ -24,6 +24,11 @@ links:
 
 parent: npm-nodes-package-manager
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # What are Node Modules?
 

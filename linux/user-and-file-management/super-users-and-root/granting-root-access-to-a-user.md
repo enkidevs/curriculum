@@ -34,6 +34,11 @@ tags:
 
 
 
+aspects:
+  - workout
+  - introduction
+
+
 ---
 
 # Granting `root` access to a user

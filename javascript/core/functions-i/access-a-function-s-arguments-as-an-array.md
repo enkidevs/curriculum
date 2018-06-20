@@ -17,6 +17,10 @@ tags:
 links:
   - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments){documentation}'
 
+aspects:
+  - introduction
+
+
 ---
 # Access a function's `arguments` as an array
 

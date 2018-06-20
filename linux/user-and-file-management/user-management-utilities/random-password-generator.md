@@ -33,6 +33,10 @@ links:
   - '[Base64 Encoding](https://en.wikipedia.org/wiki/Base64){website}'
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Random password generator

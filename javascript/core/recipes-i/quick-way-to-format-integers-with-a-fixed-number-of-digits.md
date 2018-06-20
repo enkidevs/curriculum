@@ -33,6 +33,11 @@ links:
   - '[stackoverflow](http://stackoverflow.com/questions/8043026){discussion}'
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # Quick way to format integers with a fixed number of digits.

@@ -22,6 +22,12 @@ tags:
   - deep
   - new
 
+aspects:
+  - workout
+  - deep
+  - new
+
+
 ---
 # Creating a Node Module
 

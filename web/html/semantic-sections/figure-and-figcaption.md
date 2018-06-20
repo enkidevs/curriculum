@@ -14,12 +14,16 @@ stub: true
 tags:
   - deep
 
+aspects:
+  - deep
+
 links:
   - '[MDN docs for figure](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure){website}'
   - '[MDN docs for figcaption](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption){website}'
 
 ---
 # Figure & Figcaption
+
 ---
 ## Content
 
@@ -106,3 +110,4 @@ What HTML element best defines a caption or legend for a figure?
 * `<legend>`
 * `<fig>`
 * `<figtitle>`
+ 

@@ -20,6 +20,12 @@ tags:
   - workout
   - deep
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 # Semantic versioning
 

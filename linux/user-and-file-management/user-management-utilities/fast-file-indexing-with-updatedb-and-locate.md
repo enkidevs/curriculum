@@ -31,6 +31,10 @@ tags:
 
 notes: ''
 
+aspects:
+  - workout
+
+
 ---
 
 # Fast file indexing with `updatedb` and `locate`

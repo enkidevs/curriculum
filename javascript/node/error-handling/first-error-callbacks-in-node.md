@@ -19,6 +19,11 @@ tags:
 links:
   - '[fredkschott.com](http://fredkschott.com/post/2014/03/understanding-error-first-callbacks-in-node-js/){website}'
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # First-error callbacks in **Node**
 

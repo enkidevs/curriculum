@@ -19,6 +19,12 @@ tags:
   - workout
   - deep
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 # Passing through command line arguments in npm scripts
 

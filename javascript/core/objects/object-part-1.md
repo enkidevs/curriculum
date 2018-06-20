@@ -29,6 +29,10 @@ links:
   - '[Object-oriented JS](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS){website}'
 
 
+aspects:
+  - introduction
+
+
 ---
 
 # Object - Part 1

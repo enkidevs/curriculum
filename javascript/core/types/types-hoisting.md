@@ -26,6 +26,11 @@ links:
     [Site
     Point](https://www.sitepoint.com/demystifying-javascript-variable-scope-hoisting/){website}
 
+aspects:
+  - introduction
+  - obscura
+
+
 ---
 
 # Types - Hoisting

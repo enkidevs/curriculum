@@ -19,6 +19,10 @@ links:
 
 parent: the-repl-terminal
 
+aspects:
+  - introduction
+
+
 ---
 # Executing programs with Node
 

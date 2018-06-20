@@ -36,6 +36,10 @@ links:
 
 notes: ''
 
+aspects:
+  - workout
+
+
 ---
 
 # The `2>&1` redirection

@@ -13,6 +13,10 @@ inAlgoPool: false
 tags:
   - introduction
 
+aspects:
+  - introduction
+
+
 ---
 # Why Learn JavaScript?
 

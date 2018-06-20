@@ -26,6 +26,12 @@ links:
 
 parent: what-are-streams
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 
 # Readable Streams

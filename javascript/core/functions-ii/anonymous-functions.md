@@ -20,6 +20,11 @@ tags:
 links:
   - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions){website}'
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # Anonymous functions
 

@@ -29,6 +29,11 @@ links:
 
   - '[More on ORDER BY](http://www.dofactory.com/sql/order-by){website}'
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # Order By clause

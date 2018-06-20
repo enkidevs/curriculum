@@ -22,6 +22,12 @@ tags:
   - workout
   - deep
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 # Npm Scripting
 

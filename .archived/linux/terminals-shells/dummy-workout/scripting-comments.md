@@ -14,6 +14,9 @@ stub: true
 tags:
   - introduction
 
+aspects:
+  - introduction
+
 ---
 # Comments
 
@@ -36,3 +39,4 @@ tags:
 * 1 and 2
 * 1 and 3
 * 1, 3 and 4
+ 

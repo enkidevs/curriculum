@@ -15,6 +15,10 @@ tags:
   - introduction
   - workout
 
+aspects:
+  - introduction
+  - workout
+
 ---
 # The `sort` Array Method
 
@@ -34,3 +38,4 @@ console.log([12, 1, 5].sort());
 * "[1, 5, 12]"
 * "[12, 5, 1]"
 * "[12, 1, 5]"
+ 

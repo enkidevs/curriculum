@@ -22,6 +22,11 @@ tags:
 
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # The Standard Streams: `stdin`, `stdout`, and `stderr`

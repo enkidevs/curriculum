@@ -29,6 +29,9 @@ tags:
 
   - npm
 
+aspects:
+  - workout
+  - deep
 
 links:
 

@@ -19,6 +19,10 @@ standards:
 tags:
   - introduction
 
+aspects:
+  - introduction
+
+
 ---
 # Object - Part 2
 

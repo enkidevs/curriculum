@@ -17,6 +17,10 @@ tags:
 
   - workout
 
+aspects:
+  - workout
+
+
 ---
 
 # Changing User Passwords With `passwd`

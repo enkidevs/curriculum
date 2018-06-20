@@ -17,6 +17,10 @@ standards:
 tags:
   - introduction
 
+aspects:
+  - introduction
+
+
 ---
 # JavaScript Basics - Part 1
 

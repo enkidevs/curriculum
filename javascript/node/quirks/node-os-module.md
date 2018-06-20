@@ -19,6 +19,11 @@ tags:
 links:
   - '[nodejs.org](https://nodejs.org/api/os.html){website}'
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # **Node** `os` module
 

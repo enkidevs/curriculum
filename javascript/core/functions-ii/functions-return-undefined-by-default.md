@@ -17,6 +17,11 @@ tags:
   - introduction
   - workout
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # Functions return undefined by default
 

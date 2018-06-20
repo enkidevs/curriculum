@@ -20,6 +20,11 @@ tags:
   - introduction
   - workout
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # Handling Programmer Errors

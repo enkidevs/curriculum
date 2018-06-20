@@ -23,6 +23,10 @@ links:
 
   - '[SQL Tutorial: SELECT](http://www.sql-tutorial.com/sql-select-sql-tutorial/){website}'
 
+aspects:
+  - introduction
+
+
 ---
 
 # SELECT

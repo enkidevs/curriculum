@@ -22,6 +22,11 @@ tags:
 
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # Input And Output Redirection With `<` and `>`

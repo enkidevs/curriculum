@@ -31,6 +31,11 @@ links:
   - '[stackoverflow.com](http://stackoverflow.com/questions/1986896/what-is-the-difference-between-call-and-apply){website}'
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # Difference between **.call** and **.apply** methods

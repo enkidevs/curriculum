@@ -27,6 +27,10 @@ links:
   - '[developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/API/Console/log){website}'
 
 
+aspects:
+  - introduction
+
+
 ---
 
 # `console.*` in JavaScript

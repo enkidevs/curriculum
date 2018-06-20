@@ -23,6 +23,11 @@ tags:
 
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # Adding Support for Multiple Character Sets

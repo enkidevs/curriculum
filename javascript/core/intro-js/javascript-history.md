@@ -23,6 +23,11 @@ links:
   - '[www.w3.org](https://www.w3.org/community/webed/wiki/A_Short_History_of_JavaScript){website}'
 
 
+aspects:
+  - introduction
+  - obscura
+
+
 ---
 
 # JavaScript History

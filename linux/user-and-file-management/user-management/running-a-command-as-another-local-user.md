@@ -18,6 +18,10 @@ tags:
 
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Running a command as another local user

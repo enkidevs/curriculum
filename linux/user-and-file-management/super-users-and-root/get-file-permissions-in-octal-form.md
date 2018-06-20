@@ -33,6 +33,10 @@ tags:
 
 parent: understanding-umask
 
+aspects:
+  - introduction
+
+
 ---
 
 # Get file permissions in octal form

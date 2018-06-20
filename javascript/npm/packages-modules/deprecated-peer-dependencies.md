@@ -26,6 +26,12 @@ tags:
 links:
   - '[Peer dependencies](https://nodejs.org/en/blog/npm/peer-dependencies/)'
 
+aspects:
+  - workout
+  - deep
+  - new
+
+
 ---
 # Deprecated peer dependencies
 

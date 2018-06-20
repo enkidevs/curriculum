@@ -18,6 +18,10 @@ tags:
 links:
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const){website}'
 
+aspects:
+  - introduction
+
+
 ---
 # Const (Part 2)
 

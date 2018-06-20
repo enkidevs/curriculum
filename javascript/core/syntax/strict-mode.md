@@ -27,6 +27,11 @@ links:
   - '[Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode){website}'
 
 
+aspects:
+  - introduction
+  - obscura
+
+
 ---
 
 # Strict Mode

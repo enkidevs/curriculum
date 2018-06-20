@@ -17,6 +17,11 @@ tags:
   - workout
   - deep
 
+aspects:
+  - workout
+  - deep
+
+
 ---
 # Master and Worker Process Communication
 

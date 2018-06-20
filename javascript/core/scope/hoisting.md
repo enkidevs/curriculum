@@ -26,6 +26,11 @@ tags:
 
 notes: ''
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # Hoisting
