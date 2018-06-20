@@ -9,6 +9,10 @@ levels:
 
 tags:
   - workout
+aspects:
+  - introduction
+  - workout
+
 
 type: exercise
 
