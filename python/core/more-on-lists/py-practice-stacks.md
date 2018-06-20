@@ -8,7 +8,14 @@ levels:
   - basic
 
   - medium
-
+tags:
+  - introduction
+  - workout
+  - deep
+aspects:
+  - introduction
+  - workout
+  - deep
 
 type: exercise
 category: good practice
