@@ -31,6 +31,10 @@ links:
 
 parent: order-by-clause
 
+aspects:
+  - workout
+
+
 ---
 
 # Group By clause

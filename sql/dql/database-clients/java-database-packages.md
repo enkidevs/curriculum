@@ -38,6 +38,10 @@ links:
   - '[More Examples](https://www.tutorialspoint.com/postgresql/postgresql_java.htm){website}'
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Java Database Packages

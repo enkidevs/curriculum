@@ -34,6 +34,12 @@ tags:
 
 
 
+aspects:
+  - deep
+  - workout
+  - obscura
+
+
 ---
 
 # JavaScript compilation

@@ -26,6 +26,12 @@ links:
 
 parent: readable-streams
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 # Piping Readable Streams
 

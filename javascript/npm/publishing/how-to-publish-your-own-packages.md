@@ -20,6 +20,11 @@ tags:
   - introduction
   - workout
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # How to Publish Your Own Packages
 

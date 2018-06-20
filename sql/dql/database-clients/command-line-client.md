@@ -28,6 +28,10 @@ links:
   - '[PostgreSQL Download](https://www.postgresql.org/download/){website}'
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Command-Line Client

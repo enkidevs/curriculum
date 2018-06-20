@@ -32,6 +32,11 @@ links:
   - '[www.javascripture.com](http://www.javascripture.com/Function#bind){website}'
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # `.bind()` 

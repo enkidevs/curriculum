@@ -35,6 +35,10 @@ tags:
 
 notes: ''
 
+aspects:
+  - workout
+
+
 ---
 
 # Truncate files with `cat` instead of `rm`

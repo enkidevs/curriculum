@@ -16,6 +16,10 @@ standards:
 tags:
   - workout
 
+aspects:
+  - workout
+
+
 ---
 # Counting the months from zero
 

@@ -17,6 +17,11 @@ tags:
 links:
   - '[www.ecma-international.org](http://www.ecma-international.org/publications/standards/Ecma-262.htm){website}'
 
+aspects:
+  - introduction
+  - obscura
+
+
 ---
 # JavaScript or EcmaScript?
 

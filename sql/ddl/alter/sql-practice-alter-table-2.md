@@ -27,6 +27,11 @@ links:
   - '[blog post on MySQL define tables](https://www.tutorialspoint.com/mysql/mysql-alter-command.htm){website}'
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=Epj5cb5HF9o){video}'
 
+aspects:
+  - workout
+  - deep
+
+
 ---
 
 # SQL Practice Aggregate Average

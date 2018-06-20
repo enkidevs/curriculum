@@ -20,6 +20,11 @@ tags:
 links:
   - '[nodejs.org](https://nodejs.org/api/fs.html#fs_fs_writefile_file_data_options_callback){website}'
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # Async File Write in Node.js
 

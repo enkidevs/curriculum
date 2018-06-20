@@ -23,6 +23,11 @@ links:
 
 parent: consuming-events
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # Listening to events just once
 

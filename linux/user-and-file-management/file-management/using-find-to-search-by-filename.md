@@ -25,6 +25,11 @@ links:
   - '[www.tecmint.com](http://www.tecmint.com/35-practical-examples-of-linux-find-command/){website}'
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # Using `find` To Search By Filename

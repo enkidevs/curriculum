@@ -29,6 +29,10 @@ links:
   - '[link to deeper dive blog post](https://www.digitalocean.com/community/tutorials/how-to-define-functions-in-python-3){website}'
   - '[link to a video](https://www.youtube.com/watch?v=9Os0o3wzS_I){video}'
   - '[link to a discussion](https://enki.com)'
+
+aspects:
+  - workout
+
 ---
 
 # Python functions exercises

@@ -2,7 +2,6 @@
 author: mihaiberq
 
 levels:
-
   - beginner
   - basic
   - medium
@@ -15,6 +14,10 @@ category: how to
 stub: true
 
 tags:
+  - deep
+  - workout
+
+aspects:
   - deep
   - workout
 

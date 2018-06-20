@@ -23,6 +23,10 @@ links:
 
   - '[More on RDBMS](https://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems){website}'
 
+aspects:
+  - introduction
+
+
 ---
 
 # Database server types

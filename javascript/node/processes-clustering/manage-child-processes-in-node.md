@@ -21,6 +21,11 @@ links:
   - '[www.graemeboy.com](http://www.graemeboy.com/node-child-processes){website}'
   - '[krasimirtsonev.com](http://krasimirtsonev.com/blog/article/Nodejs-managing-child-processes-starting-stopping-exec-spawn){website}'
 
+aspects:
+  - workout
+  - deep
+
+
 ---
 # Manage child processes in **Node**
 

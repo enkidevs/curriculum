@@ -31,6 +31,10 @@ links:
   - '[Installing .dmg package](https://apple.stackexchange.com/questions/64845/how-do-i-install-applications-from-a-dmg-file){website}'
 
 
+aspects:
+  - workout
+
+
 ---
 
 # GUI Client

@@ -27,6 +27,11 @@ links:
   - '[find more information on JOINs here](https://www.sitepoint.com/understanding-sql-joins-mysql-database/){website}'
   - '[video tutorial on JOINs](https://www.youtube.com/watch?v=soK0CeP_aC8){video}'
 
+aspects:
+  - workout
+  - deep
+
+
 ---
 
 # SQL Practice Aggregate Multiple Tables

@@ -16,6 +16,10 @@ standards:
 tags:
   - introduction
 
+aspects:
+  - introduction
+
+
 ---
 # Types - Introduction
 

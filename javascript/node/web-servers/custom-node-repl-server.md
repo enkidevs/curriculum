@@ -21,6 +21,10 @@ tags:
 links:
   - '[nodejs.org](https://nodejs.org/api/repl.html){website}'
 
+aspects:
+  - workout
+
+
 ---
 
 # Custom Node REPL Server

@@ -25,6 +25,11 @@ tags:
 
   - deep
 
+aspects:
+ - introduction
+ - workout
+ - deep
+
 
 links:
 
@@ -104,4 +109,7 @@ let t = setInterval(
 * `NaN`
 * `11 then 12 then 13`
 
+ 
+ 
+ 
  

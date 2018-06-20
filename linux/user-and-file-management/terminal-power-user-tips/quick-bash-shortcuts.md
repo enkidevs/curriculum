@@ -36,6 +36,10 @@ tags:
 
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Quick `bash` shortcuts

@@ -21,6 +21,11 @@ tags:
 links:
   - '[jsperf.com](http://jsperf.com/string-concat-vs-array-join-10000){website}'
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # Most efficient way to build `HTML` strings
 

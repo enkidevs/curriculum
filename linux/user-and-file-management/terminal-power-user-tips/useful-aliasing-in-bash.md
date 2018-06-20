@@ -24,6 +24,10 @@ tags:
 
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Useful aliasing in bash

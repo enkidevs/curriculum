@@ -19,6 +19,10 @@ links:
 
 parent: what-is-npm
 
+aspects:
+  - introduction
+
+
 ---
 # Why should I use npm?
 

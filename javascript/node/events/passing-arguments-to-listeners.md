@@ -23,6 +23,11 @@ links:
 
 parent: synchronous-event-delivery
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # Passing arguments to listeners
 

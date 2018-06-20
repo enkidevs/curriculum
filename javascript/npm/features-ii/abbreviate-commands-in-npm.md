@@ -17,6 +17,10 @@ standards:
 tags:
   - obscura
 
+aspects:
+  - obscura
+
+
 ---
 # Abbreviate commands in npm
 

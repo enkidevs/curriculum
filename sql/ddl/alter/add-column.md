@@ -34,6 +34,11 @@ links:
 
 parent: create-a-table
 
+aspects:
+  - workout
+  - deep
+
+
 ---
 
 # Add Column

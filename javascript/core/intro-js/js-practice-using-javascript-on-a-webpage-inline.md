@@ -18,7 +18,12 @@ standards:
   javascript.javascript-syntax.2: 10
 
 links:
-- '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/HTMLScriptElement){website}'
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/HTMLScriptElement){website}'
+
+aspects:
+  - introduction
+  - workout
+
 
 ---
 

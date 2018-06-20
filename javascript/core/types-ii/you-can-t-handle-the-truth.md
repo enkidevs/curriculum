@@ -23,6 +23,11 @@ standards:
 tags:
   - introduction
   - workout
+
+aspects:
+  - introduction
+  - workout
+
 ---
 
 # You can't handle the truth!

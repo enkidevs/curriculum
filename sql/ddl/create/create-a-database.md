@@ -30,6 +30,11 @@ links:
   - '[More about how to create a database](https://www.postgresql.org/docs/9.1/static/app-createdb.html){website}'
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # Create a Database

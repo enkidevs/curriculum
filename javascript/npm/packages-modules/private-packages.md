@@ -25,6 +25,12 @@ links:
 
 parent: packages-vs-modules
 
+aspects:
+  - workout
+  - deep
+  - new
+
+
 ---
 # Scoped packages
 

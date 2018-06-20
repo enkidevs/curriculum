@@ -32,6 +32,11 @@ links:
   - '[More on CREATE RULE](https://www.postgresql.org/docs/9.3/static/sql-createrule.html){website}'
 
 
+aspects:
+  - workout
+  - deep
+
+
 ---
 
 # Add Rule

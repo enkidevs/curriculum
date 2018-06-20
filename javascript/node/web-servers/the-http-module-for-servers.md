@@ -23,6 +23,11 @@ links:
 
 parent: requiring-and-exporting
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # The `http` module for servers
 

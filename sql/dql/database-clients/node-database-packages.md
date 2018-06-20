@@ -37,6 +37,10 @@ links:
   - '[pg video tutorial](https://www.youtube.com/watch?v=hzixG7gFTxY){website}'
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Node Database Packages

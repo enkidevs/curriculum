@@ -30,6 +30,11 @@ links:
   - '[video tutorial on creating tables](https://youtu.be/EaRj0S3K32Y?t=58s){video}'
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # Create a table

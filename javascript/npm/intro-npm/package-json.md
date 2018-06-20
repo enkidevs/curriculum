@@ -20,6 +20,10 @@ links:
 
 parent: setting-up-npm
 
+aspects:
+  - introduction
+
+
 ---
 # `package.json`
 

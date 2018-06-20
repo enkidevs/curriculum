@@ -30,6 +30,13 @@ tags:
 
 
 
+aspects:
+  - introduction
+  - workout
+  - deep
+  - obscura
+
+
 ---
 
 # Functions Are Objects

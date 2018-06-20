@@ -26,6 +26,10 @@ links:
 
 notes: Hope it's not too basics?
 
+aspects:
+  - introduction
+
+
 ---
 
 # Deleting properties

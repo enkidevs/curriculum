@@ -19,6 +19,10 @@ links:
 
 parent: executing-programs-with-node
 
+aspects:
+  - introduction
+
+
 ---
 # NPM, Node's Package Manager
 

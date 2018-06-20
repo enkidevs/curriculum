@@ -32,6 +32,11 @@ links:
 
 parent: avg-clause
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # INNER JOIN

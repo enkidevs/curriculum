@@ -28,6 +28,11 @@ links:
   - '[Microsoft SQL Data Types](https://docs.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql){website}'
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # SQL Numeric Data Types

@@ -29,6 +29,10 @@ tags:
 
   - introduction
 
+aspects:
+  - introduction
+
+
 ---
 
 # Adding directories to your `$PATH`

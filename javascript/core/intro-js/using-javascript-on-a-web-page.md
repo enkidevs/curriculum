@@ -16,6 +16,10 @@ standards:
 tags:
   - introduction
 
+aspects:
+  - introduction
+
+
 ---
 # Using JavaScript on a web page
 

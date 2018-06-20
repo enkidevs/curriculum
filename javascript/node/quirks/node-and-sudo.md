@@ -22,6 +22,13 @@ tags:
 
 notes: This insights is also based on security - should be on a security workout I guess.
 
+aspects:
+  - introduction
+  - workout
+  - obscura
+  - deep
+
+
 ---
 # Node and `sudo`
 

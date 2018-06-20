@@ -18,6 +18,11 @@ tags:
 links:
   - '[docs.npmjs.com](https://docs.npmjs.com/getting-started/what-is-npm){website}'
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # What is npm?
 

@@ -29,6 +29,11 @@ links:
   - '[Left outer join](https://en.wikipedia.org/wiki/Join_(SQL)#Left_outer_join){website}'
   - '[Right outer join](https://en.wikipedia.org/wiki/Join_(SQL)#Right_outer_join){website}'
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # LEFT And RIGHT JOINs

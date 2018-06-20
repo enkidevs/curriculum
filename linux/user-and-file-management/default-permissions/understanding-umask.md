@@ -27,6 +27,12 @@ tags:
 
   - deep
 
+aspects:
+  - obscura
+  - workout
+  - deep
+
+
 ---
 
 # Understanding `umask`

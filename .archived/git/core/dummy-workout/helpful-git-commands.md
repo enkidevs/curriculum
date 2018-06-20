@@ -14,6 +14,10 @@ tags:
   - obscura
   - deep
 
+aspects:
+  - obscura
+  - deep
+
 ---
 # Helpful Git Commands
 
@@ -38,3 +42,4 @@ Which of the following is not an actual git command?
 * git reflog
 * git request-pull
 * git merge-base
+ 

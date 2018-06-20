@@ -23,6 +23,12 @@ tags:
   - deep
   - new
 
+aspects:
+  - workout
+  - deep
+  - new
+
+
 ---
 # How npm3 handles dependencies
 

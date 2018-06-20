@@ -23,6 +23,10 @@ links:
   - '[Type detection tutorial](http://javascript.info/tutorial/type-detection){tutorial}'
 
 
+aspects:
+  - introduction
+
+
 ---
 
 # Be careful when using `typeof`.

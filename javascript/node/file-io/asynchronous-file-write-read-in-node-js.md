@@ -19,6 +19,11 @@ tags:
 links:
   - '[nodejs.org](https://nodejs.org/api/fs.html#fs_fs_readfile_file_options_callback){website}'
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # Asynchronous File Write/Read in Node.js
 

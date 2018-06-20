@@ -25,6 +25,11 @@ links:
   - '[www.tldp.org](http://www.tldp.org/LDP/GNU-Linux-Tools-Summary/html/x11655.htm){website}'
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # Matching Multiple Files With Wildcards

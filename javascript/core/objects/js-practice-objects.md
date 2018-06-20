@@ -30,6 +30,10 @@ links:
   - '[YouTube - "Object Oriented JavaScript](https://www.youtube.com/watch?v=O8wwnhdkPE4)'
   - '[MDN - "Working with Objects"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)'
   - '[MDN - "JavaScript object basics"](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)'
+
+aspects:
+  - introduction
+
 ---
 
 # JS Practice Objects

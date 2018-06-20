@@ -25,7 +25,13 @@ links:
 
   - '[MDN - Numbers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)'
   - '[YouTube - "Numbers - Beau teaches JavaScript"](https://www.youtube.com/watch?v=nBEBraDJkFg)'
+
   - '[Stack Overflow - JavaScript Numbers](https://stackoverflow.com/questions/7896199/javascript-numbers)'
+
+
+aspects:
+  - introduction
+
 ---
 
 # JS Practice Numbers

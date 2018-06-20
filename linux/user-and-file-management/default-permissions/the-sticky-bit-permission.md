@@ -26,6 +26,11 @@ tags:
 
 
 
+aspects:
+  - deep
+  - workout
+
+
 ---
 
 # The `sticky bit` permission

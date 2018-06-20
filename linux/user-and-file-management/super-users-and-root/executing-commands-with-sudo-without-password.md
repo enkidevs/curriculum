@@ -25,6 +25,10 @@ tags:
 
 notes: ''
 
+aspects:
+  - workout
+
+
 ---
 
 # Executing commands with `sudo` without password

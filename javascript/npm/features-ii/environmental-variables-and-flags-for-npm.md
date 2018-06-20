@@ -24,6 +24,11 @@ tags:
 links:
   - '[strongloop.com](https://strongloop.com/strongblog/3-neat-tricks-with-npm-run/){website}'
 
+aspects:
+  - workout
+  - deep
+
+
 ---
 # Flags for `npm`
 
