@@ -37,8 +37,11 @@ http://www.enkipro.com/
 path/filename.html
 ```
 
-Here's an example of using and not using the `<wbr>` element for an unusually long name for a town in northern Wales, England.
-The word is **Llanfairpwllgwyngyllgogerychwyrn drobwllllantysiliogogogoch**.
+Here's another example of adding a `<wbr>` element to a long word to tell the browser where to break in case it doesn't fit the screen.
+
+Lets take the unusually long name for a town in northern Wales, England.
+
+Name: **Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch**.
 
 Example with a `<wbr>` element between `Llanfairpwllgwyngyllgogerychwyrn` and `drobwllllantysiliogogogoch`:
 ```
@@ -46,10 +49,6 @@ Llanfairpwllgwyngyllgogerychwyrn
 drobwllllantysiliogogogoch
 ```
 
-Example without `<wbr>`
-```
-Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch
-```
 
 **Note: As to not get confused with the `<br>` element. The `<br>` elements always creates a line break, whereas the `<wbr>` only specifies the position where the line should break if it needs to.**
 
