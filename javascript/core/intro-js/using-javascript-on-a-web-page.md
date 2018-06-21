@@ -60,7 +60,7 @@ console.log("hello");
 
 This script can then be referenced with the src attribute of the script tag:
 
-```
+```html
 <script src="hello.js"><script>
 ```
 
