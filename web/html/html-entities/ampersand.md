@@ -69,11 +69,11 @@ What does the "&amp;" character entity display in this line of code?
 
 ???
 
-* &
-* *
-* '
-* ^
-* @
+* `&`
+* `*`
+* `'`
+* `^`
+* `@`
 
 ---
 ## Revision
@@ -82,11 +82,11 @@ What HTML character entity is used to insert an ampersand symbol ("&")?
 
 ???
 
-* &amp;
-* &&;
-* &current;
-* &;
-* &ampersand;
+* `&amp;`
+* `&&;`
+* `&current;`
+* `&;`
+* `&ampersand;`
 
 ---
 ## Quiz
@@ -97,8 +97,8 @@ If you have a webpage called “black&white”, what character entity is best to
 
 `<a href="?page=black???white&action=view">Link to B/W</a>`
 
-* &amp;
-* &
-* %20
-* &and
-* %a2
+* `&amp;`
+* `&`
+* `%20`
+* `&and`
+* `%a2`
