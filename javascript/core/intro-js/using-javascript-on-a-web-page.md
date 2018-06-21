@@ -1,4 +1,3 @@
-# Using JavaScript on a web page
 author: nem035
 
 levels:
