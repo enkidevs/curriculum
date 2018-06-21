@@ -12,6 +12,9 @@ category: must-know
 tags:
   - introduction
 
+aspects:
+  - introduction
+
 ---
 # Image Links
 ---
@@ -55,7 +58,7 @@ What is the correct HTML for creating a linked image?
 ---
 ## Quiz
 
-How much do you know about links and images?
+### How much do you know about links and images?
 
 ```
 <a href="http://www.site.com">
