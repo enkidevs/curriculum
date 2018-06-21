@@ -131,7 +131,7 @@ And in the third example, we have a `<samp>` element nested inside a `<kbd>` ele
 ---
 ## Practice
 
-Which statement is not true about using the `<kbd>` element?
+When using the `<kbd>` element, which statement is not true?
 
 ???
 
@@ -164,8 +164,6 @@ What HTML element wraps around keyboard names to display the text differently th
 What does the tag `<kbd>` do here?
 
 `<p>`Save the document by pressing the `<kbd>`Ctrl`</kbd>` + `<kbd>`S`</kbd>` keyboard shortcut.`</p>`
-
-???
 
 * Produces inline element representing user input.
 * Produces block element representing user input.
