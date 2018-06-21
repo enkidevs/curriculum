@@ -67,7 +67,8 @@ This script can then be referenced with the src attribute of the script tag:
 We can even reference scripts hosted on another server – it's common to do this when working with third party libraries:
 
 ```html
-<script src="http://www.enki.com/hello.js"></script>
+<script src="http://www.enki.com/hello.js">
+</script>
 ```
 
 ---
