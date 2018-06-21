@@ -23,9 +23,9 @@ standards:
 ---
 ## Content
 
-We can write our first Python program, and print Hello World to the console!
+We can write our first Python3 program, and print Hello World to the console!
 
-To do this, in our Python interpreter (REPL), we can use Python's print method as follows:
+To do this, in our Python3 interpreter (REPL), we can use Python's print function as follows:
 
 ```python
 >>> print('Hello World!')
@@ -44,9 +44,23 @@ This produces the following output:
 ```
 
 ---
+
+## Practice
+
+Update the following code snippet to be compatible with python3:
+
+```python
+print ???
+```
+
+* (Enki)
+* : Enki
+* Enki
+
+---
 ## Revision
 
-Complete the code snippet:
+Complete the code snippet with the correct function:
 
 ```
 ???('Python with Enki!')
