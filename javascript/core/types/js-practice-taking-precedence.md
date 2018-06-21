@@ -13,8 +13,8 @@ tags:
 
 type: exercise
 
-link: https://jsfiddle.net/elliehoward/wf31p4hq/
-linkType: jsfiddle
+link: https://www.codewars.com/kata/grasshopper-order-of-operations/train/javascript
+linkType: codewars
 standards:
   javascript.evaluate-expressions.5: 1000
   javascript.data-types-structures.2: 1000
@@ -32,6 +32,4 @@ links:
 ---
 ## Exercise
 
-Practice JavaScript equations and evaluations in JSFiddle.
-
-Make sure to submit the JSFiddle link, to show that you've completed the exercise.
+Practice JavaScript order of operations on codewars.

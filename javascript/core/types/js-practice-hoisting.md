@@ -13,8 +13,8 @@ tags:
 
 type: exercise
 
-link: https://jsfiddle.net/elliehoward/0jrhdL7e/
-linkType: jsfiddle
+link: http://www.codewars.com/kata/5504b15fd181b977c30001d5/train/javascript
+linkType: codewars
 standards:
 
 
@@ -30,6 +30,4 @@ links:
 ---
 ## Exercise
 
-Use best practice with hoisting in mind in the JSFiddle.
-
-Make sure to submit the JSFiddle link, to show that you've completed the exercise.
+Use best practice with Javascript's hoisting in mind on codewars.
