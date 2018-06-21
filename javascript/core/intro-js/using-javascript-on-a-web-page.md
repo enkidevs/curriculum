@@ -48,7 +48,7 @@ Another, on HTML elements directly:
 />
 ```
 
-Whilst these are valid approaches, both of them lead to HTML which is hard to maintain because it conflates how the page looks (which is presented using HTML) with how the page behaves based on user interactions and browser events (via JavaScript).
+Whilst these are valid approaches, both of them lead to HTML which is hard to maintain.
 
 Common approach is to separate our JavaScript code in another file.
 
