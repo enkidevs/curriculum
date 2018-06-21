@@ -9,8 +9,8 @@ levels:
 
 tags:
   - deep
- aspects:
 
+aspects:
   - workout
   - deep
 
