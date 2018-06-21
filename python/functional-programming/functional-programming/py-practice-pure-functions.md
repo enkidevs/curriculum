@@ -9,6 +9,10 @@ levels:
 
 tags:
   - deep
+ aspects:
+
+  - workout
+  - deep
 
 type: exercise
 
