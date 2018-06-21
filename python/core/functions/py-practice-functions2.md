@@ -2,15 +2,13 @@
 author: SebaRaba
 
 levels:
-
   - beginner
-
   - basic
 
 tags:
   - introduction
   - workout
-  
+
 aspects:
   - introduction
   - workout
@@ -23,7 +21,6 @@ linkType: codewars
 link: https://www.codewars.com/kata/sum-of-pairs
 
 standards:
-
   python.functions.0: 1000
   python.functions.1: 2000
   python.functions.2: 3000
