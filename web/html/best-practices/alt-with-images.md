@@ -23,31 +23,23 @@ aspects:
 ---
 ## Content
 
-The alt attribute exists to specify an alternate text for an image that cannot be displayed.
-It provides information to the user if for some reason they cannot view the image.
+The alt attribute exists for a few reasons: 
+
+* To help search engines understand the meaning of the image.
+* To display descriptive text in place of the image if the image cannot be loaded properly. 
+* Screen readers used by those with visual impairment will use this text to describe the image to the user. 
 
 Example:
 ```
-<!DOCTYPE html>
-<html>
-<body>
-
-<img src="brokenglass.gif"
-  alt="Broken glass">
-
-</body>
-</html>
+<img src="waterfall.jpg"
+  alt="Niagara Falls during Sunset">
 
 ```
-If the browser does not recognize the "brokenglass.gif" file, it will instead display what's in the alt property.
+If the "waterfall.jpg" image doesn't load properly, it will display a broken image icon using the alt text like this: 
 
-```
-Broken glass
-```
+##### --> INSERT IMAGE: alt-tag-broken-image.svg
 
-Like in the example above, the `alt` attribute should describe an image if that image contains information.
-
-However, if the image is only for decoration, then the `alt=""` can be left empty.
+Every image needs the alt tag to pass validation, but when the image is only for decoration, then the description can be left empty like this: `alt=""`
 
 ---
 ## Practice
@@ -55,7 +47,7 @@ However, if the image is only for decoration, then the `alt=""` can be left empt
 Is an empty alt attribute considered appropriate?
 
 ```
-<img src=”image.png” alt=””>
+<img src="image.png" alt="">
 ```
 
 ???
