@@ -1,5 +1,5 @@
-# HTML/CSS Code
-author: matthewleach
+---
+author: stefan.stojanovic
 
 levels:
   - beginner
@@ -13,20 +13,37 @@ tags:
   - introduction
 
 ---
+# HTML/CSS Code
+---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+**CSS** and **HTML** are the core languages used for creating web pages and web-based applications. 
+
+**HTML** creates the structure and content of a webpage, whereas **CSS** modifies the design and display.
+
+**HTML** is made up of content between tags; `<tag>Content here</tag>`. Whereas **CSS** is made of selectors followed by a declaration block; `selector {declaration block}`.
+
+HTML example:
+```
+<h2>
+  This is a heading
+</h2>
+<p> 
+  This is a paragraph
+</p>
+```
+
+CSS example:
+```
+p { color: red; }
+h2 { font-size: 24px; }
+```
+
+In the above **HTML** example, we create a heading and paragraph elements. Whereas in the **CSS** example, we set the **HTML** `<p>` elements content to the color `red`, and the font size of the `<h2>` elements content to 24 pixels.
+
 
 ---
 ## Practice
-
-Identify the following code languages: 
-
-`<p>I'm a style.</p>`     : ???
-`p { color: red; }`       : ???
-
-* HTML
-* CSS
 
 Identify the following code languages: 
 
@@ -50,9 +67,8 @@ CSS: ???
 ---
 ## Quiz 
 
-headline: How well can you identify HTML and CSS?
+### How well can you identify HTML and CSS?
 
-question: |
 What lines of code are HTML?
 
 1) `<p>I'm a style.</p>`  
@@ -60,10 +76,15 @@ What lines of code are HTML?
 3) `<img src="logo.jpg" alt="Enki Logo">` 
 4) `body {font-size: 100%;}` 
 
-answers: 
-- 1 & 3
-- 1, 3, 4
-- 1, 2, 3, 4
-- none
+???
+
+* 1 & 3
+* 1, 3, 4
+* 1, 2, 3, 4
+* 2, 4
+* 1, 2, 3
+* 4
+* 1
+* none
 
 
