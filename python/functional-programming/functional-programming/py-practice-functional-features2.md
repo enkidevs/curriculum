@@ -9,6 +9,10 @@ levels:
 
   - medium
 
+aspects:
+  - introduction
+  - workout
+  - deep
 
 type: exercise
 category: good practice
