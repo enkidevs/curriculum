@@ -1,4 +1,4 @@
-# Image Links
+---
 author: matthew-leach
 
 levels:
@@ -12,6 +12,8 @@ category: must-know
 tags:
   - introduction
 
+---
+# Image Links
 ---
 ## Content
 
