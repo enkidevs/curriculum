@@ -1,5 +1,5 @@
 ---
-author: alexjmackey
+author: nem035
 
 levels:
   - beginner
@@ -50,7 +50,7 @@ Another, on HTML elements directly:
 
 Whilst these are valid approaches, both of them lead to HTML which is hard to maintain.
 
-It is generally better to put our JavaScript code in another file.
+Common approach is to separate our JavaScript code in another file.
 
 We can put our code in a file called *hello.js* (note we remove the script tags when we put JavaScript in another file):
 
@@ -61,15 +61,14 @@ console.log("hello");
 This script can then be referenced with the src attribute of the script tag:
 
 ```html
-<script src="hello.js" />
+<script src="hello.js"><script>
 ```
 
 We can even reference scripts hosted on another server – it's common to do this when working with third party libraries:
 
 ```html
-<script
-  src="http://www.enki.com/hello.js"
-/>
+<script src="http://www.enki.com/hello.js">
+</script>
 ```
 
 ---
@@ -78,15 +77,16 @@ We can even reference scripts hosted on another server – it's common to do thi
 Complete the missing gaps in the following HTML snippet such that JavaScript code contained by an `enki.js` file will be ran via a script tag:
 
 ```html
-??? ???="???" ???
+??? ???="???" ??? ???
 ```
 
 * `<script`
 * src
 * enki.js
+* >
+* `</script>`
 * />
 * `<script />`
-* `</script>`
 * `<script>`
 
 ---
@@ -106,4 +106,4 @@ console.log("enki");
 * />
 * `<script`
 * src=
- 
+
