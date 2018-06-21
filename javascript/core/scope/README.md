@@ -11,4 +11,6 @@ insights:
   - closures
 
 game: think-you-know-javascript
- 
+
+exercises:
+  - js-practice-hoisting

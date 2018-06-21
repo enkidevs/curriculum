@@ -33,7 +33,7 @@ aspects:
 
 ---
 
-# Types - Hoisting
+# Scope - Hoisting
 
 ---
 ## Content
@@ -66,4 +66,3 @@ What does **hoisting** mean?
 * You must first declare variables before methods
 * A general rule for **linters**
 * You can have multiple variables with the same name
- 
