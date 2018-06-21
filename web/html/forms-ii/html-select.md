@@ -81,7 +81,7 @@ Example:
    <option
     value="onion">Onions
    </option>
-  </optgroup
+  </optgroup>
 </select>
 ```
 
@@ -133,6 +133,7 @@ Which form attribute is used to define groups of related option of a drop-down l
 * `option`
 * `selectitem`
 * `menuitem`
+
 ---
 ## Quiz
 
