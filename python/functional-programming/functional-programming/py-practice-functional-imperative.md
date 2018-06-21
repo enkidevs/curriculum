@@ -12,6 +12,9 @@ levels:
 type: exercise
 
 category: good practice
+aspects:
+  - introduction
+  - workout
 
 links:
 
