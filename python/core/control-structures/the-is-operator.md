@@ -1,6 +1,10 @@
 ---
 author: tommarshall
 
+tags:
+
+  - introduction
+
 levels:
 
   - beginner
@@ -29,7 +33,7 @@ links:
 
 Python's `is` operator is used to match instances of variables, instead of matching the values of variables like the `==` operator.
 
-`is` will evaluate to true if the variables on either side of the operator point to the same object, not the same value, and will evaluate to false if otherwise.
+`is` will evaluate to true if the variables on either side of the operator point to the same object, not just the same value, and will evaluate to false otherwise.
 
 For example:
 
@@ -79,5 +83,3 @@ numsX is numsY
 * False
 * True
 * Error
- 
- 

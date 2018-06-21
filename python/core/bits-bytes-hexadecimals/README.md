@@ -9,5 +9,5 @@ insights:
   - bytearray-objects
   - operations-with-bytes-and-bytearray
 
-exercies:
+exercises:
   - py-practice-binary-data

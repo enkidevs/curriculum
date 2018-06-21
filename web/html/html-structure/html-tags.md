@@ -78,8 +78,6 @@ How many tags are used in this code:
 * 2
 * 3
 * 4
-* 1
-* 6
 
 ---
 ## Revision

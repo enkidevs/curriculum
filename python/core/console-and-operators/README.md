@@ -1,4 +1,4 @@
-name: Console and Operators
+name: Python Syntax and Numerical Operators
 
 description: Get familiar with syntactic basis of python's console and common arithmetic operators.
 
@@ -8,7 +8,8 @@ insights:
   - more-complex-arithmetic-operators
   - execution-order-of-arithmetic-operators
   - simple-way-of-swapping-variables
-  - indentation-and-commenting
- 
+
 exercises:
+  - py-practice-arithmetic-operations
+  - py-practice-data-operations
   - py-practice-string-manip
