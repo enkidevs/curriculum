@@ -74,12 +74,13 @@ y = 2
     print((a + b) / 2)
 
 ???(???)
+mean(x, y)
 ```
 
 * def
 * mean
-* x, y
-* a, b
+* (x, y)
+* (a, b)
 
 
 
@@ -105,5 +106,4 @@ num = 5
 * `obj`
 * `var`
 * `function`
- 
  

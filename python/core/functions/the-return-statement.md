@@ -43,7 +43,7 @@ Gives the following output:
 Print!
 Return!
 ```
---- 
+---
 ## Practice
 
 Fill in the following method such that it will return the sum of `x` and `y`:
@@ -62,7 +62,7 @@ def sum():
 * return
 * sum
 * sum()
-* x 
+* x
 * y
 
 ---
@@ -77,5 +77,4 @@ Python’s return statement exits a function and passes back an ??? to the funct
 * sum
 * instance
 * function instance
- 
  
