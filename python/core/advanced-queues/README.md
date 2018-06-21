@@ -8,4 +8,6 @@ insights:
   - prioritize-your-queue
   - special-queue-methods
   - heap-priority-queue-in-python
- 
+
+exercises:
+  - py-practice-loops

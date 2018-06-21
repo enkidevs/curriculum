@@ -140,5 +140,3 @@ print(marks.keys())
 * dict_keys(['David', 'Amber', 'Steve', 'John', 'Amy'])
 * dict_keys(['Steve', 'John', 'Amy'])
 * dict_keys(['Amber', 'David', 'John'])
- 
- 

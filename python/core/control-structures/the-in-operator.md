@@ -1,6 +1,10 @@
 ---
 author: tommarshall
 
+tags:
+
+  - introduction
+
 levels:
 
   - beginner
@@ -18,6 +22,7 @@ standards:
 links:
 
   - '[Use cases](http://kracekumar.com/post/22512660850/python-in-operator-use-cases){website}'
+  - '[Sequence types](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range){website}'
 
 
 ---
@@ -27,17 +32,17 @@ links:
 ---
 ## Content
 
-Python's `in` operator is a *membership operator* and is used to check whether an object exists inside an iterable object container.
+Python's `in` operator is a *membership operator* and can be used to check whether an object exists inside a container of objects--for example, a list.
 
-It evaluates to true if it finds the specified variable in the sequence, and false if it doesn't.
+It evaluates to true if it finds the specified variable in the container, and false if it doesn't.
 
-An example of an iterable object container is a list. Here's an example of the `in` operator in use searching for a value in a list:
+Here's an example of the `in` operator searching for a value in a list:
 
 ```python
 x = 5
 nums = [1, 2, 3, 4]
 
-# membership operator check using in
+# membership operator check using *in*
 if x in nums:
     print('Found!')
 else:
@@ -46,16 +51,18 @@ else:
 
 ```
 
+Other iterable sequence types include tuples and strings. When the `in` keyword is used with a string, Python will check for any sequence of matching consecutive characters (called a substring). So, `'p' in 'poppy'` evaluates to true, and so does `'py' in 'poppy'`, but `'ppp' in 'poppy'` evaluates to false, because there is no matching consecutive sequence of characters.
+
 ---
 ## Practice
 
-Complete the following code snippet such that it checks the existance of `x` in the nums `sequence`:
+Complete the following code snippet to check for the existence of the `letter` 'p' in `my_string`, returning True is the string contains the letter p and False if it does not:
 
 ```python
-x = 12
-nums = [1, 2, 100, 11, 5]
+letter = 'p'
+my_string = 'stop, collaborate and listen'
 
-if x ??? nums:
+if letter ??? my_string:
     print(???)
 else:
     print(???)
@@ -76,7 +83,5 @@ The `in` operator evaluates to ??? if it finds the specified variable in the ???
 * true
 * sequence
 * false
-* list
+* tuple
 * map
- 
- 

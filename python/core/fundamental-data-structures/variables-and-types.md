@@ -1,6 +1,10 @@
 ---
 author: tommarshall
 
+tags:
+
+  - introduction
+
 levels:
 
   - beginner
@@ -22,9 +26,9 @@ standards:
 ## Content
 
 There are few things to keep in mind when talking about Python:
-- it is an entirely *object orientated* programming language
+- it is an entirely *object oriented* programming language
 - each variable is an *object*
-- variables and their types **don't** need to be declared before using them
+- variables and their types **don't** need to be declared before assigning them values
 
 To define a string (`str` type), you can either use single or double quotes:
 ```python
@@ -40,7 +44,7 @@ double = "I can use 'these' "
 
 It is most Pythonic[1] to use single quotes until you need double quotes.
 
-To define integers (keep in mind these are signed):
+To define integers (keep in mind these are signed, as in they are positive unless specified as negative):
 ```python
 int = 23
 int_2 = -3
@@ -52,29 +56,29 @@ long = 0122L
 ```
 Note that `long` and `int` are **unified** in Python 3.x and you do not need to worry about long integers anymore.  
 
-Floating point numbers are also easily defined:
+Floating point numbers:
 ```python
 float_value = 7.0
 ```
 
-Last, but not least, Python also provides support for complex numbers of the form `a + b*j`, where `a` and `b` are float numbers and `J` represents the square root of `-1`:
+Python also provides support for complex numbers of form `a + b*j`, where `a` and `b` are floats and `J` represents the square root of `-1`:
 ```python
 complex_value = 3 + 5J
 ```
 
-Using the built-in `type()` function we can find out what type a variable has:
+Using the built-in `type()` function, we can find out what type a variable is:
 ```python
 print(type(integer_2))
 # <type 'int'>
 
-print(type(complex))
+print(type(complex_value))
 # <type 'complex'>
 ```
 
 ---
 ## Practice
 
-Fill in the output given by calling the `type()` function on the following variable types:
+Fill in the output given by calling the `type()` function on the following variables:
 ```python
 a = -8.9
 print(type(a))
@@ -102,7 +106,8 @@ print(type(c))
 ---
 ## Revision
 
-Do you know what type do the following variable have?
+Fill in the types of the following variables:
+
 ```python
 b = 100J
 print(type(b))
@@ -121,5 +126,3 @@ print(type(c))
 * `int`
 * `integer`
 * `floating`
- 
- 
