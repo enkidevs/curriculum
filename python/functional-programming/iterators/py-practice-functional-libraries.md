@@ -11,6 +11,9 @@ tags:
   - introduction
 
 type: exercise
+aspects:
+  - introduction
+  - workout
 
 linkType: codewars
 
