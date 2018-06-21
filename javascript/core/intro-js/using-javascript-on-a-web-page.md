@@ -1,5 +1,5 @@
----
-author: alexjmackey
+# Using JavaScript on a web page
+author: nem035
 
 levels:
   - beginner
@@ -48,9 +48,9 @@ Another, on HTML elements directly:
 />
 ```
 
-Whilst these are valid approaches, both of them lead to HTML which is hard to maintain.
+Whilst these are valid approaches, both of them lead to HTML which is hard to maintain because it conflates how the page looks (which is presented using HTML) with how the page behaves based on user interactions and browser events (via JavaScript).
 
-It is generally better to put our JavaScript code in another file.
+Common approach is to separate our JavaScript code in another file.
 
 We can put our code in a file called *hello.js* (note we remove the script tags when we put JavaScript in another file):
 
@@ -60,8 +60,8 @@ console.log("hello");
 
 This script can then be referenced with the src attribute of the script tag:
 
-```html
-<script src="hello.js" />
+```
+<script src="hello.js"><script>
 ```
 
 We can even reference scripts hosted on another server – it's common to do this when working with third party libraries:
@@ -78,15 +78,16 @@ We can even reference scripts hosted on another server – it's common to do thi
 Complete the missing gaps in the following HTML snippet such that JavaScript code contained by an `enki.js` file will be ran via a script tag:
 
 ```html
-??? ???="???" ???
+??? ???="???" ??? ???
 ```
 
 * `<script`
 * src
 * enki.js
+* >
+* `</script>`
 * />
 * `<script />`
-* `</script>`
 * `<script>`
 
 ---
@@ -106,4 +107,4 @@ console.log("enki");
 * />
 * `<script`
 * src=
- 
+
