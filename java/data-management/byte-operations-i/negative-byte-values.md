@@ -1,4 +1,4 @@
-# Negative `byte` values
+---
 author: pawel
 
 levels:
@@ -19,7 +19,13 @@ tags:
 
   - binary-convertion
 
+
+
 notes: 'Gamified Insight, static workout'
+
+---
+
+# Negative `byte` values
 
 ---
 ## Content
@@ -34,4 +40,6 @@ byte b = (byte)next;
 if (b == é) { ... }
 ```
 
-This test is *never* true even if `next` was equal to the Unicode value for the `é` character. That unicode happens to be 233 which is not in a "safe" range (1-127)
+This test is *never* true even if `next` was equal to the Unicode value for the `é` character. That Unicode happens to be 233 which is not in a "safe" range (1-127)
+
+ 

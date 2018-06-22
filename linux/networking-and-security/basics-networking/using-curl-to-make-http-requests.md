@@ -1,4 +1,4 @@
-# Using `curl` To Make HTTP Requests
+---
 author: jfarmer
 
 levels:
@@ -9,15 +9,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [More use
-    cases](http://www.thegeekstuff.com/2012/04/curl-examples/){website}
+  - '[More use cases](http://www.thegeekstuff.com/2012/04/curl-examples/){website}'
+
+
+---
+
+# Using `curl` To Make HTTP Requests
 
 ---
 ## Content
@@ -26,7 +30,7 @@ Virtually every Unix system comes with the `curl` command pre-installed.  `curl`
 
 Here's a quick example:
 
-```console
+```shell
 $ curl http://google.com
 <HTML><HEAD>
 <TITLE>301 Moved</TITLE></HEAD><BODY>
@@ -45,7 +49,7 @@ If we ask `curl` to fetch something other than text it will still try to print o
 
 There are two main ways to save the output from curl: using `>` redirection or using the `-o` option.
 
-```console
+```shell
 $ curl http://foo.com/bar.mp3 > song.mp3
 $ curl -o song.mp3 http://foo.com/bar.mp3
 ```
@@ -61,8 +65,11 @@ $ ??? ??? ???
          https://catpictures.com/cat1.jpg
 ```
 
-*`curl`
-*`-o`
-*`cat.jpg`
-*`-O`
-*`-d`
+
+* `curl`
+* `-o`
+* `cat.jpg`
+* `-O`
+* `-d`
+
+ 

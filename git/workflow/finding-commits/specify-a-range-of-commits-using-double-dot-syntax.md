@@ -1,4 +1,4 @@
-# Specify a range of commits using double dot syntax
+---
 author: rosielowther
 
 levels:
@@ -9,10 +9,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Revision-Selection){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Revision-Selection){website}'
+
+
+---
+
+# Specify a range of commits using double dot syntax
 
 ---
 ## Content
@@ -39,12 +44,13 @@ In order to see the commits that are on `awesomeFeature` branch but not on `mast
 $ git ???
       ??? ??? ???
 ```
-*`log`
-*`master`
-*`..`
-*`awesomeFeature`
-*`.`
-*`test`
+
+* `log`
+* `master`
+* `..`
+* `awesomeFeature`
+* `.`
+* `test`
 
 ---
 ## Revision
@@ -53,8 +59,11 @@ $ git ???
 $ git log origin/master..HEAD
 ```
 shows ??? that are on the ??? branch, but not on ??? .
-*commits
-*current
-*master
-*main
-*snippets
+
+* commits
+* current
+* master
+* main
+* snippets
+
+ 

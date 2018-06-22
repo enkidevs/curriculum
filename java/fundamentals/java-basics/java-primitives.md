@@ -1,4 +1,4 @@
-# Java Primitives
+---
 author: mihaiberq
 
 levels:
@@ -7,9 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# Java Primitives
 
 ---
 ## Content
@@ -18,7 +25,7 @@ In Java, **primitives** are the most basic data types. To be able to use a varia
 ```java
 int myIntVariable = 3;
 ```
-This tells the program that a field name `myIntVariable` exists, is of type `int` and has an intial value of `3`. As you might have guessed already, `int` is a primitive type.
+This line tells the program that a field name `myIntVariable` exists, is of type `int` and has an initial value of `3`. As you might have guessed already, `int` is a primitive type.
 
 By type of data held, some of the other existing primitives are:
  - Numerical
@@ -54,7 +61,9 @@ float myFloat = 3.75f;
 
 The default type of `5.30` is ???
 
+
 * double
 * float
 * int
 * long
+ 

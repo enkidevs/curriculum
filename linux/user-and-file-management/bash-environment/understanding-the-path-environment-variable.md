@@ -1,4 +1,4 @@
-# Understanding The `PATH` Environment Variable
+---
 author: jfarmer
 
 levels:
@@ -9,12 +9,25 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 tags:
+
   - introduction
+
+
+
+
+aspects:
+  - introduction
+
+
+---
+
+# Understanding The `PATH` Environment Variable
+
 ---
 ## Content
 
@@ -26,7 +39,7 @@ The `PATH` variable itself contains a `:`-delimited list of directories.
 
 See for yourself:
 
-```console
+```shell
 jesse@host ~ $ echo $PATH
 /usr/local/bin:/usr/bin:/bin
 jesse@host ~ $
@@ -65,6 +78,7 @@ In what order will the shell visit the folders in `PATH` to find a valid executa
 ???
 
 ???
+
 * /usr/bin
 * /bin
 * /local/binaries
@@ -77,27 +91,30 @@ In what order will the shell visit the folders in `PATH` to find a valid executa
 The `command not found` error is thrown if the executable couldn’t be found
 
 ???
+
 * in the list of folders contained in the PATH variable.
 * anywhere on the system.
 * in the local folder.
 * in the list of folders contained in the EXE variable.
 
 ---
-## Quiz
+## Quiz 
+### Do you know how the $PATH variable is evaluated?
 
-headline: Do you know how the $PATH variable is evaluated?
+Suppose your $PATH value is:
 
-question: |
-  Suppose your $PATH value is:
-  ```
-  $ echo $PATH
-  /bin:/usr/bin:~/Desktop/rm-ext:~/atom
-  ```
-  What is the next directory the shell will look
-  for an executable if no match was found in `/bin`?
+```bash
+$ echo $PATH
+/bin:/usr/bin:~/Desktop/rm-ext:~/atom
+```
+What is the next directory the shell will look
+for an executable if no match was found in `/bin`?
 
-answers:
-  - /usr/bin
-  - none, as /bin is already the last one
-  - ~/atom
-  - ~/Desktop/rm-ext
+
+ ???
+
+* /usr/bin
+* none, as /bin is already the last one
+* ~/atom
+* ~/Desktop/rm-ext
+ 

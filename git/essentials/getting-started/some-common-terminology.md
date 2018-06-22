@@ -1,4 +1,4 @@
-# Some common terminology
+---
 author: catalin
 
 levels:
@@ -7,19 +7,24 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [help.github.com](https://help.github.com/articles/github-glossary/){website}
+  - '[help.github.com](https://help.github.com/articles/github-glossary/){website}'
+
+
+---
+
+# Some common terminology
 
 ---
 ## Content
 
-It's of upmost importance to understand the common terminology in **Git** in order to fully grasp how it works.
+It's of utmost importance to understand the standard terminology in **Git** in order to adequately grasp how it works.
 
 This terminology includes the following terms:
 
@@ -33,7 +38,7 @@ You can *create* a branch, work on it, *switch* between branches and *merge* cha
 A `revision` is a different version of the repository.
 ### Commit
 
-When you want to save your work in a repository you `commit` the changes (the contents of the **working tree**). This will create a special commit object that uniquely identifies a new revision of the content in that repository.
+When you want to save your work in a repository you `commit` the changes (the contents of the **working tree**). This will create a unique commit object that uniquely identifies a new revision of the content in that repository.
 
 ### HEAD
 
@@ -58,19 +63,10 @@ What other name does the **staging area** have?
 
 ???
 
-*index
-*HEAD
-*tag
-*stage
 
----
-## Revision
+* index
+* HEAD
+* tag
+* stage
 
-What is the **HEAD** ?
-
-???
-
-* A reference to the last commit of the current branch
-* A different version of the repository
-* The place where the work is stored until a commit is made
-* A pointer to o specific commit
+ 

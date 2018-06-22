@@ -1,19 +1,23 @@
-# Automatic compilation for Node with **Nodemon**
+---
 author: catalin
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal
 
 category: hack
 
-links:
+standards:
+  javascript.node-developer-environment.5: 20
+  javascript.use-modules.2: 20
 
+links:
   - '[github.com](https://github.com/remy/nodemon){website}'
+
+---
+# Automatic compilation for Node with **Nodemon**
 
 ---
 ## Content
@@ -52,11 +56,11 @@ Which flag must be used to enable debugging?
 
 ???
 
-*`--debug`
-*`debug`
-*`-debug`
-*`debugging`
-*`--debugger`
+* --debug
+* debug
+* -debug
+* debugging
+* --debugger
 
 ---
 ## Revision
@@ -65,8 +69,9 @@ Which flag must be used to enable debugging?
 
 ???
 
-*`--debug`
-*`debug`
-*`-debug`
-*`debugging`
-*`--debugger`
+* --debug
+* debug
+* -debug
+* debugging
+* --debugger
+ 

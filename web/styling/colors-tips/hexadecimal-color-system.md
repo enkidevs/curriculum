@@ -1,4 +1,4 @@
-# Hexadecimal color system
+---
 author: oj14henry
 
 levels:
@@ -17,10 +17,15 @@ tags:
 
   - colour
 
+
 links:
 
-  - >-
-    [www.codecademy.com](https://www.codecademy.com/courses/web-beginner-en-TlhFi/2/2?curriculum_id=50579fb998b470000202dc8b){website}
+  - '[www.codecademy.com](https://www.codecademy.com/courses/web-beginner-en-TlhFi/2/2?curriculum_id=50579fb998b470000202dc8b){website}'
+
+
+---
+
+# Hexadecimal color system
 
 ---
 ## Content
@@ -45,12 +50,13 @@ Hexadecimal runs from `0` to `F`
 
 Hexadecimal numbers run from 0 to ???, and from A to ???.
 
-*`9`
-*`F`
-*`10`
-*`1`
-*`G`
-*`Z`
+
+* `9`
+* `F`
+* `10`
+* `1`
+* `G`
+* `Z`
 
 ---
 ## Revision
@@ -58,6 +64,8 @@ Hexadecimal numbers run from 0 to ???, and from A to ???.
 Which of these hexadecimal colors are not the same?
 
 ???
+
 * #FFFFF and #FFF
 * #FFF and #FFFFFF
 * #FFC125 and #ffc125
+

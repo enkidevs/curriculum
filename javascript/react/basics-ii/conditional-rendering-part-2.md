@@ -1,4 +1,4 @@
-# Conditional Rendering (Part 2)
+---
 author: catalin
 
 levels:
@@ -15,11 +15,16 @@ type: normal
 
 category: how to
 
-parent: conditional-rendering-part-1
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/conditional-rendering.html)'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/conditional-rendering.html){website}'
+
+parent: conditional-rendering-part-1
+
+---
+
+# Conditional Rendering (Part 2)
 
 ---
 ## Content
@@ -82,6 +87,7 @@ ReactDOM.render(
 );
 ```
 
+
 * `!props.x`
 * `&&`
 * `</div>`
@@ -118,7 +124,10 @@ ReactDOM.render(
 
 ???
 
+
 * Yes
 * No
 * Error raised
 * Null
+
+ 

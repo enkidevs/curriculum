@@ -1,4 +1,4 @@
-# Count non-empty lines with `nl` utility
+---
 author: tuwi.dc
 
 levels:
@@ -24,6 +24,13 @@ tags:
   - lines
 
   - nl
+
+
+
+
+---
+
+# Count non-empty lines with `nl` utility
 
 ---
 ## Content
@@ -61,7 +68,10 @@ In the terminal, add numbering before a file’s content (counting only non-empt
 ```
 $ cat enki.txt | ???
 ```
-*`nl`
-*`n1`
-*`echo`
-*`num`
+
+* `nl`
+* `n1`
+* `echo`
+* `num`
+
+ 

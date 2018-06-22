@@ -1,4 +1,4 @@
-# Polymorphism
+---
 author: mihaiberq
 
 levels:
@@ -7,9 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# Polymorphism
 
 ---
 ## Content
@@ -86,6 +93,7 @@ FamilyCar fCar = new FamilyCar(
 fCar.start();
 // ???
 ```
+
 * The 5 seat car starts!
 * The car starts!
 * The turbocharged car starts!
@@ -96,39 +104,41 @@ fCar.start();
 
 Polymorphism refers to the ability of an object to ???
 
+
 * have multiple forms.
 * inherit the parent's properties.
 * extend the parent's forms.
 
 ---
-## Quiz
+## Quiz 
+### What will this output?
 
-headline: What will this output?
+```java
+class Main {
+  private final String name;
+    Main(String name) {
+        this.name = name;
+    }
+    private String name() {
+        return name;
+    }
+    private void say() {
+        new Main("Stinky") {
+            void printName() {
+                System.out.println(name());
+            }
+        }.printName();
+    }
+    public static void main(String[] args) {
+        new Main("Lessy").say();
+    }
+}
+```
 
-question: |
-  class Main {
-    private final String name;
-      Main(String name) {
-          this.name = name;
-      }
-      private String name() {
-          return name;
-      }
-      private void say() {
-          new Main("Stinky") {
-              void printName() {
-                  System.out.println(name());
-              }
-          }.printName();
-      }
-      public static void main(String[] args) {
-          new Main("Lessy").say();
-      }
-  }
+ ???
 
-
-answers:
-  - Lessy
-  - Stinky
-  - "Error: name() has private access"
-  - "Error: cannot find symbol name()"
+* Lessy
+* Stinky
+* Error: name() has private access
+* Error: cannot find symbol name()
+ 

@@ -1,57 +1,51 @@
-# FileReader.readAsArrayBuffer()
+---
 author: tommarshall
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
 
 category: must-know
 
-tags:
-
-  - ''
-
 links:
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsArrayBuffer){website}'
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays){website}'
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsArrayBuffer){website}
-
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays){website}
+---
+# FileReader.readAsArrayBuffer()
 
 ---
 ## Content
 
-The `readAsArrayBuffer();` will read a *file* or *blob* object and produce an *ArrayBuffer*. 
+The `readAsArrayBuffer()` method will read a *file* or *blob* object and produce an *ArrayBuffer*.
 
-You cannot work with the data contained in  *ArrayBuffers* directly but must user either a *typed array* or *DataView* object.
+You cannot work with the data contained in *ArrayBuffers* directly, but can access it via a `DataView` object. The buffer and the view make together a **typed array**.
 
-
-ArrayBuffers can be used to work with raw data containing complex types, convert file formats and when working with the XmlHttpRequest object and binary data.
+ArrayBuffers can be used to work with raw data containing complex types, convert file formats and when working with the `XmlHttpRequest` object and binary data.
 
 Declaring a new File Reader instance.
-```JavaScript
+
+```javascript
 var reader = new FileReader();
 ```
+
 Reading data as an array buffer and assign it to an array of 8 bit unsigned integers.
-``` JavaScript
+
+```javascript
 reader.onload = function(e) {
-  var chars  = 
-  new Uint8Array(reader.result);
+  var chars  =
+    new Uint8Array(reader.result);
 }
 reader.readAsArrayBuffer(file);
 ```
 
 ---
-## Revision
+## Practice
 
-Complete the following JS code snippet declaring a new file reader instance and reading data from a file as an array buffer: 
+Complete the following code snippet such that the `file` object is read as an array buffer?
 
 ```javascript
 var reader = new ???();
@@ -65,3 +59,21 @@ reader.???(file);
 * read
 * interpret
 * readAsArray
+
+---
+## Revision
+
+Which method of the `FileReader` class can be used to read data as an array buffer?
+
+```javascript
+const reader = new FileReader()
+reader.???()
+```
+
+* readAsArrayBuffer
+* readAsBuffer
+* readTypedArray
+* readArray
+* readBuffer
+
+ 

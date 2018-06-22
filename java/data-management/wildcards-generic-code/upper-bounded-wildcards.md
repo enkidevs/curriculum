@@ -1,4 +1,4 @@
-# Upper bounded wildcards
+---
 author: adamMontgomerie
 
 levels:
@@ -23,10 +23,15 @@ tags:
 
   - bounded-wildcars
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/upperBounded.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/upperBounded.html){website}'
+
+
+---
+
+# Upper bounded wildcards
 
 ---
 ## Content
@@ -43,3 +48,5 @@ public void method(
 }
 ```
 This method will now be able to accept lists of any type that is a subclass of `Number`.
+
+ 

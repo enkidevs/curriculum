@@ -1,12 +1,6 @@
 name: Is Your Python Healthy?
 
-type: insights-list
-
 description: Learn about error handling and debugging.
-
-section: 1
-
-parent: utilities-ii
 
 insights:
   - errors-and-execeptions
@@ -14,3 +8,8 @@ insights:
   - built-in-exceptions
   - debugging-with-print
   - python-debugger
+
+exercises:
+  - py-practice-control-statement
+  - py-practice-syntax
+ 

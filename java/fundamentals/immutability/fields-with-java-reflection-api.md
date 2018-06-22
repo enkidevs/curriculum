@@ -1,4 +1,4 @@
-# Fields with Java **Reflection API**
+---
 author: catalin
 
 levels:
@@ -11,12 +11,16 @@ type: normal
 
 category: feature
 
-notes: 'https://insights.enki.com/#/contrib/55ae3539d457944f00962ca4'
 
 links:
 
-  - >-
-    [www.java-tips.org](http://www.java-tips.org/java-lang/2513-how-to-set-field-values-using-java-reflection.html){website}
+  - '[www.java-tips.org](http://www.java-tips.org/java-lang/2513-how-to-set-field-values-using-java-reflection.html){website}'
+
+notes: 'https://insights.enki.com/#/contrib/55ae3539d457944f00962ca4'
+
+---
+
+# Fields with Java **Reflection API**
 
 ---
 ## Content
@@ -61,9 +65,10 @@ Complete the following code snippet to set the value of the field to 10:
 ```
 intField.???(myObj, 10);
 ```
-*`setInt` 
-*`set` 
-*`setField`
+
+* `setInt` 
+* `set` 
+* `setField`
 
 ---
 ## Revision
@@ -74,8 +79,11 @@ Field intField =
   ???.getClass()
           .???("Enki");
 ```
-*`myObj` 
-*`getField` 
-*`field` 
-*`setField` 
-*`find`
+
+* `myObj` 
+* `getField` 
+* `field` 
+* `setField` 
+* `find`
+
+ 

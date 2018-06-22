@@ -1,4 +1,4 @@
-# Delete all untracked files
+---
 author: rosielowther
 
 levels:
@@ -13,9 +13,15 @@ type: normal
 
 category: feature
 
+
 links:
 
   - '[git-scm.com](https://git-scm.com/docs/git-clean){website}'
+
+
+---
+
+# Delete all untracked files
 
 ---
 ## Content
@@ -46,6 +52,7 @@ Remove the untracked files in your current directory :
 ```
 $ git ??? ???
 ```
+
 * `clean`
 * `-f`
 * `-m`
@@ -59,8 +66,11 @@ Remove the untracked directories in your local repository :
 ```
 $ git ??? -f ???
 ```
+
 * `clean`
 * `-d`
 * `-m`
 * `rm`
 * `delete`
+
+ 

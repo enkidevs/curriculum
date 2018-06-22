@@ -1,4 +1,4 @@
-# Getting the connection speed from the terminal
+---
 author: tuwi.dc
 
 levels:
@@ -25,9 +25,15 @@ tags:
 
   - speed
 
+
 links:
 
   - '[github.com](https://github.com/sivel/speedtest-cli){website}'
+
+
+---
+
+# Getting the connection speed from the terminal
 
 ---
 ## Content
@@ -59,7 +65,10 @@ Upload: 5.18 Mbit/s
 A tool to test your internet connection using the terminal is 
 
 ???.
-*speedtest-cli
-*internetspeed-cli
-*internetTest-cli
-*testspeed-cli
+
+* speedtest-cli
+* internetspeed-cli
+* internetTest-cli
+* testspeed-cli
+
+ 

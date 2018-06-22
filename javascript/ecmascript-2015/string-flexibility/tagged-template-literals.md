@@ -1,4 +1,4 @@
-# Template Strings
+---
 author: lizTheDeveloper
 
 levels:
@@ -8,6 +8,10 @@ levels:
   - advanced
 
 type: normal
+
+category: feature
+
+inAlgoPool: false
 
 tags:
 
@@ -21,13 +25,21 @@ tags:
 
   - es6
 
-inAlgoPool: false
-
-category: feature
 
 links:
 
-  - '[Learn more about Template Strings on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){website}'
+
+
+aspects:
+  - new
+  - workout
+  - introduction
+
+
+---
+
+# Template Strings
 
 ---
 ## Content
@@ -87,6 +99,7 @@ let who = "Scotty";
 let line = `??? me up ???!`;
 
 ```
+
 * `${what}`
 * `${who}`
 * `#{who}`
@@ -110,6 +123,7 @@ let attr2 = "Foolish";
 let line = `Stay ??? Stay ???`;
 
 ```
+
 * `${attr}`
 * `${attr2}`
 * `#{attr}`
@@ -120,3 +134,5 @@ let line = `Stay ??? Stay ???`;
 * `%s`
 * `$(attr2)`
 * `#(attr2)`
+
+ 

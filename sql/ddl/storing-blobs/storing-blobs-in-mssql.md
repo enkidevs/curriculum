@@ -1,4 +1,4 @@
-# Handling Blobs in SQL
+---
 author: mihaiberq
 
 levels:
@@ -11,10 +11,26 @@ type: normal
 
 category: how to
 
+standards:
+  sql.choose-sql-datatype.2: 10
+
 tags:
+
+  - introduction
+
+  - workout
+
+  - deep
+
+aspects:
   - introduction
   - workout
   - deep
+
+
+---
+
+# Handling Blobs in SQL
 
 ---
 ## Content
@@ -22,14 +38,14 @@ tags:
 Similar to MySQL, MSSQL uses `varbinary(n)` to store raw bytes. The maximum number of bytes is `4 + 2^32` (4.2 GB).
 
 Creating a table is easy:
-```SQL
+```sql
 CREATE TABLE sprite(
   id bigint NOT NULL PRIMARY KEY,
   pokemon varbinary(MAX)
 );
 ```
 However, data insertion is done quite differently:
-```SQL
+```sql
 INSERT INTO sprite
 VALUES((SELECT *
 FROM OPENROWSET (BULK 'pikachu.png',
@@ -40,12 +56,13 @@ FROM OPENROWSET (BULK 'pikachu.png',
 ## Practice
 
 In SQL Server, insert a BLOB into `image` column:
-```SQL
+```sql
 ??? ??? sprite(image)
 VALUES((???
 FROM ???(??? ???,
   SINGLE_BLOB)) ??? data);
 ```
+
 * `INSERT`
 * `INTO`
 * `SELECT *`
@@ -56,16 +73,21 @@ FROM ???(??? ???,
 
 ---
 ## Revision
+
 In SQL Server, insert a BLOB into `image` column:
-```SQL
+```sql
 ??? ??? sprite(image)
 VALUES((???
 FROM OPENROWSET(??? 'pikachu.jpg',
   ???)) ??? data);
 ```
+
 * `INSERT`
 * `INTO`
 * `SELECT *`
 * `BULK`
 * `SINGLE_BLOB`
 * `AS`
+
+ 
+ 

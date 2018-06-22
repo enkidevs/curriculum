@@ -1,4 +1,4 @@
-# Node Database Packages
+---
 author: Nick Daminov
 
 levels:
@@ -13,19 +13,37 @@ category: feature
 
 inAlgoPool: false
 
+standards:
+  sql.connect-client.0: 10
+  sql.connect-client.1: 10
+
 tags:
-  - introduction
+
   - workout
+
   - node
+
   - javascript
+
   - implementation
+
   - database packages
+
 
 links:
 
-  - '[Node database packages](https://www.npmjs.com/browse/keyword/database)'
-  - '[pg node package](https://www.npmjs.com/package/pg)'
-  - '[pg video tutorial](https://www.youtube.com/watch?v=hzixG7gFTxY)'
+  - '[Node database packages](https://www.npmjs.com/browse/keyword/database){website}'
+  - '[pg node package](https://www.npmjs.com/package/pg){website}'
+  - '[pg video tutorial](https://www.youtube.com/watch?v=hzixG7gFTxY){website}'
+
+
+aspects:
+  - workout
+
+
+---
+
+# Node Database Packages
 
 ---
 ## Content
@@ -36,7 +54,7 @@ Node is another popular platform (available as a course for premium users) which
  - pg (for postgres)
 
 We will create a node app and use a `pg` package in order to connect to a *Pokemon* database and output the results to the console:
-```
+```js
 //require the correct package
 var pg = require("pg");
 //use a correct connection string
@@ -67,7 +85,7 @@ client.connect((err)=> {
 });
 ```
 The result of the following code should be similar to:
-```
+```js
 [ anonymous { id: '1', name: 'black' },
   anonymous { id: '2', name: 'blue' },
   anonymous { id: '3', name: 'brown' },
@@ -89,6 +107,7 @@ Considering `var conString ="pg://ashketchum:iwannabetheverybest@aws-us-east-1-p
 ???://???:???
 @???:???/???
 
+
 * pg
 * username
 * password
@@ -102,6 +121,9 @@ Considering `var conString ="pg://ashketchum:iwannabetheverybest@aws-us-east-1-p
 What package is used in order to connect to a Postgres database in nodeJS?
 ???
 
+
 * pg
 * mongoose
 * sqlite3
+ 
+ 

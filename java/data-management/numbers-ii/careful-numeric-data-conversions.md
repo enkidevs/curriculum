@@ -1,4 +1,4 @@
-# Careful Numeric Data Conversions
+---
 author: tommarshall
 
 levels:
@@ -10,6 +10,13 @@ levels:
 type: normal
 
 category: tip
+
+
+
+
+---
+
+# Careful Numeric Data Conversions
 
 ---
 ## Content
@@ -41,25 +48,28 @@ public static void convert(int i) {
 ```
 
 ---
-## Quiz
+## Quiz 
+### Can you identify how type conversion works in the following example?
 
-headline: Can you identify how type conversion works in the following example?
 
-question: |
-  // What is the output of the following snippet?
-  ```
-  public class Main {
-    public static void main(String[] args) {
-        char x = 'a';
-        int i = 1;
-        System.out.print(true  ? x : 1);
-        System.out.print(false ? i : x);
-    }
+What is the output of the following snippet?
+
+```java
+public class Main {
+  public static void main(String[] args) {
+      char x = 'a';
+      int i = 1;
+      System.out.print(true  ? x : 1);
+      System.out.print(false ? i : x);
   }
-  ```
+}
+```
 
-answers:
-  - a97
-  - aa
-  - true
-  - false
+
+ ???
+
+* a97
+* aa
+* true
+* false
+ 

@@ -1,4 +1,4 @@
-# `null` value for *Controlled Components* in **React**
+---
 author: catalin
 
 levels:
@@ -11,7 +11,13 @@ type: normal
 
 category: best practice
 
+
+
 parent: custom-proptype-s-to-be-required
+
+---
+
+# `null` value for *Controlled Components* in **React**
 
 ---
 ## Content
@@ -45,6 +51,7 @@ Is this a controlled or uncontrolled <input>? ???
 ReactDOM.render(<input value="Enki!" />,
                 node)
 ```
+
 * Controlled
 * Uncontrolled
 
@@ -57,7 +64,10 @@ ReactDOM.render(<input
   value={???} />, node);
 ```
 
-*`null`
-*`uncontrolled`
-*`0`
-*`NaN`
+
+* `null`
+* `uncontrolled`
+* `0`
+* `NaN`
+
+ 

@@ -1,12 +1,6 @@
 name: Binary Search Tree 
 
-type: insights-list
-
 description: The famous binary search tree explained.
-
-section: 1
-
-parent: algorithms-i
 
 insights:
    - the-binary-search-tree-data-structure
@@ -14,3 +8,6 @@ insights:
    - inserting-data-into-a-binary-search-tree
    - removing-keys-from-a-binary-search-tree
    - balanced-vs-unbalanced-binary-trees
+
+game: oh-that-was-the-answer
+ 

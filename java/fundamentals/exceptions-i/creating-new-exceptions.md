@@ -1,4 +1,4 @@
-# Creating new Exceptions
+---
 author: adamMontgomerie
 
 levels:
@@ -13,13 +13,16 @@ tags:
 
   - exceptions
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/exceptions/creating.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/exceptions/creating.html){website}'
+  - '[stackoverflow.com](http://stackoverflow.com/questions/3776327/how-to-define-custom-exception-class-in-java-the-easiest-way){website}'
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/3776327/how-to-define-custom-exception-class-in-java-the-easiest-way){website}
+
+---
+
+# Creating new Exceptions
 
 ---
 ## Content
@@ -38,3 +41,5 @@ public class NewException
 }
 ```
 New exceptions should only be created when necessary, as there is a variety of standard exceptions which can be used instead.
+
+ 

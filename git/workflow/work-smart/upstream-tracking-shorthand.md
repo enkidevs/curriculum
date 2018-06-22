@@ -1,4 +1,4 @@
-# Upstream (tracking) shorthand
+---
 author: rosielowther
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: hack
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}'
+
+
+---
+
+# Upstream (tracking) shorthand
 
 ---
 ## Content
@@ -44,9 +49,10 @@ $ git checkout myBranch
 $ git merge @{u}
 #upstream equivalent of myBranch
 ```
-*origin/myBranch
-*myBranch
-*origin/master
+
+* origin/myBranch
+* myBranch
+* origin/master
 
 ---
 ## Revision
@@ -54,6 +60,9 @@ $ git merge @{u}
 `@{u}` is used to reference the 
 
 ???
-*upstream tracked branch
-*downstream tracked branch
-*master branch
+
+* upstream tracked branch
+* downstream tracked branch
+* master branch
+
+ 

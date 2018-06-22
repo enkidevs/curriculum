@@ -1,4 +1,4 @@
-# `weakref` callbacks
+---
 author: catalin
 
 levels:
@@ -11,11 +11,20 @@ type: normal
 
 category: how to
 
-parent: implementing-weak-references
+
+standards:
+  python.store-manipulate-data.5: 10
+  python.store-manipulate-data.6: 10
 
 links:
 
   - '[pymotw.com](https://pymotw.com/2/weakref/#references){website}'
+
+parent: implementing-weak-references
+
+---
+
+# `weakref` callbacks
 
 ---
 ## Content
@@ -51,6 +60,7 @@ Complete the following code snippet (supposing a callback function is defined):
  r = weakref.???(enki, ???)
 ```
 
+
 * `ref`
 * `callback`
 * `call`
@@ -71,5 +81,9 @@ What functionality does `callback` carry in `r = weakref.ref(enki, callback)`?
 
 ???
 
+
 * `callback` function is invoked when `enki` is deleted.
 * In this case `callback` is a proxy to `enki`.
+
+ 
+ 

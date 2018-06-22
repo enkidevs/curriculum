@@ -1,4 +1,4 @@
-# Add Column
+---
 author: SebaRaba
 
 levels:
@@ -17,27 +17,43 @@ category: must-know
 
 inAlgoPool: false
 
-parent: create-a-table
+standards:
+  sql.define-columns.0: 10
+  sql.define-columns.2: 10
+
+tags:
+
+  - workout
+
+  - deep
+
 
 links:
 
-  - '[More on ALTER TABLE](https://www.techonthenet.com/sql_server/tables/alter_table.php)'
+  - '[More on ALTER TABLE](https://www.techonthenet.com/sql_server/tables/alter_table.php){website}'
 
-tags:
+parent: create-a-table
+
+aspects:
   - workout
   - deep
+
+
+---
+
+# Add Column
 
 ---
 ## Content
 
 If we would like to add a new column to a certain table, we can use the `ALTER TABLE` statement:
-```
+```sql
 ALTER TABLE table_name
 ADD column_name datatype;
 ```
 
 To delete a column from our table, we can use the following statement:
-```
+```sql
 ALTER TABLE table_name
 DROP COLUMN column_name
 ```
@@ -57,6 +73,7 @@ id |    name
 ??? gender
 ADD ??? ???;
 ```
+
 
 * ALTER TABLE
 * members
@@ -82,7 +99,8 @@ id | region_id |      name
     ???
 ```
 
-
 * ALTER TABLE generation DROP COLUMN region_id;
 * ALTER TABLE generation DROP region_id;
 * ALTER generation DROP COLUMN region_id;
+ 
+ 

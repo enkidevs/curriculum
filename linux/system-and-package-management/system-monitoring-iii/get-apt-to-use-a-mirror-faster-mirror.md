@@ -1,4 +1,4 @@
-# Get `apt` to use a mirror / faster mirror
+---
 author: tuwi.dc
 
 levels:
@@ -22,6 +22,13 @@ tags:
   - mirror
 
   - ubuntu
+
+
+
+
+---
+
+# Get `apt` to use a mirror / faster mirror
 
 ---
 ## Content
@@ -65,6 +72,9 @@ Lucid (10.04), Maverick (10.10), Natty (11.04), And Oneiric (11.10) users can re
 You can speed up your download by using 
 
 ??? .
-*mirrors
-*shops
-*packages
+
+* mirrors
+* shops
+* packages
+
+ 

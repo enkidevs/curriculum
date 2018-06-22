@@ -1,4 +1,4 @@
-# `datetime` object
+---
 author: catalin
 
 levels:
@@ -9,16 +9,23 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: feature
 
-parent: time-object
+inAlgoPool: false
+
 
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/datetime.html#datetime-objects){website}
+  - '[docs.python.org](https://docs.python.org/3.5/library/datetime.html#datetime-objects){website}'
+
+standards:
+  python.native-types-operations.8: 10
+
+parent: time-object
+
+---
+
+# `datetime` object
 
 ---
 ## Content
@@ -28,20 +35,20 @@ The `datetime` class combines in a single object all the information contained b
 As a consequence, the `datetime` object is **aware** - recording a specific point in time that is not open to interpretations.
 
 Here's the constructor syntax of this object (keep in mind that only **year**, **month** and **day** attributes are mandatory):
-```py
+```python
 datetime(year, month, day, hour, minute,
   second, microsecond, tzinfo)
 ```
 
 To get the **current datetime** you can use the `today()` method[1]:
-```py
+```python
 from datetime import datetime
 print(datetime.today())
 # 2017-06-27 15:39:39.934414
 ```
 
 You can also `combine` a `date` and `time` object into a `datetime` as follows:
-```py
+```python
 from datetime import date, time, datetime
 d = date(1993, 11, 1)
 t = time(hour = 30)
@@ -50,7 +57,7 @@ print(dt) # 1993-11-01 00:30:00
 ```
 
 The objects exposed by the `datetime` module can be compared naturally with the standard operators to determine which is earlier or later.
-```py
+```python
 time_1 = time(12) # 12:00:00
 time_2 = time(13,30) # 13:30:00
 print(time_1 < time_2) # True
@@ -63,7 +70,7 @@ print(dt_2 > dt_1) # True
 ```
 
 As seen above, the string representation of the `datetime` object follows **ISO 8601** format - `YYYY-MM-DDTHH:MM:SS.mmmmmm`. However, outputting in a different format[2] is easily done via `strftime()` method.
-```py
+```python
 
 today = datetime.today()
 
@@ -78,15 +85,55 @@ print(today.strftime(format))
 ```
 
 ---
-## Footnotes
+## Practice
 
+Check if `date_one` is closer to the present than `date_two`:
+
+```python
+import datetime
+
+if ??? ??? ???:
+  print(True)
+else:
+  print(False)
+
+```
+
+* date_one
+* > 
+* date_two
+* <
+* Equals()
+
+---
+## Revision
+
+Complete the following code snippet such that it will print the current date and time:
+
+```python
+import datetime
+
+???(???)
+```
+
+* print
+* today
+* now
+* atm
+* time
+
+
+
+
+---
+## Footnotes
 [1:Current datetime]
 Another way of getting the current time is via the `.now()` method. The difference between the two approaches is that `now()` can take an optional `tzinfo` (**timezone information**) argument.
 
 Since `tzinfo` is an *abstract base class*, you need to define a subclass and provide appropriate implementations for a few methods to make it useful. Unfortunately, `datetime` does not include ready-to-use implementations for this.
 
-However, with now arguments passed, both functions behave the same:
-```py
+However, with no arguments passed, both functions behave the same:
+```python
 from datetime import datetime
 print(datetime.today())
 # 2017-06-27 15:39:39.934414
@@ -110,3 +157,5 @@ Here are few special date formatting characters supported by the method:
 - `%S`: second (e.g `57`)
 
 The full list is actually the one implemented by **C standard** (1989 version)
+ 
+ 

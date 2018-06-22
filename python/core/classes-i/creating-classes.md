@@ -1,4 +1,4 @@
-# Creating Classes
+---
 author: mihaiberq
 
 levels:
@@ -8,6 +8,16 @@ levels:
 type: normal
 
 category: must-know
+
+
+standards:
+  python.identify-python-syntax.2: 10
+  python.object-oriented.0: 10
+
+---
+
+# Creating Classes
+
 
 ---
 ## Content
@@ -65,6 +75,7 @@ class Car:
     print("Starting engine!")
 ```
 ???
+
 * B
 * A
 * C
@@ -86,7 +97,10 @@ new empl = Employee("John")
 ```
 ???
 
+
 * A
 * B
 * C
 * neither
+ 
+ 

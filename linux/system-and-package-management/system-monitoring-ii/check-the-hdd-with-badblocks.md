@@ -1,4 +1,4 @@
-# Check the HDD with `badblocks`
+---
 author: tuwi.dc
 
 levels:
@@ -24,6 +24,13 @@ tags:
   - fsck
 
   - check
+
+
+
+
+---
+
+# Check the HDD with `badblocks`
 
 ---
 ## Content
@@ -62,7 +69,10 @@ You can check your hard drive for bad sectors with
 
 ???.
 
-*badblocks
-*fsck
-*usermod
-*hostname
+
+* badblocks
+* fsck
+* usermod
+* hostname
+
+ 

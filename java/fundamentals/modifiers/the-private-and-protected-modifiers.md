@@ -1,4 +1,4 @@
-# The `private` and `protected` Modifiers
+---
 author: mihaiberq
 
 levels:
@@ -7,9 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# The `private` and `protected` Modifiers
 
 ---
 ## Content
@@ -74,17 +81,21 @@ public class TestClass{
  }
 }
 ```
-*`public`
-*`private`
-*`protected`
-*``
+
+* `public`
+* `private`
+* `protected`
+* ``
 
 ---
 ## Revision
 
 A ??? field can only be accessed by the subclasses.
 
-*protected
-*private
-*public
-*static
+
+* protected
+* private
+* public
+* static
+
+ 

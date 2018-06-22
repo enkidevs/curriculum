@@ -1,4 +1,4 @@
-# Converting a string to upper or lower case
+---
 author: adamMontgomerie
 
 levels:
@@ -17,10 +17,15 @@ tags:
 
   - string-manipulation
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/manipstrings.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/manipstrings.html){website}'
+
+
+---
+
+# Converting a string to upper or lower case
 
 ---
 ## Content
@@ -41,3 +46,5 @@ String upperEnki = "ENKI";
 System.out.println(upperEnki.toLower());
 //output: "enki"
 ```
+
+ 

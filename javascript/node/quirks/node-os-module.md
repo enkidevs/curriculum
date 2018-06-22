@@ -1,19 +1,31 @@
-# **Node** `os` module
+---
 author: catalin
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal
 
 category: how to
 
-links:
+standards:
+  javascript.node-standard-library-os.6: 20
 
+tags:
+  - introduction
+  - workout
+
+links:
   - '[nodejs.org](https://nodejs.org/api/os.html){website}'
+
+aspects:
+  - introduction
+  - workout
+
+
+---
+# **Node** `os` module
 
 ---
 ## Content
@@ -56,20 +68,21 @@ console.log(os.networkInterfaces());
 
 Get the total system memory in bytes:
 
-```
+```javascript
 var os = require(“os”);
 console.log(os.???());
 ```
-*`totalmem`
-*`memory`
-*`bytesmemory`
-*`memorytotal`
+
+* totalmem
+* memory
+* bytesmemory
+* memorytotal
 
 ---
 ## Revision
 
 Suppose :
-```javasript
+```javascript
 var os = require("os");
 ```
 
@@ -77,10 +90,12 @@ Log the CPU's architecture:
 ```javascript
 console.log(???.???());
 ```
-*`os`
-*`arch`
-*`platform`
-*`type`
-*`networkInterfaces`
-*`CPU`
-*`cpu`
+
+* os
+* arch
+* platform
+* type
+* networkInterfaces
+* CPU
+* cpu
+ 

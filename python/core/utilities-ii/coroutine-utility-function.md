@@ -1,4 +1,4 @@
-# Coroutine Utility function
+---
 author: catalin
 
 levels:
@@ -11,15 +11,23 @@ type: normal
 
 category: feature
 
+standards:
+  python.control-structures.5: 10
+  python.modules.0: 10
+
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/library/types.html#coroutine-utility-functions){website}
+  - '[docs.python.org](https://docs.python.org/3.5/library/types.html#coroutine-utility-functions){website}'
+
+
+---
+
+# Coroutine Utility function
 
 ---
 ## Content
 
-Inside **Python**'s ` types`  module one can find the `coroutine` function since the introduction of **Python 3.5**. 
+Inside **Python**'s ` types`  module one can find the `coroutine` function since the introduction of **Python 3.5**.
 
 This function is used to transform a **generator function** into a **coroutine function**, returning a generator-based coroutine.
 
@@ -58,12 +66,13 @@ def my_generator():
 
 my_coroutine = ???.???(my_generator)
 ```
-*`types`
-*`coroutine`
-*`co`
-*`gen`
-*`transform`
-*`type`
+
+* `types`
+* `coroutine`
+* `co`
+* `gen`
+* `transform`
+* `type`
 
 ---
 ## Revision
@@ -72,9 +81,12 @@ What function from the `types` module can be used to transform a generator into 
 
 ???
 
-*`coroutine`
-*`co`
-*`gen`
-*`generator`
-*`await`
-*`gen_to_co`
+
+* `coroutine`
+* `co`
+* `gen`
+* `generator`
+* `await`
+* `gen_to_co`
+ 
+ 

@@ -1,4 +1,4 @@
-# Useful stashing options
+---
 author: rosielowther
 
 levels:
@@ -19,6 +19,10 @@ links:
 
   - >-
     [git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning){website}
+
+---
+
+# Useful stashing options
 
 ---
 ## Content
@@ -52,17 +56,20 @@ stash@{0}: On master: new feature
 
 Select the `git stash` option that stashes:
 
-- tracked and untracked files ???
-- unstaged files ???
-- interactively ???
-*-u
-*--keep-index
-*--patch
+tracked and untracked files ???  
+unstaged files ???  
+interactively ???  
+
+* -u
+* --keep-index
+* --patch
 
 ---
 ## Revision
 
 `new feature` in `git stash save new feature` represents a ??? of the stash.
-*description
-*branch
-*message
+
+* description
+* branch
+* message
+ 

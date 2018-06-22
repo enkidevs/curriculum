@@ -1,4 +1,4 @@
-# Graph Representation and ADT
+---
 author: mihaiberq
 
 levels:
@@ -9,11 +9,17 @@ type: normal
 
 category: must-know
 
+
 links:
-    - >-
-         [Graph representation](http://www.geeksforgeeks.org/graph-and-its-representations/){website}
+
+  - '[Graph representation](http://www.geeksforgeeks.org/graph-and-its-representations/){website}'
 
 parent: the-components-of-a-graph
+
+---
+
+# Graph Representation and ADT
+
 ---
 ## Content
 
@@ -53,20 +59,17 @@ Any *implementation* of a graph data type should provide these methods:
 - `removeVertex(v)` : *Removes* vertex v and all incident edges from the graph.
 - `removeEdge(e)` : *Removes* edge e from the graph.
 
-
-
 ---
 ## Practice
 
 For any undirected graph represented as a matrix, you can be sure that the cells having the same value are (where _n_ is the number of vertices):
 
 ???
-*`g[u][v]` and `g[v][u]`
-*`g[0][0]` and `g[n-1][n-1]`
-*`g[u][u]` and `g[v][v]`
-*`g[u][v]` and `g[v-1][u-1]`
 
-
+* `g[u][v]` and `g[v][u]`
+* `g[0][0]` and `g[n-1][n-1]`
+* `g[u][u]` and `g[v][v]`
+* `g[u][v]` and `g[v-1][u-1]`
 
 ---
 ## Revision
@@ -75,6 +78,9 @@ Which of the following statements is describing an adjacency list?
 
 ???
 
+
 * A list describing the set of neighbours for each node.
 * An unordered list of all edges.
 * A matrix of size N*N, where N is the number of nodes.
+
+ 

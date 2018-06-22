@@ -1,5 +1,9 @@
-# Lists
+---
 author: tommarshall
+
+tags:
+
+  - introduction
 
 levels:
 
@@ -7,14 +11,21 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+standards:
+  python.native-types-operations.4: 10
+
+---
+
+# Lists
 
 ---
 ## Content
 
-Lists are not so different from arrays, they can contain any variable type, and as many different variables as you'd like.
+Lists are containers of objects. They can contain any variable type, and be any number of entries long.
 
 To build a list:
 ```python
@@ -26,7 +37,7 @@ pyList.append(11)
 pyList.append(4)
 ```
 
-To view items in a list:
+Refer to an item in a list by its index. Python is zero-indexed, meaning the first item in a list is at position 0:
 ```python
 print(pyList[0])
 # prints 11
@@ -35,7 +46,7 @@ print(pyList[1])
 # prints 4
 ```
 
-It's also very simple to iterate over lists, here is a `for` loop printing out the values held in a list:
+A `for` loop will iterate over each value in a list, one at a time:
 
 ```python
 for x in pyList:
@@ -54,9 +65,10 @@ newList = []
 newList.???(5)
 ```
 
-*`append`
-*`add`
-*`push`
+
+* `append`
+* `add`
+* `push`
 
 ---
 ## Revision
@@ -70,9 +82,11 @@ newList.append(2)
 ???(newList???)
 ```
 
-*`print`
-*`[0]`
-*`{0}`
-*`view`
-*`append`
-*`(0)`
+
+* `print`
+* `[0]`
+* `{0}`
+* `view`
+* `append`
+* `(0)`
+ 

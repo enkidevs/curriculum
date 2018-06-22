@@ -1,4 +1,4 @@
-# The difference between _parallel_, _asynchronous_ and _concurrent_
+---
 author: rosielowther
 
 levels:
@@ -11,17 +11,39 @@ type: normal
 
 category: must-know
 
+standards:
+
+  javascript.async.3: 10
+
+  javascript.async.2: 10
+
+  javascript.use-modules.2: 10
+
 tags:
 
-  - languageagnostic
+  - workout
+
+  - deep
+
+  - async
+
+  - promises
+
+  - npm
+
+aspects:
+  - workout
+  - deep
 
 links:
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/1050222/concurrency-vs-parallelism-what-is-the-difference#1050257){website}
+  - '[stackoverflow.com](http://stackoverflow.com/questions/1050222/concurrency-vs-parallelism-what-is-the-difference#1050257){website}'
+  - '[github.com](https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/ch1.md){website}'
 
-  - >-
-    [github.com](https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/ch1.md){website}
+
+---
+
+# The difference between _parallel_, _asynchronous_ and _concurrent_
 
 ---
 ## Content
@@ -41,6 +63,7 @@ JavaScript has behaviour, known as a '**race condition**', where two concurrent 
 
 JavaScript is ??? and therefore has ??? behaviour, this means that once the code in a function starts executing it has to finish before any code can run.
 
+
 * single-threaded
 * run-to-completion
 * double-threaded
@@ -55,7 +78,13 @@ What's the notion describing two or more tasks executed in the same period, but 
 
 ???
 
-*`concurrency`
-*`parallelism`
-*`asynchronous`
-*`race condition`
+
+* `concurrency`
+* `parallelism`
+* `asynchronous`
+* `race condition`
+
+ 
+ 
+ 
+ 

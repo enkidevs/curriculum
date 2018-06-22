@@ -1,4 +1,4 @@
-# Playing with `time`
+---
 author: catalin
 
 levels:
@@ -9,18 +9,26 @@ levels:
 
 type: normal
 
+category: feature
+
 inAlgoPool: false
 
-category: feature
+
+links:
+
+  - '[www.tutorialspoint.com](http://www.tutorialspoint.com/python/python_date_time.htm){website}'
+
+standards:
+  python.native-types-operations.8: 10
+
 
 notes: >
   Corrected earlier issue with not saving, and updated the insight with my
   changes.
 
-links:
+---
 
-  - >-
-    [www.tutorialspoint.com](http://www.tutorialspoint.com/python/python_date_time.htm){website}
+# Playing with `time`
 
 ---
 ## Content
@@ -28,7 +36,7 @@ links:
 The `time` module is widely used for time manipulation, representation and conversion.
 
 Keep in mind an `import` is needeed:
-```py
+```python
 import time
 ```
 
@@ -80,7 +88,7 @@ e.g. Thur Jun 22 00:00:00 2017
 
 Complete the gaps with the missing pieces of code.
 
-```py
+```python
 import ???
 
 time_in_seconds = time.???
@@ -90,6 +98,7 @@ formatted = time.???(time_struct)
 print(formatted)
 
 ```
+
 
 * `time`
 * `time()`
@@ -108,9 +117,10 @@ The `time` module provides numerous useful function for time manipulation.
 
 Supposing all required `import`s are resolved before, complete the following script such that **current time** is `print`ed as a time tuple (`time.struct_time`).
 
-```py
+```python
 print(???(???())
 ```
+
 
 * `localtime`
 * `time`
@@ -120,3 +130,5 @@ print(???(???())
 * `current`
 * `time_struct`
 * `struct_time`
+ 
+ 

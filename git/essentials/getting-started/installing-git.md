@@ -1,4 +1,4 @@
-# Installing Git
+---
 author: catalin
 
 levels:
@@ -7,21 +7,23 @@ levels:
 
 type: normal
 
-
 category: must-know
+
 
 links:
 
-  - >-
-    [Git official
-    webiste](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git){website}
-
+  - '[Git official webiste](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git){website}'
   - '[GitHub download](https://desktop.github.com/){website}'
+
+
+---
+
+# Installing Git
 
 ---
 ## Content
 
-In order to be able to use **Git**, it first must be available on your machine. You can install **Git** in various ways, depending on your Operating System.
+To be able to use **Git**, it first must be available on your machine. You can install **Git** in various ways, depending on your Operating System.
 
 **Git** is available for downloading together with installing instructions from the official **Git** website for *Linux* , *Windows* or *Mac OSX*.
 
@@ -30,7 +32,7 @@ In order to be able to use **Git**, it first must be available on your machine. 
 
 
 You can install **Git** by:
-- running `git` from the terminal will prompt you to the installation if your OS version is at least `10.9`
+- running `git` from the terminal will prompt you to the installation if your OS version is at least `10.9.`
 
 
 ### Linux
@@ -48,7 +50,7 @@ sudo yum install git
 sudo apt-get install git
 ```
 
-If you install the *GitHub* client application (repository hosting service), which is available on all main operating systems, **Git** will also be installed on your machine.
+If you install the *GitHub* client application (repository hosting service), which is available on all leading operating systems, **Git** will also be installed on your machine.
 
 ---
 ## Revision
@@ -57,7 +59,10 @@ Will **Git** also be installed when you would install **GitHub** ?
 
 ???
 
+
 * Yes
 * No
 * Only on Mac OS X
 * Only on Linux
+
+ 

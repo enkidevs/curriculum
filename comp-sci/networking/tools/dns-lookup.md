@@ -1,4 +1,4 @@
-# DNS Lookup
+---
 author: catalin
 
 levels:
@@ -15,15 +15,18 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - https://blog.thesysadmins.co.uk/nslookup-common-usage-examples.html
-
-  - https://help.dyn.com/how-to-use-binds-dig-tool/#installdigwindows
-
-  - http://computer.howstuffworks.com/dns.htm
+  - '[blog.thesysadmins.co.uk](https://blog.thesysadmins.co.uk/nslookup-common-usage-examples.html){website}'
+  - '[help.dyn.com](https://help.dyn.com/how-to-use-binds-dig-tool/#installdigwindows){website}'
+  - '[computer.howstuffworks.com](http://computer.howstuffworks.com/dns.htm){website}'
 
 parent: network-statistics-tools
+
+---
+
+# DNS Lookup
 
 ---
 ## Content
@@ -82,6 +85,9 @@ How would you find the IP address behind the enki.com DNS?
 $ ???
 ```
 
+
 * `nslookup enki.com`
 * `nslookup enki`
 * `nslookup 52.85.178.44`
+
+ 

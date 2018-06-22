@@ -1,4 +1,4 @@
-# Declaring Functions
+---
 author: alexjmackey
 
 levels:
@@ -7,14 +7,32 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+standards:
+
+  javascript.functions.0: 10
+
+  javascript.functions.1: 10
+
+tags:
+
+  - introduction
+
+aspects:
+  - introduction
+
+
+---
+
+# Declaring Functions
 
 ---
 ## Content
 
-JavaScript supports a number of different ways of declaring functions.
+JavaScript supports many different ways of declaring functions.
 
 The most common is the *function declaration*:
 
@@ -29,11 +47,11 @@ add(1,2);//3
 
 **Return Values**
 
-In the above example we specified that we would return the function argument x plus argument y. 
+In the above example, we specified that we would return the function argument x plus argument y.
 
-If we did not specify a return value in the above example then the function would return *undefined* e.g.
+If we did not specify a return value in the above example, then the function would return *undefined* e.g.
 
-``` 
+```
 function add(x, y){
 	x + y;
 }
@@ -55,11 +73,12 @@ function mult(x, y){
 console.log(mult(2,3));
 ???
 ```
-*`undefined`
-*`4`
-*`9`
-*`6`
-*`error`
+
+* `undefined`
+* `4`
+* `9`
+* `6`
+* `error`
 
 ---
 ## Revision
@@ -73,7 +92,9 @@ function add(x, y){
 console.log(add(2,3));
 ???
 ```
-*`undefined`
-*`5`
-*`false`
-*`error`
+
+* `undefined`
+* `5`
+* `false`
+* `error`
+ 

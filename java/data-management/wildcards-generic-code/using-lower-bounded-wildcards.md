@@ -1,4 +1,4 @@
-# Using lower bounded wildcards
+---
 author: adamMontgomerie
 
 levels:
@@ -23,10 +23,15 @@ tags:
 
   - collections
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/lowerBounded.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/lowerBounded.html){website}'
+
+
+---
+
+# Using lower bounded wildcards
 
 ---
 ## Content
@@ -45,3 +50,5 @@ public void method(
 }
 ```
 This method will now accept `List`s of supertypes of `Integer`, such as `Number` and `Object`.
+
+ 

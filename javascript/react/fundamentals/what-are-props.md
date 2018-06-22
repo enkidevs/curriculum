@@ -1,4 +1,4 @@
-# What are `props`?
+---
 author: catalin
 
 levels:
@@ -15,16 +15,17 @@ type: normal
 
 category: must-know
 
-parent: the-react-component
 
 links:
 
+  - '[facebook.github.io](https://facebook.github.io/react/docs/components-and-props.html){website}'
+  - '[tutorialspoint.com](https://www.tutorialspoint.com/reactjs/reactjs_props_overview.htm){website}'
 
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/docs/components-and-props.html){website}
+parent: the-react-component
 
-  - >-
-    [tutorialspoint.com](https://www.tutorialspoint.com/reactjs/reactjs_props_overview.htm){website}
+---
+
+# What are `props`?
 
 ---
 ## Content
@@ -91,6 +92,7 @@ ReactDOM.render(
 
 ```
 
+
 * `defaultProps`
 * `myValue`
 * `Enki`
@@ -122,6 +124,7 @@ ReactDOM.render(
 );
 ```
 
+
 * `props`
 * `myValue`
 * `Enki`
@@ -129,3 +132,5 @@ ReactDOM.render(
 * `element`
 * `default`
 * `class`
+
+ 

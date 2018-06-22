@@ -1,22 +1,31 @@
-# Tree Traversals
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
 links:
-    - >-
-        [Tree traversals](https://en.wikipedia.org/wiki/Tree_traversal){website}
+
+  - '[Tree traversals](https://en.wikipedia.org/wiki/Tree_traversal){website}'
 
 parent: primality-test
+
+---
+
+# Tree Traversals
+
 ---
 ## Content
 
@@ -67,6 +76,7 @@ Which node will be prioritized after *B* in a breadth-first traversal?
    C     A
 ```
 ???
+
 * E
 * D
 * A
@@ -78,13 +88,13 @@ Which node will be prioritized after *B* in a breadth-first traversal?
 Which type of tree traversal visits the children before the nodes on the same level?
 
 ???
+
 * Depth-first
 * Breadth-first
 * Children-first
 
 ---
 ## Footnotes
-
 [1:Self-referentiality]
 Every node references its children and, maybe, its parent, thus allowing movement through the tree wherever the starting point is chosen.
 
@@ -92,3 +102,4 @@ Every node references its children and, maybe, its parent, thus allowing movemen
 Just as the time function can be bounded, the memory used by a data type or algorithm can be quantified. For example, different graph representations have different space requirements: the matrix requires `O(|V*V|)` space, while the edge list and node list combination requires `O(|E+V|)` space.
 
 *|V|*, *|E|* are the number of vertices and edges, respectively.
+ 

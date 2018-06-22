@@ -1,4 +1,4 @@
-# The `setuid` permission
+---
 author: tuwi.dc
 
 levels:
@@ -10,16 +10,33 @@ type: normal
 category: must-know
 
 tags:
+
   - linux
+
   - terminal
+
   - permissions
+
   - chmod
+
   - setuid
+
+  - deep
+
+  - workout
+
+
+
+notes: ''
+
+aspects:
   - deep
   - workout
 
 
-notes: ''
+---
+
+# The `setuid` permission
 
 ---
 ## Content
@@ -45,9 +62,10 @@ $ chmod +s file
 Which of the following is an alternate description of what `setuid` does?
 
 ???
-*It allows users to run an executable with the permissions of the file's owner.
-*It gives root privileges over the file to all other users.
-*It gives elevated privileges over the file to all other users in a specific group.
+
+* It allows users to run an executable with the permissions of the file's owner.
+* It gives root privileges over the file to all other users.
+* It gives elevated privileges over the file to all other users in a specific group.
 
 ---
 ## Revision
@@ -56,8 +74,11 @@ Set the `setuid` attribute for a file:
 ```
 $ ??? ??? ???
 ```
-*`chmod`
-*`+s`
-*`file_name`
-*`+g`
-*`setuid`
+
+* `chmod`
+* `+s`
+* `file_name`
+* `+g`
+* `setuid`
+
+ 

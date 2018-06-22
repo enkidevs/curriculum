@@ -1,4 +1,4 @@
-# What is a PPA?
+---
 author: Nick Daminov
 
 levels:
@@ -9,11 +9,18 @@ type: normal
 
 category: must-know
 
+
 links:
-  - '[More on APT](https://en.wikipedia.org/wiki/APT_(Debian))'
-  - '[More on PPAs](https://launchpad.net/ubuntu/+ppas)'
-  - '[PPAs with GUI](https://askubuntu.com/questions/4983/what-are-ppas-and-how-do-i-use-them)'
-  - '[Launchpad](https://launchpad.net/)'
+
+  - '[More on APT](https://en.wikipedia.org/wiki/APT_(Debian)){website}'
+  - '[More on PPAs](https://launchpad.net/ubuntu/+ppas){website}'
+  - '[PPAs with GUI](https://askubuntu.com/questions/4983/what-are-ppas-and-how-do-i-use-them){website}'
+  - '[Launchpad](https://launchpad.net/){website}'
+
+
+---
+
+# What is a PPA?
 
 ---
 ## Content
@@ -37,6 +44,7 @@ What is a PPA?
 
 ???
 
+
 * A repository
 * A package
 * A piece of software
@@ -49,6 +57,7 @@ What is a PPA?
 
 ???
 
+
 * A repository
 * A package
 * A piece of software
@@ -56,9 +65,9 @@ What is a PPA?
 
 ---
 ## Footnotes
-
 [1: APT]
 Advanced Packaging Tool
 
 [2: Launchpad]
 Launchpad is a software collaboration platform that provides various features for application development, as well as hosting Ubuntu packages and providing the PPA repository.
+ 

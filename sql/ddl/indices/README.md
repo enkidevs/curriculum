@@ -1,11 +1,13 @@
 name: Indices
 
-type: insights-list
-
 description: Index the tables to improve lookup queries performance
-
-section: 1
 
 insights:
   - create-indexes
   - when-to-add-indexes
+
+exercises:
+  - sql-practice-define-indexes
+  - sql-practice-sql-indexes2
+ 
+ 

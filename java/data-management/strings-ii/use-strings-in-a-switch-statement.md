@@ -1,4 +1,4 @@
-# Use strings in a `switch` statement
+---
 author: adamMontgomerie
 
 levels:
@@ -17,10 +17,15 @@ tags:
 
   - java-7
 
+
 links:
 
-  - >-
-    [javarevisited.blogspot.jp](http://javarevisited.blogspot.jp/2014/04/10-jdk-7-features-to-revisit-before-you.html){website}
+  - '[javarevisited.blogspot.jp](http://javarevisited.blogspot.jp/2014/04/10-jdk-7-features-to-revisit-before-you.html){website}'
+
+
+---
+
+# Use strings in a `switch` statement
 
 ---
 ## Content
@@ -49,5 +54,8 @@ The string comparisons are case sensitive.
 
 String comparisons in switch statements ??? case sensitive.
 
-*are
-*aren't
+
+* are
+* aren't
+
+ 

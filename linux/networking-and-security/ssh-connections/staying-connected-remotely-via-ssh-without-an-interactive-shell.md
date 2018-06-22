@@ -1,4 +1,4 @@
-# Staying connected remotely via SSH without an interactive shell
+---
 author: dean
 
 levels:
@@ -15,6 +15,13 @@ tags:
 
   - ssh-tunnel-interactive-shell
 
+
+
+
+---
+
+# Staying connected remotely via SSH without an interactive shell
+
 ---
 ## Content
 
@@ -24,7 +31,7 @@ For example, you may need to port forward from the *remote connection's port 900
 
 To prevent a disconnection, use the `-N` flag:
 
-```unix
+```shell
 $ ssh -N -L 9001:localhost:6000
           user@remotehost
 ```
@@ -34,7 +41,10 @@ The `-N` option prevents remote commands from executing, and therefore allows lo
 ## Revision
 
 If you are looking for a port forwarding on a machine without an interactive shell, you should use `ssh` ??? flag.
-*-N
-*-n
-*-C
-*-p
+
+* -N
+* -n
+* -C
+* -p
+
+ 

@@ -1,12 +1,9 @@
-# Geolocation
+---
 author: tommarshall
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
@@ -14,8 +11,10 @@ type: normal
 category: feature
 
 links:
-
   - '[www.sitepoint.com](http://www.sitepoint.com/html5-geolocation/){website}'
+
+---
+# Geolocation
 
 ---
 ## Content
@@ -28,20 +27,19 @@ Note that for privacy reasons the user must grant the API permission.
 
 To obtain the devices current position use the **getCurrentPosition** API:
 
-```JavaScript
-  navigator.geolocation
+```javascript
+navigator.geolocation
   .getCurrentPosition(
-    function(pos) {
-     var lat = pos.coords.latitude,
-         long = pos.coords.longitude;
-         console.log(`${lat} ${long}`);
-   });
+  function(pos) {
+    var lat = pos.coords.latitude,
+        long = pos.coords.longitude;
+        console.log(`${lat} ${long}`);
+  });
 ```
 
-If you want to be informed automatically when the devices position changes you can use the 
-**geolocation.watchPosition** API.
+If you want to be informed automatically when the devices position changes you can use the **geolocation.watchPosition** API.
 
-```JavaScript
+```javascript
 navigator.geolocation.watchPosition(
   function(pos) {
      var lat = pos.coords.latitude,
@@ -51,17 +49,54 @@ navigator.geolocation.watchPosition(
 ```
 
 ---
-## Revision
+## Practice
 
-Complete the following JS code snippet to allow use of the Geolocation API allowing you to be informed when a devices position changes:
+Fill in the gaps in the following code snippet. Using the geolocation API exposed by the browser and assuming you have all the permissions needed, get the current device position and log the latitude and longitude.
 
 ```javascript
-???.geolocation.???(
+navigator.???.???(
+  function(pos) {
+    const lat = pos.???.???,
+    const long = ???.???
+    console.log(lat, long)
+  }
+)
 ```
 
-* `navigator`
-* `watchPosition`
-* `device`
-* `permission`
-* `position`
-* `detect`
+* geolocation
+* getCurrentPosition
+* coordinate
+* latitude
+* pos.coordinate
+* longitude
+* pos.latitude
+* pos.longitude
+* geoLocation
+* getPosition
+* coord
+* watchPosition
+* getLocation
+
+---
+## Revision
+
+Fill in the missing bits of the following snippet such that, using the Geolocation API, you listen on the position changes of the device:
+
+```javascript
+navigator.???.???(
+  function (pos) {
+    console.log('new position', pos)
+})
+```
+
+* geolocation
+* watchPosition
+* device
+* permission
+* position
+* detect
+* watch
+* listen
+* onChange
+
+ 

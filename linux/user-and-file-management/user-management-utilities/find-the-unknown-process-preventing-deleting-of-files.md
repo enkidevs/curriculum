@@ -1,4 +1,4 @@
-# Find the unknown process preventing deleting of files
+---
 author: nene
 
 levels:
@@ -14,13 +14,24 @@ type: normal
 category: hack
 
 tags:
+
   - files
+
   - workout
 
 
 links:
 
   - '[linux.die.net](http://linux.die.net/man/1/fuser){website}'
+
+
+aspects:
+  - workout
+
+
+---
+
+# Find the unknown process preventing deleting of files
 
 ---
 ## Content
@@ -42,7 +53,10 @@ Complete the command to kill the processes that are using a file :
 ```
 $ ??? ??? file_name
 ```
-*`fuser`
-*`-k`
-*`-v`
-*`kill`
+
+* `fuser`
+* `-k`
+* `-v`
+* `kill`
+
+ 

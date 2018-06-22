@@ -1,4 +1,4 @@
-# Class Keywords
+---
 author: mihaiberq
 
 levels:
@@ -8,6 +8,15 @@ levels:
 type: normal
 
 category: must-know
+
+
+standards:
+  python.object-oriented.0: 10
+
+---
+
+# Class Keywords
+
 
 ---
 ## Content
@@ -34,11 +43,26 @@ class Employee:
 ```
 
 ---
+## Practice
+
+What do classes, variables, lists in python have in common?
+
+they are all ???
+
+* objects
+* methods
+* functions
+* data types
+
+---
 ## Revision
 
-Independent functions are called ???
+Functions without an enclosing class are called ???
+
 
 * just functions
 * methods
 * attributes
 * objects
+ 
+ 

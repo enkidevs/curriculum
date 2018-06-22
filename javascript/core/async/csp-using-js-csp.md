@@ -1,4 +1,4 @@
-# CSP using _js-csp_
+---
 author: rosielowther
 
 levels:
@@ -9,18 +9,40 @@ type: normal
 
 category: feature
 
+standards:
+
+  javascript.async.3: 10
+
+  javascript.async.2: 10
+
+  javascript.use-modules.2: 10
+
 tags:
 
-  - library
+  - workout
+
+  - deep
+
+  - async
+
+  - promises
+
+  - npm
+
+aspects:
+  - workout
+  - deep
 
 links:
 
-  - >-
-    [jlongster.com](http://jlongster.com/Taming-the-Asynchronous-Beast-with-CSP-in-JavaScript){website}
-
+  - '[jlongster.com](http://jlongster.com/Taming-the-Asynchronous-Beast-with-CSP-in-JavaScript){website}'
   - '[www.usingcsp.com](http://www.usingcsp.com/){website}'
-
   - '[github.com](https://github.com/ubolonton/js-csp){website}'
+
+
+---
+
+# CSP using _js-csp_
 
 ---
 ## Content
@@ -46,6 +68,7 @@ csp.putAsync(ch, 100);
 
 CSP (Communicating Sequential Processes) is a method for ??? processes to ??? during processing.
 
+
 * concurrent
 * communicate
 * synchronous
@@ -61,10 +84,13 @@ Create a new csp channel:
 ```javascript
 var ch = ???.???();
 ```
-*`csp`
-*`chan()`
-*`channel()`
-*`new`
-*`generate()`
-*`putAsync()`
-*`takeAsync()`
+
+* `csp`
+* `chan()`
+* `channel()`
+* `new`
+* `generate()`
+* `putAsync()`
+* `takeAsync()`
+
+ 

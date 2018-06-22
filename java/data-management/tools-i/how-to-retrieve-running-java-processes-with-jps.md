@@ -1,5 +1,4 @@
-# How to retrieve running java processes with `jps`
-
+---
 author: catalin
 
 levels:
@@ -14,15 +13,18 @@ type: normal
 
 category: feature
 
-notes: >-
-  https://insights.enki.com/#/contrib/others/55f4294ed7d6642d0011872b?search=khandelwalrinki
 
 links:
 
-  - >-
-    [java.sun.com](http://java.sun.com/j2se/1.5.0/docs/tooldocs/share/jps.html){website}
-
+  - '[java.sun.com](http://java.sun.com/j2se/1.5.0/docs/tooldocs/share/jps.html){website}'
   - '[andunix.net](https://andunix.net/info/java/jps){website}'
+
+notes: >-
+  https://insights.enki.com/#/contrib/others/55f4294ed7d6642d0011872b?search=khandelwalrinki
+
+---
+
+# How to retrieve running java processes with `jps`
 
 ---
 ## Content
@@ -74,12 +76,13 @@ Display all Java VM parameters:
 ```
 $ ??? ???
 ```
-*`jps` 
-*`-v` 
-*`javavm` 
-*`-p` 
-*`-vm` 
-*`-vmp`
+
+* `jps` 
+* `-v` 
+* `javavm` 
+* `-p` 
+* `-vm` 
+* `-vmp`
 
 ---
 ## Revision
@@ -88,8 +91,11 @@ Long list all Java processes using `jps`:
 ```
 $ ???
 ```
-*`jps -l` 
-*`jps` 
-*`jps list` 
-*`jps -list` 
-*`jps -long`
+
+* `jps -l` 
+* `jps` 
+* `jps list` 
+* `jps -list` 
+* `jps -long`
+
+ 

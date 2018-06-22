@@ -1,4 +1,4 @@
-# Changing the timezone on deb based systems
+---
 author: tuwi.dc
 
 levels:
@@ -27,6 +27,13 @@ tags:
 
   - utc
 
+
+
+
+---
+
+# Changing the timezone on deb based systems
+
 ---
 ## Content
 
@@ -44,12 +51,13 @@ Change the system’s timezone:
 ```
 $ ??? ??? ???
 ```
-*`sudo`
-*`dpkg-reconfigure`
-*`tzdata`
-*`dpkg`
-*`reconfigure`
-*`tz`
+
+* `sudo`
+* `dpkg-reconfigure`
+* `tzdata`
+* `dpkg`
+* `reconfigure`
+* `tz`
 
 ---
 ## Revision
@@ -58,7 +66,10 @@ On Debian systems, you can change the system’s timezone by running:
 ```
 $ sudo ??? ???
 ```
-*`dpkg-reconfigure`
-*`tzdata`
-*`dpkg`
-*`reconfigure`
+
+* `dpkg-reconfigure`
+* `tzdata`
+* `dpkg`
+* `reconfigure`
+
+ 

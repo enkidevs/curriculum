@@ -1,4 +1,4 @@
-# What is npm?
+---
 author: mihaiberq
 
 levels:
@@ -8,10 +8,23 @@ type: normal
 
 category: must-know
 
-links:
+standards:
+  javascript.npm-tasks-and-modules-manager.0: 10
 
-  - >-
-    [docs.npmjs.com](https://docs.npmjs.com/getting-started/what-is-npm){website}
+tags:
+  - introduction
+  - workout
+
+links:
+  - '[docs.npmjs.com](https://docs.npmjs.com/getting-started/what-is-npm){website}'
+
+aspects:
+  - introduction
+  - workout
+
+
+---
+# What is npm?
 
 ---
 ## Content
@@ -35,6 +48,7 @@ The aim of a package is to
 
 ???
 
+
 * solve specific problems efficiently
 * solve every problem in an application efficiently
 * encapsulate the application
@@ -49,3 +63,4 @@ The aim of a package is to
 * node package manager
 * new package manager
 * node packet manager
+ 

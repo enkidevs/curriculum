@@ -1,4 +1,4 @@
-# Using `ping` To Measure Network Latency
+---
 author: jfarmer
 
 levels:
@@ -9,9 +9,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# Using `ping` To Measure Network Latency
 
 ---
 ## Content
@@ -20,7 +27,7 @@ The `ping` command will continuously send a tiny bit of internet traffic to a re
 
 Here is an example:
 
-```console
+```shell
 $ ping google.com
 PING google.com (172.217.0.238)
   56(84) bytes of data.
@@ -48,7 +55,7 @@ Keep in mind that latency has to do with both the quality of your connection and
 
 For example, if I ping `www.duma.ru`, the website for the Russian State Parliament (Duma), we get much higher ping times:
 
-```console
+```shell
 $ ping duma.ru
 PING duma.ru (212.11.128.31)
   56(84) bytes of data.
@@ -74,10 +81,11 @@ $
 `ping` will send ??? and count the time until the
 
 ???.
-*data
-*server’s response
-*connection fails
-*your public key
+
+* data
+* server’s response
+* connection fails
+* your public key
 
 ---
 ## Revision
@@ -85,6 +93,9 @@ $
 Based on the distance, which server would respond to pings faster?
 
 ???
-*a close one
-*a distant one
-*the distance isn’t relevant
+
+* a close one
+* a distant one
+* the distance isn’t relevant
+
+ 

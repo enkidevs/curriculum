@@ -1,4 +1,4 @@
-# Reflect API in ES6
+---
 author: rosielowther
 
 levels:
@@ -9,9 +9,16 @@ type: normal
 
 category: feature
 
+
 links:
 
   - '[www.2ality.com](http://www.2ality.com/2014/12/es6-proxies.html){website}'
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect){website}'
+
+
+---
+
+# Reflect API in ES6
 
 ---
 ## Content
@@ -58,6 +65,7 @@ Complete the missing code bits to implement functionality that is otherwise only
 Reflect.???(target, propertyKey, ???)
 ```
 
+
 * `get`
 * `receiver?`
 * `Reflect`
@@ -75,8 +83,11 @@ Reflect.???(???,
   propertyKey, propDesc);
 ```
 
+
 * `defineProperty`
 * `target`
 * `Reflect`
 * `bool`
 * `initProp`
+
+ 

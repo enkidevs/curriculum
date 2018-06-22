@@ -1,4 +1,4 @@
-# Type inference in generic classes
+---
 author: adamMontgomerie
 
 levels:
@@ -21,10 +21,15 @@ tags:
 
   - java-7
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/types.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/types.html){website}'
+
+
+---
+
+# Type inference in generic classes
 
 ---
 ## Content
@@ -40,3 +45,5 @@ Map<Integer, List<String>> hashMap =
   new HashMap<>();
 ```
 We now only have to state the type arguments once. The compiler will be able to infer from this assignment statement that the type of the `new HashMap<>()` should be `<Integer, List<String>>`.
+
+ 

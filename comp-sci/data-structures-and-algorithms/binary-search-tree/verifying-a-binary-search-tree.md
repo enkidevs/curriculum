@@ -1,22 +1,31 @@
-# Verifying A Binary Search Tree
+---
 author: jfarmer
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: how to
 
+
 links:
-    - >-
-        [Validating a BST](http://stackoverflow.com/questions/499995/how-do-you-validate-a-binary-search-tree){website}
+
+  - '[Validating a BST](http://stackoverflow.com/questions/499995/how-do-you-validate-a-binary-search-tree){website}'
 
 parent: the-binary-search-tree-data-structure
+
+---
+
+# Verifying A Binary Search Tree
+
 ---
 ## Content
 
@@ -68,6 +77,7 @@ Is the following a *binary search tree*?
 ```
 
 ???
+
 * No
 * Yes
 
@@ -77,7 +87,10 @@ Is the following a *binary search tree*?
 A node in a binary search tree has to be
 
 ???
+
 * larger than any node in its left subtree and smaller than any node in the right one.
 * larger than its left child and smaller than its right one.
 * larger than the root and smaller than the right-most leaf.
 * larger than any node in its right subtree and smaller than any node in the left one.
+
+ 

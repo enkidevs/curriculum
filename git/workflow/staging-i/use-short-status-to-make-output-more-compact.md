@@ -1,4 +1,4 @@
-# Use `short` status to make output more compact
+---
 author: rosielowther
 
 levels:
@@ -16,8 +16,12 @@ category: must-know
 
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository){website}'
+
+
+---
+
+# Use `short` status to make output more compact
 
 ---
 ## Content
@@ -48,6 +52,7 @@ M  enki.md
  M hello.md
 ```
 ???
+
 * `enki.md` is modified and staged
 * `enki.md` is modified and not staged
 * `enki.md` is a new untracked file
@@ -60,7 +65,10 @@ What is the option to get a simplified status output?
 ```
 $ git status ???
 ```
+
 * `-s`
 * `--compact`
 * `-v`
 * `--long`
+
+ 

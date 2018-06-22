@@ -1,17 +1,27 @@
-# Bellman-Ford Algorithm Iteration
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
+
 type: normal
 
 category: must-know
 
+
+
 parent: bellman-ford-algorithm
+
+---
+
+# Bellman-Ford Algorithm Iteration
 
 ---
 ## Content
@@ -49,6 +59,7 @@ Bellman-Ford algorithm uses
 
 ??? approach.
 
+
 * `no specific`
 * `greedy`
 * `dynamic`
@@ -61,6 +72,9 @@ In the worst case, the Bellman-Ford algorithm requires
 
 ???
 
-*`|V-1| iterations`
-*`|V| iterations`
-*`|V+1| iterations`
+
+* `|V-1| iterations`
+* `|V| iterations`
+* `|V+1| iterations`
+
+ 

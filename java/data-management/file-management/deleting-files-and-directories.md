@@ -1,4 +1,4 @@
-# Deleting files and directories
+---
 author: catalin
 
 levels:
@@ -8,6 +8,13 @@ levels:
 type: normal
 
 category: how to
+
+
+
+
+---
+
+# Deleting files and directories
 
 ---
 ## Content
@@ -34,7 +41,10 @@ Use `File` class to delete a file:
 ```
 File.???;
 ```
-*`delete(path)` 
-*`rm(path)` 
-*`remove(path)` 
-*`drop(path)`
+
+* `delete(path)` 
+* `rm(path)` 
+* `remove(path)` 
+* `drop(path)`
+
+ 

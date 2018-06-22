@@ -1,12 +1,6 @@
 name: Useful Tools II
 
-type: insights-list
-
 description: Troubleshooting paraphernalia, part II.
-
-section: 1
-
-parent: tools-i
 
 insights:
   - the-jinfo-tool
@@ -14,3 +8,4 @@ insights:
   - the-jmap-tool
   - java-naming-and-directory-interface-jndi
   - the-concurrent-low-pause-collector-in-java
+ 

@@ -1,4 +1,4 @@
-# Using `Arrays.parallelSort` 
+---
 author: catalin
 
 levels:
@@ -11,12 +11,16 @@ type: normal
 
 category: feature
 
-notes: 'https://insights.enki.com/insight/55c839baae32453400962645'
 
 links:
 
-  - >-
-    [www.javacodegeeks.com](http://www.javacodegeeks.com/2013/04/arrays-sort-versus-arrays-parallelsort.html){website}
+  - '[www.javacodegeeks.com](http://www.javacodegeeks.com/2013/04/arrays-sort-versus-arrays-parallelsort.html){website}'
+
+notes: 'https://insights.enki.com/insight/55c839baae32453400962645'
+
+---
+
+# Using `Arrays.parallelSort` 
 
 ---
 ## Content
@@ -59,11 +63,12 @@ Sort the given array in parallel from indexes `6` to `100`:
       myArray, 6, 100
      );
 ```
-*`Arrays` 
-*`parallelSort` 
-*`Array` 
-*`sort()` 
-*`Sorting`
+
+* `Arrays` 
+* `parallelSort` 
+* `Array` 
+* `sort()` 
+* `Sorting`
 
 ---
 ## Revision
@@ -72,5 +77,8 @@ When sorting a small array (up to `2000` elements), what methods is considered m
 
 `???`
 
-*`sort()` 
-*`parallelSort()`
+
+* `sort()` 
+* `parallelSort()`
+
+ 

@@ -1,4 +1,4 @@
-# The `static` and `final` Modifiers
+---
 author: mihaiberq
 
 levels:
@@ -12,9 +12,13 @@ inAlgoPool: false
 category: must-know
 
 ---
+
+# The `static` and `final` Modifiers
+
+---
 ## Content
 
-Both `static` and `final` are non-access modifiers. Therefore, they can be used in conjunction with one another or with access modifiers such as `public` or `private`. 
+Both `static` and `final` are non-access modifiers. Therefore, they can be used in conjunction with one another or with access modifiers such as `public` or `private`.
 
 Variables that are declared `static` exist outside instances of the class, with every instance sharing the same variable. Static variables are also known as *class* variables.
 
@@ -80,17 +84,18 @@ A `final` method cannot be overridden by any subclass. This is particularly usef
 How are static variables also called?
 
 ???
-*Class variables.
-*Instance variables.
-*Constants.
-*Class constants.
+* Class variables.
+* Instance variables.
+* Constants.
+* Class constants.
 
 ---
 ## Revision
 
 Variables declared `final` cannot be ???.
 
-*reassigned
-*modified
-*copied
-*referenced
+* reassigned
+* modified
+* copied
+* referenced
+ 

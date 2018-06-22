@@ -1,4 +1,4 @@
-# Lockdown **Cronjobs**
+---
 author: catalin
 
 levels:
@@ -13,7 +13,13 @@ type: normal
 
 category: tip
 
+
+
 parent: practical-cron
+
+---
+
+# Lockdown **Cronjobs**
 
 ---
 ## Content
@@ -41,6 +47,7 @@ Disable `cron` access for every user:
 ```
 $ ??? ???>>/etc/???
 ```
+
 * `echo`
 * `ALL`
 * `cron.deny`
@@ -57,7 +64,10 @@ $ ??? ???>>/etc/???
 You can deny users access to *cronjobs* by adding them to 
 
 ???.
-*/etc/cron.deny
-*/etc/cron.allow
-*/crontab/deny
-*/cron/.deny
+
+* /etc/cron.deny
+* /etc/cron.allow
+* /crontab/deny
+* /cron/.deny
+
+ 

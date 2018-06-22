@@ -1,18 +1,27 @@
-# Binary Expression tree
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
+
 parent: parsing-reverse-polish-notation
+
+---
+
+# Binary Expression tree
 
 ---
 ## Content
@@ -32,7 +41,6 @@ In-order traversal[1] of the tree will return the infix notation. It is worth me
 
 Pre-order traversal[2] will output the Polish notation, or prefix notation, of the expression, while the post-order traversal[3] will result in the Reverse Polish Notation, or postfix notation.
 
-
 ---
 ## Revision
 
@@ -45,6 +53,7 @@ The following binary expression tree evaluates to:
 3   9   3
 ```
 ???
+
 * `-4`
 * `4`
 * `-3`
@@ -52,7 +61,6 @@ The following binary expression tree evaluates to:
 
 ---
 ## Footnotes
-
 [1:In-order traversal]
 Depth-first traversal in which the parent node is visited after the left child and before right child.
 
@@ -61,3 +69,4 @@ Depth-first traversal in which the parent node is visited before visiting any of
 
 [3:Post-order traversal]
 Depth-first traversal in which the parent node is visited after both children.
+ 

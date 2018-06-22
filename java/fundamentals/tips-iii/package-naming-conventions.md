@@ -1,4 +1,4 @@
-# Package naming conventions
+---
 author: adamMontgomerie
 
 levels:
@@ -15,10 +15,15 @@ tags:
 
   - packages
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/package/namingpkgs.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/package/namingpkgs.html){website}'
+
+
+---
+
+# Package naming conventions
 
 ---
 ## Content
@@ -32,3 +37,5 @@ For example, if we have a package called `examplepackage` and we work at a compa
 com.examplecompany.examplepackage
 ```
 In addition, package names are always in lower case.
+
+ 

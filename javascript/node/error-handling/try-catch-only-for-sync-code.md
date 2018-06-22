@@ -1,24 +1,33 @@
-# `try-catch` only for **sync** code
+---
 author: catalin
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
 
 category: best practice
 
+standards:
+  javascript.identify-common-design-patterns.3: 10
+
+tags:
+  - introduction
+  - workout
+
 links:
-
   - '[nodejs.org](https://nodejs.org/api/errors.html){website}'
+  - '[blog.risingstack.com](https://blog.risingstack.com/node-js-best-practices/){website}'
 
-  - >-
-    [blog.risingstack.com](https://blog.risingstack.com/node-js-best-practices/){website}
+aspects:
+  - introduction
+  - workout
+
+
+---
+# `try-catch` only for **sync** code
 
 ---
 ## Content
@@ -91,5 +100,7 @@ How must errors happen as to handle them with a `try-catch` block?
 
 ???
 
-* `synchronously`
-* `asynchronously`
+* synchronously
+* asynchronously
+
+ 

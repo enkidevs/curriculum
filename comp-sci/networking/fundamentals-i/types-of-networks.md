@@ -1,4 +1,4 @@
-# Types of networks
+---
 author: SebaRaba
 
 levels:
@@ -9,13 +9,17 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - 'http://study.com/academy/lesson/types-of-networks-lan-wan-wlan-man-san-pan-epn-vpn.html'
-
-  - 'http://www.bbc.co.uk/education/guides/z36nb9q/revision'
+  - '[study.com](http://study.com/academy/lesson/types-of-networks-lan-wan-wlan-man-san-pan-epn-vpn.html){website}'
+  - '[www.bbc.co.uk](http://www.bbc.co.uk/education/guides/z36nb9q/revision){website}'
 
 parent: what-is-protocol
+
+---
+
+# Types of networks
 
 ---
 ## Content
@@ -53,28 +57,13 @@ A network device called **router** connects more `LAN`s to a `WAN`, resulting in
 The term `WAN` is usually confused with `WLAN`.
 A `WLAN` is a type of `LAN` that uses wireless technology (nearly always Wi-Fi) to connect some or all computers and devices to the router, and in turn a network (e.g. Internet).
 
-
----
-## Footnotes
-
-[1:Ethernet]
-**Ethernet** is a family of computer networking technologies commonly used in `LAN`s, `MAN`s and `WAN`s.
-
-It defines wiring and signaling standards for the physical layer of other `TCP/IP` stack which will be discussed later.
-
-Chances are you have already connected to a network via an **Ethernet cable**.
-
-[2:Token Ring]
-**Token ring** is a communications *protocol* for `LAN`s. It uses a special `3`-byte frame called a **token** that travels around a logical "ring" of workstations or servers.
-
-This token passing is a channel access method providing fair access for all stations, and eliminating the collisions present in other access methods.
-
 ---
 ## Practice
 
-Which of the following network types describes a local area network that uses **wireless** technologies to connect its devices ?
+Which of the following network types describes a local area network that uses **wireless** technologies to connect its devices?
 
 ???
+
 
 * `WLAN`
 * `LAN`
@@ -89,8 +78,24 @@ What is the **network device** that can connect more `LAN`s into a `WAN`?
 
 ???
 
+
 * router
 * bridge
 * token ring
 * ethernet
 * internet
+
+---
+## Footnotes
+[1:Ethernet]
+**Ethernet** is a family of computer networking technologies commonly used in `LAN`s, `MAN`s and `WAN`s.
+
+It defines wiring and signaling standards for the physical layer of other `TCP/IP` stack which will be discussed later.
+
+Chances are you have already connected to a network via an **Ethernet cable**.
+
+[2:Token Ring]
+**Token ring** is a communications *protocol* for `LAN`s. It uses a special `3`-byte frame called a **token** that travels around a logical "ring" of workstations or servers.
+
+This token passing is a channel access method providing fair access for all stations, and eliminating the collisions present in other access methods.
+ 

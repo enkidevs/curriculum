@@ -1,4 +1,4 @@
-# Unicode in ES6
+---
 author: rosielowther
 
 levels:
@@ -13,13 +13,16 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [ponyfoo.com](https://ponyfoo.com/articles/es6-strings-and-unicode-in-depth){website}
+  - '[ponyfoo.com](https://ponyfoo.com/articles/es6-strings-and-unicode-in-depth){website}'
+  - '[www.2ality.com](http://www.2ality.com/2013/09/javascript-unicode.html){website}'
 
-  - >-
-    [www.2ality.com](http://www.2ality.com/2013/09/javascript-unicode.html){website}
+
+---
+
+# Unicode in ES6
 
 ---
 ## Content
@@ -68,10 +71,11 @@ for (let codePoint of '🌲🌲') {
   console.log(codePoint.???(0));
 }
 ```
-*`codePointAt`
-*`codePoint`
-*`codePointRep`
-*`base10point`
+
+* `codePointAt`
+* `codePoint`
+* `codePointRep`
+* `base10point`
 
 ---
 ## Revision
@@ -80,7 +84,10 @@ How are Javascript strings represented?
 
 ???
 
-*UTF-16
-*UTF-8
-*UTF-32
-*US-ASCII
+
+* UTF-16
+* UTF-8
+* UTF-32
+* US-ASCII
+
+ 

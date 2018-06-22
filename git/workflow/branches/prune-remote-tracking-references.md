@@ -1,4 +1,4 @@
-# Prune remote tracking references
+---
 author: rosielowther
 
 levels:
@@ -11,10 +11,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [github.com](https://github.com/jbranchaud/til/blob/master/git/clean-up-old-remote-tracking-references.md){website}
+  - '[github.com](https://github.com/jbranchaud/til/blob/master/git/clean-up-old-remote-tracking-references.md){website}'
+
+
+---
+
+# Prune remote tracking references
 
 ---
 ## Content
@@ -34,10 +39,11 @@ Remove references to deleted branches:
 ```
 $ git ??? origin ???
 ```
-*`fetch`
-*`--prune`
-*`prune`
-*`--fetch`
+
+* `fetch`
+* `--prune`
+* `prune`
+* `--fetch`
 
 ---
 ## Revision
@@ -46,6 +52,9 @@ $ git ??? origin ???
 $ git fetch origin --prune
 ```
 Removes references to ??? branches.
-*deleted
-*merged
-*existing
+
+* deleted
+* merged
+* existing
+
+ 

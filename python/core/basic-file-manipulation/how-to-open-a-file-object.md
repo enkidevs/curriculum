@@ -1,4 +1,4 @@
-# How to open a file object
+---
 author: SebaRaba
 
 levels:
@@ -11,9 +11,17 @@ type: normal
 
 category: how to
 
+standards:
+  python.standard-library-operating-system.0: 10
+
 links:
 
-  - '[More about open() function](https://www.tutorialspoint.com/python3/python_files_io.htm)'
+  - '[More about open() function](https://www.tutorialspoint.com/python3/python_files_io.htm){website}'
+
+
+---
+
+# How to open a file object
 
 ---
 ## Content
@@ -26,11 +34,10 @@ Consider the following syntax:
 obj = open(f_name, [access_mode],
                       [buffering])
 ```
-
 Here's the disambiguation of its arguments:
-- `file_name`: string value that contains the name of the file
+- `f_name`: string value that contains the name of the file
 - `access_mode`: it determines the mode in which the file has to be opened: `read`, `write`, `append`
-- `buffering`: there are two important values `0` (means no buffering) or `1` (means line buffering[1] is performed). If the value is grater than `1` then that will be considered the buffer's size
+- `buffering`: there are two important values `0` (means no buffering) or `1` (means line buffering[1] is performed). If the value is greater than `1` then that will be considered the buffer's size
 
 The supported modes for opening a file are:
 
@@ -41,6 +48,8 @@ The supported modes for opening a file are:
 - `r+`: Opens the file for both `reading` and `writing`. The **file pointer** is place at the beginning of the file
 - `w+`: Opens the file for writing and reading as well. Overwrites the existing file. If it doesn't exist, creates a new file
 - `ab/rb/wb`: Opens the file for `appending`/`reading`/`writing` in **binary format**
+
+Always pay attention to where the **file pointer** is. That is mainly because when we append something `a` to a file the pointer stays at the end of the file. If we want to print it we need to bring the pointer back to the beginning. This can be done using `seek()` method (eg. seek(0) will move the pointer to the beginning of the file.)
 
 Note that every `file` *object* has the following attributes:
 
@@ -62,24 +71,16 @@ print("The file mode is: ", obj.mode)
 ```
 
 ---
-## Footnotes
-
-[1:line buffering]
-Characters written to a **line buffered stream** are transmitted to the **file** in blocks when a **new line** character is encountered.
-
-[2:file pointer]
-Imagine file pointer as a computer cursor that states on which line you are in the current file.
-
----
 ## Practice
 
 Suppose we want to append something to a file and print its content. Fill the gaps accordingly:
-```py
+```python
 file = open('practice.py', '???')
 file.write('Append this')
 file.???(0)
 print(file.???())
 ```
+
 
 * `a+`
 * `seek`
@@ -93,12 +94,15 @@ print(file.???())
 ## Revision
 
 Suppose we want to open a file and write something to it. Fill the gaps accordingly:
-```py
+```python
 file = open('practice.txt', '???')
 file.???('this is my new file')
 ```
+
 
 * `w`
 * `write`
 * `r`
 * `read`
+ 
+ 

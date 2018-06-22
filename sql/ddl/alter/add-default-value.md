@@ -1,4 +1,4 @@
-# Add Default Value
+---
 author: SebaRaba
 
 levels:
@@ -17,33 +17,49 @@ category: must-know
 
 inAlgoPool: false
 
-links:
-
-  - '[More on ADD DEFAULT](https://www.w3schools.com/sql/sql_default.asp)'
+standards:
+  sql.define-columns.2: 10
 
 tags:
+
+  - workout
+
+  - deep
+
+
+links:
+
+  - '[More on ADD DEFAULT](https://www.w3schools.com/sql/sql_default.asp){website}'
+
+
+aspects:
   - workout
   - deep
+
+
+---
+
+# Add Default Value
 
 ---
 ## Content
 
-In *MS Acccess* and *SQL Servers* we can use the `ALTER TABLE` statement to set default values for desired columns:
-```
+In *MS Acccess* and *SQL Servers*, we can use the `ALTER TABLE` statement to set default values for desired columns:
+```sql
 ALTER TABLE table_name
 ALTER COLUMN column_name
 SET DEFAULT value;
 ```
 
 In *MySQL* the syntax is a little bit different:
-```
+```sql
 ALTER TABLE table_name
 ALTER column_name
 SET DEFAULT value;
 ```
 
 And if we are using *Oracle*:
-```
+```sql
 ALTER TABLE table_name
 MODIFY column_name
 DEFAULT value;
@@ -94,9 +110,11 @@ id | version_group_id |      name
  8 |                5 | sapphire
 ...
 
-    ???
+  ???
 ```
 
 * ALTER TABLE version ALTER COLUMN name SET DEFAULT 'ruby';
 * ALTER TABLE region ALTER COLUMN name SET DEFAULT 'ruby';
 * ALTER TABLE version ALTER name SET DEFAULT 'ruby';
+ 
+ 

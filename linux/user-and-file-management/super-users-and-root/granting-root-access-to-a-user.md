@@ -1,4 +1,4 @@
-# Granting `root` access to a user
+---
 author: tuwi.dc
 
 levels:
@@ -14,15 +14,34 @@ type: normal
 category: how to
 
 tags:
+
   - linux
+
   - user
+
   - group
+
   - terminal
+
   - sudo
+
   - usermod
+
+  - workout
+
+  - introduction
+
+
+
+
+aspects:
   - workout
   - introduction
 
+
+---
+
+# Granting `root` access to a user
 
 ---
 ## Content
@@ -61,7 +80,10 @@ Give `enkiUser` root access:
 ```
 $ usermod ??? ??? enkiUser
 ```
-*`-aG`
-*`root`
-*`-ag`
-*`admin`
+
+* `-aG`
+* `root`
+* `-ag`
+* `admin`
+
+ 

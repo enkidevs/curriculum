@@ -1,12 +1,6 @@
 name: Looping
 
-type: insights-list
-
 description: How to loop  
-
-section: 0
-
-parent: fundamental-data-structures
 
 insights:
   - for-loops
@@ -14,3 +8,9 @@ insights:
   - break-and-continue-statements
   - using-else-in-loops
   - nested-loops
+  - looping-techniques
+
+exercises:
+  - py-practice-boolean
+  - py-practice-iterable
+  - py-practice-iterable2

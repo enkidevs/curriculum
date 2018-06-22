@@ -1,10 +1,6 @@
 name: Intro to HTTP
 
-type: insights-list
-
 description: HTTP must known's.
-
-section: 1
 
 insights:
   - what-is-http
@@ -12,3 +8,4 @@ insights:
   - what-are-status-codes
   - verbs-in-http
   - https
+ 

@@ -1,4 +1,4 @@
-# Distinct clause
+---
 author: SebaRaba
 
 levels:
@@ -17,12 +17,26 @@ category: must-know
 
 inAlgoPool: false
 
+standards:
+  sql.aggregate-single-table.0: 10
+
 tags:
+
   - workout
+
 
 links:
 
-  - '[More on DISTINCT](https://www.tutorialspoint.com/sql/sql-distinct-keyword.htm)'
+  - '[More on DISTINCT](https://www.tutorialspoint.com/sql/sql-distinct-keyword.htm){documentation}'
+
+
+aspects:
+  - workout
+
+
+---
+
+# Distinct clause
 
 ---
 ## Content
@@ -76,6 +90,7 @@ count
 (1 row)
 ```
 
+
 * SELECT COUNT(DISTINCT name) FROM pokedex_name;
 * SELECT * FROM pokedex_name;
 * SELECT DISTINCT COUNT(name) FROM pokedex_name;
@@ -102,8 +117,11 @@ FROM ???
 ??? BY GRADES;
 ```
 
+
 * `DISTINCT name`
 * `GRADES`
 * `ORDER`
 * `EMPLOYEES`
 * `*`
+ 
+ 

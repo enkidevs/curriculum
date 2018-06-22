@@ -1,4 +1,4 @@
-# What Is an Object?
+---
 author: mihaiberq
 
 levels:
@@ -7,9 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# What Is an Object?
 
 ---
 ## Content
@@ -58,6 +65,7 @@ What is the keyword used when instantiating objects?
 
 ???
 
+
 * `new`
 * `build`
 * `new*`
@@ -70,6 +78,9 @@ The `initalization` part of creating an object refers to
 
 ???
 
+
 * the constructor method being called
 * the `new` keyword being used
 * the variable being declared
+
+ 

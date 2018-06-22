@@ -1,12 +1,6 @@
 name: Introduction to Iterators
 
-type: insights-list
-
 description: Iterators 101
-
-section: 0
-
-parent: arrays-ii
 
 insights:
   - what-is-an-iterable
@@ -14,3 +8,7 @@ insights:
   - the-iteration-protocol
   - the-itertools-module
   - iterators-applications
+
+exercises:
+  - py-practice-functional-libraries
+  - py-practice-next-iter

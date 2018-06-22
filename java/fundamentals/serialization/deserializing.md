@@ -1,4 +1,4 @@
-# Deserializing
+---
 author: Nick Daminov
 
 levels:
@@ -9,9 +9,15 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - '[More on Serialization](https://www.tutorialspoint.com/java/java_serialization.htm)'
+  - '[More on Serialization](https://www.tutorialspoint.com/java/java_serialization.htm){website}'
+
+
+---
+
+# Deserializing
 
 ---
 ## Content
@@ -84,6 +90,7 @@ Suppose we receive a `.ser` file which stores information about some `Car` objec
 
 ???
 
+
 * It will be `null`
 * Deserialing an object with `transient` filed will cause a program termination
 * It will be a random address value
@@ -102,6 +109,9 @@ What is the correct order of deserializing a file?
 3.
 ???
 
+
 * create an empty object
 * open a suitable to read as an input stream file
 * deserialize the file (i.e. fill our empty object with information)
+
+ 

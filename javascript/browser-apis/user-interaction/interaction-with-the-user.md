@@ -1,4 +1,4 @@
-# Interaction with the user
+---
 author: ioanna.ki
 
 levels:
@@ -15,9 +15,15 @@ tags:
 
   - javascript
 
+
 links:
 
   - '[javascript.info](javascript.info){website}'
+
+
+---
+
+# Interaction with the user
 
 ---
 ## Content
@@ -51,10 +57,11 @@ Prompt the user with a message and input option:
 ???(???, default);
 ```
 
-*`prompt`
-*`text`
-*`alert`
-*`confirm`
+
+* `prompt`
+* `text`
+* `alert`
+* `confirm`
 
 ---
 ## Revision
@@ -64,7 +71,10 @@ Prompt the user with a message and input option:
 ???(???, default);
 ```
 
-*`prompt`
-*`text`
-*`alert`
-*`confirm`
+
+* `prompt`
+* `text`
+* `alert`
+* `confirm`
+
+ 

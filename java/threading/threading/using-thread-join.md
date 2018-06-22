@@ -1,4 +1,4 @@
-# Using `Thread.join`
+---
 author: adamMontgomerie
 
 levels:
@@ -9,11 +9,17 @@ type: normal
 
 category: feature
 
+
 links:
 
-- '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/concurrency/join.html)'
-- '[More on Joining](https://docs.oracle.com/javase/tutorial/essential/concurrency/join.html)'
-- '[More on InterruptedException](https://docs.oracle.com/javase/7/docs/api/java/lang/InterruptedException.html)'
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/concurrency/join.html){website}'
+  - '[More on Joining](https://docs.oracle.com/javase/tutorial/essential/concurrency/join.html){website}'
+  - '[More on InterruptedException](https://docs.oracle.com/javase/7/docs/api/java/lang/InterruptedException.html){website}'
+
+
+---
+
+# Using `Thread.join`
 
 ---
 ## Content
@@ -73,6 +79,7 @@ What does `join()` method do?
 
 ???
 
+
 * It waits until a thread finished executing
 * It pauses execution of a thread for a certain time
 * It pauses all the threads in a queue
@@ -96,6 +103,7 @@ t1.join();
 
 The `t1.join()` method call will? ???
 
+
 * join()
 * wait until t1 to dies
 * sleep()
@@ -104,3 +112,5 @@ The `t1.join()` method call will? ???
 * immediately start t2
 * pause t1 until t2 dies
 * speed up t1
+
+ 

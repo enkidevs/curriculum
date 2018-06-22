@@ -1,4 +1,4 @@
-# Delete commands aliases
+---
 author: catalin
 
 levels:
@@ -8,6 +8,13 @@ levels:
 type: normal
 
 category: tip
+
+
+
+
+---
+
+# Delete commands aliases
 
 ---
 ## Content
@@ -28,17 +35,18 @@ $ alias rm='rm -i'
 ## Revision
 
 You can prompt for confirmation when using `rm` and `mv` commands with `???` flag.
-*`-i`
-*`-I`
-*`-r`
-*`-p`
+
+* `-i`
+* `-I`
+* `-r`
+* `-p`
 
 ---
 ## Footnotes
-
 [1:remove]
 The `rm` (i.e., remove) command is used to delete files and directories.
 [2:move]
 The `mv` (i.e., move) command is used to move or rename files.
 [3:copy]
 The `cp` (i.e., copy) command is used to make copies of files and directories.
+ 

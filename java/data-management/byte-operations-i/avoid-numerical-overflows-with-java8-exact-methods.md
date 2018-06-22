@@ -1,4 +1,4 @@
-# Avoid numerical overflows with *Java8* `exact` methods.
+---
 author: catalin
 
 levels:
@@ -9,17 +9,21 @@ type: normal
 
 category: feature
 
-notes: 'https://insights.enki.com/#/contrib/others/55f03d0d1baba32f002fd319?search=kha'
 
 links:
 
-  - >-
-    [howtodoinjava.com](http://howtodoinjava.com/2014/05/04/java-8-exact-airthmetic-operations-supported-in-math-class/){website}
+  - '[howtodoinjava.com](http://howtodoinjava.com/2014/05/04/java-8-exact-airthmetic-operations-supported-in-math-class/){website}'
+
+notes: 'https://insights.enki.com/#/contrib/others/55f03d0d1baba32f002fd319?search=kha'
+
+---
+
+# Avoid numerical overflows with *Java8* `exact` methods.
 
 ---
 ## Content
 
-In order to avoid *numerical overflows* or *underflows* (that is assigning a value to a variable whose type size does not allow it) a certain set of methods have been added with **Java 8**.
+To avoid *numerical overflows* or *underflows* (that is assigning a value to a variable whose type size does not allow it), a specific set of methods have been added with **Java 8**.
 
 
 The `Math` class has been enhanced with the release of **Java 8**, adding a new set of `exact` methods.
@@ -54,11 +58,12 @@ What exception will be thrown when an overflow or an underflow occurs using **ex
 
 `???`
 
-*`ArithmeticException` 
-*`FileNotFoundException` 
-*`ArrayIndexOutOfBoundsException` 
-*`ExactArithmeticException` 
-*`OverflowlowException`
+
+* `ArithmeticException` 
+* `FileNotFoundException` 
+* `ArrayIndexOutOfBoundsException` 
+* `ExactArithmeticException` 
+* `OverflowlowException`
 
 ---
 ## Revision
@@ -67,7 +72,10 @@ What method can be used from the `Math` class such that numerical overflows and 
 
 `???`
 
-*`addExact` 
-*`incrementExact` 
-*`add` 
-*`exactAdd`
+
+* `addExact` 
+* `incrementExact` 
+* `add` 
+* `exactAdd`
+
+ 

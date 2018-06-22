@@ -1,4 +1,4 @@
-# Viewing your tracking branches
+---
 author: rosielowther
 
 levels:
@@ -9,12 +9,16 @@ type: normal
 
 category: feature
 
-parent: managing-branches
 
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}'
+
+parent: managing-branches
+
+---
+
+# Viewing your tracking branches
 
 ---
 ## Content
@@ -51,10 +55,11 @@ It can be said that:
 
 `newFeature` is ???.
 
-*up-to-date
-*ahead of the remote branch by 2 commits
-*behind of the remote branch by 2 commits
-*untracked
+
+* up-to-date
+* ahead of the remote branch by 2 commits
+* behind of the remote branch by 2 commits
+* untracked
 
 ---
 ## Revision
@@ -63,7 +68,10 @@ To see the status of your tracked branches in relation with their upstream count
 ```
 $ git ??? ???
 ```
-*`branch`
-*`-vv`
-*`--vv`
-*`-branch`
+
+* `branch`
+* `-vv`
+* `--vv`
+* `-branch`
+
+ 

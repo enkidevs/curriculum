@@ -1,4 +1,4 @@
-# Working with remotes
+---
 author: catalin
 
 levels:
@@ -7,17 +7,20 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [git-scm.com](https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}
+  - '[git-scm.com](https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}'
+  - '[git-scm.com](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes){website}'
 
-  - >-
-    [git-scm.com](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes){website}
+
+---
+
+# Working with remotes
 
 ---
 ## Content
@@ -29,9 +32,9 @@ You can see the remote repositories with your project by calling `git remote`:
 $ git remote
 # origin
 ```
-Keep in mind that `origin` is the default name **Git** gives to the server you clone from.
+Keep in mind that `origin` is the default name **Git** gives to the server you cloned from.
 
-Using the `-v` flag you can also see the `URL`s associated with the remotes[1]:
+Using the `-v` flag, you can also see the `URL`s associated with the remotes[1]:
 ```
 $ git remote -v
 # origin https://github.com/user/rep (fetch)
@@ -58,10 +61,11 @@ What's the default name **Git** provides to the server you `clone` from?
 
 ???
 
-*origin
-*master
-*remote
-*GitHub
+
+* origin
+* master
+* remote
+* GitHub
 
 ---
 ## Revision
@@ -72,17 +76,18 @@ What command is used to see the remote repositories for your project?
 $ git ???
 ```
 
-*`remote`
-*`remotes`
-*`add`
-*`status`
-*`checkout`
+
+* `remote`
+* `remotes`
+* `add`
+* `status`
+* `checkout`
 
 ---
 ## Footnotes
-
 [1:remotes]
 Using the `-v` flag will show the `URL`s used when both reading (merge or fetch) and writing (push) to that remote:
 
 - `fetch`: reading
 - `push`: writing
+ 

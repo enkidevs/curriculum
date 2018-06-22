@@ -1,4 +1,4 @@
-# What is **state**?
+---
 author: catalin
 
 levels:
@@ -15,17 +15,17 @@ type: normal
 
 category: must-know
 
-parent: what-are-props
 
 links:
 
+  - '[facebook.github.io](https://facebook.github.io/react/docs/state-and-lifecycle.html){website}'
+  - '[medium.com](https://medium.com/react-tutorials/react-state-14a6d4f736f5#.8vf5a6ngz){website}'
 
- - >-
-   [facebook.github.io](https://facebook.github.io/react/docs/state-and-lifecycle.html){website}
+parent: what-are-props
 
- - >-
-   [medium.com](https://medium.com/react-tutorials/react-state-14a6d4f736f5#.8vf5a6ngz){website}
+---
 
+# What is **state**?
 
 ---
 ## Content
@@ -89,6 +89,7 @@ How do you change the value of `this.state.a` ?
 ???
 ```
 
+
 * `this.setState({a: 'A'})`
 * `this.state.a = 'A'`
 * `this.setState({state: {a: 'A'}})`
@@ -101,7 +102,10 @@ Where should **initial state** be set in a component class?
 
 ???
 
+
 * in `constructor(props)`
 * in `render()`
 * in `this.setState(initialState)`
 * anywhere in the component
+
+ 

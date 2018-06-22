@@ -1,4 +1,4 @@
-# Encapsulation
+---
 author: mihaiberq
 
 levels:
@@ -7,14 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [Encapsulation](https://www.tutorialspoint.com/java/java_encapsulation.htm){website}
+  - '[Encapsulation](https://www.tutorialspoint.com/java/java_encapsulation.htm){website}'
+
+
+---
+
+# Encapsulation
 
 ---
 ## Content
@@ -82,17 +87,21 @@ public void setNoDoors(int newNoDoors){
 
 To achieve encapsulation, fields in a class should be declared ???.
 
-*private
-*public
-*static
-*final
+
+* private
+* public
+* static
+* final
 
 ---
 ## Revision
 
 Methods that return or change the value of a class' variables are called ???.
 
-*getters and setters
-*returners and changers
-*getters and changers
-*returners and setters
+
+* getters and setters
+* returners and changers
+* getters and changers
+* returners and setters
+
+ 

@@ -1,4 +1,4 @@
-# Inheritance
+---
 author: mihaiberq
 
 levels:
@@ -7,9 +7,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# Inheritance
 
 ---
 ## Content
@@ -110,10 +117,11 @@ test(sCar); //valid
 Where should the `super()` method be called in the constructor?
 
 ???
-*As the first statement.
-*As the last statement.
-*Anywhere.
-*It is not supposed to be called in the constructor.
+
+* As the first statement.
+* As the last statement.
+* Anywhere.
+* It is not supposed to be called in the constructor.
 
 ---
 ## Revision
@@ -121,7 +129,10 @@ Where should the `super()` method be called in the constructor?
 What method should the child class call to use the parent's constructor?
 
 ???
-*super()
-*parent()
-*extends()
-*build()
+
+* super()
+* parent()
+* extends()
+* build()
+
+ 

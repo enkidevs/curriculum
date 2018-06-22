@@ -1,4 +1,4 @@
-# Solving basic merge conflicts
+---
 author: rosielowther
 
 levels:
@@ -8,6 +8,13 @@ levels:
 type: normal
 
 category: must-know
+
+
+
+
+---
+
+# Solving basic merge conflicts
 
 ---
 ## Content
@@ -23,15 +30,12 @@ $ git merge fix
 The file impacted will have conflict-resolution markers (`<<<<<<<` and `>>>>>>>`) added to it by git, showing the conflicting lines (separated by `=======`). Opening `README.md` in a text editor:
 ```
 To contact us email:
-<<<<<<< HEAD
 hello@enki.com
-=======
-help@enki.com
->>>>>>> fix
 ```
-You have to manually choose the option you want or combine them.
+You have to choose the option you want or combine them manually.
+.
 
-Then run `git add` to mark the file as resolved. When you're done resolving conflicts finalize the merge with `git commit`.
+Then run `git add` to mark the file as resolved. When you are done resolving conflicts finalize the merge with `git commit`.
 
 ---
 ## Practice
@@ -42,14 +46,11 @@ $ git ??? test
 # merge failed
 
 # open testing.js to resolve issues
-<<<<<<< HEAD
 console.log(a);
-=======
-console.log(b);
->>>>>>> test
 
 $ git ??? testing.js
 ```
+
 * `merge`
 * `add`
 * `rm`
@@ -62,8 +63,11 @@ How do you mark a merge conflict as resolved?
 ```
 $ git ???
 ```
+
 * `add`
 * `merge`
 * `rm`
 * `branch`
 * `commit`
+
+ 

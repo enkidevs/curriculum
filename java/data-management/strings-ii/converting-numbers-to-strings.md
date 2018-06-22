@@ -1,4 +1,4 @@
-# Converting numbers to strings
+---
 author: adamMontgomerie
 
 levels:
@@ -17,10 +17,15 @@ tags:
 
   - strings
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/converting.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/converting.html){website}'
+
+
+---
+
+# Converting numbers to strings
 
 ---
 ## Content
@@ -40,3 +45,5 @@ A third method is to use the `toString` method from one of the `Number` subclass
 float f = 5.4;
 String s = Float.toString(f);
 ```
+
+ 

@@ -1,4 +1,4 @@
-# Preventing a user from logging into the system
+---
 author: tuwi.dc
 
 levels:
@@ -15,11 +15,18 @@ tags:
 
   - nologin
 
-  - 'false'
+  - false
 
   - shells
 
   - prevent
+
+
+
+
+---
+
+# Preventing a user from logging into the system
 
 ---
 ## Content
@@ -53,12 +60,13 @@ Prevent user `Tom`  from logging into the system :
 $ sudo ??? ??? 
        ??? ???
 ```
-*`chsh`
-*`Tom`
-*`-s`
-*`/bin/nologin`
-*`cshs`
-*`-l`
+
+* `chsh`
+* `Tom`
+* `-s`
+* `/bin/nologin`
+* `cshs`
+* `-l`
 
 ---
 ## Revision
@@ -68,7 +76,10 @@ Restore log-in rights for Tom:
 $ sudo ??? Tom 
         -s ???
 ```
-*`chsh`
-*`/bin/bash`
-*`cshs`
-*`/bin/login`
+
+* `chsh`
+* `/bin/bash`
+* `cshs`
+* `/bin/login`
+
+ 

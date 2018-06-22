@@ -1,4 +1,4 @@
-# Multidimensional array declaration
+---
 author: kld14
 
 levels:
@@ -11,6 +11,13 @@ type: normal
 
 category: how to
 
+
+
+
+---
+
+# Multidimensional array declaration
+
 ---
 ## Content
 
@@ -22,7 +29,7 @@ int array[][] = new int[10][7];
 ```
 
 The following code declares a 3D array - an array of 10 
-arrays each containing 7 arrays. The 7 arrays are of length 3.
+Arrays each containing 7 arrays. The 7 arrays are of length 3.
 
 ```
 int array[][][] = new int[10][7][3];
@@ -46,11 +53,12 @@ Declare an array of 8 arrays, each of length 4:
 int array[][]=new int[???][???]
 ```
 
-*`8` 
-*`4` 
-*`2` 
-*`[]` 
-*`null`
+
+* `8` 
+* `4` 
+* `2` 
+* `[]` 
+* `null`
 
 ---
 ## Revision
@@ -59,9 +67,12 @@ Java VM specification sets the maximum number of dimensions an array can have to
 
 `???`
 
-*`255` 
-*`256` 
-*`254` 
-*`101` 
-*`27` 
-*`100`
+
+* `255` 
+* `256` 
+* `254` 
+* `101` 
+* `27` 
+* `100`
+
+ 

@@ -1,4 +1,4 @@
-# Prototype methods
+---
 author: dean
 
 levels:
@@ -13,9 +13,38 @@ type: normal
 
 category: pattern
 
+standards:
+
+  javascript.prototype-inherit.0: 10
+
 tags:
 
-  - 'prototype, methods, class, object'
+  - introduction
+
+  - workout
+
+  - deep
+
+  - prototype
+
+  - methods
+
+  - class
+
+  - object
+
+
+
+
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
+---
+
+# Prototype methods
 
 ---
 ## Content
@@ -69,17 +98,21 @@ function MyHobby(hobby){
 var student = new MyHobby("studying");
 student.sayHobby();
 ```
-*prototype
-*sayHobby
-*MyHobby
-*studying
-*printHobby
+
+* prototype
+* sayHobby
+* MyHobby
+* studying
+* printHobby
 
 ---
 ## Revision
 
-An object that can be inherited is called ???.
+An object in JavaScript that can be inherited from is called ???.
 
-*prototype
-*variable
-*function
+
+* prototype
+* variable
+* function
+
+ 

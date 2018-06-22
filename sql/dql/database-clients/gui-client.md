@@ -1,4 +1,4 @@
-# GUI Client
+---
 author: Nick Daminov
 
 levels:
@@ -13,15 +13,31 @@ category: feature
 
 inAlgoPool: false
 
+standards:
+  sql.connect-client.0: 10
+  sql.connect-client.1: 10
+
 tags:
-  - introduction
+
+
+
   - workout
+
 
 links:
 
-  - '[Top 10 GUI Database Tools](https://techtalk.gfi.com/top-10-free-database-tools-for-sys-admins/)'
-  - '[pgAdmin Download](https://www.pgadmin.org/download/)'
-  - '[Installing .dmg package](https://apple.stackexchange.com/questions/64845/how-do-i-install-applications-from-a-dmg-file)'
+  - '[Top 10 GUI Database Tools](https://techtalk.gfi.com/top-10-free-database-tools-for-sys-admins/){website}'
+  - '[pgAdmin Download](https://www.pgadmin.org/download/){website}'
+  - '[Installing .dmg package](https://apple.stackexchange.com/questions/64845/how-do-i-install-applications-from-a-dmg-file){website}'
+
+
+aspects:
+  - workout
+
+
+---
+
+# GUI Client
 
 ---
 ## Content
@@ -41,7 +57,7 @@ In order to connect to Enki "Pokemon" click "Add new Server" in " Quick Links", 
 
 Now the connection has been established, for further information please refer to the *pgAdmin* documentation.
 
-**NOTE: Bookmark this insight, and try connecting to the databae on your own!**
+**NOTE: Bookmark this insight, and try connecting to the database on your own!**
 
 ---
 ## Practice
@@ -51,6 +67,7 @@ Suppose we have the following connection string:
 
 What is the name of a database???
 What is user name???
+
 * pokemon
 * ashketchum
 
@@ -64,5 +81,8 @@ What is the name of a database?
 ???
 What is user name?
 ???
+
 * pokemon
 * ashketchum
+ 
+ 

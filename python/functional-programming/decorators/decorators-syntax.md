@@ -1,4 +1,4 @@
-# Decorators syntax
+---
 author: mihaiberq
 
 levels:
@@ -8,6 +8,13 @@ levels:
 type: normal
 
 category: feature
+
+
+
+
+---
+
+# Decorators syntax
 
 ---
 ## Content
@@ -55,7 +62,7 @@ def say_hello(name):
 print(say_hello("Mike"))
 ```
 Both approaches will result in:
-```HTML
+```html
 <div><h2>Hello, Mike!</h2></div>
 ```
 ### Passing arguments
@@ -110,12 +117,12 @@ def foo():
 
 ```
 ???
+
 * C
 * D
 * A
 * B
 * they are all valid
-
 
 ---
 ## Revision
@@ -138,8 +145,11 @@ def decorator():
     ...
 ```
 ???
+
 * D
 * C
 * A
 * B
 * they are all valid
+
+ 

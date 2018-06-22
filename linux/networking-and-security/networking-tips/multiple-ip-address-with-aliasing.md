@@ -1,4 +1,4 @@
-# Multiple IP Address with aliasing 
+---
 author: tuwi.dc
 
 levels:
@@ -24,6 +24,13 @@ tags:
   - terminal
 
   - eth0
+
+
+
+
+---
+
+# Multiple IP Address with aliasing 
 
 ---
 ## Content
@@ -77,9 +84,12 @@ To temporary alias `eth0` interface as `eth0:1` you would run:
 $ ??? ??? ??? 
      100.100.100.1  ???
 ```
-*`sudo`
-*`ifconfig`
-*`eth0:1`
-*`up`
-*`eth0`
-*`ACTIVE`
+
+* `sudo`
+* `ifconfig`
+* `eth0:1`
+* `up`
+* `eth0`
+* `ACTIVE`
+
+ 

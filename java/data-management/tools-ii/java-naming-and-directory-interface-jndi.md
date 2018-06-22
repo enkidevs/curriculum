@@ -1,5 +1,4 @@
-# Java Naming and Directory Interface (*JNDI*)
-
+---
 author: catalin
 
 levels:
@@ -12,13 +11,17 @@ type: normal
 
 category: tip
 
-notes: |
-  https://insights.enki.com/#/contrib/5599b0227d50844e00f804b4
 
 links:
 
-  - >-
-    [en.wikipedia.org](https://en.wikipedia.org/wiki/Java_Naming_and_Directory_Interface){website}
+  - '[en.wikipedia.org](https://en.wikipedia.org/wiki/Java_Naming_and_Directory_Interface){website}'
+
+notes: |
+  https://insights.enki.com/#/contrib/5599b0227d50844e00f804b4
+
+---
+
+# Java Naming and Directory Interface (*JNDI*)
 
 ---
 ## Content
@@ -53,6 +56,9 @@ ctx.lookup("com.mydomain.MyClass");
 ## Revision
 
 JNDI API has access to ???
-*multiple naming and directory services.
-*network statistics.
-*classes bytecode.
+
+* multiple naming and directory services.
+* network statistics.
+* classes bytecode.
+
+ 

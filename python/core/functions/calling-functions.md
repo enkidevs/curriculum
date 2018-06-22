@@ -1,4 +1,4 @@
-# Calling functions
+---
 author: tommarshall
 
 levels:
@@ -7,14 +7,24 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+standards:
+  python.functions.1: 10
+
+
+---
+
+# Calling functions
+
 
 ---
 ## Content
 
-To call a function in Python you simply write the functions name followed by some brackets `()`.
+To call a function in Python, you write the functions name followed by some brackets `()`.
 
 For example:
 
@@ -42,7 +52,7 @@ def func(x):
     ans = x * x
     print(ans)
 ```
-So to call this function, you must pass a parameter into your function call like follows:
+So to call this function, you must pass a parameter into your function call as follows:
 ```python
 num = 5
 func(num)
@@ -51,6 +61,28 @@ In the example, variable `x` will take the value of `num`, therefore the output 
 ```
 25
 ```
+
+---
+## Practice
+
+Find the arithmetic mean of `x` and `y`:
+
+```python
+x = 4
+y = 2
+??? mean(a, b):
+    print((a + b) / 2)
+
+???(???)
+mean(x, y)
+```
+
+* def
+* mean
+* (x, y)
+* (a, b)
+
+
 
 ---
 ## Revision
@@ -65,6 +97,7 @@ Complete the code snippet to define and call the function with the correct param
 num = 5
 ???(???)
 ```
+
 * `def`
 * `cube`
 * `num`
@@ -73,3 +106,4 @@ num = 5
 * `obj`
 * `var`
 * `function`
+ 

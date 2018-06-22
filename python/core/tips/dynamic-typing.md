@@ -1,4 +1,4 @@
-# Dynamic Typing
+---
 author: catalin
 
 levels:
@@ -10,6 +10,13 @@ levels:
 type: normal
 
 category: must-know
+
+
+
+
+---
+
+# Dynamic Typing
 
 ---
 ## Content
@@ -28,7 +35,7 @@ def x():
 
 In Python, variables do not represent a portion of computer's memory where their value is written, but *tags* pointing to object.
 
-Keep in mind that it is a **bad practice** to use the same variable name for different data types. Instead, use meaningful names for 
+Keep in mind that it is a **bad practice** to use the same variable name for different data types. Instead, use meaningful names for
 ```python
 # bad
 x = 2.71
@@ -37,3 +44,45 @@ x = 'hey'
 e = 2.71
 greeting = 'hey'
 ```
+
+---
+## Practice
+
+What will the type of the `n` variable will be eventually?
+
+```python
+n = 'hello'
+n = 9
+n = 5.9
+n = 4
+
+print(type(n))
+???
+```
+
+* int
+* float
+* string
+
+---
+## Revision
+
+What will the type of `d` variable will be eventually?
+
+```python
+d = 'h'
+d = 'hello world'
+
+def d():
+  pass
+
+print(type(d))
+```
+???
+
+* function
+* type
+* int
+* string
+* char
+ 

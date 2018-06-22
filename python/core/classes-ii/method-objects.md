@@ -1,4 +1,4 @@
-# Method objects
+---
 author: catalin
 
 levels:
@@ -11,8 +11,12 @@ type: normal
 
 category: tip
 
-parent: instance-objects
 
+links:
+
+  - '[docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#method-objects){website}'
+
+parent: instance-objects
 notes: >
   Using the word Enki or enki in many places such as for class name, instance
   name, return value (as in this example), is confusing to readers. Use
@@ -37,17 +41,19 @@ notes: >
   It should be connected to some purpose or benefit, otherwise may be better not
   to show it.
 
-links:
+standards:
+  python.object-oriented.3: 10
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#method-objects){website}
+---
+
+# Method objects
 
 ---
 ## Content
 
-In Python, functions are seen as *objects* - and there is a clear distinction between a **method call** and a **method object**.
+Methods are seen as functions called on *objects* -- and there is a clear distinction between a **method call** and a **method object**.
 
-Considering the following class and its instantiation: 
+Considering the following class and its instantiation:
 ```python
 class Enki:
     def f(self):
@@ -72,10 +78,32 @@ print(ef()) # prints 'Python'
 Note that under the hood, `enki.f()` is **exactly equivalent** to `Enki.f(enki)`.
 
 ---
+## Practice
+
+Store a method object of class `Hello` in the variable `temp` and call it afterwards:
+
+```python
+class Hello:
+  def greet(self):
+    print('Hello everyone')
+
+temp = ???
+???
+```
+
+* Hello.greet
+* temp()
+* temp.greet()
+* Hello()
+* Hello.greet()
+
+
+---
 ## Revision
 
 Store in variable `x` a method object from the `Test` class:
-```
+
+```python
 class Test:
    def p(self):
        return “p method”
@@ -83,10 +111,13 @@ class Test:
 x = test.???
 ```
 
-*`test`
-*`p`
-*`p()`
-*`Test`
-*`new`
-*`def`
-*`get`
+
+* `test`
+* `p`
+* `p()`
+* `Test`
+* `new`
+* `def`
+* `get`
+ 
+ 

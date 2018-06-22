@@ -1,12 +1,6 @@
 name: Comprehension
 
-type: insights-list
-
-description: Generate collections on the go with comprehension 
-
-section: 0
-
-parent: iterators
+description: Generate collections on the go with comprehension
 
 insights:
   - list-comprehension
@@ -14,3 +8,9 @@ insights:
   - set-comprehension
   - dictionary-comprehension
   - speed-up-your-for-loop-using-map-or-list-comprehensions
+
+exercises:
+  - py-practice-list-comprehension
+  - py-practice-list-comprehension2
+  - py-practice-dictionary-comprehension
+  - py-practice-set-comprehension

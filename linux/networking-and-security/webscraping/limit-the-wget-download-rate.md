@@ -1,4 +1,4 @@
-# Limit the `wget` download rate
+---
 author: tuwi.dc
 
 levels:
@@ -25,6 +25,13 @@ tags:
 
   - download
 
+
+
+
+---
+
+# Limit the `wget` download rate
+
 ---
 ## Content
 
@@ -46,9 +53,12 @@ Limit the download rate for `file.iso`  to 1MB:
 $ ??? ??? ??? 
       http://server.com/file.iso
 ```
-*`wget`
-*`—limit-rate`
-*`1m`
-*`1MB`
-*`-L`
-*`ds`
+
+* `wget`
+* `—limit-rate`
+* `1m`
+* `1MB`
+* `-L`
+* `ds`
+
+ 

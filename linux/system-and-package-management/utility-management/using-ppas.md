@@ -1,4 +1,4 @@
-# Using `PPAs`
+---
 author: tuwi.dc
 
 levels:
@@ -26,6 +26,13 @@ tags:
   - server
 
   - ubuntu
+
+
+
+
+---
+
+# Using `PPAs`
 
 ---
 ## Content
@@ -60,12 +67,13 @@ $ ppa-purge ppa:<lp-name>/<ppa-name>
 `PPA's`  are not recommended if 
 
 ???.
-*you want a stable build
-*you want to test new features 
-*applications are not working
+
+* you want a stable build
+* you want to test new features 
+* applications are not working
 
 ---
 ## Footnotes
-
 [1:Acronym]
 Personal Package Archive
+ 

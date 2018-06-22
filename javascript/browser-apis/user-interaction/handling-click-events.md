@@ -1,4 +1,4 @@
-# Handling click events
+---
 author: catalin
 
 levels:
@@ -13,12 +13,16 @@ type: normal
 
 category: tip
 
+
 links:
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/31286257/how-to-check-the-click-is-single-or-double-in-javascript){website}
-
+  - '[stackoverflow.com](http://stackoverflow.com/questions/31286257/how-to-check-the-click-is-single-or-double-in-javascript){website}'
   - '[javascript.info](http://javascript.info/tutorial/mouse-events){website}'
+
+
+---
+
+# Handling click events
 
 ---
 ## Content
@@ -51,6 +55,7 @@ Add a listener to a `double click` event:
 ```javascript
 myVar.???('???', myDoubleClickFunction);
 ```
+
 * `addEventListener`
 * `dblclick`
 * `addListener`
@@ -68,9 +73,12 @@ myVar.???(???,
   myCLickFunction);
 ```
 
-*`addEventListener`
-*`click`
-*`dblclick`
-*`addClickListener`
-*`false`
-*`contextmenu`
+
+* `addEventListener`
+* `click`
+* `dblclick`
+* `addClickListener`
+* `false`
+* `contextmenu`
+
+ 

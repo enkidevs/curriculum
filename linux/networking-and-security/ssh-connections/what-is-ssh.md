@@ -1,4 +1,4 @@
-# What is SSH?
+---
 author: SebaRaba
 
 levels:
@@ -11,10 +11,16 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[More about Snowden effect](http://whatis.techtarget.com/definition/Snowden-effect)'
-  - '[More on SSH](https://www.digitalocean.com/community/tutorials/how-to-use-ssh-to-connect-to-a-remote-server-in-ubuntu)'
+  - '[More about Snowden effect](http://whatis.techtarget.com/definition/Snowden-effect){website}'
+  - '[More on SSH](https://www.digitalocean.com/community/tutorials/how-to-use-ssh-to-connect-to-a-remote-server-in-ubuntu){website}'
+
+
+---
+
+# What is SSH?
 
 ---
 ## Content
@@ -41,6 +47,7 @@ What type of encryption does SSH-2 use?
 
 ???
 
+
 * AES or Blowfish
 * Deffie-Helman key exchanged
 * public-key cryptography
@@ -53,13 +60,13 @@ What are the three utilities SSH comprises?
 
 ???
 
+
 * ssh, slogin, scp
 * rlogin, ssh, rcp
 * rlogin, rsh, rcp
 
 ---
 ## Footnotes
-
 [1:public-key encryption]
 It uses a public and a private key to encrypt data. These keys are large numbers that have been paired together. The public key can be shared with everyone, whilst the private key is kept secret.
 
@@ -71,3 +78,4 @@ It stands for Advanced Encryption Standard. It was also chosen by the U.S. gover
 
 [4: Blowfish]
 It's an encryption algorithm that uses an variable-length key (form 32 to 448 bits).
+ 

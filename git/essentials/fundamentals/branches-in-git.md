@@ -1,4 +1,4 @@
-# Branches in Git
+---
 author: catalin
 
 levels:
@@ -7,14 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [git-scm.com](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell){website}
+  - '[git-scm.com](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell){website}'
+
+
+---
+
+# Branches in Git
 
 ---
 ## Content
@@ -27,10 +32,10 @@ Understanding and mastering this is paramount to proficiency and expertise with 
 
 Conceptually, a branch is divergence at a specific point from your working tree[1]
 
-Changes (technically commits) are added to history of the current branch, resulting in a fork[2] in the project history.
-In practice a branch is merely a **pointer** to a specific commit object.
+Changes (technically commits) are added to the history of the current branch, resulting in a fork[2] in the project history.
+In practice, a branch is merely a **pointer** to a specific commit object.
 
-With the `git branch` command you can create, edit, rename and remove branches. 
+With the `git branch` command you can create, edit, rename and remove branches.
 
 Branches are often used as a "reference" when working with `git merge`[3] and `git checkout`.
 
@@ -50,7 +55,7 @@ $ git branch my-branch
 ```
 Delete a branch:
 ```bash
-$ git branch -d my-branch 
+$ git branch -d my-branch
 # unmerged changes will stop this
 $ git branch -D my-branch
 # will force delete
@@ -60,7 +65,7 @@ To rename the current branch:
 $ git branch -m new-branch-name
 
 ```
-Because a branch is actually a pointer to a commit, it should be obvious that you can switch to a new branch with the `git checkout` command[4]:
+Thinking of a branch as a pointer to a specific state of the repository, We can visualize how changing to a different branch takes us to a different stage of the same project. different changes of the same project are stored on different branches. To change the branch, we are on we can use `git checkout`[4]:
 ```
 $ git checkout my-branch
 ```
@@ -72,6 +77,7 @@ Complete the command below in order to force the delete of `my-branch`:
 ```
 $ git ??? ??? my-branch
 ```
+
 
 * `branch`
 * `-D`
@@ -88,13 +94,13 @@ What command is used in **Git** to switch between branches?
 
 ???
 
-*`git checkout`
-*`git branch`
-*`git branch -m`
+
+* `git checkout`
+* `git branch`
+* `git branch -m`
 
 ---
 ## Footnotes
-
 [1:working tree]
 The **working tree** consist of files that you are currently working on.
 
@@ -104,7 +110,7 @@ The **working tree** consist of files that you are currently working on.
 A **fork** is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
 
 
-[3:merging] 
+[3:merging]
 **Merging** is the operation of combining different lines of development (branches) into a single one.
 
 
@@ -114,3 +120,4 @@ Using the `git checkout` command together with the `-b` flag, you can simultaneo
 $ git checkout -b my-branch
 
 ```
+ 

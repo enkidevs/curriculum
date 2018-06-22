@@ -1,4 +1,4 @@
-# If Statement
+---
 author: alexjmackey
 
 levels:
@@ -7,9 +7,25 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+standards:
+  javascript.control-flow.0: 10
+  javascript.control-flow.1: 10
+
+tags:
+
+  - introduction
+
+aspects:
+  - introduction
+
+
+---
+
+# If Statement
 
 ---
 ## Content
@@ -43,11 +59,14 @@ else {
 ...
 }
 ```
-Sometimes code can be more readable using the switch statement although some developers feel this can be a bad idea as can lead to hard to maintain code:
+
+**Switch Statements**
+
+Code can be more readable using the switch statement if there are many cases for a single value.
 
 ```
 switch (customerType){
-   case: "normal" : 
+   case: "normal" :
          ...
          break;
    case: "vip":
@@ -76,13 +95,14 @@ Complete the basic syntax of the following `switch` statement:
 
 ```
 
-*`switch`
-*`case`
-*`default`
-*`break`
-*`if`
-*`else`
-*`if else`
+
+* `switch`
+* `case`
+* `default`
+* `break`
+* `if`
+* `else`
+* `if else`
 
 ---
 ## Revision
@@ -96,12 +116,14 @@ if (condition <= 0) {
 }
 
 ```
-*`else`
-*`if`
-*`case`
-*`break`
-*`if else`
-*`else if`
-*`switch`
-*`case`
-*`==`
+
+* `else`
+* `if`
+* `case`
+* `break`
+* `if else`
+* `else if`
+* `switch`
+* `case`
+* `==`
+ 

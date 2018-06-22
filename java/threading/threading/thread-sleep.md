@@ -1,4 +1,4 @@
-# Thread Sleep
+---
 author: Nick Daminov
 
 levels:
@@ -9,11 +9,17 @@ type: normal
 
 category: feature
 
+
 links:
 
-- '[More on Sleep](https://docs.oracle.com/javase/tutorial/essential/concurrency/sleep.html§)'
-- '[More on Joining](https://docs.oracle.com/javase/tutorial/essential/concurrency/join.html)'
-- '[More on InterruptedException](https://docs.oracle.com/javase/7/docs/api/java/lang/InterruptedException.html)'
+  - '[More on Sleep](https://docs.oracle.com/javase/tutorial/essential/concurrency/sleep.html§){website}'
+  - '[More on Joining](https://docs.oracle.com/javase/tutorial/essential/concurrency/join.html){website}'
+  - '[More on InterruptedException](https://docs.oracle.com/javase/7/docs/api/java/lang/InterruptedException.html){website}'
+
+
+---
+
+# Thread Sleep
 
 ---
 ## Content
@@ -45,6 +51,7 @@ What does `sleep()` method do?
 
 ???
 
+
 * It pauses the execution of a thread for a certain time
 * It waits until a thread finished executing
 * It pauses all the threads in a queue
@@ -57,7 +64,10 @@ What method stops executing for a specified time and continues running afterward
 
 ???
 
+
 * sleep()
 * join()
 * wait()
 * combine()
+
+ 

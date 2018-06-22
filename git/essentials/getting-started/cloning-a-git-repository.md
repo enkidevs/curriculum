@@ -1,4 +1,4 @@
-# Cloning a Git repository
+---
 author: catalin
 
 levels:
@@ -7,19 +7,24 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [www.atlassian.com](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone){website}
+  - '[www.atlassian.com](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone){website}'
+
+
+---
+
+# Cloning a Git repository
 
 ---
 ## Content
 
-The second way though which you can get your hand on a **Git** repository is by *cloning* it.
+The second way through which you can get your hand on a **Git** repository is by *cloning* it.
 
 The term **cloning** entails how the whole **Git** flow works. Instead of providing a working copy, the `git clone` command makes a full copy of the *repository*, including all project history.
 
@@ -57,6 +62,7 @@ What's the last step **Git** automatically does after running `git clone`?
 
 ???
 
+
 * checks out a working copy of the latest version of the project
 * initializes the `.git` directory
 * pulls repository data in the `.git` directory
@@ -69,6 +75,9 @@ Does running `git clone` with a repository's URL require having an existing work
 
 ???
 
-*No
-*Yes
-*Only if you don't provide a new new directory name
+
+* No
+* Yes
+* Only if you don't provide a new new directory name
+
+ 

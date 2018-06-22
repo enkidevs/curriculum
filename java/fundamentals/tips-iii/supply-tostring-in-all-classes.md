@@ -1,4 +1,4 @@
-# Supply `toString()` in all classes
+---
 author: catalin
 
 levels:
@@ -9,13 +9,17 @@ type: normal
 
 category: best practice
 
-notes: |
-  https://insights.enki.com/#/contrib/55ba52a4d5e04e4f0066fe2d
 
 links:
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/3615721/how-to-use-the-tostring-method-in-java){website}
+  - '[stackoverflow.com](http://stackoverflow.com/questions/3615721/how-to-use-the-tostring-method-in-java){website}'
+
+notes: |
+  https://insights.enki.com/#/contrib/55ba52a4d5e04e4f0066fe2d
+
+---
+
+# Supply `toString()` in all classes
 
 ---
 ## Content
@@ -47,10 +51,11 @@ Insert print statements to view the object state during the program run. Some de
 What class is `toString()` method inherited from?
 
 ???
-*Object
-*String
-*Field
-*JavaObj
+
+* Object
+* String
+* Field
+* JavaObj
 
 ---
 ## Revision
@@ -58,7 +63,10 @@ What class is `toString()` method inherited from?
 What does the `toString()` method return by default?
 
 ???
-*The name and hashcode of the class.
-*The first field value.
-*Every field:value pair.
-*Every field:value pair and a list of methods.
+
+* The name and hashcode of the class.
+* The first field value.
+* Every field:value pair.
+* Every field:value pair and a list of methods.
+
+ 

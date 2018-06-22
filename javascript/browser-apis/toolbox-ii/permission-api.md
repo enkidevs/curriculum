@@ -1,4 +1,4 @@
-# Permission API
+---
 author: rosielowther
 
 levels:
@@ -15,10 +15,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [developers.google.com](https://developers.google.com/web/updates/2015/04/permissions-api-for-the-web){website}
+  - '[developers.google.com](https://developers.google.com/web/updates/2015/04/permissions-api-for-the-web){website}'
+
+
+---
+
+# Permission API
 
 ---
 ## Content
@@ -53,6 +58,7 @@ Currently this API is only available in **Chrome**.
 ## Practice
 
 How do you check the status of a permission? ???
+
 * `permissions.query();`
 * `permissions.status();`
 * `permissions.log();`
@@ -66,7 +72,10 @@ How do you check the status of a permission? ???
 To what browser is the Permission API currently limited to?
 ???
 
-*Chrome
-*Safari
-*Mozilla
-*Internet Explorer
+
+* Chrome
+* Safari
+* Mozilla
+* Internet Explorer
+
+ 

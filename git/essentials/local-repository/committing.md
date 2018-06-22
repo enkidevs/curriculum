@@ -1,4 +1,4 @@
-# Committing
+---
 author: catalin
 
 levels:
@@ -7,19 +7,24 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [www.atlassian.com](https://www.atlassian.com/git/tutorials/saving-changes/git-commit){website}
+  - '[www.atlassian.com](https://www.atlassian.com/git/tutorials/saving-changes/git-commit){website}'
+
+
+---
+
+# Committing
 
 ---
 ## Content
 
-Committing is the action which permanently stores changes in a file as part of the **Git** repository. For this operation all you have to do is issue the `git commit` command.
+Committing is the action which permanently stores changes in a file as part of the **Git** repository. For this operation, all you have to do is issue the `git commit` command.
 
 Generally, **Git** will never change the contents of a commit, making **commits** permanent and representative for the state of the project at that time.
 
@@ -39,8 +44,39 @@ $ git commit -a
 ```
 
 ---
-## Footnotes
+## Practice
 
+Write the command to commit all tracked files:
+```
+$ ??? ??? ???
+```
+
+
+* `git`
+* `commit`
+* `-a`
+* `-m`
+* `-h`
+* `branch`
+* `git-commit`
+* `add`
+
+---
+## Revision
+
+What flag is used to commit with a message specified within the command?
+```
+$ git commit ??? "the message"
+```
+
+* `-m`
+* `-a`
+* `-message`
+* `-h`
+* `-d`
+
+---
+## Footnotes
 [1: Staged snapshot]
 This refers to what has been staged following a `git add` command. Unless you staged the changes, you won't be able to make a commit:
 ```bash
@@ -58,32 +94,4 @@ $ git status
 # modified:  src/index.js
 
 ```
----
-## Practice
-
-Write the command to commit all tracked files:
-```
-$ ??? ??? ???
-```
-
-*`git`
-*`commit`
-*`-a`
-*`-m`
-*`-h`
-*`branch`
-*`git-commit`
-*`add`
-
----
-## Revision
-
-What flag is used to commit with a message specified within the command?
-```
-$ git commit ??? "the message"
-```
-*`-m`
-*`-a`
-*`-message`
-*`-h`
-*`-d`
+ 

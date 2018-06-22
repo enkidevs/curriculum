@@ -1,8 +1,7 @@
-# Creating a Node Module
+---
 author: mihaiberq
 
 levels:
-
   - beginner
   - basic
   - medium
@@ -13,6 +12,24 @@ type: normal
 category: how to
 
 parent: remote-scripts
+
+standards:
+  javascript.npm-publish.0: 10
+  javascript.npm-tasks-and-modules-manager.0: 10
+
+tags:
+  - workout
+  - deep
+  - new
+
+aspects:
+  - workout
+  - deep
+  - new
+
+
+---
+# Creating a Node Module
 
 ---
 ## Content
@@ -42,17 +59,18 @@ $ node app.js
 81
 ```
 
-
 ---
 ## Practice
 
 In order for the JavaScript file to be a module, it must have
 
 ???
+
 * a non-empty `exports` object
 * at least one function
 * constants
 * at least one non-void function
+
 ---
 ## Revision
 
@@ -63,3 +81,4 @@ Usually, a module id is
 * the name of the main JavaScript file
 * the name of the first function
 * defined in the *package.json*
+ 

@@ -1,12 +1,6 @@
 name: Basic Package Management
 
-type: insights-list
-
 description: The way to extend your toolchain.
-
-section: 0
-
-parent: system-monitoring-i
 
 insights:
   - list-installed-packages
@@ -14,3 +8,4 @@ insights:
   - installing-a-deb-package-from-the-terminal
   - install-specific-version-of-packages
   - broadcast-messages-across-the-system
+ 

@@ -1,4 +1,4 @@
-# Unittest
+---
 author: SebaRaba
 
 levels:
@@ -9,9 +9,18 @@ type: normal
 
 category: must-know
 
+standards:
+  python.testing.1: 10
+  python.testing.3: 10
+
 links:
 
-  - '[learn more about unit testing](https://docs.python.org/3/library/unittest.html)'
+  - '[learn more about unit testing](https://docs.python.org/3/library/unittest.html){website}'
+
+
+---
+
+# Unittest
 
 ---
 ## Content
@@ -68,7 +77,7 @@ The full stop displayed above the dashes ('-') indicates how many test have **pa
 - `FAIL` the test fails and rises `AssertionError`;
 - `ERROR` the test fails and doesn't rise `AssertionError`.
 
-For more detailed test results, use the `-v` flag with the command: 
+For more detailed test results, use the `-v` flag with the command:
 ```bash
 $ python -m unittest simple_test.py -v
 ```
@@ -81,12 +90,14 @@ Ran 1 tests in 0.000s
 
 OK
 ```
+
 ---
 ## Practice
 
 `setUp()` method defines instructions/code that will be run
 
 ???
+
 
 * before each test method
 * after each test method
@@ -100,6 +111,9 @@ OK
 
 ???
 
+
 * a condition is met
 * an expected result is met
 * a specific exception is raised
+ 
+ 

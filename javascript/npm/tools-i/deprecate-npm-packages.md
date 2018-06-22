@@ -1,24 +1,39 @@
-# Deprecate npm packages
+---
 author: catalin
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
 
 category: how to
 
-parent: check-data-about-a-package
+standards:
+  javascript.use-open-source-javascript-packages.1: 10
+  javascript.npm-publish.2: 10
+  javascript.npm-publish.3: 10
+  javascript.npm-tasks-and-modules-manager.0: 10
+
+tags:
+  - workout
+  - deep
+  - introduction
 
 links:
-
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/deprecate){website}'
 
+parent: check-data-about-a-package
+
+aspects:
+  - workout
+  - deep
+  - introduction
+
+
+---
+# Deprecate npm packages
 
 ---
 ## Content
@@ -52,11 +67,12 @@ How do you un-deprecate `enki` package?
 $ npm ??? enki ???
 ```
 
-* `deprecate`
-* `""`
-* `un-deprecate`
-* `"un-deprecated Enki`
-* `"any message"`
+
+* deprecate
+* ""
+* un-deprecate
+* "un-deprecated Enki
+* "any message"
 
 ---
 ## Revision
@@ -67,8 +83,9 @@ How do you un-deprecate `enki` package?
 $ npm ??? enki ???
 ```
 
-* `deprecate`
-* `""`
-* `un-deprecate`
-* `"un-deprecated Enki`
-* `"any message"`
+* deprecate
+* ""
+* un-deprecate
+* "un-deprecated Enki
+* "any message"
+ 

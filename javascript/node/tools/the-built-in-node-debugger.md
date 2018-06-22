@@ -1,20 +1,33 @@
-# The built-in Node debugger
+---
 author: rosielowther
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal
 
 category: must-know
 
-links:
+standards:
+  javascript.node-developer-environment.5: 20
 
-  - >-
-    [spin.atomicobject.com](http://spin.atomicobject.com/2015/09/25/debug-node-js/){website}
+tags:
+  - introduction
+  - workout
+  - deep
+
+links:
+  - '[spin.atomicobject.com](http://spin.atomicobject.com/2015/09/25/debug-node-js/){website}'
+
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
+---
+# The built-in Node debugger
 
 ---
 ## Content
@@ -49,8 +62,9 @@ for(var i=0; i<10; i++) {      // line 0
    debugger;                   // line 1
    console.log("hello " + i);  // line 2
 }                              // line 3
-console.log("end:);            // line 4
+console.log("end");            // line 4
 ```
+
 
 * Line 1
 * Line 0
@@ -66,7 +80,8 @@ How can you run `enki` app in *debug* mode?
 ??? ??? enki
 ```
 
-*`node`
-*`debug`
-*`debugger`
-*`npm`
+* node
+* debug
+* debugger
+* npm
+ 

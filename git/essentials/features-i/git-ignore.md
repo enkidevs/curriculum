@@ -1,4 +1,4 @@
-# Git Ignore
+---
 author: catalin
 
 levels:
@@ -8,6 +8,13 @@ levels:
 type: normal
 
 category: must-know
+
+
+
+
+---
+
+# Git Ignore
 
 ---
 ## Content
@@ -40,7 +47,7 @@ Keep in mind that if files specified in `.gitignore` were checked in before the 
 ```
 $ git rm --cached myFile.java
 ```
-Most of the time, you should be able to find online a `.gitignore` template for the language and IDE combination you're using. 
+Most of the time, you should be able to find online a `.gitignore` template for the language and IDE combination you're using.
 
 ---
 ## Practice
@@ -48,6 +55,7 @@ Most of the time, you should be able to find online a `.gitignore` template for 
 Can wildcards be used inside the `.gitignore` file?
 
 ???
+
 
 * Yes
 * No
@@ -60,13 +68,14 @@ What file is used to tell git to ignore certain files in your project?
 
 ???
 
+
 * `.gitignore`
 * `.git`
 * `.ignore`
 
 ---
 ## Footnotes
-
 [1: Dot-files]
 
 By convention, a "dot-file" (a file name which begins with `.`) is hidden and extra steps are required for it to be displayed in the file explorer.
+ 

@@ -1,4 +1,4 @@
-# Metadata: setting a file's owner
+---
 author: adamMontgomerie
 
 levels:
@@ -21,10 +21,15 @@ tags:
 
   - metadata
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/fileAttr.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/fileAttr.html){website}'
+
+
+---
+
+# Metadata: setting a file's owner
 
 ---
 ## Content
@@ -53,8 +58,11 @@ UserPrincipal owner =
 .???
 .???;
 ```
-*getFileSystem()` 
-*getUserPrincipalLookupService() 
-*lookupPrincipalByName("tom")
-*lookupPrincipalByName()
-*getUserPrincipalLookupService("tom")
+
+* getFileSystem()` 
+* getUserPrincipalLookupService() 
+* lookupPrincipalByName("tom")
+* lookupPrincipalByName()
+* getUserPrincipalLookupService("tom")
+
+ 

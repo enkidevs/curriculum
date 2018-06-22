@@ -1,4 +1,4 @@
-# Create system file paths using the `Path` class
+---
 author: adamMontgomerie
 
 levels:
@@ -15,10 +15,15 @@ tags:
 
   - java-7
 
+
 links:
 
-  - >-
-    [docs.oracle.com](http://docs.oracle.com/javase/tutorial/essential/io/pathOps.html){website}
+  - '[docs.oracle.com](http://docs.oracle.com/javase/tutorial/essential/io/pathOps.html){website}'
+
+
+---
+
+# Create system file paths using the `Path` class
 
 ---
 ## Content
@@ -43,10 +48,11 @@ Path p = Paths.get(
 What does `Paths` helper class do?
 
 ???
-*Converts a path String to a Path object.
-*Converts a Path object to a path String.
-*Returns a path String to the local folder.
-*Returns only a Path object to the user's home folder.
+
+* Converts a path String to a Path object.
+* Converts a Path object to a path String.
+* Returns a path String to the local folder.
+* Returns only a Path object to the user's home folder.
 
 ---
 ## Revision
@@ -58,7 +64,10 @@ FileSystems.getDefault()
 
 ???
 ```
-*`Paths.get("/myDocs/diary.txt");`
-*`Paths.get(/myDocs/diary.txt);`
-*`Path.get("/myDocs/diary.txt");`
-*`Path.getPath("/myDocs/diary.txt");`
+
+* `Paths.get("/myDocs/diary.txt");`
+* `Paths.get(/myDocs/diary.txt);`
+* `Path.get("/myDocs/diary.txt");`
+* `Path.getPath("/myDocs/diary.txt");`
+
+ 

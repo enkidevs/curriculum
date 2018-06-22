@@ -1,4 +1,4 @@
-# `final` fields do not need to be read through `synchronized` methods
+---
 author: adamMontgomerie
 
 levels:
@@ -23,10 +23,15 @@ tags:
 
   - final
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html){website}'
+
+
+---
+
+# `final` fields do not need to be read through `synchronized` methods
 
 ---
 ## Content
@@ -49,3 +54,5 @@ public void getX() {
 }
 ```
 This is is because a `final` field cannot be changed once it has been set; so there is no chance of introducing a memory consistency error.
+
+ 

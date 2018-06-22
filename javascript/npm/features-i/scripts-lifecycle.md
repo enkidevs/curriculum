@@ -1,8 +1,7 @@
-# Hook Scripts
+---
 author: mihaiberq
 
 levels:
-
   - beginner
   - basic
   - medium
@@ -13,6 +12,23 @@ type: normal
 category: must-know
 
 parent: npm-variables
+
+standards:
+  javascript.npm-tasks-and-modules-manager.3: 10
+
+tags:
+  - introduction
+  - workout
+  - deep
+
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
+---
+# Hook Scripts
 
 ---
 ## Content
@@ -38,6 +54,7 @@ Note that `npm start` runs `node server.js` by default, in case you have such a 
 A default `npm` script event is:
 
 ???
+
 * postinstall
 * pre-commit
 * gulp
@@ -50,7 +67,9 @@ What command does `npm start` run by default?
 ```
 $ ???
 ```
-* `node server.js`
-* `gulp`
-* `node -v`
-* `npm install`
+
+* node server.js
+* gulp
+* node -v
+* npm install
+ 

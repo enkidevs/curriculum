@@ -1,4 +1,4 @@
-# `abstract` classes can have `static` members
+---
 author: adamMontgomerie
 
 levels:
@@ -19,10 +19,15 @@ tags:
 
   - static
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html){website}'
+
+
+---
+
+# `abstract` classes can have `static` members
 
 ---
 ## Content
@@ -44,3 +49,5 @@ The `abstract` class above contains a `static` method. It can be called like thi
 int x = AClass.staticMethod(2);
 ```
 An `abstract` class can also have `static` fields.
+
+ 

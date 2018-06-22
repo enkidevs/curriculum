@@ -1,4 +1,4 @@
-# The Array Data Structure
+---
 author: mihaiberq
 
 levels:
@@ -9,11 +9,17 @@ type: normal
 
 category: must-know
 
+
 links:
-    - >-
-        [What is an array?](http://www.bbc.co.uk/education/guides/z4tf9j6/revision/2){website}
+
+  - '[What is an array?](http://www.bbc.co.uk/education/guides/z4tf9j6/revision/2){website}'
 
 parent: what-is-a-data-structure
+
+---
+
+# The Array Data Structure
+
 ---
 ## Content
 
@@ -33,24 +39,24 @@ A *dynamic* bookshelf would resize itself as soon as there is no more room for a
 You can declare an array using:
 ```
 //constructed arrays of size 3
-//java
+//Java
 int[] myArray = {1,2,3};
-//c++
+//C++
 int myArray[] = {1,2,3};
-//python
+//Python
 from array import array
-myAr = array('i', [1,2,3,4])
-//javascript
+myArray = array('i', [1,2,3])
+//JavaScript
 var myArray = [1,2,'enki'];
 ```
 Or empty arrays of size 3:
 ```
-//java
+//Java
 int[] myArray = new int[3];
-//c++
+//C++
 int myArray[3];
-//javascript
-var myArray = [];
+//JavaScript
+var myArray = new Array(3);
 
 ```
 The advantage of an array is that you have immediate access to its elements. All you have to do is specify the index of the element you are looking for:
@@ -69,17 +75,22 @@ myArray[0] = x;
 To access an element in an array, you would use:
 
 ???
+
 * indexes
 * promises
 * values
 * data structures
+
 ---
 ## Revision
 
 An array that has its size declared up-front it's called
 
 ???
+
 * static
 * dynamic
 * indexed
 * associative
+
+ 

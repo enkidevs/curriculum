@@ -1,4 +1,4 @@
-# Focus testing on key areas
+---
 author: adamMontgomerie
 
 levels:
@@ -19,13 +19,16 @@ tags:
 
   - junit
 
+
 links:
 
-  - >-
-    [javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2012/08/best-practices-to-write-junit-test.html){website}
+  - '[javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2012/08/best-practices-to-write-junit-test.html){website}'
+  - '[zeroturnaround.com](http://zeroturnaround.com/rebellabs/dont-test-blindly-the-right-methods-for-unit-testing-your-java-apps/){website}'
 
-  - >-
-    [zeroturnaround.com](http://zeroturnaround.com/rebellabs/dont-test-blindly-the-right-methods-for-unit-testing-your-java-apps/){website}
+
+---
+
+# Focus testing on key areas
 
 ---
 ## Content
@@ -47,9 +50,10 @@ What should be prioritised when testing?
 
 `???`
 
-*`code written by multiple developers` 
-*`trivial operations like getX()` 
-*`external databases`
+
+* `code written by multiple developers` 
+* `trivial operations like getX()` 
+* `external databases`
 
 ---
 ## Revision
@@ -58,6 +62,9 @@ What area of testing should not be prioritised?
 
 `???`
 
-*`external libraries` 
-*`code with frequent bugs` 
-*`code accessed by other modules`
+
+* `external libraries` 
+* `code with frequent bugs` 
+* `code accessed by other modules`
+
+ 

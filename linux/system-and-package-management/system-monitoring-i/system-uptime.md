@@ -1,4 +1,4 @@
-# System uptime
+---
 author: catalin
 
 levels:
@@ -11,10 +11,15 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - >-
-    [linux.about.com](http://linux.about.com/od/howtos/fl/Boast-How-Long-Your-Linux-System-Has-Been-Running-Using-uptime.htm){website}
+  - '[linux.about.com](http://linux.about.com/od/howtos/fl/Boast-How-Long-Your-Linux-System-Has-Been-Running-Using-uptime.htm){website}'
+
+
+---
+
+# System uptime
 
 ---
 ## Content
@@ -49,7 +54,10 @@ Check for how long your system is running:
 ```
 $ ???
 ```
-*`uptime`
-*`whoami`
-*`who am i`
-*`stats`
+
+* `uptime`
+* `whoami`
+* `who am i`
+* `stats`
+
+ 

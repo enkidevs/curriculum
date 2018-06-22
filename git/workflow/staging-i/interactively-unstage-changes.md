@@ -1,4 +1,4 @@
-# Interactively unstage changes
+---
 author: rosielowther
 
 levels:
@@ -9,13 +9,17 @@ type: normal
 
 category: must-know
 
-parent: interactively-stage-patches
 
 links:
 
   - '[git-scm.com](https://git-scm.com/docs/git-reset){website}'
-
   - '[git-scm.com](https://git-scm.com/docs/git-add){website}'
+
+parent: interactively-stage-patches
+
+---
+
+# Interactively unstage changes
 
 ---
 ## Content
@@ -53,9 +57,10 @@ What does this command do?
 $ git reset --patch enki.md
 ```
 ???
-*interactively removes changes made to `enki.md`
-*restores `enki.md` to the last version
-*untracks enki.md
+
+* interactively removes changes made to `enki.md`
+* restores `enki.md` to the last version
+* untracks enki.md
 
 ---
 ## Revision
@@ -64,6 +69,9 @@ Interactively unstage some of the changes made to `enki.md`.
 ```
 $ git reset ??? ???
 ```
-*`--patch`
-*`enki.md`
-*`-patch`
+
+* `--patch`
+* `enki.md`
+* `-patch`
+
+ 

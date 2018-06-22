@@ -1,4 +1,4 @@
-#  Intro to `iptables`
+---
 author: tuwi.dc
 
 levels:
@@ -19,7 +19,13 @@ tags:
 
   - netfilter
 
+
+
 notes: ''
+
+---
+
+#  Intro to `iptables`
 
 ---
 ## Content
@@ -75,15 +81,16 @@ $ ??? ??? ???
     ??? DROP
 ```
 
-*`iptables`
-*`-A`
-*`INPUT`
-*`132.154.32.101`
-*`-j`
-*`DROP`
-*`A`
-*`iftables`
-*`ACCEPT`
+
+* `iptables`
+* `-A`
+* `INPUT`
+* `132.154.32.101`
+* `-j`
+* `DROP`
+* `A`
+* `iftables`
+* `ACCEPT`
 
 ---
 ## Revision
@@ -91,14 +98,14 @@ $ ??? ??? ???
 Which of the following chains is not a default one?
 
 ???
-*RULES
-*INPUT
-*OUTPUT
-*FORWARD
+
+* RULES
+* INPUT
+* OUTPUT
+* FORWARD
 
 ---
 ## Footnotes
-
 [1:Chains]
 A set of rules a packet is checked against sequentially.
 [2:Input]
@@ -109,3 +116,4 @@ This chain handles traffic created by your server.
 This chain contains rules for traffic that would just pass through your sever and not stop there.
 [5:NAT rules]
 They allow rewriting of the source addresses of the traffic. Typically, they are used by *Untangle* servers which change the the IP address of the machine that made the request to the one of the server and then "untangles" it back to the machine when the response arrives.
+ 

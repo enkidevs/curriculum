@@ -1,4 +1,4 @@
-# The import statement
+---
 author: SebaRaba
 
 levels:
@@ -9,9 +9,18 @@ type: normal
 
 category: must-know
 
+standards:
+  python.modules.0: 10
+
+
 links:
 
-  - '[More about import](https://www.digitalocean.com/community/tutorials/how-to-import-modules-in-python-3)'
+  - '[More about import](https://www.digitalocean.com/community/tutorials/how-to-import-modules-in-python-3){website}'
+
+
+---
+
+# The import statement
 
 ---
 ## Content
@@ -30,7 +39,7 @@ When the *interpreter* encounters an `import` statement, it **imports** that spe
 
 We will `import` and use a *method* exposed by the `adder` module[1] we defined in the previous insight ("What are modules?"):
 
-```py
+```python
 # we need to import the module first
 import adder
 
@@ -50,7 +59,7 @@ Note that a module is imported just **once**, regardless of the times it's used 
 We have defined the `counter` module that's supposed to `increment` its state with every function call.
 Fill in the gaps such that the module will be successfully imported and ran.
 
-```py
+```python
 # counter.py
 count = 0
 
@@ -62,7 +71,7 @@ count = 0
 
 ```
 
-```py
+```python
 # main.py
 ??? ???
 
@@ -70,6 +79,7 @@ counter.increment() # 1
 counter.increment() # 2
 
 ```
+
 
 * `def`
 * `increment():`
@@ -87,7 +97,7 @@ counter.increment() # 2
 ## Revision
 
 Fill in the gaps such that the defined module is successfully imported and run:
-```py
+```python
 # subtractor.py
 
 def subtract(a, b):
@@ -96,13 +106,14 @@ def subtract(a, b):
   return result
 ```
 
-```py
+```python
 # main file
 ??? ???
 
 subtractor.???(10, 2)
 # 10 - 2 is: 8
 ```
+
 
 * `import`
 * `subtractor`
@@ -111,14 +122,16 @@ subtractor.???(10, 2)
 * `subtractor()`
 * `print`
 * `subtract()`
+
 ---
 ## Footnotes
-
 [1:adder]
 Consider the previously defined module in `added.py`:
-```py
+```python
 def add(a, b):
     sum = a + b
     print("The sum is: ", sum)
     return sum
 ```
+ 
+ 

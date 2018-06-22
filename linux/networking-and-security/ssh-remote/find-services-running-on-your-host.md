@@ -1,4 +1,4 @@
-# Find services running on your host
+---
 author: tuwi.dc
 
 levels:
@@ -27,7 +27,13 @@ tags:
 
   - ports
 
+
+
 notes: ''
+
+---
+
+# Find services running on your host
 
 ---
 ## Content
@@ -67,9 +73,12 @@ You can get the process ID of services that are Listening to TCP ports by issuin
 ```
 $ ??? ??? ???
 ```
-*`sudo`
-*`ss`
-*`-tlp`
-*`-ulp`
-*`-tl`
-*`netstat`
+
+* `sudo`
+* `ss`
+* `-tlp`
+* `-ulp`
+* `-tl`
+* `netstat`
+
+ 

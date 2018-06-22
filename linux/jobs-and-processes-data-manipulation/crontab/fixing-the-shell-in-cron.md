@@ -1,4 +1,4 @@
-# Fixing the shell in cron
+---
 author: tuwi.dc
 
 levels:
@@ -21,9 +21,15 @@ tags:
 
   - shell
 
-  - ''
+  - 
+
+
 
 parent: practical-cron
+
+---
+
+# Fixing the shell in cron
 
 ---
 ## Content
@@ -36,7 +42,7 @@ First, try running the command in ``sh``.
 
 Wrap the command in a `bash` subshell to make sure it gets run in `bash`:
     
-```bash 
+```bash
 bash -c "mybashcommand"
 ```
 Tell `cron` to run all commands in `bash` by setting the shell at the top of your `crontab`:
@@ -54,7 +60,10 @@ If the command is a script, make sure the script contains a shebang:
 ## Revision
 
 You have to modify the ??? variable in the cron file to run all the commands using `/bin/bash`.
-*SHELL
-*RUN
-*COMPILE
-*BASH
+
+* SHELL
+* RUN
+* COMPILE
+* BASH
+
+ 

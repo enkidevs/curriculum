@@ -1,4 +1,4 @@
-# Play sounds remotely
+---
 author: catalin
 
 levels:
@@ -11,7 +11,13 @@ type: normal
 
 category: how to
 
+
+
 parent: ssh-pipes
+
+---
+
+# Play sounds remotely
 
 ---
 ## Content
@@ -35,7 +41,10 @@ Obviously using `mpg321 -` is particular to `mp3` files. Other common variants a
 You can decode `.mp3` in terminal with
 
 ??? package.
-*mpg321
-*music
-*mplay
-*sound
+
+* mpg321
+* music
+* mplay
+* sound
+
+ 

@@ -1,4 +1,4 @@
-# Incorrect time on dual boot systems
+---
 author: tuwi.dc
 
 levels:
@@ -22,6 +22,13 @@ tags:
   - time
 
   - UTC
+
+
+
+
+---
+
+# Incorrect time on dual boot systems
 
 ---
 ## Content
@@ -61,12 +68,13 @@ FSCKFIX=no # automatically repair
 ## Revision
 
 Most of the Unix/Linux operating systems use ??? as the basis for local time.
-*UTC
-*LTS
-*UTL
+
+* UTC
+* LTS
+* UTL
 
 ---
 ## Footnotes
-
 [1:UTC]
 Coordinated Universal Time, ranging from UTC-12 to UTC+12.
+ 

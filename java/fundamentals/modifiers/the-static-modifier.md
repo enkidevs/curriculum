@@ -1,4 +1,4 @@
-# The `static` Modifier
+---
 author: mihaiberq
 
 levels:
@@ -7,14 +7,21 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# The `static` Modifier
 
 ---
 ## Content
 
-Both `static` and `final` are non-access modifiers. Therefore, they can be used in conjunction with one another or with access modifiers such as `public` or `private`. 
+Both `static` and `final` are non-access modifiers. Therefore, they can be used in conjunction with one another or with access modifiers such as `public` or `private`.
 
 Variables that are declared `static` exist outside instances of the class, with every instance sharing the same variable. Static variables are also known as *class* variables.
 
@@ -75,6 +82,7 @@ Person sam = new Person("Sam");
 System.out.println(john.lastPerson);
 // ???
 ```
+
 * Sam
 * John
 * JohnSam
@@ -86,38 +94,41 @@ System.out.println(john.lastPerson);
 How are static variables also called?
 
 ???
+
 * Class variables.
 * Instance variables.
 * Constants.
 * Class constants.
 
 ---
-## Quiz
+## Quiz 
+### how do class variables work?
 
-headline: how do class variables work?
-
-question: |
-  public class Dog {
-    String name;
-    int age;
-    static int ageSum = 0;
-    public Dog(String name, int age){
-      this.name = name;
-      this.age = age;
-      ageSum += age;
-    }
-    public int getCurrentSum(){
-      return ageSum;
-    }
+```java
+public class Dog {
+  String name;
+  int age;
+  static int ageSum = 0;
+  public Dog(String name, int age){
+    this.name = name;
+    this.age = age;
+    ageSum += age;
   }
+  public int getCurrentSum(){
+    return ageSum;
+  }
+}
 
-  Dog d1 = new Dog("Dog", 2);
-  System.out.print(d1.getCurrentSum() + " and ");
-  Dog d2 = new Dog("Blitz", 3);
-  System.out.print(d1.getCurrentSum());
+Dog d1 = new Dog("Dog", 2);
+System.out.print(d1.getCurrentSum() + " and ");
+Dog d2 = new Dog("Blitz", 3);
+System.out.print(d1.getCurrentSum());
+```
 
-answers:
-  - 2 and 5
-  - 2 and 3
-  - 2 and 2
-  - 5 and 5
+ ???
+
+* 2 and 5
+* 2 and 3
+* 2 and 2
+* 5 and 5
+ 

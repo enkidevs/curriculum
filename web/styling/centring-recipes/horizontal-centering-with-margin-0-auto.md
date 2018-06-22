@@ -1,4 +1,4 @@
-# Horizontal centering with `margin: 0 auto;`
+---
 author: Mathieu
 
 levels:
@@ -11,13 +11,17 @@ type: normal
 
 category: how to
 
-notes: >-
-  http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/
 
 links:
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/618097/how-do-you-easily-horizontally-center-a-div-using-css){website}
+  - '[stackoverflow.com](http://stackoverflow.com/questions/618097/how-do-you-easily-horizontally-center-a-div-using-css){website}'
+
+notes: >-
+  http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/
+
+---
+
+# Horizontal centering with `margin: 0 auto;`
 
 ---
 ## Content
@@ -46,7 +50,9 @@ What does the following piece of CSS code do? ???
 }
 ```
 
+
 * Horizontally centres a block element with a known width.
 * Gets rid of the margin.
 * Vertically centres a block element with a known width.
 * Horizontally centres a block element with an unknown width.
+

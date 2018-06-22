@@ -1,4 +1,4 @@
-# Solving `BADSIG GPG` errors
+---
 author: tuwi.dc
 
 levels:
@@ -29,6 +29,13 @@ tags:
 
   - ubuntu
 
+
+
+
+---
+
+# Solving `BADSIG GPG` errors
+
 ---
 ## Content
 
@@ -57,6 +64,9 @@ The installation operation should now succeed.
 `BADSIG GPG` errors usually occur because 
 
 ???.
-*the signatures are incorrect
-*there is not enough space on the disk
-*the login credentials are wrong
+
+* the signatures are incorrect
+* there is not enough space on the disk
+* the login credentials are wrong
+
+ 

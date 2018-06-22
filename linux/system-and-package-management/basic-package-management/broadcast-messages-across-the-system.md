@@ -1,4 +1,4 @@
-# Broadcast messages across the system
+---
 author: tuwi.dc
 
 levels:
@@ -23,7 +23,13 @@ tags:
 
   - messages
 
+
+
 notes: ''
+
+---
+
+# Broadcast messages across the system
 
 ---
 ## Content
@@ -48,6 +54,9 @@ This command allows you to broadcast a message to all users logged in to the sys
 
 ???
 
-*`wall`
-*`shout`
-*`bcast`
+
+* `wall`
+* `shout`
+* `bcast`
+
+ 

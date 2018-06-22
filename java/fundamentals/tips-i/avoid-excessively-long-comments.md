@@ -1,4 +1,4 @@
-# Avoid excessively long comments
+---
 author: adamMontgomerie
 
 levels:
@@ -17,13 +17,16 @@ tags:
 
   - naming-conventions
 
+
 links:
 
-  - >-
-    [javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2011/08/code-comments-java-best-practices.html){website}
+  - '[javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2011/08/code-comments-java-best-practices.html){website}'
+  - '[stackoverflow.com](http://stackoverflow.com/questions/209015/what-is-self-documenting-code-and-can-it-replace-well-documented-code){website}'
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/209015/what-is-self-documenting-code-and-can-it-replace-well-documented-code){website}
+
+---
+
+# Avoid excessively long comments
 
 ---
 ## Content
@@ -32,4 +35,6 @@ It is often necessary to explain what a piece of code does by writing a comment;
 
 If you find yourself regularly having to write long explanations for the code you write, it may be a sign that your code is poorly written.
 
-Following code formatting and variable naming conventions, i.e. writing *self-documenting* code, can reduce the amount of comments required.
+Following code formatting and variable naming conventions, i.e., writing *self-documenting* code can reduce the reduce of comments required.
+
+ 

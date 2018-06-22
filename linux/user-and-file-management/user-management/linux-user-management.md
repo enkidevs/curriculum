@@ -1,5 +1,4 @@
-# Other User Management Recipes
-
+---
 author: tuwi.dc
 
 levels:
@@ -15,21 +14,40 @@ type: normal
 category: must-know
 
 tags:
+
   - linux
+
   - terminal
+
   - user
+
   - userdel
+
   - delete
+
   - add
+
   - useradd
+
   - bash
+
   - chfn
+
+  - workout
+
+
+
+
+aspects:
   - workout
 
 
 ---
-## Content
 
+# Other User Management Recipes
+
+---
+## Content
 
 To list all existing users you can use:
 ```
@@ -76,6 +94,7 @@ Delete both the user and its home directory:
 ```
 $ ??? enkiUser
 ```
+
 * `useradd`
 * `passwd`
 * `userdel -r`
@@ -90,7 +109,10 @@ $ ??? enkiUser
 The two equivalent commands for adding a new user are
 
 ???
-*`adduser / useradd`
-*`adduser / usermod -a`
-*`useradd / usermod -n`
-*`chsh / usermod -a`
+
+* `adduser / useradd`
+* `adduser / usermod -a`
+* `useradd / usermod -n`
+* `chsh / usermod -a`
+
+ 

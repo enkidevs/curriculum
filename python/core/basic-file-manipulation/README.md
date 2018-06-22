@@ -1,12 +1,6 @@
 name: Basic File Manipulation
 
-type: insights-list
-
 description: Understand how input/output operations work in Python and also how to use them.
-
-section: 1
-
-parent: intro-to-modules
 
 insights:
   - i-o-functions
@@ -14,3 +8,7 @@ insights:
   - reading-from-files
   - writing-files
   - other-operations-on-files
+
+exercises:
+  - py-practice-files
+  - py-practice-csv-files

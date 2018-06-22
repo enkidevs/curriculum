@@ -1,26 +1,30 @@
-# The HTTP request
+---
 author: SebaRaba
 
 levels:
 
-- beginner
+  - beginner
 
-- basic
+  - basic
 
-- medium
+  - medium
 
-- advanced
+  - advanced
 
 type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-      [A request example](http://rve.org.uk/dumprequest){website}
+  - '[A request example](http://rve.org.uk/dumprequest){website}'
 
 parent: https
+
+---
+
+# The HTTP request
 
 ---
 ## Content
@@ -63,8 +67,37 @@ There are multiple fields that can go into the header of a request. Some of them
 - **Content-Type**: tells the server what type of files can be added to the response
 
 ---
-## Footnotes
+## Practice
 
+The usual syntax of a request line is:
+```
+??? ??? ??? ???
+```
+
+
+* Method
+* URI
+* HTTP version
+* CRLF
+* CTRLF
+* Host
+
+---
+## Revision
+
+The request header field that delivers information about your browser and operating system is
+
+???
+
+
+* User-Agent
+* Accept
+* Cookies
+* Browser
+* User
+
+---
+## Footnotes
 [1: Relative vs Absolute URL]
 The absolute URL is:
 ```text
@@ -74,32 +107,4 @@ While the relative one (which requires the `Host` field) is:
 ```
 /contact
 ```
-
----
-## Practice
-
-The usual syntax of a request line is:
-```
-??? ??? ??? ???
-```
-
-* Method
-* URI
-* HTTP version
-* CRLF
-* CTRLF
-* Host
-
-
----
-## Revision
-
-The request header field that delivers information about your browser and operating system is
-
-???
-
-* User-Agent
-* Accept
-* Cookies
-* Browser
-* User
+ 

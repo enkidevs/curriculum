@@ -1,21 +1,27 @@
-# Successful status codes
+---
 author: SebaRaba
 
 levels:
 
-- beginner
+  - beginner
 
-- basic
+  - basic
 
-- medium
+  - medium
 
-- advanced
+  - advanced
 
 type: normal
 
 category: must-know
 
+
+
 parent: informational-status-codes
+
+---
+
+# Successful status codes
 
 ---
 ## Content
@@ -36,19 +42,12 @@ Other status codes indicating the **success** of a request are:
 - `206` **Partial Content**: indicates the response is only partial
 
 ---
-## Footnotes
-
-[1:User Agents]
-Applications that are acting on behalf of the user. One category of user agents includes web browsers.
-
-A user agent sends information to the server about the web browser, operating system and device (whether the desktop or mobile version of the website should be fetched).
-
----
 ## Practice
 
 A `200` response to a `GET` request contains
 
 ??? as payload.
+
 
 * the resource requested
 * the new entity created
@@ -62,6 +61,15 @@ What is the format of status codes indicating the **success** of a request?
 
 ???
 
+
 * `2xx`
 * `1xx`
 * `3xx`
+
+---
+## Footnotes
+[1:User Agents]
+Applications that are acting on behalf of the user. One category of user agents includes web browsers.
+
+A user agent sends information to the server about the web browser, operating system and device (whether the desktop or mobile version of the website should be fetched).
+ 

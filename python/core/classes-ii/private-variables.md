@@ -1,4 +1,4 @@
-# Private Variables 
+---
 author: catalin
 
 levels:
@@ -13,10 +13,17 @@ type: normal
 
 category: must-know
 
+standards:
+  python.object-oriented.4: 10
+
 links:
 
-  - >-
-    [docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#private-variables){website}
+  - '[docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#private-variables){website}'
+
+
+---
+
+# Private Variables
 
 ---
 ## Content
@@ -52,32 +59,56 @@ print(enki._Enki__private)
 ## Practice
 
 What is the output of the following snippet?
-```
+```python
 class Test:
    def __init__(self):
-       self.__x = “hey there”
+       self.__x = "hey there"
 t = Test()
 print(t.__x)
-??? 
+???
 ```
 
-*`AttributeError` 
-*`PrivateError` 
-*`Hey there` 
-*`hey there`
+
+* `AttributeError`
+* `PrivateError`
+* `Hey there`
+* `hey there`
 
 ---
 ## Revision
 
 Complete the following line such that the `private` variable is considered private considering Python conventions:
-```
+```python
 ???private = 30
 ```
 
-*`__` 
-*`&&` 
-*`--` 
-*`def` 
-*`class` 
-*`private` 
-*`p_`
+* `__`
+* `&&`
+* `--`
+* `def`
+* `class`
+* `private`
+* `p_`
+
+---
+## Quiz
+
+### Do you know how private variables work?
+
+We've defined a pythonic private variable in this class. Is it really private?  
+```python
+class Secret:
+    def __init__(self):
+        self.__supersecret = "the earth is not flat"
+        print(self.__supersecret)
+
+topsecret = Secret()
+```
+
+
+- No, you can access the private variable via 'topsecret._Secret__supersecret'
+- No, you can access the private variable via 'topsecret.__Secret.__supersecret'
+- No, you can access the private variable via 'topsecret._private__supersecret'
+- Yup, your secret is safe forever!
+ 
+ 

@@ -1,5 +1,4 @@
-# Force a time update with `ntp`
-
+---
 author: tuwi.dc
 
 levels:
@@ -28,6 +27,13 @@ tags:
 
   - terminal
 
+
+
+
+---
+
+# Force a time update with `ntp`
+
 ---
 ## Content
 
@@ -51,13 +57,14 @@ Sync the system time with the  `0.uk.pool.ntp.org`  server :
 $ ??? ??? 
       0.uk.pool.ntp.org
 ```
-*`ntpdate`
-*`-u`
-*`ntupdate`
-*`-f`
+
+* `ntpdate`
+* `-u`
+* `ntupdate`
+* `-f`
 
 ---
 ## Footnotes
-
 [1:NTP]
 Network Time Protocol
+ 

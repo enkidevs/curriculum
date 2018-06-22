@@ -1,4 +1,4 @@
-# Stashing changes
+---
 author: rosielowther
 
 levels:
@@ -11,12 +11,16 @@ type: normal
 
 category: feature
 
-notes: ''
 
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning){website}'
+
+notes: ''
+
+---
+
+# Stashing changes
 
 ---
 ## Content
@@ -59,11 +63,12 @@ $ git stash pop
 You can stash code more than once on the same branch. To see all the existing stashes you have to run:
 
 ```$ ??? ??? ???```
-*`git`
-*`stash`
-*`list`
-*`pop`
-*`apply`
+
+* `git`
+* `stash`
+* `list`
+* `pop`
+* `apply`
 
 ---
 ## Revision
@@ -71,6 +76,9 @@ You can stash code more than once on the same branch. To see all the existing st
 ```$ git stash ???```
 
  applies the last stash and removes it from the list.
-*`pop`
-*`apply`
-*`list`
+
+* `pop`
+* `apply`
+* `list`
+
+ 

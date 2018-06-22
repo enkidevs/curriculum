@@ -1,4 +1,4 @@
-# Interactive staging
+---
 author: rosielowther
 
 levels:
@@ -9,10 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Interactive-Staging){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Interactive-Staging){website}'
+
+
+---
+
+# Interactive staging
 
 ---
 ## Content
@@ -61,9 +66,10 @@ Update > ???
   1: unchanged    +0/-1 index.md
 |*2: unchanged    +1/-1 enki.md
 ```
-*`2`
-*`enki.md`
-*`stage`
+
+* `2`
+* `enki.md`
+* `stage`
 
 ---
 ## Revision
@@ -72,6 +78,9 @@ Open the interactive shell for staging files:
 ```
 $ git add ???
 ```
-*`-i`
-*`i`
-*`-shell`
+
+* `-i`
+* `i`
+* `-shell`
+
+ 

@@ -1,12 +1,6 @@
 name: Synchronization I
 
-type: insights-list
-
 description: Learn the ropes of synchronization.
-
-section: 0
-
-parent: threading
 
 insights:
   - thread-synchronization
@@ -14,3 +8,4 @@ insights:
   - synchronization-methods
   - semaphores
   - monitors
+ 

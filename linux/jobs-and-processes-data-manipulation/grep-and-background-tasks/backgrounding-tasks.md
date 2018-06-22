@@ -1,4 +1,4 @@
-# Backgrounding tasks 
+---
 author: tuwi.dc
 
 levels:
@@ -23,7 +23,13 @@ tags:
 
   - background
 
+
+
 notes: ''
+
+---
+
+# Backgrounding tasks 
 
 ---
 ## Content
@@ -54,7 +60,10 @@ You can run a command in the background by adding
 
 ??? at the end of it .
 
-*`&`
-*`$`
-*`bg`
-*`!`
+
+* `&`
+* `$`
+* `bg`
+* `!`
+
+ 

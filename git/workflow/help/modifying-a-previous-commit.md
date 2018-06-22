@@ -1,4 +1,4 @@
-# Modifying a Previous Commit
+---
 author: catalin
 
 levels:
@@ -9,10 +9,15 @@ type: normal
 
 category: how to
 
+
 links:
 
-  - >-
-    [www.atlassian.com](https://www.atlassian.com/git/tutorials/rewriting-history){website}
+  - '[www.atlassian.com](https://www.atlassian.com/git/tutorials/rewriting-history){website}'
+
+
+---
+
+# Modifying a Previous Commit
 
 ---
 ## Content
@@ -54,8 +59,11 @@ What flag is used to modify your last commit ?
 $ git commit ???
 ```
 
-*`--amend`
-*`--undo`
-*`--update`
-*`-m`
-*`-a`
+
+* `--amend`
+* `--undo`
+* `--update`
+* `-m`
+* `-a`
+
+ 

@@ -1,4 +1,4 @@
-# Defining Functions
+---
 author: tommarshall
 
 levels:
@@ -7,18 +7,28 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+standards:
+  python.functions.0: 10
+  python.identify-python-syntax.2: 10
 
 links:
 
   - '[anh.cs.luc.edu](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/functions.html){website}'
 
+
+---
+
+# Defining Functions
+
 ---
 ## Content
 
-Functions allow you to split up your code into relevant blocks, they allow code to be ordered and to be more readable.
+Functions allow you to split up your code into relevant blocks, and they allow code to be ordered and to be more readable.
 
 Functions in Python use Python's standard block syntax:
 
@@ -57,6 +67,7 @@ def function 4()
 ```
 ???
 
+
 * `Function 1`
 * `Function 2`
 * `Function 3`
@@ -68,6 +79,9 @@ def function 4()
 What keyword is used to define a new function?
 ???
 
+
 * `def`
 * `new`
 * `func`
+ 
+ 

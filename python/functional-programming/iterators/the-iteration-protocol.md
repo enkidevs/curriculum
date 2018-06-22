@@ -1,4 +1,4 @@
-# The Iteration Protocol
+---
 author: stefkn
 
 levels:
@@ -13,9 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[Iteration Protocol](https://medium.com/the-python-corner/iterators-and-generators-in-python-2c3929a144b)'
+  - '[Iteration Protocol](https://medium.com/the-python-corner/iterators-and-generators-in-python-2c3929a144b){website}'
+
+
+---
+
+# The Iteration Protocol
 
 ---
 ## Content
@@ -28,7 +34,7 @@ Each time we call the `next` method on the iterator given, it returns the next e
 
 Iterators are always implemented as classes. Let's examine an iterator's code for a better understanding:
 
-```Python
+```python
 class Counter(object):
     def __init__(self, start, finish):
         self.current = start
@@ -53,7 +59,7 @@ Notice how the iterator itself has an `iter` method implemented. This means that
 
 We can use many of Python's built-in functions on iterators and get proper results:
 
-```Python
+```python
 print(list(Counter(0, 5)))
 # Result: [0, 1, 2, 3, 4, 5]
 print(sum(Counter(0,5)))
@@ -62,7 +68,7 @@ print(sum(Counter(0,5)))
 
 It's important to remember that if the iterator and iterable are both the same object, it is consumed after just one full iteration. Built-in functions such as `list` and `sum` (and more) work by iterating through the whole iterator to produce their answer, so if we execute:
 
-```Python
+```python
 thing = (Counter(0, 5))
 print(list(thing))
 # Result: [0, 1, 2, 3, 4, 5]
@@ -79,6 +85,7 @@ What happens when an iterator reaches the end of the sequence being iterated on?
 
 ???
 
+
 * `StopIteration` exception
 * `FinishIteration` exception
 * `ReferenceError` exception
@@ -90,13 +97,14 @@ What happens when an iterator reaches the end of the sequence being iterated on?
 
 What is the result of the following code execution?
 
-```Python
+```python
 iterator = Counter(0,5)
 print(sum(iterator))
 print(sum(iterator))
 ```
 
 ???
+
 
 * `15`, then `0`
 * `TypeError` exception
@@ -106,7 +114,7 @@ print(sum(iterator))
 
 ---
 ## Footnotes
-
 [1:`StopIteration` exception]
 An exception is simply another word for an error. Taken directly from the Python 3.6 documentation:
 "Raised by built-in function `next()` and an iterator‘s `__next__()` method to signal that there are no further items produced by the iterator. The exception object has a single attribute value, which is given as an argument when constructing the exception, and defaults to None."
+ 

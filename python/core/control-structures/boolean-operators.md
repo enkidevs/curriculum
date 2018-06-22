@@ -1,5 +1,9 @@
-# Boolean Operators
+---
 author: tommarshall
+
+tags:
+
+  - introduction
 
 levels:
 
@@ -7,9 +11,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+standards:
+  python.native-types-operations.0: 10
+
+---
+
+# Boolean Operators
 
 ---
 ## Content
@@ -37,15 +48,18 @@ if str == 'boolean' or num > 2:
 ---
 ## Practice
 
-Complete the code snippet so that both conditions must be evaluated to true:
+Complete the code snippet so that both conditions must evaluate to true for the word 'yes' to be printed:
 
 ```python
 x = 6
 str = 'python'
 
 if x == 6 ??? str == 'python':
-    print ('true')
+    print ('yes')
+else:
+    print('no')
 ```
+
 * `and`
 * `or`
 * `both`
@@ -54,15 +68,18 @@ if x == 6 ??? str == 'python':
 ---
 ## Revision
 
-Complete the code snippet so that either of the conditions must be evaluated to true:
+Complete the code snippet so that at least one of the condition must evaluate to true for the word 'yes' to be printed:
 
 ```python
 x = 6
 str = 'python'
 
-if x == 6 ??? str == 'python':
-    print ('true')
+if x == 6 ??? str == 'java':
+    print ('yes')
+else:
+    print('no')
 ```
+
 * `or`
 * `and`
 * `xor`

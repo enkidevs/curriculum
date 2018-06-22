@@ -1,4 +1,4 @@
-# Running a command as another local user
+---
 author: dean
 
 levels:
@@ -10,9 +10,21 @@ type: normal
 category: tip
 
 tags:
+
   - sudo-su-local-shell
+
   - workout
 
+
+
+
+aspects:
+  - workout
+
+
+---
+
+# Running a command as another local user
 
 ---
 ## Content
@@ -36,7 +48,10 @@ test
 ## Revision
 
 The `sudo` flag that allows you to run commands as another user is ??? .
-*`-u`
-*`-n`
-*`-t`
-*`-R`
+
+* `-u`
+* `-n`
+* `-t`
+* `-R`
+
+ 

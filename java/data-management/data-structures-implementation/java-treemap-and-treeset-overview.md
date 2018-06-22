@@ -1,4 +1,4 @@
-# Java TreeMap and TreeSet overview
+---
 author: alex
 
 levels:
@@ -15,10 +15,15 @@ tags:
 
   - data structures
 
+
 links:
 
-  - >-
-    [en.wikipedia.org](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree){website}
+  - '[en.wikipedia.org](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree){website}'
+
+
+---
+
+# Java TreeMap and TreeSet overview
 
 ---
 ## Content
@@ -30,3 +35,5 @@ The internal implementation is based on constructing a Red-Black tree which is b
 Another feature of having a BST as an internal implementation is that we can really efficiently in just *O(N) time iterate over data in its sorted order*. And since the data must have some order, the objects stored *must implement the `java.lang.Comparable<T>` interface*.
 
 The difference between the TreeMap and TreeSet is that for each node in the BST, TreeMap stores a pair of a key and a value it maps to, while the TreeSet needs to store only the values.
+
+ 

@@ -1,4 +1,4 @@
-# Sending emails from terminal / scripts
+---
 author: tuwi.dc
 
 levels:
@@ -25,7 +25,14 @@ tags:
 
   - gmail
 
-  - ''
+  - 
+
+
+
+
+---
+
+# Sending emails from terminal / scripts
 
 ---
 ## Content
@@ -45,3 +52,5 @@ $ sendemail -f fromuser@gmail.com \
  -o tls=yes -xu gmailaccount \
  -xp gmailpassword 
 ```
+
+ 

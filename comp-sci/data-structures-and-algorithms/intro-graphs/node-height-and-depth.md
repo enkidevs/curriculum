@@ -1,4 +1,4 @@
-# Node Height and Depth
+---
 author: mihaiberq
 
 levels:
@@ -9,7 +9,14 @@ type: normal
 
 category: must-know
 
+
+
 parent: the-tree-data-structure
+
+---
+
+# Node Height and Depth
+
 ---
 ## Content
 
@@ -53,10 +60,11 @@ B ???
 C ???
 D ???
 ```
-*`D0/H2`
-*`D1/H0`
-*`D1/H1`
-*`D2/H0`
+
+* `D0/H2`
+* `D1/H0`
+* `D1/H1`
+* `D2/H0`
 
 ---
 ## Revision
@@ -72,7 +80,10 @@ A ???
 B ???
 C ???
 ```
-*`D0/H2`
-*`D1/H1`
-*`D2/H0`
-*`D2/H2`
+
+* `D0/H2`
+* `D1/H1`
+* `D2/H0`
+* `D2/H2`
+
+ 

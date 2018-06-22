@@ -1,4 +1,4 @@
-# JUnit: Specifying file locations
+---
 author: fahimrahman
 
 levels:
@@ -21,10 +21,15 @@ tags:
 
   - best-practice
 
+
 links:
 
-  - >-
-    [www.javaworld.com](http://www.javaworld.com/article/2076265/testing-debugging/junit-best-practices.html){website}
+  - '[www.javaworld.com](http://www.javaworld.com/article/2076265/testing-debugging/junit-best-practices.html){website}'
+
+
+---
+
+# JUnit: Specifying file locations
 
 ---
 ## Content
@@ -70,6 +75,9 @@ When testing external resource files, it is recommended
 
 ???
 
+
 * to move the files in the same directory as the tests
 * to use the Java 8 API
 * to close the input stream by yourself
+
+ 

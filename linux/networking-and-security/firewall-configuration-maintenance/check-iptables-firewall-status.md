@@ -1,4 +1,4 @@
-# Check `iptables` firewall status
+---
 author: tuwi.dc
 
 levels:
@@ -19,12 +19,16 @@ tags:
 
   - firewall
 
-notes: ''
 
 links:
 
-  - >-
-    [www.cyberciti.biz](http://www.cyberciti.biz/faq/rhel-fedorta-linux-iptables-firewall-configuration-tutorial/){website}
+  - '[www.cyberciti.biz](http://www.cyberciti.biz/faq/rhel-fedorta-linux-iptables-firewall-configuration-tutorial/){website}'
+
+notes: ''
+
+---
+
+# Check `iptables` firewall status
 
 ---
 ## Content
@@ -69,6 +73,7 @@ Which of the following flags, when used together with `iptables` command will di
 $ sudo iptables ???
 ```
 
+
 * `-n`
 * `-d`
 * `-L`
@@ -81,8 +86,11 @@ You can list the active firewall rules by running:
 ```
 $ ??? ???
 ```
-*`iptables`
-*`-L`
-*`iftables`
-*`-n`
-*`-l`
+
+* `iptables`
+* `-L`
+* `iftables`
+* `-n`
+* `-l`
+
+ 

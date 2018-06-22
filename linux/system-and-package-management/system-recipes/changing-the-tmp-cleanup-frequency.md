@@ -1,4 +1,4 @@
-# Changing the `/tmp` cleanup frequency
+---
 author: tuwi.dc
 
 levels:
@@ -21,7 +21,13 @@ tags:
 
   - cleanup
 
+
+
 parent: practical-cron
+
+---
+
+# Changing the `/tmp` cleanup frequency
 
 ---
 ## Content
@@ -54,10 +60,11 @@ A negative value of `TMPTIME`  tells the system to delete the tmp folder
 
 ??? .
 
-*never
-*every day
-*when a process stops using them
-*after a reboot
+
+* never
+* every day
+* when a process stops using them
+* after a reboot
 
 ---
 ## Revision
@@ -66,7 +73,10 @@ The default `TMPTIME`  (which clears tmp directory after every reboot) value is
 
 ??? .
 
-*0
-*-1
-*1
-*7
+
+* 0
+* -1
+* 1
+* 7
+
+ 

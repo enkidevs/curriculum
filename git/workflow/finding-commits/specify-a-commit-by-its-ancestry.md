@@ -1,4 +1,4 @@
-# Specify a commit by its ancestry
+---
 author: rosielowther
 
 levels:
@@ -12,6 +12,13 @@ levels:
 type: normal
 
 category: feature
+
+
+
+
+---
+
+# Specify a commit by its ancestry
 
 ---
 ## Content
@@ -42,6 +49,7 @@ $ git show 34de6f1~2
 What is the `~` equivalent of `^^^^`?
 
 ???
+
 * ~4
 * ~3
 * ~2
@@ -55,21 +63,25 @@ The command:
 $ git show 42ea31d^
 ```
 Gets the ??? of commit `42ea31d`.
+
 * parent
 * grandparent
 * child
 
 ---
-## Quiz
+## Quiz 
+### how can you access the forth commit in this sequence?
 
-headline: how can you access the forth commit in this sequence?
+Say you've got the following commit tree:
+```bash 
+A--B--C--D--E--HEAD.
+```
+Which of the following refers to the commit labeled with D?
 
-question: |
-  Say you've got the following commit tree: A--B--C--D--E--HEAD.
-  Which of the following refers to the commit labeled with D?
+ ???
 
-answers:
-  - HEAD~~
-  - HEAD^2
-  - HEAD^1
-  - HEAD~1
+* HEAD~~
+* HEAD^2
+* HEAD^1
+* HEAD~1
+ 

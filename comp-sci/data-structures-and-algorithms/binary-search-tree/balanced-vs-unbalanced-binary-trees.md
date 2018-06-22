@@ -1,22 +1,31 @@
-# Balanced vs. Unbalanced Binary Trees
+---
 author: jfarmer
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
 links:
-    - >-
-        [Why is it safer to keep the tree balanced?](http://stackoverflow.com/questions/8015630/definition-of-a-balanced-tree){website}
+
+  - '[Why is it safer to keep the tree balanced?](http://stackoverflow.com/questions/8015630/definition-of-a-balanced-tree){website}'
 
 parent: removing-keys-from-a-binary-search-tree
+
+---
+
+# Balanced vs. Unbalanced Binary Trees
+
 ---
 ## Content
 
@@ -43,6 +52,7 @@ Solving this problem and guaranteeing that the tree remains more-or-less balance
 Which of the following data structures is a type of *maximally-unbalanced* binary tree?
 
 ???
+
 * Ordered linked list
 * Ordered array
 * Weighted graph
@@ -50,9 +60,9 @@ Which of the following data structures is a type of *maximally-unbalanced* binar
 
 ---
 ## Footnotes
-
 [1: AVL tree]
 Self-balancing binary search tree, in which the height of the two child subtrees of any node differ by at most one.
 
 [2: Red-Black tree]
 Self-balancing binary search tree, in which nodes store an additional bit of data: whether the node is black or red. All of the tree's leaves must be black and, in case of a node being red, its two children must be black.
+ 

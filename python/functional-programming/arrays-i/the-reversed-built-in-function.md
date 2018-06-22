@@ -1,4 +1,4 @@
-# The `reversed` Built-in Function
+---
 author: stefkn
 
 levels:
@@ -13,9 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[Python reversed()](https://www.programiz.com/python-programming/methods/built-in/reversed)'
+  - '[Python reversed()](https://www.programiz.com/python-programming/methods/built-in/reversed){website}'
+
+
+---
+
+# The `reversed` Built-in Function
 
 ---
 ## Content
@@ -46,6 +52,7 @@ ourList = [5, 4, 3, 2, 1]
 newList = ???(???(???))
 ```
 
+
 * `list`
 * `reversed`
 * `ourList`
@@ -65,11 +72,10 @@ class Classroom:
     def __reversed__(self):
         return ???(???.???)
 
-#------------------------------
-
 c = Classroom()
 print(list(reversed(c)))
 ```
+
 
 * `reversed`
 * `self`
@@ -80,6 +86,6 @@ print(list(reversed(c)))
 
 ---
 ## Footnotes
-
 [1:`__len__ and __getitem__`]
 *Supporting these two methods is called supporting sequence protocol in Python. These two methods allow Python to find the total length of the given sequence and access elements arbitrarily inside the sequence. Knowing the total size of the sequence allows Python to access the element at the end of the list and move backwards toward the beginning of the sequence.*
+ 

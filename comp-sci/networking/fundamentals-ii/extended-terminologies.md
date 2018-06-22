@@ -1,4 +1,4 @@
-# Extended terminologies
+---
 author: SebaRaba
 
 levels:
@@ -9,13 +9,17 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - 'http://blog.ocens.com/?p=140'
-
-  - 'https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols'
+  - '[blog.ocens.com](http://blog.ocens.com/?p=140){website}'
+  - '[www.digitalocean.com](https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols){website}'
 
 parent: application-layer
+
+---
+
+# Extended terminologies
 
 ---
 ## Content
@@ -67,8 +71,11 @@ Which of the following terms refer to the **physical**, **hard-coded** address o
 
 ???
 
+
 * `MAC`
 * `IP`
 * `VPN`
 * `Gateway`
 * `Proxy`
+
+ 

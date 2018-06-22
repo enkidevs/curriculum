@@ -1,5 +1,9 @@
-# The `is` operator
+---
 author: tommarshall
+
+tags:
+
+  - introduction
 
 levels:
 
@@ -7,22 +11,29 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+standards:
+  python.native-types-operations.0: 10
 
 links:
 
-  - >-
-    [is
-    operator](http://stackoverflow.com/questions/13650293/understanding-pythons-is-operator){website}
+  - '[is operator](http://stackoverflow.com/questions/13650293/understanding-pythons-is-operator){website}'
+
+
+---
+
+# The `is` operator
 
 ---
 ## Content
 
 Python's `is` operator is used to match instances of variables, instead of matching the values of variables like the `==` operator.
 
-`is` will evaluate to true if the variables on either side of the operator point to the same object, not the same value, and will evaluate to false if otherwise.
+`is` will evaluate to true if the variables on either side of the operator point to the same object, not just the same value, and will evaluate to false otherwise.
 
 For example:
 
@@ -51,6 +62,7 @@ numsY is numsX
 
 The `is` operator is used to match ??? instead of variables.
 
+
 * instances
 * objects
 * lists
@@ -67,6 +79,7 @@ numsY = [2, 4, 6]
 numsX is numsY
 ```
 ???
+
 * False
 * True
 * Error

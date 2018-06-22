@@ -1,4 +1,4 @@
-# `.bind()` 
+---
 author: rosielowther
 
 levels:
@@ -13,12 +13,33 @@ type: normal
 
 category: must-know
 
+standards:
+
+  javascript.functions.5: 10
+
+  javascript.execution-context.0: 10
+
+tags:
+
+  - introduction
+
+  - workout
+
+
 links:
 
-  - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/2236747/use-of-the-javascript-bind-method){website}
-
+  - '[stackoverflow.com](http://stackoverflow.com/questions/2236747/use-of-the-javascript-bind-method){website}'
   - '[www.javascripture.com](http://www.javascripture.com/Function#bind){website}'
+
+
+aspects:
+  - introduction
+  - workout
+
+
+---
+
+# `.bind()` 
 
 ---
 ## Content
@@ -51,6 +72,7 @@ Complete the code snippet below to return a new function with its `this` being e
 ???(???, [p1, [???, [...]]])
 ```
 
+
 * `bind`
 * `thisArg`
 * `p2`
@@ -68,8 +90,11 @@ What can be used to make a function be always called with a **particular** `this
 
 ???
 
-*`bind()`
-*`push()`
-*nothing
-*`return`
-*`new`
+
+* `bind()`
+* `push()`
+* nothing
+* `return`
+* `new`
+
+ 

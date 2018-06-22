@@ -1,10 +1,6 @@
 name: Utilities
 
-type: insights-list
-
 description: Explore useful utilities for data manipulation.
-
-section: 1
 
 insights:
   - repeating-commands-with-watch
@@ -12,3 +8,4 @@ insights:
   - image-manipulation-using-convert
   - delete-commands-aliases
   - practical-du-command
+ 

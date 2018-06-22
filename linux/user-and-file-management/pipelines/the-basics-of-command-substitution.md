@@ -1,4 +1,4 @@
-# The Basics of Command Substitution
+---
 author: jfarmer
 
 levels:
@@ -9,19 +9,31 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+tags:
+
+  - introduction
+
+  - workout
+
 
 links:
 
-  - >-
-    [More
-    substitutions](http://www.tldp.org/LDP/abs/html/commandsub.html){website}
+  - '[More substitutions](http://www.tldp.org/LDP/abs/html/commandsub.html){website}'
 
-tags:
+
+aspects:
   - introduction
   - workout
+
+
+---
+
+# The Basics of Command Substitution
+
 ---
 ## Content
 
@@ -33,7 +45,7 @@ For example, let's say we want to check the permissions on the `curl` executable
 
 We might *happen* to know that `curl` is located at `/usr/bin/curl` or we can use `which` to get the full path to the executeable:
 
-```console
+```shell
 $ which curl
 /usr/bin/curl
 $
@@ -41,7 +53,7 @@ $
 
 Now we can run `ls -l /usr/bin/curl`:
 
-```console
+```shell
 $ ls -l /usr/bin/curl
 -rwxr-xr-x  1 root  wheel  172016
 Dec  2  2015 /usr/bin/curl*
@@ -50,7 +62,7 @@ $
 
 We can capture the output of `which curl` and pass it to `ls -l` directly using `$(...)`, like so:
 
-```console
+```shell
 $ ls -l $(which curl)
 -rwxr-xr-x  1 root  wheel  172016
 Dec  2  2015 /usr/bin/curl*
@@ -63,7 +75,7 @@ The output of the command inside `$(...)` (here `which curl`) is passed to `ls -
 
 It's common to see backticks `` `...` `` instead of `$(...)`.  The two are equivalent, with the former existing for backwards compatibility with older shells.
 
-```console
+```shell
 $ ls -l `which curl`
 -rwxr-xr-x  1 root  wheel  172016
 Dec  2  2015 /usr/bin/curl*
@@ -83,6 +95,7 @@ Use substitution to pass the content of the file to `curl`:
 ```
 $ ??? ???(???)
 ```
+
 * `curl`
 * `$`
 * `cat websites.txt`
@@ -96,7 +109,10 @@ $ ??? ???(???)
 If you want to use the output of a program as a command line argument, you would have to use
 
 ???.
+
 * $(...) or `...`
 * >
 * |
 * >>
+
+ 

@@ -1,4 +1,4 @@
-# Generator of generators
+---
 author: SebaRaba
 
 levels:
@@ -9,9 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[more on generators](http://www.python-course.eu/python3_generators.php)'
+  - '[more on generators](http://www.python-course.eu/python3_generators.php){website}'
+
+
+---
+
+# Generator of generators
 
 ---
 ## Content
@@ -48,7 +54,6 @@ Finally, we print a list containing the first 10 *elements* of the *Fibonacci se
 # [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
 ```
 
-
 ---
 ## Practice
 
@@ -64,6 +69,7 @@ def first_n(g,n):
     for i in ???(n):
       ??? next(g)
 ```
+
 
 * True
 * range
@@ -92,6 +98,9 @@ print(list(n_power(
 ```
 ???
 
+
 * `[2, 4, 8, 16]`
 * `[1, 2, 4, 8]`
 * `[2, 4, 8, 16, 32]`
+
+ 

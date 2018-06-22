@@ -1,4 +1,4 @@
-# User Timing API
+---
 author: rosielowther
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [www.sitepoint.com](http://www.sitepoint.com/10-html5-apis-worth-looking/){website}
+  - '[www.sitepoint.com](http://www.sitepoint.com/10-html5-apis-worth-looking/){website}'
+
+
+---
+
+# User Timing API
 
 ---
 ## Content
@@ -45,11 +50,12 @@ performance.???("???",
     "start", "end");
 
 ```
-*`measure`
-*`duration`
-*`time`
-*`elapsed`
-*`timing`
+
+* `measure`
+* `duration`
+* `time`
+* `elapsed`
+* `timing`
 
 ---
 ## Revision
@@ -60,8 +66,11 @@ performance.???("???",
     "start", "end");
 
 ```
-*`measure`
-*`duration`
-*`time`
-*`elapsed`
-*`timing`
+
+* `measure`
+* `duration`
+* `time`
+* `elapsed`
+* `timing`
+
+ 

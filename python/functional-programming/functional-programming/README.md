@@ -1,10 +1,6 @@
 name: Functional Programming
 
-type: insights-list
-
 description: Programming like mathematicians.
-
-section: 0
 
 insights:
   - what-is-functional-programming
@@ -12,3 +8,8 @@ insights:
   - is-python-a-functional-language
   - functional-particularities-of-python
   - lambda-functions
+
+exercises:
+  - py-practice-functional-features2
+  - py-practice-functional-imperative
+  - py-practice-pure-functions

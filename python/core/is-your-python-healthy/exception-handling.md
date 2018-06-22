@@ -1,4 +1,4 @@
-# Exception Handling
+---
 author: SebaRaba
 
 levels:
@@ -11,14 +11,23 @@ type: normal
 
 category: must-know
 
+standards:
+  python.native-types-operations.10: 10
+  python.identify-python-syntax.2: 10
+
 links:
 
-  - '[more about exception handling](https://docs.python.org/3/tutorial/errors.html)'
+  - '[more about exception handling](https://docs.python.org/3/tutorial/errors.html){website}'
+
+
+---
+
+# Exception Handling
 
 ---
 ## Content
 
-If we have a **code snippet** that might rise some **exceptions**, there is a way to **handle** their occurrences: we need to wrap that *problematic* snippet into a `try` block. 
+If we have a **code snippet** that might rise some **exceptions**, there is a way to **handle** their occurrences: we need to wrap that *problematic* snippet into a `try` block.
 
 After the `try` block we need to include an `except` statement followed by a code snippet, which should run if the error rises.
 
@@ -80,6 +89,7 @@ Can we define a single except clauses that will catch all types of exceptions?
 
 ???
 
+
 * yes
 * no
 * depends on the exception
@@ -90,6 +100,36 @@ Can we define a single except clauses that will catch all types of exceptions?
 What are the two optional clauses of the `try-except` statement?
 ???
 
+
 * `else` and `finally`
 * `if` and `return`
 * `elif` and `break`
+
+---
+## Quiz
+
+### Do you know how exception handling works?
+
+
+// Here is an exception-handling block. Let's say a StopIteration is raised. How is it executed? 
+```python
+try:
+    # Exception-prone code here...
+    # Raise StopIteration!
+except StopIteration:
+    # do A here...
+except Exception as e:
+    # do B here...
+else:
+    # do C here...
+finally:
+    # do D here...
+```
+
+- It will do A and D
+- It will do A, B and D
+- It will do A, B, C and D
+- It will do B and D
+
+ 
+ 

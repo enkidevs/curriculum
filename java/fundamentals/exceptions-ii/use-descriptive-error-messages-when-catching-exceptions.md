@@ -1,4 +1,4 @@
-# Use descriptive error messages when catching exceptions
+---
 author: adamMontgomerie
 
 levels:
@@ -15,10 +15,15 @@ tags:
 
   - exceptions
 
+
 links:
 
-  - >-
-    [javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2013/03/0-exception-handling-best-practices-in-Java-Programming.html){website}
+  - '[javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2013/03/0-exception-handling-best-practices-in-Java-Programming.html){website}'
+
+
+---
+
+# Use descriptive error messages when catching exceptions
 
 ---
 ## Content
@@ -34,3 +39,5 @@ Invalid age: -5
 This message is much more helpful. It tells us that the problem relates to the `age` property and that the value entered was `-5`. 
 
 We now know where to look in our code for the problem, and have a good idea of why an exception was thrown.
+
+ 

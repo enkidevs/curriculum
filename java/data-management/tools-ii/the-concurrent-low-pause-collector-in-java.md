@@ -1,4 +1,4 @@
-# The Concurrent Low Pause Collector in Java
+---
 author: pawel
 
 levels:
@@ -15,12 +15,16 @@ tags:
 
   - garbage-collection
 
-notes: ''
 
 links:
 
-  - >-
-    [www.oracle.com](http://www.oracle.com/technetwork/java/gc-tuning-5-138395.html#0.0.0.%20The%20Concurrent%20Low%20Pause%20Collector%7Coutline){website}
+  - '[www.oracle.com](http://www.oracle.com/technetwork/java/gc-tuning-5-138395.html#0.0.0.%20The%20Concurrent%20Low%20Pause%20Collector%7Coutline){website}'
+
+notes: ''
+
+---
+
+# The Concurrent Low Pause Collector in Java
 
 ---
 ## Content
@@ -32,3 +36,5 @@ To enable the concurrent collector use the command line option shown below:
 ```
 XX: +UseConcMarkSweepGC
 ```
+
+ 

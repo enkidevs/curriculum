@@ -1,10 +1,6 @@
 name: Intro to npm
 
-type: insights-list
-
 description: Introducing npm.
-
-section: 0
 
 insights:
   - what-is-npm
@@ -12,3 +8,4 @@ insights:
   - setting-up-npm
   - package-json
   - semantic-versioning
+ 

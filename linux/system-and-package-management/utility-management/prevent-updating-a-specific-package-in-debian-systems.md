@@ -1,4 +1,4 @@
-# Prevent updating a specific package in Debian systems
+---
 author: tuwi.dc
 
 levels:
@@ -24,6 +24,13 @@ tags:
   - update
 
   - aptitude
+
+
+
+
+---
+
+# Prevent updating a specific package in Debian systems
 
 ---
 ## Content
@@ -61,7 +68,10 @@ Using `aptitude`, prevent the `enki` package from updating:
 ```
 $ ??? ??? enki
 ```
-*aptitude
-*hold
-*apt-get
-*stop
+
+* aptitude
+* hold
+* apt-get
+* stop
+
+ 

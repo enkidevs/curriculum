@@ -1,4 +1,4 @@
-# The `sticky bit` permission
+---
 author: tuwi.dc
 
 levels:
@@ -10,13 +10,30 @@ type: normal
 category: feature
 
 tags:
+
   - linux
+
   - terminal
+
   - permissions
+
   - sticky bit
+
+  - deep
+
+  - workout
+
+
+
+
+aspects:
   - deep
   - workout
 
+
+---
+
+# The `sticky bit` permission
 
 ---
 ## Content
@@ -46,7 +63,10 @@ $ chmod -t file
 The sticky bit prevents
 
 ???.
-*other users from deleting the file
-*the owner of the file from deleting the file
-*the root from deleting the file
-*the owner from moving the file
+
+* other users from deleting the file
+* the owner of the file from deleting the file
+* the root from deleting the file
+* the owner from moving the file
+
+ 

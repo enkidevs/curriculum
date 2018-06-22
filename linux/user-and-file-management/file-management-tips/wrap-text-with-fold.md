@@ -1,4 +1,4 @@
-# Wrap text with `fold`
+---
 author: catalin
 
 levels:
@@ -13,13 +13,24 @@ type: normal
 
 category: feature
 
+tags:
+
+  - workout
+
+
 links:
 
-  - >-
-    [www.tutorialspoint.com](http://www.tutorialspoint.com/unix_commands/fold.htm){website}
+  - '[www.tutorialspoint.com](http://www.tutorialspoint.com/unix_commands/fold.htm){website}'
 
-tags:
+
+aspects:
   - workout
+
+
+---
+
+# Wrap text with `fold`
+
 ---
 ## Content
 
@@ -54,6 +65,7 @@ How do you break down `file.txt` every 5 characters?
 ```
 $ ??? ??? ???
 ```
+
 * `fold`
 * `-w5`
 * `file.txt`
@@ -71,9 +83,12 @@ Use the `fold` command to line-break the content of `enki.txt` every 20 characte
 ??? ??? enki.txt
 
 ```
+
 * `fold`
 * `-w20`
 * `20`
 * `-w=20`
 * `--width`
 * `enki.txt`
+
+ 

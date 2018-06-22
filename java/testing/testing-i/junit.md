@@ -1,13 +1,20 @@
-# Intro to JUnit
+---
 author: mihaiberq
 
 levels:
 
-    - medium
+  - medium
 
 type: normal
 
 category: must-know
+
+
+
+
+---
+
+# Intro to JUnit
 
 ---
 ## Content
@@ -103,6 +110,7 @@ $ java TestRunner
 
 In JUnit, code is tested with ???
 
+
 * assertions
 * equal statements
 * deep equal statements
@@ -113,7 +121,10 @@ In JUnit, code is tested with ???
 
 Setting up a test runner is seen as a type of ??? testing.
 
+
 * automated
 * manual
 * unit
 * application
+
+ 

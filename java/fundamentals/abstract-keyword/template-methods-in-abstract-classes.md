@@ -1,4 +1,4 @@
-# Template methods in abstract classes
+---
 author: adamMontgomerie
 
 levels:
@@ -19,10 +19,15 @@ tags:
 
   - inheritance
 
+
 links:
 
-  - >-
-    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=164){website}
+  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=164){website}'
+
+
+---
+
+# Template methods in abstract classes
 
 ---
 ## Content
@@ -64,6 +69,7 @@ public class SubClass extends BaseClass{
 
 Template methods are a good way to prevent
 ???.
+
 * code repetition
 * compilation issues
 * spelling mistakes
@@ -86,6 +92,7 @@ public class smallerClass
 }
 ```
 
+
 * `extends`
 * `@Override`
 * `creates`
@@ -94,3 +101,5 @@ public class smallerClass
 * `@Implement`
 * `@Create`
 * `@Extends`
+
+ 

@@ -1,4 +1,4 @@
-# The local repository
+---
 author: catalin
 
 levels:
@@ -7,17 +7,20 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics#The-Three-States){website}
+  - '[git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics#The-Three-States){website}'
+  - '[blog.udemy.com](https://blog.udemy.com/git-tutorial-a-comprehensive-guide/#6_1){website}'
 
-  - >-
-    [blog.udemy.com](https://blog.udemy.com/git-tutorial-a-comprehensive-guide/#6_1){website}
+
+---
+
+# The local repository
 
 ---
 ## Content
@@ -44,6 +47,7 @@ The repository is the proprietary datastore where **Git** maintains the **histor
 
 The area where files you are working on is called the ???.
 
+
 * working tree
 * GitHub
 * working
@@ -54,6 +58,9 @@ The area where files you are working on is called the ???.
 
 The area where 'to be committed' changes are placed is called ??? .
 
+
 * the staging area
 * the repository
 * the working directory
+
+ 

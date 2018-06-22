@@ -1,4 +1,4 @@
-# List installed packages
+---
 author: tuwi.dc
 
 levels:
@@ -35,7 +35,13 @@ tags:
 
   - grep
 
+
+
 notes: ''
+
+---
+
+# List installed packages
 
 ---
 ## Content
@@ -71,9 +77,10 @@ $ yum list installed "package_name"
 It’s good practice to add the list of installed packages to a new file because 
 
 ???.
-*it makes the recovery process easier
-*it is easier to list them again
-*it is easier to update them
+
+* it makes the recovery process easier
+* it is easier to list them again
+* it is easier to update them
 
 ---
 ## Revision
@@ -87,6 +94,9 @@ $ rpm -qa
 #???
 $ pkg_version 
 ```
-*`Debian`
-*`RedHat/Fedora`
-*`BSD`
+
+* `Debian`
+* `RedHat/Fedora`
+* `BSD`
+
+ 

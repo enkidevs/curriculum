@@ -1,4 +1,4 @@
-# How to pause a process and run others in the background
+---
 author: nene
 
 levels:
@@ -17,11 +17,15 @@ tags:
 
   - nano
 
+
 links:
 
-  - >-
-    [Background
-    processes](http://www.cyberciti.biz/faq/linux-command-line-run-in-background/){website}
+  - '[Background processes](http://www.cyberciti.biz/faq/linux-command-line-run-in-background/){website}'
+
+
+---
+
+# How to pause a process and run others in the background
 
 ---
 ## Content
@@ -33,7 +37,7 @@ CTRL+Z  # pauses an application
 fg # returns you to the
    # most recent application
 
-bg # sends a paused process process
+bg # sends a paused process
    # to run in the background
 ```
 Let's say you've opened a file in `nano` (terminal text editor) like this :
@@ -81,10 +85,11 @@ $ ??? ???
 #process 2
 $ ??? ??? 
 ```
-*`bg`
-*`%3`
-*`fg`
-*`%2`
+
+* `bg`
+* `%3`
+* `fg`
+* `%2`
 
 ---
 ## Revision
@@ -93,7 +98,10 @@ Bringing the most recently paused process to the front is done by running
 
 ??? .
 
-*`fg`
-*`bg`
-*`pop`
-*`start -fg`
+
+* `fg`
+* `bg`
+* `pop`
+* `start -fg`
+
+ 

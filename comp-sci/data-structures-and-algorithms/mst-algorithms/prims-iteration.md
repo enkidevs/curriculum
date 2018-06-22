@@ -1,18 +1,28 @@
-# Prim's Algorithm Iteration
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
+
 parent: prims-algorithm
+
+---
+
+# Prim's Algorithm Iteration
+
 ---
 ## Content
 
@@ -55,6 +65,7 @@ The next edge to be picked is:
 ```
 ???
 ```
+
 * `AB`
 * `AC`
 * `CE`
@@ -65,7 +76,10 @@ The next edge to be picked is:
 Prim's algorithm uses
 
 ???
+
 * a greedy approach
 * a dynamic approach
 * a divide and conquer approach
 * no particular approach
+
+ 

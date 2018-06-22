@@ -1,4 +1,4 @@
-# Following PEP 8 styling guideline.
+---
 author: Bruno
 
 levels:
@@ -13,12 +13,16 @@ type: normal
 
 category: tip
 
-notes: ''
 
 links:
 
-  - >-
-    [www.python.org](https://www.python.org/dev/peps/pep-0008/#whitespace-in-expressions-and-statements){website}
+  - '[www.python.org](https://www.python.org/dev/peps/pep-0008/#whitespace-in-expressions-and-statements){website}'
+
+notes: ''
+
+---
+
+# Following PEP 8 styling guideline.
 
 ---
 ## Content
@@ -48,6 +52,23 @@ To PEP 8 yourself, use a linter and an autoformatter. These
 exist for all the popular editors.
 
 ---
+## Practice
+
+Is the following syntax in accordance with PEP8 rules?
+
+```python
+def func():
+  new_element = 0
+  new_string  = 's'
+```
+
+???
+
+* yes
+* no
+* not applicable
+
+---
 ## Revision
 
 Which of the following is allowed in the PEP8 styling guidelines? 
@@ -66,5 +87,8 @@ two   = 2
 three = 3
 ```
 
-*`Option A` 
-*`Option B`
+
+* `Option A` 
+* `Option B`
+
+ 

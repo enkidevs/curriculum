@@ -1,4 +1,4 @@
-# The Git working tree
+---
 author: catalin
 
 levels:
@@ -7,14 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics){website}
+  - '[git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics){website}'
+
+
+---
+
+# The Git working tree
 
 ---
 ## Content
@@ -27,7 +32,7 @@ The **working tree** represents files that have been **created**, **updated** or
 
 **Tracked** files in the working tree are represented in **Git** based on different statuses:
   - `modified` or `dirty` : the file is changed, but Git has yet to calculate the differences and label the versions.
-  - `staged` : differences are calculated and the new structure of the project can be saved.
+  - `staged` : the differences are calculated, and the new structure of the project can be saved.
   - `committed` : the new version is safely stored in the repository.
 
 A user can add the changes to a repository at any point through **commits**, but also **revert** those changes.
@@ -39,10 +44,11 @@ What status does a file have if it was previously committed, but it is not curre
 
 ???
 
-*`Tracked`
-*`Untracked`
-*`Staged`
-*`Modified`
+
+* `Tracked`
+* `Untracked`
+* `Staged`
+* `Modified`
 
 ---
 ## Revision
@@ -51,7 +57,10 @@ How are changes added to a repository?
 
 ???
 
+
 * Through a commit
 * Automatically
 * By staging them
 * By putting them in the **working tree**
+
+ 

@@ -1,4 +1,4 @@
-# Diagnosing Network Problems With `traceroute`
+---
 author: jfarmer
 
 levels:
@@ -9,9 +9,16 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+
+
+
+---
+
+# Diagnosing Network Problems With `traceroute`
 
 ---
 ## Content
@@ -20,7 +27,7 @@ When you request data over the internet, the traffic doesn't flow directly betwe
 
 To see all the "hops" between your machine and some remote machine we can use the `traceroute` command.  Here is an example of the output:
 
-```console
+```shell
 $ traceroute google.com
 traceroute to google.com (216.58.194.174), 
   64 hops max, 52 byte packets
@@ -70,10 +77,11 @@ If the "bad hop" is internal to your network you know that it's a problem with y
 If there is a *bad hop* right at the beginning, the most likely to blame is 
 
 ???.
-*your network
+
+* your network
 * your ISP
-*destination’s server
-*destination’s ISP
+* destination’s server
+* destination’s ISP
 
 ---
 ## Revision
@@ -81,7 +89,10 @@ If there is a *bad hop* right at the beginning, the most likely to blame is
 If a particular connection is slow, you can check the *hops* of the packets between your machine and the destination’s machine using 
 
 ??? .
-*traceroute
-*netstat
-*ls
-*packetroute
+
+* traceroute
+* netstat
+* ls
+* packetroute
+
+ 

@@ -1,4 +1,4 @@
-# Using inner classes
+---
 author: adamMontgomerie
 
 levels:
@@ -13,15 +13,20 @@ tags:
 
   - nested-classes
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html){website}'
+
+
+---
+
+# Using inner classes
 
 ---
 ## Content
 
-It is possible to nest a class within another class. A non-static nested class is called an inner class. Inner classes are defined the same way as other classes, but within the definition of an outer class:
+Nesting a class within another class is possible. A non-static nested class is called an inner class. Inner classes are defined in the same way as other classes, but within the definition of an outer class:
 ```
 class OuterClass {
     ...
@@ -44,18 +49,22 @@ Which of the advantages of using inner classes is this statement describing: ‘
 
 ???
 
-*Increased readability
-*Increased encapsulation
-*Logical class grouping
+
+* Increased readability
+* Increased encapsulation
+* Logical class grouping
 
 ---
 ## Revision
 
 An instance of an ??? can only exist within an instance of its outer class. An advantage of using an inner class is ???.
 
-*inner class
-*increased encapsulation
-*reduced compilation times
-*parent class
-*class
-*reduced readability
+
+* inner class
+* increased encapsulation
+* reduced compilation times
+* parent class
+* class
+* reduced readability
+
+ 

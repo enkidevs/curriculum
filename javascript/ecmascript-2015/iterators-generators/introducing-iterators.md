@@ -1,38 +1,40 @@
-# Introducing Iterators
+---
 author: alexjmackey
 
 levels:
-
   - medium
-
   - advanced
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
-links:
+inAlgoPool: false
 
-  - '[ponyfoo.com](https://ponyfoo.com/articles/es6-iterators-in-depth)'
+links:
+  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols){website}'
+  - '[ponyfoo.com](https://ponyfoo.com/articles/es6-iterators-in-depth){website}'
+
+---
+# Introducing Iterators
 
 ---
 ## Content
 
-An iterator is a special type of object that returns items from a sequence one at a time and remembers its position within the sequence. 
+An iterator is a special type of object that returns items from a sequence one at a time and remembers its position within the sequence.
 
 A sequence can be anything but for simplicity let's imagine we have an array of numbers from 1 to 5:
-```
+
+```javascript
 [1,2,3,4,5];
 ```
 
 Whilst we could easily write a loop to iterate through these numbers let's write a function to return an iterator to do this.
 
-```
+```javascript
 function getIterator(){
  var num = [1,2,3,4,5];
- var nextIndex = 0;    
+ var nextIndex = 0;
 
  return {
   next: function(){
@@ -54,7 +56,7 @@ We then return an object with a next method that will retrieve a value at the cu
 
 We can use this iterator as follows:
 
-```
+```javascript
 var it = getIterator();
 it.next(); //Object {value: 1}
 it.next(); //Object {value: 2}
@@ -62,3 +64,29 @@ it.next(); //Object {value: 3}
 it.next(); //Object {value: 4}
 it.next(); //Object {value: 5}
 ```
+
+---
+## Practice
+
+Which of the following statements is false about iterators?
+
+???
+
+* Iterators work only on arrays
+* Iterators are special objects that go over a collection
+* Iterators can be manually implemented
+* Iterators remember the position while iterating
+
+---
+## Revision
+
+What method do iterators canonically make use of to advance the iteration?
+
+???
+
+* iterator.next()
+* iterator.pop()
+* iterator.get()
+* iterator.advance()
+* iterator.step()
+ 

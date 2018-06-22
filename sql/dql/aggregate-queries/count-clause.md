@@ -1,4 +1,4 @@
-# COUNT clause
+---
 author: SebaRaba
 
 levels:
@@ -17,12 +17,26 @@ category: must-know
 
 inAlgoPool: false
 
+standards:
+  sql.aggregate-single-table.0: 10
+
 tags:
+
   - workout
+
 
 links:
 
-  - '[More on COUNT clause](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql)'
+  - '[More on COUNT clause](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql){documentation}'
+
+
+aspects:
+  - workout
+
+
+---
+
+# COUNT clause
 
 ---
 ## Content
@@ -33,7 +47,7 @@ Using `COUNT` function[1]:
 
 ```
 SELECT COUNT(experience) AS count
-FROM experience 
+FROM experience
 LIMIT 5;
 
 
@@ -78,6 +92,7 @@ count | region_id
 
 ```
 
+
 * COUNT
 * region_id
 * GROUP BY
@@ -85,11 +100,10 @@ count | region_id
 * SUM
 * AVG
 
-
 ---
 ## Revision
 
-Knowing that the pokemon db has a table called `item` and a field `name`, count all name entries?
+Knowing that the pokemon db has a table called `item` and a field `name`, how do we count all name entries?
 ```
     ???
 --Result:
@@ -100,14 +114,14 @@ Knowing that the pokemon db has a table called `item` and a field `name`, count 
 
 ```
 
+
 * SELECT COUNT(name) FROM item;
 * SELECT COUNT(DISTINCT name) FROM item;
 * SELECT COUNT(item) FROM name;
-* SELECT COUNT(name) FROM item
+* SELECT COUNT(all) FROM item;
 
 ---
 ## Footnotes
-
 [1:Pokemon Db]
 We will use the same segment of "experience" table for all aggregate functions:
 ```
@@ -135,3 +149,5 @@ experience
  (5 rows)
 
 ```
+ 
+ 

@@ -1,10 +1,6 @@
 name: File and System Manipulation I
 
-type: insights-list
-
 description: Handle file manipulation with the help of your system.
-
-section: 1
 
 insights:
   - renaming-a-file
@@ -12,3 +8,4 @@ insights:
   - list-contents-of-a-directory-with-newdirectorystream
   - listing-a-file-system-s-root-directories
   - system-properties
+ 

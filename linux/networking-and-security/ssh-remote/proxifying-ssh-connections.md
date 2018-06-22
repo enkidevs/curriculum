@@ -1,4 +1,4 @@
-# Proxifying `ssh` connections
+---
 author: tuwi.dc
 
 levels:
@@ -23,7 +23,13 @@ tags:
 
   - bash
 
+
+
 notes: ''
+
+---
+
+# Proxifying `ssh` connections
 
 ---
 ## Content
@@ -66,6 +72,9 @@ $ ssh hostB ssh hostC 'ls -lah'
 If you are using a middle server to connect to a third, what username will appear on the third server’s connections list?
 
 ???
-*the middle server’s username
-*your username
-*the third server’s username
+
+* the middle server’s username
+* your username
+* the third server’s username
+
+ 

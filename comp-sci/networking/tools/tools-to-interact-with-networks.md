@@ -1,4 +1,4 @@
-# Tools to interact with Networks
+---
 author: catalin
 
 levels:
@@ -15,13 +15,17 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - http://www.tecmint.com/linux-network-configuration-and-troubleshooting-commands/
-
-  - http://slackbook.org/html/basic-network-commands.html
+  - '[www.tecmint.com](http://www.tecmint.com/linux-network-configuration-and-troubleshooting-commands/){website}'
+  - '[slackbook.org](http://slackbook.org/html/basic-network-commands.html){website}'
 
 parent: differences-between-bandwidth-and-throughput
+
+---
+
+# Tools to interact with Networks
 
 ---
 ## Content
@@ -55,6 +59,7 @@ Which of the following tools can be used to echo a packet to remote host?
 $ ??? google.com
 ```
 
+
 * `ping`
 * `ipconfig`
 * `nslookup`
@@ -63,8 +68,8 @@ $ ??? google.com
 
 ---
 ## Footnotes
-
 [1:IP Routing Table]
 A routing table is a set of rules, often viewed in table format, that is used to determine where data packets traveling over an Internet Protocol (`IP`) network will be directed.
 
 All IP-enabled devices, including routers and switches, use routing tables.
+ 

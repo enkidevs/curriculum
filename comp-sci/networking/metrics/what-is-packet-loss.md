@@ -1,4 +1,4 @@
-# How does packet loss happen?
+---
 author: catalin
 
 levels:
@@ -15,13 +15,17 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - 'https://en.wikipedia.org/wiki/Packet_loss'
-
-  - 'https://esj.com/articles/2012/12/13/understanding-packet-loss.aspx'
+  - '[en.wikipedia.org](https://en.wikipedia.org/wiki/Packet_loss){website}'
+  - '[esj.com](https://esj.com/articles/2012/12/13/understanding-packet-loss.aspx){website}'
 
 parent: what-are-latency-and-ping
+
+---
+
+# How does packet loss happen?
 
 ---
 ## Content
@@ -43,9 +47,10 @@ The causes of packet loss vary, yet the most common ones are:
 ---
 ## Revision
 
-_Packet loss_ is measured
+### *Packet loss* is measured
 
 ???
+
 
 * as a percentage
 * in milliseconds
@@ -54,7 +59,6 @@ _Packet loss_ is measured
 
 ---
 ## Footnotes
-
 [1:Device performance]
 Routers, Switches, Firewalls are typical devices whose **CPU** or **memory** can be maxed out.
 
@@ -70,3 +74,4 @@ Therefore, it's highly recommended to always update drivers and such software to
 **TCP** will detect packet loss and will *resend* packets that don't get to their destination to ensure reliable communication and avoid congestion.
 
 However, media streaming, VoIP or video games don't use **TCP**, but **UDP** that doesn't handle packet loss.
+ 

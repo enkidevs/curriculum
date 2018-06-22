@@ -1,4 +1,4 @@
-# The `map` Built-in Function
+---
 author: stefkn
 
 levels:
@@ -13,11 +13,17 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[Functional Programming in Python: built-in functions](https://docs.python.org/3/howto/functional.html#built-in-functions)'
-  - '[map, filter, and reduce](http://www.bogotobogo.com/python/python_fncs_map_filter_reduce.php)'
-  - '[Lambda, filter, reduce and map](http://www.python-course.eu/lambda.php)'
+  - '[Functional Programming in Python: built-in functions](https://docs.python.org/3/howto/functional.html#built-in-functions){website}'
+  - '[map, filter, and reduce](http://www.bogotobogo.com/python/python_fncs_map_filter_reduce.php){website}'
+  - '[Lambda, filter, reduce and map](http://www.python-course.eu/lambda.php){website}'
+
+
+---
+
+# The `map` Built-in Function
 
 ---
 ## Content
@@ -64,6 +70,7 @@ promises = ['learn css', 'learn js',
 promises = ???(???, ???)
 ```
 
+
 * `map`
 * `make_good`
 * `promises`
@@ -87,6 +94,7 @@ print(newscores)
 
 ???
 
+
 * [2, 1, 5, 6]
 * [6, 5, 1, 2]
 * [1, 0, 4, 5, 1, 1, 1, 1]
@@ -94,7 +102,6 @@ print(newscores)
 
 ---
 ## Footnotes
-
 [1:input_list]
 As long as our `input_list` argument given to `map` is of type `iterable`, `map` should work. To check this you can use duck typing or type checking of Abstract Base Classes (ABCs)
 
@@ -105,3 +112,4 @@ An easy rule of thumb is that imperative programming specifies **how** (what ste
 
 [3:Functional Programming]
 As explained in the above footnote, functional programming is a type of declarative language, which focus on **what** is to be computed. Functional programming eschews the idea of state from imperative programming and instead reduces a program down into functions applied on immutable data (data that cannot be directly modified). Notice how in the code example, we use `map` to apply our lambda function to each element in the list, but the items in the original list itself are **not** modified. We take each output from the lambda function and create a new copy of the original list with our new answers. This is the essence of *immutability*, one of the most important concepts of functional languages.
+ 

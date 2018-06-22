@@ -1,4 +1,4 @@
-# Terminal incognito mode
+---
 author: tuwi.dc
 
 levels:
@@ -16,14 +16,31 @@ type: normal
 category: feature
 
 tags:
+
   - terminal
+
   - bash
+
   - linux
+
   - history
+
   - commands
+
   - incognito
+
   - workout
 
+
+
+
+aspects:
+  - workout
+
+
+---
+
+# Terminal incognito mode
 
 ---
 ## Content
@@ -53,11 +70,12 @@ Complete the snippet to disable command tracking:
 ```
 $ ??? ??? ???
 ```
-*`set`
-*`+o`
-*`history`
-*`-o`
-*`shopt`
+
+* `set`
+* `+o`
+* `history`
+* `-o`
+* `shopt`
 
 ---
 ## Revision
@@ -67,5 +85,8 @@ $ set -o history
 ```
 ??? command tracking.
 
-*enables
-*disables
+
+* enables
+* disables
+
+ 

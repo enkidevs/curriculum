@@ -1,4 +1,4 @@
-# Merging
+---
 author: catalin
 
 levels:
@@ -7,14 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [git-scm.com](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging){website}
+  - '[git-scm.com](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging){website}'
+
+
+---
+
+# Merging
 
 ---
 ## Content
@@ -28,7 +33,7 @@ $ git merge [head]
 
 The merging operation will automatically integrate two different branches into a single one.
 
-Even though the algorithms used for the merge depend on the status of the branches, all of them will merge **into** the current branch. It is important to understand that  the *targeted* branch is not affected.
+Even though the algorithms used for the merge depend on the status of the branches, all of them will merge **into** the current branch. It is important to understand that the *targeted* branch is not affected.
 
 Suppose you are on a branch called `feature` where you committed some work. However, you want to get the feature to the `master` branch; the main branch of development on your project.
 ```
@@ -63,11 +68,12 @@ To check what files were not successfully merged automatically:
 $ git ???
 ```
 
-*`status`
-*`merge`
-*`list`
-*`checkout`
-*`conflicts`
+
+* `status`
+* `merge`
+* `list`
+* `checkout`
+* `conflicts`
 
 ---
 ## Revision
@@ -76,13 +82,13 @@ A merge operation will:
 
 ???
 
+
 * merge target branch into the current one
 * merge current branch into the target one
 * create new branch combining the current and target branch
 
 ---
 ## Footnotes
-
 [1:unmerged]
 You can check what files weren't successfully  merged using the `git status` command:
 ```
@@ -105,3 +111,4 @@ $ git status
 ```
 [2:conflicts]
 These markings are usually in more than one place in the file; everywhere there exists a conflict.
+ 

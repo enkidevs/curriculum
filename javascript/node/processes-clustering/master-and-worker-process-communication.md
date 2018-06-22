@@ -1,17 +1,29 @@
-# Master and Worker Process Communication
+---
 author: tommarshall
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
 
 category: tip
+
+standards:
+  javascript.node-standard-library-os.5: 20
+
+tags:
+  - workout
+  - deep
+
+aspects:
+  - workout
+  - deep
+
+
+---
+# Master and Worker Process Communication
 
 ---
 ## Content
@@ -41,7 +53,7 @@ worker.send('From master to worker...');
 // or
 worker.send({data: [1, 2, 3]});
 ```
-To send a message from a *worker* to a *master*: 
+To send a message from a *worker* to a *master*:
 ```javascript
 process.send('From worker to master..., \
              with ID num: ' + process.pid);
@@ -58,14 +70,14 @@ Complete the following snippet to listen for messages in the *master* from a *wo
 });
 ```
 
-* `worker`
-* `message`
-* `call`
-* `master`
-* `child`
-* `action`
-* `change`
-* `running`
+* worker
+* message
+* call
+* master
+* child
+* action
+* change
+* running
 
 ---
 ## Revision
@@ -75,8 +87,9 @@ The following code snippet should send a string message from the **master** proc
 ???.???('From master to worker..');
 ```
 
-*`worker`
-*`send`
-*`on`
-*`master`
-*`process`
+* worker
+* send
+* on
+* master
+* process
+ 

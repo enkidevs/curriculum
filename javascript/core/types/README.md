@@ -2,15 +2,24 @@ name: Types
 
 type: insights-list
 
-description: Types of JavaScript. 
-
-section: 0
-
-parent: functions-i
+description: Types of JavaScript.
 
 insights:
   - types-introduction
-  - types-hoisting
   - types-undefined-and-null
   - types-boolean-and-number
   - types-string
+  - weak-vs-strict-equality-operator
+
+
+
+exercises:
+  - js-practice-booleans
+  - js-practice-numbers
+  - js-practice-strings
+
+
+
+
+game: taking-precedence
+ 

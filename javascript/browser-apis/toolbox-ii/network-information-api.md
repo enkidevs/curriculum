@@ -1,4 +1,4 @@
-# Network Information API
+---
 author: tommarshall
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [code.tutsplus.com](http://code.tutsplus.com/tutorials/html5-network-information-api--cms-21598){website}
+  - '[code.tutsplus.com](http://code.tutsplus.com/tutorials/html5-network-information-api--cms-21598){website}'
+
+
+---
+
+# Network Information API
 
 ---
 ## Content
@@ -28,19 +33,19 @@ The API has a *`NetworkInformation`* interface and a single property to the Navi
 This example watches for changes to the user's connection.
 
 Declaring the connection and type.
-```JavaScript
+```javascript
 var connection = navigator.connection || 
               navigator.mozConnection || 
               navigator.webkitConnection;
 var type = connection.type;
 ```
 Listener for a change to the user's connection.
-```JavaScript
+```javascript
 connection.addEventListener('typechange', 
            updateConnectionStatus);
 ```
 Function to output for any change to the user's connection if called by the listener.
-```JavaScript
+```javascript
 function updateConnectionStatus() {
   console.log("Connection type is change \
   from " + type + " to " + connection.type);
@@ -58,6 +63,7 @@ var connection = ???.connection ||
                  navigator.???;
 var type = connection.type;
 ```
+
 
 * `navigator`
 * `mozConnection`
@@ -77,8 +83,11 @@ connection.addEventListener('???',
   handlingFunction);
 ```
 
-*`typechange`
-*`type`
-*`change`
-*`update`
-*`statusChange`
+
+* `typechange`
+* `type`
+* `change`
+* `update`
+* `statusChange`
+
+ 

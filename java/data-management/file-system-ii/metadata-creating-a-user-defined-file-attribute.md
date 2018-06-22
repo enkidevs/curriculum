@@ -1,4 +1,4 @@
-# Metadata: creating a user-defined file attribute
+---
 author: adamMontgomerie
 
 levels:
@@ -23,10 +23,15 @@ tags:
 
   - file-attributes
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/fileAttr.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/fileAttr.html){website}'
+
+
+---
+
+# Metadata: creating a user-defined file attribute
 
 ---
 ## Content
@@ -78,12 +83,13 @@ view.???(???,
    Charset.defaultCharset()
           .???);
 ```
-*`write` 
-*`attr` 
-*`encode(val)` 
-*`encode` 
-*`val` 
-*`encode(attr)`
+
+* `write` 
+* `attr` 
+* `encode(val)` 
+* `encode` 
+* `val` 
+* `encode(attr)`
 
 ---
 ## Revision
@@ -96,8 +102,11 @@ UserDefinedFileAttributeView view =
  ???,
  UserDefinedFileAttributeView.Class);
 ```
-*`Files.getFileAttributeView` 
-*`p` 
-*`file` 
-*`File.getFileAttributeView` 
-*`view`
+
+* `Files.getFileAttributeView` 
+* `p` 
+* `file` 
+* `File.getFileAttributeView` 
+* `view`
+
+ 

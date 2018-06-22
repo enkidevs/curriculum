@@ -1,4 +1,4 @@
-# Group By clause
+---
 author: SebaRaba
 
 levels:
@@ -17,13 +17,27 @@ category: must-know
 
 inAlgoPool: false
 
+standards:
+  sql.aggregate-single-table.3: 10
+
 tags:
 
   - workout
 
+
 links:
 
-  - '[More on GROUP BY](https://www.techonthenet.com/sql/group_by.php)'
+  - '[More on GROUP BY](https://www.techonthenet.com/sql/group_by.php){documentation}'
+
+parent: order-by-clause
+
+aspects:
+  - workout
+
+
+---
+
+# Group By clause
 
 ---
 ## Content
@@ -55,12 +69,14 @@ count | language_id
 (7 rows)
 
 ```
+
 ---
 ## Practice
 
-We have a table called pokemon. Two of its fields are:
-- is_default - it can be either true or false
-- name
+We have a table called pokemon. Two of its fields are:  
+`is_default` - it can be either true or false  
+`name`  
+
 We want to know how many pokemon are (not) default:
 ```
 SELECT ???(name),???
@@ -75,6 +91,7 @@ count | is_default
 (2 rows)
 ```
 
+
 * COUNT
 * is_default
 * GROUP BY
@@ -85,13 +102,14 @@ count | is_default
 ---
 ## Revision
 
-In our pokemon db item is a table with the following columns:
-- id - unique id of the item
-- cost - item's cost
-- fling_power - "Dark type move"[1]
-- item_category_id
-- item_fling_effect_id
-- name - item's name
+In our pokemon db item is a table with the following columns:  
+`id` - unique id of the item  
+`cost` - item's cost  
+`fling_power` - "Dark type move"[1]  
+`item_category_id`  
+`item_fling_effect_id`  
+`name` - item's name  
+
 We would like to get the average cost of each item category.
 
 ```
@@ -118,9 +136,12 @@ avg      | item_category_id
 
 ```
 
+
 * AVG
 * item
 * GROUP BY
 * SUM
 * ORDER BY
 * GROUP
+ 
+ 

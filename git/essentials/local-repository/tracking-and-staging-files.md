@@ -1,4 +1,4 @@
-# Tracking and Staging files
+---
 author: catalin
 
 levels:
@@ -7,14 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [git-scm.com](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository){website}
+  - '[git-scm.com](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository){website}'
+
+
+---
+
+# Tracking and Staging files
 
 ---
 ## Content
@@ -30,7 +35,7 @@ $ git status
 ```
 The message in the code snippet above is shown when there are no *tracked* and *modified* files.
 
-Let's suppose you add `enki.txt` to your project. Running the same command you will see a different result:
+Let's suppose you add `enki.txt` to your project. Running the same command you will see a different result: 
 ```bash
 $ git status
 # On branch develop
@@ -68,12 +73,13 @@ What's the command that will add all the files in the current directory to the s
 $ git ??? ???
 ```
 
-*`add`
-*`.`
-*`stage`
-*`commit`
-*`status`
-*`-a`
+
+* `add`
+* `.`
+* `stage`
+* `commit`
+* `status`
+* `-a`
 
 ---
 ## Revision
@@ -83,9 +89,12 @@ What git command can be used to check what files are untracked, modified or stag
 ```
 $ git ???
 ```
-*`status`
-*`checkout`
-*`stats`
-*`add`
-*`branch`
-*`list`
+
+* `status`
+* `checkout`
+* `stats`
+* `add`
+* `branch`
+* `list`
+
+ 

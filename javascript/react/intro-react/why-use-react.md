@@ -1,23 +1,21 @@
-# Why use **React**?
+---
 author: catalin
 
 levels:
-
   - beginner
 
 type: normal
 
 category: must-know
 
+links:
+  - '[medium.com](https://medium.com/@zackargyle/stop-using-react-for-everything-c8297ac1a644#.bp2zaar6p){website}'
+  - '[linkedin.com](https://www.linkedin.com/pulse/what-reactjs-why-i-recommend-other-javascript-sandip-das){website}'
+
 parent: one-way-data-binding
 
-links:
-
-  - >-
-    [medium.com](https://medium.com/@zackargyle/stop-using-react-for-everything-c8297ac1a644#.bp2zaar6p){website}
-
-  - >-
-    [linkedin.com](https://www.linkedin.com/pulse/what-reactjs-why-i-recommend-other-javascript-sandip-das){website}
+---
+# Why use **React**?
 
 ---
 ## Content
@@ -33,9 +31,19 @@ In addition to the previously stated reasons developers are eager to adopt this 
 - **React** is good for *Search Engine Optimisation* when employing server-side rendering
 - knowing **React** allows you to easily switch to **React Native** to build applications
 
-**React Native** is a different `JS` open source library released by *Facebook*  that follows the same design patterns as **React**.
+**React Native** is a different `JS` open source library released by *Facebook* that follows the same design patterns as **React**.
+It's used to create applications for specific operating systems such as `Android`, `iOS` or `UWP`[2], but it lets you share a large percentage of code between them.
 
- It's used to create applications for specific operating systems such as `Android`, `iOS` or `UWP`[2], but it lets you share a large percentage of code between them.
+---
+## Practice
+
+Which of the following statements is false about **React**?
+
+???
+
+* the virtual DOM slows down performance
+* the syntax is simple
+* it can create web *and* mobile applications
 
 ---
 ## Revision
@@ -53,7 +61,6 @@ Which one of the following improves **React**'s performance the most?
 
 ---
 ## Footnotes
-
 [1:SPA]
 
 **Single-Page Applications** (SPAs) are Web apps that load a single `HTML` page and dynamically update that page as the user interacts with the app.
@@ -61,3 +68,4 @@ Which one of the following improves **React**'s performance the most?
 [2:UWP]
 
 **Universal Windows Platform** (UWP), is a platform-homogeneous application architecture created by *Microsoft* intended to help the development of universal applications that can run on multiple types of devices (*PC* and *Mobile*).
+ 

@@ -1,16 +1,18 @@
 name: Functions
 
-type: insights-list
-
 description: Employ the capabilities of functions.
-
-section: 0
-
-parent: looping
 
 insights:
   - defining-functions
   - calling-functions
   - py-function-arguments
-  - nested-functions
   - the-return-statement
+  - nested-functions
+
+exercises:
+  - py-practice-functions
+  - py-practice-functions2
+  - py-practice-functions-scope
+  - py-practice-ciphers
+  - py-more-practice-functions
+  - py-practice-pure-functions3

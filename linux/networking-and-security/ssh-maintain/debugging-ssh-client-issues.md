@@ -1,4 +1,4 @@
-# Debugging `ssh` client issues
+---
 author: tuwi.dc
 
 levels:
@@ -19,7 +19,13 @@ tags:
 
   - debugging
 
+
+
 notes: code blocks width is weird
+
+---
+
+# Debugging `ssh` client issues
 
 ---
 ## Content
@@ -65,3 +71,5 @@ pkalg ssh-rsa blen 279
 debug1: Authentication succeeded (publickey)
 
 ```
+
+ 

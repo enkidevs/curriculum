@@ -1,4 +1,4 @@
-# The `ref` callback attribute
+---
 author: catalin
 
 levels:
@@ -15,11 +15,16 @@ type: normal
 
 category: must-know
 
-parent: conditional-rendering-part-2
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/refs-and-the-dom.html)'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/refs-and-the-dom.html){website}'
+
+parent: conditional-rendering-part-2
+
+---
+
+# The `ref` callback attribute
 
 ---
 ## Content
@@ -79,6 +84,7 @@ render() {
 }
 ```
 
+
 * `ref`
 * `myInput`
 * `in`
@@ -109,9 +115,12 @@ someMethod() {
 
 ```
 
+
 * `this.i`
 * `this.refs.i`
 * `i`
 * `this.in`
 * `this.refs.in`
 * `in`
+
+ 

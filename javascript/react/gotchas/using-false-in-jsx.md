@@ -1,4 +1,4 @@
-# Using `false` in **JSX**
+---
 author: catalin
 
 levels:
@@ -11,12 +11,16 @@ type: normal
 
 category: best practice
 
-parent: custom-proptype-s-to-be-required
 
 links:
 
-  - >-
-    [facebook.github.io](https://facebook.github.io/react/tips/false-in-jsx.html){website}
+  - '[facebook.github.io](https://facebook.github.io/react/tips/false-in-jsx.html){website}'
+
+parent: custom-proptype-s-to-be-required
+
+---
+
+# Using `false` in **JSX**
 
 ---
 ## Content
@@ -49,6 +53,7 @@ What does the following code snippet do? ???
 ```javascript
 ReactDOM.render(<div>{false}</div>, aNode);
 ```
+
 * Specifies that the React element has no child.
 * Renders the div element false.
 * Renders there to be no div element.
@@ -65,7 +70,10 @@ Result:
 ```
 id=???
 ```
+
 * `"false"`
 * `'false'`
 * `false`
 * `undefined`
+
+ 

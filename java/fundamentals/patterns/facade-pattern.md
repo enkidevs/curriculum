@@ -1,4 +1,4 @@
-# Facade Pattern
+---
 author: Nick Daminov
 
 levels:
@@ -9,9 +9,15 @@ type: normal
 
 category: pattern
 
+
 links:
 
-  - '[More on the Facade Pattern](https://en.wikipedia.org/wiki/Facade_pattern)'
+  - '[More on the Facade Pattern](https://en.wikipedia.org/wiki/Facade_pattern){website}'
+
+
+---
+
+# Facade Pattern
 
 ---
 ## Content
@@ -54,6 +60,9 @@ What is the *Facade* pattern?
 
 ???
 
+
 * It is a wrapper around the system that provides the end user with a clean desired functionality.
 * It describes the whole inheritance structure of the program.
 * It describes how a group of interfaces acting together.
+
+ 

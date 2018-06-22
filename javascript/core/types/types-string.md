@@ -1,4 +1,4 @@
-# Types - String
+---
 author: alexjmackey
 
 levels:
@@ -7,9 +7,27 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+standards:
+
+  javascript.evaluate-expressions.10: 10
+
+  javascript.evaluate-expressions.2: 10
+
+tags:
+
+  - introduction
+
+aspects:
+  - introduction
+
+
+---
+
+# Types - String
 
 ---
 ## Content
@@ -28,7 +46,7 @@ var longerText = "abc" +
 		"ghi";
 ```
 
-You can also use the backslash character to continue writing text on multiple lines (make sure nothing is after the backslash). 
+You can also use the backslash character to continue writing text on multiple lines (make sure nothing is after the backslash).
 
 ```
 var longerText = "abc\
@@ -56,12 +74,13 @@ var myString = 'this will ???
        be displayed on two lines';
 ```
 
-*`\n`
-*`+`
-*`"`
-*`\`
-*`\r`
-*`\t`
+
+* `\n`
+* `+`
+* `"`
+* `\`
+* `\r`
+* `\t`
 
 ---
 ## Revision
@@ -74,7 +93,9 @@ var company = 'Enki';
 
 ???
 
-*both
-*first
-*second
-*none
+
+* both
+* first
+* second
+* none
+ 

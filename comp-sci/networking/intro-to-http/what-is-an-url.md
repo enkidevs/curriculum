@@ -1,4 +1,4 @@
-# What is an URL?
+---
 author: SebaRaba
 
 levels:
@@ -15,13 +15,17 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - 'https://docs.oracle.com/javase/tutorial/networking/urls/definition.html'
-
-  - 'http://www.computerhope.com/jargon/u/url.htm'
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/networking/urls/definition.html){website}'
+  - '[www.computerhope.com](http://www.computerhope.com/jargon/u/url.htm){website}'
 
 parent: what-is-http
+
+---
+
+# What is an URL?
 
 ---
 ## Content
@@ -31,35 +35,27 @@ parent: what-is-http
 An URL can be broken down into several key components:
 ```
 http://www.enki.com:80/path/res?q=x
-|___| |_______________||______||___|
-protocol      host       path  query
+|__|   |_____________||_______||__|
+protocol     host        path  query
 ```
 
-- the **protocol**, usually `http` or `https`. This part states how the data pointed at by the whole URL should be processed
-- the **host** address contains a *subdomain* (`www`), a *domain* (`enki.com`) and a *port* number (`80`), usually hidden in modern browsers
-- the resource **path** represents the resource's location on the server
-- a **query string**, beginning with `?`, that contains different `field=value&` pairs[1] (more on this in a later insight)
+- The **protocol**, usually `http` or `https`, defines how the data that is exchanged using this URL should be processed.
+- The **host** address can contain a *subdomain* (`www`), a *domain* (`enki.com`) and a *port* number (`80`). In modern browsers, the port number is usually hidden when using the default port for the given protocol.
+- The resource **path** generally represents the resource's location in the server's file system.
+- A **query string**, beginning with `?`, contains `key=value` pairs[1]. These pairs are separated by `&` characters if there is more than one of them (more on this in a later insight).
 
 A **URL** is not specific to the `HTTP` protocol, but is a generic and standardised way of locating resources on a network.
 
-In fact, a **URL** is subtype of **URI** (Uniform Resource Identifier), but accompanied by a "access mechanism" or "network locator" (`http://`).
+In fact, a **URL** is subtype of **URI** (Uniform Resource Identifier), but accompanied by an "access mechanism" or "network locator" (`http://`).
 While all **URL**s are **URI**s, not all **URI**s are **URL**s.
 
----
-## Footnotes
-
-[1: Query string]
-This is usually used for additional operations that should be done server-side: filtering, searching etc. :
-```
-www.myapp.com/users?name=John
-```
-Would make sense to return the users whose name is *John*.
 ---
 ## Practice
 
 What character(s) is/are used to specify the beginning of the `query string` in a **URL** ?
 
 ???
+
 
 * `?`
 * `&`
@@ -76,8 +72,21 @@ The substring of an URL containing a subdomain, a domain and a port number is ca
 
 ???
 
+
 * `host`
 * `path`
 * `query`
 * `body`
 * `suffix`
+
+---
+## Footnotes
+[1: Query string]
+The information in a query string is usually used for additional operations that are done on the server-side, such as filtering or searching:
+
+```
+www.myapp.com/users?name=John
+```
+
+It would make sense for the above URL to return any users with the name *John*.
+ 

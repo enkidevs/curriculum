@@ -1,21 +1,27 @@
-# Informational status codes
+---
 author: SebaRaba
 
 levels:
 
-- beginner
+  - beginner
 
-- basic
+  - basic
 
-- medium
+  - medium
 
-- advanced
+  - advanced
 
 type: normal
 
 category: must-know
 
+
+
 parent: http-pipelining
+
+---
+
+# Informational status codes
 
 ---
 ## Content
@@ -36,13 +42,13 @@ The three informational status codes are:
 - `101` **Switching Protocols** - the server informs the client that it will switch to the required protocol such that the message exchange can continue
 - `102` **Processing** - interim response saying the request will take a while (more than a couple of seconds) to complete
 
-
 ---
 ## Practice
 
 Informational **status codes** were introduced in:
 
 ???
+
 
 * `HTTP/1.1`
 * `HTTP/1.0`
@@ -56,6 +62,9 @@ What is the status text of a `100` code response?
 
 ???
 
+
 * Continue
 * Switching Protocols
 * Processing
+
+ 

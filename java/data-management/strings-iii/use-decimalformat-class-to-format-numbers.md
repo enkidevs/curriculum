@@ -1,4 +1,4 @@
-# Use `DecimalFormat` class to format numbers
+---
 author: adamMontgomerie
 
 levels:
@@ -21,10 +21,15 @@ tags:
 
   - numbers
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/numberformat.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/numberformat.html){website}'
+
+
+---
+
+# Use `DecimalFormat` class to format numbers
 
 ---
 ## Content
@@ -54,11 +59,12 @@ DecimalFormat myFormat =
 String enki = myFormat.format(33);
 // enki = ???
 ```
-*`00033` 
-*`33` 
-*`00000` 
-*`33000` 
-*`00330`
+
+* `00033` 
+* `33` 
+* `00000` 
+* `33000` 
+* `00330`
 
 ---
 ## Revision
@@ -67,7 +73,10 @@ What argument/s must be passed to the `DecimalFormat`  constructor to achieve th
 
 ???
 
-*`"##, ##, ##"` 
-*`"##",  "##", "##"` 
-*`"dd, dd, dd"` 
-*`"dd",  "dd", "dd"`
+
+* `"##, ##, ##"` 
+* `"##",  "##", "##"` 
+* `"dd, dd, dd"` 
+* `"dd",  "dd", "dd"`
+
+ 

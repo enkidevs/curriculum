@@ -1,12 +1,6 @@
 name: Styling I
 
-type: insights-list
-
 description: Styling recipes. 
-
-section: 0
-
-parent: colors-tips
 
 insights:
   - change-the-style-of-borders-using-border-style
@@ -14,3 +8,4 @@ insights:
   - use-list-style-type-to-change-the-marker-type-in-lists
   - removing-the-bullets-from-the-ul
   - comma-separated-lists
+ 

@@ -1,4 +1,4 @@
-# What is a computer network?
+---
 author: SebaRaba
 
 levels:
@@ -9,9 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - 'http://www.explainingcomputers.com/networking.html'
+  - '[www.explainingcomputers.com](http://www.explainingcomputers.com/networking.html){website}'
+
+
+---
+
+# What is a computer network?
 
 ---
 ## Content
@@ -34,14 +40,15 @@ While modern devices have network devices integrated into their circuit boards, 
 
 At the same time, some devices can't connect to a network at all.
 
-The largest and most known computer network is the **Internet**. This world-wide system of interconnected smaller networks enables millions of devices to communicate with each other. 
+The largest and most known computer network is the **Internet**. This world-wide system of interconnected smaller networks enables millions of devices to communicate with each other.
 
 ---
 ## Revision
 
-Within a computer network, how are devices that send, route or receive data called?
+Within a computer network, what do we call devices that send, route, or receive data?
 
 ???
+
 
 * nodes
 * hardware
@@ -53,7 +60,6 @@ Within a computer network, how are devices that send, route or receive data call
 
 ---
 ## Footnotes
-
 [1:network hardware]
 These are physical devices which are required for communication and interaction between devices on a computer network. Specifically, they mediate data in a computer network.
 
@@ -61,3 +67,4 @@ Such examples are:
 - routers
 - modems
 - switches
+ 

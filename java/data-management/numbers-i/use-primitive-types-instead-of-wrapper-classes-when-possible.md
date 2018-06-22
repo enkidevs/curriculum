@@ -1,4 +1,4 @@
-# Use primitive types instead of wrapper classes when possible
+---
 author: hyousaf
 
 levels:
@@ -10,6 +10,13 @@ levels:
 type: normal
 
 category: best practice
+
+
+
+
+---
+
+# Use primitive types instead of wrapper classes when possible
 
 ---
 ## Content
@@ -49,8 +56,9 @@ bool compare2 = a.equals(b);
 ```
 ???
 
-*`compare1`
-*`compare2`
+
+* `compare1`
+* `compare2`
 
 ---
 ## Revision
@@ -59,5 +67,8 @@ What are considered more efficient?
 
 ???
 
-*`primitive types`
-*`wrapper classes`
+
+* `primitive types`
+* `wrapper classes`
+
+ 

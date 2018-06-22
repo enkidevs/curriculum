@@ -1,4 +1,4 @@
-# Interactively stage patches
+---
 author: rosielowther
 
 levels:
@@ -9,10 +9,15 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Interactive-Staging){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Interactive-Staging){website}'
+
+
+---
+
+# Interactively stage patches
 
 ---
 ## Content
@@ -38,8 +43,11 @@ Complete the following code snippet to partially stage a file:
 ```
 $ ??? ??? ???
 ```
-*git
-*add
-*-p
-*-patch
-*stage
+
+* git
+* add
+* -p
+* -patch
+* stage
+
+ 

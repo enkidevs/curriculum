@@ -1,4 +1,4 @@
-# Nested Loops
+---
 author: tommarshall
 
 levels:
@@ -7,14 +7,22 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+standards:
+  python.control-structures.0: 10
+
+
+---
+
+# Nested Loops
 
 ---
 ## Content
 
-A nested loop in Python is where you have one loop inside of another loop. The inner loop will complete an entire sequence whilst the outer loop will increment once.
+A nested loop in Python is where you have one loop inside of another loop. The inner loop will complete an entire sequence while the outer loop will increment once.
 
 Here is the standard syntax whilst using `for` loops:
 
@@ -59,11 +67,34 @@ c
 ```
 
 ---
+## Practice
+
+Choose the correct output for the following snippet:
+
+```python
+for i in [1,2]:
+  print(i)
+  for j in range(0,2):
+    print(0)
+
+```
+
+???
+
+* 1 0 0 2 0 0
+* 0 0 1 0 0 2
+* 1 0 1 2 0 1
+
+
+---
 ## Revision
 
 How do nested loops work?
 ???
 
+
 * The outer loop increments once per full cycle of the inner loop.
 * The inner loop increments once per full cycle of the outer loop.
 * The inner and outer loops increment simultaneously.
+ 
+ 

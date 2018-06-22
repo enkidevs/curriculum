@@ -1,4 +1,4 @@
-# Using bounded type parameters in generic methods
+---
 author: adamMontgomerie
 
 levels:
@@ -17,10 +17,15 @@ tags:
 
   - parameters
 
+
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/bounded.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/bounded.html){website}'
+
+
+---
+
+# Using bounded type parameters in generic methods
 
 ---
 ## Content
@@ -52,9 +57,12 @@ public <???>
   }
 }
 ```
-*`T extends Dog` 
-*`void` 
-*`T` 
-*`int` 
-*`E` 
-*`List<Dog>`
+
+* `T extends Dog` 
+* `void` 
+* `T` 
+* `int` 
+* `E` 
+* `List<Dog>`
+
+ 

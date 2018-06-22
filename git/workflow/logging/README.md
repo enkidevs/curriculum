@@ -1,10 +1,6 @@
 name: Logging 
 
-type: insights-list
-
 description: How to get all information you need from your git history, via logs.
-
-section: 1
 
 insights:
   - logging
@@ -12,3 +8,4 @@ insights:
   - make-your-log-output-pretty
   - show-history-of-a-function
   - view-your-commit-history-in-a-graph
+ 

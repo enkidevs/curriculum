@@ -1,4 +1,4 @@
-# `master` and `origin` aren't special
+---
 author: rosielowther
 
 levels:
@@ -10,6 +10,13 @@ levels:
 type: normal
 
 category: must-know
+
+
+
+
+---
+
+# `master` and `origin` aren't special
 
 ---
 ## Content
@@ -34,10 +41,11 @@ The default name for the remote is `origin`.
 `master` is used as ??? ,
 
  while `origin` as ??? .
-*default first branch name
-*default remote repository name
-*new branches’ default name
-*local folder name
+
+* default first branch name
+* default remote repository name
+* new branches’ default name
+* local folder name
 
 ---
 ## Revision
@@ -45,7 +53,10 @@ The default name for the remote is `origin`.
 `master` is used as ??? ,
 
  while `origin` as ??? .
-*default first branch name
-*default remote repository name
-*new branches’ default name
-*local folder name
+
+* default first branch name
+* default remote repository name
+* new branches’ default name
+* local folder name
+
+ 

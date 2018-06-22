@@ -1,4 +1,4 @@
-# What is an IP address?
+---
 author: catalin
 
 levels:
@@ -9,11 +9,16 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - http://www.computerhope.com/jargon/i/ip.htm
+  - '[www.computerhope.com](http://www.computerhope.com/jargon/i/ip.htm){website}'
 
 parent: network-models
+
+---
+
+# What is an IP address?
 
 ---
 ## Content
@@ -46,8 +51,39 @@ In reality, things are a little bit more complicated, with the IPs splitting int
 Alternatives to the **TCP/IP stack**, such as `AppleTalk`, exist, but the former proved superior and became the standard.
 
 ---
-## Footnotes
+## Practice
 
+How many bits of memory does an `IPv4` address occupy?
+
+???
+
+
+* 32
+* 8
+* 255
+* 16
+* 4
+* 36
+
+---
+## Revision
+
+What version of `IP` has implemented addresses in the following format?
+```
+x.x.x.x
+where x = 8 bits
+```
+
+???
+
+
+* `IPv4`
+* `IPv6`
+* `IPv1`
+* `IPv3`
+
+---
+## Footnotes
 [1:Trivia]
 Garner, Inc. estimates that there will be almost **21 billion** devices connected to the Internet by year `2020`.
 
@@ -76,32 +112,4 @@ The `IPv4` format, using `32` bits, allows the existence of `2^32` (4 294 967 29
 Its name comes from the most famous protocols in use within the stack:
  - `TCP` short for **Transmission Control Protocol**
  - `IP` short for **Internet Protocol**
----
-## Practice
-
-How many bits of memory does an `IPv4` address occupy?
-
-???
-
-* 32
-* 8
-* 255
-* 16
-* 4
-* 36
-
----
-## Revision
-
-What version of `IP` has implemented addresses in the following format?
-```
-x.x.x.x
-where x = 8 bits
-```
-
-???
-
-* `IPv4`
-* `IPv6`
-* `IPv1`
-* `IPv3`
+ 

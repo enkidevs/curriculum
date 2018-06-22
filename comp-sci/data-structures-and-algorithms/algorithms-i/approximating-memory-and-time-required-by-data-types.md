@@ -1,24 +1,31 @@
-# Approximating Memory and Time required by Data Types
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: must-know
 
+
 links:
-    - >-
-      [What is an algorithm?](http://www.bbc.co.uk/education/guides/z22wwmn/revision){website}
-    - >-
-      [The Big-O notation](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/){website}
+
+  - '[What is an algorithm?](http://www.bbc.co.uk/education/guides/z22wwmn/revision){website}'
+  - '[The Big-O notation](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/){website}'
 
 parent: node-height-and-depth
+
+---
+
+# Approximating Memory and Time required by Data Types
 
 ---
 ## Content
@@ -63,6 +70,7 @@ For comparison, visiting every node in a linked list is also a linear operation 
 In an array, how many operations are required for the worst-case scenario deletion (removal of the element with index 0)?
 
 ???
+
 * n
 * 1
 * log n
@@ -74,6 +82,7 @@ In an array, how many operations are required for the worst-case scenario deleti
 Which of the following operations is bounded by the constant function?
 
 ???
+
 * LinkedList insertion
 * Array insertion
 * Array searching
@@ -81,7 +90,6 @@ Which of the following operations is bounded by the constant function?
 
 ---
 ## Footnotes
-
 [1:Big O]
 Pronounced Big-Oh.
 
@@ -89,3 +97,4 @@ Pronounced Big-Oh.
 The number of nodes depends on the type of LinkedList used and on how many references each node holds.
 
 For example, in a *SinglyLinkedList* you have to change 2 references, in a *DoublyLinkedList* you have to change 4 references, but, in the end, it **does not** depend on *the total number of nodes* in the list.
+ 

@@ -1,4 +1,4 @@
-# Utility classes and `static` methods
+---
 author: adamMontgomerie
 
 levels:
@@ -15,10 +15,15 @@ tags:
 
   - utility-class
 
+
 links:
 
-  - >-
-    [javarevisited.blogspot.jp](http://javarevisited.blogspot.jp/2011/11/static-keyword-method-variable-java.html){website}
+  - '[javarevisited.blogspot.jp](http://javarevisited.blogspot.jp/2011/11/static-keyword-method-variable-java.html){website}'
+
+
+---
+
+# Utility classes and `static` methods
 
 ---
 ## Content
@@ -47,6 +52,9 @@ Utility classes define sets of methods that perform common methods which are oft
 
 ???
 
-*`static` 
-*`void` 
-*`private`
+
+* `static` 
+* `void` 
+* `private`
+
+ 

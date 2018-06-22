@@ -1,4 +1,4 @@
-# Application Layer
+---
 author: SebaRaba
 
 levels:
@@ -9,13 +9,17 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - https://www.tutorialspoint.com/data_communication_computer_network/application_layer_introduction.htm
-
-  - https://kb.ctera.com/article/how-to-open-a-telnet-session-on-windows-7-or-windows-8-os-16.html
+  - '[www.tutorialspoint.com](https://www.tutorialspoint.com/data_communication_computer_network/application_layer_introduction.htm){website}'
+  - '[kb.ctera.com](https://kb.ctera.com/article/how-to-open-a-telnet-session-on-windows-7-or-windows-8-os-16.html){website}'
 
 parent: what-are-tcp-and-udp
+
+---
+
+# Application Layer
 
 ---
 ## Content
@@ -65,22 +69,12 @@ Hyper text transfer protocol (secure) is the protocol used for transferring file
 Voice over `IP` is a protocol that makes use of `UDP` protocol and can be defined as a technologies used for delivery of **voice communications** and multimedia sessions over a network.
 
 ---
-## Footnotes
-
-[1:Telnet]
-Teletype is actually the name of old electromechanical typewriters, ancestors of the nowadays terminal, used to communicate with a mainframe computer.
-
-Telnet works as a shell command both on **Windows** (if enabled from settings) and **Unix** machines.
-You can watch Star Wars Episode IV - made in ASCII art - from your terminal via `telnet`:
-```
-telnet towel.blinkenlights.nl
-```
----
 ## Practice
 
 Which of the following protocols is an extension of **SMTP** ?
 
 ???
+
 
 * MIME
 * HTTP
@@ -96,6 +90,7 @@ Which of the following protocols was specifically designed for file transfer ove
 
 ???
 
+
 * FTP
 * HTTP
 * SMTP
@@ -103,3 +98,15 @@ Which of the following protocols was specifically designed for file transfer ove
 * TELNET
 * POP
 * MIME
+
+---
+## Footnotes
+[1:Telnet]
+Teletype is actually the name of old electromechanical typewriters, ancestors of the nowadays terminal, used to communicate with a mainframe computer.
+
+Telnet works as a shell command both on **Windows** (if enabled from settings) and **Unix** machines.
+You can watch Star Wars Episode IV - made in ASCII art - from your terminal via `telnet`:
+```
+telnet towel.blinkenlights.nl
+```
+ 

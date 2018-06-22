@@ -1,4 +1,4 @@
-# The Graph Data Structure
+---
 author: mihaiberq
 
 levels:
@@ -9,11 +9,17 @@ type: normal
 
 category: must-know
 
+
 links:
-    - >-
-         [Graph theory](https://en.wikipedia.org/wiki/Graph_theory){website}
+
+  - '[Graph theory](https://en.wikipedia.org/wiki/Graph_theory){website}'
 
 parent: the-queue-data-structure
+
+---
+
+# The Graph Data Structure
+
 ---
 ## Content
 
@@ -43,13 +49,13 @@ A graph containing both parallel edges and a self loop is represented below:
 
 We call **simple graph** one that does *not contain self-loops or multiple edges*. The first two graphs are simple.
 
-
 ---
 ## Practice
 
 A graph that represents flight routes between cities should be
 
  ???.
+
 
 * directed
 * undirected
@@ -60,7 +66,10 @@ A graph that represents flight routes between cities should be
 What's the name for an edge in a graph that connects a node with itself?
 
 ???
+
 * self-loop
 * simple edge
 * circular edge
 * self-connection
+
+ 

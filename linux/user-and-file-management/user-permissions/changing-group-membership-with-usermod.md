@@ -1,4 +1,4 @@
-# Changing Group Membership With `usermod`
+---
 author: jfarmer
 
 levels:
@@ -9,19 +9,34 @@ levels:
 
 type: normal
 
-inAlgoPool: false
-
 category: must-know
 
+inAlgoPool: false
+
 tags:
+
+  - introduction
+
+  - workout
+
+
+
+
+aspects:
   - introduction
   - workout
+
+
+---
+
+# Changing Group Membership With `usermod`
+
 ---
 ## Content
 
 We can use the `usermod` command to add a user to a specific group.  It works like so:
 
-```console
+```shell
 $ sudo usermod -a -G new-group jesse
 ```
 
@@ -29,7 +44,7 @@ This would add the user `jesse` to the group `new-group`.  The `-a` option means
 
 *Removing* a user from a group is trickier.  If it's available, the `gpasswd` command can be used, like so to remove `jesse` from `new-group`:
 
-```console
+```shell
 $ sudo gpasswd -d jesse new-group
 ```
 
@@ -41,13 +56,14 @@ Add `john` to the `enki` group:
 $ sudo ??? ??? ???
        ??? ???
 ```
-*`usermod`
-*`-a`
-*`-G`
-*`enki`
-*`john`
-*`-Ag`
-*`-A`
+
+* `usermod`
+* `-a`
+* `-G`
+* `enki`
+* `john`
+* `-Ag`
+* `-A`
 
 ---
 ## Revision
@@ -57,9 +73,12 @@ Make `john` a member of the `enki` group, and of this group only:
 $ sudo ??? ??? 
        ??? ???
 ```
-*`usermod`
-*`-G`
-*`enki`
-*`john`
-*`-aG`
-*`chmod`
+
+* `usermod`
+* `-G`
+* `enki`
+* `john`
+* `-aG`
+* `chmod`
+
+ 

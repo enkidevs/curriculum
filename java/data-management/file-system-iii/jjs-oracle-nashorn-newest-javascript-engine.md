@@ -1,4 +1,4 @@
-# `JJS` - Oracle Nashorn, newest JavaScript Engine
+---
 author: catalin
 
 levels:
@@ -9,12 +9,16 @@ type: normal
 
 category: feature
 
-notes: 'https://insights.enki.com/#/contrib/others/55f43787ce84ec2100d2bb5e?search=kha'
 
 links:
 
-  - >-
-    [www.oracle.com](http://www.oracle.com/technetwork/articles/java/jf14-nashorn-2126515.html){website}
+  - '[www.oracle.com](http://www.oracle.com/technetwork/articles/java/jf14-nashorn-2126515.html){website}'
+
+notes: 'https://insights.enki.com/#/contrib/others/55f43787ce84ec2100d2bb5e?search=kha'
+
+---
+
+# `JJS` - Oracle Nashorn, newest JavaScript Engine
 
 ---
 ## Content
@@ -24,7 +28,7 @@ With the introduction of *Java 8*, the *JDK* will be shipped with a new *JavaScr
  **Oracle Nashorn** provides better compliance with the *ECMA* normalised *JavaScript* specification and better runtime performance through *invokedynamic*-bound call sites.
 
 The `jjs` tool can be run from the terminal and accepts *JavaScript* files as argument:
-```cmd
+```shell
 $ jjs MyFile.js
 ```
 
@@ -49,12 +53,13 @@ Using Java 8’s Oracle Nashorn engine run `enki.js`:
 ```
 ??? ???
 ```
-*`jjs` 
-*`enki.js` 
-*`enki` 
-*`enki-js` 
-*`jss` 
-*`jdb`
+
+* `jjs` 
+* `enki.js` 
+* `enki` 
+* `enki-js` 
+* `jss` 
+* `jdb`
 
 ---
 ## Revision
@@ -63,7 +68,10 @@ What tool shipped with Java 8 should be used to run `.js` files?
 
 ???
 
-*`jjs` 
-*`javaScript` 
-*`jss` 
-*`jdb`
+
+* `jjs` 
+* `javaScript` 
+* `jss` 
+* `jdb`
+
+ 

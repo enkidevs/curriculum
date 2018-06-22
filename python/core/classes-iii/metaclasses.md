@@ -1,4 +1,4 @@
-# Metaclasses
+---
 author: mihaiberq
 
 levels:
@@ -11,9 +11,17 @@ type: normal
 
 category: feature
 
+
 links:
 
-    - '[An in-depth analysis of metaclasses](https://blog.ionelmc.ro/2015/02/09/understanding-python-metaclasses/)'
+  - '[An in-depth analysis of metaclasses](https://blog.ionelmc.ro/2015/02/09/understanding-python-metaclasses/){website}'
+
+standards:
+  python.object-oriented.5: 10
+
+---
+
+# Metaclasses
 
 ---
 ## Content
@@ -57,14 +65,41 @@ metaclass -> class -> instance
 ```
 
 ---
+## Practice
+
+Create a new class of default type, instantiate it and print its type:
+
+```python
+
+class Enki???:
+  pass
+
+enki = ???
+print(???(???))
+
+```
+
+* ()
+* Enki()
+* type
+* enki
+* Enki
+* typeof
+* (metaclass=Meta)
+
+
+---
 ## Revision
 
 What is the default metaclass of newly defined classes?
 
 ???
 
+
 * `type`
 * `meta`
 * `type()`
 * `class`
 * `meta()`
+ 
+ 

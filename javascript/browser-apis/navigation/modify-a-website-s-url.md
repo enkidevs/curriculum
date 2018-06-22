@@ -1,4 +1,4 @@
-# Modify a website's URL
+---
 author: rosielowther
 
 levels:
@@ -13,13 +13,16 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [css-tricks.com](https://css-tricks.com/using-the-html5-history-api/hello){website}
+  - '[css-tricks.com](https://css-tricks.com/using-the-html5-history-api/hello){website}'
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/History_API#The_pushState()_method){website}'
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/History_API#The_pushState()_method){website}
+
+---
+
+# Modify a website's URL
 
 ---
 ## Content
@@ -47,6 +50,7 @@ history.pushState([???],
        [???],[???])
 ```
 
+
 * `data`
 * `title`
 * `url`
@@ -67,7 +71,10 @@ history.???([data],
             [title], [url]);
 ```
 
-*`pushState`
-*`modURL`
-*`changeRoute`
-*`push`
+
+* `pushState`
+* `modURL`
+* `changeRoute`
+* `push`
+
+ 

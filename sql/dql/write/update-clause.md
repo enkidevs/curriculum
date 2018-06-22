@@ -1,4 +1,4 @@
-# Update clause
+---
 author: SebaRaba
 
 levels:
@@ -15,13 +15,24 @@ category: must-know
 
 inAlgoPool: false
 
+standards:
+  sql.write.3: 10
+
 tags:
+  - introduction
+  - workout
+
+aspects:
   - introduction
   - workout
 
 links:
 
-  - '[More on UPDATE](http://www.dofactory.com/sql/update)'
+  - '[More on UPDATE](http://www.dofactory.com/sql/update){website}'
+
+---
+
+# Update clause
 
 ---
 ## Content
@@ -51,11 +62,13 @@ id |     name
 ```
 
 If we want to change the value "ditto" to "rabbit", we use `SET`:
-```
+```sql
 UPDATE egg_group
 SET name = 'rabbit'
 WHERE ID= 13;
-
+```
+*Result:*
+```
 id |     name      
 ===+===============
  1 | monster
@@ -77,10 +90,12 @@ id |     name
 ```
 
 Note that if the `WHERE` clause isn't used all the values in the specified column will be updated:
-```
+```sql
 UPDATE egg_group
 SET name = 'rabbit';
-
+```
+*Result:*
+```
 id |     name      
 ===+===============
  1 | rabbit
@@ -106,7 +121,6 @@ id |     name
 
 Consider the `generation` table:
 ```
-
 id | region_id |      name      
 ===+===========+===============
  1 |         1 | generation-i
@@ -116,11 +130,14 @@ id | region_id |      name
  5 |         5 | generation-v
  6 |         6 | generation-vii
 (6 rows)
+```
 
+```sql
 ??? generation
 SET ???='generation-vi'
 WHERE id=???;
 ```
+
 We would like to update the table contents such that the last generation is generation "vi" instead of "vii".
 
 * UPDATE
@@ -145,10 +162,11 @@ id |    name
  2 | male
  3 | genderless
 (3 rows)
+```
 
+```sql
 ??? gender
 ??? name = '???'
-
 ```
 We want to update the table such that all genders will be neutral.
 
@@ -158,3 +176,5 @@ We want to update the table such that all genders will be neutral.
 * WHERE
 * DELETE
 * CHANGE
+ 
+ 

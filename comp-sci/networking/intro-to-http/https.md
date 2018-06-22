@@ -1,4 +1,4 @@
-# HTTPS
+---
 author: catalin
 
 levels:
@@ -11,11 +11,16 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - 'http://robertheaton.com/2014/03/27/how-does-https-actually-work/'
+  - '[robertheaton.com](http://robertheaton.com/2014/03/27/how-does-https-actually-work/){website}'
 
 parent: verbs-in-http
+
+---
+
+# HTTPS
 
 ---
 ## Content
@@ -52,6 +57,7 @@ What type of key is used for encryption and decryption over **HTTPS** ?
 
 ???
 
+
 * symmetric
 * asymmetric
 * private
@@ -66,6 +72,7 @@ What protocol is used by **HTTPS**, but not **HTTP** ?
 
 ???
 
+
 * `TLS`
 * `SMTP`
 * `IMAP`
@@ -74,7 +81,6 @@ What protocol is used by **HTTPS**, but not **HTTP** ?
 
 ---
 ## Footnotes
-
 [1:TLS/SSL]
 The **Transport Layer Security** (TLS), and its out-of-date predecessor **Secure Sockets Layer** (SSL), are cryptographic protocols that provide communication security over a computer network.
 
@@ -94,3 +100,4 @@ When verifying a **certificate**, the client will check if either it:
 
 [4:man-in-the-middle]
 A **man-in-the-middle attack** is a type of cyberattack where a malicious actor inserts themself into a conversation between two parties, impersonates both parties and gains access to information that the two parties were trying to send to each other.
+ 

@@ -1,4 +1,4 @@
-# Fetch API
+---
 author: tommarshall
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch){website}
+  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch){website}'
+
+
+---
+
+# Fetch API
 
 ---
 ## Content
@@ -30,7 +35,7 @@ The `fetch()` method is used for making requests and fetching resources. It take
 It provides a more powerful and flexible interface than `XMLHttpRequest`.
 
 Example of fetch response handling:
-```JavaScript
+```javascript
 var myHeaders = new Headers();
 
 var myOptions = { method: 'GET',
@@ -53,6 +58,7 @@ fetch('/the/url', myOptions)
 ## Practice
 
 What is the compulsory argument the `fetch()` takes? ???
+
 * The path to the resource you want to fetch.
 * The network name.
 * An int value stating the number of files to fetch.
@@ -63,5 +69,8 @@ What is the compulsory argument the `fetch()` takes? ???
 Which interface for fetching resources is more powerful?
 
 ???
+
 * `fetch`
 * `XMLHttpRequest`
+
+ 

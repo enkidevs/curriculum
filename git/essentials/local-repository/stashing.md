@@ -1,4 +1,4 @@
-# Stashing
+---
 author: catalin
 
 levels:
@@ -7,18 +7,24 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
   - '[git-scm.com](https://git-scm.com/book/en/v1/Git-Tools-Stashing){website}'
 
+
+---
+
+# Stashing
+
 ---
 ## Content
 
-Another highly useful feature of **Git** allows you to _set aside_ current work; usually in order to switch branches without losing uncommitted changes.
+Another highly useful feature of **Git** allows you to _set aside_ current work; usually to switch branches without losing uncommitted changes.
 
 Stashing is the action of saving all your dirty files (modified **tracked** files and **staged** changes) in a special *stack*[1] of commits. Any of the commits in **the stash**  can be later popped, restoring the state of the working tree.
 
@@ -71,7 +77,7 @@ You can also remove from the stash stack:
 $ git stash drop stash@{0}
 ```
 
-To both `apply` and `drop` the stash, the `pop` command can be used:
+To both _apply_ and _drop_ the stash, the `pop` command can be used:
 ```
 $ git stash pop
 ```
@@ -84,10 +90,11 @@ Complete the code snippet below so it removes the most recent set of changes in 
 $ git stash ??? ???@???
 ```
 
+
 * `drop`
 * `stash`
-* `{0}`
 * `{1}`
+* `{0}`
 * `list`
 * `pop`
 * `status`
@@ -100,6 +107,7 @@ Complete the command below such as the most recent set of changes in the stash a
 $ ??? ??? ???
 ```
 
+
 * `git`
 * `stash`
 * `apply`
@@ -111,7 +119,6 @@ $ ??? ??? ???
 
 ---
 ## Footnotes
-
 [1:stack]
 A **stack** is an abstract data type on top of which `git`'s stash is built.
 The name **stack** comes from the analogy to a set of physical items (e.g. plates) stacked on top of each other. You can only add an element to the *top* of the stack or remove the *topmost* element of the stack. This principle is called **LIFO** - last in, first out.
@@ -124,3 +131,4 @@ Commits in the **stash** are counted from index `0`; more recent commits, with a
 $ git stash --index
 ```
 The `apply` and `pop` can be used within **any** branch.  In this way you can move changes to another branch
+ 

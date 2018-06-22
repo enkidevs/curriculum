@@ -1,4 +1,4 @@
-# What Is A Network Interface?
+---
 author: jfarmer
 
 levels:
@@ -9,15 +9,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [Network
-    devices](https://help.ubuntu.com/lts/serverguide/network-configuration.html){website}
+  - '[Network devices](https://help.ubuntu.com/lts/serverguide/network-configuration.html){website}'
+
+
+---
+
+# What Is A Network Interface?
 
 ---
 ## Content
@@ -26,7 +30,7 @@ Every Linux system has a number of *network interfaces*, each of which correspon
 
 The `ifconfig` command will display a list of network interfaces along with their current status and associated information.  Here is some example output (`...` is used in place of some data to ensure the output fits on screen):
 
-```console
+```shell
 $ ifconfig
 eth0
 Link encap:Ethernet  HWaddr ...
@@ -54,9 +58,10 @@ The `eth0` interface corresponds to a physical Ethernet connection.  We can see 
 What interface corresponds to the physical connection?
 
 ??? 
-*eth0
-*enp0s3
-*lo
+
+* eth0
+* enp0s3
+* lo
 
 ---
 ## Revision
@@ -64,6 +69,9 @@ What interface corresponds to the physical connection?
 What do `RX` and `TX` stand for in `ifconfig` ‘s output? 
 
 ???
-*Received/Transmitted
-*Read/Transmitted
-*Read/Translated
+
+* Received/Transmitted
+* Read/Transmitted
+* Read/Translated
+
+ 

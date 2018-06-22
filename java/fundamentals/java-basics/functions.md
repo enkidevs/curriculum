@@ -1,4 +1,4 @@
-# Functions
+---
 author: mihaiberq
 
 levels:
@@ -7,14 +7,19 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
 
 links:
 
-  - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html){website}
+  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html){website}'
+
+
+---
+
+# Functions
 
 ---
 ## Content
@@ -27,14 +32,14 @@ public class HelloWorld {
    }
 }
 ```
-In Java, every function has to be inside a class. In this case, our class is `HelloWorld`, and the function is `main()`. We call these functions *methods*. 
+In Java, every function has to be inside a class. In this case, our class is `HelloWorld`, and the function is `main()`. We call these functions *methods*.
 
 The syntax of the example function is:
  - `public static`: modifier
  - `void`: return type
  - `main`: identifier(name) of the method
 
-The next snippet shows general declaration of a method:
+The next snippet shows the general declaration of a method:
 ```java
 modifier returnType name(parameters){
    // method body
@@ -100,8 +105,10 @@ public ??? test() {
   System.out.println("test");
 }
 ```
-*`void`
-*`String`
-*`int`
-*`empty`
-*`static`
+
+* `void`
+* `String`
+* `int`
+* `empty`
+* `static`
+ 

@@ -1,12 +1,6 @@
 name: Streams
 
-type: insights-list
-
-description: Explore how to handle streams of data in NodeJS. 
-
-section: 0
-
-parent: events
+description: Explore how to handle streams of data in NodeJS.  
 
 insights:
   - what-are-streams
@@ -14,3 +8,4 @@ insights:
   - piping-readable-streams
   - chaining-readable-streams
   - writable-streams
+ 

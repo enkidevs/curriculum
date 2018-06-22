@@ -1,16 +1,12 @@
-name: JavaScript in Depth II
+name: JavaScript Depths
 
-type: insights-list
+description: Go deeper into the dark corners of JavaScript
 
-description: Get familiar with complex topics of JavaScript.
-
-section: 2
-
-parent: in-depth-i
 
 insights:
-  - hoisting-applies-only-to-variable-declarations-not-initializations
-  - hasownproperty-method
+  - method-chaining
+  - javascript-compilation
   - prototype-methods
-  - no-block-scope
+  - meaning-of-polyfill
   - using-eval
+ 

@@ -1,22 +1,31 @@
-# Exponentiation By Squaring
+---
 author: mihaiberq
 
 levels:
 
   - beginner
+
   - basic
+
   - medium
+
   - advanced
 
 type: normal
 
 category: how to
 
+
 links:
-    - >-
-        [Exponentiation by squaring](https://en.wikipedia.org/wiki/Exponentiation_by_squaring){website}
+
+  - '[Exponentiation by squaring](https://en.wikipedia.org/wiki/Exponentiation_by_squaring){website}'
 
 parent: binary-expression-tree
+
+---
+
+# Exponentiation By Squaring
+
 ---
 ## Content
 
@@ -59,7 +68,6 @@ expBySqr(b,x)
 
 It is worth noting that after each squaring, the new value would almost double the number of digits of the previous one.
 
-
 ---
 ## Practice
 
@@ -68,10 +76,11 @@ For small exponent values, squaring might need more operations than straight-for
 `5^5` would require 4 multiplications, whereas, following the squaring algorithm, the same computation would require a total of
 
 ??? operations(decompose+multiply).
-*2+3
-*3+3
-*3+2
-*3+1
+
+* 2+3
+* 3+3
+* 3+2
+* 3+1
 
 ---
 ## Revision
@@ -79,13 +88,14 @@ For small exponent values, squaring might need more operations than straight-for
 For an exponent of `350`, what's the upper-bound of the number of operations required to compute the result using the exponentation by squaring method?
 
 ???
-*O(log 350)
-*O(350^2)
-*O(350)
-*O(log log 350)
+
+* O(log 350)
+* O(350^2)
+* O(350)
+* O(log log 350)
 
 ---
 ## Footnotes
-
 [1:Improvement]
 For an exponent of `20`, it takes *9 operations* to do the same what it would otherwise take *19 operations*.
+ 

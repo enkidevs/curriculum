@@ -1,4 +1,4 @@
-# Use `Optional(s)` type in order to avoid `NullPointerException(s)`
+---
 author: catalin
 
 levels:
@@ -13,16 +13,18 @@ type: normal
 
 category: feature
 
-notes: >-
-  https://insights.enki.com/#/contrib/others/55f03bb3f457f33b0062114e?search=khandelwalrinki
 
 links:
 
-  - >-
-    [www.concretepage.com](http://www.concretepage.com/java/jdk-8/java-8-optional-example-avoid-nullpointerexception){website}
+  - '[www.concretepage.com](http://www.concretepage.com/java/jdk-8/java-8-optional-example-avoid-nullpointerexception){website}'
+  - '[blog.idrsolutions.com](https://blog.idrsolutions.com/2015/04/java-8-optional-class-explained-in-5-minutes/){website}'
 
-  - >-
-    [blog.idrsolutions.com](https://blog.idrsolutions.com/2015/04/java-8-optional-class-explained-in-5-minutes/){website}
+notes: >-
+  https://insights.enki.com/#/contrib/others/55f03bb3f457f33b0062114e?search=khandelwalrinki
+
+---
+
+# Use `Optional(s)` type in order to avoid `NullPointerException(s)`
 
 ---
 ## Content
@@ -71,10 +73,11 @@ Optional<String>
    myName = Optional.ofNullable( null );    
 myName.???(); 
 ```
-*`isPresent` 
-*`isNull` 
-*`isEmpty` 
-*`isNotNull`
+
+* `isPresent` 
+* `isNull` 
+* `isEmpty` 
+* `isNotNull`
 
 ---
 ## Revision
@@ -84,9 +87,12 @@ Create an empty `Optional` of type `String`:
 ???<???> op =
        Optional.empty();
 ```
-*`Optional` 
-*`String` 
-*`Op` 
-*`string` 
-*`EmptyOptional` 
-*`null`
+
+* `Optional` 
+* `String` 
+* `Op` 
+* `string` 
+* `EmptyOptional` 
+* `null`
+
+ 

@@ -1,4 +1,4 @@
-# Cohesion
+---
 author: mihaiberq
 
 levels:
@@ -8,6 +8,13 @@ levels:
 type: normal
 
 category: must-know
+
+
+
+
+---
+
+# Cohesion
 
 ---
 ## Content
@@ -36,7 +43,6 @@ This variable, by no means, ties the `Item` class to a potential `Store` class, 
 
 For small projects, these two design patterns are not necessarily to be followed. But, in case of larger projects, where you've got multiple modules/classes depending on each other, starting off on the wrong foot might cause enough overhead for them to justify their usage from the beginning.
 
-
 ---
 ## Revision
 
@@ -44,7 +50,10 @@ Out of the following, which are the two characteristics of good code?
 
 ???
 
+
 * loose coupling and high cohesion
 * tight coupling and low cohesion
 * loose coupling and low cohesion
 * tight coupling and high cohesion
+
+ 

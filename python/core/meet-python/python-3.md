@@ -1,5 +1,9 @@
-# Python environment
+---
 author: tommarshall
+
+tags:
+
+  - introduction
 
 levels:
 
@@ -7,19 +11,27 @@ levels:
 
 type: normal
 
+category: must-know
+
 inAlgoPool: false
 
-category: must-know
+standards:
+  python.developer-environment.0: 10
+  python.developer-environment.1: 10
+
+---
+
+# Python environment
 
 ---
 ## Content
 
-Python comes pre-installed on most Linux distributions and is available as packages or installers on all others operating systems. Everything you need can be found on:
+Python comes pre-installed on most Linux distributions and is available as packages or installers on all other operating systems. Everything you need to install Python can be found on:
 ```
 www.python.org/downloads
 ```
 
-After installing Python, fire up a new terminal (Unix/MacOS) or a PowerShell (Windows) in order to run the Python REPL shell:
+After installing Python, open a new terminal (Unix/MacOS) or PowerShell (Windows). Enter `python3` to run the Python REPL shell:
 ```bash
 $ python3
 # Python 3.5.2
@@ -30,22 +42,34 @@ $ python3
 >>> quit()
 $
 ```
-**REPL** stands for *Read-Eval-Print Loop* which evaluates each line of code you write and outputs the result. Even though it may sound like something new, it is not: you just invoked the Python REPL from another REPL application - the shell inside the terminal.
+**REPL** stands for *Read-Eval-Print Loop*. This process evaluates each line of code you write and outputs the result.
 
-You won't use the REPL interpreter for longer snippets of code, however. It is much easier to write Python code using a text editor. There are a lot of options here: Atom, Emacs, Vim, Sublime, each with its advantages and disadvantages. We are going to recommend you to use Atom, as it is simple to use and highly customizable.
+You shouldn't use the REPL interpreter for longer snippets of code, however. It is much easier to write Python code using a text editor. There are a lot of options here, such as Atom, Emacs, Vim, Sublime or Visual Studio Code, each with its advantages and disadvantages. Visual Studio Code is a good option, as it was built on top of Atom's architecture, but avoids lots of overheads Atom doesn't. It is still highly customizable and much more responsive than Atom.
 
-To run Python file, it should firstly have the `.py` extension. Then, invoke a new terminal inside the directory and write:
+To run a Python file, which must have a `.py` extension, invoke a new terminal inside the directory that contains the file and write:
 ```bash
-$ python3 myNewPython.py
+$ python3 myPythonFile.py
 ```
-The process couldn't be simpler!
+
+---
+## Practice
+
+The Python shell used in the terminal is called a ??? interpreter.
+
+* REPL [Read Eval Print Loop]
+* REPL [Read Eval Print Language]
+* REPL [Real Evaluation Print Loop]
+* RELP [Read Evaluate Loop Print]
+
 
 ---
 ## Revision
 
-The Python-specific extension is ???.
+The Python-specific file extension is ???.
+
 
 * `.py`
 * `.pyt`
 * `.pip`
 * `.python`
+ 

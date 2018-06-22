@@ -1,4 +1,4 @@
-# Custom colour options
+---
 author: rosielowther
 
 levels:
@@ -9,17 +9,22 @@ type: normal
 
 category: feature
 
+
 links:
 
-  - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration){website}
+  - '[git-scm.com](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration){website}'
+
+
+---
+
+# Custom colour options
 
 ---
 ## Content
 
 You can change the default colour options for the console text.
 
-For example, to set the colour of changed files to **magenta foreground**, **white background** and **bold text**:
+For example, to set the colour of the results for `git status` command to **magenta foreground**, **white background** and **bold text**:
 ```
 $ git config --global color.status.changed
  "magenta white bold"
@@ -31,21 +36,25 @@ The other `color.*` options are `ui`, `branch.*`, `diff.*` and `interactive.*`.
 ---
 ## Practice
 
-Change the color for `diff.meta` to be *blue*, *black* and *bold*
+Change the colour for `diff.meta` to be *blue* foreground, *black* background and *bold* font:
 ```
-$ git ??? ??? 
+$ git ??? ???
       ??? ???
 ```
-*`config`
-*`--global`
-*`color.diff.meta`
-*`”blue black bold”`
-*`”blue, black, bold”`
+
+* `config`
+* `--global`
+* `color.diff.meta`
+* `”blue black bold”`
+* `”blue, black, bold”`
 
 ---
 ## Revision
 
 A customisable `color.` option is ??? .
-*interactive.*
-*git.*
-*sources.*
+
+* interactive.
+* git.
+* sources.
+
+ 

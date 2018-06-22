@@ -1,4 +1,4 @@
-# Prevent `exceptions` while logging Data
+---
 author: Russiee
 
 levels:
@@ -13,10 +13,15 @@ type: normal
 
 category: caveats
 
+
 links:
 
-  - >-
-    [www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/ERR02-J.+Prevent+exceptions+while+logging+data){website}
+  - '[www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/ERR02-J.+Prevent+exceptions+while+logging+data){website}'
+
+
+---
+
+# Prevent `exceptions` while logging Data
 
 ---
 ## Content
@@ -50,3 +55,5 @@ try {
 ```
 
 Only one logger is required for the entire program.
+
+ 

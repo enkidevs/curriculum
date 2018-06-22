@@ -1,10 +1,6 @@
 name: System Monitoring I
 
-type: insights-list
-
 description: Basics of system monitoring.
-
-section: 0
 
 insights:
   - detect-your-linux-distribution
@@ -12,3 +8,4 @@ insights:
   - system-uptime
   - commands-to-shutdown-or-restart-the-system
   - cancel-a-system-shutdown
+ 

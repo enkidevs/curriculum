@@ -1,4 +1,4 @@
-# Nested Functions
+---
 author: tommarshall
 
 levels:
@@ -7,9 +7,18 @@ levels:
 
 type: normal
 
+category: tip
+
 inAlgoPool: false
 
-category: tip
+
+standards:
+  python.functions.3: 10
+
+
+---
+
+# Nested Functions
 
 ---
 ## Content
@@ -38,7 +47,7 @@ When calling `out_func`, this is the output:
 out_func(5)
 # (5, 6)
 ```
-This shows that the outer function is called with the parameter, that parameter is then passed into the inner function with a value being returned back to the outer function call.
+This shows that the outer function is called with the parameter, that parameter is then passed into the inner function with a value being returned to the outer function call.
 
 ---
 ## Practice
@@ -56,6 +65,7 @@ outer(3)
 ```
 ???
 
+
 * `(3, 1)`
 * `(5, 3)`
 * `(3, 3,`
@@ -66,6 +76,40 @@ outer(3)
 
 A function is nested when it’s defined inside the ??? of another function.
 
+
 * scope
 * parentheses
 * enclosing class
+
+---
+## Quiz
+
+### Do you know how the scope of nested functions works?  
+
+
+We've defined a nested function here. What will the following code output?  
+
+```python
+def some_function(num):
+    def nested_func(num):
+        return num + 1
+    num_1 = nested_func(num)
+    print(num, num_1)
+
+def some_new_function(num):
+    def nested_func_new(num):
+        return num*2
+    num_1 = nested_func(num)
+    num_2 = nested_func_new(num)
+    print(num, num_1, num_2)
+
+some_new_function(1)
+```
+
+
+- NameError: global name 'nested_func' is not defined
+- NameError: global name 'nested_func_new' is not defined
+- AttributeError: 'super' object has no attribute '__getattr__'
+- 1 NameError: global name 'nested_func' is not defined
+ 
+ 
