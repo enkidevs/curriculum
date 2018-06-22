@@ -65,7 +65,8 @@ What is the correct HTML for creating a linked image?
   <p>These are my favoriate places:</p>
   <img src="mountain.jpg" alt="Snowy Mountain">
   <img src="beach.jpg" alt="Sandy Beach">
-</a>```
+</a>
+```
 
 * The text and images will be linked to the same site.
 * The text and images will not link to the site this way. 
