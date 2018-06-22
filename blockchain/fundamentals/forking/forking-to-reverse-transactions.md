@@ -18,7 +18,7 @@ standards:
 tags:
 
   - introduction
-
+  - workout
   - deep
 
 ---
