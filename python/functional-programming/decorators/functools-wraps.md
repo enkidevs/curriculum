@@ -48,7 +48,7 @@ from functools import wraps
 def h2_decorate(string_function):
   @wraps(string_function)
   def func_wrapper(name):
-     return "<h2>{0}</h2>"
+    return "<h2>{0}</h2>"
       .format(string_function(name))
   return func_wrapper
 
