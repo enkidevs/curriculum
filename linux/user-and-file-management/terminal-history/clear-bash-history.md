@@ -35,6 +35,10 @@ tags:
 
 notes: ''
 
+aspects:
+  - workout
+
+
 ---
 
 # Clear bash history
@@ -89,3 +93,4 @@ $ ??? ???
 * `echo`
 * `-d`
 
+ 

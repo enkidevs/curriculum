@@ -22,6 +22,12 @@ tags:
 
   - deep
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 
 # Storing JSON in an RDBMS
@@ -101,4 +107,5 @@ While storing JSON data is possible in most relational databases, the ones that 
 ## Footnotes
 [1:NoSQL]
 Because of JSON's versatility and popularity of JavaScript, a new type of database had been created to better match the needs of developers. They are called NoSQL (non-SQL or non-relational) databases.
+ 
  

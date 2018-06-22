@@ -38,3 +38,4 @@ com.examplecompany.examplepackage
 ```
 In addition, package names are always in lower case.
 
+ 

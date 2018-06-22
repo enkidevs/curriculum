@@ -1,4 +1,4 @@
-# Recursive generator
+---
 author: SebaRaba
 
 levels:
@@ -9,9 +9,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[more about recursive generators](https://stackoverflow.com/questions/35015181/python-recursive-generator)'
+  - '[more about recursive generators](https://stackoverflow.com/questions/35015181/python-recursive-generator){website}'
+
+
+---
+
+# Recursive generator
 
 ---
 ## Content
@@ -63,6 +69,7 @@ def cubic_generator(n):
 
 ```
 
+
 * `list_gen`
 * `cubic_generator`
 * both
@@ -84,6 +91,7 @@ print(next(c)) # 29
 
 ```
 
+
 * `start`
 * `yield`
 * `from`
@@ -94,3 +102,5 @@ print(next(c)) # 29
 * `yield()`
 * `yield from`
 * `.next`
+
+ 

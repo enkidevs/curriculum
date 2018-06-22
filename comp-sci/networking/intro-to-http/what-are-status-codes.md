@@ -26,7 +26,7 @@ parent: what-is-an-url
 
 ---
 
-# What are status codes
+# What are status codes?
 
 ---
 ## Content
@@ -50,7 +50,7 @@ The *status code* indicates whether the request has been successfully processed 
 ---
 ## Practice
 
-What first digit in the status code does imply a **successfully processed request**?
+What is the first digit of the status code for a **successfully processed request**?
 
 ???
 
@@ -74,3 +74,4 @@ If the client gets a `5xx` status code, it means that
 * the requested resource can be found at another address
 * everything is OK so far
 
+ 

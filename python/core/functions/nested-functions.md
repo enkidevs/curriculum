@@ -13,7 +13,7 @@ inAlgoPool: false
 
 
 standards:
-  py.functions.3: 10
+  python.functions.3: 10
 
 
 ---
@@ -47,7 +47,7 @@ When calling `out_func`, this is the output:
 out_func(5)
 # (5, 6)
 ```
-This shows that the outer function is called with the parameter, that parameter is then passed into the inner function with a value being returned back to the outer function call.
+This shows that the outer function is called with the parameter, that parameter is then passed into the inner function with a value being returned to the outer function call.
 
 ---
 ## Practice
@@ -111,3 +111,5 @@ some_new_function(1)
 - NameError: global name 'nested_func_new' is not defined
 - AttributeError: 'super' object has no attribute '__getattr__'
 - 1 NameError: global name 'nested_func' is not defined
+ 
+ 

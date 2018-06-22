@@ -17,6 +17,11 @@ tags:
   - introduction
   - workout
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # Functions return undefined by default
 
@@ -94,3 +99,4 @@ foo(3) === foo(1); // = ???
 * null
 * false
 * NaN
+ 

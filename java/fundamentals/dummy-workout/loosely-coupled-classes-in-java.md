@@ -33,3 +33,4 @@ links:
 ## Content
 
 Loose coupling is achieved by means of a design that promotes single-responsibility and separation of concerns. A loosely-coupled class can be consumed and tested independently of other (concrete) classes.
+ 

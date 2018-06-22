@@ -21,8 +21,8 @@ notes: >-
   like most_common(), elements(), etc.
 
 standards:
-  py.store-manipulate-data.5: 10
-  py.modules.0: 10
+  python.store-manipulate-data.5: 10
+  python.modules.0: 10
 
 ---
 
@@ -105,3 +105,5 @@ e.???(“enki”)
 * `new_counter`
 * `add`
 * `add_counter`
+ 
+ 

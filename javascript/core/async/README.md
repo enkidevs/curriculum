@@ -12,3 +12,4 @@ insights:
 exercises:
   - js-practice-async
   - js-practice-event-loop
+ 

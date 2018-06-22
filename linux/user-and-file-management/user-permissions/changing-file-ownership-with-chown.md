@@ -22,6 +22,11 @@ tags:
 
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # Changing File Ownership With `chown`
@@ -91,3 +96,4 @@ $ ??? ??? ???
 * `new-group`
 * `chmod`
 
+ 

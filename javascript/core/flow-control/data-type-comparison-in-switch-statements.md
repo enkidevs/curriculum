@@ -25,6 +25,10 @@ links:
   - '[www.standardista.com](http://www.standardista.com/javascript/15-common-javascript-gotchas){website}'
 
 
+aspects:
+  - introduction
+
+
 ---
 
 # Data type comparison in `switch` statements
@@ -102,3 +106,4 @@ switch(x){
 * `nothing`
 * `'Hi!'`
 * `an error`
+ 

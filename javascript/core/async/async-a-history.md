@@ -14,11 +14,13 @@ standards:
   javascript.async.3: 10
 
 tags:
-
   - introduction
-
   - workout
+  - obscura
 
+aspects:
+  - introduction
+  - workout
   - obscura
 
 
@@ -75,8 +77,7 @@ What keyword is specific to **ES7 Async**?
 ???
 
 
-* `await`
-* `yield`
-* `return`
-* `throw`
-
+* await
+* yield
+* return
+* throw

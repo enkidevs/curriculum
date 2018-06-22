@@ -20,6 +20,10 @@ tags:
 
 
 
+aspects:
+  - introduction
+
+
 ---
 
 # Manipulating Environment Variables
@@ -108,3 +112,4 @@ jesse@host ~ $ echo $FOOD
 jesse@host $
 ```
 
+ 

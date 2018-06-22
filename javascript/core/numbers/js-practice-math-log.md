@@ -28,3 +28,4 @@ links:
 ## Exercise
 
 Practice using the JavaScript Math method `log()`
+ 

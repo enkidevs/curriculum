@@ -23,7 +23,7 @@ links:
 
 *let* solves an issue you may have come across before when attempting to add event handlers to multiple elements.
 
-The code below looks like it will output 0 1 2 3 4 to the console but will actually output 5 5 5 5 5.
+The code below looks like it will output 0 1 2 3 4 to the console but will output 5 5 5 5 5.
 
 ```javascript
 var funcs=[];
@@ -42,7 +42,7 @@ for(func of funcs){
 
 This happens because each function added to the array is referring to the same instance of *i*.
 
-Variable *i* ends up being 5 at the end of the loop so we end up logging this final value in each function.
+Variable *i* ends up being five at the end of the loop, so we end up logging this final value in each function.
 
 Now try changing the loop declaration to use the *let* keyword:
 
@@ -120,3 +120,4 @@ for (func of letFuncs) {
 * [4, 4, 4]
 * [2, 2, 2]
 * [1, 2, 3]
+ 

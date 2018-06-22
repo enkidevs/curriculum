@@ -8,3 +8,4 @@ insights:
   - make-your-log-output-pretty
   - show-history-of-a-function
   - view-your-commit-history-in-a-graph
+ 

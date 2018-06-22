@@ -91,3 +91,4 @@ How many checks are required to find the right place to insert `5` in the follow
 ## Footnotes
 [1: Worst-case scenario]
 This refers to the case in which the tree's *height* (the distance between the root and the furthest away leaf from the root) is equal to the number of nodes in the tree. In this case, the operations that normally take `O(log n)` end up taking `O(n)`.
+ 

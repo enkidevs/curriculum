@@ -12,7 +12,7 @@ type: normal
 category: how to
 
 standards:
-  py.standard-library-operating-system.0: 10
+  python.standard-library-operating-system.0: 10
 
 links:
 
@@ -104,3 +104,5 @@ file.???('this is my new file')
 * `write`
 * `r`
 * `read`
+ 
+ 

@@ -24,6 +24,10 @@ links:
   - '[blog post tutorial on SELECT](http://www.dofactory.com/sql/select){website}'
   - '[video tutorial on MySQL SELECT](https://www.youtube.com/watch?v=BgK88mlgA6I){video}'
 
+aspects:
+  - introduction
+
+
 ---
 
 # SQL Practice Select
@@ -36,4 +40,5 @@ Change the query (in the right-hand window) to return the `name`, `height` and `
 In the answer field, enter the name, height, and weight of the Pokemon listed in the top row.
 
 Example: `fakemon, 1000, 29`
+ 
  

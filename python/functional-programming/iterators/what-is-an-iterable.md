@@ -1,4 +1,4 @@
-# What Is an Iterable?
+---
 author: stefkn
 
 levels:
@@ -13,12 +13,18 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[A slower, more detailed explanation](https://stackoverflow.com/a/18744706)'
-  - '[Double-underscores in Python](https://dbader.org/blog/meaning-of-underscores-in-python)'
-  - '[Iterables vs. Iterators vs. Generators](http://nvie.com/posts/iterators-vs-generators/)'
-  - '[OOP Parents and Children](http://www.htmlcenter.com/blog/object-oriented-programming-parents-and-children/)'
+  - '[A slower, more detailed explanation](https://stackoverflow.com/a/18744706){website}'
+  - '[Double-underscores in Python](https://dbader.org/blog/meaning-of-underscores-in-python){website}'
+  - '[Iterables vs. Iterators vs. Generators](http://nvie.com/posts/iterators-vs-generators/){website}'
+  - '[OOP Parents and Children](http://www.htmlcenter.com/blog/object-oriented-programming-parents-and-children/){website}'
+
+
+---
+
+# What Is an Iterable?
 
 ---
 ## Content
@@ -50,6 +56,7 @@ Which of the objects below are `iterable`?
 
 ???
 
+
 * Sequence types (`list`, `str`, `tuple`...)
 * Collection types
 * Any custom classes
@@ -64,6 +71,7 @@ What is the difference between `__getitem__()` and `__iter__()`?
 
 ???
 
+
 * `__getitem__()` is for indexed lookup, `__iter__()` returns an iterator
 * `__getitem__()` returns the item, `__iter__()` returns an iterator
 * `__getitem__()` is for indexed lookup, `__iter__()` returns an iterable
@@ -71,7 +79,6 @@ What is the difference between `__getitem__()` and `__iter__()`?
 
 ---
 ## Footnotes
-
 [1:Parent and Child objects]
 This is not to be confused with the concept of parents/children in Object-Oriented Programming, which is slightly different, semantically. In OOP, the concept of parent and children objects usually refers to the concept of **inheritance**, where the features of a parent class are inherited by its children. For more information, please see 'OOP Parents and Children' in the 'Learn More' section.
 
@@ -81,3 +88,4 @@ Double underscores in Python are commonly referred to by Pythonistas as "dunder"
 The meaning behind double underscores is to allow the core Python team to define so-called "Magic Methods" which define certain protocols that classes can choose to implement or not. By default, many of the built-in classes implement these methods.
 
 The double underscore was chosen as way to not have as many `reserved` method names such as in Java, by prefixing and postfixing the underscores, the name `iter` is still usable in code without interfering with the language's underlying mechanisms.
+ 

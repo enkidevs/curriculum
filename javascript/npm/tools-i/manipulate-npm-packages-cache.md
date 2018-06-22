@@ -23,6 +23,12 @@ links:
 
 parent: check-data-about-a-package
 
+aspects:
+  - workout
+  - deep
+  - new
+
+
 ---
 # Manipulate npm packages cache
 
@@ -97,3 +103,4 @@ $ ??? ??? ??? ???
 * isAt
 * getPath
 * ls
+ 

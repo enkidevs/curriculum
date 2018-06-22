@@ -24,6 +24,11 @@ tags:
 
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # Debugging
@@ -82,3 +87,4 @@ How can you log variables into the console?
 * `debugger;`
 * `addVar`
 
+ 

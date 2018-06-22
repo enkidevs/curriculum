@@ -9,7 +9,10 @@ levels:
 
 tags:
   - workout
-
+  - deep
+aspects:
+  - workout
+  - deep
 type: exercise
 
 linkType: codewars
@@ -18,10 +21,10 @@ link: https://www.codewars.com/kata/digital-cypher
 
 standards:
 
-  py.functions.0: 1000
-  py.functions.1: 2000
-  py.functions.2: 3000
-  py.functions.3: 3000
+  python.functions.0: 1000
+  python.functions.1: 2000
+  python.functions.2: 3000
+  python.functions.3: 3000
 
 links:
 
@@ -39,8 +42,8 @@ Solve ciphers and train your skills with python `functions`.
 
 Click *Launch Exercise* to open Codewars.
 
-On the website you will find a description of the exercise. Read this description carefully. 
+On the website you will find a description of the exercise. Read this description carefully.
 
-When you are ready to give it a try press the blue *Train* button and write your solution. 
+When you are ready to give it a try press the blue *Train* button and write your solution.
 
 To test your solution press the blue *Attempt* button.

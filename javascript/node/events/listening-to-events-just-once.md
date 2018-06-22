@@ -23,6 +23,11 @@ links:
 
 parent: consuming-events
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # Listening to events just once
 
@@ -85,3 +90,4 @@ test.???('uncaughtException',
 * catch
 * one
 * onOnce
+ 

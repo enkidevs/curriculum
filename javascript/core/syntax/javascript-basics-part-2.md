@@ -16,6 +16,10 @@ standards:
 tags:
   - introduction
 
+aspects:
+  - introduction
+
+
 ---
 # JavaScript Basics - Part 2
 
@@ -78,3 +82,4 @@ What operator is used to declare a variable in the *current scope*?
 * string
 * int
 * double
+ 

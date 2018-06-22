@@ -1,4 +1,4 @@
-# The `sorted` Built-in Function
+---
 author: stefkn
 
 levels:
@@ -13,13 +13,19 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[Python sorted](https://www.programiz.com/python-programming/methods/built-in/sorted)'
-  - '[Sorting Mini-HOW TO](https://wiki.python.org/moin/HowTo/Sorting/)'
-  - '[Timsort](https://en.wikipedia.org/wiki/Timsort)'
-  - '[PEP 3000](https://www.python.org/dev/peps/pep-3100/#id100)'
-  - '[__cmp__ in Python 2 and 3](https://stackoverflow.com/questions/8276983/python-2-and-python-3-cmp)'
+  - '[Python sorted](https://www.programiz.com/python-programming/methods/built-in/sorted){website}'
+  - '[Sorting Mini-HOW TO](https://wiki.python.org/moin/HowTo/Sorting/){website}'
+  - '[Timsort](https://en.wikipedia.org/wiki/Timsort){website}'
+  - '[PEP 3000](https://www.python.org/dev/peps/pep-3100/#id100){website}'
+  - '[__cmp__ in Python 2 and 3](https://stackoverflow.com/questions/8276983/python-2-and-python-3-cmp){website}'
+
+
+---
+
+# The `sorted` Built-in Function
 
 ---
 ## Content
@@ -128,6 +134,7 @@ def getFloor(resident):
 print(sorted(???, ???))
 ```
 
+
 * `resident.floor`
 * `list`
 * `key=getFloor`
@@ -147,13 +154,13 @@ print(sorted([0, 2, 3, 1,
 
 ???
 
+
 * `[0, 1, 2, 3, 'A', 'B', 'a', 'b']`
 * `['A', 'B', 'a', 'b', 0, 1, 2, 3,]`
 * `[0, 1, 2, 3, 'a', 'b', 'A', 'B']`
 
 ---
 ## Footnotes
-
 [1:Timsort]
 *Technically, the sort algorithm in Python since version 2.3 has been Timsort, named after creator Tim Peters. It is derived from a hybrid approach of merge sort and insertion sort. Timsort finds subsequences of the data that are already sorted and uses the information found there to sort the rest of the list more effectively. For more information, see the Wikipedia page in the Learn More section titled 'Timsort'.*
 
@@ -161,3 +168,4 @@ print(sorted([0, 2, 3, 1,
 *On December 3, 2008, Python moved from version 2 to version 3, which caused a lot of debate and discussion. This was because the aim of the update was to rectify certain fundamental design flaws in the original language; many of the changes made it impossible to maintain compatibility with version 2. From their documentation (PEP 3000): "A general goal is to reduce feature duplication by removing old ways of doing things".
 
 Today, Python 3 is widely recommended and used, and still very similar for most cases, except in some niche scenarios. See PEP 3000 in the Learn More section for further information.*
+ 

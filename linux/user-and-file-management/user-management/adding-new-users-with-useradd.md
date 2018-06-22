@@ -20,6 +20,10 @@ tags:
 
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Adding New Users With `useradd`
@@ -80,3 +84,4 @@ $ ??? ??? ??? ???
 * `-G`
 * `root`
 
+ 

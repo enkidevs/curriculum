@@ -35,6 +35,11 @@ links:
   - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test){website}'
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # Using `.test()` with RegExp
@@ -90,3 +95,4 @@ Matching a string with a RegEx is done by
 * regex.match(string);
 * regex.check(string);
 
+ 

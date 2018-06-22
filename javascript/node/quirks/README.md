@@ -6,3 +6,4 @@ insights:
   - node-and-sudo
   - avoid-command-injection
   - node-os-module
+ 

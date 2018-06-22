@@ -22,6 +22,11 @@ tags:
 
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # The Basics of The Pipe Operator `|`
@@ -60,3 +65,4 @@ $ ??? ??? ??? eth0
 * `>`
 * `>>`
 
+ 

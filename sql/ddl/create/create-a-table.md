@@ -30,6 +30,11 @@ links:
   - '[video tutorial on creating tables](https://youtu.be/EaRj0S3K32Y?t=58s){video}'
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # Create a table
@@ -96,4 +101,5 @@ column3: salary int
 ## Footnotes
 [1:PRIMARY KEY]
 A primary key is a field in a table that identifies each row in a db.
+ 
  

@@ -22,6 +22,11 @@ tags:
   - workout
   - deep
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
 ---
 
 # Apply `map` function to array items
@@ -72,3 +77,4 @@ You have to modify the elements of an array after a single,certain rule. The bes
 * map()
 * filter()
 * splice()
+

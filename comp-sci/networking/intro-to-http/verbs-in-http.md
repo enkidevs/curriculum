@@ -85,3 +85,4 @@ The `HEAD` verb can sometimes be used to check if the targeted resource has chan
 This is possible as the header of a request contain timestamps.
 [5:Options]
 For example, in case of the server not being able to understand a `PUT` request, sending a `OPTIONS` request first will help us prevent receiving a `400 Bad Request` error.
+ 

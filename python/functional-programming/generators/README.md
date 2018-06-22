@@ -1,12 +1,6 @@
 name: Generators
 
-type: insights-list
-
 description: Generators 101
-
-section: 0
-
-parent: comprehension
 
 insights:
   - what-are-generators
@@ -14,3 +8,7 @@ insights:
   - recursive-generator
   - generator-of-generators
   - benefits-of-using-generators
+
+exercises:
+  - py-practice-generators
+  - py-practice-pure-functions2

@@ -8,3 +8,4 @@ insights:
   - using-media-rule-to-create-cross-platform-responsiveness
   - responsive-images-in-a-layout
   - use-text-transform-to-avoid-screen-reader-pronunciation-errors
+ 

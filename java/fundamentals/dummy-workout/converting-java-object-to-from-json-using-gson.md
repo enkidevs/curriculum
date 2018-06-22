@@ -42,3 +42,4 @@ Gson gson = new Gson();
 String json = gson.toJson(obj);
 // json is {"value":42,"message":"foo"}
 ```
+ 

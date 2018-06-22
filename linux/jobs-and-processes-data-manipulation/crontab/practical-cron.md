@@ -123,3 +123,4 @@ MIN ??? DATE ??? ???
 `/5 ? * * *` means it will execute every 5 minutes in the hour the Cron has started, every day of every month (i.e. if Cron starts at 10, the command will be changed automatically to `/5 10 * * *`).
 [6:Sunday]
 `Sun` can be both `0` and `7`. *0-6* means Sunday to Saturday, while *1-7* means Monday to Sunday.The same is true for months. The notation depends on the distribution.
+ 

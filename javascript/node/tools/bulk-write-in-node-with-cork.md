@@ -20,6 +20,11 @@ tags:
 links:
   - '[github.com](https://github.com/nodejs/node/wiki/API-changes-between-v0.10-and-v4#writable-streams){website}'
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # Bulk-Write in **Node** with `cork()`
 
@@ -62,3 +67,4 @@ What method is used to flush all buffered data from a stream?
 * end()
 * uncork()
 * cork()
+ 

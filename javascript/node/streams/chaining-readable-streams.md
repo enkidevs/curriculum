@@ -27,6 +27,12 @@ links:
 
 parent: piping-readable-streams
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 # Chaining Readable Streams
 
@@ -78,3 +84,4 @@ Which function is used to chain streams together?
 * pipe()
 * new-pipe()
 * chain()
+ 

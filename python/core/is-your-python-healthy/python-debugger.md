@@ -12,8 +12,8 @@ type: normal
 category: must-know
 
 standards:
-  py.native-types-operations.10: 10
-  py.identify-python-syntax.2: 10
+  python.native-types-operations.10: 10
+  python.identify-python-syntax.2: 10
 
 links:
 
@@ -162,3 +162,5 @@ When debugging a python file with `pdb`, which command will show the step-by-ste
 * `step`
 * `next`
 * `go`
+ 
+ 

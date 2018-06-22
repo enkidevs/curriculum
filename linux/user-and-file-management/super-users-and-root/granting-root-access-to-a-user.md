@@ -34,6 +34,11 @@ tags:
 
 
 
+aspects:
+  - workout
+  - introduction
+
+
 ---
 
 # Granting `root` access to a user
@@ -81,3 +86,4 @@ $ usermod ??? ??? enkiUser
 * `-ag`
 * `admin`
 
+ 

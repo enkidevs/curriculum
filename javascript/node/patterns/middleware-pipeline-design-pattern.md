@@ -21,6 +21,10 @@ links:
   - '[blog.risingstack.com](https://blog.risingstack.com/fundamental-node-js-design-patterns/){website}'
   - '[through](https://www.npmjs.com/package/through){documentation}'
 
+aspects:
+  - workout
+
+
 ---
 # Middleware/pipeline design pattern
 
@@ -102,3 +106,4 @@ fs.createReadStream('raw.txt')
 * singleton
 * prototype
 * waterfall
+ 

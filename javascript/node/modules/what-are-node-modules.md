@@ -24,6 +24,11 @@ links:
 
 parent: npm-nodes-package-manager
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # What are Node Modules?
 
@@ -62,3 +67,4 @@ Where are third party Node.js modules installed to?
 * local_modules
 * libraries
 * libs
+ 

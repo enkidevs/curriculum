@@ -50,3 +50,4 @@ What is a *master* lock?
 * Hope it will not occur
 * It is a lock that is acquired by a master process
 
+ 

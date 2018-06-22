@@ -31,6 +31,12 @@ links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin){website}'
 
 
+aspects:
+  - introduction
+  - workout
+  - new
+
+
 ---
 
 # Array.copyWithin
@@ -111,3 +117,4 @@ ints.copyWithin(???,???,???)
 * 9
 * 0
 
+ 

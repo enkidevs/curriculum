@@ -13,9 +13,9 @@ category: how to
 
 
 standards:
-  py.native-types-operations.4: 10
-  py.data-structures-uses.5: 10
-  py.modules.0: 10
+  python.native-types-operations.4: 10
+  python.data-structures-uses.5: 10
+  python.modules.0: 10
 
 links:
 
@@ -102,3 +102,5 @@ What module contains the SequenceMatcher class?
 ## Footnotes
 [1:Notation]
 We will refer to the first sequence as `a` and to the second sequence as `b`.
+ 
+ 

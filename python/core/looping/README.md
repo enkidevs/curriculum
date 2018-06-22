@@ -11,7 +11,6 @@ insights:
   - looping-techniques
 
 exercises:
-  - py-practice-loops
+  - py-practice-boolean
   - py-practice-iterable
   - py-practice-iterable2
-  - py-practice-next-iter

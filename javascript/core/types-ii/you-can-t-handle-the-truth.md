@@ -23,6 +23,11 @@ standards:
 tags:
   - introduction
   - workout
+
+aspects:
+  - introduction
+  - workout
+
 ---
 
 # You can't handle the truth!
@@ -152,3 +157,4 @@ This expression is undefined in JavaScript, so it will evaluate to false.
 %
 
 ```
+ 

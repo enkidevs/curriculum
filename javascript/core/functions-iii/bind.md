@@ -32,6 +32,11 @@ links:
   - '[www.javascripture.com](http://www.javascripture.com/Function#bind){website}'
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # `.bind()` 
@@ -92,3 +97,4 @@ What can be used to make a function be always called with a **particular** `this
 * `return`
 * `new`
 
+ 

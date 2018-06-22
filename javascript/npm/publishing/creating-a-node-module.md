@@ -22,6 +22,12 @@ tags:
   - deep
   - new
 
+aspects:
+  - workout
+  - deep
+  - new
+
+
 ---
 # Creating a Node Module
 
@@ -75,3 +81,4 @@ Usually, a module id is
 * the name of the main JavaScript file
 * the name of the first function
 * defined in the *package.json*
+ 

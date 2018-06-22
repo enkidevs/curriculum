@@ -16,3 +16,4 @@ exercises:
   - js-practice-array-every
   - js-practice-array-concat
   - js-practice-array-reduce
+ 

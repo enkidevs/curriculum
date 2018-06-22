@@ -32,6 +32,12 @@ links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array){website}'
 
 
+aspects:
+  - introduction
+  - workout
+  - new
+
+
 ---
 
 # Searching Arrays
@@ -140,3 +146,4 @@ ints.???(ints.???(???))
 * `filter`
 * `function (e) {return e % 2 && e % 3}`
 
+ 

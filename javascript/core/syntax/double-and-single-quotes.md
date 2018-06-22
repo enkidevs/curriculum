@@ -24,6 +24,11 @@ tags:
   - introduction
 
 
+aspects:
+  - obscura
+  - introduction
+
+
 ---
 
 # Double and single quotes
@@ -61,3 +66,4 @@ JSON standard requires every string to be ??? quoted.
 
 * double
 * single
+ 

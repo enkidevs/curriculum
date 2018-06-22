@@ -24,6 +24,10 @@ tags:
 
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Useful aliasing in bash
@@ -128,3 +132,4 @@ Which of the following statements is true?
 * ll is another implementation of ls
 * ll is an extension to ls that accepts additional flags
 * ll is Ubuntu's version of ls
+ 

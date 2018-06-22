@@ -7,7 +7,11 @@ levels:
 
   - basic
 
-tags: 
+tags:
+
+  - introduction
+  
+aspects:
   - introduction
 
 type: exercise
@@ -18,11 +22,11 @@ link: https://www.codewars.com/kata/coding-meetup-number-17-higher-order-functio
 
 standards:
 
-  py.control-structures.0: 1000
-  py.control-structures.1: 2000
-  py.control-structures.2: 2000
-  py.control-structures.3: 3000
-  py.control-structures.4: 5000
+  python.control-structures.0: 1000
+  python.control-structures.1: 2000
+  python.control-structures.2: 2000
+  python.control-structures.3: 3000
+  python.control-structures.4: 5000
 
 links:
 
@@ -36,12 +40,12 @@ links:
 ---
 ## Exercise
 
-Practice flow control `structures` in python.
+Practice flow control structures in python.
 
 Click *Launch Exercise* to open Codewars.
 
-On the website you will find a description of the exercise. Read this description carefully. 
+On the website you will find a description of the exercise. Read this description carefully.
 
-When you are ready to give it a try press the blue *Train* button and write your solution. 
+When you are ready to give it a try press the blue *Train* button and write your solution.
 
 To test your solution press the blue *Attempt* button.

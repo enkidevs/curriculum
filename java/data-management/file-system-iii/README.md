@@ -8,3 +8,4 @@ insights:
   - java8-s-new-stampedlock
   - jjs-oracle-nashorn-newest-javascript-engine
   - use-optional-s-type-in-order-to-avoid-nullpointerexception-s
+ 

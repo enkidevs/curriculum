@@ -72,3 +72,4 @@ Common jitter causes in **TCP/IP** networks are:
  - congestion
  - improper queuing
  - configuration errors
+ 

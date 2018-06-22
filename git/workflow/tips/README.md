@@ -8,3 +8,4 @@ insights:
   - avoiding-whitespace-issues
   - overcome-line-ending-issues
   - custom-colour-options
+ 

@@ -1,4 +1,4 @@
-# The `sum` Built-in Function
+---
 author: stefkn
 
 levels:
@@ -13,9 +13,15 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[Python Docs - sum](https://docs.python.org/3.3/library/functions.html#sum)'
+  - '[Python Docs - sum](https://docs.python.org/3.3/library/functions.html#sum){website}'
+
+
+---
+
+# The `sum` Built-in Function
 
 ---
 ## Content
@@ -50,6 +56,7 @@ print(sum(letters))
 
 ???
 
+
 * TypeError: unsupported operand type(s) for +: 'int' and 'str'
 * abc
 * ['a', 'b', 'c']
@@ -66,6 +73,7 @@ bill2 = [4.5, 4.5, 18, 18, 3.99]
 print(bill1 if ??? > ??? else bill2)
 ```
 
+
 * sum(bill1, 8)
 * sum(bill2, 8)
 * sum(bill1)
@@ -75,6 +83,6 @@ print(bill1 if ??? > ??? else bill2)
 
 ---
 ## Footnotes
-
 [1:Alternatives to `sum`]
 *An example of a rare case where an alternative method is superior to `sum` is when adding floating point values. When precision is important, it is better to use `math.fsum()` which deliberately avoids loss of precision. For more information, see the Python Docs in the Learn More section.*
+ 

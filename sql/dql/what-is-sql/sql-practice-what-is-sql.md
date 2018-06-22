@@ -7,6 +7,9 @@ levels:
 tags:
   - introduction
 
+aspects:
+  - introduction
+
 type: exercise
 
 linkType: sqlfiddle
@@ -32,4 +35,6 @@ links:
 Change the query in SQLFiddle to **return one `email` address instead of returning one `name`**.
 
 In the answer field, *enter the email address that was returned*.
+ 
+ 
  

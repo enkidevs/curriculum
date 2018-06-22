@@ -1,5 +1,4 @@
-# Why Functional Programming?
-
+---
 author: stefkn
 
 levels:
@@ -14,13 +13,18 @@ type: normal
 
 category: must-know
 
+
 links:
 
-  - '[Advantages Of Functional Programming](http://wiki.c2.com/?AdvantagesOfFunctionalProgramming)'
-  - '[Functional Programming HOWTO](https://docs.python.org/2/howto/functional.html)'
+  - '[Advantages Of Functional Programming](http://wiki.c2.com/?AdvantagesOfFunctionalProgramming){website}'
+  - '[Functional Programming HOWTO](https://docs.python.org/2/howto/functional.html){website}'
+
 
 ---
 
+# Why Functional Programming?
+
+---
 ## Content
 
 In this insight, we'll go a little deeper into the concept of functional programming by analyzing the benefits and drawbacks it can provide. Most of these points are applicable to functional programming in general and not specifically to functional programming within Python.
@@ -62,12 +66,12 @@ Common side effects found in OOP-style software include seemingly-innocuous acti
 Removing side effects (or at least minimizing them) makes our program easier to understand for debugging or just to spot design inefficiencies.
 
 ---
-
 ## Practice
 
 Which of the below is a main concept of functional programming?
 
 ???
+
 
 * Using pure functions
 * Using mutable data
@@ -75,12 +79,12 @@ Which of the below is a main concept of functional programming?
 * Avoiding explicit dependencies
 
 ---
-
 ## Revision
 
 Which of the following statements about pure functions is true?
 
 ???
+
 
 * Given the same input, they will always return the same output
 * They are easier to code than normal functions
@@ -88,11 +92,10 @@ Which of the following statements about pure functions is true?
 * They are faster
 
 ---
-
 ## Footnotes
-
 [1:Designing away Bugs]
 For example, a shopping website might have a "basket" object which is passed as a parameter to various scopes. The objects within that basket and the data about which user the basket belongs to would be mutated by various sections of code in these different scopes. If there was some temporal dependency between functions being called on the basket, altering or removing one function may accidentally (and not obviously) ripple out and break other functionality. Withtout shared state, you can ensure an entire class of bugs cannot manifest in our program.
 
 [2:Side Effects & Pure Functions]
 Purely-functional languages such as Haskell often encapsulate and isolate these kinds of side effects from pure functions using *monads*, which are another long topic too complex to be covered in this insight. In this case you can see a slight shortcoming in the functional programming paradigm in that a *real* purely-functional program shouldn't be able to do many of the things modern programs do, as many of those actions technically count as side effects. Functional frameworks need to provide ways to do these things for utility but they technically break compliance with pure functional style.
+ 

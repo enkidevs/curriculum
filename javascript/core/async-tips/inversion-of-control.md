@@ -16,6 +16,11 @@ tags:
   - deep
   - obscura
 
+aspects:
+  - workout
+  - deep
+  - obscura
+
 links:
   - '[blog.getify.com](http://blog.getify.com/promises-part-2/){website}'
 
@@ -88,3 +93,7 @@ What is the name of this dynamic?
 * un-inversion of control
 * callback hell
 * callback trust
+ 
+ 
+ 
+ 

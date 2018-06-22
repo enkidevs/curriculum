@@ -10,8 +10,8 @@ type: normal
 category: must-know
 
 standards:
-  py.store-manipulate-data.0: 10
-  py.store-manipulate-data.1: 10
+  python.store-manipulate-data.0: 10
+  python.store-manipulate-data.1: 10
 
 
 ---
@@ -123,3 +123,4 @@ A `deepcopy` means
 * making a copy in memory of the first layer of the data structure
 * making a copy of the data structure's reference
 * allocating some memory to a data structure
+ 

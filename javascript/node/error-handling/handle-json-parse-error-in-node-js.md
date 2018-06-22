@@ -20,6 +20,11 @@ links:
   - '[www.joyent.com](https://www.joyent.com/developers/node/design/errors){website}'
   - '[stackoverflow.com](http://stackoverflow.com/questions/14392110/catch-exception-in-node-during-json-parse?lq=1){website}'
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # Handle `JSON.parse` error in Node.js
 
@@ -63,3 +68,4 @@ What type of function is `JSON.parse` ?
 
 * synchronous
 * asynchronous
+ 

@@ -24,6 +24,12 @@ links:
   - '[learnxinyminutes.com](http://learnxinyminutes.com/docs/javascript/){website}'
   - '[stackoverflow.com](http://stackoverflow.com/questions/500431/what-is-the-scope-of-variables-in-javascript){website}'
 
+aspects:
+  - workout
+  - deep
+  - obscura
+
+
 ---
 # No block scope
 
@@ -101,3 +107,4 @@ function bar() {
 * 2
 * 3
 * undefined
+ 

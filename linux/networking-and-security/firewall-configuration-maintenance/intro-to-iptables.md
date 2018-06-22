@@ -116,3 +116,4 @@ This chain handles traffic created by your server.
 This chain contains rules for traffic that would just pass through your sever and not stop there.
 [5:NAT rules]
 They allow rewriting of the source addresses of the traffic. Typically, they are used by *Untangle* servers which change the the IP address of the machine that made the request to the one of the server and then "untangles" it back to the machine when the response arrives.
+ 

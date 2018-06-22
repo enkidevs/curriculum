@@ -11,6 +11,11 @@ levels:
 
 tags:
   - workout
+  
+aspects:
+  - introduction
+  - workout
+  - deep
 
 type: exercise
 
@@ -20,11 +25,9 @@ link: https://www.codewars.com/kata/fibonacci-tribonacci-and-friends
 
 standards:
 
-  py.native-types-operations.2: 2000
-  py.native-types-operations.3: 2000
-  py.native-types-operations.4: 4000
-  py.native-types-operations.5: 4000
-  py.native-types-operations.8: 4000
+  python.native-types-operations.2: 2000
+  python.native-types-operations.3: 2000
+  python.native-types-operations.6: 4000
 
 links:
 
@@ -38,13 +41,12 @@ links:
 ---
 ## Exercise
 
-Play with Fibonacci's `sequence` in python.
+Play with Fibonacci's sequence in python, by using Lists.
 
 Click *Launch Exercise* to open Codewars.
 
-On the website you will find a description of the exercise. Read this description carefully. 
+On the website you will find a description of the exercise. Read this description carefully.
 
-When you are ready to give it a try press the blue *Train* button and write your solution. 
+When you are ready to give it a try press the blue *Train* button and write your solution.
 
 To test your solution press the blue *Attempt* button.
-

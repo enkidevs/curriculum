@@ -26,6 +26,10 @@ tags:
 
 
 
+aspects:
+  - introduction
+
+
 ---
 
 # Run previous command as root
@@ -63,3 +67,4 @@ $ ???
 * `sudo adduser newUser`
 * `adduser newUser`
 
+ 

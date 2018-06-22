@@ -34,3 +34,4 @@ For example, if you have two different classes, one with a method `finish()` and
 
 Using consistent names makes your code more readable and thus easier to maintain.
 
+ 

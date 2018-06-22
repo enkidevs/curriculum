@@ -13,8 +13,8 @@ inAlgoPool: false
 
 
 standards:
-  py.functions.0: 10
-  py.identify-python-syntax.2: 10
+  python.functions.0: 10
+  python.identify-python-syntax.2: 10
 
 links:
 
@@ -28,7 +28,7 @@ links:
 ---
 ## Content
 
-Functions allow you to split up your code into relevant blocks, they allow code to be ordered and to be more readable.
+Functions allow you to split up your code into relevant blocks, and they allow code to be ordered and to be more readable.
 
 Functions in Python use Python's standard block syntax:
 
@@ -83,3 +83,5 @@ What keyword is used to define a new function?
 * `def`
 * `new`
 * `func`
+ 
+ 

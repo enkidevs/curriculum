@@ -94,3 +94,4 @@ What method is the first being called in the **component lifecycle**?
 * `shouldComponentUpdate`
 * `componentDidMount`
 
+ 

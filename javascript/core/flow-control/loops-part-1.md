@@ -20,6 +20,10 @@ tags:
 
   - introduction
 
+aspects:
+  - introduction
+
+
 ---
 
 # Loops - Part 1
@@ -107,3 +111,4 @@ Complete the following `for` loop such that it makes sense:
 * `while`
 * `do`
 * `i--`
+ 

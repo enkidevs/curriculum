@@ -11,6 +11,10 @@ levels:
 
 tags:
   - deep
+aspects:
+
+  - workout
+  - deep
 
 type: exercise
 
@@ -20,10 +24,10 @@ link: https://www.codewars.com/kata/simple-encryption-number-1-alternating-split
 
 standards:
 
-  py.standard-library-data.3: 2000
-  py.standard-library-data.5: 2000
-  py.standard-library-data.6: 3000
-  py.standard-library-data.8: 3000
+  python.standard-library-data.3: 2000
+  python.standard-library-data.5: 2000
+  python.standard-library-data.6: 3000
+  python.standard-library-data.8: 3000
 
 links:
 
@@ -41,10 +45,8 @@ Can you `Encrypt/Decrypt` data in python?
 
 Click *Launch Exercise* to open Codewars.
 
-On the website you will find a description of the exercise. Read this description carefully. 
+On the website you will find a description of the exercise. Read this description carefully.
 
-When you are ready to give it a try press the blue *Train* button and write your solution. 
+When you are ready to give it a try press the blue *Train* button and write your solution.
 
 To test your solution press the blue *Attempt* button.
-
-

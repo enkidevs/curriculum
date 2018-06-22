@@ -47,3 +47,4 @@ The above creates *newFolder* and cd into it.
 * fails
 * is not found
 
+ 

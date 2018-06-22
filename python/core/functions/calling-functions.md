@@ -13,7 +13,7 @@ inAlgoPool: false
 
 
 standards:
-  py.functions.1: 10
+  python.functions.1: 10
 
 
 ---
@@ -24,7 +24,7 @@ standards:
 ---
 ## Content
 
-To call a function in Python you simply write the functions name followed by some brackets `()`.
+To call a function in Python, you write the functions name followed by some brackets `()`.
 
 For example:
 
@@ -52,7 +52,7 @@ def func(x):
     ans = x * x
     print(ans)
 ```
-So to call this function, you must pass a parameter into your function call like follows:
+So to call this function, you must pass a parameter into your function call as follows:
 ```python
 num = 5
 func(num)
@@ -106,3 +106,4 @@ num = 5
 * `obj`
 * `var`
 * `function`
+ 

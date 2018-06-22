@@ -20,6 +20,11 @@ tags:
 links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){website}'
 
+aspects:
+  - workout
+  - deep
+
+
 ---
 # Tagged Template Literals
 
@@ -134,3 +139,4 @@ console.log(
 * this.processNumber(
 * String.template(processNumber
 * `))
+ 

@@ -10,8 +10,8 @@ type: normal
 category: must-know
 
 standards:
-  py.native-types-operations.10: 10
-  py.identify-python-syntax.2: 10
+  python.native-types-operations.10: 10
+  python.identify-python-syntax.2: 10
 
 links:
 
@@ -91,3 +91,5 @@ Which of the following is an alternative name for compile time errors?
 * `errors`
 * `syntax errors`
 * `parse errors`
+ 
+ 

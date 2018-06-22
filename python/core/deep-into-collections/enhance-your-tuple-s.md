@@ -61,7 +61,7 @@ notes: >+
   tuples.
 
 standards:
-  py.native-types-operations.6: 10
+  python.native-types-operations.6: 10
 
 
 ---
@@ -149,3 +149,5 @@ print(q)
 * `named_tuple`
 * `new_named_tuple`
 * `tuple_instance`
+ 
+ 

@@ -12,6 +12,10 @@ levels:
 tags:
   - introduction
   - workout
+aspects:
+  - introduction
+  - workout
+
 
 type: exercise
 
@@ -21,9 +25,9 @@ link: https://www.codewars.com/kata/two-to-one
 
 standards:
 
-  py.standard-library-data.3: 2000
-  py.standard-library-data.5: 2000
-  py.standard-library-data.6: 3000
+  python.standard-library-data.3: 2000
+  python.standard-library-data.5: 2000
+  python.standard-library-data.6: 3000
 
 links:
 

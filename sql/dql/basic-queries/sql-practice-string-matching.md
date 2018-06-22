@@ -26,6 +26,11 @@ links:
   - '[blog post tutorial on SELECT](http://www.dofactory.com/sql/select){website}'
   - '[video tutorial on MySQL SELECT](https://www.youtube.com/watch?v=BgK88mlgA6I){video}'
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # SQL Practice String Matching
@@ -36,4 +41,5 @@ links:
 In SQLFiddle, write a SQL query that finds all Pokemon with names that begin with a vowel.
 
 In the answer field, list the names in alphabetical order.
+ 
  

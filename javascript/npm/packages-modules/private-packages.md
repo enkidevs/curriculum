@@ -25,6 +25,12 @@ links:
 
 parent: packages-vs-modules
 
+aspects:
+  - workout
+  - deep
+  - new
+
+
 ---
 # Scoped packages
 
@@ -101,3 +107,4 @@ A scoped package's name is preceded by ???.
 * scope/
 * @/
 * nothing
+ 

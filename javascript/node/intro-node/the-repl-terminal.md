@@ -19,6 +19,10 @@ links:
 
 parent: installing-node-js
 
+aspects:
+  - introduction
+
+
 ---
 # The REPL Terminal
 
@@ -78,3 +82,4 @@ What does REPL stand for?
 * Read, Equal, Process, Loop
 * Reiterate, Else, Print, Loop
 
+ 

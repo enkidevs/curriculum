@@ -9,3 +9,4 @@ insights:
   - vertical-centering-with-margin-top
   - vertically-center-text
   - vertically-center-anything
+ 

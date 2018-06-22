@@ -10,7 +10,7 @@ type: normal
 category: must-know
 
 standards:
-  py.object-oriented.6: 10
+  python.object-oriented.6: 10
 
 ---
 
@@ -89,3 +89,5 @@ class Car:
 * instance attribute
 * class variable
 * instance variable
+ 
+ 

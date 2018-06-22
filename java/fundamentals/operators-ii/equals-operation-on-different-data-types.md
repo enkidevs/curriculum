@@ -64,3 +64,4 @@ boolean objectsEqual = (o1 == o2); // true
 
 The `o1 == o2` expression compares that the data that is pointed to by the variable `o1` is the same as `o2` and not that both objects are the string "Hello World!"
 
+ 

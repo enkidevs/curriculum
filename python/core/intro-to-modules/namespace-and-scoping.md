@@ -10,7 +10,7 @@ type: normal
 category: must-know
 
 standards:
-  py.functions.3: 10
+  python.functions.3: 10
 
 
 links:
@@ -122,3 +122,5 @@ print(a)
 * No
 * Yes
 * It can't be determined.
+ 
+ 

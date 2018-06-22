@@ -23,6 +23,12 @@ tags:
   - deep
   - new
 
+aspects:
+  - workout
+  - deep
+  - new
+
+
 ---
 # How npm3 handles dependencies
 
@@ -96,3 +102,4 @@ Flat installing dependencies of dependencies is a feature of ???.
 * npm3
 * npm2
 * npm1
+ 

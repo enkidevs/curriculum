@@ -8,7 +8,10 @@ levels:
   - basic
 
 tags:
+  - introduction
 
+
+aspects:
   - introduction
 
 type: exercise
@@ -38,3 +41,4 @@ links:
 ## Exercise
 
 Practice using JavaScript Arrays on Code Wars
+ 

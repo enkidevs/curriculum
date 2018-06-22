@@ -8,3 +8,4 @@ insights:
   - dependencies
   - deprecated-peer-dependencies
   - how-npm3-handles-dependencies
+ 

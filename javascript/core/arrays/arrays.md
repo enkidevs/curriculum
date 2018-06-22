@@ -19,7 +19,9 @@ standards:
   javascript.data-types-structures.5: 10
 
 tags:
+  - introduction
 
+aspects:
   - introduction
 
 ---
@@ -29,7 +31,7 @@ tags:
 ---
 ## Content
 
-Arrays are an important concept in JavaScript and used frequently.
+Arrays are an essential concept in JavaScript and used frequently.
 
 Declaring an array:
 ```
@@ -132,3 +134,5 @@ console.log(arr.length)
 * 4
 * 0
 * 1
+ 
+ 

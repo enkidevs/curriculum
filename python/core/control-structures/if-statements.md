@@ -1,6 +1,10 @@
 ---
 author: tommarshall
 
+tags:
+
+  - introduction
+
 levels:
 
   - beginner
@@ -12,9 +16,9 @@ category: must-know
 inAlgoPool: false
 
 standards:
-  py.identify-python-syntax.0: 10
-  py.native-types-operations.0: 10
-  py.control-structures.1: 10
+  python.identify-python-syntax.0: 10
+  python.native-types-operations.0: 10
+  python.control-structures.1: 10
 
 
 ---
@@ -24,12 +28,16 @@ standards:
 ---
 ## Content
 
-Python uses *booleans* to evaluate conditions. A boolean variable has two values, true and false, and one of these will be returned once a condition has been evaluated.
+Python uses *booleans* to evaluate conditions. A boolean variable has two values, true and false, and one of these values is after a condition has been evaluated.
 
-The `=` character can be combined with itself and other characters for a number of uses:
-- `=` is used for variable assignment
-- `==` is used for a boolean comparison
-- `!=` means is not equal to
+Using *comparison operators* is one way to create conditions in Python. Comparison operators include
+
+- `==`, meaning "is equal to"
+- `!=`, meaning "is not equal to"
+- `<` and `<=` meaning "is less than" and "is less than or equal to"
+- `>` and `>=` meaning "is greater than" and "is greater than or equal to"
+
+The single `=` is used for assigning values to variables, not for comparison.
 
 For example:
 
@@ -37,13 +45,13 @@ For example:
 # variable declaration and assignment
 num = 6
 
-# returns and prints true
+# returns and prints True
 print(num == 6)
 
-# returns and prints false
+# returns and prints False
 print(num < 4)
 
-# returns and prints true
+# returns and prints True
 print(num != 12)
 ```
 
@@ -54,7 +62,7 @@ if (condition):
     doSomething()
 ```
 
-An `if` statement is a conditional operator, where if a condition is true then a certain piece of code will run, and if it's not true then this code won't run.
+An `if` statement is a conditional operator. If the condition evaluated to true then the indented code below the `if` statement will run, and if it's not true then this code won't run.
 
 For example:
 
@@ -71,7 +79,7 @@ if (condition):
 else:
     doSomethingElse()
 ```
-The `else` part of the statement will run if the if condition evaluates to be false. For example:
+The code following the `else` part of the statement will run if condition evaluates to false. For example:
 
 ```python
 x = 3
@@ -97,7 +105,7 @@ else:
 
 * big
 * small
-* error
+* this syntax is invalid and will not run
 
 ---
 ## Revision

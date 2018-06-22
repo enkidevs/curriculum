@@ -22,6 +22,12 @@ tags:
   - workout
   - deep
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 # Declaring dependencies
 
@@ -89,3 +95,4 @@ $ ??? ??? ??? ???
 * --save-dev
 * --save
 * node
+ 

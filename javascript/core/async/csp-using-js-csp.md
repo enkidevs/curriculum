@@ -29,6 +29,9 @@ tags:
 
   - npm
 
+aspects:
+  - workout
+  - deep
 
 links:
 
@@ -90,3 +93,4 @@ var ch = ???.???();
 * `putAsync()`
 * `takeAsync()`
 
+ 
