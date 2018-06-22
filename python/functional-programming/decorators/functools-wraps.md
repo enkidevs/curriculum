@@ -44,6 +44,7 @@ say_hello
 This is, most of time, not helpful, even though it makes sense. However, `functools` module provides an useful *decorator*, `wraps`, that acts as a middleware between the two functions and which transfers the metadata. Considering the same `say_hello` function:
 ```python
 from functools import wraps
+
 def h2_decorate(string_function):	
   @wraps(string_function)	
   def func_wrapper(name):	
