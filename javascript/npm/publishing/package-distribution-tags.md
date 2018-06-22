@@ -23,6 +23,10 @@ standards:
 tags:
   - workout
 
+aspects:
+  - workout
+
+
 ---
 # Package distribution tags
 
@@ -87,3 +91,4 @@ $ npm ??? ??? [<pkg>]
 * --tag
 * add
 * tags
+ 

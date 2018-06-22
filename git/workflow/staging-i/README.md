@@ -8,3 +8,4 @@ insights:
   - interactively-stage-patches
   - interactively-unstage-changes
   - use-short-status-to-make-output-more-compact
+ 

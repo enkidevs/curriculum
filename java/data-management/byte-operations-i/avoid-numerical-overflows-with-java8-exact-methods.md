@@ -23,7 +23,7 @@ notes: 'https://insights.enki.com/#/contrib/others/55f03d0d1baba32f002fd319?sear
 ---
 ## Content
 
-In order to avoid *numerical overflows* or *underflows* (that is assigning a value to a variable whose type size does not allow it) a certain set of methods have been added with **Java 8**.
+To avoid *numerical overflows* or *underflows* (that is assigning a value to a variable whose type size does not allow it), a specific set of methods have been added with **Java 8**.
 
 
 The `Math` class has been enhanced with the release of **Java 8**, adding a new set of `exact` methods.
@@ -78,3 +78,4 @@ What method can be used from the `Math` class such that numerical overflows and 
 * `add` 
 * `exactAdd`
 
+ 

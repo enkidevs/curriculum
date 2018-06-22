@@ -12,3 +12,4 @@ insights:
   - formmethod
   - formnovalidate-and-novalidate
   - formtarget
+ 

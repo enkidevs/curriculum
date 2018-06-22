@@ -34,7 +34,7 @@ Additionally, to grasp the workflow of **Git**, you must be able to differentiat
 - `untracked` : Git doesn't know about the file's existence and can't be included in a commit.
 - `tracked` : Git will take this file into account when calculating what to be committed.
 
-Another important aspect of **Git** is that almost all of its operations are local, with all information such as history being an integral part of the repository. This boosts the speed of many operations and makes working with **Git** easier than with some other VCSs - since a connection to the Internet is not always necessary.
+Another critical aspect of **Git** is that almost all of its operations are local, with all information such as history being an integral part of the repository. This boosts the speed of many operations and makes working with **Git** easier than with some other VCSs - since a connection to the Internet is not always necessary.
 
 ---
 ## Practice
@@ -60,3 +60,4 @@ How does **Git** think of data?
 * as snapshots
 * as a set of files and changes made to them over time
 
+ 

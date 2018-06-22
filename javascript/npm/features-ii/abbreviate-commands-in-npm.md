@@ -17,6 +17,10 @@ standards:
 tags:
   - obscura
 
+aspects:
+  - obscura
+
+
 ---
 # Abbreviate commands in npm
 
@@ -72,3 +76,4 @@ What's the equivalent abbreviated command of `npm link`?
 * npm l
 * npm k
 * npm n
+ 

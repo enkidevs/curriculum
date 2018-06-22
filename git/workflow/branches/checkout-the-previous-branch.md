@@ -50,3 +50,4 @@ $ git checkout -
 * Deletes the current branch.
 * Deletes the last branch.
 
+ 

@@ -20,16 +20,14 @@ standards:
   javascript.functions.4: 10
 
 tags:
-
   - introduction
-
   - workout
-
   - functional-programming
-
   - arrays
 
-
+aspects:
+  - introduction
+  - workout
 
 
 ---
@@ -95,3 +93,5 @@ var div3 = numbers.???( num =>
 * for and if
 * if
 * for and alert
+ 
+ 

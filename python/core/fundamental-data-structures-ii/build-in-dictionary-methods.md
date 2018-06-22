@@ -7,6 +7,10 @@ levels:
 
 type: normal
 
+aspects:
+  - introduction
+  - workout
+
 category: feature
 
 standards:
@@ -159,5 +163,4 @@ What will the output look like?
 ## Footnotes
 [1:shallow copy]
 If we have two objects: `A` and `B`. We say `B` is a shallow copy of `A` if they point to the same location in memory.
->>>>>>> master
- 
+

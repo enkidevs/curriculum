@@ -61,7 +61,7 @@ Another example, where a more complicated pattern is used to force the user to m
   <input
    type="password" name="pw"
     pattern="(?=.*\d)(?=.*[a-z])
-      (?=.*[A-Z]).{8,}"
+      (?=.*[A-Z]).{8,20}"
     title="The password must contain
      one lowercase and uppercase letters,
      one number,
@@ -87,11 +87,11 @@ Mark the string that would NOT pass this pattern:
 
 ???
 
-* http://enki.com
-* enkiCode
-* Colorado
-* 12Num34
-* 8675309
+* `http://enki.com`
+* `enkiCode`
+* `Colorado`
+* `12Num34`
+* `8675309`
 
 
 ---

@@ -27,3 +27,4 @@ links:
 ## Exercise
 
 Explore JavaScript `call` and `apply` statements
+ 

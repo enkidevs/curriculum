@@ -20,7 +20,7 @@ aspects:
 
 links:
   - '[MDN docs for image buttons](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/image){website}'
-  -
+  - '[MDN docs for Replaced Element](https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element){website}'
 
 ---
 # Image Button
@@ -39,7 +39,10 @@ Example:
 
 **Note: The input type `image` element doesn't accept `value` attributes. You must specify a path to the image with the `src` attribute.**
 
-This element is a replaced element,'[MDN docs for Replaced Element](https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element)', which means an element whose content isn't directly managed by CSS layer. Also, this element works just like the `<img>` element, however, it has the capabilities of the submit button.
+This element is a replaced element,which means an element whose content isn't directly managed by CSS layer. Also, this element works just like the `<img>` element, however, it has the capabilities of the submit button.
+
+If you want to know more about replaced elements, visit the `more info` section at the bottom of this insight.
+
 
 Image button attributes:
 - src

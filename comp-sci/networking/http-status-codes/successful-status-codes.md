@@ -72,3 +72,4 @@ What is the format of status codes indicating the **success** of a request?
 Applications that are acting on behalf of the user. One category of user agents includes web browsers.
 
 A user agent sends information to the server about the web browser, operating system and device (whether the desktop or mobile version of the website should be fetched).
+ 

@@ -25,6 +25,12 @@ tags:
 
 parent: no-block-scope
 
+aspects:
+  - workout
+  - deep
+  - obscura
+
+
 ---
 
 # `catch` is block scoped
@@ -64,3 +70,4 @@ Even though Javascript is function scoped, the variable in ??? is block scoped.
 * the try clause
 * a for loop
 
+ 

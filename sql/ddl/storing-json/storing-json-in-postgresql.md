@@ -22,6 +22,12 @@ tags:
 
   - deep
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 
 # Storing JSON in PostgreSQL
@@ -104,4 +110,5 @@ PostgreSQL's operator for JSON parsing is
 * `@`
 * `JSON_VALUE`
 
+ 
  

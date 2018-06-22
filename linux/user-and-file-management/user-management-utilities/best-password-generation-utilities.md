@@ -22,6 +22,10 @@ tags:
 
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Best password generation utilities
@@ -66,3 +70,4 @@ Out of the following, the tool that is *not* helpful if you want to generate pas
 * `pwgen`
 * `makepasswd`
 
+ 

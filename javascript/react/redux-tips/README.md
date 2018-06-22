@@ -7,3 +7,4 @@ insights:
   - avoid-array-mutations
   - avoid-object-mutations
   - combine-reducers-in-redux
+ 

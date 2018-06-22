@@ -22,7 +22,6 @@ aspects:
 links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks){documentation}'
 
-
 ---
 
 # Anchor Tags
@@ -52,24 +51,25 @@ The default placeholder for the `href` attribute is `#`. In this case, after cli
 
 Complete the following snippet in order for it to be valid:
 ```html
-<??? ???="www.mywebsite.com">
+<tag ???="www.mywebsite.com">
   My website
-</a>
+</tag>
 ```
+tag = ???
 
-* `a`
 * `href`
+* `a`
 * `style`
 * `p`
 * `link`
+
 
 ---
 ## Revision
 
 The tag denoting a hyperlink is ???.
 
-
-* <a>
-* <p>
-* <body>
-* <div>
+* `<a>`
+* `<p>`
+* `<body>`
+* `<div>`

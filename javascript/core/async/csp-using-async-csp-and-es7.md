@@ -29,6 +29,10 @@ tags:
 
   - npm
 
+aspects:
+  - workout
+  - deep
+
 
 links:
 
@@ -83,3 +87,6 @@ What does a **CSP Channel** use to handle the flow of data?
 * `take()`
 * nothing
 
+ 
+ 
+ 

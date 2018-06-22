@@ -68,3 +68,4 @@ Which one of the following improves **React**'s performance the most?
 [2:UWP]
 
 **Universal Windows Platform** (UWP), is a platform-homogeneous application architecture created by *Microsoft* intended to help the development of universal applications that can run on multiple types of devices (*PC* and *Mobile*).
+ 

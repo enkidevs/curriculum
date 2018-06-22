@@ -28,6 +28,12 @@ links:
   - '[a reference on default values](https://www.w3schools.com/sql/sql_default.asp)'
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=5KqFoTswr-M){video}'
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 
 # SQL Practice Aggregate Average
@@ -44,4 +50,5 @@ In order to do this properly, you will need to satisfy the following conditions:
 - *The `daily_price` field should default to `0`*
 
 After that is done, the seed script should run properly.
+ 
  

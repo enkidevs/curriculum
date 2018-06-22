@@ -84,3 +84,4 @@ Part of ` imagemagick` suit of tools.
 Resizing both width and height requires 250x250, while resizing the width requires only 250.
 [3:Range]
 The strength range depends on the effect type.
+ 

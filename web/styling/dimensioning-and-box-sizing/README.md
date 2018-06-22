@@ -8,3 +8,4 @@ insights:
   - vertical-percentages-are-relative-to-container-width-not-height
   - use-box-sizing-to-define-an-element-s-width-and-height-properties
   - inherit-box-sizing
+ 

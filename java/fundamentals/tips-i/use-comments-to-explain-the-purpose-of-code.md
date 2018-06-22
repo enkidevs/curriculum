@@ -43,10 +43,11 @@ public BigDecimal addTax(BigDecimal cost) {
   return costWithTax;
 }
 ```
-This comment is not very helpful. The method is fairly simple and any programmer should be able to see *what* is happening; what we are more interested in is *why*.
+This comment is not very helpful. The method is fairly simple, and any programmer should be able to see *what* is happening; what we are more interested in is *why*.
 
 ```
 /*Adds a 20% VAT tax to the product's cost*/
 ```
 This comment is better because it explains the purpose of the method; *why* we are adding 20% to `cost`.
 
+ 

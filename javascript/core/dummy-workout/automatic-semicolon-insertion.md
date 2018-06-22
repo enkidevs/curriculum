@@ -14,6 +14,10 @@ stub: true
 tags:
   - introduction
 
+aspects:
+  - introduction
+
+
 ---
 # Automatic Semicolon Insertion
 
@@ -38,3 +42,4 @@ console.log(pi())
 * {pi: 3.14}
 * SyntaxError
 * {'pi': 3.14}
+ 

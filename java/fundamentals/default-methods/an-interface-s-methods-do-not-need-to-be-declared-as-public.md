@@ -36,5 +36,6 @@ It is not necessary to declare an interface's methods as `public`. This is becau
 
 As its name suggests, an interface defines a class' public interface; that is the set of methods which external callers can call to interact with that class or its instances.
 
-`private` methods, by definition, are not part of a class' interface because they cannot be accessed by external callers. Therefore there would be no purpose in defining `private` methods within an interface.
+`private` methods, by definition, are not part of a class' interface because external callers cannot access them. Therefore there would be no purpose in defining `private` methods within an interface.
 
+ 

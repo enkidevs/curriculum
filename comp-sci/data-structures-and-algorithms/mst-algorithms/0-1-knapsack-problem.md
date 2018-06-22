@@ -97,3 +97,4 @@ One such example could be calculating the Fibonacci sequence using an array: ini
 
 [2: Variables]
 Where `i`, `wi` and `v` are the current item's index, weight and value, `w` is the current partial weight, and `W` is the maximum allowed weight.
+ 

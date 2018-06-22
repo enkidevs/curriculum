@@ -39,3 +39,4 @@ int i = Integer.valueOf(string).intValue();
 ```
 This can also be used for `Double`, `Float`, `Long` and `Short`.
 
+ 

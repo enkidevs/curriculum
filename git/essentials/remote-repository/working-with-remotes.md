@@ -32,9 +32,9 @@ You can see the remote repositories with your project by calling `git remote`:
 $ git remote
 # origin
 ```
-Keep in mind that `origin` is the default name **Git** gives to the server you clone from.
+Keep in mind that `origin` is the default name **Git** gives to the server you cloned from.
 
-Using the `-v` flag you can also see the `URL`s associated with the remotes[1]:
+Using the `-v` flag, you can also see the `URL`s associated with the remotes[1]:
 ```
 $ git remote -v
 # origin https://github.com/user/rep (fetch)
@@ -90,3 +90,4 @@ Using the `-v` flag will show the `URL`s used when both reading (merge or fetch)
 
 - `fetch`: reading
 - `push`: writing
+ 

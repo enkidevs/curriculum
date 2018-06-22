@@ -8,3 +8,4 @@ insights:
   - double-and-single-quotes
   - infix-operators-are-left-associative
   - strict-mode
+ 

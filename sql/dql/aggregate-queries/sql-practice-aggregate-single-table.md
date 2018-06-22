@@ -28,6 +28,12 @@ links:
   - '[blog post on MySQL aggregate functions](https://www.guru99.com/aggregate-functions.html){website}'
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=sgAvl7ry5jY){video}'
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 
 # Aggregate Single Table
@@ -38,4 +44,5 @@ links:
 In SQLFiddle, write a SQL query that answers the following question:
 
 What is the sum of `base_experience` for all Pokemon with `height` greater than or equal to 15 units?
+ 
  

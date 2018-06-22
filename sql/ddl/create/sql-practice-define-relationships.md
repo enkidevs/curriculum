@@ -25,6 +25,12 @@ links:
   - '[explainer on foreign keys](https://www.w3schools.com/sql/sql_foreignkey.asp){website}'
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=GU_zYgXXOzE){video}'
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 
 # SQL Practice Define Relationships
@@ -37,4 +43,5 @@ Add Foreign Key constraints to the `user_items` and `requests` tables where appr
 
 
 **Hint:** According to SQL naming convention, if a column has `id` as _part_ of its name, it communicates to other developers that is a foreign key.
+ 
  

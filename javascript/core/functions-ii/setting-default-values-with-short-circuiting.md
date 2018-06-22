@@ -29,6 +29,11 @@ links:
   - '[javascriptissexy.com](http://javascriptissexy.com/12-simple-yet-powerful-javascript-tips/){website}'
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # Setting default values with `short circuiting`
@@ -85,3 +90,4 @@ function shortCir(name){
 * ||
 * &&
 * ==
+ 

@@ -8,3 +8,4 @@ insights:
   - filereader-readastext
   - filereader-readasarraybuffer
   - window-localstorage
+ 

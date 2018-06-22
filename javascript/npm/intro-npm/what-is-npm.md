@@ -18,6 +18,11 @@ tags:
 links:
   - '[docs.npmjs.com](https://docs.npmjs.com/getting-started/what-is-npm){website}'
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # What is npm?
 
@@ -58,3 +63,4 @@ The aim of a package is to
 * node package manager
 * new package manager
 * node packet manager
+ 

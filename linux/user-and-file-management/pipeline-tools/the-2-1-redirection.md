@@ -36,6 +36,10 @@ links:
 
 notes: ''
 
+aspects:
+  - workout
+
+
 ---
 
 # The `2>&1` redirection
@@ -111,3 +115,4 @@ Which of the following commands will suppress both stdout and stderr?
 * ./script.sh > /dev/null 1>&0
 * ./script.sh 2>&1 > /dev/null
 * ./script.sh 2>&0 > /dev/null
+ 

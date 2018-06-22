@@ -97,3 +97,4 @@ Pronounced Big-Oh.
 The number of nodes depends on the type of LinkedList used and on how many references each node holds.
 
 For example, in a *SinglyLinkedList* you have to change 2 references, in a *DoublyLinkedList* you have to change 4 references, but, in the end, it **does not** depend on *the total number of nodes* in the list.
+ 

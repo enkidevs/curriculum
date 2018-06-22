@@ -30,3 +30,4 @@ links:
 ## Exercise
 
 Practice using the JavaScript String methods `charAt()`, `charCodeAt()` and `fromCharCode()`
+ 

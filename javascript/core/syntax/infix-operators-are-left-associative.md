@@ -40,6 +40,11 @@ links:
   - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence){website}'
 
 
+aspects:
+  - introduction
+  - obscura
+
+
 ---
 
 # Infix operators are left-associative
@@ -95,3 +100,4 @@ The processing of operations starts with ??? operator if no brackets are used.
 * right-most
 * middle
 
+ 

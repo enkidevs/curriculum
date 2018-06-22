@@ -22,13 +22,17 @@ links:
 
 notes: 'Same issue, not sure if it''s not really really basic.'
 
+aspects:
+  - introduction
+
+
 ---
 # Keywords in hash keys
 
 ---
 ## Content
 
-Object properties can either be presented as strings or plain characters.
+Object properties can either be presented as strings or ugly characters.
 
 ```javascript
 var testObject = {
@@ -37,7 +41,7 @@ var testObject = {
 }
 ```
 
-However, it is considered bad practice to leave special keywords such as `delete` unquoted as it may confuse readers and syntax highlighter.
+However, it is considered bad practice to leave unique keywords such as `delete` unquoted as it may confuse readers and syntax highlighter.
 
 Instead, you can use quotes:
 
@@ -86,3 +90,4 @@ var dog = {
 * name
 * 'typeof'
 * typeof:
+ 

@@ -25,6 +25,12 @@ links:
   - '[explainer on foreign keys](https://www.w3schools.com/sql/sql_foreignkey.asp){website}'
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=GU_zYgXXOzE){video}'
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 # SQL Practice Define Relationships
 
@@ -32,4 +38,5 @@ links:
 ## Exercise
 
 Create a foreign key reference to relate the `users` table to itself. Ensure that the `manager` column only contains references to the `id` field within `users`.
+ 
  

@@ -20,6 +20,10 @@ tags:
 
 
 
+aspects:
+  - workout
+
+
 ---
 
 # `usermod` recipes
@@ -106,3 +110,4 @@ $ ??? ??? /newHome user
 * `--move-home`
 * `chmod`
 
+ 

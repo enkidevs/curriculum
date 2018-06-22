@@ -8,3 +8,4 @@ insights:
   - facade-pattern
   - don-t-repeat-yourself-dry-principle
   - hashing
+ 

@@ -8,3 +8,4 @@ insights:
   - constant-notation
   - ternary-operator
   - use-meaningful-names
+ 

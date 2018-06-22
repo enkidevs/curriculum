@@ -23,6 +23,11 @@ links:
 
 parent: listening-to-events-just-once
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # Synchronous event delivery
 
@@ -73,3 +78,4 @@ How is the delivery of events treated in Node?
 * asynchronously
 * instantly
 * random
+ 

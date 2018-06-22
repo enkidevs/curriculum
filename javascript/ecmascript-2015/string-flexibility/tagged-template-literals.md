@@ -31,6 +31,12 @@ links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){website}'
 
 
+aspects:
+  - new
+  - workout
+  - introduction
+
+
 ---
 
 # Template Strings
@@ -129,3 +135,4 @@ let line = `Stay ??? Stay ???`;
 * `$(attr2)`
 * `#(attr2)`
 
+ 

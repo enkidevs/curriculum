@@ -29,6 +29,10 @@ links:
   - '[lukas.zapletalovi.com](https://lukas.zapletalovi.com/2013/03/never-lost-your-bash-history-again.html){website}'
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Keep useful commands in your shell history with tags
@@ -63,3 +67,4 @@ To reverse search for a tagged command you have to press ???.
 * ctrl+h
 * ctrl+c
 
+ 

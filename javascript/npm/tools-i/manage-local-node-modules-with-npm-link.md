@@ -22,6 +22,11 @@ links:
 
 parent: check-data-about-a-package
 
+aspects:
+  - workout
+  - introduction
+
+
 ---
 # Manage local node modules with `npm link`
 
@@ -94,3 +99,4 @@ $ npm ???
 * --local:myLibrary
 * --use-local=myLibrary
 * --local=myLibrary
+ 

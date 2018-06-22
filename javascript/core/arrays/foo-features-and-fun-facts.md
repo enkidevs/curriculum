@@ -162,3 +162,4 @@ console.log(myArr);
 %exp
 Setting the length of an array to anything lower than its current length truncates it. When we set the length to 0, this effectively erases all its contents. Therefore, when we push `'bin'` on to the array, it is the sole element in it and the result is `['bin']`.
 %
+ 

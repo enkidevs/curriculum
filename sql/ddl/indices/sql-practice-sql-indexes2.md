@@ -30,6 +30,12 @@ links:
   - '[blog post on MySQL define tables](https://atech.blog/viaduct/mysql-indexes-primer){website}'
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=JjNef3tPltU){video}'
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 
 # SQL Practice Define Indexes
@@ -44,4 +50,5 @@ In order to check your results:
 - build the schema,
 - run the provided query,
 - and provide the `Index_type` displayed in the result in the answer field.
+ 
  

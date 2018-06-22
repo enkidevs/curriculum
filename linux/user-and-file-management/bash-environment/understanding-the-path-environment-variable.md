@@ -20,6 +20,10 @@ tags:
 
 
 
+aspects:
+  - introduction
+
+
 ---
 
 # Understanding The `PATH` Environment Variable
@@ -113,3 +117,4 @@ for an executable if no match was found in `/bin`?
 * none, as /bin is already the last one
 * ~/atom
 * ~/Desktop/rm-ext
+ 

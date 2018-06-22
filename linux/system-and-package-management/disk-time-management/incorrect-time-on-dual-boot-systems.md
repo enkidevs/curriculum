@@ -77,3 +77,4 @@ Most of the Unix/Linux operating systems use ??? as the basis for local time.
 ## Footnotes
 [1:UTC]
 Coordinated Universal Time, ranging from UTC-12 to UTC+12.
+ 

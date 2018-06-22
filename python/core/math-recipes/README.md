@@ -9,6 +9,6 @@ insights:
   - working-with-decimals
   - math-for-complex-numbers
 
-
 exercises:
+  - py-practice-math-modules
   - py-practice-encryption

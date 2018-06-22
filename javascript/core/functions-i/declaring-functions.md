@@ -21,6 +21,10 @@ tags:
 
   - introduction
 
+aspects:
+  - introduction
+
+
 ---
 
 # Declaring Functions
@@ -28,7 +32,7 @@ tags:
 ---
 ## Content
 
-JavaScript supports a number of different ways of declaring functions.
+JavaScript supports many different ways of declaring functions.
 
 The most common is the *function declaration*:
 
@@ -43,9 +47,9 @@ add(1,2);//3
 
 **Return Values**
 
-In the above example we specified that we would return the function argument x plus argument y.
+In the above example, we specified that we would return the function argument x plus argument y.
 
-If we did not specify a return value in the above example then the function would return *undefined* e.g.
+If we did not specify a return value in the above example, then the function would return *undefined* e.g.
 
 ```
 function add(x, y){
@@ -93,3 +97,4 @@ console.log(add(2,3));
 * `5`
 * `false`
 * `error`
+ 

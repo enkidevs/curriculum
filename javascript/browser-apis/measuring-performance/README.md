@@ -8,3 +8,4 @@ insights:
   - navigation-timing-api
   - user-timing-api
   - progress-event
+ 

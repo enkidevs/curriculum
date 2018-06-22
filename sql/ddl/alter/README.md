@@ -16,3 +16,5 @@ exercises:
   - sql-practice-define-default-seq-2
   - sql-practice-define-default-seq-3
   - sql-practice-define-default-seq-4
+ 
+ 

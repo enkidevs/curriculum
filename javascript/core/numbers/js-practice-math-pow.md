@@ -30,3 +30,4 @@ links:
 ## Exercise
 
 Practice using the JavaScript Math methods `pow()`, `sqrt()` and `cbrt()`
+ 

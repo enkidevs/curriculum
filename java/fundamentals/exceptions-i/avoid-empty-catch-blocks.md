@@ -36,3 +36,4 @@ Even if the caught exception is not one that the program can recover from, some 
 
 If no catch block is supplied within the method where the exception occurs, then the exception can be passed up the call stack where it can be handled elsewhere. This is sometimes more appropriate than handling the exception within the same method, and certainly better than catching the exception and doing nothing with it.
 
+ 

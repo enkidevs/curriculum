@@ -24,6 +24,10 @@ links:
   - '[blog post tutorial on SELECT](http://www.dofactory.com/sql/select){website}'
   - '[video tutorial on MySQL SELECT](https://www.youtube.com/watch?v=BgK88mlgA6I){video}'
 
+aspects:
+  - introduction
+
+
 ---
 
 # SQL Practice Select
@@ -36,4 +40,5 @@ Write a query that retrieves all columns from the `move_name` table where the mo
 In the answer field, enter all the values from the top row of the results.
 
 Example: `222, 11, 300,	Fake Move`
+ 
  
