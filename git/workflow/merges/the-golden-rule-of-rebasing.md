@@ -33,9 +33,9 @@ If someone does rebase shared commits, you can run:
 ```
 $ git pull --rebase
 ```
-so git will attempt to work out a simple history.
+so git will attempt to work out a straightfoward history.
 
----
+--- 
 ## Practice
 
 How would you make git to recreate a history of commits if someone rebased shared commits?

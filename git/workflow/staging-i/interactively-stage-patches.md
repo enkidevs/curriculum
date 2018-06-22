@@ -34,7 +34,7 @@ Once you have selected a file, git will display hunks of the file diff and then 
 ```
 Stage this hunk [y,n,a,d,/,j,J,g,e,?]? >
 ```
-You can then choose yes `y`, no `n` or other options such as skipping a hunk.
+You can then choose yes `y`, no `n` or other options such as skipping.
 
 ---
 ## Revision

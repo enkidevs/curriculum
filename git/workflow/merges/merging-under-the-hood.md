@@ -22,7 +22,7 @@ links:
 ---
 ## Content
 
-Using the `git merge`, you can combine different development streams (branches).
+Using the `git merge`,you can combine different development streams (branches).
 
 Even though the operation is mostly automated, **Git** has several ways of handling the merge internally:
 
@@ -40,7 +40,7 @@ This option is used to preserve historical information when merging.
 
 ### 3. Three-way merge
 
-Three-way merging is used when fast-forwarding is not applicable - when they diverge by too much. **Git** will combine the two histories of the merging branches into a new *snapshot* and then point to that new commit.
+Three-way merging is used when fast-forwarding is not applicable - when they diverge by too much. **Git** will combine the two histories of the merging branches into a new *snapshot*, and then point to that new commit.
 
 When both branches modify the same part of the same file, conflicts are explicitly revealed.
 

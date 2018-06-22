@@ -46,7 +46,7 @@ console.log(`Hello ${company}!`);
 //prints: "Hello Enki!"
 ```
 
-Template literals are denoted by the O&#769; character, rather than `''` or `""`. When you use template strings, you can have multiline strings:
+Template literals are denoted by the O&#769; character, rather than `''` or `""`. When you use template strings you can have multiline strings:
 
 ```
 

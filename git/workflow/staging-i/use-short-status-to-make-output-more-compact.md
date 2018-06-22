@@ -36,7 +36,7 @@ M   LICENSE
 A   CONTRIBUTING
 ??  emoji.png
 ```
-`M` means that the file has been modified. If the `M` letter is in the right hand column it has not been staged, if it is in the left hand column it has been.
+`M` means that the file has been modified. If the `M` letter is in the right hand column, it has not been staged, if it is in the left hand column it has been.
 
 `??` means that a new file has been created and is not yet tracked.
 

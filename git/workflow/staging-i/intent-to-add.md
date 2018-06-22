@@ -24,7 +24,7 @@ links:
 
 You can use the `-N` flag to show that you are going to track a file in the future:
 ```
-$ git add -N file.txt
+$ git add -N file.txt 
 ```
 Once git knows you are intending to add the untracked file, you can use commands like `git diff` on the file without any problems, as well as commit it using `git commit -a`.
 

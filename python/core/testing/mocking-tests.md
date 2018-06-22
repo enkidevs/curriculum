@@ -29,7 +29,7 @@ links:
 
 **Mocking** is primarily used with **unit testing**. Sometimes, when performing **unittests** on an object, it might have **dependencies** on other complex objects. To isolate the **behavior** of the object you want to **test** you replace the other objects with **mocks** that simulate the behavior of the real objects.
 
-Basically,mocking is creating **mock objects** that simulate the behavior of **real objects**.
+Basically, mocking is creating **mock objects** that simulate the behavior of **real objects**.
 
 Benefits of **mocking**:
 - Increased speed - E.g. if you have a very **resource intensive function**, a mock of that function would cut down on unnecessary resource usage during testing, therefore reducing test *run time*.

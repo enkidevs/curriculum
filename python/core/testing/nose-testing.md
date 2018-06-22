@@ -72,7 +72,7 @@ Ran 2 tests in 0.001s
 FAILED (failures=1)
 ```
 
-As you can see **nose**'s output is similar to the one produced by **unittests**. There are two main parts. The one above the equal signs, which gives detailed information on how each test was evaluated.
+As you can see **nose**'s output is similar to the one produced by **unittests**. There are two main parts. The one above the equal signs which gives detailed information on how each test was evaluated.
 
 The one below the equal signs which states the number of test that ran and a final label which can mean:
 - `OK` test passes;
