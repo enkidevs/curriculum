@@ -35,7 +35,8 @@ links:
 
 A problem specific to distributed systems is the **Byzantine Generals Problem**. The problem states that a reliable computer system must handle malfunctioning components that give conflicting information to different parts of the system.
 
-The military equivalent is the case of a group of Byzantine generals and their divisions camped around a city. They can only communicate by messengers to come up and agree on a battle plan. To save the city, insurgents infiltrate the army and try to confuse the generals by posing as messengers. Moreover, some of the generals themselves may be traitors. In case the messages are oral (easily forged), the problem has been proven solvable if and only if *more* than two-thirds of the generals are loyal (1 general can confound 2 others). If the messages are unforgeable, the problem is solve for any number of generals.
+The problem is presented as follows:  
+A group of Byzantine generals and their divisions camped around a city. They can only communicate by messengers to come up and agree on a battle plan. To save the city, insurgents infiltrate the army and try to confuse the generals by posing as messengers. Moreover, some of the generals themselves may be traitors. In case the messages are oral (easily forged), the problem has been proven solvable if and only if *more* than two-thirds of the generals are loyal (1 general can confound 2 others). If the messages are unforgeable, the problem is solve for any number of generals.
 
 **Byzantine fault tolerance** characterizes a system that tolerates the class of failures that may occur in the context of BGP. The members of this class are considered to be the most severe and difficult to deal with. All consensus algorithms mentioned previously are solutions to this problem.
 
