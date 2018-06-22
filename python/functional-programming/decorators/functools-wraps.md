@@ -25,8 +25,8 @@ For example, for the code below:
 ```python
 def h2_decorate(string_function):
   def func_wrapper(name):
-    return "<h2>{0}</h2>"
-      .format(string_function(name))
+    return "<h2>{0}</h2>" \
+    .format(string_function(name))
   return func_wrapper
 
 @h2_decorate
@@ -51,11 +51,34 @@ def h2_decorate(string_function):
     return "<h2>{0}</h2>"
       .format(string_function(name))
   return func_wrapper
+
 print(say_hello.__name__)
 print(say_hello.__doc__)
 # say_hello
 # docstring
 ```
+
+---
+## Practice
+
+
+Fill in the following snippet such that the following generator will print consecutive numbers:
+
+```python 
+
+def my_generator(n):
+  print('First print:')
+  ???
+  ???
+  print('Second print:')
+  yield n
+```
+
+* yield n
+* n = n+1
+* n++
+* ++n
+* yield my_generator
 
 ---
 ## Revision

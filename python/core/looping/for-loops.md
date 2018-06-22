@@ -29,7 +29,7 @@ links:
 
 `for` loops are used in most programming languages to iterate over a defined sequence.
 
-The standard Python for loop syntax is:
+The standard Python `for` loop syntax is:
 ```python
 for iterating_num in sequence:
     doSomething() 
