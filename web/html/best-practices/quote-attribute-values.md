@@ -25,8 +25,12 @@ Since HTML5, using quotes around attributes is optional.
 
 Example:
 ```
-<a href="#" class="btn">Click Me</a>
-<a href=# class=btn>Click Me</a>
+<a href="#" class="btn">
+  Click Me
+</a>
+<a href=# class=btn>
+  Click Me
+</a>
 ```
 Both produce same result:
 
@@ -47,8 +51,12 @@ There are times when putting quotations is necessary, like when an attribute con
 
 Example:
 ```
-<a href="#" class="btn large">Click Me</a>
-<a href=# class=btn large>Click Me</a>
+<a href="#" class="btn large">
+  Click Me
+</a>
+<a href=# class=btn large>
+  Click Me
+</a>
 ```
 Result:
 
@@ -65,8 +73,12 @@ It also doesn't matter which quotations you use:
 
 Example:
 ```
-<a href="#" class="btn">Click Me</a>
-<a href='#' class='btn'>Click Me</a>
+<a href="#" class="btn">
+  Click Me
+</a>
+<a href='#' class='btn'>
+  Click Me
+</a>
 ```
 In the example above, both lines produce the same output. However, it is good practice to use the same quotations every time for consistency, especially when working with others on a team.
 
