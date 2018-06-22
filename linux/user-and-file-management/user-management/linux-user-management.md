@@ -38,6 +38,10 @@ tags:
 
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Other User Management Recipes
@@ -111,3 +115,4 @@ The two equivalent commands for adding a new user are
 * `useradd / usermod -n`
 * `chsh / usermod -a`
 
+ 

@@ -21,6 +21,10 @@ tags:
 
   - introduction
 
+aspects:
+  - introduction
+
+
 ---
 
 # The difference between null, undefined and NaN
@@ -81,3 +85,4 @@ console.log(x);
 * `NaN`
 * `undefined`
 * `null`
+ 

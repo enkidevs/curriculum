@@ -31,6 +31,12 @@ links:
   - '[video tutorial on creating indexes](https://youtu.be/19eLh1ZdoLY?t=56s){video}'
   - '[video tutorial on the differences between clustered and non-clustered index](https://www.youtube.com/watch?v=ITcOiLSfVJQ){video}'
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 
 # SQL Practice Define Indexes
@@ -44,4 +50,5 @@ Add an index to the `facebook_id` column.
 Run the query before you create an index, and click "View Execution Plan", then run the query after you create the index, and *click "View Execution Plan"*.
 
 Check the `possible_keys` column - what is the value that appears there?
+ 
  

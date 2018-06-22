@@ -19,9 +19,11 @@ standards:
   sql.write.0: 10
 
 tags:
-
   - introduction
+  - workout
 
+aspects:
+  - introduction
   - workout
 
 parent: union
@@ -129,4 +131,8 @@ VALUES (value1, 'value2', value3);
 * `B`
 * `A`
 * `C`
+ 
+ 
+ 
+ 
  

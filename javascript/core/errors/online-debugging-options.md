@@ -18,6 +18,11 @@ links:
   - '[jsbin.com](https://jsbin.com/){website}'
   - '[JavaScript Visualizer](http://www.pythontutor.com/javascript.html#mode=edit){website}'
 
+aspects:
+  - introduction
+  - obscura
+
+
 ---
 # Online Debugging Options
 
@@ -65,3 +70,4 @@ Do online JavaScript environments allow the use of external libraries?
 * no
 * only React and Angluar
 * only jQuery
+ 

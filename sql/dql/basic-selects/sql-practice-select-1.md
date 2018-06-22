@@ -23,6 +23,10 @@ links:
   - '[blog post tutorial on SELECT](https://community.modeanalytics.com/sql/tutorial/sql-select-statement/){website}'
   - '[video tutorial on MySQL SELECT](https://youtu.be/JA_92A65pTg?t=16s){video}'
 
+aspects:
+  - introduction
+
+
 ---
 
 # SQL Practice Select
@@ -35,4 +39,5 @@ Change the query (in the right-hand window) to *return all columns from the firs
 In the answer field, enter the values for the name of the item in the fourth row returned.
 
 Example: `fake-ball`
+ 
  

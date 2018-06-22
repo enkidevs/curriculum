@@ -24,6 +24,11 @@ links:
 
 parent: module-patterns
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # Consuming events
 
@@ -91,3 +96,4 @@ Which method is called to register a callback function to run when an event is t
 * .on
 * .event
 * .start
+ 

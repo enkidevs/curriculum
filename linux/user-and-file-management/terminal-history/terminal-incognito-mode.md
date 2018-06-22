@@ -34,6 +34,10 @@ tags:
 
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Terminal incognito mode
@@ -85,3 +89,4 @@ $ set -o history
 * enables
 * disables
 
+ 

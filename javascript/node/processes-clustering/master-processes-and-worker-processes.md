@@ -18,6 +18,11 @@ tags:
 
 category: tip
 
+aspects:
+  - workout
+  - deep
+
+
 ---
 # Master Processes and Worker Processes
 
@@ -64,3 +69,4 @@ Which method is used by the master process to initiate new worker processes? ???
 * master.new();
 * cluster.process();
 * master.process();
+ 

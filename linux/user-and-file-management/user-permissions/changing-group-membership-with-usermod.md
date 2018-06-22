@@ -22,6 +22,11 @@ tags:
 
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # Changing Group Membership With `usermod`
@@ -76,3 +81,4 @@ $ sudo ??? ???
 * `-aG`
 * `chmod`
 
+ 

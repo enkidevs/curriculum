@@ -44,3 +44,4 @@ outStream.flush();
 ```
 However, it is not always necessary to manually flush a buffer. For example, the `close` method automatically flushes the buffer before closing the stream.
 
+ 

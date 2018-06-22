@@ -8,3 +8,4 @@ insights:
   - const-part-2
   - let-part-1
   - let-part-2
+ 

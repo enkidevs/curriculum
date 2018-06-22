@@ -85,3 +85,4 @@ What is the data type of serialVersionUID?
 ## Footnotes
 [1:ANY-ACCESS-MODIFIER]
 In this it makes no difference if we make it `private`, `public`, `protected` or any other type.
+ 

@@ -78,3 +78,4 @@ Both previous types have a common point of failure - a local database can get co
 
 [3:repository]
 The project files and history in DVCSs is the code **repository**.
+ 

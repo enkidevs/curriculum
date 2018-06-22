@@ -21,6 +21,10 @@ tags:
 
   - introduction
 
+aspects:
+  - introduction
+
+
 ---
 
 # Declaring Functions
@@ -93,3 +97,4 @@ console.log(add(2,3));
 * `5`
 * `false`
 * `error`
+ 

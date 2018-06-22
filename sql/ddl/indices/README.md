@@ -9,3 +9,5 @@ insights:
 exercises:
   - sql-practice-define-indexes
   - sql-practice-sql-indexes2
+ 
+ 

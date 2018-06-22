@@ -84,3 +84,4 @@ What method is used to send an action to the store and to change the state?
 * `subscribe()`
 * `replaceReducer()`
 
+ 

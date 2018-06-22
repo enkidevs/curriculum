@@ -80,3 +80,4 @@ A subgraph of a graph is *spanning* if it contains
 * all the connected components of the graph
 * only the directed edges
 
+ 

@@ -21,6 +21,10 @@ tags:
 
   - introduction
 
+aspects:
+  - introduction
+
+
 ---
 
 # Functions can be declared after use
@@ -69,3 +73,4 @@ function foo() { return 'Enki'; }
 
 * alerts 'Enki'
 * error
+ 

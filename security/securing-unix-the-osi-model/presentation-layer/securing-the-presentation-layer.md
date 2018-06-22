@@ -70,3 +70,4 @@ What is one control in the Presentation Layer of the OSI Model?
 * Strict use of ports as they are designed
 * Use of a physical firewall
 
+ 

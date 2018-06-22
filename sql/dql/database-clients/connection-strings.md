@@ -30,6 +30,10 @@ links:
   - '[More on connection strings](http://www.dofactory.com/reference/connection-strings){website}'
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Connection strings
@@ -112,4 +116,5 @@ Connect to a `puppies` database, this one hosted on Postgres. Use the username `
 * `mysql`
 * `?ssl=true`
 * `mssql`
+ 
  

@@ -8,3 +8,4 @@ insights:
   - highlight-input-forms-using-focus-pseudo-class
   - empty-and-blank
   - in-range-and-out-of-range
+ 

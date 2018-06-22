@@ -19,6 +19,10 @@ standards:
 tags:
   - introduction
 
+aspects:
+  - introduction
+
+
 ---
 # Types - Boolean and Number
 
@@ -95,3 +99,4 @@ Which of the following statements is considered true?
 * Boolean type has three options
 * You need the `Math` object to add numbers
 * Boolean types use **Upper case**
+ 

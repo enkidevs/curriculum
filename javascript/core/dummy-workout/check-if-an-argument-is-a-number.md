@@ -77,3 +77,4 @@ function isNumber(n){
 * typeof
 * isNum
 * isValud
+ 

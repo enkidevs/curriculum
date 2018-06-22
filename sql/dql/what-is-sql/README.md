@@ -11,3 +11,5 @@ insights:
 
 exercises:
   - sql-practice-what-is-sql
+ 
+ 

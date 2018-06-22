@@ -13,3 +13,5 @@ exercises:
   - sql-practice-select
   - sql-practice-order-results
   - sql-practice-string-matching
+ 
+ 

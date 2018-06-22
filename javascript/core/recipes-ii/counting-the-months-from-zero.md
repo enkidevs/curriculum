@@ -16,6 +16,10 @@ standards:
 tags:
   - workout
 
+aspects:
+  - workout
+
+
 ---
 # Counting the months from zero
 
@@ -102,3 +106,4 @@ console.log(new Date(2016, 5, 31));
 * June 31 2016
 * May 31 2016
 * June 1 2016
+ 

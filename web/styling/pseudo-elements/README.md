@@ -8,3 +8,4 @@ insights:
   - drop-caps-with-first-letter
   - use-attribute-selectors-with-empty-links
   - change-selected-area-color
+ 

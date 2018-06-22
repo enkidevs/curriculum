@@ -15,3 +15,4 @@ exercises:
   - js-practice-string-touppercase
   - js-practice-string-charat
   - js-practice-string-trim
+ 

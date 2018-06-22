@@ -25,6 +25,11 @@ links:
 
 parent: the-http-module-for-servers
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # Local Modules
 
@@ -107,3 +112,4 @@ Which of the following module types must have its path specified when requiring 
 
 * local
 * core
+ 

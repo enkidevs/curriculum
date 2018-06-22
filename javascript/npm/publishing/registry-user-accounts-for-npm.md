@@ -24,6 +24,11 @@ tags:
 links:
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/adduser){website}'
 
+aspects:
+  - workout
+  - deep
+
+
 ---
 # Registry user accounts for npm
 
@@ -77,3 +82,4 @@ For what command is `npm login` an alias?
 * npm signup
 * npm signin
 * npm add
+ 

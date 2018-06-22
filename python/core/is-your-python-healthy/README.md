@@ -12,3 +12,4 @@ insights:
 exercises:
   - py-practice-control-statement
   - py-practice-syntax
+ 

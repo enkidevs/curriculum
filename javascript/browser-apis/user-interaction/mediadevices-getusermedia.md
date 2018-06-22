@@ -95,3 +95,4 @@ promise returned and resolved with? ???
 * A promise object.
 * Constraints for the media device.
 
+ 

@@ -20,6 +20,9 @@ standards:
 tags:
   - introduction
 
+aspects:
+  - introduction
+
 links:
 
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/splice){website}'
@@ -95,3 +98,5 @@ myArray.???(???, ???);
 * `2`
 * `remove`
 * `slice`
+ 
+ 

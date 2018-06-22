@@ -24,6 +24,11 @@ links:
 
 parent: what-are-node-modules
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # Requiring and Exporting
 
@@ -76,3 +81,4 @@ var mod = ???('./module.js');
 * require
 * export
 * load
+ 

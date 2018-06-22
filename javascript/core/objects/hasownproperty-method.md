@@ -28,6 +28,10 @@ links:
   - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty){website}'
 
 
+aspects:
+  - introduction
+
+
 ---
 
 # `hasOwnProperty` method
@@ -95,3 +99,4 @@ enki.hasOwnProperty('practiceQuestion');
 * obj hasn’t got ‘prop’ as property
 * obj has the property
 * obj has the property and its value is null
+ 

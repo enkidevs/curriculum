@@ -19,6 +19,10 @@ standards:
 tags:
   - introduction
 
+aspects:
+  - introduction
+
+
 ---
 # Object - Part 2
 
@@ -108,3 +112,4 @@ You can invoke an object's method by writing:
 * ob.methodName();
 * ob.methodName;
 * methodName(ob);
+ 

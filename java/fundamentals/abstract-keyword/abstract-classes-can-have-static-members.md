@@ -50,3 +50,4 @@ int x = AClass.staticMethod(2);
 ```
 An `abstract` class can also have `static` fields.
 
+ 

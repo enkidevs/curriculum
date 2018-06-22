@@ -43,3 +43,4 @@ myFrame.setVisible();
 //minimize the jframe
 myFrame.setState(Frame.ICONIFIED);
 ```
+ 

@@ -26,3 +26,4 @@ Quick way of getting your public IP from the terminal:
 $ curl ifconfig.me
 217.73.143.43
 ```
+ 

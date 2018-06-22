@@ -65,3 +65,4 @@ What is the *Facade* pattern?
 * It describes the whole inheritance structure of the program.
 * It describes how a group of interfaces acting together.
 
+ 

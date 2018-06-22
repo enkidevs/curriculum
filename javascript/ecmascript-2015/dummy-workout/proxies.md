@@ -70,3 +70,4 @@ console.log(obj.enki) // ???
 * NaN
 * undefined
 * -Infinity
+ 

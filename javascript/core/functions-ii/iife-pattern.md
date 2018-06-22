@@ -37,6 +37,11 @@ links:
   - '[markdalgleish.com](http://markdalgleish.com/2011/03/self-executing-anonymous-functions/){website}'
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # IIFE pattern
@@ -106,3 +111,4 @@ What's the syntax of an **IIFE** ?
 * `name`
 * `call`
 
+ 

@@ -91,3 +91,4 @@ $ git diff <source_branch> <target_branch>
 [2: branch command]
 
 The `*`(asterisk) marks the branch you are currently on.
+ 

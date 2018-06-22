@@ -17,6 +17,11 @@ tags:
 links:
   - '[www.ecma-international.org](http://www.ecma-international.org/publications/standards/Ecma-262.htm){website}'
 
+aspects:
+  - introduction
+  - obscura
+
+
 ---
 # JavaScript or EcmaScript?
 
@@ -61,3 +66,4 @@ Which one of the following came first ?
 * JavaScript
 * EcmaScript-262
 * EcmaScript 2016
+ 

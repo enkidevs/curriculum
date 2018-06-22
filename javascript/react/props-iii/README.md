@@ -8,3 +8,4 @@ insights:
   - shallow-compare-in-react
   - shortcut-for-transferring-props
   - use-proptypes-on-stateless-components
+ 

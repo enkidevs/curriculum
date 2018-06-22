@@ -8,3 +8,4 @@ insights:
   - controlling-cellpadding-and-cellspacing-in-css
   - direction-column-reverse
   - equal-width-table-cells
+ 

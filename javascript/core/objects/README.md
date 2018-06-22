@@ -9,5 +9,7 @@ insights:
   - keywords-in-hash-keys
   - hasownproperty-method
 
+
 exercises:
   - js-practice-objects
+ 

@@ -52,3 +52,4 @@ What is a data structure?
 * A pattern for inserting information.
 * An array of information.
 
+ 

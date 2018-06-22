@@ -21,8 +21,13 @@ standards:
   javascript.standard-library.3: 10
 
 links:
-- '[github.com](https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/ch1.md){website}'
-- '[developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/API/Console/log){website}'
+  - '[github.com](https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/ch1.md){website}'
+  - '[developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/API/Console/log){website}'
+
+aspects:
+  - introduction
+  - workout
+
 
 ---
 
@@ -34,3 +39,4 @@ links:
 Using a console statement, log your name to the console.
 
 Make sure to submit the JSFiddle link, to show that you've completed the exercise.
+ 

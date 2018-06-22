@@ -45,7 +45,7 @@ The largest and most known computer network is the **Internet**. This world-wide
 ---
 ## Revision
 
-Within a computer network, how are devices that send, route or receive data called?
+Within a computer network, what do we call devices that send, route, or receive data?
 
 ???
 
@@ -67,3 +67,4 @@ Such examples are:
 - routers
 - modems
 - switches
+ 

@@ -9,3 +9,4 @@ insights:
   - anonymous-functions
   - iife-pattern
   - functions-are-objects
+ 

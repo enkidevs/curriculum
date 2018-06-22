@@ -8,3 +8,4 @@ insights:
   - using-animation-delay-in-debugging
   - shorthand-transitions
   - prepare-for-will-change
+ 

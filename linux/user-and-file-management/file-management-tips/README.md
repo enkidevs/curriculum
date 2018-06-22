@@ -8,3 +8,4 @@ insights:
   - wrap-text-with-fold
   - truncate-files-with-cat-instead-of-rm
   - deleting-files-in-a-secure-manner
+ 

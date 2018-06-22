@@ -1,6 +1,10 @@
 ---
 author: tommarshall
 
+tags:
+
+  - introduction
+
 levels:
 
   - beginner
@@ -23,30 +27,44 @@ standards:
 ---
 ## Content
 
-We can write our first Python program, and print Hello World to the console!
+We can write our first Python3 program, and print `Hello World!` to the console!
 
-To do this, in our Python interpreter (REPL), we can use Python's print method as follows:
+To do this, in the Python3 interpreter (REPL), use Python's print function as follows:
 
 ```python
 >>> print('Hello World!')
 ```
 
-Note that `print` as a method whom you pass arguments to is specific syntax to Python 3.x. In Python 2.x `print` is a statement and it can be used as follows:
+Note that `print` as a method which you pass arguments to is specific syntax to Python 3.x. In Python 2.x `print` is a statement and would be used as follows:
 
 ```python
 >>> print 'Hello World!'
 ```
 
-This produces the following output:
+In both cases, the output is as follows:
 
 ```python
 # Hello World!
 ```
 
 ---
+
+## Practice
+
+Update the following code snippet to be compatible with python3:
+
+```python
+print ???
+```
+
+* ('Enki')
+* : 'Enki'
+* 'Enki'
+
+---
 ## Revision
 
-Complete the code snippet:
+Complete the code snippet with the correct function to write the string 'Python with Enki!' to the REPL shell:
 
 ```
 ???('Python with Enki!')

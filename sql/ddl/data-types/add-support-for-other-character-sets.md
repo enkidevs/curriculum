@@ -23,6 +23,11 @@ tags:
 
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # Adding Support for Multiple Character Sets
@@ -75,4 +80,5 @@ Which database `utf8` options stores a maximum of 3 bytes instead of 4?
 * PostgreSQL
 * Microsoft SQL
 
+ 
  

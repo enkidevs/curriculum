@@ -18,6 +18,10 @@ tags:
 links:
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const){website}'
 
+aspects:
+  - introduction
+
+
 ---
 # Const (Part 2)
 
@@ -110,3 +114,4 @@ console.log(foo.bar)
 [1:`Object.freeze`]
 For more information on *Object.freeze* see (MDN)
 [https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze]
+ 

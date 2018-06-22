@@ -21,6 +21,10 @@ tags:
 
   - introduction
 
+aspects:
+  - introduction
+
+
 ---
 
 # Types - String
@@ -93,3 +97,4 @@ var company = 'Enki';
 * first
 * second
 * none
+ 

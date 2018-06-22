@@ -23,6 +23,11 @@ links:
 
 parent: requiring-and-exporting
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # The `http` module for servers
 
@@ -95,3 +100,4 @@ var server = http.???(requestHandler);
 * createServer
 * httpServer
 * createHTTP
+ 

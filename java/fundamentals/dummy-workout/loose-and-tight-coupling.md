@@ -124,3 +124,4 @@ Which of the following definitions describes `coupling` the best?
 * The degree of independence inside modules
 * The alternative use of private and public variables
 * Inheritance dependencies
+ 

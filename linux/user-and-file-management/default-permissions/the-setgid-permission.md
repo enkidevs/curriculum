@@ -22,6 +22,11 @@ tags:
 
 
 
+aspects:
+  - deep
+  - workout
+
+
 ---
 
 # The `setgid` permission
@@ -88,3 +93,4 @@ $ ??? ??? myfile
 * `a-s`
 * `perm`
 
+ 

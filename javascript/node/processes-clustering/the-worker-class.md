@@ -17,6 +17,11 @@ tags:
 
 category: tip
 
+aspects:
+  - workout
+  - deep
+
+
 ---
 # The Worker Class
 
@@ -80,3 +85,4 @@ if (worker.???()) {
 * worker
 * isIPC
 * send
+ 

@@ -30,6 +30,11 @@ tags:
 
 
 
+aspects:
+  - workout
+  - introduction
+
+
 ---
 
 # Using `touch` to alter files modification time
@@ -82,3 +87,4 @@ You can alter the modification or the access time of a file using the
 * alter
 * set
 
+ 

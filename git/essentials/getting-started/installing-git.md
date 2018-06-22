@@ -65,3 +65,4 @@ Will **Git** also be installed when you would install **GitHub** ?
 * Only on Mac OS X
 * Only on Linux
 
+ 

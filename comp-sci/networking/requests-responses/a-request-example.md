@@ -51,6 +51,7 @@ Content-Length: 62
 ```
 
 This is a line-by-line analysis of the request header:
+
 1. The request line states that this is a `POST` request, which targets the relative path `/api/auth/login` on the server. The request makes use of the the `HTTP/1.1` standard.
 2. The `Host` contains the server's address: `enkipro.com`.
 3. The `Connection` field ensures that the connection won't be closed after the first request/response exchange (which speeds up the process by not having to reconnect for each new request).
@@ -62,9 +63,9 @@ This is a line-by-line analysis of the request header:
 9. `Content-Type` field tells the server the payload content's type and how to decode it.
 10. Our last field in this example, `Content-length` represents the length, in octets (1 octet = 1 byte = 8 bits), of the message payload. A character requires one octet to be represented, making the value the actual length of the message.
 
-The payload contains the data specified by the **client**. In this case, the login input fields, formatted as a *JSON* file were added. By reading the header, the server will be able to also understand the payload and return an appropriate response.
+The payload contains the data specified by the **client**. In this example, the login input fields are included, formatted as a *JSON* string. By reading the header, the server will be able to understand the payload and return an appropriate response.
 
-Most modern browsers like **Microsoft Edge** (*F12*), **Mozilla Firefox**(*CTRL/CMD + Shift + J*) or **Chrome** (*CTRL/CMD + Shift + i*) provide a Developer Console accompanied by a *Network* tab where you can take a detailed look on all requests and responses made by your browser.
+Most modern browsers like **Microsoft Edge** (*F12*), **Mozilla Firefox** (*CTRL/CMD + Shift + J*) or **Chrome** (*CTRL/CMD + Shift + i*) provide a Developer Console accompanied by a *Network* tab where you can take a detailed look on all requests and responses made by your browser.
 
 ---
 ## Practice
@@ -82,15 +83,15 @@ The filetypes that the server should return are specified in the
 ---
 ## Revision
 
-Within a **HTTP request**, details about the browser are contained inside the
+Within an **HTTP request**, details about the browser are provided by which header field?
 
-??? header field.
+???
 
 
-* User-Agent
-* Accept
-* Referer
-* Connection
+* `User-Agent`
+* `Accept`
+* `Referer`
+* `Connection`
 
 ---
 ## Footnotes
@@ -101,3 +102,4 @@ It might seem strange that the first browser in the `User-Agent` field list is `
 If this is the first time you encounter the `q=0.8` notation, you should keep in mind that it is used to declare preference (it can take values between *0* and *1*). In this case, we prefer the more specific `en-GB, en-US` (British or American) English variants, rather than a more general English (`en`).
 
 In case `q` isn't present, the option has a default value of `q=1`, equivalent to the most preferred.
+ 

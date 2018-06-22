@@ -35,6 +35,12 @@ links:
   - '[john-dugan.com](https://john-dugan.com/hoisting-in-javascript/){website}'
 
 
+aspects:
+  - workout
+  - deep
+  - obscura
+
+
 ---
 
 # Scope and strict mode
@@ -87,3 +93,4 @@ Non-strict mode allows the automate creation of a variable in ??? scope, while *
 * local
 * strict
 
+ 

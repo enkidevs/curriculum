@@ -59,3 +59,4 @@ Which two properties make two classes in a JVM the same class?
 * Same qualified name, same size.
 * Same qualified name, same compilation times.
 
+ 

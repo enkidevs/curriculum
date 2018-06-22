@@ -54,3 +54,4 @@ In this example, the constructor is private, so the only way to create an instan
 A factory method replaces the standard constructor, dealing with object creation without having to specify the exact class of the object that will be created. 
 
 More information on this pattern can be found in the links appended at the bottom of the insight.
+ 

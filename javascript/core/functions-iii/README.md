@@ -8,3 +8,4 @@ insights:
   - function-call-method
   - difference-between-call-and-apply-methods
   - bind
+ 

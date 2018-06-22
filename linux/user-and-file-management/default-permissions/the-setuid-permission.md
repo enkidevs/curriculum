@@ -29,6 +29,11 @@ tags:
 
 notes: ''
 
+aspects:
+  - deep
+  - workout
+
+
 ---
 
 # The `setuid` permission
@@ -76,3 +81,4 @@ $ ??? ??? ???
 * `+g`
 * `setuid`
 
+ 

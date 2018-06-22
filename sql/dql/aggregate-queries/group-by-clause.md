@@ -31,6 +31,10 @@ links:
 
 parent: order-by-clause
 
+aspects:
+  - workout
+
+
 ---
 
 # Group By clause
@@ -139,4 +143,5 @@ avg      | item_category_id
 * SUM
 * ORDER BY
 * GROUP
+ 
  

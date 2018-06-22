@@ -30,6 +30,13 @@ tags:
 
 
 
+aspects:
+  - introduction
+  - workout
+  - deep
+  - obscura
+
+
 ---
 
 # Functions Are Objects
@@ -123,3 +130,4 @@ console.log(x(1, 2, 3));
 * `fn`
 * `()`
 
+ 

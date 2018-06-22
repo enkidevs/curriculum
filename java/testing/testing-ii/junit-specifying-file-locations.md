@@ -80,3 +80,4 @@ When testing external resource files, it is recommended
 * to use the Java 8 API
 * to close the input stream by yourself
 
+ 

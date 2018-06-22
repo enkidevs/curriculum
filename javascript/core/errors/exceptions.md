@@ -31,6 +31,11 @@ links:
   - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling){website}'
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # Exceptions
@@ -130,3 +135,4 @@ Complete the missing keyword for throwing an exception:
 * `try`
 * `finally`
 
+ 

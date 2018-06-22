@@ -74,3 +74,4 @@ What represent the **context** of a function in Javascript?
 * bind
 * new
 
+ 
