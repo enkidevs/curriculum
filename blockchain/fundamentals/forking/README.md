@@ -9,5 +9,4 @@ section: 2
 insights:
  - what-are-forks
  - forking-to-create-altcoins
- - forking-to-revert-transactions
-
+ - forking-to-reverse-transactions
