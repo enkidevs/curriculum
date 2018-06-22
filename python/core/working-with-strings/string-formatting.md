@@ -12,8 +12,8 @@ category: must-know
 inAlgoPool: false
 
 standards:
-  py.standard-library-data.6: 10
-  py.data-structures-uses.5: 10
+  python.standard-library-data.6: 10
+  python.data-structures-uses.5: 10
 
 
 ---
@@ -78,3 +78,5 @@ When you want to use two or more argument specifiers, what must you use in order
 * A tuple
 * A function
 * A string
+ 
+ 

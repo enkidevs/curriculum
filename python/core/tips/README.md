@@ -7,3 +7,4 @@ insights:
   - dynamic-typing
   - following-pep-8-styling-guideline
   - pretty-print-data-structures
+ 

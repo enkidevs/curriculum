@@ -14,7 +14,7 @@ type: normal
 category: feature
 
 standards:
-  js.functions.5: 10
+  javascript.functions.5: 10
 
 tags:
 
@@ -25,6 +25,11 @@ tags:
 
 
 notes: ''
+
+aspects:
+  - introduction
+  - workout
+
 
 ---
 
@@ -109,3 +114,4 @@ go();
 * `undefined`
 * `1`
 * `2`
+ 

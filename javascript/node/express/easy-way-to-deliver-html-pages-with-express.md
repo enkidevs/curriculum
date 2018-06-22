@@ -10,8 +10,8 @@ type: normal
 category: how to
 
 standards:
-  js.express-server.0: 10
-  js.express-server.1: 10
+  javascript.express-server.0: 10
+  javascript.express-server.1: 10
 
 links:
 
@@ -82,3 +82,4 @@ What express module can be used to easily deliver HTML pages?
 * easy-html
 * static-express
 * node-html
+ 

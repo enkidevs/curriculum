@@ -31,7 +31,7 @@ parent: test-connectivity
 ---
 ## Content
 
-Standing for **Hypertext Transfer Protocol**, *HTTP* is an application-layer protocol that enables communication between two entities in a network.
+**HTTP**, which is short for **Hypertext Transfer Protocol**, is an application-layer protocol that enables communication between two entities in a network.
 
 **HTTP** is considered the foundation of the modern web and it works on top of *TCP/IP* communication protocol. While other ports may be used, the reserved **HTTP** port is `80`.
 
@@ -80,3 +80,4 @@ HTTP/2 characteristics:
 
 [2: Statistics]
 https://w3techs.com/technologies/details/ce-http2/all/all
+ 

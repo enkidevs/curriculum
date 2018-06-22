@@ -34,6 +34,10 @@ tags:
 
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Find any Unix / Linux command
@@ -91,3 +95,4 @@ install-sgmlcatalog (8) - maintain
 * users
 * servers
 
+ 

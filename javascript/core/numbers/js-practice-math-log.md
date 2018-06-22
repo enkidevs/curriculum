@@ -13,8 +13,8 @@ link: http://www.codewars.com/kata/57353de879ccaeb9f8000564
 linkType: codewars
 standards:
 
-  js.standard-library.1: 1000
-  js.write-expressions.0: 1000
+  javascript.standard-library.1: 1000
+  javascript.write-expressions.0: 1000
 
 links:
 
@@ -28,3 +28,4 @@ links:
 ## Exercise
 
 Practice using the JavaScript Math method `log()`
+ 

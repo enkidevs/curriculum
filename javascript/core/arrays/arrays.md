@@ -13,19 +13,16 @@ inAlgoPool: false
 
 standards:
 
-  js.data-types-structures.2: 10
-  js.evaluate-expressions.6: 10
-  js.data-types-structures.3: 10
-  js.data-types-structures.5: 10
+  javascript.data-types-structures.2: 10
+  javascript.evaluate-expressions.6: 10
+  javascript.data-types-structures.3: 10
+  javascript.data-types-structures.5: 10
 
 tags:
-
   - introduction
 
-  - workout
-
-
-
+aspects:
+  - introduction
 
 ---
 
@@ -34,7 +31,7 @@ tags:
 ---
 ## Content
 
-Arrays are an important concept in JavaScript and used frequently.
+Arrays are an essential concept in JavaScript and used frequently.
 
 Declaring an array:
 ```
@@ -137,3 +134,5 @@ console.log(arr.length)
 * 4
 * 0
 * 1
+ 
+ 

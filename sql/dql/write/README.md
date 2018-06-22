@@ -11,3 +11,5 @@ exercises:
   - sql-practice-insert
   - sql-practice-update
   - sql-practice-delete
+ 
+ 

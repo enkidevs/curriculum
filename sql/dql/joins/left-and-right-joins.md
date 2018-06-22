@@ -29,6 +29,11 @@ links:
   - '[Left outer join](https://en.wikipedia.org/wiki/Join_(SQL)#Left_outer_join){website}'
   - '[Right outer join](https://en.wikipedia.org/wiki/Join_(SQL)#Right_outer_join){website}'
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # LEFT And RIGHT JOINs
@@ -165,3 +170,5 @@ id  | game_index | region_id
 * SELECT location.id,location_area.game_index,location.region_id FROM location FULL OUTER JOIN location_area ON location.id = location_area.id;
 * SELECT location.id,location_area.game_index,location.region_id FROM location INNER JOIN location_area ON location.id = location_area.id;
 * SELECT location.id,location_area.game_index,location.region_id FROM location RIGHT JOIN location_area ON location.id = location_area.id;
+ 
+ 

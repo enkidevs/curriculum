@@ -10,13 +10,18 @@ levels:
 type: normal
 
 standards:
-  js.node-standard-library-os.5: 20
+  javascript.node-standard-library-os.5: 20
 
 tags:
   - workout
   - deep
 
 category: tip
+
+aspects:
+  - workout
+  - deep
+
 
 ---
 # Master Processes and Worker Processes
@@ -64,3 +69,4 @@ Which method is used by the master process to initiate new worker processes? ???
 * master.new();
 * cluster.process();
 * master.process();
+ 

@@ -10,7 +10,7 @@ type: normal
 category: how to
 
 standards:
-  js.identify-common-design-patterns.5: 10
+  javascript.identify-common-design-patterns.5: 10
 
 tags:
   - introduction
@@ -18,6 +18,11 @@ tags:
 
 links:
   - '[fredkschott.com](http://fredkschott.com/post/2014/03/understanding-error-first-callbacks-in-node-js/){website}'
+
+aspects:
+  - introduction
+  - workout
+
 
 ---
 # First-error callbacks in **Node**
@@ -71,21 +76,20 @@ doSomethingWithCallback(???(???, ???) {
   ??? {
     console.log(err)
   } ??? {
-    console.log(???)
+    console.???
   }
 })
 ```
 
-* function
-* err
-* data
-* if(err)
-* else
-* err
-* data
-* er
-* myData
-* fn
+* `function`
+* `err`
+* `data`
+* `if (err)`
+* `else`
+* `log(data)`
+* `er`
+* `myData`
+* `fn`
 
 ---
 ## Revision
@@ -93,18 +97,14 @@ doSomethingWithCallback(???(???, ???) {
 What are the parameters of an error-first callback function?
 
 ```javascript
-function(???, ??) {
+function(???, ???) {
   // ...
 }
 ```
 
-* err
-* data
-* fileNotFound
-* log
-<<<<<<< HEAD
-* null
-
-=======
-* null
->>>>>>> master
+* `err`
+* `data`
+* `fileNotFound`
+* `log`
+* `null`
+ 

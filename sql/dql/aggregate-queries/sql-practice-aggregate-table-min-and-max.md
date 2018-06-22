@@ -26,6 +26,12 @@ links:
   - '[blog post on MySQL aggregate functions](https://www.guru99.com/aggregate-functions.html){website}'
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=sgAvl7ry5jY){video}'
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 
 # SQL Practice Aggregate Table Min and Max
@@ -36,3 +42,5 @@ links:
 In SQLFiddle, write a SQL query that answers the following question:
 
 What are the minimum and maximum `cost` for items with `fling_power` greater than 25?
+ 
+ 

@@ -13,7 +13,7 @@ inAlgoPool: false
 
 standards:
 
-  js.javascript-syntax.2: 10
+  javascript.javascript-syntax.2: 10
 
 tags:
 
@@ -25,6 +25,11 @@ tags:
 links:
 
   - '[Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode){website}'
+
+
+aspects:
+  - introduction
+  - obscura
 
 
 ---
@@ -92,4 +97,4 @@ How do you enable **strict mode** in EcmaScript 5?
 * `strict-mode`
 * `enable`
 * `on`
-
+ 

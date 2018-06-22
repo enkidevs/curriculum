@@ -13,7 +13,7 @@ link: https://www.codewars.com/kata/write-javascripts-call-function-using-apply
 linkType: codewars
 standards:
 
-  js.execution-context.1: 1000
+  javascript.execution-context.1: 1000
 
 links:
 
@@ -27,3 +27,4 @@ links:
 ## Exercise
 
 Explore JavaScript `call` and `apply` statements
+ 

@@ -11,7 +11,7 @@ type: normal
 category: feature
 
 standards:
-  js.npm-tasks-and-modules-manager.0: 10
+  javascript.npm-tasks-and-modules-manager.0: 10
 
 tags:
   - workout
@@ -22,6 +22,12 @@ links:
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/cache){website}'
 
 parent: check-data-about-a-package
+
+aspects:
+  - workout
+  - deep
+  - new
+
 
 ---
 # Manipulate npm packages cache
@@ -97,3 +103,4 @@ $ ??? ??? ??? ???
 * isAt
 * getPath
 * ls
+ 

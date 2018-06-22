@@ -22,6 +22,12 @@ tags:
 
   - deep
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 
 # Handling Blobs in a RDBMS
@@ -66,3 +72,5 @@ In most databases, the maximum allowed size of BLOBs are in the order of
 * `bigints`
 * `strings`
 * `images`
+ 
+ 

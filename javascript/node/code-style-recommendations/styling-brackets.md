@@ -10,9 +10,13 @@ type: normal
 category: tip
 
 standards:
-  js.identify-common-design-patterns.7: 10
+  javascript.identify-common-design-patterns.7: 10
 
 tags:
+  - introduction
+
+
+aspects:
   - introduction
 
 
@@ -188,3 +192,4 @@ console.log(pi())
 * SyntaxError
 * [object Object]
 
+ 

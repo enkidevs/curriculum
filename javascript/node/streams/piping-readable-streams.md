@@ -12,9 +12,9 @@ type: normal
 category: must-know
 
 standards:
-  js.read-and-write-streams.0: 20
-  js.node-standard-library-os.0: 20
-  js.events-asynchronous-operations.1: 20
+  javascript.read-and-write-streams.0: 20
+  javascript.node-standard-library-os.0: 20
+  javascript.events-asynchronous-operations.1: 20
 
 tags:
   - introduction
@@ -25,6 +25,12 @@ links:
   - '[Piping streams](https://www.sandersdenardi.com/readable-writable-transform-streams-node/){website}'
 
 parent: readable-streams
+
+aspects:
+  - introduction
+  - workout
+  - deep
+
 
 ---
 # Piping Readable Streams
@@ -92,3 +98,4 @@ Which function is used for piping data from a source to a destination?
 * copy()
 * source()
 * move()
+ 

@@ -8,3 +8,4 @@ insights:
   - tracking-and-staging-files
   - committing
   - stashing
+ 

@@ -39,24 +39,24 @@ A *dynamic* bookshelf would resize itself as soon as there is no more room for a
 You can declare an array using:
 ```
 //constructed arrays of size 3
-//java
+//Java
 int[] myArray = {1,2,3};
-//c++
+//C++
 int myArray[] = {1,2,3};
-//python
+//Python
 from array import array
-myAr = array('i', [1,2,3,4])
-//javascript
+myArray = array('i', [1,2,3])
+//JavaScript
 var myArray = [1,2,'enki'];
 ```
 Or empty arrays of size 3:
 ```
-//java
+//Java
 int[] myArray = new int[3];
-//c++
+//C++
 int myArray[3];
-//javascript
-var myArray = [];
+//JavaScript
+var myArray = new Array(3);
 
 ```
 The advantage of an array is that you have immediate access to its elements. All you have to do is specify the index of the element you are looking for:
@@ -93,3 +93,4 @@ An array that has its size declared up-front it's called
 * indexed
 * associative
 
+ 

@@ -13,7 +13,7 @@ link: https://www.codewars.com/kata/unpacking-arguments/javascript
 linkType: codewars
 standards:
 
-  js.execution-context.1: 1000
+  javascript.execution-context.1: 1000
 
 links:
 
@@ -26,3 +26,4 @@ links:
 ## Exercise
 
 Practice unpacking function arguments with spreads
+ 

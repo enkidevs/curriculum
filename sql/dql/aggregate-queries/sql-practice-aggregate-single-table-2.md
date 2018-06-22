@@ -27,6 +27,12 @@ links:
   - '[blog post on MySQL aggregate functions](https://www.guru99.com/aggregate-functions.html){website}'
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=sgAvl7ry5jY){video}'
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 
 # Aggregate Single Table
@@ -39,3 +45,5 @@ In SQLFiddle, write a SQL query that answers the following question:
 What is the average accuracy of moves with `generation_id` 1?
 
 Round your answer to the nearest integer.
+ 
+ 

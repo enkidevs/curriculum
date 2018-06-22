@@ -17,12 +17,12 @@ link: http://www.codewars.com/kata/571f1eb77e8954a812000837
 linkType: codewars
 standards:
 
-  js.data-types-structures.2: 1000
-  js.data-types-structures.3: 1000
-  js.data-types-structures.4: 1000
-  js.write-expressions.0: 1000
-  js.evaluate-expressions.6: 10
-  js.evaluate-expressions.7: 10
+  javascript.data-types-structures.2: 1000
+  javascript.data-types-structures.3: 1000
+  javascript.data-types-structures.4: 1000
+  javascript.write-expressions.0: 1000
+  javascript.evaluate-expressions.6: 10
+  javascript.evaluate-expressions.7: 10
 
 links:
 
@@ -30,6 +30,10 @@ links:
   - '[YouTube - "Object Oriented JavaScript](https://www.youtube.com/watch?v=O8wwnhdkPE4)'
   - '[MDN - "Working with Objects"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)'
   - '[MDN - "JavaScript object basics"](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)'
+
+aspects:
+  - introduction
+
 ---
 
 # JS Practice Objects
@@ -38,3 +42,4 @@ links:
 ## Exercise
 
 Practice using JavaScript Objects on Code Wars
+ 

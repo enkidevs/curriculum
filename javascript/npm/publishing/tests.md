@@ -14,13 +14,18 @@ category: how to
 parent: prepare-your-module-for-publishing
 
 standards:
-  js.npm-publish.7: 10
-  js.npm-publish.8: 10
-  js.npm-tasks-and-modules-manager.1: 10
+  javascript.npm-publish.7: 10
+  javascript.npm-publish.8: 10
+  javascript.npm-tasks-and-modules-manager.1: 10
 
 tags:
   - introduction
   - workout
+
+aspects:
+  - introduction
+  - workout
+
 
 ---
 # Tests
@@ -112,3 +117,4 @@ Complete the following *package.json* file with code that would make `npm run te
 ## Footnotes
 [1:TDD]
 This approach of writing code is called "Test-Driven Development".
+ 

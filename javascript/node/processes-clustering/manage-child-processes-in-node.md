@@ -11,7 +11,7 @@ type: normal
 category: how to
 
 standards:
-  js.node-standard-library-os.5: 20
+  javascript.node-standard-library-os.5: 20
 
 tags:
   - workout
@@ -20,6 +20,11 @@ tags:
 links:
   - '[www.graemeboy.com](http://www.graemeboy.com/node-child-processes){website}'
   - '[krasimirtsonev.com](http://krasimirtsonev.com/blog/article/Nodejs-managing-child-processes-starting-stopping-exec-spawn){website}'
+
+aspects:
+  - workout
+  - deep
+
 
 ---
 # Manage child processes in **Node**
@@ -86,3 +91,4 @@ What module is required to spawn child processes?
 * child_processes
 * spawn_process
 * child-cpu
+ 

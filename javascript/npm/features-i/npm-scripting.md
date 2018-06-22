@@ -14,13 +14,19 @@ category: how to
 parent: how-npm3-handles-dependencies
 
 standards:
-  js.npm-tasks-and-modules-manager.0: 30
-  js.npm-tasks-and-modules-manager.3: 30
+  javascript.npm-tasks-and-modules-manager.0: 30
+  javascript.npm-tasks-and-modules-manager.3: 30
 
 tags:
   - introduction
   - workout
   - deep
+
+aspects:
+  - introduction
+  - workout
+  - deep
+
 
 ---
 # Npm Scripting
@@ -135,3 +141,4 @@ Given the following is in your `package.json`, execute the script called `dailyS
 * dailyStats
 * script
 * exec
+ 

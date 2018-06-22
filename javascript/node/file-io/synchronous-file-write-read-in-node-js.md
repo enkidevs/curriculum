@@ -10,7 +10,7 @@ type: normal
 category: must-know
 
 standards:
-  js.node-standard-library-os.0: 10
+  javascript.node-standard-library-os.0: 10
 
 tags:
   - introduction
@@ -19,6 +19,11 @@ tags:
 links:
   - '[nodejs.org](https://nodejs.org/api/fs.html#fs_fs_writefilesync_file_data_options){website}'
   - '[nodejs.org](https://nodejs.org/api/fs.html#fs_fs_readfilesync_file_options){website}'
+
+aspects:
+  - introduction
+  - workout
+
 
 ---
 # Synchronous File Write/Read in Node.js
@@ -92,3 +97,4 @@ fs.???(file, data)
 * write
 * writeFileAsync
 * writeFile
+ 

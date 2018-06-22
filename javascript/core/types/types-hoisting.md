@@ -12,12 +12,11 @@ inAlgoPool: false
 category: must-know
 
 standards:
-  js.functions.5: 10
+  javascript.functions.5: 10
 
 tags:
-  - workout
+  - introduction
   - hoisting
-  - deep
   - variables
   - obscura
 
@@ -26,6 +25,11 @@ links:
   - >-
     [Site
     Point](https://www.sitepoint.com/demystifying-javascript-variable-scope-hoisting/){website}
+
+aspects:
+  - introduction
+  - obscura
+
 
 ---
 
@@ -62,3 +66,4 @@ What does **hoisting** mean?
 * You must first declare variables before methods
 * A general rule for **linters**
 * You can have multiple variables with the same name
+ 

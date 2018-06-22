@@ -11,14 +11,19 @@ type: normal
 category: how to
 
 standards:
-  js.identify-common-design-patterns.4: 10
-  js.identify-common-design-patterns.5: 10
-  js.identify-common-design-patterns.6: 10
-  js.identify-common-design-patterns.8: 10
+  javascript.identify-common-design-patterns.4: 10
+  javascript.identify-common-design-patterns.5: 10
+  javascript.identify-common-design-patterns.6: 10
+  javascript.identify-common-design-patterns.8: 10
 
 tags:
   - introduction
   - workout
+
+aspects:
+  - introduction
+  - workout
+
 
 ---
 
@@ -73,3 +78,4 @@ Treatment
 * Operational error
 * Enclosing the code inside a `try/catch` block
 
+ 

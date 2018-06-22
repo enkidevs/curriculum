@@ -8,3 +8,4 @@ insights:
   - utility-classes-and-static-methods
   - use-a-copy-constructor-for-non-immutable-objects
   - be-as-specific-as-possible-when-catching-exceptions
+ 

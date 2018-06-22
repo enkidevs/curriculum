@@ -16,6 +16,9 @@ inAlgoPool: false
 tags:
   - introduction
 
+aspects:
+  - introduction
+
 standards:
   sql.define-tables.0: 10
 
@@ -91,3 +94,6 @@ How do you think we could create a table called `coupons`?
 * `MAKE TABLE coupons`
 * `rdbms.createTable('coupons')`
 * `sql.create.table('coupons')`
+ 
+ 
+ 

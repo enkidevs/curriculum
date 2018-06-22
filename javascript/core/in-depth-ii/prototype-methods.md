@@ -15,7 +15,7 @@ category: pattern
 
 standards:
 
-  js.prototype-inherit.0: 10
+  javascript.prototype-inherit.0: 10
 
 tags:
 
@@ -34,6 +34,12 @@ tags:
   - object
 
 
+
+
+aspects:
+  - introduction
+  - workout
+  - deep
 
 
 ---
@@ -109,3 +115,4 @@ An object in JavaScript that can be inherited from is called ???.
 * variable
 * function
 
+ 

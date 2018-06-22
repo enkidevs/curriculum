@@ -11,7 +11,7 @@ type: normal
 category: feature
 
 standards:
-  js.npm-tasks-and-modules-manager.0: 10
+  javascript.npm-tasks-and-modules-manager.0: 10
 
 tags:
   - workout
@@ -21,6 +21,11 @@ links:
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/link){website}'
 
 parent: check-data-about-a-package
+
+aspects:
+  - workout
+  - introduction
+
 
 ---
 # Manage local node modules with `npm link`
@@ -94,3 +99,4 @@ $ npm ???
 * --local:myLibrary
 * --use-local=myLibrary
 * --local=myLibrary
+ 

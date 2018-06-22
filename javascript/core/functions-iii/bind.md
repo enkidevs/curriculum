@@ -15,9 +15,9 @@ category: must-know
 
 standards:
 
-  js.functions.5: 10
+  javascript.functions.5: 10
 
-  js.execution-context.0: 10
+  javascript.execution-context.0: 10
 
 tags:
 
@@ -30,6 +30,11 @@ links:
 
   - '[stackoverflow.com](http://stackoverflow.com/questions/2236747/use-of-the-javascript-bind-method){website}'
   - '[www.javascripture.com](http://www.javascripture.com/Function#bind){website}'
+
+
+aspects:
+  - introduction
+  - workout
 
 
 ---
@@ -92,3 +97,4 @@ What can be used to make a function be always called with a **particular** `this
 * `return`
 * `new`
 
+ 

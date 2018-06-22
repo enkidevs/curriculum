@@ -27,6 +27,11 @@ links:
   - '[blog post on MySQL define tables](https://www.tutorialspoint.com/mysql/mysql-alter-command.htm){website}'
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=Epj5cb5HF9o){video}'
 
+aspects:
+  - workout
+  - deep
+
+
 ---
 
 # SQL Practice Aggregate Average
@@ -42,3 +47,5 @@ First, update the name of the `facebook_id` column to reflect that you can use e
 
 Once that's done, we'll also need a new column that indicates whether they used Facebook or Twitter. Create a new column called `social_type` and set all current values to `facebook`.
 Set the default value for this new column to be `facebook`. For reasons.
+ 
+ 

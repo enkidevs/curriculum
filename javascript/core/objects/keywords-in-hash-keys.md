@@ -9,15 +9,22 @@ type: normal
 category: best practice
 
 standards:
-  js.data-types-structures.3: 10
-  js.data-types-structures.4: 10
-  js.evaluate-expressions.6: 10
-  js.evaluate-expressions.7: 10
+  javascript.data-types-structures.3: 10
+  javascript.data-types-structures.4: 10
+  javascript.evaluate-expressions.6: 10
+  javascript.evaluate-expressions.7: 10
+
+tags:
+  - introduction
 
 links:
   - '[bonsaiden.github.io](http://bonsaiden.github.io/JavaScript-Garden/){website}'
 
 notes: 'Same issue, not sure if it''s not really really basic.'
+
+aspects:
+  - introduction
+
 
 ---
 # Keywords in hash keys
@@ -25,7 +32,7 @@ notes: 'Same issue, not sure if it''s not really really basic.'
 ---
 ## Content
 
-Object properties can either be presented as strings or plain characters.
+Object properties can either be presented as strings or ugly characters.
 
 ```javascript
 var testObject = {
@@ -34,7 +41,7 @@ var testObject = {
 }
 ```
 
-However, it is considered bad practice to leave special keywords such as `delete` unquoted as it may confuse readers and syntax highlighter.
+However, it is considered bad practice to leave unique keywords such as `delete` unquoted as it may confuse readers and syntax highlighter.
 
 Instead, you can use quotes:
 
@@ -83,3 +90,4 @@ var dog = {
 * name
 * 'typeof'
 * typeof:
+ 

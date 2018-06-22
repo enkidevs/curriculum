@@ -15,9 +15,9 @@ category: must-know
 
 standards:
 
-  js.execution-context.4: 10
+  javascript.execution-context.4: 10
 
-  js.execution-context.3: 10
+  javascript.execution-context.3: 10
 
 
 links:
@@ -74,3 +74,4 @@ What represent the **context** of a function in Javascript?
 * bind
 * new
 
+ 

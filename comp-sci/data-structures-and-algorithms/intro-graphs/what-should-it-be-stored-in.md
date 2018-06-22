@@ -32,6 +32,7 @@ Conga line representation.
 %exp
 You can hop in the conga line anywhere you want without disturbing more than 2 people.
 %
+
 ---
 
 ```
@@ -43,6 +44,7 @@ A way to undo actions.
 %exp
 The stack's last in, first out principle makes this an easy job.
 %
+
 ---
 ```
 Printing documents in order of their arrival.
@@ -53,6 +55,7 @@ Printing documents in order of their arrival.
 %exp
 You want the first document sent to be printed first (first in, first out).
 %
+
 ---
 ```
 Books on a bookshelf.
@@ -63,6 +66,7 @@ Books on a bookshelf.
 %exp
 You would have to move the other books to insert/remove one. The bookshelf also has, most of the times, fixed size.
 %
+
 ---
 ```
 Chess board.
@@ -73,6 +77,7 @@ Chess board.
 %exp
 The chessboard is in itself a fixed `8*8` matrix (two-dimensional array).
 %
+
 ---
 ```
 Egg hunt clues.
@@ -84,6 +89,7 @@ Egg hunt clues.
 %exp
 Clues are linked to one another (the previous one gets you to the next). Adding an additional clue shouldn't mean having to move every other clue.
 %
+
 ---
 ```
 A train.
@@ -94,6 +100,7 @@ A train.
 %exp
 From each car, you'd only be able to get to the next and the previous one.
 %
+
 ---
 ```
 Store recursion calls.
@@ -104,6 +111,7 @@ Store recursion calls.
 %exp
 The recursion goes as deep as possible, then computes the latest added operation or function. As this principle ressemblances the last in, first out approach, a stack should be used.
 %
+
 ---
 ```
 Store the first n numbers in the Fibonacci
@@ -117,6 +125,7 @@ sequence.
 %exp
 As you know the index of the last Fibonacci number you have to compute, declaring an array makes sense.
 %
+
 ---
 ```
 Cars in a drive-through.
@@ -127,3 +136,4 @@ Cars in a drive-through.
 %exp
 The first car that got there gets to be served first: the answer is queue.
 %
+ 

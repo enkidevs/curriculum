@@ -10,9 +10,9 @@ type: normal
 category: feature
 
 standards:
-  js.use-open-source-javascript-packages.1: 10
-  js.npm-publish.2: 10
-  js.npm-tasks-and-modules-manager.0: 10
+  javascript.use-open-source-javascript-packages.1: 10
+  javascript.npm-publish.2: 10
+  javascript.npm-tasks-and-modules-manager.0: 10
 
 tags:
   - workout
@@ -24,6 +24,12 @@ links:
   - '[nodejs.org](https://nodejs.org/en/blog/npm/managing-node-js-dependencies-with-shrinkwrap/){website}'
 
 parent: check-data-about-a-package
+
+aspects:
+  - workout
+  - deep
+  - new
+
 
 ---
 # Lock down dependency versions by shrinkwrapping
@@ -81,3 +87,4 @@ $ ??? ???
 * dependencies
 * package.json
 * npm-shrinkwrap
+ 

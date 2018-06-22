@@ -8,3 +8,4 @@ insights:
   - linux-user-management
   - usermod-recipes
   - running-a-command-as-another-local-user
+ 

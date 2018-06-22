@@ -11,13 +11,18 @@ type: normal
 category: must-know
 
 standards:
-  js.data-types-structures.2: 10
-  js.data-types-structures.3: 10
-  js.data-types-structures.6: 10
-  js.functions.4: 10
+  javascript.data-types-structures.2: 10
+  javascript.data-types-structures.3: 10
+  javascript.data-types-structures.6: 10
+  javascript.functions.4: 10
 
 tags:
   - functional-programming arrays
+  - introduction
+  - workout
+  - deep
+
+aspects:
   - introduction
   - workout
   - deep
@@ -72,3 +77,4 @@ You have to modify the elements of an array after a single,certain rule. The bes
 * map()
 * filter()
 * splice()
+

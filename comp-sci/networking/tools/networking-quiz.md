@@ -145,6 +145,7 @@ OSI stands for:
 %exp
 The `OSI` (Open System Interconnect) model is a conceptual framework that breaks down network communication into seven layers.
 %
+
 ---
 ```
 Which of the following OSI model layers
@@ -175,3 +176,4 @@ The **TCP/IP** stack consists of:
 - Internet Layer
 - Network Interface Layer
 %
+ 

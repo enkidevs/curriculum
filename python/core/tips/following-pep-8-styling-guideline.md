@@ -52,6 +52,23 @@ To PEP 8 yourself, use a linter and an autoformatter. These
 exist for all the popular editors.
 
 ---
+## Practice
+
+Is the following syntax in accordance with PEP8 rules?
+
+```python
+def func():
+  new_element = 0
+  new_string  = 's'
+```
+
+???
+
+* yes
+* no
+* not applicable
+
+---
 ## Revision
 
 Which of the following is allowed in the PEP8 styling guidelines? 
@@ -74,3 +91,4 @@ three = 3
 * `Option A` 
 * `Option B`
 
+ 

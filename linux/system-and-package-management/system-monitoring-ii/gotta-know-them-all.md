@@ -40,6 +40,7 @@ authentication token?
 %exp
 `passwd`  is the utility used for updating authentication tokens. The password entered by the user is run through a key derivation function such that a hashed version of the new password is created and saved.
 %
+
 ---
 
 ```
@@ -175,3 +176,4 @@ reboot or halt you machine?
 %exp
 The `shutdown` command brings system down in a secure way. It notifies all users that the system is going to be shut down and no other logins will be possible. It is possible to shut down the system immediately or after a certain delay.
 %
+ 

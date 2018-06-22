@@ -13,8 +13,8 @@ link: http://www.codewars.com/kata/the-coupon-code
 linkType: codewars
 standards:
 
-  js.standard-library.5: 1000
-  js.write-expressions.0: 1000
+  javascript.standard-library.5: 1000
+  javascript.write-expressions.0: 1000
 
 links:
 
@@ -27,3 +27,4 @@ links:
 ## Exercise
 
 Practice using the JavaScript `Date` object
+ 

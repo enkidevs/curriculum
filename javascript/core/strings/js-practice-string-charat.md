@@ -13,8 +13,8 @@ link: http://www.codewars.com/kata/57284d23e81185ae6200162a
 linkType: codewars
 standards:
 
-  js.standard-library.0: 1000
-  js.write-expressions.0: 1000
+  javascript.standard-library.0: 1000
+  javascript.write-expressions.0: 1000
 
 links:
 
@@ -30,3 +30,4 @@ links:
 ## Exercise
 
 Practice using the JavaScript String methods `charAt()`, `charCodeAt()` and `fromCharCode()`
+ 

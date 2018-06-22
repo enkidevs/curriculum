@@ -14,15 +14,20 @@ type: tetris
 category: must-know
 
 standards:
-  js.identify-syntax.2: 1000
-  js.evaluate-expressions.3: 1000
-  js.evaluate-expressions.5: 1000
-  js.evaluate-expressions.4: 1000
-  js.evaluate-expressions.10: 1000
+  javascript.javascript-syntax.2: 1000
+  javascript.evaluate-expressions.3: 1000
+  javascript.evaluate-expressions.5: 1000
+  javascript.evaluate-expressions.4: 1000
+  javascript.evaluate-expressions.10: 1000
 
 tags:
   - introduction
   - workout
+
+aspects:
+  - introduction
+  - workout
+
 ---
 
 # You can't handle the truth!
@@ -152,3 +157,4 @@ This expression is undefined in JavaScript, so it will evaluate to false.
 %
 
 ```
+ 

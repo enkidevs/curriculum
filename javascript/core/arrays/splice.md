@@ -12,10 +12,16 @@ category: must-know
 inAlgoPool: false
 
 standards:
-  js.evaluate-expressions.6: 1000
-  js.evaluate-expressions.7: 1000
-  js.data-types-structures.3: 1000
-  js.standard-library.4: 1000
+  javascript.evaluate-expressions.6: 1000
+  javascript.evaluate-expressions.7: 1000
+  javascript.data-types-structures.3: 1000
+  javascript.standard-library.4: 1000
+
+tags:
+  - introduction
+
+aspects:
+  - introduction
 
 links:
 
@@ -29,7 +35,7 @@ links:
 ---
 ## Content
 
-Splice is a very useful array function that allows you to add and remove items to an array.
+Splice is a handy array function that allows you to add and remove items to an array.
 
 It accepts 3 arguments with the 3rd being optional:
 
@@ -92,3 +98,5 @@ myArray.???(???, ???);
 * `2`
 * `remove`
 * `slice`
+ 
+ 

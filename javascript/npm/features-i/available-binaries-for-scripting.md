@@ -14,13 +14,19 @@ category: how to
 parent: npm-scripting
 
 standards:
-  js.npm-publish.0: 10
-  js.npm-tasks-and-modules-manager.0: 10
+  javascript.npm-publish.0: 10
+  javascript.npm-tasks-and-modules-manager.0: 10
 
 tags:
   - introduction
   - workout
   - deep
+
+aspects:
+  - introduction
+  - workout
+  - deep
+
 
 ---
 # Available Binaries For Scripting
@@ -75,3 +81,4 @@ A package binary file is needed for
 * importing the module
 * publishing the module
 * explaining the functionalities of the module
+ 

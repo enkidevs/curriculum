@@ -15,6 +15,10 @@ tags:
   - workout
   - deep
 
+aspects:
+  - workout
+  - deep
+
 ---
 # Type Inheritance
 
@@ -38,3 +42,4 @@ print(isinstance(x, int))
 * False
 * "NameError: name 'x' is not defined"
 * Numeric
+ 

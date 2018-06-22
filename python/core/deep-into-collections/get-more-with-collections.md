@@ -14,7 +14,7 @@ type: normal
 category: feature
 
 standards:
-  py.native-types-operations.6: 10
+  python.native-types-operations.6: 10
 
 links:
 
@@ -66,3 +66,5 @@ Which collections class is used for defining a meaning for every position in a t
 * `namedtuple`
 * `definetuple`
 * `definitiontuple`
+ 
+ 

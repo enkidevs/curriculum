@@ -13,11 +13,11 @@ link: http://www.codewars.com/kata/a-function-within-a-function
 linkType: codewars
 standards:
 
-  js.functions.0: 1000
-  js.functions.1: 1000
-  js.functions.3: 1000
-  js.functions.4: 1000
-  js.functions.6: 1000
+  javascript.functions.0: 1000
+  javascript.functions.1: 1000
+  javascript.functions.3: 1000
+  javascript.functions.4: 1000
+  javascript.functions.6: 1000
 
 links:
 
@@ -32,3 +32,4 @@ links:
 ## Exercise
 
 Write a specialized function called a `Closure`.
+ 

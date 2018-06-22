@@ -9,8 +9,8 @@ type: normal
 category: best practice
 
 standards:
-  js.evaluate-expressions.3: 10
-  js.write-expressions.1: 10
+  javascript.evaluate-expressions.3: 10
+  javascript.write-expressions.1: 10
 
 tags:
   - strings
@@ -20,6 +20,11 @@ tags:
 
 links:
   - '[jsperf.com](http://jsperf.com/string-concat-vs-array-join-10000){website}'
+
+aspects:
+  - introduction
+  - workout
+
 
 ---
 # Most efficient way to build `HTML` strings
@@ -90,3 +95,4 @@ What's the more efficient way to build `HTML` strings in modern browsers?
 * 1
 * 2
 * 3
+ 

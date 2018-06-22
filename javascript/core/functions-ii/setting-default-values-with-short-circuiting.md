@@ -12,8 +12,8 @@ type: normal
 category: pattern
 
 standards:
-  js.write-expressions.5: 10
-  js.functions.2: 10
+  javascript.evaluate-expressions.5: 10
+  javascript.functions.2: 10
 
 tags:
 
@@ -27,6 +27,11 @@ tags:
 links:
 
   - '[javascriptissexy.com](http://javascriptissexy.com/12-simple-yet-powerful-javascript-tips/){website}'
+
+
+aspects:
+  - introduction
+  - workout
 
 
 ---
@@ -85,3 +90,4 @@ function shortCir(name){
 * ||
 * &&
 * ==
+ 

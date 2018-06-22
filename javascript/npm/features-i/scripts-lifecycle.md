@@ -14,12 +14,18 @@ category: must-know
 parent: npm-variables
 
 standards:
-  js.npm-tasks-and-modules-manager.3: 10
+  javascript.npm-tasks-and-modules-manager.3: 10
 
 tags:
   - introduction
   - workout
   - deep
+
+aspects:
+  - introduction
+  - workout
+  - deep
+
 
 ---
 # Hook Scripts
@@ -66,3 +72,4 @@ $ ???
 * gulp
 * node -v
 * npm install
+ 

@@ -26,6 +26,11 @@ links:
   - '[blog post tutorial on SELECT](http://www.dofactory.com/sql/select){website}'
   - '[video tutorial on MySQL SELECT](https://www.youtube.com/watch?v=BgK88mlgA6I){video}'
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # SQL Practice Select
@@ -33,8 +38,8 @@ links:
 ---        
 ## Exercise
 
-Click *Launch Exercise* to open SQLFiddle. Run *Build Schema*. This creates and populates the Pokemon database.
-
-In the right-hand window, write a SQL query that answers the following question:
+Write a query in SQLFiddle that answers the following question:
 
 What is the `accuracy` of the move having `id` equal to 10?
+ 
+ 

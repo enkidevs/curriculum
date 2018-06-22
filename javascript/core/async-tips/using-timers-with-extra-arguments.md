@@ -15,7 +15,7 @@ category: must-know
 
 standards:
 
-  js.async.0: 10
+  javascript.async.0: 10
 
 tags:
 
@@ -24,6 +24,11 @@ tags:
   - workout
 
   - deep
+
+aspects:
+ - introduction
+ - workout
+ - deep
 
 
 links:
@@ -104,3 +109,7 @@ let t = setInterval(
 * `NaN`
 * `11 then 12 then 13`
 
+ 
+ 
+ 
+ 

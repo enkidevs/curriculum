@@ -13,8 +13,8 @@ link: http://www.codewars.com/kata/5733d6c2d780e20173000baa
 linkType: codewars
 standards:
 
-  js.standard-library.1: 1000
-  js.write-expressions.0: 1000
+  javascript.standard-library.1: 1000
+  javascript.write-expressions.0: 1000
 
 links:
 
@@ -30,3 +30,4 @@ links:
 ## Exercise
 
 Practice using the JavaScript Math methods `max()`, `min()` and `abs()`
+ 

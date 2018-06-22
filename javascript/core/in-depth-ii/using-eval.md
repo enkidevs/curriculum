@@ -25,6 +25,11 @@ links:
   - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval){website}'
 
 
+aspects:
+  - obscura
+  - workout
+
+
 ---
 
 # Using `eval`
@@ -71,3 +76,4 @@ Evaluating javascript code passed as a string is done by ???
 * evil()
 * (string).toJS()
 
+ 

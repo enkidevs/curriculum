@@ -78,3 +78,4 @@ To what browser is the Permission API currently limited to?
 * Mozilla
 * Internet Explorer
 
+ 

@@ -16,6 +16,10 @@ tags:
 
 
 
+aspects:
+  - introduction
+
+
 ---
 
 # `su` vs `sudo`
@@ -75,3 +79,4 @@ Running `su` will
 * give you root privileges for the next command.
 * switch to the next account in the list.
 
+ 

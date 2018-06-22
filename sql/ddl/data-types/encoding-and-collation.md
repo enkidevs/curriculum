@@ -23,6 +23,11 @@ tags:
 
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # Encoding and Collation
@@ -85,3 +90,5 @@ A function that maps bits to characters.
 * collation
 * encoding
 
+ 
+ 

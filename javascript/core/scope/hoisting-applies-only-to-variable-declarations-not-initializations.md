@@ -15,7 +15,7 @@ category: feature
 
 standards:
 
-  js.functions.5: 10
+  javascript.functions.5: 10
 
 tags:
 
@@ -33,6 +33,12 @@ tags:
 links:
 
   - '[stackoverflow.com](http://stackoverflow.com/questions/3725546/variable-hoisting){website}'
+
+
+aspects:
+  - workout
+  - deep
+  - obscura
 
 
 ---
@@ -84,3 +90,4 @@ var v = "enki";
 * enki
 * nothing
 
+ 

@@ -28,6 +28,11 @@ links:
   - '[Microsoft SQL Data Types](https://docs.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql){website}'
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # SQL Numeric Data Types
@@ -126,3 +131,5 @@ Which of the following data types is not a numeric type?
 ## Footnotes
 [1: Serials]
 https://hackernoon.com/the-night-the-postgresql-ids-ran-out-9430a2dbb895
+ 
+ 

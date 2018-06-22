@@ -13,8 +13,8 @@ link: http://www.codewars.com/kata/5729b103dd8bac11a900119e
 linkType: codewars
 standards:
 
-  js.standard-library.0: 1000
-  js.write-expressions.0: 1000
+  javascript.standard-library.0: 1000
+  javascript.write-expressions.0: 1000
 
 links:
 
@@ -28,3 +28,4 @@ links:
 ## Exercise
 
 Practice using the JavaScript String method `trim()` and the String template
+ 

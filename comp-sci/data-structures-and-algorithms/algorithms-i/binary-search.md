@@ -55,7 +55,7 @@ log n = m * log 2 = m * 1 = m
 We proved that the maximum number of operations is logarithmic relative to the total number of items. Does it make sense for us to say that the algorithm takes `O(log n)` time?
 
 Yes, it does! If you were to divide 200,000 in half 17 times, you'd end up with an astonishing total of **1.5** items you would still have to compare. In other words:
-```
+```text
 200,000 / 2 = 100,000
 100,000 / 2 = 50,000
 ...
@@ -86,3 +86,4 @@ The Big-O of the binary search algorithm is:
 * O(nˆ2)
 * O(n*log n)
 
+ 

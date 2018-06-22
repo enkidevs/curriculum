@@ -8,3 +8,4 @@ insights:
   - incorrect-time-on-dual-boot-systems
   - changing-the-timezone-on-deb-based-systems
   - force-a-time-update-with-ntp
+ 

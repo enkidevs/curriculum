@@ -35,7 +35,7 @@ $ git status
 ```
 The message in the code snippet above is shown when there are no *tracked* and *modified* files.
 
-Let's suppose you add `enki.txt` to your project. Running the same command you will see a different result:
+Let's suppose you add `enki.txt` to your project. Running the same command you will see a different result: 
 ```bash
 $ git status
 # On branch develop
@@ -97,3 +97,4 @@ $ git ???
 * `branch`
 * `list`
 
+ 

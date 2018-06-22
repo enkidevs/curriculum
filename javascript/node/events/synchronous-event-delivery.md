@@ -12,7 +12,7 @@ type: normal
 category: must-know
 
 standards:
-  js.events-asynchronous-operations.1: 20
+  javascript.events-asynchronous-operations.1: 20
 
 tags:
   - introduction
@@ -22,6 +22,11 @@ links:
   - '[Synchronous Event Delivery](https://blog.yld.io/2015/12/15/using-an-event-emitter/#.WI4ybbaLQy4){website}'
 
 parent: listening-to-events-just-once
+
+aspects:
+  - introduction
+  - workout
+
 
 ---
 # Synchronous event delivery
@@ -73,3 +78,4 @@ How is the delivery of events treated in Node?
 * asynchronously
 * instantly
 * random
+ 

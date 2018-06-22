@@ -13,16 +13,23 @@ category: feature
 
 standards:
 
-  js.data-types-structures.3: 10
+  javascript.data-types-structures.3: 10
 
-  js.data-types-structures.4: 10
-  js.evaluate-expressions.6: 10
-  js.evaluate-expressions.7: 10
+  javascript.data-types-structures.4: 10
+  javascript.evaluate-expressions.6: 10
+  javascript.evaluate-expressions.7: 10
+
+tags:
+  - introduction
 
 
 links:
 
   - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty){website}'
+
+
+aspects:
+  - introduction
 
 
 ---
@@ -53,7 +60,7 @@ client.hasOwnProperty('connect');
 
 Using `hasOwnProperty` is a reliable method of checking for the existence of a property of an object.
 
-It is considered a good practice to use `hasOwnProperty` in every `for in loop` to avoid errors from extended native prototypes.
+It is considered the right practice to use `hasOwnProperty` in every `for in loop` to avoid errors from extended native prototypes.
 
 ---
 ## Practice
@@ -92,3 +99,4 @@ enki.hasOwnProperty('practiceQuestion');
 * obj hasn’t got ‘prop’ as property
 * obj has the property
 * obj has the property and its value is null
+ 

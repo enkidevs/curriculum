@@ -13,8 +13,8 @@ category: best practice
 parent: check-data-about-a-package
 
 standards:
-  js.npm-tasks-and-modules-manager.1: 10
-  js.npm-tasks-and-modules-manager.3: 10
+  javascript.npm-tasks-and-modules-manager.1: 10
+  javascript.npm-tasks-and-modules-manager.3: 10
 
 tags:
   - workout
@@ -23,6 +23,11 @@ tags:
 
 links:
   - '[strongloop.com](https://strongloop.com/strongblog/3-neat-tricks-with-npm-run/){website}'
+
+aspects:
+  - workout
+  - deep
+
 
 ---
 # Flags for `npm`
@@ -99,3 +104,4 @@ In `package.json`, define a script that runs `node index.js`. Add to it the `--h
 * --har
 * -h
 * "abc"
+ 

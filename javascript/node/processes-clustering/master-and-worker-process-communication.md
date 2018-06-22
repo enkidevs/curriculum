@@ -11,11 +11,16 @@ type: normal
 category: tip
 
 standards:
-  js.node-standard-library-os.5: 20
+  javascript.node-standard-library-os.5: 20
 
 tags:
   - workout
   - deep
+
+aspects:
+  - workout
+  - deep
+
 
 ---
 # Master and Worker Process Communication
@@ -87,3 +92,4 @@ The following code snippet should send a string message from the **master** proc
 * on
 * master
 * process
+ 

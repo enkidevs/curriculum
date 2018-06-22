@@ -22,6 +22,12 @@ tags:
 
   - deep
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 
 # Handling Blobs in SQL
@@ -83,3 +89,5 @@ FROM OPENROWSET(??? 'pikachu.jpg',
 * `SINGLE_BLOB`
 * `AS`
 
+ 
+ 

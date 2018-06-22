@@ -10,7 +10,7 @@ type: normal
 category: best practice
 
 standards:
-  js.identify-common-design-patterns.2: 10
+  javascript.identify-common-design-patterns.2: 10
 
 tags:
   - introduction
@@ -19,6 +19,12 @@ tags:
 
 links:
   - '[www.joyent.com](https://www.joyent.com/developers/node/design/errors){website}'
+
+aspects:
+  - introduction
+  - workout
+  - deep
+
 
 ---
 # Use conventional property names for error handling in Node.js
@@ -63,3 +69,4 @@ Which one would be a conventional property name for error handling?
 * host
 * name
 * localName
+ 

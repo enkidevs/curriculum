@@ -12,16 +12,15 @@ category: must-know
 inAlgoPool: false
 
 standards:
-  js.control-flow.0: 10
-  js.control-flow.1: 10
+  javascript.control-flow.0: 10
+  javascript.control-flow.1: 10
 
 tags:
 
   - introduction
 
-  - workout
-
-
+aspects:
+  - introduction
 
 
 ---
@@ -60,7 +59,10 @@ else {
 ...
 }
 ```
-Sometimes code can be more readable using the switch statement although some developers feel this can be a bad idea as can lead to hard to maintain code:
+
+**Switch Statements**
+
+Code can be more readable using the switch statement if there are many cases for a single value.
 
 ```
 switch (customerType){
@@ -124,3 +126,4 @@ if (condition <= 0) {
 * `switch`
 * `case`
 * `==`
+ 

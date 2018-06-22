@@ -10,8 +10,8 @@ type: normal
 category: best practice
 
 standards:
-  js.identify-common-design-patterns.0: 20
-  js.use-modules.0: 20
+  javascript.identify-common-design-patterns.0: 20
+  javascript.use-modules.0: 20
 
 tags:
   - workout
@@ -20,6 +20,11 @@ tags:
 links:
   - '[blog.risingstack.com](https://blog.risingstack.com/fundamental-node-js-design-patterns/){website}'
   - '[thenodeway.io](http://thenodeway.io/posts/designing-factories/){website}'
+
+aspects:
+  - workout
+  - deep
+
 
 ---
 # Factories design pattern
@@ -109,3 +114,4 @@ Which of the following statements about the factory design pattern do you consid
 * factories begin to be useful when working with complex constructors
 * specific methods will create objects instead of the constructor
 * factory methods will call the constructor themselves
+ 

@@ -95,3 +95,4 @@ $ ??? ??? | ???
 ## Footnotes
 [1:OS specific]
 Some of the Linux distributions might not have `lspci` installed by default. If that is the case, you have to install `pciutils` package.
+ 

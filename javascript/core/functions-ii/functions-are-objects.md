@@ -13,9 +13,9 @@ inAlgoPool: false
 
 standards:
 
-  js.functions.4: 10
+  javascript.functions.4: 10
 
-  js.functions.8: 10
+  javascript.functions.8: 10
 
 tags:
 
@@ -28,6 +28,13 @@ tags:
   - obscura
 
 
+
+
+aspects:
+  - introduction
+  - workout
+  - deep
+  - obscura
 
 
 ---
@@ -123,3 +130,4 @@ console.log(x(1, 2, 3));
 * `fn`
 * `()`
 
+ 

@@ -12,8 +12,8 @@ type: normal
 category: must-know
 
 standards:
-  js.use-modules.1: 20
-  js.identify-common-design-patterns.6: 10
+  javascript.use-modules.1: 20
+  javascript.identify-common-design-patterns.6: 10
 
 tags:
   - introduction
@@ -23,6 +23,11 @@ links:
   - '[Node Module Patterns](https://darrenderidder.github.io/talks/ModulePatterns/#/5){website}'
 
 parent: local-modules
+
+aspects:
+  - introduction
+  - workout
+
 
 ---
 # Module patterns
@@ -96,3 +101,4 @@ foo();
 * )
 * ).module
 * ).exports
+ 

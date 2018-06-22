@@ -9,7 +9,7 @@ type: normal
 category: must-know
 
 standards:
-  js.npm-tasks-and-modules-manager.0: 10
+  javascript.npm-tasks-and-modules-manager.0: 10
 
 tags:
   - introduction
@@ -17,6 +17,11 @@ tags:
 
 links:
   - '[docs.npmjs.com](https://docs.npmjs.com/getting-started/what-is-npm){website}'
+
+aspects:
+  - introduction
+  - workout
+
 
 ---
 # What is npm?
@@ -58,3 +63,4 @@ The aim of a package is to
 * node package manager
 * new package manager
 * node packet manager
+ 

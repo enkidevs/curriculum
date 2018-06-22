@@ -11,7 +11,7 @@ type: normal
 category: how to
 
 standards:
-  js.express-server.4: 10
+  javascript.express-server.4: 10
 
 links:
   - '[github.com](https://github.com/expressjs/morgan){website}'
@@ -97,3 +97,4 @@ app.???(???('tiny'));
 * install
 * make
 * logger
+ 

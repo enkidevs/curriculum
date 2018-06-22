@@ -25,6 +25,11 @@ links:
   - '[Permissions](https://wiki.archlinux.org/index.php/File_permissions_and_attributes){website}'
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # File Ownership
@@ -74,3 +79,4 @@ You can use `???` to see which user or group owns a specific _file_.
 * `ls -a`
 * `ls -o`
 * `ls -d`
+ 

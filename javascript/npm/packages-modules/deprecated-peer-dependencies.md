@@ -14,9 +14,9 @@ category: feature
 parent: dependencies
 
 standards:
-  js.use-open-source-javascript-packages.1: 10
-  js.npm-publish.0: 10
-  js.npm-tasks-and-modules-manager.0: 10
+  javascript.use-open-source-javascript-packages.1: 10
+  javascript.npm-publish.0: 10
+  javascript.npm-tasks-and-modules-manager.0: 10
 
 tags:
   - workout
@@ -25,6 +25,12 @@ tags:
 
 links:
   - '[Peer dependencies](https://nodejs.org/en/blog/npm/peer-dependencies/)'
+
+aspects:
+  - workout
+  - deep
+  - new
+
 
 ---
 # Deprecated peer dependencies
@@ -95,3 +101,4 @@ Add a peer dependency called `enki` to your package using npm3+:
 * dependencies
 * enki:peer
 * devDependencies
+ 

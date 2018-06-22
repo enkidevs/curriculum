@@ -29,6 +29,11 @@ links:
 
   - '[More on ORDER BY](http://www.dofactory.com/sql/order-by){website}'
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # Order By clause
@@ -86,7 +91,7 @@ Note that the ascending order is set as default. If we want to display the resul
 ---
 ## Practice
 
-The nature_name table has data about the nature name in multiple languages. We have the fields:
+The `nature_name` table has data about the nature name in multiple languages. We have the fields:
 `name`, for nature name and `language_id` to reflect the given language.
 Count how many names we have for each language and order the result in descending order:
 ```sql
@@ -173,3 +178,5 @@ This table shows how much experience you need to gain in order to get to level 1
 * SELECT * FROM experience WHERE level=100 ORDER BY growth_rate_id DESC;
 * SELECT * FROM experience WHERE level=100 DESC ORDER BY experience;
 * SELECT * FROM experience WHERE level=100 ORDER DESC BY experience;
+ 
+ 

@@ -14,22 +14,20 @@ type: normal
 category: best practice
 
 standards:
-  js.data-types-structures.2: 10
-  js.data-types-structures.3: 10
-  js.data-types-structures.6: 10
-  js.functions.4: 10
+  javascript.data-types-structures.2: 10
+  javascript.data-types-structures.3: 10
+  javascript.data-types-structures.6: 10
+  javascript.functions.4: 10
 
 tags:
-
   - introduction
-
   - workout
-
   - functional-programming
-
   - arrays
 
-
+aspects:
+  - introduction
+  - workout
 
 
 ---
@@ -95,3 +93,5 @@ var div3 = numbers.???( num =>
 * for and if
 * if
 * for and alert
+ 
+ 

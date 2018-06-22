@@ -14,12 +14,18 @@ category: must-know
 parent: semantic-versioning
 
 standards:
-  js.npm-publish.3: 10
+  javascript.npm-publish.3: 10
 
 tags:
   - introduction
   - workout
   - deep
+
+aspects:
+  - introduction
+  - workout
+  - deep
+
 
 ---
 # Packages vs Modules
@@ -73,3 +79,4 @@ Node's `require()` looks for code in
 * node_modules
 * package.json
 * node_packages
+ 

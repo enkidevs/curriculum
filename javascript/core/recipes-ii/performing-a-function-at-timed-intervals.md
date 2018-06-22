@@ -13,7 +13,7 @@ category: how to
 
 standards:
 
-  js.async.0: 10
+  javascript.async.0: 10
 
 tags:
 
@@ -28,6 +28,12 @@ tags:
   - fundamental
 
 
+
+
+aspects:
+  - workout
+  - introduction
+  - deep
 
 
 ---
@@ -91,3 +97,4 @@ var loop = ???
 * 200
 * function
 
+ 

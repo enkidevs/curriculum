@@ -34,6 +34,7 @@ full history of the project.
 %exp
 Centralized Version Control refers to a single, complete copy of the repository on a server, while Local Version Control means saving all file versions on the same machine.
 %
+
 ---
 ```
 A single server keeps all the versions of
@@ -44,8 +45,9 @@ the latest version.
 * Distributed Version Control
 * Local Version Control
 %exp
-Users of Distributed Version Control can access the whole history of the project and and Local Version Control stores files locally.
+Users of Distributed Version Control can access the whole history of the project and Local Version Control stores files locally.
 %
+
 ---
 ```
 The most widely used Distributed Version
@@ -58,6 +60,7 @@ Control System.
 %exp
 Google Trends places `git` as the VCS with the most searches, accounting for 70% look-ups for the top 5 most-searched VCSs.
 %
+
 ---
 ```
 The git folder containing the changes
@@ -70,6 +73,7 @@ history.
 %exp
 The official name for a folder containing the git-specific files is `repository`.
 %
+
 ---
 ```
 A tracked file, stored in the repository.
@@ -81,6 +85,7 @@ A tracked file, stored in the repository.
 %exp
 If a file is in the repository, it means that it has been `committed`.
 %
+
 ---
 ```
 A tracked file, ready to be committed.
@@ -92,6 +97,7 @@ A tracked file, ready to be committed.
 %exp
 In order for a file to be `committed`, it has to be watched by git (`tracked`) and the changes to the file to be acknowledged (`staged`).
 %
+
 ---
 ```
 A file that git knows it is there.
@@ -103,6 +109,7 @@ A file that git knows it is there.
 %exp
 A file for which git calculates content differences is called a `tracked` file.
 %
+
 ---
 ```
 A file git doesn't know anything about.
@@ -114,6 +121,7 @@ A file git doesn't know anything about.
 %exp
 A new file in the local repository which is yet to be watched by git is called an `untracked` file.
 %
+
 ---
 ```
 A pointer to a specific base commit.
@@ -125,6 +133,7 @@ A pointer to a specific base commit.
 %exp
 Branching is a moment in time (commit history) when the main tree is split into two.
 %
+
 ---
 ```
 A copy of the repository as a whole.
@@ -136,3 +145,4 @@ A copy of the repository as a whole.
 %exp
 The action of downloading the code from a git repository is called `cloning`.
 %
+ 

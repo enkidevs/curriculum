@@ -12,8 +12,8 @@ type: normal
 category: must-know
 
 standards:
-  js.events-asynchronous-operations.0: 10
-  js.events-asynchronous-operations.1: 10
+  javascript.events-asynchronous-operations.0: 10
+  javascript.events-asynchronous-operations.1: 10
 
 tags:
   - introduction
@@ -23,6 +23,11 @@ links:
   - '[Node Events](https://nodesource.com/blog/understanding-the-nodejs-event-loop/){website}'
 
 parent: module-patterns
+
+aspects:
+  - introduction
+  - workout
+
 
 ---
 # Consuming events
@@ -91,3 +96,4 @@ Which method is called to register a callback function to run when an event is t
 * .on
 * .event
 * .start
+ 

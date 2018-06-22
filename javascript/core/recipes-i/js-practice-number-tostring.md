@@ -13,8 +13,8 @@ link: http://www.codewars.com/kata/57238ceaef9008adc7000603
 linkType: codewars
 standards:
 
-  js.standard-library.2: 1000
-  js.write-expressions.0: 1000
+  javascript.standard-library.2: 1000
+  javascript.write-expressions.0: 1000
 
 links:
 
@@ -29,3 +29,4 @@ links:
 ## Exercise
 
 Practice using the JavaScript Numbers methods `toString()` and `toLocaleString()`
+ 

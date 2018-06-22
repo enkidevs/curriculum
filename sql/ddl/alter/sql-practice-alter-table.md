@@ -7,7 +7,6 @@ levels:
   - medium
 
 tags:
-  - introduction
   - workout
 
 type: exercise
@@ -25,6 +24,10 @@ links:
   - '[blog post on MySQL define tables](https://www.w3schools.com/sql/sql_alter.asp){website}'
   - '[video tutorial on alter table](https://youtu.be/vDr2DZeU5mY?t=50s){video}'
 
+aspects:
+  - workout
+
+
 ---
 
 # SQL Practice Aggregate Average
@@ -41,3 +44,5 @@ Write a statement to modify the `item_pictures`, changing the maximum length of 
 *Note:* Don't directly edit the `CREATE` statements; instead, write a new statement to alter the table.
 
 To submit, run your SQL and then add the link from SQLFiddle to your submission.  
+ 
+ 

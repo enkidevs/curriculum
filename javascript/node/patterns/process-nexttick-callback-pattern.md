@@ -14,13 +14,19 @@ type: normal
 category: best practice
 
 standards:
-  js.events-asynchronous-operations.2: 10
-  js.async.1: 10
+  javascript.events-asynchronous-operations.2: 10
+  javascript.async.1: 10
 
 tags:
   - workout
   - deep
   - obscura
+
+aspects:
+  - workout
+  - deep
+  - obscura
+
 
 ---
 # `process.nextTick()` callback pattern
@@ -85,3 +91,4 @@ What can be used to replicate the basic behaviour of `setTimeout(fn, 0)`?
 * process.nextTick()
 * process.next()
 * process.nextTick(0)
+ 

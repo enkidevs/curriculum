@@ -33,6 +33,10 @@ tags:
 
 notes: ''
 
+aspects:
+  - workout
+
+
 ---
 
 # Execute a command without saving it in history
@@ -72,3 +76,4 @@ at the beginning of a command will make `history` not record it.
 * @
 * !
 * ?
+ 

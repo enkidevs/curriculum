@@ -14,13 +14,19 @@ category: feature
 parent: scripts-lifecycle
 
 standards:
-  js.npm-tasks-and-modules-manager.1: 10
-  js.npm-tasks-and-modules-manager.3: 10
+  javascript.npm-tasks-and-modules-manager.1: 10
+  javascript.npm-tasks-and-modules-manager.3: 10
 
 tags:
   - introduction
   - workout
   - deep
+
+aspects:
+  - introduction
+  - workout
+  - deep
+
 
 ---
 # Remote Scripts
@@ -108,3 +114,4 @@ The syntax to add an `external_script.sh` to *package.json* is:
 * ./external_script.sh
 * script
 * external_script.js
+ 

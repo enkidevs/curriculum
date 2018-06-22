@@ -8,3 +8,4 @@ insights:
   - create-a-new-branch-from-a-stash
   - stashing-changes
   - useful-stashing-options
+ 

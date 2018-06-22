@@ -28,6 +28,12 @@ links:
   - '[blog post on MySQL aggregate functions](https://www.guru99.com/aggregate-functions.html){website}'
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=sgAvl7ry5jY){video}'
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 
 # SQL Practice Aggregate Group
@@ -40,3 +46,5 @@ Write a series of SQL queries that do the following:
 For each effect in the `item_fling_effect` table, count the number of `item`s that have that effect.
 
 Then, submit the `name` of the fling effect that has exactly 2 items.
+ 
+ 

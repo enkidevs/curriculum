@@ -11,8 +11,8 @@ type: normal
 category: feature
 
 standards:
-  js.use-open-source-javascript-packages.0: 10
-  js.npm-publish.0: 10
+  javascript.use-open-source-javascript-packages.0: 10
+  javascript.npm-publish.0: 10
 
 tags:
   - workout
@@ -22,6 +22,11 @@ parent: check-data-about-a-package
 
 links:
   - '[docs.npmjs.com](https://docs.npmjs.com/files/package.json#optionaldependencies){website}'
+
+
+aspects:
+  - workout
+  - deep
 
 
 ---
@@ -83,3 +88,4 @@ In what object of `package.json` can dispensable dependencies be specified?
 * peerDependencies
 * devDependenceis
 * dependencies
+ 

@@ -13,10 +13,10 @@ link: https://www.codewars.com/kata/speedcode-number-3-x-fun-with-es6-classes-nu
 linkType: codewars
 standards:
 
-  js.prototype-class.0: 1000
-  js.prototype-class.1: 1000
-  js.prototype-class.2: 1000
-  js.prototype-prototype.0: 1000
+  javascript.prototype-class.0: 1000
+  javascript.prototype-class.1: 1000
+  javascript.prototype-class.2: 1000
+  javascript.prototype-inherit.0: 1000
 
 links:
 
@@ -30,3 +30,4 @@ links:
 ## Exercise
 
 Apply your knowledge of JavaScript Class Inheritance in this Code Wars challenge!
+ 

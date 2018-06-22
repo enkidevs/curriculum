@@ -44,3 +44,45 @@ x = 'hey'
 e = 2.71
 greeting = 'hey'
 ```
+
+---
+## Practice
+
+What will the type of the `n` variable will be eventually?
+
+```python
+n = 'hello'
+n = 9
+n = 5.9
+n = 4
+
+print(type(n))
+???
+```
+
+* int
+* float
+* string
+
+---
+## Revision
+
+What will the type of `d` variable will be eventually?
+
+```python
+d = 'h'
+d = 'hello world'
+
+def d():
+  pass
+
+print(type(d))
+```
+???
+
+* function
+* type
+* int
+* string
+* char
+ 

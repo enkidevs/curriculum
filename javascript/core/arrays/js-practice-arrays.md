@@ -8,7 +8,10 @@ levels:
   - basic
 
 tags:
+  - introduction
 
+
+aspects:
   - introduction
 
 type: exercise
@@ -16,13 +19,13 @@ type: exercise
 link: http://www.codewars.com/kata/571effabb625ed9b0600107a
 linkType: codewars
 standards:
-  js.evaluate-expressions.6: 1000
-  js.evaluate-expressions.7: 1000
-  js.data-types-structures.2: 1000
-  js.data-types-structures.3: 5000
-  js.data-types-structures.4: 5000
-  js.data-types-structures.6: 3000
-  js.write-expressions.0: 5000
+  javascript.evaluate-expressions.6: 1000
+  javascript.evaluate-expressions.7: 1000
+  javascript.data-types-structures.2: 1000
+  javascript.data-types-structures.3: 5000
+  javascript.data-types-structures.4: 5000
+  javascript.data-types-structures.6: 3000
+  javascript.write-expressions.0: 5000
 
 links:
 
@@ -38,3 +41,4 @@ links:
 ## Exercise
 
 Practice using JavaScript Arrays on Code Wars
+ 

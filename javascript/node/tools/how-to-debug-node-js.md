@@ -10,8 +10,8 @@ type: normal
 category: feature
 
 standards:
-  js.node-developer-environment.6: 20
-  js.use-modules.2: 20
+  javascript.node-developer-environment.5: 20
+  javascript.use-modules.2: 20
 
 tags:
   - introduction
@@ -21,6 +21,12 @@ tags:
 links:
   - '[stackoverflow.com](http://stackoverflow.com/questions/1911015/how-do-i-debug-node-js-applications/31502652#31502652){website}'
   - '[github.com](https://github.com/s-a/iron-node){website}'
+
+aspects:
+  - introduction
+  - workout
+  - deep
+
 
 ---
 # How to debug Node.js
@@ -83,3 +89,4 @@ $ ??? ??? app.js
 * debugger
 * node-debug
 * iron-node
+ 

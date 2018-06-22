@@ -15,9 +15,9 @@ category: how to
 
 standards:
 
-  js.evaluate-expressions.3: 10
+  javascript.evaluate-expressions.3: 10
 
-  js.write-expressions.1: 10
+  javascript.write-expressions.1: 10
 
 tags:
 
@@ -33,6 +33,11 @@ tags:
 links:
 
   - '[stackoverflow.com](http://stackoverflow.com/questions/805107/creating-multiline-strings-in-javascript/6247331#6247331){website}'
+
+
+aspects:
+  - introduction
+  - workout
 
 
 ---
@@ -89,3 +94,4 @@ The new standard for multi-lined string is using ??? .
 * single quotes
 * double quote
 
+ 

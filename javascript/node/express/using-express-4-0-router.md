@@ -10,9 +10,9 @@ type: normal
 category: must-know
 
 standards:
-  js.express-server.1: 10
-  js.express-server.2: 10
-  js.express-server.4: 10
+  javascript.express-server.1: 10
+  javascript.express-server.2: 10
+  javascript.express-server.4: 10
 
 links:
   - '[scotch.io](https://scotch.io/tutorials/learn-to-use-the-new-router-in-expressjs-4){website}'
@@ -98,3 +98,4 @@ app.???('/simple', function(req, res) {
 * req
 * app
 * router
+ 

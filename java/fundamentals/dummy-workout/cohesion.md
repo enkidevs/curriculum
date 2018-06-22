@@ -51,3 +51,4 @@ Out of the following, which are the two characteristics of good code?
 * tight coupling and low cohesion
 * loose coupling and low cohesion
 * tight coupling and high cohesion
+ 

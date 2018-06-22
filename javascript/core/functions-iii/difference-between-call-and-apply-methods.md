@@ -15,9 +15,9 @@ category: must-know
 
 standards:
 
-  js.functions.1: 10
+  javascript.functions.1: 10
 
-  js.execution-context.1: 10
+  javascript.execution-context.1: 10
 
 tags:
 
@@ -29,6 +29,11 @@ tags:
 links:
 
   - '[stackoverflow.com](http://stackoverflow.com/questions/1986896/what-is-the-difference-between-call-and-apply){website}'
+
+
+aspects:
+  - introduction
+  - workout
 
 
 ---
@@ -70,3 +75,4 @@ function.???(obj, 1, 2, 3);
 * `call`
 * `apply`
 
+ 

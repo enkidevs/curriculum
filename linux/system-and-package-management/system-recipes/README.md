@@ -8,3 +8,4 @@ insights:
   - changing-the-tmp-cleanup-frequency
   - revision-control-of-configuration-files-with-git
   - cpu-benchmark-with-dd
+ 

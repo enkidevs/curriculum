@@ -11,18 +11,24 @@ category: how to
 
 standards:
 
-  js.data-types-structures.3: 10
+  javascript.data-types-structures.3: 10
 
-  js.data-types-structures.4: 10
-  js.evaluate-expressions.6: 10
-  js.evaluate-expressions.7: 10
+  javascript.data-types-structures.4: 10
+  javascript.evaluate-expressions.6: 10
+  javascript.evaluate-expressions.7: 10
 
+tags:
+  - introduction
 
 links:
 
   - '[stackoverflow.com](http://stackoverflow.com/questions/208105/how-to-remove-a-property-from-a-javascript-object){website}'
 
 notes: Hope it's not too basics?
+
+aspects:
+  - introduction
+
 
 ---
 
@@ -97,3 +103,4 @@ console.log(obj);
 * `{ one: undefined }`
 * `{ one: null }`
 * `{ }`
+ 

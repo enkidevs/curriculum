@@ -14,13 +14,19 @@ category: how to
 parent: remote-scripts
 
 standards:
-  js.npm-publish.0: 10
-  js.npm-tasks-and-modules-manager.0: 10
+  javascript.npm-publish.0: 10
+  javascript.npm-tasks-and-modules-manager.0: 10
 
 tags:
   - workout
   - deep
   - new
+
+aspects:
+  - workout
+  - deep
+  - new
+
 
 ---
 # Creating a Node Module
@@ -75,3 +81,4 @@ Usually, a module id is
 * the name of the main JavaScript file
 * the name of the first function
 * defined in the *package.json*
+ 

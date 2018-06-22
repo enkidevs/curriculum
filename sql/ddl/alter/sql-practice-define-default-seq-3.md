@@ -15,7 +15,7 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/e1b3a1/2
+link: http://sqlfiddle.com/#!9/3d4c1
 
 answer: 1
 
@@ -29,13 +29,21 @@ links:
   - '[blog post on MySQL define tables](https://www.tutorialspoint.com/mysql/mysql-using-sequences.htm){website}'
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=5KqFoTswr-M){video}'
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 
-# SQL Practice Aggregate Average
+# SQL Practice Sequences
 
 ---        
 ## Exercise
 
-We need to alter our `users` table so that the `user_id` property increments by *10* instead of 1. For reasons. Thankfully, this schema is _not_ in production, so you can alter it as much as you want.
+We want to create a new database for our products. We have a lot of products to import- around 10,000 of them. They all already have IDs from our old database, that start at 0. We'll have other associated data that references those IDs as well.
 
-Alter the schema in the lefthand panel. To test your answer, run the DQL query provided after pressing *Build Schema*. When you are fininshed, write the first value returned in the submission doc.
+We won't have the data to import for a few weeks, but we know that we want to start adding new products to the database right away.
+Start the auto-incrementing ID at 100,000, just in case there are more than we realized.
+ 

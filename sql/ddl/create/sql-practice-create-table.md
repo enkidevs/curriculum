@@ -31,6 +31,11 @@ links:
   - '[explainer on how to create tables](https://www.w3schools.com/sql/sql_create_table.asp){website}'
   - '[video tutorial on creating tables](https://youtu.be/EaRj0S3K32Y?t=58s){video}'
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # SQL Practice Create Table
 
@@ -68,3 +73,5 @@ In total, you will need to:
 - *add the seed data*
 - `SELECT count(name) from items;`
 - *provide the result of the above query in the answer field*
+ 
+ 

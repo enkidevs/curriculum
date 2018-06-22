@@ -11,7 +11,7 @@ type: normal
 category: must-know
 
 standards:
-  js.npm-publish.3: 10
+  javascript.npm-publish.3: 10
 
 tags:
   - workout
@@ -21,6 +21,11 @@ links:
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/version){website}'
 
 parent: check-data-about-a-package
+
+aspects:
+  - workout
+  - introduction
+
 
 ---
 # Bump package version in npm
@@ -89,3 +94,4 @@ $ npm version ???
 * minor
 * major
 * patch
+ 

@@ -11,9 +11,9 @@ type: normal
 category: how to
 
 standards:
-  js.express-server.1: 10
-  js.express-server.4: 10
-  cs.http-request-response.12: 10
+  javascript.express-server.1: 10
+  javascript.express-server.4: 10
+  comp-sci.http-request-response.12: 10
 
 links:
   - '[github.com](https://github.com/expressjs/cookie-session){website}'
@@ -91,3 +91,4 @@ var cookieSess = ???('???');
 * session
 * import
 * cookie-express
+ 

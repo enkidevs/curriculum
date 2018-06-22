@@ -11,7 +11,7 @@ category: caveats
 
 standards:
 
-  js.exceptions.2: 10
+  javascript.exceptions.2: 10
 
 tags:
 
@@ -24,6 +24,12 @@ tags:
 
 
 parent: no-block-scope
+
+aspects:
+  - workout
+  - deep
+  - obscura
+
 
 ---
 
@@ -64,3 +70,4 @@ Even though Javascript is function scoped, the variable in ??? is block scoped.
 * the try clause
 * a for loop
 
+ 

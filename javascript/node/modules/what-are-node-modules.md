@@ -12,8 +12,8 @@ type: normal
 category: must-know
 
 standards:
-  js.use-modules.0: 10
-  js.node-developer-environment.2: 10
+  javascript.use-modules.0: 10
+  javascript.node-developer-environment.2: 10
 
 tags:
   - introduction
@@ -23,6 +23,11 @@ links:
   - '[Node Modules](http://book.mixu.net/node/ch8.html){website}'
 
 parent: npm-nodes-package-manager
+
+aspects:
+  - introduction
+  - workout
+
 
 ---
 # What are Node Modules?
@@ -62,3 +67,4 @@ Where are third party Node.js modules installed to?
 * local_modules
 * libraries
 * libs
+ 

@@ -92,3 +92,4 @@ When we create an object which extends `Thread` do we need to pass this object t
 * No, as it is a thread itself
 * Yes, as it is only a runnable object
 
+ 

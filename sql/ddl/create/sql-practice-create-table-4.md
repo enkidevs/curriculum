@@ -32,6 +32,11 @@ links:
   - '[explainer on sql dates](https://www.w3schools.com/sql/sql_dates.asp){website}'
   - '[video tutorial on creating tables](https://youtu.be/EaRj0S3K32Y?t=58s){video}'
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # SQL Practice Create Join Table
 
@@ -77,3 +82,5 @@ In total, you will need to:
 - *run the provided query*
 - *which item is the most requested?*
 - *Enter the ID of the most requested item in the answer field*
+ 
+ 

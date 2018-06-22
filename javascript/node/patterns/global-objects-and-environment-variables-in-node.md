@@ -10,7 +10,7 @@ type: normal
 category: must-know
 
 standards:
-  js.identify-common-design-patterns.2: 10
+  javascript.identify-common-design-patterns.2: 10
 
 tags:
   - introduction
@@ -19,6 +19,11 @@ tags:
 links:
   - '[nodejs.org](https://nodejs.org/docs/latest/api/globals.html){website}'
   - '[nodejs.org](https://nodejs.org/api/process.html#process_process_env){website}'
+
+aspects:
+  - introduction
+  - workout
+
 
 ---
 # Global Objects and Environment Variables in **Node**
@@ -90,3 +95,4 @@ console.log(???.???);
 * args
 * node
 * console
+ 

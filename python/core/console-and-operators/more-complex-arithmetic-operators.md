@@ -1,6 +1,10 @@
 ---
 author: tommarshall
 
+tags:
+
+  - introduction
+
 levels:
 
   - beginner
@@ -11,20 +15,17 @@ category: must-know
 
 inAlgoPool: false
 
-
-
+standards:
+  python.native-types-operations.2: 10
 
 ---
 
 # More Complex Arithmetic Operators
 
-standards:
-  py.native-types-operations.2: 10
-
 ---
 ## Content
 
-Python also supports the `**` arithmetic operator, which multiplies a number to the power of another.
+Python supports the `**` arithmetic operator, which multiplies a number to the power of another.
 
 Here's this operator in use:
 ```python
@@ -33,14 +34,14 @@ Here's this operator in use:
 ```
 This code executes as 2 to the power of 4.
 
-It also supports the modulo operator, `%`, which is used to return the integer remainder of a division sum.
+Python also supports the modulo operator, `%`, which is used to return the integer remainder of a division sum.
 
 Here's this operator in use:
 ```python
 >>> 14 % 3
 2
 ```
-14 divided by 3 equals 4 remainder 2, the modulo operator returns the remainder, therefore 2 is returned.
+14 divided by 3 equals 4 remainder 2. The modulo operator returns the remainder, 2.
 
 ---
 ## Practice
@@ -62,13 +63,13 @@ Complete the following code snippet to execute 3 to the power of 4:
 What does the following code snippet return:
 
 ```
-14 % 3
+11 % 4
 ```
 ???
 
 
 * `2`
 * `3`
-* `4`
+* `7`
 * `2.5`
 * `4.66`

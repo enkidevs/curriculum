@@ -35,6 +35,7 @@ console.log(window.location.protocol);
 %exp
 The `window.location.protocol` property returns the web protocol of the page.
 %
+
 ---
 ```
 // For https://www.enki.com/
@@ -46,6 +47,7 @@ console.log(window.location.host);
 %exp
 `window.location.host` property returns the name of the internet host (of the current page).
 %
+
 ---
 ```
 // https://enki.com/#contact
@@ -57,6 +59,7 @@ console.log(window.location.pathname);
 %exp
 This property returns the pathname of the current page.
 %
+
 ---
 ```
 // https://enki.com/#contact
@@ -70,6 +73,7 @@ The property returns the anchor part of the URL, including the hash (#) sign.
 
 The anchor part of a `URL` is a internal page reference, it usually appears at the end of the `URL` and it refers to a section within a web page.
 %
+
 ---
 ```
 // For https://enki.com/#contact
@@ -83,3 +87,4 @@ console.log(window.location);
 %exp
 This property returns the whole `URL` it is applied to. It is usually used in JavaScript to redirect the browser to that location it is returning.
 %
+ 

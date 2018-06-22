@@ -13,7 +13,7 @@ inAlgoPool: false
 
 standards:
 
-  js.exceptions.4: 10
+  javascript.exceptions.4: 10
 
 tags:
 
@@ -22,6 +22,11 @@ tags:
   - workout
 
 
+
+
+aspects:
+  - introduction
+  - workout
 
 
 ---
@@ -82,3 +87,4 @@ How can you log variables into the console?
 * `debugger;`
 * `addVar`
 
+ 

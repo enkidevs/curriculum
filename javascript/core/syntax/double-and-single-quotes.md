@@ -15,7 +15,7 @@ category: best practice
 
 standards:
 
-  js.javascript-syntax.2: 10
+  javascript.javascript-syntax.2: 10
 
 tags:
 
@@ -23,9 +23,10 @@ tags:
 
   - introduction
 
-  - json, readability
 
-
+aspects:
+  - obscura
+  - introduction
 
 
 ---
@@ -35,7 +36,7 @@ tags:
 ---
 ## Content
 
-Generally, double and single quotes are handled the same way. 
+Generally, double and single quotes are handled the same way.
 
 ```
 str1 = 'I\'m a string.';
@@ -65,4 +66,4 @@ JSON standard requires every string to be ??? quoted.
 
 * double
 * single
-
+ 

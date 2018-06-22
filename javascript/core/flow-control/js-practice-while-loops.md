@@ -13,10 +13,10 @@ link: http://www.codewars.com/kata/57216d4bcdd71175d6000560
 linkType: codewars
 standards:
 
-  js.control-flow.0: 1000
-  js.control-flow.4: 1000
-  js.control-flow.5: 1000
-  js.write-expressions.0: 1000
+  javascript.control-flow.0: 1000
+  javascript.control-flow.4: 1000
+  javascript.control-flow.5: 1000
+  javascript.write-expressions.0: 1000
 
 links:
 
@@ -30,3 +30,4 @@ links:
 ## Exercise
 
 Practice using JavaScript While-Loops on Code Wars
+ 

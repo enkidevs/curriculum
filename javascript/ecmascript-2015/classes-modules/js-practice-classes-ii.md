@@ -13,9 +13,9 @@ link: https://www.codewars.com/kata/fun-with-es6-classes-number-6-fake-files-bas
 linkType: codewars
 standards:
 
-  js.prototype-class.0: 1000
-  js.prototype-class.1: 1000
-  js.prototype-class.2: 1000
+  javascript.prototype-class.0: 1000
+  javascript.prototype-class.1: 1000
+  javascript.prototype-class.2: 1000
 
 links:
 
@@ -28,3 +28,4 @@ links:
 ## Exercise
 
 Apply your knowledge of JavaScript Classes in this Code Wars challenge!
+ 

@@ -13,11 +13,11 @@ category: feature
 
 standards:
 
-  js.evaluate-expressions.3: 10
+  javascript.evaluate-expressions.3: 10
 
-  js.write-expressions.1: 10
+  javascript.write-expressions.1: 10
 
-  js.standard-library.0: 10
+  javascript.standard-library.0: 10
 
 tags:
 
@@ -33,6 +33,11 @@ tags:
 links:
 
   - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test){website}'
+
+
+aspects:
+  - introduction
+  - workout
 
 
 ---
@@ -90,3 +95,4 @@ Matching a string with a RegEx is done by
 * regex.match(string);
 * regex.check(string);
 
+ 

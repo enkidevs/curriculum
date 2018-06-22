@@ -12,9 +12,9 @@ type: normal
 category: must-know
 
 standards:
-  js.read-and-write-streams.0: 20
-  js.node-standard-library-os.0: 20
-  js.events-asynchronous-operations.1: 20
+  javascript.read-and-write-streams.0: 20
+  javascript.node-standard-library-os.0: 20
+  javascript.events-asynchronous-operations.1: 20
 
 tags:
   - introduction
@@ -26,6 +26,12 @@ links:
   - '[Chaining](http://www.naeemrana.com/node-js/node-js-streams-pipe-and-chaining/){website}'
 
 parent: piping-readable-streams
+
+aspects:
+  - introduction
+  - workout
+  - deep
+
 
 ---
 # Chaining Readable Streams
@@ -78,3 +84,4 @@ Which function is used to chain streams together?
 * pipe()
 * new-pipe()
 * chain()
+ 

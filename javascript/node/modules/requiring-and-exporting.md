@@ -12,8 +12,8 @@ type: normal
 category: must-know
 
 standards:
-  js.use-modules.0: 20
-  js.use-modules.1: 20
+  javascript.use-modules.0: 20
+  javascript.use-modules.1: 20
 
 tags:
   - introduction
@@ -23,6 +23,11 @@ links:
   - '[Node Modules](https://www.bennadel.com/blog/2169-where-does-node-js-and-require-look-for-modules.htm){website}'
 
 parent: what-are-node-modules
+
+aspects:
+  - introduction
+  - workout
+
 
 ---
 # Requiring and Exporting
@@ -76,3 +81,4 @@ var mod = ???('./module.js');
 * require
 * export
 * load
+ 

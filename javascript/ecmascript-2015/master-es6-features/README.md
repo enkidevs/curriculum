@@ -9,3 +9,4 @@ insights:
   - typed-arrays
 
 game: javascript-hard-mode-ii
+ 

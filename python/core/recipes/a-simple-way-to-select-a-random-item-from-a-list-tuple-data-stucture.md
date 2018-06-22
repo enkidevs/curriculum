@@ -14,7 +14,7 @@ type: normal
 category: tip
 
 standards:
-  py.standard-library-data.0: 10
+  python.standard-library-data.0: 10
 
 ---
 
@@ -86,3 +86,5 @@ rand_items = ???.???(items, 2)
 * `select`
 * `choose`
 * `randomise`
+ 
+ 

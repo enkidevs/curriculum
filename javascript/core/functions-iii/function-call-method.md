@@ -15,9 +15,9 @@ category: must-know
 
 standards:
 
-  js.functions.1: 10
+  javascript.functions.1: 10
 
-  js.execution-context.1: 10
+  javascript.execution-context.1: 10
 
 tags:
 
@@ -26,6 +26,11 @@ tags:
   - workout
 
 
+
+
+aspects:
+  - introduction
+  - workout
 
 
 ---
@@ -94,3 +99,4 @@ callObject.call(null, 4, 2);
 * Object: 4, Arguments: null, 2
 * This gives an error
 
+ 

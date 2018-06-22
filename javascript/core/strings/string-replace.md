@@ -15,9 +15,9 @@ category: caveats
 
 standards:
 
-  js.evaluate-expressions.3: 10
+  javascript.evaluate-expressions.3: 10
 
-  js.write-expressions.1: 10
+  javascript.write-expressions.1: 10
 
 tags:
 
@@ -33,6 +33,11 @@ tags:
 links:
 
   - '[www.standardista.com](http://www.standardista.com/javascript/15-common-javascript-gotchas/){website}'
+
+
+aspects:
+  - introduction
+  - workout
 
 
 ---
@@ -80,3 +85,4 @@ console.log(s); // x%2By%2Bz=w
 * String.change()
 * String.delete()
 
+ 

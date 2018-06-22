@@ -10,9 +10,9 @@ levels:
 type: normal
 
 standards:
-  js.read-and-write-streams.1: 20
-  js.node-standard-library-os.0: 20
-  js.events-asynchronous-operations.1: 20
+  javascript.read-and-write-streams.1: 20
+  javascript.node-standard-library-os.0: 20
+  javascript.events-asynchronous-operations.1: 20
 
 tags:
   - introduction
@@ -25,6 +25,12 @@ links:
   - '[Writable Streams](https://gist.github.com/joyrexus/10026630){website}'
 
 parent: chaining-readable-streams
+
+aspects:
+  - introduction
+  - workout
+  - deep
+
 
 ---
 # Writable Streams
@@ -82,3 +88,4 @@ stream.???(data);
 * write
 * input
 * print
+ 

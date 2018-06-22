@@ -7,17 +7,26 @@ levels:
 
   - basic
 
+tags:
+  - introduction
+  - workout
+aspects:
+  - introduction
+  - workout
+  - deep
 type: exercise
 
-link: https://www.codewars.com/kata/regex-validate-pin-code
 linkType: codewars
+
+link: https://www.codewars.com/kata/regex-validate-pin-code
+
 standards:
 
-  py.identify-python-syntax.1: 1000
-  py.identify-python-syntax.2: 3000
-  py.store-manipulate-data.0: 2000
-  py.store-manipulate-data.2: 2000
-  py.data-structures-uses.5: 2000
+  python.identify-python-syntax.1: 1000
+  python.identify-python-syntax.2: 3000
+  python.store-manipulate-data.0: 2000
+  python.store-manipulate-data.2: 2000
+  python.data-structures-uses.5: 2000
 
 links:
 
@@ -30,4 +39,10 @@ links:
 ---
 ## Exercise
 
-Practice python syntax `validity`.
+Click *Launch Exercise* to open Codewars.
+
+On the website you will find a description of the exercise. Read this description carefully.
+
+When you are ready to give it a try press the blue *Train* button and write your solution.
+
+To test your solution press the blue *Attempt* button.

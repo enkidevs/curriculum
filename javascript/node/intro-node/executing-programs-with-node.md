@@ -9,7 +9,7 @@ type: normal
 category: must-know
 
 standards:
-  js.node-developer-environment.5: 10
+  javascript.node-developer-environment.5: 10
 
 tags:
   - introduction
@@ -18,6 +18,10 @@ links:
   - '[nodeguide.com](http://nodeguide.com/beginner.html#the-interactive-node.js-shell){website}'
 
 parent: the-repl-terminal
+
+aspects:
+  - introduction
+
 
 ---
 # Executing programs with Node
@@ -91,3 +95,4 @@ $ ??? main.js
 * javascript
 * java
 * nodeJS
+ 

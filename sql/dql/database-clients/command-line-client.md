@@ -28,6 +28,10 @@ links:
   - '[PostgreSQL Download](https://www.postgresql.org/download/){website}'
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Command-Line Client
@@ -86,3 +90,5 @@ Fill in the connection string with correct arguments:
 * 23336
 * pokemon
 * ashketchum
+ 
+ 

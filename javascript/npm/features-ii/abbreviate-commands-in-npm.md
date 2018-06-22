@@ -12,10 +12,14 @@ category: feature
 parent: check-data-about-a-package
 
 standards:
-  js.npm-tasks-and-modules-manager.3: 10
+  javascript.npm-tasks-and-modules-manager.3: 10
 
 tags:
   - obscura
+
+aspects:
+  - obscura
+
 
 ---
 # Abbreviate commands in npm
@@ -72,3 +76,4 @@ What's the equivalent abbreviated command of `npm link`?
 * npm l
 * npm k
 * npm n
+ 

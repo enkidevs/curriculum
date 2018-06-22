@@ -10,7 +10,7 @@ type: normal
 category: must-know
 
 standards:
-  js.npm-tasks-and-modules-manager.0: 10
+  javascript.npm-tasks-and-modules-manager.0: 10
 
 tags:
   - introduction
@@ -19,6 +19,10 @@ links:
   - '[docs.npmjs.com](https://docs.npmjs.com/getting-started/using-a-package.json){website}'
 
 parent: setting-up-npm
+
+aspects:
+  - introduction
+
 
 ---
 # `package.json`
@@ -94,3 +98,4 @@ The *package.json* file serves as
 * a list of dependencies
 * a list of scripts to be run
 * a short description of your project
+ 

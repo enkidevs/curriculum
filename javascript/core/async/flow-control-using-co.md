@@ -11,13 +11,13 @@ category: feature
 
 standards:
 
-  js.async.3: 10
+  javascript.async.3: 10
 
-  js.async.2: 10
+  javascript.async.2: 10
 
-  js.use-modules.2: 10
+  javascript.use-modules.2: 10
 
-  js.es6-functions.1: 10
+  javascript.es6-functions.1: 10
 
 tags:
 
@@ -33,6 +33,10 @@ tags:
 
   - yield
 
+aspects:
+  - workout
+  - deep
+
 
 links:
 
@@ -46,7 +50,7 @@ links:
 ---
 ## Content
 
-_co_ is a **flow control program**, which uses **generators** and **promises**. Use it to write non-blocking code more cleanly. It can be used in the browser and with Node.js.
+_co_ is a **flow control program**, which uses **generators** and **promises**. Use it to write non-blocking code more cleanly. It can be used in the browser and with Node.javascript.
 
 An example of *co*:
 
@@ -102,3 +106,6 @@ Can **generator function** be `yield`ed by `co()`?
 * `yes`
 * `no`
 
+ 
+ 
+ 

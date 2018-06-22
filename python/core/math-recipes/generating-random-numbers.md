@@ -14,7 +14,7 @@ type: normal
 category: feature
 
 standards:
-  py.standard-library-data.0: 10
+  python.standard-library-data.0: 10
 
 links:
 
@@ -101,3 +101,5 @@ print(random.???())
 * `new`
 * `get`
 * `new_random`
+ 
+ 

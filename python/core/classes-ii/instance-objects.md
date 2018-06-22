@@ -12,7 +12,7 @@ type: normal
 category: must-know
 
 standards:
-  py.object-oriented.2: 10
+  python.object-oriented.2: 10
 
 links:
 
@@ -106,3 +106,5 @@ max.age = 3
 
 * Yes
 * No
+ 
+ 

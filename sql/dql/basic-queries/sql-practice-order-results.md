@@ -27,6 +27,11 @@ links:
   - '[blog post tutorial on SELECT](http://www.dofactory.com/sql/select){website}'
   - '[video tutorial on MySQL SELECT](https://www.youtube.com/watch?v=BgK88mlgA6I){video}'
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # SQL Practice Order Results
@@ -39,3 +44,5 @@ In SQLFiddle, write a SQL query that does the following:
 *Return the `name` and `fling_power` of all items that cost between `100` and `500`, ordered by the `fling_power`.*
 
 For your answer, write the name of the item with the *least* fling power, followed by the name of the item with the *greatest* fling power within this range.
+ 
+ 

@@ -34,6 +34,11 @@ links:
 
 parent: create-a-table
 
+aspects:
+  - workout
+  - deep
+
+
 ---
 
 # Add Column
@@ -97,3 +102,5 @@ id | region_id |      name
 * ALTER TABLE generation DROP COLUMN region_id;
 * ALTER TABLE generation DROP region_id;
 * ALTER generation DROP COLUMN region_id;
+ 
+ 

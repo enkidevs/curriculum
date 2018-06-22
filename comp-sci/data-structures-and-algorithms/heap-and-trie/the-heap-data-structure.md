@@ -72,3 +72,4 @@ What operation should a *max heap* support?
 As heaps are data structures for which the minimal or maximal element is prioritized, constant-time removal refers to the removal of this particular element (which we can access in constant-time through the `find-max`/`find-min` functions).
 
 Because of this property, priority queues are often implemented using heaps.
+ 

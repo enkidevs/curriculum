@@ -11,7 +11,7 @@ category: best practice
 
 
 standards:
-  js.node-standard-library-os.5: 20
+  javascript.node-standard-library-os.5: 20
 
 tags:
   - workout
@@ -23,6 +23,12 @@ notes: Im trying to make a Node workout based on security tips. This is one of t
 
 links:
   - '[blog.liftsecurity.io](https://blog.liftsecurity.io/2014/08/19/Avoid-Command-Injection-Node.js){website}'
+
+aspects:
+  - workout
+  - deep
+  - obscura
+
 
 ---
 # Avoid command injection
@@ -74,3 +80,4 @@ Which of the following is not true about `child_process.exec`?
 * calls to execute `/bin/sh`
 * it's a bash interpreter
 * its calls can be targeted for command injection
+ 

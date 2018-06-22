@@ -16,12 +16,16 @@ links:
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/dist-tag){website}'
 
 standards:
-  js.use-open-source-javascript-packages.9: 10
-  js.npm-publish.0: 10
-  js.npm-tasks-and-modules-manager.0: 10
+  javascript.use-open-source-javascript-packages.9: 10
+  javascript.npm-publish.0: 10
+  javascript.npm-tasks-and-modules-manager.0: 10
 
 tags:
   - workout
+
+aspects:
+  - workout
+
 
 ---
 # Package distribution tags
@@ -87,3 +91,4 @@ $ npm ??? ??? [<pkg>]
 * --tag
 * add
 * tags
+ 

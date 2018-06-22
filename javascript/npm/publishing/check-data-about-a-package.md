@@ -12,8 +12,8 @@ type: normal
 category: feature
 
 standards:
-  js.use-open-source-javascript-packages.3: 10
-  js.npm-tasks-and-modules-manager.0: 10
+  javascript.use-open-source-javascript-packages.3: 10
+  javascript.npm-tasks-and-modules-manager.0: 10
 
 tags:
   - introduction
@@ -24,6 +24,12 @@ links:
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/view){website}'
 
 parent: how-to-publish-your-own-packages
+
+aspects:
+  - introduction
+  - workout
+  - deep
+
 
 ---
 # Check the details of a package
@@ -87,3 +93,4 @@ $ ??? ??? npm ???
 * contributors
 * @contributors
 * ls
+ 

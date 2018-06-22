@@ -11,7 +11,7 @@ type: normal
 category: best practice
 
 standards:
-  js.identify-common-design-patterns.1: 20
+  javascript.identify-common-design-patterns.1: 20
 
 tags:
   - workout
@@ -20,6 +20,10 @@ links:
   - '[www.mariocasciaro.me](http://www.mariocasciaro.me/the-strange-world-of-node-js-design-patterns){website}'
   - '[blog.risingstack.com](https://blog.risingstack.com/fundamental-node-js-design-patterns/){website}'
   - '[through](https://www.npmjs.com/package/through){documentation}'
+
+aspects:
+  - workout
+
 
 ---
 # Middleware/pipeline design pattern
@@ -102,3 +106,4 @@ fs.createReadStream('raw.txt')
 * singleton
 * prototype
 * waterfall
+ 

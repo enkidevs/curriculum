@@ -9,7 +9,7 @@ type: normal
 category: must-know
 
 standards:
-  js.node-developer-environment.5: 10
+  javascript.node-developer-environment.5: 10
 
 tags:
   - introduction
@@ -18,6 +18,10 @@ links:
   - '[tutorialsteacher.com](http://www.tutorialsteacher.com/nodejs/nodejs-console-repl){website}'
 
 parent: installing-node-js
+
+aspects:
+  - introduction
+
 
 ---
 # The REPL Terminal
@@ -78,3 +82,4 @@ What does REPL stand for?
 * Read, Equal, Process, Loop
 * Reiterate, Else, Print, Loop
 
+ 

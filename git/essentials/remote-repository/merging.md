@@ -33,7 +33,7 @@ $ git merge [head]
 
 The merging operation will automatically integrate two different branches into a single one.
 
-Even though the algorithms used for the merge depend on the status of the branches, all of them will merge **into** the current branch. It is important to understand that  the *targeted* branch is not affected.
+Even though the algorithms used for the merge depend on the status of the branches, all of them will merge **into** the current branch. It is important to understand that the *targeted* branch is not affected.
 
 Suppose you are on a branch called `feature` where you committed some work. However, you want to get the feature to the `master` branch; the main branch of development on your project.
 ```
@@ -111,3 +111,4 @@ $ git status
 ```
 [2:conflicts]
 These markings are usually in more than one place in the file; everywhere there exists a conflict.
+ 

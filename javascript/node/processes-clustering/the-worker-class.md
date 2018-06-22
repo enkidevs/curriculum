@@ -9,13 +9,18 @@ levels:
 type: normal
 
 standards:
-  js.node-standard-library-os.5: 20
+  javascript.node-standard-library-os.5: 20
 
 tags:
   - workout
   - deep
 
 category: tip
+
+aspects:
+  - workout
+  - deep
+
 
 ---
 # The Worker Class
@@ -80,3 +85,4 @@ if (worker.???()) {
 * worker
 * isIPC
 * send
+ 

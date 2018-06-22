@@ -12,9 +12,9 @@ type: normal
 category: must-know
 
 standards:
-  js.read-and-write-streams.0: 20
-  js.node-standard-library-os.0: 20
-  js.events-asynchronous-operations.1: 20
+  javascript.read-and-write-streams.0: 20
+  javascript.node-standard-library-os.0: 20
+  javascript.events-asynchronous-operations.1: 20
 
 tags:
   - introduction
@@ -24,6 +24,11 @@ links:
   - '[Node Streams](https://maxogden.com/node-streams.html){website}'
 
 parent: handling-event-errors
+
+aspects:
+  - introduction
+  - workout
+
 
 ---
 # What are Streams?
@@ -67,3 +72,4 @@ Streams are ??? allowing data to be read from a source and for data to be piped 
 ## Footnotes
 [1:unix pipes]
 A `pipe` is a form of redirection that is used in **Linux** and other **Unix**-like operating systems to send the *output* of one program to another program for further processing (as *input*).
+ 

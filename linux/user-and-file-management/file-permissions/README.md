@@ -6,3 +6,4 @@ insights:
   - set-file-permissions-for-users
 
 game: sudo-fu
+ 

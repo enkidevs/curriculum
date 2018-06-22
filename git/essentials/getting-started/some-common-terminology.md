@@ -24,7 +24,7 @@ links:
 ---
 ## Content
 
-It's of upmost importance to understand the common terminology in **Git** in order to fully grasp how it works.
+It's of utmost importance to understand the standard terminology in **Git** in order to adequately grasp how it works.
 
 This terminology includes the following terms:
 
@@ -38,7 +38,7 @@ You can *create* a branch, work on it, *switch* between branches and *merge* cha
 A `revision` is a different version of the repository.
 ### Commit
 
-When you want to save your work in a repository you `commit` the changes (the contents of the **working tree**). This will create a special commit object that uniquely identifies a new revision of the content in that repository.
+When you want to save your work in a repository you `commit` the changes (the contents of the **working tree**). This will create a unique commit object that uniquely identifies a new revision of the content in that repository.
 
 ### HEAD
 
@@ -69,3 +69,4 @@ What other name does the **staging area** have?
 * tag
 * stage
 
+ 

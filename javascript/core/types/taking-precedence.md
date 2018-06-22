@@ -14,9 +14,9 @@ type: fillTheGap
 category: tip
 
 standards:
-  js.javascript-syntax.2: 1000
-  js.write-expressions.0: 1000
-  js.evaluate-expressions.0: 1000
+  javascript.javascript-syntax.2: 1000
+  javascript.write-expressions.0: 1000
+  javascript.evaluate-expressions.0: 1000
 ---
 
 # Taking precedence...
@@ -231,3 +231,5 @@ The expression can be converted to `0 == (1 >= 2)` as `>=` has higher priority t
 
 `0 == (1 >=2)` => `0 == false` => `false` (as `0` is falsy)
 %
+ 
+ 

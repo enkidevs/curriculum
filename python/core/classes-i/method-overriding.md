@@ -15,7 +15,7 @@ category: tip
 
 
 standards:
-  py.object-oriented.2: 10
+  python.object-oriented.2: 10
 
 
 links:
@@ -118,3 +118,5 @@ Complete the missing gaps such that the output of running it will match the give
 * `child`
 * `super`
 * `hello()`
+ 
+ 

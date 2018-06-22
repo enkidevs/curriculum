@@ -49,3 +49,4 @@ public static String getStackTrace(
 
 In the above example, `getStackTrace` takes a `Throwable` as a parameter and uses `printStackTrace` to print it to a `PrintWriter` output stream. This output is collected by the `StringWriter` and converted to a string using `StringWriter.toString()`.
 
+ 

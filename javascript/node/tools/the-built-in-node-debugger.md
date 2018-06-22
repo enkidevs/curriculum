@@ -10,7 +10,7 @@ type: normal
 category: must-know
 
 standards:
-  js.node-developer-environment.6: 20
+  javascript.node-developer-environment.5: 20
 
 tags:
   - introduction
@@ -19,6 +19,12 @@ tags:
 
 links:
   - '[spin.atomicobject.com](http://spin.atomicobject.com/2015/09/25/debug-node-js/){website}'
+
+aspects:
+  - introduction
+  - workout
+  - deep
+
 
 ---
 # The built-in Node debugger
@@ -78,3 +84,4 @@ How can you run `enki` app in *debug* mode?
 * debug
 * debugger
 * npm
+ 

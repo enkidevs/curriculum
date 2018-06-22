@@ -15,11 +15,11 @@ category: how to
 
 standards:
 
-  js.write-expressions.0: 10
+  javascript.write-expressions.0: 10
 
-  js.evaluate-expressions.3: 10
+  javascript.evaluate-expressions.3: 10
 
-  js.standard-library.1: 10
+  javascript.standard-library.1: 10
 
 tags:
 
@@ -33,6 +33,11 @@ tags:
 links:
 
   - '[css-tricks.com](https://css-tricks.com/snippets/javascript/format-currency/){website}'
+
+
+aspects:
+  - introduction
+  - deep
 
 
 ---
@@ -91,3 +96,4 @@ console.log(currency('1234.567'));
 * 1234.56
 * 12
 
+ 

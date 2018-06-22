@@ -11,15 +11,19 @@ type: normal
 category: how to
 
 standards:
-  js.express-server.0: 10
-  js.express-server.1: 10
-  js.use-modules.3: 10
+  javascript.express-server.0: 10
+  javascript.express-server.1: 10
+  javascript.use-modules.3: 10
 
 tags:
   - workout
 
 links:
   - '[nodejs.org](https://nodejs.org/api/repl.html){website}'
+
+aspects:
+  - workout
+
 
 ---
 
@@ -92,3 +96,4 @@ replServer.???(???, function() {
 * 'exit'
 * 'close'
 * 'end'
+ 

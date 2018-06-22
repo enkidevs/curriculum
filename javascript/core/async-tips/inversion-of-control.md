@@ -9,9 +9,14 @@ type: normal
 category: must-know
 
 standards:
-  js.async.2: 10
+  javascript.async.2: 10
 
 tags:
+  - workout
+  - deep
+  - obscura
+
+aspects:
   - workout
   - deep
   - obscura
@@ -88,3 +93,7 @@ What is the name of this dynamic?
 * un-inversion of control
 * callback hell
 * callback trust
+ 
+ 
+ 
+ 

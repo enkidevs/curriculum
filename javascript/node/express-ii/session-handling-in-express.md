@@ -10,8 +10,8 @@ type: normal
 category: how to
 
 standards:
-  js.express-server.4: 10
-  cs.http-request-response.12: 10
+  javascript.express-server.4: 10
+  comp-sci.http-request-response.12: 10
 
 links:
   - '[codeforgeek.com](https://codeforgeek.com/2014/10/express-complete-tutorial-part-4/){website}'
@@ -90,3 +90,4 @@ app.get('/', function(req,res) {
 * sess
 * mySession
 * request
+ 

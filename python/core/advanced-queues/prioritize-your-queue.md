@@ -9,9 +9,8 @@ type: normal
 
 category: how to
 
-
 standards:
-  cs.identify-linear-collection-data-structures-usage.2: 10
+  comp-sci.identify-linear-collection-data-structures-usage.2: 10
 
 links:
 
@@ -28,7 +27,7 @@ parent: a-thread-safe-queue
 
 To use `PriorityQueue` data type we need to import it from `Queue` module.
 
-It uses sort order to decide what to retrieve from it first (your object must have a way of comparing its instances):
+It uses the sort method `sort` in order to decide what to retrieve from it first (your object must have a way of comparing its instances):
 ```python
 import queue
 
@@ -70,6 +69,36 @@ class Enki(object):
 
 To give an example of when it is advised to use `PriorityQueue`, we can thing of a hospital. Here sick people come with no interruption. Now, in a ideal situation, the hospital's staff would prioritize people depending on how sever their illness is. If there is someone who suffers a headache should be treated only after one whose heart has stopped working was treated. In such a case we would use a `PriorityQueue` treating instantly all sever illnesses and put the others in the queue.
 
+---
+## Practice
+
+Fill the following code snippet such that it will sort elements added in the queue in descending order:
+
+```python
+
+class Order(object):
+  def __init__(self, ???):
+    self.priority = priority
+  def ???(self, other):
+    return self.priority ??? other.priority
+
+temp = queue.???
+
+temp.put(Order(1))
+temp.put(Order(10))
+temp.put(Order(1000))
+
+# Order of elemets in the queue
+# 1000 / 10 / 1
+```
+
+* priority
+* `__lt__`
+* >
+* PriorityQueue()
+* <
+* queue
+* `__order__`
 
 ---
 ## Revision
@@ -98,3 +127,5 @@ q = queue.PriorityQueue()
 ## Footnotes
 [1: Less than]
 The `__lt__` (less than) method is used to override the functionality of the `<` (less than) operator when comparing `Enki` objects. As it is the case in most languages, `a < b` is the shorthand notation of calling `a.__lt__(b)`.
+ 
+ 

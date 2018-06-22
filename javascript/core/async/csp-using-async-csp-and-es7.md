@@ -11,11 +11,11 @@ category: feature
 
 standards:
 
-  js.async.3: 10
+  javascript.async.3: 10
 
-  js.async.2: 10
+  javascript.async.2: 10
 
-  js.use-modules.2: 10
+  javascript.use-modules.2: 10
 
 tags:
 
@@ -28,6 +28,10 @@ tags:
   - promises
 
   - npm
+
+aspects:
+  - workout
+  - deep
 
 
 links:
@@ -83,3 +87,6 @@ What does a **CSP Channel** use to handle the flow of data?
 * `take()`
 * nothing
 
+ 
+ 
+ 

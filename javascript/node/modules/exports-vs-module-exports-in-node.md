@@ -10,8 +10,8 @@ type: normal
 category: must-know
 
 standards:
-  js.use-modules.0: 10
-  js.use-modules.1: 10
+  javascript.use-modules.0: 10
+  javascript.use-modules.1: 10
 
 tags:
   - introduction
@@ -19,6 +19,11 @@ tags:
 
 links:
   - '[www.hacksparrow.com](http://www.hacksparrow.com/node-js-exports-vs-module-exports.html){website}'
+
+aspects:
+  - introduction
+  - workout
+
 
 ---
 # `exports` vs. `module.exports` in **Node**
@@ -88,3 +93,4 @@ console.log(test[1]);
 * module.imports
 * module
 * imports
+ 

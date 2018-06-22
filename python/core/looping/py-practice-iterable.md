@@ -7,21 +7,30 @@ levels:
 
   - basic
 
+tags:
+  - workout
+aspects:
+  - introduction
+  - workout
+
+
 type: exercise
 
-link: https://www.codewars.com/kata/thinkful-list-drills-longest-word
 linkType: codewars
+
+link: https://www.codewars.com/kata/thinkful-list-drills-longest-word
+
 standards:
 
-  py.use-iteration-protocol.0: 1000
-  py.use-iteration-protocol.3: 2000
-  py.data-structures-uses.5: 2000
+  python.use-iteration-protocol.0: 1000
+  python.use-iteration-protocol.3: 2000
+  python.data-structures-uses.5: 2000
 
 links:
 
-  - '[link to official documentation](https://www.python-course.eu/python3_for_loop.php){website}'
-  - '[link to deeper dive blog post](https://www.tutorialspoint.com/python/python_loops.htm){website}'
-  - '[link to a video](https://www.youtube.com/watch?v=xtXexPSfcZg){video}'
+  - '[Official documentation for iterables](https://www.python-course.eu/python3_for_loop.php){website}'
+  - '[A blog about iterables](https://www.tutorialspoint.com/python/python_loops.htm){website}'
+  - '[A video tutorial for iterables](https://www.youtube.com/watch?v=xtXexPSfcZg){video}'
 ---
 
 # Practice iterable data types
@@ -29,4 +38,12 @@ links:
 ---
 ## Exercise
 
-Practice working with `for loops` and `iterables` in python.
+Practice `iterables` in python.
+
+Click *Launch Exercise* to open Codewars.
+
+On the website you will find a description of the exercise. Read this description carefully.
+
+When you are ready to give it a try press the blue *Train* button and write your solution.
+
+To test your solution press the blue *Attempt* button.

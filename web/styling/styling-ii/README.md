@@ -8,3 +8,4 @@ insights:
   - disable-resizable-property-of-textarea
   - use-background-repeat-to-repeat-a-background-image-horizontally-or-vertically
   - how-to-flip-an-image
+ 

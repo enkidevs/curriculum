@@ -11,7 +11,7 @@ type: normal
 category: how to
 
 standards:
-  js.node-standard-library-os.5: 20
+  javascript.node-standard-library-os.5: 20
 
 tags:
   - workout
@@ -19,6 +19,11 @@ tags:
 
 links:
   - '[codeforgeek.com](https://codeforgeek.com/2014/12/cluster-node-js-performance/){website}'
+
+aspects:
+  - workout
+  - deep
+
 
 ---
 # Clustering
@@ -79,3 +84,4 @@ if(cluster.???){
 * master
 * notChild
 * child
+ 

@@ -15,13 +15,13 @@ category: best practice
 
 standards:
 
-  js.functions.4: 10
+  javascript.functions.4: 10
 
-  js.functions.5: 10
+  javascript.functions.5: 10
 
-  js.functions.6: 10
+  javascript.functions.6: 10
 
-  js.functions.7: 10
+  javascript.functions.7: 10
 
 tags:
 
@@ -35,6 +35,11 @@ links:
   - '[benalman.com](http://benalman.com/news/2010/11/immediately-invoked-function-expression/){website}'
   - '[stackoverflow.com](http://stackoverflow.com/questions/592396/what-is-the-purpose-of-a-self-executing-function-in-javascript){website}'
   - '[markdalgleish.com](http://markdalgleish.com/2011/03/self-executing-anonymous-functions/){website}'
+
+
+aspects:
+  - introduction
+  - workout
 
 
 ---
@@ -106,3 +111,4 @@ What's the syntax of an **IIFE** ?
 * `name`
 * `call`
 
+ 

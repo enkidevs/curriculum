@@ -11,7 +11,7 @@ category: caveats
 
 
 standards:
-  js.node-standard-library-os.5: 20
+  javascript.node-standard-library-os.5: 20
 
 tags:
   - introduction
@@ -21,6 +21,13 @@ tags:
 
 
 notes: This insights is also based on security - should be on a security workout I guess.
+
+aspects:
+  - introduction
+  - workout
+  - obscura
+  - deep
+
 
 ---
 # Node and `sudo`
@@ -67,3 +74,4 @@ Is running **Node** with `sudo` considered a safe practice?
 
 * no
 * yes
+ 

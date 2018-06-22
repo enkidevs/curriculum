@@ -12,8 +12,8 @@ type: normal
 category: feature
 
 standards:
-  js.npm-publish.1: 10
-  js.npm-tasks-and-modules-manager.0: 10
+  javascript.npm-publish.1: 10
+  javascript.npm-tasks-and-modules-manager.0: 10
 
 tags:
   - workout
@@ -24,6 +24,12 @@ links:
   - '[docs.npmjs.com](https://docs.npmjs.com/getting-started/scoped-packages){website}'
 
 parent: packages-vs-modules
+
+aspects:
+  - workout
+  - deep
+  - new
+
 
 ---
 # Scoped packages
@@ -101,3 +107,4 @@ A scoped package's name is preceded by ???.
 * scope/
 * @/
 * nothing
+ 

@@ -10,8 +10,8 @@ type: normal
 category: how to
 
 standards:
-  js.node-standard-library-os.0: 20
-  js.read-and-write-streams.1: 20
+  javascript.node-standard-library-os.0: 20
+  javascript.read-and-write-streams.1: 20
 
 tags:
   - introduction
@@ -19,6 +19,11 @@ tags:
 
 links:
   - '[github.com](https://github.com/nodejs/node/wiki/API-changes-between-v0.10-and-v4#writable-streams){website}'
+
+aspects:
+  - introduction
+  - workout
+
 
 ---
 # Bulk-Write in **Node** with `cork()`
@@ -62,3 +67,4 @@ What method is used to flush all buffered data from a stream?
 * end()
 * uncork()
 * cork()
+ 

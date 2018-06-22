@@ -12,7 +12,7 @@ type: normal
 category: must-know
 
 standards:
-  js.node-standard-library-os.2: 10
+  javascript.node-standard-library-os.2: 10
 
 tags:
   - introduction
@@ -22,6 +22,11 @@ links:
   - '[The HTTP Module](https://davidwalsh.name/nodejs-http-request){website}'
 
 parent: requiring-and-exporting
+
+aspects:
+  - introduction
+  - workout
+
 
 ---
 # The `http` module for servers
@@ -95,3 +100,4 @@ var server = http.???(requestHandler);
 * createServer
 * httpServer
 * createHTTP
+ 

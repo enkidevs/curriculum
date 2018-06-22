@@ -68,3 +68,4 @@ When would you use `git --amend` ?
 * To edit the most recent commit.
 * To change the content of a file.
 * To notify other members of the team.
+ 

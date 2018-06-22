@@ -12,12 +12,16 @@ tags:
   - introduction
 
 standards:
-  js.node-developer-environment.2: 10
+  javascript.node-developer-environment.2: 10
 
 links:
   - '[npmjs.com](https://www.npmjs.com/){website}'
 
 parent: executing-programs-with-node
+
+aspects:
+  - introduction
+
 
 ---
 # NPM, Node's Package Manager
@@ -68,3 +72,4 @@ Complete the code snippet to install a package from NPM:
 * new
 * download
 
+ 

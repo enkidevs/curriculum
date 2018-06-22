@@ -11,10 +11,10 @@ type: normal
 category: how to
 
 standards:
-  js.use-open-source-javascript-packages.1: 10
-  js.npm-publish.2: 10
-  js.npm-publish.3: 10
-  js.npm-tasks-and-modules-manager.0: 10
+  javascript.use-open-source-javascript-packages.1: 10
+  javascript.npm-publish.2: 10
+  javascript.npm-publish.3: 10
+  javascript.npm-tasks-and-modules-manager.0: 10
 
 tags:
   - workout
@@ -25,6 +25,12 @@ links:
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/deprecate){website}'
 
 parent: check-data-about-a-package
+
+aspects:
+  - workout
+  - deep
+  - introduction
+
 
 ---
 # Deprecate npm packages
@@ -82,3 +88,4 @@ $ npm ??? enki ???
 * un-deprecate
 * "un-deprecated Enki
 * "any message"
+ 

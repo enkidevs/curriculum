@@ -13,8 +13,8 @@ category: must-know
 
 
 standards:
-  js.use-modules.0: 10
-  js.use-modules.1: 10
+  javascript.use-modules.0: 10
+  javascript.use-modules.1: 10
 
 tags:
   - introduction
@@ -24,6 +24,11 @@ links:
   - '[Local Modules](http://www.tutorialsteacher.com/nodejs/nodejs-local-modules){website}'
 
 parent: the-http-module-for-servers
+
+aspects:
+  - introduction
+  - workout
+
 
 ---
 # Local Modules
@@ -107,3 +112,4 @@ Which of the following module types must have its path specified when requiring 
 
 * local
 * core
+ 

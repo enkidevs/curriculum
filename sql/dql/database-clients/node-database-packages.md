@@ -37,6 +37,10 @@ links:
   - '[pg video tutorial](https://www.youtube.com/watch?v=hzixG7gFTxY){website}'
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Node Database Packages
@@ -121,3 +125,5 @@ What package is used in order to connect to a Postgres database in nodeJS?
 * pg
 * mongoose
 * sqlite3
+ 
+ 

@@ -13,7 +13,7 @@ link: https://www.codewars.com/kata/i-promise-not-to-optimize
 linkType: codewars
 standards:
 
-  js.async.2: 1000
+  javascript.async.2: 1000
 
 links:
 
@@ -26,3 +26,4 @@ links:
 ## Exercise
 
 Practice using JavaScript Promises on Code Wars
+ 

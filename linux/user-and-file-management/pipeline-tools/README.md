@@ -8,3 +8,4 @@ insights:
   - duplicate-pipe-content-with-tee
   - shebang-explained
   - the-2-1-redirection
+ 

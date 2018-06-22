@@ -38,6 +38,10 @@ links:
   - '[Using Python to query Postgres video](https://www.youtube.com/watch?v=8gd1DlXwzlY){website}'
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Python Database Packages
@@ -126,3 +130,5 @@ How can you connect to a database with Python?
 
 * By using dedicated libraries
 * Python provides an inbuilt db functionality
+ 
+ 

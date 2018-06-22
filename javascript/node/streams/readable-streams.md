@@ -12,9 +12,9 @@ type: normal
 category: must-know
 
 standards:
-  js.read-and-write-streams.0: 20
-  js.node-standard-library-os.0: 20
-  js.events-asynchronous-operations.1: 20
+  javascript.read-and-write-streams.0: 20
+  javascript.node-standard-library-os.0: 20
+  javascript.events-asynchronous-operations.1: 20
 
 tags:
   - introduction
@@ -25,6 +25,12 @@ links:
   - '[Readable Streams](https://nodejs.org/api/stream.html){website}'
 
 parent: what-are-streams
+
+aspects:
+  - introduction
+  - workout
+  - deep
+
 
 ---
 
@@ -89,3 +95,4 @@ var stream = fs.???('file.txt');
 * createReadStream
 * staticReadableStream
 * readableStream
+ 

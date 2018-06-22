@@ -10,7 +10,7 @@ type: normal
 category: how to
 
 standards:
-  js.node-standard-library-os.7: 20
+  javascript.node-standard-library-os.6: 20
 
 tags:
   - introduction
@@ -18,6 +18,11 @@ tags:
 
 links:
   - '[nodejs.org](https://nodejs.org/api/os.html){website}'
+
+aspects:
+  - introduction
+  - workout
+
 
 ---
 # **Node** `os` module
@@ -93,3 +98,4 @@ console.log(???.???());
 * networkInterfaces
 * CPU
 * cpu
+ 

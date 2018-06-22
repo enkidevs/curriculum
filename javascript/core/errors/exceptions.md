@@ -13,11 +13,11 @@ inAlgoPool: false
 
 standards:
 
-  js.control-flow.6: 10
+  javascript.control-flow.6: 10
 
-  js.exceptions.2: 10
+  javascript.exceptions.2: 10
 
-  js.exceptions.3: 10
+  javascript.exceptions.3: 10
 
 tags:
 
@@ -29,6 +29,11 @@ tags:
 links:
 
   - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling){website}'
+
+
+aspects:
+  - introduction
+  - workout
 
 
 ---
@@ -130,3 +135,4 @@ Complete the missing keyword for throwing an exception:
 * `try`
 * `finally`
 
+ 

@@ -12,7 +12,7 @@ type: normal
 category: must-know
 
 standards:
-  py.standard-library-operating-system.5: 10
+  python.standard-library-operating-system.5: 10
 
 links:
 
@@ -150,3 +150,5 @@ Standard streams are preconnected communication channels between a computer prog
 
 [3: eval]
 Bad things can happen if you decide to use `eval(input())` in your program, as you can't ensure that users will be responsible. For example one could enter `os.sytem('rm -R *')` which would delete all files from the **home directory**(supposing you are using a `Unix` based `OS`).
+ 
+ 

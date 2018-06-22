@@ -31,6 +31,12 @@ links:
   - '[www.2ality.com](http://www.2ality.com/2015/04/numbers-math-es6.html){website}'
 
 
+aspects:
+  - introduction
+  - new
+  - workout
+
+
 ---
 
 # Binary and octal notation in ES6
@@ -83,3 +89,4 @@ What method can be used to convert numbers to hex/bin/oct ?
 * `parse`
 * `rebase`
 
+ 

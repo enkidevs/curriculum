@@ -13,9 +13,9 @@ link: http://www.codewars.com/kata/572df796914b5ba27c000c90
 linkType: codewars
 standards:
 
-  js.standard-library.4: 1000
-  js.write-expressions.0: 1000
-  js.data-types-structures.6: 1000
+  javascript.standard-library.4: 1000
+  javascript.write-expressions.0: 1000
+  javascript.data-types-structures.6: 1000
 
 links:
 
@@ -30,3 +30,4 @@ links:
 ## Exercise
 
 Practice using the JavaScript Array methods `reverse()` and `sort()`
+ 

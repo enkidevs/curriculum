@@ -11,11 +11,14 @@ category: must-know
 inAlgoPool: false
 
 standards:
-  js.functions.5: 10
+  javascript.functions.5: 10
 
 tags:
   - introduction
-  - workout
+
+aspects:
+  - introduction
+
 
 ---
 # JavaScript Basics - Part 2
@@ -79,3 +82,4 @@ What operator is used to declare a variable in the *current scope*?
 * string
 * int
 * double
+ 

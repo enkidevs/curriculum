@@ -9,9 +9,9 @@ type: normal
 category: best practice
 
 standards:
-  js.async.0: 10
-  js.functions.3: 10
-  js.control-flow.5: 10
+  javascript.async.0: 10
+  javascript.functions.3: 10
+  javascript.control-flow.5: 10
 
 links:
   - '[callbackhell.com](http://callbackhell.com/){blog}'
@@ -91,3 +91,4 @@ setTimeout(Hey, 1000);
 
 * Option 2
 * Option 1
+ 

@@ -32,6 +32,11 @@ links:
   - '[More on ADD CONSTRAINT](https://www.tutorialspoint.com/sql/sql-alter-command.htm){website}'
 
 
+aspects:
+  - workout
+  - deep
+
+
 ---
 
 # Add Constraint
@@ -117,3 +122,5 @@ id | version_group_id |      name
 * ALTER TABLE version ADD CONSTRAINT check_constraint CHECK (version_group_id <= 10);
 * ALTER TABLE version ADD PRIMARY KEY (version_group_id > 10);
 * ALTER TABLE version ADD CONSTRAINT check_constraint UNIQUE (version_group_id <= 10);
+ 
+ 

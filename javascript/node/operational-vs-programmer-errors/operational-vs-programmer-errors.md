@@ -14,10 +14,14 @@ tags:
   - introduction
 
 standards:
-  js.identify-common-design-patterns.8: 10
+  javascript.identify-common-design-patterns.8: 10
 
 links:
   - '[Distinguish operational from programmatic errors](https://github.com/i0natan/nodebestpractices/blob/master/sections/errorhandling/operationalvsprogrammererror.md){website}'
+
+aspects:
+  - introduction
+
 
 ---
 # Operational vs. Programmer Errors
@@ -89,3 +93,4 @@ A programmer error is
 * a problem on the client
 * an unhandled exception
 
+ 

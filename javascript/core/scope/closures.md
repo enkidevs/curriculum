@@ -15,7 +15,7 @@ category: must-know
 
 standards:
 
-  js.functions.5: 10
+  javascript.functions.5: 10
 
 
 links:
@@ -79,3 +79,4 @@ A *closure* is created when you ???.
 * declare a function
 * call a function
 
+ 

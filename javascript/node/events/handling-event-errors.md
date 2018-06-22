@@ -12,8 +12,8 @@ type: normal
 category: must-know
 
 standards:
-  js.events-asynchronous-operations.1: 20
-  js.identify-common-design-patterns.5: 20
+  javascript.events-asynchronous-operations.1: 20
+  javascript.identify-common-design-patterns.5: 20
 
 tags:
   - introduction
@@ -23,6 +23,11 @@ links:
   - '[Node Errors](https://nodejs.org/api/errors.html){website}'
 
 parent: passing-arguments-to-listeners
+
+aspects:
+  - introduction
+  - workout
+
 
 ---
 # Handling event errors
@@ -99,3 +104,4 @@ What happens when the event emitter emits an event with no attached listeners?
 Many objects in Node can **emit** events.
 For example, `fs.readStream` will emit an event when a file is opened.
 All event emitters are instances of the `events.EventEmitter` class.
+ 

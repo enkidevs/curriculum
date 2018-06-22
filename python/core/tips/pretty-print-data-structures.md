@@ -66,6 +66,25 @@ print(pprint.isreadable(data))
 In addition, a `PrettyPrinter` object can be created.
 
 ---
+## Practice
+
+Pretty `print` the following 2D array:
+
+```python
+import ???
+
+array = [(x, {y: y * y for y in range(4)})
+        for x in range(8)]
+print(pprint.???(???, width=19))
+```
+
+* pprint
+* pformat
+* array
+* print
+* data
+
+---
 ## Revision
 
 What library provides pretty printing of data structures in *Python*? ???
@@ -75,3 +94,4 @@ What library provides pretty printing of data structures in *Python*? ???
 * `draw`
 * `superdraw`
 
+ 

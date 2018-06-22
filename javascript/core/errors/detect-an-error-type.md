@@ -11,11 +11,11 @@ category: must-know
 
 standards:
 
-  js.exceptions.0: 10
+  javascript.exceptions.0: 10
 
-  js.exceptions.1: 10
+  javascript.exceptions.1: 10
 
-  js.exceptions.2: 10
+  javascript.exceptions.2: 10
 
 tags:
 
@@ -27,6 +27,11 @@ tags:
 links:
 
   - '[davidwalsh.name](https://davidwalsh.name/detect-error-type-javascript){website}'
+
+
+aspects:
+  - introduction
+  - workout
 
 
 ---
@@ -106,3 +111,4 @@ try {
 * `syntax`
 * `Error`
 
+ 

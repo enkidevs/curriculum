@@ -11,7 +11,7 @@ type: normal
 category: must-know
 
 standards:
-  js.identify-common-design-patterns.5: 10
+  javascript.identify-common-design-patterns.5: 10
 
 tags:
   - introduction
@@ -19,6 +19,11 @@ tags:
 
 links:
   - '[nodejs.org](https://nodejs.org/api/process.html#process_event_uncaughtexception){website}'
+
+
+aspects:
+  - introduction
+  - workout
 
 
 ---
@@ -85,3 +90,4 @@ process.???('???',
 * any
 * undefinedState
 * listen
+ 

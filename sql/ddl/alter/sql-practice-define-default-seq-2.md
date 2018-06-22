@@ -28,6 +28,12 @@ links:
   - '[blog post on MySQL define tables](https://www.tutorialspoint.com/mysql/mysql-using-sequences.htm){website}'
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=5KqFoTswr-M){video}'
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 
 # SQL Practice Aggregate Average
@@ -42,3 +48,5 @@ By default, the `id` field of every entry in this table will increment by 1. Ins
 *Create an `ALTER TABLE` statement to satisfy this condition*.
 
 Note: When submitting, include the output of the provided query as your answer.
+ 
+ 

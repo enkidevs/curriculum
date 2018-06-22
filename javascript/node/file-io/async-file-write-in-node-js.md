@@ -11,7 +11,7 @@ type: normal
 category: must-know
 
 standards:
-  js.node-standard-library-os.0: 10
+  javascript.node-standard-library-os.0: 10
 
 tags:
   - introduction
@@ -19,6 +19,11 @@ tags:
 
 links:
   - '[nodejs.org](https://nodejs.org/api/fs.html#fs_fs_writefile_file_data_options_callback){website}'
+
+aspects:
+  - introduction
+  - workout
+
 
 ---
 # Async File Write in Node.js
@@ -103,3 +108,4 @@ const fs = require('fs')
 * enki.txt
 * FileSystem
 * writeFileAsync
+ 

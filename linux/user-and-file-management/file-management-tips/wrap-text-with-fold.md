@@ -23,6 +23,10 @@ links:
   - '[www.tutorialspoint.com](http://www.tutorialspoint.com/unix_commands/fold.htm){website}'
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Wrap text with `fold`
@@ -87,3 +91,4 @@ Use the `fold` command to line-break the content of `enki.txt` every 20 characte
 * `--width`
 * `enki.txt`
 
+ 
