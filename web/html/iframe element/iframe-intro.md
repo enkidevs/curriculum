@@ -15,21 +15,42 @@ tags:
   - deep
 
 links:
-  - '[](){}'
+  - '[Browsing context](https://developer.mozilla.org/en-US/docs/Glossary/Browsing_context){documentation}'
+  - '[Origin](https://developer.mozilla.org/en-US/docs/Glossary/origin){documentation}'
+  - '[MDN docs for iFrame](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe){website}'
+  - '[Window object](https://developer.mozilla.org/en-US/docs/Web/API/Window){website}'
   
 ---
 # Iframe
 ---
 ## Content
 
-New content to go here. The author must be updated to match a valid Enki account.
+The HTML `<iFrame>`, or **The Inline Frame element** is used to create a nested browsing context. This is done by `embedding` another HTML page into the current page. 
+
+For instance, Gmail is built using iframes, as are many others with OAuth implementations (Twitter, Facebook, Google, & Yahoo!)
+
+Browsing context is usually a tab, window or a frame in a browser where the browser displays a web page and its content. Each browsing context has its own specific origin, and a history of all the displayed web pages in the order they were displayed. Communication between these tabs is restricted, and the only way tabs can communicate is if they have the same origin.
+
+**Note: You can have as many `<iframe>` elements within a document and each of them will embed another document within the `<body>` of the page. Nevertheless, the more `<iframe>` elements you have, the more memory it will take to load that page. So even though you can have unlimited amounts of `<iframe>` elements, you should only have what's necessary to not run into performance issues.**
+
+When you nest browsing context, the one containing the other is called the parent browsing context. Whereas the topmost tab/window containing the parent `<iframe>` element is called a `Window` object. (Check the `more info` section for more info on `Window` objects.)
+
+Simple example:
+```
+<iframe
+  src="https://apple.com">
+</iframe>
+```
 
 ---
 ## Practice
 
 Write the code to display the website Apple.com within a web page.
 
-`<??? ???="???"></???>`
+```
+<??? ???="???">
+  </???>
+```
 
 * `iframe`
 * `src`
@@ -43,7 +64,7 @@ Write the code to display the website Apple.com within a web page.
 ---
 ## Revision
 
-Question?
+Gmail is built using what, as does many OAuth implementations (Twitter, Facebook, Google, & Yahoo!)?
 
 ???
 
@@ -52,15 +73,6 @@ Question?
 * links
 * nests
 * framesets
-
-Question?
-
-???
-
-* Add text within the iframe element with a note.
-* Use simple JavaScript code to fix the issue. 
-* Add a fallback page within the iframe. 
-* The iframe element is not supported in HTML5. 
 
 ---
 ## Quiz
