@@ -42,6 +42,17 @@ Simple example:
 </iframe>
 ```
 
+Also, if a browser doesn't support the `<iframe>` element(all modern browsers support iframes), you should add a note within the `<iframe>` element. For instance:
+```
+<iframe
+  src="https://apple.com">
+  <p>
+    Your browser does not
+    support iframes.
+  </p>
+</iframe>
+```
+
 ---
 ## Practice
 
@@ -52,13 +63,21 @@ Write the code to display the website Apple.com within a web page.
   </???>
 ```
 
+What is the best way to deal with browsers that do not support `<iframe>`?
+
+???
+
 * `iframe`
 * `src`
 * `http://apple.com`
 * `/iframe`
+* Add text within the iframe element with a note.
 * `href`
 * `frame`
 * `/frame`
+* Use simple JavaScript code to fix the issue. 
+* Add a fallback page within the iframe. 
+* The iframe element is not supported in HTML5. 
 
 
 ---
