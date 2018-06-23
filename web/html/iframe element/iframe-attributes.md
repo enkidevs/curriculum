@@ -43,10 +43,9 @@ Deprecated/obsolete attribbutes:
   5. `marginwidth`
   6. `scrolling`
     
-Also, the `<iframe>` element support global attributes. To learn more about `global attributes` check the `more info` section at the bottom of this insight.
+Also, the `<iframe>` element supports global attributes. To learn more about `global attributes` check the `more info` section at the bottom of this insight.
   
-Here are the most used ones today. All other will be in the next insight:
-Most used:
+Here are the most used ones, all other will be in the next insight:
  1. `height`
  2. `name`
  3. `src`
