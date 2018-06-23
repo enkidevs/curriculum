@@ -52,13 +52,13 @@ Most used:
  3. `src`
  4. `width`
 
-1. The `height` attribute is used to set the height of the `<iframe>` element. The height is measured in CSS pixels. **Note: Before HTML5 the value of the `height` attribute could've been either in pixels or percentages. Now only in pixels.**
+1) The `height` attribute is used to set the height of the `<iframe>` element. The height is measured in CSS pixels. **Note: Before HTML5 the value of the `height` attribute could've been either in pixels or percentages. Now only in pixels.**
 
-2. The `name` attribute is used to give the `<iframe>` element a name. The value of the `name` attribute can be used as the value of the `target` and `formtarget` attributes for any element using them; like the `<a>`, `<base>`, `<form>`, `<input>` or `<button>` element.
+2) The `name` attribute is used to give the `<iframe>` element a name. The value of the `name` attribute can be used as the value of the `target` and `formtarget` attributes for any element using them; like the `<a>`, `<base>`, `<form>`, `<input>` or `<button>` element.
 
-3. The `src` attribute value is the URL of the embedded page. You can also use `about:blank` to embed an empty page.
+3) The `src` attribute value is the URL of the embedded page. You can also use `about:blank` to embed an empty page.
 
-4. The `width` attribute is used to set the width of the `<iframe>` element. The width is measured in CSS pixels. **Note: Before HTML5 the value of the `width` attribute could've been either in pixels or percentages. Now only in pixels.**
+4) The `width` attribute is used to set the width of the `<iframe>` element. The width is measured in CSS pixels. **Note: Before HTML5 the value of the `width` attribute could've been either in pixels or percentages. Now only in pixels.**
 
 
 ---
