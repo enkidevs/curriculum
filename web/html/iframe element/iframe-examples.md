@@ -18,7 +18,7 @@ links:
   - '[Codepen Example](https://codepen.io/stefan-stojanovic/pen/wXXoyJ?editors=1000){code}'
   
 ---
-# Iframe
+# Iframe-examples
 ---
 ## Content
 
