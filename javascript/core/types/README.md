@@ -9,6 +9,7 @@ insights:
   - types-undefined-and-null
   - types-boolean-and-number
   - weak-vs-strict-equality-operator
+  - the-difference-between-null-undefined-and-nan
 
 exercises:
   - js-practice-glitch-numbers
