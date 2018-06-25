@@ -1,5 +1,5 @@
 ---
-author: lizthedeveloper
+author: lizTheDeveloper
 
 levels:
 
