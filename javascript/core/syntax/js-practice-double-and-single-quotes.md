@@ -29,9 +29,10 @@ links:
   - '[Strings in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String){documentation}'
   - '[Walkthough on Variables in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables){walkthrough}'
 ---
+# JS Practice Strings
+---
 ## Exercise
 
-# JS Practice Strings
 For this challenge, in the file named `answer.js`, create a variable named `someString` like this:
 
 ```

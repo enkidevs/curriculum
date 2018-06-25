@@ -26,11 +26,9 @@ links:
 
 - '[MDN - The JavaScript Console](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools#The_JavaScript_console)'
 ---
-
-
+# JS Practice logging to the console
+---
 ## Exercise
-
-# JS Practice with the JavaScript Console
 
 For the first set of exercises, we'll be using a platform called Glitch. This is an in-browser Development Environment that you can use to practice your JavaScript. You can "Remix" a project to copy it to your own account and make changes.
 

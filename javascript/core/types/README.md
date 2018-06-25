@@ -14,6 +14,7 @@ insights:
 
 
 exercises:
+  - js-practice-types-strings
   - js-practice-booleans
   - js-practice-numbers
   - js-practice-strings
@@ -22,4 +23,3 @@ exercises:
 
 
 game: taking-precedence
- 

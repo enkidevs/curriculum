@@ -32,9 +32,9 @@ links:
   - '[Strings in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String){documentation}'
   - '[Walkthough on Variables in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables){walkthrough}'
 ---
-## Exercise
-
 # Strings and length
+---
+## Exercise
 
 In the file named `answer.js`, create a variable named `example`.
 
