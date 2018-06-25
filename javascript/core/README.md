@@ -7,15 +7,15 @@ core: true
 sections:
   '0':
     - intro-js
-    - syntax
     - types
     - flow-control
     - functions-i
+    - syntax
     - arrays
     - objects
   '1':
     - types-ii
-    - strings
+    - strings-ii
     - numbers
     - array-methods
     - functions-ii
