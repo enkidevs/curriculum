@@ -115,6 +115,22 @@ Create linked text that opens a webpage in a new window:
 ---
 ## Revision
 
+Create linked text that opens a webpage in a new window:
+
+```
+<??? ???="http://enki.com" 
+???="???">Link to Enki<???>
+```
+
+* `a`
+* `href`
+* `target`
+* `_blank`
+* `/a`
+* `img`
+* `link`
+* `src`
+* `_new`
 
 
 
