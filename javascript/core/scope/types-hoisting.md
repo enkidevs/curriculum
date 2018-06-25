@@ -33,7 +33,7 @@ aspects:
 
 ---
 
-# Types - Hoisting
+# Scope - Hoisting
 
 ---
 ## Content
@@ -41,12 +41,12 @@ aspects:
 In JavaScript, when you declare variables they are always processed first before any code is executed even if they are declared later in the code.
 
 For example, if you have the following code:
-```
+```javascript
 x=1;
 var x;
 ```
 This is actually executed as:
-```
+```javascript
 var x;
 x=1;
 ```
@@ -66,4 +66,3 @@ What does **hoisting** mean?
 * You must first declare variables before methods
 * A general rule for **linters**
 * You can have multiple variables with the same name
- 

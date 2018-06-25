@@ -29,5 +29,4 @@ links:
 ---
 ## Exercise
 
-Practice using JavaScript While-Loops on Code Wars
- 
+Solve this challenge using flow control in JavaScript

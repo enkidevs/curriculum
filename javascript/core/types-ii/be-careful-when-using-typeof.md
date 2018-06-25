@@ -34,6 +34,8 @@ aspects:
 ---
 ## Content
 
+Certain data types are objects yet we refer to them as their more specific type, for example arrays
+are objects but they are specialized objects so we call them an array and expect them to behave as an array.
 `typeof` returns "object" for all objects, and nothing more specific.
 
 Examples:
