@@ -10,7 +10,7 @@ sections:
     - types
     - flow-control
     - functions-i
-    - syntax
+    - js-history
     - arrays
     - objects
   '1':
