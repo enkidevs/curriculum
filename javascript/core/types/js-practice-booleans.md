@@ -1,5 +1,5 @@
 ---
-author: milesflo
+author: elliehoward
 
 levels:
 
@@ -13,8 +13,8 @@ tags:
 
 type: exercise
 
-link: http://www.codewars.com/kata/571edd157e8954bab500032d
-linkType: codewars
+link: https://jsfiddle.net/elliehoward/m9gwybxa/
+linkType: jsfiddle
 standards:
   javascript.evaluate-expressions.5: 1000
   javascript.data-types-structures.2: 1000
@@ -39,5 +39,6 @@ aspects:
 ---
 ## Exercise
 
-Practice using JavaScript Booleans on Code Wars
- 
+Practice declaring JavaScript Booleans in JSFiddle
+
+Make sure to submit the JSFiddle link, to show that you've completed the exercise.
