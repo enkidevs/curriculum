@@ -115,23 +115,40 @@ Create linked text that opens a webpage in a new window:
 ---
 ## Revision
 
-Create linked text that opens a webpage in a new window:
+When will the cursor change to a pointer with the following code?
 
 ```
-<??? ???="http://enki.com" 
-???="???">Link to Enki<???>
+<main>
+  <a
+    href="http://www.enkipro.com">
+    Check out Enki
+  </a>
+</main>
 ```
 
-* `a`
-* `href`
-* `target`
-* `_blank`
-* `/a`
-* `img`
-* `link`
-* `src`
-* `_new`
+When the mouse hovers: ???
 
+How is a placeholder link created, where the link works, but it doesn't open a new page?
+
+`<a href="???">Empty href</a>`
+
+What is the default style of a text link in HTML?
+
+???
+
+* over the text within the `<a>` element.
+* `#`
+* It is blue and underlined.
+* anywhere within the `<main>` element.
+* anywhere within the web page.
+* The cursor doesn’t change in this case
+* `""`
+* `*`
+* `_empty`
+* `_self`
+* `Leave empty`
+* It is blue and bold.
+* There is no visual change to a text link.
 
 
 ---
