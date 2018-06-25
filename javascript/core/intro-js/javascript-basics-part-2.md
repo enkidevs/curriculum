@@ -50,6 +50,7 @@ If `var` is omitted the variable will still be created and referenced, but it wi
 
 JavaScript has two scopes, global and local. If a variable is defined *outside* of a function then it is in the global scope which means it can be read and changed throughout the program. If a variable is declared *inside* a function then it will only "exist" or be accessible inside the function.  For example, here enki is declared inside a function and will exist only inside the function:
 
+
 ```javascript
 function hello(){
    var company="enki";
@@ -58,6 +59,7 @@ function hello(){
 // variable out of scope
 console.log(company); // undefined
 ```
+
 
 
 ---
@@ -93,6 +95,7 @@ function answer() {
 * Option C
 * None of these
 
+
 ---
 ## Revision
 
@@ -111,3 +114,18 @@ console.log(answer)
 * 42
 * answer
 * local
+=======
+What operator is used to declare a variable in the *current scope*?
+
+```javascript
+??? answer = 42;
+```
+
+* var
+* variable
+* const
+* string
+* int
+* double
+ 
+

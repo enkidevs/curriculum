@@ -1,5 +1,6 @@
 ---
-author: lizthedeveloper
+author: lizTheDeveloper
+
 
 levels:
 
@@ -27,7 +28,7 @@ aspects:
   - introduction
 tags:
   - introduction
-  
+
 ---
 
 # JS Practice Math `log`

@@ -36,6 +36,7 @@ tags:
 aspects:
   - obscura
 
+
 links:
 
   - '[learnxinyminutes.com](http://learnxinyminutes.com/docs/javascript/){website}'
@@ -101,3 +102,4 @@ The processing of operations starts with ??? operator if no brackets are used.
 * left-most
 * right-most
 * middle
+
