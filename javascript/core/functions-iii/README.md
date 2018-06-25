@@ -8,4 +8,7 @@ insights:
   - function-call-method
   - difference-between-call-and-apply-methods
   - bind
- 
+
+exercises:
+  - js-practice-bind
+  - js-practice-call
