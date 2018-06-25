@@ -51,10 +51,12 @@ There are times when putting quotations is necessary, like when an attribute con
 
 Example:
 ```
-<a href="#" class="btn large">
+<a href="#" 
+   class="btn large">
   Click Me
 </a>
-<a href=# class=btn large>
+<a href=# 
+   class=btn large>
   Click Me
 </a>
 ```
@@ -64,7 +66,8 @@ Result:
 
 In the example above, it is easy to see the buttons do not display the same. This is because the code on the unquoted attributes will only recognize the class 'btn' and not know what to do with the second class 'large', interpreting the code like this: 
 ```
-<a href="#" class="btn" large="">
+<a href="#" 
+   class="btn" large="">
   Click Me
 </a>
 ```
