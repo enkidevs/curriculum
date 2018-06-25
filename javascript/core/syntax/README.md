@@ -7,3 +7,6 @@ insights:
   - double-and-single-quotes
   - infix-operators-are-left-associative
   - strict-mode
+
+exercises:
+  - js-practice-double-and-single-quotes
