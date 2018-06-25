@@ -11,9 +11,8 @@ insights:
   - weak-vs-strict-equality-operator
 
 exercises:
-  - js-practice-strings-2
-  - js-practice-booleans
-  - js-practice-numbers
+  - js-practice-glitch-numbers
+  - js-practice-glitch-math
 
 
 

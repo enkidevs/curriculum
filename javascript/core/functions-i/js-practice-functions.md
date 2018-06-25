@@ -41,4 +41,4 @@ aspects:
 ---
 ## Exercise
 
-In this exercise, you'll calculate which century a year is contained within.
+In this exercise, you'll calculate which century a year is contained within, using a function!
