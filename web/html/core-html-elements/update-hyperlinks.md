@@ -31,8 +31,8 @@ Hovering over hyperlinks changes the cursor to a pointer.
 
 The hyperlink is defined with the `<a>` tag:
 ```
-<a
-  href="URL">This is linked text.
+<a href="URL">
+  This is linked text.
 </a>
 ```
 or
@@ -72,8 +72,10 @@ Opening the link in a new tab is written like this:
 During the web page development process, if web pages aren't created yet or you don't want to link them yet while still creating the linked object, `placeholder` links can be used. These provide the same interactivity as real links in that they can be clicked, but they do not open any new pages.
 
 ```
-<a href="#">This link is interactive,
- but doesn't work yet.</a>
+<a href="#">
+  This link is interactive,
+  but doesn't work yet.
+</a>
 ```
 
 Next to linking through text, it is also common to link through pictures.
@@ -82,9 +84,10 @@ To link images, the same tags are used, but wrap around an image element like th
 
 ```
 <a href="https://enki.com/" 
-   target="_blank">
-  <img src ="logo.svg" 
-       alt ="Enki Logo" />
+ target="_blank">
+   <img src ="logo.svg" 
+        alt ="Enki Logo" 
+   />
 </a>
 ```
 
