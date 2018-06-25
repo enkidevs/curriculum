@@ -44,9 +44,9 @@ with (Math) {
 There are however many potential pitfalls to using `with`:
 * You can easily make global variables by mistake.
 
-* It can be difficult to read.
+* It can be challenging to read.
 
-* The compiler disables optimisation operations.
+* The compiler disables optimization operations.
 
 
 It is not recommended that you use `with` and it is not allowed in ES5 **strict mode**.

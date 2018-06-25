@@ -31,7 +31,7 @@ notes: ''
 ---
 ## Content
 
-Strings in Python are immutable. The advantage is that strings can be directly used as keys in dictionaries, and string copies can be shared among multiple variable bindings. But the disadvantage is that if you want to amend something in an existing string, then you have to create a new one. This leads to significant inefficiencies:
+Strings in Python are immutable. The advantage is that strings can be directly used as keys in dictionaries, and string copies can be shared among multiple variable bindings. However, the disadvantage is that if you want to amend something in an existing string, then you have to create a new one. This leads to significant inefficiencies:
 
 Example:
 
@@ -41,7 +41,7 @@ s = ""
 for substring in list:
     s += substring
 ```
-The above code is actually a common mistake when building large strings. Instead, use:
+The above code is a common mistake when building large strings. Instead, use:
 
 ```python
 s = "".join(list)

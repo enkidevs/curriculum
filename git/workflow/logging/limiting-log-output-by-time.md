@@ -28,13 +28,13 @@ links:
 
 By default `git log` shows the whole commit history, with the most recent commit first.
 
-You can limit this output to a specific time period by using `--since/--after` and `--until/--before`. 
+You can limit this output to a specific period by using `--since/--after` and `--until/--before`. 
 
 For example, to show commits in the past month:
 ```
 $ git log --since="last month"
 ```
-Many different formats are accepted, for example relative dates ("3 hours ago"), ISO 8601 and RFC 2822 formats, and "YYYY-MM-DD".
+Many different formats are accepted, for example, relative dates ("3 hours ago"), ISO 8601 and RFC 2822 formats, and "YYYY-MM-DD".
 
 ---
 ## Practice

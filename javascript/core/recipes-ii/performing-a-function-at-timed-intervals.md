@@ -47,7 +47,7 @@ var loop =
 window.setInterval(myFunction, 1000);
 
 ```
-The first argument of `setInterval` is a function we want to run periodically, the second argument is the time in milliseconds.
+The first argument of `setInterval` is a function we want to run periodically, and the second argument is the time in milliseconds.
 
 To clear the interval:
 

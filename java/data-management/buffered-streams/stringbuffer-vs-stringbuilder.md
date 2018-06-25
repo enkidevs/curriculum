@@ -32,11 +32,11 @@ links:
 ---
 ## Content
 
-While both the clases can be used to concatenate strings, the key differences between `StringBuffer` and `StringBuilder` are:
+While both the classes can be used to concatenate strings, the fundamental differences between `StringBuffer` and `StringBuilder` are:
 
 * The `StringBuilder` class has *no guarantee of synchronization*, but provides an API compatible with `StringBuffer`. 
 
 * `StringBuilder` is a drop-in replacement for `StringBuffer` for *use in a single thread* with no synchronization. 
 
-Performance wise, `StringBuilder` is faster compared to `StringBuffer`, and hence should preferred under most implementations.
+Performance wise, `StringBuilder` is faster compared to `StringBuffer`, and hence should be preferred under most implementations.
 

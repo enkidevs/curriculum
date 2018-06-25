@@ -23,9 +23,9 @@ standards:
 ---
 ## Content
 
-Strings are bits of text either defined with 'single' or "double" quotations. Python has a number of build in methods which perform a variety of operations on strings.
+Strings are bits of text either defined with 'single' or "double" quotations. Python many of built-in methods which perform a variety of operations on strings.
 
-First we'll declare a string for method testing purposes:
+First, we shall declare a string for method testing purposes:
 ```python
 str = 'operations'
 ```

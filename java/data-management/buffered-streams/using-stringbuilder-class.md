@@ -35,13 +35,13 @@ str=str+" Morning";
 The following code will:
 - put `"Good"` in the String Pool.
 - put `"Morning"` in the String Pool.
-- create `"Good Morning"`  by concatenating   the first two and put it in the *Heap*.
+- create `"Good Morning"`  by concatenating the first two and put it in the *Heap*.
 
-This will create 3 different `String` objects. If many  manipulations are needed, this approach will decrease the application's performance.
+This will create three different `String` objects. If many manipulations are needed, this approach will decrease the application's performance.
 
-Unlike `String`, `StringBuilder` class  behaves as an *array of characters*, providing **mutable** objects.
+Unlike `String`, `StringBuilder` class behaves as an *array of characters*, providing **mutable** objects.
 
-The main additional functionality provided by StringBuilder over String are the `insert` and `append` methods. Both methods  accept any datatype as a parameter.
+The main additional functionality provided by StringBuilder over String is the `insert` and `append` methods. Both methods accept any datatype as a parameter.
 
 You can replicate the code snippet above:
 ```java

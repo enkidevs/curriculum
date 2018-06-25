@@ -38,7 +38,7 @@ links:
 
 Buffered streams typically only call the native output API once the buffer is full. Sometimes it is appropriate to write from a buffer before it is full; this is called *flushing*.
 
-This can be done by calling the `flush` method which is included in all output stream classes:
+This can be done by calling the `flush` method which will be included in all output stream classes:
 ```
 outStream.flush();
 ```
