@@ -33,9 +33,6 @@ tags:
 
   - operator-associativity
 
-aspects:
-  - obscura
-
 links:
 
   - '[learnxinyminutes.com](http://learnxinyminutes.com/docs/javascript/){website}'
