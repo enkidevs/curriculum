@@ -9,6 +9,6 @@ insights:
   - types-string
 
 exercises:
-  - js-practice-double-and-single-quotes
-  - js-practice-types-strings
-  - js-practice-strings
+  - js-practice-glitch-length
+  - js-practice-glitch-log-variable
+  - js-practice-glitch-strings
