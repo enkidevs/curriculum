@@ -4,45 +4,43 @@ author: elliehoward
 levels:
 
   - beginner
-  
+
   - basic
-  
-  
+
+
 tags:
 
   - introduction
 
-    
+
 type: exercise
 
-      
 
-linkType: glitch 
+
+linkType: glitch
 link: https://glitch.com/edit/#!/remix/x/5361a42b-d89e-46a1-93e0-cb1dcc60c832
-answer: /some\sregex/ (optional)
-  
 
-standards: 
-  cs.identify-linear-collection-data-structures-usage.0: 1000 
-  cs.identify-linear-collection-data-structures-usage.3: 1000
+
+standards:
+  javascript.javascript-syntax.1: 1000
+  javascript.javascript-syntax.2: 1000
+  javascript.write-expressions.0: 1000
+  javascript.evaluate-expressions.2: 1000
 
 links:
-
-- '[link to official documentation](https://enki.com)'
-- '[link to deeper dive blog post](https://enki.com)'
-- '[link to a video](https://enki.com)'
-- '[link to a discussion](https://enki.com)'
+  - '[Variables in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var){documentation}'
+  - '[Strings in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String){documentation}'
+  - '[Walkthough on Variables in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables){walkthrough}'
 ---
 
 
 ## Exercise
 
-# JS Practice Basics Part 2
+In the file named `answer.js`, declare a variable named `example`.
 
-`linkType` determines what help text is displayed, and how the system interprets the response. `linkType` can be one of:
-- `github`
-- `codewars`
-- `glitch`
-- `website`
-- `sqlfiddle`
-- `codepen`
+Make the variable example equal to the value `'some string'`.
+
+Then use `console.log()` to print the example variable to the console.
+
+Check to see if your program is correct by clicking Show.
+Be sure to Remix the project, and turn that in as your solution.

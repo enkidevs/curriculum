@@ -20,7 +20,7 @@ link: https://glitch.com/edit/#!/enki-javascripting-1?path=README.md:1:21
 
 
 standards:
-
+  javascript.standard-library.3: 1000
 
 links:
 

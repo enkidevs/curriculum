@@ -10,6 +10,5 @@ insights:
   - javascript-basics-part-2
 
 exercises:
-  - js-practice-console-in
-  - js-practice-using-javascript-on-a-webpage
-  - js-practice-using-javascript-on-a-webpage-inline
+  - js-practice-console
+  - js-practice-basics-part-2
