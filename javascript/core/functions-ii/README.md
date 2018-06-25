@@ -9,4 +9,7 @@ insights:
   - anonymous-functions
   - iife-pattern
   - functions-are-objects
- 
+
+exercises:
+  - js-practice-this
+  - js-practice-default-parameters

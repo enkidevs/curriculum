@@ -15,11 +15,10 @@ insights:
 
 exercises:
   - js-practice-types-strings
+  - js-practice-strings-2
   - js-practice-booleans
   - js-practice-numbers
   - js-practice-strings
-
-
 
 
 game: taking-precedence
