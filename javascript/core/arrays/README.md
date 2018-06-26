@@ -8,7 +8,7 @@ insights:
   - splice
   - arrays-can-be-used-as-stack
 
-game: foo-features-and-fun-facts
+game: foo-features-and-fun-facts 
 
 exercises:
   - js-practice-glitch-array
