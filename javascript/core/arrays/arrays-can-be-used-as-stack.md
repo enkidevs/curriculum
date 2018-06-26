@@ -21,6 +21,7 @@ tags:
 
 aspects:
   - introduction
+  - workout
 
 
 links:
@@ -85,5 +86,3 @@ s.??? ; // s = [1,2,4]
 * push(4)
 * pop(2)
 * pop(4)
- 
- 

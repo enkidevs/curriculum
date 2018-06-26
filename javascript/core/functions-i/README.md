@@ -10,4 +10,5 @@ insights:
   - function-constructor-vs-function-expression
 
 exercises:
+  - js-practice-glitch-functions
   - js-practice-functions
