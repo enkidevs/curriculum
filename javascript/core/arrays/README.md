@@ -12,7 +12,7 @@ game: foo-features-and-fun-facts
 
 exercises:
   - js-practice-sort-i
-  - js-practice-sort-i
+  - js-practice-sort-ii
   - js-practice-arrays
   - js-practice-array-isarray
   - js-practice-array-push
