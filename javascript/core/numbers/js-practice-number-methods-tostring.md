@@ -18,7 +18,7 @@ type: exercise
 
 
 linkType: glitch
-link: https://glitch.com/edit/#!/remix/x/c134bf27-1258-4847-8148-8d049b01da88
+link: https://glitch.com/edit/#!/remix/x/f228026d-1d67-4fd8-9b14-8eccd0ca455d
 answer: /some\sregex/ (optional)
 
 
@@ -28,12 +28,12 @@ standards:
 
 links:
 
-- '[MDN - if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)'
+- '[MDN - toString Method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toString)'
 ---
 
 
 ## Exercise
 
-# JS Practice if else
+# JS Practice Number Methods: toString
 
-Practice using JavaScript if..else Conditionals on glitch
+Practice using JavaScript's toString method on glitch.

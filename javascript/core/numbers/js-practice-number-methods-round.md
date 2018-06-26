@@ -3,8 +3,6 @@ author: elliehoward
 
 levels:
 
-  - beginner
-
   - basic
 
 
@@ -18,7 +16,7 @@ type: exercise
 
 
 linkType: glitch
-link: https://glitch.com/edit/#!/remix/x/c134bf27-1258-4847-8148-8d049b01da88
+link: https://glitch.com/edit/#!/remix/x/a9909ccc-153f-4f6f-ab27-0dce08125823
 answer: /some\sregex/ (optional)
 
 
@@ -28,12 +26,12 @@ standards:
 
 links:
 
-- '[MDN - if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)'
+- '[MDN - Math.round](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round)'
 ---
 
 
 ## Exercise
 
-# JS Practice if else
+# JS Practice Number Methods: Round
 
-Practice using JavaScript if..else Conditionals on glitch
+Practice using JavaScript's number methods on glitch

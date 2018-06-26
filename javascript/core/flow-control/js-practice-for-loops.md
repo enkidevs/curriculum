@@ -1,5 +1,5 @@
 ---
-author: milesflo
+author: elliehoward
 
 levels:
 
@@ -7,10 +7,21 @@ levels:
 
   - basic
 
+
+tags:
+
+  - introduction
+
+
 type: exercise
 
-link: http://www.codewars.com/kata/5721a78c283129e416000999
-linkType: codewars
+
+
+linkType: glitch
+link: https://glitch.com/edit/#!/remix/x/ff2edbd4-3412-441c-b432-3b348f4e7e01
+answer: /some\sregex/ (optional)
+
+
 standards:
   javascript.control-flow.0: 1000
   javascript.control-flow.3: 1000
@@ -19,14 +30,19 @@ standards:
 
 links:
 
-  - '[MDN - For](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)'
-  - '[MDN - Loops and Iteration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)'
+- '[MDN - For](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)'
+- '[MDN - Loops and Iteration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)'
 ---
+
+
+## Exercise
 
 # JS Practice For Loops
 
----
-## Exercise
-
-Practice using JavaScript For-Loops on Code Wars
- 
+`linkType` determines what help text is displayed, and how the system interprets the response. `linkType` can be one of:
+- `github`
+- `codewars`
+- `glitch`
+- `website`
+- `sqlfiddle`
+- `codepen`

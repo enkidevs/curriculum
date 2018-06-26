@@ -1,5 +1,5 @@
 ---
-author: milesflo
+author: elliehoward
 
 levels:
 
@@ -7,37 +7,36 @@ levels:
 
   - basic
 
+
 tags:
 
   - introduction
 
+
 type: exercise
 
-link: http://www.codewars.com/kata/571edd157e8954bab500032d
-linkType: codewars
-standards:
 
-  javascript.data-types-structures.0: 1000
-  javascript.data-types-structures.1: 6000
-  javascript.write-expressions.0: 6000
+
+linkType: glitch
+link: https://glitch.com/edit/#!/remix/x/2859bb2f-dff1-4718-9f15-2a3bd4245f47
+answer: /some\sregex/ (optional)
+
+
+standards:
+  cs.identify-linear-collection-data-structures-usage.0: 1000
+  cs.identify-linear-collection-data-structures-usage.3: 1000
 
 links:
 
-  - '[MDN - Numbers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)'
-  - '[YouTube - "Numbers - Beau teaches JavaScript"](https://www.youtube.com/watch?v=nBEBraDJkFg)'
+- '[MDN - Numbers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)'
+- '[YouTube - "Numbers - Beau teaches JavaScript"](https://www.youtube.com/watch?v=nBEBraDJkFg)'
 
-  - '[Stack Overflow - JavaScript Numbers](https://stackoverflow.com/questions/7896199/javascript-numbers)'
-
-
-aspects:
-  - introduction
-
+- '[Stack Overflow - JavaScript Numbers](https://stackoverflow.com/questions/7896199/javascript-numbers)'
 ---
+
+
+## Exercise
 
 # JS Practice Numbers
 
----
-## Exercise
-
-Practice using JavaScript Numbers on Code Wars
- 
+Practice using JavaScript Numbers on glitch
