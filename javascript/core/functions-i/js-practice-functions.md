@@ -1,5 +1,5 @@
 ---
-author: elliehoward
+author: milesflo
 
 levels:
 
@@ -9,13 +9,20 @@ levels:
 
 
 tags:
-
   - introduction
+  - workout
 
 
 type: exercise
 
+link: https://www.codewars.com/kata/century-from-year/javascript
+linkType: codewars
+standards:
 
+  javascript.data-types-structures.0: 1000
+  javascript.data-types-structures.1: 1000
+  javascript.write-expressions.0: 1000
+  javascript.evaluate-expressions.0: 1000
 
 linkType: glitch
 link: https://glitch.com/edit/#!/remix/x/2859bb2f-dff1-4718-9f15-2a3bd4245f47
@@ -28,8 +35,9 @@ standards:
 
 links:
 
-- '[MDN - Numbers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)'
-- '[YouTube - "Numbers - Beau teaches JavaScript"](https://www.youtube.com/watch?v=nBEBraDJkFg)'
+aspects:
+  - introduction
+  - workout
 
 - '[Stack Overflow - JavaScript Numbers](https://stackoverflow.com/questions/7896199/javascript-numbers)'
 ---
@@ -37,6 +45,4 @@ links:
 
 ## Exercise
 
-# JS Practice Numbers
-
-Practice using JavaScript Numbers on glitch
+In this exercise, you'll calculate which century a year is contained within, using a function!

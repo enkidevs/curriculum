@@ -35,6 +35,8 @@ aspects:
 
 ---
 ## Content
+There are different types of values you can store in variables. One type is called a string, which is
+a sequence of text. To create a string add either single or double quotes around the text.
 
 Generally, double and single quotes are handled the same way.
 

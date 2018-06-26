@@ -38,17 +38,16 @@ var company = "Enki";
 var company = 'Enki';
 ```
 
-If you have longer text you can wrap multiple lines by using the + operator:
+You can connect, usually called concat, two strong together with the '+' operator:
 
-```
-var longerText = "abc" +
-		"def" +
-		"ghi";
+```javascript
+var longText = "abc" + "def" + "ghi";
+//longText is equal to "abcdefghi"
 ```
 
 You can also use the backslash character to continue writing text on multiple lines (make sure nothing is after the backslash).
 
-```
+```javascript
 var longerText = "abc\
 def\
 ghi";
@@ -86,7 +85,7 @@ var myString = 'this will ???
 ## Revision
 
 Which one of the following is correct ?
-```
+```javascript
 var company = "Enki";
 var company = 'Enki';
 ```

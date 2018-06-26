@@ -1,5 +1,6 @@
 ---
-author: elliehoward
+author: lizTheDeveloper
+
 
 levels:
 
@@ -18,17 +19,18 @@ type: exercise
 
 
 linkType: glitch
-link: https://glitch.com/edit/#!/remix/x/5361a42b-d89e-46a1-93e0-cb1dcc60c832
+link: https://glitch.com/edit/#!/remix/enki-javascripting-6
 
 
 standards:
   javascript.javascript-syntax.1: 1000
   javascript.javascript-syntax.2: 1000
   javascript.write-expressions.0: 1000
-  javascript.evaluate-expressions.2: 1000
+  javascript.evaluate-expressions.0: 1000
+
 
 links:
-  - '[Variables in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var){documentation}'
+  - '[Numbers in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number){documentation}'
   - '[Strings in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String){documentation}'
   - '[Walkthough on Variables in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables){walkthrough}'
 ---
@@ -37,11 +39,9 @@ links:
 
 ## Exercise
 
-In the file named `answer.js`, declare a variable named `example`.
+In the file named `answer.js`, define a variable named `example` that references the integer `123456789`.
 
-Make the variable example equal to the value `'some string'`.
+Use `console.log()` to print that number to the terminal.
 
-Then use `console.log()` to print the example variable to the console.
-
-Check to see if your program is correct by clicking Show.
+Click `Show` to check to see if your program is correct.
 Be sure to Remix the project, and turn that in as your solution.

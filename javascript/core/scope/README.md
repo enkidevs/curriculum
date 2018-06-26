@@ -14,3 +14,4 @@ game: think-you-know-javascript
 
 exercises:
   - js-practice-hoisting
+  - js-practice-closures

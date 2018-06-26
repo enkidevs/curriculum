@@ -40,36 +40,81 @@ It’s not strictly necessary to do this as the parser will try to determine the
 
 ### Variables
 
-Variables are declared with the `var` operator which creates a variable in the *current scope*.
+Variables are essential for programming. They are used to store a modifiable value and are given a name. Declare a variable in JavaScript with the `var` keyword.
 
-For example, if this is used inside a function then the variable will exist only inside the function:
+```javascript
+var firstName="John";
+```
+
+If `var` is omitted the variable will still be created and referenced, but it will behave in unintended ways because of a concept in JavaScript called scope.
+
+JavaScript has two scopes, global and local. If a variable is defined *outside* of a function then it is in the global scope which means it can be read and changed throughout the program. If a variable is declared *inside* a function then it will only "exist" or be accessible inside the function.  For example, here enki is declared inside a function and will exist only inside the function:
+
 
 ```javascript
 function hello(){
    var company="enki";
+   console.log(company); // "enki"
 }
 // variable out of scope
+console.log(company); // undefined
 ```
 
-If you omit the `var` keyword and are not in strict mode then a variable will still be declared but it will be declared in global scope. When this occurs on a web page, global scope is the `window` object.
 
-Not using `var` is a very bad idea as it is easy for variables to overwrite (sometimes called clobber) other variables.
 
 ---
 ## Practice
 
-Which scope are `var`s defind in?
+Which will define a variable in the global scope?
+
+```
+// Option A
+var answer = 42;
+```
+
+```
+// Option B
+function globalFunction() {
+  var answer = 42;
+}
+```
+
+```
+// Option C
+function answer() {
+  var answer = 42;
+  return answer;
+}
+```
+
 
 ???
 
-* current
-* global
-* window
-* strict
+* Option A
+* Option B
+* Option C
+* None of these
+
 
 ---
 ## Revision
 
+What will log to the console?
+
+```javascript
+function getAnswers(){
+  var answer = 42
+}
+console.log(answer)
+```
+
+???
+
+* undefined
+* 42
+* answer
+* local
+=======
 What operator is used to declare a variable in the *current scope*?
 
 ```javascript
@@ -83,3 +128,4 @@ What operator is used to declare a variable in the *current scope*?
 * int
 * double
  
+

@@ -1,5 +1,5 @@
 ---
-author: elliehoward
+author: lizthedeveloper
 
 levels:
 
@@ -18,7 +18,7 @@ type: exercise
 
 
 linkType: glitch
-link: https://glitch.com/edit/#!/remix/x/5361a42b-d89e-46a1-93e0-cb1dcc60c832
+link: https://glitch.com/edit/#!/remix/enki-javascripting-5
 
 
 standards:
@@ -26,22 +26,21 @@ standards:
   javascript.javascript-syntax.2: 1000
   javascript.write-expressions.0: 1000
   javascript.evaluate-expressions.2: 1000
+  javascript.standard-library.0: 1000
 
 links:
-  - '[Variables in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var){documentation}'
   - '[Strings in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String){documentation}'
   - '[Walkthough on Variables in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables){walkthrough}'
 ---
-# JavaScript Variables
+# Strings and length
 ---
-
 ## Exercise
 
-In the file named `answer.js`, declare a variable named `example`.
+In the file named `answer.js`, define a variable named `pizza` that references this string: `'pizza is alright'`
 
-Make the variable example equal to the value `'some string'`.
+Use the `.replace()` method to change `alright` to `wonderful`.
 
-Then use `console.log()` to print the example variable to the console.
+Use `console.log()` to print the results of the `.replace()` method to the terminal.
 
-Check to see if your program is correct by clicking Show.
+Click `Show` to check to see if your program is correct.
 Be sure to Remix the project, and turn that in as your solution.

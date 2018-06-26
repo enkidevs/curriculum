@@ -15,10 +15,8 @@ tags:
 
 type: exercise
 
-
-
 linkType: glitch
-link: https://glitch.com/edit/#!/remix/x/5361a42b-d89e-46a1-93e0-cb1dcc60c832
+link: https://glitch.com/edit/#!/remix/x/2c8017ce-54bb-498e-b4b3-5c12efac9b67
 
 
 standards:
@@ -28,20 +26,19 @@ standards:
   javascript.evaluate-expressions.2: 1000
 
 links:
-  - '[Variables in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var){documentation}'
   - '[Strings in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String){documentation}'
   - '[Walkthough on Variables in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables){walkthrough}'
 ---
-# JavaScript Variables
+# JS Practice Strings
 ---
-
 ## Exercise
 
-In the file named `answer.js`, declare a variable named `example`.
+For this challenge, in the file named `answer.js`, create a variable named `someString` like this:
 
-Make the variable example equal to the value `'some string'`.
+```
+var someString = 'this is a string';
+```
 
-Then use `console.log()` to print the example variable to the console.
-
-Check to see if your program is correct by clicking Show.
+Use `console.log` to _print the variable_ `someString` to the terminal.
+Click Show to check to see if your program is correct.
 Be sure to Remix the project, and turn that in as your solution.

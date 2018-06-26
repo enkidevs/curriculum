@@ -28,5 +28,4 @@ links:
 ---
 ## Exercise
 
-Practice using JavaScript Switch-Cases on Code Wars
- 
+Solve this challenge using flow control in JavaScript

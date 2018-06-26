@@ -33,6 +33,9 @@ tags:
 
   - operator-associativity
 
+aspects:
+  - obscura
+
 
 links:
 
@@ -52,7 +55,7 @@ aspects:
 ---
 ## Content
 
-Operator associativity determines the order in which operators of the same type are evaluated. 
+Operator associativity determines the order in which operators of the same type are evaluated.
 
 Operations are processed from the left-hand side of an equation:
 ```
@@ -100,4 +103,3 @@ The processing of operations starts with ??? operator if no brackets are used.
 * right-most
 * middle
 
- 
