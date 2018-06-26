@@ -11,8 +11,7 @@ insights:
 game: foo-features-and-fun-facts
 
 exercises:
-  - js-practice-sort-i
-  - js-practice-sort-i
+  - js-practice-glitch-array
   - js-practice-arrays
   - js-practice-array-isarray
   - js-practice-array-push

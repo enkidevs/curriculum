@@ -6,7 +6,9 @@ levels:
   - beginner
 
   - basic
-
+aspects:
+  - introduction
+  - workout
 type: exercise
 
 link: http://www.codewars.com/kata/sort-by-last-char
@@ -31,4 +33,3 @@ links:
 ## Exercise
 
 Write a JavaScript function that will sort Strings by their last character
- 

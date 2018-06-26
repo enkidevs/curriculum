@@ -8,7 +8,9 @@ levels:
   - basic
 
 type: exercise
-
+aspects:
+  - introduction
+  - workout
 link: http://www.codewars.com/kata/descending-order
 linkType: codewars
 standards:
@@ -30,4 +32,3 @@ links:
 ## Exercise
 
 Write a JavaScript function that will sort Strings in descending order
- 
