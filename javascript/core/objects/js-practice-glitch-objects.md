@@ -17,13 +17,11 @@ aspects:
 type: exercise
 
 linkType: glitch
-link: https://glitch.com/edit/#!/enki-javascripting-12
+link: https://glitch.com/edit/#!/enki-javascripting-15
 
 
 standards:
-  javascript.data-types-structures.3: 1000
-  javascript.data-types-structures.4: 1000
-  javascript.evaluate-expressions.6: 1000
+  javascript.data-types-structures.2: 1000
   javascript.standard-library.4: 1000
 
 
