@@ -24,9 +24,9 @@ links:
 
 The HTML `<span>` element is used group inline HTML elements. By itself, the element does not represent any visual change by itself, but it can be used to group and style inline elements or group elements with similar attribute values.
 
-**Notes:**
-  - **Only use `<span>` if you don't have a more appropriate semantic element.**
-  - **`<div>` and `<span>` are very similar, except `<div>` is a block element, whereas `<span>` is an inline element.
+**Notes:**  
+  - Only use `<span>` if you don't have a more appropriate semantic element.
+  - `<div>` and `<span>` are very similar, except `<div>` is a block element, whereas `<span>` is an inline element.
 
 The `<span>` element supports global attributes. To learn more about global attributes visit the `more info` section at the bottom of this insight.
 
