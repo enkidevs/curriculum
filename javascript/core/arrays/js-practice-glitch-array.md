@@ -21,15 +21,17 @@ link: https://glitch.com/edit/#!/remix/enki-javascripting-11
 
 
 standards:
-  javascript.javascript-syntax.2: 1000
-  javascript.control-flow.3: 1000
+  javascript.data-types-structures.3: 1000
+  javascript.data-types-structures.4: 1000
+  javascript.evaluate-expressions.6: 1000
+
 
 
 links:
-  - '[If statements in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else){documentation}'
-  - '[Javascript Control Flow](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling){walkthrough}'
+  - '[Arrays in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array){documentation}'
+  - '[Javascript Indexed Collections Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections){walkthrough}'
 ---
-# JavaScript For Loops
+# JavaScript Arrays and For Loops
 ---
 
 ## Exercise

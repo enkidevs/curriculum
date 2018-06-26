@@ -19,6 +19,9 @@ standards:
   javascript.functions.0: 1000
   javascript.functions.1: 1000
   javascript.functions.3: 1000
+  javascript.data-types-structures.4: 1000
+  javascript.evaluate-expressions.3: 1000
+  javascript.evaluate-expressions.6: 1000
 
 links:
 
