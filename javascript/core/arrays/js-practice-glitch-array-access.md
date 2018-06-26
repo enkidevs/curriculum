@@ -17,7 +17,7 @@ aspects:
 type: exercise
 
 linkType: glitch
-link: https://glitch.com/edit/#!/remix/enki-javascripting-11
+link: https://glitch.com/edit/#!/enki-javascripting-13
 
 
 standards:
@@ -31,13 +31,14 @@ links:
   - '[Arrays in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array){documentation}'
   - '[Javascript Indexed Collections Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections){walkthrough}'
 ---
-# JavaScript Arrays
+# JavaScript Array Access
 ---
-
 ## Exercise
-In the file named `answer.js`, define a variable named `pizzaToppings` that references an array that contains three strings in this order: `tomato sauce, cheese, pepperoni`.
+In the file named `answer.js`, define the array `food`:
+```
+    var food = ['apple', 'pizza', 'pear'];
+```
+Use `console.log()` to print the second value of the array to the terminal.
 
-Use `console.log()` to print the `pizzaToppings` array to the terminal.
-
-Click `Show` to check to see if your program is correct.
+Run your program and check to see if it is correct by clicking 'Show' above.
 Be sure to Remix the project, and turn that in as your solution.

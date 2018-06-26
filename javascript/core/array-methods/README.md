@@ -10,6 +10,7 @@ insights:
   - shuffle-an-array-using-sort-and-random
 
 exercises:
+  - js-practice-glitch-array-filter
   - js-practice-sort-i
   - js-practice-sort-ii
   - js-practice-array-every
