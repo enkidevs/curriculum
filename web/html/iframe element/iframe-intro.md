@@ -53,6 +53,30 @@ Also, if a browser doesn't support the `<iframe>` element(all modern browsers su
 </iframe>
 ```
 
+The `<iframe>` element has many element-specific attributes. (They will be explained in later insights)
+
+Non-deprecated element-specific attributes:
+  1. `allowfullscreen`
+  2. `allowpaymentrequest`
+  3. `height`
+  4. `name`
+  5. `referrerpolicy`
+  6. `sandbox`
+  7. `src`
+  8. `srcdoc`
+  9. `width`
+
+Deprecated/obsolete attribbutes:
+  1. `align`
+  2. `frameborder`
+  3. `longdesc`
+  4. `marginheight`
+  5. `marginwidth`
+  6. `scrolling`
+
+**Note: The obsolete attributes are only mentioned because you might run into some whilst looking at older websites. You should never use obsolete attributes when writing new content, and should also remove them from older content.**
+
+
 ---
 ## Practice
 
