@@ -15,6 +15,7 @@ tags:
   - deep
 
 links:
+  - '[Global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
   - '[MDN docs for iFrame](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe){website}'
   
 ---
@@ -22,34 +23,15 @@ links:
 ---
 ## Content
 
-The `<iframe>` element has many element-specific attributes. We will mention the deprecated/obsolete ones because you might run into some whilst looking at older websites. Nevertheless, you should never use obsolete attributes when writing new content, and should also remove them from older content.
+All attributes will be explained in the next couple of insights. This insight will contain:
+  1. `height`
+  2. `name`
+  3. `src`
+  4. `width`
 
-Non-deprecated element-specific attributes:
-  1. `allowfullscreen`
-  2. `allowpaymentrequest`
-  3. `height`
-  4. `name`
-  5. `referrerpolicy`
-  6. `sandbox`
-  7. `src`
-  8. `srcdoc`
-  9. `width`
-
-Deprecated/obsolete attribbutes:
-  1. `align`
-  2. `frameborder`
-  3. `longdesc`
-  4. `marginheight`
-  5. `marginwidth`
-  6. `scrolling`
+which are also the most used 4 attributes.
     
-Also, the `<iframe>` element supports global attributes. To learn more about `global attributes` check the `more info` section at the bottom of this insight.
-  
-Here are the most used ones, all other will be in the next insight:
- 1. `height`
- 2. `name`
- 3. `src`
- 4. `width`
+**Note: The `<iframe>` element also supports global attributes. To learn more about `global attributes` check the `more info` section at the bottom of this insight.**
 
 1) The `height` attribute is used to set the height of the `<iframe>` element. The height is measured in CSS pixels. **Note: Before HTML5 the value of the `height` attribute could've been either in pixels or percentages. Now only in pixels.**
 
@@ -63,15 +45,27 @@ Here are the most used ones, all other will be in the next insight:
 ---
 ## Practice
 
-Identify the deprecated attribute:
+Identify the obsolete attribute:
+
+???
+
+How do you set the width and height of an `<iframe>` element?
+
+???
+
+Which `<iframe>` elements attribute value can be used as a value for `target` or `formtarget` attributes to target the `<iframe>` element?
 
 ???
 
 * `align`
-* `height`
+* with the `width` and `height` attributes
 * `name`
+* `height`
 * `src`
 * `width`
+* by applying the CSS height and with properties
+* using JavaScript
+* The iframe element is not supported in HTML5. 
 
 ---
 ## Revision
