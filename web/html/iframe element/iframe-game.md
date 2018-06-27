@@ -77,37 +77,37 @@ width is a valid attribute
 
 align
 %exp
-This is a deprecated attribute
+This attribute was deprecated and for achieving the same effect you should use the approproate CSS properties.
 %
 
 frameborder
 %exp
-This is a deprecated attribute
+This attribute was deprecated and for achieving the same effect you should use the approproate CSS properties.
 %
 
 longdesc
 %exp
-This is a deprecated attribute
+This attribute was deprecated and for achieving the same effect you should use the approproate CSS properties.
 %
 
 marginheight
 %exp
-This is a deprecated attribute
+This attribute was deprecated and for achieving the same effect you should use the approproate CSS properties.
 %
 
 marginwidth
 %exp
-This is a deprecated attribute
+This attribute was deprecated and for achieving the same effect you should use the approproate CSS properties.
 %
 
 marginwidth
 %exp
-This is a deprecated attribute
+This attribute was deprecated and for achieving the same effect you should use the approproate CSS properties.
 %
 
 scrolling
 %exp
-This is a deprecated attribute
+This attribute was deprecated and for achieving the same effect you should use the approproate CSS properties.
 %
 
 ```
