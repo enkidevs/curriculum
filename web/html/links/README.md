@@ -2,11 +2,11 @@ name: Lists
 
 type: insights-list
 
-description: TODO
+description: All about links in HTML
 
 section: 0
 
-parent: 
+parent:
 
 insights:
   - link-relative-paths
