@@ -1,4 +1,4 @@
-# Ether Heists Cause by Bugs
+---
 author: mihaiberq
 
 levels:
@@ -16,6 +16,9 @@ tags:
   - introduction
 
   - deep
+
+---
+# Ether Heists Cause by Bugs
 
 ---
 ## Content

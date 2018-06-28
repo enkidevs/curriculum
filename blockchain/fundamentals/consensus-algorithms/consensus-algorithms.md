@@ -28,7 +28,8 @@ tags:
   - deep
 
 links:
-  - '[A Hitchiker's Guide to Consensus Algorithms](https://hackernoon.com/a-hitchhikers-guide-to-consensus-algorithms-d81aae3eb0e3){article}'
+  - >-
+    [A Hitchiker's Guide to Consensus Algorithms](https://hackernoon.com/a-hitchhikers-guide-to-consensus-algorithms-d81aae3eb0e3){article}
 
 ---
 # Consensus Algorithms

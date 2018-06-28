@@ -22,7 +22,7 @@ tags:
 ---
 ## Content
 
-
+Dummy content.
 
 ---
 ## Practice
@@ -43,8 +43,7 @@ Which are the steps of a `Pump and dump` scheme?
 1. ???
 2. ???
 3. ???
-4. ??
-5. Profit
+4. Profit
 
 * Have a ton of cryptocoins
 * Flood the market with coins

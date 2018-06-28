@@ -1,4 +1,4 @@
-# Intro to Solidity
+---
 author: mihaiberq
 
 levels:
@@ -18,6 +18,10 @@ tags:
   - workout
 
   - deep
+
+---
+# Intro to Solidity
+
 
 ---
 ## Content

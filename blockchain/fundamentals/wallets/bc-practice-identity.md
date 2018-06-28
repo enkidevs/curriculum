@@ -21,7 +21,7 @@ standards:
 
 links:
   - '[Demo for the website](https://youtu.be/xIDL_akeras){video}'
-  - '[How public key encryption works](https://cs.stackexchange.com/questions/59675/can-a-public-key-be-used-to-decrypt-a-message-encrypted-by-the-corresponding-pri){discussion}
+  - '[How public key encryption works](https://cs.stackexchange.com/questions/59675/can-a-public-key-be-used-to-decrypt-a-message-encrypted-by-the-corresponding-pri){discussion}'
 ---
 
 # Blockchain Practice - Identity

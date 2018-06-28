@@ -1,4 +1,3 @@
-# Smart Contract Example
 author: mihaiberq
 
 levels:
@@ -18,6 +17,9 @@ tags:
   - workout
 
   - deep
+
+---
+# Smart Contract Example
 
 ---
 ## Content

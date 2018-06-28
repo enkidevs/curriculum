@@ -24,9 +24,10 @@ tags:
   - workout
 
 links:
-  - '[The authoritative guide to blockchain development](https://medium.freecodecamp.org/the-authoritative-guide-to-blockchain-development-855ab65b58bc)'
-
-  - '[Ethereum\'s inventor, Vitalik Buterin, about blockchains and Ethereum](https://www.youtube.com/watch?v=WSN5BaCzsbo)'
+  - >-
+    [The authoritative guide to blockchain development](https://medium.freecodecamp.org/the-authoritative-guide-to-blockchain-development-855ab65b58bc)
+  - >-
+    [Ethereum's inventor, Vitalik Buterin, about blockchains and Ethereum](https://www.youtube.com/watch?v=WSN5BaCzsbo)
 
 ---
 # What Is a Blockchain?

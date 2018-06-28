@@ -38,9 +38,9 @@ As of early 2018, in percentage of the world's electricity consumption, the enti
 
 The three things you need for setting up a mining data center are:
 
-- ???, not to miss out on blocks
-- ???, to pay the minimum price to run the rig
-- ???, to help with cooling
+???, not to miss out on blocks
+???, to pay the minimum price to run the rig
+???, to help with cooling
 
 * good network
 * cheap power
