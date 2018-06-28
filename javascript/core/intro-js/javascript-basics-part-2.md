@@ -26,7 +26,7 @@ aspects:
 ---
 ## Content
 
-Like most programming languages, JavaScript has a number of syntax rules that must be adhered to.
+Like most programming languages, JavaScript has a number of syntax rules that must be adhered to. 
 
 ### Semicolon
 

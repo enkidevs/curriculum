@@ -27,7 +27,7 @@ aspects:
 ---
 ## Content
 
-Like most programming languages, JavaScript has a number of rules its code must adhere to.
+Like most programming languages, JavaScript has a number of rules its code must adhere to. 
 
 ### Case Sensitivity
 
