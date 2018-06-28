@@ -39,7 +39,7 @@ aspects:
 ---
 ## Content
 
-EcmaScript **version 5** introduced a feature called **strict mode** that makes the JavaScript interpreter enforce a more stringent set of rules.
+EcmaScript **version 5** introduced a feature called **strict mode** that makes the JavaScript interpreter enforce a more stringent set of rules. 
 
 **What does strict mode do?**
 

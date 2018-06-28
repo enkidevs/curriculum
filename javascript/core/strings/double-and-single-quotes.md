@@ -36,7 +36,7 @@ aspects:
 ---
 ## Content
 
-Generally, double and single quotes are handled the same way.
+Generally, double and single quotes are handled the same way. 
 
 ```
 str1 = 'I\'m a string.';
