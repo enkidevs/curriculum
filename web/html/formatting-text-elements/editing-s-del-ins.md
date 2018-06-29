@@ -19,11 +19,9 @@ links:
   - '[MDN docs for s](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s){website}'
   - '[MDN docs for ins](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins){website}'
   - '[MDN docs for del](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del){website}'
-  - '[MDN docs for u](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u){website}'
-  - '[MDN docs for mark](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark){website}'
 
 ---
-# Editing (s, del, ins, u, mark)
+# Editing (s, del, ins)
 ---
 ## Content
 
