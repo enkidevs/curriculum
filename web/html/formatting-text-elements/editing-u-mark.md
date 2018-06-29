@@ -20,7 +20,7 @@ links:
   - '[MDN docs for mark](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark){website}'
 
 ---
-# Editing (s, del, ins, u, mark)
+# Editing (u, mark)
 ---
 ## Content
 
