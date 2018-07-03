@@ -80,6 +80,7 @@ function myArray() {
   var a = ???;
   a = Array.prototype.???.call(a);
   return a;
+}
 ```
 
 * arguments
