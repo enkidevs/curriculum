@@ -8,11 +8,12 @@ insights:
   - splice
   - arrays-can-be-used-as-stack
 
-game: foo-features-and-fun-facts
+game: foo-features-and-fun-facts 
 
 exercises:
-  - js-practice-sort-i
-  - js-practice-sort-i
+  - js-practice-glitch-array
+  - js-practice-glitch-array-access
+  - js-practice-glitch-array-for-loop
   - js-practice-arrays
   - js-practice-array-isarray
   - js-practice-array-push

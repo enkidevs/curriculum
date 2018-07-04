@@ -1,5 +1,4 @@
-name: Syntax
+name: JavaScript Syntax and Variables
 
-description: This was an old workout
-
-insights:
+description: Syntax of JavaScript, Variables
+ 

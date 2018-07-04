@@ -84,8 +84,8 @@ var multiply = function times(x, y) {
 ```
 
 
-* A function expression of a function named times assigned to the variable multiply.
-* A function times being declared.
+* A function expression of a function named `times` assigned to the variable `multiply`.
+* A function `times` being declared.
 * Function expression of an anonymous function.
 
 ---
@@ -106,4 +106,3 @@ var multiply = function(x, y) {
 * function expression of a `function` named `mult`
 * all
 * none
- 

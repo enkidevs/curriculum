@@ -21,11 +21,6 @@ linkType: codewars
 link: https://www.codewars.com/kata/regex-validate-pin-code
 
 standards:
-
-  python.identify-python-syntax.1: 1000
-  python.identify-python-syntax.2: 3000
-  python.store-manipulate-data.0: 2000
-  python.store-manipulate-data.2: 2000
   python.data-structures-uses.5: 2000
 
 links:
@@ -34,7 +29,7 @@ links:
   - '[link to a video](https://www.youtube.com/watch?v=oy4GOI9vn5M){video}'
 ---
 
-# Practice python syntax
+# Practice python String Validation
 
 ---
 ## Exercise
