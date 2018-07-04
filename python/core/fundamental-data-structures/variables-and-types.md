@@ -98,10 +98,7 @@ print(type(c))
 * `complex`
 * `str`
 * `long`
-* `string`
 * `int`
-* `integer`
-* `floating`
 
 ---
 ## Revision
@@ -122,7 +119,4 @@ print(type(c))
 * `complex`
 * `str`
 * `float`
-* `string`
 * `int`
-* `integer`
-* `floating`
