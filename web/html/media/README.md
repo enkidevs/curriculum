@@ -10,5 +10,5 @@ insights:
   - embed
  
 exercises:
-  - html-audio-codepen-exercise.md
-  - html-video-codepen-exercise.md
+  - html-audio-codepen-exercise
+  - html-video-codepen-exercise
