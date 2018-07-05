@@ -12,3 +12,5 @@ insights:
   - type-password
   - pattern-regexp
  
+exercises:
+  - html-create-password-pattern-codepen-exercise
