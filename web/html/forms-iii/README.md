@@ -14,3 +14,4 @@ insights:
  
 exercises:
   - html-create-password-pattern-codepen-exercise
+  - html-create-new-account-codepen-exercise
