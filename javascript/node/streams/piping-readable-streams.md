@@ -26,6 +26,12 @@ links:
 
 parent: readable-streams
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 # Piping Readable Streams
 
@@ -92,3 +98,4 @@ Which function is used for piping data from a source to a destination?
 * copy()
 * source()
 * move()
+ 

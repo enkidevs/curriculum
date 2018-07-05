@@ -29,6 +29,11 @@ links:
 
   - '[SQL Tutorial: SELECT](http://www.sql-tutorial.com/sql-select-sql-tutorial/){website}'
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # SELECT
@@ -118,4 +123,5 @@ Choose the query that will get all the entries from this table:
 * DISPLAY [all] FROM ability;
 * SELECT [all] FROM ability;
 * FIND * FROM ability;
+ 
  

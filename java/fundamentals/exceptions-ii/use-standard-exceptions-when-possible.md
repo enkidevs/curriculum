@@ -39,3 +39,4 @@ For example, creating an exception called  `UnusableArgumentException` when ther
 
 In general it is best to use standard exceptions whenever an appropriate exception exists.
 
+ 

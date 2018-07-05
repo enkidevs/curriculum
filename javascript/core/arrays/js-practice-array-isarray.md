@@ -6,6 +6,8 @@ levels:
   - beginner
 
   - basic
+aspects:
+  - introduction
 
 type: exercise
 

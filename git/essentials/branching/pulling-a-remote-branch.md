@@ -28,7 +28,7 @@ For example, to fetch and merge the branch `master` with the current branch:
 ```
 $ git pull origin
 ```
-The merge is automatic and you are unable to review the commits. For this reason, sometimes you can use `git fetch` and `git merge` instead.
+The merge is automatic, and you are unable to review the commits. For this reason, sometimes you can use `git fetch` and `git merge` instead.
 
 There's also the `-a` (shorthand for `--append`) flag targeting the fetch part of pulling. It tells git to append new branch HEADs to the `.git/FETCH_HEAD` file instead of overwriting everything with what's remote.
 
@@ -76,3 +76,4 @@ $ git pull -a
 * --amend
 * --all
 * --autostash
+ 

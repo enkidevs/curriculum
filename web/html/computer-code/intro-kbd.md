@@ -131,20 +131,16 @@ And in the third example, we have a `<samp>` element nested inside a `<kbd>` ele
 ---
 ## Practice
 
-When using the `<kbd>` element, which statements are true?
+When using the `<kbd>` element, which statement is not true?
 
 ???
-???
-???
-???
 
-+ represents user input
-+ displayed in the browser's default monospace font
-+ when nested inside `<samp>`, represents input echoed by the system.
-+ when containing `<samp>`, represents input based on system output.
-- produces a block element
-- represents preformatted text
-- represents sample output
+* represents preformatted text
+* represents user input
+* displayed in the browser's default monospace font
+* when nested inside `<samp>`, represents input echoed by the system.
+* when containing `<samp>`, represents input based on system output.
+
 
 ---
 ## Revision

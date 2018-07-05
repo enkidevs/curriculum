@@ -78,3 +78,4 @@ What file is used to tell git to ignore certain files in your project?
 [1: Dot-files]
 
 By convention, a "dot-file" (a file name which begins with `.`) is hidden and extra steps are required for it to be displayed in the file explorer.
+ 

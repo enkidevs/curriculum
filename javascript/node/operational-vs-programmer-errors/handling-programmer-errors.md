@@ -20,6 +20,11 @@ tags:
   - introduction
   - workout
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # Handling Programmer Errors
@@ -73,3 +78,4 @@ Treatment
 * Operational error
 * Enclosing the code inside a `try/catch` block
 
+ 

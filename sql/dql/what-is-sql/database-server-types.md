@@ -23,6 +23,10 @@ links:
 
   - '[More on RDBMS](https://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems){website}'
 
+aspects:
+  - introduction
+
+
 ---
 
 # Database server types
@@ -76,4 +80,5 @@ Which database is open-source, _and_ does not require a license for commercial u
 * MS Access
 * Oracle
 * MS SQL Server
+ 
  

@@ -22,6 +22,12 @@ tags:
 
   - deep
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 
 # Storing JSON in MySQL
@@ -101,4 +107,5 @@ MySQL's operator for JSON parsing is
 * `JSON_VALUE`
 * `$`
 
+ 
  

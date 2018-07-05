@@ -17,6 +17,10 @@ tags:
 links:
   - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments){documentation}'
 
+aspects:
+  - introduction
+
+
 ---
 # Access a function's `arguments` as an array
 
@@ -76,6 +80,7 @@ function myArray() {
   var a = ???;
   a = Array.prototype.???.call(a);
   return a;
+}
 ```
 
 * arguments
@@ -85,3 +90,4 @@ function myArray() {
 * args
 * sort
 * toArray
+ 

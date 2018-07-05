@@ -19,6 +19,10 @@ links:
 
 parent: executing-programs-with-node
 
+aspects:
+  - introduction
+
+
 ---
 # NPM, Node's Package Manager
 
@@ -68,3 +72,4 @@ Complete the code snippet to install a package from NPM:
 * new
 * download
 
+ 

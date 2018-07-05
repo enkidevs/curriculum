@@ -60,7 +60,7 @@ A `WLAN` is a type of `LAN` that uses wireless technology (nearly always Wi-Fi) 
 ---
 ## Practice
 
-Which of the following network types describes a local area network that uses **wireless** technologies to connect its devices ?
+Which of the following network types describes a local area network that uses **wireless** technologies to connect its devices?
 
 ???
 
@@ -98,3 +98,4 @@ Chances are you have already connected to a network via an **Ethernet cable**.
 **Token ring** is a communications *protocol* for `LAN`s. It uses a special `3`-byte frame called a **token** that travels around a logical "ring" of workstations or servers.
 
 This token passing is a channel access method providing fair access for all stations, and eliminating the collisions present in other access methods.
+ 

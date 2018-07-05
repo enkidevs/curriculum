@@ -25,6 +25,12 @@ links:
 
 parent: check-data-about-a-package
 
+aspects:
+  - workout
+  - deep
+  - new
+
+
 ---
 # Lock down dependency versions by shrinkwrapping
 
@@ -81,3 +87,4 @@ $ ??? ???
 * dependencies
 * package.json
 * npm-shrinkwrap
+ 

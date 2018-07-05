@@ -87,3 +87,4 @@ console.log(window.location);
 %exp
 This property returns the whole `URL` it is applied to. It is usually used in JavaScript to redirect the browser to that location it is returning.
 %
+ 

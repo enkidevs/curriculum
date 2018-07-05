@@ -1,6 +1,10 @@
 ---
 author: catalin
 
+tags:
+
+  - introduction
+
 levels:
 
   - basic
@@ -26,18 +30,18 @@ links:
 
 `Tuples` are another one of the three currently implemented **sequence data types** (alongside with `lists` and `ranges`).
 
-Tuples are used to group any number of items into a single compound value regardless of their type (even nested tuples):
+Tuples are used to group any number of items into a single compound value regardless of their type (including nested tuples):
 ```python
 myTuple = ("first", 13, "random", 42)
 ```
 
-You can extract elements from the tuple using the index operator:
+Extract elements from the tuple using the index operator:
 ```python
 print(myTuple[3])
 # 42
 ```
 
-The index used has to be a valid one:
+The index used must be valid:
 ```python
 print(myTuple[4])
 # IndexError: tuple index out of range
@@ -64,7 +68,7 @@ a, *b, c = (1, 2, 3, 4, 5)
 print(b)
 # [2, 3, 4]
 ```
-Tuples are often used for a sequence of values of heterogeneous types (e.g. fields of a database record or columns from a CSV file), while lists are often used for homogeneous items, such as a list of only numbers, or a list of only strings. But this is not a rule, it can be the other way around too.
+Tuples are often used for a sequence of values of heterogeneous types (e.g. fields of a database record or columns from a CSV file), while lists are often used for homogeneous items, such as a list of only numbers, or a list of only strings. But this is not a rule; it can be the other way around too.
 
 ---
 ## Practice
@@ -111,12 +115,12 @@ ex_tuple = ("Python", 1, "Enki", 2)
 * `1`
 
 ---
-## Quiz 
+## Quiz
 ### how does unpacking work?
 
 ```python
 # What will be the value printed by the following code block?
-a, \*b, c = (1, 2, 3, 4, 5)
+a, *b, c = (1, 2, 3, 4, 5)
 print(b)
 ```
 
@@ -124,6 +128,5 @@ print(b)
 
 * 2,3,4
 * 2
-* 3,4,5
+* 2,3,4,5
 * 1,2,3,4,5
- 

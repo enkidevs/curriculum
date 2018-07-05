@@ -21,6 +21,11 @@ links:
   - '[nodejs.org](https://nodejs.org/api/errors.html){website}'
   - '[blog.risingstack.com](https://blog.risingstack.com/node-js-best-practices/){website}'
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # `try-catch` only for **sync** code
 
@@ -98,3 +103,4 @@ How must errors happen as to handle them with a `try-catch` block?
 * synchronously
 * asynchronously
 
+ 

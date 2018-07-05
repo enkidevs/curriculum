@@ -29,6 +29,11 @@ tags:
 
 notes: ''
 
+aspects:
+  - workout
+  - workout
+
+
 ---
 
 # Bash history reverse search
@@ -55,3 +60,4 @@ Bash reverse search is triggered by ??? .
 * search -r
 * search -r
 
+ 

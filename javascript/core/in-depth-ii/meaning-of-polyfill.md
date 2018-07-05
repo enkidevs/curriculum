@@ -24,6 +24,11 @@ tags:
 
 
 
+aspects:
+  - deep
+  - workout
+
+
 ---
 
 # Meaning of polyfill
@@ -71,3 +76,4 @@ A polyfill is a downloadable code that provides
 * new features
 * all HTML tags
 
+ 

@@ -24,6 +24,11 @@ links:
 
 parent: local-modules
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # Module patterns
 
@@ -96,3 +101,4 @@ foo();
 * )
 * ).module
 * ).exports
+ 

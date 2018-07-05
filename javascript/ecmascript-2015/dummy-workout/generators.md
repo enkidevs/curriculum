@@ -67,3 +67,4 @@ What syntax is used to pause and resume a *generator function* ?
 * stop
 * getFunc()
 * *
+ 

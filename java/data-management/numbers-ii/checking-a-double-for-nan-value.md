@@ -34,3 +34,4 @@ if (Double.isNaN(ans)) {
 
 The `isNaN()` method above is used to check whether the value is equal to `NaN`.
 
+ 

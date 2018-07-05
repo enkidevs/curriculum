@@ -8,3 +8,4 @@ insights:
   - use-not-to-apply-unapply-styles
   - the-nth-child-property
   - required-and-optional-pseudo-classes
+ 

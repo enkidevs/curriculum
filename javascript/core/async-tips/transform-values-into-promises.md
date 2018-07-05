@@ -27,7 +27,10 @@ tags:
 
   - deep
 
-
+aspects:
+  - workout
+  - deep
+  - introduction
 
 
 ---
@@ -121,3 +124,8 @@ element.addEventListener('click', () => {
 * Listener 1; Listener 2; Microtask 1; Microtask 2;
 * Microtask 1; Listener 1; Microtask 2; Listener 2;
 * Microtask 2; Listener 2; Microtask 1; Listener 1;
+ 
+ 
+ 
+ 
+ 

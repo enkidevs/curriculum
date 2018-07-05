@@ -19,6 +19,10 @@ tags:
 
   - introduction
 
+aspects:
+  - introduction
+
+
 ---
 
 # Loops - Part 2
@@ -124,3 +128,4 @@ To exit a loop, you can use the ??? keyword.
 * stop
 * finish
 * end
+ 

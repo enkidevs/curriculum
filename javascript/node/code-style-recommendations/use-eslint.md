@@ -16,6 +16,10 @@ standards:
 tags:
   - introduction
 
+aspects:
+  - introduction
+
+
 ---
 # Use ESLint
 
@@ -62,3 +66,4 @@ A linter is, among others, ???
 * a set of rules concerning modularity
 * a Node.js extension
 * an offline Node.js compiler  
+ 

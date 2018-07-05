@@ -26,6 +26,11 @@ tags:
 
 notes: ''
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # Hoisting
@@ -109,3 +114,4 @@ go();
 * `undefined`
 * `1`
 * `2`
+ 

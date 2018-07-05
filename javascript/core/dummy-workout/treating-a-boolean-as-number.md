@@ -83,3 +83,4 @@ console.log(5 + true);
 * 5
 * True
 * SyntaxError
+ 

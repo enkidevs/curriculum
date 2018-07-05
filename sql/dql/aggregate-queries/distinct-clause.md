@@ -30,6 +30,10 @@ links:
   - '[More on DISTINCT](https://www.tutorialspoint.com/sql/sql-distinct-keyword.htm){documentation}'
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Distinct clause
@@ -119,4 +123,5 @@ FROM ???
 * `ORDER`
 * `EMPLOYEES`
 * `*`
+ 
  

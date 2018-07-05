@@ -22,6 +22,11 @@ links:
 
 parent: check-data-about-a-package
 
+aspects:
+  - workout
+  - introduction
+
+
 ---
 # Bump package version in npm
 
@@ -89,3 +94,4 @@ $ npm version ???
 * minor
 * major
 * patch
+ 

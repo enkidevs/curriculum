@@ -24,6 +24,10 @@ links:
 
 parent: what-is-a-shell
 
+aspects:
+  - introduction
+
+
 ---
 
 # Customizing `bash` via `.bashrc`
@@ -62,3 +66,4 @@ Two common files that are used for bash customization are `.bash_profile` and ??
 * .bashst
 * .bash_settings
 
+ 

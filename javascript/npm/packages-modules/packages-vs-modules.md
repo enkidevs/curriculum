@@ -21,6 +21,12 @@ tags:
   - workout
   - deep
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 # Packages vs Modules
 
@@ -73,3 +79,4 @@ Node's `require()` looks for code in
 * node_modules
 * package.json
 * node_packages
+ 

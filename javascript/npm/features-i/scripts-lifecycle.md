@@ -21,6 +21,12 @@ tags:
   - workout
   - deep
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 # Hook Scripts
 
@@ -66,3 +72,4 @@ $ ???
 * gulp
 * node -v
 * npm install
+ 

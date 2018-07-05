@@ -138,3 +138,4 @@ The ability to compare two objects not based on their identity but based on thei
 
 [2:Data Structures]
 Any data structure with associative mappings between keys and values (Key-Value pairs) can benefit from the added reliability that immutable keys provide. In Python, the standard associative data structure would be the `Dictionary` data type, which is similar to a Java or C++ `Hashtable`. See the link in the 'Learn More' section for more information.
+ 

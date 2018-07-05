@@ -22,11 +22,11 @@ links:
 ---
 ## Content
 
-If you are working on a local version of a remote branch and someone else updates the remote branch, you might want to synchronise your version.
+If you are working on a local version of a remote branch and someone else updates the remote branch, you might want to synchronize your version.
 
-To do this you run `git fetch <remote>`, which updates your local repository with any changes to the remote.
+To do this, you run `git fetch <remote>`, which updates your local repository with any changes to the remote.
 
-For example, to synchronise with `origin` remote:
+For example, to synchronize with `origin` remote:
 ```
 $ git fetch origin
 ```
@@ -65,3 +65,4 @@ $ git ???
 * `commit`
 * `master`
 
+ 

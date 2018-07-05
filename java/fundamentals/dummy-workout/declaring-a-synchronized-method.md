@@ -40,3 +40,4 @@ public synchronized int getX() {
   return x;
 }
 ```
+ 

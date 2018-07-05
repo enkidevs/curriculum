@@ -19,6 +19,10 @@ tags:
   - workout
   - arrays
 
+aspects:
+  - introduction
+  - workout
+
 links:
   - '[davidwalsh.name](https://davidwalsh.name/merge-arrays-javascript){website}'
 
@@ -111,3 +115,5 @@ console.log([3, 14] + [2, 71])
 * 3,14,2,71
 * [3,14,2,71]
 * [5, 85]
+ 
+ 

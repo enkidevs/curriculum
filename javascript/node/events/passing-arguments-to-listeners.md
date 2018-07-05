@@ -23,6 +23,11 @@ links:
 
 parent: synchronous-event-delivery
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # Passing arguments to listeners
 
@@ -65,3 +70,4 @@ What does `this` refer to inside of a callback registered to listen to an event 
 * global
 * event
 * window
+ 

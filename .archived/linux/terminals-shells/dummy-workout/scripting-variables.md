@@ -14,6 +14,8 @@ stub: true
 tags:
   - introduction
 
+aspects:
+  - introduction
 ---
 # Script Variables
 
@@ -35,3 +37,4 @@ echo $s
 * to quote $s
 * to enclose $s in ${}
 * the snippet will echo 'scripting'
+ 

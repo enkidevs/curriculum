@@ -59,3 +59,4 @@ public class Carrot
 ```
 Both `Vegetable` and `Food` contain an implementation of `describe()`. When `carrot.describe()` is called, it will print `"A vegetable"`. This is because `Food.describe()` is a `default` method, while `Vegetable.describe()` is an instance method.
 
+ 

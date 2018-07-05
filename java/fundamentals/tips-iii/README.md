@@ -8,3 +8,4 @@ insights:
   - package-naming-conventions
   - calling-one-constructor-from-another
   - avoid-using-static-variables
+ 

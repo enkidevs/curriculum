@@ -27,9 +27,9 @@ links:
 
 **Version Control** defines a **system** intended to help software development teams record and manage changes to their source code[1].
 
-Using a Version Control System, or **VCS**, different versions of a file collection or project can be created or changed; each version representing the exact state of the project at a given time.
+Using a Version Control System, or **VCS**, different versions of a file collection or project can be created or changed; each version is representing the exact state of the project at a given time.
 
-Keeping this in mind, one is able to *revert*, *compare* and even *switch* between the versions of a project's files, which greatly systemizes a team's workflow.
+Keeping this in mind, one can *revert*, *compare* and even *switch* between the versions of a project's files, which dramatically systemizes a team's workflow.
 
 Other benefits of using a **VCS** include:
 - a complete history of file changes, which simplifies tracking and fixing bugs
@@ -78,3 +78,4 @@ Both previous types have a common point of failure - a local database can get co
 
 [3:repository]
 The project files and history in DVCSs is the code **repository**.
+ 

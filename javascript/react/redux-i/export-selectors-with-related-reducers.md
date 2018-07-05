@@ -90,3 +90,4 @@ Selectors are used to compute ???, therefore ensuring that Redux stores the ???.
 * exported data
 * exported state
 * selected state
+ 

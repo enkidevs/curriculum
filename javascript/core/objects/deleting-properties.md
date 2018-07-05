@@ -26,6 +26,10 @@ links:
 
 notes: Hope it's not too basics?
 
+aspects:
+  - introduction
+
+
 ---
 
 # Deleting properties
@@ -99,3 +103,4 @@ console.log(obj);
 * `{ one: undefined }`
 * `{ one: null }`
 * `{ }`
+ 

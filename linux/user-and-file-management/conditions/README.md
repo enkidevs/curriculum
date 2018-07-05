@@ -8,3 +8,4 @@ insights:
   - sequential-execution-using-the-statement-separator
   - the-test-built-in
   - compound-commands
+ 

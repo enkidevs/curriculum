@@ -8,3 +8,4 @@ insights:
   - modify-a-website-s-url
   - warn-user-if-back-button-is-pressed
   - top-location-href
+ 

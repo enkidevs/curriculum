@@ -14,6 +14,9 @@ stub: true
 tags:
   - workout
 
+aspects:
+  - workout
+  
 ---
 # Common Types
 
@@ -33,3 +36,4 @@ round(233.03, -2)
 * 233
 * 200
 * 233.00
+ 

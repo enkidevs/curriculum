@@ -22,6 +22,11 @@ tags:
 
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # Users And Groups On Linux
@@ -69,3 +74,4 @@ $ ??? ???
 * `ls -g`
 * `-groups`
 
+ 

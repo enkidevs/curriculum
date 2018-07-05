@@ -47,3 +47,4 @@ public class Implementer implements
 }
 ```
 The class `Implementer` implements both `InterfaceA` and `InterfaceB`. This allows objects of type `Implementer` to be used with parameters and fields expecting either `InterfaceA` or `InterfaceB`.
+ 

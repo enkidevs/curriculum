@@ -20,6 +20,11 @@ links:
   - '[nodejs.org](https://nodejs.org/docs/latest/api/globals.html){website}'
   - '[nodejs.org](https://nodejs.org/api/process.html#process_process_env){website}'
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # Global Objects and Environment Variables in **Node**
 
@@ -90,3 +95,4 @@ console.log(???.???);
 * args
 * node
 * console
+ 

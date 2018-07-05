@@ -8,3 +8,4 @@ insights:
   - default-function-parameters
   - method-shorthand
   - property-value-shorthand
+ 

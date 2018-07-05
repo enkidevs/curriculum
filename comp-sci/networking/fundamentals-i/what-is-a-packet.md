@@ -89,3 +89,4 @@ Other terms equivalent to **packets** are datagrams, segments, blocks, cells and
 Contrary to *traditional lines* of communication, such as telephone lines, where there must be a continuous physical link between the source and destination, modern networks work on a different concept.
 
 Packets are routed from *source* to *destination*, going through **nodes**. At each node calculations are made deciding the most efficient route of reaching the destination.
+ 

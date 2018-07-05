@@ -7,3 +7,4 @@ insights:
   - instance-objects
   - method-objects
   - private-variables
+ 

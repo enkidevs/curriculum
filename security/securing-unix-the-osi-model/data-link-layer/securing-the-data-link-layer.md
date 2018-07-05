@@ -74,3 +74,4 @@ What is one control in the Data Link Layer of the OSI Model?
 * Use of a physical firewall
 * Encrypted password exchange and storage
 
+ 

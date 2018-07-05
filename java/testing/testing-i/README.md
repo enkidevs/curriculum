@@ -8,3 +8,4 @@ insights:
   - junit-prefer-test-over-extends-testcase
   - test-parameters
   - preparing-tests-through-annotations
+ 

@@ -68,3 +68,4 @@ Check if a number is a **safe** integer using `Number`:
 * isSafeInteger(number)
 * isInteger(number)
 * isFinite()
+ 

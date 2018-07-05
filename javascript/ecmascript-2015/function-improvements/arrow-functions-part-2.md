@@ -29,6 +29,11 @@ links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions){website}'
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # Arrow Functions (Part 2)
@@ -106,3 +111,4 @@ let count = new Counter();
 * `function() {this.counter++;}`
 * `function() {this.counter--;}`
 
+ 

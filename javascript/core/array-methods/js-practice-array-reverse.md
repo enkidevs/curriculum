@@ -30,3 +30,4 @@ links:
 ## Exercise
 
 Practice using the JavaScript Array methods `reverse()` and `sort()`
+ 
