@@ -22,7 +22,7 @@ standards:
   web.markup-text.1: 1000
 
 links:
-  - '[MDN docs for ordered lists]](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol){website}'
+  - '[MDN docs for ordered lists](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl){website}'
 ---
 # HTML description list
 ---
