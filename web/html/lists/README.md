@@ -19,3 +19,4 @@ exercises:
   - html-list-order-codepen-exercise.md	
   - html-nested-list-codepen-exercise.md	
   - html-unordered-list-codepen-exercise.md
+  - html-description-list-codepen-exercise.md
