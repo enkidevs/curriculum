@@ -16,7 +16,7 @@ insights:
   - description-lists
   
 exercises:
-  - html-list-order-codepen-exercise.md	
-  - html-nested-list-codepen-exercise.md	
-  - html-unordered-list-codepen-exercise.md
-  - html-description-list-codepen-exercise.md
+  - html-list-order-codepen-exercise
+  - html-nested-list-codepen-exercise
+  - html-unordered-list-codepen-exercise
+  - html-description-list-codepen-exercise
