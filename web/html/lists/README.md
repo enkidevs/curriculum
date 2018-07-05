@@ -14,3 +14,8 @@ insights:
   - nested-lists
   - list-orders
   - description-lists
+  
+exercises:
+  - html-list-order-codepen-exercise.md	
+  - html-nested-list-codepen-exercise.md	
+  - html-unordered-list-codepen-exercise.md
