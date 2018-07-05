@@ -18,7 +18,8 @@ link: https://codepen.io/enkidevs/pen/jKRyVJ?editors=1000
 
 
 standards:
-
+  web.markup-text.0: 1000
+  web.markup-text.1: 1000
 
 links:
   - '[MDN docs for ordered lists]](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol){website}'
