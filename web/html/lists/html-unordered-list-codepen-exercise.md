@@ -18,7 +18,8 @@ link: https://codepen.io/enkidevs/pen/LrvxqO?editors=0100
 
 
 standards:
-
+  web.markup-text.0: 1000
+  web.markup-text.1: 1000
 
 links:
   - '[MDN docs for unordered lists](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul){website}'
