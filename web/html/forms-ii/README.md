@@ -11,3 +11,6 @@ insights:
   - html-select
   - dropdown-list
  
+exercises:
+  - html-codepen-checkbox-exercise.md
+  - html-codepen-radio-exercise.md	
