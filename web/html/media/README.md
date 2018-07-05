@@ -9,3 +9,6 @@ insights:
   - audio
   - embed
  
+exercises:
+  - html-audio-codepen-exercise.md
+  - html-video-codepen-exercise.md
