@@ -24,7 +24,7 @@ standards:
 links:
   - '[MDN docs for unordered lists](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul){website}'
 ---
-# HTML nested list
+# HTML unordered list
 ---
 
 ## Exercise
