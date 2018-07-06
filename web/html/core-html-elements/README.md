@@ -14,3 +14,5 @@ insights:
   - update-images
   - update-hyperlinks
  
+exercises:
+  - html-headings-and-paragraphs-codepen-exercise
