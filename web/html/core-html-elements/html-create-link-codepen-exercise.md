@@ -22,7 +22,7 @@ standards:
   web.markup-text.2: 10
 
 links:
-
+  - '[simple explanation for hyperlinks](http://www.hyperlinkcode.com/make-hyperlink.php){website}'
 ---
 # HTML create link
 ---
