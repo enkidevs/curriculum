@@ -11,3 +11,5 @@ insights:
   - oninput
   - output
  
+exercises:
+  - html-form-attributes-exercise
