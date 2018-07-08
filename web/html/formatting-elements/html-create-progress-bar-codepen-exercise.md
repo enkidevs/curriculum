@@ -21,6 +21,7 @@ standards:
 
 links:
   - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
+  - '[MDN docs for progress bar](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress){website}'
 ---
 # HTML progress bar
 ---
