@@ -11,3 +11,5 @@ insights:
   - text-area
   - submit-and-reset
  
+exercises:
+  - html-input-types-codepen-exercise
