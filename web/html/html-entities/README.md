@@ -12,3 +12,5 @@ insights:
   - copyright
   - ampersand
  
+exercise:
+  - html-entity-codepen-exercise
