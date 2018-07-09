@@ -15,3 +15,6 @@ insights:
   - image-link
   - link-mailto
   - link-download
+
+exercise:
+  - html-image-link-codepen-exercise
