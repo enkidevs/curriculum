@@ -74,8 +74,8 @@ a = 9
 ???
 ```
 
-*`False`
-*`True`
+* `False`
+* `True`
 
 ---
 ## Quiz
