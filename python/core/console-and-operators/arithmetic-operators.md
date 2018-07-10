@@ -69,22 +69,21 @@ Choose the correct result of the following expression:
 
 ???
 
-* 4
-* 10
-* 124
-* - 4
+* `4`
+* `10`
+* `124`
+* `- 4`
+* `TypeError`
 
 ---
 ## Revision
 
-What are the outputs to the following lines of code, respectively:
+What are the outputs to the following lines of code?
 
 ```
-25 // 6
-5 * 5.15
+25 // 6 ???
+5 * 5.15 ???
 ```
-???
-???
 
 
 * `4`
@@ -92,6 +91,5 @@ What are the outputs to the following lines of code, respectively:
 * `5`
 * `6`
 * `3`
-* `26.25`
 * `25`
 * `26`

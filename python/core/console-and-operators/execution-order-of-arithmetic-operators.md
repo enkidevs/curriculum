@@ -15,15 +15,13 @@ category: must-know
 
 inAlgoPool: false
 
-
+standards:
+  python.native-types-operations.2: 10
 
 
 ---
 
 # Execution Order of Arithmetic Operators
-
-standards:
-  python.native-types-operations.2: 10
 
 ---
 ## Content

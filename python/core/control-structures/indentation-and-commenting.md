@@ -76,12 +76,21 @@ print("This line isn't commented out!")
 ---
 ## Practice
 
-How many spaces is the standard number for indentation in Python?
+What will this code print?
+```
+if True:
+print("this is true")
+else:
+print("this is false")
+
+```
 ???
-* `4`
-* `2`
-* `1`
-* `6`
+
+* `SyntaxError`
+* `True`
+* `False`
+* `"this is true"`
+* `"this is false"`
 
 ---
 ## Revision
