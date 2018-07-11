@@ -16,5 +16,6 @@ insights:
   - link-mailto
   - link-download
 
-exercise:
+exercises:
   - html-image-link-codepen-exercise
+  - html-absolute-relative-link-codepen-exercise
