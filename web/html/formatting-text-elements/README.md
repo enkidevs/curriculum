@@ -19,3 +19,6 @@ insights:
   - small
   - intro-time
   - intro-wbr
+
+exercises:
+  - html-s-del-ins-codepen-exercise
