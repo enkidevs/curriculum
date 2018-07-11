@@ -13,3 +13,4 @@ insights:
  
 exercises:
   - html-input-types-codepen-exercise
+  - html-buttons-text-area-codepen-exercise
