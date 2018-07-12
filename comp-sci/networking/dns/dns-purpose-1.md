@@ -32,8 +32,7 @@ links:
 
 ## Content
 
-Start by writing the questions- what are you trying to show the user how to do?
-Write the Practice first, then the Revision. Then come back to the content.
+The fundamental purpose of the Domain Name System (DNS) is to provide a map between human readable domain names, such as www.google.com and the IP addresses of the machines that host services on the web such as `172.217.5.110` (IPv4) and `2607:f8b0:4005:80b::200e` (IPv6).
 
 ---
 ## Practice
@@ -44,8 +43,7 @@ Which of the following is NOT a service provided by DNS?
 
 * Managing which computers get which IP addresses
 * Managing which domain names map to which IP addresses
-* Maintaining a list of all domain names
-* Load balancing Internet traffic
+* Maintaining a list of all publicly accessible domain names
 
 ---
 ## Revision

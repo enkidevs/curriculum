@@ -57,7 +57,9 @@ Which of the following values can be mapped to an IP address using DNS?
 ---
 ## Revision
 
-Which of the following can be mapped to an IP address using DNS?
+Which subset of this URL can be mapped to an IP address using DNS?
+
+https://www.tebs-game-of-life.com/conways-editor/conways-editor.html
 
 ???
 

@@ -32,8 +32,7 @@ links:
 
 ## Content
 
-Start by writing the questions- what are you trying to show the user how to do?
-Write the Practice first, then the Revision. Then come back to the content.
+DNS is used *a lot*. It's rare for humans to memorize and use IP addresses for a number of reasons; as a result DNS is quietly invoked in a number of different contexts. Any time a program makes an internet request using a name (as opposed to an IP address) a DNS request is required to resolve the proper IP address.
 
 ---
 ## Practice
