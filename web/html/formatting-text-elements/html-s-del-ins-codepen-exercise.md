@@ -14,7 +14,7 @@ aspects:
 type: exercise
 
 linkType: codepen
-link: 
+link: https://codepen.io/enkidevs/pen/BPyaKB
 
 standards:
 
@@ -29,6 +29,6 @@ links:
 ---
 
 ## Exercise
-In this exercise, you have to write 3 sentences using the appropriate element.
+In this exercise, you have to write 3 sentences by using the appropriate elements.
 
-Example of the finished exercise is on codepen.
+More details and an example of the finished exercise are on codepen.
