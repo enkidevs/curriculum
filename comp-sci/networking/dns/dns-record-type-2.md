@@ -32,37 +32,34 @@ links:
 
 ## Content
 
-Only some sections of a URL or email address are recognized by DNS. Take these two examples:
+There are many different kinds of DNS records. Among the most important types of record are:
 
-* bill@dollaDollaBills.com
-* https://www.google.com/search
-
-Both of these have *more* information than DNS is responsible for. In the first of these two examples, bill@dollaDollaBills.com, only the portion after the @ symbol is relevant to DNS. DNS needs to know the IP address of dollaDollaBills.com, but DNS doesn't care about bill -- that is the SMPT (email) servers responsibility.
-
-In the second, https://www.google.com/seach, the center segment www.google.com is DNS's responsibility. The first part, https:// indicates the protocol for this request. The protocol controls the format of the data being exchanged, and is irrelevant to DNS which only cares about what IP address to send the data to. The final part, /search is a route on www.google.com and is Google's webserver's responsibility, not DNS's. www.google.com is managed by DNS.
-
-Finally, an entire domain name is required in order to map to a specific IP address. Parts of a domain such as `.com` or `.net` as standalone strings are  not eligible for an IP address, although DNS does play a role in their management; there are special servers responsible for managing “Top Level Domains” like com, net, edu, gov, and so on, but those TLD servers have unique names -- for example h.gtld-servers.net is the name of one such server.
+* A and AAAA -- A and quad A records map domain names to IP addresses. A records are for IPv4 addresses and AAAA records are for IPv6 addresses.
+* NS -- NS records map domain names to *other* domain names. Specifically they map a domain name to the name of it's authoritative DNS server.
+* MX -- Similar to an NS record an MX record maps a name to another name. Specifically, an MX record maps a domain name to the name of its mailserver. An example of why this is useful: john.doe@gmail.com and https://gmail.com both use the same domain name (gmail.com) but these two services run on different IP addresses, one for the SMTP mail server and one for the HTTPS web server.
+* CNAME -- short for canonical name, this record also maps a name to a name. CNAME records are used to create aliases for the same service. For example you may want docs.example.com and documents.example.com to share an IP address, you can use a CNAME record to point docs.example.com to documents.example.com and use a single A or AAAA record for documents.example.com
 
 ---
 ## Practice
 
-Which of the following values can be mapped to an IP address using DNS?
+Which of the following "questions" does an NS record for a particular domain name answer?
 
-* www.tebs-lab.com
-* someone_special@gmail.com
-* https://tebs-game-of-life.com/conways-editor/conways-editor.html
-* .gov
-* www.facebook
+???
+
+* What is the name of the authoritative name server for this domain name?
+* What is the IP address of this domain name?
+* What is the IP address of the authoritative name server for this domain name?
+* What is the name of the TLD server responsible for this domain name?
 
 ---
 ## Revision
 
-Which of the following can be mapped to an IP address using DNS?
+Which of the following DNS records provides information about the authoritative name server for the domain name in question?
 
 ???
 
-* www.tebs-game-of-life.com
-* https://www.tebs-game-of-life.com/conways-editor/conways-editor.html
-* /conways-editor/conways-editor.html
-* https://
-* www.tebs-game-of-life
+* NS
+* MX
+* CNAME
+* A
+* AAAA
