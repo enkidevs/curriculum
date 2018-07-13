@@ -22,3 +22,8 @@ insights:
 
 exercises:
   - html-s-del-ins-codepen-exercise
+  - html-b-strong-codepen-exercise
+  - html-multi-element-1-codepen-exercise
+  - html-multi-element-2-codepen-exercise
+  - html-sup-sub-codepen-exercise	
+  - html-u-mark-codepen-exercise
