@@ -10,13 +10,12 @@ levels:
 tags:
 
   - introduction
+  - workout
 
 
-type: exercise
+type: normal
 
 category: must-know
-
-
 
 standards:
   cs.networking.dns.2: 1000
@@ -25,11 +24,8 @@ links:
 - '[link to official documentation](https://enki.com)'
 
 ---
-
-
-## Exercise
-
-# dns-record-type-1
+# DNS Record Types
+---
 
 ## Content
 
