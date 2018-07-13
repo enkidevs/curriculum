@@ -13,7 +13,7 @@ tags:
   - workout
 
 
-type: exercise
+type: normal
 
 category: must-know
 
@@ -25,10 +25,8 @@ links:
 - '[TODO: THIS](https://enki.com)'
 
 ---
-
-## Exercise
-
-# dns-purpose-2
+# DNS Purpose
+---
 
 ## Content
 
