@@ -15,10 +15,9 @@ category: must-know
 
 inAlgoPool: false
 
-
 links:
 
-  - '[www.python.org](https://www.python.org/doc/essays/comparisons/){website}'
+  - '[Install Python](https://www.python.org/downloads/){website}'
 
 ---
 
@@ -27,40 +26,55 @@ links:
 ---
 ## Content
 
-Python is a *high-level*, *interpreted*, *interactive* and *object-oriented* programming language.
+Python is a *high-level*, *interpreted*, *interactive* and *object-oriented* programming language. 
 
-It's designed to be easily readable, using English keywords and straightforward syntax. For example, here's the `print` method in Python 3:
+That means it's designed to be easily readable, using English keywords and straightforward syntax. For example, here's how you could log text to the shell with Python:
 
 ```python
 print ('Learning Python with Enki!')
 ```
+Python is processed at runtime by the *interpreter*, which means that Python programs don't need to be compiled pre-execution. This makes them simple to change, and easy to get started. You can run this interpreter in _interactive mode_ like this:
 
-Python is processed at runtime by the *interpreter*, which means that Python programs don't need to be compiled pre-execution.
+```bash
+python -i
+```
 
-The interactive side to Python means you can use a Python prompt to *interact* with the interpreter directly to create programs!
+UNIX-based operating systems even come with Python pre-installed, meaning you can probably run it from a shell with this command:
 
-Since Python is an object-orientated programming language, it supports an object-orientated style of programming which *encapsulates*[1] code within objects.
+```bash
+python my_program.py
+```
+
+If not, you can download it [here](https://www.python.org/downloads/).
 
 ---
 ## Practice
 
-Do Python programs need to be compiled before execution? ???
+How would we run a Python script called `my_script.py` from a shell?
 
-* `no`
-* `yes`
+```bash
+???
+```
+
+* `python my_script.py`
+* `py my_script.py`
+* `pycompile my_script.py >> my_script.pyc`
+* `python --run`
+* `python`
 
 ---
 ## Revision
 
-What type of keyword does Python use to improve its readability? ???
+How can you start the interactive Python interpreter?
+```
+??? ???
+```
 
-* `English`
-* `Simple`
-* `Interactive`
-* `Common`
-* `Programming`
+* `python`
+* `-i`
+* `py`
+* `-interactive_mode`
+* `go`
+* `interact`
+* `interactivepython`
 
----
-## Footnotes
-[1:encapsulates]
-Encapsulation is an object-oriented programming concept. It refers to the practice of wrapping the data, variables, and methods (code that acts on the data) together as a single unit.

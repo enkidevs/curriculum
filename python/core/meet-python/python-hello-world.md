@@ -51,15 +51,16 @@ In both cases, the output is as follows:
 
 ## Practice
 
-Update the following code snippet to be compatible with python3:
+Let's practice using Python! Which statement will log "Enki" in the terminal?
 
 ```python
-print ???
+???
 ```
 
-* ('Enki')
-* : 'Enki'
-* 'Enki'
+* `print('Enki')`
+* `: 'Enki'`
+* `>> 'Enki'`
+* `console.log('Enki')`
 
 ---
 ## Revision

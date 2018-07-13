@@ -6,6 +6,8 @@ levels:
   - beginner
 
   - basic
+aspects:
+  - introduction
 
 type: exercise
 
@@ -31,4 +33,3 @@ links:
 ## Exercise
 
 Practice using the JavaScript Array methods `isArray()`, `indexOf()` and `toString()`
- 

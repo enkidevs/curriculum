@@ -40,15 +40,15 @@ Python provides a syntactic shortcut for chaining comparison operators.
 
 
 ```python
->>> x = 10
->>> 1 < x < 15
+x = 10
+1 < x < 15
 True
 ```
 
 is the equivalent of:
 ```python
->>> x = 10
->>> 1 < x  and x < 15
+x = 10
+1 < x  and x < 15
 True
 ```
 
@@ -59,18 +59,18 @@ Check whether the value of the integer `x` is at least 2 and no more than 10:
 
 ???
 
-* >>> 1 < x < 11
-* >>> 2 < x < 10
-* >>> 2 < x < 11
-* >>> 1 < x < 10
+* 1 < x < 11
+* 2 < x < 10
+* 2 < x < 11
+* 1 < x < 10
 
 ---
 ## Revision
 
 What will the following expression evaluate to?
 ```
->>> a = 9
->>> 1 < a < 8
+a = 9
+1 < a < 8
 ???
 ```
 
