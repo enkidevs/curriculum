@@ -1,5 +1,5 @@
 ---
-author: alexjmackey
+author: nem035
 
 levels:
   - beginner
@@ -36,7 +36,7 @@ In EcmaScript it is best practice to add a semicolon at the end of a statement:
 var company="enki";
 ```
 
-It’s not strictly necessary to do this as the parser will try to determine the end of a statement automatically. However, it will help you be sure that the code runs as expected.
+It’s not strictly necessary to do this as the parser will try to determine the end of a statement and add a semicolon automatically. However, it will help you be sure that the code runs as expected because automatic semicolon insertion sometimes causes errors.
 
 ### Variables
 
@@ -59,8 +59,6 @@ function hello(){
 // variable out of scope
 console.log(company); // undefined
 ```
-
-
 
 ---
 ## Practice
@@ -95,7 +93,6 @@ function answer() {
 * Option C
 * None of these
 
-
 ---
 ## Revision
 
@@ -114,18 +111,6 @@ console.log(answer)
 * 42
 * answer
 * local
-=======
-What operator is used to declare a variable in the *current scope*?
 
-```javascript
-??? answer = 42;
-```
-
-* var
-* variable
-* const
-* string
-* int
-* double
  
 
