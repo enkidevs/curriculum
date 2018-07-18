@@ -32,7 +32,12 @@ links:
 
 ## Content
 
-Content about the question...
+In addition to the main service of mapping names to IP addresses, DNS provides some derivative services. As an example, some organizations use DNS as a kind of load balancer. One way to achieve this is to create several different A or AAAA records with different IP addresses for a single domain name (for example google.com). As long as each of the IP addresses identifies a computer running the `google.com` service users (generally) don't care which IP address is used.
+
+When a single DNS name server (Google's authoritative name server in this case) has multiple A or AAAA records for a single name, the name server can decide which record to send. The default configuration is to continuously rotate through the records in a round robin style. Big organizations with special needs (like Google) may customize their authoritative DNS servers to use different rules.
+
+Many smaller companies may only have a single machine hosting their web service do not benefit from such a configuration, since that machine very likely only has a single IP address.
+
 ---
 ## Practice
 
