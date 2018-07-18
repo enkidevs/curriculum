@@ -22,6 +22,7 @@ links:
   - '[MDN docs for iFrame](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe){website}'
   - '[Global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
   - '[Google embeed search engine walkthrough](https://support.google.com/customsearch/answer/2630969?hl=en){website}'
+  - '[StackOverflow info on embedding google.com](https://stackoverflow.com/questions/8700636/how-to-show-google-com-in-an-iframe){website}'
 ---
 # HTML iframe 4
 ---
