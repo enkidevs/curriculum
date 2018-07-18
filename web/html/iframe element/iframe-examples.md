@@ -16,6 +16,7 @@ tags:
 
 links:
   - '[Codepen Example](https://codepen.io/stefan-stojanovic/pen/wXXoyJ?editors=1000){code}'
+  - '[Google embeed search engine walkthrough](https://support.google.com/customsearch/answer/2630969?hl=en){website}'
   
 ---
 # Iframe-examples
@@ -39,10 +40,12 @@ Example with link:
 Example with `title` attribute:
 ```
 <iframe 
-  title="Google search engine" 
-  src="https://google.com">
+  title="Bing search engine" 
+  src="https://www.bing.com">
 </iframe>
 ```
+**Note: If you want to embed a search engine like google to your webpage, the process is a little bit harder. Follow the link at the bottom of this insight.**
+
 
 Example of a map:
 ```
