@@ -21,6 +21,9 @@ standards:
 links:
 
   - '[MDN - if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)'
+aspects:
+  - introduction
+  - workout
 ---
 
 # JS Practice If...Else
@@ -28,5 +31,4 @@ links:
 ---
 ## Exercise
 
-Practice using JavaScript if..else Conditionals on Code Wars
- 
+Solve this challenge using flow control in JavaScript

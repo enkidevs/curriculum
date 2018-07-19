@@ -8,18 +8,19 @@ levels:
   - basic
 
 tags:
-
   - introduction
+  - workout
 
 type: exercise
 
-link: http://www.codewars.com/kata/571edd157e8954bab500032d
+link: https://www.codewars.com/kata/century-from-year/javascript
 linkType: codewars
 standards:
 
   javascript.data-types-structures.0: 1000
-  javascript.data-types-structures.1: 6000
-  javascript.write-expressions.0: 6000
+  javascript.data-types-structures.1: 1000
+  javascript.write-expressions.0: 1000
+  javascript.evaluate-expressions.0: 1000
 
 links:
 
@@ -31,6 +32,7 @@ links:
 
 aspects:
   - introduction
+  - workout
 
 ---
 
@@ -39,5 +41,4 @@ aspects:
 ---
 ## Exercise
 
-Practice using JavaScript Numbers on Code Wars
- 
+In this exercise, you'll calculate which century a year is contained within, using a function!

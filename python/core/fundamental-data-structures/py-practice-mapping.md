@@ -13,7 +13,6 @@ tags:
   - introduction
 aspects:
   - introduction
-  - workout
 
 type: exercise
 
@@ -22,7 +21,7 @@ linkType: codewars
 link: https://www.codewars.com/kata/sum-of-two-lowest-positive-integers/python
 
 standards:
-
+  python.use-iteration-protocol.0: 1000
   python.native-types-operations.1: 1000
   python.native-types-operations.2: 1000
   python.native-types-operations.3: 2000
