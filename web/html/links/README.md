@@ -6,8 +6,6 @@ description: All about links in HTML
 
 section: 0
 
-parent:
-
 insights:
   - link-relative-paths
   - link-absolute-paths
