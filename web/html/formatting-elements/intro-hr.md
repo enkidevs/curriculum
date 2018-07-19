@@ -55,20 +55,13 @@ with our personalized learning bot.
 bot.enki.com
 ```
 
-Furthermore, the `<hr>` element provides important semantic meaning and should not be solely used to add a horizontal line(even though that is possible). To add a horizontal line you should use the appropriate CSS property.
+The `<hr>` element provides important *semantic* meaning and should not be solely used to add a horizontal line. To add a horizontal line you should use the appropriate CSS property.
 
 This element is mostly used for a change of scenery or a shift of topic.
 
-This element supports global attributes and used to have 5 element-specific attributes:
-  - `align`
-  - `color`
-  - `noshade`
-  - `size` and
-  - `width`
+This element supports global attributes.
 
-Nevertheless, all 5 attributes mentioned above are deprecated and/or obsolete, and for achieving the same effect you should use the appropriate CSS properties.
-
-Also, by default the `<hr>` element is represented with the following CSS properties:
+By default the `<hr>` element is represented with the following CSS properties:
 ```  
   hr {
     display: block;
