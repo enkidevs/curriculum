@@ -73,8 +73,8 @@ Fill in the following snippet, such that it will output the value of key "dog":
 
 ```python
 
-dict = {"cat": "persian", "dog": "pug"}
-???(dict???)
+animals = {"cat": "persian", "dog": "pug"}
+???(animals???)
 ```
 
 * print
