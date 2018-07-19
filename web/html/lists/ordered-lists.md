@@ -12,10 +12,13 @@ category: must-know
 tags:
   - introduction
 
+standards:
+  web.markup-text.2: 10
+
 links:
   - '[MDN docs for ordered lists]](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol){website}'
   - '[CSS list style type Property](https://www.w3schools.com/cssref/pr_list-style-type.asp){website}'
-  
+
 ---
 # Ordered Lists
 ---
@@ -28,7 +31,7 @@ The `<ol>` element has 4 attributes:
   - `reversed`
   - `start`
   - `type`
-  
+
 The `reversed` attribute is of type boolean and is used to specify that the items in the list are in the reversed order.
 
 The `start` attribute was deprecated in HTML4 but reintroduced back in HTML5. This attribute is used to specify which number/value the list starts counting. Even if your numbering type is set to letters or anything else different than a number you still have to set the value in numbers: `<ol start="5">`.
@@ -39,7 +42,7 @@ The `type` attribute is used to specify a numbering type for the entire list:
   - `i` specifies lowercase Roman numerals
   - `I` specifies uppercase Roman numerals
   - `1` specifies numbers(this is the default value)
-  
+
 Example with uppercase Roman numerals type:
 ```
 <ol type="I">
@@ -56,14 +59,14 @@ Result:
 ```
 The `compact` attribute is deprecated and for achieving the same effect you should use CSS styling.
 
-Some CSS styling for the `<ol>` list element: 
+Some CSS styling for the `<ol>` list element:
   - style="list-style-type:upper-roman"
   - style="list-style-type:lower-alpha"
   - style="list-style-type:decimal"
   - style="list-style-type:none"
   - more CSS styles in the 'more info' section of this insight
-  
- 
+
+
 Example of a simple list:
 ```
 <ol>
@@ -91,7 +94,7 @@ Example of a nested list(Some tags have an explanation):
   <li>Item B     
     <ol> Start sublist for item B
       <li>Item B1</li>
-      <li>Item B2</li> 
+      <li>Item B2</li>
       <li>Item B3</li>
     </ol> Finish B sublist
   </li> Finish B item
@@ -133,7 +136,7 @@ This element is best used for something like:
 ---
 ## Practice
 
-Complete the HTML code to create a numbered list. 
+Complete the HTML code to create a numbered list.
 ```
 <A>
   <B>Buy Jam</B>
@@ -153,11 +156,11 @@ B: ???
 * `order`
 * `list`
 * `numlist`
-  
+
 ---
 ## Revision
 
-What does this code create? 
+What does this code create?
 
 ```
 <ol>

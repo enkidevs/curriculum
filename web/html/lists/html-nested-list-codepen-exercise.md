@@ -20,6 +20,7 @@ link: https://codepen.io/enkidevs/pen/jKRyVJ?editors=1000
 standards:
   web.markup-text.0: 1000
   web.markup-text.1: 1000
+  web.markup-text.2: 1000
 
 links:
   - '[MDN docs for ordered lists]](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol){website}'
@@ -31,7 +32,7 @@ links:
 ## Exercise
 In this exercise, you have have to create a nested ordered and unorderd list of instructions.
 
-The ordered list should count in lowercase roman numerals from high-to-low and the first element of that list is the unordered sublist. 
+The ordered list should count in lowercase roman numerals from high-to-low and the first element of that list is the unordered sublist.
 
 Both lists have 3 items.
 

@@ -11,11 +11,12 @@ category: must-know
 
 tags:
   - introduction
-
+standards:
+  web.markup-text.2: 10
 links:
   - '[MDN docs for ordered lists]](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol){website}'
   - '[CSS list style type Property](https://www.w3schools.com/cssref/pr_list-style-type.asp){website}'
-  
+
 ---
 # List Orders
 ---
@@ -29,13 +30,13 @@ Uppercase Roman numbers: type="I"
 Lowercase Roman numbers: type="I"
 Begin numbering from a number: start="50"
 
-Next, you can use the `start="value"` attribute to specify from which number/value the first item in the list starts counting from. 
+Next, you can use the `start="value"` attribute to specify from which number/value the first item in the list starts counting from.
 
 **Note: No matter which numbering type your list is set to, whether its roman, letters or any other numeral, when specifying a value for the start attribute, the value is always specified with a number.**
 
 Example:
 ```
-<p>After completing sections 1-9, do:</p> 
+<p>After completing sections 1-9, do:</p>
 <ol start="10">
   <li>Buy Cake</li>
   <li>Open Cake Box</li>
@@ -86,9 +87,9 @@ Explaining the output:
 ---
 ## Practice
 
-Complete the HTML code to create a numbered list that starts at 10. 
+Complete the HTML code to create a numbered list that starts at 10.
 ```
-<p>After the other 9 steps, do this:</p> 
+<p>After the other 9 steps, do this:</p>
 <A B>
   <C>Buy Cake</C>
   <C>Open Cake Box</C>
@@ -100,7 +101,7 @@ A: ???
 B: ???
 C: ???
 
-Match the terms to the descriptions: 
+Match the terms to the descriptions:
 
 List items will be numbered with uppercase letters: ???
 List items will be numbered with lowercase letters: ???
@@ -143,13 +144,13 @@ What does this code create? Choose the appropriate option.
 4. Item B
 3. Item C
 ```
-* Option 2 
+* Option 2
 ```
 5. Item C
 6. Item B
 7. Item A
 ```
-* Option 3 
+* Option 3
 ```
 3. Item A
 4. Item B
@@ -165,7 +166,7 @@ What does this code create? Choose the appropriate option.
 ---
 ## Quiz
 
-### What does this code create? 
+### What does this code create?
 
 Choose the appropriate option:
 
@@ -208,5 +209,3 @@ D)
 * Option A
 * Option C
 * Option D
-
-

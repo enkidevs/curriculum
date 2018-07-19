@@ -12,11 +12,14 @@ category: must-know
 tags:
   - introduction
 
+standards:
+  web.markup-text.2: 10
+
 links:
   - '[MDN docs for unordered lists](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul){website}'
   - '[Example on codepen.io](){website}'
   - '[MDN docs for ordered lists]](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol){website}'
-  
+
 ---
 # Nested Lists
 ---
@@ -24,7 +27,7 @@ links:
 
 In HTML the `<ol>` and `<ul>` elements are used to create ordered and unordered lists. Even though each element can be nested with itself, they can also nest with each other.
 
-Example of a simple nested list: 
+Example of a simple nested list:
 ```
 <p> Instructions </p>
 <ol>
@@ -56,7 +59,7 @@ In the example above, the ordered list element `<ol>` is used as the main list b
 ---
 ## Practice
 
-Complete the HTML code to create an unordered list within an ordered list. 
+Complete the HTML code to create an unordered list within an ordered list.
 ```
 <A>
   <B>Gather Ingredients:</B>
@@ -96,7 +99,7 @@ Which code block will create this nested list?
 3. Bake 15 mins at 350F
 ```
 
-Option #1: 
+Option #1:
 ```
 <ol>
   <li>Gather Ingredients:</li>
@@ -110,7 +113,7 @@ Option #1:
 </ol>
 ```
 
-Option #2: 
+Option #2:
 ```
 <ol>
   <li>Gather Ingredients:</li>
@@ -136,7 +139,7 @@ Option #2:
 
 ### How much do you know about nested HTML lists?
 
-What does this code create? 
+What does this code create?
 
 ```
 <ol>

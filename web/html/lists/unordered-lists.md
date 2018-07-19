@@ -12,11 +12,14 @@ category: must-know
 tags:
   - introduction
 
+standards:
+  web.markup-text.2: 10
+
 links:
   - '[MDN docs for unordered lists](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul){website}'
   - '[Example on codepen.io](https://codepen.io/stefan-stojanovic/pen/GdeaLg?editors=1000#){website}'
   - '[CSS list style type Property](https://www.w3schools.com/cssref/pr_list-style-type.asp){website}'
-  
+
 ---
 # Unordered Lists
 ---
@@ -26,7 +29,7 @@ The HTML `<ul>`, or **The Ordered List element** is used to represent an unorder
 
 The `<ul>` element has a `type` and `compact` attribute. Nevertheless, these attributes are deprecated and for achieving the same effect you should use CSS styling.
 
-CSS styling for the `<ul>` list element: 
+CSS styling for the `<ul>` list element:
   - style="list-style-type:disc"
   - style="list-style-type:circle"
   - style="list-style-type:square"
@@ -113,7 +116,7 @@ The `<ul>` element is best used for things like a grocery list or any other list
 ---
 ## Practice
 
-Complete the HTML code to create a bulleted list. 
+Complete the HTML code to create a bulleted list.
 ```
 <A>
   <B>Apples</B>
@@ -137,7 +140,7 @@ B: ???
 ---
 ## Revision
 
-What does this code create? 
+What does this code create?
 
 ```
 <ul>
@@ -166,6 +169,6 @@ Which statement about unordered lists is not true?
 ???
 
 * Paragraph tags are required within each list item.  
-* By default, each list item displays with a black disc. 
+* By default, each list item displays with a black disc.
 * Typically, each line is indented with 40px of padding-left.
-* They display as block elements. 
+* They display as block elements.
