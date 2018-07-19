@@ -40,6 +40,7 @@ standards:
       4: Identify the structure of a valid HTML document
       5: Distinguish valid from invalid HTML documents based on their structure
       6: Identify and use commonly-held industry best practices
+      7: Identify and use valid global attributes
   markup-text:
     name: Markup Text with HTML
     description: Use HTML to markup text

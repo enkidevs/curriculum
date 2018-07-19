@@ -7,7 +7,7 @@ insights:
   - function-arguments
   - access-a-function-s-arguments-as-an-array
   - functions-can-be-declared-after-use
-  - function-constructor-vs-function-expression
+  - setting-default-values-with-short-circuiting
 
 exercises:
   - js-practice-glitch-functions
