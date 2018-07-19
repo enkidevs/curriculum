@@ -67,9 +67,8 @@ What does the following code snippet return:
 ```
 ???
 
-
-* `2`
 * `3`
+* `2`
 * `7`
 * `2.5`
 * `4.66`
