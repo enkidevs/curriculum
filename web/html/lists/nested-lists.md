@@ -28,6 +28,7 @@ links:
 In HTML the `<ol>` and `<ul>` elements are used to create ordered and unordered lists. Even though each element can be nested with itself, they can also nest with each other.
 
 Example of a simple nested list:
+
 ```
 <p> Instructions </p>
 <ol>
@@ -60,6 +61,7 @@ In the example above, the ordered list element `<ol>` is used as the main list b
 ## Practice
 
 Complete the HTML code to create an unordered list within an ordered list.
+
 ```
 <A>
   <B>Gather Ingredients:</B>
@@ -100,6 +102,7 @@ Which code block will create this nested list?
 ```
 
 Option #1:
+
 ```
 <ol>
   <li>Gather Ingredients:</li>
@@ -114,6 +117,7 @@ Option #1:
 ```
 
 Option #2:
+
 ```
 <ol>
   <li>Gather Ingredients:</li>
@@ -138,6 +142,7 @@ Option #2:
 ## Quiz
 
 ### How much do you know about nested HTML lists?
+
 
 What does this code create?
 

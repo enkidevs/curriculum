@@ -10,7 +10,6 @@ insights:
   - link-relative-paths
   - link-absolute-paths
   - link-target
-  - image-link
   - link-mailto
   - link-download
 

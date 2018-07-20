@@ -19,6 +19,7 @@ links:
   - '[MDN docs for ordered lists]](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol){website}'
   - '[CSS list style type Property](https://www.w3schools.com/cssref/pr_list-style-type.asp){website}'
 
+
 ---
 # Ordered Lists
 ---
@@ -59,13 +60,14 @@ Result:
 ```
 The `compact` attribute is deprecated and for achieving the same effect you should use CSS styling.
 
-Some CSS styling for the `<ol>` list element:
+
+Some CSS styling for the `<ol>` list element: 
+
   - style="list-style-type:upper-roman"
   - style="list-style-type:lower-alpha"
   - style="list-style-type:decimal"
   - style="list-style-type:none"
   - more CSS styles in the 'more info' section of this insight
-
 
 Example of a simple list:
 ```
@@ -137,6 +139,7 @@ This element is best used for something like:
 ## Practice
 
 Complete the HTML code to create a numbered list.
+
 ```
 <A>
   <B>Buy Jam</B>
@@ -161,6 +164,7 @@ B: ???
 ## Revision
 
 What does this code create?
+
 
 ```
 <ol>

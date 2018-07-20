@@ -117,6 +117,7 @@ The `<ul>` element is best used for things like a grocery list or any other list
 ## Practice
 
 Complete the HTML code to create a bulleted list.
+
 ```
 <A>
   <B>Apples</B>
@@ -172,3 +173,4 @@ Which statement about unordered lists is not true?
 * By default, each list item displays with a black disc.
 * Typically, each line is indented with 40px of padding-left.
 * They display as block elements.
+

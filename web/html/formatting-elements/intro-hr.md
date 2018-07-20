@@ -9,7 +9,8 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.layout-html.0: 10
 
 tags:
   - introduction
@@ -39,6 +40,7 @@ Example:
 <p>
   Build your skills and expertise
   with our personalized learning bot.
+  bot.enki.com
 </p>
 ```
 
@@ -51,24 +53,18 @@ ___________________________________
 EnkiBot
 Build your skills and expertise
 with our personalized learning bot.
+bot.enki.com
 ```
 
-Furthermore, the `<hr>` element provides important semantic meaning and should not be solely used to add a horizontal line(even though that is possible). To add a horizontal line you should use the appropriate CSS property.
+The `<hr>` element provides important *semantic* meaning and should not be solely used to add a horizontal line. To add a horizontal line you should use the appropriate CSS property.
 
 This element is mostly used for a change of scenery or a shift of topic.
 
-This element supports global attributes and used to have 5 element-specific attributes:
-  - `align`
-  - `color`
-  - `noshade`
-  - `size` and
-  - `width`
-  
-Nevertheless, all 5 attributes mentioned above are deprecated and/or obsolete, and for achieving the same effect you should use the appropriate CSS properties.
+This element supports global attributes.
 
-Also, by default the `<hr>` element is represented with the following CSS properties:
+By default the `<hr>` element is represented with the following CSS properties:
 ```  
-  hr { 
+  hr {
     display: block;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -106,6 +102,7 @@ In HTML5: ???
 * thematic break
 * simple black bar
 * horizontal line 
+
 
 ---
 ## Quiz

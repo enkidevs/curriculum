@@ -9,7 +9,9 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.layout-html.0: 10
+
 
 tags:
   - introduction
@@ -17,7 +19,7 @@ tags:
 links:
   - '[MDN docs for button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button){website}'
   - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
-  
+
 ---
 # Button
 ---
@@ -94,7 +96,8 @@ Buttons are best used in what relationship of an HTML form?
 
 ???
 
-Match the following terms with their descriptions: 
+Match the following terms with their descriptions:
+
 
 ??? are best when they change the web pages.
 ??? are best when submitting signup or purchase actions.
@@ -148,5 +151,4 @@ If a button is outside of a form, what must be used to assign an action to it?
 * `<input type="submit" value="Button">`
 * `<input type="button" value="Submit">`
 * `<input type="button" value="Submit">`
-
 

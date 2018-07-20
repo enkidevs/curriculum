@@ -11,6 +11,7 @@ category: must-know
 
 tags:
   - introduction
+
 standards:
   web.markup-text.2: 10
 
@@ -29,11 +30,11 @@ Simple example:
 <dl>
   <dt>Enki</dt>
   <dd>
-    Founded in 2015,
-    Enki is a team of developers,
-    educators, and designers.
+    Founded in 2015, 
+    Enki is a team of developers, 
+    educators, and designers. 
     We represent 7 countries, 8 timezones,
-    9 spoken languages, and 1 goal
+    9 spoken languages, and 1 goal 
     — supporting lifelong learners.
   </dd>
 </dl>
@@ -41,11 +42,11 @@ Simple example:
 Result:
 ```
 Enki
-  Founded in 2015,
-    Enki is a team of developers,
-    educators, and designers.
+  Founded in 2015, 
+    Enki is a team of developers, 
+    educators, and designers. 
     We represent 7 countries, 8 timezones,
-    9 spoken languages, and 1 goal
+    9 spoken languages, and 1 goal 
     — supporting lifelong learners.
 ```
 
@@ -57,11 +58,11 @@ The same example with 1 term added:
   <dt>Enki Pro</dt>
   <dt>Enki</dt>
   <dd>
-    Founded in 2015,
-    Enki is a team of developers,
-    educators, and designers.
+    Founded in 2015, 
+    Enki is a team of developers, 
+    educators, and designers. 
     We represent 7 countries, 8 timezones,
-    9 spoken languages, and 1 goal
+    9 spoken languages, and 1 goal 
     — supporting lifelong learners.
   </dd>
 </dl>
@@ -70,11 +71,11 @@ Result:
 ```
 Enki Pro
 Enki
-    Founded in 2015,
-    Enki is a team of developers,
-    educators, and designers.
+    Founded in 2015, 
+    Enki is a team of developers, 
+    educators, and designers. 
     We represent 7 countries, 8 timezones,
-    9 spoken languages, and 1 goal
+    9 spoken languages, and 1 goal 
     — supporting lifelong learners.
 ```
 
@@ -85,11 +86,11 @@ Again same example, except this time we added another term and a description of 
   <dt>Enki</dt>
   <dt>Enki App</dt>
   <dd>
-    Founded in 2015,
-    Enki is a team of developers,
-    educators, and designers.
+    Founded in 2015, 
+    Enki is a team of developers, 
+    educators, and designers. 
     We represent 7 countries, 8 timezones,
-    9 spoken languages, and 1 goal
+    9 spoken languages, and 1 goal 
     — supporting lifelong learners.
   </dd>
   <dd>
@@ -97,7 +98,7 @@ Again same example, except this time we added another term and a description of 
     or learn to code with daily workouts
     — anytime, anywhere!
     Choose any one of our dev skill topics
-    to get a personalized training path
+    to get a personalized training path 
     and improve your skills.
     Track your progress, unlock games,
     join a team of friends or coworkers,
@@ -130,6 +131,7 @@ As you can see in the example above, we have wrapped each key-value pair with a 
 ## Practice
 
 Complete the HTML code to create a descriptive list.
+
 ```
 <A>
   <B>HTML</B>
