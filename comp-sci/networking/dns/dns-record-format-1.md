@@ -36,16 +36,29 @@ todo
 ---
 ## Practice
 
-TODO
+DNS messages have a  ___ data format with ___ sections. The ___ section contains metadata about the DNS message.
 
 ???
 
-* todo
+* binary
+* 5
+* headers
+* text based
+* 2
+* 3
+* questions
+* answers
+* additional information
+
 ---
 ## Revision
 
-todo
+Which section of a DNS message contains metadata about the DNS message itself?
 
 ???
 
-* todo
+* headers
+* questions
+* answers
+* authority
+* additional information

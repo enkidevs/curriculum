@@ -36,16 +36,24 @@ todo
 ---
 ## Practice
 
-TODO
+Which of the following accurately describes the difference between a DNS query and a DNS response.
 
 ???
 
-* todo
+* DNS queries and responses have different header values.
+* A DNS response does not have a record in the questions section.
+* A DNS query and a DNS response have entirely different data formats, each of which is specified in an RFC document.
+* A DNS query and a DNS response have different header formats.
+* A DNS query and a DNS response do not differ at all.
+
 ---
 ## Revision
 
-todo
+DNS queries and responses both always have an entry in the ___ section.
 
 ???
 
-* todo
+* questions
+* answers
+* authority
+* additional information
