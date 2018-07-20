@@ -9,7 +9,8 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.html-forms.2: 10
 
 tags:
   - introduction

@@ -9,7 +9,8 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.layout-html.0: 10
 
 tags:
   - introduction

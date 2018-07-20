@@ -9,14 +9,15 @@ type: normal
 
 category: must-know
 
-stub: true
-
 tags:
   - introduction
 
+standards:
+  web.layout-html.0: 10
+
 links:
   - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
-  
+
 ---
 # Intro span
 ---
@@ -66,14 +67,14 @@ Which of these options is not correct about spans?
 ---
 ## Revision
 
-Which best describes what these elements group for styling: 
+Which best describes what these elements group for styling:
 
 `<div>` groups ???
 `<span>` groups ???
 
 * block elements
 * inline elements
-* text elements 
+* text elements
 * semantic elements
 * non-semantic elements
 * class attributes
@@ -94,5 +95,3 @@ What is the best HTML element to use to group elements for styling purposes?
 * inline-block
 * li
 * p
-
-
