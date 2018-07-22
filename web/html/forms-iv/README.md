@@ -13,3 +13,5 @@ insights:
   - formnovalidate-and-novalidate
   - formtarget
  
+exercises:
+  - html-image-button-codepen-exercise
