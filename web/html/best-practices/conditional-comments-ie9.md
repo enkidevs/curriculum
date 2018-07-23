@@ -32,14 +32,14 @@ Conditional comments are conditional statements used only by Internet Explorer v
 Any code within this condition will be completely hidden by older versions of IE, referred to as "downlevel hidden":
 ```
 <!--[if expression]>
-HTML goes here
+  HTML goes here
 <![endif]-->
 ```
 
 Any code within this condition will only run in older versions of IE, referred to as "downlevel revealed":
 ```
 <![if expression]>
-HTML goes here
+  HTML goes here
 <![endif]>
 ```
 
@@ -47,7 +47,7 @@ If certain code is meant to display on non-IE browsers and on some versions of I
 
 ```
 <!--[if expression]><!-->
-HTML goes here
+  HTML goes here
 <!--<![endif]-->
 ```
 
