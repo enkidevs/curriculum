@@ -1,4 +1,4 @@
-name: Lists
+name: Links
 
 type: insights-list
 
@@ -12,7 +12,3 @@ insights:
   - link-target
   - link-mailto
   - link-download
-
-exercises:
-  - html-image-link-codepen-exercise
-  - html-absolute-relative-link-codepen-exercise

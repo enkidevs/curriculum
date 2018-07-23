@@ -13,7 +13,8 @@ insights:
   - emphasis-i-and-em
   - important-b-and-strong
   - sub-and-superscript-sub-and-sup
-  - editing-s-del-ins-u-mark
+  - editing-s-del-ins
+  - editing-u-mark
   - intro-abbr
   - intro-dfn
   - small
