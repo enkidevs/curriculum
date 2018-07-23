@@ -28,11 +28,11 @@ HTML elements typically consist of a start and end tag, with content between the
 
 Example:
 ```
-<p>Text within a paragraph goes here. All sentences within a single paragraph are wrapped together.</p>
+<p>Content goes here</p>
 ```
 Result:
 ```
-Text within a paragraph goes here. All sentences within a single paragraph are wrapped together
+Content goes here
 ```
 In this example, the `<p>` is the starting tag of a paragraph, the `</p>` is the closing tag, and all the text to be displayed within the paragraph is written between those tags.
 
