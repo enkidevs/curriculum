@@ -24,32 +24,25 @@ standards:
 ---
 ## Content
 
-HTML elements consist of a start and end tag, with content between the tags.
+HTML elements typically consist of a start and end tag, with content between the tags.
 
 Example:
 ```
-<p>Content goes here</p>
+<p>Text within a paragraph goes here. All sentences within a single paragraph are wrapped together.</p>
 ```
 Result:
 ```
-Content goes here
+Text within a paragraph goes here. All sentences within a single paragraph are wrapped together
 ```
-In this example, the `<p>` is the starting tag of a paragraph, "Content goes here" is the input and the `</p>` is the closing tag.
+In this example, the `<p>` is the starting tag of a paragraph, the `</p>` is the closing tag, and all the text to be displayed within the paragraph is written between those tags.
 
-Most HTML elements have to have a closing tag to be displayed properly. However, some tags, like the paragraph tag in the example above, can be omitted.
+In HTML5 there are no strict rules for some closing tags - such as, the closing paragraph tag isn't necessary.
 
-Example:
+In HTML5, the closing `</p>` isn't required as you can see:
 ```
 <p>Content goes here
 ```
-Result:
-```
-Content goes here
-```
-
-In HTML5 there are no strict rules for some tags, however, it is best practice to use closing tags. Why?
-
-Because, even though HTML5 assumes a new tag can start without the previous one being closed, there are older browsers versions that do not support HTML5. These browsers use XHTML or HTM, both of which have stricter rules.
+However, adding the closing tags is considered a best practice. Why? Because, even though HTML5 assumes a new tag can start without the previous one being closed, there are older browsers versions that do not support HTML5. These browsers use XHTML or HTM, both of which have stricter rules.
 
 Also, certain tags do not have to have an open tag either, like the `<body>`, `<head>`, `<html>`, etc.. However, for easier readability, it is best to use both the starting and ending tags of an HTML element.
 
@@ -60,7 +53,7 @@ Which statement is incorrect about opening and closing  HTML5 elements?
 
 ???
 
- * All the elements in HTML5 require both the opening and closing tag otherwise they do not work.
+ * All the elements in HTML5 require both the opening and closing tag, otherwise they do not work.
  * Although HTML5 isn’t strict about using open and close tags, using them certainly does makes the document easier to inspect.
  * Certain elements like `<body>` or `<head>` don't require the use of either of the tags, however, it helps with readability.
- * Most HTML elements have to have a closing tag to be displayed properly.
+ * HTML elements have to have a closing tag to be displayed properly.
