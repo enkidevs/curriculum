@@ -48,7 +48,7 @@ Example:
 ```
 <address>
   Authors Email:
-  <a href="http://www.website.com/contact">
+  <a href="http://www.web.com/contact">
     www.website.com
   </a>.<br>
   Author address:<br>
