@@ -44,7 +44,7 @@ This element can contain different types of content:
 
 The content of the `<address>` element should include the name of the person, people, or organization to which the contact information refers.
 
-Example:
+Address Example:
 ```
 <address>
   Authors Email:
