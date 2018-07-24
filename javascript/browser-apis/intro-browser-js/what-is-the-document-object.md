@@ -10,22 +10,19 @@ levels:
   - medium
 
 
-tags:
+aspects:
 
   - introduction
 
   - workout
 
 
-type: exercise
+type: normal
 
 category: must-know
 
-
-
 standards:
-  cs.identify-linear-collection-data-structures-usage.0: 1000
-  cs.identify-linear-collection-data-structures-usage.3: 1000
+  javascript.dom.2: 10
 
 links:
 
@@ -34,19 +31,17 @@ links:
 - '[Free Code Camp - What's the Document Object Model?](https://www.youtube.com/watch?v=80Mr2Z6Qikc)'
 - '[Stack Overflow - Need help to understand what Document Object Model is? ](https://stackoverflow.com/questions/6965802/need-help-to-understand-what-document-object-model-is)'
 ---
-
-
-## Exercise
-
 # What is the Document Object?
+---
+## Content
 
-The Document Object Model, also called the DOM, is an object oriented representation of an HTML or XML document. It is an API for using a programming language to add, read, edit, and delete HTML elements and attributes. Through this interface, scripts can also change the CSS styles, react to events, and create new events on the page.
+The Document Object Model, also called the DOM, is a representation of an HTML or XML document. Nesting elements are arranged into a Tree, similar to the file structure in your computer. It is an API for using a programming language to add, read, edit, and delete HTML elements and attributes. Through this interface, scripts can also change the CSS styles, react to events, and create new elements on the page.
 
 ## JavaScript and the DOM
 
-The HTML DOM can be accessed by many different programming languages but JavaScript is most popular because it's the language most commonly used for interacting with content on the web.
+The HTML DOM can be accessed by JavaScript through an object called `document`.
 
-In the DOM, all HTML elements are defined as objects. Each object has properties and methods for interacting with the element. For example you can use the getElementById method with the innerHTML property to change the content of a paragraph tag with id="message".
+In the DOM, all HTML elements are objects. Each object has properties and methods for interacting with the element. For example, you can use the getElementById method with the `innerHTML` property to change the content of a paragraph tag with `id="message"`.
 
 ```html
 <html>
@@ -110,6 +105,6 @@ Select the element with the id "time" and change it's content to "Future"
 </html>
 ```
 
-* document.getElementById('time').innerHTML = "Future"
-* document.getElement('time').HTML = "Future"
-* DOM.getElementById('time').content = "Future"
+* `document.getElementById('time').innerHTML = "Future"`
+* `document.getElement('time').HTML = "Future"`
+* `DOM.getElementById('time').content = "Future"`

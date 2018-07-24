@@ -4,7 +4,7 @@ author: elliehoward
 levels:
   - beginner
 
-tags:
+aspects:
   - introduction
   - workout
 

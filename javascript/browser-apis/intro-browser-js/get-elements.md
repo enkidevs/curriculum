@@ -10,22 +10,19 @@ levels:
   - medium
 
 
-tags:
+aspects:
 
   - introduction
 
   - workout
 
 
-type: exercise
+type: normal
 
 category: must-know
 
-
-
 standards:
-  cs.identify-linear-collection-data-structures-usage.0: 1000
-  cs.identify-linear-collection-data-structures-usage.3: 1000
+  javascript.dom.4: 10
 
 links:
 
@@ -34,14 +31,13 @@ links:
 - '[MDN - Document.getElementsByTagName()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagName)'
 
 ---
-
-
-## Exercise
-
 # Get Elements
+---
+## Content
+
 
 There are a number of ways to select a tag or group of tags on an HTML document using the DOM.
-One of the methods we have seen before, getElementById. Here's an example of selecting a tag with the id of 'message':
+One of the methods we have seen before, `getElementById`. Here's an example of selecting a tag with the `id` of `'message'`:
 ```html
 <html>
 <body>
@@ -56,7 +52,7 @@ var message = document.getElementById("message");
 </html>
 ```
 
-Another way to select tags is by tag name with the method getElementsByTagName. This will return an array of paragraph tags, even if there is only one.
+Another way to select tags is by tag name with the method `getElementsByTagName`. This will return an array of paragraph tags, even if there is only one.
 ```html
 <html>
 <body>
@@ -71,7 +67,7 @@ var paragraphs = document.getElementsByTagName("p");
 </html>
 ```
 
-If you have a group of elements that you want to be able to group and select together you can give them all the same class name and use the getElementsByClassName method. This method also returns an array of tags that match the class name, similar to getElementsByTagName. For example we have a few tags we will eventually want to turn blue, lets give them a class of blue and select them by that class name:
+If you have a group of elements that you want to be able to group and select together you can give them all the same class name and use the `getElementsByClassName` method. This method also returns an array of tags that match the class name, similar to `getElementsByTagName`. For example we have a few tags we will eventually want to turn blue, lets give them a class of blue and select them by that class name:
 
 ```html
 <html>
@@ -96,7 +92,7 @@ var blueTags = document.getElementsByClassName("blue");
 ---
 ## Practice
 
-Select the element with the id "title":
+Select the element with the id `"title"`:
 ```html
 <html>
 <body>

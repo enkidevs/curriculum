@@ -10,37 +10,31 @@ levels:
   - medium
 
 
-tags:
+aspects:
 
   - introduction
 
   - workout
 
-type: exercise
+
+type: normal
 
 category: must-know
 
-
-
 standards:
-  cs.identify-linear-collection-data-structures-usage.0: 1000
-  cs.identify-linear-collection-data-structures-usage.3: 1000
+  javascript.dom.2: 10
 
 links:
 
 - '[MDN - document.body](https://developer.mozilla.org/en-US/docs/Web/API/Document/body)'
 - '[W3 Schools - HTML DOM body Property](https://www.w3schools.com/jsref/prop_doc_body.asp)'
 ---
-
-
-## Exercise
-
 # Modifying the Body
+---
+## Content
 
-## Referencing the body
-
-To reference the body element with the DOM you simply use `document.body` rather than selecting the body element with getElementsByTagName method. For example, this is how to store the body in a variable:
-`var bodyElement = document.body`
+To reference the body element with the DOM you simply use `document.body` rather than selecting the body element with `getElementsByTagName` method. For example, this is how to store a reference to the body in a variable:  
+`var bodyElement = document.body`  
 
 ## Overwriting the body
 
@@ -60,7 +54,7 @@ document.body.innerHTML = "My content was changed!";
 </body>
 </html>
 ```
-So in the example above the h1 element and the two paragraph elements would be overwritten with the words "My content was changed!"
+In the example above, the `h1` element and the two paragraph elements would be overwritten with the words "My content was changed!"
 
 ## Modifying the body
 

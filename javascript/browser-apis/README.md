@@ -1,6 +1,6 @@
 name: Browser APIs
 
-description: The browser. The mother of javascript. You'll work better, together. 
+description: The browser. The mother of javascript. You'll work better, together.
 
 sections:
   '0':
@@ -21,6 +21,7 @@ standards:
       1: Create complex elements from structured data
       2: Modify the style or state of elements
       3: Create events handlers for events relating to Document elements
+      4: Find elements in the DOM with Document methods
   browser-apis-device:
     name: Use modern Browser APIs to interact with the device
     description: This standard deals with use of device sensors and details made available by the browser on the device.
