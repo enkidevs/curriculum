@@ -35,7 +35,6 @@ links:
 ---
 ## Content
 
-
 There are a number of ways to select a tag or group of tags on an HTML document using the DOM.
 One of the methods we have seen before, `getElementById`. Here's an example of selecting a tag with the `id` of `'message'`:
 ```html
