@@ -22,8 +22,9 @@ standards:
 
 links:
 
-- '[TODO: THIS](https://enki.com)'
-- '[List of root servers and manager](https://www.iana.org/domains/root/servers)'
+- '[Geographic Implications of DNS Distribution](https://www.cisco.com/c/en/us/about/press/internet-protocol-journal/back-issues/table-contents-35/101-dns-infrastructure.html){article}'
+- '[IANA Root Server List](https://www.iana.org/domains/root/servers){documentation}'
+- '[List of top level domains](https://www.icann.org/resources/pages/tlds-2012-02-25-en){documentation}'
 
 ---
 

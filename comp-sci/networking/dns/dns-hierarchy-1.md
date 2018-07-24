@@ -22,9 +22,9 @@ standards:
 
 links:
 
-- '[TODO: THIS](https://enki.com)'
-- '[IANA Root Server List](https://www.iana.org/domains/root/servers)'
-- '[List of top level domains](https://www.icann.org/resources/pages/tlds-2012-02-25-en)'
+- '[Intro To DNS](https://linuxacademy.com/howtoguides/posts/show/topic/12050-introduction-to-dns){article}'
+- '[IANA Root Server List](https://www.iana.org/domains/root/servers){documentation}'
+- '[List of top level domains](https://www.icann.org/resources/pages/tlds-2012-02-25-en){documentation}'
 
 ---
 
@@ -46,7 +46,7 @@ Top Level Domain (TLD) servers are responsible for having NS and A records for a
 
 Authoritative servers are responsible for having NS and A records for websites and web services. Root and TLD servers are responsible for knowing about other DNS infrastructure; authoritative servers on the other hand are responsible for knowing about edge services like `google.com` and `facebook.com`.
 
-It is the responsilbility of the domain owner to operate an authoritative server for their domain (e.g. Google operates authoritative DNS servers for `google.com`) but most small businesses pay a company like Go Daddy or Namecheap to do this on their behalf. Namecheap, therefore, operates a single authoritative server that has A and AAAA records for many different websites.
+It is the responsibility of the domain owner to operate an authoritative server for their domain (e.g. Google operates authoritative DNS servers for `google.com`) but most small businesses pay a company like Go Daddy or Namecheap to do this on their behalf. Namecheap, therefore, operates a single authoritative server that has A and AAAA records for many different websites.
 
 ---
 ## Practice

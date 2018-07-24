@@ -21,7 +21,8 @@ standards:
   cs.networking.dns.2: 1000
 
 links:
-- '[link to official documentation](https://enki.com)'
+
+- '[DNS Record Types Explained](https://pressable.com/blog/2014/12/23/dns-record-types-explained/){article}'
 
 ---
 # DNS Record Types

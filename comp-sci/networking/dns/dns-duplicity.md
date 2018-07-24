@@ -22,7 +22,8 @@ standards:
 
 links:
 
-- '[TODO: THIS](https://enki.com)'
+- '[Round Robin Load Balancing With DNS](https://dyn.com/blog/dns-a-mania-dns-load-balancing-vs-hardware-load-balancing/){article}'
+- '[What is Anycast?](https://www.cloudflare.com/learning/cdn/glossary/anycast-network/){article}'
 
 ---
 
