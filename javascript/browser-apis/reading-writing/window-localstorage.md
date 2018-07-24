@@ -11,10 +11,18 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+standards:
+  javascript.browser-store-data.1: 10
 
 links:
 
   - '[www.kirupa.com](http://www.kirupa.com/html5/storing_and_retrieving_an_array_from_local_storage.htm){website}'
+  - '[MDN Storage APIs](https://developer.mozilla.org/en-US/docs/Web/API/Storage/LocalStorage){documentation}'
 
 
 ---
@@ -29,7 +37,7 @@ links:
 To create an item in local storage, pass in the item key and the item value:
 ```javascript
 localStorage.setItem('country', 'England');
-``` 
+```
 
 Retrieving data from local storage:
 ```javascript
@@ -81,5 +89,3 @@ Create a `localStorage` item with key `awesome` and value `enki`:
 * `clear`
 * `getItem`
 * `newItem`
-
- 
