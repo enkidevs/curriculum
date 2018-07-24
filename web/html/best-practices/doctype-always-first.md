@@ -24,7 +24,7 @@ standards:
 ---
 ## Content
 
-In an HTML web page, the very first thing you should write is the `<!DOCTYPE html>` declaration.
+In every HTML web page, the very first thing line of code should always be the `<!DOCTYPE html>` declaration.
 
 This is because the `<!DOCTYPE html>` declaration is used to tell the browser what type of HTML document it is rendering.
 
