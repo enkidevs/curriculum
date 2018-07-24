@@ -22,46 +22,40 @@ standards:
 
 links:
 
-- '[TODO: THIS](https://enki.com)'
+- '[Stack Overflow Answer -- Binary vs Text protocol](https://stackoverflow.com/questions/2645009/binary-protocols-v-text-protocols){website}'
 
 ---
 
 ## Exercise
 
-# dns-record-format-3
+# dns-record-format-1
 
 ## Content
 
-todo
+When humans communicate about DNS, we use language that is understandable to humans. When computers communicate using DNS, however, they have no obligation to ensure that a human could readily understand their communications. This means that although we say things like `A`, `AAAA`, and `NS` record, the data in the actual message does not contain ASCII or Unicode formatted data for `AAAA`.
+
+Although all data used by computers is ultimately stored as binary network engineers delineate between "binary" protocols and "text based" protocols. A text based protocol uses a binary format like ASCII or Unicode for the entirety of the data transmitted. HTTP 1.x is an example of a text based protocol.
+
+Binary protocols only use ASCII or Unicode when the data being sent is textual. DNS is a binary protocol, and the only values in any DNS message that is encoded as ASCII are the portions of the domain names. Values  such as `A` and `NS` are actually specified as numeric values in the Request For Comments (RFCs) that define DNS. An `A` record is denoted by the numeric value 1; an NS record is the numeric value 2.
+
 ---
 ## Practice
 
-This is a hex-dump of a DNS response.
-
-```
-0000   ef 0a 81 80 00 01 00 01 00 00 00 00 03 77 77 77   ï............www
-0010   06 67 6f 6f 67 6c 65 03 63 6f 6d 00 00 01 00 01   .google.com.....
-0020   c0 0c 00 01 00 01 00 00 00 8d 00 04 d8 3a c0 04   À...........Ø:À.
-```
-
-Which of the following values is the transaction id?
+Which of the following accurately describes what it means when we say DNS is a "binary protocol".
 
 ???
 
-* `ef0a` (line one)
-* `c00c` (line three)
-* `676f6f676c65` (line two)
-* `8180` (line one)
-
+* DNS messages only use a textual encoding format (such as ASCII) for information that is inherently textual (such as "google.com")
+* DNS messages never contain any information in textual encoding such as ASCII.
+* DNS messages are meant to be inscrutable to humans, for privacy reasons, and so cannot be translated into text.
 
 ---
 ## Revision
 
-DNS queries and responses both always have an entry in the ___ section.
+When does DNS use the ASCII encoding format?
 
 ???
 
-* questions
-* answers
-* authority
-* additional information
+* Only for storing portions of domain names.
+* For portions of domain names and record types such as `NS` and `A`
+* For portions of domain names, record types such as `NS` and `A`, and for `class` field in response records.

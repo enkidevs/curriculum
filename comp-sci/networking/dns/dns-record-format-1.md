@@ -22,7 +22,8 @@ standards:
 
 links:
 
-- '[TODO: THIS](https://enki.com)'
+- '[RFC 1035](https://tools.ietf.org/html/rfc1035#page-12){documentation}'
+- '[DNS Sections Primer](https://www2.cs.duke.edu/courses/fall16/compsci356/DNS/DNS-primer.pdf){article}'
 
 ---
 
@@ -32,23 +33,26 @@ links:
 
 ## Content
 
-todo
+DNS messages have 5 sections:
+
+* Header, which contains metadata about the DNS message.
+* Questions, which contains a DNS query.
+* Answers, which contain a resource record answering the query.
+* Authority, which contains a resource record suggesting a better source of authority.
+* Additional Information, which contains extra details that might help the individual making the query, but which are not strictly necessary to answer the question.
+
 ---
 ## Practice
 
-DNS messages have a  ___ data format with ___ sections. The ___ section contains metadata about the DNS message.
+Which of the 5 DNS sections are not strictly necessary for DNS to work?
 
 ???
 
-* binary
-* 5
-* headers
-* text based
-* 2
-* 3
-* questions
-* answers
-* additional information
+* Additional Information
+* Questions
+* Answers
+* Authority
+* Headers
 
 ---
 ## Revision
