@@ -29,6 +29,10 @@ tags:
 
   - introduction
 
+aspects:
+  - introduction
+
+
 ---
 
 # Adding directories to your `$PATH`
@@ -104,3 +108,4 @@ When is the `~/.bashrc` file run?
 * Once every boot
 * Once for every user login
 * Every thirty minutes
+ 

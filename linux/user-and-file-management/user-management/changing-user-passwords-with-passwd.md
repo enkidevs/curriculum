@@ -17,6 +17,10 @@ tags:
 
   - workout
 
+aspects:
+  - workout
+
+
 ---
 
 # Changing User Passwords With `passwd`
@@ -79,3 +83,4 @@ Which of the following is most likely to cause a lot of problems?
 * Forcing expiry and renewal dates for root user's password
 * Using `sudo passwd` to change someone's password
 * Using `sudo passwd` to change your own password
+ 

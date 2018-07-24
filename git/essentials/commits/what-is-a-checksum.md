@@ -45,3 +45,4 @@ Git *hashing* is based on the ??? of a file or directory structure .
 * name
 * date of creation
 
+ 

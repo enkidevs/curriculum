@@ -175,3 +175,4 @@ var ??? = timeObject
 %exp
 By using **destructuring assignment**, y is assigned the value of `timeObject`'s property `year`.
 %
+ 

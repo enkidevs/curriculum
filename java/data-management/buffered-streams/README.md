@@ -7,3 +7,4 @@ insights:
   - flushing-buffered-streams
   - stringbuffer-vs-stringbuilder
   - using-stringbuilder-class
+ 

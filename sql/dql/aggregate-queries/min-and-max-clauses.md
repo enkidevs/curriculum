@@ -30,6 +30,10 @@ links:
   - '[More on MIN and MAX clauses](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql){documentation}'
 
 
+aspects:
+  - workout
+
+
 ---
 
 # MIN and MAX clauses
@@ -159,4 +163,5 @@ experience
  (5 rows)
 
 ```
+ 
  

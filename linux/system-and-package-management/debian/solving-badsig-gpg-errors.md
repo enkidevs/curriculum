@@ -69,3 +69,4 @@ The installation operation should now succeed.
 * there is not enough space on the disk
 * the login credentials are wrong
 
+ 

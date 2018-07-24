@@ -30,3 +30,4 @@ links:
 ## Exercise
 
 Practice using the JavaScript Math methods `round()`, `ceil()` and `floor()`
+ 

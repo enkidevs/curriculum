@@ -8,3 +8,4 @@ insights:
   - understanding-the-path-environment-variable
   - manipulating-environment-variables
   - adding-directories-to-your-path
+ 

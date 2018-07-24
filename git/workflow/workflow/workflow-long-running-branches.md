@@ -26,7 +26,7 @@ links:
 ---
 ## Content
 
-Long running branches are branches that you create to work on for the long-term.
+Long-running branches are branches that you create to work on for the long-term.
 
 For example, the branch `master` could be for stable code and `develop` for testing.
 
@@ -39,7 +39,7 @@ $ git merge iss14
 ```
 If the fix proves to be stable, you could then merge with `master`.
 
-This can be helpful in large, complex projects.
+This can be helpful for large, complex projects.
 
 ---
 ## Revision
@@ -50,3 +50,4 @@ For complex projects, the best practice is to work on ??? .
 * master branch
 * a single other branch
 
+ 

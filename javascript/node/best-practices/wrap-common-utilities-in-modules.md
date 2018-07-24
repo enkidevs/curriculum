@@ -20,6 +20,10 @@ standards:
 links:
   - '[Use NPM to distribute your code](https://github.com/i0natan/nodebestpractices/blob/master/sections/projectstructre/wraputilities.md){website}'
 
+aspects:
+  - introduction
+
+
 ---
 # Wrap Common Utilities in NPM Packages
 
@@ -73,3 +77,4 @@ What is usually shared on NPM?
 * Cat pictures
 * Bug reports
 * Database keys
+ 

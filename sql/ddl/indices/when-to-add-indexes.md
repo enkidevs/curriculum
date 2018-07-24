@@ -32,6 +32,11 @@ links:
   - '[SQLMag Dos and Donts of indices](http://www.itprotoday.com/microsoft-sql-server/indexing-dos-and-don-ts){website}'
 
 
+aspects:
+  - workout
+  - deep
+
+
 ---
 
 # When to add Indices
@@ -135,4 +140,5 @@ This table has thousands of entries and querying a pokemon's species is very slo
 ## Footnotes
 [1:Indices]
 Reasonable people differ when they refer to the plural of Index. Some people use Indices, some use Indexes.
+ 
  

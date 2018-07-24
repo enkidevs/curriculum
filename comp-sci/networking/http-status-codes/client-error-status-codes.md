@@ -80,3 +80,4 @@ The `Unauthorized` response has a status code of
 As different servers have different structure, the requests have to fit them. The software vendors were therefore required to  develop such responses to guide users.
 
 Some platforms that implemented them are: Twitter, Microsoft or Nginx.
+ 

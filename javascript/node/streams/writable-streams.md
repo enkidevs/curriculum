@@ -26,6 +26,12 @@ links:
 
 parent: chaining-readable-streams
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 # Writable Streams
 
@@ -82,3 +88,4 @@ stream.???(data);
 * write
 * input
 * print
+ 

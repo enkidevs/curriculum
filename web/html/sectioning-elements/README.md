@@ -10,3 +10,4 @@ insights:
   - main
   - nav
   - footer
+ 

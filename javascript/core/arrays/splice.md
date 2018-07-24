@@ -20,6 +20,9 @@ standards:
 tags:
   - introduction
 
+aspects:
+  - introduction
+
 links:
 
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/splice){website}'
@@ -32,7 +35,7 @@ links:
 ---
 ## Content
 
-Splice is a very useful array function that allows you to add and remove items to an array.
+Splice is a handy array function that allows you to add and remove items to an array.
 
 It accepts 3 arguments with the 3rd being optional:
 
@@ -95,3 +98,5 @@ myArray.???(???, ???);
 * `2`
 * `remove`
 * `slice`
+ 
+ 

@@ -8,3 +8,4 @@ insights:
   - binary-and-octal-notation-in-es6
   - number-extensions-part-1
   - number-extensions-part-2
+ 

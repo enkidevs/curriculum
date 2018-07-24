@@ -76,3 +76,4 @@ What is a *deadlock*?
 * A situation in which a process does not free it's resources after execution
 * A situation when all resources are acquired by the processes
 
+ 

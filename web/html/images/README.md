@@ -11,3 +11,4 @@ insights:
   - image-height-width
   - image-map
   - image-base
+ 

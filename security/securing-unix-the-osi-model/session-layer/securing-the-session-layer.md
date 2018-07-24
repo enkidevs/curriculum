@@ -70,3 +70,4 @@ What is one control in the Session Layer of the OSI Model?
 * Use of a physical firewall
 * Using managed switches prevent topographical loops
 
+ 

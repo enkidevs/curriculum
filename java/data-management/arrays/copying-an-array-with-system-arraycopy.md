@@ -32,7 +32,7 @@ links:
 ---
 ## Content
 
-`System.arraycopy` can be used to copy the contents of an array to a new location in a more concise way than using a loop. For example, in order to copy content from `src` to `dest`
+`System.arraycopy` can be used to copy the contents of an array to a new location in a more concise way than using a loop. For example, to copy content from `src` to `dest.`
 
 ```
 String[] src = {"a","b","c"};
@@ -50,3 +50,4 @@ System.arraycopy(src, 0 ,dest, 0,
   src.length);
 ```
 
+ 

@@ -130,3 +130,4 @@ let whales = ['Blue Whale', ...fish,
 %exp
 When constructing the `whales` array, we make use of the spread operator (`...`) which will copy the contents of the `fish` array and insert them starting at index `1` (where the operator was used). Sequentially, the `"Orca"` element is appended.
 %
+ 

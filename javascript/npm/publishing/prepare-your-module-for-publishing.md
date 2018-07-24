@@ -22,6 +22,12 @@ tags:
   - workout
   - deep
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 # Preparing Your Module For Publishing
 
@@ -95,3 +101,4 @@ Scoped packages are ??? by default.
 
 * private
 * public
+ 

@@ -25,3 +25,4 @@ If an `SQL` statement uses fields with the same name from multiple tables, the f
 SELECT authors.authorID, books.authorID 
   FROM authors, books
 ```
+ 

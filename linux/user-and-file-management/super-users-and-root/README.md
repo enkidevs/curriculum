@@ -10,3 +10,4 @@ insights:
   - executing-commands-with-sudo-without-password
 
 game: know-your-rights
+ 

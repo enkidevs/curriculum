@@ -8,3 +8,8 @@ insights:
   - format-text-paragraphs-with-textwrap
   - stringprep-module
   - unicode-character-database-at-your-hands
+
+exercises:
+  - py-practice-strings
+  - py-practice-syntax
+  - py-practice-standard-library

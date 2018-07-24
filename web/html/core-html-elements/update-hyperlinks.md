@@ -9,20 +9,23 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+
 standards:
   web.syntax-html.0: 10
   web.markup-text.0: 10
   web.markup-text.2: 10
-
-aspects:
-  - introduction
+  
 ---
 # Hyperlinks
 ---
 ## Content
 
-Hyperlinks are links in HTML. They are very useful for navigating from one document to another. 
-By default, un-visited links are blue, highlighted and underlined.
+Hyperlinks are more commonly called just 'links' in HTML. They are very useful for navigating from one document to another or even different sections of long web pages.
+
+By default, un-visited links are blue, highlighted, and underlined.
+
 Whereas links you have already clicked on at least once are red.
 
 Hovering over hyperlinks changes the cursor to a pointer.
@@ -30,115 +33,87 @@ Hovering over hyperlinks changes the cursor to a pointer.
 The hyperlink is defined with the `<a>` tag:
 ```
 <a
-  href="URL">Link text
+  href="URL">This is linked text.
 </a>
 ```
 or
 ```
 <a
   href="https://www.enki.com/">
-  5-minute workouts
+  Visit Enki's 5-minute workouts!
 </a>
 ```
 Result:
-```
-5-minute workouts
-```
 
-In the example above, the `5-minute workouts` is the hyperlink, and by clicking on the text you are taken to the URL provided in the `href="URL"` attribute.
+![alt description](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22width%3A100%25%22%20viewBox%3D%220%200%20320%2052%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2252%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%230001EE%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2232%22%3EVisit%20Enki%26apos%3Bs%205-minute%20workouts!%3C%2Ftspan%3E%3C%2Ftext%3E%3Cpath%20stroke%3D%22%230001EE%22%20stroke-linecap%3D%22square%22%20d%3D%22M20.5%2033.5h215%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+
+In the example above, the `Visit Enki's 5-minute workouts!` is the hyperlink, and by clicking on the text you are taken to the URL provided in the `href="URL"` attribute.
 
 The attribute `href` is the most important element because it specifies the destination(URL).
 
-Where the link opens is set with the `_target="???"` attribute.
+By default, links open within the existing tab or window. 
 
- - _self     = Opens the link in the same tab or window
- - _top      = Opens the link in the full body of the window
- - _parent   = Opens the link in the parent frame
- - _blank    = Opens the link in a new tab or window
- - framename = Opens the link in a named frame
+The linked page can be directed to open differently by setting  the `_target="???"` attribute with these options:
 
-Opening the link in a different tab:
+ - _self     = Default setting. Opens the link in the same tab or window.
+ - _top      = Opens the link in the full body of the window.
+ - _parent   = Opens the link in the parent frame.
+ - _blank    = Opens the link in a new tab or window.
+ - framename = Opens the link in a named frame.
+
+Opening the link in a new tab is written like this:
 ```
 <a
   href="https://www.enki.com/"
   target="_blank">
-  5 minute workouts
+  Visit Enki's 5-minute workouts!
 </a>
 ```
-**Note:If no target is set, the linked page or document is opened in the current tab.**
 
-You can also create `placeholder` links. These are links that can be clicked, but do nothing.
+During the web page development process, if web pages aren't created yet or you don't want to link them yet while still creating the linked object, `placeholder` links can be used. These provide the same interactivity as real links in that they can be clicked, but they do not open any new pages.
 
 ```
-<a
-  href="#"> Empty href
-</a>
+<a href="#">This link is interactive,
+ but doesn't work yet.</a>
 ```
 
 Next to linking through text, it is also common to link through pictures.
 
-```
-<!DOCTYPE html>
-<html>
-<body>
+To link images, the same tags are used, but wrap around an image element like this: 
 
-<a
-   href="https://www.enki.com/"
+```
+<a href="https://enki.com/" 
    target="_blank">
-  <img
-    src ="http.logo.com/enki.png"
-    alt ="Enki logo"
-    style="width:36px;height:36px;"
-   />
+  <img src ="logo.svg" 
+       alt ="Enki Logo" />
 </a>
-
-</body>
-</html>
 ```
 
-In the example above, the picture with the URL `http.logo.com/enki.png` becomes the link.
+In the example above, the image of the Enki Logo will link to this page `https://www.enki.com` when clicked.
 
 ---
 ## Practice
 
-Create a hyperlink text that opens a webpage in a new window:
+Create linked text that opens a webpage in a new window:
 
-`<??? ???="???" ???="???">Link to Enki<???>`
+```
+<??? ???="http://enki.com" 
+???="???">Link to Enki<???>
+```
 
-* a
-* href
-* http://enkipro.com
-* target
-* _blank
-* /a
-* img
-* link
-* /link
-* src
-* _new
+* `a`
+* `href`
+* `target`
+* `_blank`
+* `/a`
+* `img`
+* `link`
+* `src`
+* `_new`
+
 
 ---
 ## Revision
-
-Which line of code will link text to open a new window?
-
-???
-
-* `<a href="http://enkipro.com" target="_blank">Link to Enki</a>`
-* `<link href="http://enkipro.com" target="_blank">Link to Enki</link>`
-* `<a src="http://enkipro.com" target="_blank">Link to Enki</a>`
-* `<a href="http://enkipro.com" target="_new">Link to Enki</a>`
-
-How is a placeholder link created, where the link works, but it doesn't open a new page?
-
-`<a href="???">Empty href</a>`
-
-* `#`
-* `""`
-* `*`
-* `_empty`
-* `_self`
-* `Leave empty`
 
 When will the cursor change to a pointer with the following code?
 
@@ -153,45 +128,39 @@ When will the cursor change to a pointer with the following code?
 
 When the mouse hovers: ???
 
-* over the text within the `<a>` element.
-* anywhere within the `<main>` element.
-* anywhere within the web page.
-* The cursor doesn’t change in this case.
+How is a placeholder link created, where the link works, but it doesn't open a new page?
+
+`<a href="???">Empty href</a>`
 
 What is the default style of a text link in HTML?
 
 ???
 
+* over the text within the `<a>` element.
+* `#`
 * It is blue and underlined.
+* anywhere within the `<main>` element.
+* anywhere within the web page.
+* The cursor doesn’t change in this case
+* `""`
+* `*`
+* `_empty`
+* `_self`
+* `Leave empty`
 * It is blue and bold.
 * There is no visual change to a text link.
-* The cursor changes to pointer when hovered over it.
-* The cursor doesn't change.
+
 
 ---
 ## Quiz
 
 ### How much do you know about HTML hyperlinks?
 
-Which statement about these paragraphs & links is true?
-
-```
-<p>
-  <a
-    href="http://enkipro.com">
-    Click Me
-  </a>
-</p>
-  <a
-   href="http://enkipro.com">
-  <p>Click Me</p>
-</a>
-```
+Which line of code will link text to open a new window?
 
 ???
 
-* Both options are valid, although best to place links within paragraphs.  
-* Both options are valid, although best to place paragraphs within links.  
-* HTML links are required to be placed within paragraphs to be valid.
-* HTML links are required to be placed around entire paragraphs to be valid.
-* Neither line in this example is valid HTML.
+* `<a href="http://enki.com" target="_blank">Link to Enki</a>`
+* `<link href="http://enki.com" open="new">Link to Enki</link>`
+* `<a src="http://enki.com" window="_new">Link to Enki</a>`
+* `<a href="http://enki.com" target="_new">Link to Enki</a>`

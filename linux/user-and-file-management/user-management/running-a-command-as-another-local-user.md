@@ -18,6 +18,10 @@ tags:
 
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Running a command as another local user
@@ -50,3 +54,4 @@ The `sudo` flag that allows you to run commands as another user is ??? .
 * `-t`
 * `-R`
 
+ 

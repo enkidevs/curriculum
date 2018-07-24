@@ -69,3 +69,4 @@ Flickering image bug in IE10 can be solved by ???
 * force loading the image
 * loading the image through a script
 * uninstalling IE10
+ 

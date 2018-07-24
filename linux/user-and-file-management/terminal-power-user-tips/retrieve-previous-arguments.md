@@ -20,6 +20,10 @@ tags:
 
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Retrieve previous arguments
@@ -82,3 +86,4 @@ You can use ??? syntax to repeat the last command's argument.
 * !!
 * !1
 
+ 

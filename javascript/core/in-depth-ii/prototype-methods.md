@@ -36,6 +36,12 @@ tags:
 
 
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 
 # Prototype methods
@@ -109,3 +115,4 @@ An object in JavaScript that can be inherited from is called ???.
 * variable
 * function
 
+ 

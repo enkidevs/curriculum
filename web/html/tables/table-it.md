@@ -19,6 +19,8 @@ tags:
 
 type: tetris
 
+category: good-practice
+
 standards:
   web.syntax-html.1: 1000
   web.layout-html.1: 1000

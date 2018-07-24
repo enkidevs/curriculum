@@ -73,3 +73,4 @@ You can browse websites from the terminal using the
 * browse package
 * firefox package
 
+ 

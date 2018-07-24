@@ -21,6 +21,11 @@ links:
   - '[nodejs.org](https://nodejs.org/api/process.html#process_event_uncaughtexception){website}'
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # uncaughtException listener in Node.js
 
@@ -85,3 +90,4 @@ process.???('???',
 * any
 * undefinedState
 * listen
+ 

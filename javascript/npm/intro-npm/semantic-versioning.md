@@ -20,6 +20,12 @@ tags:
   - workout
   - deep
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 # Semantic versioning
 
@@ -68,3 +74,4 @@ From the perspective of a package maintainer, incrementing the rightmost number 
 ## Footnotes
 [1: Breaking change]
 The term "breaking change" is usually used to indicate a change to a function or to code that will be incompatible with older code.
+ 

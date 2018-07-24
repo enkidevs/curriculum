@@ -28,7 +28,7 @@ links:
 
 A topic branch is a branch that you create and use for work on a feature.
 
-The idea is to work on a fix or an experiment separately from the `master` branch. This makes it easier to review changes, as all the commits relate to one topic.
+The idea is to work on a fix or an experiment separately from the `master` branch. This makes it easier to review changes, as all the commits related to one topic.
 
 For example, you could work on solving an issue:
 ```
@@ -69,3 +69,4 @@ A way of keeping the master branch clean and safely experimenting is by using ??
 * merges
 * IDEs
 
+ 

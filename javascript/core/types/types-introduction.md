@@ -16,6 +16,10 @@ standards:
 tags:
   - introduction
 
+aspects:
+  - introduction
+
+
 ---
 # Types - Introduction
 
@@ -39,11 +43,11 @@ Unlike some other languages you do not need to tell JavaScript what type a varia
 var name = "john smith";
 ```
 
-You can also change a variable's type at any time:
+Javascript's typing is dynamic which means you can also change a variable's type at any time:
 
 ```javascript
 var x=1; //number
-x="blah"; //reassign to string
+x="blah"; //reassigns to string
 ```
 
 ### typeof
@@ -64,7 +68,7 @@ Can you change a variable's type in JavaScript?
 
 * yes
 * no
-* only be declaring it again
+* only if you declare it again
 
 ---
 ## Revision
@@ -77,3 +81,4 @@ Which one of the following is **not** a primitive type:
 * Symbol
 * String
 * Number
+ 

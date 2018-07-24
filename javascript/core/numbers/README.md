@@ -11,6 +11,7 @@ insights:
 game: infinity-game
 
 exercises:
+  - js-practice-number-tostring
   - js-practice-math-max
   - js-practice-math-pow
   - js-practice-math-log

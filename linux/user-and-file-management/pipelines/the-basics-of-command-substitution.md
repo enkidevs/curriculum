@@ -25,6 +25,11 @@ links:
   - '[More substitutions](http://www.tldp.org/LDP/abs/html/commandsub.html){website}'
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # The Basics of Command Substitution
@@ -110,3 +115,4 @@ If you want to use the output of a program as a command line argument, you would
 * |
 * >>
 
+ 

@@ -8,15 +8,12 @@ insights:
   - types-introduction
   - types-undefined-and-null
   - types-boolean-and-number
-  - types-string
-  - be-careful-when-using-typeof
-
+  - weak-vs-strict-equality-operator
+  - the-difference-between-null-undefined-and-nan
 
 exercises:
-  - js-practice-booleans
-  - js-practice-numbers
-  - js-practice-strings
-
+  - js-practice-glitch-numbers
+  - js-practice-glitch-math
 
 
 

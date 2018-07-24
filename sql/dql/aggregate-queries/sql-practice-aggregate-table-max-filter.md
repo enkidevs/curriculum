@@ -25,6 +25,12 @@ links:
   - '[blog post on MySQL aggregate functions](https://www.guru99.com/aggregate-functions.html){website}'
   - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=sgAvl7ry5jY){video}'
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
+
 ---
 
 # SQL Practice Aggregate Table Max Filter
@@ -35,4 +41,5 @@ links:
 In SQLFiddle, write a SQL query that answers the following question:
 
 Considering only items with `fling_power` less than 25, what is the maximum `cost` of an item in each fling effect group?
+ 
  

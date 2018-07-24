@@ -26,6 +26,11 @@ tags:
 
 
 
+aspects:
+  - deep
+  - workout
+
+
 ---
 
 # The `sticky bit` permission
@@ -64,3 +69,4 @@ The sticky bit prevents
 * the root from deleting the file
 * the owner from moving the file
 
+ 

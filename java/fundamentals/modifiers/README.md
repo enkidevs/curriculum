@@ -9,3 +9,4 @@ insights:
   - the-static-modifier
   - the-final-modifier
   - encapsulation
+ 

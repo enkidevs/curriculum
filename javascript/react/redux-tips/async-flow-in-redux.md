@@ -74,3 +74,4 @@ Does the default Redux store support asynchronous data flow?
 * yes
 * only if used with React
 * only with ES6
+ 

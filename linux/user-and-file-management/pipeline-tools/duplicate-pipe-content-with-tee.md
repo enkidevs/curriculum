@@ -21,6 +21,10 @@ links:
   - '[en.wikipedia.org](https://en.wikipedia.org/wiki/Tee_(command)){website}'
 
 
+aspects:
+  - workout
+
+
 ---
 
 # Duplicate pipe content with `tee`
@@ -79,3 +83,4 @@ $ ??? ??? ??? fileone filetwo
 * `>`
 * `<`
 
+ 

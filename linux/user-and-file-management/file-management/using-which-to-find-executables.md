@@ -19,6 +19,11 @@ tags:
 
   - workout
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 
 # Using `which` To Find Executables
@@ -79,3 +84,4 @@ Which built-in command returns the path to an executable?
 * type ls
 * path ls
 * ll ls
+ 

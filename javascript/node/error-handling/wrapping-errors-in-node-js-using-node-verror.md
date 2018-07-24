@@ -23,6 +23,11 @@ links:
   - '[github.com](https://github.com/davepacheco/node-verror){website}'
 
 
+aspects:
+  - introduction
+  - workout
+
+
 ---
 # Wrapping errors in Node.js using _node-verror_
 
@@ -83,3 +88,4 @@ What two classes does the `node-verror` provide?
 * WError & Error
 * VError & WrapError
 
+ 

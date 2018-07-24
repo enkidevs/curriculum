@@ -28,4 +28,4 @@ links:
 ---
 ## Exercise
 
-Practice using JavaScript For-Loops on Code Wars
+Solve this challenge using flow control in JavaScript

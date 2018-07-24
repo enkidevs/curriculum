@@ -73,3 +73,4 @@ The main advantage of server-side rendering in React is that the user doesn't ha
 * scripted
 * results
 * improved user performance
+ 

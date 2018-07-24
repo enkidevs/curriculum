@@ -27,3 +27,4 @@ links:
 ## Exercise
 
 Implement a basic JavaScript Class on Code Wars
+ 

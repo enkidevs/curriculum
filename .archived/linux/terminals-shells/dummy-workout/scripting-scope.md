@@ -14,6 +14,9 @@ stub: true
 tags:
   - introduction
 
+aspects:
+  - introduction
+
 ---
 # Scoping in Scripts
 
@@ -36,3 +39,4 @@ echo $a
 * 1
 * 2
 * $a
+ 

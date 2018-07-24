@@ -34,6 +34,12 @@ tags:
 
 
 
+aspects:
+  - deep
+  - workout
+  - obscura
+
+
 ---
 
 # JavaScript compilation
@@ -112,3 +118,4 @@ function foo(){ // foo is in global
 * fee
 * local
 
+ 

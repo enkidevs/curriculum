@@ -31,6 +31,10 @@ tags:
 
 notes: ''
 
+aspects:
+  - workout
+
+
 ---
 
 # Fast file indexing with `updatedb` and `locate`
@@ -85,3 +89,4 @@ pair, provided by the `mlocate` package, is used to search for files efficiently
 * search/locate
 * indexdb/findb
 
+ 

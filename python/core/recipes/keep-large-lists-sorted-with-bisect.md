@@ -85,3 +85,4 @@ What will the output of `print(bisect.bisect(a, 2))` be? ???
 * returns the position where to insert a new element in a sorted list
 * sorts and returns an unsorted list
  
+ 

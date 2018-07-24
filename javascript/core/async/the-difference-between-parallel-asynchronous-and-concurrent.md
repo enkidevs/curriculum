@@ -31,6 +31,9 @@ tags:
 
   - npm
 
+aspects:
+  - workout
+  - deep
 
 links:
 
@@ -81,3 +84,7 @@ What's the notion describing two or more tasks executed in the same period, but 
 * `asynchronous`
 * `race condition`
 
+ 
+ 
+ 
+ 

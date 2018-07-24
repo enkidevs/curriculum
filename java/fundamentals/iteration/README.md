@@ -8,3 +8,4 @@ insights:
   - double-brace-initialization
   - diamond-operator
   - implementing-the-comparable-interface-to-give-objects-a-natural-order
+ 
