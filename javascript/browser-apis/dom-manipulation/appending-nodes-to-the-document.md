@@ -10,39 +10,32 @@ levels:
   - medium
 
 
-tags:
+  aspects:
 
-  - introduction
+    - introduction
 
-  - workout
-
-
-type: exercise
-
-category: must-know
+    - workout
 
 
+  type: normal
 
-standards:
-  cs.identify-linear-collection-data-structures-usage.0: 1000
-  cs.identify-linear-collection-data-structures-usage.3: 1000
+  category: must-know
+
+  standards:
+    javascript.dom.0: 10
 
 links:
 
 - '[MDN - appendChild](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)'
 - '[Youtube - DOM Nodes - Beau teaches JavaScript](https://www.youtube.com/watch?v=BWVoPxob5DU)'
 ---
+# Appending Nodes to Document
+---
 
 
-## Exercise
+Once you have created an element you need to add it to the HTML document, or it won't show up anywhere. The `appendChild` method adds an element to a parent element. You must select the desired parent element with one of the various methods available.
 
-# Appending Nodes to the Document
-
-## appendChild()
-
-Once you have created an element you need to add it to the HTML document. The appendChild method adds an element to a parent element. You must select the desired parent element with one of the various methods available.
-
-In this example we will use the getElementById to select the parent, then our initializeElement function to create a heading and then use appendChild to add it to the document:
+In this example we will use the `getElementById` to select the parent, then our `initializeElement` function to create a heading and then use `appendChild` to add it to the document:
 
 ```javascript
 var container = document.getElementsById('container');

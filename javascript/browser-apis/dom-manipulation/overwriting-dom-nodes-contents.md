@@ -10,42 +10,37 @@ levels:
   - medium
 
 
-tags:
+aspects:
 
   - introduction
 
   - workout
 
 
-type: exercise
+type: normal
 
 category: must-know
 
-
-
 standards:
-  cs.identify-linear-collection-data-structures-usage.0: 1000
-  cs.identify-linear-collection-data-structures-usage.3: 1000
+  javascript.dom.0: 10
+  javascript.dom.2: 10
 
 links:
 
 - '[MDN - Element.innerHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)'
 - '[W3 Schools - DOM Body property (Try out the examples)](https://www.w3schools.com/jsref/prop_doc_body.asp)'
 ---
+# Element Contents
+---
 
-
-## Exercise
-
-# Overwriting DOM Nodes&#39; Contents
-
-Elements have a property called innerHTML that gets or sets the HTML contained within the element. Setting the innerHTML of an element overwrites the contents of an element, including nested elements. Consider the following example:
+Elements have a property called `innerHTML` that gets or sets the HTML contained within the element. Setting the `innerHTML` of an element overwrites the contents of an element, including nested elements. Consider the following example:
 ```HTML
 <body>
   <h1>Hello world</h1>
   <p>This is written with HTML</p>
 </body>
 ```
-The body tag has a couple of elements within it. If we set the innerHTML of the body tag then these elements will be overwritten by the new content.
+The body tag has a couple of elements within it. If we set the `innerHTML` of the body tag then these elements will be overwritten by the new content.
 ```javascript
 document.body.innerHTML = 'Hello there world'
 ```
@@ -56,11 +51,11 @@ The DOM now looks like this:
 </body>
 ```
 
-Remember: if you want to overwrite the contents of an element, set the innerHTML property. If you just want to add to an element's contents you should use the appendChild method.
+Remember: if you want to overwrite the contents of an element, set the `innerHTML` property. If you just want to add to an element's contents you should use the `appendChild` method.
 ---
 ## Practice
 
-Fill in the blanks to overwrite the contents of the div element with id='container':
+Fill in the blanks to overwrite the contents of the div element with `id='container'`:
 ```HTML
 <body>
   <div id='container'>

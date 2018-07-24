@@ -10,22 +10,19 @@ levels:
   - medium
 
 
-tags:
+aspects:
 
   - introduction
 
   - workout
 
 
-type: exercise
+type: normal
 
 category: must-know
 
-
-
 standards:
-  cs.identify-linear-collection-data-structures-usage.0: 1000
-  cs.identify-linear-collection-data-structures-usage.3: 1000
+  javascript.dom.0: 10
 
 links:
 
@@ -33,14 +30,11 @@ links:
 - '[Stackoverflow - How do I create and style a div with JS?](https://stackoverflow.com/questions/6840326/how-can-i-create-and-style-a-div-using-javascript)'
 ---
 
-
-## Exercise
-
 # Creating Elements
 
-## document.createElement()
+---
 
-In order to create a new element on a webpage dynamically with JavaScript, we use the DOM's method createElement:
+In order to create a new element on a webpage dynamically with JavaScript, we use the DOM's method `createElement`:  
 `var newDiv = document.createElement('div')`
 
 Then we can give the element some content. Let's make another tag dynamically and append it to the div tag.
@@ -90,7 +84,7 @@ var p = document.???(???);
 
 Which method on the Document Object is used for making a new element?
 
-`document.???`
+`document.???`  
 
 * createElement
 * makeElement

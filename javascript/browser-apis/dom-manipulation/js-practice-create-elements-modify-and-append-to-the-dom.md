@@ -22,8 +22,8 @@ link: https://codepen.io/eleanorhoward/pen/zLvjaL
 
 
 standards:
-  cs.identify-linear-collection-data-structures-usage.0: 1000
-  cs.identify-linear-collection-data-structures-usage.3: 1000
+  javascript.dom.0: 10
+  javascript.dom.2: 10
 
 links:
 

@@ -10,29 +10,26 @@ levels:
   - medium
 
 
-tags:
+aspects:
 
   - introduction
 
   - workout
 
 
-type: exercise
+type: normal
 
 category: must-know
 
-
-
 standards:
-  cs.identify-linear-collection-data-structures-usage.0: 1000
-  cs.identify-linear-collection-data-structures-usage.3: 1000
+  javascript.dom.0: 10
+  javascript.dom.1: 10
 
 ---
-
-
-## Exercise
-
 # Write a Function to Return an Element
+---
+## Content
+
 
 Let's say we need to create elements quite often within our code, then we should write a function that creates and returns an element:
 

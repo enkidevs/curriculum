@@ -10,32 +10,29 @@ levels:
   - medium
 
 
-tags:
+aspects:
 
   - introduction
 
   - workout
 
 
-type: exercise
+type: normal
 
 category: must-know
 
-
-
 standards:
-  cs.identify-linear-collection-data-structures-usage.0: 1000
-  cs.identify-linear-collection-data-structures-usage.3: 1000
+  javascript.dom.0: 10
+  javascript.dom.1: 10
 
 links:
 
 - '[MDN - Traversing an HTML table with JavaScript and DOM Interfaces](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces)'
 ---
-
-
-## Exercise
-
 # Write a Function to Return a Complex Element
+---
+## Content
+
 
 Let's say we have an array of data and we want to display that data in a list on a webpage.
 Instead of writing out all the HTML elements for each piece of data, we can just use a function to loop through the array and return a list based on the data passed in:

@@ -22,8 +22,8 @@ link: https://codepen.io/eleanorhoward/pen/vaNrYN
 
 
 standards:
-  cs.identify-linear-collection-data-structures-usage.0: 1000
-  cs.identify-linear-collection-data-structures-usage.3: 1000
+  javascript.dom.0: 10
+  javascript.dom.1: 10
 
 links:
 
