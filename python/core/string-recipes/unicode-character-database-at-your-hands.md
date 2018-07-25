@@ -24,7 +24,7 @@ aspects:
   - introduction
   - workout
   - deep
-  -obscura
+  - obscura
 links:
 
   - '[pymotw.com](https://pymotw.com/2/codecs/){website}'

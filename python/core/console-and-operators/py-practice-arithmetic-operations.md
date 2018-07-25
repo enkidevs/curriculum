@@ -7,13 +7,6 @@ levels:
 
   - basic
 
-tags:
-
-  - introduction
-
-aspects:
-  - introduction
-
 type: exercise
 aspects:
   - introduction

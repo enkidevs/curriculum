@@ -7,13 +7,6 @@ levels:
 
   - basic
 
-tags:
-  - introduction
-  - workout
-aspects:
-  - introduction
-  - workout
-  - deep
 type: exercise
 aspects:
   - introduction

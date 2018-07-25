@@ -22,7 +22,7 @@ aspects:
   - introduction
   - workout
   - deep
-  -obscura
+  - obscura
 links:
 
   - '[docs.python.org](https://docs.python.org/2/library/stringprep.html){website}'
