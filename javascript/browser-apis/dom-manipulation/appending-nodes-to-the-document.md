@@ -26,8 +26,8 @@ levels:
 
 links:
 
-- '[MDN - appendChild](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)'
-- '[Youtube - DOM Nodes - Beau teaches JavaScript](https://www.youtube.com/watch?v=BWVoPxob5DU)'
+- '[MDN - appendChild](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild){documentation}'
+- '[Youtube - DOM Nodes - Beau teaches JavaScript](https://www.youtube.com/watch?v=BWVoPxob5DU){video}'
 ---
 # Appending Nodes to Document
 ---
