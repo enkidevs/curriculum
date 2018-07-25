@@ -17,7 +17,7 @@ linkType: codepen
 link: https://codepen.io/enkidevs/pen/pKMGxe
 
 standards:
-
+  web.layout-html.0: 10
 
 links:
   - '[MDN docs for button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button){website}'
