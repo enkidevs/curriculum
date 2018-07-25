@@ -1,19 +1,13 @@
 ---
 author: tommarshall
 
-tags:
-
-  - introduction
-
-aspects:
-  - introduction
-
 levels:
 
   - beginner
 
 type: normal
-
+aspects:
+  - introduction
 category: must-know
 
 inAlgoPool: false

@@ -8,10 +8,12 @@ levels:
   - basic
 
 type: exercise
-
+aspects:
+  - introduction
+  - workout
 link: http://www.codewars.com/kata/bad-apples/python
 linkType: codewars
-standards: 
+standards:
 
   python.data-structures-uses.0: 2000
   python.data-structures-uses.2: 2000

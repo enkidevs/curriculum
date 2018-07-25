@@ -10,7 +10,9 @@ levels:
 type: normal
 
 category: feature
-
+aspects:
+  - workout
+  - deep
 standards:
   python.control-structures.5: 10
   python.modules.0: 10
@@ -88,5 +90,3 @@ What function from the `types` module can be used to transform a generator into 
 * `generator`
 * `await`
 * `gen_to_co`
- 
- 

@@ -9,7 +9,9 @@ type: normal
 
 category: feature
 
-
+aspects:
+  - workout
+  - deep
 links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#additional-methods-on-integer-types){website}'
@@ -153,5 +155,3 @@ When specified, the integer value will be represented in `length` bytes. If thes
 In **big endian**, you store the *most* significant `bit` in the **smallest** address, while in **little endian** you store the *least* significant one.
 
 If you wish to learn more about this subject, bookmark this insight and check its "Learn more" links section.
- 
- 

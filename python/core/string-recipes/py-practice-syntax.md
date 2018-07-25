@@ -7,14 +7,10 @@ levels:
 
   - basic
 
-tags:
-  - introduction
-  - workout
+type: exercise
 aspects:
   - introduction
   - workout
-  - deep
-type: exercise
 
 linkType: codewars
 

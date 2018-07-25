@@ -8,7 +8,9 @@ levels:
 type: normal
 
 category: must-know
-
+aspects:
+  - introduction
+  - workout
 standards:
   python.modules.0: 10
 
@@ -133,5 +135,3 @@ def add(a, b):
     print("The sum is: ", sum)
     return sum
 ```
- 
- 

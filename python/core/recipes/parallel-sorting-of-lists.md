@@ -10,7 +10,10 @@ levels:
   - medium
 
 type: normal
-
+aspects:
+  - introduction
+  - workout
+  - obscura
 standards:
   python.native-types-operations.4: 10
 
@@ -88,5 +91,3 @@ cities, temps = zip(*sorted(zipped))
 * [12, 17, 16, 21]
 * [12, 16, 17, 21]
 * [12, 16, 21, 16]
- 
- 

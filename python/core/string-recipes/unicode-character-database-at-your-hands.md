@@ -20,7 +20,11 @@ standards:
   python.data-structures-uses.5: 10
   python.native-types-operations.4: 10
 
-
+aspects:
+  - introduction
+  - workout
+  - deep
+  - obscura
 links:
 
   - '[pymotw.com](https://pymotw.com/2/codecs/){website}'
@@ -94,5 +98,3 @@ Get the name of a character specified:
 * `name`
 * `lookup`
 * `category`
- 
- 

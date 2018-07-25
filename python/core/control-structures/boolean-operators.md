@@ -12,7 +12,8 @@ levels:
 type: normal
 
 category: must-know
-
+aspects:
+  - introduction
 inAlgoPool: false
 
 standards:

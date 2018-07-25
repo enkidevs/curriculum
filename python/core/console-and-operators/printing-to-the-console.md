@@ -14,7 +14,8 @@ type: normal
 category: must-know
 
 inAlgoPool: false
-
+aspects:
+  - introduction
 standards:
   python.identify-python-syntax.1: 10
 

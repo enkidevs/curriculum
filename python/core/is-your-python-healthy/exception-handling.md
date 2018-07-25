@@ -14,7 +14,10 @@ category: must-know
 standards:
   python.native-types-operations.10: 10
   python.identify-python-syntax.2: 10
-
+aspects:
+  - introduction
+  - workout
+  - deep
 links:
 
   - '[more about exception handling](https://docs.python.org/3/tutorial/errors.html){website}'
@@ -111,7 +114,7 @@ What are the two optional clauses of the `try-except` statement?
 ### Do you know how exception handling works?
 
 
-// Here is an exception-handling block. Let's say a StopIteration is raised. How is it executed? 
+// Here is an exception-handling block. Let's say a StopIteration is raised. How is it executed?
 ```python
 try:
     # Exception-prone code here...
@@ -130,6 +133,3 @@ finally:
 - It will do A, B and D
 - It will do A, B, C and D
 - It will do B and D
-
- 
- 
