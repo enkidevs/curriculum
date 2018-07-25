@@ -10,7 +10,10 @@ levels:
 type: normal
 
 category: must-know
-
+aspects:
+  - introduction
+  - workout
+  - deep
 standards:
   python.testing.1: 10
   python.testing.3: 10
@@ -107,5 +110,3 @@ You have to install `pytest` through Python's package manager, `pip`:
 ```bash
 $ pip install --user pytest
 ```
- 
- 

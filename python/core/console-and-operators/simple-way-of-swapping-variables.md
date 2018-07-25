@@ -12,7 +12,8 @@ levels:
   - medium
 
   - beginner
-
+aspects:
+  - introduction
 standards:
   python.native-types-operations.4: 10
 

@@ -12,7 +12,8 @@ levels:
 type: normal
 
 category: must-know
-
+aspects:
+  - introduction
 inAlgoPool: false
 
 standards:
@@ -72,4 +73,3 @@ The Python-specific file extension is ???.
 * `.pyt`
 * `.pip`
 * `.python`
- 

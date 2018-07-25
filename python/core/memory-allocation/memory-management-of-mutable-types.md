@@ -8,7 +8,9 @@ levels:
 type: normal
 
 category: must-know
-
+aspects:
+  - workout
+  - deep
 standards:
   python.store-manipulate-data.0: 10
   python.store-manipulate-data.1: 10
@@ -108,5 +110,3 @@ print(a)
 * `5`
 * `[]`
 * `a`
- 
- 

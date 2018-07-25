@@ -12,7 +12,9 @@ type: normal
 category: feature
 
 inAlgoPool: false
-
+aspects:
+  - introduction
+  - workout
 
 links:
 
@@ -130,5 +132,3 @@ print(???(???())
 * `current`
 * `time_struct`
 * `struct_time`
- 
- 

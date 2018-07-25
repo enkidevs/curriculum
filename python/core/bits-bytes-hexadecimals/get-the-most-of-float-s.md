@@ -9,7 +9,9 @@ type: normal
 
 category: feature
 
-
+aspects:
+  - workout
+  - deep
 standards:
   python.data-structures-uses.3: 10
 
@@ -118,5 +120,3 @@ How would you convert `2.71` to its **hexadecimal** representation?
 * `to_hex`
 * `fromhex`
 * `int`
- 
- 

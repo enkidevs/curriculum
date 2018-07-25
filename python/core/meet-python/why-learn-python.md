@@ -4,7 +4,7 @@ author: tommarshall
 levels:
 
   - beginner
-  
+
 tags:
 
   - introduction
@@ -12,7 +12,8 @@ tags:
 type: normal
 
 category: tip
-
+aspects:
+  - introduction
 inAlgoPool: false
 
 ---
@@ -37,7 +38,7 @@ for i in items:
 
 Python is also an economical programming language. For similar tasks, Python can often require *3-5* times less code than Java, and up to *10* times less code than C++.
 
-As a highly readable, object-oriented programming language, Python can act as a stepping-stone to learning other object-oriented languages. 
+As a highly readable, object-oriented programming language, Python can act as a stepping-stone to learning other object-oriented languages.
 
 ---
 ## Practice
@@ -57,4 +58,3 @@ How much Python code is usually required compared to the C++ code for the same t
 * `Up to 5 times less`
 * `3–5 times less`
 * `Roughly equal`
- 

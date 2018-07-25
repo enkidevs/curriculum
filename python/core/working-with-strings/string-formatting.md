@@ -10,7 +10,9 @@ type: normal
 category: must-know
 
 inAlgoPool: false
-
+aspects:
+  - introduction
+  - workout
 standards:
   python.standard-library-data.6: 10
   python.data-structures-uses.5: 10
@@ -78,5 +80,3 @@ When you want to use two or more argument specifiers, what must you use in order
 * A tuple
 * A function
 * A string
- 
- 

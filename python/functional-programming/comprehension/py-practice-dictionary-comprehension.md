@@ -7,17 +7,14 @@ levels:
 
   - basic
 
-tags:
-  - introduction
-aspects:
-  - introduction
-  - workout
-
 
 type: exercise
 
 linkType: codewars
-
+aspects:
+  - introduction
+  - workout
+  - deep
 link: https://www.codewars.com/kata/thinkful-dictionary-drills-multiple-modes
 
 standards:

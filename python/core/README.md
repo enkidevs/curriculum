@@ -13,6 +13,7 @@ sections:
     - fundamental-data-structures-ii
     - looping
     - functions
+    - tips
   '1':
     - intro-to-modules
     - basic-file-manipulation
@@ -33,7 +34,6 @@ sections:
     - deep-into-collections
     - advanced-queues
   '3':
-    - tips
     - classes-iii
     - bits-bytes-hexadecimals
     - memory-allocation
