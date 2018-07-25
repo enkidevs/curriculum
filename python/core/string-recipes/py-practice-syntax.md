@@ -15,6 +15,9 @@ aspects:
   - workout
   - deep
 type: exercise
+aspects:
+  - introduction
+  - workout
 
 linkType: codewars
 

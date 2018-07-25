@@ -12,6 +12,8 @@ levels:
 type: normal
 
 category: pattern
+aspects:
+  - introduction
 
 
 links:

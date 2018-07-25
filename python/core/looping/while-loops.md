@@ -10,6 +10,8 @@ type: normal
 category: must-know
 
 inAlgoPool: false
+aspects:
+  - introduction
 
 standards:
   python.control-structures.3: 10

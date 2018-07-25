@@ -13,7 +13,8 @@ levels:
   - beginner
 
 type: normal
-
+aspects:
+  - introduction
 category: must-know
 
 inAlgoPool: false

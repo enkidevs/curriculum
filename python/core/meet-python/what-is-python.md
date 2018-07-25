@@ -14,7 +14,8 @@ type: normal
 category: must-know
 
 inAlgoPool: false
-
+aspects:
+  - introduction
 links:
 
   - '[Install Python](https://www.python.org/downloads/){website}'
@@ -26,7 +27,7 @@ links:
 ---
 ## Content
 
-Python is a *high-level*, *interpreted*, *interactive* and *object-oriented* programming language. 
+Python is a *high-level*, *interpreted*, *interactive* and *object-oriented* programming language.
 
 That means it's designed to be easily readable, using English keywords and straightforward syntax. For example, here's how you could log text to the shell with Python:
 
@@ -77,4 +78,3 @@ How can you start the interactive Python interpreter?
 * `go`
 * `interact`
 * `interactivepython`
-

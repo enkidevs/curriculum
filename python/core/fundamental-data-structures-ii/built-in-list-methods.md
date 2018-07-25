@@ -12,7 +12,9 @@ levels:
 type: normal
 
 category: how to
-
+aspects:
+  - introduction
+  - workout
 standards:
   python.native-types-operations.4: 10
 

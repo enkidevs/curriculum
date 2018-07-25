@@ -9,13 +9,9 @@ levels:
 
   - medium
 
-tags:
-  - workout
-  
+
 aspects:
   - introduction
-  - workout
-  - deep
 
 type: exercise
 

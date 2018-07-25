@@ -8,10 +8,12 @@ levels:
   - basic
 
 type: exercise
-
+aspects:
+  - introduction
+  - workout
 link: http://www.codewars.com/kata/pick-peaks
 linkType: codewars
-standards: 
+standards:
 
   python.store-manipulate-data.0: 3000
   python.store-manipulate-data.1: 5000

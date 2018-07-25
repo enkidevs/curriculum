@@ -10,7 +10,10 @@ levels:
 type: normal
 
 category: feature
-
+aspects:
+  - introduction
+  - workout
+  - deep
 standards:
   python.object-oriented.1: 10
   python.object-oriented.5: 10
@@ -103,5 +106,3 @@ Python's `Exception` class is a ??? class.
 * `child`
 * `static`
 * `private`
- 
- 

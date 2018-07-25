@@ -15,7 +15,8 @@ aspects:
   - introduction
 
 type: exercise
-
+aspects:
+  - introduction
 linkType: website
 
 link: https://goo.gl/SZFREy

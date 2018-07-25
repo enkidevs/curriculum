@@ -8,7 +8,9 @@ levels:
 type: normal
 
 category: must-know
-
+aspects:
+  - introduction
+  - workout
 standards:
   python.functions.3: 10
 
@@ -122,5 +124,3 @@ print(a)
 * No
 * Yes
 * It can't be determined.
- 
- 

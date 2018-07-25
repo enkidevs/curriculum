@@ -10,7 +10,9 @@ levels:
 type: normal
 
 category: must-know
-
+aspects:
+  - introduction
+  - workout 
 standards:
   python.identify-python-syntax.1: 10
 
@@ -95,5 +97,3 @@ Which of the following is an ad-hoc debugging method?
 * print()
 * debugging modules
 * Python doesn't support debugging
- 
- 

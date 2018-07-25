@@ -12,6 +12,9 @@ levels:
 type: normal
 
 category: feature
+aspects:
+  - introduction
+  - workout
 
 
 links:
@@ -93,5 +96,3 @@ What library provides pretty printing of data structures in *Python*? ???
 * `pprint`
 * `draw`
 * `superdraw`
-
- 

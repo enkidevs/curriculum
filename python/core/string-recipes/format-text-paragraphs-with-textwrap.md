@@ -15,6 +15,9 @@ category: how to
 
 inAlgoPool: false
 
+aspects:
+  - introduction
+  - workout
 
 standards:
   python.data-structures-uses.5: 10
@@ -119,5 +122,3 @@ textwrap.???(text, ???=30)
 * `fill`
 * `length`
 * `max`
- 
- 
