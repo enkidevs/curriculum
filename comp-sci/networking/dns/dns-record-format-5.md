@@ -2,20 +2,15 @@
 author: TebbaVonMathenstein
 
 levels:
-
-  - beginner
-
+  - advanced
+  - obscure
 
 tags:
-
-  - introduction
-
   - workout
+  - obscura
 
-
-type: exercise
-
-category: must-know
+type: normal
+category: feature
 
 standards:
   cs.networking.dns.6: 1000

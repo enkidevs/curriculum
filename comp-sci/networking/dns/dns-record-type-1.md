@@ -2,20 +2,15 @@
 author: TebbaVonMathenstein
 
 levels:
-
   - beginner
-
   - basic
 
 tags:
-
   - introduction
   - workout
 
-
 type: normal
-
-category: must-know
+category: fundamental
 
 standards:
   cs.networking.dns.2: 1000
@@ -23,6 +18,7 @@ standards:
 links:
 
 - '[DNS Record Types Explained](https://pressable.com/blog/2014/12/23/dns-record-types-explained/){article}'
+- [RFC 1035 Defines DNS](https://www.ietf.org/rfc/rfc1035.txt){documentation}
 
 ---
 # DNS Record Types

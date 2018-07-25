@@ -2,20 +2,14 @@
 author: TebbaVonMathenstein
 
 levels:
-
   - beginner
 
-
 tags:
-
   - introduction
-
   - workout
 
-
 type: normal
-
-category: must-know
+category: fundamental
 
 standards:
   cs.networking.dns.0: 1000
@@ -23,7 +17,8 @@ standards:
 links:
 
 - '[What Is DNS?](https://www.cloudflare.com/learning/dns/what-is-dns/){article}'
-- [RFC 1035 Defines DNS](https://www.ietf.org/rfc/rfc1035.txt){documentation}
+- '[RFC 1035 Defines DNS](https://www.ietf.org/rfc/rfc1035.txt){documentation}'
+
 ---
 # DNS Purpose
 ---

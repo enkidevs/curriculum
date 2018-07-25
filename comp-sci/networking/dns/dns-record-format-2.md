@@ -2,20 +2,13 @@
 author: TebbaVonMathenstein
 
 levels:
-
-  - beginner
-
+  - medium
 
 tags:
-
-  - introduction
-
   - workout
 
-
-type: exercise
-
-category: must-know
+type: normal
+category: fundamental
 
 standards:
   cs.networking.dns.6: 1000

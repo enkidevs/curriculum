@@ -14,9 +14,6 @@ standards:
         4: Contrast DNS Resolvers with DNS Name Servers.
         5: Make DNS queries using `dig`.
         6: Identify the sections of a DNS query and resource record.
-        7: Examine raw DNS records with Wireshark.
-        8: Create and send a raw DNS packet with a programming language.
-        9: Parse a raw DNS response with a programming language.
 
 insights:
   - list-of-insight-slugs-in-order

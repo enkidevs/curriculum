@@ -2,20 +2,13 @@
 author: TebbaVonMathenstein
 
 levels:
-
-  - beginner
-
+  - medium
 
 tags:
-
-  - introduction
-
   - workout
 
-
-type: exercise
-
-category: must-know
+type: normal
+category: fundamental
 
 standards:
   cs.networking.dns.3: 1000
@@ -53,7 +46,7 @@ Which of the following statements about DNS is false?
 
 * Users in different geographic locations are restricted to using the closest root, TLD, and authoritative servers.
 * DNS servers are distributed world wide.
-* All of the DNS root servers are overseen by the IANA.
+* All of the DNS root servers are subject to oversight by the IANA.
 * TLD servers are managed by regional authorities who are selected by the IANA.
 * Management of authoritative servers is left to the owner of a particular domain.
 
