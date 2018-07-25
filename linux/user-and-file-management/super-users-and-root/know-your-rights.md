@@ -38,6 +38,7 @@ The permissions here are defined as follows: the owner can read and group can wr
 %
 
 ---
+
 ```bash
 0777
 ???
@@ -52,6 +53,7 @@ Here we know that the owner, group and others have permission to read write and 
 %
 
 ---
+
 ```bash
 –wx–wx––x
 ???
@@ -66,6 +68,7 @@ The owner and group can write and execute. Others can execute only.
 %
 
 ---
+
 ```bash
 1473
 ???
@@ -80,6 +83,7 @@ The owner can read, group can read, write and execute and others can write and e
 %
 
 ---
+
 ```bash
 –w–r–x–––
 ???
@@ -94,6 +98,7 @@ The owner can write, the group can read and others can execute.
 %
 
 ---
+
 ```bash
 2415
 ???
@@ -108,6 +113,7 @@ Owner can read, the group can read. However, due to the `s` there they have the 
 %
 
 ---
+
 ```bash
 rws––x––x
 ???
@@ -122,6 +128,7 @@ The owner can write and read, group and others can execute.
 %
 
 ---
+
 ```bash
 r–xr–xr–x
 ???
@@ -136,6 +143,7 @@ This file can be read and executed by anyone.
 %
 
 ---
+
 ```bash
 7777
 ???
@@ -150,6 +158,7 @@ Anyone accessing this file has all privileges available.
 %
 
 ---
+
 ```bash
 0312
 ???
