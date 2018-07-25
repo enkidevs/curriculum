@@ -15,6 +15,11 @@ standards:
   python.native-types-operations.10: 10
   python.identify-python-syntax.2: 10
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
 links:
 
   - '[Python debugger](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger){website}'
@@ -162,5 +167,3 @@ When debugging a python file with `pdb`, which command will show the step-by-ste
 * `step`
 * `next`
 * `go`
- 
- 

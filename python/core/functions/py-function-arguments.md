@@ -12,8 +12,8 @@ category: must-know
 standards:
   python.functions.2: 10
 
-  aspects:
-    - introduction
+aspects:
+  å- introduction
 links:
 
   - '[More about arguments](https://www.tutorialspoint.com/python/python_functions.htm){website}'
