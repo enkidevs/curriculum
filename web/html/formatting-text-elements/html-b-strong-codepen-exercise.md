@@ -17,7 +17,7 @@ linkType: codepen
 link: https://codepen.io/enkidevs/pen/oMXVGE
 
 standards:
-
+  web.markup-text.0: 10
 
 links:
   - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
