@@ -10,7 +10,10 @@ levels:
 type: normal
 
 category: how to
+aspects:
 
+  - workout
+  - deep
 
 standards:
   python.store-manipulate-data.5: 10
@@ -84,6 +87,3 @@ What functionality does `callback` carry in `r = weakref.ref(enki, callback)`?
 
 * `callback` function is invoked when `enki` is deleted.
 * In this case `callback` is a proxy to `enki`.
-
- 
- 

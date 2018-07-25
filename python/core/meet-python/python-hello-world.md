@@ -15,7 +15,8 @@ category: must-know
 
 inAlgoPool: false
 
-
+aspects:
+  - introduction
 standards:
   python.identify-python-syntax.1: 10
 
@@ -75,4 +76,3 @@ Complete the code snippet with the correct function to write the string 'Python 
 * `write`
 * `sys.out`
 * `writeln`
- 

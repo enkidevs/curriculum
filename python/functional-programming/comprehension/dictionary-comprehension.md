@@ -12,7 +12,14 @@ levels:
 type: normal
 
 category: must-know
+aspects:
+  - introduction
+  - workout
+  - deep
+standards:
 
+    python.use-comprehensions.0: 1000
+    python.use-comprehensions.3: 3000
 
 links:
 
@@ -21,7 +28,7 @@ links:
 parent: list-comprehension
 notes: >
   Added a slightly more advanced example using a dict to count frequencies of
-  lower case letters. 
+  lower case letters.
 
 ---
 
@@ -83,5 +90,3 @@ print(lfk)
 'y', 'z']
 
 ```
-
- 

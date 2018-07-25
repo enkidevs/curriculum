@@ -8,7 +8,8 @@ levels:
   - basic
 
 type: exercise
-
+aspects:
+  - introduction
 link: https://www.codewars.com/kata/ordered-count-of-characters
 linkType: codewars
 standards:
@@ -29,5 +30,3 @@ links:
 ## Exercise
 
 Practice using classes together with your networking skills.
- 
- 

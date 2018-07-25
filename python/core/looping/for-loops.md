@@ -11,10 +11,13 @@ category: must-know
 
 inAlgoPool: false
 
+aspects:
+  - introduction
 
 standards:
   python.control-structures.2: 10
   python.identify-python-syntax.0: 10
+  python.use-iteration-protocol.0: 10
 
 links:
 
@@ -32,7 +35,7 @@ links:
 The standard Python `for` loop syntax is:
 ```python
 for iterating_num in sequence:
-    doSomething() 
+    doSomething()
 ```
 
 An example `for` loop:
@@ -97,5 +100,3 @@ for letter in 'Python':
 * `letter`
 * `null`
 * `error`
- 
- 

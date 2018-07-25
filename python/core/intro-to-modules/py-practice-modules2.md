@@ -8,7 +8,9 @@ levels:
   - basic
 
 type: exercise
-
+aspects:
+  - introduction
+  - workout
 link: https://www.codewars.com/kata/find-out-whether-the-shape-is-a-cube
 linkType: codewars
 standards:
@@ -30,5 +32,3 @@ links:
 ## Exercise
 
 Practice using modules in python.
- 
- 

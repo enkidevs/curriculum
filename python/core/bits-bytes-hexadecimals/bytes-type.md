@@ -12,7 +12,9 @@ levels:
 type: normal
 
 category: feature
-
+aspects:
+  - workout
+  - deep
 standards:
   python.data-structures-uses.3: 10
   python.native-types-operations.11: 10
@@ -87,5 +89,3 @@ Bytes are ??? sequences of single bits.
 
 * `immutable`
 * `mutable`
- 
- 
