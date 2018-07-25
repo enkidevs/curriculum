@@ -16,7 +16,22 @@ standards:
         6: Identify the sections of a DNS query and resource record.
 
 insights:
-  - list-of-insight-slugs-in-order
+  - dns-purpose-1.md
+  - dns-purpose-2.md
+  - dns-purpose-3.md
+  - dns-record-type-1.md
+  - dns-record-type-2.md
+  - dns-duplicity.md
+  - dns-hierarchy-1.md
+  - dns-hierarchy-2.md
+  - dns-hierarchy-3.md
+  - dns-hierarchy-4.md
+  - dns-record-format-1.md
+  - dns-record-format-2.md
+  - dns-record-format-3.md
+  - dns-record-format-4.md
+  - dns-record-format-5.md
 
 exercises:
-  - list-of-exercise-slugs-in-order
+  - dns-and-dig-part-1.md
+  - dns-and-dig-part-2.md
