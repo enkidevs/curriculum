@@ -13,7 +13,7 @@ standards:
   python.functions.2: 10
 
 aspects:
-  å- introduction
+  - introduction
 links:
 
   - '[More about arguments](https://www.tutorialspoint.com/python/python_functions.htm){website}'
