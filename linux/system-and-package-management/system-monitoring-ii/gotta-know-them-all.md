@@ -200,4 +200,3 @@ reboot or halt you machine?
 %exp
 The `shutdown` command brings system down in a secure way. It notifies all users that the system is going to be shut down and no other logins will be possible. It is possible to shut down the system immediately or after a certain delay.
 %
- 

@@ -129,6 +129,7 @@ var ??? = timeArray;
 * `[year, month, day]`
 * `(year, month, day)`
 * `{year, month, day}`
+
 %exp
 The **destructuring assignment** syntax is a **JavaScript** expression that makes it possible to extract data from arrays or objects into distinct variables.
 %
@@ -199,4 +200,3 @@ var ??? = timeObject
 %exp
 By using **destructuring assignment**, y is assigned the value of `timeObject`'s property `year`.
 %
- 
