@@ -14,13 +14,12 @@ aspects:
 type: exercise
 
 linkType: codepen
-link: https://codepen.io/enkidevs/pen/VdRWKr?editors=1000
+link: https://codepen.io/enkidevs/pen/VBMemd
 
+solution: https://codepen.io/enkidevs/pen/VdRWKr
 
 standards:
   web.html-forms.4: 10
-
-
 
 links:
   - '[MDN docs for checkboxes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox){website}'
