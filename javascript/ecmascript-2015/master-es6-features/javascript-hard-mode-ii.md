@@ -145,4 +145,3 @@ Here we encounter a **SyntaxError** as the arrow function `=>` can have either *
 
 The definition here doesn't respect either of the.
 %
- 

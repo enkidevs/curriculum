@@ -47,7 +47,7 @@ This limit is: 1.797693134862315E+308.
 
 ---
 
-```js
+```javascript
 var x = Infinity - Infinity;
 console.log(x); //prints ???
 ```
@@ -62,7 +62,7 @@ Infinity could be any number, so we can’t represent the result of `Infinity - 
 
 ---
 
-```js
+```javascript
 var x = -10/0;
 console.log(x); //prints ???
 ```
@@ -77,7 +77,7 @@ There is also an option for a number to be infinitely small, which is represente
 
 ---
 
-```js
+```javascript
 var x = Infinity * 10;
 console.log(x); //prints ???
 ```
@@ -92,7 +92,7 @@ Any fixed number multiplied by `Infinity` gives us infinity.
 
 ---
 
-```js
+```javascript
 var x = 10/-0;
 console.log(x); //prints ???
 ```

@@ -68,7 +68,8 @@ console.log(typeof aaa());
 
 %exp
 This is an exercise in JavaScript's automatic semicolon insertion. While this code looks correct, JavaScript inserts semicolons where it thinks the user has missed them. Once JS has done this, the function changes into:
-```
+
+```javascript
 function aaa() {
     return;
     {
@@ -77,6 +78,7 @@ function aaa() {
 }
 alert(typeof aaa());
 ```
+
 Which does not return the object as you would expect, and results in the type of the function being `undefined`, instead of `object` as you might expect.
 %
 
@@ -188,4 +190,3 @@ console.log(myArr);
 %exp
 Setting the length of an array to anything lower than its current length truncates it. When we set the length to 0, this effectively erases all its contents. Therefore, when we push `'bin'` on to the array, it is the sole element in it and the result is `['bin']`.
 %
- 

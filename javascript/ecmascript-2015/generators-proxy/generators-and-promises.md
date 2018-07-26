@@ -156,4 +156,3 @@ Promise.???(
 %exp
 The `all()` function returns a single promise that resolves when all promises passed as an array in the arguments have resolved, or rejects with the first rejected promise's error.
 %
- 
