@@ -16,7 +16,6 @@ standards:
   javascript.prototype-class.0: 1000
   javascript.prototype-class.1: 1000
   javascript.prototype-class.2: 1000
-  javascript.prototype-inherit.0: 1000
 
 links:
 
