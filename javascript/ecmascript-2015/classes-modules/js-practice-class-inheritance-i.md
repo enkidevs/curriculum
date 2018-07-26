@@ -13,8 +13,9 @@ link: https://www.codewars.com/kata/fun-with-es6-classes-number-2-animals-and-in
 linkType: codewars
 standards:
 
-  javascript.prototype-inherit.0: 1000
-  javascript.prototype-inherit.1: 1000
+  javascript.prototype-class.0: 1000
+  javascript.prototype-class.1: 1000
+  javascript.prototype-class.2: 1000
 
 links:
 
