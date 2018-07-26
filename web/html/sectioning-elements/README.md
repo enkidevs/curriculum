@@ -11,3 +11,8 @@ insights:
   - nav
   - footer
  
+exercises:
+  - html-sectioning-elements-1-codepen-exercise
+  - html-sectioning-elements-2-codepen-exercise
+  - html-sectioning-elements-3-codepen-exercise
+  - html-sectioning-elements-4-codepen-exercise
