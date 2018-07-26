@@ -28,9 +28,11 @@ Reckon you know most of Java's renowned classes? Fill the gaps as quick as possi
 x.equals('abc'); // true
 x.equalsIgnoreCase('ABC'); //true
 ```
+
 * String x = "abc";
 * ArrayList<Character> x = "abc";
 * StringBuffer x=new StringBuffer("abc");
+
 %exp
 The only class in Java that supports both the `equals` and `equalsIgnoreCase` methods is `String`.
 %
@@ -116,6 +118,7 @@ Class `math` supports `.floor()` method.
 Matcher m = a.matcher("xowEn");
 boolean b = m.matches();
 ```
+
 * Pattern a = Pattern.compile("x.*");
 * String a = "xowEn";
 * Regex a = new Regex.compile("x.*");
@@ -123,6 +126,6 @@ boolean b = m.matches();
 %exp
 Class `Pattern` has the `.matcher()` method implemented.
 
-
 It checks whether the string given as parameter matches the given regular expression.
 %
+ 
