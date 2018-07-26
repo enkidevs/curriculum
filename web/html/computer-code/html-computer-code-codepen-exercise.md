@@ -14,7 +14,7 @@ aspects:
 type: exercise
 
 linkType: codepen
-link: https://codepen.io/enkidevs/pen/MXRKxr?editors=1000
+link: https://codepen.io/enkidevs/pen/MXRKxr
 
 
 standards:
