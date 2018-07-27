@@ -48,7 +48,9 @@ If you change the content of the body it will overwrite all elements inside the 
 <p>My page has so much content</p>
 
 <script>
-document.body.innerHTML = "My content was changed!";
+document
+ .body
+ .innerHTML = "My content was changed!";
 </script>
 
 </body>
@@ -66,7 +68,10 @@ You can also do cool things like change the background color of the page by sett
 <h1>Hello World!</h1>
 
 <script>
-document.body.style.backgroundColor = "pink";
+document
+.body
+.style
+.backgroundColor = "pink";
 </script>
 
 </body>
@@ -80,13 +85,13 @@ Store a reference to the body element in a variable:
 
 `var bodyElement = ???.???`
 
-* document
-* body
-* getElementById
-* getElementsByTagName
-* DOM
-* element
-* innerHTML
+* `document`
+* `body`
+* `getElementById`
+* `getElementsByTagName`
+* `DOM`
+* `element`
+* `innerHTML`
 
 ---
 ## Revision

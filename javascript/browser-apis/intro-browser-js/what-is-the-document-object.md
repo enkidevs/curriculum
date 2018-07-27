@@ -49,7 +49,9 @@ In the DOM, all HTML elements are objects. Each object has properties and method
 <p id="message">Hello World!</p>
 
 <script>
-document.getElementById("message").innerHTML = "My content was changed!";
+document
+  .getElementById("message")
+  .innerHTML = "Changed!";
 </script>
 
 </body>
@@ -69,7 +71,9 @@ Select the element with the id "message" and change it's content using the DOM:
 <p id="message">Hello World!</p>
 
 <script>
-document.???("message").??? = "My content was changed!";
+document
+  .???("message")
+  .??? = "Changed!";
 </script>
 
 </body>
@@ -77,13 +81,13 @@ document.???("message").??? = "My content was changed!";
 ```
 
 
-* getElementById
-* innerHTML
-* message
-* DOM
-* HTML
-* <p>
-* id
+* `getElementById`
+* `innerHTML`
+* `message`
+* `DOM`
+* `HTML`
+* `<p>`
+* `id`
 
 ---
 ## Revision
@@ -94,7 +98,9 @@ Select the element with the id "time" and change it's content to "Future"
 <html>
 <body>
 
-<p id="time">Present</p>
+<p id="time">
+  Present
+</p>
 
 <script>
 ???
