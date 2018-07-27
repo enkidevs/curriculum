@@ -14,7 +14,9 @@ aspects:
 type: exercise
 
 linkType: codepen
-link: https://codepen.io/enkidevs/pen/oyrXyR?editors=1000
+link: https://codepen.io/enkidevs/pen/vaeorV
+
+solution: https://codepen.io/enkidevs/pen/oyrXyR
 
 standards:
   web.markup-text.0: 1000
