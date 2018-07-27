@@ -16,6 +16,7 @@ type: exercise
 linkType: codepen
 link: https://codepen.io/enkidevs/pen/OwjKjK
 
+solution: https://codepen.io/enkidevs/pen/qyVWRL
 
 standards:
   web.layout-html.0: 10
