@@ -14,11 +14,11 @@ aspects:
 type: exercise
 
 linkType: codepen
-link: https://codepen.io/enkidevs/pen/BPByGq
+link: https://codepen.io/enkidevs/pen/vaeoWz
+
+solution: https://codepen.io/enkidevs/pen/BPByGq
 
 standards:
-
-
 
 links:
   - '[MDN docs for anchor](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a){website}'
