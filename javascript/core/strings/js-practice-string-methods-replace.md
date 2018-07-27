@@ -32,11 +32,10 @@ links:
 
 
 ---
-
-
+# JS Practice String Methods: Replace
+---
 ## Exercise
 
-# JS Practice String Methods: Replace
 
 `linkType` determines what help text is displayed, and how the system interprets the response. `linkType` can be one of:
 - `github`

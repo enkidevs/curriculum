@@ -29,11 +29,10 @@ links:
   - '[MDN - The table element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table){documentation}'
   - '[MDN - for...in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in){documentation}'
 ---
-
-
+# Create a complex element given JSON
+---
 ## Exercise
 
-# create a complex element given an object
 
 Given an object, create a table element in javascript with a row for each item in the object.
 

@@ -33,10 +33,8 @@ links:
   - '[MDN - For](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)'
   - '[MDN - Loops and Iteration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)'
 ---
-
-
-## Exercise
-
 # JS Practice For Loops
+---
+## Exercise
 
 Practice JavaScript's for loop on glitch
