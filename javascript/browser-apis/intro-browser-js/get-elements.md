@@ -113,7 +113,9 @@ Select the element with the id `"title"`:
 <html>
 <body>
 
-<p id="title">Hello World!</p>
+<p id="title">
+  Hello World!
+</p>
 
 <script>
 var title = document.???(???);
@@ -133,17 +135,22 @@ var title = document.???(???);
 ---
 ## Revision
 
-Select all paragraph tags and save them to a variable.
+Select all paragraph tags.
 ???
 
 ```html
 <html>
 <body>
 
-<p>Hello World!</p>
-<p>welcome to my page</p>
-<p>All about coffee</p>
-<p>and where you should go to sample the best coffee</p>
+<p>
+Hello World!
+</p>
+<p>
+welcome to my page
+</p>
+<p>
+All about coffee
+</p>
 
 <script>
 ???
@@ -153,6 +160,6 @@ Select all paragraph tags and save them to a variable.
 </html>
 ```
 
-* `var paragraphs = document.getElementsByTagName('p');`
-* `var paragraphs = document.getElementsByName('p');`
-* `var paragraphs = document.getElementsByTagName('paragraph');`
+* `document.getElementsByTagName('p');`
+* `document.getElementsByName('p');`
+* `document.getElementsByTagName('paragraph');`
