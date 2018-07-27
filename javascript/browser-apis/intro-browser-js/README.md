@@ -9,7 +9,7 @@ insights:
   - what-is-the-document-object
   - modifying-the-body
   - get-elements
-  - modify-element
+  - modify-elements
 
 exercises:
   - js-practice-using-javascript-on-a-web-page-inline
