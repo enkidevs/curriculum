@@ -23,12 +23,11 @@ answer: /some\sregex/ (optional)
 
 
 standards:
-  cs.identify-linear-collection-data-structures-usage.0: 1000
-  cs.identify-linear-collection-data-structures-usage.3: 1000
+  javascript.standard-library.1: 1000
 
 links:
 
-- '[MDN - toString Method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toString)'
+  - '[MDN - toString Method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toString)'
 ---
 
 

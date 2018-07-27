@@ -23,10 +23,6 @@ standards:
 
 tags:
 
-  - introduction
-
-  - obscura
-
   - operators
 
   - infix-operators
@@ -43,9 +39,6 @@ links:
   - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence){website}'
 
 
-aspects:
-  - introduction
-  - obscura
 
 
 ---
@@ -102,4 +95,3 @@ The processing of operations starts with ??? operator if no brackets are used.
 * left-most
 * right-most
 * middle
-

@@ -21,12 +21,11 @@ answer: /some\sregex/ (optional)
 
 
 standards:
-  cs.identify-linear-collection-data-structures-usage.0: 1000
-  cs.identify-linear-collection-data-structures-usage.3: 1000
+  javascript.standard-library.1: 1000
 
 links:
 
-- '[MDN - Math.round](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round)'
+  - '[MDN - Math.round](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round)'
 ---
 
 

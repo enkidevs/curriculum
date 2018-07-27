@@ -26,8 +26,7 @@ links:
 
 aspects:
   - introduction
-tags:
-  - introduction
+
 
 ---
 

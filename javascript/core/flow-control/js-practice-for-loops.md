@@ -30,8 +30,8 @@ standards:
 
 links:
 
-- '[MDN - For](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)'
-- '[MDN - Loops and Iteration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)'
+  - '[MDN - For](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)'
+  - '[MDN - Loops and Iteration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)'
 ---
 
 

@@ -33,10 +33,10 @@ standards:
 
 links:
 
-- '[MDN - Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)'
-- '[Eloquent JavaScript - Arrays and Objects](https://eloquentjavascript.net/04_data.html)'
-- '[YouTube - Common Array Methods](https://www.youtube.com/watch?v=MeZVVxLn26E)'
-- '[Stack Overflow - Array of Arrays](https://stackoverflow.com/questions/38192388/list-of-arrays-in-javascript)'
+  - '[MDN - Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)'
+  - '[Eloquent JavaScript - Arrays and Objects](https://eloquentjavascript.net/04_data.html)'
+  - '[YouTube - Common Array Methods](https://www.youtube.com/watch?v=MeZVVxLn26E)'
+  - '[Stack Overflow - Array of Arrays](https://stackoverflow.com/questions/38192388/list-of-arrays-in-javascript)'
 ---
 
 
