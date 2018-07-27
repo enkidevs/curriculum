@@ -16,6 +16,8 @@ type: exercise
 linkType: codepen
 link: https://codepen.io/enkidevs/pen/gjLeKM
 
+solution: https://codepen.io/enkidevs/pen/vaeRGg
+
 standards:
   web.syntax-html.0: 10
   web.syntax-html.1: 10
