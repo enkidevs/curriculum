@@ -35,7 +35,7 @@ How confident are you about using JavaScript ES6 data structures?
 ---
 ## Game Content
 
-```
+```javascript
 // With ES6 maps, we set simple
 // key/value pairs:
 
@@ -55,7 +55,7 @@ All four can be used as keys in ES6 maps.
 
 ---
 
-```
+```javascript
 // ES6 maps are iterable objects,
 // a concise loop format is:
 var map = new Map();
@@ -63,9 +63,10 @@ for (let ???) {
   console.log(`${key}: ${value}`)
 }
 ```
+
 * `[key, value] of map`
 * `i=0; i > map.length; i++;`
-* `i=1; i == true; i++;``
+* `i=1; i == true; i++;`
 
 %exp
 The pair `[key,value]` represents one tuple from the map that the `for` loop is iterating over.
@@ -73,7 +74,7 @@ The pair `[key,value]` represents one tuple from the map that the `for` loop is 
 
 ---
 
-```
+```javascript
 // Using WeakMaps the following
 // will result in?
 
@@ -92,7 +93,7 @@ Integers can’t be used as weak keys.
 
 ---
 
-```
+```javascript
 // Sets
 
 var set = new WeakSet();
@@ -110,7 +111,8 @@ This syntax is correct.
 %
 
 ---
-```
+
+```javascript
 // With `WeakSets`:
 
 var set = new WeakSet();
@@ -127,4 +129,3 @@ set.add(Symbol());
 
 `Symbol()` is a primitive type so this is what causes the `TypeError`.
 %
- 
