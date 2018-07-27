@@ -12,4 +12,4 @@ exercises:
   - js-practice-glitch-length
   - js-practice-glitch-log-variable
   - js-practice-glitch-strings
-
+  - js-practice-string-method-replace

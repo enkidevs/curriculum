@@ -14,3 +14,5 @@ insights:
 exercises:
   - js-practice-using-javascript-on-a-web-page-inline
   - js-practice-using-javascript-on-a-web-page
+  - js-practice-modify-body-background-color
+  - js-practice-modify-element
