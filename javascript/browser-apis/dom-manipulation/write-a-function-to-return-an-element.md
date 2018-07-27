@@ -83,6 +83,8 @@ function initializeElement() {
 ## Revision
 
 Which of the following will return an element?
+???
+
 Option A:
 ```javascript
 function initializeElement() {

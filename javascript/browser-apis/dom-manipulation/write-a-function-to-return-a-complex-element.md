@@ -63,6 +63,8 @@ In the example above we selected a parent element and stored it in a variable ca
 
 Fill in the blanks to complete a function that takes an array and returns a list element with list items for each element in the given array.
 
+???
+
 ```javascript
 function createListElement(data){
   var ulElement = document.???('ul');
@@ -88,6 +90,8 @@ function createListElement(data){
 ## Revision
 
 Which function, given an array, will return a list element with a list item element for each element in the array?
+???
+
 Option A:
 ```javascript
 function createListElement(data){
