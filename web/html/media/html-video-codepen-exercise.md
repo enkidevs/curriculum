@@ -14,7 +14,9 @@ aspects:
 type: exercise
 
 linkType: codepen
-link: https://codepen.io/enkidevs/pen/ERJPGp?editors=0100
+link: https://codepen.io/enkidevs/pen/xJXpNz
+
+solution: https://codepen.io/enkidevs/pen/ERJPGp
 
 
 standards:
