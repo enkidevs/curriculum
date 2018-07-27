@@ -18,11 +18,8 @@ links:
 - '[What is Anycast?](https://www.cloudflare.com/learning/cdn/glossary/anycast-network/){article}'
 
 ---
-
-## Exercise
-
-# dns-duplicity
-
+# DNS Duplicity
+---
 ## Content
 
 In addition to the main service of mapping names to IP addresses, DNS provides some derivative services. As an example, some organizations use DNS as a kind of load balancer. One way to achieve this is to create several different A or AAAA records with different IP addresses for a single domain name (for example google.com). As long as each of the IP addresses identifies a computer running the `google.com` service users (generally) don't care which IP address is used.

@@ -18,11 +18,8 @@ links:
 - '[Registry, Registrar, Registrant](https://www.godaddy.com/help/what-is-the-difference-between-a-registry-registrar-and-registrant-8039){website}'
 
 ---
-
-## Exercise
-
-# dns-hierarchy-3
-
+# DNS Hierarchy
+---
 ## Content
 
 One of the most important intermediaries between the owners (and prospective owners) of domain names and the DNS hierarchy is a registrar. There are many DNS registrars world wide and their responsibility is to make a customers authoritative DNS servers available in the global DNS system. Registrars also facilitate the purchase of domain names.

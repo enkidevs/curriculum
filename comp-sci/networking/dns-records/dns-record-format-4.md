@@ -18,11 +18,8 @@ links:
 - '[Stack Overflow Answer -- Binary vs Text protocol](https://stackoverflow.com/questions/2645009/binary-protocols-v-text-protocols){website}'
 
 ---
-
-## Exercise
-
-# dns-record-format-1
-
+# DNS Record Format
+---
 ## Content
 
 When humans communicate about DNS, we use language that is understandable to humans. When computers communicate using DNS, however, they have no obligation to ensure that a human could readily understand their communications. This means that although we say things like `A`, `AAAA`, and `NS` record, the data in the actual message does not contain ASCII or Unicode formatted data for `AAAA`.

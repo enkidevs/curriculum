@@ -19,11 +19,8 @@ links:
 - '[DNS Sections Primer](https://www2.cs.duke.edu/courses/fall16/compsci356/DNS/DNS-primer.pdf){article}'
 
 ---
-
-## Exercise
-
-# dns-record-format-2
-
+# DNS Record Format
+---
 ## Content
 
 While the header section of a DNS message contains metadata about the message itself, the subsequent 4 sections contain the questions being asked and the answers to those questions. The question section always contains data -- either the question being asked or the question being answered.

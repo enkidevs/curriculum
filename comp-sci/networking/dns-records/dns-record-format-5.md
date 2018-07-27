@@ -21,11 +21,8 @@ links:
 - '[DNS Sections Primer](https://www2.cs.duke.edu/courses/fall16/compsci356/DNS/DNS-primer.pdf){article}'
 
 ---
-
-## Exercise
-
-# dns-record-format-3
-
+# DNS Record Format
+---
 ## Content
 
 The first 2 bytes of any DNS message is called the transaction ID. This value will be shared by the DNS query initiating the request and the DNS response to that query.

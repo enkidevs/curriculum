@@ -18,11 +18,8 @@ links:
 - '[DNS Sections Primer](https://www2.cs.duke.edu/courses/fall16/compsci356/DNS/DNS-primer.pdf){article}'
 
 ---
-
-## Exercise
-
-# dns-record-format-3
-
+# DNS Record Format
+---
 ## Content
 
 All DNS messages have the same message format. DNS Queries and DNS responses differ only in the values contained within that format. This is unlike some other protocols such as HTTP where requests and responses have different formats.

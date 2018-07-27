@@ -20,11 +20,8 @@ links:
 - '[List of top level domains](https://www.icann.org/resources/pages/tlds-2012-02-25-en){documentation}'
 
 ---
-
-## Exercise
-
-# dns-hierarchy-1
-
+# DNS Hierarchy
+---
 ## Content
 
 DNS servers are divided into three categories which form a kind of hierarchy. The three types of DNS server are:

@@ -20,11 +20,8 @@ links:
 - '[DNS Sections Primer](https://www2.cs.duke.edu/courses/fall16/compsci356/DNS/DNS-primer.pdf){article}'
 
 ---
-
-## Exercise
-
-# dns-record-format-1
-
+# DNS Record Format
+---
 ## Content
 
 DNS messages have 5 sections:

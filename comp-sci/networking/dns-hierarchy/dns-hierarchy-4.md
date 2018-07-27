@@ -19,11 +19,8 @@ links:
 - '[RFC 1035, Resolver Implementation is section 7](https://www.ietf.org/rfc/rfc1035.txt){documentation}'
 
 ---
-
-## Exercise
-
-# dns-hierarchy-4
-
+# DNS Hierarchy
+---
 ## Content
 
 There is a 4th kind of DNS server, called a **resolver** (sometimes called local DNS). DNS resolvers are operated by independent organizations and are not considered part of the DNS hierarchy. By default most people's DNS resolver is operated by their ISP, but there are alternatives such as Google's 8.8.8.8, Amazon's Route 53, and CloudFlare's 1.1.1.1.
