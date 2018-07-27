@@ -1,6 +1,6 @@
 name: DNS Hierarchy
 
-description: Description of the workout goes here
+description: Let's establish the pinging order
 
 insights:
   - dns-duplicity

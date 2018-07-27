@@ -4,19 +4,19 @@ author: TebbaVonMathenstein
 levels:
   - beginner
 
-tags:
+aspects:
   - introduction
   - workout
 
 type: normal
 category: fundamental
 standards:
-  cs.networking.dns.0: 1000
+  comp-sci.dns.0: 10
 
 links:
 
-- '[What Is DNS?](https://www.cloudflare.com/learning/dns/what-is-dns/){article}'
-- '[RFC 1035 Defines DNS](https://www.ietf.org/rfc/rfc1035.txt){documentation}'
+  - '[What Is DNS?](https://www.cloudflare.com/learning/dns/what-is-dns/){article}'
+  - '[RFC 1035 Defines DNS](https://www.ietf.org/rfc/rfc1035.txt){documentation}'
 
 ---
 # DNS - Role and Responsibility

@@ -4,18 +4,18 @@ author: TebbaVonMathenstein
 levels:
   - advanced
 
-tags:
+aspects:
   - workout
 
 type: normal
 category: pattern
 
 standards:
-  cs.networking.dns.6: 1000
+  comp-sci.dns.6: 10
 
 links:
 
-- '[Stack Overflow Answer -- Binary vs Text protocol](https://stackoverflow.com/questions/2645009/binary-protocols-v-text-protocols){website}'
+  - '[Stack Overflow Answer -- Binary vs Text protocol](https://stackoverflow.com/questions/2645009/binary-protocols-v-text-protocols){website}'
 
 ---
 # DNS Record Format

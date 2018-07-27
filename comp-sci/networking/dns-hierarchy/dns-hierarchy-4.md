@@ -4,19 +4,19 @@ author: TebbaVonMathenstein
 levels:
   - medium
 
-tags:
+aspects:
   - workout
 
 type: normal
 category: fundamental
 standards:
-  cs.networking.dns.3: 1000
+  comp-sci.dns.1: 10
 
 links:
 
-- '[Introducing 1.1.1.1, CloudFlares DNS Resolver](https://blog.cloudflare.com/dns-resolver-1-1-1-1/){article}'
-- '[What Is DNS?](https://www.cloudflare.com/learning/dns/what-is-dns/){article}'
-- '[RFC 1035, Resolver Implementation is section 7](https://www.ietf.org/rfc/rfc1035.txt){documentation}'
+  - '[Introducing 1.1.1.1, CloudFlares DNS Resolver](https://blog.cloudflare.com/dns-resolver-1-1-1-1/){article}'
+  - '[What Is DNS?](https://www.cloudflare.com/learning/dns/what-is-dns/){article}'
+  - '[RFC 1035, Resolver Implementation is section 7](https://www.ietf.org/rfc/rfc1035.txt){documentation}'
 
 ---
 # DNS Hierarchy

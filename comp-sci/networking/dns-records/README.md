@@ -1,6 +1,6 @@
 name: DNS Records
 
-description: Description of the workout goes here
+description: Deep dive on DNS record format
 
 insights:
   - dns-record-format-1

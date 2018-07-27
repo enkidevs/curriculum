@@ -4,7 +4,7 @@ author: TebbaVonMathenstein
 levels:
   - medium
 
-tags:
+aspects:
   - workout
   - deep
 
@@ -13,11 +13,11 @@ linkType: github
 link: https://gist.github.com/tebba-von-mathenstein/dda805c0a8da2b671ba9bc900eda7abf
 
 standards:
-  cs.networking.dns.2: 1000
-  cs.networking.dns.3: 1000
-  cs.networking.dns.4: 1000
-  cs.networking.dns.5: 1000
-  cs.networking.dns.6: 1000
+  comp-sci.dns.2: 1000
+  comp-sci.dns.3: 1000
+  comp-sci.dns.4: 1000
+  comp-sci.dns.5: 1000
+  comp-sci.dns.6: 1000
 
 links:
 

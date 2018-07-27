@@ -4,27 +4,24 @@ author: TebbaVonMathenstein
 levels:
   - medium
 
-tags:
+aspects:
   - workout
 
 type: normal
 category: fundamental
 
 standards:
-  cs.networking.dns.3: 1000
+  comp-sci.dns.1: 10
 
 links:
 
-- '[Geographic Implications of DNS Distribution](https://www.cisco.com/c/en/us/about/press/internet-protocol-journal/back-issues/table-contents-35/101-dns-infrastructure.html){article}'
-- '[IANA Root Server List](https://www.iana.org/domains/root/servers){documentation}'
-- '[List of top level domains](https://www.icann.org/resources/pages/tlds-2012-02-25-en){documentation}'
+  - '[Geographic Implications of DNS Distribution](https://www.cisco.com/c/en/us/about/press/internet-protocol-journal/back-issues/table-contents-35/101-dns-infrastructure.html){article}'
+  - '[IANA Root Server List](https://www.iana.org/domains/root/servers){documentation}'
+  - '[List of top level domains](https://www.icann.org/resources/pages/tlds-2012-02-25-en){documentation}'
 
 ---
-
-## Exercise
-
-# dns-hierarchy-2
-
+# DNS Hierarchy
+---
 ## Content
 
 DNS is a decentralized system with some centralized components.

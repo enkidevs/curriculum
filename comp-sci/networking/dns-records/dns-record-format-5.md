@@ -5,7 +5,7 @@ levels:
   - advanced
   - obscure
 
-tags:
+aspects:
   - workout
   - obscura
 
@@ -13,12 +13,12 @@ type: normal
 category: feature
 
 standards:
-  cs.networking.dns.6: 1000
+  comp-sci.dns.6: 10
 
 links:
 
-- '[RFC 1035](https://tools.ietf.org/html/rfc1035#page-12){documentation}'
-- '[DNS Sections Primer](https://www2.cs.duke.edu/courses/fall16/compsci356/DNS/DNS-primer.pdf){article}'
+  - '[RFC 1035](https://tools.ietf.org/html/rfc1035#page-12){documentation}'
+  - '[DNS Sections Primer](https://www2.cs.duke.edu/courses/fall16/compsci356/DNS/DNS-primer.pdf){article}'
 
 ---
 # DNS Record Format

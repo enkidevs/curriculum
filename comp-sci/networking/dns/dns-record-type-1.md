@@ -5,7 +5,7 @@ levels:
   - beginner
   - basic
 
-tags:
+aspects:
   - introduction
   - workout
 
@@ -13,12 +13,12 @@ type: normal
 category: fundamental
 
 standards:
-  cs.networking.dns.2: 1000
+  comp-sci.dns.2: 10
 
 links:
 
-- '[DNS Record Types Explained](https://pressable.com/blog/2014/12/23/dns-record-types-explained/){article}'
-- '[RFC 1035 Defines DNS](https://www.ietf.org/rfc/rfc1035.txt){documentation}'
+  - '[DNS Record Types Explained](https://pressable.com/blog/2014/12/23/dns-record-types-explained/){article}'
+  - '[RFC 1035 Defines DNS](https://www.ietf.org/rfc/rfc1035.txt){documentation}'
 
 ---
 # DNS Record Types

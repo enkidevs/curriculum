@@ -4,18 +4,18 @@ author: TebbaVonMathenstein
 levels:
   - medium
 
-tags:
+aspects:
   - workout
 
 type: normal
 category: feature
 standards:
-  cs.networking.dns.1: 1000
+  comp-sci.dns.1: 10
 
 links:
 
-- '[Round Robin Load Balancing With DNS](https://dyn.com/blog/dns-a-mania-dns-load-balancing-vs-hardware-load-balancing/){article}'
-- '[What is Anycast?](https://www.cloudflare.com/learning/cdn/glossary/anycast-network/){article}'
+  - '[Round Robin Load Balancing With DNS](https://dyn.com/blog/dns-a-mania-dns-load-balancing-vs-hardware-load-balancing/){article}'
+  - '[What is Anycast?](https://www.cloudflare.com/learning/cdn/glossary/anycast-network/){article}'
 
 ---
 # DNS Duplicity

@@ -79,7 +79,10 @@ standards:
     name: Accurately configure and distinguish DNS records
     description: This standard deals with the ability to distinguish the different types of DNS records, explain how they behave and their purpose, and the skills to investigate the accuracy of the configuration of DNS records.
     objectives:
-      0: Identify and distinguish between the components of the DNS hierarchy and their responsibilities
+      0: Describe the purpose of DNS.
+      1: Identify and distinguish between the components of the DNS hierarchy and their responsibilities
       1: Distinguish between DNS record types
       2: Use tools to analyze DNS queries
       3: Accurately configure DNS records
+      4: Make DNS queries using `dig`.
+      5: Identify the sections of a DNS query and resource record.

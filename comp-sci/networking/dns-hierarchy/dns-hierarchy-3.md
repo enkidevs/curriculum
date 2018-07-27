@@ -4,18 +4,18 @@ author: TebbaVonMathenstein
 levels:
   - medium
 
-tags:
+aspects:
   - workout
 
 type: normal
 category: feature
 standards:
-  cs.networking.dns.3: 1000
+  comp-sci.dns.1: 10
 
 links:
 
-- '[Responsibilities of a DNS Registrar](https://www.icann.org/resources/pages/responsibilities-2014-03-14-en){documentation}'
-- '[Registry, Registrar, Registrant](https://www.godaddy.com/help/what-is-the-difference-between-a-registry-registrar-and-registrant-8039){website}'
+  - '[Responsibilities of a DNS Registrar](https://www.icann.org/resources/pages/responsibilities-2014-03-14-en){documentation}'
+  - '[Registry, Registrar, Registrant](https://www.godaddy.com/help/what-is-the-difference-between-a-registry-registrar-and-registrant-8039){website}'
 
 ---
 # DNS Hierarchy

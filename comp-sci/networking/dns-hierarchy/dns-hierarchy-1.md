@@ -4,20 +4,20 @@ author: TebbaVonMathenstein
 levels:
   - medium
 
-tags:
+aspects:
   - introduction
   - workout
 
 type: normal
 category: fundamental
 standards:
-  cs.networking.dns.3: 1000
+  comp-sci.dns.1: 10
 
 links:
 
-- '[Intro To DNS](https://linuxacademy.com/howtoguides/posts/show/topic/12050-introduction-to-dns){article}'
-- '[IANA Root Server List](https://www.iana.org/domains/root/servers){documentation}'
-- '[List of top level domains](https://www.icann.org/resources/pages/tlds-2012-02-25-en){documentation}'
+  - '[Intro To DNS](https://linuxacademy.com/howtoguides/posts/show/topic/12050-introduction-to-dns){article}'
+  - '[IANA Root Server List](https://www.iana.org/domains/root/servers){documentation}'
+  - '[List of top level domains](https://www.icann.org/resources/pages/tlds-2012-02-25-en){documentation}'
 
 ---
 # DNS Hierarchy

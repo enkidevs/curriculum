@@ -11,12 +11,12 @@ tags:
 type: normal
 category: fundamental
 standards:
-  cs.networking.dns.0: 1000
+  cs.networking.dns.0: 10
 
 links:
 
-- '[What Is DNS?](https://www.cloudflare.com/learning/dns/what-is-dns/){article}'
-- '[RFC 1035 Defines DNS](https://www.ietf.org/rfc/rfc1035.txt){documentation}'
+  - '[What Is DNS?](https://www.cloudflare.com/learning/dns/what-is-dns/){article}'
+  - '[RFC 1035 Defines DNS](https://www.ietf.org/rfc/rfc1035.txt){documentation}'
 
 ---
 # DNS Purpose
