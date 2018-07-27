@@ -14,7 +14,9 @@ aspects:
 type: exercise
 
 linkType: codepen
-link: https://codepen.io/enkidevs/pen/vaxNmP
+link: https://codepen.io/enkidevs/pen/pZWLPG
+
+solution; https://codepen.io/enkidevs/pen/vaxNmP
 
 standards:
   web.syntax-html.0: 10
