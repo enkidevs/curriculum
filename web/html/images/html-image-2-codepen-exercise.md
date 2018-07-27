@@ -14,7 +14,9 @@ aspects:
 type: exercise
 
 linkType: codepen
-link: https://codepen.io/enkidevs/pen/djNwVG
+link: https://codepen.io/enkidevs/pen/XBevgp
+
+solution: https://codepen.io/enkidevs/pen/djNwVG
 
 standards:
   web.embed-media.0: 10
