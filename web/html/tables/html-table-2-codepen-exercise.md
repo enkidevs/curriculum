@@ -14,7 +14,9 @@ aspects:
 type: exercise
 
 linkType: codepen
-link: https://codepen.io/enkidevs/pen/vaxGed
+link: https://codepen.io/enkidevs/pen/EpwBGP
+
+solution: https://codepen.io/enkidevs/pen/vaxGed
 
 standards:
   web.syntax-html.1: 1000
