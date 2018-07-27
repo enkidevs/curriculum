@@ -63,16 +63,23 @@ In the example above we selected a parent element and stored it in a variable ca
 
 Fill in the blanks to complete a function that takes an array and returns a list element with list items for each element in the given array.
 
-???
-
 ```javascript
 function createListElement(data){
-  var ulElement = document.???('ul');
-  for (var i = 0; i < data.length; i++) {
-    var liElement = document.createElement('li');
-    var text = document.???(data[???]);
-    liElement.appendChild(text);
-    ulElement.appendChild(liElement);
+  var ulElement = document
+    .???('ul');
+  for (
+    var i = 0;
+    i < data.length;
+    i++
+  ) {
+    var liElement = document
+      .createElement('li');
+    var text = document
+      .???(data[???]);
+    liElement
+      .appendChild(text);
+    ulElement
+      .appendChild(liElement);
 
   }  
   return ulElement;
@@ -95,12 +102,21 @@ Which function, given an array, will return a list element with a list item elem
 Option A:
 ```javascript
 function createListElement(data){
-  var ulElement = document.createElement('ul');
-  for (var i = 0; i < data.length; i++) {
-    var liElement = document.createElement('li');
-    var text = document.createTextNode(data[i]);
-    liElement.appendChild(text);
-    ulElement.appendChild(liElement);
+  var ulElement = document
+    .createElement('ul');
+  for (
+    var i = 0;
+    i < data.length;
+    i++
+  ) {
+    var liElement = document
+      .createElement('li');
+    var text = document
+      .createTextNode(data[i]);
+    liElement
+      .appendChild(text);
+    ulElement
+      .appendChild(liElement);
 
   }  
   return ulElement;
@@ -109,12 +125,21 @@ function createListElement(data){
 Option B:
 ```javascript
 function createListElement(data){
-  var ulElement = document.makeElement('ul');
-  for (var i = 0; i < data.length; i++) {
-    var liElement = document.makeElement('li');
-    var text = document.createTextNode(data[i]);
-    liElement.appendChild(text);
-    ulElement.appendChild(liElement);
+  var ulElement = document
+    .makeElement('ul');
+  for (
+    var i = 0;
+    i < data.length;
+    i++
+  ) {
+    var liElement = document
+      .makeElement('li');
+    var text = document
+      .createTextNode(data[i]);
+    liElement
+      .appendChild(text);
+    ulElement
+      .appendChild(liElement);
 
   }  
   return ulElement;
@@ -123,12 +148,21 @@ function createListElement(data){
 Option C:
 ```javascript
 function createListElement(data){
-  var ulElement = document.createElement('ul');
-  for (var i = 0; i < data.length; i++) {
-    var liElement = document.createElement('li');
-    var text = document.createTextNode(data[i]);
-    liElement.appendElement(text);
-    ulElement.appendElement(liElement);
+  var ulElement = document
+    .createElement('ul');
+  for (
+    var i = 0;
+    i < data.length;
+    i++
+  ) {
+    var liElement = document
+      .createElement('li');
+    var text = document
+      .createTextNode(data[i]);
+    liElement
+      .appendElement(text);
+    ulElement
+      .appendElement(liElement);
 
   }  
   return ulElement;
