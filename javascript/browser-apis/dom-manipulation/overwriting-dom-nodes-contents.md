@@ -32,6 +32,7 @@ links:
 ---
 # Element Contents
 ---
+## Content
 
 Elements have a property called `innerHTML` that gets or sets the HTML contained within the element. Setting the `innerHTML` of an element overwrites the contents of an element, including nested elements. Consider the following example:
 ```HTML

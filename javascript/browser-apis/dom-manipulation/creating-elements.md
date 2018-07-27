@@ -33,6 +33,7 @@ links:
 # Creating Elements
 
 ---
+## Content
 
 In order to create a new element on a webpage dynamically with JavaScript, we use the DOM's method `createElement`:  
 `var newDiv = document.createElement('div')`
