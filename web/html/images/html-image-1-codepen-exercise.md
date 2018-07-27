@@ -30,6 +30,6 @@ links:
 ---
 
 ## Exercise
-In this exercise, you have to set all links to open in a new tab and on www.enki.com
+In this exercise, you have to set all links to open in a new tab and go to www.enki.com.
 
 More info on codepen.
