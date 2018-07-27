@@ -10,24 +10,23 @@ levels:
   - medium
 
 
-  aspects:
+aspects:
 
-    - introduction
+  - introduction
 
-    - workout
+  - workout
 
 
-  type: normal
+type: normal
 
-  category: must-know
+category: must-know
 
-  standards:
-    javascript.dom.0: 10
+standards:
+  javascript.dom.0: 10
 
 links:
-
-- '[MDN - appendChild](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild){documentation}'
-- '[Youtube - DOM Nodes - Beau teaches JavaScript](https://www.youtube.com/watch?v=BWVoPxob5DU){video}'
+  - '[MDN - appendChild](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild){documentation}'
+  - '[Youtube - DOM Nodes - Beau teaches JavaScript](https://www.youtube.com/watch?v=BWVoPxob5DU){video}'
 ---
 # Appending Nodes to Document
 ---

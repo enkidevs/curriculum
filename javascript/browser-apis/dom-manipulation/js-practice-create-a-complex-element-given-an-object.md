@@ -22,13 +22,12 @@ link: https://codepen.io/eleanorhoward/pen/vaNrYN
 
 
 standards:
-  javascript.dom.0: 10
-  javascript.dom.1: 10
+  javascript.dom.0: 1000
+  javascript.dom.1: 1000
 
 links:
-
-- '[MDN - The table element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)'
-- '[MDN - for...in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)'
+  - '[MDN - The table element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table){documentation}'
+  - '[MDN - for...in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in){documentation}'
 ---
 
 

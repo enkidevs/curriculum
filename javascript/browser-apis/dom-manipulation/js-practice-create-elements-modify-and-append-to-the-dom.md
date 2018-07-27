@@ -27,9 +27,9 @@ standards:
 
 links:
 
-- '[MDN - createElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)'
-- '[MDN - appendChild](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)'
-- '[Youtube - DOM Nodes - Beau teaches JavaScript](https://www.youtube.com/watch?v=BWVoPxob5DU)'
+  - '[MDN - createElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement){documentation}'
+  - '[MDN - appendChild](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild){documentation}'
+  - '[Youtube - DOM Nodes - Beau teaches JavaScript](https://www.youtube.com/watch?v=BWVoPxob5DU){documentation}'
 ---
 
 
