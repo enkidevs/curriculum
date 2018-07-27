@@ -63,7 +63,8 @@ Now we have to add the new div to the DOM in order to see it on the page:
   newDiv
     .appendChild(newTextContent)
 
-  // add the new div to the HTML document using the DOM.
+  // add the new div to
+  // the HTML document using the DOM.
   document
     .getElementById('container')
     .appendChild(newDiv);
