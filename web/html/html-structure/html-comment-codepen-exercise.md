@@ -16,7 +16,7 @@ type: exercise
 linkType: codepen
 link: https://codepen.io/enkidevs/pen/pZWLPG
 
-solution; https://codepen.io/enkidevs/pen/vaxNmP
+solution: https://codepen.io/enkidevs/pen/vaxNmP
 
 standards:
   web.syntax-html.0: 10
