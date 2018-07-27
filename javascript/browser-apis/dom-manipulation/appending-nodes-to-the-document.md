@@ -64,6 +64,8 @@ container
 
 After creating an element, which method is used to add the element to the HTML document?
 
+???
+
 * `appendChild`
 * `createElement`
 * `appendElement`

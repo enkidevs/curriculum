@@ -26,8 +26,8 @@ standards:
 
 links:
 
-- '[MDN - createElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)'
-- '[Stackoverflow - How do I create and style a div with JS?](https://stackoverflow.com/questions/6840326/how-can-i-create-and-style-a-div-using-javascript)'
+  - '[MDN - createElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)'
+  - '[Stackoverflow - How do I create and style a div with JS?](https://stackoverflow.com/questions/6840326/how-can-i-create-and-style-a-div-using-javascript)'
 ---
 
 # Creating Elements

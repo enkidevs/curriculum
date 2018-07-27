@@ -19,7 +19,6 @@ type: exercise
 
 linkType: glitch
 link: https://glitch.com/edit/#!/remix/x/054345f1-163d-4625-b25b-3311c4ab35c9
-answer: /some\sregex/ (optional)
 
 
 standards:

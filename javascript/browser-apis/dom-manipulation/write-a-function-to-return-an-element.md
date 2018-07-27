@@ -48,7 +48,8 @@ function initializeElement(element, text) {
     .createElement(element)
   newElement
     .appendChild(
-      document.createTextNode(text)
+      document
+      .createTextNode(text)
     )
   return newElement
 }
@@ -85,21 +86,24 @@ Which of the following will return an element?
 Option A:
 ```javascript
 function initializeElement() {
-  var paragraph = document.create('p')
+  var paragraph = document
+    .create('p')
   return paragraph;
 }
 ```
 Option B:
 ```javascript
 function initializeElement() {
-  var paragraph = document.createElement('p')
+  var paragraph = document
+    .createElement('p')
   return element;
 }
 ```
 Option C:
 ```javascript
 function initializeElement() {
-  var paragraph = document.createElement('p')
+  var paragraph = document
+    .createElement('p')
   return paragraph;
 }
 ```

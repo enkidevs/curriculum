@@ -27,8 +27,8 @@ standards:
 
 links:
 
-- '[MDN - Element.innerHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)'
-- '[W3 Schools - DOM Body property (Try out the examples)](https://www.w3schools.com/jsref/prop_doc_body.asp)'
+  - '[MDN - Element.innerHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)'
+  - '[W3 Schools - DOM Body property (Try out the examples)](https://www.w3schools.com/jsref/prop_doc_body.asp)'
 ---
 # Element Contents
 ---
@@ -43,7 +43,9 @@ Elements have a property called `innerHTML` that gets or sets the HTML contained
 ```
 The body tag has a couple of elements within it. If we set the `innerHTML` of the body tag then these elements will be overwritten by the new content.
 ```javascript
-document.body.innerHTML = 'Hello there world'
+document
+  .body
+  .innerHTML = 'Hello there world'
 ```
 The DOM now looks like this:
 ```HTML
@@ -57,6 +59,7 @@ Remember: if you want to overwrite the contents of an element, set the `innerHTM
 ## Practice
 
 Fill in the blanks to overwrite the contents of the div element with `id='container'`:
+
 ```HTML
 <body>
   <div id='container'>
@@ -65,7 +68,9 @@ Fill in the blanks to overwrite the contents of the div element with `id='contai
   </div>
 </body>
 <script>
-document.???('container').??? = 'I love coffee!'
+document
+  .???('container')
+  .??? = 'I love coffee!'
 </script>
 ```
 
@@ -81,6 +86,8 @@ document.???('container').??? = 'I love coffee!'
 ## Revision
 
 Which code example will result in overwriting the contents of the body?
+
+???
 
 Option A:
 ```HTML
