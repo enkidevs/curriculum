@@ -25,7 +25,6 @@ standards:
   javascript.dom.2: 10
 
 links:
-
   - '[MDN - DOM Introduction](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction){documentation}'
   - '[W3 Schools - The HTML DOM Element Object](https://www.w3schools.com/jsref/dom_obj_all.asp){article}'
   - '[Free Code Camp - What's the Document Object Model?](https://www.youtube.com/watch?v=80Mr2Z6Qikc){article}'

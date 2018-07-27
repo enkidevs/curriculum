@@ -24,10 +24,6 @@ standards:
   javascript.write-expressions.0: 1000
   javascript.evaluate-expressions.0: 1000
 
-linkType: glitch
-link: https://glitch.com/edit/#!/remix/x/2859bb2f-dff1-4718-9f15-2a3bd4245f47
-answer: /some\sregex/ (optional)
-
 links:
   - '[Stack Overflow - JavaScript Numbers](https://stackoverflow.com/questions/7896199/javascript-numbers)'
 
@@ -36,7 +32,8 @@ aspects:
   - workout
 
 ---
-
+# Practice Functions and Numbers
+---
 
 ## Exercise
 

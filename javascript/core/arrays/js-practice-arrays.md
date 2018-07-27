@@ -38,10 +38,10 @@ links:
   - '[YouTube - Common Array Methods](https://www.youtube.com/watch?v=MeZVVxLn26E)'
   - '[Stack Overflow - Array of Arrays](https://stackoverflow.com/questions/38192388/list-of-arrays-in-javascript)'
 ---
-
+# JS Practice Arrays
+---
 
 ## Exercise
 
-# JS Practice Arrays
 
 Practice creating arrays in JavaScript on glitch.

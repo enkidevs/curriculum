@@ -29,10 +29,9 @@ links:
 
   - '[MDN - toString Method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toString)'
 ---
-
-
+# JS Practice Number Methods: toString
+---
 ## Exercise
 
-# JS Practice Number Methods: toString
 
 Practice using JavaScript's toString method on glitch.
