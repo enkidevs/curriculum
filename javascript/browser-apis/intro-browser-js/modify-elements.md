@@ -48,9 +48,14 @@ Elements, once found, can be modified. You can modify any attribute of the eleme
 <p class="blue">This should be blue</p>
 
 <script>
-var blueTags = document.getElementsByClassName("blue");
+var blueTags = document
+  .getElementsByClassName("blue");
 //start the loop
-for (var i = 0; i < blueTags.length; i++) {
+for (
+  var i = 0;
+  i < blueTags.length;
+  i++
+) {
   blueTags[i].style.color = 'blue';
 }
 </script>
@@ -62,10 +67,18 @@ for (var i = 0; i < blueTags.length; i++) {
 We can also change the content of the tag to say "This is blue" rather than "This should be blue".
 
 ```javascript
- var blueTags = document.getElementsByClassName("blue");
- for (var i = 0; i < blueTags.length; i++) {
-   blueTags[i].style.color = 'blue';
-   blueTags[i].innerHTML = 'This is blue';
+ var blueTags = document
+   .getElementsByClassName("blue");
+ for (
+   var i = 0;
+   i < blueTags.length;
+   i++
+ ) {
+   blueTags[i]
+     .style
+     .color = 'blue';
+   blueTags[i]
+     .innerHTML = 'This is blue';
  }
 
 ```
@@ -85,7 +98,11 @@ Change the content of each paragraph tag to say `"My content was changed!"`:
 
 <script>
 var paragraphTags = document.???(???);
-for (var i = 0; i < paragraphTags.length; i++) {
+for (
+  var i = 0;
+  i < paragraphTags.length;
+  i++
+) {
   ???[i].??? = 'My content was changed!';
 }
 </script>
@@ -94,13 +111,13 @@ for (var i = 0; i < paragraphTags.length; i++) {
 </html>
 ```
 
-* getElementsByTagName
-* p
-* paragraphTags
-* innerHTML
-* document
-* i
-* getElementsByClassName
+* `getElementsByTagName`
+* `p`
+* `paragraphTags`
+* `innerHTML`
+* `document`
+* `i`
+* `getElementsByClassName`
 
 ---
 ## Revision
@@ -108,26 +125,38 @@ for (var i = 0; i < paragraphTags.length; i++) {
 Change each element with the classname "red" to have a red text color.
 
 ```html
-<html>
-<body>
 
-<p>Hello World!</p>
-<p class="red">This should be red</p>
-<p>This is not red</p>
-<p class="red">This should be red</p>
-<p>This is not red</p>
-<p class="red">This should be red</p>
+<p>
+  Hello World!
+</p>
+<p class="red">
+  This should be red
+</p>
+<p>
+  This is not red
+</p>
+<p class="red">
+  This should be red
+</p>
+<p>
+  This is not red
+</p>
+<p class="red">
+  This should be red
+</p>
 
 <script>
 var redTags = document.???("red");
 //start the loop
-for (var i = 0; i < redTags.length; i++) {
+for (
+  var i = 0;
+  i < redTags.length;
+  i++
+) {
   redTags[i].style.color = 'red';
 }
 </script>
 
-</body>
-</html>
 ```
 
 * `getElementsByClassName`

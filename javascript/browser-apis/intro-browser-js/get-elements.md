@@ -44,7 +44,8 @@ One of the methods we have seen before, `getElementById`. Here's an example of s
 <p id="message">Hello World!</p>
 
 <script>
-var message = document.getElementById("message");
+var message = document
+  .getElementById("message");
 </script>
 
 </body>
@@ -59,7 +60,8 @@ Another way to select tags is by tag name with the method `getElementsByTagName`
 <p>Hello World!</p>
 
 <script>
-var paragraphs = document.getElementsByTagName("p");
+var paragraphs = document
+  .getElementsByTagName("p");
 </script>
 
 </body>
@@ -80,7 +82,8 @@ If you have a group of elements that you want to be able to group and select tog
 <p class="blue">This should be blue</p>
 
 <script>
-var blueTags = document.getElementsByClassName("blue");
+var blueTags = document
+  .getElementsByClassName("blue");
 </script>
 
 </body>
@@ -106,12 +109,12 @@ var titleElement = document.???(???);
 </html>
 ```
 
-* getElementById
-* "title"
-* title
-* getElementsByTagName
-* element
-* getElementsByClassName
+* `getElementById`
+* `"title"`
+* `title`
+* `getElementsByTagName`
+* `element`
+* `getElementsByClassName`
 
 ---
 ## Revision

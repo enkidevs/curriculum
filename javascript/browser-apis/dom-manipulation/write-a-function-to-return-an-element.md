@@ -35,7 +35,8 @@ Let's say we need to create elements quite often within our code, then we should
 
 ```javascript
 function initializeElement() {
-  var heading = document.createElement('h1')
+  var heading = document
+    .createElement('h1')
   return heading
 }
 ```
@@ -43,11 +44,18 @@ We can make our functions more useful by adding some parameters that can change 
 
 ```javascript
 function initializeElement(element, text) {
-  var newElement = document.createElement(element)
-  newElement.appendChild(document.createTextNode(text))
+  var newElement = document
+    .createElement(element)
+  newElement
+    .appendChild(
+      document.createTextNode(text)
+    )
   return newElement
 }
-createElement('h1', 'hello world')
+createElement(
+  'h1',
+  'hello world'
+)
 ```
 In the example above we create an h1 element that says hello world.
 
@@ -63,12 +71,12 @@ function initializeElement() {
 }
 ```
 
-* createElement
-* paragraph
-* makeElement
-* document
-* function
-* element
+* `createElement`
+* `paragraph`
+* `makeElement`
+* `document`
+* `function`
+* `element`
 
 ---
 ## Revision

@@ -40,8 +40,10 @@ In order to create a new element on a webpage dynamically with JavaScript, we us
 
 Then we can give the element some content. Let's make another tag dynamically and append it to the div tag.
 ```JavaScript
-var newDiv = document.createElement('div')
-var newTextContent = document.createTextNode('Hello World')
+var newDiv = document
+  .createElement('div')
+var newTextContent = document
+  .createTextNode('Hello World')
 newDiv.appendChild(newTextContent)
 ```
 
@@ -54,12 +56,17 @@ Now we have to add the new div to the DOM in order to see it on the page:
     </div>
   </body>
   <script>
-  var newDiv = document.createElement('div')
-  var newTextContent = document.createTextNode('Hello World')
-  newDiv.appendChild(newTextContent)
+  var newDiv = document
+    .createElement('div')
+  var newTextContent = document
+    .createTextNode('Hello World')
+  newDiv
+    .appendChild(newTextContent)
 
   // add the new div to the HTML document using the DOM.
-  document.getElementById('container').appendChild(newDiv);
+  document
+    .getElementById('container')
+    .appendChild(newDiv);
   </script>
 </html>
 ```
@@ -73,12 +80,12 @@ Given this code, fill in the blanks to create a new paragraph element:
 var p = document.???(???);
 ```
 
-* createElement
-* "p"
-* create
-* p
-* element
-* getElementsByTagName
+* `createElement`
+* `"p"`
+* `create`
+* `p`
+* `element`
+* `getElementsByTagName`
 
 ---
 ## Revision
@@ -87,6 +94,6 @@ Which method on the Document Object is used for making a new element?
 
 `document.???`  
 
-* createElement
-* makeElement
-* appendChild
+* `createElement`
+* `makeElement`
+* `appendChild`
