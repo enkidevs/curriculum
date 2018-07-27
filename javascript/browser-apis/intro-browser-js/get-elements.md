@@ -41,7 +41,9 @@ One of the methods we have seen before, `getElementById`. Here's an example of s
 <html>
 <body>
 
-<p id="message">Hello World!</p>
+<p id="message">
+  Hello World!
+</p>
 
 <script>
 var message = document
@@ -74,12 +76,24 @@ If you have a group of elements that you want to be able to group and select tog
 <html>
 <body>
 
-<p>Hello World!</p>
-<p class="blue">This should be blue</p>
-<p>This is not blue</p>
-<p class="blue">This should be blue</p>
-<p>This is not blue</p>
-<p class="blue">This should be blue</p>
+<p>
+  Hello World!
+</p>
+<p class="blue">
+  This should be blue
+</p>
+<p>
+  This is not blue
+</p>
+<p class="blue">
+  This should be blue
+</p>
+<p>
+  This is not blue
+</p>
+<p class="blue">
+  This should be blue
+</p>
 
 <script>
 var blueTags = document
@@ -102,7 +116,7 @@ Select the element with the id `"title"`:
 <p id="title">Hello World!</p>
 
 <script>
-var titleElement = document.???(???);
+var title = document.???(???);
 </script>
 
 </body>
@@ -120,6 +134,7 @@ var titleElement = document.???(???);
 ## Revision
 
 Select all paragraph tags and save them to a variable.
+???
 
 ```html
 <html>

@@ -43,20 +43,26 @@ If you change the content of the body it will overwrite all elements inside the 
 ```html
 <html>
 <body>
-<h1>Welcome to my page</h1>
-<p>Hello World!</p>
-<p>My page has so much content</p>
+<h1>
+  Welcome to my page
+</h1>
+<p>
+  Hello World!
+</p>
+<p>
+  My page has so much content
+</p>
 
 <script>
 document
  .body
- .innerHTML = "My content was changed!";
+ .innerHTML = "Changed!";
 </script>
 
 </body>
 </html>
 ```
-In the example above, the `h1` element and the two paragraph elements would be overwritten with the words "My content was changed!"
+In the example above, the `h1` element and the two paragraph elements would be overwritten with the word "Changed!"
 
 ## Modifying the body
 
@@ -97,6 +103,7 @@ Store a reference to the body element in a variable:
 ## Revision
 
 What happens when you changes the innerHTML of the body tag?
+???
 
 * You overwrite all elements inside the body tag with the new content.
 * The content is appended to the existing content of the body tag.

@@ -38,23 +38,40 @@ Let's say we have an array of data and we want to display that data in a list on
 Instead of writing out all the HTML elements for each piece of data, we can just use a function to loop through the array and return a list based on the data passed in:
 
 ```javascript
-var teas = ['chamomile','green','breakfast','earl grey','chai','rooibos','ginger'];
-var container = document.getElementById('container');
+var teas = [
+  'chamomile',
+  'green',
+  'breakfast',
+  'earl grey'
+];
+var container = document
+  .getElementById('container');
 
 function createListElement(data){
-  var ulElement = document.createElement('ul');
-  for (var i = 0; i < data.length; i++) {
-    var liElement = document.createElement('li');
-    var text = document.createTextNode(data[i]);
-    liElement.appendChild(text);
-    ulElement.appendChild(liElement);
+  var ul = document
+    .createElement('ul');
+  for (
+    var i = 0;
+    i < data.length;
+    i++
+  ) {
+    var li = document
+      .createElement('li');
+    var text = document
+      .createTextNode(data[i]);
+    li.appendChild(text);
+    ul.appendChild(li);
 
   }  
-  return ulElement;
+  return ul;
 }
 
-var teaList = createListElement(teas);
-container.appendChild(teaList);
+var teaList = createListElement(
+  teas
+);
+container.appendChild(
+  teaList
+);
 
 ```
 In the example above we selected a parent element and stored it in a variable called container. Then we created a ul element, looped through our array of teas and created a li element for each type of tea while appending each of them to the ul. Once we created the list we appended it to the parent element.
@@ -65,24 +82,24 @@ Fill in the blanks to complete a function that takes an array and returns a list
 
 ```javascript
 function createListElement(data){
-  var ulElement = document
+  var ul = document
     .???('ul');
   for (
     var i = 0;
     i < data.length;
     i++
   ) {
-    var liElement = document
+    var li = document
       .createElement('li');
     var text = document
       .???(data[???]);
-    liElement
+    li
       .appendChild(text);
-    ulElement
-      .appendChild(liElement);
+    ul
+      .appendChild(li);
 
   }  
-  return ulElement;
+  return ul;
 }
 ```
 
@@ -101,71 +118,71 @@ Which function, given an array, will return a list element with a list item elem
 
 Option A:
 ```javascript
-function createListElement(data){
-  var ulElement = document
+function createLI(data){
+  var ul = document
     .createElement('ul');
   for (
     var i = 0;
     i < data.length;
     i++
   ) {
-    var liElement = document
+    var li = document
       .createElement('li');
     var text = document
       .createTextNode(data[i]);
-    liElement
+    li
       .appendChild(text);
-    ulElement
-      .appendChild(liElement);
+    ul
+      .appendChild(li);
 
   }  
-  return ulElement;
+  return ul;
 }
 ```
 Option B:
 ```javascript
-function createListElement(data){
-  var ulElement = document
+function createLI(data){
+  var ul = document
     .makeElement('ul');
   for (
     var i = 0;
     i < data.length;
     i++
   ) {
-    var liElement = document
+    var li = document
       .makeElement('li');
     var text = document
       .createTextNode(data[i]);
-    liElement
+    li
       .appendChild(text);
-    ulElement
-      .appendChild(liElement);
+    ul
+      .appendChild(li);
 
   }  
-  return ulElement;
+  return ul;
 }
 ```
 Option C:
 ```javascript
-function createListElement(data){
-  var ulElement = document
+function createLI(data){
+  var ul = document
     .createElement('ul');
   for (
     var i = 0;
     i < data.length;
     i++
   ) {
-    var liElement = document
+    var li = document
       .createElement('li');
     var text = document
       .createTextNode(data[i]);
-    liElement
+    li
       .appendElement(text);
-    ulElement
-      .appendElement(liElement);
+    ul
+      .appendElement(li);
 
   }  
-  return ulElement;
+  return ul;
 }
 ```
 
