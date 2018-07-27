@@ -1,7 +1,5 @@
 name: Strings
 
-type: Insights list
-
 description: Strings are how we contain text in JavaScript
 
 insights:

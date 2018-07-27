@@ -28,7 +28,7 @@ standards:
   javascript.write-expressions.0: 1000
 
 links:
-
+  - '[MDN Docs for String.replace()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace){documentation}'
 
 ---
 # JS Practice String Methods: Replace
