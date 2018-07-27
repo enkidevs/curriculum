@@ -81,8 +81,8 @@ standards:
     objectives:
       0: Describe the purpose of DNS.
       1: Identify and distinguish between the components of the DNS hierarchy and their responsibilities
-      1: Distinguish between DNS record types
-      2: Use tools to analyze DNS queries
-      3: Accurately configure DNS records
-      4: Make DNS queries using `dig`.
-      5: Identify the sections of a DNS query and resource record.
+      2: Distinguish between DNS record types
+      3: Use tools to analyze DNS queries
+      4: Accurately configure DNS records
+      5: Make DNS queries using `dig`.
+      6: Identify the sections of a DNS query and resource record.

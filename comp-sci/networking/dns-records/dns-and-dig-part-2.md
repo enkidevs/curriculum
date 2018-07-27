@@ -20,7 +20,6 @@ standards:
   comp-sci.dns.dns.6: 1000
 
 links:
-
   - '[Intro To DNS](https://linuxacademy.com/howtoguides/posts/show/topic/12050-introduction-to-dns){article}'
   - '[IANA Root Server List](https://www.iana.org/domains/root/servers){documentation}'
   - '[List of top level domains](https://www.icann.org/resources/pages/tlds-2012-02-25-en){documentation}'
@@ -30,10 +29,9 @@ links:
   - '[DNS Sections Primer](https://www2.cs.duke.edu/courses/fall16/compsci356/DNS/DNS-primer.pdf){article}'
   - '[DNS Record Types Explained](https://pressable.com/blog/2014/12/23/dns-record-types-explained/){article}'
 ---
-
-
+# DNS and Dig Part 2
+---
 ## Exercise
 
-# DNS and Dig Part 2
 
 To submit this exercise, make a fork of the linked gist and fill in your answers in the places provided. Once you've answered the questions, save your gist and use the link to your gist to submit.
