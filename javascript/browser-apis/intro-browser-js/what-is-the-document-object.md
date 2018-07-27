@@ -27,7 +27,7 @@ standards:
 links:
   - '[MDN - DOM Introduction](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction){documentation}'
   - '[W3 Schools - The HTML DOM Element Object](https://www.w3schools.com/jsref/dom_obj_all.asp){article}'
-  - '[Free Code Camp - What's the Document Object Model?](https://www.youtube.com/watch?v=80Mr2Z6Qikc){article}'
+  - '[Free Code Camp - What is the Document Object Model?](https://www.youtube.com/watch?v=80Mr2Z6Qikc){article}'
   - '[Stack Overflow - Need help to understand what Document Object Model is? ](https://stackoverflow.com/questions/6965802/need-help-to-understand-what-document-object-model-is){website}'
 ---
 # What is the Document Object?
