@@ -14,7 +14,9 @@ aspects:
 type: exercise
 
 linkType: codepen
-link: https://codepen.io/enkidevs/pen/jKRyVJ?editors=1000
+link: https://codepen.io/enkidevs/pen/mjBNXQ
+
+solution: https://codepen.io/enkidevs/pen/jKRyVJ
 
 
 standards:
@@ -23,7 +25,7 @@ standards:
   web.markup-text.2: 1000
 
 links:
-  - '[MDN docs for ordered lists]](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol){website}'
+  - '[MDN docs for ordered lists](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol){website}'
   - '[MDN docs for unordered lists](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul){website}'
 ---
 # HTML nested list
