@@ -11,5 +11,5 @@ exercises:
   - js-practice-glitch-log-variable
   - js-practice-glitch-strings
   - js-practice-strings-2
-  - js-practice-string-method-replace
+  - js-practice-string-methods-replace
   - js-practice-double-and-single-quotes

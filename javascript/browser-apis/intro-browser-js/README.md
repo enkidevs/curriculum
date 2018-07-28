@@ -12,7 +12,7 @@ insights:
   - modify-elements
 
 exercises:
-  - js-practice-using-javascript-on-a-web-page-inline
-  - js-practice-using-javascript-on-a-web-page
+  - js-practice-using-javascript-on-a-webpage-inline
+  - js-practice-using-javascript-on-a-webpage
   - js-practice-modify-body-background-color
   - js-practice-modify-element
