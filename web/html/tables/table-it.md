@@ -19,7 +19,7 @@ tags:
 
 type: tetris
 
-category: fundamentals
+category: fundamental
 
 standards:
   web.syntax-html.1: 1000
