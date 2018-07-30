@@ -25,7 +25,10 @@ In order to add a link onto an image, simply place the link `<a> </a>` element a
 
 ```html
 <a href="http://enki.com">
-  <img src="icon.png" alt="Click to visit Enki">
+  <img
+    src="icon.png"
+    alt="Click to visit Enki"
+  >
 </a>
 ```
 
@@ -33,7 +36,10 @@ Actually, anything added within a link element in HTML5 will be linked - this in
 
 ```html
 <a href="http://enki.com">
-  <img src="icon.svg" alt="Click Here">
+  <img
+    src="icon.svg"
+    alt="Click Here"
+  >
   <p>Link to Enki</p>
 </a>
 ```
@@ -45,7 +51,14 @@ Actually, anything added within a link element in HTML5 will be linked - this in
 
 Create a linked image:
 
-`<??? ???="???"><??? ???="???" ???="Click Here"><???>`
+```
+<??? ???="???">
+  <???
+    ???="???"
+    ???="Click Here"
+  >
+<???>
+```
 
 * a
 * href
