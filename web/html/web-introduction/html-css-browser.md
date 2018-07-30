@@ -9,9 +9,12 @@ type: normal
 
 category: must-know
 
-tags:
+standards:
+  web.syntax-html.4: 10
+
+aspects:
   - introduction
-  
+
 ---
 # HTML/CSS in the Browser
 ---
@@ -26,7 +29,7 @@ A **CSS** document will provide the rules for how the text, images, links, and c
 Let's say we have 2 files:
 ```
 HTML file:
-<p> 
+<p>
   This is a paragraph
 </p>
 
@@ -51,10 +54,10 @@ An HTML page without CSS in a browser will appear as what?
 ???
 
 * Only text, images, and links are displayed.
-* HTML pages open, but no content is displayed. 
+* HTML pages open, but no content is displayed.
 * HTML pages are not viewable without CSS.
 * A document error occurs and nothing displays properly.
-* Web page opens without error, but only text is displayed. 
+* Web page opens without error, but only text is displayed.
 
 ---
 ## Revision
@@ -64,15 +67,15 @@ A `.css` page will appear as what when opened in a browser?
 ???
 
 * Page appears exactly as it is written in a code editor.
-* Page opens, but no content of any sort displayed. 
+* Page opens, but no content of any sort displayed.
 * CSS pages are not viewable without HTML.
 * A document error occurs and nothing displays properly.
-* Page opens without error, but styles can't display without HTML. 
+* Page opens without error, but styles can't display without HTML.
 
 ---
-## Quiz 
+## Quiz
 
-### How well do you understand basic web pages? 
+### How well do you understand basic web pages?
 
 How do `.css` files appear in a browser when viewed alone without a `.html` file?
 

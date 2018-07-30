@@ -11,22 +11,23 @@ sections:
     - html-structure
     - core-html-elements
     - web-page-structure
+  '1':
     - images
     - links
     - lists
-  '1':
     - media
     - forms
     - forms-ii
+    - tables
+  '2':
     - meta-elements
     - sectioning-elements
-    - tables
     - formatting-elements
     - formatting-text-elements
-  '2':
     - forms-iii
     - forms-iv
     - forms-v
+  '3':
     - semantic-sections
     - citation-elements
     - computer-code

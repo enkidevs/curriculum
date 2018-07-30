@@ -9,7 +9,10 @@ type: normal
 
 category: must-know
 
-tags:
+standards:
+  web.syntax-html.4: 10
+
+aspects:
   - introduction
 
 ---
@@ -17,11 +20,11 @@ tags:
 ---
 ## Content
 
-**CSS** and **HTML** are the core languages used for creating web pages and web-based applications. 
+**CSS** and **HTML** are the core languages used for creating web pages and web-based applications.
 
 **HTML** creates the structure and content of a webpage with text, images, links, and containers, whereas **CSS** modifies the design and display of those items in the HTML page.
 
-**HTML** is made up of content between tags; `<tag>Content here</tag>`. 
+**HTML** is made up of content between tags; `<tag>Content here</tag>`.
 
 **CSS** is made of selectors followed by a declaration block; `selector {declaration block}`.
 
@@ -30,7 +33,7 @@ HTML example:
 <h2>
   This is a heading
 </h2>
-<p> 
+<p>
   This is a paragraph
 </p>
 ```
@@ -48,7 +51,7 @@ In the above **CSS** example, we set the **HTML** `<p>` elements content to the 
 ---
 ## Practice
 
-Identify the following code languages: 
+Identify the following code languages:
 
 `<h2>CSS</h2>`            : ???
 `h2 { font-size: 24px; }` : ???
@@ -61,23 +64,23 @@ Identify the following code languages:
 
 Which is HTML code and which is CSS code?
 
-HTML: ??? 
+HTML: ???
 CSS: ???
 
 * `<p>I'm a style.</p>`
 * `p { font-size: 16px; }`
 
 ---
-## Quiz 
+## Quiz
 
 ### How well can you identify HTML and CSS?
 
 What lines of code are HTML?
 
 1) `<p>I'm a style.</p>`  
-2) `p {font-size: 16px;}` 
-3) `<img src="logo.jpg" alt="Enki Logo">` 
-4) `body {font-size: 100%;}` 
+2) `p {font-size: 16px;}`
+3) `<img src="logo.jpg" alt="Enki Logo">`
+4) `body {font-size: 100%;}`
 
 ???
 
@@ -89,5 +92,3 @@ What lines of code are HTML?
 * 4
 * 1
 * none
-
-

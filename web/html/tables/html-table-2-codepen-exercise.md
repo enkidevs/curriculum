@@ -19,7 +19,6 @@ link: https://codepen.io/enkidevs/pen/EpwBGP
 solution: https://codepen.io/enkidevs/pen/vaxGed
 
 standards:
-  web.syntax-html.1: 1000
   web.layout-html.1: 1000
 
 links:
@@ -28,7 +27,7 @@ links:
   - '[MDN docs for The Table Row element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr){website}'
   - '[MDN docs for The Table Data element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td){website}'
   - '[MDN docs for Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
-   
+
 ---
 # HTML table exercise 2
 ---
