@@ -6,11 +6,14 @@ core: true
 
 sections:
   '0':
+    - web-introduction
     - html-basics
     - html-structure
     - core-html-elements
     - web-page-structure
     - images
+    - links
+    - lists
   '1':
     - media
     - forms
