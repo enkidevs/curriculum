@@ -19,7 +19,7 @@ tags:
 
 type: tetris
 
-category: good-practice
+category: fundamentals
 
 standards:
   web.syntax-html.1: 1000
