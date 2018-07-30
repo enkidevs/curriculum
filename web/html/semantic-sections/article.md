@@ -30,14 +30,12 @@ links:
 ## Content
 
 The HTML `<article>` element is used to represent independent, self-contained content in a document, page, website or an application. This content is independently reusable and shared outside or within a web page.
+
 The `<article>` element can contain:
   - a forum post
   - a magazine
   - a newspaper article
   - blog entry
-
-The `<article>` element belongs to the group **Semantic Elements**.
-Semantic elements are elements that clearly define their content both for the browser and developer.
 
 Example:
 ```
@@ -55,8 +53,6 @@ Example:
 Additionally, each `<article>` element should be properly identified by adding a heading element(`<h1>`-`<h6>`) as it's child.
 
 You can also nest `<article>` elements. When nested within another `<article>` element, the inner `<article>` element represents an article related to the outer element. For instance, comments on a social media post can be `<article>` elements nested within the `<article>` element representing that social media post.
-
-Adding the author to the `<article>` element will only work if that `<article>` element is not nested.
 
 ---
 ## Practice

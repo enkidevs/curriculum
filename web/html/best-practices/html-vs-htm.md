@@ -17,43 +17,38 @@ standards:
   web.syntax-html.6: 10
 
 ---
-# Lowercase element names
+# .html vs .htm
 ---
 ## Content
 
-In HTML5 it is not mandatory to write in lowercase. However, it is encouraged.
+`.html` and `.htm` are both file extensions for HTML.
 
-This is because being consistent in writing lowercase makes your code more readable and easier for most developers to spot mistakes in the code.
+The only difference is that `.htm` was used in the early days when operating systems like DOS did not support file extensions past 3 characters. 
 
-```html
-<div>
-  <h1>Lowercase</h1>
-  <h2>Which is better?!?</h1>
-  <p>Which seems to be easier to read?</p>
-</div>
+There was no 3 character limitation for early Mac users, so they often used the full `.html` extension when Unix systems (even the web servers) still had to use `.htm` creating some technical problems. 
 
-```
-or 
-```html
-<DIV>
-  <H1>Lowercase</H1>
-  <H2>Which is better?!?</H1>
-  <P>Which seems to be easier to read?</P>
-</DIV>
-
-```
-
-Also, some developers don't use HTML5. Instead they use XHTML or XML which require stricter coding. So if you want other developers who don't use HTML to read your web page, it is best practice to write in lowercase.
-
+Today, limiting extensions to 3 characters is no longer necessary on any operating system. 
 
 ---
 ## Practice
 
-For what reason is HTML encouraged to be written in lowercase?
+When was the “.html” extension considered acceptable over “.htm”?
 
 ???
 
-* Easier to read.
-* Code doesn't work in Uppercase letters.
-* Lowercase letters take up less space.
-* It is not just encouraged, it is also mandatory.
+* When Unix OS removed the 3 character limitation.
+* When Mac OS switched to a 4 character limit.
+* When the `.htm.` extension became deprecated.
+* It was never considered acceptable.
+
+---
+## Revision
+
+When was the “.htm” extension used?
+
+???
+
+ * When early DOS limited all extensions to 3 characters.
+ * It was never used.
+ * It is still mandatory on MAC OS
+ * When only 3 letter extensions existed.

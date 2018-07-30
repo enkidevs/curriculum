@@ -12,18 +12,42 @@ category: must-know
 tags:
   - introduction
 
+links:
+  - '[CodePen: Link in Existing Tab](https://codepen.io/enkidevs/pen/yqbBBG){code}'
+  - '[CodePen: Link in New Tab](https://codepen.io/enkidevs/pen/jpmNbe){code}'
+  
 ---
 # Target Link
 ---
 ## Content
 
-When opening links in HTML, where the link opens is determined with the `target="value"` attribute.
+Typically, a link will open another page within it's own window. This is because the default value for the target (or where the content should open) has the value of `_self`. 
 
-Possible values for the `target` attribute:
- - _self     = Opens the link in the same tab or window
+Typical link:
+```
+<a 
+  href="https://www.enki.com/"> 
+  Links opens within existing window. 
+</a> 
+```
+
+Link with default value displayed: 
+```
+<a 
+  href="https://www.enki.com/" 
+  target="_self"> 
+  Links opens within existing window. 
+</a> 
+```
+
+<!--[View CodePen](https://codepen.io/enkidevs/pen/OwmLVz)-->
+
+The other values for the target are `target="value"`:
+
+ - _self     = (Default) Opens the link in the same tab 
+ - _blank    = Opens the link in a new tab
  - _top      = Opens the link in the full body of the window
  - _parent   = Opens the link in the parent frame
- - _blank    = Opens the link in a new tab or window
  - framename = Opens the link in a named frame
 
 Example of opening the link in a different tab:
@@ -31,24 +55,25 @@ Example of opening the link in a different tab:
 <a 
   href="https://www.enki.com/" 
   target="_blank"> 
-  5 minute workouts 
+  Links opens within new tab.
 </a> 
 ```
 
-**Notes:**
-  - **If no target is set, the linked page or document is opened in the current tab.**
-  - **`_self` is only needed to open within the same tab/window when overriding conflicting code.**
+<!--[View CodePen](https://codepen.io/enkidevs/pen/jpmNbe)-->
+
+
+** Note:** `_self` is only needed to open within the same tab/window when overriding conflicting code.
 
 ---
 ## Practice
 
 Create a link that will open the linked page within a new tab or browser window.
 
-`<??? ???="http://enkipro.com" ???="???">`
+`<??? ???="http://enki.com" ???="???">`
 
 Which of these is not a valid target value?
 
-`<a href="http://enkipro.com" target="___">`
+`<a href="http://enki.com" target="___">`
 
 ???
 
@@ -69,10 +94,10 @@ Which line of code opens the linked page in the existing browser window?
 
 ???
 
-* `<a href="http://enkipro.com">`
-* `<a href="http://enkipro.com" target="_blank">`
-* `<a href="http://enkipro.com" target="_same">`
-* `<a href="http://enkipro.com" target="tab">`
+* `<a href="http://enki.com">`
+* `<a href="http://enki.com" target="_blank">`
+* `<a href="http://enki.com" target="_same">`
+* `<a href="http://enki.com" target="tab">`
 
 ---
 ## Quiz
@@ -80,11 +105,11 @@ Which line of code opens the linked page in the existing browser window?
 ### How much do you know about the HTML `target=""` attribute?
 
 Why is it rare to use this code: 
-`<a href="http://enkipro.com" target="_self">`
+`<a href="http://enki.com" target="_self">`
 
 ???
    
-* _self is only needed to open within the same tab/window when overriding conflicting code. 
+* _self is only needed to open within the same tab when overriding conflicting code. 
 * It isn't common to allow users to download your entire webpage.
 * The target="self" is typically used to download files like PDFs.
 * Everyone already knows about Enki!
@@ -94,7 +119,7 @@ Why is it rare to use this code:
 
 Play the game determining if the target values for links are valid or fake.
 
-`<a href="http://enkipro.com" target="___">`
+`<a href="http://enki.com" target="___">`
 
 Valid Target Values:Fake Target Values 
 

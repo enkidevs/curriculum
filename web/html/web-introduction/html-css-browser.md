@@ -19,34 +19,29 @@ tags:
 
 **HTML** and **CSS** are languages used by browsers to present information to the users.
 
-**Note: XHTML or XML can be used instead of HTML to produce the same result. The only difference between them is the syntax; some have looser syntax while other have stricter.**
+An **HTML** web page will display text, images, links, and containers, but has little control over how that content appears.
 
-A **HTML** web page without **CSS** will only show text, images, links, and containers. Whereas with **CSS** you can give each text, image, link, and container, either a different or same style; whether it's setting text to bold or italic, setting width, height, and position for an image or container.
+A **CSS** document will provide the rules for how the text, images, links, and containers should appear - whether it's setting text to bold or italic, setting width, height, and position for an image or container. If a `.css` file is opened in a browser, the browser would just display the **CSS** code exactly as it is written in a code editor.
 
-As for using only **CSS** to create web pages, it is impossible since **CSS** is a `stylesheet` language used for styling. Also, if you try and load a `.css` file without a `.html` file, the browser would just display the **CSS** code exactly as it is written in a code editor.
-
-Lets say we have 2 files:
+Let's say we have 2 files:
 ```
-HTML file
+HTML file:
 <p> 
   This is a paragraph
 </p>
 
-CSS file
+CSS file:
 
 p { color: green; }
 ```
 
-Loading only the HTML file gives the paragraph mentioned above.
+Loading only the **HTML** file gives the paragraph mentioned above.
 
 Loading both files gives the paragraph mentioned above and colors it green.
 
-However, loading just the CSS file will only show the text `p { color: green; }`.
+However, loading just the **CSS** file will only show the text `p { color: green; }`.
 
-Combining **HTML** and **CSS** gives us texts, images, links, etc... with an appropriate styling for each element. 
-
-Essentially, a page without **CSS** is just content with little to no styling, whereas a page without **HTML**, **XHTML** or **XML**(any of the three markup languages) cannot exist, since all known browsers only support markup languages for websites.
-
+**Note:** XHTML or XML can be used instead of **HTML** to produce the same result. The only difference between them is the syntax; some have looser syntax while other have stricter.
 
 ---
 ## Practice

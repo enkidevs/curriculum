@@ -1,7 +1,5 @@
 name: Advanced Images
 
-type: insights-list
-
 description: Advanced image attributes help you make advanced images
 
 insights:
@@ -11,4 +9,3 @@ insights:
   - image-height-width
   - image-map
   - image-base
- 

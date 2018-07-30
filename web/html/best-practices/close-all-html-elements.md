@@ -18,6 +18,9 @@ standards:
   web.syntax-html.4: 10
   web.syntax-html.5: 10
   web.syntax-html.6: 10
+  
+links:
+  - '[Google StyleGuide](https://google.github.io/styleguide/htmlcssguide.html#Optional_Tags){documentation}'
 
 ---
 # Close all HTML elements
@@ -27,7 +30,7 @@ standards:
 HTML elements typically consist of a start and end tag, with content between the tags.
 
 Example:
-```
+```html
 <p>Content goes here</p>
 ```
 Result:
@@ -36,15 +39,33 @@ Result:
 
 In this example, the `<p>` is the starting tag of a paragraph, the `</p>` is the closing tag, and all the text to be displayed within the paragraph is written between those tags.
 
-In HTML5 there are no strict rules for some closing tags - such as, the closing paragraph tag isn't necessary.
-
-In HTML5, the closing `</p>` isn't required as you can see:
-```
+In HTML5 there are no strict rules for some closing tags - such as, the closing paragraph tag isn't necessary. As you can see in this example, this paragraph works without any closing `</p>` tag:
+```html
 <p>Content goes here
 ```
-However, adding the closing tags is considered a best practice. Why? Because, even though HTML5 assumes a new tag can start without the previous one being closed, there are older browsers versions that do not support HTML5. These browsers use XHTML or HTM, both of which have stricter rules.
+However, adding the closing tags is considered a best practice. Why? Because, even though HTML5 assumes a new tag can start without the previous one being closed, there are older browsers versions that do not support HTML5. These browsers use XHTML or XML, both of which have stricter rules and many developers today are used to adding closing tags for consistency.
 
-Also, certain tags do not have to have an open tag either, like the `<body>`, `<head>`, `<html>`, etc.. However, for easier readability, it is best to use both the starting and ending tags of an HTML element.
+Also, certain tags in HTML5 do not have to have an open tag either, like the `<body>`, `<head>`, `<html>`, etc.. However, for easier readability for many developers, it is best to use both the starting and ending tags of an HTML element.
+
+In HTML5, this is still a bit unusual today, but valid and currently encouraged by Google:
+
+```html
+<!-- Not recommended by Google-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web Page Title</title>
+  </head>
+  <body>
+    <p>Web Page Content.</p>
+  </body>
+</html>
+
+<!-- Recommended by Google-->
+<!DOCTYPE html>
+<title>Web Page Title</title>
+<p>Web Page Content.
+```
 
 ---
 ## Practice

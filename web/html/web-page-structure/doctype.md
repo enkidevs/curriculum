@@ -20,30 +20,25 @@ standards:
 
 links:
   - '[MDN docs for Doctype](https://developer.mozilla.org/en-US/docs/Glossary/Doctype){website}'
-
+  - '[List of all Doctype declarations](https://www.w3.org/QA/2002/04/valid-dtd-list.html){website}'
+  
 ---
 # Doctype
 ---
 ## Content
 
-In HTML, every page, no matter the version of HTML it is written in, requires a doctype declaration. The purpose of the doctype declaration is to tell the browser how to render the document and to prevent it from rendering it in a way that may either produce errors or not display the content correctly.
+In HTML, every page, no matter the version of HTML it is written in, requires a doctype declaration telling the browser how to render the document properly.
 
-Furthermore, the doctype declaration always has to be the very first thing in your HTML document and is used to tell the browser in which version the page/document is written on because each HTML version has a different doctype declaration.
+Technically, the doctype declaration isn't an HTML element, but a specific direction for browsers to understand they type of web page being delivered.
 
 The doctype declaration for HTML5 is:
 ```
 <!DOCTYPE html>
 ```
 
-The doctype declaration can be written both in lower and uppercase letters, like so:
-```
-<!doctype html>
-<!DOCTYPE html>
-<!DOCTYPE HTML>
-<!DoCtYpE hTmL>
-```
+Although the doctype declaration can be written both in lower and uppercase letters, it tends to be most widely accepted for `DOCTYPE` to be written in uppercase and `html` to be written in lowercase letters. 
 
-Nevertheless, if you want to convert your code to any other markup language like XHTML or XML which have stricter rules, you should write the doctype declaration in uppercase like `<!DOCTYPE html>`.
+This is only one doctype declaration for HTML5 compared to the three doctype declarations used for HTML 4.01 making this much similar for developers. 
 
 ---
 ## Practice

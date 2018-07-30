@@ -17,32 +17,33 @@ aspects:
   - introduction
   - workout
   - deep
-
+  
+links:
+  - '[CodePen: Greater and Less Than in HTML](https://codepen.io/enkidevs/pen/vagygR){code}'
+    
 ---
 # Greater and Less Than
 ---
 ## Content
 
-In HTML the browser assumes *<* and *>* always represent the start and end of an HTML tag. If we need to display the literal characters, *<* or *>*, we must use character entities.
+In HTML the browser assumes *<* and *>* always represent the start and end of an HTML tag. If you need to display the literal characters, *<* or *>*, you must use character entities.
 
 You can use either an HTML entity *name* or an HTML entity *number*
 
-HTML Entity Number
+HTML Entity Number:
 ```
-&#60;       &#62;
-```
-Result:
-```
- <            >
-```
-HTML Entity Name
-```
-&lt;        &gt;
+&#60; tag &#62;
 ```
 Result:
+
+![tag](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2254%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2254%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2233%22%3E%26lt%3B%20tag%20%26gt%3B%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+
+HTML Entity Name:
 ```
- <           >
+&lt; tag &gt;
 ```
+Result:
+![tag](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2254%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2254%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2233%22%3E%26lt%3B%20tag%20%26gt%3B%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
 Example:
 ```
@@ -50,9 +51,10 @@ Example:
 
 ```
 Result:
-```
-5 > 3
-```
+![tag-math](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2254%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2254%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2233%22%3E5%20%26gt%3B%203%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+
+<!--[View CodePen](https://codepen.io/enkidevs/pen/vagygR)-->
+
 
 ---
 ## Practice

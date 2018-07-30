@@ -20,6 +20,7 @@ aspects:
   - deep
 
 links:
+  - '[CodePen: cite](https://codepen.io/enkidevs/pen/xzyKBz){code}'
   - '[MDN docs for cite](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite){website}'
 
 ---
@@ -27,7 +28,7 @@ links:
 ---
 ## Content
 
-The HTML `<cite>` element is used to describing a reference to a cited `creative work`. This element has to contain either the title or the URL of the cited work.
+The HTML `<cite>` element is used to describe a reference of a cited **creative work**. This element needs to contain either the title or the URL of the cited work.
 
 What falls under creative work:
 - Any online content
@@ -40,17 +41,21 @@ What falls under creative work:
 - Any original artwork
 - Any research paper
 
-Example:
-```
+```html
 <p>
-  More information about enki
+  More information about Enki here
   <cite>
     [https://enki.com/about]
   </cite>.
 </p>
 ```
 
-The cited URL under the `<cite>` element will, by default, display in <i>italic</i>. However, this is easily editable by adding the `font-style` CSS property to the `<cite>` element. Also, the `<cite>` element displays as an inline element.
+![cite]
+(%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2272%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2272%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2218%22%20y%3D%2231%22%3EMore%20information%20about%20Enki%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%22222.54688%22%20y%3D%2231%22%20font-family%3D%22Arial-ItalicMT%2C%20Arial%22%20font-style%3D%22italic%22%3E%5Bhttps%3A%2F%2F%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2218%22%20y%3D%2248%22%20font-family%3D%22Arial-ItalicMT%2C%20Arial%22%20font-style%3D%22italic%22%3Eenki.com%2Fabout%5D%3C%2Ftspan%3E%20%3Ctspan%20x%3D%22130.95313%22%20y%3D%2248%22%3E.%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+
+The cited URL under the `<cite>` element will, by default, display in <i>italic</i>. However, this is easily editable by adding the `font-style` CSS property to the `<cite>` element and changing the default value to 'normal' or even 'oblique' (aka bold).
+
+<!--[View CodePen](https://codepen.io/enkidevs/pen/xzyKBz)-->
 
 ---
 ## Practice
@@ -72,7 +77,7 @@ Which statement about the `<cite>` element is not correct?
 
 What HTML element is best to use in this example?
 
-```
+```html
 <p>
 The 1939 movie
 <tag>The Wizard of Oz</tag>
