@@ -34,7 +34,7 @@ Some optional elements:
   - `<body>`
   - `<p>`'s closing tag.
 
-Although this isn't a very common practice, Google's HTML styleguide recommends that optional tags be used to help cut down on the file size and improve the scannability of the document. They also recommend that developers not pick some optional tags and omit others as consistency is important in avoiding simple mistakes. 
+Although this isn't a very common practice, Google's HTML styleguide recommends that optional tags be used to help cut down on the file size and improve the scannability of the document. They also recommend that developers not pick some optional tags and omit others as consistency is important in avoiding simple mistakes.
 
 ```
 <!-- Google: Not recommended -->
@@ -92,8 +92,9 @@ What are optional elements?
 
 Which page structure is recommended by Google for HTML5 pages today?
 
-```
----------Option 1--------------
+Option 1  
+
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -104,14 +105,15 @@ Which page structure is recommended by Google for HTML5 pages today?
   </body>
 </html>
 
----------Option 2--------------
+Option 2  
+
+```html
 <!DOCTYPE html>
 <title>Option #2</title>
 <p>Hello.
 ```
 
-???
-
 * Option 2
 * Option 1
-
+* Neither
+* Both

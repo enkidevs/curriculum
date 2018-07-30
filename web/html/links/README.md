@@ -1,14 +1,11 @@
-name: Lists
+name: Links
 
-type: insights-list
-
-description: TODO
+description: How to link to other documents
 
 section: 0
 
-parent: 
-
 insights:
+  - anchor-links
   - link-relative-paths
   - link-absolute-paths
   - link-target
