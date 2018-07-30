@@ -1,5 +1,5 @@
 ---
-author: matthew-leach
+author: matthewleach
 
 levels:
   - beginner
@@ -13,13 +13,13 @@ stub: true
 
 tags:
   - deep
-  
+
 links:
   - '[CodePen: s Element](https://codepen.io/enkidevs/pen/LBxVxz){code}'
   - '[CodePen: del & ins Element](https://codepen.io/enkidevs/pen/ejgNyd){code}'
-  
+
 ---
-# Editing (s, del, ins)
+# Markup for Editing
 ---
 ## Content
 
@@ -47,12 +47,12 @@ Next, the `<del>`, or the **Deleted Text** element, is used to specify that some
 Both elements have the same 2 element-specific attributes:
   1. `cite`
   2. `datetime`
-  
-The `cite` attribute is used to specify the URL which explains the change. 
+
+The `cite` attribute is used to specify the URL which explains the change.
 
 The `datetime` attribute is used to indicate the time of the change and the date has to be properly specified (YYMMDD), otherwise it won't parse properly and the element won't have a time stamp.
 
-The `<del>` element is usually rendered with strikethrough text, whereas the `<ins>` is usually rendered with underlined text. 
+The `<del>` element is usually rendered with strikethrough text, whereas the `<ins>` is usually rendered with underlined text.
 
 ```
 <del><p>Old Text</p></del>
@@ -67,7 +67,7 @@ Result:
 ---
 ## Practice
 
-Cross out the text "$100": 
+Cross out the text "$100":
 
 ```
 <p>
@@ -106,7 +106,7 @@ tag2 = ???
 ---
 ## Revision
 
-Match these elements with their meaning: 
+Match these elements with their meaning:
 
 ???: defines text that is no longer correct, accurate or relevant.
 ???: defines text that is replaced or deleted text.
@@ -125,14 +125,12 @@ Match these elements with their meaning:
 
 ### How much do you know about formatting text elements?
 
-Mark the false statement: 
+Mark the false statement:
 
 ???
 
 * The `<del>` tag defines elements that are being delayed during the start of an animation.
-* Avoid using the `<u>` element where it can be confused with links. 
-* It is best to use `<ins>` together with `<del>` to properly showcase text updates to a document. 
-* The `<s>` element that defined strikethrough is used to represent text that is no longer correct. 
-*  The `<s>` and `<del>` elements visually appear the same by default but have different semantic meaning. 
-
-
+* Avoid using the `<u>` element where it can be confused with links.
+* It is best to use `<ins>` together with `<del>` to properly showcase text updates to a document.
+* The `<s>` element that defined strikethrough is used to represent text that is no longer correct.
+*  The `<s>` and `<del>` elements visually appear the same by default but have different semantic meaning.
