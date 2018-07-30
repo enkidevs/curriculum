@@ -1,12 +1,6 @@
 name: Tables
 
-type: insights-list
-
-description: TODO
-
-section: 0
-
-parent: computer-code
+description: Adding tabular data to HTML
 
 insights:
   - table-tr-and-td
