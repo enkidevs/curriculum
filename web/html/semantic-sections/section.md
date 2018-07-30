@@ -30,7 +30,8 @@ links:
 ## Content
 
 The HTML `<section>` element is used to represent a standalone section. Usually, This is a section which doesn't have a better element to represent it within that HTML document.
-Note: Each `<section>` element should be properly identified, usually with a heading `<h1>`-`<h6>`.
+
+**Note:** Each `<section>` element should be properly identified, usually with a heading `<h1>`-`<h6>`.
 
 Example:
 ```
@@ -40,12 +41,11 @@ Example:
 </section>
 ```
 
-If an `<article>`, `<aside>`, or `<nav>` element is more appropriate in your HTML document, don't use the `<section>` element.
-If you need a container for styling and/or scripting don't use the `<section>` element, use `<div>` instead.
+If an `<article>`, `<aside>`, or `<nav>` element is more appropriate in your HTML document, don't use the `<section>` element. If you need a container for styling and/or scripting don't use the `<section>` element, use `<div>` instead.
 
 The `<section>` container element should be used only when the contents would be the information stored as an individual record in a database.
 
-The authors are encouraged to use the `<article>` element instead of the `<section>` element when it would make more sense to syndicate the contents of the element.
+It is encouraged to use the `<article>` element instead of the `<section>` element when it would make more sense to syndicate the contents of the element.
 
 ---
 ## Practice

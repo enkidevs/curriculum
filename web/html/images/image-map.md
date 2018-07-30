@@ -27,18 +27,16 @@ links:
 ---
 ## Content
 
+The HTML `<map>` element is used for creating links on selected portions of an image when used alongside the `<area>` attribute. 
 
-In HTML, the `<map>` element is used for creating an image map. An image map is a clickable area used alongside the `<area>` attribute. With the `<map>` element you can create hyperlinks on selected portions of an image.
+![View CodePen](https://codepen.io/enkidevs/pen/ajbxbX)
 
-The clickable area has 3 available shapes.
+The clickable area has 3 available shapes:
+  - `rect` (Rectangle)
+  - `circle` (Circle)
+  - `poly` (Polygon)
 
-These are:
-  - rect (Rectangle)
-  - circle (Circle)
-  - poly (Polygon)
-
-The coordinates for each shape differ and are mandatory.
-They are as follows:
+The coordinates for each shape differ and are mandatory. They are as follows:
 
 rect: shape="x1,y1,x2,y2"
   - left corner = `x1`
@@ -56,95 +54,15 @@ poly: shape="x1,y1,x2,y2,x3,y3...xn,yn"
   - If the first and last coordinate differ, the browsers will add the last coordinate pair.
 
 
-**Important notes: Each shape has to have a certain number of values inside the `coords` attribute for it to work.**
-  **- Circle: Exactly 3**
-  **- Rectangle: Exactly 4**
-  **- Polygon: Any even number of values with the minimum number of 6 values**
-  **- (0,0) are the top left corner coordinates of an area.**
-  **- `coords` attribute is specified in pixels.**
+**Important notes:** Each shape has to have a certain number of values inside the `coords` attribute for it to work.
+  **- Circle:** Exactly 3
+  **- Rectangle:** Exactly 4
+  **- Polygon:** Any even number of values with the minimum number of 6 values
+  **- (0,0)** are the top left corner coordinates of an area.
+  **-** `coords` attribute is specified in pixels.
 
+ Finding the coordinates can be tricky and tedious. Luckily, there are free services like [http://www.image-maps.com/](http://www.image-maps.com/) to make this much easier! 
 
-Example:
-```
-<map name="objects">
-  <area shape="rect" coords="10,50,82,126"
-    alt="" href="object1.htm">
-  <area shape="circle" coords="90,58,3"
-    alt="" href="object2.htm"
-      target="_blank">
-  <area shape="poly"
-    coords="14,24,12,32,25,41,34,33,32,25"
-      alt="" href="object3.htm">
-</map>
-
-<img usemap="#objects" src="#" alt="">
-```
-
-Breaking down the example above:
-
-Specifies the start tag.
-```
-<map>
-```
-
-Specifies the name of our map.
-```
-name="objects"
-```
-
-Specifies the shapes of our clickable area.
-```
-<area shape="rect"
-```
-
-Specifies the coordinates for our shape.
-```
-coords="10,50,82,126"
-```
-In this case a rectangle:
-  - left corner = `10`
-  - top corner = `50`
-  - right corner = `82`
-  - bottom corner = `126`
-
-
-Specifies the alternate information.
-```
-alt=""
-```
-
-Specifies the URL.
-```
-href="object1.htm">
-```
-
-Specifies the end tag.
-```
-</map>
-```
-
-Creates a relationship between the `<img>` and `<map>` elements.
-```
-usemap="#objects"
-```
-
-Specifies the link for the `<img>`, in this case an empty link.
-```
-src="#"
-```
-
-Specifies the alternate information.
-```
-alt="">
-```
-
-Usage:
-For instance, you have an image of a dog and a cat alongside each other. You want the portion of the picture with the dog to open one website and the other portion of the picture with the cat to open a different website. You would use the `<map>` attribute and it's `shape` properties to establish hyperlinks on desired parts of the image.
-
-
-**Note:**
- - **Both the start tag and end tags are required when using the `<map>` attribute.**
- - **When using `usemap`, the value in `usemap="#name"` has to be identical to your `map="name"` value.**
 
 ---
 ## Practice
@@ -192,14 +110,10 @@ When using the map element to create clickable areas within a single image, what
   src="#" alt="">
 ```
 
-+ rect
-+ circle
-+ poly
-- rectangle
-- polygon
-- square
-- triangle
-- oval
+* rect, circle, poly
+* rectangle, polygon, square
+* triangle, oval, square
+* rect, square, poly, oval
 
 ---
 ## Quiz

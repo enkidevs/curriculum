@@ -16,32 +16,25 @@ standards:
 tags:
   - workout
   - deep
-
+  
+links:
+  - '[CodePen: Table Colgroup](https://codepen.io/enkidevs/pen/bjWGNy){code}'
+  
 ---
 # Colgroup & col
 ---
 ## Content
 
-The HTML self-closing `<col>` element is used to define a column and the `<colgroup>` element is used to define a group of columns for an HTML table.
+Tables within HTML use the `<colgroup>` & `<col>` elements to help define groups of columns. The `<colgroup>` element is useful for applying styles to entire columns, rather than repeating styles for each cell in every row.
 
-The `<col>` element provides common semantics and is usually located within the `<colgroup>` element.
+However this is rarely useful because if you set the background of a row element or table cell element, that will always beat a background of a `<col>` element - regardless of specificity.
 
-The `<col>` element has one element-specific attribute; `span`. All other element specific attributes are obsolete since HTML5.
-
-The `span` attribute is used to specify how many columns does the `<col>` element extend. If the attribute is not provided, the default value is `1`.
-
-This element can also be used to define unique styles within columns.
+The `<col>` element has one element-specific attribute: `span`, and is used to specify how many columns the `<col>` element extends. If the attribute is not provided, the default value is `1`.
 
 You can edit the `<col>` element by using the appropriate CSS properties, for instance:
   - `width`
   - `text-align`
 
-As for the `<colgroup>` element, just like with the `<col>` element, all element-specific attributes except the `span` attribute are obsolete. Additionally, you shouldn't use the `span` attribute on the `<colgroup>` element if there are one or more `<col>` elements present within the `<colgroup>` element.
-
-The `<colgroup>` element is useful for applying styles to entire columns, rather than repeating styles for each cell in every row.
-
-**Note**  
-Both `<col>` and `<colgroup>` elements support global attributes. If you wish to know more about global attributes, visit the more info section at the bottom of this insights.
 
 Example with both elements:
 ```
@@ -64,6 +57,8 @@ Example with both elements:
   </tr>
 </table>
 ```
+
+<!--[View CodePen](https://codepen.io/enkidevs/pen/bjWGNy)-->
 
 In the example above, the `<colgroup>` element is used to create a group of 3 `<col>` elements and the `<tr>` element is used to create a single row with 6 `<td>` elements. Each col element spans differently and has a different style; first `<col>` spans 2 columns and is `lightblue`, 2nd `<col>` spans 1 column and is `hotpink` and the third and last `<col>` spans 3 columns and is `mediumpurple`.  
 

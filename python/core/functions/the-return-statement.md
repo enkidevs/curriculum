@@ -10,7 +10,8 @@ type: normal
 category: must-know
 
 inAlgoPool: false
-
+aspects:
+  - introduction
 
 standards:
   python.control-structures.4: 10
@@ -77,4 +78,3 @@ Python’s return statement exits a function and passes back an ??? to the funct
 * sum
 * instance
 * function instance
- 

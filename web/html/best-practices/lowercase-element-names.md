@@ -43,7 +43,7 @@ or
 
 ```
 
-Also, some developers don't use HTML5. Instead they use XHTML or XML which require stricter coding. So if you want other developers who don't use HTML to read your web page, it is best practice to write in lowercase.
+Many developers today are used to working with older versions of HTML, like XHTML, which required stricter coding and only lowercase tags. So if you are coding by yourself or others, you'll typically find it a best practice to write your HTML in lowercase.
 
 
 ---
@@ -57,4 +57,3 @@ For what reason is HTML encouraged to be written in lowercase?
 * Code doesn't work in Uppercase letters.
 * Lowercase letters take up less space.
 * It is not just encouraged, it is also mandatory.
-

@@ -8,10 +8,9 @@ insights:
   - intro-form
   - input-element
   - text-field
-  - text-field-2
   - text-area
   - submit-and-reset
- 
+
 exercises:
   - html-input-types-codepen-exercise
   - html-buttons-text-area-codepen-exercise

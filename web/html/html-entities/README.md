@@ -11,6 +11,6 @@ insights:
   - greater-and-less-than
   - copyright
   - ampersand
- 
+
 exercise:
   - html-entity-codepen-exercise

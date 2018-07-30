@@ -7,9 +7,6 @@ levels:
 
   - basic
 
-tags:
-
-  - introduction
 aspects:
   - introduction
 

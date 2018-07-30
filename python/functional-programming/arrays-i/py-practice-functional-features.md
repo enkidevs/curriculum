@@ -9,6 +9,11 @@ levels:
 
   - medium
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
 
 type: exercise
 category: good practice
@@ -23,6 +28,7 @@ linkType: codewars
 link: https://www.codewars.com/kata/stop-gninnips-my-sdrow
 standards:
     python.functional-programming-features.0: 3000
+    python.use-iteration-protocol.1: 10
 
 ---
 # Functional Features

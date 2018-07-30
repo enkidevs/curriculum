@@ -9,26 +9,25 @@ type: normal
 
 category: must-know
 
-standards:
-  web.layout-html.0: 10
+stub: true
 
 tags:
   - introduction
 
 links:
-  - '[Codepen Example](https://codepen.io/stefan-stojanovic/pen/zaEWdL){website}'
+  - '[Codepen: HR Element with Default Styles](https://codepen.io/enkidevs/pen/zayObZ){code}'
 
 ---
 # Intro hr
 ---
 ## Content
 
-The HTML `<hr>`, or **The Thematic Break element** is used to create a thematic break between a paragraph of elements. This break is usually represented as a horizontal line and the element itself is a self-closing element, meaning it has no ending tag.
+The HTML `<hr>`, or the **Thematic Break** element, is used to create a thematic break between a paragraph of elements. This break is usually represented as a horizontal line and the element itself is a self-closing element, meaning it has no ending tag.
 
-**Note: In HTML4.01 the `<hr>` element used to represent a horizontal rule, hence the name `hr`, nevertheless that was changed in HTML5 and now it represents a thematic break.**
+**Note:** In HTML4.01 the `<hr>` element used to represent a horizontal rule, hence the name `hr`, nevertheless that was changed in HTML5 and now it represents a thematic break.
 
-Example:
-```
+Thematic Break Example:
+```html
 <h3>Enki App</h3>
 <p>
   Enki provides daily workouts.
@@ -40,31 +39,18 @@ Example:
 <p>
   Build your skills and expertise
   with our personalized learning bot.
-  bot.enki.com
 </p>
 ```
 
-Result would look something like:
-```
-Enki App
-Enki provides daily workouts.
-___________________________________
+Thematic Break Result:
 
-EnkiBot
-Build your skills and expertise
-with our personalized learning bot.
-bot.enki.com
-```
+![hr-element](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%22208%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%22208%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Cpath%20stroke%3D%22%23979797%22%20stroke-linecap%3D%22square%22%20d%3D%22M24.5%2092.5h274%22%2F%3E%3Cpath%20stroke%3D%22%23EEE%22%20stroke-linecap%3D%22square%22%20d%3D%22M24.5%2093.5h274%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Arial-BoldMT%2C%20Arial%22%20font-size%3D%2218%22%20font-weight%3D%22bold%22%3E%3Ctspan%20x%3D%2222%22%20y%3D%2234%22%3EEnki%20App%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Arial-BoldMT%2C%20Arial%22%20font-size%3D%2218%22%20font-weight%3D%22bold%22%3E%3Ctspan%20x%3D%2222%22%20y%3D%22129%22%3EEnkiBot%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2223%22%20y%3D%22168%22%3EBuild%20your%20skills%20and%20expertise%20with%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2223%22%20y%3D%22185%22%3Eour%20personalized%20learning%20bot.%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2223%22%20y%3D%2272%22%3EEnki%20provides%20daily%20workouts.%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-The `<hr>` element provides important *semantic* meaning and should not be solely used to add a horizontal line. To add a horizontal line you should use the appropriate CSS property.
+Furthermore, the `<hr>` element provides important semantic meaning, such as a change of scenery or a shift of topic. It should not be solely used to add a horizontal line (even though that is possible). To add a horizontal line you should use the appropriate CSS property.
 
-This element is mostly used for a change of scenery or a shift of topic.
-
-This element supports global attributes.
-
-By default the `<hr>` element is represented with the following CSS properties:
-```  
-  hr {
+By default, the `<hr>` element is represented with the following CSS properties:
+```css  
+hr {
     display: block;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -74,6 +60,8 @@ By default the `<hr>` element is represented with the following CSS properties:
     border-width: 1px;
 }
 ```
+
+<!--[View CodePen](https://codepen.io/enkidevs/pen/zayObZ)-->
 
 ---
 ## Practice
@@ -93,7 +81,7 @@ Which of these CSS properties is not applied to the `<hr>` element by default?
 ---
 ## Revision
 
-The `<hr>` element was referred to as what in these different HTML versions? 
+The `<hr>` element was referred to as what in these different HTML versions?
 
 In HTML4: ???
 In HTML5: ???
@@ -101,8 +89,7 @@ In HTML5: ???
 * horizontal rule
 * thematic break
 * simple black bar
-* horizontal line 
-
+* horizontal line
 
 ---
 ## Quiz

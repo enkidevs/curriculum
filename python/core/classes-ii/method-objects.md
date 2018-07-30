@@ -11,7 +11,9 @@ type: normal
 
 category: tip
 
-
+aspects:
+  - introduction
+  - workout
 links:
 
   - '[docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#method-objects){website}'
@@ -119,5 +121,3 @@ x = test.???
 * `new`
 * `def`
 * `get`
- 
- 

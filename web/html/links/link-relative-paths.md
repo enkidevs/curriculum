@@ -20,7 +20,7 @@ links:
 ---
 ## Content
 
-In HTML, when you want to link files or pictures to your webpage from somewhere on the same server, it is best to use relative link paths.
+When wanting to link to other web pages or images from a web page located in the same file directory, it is best to use relative link paths.
 
 A relative path is used to point to a file or the location of the file you want to be linked in relation to the webpage being viewed. 
 
@@ -43,12 +43,12 @@ More example of how you can link with relative paths:
 
 Furthermore, using relative link paths to link files located within your server domain is much better and faster than using absolute(full URL) link paths. The reason for this is, when using relative paths, the browser knows to only look within the specified folder/file path. Whereas when using absolute paths, the browser would go to the linked file like it is located outside of the page, meaning it would load the webpage again just this time with the desired file which is inconvenient and time-consuming.
 
-Also, using relative link has a few more benefits:
+Also, using relative links has a few more benefits:
   - easier to move an entire site to a different domain
   - easy for local management
   - link paths do not need to be updated when the domain is changed.
  
-On the other hand, the downfall of using relative links is that your web pages are protected from others linking to them. 
+Relative links can never be used to link to pages or images located on other web servers. 
 
 ---
 ## Practice

@@ -10,9 +10,13 @@ levels:
   - medium
 
 type: normal
-
+aspects:
+  - introduction
+  - workout
+  - deep
 category: must-know
-
+standards:
+  python.use-iteration-protocol.1: 10
 
 links:
 
@@ -151,4 +155,3 @@ print(zip(dates, values))
 
 [2:Uneven length = loss of information]
 *Obviously, any information discarded in the initial `zip` step because of input iterables being of uneven length is not recovered when we unzip the result again; the information has already been discarded at the `zip` step.*
- 

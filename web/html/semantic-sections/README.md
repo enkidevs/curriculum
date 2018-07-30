@@ -10,7 +10,7 @@ insights:
   - article
   - aside
   - figure-and-figcaption
- 
+
 exercises:
   - html-semantics-1-codepen-exercise
   - html-semantics-2-codepen-exercise

@@ -12,7 +12,8 @@ levels:
 type: normal
 
 category: must-know
-
+aspects:
+  - introduction
 inAlgoPool: false
 
 standards:
@@ -89,4 +90,3 @@ newList.append(2)
 * `view`
 * `append`
 * `(0)`
- 

@@ -8,7 +8,8 @@ levels:
 type: normal
 
 category: feature
-
+aspects:
+  - introduction
 standards:
   python.standard-library-operating-system.0: 10
 
@@ -107,5 +108,3 @@ Which method returns the current position of the file pointer within a **file ob
 * `seek()`
 * `open()`
 * `readline()`
- 
- 

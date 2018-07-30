@@ -8,7 +8,9 @@ levels:
 type: normal
 
 category: must-know
-
+aspects:
+  - workout
+  - deep
 standards:
   python.store-manipulate-data.6: 10
 
@@ -91,7 +93,7 @@ b = 3
 * None is true.
 
 ---
-## Quiz 
+## Quiz
 ### what is the result of the following identity check?
 
 `> python -i`  
@@ -113,5 +115,3 @@ b = 3
 * True and True
 * False and True
 * False and False
- 
- 

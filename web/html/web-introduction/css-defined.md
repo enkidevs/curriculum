@@ -17,10 +17,9 @@ tags:
 ---
 ## Content
 
-`CSS` or **Cascading Style Sheets** is a `stylesheet` language used to describe the presentation of an HTML, XML or XHTML document. It is used to provide styling for text, images, & links. 
+`CSS` or **Cascading Style Sheets** is a `stylesheet` language used to describe the presentation of an HTML, XML, or XHTML document. It is used to provide styling for text, images, & links. 
 
-Basically, CSS is used for creating Responsive Layouts and Animations, Styling text and Positioning containers. 
-By applying CSS, you add a nice and more beautiful look and feel to your websites.
+Basically, CSS is used for creating responsive layouts, animations, styling text, and positioning containers. By applying CSS, you add a nice and more beautiful look and feel to your websites.
 
 On the other hand, CSS is not good for inserting media, creating links, doesn't allow math expressions and database storage.
 

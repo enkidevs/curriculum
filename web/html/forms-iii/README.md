@@ -11,7 +11,7 @@ insights:
   - min-and-max
   - type-password
   - pattern-regexp
- 
+
 exercises:
   - html-create-password-pattern-codepen-exercise
   - html-create-new-account-codepen-exercise

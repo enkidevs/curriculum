@@ -10,7 +10,9 @@ levels:
   - medium
 
 type: normal
-
+aspects:
+  - introduction
+  - workout
 category: must-know
 
 standards:
@@ -110,5 +112,3 @@ topsecret = Secret()
 - No, you can access the private variable via 'topsecret.__Secret.__supersecret'
 - No, you can access the private variable via 'topsecret._private__supersecret'
 - Yup, your secret is safe forever!
- 
- 

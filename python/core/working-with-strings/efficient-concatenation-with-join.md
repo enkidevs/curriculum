@@ -12,6 +12,9 @@ levels:
 type: normal
 
 category: tip
+aspects:
+  - introduction
+  - workout
 
 standards:
   python.standard-library-data.3: 10
@@ -97,5 +100,3 @@ l = "".join(l)
 * Enki
 * E n k i
 * E,n,k,i
- 
- 
