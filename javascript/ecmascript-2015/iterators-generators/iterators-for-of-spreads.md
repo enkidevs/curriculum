@@ -28,7 +28,7 @@ The goal is to fill in the gaps with either the output of the snippet or the mis
 ---
 ## Game Content
 
-```
+```javascript
 // How can we make a
 // noise with this iterator?
 
@@ -39,8 +39,8 @@ function* onomatopoeia() {
 }
 let noise = onomatopoeia();
 noise.???();
-
 ```
+
 * next
 * call
 * exec
@@ -53,7 +53,7 @@ Calling the `next()` function on `noise` will execute the function body until it
 
 ---
 
-```
+```javascript
 // Given:
 
 var greeting = "hi";
@@ -64,6 +64,7 @@ iterator.next();
 // returns ???
 
 ```
+
 * { value: "h", done: false }
 * ["h", false]
 * { value: "h", done: true }
@@ -78,7 +79,7 @@ While calling `greeting[Symbol.iterator]()`, the `"hi"` string is converted to a
 
 ---
 
-```
+```javascript
 let arr = ['dragon', 'wizard',
   'monkey'];
 
@@ -88,6 +89,7 @@ for (let i of arr) {
 }
 
 ```
+
 * 'dragon', 'wizard', 'monkey'
 * 0, 1, 2
 * 1, 2, 3
@@ -100,11 +102,12 @@ Therefore, `'dragon'`, `'wizard'` and `'monkey'` will be printed one by one.
 
 ---
 
-```
+```javascript
 // How can we get this to be '1 2 3 4 5'
 
 console.log(1, ???[2, 3, 4], 5)
 ```
+
 * ...
 * concat
 * map
@@ -115,14 +118,14 @@ We can use the spread operator (`...`) to copy the contents of the `[2, 3, 4]` a
 
 ---
 
-```
+```javascript
 let fish = ['Tuna', 'Trout'];
 let whales = ['Blue Whale', ...fish,
 'Orca'];
 
 // whales = ???
-
 ```
+
 * ['Blue Whale', 'Tuna', 'Trout', 'Orca']
 * ReferenceError '... is not defined'
 * TypeError 'Array has no method ...'
@@ -130,4 +133,3 @@ let whales = ['Blue Whale', ...fish,
 %exp
 When constructing the `whales` array, we make use of the spread operator (`...`) which will copy the contents of the `fish` array and insert them starting at index `1` (where the operator was used). Sequentially, the `"Orca"` element is appended.
 %
- 

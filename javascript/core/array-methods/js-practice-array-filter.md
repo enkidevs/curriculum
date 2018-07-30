@@ -19,8 +19,8 @@ standards:
 
 links:
 
-  - '[MDN - Array class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)'
-  - '[MDN - Array.filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)'
+  - '[MDN - Array class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array){documentation}'
+  - '[MDN - Array.filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter){documentation}'
 ---
 
 # JS Practice Array `filter`

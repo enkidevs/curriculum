@@ -10,7 +10,9 @@ type: normal
 category: must-know
 
 inAlgoPool: false
-
+aspects:
+  - introduction
+  - workout
 standards:
   python.standard-library-data.5: 10
   python.standard-library-data.3: 10
@@ -89,5 +91,3 @@ words = str.???(' ')
 * `split`
 * `divide`
 * `new`
- 
- 

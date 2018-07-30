@@ -10,7 +10,8 @@ levels:
   - beginner
 
 type: normal
-
+aspects:
+  - introduction
 category: must-know
 
 inAlgoPool: false
@@ -80,4 +81,3 @@ Python 3: ???
 * `print ('Hello world!')`
 * `write 'Hello world!'`
 * `write ('Hello world!')`
- 

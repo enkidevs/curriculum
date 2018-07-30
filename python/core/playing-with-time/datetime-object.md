@@ -12,7 +12,9 @@ type: normal
 category: feature
 
 inAlgoPool: false
-
+aspects:
+  - introduction
+  - workout
 
 links:
 
@@ -100,7 +102,7 @@ else:
 ```
 
 * date_one
-* > 
+* >
 * date_two
 * <
 * Equals()
@@ -157,5 +159,3 @@ Here are few special date formatting characters supported by the method:
 - `%S`: second (e.g `57`)
 
 The full list is actually the one implemented by **C standard** (1989 version)
- 
- 

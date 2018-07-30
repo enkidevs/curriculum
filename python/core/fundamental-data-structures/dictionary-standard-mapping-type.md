@@ -11,6 +11,8 @@ levels:
   - basic
 
 type: normal
+aspects:
+  - introduction
 
 category: must-know
 

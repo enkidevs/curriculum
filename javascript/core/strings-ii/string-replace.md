@@ -63,7 +63,8 @@ testString = testString.replace(/ /g,"%20");
 ---
 ## Practice
 
-Complete the following code snippet:
+Complete the following code snippet to replace `+` with `%2B`:
+
 ```javascript
 var s = 'x+y+z=w';
 s=s.replace(???,'%2B');
@@ -82,6 +83,7 @@ console.log(s); // x%2By%2Bz=w
 
 
 * String.replace()
+* String.map()
 * String.change()
 * String.delete()
 

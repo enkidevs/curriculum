@@ -10,7 +10,11 @@ levels:
 type: normal
 
 category: must-know
+standards:
 
+    python.use-comprehensions.0: 1000
+    python.use-comprehensions.4: 3000
+    python.use-comprehensions.5: 3000
 
 links:
 
@@ -91,4 +95,3 @@ odd_set = {x for x in l if x % 2}
 * {1,3,5,9}
 * {1,2,3,4,5,8,9}
 * {2,4,8}
- 
