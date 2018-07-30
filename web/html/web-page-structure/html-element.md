@@ -18,6 +18,7 @@ aspects:
   - introduction
 
 links:
+  - '[CodePen :root selector](https://codepen.io/enkidevs/pen/zLqrRE){code}'
   - '[MDN docs for html](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html){website}'
 
 ---
@@ -25,9 +26,11 @@ links:
 ---
 ## Content
 
-The HTML `<html>`, or, **The HTML Document/Root Element** is used to represent the root of an HTML document.
+The HTML `<html>` element is the root (top-level element) of an HTML document and is the primary container for all of the other elements in the documents, which are they descendants of this one element. 
 
-The `<html>` element is called the `root` element because it has to be on the top of a document. Also, it is the single HTML element that contains every other HTML element. This means all other elements have to be descendants of the `<html>` element.
+Within every `<html>` element are two primary elements:
+* `<head>`: Data useful for the page.
+* `<body>`: The content of the page itself.
 
 Example:
 ```
@@ -38,18 +41,23 @@ Example:
 </html>
 ```
 
-Adding the `lang` attribute with a valid language tag is very important for helping screen readers determine the proper language. Also, the `lang` attributes value should describe a language which is used in the majority of the content of the page. On the other hand, if you do not include the `lang` attribute, screen readers will use the operating system's set language, which is not good, because it can cause mispronunciations.
+The `lang` attribute is useful for helping both search engines and screen readers determine the proper language of the text on the page. When the `lang` attribute is not included, screen readers will use the operating system's set language, which isn't always the best because it may not provide the proper accents and pronunciation.
 
-Furthermore, if you include a valid `lang` in the `<html>` element, you ensure all metadata will be announced properly.
+The `<html>` element is easily modifiable with CSS by using either the `html` or the `:root` selector. They selectors are identical, except that the `:root` selector's specificity is higher (meaning it will override `html`).
 
-Also, the `<html>` element is easily modifiable with CSS by using the `:root` selector.
 For instance, by adding the CSS:
 ```
 :root {
     background: #ff0000;
 }
+html {
+    background: #0000ff;
+}
+
 ```
-we change the background color of the whole html page into red.
+<!--[View CodePen](https://codepen.io/enkidevs/pen/zLqrRE)-->
+
+we change the background color of the `:root` to red, and even though the `html` has been set to blue, the `:root` style overrides it. 
 
 ---
 ## Practice

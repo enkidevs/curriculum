@@ -1,14 +1,17 @@
-name: Links
+name: Lists
 
 type: insights-list
 
-description: All about links in HTML
+description: TODO
 
 section: 0
+
+parent: 
 
 insights:
   - link-relative-paths
   - link-absolute-paths
   - link-target
+  - image-link
   - link-mailto
   - link-download

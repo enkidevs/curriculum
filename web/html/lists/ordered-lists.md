@@ -13,7 +13,10 @@ tags:
   - introduction
 
 links:
-  - '[MDN docs for ordered lists]](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol){website}'
+  - '[CodePen: Ordered Lists](https://codepen.io/enkidevs/pen/QBvLQo){code}'
+  - '[CodePen: Ordered Lists Roman Numerals](https://codepen.io/enkidevs/pen/ajWoYZ){code}'
+  - '[CodePen: Nested](https://codepen.io/enkidevs/pen/BPRBrO){code}'
+  - '[MDN docs for ordered lists](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol){website}'
   - '[CSS list style type Property](https://www.w3schools.com/cssref/pr_list-style-type.asp){website}'
   
 ---
@@ -21,17 +24,28 @@ links:
 ---
 ## Content
 
-The HTML `<ol>`, or **The Ordered List element** is used to represent an ordered list of items. This is a list of items. This list is displayed as a block element usually rendered with preceding numbering; these can be numerals, letters, Roman numerals or even bullets. The items in the `<ol>` elements list are represented with the `<li>` element. Also, by default, each item in the list is indented with a 40px padding to the left.
+The HTML `<ol>`, or the **Ordered List** element is used to represent an ordered list of items. 
 
-The `<ol>` element has 4 attributes:
-  - `compact`
+<ol>
+  <li>Do this first.</li>
+  <li>This second.</li>
+  <li>And this last.</li>
+</ol>
+
+![list-ol](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2288%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2288%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2217%22%20y%3D%2232%22%3E%201.%20Do%20this%20first.%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%2249%22%3E%202.%20This%20second.%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%2266%22%3E%203.%20And%20this%20last.%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+
+<!--[View CodePen](https://codepen.io/enkidevs/pen/QBvLQo)-->
+
+Ordered lists are displayed as a block element and typically display with preceding numbering; these can be numerals, letters, Roman numerals or even bullets. 
+
+The items within the `<ol>` elements list are represented with the `<li>` element. Also, by default, each item in the list is indented with a 40px padding to the left.
+
+The `<ol>` element has 3 attributes:
+  - `type`
   - `reversed`
   - `start`
-  - `type`
-  
-The `reversed` attribute is of type boolean and is used to specify that the items in the list are in the reversed order.
 
-The `start` attribute was deprecated in HTML4 but reintroduced back in HTML5. This attribute is used to specify which number/value the list starts counting. Even if your numbering type is set to letters or anything else different than a number you still have to set the value in numbers: `<ol start="5">`.
+**Type**
 
 The `type` attribute is used to specify a numbering type for the entire list:
   - `a` specifies lowercase letters
@@ -49,82 +63,47 @@ Example with uppercase Roman numerals type:
 </ol>
 ```
 Result:
-```
- I. First
- II. Second
- III. Third
-```
-The `compact` attribute is deprecated and for achieving the same effect you should use CSS styling.
 
-Some CSS styling for the `<ol>` list element: 
-  - style="list-style-type:upper-roman"
-  - style="list-style-type:lower-alpha"
-  - style="list-style-type:decimal"
-  - style="list-style-type:none"
-  - more CSS styles in the 'more info' section of this insight
-  
- 
-Example of a simple list:
-```
-<ol>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-  ...
-  <li>Item N</li>
-</ol>
-```
-Result:
-```
-  1. Item 1
-  2. Item 2
-  3. Item 3
-```
+![list-roman](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2288%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2288%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2217%22%20y%3D%2232%22%3E%20I.%20First%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%2249%22%3E%20II.%20Second%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%2266%22%3E%20III.%20Third%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+
+<!--[View CodePen](https://codepen.io/enkidevs/pen/ajWoYZ)-->
+
+**Reversed**
+
+The `reversed` attribute is of type boolean and is used to specify that the items in the list are in the reversed order (3,2,1, or c,b,a).
+
+**Start**
+
+The `start` attribute was deprecated in HTML4 but reintroduced back in HTML5. This attribute is used to specify which number/value the list starts counting. No matter what numbering type is used, the starting value must be set as a number. `<ol start="3">` could be used to start the numbering at `3`, `c`, or even `III`.
+
 
 Additionally, the `<ol>` element can be nested with itself any number of times. When nested, each list section displays starting from either 1 or whatever the `start` attributes value is. Additionally, you can add a different style for each `<ol>` section in the nested list.
 
 
-Example of a nested list(Some tags have an explanation):
+Example of a nested list:
 ```
-<ol> Start First list
+<ol> 
   <li>Item A</li>
   <li>Item B     
-    <ol> Start sublist for item B
+    <ol>
       <li>Item B1</li>
       <li>Item B2</li> 
       <li>Item B3</li>
-    </ol> Finish B sublist
-  </li> Finish B item
+    </ol> 
+  </li>
   <li>Item C</li>
 </ol>
 ```
+
+![list-ol-nested](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%22139%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%22139%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2217%22%20y%3D%2232%22%3E%201.%20Item%20A%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%2249%22%3E%202.%20Item%20B%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%2266%22%3E%201.%20Item%20B1%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%2283%22%3E%202.%20Item%20B2%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%22100%22%3E%203.%20Item%20B3%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%22117%22%3E%203.%20Item%20C%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+
+<!--[View CodePen](https://codepen.io/enkidevs/pen/BPRBrO)-->
+
 **Note:**
-	- The closing `</li>` tag for `Item B` is placed after all the sub-items/lists for that item are listed which is right before the start of the third item(`Item C`) in the first list.
+	- The closing `</li>` tag for `Item B` must wrap around the entire nested list.  
 
-The result of the above list with the notes:
-```
-  Start list
-  1. Item A
-  2. Item B
-      Start sublist for item B
-      1. Item B1
-      2. Item B2
-      3. Item B3
-    Finish B sublist
-    Finish B item
-  3. Item C
-```
-The same result, this time how it looks without notes:
-```
-  1. Item A
-  2. Item B
-      1. Item B1
-      2. Item B2       
-      3. Item B3
-  3. Item C
-```
-
-This element is best used for something like:
+**Best Uses:** 
+Ordered lists are best used for:
   - Steps for cooking in a recipe
   - Directions to the Apple store
   - Instruction manual

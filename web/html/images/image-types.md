@@ -20,9 +20,9 @@ aspects:
 ---
 ## Content
 
-When using images in your web page or document, whether it's for a logo, an animation, or other, it is important to know which web image formats to use.
+When using images in your web page or document, whether it's for a logo, product photographs, etc, it is important to know which web image formats to use.
 
-These formats are divided into 2 categories:
+Image formats are divided into 2 categories:
 - **Raster images**
   - JPG/JPEG
   - GIF
@@ -30,30 +30,28 @@ These formats are divided into 2 categories:
 
 - **Vector images**
    - SVG
+   
+##### --> image-types.svg
+   
+**Raster images**
 
-Raster images consist of a two-dimensional grid of pixels. They do not scale well. If you enlarge or zoom in on a raster image, the quality will decline, and it will look pixelated. Using these images is good for creating photographs or other information-dense images.
+Raster images consist of a two-dimensional grid of pixels. They do not scale well. If you enlarge or zoom in on a raster image, the quality will decline, and it will look pixelated. Using these images are necessary for creating photographs or other information-dense images. Each raster format compresses the image differently resulting in smaller file sizes.
 
-Each format is used for different things.
+**JPEG/JPG:** Best for photography and supports millions of colors with the best image compresses, although unseen data is removed from the image during compression making images blur if later they are enlarged. 
 
-The JPEG/JPG format has millions of colors and is used for still images or photography.
+**GIF:** Best for graphics with flat colors and no gradients since they only support a maximum of 256 colors. Simple  animations made by displaying a sequence of still shots is only possible with GIFs.
 
-The GIF format has a maximum of 256 colors and is used for simple animations, graphics with flat colors or graphics without gradients.
+**PNG:** The key factor is data is lost during compression making it perfect when working with images that need re-editing and re-exporting. They also support transparency and animation.
 
-The PNG divides into two categories.
-  - PNG 8
-  - PNG 24
+There are two categories of PNG images that help keep file sizes down depending on the number of colors available.
+  - PNG 8: limited with a maximum of 256 colors.
+  - PNG 24: unlimited colors.
 
-The PNG 8 format is similar to GIF. It has a maximum of 256 colors, it has better transparency, but no animation. It's good for icons.
+**Vector images**
 
-The PNG 24 is similar to PNG 8, except it has unlimited colors and better transparency. Used when transparency is required or when an image needs re-editing and re-exporting.
+Vector images are made of thin lines, curves, and shapes, stored in mathematical drawing instructions. No matter how much you zoom in or rescale your image, the clear resolution stays the same.
 
-Vector images are made of thin lines, curves, and shapes, stored in mathematical drawing instructions. Any line or curve can be assigned a different color. Because of this formulaic approach to drawing, no matter how much you zoom in or rescale your image, the resolution stays the same.
-
-SVG format creates images that are very smooth and should be used when creating a logo, an icon, or any other simple image pattern. Also, they are good for displaying an image onto multiple screen sizes.
-
-The SVG image format has unlimited colors and supports transparency.
-
-Graphics that are created in the SVG format are defined by XML. Also, SVG images can be directly inserted into an HTML page as code without being linked to a standalone image file.
+**SVG:** Has unlimited colors and supports transparency and are best to use when creating a logo, an icon, or any other simple image pattern that may be displayed as multiple screen sizes. Also, SVG images can be directly inserted into an HTML page as code(since they are defined using XML) without being linked to a standalone image file.
 
 **Note: All image formats are animatable by CSS**
 

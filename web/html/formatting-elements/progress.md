@@ -15,6 +15,7 @@ tags:
   - deep
 
 links:
+  - '[CodePen: Progress Element](https://codepen.io/enkidevs/pen/eKbYJv){code}'
   - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
   
 ---
@@ -22,10 +23,10 @@ links:
 ---
 ## Content
 
-The HTML `<progress>`, or **The Progress Indicator element** is used to display a progress bar.
+The HTML `<progress>`, or the **Progress Indicator** element, is used to display a progress bar.
 
 Example:
-```
+```html
 <progress 
   value="25" 
   max="100">
@@ -33,24 +34,24 @@ Example:
 </progress>
 ```
 
-The progress bar's visual representation is different for different browsers and operating systems. 
+![progress-element](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2246%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2246%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Cpath%20fill%3D%22%23EDEDED%22%20stroke%3D%22%23CFCFCF%22%20d%3D%22M52.5%2020.5v5H169c1.38071%200%202.5-1.11929%202.5-2.5s-1.11929-2.5-2.5-2.5H52.5z%22%2F%3E%3Cpath%20fill%3D%22%233B99FC%22%20stroke%3D%22%233385DB%22%20d%3D%22M52.5%2025.5v-5H17c-1.38071%200-2.5%201.11929-2.5%202.5s1.11929%202.5%202.5%202.5h35.5z%22%2F%3E%3Cpath%20stroke%3D%22%233B99FC%22%20stroke-linecap%3D%22square%22%20d%3D%22M52.5%2021.5v3%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+
+<!--[View CodePen](https://codepen.io/enkidevs/pen/eKbYJv)-->
 
 The `<progress>` element has 2 element-specific attributes:
   1. `max`
   2. `value`
   
-The `max` attribute is used to indicate the total work that the progress bars task requires. If the `max` attribute is not present, the default value is set to 1. On the other hand, if you add the `max` attribute, its value has to be 1 or above and a be valid floating point number.
+The `max` attribute is used to indicate the total work that the progress bars task requires. If the `max` attribute is not present, the default value is set to 1. On the other hand, if you add the `max` attribute, its value has to be 1 or above and be a valid floating point number.
 
 The `value` attribute is used to specify the amount of work that's been completed. The value of the `value` attribute has to either be between 0 and 1 or if `max` is specified, between 0 and `max`. On the other hand, if you don't add the `value` attribute, the amount of work needed to be done is unknown.
-
-The `<progress>` element also supports global attributes. To learn more about global attributes, visit the `more info` section at the bottom of this insight.
 
 ---
 ## Practice
 
 Create a progress element that displays the file size percentage downloaded at a given time. 
 
-```
+```html
 <progress ???="25"
   ???="100">25%
 </progress>

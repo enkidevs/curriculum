@@ -15,6 +15,8 @@ tags:
   - introduction
   
 links:
+  - '[CodePen: Element br](https://codepen.io/enkidevs/pen/XBpmqB){code}'
+  - '[CodePen: Element br (2)](https://codepen.io/enkidevs/pen/EpZVRO){code}'
   - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
 
 ---
@@ -22,35 +24,26 @@ links:
 ---
 ## Content
 
-The `<br>`, or **The Line Break element** is used to create a line break in a webpage or document. Line breaks can be very useful for writing poems or an address.
+The `<br>`, or the **Line Break** element, is used to create a line break in a webpage or document. Line breaks can be very useful for writing poems or an address.
 
-
-Example 1:
 ```
 Some Text<br>Some Text<br>bla bla
-````
-The result would be like this:
 ```
-Some Text
-Some Text
-bla bla
-```
+
+![element-br](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2294%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2294%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2234%22%3ESome%20Text%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2220%22%20y%3D%2253%22%3ESome%20Text%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2220%22%20y%3D%2272%22%3Ebla%20bla%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+
+<!--[View CodePen](https://codepen.io/enkidevs/pen/XBpmqB)-->
 
 **Notes:**
-  1) **This element doesn't have a closing tag.**
-  2) **Line breaks should never be used to separate paragraphs**
-  3) **Line breaks should never be used to create larger gaps between lines of text.**
-
-3.1) **This is especially important for users who use screen reading technology. Screen readers may read the elements but not the content in between those elements.**
+  1) This element doesn't have a closing tag.
+  2) Line breaks should never be used to separate paragraphs.
+  3) Line breaks should never be used to create larger gaps between lines of text.
   
-Additionally, if you do want larger gaps you should apply the `margin` CSS property to a paragraph(`<p>`) element and set the paragraph's line-height and set line break's line-height.
+When larger visual gaps are needed around blocks of text, the `margin` CSS property should be used (such as `margin-bottom: 24px;`). 
 
+Historical, in XHTML the line breaks are written as `<br />` which is important to know if you want to convert your HTML to XHTML or when reading various tutorials.
 
-Also, in XHTML the line breaks are written as `<br />` which is important to know if you want to convert your HTML to XHTML.
-
-Furthermore, this element may not have any element-specific attributes, but it does support all global attributes. More on global attributes in the `more info` section at the bottom of this insight.
-
-Example 2:
+Address Example:
 ```
 <p>
 Apple<br>
@@ -59,14 +52,11 @@ Cupertino, CA<br>
 95014
 </p>
 ```
-Result:
-```
-Apple
-1 Infinite Loop
-Cupertino, CA
-95014
-```
+Address Result:
 
+![element-br-2](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%22115%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%22115%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2234%22%3EApple%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2220%22%20y%3D%2253%22%3E1%20Infinite%20Loop%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2220%22%20y%3D%2272%22%3ECupertino%2C%20CA%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2220%22%20y%3D%2291%22%3E95014%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+
+<!--[View CodePen](https://codepen.io/enkidevs/pen/EpZVRO)-->
 
 ---
 ## Practice

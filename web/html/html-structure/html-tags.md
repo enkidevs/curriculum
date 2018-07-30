@@ -21,30 +21,31 @@ aspects:
 ---
 ## Content
 
-In HTML everything is written in tags.
-There is a start tag and an end tag and they differ by 1 character: "`/`".
+In HTML everything is written in tags. There is a start tag and an end tag and they differ by 1 character: "`/`".
 
-Tags are written as:
+Elements are written with tags:
 ```
-Start tag- <tag name>
-End tag- </tag name>
+Start tag: <element-name>
+End tag: </element-name>
 ```
 
-Some tags:
+Common elements:
 - `<html>` (Defines an HTML document)
 - `<body>` (Documents body)
-- `<p>` (Paragraph)
-- `<br>` (Single line break)
-- `<!--Comment-->` (Inserts a comment)
-- `<!DOCTYPE>`
+- `<p>` (Paragraph Text)
+- `<h1>` (Heading Text)
 
 
-In HTML5 only the `<!DOCTYPE>` tag is written in all caps.
-Other tags are not case sensitive. However, they are usually written in lowercase.
-This is because there is a wide range of developers who do not use HTML5, but rather XHTML. Because of that, they were influenced to write tags in lowercase so their HTML can be read by both markup languages.
+Tags are not case sensitive. However, they are usually written in lowercase. This is because there is a wide range of developers who do not use HTML5, but rather XHTML. Because of that, they were influenced to write tags in lowercase so their HTML can be read by both markup languages.
 
-Also, there are elements which have no ending tag. These are called self closing.
+Also, there are elements which have no ending tag and are only written with a single opening tag. These are called self-closing tags and there are only a few of them. 
 
+Most common self-closing elements:
+- `<img>` (Inserts an image)
+- `<br>` (Defines a line break)
+- `<hr>` (Commonly referred to as horizonal rule)
+
+The first line of every HTML document starts with the `<!DOCTYPE>`, which isn't an HTML element, but a definition for the browser to identify that the code is written in HTML5. This is the only HTML/CSS code that is commonly written in all caps.
 
 ---
 ## Practice

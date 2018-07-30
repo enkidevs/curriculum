@@ -22,125 +22,49 @@ aspects:
   - deep
 
 links:
+  - '[CodePen: Simple Keyboard Input and Sample Example](https://codepen.io/enkidevs/pen/NBjJNV){code}'
+  - '[CodePen: Styled kbd Element](https://codepen.io/enkidevs/pen/pKxKGE){code}'
   - '[MDN Docs for kbd](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd){website}'
-  - '[Code Sample](https://codepen.io/lizthedeveloper/pen/NMNeoj){code}'
 
 ---
 # kbd - Keyboard Input Element
 ---
 ## Content
 
-In HTML the `<kbd>` element is used to represent user input. This can be via a keyboard, voice commands or any other textual input.
-
-**Note:**
-  - **kbd stands for Keyboard Input Element.**
-  - **Both the starting and ending tags are necessary.**
+The HTML `<kbd>`, or the **Keyboard Input** element, is used to represent user input, such as keys on a keyboard, voice commands, or any other textual input.
 
 Example:
-```
+```html
 <p>
   Press the button
-  <kbd>play again</kbd>
+  <kbd>Y</kbd> key
   to continue playing.
 </p>
 ```
 
-Result:<br>
-Press the button <kbd>play again</kbd> to continue playing.
+Keyboard Input Result:
 
-In the example above, the `<kbd>` element is used to produce an inline element representing user input.
+![kbd-element](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2292%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2292%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22LucidaGrande%2C%20Lucida%20Grande%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2218%22%20y%3D%2232%22%3EOn%20a%20Mac%2C%20use%20the%20keys%3A%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2218%22%20y%3D%2250%22%3E%E2%8C%98%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2234%22%20y%3D%2250%22%20font-family%3D%22Courier%22%3E%20cmd%20%2B%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%22101.21094%22%20y%3D%2250%22%3E%E2%87%A7%3C%2Ftspan%3E%20%3Ctspan%20x%3D%22117.21094%22%20y%3D%2250%22%20font-family%3D%22Courier%22%3E%20shift%20%2B%204%3C%2Ftspan%3E%20%3Ctspan%20x%3D%22213.22656%22%20y%3D%2250%22%20font-family%3D%22ArialMT%2C%20Arial%22%3E%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2218%22%20y%3D%2269%22%20font-family%3D%22ArialMT%2C%20Arial%22%3Eto%20take%20a%20screenshot%20of%20a%20selected%20area.%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
 The default font style for the `<kbd>` element for most browsers is the monospace font.
 
-You can nest the `<kbd>` element either with itself or a different element for different representations.
+By adding CSS styles, the `<kbd>` element can be used to present the user input in much better ways. 
 
-Example 1:
-```
-<p>
-  <kbd>
-    Copy the document by pressing the
-    <kbd>Ctrl</kbd> +
-    <kbd>C</kbd>`
-    keyboard shortcut.
-  </kbd>
-</p>
-```
-Result:<br>
-<kbd>
-  Copy the document by pressing the
-  <kbd>Ctrl</kbd> + <kbd>C</kbd>
-  keyboard shortcut.
-</kbd>
+![kbd-element-styled](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2292%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2292%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Crect%20width%3D%2265%22%20height%3D%2221%22%20x%3D%2219%22%20y%3D%2238%22%20fill%3D%22%23000%22%20rx%3D%222%22%2F%3E%3Crect%20width%3D%2283%22%20height%3D%2221%22%20x%3D%22107%22%20y%3D%2238%22%20fill%3D%22%23000%22%20rx%3D%222%22%2F%3E%3Crect%20width%3D%2223%22%20height%3D%2221%22%20x%3D%22207%22%20y%3D%2238%22%20fill%3D%22%23000%22%20rx%3D%222%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22LucidaGrande%2C%20Lucida%20Grande%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2218%22%20y%3D%2230%22%3EOn%20a%20Mac%2C%20use%20the%20keys%3A%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2218%22%20y%3D%2252%22%3E%20%3C%2Ftspan%3E%20%20%3Ctspan%20x%3D%2218%22%20y%3D%2274%22%20font-family%3D%22ArialMT%2C%20Arial%22%3Eto%20take%20a%20screenshot%20of%20a%20selected%20area.%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22LucidaGrande%2C%20Lucida%20Grande%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2289%22%20y%3D%2252%22%3E%2B%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22LucidaGrande%2C%20Lucida%20Grande%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%22192%22%20y%3D%2252%22%3E%2B%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23FFF%22%20font-family%3D%22LucidaGrande%2C%20Lucida%20Grande%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%22111%22%20y%3D%2254%22%3E%E2%87%A7%3C%2Ftspan%3E%20%3Ctspan%20x%3D%22127%22%20y%3D%2254%22%20font-family%3D%22Courier%22%3E%20shift%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23FFF%22%20font-family%3D%22LucidaGrande%2C%20Lucida%20Grande%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2224%22%20y%3D%2254%22%3E%E2%8C%98%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2240%22%20y%3D%2254%22%20font-family%3D%22Courier%22%3E%20cmd%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23FFF%22%20font-family%3D%22Courier%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%22214%22%20y%3D%2254%22%3E4%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-Example 2:
-```
-<p>
-  To paste, press the
-   <samp>
-    <kbd>Ctrl</kbd> +
-   </samp>
-   <samp>
-    <kbd>V</kbd>
-   </samp>
-  keyboard shortcut.
-</p>
-```
-Result:<br>
-<p>
-  To paste, press the
-   <samp>
-    <kbd>Ctrl</kbd> +
-   </samp>
-   <samp>
-    <kbd>V</kbd>
-   </samp>
-  keyboard shortcut.
-</p>
-
-Example 3:
-```
-<p>
-  If you wish to undo, press the
-   <kbd>
-    <samp>Ctrl</samp> +
-   </kbd>
-   <kbd>
-    <samp>Z</samp>
-   </kbd>
-  keyboard shortcut.
-</p>
-```
-Result:<br>
-<p>
-  If you wish to undo, press
-   <kbd>
-    <samp>Ctrl</samp> +
-   </kbd>
-   <kbd>
-    <samp>Z</samp>
-   </kbd>
-  keyboard shortcut.
-</p>
-
-In the first example, we have two `<kbd>` elements nested inside another `<kbd>` element. Nesting `<kbd>` with itself represents a key or a keystroke.
-
-In the second example, we have the `<kbd>` element nested inside the `<samp>` element. When nesting inside `<samp>`, it represents input echoed by the system.
-
-And in the third example, we have a `<samp>` element nested inside a `<kbd>` element. This represents input based on system output. Like a menu item.
+<!--[View CodePen](https://codepen.io/enkidevs/pen/pKxKGE)-->
 
 ---
 ## Practice
 
-When using the `<kbd>` element, which statement is not true?
+When using the `<kbd>` element, which statement is true?
 
 ???
 
-* represents preformatted text
 * represents user input
-* displayed in the browser's default monospace font
-* when nested inside `<samp>`, represents input echoed by the system.
-* when containing `<samp>`, represents input based on system output.
-
+* produces a block element
+* represents preformatted text
+* represents sample output
 
 ---
 ## Revision

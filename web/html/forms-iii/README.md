@@ -11,4 +11,3 @@ insights:
   - min-and-max
   - type-password
   - pattern-regexp
- 

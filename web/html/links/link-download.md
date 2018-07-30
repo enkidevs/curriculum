@@ -20,49 +20,35 @@ links:
 ---
 ## Content
 
-In HTML, you can create a text link which when clicked downloads either a web or a non-web file or image.
+When links connect to web files or images, the page will navigate to that content and display accordingly. But when non-web files or images are linked, those files will be downloaded to the user's computer.  
+ 
+Example of a non-web download link:
+```
+<a href="enki.zip">
+Download Zip
+</a>
+```
+Result:
+
+![link-download-zip](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2254%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2254%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%230001EE%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2233%22%3EDownload%20Zip%3C%2Ftspan%3E%3C%2Ftext%3E%3Cpath%20stroke%3D%22%230001EE%22%20stroke-linecap%3D%22square%22%20d%3D%22M20.5%2034.5h97%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+
+When web files and images are meant to be downloaded by the user, then the download attribute can be used to force that content to download just like a non-web file or image. 
 
 Example of a web download link:
 ```
 <a 
-  href="somefile.docx" 
-  download=""> 
-Download file here 
+  href="summary.html" 
+  download="Today's%20Summary"> 
+Download Web File 
 </a>
 ```
 Result:
-```
-Download file here
-```
 
-Example of a non-web download link:
-```
-<a 
-  href="enki.zip">
-Download File
-</a>
-```
-Result:
-```
-Download File
-```
+![link-download-web](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2254%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2254%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%230001EE%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2233%22%3EDownload%20Web%20File%3C%2Ftspan%3E%3C%2Ftext%3E%3Cpath%20stroke%3D%22%230001EE%22%20stroke-linecap%3D%22square%22%20d%3D%22M20.5%2034.5h137%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-Furthermore, if for instance, your file is named `123z12zv824.docx` on your server, but you want it downloaded under a different name like `enki-app.docx`, you can do that easily by adding a value in the quotations after the `download=""` attribute.
+When the download attribute has a value, it will rename the downloaded file. This can be useful when your file is named `123z12zv824.docx` on your server, but you want it downloaded with something more friendly like `Enki%20Notes.docx`. Keep in mind that `%20` needs to replace any spaces in the filename.
 
-Same web file example only this time the file is renamed to `enki-app.docx`:
-```
-<a 
-  href="123z12zv824.docx" 
-  download="enki-app.docx"> 
-Download file here 
-</a>
-```
-Result:
-```
-Download file here
-```
-
-Although you renamed the file to `enki-app.docx`, the user can still choose to rename it differently.
+When the value within the download attribute is empty (like `download="">`, then the downloaded file will retain it's original filename. Of course, since the file will be a local file for the user, they can always rename that file as they wish, too. 
 
 ---
 ## Practice

@@ -18,10 +18,6 @@ tags:
   - workout
   - deep
 
-aspects:
-  - workout
-  - deep
-
 ---
 # Robots
 ---
@@ -67,7 +63,7 @@ The `nodp` value is used to prevent the use of the `Open Directory Project` desc
 
 Write the meta tag that tells search engines not to index you webpage.
 
-`<??? ????="???" ????="???, ???">`
+`<??? ???="???" ???="???, ???">`
 
 * meta
 * name
@@ -105,5 +101,3 @@ What is the default value of the robots meta tag?
 * `<meta name="robots" content="noindex, follow">`
 * `<meta name="robots" content="index, nofollow">`
 * `<meta name="robots" content="noindex, nofollow">`
- 
- 

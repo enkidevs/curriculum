@@ -21,6 +21,7 @@ aspects:
   - deep
 
 links:
+  - '[CodePen: Main Element](https://codepen.io/enkidevs/pen/QBEyxw){code}'
   - '[MDN docs for main](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main){website}'
   - '[W3S docs for main](https://www.w3schools.com/tags/tag_main.asp){website}'
 
@@ -29,17 +30,24 @@ links:
 ---
 ## Content
 
-The HTML `<main>` element is used to specify the main content of a web page, document or an application. It usually consists of content that is directly related to the central topic, or the central functionality of an application. Also, the `<main>` element should not contain content that is repeated throughout the whole website, or across multiple documents, such as:
+The HTML `<main>` element is used to specify the main content of a web page, document or an application and there should **only be one per web page**. 
+
+![main-styled](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%22320%22%20height%3D%22202%22%3E%3Cdefs%3E%3Cpath%20id%3D%22a%22%20d%3D%22M21%2036h274v130H21V36z%22%2F%3E%3Cmask%20id%3D%22b%22%20width%3D%22274%22%20height%3D%22130%22%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23fff%22%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%2F%3E%3C%2Fmask%3E%3C%2Fdefs%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%22147%22%20y%3D%2227%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%20transform%3D%22rotate%28-180%20160%20100.5%29%22%2F%3E%3Cpath%20fill%3D%22%233E94EC%22%20d%3D%22M320%2028H0V9c0-4.97056%204.02944-9%209-9h302c4.97056%200%209%204.02944%209%209v19zM0%20174h320v19c0%204.97056-4.02944%209-9%209H9c-4.97056%200-9-4.02944-9-9v-19z%22%2F%3E%3Ctext%20fill%3D%22%23FFF%22%20font-family%3D%22DINCondensed-Bold%2C%20DIN%20Condensed%22%20font-size%3D%2216%22%20font-weight%3D%22bold%22%3E%3Ctspan%20x%3D%2223%22%20y%3D%2221%22%3ELOGO%3C%2Ftspan%3E%3C%2Ftext%3E%3Cuse%20stroke%3D%22%23000%22%20stroke-dasharray%3D%223%22%20stroke-linecap%3D%22square%22%20stroke-width%3D%222%22%20mask%3D%22url%28%23b%29%22%20xlink%3Ahref%3D%22%23a%22%2F%3E%3Ctext%20fill%3D%22%23FFF%22%20font-family%3D%22DINCondensed-Bold%2C%20DIN%20Condensed%22%20font-size%3D%2216%22%20font-weight%3D%22bold%22%3E%3Ctspan%20x%3D%22132%22%20y%3D%22195%22%3ECOPYRIGHT%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Roboto-Medium%2C%20Roboto%22%20font-size%3D%2216%22%20font-weight%3D%22400%22%3E%3Ctspan%20x%3D%2233%22%20y%3D%2258%22%3EMain%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+
+It usually consists of content that is directly related to the central topic, or the central functionality of an application. 
+
+Also, the `<main>` element should not contain content that is repeated throughout the whole website, or across multiple documents, such as:
  - copyright information
  - navigational links
  - search forms
  - sidebars
  - site logo
 
-**Note: The `<main>` element can have a search form as it's content. However, this is only true for when a search form is the main function of the page.**
-
 Example of the main content of a page, in this case, a page describing vehicles:
 ```
+<header>
+  <img src="logo.svg" alt="Company Logo">
+</header>
 <main>
   <h1>Vehicles</h1>
   <p>
@@ -89,21 +97,17 @@ Example of the main content of a page, in this case, a page describing vehicles:
     <p>... </p>
  </article>
 </main>
+<footer>
+    <p>© Copyright</p>
+</footer>
 ```
 
-As you can see in the example above, we have added `<article>` within our `<main>` element to clearly separate each type of vehicle. As for the other way around, you cannot put a `<main>` element as a descendant of the `<article>` element.
+The `<main>` container doesn't have any visual style without CSS. The CSS in this example may be a bit complex at this time, but hopefully it inspires you to learn more CSS! 
 
-Also, the `<main>` element can never be a decendant of a few more elements. These are:
- - `<aside>`
- - `<footer>`
- - `<header>`
- - `<nav>`
+<!--[View CodePen](https://codepen.io/enkidevs/pen/QBEyxw)-->
 
-Furthermore, you can only have one `<main>` element per web page or document if you want your web page or document to validate.
+As you can see in the example above, we have added `<article>` within our `<main>` element to clearly separate each type of vehicle. The `main` is also between the `header` and `footer`. 
 
-There is a way for 2 or more `<main>` elements to be present in your document, however, all except one `<main>` element have to have a `hidden` attribute specified.
-
-**Note: Even though the `<main>` element has headings it doesn't contribute the documents outline. Those headings and other outlines within the `<main>` element are only for that `<main>` element. You should use `<body>` or `<h1>`-`<h6>`, and such as the structure of your page.**
 
 ---
 ## Practice

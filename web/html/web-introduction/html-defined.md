@@ -14,6 +14,7 @@ tags:
 
 links:
   - '[Short intro video for HTML](https://scrimba.com/p/pZaVfV/cQr3mfM){website}'
+  
 ---
 # HTML Defined
 ---
@@ -21,11 +22,9 @@ links:
 
 **HTML** or **Hypertext Markup Language** is an essential building block of every web page. 
 
-**HTML**'s primary purpose is to describe content. Which means to display text, labels, lists, to insert photos and other media, to create hyperlinks, buttons, and containers. This is all done with appropriate **HTML** elements. Additionally, each **HTML** element can be used to separate content into sections. On the other hand, you can also nest **HTML** elements with one another for a better and more clear representation. 
+**HTML**'s primary purpose is to list the content used in the web page. HTML will display text, labels, lists, insert photos and other media, create hyperlinks, buttons, and containers. This is all done with appropriate **HTML** elements. Additionally, each **HTML** element can be used to separate content into sections. You can also nest **HTML** elements with one another for better control over the page layouts and content. 
 
-On the other hand, **HTML** is not good for creating animations, database storage, math expressions, responsive layouts, etc...
-
-All in all, **HTML** elements are used to create and section content for a web page, or a web-based application.
+**HTML** is not good for creating animations, managing responsive layouts, etc...
 
 ---
 ## Practice

@@ -18,6 +18,8 @@ standards:
   web.layout-html.1: 1000
 
 links:
+  - '[CodePen: Table without Style](https://codepen.io/enkidevs/pen/JBXWLL){code}'
+  - '[CodePen: Table with Style](https://codepen.io/enkidevs/pen/JBXWbr){code}'
   - '[MDN Docs for The Table element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table){website}'
   - '[MDN docs for The Table Row element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr){website}'
   - '[MDN docs for The Table Data element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td){website}'
@@ -30,9 +32,7 @@ links:
 
 The HTML table is used to represent information in a table made of columns and rows.
 
-When creating a table in HTML the `<table>` element is used to create the entire table, the `<tr>` element is used to create the tables rows and the `<td>` element is used to create table data.
-
-The `<tr>`, or **The Table Row element**'s cells can be composed of a mix of `<td>` and `<th>`(header) elements.
+When creating a table in HTML the `<table>` element is used to create the entire table, the `<tr>`(Table Row) element is used to create the tables rows and the `<td>` (Table Data) element is used to create table data.
 
 Example of a simple table:
 ```
@@ -49,100 +49,25 @@ Example of a simple table:
   </tr>
 </table>
 ```
-Result:
+
+![simple-table](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2278%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2278%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22TimesNewRomanPSMT%2C%20Times%20New%20Roman%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2221%22%20y%3D%2233%22%3EMatthew%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22TimesNewRomanPSMT%2C%20Times%20New%20Roman%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2221%22%20y%3D%2255%22%3ELiz%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22TimesNewRomanPSMT%2C%20Times%20New%20Roman%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2283%22%20y%3D%2255%22%3ESan%20Francisco%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22TimesNewRomanPSMT%2C%20Times%20New%20Roman%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%22178%22%20y%3D%2255%22%3ECalifornia%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22TimesNewRomanPSMT%2C%20Times%20New%20Roman%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%22178%22%20y%3D%2233%22%3EColorado%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22TimesNewRomanPSMT%2C%20Times%20New%20Roman%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2283%22%20y%3D%2233%22%3EDenver%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+
+<!--[View CodePen](https://codepen.io/enkidevs/pen/JBXWLL)-->
+
+Tables themselves in HTML without CSS can appear a little messy and confusing compared to those that are styled more appropriately. 
+
+![simple-table-with-style](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%22111%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%22111%22%20fill%3D%22%23DCDDDF%22%20rx%3D%229%22%2F%3E%3Cpath%20fill%3D%22%23FFF%22%20d%3D%22M19%2022h280v65H19z%22%2F%3E%3Ctext%20fill%3D%22%237E7F94%22%20font-family%3D%22Roboto-Medium%2C%20Roboto%22%20font-size%3D%2210%22%20font-weight%3D%22400%22%3E%3Ctspan%20x%3D%2230%22%20y%3D%2241%22%3EMatthew%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%237E7F94%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-size%3D%2210%22%3E%3Ctspan%20x%3D%2230%22%20y%3D%2274%22%3ELiz%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%237E7F94%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-size%3D%2210%22%3E%3Ctspan%20x%3D%22107%22%20y%3D%2274%22%3ESan%20Francisco%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%237E7F94%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-size%3D%2210%22%3E%3Ctspan%20x%3D%22207.5%22%20y%3D%2274.5%22%3ECalifornia%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%237E7F94%22%20font-family%3D%22Roboto-Medium%2C%20Roboto%22%20font-size%3D%2210%22%20font-weight%3D%22400%22%3E%3Ctspan%20x%3D%22207.5%22%20y%3D%2241.5%22%3EColorado%3C%2Ftspan%3E%3C%2Ftext%3E%3Cpath%20stroke%3D%22%23C8CAD7%22%20stroke-linecap%3D%22square%22%20d%3D%22M194%2023v63.05%22%2F%3E%3Ctext%20fill%3D%22%237E7F94%22%20font-family%3D%22Roboto-Medium%2C%20Roboto%22%20font-size%3D%2210%22%20font-weight%3D%22400%22%3E%3Ctspan%20x%3D%22107%22%20y%3D%2241%22%3EDenver%3C%2Ftspan%3E%3C%2Ftext%3E%3Cpath%20stroke%3D%22%23C8CAD7%22%20stroke-linecap%3D%22square%22%20d%3D%22M93.5%2022.5v63.05m205%201.45h-279M299%2054H20%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+
+<!--[View CodePen](https://codepen.io/enkidevs/pen/JBXWbr)-->
+
+Styling tables can take a little practice, as seen in the example above, and often use more specific selectors. Such as, in order to prevent the last column or bottom row from having styles that may look strange, properties on these rows (or cells) can be reset using the psudo class `:last-child` like this. 
+
+
 ```
-Matthew Denver        Colorado
-Liz     San Francisco California
+tr:last-child {
+  border-bottom: none;
+}
 ```
-
-Same example with a table header(`<th>`) element:
-```
-<table>
-  <tr>
-    <th>Name</th>
-    <th>City</th>
-    <th>State</th>
-  </tr>
-  <tr>
-    <td>Matthew</td>
-    <td>Denver</td>
-    <td>Colorado</td>
-  </tr>
-  <tr>
-    <td>Liz</td>
-    <td>San Francisco</td>
-    <td>California</td>
-  </tr>
-</table>
-```
-Result:
-```
- Name        City       State
-Matthew Denver        Colorado
-Liz     San Francisco California
-```
-
-The `<table>` element has many deprecated attributes and for achieving a similar effects as those attributes used to provide you should use appropriate CSS properties.
-
-**Important note!**
-The `<table>`, `<tr>` and `<td>` elements still support all the global attributes.
-  - `style`
-  - `id`
-  - `lang`
-  - etc..
-  - To see all the global attributes visit the link in the more info section at the bottom of this insight.
-
-Deprecated `<table>` attributes:
-  1. `align`
-  2. `bgcolor`
-  3. `border`
-  4. `cellpadding`
-  5. `cellspacing`
-  6. `frame`
-  7. `rules`
-  8. `summary`
-  9. `width`
-
-Corresponding CSS styling and properties:  
-
-1. To achieve the same effect as the `align` attribute, you should set the `margin-left` and `margin-right` CSS properties to `auto` or `0 auto`.
-
-2. Instead of using the `bgcolor`(background color) attribute, you should use the `background-color` CSS property to achieve a similar effect.
-
-3. To achieve the same effect as the `border` attribute, you should use the `border`, `border-color`, `border-width` and `border-style` CSS properties instead.
-
-4. To achieve a similar effect as the `cellpadding` attribute, you should add the `border-collapse` CSS property to the `<table>` element and set its value to `collapse`, and also the `padding` CSS property to the `<td>` table element.
-
-5. To achieve a similar effect as the `cellspacing` attribute, you should add the `border-spacing` CSS property to the `<table>` element.  **Note, the `border-spacing` property won't have any effect if the `border-collapse` property is set to `collapse`.**
-
-6. To achieve a similar effect as the `frame` attribute, you should use the `border-style` and `border-width` CSS properties.
-
-7. To achieve a similar effet as the `rules` attribute, you should apply the `border` CSS property to the appropriate table element/s; `<thead>`, `<tbody>` `<tfoot>`, `<col>` or `<colgroup>`.
-
-8. You can use numerous ways to achieve a similar effect as the `summary` attribute.
-  a) Add a description within the `<caption>` element.
-  b) Add a description within a `<details>` element located inside a `<caption>` element.
-  c) Put the table inside a `<figure>` element with a description next to it.
-  d) Put the table inside a `<figure>` element and the description inside the `<figcaption>` element.
-  e) Make the table in a way that it doesn't require a description.
-
-9. To achieve the same effect as the `width` attribute, you should use the `width` CSS property.
-
-Next, the `<td>` elements attributes (not depricated):
-  1. `colspan`
-  2. `headers`
-  3. `rowspan`
-
-1. The `colspan` attribute is used to indicate how many columns the cell extends. The default and minimum value is `1` and the maximum is 1000. If you try to put a number higher than 1000 the value will be set to 1.
-
-2. The `headers` attribute is used to indicate a space-separated list/string which contains information about a cell. The value of the header needs to correlate with the `id` attribute of the header cell.
-
-3. The `rowspan` attribute is used to indicate how many rows the cell extends. The default and minimum value is `1` and the maximum value is 65534. If you add a number higher than 65534 the value is reverted back to 65534, and if you set the value as 0, the rows will extend until the end of the table section(`<thead>`, `<tbody>`,`<tfoot>`), that the cell belongs to.
-
-**(More examples with these attributes in later insights)**
-
-As for the deprecated `<td>` and `<tr>` elements attributes, check the more info section at the bottom of this insight.
-
 
 ---
 ## Practice

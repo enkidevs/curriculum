@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: matthew-leach
 
 levels:
   - beginner
@@ -13,59 +13,56 @@ stub: true
 
 tags:
   - deep
-
+  
 links:
-  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
-  - '[MDN docs for s](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s){website}'
-  - '[MDN docs for ins](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins){website}'
-  - '[MDN docs for del](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del){website}'
-
+  - '[CodePen: s Element](https://codepen.io/enkidevs/pen/LBxVxz){code}'
+  - '[CodePen: del & ins Element](https://codepen.io/enkidevs/pen/ejgNyd){code}'
+  
 ---
 # Editing (s, del, ins)
 ---
 ## Content
 
-The HTML `<s>`,  or **The Strikethrough Text element** is used to create a strikethrough in a text. This is usually used to specify that some text is no longer correct or relevant.
+### Strikethrough Text
+
+The HTML `<s>`,  or the **Strikethrough Text** element, is used to create a strikethrough in a text. This is usually used to specify that some text is no longer correct or relevant.
 
 Example:
 ```
-I have 40$ left in my account<br>
-I have <s>40$</s> 35$ left in my account
+I have $40 left in my account.
+I have <s>$40</s> $35 left in my account
 ```
-Result:
+Strikethrough Text Result:
 
-I have 40$ left in my account
+![editing-elements-s](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2288%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2288%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2234%22%3EI%20have%20%2440%20left%20in%20my%20account.%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2264%22%3EI%20have%20%2440%20%2435%20left%20in%20my%20account.%3C%2Ftspan%3E%3C%2Ftext%3E%3Cpath%20stroke%3D%22%23000%22%20stroke-linecap%3D%22square%22%20d%3D%22M66.5%2059.5h26%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-I have ~~40$~~ 35$ left in my account
+<!--[View CodePen](https://codepen.io/enkidevs/pen/LBxVxz)-->
 
-**Notes:**
-  **If you want to indicate a document edit, don't use the `<s>` element, you should use the `<del>` and/or `<ins>` elements instead.**
-  **The `<s>`, as well as the `<del>`, `<ins>`, `<u>` and `<mark>` elements(mentioned below) all support global attributes. To know more about global attributes, visit the more info section at the bottom of this insight.**
+**Notes:** If you want to indicate a document edit, don't use the `<s>` element, you should use the `<del>` and/or `<ins>` elements instead.
 
-Next, the `<del>`, or **The Deleted Text element** is used to specify that some text has been deleted and the `<ins>`, or **The Inserted Text element** is used to indicate that some text was inserted/added to the document.
+### Deleted & Inserted Text
+
+Next, the `<del>`, or the **Deleted Text** element, is used to specify that some text has been deleted and the `<ins>`, or the **Inserted Text** element, is used to indicate that some text was inserted/added to the document.
 
 Both elements have the same 2 element-specific attributes:
   1. `cite`
   2. `datetime`
   
 The `cite` attribute is used to specify the URL which explains the change. 
-The `datetime` attribute is used to indicate the time of the change and the date has to be properly specified(YYMMDD) otherwise it won't parse properly and the element won't have a time stamp.
+
+The `datetime` attribute is used to indicate the time of the change and the date has to be properly specified (YYMMDD), otherwise it won't parse properly and the element won't have a time stamp.
 
 The `<del>` element is usually rendered with strikethrough text, whereas the `<ins>` is usually rendered with underlined text. 
 
-Nevertheless, how these elements are rendered depends on the browser.
-
-Example:
 ```
 <del><p>Old Text</p></del>
 <ins><p>New Text</p></ins>
 ```
 Result:
 
-~~Old Text~~
+![editing-elements-del-ins](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2288%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2288%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2234%22%3EOld%20Text%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2264%22%3ENew%20Text%3C%2Ftspan%3E%3C%2Ftext%3E%3Cpath%20stroke%3D%22%23000%22%20stroke-linecap%3D%22square%22%20d%3D%22M20.5%2029.5h58M21%2067h65%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-New Text
-
+<!--[View CodePen](https://codepen.io/enkidevs/pen/ejgNyd)-->
 
 ---
 ## Practice

@@ -19,8 +19,6 @@ tags:
 
 type: tetris
 
-category: fundamentals
-
 standards:
   web.syntax-html.1: 1000
   web.layout-html.1: 1000
