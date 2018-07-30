@@ -1,4 +1,4 @@
-# Sub- & superscript (sub & sup)
+---
 author: matthew-leach
 
 levels:
@@ -13,10 +13,12 @@ stub: true
 
 tags:
   - deep
-  
+
 links:
   - '[CodePen: Element sub & sup](https://codepen.io/enkidevs/pen/xzQvPv){code}'
 
+---
+# Sub and Super Script
 ---
 ## Content
 
@@ -33,9 +35,9 @@ For instance, you can use the subscript for properly display the 2 in H20 and yo
 Example:
 ```
 <p>
-  Both 
-  H<sub>2</sub>O 
-  and 
+  Both
+  H<sub>2</sub>O
+  and
   E = mc<sup>2</sup>
   are fun to learn about.
 </p>
@@ -47,7 +49,7 @@ Example:
 
 The most common `<sup>` elements uses are to display exponents (x^2) or ordinal numbers (3rd, 4th, 5th). The most common use for the `<sub>` element is marking footnotes, variable numbers (X1, X2...Xn), and denoting numbers in chemical formulas.
 
-**Note:** Both `<sup>` and `<sub>` cannot be used at the same time to make a subscript appear directly below a superscript number and vice versa. To do so, you need to use the MathML (Mathematical Markup Language). 
+**Note:** Both `<sup>` and `<sub>` cannot be used at the same time to make a subscript appear directly below a superscript number and vice versa. To do so, you need to use the MathML (Mathematical Markup Language).
 
 **The MathML elements:** `<msub>`, `<msup>` and `<msubsup>`
 
@@ -58,9 +60,9 @@ Write the code to properly display the text above and below the usual line of wr
 
 ```
 <p>
-  Both 
-  H<tag1>2</tag1>O 
-  and 
+  Both
+  H<tag1>2</tag1>O
+  and
   E=mc<tag2>2</tag2>
   are fun to learn about.
 </p>
