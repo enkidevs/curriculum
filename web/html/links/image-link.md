@@ -1,5 +1,5 @@
 ---
-author: matthew-leach
+author: 'matthew-leach'
 
 levels:
   - beginner
@@ -9,7 +9,7 @@ type: normal
 
 category: must-know
 
-tags:
+aspects:
   - introduction
 
 links:
@@ -21,7 +21,7 @@ links:
 ---
 ## Content
 
-In order to add a link onto an image, simply place the link `<a>``</a>` element around any image element `<img>`:
+In order to add a link onto an image, simply place the link `<a> </a>` element around any image element `<img>`:
 
 ```html
 <a href="http://enki.com">
