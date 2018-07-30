@@ -1,12 +1,6 @@
 name: Tables
 
-type: insights-list
-
-description: TODO
-
-section: 0
-
-parent: computer-code
+description: Adding tabular data to HTML
 
 insights:
   - table-tr-and-td
@@ -16,3 +10,9 @@ insights:
   - thead-tbody-and-tfoot
 
 game: table-it
+
+exercises:
+  - html-table-1-codepen-exercise
+  - html-table-2-codepen-exercise
+  - html-table-3-codepen-exercise
+  - html-table-4-codepen-exercise

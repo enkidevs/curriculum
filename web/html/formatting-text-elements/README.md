@@ -1,12 +1,6 @@
 name: Formatting Text Elements
 
-type: insights-list
-
-description: TODO
-
-section: 0
-
-parent: formatting-elements
+description: How to format text with HTML
 
 insights:
   - intro-br
@@ -20,3 +14,13 @@ insights:
   - small
   - intro-time
   - intro-wbr
+
+exercises:
+  - html-s-del-ins-codepen-exercise
+  - html-b-strong-codepen-exercise
+  - html-multi-element-1-codepen-exercise
+  - html-multi-element-2-codepen-exercise
+  - html-sup-sub-codepen-exercise
+  - html-u-mark-codepen-exercise
+  - html-dfn-abbr-codepen-exercise
+  - html-multi-element-3-codepen-exercise

@@ -50,7 +50,7 @@ Furthermore, the `<hr>` element provides important semantic meaning, such as a c
 
 By default, the `<hr>` element is represented with the following CSS properties:
 ```css  
-hr { 
+hr {
     display: block;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -81,7 +81,7 @@ Which of these CSS properties is not applied to the `<hr>` element by default?
 ---
 ## Revision
 
-The `<hr>` element was referred to as what in these different HTML versions? 
+The `<hr>` element was referred to as what in these different HTML versions?
 
 In HTML4: ???
 In HTML5: ???
@@ -89,7 +89,7 @@ In HTML5: ???
 * horizontal rule
 * thematic break
 * simple black bar
-* horizontal line 
+* horizontal line
 
 ---
 ## Quiz

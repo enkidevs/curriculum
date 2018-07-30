@@ -12,19 +12,23 @@ category: must-know
 tags:
   - introduction
 
+standards:
+  web.markup-text.2: 10
+
 links:
   - '[CodePen: Ordered Lists](https://codepen.io/enkidevs/pen/QBvLQo){code}'
   - '[CodePen: Ordered Lists Roman Numerals](https://codepen.io/enkidevs/pen/ajWoYZ){code}'
   - '[CodePen: Nested](https://codepen.io/enkidevs/pen/BPRBrO){code}'
   - '[MDN docs for ordered lists](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol){website}'
   - '[CSS list style type Property](https://www.w3schools.com/cssref/pr_list-style-type.asp){website}'
-  
+
+
 ---
 # Ordered Lists
 ---
 ## Content
 
-The HTML `<ol>`, or the **Ordered List** element is used to represent an ordered list of items. 
+The HTML `<ol>`, or the **Ordered List** element is used to represent an ordered list of items.
 
 <ol>
   <li>Do this first.</li>
@@ -36,7 +40,7 @@ The HTML `<ol>`, or the **Ordered List** element is used to represent an ordered
 
 <!--[View CodePen](https://codepen.io/enkidevs/pen/QBvLQo)-->
 
-Ordered lists are displayed as a block element and typically display with preceding numbering; these can be numerals, letters, Roman numerals or even bullets. 
+Ordered lists are displayed as a block element and typically display with preceding numbering; these can be numerals, letters, Roman numerals or even bullets.
 
 The items within the `<ol>` elements list are represented with the `<li>` element. Also, by default, each item in the list is indented with a 40px padding to the left.
 
@@ -53,7 +57,7 @@ The `type` attribute is used to specify a numbering type for the entire list:
   - `i` specifies lowercase Roman numerals
   - `I` specifies uppercase Roman numerals
   - `1` specifies numbers(this is the default value)
-  
+
 Example with uppercase Roman numerals type:
 ```
 <ol type="I">
@@ -82,14 +86,14 @@ Additionally, the `<ol>` element can be nested with itself any number of times. 
 
 Example of a nested list:
 ```
-<ol> 
+<ol>
   <li>Item A</li>
   <li>Item B     
     <ol>
       <li>Item B1</li>
-      <li>Item B2</li> 
+      <li>Item B2</li>
       <li>Item B3</li>
-    </ol> 
+    </ol>
   </li>
   <li>Item C</li>
 </ol>
@@ -102,7 +106,7 @@ Example of a nested list:
 **Note:**
 	- The closing `</li>` tag for `Item B` must wrap around the entire nested list.  
 
-**Best Uses:** 
+**Best Uses:**
 Ordered lists are best used for:
   - Steps for cooking in a recipe
   - Directions to the Apple store
@@ -112,7 +116,8 @@ Ordered lists are best used for:
 ---
 ## Practice
 
-Complete the HTML code to create a numbered list. 
+Complete the HTML code to create a numbered list.
+
 ```
 <A>
   <B>Buy Jam</B>
@@ -132,11 +137,12 @@ B: ???
 * `order`
 * `list`
 * `numlist`
-  
+
 ---
 ## Revision
 
-What does this code create? 
+What does this code create?
+
 
 ```
 <ol>

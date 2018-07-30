@@ -12,6 +12,7 @@ category: must-know
 standards:
   web.html-forms.2: 10
 
+
 tags:
   - introduction
 
@@ -25,7 +26,7 @@ links:
 ---
 ## Content
 
-`<button>` elements have a number of useful attributes. 
+`<button>` elements have a number of useful attributes.
 
 * `value`
 * `disabled`
@@ -66,6 +67,7 @@ The `type="button"` has no initial/default behavior. This is used when you want 
 
 `form` attribute is used to associate a button to a form. The value of the buttons `form` attribute has to be the same as the `id` attribute of the `<form>` element. This allows you to associate a button to a `<form>` element even though the button is not a direct descendant of that form.
 
+
 ---
 ## Practice
 
@@ -94,19 +96,15 @@ Show user previous inputs: ???
 Turn off button: ???
 Set the initial value: ???
 Set name: ???
-Set `formtarget` to target new tab/window: ???
-Set form to not validate upon submit: ???
-Set method: ???
 
 * `type="reset"`
 * `type="submit"`
 * `autofocus`
 * `autocomplete`
+* `disabled`
 * `value`
 * `name
 * `_blank`
-* `formnovalidate`
-* `formmethod`
 * `_newtab`
 * `method`
 * `novalidate`

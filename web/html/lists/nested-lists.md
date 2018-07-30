@@ -12,6 +12,9 @@ category: must-know
 tags:
   - introduction
 
+standards:
+  web.markup-text.2: 10
+
 links:
   - '[CodePen: Ordered List](https://codepen.io/enkidevs/pen/VBbZrW){code}'
   - '[CodePen: Unordered List](https://codepen.io/enkidevs/pen/pZPzdm){code}'
@@ -19,13 +22,13 @@ links:
   - '[MDN docs for unordered lists](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul){website}'
   - '[Example on codepen.io](){website}'
   - '[MDN docs for ordered lists]](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol){website}'
-  
+
 ---
 # Nested Lists
 ---
 ## Content
 
-The two most common lists in HTML are: 
+The two most common lists in HTML are:
 
 * Ordered Lists: `<ol>`
 * Unordered Lists: `<ul>`
@@ -82,12 +85,13 @@ Result:
 
 <!--[View CodePen](https://codepen.io/enkidevs/pen/xJdKpO)-->
 
-In the example above, the ordered list element `<ol>` is used as the main list because the steps should be followed in a specific order. The unordered list elements don't need to be gathered in any specific order, so this organization of lists makes the most sense. 
+In the example above, the ordered list element `<ol>` is used as the main list because the steps should be followed in a specific order. The unordered list elements don't need to be gathered in any specific order, so this organization of lists makes the most sense.
 
 ---
 ## Practice
 
-Complete the HTML code to create an unordered list within an ordered list. 
+Complete the HTML code to create an unordered list within an ordered list.
+
 ```
 <A>
   <B>Gather Ingredients:</B>
@@ -127,7 +131,8 @@ Which code block will create this nested list?
 3. Bake 15 mins at 350F
 ```
 
-Option #1: 
+Option #1:
+
 ```
 <ol>
   <li>Gather Ingredients:</li>
@@ -141,7 +146,8 @@ Option #1:
 </ol>
 ```
 
-Option #2: 
+Option #2:
+
 ```
 <ol>
   <li>Gather Ingredients:</li>
@@ -167,7 +173,8 @@ Option #2:
 
 ### How much do you know about nested HTML lists?
 
-What does this code create? 
+
+What does this code create?
 
 ```
 <ol>

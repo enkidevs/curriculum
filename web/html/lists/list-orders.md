@@ -12,13 +12,15 @@ category: must-know
 tags:
   - introduction
 
+standards:
+  web.markup-text.2: 10
 links:
   - '[CodePen: List Order](https://codepen.io/enkidevs/pen/EpmYmV){code}'
   - '[CodePen: List Order Reversed](https://codepen.io/enkidevs/pen/GBmKmy){code}'
   - '[CodePen: List Order Tricky Example](https://codepen.io/enkidevs/pen/xJdKrV){code}'
   - '[MDN docs for ordered lists](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol){website}'
   - '[CSS list style type Property](https://www.w3schools.com/cssref/pr_list-style-type.asp){website}'
-  
+
 ---
 # List Orders
 ---
@@ -32,13 +34,13 @@ When creating lists in HTML, you can specify the numbering type of your list by 
 * Lowercase Roman numbers: `type="I"`
 * Begin numbering from a number: `start="50"`
 
-Next, you can use the optional `start="value"` attribute to specify from which number/value the first item in the list starts counting from. 
+Next, you can use the optional `start="value"` attribute to specify from which number/value the first item in the list starts counting from.
 
 **Note: No matter which numbering type your list is set to, whether its roman, letters, or any other numeral, when specifying a value for the start attribute, the value is always specified with a number.**
 
 Example:
 ```
-<p>After completing sections 1-9, do:</p> 
+<p>After completing sections 1-9, do:</p>
 <ol start="10">
   <li>Buy Cake</li>
   <li>Open Cake Box</li>
@@ -66,7 +68,7 @@ Result:
 
 <!--[View CodePen](https://codepen.io/enkidevs/pen/GBmKmy)-->
 
-Furthermore, you can modify the numbering of each individual list item by adding the `value` attribute. This is a tricky example where there are three items in this list, which is then reversed - which should order them as iii, ii, and i. But then on the second list item, the value was changed to 5(or v in this case), which then makes the third item of the list `4(iv)` counting down from the number above it. This may seem tricky, but hopefully it demostrates the control you have over the content. 
+Furthermore, you can modify the numbering of each individual list item by adding the `value` attribute. This is a tricky example where there are three items in this list, which is then reversed - which should order them as iii, ii, and i. But then on the second list item, the value was changed to 5(or v in this case), which then makes the third item of the list `4(iv)` counting down from the number above it. This may seem tricky, but hopefully it demostrates the control you have over the content.
 ```
 <ol type="i" reversed>
   <li>Coffee</li>
@@ -84,9 +86,11 @@ Result:
 ---
 ## Practice
 
-Complete the HTML code to create a numbered list that starts at 10. 
+
+Complete the HTML code to create a numbered list that starts at 10.
 ```
-<p>After the other 9 steps, do this:</p> 
+<p>After the other 9 steps, do this:</p>
+
 <A B>
   <C>Buy Cake</C>
   <C>Open Cake Box</C>
@@ -98,7 +102,9 @@ A: ???
 B: ???
 C: ???
 
-Match the terms to the descriptions: 
+
+Match the terms to the descriptions:
+
 
 List items will be numbered with uppercase letters: ???
 List items will be numbered with lowercase letters: ???
@@ -134,35 +140,44 @@ What does this code create? Choose the appropriate option.
 
 ???
 
-* Option 1
+Option 1
 ```
 5. Item A
 4. Item B
 3. Item C
 ```
-* Option 2 
+
+Option 2
 ```
 5. Item C
 6. Item B
 7. Item A
 ```
-* Option 3 
+
+Option 3
 ```
 3. Item A
 4. Item B
 5. Item C
 ```
-* Option 4
+
+Option 4
 ```
 3. Item C
 4. Item B
 5. Item A
 ```
 
+* Option 1
+* Option 2
+* Option 3
+* Option 4
+
+
 ---
 ## Quiz
+### What does this code create?
 
-### What does this code create? 
 
 Choose the appropriate option:
 
@@ -205,5 +220,3 @@ D)
 * Option A
 * Option C
 * Option D
-
-

@@ -13,11 +13,16 @@ stub: true
 
 tags:
   - introduction
-  
+
 links:
+
+  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
+  - '[MDN docs for b](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b){website}'
+  - '[MDN docs for strong](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong){website}'
   - '[CodePen: strong & b](https://codepen.io/enkidevs/pen/mjRemb){code}'
   - '[CodePen: strong & b (2)](https://codepen.io/enkidevs/pen/NBdGvb){code}'
   - '[MDN docs for globat attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
+
 
 ---
 # Important (b & strong)
@@ -31,8 +36,8 @@ The `<b>` element was also formerly known as the **Boldface** element.
 Example:
 ```
 <p>
-  <strong>Warning</strong>: 
-  The latest 
+  <strong>Warning</strong>:
+  The latest
   <b>iPhone</b> is expensive.
 </p>
 ```
@@ -49,8 +54,8 @@ Example:
 <strong>
   Attention!
 </strong>
-The floor is 
-<b>slippery</b> 
+The floor is
+<b>slippery</b>
  and <b>wet</b>!
 ```
 Result:
@@ -60,16 +65,16 @@ Result:
 <!--[View CodePen](https://codepen.io/enkidevs/pen/NBdGvb)-->
 
 
-In the above example, the `<strong>` element is used to specify that the word `Warning` is very important and the `<b>` element is used to give attention to a text `iPhone` without giving it a higher importance. 
+In the above example, the `<strong>` element is used to specify that the word `Warning` is very important and the `<b>` element is used to give attention to a text `iPhone` without giving it a higher importance.
 
 Rather than wrapping `<b>` or `<strong>` elements around text that is only meant to be used for visually styling purposes, it is more appropriate in those cases to use the CSS property `font-weight:bold;`.
 
 ---
 ## Practice
 
-Write the code to properly express extra importance on key words in this sentence: 
+Write the code to properly express extra importance on key words in this sentence:
 
-`<p>`<???>Warning<???>: The latest <???>iPhone<???> is expensive.`</p>` 
+`<p>`<???>Warning<???>: The latest <???>iPhone<???> is expensive.`</p>`
 
 * strong
 * /strong
@@ -103,7 +108,7 @@ When a text needs to be presented with strong importance, seriousness, or urgenc
 
 ### How much do you know about HTML text?
 
-Write the code to properly express extra importance to key words : 
+Write the code to properly express extra importance to key words :
 
 ```
 <h2>Things To Do</h2>
@@ -131,4 +136,3 @@ Write the code to properly express extra importance to key words :
 * /cite
 * i
 * /i
-

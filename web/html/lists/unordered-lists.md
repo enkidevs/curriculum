@@ -12,6 +12,9 @@ category: must-know
 tags:
   - introduction
 
+standards:
+  web.markup-text.2: 10
+
 links:
   - '[CodePen: Unordered List](https://codepen.io/enkidevs/pen/zLwOLq){code}'
   - '[CodePen: Unordered List Styles](https://codepen.io/enkidevs/pen/qKMMyr){code}'
@@ -19,13 +22,13 @@ links:
   - '[MDN docs for unordered lists](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul){website}'
   - '[Example on codepen.io](https://codepen.io/stefan-stojanovic/pen/GdeaLg?editors=1000#){website}'
   - '[CSS list style type Property](https://www.w3schools.com/cssref/pr_list-style-type.asp){website}'
-  
+
 ---
 # Unordered Lists
 ---
 ## Content
 
-The HTML `<ul>`, or the **Unordered List** element is used to represent an unordered list of items. 
+The HTML `<ul>`, or the **Unordered List** element is used to represent an unordered list of items.
 
 <ul>
   <li>Item x</li>
@@ -37,11 +40,11 @@ The HTML `<ul>`, or the **Unordered List** element is used to represent an unord
 
 <!--[View CodePen](https://codepen.io/enkidevs/pen/zLwOLq)-->
 
-Unordered lists are displayed as a block element and typically display with as a bulleted list. 
+Unordered lists are displayed as a block element and typically display with as a bulleted list.
 
 The items within the `<ul>` elements list are represented with the `<li>` element. Also, by default, each item in the list is indented with a 40px padding to the left.
 
-The bullet can be changed using CSS styling: 
+The bullet can be changed using CSS styling:
   - style="list-style-type:disc"
   - style="list-style-type:circle"
   - style="list-style-type:square"
@@ -56,21 +59,21 @@ Additionally, the `<ul>` element can be nested with itself any number of times. 
 
 Example of a nested lists:
 ```
-<ul> 
+<ul>
   <li>Item A</li>
   <li>Item B     
-    <ul> 
+    <ul>
       <li>Item B1</li>
       <li>Item B2
-        <ul> 
+        <ul>
           <li>Item B2.1</li>
           <li>Item B2.2</li>
           <li>Item B2.3</li>
-        </ul> 
-      </li> 
+        </ul>
+      </li>
       <li>Item B3</li>
-    </ul> 
-  </li> 
+    </ul>
+  </li>
   <li>Item C</li>
 </ul>
 ```
@@ -81,18 +84,19 @@ Example of a nested lists:
 
 **Notes:**
 	- The key to nesting lists is making sure the nested lists are within the appropriate list items (`<li>` and `</li>`).
-    
-    
+
+
 **Best Uses:**  
 The `<ul>` element is best used for:
 
-* a grocery list 
+* a grocery list
 * or any other list that doesn't require a specific order.
 
 ---
 ## Practice
 
-Complete the HTML code to create a bulleted list. 
+Complete the HTML code to create a bulleted list.
+
 ```
 <A>
   <B>Apples</B>
@@ -116,7 +120,7 @@ B: ???
 ---
 ## Revision
 
-What does this code create? 
+What does this code create?
 
 ```
 <ul>
@@ -145,6 +149,6 @@ Which statement about unordered lists is not true?
 ???
 
 * Paragraph tags are required within each list item.  
-* By default, each list item displays with a black disc. 
+* By default, each list item displays with a black disc.
 * Typically, each line is indented with 40px of padding-left.
-* They display as block elements. 
+* They display as block elements.

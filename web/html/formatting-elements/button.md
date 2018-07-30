@@ -11,6 +11,7 @@ category: must-know
 
 stub: true
 
+
 tags:
   - introduction
 
@@ -19,18 +20,18 @@ links:
   - '[CodePen: Button element with Text & Image](https://codepen.io/enkidevs/pen/VdqZdQ){code}'
   - '[MDN docs for button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button){website}'
   - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
-  
+
 ---
-# Button 
+# Button
 ---
 ## Content
 
-The HTML `<button>` element may seem similar to a link `<a>` with a little more default style, but there are key differences: 
+The HTML `<button>` element may seem similar to a link `<a>` with a little more default style, but there are key differences:
 
-* Buttons are best used *within* Forms. 
-* Buttons not used within Forms require JavaScript to have any functionality. 
+* Buttons are best used *within* Forms.
+* Buttons not used within Forms require JavaScript to have any functionality.
 
-The default `<button>` element looks like this: 
+The default `<button>` element looks like this:
 
 ```html
 <form action="/" method="post">
@@ -42,7 +43,7 @@ The default `<button>` element looks like this:
 
 <!--[View CodePen](https://codepen.io/enkidevs/pen/dKQxjM)-->
 
-In this case, both the button and the input look and behave the same. 
+In this case, both the button and the input look and behave the same.
 
 ```html
 <form action="/" method="post">
@@ -53,7 +54,7 @@ In this case, both the button and the input look and behave the same.
 
 <!--[View CodePen](https://codepen.io/enkidevs/pen/rryRQp)-->
 
-The `<button>` element has a slight edge over the `<input>` as both images and text can be placed within it like this: 
+The `<button>` element has a slight edge over the `<input>` as both images and text can be placed within it like this:
 
 ```html
 <button>
@@ -66,7 +67,7 @@ The `<button>` element has a slight edge over the `<input>` as both images and t
 
 <!--[View CodePen](https://codepen.io/enkidevs/pen/VdqZdQ)-->
 
-**Note:** Buttons have no default action upon click. This is why they are best tied to forms or advanced uses of JavaScript. 
+**Note:** Buttons have no default action upon click. This is why they are best tied to forms or advanced uses of JavaScript.
 
 
 ---
@@ -76,7 +77,8 @@ Buttons are best used in what relationship of an HTML form?
 
 ???
 
-Match the following terms with their descriptions: 
+Match the following terms with their descriptions:
+
 
 ??? are best when they change the web pages.
 ??? are best when submitting signup or purchase actions.
@@ -87,7 +89,7 @@ Match the following terms with their descriptions:
 * outside
 * in connection with
 * with JS scripts
-* actions 
+* actions
 * elements
 * href's
 * src's
@@ -130,5 +132,3 @@ If a button is outside of a form, what must be used to assign an action to it?
 * `<input type="submit" value="Button">`
 * `<input type="button" value="Submit">`
 * `<input type="button" value="Submit">`
-
-
