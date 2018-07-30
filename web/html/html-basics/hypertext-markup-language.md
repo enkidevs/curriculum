@@ -31,7 +31,7 @@ links:
 ---
 ## Content
 
-HyperText Markup Language, more often just referred to as **HTML**[1:HTML], is the standard markup language used to create websites. HTML describes the structure of a web page semantically and uses elements that are made up of **tags**. Tags are easy to recognize as they use *less than* (<) and *greater than* (>) signs.
+HyperText Markup Language, more often just referred to as **HTML**, is the standard markup language used to create websites. HTML describes the structure of a web page semantically and uses elements that are made up of **tags**. Tags are easy to recognize as they use *less than* (<) and *greater than* (>) signs.
 
 To denote the end of most HTML elements, a closing tag is used. It has an extra forward slash before the name of the element:
 ```html
@@ -101,9 +101,3 @@ The two main components of a HTML document are ???.
 * `<heading>` and `<body>`
 * `<p>` and `<a>`
 * `<h>` and `<body>`
-
----
-## Footnotes
-[1:HTML]
-
-You can start writing HTML by creating a new file with the `.html` extension. To see how the code looks, drag and drop the file in your browser.
