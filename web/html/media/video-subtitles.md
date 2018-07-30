@@ -43,19 +43,19 @@ The WebVTT (.vtt), which stands for “Web Video Text Track” file can look lik
 ```WEBVTT
 
 1
-00:00:01.300 --> 00:02.300 
+00:00:01.300 --> 00:02.300
 <v>Tina...</v>
 
 2
-00:00:03.900 --> 00:00:05.000 
+00:00:03.900 --> 00:00:05.000
 Who the Hell is that?
 
 Sounds
-00:00:06.500 --> 00:00:22.500 
+00:00:06.500 --> 00:00:22.500
 <c>eerie sounds</c>
 
 3
-00:00:23.500 --> 00:00:24.500 
+00:00:23.500 --> 00:00:24.500
 <i>[ gasps ]</i>
 
 ```
@@ -66,21 +66,21 @@ All WebVTT files start with the line **WebVTT**.
 
 ** Multiple Subtitles**
 
-In the case you have videos that support multiple languages, you can provide them like this and in this case the English track was also set as the `default`: 
+In the case you have videos that support multiple languages, you can provide them like this and in this case the English track was also set as the `default`:
 
 ```
 <video src="video/short.mp4">
    <track label="English"
    kind="subtitles"
-   srclang="en" 
+   srclang="en"
    src="captions/en.vtt"
    default>
-   
+
    <track label="Deutsch"
    kind="subtitles"
    srclang="de"
    src="captions/de.vtt">
-   
+
    <track label="Español"
    kind="subtitles"
    srclang="es"
@@ -105,7 +105,8 @@ What HTML element is used to connect subtitles to a video?
 ---
 ## Revision
 
-When working with multiple files that provide the subtitles in various languages with a web video, how is one of them given greater priority that the others. 
+When working with multiple files that provide the subtitles in various languages with a web video, how is one of them given greater priority that the others.
+???
 
 * Add the `default` attribrute to one of them.
 * The first file assigned in the `<track`>.
@@ -124,5 +125,3 @@ For files that contain subtitles that can be used with web videos, what file for
 * .sub
 * .txt
 * .track
-* .tt
-* .st
