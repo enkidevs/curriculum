@@ -89,13 +89,13 @@ What is the correct HTML for creating a linked image?
 ---
 ## Quiz
 
-How much do you know about links and images?
+### How much do you know about links and images?
 
-???
+Which is a true statement?
 
 ```html
 <a href="http://www.site.com">
-  <p>These are my favoriate places:</p>
+  <p>These are my favorite places:</p>
   <img src="mountain.jpg" alt="Snowy Mountain">
   <img src="beach.jpg" alt="Sandy Beach">
 </a>

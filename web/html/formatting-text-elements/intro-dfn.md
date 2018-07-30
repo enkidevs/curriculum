@@ -106,32 +106,23 @@ Which HTML element is used to indicate the first use of a term in a document?
 ---
 ## Quiz
 
-How much do you know about formatting text elements?
+### How much do you know about formatting text elements?
 
 From the following code, match the proper HTML elements with the tags:
 ```
 <p>
-<tag1>
- <tag2 title="Hypertext Markup Language">
-  HTML
- </tag2>
-</tag1>
-is the standard markup language
-for creating web pages.</p>
-<p>
-  After a few hours,
-  I was finally able to understand
-  <tag2 title="Hypertext Markup Language">
-   HTML
-  </tag2>!
+  <tag>
+   <abbr title="Hypertext Markup Language">
+    HTML
+   </abbr>
+  </tag>
+  is the standard markup language
+  for creating web pages.
 </p>
 ```
-tag1: ???
-tag2: ???
+tag: ???
 
 * dfn
 * abbr
 * wbr
 * desc
-* id
-* term

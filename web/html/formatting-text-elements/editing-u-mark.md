@@ -22,11 +22,11 @@ links:
   - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
 
 ---
-# Editing (u, mark)
+# Markup for Editing
 ---
 ## Content
 
-### Mark Text 
+### Mark Text
 
 The `<mark>`, or the **Mark Text** element, is used to specify that some text is marked or highlighted. The `<mark>` element is often used to indicate a part of the text of the document that is relevant to the user's search.
 
@@ -46,10 +46,10 @@ Also, when `<mark>` is used within a `<q>` or `<blockquote>` element it indicate
 
 ### Unarticulated Annotation
 
-The `<u>`, or the **Unarticulated Annotation** element, is used to indicate that some text should be rendered differently from the rest of the text in a way that indicated non-textual annotation. The content of the `<u>` element is usually rendered as underlined. Nevertheless, you can change this by using the appropriate CSS styling - from this `text-decoration: underline;` to something like `text-decoration: #f00 wavy underline;`. 
+The `<u>`, or the **Unarticulated Annotation** element, is used to indicate that some text should be rendered differently from the rest of the text in a way that indicated non-textual annotation. The content of the `<u>` element is usually rendered as underlined. Nevertheless, you can change this by using the appropriate CSS styling - from this `text-decoration: underline;` to something like `text-decoration: #f00 wavy underline;`.
 
 ```
-<p>You could use this element 
+<p>You could use this element
 to highlight <u>speling</u>
 mistakes, so the writer
 can <u>corect</u> them.</p>
@@ -70,11 +70,11 @@ The `<u>` element is often used to annotate spelling errors, proper nouns and/or
 ---
 ## Practice
 
-Underline the word "mispell": 
+Underline the word "mispell":
 
 ```
 <p>
-  Try not to 
+  Try not to
   <tag>mispell</tag>
   the word "misspell".
 </p>
@@ -82,13 +82,13 @@ Underline the word "mispell":
 
 tag = ???
 
-Highlight "100 laps" within the blockquote: 
+Highlight "100 laps" within the blockquote:
 
 ```
 <blockquote>
 <p>
-  "I just ran 
-  <tag>100 laps</tag> 
+  "I just ran
+  <tag>100 laps</tag>
   and I'm not even tired."
 </p>
 <cite>Bobby the Kid</cite>
@@ -114,9 +114,9 @@ tag = ???
 ---
 ## Revision
 
-Match these elements with their meaning: 
+Match these elements with their meaning:
 
-???: defines text that should be styled differently than the rest of the text, such as misspelled words. 
+???: defines text that should be styled differently than the rest of the text, such as misspelled words.
 ???: defines text that should be highlighted.
 
 * u
