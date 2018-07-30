@@ -17,6 +17,9 @@ sections:
     - forms-ii
     - meta-elements
     - sectioning-elements
+    - tables
+    - formatting-elements
+    - formatting-text-elements
   '2':
     - forms-iii
     - forms-iv
