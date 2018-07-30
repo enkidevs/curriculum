@@ -9,11 +9,12 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.layout-html.3: 1000
 
-tags:
+aspects:
   - introduction
-
+  - workout
 links:
   - '[Codepen: HR Element with Default Styles](https://codepen.io/enkidevs/pen/zayObZ){code}'
 

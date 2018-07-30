@@ -1,11 +1,12 @@
-name: formatting-elements
+name: Formatting HTML Elements
 
-description: Description of the workout goes here
+description: How to format other HTML elements
 
 insights:
-- intro-span
-- intro-hr
+  - intro-span
+  - intro-hr
   - button
+  - button-attributes
   - meter
   - meter-attributes
   - progress

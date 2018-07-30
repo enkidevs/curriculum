@@ -5,21 +5,18 @@ levels:
   - beginner
   - basic
 
-tags:
-  - introduction
-
 aspects:
   - introduction
-
+  - workout
 type: exercise
 
 linkType: codepen
 link: https://codepen.io/enkidevs/pen/bjoddw
 
-solutiion: https://codepen.io/enkidevs/pen/RJzpaQ
+solution: https://codepen.io/enkidevs/pen/RJzpaQ
 
 standards:
-
+  web.layout-html.3: 1000
 
 links:
   - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'

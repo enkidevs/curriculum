@@ -9,21 +9,22 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.layout-html.3: 1000
 
-tags:
+aspects:
   - deep
-
+  - workout
 links:
   - '[CodePen: Meter Attributes](https://codepen.io/enkidevs/pen/yqMrxx){code}'
   - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
-  
+
 ---
 # Meter Attributes
 ---
 ## Content
 
-`<meter>` elements have a number of useful attributes. 
+`<meter>` elements have a number of useful attributes.
 
 * `value`
 * `low`
@@ -96,7 +97,7 @@ Which of these is not a valid `<meter>` element attribute?
 * `max`
 * `form`
 
---- 
+---
 ## Quiz
 
 ### How much do you know about the `<meter>` element?
@@ -104,9 +105,9 @@ Which of these is not a valid `<meter>` element attribute?
 If you need to display the value as a percentage, what would you use?
 
 ```html
-<meter 
-  value="???" 
-  min="???" 
+<meter
+  value="???"
+  min="???"
   max="???">
   1/2 full
 </meter>
@@ -116,7 +117,3 @@ If you need to display the value as a percentage, what would you use?
 * 50%, 0, 100
 * 0.5, 0, 100
 * 50%, 0, 1
-
-
-
-

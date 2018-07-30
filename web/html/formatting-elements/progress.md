@@ -9,15 +9,16 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.layout-html.3: 10
 
-tags:
+aspects:
   - deep
-
+  - workout
 links:
   - '[CodePen: Progress Element](https://codepen.io/enkidevs/pen/eKbYJv){code}'
   - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
-  
+
 ---
 # Progress
 ---
@@ -27,8 +28,8 @@ The HTML `<progress>`, or the **Progress Indicator** element, is used to display
 
 Example:
 ```html
-<progress 
-  value="25" 
+<progress
+  value="25"
   max="100">
   25%
 </progress>
@@ -41,7 +42,7 @@ Example:
 The `<progress>` element has 2 element-specific attributes:
   1. `max`
   2. `value`
-  
+
 The `max` attribute is used to indicate the total work that the progress bars task requires. If the `max` attribute is not present, the default value is set to 1. On the other hand, if you add the `max` attribute, its value has to be 1 or above and be a valid floating point number.
 
 The `value` attribute is used to specify the amount of work that's been completed. The value of the `value` attribute has to either be between 0 and 1 or if `max` is specified, between 0 and `max`. On the other hand, if you don't add the `value` attribute, the amount of work needed to be done is unknown.
@@ -49,7 +50,7 @@ The `value` attribute is used to specify the amount of work that's been complete
 ---
 ## Practice
 
-Create a progress element that displays the file size percentage downloaded at a given time. 
+Create a progress element that displays the file size percentage downloaded at a given time.
 
 ```html
 <progress ???="25"
@@ -93,4 +94,3 @@ Check out this '[meter](https://www.dropbox.com/s/azi3gl1th52zwrs/Screen%20Shot%
 * `<progress value="0.6" max="1"></progress>`
 * `<bar value="0.6" max="1"></bar>`
 * `<bar value="60" max="100"></bar>`
-

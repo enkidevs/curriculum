@@ -10,7 +10,7 @@ tags:
 
 aspects:
   - introduction
-
+  - workout
 type: exercise
 
 linkType: codepen
@@ -19,7 +19,8 @@ link: https://codepen.io/enkidevs/pen/GBMJJg
 solution: https://codepen.io/enkidevs/pen/pKMGxe
 
 standards:
-  web.layout-html.0: 10
+  web.layout-html.0: 1000
+  web.html-forms.2: 1000
 
 links:
   - '[MDN docs for button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button){website}'
