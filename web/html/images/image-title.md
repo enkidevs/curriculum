@@ -22,16 +22,16 @@ aspects:
 ---
 ## Content
 
-The `title` attribute is used for representing helpful information about the element it belongs to.
-Usually via a tooltip.
-
-Tooltips appear to the user when they hover their mouse over the image.
+The `title` attribute can be added to any HTML element, but is most often used with images and links for when the use mouses over these elements, a tooltip will appear. 
 
 Example:
 ```
 <img src="logo.svg"
-  title="Tooltip Text Here">
+  title="Enki: Official Logo">
 ```
+
+##### --> image-title.svg
+
 ---
 ## Practice
 

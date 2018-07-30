@@ -26,61 +26,44 @@ links:
 ---
 ## Content
 
-In HTML, a lot of elements are called **Optional** elements. They are called **Optional** because either their starting, ending or both tags can be omitted.
-
-**Note: Just because an element's tag is omitted, either one or both, it doesn't mean the element itself is not present at all. It means that it is implied and there no matter if the markup code doesn't contain its tag.**
-
-For instance, the `<html>` element is the root element of every HTML page. So, if you omit its starting, ending or both tags, the element would still be implied by the browser, since all HTML documents have to have an `<html>` element. On the other hand, to omit the `<html>`, or any other optional element's tag, there are certain conditions to be met.
-
-To omit the `<html>` starting tag, the first thing within the `<html>` element cannot be a comment. Whereas to omit the `<html>` ending tag, the first thing after the `<html>` element cannot be a comment.
+In HTML5, there is actually a lot of optional tags where either the starting, ending, or both tags can be omitted. It can be a little usual working with optional tags because just because an element's tag is omitted, it doesn't mean the element itself is not present at all. It means that it is implied and is there no matter if the markup code doesn't contain the typical tags.
 
 Some optional elements:
+  - `<html>`
   - `<head>`
   - `<body>`
-  - `<p>`
-  - `<option>`
+  - `<p>`'s closing tag.
 
-Their conditions:
+Although this isn't a very common practice, Google's HTML styleguide recommends that optional tags be used to help cut down on the file size and improve the scannability of the document. They also recommend that developers not pick some optional tags and omit others as consistency is important in avoiding simple mistakes.
 
-The `<head>` elements starting tag can be omitted if the element is either empty or the first thing within it is another element. Whereas the ending tag can be omitted if the `<head>` element is not followed by a comment or a space character.
-
-The `<body>` elements starting tag can be omitted if the element is either empty or the first thing inside the element is not a comment or a space character. Whereas the ending tag can be omitted if the element is not followed by a comment. On the other hand, this element has an exception; if the first thing inside the `<body>` element is a `<link>`, `<meta>`, `<script>`, `<style>` or a `<template>` element, then the starting tag is not omissible.
-
-The `<p>` element starting tag cannot be omitted. Whereas the ending tag can be omitted if the element is immediately followed by an `<address>`, `<article>`, `<aside>`, `<blockquote>`, `<details>`, `<dl>`, `<fieldset>`, `<figcaption>`, `<figure>`, `<footer>`, `<form>`, any heading element `<h1>-<h6>`, `<header>`, `<hr>`, `<main>`, `<nav>`, `<ol>`, `<p>`, `<pre>`, `<section>`, `<table>` or an `<ul>` element. Also, the elements tag may be omitted if there is no more content in the parent HTML element, and that HTML element is not a `<a>`,  `<audio>`, `<del>`, `<ins>`, `<map>`, `<noscript>`, or a `<video>`.
-
-The `<option>` elements starting tag cannot be omitted. Whereas the ending tag can be omitted if the first thing after the `<option>` element is either another `<option>` or an `<optgroup>` element, or if there is no more content in the `<option>` element's parent element.
-
-For more elements and their condition check the learn more links section of this insight.
-
-Furthermore, as for the benefits of omitting tags, they are not high. You can save a little time on building the page and a little on bandwidth. On the other hand, not omitting tags is a very good practice because it makes the HTML code more consistent, easier to read, and also, the code becomes easier to convert to another Markup Languages like XHTML.
-
-
-Example where no tag is omitted:
 ```
+<!-- Google: Not recommended -->
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Option #1</title>
+    <title>Spending money,
+    spending bytes</title>
   </head>
   <body>
-    <p>Hello.</p>
+    <p>Sic.</p>
   </body>
 </html>
 ```
 
-Example with same output where tags are omitted:
 ```
+<!-- Google: Recommended -->
 <!DOCTYPE html>
-<title>Option #2</title>
-<p>Hello.
+<title>Saving money,
+saving bytes</title>
+<p>Qed.
 ```
 
-Even though both examples produce the same output on most browsers, some old ones may not interpret the second example properly. Also, the first example is what Google recommends for HTML5 pages today.  Because of this and for consistency, you should always structure your HTML like it is in the first example.
+In order for the document to display properly with all the optional tags omitted, there are various conditions that need to be met for the document to display properly. <!--All of these conditions can be found in [greater detail here](https://www.w3.org/TR/html5/syntax.html#optional-tags)-->
 
 ---
 ## Practice
 
-Which one of these elements is implied even if the string is not located in the markup?
+Which one of these elements is implied, even if the tags are not written in the markup code?
 
 ???
 
@@ -88,14 +71,30 @@ Which one of these elements is implied even if the string is not located in the 
 * `<audio>`
 * `<link>`
 * `<mainelement>`
+* `<p>`
 
 ---
 ## Revision
 
+What are optional elements?
+
+???
+
+* Elements where either the starting, ending, or both tags may be omitted.
+* Elements that are always there regardless of the code.
+* Elements that have different options within them.
+* Optional elements is just a name for HTML elements.
+
+---
+## Quiz
+
+### How much do you know about optional elements?
+
 Which page structure is recommended by Google for HTML5 pages today?
 
-```
----------Option 1--------------
+Option 1  
+
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -106,27 +105,15 @@ Which page structure is recommended by Google for HTML5 pages today?
   </body>
 </html>
 
----------Option 2--------------
+Option 2  
+
+```html
 <!DOCTYPE html>
 <title>Option #2</title>
 <p>Hello.
 ```
 
-???
-
-* Option 1
 * Option 2
-
----
-## Quiz
-
-### How much do you know about optional elements?
-
-What are optional elements?
-
-???
-
-* Elements where either the starting, ending or both tags may be omitted.
-* Elements that are always there, even if the code for them isn't.
-* Elements that have different options within them.
-* Optional elements is just a name for HTML elements.
+* Option 1
+* Neither
+* Both

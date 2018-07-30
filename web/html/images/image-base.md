@@ -18,7 +18,6 @@ aspects:
   - obscura
 
 links:
-  - '[w3schools on tags](https://www.w3schools.com/tags/tag_base.asp){website}'
   - '[Documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base){documentation}'
 
 ---
