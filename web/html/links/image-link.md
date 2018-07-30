@@ -80,12 +80,13 @@ How much do you know about links and images?
 
 ???
 
-```
+```html
 <a href="http://www.site.com">
   <p>These are my favoriate places:</p>
   <img src="mountain.jpg" alt="Snowy Mountain">
   <img src="beach.jpg" alt="Sandy Beach">
-</a>```
+</a>
+```
 
 * The text and images will be linked to the same site.
 * The text and images will not link to the site this way.
