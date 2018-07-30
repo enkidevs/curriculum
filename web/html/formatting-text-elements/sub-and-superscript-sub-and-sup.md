@@ -1,5 +1,5 @@
 ---
-author: matthew-leach
+author: matthewleach
 
 levels:
   - beginner
