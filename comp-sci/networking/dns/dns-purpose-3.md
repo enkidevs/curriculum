@@ -40,6 +40,8 @@ Finally, an entire domain name is required in order to map to a specific IP addr
 
 Which of the following values can be mapped to an IP address using DNS?
 
+???
+
 * www.tebs-lab.com
 * someone_special@gmail.com
 * https://tebs-game-of-life.com/conways-editor/conways-editor.html
