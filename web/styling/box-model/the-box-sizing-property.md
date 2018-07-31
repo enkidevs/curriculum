@@ -32,7 +32,7 @@ This is where `box-sizing` comes in. The property may be changed to set the oute
 That means the `width` and `height` specified for the element are not its final sizes, and additional `padding`, `border` or `margin` will push its border. 
 
 The next possible value is `padding-box`. As the name states, the new limit is set to enclose the `padding` as well. In this case, the `content` will be shrunk to make room for the padding:
-```
+```css
 /* the final width of the box will be 500px
   leaving only 440px for the content */
 div{
@@ -44,7 +44,7 @@ div{
 ```
 
 The last value is `border-box`. In this case, any `border` or `padding` property is included within the `width` and `height` of the element. In other words, only `margin` will increase its size.
-```
+```css
 /* only 500-2*30-2*5= 430px width left 
  for the content */
 div{
@@ -60,7 +60,7 @@ Usually, the best model to use is `border-box`. It makes the math easier, as the
 ## Practice
 
 For which `box-sizing` value, the `width` property contains both the content and the padding?
-```
+```css
 box-sizing: ???;
 ```
 
@@ -73,7 +73,7 @@ box-sizing: ???;
 ## Revision
 
 For which `box-sizing` value, the `width` property contains the content, the padding and the border?
-```
+```css
 box-sizing: ???;
 ```
 
