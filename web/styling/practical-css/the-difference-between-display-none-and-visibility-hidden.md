@@ -29,7 +29,7 @@ links:
 
 `visibility:hidden` defines that an element is rendered on the page but not visible. Space on the page will be allocated for this element.
 
-```
+```css
 #foo {
   visibility:hidden;
 }
