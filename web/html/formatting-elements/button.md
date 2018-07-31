@@ -9,11 +9,14 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.layout-html.0: 10
+  web.html-forms.2: 10
 
 
-tags:
+aspects:
   - introduction
+  - workout
 
 links:
   - '[CodePen: button Element](https://codepen.io/enkidevs/pen/dKQxjM){code}'

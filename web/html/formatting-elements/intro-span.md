@@ -9,11 +9,13 @@ type: normal
 
 category: must-know
 
-stub: true
+standards:
+  web.layout-html.0: 1000
+  web.layout-html.2: 1000
 
-tags:
+aspects:
   - introduction
-
+  - workout
 links:
   - '[CodePen: Span Element](https://codepen.io/enkidevs/pen/JZwPQO){code}'
   - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
