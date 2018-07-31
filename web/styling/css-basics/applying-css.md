@@ -47,7 +47,7 @@ The `href` attribute contains the path to the `.css` file, much like it would wo
 ## Practice
 
 Complete the HTML snippet to import an external CSS file:
-```
+```html
 <head>
   <??? ???="stylesheet"
            ???="index.css" />
