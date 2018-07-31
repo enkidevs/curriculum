@@ -28,7 +28,7 @@ We have talked about *selectors* and *specificity* using almost the same CSS pro
 
 ### Colors
 Each of these CSS declarations specifies the same thing: that a every `div` tag should have a white background by default.
-```
+```css
 .div-hex {
 /* hexadecimal value */
 background-color: #ffffff;
