@@ -44,7 +44,7 @@ id priority > class priority > type priority
 ```
 
 The last step in calculating a selector's specificity is to see the above as the header of a table with three columns:
-```
+```text
          id - class - type
 selector  0 -   0   -  0  
 ```
