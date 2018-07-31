@@ -32,7 +32,7 @@ links:
 
 Use `clearfix` to make an element automatically clear its child elements, so there would be no need for additional markup :
 
-```
+```css
 .clearfix:after {
   content: "";
   clear: both;
