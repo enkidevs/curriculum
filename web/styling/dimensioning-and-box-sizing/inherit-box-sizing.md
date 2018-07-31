@@ -28,7 +28,7 @@ parent: use-box-sizing-to-define-an-element-s-width-and-height-properties
 
 Say you want to set `box-sizing` `border-box` to every element in the page:
 
-```
+```css
 * {
   box-sizing: border-box;
 }
@@ -47,7 +47,7 @@ One way around it would be to change the property value for those images:
 However, this is an example bad practice because the `box-sizing` is set by yourself and can be confusing.
 
 A better way of doing it is by letting  `box-sizing` be inherited from the parent component:
-```
+```css
 html {
   box-sizing: border-box;
 }
