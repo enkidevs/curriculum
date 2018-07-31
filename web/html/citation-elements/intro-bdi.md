@@ -23,23 +23,34 @@ aspects:
   - obscura
 
 links:
+  - '[CodePen: bdi element](https://codepen.io/enkidevs/pen/yERBoJ){code}'
   - '[MDN docs for bdi](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdi){website}'
+  - '[MDN docs for User Agent](https://developer.mozilla.org/en-US/docs/Glossary/user_agent){website}'
 
 ---
 # bdi Element
 ---
 ## Content
 
-The HTML `<bdi>`, or **The Bidirectional Isolation element** is used to isolate a span of text that might be formatted in a different direction than other text.
+The HTML `<bdi>`, or the **Bidirectional Isolation** element, is used to isolate a span of text that might be formatted in a different direction than other text - typically working with languages from different languages whose direction is unknown.
 
-This element is also useful for text whose direction is unknown.
+For instance, you can use this on a text that is in English (written left-right), to present it in Arabic (written right-left). The '[user agent](https://developer.mozilla.org/en-US/docs/Glossary/user_agent)' detects that the text should be rendered differently and adjusts accordingly.
 
-For instance, you can use this on a text that is in English(written left-right), to present it in Arabic (written right-left). The '[user agent](https://developer.mozilla.org/en-US/docs/Glossary/user_agent)'  detects then detects that the text should be rendered differently and adjusts accordingly.
+If you don't use the `<bdi>` element when working with alphanumeric numbers and Arabic text can you see how the code doesn't display as you would expect?:
+```html
+<p>
+  User: ماثيو
+  428 points.
+</p>
+```
+The strange result would be:
 
-Also, if you want numbers displayed properly with, for instance, Arabic, you have to use the `<bdi>` element:
+![bdi-bad](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2252%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2252%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2218%22%20y%3D%2231%22%3EUser%3A%20428%20%D9%85%D8%A7%D8%AB%D9%8A%D9%88%20points.%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+
+In order to display the numbers properly with, for instance, Arabic, here is how the `<bdi>` element fixes this issue:
 
 Example:
-```
+```html
 <p>
   User:
   <bdi>ماثيو</bdi>
@@ -47,34 +58,15 @@ Example:
 </p>
 
 ```
-Result:
-```
-  User:
-  ماثيو
-  428 points.
-```
-On the other hand, if you don't use the `<bdi>` element, like so:
-```
-<p>
-  User:
-  ماثيو
-  428 points.
-</p>
-```
-The result would be:
-```
-  User:
-  428
-  ماثيو  
-  points.
-```
+bdi Result:
 
-**Note: The `<dir>` attribute doesn't behave normally like other attributes. When nesting with `<bdi>` it defaults to`auto`, meaning the value is never inherited from the parent. So, unless you specify an `rtl` or `ltr` attribute for `dir`, the user agent will determine the correct directionality from the content of the `<bdi>` element.**
+![bdi-good](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2252%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2252%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2218%22%20y%3D%2231%22%3EUser%3A%20%D9%85%D8%A7%D8%AB%D9%8A%D9%88%20%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2294%22%20y%3D%2232%22%3E428%20points.%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-By using the `unicode-bidi : isolate` CSS rule you can achieve the same effect as with the `<bdi>` element. Nevertheless, it is always better to use the `<bdi>` because it provides important semantic meaning, whereas the CSS rule is only presentational.
+<!--[Visit CodePen](https://codepen.io/enkidevs/pen/yERBoJ)-->
+
+The CSS rule `unicode-bidi : isolate` can achieve the same effect as with the `<bdi>` element. Nevertheless, it is always better to use the `<bdi>` because it provides important semantic meaning, whereas the CSS rule is only presentational.
 
 This is also important because browsers can ignore CSS styling. So using `<bdi>` displays text correctly, whereas with the CSS `unicode-bidi: isolate` styling would render the text backward due to loss of styling.
-
 
 ---
 ## Practice
@@ -109,7 +101,7 @@ Which HTML element is used to isolate a span of text that might be formatted in 
 
 Without the `<bdi>` element, what would happen to the Arabic username and the points?
 
-```
+```html
 <p>
   User: <bdi>ماثيو</bdi> 428 points.
 </p>

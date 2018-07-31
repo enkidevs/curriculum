@@ -119,6 +119,7 @@ An intersting feature of **JavaScript**'s prototype inheritance is how `this`, s
 %
 
 ---
+
 ```javascript
 function user(){
   this.type = "user";

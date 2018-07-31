@@ -17,8 +17,7 @@ aspects:
   - workout
 
 links:
-  - '[w3schools on Height](https://www.w3schools.com/tags/att_img_height.asp){website}'
-  - '[w3schools on width](https://www.w3schools.com/tags/att_img_width.asp){website}'
+  - '[CodePen: Image Height and Width](https://codepen.io/enkidevs/pen/GBRLYE){code}'
   - '[Documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img){documentation}'
 
 ---
@@ -26,21 +25,30 @@ links:
 ---
 ## Content
 
-In HTML the image size is set with the `height` and `width` attributes. The values in these attributes are in pixels.
+When working with image sizes, this can seem easy to start with, but it is a little tricky today because of responsive websites. Traditionally, the image size in HTML is set with the `height` and `width` attributes, both values set in pixels.
 
 Example:
 ```
-<img src="some_image.svg"
-    height="36"
-    width="36">
+<img src="logo.svg"
+    height="80"
+    width="140">
 ```
 
-It is important to specify both the `height` and `width` attributes of your image. This makes the browser reserve appropriate space for the image, even before the image is loaded. Having no `height` and `width` attributes can make the layout of your page change as the page and picture load.
+Browsers render your page faster and more cleanly (aka the browser will reserve appropriate space for the image, even before the image is loaded preventing loading images from forcing changes in the page layout during loading) when the height and width are used, but in order to these images to be responsive, their height and width will be overridden using CSS. 
 
-Notes:
-- Resizing images to be smaller in HTML is bad because it doesn't really change the image filesize. The image will just appear smaller, and the user will still download the image in its original filesize.
-- Same goes for resizing the image to be bigger in HTML. The filesize is unchanged, plus the picture will appear pixelated and distorted.
-- You can also use CSS to override the HTML `height` and `width` attributes, and this is considered a **best practice**.
+```HTML
+<img src="logo.svg"
+    height="80"
+    width="140">
+```
+
+```CSS
+img {
+    width: 100%;
+    height: auto;
+} 
+```
+![View CodePen](https://codepen.io/enkidevs/pen/GBRLYE)
 
 ---
 ## Practice
@@ -49,28 +57,28 @@ Fill in the appropriate attributes/values for creating an image in HTML?
 
 `<??? ???="image.svg" ???="200" ???="200">`
 
-+ img
-+ src
-+ height
-+ width
-- length
-- size
-- tall
-- wide
+* img
+* src
+* height
+* width
+* length
+* size
+* tall
+* wide
 
 ---
 ## Revision
 
-What are the appropriate attributes for setting the image size in HTML?
+What are the appropriate attributes for setting the image size in HTML? (Please provide the two words/answers alphabetically in order.)
 
 `<img src="image.svg" ___="200" ___="200">`
 
-+ height
-+ width
-- length
-- size
-- tall
-- wide
+* height
+* width
+* length
+* size
+* tall
+* wide
 
 ---
 ## Quiz

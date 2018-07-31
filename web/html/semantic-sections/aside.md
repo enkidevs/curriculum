@@ -48,8 +48,6 @@ Example:
 </aside>
 ```
 
-The `<aside>` element can never be a descendant of the `<address>` element.
-
 ---
 ## Practice
 
@@ -57,7 +55,7 @@ What content would be well placed within an aside?
 
 ???
 
-* all 4
+* all 4 of these choices
 * pull quotes
 * sidebar
 * advertising

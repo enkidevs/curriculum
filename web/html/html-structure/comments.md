@@ -19,28 +19,30 @@ aspects:
 ---
 ## Content
 
-In HTML, you can add comments via a comment tag.
+In HTML, you can add notes that will not render within the web page and are useful for yourself and other developers via a comment tag.
 
 Example:
 ```
 <!-- HTML Comment Goes Here -->
 ```
 
-HTML comments are very useful. They can be used as reminders for what our code does or help us with adding comments when debugging. Instead of removing a block of code, you can just put it in a comment and later on decide what to do with it.
+HTML comments are very useful. They can be used as reminders for what our code does or help us with adding comments when debugging. Instead of removing a block of code, you can just wrap it in a comment and later on decide what to do with it.
 
-The good thing about comments is they are not rendered by the browser and are only visible in the source code.
+Comments are never visible within the website and are only visible in the source code.
 
-Also, comments can span multiple rows.
+Also, comments can be on a single line or span multiple rows.
 
 Example:
 ```
+<!-- Single line comment -->
+
 <!--
 <h1 Some header</h1>
 <p>Random paragraph.</p>
 <a
   href="https://www.enki.com">
   This is a link
-  </a>
+</a>
 -->
 ```
 
