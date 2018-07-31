@@ -9,7 +9,7 @@ tags:
   - workout
 
 type: normal
-category: fundamental
+category: must-know
 standards:
   cs.networking.dns.0: 10
 

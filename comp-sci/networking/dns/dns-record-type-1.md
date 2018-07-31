@@ -10,7 +10,7 @@ aspects:
   - workout
 
 type: normal
-category: fundamental
+category: must-know
 
 standards:
   comp-sci.dns.2: 10
