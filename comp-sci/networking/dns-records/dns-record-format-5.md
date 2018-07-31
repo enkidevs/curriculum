@@ -3,7 +3,6 @@ author: TebbaVonMathenstein
 
 levels:
   - advanced
-  - obscure
 
 aspects:
   - workout
