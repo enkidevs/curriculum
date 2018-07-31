@@ -27,7 +27,7 @@ links:
 
 Rather than adding `line-height` to each element:
 
-```
+```css
 p {
   line-height: 1;
 }
@@ -41,12 +41,11 @@ h2 {
 }
 
 
-
 ```
 
 
 Add it to `body` directly:
-```
+```css
 body {
   line-height: 1;
 }
