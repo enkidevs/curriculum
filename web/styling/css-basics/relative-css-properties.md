@@ -79,7 +79,7 @@ Relative values are a great way of making pages responsive.
 ## Practice
 
 For the following CSS code:
-```
+```css
 .container{
   font-size: 20px;
   width: 500px;
