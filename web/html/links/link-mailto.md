@@ -23,7 +23,7 @@ links:
 The HTML anchor `mailto:EMAILHERE` attribute is used to create a hyperlink, which when clicked opens the users default email program with the email address auto loaded to allow them to send a message.
 
 Creating a link to open the user's default email program:
-```
+```html
 <a 
   href="mailto:me@enkipro.com">
   Email me here
@@ -40,7 +40,7 @@ Next to just opening the user's default email program, you can also populate the
 **Note: When adding the subject, it is important to remember that instead of space you need to write `%20`.**
 
 Example:
-```
+```html
 <a 
   href="mailto:me@enkipro.com?
         subject=Email%20Subject"> 
@@ -49,7 +49,7 @@ Email me
 ```
 
 Result:
-```
+```html
 Email me
 ```
 
@@ -89,7 +89,7 @@ What code is used to create a link that when clicked opens the user’s default 
 
 Create a link that when clicked opens the user’s default email program with an auto-loaded email address and email subject?
 
-```
+```html
 <a 
   href="??? ??? ??? ???=???">
 Email Me
