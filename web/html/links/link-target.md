@@ -24,7 +24,7 @@ links:
 Typically, a link will open another page within it's own window. This is because the default value for the target (or where the content should open) has the value of `_self`. 
 
 Typical link:
-```
+```html
 <a 
   href="https://www.enki.com/"> 
   Links opens within existing window. 
@@ -32,7 +32,7 @@ Typical link:
 ```
 
 Link with default value displayed: 
-```
+```html
 <a 
   href="https://www.enki.com/" 
   target="_self"> 
@@ -51,7 +51,7 @@ The other values for the target are `target="value"`:
  - framename = Opens the link in a named frame
 
 Example of opening the link in a different tab:
-```
+```html
 <a 
   href="https://www.enki.com/" 
   target="_blank"> 
