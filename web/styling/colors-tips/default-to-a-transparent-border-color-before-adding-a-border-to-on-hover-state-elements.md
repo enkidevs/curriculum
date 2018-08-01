@@ -34,14 +34,14 @@ By using a transparent border as a default, then changing the `border-color` on 
 
 Instead of:
 
-```
+```css
 button:hover {
   border: 2px solid black;
 }
 ```
 
 Use this:
-```
+```css
 button {
   border: 2px solid transparent;
 }

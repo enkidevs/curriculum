@@ -30,7 +30,7 @@ links:
 ## Content
 
 For styling a 7-column grid you may use something like :
-```
+```css
 .column-1-7 {
    width: 14.2857%;
 }
@@ -43,7 +43,7 @@ For styling a 7-column grid you may use something like :
 ```
 
 Use the calc() function instead to make the maths behind the layout easier to understand :
-```
+```css
 .column-1-7 {
    width: calc(100% / 7);
 }
@@ -56,7 +56,7 @@ Use the calc() function instead to make the maths behind the layout easier to un
 ```
 
 You can also mix units!
-```
+```css
 .mixing {
    width: calc(50% + 30px);
 }

@@ -27,7 +27,7 @@ links:
 ## Content
 
 To make list items look like a real, comma-separated list:
-```
+```css
 ul > li:not(:last-child)::after {
   content: ",";
 }
@@ -38,7 +38,7 @@ The `:not()` pseudo-class specifies that no comma is added to the last item in t
 ## Practice
 
 Complete the snippet to target every list item’s after element, but the last one:
-```
+```css
 ul > ??? :not(???)
            ::after{
   /* code */

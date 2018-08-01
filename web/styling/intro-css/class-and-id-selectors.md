@@ -71,7 +71,7 @@ Which of the following selectors does *always* target a single element?
 ## Revision
 
 In CSS, the syntax for targeting elements within a certain class is:
-```
+```css
 ???
 ```
 

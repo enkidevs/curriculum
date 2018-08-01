@@ -37,7 +37,7 @@ links:
 
 With `px` :
 
-```
+```css
 .bodytext p {
     font-size:14px;
 }
@@ -47,7 +47,7 @@ With `px` :
 ```
 
 Or, using `em` :
-```
+```css
 .bodytext p {
     font-size:0.875em; /* 16x.875=14 */
 }

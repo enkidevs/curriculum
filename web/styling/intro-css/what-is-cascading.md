@@ -54,7 +54,7 @@ CSS doesn't always behave like this, however. There is a property of selectors, 
 ## Practice
 
 What is the final `background-color` of the `<p>` elements?
-```
+```css
 p {
  background-color: blue;
  background-color: red;

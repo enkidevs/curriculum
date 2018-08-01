@@ -30,7 +30,7 @@ div{
 }
 ```
 Or using the shorthand notation, that respects the same order:
-```
+```css
 div{
   border: 4px solid red;
 }
@@ -38,7 +38,7 @@ div{
 Borders can have different styles, of which the most common is `solid`. Others are `dashed`,`dotted` or `double`.
 
 You can also set borders for sides individually:
-```
+```css
 div{
   border-left: 4px dashed red;
   border-top: 2px double blue;
@@ -50,7 +50,7 @@ div{
 ## Practice
 
 In the shorthand declaration, where is the style of the border located?
-```
+```css
 border: 1 2 3;
 ```
 ???
@@ -63,7 +63,7 @@ border: 1 2 3;
 ## Revision
 
 In the shorthand declaration, where is the color of the border located?
-```
+```css
 border: 1 2 3;
 ```
 ???

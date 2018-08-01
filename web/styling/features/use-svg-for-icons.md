@@ -28,7 +28,7 @@ notes: ''
 ## Content
 
 Since `SVG` (Scalable Vector Graphics) scales well for all resolution types, it is useful for icons:
-```
+```css
 .logo {
   background: url("logo.svg");
 }
