@@ -12,7 +12,7 @@ type: normal
 category: must-know
 
 standards:
-  comp-sci.networking.dns.0: 10
+  comp-sci.dns.0: 10
 
 links:
 
