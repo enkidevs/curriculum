@@ -34,7 +34,7 @@ The `<datalist>` element is used to provide the `<input>` element with the `auto
 The value of `<list>` must be the `id` of the `<datalist>` element within the same document.
 
 Example:
-```
+```html
 <form
   action="file.php"
   method="get">
@@ -65,7 +65,7 @@ Example:
 
 Complete the code so that the input field displays a dropdown list.
 
-```
+```html
 <form
   action="file.php"
   method="get">
@@ -96,7 +96,7 @@ Complete the code so that the input field displays a dropdown list.
 
 Which form attribute is used to connect pre-defined options of a datalist as an input dropdown?
 
-```
+```html
 <form
   action="file.php"
   method="get">
