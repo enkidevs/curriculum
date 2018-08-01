@@ -31,7 +31,7 @@ When specified, the `formnovalidate` attribute overrides the `novalidate` attrib
 
 Example:
 
-```
+```html
 <form
  action="/action_page.php" novalidate >
  E-mail:
@@ -50,7 +50,7 @@ Example:
 
 Complete the code by adding the appropriate input form attributes to disable the validation within the form element and in the submit button.
 
-```
+```html
 <form
  action="/action_page.php" ??? >
  E-mail:
@@ -71,7 +71,7 @@ Complete the code by adding the appropriate input form attributes to disable the
 
 Complete the code by adding the appropriate input form attributes to disable the validation within the form element and in the submit button.
 
-```
+```html
 <form
  action="/action_page.php" ??? >
  E-mail:
