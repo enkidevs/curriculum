@@ -30,7 +30,7 @@ links:
 Since HTML5, the `<audio>` tag is used to embed audio on a web page or document. 
 
 Like so:
-```
+```html
 <audio src="audio.mp3" controls>
   <p>
     You're seeing this because
@@ -52,7 +52,7 @@ Adding the `controls` attribute allows the browser to offer controls to the user
 You can also add more songs via the `<source>` element.
 
 Example 1:
-```
+```html
 <audio controls>
   <source src="one_song.mp3"
     type="audio/mpeg">
@@ -63,7 +63,7 @@ Example 1:
 ```
 
 Example 2:
-```
+```html
 <audio controls>
   <source src="some_song.mp3"
     type="audio/mpeg">
@@ -89,7 +89,7 @@ Adding more file formats is good for when a browser can't play a particular file
 ## Practice
 
 Add an audio player with controls for a single song:
-```
+```html
 <??? ???=??? ???>
   <p>
   If you are reading this,
