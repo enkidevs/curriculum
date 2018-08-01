@@ -28,7 +28,7 @@ links:
 The HTML `oninput` event occurs immediately after the value of an element has changed.
 
 Here's an `oninput` event that will executing a JavaScript function after the user puts in a value:
-```
+```html
 <input
   type="text"
   oninput="jsFunction()">
@@ -57,7 +57,7 @@ onchange: ???
 
 Which form attribute is used to call a JavaScript when a user writes something within an `<input>` field?
 
-```
+```html
 <input
   type="text"
   ???="jsFunction()">
