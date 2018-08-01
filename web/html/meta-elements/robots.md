@@ -26,7 +26,7 @@ tags:
 The HTML meta `robot` attribute is used to define the behavior that robots, or cooperative crawlers, should follow on a page.
 
 Example:
-```
+```html
 <meta
   name="robots"
   content="noindex, nofollow'>
