@@ -74,7 +74,6 @@ What elements are used in this code?
 * Headings and Paragraphs
 * Images and Links
 * Parameters and Anchors
-* Anchors and Headings
 
 ---
 ## Revision
