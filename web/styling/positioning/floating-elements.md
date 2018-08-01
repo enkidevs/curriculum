@@ -2,7 +2,6 @@
 author: mihaiberq
 
 levels:
-
   - beginner
 
 type: normal
@@ -11,9 +10,8 @@ category: must-know
 
 inAlgoPool: false
 
-
 links:
-
+  - '[Scrimba CSS Float & Clear](https://scrimba.com/p/pWvwCg/cD6KWHq){website}'
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/float){documentation}'
 
 

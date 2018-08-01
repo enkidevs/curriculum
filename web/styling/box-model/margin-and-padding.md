@@ -2,13 +2,9 @@
 author: mihaiberq
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
-
   - beginner
 
 type: normal
@@ -19,10 +15,10 @@ inAlgoPool: false
 
 
 links:
-
+  - '[Scrimba CSS Margins](https://scrimba.com/p/pWvwCg/cpKPmh9){website}'
   - '[MDN margin](https://developer.mozilla.org/en-US/docs/Web/CSS/margin){documentation}'
   - '[MDN padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding){documentation}'
-
+  - '[Scrimba CSS Padding](https://scrimba.com/p/pWvwCg/czM84uZ){website}'
 
 ---
 

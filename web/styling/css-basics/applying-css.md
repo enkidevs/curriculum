@@ -2,7 +2,6 @@
 author: mihaiberq
 
 levels:
-
   - beginner
 
 type: normal
@@ -12,9 +11,8 @@ category: must-know
 inAlgoPool: false
 
 links:
-
   - '[MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS){documentation}'
-
+  - '[Scrimba CSS Documents & Cascade](https://scrimba.com/p/pWvwCg/c3vE7cg){website}'
 
 ---
 

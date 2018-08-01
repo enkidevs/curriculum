@@ -2,23 +2,18 @@
 author: jordanfish
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
 
 category: how to
 
-
 links:
-
+  - '[Scrimba CSS Pseudo Classes / Elements](https://scrimba.com/p/pWvwCg/cbmMJSb){website}'
   - '[github.com](https://github.com/AllThingsSmitty/css-protips){website}'
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child){documentation}'
-
 
 ---
 
