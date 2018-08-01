@@ -30,14 +30,14 @@ links:
 The HTML input element of type `text` is used to create basic single line text fields.
 
 Example:
-```
+```html
 <input type="text">
 ```
 
 These text fields are useful for instance when you need single line inputs like for creating a new account.
 
 Example new account:
-```
+```html
 <form>
   <div>
     <label
@@ -70,7 +70,7 @@ Example new account:
 Next, you can control the physical size of your input fields with the `size` attribute. The `size` attribute sets the width of the text field in terms of characters rather than pixels.
 
 Example:
-```
+```html
 <input type="text" size="10" >
 ```
 
@@ -79,7 +79,7 @@ Example:
 
 Write the form code that creates a single line input for text.
 
-```
+```html
 <??? ???="???">
 ```
 
@@ -108,7 +108,7 @@ Which line creates a HTML form’s input text field?
 
 What does the required attribute do in this code?
 
-```
+```html
 <form>
   <div>
     <label
