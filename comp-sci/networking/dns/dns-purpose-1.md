@@ -10,8 +10,9 @@ tags:
 
 type: normal
 category: must-know
+
 standards:
-  cs.networking.dns.0: 10
+  comp-sci.networking.dns.0: 10
 
 links:
 
