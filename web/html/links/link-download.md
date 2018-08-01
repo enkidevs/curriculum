@@ -23,7 +23,7 @@ links:
 When links connect to web files or images, the page will navigate to that content and display accordingly. But when non-web files or images are linked, those files will be downloaded to the user's computer.  
  
 Example of a non-web download link:
-```
+```html
 <a href="enki.zip">
 Download Zip
 </a>
@@ -35,7 +35,7 @@ Result:
 When web files and images are meant to be downloaded by the user, then the download attribute can be used to force that content to download just like a non-web file or image. 
 
 Example of a web download link:
-```
+```html
 <a 
   href="summary.html" 
   download="Today's%20Summary"> 
