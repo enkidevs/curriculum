@@ -34,7 +34,7 @@ links:
 The HTML `<th>` element  stands to "tabular headers" and is used to specify a header cell for a group of table cells within a table. The `<th>` element has to nested within a `<tr>` element. By default, the text within a `<th>` element will appear centered and bold.
 
 Example:
-```
+```html
 <table>
   <tr>
     <th>Username</th>
@@ -63,7 +63,7 @@ With CSS styles, the same table can really stand out visually:
 
 The colspan and rowspan attributes can be useful in setting the table headers to span over multiple columns or rows.
 
-```
+```html
 <th colspan="2">
   Monthly Savings
 </th>
@@ -91,7 +91,7 @@ Sometimes it can make sense using tabular headers on both the first row and firs
 
 The `abbr` attribute is used to add an abbreviated description for the content of a cell and speech readers may present this description rather than the content of the cell.
 
-```
+```html
 <table>
   <tr>
     <th abbr="Make">
@@ -119,7 +119,7 @@ The `abbr` attribute is used to add an abbreviated description for the content o
 
 Arrange the HTML tags to properly create this table:
 
-```
+```html
 <tag1>
   <tag2>
     <tag3>
