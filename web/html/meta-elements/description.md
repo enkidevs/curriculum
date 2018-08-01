@@ -27,7 +27,7 @@ aspects:
 The HTML meta `description` attribute is used to add a short summary of the content of the web page.
 
 Example:
-```
+```html
 <meta
   name="description"
   content="Short summary here">
