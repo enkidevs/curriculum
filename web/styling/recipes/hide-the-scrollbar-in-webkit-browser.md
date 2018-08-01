@@ -34,13 +34,13 @@ links:
 
 To hide the scrollbar on a particular element: 
 
-```
+```css
 #element::-webkit-scrollbar { 
     display: none; 
 }
 ```
 Or, hide all scrollbars on the page:
-```
+```css
 ::-webkit-scrollbar { 
     display: none; 
 }
@@ -51,7 +51,7 @@ Or, hide all scrollbars on the page:
 
 Complete the code snippet to hide all scrollbars on a webkit browser page:
 
-```
+```css
 ??? {  
     display: ???;  
 } 

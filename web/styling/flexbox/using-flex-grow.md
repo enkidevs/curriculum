@@ -33,7 +33,7 @@ links:
 For example, if all items have flex-grow set to 1, every child will set to an equal size inside the container. If you were to give one of the children a value of 2, that child would take up twice as much space as the others.
 
 
-```
+```html
 <ul class="flex-container">
   <li class="flex-item">1</li>
   <li class="flex-item">2</li>
@@ -44,7 +44,7 @@ For example, if all items have flex-grow set to 1, every child will set to an eq
 ```
 ___
 
-```
+```css
 .flex-item:nth-of-type(1) { flex-grow: 1; }
 .flex-item:nth-of-type(2) { flex-grow: 1; }
 .flex-item:nth-of-type(3) { flex-grow: 2; }
@@ -59,7 +59,7 @@ Box 3 will take up twice as much space as the others:
 ## Practice
 
 Complete the snippet to make `.grow` elements to take three times as much space as the other elements in the flex container:
-```
+```css
 .flexGrow{
   ??? : ???;
 }

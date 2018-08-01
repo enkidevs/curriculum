@@ -42,7 +42,7 @@ Setting it to _paused_ stops your animation in place, until you change `animatio
 ## Practice
 
 How do you restart an animation?
-```
+```css
 .animation:hover{
   ???:
         ???;

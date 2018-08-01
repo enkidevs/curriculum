@@ -13,7 +13,8 @@ inAlgoPool: false
 
 links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors){documentation}'
-
+  - '[Scrimba CSS Selectors, Properties & Values](https://scrimba.com/p/pWvwCg/cpKbvTV){website}'
+  - "[Scrimba CSS Classes and ID's](https://scrimba.com/p/pWvwCg/cBQp9Cw){website}"
 
 ---
 
@@ -70,7 +71,7 @@ Which of the following selectors does *always* target a single element?
 ## Revision
 
 In CSS, the syntax for targeting elements within a certain class is:
-```
+```css
 ???
 ```
 

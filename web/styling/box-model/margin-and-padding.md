@@ -2,13 +2,9 @@
 author: mihaiberq
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
-
   - beginner
 
 type: normal
@@ -19,10 +15,10 @@ inAlgoPool: false
 
 
 links:
-
+  - '[Scrimba CSS Margins](https://scrimba.com/p/pWvwCg/cpKPmh9){website}'
   - '[MDN margin](https://developer.mozilla.org/en-US/docs/Web/CSS/margin){documentation}'
   - '[MDN padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding){documentation}'
-
+  - '[Scrimba CSS Padding](https://scrimba.com/p/pWvwCg/czM84uZ){website}'
 
 ---
 
@@ -39,7 +35,7 @@ Different browsers may have different default values for elements, so specifying
 The `margin` property sets the amount of space that surrounds an element, outside its `border`. They are used for *positioning* the element inside a page and distancing it from other elements. 
 
 Like `border`, margins can be set individually:
-```
+```css
 div{ 
   margin-top:20px;
   margin-left: 10px;
@@ -47,7 +43,7 @@ div{
 }
 ```
 Or using the shorthand notation:
-```
+```css
 div{
 /* same value for top and bottom
    and left and right */
@@ -61,7 +57,7 @@ div{
 ### Padding
 
 The `padding` property sets the space between the `content` and the `border`, in case of the element having a border. The property is used to provide spacing inside an element:
-```
+```css
 div{
   padding: 10px;
 }
@@ -73,7 +69,7 @@ Unlike `margin`, it will extend the element borders:
 On the first line, neither of the rectangles have margin or padding. On the second line, the *green* one has `padding-right:50px`, while the *orange* one has `margin-left:30px`. You can see the difference between the two properties.
 
 Just like margins, you can set individual padding:
-```
+```css
 div{
   padding-top: 30px;
   padding-right: 15px;
@@ -89,7 +85,7 @@ div.special{
 ## Practice
 
 In the `padding` shorthand declaration, which value is the `padding-left`?
-```
+```css
 padding: 10px 0px 13px 5px;
 ```
 ???

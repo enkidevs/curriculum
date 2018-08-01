@@ -32,7 +32,7 @@ Two selectors can be combined to refer to a certain element. The most common one
 
 ### X+Y
 
-```
+```css
 ul + p {
    color: orangered;
 }
@@ -43,7 +43,7 @@ This is referred to as *an adjacent selector*. It will select only the element t
 
 ### X~Y
 
-```
+```css
 ul ~ p {
    font-weight: bold;
 }

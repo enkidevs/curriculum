@@ -31,7 +31,7 @@ tags:
 
 To make a navigation bar stay fixed on top of the page when a user scrolls: 
 
-```
+```css
 .fixed-nav-bar {
   position: fixed;
   top: 0;

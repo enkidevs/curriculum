@@ -29,7 +29,7 @@ links:
 
 `visibility:hidden` defines that an element is rendered on the page but not visible. Space on the page will be allocated for this element.
 
-```
+```css
 #foo {
   visibility:hidden;
 }
@@ -37,7 +37,7 @@ links:
 
 `display:none` defines that an element is not rendered on the page and thus does not appear. Unlike `visibility:hidden`, page space is not allocated for the element, allowing other elements to fill in.
 
-```
+```css
 #foo {
   display:none;
 }

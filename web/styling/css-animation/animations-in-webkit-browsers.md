@@ -33,7 +33,7 @@ links:
 Many Webkit browsers still use the `-webkit-prefixed` version of animations, keyframes, and transitions. 
 
 Until they fully adopt the standard version, it's good practice to include both versions (`unprefixed` & `webkit`) in your code:
-```
+```css
 div {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
