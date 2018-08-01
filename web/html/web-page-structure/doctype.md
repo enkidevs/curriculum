@@ -32,7 +32,7 @@ In HTML, every page, no matter the version of HTML it is written in, requires a 
 Technically, the doctype declaration isn't an HTML element, but a specific direction for browsers to understand they type of web page being delivered.
 
 The doctype declaration for HTML5 is:
-```
+```html
 <!DOCTYPE html>
 ```
 
