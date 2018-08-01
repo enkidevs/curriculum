@@ -35,7 +35,7 @@ The two most common lists in HTML are:
 
 **Ordered List:**
 
-```
+```html
 <ol>
   <li>Do this first.</li>
   <li>This second.</li>
@@ -49,7 +49,7 @@ The two most common lists in HTML are:
 
 **Unordered List:**
 
-```
+```html
 <ul>
   <li>Sleeping Bag</li>
   <li>Flashlight</li>
@@ -66,7 +66,7 @@ The two most common lists in HTML are:
 
 Lists can be nested within other lists. This is an example of an unordered list within an ordered list:
 
-```
+```html
 <p> Instructions </p>
 <ol>
   <li>Gather Ingredients:</li>
@@ -92,7 +92,7 @@ In the example above, the ordered list element `<ol>` is used as the main list b
 
 Complete the HTML code to create an unordered list within an ordered list.
 
-```
+```html
 <A>
   <B>Gather Ingredients:</B>
     <C>
@@ -122,7 +122,7 @@ C: ???
 
 Which code block will create this nested list?
 
-```
+```html
 1. Gather Ingredients:
   * 1 1/4 cup Nutella
   * 2 large eggs
@@ -133,7 +133,7 @@ Which code block will create this nested list?
 
 Option #1:
 
-```
+```html
 <ol>
   <li>Gather Ingredients:</li>
     <ul>
@@ -148,7 +148,7 @@ Option #1:
 
 Option #2:
 
-```
+```html
 <ol>
   <li>Gather Ingredients:</li>
   <li>
@@ -176,7 +176,7 @@ Option #2:
 
 What does this code create?
 
-```
+```html
 <ol>
   <li>Gather Ingredients:</li>
     <ul>
