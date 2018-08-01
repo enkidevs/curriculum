@@ -13,11 +13,11 @@ linkType: github
 link: https://gist.github.com/tebba-von-mathenstein/ff963772b6f770f8cb41bfe05b38721e
 
 standards:
-  comp-sci.dns.dns.2: 1000
-  comp-sci.dns.dns.3: 1000
-  comp-sci.dns.dns.4: 1000
-  comp-sci.dns.dns.5: 1000
-  comp-sci.dns.dns.6: 1000
+  comp-sci.dns.2: 1000
+  comp-sci.dns.3: 1000
+  comp-sci.dns.4: 1000
+  comp-sci.dns.5: 1000
+  comp-sci.dns.6: 1000
 
 links:
   - '[Intro To DNS](https://linuxacademy.com/howtoguides/posts/show/topic/12050-introduction-to-dns){article}'
