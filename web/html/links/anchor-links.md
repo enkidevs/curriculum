@@ -83,9 +83,11 @@ tag = ???
 
 What denotes an anchor link?
 
-`<a href="???contact">
+```html
+<a href="???contact">
   Link to ID named 'contact'.
-</a>`
+</a>
+```
 
 * `#`
 * `id=`
