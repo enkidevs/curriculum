@@ -35,7 +35,7 @@ When using `<input>` elements with the attribute `type="file"` it is necessary t
 Setting the value to `text/plain` converts every space to a `+`, but no character is encoded.  
 
 Example:
-```
+```html
 <form
  action="/action_page.asp"
  method="post">
