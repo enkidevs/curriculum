@@ -37,7 +37,7 @@ You can edit the `<col>` element by using the appropriate CSS properties, for in
 
 
 Example with both elements:
-```
+```html
 <table>
  <colgroup>
   <col span="2"
@@ -67,7 +67,7 @@ In the example above, the `<colgroup>` element is used to create a group of 3 `<
 
 Write the code to create the following table:
 
-```
+```html
 <table>
  <tag1>
   <tag2 span="2"
