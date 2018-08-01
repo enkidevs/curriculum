@@ -32,7 +32,7 @@ The HTML `<footer>` element is used to represent a footer for a whole document, 
 The `<footer>` element should contain some information about its containing element. That can be the author, some copyright information, a link to the terms of use, contact info, link back to the top of the page, a link to related documents, a sitemap, etc.
 
 Using `<footer>` for contact information:
-```
+```html
 <footer>
   <p>
     Author: Jane Doe
