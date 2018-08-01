@@ -2,7 +2,6 @@
 author: mihaiberq
 
 levels:
-
   - beginner
 
 type: normal
@@ -12,11 +11,11 @@ category: pattern
 inAlgoPool: false
 
 links:
-
-- '[MDN colors](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value){documentation}'
-- '[MDN lengths](https://developer.mozilla.org/en-US/docs/Web/CSS/length){documentation}'
-
-
+  - '[MDN colors](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value){documentation}'
+  - '[MDN lengths](https://developer.mozilla.org/en-US/docs/Web/CSS/length){documentation}'
+  - '[Scrimba CSS Selectors, Properties & Values](https://scrimba.com/p/pWvwCg/cpKbvTV){website}'
+  - '[Scrimba CSS Length Units](https://scrimba.com/p/pWvwCg/cGLEnHg){website}'
+  - '[Scrimba CSS Colors](https://scrimba.com/p/pWvwCg/cMMymu2){website}'
 ---
 
 # Common CSS Properties Values

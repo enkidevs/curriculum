@@ -2,20 +2,16 @@
 author: mihaiberq
 
 levels:
-
   - basic
-
   - medium
 
 type: normal
 
 category: feature
 
-
 links:
-
+  - '[Scrimba CSS Pseudo Classes / Elements](https://scrimba.com/p/pWvwCg/cbmMJSb){website}'
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/hover)[documentation}'
-
 
 ---
 
