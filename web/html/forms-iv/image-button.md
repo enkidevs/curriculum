@@ -30,7 +30,7 @@ links:
 The HTML input form of type `image` is used to create a submit button with a graphical image instead of the default text.
 
 Example:
-```
+```html
 <form
   action="/page.php">
   Full name:
