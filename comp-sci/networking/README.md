@@ -75,7 +75,7 @@ standards:
       0: Distinguish between open network protocols and their secure counterparts
       1: Distinguish secure traffic from insecure traffic using a packet sniffing tool, eg wireshark
       2: Distinguish TCP and UDP handshake protocols from TLS handshake protocols
-dns:
+  dns:
     name: Accurately configure and distinguish DNS records
     description: This standard deals with the ability to distinguish the different types of DNS records, explain how they behave and their purpose, and the skills to investigate the accuracy of the configuration of DNS records.
     objectives:
