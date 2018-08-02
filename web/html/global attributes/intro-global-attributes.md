@@ -36,11 +36,21 @@ Some Global attributes:
   - `dropzone `
   - `hidden`
   - `id`
+  - `itemid`
+  - `itemprop`
+  - `itemref`
+  - `itemscope`
+  - `itemtype`
   - `lang`
   - `spellcheck `
   - `style`
   - `title`
   - `translate`
+  - `itemid`
+  - `itemprop`
+  - `itemref`
+  - `itemscope`
+  - `itemtype`
 
 The 4 most used global attributes are `class`, `id`, `style` and `title. 
 
