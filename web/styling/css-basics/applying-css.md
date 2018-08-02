@@ -70,3 +70,4 @@ What is the recommended way of applying CSS?
 * Internal CSS.
 * Inline CSS.
 
+ 

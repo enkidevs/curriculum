@@ -101,3 +101,4 @@ Hint: The best way helps screen readers read the alt properly as it prevents "IT
 * U.S.A
 * U-S-A
 * "U""S""A"
+ 

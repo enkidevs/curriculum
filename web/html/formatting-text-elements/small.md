@@ -105,3 +105,4 @@ What does the `<small>` element set the selected text to?
 * smaller and half a character above line of text.
 * to the smallest display size.
 * to the font-size of 10px.
+ 

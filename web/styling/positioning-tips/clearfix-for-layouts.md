@@ -84,3 +84,4 @@ What does the following CSS code do, when you have a floated image inside an ele
 * Hides the element.
 * Hides the image.
 
+ 

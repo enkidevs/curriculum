@@ -121,3 +121,4 @@ Why is assigning height & width attributes to an image size more useful than set
 * Using HTML height & width attributes is always better than using CSS sizing.
 * When the image size needs to override the CSS size setting.
 * When the height and width is different than the default image size.
+ 

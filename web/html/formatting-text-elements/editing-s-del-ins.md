@@ -134,3 +134,4 @@ Mark the false statement:
 * It is best to use `<ins>` together with `<del>` to properly showcase text updates to a document.
 * The `<s>` element that defined strikethrough is used to represent text that is no longer correct.
 *  The `<s>` and `<del>` elements visually appear the same by default but have different semantic meaning.
+ 

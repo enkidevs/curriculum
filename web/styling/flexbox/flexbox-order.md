@@ -94,3 +94,4 @@ Take 6 boxes originally ordered 1, 2, 3, 4, 5 and 6. What order are the boxes af
 * 6, 1, 4, 2, 3, 5
 * 6, 1, 4, 2, 5, 0
 
+ 

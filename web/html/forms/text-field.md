@@ -132,3 +132,4 @@ What does the required attribute do in this code?
 * Standard when creating any input type
 * makes the text turn blue
 * Makes the user type only text as input, no numbers allowed
+ 

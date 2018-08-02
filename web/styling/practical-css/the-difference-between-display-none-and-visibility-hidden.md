@@ -70,3 +70,4 @@ Which of the following is the definition for display:none?
 * The element is not rendered on the page so consequently does not appear, page space is allocated.
 * The element is rendered on the page but does not appear, page space is not allocated.
 
+ 
