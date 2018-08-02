@@ -25,7 +25,7 @@ links:
 ---
 ## Content
 
-In the previous insight we explaied: `class`, `id`, `style` and `title`. In this one, we will cover: `contenteditable`, `draggable`, `dropzone ` and `hidden`.
+In the previous insight we explained: `class`, `id`, `style` and `title`. In this one, we will cover: `contenteditable`, `draggable`, `dropzone ` and `hidden`.
 
 
 ### contenteditable
