@@ -1,0 +1,109 @@
+---
+author: stefan.stojanovic
+
+levels:
+  - beginner
+  - basic
+
+type: normal
+
+category: must-know
+
+stub: true
+
+standards:
+
+aspects:
+  - introduction
+  - workout
+  - deep
+
+links:
+  -  '[MDN docs on Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
+---
+# Intro Global Attributes
+---
+## Content
+
+Most HTML elements have attributes specific to them. However, there is a set of attributes called “Global Attributes” which are shared among all HTML elements.
+
+Some Global attributes:
+  - `autocapitalize`
+  - `class`
+  - `contenteditable`
+  - `dir`
+  - `draggable`
+  - `dropzone `
+  - `hidden`
+  - `id`
+  - `lang`
+  - `spellcheck `
+  - `style`
+  - `title`
+  - `translate`
+
+The 4 most used global attributes are `class`, `id`, `style` and `title. 
+
+Explanations:
+
+### id
+
+The `id` attribute is used to define a unique identifier or an ID. The value of the `id` attribute has to be unique for the whole web page or document. This is because the `id` attributes value is used to identify an element you want to be styled or linked.
+
+### class
+
+The `class` attribute is used to give CSS and/or JavaScript access to an element for editing, styling or any other use these 2 languages can offer.
+
+For instance, lets say we have this HTML:
+```html
+<p class="demo">
+  Some text
+</p>
+```
+and we have this CSS:
+```css
+.demo {
+  background-color: black;
+  color: white;
+}
+```
+This means that any HTML element with a `class="demo"` attribute will be white and have a black background color.
+
+Another example(same CSS):
+```html
+<h1 class="demo">
+  Some header text
+</h1>
+```
+
+### style
+
+The `style` attribute contains CSS declarations and is used to style an element internally. This attribute should not be used to style an entire page. You should add your styles within a different file/s.
+
+Example:
+```html
+<p style="color:green"> 
+  This is green
+</p>
+
+<p style="color:blue">
+  This is blue
+</p>
+```
+
+### title
+
+The `title` attribute is used to provide useful information about the element it belongs to. In some cases, the text within the `title` attribute is displayed as a tooltip upon hovering over the element.
+
+---
+## Practice
+
+Which of these attributes is not a global attribute?
+
+???
+
+* href
+* id
+* class
+* style
+* title
