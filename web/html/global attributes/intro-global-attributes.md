@@ -52,9 +52,7 @@ Some Global attributes:
   - `itemscope`
   - `itemtype`
 
-The 4 most used global attributes are `class`, `id`, `style` and `title. 
-
-Explanations:
+We will cover the 4 most used global attributes in this insight. Those are: `class`, `id`, `style` and `title`. 
 
 ### id
 
