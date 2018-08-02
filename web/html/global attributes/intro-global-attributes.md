@@ -27,31 +27,6 @@ links:
 
 Most HTML elements have attributes specific to them. However, there is a set of attributes called “Global Attributes” which are shared among all HTML elements.
 
-Some Global attributes:
-  - `autocapitalize`
-  - `class`
-  - `contenteditable`
-  - `dir`
-  - `draggable`
-  - `dropzone `
-  - `hidden`
-  - `id`
-  - `itemid`
-  - `itemprop`
-  - `itemref`
-  - `itemscope`
-  - `itemtype`
-  - `lang`
-  - `spellcheck `
-  - `style`
-  - `title`
-  - `translate`
-  - `itemid`
-  - `itemprop`
-  - `itemref`
-  - `itemscope`
-  - `itemtype`
-
 We will cover the 4 most used global attributes in this insight. Those are: `class`, `id`, `style` and `title`. 
 
 ### id
