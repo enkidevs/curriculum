@@ -111,3 +111,4 @@ Without the `<bdi>` element, what would happen to the Arabic username and the po
 * The name will not display at all.
 * The name will display in front of the points.
 * Nothing without CSS styles added.
+ 

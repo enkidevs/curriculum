@@ -77,3 +77,4 @@ When the cursor is over the image, what code will add a visual tooltip?
 * text
 * alt
 * src
+ 

@@ -115,3 +115,4 @@ Complete the code if a `<base>` URL is assigned and an image is used within an O
 * `<link target="_blank">`
 * `<a target="_blank">`
 * `<* target="_blank">`
+ 

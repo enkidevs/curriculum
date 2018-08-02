@@ -162,3 +162,4 @@ Which statement is true regarding drop-down lists in HTML?
  * The `<option>` element is used to create drop-down lists.
  * The `<optgroup>` element is used to create drop-down lists.
  * The `<list>` element is used to create drop-down lists.
+ 

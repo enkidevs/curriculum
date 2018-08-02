@@ -88,3 +88,4 @@ What is happening to this heading text?
 * It is displayed larger than normal.
 * It is displayed as a Heading 1 in the web page.
 * It is removed from the HTML code.
+ 

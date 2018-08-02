@@ -78,3 +78,4 @@ Which statement is incorrect about opening and closing  HTML5 elements?
  * Although HTML5 isn’t strict about using open and close tags, using them certainly does makes the document easier to inspect.
  * Certain elements like `<body>` or `<head>` don't require the use of either of the tags, however, it helps with readability.
  * HTML elements have to have a closing tag to be displayed properly.
+ 

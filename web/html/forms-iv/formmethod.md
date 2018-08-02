@@ -104,3 +104,4 @@ Which statement is not true regarding the `formmethod` attribute?
 * It can be used with `type"submit"` and `type"image"` attributes.
 * The `method="get"` appends form data to the URL when submitted.
 * The `method="post"` does not append to the URL, but rather sends the form data as an HTTP post transaction.
+ 

@@ -119,3 +119,4 @@ If you need to display the value as a percentage, what would you use?
 * 50%, 0, 100
 * 0.5, 0, 100
 * 50%, 0, 1
+ 

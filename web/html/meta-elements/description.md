@@ -79,3 +79,4 @@ Choose the best option from these:
 * `<meta name="description" content="puppy dogs rescue local shelters adoption">`
 * `<meta name="description" content="http://www.puppyrescue.com">`
 * `<meta name="description" content="Austin, Texas">`
+ 

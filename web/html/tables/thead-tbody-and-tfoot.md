@@ -108,3 +108,4 @@ Which of the following is a key benefit of using `<thead>`, `<tbody>`, and `<tfo
 * alternative colors can be styled to rows/columns differently.
 * best for search engines to determine the type of data.
 * allows for easier nesting of table organization.
+ 
