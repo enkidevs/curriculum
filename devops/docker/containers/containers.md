@@ -86,10 +86,10 @@ In essence: `docker run = docker container create + docker container start`
 
 Docker container is more ??? than a VM which allows it to be started, stopped and replicated more ???
 
-- light-weight
-- efficiently
-- isolated
-- frequently
+* light-weight
+* efficiently
+* isolated
+* frequently
 
 ---
 
@@ -97,7 +97,7 @@ Docker container is more ??? than a VM which allows it to be started, stopped an
 
 To create and start a container in a single command, we use ???:
 
-- `docker run`
-- `docker go`
-- `docker container create+start`
-- `docker begin`
+* `docker run`
+* `docker go`
+* `docker container create+start`
+* `docker begin`
