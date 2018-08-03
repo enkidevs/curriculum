@@ -20,9 +20,6 @@ category: must-know
 
 standards:
   devops.identify-docker.1: 10
-
-
-standards:
   cs.identify-linear-collection-data-structures-usage.0: 1000
   cs.identify-linear-collection-data-structures-usage.3: 1000
 
