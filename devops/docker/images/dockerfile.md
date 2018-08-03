@@ -103,10 +103,11 @@ Due to this, a good convention is to keep the things that change the least at th
 ## Practice
 
 A Dockerfile contains instructions the Docker daemon uses to build containers.
+
 ???
 
-- true
-- false
+* true
+* false
 
 ---
 
@@ -116,5 +117,5 @@ The result of each Dockerfile instruction is cached and dependent on the cached 
 
 ???
 
-- true
-- false
+* true
+* false
