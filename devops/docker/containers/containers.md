@@ -27,9 +27,14 @@ links:
 - '[official Docker documentation](https://www.docker.com/what-container)'
 
 ---
+
 # Containers
+
 ---
+
 ## Content
+
+A great analogy to Docker containers can be found in the shipping industry. Before shipping containers were standardized, it was difficult to transport things across the world. With standardized containers we can just pack it with our things and from then on people know how to handle it without needing to know its contents.
 
 Containers are a way of isolating an application with its own environment. It's a lightweight alternative to full-blown virtualization.
 
@@ -76,21 +81,23 @@ In essence: `docker run = docker container create + docker container start`
 ```
 
 ---
+
 ## Practice
 
 Docker container is more ??? than a VM which allows it to be started, stopped and replicated more ???
 
-* light-weight
-* efficiently
-* isolated
-* frequently
+- light-weight
+- efficiently
+- isolated
+- frequently
 
 ---
+
 ## Revision
 
 To create and start a container in a single command, we use ???:
 
-* `docker run`
-* `docker go`
-* `docker container create+start`
-* `docker begin`
+- `docker run`
+- `docker go`
+- `docker container create+start`
+- `docker begin`
