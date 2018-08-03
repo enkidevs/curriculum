@@ -33,8 +33,11 @@ links:
 - '[link to a video](https://enki.com)'
 - '[link to a discussion](https://enki.com)'
 ---
+
 # Images
+
 ---
+
 ## Content
 
 A Docker image represents a blueprint for creating containers.
@@ -83,6 +86,7 @@ An image that doesn't extend any other image is known as the base image.
 Images are built using a special configuration file (usually) named Dockerfile and the `docker build` command.
 
 ---
+
 ## Practice
 
 Docker images are composed of ???
@@ -93,6 +97,7 @@ Docker images are composed of ???
 * fragments
 
 ---
+
 ## Revision
 
 A Docker image can be modified.
