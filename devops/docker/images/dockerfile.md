@@ -37,7 +37,9 @@ links:
 - '[link to a video](https://enki.com)'
 - '[link to a discussion](https://enki.com)'
 ---
+
 # Dockerfile
+
 ---
 
 ## Content
@@ -97,20 +99,22 @@ Whenever we change a line in the Dockerfile, the cached result for every line af
 Due to this, a good convention is to keep the things that change the least at the top of the Dockerfile and things that change the most at the bottom.
 
 ---
+
 ## Practice
 
 A Dockerfile contains instructions the Docker daemon uses to build containers.
 ???
 
-* true
-* false
+- true
+- false
 
 ---
+
 ## Revision
 
 The result of each Dockerfile instruction is cached and dependent on the cached result of the instruction before it.
 
 ???
 
-* true
-* false
+- true
+- false
