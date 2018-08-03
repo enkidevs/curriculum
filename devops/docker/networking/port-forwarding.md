@@ -79,6 +79,12 @@ EXPOSE 9090
 #...
 ```
 
+Using the command:
+
+```bash
+❯ docker run -t enki-image
+```
+
 Will the container be accessible via port `9090` on the host it's running on?
 
 ???
