@@ -47,6 +47,12 @@ The `dir` attribute is used to set the direction of text and has 3 possible valu
 ### lang
 
 The `lang` attribute is used to define the language of the element.
+Example:
+```html
+<p lang="es">
+  ¿Cómo estás?
+</p>
+```
 
 ### spellcheck
 
@@ -62,6 +68,14 @@ The `translate` attribute is used to indicate if an element and its content shou
 The `"yes"` value(which can also be an empty string,`""`) says the content should be translated.
 The `"no"` value says the content should not be translated.
 
+**Note:** The attribute does not immediately translate the element but rather specifies if it should or should not translate when the user translates the page.
+Example:
+```html
+<p translate="no">
+  Contents of this paragraph
+  won't translate.
+  </p>
+```
 
 ---
 ## Practice
