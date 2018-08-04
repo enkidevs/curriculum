@@ -23,7 +23,6 @@ links:
   - '[MDN docs for tbody](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody){website}'
   - '[MDN docs for tfoot](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot){website}'
   - '[Codepen Example](https://codepen.io/stefan-stojanovic/pen/jKbJgQ){website}'
-  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
 
 ---
 # Thead, tbody, & tfoot
