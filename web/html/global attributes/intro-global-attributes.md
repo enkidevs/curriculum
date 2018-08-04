@@ -78,6 +78,17 @@ Example:
 
 The `title` attribute is used to provide useful information about the element it belongs to. In some cases, the text within the `title` attribute is displayed as a tooltip upon hovering over the element.
 
+Example tooltip upon hovering over a picture:
+```html
+<img 
+  src="http://enki.com/enki-logo.svg"
+  title="Enki logo">
+```
+Result:
+
+![Enki logo tooltip](https://img.enkipro.com/1baaf47ca1749331849a42993cf2fc6b.png)
+
+
 ---
 ## Practice
 
@@ -90,3 +101,20 @@ Which of these attributes is not a global attribute?
 * class
 * style
 * title
+
+---
+## Revision
+
+Contains CSS declarations: ???
+Provides useful information about the element it belongs to: ???
+Gives CSS and JS ability to modify an element: ???
+Unique identifier: ???
+
+* style
+* title
+* class
+* id
+* uniqueid
+* modify
+* description
+* declaration
