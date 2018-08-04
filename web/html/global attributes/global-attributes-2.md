@@ -53,8 +53,11 @@ The `move` value indicates that the content dropped will be moved to this locati
 ### hidden
 
 The `hidden` attribute is used set some element and its content as no longer valid/relevant and therefore hidden. This attribute should never be used on elements you want to show to the users.
-
-
+```html
+<h3 hidden>
+  content invisible to the user
+  <h3>
+```
 
 ---
 ## Practice
@@ -67,3 +70,18 @@ Which of these is not a value for the `dropzone` attribute?
 * copy
 * link
 * move
+
+---
+## Revision
+
+Which 2 atributes use the same Drag and Drop APi?
+
+???
+
+* `dropzone` and `draggable`
+* `contenteditable` and `draggable`
+* `dropzone` and `hidden`
+* `hidden` and `draggable`
+* `contenteditable` and `hidden`
+* `dropzone` and `contenteditable`
+
