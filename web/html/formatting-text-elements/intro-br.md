@@ -17,7 +17,6 @@ tags:
 links:
   - '[CodePen: Element br](https://codepen.io/enkidevs/pen/XBpmqB){code}'
   - '[CodePen: Element br (2)](https://codepen.io/enkidevs/pen/EpZVRO){code}'
-  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
 
 ---
 # Intro br
