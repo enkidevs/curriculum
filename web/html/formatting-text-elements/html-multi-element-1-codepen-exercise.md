@@ -22,7 +22,6 @@ standards:
 
 
 links:
-  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
   - '[MDN docs for subscript](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub){website}'
   - '[MDN docs for superscript](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup){website}'
   - '[MDN docs for b](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b){website}'
