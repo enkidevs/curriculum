@@ -73,11 +73,13 @@ count | language_id
 ---
 ## Practice
 
-We have a table called pokemon. Two of its fields are:  
-`is_default` - it can be either true or false  
-`name`  
+We have a table called `pokemon`.
+In this table there are two fields:
+ - `is_default` - Boolean
+ - `name` - String (name of the pokemon)
 
-We want to know how many pokemon are (not) default:
+We want to count pokemon are **not** default.
+Fill in the blanks to complete this query:
 ```
 SELECT ???(name),???
 FROM pokemon
@@ -91,7 +93,6 @@ count | is_default
 (2 rows)
 ```
 
-
 * COUNT
 * is_default
 * GROUP BY
@@ -102,13 +103,13 @@ count | is_default
 ---
 ## Revision
 
-In our pokemon db item is a table with the following columns:  
-`id` - unique id of the item  
-`cost` - item's cost  
-`fling_power` - "Dark type move"[1]  
-`item_category_id`  
-`item_fling_effect_id`  
-`name` - item's name  
+In our pokemon db item is a table with the following columns:
+`id` - unique id of the item
+`cost` - item's cost
+`fling_power` - "Dark type move"[1]
+`item_category_id`
+`item_fling_effect_id`
+`name` - item's name
 
 We would like to get the average cost of each item category.
 
@@ -133,9 +134,7 @@ avg      | item_category_id
 1810     |        10
 
 ...
-
 ```
-
 
 * AVG
 * item
