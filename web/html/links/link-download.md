@@ -48,14 +48,19 @@ Result:
 
 When the download attribute has a value, it will rename the downloaded file. This can be useful when your file is named `123z12zv824.docx` on your server, but you want it downloaded with something more friendly like `Enki%20Notes.docx`. Keep in mind that `%20` needs to replace any spaces in the filename.
 
-When the value within the download attribute is empty (like `download="">`, then the downloaded file will retain it's original filename. Of course, since the file will be a local file for the user, they can always rename that file as they wish, too. 
+When the value within the download attribute is empty (like `download="">`, then the downloaded file will retain its original filename. Of course, since the file will be a local file for the user, they can always rename that file as they wish, too. 
 
 ---
 ## Practice
 
 Create a text link that downloads a web file and renames it with a more user-friendly filename.
 
-`<??? ???="???" ???="">Email Me<???>`
+```html
+<??? ???="???" 
+  ???="???">
+  Email Me
+<???>
+````
 
 * a
 * href
