@@ -92,7 +92,7 @@ Mark the string that would NOT pass this pattern:
 ```
 <input
   type="text" name="test"
-  pattern="[a-zA-Z0-9]{10}"
+  pattern="[a-zA-Z0-9]{0,10}"
   title="">
 ```
 
