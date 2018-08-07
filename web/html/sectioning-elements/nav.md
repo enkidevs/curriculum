@@ -94,8 +94,5 @@ Which container is best to organize the buttons that link the primary pages of t
 * `<nav>`
 * `<navigation>`
 * `<header>`
-* `<navigate>`
-* `<navi>`
-* `<menu>`
-* `<buttons>`
+* `<div>`
  
