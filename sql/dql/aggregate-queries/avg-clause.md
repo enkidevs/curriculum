@@ -59,7 +59,7 @@ LIMIT 5;
 ---
 ## Practice
 
-We have a table of items called *item*. This table has a file called *cost*, indicating how much each item costs. We would like to know an average cost for the first 10 items in the table. Fill the gaps accordingly:
+We have a table of items called *item*. This table has a field called *cost*, indicating how much each item costs. We would like to know an average cost for the first 10 items in the table. Fill the gaps accordingly:
 ```
 --item:
 
