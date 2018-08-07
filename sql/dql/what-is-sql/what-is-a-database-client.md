@@ -50,10 +50,9 @@ Some of the Database Clients can act as one or both of the following things:
 ---
 ## Practice
 
-The software through which information in a database is queried is called
+The software through which information in a database is *queried* is called
 
 ???
-
 
 * Database Client
 * Database Server
@@ -67,10 +66,6 @@ What is a Database Client?
 
 ???
 
-
 * The software that queries information from the database server
 * An optional program that a user can install on top of the Database Server
 * The software through which memory is allocated on the server
- 
- 
- 

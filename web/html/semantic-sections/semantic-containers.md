@@ -22,7 +22,6 @@ aspects:
 
 links:
   - '[MDN docs for semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics){website}'
-  - '[W3s docs for semantics](https://www.w3schools.com/html/html5_semantic_elements.asp){website}'
 
 ---
 # Semantic Containers

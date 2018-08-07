@@ -19,7 +19,6 @@ links:
   - '[CodePen: u Element ](https://codepen.io/enkidevs/pen/OwWVBe){code}'
   - '[MDN docs for u](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u){website}'
   - '[MDN docs for mark](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark){website}'
-  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
 
 ---
 # Markup for Editing
