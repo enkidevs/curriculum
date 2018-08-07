@@ -103,15 +103,13 @@ count | is_default
 ---
 ## Revision
 
-In our pokemon db item is a table with the following columns:
-`id` - unique id of the item
-`cost` - item's cost
-`fling_power` - "Dark type move"[1]
-`item_category_id`
-`item_fling_effect_id`
-`name` - item's name
+`item` is a table with the following columns:  
+`id` - unique id of the item  
+`cost` - item's cost  
+`item_category_id` - ID category  
+`name` - item's name  
 
-We would like to get the average cost of each item category.
+Find the _average cost of items in each category_.
 
 ```
 SELECT ???(cost),item_category_id
@@ -119,7 +117,9 @@ FROM ???
 ??? item_category_id
 ORDER BY item_category_id;
 
---Result:
+```
+Example result:
+```
 avg      | item_category_id
 =========+==================
 550      |        1
