@@ -51,7 +51,7 @@ Actually, anything added within a link element in HTML5 will be linked - this in
 
 Create a linked image:
 
-```
+```html
 <??? ???="???">
   <???
     ???="???"

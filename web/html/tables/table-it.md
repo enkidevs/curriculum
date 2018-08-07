@@ -2,20 +2,13 @@
 author: stefan.stojanovic
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
 
-
 tags:
-
   - introduction
-
   - workout
-
 
 type: tetris
 
@@ -29,7 +22,6 @@ links:
   - '[MDN Docs for The Table element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table){documentation}'
   - '[MDN docs for The Table Row element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr){documentation}'
   - '[MDN docs for The Table Data element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td){documentation}'
-  - '[MDN docs for Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){documentation}'
 
 ---
 # Table It

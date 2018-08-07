@@ -19,7 +19,6 @@ links:
   - '[CodePen: u Element ](https://codepen.io/enkidevs/pen/OwWVBe){code}'
   - '[MDN docs for u](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u){website}'
   - '[MDN docs for mark](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark){website}'
-  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
 
 ---
 # Markup for Editing
@@ -30,7 +29,7 @@ links:
 
 The `<mark>`, or the **Mark Text** element, is used to specify that some text is marked or highlighted. The `<mark>` element is often used to indicate a part of the text of the document that is relevant to the user's search.
 
-```
+```html
 <p>Highlight this
 <mark>important</mark>
 text in this paragraph.</p>
@@ -48,7 +47,7 @@ Also, when `<mark>` is used within a `<q>` or `<blockquote>` element it indicate
 
 The `<u>`, or the **Unarticulated Annotation** element, is used to indicate that some text should be rendered differently from the rest of the text in a way that indicated non-textual annotation. The content of the `<u>` element is usually rendered as underlined. Nevertheless, you can change this by using the appropriate CSS styling - from this `text-decoration: underline;` to something like `text-decoration: #f00 wavy underline;`.
 
-```
+```html
 <p>You could use this element
 to highlight <u>speling</u>
 mistakes, so the writer
@@ -72,7 +71,7 @@ The `<u>` element is often used to annotate spelling errors, proper nouns and/or
 
 Underline the word "mispell":
 
-```
+```html
 <p>
   Try not to
   <tag>mispell</tag>
@@ -84,7 +83,7 @@ tag = ???
 
 Highlight "100 laps" within the blockquote:
 
-```
+```html
 <blockquote>
 <p>
   "I just ran

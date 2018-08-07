@@ -22,7 +22,6 @@ standards:
 
 
 links:
-  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
   - '[MDN docs for time](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time){website}'
   - '[MDN docs for wbr](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/wbr){website}'
   - '[MDN docs for small](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/small){website}'

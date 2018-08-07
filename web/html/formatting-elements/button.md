@@ -22,7 +22,6 @@ links:
   - '[CodePen: button Element](https://codepen.io/enkidevs/pen/dKQxjM){code}'
   - '[CodePen: Button element with Text & Image](https://codepen.io/enkidevs/pen/VdqZdQ){code}'
   - '[MDN docs for button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button){website}'
-  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
 
 ---
 # Button

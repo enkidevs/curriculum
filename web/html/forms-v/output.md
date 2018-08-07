@@ -40,7 +40,7 @@ The `form` attribute, which has a value of `form_id`, associates the output with
 The `name` attribute, which has a value of `name`, specifies the name of this element.
 
 Example:
-```
+```html
 <form
   oninput="result.value=parseInt(a.value)
     +parseInt(b.value)">

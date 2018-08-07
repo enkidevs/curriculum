@@ -40,7 +40,7 @@ The pattern attribute works for several input types:
  - `URL`
 
 Example:
-```
+```html
 <form
   action="/action.php">
   Enter 5 Digit Zip Code:
@@ -63,7 +63,7 @@ You can also create different patterns using this technique. For instance, if yo
 
 Another popular example, where a more complicated pattern is used to force the user to make a more complicated password:
 
-```
+```html
 <form
   action="/action.php">
   Password:
@@ -89,10 +89,10 @@ In the example above, the user has to have at least one lowercase letter, one up
 
 Mark the string that would NOT pass this pattern:
 
-```
+```html
 <input
   type="text" name="test"
-  pattern="[a-zA-Z0-9]{10}"
+  pattern="[a-zA-Z0-9]{0,10}"
   title="">
 ```
 
@@ -110,7 +110,7 @@ Mark the string that would NOT pass this pattern:
 
 Which form attribute is used to only allow a value that follows a unique expression?
 
-```
+```html
 <form
   action="file.php">
  Country code:
@@ -134,7 +134,7 @@ Which form attribute is used to only allow a value that follows a unique express
 
 When you look at the title, which regular expression do you think should be set as the pattern?
 
-```
+```html
 <form action="file.php">
  Country code:
  <input

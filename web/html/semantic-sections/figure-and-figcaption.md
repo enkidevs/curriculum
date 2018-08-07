@@ -29,7 +29,7 @@ The HTML `<figure>` element is used to represent self-contained content. Also, t
 The `<figure>` element is usually an image, code snippet, diagram, illustration, etc., which is referenced in the main flow of the document. Also, the `<figure>` elements content can also be moved to another part of the document without having any effect on the main flow.
 
 Example with a poem:
-```
+```html
 <figure>
  <p>
    Old cave, hidden door,<br>
@@ -51,7 +51,7 @@ Example with a poem:
 
 Match the code with the tags to properly define a caption for the photo.
 
-```
+```html
 <tag1>
   <img src="waterfall.jpg"
   alt="Seljalandsfoss waterfall
