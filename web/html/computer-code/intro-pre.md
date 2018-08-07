@@ -52,7 +52,7 @@ Since all spaces within the `<pre>` element are used, pay attention to adding an
 
 **Bad Example:** An extra hard return will display at the top of the code sample in the HTML page:
 
-```
+```html
 <pre>
  .enki-highlight {
   color: #F46C43;
@@ -62,7 +62,7 @@ Since all spaces within the `<pre>` element are used, pay attention to adding an
 
 **Good Example:** The displayed code is written immediately after the opening tag:
 
-```
+```html
 <pre>.enki-highlight {
   color: #F46C43;
  }

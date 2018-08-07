@@ -24,7 +24,7 @@ aspects:
 In HTML, many elements allow for extra attributes, which allow for additional information to apply to that specific element. Attributes are placed in the opening tag and usually come in name/value pairs and the values are enclosed in quotation marks.
 
 Example:
-```
+```html
 <img src="enki_logo.png">
 ```
 
@@ -37,7 +37,7 @@ The name/value pair refers in this case to 'src' and the value
 ## Practice
 
 What are the two attributes of this code?
-```
+```html
 <p>
   This is a
   <a

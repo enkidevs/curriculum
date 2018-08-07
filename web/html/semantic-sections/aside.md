@@ -33,7 +33,7 @@ The HTML `<aside>` element is a container element used to represent a section of
 The `<aside>` element can contain a sidebar, pull quotes, advertising, groups of navigational `<nav>` elements and more.
 
 Example:
-```
+```html
 <p>
   My family and I visited
   the Louvre this summer.
@@ -88,7 +88,7 @@ An `<aside>` should usually contain a navigation list on either the left- or rig
 
 What container element would best be used here?
 
-```
+```html
 <p>
   My family and I visited
   the Louvre this summer.

@@ -25,7 +25,7 @@ aspects:
 The `title` attribute can be added to any HTML element, but is most often used with images and links for when the use mouses over these elements, a tooltip will appear. 
 
 Example:
-```
+```html
 <img src="logo.svg"
   title="Enki: Official Logo">
 ```

@@ -44,7 +44,7 @@ Also, the `<main>` element should not contain content that is repeated throughou
  - site logo
 
 Example of the main content of a page, in this case, a page describing vehicles:
-```
+```html
 <header>
   <img src="logo.svg" alt="Company Logo">
 </header>

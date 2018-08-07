@@ -27,7 +27,7 @@ The HTML `<abbr>`, or the **Abbreviation** element, is used to represent an abbr
 
 The content of the title is often shown in a tooltip when a user hovers over the element.  Also, some browsers add a dotted underline to the content of the element. 
 
-```
+```html
 <p>
   Learn all about 
   <abbr 

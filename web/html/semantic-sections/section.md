@@ -33,7 +33,7 @@ The HTML `<section>` element is used to represent a standalone section. Usually,
 **Note:** Each `<section>` element should be properly identified, usually with a heading `<h1>`-`<h6>`.
 
 Example:
-```
+```html
 <section>
   <h1>Page name</h1>
   <p>Related info to page</p>

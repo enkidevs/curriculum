@@ -31,7 +31,7 @@ The HTML form input attribute `formaction` is used to specify the form-data when
 If the `formaction` attribute is specified, it will override the forms `action` attribute.
 
 Example:
-```
+```html
 <form action="page1.php"
     method="get">
   Name: <input type="text"
@@ -55,7 +55,7 @@ Example:
 
 Complete the code so that the second button links properly to the action_page2.php file.
 
-```
+```html
 <form action="page1.php"
     method="get">
   Name: <input type="text"

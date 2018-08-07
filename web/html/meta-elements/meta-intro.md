@@ -28,7 +28,7 @@ The `<meta>` element should always be inside the `<head>` element.
 Data within the `<meta>` element will never be displayed on a webpage. However, the data within some of the tags within the `<meta>` element will help improve SEO(Search Engine Optimization). Some of the data will also be displayed in the search engine results.
 
 Here's an example of how metadata is written within an HTML webpage.
-```
+```html
 <head>
  <meta
    charset="UTF-8">
