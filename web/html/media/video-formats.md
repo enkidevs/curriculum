@@ -42,7 +42,7 @@ This CodePen will provide all the necessary code - it's a decent chuck compared 
   
 Create a file in your main web folder with the filename `.htaccess`. Then, add this text to the document: 
   
-```
+```text
 AddType video/ogg .ogv
 AddType video/mp4 .mp4
 AddType video/webm .webm

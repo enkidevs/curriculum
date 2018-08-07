@@ -29,7 +29,7 @@ In HTML the `<select>` element is used to create drop-down lists.
 The available options in the `<select>` list are created with the `<option>` tag.
 
 Example:
-```
+```html
 <form>
 <select>
   <option
@@ -70,7 +70,7 @@ It is also possible to define groups of related options from a drop-down list wi
 This is done by adding an `<optgroup>` attribute, like so:
 
 Example:
-```
+```html
 <select>
   <optgroup label="Fav Fruit">
    <option
@@ -105,7 +105,7 @@ Example:
 ## Practice
 
 Which form attribute is used to define items of a drop-down list within a `select` element?
-```
+```html
 <select>
   <__ value="apple">Apples</__>
   <__ value="banana">Bananas</__>
@@ -123,7 +123,7 @@ Which form attribute is used to define items of a drop-down list within a `selec
 ## Revision
 
 Which form attribute is used to define groups of related option of a drop-down list within a select element?
-```
+```html
 <select>
  <__ label="Fav Fruit">
    <option

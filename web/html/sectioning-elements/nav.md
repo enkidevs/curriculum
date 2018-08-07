@@ -34,7 +34,7 @@ links:
 The HTML `<nav>` element is used to group the navigation of the page, such as primary website navigational links, table of contents, previous/next buttons, or breadcrumbs.
 
 Example:
-```
+```html
 <nav>
   <a href="index.html">Home</a>
   <a href="about.html">About</a>

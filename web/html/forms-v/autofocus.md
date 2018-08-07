@@ -29,7 +29,7 @@ links:
 The HTML input form `autofocus` attribute is used to specify an `<input>` element to have focus once the web page is loaded.
 
 Example:
-```
+```html
 <form action="/credit_card.php">
   Full name: <input type="text"
     name="fullname" autofocus>

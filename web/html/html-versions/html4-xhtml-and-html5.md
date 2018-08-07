@@ -38,7 +38,7 @@ Unlike in HTML, XHTML elements have to be properly nested, always be closed, wri
 The `doctype` declaration also differs for each version.
 
 HTML5 has 1 Doctype declaration:
-```
+```html
 <!DOCTYPE html>
 ```
 
@@ -48,28 +48,28 @@ HTML4 and XHTML each have 3 types of Doctype declarations:
  - Transitional
 
 HTML4 Frameset:
-```
+```html
 <!DOCTYPE HTML PUBLIC
  "-//W3C//DTD HTML 4.01 Frameset//EN"
  "http://www.w3.org/TR/html4/frameset.dtd">
 ```
 
 HTML4 Strict:
-```
+```html
 <!DOCTYPE HTML PUBLIC
   "-//W3C//DTD HTML 4.01//EN"
   "http://www.w3.org/TR/html4/strict.dtd">
 ```
 
 HTML4 Transitional:
-```
+```html
 <!DOCTYPE HTML PUBLIC
   "-//W3C//DTD HTML 4.01 Transitional//EN"
   "http://www.w3.org/TR/html4/loose.dtd">
 ```
 
 XHTML Frameset:
-```
+```html
 <!DOCTYPE html PUBLIC
   "-//W3C//DTD XHTML 1.0 Frameset//EN"
   "http://www.w3.org/TR/xhtml1/DTD
@@ -77,7 +77,7 @@ XHTML Frameset:
 ```
 
 XHTML Strict:
-```
+```html
 <!DOCTYPE html PUBLIC
   "-//W3C//DTD XHTML 1.0 Strict//EN"
   "http://www.w3.org/TR/xhtml1/DTD

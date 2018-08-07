@@ -29,7 +29,7 @@ links:
 The HTML input form `type="password"` attribute is used to display each character either as an asterisk, or a circle. This attribute is very similar to the `type="text"` attribute, but hides each character entered.
 
 Example:
-```
+```html
 <form
   action="/action.php">
   Username:

@@ -27,7 +27,7 @@ The HTML `http-equiv` meta attribute defines an instruction that can alter user-
 The value of `http-equiv` is defined inside the `content` attribute.
 
 Example 1: The document will refresh every 30 seconds.
-```
+```html
 <head>
   <meta
     http-equiv="refresh"
@@ -36,7 +36,7 @@ Example 1: The document will refresh every 30 seconds.
 ```
 
 Example 2: The document will automatically redirect users from one webpage to another after 30 seconds.
-```
+```html
 <head>
   <meta
     http-equiv="refresh"
@@ -46,7 +46,7 @@ Example 2: The document will automatically redirect users from one webpage to an
 ```
 
 **Note:** The better option is using JS:
-```
+```html
 <script>
   window.location =
   "http://new-website.com";
@@ -66,7 +66,7 @@ The `content-language` attribute is used to specify the default language, Howeve
 The `content-security-policy` allows authors to define a content policy for the current page. Those policies mostly specify the allowed server origins and script endpoints which help guard against cross-site scripting attacks.
 
 Before HTML5 you would use the `http-equiv="content-type` attribute to specify the character set of an HTML document. Like so:
-```
+```html
 <meta
   http-equiv="content-type"
   content="text/html;
@@ -116,7 +116,7 @@ Which line of code automatically redirect users from one webpage to another afte
 
 The easiest way to redirect a web page to another is using a meta redirect tag in the `<head>`, but is it the best way?
 
-```
+```html
 <meta
   http-equiv="refresh"
   content="0;

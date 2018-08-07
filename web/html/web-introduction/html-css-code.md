@@ -29,7 +29,7 @@ aspects:
 **CSS** is made of selectors followed by a declaration block; `selector {declaration block}`.
 
 HTML example:
-```
+```html
 <h2>
   This is a heading
 </h2>
@@ -39,7 +39,7 @@ HTML example:
 ```
 
 CSS example:
-```
+```css
 p { color: red; }
 h2 { font-size: 24px; }
 ```

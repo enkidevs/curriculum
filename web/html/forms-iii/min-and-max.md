@@ -40,7 +40,7 @@ This works for several input types:
  - week
 
 Example:
-```
+```html
 <form
   action="/action.php">
    Enter a date before 2000-01-01:
@@ -85,7 +85,7 @@ Which statement is NOT true regarding min and max attributes within forms?
 
 Which form attributes are used within an input to set low and high values?
 
-```
+```html
 <form
   action="/action.php">
  Rate your experience from 1-5:

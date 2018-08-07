@@ -29,7 +29,7 @@ links:
 When setting HTML input form attributes, you can set the `multiple` attribute to allow the user to enter more than one value for input types `email` and/or `file`.
 
 Example:
-```
+```html
 <form
    action="/action_page.php">
   Select images:
@@ -64,7 +64,7 @@ Which statement is not true regarding the `multiple` attribute within forms?
 
 Which form attribute is used to allow the user the option to enter more than one value in an input element, such as input and file?
 
-```
+```html
 <form action="file.php">
  Select images:
   <input type="file"

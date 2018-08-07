@@ -37,7 +37,7 @@ The `<article>` element can contain:
   - blog entry
 
 Example:
-```
+```html
 <article>
   <h1>Facebook</h1>
   <p>

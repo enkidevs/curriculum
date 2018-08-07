@@ -31,7 +31,7 @@ links:
 The input of type `text` can have a `minlength` and `maxlength` attribute as well. These attributes are used to set the minimum and maximum length in characters for the input element.
 
 Example:
-```
+```html
 <form>
   <label
     for="name"> Username:
@@ -59,7 +59,7 @@ On the other hand, setting the `maxlength` attribute makes the input field have 
 
 Last but not least, your text inputs can have a specific pattern, or a regular expression, which restricts the user's input to a specific pattern. This is applied with the `pattern` attribute like so:
 
-```
+```html
 <form>
   <div>
     <label
@@ -88,7 +88,7 @@ In this example, we set the input requirements to either upper and lowercase let
 
 Write the form code where the input field is required and has a specific pattern.
 
-```
+```html
 <form>
   <div>
     <label
@@ -136,7 +136,7 @@ Which attribute forces a user to fill a field before being able to submit the fo
 
 What does the required attribute do in this code?
 
-```
+```html
 <form>
   <div>
     <label
