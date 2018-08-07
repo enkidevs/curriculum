@@ -18,8 +18,6 @@ aspects:
   - workout
 links:
   - '[CodePen: Span Element](https://codepen.io/enkidevs/pen/JZwPQO){code}'
-  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
-
 ---
 # Intro span
 ---

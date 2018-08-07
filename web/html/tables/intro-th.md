@@ -24,7 +24,6 @@ links:
   - '[CodePen: Table multiple spans](https://codepen.io/enkidevs/pen/NBNdwO){code}'
   - '[CodePen: Table abbr attribute](https://codepen.io/enkidevs/pen/ajNJdW){code}'
   - '[MDN docs for th](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th){website}'
-  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
 
 ---
 # Table Header

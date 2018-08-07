@@ -17,7 +17,6 @@ tags:
 links:
   - '[CodePen: Element abbr](https://codepen.io/enkidevs/pen/rrjOGv){code}'
   - '[CodePen: Element abbr Styled](https://codepen.io/enkidevs/pen/rKQEEK){code}'
-  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
   
 ---
 # Intro abbr

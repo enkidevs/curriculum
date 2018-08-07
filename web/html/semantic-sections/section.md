@@ -22,7 +22,6 @@ aspects:
 
 links:
   - '[MDN docs for section](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section){website}'
-  - '[W3S docs for section](https://www.w3schools.com/tags/tag_section.asp){website}'
 
 ---
 # Section
