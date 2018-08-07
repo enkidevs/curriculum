@@ -17,7 +17,6 @@ aspects:
   - workout
 links:
   - '[CodePen: Meter Element ](https://codepen.io/enkidevs/pen/xzmxxP){code}'
-  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
 
 ---
 # Meter

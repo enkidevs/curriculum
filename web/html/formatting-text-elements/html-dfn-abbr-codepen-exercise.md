@@ -23,7 +23,6 @@ standards:
 
 links:
   - '[MDN docs for dfn](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn){website}'
-  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
   - '[MDN docs for abbr](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr){website}'
   - '[Codepen answer to this exercise](https://codepen.io/enkidevs/pen/NBNYVo?editors=0100){website}'
 ---
