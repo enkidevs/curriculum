@@ -173,45 +173,43 @@ Checkboxes have three possible states, these are `checked`, `unchecked` and:
 Create a checkbox group with two checkboxes and larger clickable area
 
  ```
-<???>
+<tagA>
   <legend>
     Choose favorite meal
   </legend>
     <div>
-     <???
-        type="???" id="soup"
-        name="meal" value="soup" ???>
-     <???
+     <tagB
+        type="tagC" id="soup"
+        name="meal" value="soup" tagD>
+     <tagE
         for="soup">Soup
-     <???>
+     </tagE>
     </div>
     <div>
-     <???
-        type="???" id="burgers"
+     <tagB
+        type="tagC" id="burgers"
         name="meal" value="burgers">
-     <???
+     <tagE
         for="burgers">Burgers
-     </???>
+     </tagE>
     </div
-<???>
+</tagA>
 ```
+tagA: ???
+tagB: ???
+tagC: ???
+tagD: ???
+tagE: ???
 
 * form
 * input
 * checkbox
 * checked
 * label
-* /label
-* input
-* checkbox
-* label
-* /label
-* /form
 * squarebox
-* /squarebox
 * button
-* /button
 * userInput
+* checkedbox
 
 ---
 ## Quiz
