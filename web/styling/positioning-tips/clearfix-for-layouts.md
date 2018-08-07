@@ -32,7 +32,7 @@ links:
 
 Use `clearfix` to make an element automatically clear its child elements, so there would be no need for additional markup :
 
-```
+```css
 .clearfix:after {
   content: "";
   clear: both;
@@ -84,3 +84,4 @@ What does the following CSS code do, when you have a floated image inside an ele
 * Hides the element.
 * Hides the image.
 
+ 

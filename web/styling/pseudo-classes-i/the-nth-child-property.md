@@ -2,23 +2,18 @@
 author: jordanfish
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
 
 category: how to
 
-
 links:
-
+  - '[Scrimba CSS Pseudo Classes / Elements](https://scrimba.com/p/pWvwCg/cbmMJSb){website}'
   - '[github.com](https://github.com/AllThingsSmitty/css-protips){website}'
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child){documentation}'
-
 
 ---
 
@@ -28,14 +23,14 @@ links:
 ## Content
 
 The basic usage of the `nth-child` pseudo-class is to select a single child of the targeted element, like so:
-```
+```css
 ul:nth-child(3){
   color: orangered;
 }
 ```
 
 Or, to select more children:
-```
+```css
 ul:nth-child(3), ul:nth-child(5){
   color: orangered;
 }
@@ -43,7 +38,7 @@ ul:nth-child(3), ul:nth-child(5){
 Would change the color of the 3rd and 5th children. But this can get very messy when working with big lists.
 
 However, `nth-child` accepts *expressions* between the parentheses:
-```
+```css
 ul:nth-child(3n+2){
   color: orangered;
 }
@@ -84,7 +79,7 @@ This is 6 items list:
 </ul>
 ```
 And the CSS:
-```
+```css
 li {
   color: white;
 }
@@ -111,3 +106,4 @@ li:nth-child(-n+7) {
 * Items 1 through 6
 * Items -1 through 7.
 
+ 

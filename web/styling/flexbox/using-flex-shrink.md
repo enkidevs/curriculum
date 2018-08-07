@@ -39,7 +39,7 @@ This determines how much the flex item will shrink relative to the rest of the i
 When omitted, it is set to 1 and the flex shrink factor is multiplied by the flex basis when distributing negative space.
 
 HTML:
-```
+```html
 <ul class="flex-container">
   <li class="flex-item flex1">1</li>
   <li class="flex-item flex2">2</li>
@@ -48,7 +48,7 @@ HTML:
 ```
 
 CSS:
-```
+```css
 .flex1 { flex-shrink: 2; 
          flex-basis: 20em; }
 .flex2 { flex-shrink: 1; 
@@ -102,3 +102,4 @@ What does the `flex-shrink` factor determine?
 * How much the flex item shrinks on the page.
 * How much the flex item expands.
 
+ 

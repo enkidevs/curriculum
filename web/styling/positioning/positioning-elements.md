@@ -12,7 +12,7 @@ category: must-know
 inAlgoPool: false
 
 links:
-
+  - '[Scrimba CSS Position Property](https://scrimba.com/p/pWvwCg/c2vEnHR){website}'
   - '[MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning){documentation}'
 
 
@@ -96,3 +96,4 @@ For which value of `position` you cannot use box offsets?
 * Relative
 * Absolute
 
+ 

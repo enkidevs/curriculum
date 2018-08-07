@@ -2,7 +2,6 @@
 author: mihaiberq
 
 levels:
-
   - beginner
 
 type: normal
@@ -11,11 +10,9 @@ category: tip
 
 inAlgoPool: false
 
-
 links:
-
+  - '[Scrimba CSS The Box Model](https://scrimba.com/p/pWvwCg/cnm3RSZ){website}'
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model){documentation}'
-
 
 ---
 
@@ -27,7 +24,7 @@ links:
 According to the **box model**, every element on the page is a rectangular box that may have `width`, `height`, `margin`, `padding` or `border`.
 
 The dimensions of such a box are calculated by summing the values of the above mentioned properties. To better understand the formula, consider this example:
-```
+```css
 div{
   width: 600px;
   height: 200px;
@@ -67,3 +64,4 @@ What’s the correct outside-in order of the elements contained by the Box Model
 * Border/Margin/Padding/Content
 * Margin/Padding/Border/Content
 * Content/Border/Margin/Padding
+ 

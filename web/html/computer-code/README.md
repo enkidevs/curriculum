@@ -14,3 +14,6 @@ insights:
   - intro-samp
   - intro-pre
   - intro-var
+
+exercises:
+  - html-computer-code-codepen-exercise

@@ -29,7 +29,7 @@ links:
 
 When working with column gutters you can get rid of `nth-`, `first-`, and `last-child` hacks by using `flexbox`'s `space-between` property:
 
-```
+```css
 .list {
   display: flex;
   justify-content: space-between;
@@ -80,3 +80,4 @@ Which `flexbox` property can be used to get rid of `nth-`, `first-` and `last-ch
 * `content-box`
 * `space-flex`
 
+ 

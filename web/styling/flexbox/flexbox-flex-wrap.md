@@ -37,7 +37,7 @@ links:
 
 `wrap`: multi-lines, direction is defined by flex-direction.
 
-```
+```css
 .flex-container {
   flex-wrap: wrap;
 }
@@ -50,7 +50,7 @@ links:
 `wrap-reverse`: multi-lines, opposite to direction defined by flex-direction.
 
 
-```
+```css
 .flex-container {
   flex-wrap: wrap-reverse;
 }
@@ -63,7 +63,7 @@ links:
 ## Practice
 
 Which of the following values will potentially overflow the container?
-```
+```css
 .flex-container{
  flex-wrap: ???;
 }
@@ -86,3 +86,4 @@ Which of the following Flexbox definitions is the definition for *wrap*?
 * Multi-lines, opposite to the direction defined by flex-direction.
 * Single-line which could cause the container to overflow.
 
+ 

@@ -33,7 +33,7 @@ links:
 In Flexbox, `column-reverse` enables users to arrange elements vertically in reverse order.
 
 
-```
+```html
 <div class="parent">
   <div class="child-1">Child 1</div>
   <div class="child-2">Child 2</div>
@@ -45,8 +45,7 @@ In Flexbox, `column-reverse` enables users to arrange elements vertically in rev
 ___
 
 
-
-```
+```css
 .parent{
   width:100%;
   display:flex;
@@ -83,3 +82,4 @@ When using Flexbox, how does `column-reverse` allow users to arrange elements?
 * Horizontally in reverse order.
 * Horizontally in normal order.
 
+ 

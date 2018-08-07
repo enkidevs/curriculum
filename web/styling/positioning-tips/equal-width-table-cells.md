@@ -27,7 +27,7 @@ links:
 ## Content
 
 Use `table-layout: fixed` to keep a table's cells at equal width:
-```
+```css
 #second-table {
   table-layout: fixed;
 }
@@ -52,3 +52,4 @@ table-layout: fixed;
 * Stops the table size from being altered.
 * Stops the table layout from being altered.
 
+ 

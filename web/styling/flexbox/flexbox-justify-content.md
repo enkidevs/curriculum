@@ -33,7 +33,7 @@ In Flexbox, there are many useful values for `justify-content` property. `space-
 
 HTML:
 
-```
+```html
 <div class="parent">
   <div class="child-1">Child 1</div>
   <div class="child-2">Child 2</div>
@@ -44,7 +44,7 @@ HTML:
 
 `space-between` distributes child elements across the width of the parent container with the starting and ending elements *fixed to the sides of the parent container*.
 
-```
+```css
 .parent{
   width:100%;
   display:flex;
@@ -57,7 +57,7 @@ HTML:
 
 `space-around` gives each element the same amount of space on its left and right across the width of the container, and the starting and ending elements are not necessarily fixed to the sides of the parent container.
 
-```
+```css
 .parent{
   justify-content: space-around
 }
@@ -70,7 +70,7 @@ HTML:
 ## Practice
 
 Which of the following `justify-content` values will display items evenly distributed, with the first item positioned near margin of the container?
-```
+```css
 .flex-container{
   justify-content:
             ???;
@@ -94,3 +94,4 @@ To give elements the same amount of space between them, as well as the container
 * flex-start
 * center
 
+ 

@@ -76,13 +76,13 @@ string in ES6!`;
 ---
 ## Practice
 
-What standard is used in ES2015 for multi line string variables? ???
+What character is used in ES2015 for multi line string variables? ???
 
 
-* Backticks
-* Single quotes
-* Double quotes
-* No quotes
+* Backticks (`)
+* Single quotes (`'`)
+* Double quotes (`"`)
+* Backslash (`\`)
 
 ---
 ## Revision

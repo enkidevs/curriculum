@@ -58,7 +58,7 @@ This is how the table would look with all the above mentioned properties:
 ## Practice
 
 Apply a cellpadding of 15px to a table:
-```
+```css
 ??? {
    ??? : 15px;
 }
@@ -88,3 +88,4 @@ table {
 * Adds a border to the table without padding.
 * Adds a border to the table with padding.
 
+ 
