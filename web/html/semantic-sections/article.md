@@ -21,8 +21,7 @@ aspects:
   - deep
   
 links:
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article
-  - https://www.w3schools.com/tags/tag_article.asp
+  - '[MDN docs on article](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article){documentation}'
 
 ---
 # Article
