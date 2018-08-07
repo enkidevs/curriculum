@@ -21,8 +21,7 @@ aspects:
   - deep
   
 links:
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article
-  - https://www.w3schools.com/tags/tag_article.asp
+  - '[MDN docs on article](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article){documentation}'
 
 ---
 # Article
@@ -98,3 +97,4 @@ Which HTML container would be best when used on its own in a feed reader?
 * `<news>`
 * `<aside>`
 * `<forum>`
+ 

@@ -22,7 +22,6 @@ aspects:
 
 links:
   - '[MDN docs for aside](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside){website}'
-  - '[W3S docs for aside](https://www.w3schools.com/tags/tag_aside.asp){website}'
 
 ---
 # Aside
@@ -110,3 +109,4 @@ TAG: ???
 * `<block>`
 * `<article>`
 * `<section>`
+ 

@@ -86,3 +86,4 @@ How do `.css` files appear in a browser when viewed alone without a `.html` file
 * A document error occurs and nothing displays properly.
 * File opens, but no content of any sort displayed.
 * The CSS file doesn't display anything without the HTML.
+ 

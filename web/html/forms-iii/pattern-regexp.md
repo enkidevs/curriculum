@@ -92,7 +92,7 @@ Mark the string that would NOT pass this pattern:
 ```html
 <input
   type="text" name="test"
-  pattern="[a-zA-Z0-9]{10}"
+  pattern="[a-zA-Z0-9]{0,10}"
   title="">
 ```
 
@@ -152,3 +152,4 @@ When you look at the title, which regular expression do you think should be set 
 * `[A-Za-z0-9_]{1-15}`
 * `[a-zA-Z0-9_]{15}`
 * `[A-Z-a-z-0-9_]{1-15}`
+ 

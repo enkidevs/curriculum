@@ -23,7 +23,6 @@ links:
   - '[MDN Docs for The Table element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table){website}'
   - '[MDN docs for The Table Row element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr){website}'
   - '[MDN docs for The Table Data element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td){website}'
-  - '[MDN docs for Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
 
 ---
 # Table, tr, and td
@@ -167,3 +166,4 @@ Pencil 2.99 495 Pen 1.49 223
 * Option B
 * Option C
 * Option D
+ 

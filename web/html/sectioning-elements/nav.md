@@ -61,11 +61,11 @@ Select the item that would be useful placing within a `<nav>` container.
 
 ???
 
- * Navigational links
- * Link to Email
- * Links within main content
- * Tags in a blog post
- * Image Links
+* Navigational links
+* Link to Email
+* Links within main content
+* Tags in a blog post
+* Image Links
 
 ---
 ## Revision
@@ -78,13 +78,9 @@ Should all links within a webpage be placed within a `<nav>` element?
 
 ???
 
- * Yes
- * No
- * Yes, but it will fail validation.
- * No
- * Yes
- * No, but it will fail validation.
-
+* Yes
+* No
+* Yes, but it will fail validation.
 
 ---
 ## Quiz
@@ -95,10 +91,8 @@ Which container is best to organize the buttons that link the primary pages of t
 
 ???
 
- * `<nav>`
- * `<navigation>`
- * `<header>`
- * `<navigate>`
- * `<navi>`
- * `<menu>`
- * `<buttons>`
+* `<nav>`
+* `<navigation>`
+* `<header>`
+* `<div>`
+ 

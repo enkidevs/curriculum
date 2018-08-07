@@ -15,13 +15,10 @@ tags:
   - introduction
 
 links:
-
-  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
   - '[MDN docs for b](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b){website}'
   - '[MDN docs for strong](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong){website}'
   - '[CodePen: strong & b](https://codepen.io/enkidevs/pen/mjRemb){code}'
   - '[CodePen: strong & b (2)](https://codepen.io/enkidevs/pen/NBdGvb){code}'
-  - '[MDN docs for globat attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
 
 
 ---
@@ -136,3 +133,4 @@ Write the code to properly express extra importance to key words :
 * /cite
 * i
 * /i
+ 

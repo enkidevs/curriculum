@@ -20,8 +20,7 @@ links:
   - '[CodePen: Elemente em Embedded](https://codepen.io/enkidevs/pen/GBrpgb){code}'
   - '[CodePen: Element em & i](https://codepen.io/enkidevs/pen/djNYYw){code}'
   - '[CodePen: Element cite](https://codepen.io/enkidevs/pen/GBrpoV){code}'
-  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
-
+ 
 ---
 # Italic & Emphasis
 ---
@@ -197,3 +196,4 @@ Write the code to properly express emphasis in this sentence:
 * /strong
 
 
+ 

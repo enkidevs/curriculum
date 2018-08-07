@@ -72,3 +72,4 @@ Which statement about alt attributes is false?
  * It is used to provide information to the user if they cannot view the image.
  * Empty alt attributes are appropriate when the image is purely decorative.
  * Screen readers can use alt text to help users that are visually impaired.
+ 

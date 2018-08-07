@@ -69,23 +69,25 @@ Example of opening the link in a different tab:
 
 Create a link that will open the linked page within a new tab or browser window.
 
-`<??? ???="http://enki.com" ???="???">`
+```html
+<??? ???="http://enki.com"
+  ???="???">
+<???>
+````
 
 Which of these is not a valid target value?
 
-`<a href="http://enki.com" target="___">`
+`<a href="http://enki.com" target="???">`
 
-???
-
-* a
-* href
-* target
-* _blank
-* `_new`
-* src
+* `a`
+* `href`
+* `target`
 * `_blank`
+* `/a`
+* `_new`
 * `_parent`
 * `_self`
+* `_top`
 
 ---
 ## Revision
@@ -176,3 +178,4 @@ framename represents the name of a frame in the page, so it can be valid and ope
 ```
 
 
+ 

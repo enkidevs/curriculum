@@ -123,3 +123,4 @@ What order is recommended for adding CSS & JS in the `<head>` of an HTML page?
 * JS first, then CSS
 * CSS only, JS can't be.
 * JS only, CSS can't be.
+ 

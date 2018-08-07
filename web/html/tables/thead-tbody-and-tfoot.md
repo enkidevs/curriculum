@@ -23,7 +23,6 @@ links:
   - '[MDN docs for tbody](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody){website}'
   - '[MDN docs for tfoot](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot){website}'
   - '[Codepen Example](https://codepen.io/stefan-stojanovic/pen/jKbJgQ){website}'
-  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
 
 ---
 # Thead, tbody, & tfoot
@@ -108,3 +107,4 @@ Which of the following is a key benefit of using `<thead>`, `<tbody>`, and `<tfo
 * alternative colors can be styled to rows/columns differently.
 * best for search engines to determine the type of data.
 * allows for easier nesting of table organization.
+ 

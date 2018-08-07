@@ -22,7 +22,6 @@ aspects:
 
 links:
   - '[MDN docs for section](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section){website}'
-  - '[W3S docs for section](https://www.w3schools.com/tags/tag_section.asp){website}'
 
 ---
 # Section
@@ -89,3 +88,4 @@ Which HTML container element should be used only when the contents would be info
 * `<record>`
 
 <!--As blogposts and comments are often syndicated (by being pulled into other blogs or being linked via twitter, reddit etc) they should be articles. Cite: http://html5doctor.com/the-section-element/ -->
+ 

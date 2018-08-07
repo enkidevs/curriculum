@@ -95,3 +95,4 @@ What does &copy; display in this line of code?
 * `symbol`
 * `&copy;`
 * Copyright [current year]
+ 

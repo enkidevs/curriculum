@@ -22,7 +22,6 @@ links:
   - '[CodePen: button Element](https://codepen.io/enkidevs/pen/dKQxjM){code}'
   - '[CodePen: Button element with Text & Image](https://codepen.io/enkidevs/pen/VdqZdQ){code}'
   - '[MDN docs for button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button){website}'
-  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
 
 ---
 # Button
@@ -135,3 +134,4 @@ If a button is outside of a form, what must be used to assign an action to it?
 * `<input type="submit" value="Button">`
 * `<input type="button" value="Submit">`
 * `<input type="button" value="Submit">`
+ 

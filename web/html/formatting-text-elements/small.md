@@ -17,7 +17,6 @@ tags:
 links:
   - '[CodePen: Element small](https://codepen.io/enkidevs/pen/NBdxNX){code}'
   - '[CodePen: Element small (headings)](https://codepen.io/enkidevs/pen/OwWMbj){code}'
-  - '[MDN docs for globat attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
   
 ---
 # Small
@@ -105,3 +104,4 @@ What does the `<small>` element set the selected text to?
 * smaller and half a character above line of text.
 * to the smallest display size.
 * to the font-size of 10px.
+ 

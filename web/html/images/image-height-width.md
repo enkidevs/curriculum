@@ -90,3 +90,4 @@ What are the appropriate attributes for setting the image size in HTML? (Please 
 * Prevents potential CSS mistakes with image size.
 * Easiest way to set image size.
 * Best way to manage responsive (resizable) images.
+ 
