@@ -48,7 +48,7 @@ img {
     height: auto;
 } 
 ```
-![View CodePen](https://codepen.io/enkidevs/pen/GBRLYE)
+<!--[View CodePen](https://codepen.io/enkidevs/pen/GBRLYE)-->
 
 ---
 ## Practice

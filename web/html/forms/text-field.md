@@ -69,7 +69,7 @@ Example new account:
 
 Next, you can control the physical size of your input fields with the `size` attribute. The `size` attribute sets the width of the text field in terms of characters rather than pixels.
 
-Example:
+Example: 
 ```html
 <input type="text" size="10" >
 ```
