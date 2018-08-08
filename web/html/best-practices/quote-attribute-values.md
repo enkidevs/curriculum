@@ -37,7 +37,7 @@ Both produce same result:
 
 ![click-me-link](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%22111%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%22111%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Crect%20width%3D%22114%22%20height%3D%2229%22%20x%3D%2221%22%20y%3D%2221%22%20fill%3D%22%23F069A6%22%20stroke%3D%22%23BC5184%22%20stroke-width%3D%222%22%20rx%3D%228%22%2F%3E%3Ctext%20fill%3D%22%23FFF%22%20font-family%3D%22Arial-BoldMT%2C%20Arial%22%20font-size%3D%2218%22%20font-weight%3D%22bold%22%3E%3Ctspan%20x%3D%2241%22%20y%3D%2242%22%3EClick%20Me%3C%2Ftspan%3E%3C%2Ftext%3E%3Crect%20width%3D%22114%22%20height%3D%2229%22%20x%3D%2221%22%20y%3D%2261%22%20fill%3D%22%23F069A6%22%20stroke%3D%22%23BC5184%22%20stroke-width%3D%222%22%20rx%3D%228%22%2F%3E%3Ctext%20fill%3D%22%23FFF%22%20font-family%3D%22Arial-BoldMT%2C%20Arial%22%20font-size%3D%2218%22%20font-weight%3D%22bold%22%3E%3Ctspan%20x%3D%2241%22%20y%3D%2282%22%3EClick%20Me%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-Many people find this feature useful because it saves them time from typing quotations. Also, not putting quotation marks saves on bytes required for a page to load.
+Many people find this feature useful because it saves them time from typing quotations. Also, not putting quotation marks saves on bytes required for a page to load. 
 
 Nevertheless, there are numerous reasons why you should *still use* quotations:
 
