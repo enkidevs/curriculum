@@ -52,7 +52,7 @@ The counter for n starts at *0* and ends when it hits the total number of direct
 3×4+2 = 14th child
 3×5+2 = 17th child
 ```
-As the list has *6* elements, the expression is relevant only for the 2nd and the 5th. However, it saves a lot of typing.
+As the list has *6* elements, the expression is relevant only for the 2nd and the 5th. However, it saves a lot of typing. 
 
 To select all the children from the fifth one to the end of the list, the expression is **n+5**.
 
