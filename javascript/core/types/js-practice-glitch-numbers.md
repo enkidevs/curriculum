@@ -1,7 +1,6 @@
 ---
 author: lizTheDeveloper
 
-
 levels:
 
   - beginner

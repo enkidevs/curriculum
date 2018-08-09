@@ -13,6 +13,9 @@ inAlgoPool: false
 standards:
   javascript.javascript-syntax.2: 10
 
+tags:
+  - introduction
+
 aspects:
   - introduction
 
@@ -103,3 +106,4 @@ console.log("enki");
 * />
 * `<script`
 * src=
+

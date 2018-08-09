@@ -11,17 +11,6 @@ type: normal
 
 category: feature
 
-aspects:
-  - introduction
-  - new
-  - workout
-  - deep
-
-
-standards:
-  javascript.browser-apis-device.0: 10
-  javascript.browser-apis-browser.2: 10
-
 links:
   - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/notification){website}'
 
@@ -115,3 +104,4 @@ Which method exposed by the Notifications API can be used to ask for user permis
 * access
 * grantAccess
 * Notif
+ 

@@ -11,15 +11,6 @@ type: normal
 
 category: tip
 
-aspects:
-  - introduction
-  - workout
-  - obscura
-
-standards:
-  javascript.browser-apis-browser.1: 10
-  comp-sci.identify-network-protocols.9: 10
-  comp-sci.identify-network-protocols.10: 10
 
 links:
 
@@ -67,3 +58,5 @@ window === window.top // ???
 * `true`
 * `false`
 * `error`
+
+ 

@@ -11,7 +11,6 @@ insights:
   - weak-vs-strict-equality-operator
   - the-difference-between-null-undefined-and-nan
 
-
 exercises:
   - js-practice-glitch-numbers
   - js-practice-glitch-math

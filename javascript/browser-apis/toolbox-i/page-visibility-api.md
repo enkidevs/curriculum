@@ -15,17 +15,6 @@ type: normal
 
 category: must-know
 
-aspects:
-  - introduction
-  - new
-  - workout
-  - deep
-  - obscura
-
-standards:
-  javascript.browser-apis-device.0: 10
-  javascript.browser-apis-browser.1: 10
-
 
 links:
 
@@ -43,7 +32,7 @@ The *Page Visibility API* allows you to query whether a page is visible or in fo
 
 It is common for users to have multiple tabs open so this information could be used to trigger an action such as starting an animation or stopping network requests to save resources.
 
-When the user minimises the webpage or moves to a different tab, the API sends a `visibilityChange` event.
+When the user minimises the webpage or moves to a different tab, the API sends a `visibilityChange` event. 
 
 Note that at the time of writing the name for this event and hidden property differs across browsers.
 
@@ -51,7 +40,7 @@ Detecting visibility changes:
 
 ```javascript
 document
-.addEventListener("visibilitychange",
+.addEventListener("visibilitychange", 
 function(){
 	if(document.hidden){
 		console.log('hidden');
@@ -90,3 +79,5 @@ document.???("???", function() {
 * `newListener`
 * `change`
 * `detectvisibility`
+
+ 

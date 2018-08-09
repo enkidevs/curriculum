@@ -10,16 +10,6 @@ type: normal
 
 category: feature
 
-aspects:
-  - introduction
-  - new
-  - workout
-  - deep
-  - obscura
-
-standards:
-  javascript.browser-apis-device.0: 10
-
 links:
   - '[davidwalsh.name](https://davidwalsh.name/javascript-battery-api){website}'
   - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API){website}'
@@ -101,3 +91,4 @@ Using the battery API, fill in the missing gaps of the following code snippet su
 * now
 * run
 * start
+ 

@@ -9,14 +9,6 @@ type: normal
 
 category: feature
 
-aspects:
-  - introduction
-  - workout
-  - obscura
-
-standards:
-  javascript.browser-apis-browser.1: 10
-
 links:
   - '[viralpatel.net](http://viralpatel.net/blogs/disable-back-button-browser-javascript/){website}'
 
@@ -77,3 +69,4 @@ Fill the missing event listener such that it will be automatically triggered whe
 * dom
 * global
 * events
+ 
