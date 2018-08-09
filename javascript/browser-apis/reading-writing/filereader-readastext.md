@@ -9,15 +9,8 @@ levels:
 
 type: normal
 
-category: feature
+category: must-know
 
-aspects:
-  - introduction
-  - workout
-  - deep
-
-standards:
-  javascript.browser-store-data.6: 10
 
 links:
 
@@ -38,7 +31,7 @@ Creating a new instance of File Reader.
 ```javascript
 var reader = new FileReader();
 ```
-Reading the text file.
+Reading the text file. 
 ```javascript
 reader.onload = function(e) {
   var text = reader.result;
@@ -89,3 +82,5 @@ reader.onload = function(e) {
 * `readText`
 * `readFile`
 * `file`
+
+ 

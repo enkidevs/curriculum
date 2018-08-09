@@ -13,15 +13,8 @@ levels:
 
 type: normal
 
-category: feature
+category: must-know
 
-aspects:
-  - introduction
-  - workout
-  - deep
-
-standards:
-  javascript.browser-store-data.6: 10
 
 links:
 
@@ -91,3 +84,5 @@ The URL returned by the `readAsDataURL` function is
 * a base64 encoded string
 * an SVG's code
 * a link to file's location
+
+ 

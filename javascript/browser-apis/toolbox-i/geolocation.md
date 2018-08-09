@@ -10,17 +10,6 @@ type: normal
 
 category: feature
 
-aspects:
-  - introduction
-  - new
-  - workout
-  - deep
-
-
-standards:
-  javascript.browser-apis-browser.0: 10
-  javascript.browser-apis-device.1: 10
-
 links:
   - '[www.sitepoint.com](http://www.sitepoint.com/html5-geolocation/){website}'
 
@@ -30,7 +19,7 @@ links:
 ---
 ## Content
 
-The Geolocation API provides location information such as the latitude and longitude coordinates.
+The Geolocation API provides location information such as the latitude and longitude coordinates. 
 
 The exact information available will depend on the device.
 
@@ -109,3 +98,5 @@ navigator.???.???(
 * watch
 * listen
 * onChange
+
+ 

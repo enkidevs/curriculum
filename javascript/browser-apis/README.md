@@ -4,8 +4,6 @@ description: The browser. The mother of javascript. You'll work better, together
 
 sections:
   '0':
-    - intro-browser-js
-    - dom-manipulation
     - navigation
     - toolbox-i
   '1':

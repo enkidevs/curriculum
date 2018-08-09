@@ -19,14 +19,6 @@ tags:
 
   - defer-scripts
 
-standards:
-  javascript.browser-tooling.0: 10
-
-aspects:
-  - new
-  - workout
-  - deep
-  - obscura
 
 links:
 
@@ -40,16 +32,16 @@ links:
 ---
 ## Content
 
-Modern browsers support the `async` and `defer` attributes on scripts. These attributes tell the browser it is safe to continue parsing while the scripts are being downloaded.
+Modern browsers support the `async` and `defer` attributes on scripts. These attributes tell the browser it is safe to continue parsing while the scripts are being downloaded. 
 
 ```
-<script type="text/javascript"
+<script type="text/javascript" 
 src="path/to/script1.js" async></script>
 ```
 
-An `async` script is executed as soon as it is downloaded, without blocking the browser in the meantime.
+An `async` script is executed as soon as it is downloaded, without blocking the browser in the meantime. 
 ```
-<script type="text/javascript"
+<script type="text/javascript" 
 src="path/to/script1.js" defer></script>
 ```
 
@@ -76,3 +68,5 @@ What type of script is executed as soon as it is downloaded, without blocking th
 * `defer`
 * `all`
 * `none`
+
+ 

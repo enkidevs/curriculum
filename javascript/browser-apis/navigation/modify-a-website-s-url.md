@@ -12,16 +12,7 @@ levels:
 type: normal
 
 category: feature
-aspects:
-  - introduction
-  - workout
-  - deep
-  - obscura
 
-standards:
-  javascript.browser-apis-browser.1: 10
-  comp-sci.identify-network-protocols.9: 10
-  comp-sci.identify-network-protocols.10: 10
 
 links:
 
@@ -42,8 +33,8 @@ The format is:
 
 ```
 history.pushState([data], [title], [url]);
-```
-`data` is a JavaScript object which is associated with the new browser history entry. This is needed if the state of the webpage changes.
+``` 
+`data` is a JavaScript object which is associated with the new browser history entry. This is needed if the state of the webpage changes. 
 
 `title` is intended to be a short title for the state to which you're moving (but is actually ignored by most browsers!).
 
@@ -52,10 +43,10 @@ history.pushState([data], [title], [url]);
 ---
 ## Practice
 
-What are the three parameters required with the `pushState` method (in order) when modifying a website's URL?
+What are the three parameters required with the `pushState` method (in order) when modifying a website's URL? 
 
 ```javascript
-history.pushState([???],
+history.pushState([???], 
        [???],[???])
 ```
 
@@ -76,7 +67,7 @@ history.pushState([???],
 What method is used to modify a website URL without a full page refresh?
 
 ```javascript
-history.???([data],
+history.???([data], 
             [title], [url]);
 ```
 
@@ -85,3 +76,5 @@ history.???([data],
 * `modURL`
 * `changeRoute`
 * `push`
+
+ 

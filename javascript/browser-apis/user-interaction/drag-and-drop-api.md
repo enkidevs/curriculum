@@ -13,15 +13,6 @@ type: normal
 
 category: must-know
 
-aspects:
-  - introduction
-  - new
-  - workout
-  - deep
-  - obscura
-
-standards:
-  javascript.dom.3: 10
 
 links:
 
@@ -35,19 +26,19 @@ links:
 ---
 ## Content
 
-*Drag and Drop interfaces* allow applications to use drag and drop features in browsers. This means the user can select elements with their mouse, drag the elements to a droppable element, and drop the element by releasing the mouse button.
+*Drag and Drop interfaces* allow applications to use drag and drop features in browsers. This means the user can select elements with their mouse, drag the elements to a droppable element, and drop the element by releasing the mouse button. 
 
 Before dragging and dropping, an elements attribute must be set so it's allowed to be dragged, and the *`ondragstart`* global event handler must be added.
 
 ```html
-<div draggable="true"
+<div draggable="true" 
  ondragstart="dragstart_handler(event);">
 </div>
 ```
 ```javascript
 function dragstart_handler(ev) {
   console.log("Start dragging...");
-  ev.dataTransfer.setData("text/plain",
+  ev.dataTransfer.setData("text/plain", 
                           ev.target.id);
 }
 ```
@@ -86,3 +77,5 @@ What global event handler must be added to an element so that it can be dragged 
 * `dragstart_handler`
 * `dataTransfer`
 * `dragAndDrop`
+
+ 

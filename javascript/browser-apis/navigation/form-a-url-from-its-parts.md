@@ -17,19 +17,12 @@ tags:
 
   - url
 
-aspects:
-  - introduction
-  - workout
-  - obscura
 
-standards:
-  javascript.browser-apis-browser.1: 10
-  comp-sci.identify-network-protocols.9: 10
-  comp-sci.identify-network-protocols.10: 10
+
 
 ---
 
-# Form a `URL` from its parts
+# Form a `URL` from its parts 
 
 ---
 ## Content
@@ -45,7 +38,7 @@ _http://example.com/data/index.html_
 From this, we can construct the full `URL` path:
 
 ```javascript
-var newURL = window.location.protocol +
+var newURL = window.location.protocol + 
 "//" + window.location.host +
  "/" + window.location.pathname;
 ```
@@ -53,13 +46,13 @@ var newURL = window.location.protocol +
 ---
 ## Practice
 
-Construct the full URL path by completing the JS code snippet below:
+Construct the full URL path by completing the JS code snippet below: 
 
 ```javascript
-var newURL = ???+
+var newURL = ???+ 
     "//" + ??? + "/"
          + ???;
-```
+``` 
 
 
 * `window.location.protocol`
@@ -87,3 +80,5 @@ window.???.???;
 * `url`
 * `protocol`
 * `pathname`
+
+ 

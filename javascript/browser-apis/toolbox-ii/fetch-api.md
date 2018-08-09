@@ -13,13 +13,6 @@ type: normal
 
 category: must-know
 
-aspects:
-  - introduction
-  - new
-  - workout
-
-standards:
-  javascript.browser-connect-to-remote-hosts.3: 10
 
 links:
 
@@ -33,7 +26,7 @@ links:
 ---
 ## Content
 
-The *Fetch API* provides an interface to fetch resources from across a network.
+The *Fetch API* provides an interface to fetch resources from across a network. 
 
 The `fetch()` method is used for making requests and fetching resources. It takes one compulsory argument - the path to the resource you want to fetch.
 
@@ -52,11 +45,11 @@ var myOptions = { method: 'GET',
 
 fetch('/the/url', myOptions)
   .then(function(response) {
-    return // ...
+    return // ... 
   }).then(function(returnValue) {
     // ...
   }).catch(function(error) {
-    console.log("Problem occurred: " +
+    console.log("Problem occurred: " + 
                   error.message);
   });
 ```
@@ -64,7 +57,7 @@ fetch('/the/url', myOptions)
 ---
 ## Practice
 
-What is the required argument the `fetch()` takes? ???
+What is the compulsory argument the `fetch()` takes? ???
 
 * The path to the resource you want to fetch.
 * The network name.
@@ -73,9 +66,11 @@ What is the required argument the `fetch()` takes? ???
 ---
 ## Revision
 
-Which interface for fetching resources supports promises natively?
+Which interface for fetching resources is more powerful?
 
 ???
 
 * `fetch`
 * `XMLHttpRequest`
+
+ 

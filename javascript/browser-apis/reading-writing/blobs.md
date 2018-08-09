@@ -13,13 +13,6 @@ type: normal
 
 category: must-know
 
-aspects:
-  - introduction
-  - workout
-  - deep
-
-standards:
-  javascript.browser-store-data.6: 10
 
 links:
 
@@ -53,7 +46,7 @@ var blob = instanceOfBlob.slice([
 ---
 ## Practice
 
-Use the blob constructor to create a blob:
+Use the blob constructor to create a blob: 
 
 ```javascript
 var debug = {hello: "Enki"};
@@ -87,3 +80,5 @@ var blob = instanceOfBlob.???([
 * `splice`
 * `concat`
 * `stringify`
+
+ 

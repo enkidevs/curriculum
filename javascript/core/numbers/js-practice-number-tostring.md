@@ -1,7 +1,6 @@
 ---
 author: lizTheDeveloper
 
-
 levels:
 
   - beginner
@@ -26,7 +25,8 @@ links:
 
 aspects:
   - introduction
-
+tags:
+  - introduction
 
 ---
 
