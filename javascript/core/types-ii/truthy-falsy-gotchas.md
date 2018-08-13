@@ -54,7 +54,7 @@ null == false
 
 `null` and `undefined` are special and not equal to anything but themselves.
 
-..And there are many more of these strange cases so watch out!
+... And there are many more of these strange cases so watch out!
 
 ---
 ## Practice
@@ -66,8 +66,8 @@ null == undefined
 // ???
 ```
 
-* false
 * true
+* false
 * error
 
 ---
