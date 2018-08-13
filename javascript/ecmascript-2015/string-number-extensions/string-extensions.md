@@ -49,7 +49,7 @@ String.fromCodePoint(0x12014) // 𒀔
 Fill in the gap with a method introduced in **ES6** such that the log statement is correct:
 
 ```javascript
-console.log(???.???(100))
+console.log(???.???(70))
 // F
 ```
 
