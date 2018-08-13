@@ -1,6 +1,6 @@
 name: The Document Object
 
-description: Learn to directly modify the page with the Document object
+description: Learn to directly modify the page with the Document object 
 
 insights:
   - creating-elements
