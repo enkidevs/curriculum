@@ -14,7 +14,13 @@ levels:
 type: normal
 
 category: feature
+aspects:
+  - introduction
+  - new
+  - workout
 
+standards:
+  javascript.browser-apis-device.3: 10
 
 links:
 
@@ -35,16 +41,16 @@ You can check the status of a permission using `permissions.query()`. The status
 For example:
 
 ```
-// Check for Geolocation API permissions. 
+// Check for Geolocation API permissions.
 // Pass permission's name into method
-// as 'permissionDescriptor' object. 
+// as 'permissionDescriptor' object.
 navigator.permissions
                .query({name:'geolocation'})
   // The Promise resolves to
-  // `permissionStatus' object 
-  .then(function(permissionStatus) { 
+  // `permissionStatus' object
+  .then(function(permissionStatus) {
     // print state of geolocation permission
-    console.log('geo permission 
+    console.log('geo permission
         state is ', permissionStatus.state);
   });
 ```
@@ -77,5 +83,4 @@ To what browser is the Permission API currently limited to?
 * Safari
 * Mozilla
 * Internet Explorer
-
  
