@@ -67,3 +67,4 @@ window === window.top // ???
 * `true`
 * `false`
 * `error`
+ 

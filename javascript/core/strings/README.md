@@ -13,3 +13,4 @@ exercises:
   - js-practice-strings-2
   - js-practice-string-methods-replace
   - js-practice-double-and-single-quotes
+ 

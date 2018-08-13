@@ -87,3 +87,4 @@ var blob = instanceOfBlob.???([
 * `splice`
 * `concat`
 * `stringify`
+ 

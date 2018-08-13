@@ -1,7 +1,5 @@
 name: Browser APIs
 
-type: Insights list
-
 description: An introduction to scripting in the browser
 
 insights:
@@ -16,3 +14,4 @@ exercises:
   - js-practice-using-javascript-on-a-webpage
   - js-practice-modify-body-background-color
   - js-practice-modify-element
+ 
