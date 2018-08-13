@@ -83,7 +83,9 @@ Number.???
 How do you check if a number can be represented in IEEE-754 format?
 
 ```javascript
-Number.???(Math.pow(2, 53))
+Number.???(
+  Math.pow(2, 53)
+  )
 ```
 
 * isSafeInteger
@@ -94,4 +96,3 @@ Number.???(Math.pow(2, 53))
 * isValid
 * isFinite
 * isInteger
- 
