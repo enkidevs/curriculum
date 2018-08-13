@@ -44,3 +44,4 @@ Use `console.log()` to print the results of the `.replace()` method to the termi
 
 Click `Show` to check to see if your program is correct.
 Be sure to Remix the project, and turn that in as your solution.
+ 

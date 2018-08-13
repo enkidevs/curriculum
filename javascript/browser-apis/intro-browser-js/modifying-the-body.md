@@ -108,3 +108,4 @@ What happens when you changes the innerHTML of the body tag?
 * You overwrite all elements inside the body tag with the new content.
 * The content is appended to the existing content of the body tag.
 * A syntax error is thrown.
+ 

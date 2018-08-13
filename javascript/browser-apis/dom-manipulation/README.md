@@ -12,3 +12,4 @@ insights:
 exercises:
   - js-practice-create-a-complex-element-given-an-object
   - js-practice-create-elements-modify-and-append-to-the-dom
+ 

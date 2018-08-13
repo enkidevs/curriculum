@@ -113,3 +113,4 @@ Select the element with the id "time" and change it's content to "Future"
 * `document.getElementById('time').innerHTML = "Future"`
 * `document.getElement('time').HTML = "Future"`
 * `DOM.getElementById('time').content = "Future"`
+ 
