@@ -36,7 +36,7 @@ The name/value pair refers in this case to 'src' and the value
 ---
 ## Practice
 
-What are the two attributes of this code?
+What are the two attributes in the following snippet? ???
 ```html
 <p>
   This is a
@@ -47,11 +47,7 @@ What are the two attributes of this code?
 </p>
 ```
 
-???
-
-Attribute values should always be enclosed within what symbols?
-
-???
+Attribute values should always be enclosed within what symbols? ???
 
 * `href` and `target`
 * Quotation marks
@@ -65,13 +61,9 @@ Attribute values should always be enclosed within what symbols?
 ---
 ## Revision
 
-HTML attributes are required to be placed where?
+HTML attributes are required to be placed where? ???
 
-???
-
-True or False? `Every HTML element requires an attribute.`
-
-???
+True or False? `Every HTML element requires an attribute.` ???
 
 * Within the opening tag.
 * False
@@ -87,11 +79,8 @@ True or False? `Every HTML element requires an attribute.`
 
 HTML attributes usually come in what format?
 
-???
-
 * pairs like: name="value"
 * styles like: font-size
 * values like: color="red"
 * measurements like: pixels
-* names like: labels="container"
  
