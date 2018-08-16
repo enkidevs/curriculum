@@ -52,7 +52,7 @@ The `novalidate` is of type boolean, and when specified indicated that the form 
 
 
 Basic Form Example:
-```
+```html
 <form action="" method="POST">
   <label
     for="age">Age:
@@ -116,3 +116,4 @@ Which form element is used to collect user data?
 * `<data>`
 * `<fieldset>`
 * `<collect>`
+ 

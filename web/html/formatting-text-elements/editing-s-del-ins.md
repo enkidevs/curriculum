@@ -28,7 +28,7 @@ links:
 The HTML `<s>`,  or the **Strikethrough Text** element, is used to create a strikethrough in a text. This is usually used to specify that some text is no longer correct or relevant.
 
 Example:
-```
+```html
 I have $40 left in my account.
 I have <s>$40</s> $35 left in my account
 ```
@@ -54,7 +54,7 @@ The `datetime` attribute is used to indicate the time of the change and the date
 
 The `<del>` element is usually rendered with strikethrough text, whereas the `<ins>` is usually rendered with underlined text.
 
-```
+```html
 <del><p>Old Text</p></del>
 <ins><p>New Text</p></ins>
 ```
@@ -69,7 +69,7 @@ Result:
 
 Cross out the text "$100":
 
-```
+```html
 <p>
   Try and get flights under
   <tag>$100</tag> $200!
@@ -81,7 +81,7 @@ tag = ???
 Display the first list item as deleted text.
 Then display the third and fourth items as inserted text.
 
-```
+```html
 <ol>
  <li><tag1>Book flights</tag1></li>
  <li>Uber to airport</li>
@@ -134,3 +134,4 @@ Mark the false statement:
 * It is best to use `<ins>` together with `<del>` to properly showcase text updates to a document.
 * The `<s>` element that defined strikethrough is used to represent text that is no longer correct.
 *  The `<s>` and `<del>` elements visually appear the same by default but have different semantic meaning.
+ 

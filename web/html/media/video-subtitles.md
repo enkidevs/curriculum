@@ -29,7 +29,7 @@ links:
 
 Subtitles can be added to the videos via the `<track>` element like this:
 
-```
+```html
 <video src='video/tina.mp4'">
   <track src="video/subtitles.vtt"
   kind="subtitles"
@@ -68,7 +68,7 @@ All WebVTT files start with the line **WebVTT**.
 
 In the case you have videos that support multiple languages, you can provide them like this and in this case the English track was also set as the `default`:
 
-```
+```html
 <video src="video/short.mp4">
    <track label="English"
    kind="subtitles"
@@ -125,3 +125,4 @@ For files that contain subtitles that can be used with web videos, what file for
 * .sub
 * .txt
 * .track
+ 

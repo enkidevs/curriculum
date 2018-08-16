@@ -29,7 +29,7 @@ The HTML `<wbr>`, or sometimes referred to as the **Line Break Opportunity** ele
 You can use this to tell the browser that it can break a line in a place the browser wouldn't normally do it. Also, by doing so, you make the browser only break where the `<wbr>` element is. This means, for instance if you have a link where only the last word of the link doesn't fit the browser window and you have a `<wbr>` element at the middle of that link, as soon as the link can't fit the browsers breaks it at the `<wbr>` elements position.
 
 Let's say you have this link:
-```
+```html
 <p>
   http://www.enkipro.com/path/filename.html
 </p>
@@ -59,7 +59,7 @@ Example with a `<wbr>` element between `Llanfairpwllgwyngyllgogerychwyrn` and `d
 
 Mark the true statement regarding the `<wbr>` element.
 
-```
+```html
 <p>
   http://www.enkipro.com/
   <wbr>path/filename.html
@@ -78,7 +78,7 @@ Mark the true statement regarding the `<wbr>` element.
 
 Which HTML element represents a line breaking opportunity?
 
-```
+```html
 <p>
   http://www.enkipro.com/
   <???>path/filename.html
@@ -99,7 +99,7 @@ Which HTML element represents a line breaking opportunity?
 
 Mark the following statements that are true regarding the `<wbr>` element.
 
-```
+```html
 <p>
   http://www.enkipro.com/
   <wbr>path/filename.html
@@ -113,3 +113,4 @@ Mark the following statements that are true regarding the `<wbr>` element.
 * a line break is forced in a long string at the `<wbr>`.
 * `<wbr>` adds additional information within URL paths.
 
+ 

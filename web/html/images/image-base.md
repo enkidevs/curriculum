@@ -31,7 +31,7 @@ Also, the `<base>` element cannot be empty, it must contain either the target at
 
 All links in the web page or document are set to open in a new tab:
 
-```
+```html
 <head>
    <base
       target="_self">
@@ -39,7 +39,7 @@ All links in the web page or document are set to open in a new tab:
 ```
 
 All links in the web page or document will lead to the `https://www.enki.com` link:
-```
+```html
 <head>
    <base
     href="https://www.enki.com">
@@ -47,7 +47,7 @@ All links in the web page or document will lead to the `https://www.enki.com` li
  ```
 
 All links in the web page or document will lead to the `https://www.enki.com` link, and open in a new tab:
-```
+```html
 <head>
    <base href="https://www.enki.com"
       target="_blank">
@@ -61,7 +61,7 @@ All links in the web page or document will lead to the `https://www.enki.com` li
 
 Assign the link path for every image on the webpage:
 
-```
+```html
 <???>
   <??? ???>
 <???>
@@ -85,7 +85,7 @@ The link path to every image on the webpage can be assigned using what HTML elem
 
 Complete the code if a `<base>` URL is assigned and an image is used within an OpenGraph meta-tag.
 
-```
+```html
 <head>
   <base href="http://enkipro.com/">
   <meta property='og:image'
@@ -115,3 +115,4 @@ Complete the code if a `<base>` URL is assigned and an image is used within an O
 * `<link target="_blank">`
 * `<a target="_blank">`
 * `<* target="_blank">`
+ 

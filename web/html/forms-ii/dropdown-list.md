@@ -32,7 +32,7 @@ In HTML, the dropdown list is created with the `<select>` and `<option>` element
 The `<select>` element is used to create a control with a menu of options/items in which each item is represented with the `<option>` element. The value in the first option will display within the drop-down first. 
 
 Example:
-```
+```html
 <form>
 <select name="apples">
  <option
@@ -54,7 +54,7 @@ Example:
 
 In the example above, we have a dropdown menu with 3 possible options.
 You can also set another option item to display pre-selected first, with the `selected` attribute:
-```
+```html
 <form>
 <select name="apples">
  <option
@@ -79,7 +79,7 @@ You can also set another option item to display pre-selected first, with the `se
 
 Write the form code that creates an item of a dropdown.
 
-```
+```html
 <???>
   <??? value="a value">DropDown Item #1<???>
 <???>
@@ -116,7 +116,7 @@ Which line of code creates form’s dropdown list with a single item?
 
 When a form’s drop-down has an option other than the first item that needs to display by default, what attribute is used?
 
-```
+```html
 <select>
   <option
     value="item1" ???>
@@ -130,3 +130,4 @@ When a form’s drop-down has an option other than the first item that needs to 
 * preselected
 * default
 * select
+ 

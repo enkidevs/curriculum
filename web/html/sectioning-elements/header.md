@@ -34,7 +34,7 @@ This can be an introduction, some navigational aid, a graphical logo, the author
 You can also have multiple `<header>` elements on your web page, one for the primary layout and for each grouping of related content.
 
 This example showcases two headers within a web page:
-```
+```html
 <header>
   <h1>Logo</h1>
 </header>
@@ -111,3 +111,4 @@ The HTML `<header>` element cannot what?
 * hold a graphical logo
 * display authorship information
 * have multiple `<header>` elements within the same doc.
+ 

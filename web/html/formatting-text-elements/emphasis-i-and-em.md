@@ -20,8 +20,7 @@ links:
   - '[CodePen: Elemente em Embedded](https://codepen.io/enkidevs/pen/GBrpgb){code}'
   - '[CodePen: Element em & i](https://codepen.io/enkidevs/pen/djNYYw){code}'
   - '[CodePen: Element cite](https://codepen.io/enkidevs/pen/GBrpoV){code}'
-  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
-
+ 
 ---
 # Italic & Emphasis
 ---
@@ -39,7 +38,7 @@ The `<i>` element, which stands for **Italic**, is used set a part of a text in 
   - Scientific names
   - Etc..
 
-```
+```html
 <p>
   In French 
   <i class="french">
@@ -61,7 +60,7 @@ The `<em>`, or the **Emphasis** element, is used to *stress emphasis* on a piece
 
 Notice how the `<em>` element helps share how this example text should be read:
 
-```
+```html
 <p>
   This is <em>no doubt</em> the
   best steak I've ever had!
@@ -74,7 +73,7 @@ Notice how the `<em>` element helps share how this example text should be read:
 
 Furthermore, the `<em>` element is a little different from the `<i>` element in that it can be nested with itself.
 
-```
+```html
 <p>
   He shouted, 
   "<em>
@@ -95,7 +94,7 @@ This is good for expressing a greater degree of emphasis in a sentence. Also, by
 Additionally, the `<em>` and `<i>` elements can be used together.
 
 EM & I Example:
-```
+```html
 <p>
   The 
   <i>
@@ -119,7 +118,7 @@ EM & I Result:
 
 If you add the name of the movie where *Black Pearl* is from, you would do so with the `<cite>` element.
   
-```
+```html
 <p>
   The 
   <i>
@@ -197,3 +196,4 @@ Write the code to properly express emphasis in this sentence:
 * /strong
 
 
+ 

@@ -31,7 +31,7 @@ links:
 The HTML inputs of type `submit` and `reset` are rendered as buttons with `onClick` events. They both send a value to the server when clicked. The `type="submit` button sends the data from the form to the server. Whereas the `type="reset"` resets the data in the form to it's initial or default state.
 
 Example submit:
-```
+```html
 <input
   type="submit"
   value="Submit">
@@ -41,7 +41,7 @@ Example submit:
 
 
 Example reset:
-```
+```html
 <input
   type="reset"
   value="Reset data">
@@ -56,7 +56,7 @@ The `value` of either type is represented with a `DOMString`. This is something 
 The `type="submit"` button is used to submit a form.
 
 Example submit and reset with one text field:
-```
+```html
 <form>
     <label
       for="name">Name:
@@ -80,7 +80,7 @@ Example submit and reset with one text field:
 Furthermore, you can add shortcuts both to the `submit` and `reset` buttons via the `accesskey` attribute:
 
 Previous example with shortcuts added:
-```
+```html
 <form>
     <label
       for="name">Name:
@@ -148,7 +148,7 @@ Write the form code that creates a submit button.
 
 If values are not assigned to reset and submit buttons stating what text the buttons should display, what happens?
 
-```
+```html
 <input type="submit">
 <input type="reset">
 ```
@@ -157,3 +157,4 @@ If values are not assigned to reset and submit buttons stating what text the but
 * Nothing is added to the HTML page.
 * They display as buttons without text.
 * The page breaks
+ 

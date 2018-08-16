@@ -31,7 +31,7 @@ links:
 The HTML form input type `range` is used to specify any numeric value between two numbers. That value cannot be less than or greater than the two chosen values. It is usually represented by a slider. This kind of value control is not precise, so it should only be used if the exact value is not important and it requires some JavaScript to display the dynamic value. 
 
 Example:
-```
+```html
 <input
   type="range"
   min="1"
@@ -63,7 +63,7 @@ Example:
 <!--[View CodePen](https://codepen.io/enkidevs/pen/bKOxPL)-->
 
 Breaking down the example:
-```
+```html
 <input
   type="range"
   min="1"
@@ -79,7 +79,7 @@ With this block of HTML code, we have set the input to type `range`. The initial
  - You can also set negative numbers, such as: `min=-5` and `max=5`
 
 
-```
+```html
 <script>
  var slider =
   document.getElementById("myRange");
@@ -100,7 +100,7 @@ Additionally, you can edit your sliders by adding hash marks. This is done with 
 **Note:** Chrome only supports these tick marks currently.
 
 Example:
-```
+```html
 <input
   type="range"
   list="tickmarks">
@@ -121,7 +121,7 @@ Example:
 In the example above, we defined a slider with 5 hash marks, at 0, 25, 50, 75 and 100. This slider has values you can easily set with the hash marks. Each point is represented by the `<option>` element and it's value set to the desired range's value where the hash mark should be.
 
 Example:
-```
+```html
 <input
   type="range"
   list="tickmarks">
@@ -140,7 +140,7 @@ Example:
 
 Complete this code where the range slider is between 1 and 100 and starts in the middle at 50 with the appropriate ID.
 
-```
+```html
 <input
   type="???"
   ???="1"
@@ -180,3 +180,4 @@ Which form input type defines a slider control?
 * controls
 * slider
 * drag
+ 

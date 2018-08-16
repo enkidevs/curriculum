@@ -25,7 +25,7 @@ links:
 
 The HTML `<dfn>`, or the **Definition** element, is used to specify a term that's being defined within the `<p>`, `<section>` and/or `<dt>`/`<dd>` pairing elements. Also, the `<dfn>` element is usually used to indicate the first use of a term in a document.
 
-```
+```html
 <p>
   <dfn>Enki</dfn> is an app
   that provides daily workouts
@@ -43,7 +43,7 @@ Also, the `<dfn>` element has a `title` attribute. If the `title` attribute is p
 Furthermore, the `<dfn>` element can have the `<abbr>` element nested inside it. If the `<dfn>` element has a single `<abbr>` element with a `title` attribute nested inside it, then the value of the `<abbr>` elements `title` attribute is the term being defined.
 
 Example with abbr:
-```
+```html
 <p>
   <dfn>
    <abbr
@@ -78,7 +78,7 @@ Which statement is true regarding the `<dfn>` element?
 
 ???
 
-```
+```html
 <p>
 <dfn>Enki</dfn>
 is an app providing daily workouts
@@ -109,7 +109,7 @@ Which HTML element is used to indicate the first use of a term in a document?
 ### How much do you know about formatting text elements?
 
 From the following code, match the proper HTML elements with the tags:
-```
+```html
 <p>
   <tag>
    <abbr title="Hypertext Markup Language">
@@ -126,3 +126,4 @@ tag: ???
 * abbr
 * wbr
 * desc
+ 

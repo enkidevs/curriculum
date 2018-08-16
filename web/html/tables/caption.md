@@ -33,7 +33,7 @@ Adding a clear and concise description of the table's content within the `<capti
 When used, `<caption>` element must to be the **first** element within the `<table>` element to be valid, although using CSS it can be moved accordingly. The property `caption-side` can be set to `bottom` to quickly move the caption to the bottom of the table even with it added to the top of the table.   
 
 Example:
-```
+```html
 <table>
   <caption>Employee List</caption>
   <tr>
@@ -61,7 +61,7 @@ Example:
 
 Code the following table.  
 
-```
+```html
 <tag1>
   <tag2>Employee List</tag2>
   <tag3>
@@ -116,3 +116,4 @@ If the `<caption>` of an HTML table is placed under the table's data, where must
 * Anywhere within the table
 * Before the table element
 * After the table element
+ 

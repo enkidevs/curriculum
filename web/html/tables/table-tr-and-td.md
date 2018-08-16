@@ -23,7 +23,6 @@ links:
   - '[MDN Docs for The Table element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table){website}'
   - '[MDN docs for The Table Row element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr){website}'
   - '[MDN docs for The Table Data element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td){website}'
-  - '[MDN docs for Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
 
 ---
 # Table, tr, and td
@@ -35,7 +34,7 @@ The HTML table is used to represent information in a table made of columns and r
 When creating a table in HTML the `<table>` element is used to create the entire table, the `<tr>`(Table Row) element is used to create the tables rows and the `<td>` (Table Data) element is used to create table data.
 
 Example of a simple table:
-```
+```html
 <table>
   <tr>
     <td>Matthew</td>
@@ -63,7 +62,7 @@ Tables themselves in HTML without CSS can appear a little messy and confusing co
 Styling tables can take a little practice, as seen in the example above, and often use more specific selectors. Such as, in order to prevent the last column or bottom row from having styles that may look strange, properties on these rows (or cells) can be reset using the psudo class `:last-child` like this. 
 
 
-```
+```css
 tr:last-child {
   border-bottom: none;
 }
@@ -74,7 +73,7 @@ tr:last-child {
 
 Arrange the HTML tags to properly create this table:
 
-```
+```html
 <tag1>
   <tag2>
     <tag3>Matthew</tag3>
@@ -127,7 +126,7 @@ Match the HTML element with its description:
 What is the output of this table?
 Choose the appropriate option; A,B,C or D:
 
-```
+```html
 <table>
   <tr>
     <td>Pencil</td>
@@ -142,22 +141,22 @@ Choose the appropriate option; A,B,C or D:
 </table>
 ```
 A
-```
+```html
 Pencil 1.99 295
 Pen    2.49 423
 ```
 B
-```
+```html
 Pen    2.49 423
 Pencil 1.99 295
 ```
 C
-```
+```html
 Pencil 1.99295
 Pen    2.49423
 ```
 D
-```
+```html
 Pencil 2.99 495 Pen 1.49 223
 ```
 
@@ -167,3 +166,4 @@ Pencil 2.99 495 Pen 1.49 223
 * Option B
 * Option C
 * Option D
+ 

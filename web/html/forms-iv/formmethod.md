@@ -40,7 +40,7 @@ It is not good to use the `method="get"` for password sensitive information. If 
 The `method="post"` does not append to the URL, but rather sends the form data as an HTTP post transaction.
 
 Example:
-```
+```html
 <form
   action="/action.php"
    method="get">
@@ -64,7 +64,7 @@ Example:
 
 Match the possible values with their description related to the method attribute.
 
-```
+```html
 <form
   action="file1.php" method="get">
 </form>
@@ -104,3 +104,4 @@ Which statement is not true regarding the `formmethod` attribute?
 * It can be used with `type"submit"` and `type"image"` attributes.
 * The `method="get"` appends form data to the URL when submitted.
 * The `method="post"` does not append to the URL, but rather sends the form data as an HTTP post transaction.
+ 

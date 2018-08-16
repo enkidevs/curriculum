@@ -37,7 +37,7 @@ The placeholder attribute works for several input types:
  - `URL`
 
 Example:
-```
+```html
 <form
   action="/action.php">
   <input
@@ -70,7 +70,7 @@ Which statement is true regarding placeholder?
 
 Which form attribute shares a short hint that describes the expected value of an input field and will be overwritten by their input?
 
-```
+```html
 <input
   type="text" name="fname"
   ???="Full name">
@@ -81,3 +81,4 @@ Which form attribute shares a short hint that describes the expected value of an
 * sample
 * tip
 * note
+ 

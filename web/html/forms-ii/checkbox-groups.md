@@ -33,7 +33,7 @@ The HTML input forms of type `checkbox` are square boxes that can be ticked or c
 **Note:** A similar input form type is `radio`. This input type is also clickable, however, unlike with checkboxes, if multiple options are present, the radio buttons can have only one option checked at a time.
 
 Example with multiple checkboxes:
-```
+```html
 <form>
   <legend>
     Choose favorite music genre/s
@@ -119,7 +119,7 @@ When this data is submitted and sent to the server, it can be captured as an arr
 Furthermore, you can add a `checked` attribute to make a checkbox checked by default. Additionally, if the answers you provided are not enough, you can add an `other` checkbox with a `textfield` for the user to type an answer themselves.
 
 Example:
-```
+```html
 <form>
  <div>
     <input
@@ -172,46 +172,45 @@ Checkboxes have three possible states, these are `checked`, `unchecked` and:
 
 Create a checkbox group with two checkboxes and larger clickable area
 
- ```
-<???>
+
+ ```html
+<tagA>
   <legend>
     Choose favorite meal
   </legend>
     <div>
-     <???
-        type="???" id="soup"
-        name="meal" value="soup" ???>
-     <???
+     <tagB
+        type="tagC" id="soup"
+        name="meal" value="soup" tagD>
+     <tagE
         for="soup">Soup
-     <???>
+     </tagE>
     </div>
     <div>
-     <???
-        type="???" id="burgers"
+     <tagB
+        type="tagC" id="burgers"
         name="meal" value="burgers">
-     <???
+     <tagE
         for="burgers">Burgers
-     </???>
+     </tagE>
     </div
-<???>
+</tagA>
 ```
+tagA: ???
+tagB: ???
+tagC: ???
+tagD: ???
+tagE: ???
 
 * form
 * input
 * checkbox
 * checked
 * label
-* /label
-* input
-* checkbox
-* label
-* /label
-* /form
 * squarebox
-* /squarebox
 * button
-* /button
 * userInput
+* checkedbox
 
 ---
 ## Quiz
@@ -226,3 +225,4 @@ How are checkboxes styled?
 * Can't be styled
 * With proper HTML
 * Using the `style` menu each browser provides for HTML editting
+ 

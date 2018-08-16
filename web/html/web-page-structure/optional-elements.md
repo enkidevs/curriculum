@@ -36,7 +36,7 @@ Some optional elements:
 
 Although this isn't a very common practice, Google's HTML styleguide recommends that optional tags be used to help cut down on the file size and improve the scannability of the document. They also recommend that developers not pick some optional tags and omit others as consistency is important in avoiding simple mistakes.
 
-```
+```html
 <!-- Google: Not recommended -->
 <!DOCTYPE html>
 <html>
@@ -50,7 +50,7 @@ Although this isn't a very common practice, Google's HTML styleguide recommends 
 </html>
 ```
 
-```
+```html
 <!-- Google: Recommended -->
 <!DOCTYPE html>
 <title>Saving money,
@@ -117,3 +117,4 @@ Option 2
 * Option 1
 * Neither
 * Both
+ 

@@ -32,7 +32,7 @@ The HTML `<div>` element is used for content division, meaning it is a container
 The `<div>` element has zero effect on either the content or layout of the page unless styled with CSS. However, this element is really useful for grouping a bunch of content together. In this example, the content would display the same even without the `<div>`  element.
 
 Example:
-```
+```html
 <div>
   <p>
     Any kind of content here.
@@ -50,7 +50,7 @@ Since a web page typically has numerous `div` elements, it is common that they w
 
 In this case, when we add a `class` to the `<div>`, and use CSS to style that class, we have greater control over the layout and design like this:
 
-```
+```html
 <div class="shadowbox">
   <p>
     Any kind of content here.
@@ -58,7 +58,9 @@ In this case, when we add a `class` to the `<div>`, and use CSS to style that cl
     &lt;a&gt;, etc.
   </p>
 </div>
+```
 
+```css
 .shadowbox {
   font-family: Arial, sans-serif;
   font-size: 1.5em;
@@ -100,7 +102,7 @@ Which of the following is a useful way of using a div container in a webpage?
 
 Which HTML element is best used here?
 
-```
+```html
 <body>
   <TAG class="wrapper">
     <!--rest of site content-->
@@ -122,7 +124,7 @@ TAG: ???
 
 ### If you come across a website that uses this code, which statement is most appropriate?
 
-```
+```html
 <div class="nav">...</nav>
 ```
 
@@ -133,3 +135,4 @@ TAG: ???
  * This code is not written properly and will fail validation.
  * Multiple classes called "nav" can be added to various containers.
  * This most likely contains the primary navigation to the web page.
+ 

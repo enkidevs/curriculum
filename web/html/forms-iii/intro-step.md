@@ -31,7 +31,7 @@ The HTML input form `step` attribute is used to specify a *legal* number interva
 For instance, if you set `step="4"`, the legal numbers could be -4, 0, 4, 8, etc.
 
 Example:
-```
+```html
 <form
   action="/action.php">
   <input
@@ -69,7 +69,7 @@ Which statement is NOT true regarding step attributes within forms?
 
 Which form attribute allows a number to be entered in a specified interval, such as (-5, 0, 5, 10, etc)?
 
-```
+```html
 <form
   action="file.php">
  <input
@@ -94,7 +94,7 @@ Which form attribute allows a number to be entered in a specified interval, such
 
 Which values would be accepted by this input field?
 
-```
+```html
 <form
   action="file.php">
  <input
@@ -112,3 +112,4 @@ Which values would be accepted by this input field?
 * `1, 2, 3, 4, 5`
 * `0, 1, 2, 3, 4, 5`
 * `5, 6, 7, 8, 9`
+ 

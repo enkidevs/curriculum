@@ -33,7 +33,7 @@ Both elements are only used for typographical reasons and neither should be used
 For instance, you can use the subscript for properly display the 2 in H20 and you can use the superscript to properly display the 2 in E = mc2.
 
 Example:
-```
+```html
 <p>
   Both
   H<sub>2</sub>O
@@ -58,7 +58,7 @@ The most common `<sup>` elements uses are to display exponents (x^2) or ordinal 
 
 Write the code to properly display the text above and below the usual line of writing/printing:
 
-```
+```html
 <p>
   Both
   H<tag1>2</tag1>O
@@ -107,3 +107,4 @@ Which of these is not a proper MathML formula for sub and superscript?
 * `<msub>`
 * `<msup>`
 * `<msubsup>`
+ 

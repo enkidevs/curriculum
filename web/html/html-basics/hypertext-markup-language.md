@@ -46,7 +46,7 @@ HTML *elements* are the foundation on which the page is built. To specify that t
 
 ```
 
-Elements give content meaning based on their function. For example, a page heading becomes `<h_>`, ranging from `<h1>`, the most important (and typically largest), to `<h6>`, the least important (and typically visually smallest) heading.
+Elements give content meaning based on their function. For example, a page heading becomes `<h_>`, ranging from `<h1>`, the most important (and typically largest), to `<h6>`, the least important (and typically visually smallest) heading. 
 
 Paragraphs: `<p>`, images: `<img>`, and hyperlinks: `<a>` are also important semantic building blocks.
 
@@ -101,3 +101,4 @@ The two main components of a HTML document are ???.
 * `<heading>` and `<body>`
 * `<p>` and `<a>`
 * `<h>` and `<body>`
+ 

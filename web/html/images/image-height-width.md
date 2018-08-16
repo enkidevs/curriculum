@@ -28,7 +28,7 @@ links:
 When working with image sizes, this can seem easy to start with, but it is a little tricky today because of responsive websites. Traditionally, the image size in HTML is set with the `height` and `width` attributes, both values set in pixels.
 
 Example:
-```
+```html
 <img src="logo.svg"
     height="80"
     width="140">
@@ -36,13 +36,13 @@ Example:
 
 Browsers render your page faster and more cleanly (aka the browser will reserve appropriate space for the image, even before the image is loaded preventing loading images from forcing changes in the page layout during loading) when the height and width are used, but in order to these images to be responsive, their height and width will be overridden using CSS. 
 
-```HTML
+```html
 <img src="logo.svg"
     height="80"
     width="140">
 ```
 
-```CSS
+```css
 img {
     width: 100%;
     height: auto;
@@ -90,3 +90,4 @@ What are the appropriate attributes for setting the image size in HTML? (Please 
 * Prevents potential CSS mistakes with image size.
 * Easiest way to set image size.
 * Best way to manage responsive (resizable) images.
+ 

@@ -64,11 +64,11 @@ Which statement is not true about using the `<var>` element?
 
 ???
 
- * represents user input
- * represents a variable in a mathematical expression
- * represents a variable in a programming context
- * produces an inline element
- * Default text style is both monospace & italic.
+* represents user input
+* represents a variable in a mathematical expression
+* represents a variable in a programming context
+* produces an inline element
+* Default text style is both monospace & italic.
 
 
 ---
@@ -104,3 +104,4 @@ tag=???
 * pre
 * math
 * output
+ 

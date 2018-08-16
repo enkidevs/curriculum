@@ -27,7 +27,7 @@ The HTML `keyword` meta tag contains important words that are relevant to the co
 It is useful to know since the `keyword` attribute comes up often with new developers, but today it can be completely ignored.  
 
 How you write keyword meta tag:
-```
+```html
  <meta
   name="keywords"
   content="HTML,XHTML, 
@@ -71,3 +71,4 @@ What is the least influential tag for search engines in a web page?
 * Description
 * Headings
 * Paragraphs  
+ 

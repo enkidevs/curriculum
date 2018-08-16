@@ -39,7 +39,7 @@ Next, you can use the optional `start="value"` attribute to specify from which n
 **Note: No matter which numbering type your list is set to, whether its roman, letters, or any other numeral, when specifying a value for the start attribute, the value is always specified with a number.**
 
 Example:
-```
+```html
 <p>After completing sections 1-9, do:</p>
 <ol start="10">
   <li>Buy Cake</li>
@@ -55,7 +55,7 @@ Result:
 
 You can also set the `reversed` attribute to count backward in your list.
 Example:
-```
+```html
 <ol start="5" reversed>
   <li>Item A</li>
   <li>Item B</li>
@@ -69,7 +69,7 @@ Result:
 <!--[View CodePen](https://codepen.io/enkidevs/pen/GBmKmy)-->
 
 Furthermore, you can modify the numbering of each individual list item by adding the `value` attribute. This is a tricky example where there are three items in this list, which is then reversed - which should order them as iii, ii, and i. But then on the second list item, the value was changed to 5(or v in this case), which then makes the third item of the list `4(iv)` counting down from the number above it. This may seem tricky, but hopefully it demostrates the control you have over the content.
-```
+```html
 <ol type="i" reversed>
   <li>Coffee</li>
   <li value="5">Tea</li>
@@ -88,7 +88,7 @@ Result:
 
 
 Complete the HTML code to create a numbered list that starts at 10.
-```
+```html
 <p>After the other 9 steps, do this:</p>
 
 <A B>
@@ -130,7 +130,7 @@ List items will begin numbered with 10: ???
 
 What does this code create? Choose the appropriate option.
 
-```
+```html
 <ol start="5" reversed>
   <li>Item A</li>
   <li>Item B</li>
@@ -141,28 +141,28 @@ What does this code create? Choose the appropriate option.
 ???
 
 Option 1
-```
+```html
 5. Item A
 4. Item B
 3. Item C
 ```
 
 Option 2
-```
+```html
 5. Item C
 6. Item B
 7. Item A
 ```
 
 Option 3
-```
+```html
 3. Item A
 4. Item B
 5. Item C
 ```
 
 Option 4
-```
+```html
 3. Item C
 4. Item B
 5. Item A
@@ -181,7 +181,7 @@ Option 4
 
 Choose the appropriate option:
 
-```
+```html
 <ol type="i" reversed>
   <li>Coffee</li>
   <li value="5">Tea</li>
@@ -190,25 +190,25 @@ Choose the appropriate option:
 ```
 
 A)
-```
+```html
 iii. Milk
 v. Tea
 iv. Coffee
 ```
 B)
-```
+```html
 iii. Coffee
 v. Tea
 iv. Milk
 ```
 C)
-```
+```html
 3. Coffee
 5. Tea
 4. Milk
 ```
 D)
-```
+```html
 3. Coffee
 2. 5
 1. Milk
@@ -220,3 +220,4 @@ D)
 * Option A
 * Option C
 * Option D
+ 

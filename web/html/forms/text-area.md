@@ -30,7 +30,7 @@ links:
 The HTML `<textarea>` element is used to represent a multi-line input text area.
 
 Simple example:
-```
+```html
 <textarea
   name="textbox">
 </textarea>
@@ -53,7 +53,7 @@ The `<textarea>` element has many attributes. Some of the more common are:
   - `rows`
 
 Example with attributes:
-```
+```html
 <textarea
    name="textarea" rows="10"
    cols="30"
@@ -112,3 +112,4 @@ Columns: ???
 * Table Row
 * Unicode code points
 * Number of characters
+ 

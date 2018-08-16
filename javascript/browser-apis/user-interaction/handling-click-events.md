@@ -13,6 +13,12 @@ type: normal
 
 category: tip
 
+aspects:
+  - introduction
+  - workout
+
+standards:
+  javascript.dom.3: 10
 
 links:
 
@@ -80,5 +86,4 @@ myVar.???(???,
 * `addClickListener`
 * `false`
 * `contextmenu`
-
  

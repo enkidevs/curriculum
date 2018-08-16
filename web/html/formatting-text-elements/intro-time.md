@@ -87,7 +87,7 @@ Duration:
 Since the `datetime` attribute is machine-readable, this can help user agents add events to the user's calendar like in these examples:
 
 Example:
-```
+```html
 <p> The class starts at
   <time> 08:00</time>
 </p>
@@ -99,7 +99,7 @@ Result:
 <!--[View CodePen](https://codepen.io/enkidevs/pen/qyROGe)-->
 
 Another Example:
-```
+```html
 <p>
 Date of birth:
 <time 1993-12-06 18:12:24>
@@ -115,7 +115,7 @@ Result:
 <!--[View CodePen](https://codepen.io/enkidevs/pen/oMBbvN)-->
 
 Example with datetime:
-```
+```html
 <p>
   WW2 ended 
   <time datetime="1945-09-02">
@@ -153,7 +153,7 @@ What HTML element is used to make dates & times machine-readable?
 
 When using the `<time>` element, what attribute is used to declare the machine-readable date?
 
-```
+```html
 <time
   ???="2007-06-29">
   June 29th, 2007
@@ -188,3 +188,4 @@ Three-Day Event: `<time datetime="???">`
 * 12-25-1975T06:00
 * 3D
 * D3
+ 

@@ -99,3 +99,4 @@ There are two main properties when it comes to animating.
 * frames
 * splits
 
+ 

@@ -23,7 +23,7 @@ links:
 When links connect to web files or images, the page will navigate to that content and display accordingly. But when non-web files or images are linked, those files will be downloaded to the user's computer.  
  
 Example of a non-web download link:
-```
+```html
 <a href="enki.zip">
 Download Zip
 </a>
@@ -35,7 +35,7 @@ Result:
 When web files and images are meant to be downloaded by the user, then the download attribute can be used to force that content to download just like a non-web file or image. 
 
 Example of a web download link:
-```
+```html
 <a 
   href="summary.html" 
   download="Today's%20Summary"> 
@@ -48,14 +48,19 @@ Result:
 
 When the download attribute has a value, it will rename the downloaded file. This can be useful when your file is named `123z12zv824.docx` on your server, but you want it downloaded with something more friendly like `Enki%20Notes.docx`. Keep in mind that `%20` needs to replace any spaces in the filename.
 
-When the value within the download attribute is empty (like `download="">`, then the downloaded file will retain it's original filename. Of course, since the file will be a local file for the user, they can always rename that file as they wish, too. 
+When the value within the download attribute is empty (like `download="">`, then the downloaded file will retain its original filename. Of course, since the file will be a local file for the user, they can always rename that file as they wish, too. 
 
 ---
 ## Practice
 
 Create a text link that downloads a web file and renames it with a more user-friendly filename.
 
-`<??? ???="???" ???="">Email Me<???>`
+```html
+<??? ???="???" 
+  ???="???">
+  Email Me
+<???>
+````
 
 * a
 * href
@@ -97,3 +102,4 @@ If the actual filename is “file-32467E34.doc” and we want the user to downlo
 * `<a href="Enki Report.doc" src="file-32467E34.doc"></a>`
 
 
+ 

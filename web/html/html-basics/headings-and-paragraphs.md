@@ -65,7 +65,7 @@ This HTML will look like this in the browser:
 
 ![nested-paragraph](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%22157%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%22157%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2219%22%20y%3D%2233%22%3EMain%20paragraph.%3C%2Ftspan%3E%20%20%3Ctspan%20x%3D%2219%22%20y%3D%2267%22%3ENested%20paragraph.%3C%2Ftspan%3E%20%20%3Ctspan%20x%3D%2219%22%20y%3D%22101%22%3EA%20second%20nested%20paragraph.%3C%2Ftspan%3E%20%20%3Ctspan%20x%3D%2219%22%20y%3D%22135%22%3EAnother%20main%20paragraph.%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/rrjMXV)-->
+<!--[View CodePen](https://codepen.io/enkidevs/pen/rrjMXV)--> 
 
 ---
 ## Practice
@@ -90,3 +90,4 @@ All headings are ??? by default.
 * italic
 * bigger than paragraphs
 * smaller than paragraphs
+ 

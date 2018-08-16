@@ -51,7 +51,7 @@ Actually, anything added within a link element in HTML5 will be linked - this in
 
 Create a linked image:
 
-```
+```html
 <??? ???="???">
   <???
     ???="???"
@@ -105,3 +105,4 @@ Which is a true statement?
 * The text and images will not link to the site this way.
 * The text and images will link, but this is not valid HTML.
 * Only the paragraph will be linked to the site.
+ 

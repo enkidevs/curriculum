@@ -17,7 +17,6 @@ aspects:
   - workout
 links:
   - '[CodePen: Meter Attributes](https://codepen.io/enkidevs/pen/yqMrxx){code}'
-  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
 
 ---
 # Meter Attributes
@@ -117,3 +116,4 @@ If you need to display the value as a percentage, what would you use?
 * 50%, 0, 100
 * 0.5, 0, 100
 * 50%, 0, 1
+ 

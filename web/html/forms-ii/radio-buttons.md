@@ -34,7 +34,7 @@ Unlike checkboxes, `radio` buttons can have only one element selected per group.
 When creating radio buttons, each button within the same radio group is given the same `name`.
 
 Example:
-```
+```html
 <form>
  <p>
    Please select your gender:
@@ -84,7 +84,7 @@ On the other hand, if no value is specified, and the user selects the same butto
 Additionally, if you want your form with radio buttons to have a default value, you should add the `check` attribute.
 
 Same example with `checked` added:
-```
+```html
 <form>
  <p>
    Please select your gender:
@@ -163,3 +163,4 @@ Which statement is true?
 * Radio buttons within one radio group can have many options selected at a time.
 * You can have multiple radio button groups with the same `name` in a webpage.
 * Radio buttons can't work without applying CSS to them
+ 

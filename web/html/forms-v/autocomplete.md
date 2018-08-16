@@ -34,7 +34,7 @@ When this option is on, the browser can autofill the value you want to type, as 
 The autocomplete attribute can work for a name, search, email, URL, password, color, address and other input fields.
 
 Example:
-```
+```html
 <form action="/credit_card.php"
   autocomplete="on">
    Full name: <input type="text"
@@ -96,3 +96,4 @@ Which statement is false regarding autocomplete?
 * Can automatically complete fields based on the user's history
 * The default value is "on"
 * Autocomplete works with passwords, usernames, e-mail, search and more.
+ 
