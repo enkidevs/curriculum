@@ -41,8 +41,8 @@ aspects:
 The **union** of two or more tables means combining their **type-matching rows**. Unlike the `JOIN` operation, which combines columns (containing all entries from either the left, the right or both tables), the `UNION` operation always retrieves every entry in *both tables*.
 
 However, there are two necessary conditions for a `UNION` to be performed:
-    - each union query must have the same number of columns
-    - every *nth* column must have the same type in all union queries
+  - each union query must have the same number of columns
+  - every *nth* column must have the same type in all union queries
 
 For example, the following union will fail:
 ```sql

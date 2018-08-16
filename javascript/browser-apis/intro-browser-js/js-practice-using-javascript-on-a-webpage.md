@@ -4,7 +4,7 @@ author: elliehoward
 levels:
   - beginner
 
-tags:
+aspects:
   - introduction
   - workout
 
@@ -12,18 +12,13 @@ type: exercise
 
 linkType: jsfiddle
 
-link: https://jsfiddle.net/elliehoward/9v4ma06q/3/
+link: https://jsfiddle.net/elliehoward/9v4ma06q/
 
 standards:
   javascript.javascript-syntax.2: 10
 
 links:
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/HTMLScriptElement){website}'
-
-aspects:
-  - introduction
-  - workout
-
+- '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/HTMLScriptElement){website}'
 
 ---
 
