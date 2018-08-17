@@ -54,7 +54,7 @@ The `<i>` element, which stands for **Italic**, is used set a part of a text in 
 
 ![element-i](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2278%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2278%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2234%22%20fill%3D%22%23000%22%3EIn%20French%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2289.5%22%20y%3D%2234%22%20fill%3D%22%23575757%22%20font-family%3D%22Roboto-Italic%2C%20Roboto%22%20font-style%3D%22italic%22%3EQuatre-vingt-dix-neuf%3C%2Ftspan%3E%20%3Ctspan%20x%3D%22234.60938%22%20y%3D%2234%22%20fill%3D%22%23000%22%3E%20is%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2220%22%20y%3D%2253%22%20fill%3D%22%23000%22%3E99%2C%20and%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2275.58594%22%20y%3D%2253%22%20fill%3D%22%23575757%22%20font-family%3D%22Roboto-Italic%2C%20Roboto%22%20font-style%3D%22italic%22%3ECent%3C%2Ftspan%3E%20%3Ctspan%20x%3D%22107.85156%22%20y%3D%2253%22%20fill%3D%22%23000%22%3E%20is%20a%20100.%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/MBJwMp)-->
+<!--[View CodePen](https://codepen.io/enkidevs/pen/MBJwMp)--> 
 
 The `<em>`, or the **Emphasis** element, is used to *stress emphasis* on a piece of text read by a person (or software).
 
