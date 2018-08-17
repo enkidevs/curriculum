@@ -132,7 +132,7 @@ FROM location
 ??? region_id
 ORDER BY ???;
 ```
-*Result:*
+Result:
 ```
 count | region_id
 ======+===========

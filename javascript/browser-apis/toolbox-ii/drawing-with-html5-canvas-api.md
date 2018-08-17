@@ -15,12 +15,21 @@ tags:
 
   - canvas
 
+aspects:
+  - workout
+  - deep
+
+
+standards:
+  javascript.browser-canvas.0: 10
+  javascript.browser-canvas.3: 10
+  javascript.browser-canvas.7: 10
+
 
 links:
 
   - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial){website}'
 
-notes: subtopic=browser-APIs
 
 ---
 
@@ -29,7 +38,7 @@ notes: subtopic=browser-APIs
 ---
 ## Content
 
-With the `Canvas` object it is possible to draw simple shapes and graphics directly in the browser. 
+With the `Canvas` object it is possible to draw simple shapes and graphics directly in the browser.
 
 
 ```html
@@ -37,10 +46,10 @@ With the `Canvas` object it is possible to draw simple shapes and graphics direc
 <canvas id='canvas'></canvas>
 ```
 
-`Canvas` supports drawing lines, rectangles, and more esoteric shapes, in addition to supporting images and animations. 
+`Canvas` supports drawing lines, rectangles, and more esoteric shapes, in addition to supporting images and animations.
 
 ```javascript
-var canvas = 
+var canvas =
     document.getElementById("canvas");
 // get the 2d context to draw in 2d
 var context = canvas.getContext("2d");
@@ -55,7 +64,7 @@ context.fillRect(20,20,100,200)
 
 Create a 2d blue rectangle using `Canvas`:
 ```javascript
-var canvas = 
+var canvas =
     document.getElementById("canvas");
 // get the 2d context to draw in 2d
 var context = canvas.getContext("2d");
@@ -78,7 +87,7 @@ context.???(20,20,100,200)
 
 Create a 2d blue rectangle using `Canvas`:
 ```javascript
-var canvas = 
+var canvas =
     document.getElementById("canvas");
 // get the 2d context to draw in 2d
 var context = canvas.getContext("2d");
@@ -95,5 +104,4 @@ context.???(20,20,100,200)
 * `rectangle`
 * `drawRectangle`
 * `document`
-
  

@@ -13,6 +13,15 @@ type: normal
 
 category: must-know
 
+standards:
+  javascript.browser-tooling.0: 10
+  javascript.dom.3: 10
+
+aspects:
+  - new
+  - workout
+  - deep
+  - obscura
 
 links:
 
@@ -32,7 +41,7 @@ The *`ProgressEvent`* interface is used to represent events which measure the pr
 ```javascript
 ProgressEvent.lengthComputable;
 ```
-Is a boolean flag returning whether the progress made on the work to be completed is measurable. 
+Is a boolean flag returning whether the progress made on the work to be completed is measurable.
 
 ```javascript
 ProgressEvent.loaded;
@@ -48,9 +57,9 @@ Is an unsigned long showing the amount of work the underlying process is current
 
 
 
-A usage example, measuring the progress of an *`XMLHttpRequest`*. 
+A usage example, measuring the progress of an *`XMLHttpRequest`*.
 ```javascript
-// progress on transfers - server to client 
+// progress on transfers - server to client
 function updateProgress (oEvent) {
   if (oEvent.lengthComputable) {
     var percentDone = oEvent.loaded /
@@ -66,7 +75,7 @@ function updateProgress (oEvent) {
 ---
 ## Practice
 
-Which following property of `ProgressEvent` shows the amount of work already done by the underlying process? 
+Which following property of `ProgressEvent` shows the amount of work already done by the underlying process?
 
 ???
 
@@ -92,4 +101,4 @@ Which following property of `ProgressEvent` returns a boolean?
 * `2`
 * `1`
 * `3`
-
+ 

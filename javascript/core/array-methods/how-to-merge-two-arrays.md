@@ -59,22 +59,16 @@ console.log([1, 2] + [3, 4])
 ---
 ## Practice
 
-Suppose:
+Modify `array1` such that it contains `array2`'s contents in order.
 
 ```javascript
 var array1 = ['a', 'b', 'c'];
 var array2 = ['d', 'e', 'f'];
+
+Array.prototype.???
+.???(array1, array2);
 ```
 
-Merge the two arrays in order:
-
-```javascript
-
-???.prototype.???
-.???(arrray1, arrray2);
-```
-
-* Array
 * push
 * apply
 * merge

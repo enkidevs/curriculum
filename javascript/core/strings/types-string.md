@@ -38,7 +38,7 @@ var company = "Enki";
 var company = 'Enki';
 ```
 
-You can connect, usually called concat, two strong together with the '+' operator:
+You can connect, usually called concat, two strings together with the '+' operator:
 
 ```javascript
 var longText = "abc" + "def" + "ghi";
