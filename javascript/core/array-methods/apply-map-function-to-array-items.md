@@ -56,25 +56,28 @@ This is not limited to simple transformations.  Any features of functions can be
 ---
 ## Practice
 
-Map the following array to return the square of each element:
+Create a new array by returning the square of each element:
+
 ```javascript
-var arr = [1,2,3,4,'map'].map(x => ???);
+var arr = [1,2,3,4,'enki'].???(x => x*x);
 // the result will be [1,4,9,16,???]
 ```
 
-* x*x
+* map
 * NaN
-* x^2
-* null
-* x+x
+* 32
+* 'enkienki'
+* reduce
+* iterate
+* return
 
 ---
 ## Revision
 
-You have to modify the elements of an array after a single,certain rule. The best way to do it is using ??? .
-
+Which of these `Array` methods will produce an array of the same length, after applying a function to each element? ???
 
 * map()
 * filter()
 * splice()
+* reduce()
 

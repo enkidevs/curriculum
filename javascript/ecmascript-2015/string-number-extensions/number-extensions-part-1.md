@@ -13,7 +13,6 @@ inAlgoPool: false
 links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number){website}'
 
-
 ---
 # Number Extensions (Part 1)
 
@@ -84,9 +83,9 @@ Complete the missing calls with methods introduced in ES6 such that all the stat
 
 ```javascript
 
-Number.???(5) == true
-???.???(2.71) == false
-Number.???(Number.NaN) == true
+Number.???(5) // true
+???.???(2.71) // false
+Number.???(Number.NaN) // true
 ```
 
 * isFinite

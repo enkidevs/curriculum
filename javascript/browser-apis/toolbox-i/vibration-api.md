@@ -15,6 +15,16 @@ type: normal
 
 category: feature
 
+aspects:
+  - introduction
+  - new
+  - workout
+  - deep
+  - obscura
+
+standards:
+  javascript.browser-apis-device.3: 10
+
 
 links:
 
@@ -89,5 +99,4 @@ navigator.???(???);
 * `5000`
 * `start`
 * `vibration`
-
  

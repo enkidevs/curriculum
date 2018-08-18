@@ -36,7 +36,7 @@ text in this paragraph.</p>
 ```
 ![editing-elements-mark](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2276%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2276%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Cpath%20fill%3D%22%23FFFF02%22%20d%3D%22M117%2021h71v17h-71z%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2234%22%3EHighlight%20this%20important%20text%20in%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2220%22%20y%3D%2253%22%3Ethis%20paragraph.%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/GBrJdP)-->
+<!--[View CodePen](https://codepen.io/enkidevs/pen/GBrJdP)--> 
 
 The text within the `<mark>` element is usually rendered with a yellow background, but the `background-color: yellow;` of the element can be changed using CSS.
 
