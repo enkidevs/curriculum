@@ -38,7 +38,7 @@ If you add a `<wbr>` element before the word `path` like so: `<wbr>/path/filenam
 
 ![element-wbr](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2274%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2274%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2234%22%3Ehttp%3A%2F%2Fwww.enkipro.com%2F%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2220%22%20y%3D%2253%22%3Epath%2Ffilename.html%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/rrjxao)-->
+<!--[View CodePen](https://codepen.io/enkidevs/pen/rrjxao)--> 
 
 Here's another example of adding a `<wbr>` element to a long word to tell the browser where to break in case it doesn't fit the screen.
 
