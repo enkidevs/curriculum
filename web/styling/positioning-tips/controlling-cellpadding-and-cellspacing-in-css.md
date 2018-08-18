@@ -42,7 +42,7 @@ td {
 }
 ```
 
-To control the "cellspacing" in CSS, apply `border-spacing` and `border-collapse` to the table, for example:
+To control the "cellspacing" in CSS, apply `border-spacing` and `border-collapse` to the table, for example: 
 
 ```css
 table {

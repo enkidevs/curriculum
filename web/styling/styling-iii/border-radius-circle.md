@@ -26,7 +26,7 @@ links:
 ---
 ## Content
 
-Any element can be given rounded corners by applying `border-radius`:
+Any element can be given rounded corners by applying `border-radius`: 
 
 ```
 element {

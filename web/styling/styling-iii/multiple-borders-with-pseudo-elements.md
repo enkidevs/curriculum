@@ -37,7 +37,7 @@ Keep in mind that the element with multiple borders needs its own border and a n
   border: 5px solid #00ff00;
 }
 ```
-Add the second border:
+Add the second border: 
 
 ```css
 .elem::after {
