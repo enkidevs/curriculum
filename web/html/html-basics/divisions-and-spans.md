@@ -52,7 +52,7 @@ Visually, the code above will be rendered this way:
 
 One difference between `<div>` and `<span>` elements is that you are able to stack multiple `<span>`s on the same line without breaking the layout of the page, while trying to stack `<div>`s will effectively be adding a new line (in the above case, between **div** and **inside**).
 
-When using CSS to style `<div>` and `<span>` elements, ids and classes are often assigned to them in order to uniquely style them. So, it is common to see them written like this where the `<div>` has certain styles assigned to it and the `<span>` changes the style of the text within that paragraph. 
+When using CSS to style `<div>` and `<span>` elements, ids and classes are often assigned to them in order to uniquely style them. So, it is common to see them written like this where the `<div>` has certain styles assigned to it and the `<span>` changes the style of the text within that paragraph.   
  
 ```html
 <div id="callout">

@@ -29,7 +29,7 @@ links:
 
 The HTML `<map>` element is used for creating links on selected portions of an image when used alongside the `<area>` attribute. 
 
-![View CodePen](https://codepen.io/enkidevs/pen/ajbxbX)
+<!--[View CodePen](https://codepen.io/enkidevs/pen/ajbxbX)-->
 
 The clickable area has 3 available shapes:
   - `rect` (Rectangle)
