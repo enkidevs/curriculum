@@ -24,7 +24,7 @@ links:
 ---
 ## Content
 
-The **CSS** `transform` property lets you modify the coordinate space of the CSS visual formatting model. Using it, elements can be translated, rotated, scaled, and skewed.
+The **CSS** `transform` property lets you modify the coordinate space of the CSS visual formatting model. Using it, elements can be translated, rotated, scaled, and skewed. 
 
 
 ```css
