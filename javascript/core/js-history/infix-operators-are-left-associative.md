@@ -23,15 +23,14 @@ standards:
 
 tags:
 
-  - introduction
-
-  - obscura
-
   - operators
 
   - infix-operators
 
   - operator-associativity
+
+aspects:
+  - obscura
 
 
 links:
@@ -40,9 +39,6 @@ links:
   - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence){website}'
 
 
-aspects:
-  - introduction
-  - obscura
 
 
 ---
@@ -52,7 +48,7 @@ aspects:
 ---
 ## Content
 
-Operator associativity determines the order in which operators of the same type are evaluated. 
+Operator associativity determines the order in which operators of the same type are evaluated.
 
 Operations are processed from the left-hand side of an equation:
 ```
@@ -99,5 +95,4 @@ The processing of operations starts with ??? operator if no brackets are used.
 * left-most
 * right-most
 * middle
-
  

@@ -45,7 +45,7 @@ HTML Entity Name
 ```
 **Prevent Line Break with Non-Breaking Space**
 
-A common use for the non-breaking space is putting it before any numeric (or alphabetic reference) to prevent awkward breaks.
+A common use for the non-breaking space is putting it before any numeric (or alphabetic reference) to prevent awkward breaks. 
 
 WRONG: 
 ```html

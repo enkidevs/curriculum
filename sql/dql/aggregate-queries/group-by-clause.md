@@ -75,8 +75,8 @@ count | language_id
 
 We have a table called `pokemon`.
 In this table there are two fields:
- - `is_default` - Boolean
- - `name` - String (name of the pokemon)
+ 1. `is_default` - Boolean
+ 2. `name` - String (name of the pokemon)
 
 We want to count how many pokemon are **not** default.
 Fill in the blanks to complete this query:
