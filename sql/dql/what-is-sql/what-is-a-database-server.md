@@ -2,9 +2,7 @@
 author: SebaRaba
 
 levels:
-
   - beginner
-
   - basic
 
 type: normal
@@ -13,15 +11,10 @@ category: must-know
 
 inAlgoPool: false
 
-tags:
-
-  - introduction
-
 aspects:
   - introduction
 
 links:
-
   - '[More on database servers](http://ecomputernotes.com/fundamental/what-is-a-database/what-is-a-database-server){website}'
 
 ---

@@ -2,11 +2,8 @@
 author: mihaiberq
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
 
 type: normal
@@ -19,16 +16,9 @@ standards:
   sql.read-multiple-tables.0: 10
   sql.read-multiple-tables.1: 10
 
-tags:
-
-  - workout
-
-  - deep
-
 aspects:
   - workout
   - deep
-
 
 ---
 

@@ -3,7 +3,6 @@ author: claremarie
 
 levels:
   - basic
-  
   - beginner
 
 type: normal
@@ -16,17 +15,12 @@ standards:
   sql.read-single-table.0: 10
   sql.read-single-table.1: 10
 
-tags:
-
-  - introduction
 
 links:
-
   - '[SQL Tutorial: WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}'
 
 aspects:
   - introduction
-
 
 ---
 
