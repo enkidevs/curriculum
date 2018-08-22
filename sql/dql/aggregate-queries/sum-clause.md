@@ -2,13 +2,9 @@
 author: SebaRaba
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
   - advanced
 
 type: normal
@@ -20,9 +16,6 @@ inAlgoPool: false
 standards:
   sql.aggregate-single-table.0: 10
 
-tags:
-
-  - workout
 
 links:
 
@@ -30,7 +23,6 @@ links:
 
 aspects:
   - workout
-
 
 ---
 

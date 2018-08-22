@@ -2,13 +2,9 @@
 author: SebaRaba
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
   - advanced
 
 type: normal
@@ -20,19 +16,12 @@ inAlgoPool: false
 standards:
   sql.aggregate-single-table.1: 10
 
-tags:
-
-  - workout
-
 
 links:
-
   - '[More on MIN and MAX clauses](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql){documentation}'
-
 
 aspects:
   - workout
-
 
 ---
 
