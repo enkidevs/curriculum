@@ -72,7 +72,7 @@ You can even implement inheritance in JavaScript by building on this, but this i
 ---
 ## Practice
 
-Fill in the gaps of the following constructor function such that the code below it works as intended:
+Fill in the gaps of the following constructor function such that the code below works as intended:
 
 ```javascript
 function ???(name) {
