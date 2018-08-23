@@ -74,12 +74,14 @@ standards:
 			6: Share your process with other mentors
 			7: Determine an appropriate incentive structure for learning
 	technique:
-		name: Mentorship technique idk
-		description: bucket for extra stuff, fixme
+		name: Practice effective mentorship techniques
+		description: This standard deals with effective use of techniques and strategies to mentor more effectively.
 		objectives:
-			0: socratic questioning
-			empathy
-			encourage other mentors
+			0: Use socratic questioning to lead others to understanding
+			1: Use name the steps to outline a framework for decision-making
+			2: Establish a culture of error to encourage experimental problem solving
+			3: Use commitments to effectively drive engagement with learning
+			4: Create hurdles to effectively measure investment in learning
 
 
 description: Mentoring others is one of the best ways to learn and pay it forward
