@@ -6,7 +6,7 @@ levels:
 
 type: normal
 
-category: feature
+category: tip
 
 inAlgoPool: false
 
