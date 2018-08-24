@@ -18,6 +18,7 @@ aspects:
 
 ---
 # HTML Structure Defined
+
 ---
 ## Content
 
