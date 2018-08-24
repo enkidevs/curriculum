@@ -2,13 +2,11 @@
 author: mihaiberq
 
 levels:
-
   - beginner
 
 type: normal
 
 category: must-know
-
 
 links:
 
