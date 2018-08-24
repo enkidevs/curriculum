@@ -100,7 +100,7 @@ FROM ???
 GROUP BY language_id
 ??? language_id ???;
 ```
-*Result:*
+Result:
 ```
 count | language_id
 ======+============
