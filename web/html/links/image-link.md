@@ -60,17 +60,17 @@ Create a linked image:
 <???>
 ```
 
-* a
-* href
-* http://enki.com
-* img
-* src
-* icon.svg
-* alt
-* /a
-* target
-* _blank
-* link
+* `a`
+* `href`
+* `http://enki.com`
+* `img`
+* `src`
+* `icon.svg`
+* `alt`
+* `/a`
+* `target`
+* `_blank`
+* `link`
 
 ---
 ## Revision
