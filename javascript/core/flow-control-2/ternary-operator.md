@@ -14,7 +14,8 @@ type: normal
 category: must-know
 
 standards: 
-   
+  javascript.control-flow.0: 10
+  javascript.control-flow.1: 10
 
 links:
   - '[MDN docs on ternary](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator){website}'
