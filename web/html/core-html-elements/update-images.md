@@ -60,7 +60,10 @@ The main reason it is important to set the image size is because those attribute
 
 Write the code to insert an image:
 
-`<??? ???="???" ???="Enki Logo">`
+```
+<??? ???="???" 
+     ???="Enki Logo">
+```
 
 * `img`
 * `src`
