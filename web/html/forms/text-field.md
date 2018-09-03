@@ -87,7 +87,6 @@ Write the form code that creates a single line input for text.
 * type
 * text
 * form
-* text
 
 ---
 ## Revision
