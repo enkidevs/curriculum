@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-**GitHub** is the most popular hosting solution for **Git** repositories. It providess tooling and reliable solutions for version control hostsing and is ussed by millions of developers worldwide.
+**GitHub** is the most popular hosting solution for **Git** repositories. It provides tooling and reliable solutions for version control hosting and is used by millions of developers worldwide.
 
 In addition to **Git**'s distributed version control and source code management capabilities, **GitHub** provides:
  - access control (repositories can be either `public` or `private`)
@@ -40,7 +40,7 @@ Founded in `2007` and continuously improving, **GitHub** is the most notable pla
 What is GitHub ? ???
 
 * an online hosting service
-* a vsersion control service
+* a version control service
 * a git clone
 
 ---
