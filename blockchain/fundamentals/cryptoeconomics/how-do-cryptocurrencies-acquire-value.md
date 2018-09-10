@@ -20,7 +20,7 @@ tags:
 
 ## Content
 
-Value has always been and will always be relative. Only humans and other living beings are intrinsically valuable since they can create value.
+In general, how do things acquire value? The answer is straightforward: they either serve a purpose/solve a problem (PC, cars, etc.) or enough people consider them to be valuable (currencies). The dollar/british pound/yen are useful because they can be used to buy food, a house or a car. Only humans and other living beings are intrinsically valuable since they can create value.
 
 Money is a concept created by us. It was simpler to trade a chicken now for some coins then trade the coins for wheat whenever needed. A piece of paper on which you write $10 has no value, nor the one on which you write $100. Objectively, the $10 or $100 inscribed on the banknote shouldn't make any difference. But because we recognize some banknotes as valuable, it is a difference worth $90.
 
