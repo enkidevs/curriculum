@@ -31,7 +31,7 @@ When creating lists in HTML, you can specify the numbering type of your list by 
 * Uppercase letters: `type="A"`
 * Lowercase letters: `type="a"`
 * Uppercase Roman numbers: `type="I"`
-* Lowercase Roman numbers: `type="I"`
+* Lowercase Roman numbers: `type="i"`
 * Begin numbering from a number: `start="50"`
 
 Next, you can use the optional `start="value"` attribute to specify from which number/value the first item in the list starts counting from.
@@ -109,7 +109,7 @@ Match the terms to the descriptions:
 List items will be numbered with uppercase letters: ???
 List items will be numbered with lowercase letters: ???
 List items will be numbered with uppercase roman numbers: ???
-List items will begin numbered with 10: ???
+List items will begin numbered with 50: ???
 
 * `ol`
 * `start="10"`
