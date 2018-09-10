@@ -44,10 +44,10 @@ What is the main purpose of the Ethereum Virtual Machine?
 
 ???
 
-- To run applications
-- To track digital coins ownership
-- To speed up digital transactions
-- To create and breed cryptokitties
+* To run applications
+* To track digital coins ownership
+* To speed up digital transactions
+* To create and breed cryptokitties
 
 ---
 
@@ -57,7 +57,7 @@ What is the biggest expected change in the Ethereum blockchain protocol, that wi
 
 ???
 
-- Swapping PoW with PoS
-- Removing the preriodical block reward reduction
-- Further reducing the block time
-- Removing the gas cost of running DApps
+* Swapping PoW with PoS
+* Removing the preriodical block reward reduction
+* Further reducing the block time
+* Removing the gas cost of running DApps
