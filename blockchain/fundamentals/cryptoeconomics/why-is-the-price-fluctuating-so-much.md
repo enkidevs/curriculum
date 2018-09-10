@@ -2,7 +2,6 @@
 author: mihaiberq
 
 levels:
-
   - basic
 
   - medium
@@ -12,41 +11,46 @@ type: normal
 category: must-know
 
 tags:
-
   - deep
-
 ---
+
 # Why Is the Price Fluctuating so Much?
 
-
 ---
+
 ## Content
 
-Dummy content.
+In terms of the actual price (a coin's value in a certain fiat currency), no one can predict it exactly: who would have realistically thought that a bitcoin would reach $20,000?
+
+In total, the market cap in December 2017 approached 1 trillion. Bitcoin's market cap never exceded $320 billions. Bitcoin traded volume was way smaller: maybe $20 billions on all exchanges corroborated, during peaks. In other words, it would be easy for someone that owns a relevant % of the total number of coins to manipulate the price.
+
+It's hard to have stability when most cryptocurrencies have no back. Only lately had platforms started to appear (read ERC20 tokens vs Bitcoin forks) for which their coins can be exchanged for a service, hence creating their own small economy.
+
+Moreover, there are no regulations: pump and dumps, inside trading or other (normally illegal) methods of price manipulation/prediction are not punished.
+
+Of course, markets in general cannot be explained in 5 minutes and many other things can be said about how cryptocurrency markets work. Given the how broad and unpredictable the topic is, self-study is required in order to understand all the mechanisms.
 
 ---
+
 ## Practice
 
 What is the main dirver of a cryptocoin price?
 
 ???
 
-* Traded volume
-* Circulating supply
-* Market cap
+- Traded volume
+- Circulating supply
+- Market cap
 
 ---
+
 ## Revision
 
-Which are the steps of a `Pump and dump` scheme?
+What is the metric that describes how valuable a is cryptocurrency?
 
-1. ???
-2. ???
-3. ???
-4. Profit
+???
 
-* Have a ton of cryptocoins
-* Flood the market with coins
-* Wait for the price to drop
-* Reinvest the money you just made
-
+- Market cap
+- Circulating supply
+- Node investment
+- Volume
