@@ -28,7 +28,7 @@ standards:
 
 
 links:
-
+  - '[MDN docs on visibleState](https://developer.mozilla.org/en-US/docs/Web/API/Document/visibilityState0{website}'
   - '[www.html5rocks.com](http://www.html5rocks.com/en/tutorials/pagevisibility/intro/){website}'
 
 
@@ -46,6 +46,12 @@ It is common for users to have multiple tabs open so this information could be u
 When the user minimises the webpage or moves to a different tab, the API sends a `visibilityChange` event.
 
 Note that at the time of writing the name for this event and hidden property differs across browsers.
+
+Possible property values for `visibleState` are:
+  - hidden
+  - visible
+  - prerender
+  - unloaded
 
 Detecting visibility changes:
 
@@ -67,7 +73,6 @@ function(){
 
 Which of the following is not a visibleState property value? ???
 
-
 * rawview
 * hidden
 * visible
@@ -82,7 +87,6 @@ Complete the following JS code snippet to add an event listener for a visibility
 ```javascript
 document.???("???", function() {
 ```
-
 
 * `addEventListener`
 * `visibilitychange`

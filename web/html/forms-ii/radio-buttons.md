@@ -71,7 +71,7 @@ Example:
 
 ![radio-empty](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22width%3A100%25%22%20viewBox%3D%220%200%20320%20110%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%22110%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2214%22%3E%3Ctspan%20x%3D%2221%22%20y%3D%2230%22%3EPlease%20select%20your%20gender%3A%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2214.5%22%3E%3Ctspan%20x%3D%2242%22%20y%3D%2264%22%3EMale%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Arial-BoldMT%2C%20Arial%22%20font-size%3D%2211.5%22%20font-weight%3D%22bold%22%3E%3Ctspan%20x%3D%2227%22%20y%3D%2285%22%3ESubmit%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2214.5%22%3E%3Ctspan%20x%3D%2299%22%20y%3D%2264%22%3EFemale%3C%2Ftspan%3E%3C%2Ftext%3E%3Ccircle%20cx%3D%2229%22%20cy%3D%2261%22%20r%3D%227%22%20fill%3D%22%23FFF%22%20stroke%3D%22%239E9E9E%22%2F%3E%3Ccircle%20cx%3D%2229%22%20cy%3D%2261%22%20r%3D%227%22%20fill%3D%22%23FFF%22%20stroke%3D%22%239E9E9E%22%2F%3E%3Ccircle%20cx%3D%2288%22%20cy%3D%2261%22%20r%3D%227%22%20fill%3D%22%23FFF%22%20stroke%3D%22%239E9E9E%22%2F%3E%3Ccircle%20cx%3D%22160%22%20cy%3D%2261%22%20r%3D%227%22%20fill%3D%22%23FFF%22%20stroke%3D%22%239E9E9E%22%2F%3E%3Crect%20width%3D%2252%22%20height%3D%2217%22%20x%3D%2220.5%22%20y%3D%2272.5%22%20stroke%3D%22%23D3D3D3%22%20rx%3D%224%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2214.5%22%3E%3Ctspan%20x%3D%22173%22%20y%3D%2264%22%3EOther%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/QBdKZJ)-->
+<!--[View CodePen](https://codepen.io/enkidevs/pen/QBdKZJ)--> 
 
 In the example above, we have 3 `radio` buttons, each with the same name - `gender` and each with a unique `value` that is used to identify each button. Also, each button has an `id`. This `id` is used with the `<label>` element's `for` attribute to link the label to the radio button.
 
@@ -81,7 +81,7 @@ Once a user presses a button, and submits the result, the form's data is sent in
 
 On the other hand, if no value is specified, and the user selects the same button, the result will be sent in the form of `gender=on`, and since this isn't really helpful, you should always include the `value` attribute. Similarly, if no button is selected, the form won't submit at all, since it has no value to report.
 
-Additionally, if you want your form with radio buttons to have a default value, you should add the `check` attribute.
+Additionally, if you want your form with radio buttons to have a default value, you should add the `checked` attribute.
 
 Same example with `checked` added:
 ```html
@@ -130,12 +130,15 @@ You can also style your radio groups with CSS. For instance, you can modify the 
 
 Write the form code that creates a radio button.
 
-`<??? ???="???" name="topic" value="item"> Item <???>`
+```html
+<??? ???="???"
+     name="topic" 
+     value="item"> Item
+```
 
 * input
 * type
 * radio
-* /input
 * name
 * value
 
@@ -146,11 +149,10 @@ Which line creates an HTML form’s radio buttons?
 
 ???
 
-* `<input type="radio" name="topic" value="item"> Item </input>`
-* `<radio name="topic" value="item"> Item </radio>`
-* `<input radio="topic" value="item"> Item </input>`
-* `<input type="radio" value="topic" name="item"> Item </input>`
-
+* `<input type="radio" name="topic" value="item"> Item`
+* `<radio name="topic" value="item"> Item`
+* `<input radio="topic" value="item"> Item`
+* `<input type="radio" value="topic" name="item"> Item`
 
 ---
 ## Quiz

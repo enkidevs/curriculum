@@ -2,9 +2,7 @@
 author: Nick Daminov
 
 levels:
-
   - basic
-
   - medium
 
 type: normal
@@ -17,23 +15,13 @@ standards:
   sql.connect-client.0: 10
   sql.connect-client.1: 10
 
-tags:
-
-
-
-  - workout
-
-
 links:
-
   - '[Top 10 GUI Database Tools](https://techtalk.gfi.com/top-10-free-database-tools-for-sys-admins/){website}'
   - '[pgAdmin Download](https://www.pgadmin.org/download/){website}'
   - '[Installing .dmg package](https://apple.stackexchange.com/questions/64845/how-do-i-install-applications-from-a-dmg-file){website}'
 
-
 aspects:
   - workout
-
 
 ---
 

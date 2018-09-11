@@ -77,7 +77,11 @@ Create a link that will open the linked page within a new tab or browser window.
 
 Which of these is not a valid target value?
 
-`<a href="http://enki.com" target="???">`
+```html
+<a href="http://enki.com" 
+   target="???">
+</a>
+```
 
 * `a`
 * `href`
@@ -111,9 +115,9 @@ Why is it rare to use this code:
 
 ???
    
-* _self is only needed to open within the same tab when overriding conflicting code. 
+* `_self` is only needed to open within the same tab when overriding conflicting code. 
 * It isn't common to allow users to download your entire webpage.
-* The target="self" is typically used to download files like PDFs.
+* The `target="self"` is typically used to download files like PDFs.
 * Everyone already knows about Enki!
 
 --- 
@@ -176,6 +180,3 @@ framename represents the name of a frame in the page, so it can be valid and ope
 %
 
 ```
-
-
- 

@@ -31,8 +31,8 @@ links:
 ---
 
 ## Exercise
-In this exercise, there is a list of 10 items.
+In this exercise, there is a list of 10 HTML terms.
 
-You have to correctly choose which items . are elements and which attributes.
+Correctly sort the list of terms into *elements* and *attributes*.
 
-More info on codepen.
+Record your results in the `HTML` column of the linked Codepen.
