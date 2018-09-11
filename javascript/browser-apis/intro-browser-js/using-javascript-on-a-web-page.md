@@ -58,13 +58,16 @@ console.log("hello");
 This script can then be referenced with the src attribute of the script tag:
 
 ```html
-<script src="hello.js"><script>
+<script 
+  src="hello.js">
+<script>
 ```
 
 We can even reference scripts hosted on another server – it's common to do this when working with third party libraries:
 
 ```html
-<script src="http://www.enki.com/hello.js">
+<script 
+  src="http://www.enki.com/hello.js">
 </script>
 ```
 
@@ -85,7 +88,7 @@ Complete the missing gaps in the following HTML snippet such that JavaScript cod
 * `>`
 * `</script>`
 * `/>`
-* `<script/>`
+* `<script />`
 * `<script>`
 
 ---
