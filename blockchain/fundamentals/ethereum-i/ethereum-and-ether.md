@@ -16,9 +16,9 @@ tags:
   - deep
 
 links:
-  - >- [Ethereum](https://www.ethereum.org/){website}
-  - >- [Ethereum source code](https://github.com/ethereum/go-ethereum){website}
-  - >- [Guide to Casper Protocol](https://blockgeeks.com/guides/ethereum-casper/){article}
+  - '[Ethereum](https://www.ethereum.org/){website}'
+  - '[Ethereum source code](https://github.com/ethereum/go-ethereum){website}'
+  - '[Guide to Casper Protocol](https://blockgeeks.com/guides/ethereum-casper/){article}'
 ---
 
 # Ethereum and Ether
