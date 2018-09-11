@@ -10,6 +10,10 @@ type: normal
 
 category: must-know
 
+standards:
+  bc.identify-blockchain-applications.3: 10
+  bc.analyze-smart-contracts.1: 10
+
 tags:
   - introduction
 
