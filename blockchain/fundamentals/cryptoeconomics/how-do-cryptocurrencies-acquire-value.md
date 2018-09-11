@@ -36,10 +36,10 @@ In general, what is it that gives value to items?
 
 ???
 
-- People find them valuable
-- Their price is low
-- They make a good investment
-- They are useful and long lasting
+* People find them valuable
+* Their price is low
+* They make a good investment
+* They are useful and long lasting
 
 ---
 
@@ -49,6 +49,6 @@ Objectively, which of the following two cryptocurrencies is more valuable?
 
 ???
 
-- Ether
-- Bitcoin
-- They are as valuable
+* Ether
+* Bitcoin
+* They are as valuable
