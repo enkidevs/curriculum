@@ -67,7 +67,7 @@ Example 2:
 <audio controls>
   <source src="some_song.mp3"
     type="audio/mpeg">
-  <source src"some_song.ogg"
+  <source src="some_song.ogg"
     type="audio/ogg">
   <source src="some_song"
     type="some_song.wav">
@@ -99,13 +99,13 @@ Add an audio player with controls for a single song:
 <???>
 ```
 
-* audio
-* src
-* "/music/good_enough.mp3"
-* controls
-* /audio
-* href
-* alt
+* `audio`
+* `src`
+* `"/happy.mp3"`
+* `controls`
+* `/audio`
+* `href`
+* `alt`
 
 ---
 ## Revision

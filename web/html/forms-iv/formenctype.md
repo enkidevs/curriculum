@@ -67,8 +67,8 @@ Which statement is true regarding `enctype`?
 
 ???
 
-* Specifies how the form-data should be encoded when submitted to server.
-* can be used only if `method="get"`.
+* Specifies how the form-data should be encoded when submitted to a server.
+* Can be used only if `method="get"`.
 * The values `application/x-www-form-urlencoded` and `text/plain` convert spaces into `-` symbols.
 
 ---
@@ -92,7 +92,7 @@ Which input form attribute is used to specify an encoding type for your form?
 Which statement is not true regarding `enctype`?
 
 * The values `application/x-www-form-urlencoded` and `text/plain` convert spaces into "-" symbols.
-* specifies how the form-data should be encoded when submitted to server.
+* specifies how the form-data should be encoded when submitted to a server.
 * The default value is `application/x-www-form-urlencoded`.
 * The value `multipart/form-data` is required when using forms that have a file upload control.
  
