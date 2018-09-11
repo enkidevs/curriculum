@@ -89,13 +89,13 @@ What HTML element is used to display the text exactly as it is laid out within t
 
 ???
 
-* pre
-* samp
-* code
-* element
-* white-space
-* standard
-* output
+* `<pre>`
+* `<samp>`
+* `<code>`
+* `<element>`
+* `<white-space>`
+* `<standard>`
+* `<output>`
 
 ---
 ## Quiz
@@ -110,8 +110,8 @@ Which HTML element is best used for "???" to properly display this code within a
 }
 `<???>`
 
-* pre
-* code
-* perf
-* samp
+* `<pre>`
+* `<code>`
+* `<perf>`
+* `<samp>`
  
