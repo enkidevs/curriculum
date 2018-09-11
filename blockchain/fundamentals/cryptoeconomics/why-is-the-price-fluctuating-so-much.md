@@ -10,6 +10,11 @@ type: normal
 
 category: must-know
 
+standards:
+  bc.architect-blockchain.2: 10
+  bc.compare-altcoins.3: 20
+  bc.compare-altcoins.4: 10
+
 tags:
   - deep
 ---
