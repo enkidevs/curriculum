@@ -101,7 +101,7 @@ Add an audio player with controls for a single song:
 
 * `audio`
 * `src`
-* `"/music/happy.mp3"`
+* `"/happy.mp3"`
 * `controls`
 * `/audio`
 * `href`
