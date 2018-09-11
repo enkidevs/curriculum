@@ -34,7 +34,7 @@ It is a relatively new language, which was oficially released early-mid 2015. It
 
 The main features Solidity had over other Ethereum supported languages were static typing, mappings, structs, (multiple) contract inheritance, and type-safe functions. 
 
-While it is not particularly difficult to start writing Solidity code, the real milestone is actually understanding and following security best practices. Over the years, some flaws in the design of Solidity allowed for multiple exploits in smart contracts, one amounting over 50M dollars worth of ether.
+While it is not particularly difficult to start writing Solidity code, the real milestone is actually understanding and following security best practices. Remember that once the smart contract is up there, it won't ever dissapear (even though there's a kill switch). Over the years, some flaws in the design of Solidity allowed for multiple exploits in smart contracts, one amounting over 50M dollars worth of ether.
 
 
 
