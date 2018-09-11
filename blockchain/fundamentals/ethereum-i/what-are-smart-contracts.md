@@ -22,7 +22,35 @@ tags:
 
 ## Content
 
-**Smart contracts** are Ethereum's code files.
+**Smart contracts** are Ethereum's code files. They would be useless without Ethereum Virtual Machine. EVM is a runtime environment for executing compiled smart contracts: EVM does not run Solidity directly, but rather runs the *bytecode* obtained by compiling `.sol` files[1].
+
+Here's an example of a Solidity smart contract:
+```javascript
+pragma solidity ^0.4.23;
+
+contract MyAwesomeToken {
+  mapping (address => uint) public 
+    ownerToBalance;
+    
+  function setBalance(address owner,
+    uint newBalance) public {
+      require(msg.sender == owner);
+      ownerToBalance[owner] = newBalance;
+  }
+
+  function getBalance(address owner) public{
+    return ownerToBalance[owner];
+  }
+}
+```
+As you can see, it is similar to a Java code file. Once deployed, the contract would receive its own unique address. If someone were to send a transaction calling the contract's `setBalance` function using their *own* address and a random balance, the contract would create the mapping. 
+
+Smart contracts are different than your usual code files. They are **immutable**. Once up there, users can interact with them forever. Without proper tests and checks, nasty problems can occur, but more on this later.
+
+---
+## Footnotes
+[1: Code files]
+Solidity is not the only language supported by the EVM, but rather the most known. Others include Viper, LLL and Bamboo.
 
 ---
 
