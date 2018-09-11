@@ -82,10 +82,8 @@ Result:
 
 <!--[View CodePen](https://codepen.io/enkidevs/pen/xJdKrV)-->
 
-
 ---
 ## Practice
-
 
 Complete the HTML code to create a numbered list that starts at 10.
 ```html
@@ -105,11 +103,11 @@ C: ???
 
 Match the terms to the descriptions:
 
-
 List items will be numbered with uppercase letters: ???
 List items will be numbered with lowercase letters: ???
 List items will be numbered with uppercase roman numbers: ???
-List items will begin numbered with 50: ???
+List items will start numbering from 50: ???
+
 
 * `ol`
 * `start="10"`
