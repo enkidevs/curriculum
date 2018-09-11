@@ -41,7 +41,7 @@ Regardless of transaction type, 4 variables are required:
 
 ### Solidity
 
-**Solidity** is Ethereum's de-facto programming language. All you have to do is throw some Solidity code (similar to Java) into a `.sol` file and deploy the smart contract on the blockchain. There are a few tools you can use, but probably the most useful is `Remix`[1] compiler.
+**Solidity** is Ethereum's de-facto programming language. All you have to do is throw some Solidity code (similar to JavaScript in syntax) into a `.sol` file and deploy the smart contract on the blockchain. There are a few tools you can use, but probably the most useful is `Remix`[1] compiler.
 
 ### Token Standards
 
