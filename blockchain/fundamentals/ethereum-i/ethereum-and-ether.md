@@ -18,6 +18,7 @@ tags:
 links:
   - >- [Ethereum](https://www.ethereum.org/){website}
   - >- [Ethereum source code](https://github.com/ethereum/go-ethereum){website}
+  - >- [Guide to Casper Protocol](https://blockgeeks.com/guides/ethereum-casper/){article}
 ---
 
 # Ethereum and Ether
@@ -32,9 +33,9 @@ Ethereum is a distributed supercomputer. Its main feature is the ability to stor
 
 Applications are run using blockchain's turing complete virtual machine: Ethereum Virtual Machine or EVM. Every node in the network will therefore run the code you deploy on the blockchain. How do you make sure people don't run malicious code or infinite loops?
 
-Enter **ether**, Ethereum's token: make people pay for the time and memory used by the network to run their code or transfers. Usually, transaction fees are represented in gweis, or giga weis (10^9 wei). 1 ether is 10^18 wei.
+Enter **ether**, Ethereum's token: make people pay for the time and memory used by the network to run their code or transfers. A transaction is paid for in *gas*, that can be bought using ether denominations. Usually, gas price is expressed in gweis (giga weis, 10^9 wei), where 1 ether is equal to 10^18 weis. Transaction fees then become the product of the gas price and the amount of gas used.
 
-Until recently, Ethereum used _Ethash_, a memory-heavy PoW algorithm, to create blocks. Average block time is 15 seconds, compared to Bitcoin's 10 minute block time. Because PoW can end up consuming more electricity than some countries (see Bitcoin and its evergrowing thirst), Ethereum developers are trying to migrate to a PoS algorithm, called `Casper Protocol`. Until that is possible, a hybrid PoW/PoS algorithm is going to be implemented: blocks would still be generated using PoW with a checkpoint every 50th block appended by PoS.
+Until recently, Ethereum used _Ethash_, a memory-heavy PoW algorithm, to create blocks. Average block time is 14 seconds, compared to Bitcoin's 10 minute block time. Because PoW can end up consuming more electricity than some countries (see Bitcoin and its evergrowing thirst), Ethereum developers are trying to migrate to a PoS algorithm, called `Casper Protocol`. Until that is possible, a hybrid PoW/PoS algorithm is going to be implemented: blocks would still be generated using PoW with a checkpoint every 50th block appended by PoS.
 
 ---
 
