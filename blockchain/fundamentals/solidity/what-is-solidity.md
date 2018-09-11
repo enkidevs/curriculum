@@ -21,16 +21,21 @@ tags:
 
 links: 
   - '[Solidity By Example](https://solidity.readthedocs.io/en/develop/solidity-by-example.html){website}'
----
-# Intro to Solidity
 
+---
+# What is Solidity?
 
 ---
 ## Content
 
 **Solidity** a programming language that can compiled into bytecode and run by the EVM. But the relationship between Solidity and EVM is not one-to-one. Solidity is a contract-oriented language that can work on multiple platforms. Moreover, it is part of the set of languages in which Ethereum smart contracts can be developed.
 
-As specified by Wood it is designed around the ECMAScript syntax to make it familiar for existing web developers;[citation needed] unlike ECMAScript it has static typing and variadic return types. Compared to other EVM-targeting languages of the time such as Serpent and Mutan, Solidity contained a number of important differences. Complex member variables for contracts including arbitrarily hierarchical mappings and structs were supported. Contracts support inheritance, including multiple inheritance with C3 linearization. An application binary interface (ABI) facilitating multiple type-safe functions within a single contract was also introduced (and later supported by Serpent). A documentation system for specifying a user-centric description of the ramifications of a method-call was also included in the proposal, known as "Natural Language Specification".[19][20]
+It is a relatively new language, which was oficially released early-mid 2015. It was developed by some of developers on the Ethereum core team.
+
+The main features Solidity had over other Ethereum supported languages were static typing, mappings, structs, (multiple) contract inheritance, and type-safe functions. 
+
+While it is not particularly difficult to start writing Solidity code, the real milestone is actually understanding and following security best practices. Over the years, some flaws in the design of Solidity allowed for multiple exploits in smart contracts, one amounting over 50M dollars worth of ether.
+
 
 
 ---
