@@ -2,7 +2,6 @@
 author: mihaiberq
 
 levels:
-
   - beginner
 
 type: normal
@@ -24,7 +23,6 @@ links:
   - '[CodePen: Nested Paragraphs](https://codepen.io/enkidevs/pen/rrjMXV){code}'
   - '[MDN paragraphs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p){documentation}'
   - '[MDN headings](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements){documentation}'
-
 
 ---
 
@@ -74,12 +72,12 @@ The smallest sized heading is
 
 ???
 
-* h6
-* h1
-* h2
-* h3
-* h4
-* h5
+* `<h6>`
+* `<h1>`
+* `<h2>`
+* `<h3>`
+* `<h4>`
+* `<h5>`
 
 ---
 ## Revision
