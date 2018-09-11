@@ -57,7 +57,7 @@ When using CSS to style `<div>` and `<span>` elements, ids and classes are often
 ```html
 <div id="callout">
   <p>This is 
-   <span class="highlight>
+   <span class="highlight">
      important
    </span> to see!
   </p>

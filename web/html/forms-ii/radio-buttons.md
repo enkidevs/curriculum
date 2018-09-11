@@ -81,7 +81,7 @@ Once a user presses a button, and submits the result, the form's data is sent in
 
 On the other hand, if no value is specified, and the user selects the same button, the result will be sent in the form of `gender=on`, and since this isn't really helpful, you should always include the `value` attribute. Similarly, if no button is selected, the form won't submit at all, since it has no value to report.
 
-Additionally, if you want your form with radio buttons to have a default value, you should add the `check` attribute.
+Additionally, if you want your form with radio buttons to have a default value, you should add the `checked` attribute.
 
 Same example with `checked` added:
 ```html
@@ -130,12 +130,15 @@ You can also style your radio groups with CSS. For instance, you can modify the 
 
 Write the form code that creates a radio button.
 
-`<??? ???="???" name="topic" value="item"> Item <???>`
+```html
+<??? ???="???"
+     name="topic" 
+     value="item"> Item
+```
 
 * input
 * type
 * radio
-* /input
 * name
 * value
 
@@ -146,11 +149,10 @@ Which line creates an HTML form’s radio buttons?
 
 ???
 
-* `<input type="radio" name="topic" value="item"> Item </input>`
-* `<radio name="topic" value="item"> Item </radio>`
-* `<input radio="topic" value="item"> Item </input>`
-* `<input type="radio" value="topic" name="item"> Item </input>`
-
+* `<input type="radio" name="topic" value="item"> Item`
+* `<radio name="topic" value="item"> Item`
+* `<input radio="topic" value="item"> Item`
+* `<input type="radio" value="topic" name="item"> Item`
 
 ---
 ## Quiz

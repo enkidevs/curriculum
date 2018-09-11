@@ -77,7 +77,9 @@ We can even reference scripts hosted on another server – it's common to do thi
 Complete the missing gaps in the following HTML snippet such that JavaScript code contained by an `enki.js` file will be ran via a script tag:
 
 ```html
-??? ???="???" ??? ???
+??? 
+  ???="???" ??? 
+???
 ```
 
 * `<script`
@@ -96,7 +98,7 @@ Complete the missing HTML tags to make the JavaScript code run directly on the w
 
 ```html
 ???
-console.log("enki");
+  console.log("enki");
 ???
 ```
 

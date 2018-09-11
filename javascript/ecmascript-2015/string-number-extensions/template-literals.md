@@ -86,12 +86,10 @@ ${???}
 `
 
 console.log(str)
-/*
-Today is:
-Thursday
-12
-2018
-*/
+// Today is:
+// Thursday
+// 12
+// 2018
 ```
 
 * ${
