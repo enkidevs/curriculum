@@ -7,6 +7,6 @@ description: todo
 section: 2
 
 insights:
-  - intro-to-solidity
+  - what-is-solidity
   - security-concerns
   - ether-heists-caused-by-bugs
