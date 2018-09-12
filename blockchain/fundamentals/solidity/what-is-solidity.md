@@ -21,6 +21,7 @@ tags:
 
 links: 
   - '[Solidity By Example](https://solidity.readthedocs.io/en/develop/solidity-by-example.html){website}'
+  - '[What is Solidity?](https://blockgeeks.com/guides/solidity/){article}'
 
 ---
 # What is Solidity?
