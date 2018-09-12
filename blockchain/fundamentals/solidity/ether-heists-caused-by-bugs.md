@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+standards:
+  bc.identify-blockchain-applications.4: 10
+
 aspects:
 
   - introduction

@@ -12,6 +12,10 @@ type: normal
 category: must-know
 
 aspects:
+  bc.analyze-smart-contracts.0: 10
+  bc.analyze-smart-contracts.1: 20
+
+aspects:
 
   - introduction
 
