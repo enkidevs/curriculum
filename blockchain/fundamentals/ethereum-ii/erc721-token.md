@@ -11,7 +11,7 @@ type: normal
 
 category: must-know
 
-tags:
+aspects:
 
   - introduction
 
@@ -24,6 +24,13 @@ tags:
 
 ---
 ## Practice
+
+Does ERC721 token standard support decimals?
+
+???
+
+* False
+* True
 
 ---
 ## Revision
