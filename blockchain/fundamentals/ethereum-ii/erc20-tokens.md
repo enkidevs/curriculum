@@ -21,7 +21,7 @@ aspects:
 ---
 ## Content
 
-**ERC20** is the standard used to represent currencies. It allows for basic account functionalities like transfer, get address balance, or get total supply. 
+**ERC20** is the standard used to represent currencies. It allows for basic account functionalities like transfer, get address balance, or get total supply.
 
 The basic ERC20 interface looks like this[1]:
 ```
