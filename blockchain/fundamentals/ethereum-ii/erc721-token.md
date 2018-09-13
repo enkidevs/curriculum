@@ -16,14 +16,16 @@ tags:
   - introduction
 
 ---
-# ERC20 Tokens
+# ERC721 Tokens
 
 ---
 ## Content
+
 
 ---
 ## Practice
 
 ---
 ## Revision
+
 
