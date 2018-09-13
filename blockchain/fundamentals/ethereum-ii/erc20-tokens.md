@@ -38,7 +38,8 @@ contract ERC20BasicInterface {
 ```
 And it was extended to include[2]:
 ```
-contract ERC20Interface is ERC20BasicInterface {
+contract ERC20Interface 
+    is ERC20BasicInterface {
   function allowance(address owner,
     address spender) 
     public view returns (uint256);
