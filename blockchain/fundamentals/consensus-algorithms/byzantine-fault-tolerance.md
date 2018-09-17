@@ -17,7 +17,7 @@ standards:
   bc.analyze-network-security-policy.7: 10
   bc.analyze-network-security-policy.8: 10
 
-tags:
+aspects:
 
   - introduction
 

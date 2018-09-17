@@ -44,7 +44,7 @@ This method is particularly useful as it sets the opacity for a single element a
 To do so use the rgba declaration:
 
 
-```
+```css
 background-color: rgba(15,255,30,0.5);
 ```
 
@@ -66,3 +66,4 @@ color: rgba(12, 255, 40, 0.3);
 * Green, Blue, Red, Alpha
 * Blue, Red, Green, Alpha
 
+ 

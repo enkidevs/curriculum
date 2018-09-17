@@ -7,10 +7,6 @@ levels:
 
   - basic
 
-tags:
-  - introduction
-  - workout
-  - deep
 aspects:
   - introduction
   - workout

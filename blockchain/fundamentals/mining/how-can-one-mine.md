@@ -12,13 +12,13 @@ type: normal
 category: must-know
 
 standards:
-  - bc.analyze-network-security-policy.0: 20
-  - bc.analyze-network-security-policy.1: 20
-  - bc.analyze-network-security-policy.2: 20
-  - bc.analyze-network-security-policy.3: 40
-  - bc.analyze-network-security-policy.7: 20
+  blockchain.analyze-network-security-policy.0: 20
+  blockchain.analyze-network-security-policy.1: 20
+  blockchain.analyze-network-security-policy.2: 20
+  blockchain.analyze-network-security-policy.3: 40
+  blockchain.analyze-network-security-policy.7: 20
 
-tags:
+aspects:
 
   - introduction
 

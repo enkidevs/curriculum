@@ -11,8 +11,8 @@ category: must-know
 
 inAlgoPool: false
 
-
-
+links:
+  - '[Scrimba CSS Length Units](https://scrimba.com/p/pWvwCg/cGLEnHg){website}'
 
 ---
 
@@ -79,7 +79,7 @@ Relative values are a great way of making pages responsive.
 ## Practice
 
 For the following CSS code:
-```
+```css
 .container{
   font-size: 20px;
   width: 500px;
@@ -113,3 +113,4 @@ In CSS, `width: 10%` is equal to
 * 10% of parent's font-size
 * 10% of body's width
 
+ 

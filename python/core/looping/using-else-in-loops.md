@@ -10,9 +10,12 @@ type: normal
 category: must-know
 
 inAlgoPool: false
+aspects:
+  - introduction
 
 standards:
   python.control-structures.0: 10
+  python.use-iteration-protocol.0: 10
 
 ---
 
@@ -76,7 +79,7 @@ With the output:
 a
 ```
 
---- 
+---
 ## Practice
 
 Fill in the following snippet such that it will return *"Computation Done"* when the while terminates:
@@ -112,7 +115,7 @@ An `else` statement is used in loops when the loops ??? is evaluated to ???.
 * parameter
 
 ---
-## Quiz 
+## Quiz
 ### what will the following code snippet print?
 
 ```python
@@ -131,5 +134,3 @@ else:
 * a a
 * b a
 * a c
- 
- 

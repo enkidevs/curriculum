@@ -14,7 +14,8 @@ type: normal
 category: must-know
 
 inAlgoPool: false
-
+aspects:
+  - introduction
 standards:
   python.native-types-operations.2: 10
 
@@ -67,9 +68,8 @@ What does the following code snippet return:
 ```
 ???
 
-
-* `2`
 * `3`
+* `2`
 * `7`
 * `2.5`
 * `4.66`

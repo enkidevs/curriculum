@@ -12,8 +12,8 @@ type: normal
 category: must-know
 
 standards:
-  bc.analyze-smart-contracts.0: 10
-  bc.analyze-smart-contracts.1: 20
+  blockchain.analyze-smart-contracts.0: 10
+  blockchain.analyze-smart-contracts.1: 20
 
 aspects:
 

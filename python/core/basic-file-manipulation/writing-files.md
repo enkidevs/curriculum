@@ -8,7 +8,8 @@ levels:
 type: normal
 
 category: how to
-
+aspects:
+  - introduction
 standards:
   python.standard-library-operating-system.0: 10
 
@@ -104,5 +105,3 @@ new_file.close()
 * `a`
 * `r`
 * `1`
- 
- 

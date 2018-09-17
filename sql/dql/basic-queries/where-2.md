@@ -2,11 +2,8 @@
 author: stefkn
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
 
 type: normal
@@ -20,20 +17,12 @@ standards:
   sql.read-single-table.1: 10
   sql.read-single-table.2: 10
 
-tags:
-
-  - introduction
-
-  - workout
-
 links:
-
   - '[SQL Tutorial: WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}'
 
 aspects:
   - introduction
   - workout
-
 
 ---
 

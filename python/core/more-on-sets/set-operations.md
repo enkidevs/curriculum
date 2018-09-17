@@ -8,7 +8,10 @@ levels:
 type: normal
 
 category: feature
-
+aspects:
+  - introduction
+  - workout
+  - deep
 standards:
   python.native-types-operations.5: 10
 
@@ -103,5 +106,3 @@ enki.???()
 * `empty`
 * `delete`
 * `list`
- 
- 

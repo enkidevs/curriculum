@@ -19,7 +19,10 @@ links:
   - '[pymotw.com](https://pymotw.com/2/re/){website}'
   - '[docs.python.org](https://docs.python.org/3.5/howto/regex.html#regex-howto){website}'
 
-
+aspects:
+  - introduction
+  - workout
+  - deep
 standards:
   python.data-structures-uses.5: 10
   python.native-types-operations.4: 10
@@ -94,5 +97,3 @@ Which Python module provides text matching patterns using regular expressions?
 * `regex`
 * `matchpat`
 * `RegEx`
- 
- 

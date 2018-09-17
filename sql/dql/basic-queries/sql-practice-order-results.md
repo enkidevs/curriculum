@@ -13,9 +13,9 @@ type: exercise
 
 linkType: sqlfiddle
 
-link: http://sqlfiddle.com/#!9/a60d72/1
+link: http://sqlfiddle.enki.com/#!9/a60d7/1
 
-answer: /cherish-ball.*premier-ball/
+answer: /cherish-ball/
 
 standards:
   sql.read-single-table.0: 1000

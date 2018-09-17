@@ -10,8 +10,9 @@ levels:
 type: normal
 
 category: how to
-
-
+aspects:
+  - workout
+  - deep
 links:
 
   - '[pymotw.com](https://pymotw.com/2/weakref/){website}'
@@ -116,7 +117,7 @@ r = ???.ref(???)
 * `pass`
 
 ---
-## Quiz 
+## Quiz
 ### how would you check a variable for NoneType?
 
 ```python
@@ -131,5 +132,3 @@ if ...
 * if x == None
 * if not x
 * if x is not None
- 
- 

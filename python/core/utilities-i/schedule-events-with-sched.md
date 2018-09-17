@@ -10,7 +10,9 @@ levels:
 type: normal
 
 category: how to
-
+aspects:
+  - introduction
+  - workout
 standards:
   python.control-structures.5: 10
   python.modules.0: 10
@@ -98,4 +100,3 @@ sched.enter(3,2,print,argument=('second'))
 * 3
 * second
 * first
- 

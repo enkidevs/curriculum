@@ -20,24 +20,25 @@ aspects:
 ---
 ## Content
 
-HTML elements consist of a start and end tag with content in-between.
-Some elements:
-- Paragraph:`<p></p>`
-- Anchors: `<a></a>`
-- Headers: `<h3></h3>`
-- Script: `<script></script>`
+Most HTML elements consist of a start and end tag with content in-between.
+
+Some common elements:
+- Paragraph:`<p>Paragraph text is written here.</p>`
+- Anchors: `<a>Link text is written here.</a>`
+- Headers: `<h3>Header text is written here</h3>`
+- Script: `<script>JavaScript code is written here</script>`
 
 Example:
-```
+```html
 <h1>
-  Text in a header element
+  Large heading is wrapped by h1 tags.
 </h1>
 ```
 
 It is also very common for HTML elements to be nested. This is common even for the most simple websites.
 
 Example:
-```
+```html
 <p>
   Check out this
   <a href="http://www.enkipro.com">
@@ -46,20 +47,19 @@ Example:
 </p>
 ```
 
-**Note: Nested elements are very useful and every website or document has them.**
+**Note:** Nested elements are very useful and every website or document has them.
 
-In HTML we also have empty elements or **void** elements. These elements don't have to be closed because they cannot contain content and are also automatically closed by the parser.
+In HTML we also have empty elements or **void** elements.  These elements don't have to be closed because they don't actually wrap around any content.
 
-The break `<br>` is one of those elements.
+The break element `<br>` is one of those elements. It can be placed anywhere and forces a line break at that point. 
 
-**Note: Even though the closing tag is optional in HTML5, it is best practice to use the closing tag.**
-**This is especially necessary if you want your document to be readable in either XML or XHTML.**
+**Note:** Even though the closing tag is optional in HTML5, it is best practice to use the closing tag. This is especially necessary if you want your document to be readable in either XML or XHTML.
 
 ---
 ## Practice
 
 What elements are used in this code?
-```
+```html
 <p>
   Check out this
     <a href="http://www.enkipro.com">
@@ -74,7 +74,6 @@ What elements are used in this code?
 * Headings and Paragraphs
 * Images and Links
 * Parameters and Anchors
-* Anchors and Headings
 
 ---
 ## Revision
@@ -100,3 +99,4 @@ Identify which element is not a valid HTML element?
 * `<p>`
 * `<a>`
 * `<img>`
+ 

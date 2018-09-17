@@ -9,7 +9,10 @@ type: normal
 
 category: best practice
 
-
+aspects:
+  - introduction
+  - workout
+  - deep
 
 standards:
   comp-sci.identify-linear-collection-data-structures-usage.2: 10
@@ -31,7 +34,7 @@ notes: >-
 ---
 ## Content
 
-A simple `list` can be easily used and implemented as a **queue** abstract data structure. A queue implies the **first-in, first-out** principle.
+A simple `list` can easily be used to implement a **queue** abstract data structure. A queue implies the **first-in, first-out** principle.
 
 However, this approach will prove inefficient because *inserts* and *pops* from the beginning of a list are slow (all elements need shifting by one).
 
@@ -86,5 +89,3 @@ print(queue)
 * `append("e")`
 * `pop-left()`
 * `append-left("e")`
- 
- 

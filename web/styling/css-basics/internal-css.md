@@ -12,7 +12,8 @@ category: must-know
 inAlgoPool: false
 
 
-
+links:
+  - '[Scrimba CSS Documents & Cascade](https://scrimba.com/p/pWvwCg/c3vE7cg){website}'
 
 ---
 
@@ -67,3 +68,4 @@ The CSS code with the highest rendering priority is
 * internal CSS
 * external CSS
 
+ 

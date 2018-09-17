@@ -2,9 +2,7 @@
 author: Nick Daminov
 
 levels:
-
   - basic
-
   - medium
 
 type: normal
@@ -18,29 +16,19 @@ standards:
   sql.connect-client.1: 10
 
 tags:
-
-
-  - workout
-
   - python
-
   - implementation
-
   - database packages
 
-
 links:
-
   - '[Psycopg2 package](http://initd.org/psycopg/){website}'
   - '[SQLAlchemy package](http://www.sqlalchemy.org/){website}'
   - '[Psycopg documentation](http://initd.org/psycopg/docs/index.html){website}'
   - '[Psycopg start guide](http://initd.org/psycopg/docs/usage.html){website}'
   - '[Using Python to query Postgres video](https://www.youtube.com/watch?v=8gd1DlXwzlY){website}'
 
-
 aspects:
   - workout
-
 
 ---
 

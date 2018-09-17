@@ -8,7 +8,8 @@ levels:
 type: normal
 
 category: how to
-
+aspects:
+  - introduction
 standards:
   python.standard-library-operating-system.0: 10
 
@@ -114,5 +115,3 @@ print(file.???())
 * `read`
 * `open`
 * `write`
- 
- 

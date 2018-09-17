@@ -10,7 +10,8 @@ levels:
   - beginner
 
 type: normal
-
+aspects:
+  - introduction
 category: must-know
 
 inAlgoPool: false
@@ -92,7 +93,7 @@ else:
 ---
 ## Practice
 
-What does the following code snippet return?
+What does the following code snippet print?
 ???
 ```python
 x = 3
@@ -105,22 +106,24 @@ else:
 
 * big
 * small
-* this syntax is invalid and will not run
+* SyntaxError
 
 ---
 ## Revision
 
-What does the following code snippet return?
+What does the following code snippet print?
 ???
 ```python
 x = 8
-if (x = 8):
-    print (‘true’)
+if (x == 8):
+    print ('true')
 else:
-    print (‘false’)
+    print ('false')
 ```
 
 
-* Invalid Syntax
+* 'true'
+* SyntaxError
+* 'false'
 * True
 * False

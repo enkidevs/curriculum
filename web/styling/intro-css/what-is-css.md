@@ -13,7 +13,7 @@ inAlgoPool: false
 
 
 links:
-
+  - '[Scrimba Introduction to CSS](https://scrimba.com/p/pWvwCg/c3vBJu2){website}'
   - '[MDN](https://developer.mozilla.org/en-US/docs/Glossary/CSS){documentation}'
   - '[www.theodinproject.com](http://www.theodinproject.com/courses/web-development-101#section-the-front-end){website}'
 
@@ -72,3 +72,4 @@ What does *CSS* stand for?
 * Cross Site Scripting
 * Customer Service Site
 * Computer Styling Sheets
+ 

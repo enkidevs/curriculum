@@ -12,7 +12,8 @@ category: must-know
 standards:
   python.functions.2: 10
 
-
+aspects:
+  - introduction
 links:
 
   - '[More about arguments](https://www.tutorialspoint.com/python/python_functions.htm){website}'
@@ -151,5 +152,3 @@ foo('Baseball bat', ???)
 * quantity
 * price='$1.00'
 * 150
- 
- 

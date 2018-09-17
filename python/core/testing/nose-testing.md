@@ -10,7 +10,10 @@ levels:
 type: normal
 
 category: must-know
-
+aspects:
+  - introduction
+  - workout
+  - deep
 standards:
   python.testing.1: 10
   python.testing.5: 10
@@ -102,5 +105,3 @@ In terms of basic syntax, `nose` and `pytest` are
 * similar
 * small differences
 * not at all alike
- 
- 

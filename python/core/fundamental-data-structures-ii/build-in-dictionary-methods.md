@@ -67,7 +67,7 @@ print(dict.get(3))
 ```
 print(dict.items())
 
-# Output: dict_items([(1, 1),
+# Output:
 # (2, 4), (3, 9), (4, 16), (5, 25)])
 ```
 
@@ -76,7 +76,7 @@ print(dict.items())
 ```
 print(dict.keys())
 
-# Output: dict_keys([1, 2, 3, 4, 5])
+# Output: [1, 2, 3, 4, 5]
 ```
 
 - `pop(key,[d])` : returns the item with the given `key`. If no item is found, the optional `default` argument will be returned
@@ -142,22 +142,17 @@ new = ???.???(
 ---
 ## Revision
 
-Consider the following scenario:
+Print all of the keys from the dictionary:
 ```
-my_dict = {1:1, 2:4, 3:9, 4:16, 5:25}
+num_dict = {1:1, 2:4, 3:9, 4:16, 5:25}
 
-new_dict = my_dict.copy()
-new_dict.popitem()
-
-print(my_dict)
+print(???)
 ```
-What will the output look like?
-???
 
-
-* {1:1, 2:4, 3:9, 4:16, 5:25}
-* {1:1, 2:4, 3:9, 4:16}
-* {2:4, 3:9, 4:16, 5:25}
+* `num_dict.keys()`
+* `keys(num_dict)`
+* `num_dict_keys()`
+* `keys_num_dict()`
 
 ---
 ## Footnotes

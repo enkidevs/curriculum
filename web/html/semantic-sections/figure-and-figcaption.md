@@ -14,27 +14,22 @@ stub: true
 tags:
   - deep
 
-aspects:
-  - deep
-
 links:
+  - '[CodePen](https://codepen.io/enkidevs/pen/YjqEWp){code}'
   - '[MDN docs for figure](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure){website}'
   - '[MDN docs for figcaption](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption){website}'
 
 ---
 # Figure & Figcaption
-
 ---
 ## Content
 
-The HTML `<figure>` element is used to represent self-contained content. Also, the `<figure>` element frequently has a `<figcaption>` element within it.
-
-The `<figcaption>` element is used to represent a caption that relates to a `<figure>` element and must be either the first or last child of the `<figure>` element.
+The HTML `<figure>` element is used to represent self-contained content. Also, the `<figure>` element frequently has a `<figcaption>` element within it which is used to display a caption of the content and must be either the first or last child of the `<figure>` element.
 
 The `<figure>` element is usually an image, code snippet, diagram, illustration, etc., which is referenced in the main flow of the document. Also, the `<figure>` elements content can also be moved to another part of the document without having any effect on the main flow.
 
 Example with a poem:
-```
+```html
 <figure>
  <p>
    Old cave, hidden door,<br>
@@ -49,14 +44,14 @@ Example with a poem:
 </figure>
 ```
 
-More examples '[Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)'
+<!--[View CodePen](https://codepen.io/enkidevs/pen/YjqEWp)-->
 
 ---
 ## Practice
 
 Match the code with the tags to properly define a caption for the photo.
 
-```
+```html
 <tag1>
   <img src="waterfall.jpg"
   alt="Seljalandsfoss waterfall

@@ -8,7 +8,8 @@ levels:
   - basic
 
 type: exercise
-
+aspects:
+  - introduction
 link: http://www.codewars.com/kata/572af273a3af3836660014a1
 linkType: codewars
 standards:
@@ -32,4 +33,3 @@ links:
 ## Exercise
 
 Practice using the JavaScript Array methods `push()`, `pop()`, `shift()` and `unshift()`
- 

@@ -10,11 +10,12 @@ levels:
   - medium
 
 type: exercise
-
+aspects:
+  - introduction
 link: https://www.codewars.com/kata/cat-years-dog-years
 linkType: codewars
 standards:
- 
+
   python.standard-library-data.3: 2000
   python.standard-library-data.5: 2000
   python.standard-library-data.6: 3000
