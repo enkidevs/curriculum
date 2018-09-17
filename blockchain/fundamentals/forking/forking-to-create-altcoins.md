@@ -16,7 +16,7 @@ standards:
   bc.compare-altcoins.1: 10
   bc.compare-altcoins.4: 10
 
-tags:
+aspects:
 
   - introduction
 

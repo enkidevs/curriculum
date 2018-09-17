@@ -10,7 +10,9 @@ levels:
 type: normal
 
 category: tip
-
+aspects:
+  - introduction
+  - workout
 standards:
   python.standard-library-data.3: 10
 
@@ -80,5 +82,3 @@ What keyword can be used in Python for substring testing?
 * `is`
 * `matches`
 * `yield`
- 
- 

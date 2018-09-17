@@ -37,7 +37,7 @@ Keep in mind that the element with multiple borders needs its own border and a n
   border: 5px solid #00ff00;
 }
 ```
-Add the second border:
+Add the second border: 
 
 ```css
 .elem::after {
@@ -81,3 +81,4 @@ Which two pseudo elements can be used to add more borders to an element?
 * :after and :previous
 * :post and :before
 
+ 

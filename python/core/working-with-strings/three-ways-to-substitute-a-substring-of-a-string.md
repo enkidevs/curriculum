@@ -12,7 +12,9 @@ levels:
 type: normal
 
 category: tip
-
+aspects:
+  - introduction
+  - workout
 standards:
   python.standard-library-data.6: 10
   python.data-structures-uses.5: 10
@@ -89,5 +91,3 @@ print(my_string
 * `{time}`
 * `substitute`
 * `sub`
- 
- 

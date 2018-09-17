@@ -12,7 +12,9 @@ levels:
 type: normal
 
 category: how to
-
+aspects:
+  - workout
+  - deep
 standards:
   python.native-types-operations.4: 10
   python.data-structures-uses.5: 10
@@ -91,5 +93,3 @@ What function of `SequenceMatcher`  can be used to get the similarity of two seq
 * `r`
 * `s`
 * `get_similarity`
- 
- 

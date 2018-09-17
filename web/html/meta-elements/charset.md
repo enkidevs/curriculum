@@ -28,7 +28,7 @@ As a best practice, the `charset` attribute should be the first line of code wit
 If you choose not to put the charset in the first place you need to place it within the first 1024 bytes of the HTML because some browsers only look within that first KB before choosing the encoding.
 
 Example:
-```
+```html
 <meta
   charset="UTF-8">
 ```
@@ -86,3 +86,4 @@ The `<meta charset="utf-8">` will best help the browser understand which line of
 * `<p><sup>1 tsp.</sup> sugar<p>`
 * `<h3>The total cost was $24.50</h3>`
 * `<p>Bunt cake takes 3 c. flour<p>`
+ 

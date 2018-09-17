@@ -82,9 +82,9 @@ var dog = {
 ```
 
 * 'typeof':
+* 'beagle'
 * typeof
 * type of
-* 'beagle'
 * beagle
 * 'name'
 * name

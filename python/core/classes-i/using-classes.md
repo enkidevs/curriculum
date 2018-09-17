@@ -8,7 +8,8 @@ levels:
 type: normal
 
 category: must-know
-
+aspects:
+  - introduction
 standards:
   python.object-oriented.6: 10
 
@@ -89,5 +90,3 @@ class Car:
 * instance attribute
 * class variable
 * instance variable
- 
- 

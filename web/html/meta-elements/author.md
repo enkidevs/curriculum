@@ -17,18 +17,14 @@ tags:
   - introduction
   - workout
 
-aspects:
-  - introduction
-  - workout
-
 ---
 # Author
 ---
 ## Content
 
-In HTML the `<meta>` tag is used to describe metadata within a document.
-For instance, if you want to add information about who the author of the web page is, you would write:
-```
+The HTML meta `author` attribute is used to provide information about who the author of the web page is.
+
+```html
 <meta
   name="author"
   content="John Doe">
@@ -36,12 +32,14 @@ For instance, if you want to add information about who the author of the web pag
 
 The author metadata has no effect on search engine optimization or SEO.
 
+Some content management systems (CMS) have an easier time tracking signed-in editors and will add the name of who last made changes to the page in order to make it easier to track who is responsible for the content on that page.
+
 ---
 ## Practice
 
 Write the meta tag that states that 'John Doe' built the web page.
 
-```
+```html
 <??? ???="???" 
     ???="???">
 ```
@@ -82,5 +80,4 @@ What is the least influential tag for search engines in a web page?
 * Description
 * Headings
 * Paragraphs  
- 
  

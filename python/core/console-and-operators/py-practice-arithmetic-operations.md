@@ -7,15 +7,9 @@ levels:
 
   - basic
 
-tags:
-
-  - introduction
-
+type: exercise
 aspects:
   - introduction
-
-type: exercise
-
 linkType: website
 
 link: https://goo.gl/SZFREy

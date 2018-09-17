@@ -11,7 +11,9 @@ levels:
   - beginner
 
 type: normal
-
+aspects:
+  - introduction
+  - workout
 category: must-know
 
 standards:
@@ -107,4 +109,3 @@ What happens when you use `remove()` on an element that doesn't exist in the set
 * An error will be thrown.
 * Nothing.
 * The element will be removed.
- 

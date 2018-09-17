@@ -10,7 +10,8 @@ levels:
   - beginner
 
 type: normal
-
+aspects:
+  - introduction
 category: must-know
 
 inAlgoPool: false
@@ -56,25 +57,27 @@ As a beginner, your best bet is **Python 3**. This is the standard that's advanc
 ---
 ## Practice
 
-What was one of the main focuses of the third version of Python:
+Which versions of Python are you likely to encounter?
 
-???
+Lowest Version: ???
+Highest Version: ???
 
-* to make Python easier to learn
-* to enable Python to be used as a functional language
-* to enable Python to do system calls
-
+* Python 2.7
+* Python 3
+* Python 4
+* Python 5
+* Python 1.7
+* Python 2.1
 
 ---
 ## Revision
 
-Which of the following code snippets is Python 3 code?
+Which of the following code snippets is Python 3 code, and which is Python 2?
 
-???
+Python 2: ???
+Python 3: ???
 
-
-* `print ('Hello world!')`
 * `print 'Hello world!'`
+* `print ('Hello world!')`
 * `write 'Hello world!'`
 * `write ('Hello world!')`
- 

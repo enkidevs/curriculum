@@ -20,7 +20,7 @@ aspects:
   - introduction
 
 standards:
-  sql.define-tables.0: 10
+  sql.connect-client.0: 10
 
 links:
 

@@ -14,7 +14,8 @@ type: normal
 category: must-know
 
 inAlgoPool: false
-
+aspects:
+  - introduction
 
 standards:
   python.native-types-operations.0: 10

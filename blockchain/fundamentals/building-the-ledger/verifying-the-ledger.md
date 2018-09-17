@@ -12,15 +12,15 @@ type: normal
 category: must-know
 
 standards:
-  - bc.analyze-blockchain-components.0: 10
-  - bc.analyze-blockchain-components.1: 10
-  - bc.identify-blockchain-applications.0: 10
-  - bc.identify-blockchain-applications.1: 10
-  - bc.identify-blockchain-applications.2: 10
-  - bc.analyze-network-security-policy.0: 20
-  - bc.analyze-network-security-policy.8: 10
+  blockchain.analyze-blockchain-components.0: 10
+  blockchain.analyze-blockchain-components.1: 10
+  blockchain.identify-blockchain-applications.0: 10
+  blockchain.identify-blockchain-applications.1: 10
+  blockchain.identify-blockchain-applications.2: 10
+  blockchain.analyze-network-security-policy.0: 20
+  blockchain.analyze-network-security-policy.8: 10
 
-tags:
+aspects:
 
   - introduction
 

@@ -54,7 +54,7 @@ All SQL databases have the following features:
 
 *Oracle* is a multi-user database developed by Sun Microsystems. It's most suitable for large databases, and it's the backbone of many enterprise applications. It is not open-source, and licensing fees are required to deploy it to production.
 
-It is important you understand know server you are using, as commands can differ slightly between them.
+It is important you know which server you are using, as commands can differ slightly between them.
 
 ---
 ## Practice
@@ -80,5 +80,5 @@ Which database is open-source, _and_ does not require a license for commercial u
 * MS Access
 * Oracle
 * MS SQL Server
- 
- 
+
+

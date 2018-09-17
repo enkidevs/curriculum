@@ -46,7 +46,7 @@ div {
   box-shadow: 5px 5px 3px lightblue;
 }
 ```
-This `div` element will have shadow offset by 5px and a `blur-radius` of 3px.
+This `div` element will have shadow offset by 5px and a `blur-radius` of 3px. 
 
 Use the keyword `inset` to make the shadow appear inside the frame instead of as a drop shadow (which is default).
 ```css
@@ -90,3 +90,4 @@ p {
 * A blue shadow with offset-y = 2px, offset-y = 4px and a blue radius of 5px.
 * A blue shadow with offset-x = 2px, offset-y = 5px and a blur radius of 4px.
 
+ 

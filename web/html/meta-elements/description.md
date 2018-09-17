@@ -24,17 +24,18 @@ aspects:
 ---
 ## Content
 
-In HTML the `<meta>` tag is used to describe metadata within a document.
-For instance, the meta `description` tag is used to add a short summary of the content of your website.
+The HTML meta `description` attribute is used to add a short summary of the content of the web page.
 
 Example:
-```
+```html
 <meta
   name="description"
   content="Short summary here">
 ```
 
-The description meta tag is useful for search engines and browsers for different reasons. For instance, Firefox uses this description as info for bookmarked pages. Whereas some search engines use descriptions as information to review and see if they should display that web page to the user.
+The description meta tag is useful for search engines and browsers for different reasons. For instance, Firefox uses this description as info for bookmarked pages. 
+
+Whereas some search engines use descriptions as information to review and see if they should display that web page to the user.
 
 ---
 ## Practice
@@ -78,3 +79,4 @@ Choose the best option from these:
 * `<meta name="description" content="puppy dogs rescue local shelters adoption">`
 * `<meta name="description" content="http://www.puppyrescue.com">`
 * `<meta name="description" content="Austin, Texas">`
+ 

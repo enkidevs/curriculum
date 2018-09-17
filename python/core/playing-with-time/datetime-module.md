@@ -12,7 +12,9 @@ type: normal
 category: feature
 
 inAlgoPool: false
-
+aspects:
+  - introduction
+  - workout
 
 standards:
   python.native-types-operations.8: 10
@@ -85,5 +87,3 @@ print(???.???)
 * `date`
 * `time`
 * `max_year`
- 
- 

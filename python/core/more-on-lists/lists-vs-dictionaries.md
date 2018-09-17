@@ -8,7 +8,9 @@ levels:
 type: normal
 
 category: must-know
-
+aspects:
+  - introduction
+  - workout
 standards:
   comp-sci.analyze-complexity-search-sort-algorithms.0: 10
   comp-sci.analyze-complexity-data-structure-access-operations.1: 10
@@ -90,5 +92,3 @@ We want to access value `5` from the dictionary using one of the list's elements
 * get(), 1
 * get(), 2
 * getitem(), 0
- 
- 
