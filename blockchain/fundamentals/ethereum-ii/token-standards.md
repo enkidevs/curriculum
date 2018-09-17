@@ -11,6 +11,10 @@ type: normal
 
 category: must-know
 
+standards:
+  blockchain.identify-blockchain-applications.3: 10
+  blockchain.analyze-smart-contracts.3: 10
+
 aspects:
 
   - introduction

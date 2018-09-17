@@ -11,6 +11,10 @@ type: normal
 
 category: must-know
 
+standards:
+  blockchain.compare-altcoins.4: 10
+  blockchain.identify-blockchain-applications.4: 10
+
 aspects:
 
   - introduction

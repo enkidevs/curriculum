@@ -11,6 +11,10 @@ type: normal
 
 category: must-know
 
+standards:
+  blockchain.compare-altcoins.1: 10
+  blockchain.compare-altcoins.5: 20
+
 aspects:
 
   - introduction
