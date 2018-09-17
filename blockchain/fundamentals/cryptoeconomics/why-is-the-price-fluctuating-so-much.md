@@ -36,17 +36,15 @@ What is the main dirver of a cryptocoin price?
 * Market cap
 
 ---
+
 ## Revision
 
-Which are the steps of a `Pump and dump` scheme?
+What is the metric that describes how valuable a is cryptocurrency?
 
-1. ???
-2. ???
-3. ???
-4. Profit
+???
 
-* Have a ton of cryptocoins
-* Flood the market with coins
-* Wait for the price to drop
-* Reinvest the money you just made
+* Market cap
+* Circulating supply
+* Node investment
+* Volume
 
