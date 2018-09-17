@@ -66,9 +66,6 @@ Nick Szabo's `bit gold` is the one most similar to Satoshi Nakamoto's Bitcoin, b
 
 `DigiCash` was also a company trying to create a fully digital currency. Founded by David Chaum in 1990, it filed for bankruptcy in late 90's.
 
-[2: Blockchain identity theft]
-While computing the private key that determines your identity is infeasible for an attacker, having the key stolen as is, either physically or digitally, is still a threat.
-
 ---
 ## Practice
 
@@ -93,13 +90,12 @@ A blockchain is a ??? network.
 ---
 ## Quiz
 
-headline: What does the following definition refer to?
+### What does the following definition refer to?
 
-question: Can you identify what concept can be defined by the `sequence of data bundles` syntagm?
+Can you identify what concept can be defined by the `sequence of data bundles` syntagm?
 
-answers:
-  - Blockchain
-  - Inheritance
-  - Deposition
-  - Block
+- Blockchain
+- Inheritance
+- Deposition
+- Block
 

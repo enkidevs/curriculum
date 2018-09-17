@@ -12,10 +12,10 @@ type: normal
 category: must-know
 
 standards:
-  bc.compare-altcoins.0: 30
-  bc.compare-altcoins.1: 20
-  bc.compare-altcoins.3: 10
-  bc.compare-altcoins.4: 10
+  blockchain.compare-altcoins.0: 30
+  blockchain.compare-altcoins.1: 20
+  blockchain.compare-altcoins.3: 10
+  blockchain.compare-altcoins.4: 10
 
 aspects:
 

@@ -13,10 +13,10 @@ link: https://anders.com/blockchain/public-private-keys/transaction.html
 linkType: anders
 
 standards:
-  bc.architect-blockchain.1: 1000
-  bc.analyze-network-security-policy.0: 1000
-  bc.analyze-blockchain-components.1: 1000
-  bc.identify-blockchain-applications.0: 1000  
+  blockchain.architect-blockchain.1: 1000
+  blockchain.analyze-network-security-policy.0: 1000
+  blockchain.analyze-blockchain-components.1: 1000
+  blockchain.identify-blockchain-applications.0: 1000  
 
 links:
   - '[Demo for the website](https://youtu.be/xIDL_akeras?t=153){video}'

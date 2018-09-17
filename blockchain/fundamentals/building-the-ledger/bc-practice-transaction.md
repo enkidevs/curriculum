@@ -13,10 +13,10 @@ link: https://anders.com/blockchain/tokens.html
 linkType: anders
 
 standards:
-  bc.architect-blockchain.1: 1000
-  bc.analyze-blockchain-components.2: 1000
-  bc.analyze-blockchain-components.3: 1000
-  bc.identify-blockchain-applications.0: 1000  
+  blockchain.architect-blockchain.1: 1000
+  blockchain.analyze-blockchain-components.2: 1000
+  blockchain.analyze-blockchain-components.3: 1000
+  blockchain.identify-blockchain-applications.0: 1000  
 
 links:
   - '[Demo for the website](https://youtu.be/_160oMzblY8?t=711){video}'
