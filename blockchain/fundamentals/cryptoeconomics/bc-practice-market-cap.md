@@ -14,8 +14,10 @@ linkType: coinmarketcap
 answer: 22
 
 standards:
-  bc.compare-altcoins.3: 1000
+  blockchain.compare-altcoins.3: 1000
 
+links:
+  - '[Market state for the given date](https://coinmarketcap.com/historical/20180610/){website}'
 ---
 
 # Blockchain Practice - Market history

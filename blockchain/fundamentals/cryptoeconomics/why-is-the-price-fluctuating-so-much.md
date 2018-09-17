@@ -11,11 +11,11 @@ type: normal
 category: must-know
 
 standards:
-  bc.architect-blockchain.2: 10
-  bc.compare-altcoins.3: 20
-  bc.compare-altcoins.4: 10
+  blockchain.architect-blockchain.2: 10
+  blockchain.compare-altcoins.3: 20
+  blockchain.compare-altcoins.4: 10
 
-tags:
+aspects:
   - deep
 ---
 
