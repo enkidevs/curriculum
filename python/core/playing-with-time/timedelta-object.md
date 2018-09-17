@@ -12,7 +12,9 @@ type: normal
 category: feature
 
 inAlgoPool: false
-
+aspects:
+  - introduction
+  - workout
 
 links:
 
@@ -121,5 +123,3 @@ yesterday = ??? - ???
 * `date`
 * `time`
 * `today / 2`
- 
- 

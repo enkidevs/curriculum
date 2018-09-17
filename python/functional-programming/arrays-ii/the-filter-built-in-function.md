@@ -12,7 +12,16 @@ levels:
 type: normal
 
 category: must-know
+aspects:
+  - introduction
+  - workout
+  - deep
+standards:
 
+  python.data-structures-uses.0: 10
+  python.data-structures-uses.1: 10
+  python.native-types-operations.3: 10
+  python.use-iteration-protocol.1: 10
 
 links:
 
@@ -117,4 +126,3 @@ print(filter(mystery_function, numbers))
 
 [2:true]
 *There is also a complementary function `itertools.filterfalse()` which only returns elements of the iterable object if the function returns false on them. Alternatively, you could negate the return value of the function passed to `filter` to achieve the same result.*
- 

@@ -66,7 +66,7 @@ Math.round(5.7);//6
 ---
 ## Practice
 
-One the first line declare a **boolean** variable named `a` that's true.
+On the first line declare a **boolean** variable named `a` that's true.
 On the second line declare a **number** variable named `b` with the value equal to `3.14`.
 
 ```javascript

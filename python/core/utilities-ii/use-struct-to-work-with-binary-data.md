@@ -11,7 +11,9 @@ type: normal
 
 category: feature
 
-
+aspects:
+  - workout
+  - deep
 links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/struct.html){website}'
@@ -95,5 +97,3 @@ b'\x03\x00\r\x00*\x00\x00\x00'
 * `struct`
 * `bytes`
 * `calcsize`
- 
- 

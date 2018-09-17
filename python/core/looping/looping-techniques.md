@@ -12,6 +12,8 @@ levels:
 type: normal
 
 category: pattern
+aspects:
+  - introduction
 
 
 links:
@@ -37,6 +39,7 @@ notes: >
 
 standards:
   python.native-types-operations.3: 10
+  python.use-iteration-protocol.0: 10
 
 ---
 
@@ -130,5 +133,3 @@ for w in ???(sorted \
 * `orderreverse`
 * `start`
 * `list`
- 
- 

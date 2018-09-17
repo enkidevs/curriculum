@@ -8,7 +8,10 @@ levels:
 type: normal
 
 category: how to
-
+aspects:
+  - introduction
+  - workout
+  - deep
 
 standards:
   python.native-types-operations.4: 10
@@ -26,7 +29,7 @@ parent: built-in-list-methods
 ---
 ## Content
 
-The `stack` abstract data structure is widely used in computer science. This collection is implemented to best fit the **LIFO** principle ( **last in**, **first out** ). Sometimes we need one data structure that behaves in such a manner. 
+The `stack` abstract data structure is widely used in computer science. This collection is implemented to best fit the **LIFO** principle ( **last in**, **first out** ). Sometimes we need one data structure that behaves in such a manner.
 
 Even though `python` does not provide a special `stack` data structure, `list`'s can easily be used in the scope.
 
@@ -84,6 +87,3 @@ stack.pop()
 * `14`
 * `10`
 * There’s no output...
-
- 
- 

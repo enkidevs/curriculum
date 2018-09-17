@@ -9,7 +9,10 @@ type: normal
 
 category: feature
 
-
+aspects:
+  - introduction
+  - workout
+  - deep
 standards:
   comp-sci.implement-linear-collection-data-structures.3: 10
 
@@ -90,5 +93,3 @@ q = ???.???(5)
 * `new`
 * `instance`
 * `create`
- 
- 

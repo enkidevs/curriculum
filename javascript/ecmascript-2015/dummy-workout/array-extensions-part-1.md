@@ -27,7 +27,7 @@ Arrays benefit from a number of extensions in ES6 let's look at these now.
 
 **includes**
 
-*includes* returns a boolean indicating with an array contains a specific value:
+*includes* returns a boolean indicating if an array contains a specific value:
 
 ```
 var people = ["john", "bob"];

@@ -62,7 +62,7 @@ For `W = 10` and the input above, the completed matrix looks like this:
 
 The *y-axis* of the matrix is the maximum allowed weight (*W*) and the *x-axis* is the index of the item in the input array.
 
-For any intermediate weight (including the maximum one), whenever the value in two consecutive cells is not the same, it means that we decided to pick the second item. Thus, the final result will be in the down-right corner: *16* is the maximum value that can be attained.
+For any intermediate weight (including the maximum one), whenever the value in two consecutive cells is not the same, it means that we decided to pick the second item. Thus, the final result will be in the down-right corner: *16* is the maximum value that can be attained. 
 
 ---
 ## Practice

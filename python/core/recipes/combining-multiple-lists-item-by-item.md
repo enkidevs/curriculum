@@ -13,7 +13,9 @@ type: normal
 
 standards:
   python.native-types-operations.4: 10
-
+aspects:
+  - introduction
+  - workout
 category: tip
 
 ---
@@ -78,5 +80,3 @@ tuple = [('a', 1), ('b', 2), ('c', 3)]
 * `zip`
 * `button`
 * `combine`
- 
- 

@@ -31,7 +31,7 @@ links:
 ## Content
 
 Once you have created your unordered list (`ul`) in HTML, simply add the `list-style-type` property and set it to *none* in your stylesheet.
-```
+```css
 ul {
     list-style-type: none;
 }
@@ -68,3 +68,4 @@ ul {
 * Removes the bullet points from the unordered list.
 * Sets the unordered list to format text into the shape of a square.
 
+ 

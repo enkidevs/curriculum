@@ -1,6 +1,6 @@
 name: Blockchain
 
-language: py
+language: General
 
 color: 79A551
 

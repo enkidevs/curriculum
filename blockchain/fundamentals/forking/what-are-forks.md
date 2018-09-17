@@ -17,7 +17,7 @@ standards:
   bc.identify-blockchain-applications.2: 10
   bc.analyze-network-security-policy.0: 10
 
-tags:
+aspects:
 
   - introduction
 

@@ -11,6 +11,8 @@ category: must-know
 
 inAlgoPool: false
 
+aspects:
+  - introduction
 
 standards:
   python.functions.1: 10
@@ -106,4 +108,3 @@ num = 5
 * `obj`
 * `var`
 * `function`
- 

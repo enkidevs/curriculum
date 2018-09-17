@@ -22,7 +22,6 @@ aspects:
 
 links:
   - '[MDN docs for aside](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside){website}'
-  - '[W3S docs for aside](https://www.w3schools.com/tags/tag_aside.asp){website}'
 
 ---
 # Aside
@@ -34,7 +33,7 @@ The HTML `<aside>` element is a container element used to represent a section of
 The `<aside>` element can contain a sidebar, pull quotes, advertising, groups of navigational `<nav>` elements and more.
 
 Example:
-```
+```html
 <p>
   My family and I visited
   the Louvre this summer.
@@ -48,8 +47,6 @@ Example:
 </aside>
 ```
 
-The `<aside>` element can never be a descendant of the `<address>` element.
-
 ---
 ## Practice
 
@@ -57,7 +54,7 @@ What content would be well placed within an aside?
 
 ???
 
-* all 4
+* all 4 of these choices
 * pull quotes
 * sidebar
 * advertising
@@ -91,7 +88,7 @@ An `<aside>` should usually contain a navigation list on either the left- or rig
 
 What container element would best be used here?
 
-```
+```html
 <p>
   My family and I visited
   the Louvre this summer.
@@ -112,3 +109,4 @@ TAG: ???
 * `<block>`
 * `<article>`
 * `<section>`
+ 

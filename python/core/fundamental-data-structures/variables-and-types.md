@@ -14,6 +14,8 @@ type: normal
 category: must-know
 
 inAlgoPool: false
+aspects:
+  - introduction
 
 standards:
   python.native-types-operations.2: 10
@@ -98,10 +100,7 @@ print(type(c))
 * `complex`
 * `str`
 * `long`
-* `string`
 * `int`
-* `integer`
-* `floating`
 
 ---
 ## Revision
@@ -122,7 +121,4 @@ print(type(c))
 * `complex`
 * `str`
 * `float`
-* `string`
 * `int`
-* `integer`
-* `floating`

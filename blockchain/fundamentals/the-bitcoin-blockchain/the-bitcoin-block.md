@@ -12,12 +12,12 @@ type: normal
 category: must-know
 
 standards:
-  - bc.analyze-blockchain-components.0: 20
-  - bc.analyze-blockchain-components.1: 20
-  - bc.analyze-blockchain-components.2: 20
-  - bc.analyze-blockchain-components.3: 20
+  blockchain.analyze-blockchain-components.0: 20
+  blockchain.analyze-blockchain-components.1: 20
+  blockchain.analyze-blockchain-components.2: 20
+  blockchain.analyze-blockchain-components.3: 20
 
-tags:
+aspects:
   - introduction
 
 links:

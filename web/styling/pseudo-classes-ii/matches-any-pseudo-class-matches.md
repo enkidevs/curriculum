@@ -49,7 +49,7 @@ Could be used to apply a particular style rule to a similar element group.
 
 Complete the following code snippet to set the color of the chosen selectors text blue:
 
-```
+```css
 p???(s1, s2, s3){ 
     ???:red; 
 } 
@@ -80,3 +80,4 @@ p:matches(s1, s2, s3) {
 * Sets the font family and background colour for all elements.
 * Does nothing.
 
+ 

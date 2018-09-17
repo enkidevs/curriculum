@@ -11,7 +11,10 @@ category: must-know
 
 standards:
   python.native-types-operations.9: 10
-
+aspects:
+  - introduction
+  - workout
+  - deep
 
 links:
 
@@ -129,5 +132,3 @@ print(Car['bmw'])
 * An error, strings and ints cannot be mixed
 * 1
 * bmw
- 
- 

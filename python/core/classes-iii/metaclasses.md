@@ -10,7 +10,10 @@ levels:
 type: normal
 
 category: feature
-
+aspects:
+  - introduction
+  - workout
+  - deep
 
 links:
 
@@ -101,5 +104,3 @@ What is the default metaclass of newly defined classes?
 * `type()`
 * `class`
 * `meta()`
- 
- 

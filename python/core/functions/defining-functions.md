@@ -11,7 +11,8 @@ category: must-know
 
 inAlgoPool: false
 
-
+aspects:
+  - introduction
 standards:
   python.functions.0: 10
   python.identify-python-syntax.2: 10
@@ -83,5 +84,3 @@ What keyword is used to define a new function?
 * `def`
 * `new`
 * `func`
- 
- 

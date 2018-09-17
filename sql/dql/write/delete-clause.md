@@ -2,11 +2,8 @@
 author: SebaRaba
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
 
 type: normal
@@ -18,16 +15,11 @@ inAlgoPool: false
 standards:
   sql.write.5: 10
 
-tags:
-  - introduction
-  - workout
-
 aspects:
   - introduction
   - workout
   
 links:
-
   - '[More on DELETE](http://www.dofactory.com/sql/delete){website}'
 
 ---

@@ -10,10 +10,12 @@ insights:
   - shuffle-an-array-using-sort-and-random
 
 exercises:
+  - js-practice-glitch-array-filter
+  - js-practice-sort-i
+  - js-practice-sort-ii
+  - js-practice-array-every
   - js-practice-array-reverse
   - js-practice-array-map
   - js-practice-array-filter
-  - js-practice-array-every
   - js-practice-array-concat
   - js-practice-array-reduce
- 
