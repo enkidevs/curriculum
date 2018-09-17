@@ -8,7 +8,10 @@ levels:
 type: normal
 
 category: how to
-
+aspects:
+  - introduction
+  - workout
+  - deep
 standards:
   comp-sci.identify-linear-collection-data-structures-usage.2: 10
 
@@ -127,5 +130,3 @@ q = queue.PriorityQueue()
 ## Footnotes
 [1: Less than]
 The `__lt__` (less than) method is used to override the functionality of the `<` (less than) operator when comparing `Enki` objects. As it is the case in most languages, `a < b` is the shorthand notation of calling `a.__lt__(b)`.
- 
- 

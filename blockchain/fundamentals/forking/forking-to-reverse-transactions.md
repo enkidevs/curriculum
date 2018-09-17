@@ -15,7 +15,7 @@ standards:
   bc.analyze-network-security-policy.0: 10
   bc.compare-altcoins.1: 10
 
-tags:
+aspects:
 
   - introduction
   - workout

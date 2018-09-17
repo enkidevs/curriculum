@@ -47,9 +47,12 @@ original.push(...copyOfOriginal);
 Fill in the gaps such that the array is properly filled in:
 
 ```javascript
-const initial = [1, 2, 3]
-const second = [5, 6, 7]
-const final = [?????? ??? ???, ???]
+const initial = [1, 2, 3];
+const second = [5, 6, 7];
+const final = [
+?????? ???
+???, 
+???];
 console.log(final)
 // 1, 2, 3, 4, 5, 6, 7
 ```
@@ -73,12 +76,12 @@ console.log(final)
 What is the value of the `final` array:
 
 ```javascript
-let initial = [3, 6, 2]
+let initial = [3, 6, 2];
 const final =
   initial.concat(
     [4, ...initial,...initial]
-    )
-console.log(final)
+    );
+console.log(final);
 // ???
 ```
 

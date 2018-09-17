@@ -12,12 +12,12 @@ type: normal
 category: must-know
 
 standards:
-  - bc.analyze-blockchain-components.1: 20
-  - bc.analyze-blockchain-components.4: 20
-  - bc.compare-altcoins.4: 10
-  - bc.compare-altcoins.5: 10
+  blockchain.analyze-blockchain-components.1: 20
+  blockchain.analyze-blockchain-components.4: 20
+  blockchain.compare-altcoins.4: 10
+  blockchain.compare-altcoins.5: 10
 
-tags:
+aspects:
 
   - introduction
 

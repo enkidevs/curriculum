@@ -12,13 +12,13 @@ type: normal
 category: must-know
 
 standards:
-  - bc.architect-blockchain.1: 20
-  - bc.analyze-blockchain-components.0: 20
-  - bc.analyze-blockchain-components.1: 20
-  - bc.analyze-blockchain-components.2: 10
-  - bc.analyze-network-security-policy.6 : 10
+  blockchain.architect-blockchain.1: 20
+  blockchain.analyze-blockchain-components.0: 20
+  blockchain.analyze-blockchain-components.1: 20
+  blockchain.analyze-blockchain-components.2: 10
+  blockchain.analyze-network-security-policy.6 : 10
 
-tags:
+aspects:
 
   - introduction
 

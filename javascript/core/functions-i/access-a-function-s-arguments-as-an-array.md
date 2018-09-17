@@ -52,7 +52,7 @@ sortedArgs(3,1,2)
 ---
 ## Practice
 
-The following `returnArgs` function should an array containing the arguments with which it is called. Complete the missing gaps such that it works as intended:
+The following `returnArgs` function should return an array containing the arguments with which it is called. Complete the missing gaps such that it works as intended:
 
 ```javascript
 
@@ -80,6 +80,7 @@ function myArray() {
   var a = ???;
   a = Array.prototype.???.call(a);
   return a;
+}
 ```
 
 * arguments

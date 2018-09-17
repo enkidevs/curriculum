@@ -2,9 +2,7 @@
 author: Nick Daminov
 
 levels:
-
   - basic
-
   - medium
 
 type: normal
@@ -18,25 +16,16 @@ standards:
   sql.connect-client.1: 10
 
 tags:
-
-
-  - workout
-
   - java
-
   - implementation
-
   - database packages
 
-
 links:
-
   - '[Why JDBC](https://www.progress.com/faqs/datadirect-jdbc-faqs/why-do-we-need-jdbc){website}'
   - '[Oracle Statement on JDBCs](http://www.oracle.com/technetwork/java/index-138427.html#13){website}'
   - '[Postgres JDBC driver](https://jdbc.postgresql.org/about/about.html){website}'
   - '[Java Driver Interface](https://docs.oracle.com/javase/7/docs/api/java/sql/Driver.html){website}'
   - '[More Examples](https://www.tutorialspoint.com/postgresql/postgresql_java.htm){website}'
-
 
 aspects:
   - workout

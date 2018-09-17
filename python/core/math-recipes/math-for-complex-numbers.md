@@ -13,7 +13,10 @@ category: tip
 
 inAlgoPool: false
 
-
+aspects:
+  - introduction
+  - workout
+  - deep
 standards:
   python.standard-library-data.1: 10
 
@@ -104,5 +107,3 @@ z = ???(2, 4)
 * `c`
 * `math`
 * `create`
- 
- 

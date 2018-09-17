@@ -11,7 +11,10 @@ type: normal
 
 category: how to
 
-
+aspects:
+  - introduction
+  - workout
+  - obscura
 links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/calendar.html){website}'
@@ -110,5 +113,3 @@ print(calendar.???(2016))
 * `year`
 * `currentYear`
 * `annum`
- 
- 

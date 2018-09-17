@@ -32,7 +32,7 @@ Instead, try the shorthand property `transition` that supports all the different
 Using only this alone it is possible to set every transition value in order of `transition-property`, `transition-duration`, `transition-timing-function`, and lastly `transition-delay`.
 
 
-```
+```css
 .box {
   background: #2db34a;
   border-radius: 6px;
@@ -67,3 +67,4 @@ transition: linear background .2s;
 * Option B
 * Option C
 
+ 

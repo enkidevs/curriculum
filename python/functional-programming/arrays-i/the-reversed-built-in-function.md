@@ -10,9 +10,13 @@ levels:
   - medium
 
 type: normal
-
+aspects:
+  - introduction
+  - workout
+  - deep
 category: must-know
-
+standards:
+  python.use-iteration-protocol.1: 10
 
 links:
 
@@ -88,4 +92,3 @@ print(list(reversed(c)))
 ## Footnotes
 [1:`__len__ and __getitem__`]
 *Supporting these two methods is called supporting sequence protocol in Python. These two methods allow Python to find the total length of the given sequence and access elements arbitrarily inside the sequence. Knowing the total size of the sequence allows Python to access the element at the end of the list and move backwards toward the beginning of the sequence.*
- 

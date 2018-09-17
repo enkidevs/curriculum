@@ -12,7 +12,8 @@ type: normal
 category: must-know
 
 
-
+aspects:
+  - introduction
 
 ---
 
@@ -85,4 +86,3 @@ print(type(d))
 * int
 * string
 * char
- 

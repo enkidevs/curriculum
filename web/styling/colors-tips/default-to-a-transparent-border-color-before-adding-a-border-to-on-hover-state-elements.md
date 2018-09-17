@@ -34,14 +34,14 @@ By using a transparent border as a default, then changing the `border-color` on 
 
 Instead of:
 
-```
+```css
 button:hover {
   border: 2px solid black;
 }
 ```
 
 Use this:
-```
+```css
 button {
   border: 2px solid transparent;
 }
@@ -71,3 +71,4 @@ label:hover {
 * Makes the label solid instead of transparent when hovered over.
 * Makes the label disappear when hovered over.
 
+ 

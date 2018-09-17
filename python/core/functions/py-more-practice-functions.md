@@ -7,12 +7,9 @@ levels:
 
   - basic
 
-tags:
-  - workout
-  
 aspects:
   - introduction
-  - workout
+
 
 type: exercise
 

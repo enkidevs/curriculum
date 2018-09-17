@@ -12,7 +12,9 @@ levels:
 type: normal
 
 category: feature
-
+aspects:
+  - workout
+  - deep
 
 links:
 
@@ -103,5 +105,3 @@ True
 * `isalphanum`
 * `isalpnum`
 * `isnum`
- 
- 

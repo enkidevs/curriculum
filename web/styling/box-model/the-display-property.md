@@ -2,7 +2,6 @@
 author: mihaiberq
 
 levels:
-
   - beginner
 
 type: normal
@@ -11,9 +10,8 @@ category: must-know
 
 inAlgoPool: false
 
-
 links:
-
+  - '[Scrimba CSS Width and Height](https://scrimba.com/p/pWvwCg/cPvRvAV){website}'
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/display){documentation}'  
 
 
@@ -61,3 +59,4 @@ How does `display:none` affect the element's descendants?
 * It does not affect them.
 * They will be invisible, but clickable.
 
+ 

@@ -31,14 +31,14 @@ The `:blank` pseudo-class, however, will select an element as long as it has no 
 Example:
 
 HTML:
-```
+```html
 <p></p>
 <p> </p>
 
 ```
 CSS:
 
-```
+```css
 p:blank {
   outline: solid 1px red;
 }
@@ -83,3 +83,4 @@ Which lines of HTML code would a *:blank* pseudo class apply to?
 * 2nd and 5th
 * 1st and 3rd
 
+ 

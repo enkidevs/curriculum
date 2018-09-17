@@ -13,7 +13,9 @@ standards:
   python.store-manipulate-data.0: 10
   python.store-manipulate-data.1: 10
 
-
+aspects:
+  - workout
+  - deep
 ---
 
 # `copy` vs `deepcopy`
@@ -123,4 +125,3 @@ A `deepcopy` means
 * making a copy in memory of the first layer of the data structure
 * making a copy of the data structure's reference
 * allocating some memory to a data structure
- 

@@ -17,6 +17,7 @@ standards:
 
 aspects:
   - deep
+
 ---
 
 # How Do Cryptocurrencies Acquire Value?
