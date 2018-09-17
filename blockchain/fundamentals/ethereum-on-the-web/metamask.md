@@ -23,6 +23,11 @@ aspects:
 ---
 ## Content
 
+Like for bitcoins, you need a wallet to be able to hold any ether. The Ethereum client works well if you are looking to also run a node. In this workout we'll discuss some alternatives.
+
+**Metamask** is a browser extension that allows you to interact with the Ethereum network without having to download the entire chain. Moreover, it supports any ERC20 token (standards for the win!) alongside ETH.
+
+It is a simple interface that stores any generated keys offline, on your computer.
 
 ---
 ## Practice
