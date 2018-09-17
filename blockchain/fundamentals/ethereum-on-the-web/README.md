@@ -9,5 +9,4 @@ section: 2
 insights:
   - metamask
   - myetherwallet
-  - web3js
 

@@ -27,7 +27,7 @@ aspects:
 
 But keep something in mind (as it is mentioned all over on the website): you are responsible for keeping track of whatever keys your generating as MyEtherWallet is just an *interface* and cannot be used to recover wallets. You being is charge of your security and funds is part of blockchains' raison d'être.
 
-Note that if you are already using Metamask, you can easily connect it to MyEtherWallet.
+Note that if you are already using MetaMask, you can easily connect it to MyEtherWallet.
 ---
 ## Footnotes
 

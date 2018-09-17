@@ -17,4 +17,4 @@ sections:
     - ethereum-i
     - solidity
     - ethereum-ii
-    - blockchain-on-the-web
+    - ethereum-on-the-web
