@@ -94,7 +94,7 @@ Connect to a different `pokemon` database, this one hosted on MySQL. Use the use
 ---
 ## Revision
 
-Connect to a `puppies` database, this one hosted on Postgres. Use the username `spot`, password `supersecret`, to our database on `aws-us-east-1-portal.42.dblayer.com`. The port is `23336`.
+Connect to a `pokemon` database, this one hosted on Postgres. Use the username `spot`, password `supersecret`, to our database on `aws-us-east-1-portal.42.dblayer.com`. The port is `23336`.
 
 ```
 ???://

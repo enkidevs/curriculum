@@ -10,7 +10,7 @@ levels:
 tags:
   - workout
   - deep
-  
+
 aspects:
   - introduction
   - workout
@@ -27,6 +27,7 @@ standards:
   python.data-structures-uses.0: 1000
   python.data-structures-uses.1: 3000
   python.native-types-operations.3: 4000
+  python.use-iteration-protocol.1: 1000
 
 links:
 

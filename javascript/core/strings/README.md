@@ -1,18 +1,16 @@
 name: Strings
 
-description: Explore Strings in depth
+description: Strings are how we contain text in JavaScript
 
 insights:
-  - string-replace
-  - multi-line-string-variables
-  - most-efficient-way-to-build-html-strings
-  - using-test-with-regexp
+  - double-and-single-quotes
+  - types-string
 
 exercises:
-  - js-practice-string-slice
-  - js-practice-string-indexof
-  - js-practice-string-concat
-  - js-practice-string-touppercase
-  - js-practice-string-charat
-  - js-practice-string-trim
+  - js-practice-glitch-length
+  - js-practice-glitch-log-variable
+  - js-practice-glitch-strings
+  - js-practice-strings-2
+  - js-practice-string-methods-replace
+  - js-practice-double-and-single-quotes
  

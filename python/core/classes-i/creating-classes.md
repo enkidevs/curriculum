@@ -9,7 +9,8 @@ type: normal
 
 category: must-know
 
-
+aspects:
+  - introduction
 standards:
   python.identify-python-syntax.2: 10
   python.object-oriented.0: 10
@@ -102,5 +103,3 @@ new empl = Employee("John")
 * B
 * C
 * neither
- 
- 

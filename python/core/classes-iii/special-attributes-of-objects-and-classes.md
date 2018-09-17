@@ -12,7 +12,10 @@ levels:
 type: normal
 
 category: must-know
-
+aspects:
+  - introduction
+  - workout
+  - deep
 standards:
   python.object-oriented.4: 10
 
@@ -105,5 +108,3 @@ print(Enki.???)
 * `class()`
 * `__meta__`
 * `class`
- 
- 

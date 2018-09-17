@@ -12,7 +12,7 @@ category: must-know
 inAlgoPool: false
 
 links:
-
+  - '[Scrimba CSS Position Property](https://scrimba.com/p/pWvwCg/c2vEnHR){website}'
   - '[MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning){documentation}'
 
 
@@ -51,7 +51,7 @@ And the HTML:
 
 ![min.svg](%3Csvg%20height=%22auto%22%20viewBox=%220%200%20810%20360%22%20xmlns=%22http://www.w3.org/2000/svg%22%20version=%221.2%22%20baseProfile=%22tiny%22%3E%3Cdesc%3ECreated%20by%20HiQPdf%3C/desc%3E%3Cg%20fill=%22none%22%20stroke=%22#000%22%20fill-rule=%22evenodd%22%20stroke-linecap=%22square%22%20stroke-linejoin=%22bevel%22%3E%3Cpath%20d=%22M8%208h800v350H8V8%22%20fill=%22#596193%22%20stroke=%22none%22/%3E%3Cpath%20d=%22M33%2013h200v110H33V13M33%20243h200v110H33V243%22%20fill=%22#fff%22%20stroke=%22none%22/%3E%3Ctext%20stroke=%22none%22%20x=%2296%22%20y=%2274%22%20font-family=%22'Roboto',sans-serif%22%20font-size=%2230%22%20font-weight=%22400%22%20fill=%22#000%22%3EStatic%3C/text%3E%3Ctext%20stroke=%22none%22%20x=%2296%22%20y=%22304%22%20font-family=%22'Roboto',sans-serif%22%20font-size=%2230%22%20font-weight=%22400%22%20fill=%22#000%22%3EStatic%3C/text%3E%3Cpath%20d=%22M53%20148h200v110H53V148%22%20fill=%22#3ed715%22%20stroke=%22none%22/%3E%3Ctext%20stroke=%22none%22%20x=%2299.5%22%20y=%22209%22%20font-family=%22'Roboto',sans-serif%22%20font-size=%2230%22%20font-weight=%22400%22%20fill=%22#000%22%3ERelative%3C/text%3E%3C/g%3E%3C/svg%3E)
 
-The difference between `margin` and `padding` and *offsets* is that instead of pushing the surrounding elements, *box offsets* will make them overlap.
+The difference between `margin` and `padding` and *offsets* is that instead of pushing the surrounding elements, *box offsets* will make them overlap. 
 
 ### Absolute positioning
 
@@ -96,3 +96,4 @@ For which value of `position` you cannot use box offsets?
 * Relative
 * Absolute
 
+ 

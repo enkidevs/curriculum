@@ -15,7 +15,8 @@ category: must-know
 
 inAlgoPool: false
 
-
+aspects:
+  - introduction
 standards:
   python.identify-python-syntax.1: 10
 
@@ -51,15 +52,16 @@ In both cases, the output is as follows:
 
 ## Practice
 
-Update the following code snippet to be compatible with python3:
+Let's practice using Python! Which statement will log "Enki" in the terminal?
 
 ```python
-print ???
+???
 ```
 
-* ('Enki')
-* : 'Enki'
-* 'Enki'
+* `print('Enki')`
+* `: 'Enki'`
+* `>> 'Enki'`
+* `console.log('Enki')`
 
 ---
 ## Revision
@@ -74,4 +76,3 @@ Complete the code snippet with the correct function to write the string 'Python 
 * `write`
 * `sys.out`
 * `writeln`
- 

@@ -25,7 +25,7 @@ links:
 
 Rather than adding a border to a navigation bar, and then removing it for the last element:
 
-```
+```css
 /* add border */
 .nav li {
   border-right: 2px solid #FFF;
@@ -38,7 +38,7 @@ Rather than adding a border to a navigation bar, and then removing it for the la
 ```
 Use the `:not()` pseudo-class to only apply to the elements you want:
 
-```
+```css
 .nav li:not(:last-child) {
   border-right: 2px solid #FFF;
 }
@@ -49,7 +49,7 @@ Use the `:not()` pseudo-class to only apply to the elements you want:
 
 Complete the code snippet:
 
-```
+```css
 .nav li???(:last-child) { 
   border-left: 5px dashed #FFF; 
 } 
@@ -75,3 +75,4 @@ What does the following CSS code do?
 * Allows styles to be applied specifically to the final element.
 * Allows styles to be applied to every other element.
 
+ 

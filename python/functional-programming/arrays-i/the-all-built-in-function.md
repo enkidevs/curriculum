@@ -10,9 +10,14 @@ levels:
   - medium
 
 type: normal
-
+aspects:
+  - introduction
+  - workout
+  - deep
 category: must-know
 
+standards:
+  python.use-iteration-protocol.1: 10
 
 links:
 
@@ -86,4 +91,3 @@ print(all([" ", 'abc', 12, 145, '']))
 ## Footnotes
 [1:Python Truthiness]
 *Using the `bool` built in function, we can check the truthiness of any object in Python. The truthiness rules can be examined at length in the second link in the Learn More section. As a general rule, nonempty objects are True and empty ones are False. For integers, 0 is False, anything else is True. Truthiness can be a useful shortcut when performing operations on these types.*
- 

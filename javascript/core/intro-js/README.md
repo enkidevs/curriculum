@@ -4,13 +4,10 @@ description: Get familiar with one of the most popular programming languages.
 
 insights:
   - why-learn-javascript
-  - javascript-history
-  - javascript-or-ecmascript
-  - using-javascript-on-a-web-page
   - console-in-javascript
+  - javascript-basics-part-1
+  - javascript-basics-part-2
 
 exercises:
-  - js-practice-console-in
-  - js-practice-using-javascript-on-a-webpage
-  - js-practice-using-javascript-on-a-webpage-inline
- 
+  - js-practice-console
+  - js-practice-basics-part-2

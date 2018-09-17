@@ -9,6 +9,10 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+  - workout
+  - deep
 
 standards:
   comp-sci.identify-linear-collection-data-structures-usage.2: 10
@@ -105,5 +109,3 @@ a.???("e")
 * `append`
 * `append.left`
 * `append.start`
- 
- 

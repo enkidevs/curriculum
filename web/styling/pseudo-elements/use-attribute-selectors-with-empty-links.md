@@ -26,7 +26,7 @@ links:
 ## Content
 
 Display links when the `<a>` element has no text value but the `href` attribute has an external link:
-```
+```css
 a[href^="http"]:empty::before {
   content: attr(href);
 }
@@ -61,3 +61,4 @@ a[???="http"]:empty::before {
 * `display`
 * `disp^`
 
+ 

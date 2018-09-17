@@ -57,12 +57,13 @@ console.log(obj.name);//Apple
 ---
 ## Practice
 
-In JavaScript, variables are ???.
+In JavaScript, objects are passed into a function as a ???.
 
 
-* passed by value
-* passed by reference
-* passed by their object
+* reference
+* value
+* string
+* json
 
 ---
 ## Revision

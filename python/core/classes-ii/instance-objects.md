@@ -13,7 +13,9 @@ category: must-know
 
 standards:
   python.object-oriented.2: 10
-
+aspects:
+  - introduction
+  - workout
 links:
 
   - '[docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#instance-objects){website}'
@@ -106,5 +108,3 @@ max.age = 3
 
 * Yes
 * No
- 
- 

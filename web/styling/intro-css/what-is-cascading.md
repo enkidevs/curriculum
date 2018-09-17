@@ -13,7 +13,7 @@ inAlgoPool: false
 
 links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Glossary/CSSs){documentation}'
-
+  - '[Scrimba CSS documents & The Cascade](https://scrimba.com/p/pWvwCg/c3vE7cg){website}'
 
 ---
 
@@ -54,7 +54,7 @@ CSS doesn't always behave like this, however. There is a property of selectors, 
 ## Practice
 
 What is the final `background-color` of the `<p>` elements?
-```
+```css
 p {
  background-color: blue;
  background-color: red;
@@ -83,3 +83,4 @@ Where should a style block be located in the CSS file for it to be applied last?
 * Middle of the file.
 * Top of the file.
 * Doesn't matter.
+ 

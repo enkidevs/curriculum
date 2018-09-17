@@ -11,6 +11,16 @@ type: normal
 
 category: feature
 
+standards:
+  javascript.browser-tooling.0: 10
+  javascript.browser-tooling.2: 10
+
+aspects:
+  - new
+  - workout
+  - deep
+  - obscura
+
 links:
   - '[www.sitepoint.com](http://www.sitepoint.com/10-html5-apis-worth-looking/ ){website}'
   - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Performance/now){website}'
