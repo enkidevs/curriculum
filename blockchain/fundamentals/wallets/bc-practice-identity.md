@@ -14,10 +14,10 @@ linkType: anders
 answer: 42b698a0f0a4041b77e63488ad48c23e8e8838dd1fb7520408b121697b782ef222ee976351a7fe808101c7e79b040e5cb16afe6aa152b87e398d160c306a31bac
 
 standards:
-  bc.architect-blockchain.1: 1000
-  bc.analyze-network-security-policy.0: 1000
-  bc.analyze-blockchain-components.1: 1000
-  bc.identify-blockchain-applications.0: 1000  
+  blockchain.architect-blockchain.1: 1000
+  blockchain.analyze-network-security-policy.0: 1000
+  blockchain.analyze-blockchain-components.1: 1000
+  blockchain.identify-blockchain-applications.0: 1000  
 
 links:
   - '[Demo for the website](https://youtu.be/xIDL_akeras){video}'

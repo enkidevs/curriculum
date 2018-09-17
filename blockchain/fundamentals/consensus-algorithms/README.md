@@ -10,6 +10,6 @@ insights:
   - consensus-algorithms
   - proof-of-work
   - proof-of-stake
-  - proof-of-authority
+  - delegated-proof-of-stake
   - byzantine-fault-tolerance
 

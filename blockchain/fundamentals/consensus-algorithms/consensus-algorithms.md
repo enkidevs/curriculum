@@ -12,14 +12,14 @@ type: normal
 category: must-know
 
 standards:
-  bc.analyze-network-security-policy.0: 20
-  bc.analyze-network-security-policy.6: 10
-  bc.analyze-network-security-policy.7: 10
-  bc.identify-blockchain-applications.1: 10
-  bc.identify-blockchain-applications.2: 10
-  bc.analyze-blockchain-components.0: 10
-  bc.analyze-blockchain-components.1: 10
-  bc.analyze-blockchain-components.4: 20
+  blockchain.analyze-network-security-policy.0: 20
+  blockchain.analyze-network-security-policy.6: 10
+  blockchain.analyze-network-security-policy.7: 10
+  blockchain.identify-blockchain-applications.1: 10
+  blockchain.identify-blockchain-applications.2: 10
+  blockchain.analyze-blockchain-components.0: 10
+  blockchain.analyze-blockchain-components.1: 10
+  blockchain.analyze-blockchain-components.4: 20
 
 aspects:
 
@@ -78,13 +78,12 @@ In the context of Bitcoin, what is the reward for running a full node?
 ---
 ## Quiz
 
-headline: Pick the odd one out.
+### Pick the odd one out.
 
-question: Which of the following is not a way to validate blocks?
+Which of the following is not a way to validate blocks?
 
-answers:
-  - Proof of burn
-  - Proof of work
-  - Proof of stake
-  - Proof of useful work
+- Proof of burn
+- Proof of work
+- Proof of stake
+- Proof of useful work
 

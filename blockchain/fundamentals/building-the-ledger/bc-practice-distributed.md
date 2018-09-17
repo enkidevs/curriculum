@@ -14,13 +14,13 @@ linkType: anders
 answer: 00008e599d1733a484631fca41fd8fcd0a39d9c08f87f95bfdadf8101c6189f6
 
 standards:
-  bc.architect-blockchain.1: 1000
-  bc.analyze-blockchain-components.0: 1000
-  bc.analyze-blockchain-components.1: 1000
-  bc.analyze-network-security-policy.0: 1000
-  bc.analyze-network-security-policy.1: 1000
-  bc.analyze-network-security-policy.2: 1000
-  bc.analyze-network-security-policy.3: 1000
+  blockchain.architect-blockchain.1: 1000
+  blockchain.analyze-blockchain-components.0: 1000
+  blockchain.analyze-blockchain-components.1: 1000
+  blockchain.analyze-network-security-policy.0: 1000
+  blockchain.analyze-network-security-policy.1: 1000
+  blockchain.analyze-network-security-policy.2: 1000
+  blockchain.analyze-network-security-policy.3: 1000
   
 
 links:

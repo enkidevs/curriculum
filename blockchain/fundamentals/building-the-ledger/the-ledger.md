@@ -14,7 +14,7 @@ category: must-know
 standards:
   blockchain.analyze-blockchain-components.2: 10
   blockchain.identify-blockchain-applications.0: 20
-  blockchain.identify-blockchain-applications.0: 10
+  blockchain.identify-blockchain-applications.1: 10
   blockchain.analyze-network-security-policy.0: 10
 
 aspects:

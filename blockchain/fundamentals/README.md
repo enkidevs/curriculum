@@ -1,4 +1,5 @@
 name: Fundamentals
+core: true
 description: The basics of any blockchain.
 sections:
   '0':
