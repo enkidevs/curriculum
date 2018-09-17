@@ -1,21 +1,14 @@
 name: Functions
 
-description: Basics of functions. 
+description: Basics of functions.
 
 insights:
   - declaring-functions
   - function-arguments
   - access-a-function-s-arguments-as-an-array
   - functions-can-be-declared-after-use
-  - function-constructor-vs-function-expression
+  - setting-default-values-with-short-circuiting
 
 exercises:
-  - js-practice-bind
-  - js-practice-call
-  - js-practice-spreads
-  - js-practice-this
-  - js-practice-sort-i
-  - js-practice-sort-ii
-  - js-practice-default-parameters
-  - js-practice-closures
- 
+  - js-practice-glitch-functions
+  - js-practice-functions

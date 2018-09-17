@@ -13,6 +13,16 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+  - new
+  - workout
+  - deep
+  - obscura
+
+standards:
+  javascript.browser-apis-device.3: 10
+  javascript.browser-store-data.6: 10
 
 links:
 
@@ -26,9 +36,9 @@ links:
 ---
 ## Content
 
-*MediaDevices.getUserMedia()* prompts a user for permission to use video/audio input devices such as webcams/microphones. 
+*MediaDevices.getUserMedia()* prompts a user for permission to use video/audio input devices such as webcams/microphones.
 
-If permission is provided then the promise returned is resolved with the *MediaStream* object. 
+If permission is provided then the promise returned is resolved with the *MediaStream* object.
 
 Standard syntax:
 ```javascript
@@ -41,7 +51,7 @@ navigator.mediaDevices.getUserMedia
 A full example getting and returning the *MediaStream* object, using the promise:
 ```javascript
 var p = navigator.mediaDevices.
-           getUserMedia({ audio: true, 
+           getUserMedia({ audio: true,
                           video: true });
 ```
 You can do something with the video here.
@@ -58,15 +68,15 @@ p.then(function(mediaStream) {
 ```
 You always check for errors at the end.
 ```javascript
-p.catch(function(err) { 
-     console.log(err.name); 
-}); 
+p.catch(function(err) {
+     console.log(err.name);
+});
 ```
 
 ---
 ## Practice
 
-Get and return the MediaStream object using the promise below: 
+Get and return the MediaStream object using the promise below:
 
 ```javascript
 var p = navigator.???.???({
@@ -94,5 +104,4 @@ promise returned and resolved with? ???
 * A permission object.
 * A promise object.
 * Constraints for the media device.
-
  

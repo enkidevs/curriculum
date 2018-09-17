@@ -10,6 +10,8 @@ levels:
   - medium
 
 type: exercise
+aspects:
+  - introduction
 
 link: https://www.codewars.com/kata/you-only-need-one-beginner
 linkType: codewars
@@ -32,5 +34,3 @@ links:
 ## Exercise
 
 Practice using python's `boolean` and `numeric` types on Code Wars.
- 
- 

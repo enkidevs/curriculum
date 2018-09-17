@@ -44,7 +44,7 @@ p.smallcaps {
 }
 ```
 
-For example, if the property is applied on the following html code:
+For example, if the property is applied on the following html code: 
 ```html
 <p class="smallcaps"> Hello World </p>
 ```
@@ -64,3 +64,4 @@ What must the font-variant property be set to transform the text to small caps?
 * `smallcaps`
 * `small_caps`
 
+ 

@@ -2,11 +2,8 @@
 author: mihaiberq
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
 
 type: normal
@@ -17,10 +14,6 @@ inAlgoPool: false
 
 standards:
   sql.write.0: 10
-
-tags:
-  - introduction
-  - workout
 
 aspects:
   - introduction

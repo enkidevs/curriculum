@@ -12,10 +12,10 @@ type: normal
 category: must-know
 
 standards:
-  - bc.analyze-network-security-policy.8: 40
-  - bc.identify-blockchain-applications.2: 20
+  blockchain.analyze-network-security-policy.8: 40
+  blockchain.identify-blockchain-applications.2: 20
 
-tags:
+aspects:
 
   - introduction
 

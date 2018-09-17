@@ -14,7 +14,10 @@ inAlgoPool: false
 standards:
   python.native-types-operations.5: 10
 
-
+aspects:
+  - introduction
+  - workout
+  - deep
 ---
 
 # Complex `set` operations
@@ -86,5 +89,3 @@ x.issubset(y)
 * `x <= y`
 * `x == y`
 * `y > x`
- 
- 

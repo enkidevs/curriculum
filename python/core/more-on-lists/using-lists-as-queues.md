@@ -8,7 +8,10 @@ levels:
 type: normal
 
 category: how to
-
+aspects:
+  - introduction
+  - workout
+  - deep
 standards:
   comp-sci.implement-linear-collection-data-structures.2: 10
 
@@ -109,5 +112,3 @@ for n in temp.items:
 * 5 Q U E U E
 * Q U E U E
 * E U E U Q
- 
- 

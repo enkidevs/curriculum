@@ -10,7 +10,15 @@ levels:
 type: normal
 
 category: how to
-
+aspects:
+  - introduction
+  - workout
+  - deep
+standards:
+  python.use-iteration-protocol.1: 10
+  python.native-types-operations.4: 10
+  python.use-comprehensions.0: 1000
+  python.use-comprehensions.2: 3000
 
 links:
 
@@ -26,7 +34,7 @@ links:
 
 **List comprehensions** are a concise way of creating lists, in a somewhat declarative style.
 
-One common application is to create new lists whose items are the result of operations applied to other sequences or iterables, or in other words, functions of other iterables (item for item). 
+One common application is to create new lists whose items are the result of operations applied to other sequences or iterables, or in other words, functions of other iterables (item for item).
 
 The syntax for this is to include between **square brackets** (`[] `) an expression followed by at least one `for` clause.
 
@@ -89,7 +97,7 @@ if square(i) < 50 ]
 
 Use list comprehension to add one and divide by two [(x + 1) / 2] for all elements [x] that are not even:
 
-```python 
+```python
 l = [1,2,3,4,5]
 x = [((x+1)/2) ??? x % 2 /
     ??? x ??? x in ???]
@@ -97,7 +105,7 @@ x = [((x+1)/2) ??? x % 2 /
 
 * if
 * else
-* for 
+* for
 * l
 * x
 * while
@@ -118,4 +126,3 @@ x = [x if x % 2 for x in l]
 * [1,3]
 * [2, 4]
 * [1,2,3,4,5]
- 

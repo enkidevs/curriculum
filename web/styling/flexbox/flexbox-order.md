@@ -30,7 +30,7 @@ links:
 Flex items are displayed in the same order as they appear in the source document by default. The order property can be used to change this ordering.
 
 HTML:
-```
+```html
 <ul class="flex-container">
   <li class="flex-item">1</li>
   <li class="flex-item">2</li>
@@ -42,7 +42,7 @@ HTML:
 ```
 
 CSS:
-```
+```css
 .flex-item:nth-of-type(1) {order: 3;}
 .flex-item:nth-of-type(2) {order: 4;}
 .flex-item:nth-of-type(3) {order: 1;}
@@ -94,3 +94,4 @@ Take 6 boxes originally ordered 1, 2, 3, 4, 5 and 6. What order are the boxes af
 * 6, 1, 4, 2, 3, 5
 * 6, 1, 4, 2, 5, 0
 
+ 

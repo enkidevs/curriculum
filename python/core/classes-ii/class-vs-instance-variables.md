@@ -10,7 +10,9 @@ levels:
 type: normal
 
 category: tip
-
+aspects:
+  - introduction
+  - workout
 
 links:
 
@@ -75,5 +77,3 @@ class Test:
 
 * `class`
 * `instance`
- 
- 

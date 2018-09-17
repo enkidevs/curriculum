@@ -32,14 +32,16 @@ Note that you need to assume **ECMAScript** 3rd edition. In addition, all `Error
 ---
 ## Game Content
 
-```
+```javascript
 typeof (function* f() {
   yield f })().next().next()
 ```
+
 * `Error`
 * `"function"`
 * `"generator"`
 * `"object"`
+
 %exp
 One interesting feature **ES6** introduced is **generator** functions. The special thing about a **generator** is that it can be **paused** and **resumed** as many times as the programmer wants to. **Generator** objects have `next()` method, that **resumes** the function and lets it run until the next `yield`.
 
@@ -54,26 +56,32 @@ That is why `Error` is the right answer.
 %
 
 ---
-```
+
+```javascript
 typeof (new class f()
   { [f]() { }, f: { } })[`${f}`]
 ```
+
 * `Error`
 * `"function"`
 * `"undefined"`
 * `"object"`
+
 %exp
 The above example results in **SyntaxError** because `class name f()` is not syntactically correct in JavaScript.
 %
 
 ---
-```
+
+```javascript
 typeof `${{Object}}`.prototype
 ```
+
 * `"undefined"`
 * `"object"`
 * `"function"`
 * `Error`
+
 %exp
 Template strings are a feature of **JavaScript** making it able to render values of variables directly in the **string**. However the correct **syntax** for **template strings** is `${Object}` and not `${{Object}}`.
 
@@ -83,19 +91,23 @@ Here **ES6**'s short notation for **object literals** which states that `{Object
 %
 
 ---
-```
+
+```javascript
 ((...x, xs)=>x)(1,2,3)
 ```
+
 * `Error`
 * `1`
 * `3`
 * `[1,2,3]`
+
 %exp
 Rest parameters can only appear on the last position. Here `...x` is used first, this results in `Error`.
 %
 
 ---
-```
+
+```javascript
 let arr = [ ];
 for (let { x = 2, y } of
   [{ x: 1 }, 2, { y }]) {
@@ -103,15 +115,18 @@ for (let { x = 2, y } of
 }
 arr;
 ```
+
 * `Error`
 * `[{ x: 1 }, 2, { y }]`
 * `[2, { x: 1 }, 2, 2, 2, { y }]`
+
 %exp
 The variable `y` is in **scope**, but since it's never initialized it stays in **Temporal Dead Zone**, so it can't accessed.
 %
 
 ---
-```
+
+```javascript
 (function() {
   if (false) {
     let f = { g() => 1 };
@@ -119,13 +134,14 @@ The variable `y` is in **scope**, but since it's never initialized it stays in *
   return typeof f;
 })();
 ```
+
 * `Error`
 * `"function"`
 * `"undefined"`
 * `"object"`
+
 %exp
 Here we encounter a **SyntaxError** as the arrow function `=>` can have either **concise body**(`var func x => x * x;`) or  the usual **block body**(`var func = (x,y) => {return x + y;};`).
 
 The definition here doesn't respect either of the.
 %
- 

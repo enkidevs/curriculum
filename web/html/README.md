@@ -6,21 +6,28 @@ core: true
 
 sections:
   '0':
+    - web-introduction
     - html-basics
     - html-structure
     - core-html-elements
     - web-page-structure
-    - images
   '1':
+    - images
+    - links
+    - lists
     - media
     - forms
     - forms-ii
+    - tables
+  '2':
     - meta-elements
     - sectioning-elements
-  '2':
+    - formatting-elements
+    - formatting-text-elements
     - forms-iii
     - forms-iv
     - forms-v
+  '3':
     - semantic-sections
     - citation-elements
     - computer-code
@@ -40,6 +47,7 @@ standards:
       4: Identify the structure of a valid HTML document
       5: Distinguish valid from invalid HTML documents based on their structure
       6: Identify and use commonly-held industry best practices
+      7: Identify and use valid global attributes
   markup-text:
     name: Markup Text with HTML
     description: Use HTML to markup text
@@ -47,6 +55,7 @@ standards:
       0: Use HTML to add emphasis, bold, or other decoration to text
       1: Use HTML to add indentation or spacing to text
       2: Use HTML to create headings or other special text elements
+      3: Use HTML to link two hypertext documents together
   layout-html:
     name: Lay out text and other elements with HTML
     description: This standard covers the use of HTML tags to lay out text, images, and other elements.

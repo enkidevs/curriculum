@@ -8,7 +8,9 @@ levels:
 type: normal
 
 category: must-know
-
+aspects:
+  - introduction
+  - workout
 standards:
   python.modules.0: 10
   python.modules.1: 10
@@ -138,5 +140,3 @@ calculate_volume(radius, height)
 * `__name__`
 * `cylinder:`
 * `def`
- 
- 
