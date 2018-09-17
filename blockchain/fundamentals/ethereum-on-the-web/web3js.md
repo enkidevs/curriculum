@@ -27,5 +27,16 @@ aspects:
 ---
 ## Practice
 
+To what platform is `web3.js` specific?
+
+???
+
+* Ethereum
+* Bitcoin
+* Blockchain in general
+* QTUM
+
 ---
 ## Revision
+
+
