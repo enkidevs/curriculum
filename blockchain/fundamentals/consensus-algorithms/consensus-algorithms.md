@@ -21,7 +21,7 @@ standards:
   bc.analyze-blockchain-components.1: 10
   bc.analyze-blockchain-components.4: 20
 
-tags:
+aspects:
 
   - introduction
 

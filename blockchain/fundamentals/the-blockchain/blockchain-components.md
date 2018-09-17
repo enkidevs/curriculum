@@ -12,9 +12,9 @@ type: normal
 category: must-know
 
 standards:
-  - bc.analyze-blockchain-components.4: 40
+  blockchain.analyze-blockchain-components.4: 40
 
-tags:
+aspects:
 
   - introduction
 

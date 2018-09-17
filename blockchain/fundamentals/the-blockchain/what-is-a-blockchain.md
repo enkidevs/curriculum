@@ -12,12 +12,12 @@ type: normal
 category: must-know
 
 standards:
-  - bc.analyze-blockchain-components.4: 30
-  - bc.identify-blockchain-applications.0: 10
-  - bc.identify-blockchain-applications.3: 10
-  - bc.identify-blockchain-applications.4: 20
+  blockchain.analyze-blockchain-components.4: 30
+  blockchain.identify-blockchain-applications.0: 10
+  blockchain.identify-blockchain-applications.3: 10
+  blockchain.identify-blockchain-applications.4: 20
 
-tags:
+aspects:
 
   - introduction
 
