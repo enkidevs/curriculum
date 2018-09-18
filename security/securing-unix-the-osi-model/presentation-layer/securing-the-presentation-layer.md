@@ -28,7 +28,11 @@ One such vulnerability is the **buffer overflow**.
 
 In short, this condition occurs when a program attempts to write to a memory address outside of its restricted bounds, tampering with the memory of other programs. This can result in crashing, corruption of memory, and execution of malicious code.
 
-For more in-depth information on this vulnerability, check out the [ OWASP Page](https://www.owasp.org/index.php/Buffer_Overflow).
+For more in-depth information on this vulnerability, check out the *OWASP Page*:
+
+```text
+https://www.owasp.org/index.php/Buffer_Overflow
+```
 
 The possibility of this happening can be mitigated with untrusting code practices. When making network calls, be sure to extensively validate the contents of the response before parsing it.
 
