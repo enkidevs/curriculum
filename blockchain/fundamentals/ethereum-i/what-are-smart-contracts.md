@@ -44,11 +44,11 @@ contract MyAwesomeToken {
 
   function getBalance(address owner) public
     view returns (uint) {
-    return ownerToBalance[owner];
+      return ownerToBalance[owner];
   }
 }
 ```
-Once deployed, the contract would receive its own unique address. If someone were to send a transaction calling the contract's `setBalance` function using their *own* address and a random balance as parameters, the contract would create the mapping. As you can see, the language has a mix of both JavaScript and Java keywords, plus some of its own.
+Once deployed, the contract would receive its own unique address. The address works similarly to any other public key on the network. Next, one can direct a transaction calling `setBalance` function to the contract's address. In our case, if they were using their *own* address (`require` at line 8) and a random balance as parameters, the contract would create the mapping (line 9). As you can see, the language has a mix of both JavaScript (as the main influencer) and Java keywords, plus some of its own.
 
 Smart contracts are different than your usual code files. They are **immutable**. Once up there, users can interact with them forever. Without proper tests and checks, nasty problems can occur, but more on this later.
 

@@ -41,7 +41,7 @@ Enter **ether**, Ethereum's token: make people pay for the time and memory used 
 
 A transaction is paid for in *gas*, that can be bought using ether subdenominations. Usually, gas price is expressed in gweis (giga weis, 10^9 wei), where 1 ether is equal to 10^18 weis. Transaction fees then become the product of the gas price and the amount of gas used.
 
-Until recently, Ethereum used _Ethash_, a memory-heavy PoW algorithm, to create blocks. Average block time is 14 seconds, compared to Bitcoin's 10 minute block time. Because PoW can end up consuming more electricity than some countries (see Bitcoin and its evergrowing thirst), Ethereum developers are trying to migrate to a PoS algorithm, called `Casper Protocol`. Until that is possible, a hybrid PoW/PoS algorithm is going to be implemented: blocks would still be generated using PoW with a checkpoint every 50th block appended by PoS.
+Until recently, Ethereum used _Ethash_, a memory-heavy PoW algorithm, to create blocks. Average block time is 14 seconds, compared to Bitcoin's 10 minute block time. Because PoW can end up consuming more electricity than some countries (see Bitcoin and its evergrowing thirst), Ethereum developers are trying to migrate to a PoS algorithm, called `Casper Protocol`. Until that is possible, a hybrid PoW/PoS algorithm is going to be implemented: every 49 regular blocks would still be generated using the PoW algorithm, while nodes would stake to append a special 50th block, called checkpoint block.
 
 ---
 
