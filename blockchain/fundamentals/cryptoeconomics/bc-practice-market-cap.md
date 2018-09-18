@@ -10,7 +10,9 @@ levels:
 type: exercise
 
 link: https://coinmarketcap.com/historical/20180610/
+
 linkType: coinmarketcap
+
 answer: 22
 
 standards:
