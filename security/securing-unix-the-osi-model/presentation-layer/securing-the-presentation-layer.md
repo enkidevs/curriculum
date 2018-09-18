@@ -31,7 +31,7 @@ In short, this condition occurs when a program attempts to write to a memory add
 For more in-depth information on this vulnerability, check out the *OWASP Page*:
 
 ```text
-https://www.owasp.org/index.php/Buffer_Overflow
+www.owasp.org/index.php/Buffer_Overflow
 ```
 
 The possibility of this happening can be mitigated with untrusting code practices. When making network calls, be sure to extensively validate the contents of the response before parsing it.
