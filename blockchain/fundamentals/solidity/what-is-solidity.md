@@ -33,9 +33,9 @@ links:
 ---
 ## Content
 
-**Solidity** a programming language that can compiled into bytecode and run by the EVM. But the relationship between Solidity and EVM is not one-to-one. Solidity is a contract-oriented language that can work on multiple platforms. Moreover, it is part of the set of languages in which Ethereum smart contracts can be developed.
+**Solidity** is a programming language that can be compiled into bytecode and run by the EVM. But the relationship between Solidity and EVM is not one-to-one. Solidity is a contract-oriented language that can work on multiple platforms. Moreover, it is part of the set of languages in which Ethereum smart contracts can be developed.
 
-It is a relatively new language, which was oficially released early-mid 2015. It was created by some of developers on the Ethereum core team.
+It is a relatively new language, which was officially released early-mid 2015. It was created by some of the developers on the Ethereum core team.
 
 The main features Solidity had over other Ethereum supported languages were static typing, mappings, structs, (multiple) contract inheritance, and type-safe functions. 
 
