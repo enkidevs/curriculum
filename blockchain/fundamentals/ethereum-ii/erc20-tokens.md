@@ -27,7 +27,7 @@ aspects:
 
 **ERC20** is the standard used to represent currencies. It allows for basic account functionalities like transfer, get address balance, or get total supply.
 
-The basic ERC20 interface looks like this[1]:
+The basic ERC20 interface (that describes no implementation) looks like this[1]:
 ```
 contract ERC20BasicInterface {
   function totalSupply() public 
@@ -65,7 +65,7 @@ Some information needed to define a ERC20 token is:
 - address of smart contract
 - total amount of tokens available
 - name
-- decimals (from 0 to 18)
+- decimals[3] (from 0 to 18)
 
 ---
 ## Footnotes
@@ -74,6 +74,9 @@ https://github.com/ethereum/EIPs/issues/179
 
 [2: ERC20 interface]
 https://github.com/ethereum/EIPs/issues/20
+
+[3: Smart contract decimals]
+`uint` data type can represent positive integers only, such that any balance in the smart contract would be represented in the smallest denomination possible of the coin (wei for ether). Decimals are then needed to be able to correctly represent the current balance. A balance of 15,000 coins with 18 decimals is a balance of 15,000,000,000 with 12 decimals and a balance of 15,000,000,000,000 with 9 decimals.
 
 ---
 ## Practice

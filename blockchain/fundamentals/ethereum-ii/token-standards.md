@@ -25,9 +25,9 @@ aspects:
 ---
 ## Content
 
-An Ethereum **token** is a smart contract that has a mapping between user addresses and balances. In other words, it is a contract that keeps track of how much of something each address has. A **token standard** is a smart contract that implements some standard functions that all other contracts share, namely `transfer` or `balanceOf`.
+An Ethereum **token** is a smart contract that has a mapping between user addresses and balances. In other words, it is a contract that keeps track of how much of something each address has. A **token standard** is a smart contract that contains some standard functions that all other contracts share, like `transfer` or `balanceOf`.
 
-Token standards are therefore Ethereum's way of seizing and simplyfing the creation of new cryptocurrencies. There are 2 main standards:
+Token standards are therefore Ethereum's way of seizing and simplifying the creation of new cryptocurrencies. There are 2 main standards:
 - ERC20
 - ERC721
 

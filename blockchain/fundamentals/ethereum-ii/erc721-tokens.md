@@ -27,9 +27,9 @@ aspects:
 
 **ERC721** tokens, on the other hand, are better suited for things you can not have 0.5 of, say cryptokitties[1]. ERC721 tokens are assumed to be unique and indivisible. You can only move them round in whole units, each one having a unique ID. They are known as *non-fungible tokens*.
 
-To better understand the difference, you can imagine that the main `address => uint256` mapping links an owner and the unique ID of something. The ID must be generated deterministically, usually by hashing object's properties.
+To better understand the difference, you can imagine that, while ERC20 contains an `address => balance` mapping, ERC721 contains an `uniqueObjectId => address` mapping. The ID must be generated deterministically and must also be a positive integer (most of the times - strings also work).
 
-The list of methods looks similar that of ERC20 standard:
+The list of methods looks similar to that of ERC20 standard:
 ```
 contract ERC721 {
   event Transfer(address indexed _from, 
@@ -51,7 +51,7 @@ contract ERC721 {
 }
 ```
 
-Note: The ERC721 standard is currently a draft, and there is no officially agreed-upon implementation yet. However, you can find an example implmenetation in OpenZeppelin repository.
+Note: The ERC721 standard is currently a draft, and there is no officially agreed-upon implementation yet. However, you can find an example implementation in OpenZeppelin repository.
 
 ---
 ## Footnotes
@@ -75,8 +75,8 @@ What are usually the types of the main mapping of a ERC721 token?
 ```
 ??? => ???
 ```
-* address
-* ID (uint256)
+* unique ID
+* address (uint256)
 * int256
 * balance (uint256)
 * string
