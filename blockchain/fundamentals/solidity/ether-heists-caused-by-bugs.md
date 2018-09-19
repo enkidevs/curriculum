@@ -35,7 +35,7 @@ DAO means Decentralized Autonomous Organization. DAO's goal is to digitize the d
 
 That is how theDAO was supposed to function: a fully decentralized crowdfunding platform. The project was such a success that it managed to gather around 15% of all ether available at that date. ($150 mil at an average market cap of $940 mil in May 2016). But everything went down when an exploit that would withdraw the someone's invested ether before updating the total balance was discovered.
 
-In total, $70 millions worth of ether were stolen. Faced with a tough situation, Ethereum Foundation decided to hard-fork such that all funds could be returned. But a part of the minority strongly belived that the blockchain should be immutable. As such, they decided not to upgrade and continue building on the old chain under the name of *Ethereum Classic*.
+In total, $70 millions worth of ether were stolen. Faced with a tough situation, Ethereum Foundation decided to hard-fork such that all funds could be returned. But a part of the minority strongly believed that the blockchain should be immutable. As such, they decided not to upgrade and continue building on the old chain under the name of *Ethereum Classic*.
 
 ---
 ## Practice

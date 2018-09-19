@@ -35,13 +35,11 @@ links:
 
 **Solidity** a programming language that can compiled into bytecode and run by the EVM. But the relationship between Solidity and EVM is not one-to-one. Solidity is a contract-oriented language that can work on multiple platforms. Moreover, it is part of the set of languages in which Ethereum smart contracts can be developed.
 
-It is a relatively new language, which was oficially released early-mid 2015. It was developed by some of developers on the Ethereum core team.
+It is a relatively new language, which was oficially released early-mid 2015. It was created by some of developers on the Ethereum core team.
 
 The main features Solidity had over other Ethereum supported languages were static typing, mappings, structs, (multiple) contract inheritance, and type-safe functions. 
 
-While it is not particularly difficult to start writing Solidity code, the real milestone is actually understanding and following security best practices. Remember that once the smart contract is up there, it won't ever dissapear (even though there's a kill switch). Over the years, some flaws in the design of Solidity allowed for multiple exploits in smart contracts, one amounting over 50M dollars worth of ether.
-
-
+While it is not particularly difficult to start writing Solidity code, the real milestone is actually understanding and following security best practices. Remember that once the smart contract is up there, there is no way to change it, although there is a kill switch. Over the years, multiple exploits in smart contracts allowed bad things to happend, one heist amounting over $50 millions worth of ether. Moreover, developers, to prove their honesty and prevent some exploits, are required to pay a gas fee (for things like storage) when publishing their contracts.
 
 ---
 ## Practice
