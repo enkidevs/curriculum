@@ -14,7 +14,7 @@ category: must-know
 standards:
   blockchain.compare-altcoins.0: 10
   blockchain.compare-altcoins.1: 10
-  blockchain.compare-altcoins.2: 40
+  blockchain.compare-altcoins.2: 20
   blockchain.compare-altcoins.3: 10
   blockchain.compare-altcoins.4: 20
 
