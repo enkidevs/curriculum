@@ -2,7 +2,7 @@ name: Bitcoin Anonymity
 
 type: insights-list
 
-description: todo
+description: Is Bitcoin really anonymous?
 
 section: 1
 

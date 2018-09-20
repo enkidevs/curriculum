@@ -2,7 +2,7 @@ name: Consensus Algorithms
 
 type: insights-list
 
-description: todo
+description: Ways of securing blockchains
 
 section: 1
 

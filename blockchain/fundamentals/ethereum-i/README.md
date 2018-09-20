@@ -2,7 +2,7 @@ name: Ethereum I
 
 type: insights-list
 
-description: todo
+description: Ethereum, the game changer
 
 section: 2
 

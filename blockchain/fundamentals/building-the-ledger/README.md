@@ -2,7 +2,7 @@ name: Building the Ledger
 
 type: insights-list
 
-description: todo
+description: How is the Bitcoin blockchain built?
 
 section: 0
 

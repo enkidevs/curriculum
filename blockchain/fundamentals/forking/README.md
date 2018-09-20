@@ -2,7 +2,7 @@ name: Forking
 
 type: insights-list
 
-description: todo
+description: Forking blockchains
 
 section: 2
 

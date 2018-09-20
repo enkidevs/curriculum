@@ -2,7 +2,7 @@ name: Altcoins
 
 type: insights-list
 
-description: todo
+description: Altcoins and the reasons for their appearance.
 
 section: 1
 

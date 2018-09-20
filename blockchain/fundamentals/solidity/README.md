@@ -2,7 +2,7 @@ name: Solidity
 
 type: insights-list
 
-description: todo
+description: The popular smart contracts language
 
 section: 2
 

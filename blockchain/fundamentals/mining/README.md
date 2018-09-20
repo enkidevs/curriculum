@@ -2,7 +2,7 @@ name: Mining
 
 type: insights-list
 
-description: todo
+description: All about finding that next block
 
 section: 1
 

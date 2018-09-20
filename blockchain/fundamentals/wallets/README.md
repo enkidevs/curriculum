@@ -2,7 +2,7 @@ name: Wallets
 
 type: insights-list
 
-description: todo
+description: All about blockchain identity and addresses.
 
 section: 1
 

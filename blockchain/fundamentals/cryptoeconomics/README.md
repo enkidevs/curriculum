@@ -2,7 +2,7 @@ name: Cryptoeconomics
 
 type: insights-list
 
-description: todo
+description: Cryptography and economics.
 
 section: 2
 
