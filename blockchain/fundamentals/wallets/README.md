@@ -9,4 +9,5 @@ section: 1
 insights:
  - identity
  - wallets
+ - keeping-your-wallet-secure
 
