@@ -68,7 +68,7 @@ The `<footer>` element is encouraged to contain which of the following?
 ---
 ## Revision
 
-Which container is best to organize the top of a web page or content section?
+Which container is best to organize the bottom of a web page or content section?
 
 ???
 
