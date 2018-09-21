@@ -24,6 +24,9 @@ links:
 ---
 # Keeping Your Wallet Secure
 
+---
+## Content
+
 ### Are cryptowallets secure?
 
 They are generally secure, up to a degree. While the cryptographic mechanisms are secure for now, the insecurity is given by the type of wallet you're using: online, mobile, paper, hardware, etc.
