@@ -85,8 +85,6 @@ This module provide other useful methods for working with dates, times and calen
 
 Set the first day of the week of your `calendar` to be Monday:
 
-??
-
 ```
 calendar.??? \
   (calendar.MONDAY)
