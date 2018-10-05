@@ -75,6 +75,7 @@ Last but not least, your text inputs can have a specific pattern, or a regular e
     <button>
       Submit
     </button>
+  </div>
 </form>
 ```
 
@@ -104,6 +105,7 @@ Write the form code where the input field is required and has a specific pattern
     <button>
       Submit
     </button>
+  </div>
 </form>
 ```
 
@@ -115,7 +117,6 @@ Write the form code where the input field is required and has a specific pattern
 * inputtype
 * disabled
 * form
-* text
 
 ---
 ## Revision
