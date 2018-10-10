@@ -6,14 +6,8 @@ core: true
 
 sections:
   '0':
-    - osi-model
-    - physical-layer
-    - data-link-layer
-    - network-layer
-    - transport-layer
-    - session-layer
-    - presentation-layer
-    - application-layer
+    - media-layer
+    - host-layer
  
 standards:
   describe-osi-model:
