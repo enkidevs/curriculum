@@ -1,3 +1,4 @@
+---
 name: Ecmascript 2015
 
 description: The sixth edition of Ecmascript. Get up to speed with the new syntax for writing complex applications, including classes, modules, arrow functions and more.
@@ -111,3 +112,4 @@ standards:
 
 next:
   - javascript:browser-apis
+---
