@@ -39,7 +39,7 @@ stack.append(4)
 # adds 4 at the end
 stack.append(5)
 print stack
->>> [1, 2, 4, 5]
+>>> [1, 2, 3, 4, 5]
 # removes and return last element
 print stack.pop()
 >>> 5
