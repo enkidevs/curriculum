@@ -35,14 +35,13 @@ Even though `python` does not provide a special `stack` data structure, `list`'s
 
 ```python
 stack = [1,2,3]
-stack.append(4)
 # adds 4 at the end
-stack.append(5)
+stack.append(4)
 print stack
->>> [1, 2, 3, 4, 5]
-# removes and return last element
+>>> [1, 2, 3, 4]
+# remove and return the last element
 print stack.pop()
->>> 5
+>>> 4
 ```
 
 By definition, we don't access the elements of a stack by index, we only use methods that add or remove elements from the top of the stack. We use two methods for this purpose:
