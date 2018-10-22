@@ -82,7 +82,6 @@ Complete the code snippet to return the number of entries in the dictionary:
 * keys()
 * length
 * size
-* keys
 
 ---
 ## Revision
