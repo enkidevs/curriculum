@@ -2,7 +2,7 @@ name: Forking
 
 type: insights-list
 
-description: Forking blockchains
+description: What forking means for the blockchain.
 
 section: 2
 

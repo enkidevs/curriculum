@@ -2,7 +2,7 @@ name: Mining
 
 type: insights-list
 
-description: All about finding that next block
+description: All about finding that next block.
 
 section: 1
 

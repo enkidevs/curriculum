@@ -2,7 +2,7 @@ name: Ethereum on the Web
 
 type: insights-list
 
-description: todo
+description: Accessing Ethereum blockchain from your browser.
 
 section: 2
 

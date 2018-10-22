@@ -2,7 +2,7 @@ name: Cryptoeconomics
 
 type: insights-list
 
-description: Cryptography and economics.
+description: Cryptography and unit economics.
 
 section: 2
 

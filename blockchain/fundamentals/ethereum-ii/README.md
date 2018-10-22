@@ -2,7 +2,7 @@ name: Ethereum II
 
 type: insights-list
 
-description: All about Ethereum token standards
+description: Ethereum token standards.
 
 section: 2
 

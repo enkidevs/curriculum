@@ -2,7 +2,7 @@ name: Altcoins
 
 type: insights-list
 
-description: Altcoins and the reasons for their appearance.
+description: Altcoins and the reasons why they exist.
 
 section: 1
 
