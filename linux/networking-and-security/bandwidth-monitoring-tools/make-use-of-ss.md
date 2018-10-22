@@ -93,7 +93,7 @@ The explicit number of TCP connections is part of
 
 
 * `ss -s`
-* `ss -s`
+* `ss -a`
 * `ss -ta`
 
 ---
