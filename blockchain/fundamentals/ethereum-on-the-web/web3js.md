@@ -30,9 +30,9 @@ links:
 ## Content
 
 **Web3.js** is the de-facto Ethereum API for JavaScript. It allows interactions between a regular web page and the distributed apps' smart contracts (DApps) running on the Ethereum network. The only constraint is that the server must run an Ethereum node for this to be possible.
-
+             	
 MyEtherWallet is an example of a website using it. If you open the link in your favorite browser, open up the JavaScript console and type-in `this.web3`, the `web3` object should be returned.
-
+             	
 `Web3` is also available for languages like Python, Java, Scala or PHP.
 
 ---

@@ -26,46 +26,51 @@ aspects:
 ## Content
 
 **ERC20** is the standard used to represent currencies. It allows for basic account functionalities like transfer, get address balance, or get total supply.
-
+             	
 The basic ERC20 interface (that describes no implementation) looks like this[1]:
-```
+             	
+```bash
 contract ERC20BasicInterface {
-  function totalSupply() public 
-    view returns (uint256);
-  function balanceOf(address who) public 
-    view returns (uint256);
-  function transfer(address to, 
-    uint256 value) public returns (bool);
+  function totalSupply() public
+	  view returns (uint256);
+  function balanceOf(address who) public
+	  view returns (uint256);
+  function transfer(address to,
+	  uint256 value) public returns (bool);
   event Transfer(address indexed from,
-    address indexed to, uint256 value);
+	  address indexed to, uint256 value);
 }
 ```
+             	
 And it was extended to include[2]:
-```
-contract ERC20Interface 
-    is ERC20BasicInterface {
+             	
+```bash
+contract ERC20Interface
+	is ERC20BasicInterface {
   function allowance(address owner,
-    address spender) 
-    public view returns (uint256);
-  function transferFrom(address from, 
-    address to, uint256 value)
-    public returns (bool);
-  function approve(address spender, 
-    uint256 value)
-    public returns (bool);
+	  address spender)
+	  public view returns (uint256);
+  function transferFrom(address from,
+	  address to, uint256 value)
+	  public returns (bool);
+  function approve(address spender,
+	  uint256 value)
+	  public returns (bool);
   event Approval(address indexed owner,
-    address indexed spender, uint256 value);
+	  address indexed spender, uint256 value);
 }
 ```
+             	
 The basic functions are straight-forward. The `Transfer` event is triggered when tokens are transferred and can be listened to. An event has to be explicitly called in the function.
-
+             	
 The second contract interface extends the basic one with functionality to manage funds on behalf of users. One use case is having a second smart contract contain the logic that deals with token transfers. Like `Transfer`, `Approval` should be triggered at the end of `approve` function.
-
+             	
 Some information needed to define a ERC20 token is:
 - address of smart contract
 - total amount of tokens available
 - name
 - decimals[3] (from 0 to 18)
+
 
 ---
 ## Footnotes
