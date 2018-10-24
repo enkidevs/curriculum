@@ -27,7 +27,8 @@ aspects:
 ## Content
 
 Ethereum's code files are **smart contracts**. Ethereum Virtual Machine is a runtime environment for executing compiled smart contracts: EVM does not run Solidity directly, but rather runs the *bytecode* obtained by compiling `.sol` files[1].
-It’s worth stating that smart contracts are not limited to Ethereum: the concept of having a piece of code regulate the behavior of an external institution is much older. 
+
+It’s worth stating that smart contracts are not Ethereum-specific: the concept of having a piece of code regulate the behavior of an external institution is much older. 
              	
 Here's an example of a Solidity smart contract. We'll cover in-depth what each keyword means later on:
              	

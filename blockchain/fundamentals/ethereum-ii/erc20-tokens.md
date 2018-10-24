@@ -29,7 +29,7 @@ aspects:
              	
 The basic ERC20 interface (that describes no implementation) looks like this[1]:
              	
-```bash
+```javascript
 contract ERC20BasicInterface {
   function totalSupply() public
 	  view returns (uint256);
@@ -44,7 +44,7 @@ contract ERC20BasicInterface {
              	
 And it was extended to include[2]:
              	
-```bash
+```javascript
 contract ERC20Interface
 	is ERC20BasicInterface {
   function allowance(address owner,

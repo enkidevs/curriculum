@@ -31,11 +31,11 @@ links:
 
 ## Content
 
-**Ethereum** is the blockchain that changed how the game is played. Before its creation, most cryptocurrencies were the cryptographic equivalent of fiat currencies. Once it was launched, cryptocurrencies started to represent something: a token through which people could interact with a given platform.
+**Ethereum** is the blockchain that changed how the game is played. Before its creation, most cryptocurrencies were the cryptographic equivalent of fiat currencies. Once it was launched, cryptocurrencies started to represent something more: a token through which people could interact with a given platform.
              	
 Ethereum is a distributed supercomputer. Its main feature is the ability to store and run applications. It was created by *Vitalik Buterin*, back then only 21 years old. The code is open-source and can be found on GitHub.
              	
-Applications are run using blockchain's turing complete virtual machine: Ethereum Virtual Machine or EVM. Every node in the network will therefore run the code you deploy on the blockchain. How do you make sure people don't run malicious code or infinite loops?
+Applications are run using blockchain's quasi Turing complete virtual machine: Ethereum Virtual Machine or EVM. Every node in the network will therefore run the code you deploy on the blockchain. How do you make sure people don't run malicious code or infinite loops?
              	
 Enter **ether**, Ethereum's token: make people pay for the time and memory used by the network to run their code or transfers. So if someone is trying to do something malicious, their transaction would be dropped but their transaction fee retained.
              	

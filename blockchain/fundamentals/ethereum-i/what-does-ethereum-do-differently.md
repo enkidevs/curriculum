@@ -31,11 +31,11 @@ Other than being distributed and having a PoW algorithm initially, Ethereum does
              	
 ### Account
              	
-Ethereum is using an **account model** aka balance model. You are probably familiar with the centralized version of this since it's employed by banks. The problem with a decentralized account model is its vulnerability to *replay attacks*: if you broadcast a signed transaction in which you pay Bob 0.5 ETH, Bob could re-broadcast the exact same transaction (being signed and everything) multiple times to withdraw all of your funds. To prevent these attacks, Ethereum accounts attach to transactions their *sequence number* (nonce). Once a nonce has been redeemed once, every other transaction that has a nonce less or equal that the last value redeemed is dropped.
+Ethereum is using an **account model** aka balance model. You are probably familiar with the centralized version of this since it's employed by banks. The problem with a decentralized account model is its vulnerability to *replay attacks*: if you broadcast a signed transaction in which you pay Bob 0.5 ETH, Bob could re-broadcast the exact same transaction (being signed and everything) multiple times to drain all your funds. To prevent these attacks, Ethereum accounts attach a *sequence number* (nonce) to transactions. After a nonce has been redeemed once, every other transaction that has a nonce less or equal that the last value redeemed is dropped.
              	
 ### Transactions
  	            
-Ethereum accepts more than transfer transactions. Given its capability of running code, Ethereum has special transactions used to interact with smart contracts: creation, calling, state querying.
+Ethereum accepts more than transfer transactions. Given its capability of running code, Ethereum has special transactions used to interact with smart contracts: creation, callin and state querying.
              	
 Regardless of transaction type, 4 variables are required:
              	
@@ -54,7 +54,7 @@ Another language that is supported by the EVM is Vyper, similar in structure and
              	
 Another feature of Ethereum is **token standards**: an interface for cryptocurrencies recognized by the Ethereum blockchain. The most notable token standard is ERC20. But why would you use the standard instead of releasing a blockchain of your own? Well, having to find people to mine/stake your blockchain and low adoption are the main reasons new blockchains fail.
              	
-Moreover, Ethereum became a decentralized crowdfunding platform: you could launch your own project right away and ask people that owned ether to sponsor it in exchange for your tokens ("stock").
+Moreover, Ethereum became a decentralized crowdfunding platform: you could launch your own project right away and ask people that own ether to sponsor it in exchange for your tokens ("stock").
 
 ---
 ## Footnotes

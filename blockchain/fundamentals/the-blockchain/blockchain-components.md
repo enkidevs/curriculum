@@ -26,7 +26,7 @@ aspects:
 ---
 ## Content
 
-A blockchain is a type of network. Just like any other network, it has to follow a  **protocol**. **Nodes** are required to acknowledge, verify and append information. This time, however, information is not converging towards a single source of truth (e.g. central database), but is broadcasted between nodes. This is called **decentralization**.
+A blockchain is a type of network. Just like any other network, it has to follow a **protocol**. **Nodes** are required to acknowledge, verify and append information. This time, however, information is not converging towards a single source of truth (e.g. central database), but is broadcasted between nodes. This is called **decentralization**.
 
 After a certain period of time (dependant on internet speed and latency) and a number of confirmation from other verifying nodes, the set of data (**block**) is confirmed as part of the blockchain.
 

@@ -41,9 +41,9 @@ We've got data that goes in the block, now we need the link between them. We als
              	
 ### Hash functions
              	
-Informally, a **hash function H** is a function that compresses an input of any size to a string of fixed length. The length of the output depends on the function specifications, but the most common you will see are either `256`, `384`, or `512` bits long.
+Informally, a **hash function H** is a function that compresses an input of any size to a string of fixed length. The length of the output depends on the function specifications, but the most common you will see are `256`, `384`, or `512` bits long.
              	
-They are one-way functions: the compression algorithm is fairly simple and always yields the same result, but the chance of finding the input based on the hash string is close to nil. The current standard is `FIPS-202` (a.k.a. Secure Hash Algorithm 3 or simply SHA-3).
+They are one-way functions: the compression algorithm is fairly simple and always yields the same result, but the chance of finding the input based on the hash string is close to nil. The current standard is `FIPS-202` (a.k.a. Secure Hash Algorithm 3, or simply SHA-3).
              	
 Consider the following examples:
              	
@@ -67,7 +67,7 @@ The input doesn't necessarily have to be a string since the function is modifyin
              	
 ### Hashing block data
              	
-If any piece of data can be represented as an unique string of fixed length, what if, to build block N, we are to hash the content of block N-1 and block N-1's reference to block N-2? By including the content, any modification done to it would change the hash. By also including the reference to block N-2, we ensure that every block before cannot be tampered with.
+If any piece of data can be represented as an unique string of fixed length, what if, to build block N, we are to hash the content of block N-1 and block N-1's reference to block N-2. By including the content, any modification done to it would change the hash. By also including the reference to block N-2, we ensure that every block before cannot be tampered with.
              	
 We would then be able to give a somewhat formal representation of what is hashed:
              	

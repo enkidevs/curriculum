@@ -79,14 +79,16 @@ In most cases, the network designates a checkpoint block, that is used as a defi
 ---
 ## Practice
 
-Given the image above, identify the block that is checked when verifying block 4?
-             	
+Which are the first and second verifications at the transaction level?
+
+???
+
 ???
              	
-* Block 2
-* Block 1
-* Block 3
-* Block 4
+* Check for funds
+* Check for double-spend
+* Check block references
+* Check UTXOs
 
 ---
 ## Revision

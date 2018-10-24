@@ -40,7 +40,7 @@ So, for the first users to be able to transact bitcoins, they had to mine them f
              	
 But the extra dedicated computer power isn't helping with the network throughput[1], which is somewhere between 3 and 7 transactions processed per second. It is, however, helping with the security of the network: more people verifying transactions means a larger price to attack the network.
              	
-After enough bitcoins had been mined, there needed to be a way to exchange them for fiat currencies ($/€/¥). As such, cryptocurrency exchanges were created specifically for that. People could buy and sell bitcoins to one another and even trade them for profit.
+Once people started trading bitcoins as currency, there needed to be a way to exchange them for fiat currencies ($/€/¥). As such, cryptocurrency exchanges were created. People could buy and sell bitcoins to one another and even trade them for profit.
              	
 Bitcoin became a pseudo-anonymous way to donate to Wikipedia, Wikileaks and others. Vendors also started to accept bitcoin as a payment method, so you could spend your bitcoins or pizza or magazine subscriptions. But the highly volatile price and the network's throughput limitation meant that the actual value of the arriving bitcoins might not reflect the real value of the items.
 

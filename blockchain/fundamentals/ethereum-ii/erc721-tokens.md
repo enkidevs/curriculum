@@ -31,7 +31,7 @@ To better understand the difference, you can imagine that, while ERC20 contains 
              	
 The list of methods looks similar to that of ERC20 standard:
              	
-```bash
+```javascript
 contract ERC721 {
   event Transfer(address indexed _from,
 	  address indexed _to, uint256 _tokenId);
