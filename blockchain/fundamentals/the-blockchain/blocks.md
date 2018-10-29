@@ -80,9 +80,7 @@ ref(n) = H(header(n) | content(n)
 This reference is also called the **address** of the block. Depending on the blockchain, other variables might find their way into the hash function in order for the network to validate it. We'll talk about how this works using the Bitcoin and Ethereum blockchains as examples in future workouts.
              	
 But for now, consider a network that accepts any block that contains the previous block reference:
-                 
-[Image here with what goes in a block]
-             	
+                             	
 It's worth mentioning about the **genesis block** or the first block of the blockchain: as there's no previous block, the reference will be equal to `0`.
              	
 In the "learn more" section you can find a link to an interactive website that allows you to create and append blocks to a simplified version of the Bitcoin blockchain.
