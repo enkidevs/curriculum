@@ -34,7 +34,7 @@ links:
 ---
 ## Content
 
-Some of the most exiting features of ES6 are generators and promises.
+Some of the most exciting features of ES6 are generators and promises.
 
 Can you fill in the gaps in the following code snippets such that they make sense?
 
@@ -154,5 +154,5 @@ Promise.???(
 * then
 
 %exp
-The `all()` function returns a single promise that resolves when all promises passed as an array in the arguments have resolved, or rejects with the first rejected promise's error.
+The `all()` function returns a single promise that resolves when all promises passed as an array in the arguments have resolved or rejects with the first rejected promise's error.
 %
