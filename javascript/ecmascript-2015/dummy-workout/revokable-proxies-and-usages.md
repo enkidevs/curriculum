@@ -21,16 +21,16 @@ links:
 
 ---
 
-# Revokable Proxies and Usages
+# Revocable Proxies and Usages
 
 ---
 ## Content
 
-There is a special type of proxy called a **revokable proxy**. 
+There is a special type of proxy called a **revocable proxy**. 
 
 This allows you to later deny access to the proxy by calling the revoke method.
 
-First we use **Proxy.revocable** to obtain a revokable proxy:
+First we use **Proxy.revocable** to obtain a revocable proxy:
 
 ```
 var rev = Proxy.revocable({}, {
