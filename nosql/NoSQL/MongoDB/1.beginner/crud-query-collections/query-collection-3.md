@@ -147,14 +147,14 @@ Which logical operator is used together with 2 or more comparison operators to d
 ---
 ## Revision
 
-Create a query to find all documents within the `pokemon` collection whose `age` falls in the range 23-31, including the bounds.
+Create a query to find all documents stored in the `pokemon` collection whose `power` falls in the range 401-500, including the bounds.
 
 ```javascript
 db.pokemon???(
     {???: 
         [
-        {age: {???: 23}},
-        {???:{???: 31}}
+        {power: {???: 401}},
+        {???:{???: 500}}
         ]
     }
 )
@@ -163,8 +163,9 @@ db.pokemon???(
 * `.find`
 * `$and`
 * `$gte`
-* `age`
+* `power`
 * `$lte`
-* `$lt`
-* `$gt`
+* `%lte`
+* `%gte`
 * `%and`
+* `.search()`
