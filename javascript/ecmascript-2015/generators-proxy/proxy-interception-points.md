@@ -35,7 +35,7 @@ Proxies allow you to intercept many different operations and methods:
 * ownKeys
 * apply
 
-Of course you only need to specify those you want to intercept otherwise the default behavior will occur.
+Of course you only need to specify those you want to intercept otherwise the default behaviour will occur.
 
 Here is an example of intercepting delete calls:
 
@@ -53,13 +53,13 @@ delete proxy.x; //ignoring delete
 console.log(obj.x); //y
 ```
 
-### Revokable Proxy
+### Revocable Proxy
 
-There is a special type of proxy called a **revokable proxy**.
+There is a special type of proxy called a **revocable proxy**.
 
 This allows you to later deny access to the proxy by calling the revoke method.
 
-First we use **Proxy.revocable** to obtain a revokable proxy:
+First we use **Proxy.revocable** to obtain a revocable proxy:
 
 ```javascript
 var rev = Proxy.revocable({}, {
@@ -100,7 +100,7 @@ Some potential usages:
 Fill in the gaps such that log statements hold true:
 
 ```javascript
-const revocable = ???.???({}, {
+const rev = ???.???({}, {
   ???: () => 42
 });
 
@@ -114,10 +114,10 @@ console.log(proxy.enki)
 ```
 
 * Proxy
-* revokable
+* revocable
 * get
 * proxy
-* revokable
+* rev
 * revoke
 * throw
 * catch
