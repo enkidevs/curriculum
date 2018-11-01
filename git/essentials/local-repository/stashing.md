@@ -93,8 +93,8 @@ $ git stash ??? ???@???
 
 * `drop`
 * `stash`
-* `{1}`
 * `{0}`
+* `{1}`
 * `list`
 * `pop`
 * `status`
