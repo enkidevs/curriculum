@@ -38,7 +38,7 @@ dict.items()
 # returns a new view of dictionary's items
 # items are (key, value) pairs
 ```
-The *view objects* are dynamically tied to the parent dictionary. When the parent dictionary is changed this changes are visible in the view objects too.
+The *view objects* are dynamically tied to the parent dictionary. When the parent dictionary is changed these changes are visible in the view objects too.
 
 
 The number of entries in a dictionary can be easily obtained using `len(dictview)` method:
@@ -49,14 +49,14 @@ The number of entries in a dictionary can be easily obtained using `len(dictview
 2
 ```
 
-One reason for using *view objects* is that iteration over a dictionary is more efficient then using lists for this purpose.
+One reason for using *view objects* is that iteration over a dictionary is more efficient than using lists for this purpose.
 Dictionary's `iter()` method works on dictionary views, returning an iterator over keys, values or items:
 ```python
 iter(keys)
 # iterator over keys is returned
 ```
 
-Also *view objects* provide efficient ways to perform containment tests and set-like operations ( eg. Intersections, Differences, etc. )
+Also, *view objects* provide efficient ways to perform containment tests and set-like operations ( eg. Intersections, Differences, etc. )
 The `in` keyword for testing collection membership, can be used both on dictionaries and dictionary views:
 ```python
 >>> 'one' in keys
