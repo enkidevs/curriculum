@@ -28,7 +28,7 @@ standards:
 ## Content
 
 There are few things to keep in mind when talking about Python:
-- it is an entirely *object oriented* programming language
+- it is an entirely *object-oriented* programming language
 - each variable is an *object*
 - variables and their types **don't** need to be declared before assigning them values
 
@@ -63,7 +63,7 @@ Floating point numbers:
 float_value = 7.0
 ```
 
-Python also provides support for complex numbers of form `a + b*j`, where `a` and `b` are floats and `J` represents the square root of `-1`:
+Python also provides support for complex numbers in the form `a + b*j`, where `a` and `b` are floats and `J` represents the square root of `-1`:
 ```python
 complex_value = 3 + 5J
 ```
