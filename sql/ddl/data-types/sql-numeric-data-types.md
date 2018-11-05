@@ -106,12 +106,12 @@ Create a table PostgreSQL table with a serial ID column PK that is `bigint`:
 
 * `CREATE`
 * `TABLE`
-* `bigserial`
+* `bigint`
 * `id`
 * `DROP`
 * `COLUMN`
 * `serial`
-* `bigint`
+* `bigserial`
 
 ---
 ## Revision
