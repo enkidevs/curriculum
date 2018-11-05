@@ -79,7 +79,7 @@ ex_list.??? (???=None,\
     reverse=False)
 ```
 
-* `sorted`
+* `sort`
 * `key`
 * `order`
 * `priority`
