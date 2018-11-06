@@ -24,7 +24,7 @@ links:
 Typically, a link will open another page within it's own window. This is because the default value for the target (or where the content should open) has the value of `_self`. 
 
 Typical link:
-```
+```html
 <a 
   href="https://www.enki.com/"> 
   Links opens within existing window. 
@@ -32,7 +32,7 @@ Typical link:
 ```
 
 Link with default value displayed: 
-```
+```html
 <a 
   href="https://www.enki.com/" 
   target="_self"> 
@@ -51,7 +51,7 @@ The other values for the target are `target="value"`:
  - framename = Opens the link in a named frame
 
 Example of opening the link in a different tab:
-```
+```html
 <a 
   href="https://www.enki.com/" 
   target="_blank"> 
@@ -69,23 +69,29 @@ Example of opening the link in a different tab:
 
 Create a link that will open the linked page within a new tab or browser window.
 
-`<??? ???="http://enki.com" ???="???">`
+```html
+<??? ???="http://enki.com"
+  ???="???">
+<???>
+````
 
 Which of these is not a valid target value?
 
-`<a href="http://enki.com" target="___">`
+```html
+<a href="http://enki.com" 
+   target="???">
+</a>
+```
 
-???
-
-* a
-* href
-* target
-* _blank
-* `_new`
-* src
+* `a`
+* `href`
+* `target`
 * `_blank`
+* `/a`
+* `_new`
 * `_parent`
 * `_self`
+* `_top`
 
 ---
 ## Revision
@@ -109,9 +115,9 @@ Why is it rare to use this code:
 
 ???
    
-* _self is only needed to open within the same tab when overriding conflicting code. 
+* `_self` is only needed to open within the same tab when overriding conflicting code. 
 * It isn't common to allow users to download your entire webpage.
-* The target="self" is typically used to download files like PDFs.
+* The `target="self"` is typically used to download files like PDFs.
 * Everyone already knows about Enki!
 
 --- 
@@ -174,5 +180,3 @@ framename represents the name of a frame in the page, so it can be valid and ope
 %
 
 ```
-
-

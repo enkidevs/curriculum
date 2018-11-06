@@ -24,7 +24,6 @@ links:
   - '[CodePen: Table multiple spans](https://codepen.io/enkidevs/pen/NBNdwO){code}'
   - '[CodePen: Table abbr attribute](https://codepen.io/enkidevs/pen/ajNJdW){code}'
   - '[MDN docs for th](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th){website}'
-  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
 
 ---
 # Table Header
@@ -34,7 +33,7 @@ links:
 The HTML `<th>` element  stands to "tabular headers" and is used to specify a header cell for a group of table cells within a table. The `<th>` element has to nested within a `<tr>` element. By default, the text within a `<th>` element will appear centered and bold.
 
 Example:
-```
+```html
 <table>
   <tr>
     <th>Username</th>
@@ -54,7 +53,7 @@ Result:
 ![intro-th](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2298%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2298%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22TimesNewRomanPS-BoldMT%2C%20Times%20New%20Roman%22%20font-size%3D%2216%22%20font-weight%3D%22bold%22%3E%3Ctspan%20x%3D%2247%22%20y%3D%2232%22%3EUsername%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22TimesNewRomanPSMT%2C%20Times%20New%20Roman%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2221%22%20y%3D%2253%22%3Ei_am_who_knocks%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22TimesNewRomanPSMT%2C%20Times%20New%20Roman%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2221%22%20y%3D%2275%22%3Echain_breaker%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22TimesNewRomanPSMT%2C%20Times%20New%20Roman%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%22146%22%20y%3D%2275%22%3E3493712%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22TimesNewRomanPSMT%2C%20Times%20New%20Roman%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%22146%22%20y%3D%2253%22%3E2437845%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22TimesNewRomanPS-BoldMT%2C%20Times%20New%20Roman%22%20font-size%3D%2216%22%20font-weight%3D%22bold%22%3E%3Ctspan%20x%3D%22166%22%20y%3D%2232%22%3EID%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
 
-With CSS styles, the same table can really stand out visually:
+With CSS styles, the same table can really stand out visually: 
 
 ![intro-th-style](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%22144%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22a%22%20x1%3D%22-13.59598%25%22%20x2%3D%22122.3853%25%22%20y1%3D%2250%25%22%20y2%3D%2250%25%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%234158D0%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23C850C0%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%22144%22%20fill%3D%22url%28%23a%29%22%20rx%3D%229%22%2F%3E%3Cpath%20fill%3D%22%23FFF%22%20d%3D%22M20%2020h280v102H20z%22%2F%3E%3Cpath%20fill%3D%22%2336304A%22%20d%3D%22M20%2020h280v37H20z%22%2F%3E%3Ctext%20fill%3D%22%23E1E3DD%22%20font-family%3D%22Roboto-Medium%2C%20Roboto%22%20font-size%3D%2210%22%20font-weight%3D%22400%22%3E%3Ctspan%20x%3D%2280%22%20y%3D%2241%22%3EUsername%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23727B8B%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-size%3D%2210%22%3E%3Ctspan%20x%3D%2231%22%20y%3D%2278%22%3Ei_am_who_knocks%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23727B8B%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-size%3D%2210%22%3E%3Ctspan%20x%3D%2231%22%20y%3D%22110%22%3Echain_breaker%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23727B8B%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-size%3D%2210%22%3E%3Ctspan%20x%3D%22198%22%20y%3D%22110%22%3E3493712%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23727B8B%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-size%3D%2210%22%3E%3Ctspan%20x%3D%22198%22%20y%3D%2278%22%3E2437845%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23E1E3DD%22%20font-family%3D%22Roboto-Medium%2C%20Roboto%22%20font-size%3D%2210%22%20font-weight%3D%22400%22%3E%3Ctspan%20x%3D%22237%22%20y%3D%2241%22%3EID%3C%2Ftspan%3E%3C%2Ftext%3E%3Cpath%20stroke%3D%22%23C8CAD7%22%20stroke-linecap%3D%22square%22%20d%3D%22M187%2020.5v100M299%2090H20%22%2F%3E%3Cpath%20stroke%3D%22%239EA7AF%22%20stroke-linecap%3D%22square%22%20stroke-width%3D%222%22%20d%3D%22M299%2057H21%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
@@ -63,7 +62,7 @@ With CSS styles, the same table can really stand out visually:
 
 The colspan and rowspan attributes can be useful in setting the table headers to span over multiple columns or rows.
 
-```
+```html
 <th colspan="2">
   Monthly Savings
 </th>
@@ -91,7 +90,7 @@ Sometimes it can make sense using tabular headers on both the first row and firs
 
 The `abbr` attribute is used to add an abbreviated description for the content of a cell and speech readers may present this description rather than the content of the cell.
 
-```
+```html
 <table>
   <tr>
     <th abbr="Make">
@@ -119,7 +118,7 @@ The `abbr` attribute is used to add an abbreviated description for the content o
 
 Arrange the HTML tags to properly create this table:
 
-```
+```html
 <tag1>
   <tag2>
     <tag3>
@@ -182,3 +181,4 @@ Which CSS property(s) style a `<th>` element of a table by default?
 * `text-align: left; && font-weight: normal;`
 * `font-style: oblique; && font-style: italic;`
 * `font-style: italic; && text-align: center;`
+ 

@@ -80,3 +80,4 @@ body {
 * Repeats the background image vertically.
 * Repeats the background image both horizontally and vertically.
 * Stops the background image from repeating.
+ 

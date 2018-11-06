@@ -27,10 +27,10 @@ links:
 ---
 ## Content
 
-All image `<img>` elements are encouraged to use `alt` attributes which specifies alternate text for the image.
+All image `<img>` elements are encouraged to use `alt` attributes which specifies alternate text for the image. 
 
 Example:
-```
+```html
 <img src="rainforest.pngrainforest.jpg"
     alt="Beautiful rain forest
          thick with trees">
@@ -45,13 +45,13 @@ In the example above, if for some reason the browser doesn't show the `rainfores
 Using the `alt` attribute is important for every `img` element for page validation and to help support screen readers that will read the text description to those that are visually impaired.
 
 The `alt` attribute can also be left empty and completely valid as this is helpful for indicating that the image is not a key part of the content:
-```
+```html
 <img src="background-image.png"
       alt="">
 ```
 
 If your `alt` attribute needs to contain acronyms (like "USA"), you would write it as to prevent screen readers from trying to read:
-```
+```html
 `<img src="usa-map.jpg"
     alt="United States of America map">`
 ```
@@ -101,3 +101,4 @@ Hint: The best way helps screen readers read the alt properly as it prevents "IT
 * U.S.A
 * U-S-A
 * "U""S""A"
+ 

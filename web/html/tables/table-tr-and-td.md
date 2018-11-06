@@ -23,7 +23,6 @@ links:
   - '[MDN Docs for The Table element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table){website}'
   - '[MDN docs for The Table Row element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr){website}'
   - '[MDN docs for The Table Data element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td){website}'
-  - '[MDN docs for Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
 
 ---
 # Table, tr, and td
@@ -35,7 +34,7 @@ The HTML table is used to represent information in a table made of columns and r
 When creating a table in HTML the `<table>` element is used to create the entire table, the `<tr>`(Table Row) element is used to create the tables rows and the `<td>` (Table Data) element is used to create table data.
 
 Example of a simple table:
-```
+```html
 <table>
   <tr>
     <td>Matthew</td>
@@ -52,7 +51,7 @@ Example of a simple table:
 
 ![simple-table](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2278%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2278%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22TimesNewRomanPSMT%2C%20Times%20New%20Roman%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2221%22%20y%3D%2233%22%3EMatthew%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22TimesNewRomanPSMT%2C%20Times%20New%20Roman%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2221%22%20y%3D%2255%22%3ELiz%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22TimesNewRomanPSMT%2C%20Times%20New%20Roman%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2283%22%20y%3D%2255%22%3ESan%20Francisco%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22TimesNewRomanPSMT%2C%20Times%20New%20Roman%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%22178%22%20y%3D%2255%22%3ECalifornia%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22TimesNewRomanPSMT%2C%20Times%20New%20Roman%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%22178%22%20y%3D%2233%22%3EColorado%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22TimesNewRomanPSMT%2C%20Times%20New%20Roman%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2283%22%20y%3D%2233%22%3EDenver%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/JBXWLL)-->
+<!--[View CodePen](https://codepen.io/enkidevs/pen/JBXWLL)--> 
 
 Tables themselves in HTML without CSS can appear a little messy and confusing compared to those that are styled more appropriately. 
 
@@ -63,7 +62,7 @@ Tables themselves in HTML without CSS can appear a little messy and confusing co
 Styling tables can take a little practice, as seen in the example above, and often use more specific selectors. Such as, in order to prevent the last column or bottom row from having styles that may look strange, properties on these rows (or cells) can be reset using the psudo class `:last-child` like this. 
 
 
-```
+```css
 tr:last-child {
   border-bottom: none;
 }
@@ -74,7 +73,7 @@ tr:last-child {
 
 Arrange the HTML tags to properly create this table:
 
-```
+```html
 <tag1>
   <tag2>
     <tag3>Matthew</tag3>
@@ -127,7 +126,7 @@ Match the HTML element with its description:
 What is the output of this table?
 Choose the appropriate option; A,B,C or D:
 
-```
+```html
 <table>
   <tr>
     <td>Pencil</td>
@@ -142,22 +141,22 @@ Choose the appropriate option; A,B,C or D:
 </table>
 ```
 A
-```
+```html
 Pencil 1.99 295
 Pen    2.49 423
 ```
 B
-```
+```html
 Pen    2.49 423
 Pencil 1.99 295
 ```
 C
-```
+```html
 Pencil 1.99295
 Pen    2.49423
 ```
 D
-```
+```html
 Pencil 2.99 495 Pen 1.49 223
 ```
 
@@ -167,3 +166,4 @@ Pencil 2.99 495 Pen 1.49 223
 * Option B
 * Option C
 * Option D
+ 

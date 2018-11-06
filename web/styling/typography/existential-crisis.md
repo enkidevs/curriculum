@@ -23,11 +23,71 @@ category: must-know
 Does the CSS actually exist?
 
 Categorize the falling properties based on whether or not they are existing, legal CSS.
-
+ 
 ---
 ## Game Content
 
 it doesn't exist:it's real
+```false
+font-face
+%exp
+CSS supports a property called `@font-face`, but here the @ is missing so the property is invalid.
+%
+
+outline-colour
+%exp
+Here we face a typo. T
+
+he right spelling for this to be a property would be `outline-color`.
+%
+
+mid
+%exp
+`mid` is not a CSS property.
+%
+
+clear-all
+%exp
+The closest property is `clear`, but there is no property `clear-all`.
+%
+
+content-border
+%exp
+CSS has no property called `content-border`.
+%
+
+background-align
+%exp
+The CSS property is `background-position`, not `background-align`.
+%
+
+spacing
+%exp
+There is a property called `border-spacing`, but `spacing` doesn't mean anything in CSS.
+%
+
+list-style-color
+%exp
+There is no `list-style-color` property defined in CSS.
+%
+
+outline-weight
+%exp
+`outline-width` is a property in CSS, but `outline-weight` wouldn't work.
+%
+
+page-break-outside
+%exp
+This is not a CSS property, something similar to it exists though: `page-break-inside`.
+%
+
+text-transformation
+%exp
+This is not a CSS property.
+%
+```
+ 
+
 ```true
 background-attachment
 %exp
@@ -183,61 +243,3 @@ The `z-index` property in CSS controls the vertical stacking order of elements t
 
 ```
 
-```false
-font-face
-%exp
-CSS supports a property called `@font-face`, but here the @ is missing so the property is invalid.
-%
-
-outline-colour
-%exp
-Here we face a typo. T
-
-he right spelling for this to be a property would be `outline-color`.
-%
-
-mid
-%exp
-`mid` is not a CSS property.
-%
-
-clear-all
-%exp
-The closest property is `clear`, but there is no property `clear-all`.
-%
-
-content-border
-%exp
-CSS has no property called `content-border`.
-%
-
-background-align
-%exp
-The CSS property is `background-position`, not `background-align`.
-%
-
-spacing
-%exp
-There is a property called `border-spacing`, but `spacing` doesn't mean anything in CSS.
-%
-
-list-style-color
-%exp
-There is no `list-style-color` property defined in CSS.
-%
-
-outline-weight
-%exp
-`outline-width` is a property in CSS, but `outline-weight` wouldn't work.
-%
-
-page-break-outside
-%exp
-This is not a CSS property, something similar to it exists though: `page-break-inside`.
-%
-
-text-transformation
-%exp
-This is not a CSS property.
-%
-```

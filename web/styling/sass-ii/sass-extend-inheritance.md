@@ -64,3 +64,4 @@ Which is the correct way to use Sass @extend to extend the class *properties*? ?
 * @extend(properties);
 * extend .properties;
 
+ 

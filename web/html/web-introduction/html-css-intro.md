@@ -9,7 +9,10 @@ type: normal
 
 category: must-know
 
-tags:
+standards:
+  web.syntax-html.4: 10
+
+aspects:
   - introduction
 
 ---
@@ -37,11 +40,11 @@ L: ???
 
 What does CSS stand for?
 
-C: ??? 
-S: ??? 
+C: ???
+S: ???
 S: ???
 
-Typically, all web files of the same website are saved where? 
+Typically, all web files of the same website are saved where?
 
 ???
 
@@ -49,7 +52,7 @@ Typically, all web files of the same website are saved where?
 * text
 * markup
 * language
-* cascading 
+* cascading
 * style
 * sheets
 * in the same primary folder.
@@ -90,9 +93,9 @@ What does CSS stand for?
 * Cascading ServerStyles
 
 ---
-## Quiz 
+## Quiz
 
-### Do you know what HTML & CSS stands for? 
+### Do you know what HTML & CSS stands for?
 
 What do HTML and CSS stand for?
 
@@ -102,6 +105,4 @@ What do HTML and CSS stand for?
 * Hyperlink Text Markup Language & Computer SheetStyles
 * Home Tool Markup Listing & Custom ScriptStyles
 * Hyper Text Mark Language & Cascading SheetStyles
-
-
-
+ 

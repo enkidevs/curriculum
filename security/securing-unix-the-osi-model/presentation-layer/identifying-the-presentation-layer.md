@@ -2,11 +2,8 @@
 author: milesflo
 
 levels:
-
   - basic
-
   - medium
-
   - advanced
 
 type: normal
@@ -15,9 +12,7 @@ category: must-know
 
 inAlgoPool: false
 
-
 links:
-
   - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}'
 
 parent: securing-the-session-layer
@@ -29,10 +24,13 @@ parent: securing-the-session-layer
 ---
 ## Content
 
-The Presentation Layer (Layer 6), also called the syntax layer, is responsible for taking data from the Application Layer above it and converting it from a system-specific format to a format that can be parsed by the recipient. For example, the Presentation Layer would be responsible for converting Windows line endings (CRLF) in text file to Unix line endings (LF) and vice versa as needed.
+The sixth layer of the OSI model is called the *Presentation Layer*, but is seldom referenced as the **syntax layer**. One of its main responsabilities is **taking system-specific data** from the layer above (Application Layer) and **coverting** it to a format that can be parsed by the recipient.
 
-The Presentation Layer is also be responsible for encryption/decryption of data from the Application Layer for secure transmission through lower layers.
-**Note:** This process may also take place in the Application, Session, Transport, and/or Network layers, depending on the use case.
+For example, the Presentation Layer would be responsible for converting Windows-specific line endings (`CRLF`) from text files to Unix-specific line endings (`LF`) and vice versa, as needed.
+
+The Presentation Layer is also be responsible for **encryption/decryption** of data from the Application Layer for secure transmission through lower layers.
+
+**Note:** This process may also span accross multiple layers such as Application, Session, Transport, and/or Network layers, depending on the use case.
 
 ---
 ## Practice
@@ -62,12 +60,14 @@ The Presentation Layer converts data from the ??? format to a format usable by t
 
 ---
 ## Quiz 
+
 ### What role does this Layer play in the OSI 7 Layer Model?
+
 ```
 What role does the Presentation Layer play in the OSI 7 Layer Model?
 ```
 
- ???
+???
 
 * Data conversion and encryption/decryption
 * Opening, closing, and managing connections between applications

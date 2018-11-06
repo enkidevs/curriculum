@@ -19,7 +19,6 @@ link: https://codepen.io/enkidevs/pen/ZjXdVz
 solution: https://codepen.io/enkidevs/pen/pZegqQ
 
 standards:
-  web.syntax-html.1: 1000
   web.layout-html.1: 1000
 
 links:
@@ -27,8 +26,7 @@ links:
   - '[MDN docs for The Table header element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th){website}'
   - '[MDN docs for The Table Row element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr){website}'
   - '[MDN docs for The Table Data element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td){website}'
-  - '[MDN docs for Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
-  
+
 ---
 # HTML table exercise 1
 ---

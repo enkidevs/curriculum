@@ -6,21 +6,28 @@ core: true
 
 sections:
   '0':
+    - web-introduction
     - html-basics
     - html-structure
     - core-html-elements
     - web-page-structure
-    - images
   '1':
+    - images
+    - links
+    - lists
     - media
     - forms
     - forms-ii
+    - tables
+  '2':
     - meta-elements
     - sectioning-elements
-  '2':
+    - formatting-elements
+    - formatting-text-elements
     - forms-iii
     - forms-iv
     - forms-v
+  '3':
     - semantic-sections
     - citation-elements
     - computer-code

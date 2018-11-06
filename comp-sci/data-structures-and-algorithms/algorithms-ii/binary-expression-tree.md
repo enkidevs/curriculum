@@ -28,7 +28,7 @@ parent: parsing-reverse-polish-notation
 
 **Binary expression tree** is a specific kind of binary tree that represents a algebraic (*2+3×5*) or boolean (*¬(q ∧ v)∧q*) expressions.
 
-Each node of the tree will hence have zero, one or two children.
+Each node of the tree will hence have zero, one or two children. 
 
 The BET of **(5×10+9)/(3-2)** is:
 

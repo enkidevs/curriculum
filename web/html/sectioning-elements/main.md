@@ -34,7 +34,7 @@ The HTML `<main>` element is used to specify the main content of a web page, doc
 
 ![main-styled](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%22320%22%20height%3D%22202%22%3E%3Cdefs%3E%3Cpath%20id%3D%22a%22%20d%3D%22M21%2036h274v130H21V36z%22%2F%3E%3Cmask%20id%3D%22b%22%20width%3D%22274%22%20height%3D%22130%22%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23fff%22%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%2F%3E%3C%2Fmask%3E%3C%2Fdefs%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%22147%22%20y%3D%2227%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%20transform%3D%22rotate%28-180%20160%20100.5%29%22%2F%3E%3Cpath%20fill%3D%22%233E94EC%22%20d%3D%22M320%2028H0V9c0-4.97056%204.02944-9%209-9h302c4.97056%200%209%204.02944%209%209v19zM0%20174h320v19c0%204.97056-4.02944%209-9%209H9c-4.97056%200-9-4.02944-9-9v-19z%22%2F%3E%3Ctext%20fill%3D%22%23FFF%22%20font-family%3D%22DINCondensed-Bold%2C%20DIN%20Condensed%22%20font-size%3D%2216%22%20font-weight%3D%22bold%22%3E%3Ctspan%20x%3D%2223%22%20y%3D%2221%22%3ELOGO%3C%2Ftspan%3E%3C%2Ftext%3E%3Cuse%20stroke%3D%22%23000%22%20stroke-dasharray%3D%223%22%20stroke-linecap%3D%22square%22%20stroke-width%3D%222%22%20mask%3D%22url%28%23b%29%22%20xlink%3Ahref%3D%22%23a%22%2F%3E%3Ctext%20fill%3D%22%23FFF%22%20font-family%3D%22DINCondensed-Bold%2C%20DIN%20Condensed%22%20font-size%3D%2216%22%20font-weight%3D%22bold%22%3E%3Ctspan%20x%3D%22132%22%20y%3D%22195%22%3ECOPYRIGHT%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Roboto-Medium%2C%20Roboto%22%20font-size%3D%2216%22%20font-weight%3D%22400%22%3E%3Ctspan%20x%3D%2233%22%20y%3D%2258%22%3EMain%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-It usually consists of content that is directly related to the central topic, or the central functionality of an application. 
+It usually consists of content that is directly related to the central topic, or the central functionality of an application.   
 
 Also, the `<main>` element should not contain content that is repeated throughout the whole website, or across multiple documents, such as:
  - copyright information
@@ -44,7 +44,7 @@ Also, the `<main>` element should not contain content that is repeated throughou
  - site logo
 
 Example of the main content of a page, in this case, a page describing vehicles:
-```
+```html
 <header>
   <img src="logo.svg" alt="Company Logo">
 </header>
@@ -150,3 +150,4 @@ Select which of the following items should be contained within a `<main>` contai
  * navigation links
  * copyright information
  * search forms
+ 

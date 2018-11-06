@@ -48,16 +48,14 @@ console.log("Let's get " + food[randIndex]);
 ---
 ## Practice
 
-If you have an array:
+How would you select a fruit at random
+from the array `fruits`?
 ```
 var fruits =[oranges, apples, banana];
 
-
-How would you select a fruit at random
-from the array fruits?
-
 var index =
-Math.???(Math.random()*
+Math.???(
+  Math.random() *
     fruits.length);
 
 console.log("the random fruit is"
@@ -71,13 +69,10 @@ console.log("the random fruit is"
 ---
 ## Revision
 
-If you have an array:
+How would you select a fruit at random
+from the array `fruits`?
 ```
 var fruits =[oranges, apples, banana];
-
-
-How would you select a fruit at random
-from the array fruits?
 
 var index =
 Math.???(Math.random()*

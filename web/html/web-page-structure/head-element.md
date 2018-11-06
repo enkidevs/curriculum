@@ -42,7 +42,7 @@ Example of metadata:
   - etc.
 
 Simple example:
-```
+```html
 <html>
   <head>
     <meta charset="utf-8">
@@ -59,7 +59,7 @@ In the example above, we have a simple head element with character encoding and 
 The `<head>` element can also contain a page description for search engines or links to CSS and JS files. On the other hand, the `<head>` element should never contain the web page's logo, the primary heading of the page, nor the documents primary language.
 
 Larger example:
-```
+```html
 <html>
   <head>
   
@@ -123,3 +123,4 @@ What order is recommended for adding CSS & JS in the `<head>` of an HTML page?
 * JS first, then CSS
 * CSS only, JS can't be.
 * JS only, CSS can't be.
+ 

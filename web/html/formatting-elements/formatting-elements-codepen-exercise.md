@@ -10,6 +10,7 @@ tags:
 
 aspects:
   - introduction
+  - workout
 
 type: exercise
 
@@ -19,7 +20,7 @@ link: https://codepen.io/enkidevs/pen/pZWvzv
 solution: https://codepen.io/enkidevs/pen/rrzLoM
 
 standards:
-  web.layout-html.0: 10
+  web.layout-html.3: 1000
 
 links:
   - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'

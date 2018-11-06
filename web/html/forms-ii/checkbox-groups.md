@@ -33,7 +33,7 @@ The HTML input forms of type `checkbox` are square boxes that can be ticked or c
 **Note:** A similar input form type is `radio`. This input type is also clickable, however, unlike with checkboxes, if multiple options are present, the radio buttons can have only one option checked at a time.
 
 Example with multiple checkboxes:
-```
+```html
 <form>
   <legend>
     Choose favorite music genre/s
@@ -104,7 +104,7 @@ Example with multiple checkboxes:
 
 ![checkbox-music](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22width%3A100%25%22%20viewBox%3D%220%200%20320%20209%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%22209%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%20transform%3D%22translate%2839%20150%29%22%3E%3Ctspan%20x%3D%220%22%20y%3D%2214%22%3EFolk%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%20transform%3D%22translate%2839%20131%29%22%3E%3Ctspan%20x%3D%220%22%20y%3D%2214%22%3EReggae%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%20transform%3D%22translate%2839%20112%29%22%3E%3Ctspan%20x%3D%220%22%20y%3D%2214%22%3EBlues%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%20transform%3D%22translate%2839%2093%29%22%3E%3Ctspan%20x%3D%220%22%20y%3D%2214%22%3EHouse%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%20transform%3D%22translate%2839%2074%29%22%3E%3Ctspan%20x%3D%220%22%20y%3D%2214%22%3EJazz%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%20transform%3D%22translate%2839%2055%29%22%3E%3Ctspan%20x%3D%220%22%20y%3D%2214%22%3ECountry%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%20transform%3D%22translate%2839%2036%29%22%3E%3Ctspan%20x%3D%220%22%20y%3D%2214%22%3ERock%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%20transform%3D%22translate%2820%2018%29%22%3E%3Ctspan%20x%3D%220%22%20y%3D%2214%22%3EChoose%20favorite%20music%20genre%2Fs%3C%2Ftspan%3E%3C%2Ftext%3E%3Crect%20width%3D%2213%22%20height%3D%2213%22%20x%3D%2221%22%20y%3D%2239%22%20stroke%3D%22%23A5A5A5%22%20rx%3D%222%22%2F%3E%3Crect%20width%3D%2213%22%20height%3D%2213%22%20x%3D%2221%22%20y%3D%2258%22%20stroke%3D%22%23A5A5A5%22%20rx%3D%222%22%2F%3E%3Crect%20width%3D%2213%22%20height%3D%2213%22%20x%3D%2221%22%20y%3D%2277%22%20stroke%3D%22%23A5A5A5%22%20rx%3D%222%22%2F%3E%3Crect%20width%3D%2213%22%20height%3D%2213%22%20x%3D%2221%22%20y%3D%2296%22%20stroke%3D%22%23A5A5A5%22%20rx%3D%222%22%2F%3E%3Crect%20width%3D%2213%22%20height%3D%2213%22%20x%3D%2221%22%20y%3D%22115%22%20stroke%3D%22%23A5A5A5%22%20rx%3D%222%22%2F%3E%3Crect%20width%3D%2213%22%20height%3D%2213%22%20x%3D%2221%22%20y%3D%22134%22%20stroke%3D%22%23A5A5A5%22%20rx%3D%222%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2211.5%22%20transform%3D%22translate%2827%20173%29%22%3E%3Ctspan%20x%3D%220%22%20y%3D%2210%22%3ESubmit%20%3C%2Ftspan%3E%3C%2Ftext%3E%3Crect%20width%3D%2213%22%20height%3D%2213%22%20x%3D%2221%22%20y%3D%22153%22%20stroke%3D%22%23A5A5A5%22%20rx%3D%222%22%2F%3E%3Crect%20width%3D%2250%22%20height%3D%2217%22%20x%3D%2219%22%20y%3D%22171%22%20stroke%3D%22%23D9D9D9%22%20rx%3D%224%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/qyRaPO)-->
+<!--[View CodePen](https://codepen.io/enkidevs/pen/qyRaPO)--> 
 
 In the example above, we have 7 checkboxes, each with the same name - `genre` and each with a unique value that is used to identify each checkbox. Also, each button has an id. This id is used with the `<label>` element's `for` attribute to link the label to the checkbox.
 
@@ -119,7 +119,7 @@ When this data is submitted and sent to the server, it can be captured as an arr
 Furthermore, you can add a `checked` attribute to make a checkbox checked by default. Additionally, if the answers you provided are not enough, you can add an `other` checkbox with a `textfield` for the user to type an answer themselves.
 
 Example:
-```
+```html
 <form>
  <div>
     <input
@@ -172,46 +172,45 @@ Checkboxes have three possible states, these are `checked`, `unchecked` and:
 
 Create a checkbox group with two checkboxes and larger clickable area
 
- ```
-<???>
+
+ ```html
+<tagA>
   <legend>
     Choose favorite meal
   </legend>
     <div>
-     <???
-        type="???" id="soup"
-        name="meal" value="soup" ???>
-     <???
+     <tagB
+        type="tagC" id="soup"
+        name="meal" value="soup" tagD>
+     <tagE
         for="soup">Soup
-     <???>
+     </tagE>
     </div>
     <div>
-     <???
-        type="???" id="burgers"
+     <tagB
+        type="tagC" id="burgers"
         name="meal" value="burgers">
-     <???
+     <tagE
         for="burgers">Burgers
-     </???>
+     </tagE>
     </div
-<???>
+</tagA>
 ```
+tagA: ???
+tagB: ???
+tagC: ???
+tagD: ???
+tagE: ???
 
 * form
 * input
 * checkbox
 * checked
 * label
-* /label
-* input
-* checkbox
-* label
-* /label
-* /form
 * squarebox
-* /squarebox
 * button
-* /button
 * userInput
+* checkedbox
 
 ---
 ## Quiz
@@ -226,3 +225,4 @@ How are checkboxes styled?
 * Can't be styled
 * With proper HTML
 * Using the `style` menu each browser provides for HTML editting
+ 

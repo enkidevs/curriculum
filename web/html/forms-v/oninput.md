@@ -28,7 +28,7 @@ links:
 The HTML `oninput` event occurs immediately after the value of an element has changed.
 
 Here's an `oninput` event that will executing a JavaScript function after the user puts in a value:
-```
+```html
 <input
   type="text"
   oninput="jsFunction()">
@@ -38,7 +38,7 @@ Here's an `oninput` event that will executing a JavaScript function after the us
 
 The `oninput` event is similar to the `onchange` event, except the `oninput` event occurs immediately after the value has changed, and the `onchange` event occurs after the element loses focus after the content has changed. Another difference is that the `onchange` event works with `<select>` elements.
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/rrBbWb)-->
+<!--[View CodePen](https://codepen.io/enkidevs/pen/rrBbWb)--> 
 
 ---
 ## Practice
@@ -57,7 +57,7 @@ onchange: ???
 
 Which form attribute is used to call a JavaScript when a user writes something within an `<input>` field?
 
-```
+```html
 <input
   type="text"
   ???="jsFunction()">
@@ -80,3 +80,4 @@ Which event occurs immediately after the value of an element has changed.
 * onoutput
 * script
 * function
+ 

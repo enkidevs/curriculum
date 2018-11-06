@@ -50,7 +50,7 @@ Result:
 
 <!--[View CodePen](https://codepen.io/enkidevs/pen/vaKKQZ)-->
 
-In the example above, the `Visit Enki's 5-minute workouts!` is the hyperlink, and by clicking on the text will open the URL provided in the `href="URL"` attribute. The attribute `href` is the most important element because it specifies the destination(URL) of where the link should open.
+In the example above, the `Visit Enki's 5-minute workouts!` is the hyperlink, and by clicking on the text will open the URL provided in the `href="URL"` attribute. The attribute `href` is the most important element because it specifies the destination(URL) of where the link should open. 
 
 By default, links open within the existing tab or window. The linked page can be directed to open differently by setting  \the `_target="???"` attribute with these options:
 
@@ -163,3 +163,4 @@ Which line of code will link text to open a new window?
 * `<link href="http://enki.com" open="new">Link to Enki</link>`
 * `<a src="http://enki.com" window="_new">Link to Enki</a>`
 * `<a href="http://enki.com" target="_new">Link to Enki</a>`
+ 

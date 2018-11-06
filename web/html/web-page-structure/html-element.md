@@ -33,7 +33,7 @@ Within every `<html>` element are two primary elements:
 * `<body>`: The content of the page itself.
 
 Example:
-```
+```html
 <!DOCTYPE html>
 <html lang="en-GB">
   <head>...</head>
@@ -46,7 +46,7 @@ The `lang` attribute is useful for helping both search engines and screen reader
 The `<html>` element is easily modifiable with CSS by using either the `html` or the `:root` selector. They selectors are identical, except that the `:root` selector's specificity is higher (meaning it will override `html`).
 
 For instance, by adding the CSS:
-```
+```css
 :root {
     background: #ff0000;
 }
@@ -106,3 +106,4 @@ Using a `:root` selector in CSS will target which HTML element?
 * `<main>`
 * `<root>`
 * every HTML element
+ 
