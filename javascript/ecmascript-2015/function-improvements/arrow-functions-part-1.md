@@ -81,8 +81,8 @@ foo() => {
 ```
 
 * `planet`
-* `return planet.length`
 * `planet.length`
+* `return planet.length`
 * `{planet}`
 
 ---
