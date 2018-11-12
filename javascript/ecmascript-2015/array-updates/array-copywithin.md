@@ -77,7 +77,7 @@ alphabet.copyWithin(-2)
 ## Practice
 
 Complete the code example to create an array that looks like this:
-`['7','3','4','5','6','7']`
+`['1','7','3','4','5','6','7']`
 
 ```javascript
 let ints = ['1','2','3','4','5','6','7'];
@@ -85,13 +85,13 @@ ints.copyWithin(???,???,???)
 ```
 
 * 1
-* 2
-* 3
-* 4
-* 5
 * 6
 * 7
 * 8
+* 5
+* 2
+* 3
+* 4
 * 9
 * 0
 
