@@ -38,7 +38,7 @@ The **built-in exceptions** can be subclassed to define **new** exceptions. User
 - `ArithmeticError`  : base class for all errors that occur for **numeric calculations**.
 - `AssertionError`   : raised in case of failure of an assertion[1].
 - `EOFError`         : raised if the `input()` function hits the end-of-file condition (`EOF`) without reading any data.
-- `IndexError`       : raise when trying to access an item that is out of sequence's boundaries.
+- `IndexError`       : raised when trying to access an item that is out of sequence's boundaries.
 - `NameError`        : raised when an identifier is not found in the **local** or **global** namespace.
 - `UnboundLocalError`: raised when trying to access a local variable in a function or method but no     value  has been assigned to it.
 - `SyntaxError`      : raised when Python doesn't understand the statement.
@@ -48,7 +48,7 @@ The **built-in exceptions** can be subclassed to define **new** exceptions. User
 ---
 ## Practice
 
-If we use an undefined variable, what type of exception will the parser rise?
+If we use an undefined variable, what type of exception will the parser raise?
 ???
 
 

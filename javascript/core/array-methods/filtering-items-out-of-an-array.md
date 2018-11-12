@@ -61,7 +61,7 @@ let activated = persons.filter(
 
 ```
 [1,2,3,4].filter(x => x % 2);
-// => [2,4]
+// => [1,3]
 
 
 
