@@ -41,8 +41,7 @@ Another, on HTML elements directly:
 <input
   type="button"
   value="test"
-  onclick="alert('hello');"
-/>
+  onclick="alert('hello');">
 ```
 
 Whilst these are valid approaches, both of them lead to HTML which is hard to maintain.
@@ -60,7 +59,7 @@ This script can then be referenced with the src attribute of the script tag:
 ```html
 <script 
   src="hello.js">
-<script>
+</script>
 ```
 
 We can even reference scripts hosted on another server – it's common to do this when working with third party libraries:

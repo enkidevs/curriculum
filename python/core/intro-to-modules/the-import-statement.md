@@ -90,7 +90,6 @@ counter.increment() # 2
 * `increment()`
 * `increment:`
 * `as`
-* `counter`
 * `count`
 * `print`
 * `counter;`
