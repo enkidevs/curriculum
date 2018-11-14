@@ -53,7 +53,7 @@ The bullet can be changed using CSS styling:
 ![list-styles](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%22101%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%22101%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ccircle%20cx%3D%2222.5%22%20cy%3D%2227.5%22%20r%3D%222.5%22%20fill%3D%22%23000%22%2F%3E%3Ccircle%20cx%3D%2222.25%22%20cy%3D%2244.25%22%20r%3D%222.25%22%20stroke%3D%22%23000%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2237%22%20y%3D%2232%22%3Edisc%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2237%22%20y%3D%2249%22%3Ecircle%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2237%22%20y%3D%2266%22%3Esquare%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2237%22%20y%3D%2283%22%3Enone%3C%2Ftspan%3E%3C%2Ftext%3E%3Cpath%20fill%3D%22%23000%22%20d%3D%22M20%2059h4.5v4.5H20z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/qKMMyr)-->
+<!--[View CodePen](https://codepen.io/enkidevs/pen/qKMMyr)--> 
 
 Additionally, the `<ul>` element can be nested with itself any number of times. The primary unordered list is displayed with the discs by default,  nested lists will display with the circles by default, nested lists within nested lists will display with the squares by default.
 

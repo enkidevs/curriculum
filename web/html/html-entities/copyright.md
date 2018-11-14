@@ -29,7 +29,7 @@ Some characters are not easily typed on the keyboard, like the Copyright (©) ch
 
 To display the Copyright symbol, you can use either the HTML entity *number* or the entity *name*.
 
-HTML Entity Number:
+HTML Entity Number: 
 ```html
 &#169;
 ```

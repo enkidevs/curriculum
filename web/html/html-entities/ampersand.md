@@ -34,7 +34,7 @@ An ampersand or the "and" symbol is one of those reserved characters.
 
 To display the ampersand symbol, you can use either the HTML entity *number* or the entity *name*.
 
-HTML Entity Number:
+HTML Entity Number: 
 ```html
 &#38;
 ```

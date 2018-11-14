@@ -33,7 +33,7 @@ These three lines of **CSS** will select every element on the page and give them
 }
 ```
 
-Elements inside other elements will get darker and darker.
+Elements inside other elements will get darker and darker. 
 
 This approach is useful when dealing with box models and when wanting to see how `padding` and `margin` affect each other.
 

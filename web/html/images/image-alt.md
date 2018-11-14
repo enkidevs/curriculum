@@ -27,7 +27,7 @@ links:
 ---
 ## Content
 
-All image `<img>` elements are encouraged to use `alt` attributes which specifies alternate text for the image.
+All image `<img>` elements are encouraged to use `alt` attributes which specifies alternate text for the image. 
 
 Example:
 ```html

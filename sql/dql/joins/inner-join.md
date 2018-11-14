@@ -106,12 +106,12 @@ Here's the operation depiction:
 
 An *INNER JOIN* is a type of join that only returns rows for which the joined field (`id` for `ability` and `ability_id` for `ability_effect_text`) are common: if there were some abilities without an effect text or some effects not describing an ability, they wouldn't be included in query result.
 
-There were a total of `191` rows returned by the query versus `251` abilities and `191` text effects.
+There were a total of `191` rows returned by the query versus `251` abilities and `191` text effects. 
 
 ---
 ## Practice
 
-Fill in the blanks such that the following snippet contains a valid JOIN operations:
+Fill in the blanks such that the following snippet contains a valid JOIN operation:
 ```sql
 ??? item.id, item.name,
   item_effect_text.short_effect,

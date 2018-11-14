@@ -36,7 +36,7 @@ The HTML `<dfn>`, or the **Definition** element, is used to specify a term that'
 ![element-dfn](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2278%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2278%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Roboto-Italic%2C%20Roboto%22%20font-size%3D%2216%22%20font-style%3D%22italic%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2234%22%3EEnki%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2249.32813%22%20y%3D%2234%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%3E%20is%20an%20app%20that%20provides%20daily%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2220%22%20y%3D%2253%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%3Eworkouts%20for%20your%20dev%20skills.%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
 
-**Note:** The `<dfn>` elements main purpose is to provide semantic meaning. Other than that, it has no special functionality.
+**Note:** The `<dfn>` elements main purpose is to provide semantic meaning. Other than that, it has no special functionality. 
 
 Also, the `<dfn>` element has a `title` attribute. If the `title` attribute is present, the content of the `<dfn>` element, which is the value of the `title` attribute, has to be the term being defined and nothing else.
 

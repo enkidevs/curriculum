@@ -2,9 +2,7 @@
 author: Nick Daminov
 
 levels:
-
   - beginner
-
   - basic
 
 type: normal
@@ -13,9 +11,6 @@ category: must-know
 
 inAlgoPool: false
 
-tags:
-  - introduction
-
 aspects:
   - introduction
 
@@ -23,7 +18,6 @@ standards:
   sql.read-single-table.0: 10
 
 links:
-
   - '[More Query Languages](https://en.wikipedia.org/wiki/Query_language){website}'
 
 ---
@@ -70,6 +64,3 @@ How do you select all the rows and columns from a table called `products`?
 * `GO GET ALL PRODUCTS`
 * `SELECT EVERYTHING FROM products`
 * `SELECT * FROM items`
- 
- 
- 

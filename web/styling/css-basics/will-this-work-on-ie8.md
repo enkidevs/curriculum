@@ -16,7 +16,7 @@ category: feature
 ---
 
 # Will this work on IE8?
-
+ 
 ---
 ## Content
 
@@ -28,6 +28,7 @@ Let's find out.
 ## Game Content
 
 no way...:it works!
+
 ```true
 
 position:fixed;
@@ -152,3 +153,43 @@ The `resize` property controls if and how an element can be resized by the user 
 
 ```
  
+
+```true
+position:fixed;
+%exp
+`position` property specifies the type of positioning method used. IE supports this property since version 8.
+%
+display: inline-block;
+%exp
+This property generates inline elements that can have width and height. It was introduced in IE8.
+%
+display:table;
+%exp
+`table` property defines a block-level box, which behaves like a `<table>` HTML element. It's supported since IE8.
+%
+outline-color: invert;
+%exp
+`invert` ensures outline colour is visible.
+
+This property is supported by IE since version 8.
+%
+counter-reset: counter-name;
+%exp
+`counter-reset`property sets the specified counter to 0.
+
+The first version of IE to support this property is IE8.
+%
+word-break: break-all;
+%exp
+`break-all` allows word breaks (a point at which a word is split between two lines of text by means of a hyphen) to be inserted between any character for non-CJK (Chinese/Japanese/Korean) text.
+
+IE8 supports this property.
+%
+box-sizing: border-box;
+%exp
+`border-box` element's specified width and height aren't affected by padding or borders.
+
+This property is compatible with IE8.
+%
+```
+

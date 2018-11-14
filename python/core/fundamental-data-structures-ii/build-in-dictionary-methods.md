@@ -126,8 +126,6 @@ Suppose we want to create a dictionary having the following keys starting from `
 new = ???.???(
   [1, 2, 3, 4, 5], ???)
 ```
-???
-
 
 * `{}`
 * `fromkeys`

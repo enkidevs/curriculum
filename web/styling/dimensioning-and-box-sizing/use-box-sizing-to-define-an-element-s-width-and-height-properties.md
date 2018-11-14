@@ -43,7 +43,7 @@ The default value for `box-sizing` is `content-box`. This setting indicates only
 
 Using `padding-box` will include the content and padding, but is only supported in Firefox.
 
-The most popular value `border-box` will include content, padding and border. This makes working with percentages and building the layout easier, since the total `width` and `height` values include all three properties.
+The most popular value `border-box` will include content, padding and border. This makes working with percentages and building the layout easier, since the total `width` and `height` values include all three properties. 
 
 Both squares are initially defined as `250×250`. Because of the different `box-sizing` values, one expands because of the padding, while the other does not:
 

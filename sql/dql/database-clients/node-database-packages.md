@@ -2,9 +2,7 @@
 author: Nick Daminov
 
 levels:
-
   - basic
-
   - medium
 
 type: normal
@@ -18,28 +16,18 @@ standards:
   sql.connect-client.1: 10
 
 tags:
-
-  - workout
-
   - node
-
   - javascript
-
   - implementation
-
   - database packages
 
-
 links:
-
   - '[Node database packages](https://www.npmjs.com/browse/keyword/database){website}'
   - '[pg node package](https://www.npmjs.com/package/pg){website}'
   - '[pg video tutorial](https://www.youtube.com/watch?v=hzixG7gFTxY){website}'
 
-
 aspects:
   - workout
-
 
 ---
 

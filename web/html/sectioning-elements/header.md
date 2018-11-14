@@ -65,7 +65,7 @@ The `<header>` container doesn't have any visual style without CSS. The CSS in t
 
 The `<header>` container doesn't have any visual style without CSS. The CSS in this example may be a bit complex at this time, but hopefully it inspires you to learn more CSS! 
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/NBrNPx)-->
+<!--[View CodePen](https://codepen.io/enkidevs/pen/NBrNPx)--> 
 
 Even though you can have multiple `<header>` elements, you can't nest  `<header>` elements within another `<header>` element. Also, the `<header>` element can't be within a `<footer>` or an `<address>` element.
 
