@@ -42,7 +42,7 @@ For instance, lets say we have this HTML:
 <p class="demo">
   Some text
 </p>
-```
+``` 
 and we have this CSS:
 ```css
 .demo {
