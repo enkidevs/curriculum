@@ -58,11 +58,7 @@ You can verify if a table was succesfully created using `\d first_table;` when w
 ---
 ## Practice
 
-Create a table that:
-- is called "student"
-- first column: id, char(50)
-- second column: full_name, char(50)
-- third column: year_of_study, smallint
+Create a table that is called “student” where the first column contains the `id` that is a `char(50)`, the second column contains the `full_name` that is a `char(50)`, and the third column contains the `year_of_study` that is a `smallint`.
 ```
 ??? TABLE student(
   id char(50) ???,
@@ -71,7 +67,6 @@ Create a table that:
   PRIMARY KEY(???)
 );
 ```
-
 
 * CREATE
 * NOT NULL
@@ -95,7 +90,6 @@ column3: salary int
 * CREATE TABLE employees ( ID char(50), full_name char(50), salary int, PRIMARY KEY(ID));
 * UPDATE TABLE employees ( ID char(50), full_name char(50), salary int, PRIMARY KEY(ID));
 * CREATE TABLE employees ( ID char(50), full_name char(50), salary int, PRIMARY KEY(full_name));
-
 
 ---
 ## Footnotes

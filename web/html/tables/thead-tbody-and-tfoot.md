@@ -75,7 +75,7 @@ Match the HTML elements with their descriptions:
 ???: used for grouping table rows.
 
 * `thead`
-* `tfooter`
+* `tfoot`
 * `tbody`
 * `title`
 * `caption`

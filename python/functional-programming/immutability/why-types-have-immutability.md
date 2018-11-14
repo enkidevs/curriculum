@@ -86,7 +86,6 @@ Which of the following is not a benefit of using immutable objects?
 * 4
 * 5
 * 6
-* 7
 * 8
 
 ---

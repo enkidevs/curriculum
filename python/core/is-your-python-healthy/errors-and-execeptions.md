@@ -88,9 +88,8 @@ def sum():
 Which of the following is an alternative name for compile time errors?
 ???
 
-
+* `syntax errors`
 * `exceptions`
 * `bugs`
 * `errors`
-* `syntax errors`
 * `parse errors`

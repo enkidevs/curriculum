@@ -64,12 +64,12 @@ console.log(z)
 
 * x,
 * ,
-* ,z
+* z
 * x
 * y
 * ,y
 * y,
-* z
+* ,z
 
 ---
 ## Revision

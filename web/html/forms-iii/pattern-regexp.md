@@ -70,7 +70,7 @@ Another popular example, where a more complicated pattern is used to force the u
   <input
    type="password" name="pw"
     pattern="(?=.*\d)(?=.*[a-z])
-      (?=.*[A-Z]).{8,}"
+      (?=.*[A-Z]).{8,20}"
     title="The password must contain
      one lowercase and uppercase letters,
      one number,

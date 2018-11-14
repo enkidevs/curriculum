@@ -55,6 +55,7 @@ The DOM now looks like this:
 ```
 
 Remember: if you want to overwrite the contents of an element, set the `innerHTML` property. If you just want to add to an element's contents you should use the `appendChild` method.
+
 ---
 ## Practice
 

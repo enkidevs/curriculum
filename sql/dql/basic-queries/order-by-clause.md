@@ -86,7 +86,7 @@ count | language_id
 (7 rows)
 ```
 
-Note that the ascending order is set as default. If we want to display the result in a descending order we need to put `DESC` after the specifying the columns.
+Note that the ascending order is set as default. If we want to display the result in a descending order we need to put `DESC` after specifying the columns.
 
 ---
 ## Practice
@@ -100,7 +100,7 @@ FROM ???
 GROUP BY language_id
 ??? language_id ???;
 ```
-*Result:*
+Result:
 ```
 count | language_id
 ======+============
@@ -125,7 +125,7 @@ count | language_id
 ---
 ## Revision
 
-We have a table called location. It has data about the location's name and the region that each location belongs to. We want to count how many locations has each region. Then we want to display the results in ascending order of the counted values.
+We have a table called `location`. It has data about the location's name and the region that each location belongs to. We want to count how many locations has each region. Then we want to display the results in ascending order of the counted values.
 ```sql
 SELECT ???(name),region_id
 FROM location

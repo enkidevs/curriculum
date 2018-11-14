@@ -2,21 +2,17 @@
 author: elliehoward
 
 levels:
-
   - beginner
-
   - basic
 
 tags:
-
   - introduction
 
 type: exercise
 
 link: http://www.codewars.com/kata/5504b15fd181b977c30001d5/train/javascript
-linkType: codewars
-standards:
 
+linkType: codewars
 
 links:
 
