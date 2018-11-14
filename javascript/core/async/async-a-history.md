@@ -51,14 +51,14 @@ Use promises as a placeholder for a future value, like an order number at a fast
 
 Pause and continue a generator function from a `yield` point. This is designed for synchronous programming but can be hacked into working asynchronously.
 
-**ES7 async** 
+**ECMAScript2017 async** 
 
-In ES7 it will be possible to use the `async` keyword to create an async function. The `await` keyword works similarly to `yield`.
+In ECMAScript2017 it will be possible to use the `async` keyword to create an async function. The `await` keyword works similarly to `yield`.
 
 ---
 ## Practice
 
-In ES7, it'll be possible to use the ??? keyword to create an async function. The ??? keyword works similarly to yield.
+In ECMAScript2017, it'll be possible to use the ??? keyword to create an async function. The ??? keyword works similarly to yield.
 
 
 * async

@@ -31,7 +31,7 @@ It's appropriate to create a **new class** to help implement an **abstract data 
 
 **Queues** are abstract data structures that follow the principle of **first in, first out** (FIFO) when adding or removing an element.
 
-The addition of elements is called **enqueue** and every new element is inserted at the back of the queue. The oposite action is called **dequeue** and it returns the first element from the queue.
+The addition of elements is called **enqueue** and every new element is inserted at the back of the queue. The opposite action is called **dequeue** and it returns the first element from the queue.
 
 
 Let's define a **queue** class now:

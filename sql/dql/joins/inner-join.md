@@ -111,7 +111,7 @@ There were a total of `191` rows returned by the query versus `251` abilities an
 ---
 ## Practice
 
-Fill in the blanks such that the following snippet contains a valid JOIN operations:
+Fill in the blanks such that the following snippet contains a valid JOIN operation:
 ```sql
 ??? item.id, item.name,
   item_effect_text.short_effect,

@@ -23,20 +23,20 @@ aspects:
 
 
 ---
-# JavaScript or EcmaScript?
+# JavaScript or ECMAScript?
 
 ---
 ## Content
 
-The language that would become JavaScript was created by **Brendan Eich** in 1995 and then standardized by an organization called ECMA as **EcmaScript-262**. The standardization was needed as two versions of the initial JavaScript (Netscape's JavaScript and Microsoft's JScript) came out, similar enough to be considered "versions", but different enough to cause confusion.
+The language that would become JavaScript was created by **Brendan Eich** in 1995 and then standardized by an organization called ECMA as **ECMAScript-262**. The standardization was needed as two versions of the initial JavaScript (Netscape's JavaScript and Microsoft's JScript) came out, similar enough to be considered "versions", but different enough to cause confusion.
 
 What ECMAScript does is to provide a schema which regulates the underlying behavior of the implementing languages.
 
 The current JavaScript is considered a **dialect** (or implementation) of ECMAScript, but there are other popular dialects in use such as Adobe’s ActionScript.
 
-At the time of writing the current version of EcmaScript is **ECMAScript 2015** which is also sometimes referred to as **ECMAScript 6** or just **ES6**.
+At the time of writing the current version of ECMAScript is **ECMAScript 2015** which is also sometimes referred to as **ECMAScript 6** or just **ES6**.
 
-### EcmaScript and Web Pages
+### ECMAScript and Web Pages
 
 ECMAScript has no methods for manipulating or working with web pages.
 
@@ -47,7 +47,7 @@ In conclusion, JavaScript and ECMAScript are not precisely the same, but the dev
 ---
 ## Practice
 
-What is EcmaScipt?
+What is ECMAScipt?
 
 ???
 
@@ -64,6 +64,6 @@ Which one of the following came first ?
 ???
 
 * JavaScript
-* EcmaScript-262
-* EcmaScript 2016
+* ECMAScript-262
+* ECMAScript 2016
  
