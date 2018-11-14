@@ -26,7 +26,7 @@ links:
 ---
 # Table It
 ---
-
+ 
 ## Content
 
 Play the game determining which attribute is deprecated or obsolete and which is still in use:
