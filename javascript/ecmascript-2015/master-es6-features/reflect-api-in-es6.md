@@ -62,7 +62,8 @@ Reflect.apply(func, thisArg, args) // ES6
 Complete the missing code bits to implement functionality that is otherwise only available via operators:
 
 ```javascript
-Reflect.???(target, propertyKey, ???)
+Reflect.???(target,
+    propertyKey, ???)
 ```
 
 
