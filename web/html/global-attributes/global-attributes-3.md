@@ -21,7 +21,7 @@ aspects:
 links:
   -  '[MDN docs on Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
 ---
-# Intro Global Attributes 3
+# Global Attributes 3
 ---
 ## Content
 
