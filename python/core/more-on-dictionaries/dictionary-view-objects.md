@@ -49,7 +49,7 @@ The number of entries in a dictionary can be easily obtained using the `len(dict
 2
 ```
 
-One reason for using *view objects* is that iteration over a dictionary is more efficient then using lists for this purpose.
+One reason for using *view objects* is that iteration over a dictionary is more efficient than using lists for this purpose.
 Dictionary's `iter()` method works on dictionary views, returning an iterator over keys, values or items:
 ```python
 iter(keys)
@@ -58,6 +58,7 @@ iter(keys)
 
 Also *view objects* provide efficient ways to perform containment tests and set-like operations ( eg. Intersections, Differences, etc. )
 The `in` keyword, which is used for testing collection membership, can be used both on dictionaries and dictionary views:
+
 ```python
 >>> 'one' in keys
 True
@@ -82,7 +83,6 @@ Complete the code snippet to return the number of entries in the dictionary:
 * keys()
 * length
 * size
-* keys
 
 ---
 ## Revision

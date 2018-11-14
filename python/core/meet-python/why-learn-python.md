@@ -23,7 +23,7 @@ inAlgoPool: false
 ---
 ## Content
 
-Python was designed to be understand and read. It uses English keywords and meaningful white space and does not require typed variable declarations.
+Python was designed to be easily understood and read. It uses English keywords and meaningful white space and does not require typed variable declarations.
 
 
 For example, a `for` loop in Python uses self-explanatory English keywords:
