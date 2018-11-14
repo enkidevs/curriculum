@@ -15,7 +15,7 @@ category: must-know
 
 standards:
   javascript.aggregation-pipeline.0: 10
-  
+  javascript.aggregation-pipeline.7: 10
    
 links:
   
@@ -67,7 +67,6 @@ Output:
 { 
   "name" : "Omanyte", 
   "type" : "Rock", 
-  "power" : 303, 
   "ability" : [
     { 
       "Ultimate" : "Hydro-Pump" 
@@ -91,7 +90,7 @@ _id:3,
 }
 ```
 ```javascript
-db.collection.aggregate( 
+db.pokemon.aggregate( 
   [ 
     { 
       $project: {
@@ -124,3 +123,83 @@ Output:
 ---
 ## Practice
 
+Let's say we have a `pokemon` collection where each pokémon has a `name`, `_id`, `type`, `power` and an `abilities` array field. Aggregate the collection, exclude the `_id` field and only include the `power` and `type` fields, as well as the `Ultimate` ability.
+
+```javascript
+{ 
+  "_id" : 12, 
+  "name" : "Carizard", 
+  "type" : "Flame", 
+  "power" : 651, 
+  "abilities" : [ 
+    { 
+      "Basic" : "Fire Breath" 
+    }, 
+    { 
+      "Strong" : "Bite" 
+      }, 
+    { 
+      "Ultimate" : "Napalm" 
+    }
+  ] 
+}
+---------------------------------
+db.pokemon.???(
+  [
+    {
+      ???:{
+        _id:???,
+        ???:1,
+        power:???,
+        "???.???":1
+      }
+    }
+  ]
+)
+```
+
+* `aggregate`
+* `$project`
+* `0`
+* `name`
+* `1`
+* `abilities`
+* `Ultimate`
+* `find`
+* `locate`
+* `ultimate`
+* `%project`
+
+---
+## Revision
+
+Let's say we have a `shoes` collection with `5000` shoes of all sizes. Each shoe has 5 sizes saved in fields called `size1`,`size2`...`size5`. Create an aggregation that will combine all 5 shoe sizes in a new array called `sizes`.
+
+```javascript
+db.shoes.aggregate( 
+  [ 
+    { 
+      $project: {
+         sizes: [ 
+           "$size1", 
+           "$size2",
+           "$size3", 
+           "$size4",
+           "$size5" 
+        ]
+      } 
+    }
+  ] 
+)
+```
+
+* `shoes`
+* `aggregate`
+* `$project`
+* `sizes`
+* `SHOES`
+* `find`
+* `$group`
+* `SIZES`
+* `%project`
+* `%sizes`

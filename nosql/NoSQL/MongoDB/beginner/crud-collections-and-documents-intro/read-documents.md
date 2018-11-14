@@ -142,7 +142,7 @@ Which method is used to list all documents located within a single collection?
 
 ???
 
-Which piece of code lists only the first 3 documents of the `pokemon` collection?
+Which piece of code lists only the first `3` documents of the `pokemon` collection?
 
 ???
 

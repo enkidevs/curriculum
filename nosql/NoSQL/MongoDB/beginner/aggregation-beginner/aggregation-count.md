@@ -99,7 +99,7 @@ Which string can be used as the name of the output field for the `$count` aggreg
 
 * To count the number of documents that entered the aggregation pipeline
 * `{$count: "totalNumber"}`
-* To sort documents based on the specifieed number
+* To sort documents based on the specified number
 * To count the number of aggregation stages each document passes through
 * `{$count: "$totalNumber"}`
 * `{$count: ""}`
@@ -110,7 +110,7 @@ Which string can be used as the name of the output field for the `$count` aggreg
 
 Let's say we have a collection named `students` with 2000 documents. Each student has a `name`, `studentId` and `averageGrade` field.
 
-Count the number of students whose average grade is 95 or above and output the result in a field named `numOfExemplaryStudents`.
+Count the number of students whose average grade is `95` or above and output the result in a field named `numOfExemplaryStudents`.
 
 ```javascript
 db.???.aggregate(
