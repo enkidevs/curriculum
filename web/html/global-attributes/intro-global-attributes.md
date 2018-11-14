@@ -17,7 +17,7 @@ aspects:
   - introduction
   - workout
   - deep
-
+ 
 links:
   -  '[MDN docs on Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
 ---
