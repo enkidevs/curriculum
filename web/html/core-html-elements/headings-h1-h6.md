@@ -46,7 +46,7 @@ Headings appear like this:
 
 <!--[View CodePen](https://codepen.io/enkidevs/pen/KBMMBb)-->
 
-Search engines interpret headings as part of your page and use the hierarchy to help understand the importance of the content of the web page. It is important that regardless of how much content the web page has, each web page has at least one `<h1>` highlighting the most important topic of the page. 
+Search engines interpret headings as part of your page and use the hierarchy to help understand the importance of the content of the web page. It is important that regardless of how much content the web page has, each web page has at least one `<h1>` highlighting the most important topic of the page.   
 
 An `h1` should describe the topic of the entire page. `h2`'s typically describe primary blocks of content within the page, and `h3`'s describe less important blocks of content, etc. 
 

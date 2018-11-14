@@ -19,7 +19,6 @@ links:
   - '[CodePen: u Element ](https://codepen.io/enkidevs/pen/OwWVBe){code}'
   - '[MDN docs for u](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u){website}'
   - '[MDN docs for mark](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark){website}'
-  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
 
 ---
 # Markup for Editing
@@ -30,14 +29,14 @@ links:
 
 The `<mark>`, or the **Mark Text** element, is used to specify that some text is marked or highlighted. The `<mark>` element is often used to indicate a part of the text of the document that is relevant to the user's search.
 
-```
+```html
 <p>Highlight this
 <mark>important</mark>
 text in this paragraph.</p>
 ```
 ![editing-elements-mark](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2276%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2276%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Cpath%20fill%3D%22%23FFFF02%22%20d%3D%22M117%2021h71v17h-71z%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2234%22%3EHighlight%20this%20important%20text%20in%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2220%22%20y%3D%2253%22%3Ethis%20paragraph.%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/GBrJdP)-->
+<!--[View CodePen](https://codepen.io/enkidevs/pen/GBrJdP)--> 
 
 The text within the `<mark>` element is usually rendered with a yellow background, but the `background-color: yellow;` of the element can be changed using CSS.
 
@@ -48,7 +47,7 @@ Also, when `<mark>` is used within a `<q>` or `<blockquote>` element it indicate
 
 The `<u>`, or the **Unarticulated Annotation** element, is used to indicate that some text should be rendered differently from the rest of the text in a way that indicated non-textual annotation. The content of the `<u>` element is usually rendered as underlined. Nevertheless, you can change this by using the appropriate CSS styling - from this `text-decoration: underline;` to something like `text-decoration: #f00 wavy underline;`.
 
-```
+```html
 <p>You could use this element
 to highlight <u>speling</u>
 mistakes, so the writer
@@ -72,7 +71,7 @@ The `<u>` element is often used to annotate spelling errors, proper nouns and/or
 
 Underline the word "mispell":
 
-```
+```html
 <p>
   Try not to
   <tag>mispell</tag>
@@ -84,7 +83,7 @@ tag = ???
 
 Highlight "100 laps" within the blockquote:
 
-```
+```html
 <blockquote>
 <p>
   "I just ran

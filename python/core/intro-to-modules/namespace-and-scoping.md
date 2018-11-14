@@ -88,7 +88,7 @@ A global variable
 ---
 ## Practice
 
-Consider the following snippet. On which scoping level of hierarchy do you think `z` is?
+Consider the following snippet. In what scope do you think `z` is in?
 
 
 ```python

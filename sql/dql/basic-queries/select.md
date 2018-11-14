@@ -2,11 +2,8 @@
 author: lizTheDeveloper
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
 
 type: normal
@@ -15,24 +12,17 @@ category: must-know
 
 inAlgoPool: false
 
-tags:
-
-  - introduction
-
-  - workout
 
 standards:
   sql.read-single-table.0: 10
   sql.read-single-table.1: 10
 
 links:
-
   - '[SQL Tutorial: SELECT](http://www.sql-tutorial.com/sql-select-sql-tutorial/){website}'
 
 aspects:
   - introduction
   - workout
-
 
 ---
 

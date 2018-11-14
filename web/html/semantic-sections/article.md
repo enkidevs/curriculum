@@ -21,8 +21,7 @@ aspects:
   - deep
   
 links:
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article
-  - https://www.w3schools.com/tags/tag_article.asp
+  - '[MDN docs on article](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article){documentation}'
 
 ---
 # Article
@@ -38,7 +37,7 @@ The `<article>` element can contain:
   - blog entry
 
 Example:
-```
+```html
 <article>
   <h1>Facebook</h1>
   <p>

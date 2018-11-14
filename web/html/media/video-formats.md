@@ -35,14 +35,14 @@ As you can see, you really only need 2 HTML5 video formats for modern web browse
 
 This CodePen will provide all the necessary code - it's a decent chuck compared to just the `video` element.
 
-<!--[View CodePen ](https://codepen.io/enkidevs/pen/xJbYLE)-->
+<!--[View CodePen ](https://codepen.io/enkidevs/pen/xJbYLE)--> 
   
 **Note:**
 - If your video plays OK on your local computer, but doesn't play on the web server you should add the video types needed on the .htaccess file in your directory where the video is.
   
 Create a file in your main web folder with the filename `.htaccess`. Then, add this text to the document: 
   
-```
+```text
 AddType video/ogg .ogv
 AddType video/mp4 .mp4
 AddType video/webm .webm

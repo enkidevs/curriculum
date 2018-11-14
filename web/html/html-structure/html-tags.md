@@ -58,18 +58,16 @@ HTML tags are recommended to be written in which case?
 
 ???
 
-How many tags are used in this code:
+How many unique tags are used in this code? ???
 ```
 <h1>Large Text Heading</h1>
 <img src="photos/image.jpg">
 <p>I’m just a simple paragraph.</p>
 ```
 
-???
-
 * `/`
 * lowercase
-* 5
+* 3
 * `^`
 * `<`
 * `>`
@@ -77,7 +75,7 @@ How many tags are used in this code:
 * uppercase
 * camelcase
 * 2
-* 3
+* 5
 * 4
 
 ---

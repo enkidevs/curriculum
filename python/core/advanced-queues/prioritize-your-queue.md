@@ -70,7 +70,7 @@ class Enki(object):
 ```
 
 
-To give an example of when it is advised to use `PriorityQueue`, we can thing of a hospital. Here sick people come with no interruption. Now, in a ideal situation, the hospital's staff would prioritize people depending on how sever their illness is. If there is someone who suffers a headache should be treated only after one whose heart has stopped working was treated. In such a case we would use a `PriorityQueue` treating instantly all sever illnesses and put the others in the queue.
+To give an example of when it is advised to use `PriorityQueue`, we can think of a hospital. Here sick people come with no interruption. Now, in an ideal situation, the hospital's staff would prioritize people depending on how severe their illness is. If there is someone who suffers a headache should be treated only after one whose heart has stopped working was treated. In such a case we would use a `PriorityQueue` treating instantly all severe illnesses and put the others in the queue.
 
 ---
 ## Practice
@@ -97,9 +97,9 @@ temp.put(Order(1000))
 
 * priority
 * `__lt__`
-* >
+* `>`
 * PriorityQueue()
-* <
+* `<`
 * queue
 * `__order__`
 

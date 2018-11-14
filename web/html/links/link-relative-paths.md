@@ -25,12 +25,12 @@ When wanting to link to other web pages or images from a web page located in the
 A relative path is used to point to a file or the location of the file you want to be linked in relation to the webpage being viewed. 
 
 Example of linking a logo located within the same directory as the web page:
-```
+```html
 <img src="logo.svg">
 ```
 
 Example of linking a logo located within the `images` folder:
-```
+```html
 <img src="images/logo.svg">
 ```
 **Note that the `images` folder is located within the current directory, which is the same directory as the website.**

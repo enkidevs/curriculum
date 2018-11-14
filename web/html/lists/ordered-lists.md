@@ -29,13 +29,13 @@ links:
 ## Content
 
 The HTML `<ol>`, or the **Ordered List** element is used to represent an ordered list of items.
-
+```html
 <ol>
   <li>Do this first.</li>
   <li>This second.</li>
   <li>And this last.</li>
 </ol>
-
+```
 ![list-ol](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2288%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2288%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2217%22%20y%3D%2232%22%3E%201.%20Do%20this%20first.%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%2249%22%3E%202.%20This%20second.%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%2266%22%3E%203.%20And%20this%20last.%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
 <!--[View CodePen](https://codepen.io/enkidevs/pen/QBvLQo)-->
@@ -59,7 +59,7 @@ The `type` attribute is used to specify a numbering type for the entire list:
   - `1` specifies numbers(this is the default value)
 
 Example with uppercase Roman numerals type:
-```
+```html
 <ol type="I">
   <li>First</li>
   <li>Second</li>
@@ -70,7 +70,7 @@ Result:
 
 ![list-roman](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2288%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2288%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2217%22%20y%3D%2232%22%3E%20I.%20First%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%2249%22%3E%20II.%20Second%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%2266%22%3E%20III.%20Third%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/ajWoYZ)-->
+<!--[View CodePen](https://codepen.io/enkidevs/pen/ajWoYZ)--> 
 
 **Reversed**
 
@@ -85,7 +85,7 @@ Additionally, the `<ol>` element can be nested with itself any number of times. 
 
 
 Example of a nested list:
-```
+```html
 <ol>
   <li>Item A</li>
   <li>Item B     
@@ -118,7 +118,7 @@ Ordered lists are best used for:
 
 Complete the HTML code to create a numbered list.
 
-```
+```html
 <A>
   <B>Buy Jam</B>
   <B>Open Jam</B>
@@ -144,7 +144,7 @@ B: ???
 What does this code create?
 
 
-```
+```html
 <ol>
   <li>Item</li>
   <li>Item</li>

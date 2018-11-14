@@ -30,7 +30,7 @@ links:
 The HTML `<dl>`, or the **Description List** element is used to represent a description list or a glossary. The items/terms in the `<dl>` element are represented with the `<dt>` element, and the descriptions are specified with the `<dd>` element. The purpose for this is organizing the information in logical ways for search engines. It also provides clear methods for styling with CSS, so don't overlook this method when seeing that the default styling appears that it just indents the content. 
 
 Simple example:
-```
+```html
 <dl>
   <dt>Enki</dt>
   <dd>
@@ -52,7 +52,7 @@ Result:
 Next to having one term and one description, you can have multiple terms as well as multiple descriptions.
 
 The same example with 1 term added:
-```
+```html
 <dl>
   <dt>Enki Pro</dt>
   <dt>Enki</dt>
@@ -70,10 +70,10 @@ Result:
 
 ![list-descriptive-multi](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%22199%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%22199%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2254%22%20y%3D%2291%22%3EFounded%20in%202015%2C%20Enki%20is%20a%20team%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2254%22%20y%3D%22108%22%3Eof%20developers%2C%20educators%2C%20and%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2254%22%20y%3D%22125%22%3Edesigners.%20We%20represent%207%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2254%22%20y%3D%22142%22%3Ecountries%2C%208%20timezones%2C%209%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2254%22%20y%3D%22159%22%3Espoken%20languages%2C%20and%201%20goal%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2254%22%20y%3D%22176%22%3E%E2%80%94%20supporting%20lifelong%20learners.%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2218%22%20y%3D%2232%22%3EEnki%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2218%22%20y%3D%2251%22%3EEnkiApp%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2218%22%20y%3D%2270%22%3EEnkiBot%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/ZjKzON)-->
+<!--[View CodePen](https://codepen.io/enkidevs/pen/ZjKzON)--> 
 
 Again same example, except this time we added another term and a description of that term:
-```
+```html
 <dl>
   <dt>Enki</dt>
   <dt>EnkiApp</dt>
@@ -106,7 +106,7 @@ As you can see in the examples above, you can add as many terms and descriptions
 
 Furthermore, adding description lists can be useful for displaying data that follows the key-value pair organization. Like all the other examples here, this is mainly useful for both search engines to understand the organization of the data as well as for CSS styling purposes. 
 
-```
+```html
 <dl>
   <div>
     <dt>Name:</dt>
@@ -133,7 +133,7 @@ Result:
 
 Complete the HTML code to create a descriptive list.
 
-```
+```html
 <A>
   <B>HTML</B>
   <C>Content of web page</C>
@@ -164,28 +164,28 @@ Option A, B, C or D?
 ???
 
 * A
-```
+```html
 <dl>
   <dt>HTML</dt>
   <dd>Content of web page</dd>
 </dl>
 ```
 * B
-```
+```html
 <dt>
   <dl>HTML</dl>
   <dd>Content of web page</dd>
 </dt>
 ```
 * C
-```
+```html
 <ol>
   <dt>HTML</dt>
   <dd>Content of web page</dd>
 </ol>
 ```
 * D
-```
+```html
 <list>
   <term>HTML</term>
   <desc>Content of web page</desc>

@@ -29,7 +29,7 @@ links:
 
 The HTML `<map>` element is used for creating links on selected portions of an image when used alongside the `<area>` attribute. 
 
-![View CodePen](https://codepen.io/enkidevs/pen/ajbxbX)
+<!--[View CodePen](https://codepen.io/enkidevs/pen/ajbxbX)-->
 
 The clickable area has 3 available shapes:
   - `rect` (Rectangle)
@@ -69,7 +69,7 @@ poly: shape="x1,y1,x2,y2,x3,y3...xn,yn"
 
 Add map elements to create clickable areas within a single image.
 
-```
+```html
 <map name="objects">
   <area shape="???" coords="10,50,82,126"
     alt="" href="object1.htm">
@@ -100,7 +100,7 @@ Add map elements to create clickable areas within a single image.
 
 When using the map element to create clickable areas within a single image, what are the available shapes?
 
-```
+```html
 <map name="imagemap">
   <area shape="_____"
     coords="" alt="" href="page.htm">
@@ -122,7 +122,7 @@ When using the map element to create clickable areas within a single image, what
 
 Place the shape value within the appropriate location to create the proper code.
 
-```
+```html
 <map name="objects">
  <area shape="???"
    coords="10,50,82,126"

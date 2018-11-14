@@ -22,9 +22,9 @@ tags:
 ---
 ## Content
 
-The HTML meta `author` attribute is used to define provides information about who the author of the web page is.
+The HTML meta `author` attribute is used to provide information about who the author of the web page is.
 
-```
+```html
 <meta
   name="author"
   content="John Doe">
@@ -39,7 +39,7 @@ Some content management systems (CMS) have an easier time tracking signed-in edi
 
 Write the meta tag that states that 'John Doe' built the web page.
 
-```
+```html
 <??? ???="???" 
     ???="???">
 ```

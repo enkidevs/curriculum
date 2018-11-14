@@ -17,7 +17,6 @@ tags:
 links:
   - '[CodePen: Element br](https://codepen.io/enkidevs/pen/XBpmqB){code}'
   - '[CodePen: Element br (2)](https://codepen.io/enkidevs/pen/EpZVRO){code}'
-  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
 
 ---
 # Intro br
@@ -26,13 +25,13 @@ links:
 
 The `<br>`, or the **Line Break** element, is used to create a line break in a webpage or document. Line breaks can be very useful for writing poems or an address.
 
-```
+```html
 Some Text<br>Some Text<br>bla bla
 ```
 
 ![element-br](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2294%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2294%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2234%22%3ESome%20Text%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2220%22%20y%3D%2253%22%3ESome%20Text%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2220%22%20y%3D%2272%22%3Ebla%20bla%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/XBpmqB)-->
+<!--[View CodePen](https://codepen.io/enkidevs/pen/XBpmqB)--> 
 
 **Notes:**
   1) This element doesn't have a closing tag.
@@ -44,7 +43,7 @@ When larger visual gaps are needed around blocks of text, the `margin` CSS prope
 Historical, in XHTML the line breaks are written as `<br />` which is important to know if you want to convert your HTML to XHTML or when reading various tutorials.
 
 Address Example:
-```
+```html
 <p>
 Apple<br>
 1 Infinite Loop<br>
@@ -77,14 +76,14 @@ Select the statement that is false about the `<br>` element.
 ## Revision
 
 The goal is to display text like this:  
-```
+```htmlhtml
 Apple
 1 Infinite Loop
 Cupertino, CA
 95014
 ```
 So what must happen to this address to display as separate lines of text within a single paragraph? 
-```
+```html
 <p>Apple
 1 Infinite Loop
 Cupertino, CA
@@ -105,7 +104,7 @@ Cupertino, CA
 
 In an address, what are the preferred method(s) of changing the size of the gaps of space between the lines of text here?
 
-```
+```html
 <p>Apple<br>
 1 Infinite Loop<br>
 Cupertino, CA<br>

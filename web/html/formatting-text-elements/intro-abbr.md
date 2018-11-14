@@ -17,7 +17,6 @@ tags:
 links:
   - '[CodePen: Element abbr](https://codepen.io/enkidevs/pen/rrjOGv){code}'
   - '[CodePen: Element abbr Styled](https://codepen.io/enkidevs/pen/rKQEEK){code}'
-  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
   
 ---
 # Intro abbr
@@ -28,7 +27,7 @@ The HTML `<abbr>`, or the **Abbreviation** element, is used to represent an abbr
 
 The content of the title is often shown in a tooltip when a user hovers over the element.  Also, some browsers add a dotted underline to the content of the element. 
 
-```
+```html
 <p>
   Learn all about 
   <abbr 
@@ -41,7 +40,7 @@ The content of the title is often shown in a tooltip when a user hovers over the
 
 ![element-abbr](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2256%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2256%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2234%22%3ELearn%20all%20about%20HTML%20using%20Enki.%3C%2Ftspan%3E%3C%2Ftext%3E%3Cpath%20stroke%3D%22%23000%22%20stroke-dasharray%3D%221%202%22%20stroke-linecap%3D%22square%22%20d%3D%22M129.5%2036.5h45%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-<!--[View Codepen](https://codepen.io/enkidevs/pen/rrjOGv)-->
+<!--[View Codepen](https://codepen.io/enkidevs/pen/rrjOGv)--> 
 
 By default, the `<abbr>` element is displayed as an inline element. 
 

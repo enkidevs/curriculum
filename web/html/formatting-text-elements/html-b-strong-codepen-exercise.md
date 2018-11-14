@@ -22,7 +22,9 @@ standards:
   web.markup-text.0: 10
 
 links:
-  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
+  - '[MDN docs for b](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b){website}'
+  - '[MDN docs for strong](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong){website}'
+
 ---
 # HTML b strong
 ---

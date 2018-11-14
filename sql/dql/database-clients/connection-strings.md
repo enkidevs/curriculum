@@ -53,7 +53,7 @@ dbprotocol://username:password
 **username:password** is a standard way of specifying authentication. For some databases (namely SQL server), the user and password are entered at the end, in the `property=value` section.  
 **hostname** is the address of the server the database is located on. If the database you are connecting to is _on your computer_, this value will be `localhost` or `0.0.0.0`. If it is _remote_, you will enter a hostname like `aws-us-east-1-portal.29.dblayer.com`.  
 **port** is how you know which port to connect to. The default port differs between database servers.  
-**delim** denotes a delmiter. Some databases read from the querystring `?property=value&property=value`, some use a semicolon `/pokemon;property=value;property=value`. These properties and values are used to send extra information to the database.
+**delim** denotes a delimiter. Some databases read from the query string `?property=value&property=value`, some use a semicolon `/pokemon;property=value;property=value`. These properties and values are used to send extra information to the database.
 
 Here is the database connection string for the Postgres server hosting all of the examples from this course. You can connect to it, and perform those queries yourself!
 
@@ -94,7 +94,7 @@ Connect to a different `pokemon` database, this one hosted on MySQL. Use the use
 ---
 ## Revision
 
-Connect to a `puppies` database, this one hosted on Postgres. Use the username `spot`, password `supersecret`, to our database on `aws-us-east-1-portal.42.dblayer.com`. The port is `23336`.
+Connect to a `pokemon` database, this one hosted on Postgres. Use the username `spot`, password `supersecret`, to our database on `aws-us-east-1-portal.42.dblayer.com`. The port is `23336`.
 
 ```
 ???://
