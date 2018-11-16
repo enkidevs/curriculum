@@ -15,7 +15,7 @@ type: exercise
 
 linkType: codepen
 link: https://codepen.io/enkidevs/pen/RBJwae
-
+ 
 solution: https://codepen.io/enkidevs/pen/xJjNmq
 
 standards:

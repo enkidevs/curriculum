@@ -24,7 +24,7 @@ links:
 # Global Attributes 3
 ---
 ## Content
-
+ 
 In the previous insight we explained: `contenteditable`, `draggable`, `dropzone ` and `hidden`.  In this one, we will cover: `autocapitalize`, `dir`, `lang`, `spellcheck` and `translate`.
 
 ### autocapitalize

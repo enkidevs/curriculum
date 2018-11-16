@@ -17,7 +17,7 @@ aspects:
   - introduction
   - workout
   - deep
-
+ 
 links:
   -  '[MDN docs on Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
 ---
@@ -42,7 +42,7 @@ For instance, lets say we have this HTML:
 <p class="demo">
   Some text
 </p>
-```
+``` 
 and we have this CSS:
 ```css
 .demo {
