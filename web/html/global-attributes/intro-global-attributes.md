@@ -86,8 +86,7 @@ Example tooltip upon hovering over a picture:
 ```
 Result:
 
-![Enki logo tooltip](https://img.enkipro.com/1baaf47ca1749331849a42993cf2fc6b.png)
-
+https://img.enkipro.com/1baaf47ca1749331849a42993cf2fc6b.png
 
 ---
 ## Practice

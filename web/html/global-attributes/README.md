@@ -13,4 +13,3 @@ exercises:
   - html-style-codepen-exercise
   - html-title-codepen-exercise
   - html-multi-global-attribute-exercise
-  
