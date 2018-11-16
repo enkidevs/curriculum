@@ -34,7 +34,7 @@ The typical structure of HTML elements are defined as:
 
 Identify the terms defining this HTML code:
 
-![html-structure-defined-quiz](https://img.enkipro.com/26a6a342cc716551cb0fa5950d2da503.png)
+https://img.enkipro.com/26a6a342cc716551cb0fa5950d2da503.png
 
 A: ???
 B: ???
@@ -59,7 +59,7 @@ F: ???
 
 Match the terms defining this HTML code:
 
-![revision picture](https://img.enkipro.com/26a6a342cc716551cb0fa5950d2da503.png)
+https://img.enkipro.com/26a6a342cc716551cb0fa5950d2da503.png
 
 A: ???
 B: ???
