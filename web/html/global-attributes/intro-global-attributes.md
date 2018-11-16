@@ -86,10 +86,7 @@ Example tooltip upon hovering over a picture:
 ```
 Result:
 
-```
 https://img.enkipro.com/1baaf47ca1749331849a42993cf2fc6b.png
-```
-
 
 ---
 ## Practice
