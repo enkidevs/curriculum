@@ -8,7 +8,7 @@ levels:
 tags:
   - introduction
 
-aspects:
+aspects: 
   - introduction
 
 type: exercise

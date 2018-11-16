@@ -6,12 +6,8 @@ levels:
   - basic
 
 type: normal
-
+ 
 category: must-know
-
-stub: true
-
-standards:
 
 aspects:
   - introduction
