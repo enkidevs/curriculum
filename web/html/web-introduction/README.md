@@ -2,7 +2,7 @@ name: Web Introduction
 
 type: insights-list
 
-description: TODO
+description: How does the web work?
 
 section: 0
 
