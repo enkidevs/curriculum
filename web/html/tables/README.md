@@ -1,6 +1,6 @@
 name: Tables
 
-description: Adding tabular data to HTML
+description: Adding tabular data to HTML 
 
 insights:
   - table-tr-and-td
