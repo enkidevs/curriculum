@@ -161,36 +161,39 @@ C: ???
 Which HTML elements are used to describe a term or name in a description list?
 Option A, B, C or D?
 
-???
-
-* A
 ```html
+<!--A-->
 <dl>
   <dt>HTML</dt>
   <dd>Content of web page</dd>
 </dl>
-```
-* B
-```html
+
+<!--B-->
 <dt>
   <dl>HTML</dl>
   <dd>Content of web page</dd>
 </dt>
-```
-* C
-```html
+
+<!--C-->
 <ol>
   <dt>HTML</dt>
   <dd>Content of web page</dd>
 </ol>
-```
-* D
-```html
+
+<!--D-->
 <list>
   <term>HTML</term>
   <desc>Content of web page</desc>
 </list>
 ```
+
+
+???
+
+* A
+* B
+* C
+* D
 
 ---
 ## Quiz
