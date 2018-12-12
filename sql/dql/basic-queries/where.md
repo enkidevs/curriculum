@@ -31,13 +31,13 @@ aspects:
 ---
 ## Content
 
-When added to an SQL `SELECT` statement, `WHERE` allows us to select rows in a table by specifying rules. The WHERE keyword can also be used to insert, update and delete data from tables.
+When added to an SQL `SELECT` statement, `WHERE` allows us to select rows in a table by specifying rules. The `WHERE` keyword can also be used to insert, update and delete data from tables.
 
 You can write a conditional statement after `WHERE` and, for each row in the table, if the conditional statement evaluates to true, the row will be included in the query result. If not, it will not be included in the result.
 
 SQL supports logical operations and comparison operators, such as `=`, `<>`, `>`, `>=`, `<`, `<=`, `AND`, `OR`, `NOT`, `IN`, `BETWEEN`, `LIKE`, `IS NULL` or `IS NOT NULL`. Together, these predicates allow us to define complex rules for extracting just the data that we want from an SQL database. However, if we're not careful, we can easily miss some edge case here, and introduce bugs.
 
-see this example:
+See this example:
 
 ```sql
 SELECT id, weight, name
@@ -50,7 +50,7 @@ This query will keep only the `id`, `weight` and `name` columns from the `pokemo
 ---
 ## Practice
 
-Select all the rows from the `pokemon` table where the weight is less than 500.
+Select all the rows from the `pokemon` table where the weight is less than `500`.
 
 `SELECT * `
 `FROM pokemon`
@@ -58,7 +58,7 @@ Select all the rows from the `pokemon` table where the weight is less than 500.
 
 
 * WHERE
-* weight < '500'
+* weight < 500
 * FROM
 * pokemon
 * IS
