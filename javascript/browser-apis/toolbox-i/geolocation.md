@@ -67,11 +67,11 @@ Fill in the gaps in the following code snippet. Using the geolocation API expose
 ```javascript
 navigator.???.???(
   function(pos) {
-    const lat = pos.???.???,
+    const lat = pos.???.???
     const long = ???.???
     console.log(lat, long)
   }
-)
+);
 ```
 
 * geolocation
@@ -97,7 +97,7 @@ Fill in the missing bits of the following snippet such that, using the Geolocati
 navigator.???.???(
   function (pos) {
     console.log('new position', pos)
-})
+});
 ```
 
 * geolocation
