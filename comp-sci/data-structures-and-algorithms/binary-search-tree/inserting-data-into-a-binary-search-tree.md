@@ -62,9 +62,9 @@ How many checks are required to find the right place to insert `9` in the follow
 ???
 ```
 
-* `3`
-* `2`
 * `4`
+* `2`
+* `3`
 * `1`
 * `5`
 
@@ -81,8 +81,8 @@ How many checks are required to find the right place to insert `5` in the follow
 ???
 ```
 
-* `2`
 * `3`
+* `2`
 * `5`
 * `1`
 * `4`
