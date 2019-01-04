@@ -67,9 +67,9 @@ console.trace()
 ```
 
 
-In JavaScript there is no specification for how `console.*` methods behave. Each environment adds its own methods and behaviour.
+In JavaScript, there is no specification for how `console.*` methods behave. Each environment adds its own methods and behavior.
 
-When creating a web application, the use of `console.*` is critical for quickly debugging problems. Whenever you need more information on a variable, or would like to know where your code stops working, you should apply a console statement at the area in question. `console.*` statements can be viewed in Google Chrome by pressing `Ctrl+Shift+i`, and in Firefox by pressing `Ctrl+Shift+k`.
+When creating a web application, the use of `console.*` is critical for quickly debugging problems. Whenever you need more information on a variable or would like to know where your code stops working, you should apply a console statement at the area in question. `console.*` statements can be viewed in Google Chrome by pressing `Ctrl+Shift+i`, and in Firefox by pressing `Ctrl+Shift+k`.
 
 In addition to this, `console.*` can be used to pipe information to `stdout` in NodeJS.
 
