@@ -1,10 +1,8 @@
 name: Lists
 
-type: insights-list
+type: insights-list 
 
 description: A deep dive on List elements
-
-section: 0
 
 insights:
   - ordered-lists

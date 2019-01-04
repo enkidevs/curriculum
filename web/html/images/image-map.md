@@ -110,6 +110,8 @@ When using the map element to create clickable areas within a single image, what
   src="#" alt="">
 ```
 
+???
+
 * rect, circle, poly
 * rectangle, polygon, square
 * triangle, oval, square
