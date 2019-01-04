@@ -84,11 +84,9 @@ SELECT ???(???) FROM ???
 
 --Result:
 =======
-10000
+1200
 (1 row)
 ```
-
-
 
 * MAX
 * cost

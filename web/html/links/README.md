@@ -2,8 +2,6 @@ name: Links
 
 description: How to link to other documents
 
-section: 0
-
 insights:
   - anchor-links
   - link-relative-paths
@@ -13,3 +11,4 @@ insights:
   - link-mailto
   - image-mailto
   - link-download
+ 

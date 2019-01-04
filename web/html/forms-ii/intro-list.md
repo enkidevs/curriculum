@@ -27,11 +27,11 @@ lists:
 ---
 ## Content
 
-With the HTML input form `<list>` attribute and the `<datalist>` element you can specify a list of pre-defined options for the `<input>` element.
+With the HTML input form `list` attribute and the `<datalist>` element you can specify a list of pre-defined options for the `<input>` element.
 
 The `<datalist>` element is used to provide the `<input>` element with the `autocomplete` feature. This means that as the user is typing, he or she will get a drop-down list of pre-defined options.
 
-The value of `<list>` must be the `id` of the `<datalist>` element within the same document.
+The value of `list` must be the `id` of the `<datalist>` element within the same document.
 
 Example:
 ```html

@@ -40,7 +40,7 @@ john = 1
 ted = 2
 fred = 3
 ```
-but is not allowed:
+but this is not allowed:
 ```
 john = 1
 ted  = 2
@@ -67,8 +67,8 @@ def func():
 
 ???
 
-* yes
 * no
+* yes
 * not applicable
 
 ---
