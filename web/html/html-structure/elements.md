@@ -63,7 +63,8 @@ What elements are used in this code?
 <p>
   Check out this
     <a href="http://www.enkipro.com">
-  website.
+  website</a>
+  .
 </p>
 ```
 
@@ -99,4 +100,3 @@ Identify which element is not a valid HTML element?
 * `<p>`
 * `<a>`
 * `<img>`
- 
