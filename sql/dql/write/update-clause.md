@@ -57,7 +57,7 @@ If we want to change the value "ditto" to "rabbit", we use `SET`:
 ```sql
 UPDATE egg_group
 SET name = 'rabbit'
-WHERE id= 13;
+WHERE id = 13;
 ```
 *Result:*
 ```
