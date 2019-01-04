@@ -41,7 +41,7 @@ dict.items()
 The *view objects* are dynamically tied to the parent dictionary. When the parent dictionary is changed these changes are visible in the view objects too.
 
 
-The number of entries in a dictionary can be easily obtained using `len(dictview)` method:
+The number of entries in a dictionary can be easily obtained using the `len(dictview)` method:
 ```python
 >>> a = {'one':1, 'two':2}
 >>> keys = a.keys()
@@ -56,8 +56,9 @@ iter(keys)
 # iterator over keys is returned
 ```
 
-Also, *view objects* provide efficient ways to perform containment tests and set-like operations ( eg. Intersections, Differences, etc. )
-The `in` keyword for testing collection membership, can be used both on dictionaries and dictionary views:
+Also *view objects* provide efficient ways to perform containment tests and set-like operations ( eg. Intersections, Differences, etc. )
+The `in` keyword, which is used for testing collection membership, can be used both on dictionaries and dictionary views:
+
 ```python
 >>> 'one' in keys
 True
@@ -71,7 +72,7 @@ False
 
 Complete the code snippet to return the number of entries in the dictionary:
 
-```
+```python
 >>> d = {'one':1, 'two':2, 'three':3}
 >>> ??? = ???.???
 >>> len(keys)
@@ -88,7 +89,7 @@ Complete the code snippet to return the number of entries in the dictionary:
 
 Which keyword is used for testing collection memberships?
 
-```
+```python
 d = {'python':1}
 Enki = d.keys()
 'python' ??? Enki
