@@ -8,7 +8,7 @@ levels:
 tags:
   - introduction
 
-aspects:
+aspects: 
   - introduction
 
 type: exercise
@@ -25,7 +25,7 @@ links:
 ---
 # HTML style exercise
 ---
-
+ 
 ## Exercise
 In this exercise, you have 2 sentences/elements.
 

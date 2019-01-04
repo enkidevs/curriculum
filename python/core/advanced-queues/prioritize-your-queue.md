@@ -91,7 +91,7 @@ temp.put(Order(1))
 temp.put(Order(10))
 temp.put(Order(1000))
 
-# Order of elemets in the queue
+# Order of elements in the queue
 # 1000 / 10 / 1
 ```
 

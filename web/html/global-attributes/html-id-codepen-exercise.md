@@ -7,7 +7,7 @@ levels:
 
 tags:
   - introduction
-
+ 
 aspects:
   - introduction
 
@@ -27,6 +27,6 @@ links:
 ---
 
 ## Exercise
-In this exercise, you have a form with 2 radio buttons.
+In this exercise, you have a form with 2 radio buttons. 
 
 You have to add the appropriate attribute to properly identify each button.

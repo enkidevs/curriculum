@@ -25,8 +25,8 @@ links:
 ---
 # HTML class exercise
 ---
-
-## Exercise
+ 
+## Exercise 
 In this exercise, you have 2 sentences/elements.
 
 You have to add the appropriate attribute to each element.

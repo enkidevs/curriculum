@@ -9,10 +9,6 @@ type: normal
 
 category: must-know
 
-stub: true
-
-standards:
-
 aspects:
   - introduction
   - workout
@@ -24,7 +20,7 @@ links:
 # Global Attributes 2
 ---
 ## Content
-
+ 
 In the previous insight we explained: `class`, `id`, `style` and `title`. In this one, we will cover: `contenteditable`, `draggable`, `dropzone ` and `hidden`.
 
 
