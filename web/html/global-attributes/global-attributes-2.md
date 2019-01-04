@@ -9,10 +9,6 @@ type: normal
 
 category: must-know
 
-stub: true
-
-standards:
-
 aspects:
   - introduction
   - workout
@@ -21,10 +17,10 @@ aspects:
 links:
   -  '[MDN docs on Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
 ---
-# Intro Global Attributes 2
+# Global Attributes 2
 ---
 ## Content
-
+ 
 In the previous insight we explained: `class`, `id`, `style` and `title`. In this one, we will cover: `contenteditable`, `draggable`, `dropzone ` and `hidden`.
 
 

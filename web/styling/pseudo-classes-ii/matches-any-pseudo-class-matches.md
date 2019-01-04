@@ -51,7 +51,7 @@ Complete the following code snippet to set the color of the chosen selectors tex
 
 ```css
 p???(s1, s2, s3){ 
-    ???:red; 
+    ???:blue; 
 } 
 ```
 
@@ -61,7 +61,6 @@ p???(s1, s2, s3){
 * `background-color` 
 * `.matches` 
 * `.selects` 
-* `
 
 ---
 ## Revision

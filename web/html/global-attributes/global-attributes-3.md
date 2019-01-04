@@ -6,12 +6,8 @@ levels:
   - basic
 
 type: normal
-
+ 
 category: must-know
-
-stub: true
-
-standards:
 
 aspects:
   - introduction
@@ -21,10 +17,10 @@ aspects:
 links:
   -  '[MDN docs on Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
 ---
-# Intro Global Attributes 3
+# Global Attributes 3
 ---
 ## Content
-
+ 
 In the previous insight we explained: `contenteditable`, `draggable`, `dropzone ` and `hidden`.  In this one, we will cover: `autocapitalize`, `dir`, `lang`, `spellcheck` and `translate`.
 
 ### autocapitalize

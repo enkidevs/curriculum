@@ -60,7 +60,6 @@ print(sum(letters))
 
 ???
 
-
 * TypeError: unsupported operand type(s) for +: 'int' and 'str'
 * abc
 * ['a', 'b', 'c']
@@ -68,7 +67,7 @@ print(sum(letters))
 ---
 ## Revision
 
-Let's imagine we are comparing the bill totals for two customers. Fill in the blanks in the code below to return the sum of the bill with the greatest total, *after adding the mandatory service charge of $8*.
+Let's imagine we are comparing the bill totals for two customers. Fill in the blanks in the code below to print out the sum of the bill with the greatest total, *after adding the mandatory service charge of $8*.
 
 ```python
 bill1 = [2.5, 3, 16, 18]
