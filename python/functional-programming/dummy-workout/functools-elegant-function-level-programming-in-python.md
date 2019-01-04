@@ -25,11 +25,11 @@ links:
 
 The `functool` library offers very useful methods to manipulate functions.  
 The most commonly used is `partial`:
-```
+```python
 def plus(a,b):
   return a+b;
 
-plus2 = functools.partial(b=2);
+plus2 = functools.partial(plus,b=2)
 
 map(plus2,[1,2,3])
 #> [3, 4, 5]
