@@ -83,7 +83,7 @@ Example of a nested lists:
 <!--[View CodePen](https://codepen.io/enkidevs/pen/PBmYBB)-->
 
 **Notes:**
-	- The key to nesting lists is making sure the nested lists are within the appropriate list items (`<li>` and `</li>`).
+- The key to nesting lists is making sure the nested lists are within the appropriate list items (`<li>` and `</li>`).
 
 
 **Best Uses:**  

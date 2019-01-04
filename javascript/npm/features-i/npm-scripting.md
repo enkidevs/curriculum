@@ -91,9 +91,7 @@ This will speed up the process as two subshells will be invoked to resolve each 
 ## Practice
 
 Fill in the following `package.json` file such that it has 2 scripts:
-
-- one called `test` which will run `jest`
-- second called `test:ci` which will run the first script with `-- --runInBand` option:
+One called `test` which will run `jest` and another called `test:ci` which will run the first script with `-- --runInBand` option:
 
 ```json
 {

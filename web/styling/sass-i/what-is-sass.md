@@ -110,7 +110,8 @@ The CSS extensions with indented syntax is ???
 
 Fill in the gaps such that the following statement becomes true (pick `_` if no word should go there):
 ```
-Any ??? CSS file is a valid ??? file.
+Any ??? CSS file
+is a valid ??? file.
 ```
 
 * valid
