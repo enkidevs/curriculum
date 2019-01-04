@@ -54,7 +54,7 @@ Format strings contain “replacement fields” surrounded by curly braces `{}`.
 
 ### Update: 
 
-4) There is a new and improved way of formatting strigs in Python called `f-strings`.
+4) There is a new and improved way of formatting strings in Python called `f-strings`.
 
 It is the easiest way to format strings and is done like so:
 ```python
