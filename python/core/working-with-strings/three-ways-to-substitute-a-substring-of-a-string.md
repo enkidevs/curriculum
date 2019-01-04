@@ -52,6 +52,17 @@ print(t.format(name='Ted'))
 ```
 Format strings contain “replacement fields” surrounded by curly braces `{}`.
 
+### Update: 
+
+4) There is a new and improved way of formatting strings in Python called `f-strings`.
+
+It is the easiest way to format strings and is done like so:
+```python
+name="Ted"
+print(f'Hello {name}')
+# Hello Ted
+```
+
 ---
 ## Practice
 
@@ -64,10 +75,15 @@ print(t
  .???(weather="sunny"))
 ```
 
+The fastest and easiest way of formatting strings is by using: ???
 
 * `Template`
 * `$`
 * `substitute`
+* `f-strings`
+* `string.Template`
+* `percent-style`
+* `curly-bracket`
 * `format`
 * `%`
 * `{`
@@ -83,7 +99,6 @@ my_string = "Good {time}"
 print(my_string
   .???(???="evening"))
 ```
-
 
 * `format`
 * `time`

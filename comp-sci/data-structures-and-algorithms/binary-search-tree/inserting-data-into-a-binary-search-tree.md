@@ -52,7 +52,7 @@ You may have noticed that the shape of the BST depends on the order in which the
 ---
 ## Practice
 
-How many checks are required to find the right place to insert `9` in the following BST?
+How many checks are required to insert `9` in this BST?
 ```
        7
      /   \
@@ -62,16 +62,16 @@ How many checks are required to find the right place to insert `9` in the follow
 ???
 ```
 
-* `3`
-* `2`
 * `4`
+* `2`
+* `3`
 * `1`
 * `5`
 
 ---
 ## Revision
 
-How many checks are required to find the right place to insert `5` in the following BST?
+How many checks are required to insert `5` in this BST?
 ```
        6
      /   \
@@ -81,8 +81,8 @@ How many checks are required to find the right place to insert `5` in the follow
 ???
 ```
 
-* `2`
 * `3`
+* `2`
 * `5`
 * `1`
 * `4`
