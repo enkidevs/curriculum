@@ -51,8 +51,8 @@ The **built-in exceptions** can be subclassed to define **new** exceptions. User
 If we use an undefined variable, what type of exception will the parser raise?
 ???
 
-* `UnboundLocalError`
 * `NameError`
+* `UnboundLocalError`
 * `RuntimeError`
 * `SyntaxError`
 
