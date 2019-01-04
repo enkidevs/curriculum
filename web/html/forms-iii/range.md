@@ -118,7 +118,7 @@ Example:
 
 <!--[View CodePen](https://codepen.io/enkidevs/pen/pKqxEY)--> 
 
-In the example above, we defined a slider with 5 hash marks, at 0, 25, 50, 75 and 100. This slider has values you can easily set with the hash marks. Each point is represented by the `<option>` element and it's value set to the desired range's value where the hash mark should be.
+In the example above, we defined a slider with 5 hash marks, at 0, 25, 50, 75 and 100. This slider has values you can easily set with the hash marks. Each point is represented by the `<option>` element and its value set to the desired range's value where the hash mark should be.
 
 Example:
 ```html
@@ -168,7 +168,7 @@ Complete this code where the range slider is between 1 and 100 and starts in the
 * value
 * id
 
-
+---
 ## Revision
 
 Which form input type defines a slider control?

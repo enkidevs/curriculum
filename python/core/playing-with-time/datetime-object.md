@@ -53,7 +53,7 @@ You can also `combine` a `date` and `time` object into a `datetime` as follows:
 ```python
 from datetime import date, time, datetime
 d = date(1993, 11, 1)
-t = time(hour = 30)
+t = time(minute = 30)
 dt = datetime.combine(d, t)
 print(dt) # 1993-11-01 00:30:00
 ```
@@ -64,9 +64,9 @@ time_1 = time(12) # 12:00:00
 time_2 = time(13,30) # 13:30:00
 print(time_1 < time_2) # True
 
-dt_1 = datetime(2017, 06, 01, 0, 30)
+dt_1 = datetime(2017, 6, 1, 0, 30)
 # 2017-06-01 00:30:00
-dt_2 = datetime(2017, 07, 02, 12)
+dt_2 = datetime(2017, 7, 2, 12)
 # 2017-07-02 12:00:00
 print(dt_2 > dt_1) # True
 ```
@@ -101,11 +101,11 @@ else:
 
 ```
 
-* date_one
-* >
-* date_two
-* <
-* Equals()
+* `date_one`
+* `>`
+* `date_two`
+* `<`
+* `Equals()`
 
 ---
 ## Revision
@@ -123,9 +123,6 @@ import datetime
 * now
 * atm
 * time
-
-
-
 
 ---
 ## Footnotes

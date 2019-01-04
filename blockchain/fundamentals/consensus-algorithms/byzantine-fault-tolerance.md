@@ -40,7 +40,7 @@ A group of Byzantine generals and their divisions camped around a city. They can
              	
 **Byzantine fault tolerance** characterizes a system that tolerates the class of failures that may occur in the context of BGP. The members of this class are considered to be the most severe and difficult to deal with. All consensus algorithms mentioned previously are solutions to this problem.
              	
-Another solution is called **Federated Byzantine Agreement** (FBA). Stellar and Ripple are blockchain that implement this protocol. The main idea is that generals (pre-selected nodes) are responsible for their they own chains and focus on sorting messages to establish the single source of truth.
+Another solution is called **Federated Byzantine Agreement** (FBA). Stellar and Ripple are blockchain that implement this protocol. The main idea is that generals (pre-selected nodes) are responsible for their own chains and focus on sorting messages to establish the single source of truth.
              	
 Ripple foundation select the validators themselves, while Stellar allows nodes to choose the validators to trust. So far, FBA is one of the fastest and most reliable classes of consensus algorithms.
 
