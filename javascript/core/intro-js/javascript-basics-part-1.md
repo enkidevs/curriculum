@@ -35,13 +35,13 @@ Everything in JavaScript is case sensitive.
 
 ### Keywords
 
-Like most languages there are a number of reserved words in JavaScript that you cannot use to name your functions and variables.
+Like most languages, there are a number of reserved words in JavaScript that you cannot use to name your functions and variables.
 
 ### Identifier naming rules
 
 When naming any function, property or variable, the first character must be a letter, $ sign or underscore.
 
-After the first character you are free to use numbers, letters, dollar signs or underscores.
+After the first character, you are free to use numbers, letters, dollar signs or underscores.
 
 ```javascript
 var name = "Enki"; //valid
