@@ -32,7 +32,7 @@ aspects:
 
 **Mining** is part of the process of securing the network. Miners race one another in solving a computationally-difficult, cryptographic puzzle that would entitle them to a reward. We can only talk about *mining* in the context of proof-of-work consensus protocols.
              	
-Bitcoin is a blockchain that implements such a consensus algorithm. Miners race to find the right **nonce** that would make the the double SHA-256 hash start with a fixed number or more of `0`s. The number of 0s is called the *mining difficulty*.
+Bitcoin is a blockchain that implements such a consensus algorithm. Miners race to find the right **nonce** that would make the double SHA-256 hash start with a fixed number or more of `0`s. The number of 0s is called the *mining difficulty*.
              	
 They are incentivized to do this through a block reward - the first miner to propose a valid block receives some coins. To make sure a block is valid, the miners have to check the transactions they include. By doing so, they systematically protect the network.
              	

@@ -38,7 +38,7 @@ To commit and avoid the text editor you can include a commit message as part of 
 ```bash
 $ git commit -m "Description of changes"
 ```
-You can also use the `-a` flag to commit all changes of **tracked** files (even though they were modified, but not tracked with `git add`):
+You can also use the `-a` flag to commit all changes of **tracked** files (even though they were modified, but not staged with `git add`):
 ```bash
 $ git commit -a
 ```
@@ -50,7 +50,6 @@ Write the command to commit all tracked files:
 ```
 $ ??? ??? ???
 ```
-
 
 * `git`
 * `commit`
