@@ -76,7 +76,7 @@ current = date.today()
 print(current) # 2017-06-27
 ```
 
-Another way of creating a `date` is from a **timestamp value** (and even from a **proleptic Georgian ordinal value**[1]):
+Another way of creating a `date` is from a **timestamp value** (and even from a **proleptic Gregorian ordinal value**[1]):
 ```python
 d = date.fromtimestamp(1256953732)
 print(d) # 2009-10-31
