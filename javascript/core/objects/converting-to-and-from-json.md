@@ -1,4 +1,20 @@
 
+---
+author: EwaTrzemzalska
+
+type: normal
+
+category: fundamental
+
+tags:
+
+  - JSON
+  - introduction
+
+---
+# Converting to and from JSON
+
+---
 ## Content
 
 `JSON.stringify()` method is used to convert a JavaScript object or value to a JSON string. 
