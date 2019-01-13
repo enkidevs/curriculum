@@ -13,7 +13,7 @@ const ourDog = {
 }
 
 console.log(JSON.stringify(ourDog));
-//prints "{"name":"Rocky","age":2,"dog years":14}"
+//prints {"name":"Rocky","age":2,"dog years":14}
 ```
 
 
@@ -42,3 +42,22 @@ const dog = JSON.parse('{"name":"Rocky","age":2,"dog years":14}');
 console.log(dog.name);
 //prints "Rocky"
 ```
+
+---
+## Quiz
+
+### What will be returned by the following code?
+
+```javascript
+const enkiObj = {
+    a: 'firstValue',
+    b: 'secondValue',
+    toJSON: () => ({c: 'thirdValue'})
+}
+
+JSON.stringify(enkiObj);
+```
+
+* `"{"a":"firstValue","b":"secondValue"}"`
+* `"{"a":"firstValue","b":"secondValue", "c":"thirdValue"}"`
+* `"{"c":"thirdValue"}"`
