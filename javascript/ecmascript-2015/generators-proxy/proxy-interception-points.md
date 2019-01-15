@@ -100,24 +100,27 @@ Some potential usages:
 Fill in the gaps such that log statements hold true:
 
 ```javascript
-const revocable = ???.???({}, {
+const rev = ???.???({}, {
   ???: () => 42
 });
 
-const proxy = revocable.???;
+const proxy = rev.???;
 console.log(proxy.enki)
 // 42
 
 ???.???()
 console.log(proxy.enki)
-// TypeError
+// Uncaught TypeError: 
+// Cannot perform 'get' 
+// on a proxy that has 
+// been revoked
 ```
 
 * Proxy
-* revokable
+* revocable
 * get
 * proxy
-* revokable
+* rev
 * revoke
 * throw
 * catch
