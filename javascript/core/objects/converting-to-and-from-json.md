@@ -104,7 +104,7 @@ console.log(cat.name);
 ---
 ## Quiz
 
-### What will be returned by the following code?
+### How well do you know JSON?
 
 What will be returned by the following code?
 
