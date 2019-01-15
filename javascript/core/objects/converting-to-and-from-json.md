@@ -63,7 +63,45 @@ console.log(dog.name);
 //prints "Roxy"
 ```
 ---
+## Practice
 
+What will be printed by this `console.log()`?
+
+```javascript
+const ourDog = {
+    name: 'Leo',
+    'dog years': 14
+}
+
+console.log(JSON.stringify(ourDog));
+```
+//prints `'{"???":"???","???":???}'`
+
+* `14`
+* `name`
+* `dog years`
+* `Leo`
+* `12`
+* `dog`
+* `JSON`
+* `years`
+
+---
+## Revision
+
+What method should be use in example below?
+
+```javascript
+const yourJSON = '{"name":"Coco","age":4}'
+const cat = JSON.???(yourJSON);
+console.log(cat.name);
+//prints "Coco"
+```
+* toJSON()
+* parse()
+* stringify()
+
+---
 ## Quiz
 
 ### What will be returned by the following code?
