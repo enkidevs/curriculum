@@ -90,7 +90,7 @@ print(textwrap.shorten
 ```
 The last words are dropped if the text is longer than the width argument.
 
-Other useful methods like `indent` and`dedent` are available in this module.
+Other useful methods like `indent` and `dedent` are available in this module.
 
 ---
 ## Practice

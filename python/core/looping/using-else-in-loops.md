@@ -76,6 +76,7 @@ else:
 ```
 With the output:
 ```python
+b
 a
 ```
 
@@ -86,17 +87,17 @@ Fill in the following snippet such that it will return *"Computation Done"* when
 
 ```python
 x = 0
-while x ??? 3
+while x ??? 3:
     print("running")
     x += 1
 ???:
     ???("Computation Done")
 ```
 
-* <
+* `<`
 * else
 * print
-* >
+* `>`
 * if
 * elif
 
@@ -105,7 +106,6 @@ while x ??? 3
 ## Revision
 
 An `else` statement is used in loops when the loops ??? is evaluated to ???.
-
 
 * condition
 * false

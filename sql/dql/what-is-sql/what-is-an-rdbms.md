@@ -34,11 +34,11 @@ links:
 ---
 ## Content
 
-*RDBMS* stands for _Relational Database Management System_, a _Database Management System_ that allows the user to create, update and delete the _Relational Database_.
+*RDBMS* stands for _Relational Database Management System_. 
 
-_Relational Databases_ store data in _tables_, which are similar to a spreadsheet in that they've got rows and columns.
+_Relational Databases_ store data in _tables_, which are similar to a spreadsheet in that they've got rows and columns. When you want data in one _table_ to reference data in another _table_, you create a _relation_ between them. A Relational Database Management System is therefore the program that actually does the creating, reading, updating, searching, filtering, and relating. It does this using a Structured Query Language called SQL.
 
-Using these tables we can query data, and store it such that others can query it. The language we use to _define_ tables is commonly referred to as SQL, but its real name is *DDL*, or _Data Definition Language_.
+SQL has two main parts, the Query part, and the Definition part. DDL stands for Data Definition Language, and that is how we define data the tables contain.
 
 Here's an example of how we might define a table:
 
@@ -49,7 +49,7 @@ CREATE TABLE users (
 );
 ```
 
-This lives in the *Database Server*.
+This is executed on the *Database Server*, and the database server creates space for it.
 
 Then we could query it like so:
 
