@@ -1,9 +1,9 @@
 ---
-author: Ewa Trzemzalska
+author: Ewa Trzemżalska
 
 levels:
 
-    - begginer
+    - beginner
     - basic
 
 type: normal
