@@ -1,10 +1,14 @@
-
 ---
-author: EwaTrzemzalska
+author: Ewa Trzemzalska
+
+levels:
+
+    - begginer
+    - basic
 
 type: normal
 
-category: fundamental
+category: feature
 
 tags:
 
@@ -23,13 +27,12 @@ Example:
 
 ```javascript
 const ourDog = {
-    name: 'Rocky',
-    age: 2,
+    name: 'Leo',
     'dog years': 14
 }
 
 console.log(JSON.stringify(ourDog));
-//prints {"name":"Rocky","age":2,"dog years":14}
+//prints '{"name":"Leo","dog years":14}'
 ```
 
 
@@ -54,26 +57,29 @@ To convert JSON string back to JavaScript you can use `JSON.parse()` method.
 Example:
 
 ```javascript
-const dog = JSON.parse('{"name":"Rocky","age":2,"dog years":14}');
+const ourJSON = '{"name":"Roxy","age":2}'
+const dog = JSON.parse(ourJSON);
 console.log(dog.name);
-//prints "Rocky"
+//prints "Roxy"
 ```
-
 ---
+
 ## Quiz
 
 ### What will be returned by the following code?
 
+What will be returned by the following code?
+
 ```javascript
 const enkiObj = {
-    a: 'firstValue',
-    b: 'secondValue',
-    toJSON: () => ({c: 'thirdValue'})
+    a: 'first',
+    b: 'second',
+    toJSON: () => ({c: 'third'})
 }
 
 JSON.stringify(enkiObj);
 ```
 
-* `"{"a":"firstValue","b":"secondValue"}"`
-* `"{"a":"firstValue","b":"secondValue", "c":"thirdValue"}"`
-* `"{"c":"thirdValue"}"`
+* `"{"a":"first","b":"second"}"`
+* `"{"a":"first","b":"second","c":"third"}"`
+* `"{"c":"third"}"`
