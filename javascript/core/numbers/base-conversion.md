@@ -17,9 +17,6 @@ standards:
 
   javascript.standard-library.2: 10
 
-
-
-
 ---
 
 # Base conversion
@@ -61,8 +58,8 @@ console.log(???("ad23e1",???));
 
 * 2
 * parseInt
-* 16
 * 10
+* 16
 * ”base 10”
 
 ---
@@ -78,8 +75,8 @@ console.log(???("ef2",???));
 
 * 16
 * parseInt
-* 15
 * 10
+* 15
 * ”base 10”
 
  
