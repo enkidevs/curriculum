@@ -26,7 +26,7 @@ parent: what-is-a-packet
 
 **Networks** enable two or more devices to *communicate*.
 
-As in real life, for two parties to communicate efficiently, the need to follow some rules. With regard to computer networks, these sets of rules are called **protocols**.
+As in real life, for two parties to communicate efficiently, they need to follow some rules. With regard to computer networks, these sets of rules are called **protocols**.
 
 So far, you must have encountered some of the following **protocols**:
 - `IP` - used to uniquely identify computers (*hosts*)
