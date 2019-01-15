@@ -68,9 +68,10 @@ while x < ???:
 
 * 11
 * print(x)
-* x++
+* x = x + 1
 * 10
-* ++x
+* x++
+* x+1
 
 ---
 ## Revision
