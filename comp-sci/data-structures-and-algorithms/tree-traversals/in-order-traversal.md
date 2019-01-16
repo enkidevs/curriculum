@@ -90,10 +90,10 @@ G      F    E
 ```
 ???
 
-* G,H,B,F,A,I,E,C
-* F,B,E,C,A,H,I,D
-* A,B,F,C,E,D,I,H
-* B,F,A,E,C,D,H,I
+* G,H,B,F,A,C,I,E
+* F,B,E,C,A,H,I,G
+* A,B,F,C,E,G,I,H
+* B,F,A,E,C,G,H,I
 
 ---
 ## Quiz 

@@ -69,7 +69,7 @@ $
 
 As you can see, the contents of `file1.txt` are overwritten when we use `>`, whereas we append new content `file2.txt` without overwriting anything when we use `>>`.
 
-Note that for appending purposes the use of the `cat` command is recomanded.
+Note that for appending purposes the use of the `cat` command is recommended.
 
 ---
 ## Revision
