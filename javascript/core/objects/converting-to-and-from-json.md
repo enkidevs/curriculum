@@ -95,12 +95,14 @@ const cat = JSON.???(yourJSON);
 console.log(cat.name);
 // prints "Coco"
 ```
+
 * `parse()`
 * `toJSON()`
 * `stringify()`
 
 ---
 ## Quiz
+
 ### How well do you know JSON?
 
 What will be returned by the following code?
@@ -114,6 +116,8 @@ const enkiObj = {
 
 JSON.stringify(enkiObj);
 ```
+
+???
 
 * `"{"c":"third"}"`
 * `"{"a":"first","b":"second"}"`
