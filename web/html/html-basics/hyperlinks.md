@@ -45,7 +45,7 @@ When links navigate to web pages on other web servers, it is required to use the
 ```html
 <p>I am a <a 
 href="http://enki.com/samples/page.html">
-    link to Enki
+    link to Enki.com
 </a>'s website.</p>
 ```
 

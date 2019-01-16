@@ -75,7 +75,7 @@ print(eval('dir()',
 # Result: ['__builtins__', 'pow', 'sqrt']
 ```
 
-In the first example the result is a long list of available functions since all the functions available in the current scope are listed. In the next example, we pass an empty dictionary, so the only available functions are the `__builtins__`. In the final example, we only pass two functions in the dictionary, `sqrt` and `pow`, and therefore they are the only functions available to the expression, along with the `__builtins__`. We can also rename the functions the expressions can use, like so:
+In the first example, the result is a long list of available functions since all the functions available in the current scope are listed. In the next example, we pass an empty dictionary, so the only available functions are the `__builtins__`. In the final example, we only pass two functions in the dictionary, `sqrt`, and `pow`, and therefore they are the only functions available to the expression, along with the `__builtins__`. We can also rename the functions the expressions can use, like so:
 
 ```python
 from math import *
@@ -105,7 +105,8 @@ Fill in the blanks in the following code to evaluate the expression using `eval`
 ```
 from math import *
 print(???('pow(9, 3)',
-{'sqrt': ???, 'pow': ???, '???': None}))
+{'sqrt': ???, 
+  'pow': ???, '???': None}))
 ```
 
 * eval
