@@ -34,7 +34,7 @@ console.log(JSON.stringify(ourDog));
 ```
 
 
-To override the default behaviour of `JSON.stringify()` you can provide a key `toJSON` in your object, mapping to a function with your desire behaviour.
+To override the default behavior of `JSON.stringify()` you can provide a key `toJSON` in your object, mapping to a function with your desired behavior.
 
 Example:
 
@@ -50,7 +50,7 @@ console.log(JSON.stringify(ourDog));
 //prints {"food":"dog snacks"}
 ```
 
-To convert JSON string back to JavaScript you can use `JSON.parse()` method.
+To convert a JSON string back to JavaScript you can use `JSON.parse()` method.
 
 Example:
 
@@ -72,8 +72,9 @@ const ourDog = {
 }
 
 console.log(JSON.stringify(ourDog));
-// prints '{"???":"???","???":???}'
 ```
+
+prints `'{"???":"???","???":???}'`
 
 * `name`
 * `Leo`
@@ -87,7 +88,7 @@ console.log(JSON.stringify(ourDog));
 ---
 ## Revision
 
-What method should be use in example below?
+What method should be used in example below?
 
 ```javascript
 const yourJSON = '{"name":"Coco","age":4}'
