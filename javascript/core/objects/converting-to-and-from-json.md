@@ -97,9 +97,9 @@ console.log(cat.name);
 // prints "Coco"
 ```
 
-* `parse()`
-* `toJSON()`
-* `stringify()`
+* `parse`
+* `toJSON`
+* `stringify`
 
 ---
 ## Quiz
