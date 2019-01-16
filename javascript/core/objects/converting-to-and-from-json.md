@@ -122,3 +122,4 @@ JSON.stringify(enkiObj);
 * `"{"c":"third"}"`
 * `"{"a":"first","b":"second"}"`
 * `"{"a":"first","b":"second","c":"third"}"`
+* `"{a: "first", b: "second"}"`
