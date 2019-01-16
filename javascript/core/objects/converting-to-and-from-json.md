@@ -2,7 +2,6 @@
 author: Ewa Trzemżalska
 
 levels:
-
     - beginner
     - basic
 
@@ -11,7 +10,6 @@ type: normal
 category: feature
 
 tags:
-
   - JSON
   - introduction
 
@@ -32,7 +30,7 @@ const ourDog = {
 }
 
 console.log(JSON.stringify(ourDog));
-//prints '{"name":"Leo","dog years":14}'
+// prints '{"name":"Leo","dog years":14}'
 ```
 
 
@@ -60,7 +58,7 @@ Example:
 const ourJSON = '{"name":"Roxy","age":2}'
 const dog = JSON.parse(ourJSON);
 console.log(dog.name);
-//prints "Roxy"
+// prints "Roxy"
 ```
 ---
 ## Practice
@@ -74,13 +72,13 @@ const ourDog = {
 }
 
 console.log(JSON.stringify(ourDog));
+// prints '{"???":"???","???":???}'
 ```
-//prints `'{"???":"???","???":???}'`
 
-* `14`
 * `name`
-* `dog years`
 * `Leo`
+* `dog years`
+* `14`
 * `12`
 * `dog`
 * `JSON`
@@ -95,11 +93,11 @@ What method should be use in example below?
 const yourJSON = '{"name":"Coco","age":4}'
 const cat = JSON.???(yourJSON);
 console.log(cat.name);
-//prints "Coco"
+// prints "Coco"
 ```
-* toJSON()
-* parse()
-* stringify()
+* `parse()`
+* `toJSON()`
+* `stringify()`
 
 ---
 ## Quiz
@@ -117,6 +115,6 @@ const enkiObj = {
 JSON.stringify(enkiObj);
 ```
 
+* `"{"c":"third"}"`
 * `"{"a":"first","b":"second"}"`
 * `"{"a":"first","b":"second","c":"third"}"`
-* `"{"c":"third"}"`
