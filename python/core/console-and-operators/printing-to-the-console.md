@@ -3,11 +3,11 @@ author: tommarshall
 
 tags:
 
-  - introduction
+ - introduction
 
 levels:
 
-  - beginner
+ - beginner
 
 type: normal
 
@@ -15,9 +15,9 @@ category: must-know
 
 inAlgoPool: false
 aspects:
-  - introduction
+ - introduction
 standards:
-  python.identify-python-syntax.1: 10
+ python.identify-python-syntax.1: 10
 
 ---
 
@@ -30,14 +30,12 @@ Python's simplest directive is the `print` directive. It simply prints out a lin
 
 In Python 2, print is invoked without parentheses. Therefore, to `print` in Python 2:
 ```python
-print 'Python 2'
-```
+print 'Python 2'```
 
-To print in Python 3, use parentheses as `print()` is a function:
+To print in Python 3, use parentheses, since `print()` is a function:
 
 ```python
-print('Python 3')
-```
+print('Python 3')```
 
 ---
 ## Practice
@@ -52,11 +50,9 @@ Pythons simplest directive is the ??? directive. It prints out the stringified v
 ---
 ## Revision
 
-Print to the string 'Python 3!' the console in Python 3:
+Print the string 'Python 3!' to the console in Python 3:
 
-```
-??? ??? Python 3! ???
-```
+```??? ??? Python 3! ???```
 
 * `print`
 * `('`
