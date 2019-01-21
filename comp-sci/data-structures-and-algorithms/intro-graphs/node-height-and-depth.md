@@ -9,7 +9,11 @@ type: normal
 
 category: must-know
 
+aspects:
 
+  - introduction
+
+  - workout
 
 parent: the-tree-data-structure
 
@@ -38,7 +42,7 @@ Depth 2   Depth 2    Depth 2
 Height 0  Height 0   Height 1
                       /
                     Depth 3
-                    Height 0    
+                    Height 0
 
 ```
 These concepts are applicable to **any type** of tree.
@@ -86,4 +90,4 @@ C ???
 * `D2/H0`
 * `D2/H2`
 
- 
+
