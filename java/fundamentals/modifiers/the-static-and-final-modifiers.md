@@ -11,6 +11,10 @@ inAlgoPool: false
 
 category: must-know
 
+aspects:
+
+  - introduction
+
 ---
 
 # The `static` and `final` Modifiers
