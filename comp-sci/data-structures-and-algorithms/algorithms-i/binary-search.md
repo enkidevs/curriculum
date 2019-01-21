@@ -15,6 +15,11 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - deep
+
+  - workout
 
 links:
 
@@ -63,7 +68,7 @@ Yes, it does! If you were to divide 200,000 in half 17 times, you'd end up with 
 we are confident in saying whether the item
 exists or not in the list
 ```
-Consider the following **sorted** (and much shorter) user list, that would contain the whole user object: 
+Consider the following **sorted** (and much shorter) user list, that would contain the whole user object:
 
 ![bssorted](%3Csvg%20width%3D%22100%25%22%20height%3D%22auto%22%20viewBox%3D%220%200%20600%20100%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ctitle%3EArtboard%3C%2Ftitle%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Ctext%20font-family%3D%22RobotoMono-Light%2C%20Roboto%20Mono%22%20font-size%3D%2222%22%20font-weight%3D%22300%22%20fill%3D%22currentColor%22%3E%3Ctspan%20x%3D%2234.0957031%22%20y%3D%2258%22%3Eatom%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20font-family%3D%22RobotoMono-Light%2C%20Roboto%20Mono%22%20font-size%3D%2222%22%20font-weight%3D%22300%22%20fill%3D%22currentColor%22%3E%3Ctspan%20x%3D%22102.196777%22%20y%3D%2258%22%3Ecat%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20font-family%3D%22RobotoMono-Light%2C%20Roboto%20Mono%22%20font-size%3D%2222%22%20font-weight%3D%22300%22%20fill%3D%22currentColor%22%3E%3Ctspan%20x%3D%22215.095703%22%20y%3D%2258%22%3Eedd1%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20font-family%3D%22RobotoMono-Light%2C%20Roboto%20Mono%22%20font-size%3D%2222%22%20font-weight%3D%22300%22%20fill%3D%22currentColor%22%3E%3Ctspan%20x%3D%22161.196777%22%20y%3D%2258%22%3Edog%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20font-family%3D%22RobotoMono-Light%2C%20Roboto%20Mono%22%20font-size%3D%2222%22%20font-weight%3D%22300%22%20fill%3D%22currentColor%22%3E%3Ctspan%20x%3D%22275.095703%22%20y%3D%2258%22%3Eelsa%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20font-family%3D%22RobotoMono-Light%2C%20Roboto%20Mono%22%20font-size%3D%2222%22%20font-weight%3D%22300%22%20fill%3D%22currentColor%22%3E%3Ctspan%20x%3D%22345.29248%22%20y%3D%2258%22%3Ehero231%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20font-family%3D%22RobotoMono-Light%2C%20Roboto%20Mono%22%20font-size%3D%2220%22%20font-weight%3D%22300%22%20fill%3D%22%23FFF%22%3E%3Ctspan%20x%3D%22455.491211%22%20y%3D%2258%22%3Ezephyr123%3C%2Ftspan%3E%3C%2Ftext%3E%3Cpath%20stroke%3D%22currentColor%22%20stroke-width%3D%222%22%20d%3D%22M30%2020h540v58H30zm61%2057V20m60%2058V20m60%2058V20m60%2059V20m60%2059V20m120%2058V20%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
@@ -86,4 +91,4 @@ The Big-O of the binary search algorithm is:
 * O(nˆ2)
 * O(n*log n)
 
- 
+

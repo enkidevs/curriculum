@@ -15,7 +15,11 @@ type: normal
 
 category: must-know
 
+aspects:
 
+  - deep
+
+  - workout
 
 parent: sieve-of-eratosthenes
 
@@ -83,4 +87,4 @@ What is a prime number?
 * Any number that is not a multiple of 2.
 * Any number that has only 1 as its divisor.
 
- 
+
