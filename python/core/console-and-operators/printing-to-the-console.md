@@ -2,10 +2,10 @@
 author: tommarshall
 
 tags:
- - introduction
+  - introduction
 
 levels:
- - beginner
+  - beginner
 
 type: normal
 
@@ -14,10 +14,10 @@ category: must-know
 inAlgoPool: false
 
 aspects:
- - introduction
+  - introduction
  
 standards:
- python.identify-python-syntax.1: 10
+  python.identify-python-syntax.1: 10
 
 ---
 
