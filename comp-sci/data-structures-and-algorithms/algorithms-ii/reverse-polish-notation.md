@@ -15,6 +15,13 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - deep
+
+  - workout
+
+  - obscura
 
 links:
 
@@ -74,7 +81,7 @@ What is the infix equivalent notation of the reverse polish notation `4 3 + 10 Ã
 * 10+3Ã—4
 
 ---
-## Quiz 
+## Quiz
 ### What is the result of the following expression?
 
 Evaluate the following expression written
@@ -90,4 +97,4 @@ using the reverse polish notation (postfix notation)
 * 0
 * 10.04
 * 6.04
- 
+

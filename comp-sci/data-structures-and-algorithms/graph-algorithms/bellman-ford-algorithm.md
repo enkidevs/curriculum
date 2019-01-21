@@ -15,6 +15,11 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - deep
+
+  - workout
 
 links:
 
@@ -55,8 +60,8 @@ function BellmanFord(vertices,
                      edges,source)
   distance[],predecessor[]
   for each vertex v in vertices
-    distance[v]←inf             
-    predecessor[v]←null         
+    distance[v]←inf
+    predecessor[v]←null
 
   distance[source]←0
 
@@ -92,7 +97,7 @@ The main difference between Bellman-Ford and Dijkstra's algorithms is that
 * Dijkstra's outputs the distance between the source and every other node
 
 ---
-## Quiz 
+## Quiz
 ### which algorithm is to be use in the following scenario?
 
 Suppose we have an undirected, complete, weighted (real numbers) graph.
@@ -121,4 +126,4 @@ Assigning an initial approximate value to the distance (i.e. infinity), then rep
 We will assume that the *directed graph* is represented using a *nodes list* and a map with *(edge, weight)* pairs, for which a directed *edge from u to v* is represented as *(u,v)*.
 
 The map would, therefore, contain pairs like `((u,v),weight))`.
- 
+

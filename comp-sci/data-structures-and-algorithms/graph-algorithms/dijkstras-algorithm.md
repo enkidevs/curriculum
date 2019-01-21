@@ -15,6 +15,11 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - deep
+
+  - workout
 
 links:
 
@@ -93,11 +98,11 @@ What does Dijkstra's algorithm compute?
 A graph in which every edge has numerical values (weight or cost) assigned to it.
 ```text
          A   -   B
-      3/     2    
-       D       
+      3/     2
+       D
         \
-       6 \         
-          C          
+       6 \
+          C
 
 ```
 
@@ -111,4 +116,4 @@ In case the destination node is known.
 
 [4:Full traversal]
 In case the algorithm computes a full traversal, value of `infinity` tells that the particular node is not reachable.
- 
+
