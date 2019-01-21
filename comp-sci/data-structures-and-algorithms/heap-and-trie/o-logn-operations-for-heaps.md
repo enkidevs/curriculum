@@ -15,7 +15,11 @@ type: normal
 
 category: must-know
 
+aspects:
 
+  - deep
+
+  - workout
 
 parent: removing-data-from-a-heap-with-the-downheap-operation
 
@@ -50,4 +54,4 @@ For insertion to take O(log n) time, the underlying structure used to implement 
 * stack
 * tree
 
- 
+
