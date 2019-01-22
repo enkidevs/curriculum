@@ -11,7 +11,7 @@ category: must-know
 
 aspects:
 
-  - introduction
+  - deep
 
   - workout
 

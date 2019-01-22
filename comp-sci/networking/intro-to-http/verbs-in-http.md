@@ -19,6 +19,8 @@ aspects:
 
   - introduction
 
+  - workout
+
 links:
 
   - '[www.restapitutorial.com](http://www.restapitutorial.com/lessons/httpmethods.html){website}'
