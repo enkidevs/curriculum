@@ -38,12 +38,12 @@ links:
 ## Content
 
 An alternative to using an if/else statement is the use of the ternary operator, whose syntax appears below.
-```
+```java
 result = testCondition ? value1 : value2;
 ```
 Below are two equivalent statements.
 
-```
+```java
 int x;
 if (y > 3) {
   x = 1;
@@ -51,7 +51,7 @@ if (y > 3) {
   x = 0;
 }
 ```
-```
+```java
 int x = y > 3 ? 1 : 0;
 ```
 
@@ -59,11 +59,11 @@ int x = y > 3 ? 1 : 0;
 ## Practice
 
 Which of the following is equivalent to the if statement below:
-```
+```java
 int count;
 if (flag > 5) {
   count = 2;
-}else {
+} else {
   count = 5;
 }
 ```
@@ -79,7 +79,7 @@ if (flag > 5) {
 ## Revision
 
 Complete the following ternary operator syntax with the correct symbols:
-```
+```java
 int num = x > 2 ??? 2 ??? 0
 ```
 
@@ -108,4 +108,3 @@ System.out.println(true?false:true==true?false:true);
 * 1
 * 3
 * 4
- 

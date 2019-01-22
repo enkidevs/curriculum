@@ -13,6 +13,14 @@ type: normal
 
 category: pattern
 
+aspects:
+
+  - workout
+
+  - deep
+
+  - obscura
+
 tags:
 
   - design-patterns
@@ -36,7 +44,7 @@ Factory methods are static methods which return an instance of a class. Several 
 - able to return an object with an implementation class that is unknown to the caller.
 - do not necessarily need to create a new object each time they are called; objects can be cached and recycled.
 
-```
+```java
 public class Animal{
   //factory method
   public static Animal getInstance(){
@@ -47,5 +55,3 @@ public class Animal{
 }
 ```
 In the above example, the constructor is private to guarantee that instances of `Animal` can only be created using the `getInstance()` factory method.
-
- 

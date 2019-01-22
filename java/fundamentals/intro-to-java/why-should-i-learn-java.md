@@ -20,7 +20,6 @@ links:
 
   - '[Who is using Java?](https://www.quora.com/Why-is-Java-so-important){website}'
 
-
 ---
 
 # Why Should I Learn Java?

@@ -13,17 +13,19 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - introduction
+
 tags:
 
   - design-patterns
 
   - inheritance
 
-
 links:
 
   - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=164){website}'
-
 
 ---
 
@@ -36,11 +38,11 @@ Template methods are methods in an abstract base class which define the general 
 
 Using Template methods is a good way to eliminate code repetition. Rather than writing code which performs similar operations multiple times, a general abstract solution can be created, and then the differences can be implemented in several subclasses.
 
-```
-public abstract class BaseClass{
+```java
+public abstract class BaseClass {
   /*template method defines the general
   steps*/
-  public final void templateMethod(){
+  public final void templateMethod() {
     step1();
     step2();
   }
@@ -50,15 +52,15 @@ public abstract class BaseClass{
   abstract void step2();
 }
 
-public class SubClass extends BaseClass{
+public class SubClass extends BaseClass {
   /*the subclass can override the steps
   and provide specific implementations*/
   @Override
-  void step1(){
+  void step1() {
     //do stuff
   }
   @Override
-  void step2(){
+  void step2() {
     //do stuff  
   }
 }
@@ -78,13 +80,13 @@ Template methods are a good way to prevent
 ## Revision
 
 Complete the following Java code snippet implementing the use of a base class:
-```
-public abstract class bigClass {
+```java
+public abstract class BigClass {
   abstract void render();
 }
 
-public class smallerClass
-         ??? bigClass {
+public class SmallerClass
+         ??? BigClass {
   ???
   void render() {
     // render method code...
@@ -101,5 +103,3 @@ public class smallerClass
 * `@Implement`
 * `@Create`
 * `@Extends`
-
- 

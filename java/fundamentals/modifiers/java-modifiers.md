@@ -13,13 +13,14 @@ aspects:
 
   - introduction
 
+  - workout
+
 inAlgoPool: false
 
 
 links:
 
   - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html){website}'
-
 
 ---
 
@@ -31,7 +32,7 @@ links:
 **Modifiers** are keywords used during declaration that can change the variable/method/class behaviour.
 
 In the previous insights, there were some words used that were not explained, such as:
-```
+```java
 public class ...{
 //or
   public void start();

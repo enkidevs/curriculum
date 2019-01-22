@@ -13,6 +13,12 @@ type: normal
 
 category: caveats
 
+aspects: 
+
+  - introduction
+
+  - workout
+
 
 links:
 
@@ -50,5 +56,3 @@ doc = null;
 At the end of the code snippet one might think the `DOM document` will be garbage-collected. This is not the case!
 
 A `DOM Node` object always belongs to a `DOM Document`. Even when removed from the document the node object retains a reference to its owning document. As long as we keep that child object, neither the document nor any of the nodes it refers to will be removed.
-
- 

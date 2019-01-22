@@ -13,6 +13,10 @@ type: normal
 
 category: best practice
 
+aspects: 
+
+  - introduction
+
 tags:
 
   - don't-repeat-yourself
@@ -24,7 +28,6 @@ tags:
   - consistency
 
   - repetition
-
 
 links:
 
@@ -44,7 +47,7 @@ Code written should be made easy to maintain by following the *don’t repeat yo
 The principle suggests avoiding duplications or copying and pasting blocks of code from one place to another, by moving similar or repetitive code into reusable units like methods or sometimes an entire class. 
 
 For example:
-```
+```java
 public class University {
   public void addStudent() {
     // Code for adding a student
@@ -57,7 +60,7 @@ public class University {
 }
 ```
 A better implementation would be:
-```
+```java
 public class University {
   public void addStudent() {
     // Code for adding a student
@@ -72,5 +75,3 @@ public class University {
   }
 }
 ```
-
- 

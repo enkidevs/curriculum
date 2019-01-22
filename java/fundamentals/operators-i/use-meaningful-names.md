@@ -24,7 +24,6 @@ links:
 
   - '[javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2014/10/10-java-best-practices-to-name-variables-methods-classes-packages.html){website}'
 
-
 ---
 
 # Use meaningful names
@@ -37,12 +36,12 @@ When naming classes, methods, variables or just about anything that you are requ
 This is to improve the readability of your code; a name which briefly explains the purpose or use of something will make it much easier for other programmers, or even the original programmer at a later date, to understand the code.
 
 For example, this is not clear:
-```
+```java
 public String ga(String n) {
 ...
 ```
 However, this makes it obvious that this is a method which takes a name parameter and returns an address as a `String`.
-```
+```java
 public String getAddress(String name) {
 ...
 ```
@@ -59,5 +58,3 @@ What’s the main advantage of using meaningful names for methods?
 * Bigger names are always better.
 * Improves code compilation times.
 * Improves running times.
-
- 

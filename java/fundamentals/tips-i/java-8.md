@@ -15,6 +15,12 @@ type: tetris
 
 category: tip
 
+aspects:
+
+  - introduction
+
+  - new
+
 ---
 
 # Java 8?
@@ -22,7 +28,7 @@ category: tip
 ---
 ## Content
 
-With the introduction of Java8, numerous classes and interfaces have been added to the languages as to help users program easier and in a more efficient fashion.
+With the introduction of Java 8, numerous classes and interfaces have been added to the languages as to help users program easier and in a more efficient fashion.
 
 ---
 ## Game Content
@@ -149,4 +155,3 @@ This class is used to wrap **IOExceptions** with an **unchecked exception**. **J
 %
 
 ```
- 

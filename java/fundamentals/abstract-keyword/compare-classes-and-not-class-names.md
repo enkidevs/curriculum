@@ -9,11 +9,15 @@ type: normal
 
 category: caveats
 
+aspects:
+
+  - deep
+
+  - obscura
 
 links:
 
   - '[www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/OBJ09-J.+Compare+classes+and+not+class+names){website}'
-
 
 ---
 
@@ -58,5 +62,3 @@ Which two properties make two classes in a JVM the same class?
 * Loaded by the same class loader, same fields.
 * Same qualified name, same size.
 * Same qualified name, same compilation times.
-
- 

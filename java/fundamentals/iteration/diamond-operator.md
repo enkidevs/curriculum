@@ -9,8 +9,11 @@ type: normal
 
 category: tip
 
+aspects:
 
+  - introduction
 
+  - obscura
 
 ---
 
@@ -36,7 +39,7 @@ HashMap<>();
 ## Practice
 
 Which of the following Java code snippets is most efficient and illustrates the correct use of a Diamond Operator? 
-```
+```java
 // Example A
 Map<String, List<Integer>> map = 
  new HashMap<String, List<Integer>>(); 
@@ -60,7 +63,7 @@ Map<String, List<Integer>> map =
 
 Which of the following Java code snippets is most efficient and illustrates the correct use of a Diamond Operator? 
 
-```
+```java
 //Example A
 Map<String, List<Integer>> map = 
  new HashMap<String, List<Integer>>();

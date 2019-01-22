@@ -13,6 +13,8 @@ aspects:
 
   - introduction
 
+  - workout
+
 inAlgoPool: false
 
 ---
@@ -29,7 +31,7 @@ Variables that are declared `static` exist outside instances of the class, with 
 The same happens for a static method. It can be accessed independently of any class instance. Because of this, static methods **are not allowed** to reference *instance specific* variables.
 
 For example:
-```
+```java
 public class Car{
   private static int piecesSold = 0;
   public Car(){
@@ -48,7 +50,7 @@ public class FamilyCar extends Car{
 }
 ```
 The above snippet counts how many `Car` objects are instantiated. It also counts the number of subclasses instantiated:
-```
+```java
 Car a = new Car();
 Car b = new FamilyCar();
 FamilyCar c = new FamilyCar();

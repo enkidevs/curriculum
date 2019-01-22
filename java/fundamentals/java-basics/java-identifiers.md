@@ -21,9 +21,6 @@ aspects:
 
 inAlgoPool: false
 
-
-
-
 ---
 
 # Java Identifiers
