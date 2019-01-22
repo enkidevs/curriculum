@@ -15,7 +15,9 @@ type: normal
 
 category: must-know
 
+aspects:
 
+  - introduction
 
 parent: successful-status-codes
 
@@ -65,4 +67,4 @@ The only two methods for which a browser should redirect the user after receivin
 * DELETE
 * GET
 
- 
+
