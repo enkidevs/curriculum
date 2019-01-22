@@ -9,6 +9,11 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+
+  - workout
 
 links:
 
@@ -87,4 +92,4 @@ For example, `HTTPS` refers to the secure extension of `HTTP`.
 
 [2:overhead]
 Overhead, in Computer Science, means any form of excess or indirect computation, time, memory, bandwidth or other resources required to complete a specific task.
- 
+
