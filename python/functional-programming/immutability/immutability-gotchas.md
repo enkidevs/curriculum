@@ -2,22 +2,19 @@
 author: stefkn
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
+
+aspects:
+  - workout
 
 type: normal
 
 category: must-know
 
-
 links:
-
   - '[Common Gotchas](http://docs.python-guide.org/en/latest/writing/gotchas/){website}'
-
 
 ---
 
