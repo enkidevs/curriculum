@@ -14,12 +14,15 @@ stub: true
 tags:
   - deep
 
+aspects:
+  - introduction
+
 links:
   - '[CodePen: Element Time (1)](https://codepen.io/enkidevs/pen/qyROGe){code}'
   - '[CodePen: Element Time (2)](https://codepen.io/enkidevs/pen/oMBbvN){code}'
   - '[CodePen: Element Time (3)](https://codepen.io/enkidevs/pen/MBJKgB){code}'
   - '[MDN docs for time](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time){website}'
-  
+
 ---
 # Intro time
 ---
@@ -27,7 +30,7 @@ links:
 
 The HTML `<time>` element is used to represent a specific period of time. This element has a machine-readable `datetime` attribute that indicates the time and or date of the `<time>` element. The `datetime` attribute has to be in a specific format.
 
-Full Date format: `YYYY-MM-DDThh:mm:ssTZD` 
+Full Date format: `YYYY-MM-DDThh:mm:ssTZD`
 
 * YYYY -  Year
 * MM   -  Month
@@ -103,7 +106,7 @@ Another Example:
 <p>
 Date of birth:
 <time 1993-12-06 18:12:24>
-  December 6, 1993 
+  December 6, 1993
   at 18:12:24
   </time>
 </p>
@@ -112,17 +115,17 @@ Result:
 
 ![element-time-2](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2273%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2273%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2234%22%3EDate%20of%20birth%3A%20December%206%2C%201993%20at%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2220%22%20y%3D%2253%22%3E18%3A12%3A24%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/oMBbvN)--> 
+<!--[View CodePen](https://codepen.io/enkidevs/pen/oMBbvN)-->
 
 Example with datetime:
 ```html
 <p>
-  WW2 ended 
+  WW2 ended
   <time datetime="1945-09-02">
   September 2, 1945</time>.
 </p>
 ```
-Result: 
+Result:
 
 ![element-time-3](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2256%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2256%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2234%22%3EWW2%20ended%20September%202%2C%201945.%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
@@ -176,7 +179,7 @@ When using the `<time>` element, what attribute is used to declare the machine-r
 
 ### How much do you know about the `<time>` element?
 
-Match the appropriate datetime attributes: 
+Match the appropriate datetime attributes:
 
 Dec 25th, 1975 at 6pm: `<time datetime="???">`
 Three-Day Event: `<time datetime="???">`
@@ -188,4 +191,3 @@ Three-Day Event: `<time datetime="???">`
 * 12-25-1975T06:00
 * 3D
 * D3
- 
