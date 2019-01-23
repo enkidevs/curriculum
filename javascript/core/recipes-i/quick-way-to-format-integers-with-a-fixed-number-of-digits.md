@@ -68,9 +68,14 @@ Pay attention though, as `slice()` will throw an error if called by a *number*, 
 ---
 ## Practice
 
-`console.log(("0044742323412").slice(-3));`  
+```javascript
+console.log(("0044742323412")
+            .slice(-3));
+```
 Outputs ??? , while
-`console.log((32410000).slice(-5));`
+```javascript
+console.log((32410000).slice(-5));
+```
 
 outputs ??? .
 
@@ -83,10 +88,11 @@ outputs ??? .
 ---
 ## Revision
 
-`console.log(("123").slice(-4));` 
+```javascript
+console.log(("123").slice(-4));
+``` 
 
  outputs ???
-
 
 * 123
 * 0123
