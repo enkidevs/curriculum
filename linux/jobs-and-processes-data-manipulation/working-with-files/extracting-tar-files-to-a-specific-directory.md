@@ -7,6 +7,9 @@ levels:
 
   - beginner
 
+aspects:
+  - obscura
+
 type: normal
 
 category: how to
