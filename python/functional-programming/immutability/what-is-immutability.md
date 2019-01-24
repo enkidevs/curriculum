@@ -2,20 +2,19 @@
 author: stefkn
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
+
+aspects:
+  - introduction
+  - obscura
 
 type: normal
 
 category: must-know
 
-
 links:
-
   - '[Immutability - Wikipedia](https://en.wikipedia.org/wiki/Immutable_object){website}'
 
 

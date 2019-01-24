@@ -2,13 +2,15 @@
 author: mihaiberq
 
 levels:
-
   - beginner
+
+aspects:
+  - introduction
+  - workout
 
 type: normal
 
 category: feature
-
 
 links:
 
