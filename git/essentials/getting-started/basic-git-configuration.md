@@ -7,6 +7,10 @@ levels:
 
 type: normal
 
+aspects:
+
+  - introduction
+
 category: how to
 
 inAlgoPool: false

@@ -15,6 +15,11 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+
+  - workout
 
 links:
 
@@ -80,4 +85,4 @@ HTTP/2 characteristics:
 
 [2: Statistics]
 https://w3techs.com/technologies/details/ce-http2/all/all
- 
+

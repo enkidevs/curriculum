@@ -15,6 +15,11 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - deep
+
+  - workout
 
 links:
 
@@ -93,4 +98,4 @@ Which of the following commands will check connectivity between you and a remote
 [1:ICMP]
 **The Internet Control Message Protocol** (`ICMP`) is the mechanism used to give feedback about network problems that are preventing packet delivery.
 ICMP packets are specialized packets used for informational and debugging purposes.
- 
+

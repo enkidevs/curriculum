@@ -9,8 +9,12 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
+aspects:
 
+  - introduction
+  - deep
+  
+inAlgoPool: false
 
 links:
 

@@ -15,6 +15,9 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
 
 links:
 
@@ -107,4 +110,4 @@ While the relative one (which requires the `Host` field) is:
 ```
 /contact
 ```
- 
+
