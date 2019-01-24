@@ -64,7 +64,8 @@ public class FamilyCar implements Car {
 
   public void stop(int speed) {
     if (speed < 30) {
-      System.out.println(model + "stops gently!");
+      System.out.println(model +  
+        "stops gently!");
     }
   }  
 }
