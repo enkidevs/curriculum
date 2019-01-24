@@ -7,6 +7,11 @@ levels:
 
   - medium
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
 type: normal
 
 category: feature
