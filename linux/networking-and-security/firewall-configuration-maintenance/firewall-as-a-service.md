@@ -5,6 +5,9 @@ levels:
 
   - medium
 
+aspects:
+  - deep
+
 type: normal
 
 category: caveats

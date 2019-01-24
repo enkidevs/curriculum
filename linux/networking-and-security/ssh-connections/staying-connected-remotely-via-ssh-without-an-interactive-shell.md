@@ -7,6 +7,10 @@ levels:
 
   - medium
 
+aspects:
+  - introduction
+  - obscura
+
 type: normal
 
 category: hack

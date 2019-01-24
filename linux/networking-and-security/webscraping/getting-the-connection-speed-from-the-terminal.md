@@ -9,6 +9,9 @@ levels:
 
   - beginner
 
+aspects:
+  - obscura
+
 type: normal
 
 category: hack

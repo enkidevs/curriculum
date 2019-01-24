@@ -5,6 +5,10 @@ levels:
 
   - basic
 
+aspects:
+  - introduction
+  - workout
+
 type: normal
 
 category: feature
