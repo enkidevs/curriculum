@@ -5,6 +5,10 @@ levels:
 
   - basic
 
+aspects:
+  - workout
+  - obscura
+
 type: normal
 
 category: tip
