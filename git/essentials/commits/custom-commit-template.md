@@ -11,7 +11,11 @@ type: normal
 
 category: feature
 
+aspects:
 
+  - introduction
+  - workout
+  
 links:
 
   - '[git-scm.com](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration){website}'
