@@ -9,6 +9,11 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+
+  - workout
 
 links:
 
@@ -39,7 +44,7 @@ Based on these aspects, computer networks have been classified as:
 
 ### LAN
 
-`LAN` network connects a *small number* of devices, being typically used in networked office buildings, schools or homes. 
+`LAN` network connects a *small number* of devices, being typically used in networked office buildings, schools or homes.
 
 Due to operating in a *limited space* `LAN`s are usually owned, controlled and managed by a single person or organization. They also tend to use certain connectivity technologies, primarily `Ethernet`[1] and `Token Ring`[2].
 
@@ -98,4 +103,4 @@ Chances are you have already connected to a network via an **Ethernet cable**.
 **Token ring** is a communications *protocol* for `LAN`s. It uses a special `3`-byte frame called a **token** that travels around a logical "ring" of workstations or servers.
 
 This token passing is a channel access method providing fair access for all stations, and eliminating the collisions present in other access methods.
- 
+
