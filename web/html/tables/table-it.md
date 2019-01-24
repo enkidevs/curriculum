@@ -10,6 +10,10 @@ tags:
   - introduction
   - workout
 
+aspects:
+  - workout
+  - deep
+
 type: tetris
 
 category: 'feature'
@@ -26,7 +30,7 @@ links:
 ---
 # Table It
 ---
- 
+
 ## Content
 
 Play the game determining which attribute is deprecated or obsolete and which is still in use:
@@ -71,7 +75,7 @@ This is a deprecated attribute
 %
 
 ```
- 
+
 ```true
 rowspan
 %exp
