@@ -7,6 +7,10 @@ levels:
 
   - medium
 
+aspects:
+  - deep
+  - obscura
+
 type: normal
 
 category: how to
