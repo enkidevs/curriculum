@@ -70,7 +70,7 @@ Pay attention though, as `slice()` will throw an error if called by a *number*, 
 
 ```javascript
 console.log(("0044742323412")
-            .slice(-3));
+  .slice(-3));
 ```
 Outputs ??? , while
 ```javascript
