@@ -15,6 +15,11 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+
+  - workout
 
 links:
 
@@ -66,7 +71,7 @@ Therefore, they can't allow additional traffic to go through them and will resul
 
 
 [2:Software issues]
-As software written for *network devices* is not perfect, bugs might occur undetected. 
+As software written for *network devices* is not perfect, bugs might occur undetected.
 
 Therefore, it's highly recommended to always update drivers and such software to the latest versions.
 
@@ -74,4 +79,4 @@ Therefore, it's highly recommended to always update drivers and such software to
 **TCP** will detect packet loss and will *resend* packets that don't get to their destination to ensure reliable communication and avoid congestion.
 
 However, media streaming, VoIP or video games don't use **TCP**, but **UDP** that doesn't handle packet loss.
- 
+

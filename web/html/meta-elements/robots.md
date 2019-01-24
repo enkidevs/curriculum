@@ -18,6 +18,10 @@ tags:
   - workout
   - deep
 
+aspects:
+  - workout
+  - deep
+
 ---
 # Robots
 ---
@@ -101,4 +105,3 @@ What is the default value of the robots meta tag?
 * `<meta name="robots" content="noindex, follow">`
 * `<meta name="robots" content="index, nofollow">`
 * `<meta name="robots" content="noindex, nofollow">`
- 

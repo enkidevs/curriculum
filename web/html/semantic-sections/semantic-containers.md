@@ -63,7 +63,7 @@ For some of the elements above, the equivalent way of coding these container in 
  - `<div class="section">`
  - `<div class="footer">`
 
-The problem with the HTML4 technique was that the class names could really be named anything by the developer, thus there was no way from the class names search engines or developers knew what content was in the containers. 
+The problem with the HTML4 technique was that the class names could be named anything by the developer, thus there was no way from the class names search engine or for the developers to know what content was in the containers. 
 
 The `<div>` and `<span>` elements are HTML containers, however, they are not semantic elements.
  - `<div>` defines a division or section
@@ -196,4 +196,3 @@ Although <form> is a HTML5 container, it was also commonly used in HTML4.
 %
 
 ```
- 

@@ -9,6 +9,9 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
 
 links:
 
@@ -48,10 +51,10 @@ In the latter type of networks, packets are sent over the Internet through *node
 ## Practice
 
 Data transmission over the Internet works in the following way:
-  
-original data is split into ??? at ???  
-data is transmitted following protocol rules  
-data is ??? at ???  
+
+original data is split into ??? at ???
+data is transmitted following protocol rules
+data is ??? at ???
 
 
 * packets
@@ -89,4 +92,4 @@ Other terms equivalent to **packets** are datagrams, segments, blocks, cells and
 Contrary to *traditional lines* of communication, such as telephone lines, where there must be a continuous physical link between the source and destination, modern networks work on a different concept.
 
 Packets are routed from *source* to *destination*, going through **nodes**. At each node calculations are made deciding the most efficient route of reaching the destination.
- 
+

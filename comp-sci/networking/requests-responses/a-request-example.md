@@ -15,6 +15,9 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - deep
 
 links:
 
@@ -102,4 +105,4 @@ It might seem strange that the first browser in the `User-Agent` field list is `
 If this is the first time you encounter the `q=0.8` notation, you should keep in mind that it is used to declare preference (it can take values between *0* and *1*). In this case, we prefer the more specific `en-GB, en-US` (British or American) English variants, rather than a more general English (`en`).
 
 In case `q` isn't present, the option has a default value of `q=1`, equivalent to the most preferred.
- 
+
