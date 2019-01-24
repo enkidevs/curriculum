@@ -15,6 +15,11 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - deep
+
+  - workout
 
 links:
 
@@ -107,4 +112,4 @@ $ netstat ???
 [1:kernel routing table]
 This is the same as the **IP routing table**, mentioned in the previous insight.
 On **Linux** the same information can be retrieved from the table using `route` command.
- 
+

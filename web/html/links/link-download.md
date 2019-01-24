@@ -12,6 +12,9 @@ category: must-know
 tags:
   - introduction
 
+aspects:
+  - introduction
+
 links:
   - '[MDN docs for anchor](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a){website}'
 
@@ -21,7 +24,7 @@ links:
 ## Content
 
 When links connect to web files or images, the page will navigate to that content and display accordingly. But when non-web files or images are linked, those files will be downloaded to the user's computer.  
- 
+
 Example of a non-web download link:
 ```html
 <a href="enki.zip">
@@ -36,10 +39,10 @@ When web files and images are meant to be downloaded by the user, then the downl
 
 Example of a web download link:
 ```html
-<a 
-  href="summary.html" 
-  download="Today's%20Summary"> 
-Download Web File 
+<a
+  href="summary.html"
+  download="Today's%20Summary">
+Download Web File
 </a>
 ```
 Result:
@@ -48,7 +51,7 @@ Result:
 
 When the download attribute has a value, it will rename the downloaded file. This can be useful when your file is named `123z12zv824.docx` on your server, but you want it downloaded with something more friendly like `Enki%20Notes.docx`. Keep in mind that `%20` needs to replace any spaces in the filename.
 
-When the value within the download attribute is empty (like `download="">`, then the downloaded file will retain its original filename. Of course, since the file will be a local file for the user, they can always rename that file as they wish, too. 
+When the value within the download attribute is empty (like `download="">`, then the downloaded file will retain its original filename. Of course, since the file will be a local file for the user, they can always rename that file as they wish, too.
 
 ---
 ## Practice
@@ -56,7 +59,7 @@ When the value within the download attribute is empty (like `download="">`, then
 Create a text link that downloads a web file and renames it with a more user-friendly filename.
 
 ```html
-<??? ???="???" 
+<??? ???="???"
   ???="???">
   Email Me
 <???>
@@ -100,6 +103,3 @@ If the actual filename is “file-32467E34.doc” and we want the user to downlo
 * `<a href="file-32467E34.doc" rename="Enki%20Report.doc"></a>`
 * `<a href="file-32467E34.doc" doc="Enki%20Report.doc"></a>`
 * `<a href="Enki Report.doc" src="file-32467E34.doc"></a>`
-
-
- 

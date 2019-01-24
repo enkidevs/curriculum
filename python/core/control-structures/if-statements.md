@@ -122,8 +122,8 @@ else:
 ```
 
 
-* 'true'
+* true
 * SyntaxError
-* 'false'
+* false
 * True
 * False

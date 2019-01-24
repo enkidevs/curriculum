@@ -13,6 +13,12 @@ type: fillTheGap
 
 category: must-know
 
+aspects:
+
+  - deep
+
+  - workout
+
 parent: network-models
 ---
 

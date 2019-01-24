@@ -9,6 +9,11 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
 stub: true
 
 tags:
@@ -105,4 +110,3 @@ What HTML element best defines a caption or legend for a figure?
 * `<legend>`
 * `<fig>`
 * `<figtitle>`
- 

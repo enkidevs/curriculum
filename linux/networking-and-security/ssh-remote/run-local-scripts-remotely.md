@@ -7,11 +7,12 @@ levels:
 
   - medium
 
+aspects:
+  - workout
+
 type: normal
 
 category: how to
-
-
 
 parent: ssh-pipes
 

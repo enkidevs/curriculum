@@ -7,6 +7,9 @@ levels:
 
   - medium
 
+aspects:
+  - obscura
+
 type: normal
 
 category: best practice

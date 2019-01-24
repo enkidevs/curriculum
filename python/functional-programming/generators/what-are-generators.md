@@ -2,16 +2,15 @@
 author: catalin
 
 levels:
-
   - basic
-
   - medium
+
+aspects:
+  - introduction
 
 type: normal
 
 category: must-know
-
-
 
 notes: >-
   Should always be the first insight presented within this topic?
@@ -25,7 +24,6 @@ notes: >-
   handles the StopIteration and uses it to terminate the loop.
 
 ---
-
 # What are generators
 
 ---
