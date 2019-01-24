@@ -9,6 +9,11 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+  - obscura
+  
 inAlgoPool: false
 
 
@@ -41,7 +46,6 @@ What is **Git**'s versioning based on?
 
 ???
 
-
 * Content of the file
 * Name of the file
 * Both
@@ -52,7 +56,6 @@ What is **Git**'s versioning based on?
 What type of VCS is Git?
 
 ???
-
 
 * DVCS
 * CVCS

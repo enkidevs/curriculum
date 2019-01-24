@@ -20,13 +20,13 @@ aspects:
 ---
 ## Content
 
-**CSS** and **HTML** are the core languages used for creating web pages and web-based applications. **HTML** was invented in 1989, whereas **CSS** was invented in 1996.
+**CSS** and **HTML** are the core languages used for creating web pages and web-based applications. **HTML** was invented in 1989, while **CSS** was invented in 1996.
 
-**HTML**, or **HyperText Markup Language** is a markup language for creating the structure and content of a webpage using text, images, links, and containers. Whereas **CSS**, or **Cascading Style Sheets** is used to modify the design and display of those **HTML** elements.
+**HTML**, or **HyperText Markup Language** is a markup language for creating the structure and content of a webpage using text, images, links, and containers. Meanwhile **CSS**, or **Cascading Style Sheets**, is used to modify the design and display of those **HTML** elements.
 
 **HTML** is made up of content between `<tags>`, whereas **CSS** is made of selectors followed by a {declaration block}.
 
-When creating a website, typically all of your unique HTML and CSS files for the same website are located inside one primary folder.
+When creating a website, all of your unique HTML and CSS files for the same website are usually located inside one primary folder.
 
 ---
 ## Practice
@@ -44,7 +44,7 @@ C: ???
 S: ???
 S: ???
 
-Typically, all web files of the same website are saved where?
+Where are all web files of the same website usually saved?
 
 ???
 

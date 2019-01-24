@@ -8,6 +8,12 @@ levels:
 
 type: fillTheGap
 
+aspects:
+
+  - introduction
+
+  - workout
+
 category: must-know
 
 parent: the-queue-data-structure

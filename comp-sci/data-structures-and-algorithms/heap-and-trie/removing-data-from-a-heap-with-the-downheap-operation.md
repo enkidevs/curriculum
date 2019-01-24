@@ -15,7 +15,11 @@ type: normal
 
 category: how to
 
+aspects:
 
+  - deep
+
+  - workout
 
 parent: inserting-data-into-a-heap-with-the-upheap-operation
 
@@ -39,7 +43,7 @@ Remember, that we need to maintain two properties of the tree to ensure we have 
 
 To respect property (1), we move the key in the last position to the root position after we've removed the root.  In this case, we'd move the key `6` to the root node after removing `100`.  To respect property (2), as in the insertion case, we will move around nodes in the tree until the now-rearranged data is properly arranged.
 
-So, after removing `100` and moving up `6`, the heap would look like this: 
+So, after removing `100` and moving up `6`, the heap would look like this:
 
 ![downheap2](%3Csvg%20width%3D%22100%25%22%20height%3D%22auto%22%20viewBox%3D%220%200%20700%20300%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ctitle%3EArtboard%3C%2Ftitle%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M349%2090c19.329966%200%2035-15.6700338%2035-35%200-6.7781994-1.926799-13.1063707-5.262556-18.4666731C372.560339%2026.6072003%20361.551767%2020%20349%2020c-19.329966%200-35%2015.6700338-35%2035s15.670034%2035%2035%2035z%22%20stroke%3D%22currentColor%22%20stroke-width%3D%222%22%20fill%3D%22%23FFF%22%2F%3E%3Cpath%20d%3D%22M209%20190c19.329966%200%2035-15.670034%2035-35%200-6.778199-1.926799-13.106371-5.262556-18.466673C232.560339%20126.6072%20221.551767%20120%20209%20120c-19.329966%200-35%2015.670034-35%2035s15.670034%2035%2035%2035zm-93%2090c19.329966%200%2035-15.670034%2035-35%200-6.778199-1.926799-13.106371-5.262556-18.466673C139.560339%20216.6072%20128.551767%20210%20116%20210c-19.3299662%200-35%2015.670034-35%2035s15.6700338%2035%2035%2035zm373-90c19.329966%200%2035-15.670034%2035-35%200-6.778199-1.926799-13.106371-5.262556-18.466673C512.560339%20126.6072%20501.551767%20120%20489%20120c-19.329966%200-35%2015.670034-35%2035s15.670034%2035%2035%2035z%22%20stroke%3D%22currentColor%22%20stroke-width%3D%222%22%2F%3E%3Ctext%20font-family%3D%22RobotoMono-Light%2C%20Roboto%20Mono%22%20font-size%3D%2240%22%20font-weight%3D%22300%22%20fill%3D%22currentColor%22%3E%3Ctspan%20x%3D%22464.996094%22%20y%3D%22171%22%3E36%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20font-family%3D%22RobotoMono-Light%2C%20Roboto%20Mono%22%20font-size%3D%2240%22%20font-weight%3D%22300%22%20fill%3D%22currentColor%22%3E%3Ctspan%20x%3D%22184.996094%22%20y%3D%22171%22%3E19%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20font-family%3D%22RobotoMono-Light%2C%20Roboto%20Mono%22%20font-size%3D%2240%22%20font-weight%3D%22300%22%20fill%3D%22currentColor%22%3E%3Ctspan%20x%3D%2291.9960938%22%20y%3D%22261%22%3E17%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20font-family%3D%22RobotoMono-Light%2C%20Roboto%20Mono%22%20font-size%3D%2240%22%20font-weight%3D%22300%22%20fill%3D%22currentColor%22%3E%3Ctspan%20x%3D%22336.998047%22%20y%3D%2271%22%3E6%3C%2Ftspan%3E%3C%2Ftext%3E%3Cpath%20d%3D%22M324.305402%2081L231%20127.270754M375%2081l89.005263%2049.575516M141%20220l43.724368-39%22%20stroke%3D%22currentColor%22%20stroke-width%3D%222%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
@@ -60,7 +64,7 @@ In this specific case we are done, but in general we might have to perform multi
 
 Which node should we move into the root position after removing the old one?
 ```
-       ???    
+       ???
       /   \
     20      38
    /  \    /  \
@@ -84,4 +88,4 @@ During `downheap` operation, if both the children of a node have larger keys tha
 * the smaller of the two children
 * none, since it already respects the heap property
 
- 
+

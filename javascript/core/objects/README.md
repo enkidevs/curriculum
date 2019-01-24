@@ -8,6 +8,7 @@ insights:
   - deleting-properties
   - keywords-in-hash-keys
   - hasownproperty-method
+  - converting-to-and-from-json
 
 
 exercises:

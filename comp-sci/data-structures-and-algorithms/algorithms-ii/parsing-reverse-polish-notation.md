@@ -15,7 +15,13 @@ type: normal
 
 category: how to
 
+aspects:
 
+  - deep
+
+  - workout
+
+  - obscura
 
 parent: reverse-polish-notation
 
@@ -79,4 +85,4 @@ What are the contents of the stack after evaluating a `valid` postfix expression
 * A single operator.
 * The stack is empty.
 
- 
+

@@ -15,6 +15,13 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - deep
+
+  - obscura
+
+  - workout
 
 links:
 
@@ -76,7 +83,7 @@ Prim's algorithm can be applied for
 * any weighted connected graphs
 
 ---
-## Quiz 
+## Quiz
 ### which algorithm is to be use in the following scenario?
 
 Consider a complete, weighted graph. If we want to compute its minimum spanning tree,
@@ -99,4 +106,4 @@ The maximal number of edges of a directed graph is `|V|×|V-1|`, while for an un
 
 [2: Graph Representation]
 If you remember the first Data Structure and Algorithm insight, we said that different data structures are optimized for different types of operations.
- 
+
