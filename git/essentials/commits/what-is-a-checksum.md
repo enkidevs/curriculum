@@ -11,7 +11,6 @@ category: must-know
 
 aspects:
   - introduction
-  - obscura
   
 
 links:
