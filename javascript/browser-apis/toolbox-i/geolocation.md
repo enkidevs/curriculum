@@ -76,15 +76,15 @@ navigator.???.???(
 
 * geolocation
 * getCurrentPosition
-* coordinate
+* coords
 * latitude
-* pos.coordinate
+* pos.coords
 * longitude
 * pos.latitude
 * pos.longitude
 * geoLocation
 * getPosition
-* coord
+* coordiate
 * watchPosition
 * getLocation
 

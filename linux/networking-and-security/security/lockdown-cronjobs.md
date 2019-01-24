@@ -9,6 +9,9 @@ levels:
 
   - medium
 
+aspects:
+  - deep
+
 type: normal
 
 category: tip

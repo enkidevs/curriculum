@@ -12,6 +12,9 @@ category: must-know
 tags:
   - introduction
 
+aspects:
+  - introduction
+
 links:
   - '[CodePen: Absolute Path to Link](https://codepen.io/enkidevs/pen/yqbBBG){code}'
   - '[Article for absolute vs relative link paths](https://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/){website}'
@@ -33,7 +36,7 @@ Example link:
 
 ![link-google](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2254%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2254%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%230001EE%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2233%22%3EGoogle%3C%2Ftspan%3E%3C%2Ftext%3E%3Cpath%20stroke%3D%22%230001EE%22%20stroke-linecap%3D%22square%22%20d%3D%22M20.5%2034.5h51%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/yqbBBG)--> 
+<!--[View CodePen](https://codepen.io/enkidevs/pen/yqbBBG)-->
 
 
 Example image:
@@ -54,7 +57,7 @@ Example of absolute paths:
 
 **Note: For the absolute path link to work, you have to provide the domain name of the website, including the `http:// `.**
 
-There is one downfall when it comes to using absolute link paths. You have no control over these files because they are located on other domains, and if they are moved, your links will break. 
+There is one downfall when it comes to using absolute link paths. You have no control over these files because they are located on other domains, and if they are moved, your links will break.
 
 ---
 ## Practice
@@ -108,4 +111,3 @@ What is required within absolute paths for images or page links?
 * File and folder names within the current website organization.
 * Forward slashes (/) separating folders.
 * Nothing is required within absolute paths.
- 

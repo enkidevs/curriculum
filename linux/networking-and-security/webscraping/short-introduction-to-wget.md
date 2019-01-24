@@ -7,6 +7,9 @@ levels:
 
   - medium
 
+aspects:
+  - introduction
+
 type: normal
 
 category: tip

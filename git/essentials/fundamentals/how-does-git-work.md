@@ -9,6 +9,11 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+  - workout
+  
 inAlgoPool: false
 
 
@@ -42,7 +47,6 @@ Another critical aspect of **Git** is that almost all of its operations are loca
 You can store a snapshot of the data in the local repository by
 
 ???
-
 
 * `committing`
 * `tracking`
