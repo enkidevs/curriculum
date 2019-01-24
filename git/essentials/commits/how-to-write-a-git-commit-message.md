@@ -10,6 +10,11 @@ type: normal
 category: must-know
 
 
+aspects:
+
+  - introduction
+  - workout  
+
 links:
 
   - '[chris.beams.io](http://chris.beams.io/posts/git-commit/){website}'
