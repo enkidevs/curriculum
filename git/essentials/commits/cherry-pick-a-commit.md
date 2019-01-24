@@ -13,11 +13,13 @@ type: normal
 
 category: feature
 
+aspects:
 
+  - introduction
+  
 links:
 
   - '[swsblog.stanford.edu](https://swsblog.stanford.edu/blog/cherry-picking-small-git-lesson){website}'
-
 
 ---
 

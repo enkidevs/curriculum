@@ -9,6 +9,10 @@ type: fillTheGap
 
 category: must-know
 
+aspects:
+
+  - workout
+  
 parent: what-is-git
 
 ---
