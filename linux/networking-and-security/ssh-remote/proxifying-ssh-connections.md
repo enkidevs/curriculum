@@ -7,6 +7,10 @@ levels:
 
   - medium
 
+aspects:
+  - workout
+  - obscura
+
 type: normal
 
 category: feature

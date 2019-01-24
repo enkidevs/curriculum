@@ -15,7 +15,9 @@ type: normal
 
 category: must-know
 
+aspects:
 
+  - introduction
 
 parent: http-pipelining
 
@@ -67,4 +69,4 @@ What is the status text of a `100` code response?
 * Switching Protocols
 * Processing
 
- 
+

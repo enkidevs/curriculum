@@ -5,6 +5,9 @@ levels:
 
   - basic
 
+aspects:
+  - obscura
+
 type: normal
 
 category: how to

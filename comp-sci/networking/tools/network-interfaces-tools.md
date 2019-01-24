@@ -15,6 +15,11 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - deep
+
+  - workout
 
 links:
 
@@ -69,8 +74,8 @@ An example output for the *loopback* on **Linux** is:
 
 ```
 $ ifconfig lo
-lo Link encap:Local Loopback  
-   inet addr:127.0.0.1  
+lo Link encap:Local Loopback
+   inet addr:127.0.0.1
    Mask:255.0.0.0
 ...
 ```
@@ -131,4 +136,4 @@ Instead of using the `up/down` flags, specialized equivalent commands are availa
 $ ifup eth0
 $ ifdown eth0
 ```
- 
+
