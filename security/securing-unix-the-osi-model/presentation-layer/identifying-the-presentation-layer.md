@@ -26,7 +26,7 @@ parent: securing-the-session-layer
 
 The sixth layer of the OSI model is called the *Presentation Layer*, but is seldom referenced as the **syntax layer**. One of its main responsabilities is **taking system-specific data** from the layer above (Application Layer) and **coverting** it to a format that can be parsed by the recipient.
 
-For example, the Presentation Layer would be responsible for converting Windows-specific line endings (`CRLF`) from text files to Unix-specific line endings (`LF`) and vice versa, as needed.
+For example, the Presentation Layer would be responsible for converting Windows-specific line endings (**CRLF**) from text files to Unix-specific line endings (**LF**) and vice versa, as needed.
 
 The Presentation Layer is also be responsible for **encryption/decryption** of data from the Application Layer for secure transmission through lower layers.
 
