@@ -9,6 +9,11 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+  - workout
+  
 inAlgoPool: false
 
 
@@ -61,7 +66,6 @@ What's the default name **Git** provides to the server you `clone` from?
 
 ???
 
-
 * origin
 * master
 * remote
@@ -75,7 +79,6 @@ What command is used to see the remote repositories for your project?
 ```
 $ git ???
 ```
-
 
 * `remote`
 * `remotes`
