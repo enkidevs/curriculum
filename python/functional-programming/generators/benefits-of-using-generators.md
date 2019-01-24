@@ -2,21 +2,19 @@
 author: Ricardo
 
 levels:
-
   - basic
-
   - medium
+
+aspects:
+  - obscura
 
 type: normal
 
 category: tip
 
 tags:
-
   - generators
-
   - iterators
-
   - performance
 
 

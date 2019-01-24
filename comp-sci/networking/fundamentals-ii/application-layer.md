@@ -9,6 +9,11 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+
+  - workout
 
 links:
 
@@ -32,7 +37,7 @@ Specifically, the application layer **protocol** defines:
 - message *type*
 - message *syntax*
 - *semantics* of message fields
-- communication rules  
+- communication rules
 
 The **Application Layer** provides numerous services via **protocols** built on top of lower-level layers:
 
@@ -52,7 +57,7 @@ Running on port `23`, `telnet` lets you log in and control a machine remotely ba
 
 File Transfer Protocol is the standard *mechanism* provided by `TCP/IP` for *copying* a file from one host to another.
 
-Being often secured with other protocols, `FTP` is most commonly used to download or upload files to and from a server using the Internet. By default, `FTP` uses port `21`. 
+Being often secured with other protocols, `FTP` is most commonly used to download or upload files to and from a server using the Internet. By default, `FTP` uses port `21`.
 
 **MIME**
 
@@ -109,4 +114,4 @@ You can watch Star Wars Episode IV - made in ASCII art - from your terminal via 
 ```
 telnet towel.blinkenlights.nl
 ```
- 
+

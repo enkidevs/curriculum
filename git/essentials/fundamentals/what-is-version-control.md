@@ -9,6 +9,10 @@ type: normal
 
 category: thought
 
+aspects:
+
+  - introduction
+  
 inAlgoPool: false
 
 

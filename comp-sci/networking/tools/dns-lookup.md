@@ -15,6 +15,11 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - deep
+
+  - workout
 
 links:
 
@@ -90,4 +95,4 @@ $ ???
 * `nslookup enki`
 * `nslookup 52.85.178.44`
 
- 
+
