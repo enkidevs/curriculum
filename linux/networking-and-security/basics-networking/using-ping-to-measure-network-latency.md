@@ -82,12 +82,12 @@ $
 ---
 ## Practice
 
-`ping` will send ??? and count the time until the
+The `ping` command will send ??? and count the time until the
 
 ???.
 
 * data
-* server’s response
+* server responds
 * connection fails
 * your public key
 

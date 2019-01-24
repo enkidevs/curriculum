@@ -12,6 +12,9 @@ category: must-know
 tags:
   - introduction
 
+aspects:
+  - introduction
+
 links:
   - '[MDN docs for anchor](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a){website}'
 
@@ -24,7 +27,7 @@ The HTML anchor `mailto:EMAILHERE` attribute is used to create a hyperlink, whic
 
 Creating a link to open the user's default email program:
 ```html
-<a 
+<a
   href="mailto:me@enkipro.com">
   Email me here
 </a>
@@ -41,9 +44,9 @@ Next to just opening the user's default email program, you can also populate the
 
 Example:
 ```html
-<a 
+<a
   href="mailto:me@enkipro.com?
-        subject=Email%20Subject"> 
+        subject=Email%20Subject">
 Email me
 </a>
 ```
@@ -90,7 +93,7 @@ What code is used to create a link that when clicked opens the user’s default 
 Create a link that when clicked opens the user’s default email program with an auto-loaded email address and email subject?
 
 ```html
-<a 
+<a
   href="??? ??? ??? ???=???">
 Email Me
 </a>
@@ -105,6 +108,3 @@ Email Me
 * mail:
 * address:
 * email:
-
-
- 
