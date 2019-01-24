@@ -9,6 +9,9 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
 
 links:
 
@@ -37,7 +40,7 @@ There's a big chance you have already encountered them as[3]:
 25.255.0.1
 ```
 
-With that being the shorthand notation. The actual format of an IP address (in `IPv4`) is: 
+With that being the shorthand notation. The actual format of an IP address (in `IPv4`) is:
 ```
 xxx.xxx.xxx.xxx
 ```
@@ -112,4 +115,4 @@ The `IPv4` format, using `32` bits, allows the existence of `2^32` (4 294 967 29
 Its name comes from the most famous protocols in use within the stack:
  - `TCP` short for **Transmission Control Protocol**
  - `IP` short for **Internet Protocol**
- 
+
