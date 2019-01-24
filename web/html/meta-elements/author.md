@@ -17,6 +17,10 @@ tags:
   - introduction
   - workout
 
+aspects:
+  - introduction
+  - workout
+
 ---
 # Author
 ---
@@ -40,7 +44,7 @@ Some content management systems (CMS) have an easier time tracking signed-in edi
 Write the meta tag that states that 'John Doe' built the web page.
 
 ```html
-<??? ???="???" 
+<??? ???="???"
     ???="???">
 ```
 
@@ -80,4 +84,3 @@ What is the least influential tag for search engines in a web page?
 * Description
 * Headings
 * Paragraphs  
- 
