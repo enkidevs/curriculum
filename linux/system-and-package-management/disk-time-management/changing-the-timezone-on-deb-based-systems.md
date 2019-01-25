@@ -9,6 +9,9 @@ levels:
 
   - beginner
 
+aspects:
+  - workout
+
 type: normal
 
 category: must-know

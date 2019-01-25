@@ -9,6 +9,10 @@ levels:
 
   - beginner
 
+aspects:
+  - introduction
+  - workout
+
 type: normal
 
 category: how to
