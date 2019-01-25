@@ -8,6 +8,10 @@ type: normal
 
 category: pattern
 
+aspects:
+  - introduction
+  - workout
+
 inAlgoPool: false
 
 links:
@@ -23,10 +27,10 @@ links:
 ---
 ## Content
 
-We have talked about *selectors* and *specificity* using almost the same CSS properties in every insight: `color`, `background-color`,`font-size` or `font-weight`. Now of course there are a lot of other existing properties, and, more importantly, there are many ways to declare them.
+We've talked about *selectors* and *specificity* using almost the same CSS properties in every insight: `color`, `background-color`,`font-size` or `font-weight`. Now of course there are a lot of other existing properties, and more importantly there are many ways to declare them.
 
 ### Colors
-Each of these CSS declarations specifies the same thing: that a every `div` tag should have a white background by default.
+Each of these CSS declarations specifies the same thing: that every `div` tag should have a white background by default.
 ```css
 .div-hex {
 /* hexadecimal value */
@@ -83,5 +87,3 @@ If *purple* is the combination of *red* and *blue*, which of the following is no
 * #ff00ff
 * rgb(255,0,255)
 * purple
-
- 

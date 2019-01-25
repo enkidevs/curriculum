@@ -5,6 +5,9 @@ levels:
 
   - advanced
 
+aspects:
+  - workout
+
 type: normal
 
 category: how to
