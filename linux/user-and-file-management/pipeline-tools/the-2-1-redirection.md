@@ -37,6 +37,7 @@ links:
 notes: ''
 
 aspects:
+  - introduction
   - workout
 
 
