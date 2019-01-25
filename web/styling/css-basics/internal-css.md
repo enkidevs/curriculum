@@ -7,6 +7,9 @@ levels:
 
 type: normal
 
+aspects:
+  - introduction
+
 category: must-know
 
 inAlgoPool: false
@@ -22,7 +25,7 @@ links:
 ---
 ## Content
 
-The next two ways of writing CSS code do not require an external `.css` file - both structure (HTML) and style (CSS) live inside the same HTML file.
+The next two ways of writing CSS code do not require an external `.css` file - both structure (HTML) and style (CSS) can live inside the same HTML file.
 
 ### Internal CSS
 
@@ -67,5 +70,3 @@ The CSS code with the highest rendering priority is
 * inline CSS
 * internal CSS
 * external CSS
-
- 
