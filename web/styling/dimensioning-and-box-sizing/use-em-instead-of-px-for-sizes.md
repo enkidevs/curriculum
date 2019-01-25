@@ -13,6 +13,10 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+  - workout
+
 tags:
 
   - fonts
@@ -66,7 +70,7 @@ You have the following code snippet:
 body{
   font-size: 16px;
 }
-``` 
+```
 Set the font-size of `.smallparagraph`  to 8px in a responsive way:
 ```css
 .smallparagraph{
@@ -74,9 +78,9 @@ Set the font-size of `.smallparagraph`  to 8px in a responsive way:
 }
 ```
 
-* `0.5em` 
-* `0.8em` 
-* `8px` 
+* `0.5em`
+* `0.8em`
+* `8px`
 * `1em`
 
 ---
@@ -94,5 +98,3 @@ Set the font-size of `.smallparagraph`  to 8px in a responsive way:
 * look
 * different
 * changing
-
- 

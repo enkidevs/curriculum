@@ -13,6 +13,10 @@ type: normal
 
 category: feature
 
+aspects:
+  - introduction
+  - workout
+  - deep
 
 links:
 
@@ -42,5 +46,3 @@ For example, here is a responsive square:
 The `square` class has the same value for width and height because the viewport might not be a square. For example, on a `1400×900` viewport, `20vw×20vh` would draw a `280×180` rectangle, not a square.
 
 `vmin` is equal to the smallest of `vh` and `vw`, while `vmax` is the largest.
-
- 

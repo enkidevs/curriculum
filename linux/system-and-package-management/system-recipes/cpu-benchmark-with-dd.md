@@ -7,6 +7,10 @@ levels:
 
   - medium
 
+aspects:
+  - deep
+  - workout
+
 type: normal
 
 category: hack

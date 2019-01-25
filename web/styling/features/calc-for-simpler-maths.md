@@ -11,6 +11,10 @@ type: normal
 
 category: how to
 
+aspects:
+  - introduction
+  - workout
+
 tags:
 
   - layout
@@ -78,5 +82,3 @@ Which of the following `calc()` syntaxes is the correct one?
 * both
 * width
 * height
-
- 

@@ -13,6 +13,10 @@ type: normal
 
 category: pattern
 
+aspects:
+  - introduction
+  - workout
+  - deep
 
 links:
 
@@ -63,5 +67,3 @@ What does the following CSS code snippet do? ???
 * Vertically flips a fluid block.
 * Sets a blocks top side to be 50% of the way up the document.
 * Sets the blocks position to absolute and flips it vertically.
-
- 
