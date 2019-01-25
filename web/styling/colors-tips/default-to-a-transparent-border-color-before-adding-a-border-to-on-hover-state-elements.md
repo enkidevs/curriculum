@@ -13,6 +13,11 @@ type: normal
 
 category: pattern
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
 tags:
 
   - borders, border, :hover, hover
@@ -70,5 +75,3 @@ label:hover {
 * Makes the border transparent instead of block when the label is hovered over.
 * Makes the label solid instead of transparent when hovered over.
 * Makes the label disappear when hovered over.
-
- 
