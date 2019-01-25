@@ -11,6 +11,9 @@ type: normal
 
 category: how to
 
+aspects:
+  - workout
+  - deep
 
 links:
 
@@ -55,5 +58,3 @@ What does the following piece of CSS code do? ???
 * Gets rid of the margin.
 * Vertically centres a block element with a known width.
 * Horizontally centres a block element with an unknown width.
-
- 
