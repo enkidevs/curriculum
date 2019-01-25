@@ -13,6 +13,11 @@ type: normal
 
 category: feature
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
 tags:
 
   - background-color
@@ -38,7 +43,7 @@ links:
 
 Setting a background color using *rgba color values*, allows you to change the transparency of the elements' background-color.  
 
-This method is particularly useful as it sets the opacity for a single element and not its children. 
+This method is particularly useful as it sets the opacity for a single element and not its children.
 
 
 To do so use the rgba declaration:
@@ -65,5 +70,3 @@ color: rgba(12, 255, 40, 0.3);
 * Red, Blue, Green, Alpha
 * Green, Blue, Red, Alpha
 * Blue, Red, Green, Alpha
-
- 

@@ -5,6 +5,9 @@ levels:
 
   - advanced
 
+aspects:
+  - deep
+
 type: normal
 
 category: how to

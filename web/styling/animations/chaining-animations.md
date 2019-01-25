@@ -2,11 +2,8 @@
 author: nene
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
@@ -14,11 +11,12 @@ type: normal
 category: how to
 
 tags:
-
   - chain
-
   - animations
 
+aspects:
+  - workout
+  - deep
 
 links:
 
@@ -82,5 +80,3 @@ Which CSS property can be used to chain animations together?
 * `animation-chain`
 * `animation-hold`
 * `animation-pause`
-
- 
