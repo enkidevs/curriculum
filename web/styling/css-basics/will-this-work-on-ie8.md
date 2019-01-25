@@ -13,10 +13,15 @@ type: tetris
 
 category: feature
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
 ---
 
 # Will this work on IE8?
- 
+
 ---
 ## Content
 
