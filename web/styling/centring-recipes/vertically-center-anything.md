@@ -13,6 +13,10 @@ type: normal
 
 category: how to
 
+aspects:
+  - introduction
+  - workout
+  - deep
 
 links:
 
@@ -34,7 +38,7 @@ html, body {
   margin: 0;
 }
 
-body { 
+body {
   align-items: center;
   display: flex;
 }
@@ -58,5 +62,3 @@ You can verically-center elements inside a flex container with:
 * `justify-content`
 * `vertical-center`
 * `flex-center`
-
- 

@@ -4,6 +4,9 @@ author: mihaiberq
 levels:
   - beginner
 
+aspects:
+  - introduction
+
 type: normal
 
 category: must-know
@@ -13,7 +16,7 @@ inAlgoPool: false
 links:
   - '[Scrimba CSS Borders](https://scrimba.com/p/pWvwCg/cmJvzh6){website}'
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/border){documentation}'
-  
+
 ---
 
 # Borders
@@ -71,5 +74,3 @@ border: 1 2 3;
 * 3
 * 1
 * 2
-
- 
