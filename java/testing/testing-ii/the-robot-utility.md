@@ -34,7 +34,7 @@ Robot myRobot = new Robot();
 // Moving the mouse:
 
 myrobot.mouseMove(x,y);
-// (0,0) represents the upper-right corner```
+//(0,0) represents the upper-right corner
 
 // Inserting a delay:
 myRobot.delay(2000);
