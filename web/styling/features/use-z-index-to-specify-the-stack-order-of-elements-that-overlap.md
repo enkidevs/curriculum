@@ -13,6 +13,11 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
 tags:
 
   - css
@@ -37,7 +42,7 @@ links:
 ---
 ## Content
 
-This property can only be used for elements which aren't in the normal stack. For example, those with a `position` value which is not `static` (default). 
+This property can only be used for elements which aren't in the normal stack. For example, those with a `position` value which is not `static` (default).
 
 Elements with a higher `z-index` value will appear on top of elements with a lower `z-index` value.
 
@@ -45,7 +50,7 @@ Elements with a higher `z-index` value will appear on top of elements with a low
 img {
   position: absolute;
   z-index: -1;
-  /* negative values are accepted */ 
+  /* negative values are accepted */
 }
 
 div.a {
@@ -70,21 +75,21 @@ Which of the following elements will be displayed on top?
  z-index: -10;
 }
 #C {
- position: absolute; 
+ position: absolute;
  z-index: 0;
 }
 ```
 ???
 
-* `A` 
-* `B` 
-* `C` 
+* `A`
+* `B`
+* `C`
 * They are all on the same level.
 
 ---
 ## Revision
 
-To use the `z-index` to specify the stack order of overlapping elements, which of the following position values must an element not have? 
+To use the `z-index` to specify the stack order of overlapping elements, which of the following position values must an element not have?
 
 ???
 
@@ -93,5 +98,3 @@ To use the `z-index` to specify the stack order of overlapping elements, which o
 * `position: absolute;`
 * `position: fixed;`
 * `position: relative`
-
- 
