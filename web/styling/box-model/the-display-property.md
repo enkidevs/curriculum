@@ -6,6 +6,11 @@ levels:
 
 type: normal
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
 category: must-know
 
 inAlgoPool: false
@@ -32,7 +37,7 @@ An **inline** element can be *part* of a `block` element and more `inline` eleme
 
 **Inline-block** elements are somewhere in the middle: it creates a `block` element, that can be surrounded with other elements, as if it was `inline`.
 
-Even though most browsers have the same default `display` values for HTML elements, there are some exceptions, which will be discussed in future insights. 
+Even though most browsers have the same default `display` values for HTML elements, there are some exceptions, which will be discussed in future insights.
 
 The `none` value of `display` is also worth mentioning. In this case, the browser will behave like the element doesn't exist in the document tree and  won't be rendered at all. When used, the element's descendants also have their display turned off.
 
@@ -58,5 +63,3 @@ How does `display:none` affect the element's descendants?
 * They won't be displayed either.
 * It does not affect them.
 * They will be invisible, but clickable.
-
- 
