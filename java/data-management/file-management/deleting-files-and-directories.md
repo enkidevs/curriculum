@@ -9,9 +9,10 @@ type: normal
 
 category: how to
 
+aspects:
 
-
-
+  - introduction
+  
 ---
 
 # Deleting files and directories
@@ -38,7 +39,7 @@ As to avoid `DirectoryNotEmptyException` you can use the `walkFileTree` static m
 ## Revision
 
 Use `File` class to delete a file:
-```
+```java
 File.???;
 ```
 
@@ -46,5 +47,3 @@ File.???;
 * `rm(path)` 
 * `remove(path)` 
 * `drop(path)`
-
- 

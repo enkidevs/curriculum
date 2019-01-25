@@ -11,13 +11,14 @@ type: normal
 
 category: tip
 
+aspects:
+
+  - introduction
 
 links:
 
   - '[stackoverflow.com](http://stackoverflow.com/questions/3163399/difference-between-system-out-println-and-system-err-println){website}'
-
-notes: ''
-
+  
 ---
 
 # `System.out` vs `System.err`
@@ -42,5 +43,3 @@ Which stream does `System.err` print to?
 * Input stream
 * Output stream
 * Music stream
-
- 

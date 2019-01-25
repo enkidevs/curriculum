@@ -9,9 +9,12 @@ type: normal
 
 category: tip
 
+aspects:
 
+  - workout
 
-
+  - deep
+  
 ---
 
 # Testing Private Methods and Fields
@@ -24,6 +27,7 @@ Times may come when you will have to test **private** methods. As using *inner c
 The least intrusive method is to test **the contract** that class has with other objects: is every other object for which the private method was used behaving properly? If they do, then you can assume the code works as expected.
 
 Another option is to use **reflection**.  Reflection can be used for observing and modifying program execution. It allows for instantiation of objects and invocation of methods that would otherwise be private:
+
 ```java
 import java.lang.reflect.Method;
 
@@ -50,12 +54,14 @@ public class User {
     }
 }
 ```
+
 The last option would be to **refactor** said class. Maybe the class to be tested does too much and some functionality can be moved inside another class. This, again, is a matter of *software design*.
 
 ---
 ## Practice
 
 Is the following statement true?
+
 ```
 JUnit can test private methods by itself.
 ???
@@ -71,10 +77,7 @@ The least intrusive method of unit testing private methods and fields is to
 
 ???
 
-
 * test the contract between the classes
 * use reflection to gain access to the private methods
 * refactor the class
 * define an inner testing class
-
- 

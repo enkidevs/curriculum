@@ -13,6 +13,11 @@ type: normal
 
 category: best practice
 
+aspects:
+
+  - workout
+
+  - deep
 
 links:
 
@@ -62,7 +67,7 @@ When is a `WeakHashMap`  entry taken by the garbage collector?
 ## Revision
 
 Complete the following Java code snippet to create a new weak hash map instance and to force a garbage collection:
-```
+```java
 HashMap map =
       new ???();
 System.???();
@@ -75,5 +80,3 @@ System.???();
 * `mapInstance` 
 * `collect` 
 * `garbagecollect`
-
- 

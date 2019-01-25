@@ -11,6 +11,11 @@ type: normal
 
 category: feature
 
+asepcts:
+
+  - deep
+
+  - obscura
 
 links:
 
@@ -58,9 +63,9 @@ Change the webserver port:
 $ jhat ??? 8080 enki.hprof
 ```
 
-* `-port` 
-* `port` 
-* `-p` 
+* `-port`
+* `port`
+* `-p`
 * `p`
 
 ---
@@ -71,8 +76,6 @@ Allow jhat to use extra memory:
 $ jhat ??? enki.hprof
 ```
 
-* `-J-mx1024` 
-* `-mx1024` 
+* `-J-mx1024`
+* `-mx1024`
 * `-m1024`
-
- 

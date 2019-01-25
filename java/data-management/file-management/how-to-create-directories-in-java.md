@@ -11,10 +11,10 @@ type: normal
 
 category: tip
 
+aspects:
 
-
-notes: ''
-
+  - introduction
+  
 ---
 
 # How to create directories in Java
@@ -46,7 +46,7 @@ Files.createDirectory(newDir,
 ## Revision
 
 Create a new directory using a helper class introduced with the `nio` package:
-```
+```java
 Path dir = Paths.get("path");
 ???
 ```
@@ -55,5 +55,3 @@ Path dir = Paths.get("path");
 * `Path.createDirectory(dir);` 
 * `File.createDirectory(dir);` 
 * `Paths.createDirectory("path");`
-
- 

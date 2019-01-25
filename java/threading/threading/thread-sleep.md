@@ -9,13 +9,17 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - workout
+
+  - deep
 
 links:
 
   - '[More on Sleep](https://docs.oracle.com/javase/tutorial/essential/concurrency/sleep.html§){website}'
   - '[More on Joining](https://docs.oracle.com/javase/tutorial/essential/concurrency/join.html){website}'
   - '[More on InterruptedException](https://docs.oracle.com/javase/7/docs/api/java/lang/InterruptedException.html){website}'
-
 
 ---
 
@@ -29,7 +33,8 @@ Sometimes you might want to put a thread to `sleep` (i.e. stop its execution for
 `sleep()` is implemented as a `static` method in the `Thread` class described earlier so it can be called directly on it or on any other custom thread from inside your program.
 
 An example of using `sleep()`:
-```
+
+```java
 public class SleepingThread {
   public static void main(String args[])
     throws InterruptedException {
@@ -41,7 +46,6 @@ public class SleepingThread {
     }
   }
 }
-
 ```
 
 ---
@@ -50,7 +54,6 @@ public class SleepingThread {
 What does `sleep()` method do?
 
 ???
-
 
 * It pauses the execution of a thread for a certain time
 * It waits until a thread finished executing
@@ -64,10 +67,7 @@ What method stops executing for a specified time and continues running afterward
 
 ???
 
-
 * sleep()
 * join()
 * wait()
 * combine()
-
- 
