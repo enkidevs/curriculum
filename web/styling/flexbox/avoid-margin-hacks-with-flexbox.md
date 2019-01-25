@@ -13,6 +13,10 @@ type: normal
 
 category: best practice
 
+aspects:
+  - introduction
+  - workout
+  - deep
 
 links:
 
@@ -64,11 +68,11 @@ Which element should have `display: flex` property in order for the gutters to b
 ---
 ## Revision
 
-Which `flexbox` property can be used to get rid of `nth-`, `first-` and `last-child` column gutter hacks? 
+Which `flexbox` property can be used to get rid of `nth-`, `first-` and `last-child` column gutter hacks?
 
 ```css
 .p {
-   justify-content: 
+   justify-content:
             ???;
 }
 ```
@@ -79,5 +83,3 @@ Which `flexbox` property can be used to get rid of `nth-`, `first-` and `last-ch
 * `display-flex`
 * `content-box`
 * `space-flex`
-
- 
