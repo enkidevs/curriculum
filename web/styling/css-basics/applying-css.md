@@ -8,6 +8,9 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+
 inAlgoPool: false
 
 links:
@@ -69,5 +72,3 @@ What is the recommended way of applying CSS?
 * External file.
 * Internal CSS.
 * Inline CSS.
-
- 
