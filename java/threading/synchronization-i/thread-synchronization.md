@@ -9,12 +9,16 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - workout
+
+  - deep
 
 links:
 
   - '[More on Synchronization](http://www.wideskills.com/java-tutorial/java-threads-tutorial/p/0/1){website}'
   - '[More on Race Condition](https://en.wikipedia.org/wiki/Race_condition){website}'
-
 
 ---
 
@@ -29,7 +33,7 @@ links:
 
 - In order to synchronize on a method `synchronized` is written before the return type of a method. In the example below, `printSeq` is a synchronized method which means that if two or more thread instances call it they will have to wait until the previous thread finishes executing it.
 
-```
+```java
 class synchExample {  
   public synchronized void printSeq(int n){
     for(int i = 0; i < 5; i++) {  
@@ -40,7 +44,7 @@ class synchExample {
       catch(Exception e) {
         System.out.println(e);
       }  
-    }    
+    }
   }  
 }  
 ```
@@ -49,7 +53,7 @@ class synchExample {
 
 - Synchronization on an object has the following pattern:
 
-```
+```java
 synchronized (<object reference>) {
   //do something
 }
@@ -78,10 +82,7 @@ What key word provides inbuilt Java synchronization?
 
 ???
 
-
 * `synchronized`
 * `parallel`
 * `sequenced`
 * `ordered`
-
- 

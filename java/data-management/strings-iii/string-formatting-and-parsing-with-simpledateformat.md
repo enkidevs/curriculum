@@ -11,6 +11,9 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - introduction
 
 links:
 
@@ -37,11 +40,13 @@ String dateString = "16-03-1991";
 Date date = new SimpleDateFormat(
   "dd-MM-yyyy").parse(dateString);
 ```
+
 - The default *timezone* is the OS's *timezone*. You can change this :
 
 ```java
 SimpleDateFormat.setTimeZone(timeZoneObj);
 ```
+
  - Parsing begins by default at index `0` , but the starting index can be specified in the method.
 
 Convert `Date` to `String`:
@@ -54,25 +59,26 @@ Date date = Calendar.getInstance().
 String string = new SimpleDateFormat
   ("mm-DD-yyyy").format(date);
 ```
+
 Keep in mind that `SimpleDateFormat` is not `Thread` safe. Avoid static objects and using it outside a `Synchronized` block.
 
 ---
 ## Practice
 
 Complete the following Java code snippet to convert the string into a date:
-```
+
+```java
 String dateString = "31-07-1996";
 Date date = new 
  ???("dd-MM-yyyy")
 .???(dateString);
 ```
 
-
-* `SimpleDateFormat` 
-* `parse` 
-* `Date` 
-* `NewDate` 
-* `format` 
+* `SimpleDateFormat`
+* `parse`
+* `Date`
+* `NewDate`
+* `format`
 * `DateFormat`
 
 ---
@@ -80,20 +86,17 @@ Date date = new
 
 Complete the following Java code snippet to convert the date into a string:
 
-```
+```java
 Date today = Calendar.???()
                      .getTime();
-String convert = 
+String convert =
     new SimpleDateFormat("mm-DD-yyyy")
      .???(date);
-``` 
+```
 
-
-* `getInstance` 
-* `format` 
-* `getDate` 
-* `getDay` 
-* `parse` 
+* `getInstance`
+* `format`
+* `getDate`
+* `getDay`
+* `parse`
 * `thread`
-
- 

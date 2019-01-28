@@ -11,16 +11,17 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+
 tags:
 
   - hashmap-hashtable
 
-
 links:
 
   - '[javahungry.blogspot.com](http://javahungry.blogspot.com/2014/03/hashmap-vs-hashtable-difference-with-example-java-interview-questions.html){website}'
-
-notes: ''
 
 ---
 
@@ -58,5 +59,3 @@ Which one of the following classes allow `null` values as keys?
 * `Hashtable` 
 * `both` 
 * `none`
-
- 

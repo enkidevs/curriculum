@@ -9,17 +9,19 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - introduction
+
 tags:
 
   - strings
 
   - formatting
 
-
 links:
 
   - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/numberformat.html){website}'
-
 
 ---
 
@@ -28,7 +30,7 @@ links:
 ---
 ## Content
 
-```
+```java
 int i = 500;
 float f = 2.36;
 String s = "Java";
@@ -39,6 +41,7 @@ System.out.format(
   i, s, f  
 );
 ```
+
 In the example above, `System.out.format` takes four arguments. The first argument specifies the format in which the string will be printed, the following arguments are variables which will be printed in the string.
 
 The position in the string which a variable will be printed at is marked by a format specifier. For example, in the previous example `%d`, `%s` and `%f` are format specifiers. 
@@ -49,19 +52,19 @@ The letter following `%` indicates the type of variable which is being displayed
 ## Practice
 
 Complete the code snippet, printing the `int` decimal provided:
-```
+
+```java
 int x = 5;
 System.out.???("The value"+
   "of x is: ??? ", ???);
-    
 ```
 
-* `format` 
-* `%d` 
-* `x` 
-* `print` 
-* `%i` 
-* `%x` 
+* `format`
+* `%d`
+* `x`
+* `print`
+* `%i`
+* `%x`
 * `printFormat`
 
 ---
@@ -71,11 +74,8 @@ Using `System.out.format` , what specifier is used to print `float` s?
 
 ???
 
-
-* `%f` 
-* `%d` 
-* `%float` 
-* `%decimal` 
+* `%f`
+* `%d`
+* `%float`
+* `%decimal`
 * `%s`
-
- 

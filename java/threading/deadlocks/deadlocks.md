@@ -9,13 +9,17 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - workout
+
+  - deep
 
 links:
 
   - '[Dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem){website}'
   - '[Deadlock examples](https://stackoverflow.com/questions/34512/what-is-a-deadlock){website}'
   - '[More on Deadlock conditions](http://wikieducator.org/Necessary_conditions_for_deadlock){website}'
-
 
 ---
 
@@ -28,7 +32,6 @@ links:
 
 A simple example:
 
-
 ```
 Thread1:
 1: acquire(lock1);//takes locks
@@ -37,7 +40,6 @@ Thread1:
 4: release(lock2);//releases locks
 5: release(lock1);
 ```
-
 
 ```
 Thread2:
@@ -59,7 +61,6 @@ What lines in `Thread2` should we swap to avoid a *deadlock* situation?
 
 ???
 
-
 * lines 2 & 1
 * lines 4 & 5
 * lines 3 & 2
@@ -71,9 +72,6 @@ What is a *deadlock*?
 
 ???
 
-
 * A situation in which processes fail to acquire resources due to mutual exclusion
 * A situation in which a process does not free it's resources after execution
 * A situation when all resources are acquired by the processes
-
- 

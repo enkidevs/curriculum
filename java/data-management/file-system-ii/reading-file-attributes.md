@@ -9,6 +9,12 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - workout
+
+  - obscura
+
 tags:
 
   - file-io
@@ -19,11 +25,9 @@ tags:
 
   - file-attributes
 
-
 links:
 
   - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/fileAttr.html){website}'
-
 
 ---
 
@@ -37,7 +41,7 @@ The `Files` class contains several methods for reading individual file attribute
 However, accessing individual file attributes in this way is expensive. If many  attributes need to be accessed, it is better to read them using the `readAttributes` method.
 
 `readAttributes` reads a file's attributes as a bulk operation:
-```
+```java
 BasicFileAttributes att =
   Files.readAttributes(
     path, 
@@ -53,7 +57,7 @@ long size = att.size();
 ## Revision
 
 Create a new instance of `BasicFileAttributes` class:
-```
+```java
 BasicFileAttributes attrs = ???
   .???(path,
   BasicFileAttributes.class);
@@ -64,5 +68,3 @@ BasicFileAttributes attrs = ???
 * `File` 
 * `getAttributes` 
 * `read`
-
- 

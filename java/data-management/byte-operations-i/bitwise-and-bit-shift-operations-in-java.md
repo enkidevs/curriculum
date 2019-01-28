@@ -11,10 +11,13 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+
 tags:
 
   - bitwise
-
 
 links:
 
@@ -38,5 +41,3 @@ a = 300 << 2 // bit shifting
 b = 300 / 4 // standard division
 b = 300 >> 2 // bit shifting.
 ```
-
- 

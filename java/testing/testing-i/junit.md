@@ -9,8 +9,9 @@ type: normal
 
 category: must-know
 
+aspects:
 
-
+  - introduction 
 
 ---
 
@@ -28,13 +29,16 @@ Unit testing comprises:
  - *automated testing*: using tools that bundle tests into test suites and running them all at once
 
 One of the most common project structures when including tests (assuming a Maven bundle) is:
+
 ```
 proj/src/main/java/com/users/User.java
 proj/src/test/java/com/users/UserTest.java
 ```
+
 The main reason for this structure is so you can access package-scoped classes. Another tip would be to append the `Test` suffix to the test name.
 
 Consider this example of the `User` file:
+
 ```java
 package com.enki.users;
 import java.time.LocalDate;
@@ -50,7 +54,9 @@ public class User {
   }
 }
 ```
+
 To write a basic test for the `getAge()` method:
+
 ```java
 package com.enki.users;
 
@@ -75,7 +81,9 @@ public class UserTest {
   }
 }
 ```
+
 To run the test, you have to create another class that will act as the **runner**:
+
 ```java
 package com.enki.users;
 
@@ -99,7 +107,9 @@ public class TestRunner {
    }
 }  
 ```
+
 You can then run the tests from the command line:
+
 ```bash
 $ javac UserTest.java TestRunner.java
 $ java TestRunner
@@ -109,7 +119,6 @@ $ java TestRunner
 ## Practice
 
 In JUnit, code is tested with ???
-
 
 * assertions
 * equal statements
@@ -121,10 +130,7 @@ In JUnit, code is tested with ???
 
 Setting up a test runner is seen as a type of ??? testing.
 
-
 * automated
 * manual
 * unit
 * application
-
- 

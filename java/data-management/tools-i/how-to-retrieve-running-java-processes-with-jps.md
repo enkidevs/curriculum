@@ -13,6 +13,11 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - deep
+
+  - obscura
 
 links:
 
@@ -77,11 +82,11 @@ Display all Java VM parameters:
 $ ??? ???
 ```
 
-* `jps` 
-* `-v` 
-* `javavm` 
-* `-p` 
-* `-vm` 
+* `jps`
+* `-v`
+* `javavm`
+* `-p`
+* `-vm`
 * `-vmp`
 
 ---
@@ -92,10 +97,8 @@ Long list all Java processes using `jps`:
 $ ???
 ```
 
-* `jps -l` 
-* `jps` 
-* `jps list` 
-* `jps -list` 
+* `jps -l`
+* `jps`
+* `jps list`
+* `jps -list`
 * `jps -long`
-
- 

@@ -11,6 +11,11 @@ type: normal
 
 category: tip
 
+aspects:
+
+  - deep
+
+  - obscura
 
 links:
 
@@ -60,5 +65,3 @@ JNDI API has access to ???
 * multiple naming and directory services.
 * network statistics.
 * classes bytecode.
-
- 

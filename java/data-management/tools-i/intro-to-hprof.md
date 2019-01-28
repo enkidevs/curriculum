@@ -13,6 +13,11 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - deep
+
+  - obscura
 
 links:
 
@@ -59,12 +64,12 @@ $ java -agentlib:???
     =cpu=??? example.java
 ```
 
-* `hprof` 
-* `samples` 
-* `agent` 
-* `alloc` 
-* `heap` 
-* `compiler` 
+* `hprof`
+* `samples`
+* `agent`
+* `alloc`
+* `heap`
+* `compiler`
 * `source`
 
 ---
@@ -76,11 +81,9 @@ $ java ???:hprof=???
          =sites example
 ```
 
-* `-agentlib` 
-* `heap` 
-* `alloc` 
-* `allocation` 
-* `-a-l` 
+* `-agentlib`
+* `heap`
+* `alloc`
+* `allocation`
+* `-a-l`
 * `-hprof`
-
- 

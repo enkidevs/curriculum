@@ -11,8 +11,9 @@ type: normal
 
 category: tip
 
+aspects:
 
-
+  - introduction
 
 ---
 
@@ -65,11 +66,9 @@ public class Main {
 }
 ```
 
-
  ???
 
 * a97
 * aa
 * true
 * false
- 
