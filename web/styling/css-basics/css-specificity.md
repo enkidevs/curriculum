@@ -13,6 +13,10 @@ type: normal
 
 category: feature
 
+aspects:
+  - introduction
+  - workout
+
 inAlgoPool: false
 
 
@@ -21,7 +25,7 @@ links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity){documentation}'
   - '[standardista.com](http://standardista.com/css3/css-specificity/){website}'
   - '[Scrimba CSS Specificity](https://scrimba.com/p/pWvwCg/c2vmgSa){website}'
-  
+
 notes: >-
   http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/
 
@@ -34,12 +38,12 @@ notes: >-
 
 Although a difficult topic, understanding how properties can be overridden will make you more confident when writing CSS code.
 
-In the previous workout, we discussed about three basic types of selectors:
+In the previous workout, we discussed three basic types of selectors:
  - type (`div`, `p`)
  - class (`.container`, `.title`)
  - id (`#contact`)
 
-In order to better visualize which one has priority over the other, we can turn the list into a horizontal one:
+In order to better visualize which one has priority over the other, we can turn the list into a horizontal list:
 ```text
 id priority > class priority > type priority
 ```
@@ -49,7 +53,7 @@ The last step in calculating a selector's specificity is to see the above as the
          id - class - type
 selector  0 -   0   -  0  
 ```
-For each basic selector that is part of a more complex one, we increment the value in the appropriate column.
+For each basic selector that is part of a more complex selector, we increment the value in the appropriate column.
 
 For example, consider the following selector that aims to style a heading, nested inside a div of class *my-class*, which is another div's child:
 ```css
@@ -160,7 +164,7 @@ What is the specificity of the following CSS code snippet?
 * 1-2-1-2
 
 ---
-## Quiz 
+## Quiz
 ### which of the following selectors has the highest specificity?
 
 ```css
@@ -175,4 +179,3 @@ div div ul li div div img {} /* 3 */
 * 1
 * 3
 * both 1 and 2
- 

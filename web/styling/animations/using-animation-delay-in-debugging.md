@@ -20,6 +20,10 @@ links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay){documentation}'
 
 
+aspects:
+  - workout
+  - deep
+
 ---
 
 # Using animation delay in debugging
@@ -79,5 +83,3 @@ animation-play-state: paused;
 * Line 3
 * Line 2
 * Line 1
-
- 

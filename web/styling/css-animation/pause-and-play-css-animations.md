@@ -11,6 +11,9 @@ type: normal
 
 category: how to
 
+aspects:
+  - workout
+  - deep
 
 links:
 
@@ -57,7 +60,7 @@ How do you restart an animation?
 ---
 ## Revision
 
-What are the two states which can pause or play CSS animations? 
+What are the two states which can pause or play CSS animations?
 
 ???
 
@@ -65,5 +68,3 @@ What are the two states which can pause or play CSS animations?
 * Start and stop.
 * Paused and playing.
 * Running and stop.
-
- 
