@@ -7,6 +7,9 @@ levels:
 
   - medium
 
+aspects:
+  - deep
+
 type: normal
 
 category: feature
