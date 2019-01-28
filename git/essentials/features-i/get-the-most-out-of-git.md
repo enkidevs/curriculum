@@ -9,7 +9,11 @@ type: normal
 
 category: feature
 
-
+aspects:
+  
+  - deep
+  - obscura
+  
 links:
 
   - '[webchick.net](http://webchick.net/node/99){website}'
