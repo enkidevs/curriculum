@@ -7,6 +7,11 @@ levels:
 
 type: normal
 
+aspects:
+  
+  - introduction
+  - deep
+  
 category: must-know
 
 
