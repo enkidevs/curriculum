@@ -17,6 +17,9 @@ links:
   - '[Codepen example](http://codepen.io/mihaiberq/pen/RGAjpK){website}'
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions){documentation}'
 
+aspects:
+  - workout
+  - deep
 
 ---
 
@@ -25,9 +28,9 @@ links:
 ---
 ## Content
 
-Declaring each transition property individually can be intensive, especially using `vendor prefixes`. 
+Declaring each transition property individually can be intensive, especially using `vendor prefixes`.
 
-Instead, try the shorthand property `transition` that supports all the different values. 
+Instead, try the shorthand property `transition` that supports all the different values.
 
 Using only this alone it is possible to set every transition value in order of `transition-property`, `transition-duration`, `transition-timing-function`, and lastly `transition-delay`.
 
@@ -66,5 +69,3 @@ transition: linear background .2s;
 * Option A
 * Option B
 * Option C
-
- 
