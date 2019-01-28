@@ -11,6 +11,12 @@ type: normal
 
 category: must-know
 
+aspects:
+  
+  - new
+  - deep
+  - workout
+  
 
 links:
 
