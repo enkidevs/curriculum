@@ -11,6 +11,12 @@ type: normal
 
 category: best practice
 
+aspects:
+
+  - introduction
+
+  - obscura
+
 tags:
 
   - naming-conventions
@@ -53,5 +59,3 @@ Which of the following methods is best named for finding the age of a person?
 * `age()` 
 * `getAgeOfPerson` 
 * `num()`
-
- 

@@ -11,11 +11,15 @@ type: normal
 
 category: caveats
 
+aspects:
+
+  - workout
+
+  - deep
 
 links:
 
   - '[www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/OBJ05-J.+Do+not+return+references+to+private+mutable+class+members){website}'
-
 
 ---
 
@@ -122,4 +126,3 @@ public class Main {
 * 1 and 1
 * 2 and 1
 * error: array has private access
- 

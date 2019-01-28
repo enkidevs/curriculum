@@ -11,6 +11,12 @@ type: normal
 
 category: tip
 
+aspects:
+
+  - deep
+
+  - obscura
+
 tags:
 
   - java
@@ -72,5 +78,3 @@ It is strongly recommended, but not strictly required that
 `(x.compareTo(y) == 0) == (x.equals(y))`
 
 Generally speaking, any class that implements the Comparable interface and violates this condition should clearly indicate this fact.
-
- 

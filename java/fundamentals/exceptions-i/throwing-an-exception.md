@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+aspects: 
+
+  - introduction
 
 links:
 
@@ -33,15 +36,15 @@ There are two types of `exception`:
 
 `Exception`s have to be handled and they can also be thrown. You can handle an `exception` inside a `try/catch` block :  
 ```java
-try{
+try {
   //perform an action
-} catch (IOException e){
+} catch (IOException e) {
   //consume the exception
 }
 ```
 To throw an exception:
 ```java
-throw new Exception<>();
+throw new Exception();
 ```
 
 Methods can also throw an `exception`:
@@ -53,5 +56,3 @@ public void myMethod() throws IOException {
 An `exception` should be thrown when a fundamental assumption of the current code block is found to be false. 
 
 For example, a methods that counts the number of elements from a `List` should `throw` an `exception` if the given parameter is not a `List`.
-
- 

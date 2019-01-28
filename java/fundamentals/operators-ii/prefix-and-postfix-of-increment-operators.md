@@ -13,7 +13,9 @@ type: normal
 
 category: tip
 
+aspects: 
 
+  - introduction
 
 notes: ''
 
@@ -94,4 +96,3 @@ System.out.println(b + " and " + c);
 * 1 and 2
 * 2 and 1
 * 0 and 1
- 

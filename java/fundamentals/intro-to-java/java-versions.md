@@ -9,10 +9,11 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+
 inAlgoPool: false
-
-
-
 
 ---
 
@@ -31,12 +32,10 @@ Transitioning from one version to another has always left room for problems. Usu
 
 One way to avoid this from happening is stopping public support for older versions, which has already happened. As of 2015, *Java 8* is the only publicly supported version.
 
-Moreover, Java 10 is scheduled to be released at the end of September 2018.
-
 ---
 ## Practice
 
-Roughly how many classes are in the current **Java** version 8 ?
+Roughly how many classes are in **Java** version 8 ?
 
 ???
 
@@ -46,17 +45,3 @@ Roughly how many classes are in the current **Java** version 8 ?
 * 100
 * 1000
 * 20000
-
----
-## Revision
-
-What's latest announced Java version?
-
-???
-
-
-* Java 11
-* Java 5
-* Java 1
-* Java 10
- 

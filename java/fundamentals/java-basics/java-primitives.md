@@ -9,10 +9,11 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+
 inAlgoPool: false
-
-
-
 
 ---
 
@@ -37,7 +38,7 @@ By type of data held, some of the other existing primitives are:
   - `boolean`: accepts `true` or `false` values.
 
 When initialized, if they aren't given any values, each primitive type will default to:
-```
+```java
 int myInt; // default: 0
 long myLong; // default: 0L
 float myFloat; // default: 0.00f
@@ -46,7 +47,7 @@ char myChar; // default: '\u0000'
 boolean myBoolean; // default: false
 ```
 For Java to make the distinction between values of different type, a suffix is needed: `L` for `long`, `f` for `float` and `d` for double. They should be declared as:
-```
+```java
 long myLong = 37512L;
 double myDouble = 3.75d;
 float myFloat = 3.75f;
@@ -66,4 +67,3 @@ The default type of `5.30` is ???
 * float
 * int
 * long
- 

@@ -9,13 +9,19 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - workout
+
+  - deep
+
+  - obscura
 
 links:
 
   - '[More on Hashing](https://en.wikipedia.org/wiki/Hash_function){website}'
   - '[Java Object HashCode](https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#hashCode()){website}'
   - '[String Hashcode](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#hashCode()){website}'
-
 
 ---
 
@@ -32,7 +38,7 @@ links:
 `hashCode()` can be used in `HashMaps`, `HashSets` and other collections where each value corresponds to the unique key. Both `hashCode()` and `equals()` methods can be overridden and in practice whenever one method is changed the other must be as well, that is due to them working close together.
 
 Although whenever we create a custom class, we need to implement `hashCode()` method in order to be able to store it in a *HashMap*, a lot of commonly used classes are provided with implementation of this method. For example, if we take `String` class:
-```
+```java
 String s = "Enki";
 System.out.println(s);
 //Enki
@@ -51,5 +57,3 @@ What is hashing?
 * Concept of encoding an arbitrary data into a fixed size number in a unique way.
 * Concept of rewriting methods in a subclass if they already exist in a parent class.
 * Specific order of inheritance from multiple classes.
-
- 
