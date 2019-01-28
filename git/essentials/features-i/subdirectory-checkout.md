@@ -13,8 +13,11 @@ type: normal
 
 category: tip
 
-
-
+aspects:
+  
+  - new
+  - deep
+  - workout
 
 ---
 
