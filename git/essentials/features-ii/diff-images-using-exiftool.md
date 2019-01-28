@@ -11,6 +11,11 @@ type: normal
 
 category: feature
 
+aspects:
+  
+  - introduction
+  - obscura
+  
 
 links:
 
