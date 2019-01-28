@@ -13,6 +13,14 @@ type: normal
 
 category: tip
 
+aspects:
+
+  - deep
+
+  - obscura
+
+  - new
+
 tags:
 
   - annotations
@@ -21,11 +29,9 @@ tags:
 
   - java-8
 
-
 links:
 
   - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/annotations/repeating.html){website}'
-
 
 ---
 
@@ -53,5 +59,3 @@ public @interface Contributors {
 }
 ```
 The container has one field which is an array of the type of annotation we wish to store.
-
- 

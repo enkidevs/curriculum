@@ -11,6 +11,9 @@ type: normal
 
 category: tip
 
+aspects:
+
+  - introduction
 
 links:
 
@@ -31,5 +34,3 @@ links:
 If you only care about running Java programs on your browser or computer, you will only install JRE.
 
 On the other hand, if you are planning to do some Java programming, you will also need JDK.
-
- 

@@ -9,13 +9,16 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
+aspects:
 
+  - introduction
+  - workout
+
+inAlgoPool: false
 
 links:
 
   - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html){website}'
-
 
 ---
 
@@ -25,7 +28,7 @@ links:
 ## Content
 
 We return to the `HelloWorld` example for this part:
-```
+```java
 public class HelloWorld {
    public static void main() {
       System.out.println("Hello World!");
@@ -53,7 +56,7 @@ We will discuss **modifiers** in a future insight. For now, we will focus on wha
 A `void` function is a method that doesn't return anything. In our case, it prints something to the console, but its `return` statement is `void`.
 
 Another example of a function that takes a name as a parameter and prints it to the console:
-```
+```java
 public class Example {
   public static void heyName(String name) {
     System.out.println("Hey, " +
@@ -70,7 +73,7 @@ public class Example {
 ### Non-void Functions
 
 Instead of `void`, we could use primitive names if we want our function to return the result of a numbers multiplication or strings concatenation:
-```
+```java
 public class NonVoidExample {
 
   public static int sum(
@@ -111,4 +114,3 @@ public ??? test() {
 * `int`
 * `empty`
 * `static`
- 

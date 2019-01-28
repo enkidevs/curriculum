@@ -9,16 +9,18 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - introduction 
+
 tags:
 
   - exceptions
-
 
 links:
 
   - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/exceptions/creating.html){website}'
   - '[stackoverflow.com](http://stackoverflow.com/questions/3776327/how-to-define-custom-exception-class-in-java-the-easiest-way){website}'
-
 
 ---
 
@@ -31,7 +33,7 @@ Creating your own exceptions allows you to differentiate exceptions thrown by yo
 
 To create an exception, simply create a new `Class` which extends `Exception`. For example:
 
-```
+```java
 public class NewException
   extends Exception {
   public NewException(String message) {
@@ -41,5 +43,3 @@ public class NewException
 }
 ```
 New exceptions should only be created when necessary, as there is a variety of standard exceptions which can be used instead.
-
- 

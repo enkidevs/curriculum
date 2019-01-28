@@ -9,10 +9,11 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+
 inAlgoPool: false
-
-
-
 
 ---
 
@@ -42,16 +43,16 @@ hello
 ```
 
 In the `HelloWorld` example, the value printed to the console was a `String`:
-```
+```java
 System.out.println("Hello World!");
 ```
 You can also concatenate(or add) `String`s. The easiest way to do this is:
-```
+```java
 String concat = "Concatenated" + " string"
                                + "!";
 ```
 If we print `concat`, we obtain:
-```
+```java
 System.out.println(concat);
 // Concatenated string!
 ```
@@ -66,4 +67,3 @@ To concatenate two strings, operator ??? is used.
 * ++
 * -
 * ,
- 

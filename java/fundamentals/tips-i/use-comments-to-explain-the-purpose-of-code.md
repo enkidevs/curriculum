@@ -11,15 +11,19 @@ type: normal
 
 category: tip
 
+aspects:
+
+  - introduction
+
+  - obscura
+
 tags:
 
   - comments
 
-
 links:
 
   - '[javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2011/08/code-comments-java-best-practices.html){website}'
-
 
 ---
 
@@ -34,7 +38,7 @@ Instead, comments should explain the code at a higher level of abstraction. This
 
 For example:
 
-```
+```java
 /*Takes a value as a parameter, increases 
 it by 20% and returns that value*/
 public BigDecimal addTax(BigDecimal cost) {
@@ -45,9 +49,7 @@ public BigDecimal addTax(BigDecimal cost) {
 ```
 This comment is not very helpful. The method is fairly simple, and any programmer should be able to see *what* is happening; what we are more interested in is *why*.
 
-```
+```java
 /*Adds a 20% VAT tax to the product's cost*/
 ```
 This comment is better because it explains the purpose of the method; *why* we are adding 20% to `cost`.
-
- 

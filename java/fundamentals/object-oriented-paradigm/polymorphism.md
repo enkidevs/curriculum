@@ -9,10 +9,13 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+
+  - workout
+
 inAlgoPool: false
-
-
-
 
 ---
 
@@ -26,14 +29,16 @@ inAlgoPool: false
 In other words, it is the ability of an object to take different forms.
 
 To demonstrate a polymorphic feature, let `FamilyCar` extend the `Car` class. Because a `FamilyCar` object might have the same `noDoors` as a normal car, but more seats, it makes sense to include this field:
-```
+```java
 public FamilyCar extends Car {
   int noSeats;
+
   public FamilyCar(... int newNoSeats) {
     super(...);
     noSeats = newNoSeats;
   }
-  void start(){
+
+  void start() {
     System.out.println("The " + noSeats
      + " seat car starts!");
   }
@@ -41,15 +46,17 @@ public FamilyCar extends Car {
 ```
 
 At the same time, we can have a `SportsCar`. For this particular class, it would help to know if the engine is turbo charged or not:
-```
+```java
 public SportsCar extends Car {
   boolean turboCharged;
-  public SportsCar(... boolean charged){
+
+  public SportsCar(... boolean charged) {
     super(...);
     turboCharged = charged;
   }
-  void start(){
-    if(turboCharged == true){
+
+  void start() {
+    if (turboCharged == true) {
       System.out.println("The turbocharged"
        + " car starts!");
     }
@@ -62,7 +69,7 @@ In both cases, a new field has been added on top of the existing ones and `start
 Here is a test program that creates three `Car` objects:
 ```java
 public class TestCar {
-  public static void main(String[] args){
+  public static void main(String[] args) {
     Car car, fCar, sCar;
     car = new Car("awsomeCar","XC603",
          "blue",4);
@@ -70,7 +77,9 @@ public class TestCar {
          "324AB","grey",4, 7);
     sCar = new SportsCar("sportsCar",
          "RAG12", "red", 2, true);
-    car.start(); fCar.start(); sCar.start();
+    car.start(); 
+    fCar.start(); 
+    sCar.start();
   }
 }
 ```
@@ -86,7 +95,7 @@ JVM calls the appropiate method for each of the variables, and not the generic t
 ## Practice
 
 What is the output of the following snippet?
-```
+```java
 FamilyCar fCar = new FamilyCar(
    "newFamilyCar","31G3G",
    "beige", 4, 5);
@@ -116,22 +125,26 @@ Polymorphism refers to the ability of an object to ???
 ```java
 class Main {
   private final String name;
-    Main(String name) {
-        this.name = name;
-    }
-    private String name() {
-        return name;
-    }
-    private void say() {
-        new Main("Stinky") {
-            void printName() {
-                System.out.println(name());
-            }
-        }.printName();
-    }
-    public static void main(String[] args) {
-        new Main("Lessy").say();
-    }
+
+  Main(String name) {
+    this.name = name;
+  }
+
+  private String name() {
+    return name;
+  }
+
+  private void say() {
+    new Main("Stinky") {
+      void printName() {
+        System.out.println(name());
+      }
+    }.printName();
+  }
+
+  public static void main(String[] args) {
+    new Main("Lessy").say();
+  }
 }
 ```
 
@@ -141,4 +154,3 @@ class Main {
 * Stinky
 * Error: name() has private access
 * Error: cannot find symbol name()
- 

@@ -11,6 +11,11 @@ type: normal
 
 category: tip
 
+aspects:
+
+  - deep
+
+  - obscura
 
 links:
 
@@ -62,5 +67,3 @@ $ ???
 * `java PermSize=256M` 
 * `PermSize=256M` 
 * `java :PermSize=256M`
-
- 

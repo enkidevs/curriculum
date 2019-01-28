@@ -11,6 +11,9 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - deep
 
 links:
 
@@ -62,7 +65,7 @@ field.getDeclaredAnnotations();
 ## Practice
 
 Complete the following code snippet to set the value of the field to 10:
-```
+```java
 intField.???(myObj, 10);
 ```
 
@@ -74,7 +77,7 @@ intField.???(myObj, 10);
 ## Revision
 
 Complete the following code snippet to get the field named “Enki”:
-```
+```java
 Field intField = 
   ???.getClass()
           .???("Enki");
@@ -85,5 +88,3 @@ Field intField =
 * `field` 
 * `setField` 
 * `find`
-
- 

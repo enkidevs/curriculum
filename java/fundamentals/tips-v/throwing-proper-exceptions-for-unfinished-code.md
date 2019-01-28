@@ -13,11 +13,15 @@ type: normal
 
 category: best practice
 
+aspects:
+
+  - introduction
+
+  - obscura
 
 links:
 
   - '[www.javalobby.org](http://www.javalobby.org/){website}'
-
 
 ---
 
@@ -39,5 +43,3 @@ This will
 a) throw an exception when its called, notifying the user what's happened
 
 b) act as a reminder and give other people awareness why it is not complete
-
- 

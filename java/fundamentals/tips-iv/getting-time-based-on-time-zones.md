@@ -13,17 +13,19 @@ type: normal
 
 category: feature
 
+aspects:
+
+	- workout
+
 tags:
 
   - time
 
   - timezone
 
-
 links:
 
   - '[docs.oracle.com](http://docs.oracle.com/javase/7/docs/api/java/util/TimeZone.html){website}'
-
 
 ---
 
@@ -38,7 +40,7 @@ The `getDefault()` method can be used to get the time zone where the program is 
 
 The `getTimeZone()` method allows to get the time zone of a city using a time zone ID as follows:
 
-```
+```java
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.TimeZone;
@@ -95,5 +97,3 @@ What library can be used to determine the timezone of a specific location, but a
 * `Timezone` 
 * `Calendar` 
 * `Date`
-
- 

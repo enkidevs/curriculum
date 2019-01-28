@@ -13,17 +13,23 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - workout
+
+  - deep
+
+  - obscura
+
 tags:
 
   - keywords
 
   - oop-concepts
 
-
 links:
 
   - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=23){website}'
-
 
 ---
 
@@ -98,4 +104,3 @@ public class Roadster extends Tesla {
 * Model S
 * error: MODEL is final
 * Model SRoadster
- 

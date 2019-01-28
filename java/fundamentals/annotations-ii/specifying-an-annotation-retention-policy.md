@@ -13,17 +13,21 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - deep
+
+  - obscura
+
 tags:
 
   - annotations
 
   - meta-annotations
 
-
 links:
 
   - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/annotations/predefined.html){website}'
-
 
 ---
 
@@ -38,7 +42,7 @@ Meta-annotations are annotations which apply to other annotations. The `@Retenti
 - `RetentionPolicy.RUNTIME`: the annotation is retained by the JVM and so is available at runtime.
 
 For example:
-```
+```java
 @Retention(RetentionPolicy.RUNTIME)
 @interface Introduction {
   String name();
@@ -46,5 +50,3 @@ For example:
 }
 ```
 This annotation will be available at runtime.
-
- 
