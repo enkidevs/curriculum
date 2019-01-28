@@ -11,11 +11,15 @@ type: normal
 
 category: must-know
 
-
+aspects:
+  
+  - introduction
+  - new
+  - deep
+ 
 links:
 
   - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Revision-Selection){website}'
-
 
 ---
 
