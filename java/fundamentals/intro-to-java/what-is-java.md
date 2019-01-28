@@ -39,7 +39,6 @@ What type of programming language is **Java** considered?
 
 ???
 
-
 * object-oriented
 * functional
 * quantum
