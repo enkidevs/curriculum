@@ -13,11 +13,6 @@ aspects:
   - workout
   - deep
 
-tags:
-
-  -
-
-
 links:
 
   - '[css-tricks.com](https://css-tricks.com/almanac/selectors/r/required/){website}'
