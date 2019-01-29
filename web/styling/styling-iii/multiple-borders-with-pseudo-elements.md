@@ -13,6 +13,9 @@ type: normal
 
 category: hack
 
+aspects:
+  - workout
+  - deep
 
 links:
 
@@ -27,7 +30,7 @@ links:
 ## Content
 
 `::after` and `::before` pseudo-elements can be used to add more borders to an element.
-These must be either set being larger and behind the element or smaller and inside (but parent element must be positioned on top).
+These must be either set being larger and behind the element or smaller and inside (but the parent element must be positioned on top).
 
 Keep in mind that the element with multiple borders needs its own border and a non-static position.
 
@@ -37,7 +40,7 @@ Keep in mind that the element with multiple borders needs its own border and a n
   border: 5px solid #00ff00;
 }
 ```
-Add the second border: 
+Add the second border:
 
 ```css
 .elem::after {
@@ -80,5 +83,3 @@ Which two pseudo elements can be used to add more borders to an element?
 * :post and :pre
 * :after and :previous
 * :post and :before
-
- 
