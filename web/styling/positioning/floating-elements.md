@@ -8,6 +8,9 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+
 inAlgoPool: false
 
 links:
@@ -24,7 +27,7 @@ links:
 
 Another way to position elements on page is with `floats`. This property allows elements to be positioned to the left or right side of the parent element. All other elements will flow around the floated element.
 
-One use-case is floating an image to the side of a block of text, as the text will surround the image: 
+One use-case is floating an image to the side of a block of text, as the text will surround the image:
 ```css
 #imageleft{
   float: left;
@@ -95,5 +98,3 @@ Text ??? a floated element.
 * pushes
 * overlaps
 * underlaps
-
- 
