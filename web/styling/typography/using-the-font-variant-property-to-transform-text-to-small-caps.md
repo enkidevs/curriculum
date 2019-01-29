@@ -13,6 +13,10 @@ type: normal
 
 category: feature
 
+aspects:
+  - introduction
+  - workout
+
 tags:
 
   - css
@@ -44,7 +48,7 @@ p.smallcaps {
 }
 ```
 
-For example, if the property is applied on the following html code: 
+For example, if the property is applied on the following html code:
 ```html
 <p class="smallcaps"> Hello World </p>
 ```
@@ -55,7 +59,7 @@ All letters will be displayed in upper-case and the original lower-case letters 
 ---
 ## Revision
 
-What must the font-variant property be set to transform the text to small caps? 
+What must the font-variant property be set to transform the text to small caps?
 
 ???
 
@@ -63,5 +67,3 @@ What must the font-variant property be set to transform the text to small caps?
 * `small-caps`
 * `smallcaps`
 * `small_caps`
-
- 

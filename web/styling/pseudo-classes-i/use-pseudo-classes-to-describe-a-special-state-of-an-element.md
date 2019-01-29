@@ -9,6 +9,10 @@ type: normal
 
 category: pattern
 
+aspects:
+  - introduction
+  - workout
+
 tags:
 
   - css
@@ -77,5 +81,3 @@ What is the common order of pseudo-classes used for links?
 * ps:visited {
 * ps:hover {
 * ps:active {
-
- 
