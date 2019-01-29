@@ -9,6 +9,9 @@ type: normal
 
 category: how to
 
+aspects:
+  - workout
+  - deep
 
 links:
 
@@ -18,7 +21,7 @@ links:
 
 ---
 
-# Use `:not()` to apply/unapply styles 
+# Use `:not()` to apply/unapply styles
 
 ---
 ## Content
@@ -50,20 +53,20 @@ Use the `:not()` pseudo-class to only apply to the elements you want:
 Complete the code snippet:
 
 ```css
-.nav li???(:last-child) { 
-  border-left: 5px dashed #FFF; 
-} 
+.nav li???(:last-child) {
+  border-left: 5px dashed #FFF;
+}
 ```
 
-* `:not` 
-* `.not` 
-* `::not` 
+* `:not`
+* `.not`
+* `::not`
 * `not`
 
 ---
 ## Revision
 
-What does the following CSS code do? 
+What does the following CSS code do?
 ```css
 .div li:not(:last-child) {
 
@@ -74,5 +77,3 @@ What does the following CSS code do?
 * Allows styles to be applied to all elements except for the final element.
 * Allows styles to be applied specifically to the final element.
 * Allows styles to be applied to every other element.
-
- 
