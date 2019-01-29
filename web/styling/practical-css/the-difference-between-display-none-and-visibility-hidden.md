@@ -13,6 +13,9 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+  - workout
 
 links:
 
@@ -54,8 +57,8 @@ Which of those properties won’t preserve the space allocated for the element?
 
 ???
 
-* `display: none` 
-* `visibility: hidden` 
+* `display: none`
+* `visibility: hidden`
 * neither
 
 ---
@@ -69,5 +72,3 @@ Which of the following is the definition for display:none?
 * The element is rendered on the page but does not appear, page space is allocated.
 * The element is not rendered on the page so consequently does not appear, page space is allocated.
 * The element is rendered on the page but does not appear, page space is not allocated.
-
- 
