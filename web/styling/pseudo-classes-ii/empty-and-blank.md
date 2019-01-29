@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+aspects:
+  - workout
+  - deep
 
 links:
 
@@ -82,5 +85,3 @@ Which lines of HTML code would a *:blank* pseudo class apply to?
 * 4th and 5th
 * 2nd and 5th
 * 1st and 3rd
-
- 
