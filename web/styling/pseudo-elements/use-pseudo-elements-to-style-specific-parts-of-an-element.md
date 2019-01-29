@@ -9,6 +9,9 @@ type: normal
 
 category: pattern
 
+aspects:
+  - introduction
+
 tags:
 
   - css
@@ -73,5 +76,3 @@ Ideally, what should precede all pseudo-elements declaration?
 * `:`
 * `-`
 * `;`
-
- 
