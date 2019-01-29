@@ -9,6 +9,9 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+
 inAlgoPool: false
 
 
@@ -47,19 +50,19 @@ span {
 ---
 ## Practice
 
-Which of the following elements is * not * an inline element? 
+Which of the following elements is * not * an inline element?
 
 ???
 
-* `<form>` 
-* `<label>` 
-* `<strong>` 
+* `<form>`
+* `<label>`
+* `<strong>`
 * `<input>`
 
 ---
 ## Revision
 
-Which of the following elements is not inline? 
+Which of the following elements is not inline?
 
 ???
 
@@ -68,5 +71,3 @@ Which of the following elements is not inline?
 * `<span>`
 * `<input>`
 * `<img>`
-
- 
