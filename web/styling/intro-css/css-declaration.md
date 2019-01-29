@@ -7,6 +7,9 @@ levels:
 
 type: normal
 
+aspects:
+  - introduction
+
 category: must-know
 
 inAlgoPool: false
@@ -87,5 +90,3 @@ Complete the following snippet with the general syntax for a CSS declaration:
 * `=`
 * `background-decoration`
 * `red`
-
- 

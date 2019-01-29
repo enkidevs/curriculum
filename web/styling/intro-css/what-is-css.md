@@ -7,6 +7,9 @@ levels:
 
 type: normal
 
+aspects:
+  - introduction
+
 category: must-know
 
 inAlgoPool: false
@@ -72,4 +75,3 @@ What does *CSS* stand for?
 * Cross Site Scripting
 * Customer Service Site
 * Computer Styling Sheets
- 
