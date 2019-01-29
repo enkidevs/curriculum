@@ -13,11 +13,13 @@ type: normal
 
 category: tip
 
+aspects:
+  - workout
+  - deep
 
 links:
 
   - '[davidwalsh.name](http://davidwalsh.name/css-circles){website}'
-
 
 ---
 
@@ -26,13 +28,13 @@ links:
 ---
 ## Content
 
-Any element can be given rounded corners by applying `border-radius`: 
+Any element can be given rounded corners by applying `border-radius`:
 
 ```
 element {
   border-radius: 50%;
   width: 200px;
-  height: 200px; 
+  height: 200px;
 }
 ```
 This can be used, for example, to make a profile picture or avatar circular.
@@ -59,4 +61,4 @@ What does the `border-radius` property do to elements? ???
 * Gives the element rounded corners.
 * Gives the element square corners.
 * Makes a circular shadow for the element.
-* Defines how far the border surrounding the element is from the actual element. 
+* Defines how far the border surrounding the element is from the actual element.

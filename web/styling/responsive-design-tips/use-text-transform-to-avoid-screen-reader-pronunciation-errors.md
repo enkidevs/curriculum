@@ -13,6 +13,9 @@ type: normal
 
 category: best practice
 
+aspects:
+  - introduction
+  - workout
 
 links:
 
@@ -28,7 +31,7 @@ notes: >-
 ---
 ## Content
 
-A screen-reader handling CONTACT US (in uppercase) would be read out "Contact U S", which is not correct. 
+A screen-reader handling CONTACT US (in uppercase) would be read out "Contact U S", which is not correct.
 
 By using `text-transform: uppercase`, you don't have to write in uppercase in the HTML and so the separation of content and style is preserved.
 
@@ -38,7 +41,7 @@ For instance:
  <div class="bad"> CONTACT US </div>
  <div class="good"> Contact us </div>
 ```
-```css 
+```css
 .good {
   text-transform: uppercase;
   /* will render text in uppercase */
@@ -55,9 +58,9 @@ p.upper{
 }
 ```
 
-* `text-transform` 
-* `text-style` 
-* `text-decoration` 
+* `text-transform`
+* `text-style`
+* `text-decoration`
 * `font-style`
 
 ---
@@ -70,5 +73,3 @@ What is the key benefit and use case of `text-transform`?
 * It avoids pronunciation errors and preserves styles.
 * It can render text in uppercase.
 * It can render text in lowercase.
-
- 

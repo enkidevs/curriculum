@@ -13,6 +13,10 @@ type: normal
 
 category: how to
 
+aspects:
+  - introduction
+  - workout
+  - deep
 
 links:
 
@@ -26,7 +30,7 @@ links:
 ---
 ## Content
 
-By default, an iPhone will increase the size of the font on a webpage. 
+By default, an iPhone will increase the size of the font on a webpage.
 
 To disable:
 
@@ -46,5 +50,3 @@ What does the following piece of CSS code do? ???
 * Prevents font enlarging when using an iPhone.
 * Prevents font enlarging when using an Android phone.
 * Prevents a user from zooming in on a webpage.
-
- 

@@ -11,6 +11,9 @@ type: normal
 
 category: how to
 
+aspects:
+  - introduction
+
 tags:
 
   - css
@@ -18,8 +21,6 @@ tags:
   - border
 
   - border-style
-
-  - 
 
 
 links:
@@ -57,5 +58,3 @@ Which of the following is not a `border-style`? ???
 * `ridge`
 * `double`
 * `dashed`
-
- 

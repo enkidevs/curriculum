@@ -9,6 +9,10 @@ type: normal
 
 category: feature
 
+aspects:
+  - introduction
+  - workout
+
 links:
   - '[Scrimba CSS Pseudo Classes / Elements](https://scrimba.com/p/pWvwCg/cbmMJSb){website}'
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/hover)[documentation}'
@@ -64,5 +68,3 @@ In which of the following cases, will the `:hover` pseudo-class most likely work
 * 2
 * 4
 * None
-
- 
