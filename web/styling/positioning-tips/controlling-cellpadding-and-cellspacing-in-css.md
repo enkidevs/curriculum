@@ -11,6 +11,10 @@ levels:
 
 type: normal
 
+aspects:
+  - introduction
+  - workout
+
 category: tip
 
 tags:
@@ -42,7 +46,7 @@ td {
 }
 ```
 
-To control the "cellspacing" in CSS, apply `border-spacing` and `border-collapse` to the table, for example: 
+To control the "cellspacing" in CSS, apply `border-spacing` and `border-collapse` to the table, for example:
 
 ```css
 table {
@@ -64,16 +68,16 @@ Apply a cellpadding of 15px to a table:
 }
 ```
 
-* `td` 
-* `padding` 
-* `table` 
-* `cell-padding` 
+* `td`
+* `padding`
+* `table`
+* `cell-padding`
 * `tr`
 
 ---
 ## Revision
 
-What does the following CSS code snippet do? 
+What does the following CSS code snippet do?
 ```css
 table {
    padding: 8px;
@@ -87,5 +91,3 @@ table {
 * Alters the table.
 * Adds a border to the table without padding.
 * Adds a border to the table with padding.
-
- 
