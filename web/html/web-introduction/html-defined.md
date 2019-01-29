@@ -32,13 +32,13 @@ However, **HTML** is not good for creating animations, managing responsive layou
 ---
 ## Practice
 
-What four things does HTML primarily achieve?
+What does HTML work well for, and not?
 
-HTML does well: ???
-HTML does not do well: ???
+HTML works well for: ???
+HTML does not work well for: ???
 
-* Displays Text, Inserts Media, Creates Links, Creates Containers
-* Creates Animations, Responsive Layouts, Database Storage, Allows Math Expression
+* Displaying Text, Inserting Media, Creating Links, Creating Containers
+* Creating Animations, Responsive Layouts, Database Storage, Math Expressions
 
 ---
 ## Revision
