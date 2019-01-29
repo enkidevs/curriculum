@@ -13,6 +13,10 @@ type: bugSpot
 
 category: tip
 
+aspects:
+  - introduction
+  - workout
+
 ---
 
 # CSSplat
@@ -329,4 +333,3 @@ The latter will also transform all letters of the text to uppercase, but will al
 %exp
 When specifying multiple values for a CSS property such as `font` you must separate them by a whitespace and not a comma (`,`).
 %
- 

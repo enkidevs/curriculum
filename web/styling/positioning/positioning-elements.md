@@ -12,6 +12,9 @@ aspects:
 
 category: must-know
 
+aspects:
+  - introduction
+
 inAlgoPool: false
 
 links:
