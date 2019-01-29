@@ -13,6 +13,9 @@ type: normal
 
 category: hack
 
+aspects:
+  - introduction
+  - workout
 
 links:
 
@@ -45,16 +48,16 @@ ul > ??? :not(???)
 }
 ```
 
-* `li` 
-* `:last-child` 
-* `:nth-child(last)` 
-* `:li` 
+* `li`
+* `:last-child`
+* `:nth-child(last)`
+* `:li`
 * `:not(:first-child)`
 
 ---
 ## Revision
 
-What does the following CSS code do? 
+What does the following CSS code do?
 ```css
 ul > li:not(:last-child)::after {
    content: "//";
@@ -65,5 +68,3 @@ ul > li:not(:last-child)::after {
 * Adds // after each item in the list except for after the final item.
 * Changes the list so it's just a list of forward slashes.
 * Changes the content of the last child to //.
-
- 

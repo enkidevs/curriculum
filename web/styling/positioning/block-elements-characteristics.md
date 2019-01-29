@@ -8,6 +8,9 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+
 inAlgoPool: false
 
 links:
@@ -36,20 +39,20 @@ Most of the newer tags, such as `<article>`, `<aside>`, `<main>` etc. are also d
 ---
 ## Practice
 
-Which of the following element is * not * a block element? 
+Which of the following element is * not * a block element?
 
 ???
 
 
-* `<span>` 
-* `<form>` 
-* `<ul>` 
+* `<span>`
+* `<form>`
+* `<ul>`
 * `<article>`
 
 ---
 ## Revision
 
-Which of the following is not a block element? 
+Which of the following is not a block element?
 
 ???
 
@@ -59,5 +62,3 @@ Which of the following is not a block element?
 * `<form>`
 * `<li>`
 * `<p>`
-
- 

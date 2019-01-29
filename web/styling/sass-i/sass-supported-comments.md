@@ -11,6 +11,8 @@ type: normal
 
 category: best practice
 
+aspects:
+  - introduction
 
 links:
 
@@ -67,4 +69,3 @@ Which type of comment is preserved when CSS code is generated from Sass code?
 * Single-line commments
 * All comments
 * No comments
- 

@@ -22,7 +22,7 @@ aspects:
 
 **CSS** and **HTML** are the core languages used for creating web pages and web-based applications.
 
-**HTML** creates the structure and content of a webpage with text, images, links, and containers, whereas **CSS** modifies the design and display of those items in the HTML page.
+**HTML** creates the structure and content of a webpage with text, images, links, and containers, while **CSS** modifies the design and display of those items in the HTML page.
 
 **HTML** is made up of content between tags; `<tag>Content here</tag>`.
 
@@ -44,8 +44,8 @@ p { color: red; }
 h2 { font-size: 24px; }
 ```
 
-In the above **HTML** example, we create a heading and paragraph elements.  
-In the above **CSS** example, we set the **HTML** `<p>` elements content to the color `red`, and the font size of the `<h2>` elements content to 24 pixels.
+In the **HTML** example above, we create a heading and paragraph elements.  
+In the **CSS** example above, we set the **HTML** `<p>` elements content to the color `red`, and the font size of the `<h2>` elements content to 24 pixels.
 
 
 ---

@@ -11,6 +11,9 @@ type: normal
 
 category: how to
 
+aspects:
+  - introduction
+
 tags:
 
   - fonts
@@ -32,15 +35,15 @@ links:
 ---
 ## Content
 
-The Google Font API is an easy and useful source for fonts. 
+The Google Font API is an easy and useful source for fonts.
 
-Steps: 
+Steps:
 
-1) Go to the Google font database in the link provided in the insight. 
+1) Go to the Google font database in the link provided in the insight.
 
 2) Pick your font and add the stylesheet link to your HTML
 ```
-<head> 
+<head>
 ...
 
   <link href='http://fonts.googleapis.
@@ -72,5 +75,3 @@ Once you've chosen a font, add the ??? to your HTML and the ??? to your element 
 * Google font database
 * Google font API
 * font description
-
- 

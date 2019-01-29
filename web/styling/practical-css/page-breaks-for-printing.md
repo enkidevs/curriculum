@@ -11,6 +11,10 @@ levels:
 
 type: normal
 
+aspects:
+  - workout
+  - deep
+
 category: how to
 
 
@@ -56,5 +60,3 @@ Which of the following is not a CSS page break? ???
 * `page-break-before`
 * `page-break-after`
 * `page-break-inside`
-
- 
