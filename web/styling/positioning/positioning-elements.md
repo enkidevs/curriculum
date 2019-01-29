@@ -7,9 +7,6 @@ levels:
 
 type: normal
 
-aspects:
-  - introduction
-
 category: must-know
 
 aspects:
