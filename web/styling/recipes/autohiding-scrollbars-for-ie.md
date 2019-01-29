@@ -13,6 +13,8 @@ type: normal
 
 category: tip
 
+aspects:
+  - workout
 
 links:
 
@@ -30,7 +32,7 @@ Note this only works in **Edge** and **IE 10/11** .
 Instead of always showing a scrollbar, you can make it only show when needed :
 ```css
 html {
-  -ms-overflow-style: 
+  -ms-overflow-style:
     ms-autohiding-scrollbar;
 }
 ```
@@ -52,5 +54,3 @@ html {
 * `autohide-scrollbar`
 * `show-hover-scrollbar`
 * `autohiding-scrollbar-style`
-
- 
