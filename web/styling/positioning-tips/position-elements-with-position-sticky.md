@@ -11,6 +11,10 @@ levels:
 
 type: normal
 
+aspects:
+  - introduction
+  - workout
+
 category: feature
 
 
@@ -28,7 +32,7 @@ notes: ''
 ---
 ## Content
 
-`position: sticky` is a new way to position elements and is conceptually similar to `position: fixed`. 
+`position: sticky` is a new way to position elements and is conceptually similar to `position: fixed`.
 
 The difference is that an element with `position: sticky` behaves like `position: relative` within its parent, until a given offset threshold is met in the viewport.
 
@@ -51,5 +55,3 @@ Which of the following browsers *does not* support `position: sticky`? ???
 * Firefox
 * Safari
 * iOS Safari
-
- 
