@@ -9,10 +9,9 @@ type: normal
 
 category: must-know
 
-tags:
-
-  - 
-
+aspects:
+  - workout
+  - deep
 
 links:
 
@@ -27,7 +26,7 @@ links:
 ---
 ## Content
 
-Especially when creating a form, some fields in it are mandatory for user to complete. 
+Especially when creating a form, some fields in it are mandatory for user to complete.
 
 All modern browsers support the `:required` and `:optional` pseudo classes:
 
@@ -35,7 +34,7 @@ All modern browsers support the `:required` and `:optional` pseudo classes:
 :required {
   border: 2px solid red;
 }
- 
+
 :optional {
   border: 2px solid blue;
 }
@@ -85,5 +84,3 @@ What does the following CSS code do? ???
 * Returns an error.
 * Makes the border of all fields solid and black.
 * Makes the border of all fields dotted and blue.
-
- 

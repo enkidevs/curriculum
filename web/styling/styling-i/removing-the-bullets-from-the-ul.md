@@ -11,6 +11,9 @@ type: normal
 
 category: how to
 
+aspects:
+  - introduction
+
 tags:
 
   - ul
@@ -47,15 +50,15 @@ Which CSS property is used to determine the type of bullet points for an unorder
 ???
 
 
-* `list-style-type` 
-* `bullets-type` 
-* `list-type` 
+* `list-style-type`
+* `bullets-type`
+* `list-type`
 * `bullets-style`
 
 ---
 ## Revision
 
-What does the following CSS code do? 
+What does the following CSS code do?
 ```css
 ul {
    list-style-type: square;
@@ -67,5 +70,3 @@ ul {
 * Tells the list to use squares instead of bullet points.
 * Removes the bullet points from the unordered list.
 * Sets the unordered list to format text into the shape of a square.
-
- 

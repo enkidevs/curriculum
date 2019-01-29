@@ -9,6 +9,9 @@ type: normal
 
 category: caveats
 
+aspects:
+  - introduction
+
 tags:
 
   -
@@ -33,7 +36,7 @@ These three lines of **CSS** will select every element on the page and give them
 }
 ```
 
-Elements inside other elements will get darker and darker. 
+Elements inside other elements will get darker and darker.
 
 This approach is useful when dealing with box models and when wanting to see how `padding` and `margin` affect each other.
 
@@ -73,7 +76,7 @@ div * {
 * Selects all elements inside div elements where the font family is Arial Narrow.
 
 ---
-## Quiz 
+## Quiz
 ### which selector is used to select every element on the page?
 
 ```css
@@ -86,4 +89,3 @@ div * {
 * -
 * <>
 * html
- 
