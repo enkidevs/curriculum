@@ -11,6 +11,8 @@ type: normal
 
 category: feature
 
+aspects:
+  - introduction
 
 links:
 
@@ -24,7 +26,7 @@ links:
 ---
 ## Content
 
-Highlighted text area colors can be easily change with the `::selection` pseudo element. 
+Highlighted text area colors can be easily change with the `::selection` pseudo element.
 
 Apply `::selection` on a paragraph:
 ```css
@@ -34,7 +36,7 @@ p::selection {
 }
 ```
 
-Gecko is the only engine requiring the prefix, so adding an other rule is required to support all browsers : 
+Gecko is the only engine requiring the prefix, so adding an other rule is required to support all browsers :
 ```css
 p::-moz-selection {
   background: black;
@@ -45,14 +47,14 @@ p::-moz-selection {
 ---
 ## Practice
 
-What rule must be added in order for the selection pseudo-element to be supported on all browsers? 
+What rule must be added in order for the selection pseudo-element to be supported on all browsers?
 
 ???
 
 
-* `::-moz-selection` 
-* `::-support-selection` 
-* `::-sup-selection` 
+* `::-moz-selection`
+* `::-support-selection`
+* `::-sup-selection`
 * `::-gecko-selection`
 
 ---
@@ -66,5 +68,3 @@ Which pseudo element is used to select a text area, for example if you wanted to
 * `:select`
 * `::selector`
 * `:selector`
-
- 
