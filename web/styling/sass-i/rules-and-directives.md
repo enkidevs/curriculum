@@ -13,6 +13,9 @@ type: normal
 
 category: best practice
 
+aspects:
+  - introduction
+  - workout
 
 links:
 
@@ -28,7 +31,7 @@ links:
 
 On top of supporting all CSS3 @-rules, Sass has it's own specific @-rules, known as *`directives`*.
 
-`@import` is extended by Sass to allow SCSS and Sass files to be imported. All imported files are merged together into one CSS file. 
+`@import` is extended by Sass to allow SCSS and Sass files to be imported. All imported files are merged together into one CSS file.
 
 `@import` takes a filename to import, it's default is to look for a *.sass* file to import.
 ```css
@@ -51,16 +54,16 @@ Line 1 DEBUG: 18px
 Complete the code snippet so that it returns the below output:
 
 ```css
-??? 28px + ???px; 
+??? 28px + ???px;
 /* Output */
-Line 1 DEBUG: 42px 
+Line 1 DEBUG: 42px
 ```
 
-* `@debug` 
-* `14` 
-* `@run` 
-* `@compile` 
-* `42` 
+* `@debug`
+* `14`
+* `@run`
+* `@compile`
+* `42`
 * `18`
 
 ---
@@ -75,5 +78,3 @@ Line 1 DEBUG: 80%
 * `@debug percentage(200px / 120px);`
 * `@debug abs(80);`
 * `@debug round(80.42);`
-
- 

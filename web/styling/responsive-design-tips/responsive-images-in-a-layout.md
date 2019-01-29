@@ -9,6 +9,10 @@ type: normal
 
 category: how to
 
+aspects:
+  - workout
+  - deep
+
 tags:
 
   - responsive design
@@ -32,9 +36,9 @@ parent: using-media-rule-to-create-cross-platform-responsiveness
 ---
 ## Content
 
-It's good practice to have conditional breakpoints for responsive images. 
+It's good practice to have conditional breakpoints for responsive images.
 
-This way, they're displayed in columns so that when they get too small, the columns will collapse. 
+This way, they're displayed in columns so that when they get too small, the columns will collapse.
 
 To do this, make use of media queries.
 
@@ -85,5 +89,3 @@ img {
 * `tablet`
 * `screen-size`
 * `@resize`
-
- 

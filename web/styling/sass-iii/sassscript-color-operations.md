@@ -13,6 +13,9 @@ type: normal
 
 category: best practice
 
+aspects:
+  - workout
+  - deep
 
 links:
 
@@ -50,7 +53,7 @@ p {
 Colours with an alpha channel must have the same alpha value for color arithmetic to work. The arithmetic operation does not affect the alpha value.
 ```css
 p {
-  color: rgba(255, 0, 100, 0.75) + 
+  color: rgba(255, 0, 100, 0.75) +
          rgba(0, 255, 0, 0.75);
 }
 ```
@@ -66,17 +69,17 @@ p {
 What does the following code snippet compile to?
 
 ```css
-p { 
-  color: #810421 + #010511; 
-} 
+p {
+  color: #810421 + #010511;
+}
 /* Compiles to */
 p {
    color: ???;
 }
 ```
 
-* `#820932` 
-* `#800110` 
+* `#820932`
+* `#800110`
 * `810421`
 
 ---
@@ -99,5 +102,3 @@ p {
 * `#001034`
 * `#341000`
 * `#000034`
-
- 

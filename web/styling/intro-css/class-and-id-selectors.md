@@ -7,6 +7,9 @@ levels:
 
 type: normal
 
+aspects:
+  - introduction
+
 category: must-know
 
 inAlgoPool: false
@@ -78,5 +81,3 @@ In CSS, the syntax for targeting elements within a certain class is:
 * `.class`
 * `#class`
 * `class`
-
- 
