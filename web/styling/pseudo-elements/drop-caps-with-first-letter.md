@@ -13,6 +13,9 @@ type: normal
 
 category: how to
 
+aspects:
+  - introduction
+  - workout
 
 links:
 
@@ -35,7 +38,7 @@ p::first-letter {
     font-size: 20px;
 }
 ```
-This will only work if the  first letter is not preceded by another pseudo-element  such as `::before`. 
+This will only work if the  first letter is not preceded by another pseudo-element  such as `::before`.
 
 If there are multiple targeted elements in a row, each first letter will be affected. In order to avoid this `::first-child` or `::first-of-type` pseudo-elements can be used:
 ```css
@@ -63,16 +66,16 @@ p.special ??? {
 }
 ```
 
-* `::first-letter` 
-* `font-size` 
-* `::first-child:first-line` 
-* `size` 
+* `::first-letter`
+* `font-size`
+* `::first-child:first-line`
+* `size`
 * `font-height`
 
 ---
 ## Revision
 
-The `::first-letter` pseudo-element won't have the expected result if the targeted element 
+The `::first-letter` pseudo-element won't have the expected result if the targeted element
 
 ???.
 
@@ -80,5 +83,3 @@ The `::first-letter` pseudo-element won't have the expected result if the target
 * has a `::before` pseudo-element set
 * has an `::after` pseudo-element set
 * is not a paragraph
-
- 

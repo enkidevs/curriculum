@@ -13,6 +13,9 @@ type: normal
 
 category: tip
 
+aspects:
+  - introduction
+  - workout
 
 links:
 
@@ -26,11 +29,11 @@ links:
 ---
 ## Content
 
-*SassScript's* interactive shell gives you the chance to experiment with SassScript expressions. 
+*SassScript's* interactive shell gives you the chance to experiment with SassScript expressions.
 
 To launch the shell, run the Sass command-line with either the `--interactive` or  `-i` option.
 ```css
-$ sass -i 
+$ sass -i
 ```
 Then at the prompt enter your chosen SassScript expressions and have them evaluated with the results printed to the terminal.
 ```css
@@ -39,7 +42,7 @@ Then at the prompt enter your chosen SassScript expressions and have them evalua
 >> 7px + 2px - 4px
 5px
 >> 1em + 1px
-SyntaxError: Incompatible units: 'em' and 
+SyntaxError: Incompatible units: 'em' and
 'px'
 >> lighten(#333, 10%)
 #4d4d4d
@@ -78,5 +81,3 @@ $ ??? ???
 * `--shell`
 * `-c`
 * `--cli`
-
- 

@@ -9,6 +9,10 @@ levels:
 
 type: normal
 
+aspects:
+  - workout
+  - deep
+
 category: hack
 
 
@@ -35,7 +39,7 @@ The above code targets:
 ```html
 <a href="http://anysite.com"></a>
 ```
-And it effectively copies the value of `<a>`'s `href` attribute as the content of the `::before` pseudo element. The element will look like this: 
+And it effectively copies the value of `<a>`'s `href` attribute as the content of the `::before` pseudo element. The element will look like this:
 ```html
 <a href="http://anysite.com">
 http://anysite.com
@@ -60,5 +64,3 @@ a[???="http"]:empty::before {
 * `link`
 * `display`
 * `disp^`
-
- 

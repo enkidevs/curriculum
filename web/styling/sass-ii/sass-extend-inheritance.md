@@ -13,6 +13,9 @@ type: normal
 
 category: tip
 
+aspects:
+  - workout
+  - deep
 
 links:
 
@@ -28,7 +31,7 @@ links:
 
 The `@extend` feature of *Sass* is one of its most useful features. Using `@extend` allows you to share a set of CSS properties between different selectors.
 
-`@extend` is used when there is a case where one class should have all the same styles of another already defined class, plus its own specific styles. 
+`@extend` is used when there is a case where one class should have all the same styles of another already defined class, plus its own specific styles.
 
 ```css
 .message {
@@ -36,7 +39,7 @@ The `@extend` feature of *Sass* is one of its most useful features. Using `@exte
   padding: 10px;
   color: #ffff66;
 }
-.success { 
+.success {
   @extend .message;
   border-color: green;
 }
@@ -63,5 +66,3 @@ Which is the correct way to use Sass @extend to extend the class *properties*? ?
 * properties(@extend);
 * @extend(properties);
 * extend .properties;
-
- 
