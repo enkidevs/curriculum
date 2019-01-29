@@ -9,6 +9,10 @@ type: normal
 
 category: feature
 
+aspects:
+  - workout
+  - deep
+
 tags:
 
   - media
@@ -93,4 +97,3 @@ Complete the following code snippet to align text to the centre if the device is
 * `@device`
 * `600pix`
 * `750px`
- 
