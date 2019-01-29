@@ -19,8 +19,6 @@ tags:
 
   - flexbox
 
-  -
-
 
 links:
 
