@@ -14,7 +14,6 @@ type: normal
 aspects:
   
   - introduction
-  - deep
   - workout
   
 category: must-know
