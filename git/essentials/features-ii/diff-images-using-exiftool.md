@@ -13,8 +13,8 @@ category: feature
 
 aspects:
   
-  - introduction
-  - obscura
+  - workout
+  - deep
   
 
 links:
