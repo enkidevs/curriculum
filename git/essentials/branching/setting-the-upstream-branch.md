@@ -13,7 +13,6 @@ category: must-know
 
 aspects:
   
-  - new
   - deep
   - workout
   
