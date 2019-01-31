@@ -15,7 +15,7 @@ category: must-know
 
 aspects:
   
-  - introduction
+  - workout
   - deep
   - obscura
   
