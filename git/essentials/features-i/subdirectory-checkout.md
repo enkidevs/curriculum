@@ -15,7 +15,7 @@ category: tip
 
 aspects:
   
-  - new
+  - obscura
   - deep
   - workout
 
