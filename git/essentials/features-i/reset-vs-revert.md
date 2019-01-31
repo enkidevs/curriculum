@@ -11,7 +11,6 @@ category: must-know
 
 aspects:
   
-  - new
   - deep
   - obscura
   - workout
