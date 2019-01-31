@@ -11,8 +11,7 @@ category: feature
 
 aspects:
   
-  - deep
-  - workout
+  - obscura
   
 
 links:
