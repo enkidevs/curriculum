@@ -13,8 +13,7 @@ category: must-know
 
 aspects:
   
-  - introduction
-  - new
+  - obscura
   - deep
  
 links:
