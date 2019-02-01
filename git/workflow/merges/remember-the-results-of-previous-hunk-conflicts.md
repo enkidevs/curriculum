@@ -11,6 +11,12 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - workout
+  - deep
+  - obscura
+
 
 links:
 

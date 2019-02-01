@@ -9,6 +9,10 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - obscura
+
 
 links:
 
