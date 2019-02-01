@@ -9,6 +9,11 @@ type: normal
 
 category: how to
 
+aspects:
+  
+  - introduction
+  - workout
+  - deep
 
 
 
