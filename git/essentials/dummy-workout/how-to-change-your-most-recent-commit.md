@@ -8,6 +8,12 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - workout
+  - deep
+
+
 ---
 # How to change your most recent commit 
 

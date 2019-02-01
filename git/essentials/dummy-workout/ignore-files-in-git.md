@@ -8,6 +8,12 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+  - workout
+  - obscura
+
 links:
   - '[help.github.com](https://help.github.com/articles/ignoring-files/){website}'
 

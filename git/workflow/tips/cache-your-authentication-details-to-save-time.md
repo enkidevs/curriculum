@@ -13,6 +13,11 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - deep
+  - workout
+  - obscura
 
 links:
 
@@ -27,7 +32,7 @@ links:
 ---
 ## Content
 
-Before you can push to a git server over  HTTP protocol, git will ask for your username and password.
+Before you can push to a git server over HTTP protocol, git will ask for your username and password.
 
 If you don't want to type these in every time, you can store your authentication details in a cache.
 
