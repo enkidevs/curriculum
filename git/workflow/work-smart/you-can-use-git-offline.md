@@ -11,8 +11,11 @@ type: normal
 
 category: must-know
 
+aspects:
 
-
+  - introduction
+  - deep
+  - obscura
 
 ---
 

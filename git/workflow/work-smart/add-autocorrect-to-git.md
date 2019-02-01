@@ -9,6 +9,10 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - deep
+  - obscura
 
 links:
 
