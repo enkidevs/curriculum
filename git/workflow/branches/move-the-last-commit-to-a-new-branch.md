@@ -13,6 +13,11 @@ type: normal
 
 category: hack
 
+aspects:
+
+  - deep
+  - workout
+
 
 links:
 
