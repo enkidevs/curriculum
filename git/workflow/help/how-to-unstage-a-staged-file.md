@@ -9,6 +9,11 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - workout
+  - deep
+
 
 links:
 
@@ -43,7 +48,6 @@ $ git add enki.md games.md
 $ git reset 
 ```
  ???
-
 
 * Unstage `enki.md` and `games.md`
 * Unstage `games.md`
