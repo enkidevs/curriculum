@@ -11,6 +11,10 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - workout
+  - deep
 
 
 
