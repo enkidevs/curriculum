@@ -8,6 +8,9 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+
 inAlgoPool: false
 
 links:
@@ -21,7 +24,7 @@ links:
 ---
 ## Content
 
-There aren't any *inline-block* elements per se: they are *inline* elements that accept some *block-specific* properties. 
+There aren't any *inline-block* elements per se: they are *inline* elements that accept some *block-specific* properties.
 
 With that being said, the `inline-block` behavior has the following characteristics:
  - It can fit on the same line as other `inline` or `inline-block` elements (inline)
@@ -45,5 +48,3 @@ Whose behavior is `display:inline-block` trying to replicate?
 * Inline elements'
 * Block elements'
 * Newer elements'
-
- 

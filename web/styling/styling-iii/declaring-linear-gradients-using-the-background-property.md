@@ -13,6 +13,10 @@ type: normal
 
 category: feature
 
+aspects:
+  - workout
+  - deep
+
 tags:
 
   - css
@@ -47,7 +51,7 @@ div.gradient {
   blue, green);
   /* standard syntax */
   background: linear-gradient(to right,
-  blue, green); 
+  blue, green);
 }
 ```
 This gradient will transition from blue to green from left to right.
@@ -55,14 +59,14 @@ This gradient will transition from blue to green from left to right.
 ---
 ## Practice
 
-Which is the most common type of gradient? 
+Which is the most common type of gradient?
 ???
 
 
-* `linear-gradient` 
-* `square-gradient` 
-* `perpendicular-gradient` 
-* `bi-linear-gradient` 
+* `linear-gradient`
+* `square-gradient`
+* `perpendicular-gradient`
+* `bi-linear-gradient`
 * `radial-gradient`
 
 ---
@@ -81,5 +85,3 @@ span.gradient {
 * Transitions the gradient from red to white, starting from left to right.
 * Transitions the gradient from white to red, starting from right to left.
 * Transitions the gradient from white to red, starting from left to right.
-
- 

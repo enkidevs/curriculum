@@ -9,7 +9,9 @@ type: normal
 
 category: must-know
 
+aspects:
 
+  - introduction
 
 notes: 'https://insights.enki.com/#/contrib/others/55c83ba83f06ab320051aa8a?search=kha'
 
@@ -44,7 +46,7 @@ Array.copyOfRange(T[],from,to);
 ## Practice
 
 What would be the return value of the following method:
-```
+```java
 "beautiful".substring(4, 6);
 // ???
 ```
@@ -59,12 +61,10 @@ What would be the return value of the following method:
 ## Revision
 
 When calling the following function:
-```
+```java
 "test".substring(1,3)
 ```
 The output will ??? the character with index 3.
 
 * `exclude` 
 * `include`
-
- 

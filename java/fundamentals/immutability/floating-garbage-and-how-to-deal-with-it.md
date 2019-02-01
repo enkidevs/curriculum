@@ -9,6 +9,11 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - deep
+
+  - obscura
 
 links:
 
@@ -26,5 +31,3 @@ notes: Not sure if not too generic
 Since garbage collector and application run concurrently on the machine during a major collection, objects that are traced by the garbage collector thread may subsequently become unreachable by the time collection finishes. Such unreachable objects are called floating garbage.
 
 As a general rule, try increasing the size of the tenured generation by 20% to account for the floating garbage. Floating garbage in the heap at the end of one concurrent collection cycle is collected during the next cycle.
-
- 

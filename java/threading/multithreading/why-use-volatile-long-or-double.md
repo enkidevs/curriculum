@@ -13,6 +13,11 @@ type: normal
 
 category: best practice
 
+aspects:
+
+  - workout
+
+  - deep
 
 links:
 
@@ -35,7 +40,7 @@ class SampleLong {
   private long i = 0; //OR double  
   void assignValue(long j) {
     i = j;
-  } 
+  }
   void printLong() {
     System.out.println("i = " + i);
   }
@@ -46,11 +51,10 @@ Bearing that in mind, this can result in a situation when a thread sees the form
 
 Imagine a scenario when a thread repeatedly calls the `assignValue` method and another one the `printLong` method. The last one can occasionally print a value of `i` that is neither `0` nor the value of `j` argument.
 
-In order to avoid this problem, `long` and `double` values need to be granted atomicity. 
+In order to avoid this problem, `long` and `double` values need to be granted atomicity.
 
 ```java
 private volatile long i = 0;
 ```
-Making the field `volatile` will guarantee its atomicity.
 
- 
+Making the field `volatile` will guarantee its atomicity.

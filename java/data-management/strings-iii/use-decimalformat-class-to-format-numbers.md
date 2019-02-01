@@ -13,6 +13,10 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - introduction
+
 tags:
 
   - strings
@@ -21,11 +25,9 @@ tags:
 
   - numbers
 
-
 links:
 
   - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/numberformat.html){website}'
-
 
 ---
 
@@ -34,8 +36,9 @@ links:
 ---
 ## Content
 
-The `DecimalFormat` class can be used to specify custom formats for numbers. 
-```
+The `DecimalFormat` class can be used to specify custom formats for numbers.
+
+```java
 DecimalFormat commaFormat =
   new DecimalFormat("###,###");
 DecimalFormat zeroFormat =
@@ -45,6 +48,7 @@ String a = commaFormat.format(123456);
 String b = zeroFormat.format(5);
 //b: 0005
 ```
+
 In the `commaFormat` example, we have specified that there should be a comma after three digits using the `"###,###"` formatting string.
 
 The `zeroFormat` example shows adding leading zeroes.
@@ -53,17 +57,18 @@ The `zeroFormat` example shows adding leading zeroes.
 ## Practice
 
 What will be the value of `enki`  string after the code snippet is ran?
-```
+
+```java
 DecimalFormat myFormat = 
     new DecimalFormat("00000");
 String enki = myFormat.format(33);
 // enki = ???
 ```
 
-* `00033` 
-* `33` 
-* `00000` 
-* `33000` 
+* `00033`
+* `33`
+* `00000`
+* `33000`
 * `00330`
 
 ---
@@ -73,10 +78,7 @@ What argument/s must be passed to the `DecimalFormat`  constructor to achieve th
 
 ???
 
-
-* `"##, ##, ##"` 
-* `"##",  "##", "##"` 
-* `"dd, dd, dd"` 
+* `"##, ##, ##"`
+* `"##",  "##", "##"`
+* `"dd, dd, dd"`
 * `"dd",  "dd", "dd"`
-
- 

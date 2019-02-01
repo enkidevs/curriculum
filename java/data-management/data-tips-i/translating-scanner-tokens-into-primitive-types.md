@@ -11,6 +11,10 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - introduction
+
 tags:
 
   - scanner
@@ -23,12 +27,10 @@ tags:
 
   - tokens
 
-
 links:
 
   - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/scanning.html){website}'
   - '[javatutorialhq.com](http://javatutorialhq.com/java/util/scanner-class-tutorial/usedelimiter-string-pattern-method-example/){website}'
-
 
 ---
 
@@ -46,7 +48,7 @@ s.useDelimiter(pattern);
 ```
 
 If we need to read a file containing a set of integers, and calculate the total, we can use `Scanner`'s `nextInt` method:
-```
+```java
 int sum = 0;
 //create a new instance of Scanner
 Scanner s = new Scanner(
@@ -59,7 +61,7 @@ while (s.hasNext()) {
     sum += s.nextInt();
   } else {
     s.next();
-  }   
+  }
 }
 ```
 In the example above, we iterate through the file, tokenizing each value and converting it to an integer before adding it to `sum`.
@@ -90,5 +92,3 @@ Which method of the *Scanner* class returns the next double value read?
 * hasNextDouble()
 * getDouble()
 * parseDouble()
-
- 

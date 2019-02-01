@@ -11,15 +11,19 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - workout
+
+  - obscura
+
 tags:
 
   - annotations
 
-
 links:
 
   - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/annotations/predefined.html){website}'
-
 
 ---
 
@@ -29,7 +33,7 @@ links:
 ## Content
 
 The `@Deprecated` annotation can be used to indicate elements which should no longer be used. Any program that uses an element which is marked as `@Deprecated` will produce a compiler warning.
-```
+```java
 @Deprecated
 public void oldMethod() {
   ...
@@ -46,7 +50,7 @@ We can keep `oldMethod()` and indicate to programmers that it should not be used
 ## Practice
 
 Which of the two methods will raise a warning saying it is deprecated and should not be used?
-```
+```java
 public void one() {};
 @Deprecated
 public void two() {};

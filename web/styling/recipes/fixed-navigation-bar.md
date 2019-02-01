@@ -13,6 +13,10 @@ type: normal
 
 category: how to
 
+aspects:
+  - workout
+  - deep
+
 tags:
 
   - navigation
@@ -29,7 +33,7 @@ tags:
 ---
 ## Content
 
-To make a navigation bar stay fixed on top of the page when a user scrolls: 
+To make a navigation bar stay fixed on top of the page when a user scrolls:
 
 ```css
 .fixed-nav-bar {
@@ -42,7 +46,7 @@ To make a navigation bar stay fixed on top of the page when a user scrolls:
   background-color: #00a087;
 }
 ```
-`z-index` property determines which element to display on top of the others. If two elements collide (they occupy the same space at the same time), the one with the higher `z-index` will be shown over the lower `z-index`. 
+`z-index` property determines which element to display on top of the others. If two elements collide (they occupy the same space at the same time), the one with the higher `z-index` will be shown over the lower `z-index`.
 
 It is important that the navigation bar has priority over every other element on the page, so its `z-index` value should be the largest. One way is to give it an astronomical value, such as 999999, but that is bad practice. The best way is to count the layers on your page and increase the index by a small, more relevant value for each layer.
 
@@ -75,7 +79,7 @@ For a navigation bar to stay permanently at the bottom of a page when a user scr
    height: 50px;
    background-color: #00a087;
 }
-``` 
+```
 
 * `fixed`
 * `bottom`
@@ -85,5 +89,3 @@ For a navigation bar to stay permanently at the bottom of a page when a user scr
 * `top`
 * `100`
 * `50`
-
- 

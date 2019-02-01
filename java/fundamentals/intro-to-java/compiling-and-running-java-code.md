@@ -9,10 +9,11 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+
 inAlgoPool: false
-
-
-
 
 ---
 
@@ -78,4 +79,3 @@ Fun fact: there are multiple Java compilers, written in either *C*, *C++* or eve
 
 [2:JVM]
 Unlike Java code, a JVM has to be platform specific as it provides a link between the compiled Java code and the operating system.
- 

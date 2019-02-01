@@ -15,6 +15,11 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - deep
+
+  - obscura
 
 links:
 
@@ -64,12 +69,12 @@ Set up remote monitoring with JConsole:
 $ jconsole ???:???
 ```
 
-* `hostname` 
-* `port` 
-* `PID` 
-* `-J-d64` 
-* `-J-d32` 
-* `-system` 
+* `hostname`
+* `port`
+* `PID`
+* `-J-d64`
+* `-J-d32`
+* `-system`
 * `gate`
 
 ---
@@ -84,5 +89,3 @@ $ jconsole PID
 * Starts JConsole on a specific application
 * Starts JConsole at a specific time
 * Starts JConsole on a private port
-
- 

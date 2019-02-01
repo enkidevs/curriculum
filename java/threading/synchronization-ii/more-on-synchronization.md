@@ -9,12 +9,16 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - workout
+
+  - deep
 
 links:
 
   - '[More on Atomic Variables](https://docs.oracle.com/javase/tutorial/essential/concurrency/atomicvars.html){website}'
   - '[More on Atomic Package](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/atomic/package-summary.html){website}'
-
 
 ---
 
@@ -27,7 +31,7 @@ Another way of ensuring mutual exclusion without using synchronization patters o
 
 Example:
 
-```
+```java
 class Counter {
   //create a new integer
   //variable with value of 0
@@ -57,9 +61,6 @@ What is a thread safe way of accessing and updating variables without using lock
 
 ???
 
-
 * atomic variables
 * electronic variables
 * instant variables
-
- 

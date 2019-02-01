@@ -13,6 +13,9 @@ type: tetris
 
 category: must-know
 
+aspects:
+  - workout
+
 ---
 
 # Existential Crisis
@@ -23,7 +26,7 @@ category: must-know
 Does the CSS actually exist?
 
 Categorize the falling properties based on whether or not they are existing, legal CSS.
- 
+
 ---
 ## Game Content
 
@@ -86,7 +89,7 @@ text-transformation
 This is not a CSS property.
 %
 ```
- 
+
 
 ```true
 background-attachment
@@ -242,4 +245,3 @@ The `z-index` property in CSS controls the vertical stacking order of elements t
 %
 
 ```
-

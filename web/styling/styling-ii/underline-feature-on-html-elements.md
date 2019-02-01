@@ -11,6 +11,9 @@ type: normal
 
 category: feature
 
+aspects:
+  - introduction
+
 tags:
 
   - hyperlink
@@ -56,11 +59,11 @@ a {
 }
 ```
 
-* `text-decoration` 
-* `none` 
-* `decoration` 
-* `initial` 
-* `remove` 
+* `text-decoration`
+* `none`
+* `decoration`
+* `initial`
+* `remove`
 * `underline`
 
 ---
@@ -77,5 +80,3 @@ a {
 * Removes the natural underline feature on all &lt;a&gt; elements.
 * Reverts and changes made to the text in all &lt;a&gt; elements, such as different colors.
 * Adds the natural underline feature to all &lt;a&gt; elements.
-
- 

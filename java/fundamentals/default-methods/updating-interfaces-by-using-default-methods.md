@@ -9,6 +9,12 @@ type: normal
 
 category: tip
 
+aspects:
+
+  - workout
+
+  - deep
+
 tags:
 
   - interfaces
@@ -29,7 +35,7 @@ links:
 ## Content
 
 Take the following interface:
-```
+```java
 public interface Cooking {
   public void fry();
   public void boil();
@@ -39,7 +45,7 @@ public interface Cooking {
 To add new functionality, simply adding a new method to `Cooking` called `microwave()` will cause problems. Any class that previously implemented `Cooking` will now have to be updated in order to function again.
 
 To avoid this, give `microwave()` a default implementation:
-```
+```java
 public interface Cooking {
   public void fry();
   public void boil();
@@ -59,7 +65,7 @@ This allows us to add functionality without breaking old code.
 ## Practice
 
 Add a new method to an interface without breaking classes implementing it:
-```
+```java
 public interface Move{
   public void byCar(){}
   public void byAirplane(){}
@@ -86,5 +92,3 @@ Which type of method declared in an interface requires some kind of implementati
 * None.
 * All.
 * Non-default methods.
-
- 

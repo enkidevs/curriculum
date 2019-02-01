@@ -13,15 +13,17 @@ type: normal
 
 category: tip
 
+aspects:
+
+  - introduction
+
 tags:
 
   - loops
 
-
 links:
 
   - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=88){website}'
-
 
 ---
 
@@ -37,20 +39,18 @@ Traditional for-loops use an explicit loop index, which can, for example, lead t
 For-each loops avoid this problem as they do not have an explicit index.
 
 
-```
+```java
 List<String> colors = Arrays.asList(
 "red", "blue", "green");
 
 //use
-for(String color: colors){
+for(String color : colors){
   System.out.println(color);
 }
 
 //rather than
-for(int i=0; i<colors.size(); i++){
+for (int i = 0; i < colors.size(); i++){
   System.out.println(colors.get(i));
 }
 
 ```
-
- 

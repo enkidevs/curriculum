@@ -11,6 +11,11 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - deep
+
+  - obscura
 
 links:
 
@@ -30,21 +35,21 @@ notes: >-
 `jmap` - Memory Map: Prints shared object memory maps or heap memory details of a given JVM process or a Java core file on the local machine. It can also used with the `jsadebugd` daemon to query a process or core file on a remote machine.
 
 To print the heap configuration of a running Process:
-```java
-$ jmap -heap PID 
 
+```java
+$ jmap -heap PID
 ```
 
 To print the heap histogram for a running Process:
-```java
-$ jmap -histo PID 
 
+```java
+$ jmap -histo PID
 ```
 
 To list all loaded shared objects:
+
 ```java
 $ jmap PID
-
 ```
 
 You can also `dump` the heap information into a `.bin` file:
@@ -52,38 +57,39 @@ You can also `dump` the heap information into a `.bin` file:
 ```java
 $ jmap -dump:file=myFile.bin PID
 ```
+
 If the `jmap PID` command does not respond because of a hung process, the `-F` option can be used (on Solaris OS and Linux only) to force the use of the Serviceability Agent.
 
 ---
 ## Practice
 
 Dump the heap information into the `practice.bin` file:
+
 ```
 $ jmap ???:???=
       practice.bin PID
 ```
 
-* `-dump` 
-* `file` 
-* `dump` 
-* `location` 
-* `loc` 
-* `dest` 
+* `-dump`
+* `file`
+* `dump`
+* `location`
+* `loc`
+* `dest`
 * `info`
 
 ---
 ## Revision
 
 Print the heap histogram for a running process:
+
 ```
 $ jmap ??? ???
 ```
 
-* `-histo` 
-* `PID` 
-* `-h` 
-* `-histogram` 
-* `process` 
+* `-histo`
+* `PID`
+* `-h`
+* `-histogram`
+* `process`
 * `processID`
-
- 

@@ -9,11 +9,15 @@ type: normal
 
 category: must-know
 
+aspects: 
+
+  - workout
+
+  - deep
 
 links:
 
   - '[More About serialVersionUID](https://stackoverflow.com/questions/285793/what-is-a-serialversionuid-and-why-should-i-use-it){website}'
-
 
 ---
 
@@ -85,4 +89,3 @@ What is the data type of serialVersionUID?
 ## Footnotes
 [1:ANY-ACCESS-MODIFIER]
 In this it makes no difference if we make it `private`, `public`, `protected` or any other type.
- 

@@ -9,12 +9,16 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - workout
+
+  - deep
 
 links:
 
   - '[More on Generics](https://docs.oracle.com/javase/tutorial/java/generics/inheritance.html){website}'
   - '[More on WildCards](https://docs.oracle.com/javase/tutorial/java/generics/subtyping.html){website}'
-
 
 ---
 
@@ -24,19 +28,22 @@ links:
 ## Content
 
 Suppose we have class `A` and class `B` which `extends A`. Then consider:
-```
-B b = new B();                           
 
-//this line works just fine     
-A a = b;        
+```java
+B b = new B();
+
+//this line works just fine
+A a = b;
 List<B> listOfB = new ArrayList<>();
 
-//this line results in 
+//this line results in
 //compile-time error
 List<A> listOfA = listOfB;
 ```
+
 The point being that although `b` is a subtype of `a`, `List<B>` is not an subtype of `List<A>`. Instead they are both subtypes of `List<?>`.
-```
+
+```java
 List<? extends Integer> intList
                       = new ArrayList<>();
 //This code will pass
@@ -65,5 +72,3 @@ Considering the `B` is a subtype of `A`, is `List<B>` a subtype of `List<A>`?
 * `<? super Object>`
 * Yes
 * In this case we can not tell
-
- 
