@@ -11,6 +11,12 @@ type: normal
 
 category: best practice
 
+aspects:
+
+  - new
+  - workout
+  - deep
+
 
 links:
 
