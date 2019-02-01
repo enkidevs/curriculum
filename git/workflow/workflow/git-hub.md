@@ -8,6 +8,10 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - obscura
+
 links:
   - '[www.github.com](www.github.com){website}'
 
