@@ -13,6 +13,11 @@ inAlgoPool: false
 
 category: tip
 
+aspects:
+
+  - workout
+
+
 ---
 # On-off
 
