@@ -13,6 +13,12 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - workout
+  - deep
+  - obscura
+
 
 links:
 
