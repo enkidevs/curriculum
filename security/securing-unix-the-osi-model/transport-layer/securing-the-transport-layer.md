@@ -11,6 +11,9 @@ levels:
 
 type: normal
 
+aspects:
+  - introduction
+
 category: must-know
 
 inAlgoPool: false
@@ -57,7 +60,7 @@ In order to have the most control over how traffic flows to a hosted web server,
 * 25
 
 ---
-## Quiz 
+## Quiz
 ### What is one control for this OSI model Layer?
 ```
 What is one control in the Transport Layer of the OSI Model?
@@ -69,5 +72,3 @@ What is one control in the Transport Layer of the OSI Model?
 * Use of a physical firewall
 * Using managed switches prevent topographical loops
 * Locks and secure enclosures
-
- 
