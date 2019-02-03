@@ -16,6 +16,9 @@ links:
 
 parent: custom-validations-for-props
 
+aspects:
+  - deep
+
 ---
 # Require custom `propTypes` validators
 
@@ -107,4 +110,4 @@ function textLengthChecker(props, propName,
   return null;
 }
 ```
- 
+

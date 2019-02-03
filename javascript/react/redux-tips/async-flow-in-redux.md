@@ -17,6 +17,9 @@ notes: >-
   This insight should be given right before or after the specific Middleware
   insight. ( 56a2137805a87a0600cfa409 )
 
+aspects:
+  - deep
+
 ---
 # Async flow in **Redux**
 
@@ -35,7 +38,7 @@ Code sample for using `redux-thunk`:
 // action creator
 function loadData(userId) {
   return dispatch => fetch(
-`http://data.com/${userId}`) 
+`http://data.com/${userId}`)
 // Redux Thunk handles these
     .then(res => res.json())
     .then(
@@ -74,4 +77,4 @@ Does the default Redux store support asynchronous data flow?
 * yes
 * only if used with React
 * only with ES6
- 
+

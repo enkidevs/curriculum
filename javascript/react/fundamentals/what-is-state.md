@@ -23,6 +23,9 @@ links:
 
 parent: what-are-props
 
+aspects:
+  - introduction
+
 ---
 
 # What is **state**?
@@ -74,7 +77,7 @@ class Hello extends React.Component {
     }, 1000);
   }
 }
-```  
+```
 
 The snippet above will update the `state` one second after construction. Specifically, `this.state.text` is changed to `World`.
 
@@ -108,4 +111,4 @@ Where should **initial state** be set in a component class?
 * in `this.setState(initialState)`
 * anywhere in the component
 
- 
+

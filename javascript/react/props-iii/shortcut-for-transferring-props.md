@@ -15,6 +15,10 @@ links:
 
 parent: custom-proptype-s-to-be-required
 
+aspects:
+  - workout
+  - deep
+
 ---
 # Shortcut for transferring props
 
@@ -91,4 +95,4 @@ var Sample = React.createClass({
 * {...}
 * {...props}
 * ...props
- 
+

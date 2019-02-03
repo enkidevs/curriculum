@@ -17,6 +17,9 @@ links:
 
 parent: what-is-jsx
 
+aspects:
+  - introduction
+
 ---
 
 # One way data binding
@@ -63,4 +66,4 @@ Can **two-way data binding** be implemented in **React**?
 * no
 * only in **React 14** and above
 
- 
+

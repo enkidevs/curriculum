@@ -22,6 +22,9 @@ links:
 
 parent: the-react-element
 
+aspects:
+  - introduction
+
 ---
 
 # The **React** component
@@ -115,4 +118,4 @@ var Enki = React.createClass({
   }
 });
 ```
- 
+

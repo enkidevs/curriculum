@@ -15,6 +15,10 @@ links:
 
 parent: custom-proptype-s-to-be-required
 
+aspects:
+  - deep
+  - workout
+
 ---
 # Type of the Children props
 
@@ -105,4 +109,4 @@ Consider there is a single child in your component. What will `this.props.childr
 * an array with just the children in it
 * an array of possible children
 * an array with the children and the parent component
- 
+

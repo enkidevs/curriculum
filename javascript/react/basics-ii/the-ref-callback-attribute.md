@@ -22,6 +22,9 @@ links:
 
 parent: conditional-rendering-part-2
 
+aspects:
+  - deep
+
 ---
 
 # The `ref` callback attribute
@@ -123,4 +126,4 @@ someMethod() {
 * `this.refs.in`
 * `in`
 
- 
+

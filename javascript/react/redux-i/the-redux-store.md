@@ -16,6 +16,8 @@ links:
 
   - '[rackt.org](http://rackt.org/redux/docs/api/Store.html){website}'
 
+aspects:
+  - introduction
 
 ---
 
@@ -59,17 +61,17 @@ Create a Redux store and get the current state of the application:
 
 ```
 import { createStore } from ‘redux’;
-let store = 
+let store =
   ???(reducer, initstate);
 store.???();
 ```
 
-* `createStore` 
-* `getState` 
-* `newStore` 
-* `store` 
-* `state` 
-* `currentState` 
+* `createStore`
+* `getState`
+* `newStore`
+* `store`
+* `state`
+* `currentState`
 * `retState`
 
 ---
@@ -84,4 +86,4 @@ What method is used to send an action to the store and to change the state?
 * `subscribe()`
 * `replaceReducer()`
 
- 
+

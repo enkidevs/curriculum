@@ -15,6 +15,9 @@ links:
 
 parent: custom-proptype-s-to-be-required
 
+aspects:
+  - deep
+
 ---
 # Load Initial Data via AJAX
 
@@ -109,4 +112,4 @@ const component = React.createClass({
 * render()
 * component()
 * componentWillReceiveProps()
- 
+

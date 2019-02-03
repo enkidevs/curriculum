@@ -22,6 +22,9 @@ links:
 
 parent: rendering-multiple-components
 
+aspects:
+  - deep
+
 ---
 
 # Forms in **React**
@@ -153,4 +156,4 @@ A component ???.
 * without `props`
 * with any *HTML form elements*
 
- 
+

@@ -13,12 +13,14 @@ type: normal
 
 category: feature
 
-
 links:
 
   - '[facebook.github.io](https://facebook.github.io/react/docs/create-fragment.html){website}'
 
 parent: custom-proptype-s-to-be-required
+
+aspects:
+  - deep
 
 ---
 
@@ -34,7 +36,6 @@ To solve this problem, **React** provides the `createFragment` add-on which can 
 ```javascript
 Array<ReactNode> createFragment(
     object children);
-
 ```
 
 Instead of:
@@ -86,4 +87,4 @@ What type of object is returned by `createFragment`? ???
 * An opaque object.
 * A transparent object.
 
- 
+

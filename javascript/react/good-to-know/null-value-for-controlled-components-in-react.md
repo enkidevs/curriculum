@@ -11,9 +11,10 @@ type: normal
 
 category: best practice
 
-
-
 parent: custom-proptype-s-to-be-required
+
+aspects:
+  - deep
 
 ---
 
@@ -22,7 +23,7 @@ parent: custom-proptype-s-to-be-required
 ---
 ## Content
 
-Using **React**, an `<input>` form element that has a set `value` prop is a *controlled* component.  
+Using **React**, an `<input>` form element that has a set `value` prop is a *controlled* component.
 
 In a controlled `<input>`, the value of the rendered element will always reflect the `value` property.
 
@@ -70,4 +71,4 @@ ReactDOM.render(<input
 * `0`
 * `NaN`
 
- 
+

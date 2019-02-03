@@ -20,6 +20,10 @@ links:
 
 parent: custom-proptype-s-to-be-required
 
+aspects:
+  - workout
+  - deep
+
 ---
 
 # Specify a single child
@@ -91,4 +95,4 @@ children: React.PropTypes.???.???,
 * `one`
 * `any`
 
- 
+

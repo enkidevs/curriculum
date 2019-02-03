@@ -12,6 +12,8 @@ category: best practice
 links:
   - '[twitter.com](https://twitter.com/dan_abramov/status/664581975764766721){website}'
 
+aspects:
+  - introduction
 
 ---
 # Export selectors with related reducers
@@ -90,4 +92,4 @@ Selectors are used to compute ???, therefore ensuring that Redux stores the ???.
 * exported data
 * exported state
 * selected state
- 
+

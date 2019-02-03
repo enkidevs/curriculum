@@ -21,6 +21,9 @@ links:
 
 parent: custom-proptype-s-to-be-required
 
+aspects:
+  - deep
+
 ---
 
 # Clone Elements in **React**
@@ -78,4 +81,4 @@ Using the `React.cloneElement` method what props will be preserved unlike with t
 * `child` and `ref`
 * `child` and `props`
 
- 
+

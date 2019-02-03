@@ -22,6 +22,9 @@ links:
 
 notes: This can be also placed in the react subtopic
 
+aspects:
+  - introduction
+
 ---
 
 # Use **Redux** with **React**
@@ -59,10 +62,10 @@ export default connect()(myReducer)
 ---
 ## Practice
 
-Connect the React component to the Redux store without modifying the component class passed, returning a new connected component class: 
+Connect the React component to the Redux store without modifying the component class passed, returning a new connected component class:
 
 ```javascript
-connect([???], [mapDispatchToProps], 
+connect([???], [mapDispatchToProps],
         [???], [options])
 ```
 
@@ -87,4 +90,4 @@ import { ??? } form `react-redux`
 * `container`
 * `dispatch`
 
- 
+

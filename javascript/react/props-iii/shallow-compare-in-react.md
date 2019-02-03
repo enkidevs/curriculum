@@ -21,7 +21,11 @@ links:
 notes: |-
   probably best in the same workout with :
   https://insights.enki.com/#/contrib/56aa0290bd6a4609006eaee3
+
 parent: custom-proptype-s-to-be-required
+
+aspects:
+  - deep
 
 ---
 
@@ -84,4 +88,4 @@ var shallowCompare = require('???');
 * `s-compare`
 * `shallowcompare`
 
- 
+

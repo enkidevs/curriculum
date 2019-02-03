@@ -19,10 +19,15 @@ links:
   - '[facebook.github.io](http://facebook.github.io/react/docs/component-specs.html#proptypes){website}'
 
 parent: custom-proptype-s-to-be-required
+
 notes: >-
   Originally from Dan Abramov
   http://twitter.com/dan_abramov/status/658710159125037056 but don't have
   permission to use yet so re-wrote a little
+
+aspects:
+  - workout
+  - deep
 
 ---
 
@@ -92,4 +97,4 @@ Complete the code snippet to enforce **prop validation**:
 * `ReactDOM`
 * `props`
 
- 
+

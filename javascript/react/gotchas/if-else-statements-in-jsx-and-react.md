@@ -14,6 +14,10 @@ links:
 
 parent: custom-proptype-s-to-be-required
 
+aspects:
+  - workout
+  - deep
+
 ---
 # if/else statements in **JSX** and **React**
 
@@ -88,4 +92,4 @@ How would you write `if (condition) return 'x' else return 'y'` in JSX id assign
 * else
 * switch
 * () =>
- 
+

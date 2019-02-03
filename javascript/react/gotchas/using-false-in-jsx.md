@@ -11,12 +11,14 @@ type: normal
 
 category: best practice
 
-
 links:
 
   - '[facebook.github.io](https://facebook.github.io/react/tips/false-in-jsx.html){website}'
 
 parent: custom-proptype-s-to-be-required
+
+aspects:
+  - deep
 
 ---
 
@@ -76,4 +78,4 @@ id=???
 * `false`
 * `undefined`
 
- 
+
