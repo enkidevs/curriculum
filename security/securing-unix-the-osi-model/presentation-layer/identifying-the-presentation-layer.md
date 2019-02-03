@@ -10,6 +10,10 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+  - workout
+
 inAlgoPool: false
 
 links:
@@ -24,13 +28,13 @@ parent: securing-the-session-layer
 ---
 ## Content
 
-The sixth layer of the OSI model is called the *Presentation Layer*, but is seldom referenced as the **syntax layer**. One of its main responsabilities is **taking system-specific data** from the layer above (Application Layer) and **coverting** it to a format that can be parsed by the recipient.
+The sixth layer of the OSI model is called the *Presentation Layer*, but is seldom referenced as the **syntax layer**. One of its main responsibilities is **taking system-specific data** from the layer above (Application Layer) and **converting** it to a format that can be parsed by the recipient.
 
 For example, the Presentation Layer would be responsible for converting Windows-specific line endings (**CRLF**) from text files to Unix-specific line endings (**LF**) and vice versa, as needed.
 
 The Presentation Layer is also be responsible for **encryption/decryption** of data from the Application Layer for secure transmission through lower layers.
 
-**Note:** This process may also span accross multiple layers such as Application, Session, Transport, and/or Network layers, depending on the use case.
+**Note:** This process may also span across multiple layers such as Application, Session, Transport, and/or Network layers, depending on the use case.
 
 ---
 ## Practice
@@ -59,7 +63,7 @@ The Presentation Layer converts data from the ??? format to a format usable by t
 * byte
 
 ---
-## Quiz 
+## Quiz
 
 ### What role does this Layer play in the OSI 7 Layer Model?
 
@@ -73,5 +77,3 @@ What role does the Presentation Layer play in the OSI 7 Layer Model?
 * Opening, closing, and managing connections between applications
 * Maintaining and ensuring a stable connection between two hosts over the Internet
 * Transmitting data between network nodes
-
- 
