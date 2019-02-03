@@ -23,22 +23,22 @@ links:
 ---
 ## Content
 
-**HTML** or **Hypertext Markup Language** is an essential building block of every web page.
+**HTML**, or **Hypertext Markup Language**, is an essential building block of every web page.
 
 **HTML**'s primary purpose is to list the content used in the web page. HTML will display text, labels, lists, insert photos and other media, create hyperlinks, buttons, and containers. This is all done with appropriate **HTML** elements. Additionally, each **HTML** element can be used to separate content into sections. You can also nest **HTML** elements with one another for better control over the page layouts and content.
 
-**HTML** is not good for creating animations, managing responsive layouts, etc...
+However, **HTML** is not good for creating animations, managing responsive layouts, and other similar interactions within the content.
 
 ---
 ## Practice
 
-What four things does HTML primarily achieve?
+What does HTML work well for, and not?
 
-HTML does well: ???
-HTML does not do well: ???
+HTML works well for: ???
+HTML does not work well for: ???
 
-* Displays Text, Inserts Media, Creates Links, Creates Containers
-* Creates Animations, Responsive Layouts, Database Storage, Allows Math Expression
+* Displaying Text, Inserting Media, Creating Links, Creating Containers
+* Creating Animations, Responsive Layouts, Database Storage, Math Expressions
 
 ---
 ## Revision

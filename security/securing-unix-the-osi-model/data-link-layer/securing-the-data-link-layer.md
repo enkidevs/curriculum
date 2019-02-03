@@ -15,6 +15,9 @@ category: must-know
 
 inAlgoPool: false
 
+aspects:
+  - introduction
+  - workout
 
 links:
 
@@ -61,7 +64,7 @@ What is one control in the Data Link Layer of the OSI Model?
 * ARP sniping
 
 ---
-## Quiz 
+## Quiz
 ### What is one control for this OSI model Layer?
 ```
 What is one control in the Data Link Layer of the OSI Model?
@@ -73,5 +76,3 @@ What is one control in the Data Link Layer of the OSI Model?
 * Locks and secure enclosures
 * Use of a physical firewall
 * Encrypted password exchange and storage
-
- 

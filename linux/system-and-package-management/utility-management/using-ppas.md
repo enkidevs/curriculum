@@ -7,6 +7,10 @@ levels:
 
   - medium
 
+aspects:
+  - introduction
+  - deep
+
 type: normal
 
 category: how to

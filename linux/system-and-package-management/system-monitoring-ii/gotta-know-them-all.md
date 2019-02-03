@@ -11,6 +11,9 @@ levels:
 
   - beginner
 
+aspects:
+  - workout
+
 type: fillTheGap
 
 category: must-know

@@ -11,6 +11,9 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+  - workout
 
 links:
 
@@ -24,7 +27,7 @@ links:
 ---
 ## Content
 
-*Sass* has a number of standard mathematical operators such as the following `+`, `-`, `*`, `/`, and `%`. 
+*Sass* has a number of standard mathematical operators such as the following `+`, `-`, `*`, `/`, and `%`.
 
 *Sass* allows us to carry out numeric operations in code, with the generated CSS code consisting of the calculated value.
 
@@ -35,7 +38,7 @@ h1 {
   // compatibility error
   font-size: 3px + 8em;
   // generated as 3px + 8em
-  font-size: unquote("3px + 8em"); 
+  font-size: unquote("3px + 8em");
   // generated as 9px
   font-size: 7px + 2px;
 }
@@ -51,7 +54,7 @@ p {
 Would generate this CSS:
 ```css
 p {
-  font: 12px/30px; 
+  font: 12px/30px;
 }
 ```
 
@@ -92,5 +95,3 @@ p {
 * `font-size`
 * `line-height`
 * `\`
-
- 

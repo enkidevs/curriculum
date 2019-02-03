@@ -11,6 +11,12 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - workout
+
+  - obscura
+
 tags:
 
   - file-io
@@ -21,11 +27,9 @@ tags:
 
   - filestore
 
-
 links:
 
   - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/fileAttr.html){website}'
-
 
 ---
 
@@ -37,7 +41,7 @@ links:
 The `Files.getFileStore(Path)` method can be used to retrieve the file store for the specified file. The attributes of the file store can then be accessed.
 
 For example, we can find out the total space, used space and currently available space in the file store:
-```
+```java
 /*file is a Path object specifying the file
 location*/
 FileStore store = Files.getFileStore(file);
@@ -61,5 +65,3 @@ Which class has a method that returns the `FileStore` of a file (`getFileStore(p
 * FileStore
 * Storage
 * FileMetaData
-
- 

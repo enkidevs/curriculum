@@ -13,6 +13,9 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+  - workout
 
 links:
 
@@ -26,7 +29,7 @@ links:
 ---
 ## Content
 
-The `+` operation is used in *SassScript* for the concatenation of strings. 
+The `+` operation is used in *SassScript* for the concatenation of strings.
 
 Take note of the quotation marks in these examples:
 ```css
@@ -47,7 +50,7 @@ When concatenating, if the first string has quote marks, the concatenated string
 Within a text string, *`#{} style interpolation`* can be used to place dynamic values into a string:
 ```css
 p:before {
-  content: "Dynamic value insertion: 
+  content: "Dynamic value insertion:
             #{10 + 10}!";
 }
 ```
@@ -64,21 +67,21 @@ p:before {
 Complete the code snippet to dynamically insert a value:
 
 ```css
-p:before { 
-  content: "Here we go: ???{1 + 13}"; 
-} 
+p:before {
+  content: "Here we go: ???{1 + 13}";
+}
 ```
 
 
-* `#` 
-* `=` 
-* `~` 
+* `#`
+* `=`
+* `~`
 * `[]`
 
 ---
 ## Revision
 
-What do the two following CSS lines of code compile to? Please answer in the order of the question. 
+What do the two following CSS lines of code compile to? Please answer in the order of the question.
 ```css
 h1 {
    string: Hey + "everyone!";
@@ -93,5 +96,3 @@ h1 {
 * `content: From Enki!;`
 * `string: Hey "everyone!";`
 * `content: "From "Enki!;`
-
- 

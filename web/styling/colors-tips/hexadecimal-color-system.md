@@ -9,6 +9,9 @@ type: normal
 
 category: feature
 
+aspects:
+  - introduction
+
 tags:
   - hexadecimal
   - colour
@@ -60,5 +63,3 @@ Which of these hexadecimal colors are not the same?
 * #FFFFF and #FFF
 * #FFF and #FFFFFF
 * #FFC125 and #ffc125
-
- 

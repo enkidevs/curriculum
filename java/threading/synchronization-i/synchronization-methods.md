@@ -9,6 +9,11 @@ type: normal
 
 category: pattern
 
+aspects:
+
+  - workout
+
+  - deep
 
 links:
 
@@ -25,9 +30,9 @@ links:
 
 **Synchronization** is an important concept when tackling multithreading problems. *Race conditions* can be avoided by using different types of patterns. The four most common are: *Lock*, *Semaphore*, *Monitor* and *Mutex*.
 
-**Locks** are the most simple structure to implement. Their key idea is that only one thread can enter the *critical section*[1].    
+**Locks** are the most simple structure to implement. Their key idea is that only one thread can enter the *critical section*[1].
 
-```
+```java
 public class Lock{
 
   private boolean locked = false;
@@ -48,6 +53,7 @@ public class Lock{
   }
 }
 ```
+
 Using `Lock` is sometimes necessary to guarantee thread safety. However, overusing `Lock` will limit the performance of a program. This is because any code that operates under a `Lock` must be executed sequentially, as opposed to other areas of the program which will be able to execute concurrently.
 
 To maximize performance, a good idea is to reduce the scope of `Lock`s to only apply to critical sections of code.
@@ -81,4 +87,3 @@ What is the difference between a lock and a mutex?
 ## Footnotes
 [1:Critical Section]
 Section of a code which can only be accessed by a certain number of threads/processes (usually no more than one).
- 

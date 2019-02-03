@@ -9,6 +9,11 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - deep
+
+  - obscura
 
 links:
 
@@ -78,5 +83,3 @@ Print all class-level dependencies of `enki.jar` application:
 * `-d` 
 * `jdb` 
 * `deps`
-
- 

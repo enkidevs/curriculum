@@ -13,6 +13,10 @@ type: normal
 
 category: tip
 
+aspects:
+
+  - introduction
+
 tags:
 
   - variable-types
@@ -44,5 +48,3 @@ Local variables are used inside blocks as counters or in methods as temporary va
 Instance variables are defining attributes or states of a particular object and are used to store information across multiple methods in the objects.
 
 Class variables are global to a class, and all the instances of the class and can be used for communicating between different objects in the same class or keeping track of global states.
-
- 

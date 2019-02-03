@@ -15,6 +15,9 @@ category: must-know
 
 inAlgoPool: false
 
+aspects:
+  - introduction
+  - workout
 
 links:
 
@@ -60,7 +63,7 @@ In the Application Layer is ???.
 * programs that do not require network access
 
 ---
-## Quiz 
+## Quiz
 ### What role does this Layer play in the OSI 7 Layer Model?
 ```
 What role does the Application Layer play in the OSI 7 Layer Model?
@@ -72,5 +75,3 @@ What role does the Application Layer play in the OSI 7 Layer Model?
 * Opening, closing, and managing connections between applications
 * Maintaining and ensuring a stable connection between two hosts over the Internet
 * Packaging data packets into data streams and vice versa for transport
-
- 

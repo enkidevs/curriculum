@@ -13,6 +13,10 @@ type: normal
 
 category: tip
 
+aspects:
+  - introduction
+  - workout
+
 tags:
 
   - #@ #rules
@@ -81,5 +85,3 @@ Which of the following is the regular form for an @ rule? ???
 * `@[KEYWORD] (RULE);`
 * `@[KEYWORD];`
 * `@[KEYWORD-RULE];`
-
- 

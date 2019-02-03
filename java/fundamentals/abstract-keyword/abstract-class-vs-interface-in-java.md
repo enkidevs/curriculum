@@ -13,10 +13,13 @@ type: normal
 
 category: tip
 
+aspects:
+
+  - introduction
+
 tags:
 
   - java-interface
-
 
 links:
 
@@ -36,5 +39,3 @@ You can only extend one class (abstract or not) whereas you can always implement
 Interfaces helps Java support multiple inheritance. Abstract classes let you define some behaviors, forcing your subclasses to provide others. For example with an application framework, an abstract class can provide default services such as event and message handling. 
 
 It is often forgotten that a class that defines an abstract method can call that method as well. Abstract classes are an excellent way to create planned inheritance hierarchies.
-
- 

@@ -9,12 +9,14 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - introduction
 
 links:
 
   - '[File Class Documentation](https://docs.oracle.com/javase/7/docs/api/java/io/File.html#renameTo(java.io.File)){website}'
   - '[File Manipulations with Examples](https://www.tutorialspoint.com/java/io/java_io_file.htm){website}'
-
 
 ---
 
@@ -30,7 +32,7 @@ In order to rename a file we can use `java.io.File.renameTo()` function. This me
 `renameTo(File parameter)` takes in a new file path argument i.e. the destination where you want to copy the original file. This means that not only can we rename the file but can also move it to another directory.
 
 Example:
-```
+```java
 import java.io.File;
 
 public class Main {
@@ -89,5 +91,3 @@ Can the `File.renameTo()` method be used to move a file to another directory?
 * Yes, it can move the file to any directory in the system
 * Yes, but only if this directory is a part of `src` folder  
 * No, it can only rename the file
-
- 

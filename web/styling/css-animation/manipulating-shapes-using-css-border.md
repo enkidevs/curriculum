@@ -13,6 +13,11 @@ type: normal
 
 category: hack
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
 tags:
 
   - border
@@ -45,7 +50,7 @@ You can make shapes by defining the properties of the `border`, as seen below:
 }
 ```
 
-By setting the `background` of three `borders` to be `transparent`, the shape of a triangle is mimicked. 
+By setting the `background` of three `borders` to be `transparent`, the shape of a triangle is mimicked.
 
 For the following image, these are the borders that are not transparent:
 - **A** : *border-left* (code snippet above)
@@ -76,5 +81,3 @@ What shape would the following CSS produce? ???
 * A square.
 * A circle.
 * A rectangle.
-
- 

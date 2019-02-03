@@ -11,6 +11,10 @@ levels:
 
 type: normal
 
+aspects:
+  - introduction
+  - workout
+
 category: must-know
 
 inAlgoPool: false
@@ -56,7 +60,7 @@ The Application Layer is ???.
 * very limited in scope
 
 ---
-## Quiz 
+## Quiz
 ### What is one control for this OSI model Layer?
 ```
 What is one control in the Application Layer of the OSI Model?
@@ -68,5 +72,3 @@ What is one control in the Application Layer of the OSI Model?
 * Strict use of ports as they are designed
 * Use of a physical firewall
 * Using managed switches prevent topographical loops
-
- 

@@ -9,12 +9,16 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - workout
+
+  - deep
 
 links:
 
   - '[More on Thread Introduction](https://www.tutorialspoint.com/java/java_multithreading.htm){website}'
   - '[Languages That Support Multithreading](https://en.wikipedia.org/wiki/List_of_concurrent_and_parallel_programming_languages){website}'
-
 
 ---
 
@@ -46,7 +50,6 @@ Disadvantages of Multithreading:
 
 The concept of threading is: ???
 
-
 * splitting a single process into multiple tasks
 * ensuring that the current process gets the most resources out of the system
 * making a process run on a single core in order to free up resources
@@ -56,9 +59,6 @@ The concept of threading is: ???
 
 The concept of threading is: ???
 
-
 * splitting a single process into multiple tasks
 * ensuring that the current process gets the most resources out of the system
 * making a process run on a single core in order to free up resources
-
- 

@@ -9,6 +9,12 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+  - workout
+  - obscura
+
 ---
 # The three states in git
 

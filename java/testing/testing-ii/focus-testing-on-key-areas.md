@@ -13,18 +13,22 @@ type: normal
 
 category: best practice
 
+aspects:
+
+  - workout
+
+  - deep
+
 tags:
 
   - testing
 
   - junit
 
-
 links:
 
   - '[javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2012/08/best-practices-to-write-junit-test.html){website}'
   - '[zeroturnaround.com](http://zeroturnaround.com/rebellabs/dont-test-blindly-the-right-methods-for-unit-testing-your-java-apps/){website}'
-
 
 ---
 
@@ -50,9 +54,8 @@ What should be prioritised when testing?
 
 `???`
 
-
-* `code written by multiple developers` 
-* `trivial operations like getX()` 
+* `code written by multiple developers`
+* `trivial operations like getX()`
 * `external databases`
 
 ---
@@ -62,9 +65,6 @@ What area of testing should not be prioritised?
 
 `???`
 
-
-* `external libraries` 
-* `code with frequent bugs` 
+* `external libraries`
+* `code with frequent bugs`
 * `code accessed by other modules`
-
- 

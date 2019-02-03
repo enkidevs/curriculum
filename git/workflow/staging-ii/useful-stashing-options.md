@@ -13,6 +13,12 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - workout
+  - deep
+  - obscura
+
 parent: stashing-changes
 
 links:

@@ -9,10 +9,11 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+
 inAlgoPool: false
-
-
-
 
 ---
 
@@ -27,8 +28,6 @@ One of the particularities of the language that makes it so widely used is that 
 
 Java classes are compiled to `bytecode`, which any Java Virtual Machine (*JVM*) can understand.
 
-The most recent major Java release is *Java SE 10*, or simply `Java 10`.
-
 In short, Java is trying to be an object-oriented, secure, portable, threaded and dynamic language. We will discuss all these terms in future insights.
 
 *Note*: You should get comfortable with the acronyms as they will come up regularly in the course of the workouts.
@@ -36,28 +35,11 @@ In short, Java is trying to be an object-oriented, secure, portable, threaded an
 ---
 ## Practice
 
-What's the latest version of **Java**?
-
-???
-
-
-* Java 10
-* Java 8
-* Java 9
-* Java 6
-* Java 7
-* Java 5
-
----
-## Revision
-
 What type of programming language is **Java** considered?
 
 ???
-
 
 * object-oriented
 * functional
 * quantum
 * esoteric
- 

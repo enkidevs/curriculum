@@ -9,6 +9,10 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+
 inAlgoPool: false
 
 
@@ -25,7 +29,7 @@ links:
 ## Content
 
 In Java, a **class** is a blueprint after which things with similar characteristics can be modeled. An example of a class is: 
-```
+```java
 public class Car {
   String model;
   String noPlate;
@@ -35,6 +39,7 @@ public class Car {
   void start() {
     System.out.println("The car starts!");
   }
+
   void drive() {}
   void handBreak() {}
 }
@@ -48,7 +53,7 @@ A **class** can have any number of variables or methods, and of any type. It is,
 The matrix which transforms the blueprint into *something* is called a **constructor method**. Every class should have a constructor. If one is not defined, the Java compiler will initialize the variables to their default value.
 
 A constructor method should look like this:
-```
+```java
 public class Car {
 
   // fields
@@ -62,7 +67,6 @@ public class Car {
      noDoors = newNoDoors;
   }
 }
-
 ```
 A *constructor* gives initial values to the *instance variables*, so the general blueprint can become an actual `Car` representation.
 
@@ -80,5 +84,3 @@ The method that creates a new object is called
 * instantiator
 * class
 * newObject
-
- 

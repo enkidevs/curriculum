@@ -9,12 +9,14 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
 
 links:
 
   - '[More on ArrayLists](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html){website}'
   - '[More on Arrays](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html){website}'
-
 
 ---
 
@@ -26,7 +28,7 @@ links:
 *Arrays* and *ArrayLists* are similar in terms that they both store their elements linearly. The difference though comes in the implementation concept. While arrays are fixed in size array lists can be increased and decreased in size quickly. Both of these data structures have their advantages over one another.
 
 The declaration of these structures is:
-```
+```java
 //Fixed size array declaration, type int
 int[] array = new int[3];
 
@@ -68,5 +70,3 @@ Which data structure is of a fixed length?
 
 * Array
 * ArrayList
-
- 

@@ -9,13 +9,16 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+
 inAlgoPool: false
 
 
 links:
 
   - '[Get started with Java](https://docs.oracle.com/javase/tutorial/getStarted/cupojava/index.html){website}'
-
 
 ---
 
@@ -30,8 +33,8 @@ There are a couple of choices when it comes to where to write Java code: simple 
 
 Probably the most used first code snippet for any language is the `hello world` one. Here it is:
 ```java
-public class HelloWorld{
-  public static void main(String[] args){
+public class HelloWorld {
+  public static void main(String[] args) {
     System.out.println("Hello World!");
   }
 }
@@ -84,4 +87,3 @@ What's the name of the mandatory main **Java** function for a program to run?
 IDEs, or Integrated Development Environments, are applications much like text editors but with extra available features: as they are specific to a certain language, they come with autocomplete functionalities, syntax checker, class definitions and specifications (IntelliJ excels at this), and debugging, building and compiling tools.
 
 As you build up your knowledge, you might want to use an IDE for coding, especially because of the integrated definitions and specifications.
- 

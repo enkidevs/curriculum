@@ -9,6 +9,11 @@ type: fillTheGap
 
 category: feature
 
+aspects:
+
+  - workout
+
+
 ---
 
 # Hooks, arrr?

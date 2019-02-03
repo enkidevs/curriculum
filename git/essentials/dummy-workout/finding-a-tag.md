@@ -9,6 +9,11 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - workout
+  - deep
+
 parent: using-tags-for-version-control
 
 links:

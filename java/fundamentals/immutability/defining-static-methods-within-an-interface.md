@@ -11,6 +11,12 @@ type: normal
 
 category: must-know
 
+aspects: 
+  
+  - introduction
+
+  - new
+
 tags:
 
   - java-8
@@ -19,11 +25,9 @@ tags:
 
   - static-methods
 
-
 links:
 
   - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html){website}'
-
 
 ---
 
@@ -34,19 +38,20 @@ links:
 
 As of Java 8, it is possible to add implementations of `static` methods to interfaces. This allows utility methods to be included in a relevant interface rather than a separate utility class.
 
-```
+```java
 public interface AnInterface {
   void method1();
   void method2();
   static int staticMethod(int a, int b) {
-    return a * b;    
+    return a * b;
   }
 }
 ```
+
 Classes which implement this interface do not need an implementation of `staticMethod`. In fact, since it is `static`, it cannot be overridden.
 
 To call a static method, the interface should be used rather than the class which implements that interface. For example:
-```
+```java
 int x = AnInterface.staticMethod(5, 10);
 ```
 
@@ -54,7 +59,7 @@ int x = AnInterface.staticMethod(5, 10);
 ## Practice
 
 Complete the following code such that the `EnkiInterface` interface will have a static method returning an `int`:
-```
+```java
 public ??? EnkiInterface {
  ??? ??? myStaticMethod(){
    return 5;
@@ -81,5 +86,3 @@ Can `static` methods inside an interface be overridden?
 
 * `No` 
 * `Yes`
-
- 

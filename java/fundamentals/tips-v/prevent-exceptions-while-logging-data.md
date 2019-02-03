@@ -13,11 +13,13 @@ type: normal
 
 category: caveats
 
+aspects:
+
+  - obscura
 
 links:
 
   - '[www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/ERR02-J.+Prevent+exceptions+while+logging+data){website}'
-
 
 ---
 
@@ -45,7 +47,6 @@ This is erroneous, as **firstly**, the error stream can be *closed*, preventing 
 Better practice is to use the `java.util.logging.Logger` API to record Exceptions:
 
 ```java
-
 try {
   // ...
 } catch(SecurityException se) {
@@ -55,5 +56,3 @@ try {
 ```
 
 Only one logger is required for the entire program.
-
- 

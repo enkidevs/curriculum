@@ -9,6 +9,10 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+
 tags:
 
   - nested-classes
@@ -27,7 +31,7 @@ links:
 ## Content
 
 Nesting a class within another class is possible. A non-static nested class is called an inner class. Inner classes are defined in the same way as other classes, but within the definition of an outer class:
-```
+```java
 class OuterClass {
     ...
     class InnerClass {
