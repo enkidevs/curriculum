@@ -25,7 +25,6 @@ parent: functional-components
 
 aspects:
   - introduction
-  -
 
 ---
 
