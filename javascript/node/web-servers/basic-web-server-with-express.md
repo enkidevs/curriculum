@@ -17,6 +17,10 @@ links:
 
 notes: This can used as the first insight on Express subtopic
 
+aspects:
+  - introduction
+  - workout
+
 ---
 # Basic web server with Express
 
@@ -80,4 +84,4 @@ var app = ???;
 * get
 * use
 * request
- 
+

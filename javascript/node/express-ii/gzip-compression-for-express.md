@@ -17,6 +17,9 @@ links:
 
 parent: easy-way-to-deliver-html-pages-with-express
 
+aspects:
+  - introduction
+
 ---
 # GZIP compression for **Express**
 
@@ -80,4 +83,4 @@ app.???(express.???());
 * require
 * var
 * apply
- 
+

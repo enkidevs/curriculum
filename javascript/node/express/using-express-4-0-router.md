@@ -19,6 +19,9 @@ links:
 
 parent: easy-way-to-deliver-html-pages-with-express
 
+aspects:
+  - introduction
+
 ---
 # Using **Express 4.0** `router`
 
@@ -41,7 +44,7 @@ Creating multiple routes:
 ```javascript
 var router = express.Router();
 router.get('/', function(req, res) {
-    res.send('first page');  
+    res.send('first page');
 });
 router.get('/enki', function(req, res) {
     res.send('enki page');
@@ -98,4 +101,4 @@ app.???('/simple', function(req, res) {
 * req
 * app
 * router
- 
+
