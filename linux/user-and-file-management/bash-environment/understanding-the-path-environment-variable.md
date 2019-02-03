@@ -23,11 +23,6 @@ tags:
 
 
 
-
-aspects:
-  - introduction
-
-
 ---
 
 # Understanding The `PATH` Environment Variable

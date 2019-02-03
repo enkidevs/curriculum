@@ -28,9 +28,6 @@ links:
 
 parent: what-is-a-shell
 
-aspects:
-  - introduction
-
 
 ---
 

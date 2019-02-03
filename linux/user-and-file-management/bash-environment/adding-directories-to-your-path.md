@@ -33,9 +33,6 @@ tags:
 
   - introduction
 
-aspects:
-  - introduction
-
 
 ---
 
