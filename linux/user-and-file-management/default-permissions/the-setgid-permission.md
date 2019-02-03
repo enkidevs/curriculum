@@ -9,6 +9,10 @@ levels:
 
   - medium
 
+aspects:
+  - introduction
+  - workout
+
 type: normal
 
 category: must-know
@@ -19,12 +23,6 @@ tags:
 
   - workout
 
-
-
-
-aspects:
-  - deep
-  - workout
 
 
 ---

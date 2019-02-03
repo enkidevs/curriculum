@@ -18,6 +18,7 @@ tags:
   - workout
 
 aspects:
+  - introduction
   - workout
 
 

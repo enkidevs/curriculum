@@ -5,6 +5,10 @@ levels:
 
   - basic
 
+aspects:
+  - introduction
+  - workout
+
 type: normal
 
 category: must-know
@@ -25,13 +29,6 @@ tags:
 
   - workout
 
-
-
-notes: ''
-
-aspects:
-  - deep
-  - workout
 
 
 ---
