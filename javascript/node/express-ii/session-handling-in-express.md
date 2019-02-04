@@ -19,6 +19,9 @@ links:
 
 parent: easy-way-to-deliver-html-pages-with-express
 
+aspects:
+  - introduction
+
 ---
 # Session handling in **Express**
 
@@ -90,4 +93,4 @@ app.get('/', function(req,res) {
 * sess
 * mySession
 * request
- 
+

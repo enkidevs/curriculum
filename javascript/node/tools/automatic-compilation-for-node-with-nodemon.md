@@ -16,6 +16,9 @@ standards:
 links:
   - '[github.com](https://github.com/remy/nodemon){website}'
 
+aspects:
+  - introduction
+
 ---
 # Automatic compilation for Node with **Nodemon**
 
@@ -74,4 +77,4 @@ Which flag must be used to enable debugging?
 * -debug
 * debugging
 * --debugger
- 
+
