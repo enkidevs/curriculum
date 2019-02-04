@@ -11,6 +11,9 @@ levels:
 
 type: normal
 
+aspects:
+  - introduction
+
 category: must-know
 
 inAlgoPool: false
@@ -57,7 +60,7 @@ What roles does The Transport Layer play in the OSI 7 Layer Model?
 * SMTP
 
 ---
-## Quiz 
+## Quiz
 ### What role does this Layer play in the OSI 7 Layer Model?
 ```
 What role does the Transport Layer play in the OSI 7 Layer Model?
@@ -69,5 +72,3 @@ What role does the Transport Layer play in the OSI 7 Layer Model?
 * Transmitting data between network nodes
 * Routing and transmission over the physical topography of the Internet
 * Packaging data packets into data streams and vice versa for transport
-
- 
