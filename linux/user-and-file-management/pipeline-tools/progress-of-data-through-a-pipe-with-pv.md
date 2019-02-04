@@ -37,6 +37,7 @@ tags:
 
 
 aspects:
+  - introduction
   - workout
 
 

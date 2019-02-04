@@ -9,6 +9,9 @@ levels:
 
   - beginner
 
+aspects:
+  - introduction
+
 type: normal
 
 category: must-know
