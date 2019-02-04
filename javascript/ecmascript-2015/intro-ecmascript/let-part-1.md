@@ -8,6 +8,11 @@ type: normal
 
 category: tip
 
+aspects:
+  - introduction
+  - new
+  - workout
+
 inAlgoPool: false
 
 links:
@@ -86,4 +91,3 @@ console.log(window.enki)
 * undefined
 * enki
 * error
- 

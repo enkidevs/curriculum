@@ -10,6 +10,11 @@ category: must-know
 
 inAlgoPool: false
 
+aspects:
+  - introduction
+  - new
+  - workout
+
 links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let){website}'
 
@@ -120,4 +125,3 @@ for (func of letFuncs) {
 * [4, 4, 4]
 * [2, 2, 2]
 * [1, 2, 3]
- 
