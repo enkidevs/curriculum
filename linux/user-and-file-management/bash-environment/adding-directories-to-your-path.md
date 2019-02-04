@@ -9,6 +9,10 @@ levels:
 
   - beginner
 
+aspects:
+  - introduction
+  - workout
+
 type: normal
 
 category: must-know
@@ -27,9 +31,6 @@ tags:
 
   - export
 
-  - introduction
-
-aspects:
   - introduction
 
 
