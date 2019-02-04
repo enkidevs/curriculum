@@ -22,6 +22,9 @@ links:
 
 parent: forms-in-react
 
+aspects:
+  - deep
+
 ---
 
 # Event handling in **React**
@@ -29,7 +32,7 @@ parent: forms-in-react
 ---
 ## Content
 
-Adding **event handlers** in **React** is done by providing a listener to the element when initially `render`ed and **not** by calling `addEventListener`: 
+Adding **event handlers** in **React** is done by providing a listener to the element when initially `render`ed and **not** by calling `addEventListener`:
 ```jsx
 class Click extends React.Component {
   render() {
@@ -175,4 +178,4 @@ return (
   </button>
 );
 ```
- 
+

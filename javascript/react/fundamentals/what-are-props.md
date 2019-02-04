@@ -23,6 +23,9 @@ links:
 
 parent: the-react-component
 
+aspects:
+  - introduction
+
 ---
 
 # What are `props`?
@@ -133,4 +136,4 @@ ReactDOM.render(
 * `default`
 * `class`
 
- 
+

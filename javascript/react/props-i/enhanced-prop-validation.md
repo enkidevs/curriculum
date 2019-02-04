@@ -15,9 +15,10 @@ type: normal
 
 category: how to
 
-
-
 parent: default-values-for-props
+
+aspects:
+  - deep
 
 ---
 
@@ -113,4 +114,4 @@ Test.propTypes = {
 * `propType`
 * `oneOf`
 
- 
+

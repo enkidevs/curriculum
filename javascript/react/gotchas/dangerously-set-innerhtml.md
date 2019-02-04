@@ -20,6 +20,9 @@ links:
 
 parent: custom-proptype-s-to-be-required
 
+aspects:
+  - deep
+
 ---
 
 # Dangerously set `innerHTML`
@@ -78,4 +81,4 @@ dangerouslySetInnerHTML:
 * `id`
 * `text`
 
- 
+

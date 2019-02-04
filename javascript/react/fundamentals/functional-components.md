@@ -22,6 +22,10 @@ links:
 
 parent: what-is-state
 
+aspects:
+  - introduction
+  - deep
+
 ---
 
 # Functional components
@@ -29,7 +33,7 @@ parent: what-is-state
 ---
 ## Content
 
-As stated before, **React** components behave just like functions, taking `props` as input and returning **React elements**. 
+As stated before, **React** components behave just like functions, taking `props` as input and returning **React elements**.
 
 Simple `component`s that don't have an internal `state` and don't make use of any **lifecycle** methods such as `constructor()` can be written as **functional components**.
 
@@ -98,4 +102,4 @@ When it has ???.
 * no **lifecycle methods**
 * no `props`
 
- 
+

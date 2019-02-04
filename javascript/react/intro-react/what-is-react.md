@@ -14,6 +14,8 @@ links:
 
   - '[andrewhfarmer.com](http://andrewhfarmer.com/what-is-react/){website}'
 
+aspects:
+  - introduction
 
 ---
 
@@ -22,7 +24,7 @@ links:
 ---
 ## Content
 
-**React** is a *JavaScript* library[1] (not a framework[2]) created and maintained by **Facebook**. It's used for creating user interfaces. 
+**React** is a *JavaScript* library[1] (not a framework[2]) created and maintained by **Facebook**. It's used for creating user interfaces.
 
 
 The big and frequent problem that **React** solves is keeping the `DOM`[3] in sync with the data model.
@@ -80,4 +82,4 @@ In addition to what a library provides, a **Framework** will dictate the structu
 The **HTML** of a webpage is used to create the **DOM**, which is a in-memory representation of the webpage.
 Even though the **HTML** and **DOM** are closely related, they are not the same thing.
 Languages such as *CSS* or *JavaScript** manipulate the **DOM** and not the **HTML**.
- 
+

@@ -18,6 +18,9 @@ links:
 
 parent: custom-proptype-s-to-be-required
 
+aspects:
+  - deep
+
 ---
 
 # Dealing with `this.props.children`
@@ -80,4 +83,4 @@ What method is used to invoke a function `fn` on every immediate child, but not 
 * `count`
 * `only`
 
- 
+

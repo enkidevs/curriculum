@@ -15,6 +15,9 @@ links:
 
 parent: custom-proptype-s-to-be-required
 
+aspects:
+  - deep
+
 ---
 # ReactDOM.render ref
 
@@ -85,4 +88,4 @@ What method will return a `ref` to a component?
 
 * ReactDOM.render()
 * render()
- 
+

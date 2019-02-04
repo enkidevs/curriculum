@@ -16,6 +16,8 @@ links:
 
   - '[rackt.org](http://rackt.org/redux/docs/api/combineReducers.html){website}'
 
+aspects:
+  - deep
 
 ---
 
@@ -35,7 +37,7 @@ combineReducers({
   firstReducer : myFirstReducer,
   secondReducer : mySecondReducer });
 ```
-The keys define the shape of the **state object**. 
+The keys define the shape of the **state object**.
 ```javascript
 {firstReducer,secondReducer}
 ```
@@ -73,4 +75,4 @@ What special method is used to combine different reduction functions with the sc
 * `createStore()`
 * `addReducer()`
 
- 
+

@@ -23,6 +23,9 @@ links:
 
 parent: functional-components
 
+aspects:
+  - introduction
+
 ---
 
 # The **component** lifecycle
@@ -95,4 +98,4 @@ Is `React.Component`'s `constructor(props)` method considered a **lifecycle hook
 
 **Mounting** refers to the initial insertion of a **React** `component` into the **DOM**.
 Similarly, **unmouting** happens when the `component` is removed from the **DOM**.
- 
+
