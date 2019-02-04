@@ -15,6 +15,9 @@ category: must-know
 
 inAlgoPool: false
 
+aspects:
+  - introduction
+  - workout
 
 links:
 

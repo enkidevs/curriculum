@@ -9,6 +9,10 @@ levels:
 
   - medium
 
+aspects:
+  - obscura
+  - workout
+
 type: normal
 
 category: how to
@@ -27,12 +31,6 @@ tags:
 
   - workout
 
-
-
-
-aspects:
-  - obscura
-  - workout
 
 
 ---

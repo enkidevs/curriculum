@@ -9,6 +9,11 @@ type: normal
 
 category: feature
 
+aspects:
+  
+  - workout
+  - introduction
+
 
 links:
 

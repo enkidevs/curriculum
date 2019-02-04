@@ -31,7 +31,6 @@ notes: ''
 
 aspects:
   - workout
-  - workout
 
 
 ---
