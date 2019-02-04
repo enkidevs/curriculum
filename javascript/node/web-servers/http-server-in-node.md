@@ -15,6 +15,10 @@ standards:
 links:
   - '[ponyfoo.com](https://ponyfoo.com/articles/teach-yourself-nodejs-in-10-steps#http-server){website}'
 
+aspects:
+  - introduction
+  - workout
+
 ---
 # Http Server in **Node**
 
@@ -82,4 +86,4 @@ http.???(function(req, res) {
 * on
 * localhost
 * require
- 
+

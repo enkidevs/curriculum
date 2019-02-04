@@ -18,6 +18,9 @@ links:
 
 parent: easy-way-to-deliver-html-pages-with-express
 
+aspects:
+  - introduction
+
 ---
 # `body-parser` in **Express**
 
@@ -91,4 +94,4 @@ app.???(bodyParser.???());
 * app
 * urlencoded
 * jsonParser
- 
+

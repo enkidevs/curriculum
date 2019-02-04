@@ -18,6 +18,10 @@ links:
 
 parent: easy-way-to-deliver-html-pages-with-express
 
+aspects:
+  - introduction
+  - deep
+
 ---
 # `vhost` in **Express**
 
@@ -74,4 +78,4 @@ vhost(???, ???);
 * require
 * connect
 * req.vhost
- 
+
