@@ -11,6 +11,10 @@ levels:
 
   - beginner
 
+aspects:
+  - obscura
+  - workout
+
 type: normal
 
 category: feature
