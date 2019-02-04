@@ -15,6 +15,9 @@ category: must-know
 
 inAlgoPool: false
 
+aspects:
+  - introduction
+  - workout
 
 links:
 
@@ -54,7 +57,7 @@ The Network Layer is most vulnerable to malicious ??? from the Internet.
 * sessions
 
 ---
-## Quiz 
+## Quiz
 ### What is one control for this OSI model Layer?
 ```
 What is one control in the Network Layer of the OSI Model?
@@ -66,5 +69,3 @@ What is one control in the Network Layer of the OSI Model?
 * Using managed switches prevent topographical loops
 * Locks and secure enclosures
 * Encrypted password exchange and storage
-
- 
