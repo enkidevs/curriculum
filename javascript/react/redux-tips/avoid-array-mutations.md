@@ -18,10 +18,12 @@ links:
 
   - '[egghead.io](https://egghead.io/lessons/javascript-redux-avoiding-array-mutations-with-concat-slice-and-spread){website}'
 
+aspects:
+  - deep
 
 ---
 
-# Avoid array mutations 
+# Avoid array mutations
 
 ---
 ## Content
@@ -37,7 +39,7 @@ return myArray.concat([0]);
 //this will add a 0 to the end of the array
 return [...myArray, 0];
 //same result with spread operator
-``` 
+```
 To remove an element from an array at a given index point, rather than using the mutating `splice()` method, a combination of `concat()` and  `slice()` (returning a new array between two indexes) can  be used:
 ```javascript
 return myArray.slice(0,index)
@@ -80,4 +82,4 @@ return [???myArray, ???];
 * `splice`
 * `slice`
 
- 
+

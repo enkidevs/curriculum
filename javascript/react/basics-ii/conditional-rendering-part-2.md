@@ -22,6 +22,9 @@ links:
 
 parent: conditional-rendering-part-1
 
+aspects:
+  - introduction
+
 ---
 
 # Conditional Rendering (Part 2)
@@ -130,4 +133,4 @@ ReactDOM.render(
 * Error raised
 * Null
 
- 
+

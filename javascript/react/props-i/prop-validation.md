@@ -15,12 +15,14 @@ type: normal
 
 category: best practice
 
-
 links:
 
   - '[facebook.github.io](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#react.proptypes){website}'
 
 parent: destructuring-arguments
+
+aspects:
+  - introduction
 
 ---
 
@@ -108,4 +110,4 @@ Test.propTypes = {
 * `Props`
 * `Primitives`
 
- 
+

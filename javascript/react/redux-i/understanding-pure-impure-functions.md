@@ -11,6 +11,9 @@ category: must-know
 links:
   - '[www.nicoespeon.com](http://www.nicoespeon.com/en/2015/01/pure-functions-javascript/){website}'
 
+aspects:
+  - introduction
+  - workout
 
 ---
 # Understanding **pure/impure** functions
@@ -74,4 +77,4 @@ What type of functions should be used in **Redux** as to preserve the **single i
 
 * pure
 * impure
- 
+

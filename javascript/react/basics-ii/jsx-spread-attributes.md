@@ -22,6 +22,9 @@ links:
 
 parent: the-ref-callback-attribute
 
+aspects:
+  - deep
+
 ---
 
 # **JSX** Spread attributes
@@ -29,7 +32,7 @@ parent: the-ref-callback-attribute
 ---
 ## Content
 
-Props can be passed to **React** components through **JSX** with the help of the **ES6** spread operator (`...`). 
+Props can be passed to **React** components through **JSX** with the help of the **ES6** spread operator (`...`).
 
 Suppose we want the following component with `name` and `content` props:
 ```jsx
@@ -121,4 +124,4 @@ const test = <Test {...props}
 * `'dogcat'`
 * `'catdog'`
 
- 
+

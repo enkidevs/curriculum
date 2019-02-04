@@ -15,6 +15,9 @@ category: must-know
 
 inAlgoPool: false
 
+aspects:
+  - introduction
+  - workout
 
 links:
 
@@ -56,7 +59,7 @@ One part of the Network Layer is ???, responsible for identifying stations both 
 * ethernet cables
 
 ---
-## Quiz 
+## Quiz
 ### What role does this Layer play in the OSI 7 Layer Model?
 ```
 What role does the Network Layer play in the OSI 7 Layer Model?
@@ -68,5 +71,3 @@ What role does the Network Layer play in the OSI 7 Layer Model?
 * Providing computational power via electronic circuits
 * Transmitting data between two directly connected mediums
 * Packaging data packets into data streams and vice versa for transport
-
- 

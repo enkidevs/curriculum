@@ -17,6 +17,10 @@ links:
 
 parent: custom-proptype-s-to-be-required
 
+aspects:
+  - deep
+  - obscura
+
 ---
 # componentWillReceiveProps Not Triggered After Mounting
 
@@ -81,4 +85,4 @@ Which of the following statements is false about `componentWillReceiveProps` lif
 * isn't triggered once the node is mounted
 * can be used to listen to changes in props
 * can be triggered after the initial rendering
- 
+

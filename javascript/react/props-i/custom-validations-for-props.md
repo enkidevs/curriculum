@@ -22,6 +22,9 @@ links:
 
 parent: enhanced-prop-validation
 
+aspects:
+  - deep
+
 ---
 
 # Custom validator functions for `props`
@@ -30,7 +33,7 @@ parent: enhanced-prop-validation
 ## Content
 
 **React** allows  you to define and use custom *validator functions* for your props. These can be used inside `propTypes`.
- 
+
 The standard arguments[1] for a validator function are
 ```
 function(props, propName, componentName) {
@@ -105,4 +108,4 @@ function (???, ???, ???) {
 ## Footnotes
 [1:Arguments]
 `location` can also be used as the last argument.
- 
+

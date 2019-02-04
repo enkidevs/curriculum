@@ -11,9 +11,11 @@ type: normal
 
 category: must-know
 
-
-
 parent: custom-proptype-s-to-be-required
+
+aspects:
+  - workout
+  - deep
 
 ---
 
@@ -68,4 +70,4 @@ Does **JSX** support self closing tags?
 * `no`
 * `depends`
 
- 
+

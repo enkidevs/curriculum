@@ -15,6 +15,9 @@ links:
 
 parent: custom-proptype-s-to-be-required
 
+aspects:
+  - deep
+
 ---
 # Props in getInitialState
 
@@ -108,4 +111,4 @@ var B = React.createClass({
 * both
 * neither
 
- 
+

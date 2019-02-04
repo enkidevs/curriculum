@@ -13,6 +13,9 @@ links:
 
 parent: why-use-react
 
+aspects:
+  - introduction
+
 ---
 # **React** dependencies
 
@@ -96,4 +99,4 @@ https://babeljs.io/
 
 [3:ES6]
 **ECMAScript 6** (`ES6`, often referred to as “Harmony”) is the upcoming sixth major release of the `ECMAScript` language specification. `ECMAScript` is the “proper” name for the language known as `JavaScript`.
- 
+

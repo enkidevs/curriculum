@@ -23,6 +23,9 @@ links:
 
 parent: jsx-spread-attributes
 
+aspects:
+  - deep
+
 ---
 
 # Destructuring arguments
@@ -30,7 +33,7 @@ parent: jsx-spread-attributes
 ---
 ## Content
 
-The **destructuring assignment** syntax, introduced in `ES6`, is used to extract data from either *arrays* or *objects* in distinct variables. 
+The **destructuring assignment** syntax, introduced in `ES6`, is used to extract data from either *arrays* or *objects* in distinct variables.
 
 Basic assignment:
 ```jsx
@@ -103,4 +106,4 @@ function Enki({text, ???}) {
 * `this.props.text`
 * `props.text`
 
- 
+

@@ -23,6 +23,9 @@ links:
 
 parent: custom-proptype-s-to-be-required
 
+aspects:
+  - deep
+
 ---
 
 # Children in **React**
@@ -127,4 +130,4 @@ What is the minimum number of elements `props.children` can hold?
 * `one`
 * `at least two`
 
- 
+

@@ -15,12 +15,14 @@ type: normal
 
 category: must-know
 
-
 links:
 
   - '[facebook.github.io](https://facebook.github.io/react/docs/react-component.html#the-component-lifecycle){website}'
 
 parent: the-component-lifecycle
+
+aspects:
+  - introduction
 
 ---
 
@@ -94,4 +96,4 @@ What method is the first being called in the **component lifecycle**?
 * `shouldComponentUpdate`
 * `componentDidMount`
 
- 
+

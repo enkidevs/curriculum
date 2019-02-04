@@ -14,6 +14,10 @@ links:
 
 parent: custom-proptype-s-to-be-required
 
+aspects:
+  - workout
+  - deep
+
 ---
 # **React** in-line styles
 
@@ -93,4 +97,4 @@ var style = {
 * msTransition
 * ms-transition
 * webkit-transition
- 
+
