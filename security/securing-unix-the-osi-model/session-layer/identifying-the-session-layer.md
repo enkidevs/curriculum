@@ -11,6 +11,10 @@ levels:
 
 type: normal
 
+aspects:
+  - introduction
+  - workout
+
 category: must-know
 
 inAlgoPool: false
@@ -60,7 +64,7 @@ The Session Layer is responsible for ???, as well as authentication, authorizati
 * ensuring the integrity of data streams
 
 ---
-## Quiz 
+## Quiz
 ### What role does this Layer play in the OSI 7 Layer Model?
 ```
 What role does the Session Layer play in the OSI 7 Layer Model?
@@ -72,5 +76,3 @@ What role does the Session Layer play in the OSI 7 Layer Model?
 * Maintaining and ensuring a stable connection between two hosts over the Internet
 * Routing and transmission over the physical topography of the Internet
 * Packaging data packets into data streams and vice versa
-
- 
