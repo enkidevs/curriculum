@@ -41,6 +41,7 @@ standards:
 			3: Learn from your mentees
 			4: Advocate for your mentees
 			5: Improve other mentors
+			6: Evaluate the quality of your relationship with your mentees
 	availability:
 		name: Use mentorship time effectively
 		description: This is the detailed description of what goes into the standard.
@@ -58,8 +59,8 @@ standards:
 			2: Give actionable feedback
 			3: Give specific feedback
 			4: Give kind feedback
-			5: Give regular feedback
-			6: Give negative feedback
+			5: Give feedback regularly
+			6: Give constructive critique
 			7: Give positive feedback
 	planning:
 		name: Plan your mentorship practice
