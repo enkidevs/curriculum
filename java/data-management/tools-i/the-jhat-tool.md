@@ -11,7 +11,7 @@ type: normal
 
 category: feature
 
-asepcts:
+aspects:
 
   - deep
 
