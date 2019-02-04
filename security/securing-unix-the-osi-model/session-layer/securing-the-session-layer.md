@@ -13,6 +13,10 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+  - workout
+
 inAlgoPool: false
 
 
@@ -57,7 +61,7 @@ Hackers may use a botnet to guess passwords via ???.
 * social engineering
 
 ---
-## Quiz 
+## Quiz
 ### What is one control for this OSI model Layer?
 ```
 What is one control in the Session Layer of the OSI Model?
@@ -69,5 +73,3 @@ What is one control in the Session Layer of the OSI Model?
 * Strict use of ports as they are designed
 * Use of a physical firewall
 * Using managed switches prevent topographical loops
-
- 

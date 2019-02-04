@@ -11,6 +11,10 @@ levels:
 
 type: normal
 
+aspects:
+  - introduction
+  - workout
+
 category: must-know
 
 inAlgoPool: false
@@ -58,7 +62,7 @@ The Physical Layer converts logical packets from the Data Link Layer into ??? to
 * light
 
 ---
-## Quiz 
+## Quiz
 ### What role does this Layer play in the OSI 7 Layer Model?
 ```
 What role does the  Physical Layer play in the OSI 7 Layer Model?
@@ -70,5 +74,3 @@ What role does the  Physical Layer play in the OSI 7 Layer Model?
 * Transmitting data between network nodes
 * Routing and transmission over the physical topography of the Internet
 * Packaging data packets into data streams and vice versa for transport
-
- 
