@@ -3,6 +3,13 @@ author: alexjmackey
 
 levels:
   - beginner
+  - basic
+  - intermediate
+  - advanced
+
+aspects:
+  - introduction
+  - new
 
 type: normal
 
@@ -11,45 +18,47 @@ category: must-know
 inAlgoPool: false
 
 links:
-  - '[EcmaScript 6 Features](https://github.com/lukehoban/es6features){website}'
-  - '[Babel](https://babeljs.io/){website}'
+  - '[ECMA on Github](https://github.com/tc39/ecma262){website}'
+  - '[EcmaScript 6 Engines](https://en.wikipedia.org/wiki/List_of_ECMAScript_engines){website}'
+  - '[Babel - convert by transpiling between JavaScript versions](https://babeljs.io/){website}'
+  - '[Currently available ES6 Features for Node.js](https://node.green/){website}'
+  - '[Can I Use ___? compatibility for browsers](https://caniuse.com/){website}'
+  - '[Who is on the committee right now?](https://www.ecma-international.org/memento/tc39.htm){website}'
 
 ---
-# EcmaScript 6
+# EcmaScript
 
 ---
 ## Content
 
-ECMAScript 6 (also referred to as ECMAScript 2015 and ES6) is the latest version of the standard managed by ECMA International that JavaScript now tracks.
+If you're familiar with JavaScript, you're already familiar with EcmaScript. It's what you're already writing in. The question is- how up-to-date is the JavaScript you're writing? ECMAScript is a continually evolving language, with new features and developments released annually. It is actively maintained by a very large, diverse, global committee of developers from across the entire JavaScript community. These developers represent industrial, corporate, and public sectors; open source, education, and more.
 
-Version 6 introduces many exciting features that make it easier than ever to write robust and succinct code.
+ECMAScript (or ES) is a _specification_ standardized by a group called Ecma International, . It was created to standardize how JavaScript is written across platforms. Browsers like Chrome, Firefox, Internet Explorer, and Safari track this standard by adding features to their implementation of JavaScript. This is implemented at the _runtime_ layer, in the engines underneath the browser; V8, Sunspider, Chakra, and others.
 
-We will be looking at features such as constants, arrow functions, spread/rest operator, default parameters, extensions to existing types and much more!
+Bookmark this insight to receive a list of public trackers for version compatibility- a handy chart to have for any ECMAScript developer!
 
-It is important to note that if you intend to use some of the features that we will discuss that support varies widely across browsers and is changing all the time.
-
-If you want to make use of these new features (and you should!) but also want to ensure that your code will run for a broad audience you will probably want to make use of a processor/compiler such as *Babel* that will transform the newer code into code understood by older platforms.
 
 ---
 ## Practice
 
-Which of the following statements about ES6 do you consider false?
+ECMAScript is a ??? for ??? that is maintained by a ???.
 
-???
-
-* ES6 is fully supported out-of-the-box by all browsers
-* ES6 can be compiled to ES5
-* ES6 introduces arrow functions
-* ES6 can help write more succint code
+* Specification
+* JavaScript
+* Committee of developers
+* Programming language
+* Community of developers
+* Java
+* Engine
 
 ---
 ## Revision
 
-Do browsers have support for ES6?
+What layer of the stack decides which parts of the ECMAScript specification to implement?
 
 ???
 
-* Modern browsers only. A minority of older versions don't support it
-* ES6 is supported by any browser
-* Not at all. You need to compile your code
- 
+* The JavaScript Runtime Engine
+* The Browser
+* The Programmer
+* BabelJS
