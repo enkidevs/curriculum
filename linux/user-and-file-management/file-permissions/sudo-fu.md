@@ -9,6 +9,9 @@ levels:
 
   - medium
 
+aspects:
+  - workout
+
 type: tetris
 
 category: tip
