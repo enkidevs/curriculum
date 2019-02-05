@@ -11,7 +11,10 @@ category: tip
 aspects:
   - introduction
   - new
-  - workout
+
+
+standards:
+  javascript.new-declaration-keywords.0: 10
 
 inAlgoPool: false
 

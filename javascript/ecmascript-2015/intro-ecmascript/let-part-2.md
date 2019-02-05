@@ -13,7 +13,10 @@ inAlgoPool: false
 aspects:
   - introduction
   - new
-  - workout
+
+
+standards:
+  javascript.new-declaration-keywords.0: 10
 
 links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let){website}'

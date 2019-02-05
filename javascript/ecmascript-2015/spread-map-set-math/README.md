@@ -7,7 +7,7 @@ insights:
   - spread-part-2
   - map-data-structure
   - set-data-structure
-  - math-extensions
+  - weakmap-in-es6
 
 game: map-set-weakmap-weakset
 

@@ -31,6 +31,7 @@ links:
 
 aspects:
   - introduction
+  - new
   - workout
 
 
@@ -110,5 +111,3 @@ let count = new Counter();
 * `() => {this.counter--;}`
 * `function() {this.counter++;}`
 * `function() {this.counter--;}`
-
- 

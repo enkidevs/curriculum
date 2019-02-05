@@ -14,6 +14,11 @@ tags:
   - es6
   - functions
 
+aspects:
+  - introduction
+  - new
+  - workout
+
 links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters){website}'
 
@@ -62,7 +67,7 @@ cube() // 0
 ---
 ## Revision
 
-What will be outputed?
+What will be output?
 
 ```javascript
 function square(a = 1) {
@@ -78,4 +83,3 @@ console.log(square());
 * error
 * undefined
 * null
- 
