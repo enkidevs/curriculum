@@ -8,7 +8,10 @@ levels:
   - basic
 
 type: exercise
-
+aspects:
+  - introduction
+  - new
+  - workout
 link: https://www.codewars.com/kata/fun-with-es6-classes-number-1-people-people-people
 linkType: codewars
 standards:
@@ -27,4 +30,3 @@ links:
 ## Exercise
 
 Implement a basic JavaScript Class on Code Wars
- 

@@ -16,6 +16,17 @@ links:
   - '[MDN - Import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import){website}'
   - '[MDN - Export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export){website}'
 
+standards:
+  javascript.es6-class.0: 10
+  javascript.es6-modules.0: 10
+  javascript.es6-modules.1: 10
+  javascript.es6-modules.2: 10
+
+aspects:
+  - introduction
+  - new
+  - workout
+
 ---
 # Introducing Modules
 
@@ -102,4 +113,3 @@ Fill in the missing keywords in the canonic ES6 module import syntax:
 * imports
 * export
 * exports
- 

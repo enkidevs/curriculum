@@ -108,6 +108,14 @@ standards:
       0: Use a Proxy to handle property lookup and assignment
       1: Use a Proxy to handle function invocation
       2: Use Reflect to use the internal default behavior of proxy methods
+  es6-modules:
+    name: Use native ES6 Modules to import code
+    description: Use the native ES6 `import` syntax to import a module, as distinct from the CommonJS `require()`
+    objectives:
+      0: Import a module
+      1: Import named components of a module
+      2: Export a module
+      3: Export multiple named components of a module 
 
 next:
   - javascript:browser-apis

@@ -16,6 +16,14 @@ links:
   - '[MDN - Super](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super){website}'
   - '[MDN - Static](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static){website}'
 
+standards:
+  javascript.es6-class.0: 10
+
+aspects:
+  - introduction
+  - new
+  - workout
+
 ---
 # Extends, Super and Static
 
@@ -139,4 +147,3 @@ Fill in the next snippet such that the `Dog` class is a child of the `Animal` cl
 * super()
 * parent
 * childOf
- 

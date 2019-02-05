@@ -17,6 +17,11 @@ standards:
   javascript.prototype-class.1: 1000
   javascript.prototype-class.2: 1000
 
+aspects:
+  - introduction
+  - new
+  - workout
+
 links:
 
   - '[MDN - Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/set)'
@@ -28,4 +33,3 @@ links:
 ## Exercise
 
 Practice using JavaScript Class `setters` on Code Wars
- 

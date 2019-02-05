@@ -22,7 +22,11 @@ links:
 
 aspects:
   - introduction
+  - new
+  - workout
 
+standards:
+  javascript.es6-class.0: 10
 
 ---
 # Classes and Constructor
@@ -116,4 +120,3 @@ class Sphere() {
 * this.volume
 * const volume
 * let volume
- 
