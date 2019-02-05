@@ -6,15 +6,15 @@ sections:
   '0':
     - intro-ecmascript
     - function-improvements
-    - string-number-extensions
+    - number-extensions
     - array-updates
   '1':
     - destructuring
+    - string-upgrades
     - spread-map-set-math
     - string-flexibility
   '2':
     - classes-modules
-    - es6-quirks
     - promises
     - symbol
   '3':
@@ -115,7 +115,7 @@ standards:
       0: Import a module
       1: Import named components of a module
       2: Export a module
-      3: Export multiple named components of a module 
+      3: Export multiple named components of a module
 
 next:
   - javascript:browser-apis
