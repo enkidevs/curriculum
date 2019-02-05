@@ -1,6 +1,6 @@
-name: Ecmascript 2015
+name: ECMAscript
 
-description: The sixth edition of Ecmascript. Get up to speed with the new syntax for writing complex applications, including classes, modules, arrow functions and more.
+description: The ever-evolving specification that governs the unified syntax of the JavaScript Ecosystem. Learn how to use new syntax and understand how to deal with the many, many versions of ECMAScript you'll need to support as a JavaScript Developer.
 
 sections:
   '0':

@@ -10,8 +10,6 @@ category: tip
 
 aspects:
   - introduction
-  - new
-
 
 standards:
   javascript.new-declaration-keywords.0: 10

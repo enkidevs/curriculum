@@ -14,9 +14,6 @@ tags:
   - introduction
   - es6
   - memory
-aspects:
-  - introduction
-  - new
 
 standards:
   javascript.new-declaration-keywords.1: 10
