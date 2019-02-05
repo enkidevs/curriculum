@@ -10,6 +10,11 @@ category: must-know
 
 inAlgoPool: false
 
+aspects:
+  - introduction
+  - new
+  - workout
+
 links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions){website}'
 
