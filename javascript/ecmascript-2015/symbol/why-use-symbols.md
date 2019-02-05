@@ -14,6 +14,15 @@ inAlgoPool: false
 links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){website}'
 
+standards:
+  javascript.es6-data-structures.6: 10
+
+aspects:
+  - introduction
+  - new
+  - workouts
+  - deep
+
 ---
 # Why use symbols?
 
@@ -68,4 +77,3 @@ Which of the following is true about Symbols?
 * Symbols can be overwritten
 * Symbols can't be used by libraries
 * Symbols are unique and mutable
- 
