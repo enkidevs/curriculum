@@ -13,6 +13,14 @@ type: normal
 
 category: feature
 
+aspects:
+  - introduction
+  - new
+  - workout
+  - deep
+
+standards:
+  javascript.es6-extensions-standard-library.2: 10
 
 links:
 
@@ -89,5 +97,3 @@ How are Javascript strings represented?
 * UTF-8
 * UTF-32
 * US-ASCII
-
- 

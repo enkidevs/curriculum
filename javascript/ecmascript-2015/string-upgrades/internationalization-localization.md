@@ -13,6 +13,14 @@ category: tip
 tags:
   - locale
 
+aspects:
+  - new
+  - workout
+  - deep
+
+standards:
+  javascript.es6-extensions-standard-library.2: 10
+
 links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Collator){website}'
 
@@ -82,4 +90,3 @@ console.log(
 * sign
 * after
 * before
- 
