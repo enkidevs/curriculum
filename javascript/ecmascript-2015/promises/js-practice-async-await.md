@@ -14,7 +14,9 @@ linkType: codewars
 standards:
 
   javascript.async.3: 1000
-
+aspects:
+  - introduction
+  - workout
 links:
 
   - '[MDN - Async](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)'
@@ -27,4 +29,3 @@ links:
 ## Exercise
 
 Practice using JavaScript `async/await` on Code Wars
- 

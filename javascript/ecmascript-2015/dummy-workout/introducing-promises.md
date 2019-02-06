@@ -14,6 +14,9 @@ inAlgoPool: false
 links:
   - '[MDN - Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
 
+aspects:
+  - introduction
+  - workout
 ---
 # Introducing Promises
 
@@ -63,4 +66,3 @@ What problem do Promises try to solve?
 * asynchronous calls stopping thread execution
 * lack of any kind of support for asynchronous operation
 * too many libraries doing the same thing
- 

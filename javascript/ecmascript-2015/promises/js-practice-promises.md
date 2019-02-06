@@ -14,7 +14,9 @@ linkType: codewars
 standards:
 
   javascript.async.2: 1000
-
+aspects:
+  - introduction
+  - workout
 links:
 
   - '[MDN - Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)'
@@ -26,4 +28,3 @@ links:
 ## Exercise
 
 Practice using JavaScript Promises on Code Wars
- 

@@ -13,7 +13,13 @@ inAlgoPool: false
 
 links:
   - '[MDN - Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
+standards:
+  javascript.native-promises.0: 10
+  javascript.native-promises.1: 10
 
+aspects:
+  - introduction
+  - workout
 ---
 # How To Create Promises
 
@@ -35,7 +41,7 @@ new Promise(function(resolve, reject){
 }).
 ```
 
-Note how the functions body was run immediately.
+Note how the `function`'s body was run immediately.
 
 ### then
 
@@ -68,7 +74,6 @@ When resolve was called after two seconds we then logged this value to the conso
 
 It is important to note that you cannot cancel a promise once it's being processed and you cant check on its current state either.
 
-Next let's look at how to indicate something went wrong..
 
 ---
 ## Practice
@@ -124,4 +129,3 @@ const p = new Promise(
 * throw
 * catch
 * then
- 

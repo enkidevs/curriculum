@@ -3,7 +3,6 @@ name: Promises
 description: Promises 101
 
 insights:
-  - introducing-promises
   - how-to-create-promises
   - promises-reject
   - chaining-promises
@@ -12,4 +11,3 @@ insights:
 exercises:
   - js-practice-promises
   - js-practice-async-await
- 
