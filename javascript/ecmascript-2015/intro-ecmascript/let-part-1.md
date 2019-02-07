@@ -8,6 +8,9 @@ type: normal
 
 category: tip
 
+aspects:
+  - introduction
+
 inAlgoPool: false
 
 links:

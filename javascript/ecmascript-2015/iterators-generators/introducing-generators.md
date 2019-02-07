@@ -9,11 +9,15 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+  - new
+  - workout
+
 inAlgoPool: false
 
 links:
   - '[MDN - Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}'
-
 
 ---
 # Introducing Generators

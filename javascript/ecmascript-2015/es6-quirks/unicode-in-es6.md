@@ -13,6 +13,11 @@ type: normal
 
 category: feature
 
+aspects:
+  - introduction
+  - new
+  - workout
+  - deep
 
 links:
 

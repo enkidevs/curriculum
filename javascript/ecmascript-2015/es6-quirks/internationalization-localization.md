@@ -10,6 +10,11 @@ type: normal
 
 category: tip
 
+aspects:
+  - new
+  - workout
+  - deep
+
 tags:
   - locale
 

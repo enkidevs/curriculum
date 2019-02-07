@@ -11,6 +11,11 @@ type: normal
 
 category: feature
 
+aspects:
+  - introduction
+  - new
+  - workout
+
 inAlgoPool: false
 
 tags:
@@ -25,11 +30,6 @@ tags:
 links:
 
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions){website}'
-
-
-aspects:
-  - workout
-
 
 ---
 

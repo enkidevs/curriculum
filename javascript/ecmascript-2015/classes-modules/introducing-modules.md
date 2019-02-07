@@ -9,6 +9,11 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+  - new 
+  - workout
+
 inAlgoPool: false
 
 links:
