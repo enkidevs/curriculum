@@ -10,6 +10,11 @@ type: normal
 
 category: feature
 
+aspects:
+  - introduction
+  - new
+  - workout
+
 tags:
   - es6
   - functions
@@ -62,7 +67,7 @@ cube() // 0
 ---
 ## Revision
 
-What will be outputed?
+What will be output?
 
 ```javascript
 function square(a = 1) {

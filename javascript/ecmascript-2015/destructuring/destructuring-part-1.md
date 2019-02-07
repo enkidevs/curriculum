@@ -8,11 +8,15 @@ type: normal
 
 category: feature
 
+aspects:
+  - introduction
+  - new
+  - workout
+
 inAlgoPool: false
 
 links:
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){website}'
-
 
 ---
 # Destructuring (Part 1)

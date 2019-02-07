@@ -10,9 +10,10 @@ levels:
 type: exercise
 
 link: https://www.codewars.com/kata/jokes-youve-been-awaiting-for-dot-dot-dot-promise
-linkType: codewars
-standards:
 
+linkType: codewars
+
+standards:
   javascript.async.3: 1000
 
 links:

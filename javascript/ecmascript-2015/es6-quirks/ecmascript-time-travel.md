@@ -13,6 +13,13 @@ type: fillTheGap
 
 category: tip
 
+aspects:
+
+  - introduction
+  - new
+  - workout
+  - deep
+
 ---
 
 # Ecmascript Time Travel

@@ -9,10 +9,16 @@ levels:
 
 type: exercise
 
-link: https://www.codewars.com/kata/speedcode-number-3-x-fun-with-es6-classes-number-5-dogs-and-classes
-linkType: codewars
-standards:
+aspects:
+  - introduction
+  - new
+  - workout
 
+link: https://www.codewars.com/kata/speedcode-number-3-x-fun-with-es6-classes-number-5-dogs-and-classes
+
+linkType: codewars
+
+standards:
   javascript.prototype-class.0: 1000
   javascript.prototype-class.1: 1000
   javascript.prototype-class.2: 1000

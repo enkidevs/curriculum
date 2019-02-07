@@ -3,7 +3,6 @@ author: jordanfish
 
 levels:
 
-
   - advanced
 
   - medium
