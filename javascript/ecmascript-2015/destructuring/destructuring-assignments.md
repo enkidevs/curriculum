@@ -13,6 +13,11 @@ type: fillTheGap
 
 category: must-know
 
+aspects:
+  - introduction
+  - new
+  - workout
+
 links:
 
   - '[MDN - Destructuring](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){documentation}'

@@ -9,6 +9,10 @@ levels:
 
 type: exercise
 
+aspects:
+  - introduction
+  - workout
+
 link: https://www.codewars.com/kata/unpacking-arguments/javascript
 
 linkType: codewars

@@ -9,6 +9,11 @@ levels:
 
 type: exercise
 
+aspects:
+  - introduction
+  - new
+  - workout
+
 link: https://www.codewars.com/kata/jokes-youve-been-awaiting-for-dot-dot-dot-promise
 
 linkType: codewars

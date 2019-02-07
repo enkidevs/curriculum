@@ -11,6 +11,10 @@ type: fillTheGap
 
 category: tip
 
+aspects:
+  - introduction
+  - workout
+
 notes: Kangax quiz
 
 ---
