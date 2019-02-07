@@ -9,6 +9,10 @@ levels:
 
 type: exercise
 
+aspects:
+  - introduction
+  - workout
+
 link: https://www.codewars.com/kata/i-promise-not-to-optimize
 
 linkType: codewars

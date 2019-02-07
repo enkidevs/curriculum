@@ -13,6 +13,10 @@ type: fillTheGap
 
 category: tip
 
+aspects:
+  - introduction
+  - workout
+
 links:
 
   - '[MDN - Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map){website}'

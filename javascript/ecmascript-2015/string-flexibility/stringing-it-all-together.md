@@ -13,6 +13,11 @@ type: fillTheGap
 
 category: must-know
 
+aspects:
+  - introduction
+  - new
+  - workout
+
 ---
 
 # Stringing it all together!
