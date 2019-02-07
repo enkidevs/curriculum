@@ -20,7 +20,7 @@ standards:
 aspects:
   - introduction
   - new
-  - workouts
+  - workout
   - deep
 
 ---
