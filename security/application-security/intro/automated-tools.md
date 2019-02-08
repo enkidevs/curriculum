@@ -37,46 +37,33 @@ The beautiful thing about creating an automated exploit is, you never have to do
 Today, many teams have no individual person devoted entirely to security, despite many countries around the world passing legislation that creates penalties on companies who fail to safeguard user data. It ends up falling on individual engineers to take up the call to guard user data by running vulnerability scans as part of their code review or QA process.
 
 Some tools common to the industry:
-- Metasploit
-- Snort
-- John The Ripper
-- Angry IP
-- Ettercap
+- Metasploit- an automated vulnerability scanner
+- Wireshark / Snort - packet sniffers / network monitors
+- John The Ripper - a password cracker
+- Aircrack-NG - password / wifi cracker
+- Ettercap - Man in the middle attacker
 
 ---
 ## Practice
 
-This question will be shown with the insight, and users will have just read the content.
-It's best to use a code example here.
+In order to develop applications that cannot be scanned for vulnerabilities, you should periodically ??? your ??? using ???.
 
-example:
-Given this directory structure, change directories **from** `www/css` **to** `www/images/promo`:
-```
-- www
-  - css
-  - images
-    - promo
-  - js
-
-```
-
-`cd ???/???/???`
-
-* ..
-* images
-* promo
-* www
-* js
-* .
-* ^
+* scan
+* application
+* an automated tool
+* attack
+* sniff
+* crack
+* coworker's email
+* a password cracker
+* a packet sniffer
 
 ---
 ## Revision
 
-Revision questions are shown without the insight, and users may never have seen the content. Use a code example or multiple choice question.
+In order to find vulnerable ports and network devices, you would use a ???
 
-???
-
-* right answer
-* wrong answer
-* wrong answer 2
+* packet sniffer
+* wi-fi hijacker
+* password cracker
+* port forwarder
