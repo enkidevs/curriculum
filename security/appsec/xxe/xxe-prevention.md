@@ -24,7 +24,8 @@ standards:
   security.xxe.2: 10
 
 links:
-  - '[link to official documentation](https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Prevention_Cheat_Sheet)'
+  - '[OWASP XXE Prevention](https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Prevention_Cheat_Sheet)'
+  - '[Apache XML Processor Specification - Disallow Doctype Declarations](http://apache.org/xml/features/disallow-doctype-decl)'
 
 
 ---
@@ -40,7 +41,7 @@ include xmlparser
 
 untrustedXML = request.body
 
-xmlparser.set("http://apache.org/xml/features/disallow-doctype-decl", true)
+xmlparser.set("disallowDoctypeDeclarations", true)
 
 xmlparser.set("doctype", "myDocType")
 xmlparser.set("schema", "mySchema")
@@ -67,7 +68,7 @@ xmlparser.set("schema", "mySchema")
 xmlparser.parse(???)
 ```
 
-* "http://apache.org/xml/features/disallow-doctype-decl"
+* "disallowDoctypeDeclarations"
 * "disable"
 * untrustedXML
 * parse
@@ -82,7 +83,7 @@ include xmlparser
 
 untrustedXML = request.body
 
-xmlparser.set("http://apache.org/xml/features/disallow-doctype-decl", true)
+xmlparser.set("disallowDoctypeDeclarations", true)
 
 xmlparser.set("doctype", "myDocType")
 ???
