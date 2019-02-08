@@ -18,11 +18,6 @@ aspects:
 tags:
   - locale
 
-aspects:
-  - new
-  - workout
-  - deep
-
 standards:
   javascript.es6-extensions-standard-library.2: 10
 

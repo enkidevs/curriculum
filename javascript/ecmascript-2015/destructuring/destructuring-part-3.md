@@ -22,10 +22,6 @@ links:
 standards:
   javascript.destructuring.0: 10
 
-aspects:
-  - introduction
-  - new
-  - workout
 ---
 # Destructuring (Part 3)
 

@@ -10,7 +10,7 @@ category: must-know
 
 aspects:
   - introduction
-  - new 
+  - new
   - workout
 
 inAlgoPool: false
@@ -18,11 +18,6 @@ inAlgoPool: false
 links:
   - '[ponyfoo.com](https://ponyfoo.com/articles/es6-template-strings-in-depth){website}'
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){website}'
-
-aspects:
-  - introduction
-  - new
-  - workout
 
 standards:
   javascript.es6-extensions-standard-library.2: 10

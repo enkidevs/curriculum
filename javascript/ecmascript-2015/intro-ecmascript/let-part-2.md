@@ -13,9 +13,6 @@ aspects:
 
 inAlgoPool: false
 
-aspects:
-  - introduction
-
 standards:
   javascript.new-declaration-keywords.0: 10
 

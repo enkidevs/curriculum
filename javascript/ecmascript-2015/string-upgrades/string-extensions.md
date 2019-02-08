@@ -15,11 +15,6 @@ aspects:
 
 inAlgoPool: false
 
-aspects:
-  - introduction
-  - new
-  - workout
-
 links:
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode){website}'
 

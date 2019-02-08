@@ -8,11 +8,7 @@ levels:
   - advanced
 
   - medium
-aspects:
-  - introduction
-  - new
-  - workout
-  - deep
+
 type: fillTheGap
 
 category: tip

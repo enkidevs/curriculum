@@ -11,14 +11,11 @@ category: tip
 aspects:
 
   - introduction
-  - new 
+  - new
   - workout
 
 inAlgoPool: false
-aspects:
-  - introduction
-  - new
-  - workout
+
 standards:
   javascript.destructuring.2: 10
 links:

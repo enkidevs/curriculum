@@ -18,11 +18,6 @@ inAlgoPool: false
 links:
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){website}'
 
-aspects:
-  - introduction
-  - new
-  - workout
-
 standards:
   javascript.destructuring.0: 10
 ---
