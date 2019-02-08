@@ -9,10 +9,15 @@ levels:
 
 type: exercise
 
-link: https://www.codewars.com/kata/unpacking-arguments/javascript
-linkType: codewars
-standards:
+aspects:
+  - introduction
+  - workout
 
+link: https://www.codewars.com/kata/unpacking-arguments/javascript
+
+linkType: codewars
+
+standards:
   javascript.execution-context.1: 1000
 
 links:

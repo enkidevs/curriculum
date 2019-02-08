@@ -11,6 +11,11 @@ type: normal
 
 category: feature
 
+aspects:
+  - introduction
+  - new
+  - workout
+
 inAlgoPool: false
 
 tags:
@@ -32,13 +37,6 @@ links:
 
   - '[ponyfoo.com](https://ponyfoo.com/articles/es6-array-extensions-in-depth){website}'
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array){website}'
-
-
-aspects:
-  - introduction
-  - workout
-  - new
-
 
 ---
 

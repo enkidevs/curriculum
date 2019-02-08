@@ -8,14 +8,17 @@ levels:
   - basic
 
 type: exercise
+
 aspects:
   - introduction
   - new
   - workout
-link: https://www.codewars.com/kata/fun-with-es6-classes-number-2-animals-and-inheritance
-linkType: codewars
-standards:
 
+link: https://www.codewars.com/kata/fun-with-es6-classes-number-2-animals-and-inheritance
+
+linkType: codewars
+
+standards:
   javascript.prototype-inherit.0: 1000
   javascript.prototype-inherit.1: 1000
 

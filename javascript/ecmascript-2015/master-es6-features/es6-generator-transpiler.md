@@ -13,6 +13,10 @@ type: normal
 
 category: tip
 
+aspects:
+  - introduction
+  - new
+  - workout
 
 links:
 

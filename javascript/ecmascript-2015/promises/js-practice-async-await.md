@@ -9,10 +9,16 @@ levels:
 
 type: exercise
 
-link: https://www.codewars.com/kata/jokes-youve-been-awaiting-for-dot-dot-dot-promise
-linkType: codewars
-standards:
+aspects:
+  - introduction
+  - new
+  - workout
 
+link: https://www.codewars.com/kata/jokes-youve-been-awaiting-for-dot-dot-dot-promise
+
+linkType: codewars
+
+standards:
   javascript.async.3: 1000
 aspects:
   - introduction

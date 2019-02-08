@@ -9,10 +9,15 @@ levels:
 
 type: exercise
 
-link: https://www.codewars.com/kata/i-promise-not-to-optimize
-linkType: codewars
-standards:
+aspects:
+  - introduction
+  - workout
 
+link: https://www.codewars.com/kata/i-promise-not-to-optimize
+
+linkType: codewars
+
+standards:
   javascript.async.2: 1000
 aspects:
   - introduction

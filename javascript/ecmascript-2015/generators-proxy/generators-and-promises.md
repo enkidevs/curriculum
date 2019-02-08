@@ -13,6 +13,10 @@ type: fillTheGap
 
 category: must-know
 
+aspects:
+  - introduction
+  - workout
+
 tags:
 
   - promise

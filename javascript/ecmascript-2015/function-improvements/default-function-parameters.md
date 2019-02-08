@@ -10,6 +10,11 @@ type: normal
 
 category: feature
 
+aspects:
+  - introduction
+  - new
+  - workout
+
 tags:
   - es6
   - functions

@@ -8,14 +8,16 @@ levels:
   - basic
 
 type: exercise
+
 aspects:
   - introduction
   - new
   - workout
 link: https://www.codewars.com/kata/fun-with-es6-classes-number-6-fake-files-basic
-linkType: codewars
-standards:
 
+linkType: codewars
+
+standards:
   javascript.prototype-class.0: 1000
   javascript.prototype-class.1: 1000
   javascript.prototype-class.2: 1000

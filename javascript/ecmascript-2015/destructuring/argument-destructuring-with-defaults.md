@@ -8,6 +8,12 @@ type: normal
 
 category: tip
 
+aspects:
+
+  - introduction
+  - new 
+  - workout
+
 inAlgoPool: false
 aspects:
   - introduction

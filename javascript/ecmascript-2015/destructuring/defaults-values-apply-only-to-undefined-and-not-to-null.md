@@ -13,12 +13,16 @@ type: normal
 
 category: caveats
 
+aspects:
+  - introduction
+  - new
+  - workout
+
 tags:
 
   - es6
 
   - caveat
-
 
 links:
 

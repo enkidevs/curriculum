@@ -25,7 +25,6 @@ links:
 aspects:
   - workout
 
-
 ---
 # Array Extensions
 

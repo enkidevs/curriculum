@@ -3,7 +3,6 @@ author: jordanfish
 
 levels:
 
-
   - advanced
 
   - medium
@@ -11,6 +10,10 @@ levels:
 type: fillTheGap
 
 category: tip
+
+aspects:
+  - introduction
+  - workout
 
 notes: Kangax quiz
 

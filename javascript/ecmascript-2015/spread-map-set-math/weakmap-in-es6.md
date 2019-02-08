@@ -13,11 +13,14 @@ type: normal
 
 category: feature
 
+aspects:
+  - introduction
+  - new
+  - workout
 
 links:
 
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/WeakMap){website}'
-
 
 ---
 

@@ -9,6 +9,11 @@ type: normal
 
 category: feature
 
+aspects:
+  - introduction
+  - new
+  - workout
+
 inAlgoPool: false
 
 tags:
