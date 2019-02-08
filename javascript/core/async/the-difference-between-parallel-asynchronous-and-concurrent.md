@@ -33,6 +33,7 @@ tags:
 
 aspects:
   - workout
+  - introduction
   - obscura
   - deep
 
