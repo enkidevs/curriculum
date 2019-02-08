@@ -4,9 +4,9 @@ author: lizTheDeveloper
 levels:
 
   - beginner
-  
+
   - basic
-  
+
 aspects:
 
   - introduction
@@ -16,7 +16,7 @@ type: normal
 category: how to
 
 
-standards: 
+standards:
   topic-slug.standard-slug.objective-number: points (10 for insights, 1000 for exercises)
 
 links:
@@ -32,43 +32,48 @@ links:
 ---
 ## Content
 
-Start by writing the questions- what are you trying to show the user how to do?
-Write the Practice first, then the Revision. Then come back to the content.
+Application Security is a diverse field that means more than just keeping current on vulnerability research. It is something everyone needs to know at some level, so that when major outbreaks occur they can take steps to protect themselves and the applications they develop. At more advanced levels, it means strictly following regulatory guidelines to ensure certain kinds of data are very well protected. At very advanced levels, it can mean research, penetration testing, and more.
+
+If you'd like to learn more about application security, you should make sure you have a strong grounding on the following:
+
+- At least one scripting language (even bash, check out our other topics)
+- Network Protocols (check our Networking course!)
+- Operating Systems
+- How memory in a computer works, and where data is located at any given time
+
+The next topics to explore, once you have those ready:
+
+- Automated Exploit Tooling
+- The OSI Model
+- Intrusion Detection Tooling
+- Cryptography
 
 ---
 ## Practice
 
-This question will be shown with the insight, and users will have just read the content.
-It's best to use a code example here.
+If you'd like to learn more about application security, you should make sure you have a strong grounding on the following:  
 
-example:
-Given this directory structure, change directories **from** `www/css` **to** `www/images/promo`:
-```
-- www
-  - css
-  - images
-    - promo
-  - js
+At least one scripting language (even bash, check out our other topics)  
+???  
+Operating Systems  
+How memory in a computer works, and where data is located at any given time  
 
-```
-
-`cd ???/???/???`
-
-* ..
-* images
-* promo
-* www
-* js
-* .
-* ^
+* Network Protocols
+* Binary
+* Hexadecimal
+* Cryptography
 
 ---
 ## Revision
 
-Revision questions are shown without the insight, and users may never have seen the content. Use a code example or multiple choice question.
+If you'd like to learn more about application security, you should make sure you have a strong grounding on the following:  
 
-???
+At least one scripting language (even bash, check out our other topics)  
+Network Protocols
+???  
+How memory in a computer works, and where data is located at any given time  
 
-* right answer
-* wrong answer
-* wrong answer 2
+* Operating Systems  
+* Binary
+* Hexadecimal
+* Cryptography

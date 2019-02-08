@@ -20,10 +20,9 @@ standards:
   topic-slug.standard-slug.objective-number: points (10 for insights, 1000 for exercises)
 
 links:
-  - '[link to official documentation](https://enki.com)'
-  - '[link to deeper dive blog post](https://enki.com)'
-  - '[link to a video](https://enki.com)'
-  - '[link to a discussion](https://enki.com)'
+  - '[Hack This Site](https://www.hackthissite.org/)'
+  - '[Holistic Info-Sec for Web Developers](https://f0.holisticinfosecforwebdevelopers.com/index.html)'
+  - '[A list of lists of application security resources](https://github.com/paragonie/awesome-appsec)'
 
 ---
 

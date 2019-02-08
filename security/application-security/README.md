@@ -2,6 +2,10 @@ name: Application Security
 
 description: "'; DROP TABLE Topics;"
 
+sections:
+  '0':
+    - intro
+
 standards:
   sql-injection:
     name: Identify vulnerability to and mitigate SQL Injection Attacks
@@ -85,3 +89,10 @@ standards:
       2: Analyze a Java project's dependencies for security vulnerabilities
       3: Analyze a Ruby project's dependencies for security vulnerabilities
       4: Mitigate security vulnerabilities by upgrading vulnerable packages uncovered with an analysis tool
+  security-feed:
+    name: Use community-sourced lists of vulnerability and mitigation techniques to advance your security practice
+    description: This standard deals with building a personal news feed that keeps you current on the fast-moving security field.
+    objectives:
+      0: Identify relevant news sources that discuss vulnerabilities and mitigation strategies in detail
+      1: Identify relevant communities that participate in vulnerability research and mitigation
+      2: Identify relevant events to participate in the application security industry

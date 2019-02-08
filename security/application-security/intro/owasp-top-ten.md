@@ -13,17 +13,17 @@ aspects:
 
 type: normal
 
-category: best practice
+category: how to
 
 
 standards:
-  topic-slug.standard-slug.objective-number: points (10 for insights, 1000 for exercises)
+  security.security-feed.0: 10
 
 links:
   - '[OWASP](https://www.owasp.org/)'
   - '[2017 OWASP Top Ten](https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf)'
-  - '[link to a video](https://enki.com)'
-  - '[link to a discussion](https://enki.com)'
+  - '[Common Vulnerabilities and Exposures Database](https://cve.mitre.org/)'
+  - '[Cryptography and Security on Arxiv](https://arxiv.org/list/cs.CR/recent)'
 
 ---
 
@@ -32,35 +32,16 @@ links:
 ---
 ## Content
 
-Start by writing the questions- what are you trying to show the user how to do?
-Write the Practice first, then the Revision. Then come back to the content.
+OWASP's Top Ten list is a great place to start for learning the practice of identifying, and mitigating vulnerabilities. It's not a comprehensive list, but it will protect you from being the easiest target. From there, you'll build your security practice by learning to use tools to identify other vulnerabilities.
+
+Start by reading the top ten list. Pick one vulnerability, and find an automated tool that will allow you to scan for it in your application, or follow the recommended mitigation strategy. During this course we'll provide you with one vulnerability and mitigation strategy per day, so keep up with your workouts and you'll be secure in no time!
+
+Bookmark this insight to get a link in your email of the overall list.
 
 ---
 ## Practice
 
-This question will be shown with the insight, and users will have just read the content.
-It's best to use a code example here.
 
-example:
-Given this directory structure, change directories **from** `www/css` **to** `www/images/promo`:
-```
-- www
-  - css
-  - images
-    - promo
-  - js
-
-```
-
-`cd ???/???/???`
-
-* ..
-* images
-* promo
-* www
-* js
-* .
-* ^
 
 ---
 ## Revision
