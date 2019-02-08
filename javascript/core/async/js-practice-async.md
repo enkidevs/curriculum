@@ -13,11 +13,11 @@ link: https://www.codewars.com/kata/node-dot-js-async-i-slash-o/train/javascript
 linkType: codewars
 standards:
 
+  javascript.async.0: 1000
+
 aspects:
   - deep
   - workout
-
-  javascript.async.0: 1000
 
 links:
 
