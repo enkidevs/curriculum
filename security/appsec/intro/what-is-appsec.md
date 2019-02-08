@@ -17,7 +17,7 @@ category: must-know
 
 
 standards:
-  topic-slug.standard-slug.objective-number: points (10 for insights, 1000 for exercises)
+  security.security-feed.0: 10
 
 links:
   - '[Hack This Site](https://www.hackthissite.org/)'
