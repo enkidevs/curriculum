@@ -5,6 +5,9 @@ description: "'; DROP TABLE Topics;"
 sections:
   '0':
     - intro
+    - xss
+    - xxe
+    - sql-injection
 
 standards:
   sql-injection:
