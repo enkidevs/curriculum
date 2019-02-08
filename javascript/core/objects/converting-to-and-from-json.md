@@ -7,6 +7,11 @@ levels:
 
 type: normal
 
+aspects:
+  - deep
+  - obscura
+  - workout
+
 category: feature
 
 tags:
