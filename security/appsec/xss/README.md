@@ -1,11 +1,8 @@
-name: xss
+name: XSS
 
-description: Description of the workout goes here
+description: Identify vulnerability to and mitigate XSS attacks
 
 insights:
-  - insight-slug-1
-  - insight-slug-2
-
-exercises:
-  - practice-exercise-slug-1
-  - practice-exercise-slug-2
+  - xss-introduction
+  - detect-xss
+  - mitigate-xss
