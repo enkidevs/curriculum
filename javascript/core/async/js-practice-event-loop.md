@@ -13,6 +13,10 @@ link: https://www.codewars.com/kata/an-eventful-bus
 linkType: codewars
 standards:
 
+aspects:
+  - deep
+  - workout
+
   javascript.async.1: 1000
 
 links:
