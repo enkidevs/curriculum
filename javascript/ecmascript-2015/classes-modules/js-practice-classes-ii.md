@@ -13,7 +13,6 @@ aspects:
   - introduction
   - new
   - workout
-
 link: https://www.codewars.com/kata/fun-with-es6-classes-number-6-fake-files-basic
 
 linkType: codewars
@@ -34,4 +33,3 @@ links:
 ## Exercise
 
 Apply your knowledge of JavaScript Classes in this Code Wars challenge!
- 

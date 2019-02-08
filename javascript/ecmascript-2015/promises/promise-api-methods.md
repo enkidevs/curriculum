@@ -19,6 +19,18 @@ links:
 
   - '[MDN - Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
 
+aspects:
+  - introduction
+  - workout
+standards:
+
+  javascript.async.2: 10
+  javascript.native-promises.0: 10
+  javascript.native-promises.3: 10
+  javascript.native-promises.6: 10
+  javascript.native-promises.5: 10
+  javascript.native-promises.4: 10
+
 ---
 # Promise API Methods
 
@@ -114,4 +126,3 @@ Which static `Promise` method will resolve when the first promise in the array s
 * Promise.vector
 * Promise.first
 * Promise.reject
- 

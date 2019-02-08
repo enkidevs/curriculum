@@ -33,6 +33,16 @@ links:
 
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions){website}'
 
+<<<<<<< HEAD
+
+aspects:
+  - introduction
+  - new
+  - workout
+
+
+=======
+>>>>>>> master
 ---
 
 # Arrow Functions (Part 2)
@@ -109,5 +119,3 @@ let count = new Counter();
 * `() => {this.counter--;}`
 * `function() {this.counter++;}`
 * `function() {this.counter--;}`
-
- 

@@ -9,9 +9,9 @@ levels:
 
 type: exercise
 
-aspects: 
+aspects:
   - introduction
-  - new 
+  - new
   - workout
 
 link: https://www.codewars.com/kata/fun-with-es6-classes-number-2-animals-and-inheritance
@@ -34,4 +34,3 @@ links:
 ## Exercise
 
 Practice JavaScript Class Inheritance on Code Wars
- 

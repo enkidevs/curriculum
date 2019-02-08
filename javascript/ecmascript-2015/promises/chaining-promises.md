@@ -18,6 +18,10 @@ inAlgoPool: false
 links:
   - '[MDN - Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
 
+aspects:
+  - introduction
+  - workout
+
 ---
 # Chaining Promises
 
@@ -100,4 +104,3 @@ p.then(console.log)
 
 * Same
 * Different
- 

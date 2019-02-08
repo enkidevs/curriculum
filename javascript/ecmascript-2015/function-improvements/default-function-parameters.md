@@ -19,6 +19,11 @@ tags:
   - es6
   - functions
 
+aspects:
+  - introduction
+  - new
+  - workout
+
 links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters){website}'
 
@@ -83,4 +88,3 @@ console.log(square());
 * error
 * undefined
 * null
- 

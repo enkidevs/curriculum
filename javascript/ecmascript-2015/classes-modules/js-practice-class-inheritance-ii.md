@@ -13,7 +13,6 @@ aspects:
   - introduction
   - new
   - workout
-
 link: https://www.codewars.com/kata/speedcode-number-3-x-fun-with-es6-classes-number-5-dogs-and-classes
 
 linkType: codewars
@@ -36,4 +35,3 @@ links:
 ## Exercise
 
 Apply your knowledge of JavaScript Class Inheritance in this Code Wars challenge!
- 

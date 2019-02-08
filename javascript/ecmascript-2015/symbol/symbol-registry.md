@@ -20,6 +20,15 @@ inAlgoPool: false
 links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){website}'
 
+standards:
+  javascript.es6-data-structures.6: 10
+
+aspects:
+  - introduction
+  - new
+  - workout
+  - deep
+
 ---
 # Symbol Registry
 
@@ -107,4 +116,3 @@ console.log(Symbol.keyFor(sym1))
 * register
 * new
 * error
- 

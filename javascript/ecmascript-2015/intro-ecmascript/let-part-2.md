@@ -13,6 +13,12 @@ aspects:
 
 inAlgoPool: false
 
+aspects:
+  - introduction
+
+standards:
+  javascript.new-declaration-keywords.0: 10
+
 links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let){website}'
 
@@ -123,4 +129,3 @@ for (func of letFuncs) {
 * [4, 4, 4]
 * [2, 2, 2]
 * [1, 2, 3]
- 

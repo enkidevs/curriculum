@@ -15,6 +15,11 @@ aspects:
 
 inAlgoPool: false
 
+aspects:
+  - introduction
+  - new
+  - workout
+
 links:
   - '[benmvp.com](http://www.benmvp.com/learning-es6-enhanced-object-literals/){website}'
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer){website}'
@@ -25,7 +30,7 @@ links:
 ---
 ## Content
 
-It is very common to return an object from a function with a property the same name as a source value declared elsewhere e.g.
+It is very common to `return` an object from a function with a property the same name as a source value declared elsewhere e.g.
 
 ```javascript
 function test(){
@@ -52,7 +57,7 @@ function test(){
 test(); // { name: "enki" }
 ```
 
-Note an exception will be thrown at run time if you specify a value that doesn’t exist in your return object.
+Note an exception will be thrown at runtime if you specify a value that doesn’t exist in your return object.
 
 ---
 ## Practice
@@ -100,4 +105,3 @@ function foo() {
 * this.prop
 * 'value'
 * prop: 'value'
- 

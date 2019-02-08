@@ -23,6 +23,11 @@ standards:
   javascript.prototype-class.1: 1000
   javascript.prototype-class.2: 1000
 
+aspects:
+  - introduction
+  - new
+  - workout
+
 links:
 
   - '[MDN - Get](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get)'
@@ -34,4 +39,3 @@ links:
 ## Exercise
 
 Practice using JavaScript Class `getters` on Code Wars
- 
