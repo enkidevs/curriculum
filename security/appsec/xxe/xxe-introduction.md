@@ -56,12 +56,14 @@ server:
 **Scenario #2**: An attacker probes the server's private network by
 changing the above ENTITY line to:
 ```
-<!ENTITY xxe SYSTEM "https://192.168.1.1/private" >]>
+<!ENTITY xxe
+SYSTEM "https://192.168.1.1/private" >]>
 ```
 **Scenario #3**: An attacker attempts a denial-of-service attack by
 including a potentially endless file:
 ```
-<!ENTITY xxe SYSTEM "file:///dev/random" >]>
+<!ENTITY xxe
+SYSTEM "file:///dev/random" >]>
 ```
 
 Here's an example of this attack that was a widespread problem due to it's simplicity, called the **Billion Laughs Attack**:

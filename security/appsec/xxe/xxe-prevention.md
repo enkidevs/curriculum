@@ -41,7 +41,7 @@ include xmlparser
 
 untrustedXML = request.body
 
-xmlparser.set("disallowDoctypeDeclarations", true)
+xmlparser.set("disallowDoctypeDec", true)
 
 xmlparser.set("doctype", "myDocType")
 xmlparser.set("schema", "mySchema")
@@ -68,7 +68,7 @@ xmlparser.set("schema", "mySchema")
 xmlparser.parse(???)
 ```
 
-* "disallowDoctypeDeclarations"
+* "disallowDoctypeDec"
 * "disable"
 * untrustedXML
 * parse
@@ -83,7 +83,7 @@ include xmlparser
 
 untrustedXML = request.body
 
-xmlparser.set("disallowDoctypeDeclarations", true)
+xmlparser.set("disallowDoctypeDec", true)
 
 xmlparser.set("doctype", "myDocType")
 ???
