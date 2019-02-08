@@ -27,7 +27,7 @@ links:
   - '[XXE Processing](https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Processing)'
   - '[Testing for XML Injection](https://www.owasp.org/index.php/Testing_for_XML_Injection_(OTG-INPVAL-008))'
   - '[XXE Exploit Walkthrough](https://resources.infosecinstitute.com/finding-and-exploiting-xxe-xml-external-entities-injection/#gref)'
-  - '[link to a discussion](https://enki.com)'
+
 
 ---
 
@@ -52,6 +52,8 @@ Reflect on whether or not you need custom code for this task. Even using a libra
 Using a library that is designed for the task is similar to herd immunity- when we are all using the same code, we're all hardening it together. This way you benefit from the vigilance of many developers, rather than only your own. If you're able to find problems with the library, consider contributing your fixes, rather than building your own.
 
 If you _really absolutely have to build your own_ understand that it is a sensitive and large undertaking that puts your customers' data at risk, and should be a thoroughly researched and maintained internal module.
+
+Bookmark this insight to receive step-by-step walkthroughs on how to test for XXE vulnerabilities.
 
 ---
 ## Practice

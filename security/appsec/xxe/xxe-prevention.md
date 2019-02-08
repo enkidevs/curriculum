@@ -25,9 +25,7 @@ standards:
 
 links:
   - '[link to official documentation](https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Prevention_Cheat_Sheet)'
-  - '[link to deeper dive blog post](https://enki.com)'
-  - '[link to a video](https://enki.com)'
-  - '[link to a discussion](https://enki.com)'
+
 
 ---
 
