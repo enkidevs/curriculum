@@ -30,6 +30,8 @@ tags:
 
   - es6
 
+standards:
+  javascipt.es6-extensions-standard-library.1: 10
 
 links:
 
@@ -143,5 +145,3 @@ ints.???(ints.???(???))
 * `get`
 * `filter`
 * `function (e) {return e % 2 && e % 3}`
-
- 

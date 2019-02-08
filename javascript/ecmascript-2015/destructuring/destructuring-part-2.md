@@ -20,6 +20,12 @@ links:
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){website}'
 
 
+standards:
+  javascript.destructuring.1: 10
+aspects:
+  - introduction
+  - new
+  - workout
 ---
 # Destructuring (Part 2)
 
@@ -107,4 +113,3 @@ console.log(bar)
 * : foo
 * : bar
 * : 20
- 
