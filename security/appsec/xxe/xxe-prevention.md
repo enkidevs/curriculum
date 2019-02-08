@@ -4,11 +4,11 @@ author: lizTheDeveloper
 levels:
 
   - beginner
-  
+
   - basic
-  
+
   - medium
-  
+
 aspects:
 
   - introduction
@@ -20,11 +20,11 @@ type: normal
 category: how to
 
 
-standards: 
-  topic-slug.standard-slug.objective-number: points (10 for insights, 1000 for exercises)
+standards:
+  security.xxe.2: 10
 
 links:
-  - '[link to official documentation](https://enki.com)'
+  - '[link to official documentation](https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Prevention_Cheat_Sheet)'
   - '[link to deeper dive blog post](https://enki.com)'
   - '[link to a video](https://enki.com)'
   - '[link to a discussion](https://enki.com)'
@@ -36,43 +36,62 @@ links:
 ---
 ## Content
 
-Start by writing the questions- what are you trying to show the user how to do?
-Write the Practice first, then the Revision. Then come back to the content.
+The general guidance from OWASP in order to prevent XXE attacks is to disable DTDs entirely:
+```python
+include xmlparser
+
+untrustedXML = request.body
+
+xmlparser.set("http://apache.org/xml/features/disallow-doctype-decl", true)
+
+xmlparser.set("doctype", "myDocType")
+xmlparser.set("schema", "mySchema")
+xmlparser.parse(untrustedXML)
+```
+`set` being an imaginary method that disallows doctype declarations within this set of parsed XML, and sets schemas. Instead of client-side doctypes and schemas, manually set the doctype and schema with server-side definitions on XML received from untrusted sources. Check your library's documentation for a similar feature or upgrade to a library that has this feature.
+
+Bookmark this insight to receive links to OWASPs recommended upgrade paths and compliant XML libraries.
 
 ---
 ## Practice
 
-This question will be shown with the insight, and users will have just read the content.
-It's best to use a code example here.
+Disable doctype declarations in the following code:
 
-example:
-Given this directory structure, change directories **from** `www/css` **to** `www/images/promo`:
+```python
+include xmlparser
+
+untrustedXML = request.body
+
+xmlparser.set(???, true)
+
+xmlparser.set("doctype", "myDocType")
+xmlparser.set("schema", "mySchema")
+xmlparser.parse(???)
 ```
-- www
-  - css
-  - images
-    - promo
-  - js
 
-```
-
-`cd ???/???/???`
-
-* ..
-* images
-* promo
-* www
-* js
-* .
-* ^
+* "http://apache.org/xml/features/disallow-doctype-decl"
+* "disable"
+* untrustedXML
+* parse
+* "secure"
 
 ---
 ## Revision
 
-Revision questions are shown without the insight, and users may never have seen the content. Use a code example or multiple choice question.
+Parse the XML with an external schema and doctype rather than reading it from the document:
+```python
+include xmlparser
 
+untrustedXML = request.body
+
+xmlparser.set("http://apache.org/xml/features/disallow-doctype-decl", true)
+
+xmlparser.set("doctype", "myDocType")
 ???
+xmlparser.parse(untrustedXML)
+```
 
-* right answer
-* wrong answer
-* wrong answer 2
+* xmlparser.set("schema", "mySchema")
+* xmlparser.set("doctype", "myDocType")
+* xmlparser.parse(untrustedXML)
+* untrustedXML = request.body

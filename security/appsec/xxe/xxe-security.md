@@ -21,13 +21,12 @@ category: best practice
 
 
 standards:
-  topic-slug.standard-slug.objective-number: points (10 for insights, 1000 for exercises)
+  security.xxe.0: 10
+  security.xxe.2: 10
 
 links:
   - '[XML Security Cheat Sheet](https://www.owasp.org/index.php/XML_Security_Cheat_Sheet)'
-  - '[link to deeper dive blog post](https://enki.com)'
-  - '[link to a video](https://enki.com)'
-  - '[link to a discussion](https://enki.com)'
+
 
 ---
 
@@ -47,6 +46,7 @@ These document attack vectors include improperly specified schemas allowing mali
 
 **Schema Poisoning** is considered to be within the Invalid XML Documents section, though these are technically correctly formed. Incorrect permissions can cause locally-defined schemas (schemas defined within the document users send) to execute remote code. Because Schema Poisoning need not be from the originating user (it can be accomplished with man-in-the-middle attacks), defend against this layer by not relying on client-side validation, which is what locally-defined schemas are.
 
+Bookmark this insight to get the cheatsheet for insecure practices, which contains examples of the attack vectors above with mitigation strategies.
 
 ---
 ## Practice
