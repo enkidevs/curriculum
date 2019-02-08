@@ -79,7 +79,7 @@ standards:
       2: Disable verbose error reporting and stack trace leakage
       3: Ensure software is updated to the current Most Secure version
       4: Review cloud configurations, including service availability, access control and authentication
-      4: Establish a review cadence that is appropriate to the level of risk
+      5: Establish a review cadence that is appropriate to the level of risk
   analyze-dependencies:
     name: Analyze project dependencies to find identified vulnerabilities
     description: This standard deals with one's ability to use an open-source tool or list to analyze project dependencies for documented security issues or vulnerabilities with open-source dependencies.
