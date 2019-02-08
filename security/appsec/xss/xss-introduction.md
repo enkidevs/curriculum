@@ -7,14 +7,21 @@ levels:
 
   - beginner
 
+aspects:
+  - introduction
+  - workout
+
 type: normal
 
-category: must-know
+category: hack
+
+standards:
+  security.xss.1: 10
 
 links:
 
-  - >-
-    [owasp.org](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)){website}
+  - '[owasp.org](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)){website}'
+  - '[OWASP Top Ten](https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf){pdf}'
 
 ---
 # XSS (Cross-Site Scripting) Introduction
@@ -40,7 +47,7 @@ window.location="http://www.mysite.com/"
 ```
 Upon sending this comment, any users that then visit this page will be redirected to my website.
 
-This method can be used to steal cookies-- a chunk of data used in authenticating a user.
+This method can be used to steal cookies-- a chunk of data used in authenticating a user, redirect users to phishing websites, and other potential exploits.
 
 ---
 ## Practice
@@ -67,6 +74,7 @@ Hi, great site. Too bad I hacked it!
 ===
 [SEND]
 ```
+
 * script
 * window
 * global
