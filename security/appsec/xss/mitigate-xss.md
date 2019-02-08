@@ -58,6 +58,7 @@ Follow these simple rules for mitigating XSS vulnerability. **Bookmark this insi
 ## Practice
 
 What is the best way to prevent XSS attacks?
+???
 
 * Escape untrusted data before doing anything with it
 * Prevent free-form entry fields
