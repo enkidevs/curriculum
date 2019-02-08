@@ -31,7 +31,7 @@ links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin){website}'
 
 standards:
-  javascipt.es6-extensions-standard-library.1: 10
+  javascript.es6-extensions-standard-library.1: 10
 
 aspects:
   - introduction

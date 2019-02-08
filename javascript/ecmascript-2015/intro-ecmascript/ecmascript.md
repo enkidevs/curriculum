@@ -4,7 +4,7 @@ author: alexjmackey
 levels:
   - beginner
   - basic
-  - intermediate
+  - medium
   - advanced
 
 aspects:

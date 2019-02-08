@@ -31,7 +31,7 @@ tags:
   - es6
 
 standards:
-  javascipt.es6-extensions-standard-library.1: 10
+  javascript.es6-extensions-standard-library.1: 10
 
 links:
 
