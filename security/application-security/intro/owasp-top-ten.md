@@ -41,15 +41,23 @@ Bookmark this insight to get a link in your email of the overall list.
 ---
 ## Practice
 
+What's the number one most important tool used to secure applications?
 
+???
+
+* checklists and processes
+* an up-to-the-minuite awareness of vulnerabilities
+* up-to-date virus scanning tools
+* a passion for information security
 
 ---
 ## Revision
 
-Revision questions are shown without the insight, and users may never have seen the content. Use a code example or multiple choice question.
+What is the best way to find out if there is a dependency in your application that has a vulnerability?
 
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+* use an automated dependency checker
+* manually review each dependency
+* require developers to register any new dependencies before they use them
+* ban all dependencies
