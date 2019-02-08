@@ -96,3 +96,10 @@ standards:
       0: Identify relevant news sources that discuss vulnerabilities and mitigation strategies in detail
       1: Identify relevant communities that participate in vulnerability research and mitigation
       2: Identify relevant events to participate in the application security industry
+  automated-tools:
+    name: Use automated tools to scan for vulnerabilities
+    description: This standard deals with the use of common automated checkers and tools to validate source code or perform black box testing or automatic port scanning.
+    objectives:
+      0: Use a network monitoring tool to detect vulnerable network devices
+      1: Use a vulnerability scanner to scan for common application vulnerabilities
+      2: Use a cracking tool to thwart cryptographic security measures

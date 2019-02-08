@@ -17,13 +17,15 @@ category: how to
 
 
 standards:
-  topic-slug.standard-slug.objective-number: points (10 for insights, 1000 for exercises)
+  security.automated-tools.0: 10
+  security.automated-tools.1: 10
+  security.automated-tools.2: 10
 
 links:
-  - '[link to official documentation](https://enki.com)'
+  - '[OWASP ZAP (a vulnerability scanning tool)](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project)'
   - '[A roundup of hacker tools](https://www.concise-courses.com/hacking-tools/top-ten/)'
-  - '[link to a video](https://enki.com)'
-  - '[link to a discussion](https://enki.com)'
+  - '[NodeGoat- a vulnerable node.js server you can download to test and validate tools](https://github.com/OWASP/NodeGoat)'
+  - '[An exercise using automated tools with the NodeGoat server](https://f0.holisticinfosecforwebdevelopers.com/chap06.html#process-agile-development-and-practices-security-regression-testing)'
 
 ---
 
