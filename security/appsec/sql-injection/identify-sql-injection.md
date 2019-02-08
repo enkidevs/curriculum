@@ -38,12 +38,18 @@ links:
 
 Use this query (you may have to modify it to suit your data model) to test for basic SQL injection problems on any input:
 ```sql
-SELECT * FROM Users WHERE Username='1' OR '1' = '1' AND Password='1' OR '1' = '1'
+SELECT * FROM Users
+WHERE Username='1'
+OR '1' = '1'
+AND Password='1'
+OR '1' = '1'
 ```
 
 You can also look for any string concatenation within ORM statements:
 ```
-Orders.find_all "customer_id = 123 AND order_date = '#{@params['order_date']}'"
+Orders.find_all
+"customer_id = 123 AND
+order_date = '#{@params['order_date']}'"
 ```
 
 
@@ -65,7 +71,9 @@ SELECT * FROM Users WHERE Username='???'
 
 Craft input such that you are returned all of the orders
 ```
-Orders.find_all "customer_id = 123 AND order_date = '#{@params['order_date']}'"
+Orders.find_all
+"customer_id = 123 AND
+order_date = '#{@params['order_date']}'"
 ```
 Input: ???
 
