@@ -11,7 +11,8 @@ category: how to
 aspects:
   - introduction
   - workout
-
+standards:
+  javascript.es6-extensions-standard-library.1: 10
 links:
   - '[msdn.microsoft.com](https://msdn.microsoft.com/en-us/library/br212485(v=vs.94).aspx){website}'
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray){website}'
@@ -77,4 +78,3 @@ What are **Typed Arrays** made of ?
 * views and streams
 * arrays and buffers
 * iterators and arrays
- 

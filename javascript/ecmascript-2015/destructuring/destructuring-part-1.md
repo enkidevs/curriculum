@@ -18,6 +18,8 @@ inAlgoPool: false
 links:
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){website}'
 
+standards:
+  javascript.destructuring.0: 10
 ---
 # Destructuring (Part 1)
 
@@ -118,4 +120,3 @@ console.log(b)
 * 0
 * undefined
 * null
- 
