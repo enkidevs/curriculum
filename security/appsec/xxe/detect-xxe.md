@@ -21,7 +21,8 @@ category: how to
 
 
 standards:
-  topic-slug.standard-slug.objective-number: points (10 for insights, 1000 for exercises)
+  security.xxe.0: 10
+  security.xxe.1: 10
 
 links:
   - '[XXE Processing](https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Processing)'
