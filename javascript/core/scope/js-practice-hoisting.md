@@ -14,6 +14,10 @@ link: http://www.codewars.com/kata/5504b15fd181b977c30001d5/train/javascript
 
 linkType: codewars
 
+
+aspects:
+  - workout
+
 links:
 
   - '[MDN - Hoisting](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)'
