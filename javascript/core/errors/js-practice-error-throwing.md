@@ -11,6 +11,10 @@ type: exercise
 
 link: https://www.codewars.com/kata/error-throwing-error-handling-number-2
 linkType: codewars
+
+aspects:
+  - workout
+  
 standards:
 
   javascript.exceptions.0: 1000
