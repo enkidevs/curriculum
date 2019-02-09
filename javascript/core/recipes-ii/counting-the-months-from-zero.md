@@ -18,6 +18,7 @@ tags:
 
 aspects:
   - workout
+  - deep
 
 
 ---
