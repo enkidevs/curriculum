@@ -9,6 +9,9 @@ levels:
 
 type: exercise
 
+aspects:
+  - workout
+
 link: http://www.codewars.com/kata/572059afc2f4612825000d8a
 linkType: codewars
 standards:
