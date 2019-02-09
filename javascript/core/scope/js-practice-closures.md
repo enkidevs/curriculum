@@ -19,6 +19,10 @@ standards:
   javascript.functions.4: 1000
   javascript.functions.6: 1000
 
+
+aspects:
+  - workout
+
 links:
 
   - '[MDN - Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function)'
