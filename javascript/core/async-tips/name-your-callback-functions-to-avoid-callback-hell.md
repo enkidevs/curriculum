@@ -13,6 +13,12 @@ standards:
   javascript.functions.3: 10
   javascript.control-flow.5: 10
 
+aspects:
+  - workout
+  - deep
+  - obscura
+
+
 links:
   - '[callbackhell.com](http://callbackhell.com/){blog}'
 
