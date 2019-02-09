@@ -14,6 +14,9 @@ category: tip
 
 notes: 3 more questions? curr up to 11
 
+aspects:
+  - workout
+
 standards:
   javascript.evaluate-expressions.1: 1000
   javascript.evaluate-expressions.3: 1000
