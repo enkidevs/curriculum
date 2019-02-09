@@ -11,6 +11,10 @@ type: exercise
 
 link: https://www.codewars.com/kata/throw-from-list-error-handling-number-3
 linkType: codewars
+
+aspects:
+  - workout
+  
 standards:
 
   javascript.exceptions.0: 1000
