@@ -16,6 +16,9 @@ standards:
   javascript.standard-library.0: 1000
   javascript.write-expressions.0: 1000
 
+aspects:
+  - workout
+  
 links:
 
   - '[MDN - String class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)'
