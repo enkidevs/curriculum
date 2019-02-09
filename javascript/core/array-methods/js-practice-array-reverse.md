@@ -17,6 +17,9 @@ standards:
   javascript.write-expressions.0: 1000
   javascript.data-types-structures.6: 1000
 
+aspects:
+  - workout
+  
 links:
 
   - '[MDN - Array class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)'
