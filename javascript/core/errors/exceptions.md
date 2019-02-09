@@ -32,9 +32,9 @@ links:
 
 
 aspects:
-  - introduction
+  - deep
   - workout
-
+  - obscura
 
 ---
 
