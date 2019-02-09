@@ -13,6 +13,9 @@ type: fillTheGap
 
 category: tip
 
+aspects:
+  - workout
+
 standards:
   javascript.write-expressions.0: 1000
   javascript.evaluate-expressions.3: 1000
