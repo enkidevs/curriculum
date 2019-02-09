@@ -25,6 +25,9 @@ tags:
 
   - double-tilde
 
+aspects:
+  - workout
+  - deep
 
 
 
