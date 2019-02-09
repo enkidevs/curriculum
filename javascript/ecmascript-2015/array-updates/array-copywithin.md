@@ -30,6 +30,8 @@ links:
 
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin){website}'
 
+standards:
+  javascript.es6-extensions-standard-library.1: 10
 
 aspects:
   - introduction
@@ -116,5 +118,3 @@ ints.copyWithin(???,???,???)
 * 8
 * 9
 * 0
-
- 
