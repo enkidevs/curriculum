@@ -13,6 +13,10 @@ standards:
 
   javascript.standard-library.5: 10
 
+aspects:
+  - deep
+  - obscura
+
 
 links:
 
