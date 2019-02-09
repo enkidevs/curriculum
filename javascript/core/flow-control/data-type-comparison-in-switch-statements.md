@@ -25,7 +25,7 @@ links:
   - '[www.standardista.com](http://www.standardista.com/javascript/15-common-javascript-gotchas){website}'
 
 
-aspects
+aspects:
   - workout
   - deep
 
