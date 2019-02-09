@@ -18,6 +18,11 @@ standards:
   javascript.functions.5: 10
 
 
+aspects:
+  - deep
+  - workout
+
+
 links:
 
   - '[ryanmorr.com](http://ryanmorr.com/understanding-scope-and-context-in-javascript/){website}'
