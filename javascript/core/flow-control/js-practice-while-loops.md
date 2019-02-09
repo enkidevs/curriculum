@@ -7,6 +7,9 @@ levels:
 
   - basic
 
+aspects:
+  - workout
+  
 type: exercise
 
 link: http://www.codewars.com/kata/57216d4bcdd71175d6000560
