@@ -16,6 +16,10 @@ category: tip
 standards:
   javascript.functions.5: 1000
 
+aspects:
+  - workout
+
+
 ---
 
 # Think you know Javascript?
