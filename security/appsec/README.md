@@ -8,6 +8,7 @@ sections:
     - xss
     - xxe
     - sql-injection
+    - deserialization
 
 standards:
   sql-injection:
