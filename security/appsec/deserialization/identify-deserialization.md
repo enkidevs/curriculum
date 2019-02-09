@@ -94,7 +94,12 @@ price = request.body['price']
 if (request.body['admin']) {
   price = 0
 }
-db.insert("orders", user=request.body["user_id"], price=price, items=request.body['cart'])
+db.insert(
+  model="orders",
+  user=request.body["user_id"], 
+  price=price,
+  items=request.body['cart']
+)
 ```
 
 My Order:
