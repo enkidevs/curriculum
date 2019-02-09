@@ -17,6 +17,9 @@ standards:
 
   javascript.evaluate-expressions.3: 10
 
+aspects:
+  - workout
+  - deep
 
 
 
