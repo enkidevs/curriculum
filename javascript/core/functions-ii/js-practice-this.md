@@ -17,6 +17,8 @@ standards:
   javascript.execution-context.3: 1000
   javascript.execution-context.4: 1000
 
+aspects:
+  - workout
 links:
 
   - '[MDN - this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)'
