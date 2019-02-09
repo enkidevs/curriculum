@@ -18,7 +18,10 @@ standards:
   javascript.standard-library.2: 1000
   javascript.write-expressions.0: 1000
   javascript.evaluate-expressions.0: 1000
-
+  
+aspects:
+  - workout
+  
 links:
 
   - '[MDN - Math class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)'
