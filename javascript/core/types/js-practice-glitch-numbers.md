@@ -17,6 +17,9 @@ tags:
 type: exercise
 
 
+aspects:
+  - workout
+
 
 linkType: glitch
 link: https://glitch.com/edit/#!/remix/enki-javascripting-6
