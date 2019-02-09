@@ -11,7 +11,9 @@ levels:
 tags:
 
   - introduction
+  
 aspects:
+  - workout
   - introduction
 
 type: exercise
