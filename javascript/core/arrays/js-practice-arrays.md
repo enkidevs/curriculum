@@ -15,6 +15,9 @@ tags:
 
 type: exercise
 
+aspects:
+  - workout
+
 
 
 linkType: glitch
