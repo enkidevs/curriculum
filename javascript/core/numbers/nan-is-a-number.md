@@ -10,6 +10,12 @@ type: normal
 
 category: caveats
 
+aspects:
+  - introduction
+  - new
+  - deep
+  - obscura
+
 standards:
   javascript.evaluate-expressions.1: 10
 
