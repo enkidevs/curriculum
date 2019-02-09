@@ -19,6 +19,11 @@ standards:
 
   javascript.execution-context.3: 10
 
+aspects:
+  - deep
+  - obscura
+  - workout
+
 
 links:
 
