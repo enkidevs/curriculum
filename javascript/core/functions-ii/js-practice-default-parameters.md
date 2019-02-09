@@ -11,6 +11,9 @@ type: exercise
 
 link: https://www.codewars.com/kata/default-plus-rest-plus-spread
 linkType: codewars
+
+aspects:
+  - workout
 standards:
 
   javascript.functions.0: 1000
