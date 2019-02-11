@@ -21,6 +21,7 @@ standards:
 
 
 aspects:
+  - introduction
   - workout
 
 links:
