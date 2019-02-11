@@ -23,7 +23,7 @@ answer: /some\sregex/ (optional)
 
 
 aspects:
-  - workout
+  - introduction
 
 
 standards:
