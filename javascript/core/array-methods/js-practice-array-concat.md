@@ -16,6 +16,7 @@ standards:
   javascript.write-expressions.0: 1000
 
 aspects:
+  - introduction
   - workout
   
 links:
