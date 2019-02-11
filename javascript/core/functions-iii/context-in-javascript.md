@@ -21,7 +21,7 @@ standards:
 
 aspects:
   - deep
-  - obscura
+  - introduction
   - workout
 
 
