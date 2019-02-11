@@ -13,7 +13,8 @@ tags:
   - introduction
 
 aspects:
-  - workouts
+  - introduction
+  - workout
 
 type: exercise
 
