@@ -10,12 +10,18 @@ levels:
 type: exercise
 
 link: http://www.codewars.com/kata/the-coupon-code
+
 linkType: codewars
+
 standards:
 
   javascript.standard-library.5: 1000
   javascript.write-expressions.0: 1000
 
+aspects:
+  - introduction
+  - workout
+  
 links:
 
   - '[MDN - Date class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)'

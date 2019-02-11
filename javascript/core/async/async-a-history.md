@@ -20,7 +20,6 @@ tags:
 
 aspects:
   - introduction
-  - workout
   - obscura
 
 
