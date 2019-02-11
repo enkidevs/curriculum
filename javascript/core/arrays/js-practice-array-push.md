@@ -10,6 +10,7 @@ levels:
 type: exercise
 
 aspects:
+  - introduction
   - workout
 
 link: http://www.codewars.com/kata/572af273a3af3836660014a1
