@@ -18,6 +18,10 @@ standards:
   javascript.standard-library.2: 10
 
 
+aspects:
+  - introduction
+  - workout
+  - obscura
 
 
 ---
