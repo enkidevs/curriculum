@@ -18,6 +18,7 @@ standards:
   javascript.data-types-structures.6: 1000
 
 aspects:
+  - introduction
   - workout
   
 links:
