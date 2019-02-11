@@ -5,10 +5,6 @@ levels:
   - beginner
   - basic
 
-aspects:
-  - introduction
-  - workout
-
 type: exercise
 
 link: http://www.codewars.com/kata/sort-by-last-char
@@ -16,7 +12,7 @@ link: http://www.codewars.com/kata/sort-by-last-char
 linkType: codewars
 
 aspects:
-  - deep
+  - introduction
   - workout
   
 standards:
