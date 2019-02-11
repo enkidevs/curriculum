@@ -17,6 +17,7 @@ standards:
   javascript.functions.5: 1000
 
 aspects:
+  - introduction
   - workout
 
 
