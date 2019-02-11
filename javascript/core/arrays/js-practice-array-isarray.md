@@ -8,6 +8,7 @@ levels:
   - basic
   
 aspects:
+  - introduction
   - workout
 
 type: exercise
