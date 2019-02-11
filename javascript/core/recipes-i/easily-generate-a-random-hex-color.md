@@ -24,6 +24,7 @@ standards:
 aspects:
   - workout
   - deep
+  - obscura
 
 links:
 
