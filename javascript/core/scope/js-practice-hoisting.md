@@ -16,6 +16,7 @@ linkType: codewars
 
 
 aspects:
+  - introduction
   - workout
 
 links:
