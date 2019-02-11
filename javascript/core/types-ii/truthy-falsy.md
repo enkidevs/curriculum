@@ -23,8 +23,8 @@ tags:
   - introduction
 
 aspects:
+  - introduction
   - workout
-  - obscura
 
 
 ---
