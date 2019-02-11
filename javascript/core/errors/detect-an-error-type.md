@@ -29,7 +29,7 @@ links:
   - '[davidwalsh.name](https://davidwalsh.name/detect-error-type-javascript){website}'
 
 aspects:
-  - deep
+  - introduction
   - workout
 
 
