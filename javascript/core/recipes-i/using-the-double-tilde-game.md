@@ -14,6 +14,7 @@ type: fillTheGap
 category: tip
 
 aspects:
+  - introduction
   - workout
 
 standards:
