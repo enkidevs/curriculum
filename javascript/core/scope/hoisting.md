@@ -27,7 +27,7 @@ tags:
 notes: ''
 
 aspects:
-  - deep
+  - introduction
   - workout
 
 
