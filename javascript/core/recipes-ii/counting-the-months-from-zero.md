@@ -17,7 +17,9 @@ tags:
   - workout
 
 aspects:
+  - introduction
   - workout
+  - obscura
 
 
 ---

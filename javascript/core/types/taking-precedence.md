@@ -13,6 +13,9 @@ type: fillTheGap
 
 category: tip
 
+aspects:
+  - workout
+
 standards:
   javascript.javascript-syntax.2: 1000
   javascript.write-expressions.0: 1000

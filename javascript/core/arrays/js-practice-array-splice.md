@@ -8,10 +8,15 @@ levels:
   - basic
 
 type: exercise
+
 aspects:
   - introduction
+  - workout
+
 link: http://www.codewars.com/kata/572cb264362806af46000793
+
 linkType: codewars
+
 standards:
   javascript.evaluate-expressions.6: 1000
   javascript.evaluate-expressions.7: 1000
