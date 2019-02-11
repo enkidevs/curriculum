@@ -26,8 +26,8 @@ tags:
   - double-tilde
 
 aspects:
+  - introduction
   - workout
-  - deep
 
 
 
