@@ -35,7 +35,6 @@ aspects:
   - introduction
   - workout
 
-
 ---
 
 # Exceptions

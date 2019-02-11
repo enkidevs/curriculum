@@ -12,16 +12,17 @@ levels:
 type: fillTheGap
 
 category: must-know
-
 aspects:
   - introduction
   - new
   - workout
-
 links:
 
   - '[MDN - Destructuring](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){documentation}'
 
+standards:
+  javascript.destructuring.0: 1000
+  javascript.destructuring.1: 1000
 ---
 
 # Destructuring assignments
