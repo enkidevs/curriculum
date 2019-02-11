@@ -13,6 +13,7 @@ link: https://www.codewars.com/kata/throw-from-list-error-handling-number-3
 linkType: codewars
 
 aspects:
+  - introduction
   - workout
   
 standards:
