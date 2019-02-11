@@ -1,20 +1,20 @@
-name: Ecmascript 2015
+name: ECMAscript
 
-description: The sixth edition of Ecmascript. Get up to speed with the new syntax for writing complex applications, including classes, modules, arrow functions and more.
+description: The ever-evolving specification that governs the unified syntax of the JavaScript Ecosystem. Learn how to use new syntax and understand how to deal with the many, many versions of ECMAScript you'll need to support as a JavaScript Developer.
 
 sections:
   '0':
     - intro-ecmascript
     - function-improvements
-    - string-number-extensions
+    - number-extensions
     - array-updates
   '1':
     - destructuring
+    - string-upgrades
     - spread-map-set-math
     - string-flexibility
   '2':
     - classes-modules
-    - es6-quirks
     - promises
     - symbol
   '3':
@@ -108,6 +108,14 @@ standards:
       0: Use a Proxy to handle property lookup and assignment
       1: Use a Proxy to handle function invocation
       2: Use Reflect to use the internal default behavior of proxy methods
+  es6-modules:
+    name: Use native ES6 Modules to import code
+    description: Use the native ES6 `import` syntax to import a module, as distinct from the CommonJS `require()`
+    objectives:
+      0: Import a module
+      1: Import named components of a module
+      2: Export a module
+      3: Export multiple named components of a module
 
 next:
   - javascript:browser-apis
