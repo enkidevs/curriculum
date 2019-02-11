@@ -18,6 +18,7 @@ standards:
   javascript.exceptions.2: 1000
 
 aspects:
+  - introduction
   - workout
   
 links:
