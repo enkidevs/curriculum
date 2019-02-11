@@ -35,6 +35,7 @@ tags:
 
 aspects:
   - workout
+  - obscura
   - deep
 
 

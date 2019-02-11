@@ -21,6 +21,10 @@ standards:
 
   javascript.standard-library.1: 10
 
+aspects:
+  - workout
+  - deep
+  - obscura
 
 links:
 

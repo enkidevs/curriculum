@@ -7,6 +7,10 @@ levels:
 
 type: normal
 
+aspects:
+  - introduction
+  - workout
+
 category: feature
 
 tags:
