@@ -22,6 +22,8 @@ tags:
 
 aspects:
   - introduction
+  - workout
+  - obscura
 
 links:
 

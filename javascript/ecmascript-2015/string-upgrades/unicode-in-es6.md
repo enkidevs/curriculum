@@ -19,6 +19,9 @@ aspects:
   - workout
   - deep
 
+standards:
+  javascript.es6-extensions-standard-library.2: 10
+
 links:
 
   - '[ponyfoo.com](https://ponyfoo.com/articles/es6-strings-and-unicode-in-depth){website}'
@@ -94,5 +97,3 @@ How are Javascript strings represented?
 * UTF-8
 * UTF-32
 * US-ASCII
-
- 

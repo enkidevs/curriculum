@@ -17,6 +17,11 @@ standards:
 
   javascript.execution-context.1: 10
 
+aspects:
+  - deep
+  - workout
+
+
 
 links:
 

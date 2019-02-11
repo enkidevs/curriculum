@@ -24,7 +24,8 @@ notes: 'Same issue, not sure if it''s not really really basic.'
 
 aspects:
   - introduction
-
+  - obscura
+  - workout
 
 ---
 # Keywords in hash keys

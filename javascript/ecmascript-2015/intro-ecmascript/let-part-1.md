@@ -11,6 +11,9 @@ category: tip
 aspects:
   - introduction
 
+standards:
+  javascript.new-declaration-keywords.0: 10
+
 inAlgoPool: false
 
 links:
@@ -89,4 +92,3 @@ console.log(window.enki)
 * undefined
 * enki
 * error
- 

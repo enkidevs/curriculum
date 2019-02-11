@@ -13,6 +13,9 @@ tags:
 
 type: exercise
 
+aspects:
+  - workout
+
 link: https://www.codewars.com/kata/grasshopper-order-of-operations/train/javascript
 linkType: codewars
 standards:
