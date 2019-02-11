@@ -15,6 +15,7 @@ category: tip
 notes: 3 more questions? curr up to 11
 
 aspects:
+  - introduction
   - workout
 
 standards:
