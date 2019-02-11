@@ -24,6 +24,7 @@ links:
 aspects:
   - introduction
   - workout
+  - obscura
 
 
 ---
