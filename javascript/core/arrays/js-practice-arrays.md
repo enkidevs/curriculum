@@ -16,6 +16,7 @@ tags:
 type: exercise
 
 aspects:
+  - introduction
   - workout
 
 
