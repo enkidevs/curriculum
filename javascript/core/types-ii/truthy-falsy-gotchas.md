@@ -26,6 +26,8 @@ links:
 
 aspects:
   - introduction
+  - workout
+
 
 
 ---
