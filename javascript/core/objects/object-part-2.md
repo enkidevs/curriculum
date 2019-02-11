@@ -20,8 +20,7 @@ tags:
   - introduction
 
 aspects:
-  - deep
-  - obscura
+  - introduction
   - workout
 
 
