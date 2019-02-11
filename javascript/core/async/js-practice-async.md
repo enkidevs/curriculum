@@ -15,6 +15,10 @@ standards:
 
   javascript.async.0: 1000
 
+aspects:
+  - deep
+  - workout
+
 links:
 
   - '[MDN - Async function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)'

@@ -31,6 +31,7 @@ tags:
 
 aspects:
   - workout
+  - obscura
   - deep
 
 links:
