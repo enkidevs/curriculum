@@ -33,7 +33,7 @@ links:
 
 
 aspects:
-  - introduction
+  - deep
   - workout
 
 

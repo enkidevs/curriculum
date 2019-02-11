@@ -26,7 +26,7 @@ tags:
   - deep
 
 aspects:
- - introduction
+ - obscura
  - workout
  - deep
 
