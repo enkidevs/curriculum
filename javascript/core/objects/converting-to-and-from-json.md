@@ -8,8 +8,7 @@ levels:
 type: normal
 
 aspects:
-  - deep
-  - obscura
+  - introduction
   - workout
 
 category: feature
