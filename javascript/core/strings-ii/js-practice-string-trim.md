@@ -11,6 +11,11 @@ type: exercise
 
 link: http://www.codewars.com/kata/5729b103dd8bac11a900119e
 linkType: codewars
+
+aspects:
+  - introduction
+  - workout
+  
 standards:
 
   javascript.standard-library.0: 1000
