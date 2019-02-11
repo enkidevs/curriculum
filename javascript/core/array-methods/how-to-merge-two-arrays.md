@@ -22,7 +22,6 @@ tags:
 
 aspects:
   - introduction
-  - deep
   - workout
   
 links:
