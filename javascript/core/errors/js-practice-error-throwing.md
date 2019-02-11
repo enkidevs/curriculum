@@ -13,6 +13,7 @@ link: https://www.codewars.com/kata/error-throwing-error-handling-number-2
 linkType: codewars
 
 aspects:
+  - introduction
   - workout
   
 standards:
