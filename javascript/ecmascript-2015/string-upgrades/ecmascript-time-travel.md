@@ -13,6 +13,9 @@ type: fillTheGap
 
 category: tip
 
+standards:
+  javascript.es6-extensions-standard-library.2: 10
+
 aspects:
 
   - introduction

@@ -5,16 +5,16 @@ levels:
   - beginner
   - basic
 
-aspects:
-  - introduction
-  - workout
-
 type: exercise
 
 link: http://www.codewars.com/kata/sort-by-last-char
 
 linkType: codewars
 
+aspects:
+  - introduction
+  - workout
+  
 standards:
   javascript.data-types-structures.4: 1000
   javascript.functions.0: 1000

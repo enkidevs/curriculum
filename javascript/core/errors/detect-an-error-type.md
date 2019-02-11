@@ -28,7 +28,6 @@ links:
 
   - '[davidwalsh.name](https://davidwalsh.name/detect-error-type-javascript){website}'
 
-
 aspects:
   - introduction
   - workout

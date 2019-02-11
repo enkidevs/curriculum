@@ -4,15 +4,15 @@ author: lizTheDeveloper
 levels:
 
   - beginner
-
   - basic
-
 
 tags:
 
   - introduction
+  
 aspects:
   - introduction
+  - workout
 
 type: exercise
 

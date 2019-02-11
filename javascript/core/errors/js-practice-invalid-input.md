@@ -17,6 +17,10 @@ standards:
   javascript.exceptions.1: 1000
   javascript.exceptions.2: 1000
 
+aspects:
+  - introduction
+  - workout
+  
 links:
 
   - '[MDN - try..catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)'
