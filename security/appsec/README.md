@@ -1,6 +1,6 @@
 name: Application Security
 
-description: "'; DROP TABLE Topics;"
+description: "AKA: Defense Against The Dark Arts"
 
 sections:
   '0':
@@ -88,11 +88,9 @@ standards:
     name: Analyze project dependencies to find identified vulnerabilities
     description: This standard deals with one's ability to use an open-source tool or list to analyze project dependencies for documented security issues or vulnerabilities with open-source dependencies.
     objectives:
-      0: Analyze a JavaScript project's dependencies for security vulnerabilities
-      1: Analyze a Python project's dependencies for security vulnerabilities
-      2: Analyze a Java project's dependencies for security vulnerabilities
-      3: Analyze a Ruby project's dependencies for security vulnerabilities
-      4: Mitigate security vulnerabilities by upgrading vulnerable packages uncovered with an analysis tool
+      0: Identify the dependencies of an application, including their specific version number
+      1: Analyze a project's dependencies for security vulnerabilities using an analysis tool
+      2: Mitigate security vulnerabilities by upgrading vulnerable packages uncovered with an analysis tool
   security-feed:
     name: Use community-sourced lists of vulnerability and mitigation techniques to advance your security practice
     description: This standard deals with building a personal news feed that keeps you current on the fast-moving security field.

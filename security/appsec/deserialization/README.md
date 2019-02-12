@@ -1,6 +1,6 @@
 name: Deserialization
 
-description: Description of the workout goes here
+description: Defense against Deserialization exploits 
 
 insights:
   - deserialization
