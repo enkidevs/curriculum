@@ -29,7 +29,7 @@ aspects:
 
 
 ---
-# Event delivery?
+# Event delivery
 
 ---
 ## Content
