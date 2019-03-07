@@ -35,7 +35,6 @@ links:
   - '[OWASP: Using Using Components with Known Vulnerabilities](https://www.owasp.org/index.php/Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities)'
   - '[NPM Audit - Automatic Fix](https://blog.npmjs.org/post/173719309445/npm-audit-identify-and-fix-insecure)'
   - '[Vulnerability remediation process](https://resources.whitesourcesoftware.com/blog-whitesource/3-essential-steps-for-your-vulnerability-remediation-process)'
-  - '[link to a discussion](https://enki.com)'
 
 ---
 
