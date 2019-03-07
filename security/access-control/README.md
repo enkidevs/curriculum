@@ -1,11 +1,10 @@
 name: Access Control
 
-description: Description of the workout goes here
+description: Maintain Access Control
 
 insights:
-  - insight-slug-1
-  - insight-slug-2
-
-exercises:
-  - practice-exercise-slug-1
-  - practice-exercise-slug-2
+  - broken-access-control
+  - identify-broken-access-control
+  - fix-broken-access-control
+  - monitor-broken-access-control
+  - process-control-broken-access-control
