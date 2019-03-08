@@ -26,6 +26,7 @@ Application Security is a diverse field that means more than just keeping curren
 
 If you'd like to learn more about application security, you should make sure you have a strong grounding on the following:
 
+- The __Open Systems Interconnection Model__ (OSI Model) (covered in this course)
 - At least one scripting language (even bash, check out our other topics)
 - Network Protocols (check our Networking course!)
 - Operating Systems
@@ -34,7 +35,6 @@ If you'd like to learn more about application security, you should make sure you
 The next topics to explore, once you have those ready:
 
 - Automated Exploit Tooling
-- The OSI Model
 - Intrusion Detection Tooling
 - Cryptography
 
