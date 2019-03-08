@@ -27,6 +27,7 @@ standards:
   security.broken-access-control.2: 10
 
 links:
+  - '[OWASP Top Ten](https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf)'
   - '[Burp Suite Scanner](https://portswigger.net/burp)'
   - '[Observatory by Mozilla](https://observatory.mozilla.org/)'
   - '[Postman](https://www.getpostman.com/)'
@@ -41,6 +42,24 @@ links:
 SAST (Source Abstract Syntax Tree) and DAST (Dynamic Abstract Syntax Tree) tools can read source code to detect access control vulnerabilities. Similarly, web crawlers and automated scanners are particularly effective at identifying access control vulnerabilities. If you use a commonly known web application framework, known vulnerabilities for that framework can be scanned for access control issues.
 
 Largely this vulnerability comes from absentmindedness in the development process. It is simply that web developers implement access control as the last step in the process, when a product or feature is still in development but is pushed into a demo-able state, or is left unfinished. Sometimes it comes from application framework components that are not protected by default.
+
+From OWASP, examples of common access control vulnerabilities:
+
+* Bypassing access control checks by modifying the URL,
+internal application state, or the HTML page, or simply using a
+custom API attack tool.
+* Allowing the primary key to be changed to another users
+record, permitting viewing or editing someone else's account.
+* Elevation of privilege. Acting as a user without being logged in,
+or acting as an admin when logged in as a user.
+* Metadata manipulation, such as replaying or tampering with a
+JSON Web Token (JWT) access control token or a cookie or
+hidden field manipulated to elevate privileges, or abusing JWT
+invalidation
+* CORS misconfiguration allows unauthorized API access.
+* Force browsing to authenticated pages as an unauthenticated
+user or to privileged pages as a standard user. Accessing API
+with missing access controls for POST, PUT and DELETE.
 
 To identify issues in your application:
 

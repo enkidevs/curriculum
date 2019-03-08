@@ -4,13 +4,13 @@ author: lizTheDeveloper
 levels:
 
   - beginner
-  
+
   - basic
-  
+
   - medium
-  
+
   - advanced
-  
+
 aspects:
 
   - introduction
@@ -26,7 +26,7 @@ type: normal
 category: best practice
 
 
-standards: 
+standards:
   topic-slug.standard-slug.objective-number: points (10 for insights, 1000 for exercises)
 
 links:
@@ -42,43 +42,29 @@ links:
 ---
 ## Content
 
-Start by writing the questions- what are you trying to show the user how to do?
-Write the Practice first, then the Revision. Then come back to the content.
+Access control prevention starts in the software engineering process. Each requirement for the application should be throughly defined in terms of which users need what credentials and access levels to access it.
+
+During code review, developers should look for application resources that are not protected by access control and question it. Even a simple definition of "all logged in users may access this resource" may prevent an automated web crawler from exfiltrating data. Ensure data routes are not wide open to the public internet without credentials.
+
+Ensure that access control checks based on the software requirements are written into any automated test suites.
 
 ---
 ## Practice
 
-This question will be shown with the insight, and users will have just read the content.
-It's best to use a code example here.
+Where should automated checks for access control go?
 
-example:
-Given this directory structure, change directories **from** `www/css` **to** `www/images/promo`:
-```
-- www
-  - css
-  - images
-    - promo
-  - js
+???
 
-```
-
-`cd ???/???/???`
-
-* ..
-* images
-* promo
-* www
-* js
-* .
-* ^
+* Automated test suites
+* Manual scans before release
+* Alarms on anomalous access control patterns
 
 ---
 ## Revision
 
-Revision questions are shown without the insight, and users may never have seen the content. Use a code example or multiple choice question.
-
+When should application resources be checked for proper access control configuration?
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+* During code review
+* quarterly
+* continuously
