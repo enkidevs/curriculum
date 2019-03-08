@@ -9,6 +9,9 @@ sections:
     - xxe
     - sql-injection
     - deserialization
+  '1':
+    - dependency-analysis
+    - access-control
 
 standards:
   sql-injection:
