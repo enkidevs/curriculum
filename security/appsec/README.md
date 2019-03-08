@@ -12,6 +12,7 @@ sections:
   '1':
     - dependency-analysis
     - access-control
+    - security-misconfiguration
 
 standards:
   sql-injection:

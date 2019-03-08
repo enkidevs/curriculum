@@ -1,11 +1,10 @@
-name: dependency-analysis
+name: Dependency Analysis
 
-description: Description of the workout goes here
+description: Don't use components with known vulnerabilities
 
 insights:
-  - insight-slug-1
-  - insight-slug-2
-
-exercises:
-  - practice-exercise-slug-1
-  - practice-exercise-slug-2
+  - known-vulnerabilities
+  - analyze-dependencies
+  - scan-dependencies
+  - establish-upgrade-process
+  - upgrade-process-cadence
