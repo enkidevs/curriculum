@@ -4,9 +4,9 @@ author: lizTheDeveloper
 levels:
 
   - beginner
-  
+
   - basic
-  
+
 aspects:
 
   - introduction
@@ -16,14 +16,14 @@ type: normal
 category: best practice
 
 
-standards: 
-  topic-slug.standard-slug.objective-number: points (10 for insights, 1000 for exercises)
+standards:
+  security.configure-security.1: 10
+  security.configure-security.3: 10
 
 links:
-  - '[link to official documentation](https://enki.com)'
-  - '[link to deeper dive blog post](https://enki.com)'
-  - '[link to a video](https://enki.com)'
-  - '[link to a discussion](https://enki.com)'
+  - '[OWASP Testing Guide for Configuration Management](https://www.owasp.org/index.php/Testing_for_configuration_management){website}'
+  - '[OWASP Testing guide for HTTP Error Codes](https://www.owasp.org/index.php/Testing_for_Error_Code_(OTG-ERR-001)){website}'
+  - '[Using Metasploit to do a port scan](https://www.youtube.com/watch?v=CYB6Uta9VTI){video}'
 
 ---
 
@@ -32,43 +32,33 @@ links:
 ---
 ## Content
 
-Start by writing the questions- what are you trying to show the user how to do?
-Write the Practice first, then the Revision. Then come back to the content.
+One of the best ways to check to see if you have default settings that are vulnerable is to use an automated scanner. A manual inventory of the application components is still required to identify automated scanners for each part of the application stack.
+
+Check with tools like metasploit, with scripts that are tailored for your application framework. There are tools written specifically to check for vulnerabilities in Wordpress, Ruby on Rails, etc.
+
+Once someone writes a framework that automates common application tasks, someone, somewhere on the internet sets out to find vulnerabilities to take advantage of the default settings of that framework. Check the default settings, and the security recommendations of each framework and library in your application stack.
+
+Bookmark this insight to receive links to the OWASP testing guides, Metasploit video tutorials, and more.
 
 ---
 ## Practice
 
-This question will be shown with the insight, and users will have just read the content.
-It's best to use a code example here.
+A ??? of the ??? is required to identify ??? for each part of the application.
 
-example:
-Given this directory structure, change directories **from** `www/css` **to** `www/images/promo`:
-```
-- www
-  - css
-  - images
-    - promo
-  - js
-
-```
-
-`cd ???/???/???`
-
-* ..
-* images
-* promo
-* www
-* js
-* .
-* ^
+* manual inventory
+* application components
+* automated scanners
+* pentester
+* hacking team
+* AI hacker
 
 ---
 ## Revision
 
-Revision questions are shown without the insight, and users may never have seen the content. Use a code example or multiple choice question.
-
+What is a cause of hackers to develop automated attacks for application components:
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+* when the default security settings are vulnerable
+* when too many people set their settings to insecure settings
+* when they're hosted on windows
+* when a phishing attack is successful

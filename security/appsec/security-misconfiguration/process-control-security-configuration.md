@@ -4,13 +4,13 @@ author: lizTheDeveloper
 levels:
 
   - beginner
-  
+
   - basic
-  
+
   - medium
-  
+
   - advanced
-  
+
 aspects:
 
   - introduction
@@ -26,14 +26,11 @@ type: normal
 category: best practice
 
 
-standards: 
-  topic-slug.standard-slug.objective-number: points (10 for insights, 1000 for exercises)
-
-links:
-  - '[link to official documentation](https://enki.com)'
-  - '[link to deeper dive blog post](https://enki.com)'
-  - '[link to a video](https://enki.com)'
-  - '[link to a discussion](https://enki.com)'
+standards:
+  security.configure-security.4: 10
+  security.configure-security.1: 10
+  security.configure-security.2: 10
+  security.configure-security.5: 10
 
 ---
 
@@ -42,43 +39,34 @@ links:
 ---
 ## Content
 
-Start by writing the questions- what are you trying to show the user how to do?
-Write the Practice first, then the Revision. Then come back to the content.
+The right time to review security settings on a cloud service is before it lands in production. After running automated tools, review default settings for cloud services prior to deployment to production. To help empower application developers, help review new cloud service integrations during the code review stage.
+
+There is a great deal of pushback from the information security industry about Cloud Services. Cloud services save a great deal of time and money on the cost of custom software development- the use of new cloud services is inevitable in modern development.
+
+Perform a penetration test on the service for the development or stage server to ensure that attackers cannot inappropriately access data. Most cloud service providers will have documentation or support professionals that can speak to the most common security misconfigurations. If there is no documentation or you need help, most cloud services offer paid support and training. Even half an hour of paid support time is worth knowing exactly how to configure the settings to prevent common attacks.
+
 
 ---
 ## Practice
 
-This question will be shown with the insight, and users will have just read the content.
-It's best to use a code example here.
+The right time to review security settings on a cloud service is ???.
 
-example:
-Given this directory structure, change directories **from** `www/css` **to** `www/images/promo`:
-```
-- www
-  - css
-  - images
-    - promo
-  - js
-
-```
-
-`cd ???/???/???`
-
-* ..
-* images
-* promo
-* www
-* js
-* .
-* ^
+* before it lands in production
+* before developers decide on the tool
+* before budget is allocated for a new tool
+* quarterly
+* annually
 
 ---
 ## Revision
 
-Revision questions are shown without the insight, and users may never have seen the content. Use a code example or multiple choice question.
+Cloud service providers have ??? to help with ???.
 
-???
+The cost of data compromise is ??? than the cost of an hour of paid support.
 
-* right answer
-* wrong answer
-* wrong answer 2
+* support staff
+* security configuration
+* greater than
+* less than
+* no one
+* application development
