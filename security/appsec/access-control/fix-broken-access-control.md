@@ -41,8 +41,8 @@ Fixing broken access control means adding automated checks in places that you've
 
 From OWASP:
 > Access control is only effective if enforced in trusted server-side
-code or server-less API, where the attacker cannot modify the
-access control check or metadata.
+> code or server-less API, where the attacker cannot modify the
+> access control check or metadata.
 
 OWASP suggestions for prevention:
 

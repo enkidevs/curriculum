@@ -47,7 +47,12 @@ price = request.body['price']
 if (request.body['admin']) {
   price = 0
 }
-db.insert("orders", user=request.body["user_id"], price=price, items=request.body['cart'])
+db.insert(
+  "orders",
+  user=request.body["user_id"],
+  price=price,
+  items=request.body['cart']
+)
 ```
 
 The above code is vulnerable to both application logic tampering (the `admin` parameter can be modified, rendering the price 0!) and data tampering (if I know your user ID I can make orders on your behalf!)
@@ -62,7 +67,12 @@ price = request.body['price']
 if (request.body['admin']) {
   price = 0
 }
-db.insert("orders", user=request.body["user_id"], price=price, items=request.body['cart'])
+db.insert(
+  "orders",
+  user=request.body["user_id"],
+  price=price,
+  items=request.body['cart']
+)
 ```
 
 Response Body:
