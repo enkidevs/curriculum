@@ -8,11 +8,15 @@ levels:
   - basic
 
 type: exercise
+
 aspects:
   - introduction
   - workout
+
 link: http://www.codewars.com/kata/descending-order
+
 linkType: codewars
+
 standards:
 
   javascript.functions.0: 1000

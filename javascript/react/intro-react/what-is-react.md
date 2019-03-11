@@ -38,7 +38,7 @@ Many developers have adopted this library because of these key features:
  - **virtual DOM**: the `DOM`-like in-memory data structure cache used to efficiently update the real `DOM`
 
 
-**React** is an open-source project that was released in 2013 and already became the 5th most starred project on **GitHub**. Due to the large number of contributors, this library is improving at a rapid pace.
+**React** is an open-source project that was released in 2013 and has already become one of the top 5 starred projects on **GitHub**. Due to the large number of contributors, this library is improving at a rapid pace.
 
 
 Being built with performance in mind, **React** has become the first choice for both beginners and experts of Front-End Web Development.

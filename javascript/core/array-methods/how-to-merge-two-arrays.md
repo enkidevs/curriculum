@@ -19,10 +19,11 @@ tags:
   - workout
   - arrays
 
+
 aspects:
   - introduction
   - workout
-
+  
 links:
   - '[davidwalsh.name](https://davidwalsh.name/merge-arrays-javascript){website}'
 

@@ -17,6 +17,9 @@ standards:
   javascript.data-types-structures.6: 10
   javascript.functions.4: 10
 
+aspects:
+  - introduction
+  - workout
 
 
 notes: ''
