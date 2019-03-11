@@ -27,13 +27,7 @@ category: best practice
 
 
 standards:
-  topic-slug.standard-slug.objective-number: points (10 for insights, 1000 for exercises)
-
-links:
-  - '[link to official documentation](https://enki.com)'
-  - '[link to deeper dive blog post](https://enki.com)'
-  - '[link to a video](https://enki.com)'
-  - '[link to a discussion](https://enki.com)'
+  security.analyze-dependencies.2: 10
 
 ---
 
@@ -50,7 +44,7 @@ For highly-secure applications which must contain no known vulnerabilities (HIPA
 
 For applications that feel like they don't fall into either of the above bucket, consider what secure data you do store. You may store payment tokens (from a payment gateway) or passwords that users may be reusing elsewhere. Maybe you have a small userbase and you've never been under attack because "no one knows about you".
 
-Treat security debt as technical debt that is unpredictable; more like an earthquake than a hurricane. Once exploits are developed, attackers will write them into scripts that anyone can run. A proliferation of bots will begin to crawl the web looking for vulnerable targets, and at that point you are a simple opportunistic data grab. Often this occurs without you even realizing it, so don't wait for some alarm to go off somewhere. **The probability that you'll be breached from a known vulnerable component rises over time proportional to the number of detectable affected users.** 
+Treat security debt as technical debt that is unpredictable; more like an earthquake than a hurricane. Once exploits are developed, attackers will write them into scripts that anyone can run. A proliferation of bots will begin to crawl the web looking for vulnerable targets, and at that point you are a simple opportunistic data grab. Often this occurs without you even realizing it, so don't wait for some alarm to go off somewhere. **The probability that you'll be breached from a known vulnerable component rises over time proportional to the number of detectable affected users.**
 
 ---
 ## Practice
@@ -67,10 +61,10 @@ When will you find out that your data has been compromised?
 ---
 ## Revision
 
-Revision questions are shown without the insight, and users may never have seen the content. Use a code example or multiple choice question.
+The probability that you'll be breached from a known vulnerable component ??? over time proportional to ???.
 
-???
-
-* right answer
-* wrong answer
-* wrong answer 2
+* rises
+* the number of detectable affected users
+* falls
+* the number of active prevention measures in place
+* the number of hackers that know about the vulnerability
