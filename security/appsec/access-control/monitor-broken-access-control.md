@@ -66,13 +66,13 @@ Why does logging and monitoring access control help identify access control vuln
 ---
 ## Revision
 
-Make sure to log what information in order to properly monitor access control violations:
+Make sure to log what information in order to properly monitor access control violations:  
 
-* The IP address, geolocation, and other identifying data about the client
-* the ??? presented
-* The time and date
-* The resource visited and action taken
-* The result of ???
+The IP address, geolocation, and other identifying data about the client  
+The ??? presented  
+The time and date  
+The resource visited and action taken  
+The result of ???  
 
 * credential
 * the determination of the validity of the credential

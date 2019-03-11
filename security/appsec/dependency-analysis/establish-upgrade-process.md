@@ -62,11 +62,11 @@ In order to determine an upgrade process, and how quickly it should happen:
 
 What order should these steps be taken in?
 
-0. ???
-1. ???  
-2. ???
-3. ???
-4. ???
+???
+???  
+???
+???
+???
 
 * Check your local government's laws and requirements on data safety.
 * Determine what data from your application must be immediately protected.

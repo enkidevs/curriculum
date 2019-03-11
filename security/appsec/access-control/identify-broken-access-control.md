@@ -84,9 +84,9 @@ What information do I need to know about my application in order to create autom
 
 What order to these steps go in to identify access control issues in your organization?
 
-1. ???
-2. ???
-3. ???
+???
+???
+???
 
 * Identify all available resources in your application
 * Determine and document the proper access requirements for that resource

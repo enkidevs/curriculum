@@ -89,11 +89,11 @@ Fixing broken access control involves first ??? broken access control, then addi
 
 What order do these steps go in, to fix broken access control?
 
-0. ???
-1. ???
-2. ???
-3. ???
-4. ???
+???
+???
+???
+???
+???
 
 * Produce a report of access control misconfigurations
 * Add checks to each resource that validate the user's presented credential
