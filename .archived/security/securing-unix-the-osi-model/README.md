@@ -16,13 +16,13 @@ sections:
     - application-layer
  
 standards:
-  describe-osi-model:
+  describe-osi-model-old:
     name: Describe the 7 Layers of the OSI Network Model
     description: This standard deals with defining, arranging and describing the 7 layers of the OSI 7 Layer Model and explaining its function.
     objectives:
       0: Arrange the 7 OSI Layers by level of Abstraction
       1: Describe the purpose of the OSI model
-  identify-osi-layers:
+  identify-osi-layers-old:
     name: Identify Each Layer of the OSI Network Model
     description: This standard deals with identifying each OSI Layer and explain their role in the stack.
     objectives:
@@ -33,7 +33,7 @@ standards:
       4: Identify and Explain the function of the Session Layer
       5: Identify and Explain the function of the Presentation Layer
       6: Identify and Explain the function of the Application Layer
-  apply-osi-layer-security:
+  apply-osi-layer-security-old:
     name: Apply the Appropriate Controls to Minimize Vulnerability in Each Layer
     description: This standard deals with identifying vulnerabilities in each OSI Layer, and applying controls to mitigate risk therein
     objectives:
