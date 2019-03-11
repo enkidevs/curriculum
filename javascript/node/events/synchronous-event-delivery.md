@@ -29,7 +29,7 @@ aspects:
 
 
 ---
-# Synchronous event delivery
+# Event delivery
 
 ---
 ## Content

@@ -14,6 +14,11 @@ standards:
   javascript.data-types-structures.0: 1000
   javascript.standard-library.2: 1000
   javascript.evaluate-expressions.1: 1000
+  
+  
+aspects:
+  - introduction
+  - workout
 
 ---
 

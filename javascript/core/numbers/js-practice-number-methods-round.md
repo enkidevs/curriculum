@@ -12,8 +12,10 @@ tags:
 
 
 type: exercise
-
-
+  
+aspects:
+  - introduction
+  - workout
 
 linkType: glitch
 link: https://glitch.com/edit/#!/remix/x/a9909ccc-153f-4f6f-ab27-0dce08125823

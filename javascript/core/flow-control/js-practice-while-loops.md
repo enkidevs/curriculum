@@ -7,10 +7,15 @@ levels:
 
   - basic
 
+aspects:
+  - introduction
+  
 type: exercise
 
 link: http://www.codewars.com/kata/57216d4bcdd71175d6000560
+
 linkType: codewars
+
 standards:
 
   javascript.control-flow.0: 1000
