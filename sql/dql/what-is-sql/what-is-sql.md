@@ -40,9 +40,7 @@ SELECT * FROM users;
 ---
 ## Practice
 
-Have you ever used SQL before? Even if you haven't, it's meant to be readable by a human.
-
-See if you can get all the information from a table called `items`:
+Which of the queries below will output all the information from the `items` table?
 
 ???
 
@@ -55,7 +53,7 @@ See if you can get all the information from a table called `items`:
 ---
 ## Revision
 
-How do you select all the rows and columns from a table called `products`?
+How do you select all the rows and columns from the `products` table?
 
 ???
 
