@@ -40,7 +40,7 @@ _Relational Databases_ store data in _tables_, which are similar to a spreadshee
 
 SQL has two main parts, the Query part, and the Definition part. DDL stands for Data Definition Language, and that is how we define data the tables contain.
 
-Here's an example of how we might define a table:
+Here's an example of how a table can be created and defined:
 
 ```sql
 CREATE TABLE users (
@@ -51,7 +51,7 @@ CREATE TABLE users (
 
 This is executed on the *Database Server*, and the database server creates space for it.
 
-Then we could query it like so:
+Then we could query it like this:
 
 ```sql
 SELECT * FROM users;
@@ -62,7 +62,7 @@ We query from the *Database Client*.
 ---
 ## Practice
 
-How do you think we could create a table called `products`?
+How do you think we could create a table called `products`? Fill in the gap below.
 
 ```sql
 ??? (
