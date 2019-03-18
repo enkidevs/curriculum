@@ -62,7 +62,7 @@ We query from the *Database Client*.
 ---
 ## Practice
 
-How do you think we could create a table called `products`? Fill in the gap below.
+How do you think we could create the `products` table?
 
 ```sql
 ??? (
