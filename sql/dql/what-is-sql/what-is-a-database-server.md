@@ -24,11 +24,11 @@ links:
 ---
 ## Content
 
-The term **database server** can mean two different things. It might refer to a computer program (*software*) that allows clients to perform actions such as populating and querying databases. It can also refer to the physical *hardware* where data is stored.
+The term **database server** can mean two different things. It can refer to a computer program (*software*) that allows clients to perform actions like populating and querying databases. It can also refer to the physical *hardware* where data is stored.
 
 In the *hardware* sense, a database server is a machine dedicated to performing database storage and retrieval.
 
-For small applications, the application and its database will usually be hosted on the same computer, meaning they won't need to communicate over a network.
+For small applications, the application and its database will usually be hosted on the same computer, which means they won't need to communicate over a network.
 
 In applications with high volumes of data transactions, the database will typically be stored on a server or *cluster* of servers that is separate from the application host.
 
@@ -37,7 +37,7 @@ When referring to the *software*, a database server is the program that receives
 ---
 ## Practice
 
-The software on which information in a database is *stored* is called
+The software on which information in a database is *stored* is called:
 
 ???
 
