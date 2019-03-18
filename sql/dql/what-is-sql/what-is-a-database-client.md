@@ -1,5 +1,5 @@
 ---
-author: Nick Daminov
+author: nickdaminov
 
 levels:
 
@@ -50,7 +50,7 @@ Some of the Database Clients can act as one or both of the following things:
 ---
 ## Practice
 
-The software through which information in a database is *queried* is called
+The software through which information in a database is *queried* is called the:
 
 ???
 
