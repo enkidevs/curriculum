@@ -84,7 +84,7 @@ Results:
   User1
   User2
 
-````
+```
 
 * `'; SELECT * FROM USERS;`
 * `SELECT * FROM USERS`
