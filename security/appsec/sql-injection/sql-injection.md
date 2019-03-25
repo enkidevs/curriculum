@@ -79,12 +79,12 @@ What form data would you enter into the following form to get a simple search en
 ------
 Product Search: _________
 ------
-???
 Results:
-  User1
-  User2
-
+User1
+User2
 ```
+
+???
 
 * `'; SELECT * FROM USERS;`
 * `SELECT * FROM USERS`
