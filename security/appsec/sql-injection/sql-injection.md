@@ -76,12 +76,8 @@ Side note: Now you get the joke in the course description!
 
 What form data would you enter into the following form to get a simple search engine to return all users instead of product search results?
 ```
-------
-Product Search: _________
-------
+Product Search: _______
 Results:
-User1
-User2
 ```
 
 ???
