@@ -33,8 +33,6 @@ standards:
 links:
   - '[Common Vulnerabilities and Exposures](https://cve.mitre.org/index.html)'
   - '[National Vulnerability Database](https://nvd.nist.gov/)'
-  - '[link to a video](https://enki.com)'
-  - '[link to a discussion](https://enki.com)'
 
 ---
 
@@ -43,7 +41,7 @@ links:
 ---
 ## Content
 
-Using components that have known vulnerabilities can leave your application open to automated attack vectors. The Common Vulnerabilities and Exposures database has known vulnerabilities searchable by _ application, library, vulnerability, or component_.
+Using components that have known vulnerabilities can leave your application open to automated attack vectors. The Common Vulnerabilities and Exposures database has known vulnerabilities searchable by _application, library, vulnerability, or component_.
 
 OWASP marks the prevalence of use of known vulnerable components as a 3- high, which means lots of people do this.
 

@@ -34,15 +34,16 @@ links:
 
 Injection is not a new technique- attackers have been injecting input with malicious data for a long time.
 Consider this URL example:
-
-  http://sensitive/cgi-bin/
+```
+http://sensitive/cgi-bin/
   userData.pl?doc=user1.txt
+```
 
 Now what would happen, if a malicious user were to change it to this:
-
-  http://sensitive/cgi-bin/
+```
+http://sensitive/cgi-bin/
   userData.pl?doc=/bin/ls|
-
+```
 This will execute the command `/bin/ls`.
 
 

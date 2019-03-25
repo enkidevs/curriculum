@@ -30,8 +30,6 @@ standards:
 links:
   - '[link to official documentation](https://enki.com)'
   - '[HTTP Status Codes (cats)](https://http.cat/)'
-  - '[link to a video](https://enki.com)'
-  - '[link to a discussion](https://enki.com)'
 
 ---
 

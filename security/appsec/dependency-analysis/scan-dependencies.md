@@ -69,7 +69,8 @@ There are many scanning tools for source code available on the market, many of t
 
 
 
-Bookmark this insight for links to all the resources above, and a link to _edit this insight_ if you have recommendations or see out of date tools.
+Bookmark this insight for links to all the resources above. Use the _edit this insight_ feature if you have recommendations or see out of date tools.
+
 ---
 ## Practice
 

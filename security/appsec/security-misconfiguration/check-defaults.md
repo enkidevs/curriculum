@@ -21,9 +21,9 @@ standards:
   security.configure-security.3: 10
 
 links:
-  - '[OWASP Testing Guide for Configuration Management](https://www.owasp.org/index.php/Testing_for_configuration_management){website}'
-  - '[OWASP Testing guide for HTTP Error Codes](https://www.owasp.org/index.php/Testing_for_Error_Code_(OTG-ERR-001)){website}'
-  - '[Using Metasploit to do a port scan](https://www.youtube.com/watch?v=CYB6Uta9VTI){video}'
+  - '[OWASP Testing Guide for Configuration Management](https://www.owasp.org/index.php/Testing_for_configuration_management)'
+  - '[OWASP Testing guide for HTTP Error Codes](https://www.owasp.org/index.php/Testing_for_Error_Code_(OTG-ERR-001))'
+  - '[Using Metasploit to do a port scan](https://www.youtube.com/watch?v=CYB6Uta9VTI)'
 
 ---
 

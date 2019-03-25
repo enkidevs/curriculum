@@ -69,8 +69,8 @@ xmlparser.parse(???)
 ```
 
 * "disallowDoctypeDec"
-* "disable"
 * untrustedXML
+* "disable"
 * parse
 * "secure"
 

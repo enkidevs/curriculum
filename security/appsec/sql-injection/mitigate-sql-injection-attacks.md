@@ -49,37 +49,24 @@ Bookmark this insight for links to SQL Injection Cheat Sheets that will help you
 ---
 ## Practice
 
-This question will be shown with the insight, and users will have just read the content.
-It's best to use a code example here.
+What step _might not_ help you mitigate SQL injection attacks?
 
-example:
-Given this directory structure, change directories **from** `www/css` **to** `www/images/promo`:
-```
-- www
-  - css
-  - images
-    - promo
-  - js
+???
 
-```
+* Block all user input
+* Evaluate your ORM for SQL Injection vulnerability reports
+* Always escape and sanitize inputs
+* Log SQL Injection attempts to detect hostile IPs
 
-`cd ???/???/???`
-
-* ..
-* images
-* promo
-* www
-* js
-* .
-* ^
 
 ---
 ## Revision
 
-Revision questions are shown without the insight, and users may never have seen the content. Use a code example or multiple choice question.
+What step _might not_ help you mitigate SQL injection attacks?
 
 ???
 
-* right answer
-* wrong answer
-* wrong answer 2
+* Block all user input
+* Evaluate your ORM for SQL Injection vulnerability reports
+* Always escape and sanitize inputs
+* Log SQL Injection attempts to detect hostile IPs

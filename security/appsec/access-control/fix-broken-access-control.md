@@ -64,11 +64,11 @@ automated attack tooling.
 
 
 In order to fix broken access control issues:
-0. Produce a report of access control misconfigurations
-1. Add checks to each resource that validate the user's presented credential
-2. Return the proper HTTP status code for failing attempts
-3. Apply process control measures to your development process to prevent future errors
-4. Check for broken access control during your review cadence
+1. Produce a report of access control misconfigurations
+2. Add checks to each resource that validate the user's presented credential
+3. Return the proper HTTP status code for failing attempts
+4. Apply process control measures to your development process to prevent future errors
+5. Check for broken access control during your review cadence
 
 
 
