@@ -96,3 +96,4 @@ sort3: initialArray {
 * sort1, sort3, sort2
 * sort3, sort1, sort2
 * They are all just as fast
+
