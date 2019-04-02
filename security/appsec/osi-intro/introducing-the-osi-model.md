@@ -38,7 +38,6 @@ The __Open Systems Interconnection Model__ (OSI Model) is a model for standardiz
 
 The model is displayed as a stack to show that each Layer requires every other layer below it to function, but does not need _any_ of the layers above it to function. For example the bottom-most layer (the Physical Layer) is the physical wiring needed to transmit electrical current throughout the network. All the services above it need this to function, but the physical wires themselves do not have any dependencies.
 
-
 The following lessons will go into detail about the responsibilities of each layer and how it functions in a network. No two networks are the same, and as such the goal of the OSI Model is to be less of a hard rule and more of a flexible guideline.
 
 ---

@@ -46,7 +46,7 @@ Using components that have known vulnerabilities can leave your application open
 OWASP marks the prevalence of use of known vulnerable components as a 3- high, which means lots of people do this.
 
 You're the most vulnerable to this type of attack vector when you do not have a list of dependencies and their specific, fixed version numbers. Newer versions _can_ introduce new security flaws, so it's not as simple as always keeping your libraries up to date. Early in development this is an acceptable practice, but any significant public-facing traffic will quickly leave your application vulnerable.
-
+ 
 ---
 ## Practice
 

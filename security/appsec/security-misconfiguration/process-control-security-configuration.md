@@ -45,7 +45,6 @@ There is a great deal of pushback from the information security industry about C
 
 Perform a penetration test on the service for the development or stage server to ensure that attackers cannot inappropriately access data. Most cloud service providers will have documentation or support professionals that can speak to the most common security misconfigurations. If there is no documentation or you need help, most cloud services offer paid support and training. Even half an hour of paid support time is worth knowing exactly how to configure the settings to prevent common attacks.
 
-
 ---
 ## Practice
 

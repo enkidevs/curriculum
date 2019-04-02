@@ -41,7 +41,7 @@ Deserialization vulnerability exposes two main vectors of attack:
 * Data tampering, where client-side logic is thwarted by modifying calls to the server
 
 Bookmark this insight to receive a link to the OWASP guides on detecting and preventing deserialization vulnerability.
-
+ 
 ---
 ## Practice
 

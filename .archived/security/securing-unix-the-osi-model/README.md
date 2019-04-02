@@ -42,3 +42,4 @@ standards:
       4: Recognize vulnerabilities to the Session Layer and Apply controls
       5: Recognize vulnerabilities to the Presentation Layer and Apply controls
       6: Recognize vulnerabilities to the Application Layer and Apply controls
+

@@ -51,7 +51,7 @@ In your application, ensure that all access to the system is logged, but _especi
 * The result of the determination of the validity of the credential
 
 The reasoning behind the last one is that if a user is attempting to use a credential that is not valid, you may be able to identify anomalous use based on some pattern of use. For example, a web-crawler may systematically try each URL in turn with a credential it believes to be valid, but a user may not exhibit this behavior. You may or may not put automated defenses at this level, but this is undoubtedly helpful for diagnosing credentials that are being abused.
-
+ 
 ---
 ## Practice
 

@@ -42,7 +42,7 @@ In order to prevent data tampering, **do not pass entire user state from point t
 If you must send state to a user and be sure it has not been tampered with, you can use an **Integrity Check**.
 
 When user input cannot be deserialized, or it throws an exception, make sure that exception is **logged**, so you can correlate that exception with drains on server resources.
-
+ 
 ---
 ## Practice
 

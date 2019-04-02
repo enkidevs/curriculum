@@ -47,7 +47,7 @@ These document attack vectors include improperly specified schemas allowing mali
 **Schema Poisoning** is considered to be within the Invalid XML Documents section, though these are technically correctly formed. Incorrect permissions can cause locally-defined schemas (schemas defined within the document users send) to execute remote code. Because Schema Poisoning need not be from the originating user (it can be accomplished with man-in-the-middle attacks), defend against this layer by not relying on client-side validation, which is what locally-defined schemas are.
 
 Bookmark this insight to get the cheatsheet for insecure practices, which contains examples of the attack vectors above with mitigation strategies.
-
+ 
 ---
 ## Practice
 

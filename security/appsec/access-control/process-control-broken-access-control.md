@@ -43,7 +43,7 @@ Access control prevention starts in the software engineering process. Each requi
 During code review, developers should look for application resources that are not protected by access control and question it. Even a simple definition of "all logged in users may access this resource" may prevent an automated web crawler from exfiltrating data. Ensure data routes are not wide open to the public internet without credentials.
 
 Ensure that access control checks based on the software requirements are written into any automated test suites.
-
+ 
 ---
 ## Practice
 

@@ -39,7 +39,6 @@ Much of your practice as a Security Engineer means finding and monitoring lists 
 
 Bookmark this insight to receive links to other resources and lists of best practices to get started. Take a look once per day if you want to get really immersed in the information security world. Take a look once per week if you're trying to stay very on top of vulnerabilities for your every-day job as your main responsibility. Take a look once a month if you're looking to be an extremely up-to-date application engineer.
 
-
 ---
 ## Practice
 

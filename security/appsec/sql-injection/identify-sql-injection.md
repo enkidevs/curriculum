@@ -52,7 +52,6 @@ Orders.find_all
 order_date = '#{@params['order_date']}'"
 ```
 
-
 ---
 ## Practice
 

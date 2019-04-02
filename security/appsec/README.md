@@ -1,7 +1,7 @@
 name: Application Security
 
 description: "AKA: Defense Against The Dark Arts"
-
+ 
 core: true
 
 sections:

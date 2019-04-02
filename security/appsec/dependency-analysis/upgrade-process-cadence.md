@@ -45,7 +45,7 @@ For highly-secure applications which must contain no known vulnerabilities (HIPA
 For applications that feel like they don't fall into either of the above bucket, consider what secure data you do store. You may store payment tokens (from a payment gateway) or passwords that users may be reusing elsewhere. Maybe you have a small userbase and you've never been under attack because "no one knows about you".
 
 Treat security debt as technical debt that is unpredictable; more like an earthquake than a hurricane. Once exploits are developed, attackers will write them into scripts that anyone can run. A proliferation of bots will begin to crawl the web looking for vulnerable targets, and at that point you are a simple opportunistic data grab. Often this occurs without you even realizing it, so don't wait for some alarm to go off somewhere. **The probability that you'll be breached from a known vulnerable component rises over time proportional to the number of detectable affected users.**
-
+ 
 ---
 ## Practice
 

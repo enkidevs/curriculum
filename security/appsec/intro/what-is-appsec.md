@@ -37,7 +37,6 @@ This course aims to introduce you to common security patterns that you can follo
 
 In order to improve application security, we'll make use of many automated tools to make the process more automatic, and integrate it into your normal developer workflow.
 
-
 ---
 ## Practice
 

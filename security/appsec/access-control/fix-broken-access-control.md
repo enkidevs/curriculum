@@ -71,7 +71,7 @@ In order to fix broken access control issues:
 5. Check for broken access control during your review cadence
 
 
-
+ 
 ---
 ## Practice
 

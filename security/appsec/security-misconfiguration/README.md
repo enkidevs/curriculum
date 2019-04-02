@@ -9,3 +9,4 @@ insights:
   - use-automated-scanners
   - process-control-security-configuration
   - cloud-security-configuration
+

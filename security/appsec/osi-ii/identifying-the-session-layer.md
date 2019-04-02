@@ -36,7 +36,7 @@ parent: securing-the-transport-layer
 The Session Layer (Layer 5) is responsible for opening, closing, and managing a session between end-user applications. Sessions consist of requests and responses that are exchanged between applications. It also covers the services responsible for authentication, authorization, and __session checkpointing__.
 
 Session Checkpointing allows information from different streams, perhaps originating from different sources, to be properly combined or synchronized. For example, live TV utilizes session checkpointing to sync audio and video streams to avoid lip-syncing problems.
-
+ 
 ---
 ## Practice
 

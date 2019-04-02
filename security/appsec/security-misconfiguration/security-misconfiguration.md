@@ -41,7 +41,7 @@ links:
 Security Misconfiguration sounds like a broad topic- what it allows us to do as a concept is treat software configuration as an independent layer of security.
 
 Think about all of the cloud services you use, and what their settings were when you first set them up. Perhaps all ports on your database server were available to all IP addresses. Perhaps your Wordpress installation came with a default admin username and password. Perhaps there is a backdoor page that only internal employees know about, where you can write raw SQL against the database. These are all examples of security misconfiguration vulnerabilities.
-
+ 
 ---
 ## Practice
 

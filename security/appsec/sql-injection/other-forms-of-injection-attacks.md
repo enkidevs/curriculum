@@ -46,7 +46,6 @@ http://sensitive/cgi-bin/
 ```
 This will execute the command `/bin/ls`.
 
-
 ---
 ## Practice
 

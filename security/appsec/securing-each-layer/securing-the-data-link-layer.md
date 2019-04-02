@@ -38,7 +38,7 @@ __ARP Spoofing__ involves changing a device's factory-assigned MAC address to im
 Once a hacker is inside the network MAC addresses are easy to find, and this vulnerability becomes trivial to exploit. Controls for this vulnerability include __MAC Address Filtering__: setting up a whitelist of MAC addresses that can gain access to the networks, and using Ethernet switches that integrate ARP-Spoofing detection software.
 
 Another critical vulnerability to the Data Link Layer is the __packet storm__. A packet storm occurs in an unmanaged Ethernet switch when a data link connection is formed in the network topography that creates a loop. The unmanaged switch will start sending out packets in the loop indefinitely, creating white noise until it crashes. The switch will reboot and this process will repeat indefinitely. This will bring down every wired connection passing through the switch. This crash can only be resolved by physically terminating the loop, which becomes increasingly time consuming as a network increases in scale. To control this vulnerability, use __managed__ Ethernet switches. These employ the Spanning Tree Protocol(STP) to test incoming data links for network topography loops _before_ adding them to the network.
-
+ 
 ---
 ## Practice
 
