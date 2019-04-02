@@ -56,7 +56,7 @@ Cloud Security Configuration is a challenging area to perform an audit for, due 
 - Disable stack trace and verbose error reporting
 
 Bookmark this insight to receive a link to password managers.
-
+ 
 ---
 ## Practice
 

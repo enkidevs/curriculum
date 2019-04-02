@@ -55,7 +55,7 @@ example.com/admin_dashboard
 If the user who is logged in is not an administrator, and yet visiting that URL gives them access to administrator features not intended for access by that user, this would be an example of broken access control.
 
 The HTTP Status Code you should receive depends on what's wrong with the credential. When attempting to access a URL with a credential that is not on the list of authorized credentials, you want **401 Not Authorized**. Servers occasionally return a **403 Forbidden** or a **402 Payment Required** when users access a resource that is locked for a reason. Sometimes, servers return a **404 Not Found**, which is like denying the existence of the URL in the first place.
-
+ 
 ---
 ## Practice
 

@@ -48,7 +48,7 @@ window.location="http://www.mysite.com/"
 Upon sending this comment, any users that then visit this page will be redirected to my website.
 
 This method can be used to steal cookies-- a chunk of data used in authenticating a user, redirect users to phishing websites, and other potential exploits.
-
+ 
 ---
 ## Practice
 

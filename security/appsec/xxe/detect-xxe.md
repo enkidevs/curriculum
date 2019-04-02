@@ -43,7 +43,7 @@ Ask yourself these questions to determine if you are vulnerable:
 - Does my application accept unescaped XML?
 - Does my application accept external stylesheets for XML?
 
-
+ 
 The best way to detect if your XML processing is vulnerable is to check the library that you're using, to see if any vulnerabilities have been logged for it. Then, update the dependency to the safe version and configuration, as most libraries have been patched for quite some time.
 
 ### What if I have custom XML processing code?

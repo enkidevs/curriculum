@@ -46,7 +46,7 @@ Using this database we can determine which application dependencies (libraries, 
 In JavaScript, a dependency file means a `package.json` file. In ruby, this is your `gems.rb` file. In python, `requirements.txt` produced from `pip freeze` is where your dependencies can be found. **All applications should have a machine readable file describing the libraries and other assets**. You can search "languageName dependency file" to find which package manager a language uses, and what it's dependency file looks like.
 
 This file can be scanned with a tool. The search phrase "languageName vulnerability scanning tool".
-
+ 
 ---
 ## Practice
 

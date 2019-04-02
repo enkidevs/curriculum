@@ -70,7 +70,7 @@ records from the accounts table. More dangerous attacks could
 modify or delete data, or even invoke stored procedures.
 
 Side note: Now you get the joke in the course description!
-
+ 
 ---
 ## Practice
 

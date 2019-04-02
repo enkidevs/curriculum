@@ -41,7 +41,7 @@ To identify a request, use a **session token**, and use the session server to st
 If you must send state to a user and be sure it has not been tampered with, you can use an **Integrity Check**. **JSON Web Tokens** have a built-in integrity check, and are a great example of a way to represent claims securely between two parties. Bookmark this insight to receive a link.
 
 You can use an in-memory store often to store session tokens for later retrevial. Memcached, Redis, and other NoSQL databases are specifically designed to accommodate this type of task, instead offering O(1) access against a key.
-
+ 
 ---
 ## Practice
 

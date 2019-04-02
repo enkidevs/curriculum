@@ -33,7 +33,6 @@ If you'd like to learn more about application security, you should make sure you
 - How memory in a computer works, and where data is located at any given time
 
 The next topics to explore, once you have those ready:
-
 - Automated Exploit Tooling
 - Intrusion Detection Tooling
 - Cryptography

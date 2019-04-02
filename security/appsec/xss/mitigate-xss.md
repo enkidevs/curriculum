@@ -53,7 +53,7 @@ Follow these simple rules for mitigating XSS vulnerability. **Bookmark this insi
 - Use HTTPOnly cookie flag
 - Implement Content Security Policy
 - Use an Auto-Escaping Template System
-
+ 
 ---
 ## Practice
 

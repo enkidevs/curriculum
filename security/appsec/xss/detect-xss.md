@@ -48,7 +48,7 @@ In order to review source code to establish whether or not your application is v
 - Do all of my endpoints contain _server side validation_?
 
 Bookmark this insight to receive links to OWASP testing guides for XSS that you can use on your own applications.
-
+ 
 ---
 ## Practice
 

@@ -37,7 +37,7 @@ OWASP's Top Ten list is a great place to start for learning the practice of iden
 Start by reading the top ten list. Pick one vulnerability, and find an automated tool that will allow you to scan for it in your application, or follow the recommended mitigation strategy. During this course we'll provide you with one vulnerability and mitigation strategy per day, so keep up with your workouts and you'll be secure in no time!
 
 Bookmark this insight to get a link in your email of the overall list.
-
+ 
 ---
 ## Practice
 

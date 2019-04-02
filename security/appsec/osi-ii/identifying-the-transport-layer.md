@@ -33,7 +33,7 @@ parent: securing-the-network-layer
 ## Content
 
 The Transport Layer (Layer 4) is responsible for maintaining and ensuring the integrity of data streams from host-to-host connections over the Internet. It is the first layer to be conceptual, rather than physical. **Transmission Control Protocol(TCP)** is the namesake for this layer and plays a major role in it. TCP is utilized by email, HTTP, SSH, and FTP because it is reliable and checks for errors in the stream.
-
+ 
 ---
 ## Practice
 

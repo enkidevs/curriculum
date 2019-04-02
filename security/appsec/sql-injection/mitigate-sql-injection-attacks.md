@@ -45,7 +45,7 @@ A few other steps you can take:
 - Log SQL Injection attempts to detect hostile IPs
 
 Bookmark this insight for links to SQL Injection Cheat Sheets that will help you detect and mitigate SQL Injection risks.
-
+ 
 ---
 ## Practice
 

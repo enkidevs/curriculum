@@ -56,7 +56,7 @@ In order to determine an upgrade process, and how quickly it should happen:
 2. Scan your application for vulnerabilities
 3. Apply automatic patches where possible
 4. Schedule the upgrade of vulnerable components with the project lead
-
+ 
 ---
 ## Practice
 

@@ -48,7 +48,7 @@ First, identify all cloud accounts and application components requiring a userna
 Next, assess the settings of each interface between each part of the application stack from the OSI model. In more modern applications this means components like DNS routing settings, IP whitelists for cloud services, and CORS policy settings. Also review your developer user access restrictions settings. Ensure they are the minimum required settings- be sure the appropriate parties can manage the system _and still effectively innovate_ with minimum required access to secure systems.
 
 Last, run a progressive permissions-removal process for hardened secure systems to ensure the smallest number of sensitive credentials exist. Do this slowly, over time, and make sure you alert people that permissions will be removed with enough warning that they may petition to keep those permissions. Sometimes, use of a credential by an individual or another system is not properly documented, though the use of these credentials may be mission-critical. It's not an ideal situation, but it happens very often in any side of organization. The process is important here- receiving pushback means you may be hampering a team's ability to operate, so tread lightly.
-
+ 
 ---
 ## Practice
 

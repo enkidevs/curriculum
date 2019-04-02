@@ -68,7 +68,7 @@ To identify issues in your application:
 3. Scan your application by visiting that resource with each credential type and report which HTTP status code is reported back. (Paid vs unpaid users, different plan levels, logged in vs not logged in, has access to group vs does not have access, etc)
 
 Burp Suite, and Mozilla have a scanner that can help with this process. Postman can also be configured to use some kinds of authentication tokens to access resources.
-
+ 
 ---
 ## Practice
 
