@@ -29,7 +29,7 @@ standards:
 
 Python comes pre-installed on most Linux distributions and is available as packages or installers on all other operating systems. Everything you need to install Python can be found on:
 ```
-www.python.org/downloads
+e
 ```
 
 After installing Python, open a new terminal (Unix/MacOS) or PowerShell (Windows). Enter `python3` to run the Python REPL shell:
