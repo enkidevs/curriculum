@@ -31,7 +31,7 @@ parent: built-in-list-methods
 
 The `stack` abstract data structure is widely used in computer science. This collection is implemented to best fit the **LIFO** principle ( **last in**, **first out** ). Sometimes we need one data structure that behaves in such a manner.
 
-Even though `python` does not provide a special `stack` data structure, `list`'s can easily be used in the scope.
+Even though `python` does not provide a special `stack` data structure, `list`s can easily be used in the scope.
 
 ```python
 stack = [1,2,3]
@@ -72,17 +72,18 @@ stack.???
 
 What’s the output of the following code snippet:
 
-???
-
 ```python
 stack = [‘10’, ‘11’, ‘12’, ‘13’]
 stack.append(14)
 stack.append(15)
 stack.pop()
+print(stack)
+
+// ???
 ```
 
 
-* `15`
+* `['10', '11’, ’12', '13', 14]`
 * `14`
-* `10`
+* `15`
 * There’s no output...
