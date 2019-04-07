@@ -66,7 +66,7 @@ var animal = 'lion';
 var run = (animal === 'lion')? true:???;
 ```
 
-* 'false'
+* false
 * 'undefined'
 * 'null'
 * true
