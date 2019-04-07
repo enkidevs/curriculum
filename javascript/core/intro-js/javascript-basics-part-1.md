@@ -39,7 +39,7 @@ Like most languages, there are a number of reserved words in JavaScript that you
 
 ### Identifier naming rules
 
-When naming any function, property or variable, the first character must be a letter, $ sign or underscore.
+When naming any function, property or variable, the first character cannot be a letter, the `$` sign or an underscore.
 
 After the first character, you are free to use numbers, letters, dollar signs or underscores.
 
