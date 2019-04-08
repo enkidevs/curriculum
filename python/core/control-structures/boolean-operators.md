@@ -49,7 +49,7 @@ if str == 'boolean' or num > 2:
 ---
 ## Practice
 
-Complete the code snippet so that both conditions must evaluate to true for the word 'yes' to be printed:
+Complete the code snippet so that both conditions must evaluate to True for the word 'yes' to be printed:
 
 ```python
 x = 6
@@ -69,7 +69,7 @@ else:
 ---
 ## Revision
 
-Complete the code snippet so that at least one of the condition must evaluate to true for the word 'yes' to be printed:
+Complete the code snippet so that at least one of the condition must evaluate to True for the word 'yes' to be printed:
 
 ```python
 x = 6
