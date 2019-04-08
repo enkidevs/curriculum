@@ -73,17 +73,16 @@ print("This line isn't commented out!")
 What will this code print?
 ```
 if True:
-print("this is true")
+   print("this is true")
 else:
-print("this is false")
+   print("this is false")
 
 ```
 ???
 
-* `SyntaxError`
-* `True`
-* `False`
 * `"this is true"`
+* `True`
+* `False
 * `"this is false"`
 
 ---
