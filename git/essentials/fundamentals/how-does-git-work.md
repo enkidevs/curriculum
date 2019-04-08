@@ -51,7 +51,7 @@ You can store a snapshot of the data in the local repository by
 * `committing`
 * `tracking`
 * `creating a Git repository`
-* `doing nothig, Git saves them automatically`
+* `doing nothing, Git saves them automatically`
 
 ---
 ## Revision
