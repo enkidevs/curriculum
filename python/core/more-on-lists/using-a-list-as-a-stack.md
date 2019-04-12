@@ -31,7 +31,7 @@ parent: built-in-list-methods
 
 The `stack` abstract data structure is widely used in computer science. This collection is implemented to best fit the **LIFO** principle ( **last in**, **first out** ). Sometimes we need one data structure that behaves in such a manner.
 
-Even though `python` does not provide a special `stack` data structure, `list`s can easily be used in the scope.
+Even though python does not provide a special stack data structure, lists can easily be used in the scope.
 
 ```python
 stack = [1,2,3]
