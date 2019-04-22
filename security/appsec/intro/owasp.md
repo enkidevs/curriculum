@@ -33,22 +33,24 @@ links:
 ---
 ## Content
 
-The Open Web Application Security Project is part of a not-for-profit group that aggregates common security flaws and vulnerabilities in networked applications, and provides practical mitigation strategies (and isn't everything networked, these days?). This is one of the most newbie-friendly organizations that makes up the vast body of application security. The best investment of most people's time when doing Application Security is about finding these organizations that maintain lists of vulnerabilities and scanning tools, and using these lists and tools to search your application for vulnerabilities.
+OWASP (short for The Open Web Application Security Project) is part of a not-for-profit group that aggregates common security flaws and vulnerabilities in networked applications, and provides practical mitigation strategies. This is one of the most newbie-friendly organizations that makes up the vast body of application security. 
 
-Much of your practice as a Security Engineer means finding and monitoring lists of common vulnerabilities- you can't possibly do all the research yourself. You'll want to form a habit of glancing at the headlines and top vulnerability lists, to make sure major outbreaks don't affect you.
+The best investment of most peoples' time when working on AppSec involves finding these organizations that maintain lists of vulnerabilities and scanning tools, and using these lists and tools to search your application for vulnerabilities.
 
-Bookmark this insight to receive links to other resources and lists of best practices to get started. Take a look once per day if you want to get really immersed in the information security world. Take a look once per week if you're trying to stay very on top of vulnerabilities for your every-day job as your main responsibility. Take a look once a month if you're looking to be an extremely up-to-date application engineer.
+Much of your practice as a Security Engineer means finding and monitoring lists of common vulnerabilities - you can't possibly do all the research yourself. You'll want to form a habit of glancing at the headlines and top vulnerability lists, to make sure major outbreaks don't affect you.
+
+Bookmark this insight to receive links to other resources and lists of best practices to get started. Take a look once per day if you want to get really immersed in the information security world. Take a look once per week or month if you're trying to stay on top of vulnerabilities for your every-day job as your main responsibility.
 
 ---
 ## Practice
 
-A large part of application security means:
+A large part of application security involves:
 ???
 
 * Monitoring aggregators and news sites for major vulnerabilities and mitigation strategies
 * Doing exploit analysis on your company's hardware
-* Calling the database administrator to try to get the password
-* Checking to make sure the security guards are on their toes
+* Working closely with the database administrator
+* Checking in with the security guards regularly
 
 
 ---
