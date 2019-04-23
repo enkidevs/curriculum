@@ -83,7 +83,7 @@ CSP (Communicating Sequential Processes) is a method for ??? processes to ??? du
 
 Create a new csp channel:
 ```javascript
-var ch = ???.???();
+var ch = ???.???;
 ```
 
 * `csp`
