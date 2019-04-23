@@ -33,7 +33,7 @@ links:
 ---
 ## Content
 
-OWASP (short for The Open Web Application Security Project) is part of a not-for-profit group that aggregates common security flaws and vulnerabilities in networked applications, and provides practical mitigation strategies. This is one of the most newbie-friendly organizations that makes up the vast body of application security. 
+OWASP (short for The Open Web Application Security Project) is part of a not-for-profit group that aggregates common security flaws and vulnerabilities in networked applications, and provides practical mitigation strategies. This is one of the most beginner-friendly organizations that makes up the vast body of application security. 
 
 The best investment of most peoples' time when working on AppSec involves finding these organizations that maintain lists of vulnerabilities and scanning tools, and using these lists and tools to search your application for vulnerabilities.
 
