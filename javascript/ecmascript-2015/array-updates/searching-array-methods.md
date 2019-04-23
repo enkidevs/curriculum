@@ -51,7 +51,7 @@ Arrays added a number of prototype methods in ES6 for improved ease of searching
 
 *includes* returns a boolean indicating with an array contains a specific value:
 
-```
+```javacript
 var people = ["john", "bob"];
 people.includes("john"); //true
 ```
@@ -63,7 +63,7 @@ people.includes("john"); //true
 
 If no elements match then *undefined* will be returned:
 
-```
+```javacript
 var people = [
     {name: 'Alex', age: 36},
     {name: 'John', age: 20},
@@ -87,44 +87,27 @@ people.findIndex(function (e, i, src) {
 
 Populates an array with a supplied value and optional start & end position and is great for producing test data.
 
-```
+```javacript
 [1,1,1].fill(5); //[5,5,5]
 [1,1,1,1,1].fill(5,1,3); //[1,5,5,1,1]
 ```
-## Practice
-Find the first number divisible by `4`:
-
-```
-let ints = ['6','2','5','6','5','8'];
-ints.???(???)
-```
-* `find`
-* `findIndex`
-* `fill`
-* `includes`
-* `get`
-* `filter`
-* `function (e) {return e % 4}`
-* `function (e) {return e = 4}`
-* `function (e) {return e == 4}`
 
 ---
 ## Practice
 
 Find the first number divisible by `4`:
 
-```
+```javacript
 let ints = ['6','2','5','6','5','8'];
 ints.???(???)
 ```
 
 * `find`
-* `findIndex`
+* `function (e) {return e % 4 === 0}`
 * `fill`
 * `includes`
 * `get`
 * `filter`
-* `function (e) {return e % 4}`
 * `function (e) {return e = 4}`
 * `function (e) {return e == 4}`
 
@@ -133,15 +116,15 @@ ints.???(???)
 
 Fill the array with the first number divisible by `2` and `3`:
 
-```
-let ints = []'2','5','4','5','6','5','8'];
-ints.???(ints.???(???))
+```javacript
+let ints = ['2','5','4','5','6','5','8'];
+ints.???(function (e) {???})
 ```
 
 * `find`
-* `findIndex`
+* `return e % 2 === 0 && e % 3 === 0`
 * `fill`
 * `includes`
 * `get`
 * `filter`
-* `function (e) {return e % 2 && e % 3}`
+* `return e % 2 && e % 3`
