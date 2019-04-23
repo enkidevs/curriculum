@@ -34,12 +34,12 @@ links:
 ---
 ## Content
 
-The beautiful thing about creating an automated exploit is, you never have to do it by hand again, and neither does anyone else. This makes automated exploit development very dangerous if it gets into the wrong hands. Because of this, white-hat (good guys) exploit researchers will publish vulnerability scanning tools that allow penetration testers to demonstrate the vulnerability, in order to mitigate it. This is also very handy tooling for application developers, as you can scan your application for vulnerability as you develop it, as a regular cycle.
+The beautiful thing about creating an automated exploit is that you never have to do it by hand again, and neither does anyone else. This makes automated exploit development very dangerous if it gets into the wrong hands. Because of this, white-hat (ie. good guy) exploit researchers will publish vulnerability scanning tools that allow penetration testers to demonstrate the vulnerability, in order to mitigate it. This is also very handy tooling for application developers, as you can scan your application for vulnerability as you develop it, as a regular cycle.
 
 Today, many teams have no individual person devoted entirely to security, despite many countries around the world passing legislation that creates penalties on companies who fail to safeguard user data. It ends up falling on individual engineers to take up the call to guard user data by running vulnerability scans as part of their code review or QA process.
  
 Some tools common to the industry:
-- Metasploit- an automated vulnerability scanner
+- Metasploit - an automated vulnerability scanner
 - Wireshark / Snort - packet sniffers / network monitors
 - John The Ripper - a password cracker
 - Aircrack-NG - password / wifi cracker
