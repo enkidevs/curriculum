@@ -40,7 +40,7 @@ The next topics to explore, once you have those ready:
 ---
 ## Practice
 
-If you'd like to learn more about application security, you should make sure you have a strong grounding in the following:  
+If you'd like to learn more about application security, you should make sure you have a strong foundation in the following:  
 
 At least one scripting language (even bash, check out our other topics)  
 ???  
