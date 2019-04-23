@@ -24,7 +24,7 @@ category: how to
 
 AppSec is a diverse field that means more than just keeping current on vulnerability research. It's something everyone needs to know at some level, so that when major outbreaks occur they can take steps to protect themselves and the applications they develop. At more advanced levels, it means strictly following regulatory guidelines to ensure certain kinds of data are very well protected. At very advanced levels, it can mean research, penetration testing, and more.
 
-If you'd like to learn more about application security, you should make sure you have a strong grounding in the following:
+If you'd like to learn more about application security, you should make sure you have a strong foundation in the following:
 
 - The __Open Systems Interconnection Model__ (OSI Model) (covered in this course)
 - At least one scripting language (even bash, check out our other topics)
