@@ -101,9 +101,9 @@ ints.copyWithin(???,???,???)
 ## Revision
 
 Complete the code example to create an array that looks like this:
-`['1','2','1','2','5','6']`
+`[ '1', '3', '3', '4', '5', '6' ]`
 
-```
+```javascript
 let ints = ['1','2','3','4','5','6'];
 ints.copyWithin(???,???,???)
 ```
