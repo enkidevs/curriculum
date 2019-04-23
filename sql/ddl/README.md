@@ -1,4 +1,4 @@
-name: DDL
+name: Data Definition Language
 
 description: Create and modify SQL databases of your own
 

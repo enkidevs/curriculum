@@ -47,7 +47,7 @@ In conclusion, JavaScript and ECMAScript are not precisely the same, but the dev
 ---
 ## Practice
 
-What is ECMAScipt?
+What is ECMAScript?
 
 ???
 

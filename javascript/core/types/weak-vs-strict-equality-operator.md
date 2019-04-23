@@ -61,7 +61,7 @@ The strict equality operator is expressed as `===`. It works as `==`, but withou
 false === "0"   // false
 " \t\r\n" === 0   // false
 ```
-Note: ` \t\r\n` are special characters that you might see in strings. All of them are whitespace, under one for or another. `\t` represents a tab (multiple space characters), while `\n` - carriage return -  and `\s` - line feed - are new line characters (they are not exactly the same and are even used together - CRLF).
+Note: ` \t\r\n` are special characters that you might see in strings. All of them are whitespace, under one form or another. `\t` represents a tab (multiple space characters), while `\r` - carriage return -  and `\n` - line feed - are new line characters (they are not exactly the same and are even used together - CRLF).
 
 ---
 ## Practice

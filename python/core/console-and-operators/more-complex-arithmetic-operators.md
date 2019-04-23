@@ -28,12 +28,19 @@ standards:
 
 Python supports the `**` arithmetic operator, which multiplies a number to the power of another.
 
-Here's this operator in use:
+Example 1:
 ```python
 >>> 2 ** 4
 16
 ```
 This code executes as 2 to the power of 4.
+
+Example 2:
+```python
+>>> -3 ** 4
+81
+```
+This code executes as (-3) to the power of 4.
 
 Python also supports the modulo operator, `%`, which is used to return the integer remainder of a division sum.
 
@@ -52,7 +59,7 @@ Complete the following code snippet to execute 3 to the power of 4:
 ```
 3 ??? 4
 ```
-
+ 
 * `**`
 * `*`
 * ` ***`

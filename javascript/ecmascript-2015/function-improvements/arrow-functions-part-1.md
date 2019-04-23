@@ -68,8 +68,8 @@ add(2,4); //6
 
 Write a function that will take the array `planets` and output `[5, 6, 5, 7]`:
 ```
-foo() => {
-  var planets = [
+let foo = () => {
+  let planets = [
     'Earth',
     'Saturn',
     'Pluto',
@@ -93,7 +93,7 @@ such that only even numbers are present
 in the array.
 
 ```
-var integers = [1,2,3,4,5,6,7,8,9];
+let integers = [1,2,3,4,5,6,7,8,9];
 
 integers.filter(???);
 ```
