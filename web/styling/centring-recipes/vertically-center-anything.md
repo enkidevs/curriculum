@@ -17,6 +17,7 @@ aspects:
   - introduction
   - workout
   - deep
+  - new
 
 links:
 
