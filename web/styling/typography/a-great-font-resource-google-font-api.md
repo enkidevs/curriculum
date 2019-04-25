@@ -42,7 +42,8 @@ Steps:
 1) Go to the Google font database in the link provided in the insight.
 
 2) Pick your font and add the stylesheet link to your HTML
-```
+
+```html
 <head>
 ...
 
@@ -52,8 +53,10 @@ sheet' type='text/css'>
 
 </head>
 ```
+
 3) Add the font-family to your element in CSS:
-```
+
+```css
 h1 {
 font-family: 'Font name', Arial;
 font-weight: 300; /*if available
