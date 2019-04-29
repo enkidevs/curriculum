@@ -27,11 +27,11 @@ links:
 ---
 ## Content
 
-*SQL* is a *Query Language*. This means it is a programming language that allows us to ask for data from a database.
+*SQL* is a *Query Language*. This means that it's a programming language that allows us to ask for data from a database.
 
 *SQL* stands for *Structured Query Language* and was developed in the 1970s. Many databases use it today.
 
-Here's an example of an SQL Query:
+Here's an example of a SQL Query:
 
 ```sql
 SELECT * FROM users;
@@ -40,7 +40,7 @@ SELECT * FROM users;
 ---
 ## Practice
 
-Which of the queries below will give you all the data from the `items` table?
+Which of the queries below will give you all the rows and columns from the `items` table?
 
 ???
 
