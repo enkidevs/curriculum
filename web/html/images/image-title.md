@@ -22,7 +22,7 @@ aspects:
 ---
 ## Content
 
-The `title` attribute can be added to any HTML element, but is most often used with images and links for when the use mouses over these elements, a tooltip will appear. 
+The `title` attribute can be added to any HTML element, but is most often used with images and links for when the user mouses over these elements, a tooltip will appear. 
 
 Example:
 ```html
