@@ -81,4 +81,10 @@ Which database is open-source, _and_ does not require a license for commercial u
 * Oracle
 * MS SQL Server
 
+---
+## Footnotes
+
+[1:global]
+**LAMP** (**L**inux **A**pache **M**ySQL **P**HP) is an archetypal model of web service stacks.
+
 
