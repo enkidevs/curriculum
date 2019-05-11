@@ -84,7 +84,7 @@ Which database is open-source, _and_ does not require a license for commercial u
 ---
 ## Footnotes
 
-[1:global]
+[1:LAMP]
 **LAMP** (**L**inux **A**pache **M**ySQL **P**HP) is an archetypal model of web service stacks.
 
 
