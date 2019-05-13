@@ -30,7 +30,8 @@ Example:
   title="Enki: Official Logo">
 ```
 
-##### --> image-title.svg
+![image-with-tooltip](https://img.enkipro.com/028cd89a69e14a473a4bd05e579d143a.png)
+
 
 ---
 ## Practice
