@@ -52,7 +52,7 @@ All SQL databases have the following features:
 
 *MS SQL Server* is a RDBMS server developed by Microsoft. It's suitable for many different workloads, from small hobby projects to huge production applications. It's not open-source, and licensing fees are required to deploy it to production. There are a large suite of powerful tools for managing MS SQL Server developed by Microsoft, and a large community that uses them.
 
-*Oracle* is a multi-user database developed by Sun Microsystems. It's most suitable for large databases, and it's the backbone of many enterprise applications. It's not open-source, and licensing fees are required to deploy it to production.
+*Oracle* is a multi-user database developed by Oracle. It's most suitable for large databases, and it's the backbone of many enterprise applications. It's not open-source, and licensing fees are required to deploy it to production.
 
 It's important you know which server you are using, as commands can differ slightly between them.
 
