@@ -33,7 +33,7 @@ aspects:
 ---
 ## Content
 
-On modern browsers, building **HTML** strings with `.join()` is less efficient than concatenating strings with the `+` operator. This is due to the fact that the plus operator is optimized internally by modern JavaScript egines.
+On modern browsers, building **HTML** strings with `.join()` is less efficient than concatenating strings with the `+` operator. This is due to the fact that the plus operator is optimized internally by modern JavaScript engines.
 
 So, adding the values to an array and then joining them at the end:
 
@@ -68,17 +68,17 @@ console.log(squares)
 // "1 4 9 16 25 36 49 64 81 100 "
 ```
 
-* <=
-* +=
-* +
-* =+
-* <
-* >
-* ++
-* join
-* concat
-* /
-* %
+* `<=`
+* `+=`
+* `+`
+* `=+`
+* `<`
+* `>`
+* `++`
+* `join`
+* `concat`
+* `/`
+* `%`
 
 ---
 ## Revision
