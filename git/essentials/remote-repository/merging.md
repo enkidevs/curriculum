@@ -50,7 +50,9 @@ $ git merge feature
 # merging feature INTO master
 ```
 
-However, merging is not always successful because conflicts can arise when both branches had modifications in the **same** file(s) (changes since the time they diverged). In this case **Git** doesn't know what version of the file to choose and requires **your** guidance. You can check what files weren't successfully  merged using the `git status` command:
+However, merging is not always successful because conflicts can arise when both branches had modifications in the **same** file(s) (changes since the time they diverged). In this case **Git** doesn't know what version of the file to choose and requires **your** guidance. 
+
+You can check what files weren't successfully  merged using the `git status` command:
 ```
 $ git status
 # On branch master
