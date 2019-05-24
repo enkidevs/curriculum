@@ -62,22 +62,21 @@ s.run()
 ---
 ## Practice
 
-Create a new schedule and set it to enter second with priority = 1 and delay = 4.
+Create a new scheduler and set it to enter `print('second')` with priority = 1 and delay = 4.
 
 ```python
 
 import sched
 import time
 
-start = '2018-03-23 21:55:19.629694'
-stop = '2018-03-24 21:55:19.629694'
-sc=???.scheduler(???.start,???.stop)
+sc=???.scheduler(time.???,time.???)
 
 sc.enter(???,???,print,???)
+sc.run()
 ```
 
 * sched
-* time
+* sleep
 * time
 * 4
 * 1
