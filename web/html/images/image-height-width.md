@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -53,7 +53,7 @@ img {
 ---
 ## Practice
 
-Fill in the appropriate attributes/values for creating an image in HTML?
+Fill in the appropriate attributes/values for creating an image in HTML.
 
 `<??? ???="image.svg" ???="200" ???="200">`
 
