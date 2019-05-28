@@ -44,7 +44,7 @@ The `<video>` tag was introduced in HTML5 and is used to embed videos on a web p
 
 <!--[View CodePen](https://codepen.io/enkidevs/pen/MBYOJb)--> 
 
-In the example, the paragraph within the `video` element provides a text note to uses that do not have browsers that support HTML5 video - this is called 'fallback content'. Images can be used as fall backs, too!
+In the example, the paragraph within the `video` element provides a text note to users that do not have browsers that support HTML5 video - this is called 'fallback content'. Images can be used as fall backs, too!
 
 Adding the `controls` attribute allows the browser to offer controls to the user for play/pause playback, increase/decrease volume buttons, and audio playback.
 
