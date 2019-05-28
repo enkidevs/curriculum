@@ -35,9 +35,9 @@ An SSH connection can be established through the use of the following 3 utilitie
 - `slogin`: alias for ssh, accepting the same flags
 - `scp`: secure copy, the encrypted version of `cp`
 
-In 1995, Tatu Ylönen (a researcher from Helsinki University) launched the first version of SHH (SSH-1). Over time, many bugs were discovered and in 2006 a new set of Secure Shell protocols was adopted (SSH-2).
+In 1995, Tatu Ylönen (a researcher from Helsinki University) launched the first version of SSH (SSH-1). Over time, many bugs were discovered and in 2006 a new set of Secure Shell protocols was adopted (SSH-2).
 
-The old version used *public-key cryptography*[1] to authenticate to the remote machine, which SSH-2 replaced with *Deffie-Helman key exchanged*[2]. There are several encryption methods available in SHH-2, but the most used ones are *AES*[3] and *Blowfish*[4].
+The old version used *public-key cryptography*[1] to authenticate to the remote machine, which SSH-2 replaced with *Deffie-Helman key exchange*[2]. There are several encryption methods available in SHH-2, but the most used ones are *AES*[3] and *Blowfish*[4].
 
 SSH is included by default in Linux, Unix-like and OSX operating systems, but not in Windows. Typically, an SSH server listens on the standard TCP port 22.
 

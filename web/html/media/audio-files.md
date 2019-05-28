@@ -18,7 +18,7 @@ aspects:
   - deep
 
 links:
-  - '[CodePen: Simple Audio with mp3 & oog](https://codepen.io/enkidevs/pen/WKjeLW){code}'
+  - '[CodePen: Simple Audio with mp3 & ogg](https://codepen.io/enkidevs/pen/WKjeLW){code}'
   - '[MDN Docs for audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio){website}'
   - '[W3S Docs for audio](https://www.w3schools.com/html/html5_audio.asp){website}'
 
@@ -35,7 +35,7 @@ In order to support all browsers, it is useful to provide two different types of
 
 **M4A**: The newest audio format works with all same browsers as MP3, but should be used moving forward.  
 
-**OOG**: Less popular than MP3/M4A, but its open source and widely available and actually has greater compression due to its variable bit rate with the same great audio.
+**OGG**: Less popular than MP3/M4A, but its open source and widely available and actually has greater compression due to its variable bit rate with the same great audio.
 
 Using the `<audio>` tag, multiple
 songs can be added via the `<source>` element which will accomodate the approprate file needed for that browser.
@@ -60,10 +60,10 @@ songs can be added via the `<source>` element which will accomodate the appropra
 
 Finish the sentence:
 
-In order for audio files today to be supports on all major web browsers you should use either the `???` or `???` format.
+In order for audio files today to be supported on all major web browsers you should use either the `???` or `???` format.
 
 * .mp3/.m4a
-* .oog
+* .ogg
 * .mp4
 * .wav
 * .tunes
