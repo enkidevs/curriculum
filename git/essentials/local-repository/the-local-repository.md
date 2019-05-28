@@ -49,7 +49,7 @@ The repository is the proprietary datastore where **Git** maintains the **histor
 ---
 ## Practice
 
-The area where files you are working on is called the ???.
+The area with the files you are working on is called the ???.
 
 
 * working tree
