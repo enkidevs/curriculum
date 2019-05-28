@@ -54,7 +54,7 @@ In a centralized environment, i.e. bank, there is a single source of truth: the 
              	
 By keeping track of a second balance, the bank knows for sure you won't be able to spend the same $10 you had used to buy groceries on coffee the next day.
              	
-In an decentralized environment, it takes a while for transaction confirmations to move between nodes. Consider this scenario: Alice is living in the UK and buys something for 10 tokens from Bob. The transaction is valid by itself and is broadcasted from the UK:
+In a decentralized environment, it takes a while for transaction confirmations to move between nodes. Consider this scenario: Alice is living in the UK and buys something for 10 tokens from Bob. The transaction is valid by itself and is broadcasted from the UK:
       	       
 ```bash
 Alice pays Bob 10 coins
