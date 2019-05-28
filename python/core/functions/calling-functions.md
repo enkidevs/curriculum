@@ -26,7 +26,7 @@ standards:
 ---
 ## Content
 
-To call a function in Python, you write the functions name followed by some brackets `()`.
+To call a function in Python, you write the function's name followed by some brackets `()`.
 
 For example:
 
@@ -76,13 +76,12 @@ y = 2
     print((a + b) / 2)
 
 ???(???)
-mean(x, y)
 ```
 
 * def
 * mean
+* x, y
 * (x, y)
-* (a, b)
 
 
 

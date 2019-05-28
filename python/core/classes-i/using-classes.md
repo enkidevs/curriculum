@@ -42,9 +42,9 @@ When creating an instance of a class, the `__init__` function is called and this
 Any instance of the class can then access the class methods:
 ```python
 john.print_idnum()
-# 1
+# John is employee no. 1
 emily.print_idnum()
-# 2
+# Emily is employee no. 2
 ```
 
 ---

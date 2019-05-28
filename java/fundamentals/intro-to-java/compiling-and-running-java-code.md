@@ -38,7 +38,7 @@ You can get them by installing the *Java Development Kit* (JDK).
 
 Let's take the `HelloWorld.java` class for example. To compile it into `HelloWorld.class` file, you have to open a terminal in the folder containing the initial `.java` file and run:
 ```
-$ java HelloWorld.java
+$ javac HelloWorld.java
 ```
 Now, to run the `bytecode` (which is found inside the `.class` file), you have to call the JVM:
 ```

@@ -63,14 +63,14 @@ When links are used with text, such as headings and paragraphs, the text links u
 
 Complete the following snippet in order for it to be valid:
 ```html
-<tag ???="http://mywebsite.com">
+<??? ???="http://mywebsite.com">
   My website
-</tag>
+<???>
 ```
-tag = ???
 
-* `href`
 * `a`
+* `href`
+* `/a`
 * `style`
 * `p`
 * `link`

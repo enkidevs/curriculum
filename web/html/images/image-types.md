@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -41,7 +41,7 @@ Raster images consist of a two-dimensional grid of pixels. They do not scale wel
 
 **GIF:** Best for graphics with flat colors and no gradients since they only support a maximum of 256 colors. Simple  animations made by displaying a sequence of still shots is only possible with GIFs.
 
-**PNG:** The key factor is data is lost during compression making it perfect when working with images that need re-editing and re-exporting. They also support transparency and animation.
+**PNG:** The key factor is that no data is lost during compression making it perfect when working with images that need re-editing and re-exporting. They also support transparency and animation.
 
 There are two categories of PNG images that help keep file sizes down depending on the number of colors available.
   - PNG 8: limited with a maximum of 256 colors.
