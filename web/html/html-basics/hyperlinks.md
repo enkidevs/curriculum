@@ -68,8 +68,8 @@ Complete the following snippet in order for it to be valid:
 <???>
 ```
 
-* `href`
 * `a`
+* `href`
 * `/a`
 * `style`
 * `p`
