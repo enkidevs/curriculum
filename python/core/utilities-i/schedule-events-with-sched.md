@@ -76,8 +76,8 @@ sc.run()
 ```
 
 * sched
-* sleep
 * time
+* sleep
 * 4
 * 1
 * argument=('second')
