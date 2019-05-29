@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -34,7 +34,7 @@ Example:
     width="140">
 ```
 
-Browsers render your page faster and more cleanly (aka the browser will reserve appropriate space for the image, even before the image is loaded preventing loading images from forcing changes in the page layout during loading) when the height and width are used, but in order to these images to be responsive, their height and width will be overridden using CSS. 
+Browsers render your page faster and more cleanly (aka the browser will reserve appropriate space for the image, even before the image is loaded preventing loading images from forcing changes in the page layout during loading) when the height and width are used, but in order for these images to be responsive, their height and width will be overridden using CSS. 
 
 ```html
 <img src="logo.svg"
@@ -53,7 +53,7 @@ img {
 ---
 ## Practice
 
-Fill in the appropriate attributes/values for creating an image in HTML?
+Fill in the appropriate attributes/values for creating an image in HTML.
 
 `<??? ???="image.svg" ???="200" ???="200">`
 
