@@ -42,7 +42,7 @@ But the extra dedicated computer power isn't helping with the network throughput
              	
 Once people started trading bitcoins as currency, there needed to be a way to exchange them for fiat currencies ($/€/¥). As such, cryptocurrency exchanges were created. People could buy and sell bitcoins to one another and even trade them for profit.
              	
-Bitcoin became a pseudo-anonymous way to donate to Wikipedia, Wikileaks and others. Vendors also started to accept bitcoin as a payment method, so you could spend your bitcoins or pizza or magazine subscriptions. But the highly volatile price and the network's throughput limitation meant that the actual value of the arriving bitcoins might not reflect the real value of the items.
+Bitcoin became a pseudo-anonymous way to donate to Wikipedia, Wikileaks and others. Vendors also started to accept bitcoin as a payment method, so you could spend your bitcoins on pizza or magazine subscriptions. But the highly volatile price and the network's throughput limitation meant that the actual value of the arriving bitcoins might not reflect the real value of the items.
 
 ---
 ## Footnotes

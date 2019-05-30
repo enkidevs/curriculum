@@ -81,9 +81,9 @@ Select all the columns from the `pokemon` table, keeping the rows where the weig
 
 
 * WHERE
-* weight > '600'
+* weight > 600
 * AND
-* height > '15'
+* height > 15
 * IS
 * weight IS GREATER THAN 600
 * GREATER THAN
