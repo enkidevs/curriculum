@@ -34,12 +34,12 @@ links:
 
 The **Python debugger** comes as a module called `pdb`, which is part of the **standard Python** distribution.
 
-We will consider a program with two **global variables**, a function that creates a **nested loop** and the `if _name_ == '_main_'` statement that calls the nested loop:
+We will consider a program with two **global variables**, a function that creates a **nested loop** and the `if __name__ == '__main__'` statement that calls the nested loop:
 ```python
 #Program name: debug.py
 
 number_list = [1, 2]  
-chars_list = ['a', 'b']
+chars = ['a', 'b']
 
 def nested_loop():
     for nr in number_list
@@ -47,7 +47,7 @@ def nested_loop():
         for(char in chars)
             print(char)
 
-if _name_ == '_main_':
+if __name_ == '__main__':
     nested_loop()
 ```
 
