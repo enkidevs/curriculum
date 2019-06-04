@@ -49,7 +49,7 @@ In our Pokemon db, we have a table called *move_name* with the following cloumns
 - language_id - id of the language name is spelled in
 - move_id
 - name - how each move is called in each language
-`GROUP BY` will help us count how many move_names are there for each langauge:
+`GROUP BY` will help us count how many move_names there are for each langauge:
 
 ```
 SELECT COUNT(name), language_id
