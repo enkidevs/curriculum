@@ -39,7 +39,7 @@ JavaScript supports the standard loop constructs you have probably seen in other
 ```javascript
 // 0 to 9:
 for (var i = 0; i < 10; i++) {
-  ssconsole.log(i);
+  console.log(i);
 }
 ```
 
