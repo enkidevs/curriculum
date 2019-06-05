@@ -56,7 +56,7 @@ The *while* loop continues to run as long as the expression in brackets is true.
 
 Note that the loop will never run if the expression is never true:
 ```
-//0 to 9
+// 0 to 9
 var i = 10;
 
 while (i < 10) {
@@ -69,7 +69,7 @@ while (i < 10) {
 
 *do while* loops are similar to while loops but have the important difference that they will always run at least once before the condition is checked:
 ```
-var i =10;
+var i = 10;
 
 do {
    console.log(i);
@@ -99,7 +99,7 @@ var i = 0;
 ---
 ## Revision
 
-Complete the following `for` loop such that it makes sense:
+Complete the following `for` loop such that it's syntactically correct and runs 10 iterations:
 ```
 ??? (??? i = 0; i < 10; ???) {
    console.log(i);
