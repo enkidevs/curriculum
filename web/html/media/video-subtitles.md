@@ -30,7 +30,7 @@ links:
 Subtitles can be added to the videos via the `<track>` element like this:
 
 ```html
-<video src='video/tina.mp4'">
+<video src='video/tina.mp4'>
   <track src="video/subtitles.vtt"
   kind="subtitles"
   srclang="en" />
