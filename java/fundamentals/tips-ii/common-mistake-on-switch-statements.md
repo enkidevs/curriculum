@@ -38,8 +38,10 @@ Control flow of the switch statement continues until it hits a break.
 ```java
 switch (num) {
   case 0: System.out.println("zero");
-  case 1: System.out.println("one"); break;
-  case 2: System.out.println("two"); break;
+  case 1: System.out.println("one");
+    break;
+  case 2: System.out.println("two");
+    break;
   default: System.out.println("default");
 }
 
@@ -54,9 +56,12 @@ If the intended output were to be just zero on its own, then a `break` will need
 
 ```java
 switch (num) {
-  case 0: System.out.println("zero"); break;
-  case 1: System.out.println("one"); break;
-  case 2: System.out.println("two"); break;
+  case 0: System.out.println("zero");
+    break;
+  case 1: System.out.println("one");
+    break;
+  case 2: System.out.println("two");
+    break;
   default: System.out.println("default");
 }
 
@@ -72,7 +77,8 @@ switch (num) {
   case 0: System.out.print(0);
   case 1: System.out.print(1);
   case 2: System.out.print(2);
-  default: System.out.print(3);break;
+  default: System.out.print(3);
+    break;
 }
 
 ???
@@ -93,7 +99,8 @@ switch (num) {
   case 0: System.out.print(0);
   case 1: System.out.print(1);
   case 2: System.out.print(2);
-  default: System.out.print(3);break;
+  default: System.out.print(3);
+    break;
 }
 ???
 ```
@@ -112,10 +119,13 @@ What's the output for `x=1`?
 
 ```java
 switch(x) {
-  case 0: System.out.print(0); break;
+  case 0: System.out.print(0);
+    break;
   case 1: System.out.print(1);
-  case 2: System.out.print(2); break;
-  default: System.out.print(x); break;
+  case 2: System.out.print(2);
+    break;
+  default: System.out.print(x);
+    break;
 }
 ```
 
