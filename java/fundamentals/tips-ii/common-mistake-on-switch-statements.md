@@ -37,12 +37,16 @@ Control flow of the switch statement continues until it hits a break.
 
 ```java
 switch (num) {
-  case 0: System.out.println("zero");
-  case 1: System.out.println("one");
+  case 0: 
+    System.out.println("zero");
+  case 1: 
+    System.out.println("one");
     break;
-  case 2: System.out.println("two");
+  case 2: 
+    System.out.println("two");
     break;
-  default: System.out.println("default");
+  default: 
+    System.out.println("default");
 }
 
 ```
@@ -56,13 +60,17 @@ If the intended output were to be just zero on its own, then a `break` will need
 
 ```java
 switch (num) {
-  case 0: System.out.println("zero");
+  case 0: 
+    System.out.println("zero");
     break;
-  case 1: System.out.println("one");
+  case 1: 
+    System.out.println("one");
     break;
-  case 2: System.out.println("two");
+  case 2: 
+    System.out.println("two");
     break;
-  default: System.out.println("default");
+  default: 
+    System.out.println("default");
 }
 
 ```
@@ -74,10 +82,14 @@ Including the break in the last case is not strictly necessary.
 What would this snippet output, if `num=1` ?
 ```java
 switch (num) {
-  case 0: System.out.print(0);
-  case 1: System.out.print(1);
-  case 2: System.out.print(2);
-  default: System.out.print(3);
+  case 0: 
+    System.out.print(0);
+  case 1: 
+    System.out.print(1);
+  case 2: 
+    System.out.print(2);
+  default: 
+    System.out.print(3);
     break;
 }
 
@@ -96,10 +108,14 @@ switch (num) {
 What would this snippet output, if `num=2` ?
 ```java
 switch (num) {
-  case 0: System.out.print(0);
-  case 1: System.out.print(1);
-  case 2: System.out.print(2);
-  default: System.out.print(3);
+  case 0: 
+    System.out.print(0);
+  case 1: 
+    System.out.print(1);
+  case 2: 
+    System.out.print(2);
+  default: 
+    System.out.print(3);
     break;
 }
 ???
@@ -119,12 +135,16 @@ What's the output for `x=1`?
 
 ```java
 switch(x) {
-  case 0: System.out.print(0);
+  case 0: 
+    System.out.print(0);
     break;
-  case 1: System.out.print(1);
-  case 2: System.out.print(2);
+  case 1: 
+    System.out.print(1);
+  case 2: 
+    System.out.print(2);
     break;
-  default: System.out.print(x);
+  default: 
+    System.out.print(x);
     break;
 }
 ```
