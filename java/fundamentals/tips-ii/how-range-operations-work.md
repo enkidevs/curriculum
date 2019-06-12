@@ -36,7 +36,8 @@ the result will be `"En"`, as indexing begins from the `0` value. `"E"` was incl
 There are many more methods needing specifying a range, all of them using this rule.
 
 ```java
-List.sublist(from,to);```
+List.sublist(from,to);
+```
 
 ```java
 Array.copyOfRange(T[],from,to);
