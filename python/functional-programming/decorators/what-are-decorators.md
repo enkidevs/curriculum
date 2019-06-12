@@ -62,7 +62,7 @@ goodbye_wrapper = h2_decorate(say_goodbye)
 print(hello_wrapper("Mike"))
 print(goodbye_wrapper("Sam"))
 # <h2>Hello, Mike!</h2>
-# <h2>Hello, Sam!</h2>
+# <h2>Goodbye, Sam!</h2>
 ```
 We've mentioned *higher-order functions* in the introduction. Try and figure out where the concept is used in `h2_decorate`'s function definition.
 
