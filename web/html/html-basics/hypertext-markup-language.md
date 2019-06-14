@@ -80,7 +80,7 @@ There is one more important HTML element that we need to mention, the `<head>`. 
 
 And here is how the code is displayed in the browser:
 
-![simple-website]("https://img.enkipro.com/4ff0530c2a9496b465b732bd2e7319db.png")
+![simple-website](https://img.enkipro.com/4ff0530c2a9496b465b732bd2e7319db.png)
 
 Don't worry too much about remembering all the tags as they will be explained in more detail as you progress, but keep in mind that an HTML page always contains the `<html>`, `<head>` and `<body>` tags.
 
