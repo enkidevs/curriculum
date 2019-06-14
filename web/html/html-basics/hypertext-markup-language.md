@@ -63,7 +63,7 @@ Elements give content meaning based on their function. For example, page heading
 
 Note how the `<body>` tags are *nested* between the `<html>` tags.
 
-There is one more important HTML element that we need to mention, the `<head>`. When you are building a website, some part of the code will decide *how* the browser displays the content, what the title of the webpage is (that will be displayed in the browser's tab) or link to a styling (CSS) file. All of this code belongs between the `<head>` tags. Below you have an example of a very simple webpage. Don't worry too much about remembering all the tags as they will be explained in more detail as you progress, but keep in mind that an HTML page always contains the `<html>`, `<head>` and `<body>` tags.
+There is one more important HTML element that we need to mention, the `<head>`. When you are building a website, some part of the code will decide *how* the browser displays the content, what the title of the webpage is (that will be displayed in the browser's tab) or link to a styling (CSS) file. All of this code belongs between the `<head>` tags. Below you have an example of a very simple webpage.
 
 ```html
 <html>
@@ -81,6 +81,8 @@ There is one more important HTML element that we need to mention, the `<head>`. 
 And here is how the code is displayed in the browser:
 
 ![simple-website]("https://img.enkipro.com/4ff0530c2a9496b465b732bd2e7319db.png")
+
+Don't worry too much about remembering all the tags as they will be explained in more detail as you progress, but keep in mind that an HTML page always contains the `<html>`, `<head>` and `<body>` tags.
 
 You can bookmark this insight to receive a link to the *first online web page*.
 
