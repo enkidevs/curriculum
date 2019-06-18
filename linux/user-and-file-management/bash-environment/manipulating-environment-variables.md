@@ -59,39 +59,35 @@ jesse@host ~ $
 
 ### Creating a New Variable
 
-You can define a new environment variable using the `=` operator, like so:
+You can define a new environment variable using the `export` operator, like so:
 
 ```shell
 jesse@host ~ $ echo $FOOD
 
-jesse@host ~ $ FOOD="waffles"
+jesse@host ~ $ export FOOD="waffles"
 jesse@host ~ $ echo $FOOD
 waffles
 jesse@host ~ $
 ```
 
-Make sure not to add any spaces around `=` or else `bash` will interpret the name of the variable as a command.  You'll usually see a `command not found` error, but if your variable name happens to be the name of a command you'll see confusing output:
+Make sure not to add any spaces around `=`.
 
 ```shell
-jesse@host ~ $ FOOD = "waffles"
--bash: FOOD: command not found
-jesse@host ~ $ ls = "giraffe"
-ls: =: No such file or directory
-ls: giraffe: No such file or directory
+jesse@host ~ $ export FOOD = "waffles"
+-bash: export: `=': not a valid identifier
 jesse@host ~ $
 ```
 
-Here, `bash` interprets `=` and `"giraffe"` as arguments to the `ls` command rather than a variable assignment.  Avoiding this mistake is one of the reasons for the ALL CAPS convention.
 
 ### Modifying an Existing Variable
 
 Oftentimes you'll want to modify an existing variable by appending or prepending data.  To do this you can reference an environment variable inside a string, like so:
 
 ```shell
-jesse@host ~ $ FOOD="waffles"
+jesse@host ~ $ export FOOD="waffles"
 jesse@host ~ $ echo $FOOD
 waffles
-jesse@host ~ $ FOOD="chocolate $FOOD"
+jesse@host ~ $ export FOOD="chocolate $FOOD"
 jesse@host ~ $ echo $FOOD
 chocolate waffles
 jesse@host ~ $
@@ -102,7 +98,7 @@ jesse@host ~ $
 To unset or clear an environment variable use `unset`, like so:
 
 ```shell
-jesse@host ~ $ FOOD="waffles"
+jesse@host ~ $ export FOOD="waffles"
 jesse@host ~ $ echo $FOOD
 waffles
 jesse@host ~ $ unset FOOD
@@ -111,4 +107,32 @@ jesse@host ~ $ echo $FOOD
 jesse@host $
 ```
 
+
+### Shell Variables
+
+While the environment variables are passed to processes invoked by the shell (like the `env` program) shell variables are used only by the shell itself, and not available to its children. It is useful in scripts to make calculations and to store intermediate results.
+
+```shell
+jesse@host ~ $ echo $DRINK
+
+jesse@host ~ $ DRINK="water"
+jesse@host ~ $ echo $DRINK
+water
+jesse@host ~ $
+```
+
+In some sense, environment variables are shell variables that have been exported, being available to its child process. You can also edit and unset the shell variables.
+
+Also, make sure not to add any spaces around `=` or else `bash` will interpret the name of the variable as a command.  You'll usually see a `command not found` error, but if your variable name happens to be the name of a command you'll see confusing output:
+
+```shell
+jesse@host ~ $ export FOOD = "waffles"
+-bash: FOOD: command not found
+jesse@host ~ $ export ls = "giraffe"
+ls: =: No such file or directory
+ls: giraffe: No such file or directory
+jesse@host ~ $
+```
+
+Here, `bash` interprets `=` and `"giraffe"` as arguments to the `ls` command rather than a variable assignment.  Avoiding this mistake is one of the reasons for the ALL CAPS convention.
  
