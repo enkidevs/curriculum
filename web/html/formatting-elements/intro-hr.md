@@ -62,8 +62,6 @@ hr {
 }
 ```
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/zayObZ)-->
-
 ---
 ## Practice
 
