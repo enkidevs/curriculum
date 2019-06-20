@@ -75,8 +75,6 @@ Example submit and reset with one text field:
 
 #### form-submit-reset
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/ZjLpWm)-->
-
 Furthermore, you can add shortcuts both to the `submit` and `reset` buttons via the `accesskey` attribute:
 
 Previous example with shortcuts added:
@@ -97,9 +95,7 @@ Previous example with shortcuts added:
     value="Reset name"
     accesskey="r">
 </form>
-```
-
-<!--[View CodePen](https://codepen.io/enkidevs/pen/xJgEVv)-->
+``
 
 In this example, on a Mac, pressing `Control`+`Option`+`S`/`R` triggers the `Next`/`Reset name` buttons respectively, while on Windows the shortcut is `Alt`+`S`/`R`.
 
