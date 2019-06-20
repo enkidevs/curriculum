@@ -38,8 +38,6 @@ Here's an `oninput` event that will executing a JavaScript function after the us
 
 The `oninput` event is similar to the `onchange` event, except the `oninput` event occurs immediately after the value has changed, and the `onchange` event occurs after the element loses focus after the content has changed. Another difference is that the `onchange` event works with `<select>` elements.
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/rrBbWb)--> 
-
 ---
 ## Practice
 
