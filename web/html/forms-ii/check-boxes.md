@@ -76,8 +76,6 @@ Example with one checkbox:
 
 ![checkbox-report-a-problem](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22width%3A100%25%22%20viewBox%3D%220%200%20320%2078%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2278%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2240%22%20y%3D%2234%22%3EReport%20a%20problem%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2211.5%22%3E%3Ctspan%20x%3D%2228%22%20y%3D%2253%22%3EReport%20%3C%2Ftspan%3E%3C%2Ftext%3E%3Crect%20width%3D%2213%22%20height%3D%2213%22%20x%3D%2222%22%20y%3D%2223%22%20stroke%3D%22%23A5A5A5%22%20rx%3D%222%22%2F%3E%3Crect%20width%3D%2250%22%20height%3D%2217%22%20x%3D%2220%22%20y%3D%2241%22%20stroke%3D%22%23D9D9D9%22%20rx%3D%224%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/qyRaXO)-->
-
 In the example above, the 'name' & 'value' attributes work as a pair in keeping track of the data sent and are both important to use with checkboxes. In this case, the name/value pair would be `report=bankaccount`. This is something the client never sees as the data is sent upon submission of the form. 
 
 If no checkbox is ticked/checked upon form submission, the name/value pair is `value=unchecked` and the value won't be submitted to the server at all.
