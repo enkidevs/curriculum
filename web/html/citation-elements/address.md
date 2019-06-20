@@ -59,8 +59,6 @@ Address Example:
 </address>
 ```
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/OEoaVN)-->
-
 Beside representing contact information about the author of the document, the `<address>` element can be used with different types of context. When placed within a `<body>` element it represents information about the document. When placed within an `<article>` element it represents information about an article.
 
 On the other hand, if you want to represent an arbitrary address (such as postal addresses), which are not related to the contact information, you should use the `<p>` element rather than the `<address>` element.
