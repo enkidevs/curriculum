@@ -57,8 +57,6 @@ What falls under creative work:
 
 The cited URL under the `<cite>` element will, by default, display in <i>italic</i>. However, this is easily editable by adding the `font-style` CSS property to the `<cite>` element and changing the default value to 'normal' or even 'oblique' (aka bold).
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/xzyKBz)-->
-
 ---
 ## Practice
 
