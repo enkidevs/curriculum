@@ -50,8 +50,6 @@ Quote Result:
 
 ![q-element](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2272%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2272%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Arial-ItalicMT%2C%20Arial%22%20font-size%3D%2216%22%20font-style%3D%22italic%22%3E%3Ctspan%20x%3D%2218%22%20y%3D%2231%22%3ECarrie%20Bradshaw%3C%2Ftspan%3E%20%3Ctspan%20x%3D%22137.15625%22%20y%3D%2231%22%20font-family%3D%22ArialMT%2C%20Arial%22%3E%20said%20%E2%80%9CShopping%20is%20my%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2218%22%20y%3D%2248%22%20font-family%3D%22ArialMT%2C%20Arial%22%3Ecardio%E2%80%9D%20and%20that%20is%20pretty%20awesome.%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/gKBYJO)-->
-
 ---
 ## Practice
 
