@@ -104,8 +104,6 @@ Example of the main content of a page, in this case, a page describing vehicles:
 
 The `<main>` container doesn't have any visual style without CSS. The CSS in this example may be a bit complex at this time, but hopefully it inspires you to learn more CSS! 
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/QBEyxw)-->
-
 As you can see in the example above, we have added `<article>` within our `<main>` element to clearly separate each type of vehicle. The `main` is also between the `header` and `footer`. 
 
 
