@@ -46,8 +46,6 @@ Example:
 
 The `<nav>` container doesn't have any visual style without CSS. The CSS in this example may be a bit complex at this time, but hopefully it inspires you to learn more CSS!   
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/MBeKBe)-->
-
 **Note:** Not all links should be inside a `<nav>` element. The `<nav>` element is intended for major blocks of navigational links. For instance, links within the content of articles don't need to be wrapped within the `<nav>` element.
 
 Multiple `<nav>` elements can be placed within the web page or document, when appropriate.
