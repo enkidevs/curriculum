@@ -52,9 +52,6 @@ songs can be added via the `<source>` element which will accomodate the appropra
 </audio>
 ```
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/WKjeLW)-->
-
-
 ---
 ## Practice
 
