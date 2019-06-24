@@ -32,8 +32,6 @@ Transitioning from one version to another has always left room for problems. Usu
 
 One way to avoid this from happening is stopping public support for older versions, which has already happened. As of 2015, *Java 8* is the only publicly supported version.
 
-Update: 
-
 *Java 8* ends public support by the year 2023.
 
 There are 4 new versions of *Java* that were released after *Java 8*. 
