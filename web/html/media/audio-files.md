@@ -44,7 +44,7 @@ songs can be added via the `<source>` element which will accomodate the appropra
 <audio controls>
   <source src="some_song.mp3"
     type="audio/mpeg">
-  <source src"some_song.ogg"
+  <source src="some_song.ogg"
     type="audio/ogg">
      You're seeing this because
      your browser does not support
