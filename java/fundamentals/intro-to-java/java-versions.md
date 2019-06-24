@@ -32,15 +32,25 @@ Transitioning from one version to another has always left room for problems. Usu
 
 One way to avoid this from happening is stopping public support for older versions, which has already happened. As of 2015, *Java 8* is the only publicly supported version.
 
+*Java 8* ends public support by the year 2023.
+
+There are 4 new versions of *Java* that were released after *Java 8*. 
+
+*Java 9*, released in September 2017 and *Java 10*, released in March 2018 both had a total of around 6000 classes and are old versions that have stopped public support in 2018. 
+
+*Java 11*, released September 2018 is not the latest version, nevertheless, it will have public support until the year 2022.
+
+As of March 2019, *Java 12* is the latest version of *Java* and the amount of classes has decreased to around 4400 classes.
+
 ---
+
 ## Practice
 
-Roughly how many classes are in **Java** version 8 ?
+Roughly how many classes are in **Java** version 12?
 
 ???
 
-
-* 4300
+* 4400
 * 10
 * 100
 * 1000

@@ -42,7 +42,7 @@ The REPL terminal can be used for simple expressions as follows:
 ```bash
 $ node
 > 4 + 2 * 9 - 6
-20
+16
 ```
 
 Variables can also be used in the terminal, if the `var` keyword is used then the value is stored but not printed, whereas if the *var* keyword isn’t used the value is both stored and printed.
@@ -50,7 +50,7 @@ Variables can also be used in the terminal, if the `var` keyword is used then th
 ```bash
 > x = 5
 5
-> var i = 7
+> var y = 7
 undefined
 > x * y
 35
