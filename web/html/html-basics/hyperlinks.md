@@ -40,10 +40,10 @@ Links are defined by the `<a>` tag. Every link must have the `href` attribute, w
 </a>
 ```
 
-When links navigate to web pages on other web servers, it is required to use the "http://" protocol, then the domain name, any folder structure, and then the file. In this example, the web page is on another web server, then looking on the enki.com domain, then within the samples folder, and then linking to the page.html web page.   
+When links navigate to web pages on other web servers, it is required to use the "http://" protocol, then the domain name, any folder structure, and then the file. In this example, the web page is on another web server, then looking on the enki.com domain, then within the samples folder, and then linking to the page.html web page.
 
 ```html
-<p>I am a <a 
+<p>I am a <a
 href="http://enki.com/samples/page.html">
     link to Enki.com
 </a>'s website.</p>
@@ -51,9 +51,9 @@ href="http://enki.com/samples/page.html">
 
 ![link-text](https://img.enkipro.com/8ffc6087d2e832fc2ae2066d70455afa.png)
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/RBKobx)--> 
+[View CodePen](https://codepen.io/enkidevs/pen/RBKobx)
 
-When links are used with text, such as headings and paragraphs, the text links use most of the style properties of that text (like the font family, font size, font weight) with a few changes: 
+When links are used with text, such as headings and paragraphs, the text links use most of the style properties of that text (like the font family, font size, font weight) with a few changes:
 
 * link text is blue by default. (`color: #0000EE;`)
 * link text has a text decoration with an underline. (`text-decoration: underline;`)
@@ -85,4 +85,3 @@ The tag denoting a hyperlink is ???.
 * `<p>`
 * `<body>`
 * `<div>`
- 

@@ -44,25 +44,25 @@ Anchor links are still defined by the typical link `<a>` tag, but rather than li
 </div>
 
 ```
-<!--[View CodePen](https://codepen.io/enkidevs/pen/Zjegoq)-->
+[View CodePen](https://codepen.io/enkidevs/pen/Zjegoq)
 
 One common trick by developers is to use this anchor tag as a placeholder for links during the page development. Links require the `href` attribute, so when the linked pages aren't ready to be linked yet, a simple `#` can be used. This placeholder technique makes the link valid and active without actually navigating anywhere.
 
 Placeholder links are written like this and look and act like links without navigating anywhere:
 
 ```html
-This is a 
+This is a
 <a href="#">placeholder link</a>.
 ```
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/NBpQzw)-->
+[View CodePen](https://codepen.io/enkidevs/pen/NBpQzw)
 
 ---
 ## Practice
 
 Complete the following snippet in order for it to be valid:
 ```html
-Link to the 
+Link to the
 <tag ???="???contact.html">
  contact section
 </tag> of the page.
@@ -95,4 +95,3 @@ What denotes an anchor link?
 * `%`
 * `@`
 * `a:`
- 

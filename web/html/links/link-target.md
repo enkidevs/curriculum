@@ -43,7 +43,7 @@ Link with default value displayed:
 </a>
 ```
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/OwmLVz)-->
+[View CodePen](https://codepen.io/enkidevs/pen/OwmLVz)
 
 The other values for the target are `target="value"`:
 
@@ -62,7 +62,7 @@ Example of opening the link in a different tab:
 </a>
 ```
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/jpmNbe)-->
+[View CodePen](https://codepen.io/enkidevs/pen/jpmNbe)
 
 
 ** Note:** `_self` is only needed to open within the same tab/window when overriding conflicting code.

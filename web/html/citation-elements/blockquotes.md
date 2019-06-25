@@ -45,12 +45,12 @@ Example:
 
 ![blockquote-simple](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%22170%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%22170%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2218%22%20y%3D%2231%22%3EEvery%20revolutionary%20idea%20seems%20to%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2218%22%20y%3D%2248%22%3Eevoke%20three%20stages%20of%20reaction.%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2218%22%20y%3D%2265%22%3EThey%20may%20be%20summed%20up%20by%20the%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2218%22%20y%3D%2282%22%3Ephrases%3A%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2218%22%20y%3D%2299%22%3EIt%26apos%3Bs%20completely%20impossible.%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2218%22%20y%3D%22116%22%3EIt%26apos%3Bs%20possible%2C%20but%20not%20worth%20doing.%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2218%22%20y%3D%22133%22%3EI%20said%20it%20was%20a%20good%20idea%20all%20along.%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2218%22%20y%3D%22150%22%3E-%20Arthur%20C.%20Clarke%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-Blockquotes can be used with the citation element `<cite>` to share the source, but it is important that there is also visible attribution as well. 
+Blockquotes can be used with the citation element `<cite>` to share the source, but it is important that there is also visible attribution as well.
 
 ```html
 <blockquote cite="http://brainyquote.com/
 quotes/arthur_c_clarke_408582">
-Every revolutionary idea seems to 
+Every revolutionary idea seems to
 evoke three stages of reaction.<br>
 They may be summed up by the phrases:<br>
 It's completely impossible.<br>
@@ -76,7 +76,7 @@ Example:
 
 ![quotes](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2250%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2250%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2218%22%20y%3D%2232%22%3E%E2%80%9CI%20have%20a%20dream!%E2%80%9D%20-%20Martin%20Luther%20King%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/oyPQBr) -->
+[View CodePen](https://codepen.io/enkidevs/pen/oyPQBr)
 
 ---
 ## Practice
@@ -124,4 +124,3 @@ Which HTML element is used to create a section that is quoted from another sourc
 * `<q>`
 * `<quote>`
 * `<cite>`
- 
