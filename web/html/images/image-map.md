@@ -27,9 +27,9 @@ links:
 ---
 ## Content
 
-The HTML `<map>` element is used for creating links on selected portions of an image when used alongside the `<area>` attribute. 
+The HTML `<map>` element is used for creating links on selected portions of an image when used alongside the `<area>` attribute.
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/ajbxbX)-->
+[View CodePen](https://codepen.io/enkidevs/pen/ajbxbX)
 
 The clickable area has 3 available shapes:
   - `rect` (Rectangle)
@@ -61,7 +61,7 @@ poly: shape="x1,y1,x2,y2,x3,y3...xn,yn"
   **- (0,0)** are the top left corner coordinates of an area.
   **-** `coords` attribute is specified in pixels.
 
- Finding the coordinates can be tricky and tedious. Luckily, there are free services like [http://www.image-maps.com/](http://www.image-maps.com/) to make this much easier! 
+ Finding the coordinates can be tricky and tedious. Luckily, there are free services like [http://www.image-maps.com/](http://www.image-maps.com/) to make this much easier!
 
 
 ---
@@ -141,4 +141,3 @@ Place the shape value within the appropriate location to create the proper code.
 * polygon
 * pentagon
 * square
- 
