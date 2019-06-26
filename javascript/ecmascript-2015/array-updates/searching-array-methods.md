@@ -91,23 +91,6 @@ Populates an array with a supplied value and optional start & end position and i
 [1,1,1].fill(5); //[5,5,5]
 [1,1,1,1,1].fill(5,1,3); //[1,5,5,1,1]
 ```
-## Practice
-Find the first number divisible by `4`:
-
-```
-let ints = ['6','2','5','6','5','8'];
-ints.???(???)
-```
-* `find`
-* `findIndex`
-* `fill`
-* `includes`
-* `get`
-* `filter`
-* `function (e) {return e % 4}`
-* `function (e) {return e = 4}`
-* `function (e) {return e == 4}`
-
 ---
 ## Practice
 
@@ -124,7 +107,7 @@ ints.???(???)
 * `includes`
 * `get`
 * `filter`
-* `function (e) {return e % 4}`
+* `function (e) {return e % 4 == 0}`
 * `function (e) {return e = 4}`
 * `function (e) {return e == 4}`
 
@@ -134,7 +117,7 @@ ints.???(???)
 Fill the array with the first number divisible by `2` and `3`:
 
 ```
-let ints = []'2','5','4','5','6','5','8'];
+let ints = ['2','5','4','5','6','5','8'];
 ints.???(ints.???(???))
 ```
 
@@ -144,4 +127,4 @@ ints.???(ints.???(???))
 * `includes`
 * `get`
 * `filter`
-* `function (e) {return e % 2 && e % 3}`
+* `function (e) {return e % 2 == 0 && e % 3 == 0}`
