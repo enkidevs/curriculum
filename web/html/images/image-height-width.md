@@ -53,9 +53,9 @@ img {
 ---
 ## Practice
 
-Fill in the appropriate attributes/values for creating an image in HTML.
+Fill in the appropriate attributes/values for creating an image in HTML with dimensions 300x200.
 
-`<??? ???="image.svg" ???="200" ???="200">`
+`<??? ???="image.svg" ???="200" ???="300">`
 
 * img
 * src
