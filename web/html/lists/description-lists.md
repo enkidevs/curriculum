@@ -50,7 +50,7 @@ Result:
 
 ![list-descriptive](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%22159%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%22159%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2254%22%20y%3D%2249%22%3EFounded%20in%202015%2C%20Enki%20is%20a%20team%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2254%22%20y%3D%2266%22%3Eof%20developers%2C%20educators%2C%20and%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2254%22%20y%3D%2283%22%3Edesigners.%20We%20represent%207%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2254%22%20y%3D%22100%22%3Ecountries%2C%208%20timezones%2C%209%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2254%22%20y%3D%22117%22%3Espoken%20languages%2C%20and%201%20goal%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2254%22%20y%3D%22134%22%3E%E2%80%94%20supporting%20lifelong%20learners.%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2218%22%20y%3D%2232%22%3EEnki%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/LByPZZ)-->
+[View CodePen](https://codepen.io/enkidevs/pen/LByPZZ)
 
 Next to having one term and one description, you can have multiple terms as well as multiple descriptions.
 
@@ -73,7 +73,7 @@ Result:
 
 ![list-descriptive-multi](https://img.enkipro.com/96756e6f46a72e87078bc4d0c70b540c.png)
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/ZjKzON)-->
+[View CodePen](https://codepen.io/enkidevs/pen/ZjKzON)
 
 Again same example, except this time we added another term and a description of that term:
 ```html
@@ -103,7 +103,7 @@ Again same example, except this time we added another term and a description of 
 </dl>
 ```
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/rrmBWB)-->
+[View CodePen](https://codepen.io/enkidevs/pen/rrmBWB)
 
 As you can see in the examples above, you can add as many terms and descriptions as you may want or need for your HTML page or document.
 
@@ -129,7 +129,7 @@ Result:
 
 ![list-descriptive-pair](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%22137%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%22137%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2217%22%20y%3D%2232%22%3EName%3A%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2217%22%20y%3D%2266%22%3EFounded%3A%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2217%22%20y%3D%22100%22%3ELocation%3A%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2262%22%20y%3D%22117%22%3ELondon%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2262%22%20y%3D%2283%22%3E2015%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2262%22%20y%3D%2249%22%3EEnki%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/wxdwoX)-->
+[View CodePen](https://codepen.io/enkidevs/pen/wxdwoX)
 
 ---
 ## Practice
