@@ -58,7 +58,7 @@ It is worth mentioning that a *tree* is a special kind of graph, in which the ed
 
 ### Tree ADT
 
-A node may not necessarily reference its parent, but it has to contain a value to be a meaningful.
+A node may not necessarily reference its parent, but it has to contain a value to be meaningful.
 
 A tree's *accessor methods* should be:
 - `root()` : *Returns* the root node.
