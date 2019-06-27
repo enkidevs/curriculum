@@ -63,7 +63,7 @@ System.out.println(concat);
 To concatenate two strings, operator ??? is used.
 
 
-* +
-* ++
-* -
-* ,
+* `+`
+* `++`
+* `-`
+* `,`

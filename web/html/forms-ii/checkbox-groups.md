@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -21,7 +21,7 @@ links:
   - '[CodePen: Form Checkbox checked by default](https://codepen.io/enkidevs/pen/BPpLYY){code}'
   - '[MDN docs for checkboxes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox){website}'
   - '[StockOverflow: Multiple Checkboxes](https://stackoverflow.com/questions/18745456/handle-multiple-checkboxes-with-a-single-serverside-variable){code}'
-  
+
 
 ---
 # Checkbox Groups
@@ -104,13 +104,13 @@ Example with multiple checkboxes:
 
 ![checkbox-music](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22width%3A100%25%22%20viewBox%3D%220%200%20320%20209%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%22209%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%20transform%3D%22translate%2839%20150%29%22%3E%3Ctspan%20x%3D%220%22%20y%3D%2214%22%3EFolk%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%20transform%3D%22translate%2839%20131%29%22%3E%3Ctspan%20x%3D%220%22%20y%3D%2214%22%3EReggae%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%20transform%3D%22translate%2839%20112%29%22%3E%3Ctspan%20x%3D%220%22%20y%3D%2214%22%3EBlues%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%20transform%3D%22translate%2839%2093%29%22%3E%3Ctspan%20x%3D%220%22%20y%3D%2214%22%3EHouse%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%20transform%3D%22translate%2839%2074%29%22%3E%3Ctspan%20x%3D%220%22%20y%3D%2214%22%3EJazz%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%20transform%3D%22translate%2839%2055%29%22%3E%3Ctspan%20x%3D%220%22%20y%3D%2214%22%3ECountry%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%20transform%3D%22translate%2839%2036%29%22%3E%3Ctspan%20x%3D%220%22%20y%3D%2214%22%3ERock%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%20transform%3D%22translate%2820%2018%29%22%3E%3Ctspan%20x%3D%220%22%20y%3D%2214%22%3EChoose%20favorite%20music%20genre%2Fs%3C%2Ftspan%3E%3C%2Ftext%3E%3Crect%20width%3D%2213%22%20height%3D%2213%22%20x%3D%2221%22%20y%3D%2239%22%20stroke%3D%22%23A5A5A5%22%20rx%3D%222%22%2F%3E%3Crect%20width%3D%2213%22%20height%3D%2213%22%20x%3D%2221%22%20y%3D%2258%22%20stroke%3D%22%23A5A5A5%22%20rx%3D%222%22%2F%3E%3Crect%20width%3D%2213%22%20height%3D%2213%22%20x%3D%2221%22%20y%3D%2277%22%20stroke%3D%22%23A5A5A5%22%20rx%3D%222%22%2F%3E%3Crect%20width%3D%2213%22%20height%3D%2213%22%20x%3D%2221%22%20y%3D%2296%22%20stroke%3D%22%23A5A5A5%22%20rx%3D%222%22%2F%3E%3Crect%20width%3D%2213%22%20height%3D%2213%22%20x%3D%2221%22%20y%3D%22115%22%20stroke%3D%22%23A5A5A5%22%20rx%3D%222%22%2F%3E%3Crect%20width%3D%2213%22%20height%3D%2213%22%20x%3D%2221%22%20y%3D%22134%22%20stroke%3D%22%23A5A5A5%22%20rx%3D%222%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2211.5%22%20transform%3D%22translate%2827%20173%29%22%3E%3Ctspan%20x%3D%220%22%20y%3D%2210%22%3ESubmit%20%3C%2Ftspan%3E%3C%2Ftext%3E%3Crect%20width%3D%2213%22%20height%3D%2213%22%20x%3D%2221%22%20y%3D%22153%22%20stroke%3D%22%23A5A5A5%22%20rx%3D%222%22%2F%3E%3Crect%20width%3D%2250%22%20height%3D%2217%22%20x%3D%2219%22%20y%3D%22171%22%20stroke%3D%22%23D9D9D9%22%20rx%3D%224%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/qyRaPO)--> 
+[View CodePen](https://codepen.io/enkidevs/pen/qyRaPO)
 
 In the example above, we have 7 checkboxes, each with the same name - `genre` and each with a unique value that is used to identify each checkbox. Also, each button has an id. This id is used with the `<label>` element's `for` attribute to link the label to the checkbox.
 
 **Note: By adding the label, we allow the user to have a larger clickable area for the checkboxes. That is, if the user presses anywhere in the `folk` label, that label's checkbox will be selected. This option is really useful as it makes it easier to select a value both for big and small screen sizes.**
 
-The 'name' & 'value' attributes work as a pair in keeping track of the data sent and are both important to use with checkboxes. For instance, if the user picks `folk` and `reggae` the name/value pairs would be `genre=folk&genre=reggae`. This is something the client never sees as the data is sent upon submission of the form. 
+The 'name' & 'value' attributes work as a pair in keeping track of the data sent and are both important to use with checkboxes. For instance, if the user picks `folk` and `reggae` the name/value pairs would be `genre=folk&genre=reggae`. This is something the client never sees as the data is sent upon submission of the form.
 
 When this data is submitted and sent to the server, it can be captured as an array of related values.
 
@@ -145,7 +145,7 @@ Example:
 
 ![checkbox-folk](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22width%3A100%25%22%20viewBox%3D%220%200%20320%2076%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2276%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2238%22%20y%3D%2232%22%3EFolk%3C%2Ftspan%3E%3C%2Ftext%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate%2820%2020%29%22%3E%3Crect%20width%3D%2213%22%20height%3D%2213%22%20x%3D%22.5%22%20y%3D%22.5%22%20fill%3D%22%233B99FC%22%20stroke%3D%22%233795F8%22%20rx%3D%222%22%2F%3E%3Cpath%20fill%3D%22%23FFF%22%20d%3D%22M7%208h1v1H7zm1-2h1v1H8zM6%209h1v1H6zM5%209h1v1H5zM4%208h1v1H4zM3%207h1v1H3z%22%2F%3E%3Cpath%20fill%3D%22%23AFCDEC%22%20d%3D%22M3%208h1v1H3zm1%201h1v1H4zm0-2h1v1H4zm3-1h1v1H7zm1-1h1v1H8zm1-2h1v1H9zm1%200h1v1h-1zm0%201h1v1h-1zM6%208h1v1H6zM5%208h1v1H5z%22%2F%3E%3Cpath%20fill%3D%22%231977DA%22%20d%3D%22M4%2010h1v1H4zm1%201h1v1H5zm1%200h1v1H6zm1-1h1v1H7zm1-2h1v1H8zm1-1h1v1H9zm1-2h1v1h-1zM3%209h1v1H3z%22%2F%3E%3Cpath%20fill%3D%22%23AFCDEC%22%20d%3D%22M5%2010h1v1H5zm1%200h1v1H6z%22%2F%3E%3Cpath%20fill%3D%22%23FFF%22%20d%3D%22M7%207h1v1H7zm2-2h1v1H9zm0-1h1v1H9z%22%2F%3E%3C%2Fg%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2238%22%20y%3D%2252%22%3EOther%3C%2Ftspan%3E%3C%2Ftext%3E%3Crect%20width%3D%2214%22%20height%3D%2214%22%20x%3D%2220%22%20y%3D%2240%22%20stroke%3D%22%23A5A5A5%22%20rx%3D%222%22%2F%3E%3Cpath%20stroke%3D%22%23CCC%22%20d%3D%22M82%2037h118v18H82z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/BPpLYY)0-->
+[View CodePen](https://codepen.io/enkidevs/pen/BPpLYY)0
 
 Along with the `checked` and `unchecked` state, checkboxes have a third state called `indeterminate`. In this state, you can't tell if the checkbox is toggled on or off. Checkboxes in this state have a horizontal line in the box. The most common use for this is when a checkbox option has multiple checkbox sub-options within it. If all sub-options are selected, then the parent checkbox is also selected. On the other hand, if any of the sub-options have a different state from one another the parent checkbox is in the indeterminate state.
 
@@ -225,4 +225,3 @@ How are checkboxes styled?
 * Can't be styled
 * With proper HTML
 * Using the `style` menu each browser provides for HTML editting
- 

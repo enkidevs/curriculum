@@ -49,7 +49,7 @@ This is not limited to simple transformations.  Any features of functions can be
 )
 
 // ['Hello Jake',
-//  'Hello Jack,
+//  'Hello Jack',
 //  'Hello Mike']
 ```
 

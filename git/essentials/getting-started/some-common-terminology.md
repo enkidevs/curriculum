@@ -58,7 +58,7 @@ A `tag` is a pointer to a specific commit which uniquely identifies a repository
 The `staging` area is where work expected to be committed is staged.
 ### Index
 
-The **staging area** is also be referred to as `index`.
+The **staging area** is also referred to as `index`.
 
 ---
 ## Practice

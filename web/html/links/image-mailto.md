@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -34,7 +34,7 @@ Creating a link to open the user's default email program:
   Email me here
 </a>
 ```
-<!--[View CodePen](https://codepen.io/enkidevs/pen/ejvqXx)-->
+[View CodePen](https://codepen.io/enkidevs/pen/ejvqXx)
 
 
 The subject area of the email can also be auto loaded.
@@ -50,7 +50,7 @@ Email me to sign up.
 </a>
 ```
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/OwpKGj)-->
+[View CodePen](https://codepen.io/enkidevs/pen/OwpKGj)
 
 ---
 ## Practice

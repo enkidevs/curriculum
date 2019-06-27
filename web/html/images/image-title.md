@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -22,7 +22,7 @@ aspects:
 ---
 ## Content
 
-The `title` attribute can be added to any HTML element, but is most often used with images and links for when the use mouses over these elements, a tooltip will appear. 
+The `title` attribute can be added to any HTML element, but is most often used with images and links for when the user mouses over these elements, a tooltip will appear. 
 
 Example:
 ```html
@@ -30,7 +30,8 @@ Example:
   title="Enki: Official Logo">
 ```
 
-##### --> image-title.svg
+![image-with-tooltip](https://img.enkipro.com/028cd89a69e14a473a4bd05e579d143a.png)
+
 
 ---
 ## Practice

@@ -54,7 +54,7 @@ In a centralized environment, i.e. bank, there is a single source of truth: the 
              	
 By keeping track of a second balance, the bank knows for sure you won't be able to spend the same $10 you had used to buy groceries on coffee the next day.
              	
-In an decentralized environment, it takes a while for transaction confirmations to move between nodes. Consider this scenario: Alice is living in the UK and buys something for 10 tokens from Bob. The transaction is valid by itself and is broadcasted from the UK:
+In a decentralized environment, it takes a while for transaction confirmations to move between nodes. Consider this scenario: Alice is living in the UK and buys something for 10 tokens from Bob. The transaction is valid by itself and is broadcasted from the UK:
       	       
 ```bash
 Alice pays Bob 10 coins
@@ -68,11 +68,11 @@ Alice pays Alice1 10 coins
              	
 By the nature of blockchain, if Alice had only 10 coins and both transactions were to be processed at the same time, one would go through and the other would be dropped. If Bob was to confirm the payment before the network actually did it, the transaction dropped could be the one sending him the coins.
              	
-This is usually dealt with by waiting for a number of new blocks (5-6) to be appended after the block containing the said transaction to "confirm" it. The longer the new chain, the more trustworthy it is consider to be.
+This is usually dealt with by waiting for a number of new blocks (5-6) to be appended after the block containing the said transaction to "confirm" it. The longer the new chain, the more trustworthy it is considered to be.
              	
 ### Block verification
              	
-This verification ensures that everybody has exactly the same history: the hash of the previous block must be correct and match the end of the currently longest chain. Ideally, the lookup should be done up to the genesis block. However, this isn't scalable.
+This verification ensures that everybody has exactly the same history: the hash of the previous block must be correct and match the end of the longest current chain. Ideally, the lookup should be done up to the genesis block. However, this isn't scalable.
              	
 In most cases, the network designates a checkpoint block, that is used as a definite source of truth.
 

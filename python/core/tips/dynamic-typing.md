@@ -34,9 +34,9 @@ def x():
   pass
 ```
 
-In Python, variables do not represent a portion of computer's memory where their value is written, but *tags* pointing to object.
+In Python, variables do not represent a portion of computer's memory where their value is written, but *tags* pointing to objects.
 
-Keep in mind that it is a **bad practice** to use the same variable name for different data types. Instead, use meaningful names for
+Keep in mind that it is a **bad practice** to use the same variable name for different data types. Instead, use meaningful names for variables.
 ```python
 # bad
 x = 2.71

@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -49,7 +49,7 @@ Example with a poem:
 </figure>
 ```
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/YjqEWp)-->
+[View CodePen](https://codepen.io/enkidevs/pen/YjqEWp)
 
 ---
 ## Practice

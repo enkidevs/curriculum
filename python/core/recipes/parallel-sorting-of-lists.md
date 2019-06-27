@@ -21,7 +21,7 @@ category: tip
 
 ---
 
-# Merge two lists into a dict
+# Parallel Sorting of Lists
 
 ---
 ## Content
@@ -35,7 +35,7 @@ The `zip()` method can bind two lists together such that they become a single on
 names = ['John', 'G', 'Arron', 'Jack']
 age = [18, 21, 40, 32]
 
-print(zip(names, age))
+print(list(zip(names, age)))
 >>> [('John', 18), ('G', 21), ...]
 ```
 

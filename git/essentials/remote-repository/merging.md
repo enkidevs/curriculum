@@ -50,7 +50,27 @@ $ git merge feature
 # merging feature INTO master
 ```
 
-However, merging is not always successful because conflicts can arise when both branches had modifications in the **same** file(s) (changes since the time they diverged). In this case **Git** doesn't know what version of the file to choose and requires **your** guidance.[1]
+However, merging is not always successful because conflicts can arise when both branches had modifications in the **same** file(s) (changes since the time they diverged). In this case **Git** doesn't know what version of the file to choose and requires **your** guidance. 
+
+You can check what files weren't successfully  merged using the `git status` command:
+```
+$ git status
+# On branch master
+# You have unmerged paths.
+# ...
+# Unmerged paths:
+# ...
+#    both modified:    file.txt
+# ...
+```
+When a merge conflict occurs the `git status` command even provides you directions on how to proceed.
+```
+$ git status
+# On branch master
+# You have unmerged paths.
+#   (fix conflicts and run "git commit")
+...
+```
 
 In these files you can see the conflict highlighted by the syntax:
 ```
@@ -61,7 +81,7 @@ In these files you can see the conflict highlighted by the syntax:
 >>>>>>> feature
 
 ```
-Above the `=======` line you can see the version of the file that was in the `HEAD` before the merge, while under you can see **targeted** branch version[2].
+Above the `=======` line you can see the version of the file that was in the `HEAD` before the merge, while under you can see **targeted** branch version[1].
 
 You must manually resolve these conflicts (save the file as you wish it to be) and commit the update(s). You may then push the changes.
 
@@ -95,26 +115,5 @@ A merge operation will:
 
 ---
 ## Footnotes
-[1:unmerged]
-You can check what files weren't successfully  merged using the `git status` command:
-```
-$ git status
-# On branch master
-# You have unmerged paths.
-# ...
-# Unmerged paths:
-# ...
-#    both modified:    file.txt
-# ...
-```
-When a merge conflict occurs the `git status` command even provides you directions on how to proceed.
-```
-$ git status
-# On branch master
-# You have unmerged paths.
-#   (fix conflicts and run "git commit")
-...
-```
-[2:conflicts]
+[1:conflicts]
 These markings are usually in more than one place in the file; everywhere there exists a conflict.
- 

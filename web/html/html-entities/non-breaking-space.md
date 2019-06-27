@@ -1,6 +1,6 @@
 ---
 
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -17,11 +17,11 @@ aspects:
   - introduction
   - workout
   - deep
-  
+
 links:
   - '[CodePen: non-breaking space](https://codepen.io/enkidevs/pen/YjNpVa){code}'
   - '[CodePen: &nbsp within Table](https://codepen.io/enkidevs/pen/PBpLqV){code}'
-  
+
 ---
 # Non-breaking Space
 
@@ -45,26 +45,26 @@ HTML Entity Name
 ```
 **Prevent Line Break with Non-Breaking Space**
 
-A common use for the non-breaking space is putting it before any numeric (or alphabetic reference) to prevent awkward breaks. 
+A common use for the non-breaking space is putting it before any numeric (or alphabetic reference) to prevent awkward breaks.
 
-WRONG: 
+WRONG:
 ```html
 Under Security Law §
 1893 purchases can be made. ¶
 23 of the contract provides details.
 ```
 
-CORRECT: 
+CORRECT:
 ```html
 Under Security Law
 § 1893 purchases can be made.
 ¶ 23 of the contract provides details.
 ```
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/YjNpVa)-->
+[View CodePen](https://codepen.io/enkidevs/pen/YjNpVa)
 
 
-By default, two images placed together in a webpage will visually touch. When a single space should be used to separate them, a non-breaking space can be used like this: 
+By default, two images placed together in a webpage will visually touch. When a single space should be used to separate them, a non-breaking space can be used like this:
 
 Without &nbsp:
 ```html
@@ -89,7 +89,7 @@ Result:
 
 **Prevent Table Cell Collapse with Non-Breaking Space**
 
-If you have a table with an empty cell within your web page, you should insert the non-breaking space HTML coding in the empty cell to prevent the cell from collapsing in older browsers. Adding may not be necessary in modern browsers, but adding `&nbsp;` into the cell can help developers know the cell is empty on purpose and it's content wasn't deleted by accident. 
+If you have a table with an empty cell within your web page, you should insert the non-breaking space HTML coding in the empty cell to prevent the cell from collapsing in older browsers. Adding may not be necessary in modern browsers, but adding `&nbsp;` into the cell can help developers know the cell is empty on purpose and it's content wasn't deleted by accident.
 
 ```html
 <table>
@@ -113,9 +113,9 @@ If you have a table with an empty cell within your web page, you should insert t
 
 ![nbsp-table](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%22150%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%22150%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Cpath%20stroke%3D%22%23686868%22%20d%3D%22M17.5%2020.5h285v109h-285z%22%2F%3E%3Ccircle%20cx%3D%22156.5%22%20cy%3D%22107.5%22%20r%3D%222.5%22%20fill%3D%22%23000%22%2F%3E%3Ccircle%20cx%3D%22247.5%22%20cy%3D%2275.5%22%20r%3D%222.5%22%20fill%3D%22%23000%22%2F%3E%3Cpath%20stroke%3D%22%233C3C3C%22%20d%3D%22M27.5%2028.5h82v29h-82zm85%200h87v29h-87zm91%200h87v29h-87zm0%2032h87v29h-87zm0%2032h87v29h-87z%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%22121%22%20y%3D%2249%22%3EProduct%20A%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2236%22%20y%3D%2280%22%3EOption%201%3A%20%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2236%22%20y%3D%22113%22%3EOption%202%3A%20%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%22212%22%20y%3D%2249%22%3EProduct%20B%3C%2Ftspan%3E%3C%2Ftext%3E%3Cpath%20stroke%3D%22%233C3C3C%22%20d%3D%22M112.5%2060.5h87v29h-87zm0%2032h87v29h-87zm-85-32h82v29h-82zm0%2032h82v29h-82z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/PBpLqV)-->
+[View CodePen](https://codepen.io/enkidevs/pen/PBpLqV)
 
-**Note:** Do not use multiple non-breaking spaces to create larger spaces. If additional space is necessary, then CSS should be used.  
+**Note:** Do not use multiple non-breaking spaces to create larger spaces. If additional space is necessary, then CSS should be used.
 
 
 ---
@@ -161,4 +161,3 @@ What does the "&nbsp;" within this line of code do?
 * Prevents the images from starting on new line like word wrap.
 * Removes any space between the images.
 * Useful when pulling image files from a database.
- 

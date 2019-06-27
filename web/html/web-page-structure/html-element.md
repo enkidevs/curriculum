@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -26,7 +26,7 @@ links:
 ---
 ## Content
 
-The HTML `<html>` element is the root (top-level element) of an HTML document and is the primary container for all of the other elements in the documents, which are they descendants of this one element. 
+The HTML `<html>` element is the root (top-level element) of an HTML document and is the primary container for all of the other elements in the documents, which are they descendants of this one element.
 
 Within every `<html>` element are two primary elements:
 * `<head>`: Data useful for the page.
@@ -55,9 +55,9 @@ html {
 }
 
 ```
-<!--[View CodePen](https://codepen.io/enkidevs/pen/zLqrRE)-->
+[View CodePen](https://codepen.io/enkidevs/pen/zLqrRE)
 
-we change the background color of the `:root` to red, and even though the `html` has been set to blue, the `:root` style overrides it. 
+we change the background color of the `:root` to red, and even though the `html` has been set to blue, the `:root` style overrides it.
 
 ---
 ## Practice
@@ -69,7 +69,7 @@ What is meant by the html element being the root of an HTML page?
 * It's the single HTML element that contains every other HTML element.
 * It is the deepest node of a tree of HTML nodes.
 * It represents every HTML attribute specified.
-* It provides a simple fix to the issues of the browser wars of the 1990s.  
+* It provides a simple fix to the issues of the browser wars of the 1990s.
 
 ---
 ## Revision
@@ -106,4 +106,3 @@ Using a `:root` selector in CSS will target which HTML element?
 * `<main>`
 * `<root>`
 * every HTML element
- 

@@ -38,7 +38,7 @@ links:
 ---
 ## Content
 
-Broken Access Control means misconfigured or absent features ensuring that users are only able to access resources they're intended to access, and that no users are able to access resources not intended for access. In layman's terms, it means not letting normal users have admin-level access, and making sure that all the content you need to be logged in to see actually has a check that prevents you seeing it if you aren't logged in.
+Broken Access Control means misconfigured or absent features that are supposed to ensure that users are only able to access resources they're intended to access. In layman's terms, it means not letting normal users have admin-level access, and making sure that all the content you need to be logged in to see actually has a check that prevents you seeing it if you aren't logged in.
 
 Normally this is handled in the *Session and Application Layers*. The Session layer will hold a *credential* that securely identifies the user. That user will have access to some features of the application, and some _may_ be denied.
 
