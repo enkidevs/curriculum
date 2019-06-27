@@ -108,8 +108,8 @@ ints.???(???)
 * `includes`
 * `get`
 * `filter`
-* `function (e) {return e = 4}`
-* `function (e) {return e == 4}`
+* `function (e) {return e % 4}`
+* `function (e) {return e === 4}`
 
 ---
 ## Revision
@@ -118,13 +118,13 @@ Fill the array with the first number divisible by `2` and `3`:
 
 ```javacript
 let ints = ['2','5','4','5','6','5','8'];
-ints.???(function (e) {???})
+ints.???(ints.???(???))
 ```
 
-* `find`
-* `return e % 2 === 0 && e % 3 === 0`
 * `fill`
+* `find`
+* `function (e) {return e % 2 === 0 && e % 3 === 0}`
+* `findIndex`
 * `includes`
 * `get`
 * `filter`
-* `return e % 2 && e % 3`
