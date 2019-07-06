@@ -33,39 +33,39 @@ An example of using `join()`:
 class Add extends Thread {
   public int result;
   public void run() {
-		value = 3+5;
-	}
+    result = 3+5;
+  }
 }
 
 class Mul extends Thread {
   public int result;
   public void run() {
-    value = 3*5;
+    result = 3*5;
   }
 }
 
 public class Main{
-	public static void main(String[] args){
-		Add t1 = new Add();
-		Mul t2 = new Mul();
+  public static void main(String[] args){
+    Add t1 = new Add();
+    Mul t2 = new Mul();
 
-		t1.start();
-		t2.start();
+    t1.start();
+    t2.start();
 
     //try to wait until both
     //threads calculate the result
-		try {
-			t1.join();
-			t2.join();
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
+    try {
+      t1.join();
+      t2.join();
+    } catch (InterruptedException e) {
+      e.printStackTrace();
+    }
 
     //only combine results after
     //both threads finished
-    double n =
-          ((double)t2.result/t1.result);
-	}
+    double n = 
+      ((double)t2.result/t1.result);
+  }
 }
 ```
 
