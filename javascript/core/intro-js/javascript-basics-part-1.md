@@ -33,9 +33,17 @@ Like most programming languages, JavaScript has a number of rules its code must 
 
 Everything in JavaScript is case sensitive.
 
+```javascript
+var password;
+// Is not the same as
+var passWord;
+/or
+var PASSWORD;
+```
+
 ### Keywords
 
-Like most languages, there are a number of reserved words in JavaScript that you cannot use to name your functions and variables.
+Like most languages, there are a number of reserved words in JavaScript that you cannot use to name your functions and variables (eg: var, let, new)
 
 ### Identifier naming rules
 
@@ -45,6 +53,7 @@ After the first character, you are free to use numbers, letters, dollar signs or
 
 ```javascript
 var name = "Enki"; //valid
+var $taxRate = 8.25; //valid
 var 2Company = "Enki"; //not valid
 ```
 
