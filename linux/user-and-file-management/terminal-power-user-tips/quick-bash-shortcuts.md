@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: enkici
 
 levels:
 
@@ -52,7 +52,7 @@ To effectively construct commands on the command line make use of the following 
 - `ctrl-u` to delete all the way back to the start of the line;
 - `ctrl-k` to delete up to the end of the line;
 - `alt-f` to move forward by one word;
-- `alt-b` to move backwards by one word
+- `alt-b` to move backwards by one word;
 - `ctrl-a` to move to the beginning of the line;
 - `ctrl-e` to move to the end of the line;
 

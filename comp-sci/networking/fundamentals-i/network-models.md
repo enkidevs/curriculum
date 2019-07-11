@@ -29,9 +29,9 @@ parent: types-of-networks
 ---
 ## Content
 
-In order to ease the *complexity* of networking engineering, the **networking communication** concept was divided into multiple **layers**.
+In order to ease the *complexity* of network engineering, the **networking communication** concept was divided into multiple **layers**.
 
-In the *layered* architecture of **Network Model**, one whole network *process* is divided into small different **tasks**.
+In the *layered* architecture of a **Network Model**, one whole network *process* is divided into small different **tasks**.
 
 Each  *task* is assigned to a particular layer, dedicated to that task alone. Conclusively, every **layer** performs a specific function.
 
