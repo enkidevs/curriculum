@@ -26,9 +26,9 @@ parent: network-models
 ---
 ## Content
 
-An **IP address** is an *unique* identifier assigned to a computer or other similar device when connected to a network.
+An **IP address** is a *unique* identifier assigned to a computer or other similar device when connected to a network.
 
-Chances are that while reading this you are connected to *the Internet*, the global, huge **computer network** that makes possible the communication between billions of devices[1].
+Chances are that while reading this you are connected to *the Internet*: the huge global **computer network** that makes possible the communication between billions of devices[1].
 
 To make such *communication* possible, you need a way to distinguish yourself among the astonishing number of devices around you.
 
