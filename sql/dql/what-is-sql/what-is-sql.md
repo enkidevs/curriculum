@@ -31,7 +31,7 @@ links:
 
 *SQL* stands for *Structured Query Language* and was developed in the 1970s. Many databases use it today.
 
-Here's an example of a SQL Query:
+Here's an example of an SQL Query which returns all rows and columns from the `users` table:
 
 ```sql
 SELECT * FROM users;

@@ -31,6 +31,16 @@ aspects:
 ---
 ## Content
 
+<!-- Maybe explain what happens when you "query" a table (how a new table is created, resulting set, and how it is only temporary, it never modifies the original table, take inspiration from enkiCamp?) -->
+
+Consider the following table named `pokemon`:
+
+| id | name      | type_1 | type_2 |
+|----|-----------|--------|--------|
+| 1  | Bulbasaur | Grass  | Poison |
+| 2  | Ivysaur   | Grass  | Poison |
+| 3  | Venusaur  | Grass  | Poison |
+
 To get all of the data from a table, use a `SELECT *` statement.
 
 ```sql

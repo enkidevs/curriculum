@@ -35,21 +35,47 @@ The conditional statement that follows `WHERE` will be evaluated for each row. I
 
 Some of the simplest conditional statements involve comparison operators like `=`, `>=`, `<=`, `>` and `<` (equal to, greater than or equal to, less than or equal to, greater than, and less than, respectively).
 
-For example, to retrieve all information in the `pokemon` table about the Pokemon named "caterpie", query:
+Consider the following `pokemon` table:
+
+| id | name       | total | hp | attack | defense |
+|----|------------|-------|----|--------|---------|
+| 10 | Caterpie   | 195   | 45 | 30     | 35      |
+| 11 | Metapod    | 205   | 50 | 20     | 55      |
+| 12 | Butterfree | 395   | 60 | 45     | 50      |
+| 13 | Weedle     | 195   | 40 | 35     | 30      |
+| 14 | Kakuna     | 205   | 45 | 25     | 50      |
+| 15 | Beedrill   | 395   | 65 | 90     | 40      |
+
+For example, to retrieve all information in the `pokemon` table about the Pokemon named "Caterpie", query:
 
 ```sql
 SELECT *
 FROM pokemon
-WHERE name = 'caterpie';
+WHERE name = 'Caterpie';
 ```
 
-To retrieve the `name` and `cost` of all items with `fling_power` greater than or equal to 30, query:
+And the resulting table would look like:
+
+| id | name     | total | hp | attack | defense |
+|----|----------|-------|----|--------|---------|
+| 10 | Caterpie | 195   | 45 | 30     | 35      |
+
+To retrieve the `name` and `hp` of all pokemons with `attack` greater than or equal to 30, query:
 
 ```sql
-SELECT name, cost
-FROM item
-WHERE fling_power >= 30;
+SELECT name, hp
+FROM pokemon
+WHERE attack >= 30;
 ```
+
+This query would return the following table:
+
+| name       | hp |
+|------------|----|
+| Caterpie   | 45 |
+| Butterfree | 60 |
+| Weedle     | 40 |
+| Beedrill   | 65 |
 
 Note that text needs to be enclosed with quote marks (`'text'`), while integers (and other numerical types) should not have quotes.
 
@@ -57,7 +83,7 @@ Note that text needs to be enclosed with quote marks (`'text'`), while integers 
 ---
 ## Practice
 
-Complete the following query to retrieve the `id` and `power` for all the rows from the `move` table where `accuracy` is less than 100.
+Complete the following query to retrieve the `id` and `power` from the `move` table where `accuracy` is less than 100.
 
 
 ```sql
