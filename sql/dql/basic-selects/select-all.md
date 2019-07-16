@@ -31,7 +31,7 @@ aspects:
 ---
 ## Content
 
-To retrieve data from a table we usually write queries that contain at least one `SELECT` statement. A query is just a way to declare the data that you want returned and where to find it in the database. On top of that, you can specify how you want your data transformed before it is returned.
+To retrieve data from a table we usually write queries that contain at least one `SELECT` statement. A query is just a way to declare the data that you want returned and where to find it in the database. On top of that, you can specify how you want your data transformed before it is returned but for this insight we will focus on the basics of queries.
  
 Consider the following table named `pokemon`:
 
