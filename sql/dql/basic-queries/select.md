@@ -31,7 +31,18 @@ aspects:
 ---
 ## Content
 
-To get all of the data from a table, you can use a `SELECT` statement.
+Consider the following `pokemon` table:
+
+| id | name       | total | hp | attack | defense |
+|----|------------|-------|----|--------|---------|
+| 10 | Caterpie   | 195   | 45 | 30     | 35      |
+| 11 | Metapod    | 205   | 50 | 20     | 55      |
+| 12 | Butterfree | 395   | 60 | 45     | 50      |
+| 13 | Weedle     | 195   | 40 | 35     | 30      |
+| 14 | Kakuna     | 205   | 45 | 25     | 50      |
+| 15 | Beedrill   | 395   | 65 | 90     | 40      |
+
+To get all of the data from a table, you can use a `SELECT *` statement.
 
 ```sql
 SELECT *
@@ -43,11 +54,22 @@ The above command gets all of the *columns* and all of the *rows* from the `poke
 We can also use the `SELECT` statement to specify the exact *columns* we want to keep from the table, and to discard the others.
 
 ```sql
-SELECT id, weight, name
+SELECT id, attack, defense
 FROM pokemon;
 ```
 
-The above command gets only the `id`, `weight`, and `name` columns from the table, but keeps all of the rows of the `pokemon` table. Remember, the information is not deleted, you're simply **querying** the database, but doing so in a way where you only receive the information contained in the specified columns.
+The above command gets only the `id`, `attack`, and `defense` columns from the table, but keeps all of the rows of the `pokemon` table. Here is how the resulting set looks like:
+
+| id | attack | defense |
+|----|--------|---------|
+| 10 | 30     | 35      |
+| 11 | 20     | 55      |
+| 12 | 45     | 50      |
+| 13 | 35     | 30      |
+| 14 | 25     | 50      |
+| 15 | 90     | 40      |
+
+Remember, the information is not deleted, you're simply **querying** the database, but doing so in a way where you only receive the information contained in the specified columns.
 
 ---
 ## Practice
