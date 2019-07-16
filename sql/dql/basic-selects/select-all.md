@@ -31,8 +31,8 @@ aspects:
 ---
 ## Content
 
-<!-- Maybe explain what happens when you "query" a table (how a new table is created, resulting set, and how it is only temporary, it never modifies the original table, take inspiration from enkiCamp?) -->
-
+To retrieve data from a table we usually write queries that contain at least one `SELECT` statement. A query is just a way to declare the data that you want returned and where to find it in the database. On top of that, you can specify how you want your data transformed before it is returned.
+ 
 Consider the following table named `pokemon`:
 
 | id | name      | type_1 | type_2 |
@@ -41,14 +41,13 @@ Consider the following table named `pokemon`:
 | 2  | Ivysaur   | Grass  | Poison |
 | 3  | Venusaur  | Grass  | Poison |
 
-To get all of the data from a table, use a `SELECT *` statement.
-
+If you wanted to return all the data in this table, you would use one of the simplest queries. The syntax would look like this:
 ```sql
 SELECT *
 FROM pokemon;
 ```
 
-The above command gets all of the *columns* and all of the *rows* from the `pokemon` table.
+What the above query does is that it `SELECT`s all (represented by the `*` symbol) the columns `FROM` the table named `pokemon`. The returned table will contain all of the *columns* and all of the *rows* from the table.
 
 
 ---
