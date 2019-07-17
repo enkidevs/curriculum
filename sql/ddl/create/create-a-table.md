@@ -43,7 +43,8 @@ aspects:
 ## Content
 
 A table can be created in PostgresSQL using the following query:
-```
+
+```sql
 CREATE TABLE first_table(
   column1 datatype NOT NULL,
   column2 datatype,
@@ -51,6 +52,7 @@ CREATE TABLE first_table(
   PRIMARY KEY(column1)
 );
 ```
+
 First we need to tell the database that we want to create a new table. After this we must specify each column and the datatype it holds. Finally, we define a `PRIMARY KEY`[1]. Note that we need to set a constraint for the primary key "column1". `NOT NULL` means that this field can't be left empty.
 
 You can verify if a table was succesfully created using `\d first_table;` when working with Postgres or `describe first_table` when working with MySQL.
@@ -59,7 +61,8 @@ You can verify if a table was succesfully created using `\d first_table;` when w
 ## Practice
 
 Create a table that is called “student” where the first column contains the `id` that is a `char(50)`, the second column contains the `full_name` that is a `char(50)`, and the third column contains the `year_of_study` that is a `smallint`.
-```
+
+```sql
 ??? TABLE student(
   id char(50) ???,
   full_name ???,
@@ -95,5 +98,3 @@ column3: salary int
 ## Footnotes
 [1:PRIMARY KEY]
 A primary key is a field in a table that identifies each row in a db.
- 
- 

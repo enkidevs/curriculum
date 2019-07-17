@@ -38,13 +38,16 @@ aspects:
 Similar to MySQL, MSSQL uses `varbinary(n)` to store raw bytes. The maximum number of bytes is `4 + 2^32` (4.2 GB).
 
 Creating a table is easy:
+
 ```sql
 CREATE TABLE sprite(
   id bigint NOT NULL PRIMARY KEY,
   pokemon varbinary(MAX)
 );
 ```
+
 However, data insertion is done quite differently:
+
 ```sql
 INSERT INTO sprite
 VALUES((SELECT *
@@ -56,6 +59,7 @@ FROM OPENROWSET (BULK 'pikachu.png',
 ## Practice
 
 In SQL Server, insert a BLOB into `image` column:
+
 ```sql
 ??? ??? sprite(image)
 VALUES((???
@@ -75,6 +79,7 @@ FROM ???(??? ???,
 ## Revision
 
 In SQL Server, insert a BLOB into `image` column:
+
 ```sql
 ??? ??? sprite(image)
 VALUES((???
@@ -88,6 +93,3 @@ FROM OPENROWSET(??? 'pikachu.jpg',
 * `BULK`
 * `SINGLE_BLOB`
 * `AS`
-
- 
- 

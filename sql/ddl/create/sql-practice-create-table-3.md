@@ -39,13 +39,14 @@ aspects:
 ---
 # SQL Practice Create Join Table
 
----        
+---
 ## Exercise
 
 Today your mission is to create a table called `user_items`.
 The purpose of this table is to connect which users own which items, so we'll be referencing IDs in other tables.
 
-This table should contain the following columns, which should store the following values:  
+This table should contain the following columns, which should store the following values:
+
 - `id`, a unique value to identify a user's relationship with items
 - `item_id`, for example:  "1", "2", this will refer to IDs in the `items` table
 - `user_id`, for example: "1", "2", this will refer to IDs in the `users` table
@@ -74,5 +75,3 @@ In total, you will need to:
 - *Build the schema*
 - *Run the provided query*
 - *Submit the result as your Answer*
- 
- 

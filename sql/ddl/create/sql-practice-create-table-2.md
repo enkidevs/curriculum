@@ -40,12 +40,13 @@ aspects:
 
 # SQL Practice Create Table
 
----        
+---
 ## Exercise
 
 Your mission today is to create a table called `users`.
 
 This table should have the following columns, which will store the following values:
+
 - `id`, a unique value to identify a user
 - `name`, for example: "John Goose", "Elizabeth Duck"
 - `facebook_id`, for example: "320985721018"
@@ -75,6 +76,7 @@ Finally, execute the query provided and submit the result
 
 
 In total, you will need to:
+
 - *Create the table*
 - *Add the seed data*
 - *Build the schema*
@@ -82,5 +84,3 @@ In total, you will need to:
 - *Submit the result as your Answer*
 
 Good luck! :rocket:
- 
- 

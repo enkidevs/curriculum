@@ -37,6 +37,7 @@ aspects:
 ## Content
 
 When it comes to storing and manipulating string fields, two questions come to mind:
+
 - What if the characters are not part of the Latin alphabet, e.g. Korean, Russian or even emojis?
 - When sorting results alphabetically, should 'é' come before 'f' or after 'z'? What about 'カ' or '😊'?
 
@@ -49,6 +50,7 @@ You can see the **encoding** of a system as a function that maps groups of bits 
 As you can imagine, 255 characters isn't nowhere near enough to map every symbol of every alphabet in the world. For reference, only in the first emoji tab ('Smileys and People') there are around 180 emoticons. This was an issue that had to be dealt with quickly.
 
 And it was. The current standard is *Unicode* (*Universal Coded Character Set*) which includes close to 137,000 characters, stored using 1 to 4 bytes. There are three types of Unicode encodings:
+
 - UTF-8: 1-4 bytes encoding which maximizes compatibility with ASCII
 - UTF-16: 1-2 groups of 2 bytes (hence the 16)
 - UTF-32: 4 bytes encoding
@@ -68,7 +70,6 @@ As of now, the most recommended character encoding is
 
 ???
 
-
 * UTF-8
 * UTF-16
 * UTF-32
@@ -78,7 +79,8 @@ As of now, the most recommended character encoding is
 ## Revision
 
 Match the description to the term it refers to:
-```
+
+```text
 Used to group accented characters with
 their base character.
 ???
@@ -87,9 +89,5 @@ A function that maps bits to characters.
 ???
 ```
 
-
 * collation
 * encoding
-
- 
- 

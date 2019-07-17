@@ -40,7 +40,7 @@ aspects:
 ---
 # SQL Practice Create Join Table
 
----        
+---
 ## Exercise
 
 Create a table called `requests`. This table should contain the following columns, which should store the following values:
@@ -75,6 +75,7 @@ VALUES (5, 1, 3, "2018-01-06", "2018-01-15", 1);
 ```
 
 In total, you will need to:
+
 - *create the table*
 - *add the seed data*
 - *build the schema*
@@ -82,5 +83,3 @@ In total, you will need to:
 - *run the provided query*
 - *which item is the most requested?*
 - *Enter the ID of the most requested item in the answer field*
- 
- 

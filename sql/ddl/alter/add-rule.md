@@ -45,7 +45,8 @@ aspects:
 ## Content
 
 We can also add rules to specific clauses. `CREATE RULE` statement enables us to do it. We will use an example in order to make it easier to understand. What we will do is create a new rule such that each time we `SELECT` something from table1, it will select all from table2 as well.
-```
+
+```sql
 CREATE RULE "rule_name"
 AS ON SELECT TO table1
 DO ALSO
@@ -57,9 +58,10 @@ DO ALSO
 ---
 ## Revision
 
-Create a rule such that when we `SELECT` from "region" table, it will display the "id" column every time:
-```
-id | region_id |      name      
+Consider the "region" table.
+
+```text
+id | region_id |      name
 ===+===========+===============
  1 |         1 | generation-i
  2 |         2 | generation-ii
@@ -68,14 +70,16 @@ id | region_id |      name
  5 |         5 | generation-v
  6 |         6 | generation-vi
 (6 rows)
+```
 
+Create a rule such that when we `SELECT` from "region" table, it will display the "id" column every time:
+
+```sql
 ??? "include_id"
 AS ON ??? region
 DO ALSO
   SELECT ??? FROM region;
-
-````
-
+```
 
 * CREATE RULE
 * SELECT TO
@@ -83,5 +87,3 @@ DO ALSO
 * UPDATE
 * FROM
 * region_id
- 
- 

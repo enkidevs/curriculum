@@ -36,17 +36,21 @@ aspects:
 ## Content
 
 In PostgreSQL, there are two possible ways of storing JSON objects:
+
 - `json`: stores an exact copy of the string, which is reparsed for every query targeting it
 - `jsonb`: stores data in binary format, which makes querying faster
 
 In practice, it is recommended to use `jsonb`:
+
 ```sql
 CREATE TABLE poke_json(
   id bigserial PRIMARY KEY,
   pokemon jsonb
 );
 ```
+
 Inserting new JSON values is done through strings:
+
 ```sql
 INSERT INTO poke_json
 VALUES('{
@@ -64,14 +68,18 @@ VALUES('{
       "type": null
   }]}');
 ```
+
 And querying object properties is done using `@>` operator:
+
 ```sql
 SELECT *
 FROM poke_json WHERE
 pokemon @> '{"types": ["poison", "grass"]}';
 ```
+
 With the output:
-```
+
+```text
    id   |     pokemon
 ========+===================
     1   | {"id": 1, "name": "Bulbasaur" ...}
@@ -81,6 +89,7 @@ With the output:
 ## Practice
 
 Querying the JSON `pokemon` field in a PostgreSQL database, select all Pokémon which have evolutions:
+
 ```sql
 ??? pokemon
 ??? poke_json ???
@@ -103,12 +112,8 @@ PostgreSQL's operator for JSON parsing is
 
 ???
 
-
 * `@>`
 * `->`
 * `->>`
 * `@`
 * `JSON_VALUE`
-
- 
- 
