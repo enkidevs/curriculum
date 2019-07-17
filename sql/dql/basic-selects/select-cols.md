@@ -28,7 +28,12 @@ aspects:
 ---
 ## Content
 
-Consider the following `pokemon` table:
+Although returning all data from a table is commonly used when inspecting new databases, it is advised against using the `SELECT *` syntax for *real production data* (which usually contains a large amount of information) due to the following reasons:
+- retrieving more data than the application needs to function
+- when working with multiple joined tables it is possible to return two columns of the same name from two different tables (often leading to crashes)
+- some databases charge money per retrieved data (Google's BigQuery) leading to unwanted costs
+
+Queries in SQL are commonly written to return only the columns of interest. Let's take another look at the `pokemon` table:
 
 | id | name      | type_1 | type_2 | hp | attack |
 |----|-----------|--------|--------|----|--------|
@@ -50,6 +55,8 @@ The above command retrieves the `name`, `hp` and `attack` information for all of
 | Bulbasaur | 45 | 49     |
 | Ivysaur   | 60 | 62     |
 | Venusaur  | 80 | 82     |
+
+Note that every time you run a query, you get a copy of your original table that contains only the requested columns. This resulting table is also commonly referred to as *resulting set*. It is also important to keep in mind that the *result set* isn't stored permanently in the database, and that it doesn't change any tables in the database.
 
 ---
 ## Practice

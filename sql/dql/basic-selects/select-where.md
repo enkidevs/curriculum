@@ -29,11 +29,16 @@ aspects:
 ---
 ## Content
 
-When added to a SQL `SELECT` statement, `WHERE` allows us to select rows in a table by specifying conditions.
+As with returning all columns, you will generally want to restrict the number of records (rows) returned to comply with a constraint. This is done using the `WHERE` keyword and the query would generally look like:
+```sql
+SELECT column_1, column_2,... 
+FROM table_name
+WHERE condition;
+```
 
-The conditional statement that follows `WHERE` will be evaluated for each row. If the statement evaluates to true, the row will be included in the query result.
+When added to a SQL `SELECT` statement, `WHERE` allows us to select rows in a table by specifying conditions. The conditional statement that follows `WHERE` will be evaluated for each row. If the statement evaluates to true, the row will be included in the query result.
 
-Some of the simplest conditional statements involve comparison operators like `=`, `>=`, `<=`, `>` and `<` (equal to, greater than or equal to, less than or equal to, greater than, and less than, respectively).
+Some of the simplest conditional statements involve comparison operators like `=` (equal to), `>=` (greater than or equal to), `<=` (less than or equal to), `>` (greater than) and `<` (less than).
 
 Consider the following `pokemon` table:
 
@@ -77,7 +82,7 @@ This query would return the following table:
 | Weedle     | 40 |
 | Beedrill   | 65 |
 
-Note that text needs to be enclosed with quote marks (`'text'`), while integers (and other numerical types) should not have quotes.
+Note that text needs to be enclosed within quotation marks (`'text'`), while integers (and other numerical types) should not have quotes.
 
 
 ---
