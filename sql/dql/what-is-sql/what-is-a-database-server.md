@@ -37,7 +37,7 @@ When referring to the *software*, a database server is the program that receives
 ---
 ## Practice
 
-The software on which information in a database is *stored* is called:
+Where is the information in a database *stored*?
 
 ???
 
