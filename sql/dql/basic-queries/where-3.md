@@ -32,36 +32,65 @@ aspects:
 
 ### `LIKE`, `IN`
 
-In a `WHERE` clause, we can also use the keywords `LIKE` and `IN`. `LIKE` allows us to define a pattern that the given attribute should conform to, such as the length or the first letter. `IN` allows us to define a list of values of which the attribute must be one. See the following examples:
+In a `WHERE` clause, we can also use the keywords `LIKE` and `IN`. `LIKE` allows us to define a pattern that the given attribute should conform to, such as the length or the first letter. `IN` allows us to define a list of values of which the attribute must be one. 
+
+Let's consider the following `pokemon` table:
+
+| name       | total | hp | attack | defense |
+|------------|-------|----|--------|---------|
+| Bulbasaur  | 318   | 45 | 49     | 49      |
+| Ivysaur    | 405   | 60 | 62     | 63      |
+| Venusaur   | 525   | 80 | 82     | 83      |
+| Charmander | 309   | 39 | 52     | 43      |
+| Charmeleon | 405   | 58 | 64     | 58      |
+| Charizard  | 534   | 78 | 84     | 78      |
+| Squirtle   | 314   | 44 | 48     | 65      |
+| Wartortle  | 405   | 59 | 63     | 80      |
+| Blastoise  | 530   | 79 | 83     | 100     |
+| Caterpie   | 195   | 45 | 30     | 35      |
+| Metapod    | 205   | 50 | 20     | 55      |
+
+The n-tuple list of possible values given to `IN` is the list of possible values that the attribute must take in that column for it to be included in the query result.
 
 ```sql
 SELECT *
 FROM pokemon
-WHERE name IN ('charmander',
-  'squirtle', 'bulbasaur');
+WHERE name IN ('Charmander',
+  'Squirtle', 'Bulbasaur');
 ```
 
-The n-tuple list of possible values given to `IN` is the list of possible values that the attribute must take in that column for it to be included in the query result. In this case, we will only get the rows of the three starter Pokémon: Charmander, Squirtle and Bulbasaur.
+In this case, we will only get the rows of the three starter Pokémon: Charmander, Squirtle and Bulbasaur.
+
+| name       | total | hp | attack | defense |
+|------------|-------|----|--------|---------|
+| Bulbasaur  | 318   | 45 | 49     | 49      |
+| Charmander | 309   | 39 | 52     | 43      |
+| Squirtle   | 314   | 44 | 48     | 65      |
 
 The `LIKE` statement accepts a pattern string, where wildcard characters are used to denote an acceptable pattern. *Note that some databases may have a different implementation of the specific wildcard characters*
 
  - `%` is a **wildcard**. This means it counts for a string of any characters of any length, including nothing.
  - `_` represents only one character.
 
-Therefore, `%chu` denotes any string that ends in 'chu'. `_chu` denotes any string with only one character before 'chu'. They can be chained together into complex patterns like `___taco%` which denotes any string containing 'taco' starting on the 4th character and with any number of characters after.
+Therefore, `%le` denotes any string that ends in 'le'. `_le` denotes any string with only one character before 'le'. They can be chained together into complex patterns like `___taco%` which denotes any string containing 'taco' starting on the 4th character and with any number of characters after.
 
 ```sql
 SELECT *
 FROM pokemon
-WHERE name LIKE '%chu';
+WHERE name LIKE '%le';
 ```
 
-The result of this statement is the three rows of the Pokémon whose names end in '-chu': Pichu, Pikachu and Raichu.
+The result of this statement is the two rows of the Pokémon whose names end in '-le': Squirtle and Wartortle.
+
+| name      | total | hp | attack | defense |
+|-----------|-------|----|--------|---------|
+| Squirtle  | 314   | 44 | 48     | 65      |
+| Wartortle | 405   | 59 | 63     | 80      |
 
 ---
 ## Practice
 
-Select all the columns from the `pokemon` table, keeping only the rows where the name is one of: 'groudon', 'snorlax' or 'wailord'.
+Select all the columns from the `pokemon` table, keeping only the rows where the name is one of: 'Groudon', 'Snorlax' or 'Wailord'.
 
 `SELECT * `
 `FROM pokemon`
@@ -71,12 +100,12 @@ Select all the columns from the `pokemon` table, keeping only the rows where the
 * WHERE
 * name
 * IN
-* ('groudon', 'snorlax', 'wailord')
+* ('Groudon', 'Snorlax', 'Wailord')
 * NAME IS
 * AND
-* 'groudon'
-* 'snorlax'
-* 'wailord'
+* 'Groudon'
+* 'Snorlax'
+* 'Wailord'
 * ALL
 
 ---

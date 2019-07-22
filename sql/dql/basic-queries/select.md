@@ -51,25 +51,25 @@ FROM pokemon;
 
 The above command gets all of the *columns* and all of the *rows* from the `pokemon` table.
 
-We can also use the `SELECT` statement to specify the exact *columns* we want to keep from the table, and to discard the others.
+We can also use the `SELECT` statement to specify the exact *columns* we want to keep from the table, and to discard the others. Depending on how the database was created, you might have to deal with complicated column names. In order to increase readability, the columns can be rename using *aliases* represented by the `AS` keyword.
 
 ```sql
-SELECT id, attack, defense
+SELECT id, hp AS 'Health Points', attack
 FROM pokemon;
 ```
 
-The above command gets only the `id`, `attack`, and `defense` columns from the table, but keeps all of the rows of the `pokemon` table. Here is how the resulting set looks like:
+The above command gets only the `id`, `hp`, and `attack` columns from the table, but keeps all of the rows of the `pokemon` table. On top of that, we create an *alias* for the `hp` column that reads 'Health Points'. It is important to keep in mind that *aliases* exist only for the duration of the query. Here is how the resulting set of our query looks like:
 
-| id | attack | defense |
-|----|--------|---------|
-| 10 | 30     | 35      |
-| 11 | 20     | 55      |
-| 12 | 45     | 50      |
-| 13 | 35     | 30      |
-| 14 | 25     | 50      |
-| 15 | 90     | 40      |
+| id | Health Points | attack |
+|----|---------------|--------|
+| 10 | 45            | 30     |
+| 11 | 50            | 20     |
+| 12 | 60            | 45     |
+| 13 | 40            | 35     |
+| 14 | 45            | 25     |
+| 15 | 65            | 90     |
 
-Remember, the information is not deleted, you're simply **querying** the database, but doing so in a way where you only receive the information contained in the specified columns.
+Remember, the information is not deleted from the database, you're simply **querying** the database, but doing so in a way where you only receive the information contained in the specified columns.
 
 ---
 ## Practice

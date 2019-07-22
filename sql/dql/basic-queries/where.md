@@ -31,38 +31,59 @@ aspects:
 ---
 ## Content
 
-When added to an SQL `SELECT` statement, `WHERE` allows us to select rows in a table by specifying rules. The `WHERE` keyword can also be used to insert, update and delete data from tables.
+When added to an SQL `SELECT` statement, `WHERE` allows us to select rows in a table by specifying rules. 
 
 You can write a conditional statement after `WHERE` and, for each row in the table, if the conditional statement evaluates to true, the row will be included in the query result. If not, it will not be included in the result.
 
-SQL supports logical operations and comparison operators, such as `=`, `<>`, `>`, `>=`, `<`, `<=`, `AND`, `OR`, `NOT`, `IN`, `BETWEEN`, `LIKE`, `IS NULL` or `IS NOT NULL`. Together, these predicates allow us to define complex rules for extracting just the data that we want from an SQL database. However, if we're not careful, we can easily miss some edge case here, and introduce bugs.
+SQL supports both comparison operators (`=`, `<>`, `>`, `>=`, `<`, `<=`) and logical operations (`AND`, `OR`, `NOT`, `IN`, `BETWEEN`, `LIKE`, `IS NULL`, `IS NOT NULL`). Together, these predicates allow us to define complex rules for extracting just the data that we want from an SQL database. However, if we're not careful, we can easily miss some edge case here, and introduce bugs.
 
-See this example:
+Let's consider the following `pokemon` table:
+
+| name       | level | hp | attack | defense |
+|------------|-------|----|--------|---------|
+| Rattata    | 1     | 30 | 56     | 35      |
+| Pidgeotto  | 1     | 63 | 60     | 55      |
+| Charmander | 3     | 44 | 57     | 48      |
+| Pikachu    | 5     | 45 | 65     | 50      |
+| Charmander | 10    | 50 | 66     | 54      |
+
+If we wanted to return the `name` and `level` of all the pokemons that are not named 'Charmander' and that don't have a level higher than 3 we would use the following query:
 
 ```sql
-SELECT id, weight, name
+SELECT name, level
 FROM pokemon
-WHERE name = 'charmander';
+WHERE name <> 'Charmander' AND level <= 3;
 ```
 
-This query will keep only the `id`, `weight` and `name` columns from the `pokemon` table, and only include the row where the value in the `name` column exactly equals `charmander`. Since there is only one row with this property—because there is only one Pokemon called 'Charmander'—we expect the result to have only one row.
+In this query we are using two conditionals: `name` is not equal (`<>`) to 'Charmander' and `level` is less than or equal (`<=`) to 3. More complex queries can be achieved by chaining multiple conditionals. The resulting set would look like this:
+
+| name      | level |
+|-----------|-------|
+| Rattata   | 1     |
+| Pidgeotto | 1     |
 
 ---
 ## Practice
 
-Select all the rows from the `pokemon` table where the weight is less than `500`.
+Select all the columns and rows from the `pokemon` table where the `level` is less than `10` *and* the `attack` is higher than 40.
 
-`SELECT * `
-`FROM pokemon`
-??? ???;
+```sql
+SELECT * 
+FROM pokemon
+??? ??? 10 ??? ??? 40;
+```
 
 
 * WHERE
-* weight < 500
+* level <
+* AND
+* attack >
 * FROM
 * pokemon
 * IS
-* weight IS GREATER THAN 500
+* level IS LESS THAN
+* attack IS GREATER THAN
+* OR
 
 ---
 ## Revision

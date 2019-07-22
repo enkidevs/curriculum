@@ -33,63 +33,95 @@ aspects:
 
 ### `AND`, `OR`, `NOT`, `BETWEEN`
 
-The predicates we use in `WHERE` can be conjoined using logical operators like `AND`, `OR` and `NOT`. They work as you would expect them to; you can include only the rows which satisfy both or either of two conditions using `AND` and `OR`, respectively. `NOT` negates the truth value of the predicate, so it now selects the rows that don't satisfy the condition.
+As you have seen in the previous insight, the predicates we use in `WHERE` can be conjoined using logical operators like `AND`, `OR` and `NOT`. They work as you would expect them to; you can include only the rows which satisfy both or either of two conditions using `AND` and `OR`, respectively. `NOT` negates the truth value of the predicate, so it now selects the rows that don't satisfy the condition.
+
+As always, let's take a look at this `pokemon` table:
+
+| id | name    | total | hp | attack | defense |
+|----|---------|-------|----|--------|---------|
+| 50 | Diglett | 265   | 10 | 55     | 25      |
+| 51 | Dugtrio | 425   | 35 | 100    | 50      |
+| 52 | Meowth  | 290   | 40 | 45     | 35      |
+| 53 | Persian | 440   | 65 | 70     | 60      |
+| 54 | Psyduck | 320   | 50 | 52     | 48      |
+| 55 | Golduck | 500   | 80 | 82     | 78      |
 
 ```sql
 SELECT *
 FROM pokemon
-WHERE name = 'charmander'
-  OR name = 'metapod';
+WHERE name = 'Meowth'
+  OR name = 'Golduck';
 ```
 
-This shows the rows where the name is an exact match of either 'charmander' or 'metapod'.
+This shows the rows where the `name` is an exact match of either 'Meowth' or 'Golduck'. The resulting set looks like this:
+
+| id | name    | total | hp | attack | defense |
+|----|---------|-------|----|--------|---------|
+| 52 | Meowth  | 290   | 40 | 45     | 35      |
+| 55 | Golduck | 500   | 80 | 82     | 78      |
+
+In the previous insight we have used the `<>` comparison operator to check if the `name` was not 'Charmander'. The same can be achieved using `!=` or by coupling a comparison operator (`=`) and a logical operation (`NOT`):
 
 ```sql
 SELECT *
 FROM pokemon
-WHERE NOT name = 'charmander';
+WHERE NOT name = 'Charmander';
 ```
 
-This statement shows all rows **except** for the one where name is equal to 'charmander'. You can use parenthesis to construct complex expressions, like so:
+This statement shows all rows **except** for the one where name is equal to 'Charmander'. In our case, this query would return all our records (rows) as we do not have any entries with the `name` 'Charmander'.
+
+Instead of chaining two comparison operators in your `WHERE` clause you can use the `BETWEEN` operator to define a range of acceptable values, like so:
 
 ```sql
 SELECT *
 FROM pokemon
-WHERE (name = 'charmander'
-  OR name = 'metapod')
-    AND height > '5';
+WHERE attack BETWEEN 60 AND 100;
 ```
 
-Finally, you can also use the `BETWEEN` operator to define a range of acceptable values, like so:
+The resulting set will be:
+
+| id | name    | total | hp | attack | defense |
+|----|---------|-------|----|--------|---------|
+| 51 | Dugtrio | 425   | 35 | 100    | 50      |
+| 53 | Persian | 440   | 65 | 70     | 60      |
+| 55 | Golduck | 500   | 80 | 82     | 78      |
+
+You can also use parenthesis to construct complex expressions, like so:
 
 ```sql
 SELECT *
 FROM pokemon
-WHERE weight BETWEEN '10000' AND '8000';
+WHERE (name = 'Diglett'
+  OR name = 'Dugtrio')
+    AND total BETWEEN 300 AND 500;
 ```
 
-This shows only the rows with weight values between 10,000 and 8,000.
+This query will only return the row with the `name` *Dugtrio* because for the record with the `name` *Diglett* the `total` value is not between 300 and 500.
+
+| id | name    | total | hp | attack | defense |
+|----|---------|-------|----|--------|---------|
+| 51 | Dugtrio | 425   | 35 | 100    | 50      |
 
 ---
 ## Practice
 
-Select all the columns from the `pokemon` table, keeping the rows where the weight is greater than 600 and height is greater than 15.
+Select all the columns from the `pokemon` table, keeping the rows where the `total` is greater than 350 and `attack` is greater than 15.
 
 `SELECT * `
 `FROM pokemon`
-??? ??? ??? ???;
+??? ??? 350 ??? ??? 15;
 
 
 * WHERE
-* weight > 600
+* total >
 * AND
-* height > 15
+* attack >
 * IS
-* weight IS GREATER THAN 600
-* GREATER THAN
-* MORE THAN
-* 600
-* 15
+* OR
+* total GREATER THAN
+* attack MORE THAN
+* total MORE THAN
+* attack GREATER THAN
 
 ---
 ## Revision

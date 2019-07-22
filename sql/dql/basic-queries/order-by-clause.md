@@ -41,117 +41,104 @@ aspects:
 ---
 ## Content
 
-`ORDER BY` clause enables users to order data in ascending or descending order on one or more columns. It comes after `GROUP BY` clause.
+`ORDER BY` clause enables users to order data in ascending or descending order on one or more columns.
 
-Considering the following example:
+Considering the following `employees` table:
+
+| id  | first_name | last_name | email                   |
+| --- | ---------- | --------- | ----------------------- |
+| 1   | Karlene    | Pantone   | kpantone0@topsy.com     |
+| 2   | Donnamarie | Beeho     | dbeeho1@state.tx.us     |
+| 3   | Tony       | Isworth   | tisworth2@bloglovin.com |
+| 4   | Esta       | Warrier   | ewarrier3@berkeley.edu  |
+| 5   | Immanuel   | Kippen    | ikippen4@biglobe.ne.jp  |
+| 6   | Regina     | Pantone   | regone@stratos.org      |
+
+Right now, the table is sorted in ascending order by the `id` column, but what if you need the results of your query to be sorted in ascending order by the `last_name` column? To achieve this you would use the following syntax: 
+
 ```sql
-SELECT COUNT(name), language_id
-FROM move_name
-GROUP BY language_id;
+SELECT last_name, first_name
+FROM employees
+ORDER BY last_name;
 ```
 
-*Result:*
-```
-count | language_id
-======+============
-  639 |           6
-  639 |           5
-  639 |           8
-  639 |           1
-  639 |           9
-  617 |           3
-  639 |           7
-(7 rows)
-```
+*Resulting set:*
 
-Now using `ORDER BY` clause:
-```sql
-SELECT COUNT(name), language_id
-FROM move_name
-GROUP BY language_id
-ORDER BY language_id;
-```
-
-*Result:*
-```
-count | language_id
-======+============
-  639 |           1
-  617 |           3
-  639 |           5
-  639 |           6
-  639 |           7
-  639 |           8
-  639 |           9
-(7 rows)
-```
+| last_name | first_name |
+| --------- | ---------- |
+| Beeho     | Donnamarie |
+| Isworth   | Tony       |
+| Kippen    | Immanuel   |
+| Pantone   | Karlene    |
+| Pantone   | Regina     |
+| Warrier   | Esta       |
 
 Note that the ascending order is set as default. If we want to display the result in a descending order we need to put `DESC` after specifying the columns.
+
+There might be some cases where you want your result set to be ordered by multiple columns, each being sorted differently (ascending or descending). In SQL, this is done by specifying the name of the column's you want ordered followed by their order, and each set of column-order should be separated by a column. 
+
+On the same `employees` table, to return the `last_name` and `first_name`, sorted in ascending order by the `last_name` and in descending order by the `first_name`, the command would be:
+
+```sql
+SELECT last_name, first_name
+FROM employees
+ORDER BY last_name ASC, first_name DESC;
+```
+
+*Resulting set*:
+
+| last_name | first_name |
+| --------- | ---------- |
+| Beeho     | Donnamarie |
+| Isworth   | Tony       |
+| Kippen    | Immanuel   |
+| Pantone   | Regina     |
+| Pantone   | Karlene    |
+| Warrier   | Esta       |
+
+First, the `last_name` column is sorted in ascending order, and for the rows where the `last_name` have equal values ('Pantone Karlene', 'Pantone Regina') the `first_name` column is sorted in descending order.
 
 ---
 ## Practice
 
-The `nature_name` table has data about the nature name in multiple languages. We have the fields:
-`name`, for nature name and `language_id` to reflect the given language.
-Count how many names we have for each language and order the result in descending order:
+The `nature_name` table contains data about the nature name in multiple languages, and it has the following columns:
+* `name`, for nature name
+* `language_id` to reflect the given language.
+
+Select both columns from the table and sort your resulting set in descending order by the `name` column:
+
 ```sql
-SELECT ???(name),language_id
-FROM ???
-GROUP BY language_id
-??? language_id ???;
-```
-Result:
-```
-count | language_id
-======+============
-   25 |           9
-   25 |           8
-   25 |           7
-   25 |           6
-   25 |           5
-   25 |           3
-   25 |           1
-(7 rows)
+SELECT name, ???
+FROM nature_name
+??? name ???;
 ```
 
-* COUNT
-* nature_name
+* language_id
 * ORDER BY
 * DESC
 * AVG
 * GROUP BY
-* language_id
+* nature_name
+* DESCENDING
+* SORT BY
 
 ---
 ## Revision
 
-We have a table called `location`. It has data about the location's name and the region that each location belongs to. We want to count how many locations has each region. Then we want to display the results in ascending order of the counted values.
+Complete the following code such that the resulting set will contain the `name` and `region_id` columns, sorted by the `region_id` in ascending order:
+
 ```sql
-SELECT ???(name),region_id
+SELECT name, region_id
 FROM location
-??? region_id
-ORDER BY ???;
-```
-Result:
-```
-count | region_id
-======+===========
-   64 |         2
-   82 |         3
-   90 |         1
-   91 |          
-  104 |         6
-  121 |         5
-  126 |         4
-(7 rows)
+??? ???;
 ```
 
-* COUNT
-* GROUP BY
-* count
-* region_id
 * ORDER BY
-* SUM
+* region_id
+* name
+* SORT BY
+* ASC
+* DESC
 
 ---
 ## Quiz 
