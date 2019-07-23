@@ -50,6 +50,12 @@ CREATE DATABASE my_first_db;
 
 This command creates a new database called *"my_first_db"*. Inside this database you can now start creating tables or insert data in said tables. Keep in mind that each database must hold an *unique* name. Having done this we can now follow with creating tables or altering already existing tables.
 
+Note that if the name is not unique, an error is usually thrown. To suppress the error and skip creating a duplicate database, you can use the `IF NOT EXISTS` clause which is used as such:
+
+```sql
+CREATE DATABASE IF NOT EXISTS my_first_db;
+```
+
 On the rare occasion where you might want to delete your database you can use the `DROP DATABASE` command followed by the name of the database you want deleted. Keep in mind that **all** the data within the database (including tables and data inside them) will be deleted. Here is how you would delete the database that was created earlier:
 
 ```sql

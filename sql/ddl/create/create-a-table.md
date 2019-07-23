@@ -60,7 +60,7 @@ CREATE TABLE employees(
 
 First we need to tell the database that we want to create a new table using the `CREATE TABLE` statement followed by the table name. Inside the `CREATE TABLE` statement you start defining your columns together with their types, and every subsequent pair of column-type must be preceded by a comma.
 
-Note that if the name is not unique, an error is usually thrown. To suppress the error and skip creating a duplicate table you can use the `IF NOT EXISTS` clause which is used as such:
+Note that if the name is not unique, an error is usually thrown. To suppress the error and skip creating a duplicate table, you can use the `IF NOT EXISTS` clause which is used as such:
 
 ```sql
 CREATE TABLE IF NOT EXISTS table_name (
