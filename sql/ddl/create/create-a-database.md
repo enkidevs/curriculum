@@ -42,28 +42,43 @@ aspects:
 ---
 ## Content
 
-We will create a PostgreSQL database. Using the terminal we need to enter the following command:
-```
+Previously, we have looked at how you can extract information from a database using queries, but there may be a time when you will want to create a new database, add a new table or simply edit the ones that already exist. To create an SQL database, we need to enter the following command:
+
+```sql
 CREATE DATABASE my_first_db;
 ```
-This command creates a new database called *"my_first_db"*.
 
-Note that PostgresSQL provides users with a command line executable for creating a database. Using:
+This command creates a new database called *"my_first_db"*. Inside this database you can now start creating tables or insert data in said tables. Keep in mind that each database must hold an *unique* name.
+
+There might times when you are working with multiple databases at one. In case, you might want to first display all the available databases, and following that select one to work on. To display all available databases you would use:
+
+```sql
+SHOW DATABASES;
 ```
-createdb [options...] [dbname][description]
+
+And the result would look like:
+
+| Database           |
+| ------------------ |
+| information_schema |
+| my_first_db        |
+| mysql              |
+| performance_schema |
+| sys                |
+| test               |
+
+Notice how the database we have created, `my_first_db`, is found between other databases that have already been created. Now, to select our database we would use:
+
+```sql
+USE my_first_db;
 ```
 
-Parameters:
-- `options` command-line arguments, that the db accepts
-- `dbname` database name
-- `description` optional initial comment that can be added
-
-The `createdb` command is a wrapper around the transact SQL query `CREATE DATABASE`. The only difference is that the former can be run from the command line and it enables users to add a initial comment in the db.
+Having done this we can now follow with creating tables or altering already existing tables.
 
 ---
 ## Practice
 
-Create a new database called "practice_qw".
+Create a new database called `practice_qw`.
 ```
 ??? ??? ???
 ```
@@ -79,16 +94,23 @@ Create a new database called "practice_qw".
 ---
 ## Revision
 
-Using `createdb` command, create a db called "test_db" and add an initial comment stating "DB created":
+Complete the following code such that you will create a new database called `my_db`, display all the available databases, and select `my_db` to work on.
+
 ```
-??? ??? "DB created"
+??? ??? my_db;
+
+??? DATABASES;
+
+??? my_db;
 ```
 
-* createdb
-* test_db
-* revision_qw
-* LIST
-* CREATE DATABASE
-* practice_qw
+* CREATE
+* DATABASE
+* SHOW
+* USE
+* MAKE
+* DB
+* SELECT
+* CREATE DB
  
  
