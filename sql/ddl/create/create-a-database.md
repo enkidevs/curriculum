@@ -48,32 +48,13 @@ Previously, we have looked at how you can extract information from a database us
 CREATE DATABASE my_first_db;
 ```
 
-This command creates a new database called *"my_first_db"*. Inside this database you can now start creating tables or insert data in said tables. Keep in mind that each database must hold an *unique* name.
+This command creates a new database called *"my_first_db"*. Inside this database you can now start creating tables or insert data in said tables. Keep in mind that each database must hold an *unique* name. Having done this we can now follow with creating tables or altering already existing tables.
 
-There might times when you are working with multiple databases at one. In case, you might want to first display all the available databases, and following that select one to work on. To display all available databases you would use:
-
-```sql
-SHOW DATABASES;
-```
-
-And the result would look like:
-
-| Database           |
-| ------------------ |
-| information_schema |
-| my_first_db        |
-| mysql              |
-| performance_schema |
-| sys                |
-| test               |
-
-Notice how the database we have created, `my_first_db`, is found between other databases that have already been created. Now, to select our database we would use:
+On the rare occasion where you might want to delete your database you can use the `DROP DATABASE` command followed by the name of the database you want deleted. Keep in mind that **all** the data within the database (including tables and data inside them) will be deleted. Here is how you would delete the database that was created earlier:
 
 ```sql
-USE my_first_db;
+DROP DATABASE my_first_db;
 ```
-
-Having done this we can now follow with creating tables or altering already existing tables.
 
 ---
 ## Practice

@@ -68,6 +68,12 @@ CREATE TABLE IF NOT EXISTS table_name (
 );
 ```
 
+To delete a table from a database, you can use the `DROP TABLE` command followed by the name of the table you want deleted. Keep in mind that the table and **all** the information inside it will be deleted. Here is how you would delete the `employees` table:
+
+```sql
+DROP TABLE employees;
+```
+
 ---
 ## Practice
 
