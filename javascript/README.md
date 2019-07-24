@@ -4,6 +4,6 @@ description: The engine of today’s internet, adding functionality from website
 
 icon: https://img.enkipro.com/1047cb60feda7a0db727dac157f4db0f.png
 
-color: F7DF1E
+color: C1A957
 
 language: js
