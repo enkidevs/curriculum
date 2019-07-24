@@ -17,6 +17,8 @@ aspects:
 
 links:
   - '[MDN docs for anchor](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a){website}'
+  - '[View CodePen example 1](https://codepen.io/enkidevs/pen/ejvqXx)'
+  - '[View CodePen example 2](https://codepen.io/enkidevs/pen/OwpKGj)'
 
 ---
 # Mailto:
@@ -34,8 +36,6 @@ Creating a link to open the user's default email program:
   Email me here
 </a>
 ```
-[View CodePen](https://codepen.io/enkidevs/pen/ejvqXx)
-
 
 The subject area of the email can also be auto loaded.
 
@@ -49,8 +49,6 @@ Example:
 Email me to sign up.
 </a>
 ```
-
-[View CodePen](https://codepen.io/enkidevs/pen/OwpKGj)
 
 ---
 ## Practice
