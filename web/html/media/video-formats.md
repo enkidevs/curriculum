@@ -35,8 +35,6 @@ As you can see, you really only need 2 HTML5 video formats for modern web browse
 
 This CodePen will provide all the necessary code - it's a decent chuck compared to just the `video` element.
 
-[View CodePen](https://codepen.io/enkidevs/pen/xJbYLE)
-
 **Note:**
 - If your video plays OK on your local computer, but doesn't play on the web server you should add the video types needed on the .htaccess file in your directory where the video is.
 
@@ -48,22 +46,8 @@ AddType video/mp4 .mp4
 AddType video/webm .webm
 ```
 
-
 ---
 ## Practice
-
-Match the browser with the video file format that it works with:
-
-Mozilla Firefox & Google Chrome & Opera: ???
-Apple Safari & IE9: ???
-IE 6-8: ???
-
-* WebM & Ogv
-* MP4
-* No HTML5, Flash Only!
-
----
-## Revision
 
 Finish the sentence:
 
