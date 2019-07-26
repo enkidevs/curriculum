@@ -49,6 +49,13 @@ FROM pokemon;
 
 What the above query does is that it `SELECT`s all (represented by the `*` symbol) the columns `FROM` the table named `pokemon`. The returned table will contain all of the *columns* and all of the *rows* from the table.
 
+Note that all the SQL keywords like `SELECT` and `FROM` are case insensitive, but they are capitalized to increase readability. The example above can also be written as:
+
+```sql
+select *
+from pokemon;
+```
+
 
 ---
 ## Practice
