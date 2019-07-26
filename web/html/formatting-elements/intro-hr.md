@@ -15,8 +15,8 @@ standards:
 aspects:
   - introduction
   - workout
+  
 links:
-  - '[Codepen: HR Element with Default Styles](https://codepen.io/enkidevs/pen/zayObZ){code}'
 
 ---
 # Intro hr
